@@ -9,7 +9,7 @@ CURRENT_DIR=`dirname "$0"`
 # input source for RST files
 RST_INPUT=$CURRENT_DIR"/../manual"
 # temp location for building docs
-HTML_BUILD=$CURRENT_DIR"/../html_release"
+HTML_BUILD=$CURRENT_DIR"/../build/html_release"
 # final output for docs (for upload)
 HTML_OUT=$CURRENT_DIR"/../../blender-manual-html"
 
