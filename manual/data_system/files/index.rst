@@ -1,0 +1,17 @@
+.. _files-index:
+
+#########
+  Files
+#########
+
+.. toctree::
+   :maxdepth: 1
+
+   introduction.rst
+   open.rst
+   save.rst
+   import.rst
+   export.rst
+   formats.rst
+   formats/openexr.rst
+   formats/dpx,_cineon,_hdr.rst
