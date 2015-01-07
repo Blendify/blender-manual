@@ -1,0 +1,232 @@
+#!/usr/bin/env python3
+
+# ##### BEGIN GPL LICENSE BLOCK #####
+#
+#  This program is free software; you can redistribute it and/or
+#  modify it under the terms of the GNU General Public License
+#  as published by the Free Software Foundation; either version 2
+#  of the License, or (at your option) any later version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with this program; if not, write to the Free Software Foundation,
+#  Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+#
+# ##### END GPL LICENSE BLOCK #####
+
+# <pep8 compliant>
+
+"""
+General purpose tool for remapping directory structure of RestructuredText documents.
+
+This tool allows you to snapshot the structure, move files and directories about,
+then finish the operation and all :doc:`... </path/to/file>` roles will be updated automatically.
+"""
+
+
+# -----------------------------------------------------------------------------
+# Generic Func's
+
+def uuid_from_file(fn, block_size=1 << 20):
+    """
+    Returns an arbitrary sized unique ASCII string based on the file contents.
+    (exact hashing method may change).
+    """
+    with open(fn, 'rb') as f:
+        # first get the size
+        import os
+        f.seek(0, os.SEEK_END)
+        size = f.tell()
+        f.seek(0, os.SEEK_SET)
+        del os
+        # done!
+
+        import hashlib
+        sha1 = hashlib.new('sha512')
+        while True:
+            data = f.read(block_size)
+            if not data:
+                break
+            sha1.update(data)
+        # skip the '0x'
+        return hex(size)[2:] + sha1.hexdigest()
+
+
+# -----------------------------------------------------------------------------
+# RST Functions
+
+def role_iter(fn, role, angle_brackets=False):
+    """
+    Convenience iterator for roles,
+    so you can loop over and manipulate roles without the hassle of involved string manipulation.
+    """
+    import re
+    if angle_brackets:
+        dir_re = re.compile(r"(\:" + role + "\:\`)([^\<,\n]*)(\s+\<)([^\,\n>]+)(\>\`)")
+    else:
+        dir_re = re.compile(r"(\:" + role + "\:\`)([^`,\n]*)(\`)")
+    dir_find = ":" + role + ":"
+
+    with open(fn, "r", encoding="utf-8") as f:
+        data_src = f.read()
+
+    # keep searching the tail of the list until we're done
+    data_dst_ls = [data_src]
+    offset = 0
+    while True:
+        offset = data_dst_ls[-1].find(dir_find, offset)
+        if offset == -1:
+            break
+
+        g = dir_re.match(data_dst_ls[-1][offset:])
+        if g:
+            offset_next = offset + g.span()[1]
+            ls_orig = list(g.groups())
+            ls = ls_orig[:]
+            yield ls
+            if ls != ls_orig:
+                data_dst_ls[-1:] = [data_dst_ls[-1][:offset]] + ls + [data_dst_ls[-1][offset_next:]]
+                offset = 0
+            else:
+                offset = offset_next
+        else:
+            offset += len(role)
+
+    if len(data_dst_ls) != 1:
+        with open(fn, "w", encoding="utf-8") as f:
+            f.write("".join(data_dst_ls))
+
+
+# -----------------------------------------------------------------------------
+# Command Line Interface
+
+import os
+import sys
+
+
+def fatal(msg):
+    if __name__ == "__main__":
+        sys.stderr.write("fatal: ")
+        sys.stderr.write(msg)
+        sys.stderr.write("\n")
+        sys.exit(1)
+    else:
+        raise RuntimeError(msg)
+
+
+# if you want to operate on a subdir, eg: "render"
+SUBDIR = ""
+CURRENT_DIR = os.path.abspath(os.path.dirname(__file__))
+RST_DIR = os.path.normpath(os.path.join(CURRENT_DIR, "..", "manual", SUBDIR))
+
+# name for temp file
+RST_MAP_ID = "rst_map.data"
+
+
+def rst_files(path):
+    for dirpath, dirnames, filenames in os.walk(path):
+        if dirpath.startswith("."):
+            continue
+
+        for filename in filenames:
+            ext = os.path.splitext(filename)[1]
+            if ext.lower() == ".rst":
+                yield os.path.join(dirpath, filename)
+
+
+def remap_data_create(base_path):
+
+    if os.sep != "/":
+        def compat_path(fn):
+            return "/" + fn.replace("\\", "/")
+    else:
+        def compat_path(fn):
+            return "/" + fn
+
+    remap_data = {}
+    for fn in rst_files(base_path):
+        file_hash = uuid_from_file(fn)
+        file_rstpath = compat_path(os.path.splitext(os.path.relpath(fn, base_path))[0])
+        remap_data[file_hash] = file_rstpath
+
+    return remap_data
+
+
+def remap_start(base_path):
+    filepath_remap = os.path.join(base_path, RST_MAP_ID)
+
+    if os.path.exists(filepath_remap):
+        fatal("Remap in progress, run with 'finish' or remove %r" % filepath_remap)
+
+    remap_data_src = remap_data_create(base_path)
+
+    with open(filepath_remap, 'wb') as fh:
+        import pickle
+        pickle.dump(remap_data_src, fh, pickle.HIGHEST_PROTOCOL)
+
+
+def remap_finish(base_path):
+    filepath_remap = os.path.join(base_path, RST_MAP_ID)
+
+    if not os.path.exists(filepath_remap):
+        fatal("Remap not started, run with 'start', (%r not found)" % filepath_remap)
+
+    with open(filepath_remap, 'rb') as fh:
+        import pickle
+        remap_data_src = pickle.load(fh)
+
+    remap_data_dst = remap_data_create(base_path)
+
+    src_dst_map = {}
+
+    for file_hash, file_rstpath_src in remap_data_src.items():
+        file_rstpath_dst = remap_data_dst.get(file_hash)
+        if file_rstpath_dst is None:
+            # shouldn't happen often.
+            print("warning: source '%s.rst' not found!" % file_rstpath_src[1:])
+            file_rstpath_dst = file_rstpath_src
+
+        src_dst_map[file_rstpath_src] = file_rstpath_dst
+        if file_rstpath_src.endswith("/index") and file_rstpath_src != "/index":
+            src_dst_map[file_rstpath_src[:-6]] = file_rstpath_dst[:-6]
+
+    # now remap the doc links
+
+    for fn in rst_files(base_path):
+        for d in role_iter(fn, "doc", angle_brackets=True):
+            file_rstpath_src = d[-2].strip()
+            if "#" in file_rstpath_src:
+                file_rstpath_src, tail = file_rstpath_src.split("#", 1)
+            else:
+                tail = None
+
+            file_rstpath_dst = src_dst_map.get(file_rstpath_src)
+            if file_rstpath_dst is not None:
+                if tail is not None:
+                    file_rstpath_dst = file_rstpath_dst + "#" + tail
+                d[-2] = file_rstpath_dst
+            else:
+                print("warning: unknown path %r" % file_rstpath_src)
+
+    os.remove(filepath_remap)
+
+
+def main(argv=sys.argv):
+    base_path = RST_DIR
+
+    if "start" in argv:
+        remap_start(base_path)
+    elif "finish" in argv:
+        remap_finish(base_path)
+    else:
+        print(__doc__)
+        if "--help" not in argv:
+            print("Pass either 'start' or 'finish' as arguments")
+
+
+if __name__ == "__main__":
+    main()
