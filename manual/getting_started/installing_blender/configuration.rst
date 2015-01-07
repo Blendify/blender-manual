@@ -9,25 +9,25 @@ The full list and explanation of the preferences is in the section :doc:`User Pr
 Language
 ========
 
-At :menuselection:`File -> User Preferences -> System`, enable ``International Fonts`` to choose the ``Language`` and
-what to translate from ``Interface``, ``Tooltips`` and ``New Data``. See more at
-:doc:`Internationalization </getting_started/basics/interface/internationalization>`
+At :menuselection:`File --> User Preferences --> System`, enable ``International Fonts`` to choose the
+``Language`` and what to translate from ``Interface``, ``Tooltips`` and ``New Data``.
+See more at :doc:`Internationalization </getting_started/basics/interface/internationalization>`
 
 
 Input
 =====
 
 If you have a compact keyboard without a separate number pad enable
-:menuselection:`File -> User Preferences -> Emulate Numpad`.
+:menuselection:`File --> User Preferences --> Emulate Numpad`.
 
 If you don't have a middle mouse button you can enable
-:menuselection:`File -> User Preferences -> Emulate 3 Button Mouse`.
+:menuselection:`File --> User Preferences --> Emulate 3 Button Mouse`.
 
 
 File and Paths
 ==============
 
-At :menuselection:`File -> User Preferences -> File`
+At :menuselection:`File --> User Preferences --> File`
 you can set options such as what external ``Image Editor`` to use,
 such as GIMP or Krita, and the Animation Player.
 
