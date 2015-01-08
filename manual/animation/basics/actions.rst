@@ -192,6 +192,7 @@ Editing
    Insert Keyframes on current frame :kbd:`I`
    Delete Keyframes on current frame :kbd:`Alt-I`
 
+.. _animation-basics-actions-working_with_actions:
 
 Working with Actions
 ====================

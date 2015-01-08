@@ -42,7 +42,7 @@ The Action Editor
 -----------------
 
 - :doc:`Actions </animation/basics/actions>`
-- :doc:`Creating Actions </animation/basics/actions#working-with-actions>`
+- :ref:`animation-basics-actions-working_with_actions`
 
 Animation Techniques
 --------------------
@@ -55,9 +55,8 @@ Animation Techniques
 Animating Deformation
 ---------------------
 
-- :doc:`Methods of deformation </modifiers#deform>`
 - :doc:`Shape Keys </animation/techs/shape/shape_keys>`
-- :doc:`Deforming by a Lattice </modifiers#deform/lattice>`
+- :doc:`Deforming by a Lattice </modifiers/deform/lattice>`
 - :doc:`Deforming with Hooks </modifiers/deform/hooks>`
 
 See also :doc:`Hook Modifier </modifiers/deform/hooks>`

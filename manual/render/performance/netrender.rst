@@ -43,8 +43,6 @@ The old one can be viewed using the following url scheme:
 ``http[s]://master_ip_address:master_port``.
 The new one based on jquery and in development can be viewed using following url scheme:
 ``http[s]://master_ip_address:master_port/html/newui``.
-All information regarding the new web interface can be found
-:doc:`here </render/performance/netrender.html#master-web-interface>`.
 
 
 Slave(s)
