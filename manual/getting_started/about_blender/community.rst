@@ -43,6 +43,8 @@ in local languages or devoted to specialized topics.
 A constantly updated list of Blender resources can be found at the above mentioned sites.
 
 
+.. _irc-channels:
+
 IRC Channels
 ============
 
