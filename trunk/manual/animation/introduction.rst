@@ -42,7 +42,7 @@ The Action Editor
 -----------------
 
 - :doc:`Actions </animation/basics/actions>`
-- :doc:`Creating Actions </animation/creating_actions>`
+- :doc:`Creating Actions </animation/basics/actions#working-with-actions>`
 
 Animation Techniques
 --------------------
@@ -55,9 +55,9 @@ Animation Techniques
 Animating Deformation
 ---------------------
 
-- :doc:`Methods of deformation </animation/basic/deformation>`
+- :doc:`Methods of deformation </modifiers#deform>`
 - :doc:`Shape Keys </animation/techs/shape/shape_keys>`
-- :doc:`Deforming by a Lattice </animation/basic/deformation/lattice>`
+- :doc:`Deforming by a Lattice </modifiers#deform/lattice>`
 - :doc:`Deforming with Hooks </modifiers/deform/hooks>`
 
 See also :doc:`Hook Modifier </modifiers/deform/hooks>`
@@ -66,7 +66,7 @@ Drivers
 -------
 
 - :doc:`Drivers </animation/basics/drivers>`
-- :doc:`Driven Shape Keys </animation/driven_shape_keys>`
+- :doc:`Driven Shape Keys </animation/techs/shape/shape_keys>`
 
 The `Introduction to Character Animation tutorial
 <http://wiki.blender.org/index.php/Doc:Tutorials/Animation/BSoD/Character_Animation BSoD>`__

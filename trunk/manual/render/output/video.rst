@@ -208,16 +208,16 @@ Frameserver
    as part of a render farm.
    The port number is specified in the OpenGL User Preferences panel.
 H.264
-   Encodes movies with the H.264 codec. See :doc:`Advanced Encoding </render/output_options#advanced_encoding>`.
+   Encodes movies with the H.264 codec. See :doc:`Advanced Encoding </render/output/video#advanced_encoding>`.
 MPEG
-   Encodes movies with the MPEG codec. See :doc:`Advanced Encoding </render/output_options#advanced_encoding>`.
+   Encodes movies with the MPEG codec. See :doc:`Advanced Encoding </render/output/video#advanced_encoding>`.
 Ogg Theora
    Encodes movies with the Theora codec as Ogg files.
-   See :doc:`Advanced Encoding </render/output_options#advanced_encoding>`.
+   See :doc:`Advanced Encoding </render/output/video#advanced_encoding>`.
 QuickTime
    Apple's Quicktime .mov file.
    The Quicktime codec dialog is available when this codec is installed and this format is initially chosen.
-   See :doc:`Quicktime Encoding </render/output_options#quicktime>`.
+   See :doc:`Quicktime Encoding </render/output/video#quicktime>`.
 
    .. note:: Reads GIF if QuickTime is Installed
 
@@ -226,7 +226,7 @@ QuickTime
       The GIF capabilities (as well as flattened PSD,
       flattened PDF on Mac, and others) come along with QuickTime.
 Xvid
-   Encodes movies with the Xvid codec. See :doc:`Advanced Encoding </render/output_options#advanced_encoding>`.
+   Encodes movies with the Xvid codec. See :doc:`Advanced Encoding </render/output/video#advanced_encoding>`.
 
 
 Advanced Encoding

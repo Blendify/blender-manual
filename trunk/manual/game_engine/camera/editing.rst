@@ -50,7 +50,7 @@ Standalone Player
 
 
 This panel provides information for the Standalone Game Player which allows games to be run without Blender.
-See :doc:`Standalone Player </game_engine/standalone_player>` for further details.
+See :doc:`Standalone Player </game_engine/blender_player>` for further details.
 
 Fullscreen -
    Off - opens standalone game as a new window.

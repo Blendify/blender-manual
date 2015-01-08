@@ -38,7 +38,7 @@ through compositing nodes can further increase the depth and spacial clarity of 
 .. note::
 
    Some of the settings under the World panel in Blender affect lighting so you find them under the
-   :doc:`Lighting </render/blender_render/lighting>` chapter (see :doc:`Ambient Light </lighting/environment>`,
+   :doc:`Lighting </render/blender_render/lighting>` chapter (see :doc:`Ambient Light </render/blender_render/lighting/ambient_light>`,
    :doc:`Exposure </render/exposure>` and
    :doc:`Ambient Occlusion </render/blender_render/lighting/ambient_occlusion>`).
    When using a *Sun Lamp* options for *Sky & Atmosphere*

@@ -156,7 +156,7 @@ Pinning
 
 The first thing you need when pinning cloth is a :doc:`Vertex Group </modeling/meshes/vertex_groups>`.
 There are several ways of doing this including using the Weight Paint tool to paint the areas you want to pin
-(see the :doc:`Weight paint </modeling/meshes/weight_paint>` section of the manual).
+(see the :doc:`Weight paint </modeling/meshes/vertex_groups/weight_paint>` section of the manual).
 
 Once you have a vertex group set, things are pretty straightforward; all you have to do is
 press the *Pinning of cloth* button in the *Cloth* panel and select which

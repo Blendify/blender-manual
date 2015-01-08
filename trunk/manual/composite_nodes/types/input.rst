@@ -352,7 +352,7 @@ Generated Images
 
 `Using the Nodes to modify a painting in progress in the
 UV/Image window <http://wiki.blender.org/index.php/File:Manual-Compositing-Node-Image-Generagedjpg>`__
-Blender features :doc:`Texture Paint </textures/paint/painting_the_texture>` which works in the UV/Image Editor,
+Blender features :doc:`Texture Paint </render/blender_render/textures/painting/projection>` which works in the UV/Image Editor,
 that allows you to paint on the fly, and the image is kept in memory or saved.
 If sync lock is enabled (the lock icon in the header),
 changes are broadcast throughout Blender as soon as you lift the mouse button.
@@ -653,7 +653,7 @@ since the timespan is 250 frames and the line is straight from corner to corner,
 
 .. note:: Note on output values
 
-   The :doc:`Map Value </osite_nodes/types/vector#map_value_node>`
+   The :doc:`Map Value </composite_nodes/types/vector#map_value_node>`
    node can be used to map the output to a more appropriate value.
    With some time curves, it is possible that the Time node may output a number larger than one or less than zero.
    To be safe, use the Min/Max clamping function of the Map Value node to limit output.

@@ -132,7 +132,7 @@ Hints
 =====
 
 - A very important configurable in the case of Soft Body interactions is
-  :doc:`World properties </game_engine/physics/world>` :menuselection:`--> Physics --> Physics Steps --> Substeps`.
+  :doc:`World properties </game_engine/world>` :menuselection:`--> Physics --> Physics Steps --> Substeps`.
   In the test ``.blend`` here:
   `Manual-BGE-Physics-SoftBody_PhysicsSteps.blend
   <http://wiki.blender.org/index.php/Media:Manual-BGE-Physics-SoftBody_PhysicsSteps.blend>`__,

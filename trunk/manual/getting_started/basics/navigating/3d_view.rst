@@ -455,8 +455,8 @@ or you apparently cannot move the camera any nearer. As an example,
 try to navigate to a very distant object in the view with traditional methods
 (explained above) and see what you can get.
 
-With :doc:`Walk mode </3d_interaction/navigating/3d_view/navigation_modes#walk_mode>` and
-:doc:`Fly mode </3d_interaction/navigating/3d_view/navigation_modes#fly_mode>` you move, pan and tilt,
+With :doc:`Walk mode </getting_started/basics/navigating/3d_view#walk_mode>` and
+:doc:`Fly mode </getting_started/basics/navigating/3d_view#fly_mode>` you move, pan and tilt,
 and dolly the camera around without any of those limitations.
 
 

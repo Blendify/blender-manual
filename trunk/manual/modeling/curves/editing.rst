@@ -83,7 +83,7 @@ Snapping
    | Panel:    *Curve Tools* (*Editing* context)
 
 
-:doc:`Mesh snapping </modeling/meshes/snapping>` also works with curve components.
+:doc:`Mesh snapping </3d_interaction/transform_control/snap>` also works with curve components.
 Both control points and their handles will be affected by snapping,
 except for within itself (other components of the active curve).
 Snapping works with 2D curves but points will be constrained to the local XY axes.

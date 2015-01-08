@@ -252,7 +252,7 @@ or cylinders, you must set to specific values the weights of the control points 
 which are provided as presets in the *Curve Tools* panel (lower right corner).
 This is not intuitive, and you should read more on NURBS before trying this.
 
-We saw with 1D :doc:`NURBS curves </ling/curves#preset_weights>` how to create a circle;
+We saw with 1D :doc:`NURBS curves </modeling/curves#preset_weights>` how to create a circle;
 let's see how to create a sphere with 2D surfaces.
 It is the same principle - you'll note that the four different weights needed for creating a sphere
 (**1.0**, **0.707** = ``sqrt(0.5)``, **0.354** = ``sqrt(2)/4``, and **0.25**)

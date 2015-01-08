@@ -44,5 +44,5 @@ and then come back here.
 .. seealso::
 
    As usual, see the :doc:`tutorials </rigging>` for more demonstrative examples,
-   and especially :doc:`this BSoD one </nimation/bsod/character_animation#animation>`.
+   and especially :doc:`this BSoD one </animation/bsod/character_animation#animation>`.
 

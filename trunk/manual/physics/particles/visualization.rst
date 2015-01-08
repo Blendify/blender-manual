@@ -12,7 +12,7 @@ Particle Visualization
 With the items in the *Display* and *Render* panel you can set the way the particles will be
 rendered or depicted in the view ports in various ways.
 Some option are valid only for the 3D window, the particles then are rendered always as
-:doc:`Halos </materials/halos>`. Some of the options will be rendered as shown in the 3D window.
+:doc:`Halos </render/blender_render/materials/special_effects/halo>`. Some of the options will be rendered as shown in the 3D window.
 
 
 Viewport Display
@@ -110,7 +110,7 @@ Halo
 ====
 
 
-Halo particles are rendered as :doc:`Halo Type Materials </materials/halos>`.
+Halo particles are rendered as :doc:`Halo Type Materials </render/blender_render/materials/special_effects/halo>`.
 
 Trail Count
    Set the number of trail particles. When greater than 1, additional options appear.
@@ -151,7 +151,7 @@ Path
    Image 3: The Visualization panel for Path visualization.
 
 
-The *Path* visualization needs a :doc:`Hair </physics/hair>` particle system or
+The *Path* visualization needs a :doc:`Hair </physics/particles/hair>` particle system or
 :doc:`Keyed </physics/particles/physics/keyed>` particles.
 
 Strand render
