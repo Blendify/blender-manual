@@ -1,46 +1,63 @@
 
-**************************************
-Getting support: the Blender community
-**************************************
+*********************
+The Blender Community
+*********************
 
-Being freely available from the start, even while closed source,
-helped considerably in Blender's adoption. A large, stable, and active community of users has gathered
-around Blender since 1998. The community showed its support for Blender in 2002 when they helped raise
-€100,000 in seven weeks to enable Blender to go Open Source under the `GNU GPL
-<http://www.gnu.org/copyleft/gpl.html>`__.
+Being freely available from the start, even while closed source, helped considerably in Blender's adoption.
+A large, stable, and active community of users has gathered around Blender since 1998.
+The community showed its support for Blender in 2002 when they helped raise
+€100,000 in seven weeks to enable Blender to go Open Source under the
+`GNU GPL <http://www.gnu.org/copyleft/gpl.html>`__.
 
-The community spans two widely overlapping sites:
 
-----
+Who uses Blender?
+=================
 
-.. figure:: /images/(Doc_26x_Manual_Introduction_Community)_(Blender_Foundation_Logo)_(GNVAFN).jpg
-   :align: right
-   :target: http://www.blender.org/foundation
+Blender has a wide variety of tools making it suitable for almost any sort of media production.
+People and studios around the world use it for hobby projects, commercials, feature films,
+games and other interactive applications like kiosks, games
+and scientific research.
 
-The Development Community, centered around the `Blender Foundation site <http://www.blender.org/foundation>`__.
-Here you will find the home of the development projects,
-the Functionality and Documentation Boards, the CVS repository with Blender sources,
-all documentation sources, and related public discussion forums.
-Developers contributing code to Blender itself, Python scripters, documentation writers,
-and anyone working for Blender development in general can be found here.
+Check out the `User Stories page <http://www.blender.org/features/user-stories/>`__
+on the Blender website for more examples.
 
-----
 
-.. figure:: /images/(Doc_26x_Manual_Introduction_Community)_(Blender_Artists_Logo)_(GNVAFN).jpg
-   :align: left
-   :target: http://www.BlenderArtists.org
+Independent Sites
+=================
 
-The User Community, centered around the independent `BlenderArtists <http://www.BlenderArtists.org/>`__ site.
-Here Blender artists, game-makers and fans gather to show their creations, get feedback,
-ask for and offer help to get a better insight into Blender's functionality.
-Blender tutorials can be found here as well.
+There are `several independent websites <http://www.blender.org/support/user-community/>`__  such as forums,
+blogs, news and tutorial sites dedicated to Blender.
 
-----
+One of the largest community forums is `Blender Artists <http://blenderartists.org/forum/>`__, where Blender users
+gather to show off their creations, get feedback, ask and offer help and in general discuss Blender.
 
-These two websites are not the only Blender resources.
-The worldwide community has created a large number of independent sites,
-in local languages or devoted to specialized topics.
-A constantly updated list of Blender resources can be found at the above mentioned sites.
+
+Support
+=======
+
+Blender's community is one of its greatest features, so apart from this user manual there are many
+different ways to get support from other users, such as :ref:`IRC <irc-channels>` and
+`Stack Exchange <http://blender.stackexchange.com/>`__.
+
+There are also more official sources of support,
+such as `Certified Trainers <http://blender.org/certification/>`__ and
+the `Blender Cloud <http://cloud.blender.org/>`__. If you think you have found an issue with Blender,
+you can easily `report a bug <https://developer.blender.org/maniphest/task/create/?project=2&type=Bug>`__.
+
+More details about support can be found on the `support page <http://www.blender.org/support/>`__.
+
+
+Development
+===========
+
+Being open source, some of Blender's development is done by volunteers.
+Communication between developers is done mostly through three platforms:
+
+- The `developer.blender.org <http://developer.blender.org/>`__ system
+- Various `mailing lists <http://lists.blender.org/mailman/listinfo>`__
+- The #blendercoders IRC channel (see below)
+
+If you are interested in helping develop Blender, see the `Get Involved <http://www.blender.org/get-involved/>`__ page.
 
 
 .. _irc-channels:
@@ -62,17 +79,11 @@ You can join these with your favorite IRC client:
 - `#gameblender <irc://irc.freenode.net/gameblender>`__
   For discussion on issues related to game creation with the GE
 - `#blenderwiki <irc://irc.freenode.net/blenderwiki>`__
-  For discussion related to Blenders documentation
+  For discussion related to Blender's documentation
 
-Note that there also other channels not listed here (i.e. channels for speakers of a particular language).
+.. note::
+
+   If you do not have an IRC client, you can access IRC using `webchat <http://webchat.freenode.net/>`__.
+
+There also several more Blender-related channels not listed here (e.g. channels for speakers of a particular language).
 We recommend you search Freenode to see them all.
-
-Who uses Blender?
-=================
-
-Blender has a wide variety of tools for tasks including modeling, animation, rendering, post-production, and
-video editing that make it suitable for almost any sort of media production. People and studios around the world
-use it for hobby projects, commercials, feature films, games and other interactive applications like kiosks,
-and scientific research.
-Check out the `User Stories page <http://www.blender.org/features/user-stories/>`__
-on the Blender website for more examples.
