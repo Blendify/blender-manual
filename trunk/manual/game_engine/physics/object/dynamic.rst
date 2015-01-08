@@ -60,6 +60,7 @@ FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/TransformOptions;
 {{Doc:2.6/Manual/Game_Engine/Physics/TransformOptions}}
 )
 
+.. _game_engine-physics-object-collision_bounds:
 
 Collision Bounds
 ================
