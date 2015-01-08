@@ -41,7 +41,7 @@ Advanced Transformations
    shear the selection. Shearing causes parallel selections to move past one another.
 :doc:`Warp </3d_interaction/transformations/advanced/warp>`
    warp the selection.
-:doc:`Shrink/Fatten </3d_interaction/transformations/advanced/shrink_fatten>`
+:doc:`Shrink/Fatten </modeling/meshes/editing/deforming/shrink-fatten>`
    Move vertices along their normals (Mesh Editmode only).
 :doc:`Push/Pull </3d_interaction/transformations/advanced/push_pull>`
    push or pull the selection

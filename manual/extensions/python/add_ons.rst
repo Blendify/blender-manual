@@ -63,7 +63,7 @@ To create a personnal script folder:
 - Fill the *Scripts* entry with the path to your script folder (i.e. 'script_addon_2-6x').
 
 For information on the location of blender directories
-see: :doc:`Configuration & Data Paths </introduction/installing_blender/directorylayout>`
+see: :doc:`Configuration & Data Paths </getting_started/installing_blender/directorylayout>`
 
 
 Enabling and Disabling

@@ -42,7 +42,7 @@ Blender offers a few tricks of its own to let you do the same.
 .. note::
 
    To follow sections below you will need to know how to adjust
-   :doc:`Camera Settings </render/cameras#camera_settings>`
+   :doc:`Camera Settings </render/camera#camera_settings>`
 
 
 Three Point Rendering

@@ -18,11 +18,11 @@ Markers can be created and edited in all of the following editors
 
 
 - The :doc:`Graph Editor Window </animation/editors/graph>`.
-- The :doc:`Action Editor window </animation/actions>`.
-- The :doc:`The Dope Sheet </animation/dope_sheet>`.
+- The :doc:`Action Editor window </animation/basic/actions>`.
+- The :doc:`The Dope Sheet </animation/editors/dopesheet>`.
 - The :doc:`NLA Editor window </animation/editors/nla>`.
 - The :doc:`Video Sequence Editor window </editors/sequencer>`.
-- The :doc:`Timeline window </animation/timeline>`.When you create
+- The :doc:`Timeline window </animation/editors/timeline>`.When you create
 
 A marker created in one of these windows will also appear in all others that support them,
 including:

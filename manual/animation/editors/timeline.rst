@@ -83,7 +83,7 @@ Markers are usually used to identify key parts of the animation.
 Markers can be selected by pressing :kbd:`RMB` or :kbd:`Shift-RMB` to select more.
 
 See :doc:`Marker Menu </animation/editors/timeline#marker_menu>` below or
-:doc:`Markers </animation/markers>` for more info.
+:doc:`Markers </animation/basics/markers>` for more info.
 
 
 Adjusting the View

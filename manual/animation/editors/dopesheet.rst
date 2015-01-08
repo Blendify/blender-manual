@@ -136,7 +136,7 @@ Set Preview Range:kbd:`P`
    Interactively define frame range used for playback.
    Allow you to define a temporary preview range to use for the :kbd:`Alt-A` realtime playback
    (this is the same thing as the *Pr* option of the
-   :doc:`Timeline window header </animation/timeline#header_controls>`).
+   :doc:`Timeline window header </animation/editors/timeline#header_controls>`).
 Clear Preview Range:kbd:`Alt-P`
    Clears the preview range
 Auto-Set Preview Range
@@ -146,10 +146,10 @@ Auto-Set Preview Range
 Select Menu
 -----------
 
-See :doc:`FCurve Editing </animation/editors/graph/fcurves/editing>`
+See :doc:`FCurve Editing </animation/editors/graph/editing>`
 
 
 Marker Menu
 -----------
 
-See the :doc:`Markers page </animation/markers>`.
+See the :doc:`Markers page </animation/basics/markers>`.

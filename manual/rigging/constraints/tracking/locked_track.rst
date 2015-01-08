@@ -45,7 +45,7 @@ and *Locked Track* can spin the owner around that axle to a secondary target.
 This constraints also works very well for 2D billboarding.
 
 This is all related to the topic discussed at length in the
-:doc:`2.49 BSoD tracking tutorial </ls/animation/armatures/bsod/tracking>`.
+:doc:`2.49 BSoD tracking tutorial </ls/animation/techs/armatures/bsod/tracking>`.
 
 
 Options

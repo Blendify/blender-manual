@@ -65,7 +65,7 @@ This is useful for making textures of solid or semi-transparent objects from pho
 reference material - a mask is made with alpha opaque for pixels within the object,
 and transparent for pixels outside the object.
 
-See :doc:`Mask Transparency </materials/properties/mask_transparency>`.
+See :doc:`Mask Transparency </render/blender_render/materials/properties/transparency>`.
 
 
 Z Buffer

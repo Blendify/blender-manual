@@ -169,8 +169,8 @@ Edit Mode
 The cursor becomes a brush in:
 
 
-- :doc:`Vertex Paint </materials/vertex_paint>` mode
-- :doc:`Weight Paint </modeling/meshes/weight_paint>` mode
+- :doc:`Vertex Paint </render/blender_render/materials/special_effects/vertex_paint>` mode
+- :doc:`Weight Paint </modeling/meshes/vertex_groups/weight_paint>` mode
 - :doc:`Texture Paint </render/blender_render/textures/painting>` mode.
 
 
