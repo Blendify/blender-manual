@@ -76,14 +76,6 @@ Video: From Blender 1.60 to 2.50
 Version/Revision Milestones
 ===========================
 
-.. tip:: Release Notes
-
-   To see release notes for each version, you can click on the version number.
-
-   .. note::
-
-      From 1.00 to 2.28, there are no release notes*
-
 
 The start!
 ----------
