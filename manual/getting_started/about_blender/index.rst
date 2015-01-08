@@ -1,8 +1,8 @@
 .. _introduction-index:
 
-###############
-  Introduction
-###############
+################
+  About Blender
+################
 
 .. toctree::
 

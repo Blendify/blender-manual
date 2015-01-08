@@ -7,6 +7,6 @@
 .. toctree::
    :maxdepth: 2
 
-   introduction/index.rst
+   about_blender/index.rst
    installing_blender/index.rst
    basics/index.rst
