@@ -1,6 +1,7 @@
 
 ..    TODO/Review: {{review|text= delta transforms}} .
 
+********************
 Transform Properties
 ********************
 
