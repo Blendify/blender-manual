@@ -1,117 +1,89 @@
 
-Installation guide for the Blender Manual on MS-Windows
-*******************************************************
+***************************************************************
+Installation Guide for Editing the Blender Manual on MS-Windows
+***************************************************************
 
-In this guide Microsoft Windows 8.1 is used.
+This guide covers the following topics:
 
-
-Installing git on your computer
-===============================
-
-- Download git installation package for Windows from `here <http://git-scm.com/download/win>`__
-
-   *In this guide version 1.9.4 is used.*
-
-- Install git with the installation wizard.
-
-   *In this guide the default settings are used. git will be installed to C:\\Program Files (x86)\\Git*
-
-- To check the installation start the program Git Bash from the start menu. 
-
-   *The Git Bash is started and a console prompt $ is shown, in the following mentioned as prompt.*
-
-.. tip::
-
-   You can use the Windows clipboard,
-   if you click on the Git Bash program icon in the left window corner and use the commands under Edit.
+#. `Installing Python`_ (used to "convert" the source files to HTML)
+#. `Installing SVN and Downloading the Repository`_
+#. `Setting up the Build Environment`_
+#. `Building the HTML Files`_
 
 
-Installing Python on your computer
-==================================
+Installing Python
+=================
 
-- Download Python installation package for Windows from here: https://www.python.org/downloads/
+#. Download the Python installation package for Windows from here: https://www.python.org/downloads/
 
-   *In this guide version 3.4.1 is used.*
+      *In this guide version 3.4.1 is used.*
 
-- Install Python with the installation wizard.
+#. Install Python with the installation wizard.
  
-   *In this guide the default settings are used. Python will be installed to C:\\Python34*
+      *In this guide the default settings are used. Python will be installed to C:\\Python34*
 
-- You can check the installation with the following steps
-   - Start the Git Bash.
-   - Run ``cd /c/Python34/`` at the prompt.
-   - Run ``python`` at the prompt. The Python shell is started and the Python version is shown.
-   - Type ``exit()`` at the Python prompt and press Enter to exit the Python shell.
+You can check if it installed correctly by:
+
+- Opening a command prompt (Search for ``cmd.exe`` in the start menu).
+- Run ``cd C:\Python34`` to enter the folder where Python was installed.
+- Run ``python`` - the Python shell will start and show the Python version.
+- Type ``exit()`` to leave the Python shell.
 
 
-Downloading the Blender Manual git repository
+Installing SVN and Downloading the Repository
 =============================================
-- Create a new folder on your disk with your Windows Explorer.
 
-  *In this guide C:\\blender\\ is used.*
+In this guide we'll use TortoiseSVN, though any Subversion client will do.
 
-- Start the Git Bash, if it is not running.
-- Move into the new folder:
-
-  .. code-block:: bash
-
-     cd /c/blender
-
-- To download the git repository of the Blender Manual to your disk, run this command at the prompt:
-
-  .. code-block:: bash
-
-     git clone git://git.blender.org/blender-manual.git
-
-  *If the download is finished the prompt comes back with* ``$``
-  *and on the disk a new folder blender-manual (C:\\blender\\blender-manual) is created.*
+#. Download TortoiseSVN for Windows from `here <http://tortoisesvn.net/downloads.html>`__
+#. Install TortoiseSVN with the installation wizard. When choosing which features will be installed,
+   it is recommended that you enable *command line client tools* to give you access to SVN from the command line
+   (there is no harm in doing this, and it may be helpful if you ever run into any trouble).
+#. Once the installation has finished, create a new folder that will contain everything related to the Blender Manual.
+   In this guide we'll use ``C:\blender_docs``.
+#. Open the new folder, right click and choose *SVN Checkout...* from the context menu.
+#. In the *URL of repository* field, enter: ``https://svn.blender.org/svnroot/bf-manual/trunk``.
+#. In the *Checkout directory* field, enter: ``C:\blender_docs\svn``.
+#. Click *OK* - the repository will now be downloaded
+   which may take a few minutes depending on your internet connection.
 
 
-Setting up the local copy
-=========================
+Setting up the Build Environment
+================================
 
-- Open the file "C:\\blender\\blender-manual\\requirements.txt" with a text editor (e.g. notepad).
+- Open the file ``C:\blender_docs\svn\requirements.txt`` with a text editor.
 - Remove the last line ``wsgiref==0.1.2`` and save the file.
 
-  *This line must be deleted because with Python 3.4.1 the package wsgiref is already
-  installed and otherwise during the next steps it would be come to an error.*
+  .. note::  
+  
+     This line must be deleted because the package *wsgiref* is already installed with Python 3.4.1 on Windows.
+     If that line is left there, you will run into some errors in the next few steps.
 
-- Start the Git Bash, if it is not running.
-- Move into the new folder blender-manual of your local clone of the downloaded
-  git repository with running the command at the prompt.
+- Open a command prompt and change to the repository folder using ``cd C:\blender_docs\svn``.
+- Install the all the requirements using Python's PIP command:
+  ``C:\Python34\Scripts\pip install -r requirements.txt``.
+- If all goes well, you should see the following message when it's finished:
+  ``Successfully installed Jinja2 MarkupSafe Pygments Sphinx docutils sphinx-rtd-theme Cleaning up...``
 
-  .. code-block:: bash
-
-     cd /c/blender/blender-manual
-
-     /c/Python34/Scripts/pip install -r requirements.txt
-
-  *A lot of information are logged. At the end the prompt comes back with* ``$`` *and above the line:*
-
-  ``Successfully installed Jinja2 MarkupSafe Pygments Sphinx docutils sphinx-rtd-theme Cleaning up...`` ...is shown.
-
-  During the setup some warnings are shown, they are no problem, it's important that no errors are shown.
+During the setup some warnings may be shown, but don't worry about them.
+However if any errors occur, they may cause some problems.
 
 
-Building the Blender manual the first time
-==========================================
+Building the HTML Files
+=======================
 
-- Start the Git Bash, if it is not running.
-- Move into the blender-manual folder and build the manual by running the commands:
+We are now ready to convert all those *rst* files into pretty *html*!
 
-  .. code-block:: bash
+- Open a command prompt and change to the repository folder using ``cd C:\blender_docs\svn``.
+- Build using the following command:
+  ``C:\Python34\Scripts\sphinx-build.exe -b html .\manual .\build\html``.
 
-     cd /c/blender/blender-manual
+  This is the command you will always use when building the docs.
+  The building process may take several minutes the first time (or after any major changes),
+  but the next time you build it should only take a few seconds.
 
-     /c/Python34/Scripts/sphinx-build -b html ./manual ./html
+- Once the docs have been built, all the html files can be found inside ``C:\blender_docs\svn\build\html``.
+  Try opening ``\build\html\contents.html`` in your web browser and read the manual.
 
-  *The building process takes some time you can see a % progress running.
-  At the end the line "build succeeded" is shown and the prompt comes back.
-  The Blender Manual is build in the subfolder html (C:\\blender\\blender-manual\\html).*
-
-- You can exit the Git Bash with running the command ``exit`` at the prompt.
-- Open the file "C:\\blender\\blender-manual\\html\\contents.html" in your web browser and read the manual.
-
-At this point the installation guide for the Blender Manual on Microsoft Windows is finished.
-The next steps for editing the manual are shown in the Blender Manual project documentation.
-
+Now that you are able to build the manual, please visit `blender.org/documentation <http://blender.org/documentation>`__
+for more information such as the style guide and how to submit patches and gain commit access.
