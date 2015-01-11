@@ -5,7 +5,7 @@
 #########
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    interface/index.rst
    navigating/index.rst
