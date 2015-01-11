@@ -16,7 +16,6 @@
    output/video.rst
    post_process/index.rst
    performance/index.rst
-   engines/index.rst
    internal/index.rst
    blender_render/index.rst
    cycles/index.rst
