@@ -6,56 +6,40 @@ About this manual
 This manual is written by a world-wide collaboration of volunteers.
 It is constantly out of date, thanks to the tireless work of developers working from around the
 world on the Blender code-base.
-However, it is our goal to provide you with the best possible documentation on this incredible package.
+
+However, it is our goal to provide you with the best possible documentation for this incredible package.
 
 To assist you best, this manual is organized according to the creative process generally followed by 3D artists.
-If you read the manual linearly, you will follow the path most artists use in both learning
-Blender and developing their artistic skills.
+If you read the manual linearly, you will follow a natural, progressive path in learning both Blender
+and developing your artistic skills.
 
-- Getting to know Blender (basic UI concepts, view-port interaction)
-- Models (modeling, modifiers, simulations)
-- Lighting
-- Shading (materials and textures)
-- Animation (rigging, constraints, etc.)
-- Rendering (Cycles/BI, outputting files)
+- Getting to know Blender (basic UI concepts, navigation...)
+- Models
+- Animation
+- Lighting, shading and rendering
 - Post-production/VFX (compositing, motion tracking, video editing)
-- Beyond Blender (working with the Python API)
+- Extending Blender (working with the Python API)
+  
+This manual also includes a :doc:`/glossary/index` page for if/when you you ever get confused with
+the endless jargon of computer graphics.
+There is also a :doc:`/troubleshooting/index` section to help solve technical issues.
 
 
-Audience
-========
+Goals
+=====
+
+This manual aims to teach you how to use Blender, not how to be a great artist.
+That would require a different kind of study and is not unique to Blender alone,
+so it is best left to other sources such as books, courses, videos and good old fashioned trial and error.
 
 This manual is written for a very broad audience,
 to answer questions like, :doc:`"How do I rotate the default cube?" </getting_started/basics/transformations/rotate>`
 all the way to :doc:`"How does Blender handle color management?" </render/post_process/cm_and_exposure>`.
 
-This manual is a worldwide collaborative effort using time donated to the cause.
-While there may be some lag between features being implemented and their documentation,
-we do strive to keep it as up-to-date as possible.
-We try to keep it narrowly focused on what you, the end user, need to know,
-and not digress too far off topic (i.e. discussing the meaning of life).
+
+Get Involved
+============
 
 If you would like to contribute to this manual,
-check out our `repo <https://developer.blender.org/project/view/53/>`__
-for further info.
-
-
-Learning CG and Blender
-=======================
-
-Getting to know Blender and learning Computer Graphics (CG) as an art are two different topics.
-Learning what an object is, and then learning how to model one in Blender are two different things to learn.
-Learning good lighting techniques,
-and then learning about the different kinds of lamps in Blender are two different topics.
-
-The first, or conceptual understanding, is learned by taking courses in art and media, by reading books,
-and by trial and error.
-Once you have the conceptual knowledge, you can easily learn Blender (or any other CG package). Learning both
-at the same time is difficult, since you are dealing with two issues, but not impossible.
-In this manual, the conceptual knowledge is usually addressed in a short paragraph or two at the beginning
-of a topic or chapter that explains the topic and provides a workflow, or process, for accomplishing the task.
-The rest of the manual section addresses the specific capabilities and features of Blender with regard to
-that task.
-The user manual cannot give you the full conceptual knowledge - that comes from other sources (books,
-practice, etc.). You can use Blender to create a feature film, but reading this manual and using Blender
-won't make you another Steven Spielberg!
+check out the `project page <https://developer.blender.org/project/view/53/>`__
+or join the #blenderwiki channel on :ref:`IRC <irc-channels>`.
