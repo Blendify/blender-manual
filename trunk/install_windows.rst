@@ -16,7 +16,7 @@ Installing Python
 
 #. Download the Python installation package for Windows from here: https://www.python.org/downloads/
 
-      *In this guide version 3.4.1 is used.*
+      *In this guide version 3.4 is used.*
 
 #. Install Python with the installation wizard.
  
@@ -51,19 +51,15 @@ In this guide we'll use TortoiseSVN, though any Subversion client will do.
 Setting up the Build Environment
 ================================
 
-- Open the file ``C:\blender_docs\svn\requirements.txt`` with a text editor.
-- Remove the last line ``wsgiref==0.1.2`` and save the file.
-
-  .. note::  
-  
-     This line must be deleted because the package *wsgiref* is already installed with Python 3.4.1 on Windows.
-     If that line is left there, you will run into some errors in the next few steps.
-
 - Open a command prompt and change to the repository folder using ``cd C:\blender_docs\svn``.
-- Install the all the requirements using Python's PIP command:
-  ``C:\Python34\Scripts\pip install -r requirements.txt``.
-- If all goes well, you should see the following message when it's finished:
-  ``Successfully installed Jinja2 MarkupSafe Pygments Sphinx docutils sphinx-rtd-theme Cleaning up...``
+- Install the all the requirements using Python's ``pip`` command::
+
+     C:\Python34\Scripts\pip install -r requirements.txt
+
+- If all goes well, you should see the following message when it's finished
+  ::
+
+     Successfully installed Jinja2 MarkupSafe Pygments Sphinx docutils sphinx-rtd-theme Cleaning up...
 
 During the setup some warnings may be shown, but don't worry about them.
 However if any errors occur, they may cause some problems.
@@ -75,8 +71,10 @@ Building the HTML Files
 We are now ready to convert all those *rst* files into pretty *html*!
 
 - Open a command prompt and change to the repository folder using ``cd C:\blender_docs\svn``.
-- Build using the following command:
-  ``C:\Python34\Scripts\sphinx-build.exe -b html .\manual .\build\html``.
+- Build using the following command
+  ::
+
+     C:\Python34\Scripts\sphinx-build.exe -b html .\manual .\build\html
 
   This is the command you will always use when building the docs.
   The building process may take several minutes the first time (or after any major changes),
@@ -85,5 +83,6 @@ We are now ready to convert all those *rst* files into pretty *html*!
 - Once the docs have been built, all the html files can be found inside ``C:\blender_docs\svn\build\html``.
   Try opening ``\build\html\contents.html`` in your web browser and read the manual.
 
-Now that you are able to build the manual, please visit `blender.org/documentation <http://blender.org/documentation>`__
+Now that you are able to build the manual,
+please visit `blender.org/documentation <http://blender.org/documentation>`__
 for more information such as the style guide and how to submit patches and gain commit access.
