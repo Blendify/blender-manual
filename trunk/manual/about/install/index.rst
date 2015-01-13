@@ -9,3 +9,4 @@
 
    Windows <windows.rst>
    Linux <linux.rst>
+   OSX <osx.rst>
