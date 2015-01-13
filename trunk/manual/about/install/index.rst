@@ -7,6 +7,6 @@
 .. toctree::
    :maxdepth: 1
 
-   Windows <windows.rst>
    Linux <linux.rst>
    OSX <osx.rst>
+   Windows <windows.rst>

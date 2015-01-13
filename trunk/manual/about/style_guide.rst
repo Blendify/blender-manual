@@ -3,6 +3,8 @@
 Style Guide
 ***********
 
+This pages covers the conventions for writing and use of the reStructuredText (RST) markup syntax.
+
 In order to maintain a consistent writing and formatting style within the manual,
 please keep this page in mind and only deviate from it when you have a good reason to do so.
 
@@ -227,3 +229,15 @@ By default a table of contents should show two levels of depth.
       introduction.rst
       perspective.rst
       depth_of_field.rst
+
+
+Further Reading
+===============
+
+To learn more about RestructuredText, see:
+
+`Sphinx RST Primer <http://sphinx-doc.org/rest.html>`__
+   Good basic introduction.
+`Docutils reStructuredText reference <http://docutils.sourceforge.net/rst.html>`__
+   Links to reference and user documentation.
+
