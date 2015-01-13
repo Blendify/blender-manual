@@ -18,29 +18,19 @@ Below are listed the installation commands for popular Linux distributions.
 
 For the appropriate system, run the command in a terminal:
 
-
 Debian/Ubuntu
--------------
+   .. code-block:: sh
 
-.. code-block:: sh
-
-   sudo apt-get install python python-pip subversion
-
+      sudo apt-get install python python-pip subversion
 
 Redhat/Fedora
--------------
+   .. code-block:: sh
 
-.. code-block:: sh
-
-   sudo yum install python python-pip 
-
-
+      sudo yum install python python-pip 
 Arch Linux
-----------
+   .. code-block:: sh
 
-.. code-block:: sh
-
-   sudo pacman -S python python-pip subversion
+      sudo pacman -S python python-pip subversion
 
 
 Downloading the Repository
