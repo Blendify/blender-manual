@@ -10,17 +10,22 @@ CURRENT_DIR=`dirname "$0"`
 RST_INPUT=$CURRENT_DIR"/../manual"
 # temp location for building docs
 HTML_BUILD=$CURRENT_DIR"/../build/html_release"
+
 # final output for docs (for upload)
 HTML_OUT=$CURRENT_DIR"/../../blender-manual-html"
+if [ ! -d $HTML_OUT ]; then
+	# try fallback (_ prefix)
+	HTML_OUT=$CURRENT_DIR"/../../_blender-manual-html"
+	if [ ! -d $HTML_OUT ]; then
+		echo The \"$HTML_OUT\" output directory does not exsit.
+		exit 0
+	fi
+fi
 
 if [[ $1 == '--dry' ]]; then
 	ARGS="--dry-run"
 fi
 
-if [ ! -d $HTML_OUT ]; then
-	echo The \"$HTML_OUT\" output directory does not exsit.
-	exit 0
-fi
 
 rm -rf $HTML_BUILD
 sphinx-build -b html $RST_INPUT $HTML_BUILD
