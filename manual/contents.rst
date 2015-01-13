@@ -50,5 +50,7 @@ If you would like to help us write this manual, check out these pages:
    Details about the current status of each chapter.
 `Contribute <http://www.blender.org/documentation/contribute>`_
    How to help write this manual.
+:doc:`About This Manual </about/index>`
+   Details on the process of writing building (this)  manual.
 `Translations <http://www.blender.org/documentation/translations>`_
    Help translate this manual into your language.
