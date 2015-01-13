@@ -287,7 +287,7 @@ Pose Mode.
    Do this by pressing the :kbd:`G` then :kbd:`X` then enter the value 2.
 #. If you are following along your scene should look similar to figure 9.
 
-   .. figure:: /images/SU-3DViewEditorHeader-ObjectMenu-Parent-Armature Deform.png
+   .. figure:: /images/SU-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.png
       :width: 800px
       :figwidth: 800px
 
@@ -306,7 +306,7 @@ Pose Mode.
 #. Position the mouse such that a single horizontal pink line is displayed at the center of the Plane.
    See figure 10.
 
-   .. figure:: /images/SV-3DViewEditorHeader-ObjectMenu-Parent-Armature Deform.png
+   .. figure:: /images/SV-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.png
       :width: 800px
       :figwidth: 800px
 
@@ -316,7 +316,7 @@ Pose Mode.
 #. With the pink line still displayed enter the value 5 then press the :kbd:`ENTER` twice, without moving the mouse.
 #. If done correctly you should now have a Plane that is sectioned into 6 horizontal faces. See figure 11.
 
-   .. figure:: /images/SW-3DViewEditorHeader-ObjectMenu-Parent-Armature Deform.png
+   .. figure:: /images/SW-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.png
       :width: 800px
       :figwidth: 800px
 
@@ -331,7 +331,7 @@ Pose Mode.
    Do this by selecting the Armature, pressing the :kbd:`G` then :kbd:`X` then enter the value -2.
 #. If you were following along you should have a scene that looks similar to figure 12.
 
-   .. figure:: /images/SX-3DViewEditorHeader-ObjectMenu-Parent-Armature Deform.png
+   .. figure:: /images/SX-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.png
       :width: 800px
       :figwidth: 800px
 
@@ -340,7 +340,7 @@ Pose Mode.
 #. With the Armature still selected switch into Edit Mode by pressing the :kbd:`Tab` and toggling into Edit Mode.
 #. The Armature Bone will display differently when it is in Edit Mode. See figure 13.
 
-   .. figure:: /images/SY-3DViewEditorHeader-ObjectMenu-Parent-Armature Deform.png
+   .. figure:: /images/SY-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.png
       :width: 800px
       :figwidth: 800px
 
@@ -358,7 +358,7 @@ Pose Mode.
 #. You should now have an Armature with 6 bones in it, each emerging from The Tail of the previous bone.
 #. If you have been following along you should have a scene that looks similar to figure 14.
 
-   .. figure:: /images/SZ-3DViewEditorHeader-ObjectMenu-Parent-Armature Deform.png
+   .. figure:: /images/SZ-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.png
       :width: 800px
       :figwidth: 800px
 
@@ -370,7 +370,7 @@ Pose Mode.
 #. Navigate to the [Properties Editor > Bone Context > Bone Text Field]
    and change the name of the bone from Bone to Bone1. See figure 15.
 
-   .. figure:: /images/TA-3DViewEditorHeader-ObjectMenu-Parent-Armature Deform.png
+   .. figure:: /images/TA-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.png
       :width: 800px
       :figwidth: 800px
 
@@ -399,7 +399,7 @@ Pose Mode.
 #. Switch to Face Selection Mode by pressing
    :kbd:`Ctrl-Tab` and select Face from the Mesh Select Mode popup dialog. See figure 16.
 
-   .. figure:: /images/TB-3DViewEditorHeader-ObjectMenu-Parent-Armature Deform.png
+   .. figure:: /images/TB-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.png
       :width: 800px
       :figwidth: 800px
 
@@ -407,7 +407,7 @@ Pose Mode.
 
 #. Select the 1st face of the Plane by :kbd:`Rmb` it. See figure 17.
 
-   .. figure:: /images/TC-3DViewEditorHeader-ObjectMenu-Parent-Armature Deform.png
+   .. figure:: /images/TC-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.png
       :width: 800px
       :figwidth: 800px
 
@@ -416,7 +416,7 @@ Pose Mode.
 #. Navigate to the [Properties Editor > Object Data > Vertex Groups Panel] and click the +
    button to the right of the Vertex Groups list. See figure 18.
 
-   .. figure:: /images/TD-3DViewEditorHeader-ObjectMenu-Parent-Armature Deform.png
+   .. figure:: /images/TD-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.png
       :width: 800px
       :figwidth: 800px
 
@@ -440,7 +440,7 @@ Pose Mode.
    :kbd:`Lmb` it and select the Pose Mode entry.
    See figure 19.
 
-   .. figure:: /images/TE-3DViewEditorHeader-ObjectMenu-Parent-Armature Deform.png
+   .. figure:: /images/TE-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.png
       :width: 800px
       :figwidth: 800px
 
@@ -451,7 +451,7 @@ Pose Mode.
 #. If you transform that bone in anyway the associated face on the Plane will also transform in a similar way.
 #. For example rotate Bone3 and face section 3 will rotate in a similar way on the Plane. See figure 20.
 
-   .. figure:: /images/TF-3DViewEditorHeader-ObjectMenu-Parent-Armature Deform.png
+   .. figure:: /images/TF-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.png
       :width: 800px
       :figwidth: 800px
 
