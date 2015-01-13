@@ -44,13 +44,13 @@ Get Involved
 This manual is maintained largely by volunteers.
 If you would like to help us write this manual, check out these pages:
 
-`Blender Documentation Project <http://www.blender.org/documentation/>`_
+`Blender Documentation Project <http://www.blender.org/documentation/>`__
    Main documentation page on blender.org.
-`Manual Sections <http://www.blender.org/documentation/manual-sections/>`_
+`Manual Sections <http://www.blender.org/documentation/manual-sections/>`__
    Details about the current status of each chapter.
-`Contribute <http://www.blender.org/documentation/contribute>`_
+`Contribute <http://www.blender.org/documentation/contribute>`__
    How to help write this manual.
 :doc:`About This Manual </about/index>`
    Details on the process of writing building (this)  manual.
-`Translations <http://www.blender.org/documentation/translations>`_
+`Translations <http://www.blender.org/documentation/translations>`__
    Help translate this manual into your language.
