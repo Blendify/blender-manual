@@ -25,9 +25,9 @@ Install and Build
 
 The installation and building process is different for each operating system, instructions have been written for:
 
-- :doc:`Windows </about/install/windows>`
 - :doc:`Linux </about/install/linux>`
 - :doc:`OSX </about/install/osx>`
+- :doc:`Windows </about/install/windows>`
 
 
 Submit Patches
@@ -44,7 +44,7 @@ In order to submit a patch, follow this process:
 #. Create a patch file by running:
    ::
 
-      svn diff >> filename.diff
+      svn diff > filename.diff
 
    This creates a simple text file that shows what text was added,
    removed or changed between your working files and the central repository.
@@ -63,7 +63,8 @@ Commit
 ======
 
 Instead of creating a patch file, all you need to do now is run:
-::
+
+.. code-block:: sh
 
    svn commit -m "This is what I did"
 
