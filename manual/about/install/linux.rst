@@ -6,10 +6,9 @@ Installation Guide for Editing the Blender Manual on Linux
 This guide covers the following topics:
 
 #. `Installing Dependencies`_
-#. `Installing SVN and Downloading the Repository`_
+#. `Downloading the Repository`_
 #. `Setting up the Build Environment`_
 #. `Building the HTML Files`_
-#. `Building a Single Chapter`_
 
 
 Installing Dependencies
@@ -44,8 +43,8 @@ Arch Linux
    sudo pacman -S python python-pip subversion
 
 
-Installing SVN and Downloading the Repository
-=============================================
+Downloading the Repository
+==========================
 
 
 Simply checkout the blender-manual repository using:
@@ -103,7 +102,7 @@ for more information such as the style guide and how to submit patches and gain 
 
 
 Building a Single Chapter
-=========================
+-------------------------
 
 If you are working on a specific chapter of the manual, you can build it quickly using:
 
