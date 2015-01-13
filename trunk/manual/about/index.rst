@@ -9,4 +9,5 @@
 
    introduction.rst
    install/index.rst
+   contribute.rst
    style_guide.rst
