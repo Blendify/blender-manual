@@ -51,7 +51,7 @@ In this guide we'll use TortoiseSVN, though any Subversion client will do.
 Setting up the Build Environment
 ================================
 
-- Open a command prompt and change to the repository folder using ``cd C:\blender_docs\svn``.
+- Open a command prompt and change to the repository folder using ``cd C:\blender_docs\svn\trunk``.
 - Install the all the requirements using Python's ``pip`` command::
 
      C:\Python34\Scripts\pip install -r requirements.txt
@@ -68,9 +68,9 @@ However if any errors occur, they may cause some problems.
 Building the HTML Files
 =======================
 
-We are now ready to convert all those *rst* files into pretty *html*!
+We are now ready to convert all those **rst** files into pretty **html**!
 
-- Open a command prompt and change to the repository folder using ``cd C:\blender_docs\svn``.
+- Open a command prompt and change to the repository with ``cd C:\blender_docs\svn\trunk``.
 - Build using the following command
   ::
 
@@ -80,7 +80,7 @@ We are now ready to convert all those *rst* files into pretty *html*!
   The building process may take several minutes the first time (or after any major changes),
   but the next time you build it should only take a few seconds.
 
-- Once the docs have been built, all the html files can be found inside ``C:\blender_docs\svn\build\html``.
+- Once the docs have been built, all the html files can be found inside ``C:\blender_docs\svn\trunk\build\html``.
   Try opening ``\build\html\contents.html`` in your web browser and read the manual.
 
 Now that you are able to build the manual,
