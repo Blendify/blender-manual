@@ -5,7 +5,8 @@
 ########
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    introduction.rst
+   install/index.rst
    style_guide.rst
