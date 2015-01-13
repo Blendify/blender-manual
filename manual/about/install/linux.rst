@@ -61,7 +61,7 @@ Simply checkout the blender-manual repository using:
 Setting up the Build Environment
 ================================
 
-In a terminal, enter the ``trunk`` folder which was just added by the SVN checkout:
+In a terminal, enter the ``blender_docs`` folder which was just added by the SVN checkout:
 
 .. code-block:: sh
 
