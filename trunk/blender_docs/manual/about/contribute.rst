@@ -57,7 +57,8 @@ Open the generated *.html* files inside the ``build/html`` folder using your web
 or refresh the page if you have it open already.
 
 When you are happy with your changes, you can **upload** them, so that they will be in the online manual.
-At first, this is done by submitting patches so that someone can review your changes and give you feedback:
+At first, this is done by submitting patches so that someone can review your changes and give you feedback.
+After, you can commit your changes directly.
 
 
 Submit Patches

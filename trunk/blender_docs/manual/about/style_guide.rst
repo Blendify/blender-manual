@@ -137,6 +137,23 @@ Figures should be used to place images:
       Image Caption
 
 
+- Avoid specifying the resolution of the image or its alignment, so that the theme can handle the images consistently
+  and provide the best layout across different screen sizes.
+- Use ``.png`` for images that have solid colors such as screenshots of the Blender interface,
+  and ``.jpg`` for images with a lot of color variance, such as sample renders and photographs.
+- Place the image in the ``manual/images`` folder. Use no other subfolders.
+- Use the following naming convention: :samp:`{chapter}_{subsection}_{name}.{format}`
+
+   + format is *png* or *jpg*
+   + use lowercase names, separated by underscores
+   + do not use special characters or spaces
+   + examples:
+
+      + render_cycles_lighting_example1.jpg
+      + interface_intro_splash.jpg
+      + interface_ui_panel.jpg
+
+
 Useful Constructs
 =================
 
