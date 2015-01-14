@@ -54,3 +54,11 @@ If you would like to help us write this manual, check out these pages:
    Details on the process of writing building (this)  manual.
 `Translations <http://www.blender.org/documentation/translations>`__
    Help translate this manual into your language.
+
+
+.. just so this is included in the toc (not user visible).
+
+.. toctree::
+   :hidden:
+
+   about/index.rst
