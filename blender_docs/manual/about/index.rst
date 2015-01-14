@@ -8,6 +8,6 @@
    :maxdepth: 2
 
    introduction.rst
-   install/index.rst
    contribute.rst
+   install/index.rst
    style_guide.rst
