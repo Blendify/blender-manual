@@ -51,9 +51,22 @@ Most communication happens on mailing lists, IRC chat and the bug and patch trac
 
 If you are in doubt about functionality that you wish to document,
 you should pose your questions to the Blender developers responsible for that area or ask at the unofficial user
-support channel at `#blenderwiki <irc://irc.freenode.net/#blender>`__.
+support channel at `#blender <irc://irc.freenode.net/#blender>`__.
 
 Blender has its own system of module owners with developer and artist members who are
 responsible for the design and maintenance of the assigned Blender areas.
 See the `module owners page <http://wiki.blender.org/index.php/Dev:Doc/Process/Module_Owners/List>`__
 for more information.
+
+
+License
+=======
+
+Blender's Manual is free and published under `public domain <https://creativecommons.org/publicdomain/zero/1.0/>`.
+
+This means that anyone is free to download, edit and share the manual.
+It also means that when contributing to the manual you do not hold any copyright to your text. You are, of course,
+acknowledged and appreciated for your contribution, but what you wrote becomes public domain for the benefit of the
+Blender community. Other people can change and improve your text in order to keep the manual consistent and up to date.
+
+

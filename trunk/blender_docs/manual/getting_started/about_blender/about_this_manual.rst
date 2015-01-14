@@ -19,7 +19,7 @@ and developing your artistic skills.
 - Lighting, shading and rendering
 - Post-production/VFX (compositing, motion tracking, video editing)
 - Extending Blender (working with the Python API)
-  
+
 This manual also includes a :doc:`/glossary/index` page for if/when you you ever get confused with
 the endless jargon of computer graphics.
 There is also a :doc:`/troubleshooting/index` section to help solve technical issues.
@@ -40,6 +40,6 @@ all the way to :doc:`"How does Blender handle color management?" </render/post_p
 Get Involved
 ============
 
-If you would like to contribute to this manual,
-check out the `project page <https://developer.blender.org/project/view/53/>`__
-or join the #blenderwiki channel on :ref:`IRC <irc-channels>`.
+If you would like to contribute to this manual, see :doc:`/about/index`,
+check for `open tasks <https://developer.blender.org/project/view/53/>`__,
+or join the `mailing list <http://lists.blender.org/mailman/listinfo/bf-docboard>`__ and #blenderwiki channel on :ref:`IRC <irc-channels>`.
