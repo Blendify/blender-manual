@@ -30,35 +30,34 @@ The installation and building process is different for each operating system, in
 - :doc:`Windows </about/install/windows>`
 
 
-Make your changes
+Make Your Changes
 =================
 
-Firstly, make sure that your local copy of the manual is up to date with:
+Firstly, make sure that your local copy of the manual is up to date with the online repository using:
 
 .. code-block:: sh
 
    svn update
 
 
-You can now **edit** the documentation files, which are the *.rst* files inside the 'manual' folder.
-Open them with a text editor of your choice (eg. notepad++, gedit, Atom).
+You can now **edit** the documentation files, which are the *.rst* files inside the ``manual`` folder using
+a text editor of your choice (eg. Notepad++, gedit, Atom).
 
-There are community pages on how to setup some popular editors with spell checking and auto completion for the markup.
+Here are community pages on how to setup some popular editors with spell checking and auto completion:
 
 - `Sublime <http://wiki.blender.org/index.php/User:Brita/Configs/Rst-manual>`__
 - `Vim <http://wiki.blender.org/index.php/User:Dfelinto/Blender-Manual>`__
 
-You should check the :doc:`style guide </about/style_guide>` on some conventions and on how to use the *rst* markup.
+You should check the :doc:`style guide </about/style_guide>`
+for conventions and to learn how to write in the *rst* markup language.
 
+To **view** your changes, build the manual :doc:`as instructed </about/install/index>` for your OS.
+Keep in mind that you can also build only the chapter you just edited to view it quickly.
+Open the generated *.html* files inside the ``build/html`` folder using your web browser,
+or refresh the page if you have it open already.
 
-To **view** your changes, build the manual as instructed for your OS. Keep in mind that you can build only the chapter
-you just edited to view it quickly.
-Open the generated *.html* files in your web browser. Next time, you just need to refresh the page after building.
-
-
-When you are content with your changes, you can **upload** them, so that they will be on the online manual.
-At first, this is done by submitting patches, so that everything is reviewed and you can have feedback. After,
-you can commit your changes directly.
+When you are happy with your changes, you can **upload** them, so that they will be in the online manual.
+At first, this is done by submitting patches so that someone can review your changes and give you feedback:
 
 
 Submit Patches
