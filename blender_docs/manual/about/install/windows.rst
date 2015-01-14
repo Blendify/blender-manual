@@ -42,8 +42,8 @@ In this guide we'll use TortoiseSVN, though any Subversion client will do.
 #. Once the installation has finished, create a new folder that will contain everything related to the Blender Manual.
    In this guide we'll use ``C:\blender_docs``.
 #. Open the new folder, right click and choose *SVN Checkout...* from the context menu.
-#. In the *URL of repository* field, enter: ``https://svn.blender.org/svnroot/bf-manual/trunk``.
-#. In the *Checkout directory* field, enter: ``C:\blender_docs\svn``.
+#. In the *URL of repository* field, enter: ``https://svn.blender.org/svnroot/bf-manual/trunk/blender_docs``.
+#. In the *Checkout directory* field, enter: ``C:\``.
 #. Click *OK* - the repository will now be downloaded
    which may take a few minutes depending on your internet connection.
 
@@ -51,8 +51,13 @@ In this guide we'll use TortoiseSVN, though any Subversion client will do.
 Setting up the Build Environment
 ================================
 
-- Open a command prompt and change to the repository folder using ``cd C:\blender_docs\svn\trunk``.
-- Install the all the requirements using Python's ``pip`` command::
+- Open a command prompt and change to the repository folder using
+  ::
+
+     cd C:\blender_docs
+
+- Install the all the requirements using Python's ``pip`` command
+  ::
 
      C:\Python34\Scripts\pip install -r requirements.txt
 
@@ -70,7 +75,7 @@ Building the HTML Files
 
 We are now ready to convert all those **rst** files into pretty **html**!
 
-- Open a command prompt and change to the repository with ``cd C:\blender_docs\svn\trunk``.
+- Open a command prompt and change to the repository with ``cd C:\blender_docs``.
 - Build using the following command
   ::
 
@@ -80,7 +85,7 @@ We are now ready to convert all those **rst** files into pretty **html**!
   The building process may take several minutes the first time (or after any major changes),
   but the next time you build it should only take a few seconds.
 
-- Once the docs have been built, all the html files can be found inside ``C:\blender_docs\svn\trunk\build\html``.
+- Once the docs have been built, all the html files can be found inside ``C:\blender_docs\build\html``.
   Try opening ``\build\html\contents.html`` in your web browser and read the manual.
 
 Now that you are able to build the manual,
