@@ -3,8 +3,6 @@ Getting Blender
 ***************
 
 Blender is available for download for Windows, Mac and Linux.
-For BSD systems, Blender is also likely to work with instructions similar to Linux, but it is no longer officially
-supported.
 
 
 Minimum Requirements
