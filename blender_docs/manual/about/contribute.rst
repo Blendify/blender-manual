@@ -48,7 +48,8 @@ In order to submit a patch, follow this process:
 
    This creates a simple text file that shows what text was added,
    removed or changed between your working files and the central repository.
-#. Submit the patch on `developer.blender.org <https://developer.blender.org/differential/diff/create/>`__.
+#. Submit the patch on
+   `developer.blender.org <https://developer.blender.org/maniphest/task/create/?project=53&type=Patch>`__.
    If you don't have an account already, you can `register one <https://developer.blender.org/auth/register/>`__.
 #. Contact the section owner for that chapter and let them know you made a patch!
    If you can't find out who that is,
