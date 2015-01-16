@@ -3,10 +3,6 @@
 Installation Guide for Editing the Blender Manual on OSX
 ********************************************************
 
-.. note::
-
-   This guides relies heavily in command-line tools. It assumes you are the least familiar with the OSX Terminal application.
-
 This guide covers the following topics:
 
 #. `Installing Dependencies`_
@@ -15,14 +11,20 @@ This guide covers the following topics:
 #. `Building the HTML Files`_
 
 
+.. note::
+
+   This guides relies heavily in command-line tools.
+   It assumes you are the least familiar with the OSX Terminal application.
+
+
 Installing Dependencies
 =======================
 
 Install those packages or make sure you have them in your system.
 
-* `Python <http://www.python.org/>`_
-* `PIP <https://pip.pypa.io/en/latest/installing.html>`_
-* `SVN <http://subversion.apache.org/>`_
+- `Python <http://www.python.org/>`__
+- `PIP <https://pip.pypa.io/en/latest/installing.html>`__
+- `Subversion <http://subversion.apache.org/>`__
 
 
 Downloading the Repository
