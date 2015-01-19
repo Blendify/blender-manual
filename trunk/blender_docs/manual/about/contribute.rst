@@ -41,7 +41,7 @@ Firstly, make sure that your local copy of the manual is up to date with the onl
 
 
 You can now **edit** the documentation files, which are the *.rst* files inside the ``manual`` folder using
-a text editor of your choice (eg. Notepad++, gedit, Atom).
+a text editor of your choice.
 
 Here are community pages on how to setup some popular editors with spell checking and auto completion:
 

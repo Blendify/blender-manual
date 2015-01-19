@@ -92,12 +92,3 @@ Now that you are able to build the manual,
 please visit `blender.org/documentation <http://blender.org/documentation>`__
 for more information such as the style guide and how to submit patches and gain commit access.
 
-
-Use a Supported Text Editor
-===========================
-
-While almost any text editor can be used to edit the manual, the default text editor in Windows (Notepad)
-does not support the line endings used in the *.rst* files - they will appear as if there are no line breaks at all.
-
-Please use a text editor (such as `Notepad++ <http://notepad-plus-plus.org/>`__
-or `Sublime <http://www.sublimetext.com/>`__) that supports Unix line endings to edit the manual.
