@@ -145,7 +145,7 @@ Object Menu
 This menu appears when in Object Mode. In edit mode,
 it will change to the appropriate menu with editing tools.
 
-:doc:`Read more about Objects » </modeling/objects>`
+:doc:`Read more about Objects » </modeling/objects/introduction>`
 
 
 Mode List

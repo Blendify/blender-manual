@@ -8,7 +8,7 @@ Curves
    Bird logo made from Bezier curves.
 
 
-Curves and :doc:`Surfaces </modeling/surfaces>` are particular types of Blender Objects.
+Curves and :doc:`Surfaces </modeling/surfaces/introduction>` are particular types of Blender Objects.
 They are expressed by mathematical functions rather than a series of points.
 
 Blender offers both `Bezier Curves`_ and `Non-Uniform Rational B-Splines (NURBS)`_.
@@ -29,7 +29,7 @@ Certain modeling techniques, such as
 :doc:`extruding a profile along a path </modeling/curves/editing/advanced#curve_extrusion>`,
 are possible only using curves. On the other hand, when using curves,
 vertex-level control is more difficult and if fine control is necessary,
-:doc:`mesh editing </modeling/meshes/editing>` may be a better modeling option.
+:doc:`mesh editing </modeling/meshes/editing/introduction>` may be a better modeling option.
 
 Bezier curves are the most commonly used curves for designing letters or logos.
 They are also widely used in animation, both as :doc:`paths </animation/techs/object/path>`
@@ -207,7 +207,7 @@ Path/Curve-Deform
    The *Radius, Stretch* and *Bounds Clamp* options control how Objects use the
    Curve and are dealt with in more detail in the appropriate links below.
 
-:doc:`Read more about Basic Curve Editing » </modeling/curves/editing>`
+:doc:`Read more about Basic Curve Editing » </modeling/curves/editing/introduction>`
 :doc:`Read more about Paths » </animation/techs/object/path>`
 :doc:`Read more about Curve Deform » </modeling/curves/editing/advanced>`
 

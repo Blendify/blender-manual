@@ -25,7 +25,7 @@ Invisible
    Hide all faces of objects rendered with this material.
 
 Text
-   Use material as :doc:`Text object </modeling/texts>` in the Game Engine.
+   Use material as :doc:`Text object </modeling/texts/introduction>` in the Game Engine.
 
 Alpha Blend menu:
    Controls how the alpha channel is used to create a transparent texture in the rendered image.

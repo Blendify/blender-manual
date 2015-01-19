@@ -7,7 +7,7 @@ This page covers the basics of curve editing. Curve basics,
 selecting and advanced editing are covered in the following pages:
 
 
-- :doc:`Curve basics </modeling/curves>`
+- :doc:`Curve basics </modeling/curves/introduction>`
 - :doc:`Curve Selecting </modeling/curves/selecting>`
 - :doc:`Advanced Curve Editing </modeling/curves/editing/advanced>`
 
@@ -151,9 +151,9 @@ Set Bézier Handle Type
 
 
 Handle types are a property of :doc:`Bézier curves.
-</modeling/curves>` and can be used to alter features of the curve.
+</modeling/curves/introduction>` and can be used to alter features of the curve.
 For example, switching to *Vector handles* can be used to create curves with sharp corners.
-Read the :doc:`Bézier curves </modeling/curves>` page for more details.
+Read the :doc:`Bézier curves </modeling/curves/introduction>` page for more details.
 
 
 Extending Curves

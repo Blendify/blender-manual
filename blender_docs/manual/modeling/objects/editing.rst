@@ -112,7 +112,7 @@ Duplicate
 
 Duplication makes exact copy of objects.
 May be linkage of some attributes depending on specific tool.
-See :doc:`Duplication </modeling/objects/duplication>` for more information.
+See :doc:`Duplication </modeling/objects/duplication/introduction>` for more information.
 
 
 Join

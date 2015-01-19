@@ -168,6 +168,6 @@ make sure they are all selected and go to *Object* → *Join*
 See also
 ========
 
-Other duplication methods are listed :doc:`here </modeling/objects/duplication>`.
+Other duplication methods are listed :doc:`here </modeling/objects/duplication/introduction>`.
 
 

@@ -14,7 +14,7 @@ movement, and make your object(s) follow it.
 Blender features you two different constraints to make an object follow a path,
 which have different ways to determine/animate the position of their owner along their path.
 
-In Blender, any :doc:`curve object </modeling/curves>` can become a path.
+In Blender, any :doc:`curve object </modeling/curves/introduction>` can become a path.
 A curve becomes a path when its *Path Animation* button is enabled in the *Curve* data panel,
 but you don't even have to bother about this: once a curve is selected as target for a "path" constraint,
 it automatically is enabled.
@@ -31,7 +31,7 @@ for three-dimensional ones, materialized by its small arrows.
 You can switch it with the :menuselection:`Curve --> Segments --> Switch Direction` menu entry
 (or :kbd:`W`, :kbd:`2`).
 
-For more on editing path/curves, see the :doc:`modeling chapter </modeling/curves>`.
+For more on editing path/curves, see the :doc:`modeling chapter </modeling/curves/introduction>`.
 
 .. note::
    Shapes on Curves

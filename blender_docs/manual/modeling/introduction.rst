@@ -10,7 +10,7 @@ of a real-world object or expresses your imagination of abstract objects.
 
 There are three primary types of modeling - mesh modeling, curve/surface modeling, and meta modeling.
 
-:doc:`Mesh Modeling </modeling/meshes>`
+:doc:`Mesh Modeling </modeling/meshes/introduction>`
 =======================================
 
 Mesh modeling typically begins with a primitive shape (e.g. circle, cube, cylinder...).
@@ -18,7 +18,7 @@ This :doc:`Mesh Primitive </modeling/meshes/primitives>` is defined by an array 
 (singular form is :term:`Vertex`). From there you might begin extruding faces and moving vertices to create a larger,
 more complex shape.
 
-:doc:`Curve </modeling/curves>` and :doc:`Surface </modeling/surfaces>` Modeling
+:doc:`Curve </modeling/curves/introduction>` and :doc:`Surface </modeling/surfaces/introduction>` Modeling
 ================================================================================
 
 :doc:`Curve modeling</modeling/curves>` uses control points to define the shape of the curve.
@@ -38,7 +38,7 @@ out the point of connection, appearing as one unified object.
 This is one of the quickest ways to get started roughly modeling an object.
 The resulting figure can then be converted into a mesh for further detailing using :kbd:`Alt-C`.
 
-:doc:`Text Modeling </modeling/texts>`
+:doc:`Text Modeling </modeling/texts/introduction>`
 ======================================
 
 Inserting text is quite common for the creation of logos, and can be seen as a special case of neither curve nor mesh

@@ -34,7 +34,7 @@ show up. The order of these buttons follows a hierarchy which is detailed below:
   Gravity in the scene, units and other general information.
 - |Btn_World-25| :doc:`World </render/blender_render/world>`:
   Environmental lighting, sky, mist, stars and Ambient Occlusion.
-- |Btn_Object-25| :doc:`Object </modeling/objects>`:
+- |Btn_Object-25| :doc:`Object </modeling/objects/introduction>`:
   Transformations, display options, visibility settings (via layers)
   duplication settings and animation information (regarding Object position).
 - |Btn_Constraints-25| :doc:`Constraints </rigging/constraints>`:

@@ -10,7 +10,7 @@ Entering Edit Mode
 
 You can work with geometric objects in two modes.
 
-:doc:`Object mode </modeling/objects>`
+:doc:`Object mode </modeling/objects/introduction>`
    Operations in *Object Mode* affect the whole object.
    **Object mode** has the following header in the 3D view:
 
