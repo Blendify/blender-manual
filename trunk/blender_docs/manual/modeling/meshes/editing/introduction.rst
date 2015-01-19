@@ -34,7 +34,7 @@ The mesh tools are found in various places, and available through shortcuts as w
 
 .. list-table::
 
-   * - :doc:`Transform and Deform tools </modeling/meshes/editing/basics>`:
+   * - :doc:`Transform and Deform tools </modeling/meshes/editing/basics/introduction>`:
 
        - Translate
        - Rotate
@@ -61,7 +61,7 @@ The mesh tools are found in various places, and available through shortcuts as w
        - Tris to Quads
        - Unsubdivide
 
-     - :doc:`Add and Divide tools </modeling/meshes/editing/duplicating>`:
+     - :doc:`Add and Divide tools </modeling/meshes/editing/duplicating/introduction>`:
 
        - Make Edge/Face
        - Fill
@@ -82,7 +82,7 @@ The mesh tools are found in various places, and available through shortcuts as w
        - Bevel
        - Wireframe
 
-       :doc:`Separate tools </modeling/meshes/editing/subdividing>`:
+       :doc:`Separate tools </modeling/meshes/editing/subdividing/introduction>`:
 
        - Rip
        - Rip fill

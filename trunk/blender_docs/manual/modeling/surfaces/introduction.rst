@@ -53,7 +53,7 @@ Finding Surface Tools
    Surface Tools.
 
 
-The panels of the *Editing* context are the same as for :doc:`curves </modeling/curves>`,
+The panels of the *Editing* context are the same as for :doc:`curves </modeling/curves/introduction>`,
 just with fewer options... And as usual, you have the *Select* and *Surface*
 menus in the 3D view headers, and the *Specials* (:kbd:`W`) pop-up one.
 
@@ -66,14 +66,14 @@ except that the ``U`` direction is indicated by yellow grid lines,
 and the ``V`` one is materialized by pink grid lines, as you can see in
 (*Surface*).
 
-You can :doc:`hide and reveal </modeling/curves#hiding_elements>` control points just as with curves,
-and you have the same draw options in the :doc:`Curve Tools </modeling/curves#curve_tools>` panel.
+You can :doc:`hide and reveal </modeling/curves/introduction#hiding_elements>` control points just as with curves,
+and you have the same draw options in the :doc:`Curve Tools </modeling/curves/introduction#curve_tools>` panel.
 
 
 Surface Structure
 *****************
 
-Many of the concepts from :doc:`curves </modeling/curves>`, especially :doc:`NURBS </modeling/curves#nurbs>` ones,
+Many of the concepts from :doc:`curves </modeling/curves/introduction>`, especially :doc:`NURBS </modeling/curves/introduction#nurbs>` ones,
 carry directly over to NURBS surfaces,
 such as control points, *Order*, *Weight*, *Resolution*, etc.
 Here we will just talk about the differences.
@@ -123,7 +123,7 @@ be able to "merge" different pieces of surfaces if at least one of their rows ma
 Surface Resolution
 ==================
 
-Just like :doc:`NURBS curves </modeling/curves#nurbs>`, *Resolution* controls the detail of the surface.
+Just like :doc:`NURBS curves </modeling/curves/introduction#nurbs>`, *Resolution* controls the detail of the surface.
 The higher the *Resolution* the more detailed and smoother the surface is.
 The lower the *Resolution* the rougher the surface. However, here you have two resolution settings,
 one for each interpolation axis (U and V). Note that unlike with curves, you have only one resolution
@@ -166,7 +166,7 @@ This makes working with surfaces quite easy.
 Knots
 =====
 
-Just like with :doc:`NURBS curves </modeling/curves#knots>`, NURBS surfaces have two knot vectors,
+Just like with :doc:`NURBS curves </modeling/curves/introduction#knots>`, NURBS surfaces have two knot vectors,
 one for each U and V axis. Here again, they can be one of *Uniform*, *Endpoint*,
 or *Bezier*, with the same properties as for curves. And as with curves, only open surfaces
 (in the relevant direction) are affected by this setting...
@@ -189,7 +189,7 @@ To cause the surface to extend to all edges you would set the ``V`` 's axis to
 Order
 =====
 
-One more time, this property is the same as with :doc:`NURBS Curves </modeling/curves#order>`;
+One more time, this property is the same as with :doc:`NURBS Curves </modeling/curves/introduction#order>`;
 it specifies how much the control points are taken into account for calculating the curve of the surface shape.
 For high *Orders*, (*1*), the surface pulls away from the control points,
 creating a smoother surface - assuming that the
@@ -220,7 +220,7 @@ Weight
    Surface Weight 5.
 
 
-Guess what? Yes, it works exactly like :doc:`NURBS Curves </modeling/curves#weight>` ! *Weight* specifies
+Guess what? Yes, it works exactly like :doc:`NURBS Curves </modeling/curves/introduction#weight>` ! *Weight* specifies
 how much each control point "pulls" on the curve.
 
 In (*Surface Weight 5*), a single control point, labeled "\ ``C`` ",
@@ -252,7 +252,7 @@ or cylinders, you must set to specific values the weights of the control points 
 which are provided as presets in the *Curve Tools* panel (lower right corner).
 This is not intuitive, and you should read more on NURBS before trying this.
 
-We saw with 1D :doc:`NURBS curves </modeling/curves#preset_weights>` how to create a circle;
+We saw with 1D :doc:`NURBS curves </modeling/curves/introduction#preset_weights>` how to create a circle;
 let's see how to create a sphere with 2D surfaces.
 It is the same principle - you'll note that the four different weights needed for creating a sphere
 (**1.0**, **0.707** = ``sqrt(0.5)``, **0.354** = ``sqrt(2)/4``, and **0.25**)

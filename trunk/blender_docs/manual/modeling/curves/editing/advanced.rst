@@ -184,7 +184,7 @@ Extrusion
 
 Ah! The extrusion! Probably the most interesting tool of the curves for modeling, especially with the bevel/taper/\
 *Tilt* / *Radius* options? Note that this has nothing to do with the *Extrude*
-(:kbd:`E`) command, described in the :doc:`previous page </modeling/curves/editing#adding_new_segments>` !
+(:kbd:`E`) command, described in the :doc:`previous page </modeling/curves/editing/introduction#adding_new_segments>` !
 
 
 We will see the different settings, depending on their scope of action:
@@ -242,7 +242,7 @@ Open 2D Curve
    the wall becomes a sort of slide or gutter.
    Note the direction of this bevel is sometimes strange and unpredictable, often the reverse of what you would get
    with the same curve closed? You can inverse this direction by
-   :doc:`switching the direction </modeling/curves/editing#switch_direction>` of the curve.
+   :doc:`switching the direction </modeling/curves/editing/introduction#switch_direction>` of the curve.
 
    This allows you, e.g., to quickly simulate a marble rolling down a complex slide,
    by combining an extruded beveled curve,

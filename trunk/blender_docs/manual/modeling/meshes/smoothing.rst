@@ -176,10 +176,10 @@ You can apply one of the following in *Edit mode*:
    This relaxes selected components, resulting in a smoother mesh.
 :doc:`Laplacian Smooth </modeling/meshes/editing/deforming/smooth>`
    Smooths geometry by offers controls for better preserving larger details.
-:doc:`Subdivide Smooth </modeling/meshes#specials>`
+:doc:`Subdivide Smooth </modeling/meshes/introduction#specials>`
    Adjusting the *smooth* parameter after using the *subdivide*
    tool results in a more organic shape. This is similar to using the subdivide modifier.
-:doc:`Bevel </modeling/meshes/editing>`
+:doc:`Bevel </modeling/meshes/editing/introduction>`
    This Bevels selected edged, causing sharp edges to be flattened.
 
 

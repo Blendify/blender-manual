@@ -562,9 +562,9 @@ Resolution
 ----------
 
 Preview
-   the :doc:`resolution </modeling/curves#curve_resolution>` in the viewport.
+   the :doc:`resolution </modeling/curves/introduction#curve_resolution>` in the viewport.
 Render
-   the :doc:`resolution </modeling/curves#curve_resolution>` on the render.
+   the :doc:`resolution </modeling/curves/introduction#curve_resolution>` on the render.
 
 
 .. figure:: /images/TextShapeSettings.jpg

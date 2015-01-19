@@ -28,24 +28,24 @@ to animate those models, to cameras to take pictures or video of it all.
 Types of Objects
 ****************
 
-:doc:`Meshes </modeling/meshes>`
+:doc:`Meshes </modeling/meshes/introduction>`
    Meshes are objects composed of Polygonal Faces, Edges and/or Vertices,
    and can be edited extensively with Blender's mesh editing tools. The default scene features a cube,
    which is one of the many included basic building-block
    shapes called :doc:`Mesh Primitives </modeling/meshes/primitives>`
-:doc:`Curves </modeling/curves>`
+:doc:`Curves </modeling/curves/introduction>`
    Curves are mathematically defined objects
    which can be manipulated with control handles or control points (instead of vertices),
    to manage their length and curvature.
-:doc:`Surfaces </modeling/surfaces>`
+:doc:`Surfaces </modeling/surfaces/introduction>`
    Surfaces are patches that are also manipulated with control points.
    These are useful for simple rounded forms and organic landscapes.
-:doc:`Meta Objects </modeling/metas>`
+:doc:`Meta Objects </modeling/metas/introduction>`
    Meta Objects (or Metaballs) are objects formed by a mathematical function (with no control points or vertices)
    defining the 3D volume in which the object exists.
    Meta Objects have a liquid-like quality, where when two or more Metaballs are brought together,
    they merge by smoothly rounding out the connection, appearing as one unified object.
-:doc:`Text </modeling/texts>`
+:doc:`Text </modeling/texts/introduction>`
    Text objects create a two dimensional representation of a string of characters.
 :doc:`Armatures </rigging/armatures>`
    Armatures are used for :doc:`rigging </rigging/introduction>`

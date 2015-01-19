@@ -53,11 +53,11 @@ Advanced Transformations
    As above. Useful when :doc:`mapping textures. </render/blender_render/textures/mapping>`
 :doc:`Align to Transform Orientation </3d_interaction/transform_control/transform_orientations>`
    Aligns the Object to the current Transform Orientation.
-:doc:`Geometry to Origin </modeling/objects#object_centers>`
+:doc:`Geometry to Origin </modeling/objects/introduction#object_centers>`
    Move the Object's geometry to the origin point.
-:doc:`Origin to Geometry </modeling/objects#object_centers>`
+:doc:`Origin to Geometry </modeling/objects/introduction#object_centers>`
    Move the Object's origin to its geometry.
-:doc:`Origin to 3D cursor </modeling/objects#object_centers>`
+:doc:`Origin to 3D cursor </modeling/objects/introduction#object_centers>`
    Move the Object's origin to the 3D cursor.
 :doc:`Randomize Transform </3d_interaction/transformations/advanced/randomize_transform>`
    Apply random movement, rotation and scale to selected Objects.

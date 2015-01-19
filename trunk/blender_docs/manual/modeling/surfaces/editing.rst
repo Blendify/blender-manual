@@ -6,8 +6,8 @@
 Surface Selection
 *****************
 
-Surface selection in *Edit* mode is very similar to :doc:`NURBS curve selection </modeling/curves/editing>`.
-The basic tools are the same as with :doc:`meshes </modeling/meshes/selecting>`,
+Surface selection in *Edit* mode is very similar to :doc:`NURBS curve selection </modeling/curves/editing/introduction>`.
+The basic tools are the same as with :doc:`meshes </modeling/meshes/selecting/introduction>`,
 so you can select a simple control point with a :kbd:`LMB` -click,
 add to current selection with :kbd:`Shift-LMB` -clicks, :kbd:`B` order-select, and so on.
 
@@ -22,7 +22,7 @@ The *Select* menu (3D view headers) is even simpler than for curves...
 
    All these options have the same meaning and behavior as in :doc:`Object mode </modeling/objects/selecting>`
    (and the specificities of *Border Select* in *Edit* mode have already been discussed
-   :doc:`here </modeling/meshes/selecting>`).
+   :doc:`here </modeling/meshes/selecting/introduction>`).
 
 
 .. figure:: /images/NurbsSelectMenu.jpg
@@ -41,7 +41,7 @@ Every Nth
    | Hotkey:   None
 
 
-This is the same option as for :doc:`curve selection </modeling/curves/editing#every_nth>`.
+This is the same option as for :doc:`curve selection </modeling/curves/editing/introduction#every_nth>`.
 However, the behavior of the *N*
 ("selection step") parameter in the 2D of a NURBS surface "cage" seems quite difficult to understand...
 
@@ -57,7 +57,7 @@ Control Point Row
    | Hotkey:   :kbd:`Shift-R`
 
 
-This option works a bit like :doc:`edge loop selection </modeling/meshes/selecting#edge_loop_selection>` for meshes,
+This option works a bit like :doc:`edge loop selection </modeling/meshes/selecting/introduction#edge_loop_selection>` for meshes,
 inasmuch it selects a whole :doc:`row </modeling/surfaces#control_points,_rows_and_grid>` of control points,
 based on the active (the last selected) one. The first time you hit :kbd:`Shift-R`,
 the V-row passing through (containing) the active point will be *added to the current selection*.
@@ -76,7 +76,7 @@ More and Less
    | Hotkey:   :kbd:`Ctrl-Numpad+` / :kbd:`Ctrl-Numpad-`
 
 
-These two options are complementary and very similar to :doc:`those for meshes </modeling/meshes/selecting>`.
+These two options are complementary and very similar to :doc:`those for meshes </modeling/meshes/selecting/introduction>`.
 Their purpose, based on current selected control points, is to reduce or enlarge this selection.
 
 The algorithm is the same as with meshes:
@@ -148,7 +148,7 @@ NURBS Control Points Settings
    | Panel:    *Curve Tools* (*Editing* context, :kbd:`F9`), and *Transform Properties*
 
 
-We saw in a :doc:`previous page </modeling/surfaces#weight>` that NURBS control points have a weight,
+We saw in a :doc:`previous page </modeling/surfaces/introduction#weight>` that NURBS control points have a weight,
 which is the influence of this point on the surface.
 You set it either using the big *Set Weight* button in the *Curve Tools* panel
 (after having defined the weight in the numeric field to the right),
@@ -170,7 +170,7 @@ Unlike meshes or curves, you cannot generally directly add new control points to
 (with :kbd:`Ctrl-LMB` clicks), as you can only extend a surface by adding a whole U- or V-row at once.
 The only exception is when working on a NURBS surface curve, i.e.
 a surface with only one control point on each U- or V-row. In this special case,
-all works exactly as with :doc:`curves </modeling/curves/editing#adding_new_segments>`.
+all works exactly as with :doc:`curves </modeling/curves/editing/introduction#adding_new_segments>`.
 
 Most of the time, only extrusion is available. As usual, once the tool is activated the
 extrusion happens immediately and you are placed into *Grab mode*,
@@ -240,12 +240,12 @@ Opening or Closing a Surface
    | Hotkey:   :kbd:`C`
 
 
-As in :doc:`curves </modeling/curves/editing#opening_and_closing_a_curve>`,
+As in :doc:`curves </modeling/curves/editing/introduction#opening_and_closing_a_curve>`,
 surfaces can be closed (cyclic) or open. However, as surfaces are 2D,
 you can control this property independently along the U and V axes.
 
 To toggle the cyclic property of a surface along one axis,
-use :kbd:`C` and choose either *cyclic U* or *cyclic V* from the :doc:`Toggle pop-up menu </modeling/surfaces>`.
+use :kbd:`C` and choose either *cyclic U* or *cyclic V* from the :doc:`Toggle pop-up menu </modeling/surfaces/introduction>`.
 The corresponding surface's outer edges will join together to form a "closed" surface.
 
 
@@ -344,7 +344,7 @@ Joining or Merging Surfaces
    | Hotkey:   :kbd:`F`
 
 
-Just like :doc:`curves </modeling/curves/editing#joining_or_merging_curves>`,
+Just like :doc:`curves </modeling/curves/editing/introduction#joining_or_merging_curves>`,
 merging two surfaces requires that a single edge, a border row of control points,
 from two separate surfaces are selected. This means that the surfaces must be part of the same object. For example,
 you can't join two surfaces while in *Object* mode - but you can of course, as with any objects of the same type,
@@ -404,7 +404,7 @@ you will subdivide once all *completely selected grids* by subdividing each "qua
 smaller ones.
 
 If you apply it to a 1D surface (a "surface curve"),
-this tool works exactly as with :doc:`curves </modeling/curves/editing#subdivision>`.
+this tool works exactly as with :doc:`curves </modeling/curves/editing/introduction#subdivision>`.
 
 
 Spin
@@ -457,7 +457,7 @@ Other Specials Options
 
 
 The *Specials* menu contains exactly the same additional options as for
-:doc:`curves </modeling/curves/editing#other_specials_options>` -
+:doc:`curves </modeling/curves/editing/introduction#other_specials_options>` -
 but I suppose *Set Radius* and *Smooth Radius* have nothing to do here...
 
 

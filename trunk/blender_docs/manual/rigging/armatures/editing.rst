@@ -20,7 +20,7 @@ Editing an armature means two main domains of action:
   like transform properties (i.e. grab, scale, etc...) and relationships between bones (parenting and connecting),
   as well as bones' names, influence, behavior in *Pose* mode, etc.
 
-These are standard editing methods, quite similar for example to :doc:`meshes </modeling/meshes/editing>` editing.
+These are standard editing methods, quite similar for example to :doc:`meshes </modeling/meshes/editing/introduction>` editing.
 Blender also features a more advanced "armature sketching" tool,
 called :doc:`Etch-a-Ton </rigging/armatures/editing/sketching>`.
 The same tool might also be used in :doc:`templating </rigging/armatures/editing/templating>`, i.e.
