@@ -43,7 +43,7 @@ In this guide we'll use TortoiseSVN, though any Subversion client will do.
    In this guide we'll use ``C:\blender_docs``.
 #. Open the new folder, right click and choose *SVN Checkout...* from the context menu.
 #. In the *URL of repository* field, enter: ``https://svn.blender.org/svnroot/bf-manual/trunk/blender_docs``.
-#. In the *Checkout directory* field, enter: ``C:\``.
+#. In the *Checkout directory* field, enter: ``C:\blender_docs``.
 #. Click *OK* - the repository will now be downloaded
    which may take a few minutes depending on your internet connection.
 
