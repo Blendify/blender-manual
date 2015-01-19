@@ -9,23 +9,29 @@
 .. glossary::
 
    Active
-      Blender makes a distinction between selected and active. Only one Object or item can be active at any given time. 
+      Blender makes a distinction between selected and active.
+      Only one Object or item can be active at any given time.
 
    Actuator
-      A :term:`logic brick` that acts like a muscle of a lifeform. It can move the object, or also make a sound. 
+      A :term:`logic brick` that acts like a muscle of a lifeform. It can move the object, or also make a sound.
 
    Aliasing
       Rendering artifacts in the form of jagged lines.
-
 
    Alpha Channel
       Additional channel in 2D image for transparency.
 
    Ambient Light
-      It's light that doesn't seem to come from a specific source, but is just there. In the real world, this is caused by stray photons bouncing around and occasionally ricocheting under the desk. Since the light doesn't come from anywhere, all sides of an object are illuminated equally, and it won't have any shading on it.
-   
+      It's light that doesn't seem to come from a specific source, but is just there.
+      In the real world, this is caused by stray photons bouncing around and occasionally ricocheting under the desk.
+      Since the light doesn't come from anywhere,
+      all sides of an object are illuminated equally, and it won't have any shading on it.
+
    Ambient Occlusion
-      A ratio of how much ambient light a surface point would be likely to receive. It simulates a huge dome light surrounding the entire scene. If a a surface point is under a foot or table, it will end up much darker than the top of someone's head or the tabletop.
+      A ratio of how much ambient light a surface point would be likely to receive.
+      It simulates a huge dome light surrounding the entire scene.
+      If a a surface point is under a foot or table,
+      it will end up much darker than the top of someone's head or the tabletop.
 
    Animation
       Simulation of motion.
@@ -34,7 +40,8 @@
       See :term:`oversampling`.
 
    Armature
-      A single-member class of primitive object. It consists of :term:`bones <bone>`. Its primary use is in development of animated, articulated objects.
+      A single-member class of primitive object.
+      It consists of :term:`bones <bone>`. Its primary use is in development of animated, articulated objects.
 
    Automerge
       Editing mode working with Snap-tool. It removes the doubles when you snap 2 vertices.
@@ -43,34 +50,46 @@
       A reference line depicting the direction of one of the coordinates in any coordinate system.
 
    Bevel
-      Operation to chamfer or bevel edges of an object. 
+      Operation to chamfer or bevel edges of an object.
 
    Bone
       Each of the segments that make up an :term:`armature`.
 
    Boolean
-      Operation that takes 2 meshes. There  3 types: union, intersection and difference. Order of meshes is important for difference operation. With A and B as the meshes:
-      
-      * Difference (A - B): the inner part of B is substracted from the inner part of A.
-      * Union: the inner parts of both meshes A and B are combined.
-      * Intersect: only inner parts both meshes have in common are kept.
+      Operation that takes 2 meshes. There  3 types: union, intersection and difference.
+      Order of meshes is important for difference operation. With A and B as the meshes:
 
-      These operations take care of inner and outer parts of meshes (given by normals). 
+      - Difference (A - B): the inner part of B is substracted from the inner part of A.
+      - Union: the inner parts of both meshes A and B are combined.
+      - Intersect: only inner parts both meshes have in common are kept.
+
+      These operations take care of inner and outer parts of meshes (given by normals).
 
    Bounding Box
       Box that encloses the shape of an object. The box is aligned with the local space of the object.
 
    Bump Mapping
-      Is a technique where at each pixel, a perturbation to the surface normal of the object being rendered is looked up in a texture map and applied before the illumination calculation is done.
+      Is a technique where at each pixel,
+      a perturbation to the surface normal of the object being rendered is looked up in a texture map
+      and applied before the illumination calculation is done.
 
    Bézier
       It's a computer graphics technique for generating and representing curves.
 
    Caustics
-      In optics is a bundle of light rays. For example a caustic effect may be seen when light refracts or reflects through some refractive or reflective material, to create a more focused, stronger light on the final location. Such amplification, especially of sunlight, can burn -- hence the name. A common situation when caustics are visible is when some light points on glass. There is a shadow behind the glass, but also there is a stronger light spot. Nowadays, almost every advanced rendering system supports caustics. Some of them even support volumetric caustics. This is accomplished by raytracing the possible paths of the light beam through the glass, accounting for the refraction, reflection, etc. 
+      In optics is a bundle of light rays.
+      For example a caustic effect may be seen when light refracts or reflects through some
+      refractive or reflective material, to create a more focused, stronger light on the final location.
+      Such amplification, especially of sunlight, can burn -- hence the name.
+      A common situation when caustics are visible is when some light points on glass.
+      There is a shadow behind the glass, but also there is a stronger light spot.
+      Nowadays, almost every advanced rendering system supports caustics.
+      Some of them even support volumetric caustics.
+      This is accomplished by raytracing the possible paths of the light beam through the glass,
+      accounting for the refraction, reflection, etc.
 
    Collapse
-      Is a tool used to remove redundant edges from geometry. 
+      Is a tool used to remove redundant edges from geometry.
 
    Color Blend Modes
       Ways in which 2 colors can be blended in computer graphics.
@@ -78,7 +97,7 @@
       See Wikipedia's `Blend Modes <http://en.wikipedia.org/wiki/Blend_modes>`__ article for more information.
 
    Concave face
-      Face in which one vert is inside a triangle formed by other vertices of the face. 
+      Face in which one vert is inside a triangle formed by other vertices of the face.
 
    Constraint
       Tt is any factor that limits the performance of a system with respect to its goal.
@@ -87,11 +106,13 @@
       Mesh used in subsurf modeling to control the shape of the mesh.
 
    Controller
-      A :term:`logic brick` that acts like the brain of a lifeform. It makes decisions to activate muscles (:term:`actuators <actuator>`), either using simple logic or complex Python scripts.
-      
+      A :term:`logic brick` that acts like the brain of a lifeform.
+      It makes decisions to activate muscles (:term:`actuators <actuator>`),
+      either using simple logic or complex Python scripts.
+
    Convex face
       Not :term:`concave face`. Opposite of concave face.
-      
+
    Coplanar
       Items that are in the same plane in 3D space.
 
@@ -102,28 +123,47 @@
       It's a class of objects. In Blender there are :term:`Bézier` curves and :term:`NURBS` curves.
 
    Depth Of Field
-      It's the distance in front of and behind the subject which appears to be in focus. For any given lens setting, there is only one distance at which a subject is precisely in focus, but focus falls off gradually on either side of that distance, so there is a region in which the blurring is tolerable. This region is greater behind the point of focus than it is in front, as the angle of the light rays change more rapidly; they approach being parallel with increasing distance.
+      It's the distance in front of and behind the subject which appears to be in focus.
+      For any given lens setting, there is only one distance at which a subject is precisely in focus,
+      but focus falls off gradually on either side of that distance,
+      so there is a region in which the blurring is tolerable.
+      This region is greater behind the point of focus than it is in front,
+      as the angle of the light rays change more rapidly; they approach being parallel with increasing distance.
 
    Diffuse Light
-      It's even, directed light coming off a surface. For most things, the diffuse light is the main lighting we see. Diffuse light comes from a specific direction or location, and creates shading. Surfaces facing towards the light source will be brighter, while surfaces facing away from the light source will be darker.
+      It's even, directed light coming off a surface.
+      For most things, the diffuse light is the main lighting we see.
+      Diffuse light comes from a specific direction or location, and creates shading.
+      Surfaces facing towards the light source will be brighter,
+      while surfaces facing away from the light source will be darker.
 
    Directional Light
-      Is a light that has a specific direction, but no location. It seems to come from an infinitely far away source, like the sun. Surfaces facing the light are illuminated more than surfaces facing away, but their location doesn't matter. A Directional Light illuminates all objects in the scene, no matter where they are.
+      Is a light that has a specific direction, but no location.
+      It seems to come from an infinitely far away source, like the sun.
+      Surfaces facing the light are illuminated more than surfaces facing away, but their location doesn't matter.
+      A Directional Light illuminates all objects in the scene, no matter where they are.
 
    Displacement Mapping
-      Uses a greyscale heightmap, like :term:`Bump Mapping`, but the image is used to physically move the vertices of the mesh at render time. This is of course only useful if the mesh has large amounts of vertices.
+      Uses a greyscale heightmap, like :term:`Bump Mapping`,
+      but the image is used to physically move the vertices of the mesh at render time.
+      This is of course only useful if the mesh has large amounts of vertices.
 
    Doppler Effect
-      The Doppler effect is the change in pitch that occurs when a sound has a velocity relative to the listener. When a sound moves towards the listener the pitch will rise. When going away from the listener the pitch will drop. A well known example is the sound of an car passing by.
+      The Doppler effect is the change in pitch that occurs when a sound has a velocity relative to the listener.
+      When a sound moves towards the listener the pitch will rise.
+      When going away from the listener the pitch will drop. A well known example is the sound of an car passing by.
 
    Double Buffer
-      Blender uses two buffers (images) to draw the interface in. The content of one buffer is displayed, while drawing occurs on the other buffer. When drawing is complete, the buffers are switched. 
+      Blender uses two buffers (images) to draw the interface in.
+      The content of one buffer is displayed, while drawing occurs on the other buffer.
+      When drawing is complete, the buffers are switched.
 
    Edge
       Straight segment (line) that connects 2 :term:`vertices <vertex>`, and can be part of a :term:`face`.
-      
+
    Edge Loop
-      Chain of :term:`edges <edge>` belonging to consecutive :term:`quads <quad>`. An edge loop ends at a pole or a boundary. Otherwise it is cyclic.
+      Chain of :term:`edges <edge>` belonging to consecutive :term:`quads <quad>`.
+      An edge loop ends at a pole or a boundary. Otherwise it is cyclic.
 
    Edge Ring
        Path of all :term:`edges <edge>` along a :term:`face loop` that share 2 faces belonging to that loop.
@@ -132,7 +172,9 @@
       Kind of object that cannot hold any geometry.
 
    Environment Map
-      Method of calculating reflections. It involves rendering images at strategic positions and applying them as textures to the mirror. Now in most cases obsoleted by Raytracing, which though slower is easier to use and more accurate.
+      Method of calculating reflections.
+      It involves rendering images at strategic positions and applying them as textures to the mirror.
+      Now in most cases obsoleted by Raytracing, which though slower is easier to use and more accurate.
 
    Extrude
       It's a tool used to create more geometry into the mesh. It is a very commonly used tool.
@@ -141,43 +183,67 @@
       Mesh element that defines a piece of surface. It consists of 3 or more :term:`edges <edge>`.
 
    Face Loop
-      Chain of consecutive :term:`quads <quad>`. A face loop stops at a :term:`triangle` or :term:`Ngon` (which don't belong to the loop), or at a boundary. Otherwise it's cyclic.
+      Chain of consecutive :term:`quads <quad>`.
+      A face loop stops at a :term:`triangle` or :term:`Ngon` (which don't belong to the loop), or at a boundary.
+      Otherwise it's cyclic.
 
    Geometric Center
       An object's geometric center coincides with the geometric center of its bounding box.
 
    Global Illumination
-      Is a superset of radiosity and ray tracing. The goal is to compute all possible light interactions in a given scene, and thus obtain a truly photo realistic image. All combinations of diffuse and specular reflections and transmissions must be accounted for. Effects such as colour bleeding and caustics must be included in a global illumination simulation.
+      Is a superset of radiosity and ray tracing.
+      The goal is to compute all possible light interactions in a given scene,
+      and thus obtain a truly photo realistic image.
+      All combinations of diffuse and specular reflections and transmissions must be accounted for.
+      Effects such as colour bleeding and caustics must be included in a global illumination simulation.
 
    Gouraud Shading
-      Used to achieve smooth lighting on low-polygon surfaces without the heavy computational requirements of calculating lighting for each pixel. The technique was first presented by Henri Gouraud in 1971. 
+      Used to achieve smooth lighting on low-polygon surfaces without the
+      heavy computational requirements of calculating lighting for each pixel.
+      The technique was first presented by Henri Gouraud in 1971.
 
    High Dynamic Range Image
-      HDRI is a set of techniques that allow a far greater dynamic range of exposures than normal digital imaging techniques. The intention is to accurately represent the wide range of intensity levels found in real scenes, ranging from direct sunlight to the deepest shadows. The use of high dynamic range imaging in computer graphics has been popularised by the work of Paul Debevec.
+      HDRI is a set of techniques that allow a far greater dynamic range of exposures than normal digital imaging
+      techniques.  The intention is to accurately represent the wide range of intensity levels found in real scenes,
+      ranging from direct sunlight to the deepest shadows.
+      The use of high dynamic range imaging in computer graphics has been popularised by the work of Paul Debevec.
 
    Index Of Refraction
-      It's a property of transparent materials. When a light ray travels through the same volume it follows a straight path. However if it passes from one transparent volume to another, it bends. The angle by which the ray is bent can be determined by the IOR of the materials of both volumes.
+      It's a property of transparent materials.
+      When a light ray travels through the same volume it follows a straight path.
+      However if it passes from one transparent volume to another, it bends.
+      The angle by which the ray is bent can be determined by the IOR of the materials of both volumes.
 
    Interpolation
       Method of calculating new data between points of known value, like :term:`keyframes <keyframe>`.
-   
+
    IPO curve
       Curve that holds the animation values of a specific property.
 
    Inverse Kinematics
-      Is the process of determining the movement of interconnected segments of a body or model. Using ordinary Kinematics on a hierarchically structured object you can for example move the shoulder of a puppet. The upper and lower arm and hand will automatically follow that movement. IK will allow you to move the hand and let the lower and upper arm go along with the movement. Without IK the hand would come off the model and would move independently in space.
+      Is the process of determining the movement of interconnected segments of a body or model.
+      Using ordinary Kinematics on a hierarchically structured object
+      you can for example move the shoulder of a puppet.
+      The upper and lower arm and hand will automatically follow that movement.
+      IK will allow you to move the hand and let the lower and upper arm go along with the movement.
+      Without IK the hand would come off the model and would move independently in space.
 
    Keyframe
-      It's a frame in an animated sequence drawn or otherwise constructed directly by the user. In classical animation, when all frames were drawn by animators, the senior artist would draw these frames, leaving the "in between" frames to an apprentice. Now, the animator creates only the first and last frames of a simple sequence (keyframes); the computer fills in the gap.
+      It's a frame in an animated sequence drawn or otherwise constructed directly by the user.
+      In classical animation, when all frames were drawn by animators,
+      the senior artist would draw these frames, leaving the "in between" frames to an apprentice.
+      Now, the animator creates only the first and last frames of a simple sequence (keyframes);
+      the computer fills in the gap.
 
    Knife
-      Is a tool used to cut meshes to get more geometry. 
+      Is a tool used to cut meshes to get more geometry.
 
    Layer
       A visibility flag for objects.
 
    Logic brick
-      A graphical representation of a functional unit in Blender's game logic. A Logic brick can be a :term:`Sensor`, :term:`Controller` or :term:`Actuator`.
+      A graphical representation of a functional unit in Blender's game logic.
+      A Logic brick can be a :term:`Sensor`, :term:`Controller` or :term:`Actuator`.
 
    Manifold
       Manifold meshes, called also *water tight* meshes,
@@ -187,13 +253,16 @@
       Type of object consisting of :term:`vertices <vertex>`, :term:`edges <edge>` and :term:`faces <face>`.
 
    Motion Blur
-      It's the simulation of the phenomenon that occurs when we perceive a rapidly moving object. The object appears to be blurred because of our persistence of vision. Doing motion blur makes computer animation appear more realistic.
+      It's the simulation of the phenomenon that occurs when we perceive a rapidly moving object.
+      The object appears to be blurred because of our persistence of vision.
+      Doing motion blur makes computer animation appear more realistic.
 
    Ngon
       It's a :term:`face` that contains more than four vertices.
 
    Non-linear animation
-      Animation technique that allows the animator to edit motions as a whole, not just the individual keys. Nonlinear animation allows you to combine, mix, and blend different motions to create entirely new animations. 
+      Animation technique that allows the animator to edit motions as a whole, not just the individual keys.
+      Nonlinear animation allows you to combine, mix, and blend different motions to create entirely new animations.
 
    Non-manifold
       Non-Manifold meshes essentially define geometry which cannot exist in the real world.
@@ -217,27 +286,41 @@
       Is a computer graphics technique for generating and representing **curves** and **surfaces**.
 
    Normal mapping
-      Is similar to :term:`Bump mapping`, but instead of the image being a greyscale heightmap, the colours define in which direction the normal should be shifted, the 3 colour channels being mapped to the 3 directions X, Y and Z. This allows more detail and control over the effect. 
+      Is similar to :term:`Bump mapping`, but instead of the image being a greyscale heightmap,
+      the colours define in which direction the normal should be shifted,
+      the 3 colour channels being mapped to the 3 directions X, Y and Z.
+      This allows more detail and control over the effect.
 
    Object center
-      Reference point of an object for positioning (translating), orienting (rotating), and scaling an it. In most cases, this center is at the geometric center of the object (geometric center of its bounding box). However, an object's center may be offset from the geometric center.
+      Reference point of an object for positioning (translating), orienting (rotating), and scaling an it.
+      In most cases, this center is at the geometric center of the object (geometric center of its bounding box).
+      However, an object's center may be offset from the geometric center.
 
    Oversampling
-      Is the technique of minimizing :term:`aliasing` when representing a high-resolution signal at a lower resolution. 
+      Is the technique of minimizing :term:`aliasing` when representing a high-resolution signal at a lower resolution.
 
-      Also called **Anti-Aliasing**. 
+      Also called **Anti-Aliasing**.
 
    Particle system
-       It's a technique that simulate certain kinds of fuzzy phenomena, which are otherwise very hard to reproduce with conventional rendering techniques. Common examples include fire, explosions, smoke, sparks, falling leaves, clouds, fog, snow, dust, meteor tails, stars and galaxies, or abstract visual effects like glowing trails, magic spells. Also used for fur, grass or hair.
+      It's a technique that simulate certain kinds of fuzzy phenomena,
+      which are otherwise very hard to reproduce with conventional rendering techniques.
+      Common examples include fire, explosions, smoke, sparks, falling leaves, clouds, fog, snow, dust, meteor tails,
+      stars and galaxies, or abstract visual effects like glowing trails, magic spells.
+      Also used for fur, grass or hair.
 
    Phong
-      Local illumination model that can produce a certain degree of realism in three-dimensional objects by combining three elements: diffuse, specular and ambient for each considered point on a surface. It has several assumptions - all lights are points, only surface geometry is considered, only local modelling of diffuse and specular, specular colour is the same as light colour, ambient is a global constant. 
+      Local illumination model that can produce a certain degree of realism in three-dimensional
+      objects by combining three elements: diffuse, specular and ambient for each considered point on a surface.
+      It has several assumptions - all lights are points, only surface geometry is considered,
+      only local modelling of diffuse and specular, specular colour is the same as light colour,
+      ambient is a global constant.
 
    Pivot Point
-      It's a reference point used by many mesh manipulation tools. 
+      It's a reference point used by many mesh manipulation tools.
 
    Pole
-      It's a vertex in which three or five or more edges are connected to. A vertex connected to one, two or four edges, is not a pole.
+      It's a vertex in which three or five or more edges are connected to.
+      A vertex connected to one, two or four edges, is not a pole.
 
    Primitive
       Is a basic object that can be used as a basis for modeling more complicated objects.
@@ -246,46 +329,69 @@
       Computer generated (generic) textures. Procedural textures can be configured via parameters.
 
    Proportional Editing
-      Used to alter existing model in a more organic way. When elements are moved interactively, neighbouring elements are also moved depending on their distance and the defined parameters.
-      
+      Used to alter existing model in a more organic way.
+      When elements are moved interactively,
+      neighbouring elements are also moved depending on their distance and the defined parameters.
+
    Quad
-      It's a :term:`face` that contains exactly four vertices. 
+      It's a :term:`face` that contains exactly four vertices.
 
    Radiosity
-      It's a more accurate but also more process-intensive technique than raytracing, that calculates patterns of light and shadow for rendering graphics images from three-dimensional models. One of the many different tools which can simulate diffuse lighting in Blender.
-      
+      It's a more accurate but also more process-intensive technique than raytracing,
+      that calculates patterns of light and shadow for rendering graphics images from three-dimensional models.
+      One of the many different tools which can simulate diffuse lighting in Blender.
+
    Raytracing
-      Rendering technique that works by tracing the path taken by a ray of light through the scene, and calculating reflection, refraction, or absorption of the ray whenever it intersects an object in the world. More accurate than :term:`scanline`, but much slower.
+      Rendering technique that works by tracing the path taken by a ray of light through the scene,
+      and calculating reflection, refraction, or absorption of the ray whenever it intersects an object in the world.
+      More accurate than :term:`scanline`, but much slower.
 
    Refraction
-      It's the change in direction of a wave due to a change in velocity. It happens when waves travel from a medium with a given :term:`index of refraction` to a medium with another. At the boundary between the media, the wave changes direction; its wavelength increases or decreases but frequency remains constant.
-   
+      It's the change in direction of a wave due to a change in velocity.
+      It happens when waves travel from a medium with a given :term:`index of refraction` to a medium with another.
+      At the boundary between the media, the wave changes direction;
+      its wavelength increases or decreases but frequency remains constant.
+
    Relative Vertex Keys
-      Are part of a keyframe animation system that operates on vertex level objects. Each key is stored as a morph target such that several keys may be blended together to achieve complex mesh animation. Facial expressions, speech, and other detailed animated keyframed movements can be created within mesh-based models.
+      Are part of a keyframe animation system that operates on vertex level objects.
+      Each key is stored as a morph target such that several keys may be blended
+      together to achieve complex mesh animation.
+      Facial expressions, speech, and other detailed animated keyframed movements
+      can be created within mesh-based models.
 
    Render
-      Proccess of generating an image out of a 3D model on a computer. 
+      Proccess of generating an image out of a 3D model on a computer.
 
    Scanline
-      Rendering technique. Much faster than :term:`raytracing`, but allows fewer effects, such as reflections, refractions, motion blur and focal blur.
+      Rendering technique. Much faster than :term:`raytracing`,
+      but allows fewer effects, such as reflections, refractions, motion blur and focal blur.
 
    Sensor
       A :term:`logic brick` that acts like a sense of a lifeform. It reacts to touch, vision, collision etc.
 
    Shading
-      Process of altering the color of an object/surface in the 3D scene, based on its angle to lights and its distance from lights to create a photorealistic effect.
+      Process of altering the color of an object/surface in the 3D scene,
+      based on its angle to lights and its distance from lights to create a photorealistic effect.
 
    Smoothing
-      Defines how :term:`faces <face>` are shaded. Face can be either solid (faces are rendered flat) or smooth (faces are smoothed by interpolating the normal on every point of the face).
+      Defines how :term:`faces <face>` are shaded.
+      Face can be either solid (faces are rendered flat)
+      or smooth (faces are smoothed by interpolating the normal on every point of the face).
 
    Specular light
       Refers to the highlights on reflective objects.
 
    Sub surface scattering
-      Mechanism of light transport in which light penetrates the surface of a translucent object, is scattered by interacting with the material, and exits the surface at a different point. All non-metallic materials are translucent to some degree. In particular, materials such as marble, skin, and milk are extremely difficult to simulate realistically without taking subsurface scattering into account. 
+      Mechanism of light transport in which light penetrates the surface of a translucent object,
+      is scattered by interacting with the material, and exits the surface at a different point.
+      All non-metallic materials are translucent to some degree.
+      In particular, materials such as marble, skin,
+      and milk are extremely difficult to simulate realistically without taking subsurface scattering into account.
 
    Subdividing
-      It's used to add more geometry to a mesh. It creates new vertices on subdivided edges, new edges between subdivisions and new faces based on new edges. If new edges cross a new vertex is created on their crossing point.
+      It's used to add more geometry to a mesh.
+      It creates new vertices on subdivided edges, new edges between subdivisions and new faces based on new edges.
+      If new edges cross a new vertex is created on their crossing point.
 
    Subdivision surface
       Is the tool which subdivides your model at render-time, without affecting your mesh at design-time.
@@ -297,18 +403,23 @@
 
    Triangle
       It's a :term:`face` with exactly 3 :term:`vertices <vertex>`.
-      
+
    UV map
-      A UV map defines a relation between the surface of a 3 dimensional mesh and and a planar 2D texture. In detail, each face of the mesh is mapped to a corresponding face on the texture. It is possible and often common practice to map several faces of the mesh to the same or overlapping areas of the texture. 
+      A UV map defines a relation between the surface of a 3 dimensional mesh and and a planar 2D texture. In detail,
+      each face of the mesh is mapped to a corresponding face on the texture.
+      It is possible and often common practice to map several faces of the mesh to the same
+      or overlapping areas of the texture.
 
    Vertex
-      It's a point in 3D space containing a location. It may also have a defined color. Vertices are the terminating points of :term:`edges <edge>`.
+      It's a point in 3D space containing a location. It may also have a defined color.
+      Vertices are the terminating points of :term:`edges <edge>`.
 
    Vertex Buffer Object
       Term used for uploading geometry to the graphics cards memory for improved performance.
 
-      See Wikipedia's `Vertex Buffer Object <http://en.wikipedia.org/wiki/Vertex_Buffer_Object>`__ article for more information.
-      
+      See Wikipedia's `Vertex Buffer Object <http://en.wikipedia.org/wiki/Vertex_Buffer_Object>`__
+      article for more information.
+
    Vertex Group
       Vertices can be grouped together so that certain operations can work on specific groups.
 

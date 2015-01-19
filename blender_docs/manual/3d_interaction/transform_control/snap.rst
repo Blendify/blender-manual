@@ -62,9 +62,6 @@ in the 3D view's header buttons.
    Magnet icon in the 3D view header (red when enabled).
 
 
-Snapping Modes
-**************
-
 Snap Element
 ============
 
