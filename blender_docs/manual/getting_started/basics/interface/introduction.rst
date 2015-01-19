@@ -7,7 +7,7 @@ Starting Blender for the first time
 
 .. figure:: /images/(Doc_26x_Manual_Vitals_Help)_(Splash_Screen_2.66)_(GBV266FN).jpg
    :align: right
-   :scale: 50%
+   :width: 250
 
 If you are familiar with other 3D software you will immediately
 notice that Blender is quite different from what you are used to seeing.
@@ -60,7 +60,7 @@ Interface concepts
 
 .. figure:: /images/Blender-cross-platform.jpg
    :align: right
-   :scale: 25%
+   :width: 250
 
 
 Blender is developed as cross-platform software which means that its primary target is to work
