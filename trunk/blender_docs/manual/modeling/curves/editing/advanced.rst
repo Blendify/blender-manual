@@ -184,7 +184,8 @@ Extrusion
 
 Ah! The extrusion! Probably the most interesting tool of the curves for modeling, especially with the bevel/taper/\
 *Tilt* / *Radius* options? Note that this has nothing to do with the *Extrude*
-(:kbd:`E`) command, described in the :doc:`previous page </modeling/curves/editing/introduction#adding_new_segments>` !
+(:kbd:`E`) command, described in the
+:doc:`previous page </modeling/curves/editing/introduction#adding_new_segments>` !
 
 
 We will see the different settings, depending on their scope of action:

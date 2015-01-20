@@ -57,7 +57,8 @@ Communication between developers is done mostly through three platforms:
 - Various `mailing lists <http://lists.blender.org/mailman/listinfo>`__
 - The #blendercoders IRC channel (see below)
 
-If you are interested in helping develop Blender, see the `Get Involved <http://www.blender.org/get-involved/>`__ page.
+If you are interested in helping develop Blender,
+see the `Get Involved <http://www.blender.org/get-involved/>`__ page.
 
 
 .. _irc-channels:
@@ -85,5 +86,6 @@ You can join these with your favorite IRC client:
 
    If you do not have an IRC client, you can access IRC using `webchat <http://webchat.freenode.net/>`__.
 
-There also several more Blender-related channels not listed here (e.g. channels for speakers of a particular language).
+There also several more Blender-related channels not listed here
+(e.g. channels for speakers of a particular language).
 We recommend you search Freenode to see them all.

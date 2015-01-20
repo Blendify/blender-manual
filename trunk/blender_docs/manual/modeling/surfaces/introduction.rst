@@ -73,7 +73,8 @@ and you have the same draw options in the :doc:`Curve Tools </modeling/curves/in
 Surface Structure
 *****************
 
-Many of the concepts from :doc:`curves </modeling/curves/introduction>`, especially :doc:`NURBS </modeling/curves/introduction#nurbs>` ones,
+Many of the concepts from :doc:`curves </modeling/curves/introduction>`,
+especially :doc:`NURBS </modeling/curves/introduction#nurbs>` ones,
 carry directly over to NURBS surfaces,
 such as control points, *Order*, *Weight*, *Resolution*, etc.
 Here we will just talk about the differences.

@@ -332,7 +332,8 @@ The *Segm* numeric field allows you to set the number of segments inside a given
 it is **1**, which gives a standard rigid bone! The higher this setting (max **32**), the smoother the bone,
 but the heavier the pose calculations...
 
-Each bone's ends are mapped to its "virtual" Bezier curve's :doc:`"auto" </modeling/curves/introduction#editing_bezier_curves>`
+Each bone's ends are mapped to its "virtual" Bezier curve's
+:doc:`"auto" </modeling/curves/introduction#editing_bezier_curves>`
 handle. Therefore, you can't control their direction,
 but you can change their "length" using the *In* and *Out* numeric fields,
 to control the "root handle" and "tip handle" of the bone, respectively.

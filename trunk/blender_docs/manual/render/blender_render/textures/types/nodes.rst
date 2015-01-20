@@ -26,7 +26,8 @@ FIXME(Template Unsupported: Doc:2.6/Reference/Nodes/Concepts;
 Using Texture Nodes
 ===================
 
-To use texture nodes with the current texture, open a :doc:`Node Editor window </render/blender_render/textures/types/nodes/editor>`,
+To use texture nodes with the current texture,
+open a :doc:`Node Editor window </render/blender_render/textures/types/nodes/editor>`,
 set it to *Texture* mode by clicking the "Texture" icon (
 
 .. figure:: /images/26-Manual-Selector-Node-Btn-Texture.jpg

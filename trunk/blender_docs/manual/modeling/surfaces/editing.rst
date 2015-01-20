@@ -6,7 +6,8 @@
 Surface Selection
 *****************
 
-Surface selection in *Edit* mode is very similar to :doc:`NURBS curve selection </modeling/curves/editing/introduction>`.
+Surface selection in *Edit* mode is very similar to
+:doc:`NURBS curve selection </modeling/curves/editing/introduction>`.
 The basic tools are the same as with :doc:`meshes </modeling/meshes/selecting/introduction>`,
 so you can select a simple control point with a :kbd:`LMB` -click,
 add to current selection with :kbd:`Shift-LMB` -clicks, :kbd:`B` order-select, and so on.
@@ -57,7 +58,8 @@ Control Point Row
    | Hotkey:   :kbd:`Shift-R`
 
 
-This option works a bit like :doc:`edge loop selection </modeling/meshes/selecting/introduction#edge_loop_selection>` for meshes,
+This option works a bit like
+:doc:`edge loop selection </modeling/meshes/selecting/introduction#edge_loop_selection>` for meshes,
 inasmuch it selects a whole :doc:`row </modeling/surfaces#control_points,_rows_and_grid>` of control points,
 based on the active (the last selected) one. The first time you hit :kbd:`Shift-R`,
 the V-row passing through (containing) the active point will be *added to the current selection*.
@@ -76,7 +78,8 @@ More and Less
    | Hotkey:   :kbd:`Ctrl-Numpad+` / :kbd:`Ctrl-Numpad-`
 
 
-These two options are complementary and very similar to :doc:`those for meshes </modeling/meshes/selecting/introduction>`.
+These two options are complementary and very similar to
+:doc:`those for meshes </modeling/meshes/selecting/introduction>`.
 Their purpose, based on current selected control points, is to reduce or enlarge this selection.
 
 The algorithm is the same as with meshes:
@@ -245,7 +248,8 @@ surfaces can be closed (cyclic) or open. However, as surfaces are 2D,
 you can control this property independently along the U and V axes.
 
 To toggle the cyclic property of a surface along one axis,
-use :kbd:`C` and choose either *cyclic U* or *cyclic V* from the :doc:`Toggle pop-up menu </modeling/surfaces/introduction>`.
+use :kbd:`C` and choose either *cyclic U* or *cyclic V* from the
+:doc:`Toggle pop-up menu </modeling/surfaces/introduction>`.
 The corresponding surface's outer edges will join together to form a "closed" surface.
 
 
