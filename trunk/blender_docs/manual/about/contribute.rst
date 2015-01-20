@@ -40,7 +40,7 @@ Firstly, make sure that your local copy of the manual is up to date with the onl
    svn update
 
 
-You can now **edit** the documentation files, which are the *.rst* files inside the ``manual`` folder using
+You can now **edit** the documentation files, which are the ``.rst`` files inside the ``manual`` folder using
 a text editor of your choice.
 
 Here are community pages on how to setup some popular editors with spell checking and auto completion:
@@ -53,7 +53,7 @@ for conventions and to learn how to write in the *rst* markup language.
 
 To **view** your changes, build the manual :doc:`as instructed </about/install/index>` for your OS.
 Keep in mind that you can also build only the chapter you just edited to view it quickly.
-Open the generated *.html* files inside the ``build/html`` folder using your web browser,
+Open the generated ``.html`` files inside the ``build/html`` folder using your web browser,
 or refresh the page if you have it open already.
 
 When you are happy with your changes, you can **upload** them, so that they will be in the online manual.
