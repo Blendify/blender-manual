@@ -10,5 +10,6 @@
    introduction.rst
    contribute.rst
    install/index.rst
-   style_guide.rst
+   markup_style_guide.rst
+   writing_style_guide.rst
    translations.rst
