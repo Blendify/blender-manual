@@ -86,7 +86,8 @@ In order to submit a patch, follow this process:
    If you can't find out who that is,
    instead mail the `bf-docboard <http://lists.blender.org/mailman/listinfo/bf-docboard>`__ mailing list,
    or tell someone in #blenderwiki on :ref:`IRC <irc-channels>`.
-#. They will review your patch and let you know about any changes you could make, or commit the patch if it is accepted.
+#. They will review your patch and let you know about any changes you could make,
+   or commit the patch if it is accepted.
 
 Once you have had a few patches accepted, we cut out the middle man and give you direct access to edit the manual!
 

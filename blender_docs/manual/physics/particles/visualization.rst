@@ -12,7 +12,8 @@ Particle Visualization
 With the items in the *Display* and *Render* panel you can set the way the particles will be
 rendered or depicted in the view ports in various ways.
 Some option are valid only for the 3D window, the particles then are rendered always as
-:doc:`Halos </render/blender_render/materials/special_effects/halo>`. Some of the options will be rendered as shown in the 3D window.
+:doc:`Halos </render/blender_render/materials/special_effects/halo>`.
+Some of the options will be rendered as shown in the 3D window.
 
 
 Viewport Display

@@ -297,7 +297,8 @@
       However, an object's center may be offset from the geometric center.
 
    Oversampling
-      Is the technique of minimizing :term:`aliasing` when representing a high-resolution signal at a lower resolution.
+      Is the technique of minimizing :term:`aliasing` when representing a high-resolution
+      signal at a lower resolution.
 
       Also called **Anti-Aliasing**.
 

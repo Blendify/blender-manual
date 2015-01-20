@@ -119,7 +119,8 @@ Segments
 Profile
    This is a number between 0 and 1 that controls the shape of the profile (side view of a beveled edge).
    The default value, 0.5, gives a circular arc (if the faces meet at right angles).
-   Values less than that give a flatter profile, with 0.25 being exactly flat, and values less than that giving a concave bevel.
+   Values less than that give a flatter profile, with 0.25 being exactly flat,
+   and values less than that giving a concave bevel.
    Values more than 0.5 give a more "bulged-out" profile.
 
 Vertex Only
