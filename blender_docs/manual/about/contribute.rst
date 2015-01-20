@@ -48,8 +48,9 @@ Here are community pages on how to setup some popular editors with spell checkin
 - `Sublime <http://wiki.blender.org/index.php/User:Brita/Configs/Rst-manual>`__
 - `Vim <http://wiki.blender.org/index.php/User:Dfelinto/Blender-Manual>`__
 
-You should check the :doc:`style guide </about/style_guide>`
-for conventions and to learn how to write in the *rst* markup language.
+You should check the :doc:`Writing Style Guide </about/writing_style_guide>`
+for conventions and :doc:`Markup Style Guide </about/markup_style_guide>`
+to learn how to write in the *rst* markup language.
 
 To **view** your changes, build the manual :doc:`as instructed </about/install/index>` for your OS.
 Keep in mind that you can also build only the chapter you just edited to view it quickly.
