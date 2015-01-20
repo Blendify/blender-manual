@@ -28,7 +28,7 @@ Writing Style
   but the blending types of a mix node do need a mathematical explanation).
 - Avoid repetition of large potions of text - simply explain it once, and from then on refer to that explanation.
 
-  In some cases you might also consider defining a `:term:` in the **glossary**.
+  In some cases you might also consider defining a ``:term:`` in the **glossary**.
 - Avoid enumerating similar options, such as listing every preset or every frame-rate in a drop-down.
 
   Their contents may be summarized or simply omitted.
@@ -114,7 +114,7 @@ Code Samples
 ============
 
 There is support for syntax highlighting if the programming language is provided,
-and line numbers can be optionally shown with the `:linenos:` option.
+and line numbers can be optionally shown with the ``:linenos:`` option.
 
 
 .. code-block:: rst

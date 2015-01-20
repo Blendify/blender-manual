@@ -16,7 +16,7 @@ blender -b file.blend -a -x 1 -o //render
 
 Always position ``-f`` or ``-a`` as the last arguments.
 
-.. RST / WIKI NOTE - WE HAD THE FULL OUTPUT OF `blender --help` here,
+.. RST / WIKI NOTE - WE HAD THE FULL OUTPUT OF ``blender --help`` here,
    not sure theres much point int duplicating all info! - ideasman42
 
 

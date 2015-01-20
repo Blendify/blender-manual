@@ -75,7 +75,7 @@ Extrapolate
 
    Note that:
 
-   - When mapping transform properties to location (i.e. `Loc`, `Destination` button is enabled),
+   - When mapping transform properties to location (i.e. *Loc*, *Destination* button is enabled),
      the owner's existing location is added to the result of evaluating this constraint
      (exactly like when the *Offset* button of the
      :doc:`Copy Location constraint </rigging/constraints/transform/copy_location>` is enabled...).
