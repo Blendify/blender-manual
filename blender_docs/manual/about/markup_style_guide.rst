@@ -210,6 +210,24 @@ By default a table of contents should show two levels of depth.
       depth_of_field.rst
 
 
+Image Files
+===========
+
+Flat Structure
+   Quick to browse, preview thumbnails.
+No Caps, No Gaps
+   Lower case filenames, underscore separators.
+Sort Usefully
+   Order naming with specific identifiers at the end.
+
+
+Format should follow: ``$chapter_$subsection_$id.png``, eg:
+
+- ``render_cycles_lighting_example1.jpg``
+- ``interface_intro_splash.jpg``
+- ``interface_ui_panel.jpg``
+
+
 Further Reading
 ===============
 
