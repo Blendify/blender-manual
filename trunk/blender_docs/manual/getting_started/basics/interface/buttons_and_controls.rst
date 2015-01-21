@@ -38,6 +38,14 @@ Clicking this type of button will toggle a state but will not perform any operat
 cases the button is attached to a number button to control the influence of the property.
 
 
+- To change many toggle buttons at once, you can :kbd:`LMB` drag over multiple buttons,
+  This works for check-boxes, toggles in the outliner and layer buttons.
+
+  .. note::
+
+     For layer buttons its often useful to hold :kbd:`Shift` at the same time,
+     to set or clear many layers at once.
+
 Radio Buttons
 =============
 
@@ -252,12 +260,22 @@ please go to the :doc:`System </preferences/system>` preferences page.
 Eye Dropper
 -----------
 
-The eye dropper allows you to sample a color from anywhere in the Blender window. The Eye
-Dropper can be accessed from any color picker or by pressing :kbd:`E` with the mouse
-hovering over the color property.
+The eye dropper allows you to sample from anywhere in the Blender window.
 
-:kbd:`LMB` and dragging the eyedropper will mix the colors you drag over which can help when sampling noisy imagery.
-:kbd:`Spacebar` resets and starts mixing the colors again.
+The eyedropper can be use to select different kinds of data.
+
+Color
+   This is the most common usage.
+Objects / Object-Data
+   This is used with object buttons such as parent, constraints or modifiers to
+   select an object from the 3D view.
+Camera Depth
+   Number buttons effecting distance can also use the eye-dropper,
+   this is most useful for camera depth of field.
+
+- :kbd:`E` will activate the eye-dropper while hovering over a button.
+- :kbd:`LMB` dragging will mix the colors you drag over which can help when sampling noisy imagery.
+- :kbd:`Spacebar` resets and starts mixing the colors again.
 
 
 .. _curve-widget:
