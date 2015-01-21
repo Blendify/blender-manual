@@ -65,7 +65,7 @@ The following are useful markups for text styling: ::
 Interface Elements
 ==================
 
-- ``:kbd:`Lmb``` - keyboard and mouse shortcuts.
+- ``:kbd:`LMB``` - keyboard and mouse shortcuts.
 - ``*Mirror*`` - interface labels.
 - ``:menuselection:`3D View --> Add --> Mesh --> Monkey``` - menus.
 
