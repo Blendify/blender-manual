@@ -1,7 +1,7 @@
 .. _modeling_curves_editing-index:
 
 ##########
-  Objects
+  Editing
 ##########
 
 .. toctree::
