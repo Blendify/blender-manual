@@ -1,8 +1,8 @@
 .. _modeling_curves-index:
 
-##########
-  Objects
-##########
+#########
+  Curves
+#########
 
 .. toctree::
    :maxdepth: 2
