@@ -72,17 +72,20 @@ which in most cases contains the name and a colon followed by a number.
 Number buttons are handled in several ways:
 
 
-- To change the value in steps, click :kbd:`LMB` on the small triangles on the sides of the button.
-- To change the value in a wider range, hold down :kbd:`LMB` and drag the mouse to the left or right.
-  If you hold :kbd:`Ctrl` after holding down :kbd:`LMB`, the value is changed in discrete steps;
-  if you hold :kbd:`Shift` instead, you'll have finer control over the values.
-- :kbd:`Enter` or :kbd:`LMB` lets you enter the value by hand.
+Incremental Steps
+   To change the value in steps, click :kbd:`LMB` on the small triangles on the sides of the button.
+Dragging
+   To change the value in a wider range, hold down :kbd:`LMB` and drag the mouse to the left or right.
 
-When entering values by hand, pressing :kbd:`Home` or :kbd:`End` will move the
-cursor to the beginning or the end of the range.
-Pressing :kbd:`Esc` will cancel editing.
-You can copy the value of a button by hovering over it and pressing :kbd:`Ctrl-C`.
-Similarly you can paste a copied value with :kbd:`Ctrl-V`.
+   - Holding :kbd:`Ctrl` will snap the value to discrete steps.
+   - Holding :kbd:`Shift` gives finer control over the values.
+Text Input
+   Press :kbd:`LMB` or :kbd:`Enter` to edit the value as a text field.
+
+   When entering values by hand, this button works like any other text button.
+
+   - Press :kbd:`Enter` to apply the change.
+   - Press :kbd:`Esc` will cancel the value.
 
 
 Expressions
@@ -92,8 +95,8 @@ You can also enter expressions such as ``3*2`` instead of ``6``. or ``5/10+3``.
 Even constants like ``pi`` (3.142) or functions like ``sqrt(2)`` (square root of 2)
 may be used.
 
-*These expressions are evaluated by Python; for all available math expressions
-see:* `math module reference <http://docs.python.org/py3k/library/math.html>`__
+*These expressions are evaluated by Python; for all available math expressions see:*
+`math module reference <http://docs.python.org/py3k/library/math.html>`__
 
 
 Units
