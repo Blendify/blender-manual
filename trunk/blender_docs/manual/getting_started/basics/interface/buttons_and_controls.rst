@@ -77,8 +77,6 @@ Incremental Steps
 Dragging
    To change the value in a wider range, hold down :kbd:`LMB` and drag the mouse to the left or right.
 
-   - Holding :kbd:`Ctrl` will snap the value to discrete steps.
-   - Holding :kbd:`Shift` gives finer control over the values.
 Text Input
    Press :kbd:`LMB` or :kbd:`Enter` to edit the value as a text field.
 
@@ -461,4 +459,48 @@ Color Ramps
       Opens a color Picker for the user to specify color and Alpha for the selected color stop.
       When a color is using Alpha, the Color Bar is then divided in two, with the left side
       showing the base color and the right side showing the color with the alpha value.
+
+
+Common Shortcuts
+================
+
+There are shortcuts shared between many button types.
+
+
+While Hovering
+   *When the cursor is held over a button*
+
+   Vaue:
+   - :kbd:`Ctrl-C` - copy the value of the button.
+   - :kbd:`Ctrl-V` - paste the value of the button.
+   - :kbd:`Backspace` - set the value to zero.
+   - :kbd:`RMB` - open the context menu.
+   - :kbd:`Alt-Wheel` - changes the value incremental steps.
+
+     This also works for dropdowns and checkboxes buttons, it will cycle values.
+
+   Animation:
+   - :kbd:`I` - insert a keyframe.
+   - :kbd:`D` - assign a driver.
+
+While Dragging
+   - :kbd:`Ctrl` - while dragging snap the discrete steps.
+   - :kbd:`Shift` - gives finer control over the value.
+
+While Editing Text
+   - :kbd:`Home` - go to the start.
+   - :kbd:`End` - go to the end.
+   - :kbd:`Left`, :kbd:`Right` - move the cursor a single character.
+   - :kbd:`Ctrl-Left`, :kbd:`Ctrl-Right` - move the cursor an entire word.
+   - :kbd:`Backspace`, :kbd:`Delete` - delete characters.
+   - :kbd:`Ctrl-Backspace`, :kbd:`Ctrl-Delete` - delete words.
+   - Holding :kbd:`Shift` - while moving the cursor selects.
+
+   - :kbd:`Ctrl-C` - copy the selected text.
+   - :kbd:`Ctrl-V` - paste test at the cursor location.
+   - :kbd:`Ctrl-A` - selects all text.
+
+All Modes
+   - :kbd:`Esc`, :kbd:`RMB` - cancels.
+   - :kbd:`Enter`, :kbd:`LMB` - confirms.
 
