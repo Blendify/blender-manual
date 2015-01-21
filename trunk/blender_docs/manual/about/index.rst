@@ -13,3 +13,4 @@
    markup_style_guide.rst
    writing_style_guide.rst
    translations.rst
+   migration.rst
