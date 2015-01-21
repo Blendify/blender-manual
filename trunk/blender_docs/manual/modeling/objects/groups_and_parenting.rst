@@ -105,7 +105,7 @@ those being 2 Empty Objects named "EmptyA" and "EmptyB", and a Monkey object. Se
 
 Figure 1 shows the 3 objects with no parenting relationships active on them.
 
-If you select the Monkey object by :kbd:`Rmb` click and then :kbd:`Shift-RMB`
+If you select the Monkey object by :kbd:`RMB` click and then :kbd:`Shift-RMB`
 click "EmptyA" object and press :kbd:`Ctrl-P` and then select *Object* from the *Set
 Parent To* popup dialog box.
 This will result in "EmptyA" object being the *Parent Object* of the Monkey object. With
@@ -124,7 +124,7 @@ See figure 2.
    "EmptyA" has been scaled resulting in the Monkey also being scaled and moved to the left.
 
 
-If you select only the Monkey object by :kbd:`Rmb` click and then :kbd:`Shift-RMB`
+If you select only the Monkey object by :kbd:`RMB` click and then :kbd:`Shift-RMB`
 click "EmptyB" object and press :kbd:`Ctrl-P` and select *Object* from the *Set
 Parent To* popup dialog box.
 This will result in "EmptyB" object being the *Parent Object* of the Monkey object.
@@ -275,7 +275,7 @@ Pose Mode.
 #. Switch the 3D Viewport to Front View by pressing :kbd:`Numpad-1`.
 #. Select the Default Cube and delete it by pressing the :kbd:`X`.
 #. Add a Plane Object by pressing the :kbd:`Spacebar` and entering "add plane" into search text field.
-   Then press the :kbd:`Enter` or :kbd:`Lmb` the listed Add Plane entry.
+   Then press the :kbd:`Enter` or :kbd:`LMB` the listed Add Plane entry.
 #. While in Object Mode and with the Plane Object still selected we need to rotate it on x axis by 90 degrees,
    so that its face points towards the front view.
    To do this by pressing the :kbd:`R` then :kbd:`X` then enter the value 90.
@@ -381,7 +381,7 @@ Pose Mode.
    so make sure to name them consistently as Blender does not consider Bone or bone the same.
 #. Once the bones have been renamed, toggle Blender into Object Mode by pressing the :kbd:`Tab`.
 #. Now we need to make the Plane the Child Object of the Armature.
-   To do this select only the Plane then :kbd:`Shift-Rmb` the Armature.
+   To do this select only the Plane then :kbd:`Shift-RMB` the Armature.
 #. With the Plane and the Armature selected activate the Set Parent To popup dialog by pressing
    :kbd:`Ctrl-P` and select the Armature Deform entry.
 #. This should result in the Armature being the Parent Object of the Plane.
@@ -405,7 +405,7 @@ Pose Mode.
 
       Figure 16 - Mesh Select Mode popup dialog with the Face entry selected.]]
 
-#. Select the 1st face of the Plane by :kbd:`Rmb` it. See figure 17.
+#. Select the 1st face of the Plane by :kbd:`RMB` it. See figure 17.
 
    .. figure:: /images/TC-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.png
       :width: 800px
@@ -434,10 +434,10 @@ Pose Mode.
    Select the face, create a Vertex Group with the same name as the bone you want to associate the face
    with and then click the Assign button to associate the selected face with the selected Vertex Group.
 #. Toggle into Object Mode by pressing the :kbd:`Tab`.
-#. Now select only the Armature by :kbd:`Rmb` it.
+#. Now select only the Armature by :kbd:`RMB` it.
 #. Now we need to switch the Armature to Pose Mode.
    Do that by navigating to [3D View Editor Header > Mode Select Button] and
-   :kbd:`Lmb` it and select the Pose Mode entry.
+   :kbd:`LMB` it and select the Pose Mode entry.
    See figure 19.
 
    .. figure:: /images/TE-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.png
@@ -509,7 +509,7 @@ If a Bone is a Control Bone no Vertex Group will be created on the Child Object 
 
 To check weather a particular bone in an armature is a Deforming Bone simply switch to Pose
 Mode or Edit Mode on the armature and select the bone you are interested in by
-:kbd:`Rmb` it. Once the bone of interest is selected navigate to [Properties Editor >
+:kbd:`RMB` it. Once the bone of interest is selected navigate to [Properties Editor >
 Bone Context > Deform Panel] and check if the Deform tickable option is ticked or not.
 If it is the selected bone is a Deforming Bone, otherwise it is a Control Bone.
 See figure 22.
@@ -594,7 +594,7 @@ and all other colors represent Influence Weights between the 2 values. See figur
    from 0 to 1 with each Influence Weight indicated.
 
 
-To active Weight Paint Mode select the object you want to see in Weight Paint Mode by :kbd:`Lmb` it,
+To active Weight Paint Mode select the object you want to see in Weight Paint Mode by :kbd:`LMB` it,
 then navigate to [3D View Editor Header > Mode Select Button] and select the Weight Paint entry. See figure 25.
 
 
@@ -761,7 +761,7 @@ if the specific bone it is the Child Object of moves. See figure 34.
 
 To use Bone Parenting, you must first select all the Child Objects you wish to parent to a specific Armature Bone,
 then :kbd:`Shift-RMB` select the Armature Object and switch it into Pose Mode and then select the
-specific bone you wish to be the Parent Bone by :kbd:`Rmb` selecting it.
+specific bone you wish to be the Parent Bone by :kbd:`RMB` selecting it.
 Once done press :kbd:`Ctrl-P` and select Bone from the Set Parent To popup dialog.
 
 Now transforming that bone in Pose Mode will result in the Child Objects also transforming.

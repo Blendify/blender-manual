@@ -59,13 +59,13 @@ This manual uses the following conventions to describe user input:
 - If your mouse has a wheel
 
    :kbd:`MMB` - Middle Mouse Button (clicking the wheel)
-   :kbd:`Wheel` - rolling the wheel.
+   :kbd:`Wheel` - Scrolling the wheel.
 
 - Hotkey letters are shown in this manual like they appear on a keyboard; for example,
 
-   :kbd:`G` - refers to the lowercase ``''g''``.
+   :kbd:`G` - refers to the lowercase ``g``.
 
-   :kbd:`Shift`,\ :kbd:`Ctrl` and :kbd:`Alt` are generally specified as modifier keys
+   :kbd:`Shift`, :kbd:`Ctrl` and :kbd:`Alt` are generally specified as modifier keys.
 
    :kbd:`Ctrl-W` or :kbd:`Shift-Alt-A` - indicates that these keys should be pressed simultaneously
 
