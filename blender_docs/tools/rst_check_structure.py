@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 
 import os
-import requests, re, sys
+import sys
+import re
+
 
 # if you want to operate on a subdir, eg: "render"
 SUBDIR = ""
@@ -23,19 +25,20 @@ def rst_files(path):
 
 
 def main():
-    for fn in rst_files(RST_DIR):
-        with open(fn, "r", encoding="utf-8") as f:
-            data_src = f.read()
-            data_dst = operation(fn, data_src)
+    for operation in operations:
+        for fn in rst_files(RST_DIR):
+            with open(fn, "r", encoding="utf-8") as f:
+                data_src = f.read()
+                data_dst = operation(fn, data_src)
 
-        if data_dst is None or (data_src == data_dst):
-            continue
+            if data_dst is None or (data_src == data_dst):
+                continue
 
-        with open(fn, "w", encoding="utf-8") as f:
-            data_src = f.write(data_dst)
-    
-    if operation == warn_images:
-        warn_images_output()
+            with open(fn, "w", encoding="utf-8") as f:
+                data_src = f.write(data_dst)
+
+        if operation == warn_images:
+            warn_images_output()
 
 
 def warn_long_lines(fn, data_src):
@@ -70,6 +73,8 @@ def warn_broken_urls(fn, data_src):
     """
     Complain about broken URLs
     """
+    import requests
+
     lines = data_src.split("\n")
     okcodes = [200, 301, 302]  # OK and redirects
 
@@ -86,7 +91,7 @@ def warn_broken_urls(fn, data_src):
                 raise
             except:
                 print("%s:%d: broken url '%s' (undefined error)" % (fn, i + 1, url))
-    
+
     return None
 
 
@@ -100,7 +105,7 @@ def warn_images(fn, data_src):
         match = re.search(r"\.\. +figure\:\: +/images/(.*\.(png|gif|jpg))",l)
         if match:
             img_refs.append(match.string[match.start(1) : match.end(1)])
-    
+
     return None
 
 
@@ -118,7 +123,7 @@ def warn_images_output():
     l1.sort()
     for fn in l1:
         print(fn)
-        
+
     print("\nLIST OF MISSING IMAGES:")
     print("=======================")
     l2 = [fn for fn in img_refs_set - img_files_set]
@@ -127,20 +132,36 @@ def warn_images_output():
         print(fn)
 
 
-# define the operation to call
-if len(sys.argv) != 2:
-    operation = None
-elif sys.argv[1] == "--long":
-    operation = warn_long_lines
-elif sys.argv[1] == "--url":
-    operation = warn_broken_urls
-elif sys.argv[1] == "--image":
-    operation = warn_images
-else:
-    operation = None
+# define the operations to call
+operations = []
+operations_checks = {
+    "--url": warn_broken_urls,
+    "--image": warn_images,
+    }
+
+
+# generic arg parsing
+def print_help():
+    print("Blender manual checks\n"
+            "    Usage: %s { %s }\n" %
+            (os.path.basename(__file__),
+            " ".join(arg for arg in sorted(operations_checks.keys()))))
+
+
+for arg in sys.argv[1:]:
+    operation = operations_checks.get(arg)
+    if operation is None:
+        print_help()
+        print("Unknown argument %r" % arg)
+        sys.exit(1)
+
+    operations.append(operation)
+
 
 if __name__ == "__main__":
-    if operation:
+    if operations:
         main()
     else:
-        print("Blender manual checks\n    Usage: rst_check.py { --long | --url | --image }\n")
+        print_help()
+        print("No arguments passed")
+
