@@ -9,30 +9,11 @@ Menus
    The [Space]-menu
 
 
-Blender contains many menus, each of which is accessible from either a window's header or directly
-at the mouse's location using :doc:`HotKeys </ce/hotkeys>` or by clicking :kbd:`RMB` on a window border,
-a button or elsewhere on the screen.
-A context sensitive menu will be displayed if there is one available for that interface element.
-
-Additionally, a menu with access to all *Blender* commands is available by pressing
+A menu with access to all *Blender* commands is available by pressing
 :kbd:`Space` (shown in the picture). Simply start typing the name of the command you
 need and let the search function of the menu do the rest.
 When the list is sufficiently narrowed, :kbd:`LMB` on the desired command or highlight
 it with :kbd:`Down` and :kbd:`Up` and select with :kbd:`Return`.
-
-If you miss the old tool box menu from version 2.4x,
-you can add something similar with the *3D View: Dynamic Spacebar Menu* Add-on which
-can be installed from the *Add-ons* tab of the *Preferences window*.
-
-:doc:`Read more about installing Add-ons » </preferences/add_ons>`
-
-Some menus are context sensitive in that they are only available under certain situations.
-For example, the *specials menu* (:kbd:`W` hotkey)
-is only available in a 3D window while *Edit Mode* is active.
-
-While you are using *Blender*,
-be aware of what mode is activated and what type of object is selected.
-This helps in knowing what hotkeys work at what times.
 
 
 .. tip:: Menus on a Mac
