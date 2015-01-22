@@ -74,6 +74,7 @@ def warn_role_kbd(fn, data_src):
     """
     import rst_helpers
     valid_kbd = warn_role_kbd.valid_kbd
+    index_prev = 0
     for d in rst_helpers.role_iter(fn, "kbd", angle_brackets=False):
         # if d[1] == "Numpad-+": d[1] = "NumpadPlus"
 
@@ -82,7 +83,14 @@ def warn_role_kbd(fn, data_src):
             #if k == "Space": k = k_split[i] = "Spacebar"
 
             if k not in valid_kbd:
-                print("%s: %r" % (fn, k))
+                # This is a guess! (and its slow!)
+                i = data_src[index_prev:].find("".join(d))
+                assert(i != -1)
+                i += index_prev
+                line = data_src[:i].count("\n") + 1
+
+                print("%s:%d: %r" % (fn, line, k))
+                index_prev = i
         d[1] = "-".join(k_split)
 
     return None
@@ -98,7 +106,8 @@ warn_role_kbd.valid_kbd = (
     "NumpadPlus", "NumpadMinus", "NumpadDelete", "NumpadSlash", "NumpadPeriod",
     } |
     # single characters
-    set("[]<>./~!?'\"") |
+    set("[]<>./\\~!?'\"") |
+    # excape chars
     {chr(i) for i in range(ord('A'), ord('Z') + 1)} |
     {"%d" % i for i in range(10)} |
     {"F%d" % i for i in range(1, 13)} |
