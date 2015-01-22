@@ -183,7 +183,6 @@ There are shortcuts shared between many button types.
 While Hovering
    *When the cursor is held over a button*
 
-   Vaue:
    - :kbd:`Ctrl-C` - copy the value of the button.
    - :kbd:`Ctrl-V` - paste the value of the button.
    - :kbd:`Backspace` - set the value to zero.
@@ -193,6 +192,7 @@ While Hovering
      This also works for dropdowns and checkboxes buttons, it will cycle values.
 
    Animation:
+
    - :kbd:`I` - insert a keyframe.
    - :kbd:`D` - assign a driver.
 
@@ -208,7 +208,6 @@ While Editing Text
    - :kbd:`Backspace`, :kbd:`Delete` - delete characters.
    - :kbd:`Ctrl-Backspace`, :kbd:`Ctrl-Delete` - delete words.
    - Holding :kbd:`Shift` - while moving the cursor selects.
-
    - :kbd:`Ctrl-C` - copy the selected text.
    - :kbd:`Ctrl-V` - paste test at the cursor location.
    - :kbd:`Ctrl-A` - selects all text.
