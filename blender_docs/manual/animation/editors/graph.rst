@@ -231,9 +231,9 @@ Channel Editing
 
 *Toggle Select All* :kbd:`A`
 
-*Border Select* :kbd:`Drag-LMB` or :kbd:`B` :kbd:`Drag-LMB`
+*Border Select* (:kbd:`LMB` drag) or :kbd:`B` (:kbd:`LMB` drag)
 
-*Border Deselect* :kbd:`Shift-Drag-LMB` or :kbd:`B` :kbd:`Shift-Drag-LMB`
+*Border Deselect* (:kbd:`Shift-LMB` drag) or :kbd:`B` (:kbd:`Shift-LMB` drag)
 
 *Delete selected* :kbd:`X` or :kbd:`Delete`
 
