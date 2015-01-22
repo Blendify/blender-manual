@@ -16,7 +16,6 @@ but rather composited on top of the image.
    :maxdepth: 2
 
    layers.rst
-   passes.rst
    edges.rst
    stamp.rst
    cm_and_exposure.rst
