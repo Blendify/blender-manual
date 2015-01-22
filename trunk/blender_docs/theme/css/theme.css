@@ -361,6 +361,7 @@ h2, h3 {
 .rst-content .tip,
 .rst-content .warning,
 .rst-content .seealso,
+.rst-content .refbox,
 .btn, input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="date"], input[type="month"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="week"], input[type="number"], input[type="search"], input[type="tel"], input[type="color"], select, textarea,
 .wy-menu-vertical li.on a,
 .wy-menu-vertical li.current>a,
@@ -1650,7 +1651,8 @@ a .fa, a .rst-content .admonition-title,
 .rst-content .important,
 .rst-content .tip,
 .rst-content .warning,
-.rst-content .seealso {
+.rst-content .seealso,
+.rst-content .refbox {
     padding: 12px;
     line-height: 24px;
     margin-bottom: 24px;
@@ -1747,6 +1749,15 @@ a .fa, a .rst-content .admonition-title,
 .rst-content .warning .admonition-title,
 .rst-content .wy-alert-warning.seealso .admonition-title {
     background: #f0b37e;
+}
+
+
+.rst-content .refbox {
+    background: #e3e3e3;
+}
+
+.rst-content .refbox .admonition-title {
+    background: #bbb;
 }
 
 .wy-alert.wy-alert-info,
