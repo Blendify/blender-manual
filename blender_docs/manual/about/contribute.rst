@@ -80,15 +80,22 @@ In order to submit a patch, follow this process:
 
    This creates a simple text file that shows what text was added,
    removed or changed between your working files and the central repository.
-#. Submit the patch on
-   `developer.blender.org <https://developer.blender.org/maniphest/task/create/?project=53&type=Patch>`__.
-   If you don't have an account already, you can `register one <https://developer.blender.org/auth/register/>`__.
-#. Contact the section owner for that chapter and let them know you made a patch!
-   If you can't find out who that is,
+#. `Upload the diff file here <https://developer.blender.org/differential/diff/create/>`__.
+   If you don't have an account already, you can `register for one <https://developer.blender.org/auth/register/>`__.
+#. After submitting the diff, you'll be asked to "Create a new Revision"
+   before you can add a title and description of your changes.
+#. If you know who the Section Owner
+   (see *Documentation Team* `here <https://developer.blender.org/project/view/53/>`__) of that chapter is,
+   assign them as the *Reviewer* and they'll be notified of your patch.
+   If you can't find out who that is (or there is no one),
    instead mail the `bf-docboard <http://lists.blender.org/mailman/listinfo/bf-docboard>`__ mailing list,
    or tell someone in #blenderwiki on :ref:`IRC <irc-channels>`.
 #. They will review your patch and let you know about any changes you could make,
    or commit the patch if it is accepted.
+
+.. note::
+
+   If your patch includes changes to or additional images, simply attach them when you're creating the revision.
 
 Once you have had a few patches accepted, we cut out the middle man and give you direct access to edit the manual!
 
