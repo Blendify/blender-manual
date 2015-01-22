@@ -10,8 +10,6 @@ SUBDIR = ""
 CURRENT_DIR = os.path.abspath(os.path.dirname(__file__))
 RST_DIR = os.path.normpath(os.path.join(CURRENT_DIR, "..", "manual", SUBDIR))
 
-img_refs = []  # useful for image warnings, it holds the name of all referenced images
-
 
 def rst_files(path):
     for dirpath, dirnames, filenames in os.walk(path):
@@ -71,6 +69,8 @@ def warn_images(fn, data_src):
     """
     Complain about unused and missing images
     """
+    img_refs = warn_images.img_refs
+
     lines = data_src.split("\n")
 
     for i, l in enumerate(lines):
@@ -79,6 +79,9 @@ def warn_images(fn, data_src):
             img_refs.append(match.string[match.start(1) : match.end(1)])
 
     return None
+# useful for image warnings, it holds the name of all referenced images
+warn_images.img_refs = []
+
 
 
 def warn_images_post():
@@ -87,7 +90,7 @@ def warn_images_post():
     """
     imgpath = os.path.normpath(os.path.join(os.path.abspath(os.path.dirname(__file__)), "..", "manual", "images"))
     img_files_set = set([f for f in os.listdir(imgpath)])
-    img_refs_set = set(img_refs)
+    img_refs_set = set(warn_images.img_refs)
 
     print("\nLIST OF UNUSED IMAGES:")
     print("======================")
