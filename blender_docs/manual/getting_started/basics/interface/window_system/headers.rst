@@ -91,3 +91,24 @@ Menus and buttons will change with *Window Type* and the selected object and mod
 They only show the actions that can be performed.
 
 
+Collapsing Menus
+----------------
+
+Sometimes its helpful to gain some extra horizontal space in the header by collapsing menus,
+this can be accessed from the header context menu,
+simply right click on the header and enable set it to collapsed.
+
+
+.. figure:: /images/Header_menu_expand.jpg
+   :width: 359px
+   :figwidth: 359px
+
+   Right click to access the header menu
+
+
+.. figure:: /images/Header_menu_collapsed.jpg
+   :width: 359px
+   :figwidth: 359px
+
+   Access the menu from the collapsed icon
+
