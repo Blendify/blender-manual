@@ -6,7 +6,7 @@
 When starting Blender, the splash screen appears.
 On the left side are links to official web pages, and on the right are your most recently opened projects.
 
-To close the splash screen start a new project, you can press :kbd:`Esc` or click anywhere 
+To close the splash screen start a new project, you can press :kbd:`Esc` or click anywhere
 inside the Blender Window (except on the splash screen).
 
 #########
