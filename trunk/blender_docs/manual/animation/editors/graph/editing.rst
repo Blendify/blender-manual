@@ -48,9 +48,9 @@ Toggle Select All :kbd:`A`
 
 Select Linked :kbd:`L`
 
-Border Select :kbd:`B` :kbd:`Drag-LMB`
+Border Select :kbd:`B` (:kbd:`LMB` drag)
 
-Border Deselect :kbd:`B` :kbd:`Shift-Drag-LMB`
+Border Deselect :kbd:`B` (:kbd:`Shift-LMB` drag)
 
 
 Editing
@@ -348,7 +348,7 @@ Marker Menu
 
 *Rename Marker* :kbd:`Ctrl-M`
 
-*Grab/Move Marker* :kbd:`Tweak Select`
+*Grab/Move Marker* (:kbd:`RMB` drag)
 
 *Jump to Next Marker*
 
