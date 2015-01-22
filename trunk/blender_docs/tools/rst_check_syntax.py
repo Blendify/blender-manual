@@ -66,10 +66,52 @@ def warn_long_lines(fn, data_src):
     return None
 
 
+def warn_role_kbd(fn, data_src):
+    """
+    Report non-conforming uses of the :kbd: role.
+
+    also possible to do replacements here.
+    """
+    import rst_helpers
+    valid_kbd = warn_role_kbd.valid_kbd
+    for d in rst_helpers.role_iter(fn, "kbd", angle_brackets=False):
+        # if d[1] == "Numpad-+": d[1] = "NumpadPlus"
+
+        k_split = d[1].split("-")
+        for i, k in enumerate(k_split):
+            #if k == "Space": k = k_split[i] = "Spacebar"
+
+            if k not in valid_kbd:
+                print("%s: %r" % (fn, k))
+        d[1] = "-".join(k_split)
+
+    return None
+warn_role_kbd.valid_kbd = (
+    {
+    "LMB", "MMB", "RMB",
+    "Wheel", "WheelUp", "WheelDown",
+    "Ctrl", "Alt", "Shift", "Cmd",
+    "Tab", "Esc", "Backspace", "Delete", "Return", "Spacebar",
+    "PageUp", "PageDown", "Home", "End",
+    "Up", "Down", "Left", "Right",
+    "Plus", "Minus",
+    "NumpadPlus", "NumpadMinus", "NumpadDelete", "NumpadSlash", "NumpadPeriod",
+    } |
+    # single characters
+    set("[]<>./~!?'\"") |
+    {chr(i) for i in range(ord('A'), ord('Z') + 1)} |
+    {"%d" % i for i in range(10)} |
+    {"F%d" % i for i in range(1, 13)} |
+    {"Numpad%d" % i for i in range(10)}
+    )
+
+
+
 # define the operations to call
 operations = []
 operations_checks = {
     "--long": (warn_long_lines, None),
+    "--kbd": (warn_role_kbd, None),
     }
 
 

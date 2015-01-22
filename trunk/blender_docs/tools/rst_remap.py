@@ -57,51 +57,6 @@ def uuid_from_file(fn, block_size=1 << 20):
 
 
 # -----------------------------------------------------------------------------
-# RST Functions
-
-def role_iter(fn, role, angle_brackets=False):
-    """
-    Convenience iterator for roles,
-    so you can loop over and manipulate roles without the hassle of involved string manipulation.
-    """
-    import re
-    if angle_brackets:
-        dir_re = re.compile(r"(\:" + role + "\:\`)([^\<,\n]*)(\s+\<)([^\,\n>]+)(\>\`)")
-    else:
-        dir_re = re.compile(r"(\:" + role + "\:\`)([^`,\n]*)(\`)")
-    dir_find = ":" + role + ":"
-
-    with open(fn, "r", encoding="utf-8") as f:
-        data_src = f.read()
-
-    # keep searching the tail of the list until we're done
-    data_dst_ls = [data_src]
-    offset = 0
-    while True:
-        offset = data_dst_ls[-1].find(dir_find, offset)
-        if offset == -1:
-            break
-
-        g = dir_re.match(data_dst_ls[-1][offset:])
-        if g:
-            offset_next = offset + g.span()[1]
-            ls_orig = list(g.groups())
-            ls = ls_orig[:]
-            yield ls
-            if ls != ls_orig:
-                data_dst_ls[-1:] = [data_dst_ls[-1][:offset]] + ls + [data_dst_ls[-1][offset_next:]]
-                offset = 0
-            else:
-                offset = offset_next
-        else:
-            offset += len(role)
-
-    if len(data_dst_ls) != 1:
-        with open(fn, "w", encoding="utf-8") as f:
-            f.write("".join(data_dst_ls))
-
-
-# -----------------------------------------------------------------------------
 # Command Line Interface
 
 import os
@@ -195,9 +150,10 @@ def remap_finish(base_path):
             src_dst_map[file_rstpath_src[:-6]] = file_rstpath_dst[:-6]
 
     # now remap the doc links
+    import rst_helpers
 
     for fn in rst_files(base_path):
-        for d in role_iter(fn, "doc", angle_brackets=True):
+        for d in rst_helpers.role_iter(fn, "doc", angle_brackets=True):
             file_rstpath_src = d[-2].strip()
             if "#" in file_rstpath_src:
                 file_rstpath_src, tail = file_rstpath_src.split("#", 1)
