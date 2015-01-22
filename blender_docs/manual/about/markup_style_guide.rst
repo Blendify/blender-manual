@@ -5,9 +5,6 @@ Markup Style Guide
 
 This pages covers the conventions for writing and use of the reStructuredText (RST) markup syntax.
 
-In order to maintain a consistent writing and formatting style within the manual,
-please keep this page in mind and only deviate from it when you have a good reason to do so.
-
 
 Conventions
 ===========

@@ -3,6 +3,9 @@
 Writing Style Guide
 *******************
 
+In order to maintain a consistent writing style within the manual,
+please keep this page in mind and only deviate from it when you have a good reason to do so.
+
 Rules of thumb:
 
 - American English (eg: modeling and not modelling, color and not colour).
