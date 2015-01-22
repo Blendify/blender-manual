@@ -1,7 +1,4 @@
 
-:kbd:`2.65a`
-
-
 **********
 Screw Tool
 **********
@@ -220,24 +217,24 @@ The Spring example
 
 
 - Open Blender and delete the default Cube.
-- Change from perspective to orthographic view using shortcut :kbd:`Numpad-5`.
-- Change your view from *User Ortho* to *Front Ortho*, using the shortcut :kbd:`Numpad-1`.
+- Change from perspective to orthographic view using shortcut :kbd:`Numpad5`.
+- Change your view from *User Ortho* to *Front Ortho*, using the shortcut :kbd:`Numpad1`.
   You will see the X (red) and Z (blue) coordinate lines.
 - In case you have moved your cursor by clicking anywhere in the screen, again place your cursor at the Center,
   using the shortcut :kbd:`Shift-S` choosing *Cursor to Center* or the Transform Panel,
   placing your cursor at ``(0, 0, 0)`` typing directly into the Cursor 3D Location.
 - Add a circle using shortcut :kbd:`Shift-A` and choosing → Mesh → Circle.
-- Rotate this circle using the shortcut :kbd:`R-X` and typing ``90`` and :kbd:`Enter`.
+- Rotate this circle using the shortcut :kbd:`R-X` and typing ``90`` and :kbd:`Return`.
 - Apply the Rotation using :kbd:`Ctrl-A` and choosing *Rotation*
 - Grab and move this circle to the left ``3`` Blender Units on the ``X`` Axis;
   you can use the shortcut :kbd:`Ctrl` while grabbing with the mouse using the standard transform widgets
   (clicking on the red arrow shown with the object and grabbing while using shortcut
   :kbd:`Ctrl` until the down left info in the 3D View marks ``D. -3.0000 (3.0000) Global`` ),
-  or press the shortcut :kbd:`G-X` and typing ``-3`` and :kbd:`Enter`.
+  or press the shortcut :kbd:`G-X` and typing ``-3`` and :kbd:`Return`.
   You can use the Transform Panel (toggled with the shortcut :kbd:`T` ,
-  and type ``-3`` and :kbd:`Enter` in the Location too.
+  and type ``-3`` and :kbd:`Return` in the Location too.
   (See the Fig. 8 - Circle placed at X -3,0,0).
-- You will have to scale your circle using the shortcut :kbd:`S` and typing **.5**, then :kbd:`Enter`.
+- You will have to scale your circle using the shortcut :kbd:`S` and typing **.5**, then :kbd:`Return`.
 - Now enter *Edit Mode* using shortcut :kbd:`Tab`.
 - De-select all vertices using the shortcut :kbd:`A`.
 
@@ -302,7 +299,7 @@ its maximum values to make the extrusion follow a direction,
 even if the profile starts reverted. The same rule applies to other Global axes when creating
 the Object for the *Screw* Tool;
 this means if you create your Object using the Top View
-(Shortcut :kbd:`Numpad-7` with a straight parallel line following another axis
+(Shortcut :kbd:`Numpad7` with a straight parallel line following another axis
 (for the Top View, the **Y Axis**), the vector that gives the height for extrusion will also
 change abruptly from negative to positive and vice versa to give the extrusion a direction,
 and you will have to tweak the corresponding Axis accordingly to achieve the Clockwise and
@@ -370,7 +367,7 @@ will assembly perfectly with each other.
 - Press the shortcut :kbd:`A` to select the remaining vertices.
 - Press the shortcut :kbd:`W` for the *Specials Menu*, and select *Subdivide*
 - Now, click with the Right Mouse button at the middle vertex.
-- Grab this vertex using the shortcut :kbd:`G-X`, type **-1** and :kbd:`Enter`.
+- Grab this vertex using the shortcut :kbd:`G-X`, type **-1** and :kbd:`Return`.
   See Fig. 14 - Profile for a perfect screw spindle.
 - At this point, we will save this Blender file to recycle the generated Screw for another exercise;
   click with :kbd:`LMB` in *File* --
@@ -492,7 +489,7 @@ the screw extrusion direction changing the global view alignment.
 The rotation axis, still passing through the 3D cursor, is now free,
 but it's still preferable to align it with the y-axis of the view (i.e.
 up-down on the screen). So, the best way to start using this tool is to align your view with
-the front orthographic view using :kbd:`Numpad-1` to create the Global height of the
+the front orthographic view using :kbd:`Numpad1` to create the Global height of the
 extrusions aligned with the Local Axis of your object. Blender will determine automatically
 your extrusion axis when you align your Vector with one of the Blender Global Axis,
 giving the proper axis vector a value of **1**.

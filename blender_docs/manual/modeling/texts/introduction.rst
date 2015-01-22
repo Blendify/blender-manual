@@ -95,17 +95,17 @@ Exit *Edit* mode
    :kbd:`Tab` doesn't insert a tab character in the text,
    but rather enters and exits *Edit* mode, as with other object types.
 Copy
-   To copy text to the buffer, use :kbd:`Ctrl-C` or the :kbd:`Copy` button in the tool shelf.
+   To copy text to the buffer, use :kbd:`Ctrl-C` or the *Copy* button in the tool shelf.
 Cut and Copy
-   To cut and copy text to the buffer, use :kbd:`Ctrl-X` or the :kbd:`Cut` button in the tool shelf.
+   To cut and copy text to the buffer, use :kbd:`Ctrl-X` or the *Cut* button in the tool shelf.
 Paste
-   To paste text from the buffer, use :kbd:`Ctrl-V` or the :kbd:`Paste` button in the tool shelf.
+   To paste text from the buffer, use :kbd:`Ctrl-V` or the *Paste* button in the tool shelf.
 Delete all text
-   To completely erase or delete all text, use :kbd:`Ctrl-BackSpace`.
+   To completely erase or delete all text, use :kbd:`Ctrl-Backspace`.
 Home/End
    :kbd:`Home` and :kbd:`End` move the cursor to the beginning and end of a line respectively.
 Next/Previous word
-   To move the cursor on a word's boundary, use :kbd:`Ctrl-←` or :kbd:`Ctrl-→`.
+   To move the cursor on a word's boundary, use :kbd:`Ctrl-Left` or :kbd:`Ctrl-Right`.
 
 The text buffer does not communicate with the desktop. It only works within Blender.
 To insert text from outside Blender, see `Inserting Text`_ below.
@@ -215,27 +215,27 @@ Some examples are given below:
 
 .. list-table::
 
-   * - :kbd:`A`, :kbd:`Alt-BackSpace`, :kbd:`~`
+   * - :kbd:`A`, :kbd:`Alt-Backspace`, :kbd:`~`
 
      - ã
 
-     - :kbd:`A`, :kbd:`Alt-BackSpace`, :kbd:`'`
+     - :kbd:`A`, :kbd:`Alt-Backspace`, :kbd:`'`
 
      - á
 
-     - :kbd:`A`, :kbd:`Alt-BackSpace`, :kbd:`\``
+     - :kbd:`A`, :kbd:`Alt-Backspace`, :kbd:`\``
 
      - à
 
-   * - :kbd:`A`, :kbd:`Alt-BackSpace`, :kbd:`O`
+   * - :kbd:`A`, :kbd:`Alt-Backspace`, :kbd:`O`
 
      - å
 
-     - :kbd:`E`, :kbd:`Alt-BackSpace`, :kbd:`"`
+     - :kbd:`E`, :kbd:`Alt-Backspace`, :kbd:`"`
 
      - ë
 
-     - :kbd:`O`, :kbd:`Alt-BackSpace`, :kbd:`/`
+     - :kbd:`O`, :kbd:`Alt-Backspace`, :kbd:`/`
 
      - ø
 
@@ -289,9 +289,8 @@ Text Selection
 
 
 In *Edit* mode, your text has a white cursor, and as in any text editor,
-it determines where new chars will be inserted! You move this cursor with the arrow keys
-(:kbd:`→` / :kbd:`↓` / :kbd:`←` / :kbd:`↑`)
-or :kbd:`Page Up` / :kbd:`Page Down` and :kbd:`Home` / :kbd:`End` keys.
+it determines where new chars will be inserted! You move this cursor with the arrow keys or
+:kbd:`PageUp` / :kbd:`PageDown` and :kbd:`Home` / :kbd:`End` keys.
 
 Hold :kbd:`Shift` while using the arrow keys to select a part of the text.
 You can use it to specify different materials, the normal/bold/italic state,
@@ -328,7 +327,7 @@ The *built-in* font is always present and shows in this list as ``Bfont``.
 The first icon contains a drop-down list displaying currently loaded fonts.
 Select one for each font style.
 
-To load a different *Font*, click one of the :kbd:`Load` buttons in the
+To load a different *Font*, click one of the *Load* buttons in the
 *Font* panel and navigate to a *valid* font.
 The *File Browser* window will give all valid fonts a capital F icon,
 as seen in *Loading a Type 1 font file.*
@@ -416,7 +415,7 @@ With the :doc:`curve modifier </modifiers/deform/curve>` you can let text follow
 In (*Text on curve*) you can see a text deformed by a curve (a 2D Bézier circle).
 
 To apply the curve modifier, the text object first has to be converted to a mesh,
-using :kbd:`ALT-C` and click mesh.
+using :kbd:`Alt-C` and click mesh.
 
 
 .. note::
@@ -430,7 +429,7 @@ Underline
 
 Underline
    Toggled with the *Underline* button before typing.
-   Text can also be set to Underlined by selecting it then using the :kbd:`Bold` button in the Tool Shelf.
+   Text can also be set to Underlined by selecting it then using the *Underline* button in the Tool Shelf.
 
    Position
       This allows you to shift vertically the position of the underline.
@@ -457,10 +456,10 @@ Character
 
 Bold
    Toggled with the *Bold* button before typing.
-   Text can also be set to Bold by selecting it then using the :kbd:`Bold` button in the Tool Shelf.
+   Text can also be set to Bold by selecting it then using the *Bold* button in the Tool Shelf.
 Italics
    Toggled with the *Italic* button before typing.
-   Text can also be set to Italic by selecting it then using the :kbd:`Italic` button in the Tool Shelf.
+   Text can also be set to Italic by selecting it then using the *Italic* button in the Tool Shelf.
 Underline
    Enables underlining, as controlled by the Underline settings above.
 Small Caps
@@ -479,8 +478,8 @@ or highlight (select) first and then toggle Bold/Italics/Underline.
 Setting Case
 ^^^^^^^^^^^^
 
-You can change the text case by selecting it then clicking the :kbd:`To Upper` or
-:kbd:`To Lower` in the tool shelf.
+You can change the text case by selecting it then clicking the *To Upper* or
+*To Lower* in the tool shelf.
 
 Enable the *Small Caps* option to type characters as small caps.
 
@@ -515,7 +514,7 @@ Right
    Aligns text to right of frames when using them,
    else uses the center point of the *Text* object as the ending point of the text (which grows to the left).
 Justify
-   Only flushes a line when it is **terminated** by a wordwrap (**not** by :kbd:`Enter`),
+   Only flushes a line when it is **terminated** by a wordwrap (**not** by :kbd:`Return`),
    it uses *whitespace* instead of *character spacing* (kerning) to fill lines.
 Flush
    **Always** flushes the line, even when it's still being entered;
@@ -531,7 +530,8 @@ Character
    A factor by which space between each character is scaled in width
 Word
    A factor by which whitespace between words is scaled in width.
-   You can also control it by pressing :kbd:`Alt-←` or :kbd:`Alt-→` to decrease/increase spacing by steps of **0.1**.
+   You can also control it by pressing :kbd:`Alt-Left` or :kbd:`Alt-Right`
+   to decrease/increase spacing by steps of ``0.1``.
 Line
    A factor by which the vertical space between lines is scaled.
 

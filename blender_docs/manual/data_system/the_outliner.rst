@@ -81,7 +81,7 @@ Single selection doesn't require any pre-selection: just work directly with :kbd
 When you select an object in the list this way,
 it is selected and becomes the active object in all other 3D Views.
 Use this feature to find objects in your 3D View, select them in the *Outliner*,
-then zoom to them with :kbd:`Numpad.` or if you don't have a numpad,
+then zoom to them with :kbd:`NumpadPeriod` or if you don't have a numpad,
 snap and center your cursor on them via :kbd:`Shift-S`
 *→ Cursor → Selection*, and then :kbd:`C`.
 
@@ -141,10 +141,10 @@ Deleting a datablock
    Use :kbd:`X` to delete the selected datablock(s).
 
 Expanding one level
-   Use :kbd:`Numpad+` to expand one level down in the tree-list.
+   Use :kbd:`NumpadPlus` to expand one level down in the tree-list.
 
 Collapsing one level
-   Use :kbd:`Numpad-` to collapse one level up in the tree-list.
+   Use :kbd:`NumpadMinus` to collapse one level up in the tree-list.
 
 Expanding/collapsing everything
    Use :kbd:`A` to expand/collapse all levels of the tree-list.
@@ -283,7 +283,7 @@ which is in turn the parent of "\ ``Plane.003`` ", and so on.
 
 The neat thing is: if you select any of these datablocks here,
 they will be selected in the 3D window as well, as far as this is possible.
-Pressing :kbd:`Numpad.`
+Pressing :kbd:`NumpadPeriod`
 with your mouse cursor in any 3D Window will center and align the view to that object.
 Very handy. Also, pressing :kbd:`X` will delete it,
 as well as all the other hotkeys that operate on the currently selected object.

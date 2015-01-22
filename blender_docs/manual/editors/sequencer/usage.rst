@@ -465,7 +465,7 @@ Fit preview in Window :kbd:`Home`
    Resizes preview so that it fits in the window.
 Show Preview 1:1 :kbd:`Numpad1`
    Resizes preview to a 1:1 scale (actual size).
-View Selected :kbd:`Numpad.`
+View Selected :kbd:`NumpadPeriod`
    Zooms in the display to fit only the selected strips
 
 Use this when working arranging a lot of strips and you want to use all of your screen to work.

@@ -4,7 +4,8 @@
                   seems to belong to the 3D interaction section (which is to be removed or merged? - pixaal 12/24/14)
        Need also to explain objects classes (curves, mesh, etc) and possible conversions from and to (greylica)}} .
 
-..    FIXME: This section about objects includes armatures, lamps, and cameras, and doesn't fit in the modeling section.
+..    FIXME: This section about objects includes armatures,
+             lamps, and cameras, and doesn't fit in the modeling section.
              The introduction includes a list of object types that are relevant to modeling,
              so this section needs to be moved out to an earlier section,
              perhaps the beginning of 3d navigation(/3d_interaction/navigating)

@@ -272,10 +272,10 @@ with an Armature whose Bones can Influence the mesh of a Child Object when the A
 Pose Mode.
 
 #. Open Blender with it's Default Scene.
-#. Switch the 3D Viewport to Front View by pressing :kbd:`Numpad-1`.
+#. Switch the 3D Viewport to Front View by pressing :kbd:`Numpad1`.
 #. Select the Default Cube and delete it by pressing the :kbd:`X`.
 #. Add a Plane Object by pressing the :kbd:`Spacebar` and entering "add plane" into search text field.
-   Then press the :kbd:`Enter` or :kbd:`LMB` the listed Add Plane entry.
+   Then press the :kbd:`Return` or :kbd:`LMB` the listed Add Plane entry.
 #. While in Object Mode and with the Plane Object still selected we need to rotate it on x axis by 90 degrees,
    so that its face points towards the front view.
    To do this by pressing the :kbd:`R` then :kbd:`X` then enter the value 90.
@@ -313,7 +313,7 @@ Pose Mode.
       Figure 10 - 3D Viewport with a Plane with Loop Cut active for a horizontal cut displaying
       single pink cut line in Front View.
 
-#. With the pink line still displayed enter the value 5 then press the :kbd:`ENTER` twice, without moving the mouse.
+#. With the pink line still displayed enter the value 5 then press the :kbd:`Return` twice, without moving the mouse.
 #. If done correctly you should now have a Plane that is sectioned into 6 horizontal faces. See figure 11.
 
    .. figure:: /images/SW-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.png
@@ -426,7 +426,7 @@ Pose Mode.
 #. This will create a new Vertex Group called Group.
 #. Rename this newly created Group to Bone1 by :kbd:`Ctrl-LMB` on the Group name
    in the Vertex Group list and then typing in the new name.
-   To complete the naming press the :kbd:`Enter`.
+   To complete the naming press the :kbd:`Return`.
 #. Click the button named Assign to assign the currently selected face to that Vertex Group you
    just made and named Bone1.
 #. At this point if all went well you will have associated the 1st face of the Plane with Bone1 of the Armature.
@@ -675,7 +675,7 @@ Any vertices outside the Bone Evelope volume will not be influenced. See figure 
 The default size of the Bone Envelope volume does not extend very far from the surface of a bone;
 You can alter the size of the Bone Envelope volume by clicking on the body of the bone you want to alter,
 switch to Edit Mode or Pose Mode and then pressing
-:kbd:`Ctrl-ALT-S` then drag your mouse left or right and the Bone Envelope volume will alter accordingly.
+:kbd:`Ctrl-Alt-S` then drag your mouse left or right and the Bone Envelope volume will alter accordingly.
 See figure 30.
 
 
@@ -703,7 +703,7 @@ Altering the Bone Envelope volume does not alter the size of the Armature Bone j
 within which it can influence vertices of Child Objects.
 
 You can alter the radius that a bone has by selecting the head, body or tail parts of a bone while in Edit Mode,
-and then press :kbd:`ALT-S` and move the mouse left or right.
+and then press :kbd:`Alt-S` and move the mouse left or right.
 This will make the selected bone fatter or thinner without altering the thickness of the Bone Envelope volume.
 See figure 32.
 
@@ -780,7 +780,7 @@ Bone Parenting - Example Of Use
 #. With only the single Armature Bone selected switch into Edit Mode by pressing the :kbd:`Tab`.
 #. Select the top pointy end of the bone (the Tail).
 #. Extrude a new bone from the tail of the old bone that is 1 Blender Unit in length along the Z axis.
-   Do this by pressing the :kbd:`E` then the :kbd:`Z` then input the value 1, then press the :kbd:`Enter`.
+   Do this by pressing the :kbd:`E` then the :kbd:`Z` then input the value 1, then press the :kbd:`Return`.
 #. Create 2 more bones each extruding out of the Tail of the previous bone.
    Do this by pressing :kbd:`Shift-R` twice; This will execute the Repeat Last command operator.
 #. Switch back into Object Mode by pressing the :kbd:`Tab`.
@@ -1044,7 +1044,7 @@ Naming a Group
    To rename a group, simply click in the groups name field.
    To name groups in the *Outliner* window, select *Groups* as the outliner display from the header combo box,
    and :kbd:`Ctrl-LMB` click on the group name.
-   The name will change to an editable field; make your changes and press :kbd:`Enter`.
+   The name will change to an editable field; make your changes and press :kbd:`Return`.
 Restricting Group Contents via Layers
    The cluster of layer buttons attached to each group determines from
    which layers the group objects will be included when duplicated.

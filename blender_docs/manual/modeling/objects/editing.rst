@@ -143,7 +143,7 @@ Delete / Erase
 
    | Mode:     *Edit* or *Object* mode
    | Menu:     *Object* → *Delete*
-   | Hotkey:   :kbd:`X` or :kbd:`Del`
+   | Hotkey:   :kbd:`X` or :kbd:`Delete`
 
 
 Erases or deletes selected objects.

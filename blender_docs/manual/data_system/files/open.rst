@@ -54,7 +54,7 @@ Side Panel
 ==========
 
 The panel on the left displays different ways to find files and several options.
-To load a file, select it with :kbd:`LMB` and then press :kbd:`Enter`,
+To load a file, select it with :kbd:`LMB` and then press :kbd:`Return`,
 or click the *Open File* button.
 A file can also be loaded by simply clicking :kbd:`MMB` over its name.
 

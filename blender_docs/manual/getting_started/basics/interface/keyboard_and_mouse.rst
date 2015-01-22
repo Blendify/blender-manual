@@ -69,7 +69,7 @@ This manual uses the following conventions to describe user input:
 
    :kbd:`Ctrl-W` or :kbd:`Shift-Alt-A` - indicates that these keys should be pressed simultaneously
 
-   :kbd:`Numpad0` to :kbd:`Numpad9`, :kbd:`Numpad+` - and so on refer to the keys on the separate numeric keypad.
+   :kbd:`Numpad0` to :kbd:`Numpad9`, :kbd:`NumpadPlus` - and so on refer to the keys on the separate numeric keypad.
 
 Other keys are referred to by their names, such as :kbd:`Esc`, :kbd:`Tab`, :kbd:`F1` to :kbd:`F12`.
 Of special note are the arrow keys, :kbd:`Left`, :kbd:`Right` and so on.
@@ -95,7 +95,7 @@ The following table shows the combinations used:
      - :kbd:`LMB` (mouse button)
    * - :kbd:`MMB`
      - :kbd:`Alt-LMB`
-     - :kbd:`opt-LMB` (Option/Alt key + mouse button)
+     - :kbd:`Cmd-LMB` (Option/Alt key + mouse button)
    * - :kbd:`RMB`
      - :kbd:`RMB`
      - :kbd:`Cmd-LMB` (Command/Apple key + mouse button)

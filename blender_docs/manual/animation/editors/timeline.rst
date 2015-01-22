@@ -106,7 +106,7 @@ The *Timeline* can be panned by holding :kbd:`MMB`,
 then dragging the area left or right.
 
 You can zoom the *Timeline* by using :kbd:`Ctrl-MMB`, the mouse :kbd:`Wheel`,
-or pressing the :kbd:`-` and :kbd:`+` keys on the numpad.
+or pressing the :kbd:`Minus` and :kbd:`Plus` keys on the numpad.
 
 By default, the *Playback/Rendering Range* (Frame Start 1 to Frame End 200)
 is a lighter shade of gray.

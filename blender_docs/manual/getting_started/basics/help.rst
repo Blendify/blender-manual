@@ -191,7 +191,7 @@ Blender Search
    :class: refbox
 
    | Mode:     All modes
-   | Hotkey:   :kbd:`Space`
+   | Hotkey:   :kbd:`Spacebar`
 
 
 .. figure:: /images/Manual-Vitals-Help-Search-Keyword-Render.jpg
@@ -203,14 +203,14 @@ The Blender Search feature, called *Blender Search*,
 is a new functionality added by the Blender recode
 (from 2.4x series to 2.5x series and so on).
 The Internal name of the feature is *Operator Search*.
-When you hit :kbd:`Space` from your keyboard,
+When you hit :kbd:`Spacebar` from your keyboard,
 Blender will present you with a small Pop Up Window,
 no matter which Blender Window your Mouse pointer is located
 (except the *Text Editor* Window and *Python console*),
 and a field for you to type in.
 Just type what you need and Blender will present you a list of available options.
 You can click on the appropriate function for you, or search through them using your keyboard,
-type :kbd:`Enter` to accept, or :kbd:`Esc` to leave.
+type :kbd:`Return` to accept, or :kbd:`Esc` to leave.
 Clicking outside of the Blender Search Window or taking the Mouse pointer away,
 will also leave Blender Search.
 

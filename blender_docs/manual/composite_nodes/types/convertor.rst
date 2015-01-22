@@ -33,7 +33,7 @@ Alpha setting, and interpolation type.
 To change the hue of the selected color in the colorband,
 :kbd:`LMB` click on the swatch,
 and use the popup color picker control to select a new color.
-Press :kbd:`Enter` to set that color.
+Press :kbd:`Return` to set that color.
 
 To add colors,
 hold :kbd:`Ctrl` down and :kbd:`Ctrl-LMB` click inside the gradient.

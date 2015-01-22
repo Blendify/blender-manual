@@ -61,7 +61,7 @@ Color
    The base color of the paint. Can be set
 
    - manually by :kbd:`LMB` clicking on the color swatch applet next to the socket,
-     choosing a color using the control panel that pops up, and pressing :kbd:`Enter`
+     choosing a color using the control panel that pops up, and pressing :kbd:`Return`
    - based on an Active Material which is specified using the material panels, or
    - plugged in from an RGB color generator.
 Spec

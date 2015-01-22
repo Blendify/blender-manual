@@ -44,7 +44,7 @@ options:
 - Go to :menuselection:`Properties Window --> Render context --> Render panel` and press the *Image* button
 - Go to :menuselection:`Render --> Render Image` from the header of the *Info Window*
   (see: *Header of the Info Window*)
-- Using Blender Search: press :kbd:`Space`, type Render and click on *Render*.
+- Using Blender Search: press :kbd:`Spacebar`, type Render and click on *Render*.
 
 To abort or quit the render, press :kbd:`Esc`.
 
@@ -75,7 +75,7 @@ To start an *OpenGL render* you can use any of the following options:
   in the header of the 3D View
 - Go to :menuselection:`Render --> OpenGL Render Image` from the header of the *Info Window*
   (see: *Header of the Info Window* Image)
-- Using Blender Search: press :kbd:`Space`, type *Render* and click on *OpenGL Render*.
+- Using Blender Search: press :kbd:`Spacebar`, type *Render* and click on *OpenGL Render*.
 
 To abort or quit the render, press :kbd:`Esc`.
 

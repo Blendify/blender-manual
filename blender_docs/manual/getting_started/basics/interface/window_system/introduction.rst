@@ -110,7 +110,7 @@ Resource Information
 
    Is a visual aid in transforming objects (grab/move, rotate and scale).
    Objects can also be transformed using the keyboard shortcuts: (:kbd:`G` / :kbd:`R` / :kbd:`S`);
-   :kbd:`Ctrl-Space` will toggle the manipulator visibility
+   :kbd:`Ctrl-Spacebar` will toggle the manipulator visibility
 
 Cube Mesh
    By default, a new installation of Blender will always start with a Cube *Mesh*

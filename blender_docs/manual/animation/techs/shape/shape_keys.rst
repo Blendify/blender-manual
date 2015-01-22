@@ -268,7 +268,7 @@ Workflow For Absolute Shape Keys
 
 - Select shape key Basis to edit the first shape key.
 - Select the extruded size face and
-  :kbd:`S` :kbd:`0`:kbd:`.`:kbd:`5` :kbd:`LMB`, then :kbd:`G` :kbd:`X` :kbd:`-`:kbd:`1` :kbd:`LMB`.
+  :kbd:`S` :kbd:`0`:kbd:`.`:kbd:`5` :kbd:`LMB`, then :kbd:`G` :kbd:`X` :kbd:`Minus`:kbd:`1` :kbd:`LMB`.
 
 
 - Switch to Object Mode.

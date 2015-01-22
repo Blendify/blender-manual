@@ -104,14 +104,14 @@ Tool Shelf
 :doc:`Show all Layers </getting_started/basics/navigating/layers>` (:kbd:`~`)
    Makes all of the display layers visible.
 
-:doc:`Global View/Local View </getting_started/basics/navigating/3d_view>` (:kbd:`Numpad/`)
+:doc:`Global View/Local View </getting_started/basics/navigating/3d_view>` (:kbd:`NumpadSlash`)
    Global view shows all of the 3D objects in the scene. Local view only displays the selected objects.
    This helps if there are many objects in the scene, that may be in the way.
-   Accidentally pressing :kbd:`Numpad/` can happen rather often if you're new to Blender,
+   Accidentally pressing :kbd:`NumpadSlash` can happen rather often if you're new to Blender,
    so if a bunch of the objects in your scene seem to have mysteriously vanished, try turning off local view.
 
 
-:doc:`View Selected </getting_started/basics/navigating/3d_view>` (:kbd:`Numpad.`)
+:doc:`View Selected </getting_started/basics/navigating/3d_view>` (:kbd:`NumpadPeriod`)
    Zooms the 3D view to encompass all the *selected* objects.
       :doc:`Read more about Zooming the 3D View » </getting_started/basics/navigating/3d_view#zooming_the_view>`
 

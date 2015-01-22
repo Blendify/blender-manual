@@ -67,10 +67,10 @@ Even :kbd:`E`
 Flip :kbd:`F`
    When Even is enabled, this flips the target edge loop to match.
    (See :doc:`Edge Slide tool </modeling/meshes/editing/edges#edge_slide>` for details)
-Number of Cuts :kbd:`Wheel` or :kbd:`Numpad+` / :kbd:`Numpad-`
+Number of Cuts :kbd:`Wheel` or :kbd:`NumpadPlus` / :kbd:`NumpadMinus`
    After activating the tool, but before confirming initial loop location,
    you can increase and decrease the number of cuts to create,
-   by entering a number with the keyboard, scrolling :kbd:`Wheel` or using :kbd:`Numpad+` and :kbd:`Numpad-`.
+   by entering a number with the keyboard, scrolling :kbd:`Wheel` or using :kbd:`NumpadPlus` and :kbd:`NumpadMinus`.
    Note that when creating multiple loops, these cuts are uniformly distributed in the original face loop,
    and *you will not be able to control their positions*.
 

@@ -68,7 +68,7 @@ materials, textures, ..., to the current .blend file.
 - Repeat the above for each kind of object you wish to append or link.
   Parents and armatures (all modifier objects) must be selected separately.
 - Set desired options that are shown in the header (*At Cursor*, *Active Layer*, ...).
-- :kbd:`LMB` on *Load Library* or press :kbd:`Enter` or :kbd:`MMB` directly on the data to append.
+- :kbd:`LMB` on *Load Library* or press :kbd:`Return` or :kbd:`MMB` directly on the data to append.
 
 Of course, you can append or link many other things besides objects:
 all the *ObData* - cameras, curves, groups, lamps, materials, meshes,

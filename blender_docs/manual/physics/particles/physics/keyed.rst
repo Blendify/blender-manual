@@ -46,7 +46,7 @@ Key Targets
    You have to enter the name of the object which bears the target system and if there are
    multiple particle systems the number of the system.
 
-   Click the :kbd:`+` to add a key, then select the object.
+   Click the :kbd:`Plus` to add a key, then select the object.
 
 If you use only one keyed system the particles will travel in their lifetime from the emitter
 to the target. A shorter lifetime means faster movement.

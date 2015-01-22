@@ -71,12 +71,12 @@ The text has overflowed because the text has reached the end of the last frame, 
 Adding/Deleting a Frame
 -----------------------
 
-To add a frame click the :kbd:`Add Textbox` button on the *Text Boxes* panel.
+To add a frame click the *Add Textbox* button on the *Text Boxes* panel.
 A new frame is inserted just after (in text flow order) the current one, with its attributes
 (position and size). Be sure to modify the offset for the new frame in the *X*
 and/or *Y* fields. Just an *X* modification will create a new column.
 
-To delete the current frame, click the :kbd:`Del` button.
+To delete the current frame, click the :kbd:`Delete` button.
 Any text in higher frames will be re-flowed downward into lower frames.
 
 
@@ -143,7 +143,7 @@ Each character can have a different *Material index* in order to have different
 materials on different characters.
 
 You can assign indices either as you type, or after by selecting blocks of text and clicking
-on the :kbd:`Assign` button in the Materials panel.
+on the *Assign* button in the Materials panel.
 
 
 .. figure:: /images/2.5_Manual-Part-II-Text-MaterialIndex-Ex.jpg
@@ -156,5 +156,5 @@ on the :kbd:`Assign` button in the Materials panel.
 For example, to create (*Red Green Blue*)
 you would need to create three separate materials and three separate material indices. Each
 word would be assigned a *Material index* by selecting the characters for each word
-and clicking the :kbd:`Assign` button. (*Red Green Blue*)
+and clicking the *Assign* button. (*Red Green Blue*)
 is still one single *Text* object.

@@ -227,7 +227,7 @@ Blender Search
    :class: refbox
 
    | Mode: All modes
-   | Hotkey: :kbd:`Space`
+   | Hotkey: :kbd:`Spacebar`
 
 
 .. figure:: /images/Manual-Vitals-Undo-Redo-Redo_Last_Spacebar_Menu.jpg
@@ -236,7 +236,7 @@ Blender Search
 
 
 You can always access all of the explained options for user actions,
-using Blender Search :kbd:`Space`.
+using Blender Search :kbd:`Spacebar`.
 
 
 .. important::

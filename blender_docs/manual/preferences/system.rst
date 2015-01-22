@@ -22,7 +22,7 @@ DPI
    (such as Retina Display and others) matching the screen DPI with Blender DPI.
    During normal usage, most Blender users might prefer to zoom screen elements
    pressing :kbd:`Ctrl` and dragging :kbd:`MMB` left and right over a panel to resize its contents,
-   or use the :kbd:`Numpad-+` and :kbd:`Numpad--` to zoom in and out the contents.
+   or use the :kbd:`NumpadPlus` and :kbd:`NumpadMinus` to zoom in and out the contents.
    Pressing :kbd:`Home` (Show All) will reset the zooming at the screen/panel focused by the mouse pointer.
    Minimum: **48** , Maximum: **128** , Default:\ **72**
 Frame Server Port

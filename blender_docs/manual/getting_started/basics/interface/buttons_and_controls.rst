@@ -78,11 +78,11 @@ Dragging
    To change the value in a wider range, hold down :kbd:`LMB` and drag the mouse to the left or right.
 
 Text Input
-   Press :kbd:`LMB` or :kbd:`Enter` to edit the value as a text field.
+   Press :kbd:`LMB` or :kbd:`Return` to edit the value as a text field.
 
    When entering values by hand, this button works like any other text button.
 
-   - Press :kbd:`Enter` to apply the change.
+   - Press :kbd:`Return` to apply the change.
    - Press :kbd:`Esc` will cancel the value.
 
 
@@ -215,5 +215,5 @@ While Editing Text
 
 All Modes
    - :kbd:`Esc`, :kbd:`RMB` - cancels.
-   - :kbd:`Enter`, :kbd:`LMB` - confirms.
+   - :kbd:`Return`, :kbd:`LMB` - confirms.
 

@@ -75,7 +75,7 @@ More and Less
 
    | Mode:     *Edit* mode
    | Menu:     :menuselection:`Select --> More/Less`
-   | Hotkey:   :kbd:`Ctrl-Numpad+` / :kbd:`Ctrl-Numpad-`
+   | Hotkey:   :kbd:`Ctrl-NumpadPlus` / :kbd:`Ctrl-NumpadMinus`
 
 
 These two options are complementary and very similar to
@@ -299,7 +299,7 @@ Deleting Elements
 
    | Mode:     *Edit* mode
    | Menu:     :menuselection:`Curve --> Delete...`
-   | Hotkey:   :kbd:`X` or :kbd:`Del`
+   | Hotkey:   :kbd:`X` or :kbd:`Delete`
 
 
 The *Erase* pop-up menu of surfaces offers you two options:

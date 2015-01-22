@@ -383,9 +383,9 @@ Mode.
    * - Sculpt options panel toggle
      - :kbd:`T`
    * - Step up one multires level
-     - :kbd:`Page Up`
+     - :kbd:`PageUp`
    * - Step down one multires level
-     - :kbd:`Page Down`
+     - :kbd:`PageDown`
    * - Set multires level
      - :kbd:`Ctrl-0` to :kbd:`Ctrl-5`
    * - Dynamic topology toggle

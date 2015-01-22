@@ -12,7 +12,7 @@ Transform Orientations
    :class: refbox
 
    | Mode:     *Object* and *Edit* modes
-   | Hotkey:   :kbd:`Alt-Space`
+   | Hotkey:   :kbd:`Alt-Spacebar`
 
 
 .. figure:: /images/Orientations-Menu-2.5+.jpg
@@ -34,7 +34,7 @@ but if you hit :kbd:`G-X-X` it will constrain to your *Transform Orientation* s 
 
 The Orientations options can be set on the 3D View's header (or "footer",
 since it is at the bottom of the view by default),
-or with :kbd:`Alt-Space` or through the *Orientation* menu in a 3D view header.
+or with :kbd:`Alt-Spacebar` or through the *Orientation* menu in a 3D view header.
 
 
 In addition to the four built-in options,
@@ -58,10 +58,10 @@ Please note two things:
 
   - If you click on one of the axes of the Manipulator with :kbd:`LMB`,
     it will allow you to constrain movement to only this direction.
-    An example of a keyboard equivalent is :kbd:`G-Z-Z`.
+    An example of a keyboard equivalent is :kbd:`G, Z, Z`.
   - If you :kbd:`Shift-LMB` click,
     it will lock the axis you clicked on and allow you to move in the plane of the two remaining axes.
-    The keyboard analogue is :kbd:`G-Shift-Z-Shift-Z-`.
+    The keyboard analogue is :kbd:`G, Shift-Z, Shift-Z`.
 
 
 Orientations
@@ -128,7 +128,7 @@ Edge Select is different--A selected Edge has the z-axis aligned with it
 If you select several elements, it will orient towards the average of those normals.
 
 A great example of how this is useful is in Vertex Select Mode: Pick a vertex and then do
-:kbd:`G-Z-Z` to tug it away from the mesh and shove it into the mesh.
+:kbd:`G, Z, Z` to tug it away from the mesh and shove it into the mesh.
 To make this even more useful, select a nearby vertex and hit :kbd:`Shift-R` to repeat
 the same movement---except along that second vertex's normal instead.
 
@@ -187,7 +187,7 @@ Custom Orientations
    :class: refbox
 
    | Mode:     *Object* and *Edit* modes
-   | Hotkey:   :kbd:`Ctrl-Alt-Space`
+   | Hotkey:   :kbd:`Ctrl-Alt-Spacebar`
 
 
 ..    Comment: <!--[[File:Doc26-transformOrientationPanel.png|thumb|right|200px|Transform Orientation panel]]--> .
@@ -218,7 +218,7 @@ adding and deleting custom orientations.
 The default name for these orientations comes from whatever you have selected. If an edge,
 it will be titled, "Edge," if an object, it will take that object's name, etc. The Toolshelf
 (:kbd:`T` in the 3D View)
-allows you to rename the custom orientation after you hit :kbd:`Ctrl-Alt-Space`.
+allows you to rename the custom orientation after you hit :kbd:`Ctrl-Alt-Spacebar`.
 
 
 .. figure:: /images/Orientations-Custom-Extrusion.jpg
@@ -230,7 +230,7 @@ The technique of creating custom orientations can become important in creating p
 In *Figure 1*, to achieve this effect:
 
 - Select the object's sloping top edge
-- Create a Custom Orientation with :kbd:`Ctrl-Alt-Space` and rename it "Top Edge".
+- Create a Custom Orientation with :kbd:`Ctrl-Alt-Spacebar` and rename it "Top Edge".
 - Select the objects's bottom, right edge.
 - Extrude with :kbd:`E`.
 - Cancel the extrusion's default movement by hitting :kbd:`RMB` or :kbd:`Esc`.

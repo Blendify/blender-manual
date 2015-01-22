@@ -20,11 +20,11 @@ Sensor type menu
 Sensor name
    The name of the sensor. This can be selected by the user. It is used to access sensors with Python;
    it needs to be unique among the selected objects.
-**Pin button**
+Pin button
   Display the sensor even when it is not linked to a visible states controller.
 Checkbox button
    Sets active state of the sensor
-:kbd:`X` **Button**
+X button
   Deletes the sensor.
 
 
@@ -103,22 +103,22 @@ Freq
      - 1
 
 
-:kbd:`Level` Button
+*Level* Button
    Triggers connected controllers when state (of the build-in state machine) changes.
    (For more information see :doc:`States </game_engine/logic/states>`).
 
 The following parameters specifies how the sensor's status gets evaluated:
 
-:kbd:`Tap` Button
+*Tap* Button
    Changes the sensor's state to to negative one frame after changing
    to positive even if the sensor evaluation remains positive.
    As this is a state change it triggers the connected controllers as well.
-   Only one of :kbd:`Tap` or :kbd:`Level` can be activated.
+   Only one of *Tap* or *Level* can be activated.
    If the *TRUE level triggering* is set,
    the sensor state will consecutive change from True to False until the sensor evaluates False.
    The *FALSE level triggering* will be ignored when the *Tap* parameter is set.
 
-:kbd:`Invert` Button
+*Invert* Button
    This inverts the sensor output.
    If this is set, the sensor's state will be inverted.
    This means the sensors's state changes to positive when evaluating False and changes to

@@ -85,7 +85,7 @@ Toggle Channel Editability :kbd:`Tab`
 Extrapolation Mode
    Change the extrapolation between selected keyframes. More options are available in the Graph Editor.
 
-Expand Channels, Collapse Channels (:kbd:`Numpad-+`, :kbd:`Numpad--`)
+Expand Channels, Collapse Channels (:kbd:`NumpadPlus`, :kbd:`NumpadMinus`)
    Expands or collapses selected channels.
 
 Move...

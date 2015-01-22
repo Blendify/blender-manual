@@ -103,7 +103,7 @@ vertex Groups panel. There you find 3 clickable elements:
 
 
 Group Name
-   The Groupname can be changed by :kbd:`LMB-x2` on the name itself.
+   The Groupname can be changed by double clicking :kbd:`LMB` on the name itself.
    Then you can edit the name as you like.
 
 Plus Icon

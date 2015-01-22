@@ -78,7 +78,7 @@ For a reference of all the settings see :doc:`this page </physics/soft_body/refe
 
 
 - You start a Soft Body simulation with :kbd:`Alt-A`.
-- You pause the simulation with :kbd:`Space`, continue with :kbd:`Alt-A`.
+- You pause the simulation with :kbd:`Spacebar`, continue with :kbd:`Alt-A`.
 - You stop the simulation with :kbd:`Esc`.
 
 

@@ -122,7 +122,7 @@ The tool will operate on whatever the current select mode is.
 Clicking or dragging with the :kbd:`LMB`,
 causing elements to be inside the circle will cause those elements to be selected.
 
-You can enlarge or shrink the circle region using :kbd:`Numpad+` and :kbd:`Numpad-`,
+You can enlarge or shrink the circle region using :kbd:`NumpadPlus` and :kbd:`NumpadMinus`,
 or the :kbd:`Wheel`.
 
 
@@ -204,7 +204,7 @@ The select menu in edit mode contains additional tool for selecting components:
    Select all or none of the mesh components.
 Invert Selection :kbd:`Ctrl-I`
    Selects all components that are not selected, and deselect currently selected components.
-More :kbd:`Ctrl-Numpad+`
+More :kbd:`Ctrl-NumpadPlus`
    Propagates selection by adding components that are adjacent to selected elements.
-Less :kbd:`Ctrl-Numpad-`
+Less :kbd:`Ctrl-NumpadMinus`
    Deselects components that form the bounds of the current selection

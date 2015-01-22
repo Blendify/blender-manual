@@ -15,7 +15,7 @@ Adding a Modifier
 
 The F-curve modifier panel is located in the Properties panel.
 Select a curve by selecting one of its curve points, or by selecting the channel list.
-Click on the :kbd:`Add Modifier` button and select a modifier.
+Click on the *Add Modifier* button and select a modifier.
 
 To add spin to an object or group, select the object/group and add a keyframe to
 the axis of rotation (x,y, or z)
