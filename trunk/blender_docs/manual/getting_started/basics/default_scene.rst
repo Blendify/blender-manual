@@ -34,7 +34,7 @@ will be the default startup file instead of the one that comes with the default 
 install.
 
 The *Save Startup File* popup confirmation will appear.
-Click :kbd:`LMB` on the *Save Startup File* popup or press :kbd:`Enter`.
+Click :kbd:`LMB` on the *Save Startup File* popup or press :kbd:`Return`.
 
 
 Press :kbd:`Esc` to abort.

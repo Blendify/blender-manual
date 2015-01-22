@@ -73,7 +73,7 @@ The Boolean modifier is located on the third row in the *Generate* Column.
 
 You can also click on the *Add Modifier* Button and use :kbd:`N` to add the
 Boolean modifier,
-or use Blender search with the shortcut :kbd:`Space` and type "Add Modifier",
+or use Blender search with the shortcut :kbd:`Spacebar` and type "Add Modifier",
 click on *Add Modifier* and press :kbd:`N`.
 
 When you add the Boolean modifier for an Object,

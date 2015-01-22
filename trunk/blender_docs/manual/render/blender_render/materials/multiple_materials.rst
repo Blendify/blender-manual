@@ -33,7 +33,7 @@ material is as follows:
 - In the Active Material box (2), re-select the base material.
 - Go to Edit Mode - Face Select (a new box appears above the Active Material box with Assign/Select/Deselect).
 - Select the face/faces to be colored with the second material.
-- In the Object Material Slots box (3), click the :kbd:`+` to create a new slot, and while this is still active,
+- In the Object Material Slots box (3), click the :kbd:`Plus` to create a new slot, and while this is still active,
   click on the second material in the Available Materials list.
 - Click the Assign button, and the second material will appear on the selected object faces.
 

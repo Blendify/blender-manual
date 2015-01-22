@@ -88,7 +88,7 @@ in degrees to specify the amount of rotation after after initiating a rotation t
 - Hold :kbd:`Ctrl` down while performing a rotation to rotate the selected element in 5 degree increments.
 - Hold :kbd:`Shift` down while performing a rotation to rotate the selected element in 0.01 degree increments.
 - Hold :kbd:`Shift-Ctrl` down while performing a rotation to rotate the selected element in 1 degree increments.
-- Press :kbd:`R`, type in a number and press :kbd:`Enter` to confirm.
+- Press :kbd:`R`, type in a number and press :kbd:`Return` to confirm.
 - Press :kbd:`R`,\ :kbd:`R` to enable Trackball rotation.
 
 
@@ -126,8 +126,8 @@ and blue triad is selected). Set the manipulator type to rotation
 - Use :kbd:`LMB` and drag any of the three colored axes on the rotation manipulator to rotate
   your object along that axis.
   You can also use :kbd:`Shift`, :kbd:`Ctrl` or numeric input with the 3D manipulator widget for further control.
-- Your changes will be applied when you release :kbd:`LMB` or press :kbd:`Space` or
-  :kbd:`Enter`. Your changes will be cancelled if you press :kbd:`RMB` or :kbd:`Esc`.
+- Your changes will be applied when you release :kbd:`LMB` or press :kbd:`Spacebar` or
+  :kbd:`Return`. Your changes will be cancelled if you press :kbd:`RMB` or :kbd:`Esc`.
 
 :doc:`Read more about the 3D Transform Manipulator » </3d_interaction/transform_control/manipulators>`
 

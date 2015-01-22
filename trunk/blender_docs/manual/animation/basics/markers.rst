@@ -166,7 +166,7 @@ Moving Markers
 
 Once you have one or more markers selected, hit :kbd:`Ctrl-G`
 (or :kbd:`G` in Timeline or Audio windows) to move them,
-and confirm the move with :kbd:`LMB` or :kbd:`Enter` (as usual,
+and confirm the move with :kbd:`LMB` or :kbd:`Return` (as usual,
 cancel the move with :kbd:`RMB`, or :kbd:`Esc`).
 
 By default, you grab the markers in one-frame steps, but if you hold :kbd:`Ctrl`, the

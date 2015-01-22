@@ -20,7 +20,7 @@ Maximizing a window
 You can maximize a window frame to fill the whole application window with the *View*
 → *Toggle Full Screen* menu entry. To return to normal size,
 use again *View* → *Toggle Full Screen*.
-A quicker way to achieve this is to use :kbd:`Shift-Space`,
+A quicker way to achieve this is to use :kbd:`Shift-Spacebar`,
 :kbd:`Ctrl-Down` or :kbd:`Ctrl-Up` to toggle between maximized and framed windows.
 NOTE: The window your mouse is currently hovering over is the one that will be maximized using
 the keyboard shortcuts.

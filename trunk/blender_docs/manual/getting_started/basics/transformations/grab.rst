@@ -110,7 +110,7 @@ Blender offers options to limit the amount of the transformation in small or pre
    will be the magnitude of the translation along that axis.
    This decimal number is displayed at the bottom left corner of the 3D view window as it is entered.
 
-   - Hitting :kbd:`BackSpace` during number entry and deleting the number removes the numerical
+   - Hitting :kbd:`Backspace` during number entry and deleting the number removes the numerical
      specification option but the object will remain constrained to the same axis.
 
    - Hitting :kbd:`/` during number entry switches the number being entered to its reciprocal, e.g.

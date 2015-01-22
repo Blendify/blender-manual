@@ -238,19 +238,19 @@ Zooming the View
 
    | Mode:     All modes
    | Menu:     *View* → *Navigation*
-   | Hotkey:   :kbd:`Ctrl-MMB` / :kbd:`Wheel` / :kbd:`Numpad+` / :kbd:`Numpad-`
+   | Hotkey:   :kbd:`Ctrl-MMB` / :kbd:`Wheel` / :kbd:`NumpadPlus` / :kbd:`NumpadMinus`
 
 
 Description
 ===========
 
 You can zoom in and out by holding down :kbd:`Ctrl` and dragging :kbd:`MMB`.
-The hotkeys are :kbd:`Numpad+` and :kbd:`Numpad-`.
+The hotkeys are :kbd:`NumpadPlus` and :kbd:`NumpadMinus`.
 The :menuselection:`View --> Navigation` sub-menu holds these functions too as well.
 Refer to the 3D viewport's *View* menu image above for more information.
 
 If you have a wheel mouse, you can perform all of the actions in the 3D viewport that you
-would do with :kbd:`Numpad+` and :kbd:`Numpad-` by rotating the :kbd:`Wheel`.
+would do with :kbd:`NumpadPlus` and :kbd:`NumpadMinus` by rotating the :kbd:`Wheel`.
 To zoom a *Buttons* window,
 hold :kbd:`Ctrl-MMB` and move your mouse up and down.
 
@@ -259,7 +259,7 @@ hold :kbd:`Ctrl-MMB` and move your mouse up and down.
 
    If you get lost in 3D space, which is not uncommon, two hotkeys will help you:
    :kbd:`Home` changes the view so that you can see all objects (:menuselection:`View --> View All` menu entry),
-   while :kbd:`Numpad.` zooms the view to the currently selected objects when in perspective mode
+   while :kbd:`NumpadPeriod` zooms the view to the currently selected objects when in perspective mode
    (:menuselection:`View --> View Selected` menu entry).
 
 
@@ -322,7 +322,7 @@ They are found in the *View Menu*
       moves the cursor back to the origin **and** zooms in/out so that you can see everything in your scene.
    Align Active Camera to View, :kbd:`Ctrl-Alt-Numpad0`
       Gives your active camera the current viewpoint
-   View selected, :kbd:`Numpad.`
+   View selected, :kbd:`NumpadPeriod`
       Focuses view on currently selected object/s by centering them in the viewport,
       and zooming in until they fill the screen.
    Center view to cursor, :kbd:`Alt-Home`
@@ -338,11 +338,11 @@ Local and Global View
 *********************
 
 You can toggle between *Local* and *Global* view by selecting the option
-from the *View Menu* or using the shortcut :kbd:`Numpad/`.
+from the *View Menu* or using the shortcut :kbd:`NumpadSlash`.
 Local view isolates the selected object or objects,
 so that they are the only ones visible in the viewport.
 This is useful for working on objects that are obscured by other ones, or have heavy geometry.
-Press :kbd:`Numpad/` to return to *Global View*.
+Press :kbd:`NumpadSlash` to return to *Global View*.
 
 
 Quad View

@@ -7,7 +7,7 @@ Noise
    :class: refbox
 
    | Mode:     *Edit* mode
-   | Panel:    :kbd:`Mesh Tools` panel (*Editing* context)
+   | Panel:    Mesh Tools (*Editing* context)
 
 
 .. note::

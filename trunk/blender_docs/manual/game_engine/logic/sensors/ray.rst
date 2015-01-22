@@ -34,7 +34,7 @@ Axis
 Range
    Determines the length of the ray. (Blender units).
 
-:kbd:`X-Ray Mode` **button**
+X-Ray Mode button
    Makes it x-ray, so that it sees through objects that don't
    have the property or material specified in the filter field.
 

@@ -119,7 +119,7 @@ Copy the text below in the Text Editor.
    bpy.ops.mesh.primitive_cube_add(location=(x, y, z))
 
 
-Execute the script with :kbd:`ALT-P`.
+Execute the script with :kbd:`Alt-P`.
 
 You can see the result of running the above script in this video.
 

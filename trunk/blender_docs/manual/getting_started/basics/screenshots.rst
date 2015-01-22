@@ -40,7 +40,7 @@ called *Save Screenshot* where you can find format settings and a checkbox with 
    Sometimes, the operating System you are using is designed to use some
    Shortcuts that the default Blender installation also uses for its functions.
    In this case, you can use the search functionality present in Blender.
-   (See Fig: Search Functionality). Hit :kbd:`Space` and type *Screenshot*, in the Search Popup.
+   (See Fig: Search Functionality). Hit :kbd:`Spacebar` and type *Screenshot*, in the Search Popup.
 
 
 Operating System Screenshots

@@ -102,7 +102,7 @@ You can also enter a :doc:`numerical value </3d_interaction/transform_control/nu
 - Hold :kbd:`Ctrl` down while scaling to scale the selected element in degree 0.1 BU increments.
 - Hold :kbd:`Shift` down while scaling to scale the selected element in very fine increments.
 - Hold :kbd:`Shift-Ctrl` down while scaling to scale the selected element in 0.01 BU increments.
-- Press :kbd:`S`, type in a number and press :kbd:`Enter` to confirm.
+- Press :kbd:`S`, type in a number and press :kbd:`Return` to confirm.
 
 
 .. tip:: Orientation dependent scaling
@@ -138,8 +138,8 @@ and blue triad is selected). Set the manipulator type to scale
 - Use :kbd:`LMB` and drag any of the three colored axes on the scaling manipulator to scale
   your object along that axis.
   You can also use :kbd:`Shift`, :kbd:`Ctrl` or numeric input with the 3D manipulator widget for further control.
-- Your changes will be applied when you release :kbd:`LMB` or press :kbd:`Space` or
-  :kbd:`Enter`. Your changes will be cancelled if you press :kbd:`RMB` or :kbd:`Esc`.
+- Your changes will be applied when you release :kbd:`LMB` or press :kbd:`Spacebar` or
+  :kbd:`Return`. Your changes will be cancelled if you press :kbd:`RMB` or :kbd:`Esc`.
 
 :doc:`Read more about the 3D Transform Manipulator » </3d_interaction/transform_control/manipulators>`
 

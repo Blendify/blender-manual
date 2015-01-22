@@ -163,9 +163,9 @@ Loose
    Select all vertices or edges that do not form part of a face.
 Similar
    Select geometry based on how similar certain properties are to it.
-More :kbd:`Ctrl-Numpad+`
+More :kbd:`Ctrl-NumpadPlus`
    Propagates selection by adding geometry that are adjacent to selected elements.
-Less :kbd:`Ctrl-Numpad-`
+Less :kbd:`Ctrl-NumpadMinus`
    Deselects geometry that form the bounds of the current selection
 Mirror
    Select mesh items at the mirrored location.

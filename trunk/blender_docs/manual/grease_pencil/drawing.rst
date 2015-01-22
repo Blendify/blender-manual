@@ -47,7 +47,7 @@ Erase :kbd:`D-RMB`
    The erasing will continue until the mouse button is released.
    If begun with *Erase*, either :kbd:`RMB` or :kbd:`LMB` will erase strokes.
    The size of the eraser "brush" can be controlled with :kbd:`Wheel` or
-   (:kbd:`Numpad+`, :kbd:`Numpad-`) keys (while still holding :kbd:`RMB`).
+   (:kbd:`NumpadPlus`, :kbd:`NumpadMinus`) keys (while still holding :kbd:`RMB`).
 
 
 Sketching Sessions
@@ -58,7 +58,7 @@ multiple strokes are desired. With this option set,
 a sketching session starts when a *Grease Pencil* stroke is made.
 The type of session (Draw, Line, Poly, Erase)
 is determined by the first stroke made which can be done via hotkeys or the Toolshelf.
-Use :kbd:`Esc` or :kbd:`Enter` to exit the sketching session. Note that in a Erase
+Use :kbd:`Esc` or :kbd:`Return` to exit the sketching session. Note that in a Erase
 Sketching Session both :kbd:`LMB` or :kbd:`RMB` can be used once the session has
 started.
 

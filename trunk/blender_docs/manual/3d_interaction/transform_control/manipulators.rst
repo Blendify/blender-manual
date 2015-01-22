@@ -6,7 +6,7 @@ Manipulators
    :class: refbox
 
    | Mode:     *Object* and *Edit* modes
-   | Hotkey:   :kbd:`Ctrl-Space`
+   | Hotkey:   :kbd:`Ctrl-Spacebar`
 
 
 In combination with :doc:`axis locking </3d_interaction/transform_control/axis_locking>`,
@@ -25,7 +25,7 @@ the face's normal. In instances like this, *Transform Manipulators* may be usefu
 Transform manipulators provide a visual representation of the transform options and allow
 movement, rotation and scaling along any axis, mode and orientation of the 3D view. The
 manipulator can be enabled by clicking on the axis icon from the manipulator options portion
-of the window header or via the shortcut key :kbd:`Ctrl-Space`.
+of the window header or via the shortcut key :kbd:`Ctrl-Spacebar`.
 
 There is a separate manipulator for each Transform Command.
 Each manipulator can be used separately or in combination with the others.
@@ -95,7 +95,7 @@ Choosing the Transform Orientation
    :class: refbox
 
    | Mode:     *Object* and *Edit* modes
-   | Hotkey:   :kbd:`Alt-Space`
+   | Hotkey:   :kbd:`Alt-Spacebar`
 
 
 .. figure:: /images/Orientations-Menu-2.5%2B.jpg

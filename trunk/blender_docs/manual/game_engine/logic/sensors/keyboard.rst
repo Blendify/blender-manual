@@ -25,7 +25,7 @@ Key
 
 A FALSE pulse is given when the key is released.
 
-:kbd:`All keys` **button**
+All keys button
    Sends a TRUE pulse when any key is pressed.
    This is useful for custom key maps with a
    :doc:`Python controller </game_engine/logic/controllers#python_controller>`.

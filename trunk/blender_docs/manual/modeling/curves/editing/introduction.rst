@@ -263,7 +263,7 @@ Deleting Elements
 
    | Mode:     *Edit* mode
    | Menu:     :menuselection:`Curve --> Delete...`
-   | Hotkey:   :kbd:`X` or :kbd:`Del`
+   | Hotkey:   :kbd:`X` or :kbd:`Delete`
 
 
 The *Erase* pop-up menu of curves offers you three options:

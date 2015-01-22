@@ -69,7 +69,7 @@ Hello World
 
 Let's get started with the classical "Hello World" program.
 
-Type the following print statement at the interpreter prompt and press :kbd:`Enter` key.
+Type the following print statement at the interpreter prompt and press :kbd:`Return` key.
 
 
 .. figure:: /images/Manual-Part-XX-Manual-Extensions-Python-Tutorial-Hello-World.jpg

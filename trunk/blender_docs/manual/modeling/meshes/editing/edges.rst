@@ -123,7 +123,7 @@ which is displayed in the 3D View footer and in the *Tool Shelf*
 A numerical value between ``-1`` and ``1`` can be entered for precision.
 
 In *Proportional* mode, :kbd:`Wheel`,
-or :kbd:`←` and :kbd:`→` changes the selected edge for calculating a proportion.
+or :kbd:`Left` and :kbd:`Right` changes the selected edge for calculating a proportion.
 Unlike *Percentage* mode, *Proportional*
 
 Holding :kbd:`Ctrl` or :kbd:`Shift` control the precision of the sliding.

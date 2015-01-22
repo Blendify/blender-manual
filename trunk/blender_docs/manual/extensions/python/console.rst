@@ -29,7 +29,7 @@ you can change it to a Console Editor.
 
 From the screen shot above,
 you will notice that apart from the usual hot keys that are used to navigate,
-by pressing :kbd:`Ctrl-Space` you can enable Auto-complete feature.
+by pressing :kbd:`Ctrl-Spacebar` you can enable Auto-complete feature.
 
 Since Blender 2.5 uses Python 3.x,
 the interpreter is loaded and is ready to accept commands at the prompt **>>>**
@@ -62,7 +62,7 @@ bpy'
 Auto Completion at work
 -----------------------
 
-Now, type bpy. and then press :kbd:`Ctrl-Space` and you will see the Console
+Now, type bpy. and then press :kbd:`Ctrl-Spacebar` and you will see the Console
 auto-complete feature in action.
 
 
@@ -227,7 +227,7 @@ Exercise
 
    >>> for object in bpy.data.scenes['Scene'].objects: print(object.name)
 
-:kbd:`Enter` twice
+:kbd:`Return` twice
 Prints the names of all objects belonging to the Blender scene with name "Scene"
 
 .. code-block:: python

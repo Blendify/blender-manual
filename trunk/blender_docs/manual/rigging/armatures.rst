@@ -29,7 +29,7 @@ Open a default scene, then:
 - then, either:
   - in the Main Menu, Go to Add > Armature > Single Bone
   - -or- in the 3D view, add an armature with :kbd:`Shift-A` :menuselection:`popup --> Armature --> Single Bone`
-- press :kbd:`Del Numpad` to see the armature at maximum zoom
+- press :kbd:`NumpadDelete` to see the armature at maximum zoom
 
 
 .. figure:: /images/ManRiggingDefaultArmature2.5.jpg

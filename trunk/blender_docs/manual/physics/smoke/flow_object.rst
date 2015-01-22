@@ -63,7 +63,7 @@ Another way to preview the smoke is starting the animation by :kbd:`Alt-A`
           :width: 200px
           :figwidth: 200px
 
-          Either scrub on the timeline or use ALT+A
+          Either scrub on the timeline or use Alt+A
 
      - .. figure:: /images/Smoke_viewport.jpg
           :width: 200px

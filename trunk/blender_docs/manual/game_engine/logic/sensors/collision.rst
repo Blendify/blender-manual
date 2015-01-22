@@ -18,10 +18,10 @@ See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for
 
 Special Options:
 
-:kbd:`Pulse` **button**
+Pulse button
    Makes it sensible to other collisions even if it is still in touch
    with the object that triggered the last positive pulse.
-:kbd:`M/P` **button**
+M/P button
    Toggles between material and property filtering.
 
 

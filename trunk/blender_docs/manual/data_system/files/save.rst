@@ -27,7 +27,7 @@ Saving
 
 Click the lower edit box to enter a filename. If it doesn't end with "\ ``.blend`` ",
 the extension is automatically appended.
-Then press :kbd:`Enter` or click the *Save File* button to save the file.
+Then press :kbd:`Return` or click the *Save File* button to save the file.
 
 When saving via menu or pressing :kbd:`F2`,
 :kbd:`Ctrl-Shift-S` or :kbd:`Ctrl-Alt-S`,
@@ -79,7 +79,7 @@ Tip for Save Increments
 =======================
 
 The save dialog contains a little feature to help you to create multiple versions of your
-work: pressing :kbd:`Numpad+` or :kbd:`Numpad-` increments or decrements a number at the
+work: pressing :kbd:`NumpadPlus` or :kbd:`NumpadMinus` increments or decrements a number at the
 end of the file name. To simply save over the currently loaded file and skip the save dialog,
 press :kbd:`Ctrl-W` instead of :kbd:`F2` and just confirm at the prompt.
 

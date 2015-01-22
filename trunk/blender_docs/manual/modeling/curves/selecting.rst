@@ -98,7 +98,7 @@ More and Less
 
    | Mode:     *Edit* mode
    | Menu:     :menuselection:`Select --> More/Less`
-   | Hotkey:   :kbd:`Ctrl-Numpad+` / :kbd:`Ctrl-Numpad-`
+   | Hotkey:   :kbd:`Ctrl-NumpadPlus` / :kbd:`Ctrl-NumpadMinus`
 
 
 These two options are complementary and similar to

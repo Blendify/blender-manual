@@ -7,7 +7,7 @@ The Build modifier causes the faces of the mesh object to appear one after the o
 
 By default, faces appear in the order in which they are stored in memory
 (by default, the order of creation). The face/vertex order can be altered in Edit Mode
-by selecting *Sort Faces* from the *Search Menu* (:kbd:`Space`)
+by selecting *Sort Faces* from the *Search Menu* (:kbd:`Spacebar`)
 
 .. note::
 

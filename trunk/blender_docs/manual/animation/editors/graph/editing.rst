@@ -98,7 +98,7 @@ View Tools
 
 View All :kbd:`Home`
 
-View Selected :kbd:`Numpad-.`
+View Selected :kbd:`NumpadPeriod`
 
 Set Preview Range :kbd:`Ctrl-P`
 
@@ -297,7 +297,7 @@ Auto-Set Preview Range :kbd:`Ctrl-Alt-P`
    Automatically set Preview Range based on range of keyframes.
 View All :kbd:`Home`
    Reset viewable area to show full keyframe range.
-View Selected :kbd:`Numpad-.`
+View Selected :kbd:`NumpadPeriod`
    Reset viewable area to show selected keyframe range.
 
 
@@ -327,9 +327,9 @@ Before Current Frame :kbd:`[`
    Select all keys before the current frame.
 After Current Frame :kbd:`]`
    Select all keys after the current frame.
-Select More :kbd:`Ctrl-Numpad+`
+Select More :kbd:`Ctrl-NumpadPlus`
    Grow keyframe selection along Fcurve.
-Select Less :kbd:`Ctrl-Numpad-`
+Select Less :kbd:`Ctrl-NumpadMinus`
    Shrink keyframe selection along Fcurve.
 Select Linked :kbd:`L`
    Selects all keyframes on Fcurve of selected keyframe.
@@ -343,7 +343,7 @@ Marker Menu
 
 *Duplicate Marker to Scene*
 
-*Delete Marker* :kbd:`X` or :kbd:`Del`
+*Delete Marker* :kbd:`X` or :kbd:`Delete`
    Note, make sure no channels are selected.
 
 *Rename Marker* :kbd:`Ctrl-M`
@@ -358,7 +358,7 @@ Marker Menu
 Channel Menu
 ^^^^^^^^^^^^
 
-*Delete Channels* :kbd:`X` or :kbd:`Del`
+*Delete Channels* :kbd:`X` or :kbd:`Delete`
 
 *Group Channels* :kbd:`Ctrl-G`
 
@@ -386,9 +386,9 @@ Channel Menu
    *Make Cyclic (F-Modifiers)*
    *Clear Cyclic (F-Modifiers)*
 
-*Expand Channels* :kbd:`Numpad-+`
+*Expand Channels* :kbd:`NumpadPlus`
 
-*Collapse Channels* :kbd:`Numpad--`
+*Collapse Channels* :kbd:`NumpadMinus`
 
 Move...
    *To Top* :kbd:`Shift-PageUp`
@@ -433,7 +433,7 @@ Jump to Keyframes :kbd:`Ctrl-G`
 
 Duplicate :kbd:`Shift-D`
 
-Delete Keyframes :kbd:`X` or :kbd:`Del`
+Delete Keyframes :kbd:`X` or :kbd:`Delete`
 
 Handle Type :kbd:`V`
    *Free*

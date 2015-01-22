@@ -51,7 +51,7 @@ These are some other useful tools.
 *View All* :kbd:`Home`
    Reset viewable area to show all keyframes.
 
-*View Selected* :kbd:`Numpad-.`
+*View Selected* :kbd:`NumpadPeriod`
    Reset viewable area to show selected keyframes.
 
 
@@ -235,7 +235,7 @@ Channel Editing
 
 *Border Deselect* :kbd:`Shift-Drag-LMB` or :kbd:`B` :kbd:`Shift-Drag-LMB`
 
-*Delete selected* :kbd:`X` or :kbd:`Del`
+*Delete selected* :kbd:`X` or :kbd:`Delete`
 
 *Lock selected* :kbd:`Tab`
 
