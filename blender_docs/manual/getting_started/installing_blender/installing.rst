@@ -44,6 +44,12 @@ through the `release notes <http://wiki.blender.org/index.php/Dev:Ref/Release_No
 
 
 `Build from Source <https://developer.blender.org/diffusion/B/>`__
+
+   .. note::
+
+      This is included for completeness, but it is **not** expected
+      that regular uses should have to compile their own Blender builds.
+
    Blender's source is available for reference and installation, with the following advantages:
 
    - is always up to date,
@@ -53,19 +59,3 @@ through the `release notes <http://wiki.blender.org/index.php/Dev:Ref/Release_No
    Building Blender from source is not trivial as there are many dependencies involved. There are
    `instructions <http://wiki.blender.org/index.php/Dev:Doc/Building_Blender>`__ available.
 
-
-Install Blender
-===============
-
-The procedure for installing a binary, either the last stable release or a daily build, is the same.
-Follow the steps for your operative system:
-
-.. toctree::
-   :maxdepth: 1
-
-   windows.rst
-   mac.rst
-   linux.rst
-
-For building from source,
-follow the `wiki instructions <http://wiki.blender.org/index.php/Dev:Doc/Building_Blender>`__.
