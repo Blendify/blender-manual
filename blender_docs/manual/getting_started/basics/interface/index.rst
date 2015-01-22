@@ -13,6 +13,7 @@ Overview
 
    introduction.rst
    keyboard_and_mouse.rst
+   keyboard_and_mouse.rst
    internationalization.rst
 
 

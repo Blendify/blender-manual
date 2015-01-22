@@ -1,174 +1,158 @@
-..    TODO/Review: {{review}} .
 
+***************
+  Introduction
+***************
 
-***********************************
-Starting Blender for the first time
-***********************************
+Blender's User Interface is based on `OpenGL <http://en.wikipedia.org/wiki/OpenGL>`__
+Thus its look and feel is consistent over all platforms.
+The interface can be customized to match specific tasks using Screen Layouts,
+which can then be named and saved for later reuse.
 
-.. figure:: /images/(Doc_26x_Manual_Vitals_Help)_(Splash_Screen_2.66)_(GBV266FN).jpg
-   :align: right
-   :width: 250
+Blender also makes heavy use of keyboard shortcuts to speed up work and allows customization of the
+:doc:`keymap <keyboard_and_mouse>`.
+ 
+User Interface Principles
+=========================
 
-If you are familiar with other 3D software you will immediately
-notice that Blender is quite different from what you are used to seeing.
-However you will soon see similarities with your previous software,
-like a *3D Viewport*, an *Outliner* and a *Timeline*.
-If this is the first time you have used any 3D software, you may be a little lost.
-Fortunately there's really only one rule when you want to learn 3D with Blender:
-don't be afraid to explore and experiment!
-
-After starting Blender, take a look at the splash screen where you will see the Blender
-version in the top right-hand corner.
-
-The left side shows you some useful links like the
-`release log <http://wiki.blender.org/index.php/Dev:Ref/Release_Notes/changelog_258/>`__
-of the version you are using (what's new in this version), the wiki manual (what you're reading now) and the
-`official Blender website <http://www.blender.org>`__.
-These links are also accessible from the *Help* menu.
-
-The right side lists recent blender files (.blend) you have saved.
-If you're running Blender for the first time, this part will be empty.
-This list is also available in :menuselection:`File --> Open Recent`.
-The interaction menu lets you choose a keymap preset
-(by default, *Blender* or *Maya*) are available.
-
-To start using Blender, you have three options:
-
-- Click on one of the recent files (if you have any)
-- Click anywhere else on the screen (except the dark area of the splash screen) or
-- Press :kbd:`Esc` to start a new project
-
-
-Save your work regularly
-========================
-
-Blender does not warn you of any unsaved data when you exit the program,
-so remember to save often! If you do close Blender without saving your last actions,
-all is not lost.
-Just open Blender again and click on *Recover Last Session* in the Splash Screen.
-You also have this option in the main menu via :menuselection:`File --> Recover Last Session`.
-
-
-.. note:: Temporary ``.blend`` file
-
-   Every time Blender exits, it saves the current data in a temporary ``.blend`` file.
-   When you recover your last session, Blender will load the data from that file.
-
-
-Interface concepts
-==================
-
-.. figure:: /images/Blender-cross-platform.jpg
-   :align: right
-   :width: 250
-
-
-Blender is developed as cross-platform software which means that its primary target is to work
-seamlessly in all major operating systems, including Linux, Mac OS X and Windows.
-:sup:`(1)`
-
-Since the Blender interface is based on OpenGL,
-you will find that it is consistent between the major operating systems.
-
-:sup:`(1)` Other operating systems are supported by third party developers through source compilation.
-
-
-The 3 Rules
-===========
-
-The Blender user interface is based on 3 main principles:
+.. figure:: /images/getting_started_basics_interface_introduction_03.jpg
+   :align: center
+   :width: 100%
 
 
 Non Overlapping
-   The UI permits you to view all relevant options and tools at a glance
-   without pushing or dragging windows around\ :sup:`(2)`.
+   The UI is designed to allow you to view all relevant options and tools at a glance
+   without pushing or dragging Editors around.
+   You can also open multiple Blender windows from one instance of Blender
+   and distribute these Windows over multiple monitors (see image above).
+
 Non Blocking
    Tools and interface options do not block the user from any other parts of Blender.
-   Blender doesn't pop up requesters that require the user to fill in data before things execute.
+   Blender doesn't use pop-up boxes which require the user to fill in data before
+   executing an operation.
+
 Non Modal
    User input should remain as consistent and predictable as possible
    without changing commonly used methods (mouse, keyboard) on the fly.
 
-:sup:`(2)` However, Blender 2.5 permits multiple windows for multi-screen setup.
-It is an exception to the *Non overlapping rule*.
+Screen Elements
+===============
+
+.. figure:: /images/getting_started_basics_interface_introduction_05.png
+   :align: right
+   :width: 350
+
+The Blender window is organized into Editors, 
+which are composed of one `Main Region`_, one `Header`_ and usually two `Sidebars`_ which contain `Panels`_
+of buttons, controls and widgets.
+
+The composition of the various Editors is called a "Screen Layout".
+By default Blender starts up with a layout of 5 editors (see below)
+
+.. figure:: /images/getting_started_basics_interface_introduction_02.png
+   :align: Center
+   :width: 100%
+
+   Blender's default Screen Layout contains 5 Editors
 
 
-Powerful interface
-==================
+Anatomy of an Editor
+====================
 
-.. figure:: /images/Opengl.jpg
+.. figure:: /images/getting_started_basics_interface_introduction_04.png
+   :align: center
+   :width: 100%
+
+   The 3D View
+
+In general, an Editor opens a view for editing content of a specific part of Blender.
+
+Editors are consistently organized into following parts:
+
+
+Sidebars
+--------
+
+(*Shown above in red*)
+
+These are vertical areas on the sides of the Editor which can be shown/hidden
+on demand by using hotkeys (see below).
+
+On the left is the **Toolshelf** (displayed using :kbd:`T`) which contains functions that are performed in that Editor,
+organized by a set of `Tabs`_. In the 3D View, the Toolshelf is split horizontally to contain the **Operator** region,
+which contains optional properties of the last-performed action.
+
+On the right is the **Properties** sidebar
+(displayed using :kbd:`N`, not to be confused with the :doc:`Properties Editor </editors/properties>`) which contains
+both static and context-sensitive options for the editor and the current selection.
+
+
+Headers
+-------
+
+(*Shown above in purple*)
+
+Headers are horizontal areas at the top or bottom of an Editor used
+as containers for menus and commonly used tools.
+
+
+Main Region
+-----------
+
+(*Shown above in green*)
+
+This is the most prominent part of the Editor and where most interaction happens.
+
+While both Headers and sidebars can be hidden, the main region will always be visible.
+
+Each Editor has a specific purpose, so the main region of each Editor are all very different from each other.
+See specific documentation about each editor in the :doc:`Editors </editors/index>` chapter.
+
+
+Panels
+======
+
+.. figure:: /images/getting_started_basics_interface_introduction_06.png
    :align: right
 
-Blender's interface is drawn entirely in `OpenGL <http://en.wikipedia.org/wiki/OpenGL>`__
-which allows you to customize your interface to suit your needs.
-Windows and other interface elements can be panned, zoomed and their content moved around.
-Your screen can be organized exactly to your taste for each specialized task which can then be
-named and saved.
+The smallest organizational unit in the user interface is a panel,
+which can be collapsed to hide its contents by clicking on its header.
+This is where the buttons, menus, checkboxes, etc. are located.
 
-Blender also makes heavy use of keyboard shortcuts to speed up your work.
-The keymaps can be edited to make memorizing them easier.
+.. tip::
 
+   You can simultaneously show one panel and hide all others by holding :kbd:`Ctrl` and
+   clicking on arrow to the left of the Panel title.
 
-Overview
-========
+Panels are usually found in the sidebars of an Editor,
+but also make up most of the :doc:`Properties Editor </editors/properties>`'s main region.
 
-Let's have a look at the default interface. It is composed of Editors, Headers,
-Context buttons, Regions, Panels and Controls.
-
-
-Editor
-   In Blender, we call an **Editor** the parts of the software which have a specific function
-   (3D view, Properties Editor, Video Sequence Editor, Nodes Editor...).
-   Each editor has its own *Header* at the top or bottom.
-Context buttons
-   give access to options.
-   They are like tabs and are often placed on an editor header (like Properties Editor).
-Panels
-   For each editor, options are grouped in *Panels* to logically organize the interface
-   (Shadow panel, Color panel, Dimensions panel...).
-Regions
-   are included in some editors. In that case, panels and controls are grouped there.
-   For workspace optimization, it is possible to temporarily hide regions with the hotkeys
-   :kbd:`T` and :kbd:`N` for the Toolbar and Properties Region respectively.
-Controls
-   Panels contain **Controls**.
-   These can let you modify a function, an option, or a value. In Blender, there are several types of controls:
-
-   Buttons
-      .. figure:: /images/Button.jpg
-         :align: right
-
-      Permit access to a tool (Translate, Rotate, Insert Keyframe).
-      These tools usually have a keyboard shortcut to speed up your work.
-      To display the shortcut, just hover your mouse over a button to see the tooltip.
+In the image on the right there are 3 Panels: **Transform**, **Edit** 
+and **History**. The Edit Panel is expanded and the other 2 Panels are
+collapsed. Note that you can change the order of Panels
+by clicking on the handle in the upper right corner of a Panel's title.
 
 
-   Checkboxes
-      .. figure:: /images/Checkbox.jpg
-         :align: right
+Tabs
+====
 
-      Permit enabling or disabling of an option. This control can only contain a boolean value (True/False, 1/0).
+.. figure:: /images/getting_started_basics_interface_introduction_07.png
+   :align: right
 
-   Sliders
-      .. figure:: /images/Slider.jpg
-         :align: right
+The Toolshelf has been further structured 
+into a set of context dependent vertical Tabs.
 
-      Allows you to enter floating values.
-      These can be limited (e.g. from 0.0 to 100.0) or not (e.g. from -∞ to +∞).
-      Notice that two types of sliders exist in Blender.
+In the image aside you can see the Tabs **Tools**, **Create**, etc.
+The **Tools** Tab is currently selected, showing a set of Panels containing various tools.
 
-    Menus
-       .. figure:: /images/List.jpg
-          :align: right
+Pinning
+-------
 
-       Permits a value to be chosen from a list.
-       The difference between this and a Checkbox is that values are
-       named and there can be more than two values on these menus.
+Often it is desirable to view panels from different
+tabs at the same time. This has been solved
+by making panels pinnable. 
 
-:doc:`Read more about buttons and controls » </getting_started/basics/interface/buttons_and_controls>`
+A pinned Panel remains visible regardless of which Tab has been selected.
+You can pin a Panel by :kbd:`Shift` clicking its header, or by right clicking on the header and choosing *Pin*.
 
-
-.. figure:: /images/Ui-organization.jpg
-   :width: 650px
-   :figwidth: 650px
-
+In the image above you can see the **Mesh Options** Panel which is from the Options Tab,
+even though the Tools Tab is currently selected.
