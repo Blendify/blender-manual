@@ -33,7 +33,7 @@ An Add-on is considered installed when it is located in the ``..
 /scripts/addons`` folder (where .. is the path to your Blender configuration folder).
 Simply moving the Add-on into that folder is enough.
 
-Add-ons can be python scripts **.py** or **.zip** files (containing **.py** scripts).
+Add-ons can be python scripts ``.py`` or ``.zip`` files (containing ``.py`` scripts).
 
 
 File locations
