@@ -150,7 +150,7 @@ Linked Library Duplication
 
 
 :doc:`Linked Libraries </data_system/linked_libraries>` :Linked Libraries are also a form of duplication.
-Any object or datablock in other *.blend* files can be reused in the current file.
+Any object or datablock in other ``.blend`` files can be reused in the current file.
 
 
 Hints

@@ -91,7 +91,7 @@ These files are actually folders that appear as files in Finder. In order to run
 will have specify that path to the Blender executable inside this folder,
 to get all output printed to the terminal.
 You can start a terminal from Applications → Utilities.
-The path to the executable in the .app folder is *./blender.app/Contents/MacOS/blender*.
+The path to the executable in the ``.app`` folder is ``./blender.app/Contents/MacOS/blender``.
 
 If you have Blender installed in the Applications folder, the following command could be used,
 adapted to the particular Blender version:
