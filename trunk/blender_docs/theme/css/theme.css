@@ -85,6 +85,12 @@ pre, code,
     font-size: 1em;
 }
 
+.kbd.docutils.literal {
+    color: #333;
+    font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+    font-size: 1em;
+}
+
 pre {
     white-space: pre;
 }
