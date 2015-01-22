@@ -25,7 +25,7 @@ def rst_files(path):
 
 
 def main():
-    for operation in operations:
+    for operation, operation_post in operations:
         for fn in rst_files(RST_DIR):
             with open(fn, "r", encoding="utf-8") as f:
                 data_src = f.read()
@@ -37,36 +37,8 @@ def main():
             with open(fn, "w", encoding="utf-8") as f:
                 data_src = f.write(data_dst)
 
-        if operation == warn_images:
-            warn_images_output()
-
-
-def warn_long_lines(fn, data_src):
-    """
-    Complain about long lines
-    """
-    lines = data_src.split("\n")
-    limit = 118
-
-    for i, l in enumerate(lines):
-        if len(l) > limit:
-            # rule out tables
-            l_strip = l.strip()
-
-            # ignore tables
-            if l_strip.startswith("+") and l_strip.endswith(("+", "|")):
-                continue
-            # for long links which we can't avoid
-            if l_strip.strip(",.- ").endswith("__"):
-                continue
-            if l_strip.startswith(".. parsed-literal:: "):
-                continue
-            if l_strip.startswith(".. figure:: "):
-                continue
-
-            print("%s:%d: long line %d" % (fn, i + 1, len(l)))
-
-    return None
+        if operation_post is not None:
+            operation_post()
 
 
 def warn_broken_urls(fn, data_src):
@@ -109,7 +81,7 @@ def warn_images(fn, data_src):
     return None
 
 
-def warn_images_output():
+def warn_images_post():
     """
     Outputs the results of unused/missing images
     """
@@ -135,8 +107,8 @@ def warn_images_output():
 # define the operations to call
 operations = []
 operations_checks = {
-    "--url": warn_broken_urls,
-    "--image": warn_images,
+    "--url": (warn_broken_urls, None),
+    "--image": (warn_images, warn_images_post),
     }
 
 
