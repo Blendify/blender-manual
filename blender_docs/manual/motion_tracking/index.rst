@@ -131,9 +131,9 @@ The next logical step to open a new video clip to start working with.
 There are several ways to to this:
 
 
-- Use :kbd:`Open` button from movie editor header
+- Use *Open* button from movie editor header
 - Use :menuselection:`Clip --> Open` menu
-- Use :kbd:`Alt-O>` shortcut
+- Use :kbd:`Alt-O` shortcut
 
 Both movie files and image sequences can be used in the clip editor.
 If you're using an image sequence there's one limitation on naming of files:
@@ -187,18 +187,18 @@ Tools available in tracking mode
 Marker panel
 """"""""""""
 
-- The :strong:`Add Marker and Move` operator places a new marker at the position of the mouse
+- The **Add Marker and Move** operator places a new marker at the position of the mouse
   (which is under the button in this case, not ideal but it's just how things work)
   and then it can be moved to the needed location. When it's moved to the desired position,
   FIXME(Template Unsupported: Shortcut/Mouse; {{Shortcut/Mouse|lmb}}) can be used to finish placing the new marker.
-  Also, :kbd:`Enter` and :kbd:`Space` can be used to finish placing the marker.
+  Also, :kbd:`Return` and :kbd:`Spacebar` can be used to finish placing the marker.
   But it's faster to use :kbd:`Ctrl-LMB` to place markers directly on the footage.
   This shortcut will place the marker in the place you've clicked.
   One more feature here: until you've released the mouse button,
   you can adjust the marker position by moving the mouse and using
   the track preview widget to control how accurately the marker is placed.
 
-- The :strong:`Detect Features` operator detects all possible features on the current
+- The **Detect Features** operator detects all possible features on the current
   frame and places markers at these features. This operator doesn't take into account other frames,
   so it can place markers on features which belong to moving objects, and if camera is turning away from this shot,
   no markers would be placed on frames after the camera moved away.
@@ -223,7 +223,7 @@ Marker panel
          defines the minimal distance between placed markers. It's needed to prevent markers from being placed too
          close to each other (such placement can confuse the camera solver).
 
-- :strong:`Delete Track` is a quite self-explaining operator which deletes all selected tracks.
+- **Delete Track** is a quite self-explaining operator which deletes all selected tracks.
 
 
 Track panel
@@ -273,7 +273,7 @@ position of tracks. Basically, reprojection error below 0.3 means accurate repro
 Values above 3 means some tracks should be tracked more accurately,
 or that values for focal length or distortion coefficients were set incorrectly.
 
-The :strong:`Refine` option specifies which parameters should be refined during solve.
+The **Refine** option specifies which parameters should be refined during solve.
 Such refining is useful when you aren't sure about some camera intrinsics,
 and solver should try to find the best parameter for those intrinsics. But you still have to
 know approximate initial values - it'll fail to find correct values if they were set
@@ -297,7 +297,7 @@ several actions can be performed for bad tracks:
 Clip Panel
 """"""""""
 
-This panel currently contains the single operator :kbd:`Set as background` which sets the
+This panel currently contains the single operator *Set as background* which sets the
 clip currently being edited as the camera background for all visible 3D viewports.
 If there's no visible 3D viewports or the clip editor is open in full screen,
 nothing will happen.
@@ -335,8 +335,8 @@ all added objects are used for object tracking and solving only.
 These objects can be referenced from Follow Track and Object Solver constraints.
 Follow Track uses the camera object by default.
 
-New objects can be added using :kbd:`+` and the active object can be deleted with the
-:kbd:`-` button.
+New objects can be added using :kbd:`Plus` and the active object can be deleted with the
+:kbd:`Minus` button.
 Text entry at the bottom of this panel is used to rename the active object.
 
 If some tracks were added and tracked to the wrong object, they can be copied to another
@@ -429,7 +429,7 @@ Pixel Aspect Ratio
 Optical Center
    is the optical center of the lens used in the camera. In most cases it's equal to the image center,
    but it can be different in some special cases. Check camera/lens specifications in such cases.
-   To set the optical center to the center of image, there's a :kbd:`Enter` button below the sliders.
+   To set the optical center to the center of image, there's a :kbd:`Return` button below the sliders.
 Undistortion K1, K2 and K3
    are coefficients used to compensate for lens distortion when the movie was shot. Currently these values can be
    tweaked by hand only (there are no calibration tools yet)
@@ -445,7 +445,7 @@ This panel contains all settings which control things displayed in the clip edit
 
 
 R, G, B
-   and :strong:`B/W` buttons at the top of this panel are used to control color channels used
+   and **B/W** buttons at the top of this panel are used to control color channels used
    for frame preview and to
    make the whole frame gray scale. It's needed because the tracking algorithm works with gray-scale images and it's
    not always obvious to see which channels disabled will increase contrast of feature points and reduce noise.
@@ -461,7 +461,7 @@ Pyramid
    makes the highest pyramid level be visible. Pyramids are defined later in the Tracking Settings panel section, but
    basically it helps to determine how much a track is allowed to move from one frame to another.
 Track Path
-   and :strong:`Length` control displaying of the paths of tracks. The ways tracks are moving can be visible looking
+   and **Length** control displaying of the paths of tracks. The ways tracks are moving can be visible looking
    at only one frame. It helps to determine if a track jumps from its position or not.
 Disabled Tracks
    makes it possible to hide all tracks which are disabled on the current frame. This helps to make view more clear,
@@ -533,15 +533,15 @@ can be sent to the tracker. Most commonly used combinations:
   This configuration prevents sliding from the original position
   (because the position which best corresponds to the original pattern is returned by the tracker),
   but it can lead to small jumps and can lead to failures when the feature point is deformed due to camera motion
-  (perspective transformation, for example). Such a configuration is used if :strong:`Adjust Frames` is set to 0.
+  (perspective transformation, for example). Such a configuration is used if **Adjust Frames** is set to 0.
 - An image created from the current frame is sent as first image to the tracker.
   In this configuration the pattern is tracking between two neighboring frames.
   It allows dealing with cases of large transformations of the feature point
   but can lead to sliding from the original position, so it should be controlled.
   Such a configuration is used if **Adjust Frames** is set to 1.
 
-If :strong:`Adjust Frames` is greater than 1, the behavior of tracker is:
-keyframes for tracks are creating every :strong:`Adjust Frames` frames,
+If **Adjust Frames** is greater than 1, the behavior of tracker is:
+keyframes for tracks are creating every **Adjust Frames** frames,
 and tracking between keyframed image and next image is used.
 
 Speed
@@ -569,7 +569,7 @@ It uses pyramid tracking which works in the following way. The algorithm tracks 
 larger than the defined pattern first to find the general direction of motion. Then it tracks
 a slightly smaller image to refine the position from the first step and make the final
 position more accurate. This iterates several times. The number of steps of such tracking is
-equal to the :strong:`Pyramid Level` option and we tell that on first step tracking
+equal to the **Pyramid Level** option and we tell that on first step tracking
 happens for highest pyramid level. So Pyramid Level=1 is equal to pattern itself,
 and each next level doubles tracking image by 2.
 
@@ -627,25 +627,25 @@ The first four options are used to define which resolutions of proxy images shou
 Currently it's possible to build images 25%, 50%, 75% and 100% of the original image size.
 Proxy size of 100% can be used for movies which contain broken frames which can't be decoded.
 
-:strong:`Build Undistorted` means that the proxy builder also creates images from undistorted original images for the
+**Build Undistorted** means that the proxy builder also creates images from undistorted original images for the
 sizes set above. This helps provide faster playback of undistorted footage.
 
 Generated proxy images are encoding using JPEG,
-and the quality of the JPEG codec is controlled with the :strong:`Quality` slider.
+and the quality of the JPEG codec is controlled with the **Quality** slider.
 
 By default, all generated proxy images are storing to the <path of original
 footage>/BL_proxy/<clip name> folder,
-but this location can be set by hand using the :strong:`Proxy Custom Directory` option.
+but this location can be set by hand using the **Proxy Custom Directory** option.
 
-:kbd:`Rebuild Proxy` will regenerate proxy images for all sizes set above and
+*Rebuild Proxy* will regenerate proxy images for all sizes set above and
 regenerate all timecodes which can be used later.
 
-:strong:`Use Timecode Index` can (and better be used) for movie files.
+**Use Timecode Index** can (and better be used) for movie files.
 Basically, timecode makes frame search faster and more accurate.
 Depending on your camera and codec, different timecodes can give better result.
 
-:strong:`Proxy Render Size` defines which proxy image resolution is used for display.
-If :strong:`Render Undistorted` is set, then images created from undistorted frames are used.
+**Proxy Render Size** defines which proxy image resolution is used for display.
+If **Render Undistorted** is set, then images created from undistorted frames are used.
 If there's no generated proxies, render size is set to "No proxy, full render",
 and render undistorted is enabled, undistortion will happen automatically on frame draw.
 
@@ -670,20 +670,19 @@ It works in the following way: it gets tracks from the list of tracks used for l
 stabilization and finds the median point of all these tracks on the first frame.
 On each frame, the algorithm makes this point have the same position in screen coordinates by
 moving the whole frame. In some cases it's not necessary to fully compensate camera jumps and
-:strong:`Location Influence` can be used in such cases.
+**Location Influence** can be used in such cases.
 
 The camera can also have rotated a bit, adding some tilt to the footage.
-There's the :strong:`Stabilize Rotation` option to compensate for this tilt.
+There's the **Stabilize Rotation** option to compensate for this tilt.
 A single extra track needs to be set for this, and it works in the following way.
 On first frame of the movie, this track is connected with the median point of the tracks from
 list above and angle between horizon and this segment is ket constant through the whole
-footage. The amount of rotation applied to the footage can be controlled by :strong:`Rotation
-Influence`.
+footage. The amount of rotation applied to the footage can be controlled by **Rotation Influence**.
 
 If the camera jumps a lot, there'll be noticeable black areas near image boundaries.
-To get rid of these black holes, there's the :strong:`Autoscale` option,
+To get rid of these black holes, there's the **Autoscale** option,
 which finds smallest scale factor which, when applied to the footage,
 would eliminate all the black holes near the image boundaries.
-There's an option to control the maximal scale factor, (:strong:`Maximal Scale`),
-and the amount of scale applied to the footage (:strong:`Scale Influence`).
+There's an option to control the maximal scale factor, (**Maximal Scale**),
+and the amount of scale applied to the footage (**Scale Influence**).
 
