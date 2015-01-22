@@ -11,3 +11,4 @@
    textures/index.rst
    lighting/index.rst
    world/index.rst
+   layers.rst

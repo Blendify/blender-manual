@@ -1,32 +1,15 @@
 
-*************
-Render Passes
-*************
+************************
+Render Layers and Passes
+************************
 
 Layers
 ======
 
-Render layers are used to render different objects in the scene into different images.
-This way they can, for example, be color corrected or otherwise manipulated separately and
-then recomposed in compositing later.
+This section covers only the Render Layer settings appropriate for the Blender Render engine.
+For the engine-independent settings, see :doc:`this section </render/post_process/layers>`.
 
-Which objects contribute to which render layers are defined by these layer settings:
-
-
-Scene Layers
-   Only objects on these layers will contribute to the image.
-Camera Layers
-   Objects on these layers are directly visible to the camera.
-   When an object is in the scene layers but not camera layers,
-   it will still cast shadows or be visible in reflections, so it's still indirectly visible.
-   This is equivalent to disabling the Camera in the Ray Visibility panel for the object.
-   The way this works may be somewhat confusing at first,
-   but it's designed such that render layers can be recomposed
-   to give the full render, without any missing shadows or reflections.
-Mask Layers
-   Objects on these will mask out other objects appearing behind them.
-   This is equivalent to assigning a Holdout shader for camera rays to the objects on such layers.
-Exclude Layers
+Exclude
    Scene layers are shared between all render layers;
    however sometimes it's useful to leave out some object influence for a particular render layer.
    That's what this option allows you to do.
@@ -85,24 +68,26 @@ All these lighting passes can be combined to produce the final image as follows:
 Data Passes
 ===========
 
+Combined
+   The final combination of render passes with everything included.
 Z
-   Z depth.
+   The 
 Mist
    Mist value between 0.0 and 1.0, using settings from the Mist Pass panel in world properties.
 Normal
    Surface normal used for shading.
+Vector
+   Motion vectors for the vector blur node. The four components consist of 2D vectors giving the motion towards the
+   next and previous frame position in pixel space.
 UV
    Default render UV coordinates.
 Object Index
    Pass index of object.
 Material Index
    Pass index of material.
-Vector
-   Motion vectors for the vector blur node. The four components consist of 2D vectors giving the motion towards the
-   next and previous frame position in pixel space.
 
-The Z, Object Index and Material Index passes are not antialiased.
-This is done because such values can't really be blended correctly.
+The Z, Object Index and Material Index passes are not anti-aliased.
+This is done intentionally because such values can't really be blended correctly.
 
 Alpha Threshold
    Z, Index, normal,
