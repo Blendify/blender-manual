@@ -74,9 +74,19 @@ def warn_images(fn, data_src):
     lines = data_src.split("\n")
 
     for i, l in enumerate(lines):
-        match = re.search(r"\.\. +figure\:\: +/images/(.*\.(png|gif|jpg))",l)
+        # .. |SomeID| image:: /images/some_image.png
+        # .. image:: /images/some_image.png
+        # .. figure:: /images/some_image.png
+        match = re.search(
+                r"\.\.\s+"
+                 # |SomeID|  (optional)
+                 "(|\|[a-zA-Z0-9\-_]+\|\s+)"
+                 # figure/image::
+                 "(figure|image)\:\:"
+                 # image path
+                 "\s+/images/(.*\.(png|gif|jpg))",l)
         if match:
-            img_refs.append(match.string[match.start(1) : match.end(1)])
+            img_refs.append(match.string[match.start(3) : match.end(3)])
 
     return None
 # useful for image warnings, it holds the name of all referenced images
