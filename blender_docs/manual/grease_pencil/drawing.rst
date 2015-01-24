@@ -63,11 +63,32 @@ Sketching Session both :kbd:`LMB` or :kbd:`RMB` can be used once the session has
 started.
 
 
-----
-
-
 Shared Grease Pencil Settings
 =============================
+
+
+Appearance Settings
+-------------------
+
+Set the color, line width and other aspects of the grease pencil's appearance in the
+*Grease Pencil Panel* of the *Properties* shelf (:kbd:`N`) shown here.
+
+There are separate settings for each layer with those of the active layer shown in the panel.
+All the strokes on a layer (not just those made after a particular change)
+are affected by that layer's grease pencil properties.
+
+Stroke
+   Sets the line color and opacity.
+Fill
+   Sets the color of the interior space enclosed by the strokes.
+   Increase the opacity from zero to make the fill visible.
+Thickness
+   Width of the line strokes.
+X-Ray
+   Makes the lines visible when they pass behind other objects in the scene.
+Volumetric Strokes
+   Draw strokes as a series of spherical points, resulting in a volumetric effect.
+
 
 Drawing Settings
 ----------------
@@ -77,7 +98,7 @@ Drawing Settings
    Grease Pencil Drawing Settings.
 
 
-In the *Grease Pencil Panel* of the *Properties* shelf (:kbd:`N`)
+In the *Grease Pencil Panel* of the *Tool* shelf (:kbd:`T`)
 there are several choices for *Drawing Settings*.
 
 View
