@@ -11,3 +11,4 @@
    rotate.rst
    scale.rst
    gestures.rst
+   transform_control/index.rst

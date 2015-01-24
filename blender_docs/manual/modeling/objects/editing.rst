@@ -9,7 +9,7 @@ Introduction
 In this section will be described tools for editing objects in *Object Mode*.
 
 Information about some additional possibilities are described in
-:doc:`Manipulation in 3D </3d_interaction/transform_control>`.
+:doc:`Manipulation in 3D </getting_started/basics/transformations/transform_control/index>`.
 
 
 Object Mode

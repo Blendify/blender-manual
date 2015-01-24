@@ -123,7 +123,7 @@ you can grab/move (:kbd:`G`), rotate (:kbd:`R`) or scale (:kbd:`S`) them, like m
 as described in the :doc:`Manipulation in 3D Space </getting_started/basics/transformations/introduction>` section.
 
 You also have in *Edit* mode an extra option when using these basic manipulations: the
-:doc:`proportional editing </3d_interaction/transform_control/proportional_edit>`.
+:doc:`proportional editing </getting_started/basics/transformations/transform_control/proportional_edit>`.
 
 
 Advanced Transform Tools

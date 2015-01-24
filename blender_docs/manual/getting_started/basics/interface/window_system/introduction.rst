@@ -163,7 +163,7 @@ Window/Editor Type Selector
 3D Transform manipulator options
    .. figure:: /images/Icon-library_3D-Window_3D-transform-manipulator-options.jpg
 
-   Access to the :doc:`manipulator </3d_interaction/transform_control/manipulators>`
+   Access to the :doc:`manipulator </getting_started/basics/transformations/transform_control/manipulators>`
    widget is also possible by clicking the coordinate system icon on the toolbar.
    The translation/rotation/scale manipulators can be displayed by clicking each
    of the three icons to the right of the coordinate system icon.
