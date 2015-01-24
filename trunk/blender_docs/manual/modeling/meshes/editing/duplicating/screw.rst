@@ -13,10 +13,10 @@ Screw Tool
 Introduction
 ============
 
-The *Screw* Tool is one of the most used tools for generating continuous circular
-profiles in Blender since its ancient versions because the generated profiles are very
-predictable, light to deal with and well connected.
-This tool helps artists generate clean circular-profile meshes.
+The *Screw* Tool is an effective way to revolve a profile,
+giving similar results to what you would expect from a lathe,
+with the option to offset the operation to give a screw effect.
+
 
 You can see some examples of Meshes generated with the *Screw* tool in Fig.
 1 - Wood Screw tip done with the screw tool and Fig. 2 - Spring done with the screw tool.
@@ -177,11 +177,10 @@ Center
    it will copy the ``X``, ``Y`` and ``Z`` location (Global Coordinates)
    of the cursor presently in the 3D View to start the operation.
    You can specify the cursor coordinates using the Transform Panel in 3D View,
-   using shortcut :kbd:`T` to toggle the Panel, and typing in the 3D Cursor Location coordinates, but,
-   unlike in previous Blender Versions (prior to 2.5x), now you can adjust those coordinates interactively and
+   using shortcut :kbd:`T` to toggle the Panel, and typing in the 3D Cursor Location coordinates.
+   You can adjust these coordinates interactively and
    specify another place for the spin center during the interactive session.
    (See Fig. 7 - Screw Interactive Panel - Mesh Tools Panel (Edit Mode))
-
 
 Steps
    This numeric field specifies how many extrusion(s) will be done for each ``360`` turn.
@@ -455,43 +454,4 @@ As you can see in Fig. 19, Blender follows the basic angular vector of the profi
 profile basic angle determines whether the extruded subsequent configured turns will open or
 close the resulting mesh following this angle. The vector of the extrusion angle is determined
 by the starting and ending Vertex of the profile.
-
-
-Screw Tool - Evolution since 2.5x
-=================================
-
-During the recode of Blender, from 2.4x to 2.5x series,
-the screw tool received lots of improvements. In Blender 2.4x series,
-the screw tool uses only one cursor position for its axis reference at a time, meaning you
-cannot tweak your object center changing the reference position without restarting the
-operation from its beginning. In 2.4x series,
-you also cannot change the starting angular vector,
-the only one available was the vector that gives the clockwise and counterclockwise direction,
-and the angular vector of the tool during the screw operation couldn't be adjusted.
-
-In 2.5x and above,
-you can not only change the reference position after it's chosen with the mouse cursor,
-using the interactive panel in the Mesh Tools in the Edit Mode (Shortcut :kbd:`T`)
-to change the center during the interactive session, but you can also change the angular
-vector of the generated object by adjusts during the interactive session.
-
-Another difference is that the clockwise and counterclockwise rotation of the
-*Screw* Tool now is determined by the axis vector tweak, meaning that you can change
-the direction of the screw rotation adjusting the corresponding **X**,
-**Y** and **Z** vector axis in positive and negative directions, it will depend on the
-orientation you have placed your object for creation and its center coordinates for spin and
-extrusion, we will explain the most common case in the examples of this page.
-
-Blender will also determine automatically, depending on your view,
-the proper direction for the extrusion axis, meaning that you can change, at any time,
-the screw extrusion direction changing the global view alignment.
-
-The rotation axis, still passing through the 3D cursor, is now free,
-but it's still preferable to align it with the y-axis of the view (i.e.
-up-down on the screen). So, the best way to start using this tool is to align your view with
-the front orthographic view using :kbd:`Numpad1` to create the Global height of the
-extrusions aligned with the Local Axis of your object. Blender will determine automatically
-your extrusion axis when you align your Vector with one of the Blender Global Axis,
-giving the proper axis vector a value of **1**.
-
 

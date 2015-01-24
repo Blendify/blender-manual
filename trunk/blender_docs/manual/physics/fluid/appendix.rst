@@ -5,17 +5,9 @@
 Fluid Appendix
 **************
 
+
 Limitations & Workarounds
 =========================
-
-- One domain per blender file (as of Version 2.42), but you can have multiple fluid objects.
-
-   *Workaround:* For previews, move the domain around to encompass each fluid flow part,
-   and then for final, scale up the size of the domain to include all fluid objects
-   (but computation will take longer).
-   This is actually a benefit, because it lets you control how much compute time is used,
-   by varying the size and location of the domain.
-
 
 - If the setup seems to go wrong, make sure all the normals are correct (hence,
   enter *Edit mode*, select all, and recalculate normals once in a while).

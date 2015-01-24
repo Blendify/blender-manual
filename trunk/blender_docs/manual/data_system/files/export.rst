@@ -11,10 +11,8 @@ you might start off in Blender,
 but you will want to switch to another software and continue from there.
 
 That is possible as Blender allows *Exporting* to other formats.
-Blender 2.65 currently supports exporting to 8 formats, including COLLADA.
 
-These are important so that you can share you files with others who are not Blender users,
-such as those using Autodesk® 3DS Max®.
+These are important so that you can share you files with users of other 3D applications.
 
 
 Collada (.dae)

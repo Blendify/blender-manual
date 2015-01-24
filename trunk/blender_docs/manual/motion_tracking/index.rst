@@ -15,9 +15,6 @@ as validated by "Tears of Steel."
 Getting started
 ===============
 
-Motion tracking is available in current SVN Trunk and is included with Blender 2.61 release.
-It's enabled by default for all platforms and can be used "out-of-box".
-
 Here's brief descriptions of motion tracking tools currently available in Blender
 
 
