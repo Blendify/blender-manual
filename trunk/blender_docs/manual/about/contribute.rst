@@ -50,9 +50,9 @@ Here are community pages on how to setup some popular editors with spell checkin
 
 You should check the :doc:`Writing Style Guide </about/writing_style_guide>`
 for conventions and :doc:`Markup Style Guide </about/markup_style_guide>`
-to learn how to write in the *rst* markup language.
+to learn how to write in the reStructuredText markup language.
 
-To **view** your changes, build the manual :doc:`as instructed </about/install/index>` for your OS.
+To **view** your changes, build the manual :doc:`as instructed </about/install/index>`.
 Keep in mind that you can also build only the chapter you just edited to view it quickly.
 Open the generated ``.html`` files inside the ``build/html`` folder using your web browser,
 or refresh the page if you have it open already.
@@ -89,7 +89,7 @@ In order to submit a patch, follow this process:
    assign them as the *Reviewer* and they'll be notified of your patch.
    If you can't find out who that is (or there is no one),
    instead mail the `bf-docboard <http://lists.blender.org/mailman/listinfo/bf-docboard>`__ mailing list,
-   or tell someone in #blenderwiki on :ref:`IRC <irc-channels>`.
+   or tell someone in ``#blenderwiki`` on :ref:`IRC <irc-channels>`.
 #. They will review your patch and let you know about any changes you could make,
    or commit the patch if it is accepted.
 
@@ -100,10 +100,12 @@ In order to submit a patch, follow this process:
 Once you have had a few patches accepted, we cut out the middle man and give you direct access to edit the manual!
 
 
-Commit
-======
+Commit Directly
+===============
 
-Instead of creating a patch file, all you need to do now is run:
+Instead of creating a patch file, committing will submit the change directly to our central repository.
+
+All you need to do now is run:
 
 .. code-block:: sh
 
@@ -113,4 +115,4 @@ If you leave out ``-m "message"``, you'll be prompted to type the message in a t
 
 Do not forget to always run ``svn update`` before committing.
 
-Then you'll be asked for your username (from developer.blender.org) and password before the change is committed.
+Then you'll be asked for your username (from ``developer.blender.org``) and password before the change is committed.
