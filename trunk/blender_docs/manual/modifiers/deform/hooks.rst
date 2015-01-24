@@ -12,7 +12,7 @@ The Hook modifier is used to deform a *Mesh* or a *Lattice* using another object
 (usually an *Empty* but it can be any object).
 
 As the hook moves, it pulls vertices from the mesh with it.
-You can think of it as animated :doc:`proportional editing </3d_interaction/transform_control/proportional_edit>`.
+You can think of it as animated :doc:`proportional editing </getting_started/basics/transformations/transform_control/proportional_edit>`.
 While hooks do not give you the fine control over vertices movement that shape keys do, they are much simpler to use.
 
 
@@ -30,7 +30,7 @@ Object
 Falloff
    If not zero, the *falloff* is the distance where the influence of a hook goes to zero.
    It uses a smooth interpolation, comparable to the
-   :doc:`proportional editing tool </3d_interaction/transform_control/proportional_edit>`.
+   :doc:`proportional editing tool </getting_started/basics/transformations/transform_control/proportional_edit>`.
 
 Force
    Since multiple hooks can work on the same vertices, you can weight the influence of a hook this way.

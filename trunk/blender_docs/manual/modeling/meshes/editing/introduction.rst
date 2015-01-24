@@ -10,9 +10,9 @@ as well as individual shortcut keys.
 
 Note that all the "transform precision/snap" keys (:kbd:`Ctrl` and/or :kbd:`Shift`)
 work also for all these advanced operations... However, most of them do not have
-:doc:`axis locking </3d_interaction/transform_control/axis_locking>` possibilities,
-and some of them do not take into account :doc:`pivot point </3d_interaction/transform_control/pivot_point>`
-and/or :doc:`transform orientation </3d_interaction/transform_control/transform_orientations>` either.
+:doc:`axis locking </getting_started/basics/transformations/transform_control/axis_locking>` possibilities,
+and some of them do not take into account :doc:`pivot point </getting_started/basics/transformations/transform_control/pivot_point>`
+and/or :doc:`transform orientation </getting_started/basics/transformations/transform_control/transform_orientations>` either.
 
 These transform tools are available in the *Transform* section of the
 *Mesh* menu in the menu bar.

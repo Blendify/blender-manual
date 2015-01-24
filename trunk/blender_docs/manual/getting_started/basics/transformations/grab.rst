@@ -99,7 +99,7 @@ Blender offers options to limit the amount of the transformation in small or pre
    holding down :kbd:`Shift` reduces how quickly the object moves and allows extra precision.
 
 :kbd:`Ctrl`
-   This activates :doc:`snapping </3d_interaction/transform_control/snap>` based on the
+   This activates :doc:`snapping </getting_started/basics/transformations/transform_control/snap>` based on the
    snapping constraint which has been already set. You may not be able to enable every snapping option in all cases.
 
 :kbd:`Ctrl` + :kbd:`Shift`
@@ -124,7 +124,7 @@ Orientations
 
 There are 5 standard orientation references for all transformations.
 You can find out more about transform orientations :doc:`here
-</3d_interaction/transform_control/transform_orientations>`.
+</getting_started/basics/transformations/transform_control/transform_orientations>`.
 
 .. figure:: /images/3d_interaction_trans_grab_orientation.png
 
