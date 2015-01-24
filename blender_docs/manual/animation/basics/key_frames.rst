@@ -18,19 +18,23 @@ Adding Key Frames
 
 There are several methods of adding new keys. Namely:
 
-- Hovering over a property and pressing :kbd:`I`
 - In the 3D View, pressing :kbd:`I` will bring up a menu to choose what to add a key frame to.
-
-.. TODO more methods
+- Hovering over a property and pressing :kbd:`I`.
+- :kbd:`RMB` a value and choose *Insert Keyframe* from the menu.
 
 
 Removing Key Frames
 ===================
 
-.. TODO
+There are several methods of removing key frames
+
+- In the 3D View press :kbd:`Alt-I` to remove keys on the current frame for selected objects.
+- When the mouse is over a value press :kbd:`Alt-I`.
+- :kbd:`RMB` a value and choose *Delete Keyframe* from the menu.
 
 
 Editing Key Frames
 ==================
 
-.. TODO short section summarizing the various ways to edit key frames
+For editing key frames go to the :doc:`Graph Editor </animation/editors/graph>`
+or to the :doc:`Dopesheet </animation/editors/dopesheet>`
