@@ -24,7 +24,7 @@ all: FORCE
 	# './' (input), './html/' (output)
 	QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
 	$(SPHINXBUILD) -b html $(SPHINXOPTS) ./manual $(BUILDDIR)/html
-	@echo "firefox" $(shell pwd)"$(BUILDDIR)/html/"
+	@echo "firefox" $(shell pwd)"/$(BUILDDIR)/html/"
 
 # NOTE: PDF is giving warnings, non-trivial to fix, disable for now.
 #~ pdf: FORCE
