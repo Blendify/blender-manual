@@ -58,21 +58,13 @@ Blender will automatically remove the previous parent relationship.
 Blender supports many different types of parenting, listed below:
 
 - Object
-- Object (Keep Transform)
-- Armature Deform > With Empty Groups
-- Armature Deform > With Automatic Weights
-- Armature Deform > With Envelope Weights
+- Armature Deform
 - Bone
-- Bone Relative
 - Curve Deform
-- Follow Path
 - Path Constraint
 - Lattice Deform
 - Vertex
 - Vertex (Triangle)
-- Clear Parent
-- Clear And Keep Transformation
-- Clear Parent Inverse
 
 
 Object Parent
@@ -264,200 +256,6 @@ Once in Pose Mode transforming one of the Bones of the Armature that has been as
 vertices of an object will result in those vertices also being transformed.
 
 
-Armature Deform Parenting - Example Of Use
-------------------------------------------
-
-What follows is a simple example of how to setup Armature Deform Parenting so that you end up
-with an Armature whose Bones can Influence the mesh of a Child Object when the Armature is in
-Pose Mode.
-
-#. Open Blender with it's Default Scene.
-#. Switch the 3D Viewport to Front View by pressing :kbd:`Numpad1`.
-#. Select the Default Cube and delete it by pressing the :kbd:`X`.
-#. Add a Plane Object by pressing the :kbd:`Spacebar` and entering "add plane" into search text field.
-   Then press the :kbd:`Return` or :kbd:`LMB` the listed Add Plane entry.
-#. While in Object Mode and with the Plane Object still selected we need to rotate it on x axis by 90 degrees,
-   so that its face points towards the front view.
-   To do this by pressing the :kbd:`R` then :kbd:`X` then enter the value 90.
-#. Scale the Plane along the Z axis by a factor of 3.
-   Do this by pressing the :kbd:`S` then the :kbd:`Z` then enter the value 3.
-#. With the Plane still selected and still in Object Mode move it upward 3 Blender Units along the Z axis.
-   Do this by pressing :kbd:`G` then :kbd:`Z` then enter the value 3.
-#. Move the Plane along the X axis to the right by 2 Blender Units.
-   Do this by pressing the :kbd:`G` then :kbd:`X` then enter the value 2.
-#. If you are following along your scene should look similar to figure 9.
-
-   .. figure:: /images/SU-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.png
-      :width: 800px
-      :figwidth: 800px
-
-      Figure 9 - 3D Viewport with Plane Positioned and Scaled in Front View.
-
-#. With the Plane still selected toggle into Edit Mode by pressing :kbd:`Tab` until Edit Mode is displayed in the
-   [3D View Editor Header > Mode Select Button].
-#. Now make sure all the vertices of the Plane are selected by pressing the :kbd:`A` repeatedly
-   until all the vertices are selected (highlighted in orange).
-#. With all the vertices selected we now need to tell Blender to split the face of the Plane
-   up into 6 equal sized faces. We can do this by using Blender's Loop Cut tool.
-#. Active the Loop Cut tool by pressing :kbd:`Ctrl-R` while the mouse is over the Plane object in the 3D Viewport.
-#. Position the mouse over the middle section of the Plane.
-   Depending on where you position the mouse over the Plane,
-   there will be a thin pink line drawn either vertically or horizontally along the Plane.
-#. Position the mouse such that a single horizontal pink line is displayed at the center of the Plane.
-   See figure 10.
-
-   .. figure:: /images/SV-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.png
-      :width: 800px
-      :figwidth: 800px
-
-      Figure 10 - 3D Viewport with a Plane with Loop Cut active for a horizontal cut displaying
-      single pink cut line in Front View.
-
-#. With the pink line still displayed enter the value 5 then press the :kbd:`Return` twice, without moving the mouse.
-#. If done correctly you should now have a Plane that is sectioned into 6 horizontal faces. See figure 11.
-
-   .. figure:: /images/SW-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.png
-      :width: 800px
-      :figwidth: 800px
-
-      Figure 11 - 3D Viewport with a Plane sectioned into 6 faces using Loop Cut in Front View.
-
-#. With the Plane still selected Toggle into Object Mode by pressing the
-   :kbd:`Tab` repeatedly until Object Mode is displayed in the [3D View Editor Header].
-#. In Object Mode add an Armature Object.
-   Do this by positioning the mouse over the 3D Viewport then activating the Add Menu :kbd:`Shift-A`
-   selecting the Armature entry and selecting the Single Bone entry.
-#. Move the Armature to the left along the X axis by 2 Blender Units.
-   Do this by selecting the Armature, pressing the :kbd:`G` then :kbd:`X` then enter the value -2.
-#. If you were following along you should have a scene that looks similar to figure 12.
-
-   .. figure:: /images/SX-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.png
-      :width: 800px
-      :figwidth: 800px
-
-      Figure 12 - 3D Viewport with the Armature Object and Plane positioned in Front View.
-
-#. With the Armature still selected switch into Edit Mode by pressing the :kbd:`Tab` and toggling into Edit Mode.
-#. The Armature Bone will display differently when it is in Edit Mode. See figure 13.
-
-   .. figure:: /images/SY-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.png
-      :width: 800px
-      :figwidth: 800px
-
-      Figure 13 - 3D Viewport with Armature Bone in Edit Mode, with its Tail,
-      Body and Head parts indicated in Front View.]]
-
-#. The Armature Bone in Edit Mode has 3 distinct parts, The Head (thick bottom part),
-   The Body (the middle part) and The Tail (the top pointy part).
-#. Select The Tail of the Bone so that it is the only thing highlighted.
-#. Extrude the Bone Tail by 1 Blender Unit along the Z axis.
-   Do this by pressing the :kbd:`E` then the :kbd:`Z` and enter the value 1.
-   This will extrude a new Bone from The Tail of the previous Bone.
-#. Repeat the extruding from The Tail of the new bones 4 times by pressing :kbd:`Shift-R` 4 times.
-   The :kbd:`Shift-R` executes the Repeat Last command operator.
-#. You should now have an Armature with 6 bones in it, each emerging from The Tail of the previous bone.
-#. If you have been following along you should have a scene that looks similar to figure 14.
-
-   .. figure:: /images/SZ-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.png
-      :width: 800px
-      :figwidth: 800px
-
-      Figure 14 - Armature in Edit Mode, with 6 bones created and a Plane
-      scaled and sectioned in to 6 pieces matching the length of the Armature in Front View.
-
-#. While still in Edit Mode select the body of the first bone of the Armature we created.
-   If selected correctly the entire bone will be highlighted, not just the head or tail.
-#. Navigate to the [Properties Editor > Bone Context > Bone Text Field]
-   and change the name of the bone from Bone to Bone1. See figure 15.
-
-   .. figure:: /images/TA-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.png
-      :width: 800px
-      :figwidth: 800px
-
-      Figure 15 - The [Properties Editor > Bone Context > Bone Text Field] used to rename Bones of an Armature.
-
-#. Do the same for all the other bones in the Armature naming them Bone2, Bone3, Bone4, Bone5 and Bone6 respectively.
-#. Note that Blender is case sensitive when it comes to naming of objects such as bones,
-   so make sure to name them consistently as Blender does not consider Bone or bone the same.
-#. Once the bones have been renamed, toggle Blender into Object Mode by pressing the :kbd:`Tab`.
-#. Now we need to make the Plane the Child Object of the Armature.
-   To do this select only the Plane then :kbd:`Shift-RMB` the Armature.
-#. With the Plane and the Armature selected activate the Set Parent To popup dialog by pressing
-   :kbd:`Ctrl-P` and select the Armature Deform entry.
-#. This should result in the Armature being the Parent Object of the Plane.
-#. So at this point we have renamed all six bones of the Armature Bone1, Bone2, Bone3, Bone4,
-   Bone5 and Bone6. We have split a single Plane into 6 faces and scaled it to match the total
-   length of the Armature Bones.
-   We then made the Plane the Child Object of the Armature using the :kbd:`Ctrl-P` Armature Deform Parenting option.
-#. The final step is to associate the different bones of the Armature to the different vertices
-   that make up the faces of the Plane, so that moving the bones, actually moves the faces.
-#. To do that we need to select the vertices we want to associate with a particular bone and
-   then create a Vertex Group with the same name as the bone and then assign the selected
-   vertices to that Vertex Group.
-#. Make sure the Plane is the only object that is selected.
-#. Switch into Edit Mode if we are not already by pressing the :kbd:`Tab`.
-#. Switch to Face Selection Mode by pressing
-   :kbd:`Ctrl-Tab` and select Face from the Mesh Select Mode popup dialog. See figure 16.
-
-   .. figure:: /images/TB-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.png
-      :width: 800px
-      :figwidth: 800px
-
-      Figure 16 - Mesh Select Mode popup dialog with the Face entry selected.]]
-
-#. Select the 1st face of the Plane by :kbd:`RMB` it. See figure 17.
-
-   .. figure:: /images/TC-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.png
-      :width: 800px
-      :figwidth: 800px
-
-      Figure 17 - Plane in Edit Mode with Face Select Mode active, with its 1st face selected.]]
-
-#. Navigate to the [Properties Editor > Object Data > Vertex Groups Panel] and click the +
-   button to the right of the Vertex Groups list. See figure 18.
-
-   .. figure:: /images/TD-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.png
-      :width: 800px
-      :figwidth: 800px
-
-      Figure 18 - [Properties Editor > Object Data Context > Vertex Groups Panel] highlighted
-      and the + button highlighted.
-
-#. This will create a new Vertex Group called Group.
-#. Rename this newly created Group to Bone1 by :kbd:`Ctrl-LMB` on the Group name
-   in the Vertex Group list and then typing in the new name.
-   To complete the naming press the :kbd:`Return`.
-#. Click the button named Assign to assign the currently selected face to that Vertex Group you
-   just made and named Bone1.
-#. At this point if all went well you will have associated the 1st face of the Plane with Bone1 of the Armature.
-#. To associate the other faces 2 through 6 to the Armature Bones 2 through 6 you do the same things;
-   Select the face, create a Vertex Group with the same name as the bone you want to associate the face
-   with and then click the Assign button to associate the selected face with the selected Vertex Group.
-#. Toggle into Object Mode by pressing the :kbd:`Tab`.
-#. Now select only the Armature by :kbd:`RMB` it.
-#. Now we need to switch the Armature to Pose Mode.
-   Do that by navigating to [3D View Editor Header > Mode Select Button] and
-   :kbd:`LMB` it and select the Pose Mode entry.
-   See figure 19.
-
-   .. figure:: /images/TE-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.png
-      :width: 800px
-      :figwidth: 800px
-
-      Figure 19 - [3D View Editor Header > Mode Select Button] with Pose Mode entry highlighted.]]
-
-#. Now if you select the third bone (Bone3)
-   in the Armature you will notice it gets highlighted in a Cyan color when in Pose Mode.
-#. If you transform that bone in anyway the associated face on the Plane will also transform in a similar way.
-#. For example rotate Bone3 and face section 3 will rotate in a similar way on the Plane. See figure 20.
-
-   .. figure:: /images/TF-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.png
-      :width: 800px
-      :figwidth: 800px
-
-      Figure 20 - The Armature in Pose Mode with Bone3 selected and rotated showing the effect on the Plane.]]
-
-
 Armature Deform Parent With Empty Groups
 ----------------------------------------
 
@@ -553,87 +351,8 @@ of this confusion are that when transforming the Armature Object in Pose Mode pa
 as you expect; If Blender does not give you the results you require you will have to manually alter the Influence
 Weights of vertices in relation to the Vertex Groups they belong to and have influence in.
 
-You can easily check how much Influence Weight an Armature Bone has over vertices in 2 ways:
 
-* Using the *3D View Editor > Properties Region > Vertex Weights Panel*.
-* Using Weight Paint Mode.
-
-[3D View Editor > Properties Region > Vertex Weights Panel] -
-Allows you to see which Vertex Groups a particular vertex is a member of and how much Influence
-Weight that vertex has in the different Vertex Groups that it is a member of.
-Remember that Vertex Groups that have the same name as an Armatures Bones will be influenced by
-the bones in the Armature with the matching names. See figure 23.
-
-
-.. figure:: /images/TI-3DViewEditor-PropertiesRegion-VertexWeightsPanel.jpg
-   :width: 800px
-   :figwidth: 800px
-
-   Figure 23 - Armature with 3 Bones and a Mesh Object with a vertex selected which is the Child of the Armature.
-   The [3D View Editor > Properties Region > Vertex Weights Panel] display showing the
-   Influence Weights of the selected vertex.
-
-
-Weight Paint Mode - Allows you to see the Influence Weights that Vertex Groups have on a particular objects mesh.
-If does this by color coding a mesh with various colors;
-These colors represent Influence Weights assigned to certain Vertex Groups.
-
-When a mesh is displayed in Weight Paint Mode, parts of a mesh colored dark blue represent
-areas of a mesh that are not influenced by a certain Vertex Group,
-while those parts of the mesh displayed in bright red are influenced by certain Vertex Groups.
-
-Red represents an Influence Weight of 1, blue represents and Influence Weight of 0,
-and all other colors represent Influence Weights between the 2 values. See figure 24.
-
-
-.. figure:: /images/TJ-3DViewEditor-PlaneShowingWeightPaintColors.jpg
-   :width: 800px
-   :figwidth: 800px
-
-   Figure 24 - Plane displayed in Weight Paint Mode showing all the Influence Weight Colors
-   from 0 to 1 with each Influence Weight indicated.
-
-
-To active Weight Paint Mode select the object you want to see in Weight Paint Mode by :kbd:`LMB` it,
-then navigate to [3D View Editor Header > Mode Select Button] and select the Weight Paint entry. See figure 25.
-
-
-.. figure:: /images/TK-3DViewEditorHeader-ModeSelectButton-WeightPaintHighlight.jpg
-   :width: 800px
-   :figwidth: 800px
-
-   Figure 25 - 3D View Editor Header > Mode Select Button] with Weight Paint Highlighted.
-
-
-When Weight Paint Mode is used on a Mesh Object which is also the Child Object of an armature,
-clicking on a bone in the armature will shown the Influence Weight of the selected bone in Pose Mode. See figure 26.
-
-
-.. figure:: /images/TL-3DViewport-FirstArmatureBoneSelectedInWeightPaintThenSecond.jpg
-   :width: 800px
-   :figwidth: 800px
-
-   Figure 26 - 3 Bone Armature with a Child Object mesh showing different Weight Paint states
-   when different bones are selected in Pose Mode.
-
-
-In Weight Paint Mode often you will find that the Armature Bones are obscured from view making them difficult to
-select; If this happens make sure that only the Armature Object is selected then navigate to [Properties Editor >
-Object Data Context > Display Panel] and make sure to enable the X-Ray tickable option. This will ensure that the
-Armature Bones are always visible even when Weight Paint Mode is active and a bone is inside a mesh. See figure 27.
-
-
-.. figure:: /images/TM-PropertiesEditor-ObjectData-DisplayPanel-XRayOption.jpg
-   :width: 800px
-   :figwidth: 800px
-
-   Figure 27 - [Properties Editor > Object Data Context > Display Panel] X-Ray tickable option highlighted.
-
-
-If you find that a Child Object is deforming strangely when the Armature Bones are manipulated in Pose Mode,
-using Weight Paint Mode to see visually which parts of a mesh are influenced by a bone is a
-quick way to try and narrow down which bone is causing the problem.
-
+.. TODO - Move this to armature modifier?
 
 Armature Deform With Envelope Weights
 -------------------------------------
@@ -765,51 +484,6 @@ specific bone you wish to be the Parent Bone by :kbd:`RMB` selecting it.
 Once done press :kbd:`Ctrl-P` and select Bone from the Set Parent To popup dialog.
 
 Now transforming that bone in Pose Mode will result in the Child Objects also transforming.
-
-
-Bone Parenting - Example Of Use
--------------------------------
-
-#. Start Blender with it's default scene.
-#. Switch to Front View in the 3D Viewport by pressing :kbd:`Numpad1`
-#. Move the default cube 3 Blender Units to the left on the X axis
-   by pressing :kbd:`G` then :kbd:`X` then input value -3.
-#. With the default cube moved, add an Armature Object.
-   Do this by pressing :kbd:`Shift-A` to display the Add popup menu,
-   navigate to the Armature entry and select Single Bone.
-#. With only the single Armature Bone selected switch into Edit Mode by pressing the :kbd:`Tab`.
-#. Select the top pointy end of the bone (the Tail).
-#. Extrude a new bone from the tail of the old bone that is 1 Blender Unit in length along the Z axis.
-   Do this by pressing the :kbd:`E` then the :kbd:`Z` then input the value 1, then press the :kbd:`Return`.
-#. Create 2 more bones each extruding out of the Tail of the previous bone.
-   Do this by pressing :kbd:`Shift-R` twice; This will execute the Repeat Last command operator.
-#. Switch back into Object Mode by pressing the :kbd:`Tab`.
-#. You should now have a default cube and an Armature Object with 4 bones positioned as shown in figure 35].
-
-   .. figure:: /images/TV-3DViewEditorHeader-ObjectMenu-Parent-BoneParenting.png
-
-      Figure 35 - [Default cube and Armature Object with 4 bones
-
-#. Select the default cube only and then :kbd:`Shift-RMB` the Armature Object.
-#. With the Cube and the Armature Object still selected navigate to
-   [3D View Editor Header > Mode Select Button] and switch to Pose Mode.
-#. [Right Mouse Button Click] on the second bone in the Armature Object, such that it becomes highlighted in Cyan.
-   See figure 36.
-
-   .. figure:: /images/TW-3DViewEditorHeader-ObjectMenu-Parent-BoneParenting.png
-
-      Figure 36
-      Default Cube selected and the Armature Object showing in
-      Pose Mode with second bone selected and displayed in Cyan.
-
-#. Now we need to make that selected Armature Bone the Parent Bone of the Cube Child Object.
-   To do that activate the Set Parent To popup dialog by pressing
-   :kbd:`Ctrl-P` and selecting the Bone entry from the popup.
-#. Once done switch back into Object Mode and select only the Armature Object.
-#. Now if you switch the Armature Object back into Pose Mode and transform
-   the 3rd or 4th bones of the armature the Cube Child Object is not affected,
-   but if you transform the 1st or 2nd bones it is because altering
-   either of those bones results in the 2nd bone being transformed.
 
 
 Bone Relative Parenting
@@ -948,28 +622,6 @@ Clear Parent Inverse
    10 units each time for a total of 20 units, then the "Inverse" will only move the child back 10 units, not 20.
 
 
-Parenting Example
------------------
-
-.. figure:: /images/25-Manual-Modeling-Objects-Parenting-Exampel1.jpg
-
-   Parenting Example
-
-
-The active object, in yellow (cube ``A``),
-will be made the parent of all the other object(s) in the group (orange cube ``B``).
-The center(s) of all children object(s)
-are now linked to the center of the parent by a dashed line; see image
-(*Parenting Example*).
-The parent object is cube "\ ``A`` " and the child object is cube "\ ``B`` ".
-The link is labeled "\ ``L`` ".
-
-At this point, grabbing, rotating,
-and scaling transformations to the parent will do the same to the children.
-Parenting is a very important tool with many advanced applications,
-as we'll see in later chapters; it is used extensively with advanced animations.
-
-
 Hints
 -----
 
@@ -984,12 +636,14 @@ is an example of what the *Outliner* view looks like for the (*Parenting Example
 Cube "\ ``A`` "'s object name is "\ ``Cube_Parent`` " and cube "\ ``B`` " is "\ ``Cube_Child`` ".
 
 
+.. TODO: This seems off topic - ideasman42
+
 Separating Objects
 ==================
 
 At some point,
-you'll come to a time when you need to cut parts away from a mesh to be separate. Well,
-the operation is easy.
+you'll come to a time when you need to cut parts away from a mesh to be separate.
+Well, the operation is easy.
 
 To separate an object, the vertices (or faces) must be selected and then separated,
 though there are several different ways to do this. In Edit Mode,
