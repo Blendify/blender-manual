@@ -501,22 +501,6 @@ resulting Mesh. This example uses a smooth shaded UVsphere cut in half. As expla
 the shading (smooth/flat) doesn't affect the calculations of the modifier.
 
 
-History
-=======
-
-Since version 2.62, Blender uses a new Library, the `Carve library <http://carve-csg.com/>`__,
-which should give much improved results. This library is more stable and faster,
-resolving old well-known limitations of our previous library.
-
-The general workflow and options available in the user interface are unchanged;
-usually the modifier will simply run faster and produce a better output mesh.
-However there are also some changes in behavior. In particular, Carve will perform Boolean
-operations only if the intersection of two meshes is a closed loop of edges.
-
-Release Notes and Development Page:
-`Boolean Modifier <http://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.62/Boolean_Modifier>`__
-
-
 Useful Links
 ============
 
@@ -526,5 +510,4 @@ Useful Links
   Link for a Blender Add-on - This add-on uses another approach to use the Boolean operations,
   when you select two or more objects, the active one becomes the modified mesh and all the others becomes a target.
   This add-on will add the Boolean modifier and apply it to the meshes automatically.
-
 

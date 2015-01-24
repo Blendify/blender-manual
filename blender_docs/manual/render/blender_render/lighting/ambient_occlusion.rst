@@ -136,7 +136,7 @@ Attenuation
       The base Quasi-Monte Carlo, gives evenly and randomly distributed rays.
 
    Adaptive QMC
-      An improved version of QMC,
+      An improved method of QMC,
       that tries to determine when the sample rate can be lowered or the sample skipped, based on its two settings:
 
       Threshold

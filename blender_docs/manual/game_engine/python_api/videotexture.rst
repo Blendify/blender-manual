@@ -3,14 +3,14 @@
 The VideoTexture module: bge.texture
 ************************************
 
-The ``VideoTexture`` module allows you to manipulate textures during the game.
+The ``bge.texture`` module allows you to manipulate textures during the game.
 Several sources for texture are possible: video files, image files, video capture,
 memory buffer, camera render or a mix of that.
 The video and image files can be loaded from the internet using an URL instead of a file name.
 In addition, you can apply filters on the images before sending them to the GPU,
 allowing video effect: blue screen, color band, gray, normal map.
-``VideoTexture`` uses FFmpeg to load images and videos.
-All the formats and codecs that FFmpeg supports are supported by ``VideoTexture``,
+``bge.texture`` uses FFmpeg to load images and videos.
+All the formats and codecs that FFmpeg supports are supported by ``bge.texture``,
 including but not limited to:
 
 - AVI
@@ -23,12 +23,6 @@ including but not limited to:
 - JPG
 
 
-Changes to VideoTexture in Blender 2.6
-======================================
-
-The ``VideoTexture`` module is now simply called ``bge.texture``.
-
-
 How it works
 ============
 
@@ -38,13 +32,13 @@ The GE is not aware of the substitution and continues to display the object as a
 except that you are now in control of the texture. At the end,
 the new texture is deleted and the old texture restored.
 
-The present page is a guide to the ``VideoTexture`` module with simple examples.
+The present page is a guide to the ``bge.texture`` module with simple examples.
 
 
 Game preparation
 ================
 
-Before you can use the thing ``VideoTexture`` module,
+Before you can use the thing ``bge.texture`` module,
 you must have objects with textures applied appropriately.
 
 Imagine you want to have a television showing live broadcast programs in the game. You will
@@ -54,12 +48,12 @@ probably you want to make it dark grey to simulate power-off state.
 When the television must be turned on, you create a dynamic texture from a video capture card
 and use it instead of ``tv.png``: the TV screen will come to life.
 
-You have two ways to define textures that ``VideoTexture`` can grab:
+You have two ways to define textures that ``bge.texture`` can grab:
 
 - Simple UV texture.
 - Blender material with image texture channel.
 
-Because ``VideoTexture`` works at texture level,
+Because ``bge.texture`` works at texture level,
 it is compatible with all GE fancy texturing features: GLSL, multi-texture, custom shaders,
 etc.
 
@@ -75,10 +69,11 @@ We will do it in a script that runs once. It can be at the start of the game,
 the video is only played when you refresh the texture; we'll come to that later. The script is
 normally attached to the object on which we want to display the video so that we can easily
 retrieve the object reference:
-::
 
 
-   import VideoTexture
+.. code-block:: python
+
+   import bge.texture
 
    contr = GameLogic.getCurrentController()
    obj = contr.owner
@@ -93,13 +88,12 @@ only once.
 Find material
 -------------
 
-::
+.. code-block:: python
+
+   matID = bge.texture.materialID(obj, 'IMvideo.png')
 
 
-   matID = VideoTexture.materialID(obj, 'IMvideo.png')
-
-
-``VideoTexture.materialID()``
+``bge.texture.materialID()``
 is a handy function to retrieve the object material that is using ``video.png`` as texture.
 This method will work with Blender material and UV texture.
 In case of UV texture, it grabs the internal material corresponding to the faces that are assigned to this texture.
@@ -109,23 +103,24 @@ it grabs the material that has an image texture channel matching the name as fir
 The "\ ``IM`` " prefix indicates that we're searching for a texture name but we can also
 search for a material by giving the "\ ``MA`` " prefix. For example,
 if we want to find the material called ``VideoMat`` on this object, the code becomes:
-::
 
 
-   matID = VideoTexture.materialID(obj, 'MAVideoMat')
+.. code-block:: python
+
+   matID = bge.texture.materialID(obj, 'MAVideoMat')
 
 
 Create texture
 --------------
 
-``VideoTexture.Texture`` is the class that creates the ``Texture`` object that loads the dynamic texture on the GPU.
+``bge.texture.Texture`` is the class that creates the ``Texture`` object that loads the dynamic texture on the GPU.
 The constructor takes one mandatory and three optional arguments:
 
 ``gameObj``
    The game object.
 
 ``materialID``
-   Material index as returned by ``VideoTexture.materialID()``, 0 = first material by default.
+   Material index as returned by ``bge.texture.materialID()``, 0 = first material by default.
 
 ``textureID``
    Texture index in case of multi-texture channel, 0 = first channel by default.
@@ -137,10 +132,10 @@ The constructor takes one mandatory and three optional arguments:
    we should not create any source on this texture and there is no need to refresh it either:
    the other ``Texture`` object will provide the texture for both materials/textures.
 
-::
 
+.. code-block:: python
 
-   GameLogic.video = VideoTexture.Texture(obj, matID)
+   GameLogic.video = bge.texture.Texture(obj, matID)
 
 
 Make texture persistent
@@ -158,7 +153,7 @@ Create a source
 
 Now we have a ``Texture`` object but it can't do anything because it does not have
 any source. We must create a source object from one of the possible sources available in
-``VideoTexture``:
+``bge.texture``:
 
 ``VideoFFmpeg``
    Moving pictures.
@@ -186,11 +181,11 @@ The ``VideoFFmpeg`` constructor takes a file name as argument.
 To avoid any confusion with the location of the file, we will use ``GameLogic.expandPath
 ()`` to build an absolute file name,
 assuming the video file is in the same directory as the blend file:
-::
 
+.. code-block:: python
 
    movie = GameLogic.expandPath('//trailer_400p.ogg')
-   GameLogic.video.source = VideoTexture.VideoFFmpeg(movie)
+   GameLogic.video.source = bge.texture.VideoFFmpeg(movie)
 
 
 We create the video source object and assign it to the ``Texture`` object
@@ -199,15 +194,16 @@ as the ``Texture`` object is persistent, the source object will also be persiste
 
 Note that we can change the ``Texture`` source at any time.
 Suppose we want to switch between two movies during the game. We can do the following:
-::
 
+.. code-block:: python
 
-   GameLogic.mySources[0] = VideoTexture.VideoFFmpeg('movie1.avi')
-   GameLogic.mySources[1] = VideoTexture.VideoFFmpeg('movie2.avi')
+   GameLogic.mySources[0] = bge.texture.VideoFFmpeg('movie1.avi')
+   GameLogic.mySources[1] = bge.texture.VideoFFmpeg('movie2.avi')
 
 
 And then assign (and reassign) the source during the game:
-::
+
+.. code-block:: python
 
 
    GameLogic.video.source = GameLogic.mySources[movieSel]
@@ -236,7 +232,7 @@ The ``VideoFFmpeg`` source has several attributes to control the movie playback:
    Set to True to activate fast nearest neighbour scaling algorithm.
    Texture width and height must be a power of 2.
    If the video picture size is not a power of 2, rescaling is required.
-   By default ``VideoTexture`` uses the precise but slow ``gluScaleImage()`` function.
+   By default ``bge.texture`` uses the precise but slow ``gluScaleImage()`` function.
    Best is to rescale the video offline so that no scaling is necessary at runtime!
 
 ``flip``
@@ -246,14 +242,15 @@ The ``VideoFFmpeg`` source has several attributes to control the movie playback:
 
 ``filter``
    Set additional filter on the video before sending to GPU.
-   Assign to one of ``VideoTexture`` filter object.
+   Assign to one of ``bge.texture`` filter object.
    By default the image is send unchanged to the GPU.
    If an alpha channel is present in the video, it is automatically loaded and sent to the GPU as well.
 
 We will simply set the ``scale`` attribute to True because the ``gluScaleImage
 ()`` is really too slow for real time video.
 In case the video dimensions are already a power of 2, it has no effect.
-::
+
+.. code-block:: python
 
 
    GameLogic.video.source.scale = True
@@ -263,7 +260,8 @@ Play the video
 --------------
 
 We are now ready to play the video:
-::
+
+.. code-block:: python
 
 
    GameLogic.video.source.play()
@@ -272,7 +270,8 @@ We are now ready to play the video:
 Video playback is not a background process: it happens only when we refresh the texture.
 So we must have another script that runs on every frame and calls the ``refresh
 ()`` method of the ``Texture`` object:
-::
+
+.. code-block:: python
 
 
    if hasattr(GameLogic, 'video'):
@@ -290,7 +289,8 @@ Checking video status
 
 Video source classes (such as VideoFFMpeg) have an attribute ``status``.
 If video is playing, its value is 2, if it's stopped, it's 3. So in our example:
-::
+
+.. code-block:: python
 
 
    if GameLogic.video.source.status == 3:
@@ -310,8 +310,7 @@ Here are some possible advanced work flow:
 
 - Use the image buffer in python (doesn't effect the Texture):
 
-::
-
+.. code-block:: python
 
    GameLogic.video.refresh(False)
    image = GameLogic.video.source.image
@@ -325,8 +324,7 @@ Here are some possible advanced work flow:
 - note that we don't even call refresh on the Texture
 - we could also just create a source object without a Texture object
 
-::
-
+.. code-block:: python
 
    image = GameLogic.video.source.image
    # ... use image
@@ -336,18 +334,18 @@ Here are some possible advanced work flow:
 - If you have more than 1 material on the mesh and you want to modify a texture of one particular material,
   get its ID
 
-::
+.. code-block:: python
 
-
-   matID=VideoTexture.materialID(gameobj,"MAmat.001")
+   matID = bge.texture.materialID(gameobj, "MAmat.001")
 
 
 GLSL material can have more than 1 texture channel,
 identify the texture by the texture slot where it is defined, here 2
-::
+
+.. code-block:: python
 
 
-   tex=VideoTexture.Texture(gameobj, matID, 2)
+   tex=bge.texture.Texture(gameobj, matID, 2)
 
 
 Advanced demos

@@ -290,9 +290,6 @@ Select the math function by clicking the up-down selector where the "Add" select
 The trig functions of Sine, Cosine, Tangent use only the top socket and accept values in
 radians between 0 and 2*pi for one complete cycle.
 
-FIXME(Template Unsupported: Version;
-{{Version|2.44}}
-)
 **Known bug** : the Top socket must get the image if the bottom socket is left as a value.
 
 

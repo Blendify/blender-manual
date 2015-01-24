@@ -1,12 +1,12 @@
 
-**************************
-Blender 2.6, Python Manual
-**************************
+**********************
+Blender, Python Manual
+**********************
 
 Introduction
 ============
 
-Welcome to the Blender 2.6 Python Manual.
+Welcome to the Blender Python Manual.
 
 
 Python `www.Python.org <http://www.python.org/>`__ is an interpreted, interactive,

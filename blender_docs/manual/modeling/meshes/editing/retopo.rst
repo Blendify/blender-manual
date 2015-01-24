@@ -1,16 +1,11 @@
 
-..    TODO/Review: {{review|partial=X}} .
+.. NOTE: This page could document a workflow which is handled by tools documented elsewhere.
+         it could also be completely removed.
 
 
 **************
 Retopologizing
 **************
-
-.. note::
-
-   In Blender 2.5, the Retopo tool has been replaced by improved mesh snapping functionality.
-   This page will change as retopology tools are updated in newer versions of Blender
-
 
 Retopology is a common part of modeling workflows. Often times,
 a model is created with emphasis on form and detail, however, its topology,

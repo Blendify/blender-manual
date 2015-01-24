@@ -72,10 +72,3 @@ Nodes. In this case, you probably won't be using Texture Channels. Instead, you'
 inside the texture node that you've just added, you can select which output you want to use
 *(e.g.* ``Diffuse`` or ``Normal``).
 
-
-See also
-========
-
-- `Development page <http://wiki.blender.org/index.php/Dev:2.4/Source/Textures/Nodes - Blender 2.49>`_
-
-

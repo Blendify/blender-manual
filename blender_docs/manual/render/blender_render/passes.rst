@@ -42,15 +42,7 @@ Various things that are calculated in a standard render include:
    Do shadows and apparent geometry need to be calculated for any objects?
 - *Is there any* **specularity** *?* Are objects with textures such as metal shiny at all?
 
-
-.. note:: Renderer Rewrite
-
-   Starting with Blender 2.42, the render engine was rewritten.
-   See :doc:`Unified Renderer </render/index>` if you are using an old version of Blender.
-
-
 The answer to each of the above questions is an image or map, as shown below:
-
 
 .. figure:: /images/Manual-Render-RenderPasses-Example.jpg
    :width: 600px

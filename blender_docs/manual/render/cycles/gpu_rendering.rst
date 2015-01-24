@@ -188,21 +188,3 @@ CUDA error: Unknown error in cuCtxSynchronize()
 An unknown error can have many causes, but one possibility is that it's a timeout.
 See the above answer for solutions.
 
-
-On Mac OS X ( pre 2.66a* ), no CUDA GPU is available
-----------------------------------------------------
-
-Since 2.66a, Blender OSX comes with precompiled cuda kernels ( kernel_sm_yx.cubin ),
-you still have to install the CUDA driver (any recent version).
-
-For earlier versions, you need to install Xcode (command line tools are sufficient),
-the `CUDA toolkit 4.2 <https://developer.nvidia.com/cuda-toolkit-42-archive>`__
-(exactly this version), and the CUDA driver (any recent version).
-Xcode can be installed from the App Store.
-After Xcode is installed you also need to install its command line tools.
-This is done by starting Xcode, going to the Preferences,
-and then under Downloads installing the command line tools.
-
-If it still doesn't work, ensure that in the Energy Saver preferences,
-the automatic graphics switching is disabled and the fastest GPU is selected.
-Also ensure you do not have other CUDA toolkit versions installed.

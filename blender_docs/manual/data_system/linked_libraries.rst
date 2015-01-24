@@ -277,8 +277,7 @@ but will not reset your changes (unless the owner has).
 Armatures and Multiple instances
 ================================
 
-Development of this feature is a work in progress; in Blender 2.43 and CVS
-(as of 29 April 2007), a proxy object controls *all instances of a group*.
+A proxy object controls *all instances of a group*.
 It is not yet possible to have one proxy per group instance. In particular,
 it is not yet possible to have one proxy armature per group instance.
 One partially effective remedy to use file append rather than file link for multiple instance duplication.

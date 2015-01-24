@@ -125,7 +125,7 @@ Sequencer
 
 Color Space
    The color space that the sequencer operates in.
-   By default the sequencer operates in sRGB space like it did in previous versions,
+   By default the sequencer operates in sRGB space,
    but it can also be set to work in Linear space like the Compositing nodes, or another color space.
    Different color spaces will give different results for color correction, cross fades, and other operations.
 

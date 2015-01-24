@@ -199,12 +199,8 @@ Blender Search
    Blender Search - Render
 
 
-The Blender Search feature, called *Blender Search*,
-is a new functionality added by the Blender recode
-(from 2.4x series to 2.5x series and so on).
-The Internal name of the feature is *Operator Search*.
-When you hit :kbd:`Spacebar` from your keyboard,
-Blender will present you with a small Pop Up Window,
+The Blender Search feature, called the *Search Menu*,
+Activate by pressing :kbd:`Spacebar`, Blender will present you with a search popup,
 no matter which Blender Window your Mouse pointer is located
 (except the *Text Editor* Window and *Python console*),
 and a field for you to type in.
