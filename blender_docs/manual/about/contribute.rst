@@ -43,10 +43,9 @@ Firstly, make sure that your local copy of the manual is up to date with the onl
 You can now **edit** the documentation files, which are the ``.rst`` files inside the ``manual`` folder using
 a text editor of your choice.
 
-Here are community pages on how to setup some popular editors with spell checking and auto completion:
-
-- `Sublime <http://wiki.blender.org/index.php/User:Brita/Configs/Rst-manual>`__
-- `Vim <http://wiki.blender.org/index.php/User:Dfelinto/Blender-Manual>`__
+For instructions on using different editors,
+see the `Editor Configuration <http://wiki.blender.org/index.php/Dev:Doc/Tools/User_Reference_Manual>`__
+section of the community wiki.
 
 You should check the :doc:`Writing Style Guide </about/writing_style_guide>`
 for conventions and :doc:`Markup Style Guide </about/markup_style_guide>`
