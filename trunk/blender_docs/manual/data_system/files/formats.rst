@@ -78,9 +78,3 @@ Color Depths
 - 16 bit color channels
 - 32 bit color channels
 
-
-Reference
-=========
-
-- `Formats <http://projects.blender.org/scm/viewvc.php/trunk/blender/source/blender/makesrna/intern/rna_scene.c?view=markup&root=bf-blender>`__
-
