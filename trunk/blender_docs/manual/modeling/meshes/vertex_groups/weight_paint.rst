@@ -23,7 +23,7 @@ Weight Paint in a nutshell
    Weight Painted Vertex Group
 
 
-- You enter *Weight Paint* mode from the Mode Menu (hotkey=\ :kbd:`Ctrl-Tab`).
+- You enter *Weight Paint* mode from the Mode Menu (:kbd:`Ctrl-Tab`).
   The selected Mesh Object is displayed slightly shaded with a rainbow color spectrum.
 - The color visualizes the weights associated to each vertex in the active Vertex Group.
   Blue means unweighted; Red means fully weighted.

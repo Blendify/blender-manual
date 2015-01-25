@@ -42,8 +42,8 @@ Before you can use the thing ``bge.texture`` module,
 you must have objects with textures applied appropriately.
 
 Imagine you want to have a television showing live broadcast programs in the game. You will
-create a television object and UV-apply a different texture at the place of the screen,
-for example "\ ``tv.png`` ". What this texture looks like is not important;
+create a television object and UV-apply a different texture at the place of the screen, for example ``tv.png``.
+What this texture looks like is not important;
 probably you want to make it dark grey to simulate power-off state.
 When the television must be turned on, you create a dynamic texture from a video capture card
 and use it instead of ``tv.png``: the TV screen will come to life.
@@ -81,8 +81,7 @@ retrieve the object reference:
    if not hasattr(GameLogic, 'video'):
 
 
-The check on "\ ``video`` " attribute is just a trick to make sure we create the texture
-only once.
+The check on ``video`` attribute is just a trick to make sure we create the texture only once.
 
 
 Find material
@@ -100,8 +99,8 @@ In case of UV texture, it grabs the internal material corresponding to the faces
 In case of Blender material,
 it grabs the material that has an image texture channel matching the name as first channel.
 
-The "\ ``IM`` " prefix indicates that we're searching for a texture name but we can also
-search for a material by giving the "\ ``MA`` " prefix. For example,
+The ``IM`` prefix indicates that we're searching for a texture name but we can also
+search for a material by giving the ``MA`` prefix. For example,
 if we want to find the material called ``VideoMat`` on this object, the code becomes:
 
 
@@ -141,7 +140,7 @@ The constructor takes one mandatory and three optional arguments:
 Make texture persistent
 -----------------------
 
-Note that we have assigned the object to a ``GameLogic`` "\ ``video`` "
+Note that we have assigned the object to a ``GameLogic``, ``video``
 attribute that we create for the occasion.
 The reason is that the ``Texture`` object must be persistent across the game scripts.
 A local variable would be deleted at the end of the script and the GPU texture deleted at the

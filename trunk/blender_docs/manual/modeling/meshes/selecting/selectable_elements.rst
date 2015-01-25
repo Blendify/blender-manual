@@ -82,7 +82,7 @@ Select Mode header widgets
 You can also enter the different modes by selecting one of the three buttons in the toolbar;
 see (*Edit* *mode select buttons*).
 
-Using the buttons you can also enter "\ **mixed** " or "combined" mode by
+Using the buttons you can also enter **mixed** or "combined" mode by
 :kbd:`Shift-LMB` clicking the buttons. This will allow you to select vertices,
 edges and/or faces at the same time!
 

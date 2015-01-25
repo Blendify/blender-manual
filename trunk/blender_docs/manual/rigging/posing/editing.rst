@@ -187,8 +187,8 @@ Here are important points:
 - Only the selected bones are taken into account during copying (i.e. you copy only selected bones' pose).
 - During pasting, on the other hand, bone selection has no importance.
   The copied pose is applied on a per-name basis
-  (i.e. if you had a "\ ``forearm`` " bone selected when you copied the pose,
-  the "\ ``forearm`` " bone of the current posed armature will get its pose when you paste it -
+  (i.e. if you had a ``forearm`` bone selected when you copied the pose,
+  the ``forearm`` bone of the current posed armature will get its pose when you paste it -
   and if there is no such named bone, nothing will happen...).
 - What is copied and pasted is in fact the position/rotation/scale of each bone, in its own space.
   This means that the resulting pasted pose might be very different from the originally copied one, depending on:

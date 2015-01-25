@@ -129,7 +129,7 @@ Let's make a simple example:
 
   - Select the Monkey (:kbd:`RMB`).
   - In the *Editing* context (:kbd:`F9`), *Modifiers* panel, add a *Curve* modifier.
-  - Type the name of the curve (should be "\ ``Curve`` ") in the *Ob* field of the modifier,
+  - Type the name of the curve (should be ``Curve``) in the *Ob* field of the modifier,
     and optionally change the dominant axis to *Y*.
 - Or you can choose the old, deprecated method (note that it creates a "virtual" modifier...):
 
@@ -182,11 +182,8 @@ Extrusion
    | Panel:    *Curve and Surface* (*Editing* context, :kbd:`F9`)
 
 
-Ah! The extrusion! Probably the most interesting tool of the curves for modeling, especially with the bevel/taper/\
-*Tilt* / *Radius* options? Note that this has nothing to do with the *Extrude*
-(:kbd:`E`) command, described in the
-:doc:`previous page </modeling/curves/editing/introduction#adding_new_segments>` !
-
+Extrusion can be especially with the bevel/taper/Tilt/Radius options.
+Note that this isn't related to *Extrude* used in mesh edit-mode.
 
 We will see the different settings, depending on their scope of action:
 
@@ -200,7 +197,6 @@ Width
    but the way the "outside" and "inside" of the curve is determined seems a bit odd?
 
    It has the same effect with extruded "bevel" objects...
-
 Tilt
    This setting - unfortunately, you can never see its value anywhere in Blender -
    controls the "twisting angle" around the curve for each point - so it is only relevant with 3D curves!
@@ -325,17 +321,18 @@ TODO: add some "bevel" extrusion with *Radius* examples.
 
 Let's taper a simple curve circle extruded object using a taper curve. Add a curve,
 then exit *Edit*
-mode. Add another one (a closed one, like a circle); call it "\ ``BevelCurve`` ",
+mode. Add another one (a closed one, like a circle); call it ``BevelCurve``,
 and enter its name in the *BevOb* field of the first curve
 (*Editing* context :kbd:`F9`, *Curve and Surface* panel).
 We now have a pipe.
-Add a third curve while in *Object* mode and call it "\ ``TaperCurve`` ".
+Add a third curve while in *Object* mode and call it ``TaperCurve``.
 Adjust the left control-point by raising it up about 5 units.
 
 Now return to the *Editing* :doc:`context </getting_started/basics/interface/contexts>`,
 and edit the first curve's *TaperOb* field in
 :doc:`Curve and Surface </ce/panels/editing/curves/curve_and_surface>` panel to reference the new taper curve
-which we called "\ ``TaperCurve`` ". When you hit enter the taper curve is applied immediately,
+which we called *TaperCurve*.
+When you hit enter the taper curve is applied immediately,
 with the results shown in (*Taper extruded curve*).
 
 

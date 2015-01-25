@@ -70,12 +70,12 @@ Users (Sharing)
 ***************
 
 Many datablocks can be shared among other datablocks - re-use is encouraged. For example,
-suppose you have a material for one object, named "\ ``Glossy`` ".
+suppose you have a material for one object, named ``Glossy``.
 You can select a second object, for example, one that does not have a material yet.
 Instead of clicking *ADD NEW* for the material,
 click the little up-down arrow next to the *ADD NEW*,
-which brings up a list of existing materials. Select "\ ``Glossy`` ". Now,
-these two objects share the same material.
+which brings up a list of existing materials. Select ``Glossy``.
+Now, these two objects share the same material.
 You will notice a "2" next to the name of the material, indicating that there are two users
 (the two objects) for this material. Other common examples include:
 

@@ -175,14 +175,13 @@ to rotate the scene around the Z global axis from your current point of view.
 TrackBall/Turntable
 -------------------
 
-By default, when you rotate the view as described above,
-you are using the **turntable** method.
-For some users this is intuitive and for others it is not. If you feel you are having
-difficulties with this style of 3D window rotation you can switch to the "\ **trackball** "
-style. With the trackball style you are rotating the scene as though you are rolling your hand
-across a "\ **trackball** "
+By default, when you rotate the view as described above, you are using the *turntable* method.
+For some users this is intuitive and for others it is not.
+If you feel you are having difficulties with this style of 3D window rotation
+you can switch to the *trackball* style.
+With the trackball style you are rotating the scene as though you are rolling your hand across a *trackball*.
 
-The *Turntable* style is fashioned more like a record player where you have two axes
+The *turntable* style is fashioned more like a record player where you have two axes
 of rotation available,
 and the world seems to have a better definition of what is "Up" and "Down" in it. The downside
 to using the *Turntable* style is that you lose some flexibility when working with

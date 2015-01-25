@@ -489,10 +489,10 @@ This will enable you to use some tools that will probably save you time and effo
     See below for a list of valid separators.
     Pick one and stick to it as close as possible when rigging; it will pay off. Examples of **valid saparators**:
 
-    - *(nothing)*: hand\ ``Left`` → hand\ ``Right``
-    - ``_`` *(underscore)*: Hand\ ``_L`` → Hand\ ``_R``
-    - ``.`` *(point)*: hand\ ``.l`` → hand\ ``.r``
-    - ``-`` *(dash)*: Foot\ ``-l`` → Foot\ ``-r``
+    - *(nothing)*: hand ``Left`` → hand ``Right``
+    - ``_`` *(underscore)*: Hand ``_L`` → Hand ``_R``
+    - ``.`` *(point)*: hand ``.l`` → hand ``.r``
+    - ``-`` *(dash)*: Foot ``-l`` → Foot ``-r``
     - `` `` *(space)*: pelvis ``LEFT`` → pelvis ``RIGHT``
 
     Note that all examples above are also valid with the left/right part placed before the name.

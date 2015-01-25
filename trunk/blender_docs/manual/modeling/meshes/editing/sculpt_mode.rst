@@ -252,7 +252,7 @@ Size
 Sample Bias
    Value added to texture samples.
 Overlay
-   When enabled, the texture is shown in the viewport, as determined by the ;\ *Alpha* value.
+   When enabled, the texture is shown in the viewport, as determined by the; *Alpha* value.
 
 
 Symmetry Menu

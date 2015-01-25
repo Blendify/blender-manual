@@ -264,21 +264,20 @@ Example
    The Outliner window in list mode.
 
 
-The outline example shows that the .blend file has three scenes:
-"\ ``Ratchet in Middle`` ", "\ ``Ratchet on Outside`` ",
-and "\ ``Ratchet Out White`` ".
+The outline example shows that the ``.blend`` file has three scenes:
+``Ratchet in Middle``, ``Ratchet on Outside``,
+and ``Ratchet Out White``.
 By clicking on the little plus-sign to the left of the name,
 the outline is expanded one level.
-This was done for the "\ ``Ratchet in Middle`` " scene. As you can see,
-this scene has some "\ ``World`` " material settings, a "\ ``Camera`` ",
-an "\ ``Empty`` ",
-a "\ ``HandleFixed`` " object... All objects that were added to the scene.
+This was done for the ``Ratchet in Middle`` scene. As you can see,
+this scene has some ``World`` material settings, a ``Camera``, an ``Empty``, ``HandleFixed`` object...
+All objects that were added to the scene.
 
-By clicking the plus-sign next to "\ ``ratchetgear``,
-we can see that it has some motion described by the "\ ``Animation`` " entry;
-that it was based on a "\ ``Circle`` " mesh,
-and that it is the parent of "\ ``HandleFixed.002`` ",
-which is in turn the parent of "\ ``Plane.003`` ", and so on.
+By clicking the plus-sign next to ``ratchetgear``,
+we can see that it has some motion described by the ``Animation`` " entry;
+that it was based on a ``Circle`` mesh,
+and that it is the parent of ``HandleFixed.002``,
+which is in turn the parent of ``Plane.003``, and so on.
 
 
 The neat thing is: if you select any of these datablocks here,

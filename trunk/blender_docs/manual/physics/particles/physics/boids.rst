@@ -144,7 +144,7 @@ If the memory capacity is exceeded, the remaining rules are ignored.
 
 The rules are by default parsed from top-list to bottom-list
 (thus giving explicit priorities),
-and the \order can be modified using the little arrows buttons on the right side.
+and the order can be modified using the little arrows buttons on the right side.
 
 The list of rules available are:
 

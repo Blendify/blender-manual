@@ -89,7 +89,7 @@ in degrees to specify the amount of rotation after after initiating a rotation t
 - Hold :kbd:`Shift` down while performing a rotation to rotate the selected element in 0.01 degree increments.
 - Hold :kbd:`Shift-Ctrl` down while performing a rotation to rotate the selected element in 1 degree increments.
 - Press :kbd:`R`, type in a number and press :kbd:`Return` to confirm.
-- Press :kbd:`R`,\ :kbd:`R` to enable Trackball rotation.
+- Press :kbd:`R`, :kbd:`R` to enable Trackball rotation.
 
 
 .. tip:: Orientation dependant rotations

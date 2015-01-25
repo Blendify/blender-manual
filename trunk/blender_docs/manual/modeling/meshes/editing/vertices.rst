@@ -163,9 +163,9 @@ Limitations
 
 Rip will only work when edges and/or vertices are selected.
 Using the tool when a face is selected (explicitly or implicitly), will return an error
-message "\ ``Can't perform ripping with faces selected this way`` ".
+message *"Can't perform ripping with faces selected this way"*
 If your selection includes some edges or vertices that are not "between" two faces (:term:`manifold`),
-it will also fail with message "\ ``No proper selection or faces include`` ".
+it will also fail with message *"No proper selection or faces include"*.
 
 
 Rip Fill

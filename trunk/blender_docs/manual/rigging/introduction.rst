@@ -47,8 +47,7 @@ or by making the armature follow externally collected motion-capture data.)
 
 All these steps are explained in details below.
 
--done! Please check+edit
---\ `Raindrops <http://wiki.blender.org/index.php/User:Raindrops>`__ 19:32, 31 May 2013 (CEST)
+done! Please check+edit `Raindrops <http://wiki.blender.org/index.php/User:Raindrops>`__ 19:32, 31 May 2013 (CEST)
 
 
 [[Doc:2.6/Manual/Rigging/Armatures|Armatures]]

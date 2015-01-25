@@ -39,14 +39,12 @@ Add-ons can be python scripts ``.py`` or ``.zip`` files (containing ``.py`` scri
 File locations
 ==============
 
-- Windows 7 - ``C:\Users\%username%\AppData\Roaming\Blender Foundation\Blender\2.6x\scripts\addons``
-
-
-- Windows XP - ``C:\Documents and Settings\%username%\Application Data\Blender
-  Foundation\Blender\2.6x\scripts\addons``
-
-
-- Linux - ``/home/$user/.config/blender/$version/scripts/addons``
+- Linux -
+  ``/home/$user/.config/blender/$version/scripts/addons``
+- Windows XP -
+  ``C:\Documents and Settings\%username%\Application Data\Blender Foundation\Blender\2.6x\scripts\addons``
+- Windows 7 -
+  ``C:\Users\%username%\AppData\Roaming\Blender Foundation\Blender\2.6x\scripts\addons``
 
 Note that the ``AppData`` folder in Windows 7 and the ``.
 config`` folder in Linux is hidden. The location may also be different depending on your

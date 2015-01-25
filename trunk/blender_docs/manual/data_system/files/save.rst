@@ -25,7 +25,7 @@ see the page on :doc:`Opening files </data_system/files/open>`.
 Saving
 ******
 
-Click the lower edit box to enter a filename. If it doesn't end with "\ ``.blend`` ",
+Click the lower edit box to enter a filename. If it doesn't end with ``.blend``,
 the extension is automatically appended.
 Then press :kbd:`Return` or click the *Save File* button to save the file.
 

@@ -181,7 +181,7 @@ Weld and Align
 
 the *Weld* tool, :kbd:`W-1` will move selected UVs to their average position
 
-*Align*, :kbd:`W-2`,\ :kbd:`W-3`, and :kbd:`W-4`
+*Align*, :kbd:`W-2`, :kbd:`W-3`, and :kbd:`W-4`
 will line up selected UVs on the X axis, Y axis, or automatically chosen axis.
 
 
@@ -266,7 +266,7 @@ each UV unwrap is its own linked set of coordinates.
 You can lay them on top of one another, and they will onionskin
 (the bottom one will show through the top one). To grab only one though,
 :kbd:`RMB` select one of the UV coordinates,
-and use *Select* →\ *Linked UVs* (:kbd:`Ctrl-L`)
+and use :menuselection:`Select --> Linked UVs` (:kbd:`Ctrl-L`)
 to select connected UVs, not border select because UVs from both will be selected.
 
 

@@ -204,7 +204,7 @@ show a typical extrusion along the side of a surface.
 
 In (*Selecting control-point*) and (:kbd:`Shift-R`),
 a border row of control points were highlighted by selecting a single control point,
-labeled "\ ``C`` ", and then using the handy row select tool (:kbd:`Shift-R`)
+labeled ``C``, and then using the handy row select tool (:kbd:`Shift-R`)
 to select the rest of the control points.
 
 
@@ -225,8 +225,8 @@ That is because the *new* extruded surface section is bunched up there as well.
 
 
 By moving the new section away from the area, the surface begins to "unbunch".
-The direction of movement is marked with a white arrow, labeled "\ ``E`` ",
-and the new section is labeled "\ ``S`` ".
+The direction of movement is marked with a white arrow, labeled ``E``,
+and the new section is labeled ``S``.
 
 You can continue this process of extruding - or adding - new surface sections until you have
 reached the final shape for your model.
@@ -360,9 +360,9 @@ This command is equivalent to creating edges or :kbd:`F` aces for meshes
 The selection must contains only border rows of the same resolution
 (with the same number of control points),
 else Blender will try to do its best to guess what to merge with what, or the merge will fail
-(either silently, or stating that "\ ``Resolution doesn't match`` " if rows with
-different number of points are selected, or that there is "\ ``Too few selections to
-merge`` " if you only selected points in one surface...).
+(either silently, or stating that ``Resolution doesn't match`` if rows with
+different number of points are selected, or that there is ``Too few selections to merge``
+if you only selected points in one surface...).
 
 So to avoid problems, you should always only select border rows with the same number of
 points... Note that you can join a border U-row of one surface with a border V-row of another

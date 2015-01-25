@@ -376,7 +376,7 @@ Just go to the frame you want to fix and :kbd:`Tab` into *Edit mode*.
 There you can move your vertices using all of Blender's mesh shaping tools. When you exit,
 the shape of the mesh will be recorded for that frame of the animation.
 If you want Blender to resume the simulation using the new shape going forward,
-:kbd:`LMB` click '\ *Rebake from next Frame* and play the animation.
+:kbd:`LMB` click *Rebake from next Frame* and play the animation.
 Blender will then pick up with that shape and resume the simulation.
 
 Edit the mesh to correct minor tears and places where the colliding object has punctured the

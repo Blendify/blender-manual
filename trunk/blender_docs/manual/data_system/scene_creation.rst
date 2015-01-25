@@ -66,7 +66,7 @@ and the new scene is to contain the actors or props.
 
 Scenes are listed alphabetically in the drop-down list.
 If you want them to appear in a different order, start them with a numerical ordinal,
-like "\ ``1-`` ".
+like ``1-``.
 The internal reference for a scene is the three-letter abbreviation "SCE".
 
 To add a scene, click on the scene list button, and select *Add New*.
@@ -99,9 +99,9 @@ waiting for you to do creative things.
 Naming a Scene
 ==============
 
-By :kbd:`Shift-LMB` -clicking on the scene name (usually "\ ``Scene.001`` "),
+By :kbd:`Shift-LMB` -clicking on the scene name (usually ``Scene.001``),
 you can change the name of the scene. For example,
-"\ ``BoyMeetsGirl`` " is usually the first of three acts.
+``BoyMeetsGirl`` is usually the first of three acts.
 
 You then proceed to model the props and objects in the scene using the *2-Model*
 window layout.

@@ -66,7 +66,7 @@ of all of its *vertices* and faces.
 
 
 Some fields have extra functionality or features, such as scroll regions.
-When attempting to edit these types of fields it is easier to use {\ :kbd:`Shift-LMB` instead of just :kbd:`LMB`.
+When attempting to edit these types of fields it is easier to use :kbd:`Shift-LMB` instead of just :kbd:`LMB`.
 After you have edited a field click outside of the field's edit area or press :kbd:`Return` to confirm the changes.
 Changes will be reflected in the display window immediately. To cancel, hit :kbd:`Esc`.
 For further descriptions of the other features of an edit field
@@ -80,8 +80,8 @@ The locking feature of the Location, Rotation and Scale fields allows you to con
 transform property solely from the properties panel.
 Once a lock has been activated any other methods used for transformation are blocked.
 For example, if you locked the *Location X* field then you can't use the mouse to
-translate the object along the global X axis. However,
-you can still translate it using the *Location X* edit field.
+translate the object along the global X axis.
+However, you can still translate it using the *Location X* edit field.
 Consider the locking feature as a rigid constraint only changeable from the panel.
 
 To lock a field, click the padlock icon next to the field. The field is unlocked if the icon appears as (

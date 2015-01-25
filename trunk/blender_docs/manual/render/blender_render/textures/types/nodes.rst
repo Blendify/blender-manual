@@ -42,7 +42,7 @@ or the *New* button in the texture panel. Once you have a texture selected, you 
 toggle it to function as a regular texture or a node texture by clicking the *Use Nodes* option in the Node Editor.
 
 The default node setup will appear: a red-and-white checkerboard node connected to an
-*Output* named "\ ``Default`` ". For *texture* nodes,
+*Output* named ``Default``. For *texture* nodes,
 you can create as many Outputs as you like in your node setup. (Other types of node networks,
 as you may recall, are limited to only one Output node.) See the next section for details.
 

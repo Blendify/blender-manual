@@ -52,8 +52,7 @@ Selecting Elements in a Region
 Region selection allows you to select groups of elements within a 2D region in your 3D view.
 The region can be either a circle or rectangle.
 The circular region is only available in *Edit mode*. The rectangular region,
-or "\ *Border Select* ",
-is available in both *Edit mode* and *Object* mode.
+or *Border Select, is available in both *Edit mode* and *Object* mode.
 
 
 .. note::
