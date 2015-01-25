@@ -54,10 +54,7 @@ FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/MassOption;
       <http://www.continuousphysics.com/Bullet/BulletFull/structbtSoftBody_1_1Config.html#a8e9d39cceaf15fd8697b2f8831b2fee1>`__.
     - Python property: ``obj.game.soft_body.shape_threshold``
 - *Welding*
-  Seems to not be hooked up. Blender will tell Bullet to weld any time you enable Soft Body.
-  Look at `BL_BlenderDataConversion.cpp
-  <https://svn.blender.org/svnroot/bf-blender/trunk/blender/source/gameengine/Converter/BL_BlenderDataConversion.cpp>`__
-  where ``objprop.m_soft_welding`` is hard-coded to 0.0f]
+  TODO.
 - *Position Iteration* - Increase the accuracy at a linearly-increasing expense of time.
   The effect is visible especially with Soft Bodies that fall on sharp corners,
   though this can slow down even very simple scenes.
