@@ -244,6 +244,18 @@ For an Add-on that can help you out in the process, check out the
 
 .. _game_engine-physics-bake-keyframes:
 
+
+Digging Deeper
+==============
+
+Sometimes you will want to look at:
+
+- The main Bullet Physics page - http://bulletphysics.org/wordpress/
+- The Bullet Wiki - http://www.bulletphysics.org/mediawiki-1.5.8/index.php?title=Documentation
+- The Bullet API Docs - http://www.continuousphysics.com/Bullet/BulletFull/index.html
+- The Bullet Forums - http://www.bulletphysics.org/Bullet/phpBB3/
+
+
 Recording to Keyframes
 ======================
 
