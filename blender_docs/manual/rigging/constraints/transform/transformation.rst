@@ -50,8 +50,8 @@ Extrapolate
    When you enable this button, the *min* and *max* values are no longer strict limits,
    but rather "markers" defining a proportional (linear) mapping between input and corresponding output values.
    Let's illustrate that with two graphs (*The* *Extrapolate* *principles*).
-   In these pictures, the input range (in abscissa) is set to [\ **1.0**, **4.0** ],
-   and its corresponding output range (in ordinate), to [\ **1.0**, **2.0** ].
+   In these pictures, the input range (in abscissa) is set to [``1.0, 4.0``],
+   and its corresponding output range (in ordinate), to [``1.0, 2.0``].
    The yellow curve represents the mapping between input and output.
 
 

@@ -21,8 +21,8 @@ A vertex is primarily a single point or position in 3D space.
 It is usually invisible in rendering and in *Object mode*.
 Don't mistake the center point of an object for a vertex. It looks similar,
 but it's bigger and you can't select it. (*Vertex example*)
-shows the center point labeled as "\ ``A`` ".
-"\ ``B`` " and "\ ``C`` " are vertices.
+shows the center point labeled as ``A``.
+``B`` and ``C`` are vertices.
 
 A simple way to create a new vertex is to click :kbd:`Ctrl-LMB` in *Edit mode*.
 Of course, as a computer screen is two-dimensional,
@@ -79,8 +79,8 @@ Loops
 
 
 *Edge* and *Face Loops* are sets of faces or edges that form continuous "loops" as shown in
-(*Edge and Face Loops*). The top row (``1`` -\ ``4``) shows a solid view,
-the bottom row (``5`` -\ ``8``) a wireframe view of the same loops.
+(*Edge and Face Loops*). The top row (``1`` - ``4``) shows a solid view,
+the bottom row (``5`` - ``8``) a wireframe view of the same loops.
 
 Note that loops ``2`` and ``4`` do not go around the whole model.
 Loops stop at so called poles because there is no unique way to continue a loop from a pole.

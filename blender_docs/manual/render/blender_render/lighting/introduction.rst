@@ -100,7 +100,7 @@ no *Shadeless*, just plain old middle gray with RGB of (``0.8``, ``0.8``, ``0.8`
 Name this ``Gray``.
 
 Next go to the *Render* context. In the *Render Layers* panel,
-select your new "\ ``Gray`` " material in the *Material* field.
+select your new ``Gray`` material in the *Material* field.
 This will override any materials you may have set, and render everything with this color.
 Using this material, you can now go about adjusting the lighting.
 Just empty this field to get back to your original materials.

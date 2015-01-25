@@ -72,8 +72,7 @@ Visualization
 
 
 By default, Blender highlights selected geometry in orange in both *Object mode* and
-*Edit mode*. The color can be changed in the *User Preferences*
-(:kbd:`Ctrl-Alt-U` →\ *Themes*.)
+*Edit mode*.
 
 In *Object mode* with *Wireframe* shading enabled (:kbd:`Z`),
 objects are displayed in black when unselected and in orange when selected.

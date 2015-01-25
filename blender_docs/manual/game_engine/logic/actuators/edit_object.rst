@@ -112,7 +112,9 @@ Adds an object at the centre of the current object.
 The object that is added needs to be on another, hidden, layer.
    Object
       The name of the object that is going to be added.:
-      ;\ *Time*: the time (in frames) the object stays alive before it disappears. Zero makes it stay forever.
+   Time
+      The time (in frames) the object stays alive before it disappears.
+      Zero makes it stay forever.
    Linear Velocity
       Linear Velocity, works like in the motion actuator but on the created object instead of the object itself.
       Useful for shooting objects, create them with an initial speed.

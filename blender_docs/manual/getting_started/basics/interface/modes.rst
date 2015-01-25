@@ -83,7 +83,7 @@ Modes might affect many things in Blender:
 Notes about modes shortcuts:
 
 - :kbd:`Tab` toggles *Edit* mode.
-- :kbd:`Ctrl-Tab` switches between the *Weight Paint* (meshes)/\ *Pose* (armatures) modes,
+- :kbd:`Ctrl-Tab` switches between the *Weight Paint* (meshes) / *Pose* (armatures) modes,
   and the other current one (by default, the *Object* mode).
   However, the same shortcut has other, internal meanings in some modes
   (e.g. in *Sculpt* mode, it is used to select the current brush)...

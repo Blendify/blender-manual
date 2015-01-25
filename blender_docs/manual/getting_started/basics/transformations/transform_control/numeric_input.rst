@@ -39,7 +39,7 @@ followed by the Y-axis and then the Z-axis.
 You can also combine numeric input with axis locking to limit movement to a particular axis.
 To do so, press :kbd:`G` followed by :kbd:`X`,
 :kbd:`Y` or :kbd:`Z` to indicate the axis. Then type in the transform amount using
-:kbd:`0` -\ :kbd:`9` followed by :kbd:`Return` to confirm.
+(:kbd:`0` - :kbd:`9`) followed by :kbd:`Return` to confirm.
 Pressing :kbd:`X`, :kbd:`Y` or :kbd:`Z` will initially constrain movement to
 the *Global* axis. Pressing :kbd:`X`, :kbd:`Y` or :kbd:`Z` again
 will constrain movement to the orientation set in the *Transform Orientation*
@@ -54,9 +54,9 @@ Rotation
 ========
 
 To specify a value for clockwise rotation, press :kbd:`R`,
-:kbd:`0` -\ :kbd:`9`, then :kbd:`Return` to confirm.
+(:kbd:`0` - :kbd:`9`), then :kbd:`Return` to confirm.
 To specify counter-clockwise rotation press :kbd:`R`, :kbd:`Minus`,
-:kbd:`0` -\ :kbd:`9`, then :kbd:`Return` to confirm. Note that 270 degrees of
+(kbd:`0` - :kbd:`9`), then :kbd:`Return` to confirm. Note that 270 degrees of
 clockwise rotation is equivalent to -90 degrees of counter-clockwise rotation.
 
 
@@ -64,7 +64,7 @@ Scaling
 =======
 
 Objects, faces and edges can be scaled by pressing :kbd:`S`,
-:kbd:`0` -\ :kbd:`9`, then :kbd:`Return` to confirm.,
+(:kbd:`0` - :kbd:`9`), then :kbd:`Return` to confirm.,
 Scaling transformations can also be constrained to an axis by pressing :kbd:`X`,
 :kbd:`Y` or :kbd:`Z` after pressing :kbd:`S`. Essentially,
 scaling with numeric values works in almost identical fashion to translation.

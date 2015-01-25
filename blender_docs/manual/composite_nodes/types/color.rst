@@ -683,7 +683,7 @@ The Color Balance node can adjust the color and values of an image using two dif
 correction formulas.
 
 The *Lift, Gammma, Gain* formula uses *Lift*, *Gamma*, and
-*Gain* calculations to adjust an image.\ *Lift* increases the value of dark
+*Gain* calculations to adjust an image. *Lift* increases the value of dark
 colors, *Gamma* will adjust midtones, and *Gain* adjusts highlights.
 
 The *Offset, Power, Slope* formula uses *Offset*, *Power*,

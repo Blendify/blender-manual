@@ -247,8 +247,8 @@ Using Face Selection
 ====================
 
 To rotate an edge based on faces you must select two faces, (*Adjacent selected faces*),
-otherwise Blender notifies you with an error message, "\ ``ERROR:
-Could not find any select edges that can be rotated`` ". Using either *Rotate Edge CW*
+otherwise Blender notifies you with an error message,
+*"ERROR: Could not find any select edges that can be rotated"*. Using either *Rotate Edge CW*
 or *Rotate Edge CCW* will produce exactly the same results as if you had
 selected the common edge shown in (*Selected edge rotated CW and CCW.*).
 

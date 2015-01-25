@@ -9,9 +9,7 @@ A rig provides a basic setup and allows you to start from a known point and go f
 Different rigs are used for different purposes and emulate different conditions;
 the rig you start with depends on what you want to convey in your scene.
 Lighting can be very confusing, and the defaults do not give good results. Further,
-very small changes can have a dramatic effect on the mood and colors. At major studios,
-lighting is an entire step and specialty. Well,
-let's get out of the darkness of confusion and let me en\ *light* en you.
+very small changes can have a dramatic effect on the mood and colors.
 
 In all the lighting rigs,
 the default camera is always positioned nearly ``15`` degrees off dead-on, about **25 BU**

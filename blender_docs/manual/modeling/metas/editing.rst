@@ -54,8 +54,8 @@ select it and activate *Scale* mode with :kbd:`S`.
    Stiffness.
 
 
-In (*Stiffness*), the meta ball labeled "\ ``A`` ",
-has a smaller *Stiffness* value than the one labeled "\ ``B`` ".
+In (*Stiffness*), the meta ball labeled ``A``,
+has a smaller *Stiffness* value than the one labeled ``B``.
 As you can see, the *green ring* radius is different for each of them.
 
 
@@ -139,9 +139,9 @@ A "family" is a way to regroup several meta objects,
 producing something very similar to having several metas inside the same object.
 
 A family is defined by the left part of an object's name (the one before the dot). Remember,
-an object's name is the one in the "\ *OB* " field, in most panels,
-**not** the "\ *MB* " field, which is the meta datablock's name... For example,
-the *family* part of "\ ``MetaPlane.001`` " is "\ ``MetaPlane`` ".
+an object's name is the one in the *OB* field, in most panels,
+**not** the *MB* field, which is the meta datablock's name... For example,
+the *family* part of ``MetaPlane.001`` is ``MetaPlane``.
 Each meta object in the same "family" is associated with one another as discussed below.
 
 
@@ -154,9 +154,9 @@ Each meta object in the same "family" is associated with one another as discusse
 
 Families of metas are controlled by a *base* *Meta* object which is identified by
 an *Object* name **without** a right part. For example,
-if we have five metas called "\ ``MetaThing`` ", "\ ``MetaThing.001`` ",
-"\ ``MetaThing.002`` ", "\ ``MetaThing.003`` " and "\ ``MetaThing.004`` ",
-the *base* *Meta* object would be "\ ``MetaThing`` ".
+if we have five metas called ``MetaThing`` ", ``MetaThing.001``,
+``MetaThing.002``, ``MetaThing.003`` and ``MetaThing.004``,
+the *base* *Meta* object would be ``MetaThing``.
 
 The *base* *Meta* object determines the basis, the resolution, the threshold,
 *and* the transformations. It also has the material and texture area.

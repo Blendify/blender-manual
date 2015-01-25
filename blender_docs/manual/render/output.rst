@@ -238,7 +238,7 @@ Ridiculously easy (when you learn where the buttons are):
 
 - Add the sequence of images as described above.
 - Set your Output file path and name to wherever you want to save the movie file
-  (e.g. C:\My Documents\MyMovie) in the upper output box of the render buttons.
+  (e.g. ``C:\My Documents\MyMovie``) in the upper output box of the render buttons.
 - Change your Format to a movie file format (AVI, MOV, FFMPEG) and CODEC.
 - Set your framerate to match whatever framerate the sequence is to be played back in.
   Under the Anim/Playback buttons.
@@ -247,5 +247,5 @@ Ridiculously easy (when you learn where the buttons are):
 
 The single movie file is created and saved;
 the name is what you specified but with the starting frame and ending frame numbers appended
-(e.g. MyMovie0000-0250.avi)
+(e.g. ``MyMovie0000-0250.avi``)
 

@@ -18,7 +18,7 @@ This will create a visually-identical copy of the selected object(s). The copy i
 the same position as the original object and you are automatically placed in *Grab*
 mode. Reference (*Duplicate Example*) for the discussions below.
 
-This copy is a new object, which "\ **shares** " some datablocks with the original object
+This copy is a new object, which **shares** some datablocks with the original object
 (by default, all the Materials, Textures, and Ipos), but which has copied others,
 like the mesh, for example.
 This is why this form of duplication is sometimes called "shallow link",

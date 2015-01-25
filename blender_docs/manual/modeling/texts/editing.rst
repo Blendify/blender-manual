@@ -91,7 +91,7 @@ Example: Text Flow
 
 
 With two or more frames you can organize text to a finer degree. For example,
-create a text object and enter "\ ``Blender is super duper`` ".
+create a text object and enter ``Blender is super duper``.
 This text object has a frame;
 it just isn't visible because its *Width* is **0.0**.
 

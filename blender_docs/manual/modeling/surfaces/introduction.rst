@@ -91,7 +91,7 @@ or, to a lesser extent, the filling of closed 2D curves. And you can have "1D" c
 like a NURBS surface with only one row (either in U or V direction) of control points produces only a curve...
 
 Visually you can tell which is which by entering *Edit* mode and looking at the 3D window's header:
-either the header shows "\ *Surface* " or "\ *Curve* " as one of the menu choices. Also,
+either the header shows *Surface* or *Curve* as one of the menu choices. Also,
 you can :doc:`extrude </modeling/curves/editing/advanced>` a whole NURBS surface curve to create a surface,
 but you can't with a simple NURBS curve (we talk here about the "standard" *Extrude* tool,
 the one activated with the *E* shortcut, not the quite-specific curve extrusion tools - yes, I know,
@@ -178,10 +178,10 @@ or *Bezier*, with the same properties as for curves. And as with curves, only op
    Endpoint U.
 
 
-In (*Endpoint U*), the U interpolation axis is labeled as "\ ``U`` " and the V
-interpolation axis is labeled as "\ ``V`` ". The ``U`` 's interpolation axis has
+In (*Endpoint U*), the U interpolation axis is labeled as ``U`` and the V
+interpolation axis is labeled as ``V``. The ``U`` 's interpolation axis has
 been set to *Endpoint* and as such the surface now extends to the outer edges from
-"\ ``E1`` " to "\ ``E2`` " along the ``U`` interpolation axis.
+``E1`` to ``E2`` along the ``U`` interpolation axis.
 
 To cause the surface to extend to all edges you would set the ``V`` 's axis to
 *Endpoint* as well.
@@ -224,7 +224,7 @@ Weight
 Guess what? Yes, it works exactly like :doc:`NURBS Curves </modeling/curves/introduction#weight>` ! *Weight* specifies
 how much each control point "pulls" on the curve.
 
-In (*Surface Weight 5*), a single control point, labeled "\ ``C`` ",
+In (*Surface Weight 5*), a single control point, labeled ``C``,
 has had its *Weight* set to **5.0** while all others are at their default of **1.
 0**. As you can see, that control point *pulls* the surface towards it.
 

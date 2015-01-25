@@ -151,11 +151,8 @@ To move/scale/rotate linked objects, turn them into `Proxy Objects`_.
    When Appending or Linking certain resources such as mesh data,
    it may not be instantly visible in the 3D Viewport.
    This is because the data has been loaded into Blender but has not been assigned to an object,
-   which would allow it to be seen. You can verify this by looking in the *Outliner*
-   window and switching it to *OOPS Schematic* view
-   (you may need to have the *Displays Scene datablock* button selected in its header).
-   In the OOPS Schematic picture you can see that "\ ``Wheel`` " is not linked to any
-   object.
+   which would allow it to be seen.
+   You can verify this by looking in the *Outliner* window.
 
 
    .. figure:: /images/Manual-UsingLinkLibraries-LinksAndMats.jpg
@@ -261,7 +258,7 @@ Use :kbd:`Ctrl-LMB` on a button to restrict or unrestrict that layer.
 To make a proxy object for yourself, establish a link to the source object as described above.
 With that linked copy selected (:kbd:`RMB`) and in view (you can see it in the 3D View),
 press :kbd:`Ctrl-Alt-P` and confirm the *Make Proxy* dialog.
-The object will be named with the original name plus a "\ ``_proxy`` " suffix.
+The object will be named with the original name plus a ``_proxy`` suffix.
 You may now move and modify the proxy. When selected, it will look like a local object
 (outlined in orange).
 

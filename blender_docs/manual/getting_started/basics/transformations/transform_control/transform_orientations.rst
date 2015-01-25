@@ -203,8 +203,8 @@ orientations defined from objects use the local orientation of the object wherea
 defined from selected mesh elements (vertices, edges, faces)
 use the normal orientation of the selection.
 
-The *Transform Orientations* panel, found in the "\ :kbd:`N` Properties Panel,
-" can be used to manage transform orientations: selecting the active orientation,
+The *Transform Orientations* panel, found in the Properties Panel,
+can be used to manage transform orientations: selecting the active orientation,
 adding and deleting custom orientations.
 
 

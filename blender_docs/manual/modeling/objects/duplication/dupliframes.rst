@@ -68,8 +68,7 @@ be further enhanced by editing the curve.
 To transform all monkeys into real objects,
 first :kbd:`Ctrl-Shift-A` to *Make Duplicates Real*.
 All monkeys are now real objects, but still linked copies. To change this,
-*Object* →\ *Make Single User* →\ *Object&Data* then choose
-*All*.
+:menuselection:`Object --> Make Single User --> Object&Data`` then choose *All*.
 
 
 .. note::

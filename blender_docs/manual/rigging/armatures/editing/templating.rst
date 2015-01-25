@@ -116,7 +116,7 @@ OK now let us see some important ground rules:
 - If you try to *Convert* without template bones (i.e.
   either an empty armature selected as template,
   or no bones selected in the current edited armature),
-  you will get the error message "\ ``No Template and no deforming bones selected`` ", and nothing will occur.
+  you will get the error message ``No Template and no deforming bones selected``, and nothing will occur.
 
 
 .. list-table::
@@ -147,8 +147,8 @@ No, View, Joint buttons
 
 
 .. list-table::
-   Templating: bone roll example. The ``Bone.003`` -to-\ ``Bone.005`` chain is the mapped-to-stroke
-   version of ``Bone`` -to-\ ``Bone.002`` selected one, and ``Bone.001`` has a modified roll angle.
+   Templating: bone roll example. The ``Bone.003`` -to- ``Bone.005`` chain is the mapped-to-stroke
+   version of ``Bone`` -to- ``Bone.002`` selected one, and ``Bone.001`` has a modified roll angle.
 
    * - .. figure:: /images/ManRiggingTemplatingBoneRollExNo.jpg
           :width: 200px
@@ -271,12 +271,12 @@ Auto naming and placeholders, using a simple leg template.
 Static text line
    The line just above the *Peel Objects* button gives you two informations:
 
-   - The "\ *n* ``joints`` " part gives you the number of joints
+   - The *n* ``joints`` part gives you the number of joints
      (i.e. bones' ends, with connected ends considered as one joint),
      either from the selected bones of the edited armature, or in the whole other template armature.
    - The second part is only present when another armature has been selected as template -
      it gives you *the root bone's name of the chain that will be mapped to the strokes*.
      Or, while you are drawing a stroke with straight segments,
      the name of the bone corresponding to the current segment
-     (and "\ ``Done`` " when you have enough segments for all bones in the template chain).
+     (and ``Done`` when you have enough segments for all bones in the template chain).
 

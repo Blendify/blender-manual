@@ -266,7 +266,8 @@ And now, the paths options:
 Around Frame
    Around Frame, Display Paths of poses within a fixed number of frames around the current frame.
    When you enable this button, you get paths for a given number of frames before and after the current one
-   (again, as with ghosts).;\ *In Range*
+   (again, as with ghosts).
+In Range
    In Range, Display Paths of poses within specified range.
 
 Display Range

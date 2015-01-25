@@ -64,7 +64,7 @@ Multiply
    Although many people like to use AO alone as a quick shortcut to light a scene,
    the results it gives will be muted and flat, like an overcast day. In most cases,
    it is best to light a scene properly with Blender's standard lamps, then use AO on top of that,
-   set to "\ *Multiply* ", for the additional details and contact shadows.
+   set to *Multiply*, for the additional details and contact shadows.
 
 
 The *Gather* panel contains settings for the ambient occlusion quality.
@@ -159,9 +159,9 @@ Attenuation
       The historical sample method, more prone to "bias" artifacts...
 
       Bias
-         The angle (in radians) the hemisphere will be made narrower (i.e.
-         the hemisphere will no longer be a real hemisphere: its section will no longer be a semicircle,
-         but an arc of a circle of "\ *pi* ``- Bias`` " radians).
+         The angle (in radians) the hemisphere will be made narrower
+         (i.e. the hemisphere will no longer be a real hemisphere: its section will no longer be a semicircle,
+         but an arc of a circle of ``pi - bias`` radians).
 
 
          The bias setting allows you to control how smooth "smooth" faces will appear in AO rendering.

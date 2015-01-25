@@ -267,7 +267,7 @@ as seen in *Loading a Type 1 font file.*
 
 
 If you select a font that Blender can't understand,
-you will get the error "\ ``Not a valid font`` ".
+you will get the error ``Not a valid font``.
 
 Remember the same font will be applied to all chars with same style in a text,
 but that a separate font is required for each style. For example,

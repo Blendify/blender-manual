@@ -28,7 +28,7 @@ Wave Modifier
 The Wave modifier adds a ripple-like motion to an object's geometry.
 
 This modifier is available for meshes, lattices, curves,
-surfaces and texts, with one restriction for non-\ *mesh* objects:
+surfaces and texts, with one restriction for non-mesh objects:
 Activating *Normals* or typing a name in *VGroup* will simply deactivate the modifier.
 
 
@@ -141,6 +141,6 @@ The relationship of the above values is described here:
 To obtain a nice wave effect similar to sea waves and close to a sinusoidal wave,
 make the distance between following ripples and the ripple width equal; that is,
 the *Narrowness* value must be equal to ``2/Width``. E.g.
-for *Width* =\ ``1``, set *Narrow* to ``2``.
+for *Width* = ``1``, set *Narrow* to ``2``.
 
 

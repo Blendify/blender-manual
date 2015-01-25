@@ -161,19 +161,19 @@ Viscosity
    honey, oil, or water).
 
    For manual entry, please note that the normal real-world viscosity (the so-called dynamic viscosity)
-   is measured in Pascal-seconds (Pa.s), or in Poise units (P, equal to 0.1 Pa.s, pronounced "\ *pwaz* ",
+   is measured in Pascal-seconds (Pa.s), or in Poise units (P, equal to 0.1 Pa.s, pronounced *pwaz*,
    from the Frenchman Jean-Louis Poiseuille, who discovered the laws on "the laminar flow of viscous fluids"),
-   and commonly centiPoise units (cP, equal to 0.001 Pa.s, "\ *sentipwaz* "). Blender, on the other hand,
-   uses the kinematic viscosity (which is dynamic viscosity in Pa.s, divided by the density in kg.m\ :sup:`-3`,
-   unit ``m``:sup:`2` ``.s``:sup:`-1`).
+   and commonly centiPoise units (cP, equal to 0.001 Pa.s, *sentipwaz*).
+   Blender, on the other hand, uses the kinematic viscosity
+   (which is dynamic viscosity in Pa.s, divided by the density in kg.m :sup:`-3`, unit ``m``:sup:`2` ``.s``:sup:`-1`).
    The table below gives some examples of fluids together with their dynamic and kinematic viscosities.
 
    Manual entries are specified by a floating point number and an exponent.
    These floating point and exponent entry fields (scientific notation)
    simplify entering very small or large numbers. The viscosity of water at room temperature is 1.002 cP,
-   ou 0.001002 Pa.s; the density of water is about 1000 kg.m\ :sup:`-3`, which gives us a kinematic viscosity of
-   0.000001002 m\ :sup:`2`.s\ :sup:`-1` - so the entry would be 1.002 times 10 to the minus six (``1.
-   002?10``:sup:`-6` in scientific notation). Hot Glass and melting iron is a fluid, but very thick;
+   ou 0.001002 Pa.s; the density of water is about 1000 kg.m :sup:`-3`, which gives us a kinematic viscosity of
+   0.000001002 m :sup:`2`.s :sup:`-1` - so the entry would be 1.002 times 10 to the minus six
+   (``1.002?10``:sup:`-6` in scientific notation). Hot Glass and melting iron is a fluid, but very thick;
    you should enter something like ``1.0?10``:sup:`0` (= 1.0) as its kinematic viscosity
    (indicating a value of ``1.0?10``:sup:`6` cP).
 
@@ -190,9 +190,7 @@ Viscosity
    Oil viscosity varies by SAE rating.
    Glass at room temperature is basically a solid, but glass at 1500 degrees Celsius flows (nearly) like water.
 
-
-..    Comment: <!--
-
+..
    There's still some things that aren't correct in this table, I think.
    Let me put as clear as I can:
    *The dynamic viscosity international unit is the Pascal-seconds (Pa.s).
@@ -201,7 +199,7 @@ Viscosity
    *The density international unit is in kg.m^-3.
    Which implies that a Pascal corresponds to 1 kg.m^-1.s^-2,
    or else you cannot divide Pa.s by kg.m^-3 to obtain m^2.s^-1 !
-
+..
    So if I take the kinematics values given bellow,
    and try to get the corresponding dynamic values, I have:
    *water: density: about 1000 (kg.m^-3); kinematic viscosity: 1×10^-6 (m^2.s^-1)
@@ -217,16 +215,14 @@ Viscosity
    ketchup density should be of 1×10^3 kg.m^-3 (same as water density, coherent I think),
    melting glass density should be of 1×10^12 kg.m^-3 (a thousand million times water density,
    it's more like black hole!)
-
+..
    So, either the values in the tables are wrong (one way or the other),
    or the law to pass from dynamic viscosity to kinematic viscosity is just a "trick",
    an approximation, only working with fluids around water viscosity...
-
+..
    Don't know, I'm not a physicist, but there definitively something wrong here,
    so if someone who knows better about this matter could check and correct it, it would be nice!
    --Mont29, 2009/08
-
-   --> .
 
 
 .. list-table::
@@ -235,25 +231,25 @@ Viscosity
 
    * - Fluid
      - dynamic viscosity (in cP)
-     - kinematic viscosity (Blender, in m\ :sup:`2`.s\ :sup:`-1`)
+     - kinematic viscosity (Blender, in m :sup:`2`.s :sup:`-1`)
    * - Water (20- C)
-     - 1.002×10\ :sup:`0` (1.002)
-     - 1.002×10\ :sup:`-6` (0.000001002)
+     - 1.002×10 :sup:`0` (1.002)
+     - 1.002×10 :sup:`-6` (0.000001002)
    * - Oil SAE 50
-     - 5.0×10\ :sup:`2` (500)
-     - 5.0×10\ :sup:`-5` (0.00005)
+     - 5.0×10 :sup:`2` (500)
+     - 5.0×10 :sup:`-5` (0.00005)
    * - Honey (20- C)
-     - 1.0×10\ :sup:`4` (10,000)
-     - 2.0×10\ :sup:`-3` (0.002)
+     - 1.0×10 :sup:`4` (10,000)
+     - 2.0×10 :sup:`-3` (0.002)
    * - Chocolate Syrup
-     - 3.0×10\ :sup:`4` (30,000)
-     - 3.0×10\ :sup:`-3` (0.003)
+     - 3.0×10 :sup:`4` (30,000)
+     - 3.0×10 :sup:`-3` (0.003)
    * - Ketchup
-     - 1.0×10\ :sup:`5` (100,000)
-     - 1.0×10\ :sup:`-1` (0.1)
+     - 1.0×10 :sup:`5` (100,000)
+     - 1.0×10 :sup:`-1` (0.1)
    * - Melting Glass
-     - 1.0×10\ :sup:`15`
-     - 1.0×10\ :sup:`0` (1.0)
+     - 1.0×10 :sup:`15`
+     - 1.0×10 :sup:`0` (1.0)
 
 
 Realworld-size
@@ -348,8 +344,8 @@ Bake Button
 Perform the actual fluid simulation. Blender will continue to work normally,
 except there will be a status bar in the top of the window, next to the render pulldown.
 Pressing :kbd:`Esc` or the "x" next to the status bar will abort the simulation.
-Afterwards two "\ ``.bobj.gz`` " (one for the *Final* quality,
-one for the *Preview* quality), plus one "\ ``.bvel.gz`` "
+Afterwards two ``.bobj.gz`` (one for the *Final* quality,
+one for the *Preview* quality), plus one ``.bvel.gz``
 (for the *Final* quality) will be in the selected output directory for each frame.
 
 
@@ -361,17 +357,11 @@ Bake directory
 Directory and file prefix to store baked surface meshes.
 
 This is similar to the animation output settings, only selecting a file is a bit special:
-when you select any of the previously generated surface meshes (e.g.
-"\ ``test1_fluidsurface_final_0132.bobj.gz`` "), the prefix will be automatically set
-("\ ``test1_`` " in this example).
+when you select any of the previously generated surface meshes
+(e.g.  ``test1_fluidsurface_final_0132.bobj.gz``),
+the prefix will be automatically set (``test1_`` in this example).
 This way the simulation can be done several times with different settings,
 and allows quick changes between the different sets of surface data.
-
-The default value is "\ ``/tmp/`` ", which is probably *not* what you want. Choose an
-appropriate directory-name and file prefix so that these files will be stored in an
-appropriate location *and* named in such a way that two different fluid-simulations won't
-conflict with one another (if you're intending to specify only a directory-name here, i.e.
-without a filename-prefix, don't forget the trailing "\ ``/`` ").
 
 
 Notes
