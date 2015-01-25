@@ -1,9 +1,12 @@
 
 ..    TODO/Review: {{review|}} .
 
-**************
+*****
+Edges
+*****
+
 Make Edge/Face
-**************
+==============
 
 .. admonition:: Reference
    :class: refbox
@@ -19,14 +22,14 @@ We have already discussed this tool in the
 
 
 Set Edge Attributes
-*******************
+===================
 
 Edges can have several different attributes that affect how certain other tools affect the
 mesh.
 
 
 Mark Seam and Clear Seam
-========================
+------------------------
 
 .. admonition:: Reference
    :class: refbox
@@ -42,7 +45,7 @@ These commands set or unset this flag for selected edges.
 
 
 Mark Sharp and Clear Sharp
-==========================
+--------------------------
 
 .. admonition:: Reference
    :class: refbox
@@ -58,7 +61,7 @@ As seams, it is a property of edges, and these commands set or unset it for sele
 
 
 Adjust Bevel Weight
-===================
+-------------------
 
 .. admonition:: Reference
    :class: refbox
@@ -76,7 +79,7 @@ you can set the (average) bevel weight of selected edges.
 
 
 Crease SubSurf
-==============
+--------------
 
 .. admonition:: Reference
    :class: refbox
@@ -95,7 +98,7 @@ To clear the crease edge property, enter a value of **-1**.
 
 
 Edge Slide
-**********
+==========
 
 .. admonition:: Reference
    :class: refbox
@@ -132,7 +135,7 @@ to 1% steps. The default is 5% steps per move.
 
 
 Usage
-=====
+-----
 
 By default, the position of vertices on the edge loop move as a percentage of the distance
 between their original position and the adjacent edge loop, regardless of the edges' lengths.
@@ -153,7 +156,7 @@ between their original position and the adjacent edge loop, regardless of the ed
 
 
 Even mode
----------
+^^^^^^^^^
 
 *Even* mode keeps the shape of the selected edge loop the same as one of the edge loops adjacent to it,
 rather than sliding a percentage along each perpendicular edge.
@@ -187,7 +190,7 @@ conforming to the shape of one of the bounding edge loops.
 
 
 Limitations & Workarounds
--------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 There are restrictions on the type of edge selections that can be operated upon.
 Invalid selections are:
@@ -213,7 +216,7 @@ in different edge loops.
 
 
 Rotate Edge
-***********
+===========
 
 .. admonition:: Reference
    :class: refbox
@@ -244,7 +247,7 @@ or on two selected vertices or two selected faces that implicitly share an edge 
 
 
 Using Face Selection
-====================
+--------------------
 
 To rotate an edge based on faces you must select two faces, (*Adjacent selected faces*),
 otherwise Blender notifies you with an error message,
@@ -254,7 +257,7 @@ selected the common edge shown in (*Selected edge rotated CW and CCW.*).
 
 
 Delete Edge Loop
-****************
+================
 
 .. admonition:: Reference
    :class: refbox
@@ -278,7 +281,7 @@ This will create one face-loop where two previously existed.
 
 
 Example
-=======
+-------
 
 The selected edge loop on the UV Sphere has been deleted and the faces have been merged with
 the surrounding edges. If the edges had been deleted by choosing *Edges* from the
@@ -301,7 +304,7 @@ there would be an empty band of deleted faces all the way around the sphere inst
 
 
 Collapse
-********
+========
 
 .. admonition:: Reference
    :class: refbox
@@ -331,7 +334,7 @@ removing the face loop it ran through.
 
 
 Edge Split
-**********
+==========
 
 .. admonition:: Reference
    :class: refbox
@@ -361,7 +364,7 @@ a hole will be created, and the selected edges are duplicated to form the border
 
 
 Bridge Edge Loops
-*****************
+=================
 
 .. admonition:: Reference
    :class: refbox
