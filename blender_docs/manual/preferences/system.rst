@@ -24,7 +24,6 @@ DPI
    pressing :kbd:`Ctrl` and dragging :kbd:`MMB` left and right over a panel to resize its contents,
    or use the :kbd:`NumpadPlus` and :kbd:`NumpadMinus` to zoom in and out the contents.
    Pressing :kbd:`Home` (Show All) will reset the zooming at the screen/panel focused by the mouse pointer.
-   Minimum: **48** , Maximum: **128** , Default:\ **72**
 Frame Server Port
    TCP/IP port used in conjunction with the IP Address of the machine for frameserver rendering.
    Used when working with distributed rendering.
@@ -32,11 +31,9 @@ Frame Server Port
    existing service ports used by your Operating System and/or softwares.
    Always consult your operating system documentation and services or
    consult your system administrator before changing this value.
-   Minimum: **0** , Maximum: **32727** , Default: **8080**
 Console Scrollback
    The number of lines, buffered in memory of the console window.
    Useful for debugging purposes and command line rendering.
-   Minimum: **32** , Maximum: **32768** , Default: **256**
 
 
 Sound
