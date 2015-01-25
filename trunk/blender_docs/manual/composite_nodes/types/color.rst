@@ -65,7 +65,6 @@ Color correction using Curves
 
 .. figure:: /images/Manual-Compo-Color-RGB.jpg
    :width: 320px
-   :figwidth: 320px
 
    Color correction with curves
 
@@ -83,7 +82,6 @@ Color correction using Black/White Levels
 
 .. figure:: /images/Manual-Nodes-Curves-example-colorcorrection-levels.jpg
    :width: 320px
-   :figwidth: 320px
 
    Color correction with Black/White Levels
 
@@ -109,7 +107,6 @@ Effects
 
 .. figure:: /images/Manual-Nodes-RGBCurve-Ex.jpg
    :width: 320px
-   :figwidth: 320px
 
    Changing colors
 
@@ -392,7 +389,6 @@ Bright/Contrast
 
 .. figure:: /images/Manual-Nodes-BrightContrast.jpg
    :width: 320px
-   :figwidth: 320px
 
    A basic example
 
@@ -410,7 +406,6 @@ Notes
 
 .. figure:: /images/Manual-Nodes-BrightClamp.jpg
    :width: 320px
-   :figwidth: 320px
 
 
 It is possible that this node will put out a value set that has values beyond normal range, i.
@@ -432,7 +427,6 @@ Gamma
 
 .. figure:: /images/Manual-Nodes-Gamma.jpg
    :width: 320px
-   :figwidth: 320px
 
 
 A reason for applying gamma correction to the final render is to correct lighting issues.
@@ -462,7 +456,6 @@ Invert
 
 .. figure:: /images/Manual-Nodes-Invert.jpg
    :width: 320px
-   :figwidth: 320px
 
 
 This handy node inverts the colors in the input image, producing a negative.
@@ -505,7 +498,6 @@ Examples
 
 .. figure:: /images/Manual-Compositing-AlphaOver-example.jpg
    :width: 300px
-   :figwidth: 300px
 
    Assembling a composite Image using AlphaOver
 
@@ -518,7 +510,6 @@ The resulting image is a composite of the two source images.
 
 .. figure:: /images/Manual-Compositing-AlphaOver-seethru.jpg
    :width: 300px
-   :figwidth: 300px
 
    Animated See-Through/Sheer SFX using AlphaOver - Frame 11
 
@@ -604,7 +595,6 @@ the other having inverted (reversed?) Z-values as inputs, obtained using for eac
 
 .. figure:: /images/Manual-Node-ZCombine_ex_alpha.jpg
    :width: 300px
-   :figwidth: 300px
 
    Alpha and Z-Combine node.
 
@@ -614,7 +604,6 @@ Examples
 
 .. figure:: /images/Manual-Compositing-Z-Offset-example.jpg
    :width: 300px
-   :figwidth: 300px
 
    Choosing closest pixels
 
@@ -642,7 +631,6 @@ moves to the right created the illusion of depth as Bambi moved through the fore
 
 .. figure:: /images/Manual-Compositing-Z-Offset-ex_images.jpg
    :width: 300px
-   :figwidth: 300px
 
    Mix and Match Images
 
@@ -655,7 +643,6 @@ yields the example to the right.
 
 .. figure:: /images/Manual-Node-ZCombine_example.jpg
    :width: 300px
-   :figwidth: 300px
 
    Z-Combine in action
 

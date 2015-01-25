@@ -38,7 +38,6 @@ projections* image below.
 
 .. figure:: /images/Manual-Part-I-3DPerspective.jpg
    :width: 630px
-   :figwidth: 630px
 
    Orthographic (left) and perspective (right) projections.
 
@@ -131,7 +130,6 @@ Description
 
 .. figure:: /images/Manual-Part-I-3DView2.5.jpg
    :width: 300px
-   :figwidth: 300px
 
    A 3D viewport's View menu.
 
@@ -357,7 +355,6 @@ Quad View
 
 .. figure:: /images/3D_Interaction-Navigating-3D_view-Quad_View.jpg
    :width: 340px
-   :figwidth: 340px
 
    Quad View
 
@@ -392,7 +389,6 @@ Description
 
 .. figure:: /images/3D_Interaction-Navigating-3D_view-Region_Clipping.jpg
    :width: 340px
-   :figwidth: 340px
 
    Region/Volume clipping.
 
@@ -461,7 +457,6 @@ and dolly the camera around without any of those limitations.
 
 .. figure:: /images/3D_Interaction-Navigating-3D_view-Navigation_Mode.jpg
    :width: 173px
-   :figwidth: 173px
 
    View Navigation.
 

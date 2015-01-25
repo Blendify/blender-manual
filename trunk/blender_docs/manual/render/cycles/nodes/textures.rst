@@ -9,7 +9,6 @@ Image Texture
 
 .. figure:: /images/Manual_cycles_nodes_tex_image.jpg
    :width: 200px
-   :figwidth: 200px
 
    Image texture from `GoodTextures.com <http://www.goodtextures.com/>`__
 
@@ -47,7 +46,6 @@ Environment Texture
 
 .. figure:: /images/Manual_cycles_nodes_tex_environment.jpg
    :width: 200px
-   :figwidth: 200px
 
    HDR image from `OpenFootage.net <http://www.openfootage.net/?p=986>`__
 
@@ -78,7 +76,6 @@ Sky Texture
 
 .. figure:: /images/Manual_cycles_nodes_tex_sky.jpg
    :width: 200px
-   :figwidth: 200px
 
    Sky Texture
 
@@ -105,7 +102,6 @@ Noise Texture
 
 .. figure:: /images/Manual_cycles_nodes_tex_noise.jpg
    :width: 200px
-   :figwidth: 200px
 
    Noise Texture with high detail
 
@@ -132,7 +128,6 @@ Wave Texture
 
 .. figure:: /images/Manual_cycles_nodes_tex_wave.jpg
    :width: 200px
-   :figwidth: 200px
 
    Default wave texture
 
@@ -165,13 +160,11 @@ Voronoi Texture
 
    * - .. figure:: /images/Manual_cycles_nodes_tex_voronoi_intensity.jpg
           :width: 200px
-          :figwidth: 200px
 
           Voronoi texture, type: Intensity
 
      - .. figure:: /images/Manual_cycles_nodes_tex_voronoi_cells.jpg
           :width: 200px
-          :figwidth: 200px
 
           Voronoi texture, type: Cells
 
@@ -201,13 +194,11 @@ Advanced procedural noise texture. Note that it often needs some adjustments
 
    * - .. figure:: /images/Manual_cycles_nodes_tex_musgrave_nodes.jpg
           :width: 200px
-          :figwidth: 200px
 
           Nodes for the image to the right
 
      - .. figure:: /images/Manual_cycles_nodes_tex_musgrave.jpg
           :width: 200px
-          :figwidth: 200px
 
           Remapped Musgrave texture such that most values are visible
 
@@ -240,7 +231,6 @@ Gradient Texture
 
 .. figure:: /images/Manual_cycles_nodes_tex_gradient.jpg
    :width: 200px
-   :figwidth: 200px
 
    Gradient texture using object coordinates
 
@@ -264,7 +254,6 @@ Magic Texture
 
 .. figure:: /images/Manual_cycles_nodes_tex_magic.jpg
    :width: 200px
-   :figwidth: 200px
 
    Magic texture: Depth 10, Distortion 2.0
 
@@ -289,7 +278,6 @@ Checker Texture
 
 .. figure:: /images/Manual_cycles_nodes_tex_checker.jpg
    :width: 200px
-   :figwidth: 200px
 
    Default Checker texture
 
@@ -314,7 +302,6 @@ Brick Texture
 
 .. figure:: /images/Manual_cycles_nodes_tex_brick.jpg
    :width: 200px
-   :figwidth: 200px
 
    Brick texture: Colors changed, Squash 0.62, Squash Frequency 3.
 

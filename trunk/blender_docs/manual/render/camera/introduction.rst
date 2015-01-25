@@ -43,7 +43,6 @@ Changing the Active Camera
 
 .. figure:: /images/Manual-CameraView-ActiveCamera.jpg
    :width: 200px
-   :figwidth: 200px
 
    Active camera (left one).
 
@@ -87,7 +86,6 @@ Lens
 
 .. figure:: /images/Manual-CameraPanel-2.57.png
    :width: 270px
-   :figwidth: 270px
 
    Camera Lens panel.
 
@@ -104,7 +102,6 @@ Perspective / Orthographic / Panoramic
 
    .. figure:: /images/Manual-CameraView-Camera.jpg
       :width: 200px
-      :figwidth: 200px
 
       A camera with the clipping limits and focal point visible.
 
@@ -140,7 +137,6 @@ Camera
 
 .. figure:: /images/Manual-Camera-presets-panel.jpg
    :width: 270px
-   :figwidth: 270px
 
    Camera Presets panel.
 
@@ -158,7 +154,6 @@ Depth of Field
 
 .. figure:: /images/Manual-Camera-dof-panel.jpg
    :width: 270px
-   :figwidth: 270px
 
    Camera Display panel
 
@@ -188,7 +183,6 @@ Display
 
 .. figure:: /images/Manual-Camera-display-panel.jpg
    :width: 270px
-   :figwidth: 270px
 
    Camera Display panel
 
@@ -204,7 +198,6 @@ Mist
 
 .. figure:: /images/Manual-Camera-camera-view.jpg
    :width: 350px
-   :figwidth: 350px
    :align: right
 
    Camera view displaying safe areas, sensor and name

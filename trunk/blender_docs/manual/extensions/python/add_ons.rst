@@ -17,7 +17,6 @@ an index of Add-ons that are included with Blender as well as listing a number o
 
 .. figure:: /images/Userpref_addons_en_oct20_2013.jpg
    :width: 640px
-   :figwidth: 640px
 
 
 Installation of an Add-on

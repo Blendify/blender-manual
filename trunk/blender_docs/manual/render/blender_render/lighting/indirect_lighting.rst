@@ -13,28 +13,24 @@ Direct+Indirect Lighting:
 
 .. figure:: /images/27x-Manual-Lighting-Inderect_Lighting-01.jpg
    :width: 400px
-   :figwidth: 400px
 
    Direct Lighting Schematic.
 
 
 .. figure:: /images/27x-Manual-Lighting-Inderect_Lighting-02.jpg
    :width: 400px
-   :figwidth: 400px
 
    Direct Lighting Render
 
 
 .. figure:: /images/27x-Manual-Lighting-Inderect_Lighting-03.jpg
    :width: 400px
-   :figwidth: 400px
 
    Direct+Indirect Lighting Schematic
 
 
 .. figure:: /images/27x-Manual-Lighting-Inderect_Lighting-04.jpg
    :width: 400px
-   :figwidth: 400px
 
    Direct+Indirect Lighting Render
 
@@ -47,7 +43,6 @@ Inderect Lighting only works with Approximate gather method.
 
 .. figure:: /images/27x-Manual-Lighting-Inderect_Lighting.jpg
    :width: 300px
-   :figwidth: 300px
 
    Inderect Lighting parameters.
 

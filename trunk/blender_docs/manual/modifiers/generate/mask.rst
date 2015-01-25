@@ -16,7 +16,6 @@ Mode
    Vertex Group
       .. figure:: /images/25-Manual-Modifiers-Mask-VG.jpg
          :width: 350px
-         :figwidth: 350px
 
          Vertex Group
 
@@ -28,7 +27,6 @@ Mode
    Armature
       .. figure:: /images/25-Manual-Modifiers-Mask-A.jpg
          :width: 350px
-         :figwidth: 350px
 
          Armature
 

@@ -160,7 +160,6 @@ Let's make a simple example:
 
 .. figure:: /images/2.5_Manual-Part-II-curvesDeform_exampleMonkeyOnCurve2.jpg
    :width: 650px
-   :figwidth: 650px
 
    Monkey deformations.
 

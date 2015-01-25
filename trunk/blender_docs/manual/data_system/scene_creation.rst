@@ -14,7 +14,6 @@ usually displayed at the top of your screen:
 
 .. figure:: /images/Manual-Scene-Header.jpg
    :width: 600px
-   :figwidth: 600px
 
    Info window header. A) Window type icon,
    B) Menu, C) Screen Layouts, D) Scenes, E) Renderer Options

@@ -88,7 +88,6 @@ Overriding Materials to Reset Lighting
 
 .. figure:: /images/25-Manual-Lighting-MatField.jpg
    :width: 310px
-   :figwidth: 310px
 
    Material field in the Render Layers panel
 

@@ -77,7 +77,6 @@ Paint
 
 .. figure:: /images/DynamicPaint-Guide-PaintSurface.jpg
    :width: 360px
-   :figwidth: 360px
 
    Paint Surface
 
@@ -95,7 +94,6 @@ Displace
 
 .. figure:: /images/DynamicPaint-Guide-DisplaceSurface.jpg
    :width: 360px
-   :figwidth: 360px
 
    Displace Surface
 
@@ -114,7 +112,6 @@ Waves
 
 .. figure:: /images/DynamicPaint-Guide-WavesSurface.jpg
    :width: 360px
-   :figwidth: 360px
 
    Waves Surface
 
@@ -154,7 +151,6 @@ Weight
 
 .. figure:: /images/DynamicPaint-Guide-WeightSurface.jpg
    :width: 360px
-   :figwidth: 360px
 
    Weight Surface
 

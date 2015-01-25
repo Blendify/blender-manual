@@ -8,7 +8,6 @@ The Visibility actuator allows the user to change the visibility of objects duri
 
 .. figure:: /images/2.5_Game_Engine_Actuator_Visibility.jpg
    :width: 271px
-   :figwidth: 271px
 
    Visibility actuator
 

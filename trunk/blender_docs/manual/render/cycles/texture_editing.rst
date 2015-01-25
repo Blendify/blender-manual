@@ -31,7 +31,6 @@ Rendered
 
 .. figure:: /images/Cycles_texture_draw_modes.jpg
    :width: 600px
-   :figwidth: 600px
 
    size
 
@@ -41,7 +40,6 @@ Texture Properties
 
 .. figure:: /images/Cycles_texture_tab_menu.jpg
    :width: 220px
-   :figwidth: 220px
    :align: right
 
 
@@ -61,7 +59,6 @@ Painting & UV Editing
 
 .. figure:: /images/Cycles_active_texture.jpg
    :width: 220px
-   :figwidth: 220px
    :align: right
 
 

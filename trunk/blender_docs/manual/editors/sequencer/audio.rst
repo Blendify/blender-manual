@@ -13,7 +13,6 @@ and mix them using an F-Curve as a volume control.
 
 .. figure:: /images/SoundEdit.jpg
    :width: 512px
-   :figwidth: 512px
 
    A sound strip in the sequence editor.
 

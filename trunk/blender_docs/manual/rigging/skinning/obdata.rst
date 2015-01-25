@@ -72,7 +72,6 @@ Automatic Weights
 
 .. figure:: /images/Doc26-rigging-armature-modifier.jpg
    :width: 250px
-   :figwidth: 250px
 
    The Armature modifier.
 
@@ -126,37 +125,31 @@ Preserve Volume (Armature modifier)
 
    * - .. figure:: /images/ManRiggingSkinningQuaternionOptExInitState.jpg
           :width: 200px
-          :figwidth: 200px
 
           Initial state.
 
      - .. figure:: /images/ManRiggingSkinningQuaternionOptExNoQuat100Deg.jpg
           :width: 200px
-          :figwidth: 200px
 
           100- rotation, Preserve Volume disabled.
 
      - .. figure:: /images/ManRiggingSkinningQuaternionOptExNoQuat180Deg.jpg
           :width: 200px
-          :figwidth: 200px
 
           180- rotation, Preserve Volume disabled.
 
    * - .. figure:: /images/ManRiggingSkinningQuaternionOptExQuat100Deg.jpg
           :width: 200px
-          :figwidth: 200px
 
           100- rotation, Preserve Volume enabled.
 
      - .. figure:: /images/ManRiggingSkinningQuaternionOptExQuat1799Deg.jpg
           :width: 200px
-          :figwidth: 200px
 
           179.9- rotation, Preserve Volume enabled.
 
      - .. figure:: /images/ManRiggingSkinningQuaternionOptExQuat1801Deg.jpg
           :width: 200px
-          :figwidth: 200px
 
           180.1- rotation, Preserve Volume enabled.
 
@@ -173,7 +166,6 @@ Bone Deform Options
 
 .. figure:: /images/Man2.5RiggingEditingBoneCxtDeformPanel.jpg
    :width: 250px
-   :figwidth: 250px
 
    Bone Deform Options
 
@@ -192,7 +184,6 @@ Envelope
 
 .. figure:: /images/ManRiggingEnvelopePrinciples3DViewEditMode.jpg
    :width: 200px
-   :figwidth: 200px
 
    Bone influence areas for envelopes method.
 
@@ -290,25 +281,21 @@ To automatically weight multiple bones, you can simply
 
    * - .. figure:: /images/ManRiggingSkinningVertexGroupsExArmWeights.jpg
           :width: 150px
-          :figwidth: 150px
 
           The weights of the arm vertex group.
 
      - .. figure:: /images/ManRiggingSkinningVertexGroupsExForearmWeights.jpg
           :width: 150px
-          :figwidth: 150px
 
           The weights of the forearm vertex group.
 
    * - .. figure:: /images/ManRiggingSkinningVertexGroupsExResult.jpg
           :width: 150px
-          :figwidth: 150px
 
           The result when posing the armature.
 
      - .. figure:: /images/ManRiggingSkinningVertexGroupsExEnvelopesResult.jpg
           :width: 150px
-          :figwidth: 150px
 
           The same pose, but using envelopes method rather that vertex groups.
 

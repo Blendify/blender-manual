@@ -24,7 +24,6 @@ Lamp options
 
 .. figure:: /images/25-Manual-Lighting-Lamps-Spot-LampOptions.jpg
    :width: 307px
-   :figwidth: 307px
 
    Common Lamp options of a Spot
 
@@ -41,7 +40,6 @@ Light Falloff and Sphere
 
    .. figure:: /images/25-Manual-Lighting-Lamps-Spot-Terms.jpg
       :width: 610px
-      :figwidth: 610px
 
       Changing the Spot options also changes the appearance of the spotlight as displayed in the 3D View
 
@@ -51,7 +49,6 @@ Shadows
 
 .. figure:: /images/25-Manual-Lighting-Lamps-Spot-RayPanel.jpg
    :width: 306px
-   :figwidth: 306px
 
    Shadow panel set to Ray Shadow
 
@@ -94,11 +91,9 @@ Spot Shape
 
       * - .. figure:: /images/25-Manual-Lighting-Lamps-Spot-Size45.jpg
              :width: 300px
-             :figwidth: 300px
 
         - .. figure:: /images/25-Manual-Lighting-Lamps-Spot-Size60.jpg
              :width: 300px
-             :figwidth: 300px
 
 
 Blend
@@ -125,7 +120,6 @@ Blend
 
    .. figure:: /images/Manual_-_Shadow_&_Spot_-_Spotlight_-_Render_-_Sharp_Shadow.jpg
       :width: 400px
-      :figwidth: 400px
 
       Render showing the soft edge spotlighted area and the sharp/hard object shadow
 

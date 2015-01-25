@@ -48,7 +48,6 @@ Crease
 
    .. figure:: /images/25-Manual-Modifiers-Solidify-Rims.jpg
       :width: 350px
-      :figwidth: 350px
 
       Rim and edges. In this example, the object was assigned a second material used to color the rim red.
 

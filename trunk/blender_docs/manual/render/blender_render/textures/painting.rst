@@ -29,7 +29,6 @@ GIMP is a full-featured image manipulation program that is also open-source.
 
 .. figure:: /images/Doc26-textures-painting.jpg
    :width: 400px
-   :figwidth: 400px
 
    Texture painting in Blender
 
@@ -62,7 +61,6 @@ you can modify the image using the Texture Paint mode:
 
 .. figure:: /images/Doc26-textures-painting-paintMode.jpg
    :width: 250px
-   :figwidth: 250px
 
    Enabling paint mode
 
@@ -147,7 +145,6 @@ Brush
 
 .. figure:: /images/Doc26-textures-painting-brush.jpg
    :width: 200px
-   :figwidth: 200px
 
    Brush Settings
 
@@ -211,7 +208,6 @@ Texture
 
 .. figure:: /images/Doc26-textures-painting-brushTexture.jpg
    :width: 250px
-   :figwidth: 250px
 
    Texture options and example
 

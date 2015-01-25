@@ -11,7 +11,6 @@ When you start Blender you should see a screen similar to this
 
 .. figure:: /images/Blender-262-main.jpg
    :width: 640px
-   :figwidth: 640px
 
    Initial Blender screen
 
@@ -44,7 +43,6 @@ As an introduction we will cover a few of the basic elements.
 
 .. figure:: /images/Interface_Window-System_Default-scene.jpg
    :width: 650px
-   :figwidth: 650px
 
    Default Blender scene and Window arrangement
 
@@ -59,7 +57,6 @@ The Info Window (main menu)
 
 .. figure:: /images/Interface_Window-System_Info-window-shaded.jpg
    :width: 640px
-   :figwidth: 640px
 
    Info Window
 
@@ -106,7 +103,6 @@ Resource Information
 3D Transform Manipulator
    .. figure:: /images/Icon-library_3D-Window_3D-transform-manipulator.jpg
       :width: 50px
-      :figwidth: 50px
 
    Is a visual aid in transforming objects (grab/move, rotate and scale).
    Objects can also be transformed using the keyboard shortcuts: (:kbd:`G` / :kbd:`R` / :kbd:`S`);
@@ -129,7 +125,6 @@ Light (of type Lamp)
 Camera
    .. figure:: /images/Icon-library_3D-Window_camera.jpg
       :width: 50px
-      :figwidth: 50px
 
    By default,
    a new installation of Blender will always start with a *Camera*
@@ -141,7 +136,6 @@ Camera
 
 .. figure:: /images/Icon-library_3D-Window_header.jpg
    :width: 640px
-   :figwidth: 640px
 
    3D Window Header
 
@@ -227,7 +221,6 @@ Timeline Window
 
 .. figure:: /images/Icon-library_Timeline-Window_header.jpg
    :width: 640px
-   :figwidth: 640px
 
    Timeline Window Header
 

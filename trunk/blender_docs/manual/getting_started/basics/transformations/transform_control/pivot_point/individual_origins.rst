@@ -18,7 +18,6 @@ In Object mode
 
 .. figure:: /images/3D-Interaction_Transform-Control_Pivot-Point_Individual-Origins-rotation-around-center.jpg
    :width: 300px
-   :figwidth: 300px
 
    Rotation around individual origins.
 
@@ -57,13 +56,11 @@ Using Individual Origins in Face mode produces the most predictable results.
 
    * - .. figure:: /images/3D-Interaction_Transform-Control_Pivot-Point_Individual-Origins-rotation-individual-faces.jpg
           :width: 320px
-          :figwidth: 320px
 
           Rotation of individual faces with the pivot point indicated by the image text.
 
      - .. figure:: /images/3D-Interaction_Transform-Control_Pivot-Point_Individual-Origins-rotation-grouped-faces.jpg
           :width: 320px
-          :figwidth: 320px
 
           Rotation of grouped faces with the pivot point indicated by the image text.
 
@@ -77,13 +74,11 @@ Faces that do not touch will rotate around their Individual Origins (their cente
 
    * - .. figure:: /images/3D-Interaction_Transform-Control_Pivot-Point_Individual-Origins-scale-individual-faces.jpg
           :width: 320px
-          :figwidth: 320px
 
           Scaling with non-touching faces.
 
      - .. figure:: /images/3D-Interaction_Transform-Control_Pivot-Point_Individual-Origins-scale-group-fgon-faces.jpg
           :width: 320px
-          :figwidth: 320px
 
           Scaling with touching faces.
 
@@ -94,7 +89,6 @@ However, the individual faces inside will not be scaled uniformly.
 
 .. figure:: /images/3D-Interaction_Transform-Control_Pivot-Point_Individual-Origins-anemone-example.jpg
    :width: 300px
-   :figwidth: 300px
 
    Modeling with faces and individual origins as the pivot point.
 

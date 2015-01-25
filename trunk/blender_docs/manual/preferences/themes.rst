@@ -9,7 +9,6 @@ The *Themes* tab allows you to customize interface appearance and colors.
 
 .. figure:: /images/User-preferences-themes.jpg
    :width: 650px
-   :figwidth: 650px
 
 
 The colors for each editor can be set separately—simply select the editor you wish to

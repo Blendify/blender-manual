@@ -4,7 +4,6 @@ Vertex Groups
 *************
 
 .. figure:: /images/modeling_meshes_vgroups_01.jpg
-   :figwidth: image
    :align: right
 
    The Vertex Group Panel
@@ -73,7 +72,6 @@ Creating Vertex Groups
 ======================
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-panel-empty.jpg
-   :figwidth: image
    :align: right
 
    Empty Vertex Group Panel
@@ -93,7 +91,6 @@ Vertex Groups Panel Controls
 ----------------------------
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-panel-one.jpg
-   :figwidth: image
    :align: right
 
    One Vertex Group
@@ -129,7 +126,6 @@ Deleting vertex Groups
 ======================
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-panel-dg.jpg
-   :figwidth: image
    :align: right
 
    Delete a Vertex Group
@@ -146,7 +142,6 @@ Locking Vertex Groups
 =====================
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-panel-lg.jpg
-   :figwidth: image
    :align: right
 
    Lock a Vertex Group
@@ -169,7 +164,6 @@ Working with Content of Vertex Groups
 =====================================
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-panel-one.jpg
-   :figwidth: image
    :align: right
 
    Vertex Group Panel in Edit Mode
@@ -200,7 +194,6 @@ Assigning verts to a Group
 --------------------------
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-panel-assign.jpg
-   :figwidth: image
    :align: right
 
    Assign weights to active group
@@ -286,7 +279,6 @@ Keyboard Shortcuts
 ------------------
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-popup.jpg
-   :figwidth: image
    :align: right
 
    Vertex Groups popup menu
@@ -315,7 +307,6 @@ Vertex Group Management
 =======================
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-pulldown.jpg
-   :figwidth: image
    :align: right
 
    Vertex groups panel's dropdown menu

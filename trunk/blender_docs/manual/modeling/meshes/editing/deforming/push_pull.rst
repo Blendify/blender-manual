@@ -14,7 +14,6 @@ Description
 
 .. figure:: /images/3D_interaction-Transformations-Advanced-Push_Pull_toolshelf-f6.jpg
    :width: 150px
-   :figwidth: 150px
 
    Push/Pull distance.
 
@@ -48,28 +47,24 @@ See below for the result of using *Push/Pull* on a number of different elements.
 
 .. figure:: /images/3D_interaction-Transformations-Advanced-Push_Pull_equidistant_objects.jpg
    :width: 640px
-   :figwidth: 640px
 
    Equidistant Objects being pushed together.
 
 
 .. figure:: /images/3D_interaction-Transformations-Advanced-Push_Pull_random_objects.jpg
    :width: 640px
-   :figwidth: 640px
 
    Random Objects being pushed together.
 
 
 .. figure:: /images/3D_interaction-Transformations-Advanced-Push_Pull_vertices-push-pull.jpg
    :width: 640px
-   :figwidth: 640px
 
    Vertices being pushed together, then pulled apart.
 
 
 .. figure:: /images/3D_interaction-Transformations-Advanced-Push_Pull_edges-push-pull.jpg
    :width: 640px
-   :figwidth: 640px
 
    Edges on separate meshes being pushed together, then pulled apart.
 

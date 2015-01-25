@@ -41,7 +41,6 @@ Select :menuselection:`popup --> Render --> Render OpenGL Animation` in *Render 
 
 .. figure:: /images/Blender2.6_particle_mode.jpg
    :width: 120px
-   :figwidth: 120px
 
    Editing hair strands in Particle Mode
 
@@ -171,7 +170,6 @@ Select Modes
 
 .. figure:: /images/Icon-library_3D-Window_ParticleSelectAndDisplayMode.jpg
    :width: 640px
-   :figwidth: 640px
 
 
 Path

@@ -13,14 +13,12 @@ Special Options:
 
 .. figure:: /images/2.5_Game_Engine_Actuator_Game.jpg
    :width: 271px
-   :figwidth: 271px
 
    Game actuator
 
 
 .. figure:: /images/2.5_Game_Engine_Actuator_Game_Options.jpg
    :width: 271px
-   :figwidth: 271px
 
    Game
 

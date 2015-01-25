@@ -22,7 +22,6 @@ Options
 
 .. figure:: /images/25-Manual-Constraints-Relationship-ShrinkWrap.jpg
    :width: 304px
-   :figwidth: 304px
 
    Shrinkwrap panel
 

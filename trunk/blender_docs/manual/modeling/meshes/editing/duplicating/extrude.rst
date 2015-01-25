@@ -34,19 +34,16 @@ once to disable the face normal Z axis limit, and once to enable the global Z ax
 
    * - .. figure:: /images/Doc26-extrude-face-before.jpg
           :width: 200px
-          :figwidth: 200px
 
           Selected face
 
      - .. figure:: /images/Doc26-extrude-face-after.jpg
           :width: 200px
-          :figwidth: 200px
 
           During extrude
 
      - .. figure:: /images/Doc26-extrude-face-after-zAxiz.jpg
           :width: 200px
-          :figwidth: 200px
 
           Set to Z axis
 
@@ -94,19 +91,16 @@ This has several consequences: first, "internal" edges
 
    * - .. figure:: /images/Doc26-extrude-face-multi.jpg
           :width: 200px
-          :figwidth: 200px
 
           Selection of multiple faces
 
      - .. figure:: /images/Doc26-extrude-face-multi-region.jpg
           :width: 200px
-          :figwidth: 200px
 
           Extruded using extrude region
 
      - .. figure:: /images/Doc26-extrude-face-multi-individual.jpg
           :width: 200px
-          :figwidth: 200px
 
           Extruded using Extrude Individual
 
@@ -128,14 +122,12 @@ if edges are selected that do not form a face, they will extrude to form a face.
 
 .. figure:: /images/Doc26-extrude-vert.jpg
    :width: 250px
-   :figwidth: 250px
 
    Single vertex extruded
 
 
 .. figure:: /images/Doc26-extrude-edge.jpg
    :width: 250px
-   :figwidth: 250px
 
    Single edge extruded
 
@@ -149,28 +141,24 @@ To force a vertex or edge selection to extrude as a vertex or edge, respectively
 
 .. figure:: /images/Doc26-extrude-verts-before.jpg
    :width: 250px
-   :figwidth: 250px
 
    Vertex selected
 
 
 .. figure:: /images/Doc26-extrude-verts-after.jpg
    :width: 250px
-   :figwidth: 250px
 
    Vertices Only extrude
 
 
 .. figure:: /images/Doc26-extrude-edges-before.jpg
    :width: 250px
-   :figwidth: 250px
 
    Edge selected
 
 
 .. figure:: /images/Doc26-extrude-edges-after.jpg
    :width: 250px
-   :figwidth: 250px
 
    Edge Only extrude
 

@@ -449,7 +449,6 @@ Weight Gradient (wip)
 
 .. figure:: /images/WeightGradient_266.jpg
    :width: 200px
-   :figwidth: 200px
 
    example of the gradient tool being used with selected vertices.
 

@@ -15,7 +15,6 @@ Face Smoothness
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Parameter_Editor_Mode.jpg
    :width: 200px
-   :figwidth: 200px
 
    Parameter Editor Mode UI
 
@@ -35,7 +34,6 @@ Advanced Options
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Advanced_Options.jpg
    :width: 200px
-   :figwidth: 200px
 
    Advanced Options
 

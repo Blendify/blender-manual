@@ -20,7 +20,6 @@ Options
 
 .. figure:: /images/build_modifier_animated.gif
    :width: 285px
-   :figwidth: 285px
 
    Build modifier in action
 

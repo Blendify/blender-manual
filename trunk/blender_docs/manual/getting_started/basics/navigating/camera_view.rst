@@ -20,7 +20,6 @@ camera view to be rendered.
 
 .. figure:: /images/3D-interaction_Navigating_Camera-View-perspective-camera-render.jpg
    :width: 640px
-   :figwidth: 640px
 
    Camera view provides a preview for the final rendered image.
 
@@ -54,7 +53,6 @@ camera view.
 
 .. figure:: /images/3D-interaction_Navigating_Camera-View-render-border.jpg
    :width: 640px
-   :figwidth: 640px
 
    Render border and associated render.
 

@@ -50,7 +50,6 @@ Getting Started
 
 .. figure:: /images/Manual-uvunwrapping-25x-screenlayout.jpg
    :width: 320px
-   :figwidth: 320px
 
    UV Editing screen layout
 
@@ -180,7 +179,6 @@ Cylinder and Sphere
 
 .. figure:: /images/Doc26-textures-uv-sphereProjection.jpg
    :width: 250px
-   :figwidth: 250px
 
    Using a Mercator image with a Sphere Projection
 
@@ -259,7 +257,6 @@ Unwrapping Using Seams
 
 .. figure:: /images/Doc26-textures-uv-unwrap-seam-simple.jpg
    :width: 300px
-   :figwidth: 300px
 
    Simple Seam on a Cylinder
 
@@ -298,7 +295,6 @@ Marking Seams
 
 .. figure:: /images/Doc26-textures-uv-unwrap-seams.jpg
    :width: 250px
-   :figwidth: 250px
 
    Seamed Suzanne
 
@@ -353,7 +349,6 @@ Unwrap
 
 .. figure:: /images/Doc26-textures-uv-unwrap-unwrap.jpg
    :width: 300px
-   :figwidth: 300px
 
    Result of unwrapping Suzanne
 
@@ -403,7 +398,6 @@ Smart UV Project
 
 .. figure:: /images/Doc26-textures-uv-unwrap-smartProject.jpg
    :width: 250px
-   :figwidth: 250px
 
    Smart UV project on a cube
 

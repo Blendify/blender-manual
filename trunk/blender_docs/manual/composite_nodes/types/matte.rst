@@ -78,7 +78,6 @@ Simple Example
 
 .. figure:: /images/Manual-Compositing-Node-DiffKey_ex1.jpg
    :width: 300px
-   :figwidth: 300px
 
    Using the Difference Key Node
 
@@ -114,7 +113,6 @@ Chaining Example
 
 .. figure:: /images/Manual-Compositing-DiffKey_ex2.jpg
    :width: 300px
-   :figwidth: 300px
 
    Chaining Difference Key Nodes
 
@@ -219,7 +217,6 @@ Example
 
 .. figure:: /images/Manual-Composting-LumaKey_ex.jpg
    :width: 300px
-   :figwidth: 300px
 
    Using Luma Key...with a twist
 
@@ -277,7 +274,6 @@ Channel Key Node
 
 .. figure:: /images/2.5_Channel_key_node.jpg
    :width: 150px
-   :figwidth: 150px
 
    Channel Key node
 

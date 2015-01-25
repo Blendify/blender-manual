@@ -18,7 +18,6 @@ but all settings are done in the *Particle tab*.
 
 .. figure:: /images/Blender3D_FurExample_2.49.jpg
    :width: 300px
-   :figwidth: 300px
 
    Image 1: Some fur made from particles
    (`Blend file <http://wiki.blender.org/index.php/Media:Blender3D FurExample 2.49.blend>`__).

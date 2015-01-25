@@ -19,7 +19,6 @@ Options
 
 .. figure:: /images/Doc-skin-ui.jpg
    :width: 300px
-   :figwidth: 300px
 
    Skin modifier UI.
 

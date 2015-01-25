@@ -62,7 +62,6 @@ green, yellow, orange, red)
 
 .. figure:: /images/Blender3D_Weight_Spec.jpg
    :width: 610px
-   :figwidth: 610px
 
    Image 3: The color spectrum and their respective weights.
 
@@ -170,7 +169,6 @@ The Brush stroke definition
 
 .. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-stroke.jpg
    :width: 235px
-   :figwidth: 235px
 
    Stroke Panel
 
@@ -200,7 +198,6 @@ The brush Falloff curve
 
 .. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-curve.jpg
    :width: 235px
-   :figwidth: 235px
 
    Curve Panel
 
@@ -214,7 +211,6 @@ The brush appearance
 
 .. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-appearance.jpg
    :width: 235px
-   :figwidth: 235px
 
    Brush appearance
 

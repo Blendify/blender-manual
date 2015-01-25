@@ -391,7 +391,6 @@ Endpoint
 
 .. figure:: /images/Modeling_Curves_nurbs-endpoint.jpg
    :width: 511px
-   :figwidth: 511px
 
    A NURBS curve with Endpoint enabled.
 
@@ -405,7 +404,6 @@ Order
 
 .. figure:: /images/Modeling_Curves_nurbs-order.jpg
    :width: 511px
-   :figwidth: 511px
 
    NURBS curves with orders of 2 (left), 4 (middle) and 6 (right).
 

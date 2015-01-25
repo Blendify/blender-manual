@@ -50,7 +50,6 @@ Coloring from Bone Group
 
 .. figure:: /images/Doc26-rigging-boneGroups.jpg
    :width: 250px
-   :figwidth: 250px
 
    The Bone Groups panel with a bone group (default colors).
 
@@ -69,7 +68,6 @@ you can use the top row of controls to select another group in the drop-down lis
 
 .. figure:: /images/Doc26-rigging-boneGroups-assign.jpg
    :width: 250px
-   :figwidth: 250px
 
    The Bone Group drop-down list of a bone sub-panel.
 
@@ -95,7 +93,6 @@ Remove Bone Group
 
 .. figure:: /images/Doc26-rigging-boneGroups-colors.jpg
    :width: 300px
-   :figwidth: 300px
 
    The Bone Color Set list of the bone group, and the color swatch of the chosen color theme.
 
@@ -134,11 +131,9 @@ Ghosts
 
    * - .. figure:: /images/Armature_ghost_arround_current.jpg
           :width: 200px
-          :figwidth: 200px
 
      - .. figure:: /images/Manual-PartIX-ie_ghost.jpg
           :width: 200px
-          :figwidth: 200px
 
 
 If you are a bit familiar with traditional cartoon creation,
@@ -151,7 +146,6 @@ Blender features something very similar for armatures in *Pose* mode: the "ghost
 
 .. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtGhostPanel.jpg
    :width: 250px
-   :figwidth: 250px
 
    The Ghost panel showing the different options associated with different modes.
 
@@ -223,7 +217,6 @@ Motion Paths
 
 .. figure:: /images/ManRiggingPosingMotionPathsEx.jpg
    :width: 250px
-   :figwidth: 250px
 
    A motion paths example.
 
@@ -256,7 +249,6 @@ only useful when the *Around Current Frame* option is enabled).
 
 .. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtMotionPathsPanel.jpg
    :width: 250px
-   :figwidth: 250px
 
    The Motion Paths Panel showing options for the different modes
 

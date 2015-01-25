@@ -21,7 +21,6 @@ providing advanced hollywood-style effects for a professional looking video.
 
 .. figure:: /images/2.5_Manual-VSE-header.jpg
    :width: 400px
-   :figwidth: 400px
 
    Video Sequence Editor in Sequence display mode
 

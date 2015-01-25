@@ -33,7 +33,6 @@ Simple Motion
 
 .. figure:: /images/Manual_gameengine_actuator_motion_simple.jpg
    :width: 271px
-   :figwidth: 271px
 
    Motion actuator for Simple Motion
 
@@ -60,7 +59,6 @@ Servo Control
 
 .. figure:: /images/Manual_gameengine_actuator_motion_servo.jpg
    :width: 271px
-   :figwidth: 271px
 
    Motion actuator for Servo Control
 

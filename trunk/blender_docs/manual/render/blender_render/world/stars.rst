@@ -18,7 +18,6 @@ Options
 
 .. figure:: /images/25-Manual-World-StarPanel.jpg
    :width: 298px
-   :figwidth: 298px
 
    Star panel
 

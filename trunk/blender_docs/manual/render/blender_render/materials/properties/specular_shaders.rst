@@ -101,7 +101,6 @@ CookTorr
 
 .. figure:: /images/Manual-2.5-Material-Shader-CookTorr.jpg
    :width: 320px
-   :figwidth: 320px
 
    CookTorr Shader (Lambert 0.8)
 
@@ -135,7 +134,6 @@ Phong
 
 .. figure:: /images/Manual-2.5-Material-Shader-Phong.jpg
    :width: 320px
-   :figwidth: 320px
 
    Phong Shader (Lambert 0.8)
 
@@ -175,7 +173,6 @@ Blinn
 
 .. figure:: /images/Manual-2.5-Material-Shader-Blinn.jpg
    :width: 320px
-   :figwidth: 320px
 
    Blinn Shader (Oren-Nayar Int 0.8, Rough 0.5)
 
@@ -218,7 +215,6 @@ Toon
 
 .. figure:: /images/Manual-2.5-Material-Shader-ToonSpec.jpg
    :width: 320px
-   :figwidth: 320px
 
    Toon Specular Shader (Toon Diffuse, Int 0.8, Size & Smooth match)
 
@@ -251,7 +247,6 @@ WardIso
 
 .. figure:: /images/Manual-2.5-Material-Shader-WardIso.jpg
    :width: 320px
-   :figwidth: 320px
 
    WardIso Shader
 

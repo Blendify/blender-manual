@@ -15,7 +15,6 @@ Options
 
 .. figure:: /images/25-Manual-Constraints-Transform-CopyTransforms.jpg
    :width: 304px
-   :figwidth: 304px
 
    Copy Transforms panel
 

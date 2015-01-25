@@ -37,14 +37,12 @@ over a series of frames.
 
 .. figure:: /images/Doc26-animation-keyframes-visualization-motionPath.jpg
    :width: 400px
-   :figwidth: 400px
 
    An animated cube with its motion path displayed
 
 
 .. figure:: /images/Doc26-animation-keyframes-visualization-motionPath-panel3.jpg
    :width: 250px
-   :figwidth: 250px
 
    Motion paths panel
 
@@ -68,7 +66,6 @@ Options
 
 .. figure:: /images/Doc26-animation-keyframes-visualization-motionPath-panel.jpg
    :width: 200px
-   :figwidth: 200px
 
    The Motion Paths Panel set to "Around Frame"
 
@@ -81,7 +78,6 @@ Around Frame
 
 .. figure:: /images/Doc26-animation-keyframes-visualization-motionPath-panel2.jpg
    :width: 200px
-   :figwidth: 200px
 
    The Motion Paths Panel set to "In Range"
 

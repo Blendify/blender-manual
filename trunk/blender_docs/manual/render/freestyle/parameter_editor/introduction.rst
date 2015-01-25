@@ -5,7 +5,6 @@ Introduction to Parameter Editor
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Parameter_Editor_Mode_UI.jpg
    :width: 200px
-   :figwidth: 200px
 
    Parameter Editor
 

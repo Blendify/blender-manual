@@ -29,7 +29,6 @@ loaded from disk and displayed or rendered.
 
 .. figure:: /images/Manual-Part-X-fluidsim-example1.jpg
    :width: 640px
-   :figwidth: 640px
 
    A breaking dam.
 

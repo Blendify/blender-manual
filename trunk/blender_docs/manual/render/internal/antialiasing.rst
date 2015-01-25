@@ -147,54 +147,46 @@ Examples
 
 .. figure:: /images/Manual-Part-XI-AA02.jpg
    :width: 630px
-   :figwidth: 630px
 
 
 .. figure:: /images/Manual-osa8_box.jpg
    :width: 630px
-   :figwidth: 630px
 
    AA 8, Box filter
 
 
 .. figure:: /images/Manual-osa8_tent.jpg
    :width: 630px
-   :figwidth: 630px
 
    AA 8, Tent filter
 
 
 .. figure:: /images/Manual-osa8_quad.jpg
    :width: 630px
-   :figwidth: 630px
 
    AA 8, Quadratic filter
 
 
 .. figure:: /images/Manual-osa8_cubic.jpg
    :width: 630px
-   :figwidth: 630px
 
    AA 8, Cubic filter
 
 
 .. figure:: /images/Manual-osa8_gauss.jpg
    :width: 630px
-   :figwidth: 630px
 
    AA 8, Gaussian filter
 
 
 .. figure:: /images/Manual-osa8_catrom.jpg
    :width: 630px
-   :figwidth: 630px
 
    AA 8, Catmull-Rom filter
 
 
 .. figure:: /images/Manual-osa8_mitch.jpg
    :width: 630px
-   :figwidth: 630px
 
    AA 8, Mitchell-Netravali filter
 

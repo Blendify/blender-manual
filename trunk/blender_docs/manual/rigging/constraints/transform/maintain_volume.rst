@@ -15,7 +15,6 @@ Option
 
 .. figure:: /images/25-Manual-Constraints-Transform-MaintainVol.jpg
    :width: 303px
-   :figwidth: 303px
 
    Maintain Volume panel
 

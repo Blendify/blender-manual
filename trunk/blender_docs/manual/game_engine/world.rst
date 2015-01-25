@@ -8,7 +8,6 @@ World Physics
 
 .. figure:: /images/BGE_World.jpg
    :width: 292px
-   :figwidth: 292px
 
    BGE World Panel (fully expanded)
 

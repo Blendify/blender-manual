@@ -33,7 +33,6 @@ Multiple UV Maps
 
 .. figure:: /images/Manual-UV-Fashion.jpg
    :width: 300px
-   :figwidth: 300px
 
    Mesh with Multiple UV Textures
 

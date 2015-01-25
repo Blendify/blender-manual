@@ -46,7 +46,6 @@ The answer to each of the above questions is an image or map, as shown below:
 
 .. figure:: /images/Manual-Render-RenderPasses-Example.jpg
    :width: 600px
-   :figwidth: 600px
 
 
 Each Render Pass puts out an image or a map. For the purposes of this example,
@@ -178,7 +177,6 @@ Recoloring Shadows
 
 .. figure:: /images/Manual-Render-RenderPasses-Example2.jpg
    :width: 300px
-   :figwidth: 300px
 
 
 Let's run the Shadow buffer through a colorization noodle, then recombine it;
@@ -225,7 +223,6 @@ Compositing Ambient Occlusion
 
 .. figure:: /images/Manual-Render-Passes-AO.jpg
    :width: 600px
-   :figwidth: 600px
 
 
 AO is a geometry-based dirt shader, making corners darker.
@@ -259,7 +256,6 @@ Vector Blurring Shadows
 
 .. figure:: /images/Manual-Nodes-VectorBlur-Shadow.jpg
    :width: 600px
-   :figwidth: 600px
 
 
 When using Vector Blur instead of Motion Blur, objects in motion are blurred,

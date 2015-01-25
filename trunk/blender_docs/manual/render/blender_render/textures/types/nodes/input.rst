@@ -16,7 +16,6 @@ Time
 
 .. figure:: /images/Doc26-textureNodes-time.jpg
    :width: 200px
-   :figwidth: 200px
 
    Time node
 
@@ -42,7 +41,6 @@ The shape of the curve can be manipulated to vary the output over time in differ
 
 .. figure:: /images/Doc26-textureNodes-time-extendHorizontal.jpg
    :width: 150px
-   :figwidth: 150px
 
    Extend Horizontal
 
@@ -54,7 +52,6 @@ The shape of the curve can be manipulated to vary the output over time in differ
 
 .. figure:: /images/Doc26-textureNodes-time-extendExtrapolate.jpg
    :width: 150px
-   :figwidth: 150px
 
    Extend Extrapolate
 

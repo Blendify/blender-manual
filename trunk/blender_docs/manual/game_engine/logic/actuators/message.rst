@@ -9,14 +9,12 @@ and between scenes themselves.
 
 .. figure:: /images/2.5_Game_Engine_Actuator_Message.jpg
    :width: 271px
-   :figwidth: 271px
 
    Message actuator
 
 
 .. figure:: /images/2.5_Game_Engine_Actuator_Message_Options.jpg
    :width: 271px
-   :figwidth: 271px
 
    Message actuator Options
 

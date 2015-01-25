@@ -317,7 +317,6 @@ To reveal all hidden parts, just hit :kbd:`Alt-H`.
 
 .. figure:: /images/Hide_before_and_after.jpg
    :width: 610px
-   :figwidth: 610px
 
    Before and after Hiding.
 

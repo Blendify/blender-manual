@@ -36,7 +36,6 @@ and incorporates facilities for user interaction during the rendering process.
 
 .. figure:: /images/BGE_Introduction_ScreenShot.jpg
    :width: 512px
-   :figwidth: 512px
 
    Screenshot from "Yo Frankie", produced with Blender Game Engine
 

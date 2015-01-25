@@ -54,7 +54,6 @@ you must first merge those two, and then join the bottom one up to the upper one
 
 .. figure:: /images/Manual-Interface-Window_System-Arranging_frames-joinframes.jpg
    :width: 250px
-   :figwidth: 250px
 
 
 To merge the current window with the one above it

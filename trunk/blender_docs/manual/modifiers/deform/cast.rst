@@ -71,7 +71,6 @@ Example
 
 .. figure:: /images/263-Manual-Modifiers-Cast-Example.jpg
    :width: 400px
-   :figwidth: 400px
 
    Top: Suzanne without modifiers. Middle: Suzanne with each type of Cast Modifier (Sphere, Cylinder and Cuboid).
    Bottom: Same as above, but now only X axis is enabled.

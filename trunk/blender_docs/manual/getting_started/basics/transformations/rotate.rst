@@ -110,7 +110,6 @@ Rotation with the 3D Transform Manipulator
 
 .. figure:: /images/Icon-library_3D-Window_3D-transform-rotate-manipulator.jpg
    :width: 100px
-   :figwidth: 100px
 
    Rotation Transform Manipulator
 
@@ -137,7 +136,6 @@ Rotation with the Properties Panel
 
 .. figure:: /images/3D_interaction-Transformations-Basic-Rotate-rotate_properties_panel.jpg
    :width: 180px
-   :figwidth: 180px
 
    Rotation transform properties panel.
 

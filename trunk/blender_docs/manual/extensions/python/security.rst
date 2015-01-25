@@ -18,7 +18,6 @@ header with the option to **Reload Trusted** or **Ignore** the message.
 
 .. figure:: /images/Python_Script_AutoExec_Header.jpg
    :width: 800px
-   :figwidth: 800px
 
 
 Scripts in Blend Files
@@ -86,7 +85,6 @@ a typical configuration would be to trust all paths except for the download dire
 
 .. figure:: /images/Python_Script_AutoExec_Configure.jpg
    :width: 600px
-   :figwidth: 600px
 
 
 Command Line

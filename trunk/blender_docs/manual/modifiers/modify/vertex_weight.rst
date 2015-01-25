@@ -24,7 +24,6 @@ Common Settings
 
 .. figure:: /images/ManModifiersWeightVG_mask.jpg
    :width: 300px
-   :figwidth: 300px
 
    The influence/masking part of Vertex Weight modifiers.
 
@@ -101,7 +100,6 @@ Vertex Weight Edit Modifier
 
 .. figure:: /images/ManModifiersWeightVGEdit.jpg
    :width: 300px
-   :figwidth: 300px
 
    The Vertex Weight Edit modifier panel.
 
@@ -151,7 +149,6 @@ Vertex Weight Mix Modifier
 
 .. figure:: /images/ManModifiersWeightVGMix.jpg
    :width: 300px
-   :figwidth: 300px
 
    The Vertex Weight Mix modifier panel.
 
@@ -218,7 +215,6 @@ Vertex Weight Proximity Modifier
 
 .. figure:: /images/ManModifiersWeightVGProximity.jpg
    :width: 300px
-   :figwidth: 300px
 
    The Vertex Weight Proximity modifier panel.
 
@@ -327,13 +323,11 @@ you would get wavy patterns, see (*Wavy patterns*)).
 
    * - .. figure:: /images/ManModifiersWeightVGroupGeometryEX1.0PF.jpg
           :width: 300px
-          :figwidth: 300px
 
           Distance from edges.
 
      - .. figure:: /images/ManModifiersWeightVGroupGeometryEX1.0PFWavyWeights.jpg
           :width: 300px
-          :figwidth: 300px
 
           Distance from vertices.
 
@@ -358,26 +352,22 @@ and play with the *Custom Curve* mapping to get a larger/narrower "valley"...
 
    * - .. figure:: /images/ManModifiersWeightVGroupGeometryEX-5.0PF.jpg
           :width: 200px
-          :figwidth: 200px
 
           Concave-type mapping curve.
 
      - .. figure:: /images/ManModifiersWeightVGroupGeometryEX1.0PF.jpg
           :width: 200px
-          :figwidth: 200px
 
           No mapping curve (linear).
 
      - .. figure:: /images/ManModifiersWeightVGroupGeometryEX5.0PF.jpg
           :width: 200px
-          :figwidth: 200px
 
           Convex-type mapping curve.
 
 
 .. figure:: /images/ManModifiersWeightVGroupGeometryEXRemVerts.jpg
    :width: 200px
-   :figwidth: 200px
 
    Vertices with a computed weight below 0.1 removed from the vertex group.
 
@@ -423,19 +413,16 @@ Leave the mapping to the default *Local* option, and play with the various chann
 
    * - .. figure:: /images/ManModifiersWeightVGroupTexExIntensity.jpg
           :width: 200px
-          :figwidth: 200px
 
           Using intensity.
 
      - .. figure:: /images/ManModifiersWeightVGroupTexExRed.jpg
           :width: 200px
-          :figwidth: 200px
 
           Using Red.
 
      - .. figure:: /images/ManModifiersWeightVGroupTexExSaturation.jpg
           :width: 200px
-          :figwidth: 200px
 
           Using Saturation.
 
@@ -459,19 +446,16 @@ and above ``0.75`` : this creates great "walls" in the waves...
 
    * - .. figure:: /images/ManModifiersWeightVGroupTexExCMapCurve.jpg
           :width: 200px
-          :figwidth: 200px
 
           A customized mapping curve.
 
      - .. figure:: /images/ManModifiersWeightVGroupTexExRed.jpg
           :width: 200px
-          :figwidth: 200px
 
           Custom Mapping disabled.
 
      - .. figure:: /images/ManModifiersWeightVGroupTexExRedCMap.jpg
           :width: 200px
-          :figwidth: 200px
 
           Custom Mapping enabled.
 

@@ -5,7 +5,6 @@ Bones
 
 .. figure:: /images/ManRiggingBonePrinciples3DViewEditModeOctahedron.jpg
    :width: 100px
-   :figwidth: 100px
 
    The elements of a bone.
 
@@ -37,28 +36,24 @@ Bones can be visualized in various ways: *Octahedron*, *Stick*,
 
 .. figure:: /images/Man2.5RiggingBonePrincipalsBoneDisplayOctahedral.jpg
    :width: 300px
-   :figwidth: 300px
 
    Octahedral bone display.
 
 
 .. figure:: /images/Man2.5RiggingBonePrincipalsBoneDisplayStick.jpg
    :width: 300px
-   :figwidth: 300px
 
    Stick bone display.
 
 
 .. figure:: /images/Man2.5RiggingBonePrincipalsBoneDisplayBBone.jpg
    :width: 300px
-   :figwidth: 300px
 
    B-Bone bone display.
 
 
 .. figure:: /images/Man2.5RiggingBonePrincipalsBoneDisplayEnvelope.jpg
    :width: 300px
-   :figwidth: 300px
 
    Envelope bone display.
 
@@ -73,7 +68,6 @@ oriented from root to tip. So, this is the "roll" axis of the bones.
 
 .. figure:: /images/Man2.5RiggingBonePrincipalsBonePropertyWindow.jpg
    :width: 250px
-   :figwidth: 250px
 
    The Bone context.
 
@@ -107,21 +101,18 @@ you can't see these segments in *Object mode*, because they're aligned.
 
 .. figure:: /images/ManRiggingBBoneEx3DViewEditMode.jpg
    :width: 300px
-   :figwidth: 300px
 
    An armature of B-Bones, in Edit mode
 
 
 .. figure:: /images/ManRiggingBBoneEx3DViewPrinciples.jpg
    :width: 300px
-   :figwidth: 300px
 
    The Bézier curve superposed to the chain, with its handles placed at bones' ends.
 
 
 .. figure:: /images/ManRiggingBBoneEx3DViewObjectMode.jpg
    :width: 300px
-   :figwidth: 300px
 
    The same armature in Object mode
 
@@ -173,7 +164,6 @@ because each bone can control only the geometry "enveloped" by its own influence
 
 .. figure:: /images/ManRiggingEnvelopePrinciples3DViewEditMode.jpg
    :width: 250px
-   :figwidth: 250px
 
    A bone in Envelope visualization, in Edit mode.
 
@@ -188,7 +178,6 @@ which depends on:
 
 .. figure:: /images/ManRiggingEnvelopeEx3DViewPoseMode.jpg
    :width: 300px
-   :figwidth: 300px
 
    Our armature in Envelope visualization, in Pose mode.
 

@@ -14,7 +14,6 @@ or linen.
 
 .. figure:: /images/Doc_2.6_Materials_Demo.jpg
    :width: 320px
-   :figwidth: 320px
 
    Various basic materials (single, multiple material, transparency, vertex paint).
 

@@ -25,7 +25,6 @@ Grease Pencil can also be useful in a number of scenarios, including but not lim
 
 .. figure:: /images/2.5_Manual-GreasePencil-ExampleInAction.jpg
    :width: 500px
-   :figwidth: 500px
 
    The Grease Pencil in action.
 

@@ -5,7 +5,6 @@ Fluid Object
 
 .. figure:: /images/Blender_fluids_fluid.jpg
    :width: 300px
-   :figwidth: 300px
 
    Fluid object settings
 

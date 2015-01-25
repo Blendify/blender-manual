@@ -143,14 +143,12 @@ between their original position and the adjacent edge loop, regardless of the ed
 
 .. figure:: /images/EdgeSlide1.jpg
    :width: 250px
-   :figwidth: 250px
 
    selected edge loop
 
 
 .. figure:: /images/EdgeSlide2.jpg
    :width: 250px
-   :figwidth: 250px
 
    Repositioned edge loop
 
@@ -172,14 +170,12 @@ use the :kbd:`Alt-Wheel` to scroll to a different edge.
 
 .. figure:: /images/EdgeSlide3.jpg
    :width: 250px
-   :figwidth: 250px
 
    Even mode enabled
 
 
 .. figure:: /images/EdgeSlide4.jpg
    :width: 250px
-   :figwidth: 250px
 
    Even mode with flip enabled
 
@@ -234,14 +230,12 @@ or on two selected vertices or two selected faces that implicitly share an edge 
 
 .. figure:: /images/EdgeFlip1.jpg
    :width: 250px
-   :figwidth: 250px
 
    selected edge
 
 
 .. figure:: /images/EdgeFlip2.jpg
    :width: 250px
-   :figwidth: 250px
 
    Edge, rotated CW
 
@@ -291,14 +285,12 @@ there would be an empty band of deleted faces all the way around the sphere inst
 
 .. figure:: /images/DeleteEdgeLoop1.jpg
    :width: 300px
-   :figwidth: 300px
 
    Selected edge loop
 
 
 .. figure:: /images/DeleteEdgeLoop2.jpg
    :width: 300px
-   :figwidth: 300px
 
    Edge loop deleted
 
@@ -321,14 +313,12 @@ removing the face loop it ran through.
 
 .. figure:: /images/Collapse1.jpg
    :width: 300px
-   :figwidth: 300px
 
    Selected edge ring
 
 
 .. figure:: /images/Collapse2.jpg
    :width: 300px
-   :figwidth: 300px
 
    Edge ring collapsed
 
@@ -351,14 +341,12 @@ a hole will be created, and the selected edges are duplicated to form the border
 
 .. figure:: /images/EdgeSplit1.jpg
    :width: 300px
-   :figwidth: 300px
 
    Selected edges
 
 
 .. figure:: /images/EdgeSplit2.jpg
    :width: 300px
-   :figwidth: 300px
 
    Adjacent face moved to reveal hole left by split
 
@@ -380,14 +368,12 @@ Simple example showing 2 closed edge loops.
 
 .. figure:: /images/mesh_bridge_simple_before.jpg
    :width: 300px
-   :figwidth: 300px
 
    Input
 
 
 .. figure:: /images/mesh_bridge_simple_after.jpg
    :width: 300px
-   :figwidth: 300px
 
    Bridge result
 
@@ -397,14 +383,12 @@ Example of bridge tool between edge loops with different numbers of vertices.
 
 .. figure:: /images/mesh_bridge_uneven_before.jpg
    :width: 300px
-   :figwidth: 300px
 
    Input
 
 
 .. figure:: /images/mesh_bridge_uneven_after.jpg
    :width: 300px
-   :figwidth: 300px
 
    Bridge result
 
@@ -414,14 +398,12 @@ Example using the bridge tool to punch holes in face selections and connect them
 
 .. figure:: /images/mesh_bridge_faces_before.jpg
    :width: 300px
-   :figwidth: 300px
 
    Input
 
 
 .. figure:: /images/mesh_bridge_faces_after.jpg
    :width: 300px
-   :figwidth: 300px
 
    Bridge result
 
@@ -431,14 +413,12 @@ Example showing how bridge tool can detect multiple loops and loft them in one s
 
 .. figure:: /images/mesh_bridge_multi_before.jpg
    :width: 300px
-   :figwidth: 300px
 
    Input
 
 
 .. figure:: /images/mesh_bridge_multi_after.jpg
    :width: 300px
-   :figwidth: 300px
 
    Bridge result
 
@@ -448,14 +428,12 @@ Example of the subdivision option and surface blending with UV's.
 
 .. figure:: /images/mesh_bridge_advanced_before.jpg
    :width: 300px
-   :figwidth: 300px
 
    Input
 
 
 .. figure:: /images/mesh_bridge_advanced_after.jpg
    :width: 300px
-   :figwidth: 300px
 
    Bridge result
 

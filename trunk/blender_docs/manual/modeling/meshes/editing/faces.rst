@@ -44,21 +44,18 @@ or vertices, *as long as they form one or more complete perimeters*.
 
 .. figure:: /images/Fill1.jpg
    :width: 200px
-   :figwidth: 200px
 
    A closed perimeter of edges
 
 
 .. figure:: /images/Fill2.jpg
    :width: 200px
-   :figwidth: 200px
 
    Filled using shortcut [F]. Created an n-gon
 
 
 .. figure:: /images/Fill3.jpg
    :width: 200px
-   :figwidth: 200px
 
    Filled using fill[Alt][F]
 
@@ -68,14 +65,12 @@ note, unlike creating n-gons, fill supports holes.
 
 .. figure:: /images/Fill1_holes.jpg
    :width: 200px
-   :figwidth: 200px
 
    A closed perimeter of edges with holes
 
 
 .. figure:: /images/Fill2_holes.jpg
    :width: 200px
-   :figwidth: 200px
 
    Filled using fill[Alt][F]
 
@@ -97,14 +92,12 @@ It rearrange selected triangles to obtain more "balanced" ones (i.e. less long t
 
 .. figure:: /images/mesh_beauty_fill_before.jpg
    :width: 200px
-   :figwidth: 200px
 
    Text converted to a mesh
 
 
 .. figure:: /images/mesh_beauty_fill_after.jpg
    :width: 200px
-   :figwidth: 200px
 
    Result of Beauty Fill, :kbd:`Alt-Shift-F`
 
@@ -124,28 +117,24 @@ Grid Fill
 
 .. figure:: /images/mesh_fill_grid_simple_before.jpg
    :width: 200px
-   :figwidth: 200px
 
    Input
 
 
 .. figure:: /images/mesh_fill_grid_simple_after.jpg
    :width: 200px
-   :figwidth: 200px
 
    Grid fill result
 
 
 .. figure:: /images/mesh_fill_grid_surface_before.jpg
    :width: 200px
-   :figwidth: 200px
 
    Input
 
 
 .. figure:: /images/mesh_fill_grid_surface_after.jpg
    :width: 200px
-   :figwidth: 200px
 
    Grid fill result
 
@@ -195,14 +184,12 @@ which means some triangles could remain.
 
 .. figure:: /images/Fill5.jpg
    :width: 200px
-   :figwidth: 200px
 
    Before converting tris to quads
 
 
 .. figure:: /images/QuadToTris.jpg
    :width: 200px
-   :figwidth: 200px
 
    After converting tris to quads, with a max angle of 30
 
@@ -255,21 +242,18 @@ Thickness
 
 .. figure:: /images/Doc26-solidify-before.jpg
    :width: 200px
-   :figwidth: 200px
 
    Mesh before solidify operation
 
 
 .. figure:: /images/Doc26-solidify-after.jpg
    :width: 200px
-   :figwidth: 200px
 
    Solidify with a positive thickness
 
 
 .. figure:: /images/Doc26-solidify-after2.jpg
    :width: 200px
-   :figwidth: 200px
 
    Solidify with a negative thickness
 
@@ -291,14 +275,12 @@ It works on the shared edge between two faces and rotates that edge if the edge 
 
 .. figure:: /images/RotateEdgeFaceMode1.jpg
    :width: 300px
-   :figwidth: 300px
 
    Two faces selected
 
 
 .. figure:: /images/RotateEdgeFaceMode2.jpg
    :width: 300px
-   :figwidth: 300px
 
    After rotating edge
 

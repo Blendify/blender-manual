@@ -44,13 +44,11 @@ Cubic Interpolation
 
    * - .. figure:: /images/Manual_-_Light_-_Lamps_-_Sphere_Non-Cubic_Shadow.jpg
           :width: 200px
-          :figwidth: 200px
 
           Without Cubic enabled.
 
      - .. figure:: /images/Manual_-_Light_-_Lamps_-_Sphere_Cubic_Shadow.jpg
           :width: 200px
-          :figwidth: 200px
 
           With Cubic enabled.
 

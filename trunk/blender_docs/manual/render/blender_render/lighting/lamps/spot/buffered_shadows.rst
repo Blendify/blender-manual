@@ -8,7 +8,6 @@ Spot Buffered Shadows
 
 .. figure:: /images/25-Manual-Lighting-Shadow-SpotBufShad.jpg
    :width: 310px
-   :figwidth: 310px
 
    Buffer Shadow enabled for a Spot lamp
 
@@ -58,7 +57,6 @@ For more information on the different shadow generation methods see these links:
 
 .. figure:: /images/25-Manual-Lighting-Shadow-SpotBufShad.jpg
    :width: 310px
-   :figwidth: 310px
 
    Buffer Shadowset to Classic-Halfway
 
@@ -195,7 +193,6 @@ Sample Buffers
 
 .. figure:: /images/25-Manual-Lighting-Lamps-Spot-Buf-Irregular.jpg
    :width: 313px
-   :figwidth: 313px
 
    Buffer Shadow set to Irregular
 
@@ -213,7 +210,6 @@ Deep generation method
 
 .. figure:: /images/25-Manual-Lighting-Lamps-Spot-Buf-Deep.jpg
    :width: 313px
-   :figwidth: 313px
 
    Buffer Shadow set to Deep
 

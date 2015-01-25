@@ -5,7 +5,6 @@ Weight Editing
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-weights-panel-overview.jpg
    :width: 235px
-   :figwidth: 235px
 
    Vertex Weights Panel
 
@@ -76,7 +75,6 @@ Each row in the Weight table contains 4 active elements:
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-weight-editor-name.jpg
    :width: 335px
-   :figwidth: 335px
 
    Change Active Group
 
@@ -90,7 +88,6 @@ the referenced Vertex Group becomes the new Active group.
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-weights-show.jpg
    :width: 235px
-   :figwidth: 235px
 
    Enable display of Weights in Edit Mode
 
@@ -107,7 +104,6 @@ Now you can see the weights of the active Vertex Group displayed on the mesh sur
 
 .. figure:: /images/26-Manual-Modeling-Meshes-weights-in-edit-mode.jpg
    :width: 235px
-   :figwidth: 235px
 
    Weights in Edit Mode
 
@@ -122,7 +118,6 @@ weight values.
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-weight-editor-weight.jpg
    :width: 235px
-   :figwidth: 235px
 
    Change Weight Value
 
@@ -138,7 +133,6 @@ arrows displayed around the weight value to change the weight in steps.
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-weight-editor-paste.jpg
    :width: 235px
-   :figwidth: 235px
 
    Paste weights
 
@@ -152,7 +146,6 @@ But note that weights are only pasted to verts which already have a weight value
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-weight-editor-delete.jpg
    :width: 235px
-   :figwidth: 235px
 
    Delete weights
 
@@ -169,7 +162,6 @@ The Function bar
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-weight-editor-functions.jpg
    :width: 235px
-   :figwidth: 235px
 
    Vertex Weights panel Function Bar
 
@@ -197,7 +189,6 @@ About locked Vertex Groups
 
 .. figure:: /images/26-Manual-Modeling-Meshes-vertex-weight-editor-locked.jpg
    :width: 235px
-   :figwidth: 235px
 
    Vertex Weights panel Locked
 

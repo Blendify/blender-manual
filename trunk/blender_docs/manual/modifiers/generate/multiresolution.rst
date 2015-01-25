@@ -8,7 +8,6 @@ Multiresolution Modifier
 
 .. figure:: /images/Multires_modifier_image.jpg
    :width: 500px
-   :figwidth: 500px
 
    Multires modifier
 

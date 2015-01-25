@@ -12,7 +12,6 @@ Inflow
 
 .. figure:: /images/Blender_fluids_inflow.jpg
    :width: 300px
-   :figwidth: 300px
 
    Fluid inflow settings
 
@@ -43,7 +42,6 @@ Outflow
 
 .. figure:: /images/Blender_fluids_outflow.jpg
    :width: 300px
-   :figwidth: 300px
 
    Fluid outflow settings
 

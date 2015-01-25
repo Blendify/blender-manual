@@ -42,7 +42,6 @@ Example
 
 .. figure:: /images/Spin1.jpg
    :width: 300px
-   :figwidth: 300px
 
    Glass profile.
 
@@ -59,7 +58,6 @@ so switch to the top view with :kbd:`Numpad7`.
 
 .. figure:: /images/Spin2.jpg
    :width: 300px
-   :figwidth: 300px
 
    Glass profile, top view in Edit mode, just before spinning.
 
@@ -81,14 +79,12 @@ Angle
 
 .. figure:: /images/Spin3.jpg
    :width: 300px
-   :figwidth: 300px
 
    Spun profile using an angle of 360
 
 
 .. figure:: /images/Spin4.jpg
    :width: 300px
-   :figwidth: 300px
 
    Spun profile using an angle of 120
 
@@ -98,14 +94,12 @@ Dupli
 
 .. figure:: /images/Spin6.jpg
    :width: 300px
-   :figwidth: 300px
 
    Result of spin operation
 
 
 .. figure:: /images/Spin7.jpg
    :width: 300px
-   :figwidth: 300px
 
    Result of Dupli enabled
 
@@ -115,7 +109,6 @@ Merge Duplicates
 
 .. figure:: /images/Spin8.jpg
    :width: 300px
-   :figwidth: 300px
 
    Duplicate vertices
 

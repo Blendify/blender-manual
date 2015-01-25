@@ -9,7 +9,6 @@ These settings apply only to the selected meta element.
 
 .. figure:: /images/MetaPropertiesEditMode.jpg
    :width: 300px
-   :figwidth: 300px
 
    the active element panel.
 
@@ -49,7 +48,6 @@ select it and activate *Scale* mode with :kbd:`S`.
 
 .. figure:: /images/MetaStiffness.jpg
    :width: 630px
-   :figwidth: 630px
 
    Stiffness.
 
@@ -64,7 +62,6 @@ Negative Influence
 
 .. figure:: /images/2.5_Manual-Part-II-MetaObject-Metaball-Negative-Ex.jpg
    :width: 630px
-   :figwidth: 630px
 
    Negative.
 
@@ -115,7 +112,6 @@ Conversion
 
 .. figure:: /images/MetaConvertToMesh.jpg
    :width: 300px
-   :figwidth: 300px
 
    the convert menu
 
@@ -147,7 +143,6 @@ Each meta object in the same "family" is associated with one another as discusse
 
 .. figure:: /images/2.5_Manual-Part-II-MetaObject-Base-Ex.jpg
    :width: 300px
-   :figwidth: 300px
 
    Meta ball base.
 
@@ -179,7 +174,6 @@ and you see that both the parent's mesh *and* all of the children's meshes are n
 
 .. figure:: /images/2.5_Manual-Part-II-MetaObject-Base-Scale-Ex.jpg
    :width: 300px
-   :figwidth: 300px
 
    Scaling the "base".
 

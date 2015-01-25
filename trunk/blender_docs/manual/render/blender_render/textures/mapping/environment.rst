@@ -192,13 +192,11 @@ onto which it is being mapped.
 
    * - .. figure:: /images/Manual-Part-IV-EnvMap01-2.40.jpg
           :width: 300px
-          :figwidth: 300px
 
           Planar reflection example. 1: Camera, 2: Empty, 3: Reflecting Plane.
 
      - .. figure:: /images/Manual-Part-IV-EnvMap04.jpg
           :width: 200px
-          :figwidth: 200px
 
           Sphere on a reflecting surface.
 
@@ -213,13 +211,11 @@ in order to get reflections of reflections.
 
    * - .. figure:: /images/Manual-Part-IV-EnvMap05.jpg
           :width: 200px
-          :figwidth: 200px
 
           Reflecting sphere on a reflecting surface.
 
      - .. figure:: /images/Manual-Part-IV-EnvMap06.jpg
           :width: 200px
-          :figwidth: 200px
 
           Reflecting sphere on a reflecting surface with multiple
           reflections.

@@ -12,7 +12,6 @@ is shown by default at the bottom of the screen.
 
 .. figure:: /images/K_Doc_Timeline.jpg
    :width: 700px
-   :figwidth: 700px
 
    Timeline 2.69
 
@@ -75,7 +74,6 @@ Markers are usually used to identify key parts of the animation.
 
 .. figure:: /images/K_Doc_Timeline_Markers.jpg
    :width: 700px
-   :figwidth: 700px
 
    Markers
 
@@ -97,7 +95,6 @@ The main *Timeline* area displays the animation frames over time.
 
 .. figure:: /images/K_Doc_Timeline_Main.jpg
    :width: 700px
-   :figwidth: 700px
 
    Timeline Main Area
 
@@ -246,7 +243,6 @@ The Timeline header controls.
 
 .. figure:: /images/K_Doc_Timeline_Header.jpg
    :width: 700px
-   :figwidth: 700px
 
    Timeline header controls.
 

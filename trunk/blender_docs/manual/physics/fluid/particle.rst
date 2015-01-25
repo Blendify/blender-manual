@@ -6,7 +6,6 @@ Particle
 
 .. figure:: /images/Blender_fluids_particle.jpg
    :width: 300px
-   :figwidth: 300px
 
    Fluid particle settings
 

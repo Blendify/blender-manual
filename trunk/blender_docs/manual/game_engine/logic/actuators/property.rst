@@ -13,7 +13,6 @@ Special Options:
 
 .. figure:: /images/2.5_Game_Engine_Actuator_Property.jpg
    :width: 271px
-   :figwidth: 271px
 
    Property actuator
 

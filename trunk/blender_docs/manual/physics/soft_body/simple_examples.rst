@@ -14,7 +14,6 @@ change your start and end frames to 1 and 150.
 
 .. figure:: /images/Manual-25-softbody-examples-timeline.jpg
    :width: 600px
-   :figwidth: 600px
 
    The timeline
 
@@ -31,7 +30,6 @@ when finisht, your scene should look like this:
 
 .. figure:: /images/Manual-25-softbody-examples-scene-ready.jpg
    :width: 400px
-   :figwidth: 400px
 
    The scene, ready for softbody physics
 
@@ -53,7 +51,6 @@ when finisht, your physics panel should look like this:
 
 .. figure:: /images/Manual-25-softbody-examples-physics-settings.jpg
    :width: 500px
-   :figwidth: 500px
 
    The physics settings.
 

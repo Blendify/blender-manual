@@ -50,7 +50,6 @@ Drawing Chains
 
 .. figure:: /images/Doc26-boneSketch-strokes.jpg
    :width: 500px
-   :figwidth: 500px
 
    Strokes example. From top to bottom:
    A selected polygonal stroke of four straight segments, oriented from left to right.
@@ -81,19 +80,16 @@ whatever convert algorithm you use (except for the* *Template* conversion method
 
    * - .. figure:: /images/ManRiggingSketchingDrawingPolyStrokeEx1.jpg
           :width: 200px
-          :figwidth: 200px
 
           The first segment has been started ([lmb] click) and the mouse moved to its end point.
 
      - .. figure:: /images/ManRiggingSketchingDrawingPolyStrokeEx2.jpg
           :width: 200px
-          :figwidth: 200px
 
           The first segment has been finalized by a second [lmb] click, which also started a new segment...
 
      - .. figure:: /images/ManRiggingSketchingDrawingPolyStrokeEx3.jpg
           :width: 200px
-          :figwidth: 200px
 
           Repeating these steps, we now have a four-segment polygonal stroke.
 
@@ -119,25 +115,21 @@ raise this value a bit, and if you find them too jagged, lower it.
 
    * - .. figure:: /images/ManRiggingSketchingDrawingFreeStrokeEx1.jpg
           :width: 300px
-          :figwidth: 300px
 
           While drawing a first free segment ([lmb] click and drag).
 
      - .. figure:: /images/ManRiggingSketchingDrawingFreeStrokeEx2.jpg
           :width: 300px
-          :figwidth: 300px
 
           The first free segment finalized (releasing [lmb]).
 
    * - .. figure:: /images/ManRiggingSketchingDrawingFreeStrokeEx3.jpg
           :width: 300px
-          :figwidth: 300px
 
           If you now move the mouse without pressing [lmb] again, you'll create a straight segment...
 
      - .. figure:: /images/ManRiggingSketchingDrawingFreeStrokeEx4.jpg
           :width: 300px
-          :figwidth: 300px
 
           But if you immediately click again and drag [lmb], you'll instead start a new free segment.
 
@@ -186,14 +178,12 @@ but rather create a new one, as if* *Overdraw Sketching* was disabled.
 
    * - .. figure:: /images/Doc26-boneSketch-overdraw.jpg
           :width: 350px
-          :figwidth: 350px
 
           Adjusting a stroke: the gray part of the "unselected" (orange)
           stroke will be replaced by the currently drawn "replacement".
 
      - .. figure:: /images/Doc26-boneSketch-overdraw2.jpg
           :width: 350px
-          :figwidth: 350px
 
           Stroke adjusted.
 
@@ -325,13 +315,11 @@ each free segment of the selected strokes will be uniformly divided in ``n`` par
 
    * - .. figure:: /images/Doc26-boneSketch-convert.jpg
           :width: 300px
-          :figwidth: 300px
 
           The Fixed conversion settings and its preview on selected strokes.
 
      - .. figure:: /images/Doc26-boneSketch-convert2.jpg
           :width: 300px
-          :figwidth: 300px
 
           The Fixed conversion result.
 
@@ -349,13 +337,11 @@ So the more twisted a free segment, the more bones it will generate.
 
    * - .. figure:: /images/Doc26-boneSketch-convert3.jpg
           :width: 300px
-          :figwidth: 300px
 
           The Adaptative conversion settings and its preview on selected strokes.
 
      - .. figure:: /images/Doc26-boneSketch-convert4.jpg
           :width: 300px
-          :figwidth: 300px
 
           The Adaptative conversion result.
 
@@ -372,19 +358,16 @@ so that none of them is longer than the *Length* numeric field value
 
    * - .. figure:: /images/Doc26-boneSketch-convert5.jpg
           :width: 200px
-          :figwidth: 200px
 
           The Length conversion settings and its preview on selected strokes.
 
      - .. figure:: /images/Doc26-boneSketch-convert6.jpg
           :width: 200px
-          :figwidth: 200px
 
           Using a larger length value.
 
      - .. figure:: /images/Doc26-boneSketch-convert7.jpg
           :width: 200px
-          :figwidth: 200px
 
           The Length conversion result.
 

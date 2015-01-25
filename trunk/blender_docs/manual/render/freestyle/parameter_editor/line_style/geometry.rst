@@ -5,7 +5,6 @@ Geometry
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Geometry_UI.jpg
    :width: 300px
-   :figwidth: 300px
 
    Line Style Geometry Overall UI
 
@@ -34,7 +33,6 @@ geometry. It has two sets of independent options/effects:
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Geometry_2D_Offset.jpg
    :width: 200px
-   :figwidth: 200px
 
    Line Style Geometry's 2D Offset modifier
 
@@ -54,7 +52,6 @@ X and Y
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Geometry_2D_Transform.jpg
    :width: 200px
-   :figwidth: 200px
 
    Line Style Geometry's 2D Transform modifier
 
@@ -87,7 +84,6 @@ Rotation Angle
 
 .. figure:: /images/2D_Transform.jpg
    :width: 400px
-   :figwidth: 400px
 
    2D Transform modifier
    `File:Toycar_Three_Contours.zip <http://wiki.blender.org/index.php/File:Toycar_Three_Contours.zip>`__
@@ -98,7 +94,6 @@ Backbone Stretcher
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Geometry_Backbone_Stretcher.jpg
    :width: 200px
-   :figwidth: 200px
 
    Line Style Geometry's Backbone Stretcher modifier
 
@@ -115,7 +110,6 @@ Bezier Curve
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Geometry_Bezier_Curve.jpg
    :width: 200px
-   :figwidth: 200px
 
    Line Style Geometry's Bezier Curve modifier
 
@@ -128,7 +122,6 @@ Error
 
 .. figure:: /images/toycar_bezier.jpg
    :width: 400px
-   :figwidth: 400px
 
    Bezier Curve modifier demo by T.K.
    `File:toycar_bezier.zip <http://wiki.blender.org/index.php/File:toycar_bezier.zip>`__
@@ -139,7 +132,6 @@ Blueprint
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Geometry_Blueprint.jpg
    :width: 200px
-   :figwidth: 200px
 
    Line Style Geometry's Blueprint modifier
 
@@ -175,7 +167,6 @@ Guiding Lines
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Geometry_Guiding_Lines.jpg
    :width: 200px
-   :figwidth: 200px
 
    Line Style Geometry's Guiding Lines modifier
 
@@ -194,7 +185,6 @@ it is recommended to use this modifier together with one of the splitting option
 
 .. figure:: /images/Toycar_Guiding_Line.jpg
    :width: 400px
-   :figwidth: 400px
 
    Guiding Lines modifier Demo by T.K.
    `File:Toycar_Guiding_Line.zip <http://wiki.blender.org/index.php/File:Toycar_Guiding_Line.zip>`__
@@ -205,7 +195,6 @@ Perlin Noise 1D
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Geometry_Perlin_Noise_1D.jpg
    :width: 200px
-   :figwidth: 200px
 
    Line Style Geometry's Perlin Noise 1D modifier
 
@@ -233,7 +222,6 @@ Perlin Noise 2D
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Geometry_Perlin_Noise_2D.jpg
    :width: 200px
-   :figwidth: 200px
 
    Line Style Geometry's Perlin Noise 2D modifier
 
@@ -250,7 +238,6 @@ Polygonization
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Geometry_Polygonization.jpg
    :width: 200px
-   :figwidth: 200px
 
    Line Style Geometry's Polygonization modifier
 
@@ -268,7 +255,6 @@ Sampling
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Geometry_Sampling.jpg
    :width: 200px
-   :figwidth: 200px
 
    Line Style Geometry's Sampling modifier
 
@@ -286,7 +272,6 @@ Sinus Displacement
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Geometry_Sinus_Displacement.jpg
    :width: 200px
-   :figwidth: 200px
 
    Line Style Geometry's Sinus Displacement modifier
 
@@ -305,7 +290,6 @@ Phase
 
 .. figure:: /images/Toycar_Sinus_Displacement.jpg
    :width: 400px
-   :figwidth: 400px
 
    Sinus Displacement modifier demo by T.K.
    `File:Toycar_Sinus.zip <http://wiki.blender.org/index.php/File:Toycar_Sinus.zip>`__
@@ -316,7 +300,6 @@ Spatial Noise
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Geometry_Spatial_Noise.jpg
    :width: 200px
-   :figwidth: 200px
 
    Line Style Geometry's Spatial Noise modifier
 
@@ -347,7 +330,6 @@ Tip Remover
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Geometry_Tip_Remover.jpg
    :width: 200px
-   :figwidth: 200px
 
    Line Style Geometry's Tip Remover modifier
 

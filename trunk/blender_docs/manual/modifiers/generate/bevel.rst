@@ -14,13 +14,11 @@ The Bevel modifier is a non-destructive alternative to the
 
    * - .. figure:: /images/Manual_-_Unbevelled_Square.jpg
           :width: 150px
-          :figwidth: 150px
 
           Unbeveled
 
      - .. figure:: /images/Manual_-_Bevelled_Square.jpg
           :width: 150px
-          :figwidth: 150px
 
           Beveled
 
@@ -42,7 +40,6 @@ Width
 
    .. figure:: /images/Manual_-_Bevel_Modifier_-_3_Beveled_Cubes.jpg
       :width: 610px
-      :figwidth: 610px
 
       Three Cubes with 0.1, 0.3 and 0.5 bevel Widths.
 
@@ -60,7 +57,6 @@ Only Vertices
 
    .. figure:: /images/Manual_-_3_Beveled_Cubes_Vertices_Only.jpg
       :width: 610px
-      :figwidth: 610px
 
       Three cubes with 0.1, 0.3 and 0.5' bevel Widths, with Only Vertices option enabled.
 

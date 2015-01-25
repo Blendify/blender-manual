@@ -17,7 +17,6 @@ You can work with geometric objects in two modes.
 
 .. figure:: /images/25-manual-editmode-3dviewheader-objectmode.jpg
    :width: 600px
-   :figwidth: 600px
 
    Object Mode header
 
@@ -30,7 +29,6 @@ Edit mode
 
 .. figure:: /images/25-manual-editmode-3dviewheader-editmode.jpg
    :width: 600px
-   :figwidth: 600px
 
    Edit Mode header
 

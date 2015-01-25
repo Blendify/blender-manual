@@ -76,7 +76,6 @@ where the ability to re-time blocking is one of the main purposes of the whole e
 
 .. figure:: /images/DopeSheetGreasePencil.jpg
    :width: 598px
-   :figwidth: 598px
 
 
 All the available Grease-Pencil blocks for the current screen layout will be shown.

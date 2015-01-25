@@ -57,21 +57,18 @@ and scroll the :kbd:`Wheel` to increase or decrease the number of segments. (see
 
 .. figure:: /images/Bevel1.jpg
    :width: 300px
-   :figwidth: 300px
 
    Selected edge before beveling
 
 
 .. figure:: /images/Bevel2.jpg
    :width: 300px
-   :figwidth: 300px
 
    Result of bevel (one segment)
 
 
 .. figure:: /images/Bevel6.jpg
    :width: 300px
-   :figwidth: 300px
 
    Result of bevel (vertex only)
 
@@ -111,7 +108,6 @@ Segments
 
 .. figure:: /images/Bevel3.jpg
    :width: 300px
-   :figwidth: 300px
 
    Bevel with 4 segments
 
@@ -141,20 +137,17 @@ Examples
 
 .. figure:: /images/Bevel4.jpg
    :width: 300px
-   :figwidth: 300px
 
    Result of beveling multiple edges
 
 
 .. figure:: /images/Bevel5.jpg
    :width: 300px
-   :figwidth: 300px
 
    Another example of beveling multiple edges
 
 
 .. figure:: /images/Bevel7.jpg
    :width: 300px
-   :figwidth: 300px
 
    An example using Profile=0.150

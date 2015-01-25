@@ -109,7 +109,6 @@ This editor can be found in the list of editor types.
 
 .. figure:: /images/Manual_movie_tracking_clip_editor_type_menu.jpg
    :width: 120px
-   :figwidth: 120px
 
    Editor type menu
 
@@ -119,7 +118,6 @@ When you switch to Movie Clip Editor window, the interface changes in the follow
 
 .. figure:: /images/Manual_movie_tracking_clip_editor_space_ui.jpg
    :width: 300px
-   :figwidth: 300px
 
    Movie Clip Editor interface
 
@@ -142,7 +140,6 @@ extra panels are displayed in the interface.
 
 .. figure:: /images/Manual_movie_tracking_clip_editor_clip_opened_ui.jpg
    :width: 300px
-   :figwidth: 300px
 
    Movie Clip Editor with opened clip
 
@@ -165,7 +162,6 @@ header.
 
 .. figure:: /images/Manual_movie_tracking_clip_editor_mode_menu.jpg
    :width: 300px
-   :figwidth: 300px
 
    Movie Clip Editor mode menu
 
@@ -319,7 +315,6 @@ Objects Panel
 
 .. figure:: /images/Manual_movie_tracking_clip_editor_objects_panel.jpg
    :width: 130px
-   :figwidth: 130px
 
    Objects Panel in clip editor
 
@@ -349,7 +344,6 @@ Track Panel
 
 .. figure:: /images/Manual_movie_tracking_clip_editor_track_panel.jpg
    :width: 130px
-   :figwidth: 130px
 
    Track Panel in clip editor
 
@@ -610,7 +604,6 @@ Proxy / Timecode Panel
 
 .. figure:: /images/Manual_movie_tracking_clip_editor_proxy_timecode_panel.jpg
    :width: 130px
-   :figwidth: 130px
 
    Proxy / Timecode Panel in clip editor
 
@@ -652,7 +645,6 @@ Tools available in reconstruction mode
 
 .. figure:: /images/Manual_movie_tracking_clip_editor_2d_stabilization_panel.jpg
    :width: 130px
-   :figwidth: 130px
 
    Proxy / 2D Stabilization Panel in clip editor
 

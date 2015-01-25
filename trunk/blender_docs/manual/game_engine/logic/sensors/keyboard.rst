@@ -5,7 +5,6 @@ Keyboard Sensor
 
 .. figure:: /images/BGE_Sensor_Keyboard.jpg
    :width: 300px
-   :figwidth: 300px
 
    Keyboard sensor
 

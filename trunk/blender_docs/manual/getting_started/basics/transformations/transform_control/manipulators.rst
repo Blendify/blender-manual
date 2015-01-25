@@ -43,7 +43,6 @@ Manipulators can be accessed in the header of the *3D View* window:
 
 .. figure:: /images/3D_interaction-Transform_Control-Manipulators-manipulator_options.jpg
    :width: 650px
-   :figwidth: 650px
 
    Manipulator Options
 
@@ -118,7 +117,6 @@ change depending on how many and which faces, edges or vertices are selected.
 
 .. figure:: /images/3D_interaction-Transform_Control-Manipulators-manipulator_orientation_options.jpg
    :width: 640px
-   :figwidth: 640px
 
    Transform manipulator orientation options.
 

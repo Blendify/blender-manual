@@ -5,7 +5,6 @@ Mouse sensor
 
 .. figure:: /images/BGE_Sensor_Mouse1.jpg
    :width: 300px
-   :figwidth: 300px
 
    Mouse sensor
 
@@ -17,7 +16,6 @@ See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for
 
 .. figure:: /images/BGE_Sensor_Mouse_Events.jpg
    :width: 300px
-   :figwidth: 300px
 
    Mouse Events
 

@@ -44,7 +44,6 @@ Subtract Effect
 
 .. figure:: /images/Manual-VSE-Subtract.jpg
    :width: 300px
-   :figwidth: 300px
 
    Subtract Effect
 
@@ -73,7 +72,6 @@ Fade to Black
 
 .. figure:: /images/Manual-VSE-Cross-Fade.jpg
    :width: 300px
-   :figwidth: 300px
 
    Cross-Fade between Black
 
@@ -95,7 +93,6 @@ Multiply
 
 .. figure:: /images/Manual-VSE-Multiply.jpg
    :width: 300px
-   :figwidth: 300px
 
    Multiply Effect.
 
@@ -141,7 +138,6 @@ Alpha Over, Under, and Over Drop
 
 .. figure:: /images/Manual-VSE-Alpha.jpg
    :width: 300px
-   :figwidth: 300px
 
    AlphaOver Effect
 
@@ -209,7 +205,6 @@ Wipe
 
 .. figure:: /images/Manual-VSE-wipe.jpg
    :width: 300px
-   :figwidth: 300px
 
    VSE Wipe Built-in Effect
 
@@ -240,7 +235,6 @@ Glow
 
 .. figure:: /images/Manual-VSE-Glow_example.jpg
    :width: 300px
-   :figwidth: 300px
 
    Example of a Glow effect applied to a picture.
    Top left: base picture (Lofoten Islands, Norway - source: wikipedia.fr);
@@ -324,7 +318,6 @@ Creating a Slow-Motion Effect
 
 .. figure:: /images/Manual-VSE-Speed-slomo-2.jpg
    :width: 300px
-   :figwidth: 300px
 
    50% Slow motion using Speed Control
 

@@ -10,7 +10,6 @@ and internationalization.
 
 .. figure:: /images/(Doc_26x_Manual_Preferences_System)_(Screenshot_Full)_(GBV266FN).jpg
    :width: 650px
-   :figwidth: 650px
 
 
 General

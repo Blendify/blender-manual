@@ -90,14 +90,12 @@ Options
 
 .. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-proportional-edit-tool.jpg
    :width: 200px
-   :figwidth: 200px
 
    Proportional Editing tool.
 
 
 .. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-proportional-edit-falloff-options.jpg
    :width: 200px
-   :figwidth: 200px
 
    Falloff menu.
 
@@ -116,7 +114,6 @@ Projected (2D)
 
 .. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-2D_Compare.jpg
    :width: 300px
-   :figwidth: 300px
 
    The difference between regular and Projected (2D) proportional option (right).
 
@@ -140,43 +137,36 @@ Falloff
 
    * - .. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-falloff-constant.jpg
           :width: 300px
-          :figwidth: 300px
 
           Constant, No Falloff.
 
      - .. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-falloff-random.jpg
           :width: 300px
-          :figwidth: 300px
 
           Random Falloff.
 
    * - .. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-falloff-linear.jpg
           :width: 300px
-          :figwidth: 300px
 
           Linear Falloff.
 
      - .. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-falloff-sharp.jpg
           :width: 300px
-          :figwidth: 300px
 
           Sharp Falloff.
 
    * - .. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-falloff-root.jpg
           :width: 300px
-          :figwidth: 300px
 
           Root Falloff.
 
      - .. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-falloff-sphere.jpg
           :width: 300px
-          :figwidth: 300px
 
           Sphere Falloff.
 
    * - .. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-falloff-smooth.jpg
           :width: 300px
-          :figwidth: 300px
 
           Smooth Falloff.
 
@@ -200,7 +190,6 @@ as *A landscape obtained via proportional editing* shows.
 
 .. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-landscape.jpg
    :width: 640px
-   :figwidth: 640px
 
    A landscape obtained via proportional editing.
 
@@ -212,7 +201,6 @@ application of textures and lighting.
 
 .. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-landscape-textured.jpg
    :width: 620px
-   :figwidth: 620px
 
    Final rendered landscape.
 

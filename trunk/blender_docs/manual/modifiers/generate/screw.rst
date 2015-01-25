@@ -9,7 +9,6 @@ in that it takes a profile object, a Mesh or a Curve, to create a helix-like sha
 
 .. figure:: /images/25-Manual-Modifiers-Screw-align.jpg
    :width: 600px
-   :figwidth: 600px
 
    Properly aligning the profile object is important
 

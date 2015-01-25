@@ -25,7 +25,6 @@ Options
 
 .. figure:: /images/25-Manual-Constraints-Transform-Transformation.jpg
    :width: 305px
-   :figwidth: 305px
 
    Transformation panel
 
@@ -60,13 +59,11 @@ Extrapolate
 
    * - .. figure:: /images/ManConstraintsTransformationExtrapolatePrinciple1.jpg
           :width: 300px
-          :figwidth: 300px
 
           Extrapolate disabled: the output values are bounded inside the [1.0, 2.0] range.
 
      - .. figure:: /images/ManConstraintsTransformationExtrapolatePrinciple2.jpg
           :width: 300px
-          :figwidth: 300px
 
           Extrapolate enabled: the output values are "free" to proportionally follow the input ones.
 

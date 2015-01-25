@@ -37,7 +37,6 @@ Options
 
 .. figure:: /images/25-Manual-Constraints-Relationship-RigidBodyJoint.jpg
    :width: 304px
-   :figwidth: 304px
 
    Rigid Body Joint panel
 

@@ -19,7 +19,6 @@ Options
 
 .. figure:: /images/25-Manual-Constraints-Tracking-IK.jpg
    :width: 305px
-   :figwidth: 305px
 
    Inverse Kinematics panel
 

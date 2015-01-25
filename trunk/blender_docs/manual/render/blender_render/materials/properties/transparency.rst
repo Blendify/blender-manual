@@ -187,11 +187,9 @@ Fresnel
 
    * - .. figure:: /images/Manual-2.5-Material-RayTraceTransp-FresnelExampel.jpg
           :width: 320px
-          :figwidth: 320px
 
      - .. figure:: /images/Manual-2.5-Material-RayTraceTransp-FresnelExampelZTransp.jpg
           :width: 320px
-          :figwidth: 320px
 
    * - 16 pieces of glass rotated in various directions demonstrate the angle-dependent Fresnel effect
        with ray-traced (left) and alpha buffered transparency (right).
@@ -202,11 +200,9 @@ Fresnel
 
    * - .. figure:: /images/Manual-2.5-Material-RayTraceTransp-FresnelSettings.jpg
           :width: 320px
-          :figwidth: 320px
 
      - .. figure:: /images/Manual-2.5-Material-RayTraceTransp-FresnelSettingsZTransp.jpg
           :width: 320px
-          :figwidth: 320px
 
    * - Settings for Fresnel using ray-traced (left) and Z transparency (right).
 
@@ -226,7 +222,6 @@ Depth
 
 .. figure:: /images/Manual-2.5-Material-Transp-3GlassesExample.jpg
    :width: 640px
-   :figwidth: 640px
 
    A simple scene with three glasses on a surface, and three lamps.
    Depth was set to 4, 8, 12, and 14, resulting in render times of 24 sec, 34 sec, 6 min, and 11 min respectively.
@@ -260,37 +255,31 @@ Transparent shadows
 
    * - .. figure:: /images/Manual25-Material-TranspShadow-Example-NoTraSha.jpg
           :width: 320px
-          :figwidth: 320px
 
           No transparent shadows
 
      - .. figure:: /images/Manual25-Material-TranspShadow-Example-EnvLight.jpg
           :width: 320px
-          :figwidth: 320px
 
           No transparent shadows, environment lighting enabled
 
    * - .. figure:: /images/Manual25-Material-TranspShadow-Example-TraSha.jpg
           :width: 320px
-          :figwidth: 320px
 
           Transparent shadows enabled, alpha set to 0.0
 
      - .. figure:: /images/Manual25-Material-TranspShadow-Example-TraSha2.jpg
           :width: 320px
-          :figwidth: 320px
 
           As previous, alpha set to 0.25
 
    * - .. figure:: /images/Manual25-Material-TranspShadow-Example-TraSha-AO1.jpg
           :width: 320px
-          :figwidth: 320px
 
           Transparent shadows with ambient occlusion set to multiply, distance 1 (radius of sphere)
 
      - .. figure:: /images/Manual25-Material-TranspShadow-Example-TraSha-AO2.jpg
           :width: 320px
-          :figwidth: 320px
 
           As previous, distance increased to 2 (diameter of sphere)
 

@@ -25,7 +25,6 @@ Types of Tools
 
 .. figure:: /images/25-Manual-Modeling-Meshes-Tools.jpg
    :width: 130px
-   :figwidth: 130px
 
    Mesh Tools
 

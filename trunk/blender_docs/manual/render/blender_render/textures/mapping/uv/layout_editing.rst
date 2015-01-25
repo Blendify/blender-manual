@@ -275,7 +275,6 @@ Combining UV Maps
 
 .. figure:: /images/Manual-UV-Unwrap-Bad.jpg
    :width: 300px
-   :figwidth: 300px
 
    Bad Unwrap-Note Ear and Neck
 
@@ -289,7 +288,6 @@ and the neck, it is stretched and folded under. Too much work to clean up.
 
 .. figure:: /images/Manual-UV-Unwrap-Face.jpg
    :width: 300px
-   :figwidth: 300px
 
    Unwrap Face Only, without Ear or Neck
 
@@ -305,7 +303,6 @@ rotate them somewhat to fit logically within the image area of the UV/Image Edit
 
 .. figure:: /images/Manual-UV-Unwrap-Ear.jpg
    :width: 300px
-   :figwidth: 300px
 
    Unwrap Projection: Ear
 
@@ -332,7 +329,6 @@ painting of that piece.
 
 .. figure:: /images/Manual-UV-Unwrap-All.jpg
    :width: 300px
-   :figwidth: 300px
 
    UV Maps together
 
@@ -347,7 +343,6 @@ to construct the entire UV Map as a single map.
 
 .. figure:: /images/Manual-UV-Unwrap-Combo.jpg
    :width: 300px
-   :figwidth: 300px
 
    UV Maps Arranged and Stitched
 

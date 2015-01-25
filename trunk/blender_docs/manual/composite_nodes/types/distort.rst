@@ -43,7 +43,6 @@ The mini-map below shows an example of how to roll credits using the Translate n
 
 .. figure:: /images/Manual-Compositing-Translate_credits.jpg
    :width: 600px
-   :figwidth: 600px
 
    Using the Translate Node to Roll Credits
 
@@ -270,7 +269,6 @@ Example
 
 .. figure:: /images/Manual-Compositing-Nodes-Displace_example.jpg
    :width: 300px
-   :figwidth: 300px
 
    Music Video Distortion Example Using Displace
 
@@ -329,7 +327,6 @@ Examples
 
 .. figure:: /images/Manual-Compositing-Node-MapUV_ex.jpg
    :width: 300px
-   :figwidth: 300px
 
    Adding a Grid UV Textures for Motion Tracking
 
@@ -344,7 +341,6 @@ We can use this grid texture to help in any motion tracking that we need to do.
 
 .. figure:: /images/Manual-Compositing-Node-MapUV_ex02.jpg
    :width: 300px
-   :figwidth: 300px
 
    Adding UV Textures in Post-Production
 

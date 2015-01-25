@@ -36,7 +36,6 @@ The following sections describe the controls in each of the available panels.
 
 .. figure:: /images/Doc-2.6-Materials-VertexPaint-ToolShelf-Tools.jpg
    :width: 600px
-   :figwidth: 600px
 
    Settings for vertex painting
 
@@ -166,7 +165,6 @@ Input Samples
 
 .. figure:: /images/brushcurves.jpg
    :width: 200px
-   :figwidth: 200px
 
    Various brush curves
 
@@ -183,7 +181,6 @@ Options
 
 .. figure:: /images/Doc-2.6-Materials-VertexPaint-ToolShelf-Options.jpg
    :width: 600px
-   :figwidth: 600px
 
    Options for vertex painting
 

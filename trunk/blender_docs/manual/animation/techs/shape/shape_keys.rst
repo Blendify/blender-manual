@@ -188,7 +188,6 @@ Evaluation Time
 
 .. figure:: /images/Doc_Shape_Keys_Evaluation.jpg
    :width: 600px
-   :figwidth: 600px
 
    Animation with Evaluation Time.
 
@@ -224,7 +223,6 @@ Workflow For Absolute Shape Keys
 
 .. figure:: /images/Doc_Absolute_SK_Workflow_2.jpg
    :width: 50px
-   :figwidth: 50px
 
 
 - Select the top face.
@@ -233,7 +231,6 @@ Workflow For Absolute Shape Keys
 
 .. figure:: /images/Doc_Absolute_SK_Workflow_3.jpg
    :width: 50px
-   :figwidth: 50px
 
 
 - Select a side face on the top half. (the one at x=1 if possible)
@@ -243,7 +240,6 @@ Workflow For Absolute Shape Keys
 
 .. figure:: /images/Doc_Absolute_SK_Workflow_4.jpg
    :width: 50px
-   :figwidth: 50px
 
 
 - Add a basis shape keys and two more via the + button on the Shape Key Panel.
@@ -254,7 +250,6 @@ Workflow For Absolute Shape Keys
 
 .. figure:: /images/Doc_Absolute_SK_Workflow5.jpg
    :width: 50px
-   :figwidth: 50px
 
 
 - Select shape key Key 2 to edit the third shape key.
@@ -263,7 +258,6 @@ Workflow For Absolute Shape Keys
 
 .. figure:: /images/Doc_Absolute_SK_Workflow_6.jpg
    :width: 50px
-   :figwidth: 50px
 
 
 - Select shape key Basis to edit the first shape key.

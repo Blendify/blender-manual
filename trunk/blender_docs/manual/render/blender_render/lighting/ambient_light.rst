@@ -16,7 +16,6 @@ which indicates the amount of ambient light/color that that material receives.
 
 .. figure:: /images/27x-Manual-Lighting-EL.jpg
    :width: 500px
-   :figwidth: 500px
 
    Environment Lighting panel.
 

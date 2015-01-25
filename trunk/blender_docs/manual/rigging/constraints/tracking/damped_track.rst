@@ -16,7 +16,6 @@ Options
 
 .. figure:: /images/25-Manual-Constraints-Tracking-DampedTrack.jpg
    :width: 304px
-   :figwidth: 304px
 
    Damped Track panel
 
@@ -31,7 +30,6 @@ Target (Mesh Object Type)
 
 .. figure:: /images/Properties_Editor_-_Object_Constraints_-_Damped_Track_-_Armature_Object_Type.jpg
    :width: 304px
-   :figwidth: 304px
 
    Damped Track for Bones
 

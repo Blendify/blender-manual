@@ -5,7 +5,6 @@ Procedural textures: Musgrave
 
 .. figure:: /images/25-Manual-Textures-Procedural-Musgrave.jpg
    :width: 307px
-   :figwidth: 307px
 
    Musgrave Texture Panels
 
@@ -39,31 +38,26 @@ Examples with Basis : Voronoi F1 - Dimension : 0.5 - Lacunarity : 0.15 - Octave:
 
    * - .. figure:: /images/Musgrave_HeteroTerrain.jpg
           :width: 120px
-          :figwidth: 120px
 
           Hetero Terrain
 
      - .. figure:: /images/Musgrave_fBM.jpg
           :width: 120px
-          :figwidth: 120px
 
           fBM
 
      - .. figure:: /images/Musgrave_HybridMultifractal.jpg
           :width: 120px
-          :figwidth: 120px
 
           Hybrid Multifrct
 
      - .. figure:: /images/Musgrave_RidgedMultifractal.jpg
           :width: 120px
-          :figwidth: 120px
 
           Ridged Multifrct
 
      - .. figure:: /images/Musgrave_Multifractal.jpg
           :width: 120px
-          :figwidth: 120px
 
           Multifractal
 

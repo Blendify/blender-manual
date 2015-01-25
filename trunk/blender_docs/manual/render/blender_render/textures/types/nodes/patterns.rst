@@ -11,7 +11,6 @@ Checker
 
 .. figure:: /images/Doc26-textureNodes_checker.jpg
    :width: 200px
-   :figwidth: 200px
 
    Checker node
 
@@ -29,7 +28,6 @@ Bricks
 
 .. figure:: /images/Doc26-textureNodes_bricks.jpg
    :width: 200px
-   :figwidth: 200px
 
    Bricks node
 

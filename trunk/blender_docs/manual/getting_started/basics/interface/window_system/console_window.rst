@@ -19,7 +19,6 @@ Windows XP/Vista/7
 .. figure:: /images/Interface-Window-System-console-windows.jpg
    :align: right
    :width: 360px
-   :figwidth: 360px
 
    The Blender Console Window on Windows XP and subsequent messages.
 
@@ -53,7 +52,6 @@ Linux
 .. figure:: /images/Interface-Window-System-console-linux.jpg
    :align: right
    :width: 360px
-   :figwidth: 360px
 
    Starting Blender from a Linux console window and subsequent messages.
 
@@ -80,7 +78,6 @@ MacOS
 .. figure:: /images/Interface-Window-System-console-mac.jpg
    :align: right
    :width: 360px
-   :figwidth: 360px
 
    Starting Blender from a Mac OS X console window and subsequent messages.
 

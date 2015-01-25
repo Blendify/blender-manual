@@ -17,7 +17,6 @@ Option
 
 .. figure:: /images/25-Manual-World-MistPanel.jpg
    :width: 305px
-   :figwidth: 305px
 
    Mist panel
 
@@ -35,7 +34,6 @@ Depth
 
 .. figure:: /images/25-Manual-World-MistFalloff.jpg
    :width: 197px
-   :figwidth: 197px
 
    Mist Falloff popup menu
 

@@ -13,7 +13,6 @@ Options:
 
 .. figure:: /images/BGE_Controller_Nor.jpg
    :width: 292px
-   :figwidth: 292px
 
    NOR Controller
 

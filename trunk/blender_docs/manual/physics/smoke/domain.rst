@@ -35,26 +35,22 @@ we will return to the new settings that popped up later on.
 
    * - .. figure:: /images/Physics_tab.jpg
           :width: 200px
-          :figwidth: 200px
 
           The physics tab might be hidden
 
      - .. figure:: /images/Add_smoke.jpg
           :width: 200px
-          :figwidth: 200px
 
           Add smoke
 
      - .. figure:: /images/Radio_domain.jpg
           :width: 200px
-          :figwidth: 200px
 
           Chose domain for the cube
 
 
 .. figure:: /images/2011-06-27_1605.jpg
    :width: 400px
-   :figwidth: 400px
 
    The Smoke Domain Object
 
@@ -138,7 +134,6 @@ The other settings determine how much various Force Fields affect the smoke.
 
 .. figure:: /images/2011-06-27_1623.jpg
    :width: 550px
-   :figwidth: 550px
 
    Smoke with a wind force field.
 

@@ -34,13 +34,11 @@ Isolated vertices.
 
    * - .. figure:: /images/bmesh_make_face_verts_simple_before.jpg
           :width: 200px
-          :figwidth: 200px
 
           Before
 
      - .. figure:: /images/bmesh_make_face_verts_simple_after.jpg
           :width: 200px
-          :figwidth: 200px
 
           After
 
@@ -53,13 +51,11 @@ Isolated edges
 
    * - .. figure:: /images/bmesh_make_face_edges_simple_before.jpg
           :width: 200px
-          :figwidth: 200px
 
           Before
 
      - .. figure:: /images/bmesh_make_face_edges_simple_after.jpg
           :width: 200px
-          :figwidth: 200px
 
           After
 
@@ -74,13 +70,11 @@ note that this doesn't support holes, to support holes you need to use the*
 
    * - .. figure:: /images/bmesh_make_face_edges_ngon_before.jpg
           :width: 200px
-          :figwidth: 200px
 
           Before
 
      - .. figure:: /images/bmesh_make_face_edges_ngon_simple_after.jpg
           :width: 200px
-          :figwidth: 200px
 
           After
 
@@ -93,13 +87,11 @@ Mixed vertices/edges: *existing edges are used to make the face as well as an ex
 
    * - .. figure:: /images/bmesh_make_face_mix_simple_before.jpg
           :width: 200px
-          :figwidth: 200px
 
           Before
 
      - .. figure:: /images/bmesh_make_face_mix_simple_after.jpg
           :width: 200px
-          :figwidth: 200px
 
           After
 
@@ -112,13 +104,11 @@ Edge-Net: *sometimes you may have many connected edges without interior faces.*
 
    * - .. figure:: /images/bmesh_make_face_net_before.jpg
           :width: 200px
-          :figwidth: 200px
 
           Before
 
      - .. figure:: /images/bmesh_make_face_net_after.jpg
           :width: 200px
-          :figwidth: 200px
 
           After
 
@@ -132,13 +122,11 @@ Blender will calculate the edges for an n-gon.*
 
    * - .. figure:: /images/bmesh_make_face_cloud_before.jpg
           :width: 200px
-          :figwidth: 200px
 
           Before
 
      - .. figure:: /images/bmesh_make_face_cloud_after.jpg
           :width: 200px
-          :figwidth: 200px
 
           After
 

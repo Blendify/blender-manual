@@ -49,7 +49,6 @@ RGB Curves
 
 .. figure:: /images/Doc26-textures-nodes-color-rgbCurves.jpg
    :width: 250px
-   :figwidth: 250px
 
    RGB Curves node
 
@@ -80,7 +79,6 @@ Hue Saturation Value
 
 .. figure:: /images/Doc26-textures-nodes-color-hsv.jpg
    :width: 300px
-   :figwidth: 300px
 
    Hue Saturation Value node
 
@@ -93,7 +91,6 @@ Combine and Separate RGB
 
 .. figure:: /images/Doc26-textures-nodes-color-combineRgb.jpg
    :width: 250px
-   :figwidth: 250px
 
    Combine RGB node
 
@@ -107,7 +104,6 @@ and the node will combine them into a color value.
 
 .. figure:: /images/Doc26-textures-nodes-color-separateRgb.jpg
    :width: 250px
-   :figwidth: 250px
 
    Separate RGB node
 

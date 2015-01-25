@@ -21,7 +21,6 @@ Options:
 
 .. figure:: /images/BGE_Controller_Nan.jpg
    :width: 292px
-   :figwidth: 292px
 
    NAND Controller
 

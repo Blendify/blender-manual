@@ -11,14 +11,12 @@ once activated you can use the ruler to measure lengths and angles in the scene.
 
 .. figure:: /images/View3d_ruler_example.jpg
    :width: 500px
-   :figwidth: 500px
 
    Example of the ruler and protractor.
 
 
 .. figure:: /images/View3d_ruler_thickness.jpg
    :width: 592px
-   :figwidth: 592px
 
    Example using the ruler to measure thickness.
 

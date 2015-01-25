@@ -8,28 +8,24 @@ We have 4 basic bone visualization: Octahedral, Stick, B-Bone, Envelope and Wire
 
 .. figure:: /images/Man2.5RiggingBonePrincipalsBoneDisplayOctahedral.jpg
    :width: 300px
-   :figwidth: 300px
 
    Octahedral bone display.
 
 
 .. figure:: /images/Man2.5RiggingBonePrincipalsBoneDisplayStick.jpg
    :width: 300px
-   :figwidth: 300px
 
    Stick bone display.
 
 
 .. figure:: /images/Man2.5RiggingBonePrincipalsBoneDisplayBBone.jpg
    :width: 300px
-   :figwidth: 300px
 
    B-Bone bone display.
 
 
 .. figure:: /images/Man2.5RiggingBonePrincipalsBoneDisplayEnvelope.jpg
    :width: 300px
-   :figwidth: 300px
 
    Envelope bone display.
 
@@ -50,7 +46,6 @@ found in the *Display* panel of the *Object data* context.
 
 .. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtDisplayPanel.jpg
    :width: 250px
-   :figwidth: 250px
 
    The Display panel.
 
@@ -60,7 +55,6 @@ Bone types
 
 .. figure:: /images/ManRiggingOctahedronEx3DViewEditMode.jpg
    :width: 250px
-   :figwidth: 250px
 
    A basic armature in Octahedron visualization, Edit mode.
 
@@ -79,7 +73,6 @@ This is the default visualization, well suited for most of editing tasks. It mat
 
 .. figure:: /images/ManRiggingStickEx3DViewPoseMode.jpg
    :width: 250px
-   :figwidth: 250px
 
    The same armature in Stick visualization, Pose mode.
    Note that Bone.001 roll angle is not visible (except by its XZ axes).
@@ -95,7 +88,6 @@ so it gives you no information about root and tip, nor bone size or roll angle.
 
 .. figure:: /images/ManRiggingBBoneEx3DViewEditMode.jpg
    :width: 250px
-   :figwidth: 250px
 
    The same armature in B-Bone visualization, Edit mode.
 
@@ -109,7 +101,6 @@ see the :doc:`bone page </rigging/armatures/bones#bones_rigidity>` for details.
 
 .. figure:: /images/ManRiggingEnvelopeEx3DViewPoseMode.jpg
    :width: 250px
-   :figwidth: 250px
 
    The Bone Groups panel.
 
@@ -160,7 +151,6 @@ First of all, you have to enable the *Shapes* button (*Armature* panel).
 
 .. figure:: /images/Man2.5RiggingEditingBoneCxtDisplayPanel.jpg
    :width: 250px
-   :figwidth: 250px
 
    The Display panel.
 
@@ -192,14 +182,12 @@ To assign a custom shape to a bone, you have to:
 
 .. figure:: /images/Man2.5RiggingEditingBoneCxtDisplayPanel2.jpg
    :width: 250px
-   :figwidth: 250px
 
    The Display panel.
 
 
 .. figure:: /images/ManRiggingBoneShapeEx3DViewObjectMode.jpg
    :width: 300px
-   :figwidth: 300px
 
    The armature with shapes assigned to two bones, in Object mode.
    Note the centers of the Cone and Cube objects.
@@ -207,7 +195,6 @@ To assign a custom shape to a bone, you have to:
 
 .. figure:: /images/ManRiggingBoneShapeEx3DViewPoseMode.jpg
    :width: 300px
-   :figwidth: 300px
 
    The same armature in Pose mode...
 
@@ -243,7 +230,6 @@ Armature Layers
 
 .. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtSkeletonPanel.jpg
    :width: 250px
-   :figwidth: 250px
 
    The Skeleton panel.
 
@@ -292,7 +278,6 @@ Bone Layers
 
 .. figure:: /images/Man2.5RiggingEditingBoneCxtRelationsPanel.jpg
    :width: 250px
-   :figwidth: 250px
 
    The Relations panel.
 
@@ -324,7 +309,6 @@ Hiding Bones
 
 .. figure:: /images/Man2.5RiggingEditingBoneCxtDisplayPanel.jpg
    :width: 250px
-   :figwidth: 250px
 
    The Display panel.
 

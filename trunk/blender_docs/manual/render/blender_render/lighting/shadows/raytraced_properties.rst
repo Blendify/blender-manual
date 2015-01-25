@@ -5,7 +5,6 @@ Lamps Raytraced Shadows
 
 .. figure:: /images/25-Manual-Lighting-Shadow-Ray.jpg
    :width: 310px
-   :figwidth: 310px
 
    Ray shadowing options for lamps
 
@@ -59,55 +58,46 @@ Soft Size
 
       * - .. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_1_-_Samples_2_-_Cube.jpg
              :width: 190px
-             :figwidth: 190px
 
              Soft Size: 1.0, Samples: 2.
 
         - .. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_1_-_Samples_4_-_Cube.jpg
              :width: 190px
-             :figwidth: 190px
 
              Soft Size: 1.0, Samples: 4.
 
         - .. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_1_-_Samples_6_-_Cube.jpg
              :width: 190px
-             :figwidth: 190px
 
              Soft Size: 1.0, Samples: 6.
 
       * - .. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_2_-_Samples_2_-_Cube.jpg
              :width: 190px
-             :figwidth: 190px
 
              Soft Size: 2.0, Samples: 2.
 
         - .. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_2_-_Samples_4_-_Cube.jpg
              :width: 190px
-             :figwidth: 190px
 
              Soft Size: 2.0, Samples: 4.
 
         - .. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_2_-_Samples_6_-_Cube.jpg
              :width: 190px
-             :figwidth: 190px
 
              Soft Size: 2.0, Samples: 6.
 
       * - .. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_3_-_Samples_2_-_Cube.jpg
              :width: 190px
-             :figwidth: 190px
 
              Soft Size: 3.0, Samples: 2.
 
         - .. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_3_-_Samples_4_-_Cube.jpg
              :width: 190px
-             :figwidth: 190px
 
              Soft Size: 3.0, Samples: 4.
 
         - .. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_3_-_Samples_6_-_Cube.jpg
              :width: 190px
-             :figwidth: 190px
 
              Soft Size: 3.0, Samples: 6.
 

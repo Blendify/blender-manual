@@ -20,21 +20,18 @@ This transform tool does not take into account the pivot point or transform orie
 
 .. figure:: /images/ShrinkFlatten1.jpg
    :width: 200px
-   :figwidth: 200px
 
    mesh before shrink/flatten
 
 
 .. figure:: /images/ShrinkFlatten2.jpg
    :width: 200px
-   :figwidth: 200px
 
    Inflated using a positive value
 
 
 .. figure:: /images/ShrinkFlatten3.jpg
    :width: 200px
-   :figwidth: 200px
 
    Shrunk using a negative value
 

@@ -7,7 +7,6 @@ Description
 
 .. figure:: /images/3D_interaction-Transform_Control-Axis_locking-axis-locking.jpg
    :width: 150px
-   :figwidth: 150px
 
    Axis locking
 
@@ -65,7 +64,6 @@ Plane locking
 
 .. figure:: /images/3D_interaction-Transform_Control-Axis_locking-plane-locking.jpg
    :width: 150px
-   :figwidth: 150px
 
    Plane locking
 
@@ -85,7 +83,6 @@ Axis locking modes
 
 .. figure:: /images/3D_interaction-Transform_Control-Axis_locking-locking-modes.jpg
    :width: 340px
-   :figwidth: 340px
 
    Axis locking modes
 

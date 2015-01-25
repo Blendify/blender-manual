@@ -134,13 +134,11 @@ Color Ramp
 
    * - .. figure:: /images/Manual-Part-I-Interface-ColorBand-Before_25.jpg
           :width: 310px
-          :figwidth: 310px
 
           Colorband before
 
      - .. figure:: /images/Manual-Part-I-Interface-ColorBand-After_25.jpg
           :width: 310px
-          :figwidth: 310px
 
           Colorband after
 

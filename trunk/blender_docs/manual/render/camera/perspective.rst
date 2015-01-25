@@ -50,7 +50,6 @@ Three Point Rendering
 
 .. figure:: /images/Manual-Render-3pt.jpg
    :width: 200px
-   :figwidth: 200px
 
    Normal Three Point Render
 
@@ -74,7 +73,6 @@ Two Point Rendering
 
 .. figure:: /images/Manual-Render-2pt.jpg
    :width: 200px
-   :figwidth: 200px
 
    Two Point Vertical Render
 
@@ -93,7 +91,6 @@ Shift lenses shift the image to another place on the film.
 
 .. figure:: /images/Manual-Render-2ptTitle.jpg
    :width: 200px
-   :figwidth: 200px
 
    Two Point Horizontal Render
 
@@ -141,7 +138,6 @@ One Point Rendering
 
 .. figure:: /images/Manual-Render-1pt.jpg
    :width: 200px
-   :figwidth: 200px
 
    One Point Render
 
@@ -199,7 +195,6 @@ Orthographic Rendering
 
 .. figure:: /images/Manual-Render-0pt.jpg
    :width: 200px
-   :figwidth: 200px
 
    Orthographic Render
 
@@ -249,7 +244,6 @@ Isometric Rendering
 
 .. figure:: /images/Manual-Render-Iso.jpg
    :width: 200px
-   :figwidth: 200px
 
    Isographic Render
 

@@ -5,7 +5,6 @@ Thickness
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Thickness.jpg
    :width: 300px
-   :figwidth: 300px
 
    Line Style Thickness UI
 
@@ -52,7 +51,6 @@ Along Stroke
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Thickness_Along_Stroke.jpg
    :width: 300px
-   :figwidth: 300px
 
    Line Style Thickness's Along Stroke modifier
 
@@ -71,7 +69,6 @@ Calligraphy
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Thickness_Calligraphy.jpg
    :width: 300px
-   :figwidth: 300px
 
    Line Style Thickness's Calligraphy modifier
 
@@ -92,7 +89,6 @@ Min Thickness and Max Thickness
 
 .. figure:: /images/Toycar_Calligraphy.jpg
    :width: 400px
-   :figwidth: 400px
 
    Calligraphy modifier demo by T.K.
    `File:Toycar_Calligraphy.zip <http://wiki.blender.org/index.php/File:Toycar_Calligraphy.zip>`__
@@ -103,7 +99,6 @@ Distance from Camera
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Thickness_Distance_From_Camera.jpg
    :width: 300px
-   :figwidth: 300px
 
    Line Style Thickness's Distance From Camera modifier
 
@@ -133,7 +128,6 @@ Distance from Object
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Thickness_Distance_From_Object.jpg
    :width: 300px
-   :figwidth: 300px
 
    Line Style Thickness's Distance from Object modifier
 
@@ -165,7 +159,6 @@ Material
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Thickness_Material.jpg
    :width: 300px
-   :figwidth: 300px
 
    Line Style Thickness's Material modifier
 

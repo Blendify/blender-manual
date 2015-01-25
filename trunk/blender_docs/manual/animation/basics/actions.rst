@@ -81,7 +81,6 @@ This example shows you how to animate a cubes location, rotation, and scale.
 
 .. figure:: /images/Doc_Actions_Insert_Keyframe_00.jpg
    :width: 500px
-   :figwidth: 500px
 
    Insert Keyframes.
 
@@ -91,7 +90,6 @@ To test the animation, press :kbd:`Alt-A` to play.
 
 .. figure:: /images/Doc_Actions_Insert_Keyframe_01.jpg
    :width: 500px
-   :figwidth: 500px
 
    The animation on frames 1, 50, 100.
 

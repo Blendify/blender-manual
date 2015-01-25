@@ -5,7 +5,6 @@ Joystick sensor
 
 .. figure:: /images/BGE_Sensor_Joystick1.jpg
    :width: 200px
-   :figwidth: 200px
 
    Joystick sensor
 
@@ -30,7 +29,6 @@ All Events
 
 .. figure:: /images/BGE_Sensor_Joystick_Event.jpg
    :width: 200px
-   :figwidth: 200px
 
    Joystick Events
 
@@ -44,7 +42,6 @@ Event Type
 
 .. figure:: /images/BGE_Sensor_Joystick_SingAxis.jpg
    :width: 200px
-   :figwidth: 200px
 
    Joystick Single Axis
 
@@ -66,7 +63,6 @@ Single Axis
 
 .. figure:: /images/BGE_Sensor_Joystick_Hat.jpg
    :width: 200px
-   :figwidth: 200px
 
    Joystick Hat
 
@@ -85,7 +81,6 @@ Hat
 
 .. figure:: /images/BGE_Sensor_Joystick_Axis.jpg
    :width: 200px
-   :figwidth: 200px
 
    Joystick Axis
 
@@ -108,7 +103,6 @@ Axis
 
 .. figure:: /images/BGE_Sensor_Joystick1.jpg
    :width: 200px
-   :figwidth: 200px
 
    Joystick Button
 

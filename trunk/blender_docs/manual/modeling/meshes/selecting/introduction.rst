@@ -19,7 +19,6 @@ Select Mode Header Widgets
 
 .. figure:: /images/25-Manual-Modeling-Meshes-Selection-mode-buttons.jpg
    :width: 190px
-   :figwidth: 190px
 
    Edit mode selection buttons
 
@@ -67,7 +66,6 @@ Select Mode Pop-up
 
 .. figure:: /images/25-Manual-Modeling-Meshes-Selection-mode.jpg
    :width: 152px
-   :figwidth: 152px
 
    Mesh Select Mode menu
 

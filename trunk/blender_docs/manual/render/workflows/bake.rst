@@ -51,7 +51,6 @@ Options
 
 .. figure:: /images/25-Manual-Render-Bake-AO.jpg
    :width: 329px
-   :figwidth: 329px
 
    Ambient Occlusion
 
@@ -81,14 +80,12 @@ Bakes shadows and lighting.
 
 .. figure:: /images/25-Manual-Render-Bake-Norm.jpg
    :width: 330px
-   :figwidth: 330px
 
    Normals
 
 
 .. figure:: /images/25-Manual-Render-Bake-NormSpace.jpg
    :width: 217px
-   :figwidth: 217px
 
    Normal Space
 
@@ -124,7 +121,6 @@ Bakes colors of materials and textures only, without shading.
 
 .. figure:: /images/25-Manual-Render-Bake-Disp.jpg
    :width: 329px
-   :figwidth: 329px
 
    Displacement
 
@@ -176,7 +172,6 @@ Bakes specular color or specular intensity values.
 
 .. figure:: /images/25-Manual-Render-Bake-FullRender.jpg
    :width: 328px
-   :figwidth: 328px
 
    Full Render
 

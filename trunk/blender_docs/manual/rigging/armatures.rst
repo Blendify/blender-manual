@@ -34,7 +34,6 @@ Open a default scene, then:
 
 .. figure:: /images/ManRiggingDefaultArmature2.5.jpg
    :width: 500px
-   :figwidth: 500px
 
    The default armature
    `Toolbox: Add » Armature » Single Bone <http://wiki.blender.org/index.php/File:ManRiggingAddArmature2.5>`__

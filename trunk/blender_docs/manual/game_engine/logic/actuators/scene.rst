@@ -5,7 +5,6 @@ Scene Actuator
 
 .. figure:: /images/2.5_Game_Engine_Actuator_Scene.jpg
    :width: 257px
-   :figwidth: 257px
 
    Scene actuator
 
@@ -22,7 +21,6 @@ The actuator has eight modes:
 
 .. figure:: /images/2.5_Game_Engine_Actuator_Scene_Options.jpg
    :width: 257px
-   :figwidth: 257px
 
    Scene actuator options
 

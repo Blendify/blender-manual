@@ -51,7 +51,6 @@ Size
 
 .. figure:: /images/EmptyDrawTypes.jpg
    :width: 400px
-   :figwidth: 400px
 
    The eight different empty draw types as seen from the top view
 
@@ -80,14 +79,12 @@ Empties are important and useful objects. Some examples of ways to use them incl
 
 .. figure:: /images/Emptyarray.jpg
    :width: 200px
-   :figwidth: 200px
 
    An example of an empty being used to control an array
 
 
 .. figure:: /images/Tracktosimple.jpg
    :width: 200px
-   :figwidth: 200px
 
    An example of an empty being used to control the track to constraint
 

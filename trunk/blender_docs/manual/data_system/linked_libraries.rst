@@ -173,7 +173,6 @@ Reusing Material/Texture Settings
 
 .. figure:: /images/Manual-Append-Materials.jpg
    :width: 150px
-   :figwidth: 150px
 
    Material preview in Image Browser.
 

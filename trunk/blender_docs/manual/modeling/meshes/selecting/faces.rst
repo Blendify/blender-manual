@@ -32,7 +32,6 @@ use the :kbd:`Alt-RMB` shortcut.
 
 .. figure:: /images/face-mode_different-loop-selections.jpg
    :width: 600px
-   :figwidth: 600px
 
    Different Loopselect Operations on a grid in Face Select Mode
 
