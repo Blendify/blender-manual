@@ -27,8 +27,8 @@ Render Layers Node
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :doc:`Node Editor </render/blender_render/materials/nodes/editor>` → :doc:`Node Composition </composite_nodes>`
-   | Menu:     :kbd:`Shift-A` → :doc:`Input </ce/windows/nodes/composite#inputs>` → Render Layers
+   | Panel:    :doc:`Node Editor </render/blender_render/materials/nodes/editor>` --> :doc:`Node Composition </composite_nodes>`
+   | Menu:     :kbd:`Shift-A` --> :doc:`Input </ce/windows/nodes/composite#inputs>` --> Render Layers
 
 
 .. figure:: /images/Manual-Compositing-RenderLayer_Node.jpg
@@ -195,8 +195,8 @@ Image node
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :doc:`Node Editor </render/blender_render/materials/nodes/editor>` → :doc:`Node Composition </composite_nodes>`
-   | Menu:     :kbd:`Shift-A` → :doc:`Input </ce/windows/nodes/composite#inputs>` → Image
+   | Panel:    :doc:`Node Editor </render/blender_render/materials/nodes/editor>` --> :doc:`Node Composition </composite_nodes>`
+   | Menu:     :kbd:`Shift-A` --> :doc:`Input </ce/windows/nodes/composite#inputs>` --> Image
 
 
 .. figure:: /images/Tutorials-NTR-ComImage.jpg
@@ -531,8 +531,8 @@ Texture Node
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :doc:`Node Editor </render/blender_render/materials/nodes/editor>` → :doc:`Node Composition </composite_nodes>`
-   | Menu:     :kbd:`Shift-A` → :doc:`Input </ce/windows/nodes/composite#inputs>` → Texture
+   | Panel:    :doc:`Node Editor </render/blender_render/materials/nodes/editor>` --> :doc:`Node Composition </composite_nodes>`
+   | Menu:     :kbd:`Shift-A` --> :doc:`Input </ce/windows/nodes/composite#inputs>` --> Texture
 
 
 .. figure:: /images/Tutorials-NTR-Tex.jpg
@@ -585,8 +585,8 @@ Value node
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :doc:`Node Editor </render/blender_render/materials/nodes/editor>` → :doc:`Node Composition </composite_nodes>`
-   | Menu:     :kbd:`Shift-A` → :doc:`Input </ce/windows/nodes/composite#inputs>` → Value
+   | Panel:    :doc:`Node Editor </render/blender_render/materials/nodes/editor>` --> :doc:`Node Composition </composite_nodes>`
+   | Menu:     :kbd:`Shift-A` --> :doc:`Input </ce/windows/nodes/composite#inputs>` --> Value
 
 
 The Value node has no inputs; it just outputs a numerical value
@@ -602,8 +602,8 @@ RGB node
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :doc:`Node Editor </render/blender_render/materials/nodes/editor>` → :doc:`Node Composition </composite_nodes>`
-   | Menu:     :kbd:`Shift-A` → :doc:`Input </ce/windows/nodes/composite#inputs>` → RGB
+   | Panel:    :doc:`Node Editor </render/blender_render/materials/nodes/editor>` --> :doc:`Node Composition </composite_nodes>`
+   | Menu:     :kbd:`Shift-A` --> :doc:`Input </ce/windows/nodes/composite#inputs>` --> RGB
 
 
 The RGB node has no inputs.
@@ -632,8 +632,8 @@ Time node
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :doc:`Node Editor </render/blender_render/materials/nodes/editor>` → :doc:`Node Composition </composite_nodes>`
-   | Menu:     :kbd:`Shift-A` → :doc:`Input </ce/windows/nodes/composite#inputs>` → Time
+   | Panel:    :doc:`Node Editor </render/blender_render/materials/nodes/editor>` --> :doc:`Node Composition </composite_nodes>`
+   | Menu:     :kbd:`Shift-A` --> :doc:`Input </ce/windows/nodes/composite#inputs>` --> Time
 
 
 .. figure:: /images/Tutorials-NTR-ComTime.jpg

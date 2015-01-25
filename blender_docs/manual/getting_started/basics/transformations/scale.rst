@@ -20,7 +20,7 @@ decrease as the pointer is moved towards it.
 If the mouse pointer crosses from the original side of the Pivot Point to the opposite side,
 the scale will continue in the negative direction and flip the element.
 
-:doc:`Read more about Pivot Points » </getting_started/basics/transformations/transform_control/pivot_point>`
+:doc:`Read more about Pivot Points </getting_started/basics/transformations/transform_control/pivot_point>`
 
 
 .. figure:: /images/3D_interaction-Transformations-Basic-Scale-scale_basic_usage.jpg
@@ -43,8 +43,8 @@ wish to read the Transform Control and Orientation pages which provide more info
 options such as Precision, Axis Locking, Numeric Input,
 Snapping and the different types of Pivot Point.
 
-:doc:`Read more about Transform Control » </getting_started/basics/transformations/transform_control/index>`
-:doc:`Read more about Transform Orientations » </getting_started/basics/transformations/transform_control/transform_orientations>`
+:doc:`Read more about Transform Control </getting_started/basics/transformations/transform_control/index>`
+:doc:`Read more about Transform Orientations </getting_started/basics/transformations/transform_control/transform_orientations>`
 
 
 ----
@@ -87,7 +87,7 @@ moving the mouse in the desired direction e.g.
 
 - :kbd:`S`, move the mouse along the X axis, :kbd:`MMB`: Scale only along the **X Axis**
 
-:doc:`Read more about Axis Locking » </getting_started/basics/transformations/transform_control/axis_locking>`
+:doc:`Read more about Axis Locking </getting_started/basics/transformations/transform_control/axis_locking>`
 
 
 Fine Tuning The Scaling
@@ -112,9 +112,9 @@ You can also enter a :doc:`numerical value </getting_started/basics/transformati
    :kbd:`S`, :kbd:`X`, :kbd:`X` will by default set scaling to occur around the local orientation.
 
 
-:doc:`Read more about Precision Control » </getting_started/basics/transformations/transform_control/precision>`
-:doc:`Read more about Numerical Transformations » </getting_started/basics/transformations/transform_control/numeric_input>`
-:doc:`Read more about Transform Orientations » </getting_started/basics/transformations/transform_control/transform_orientations>`
+:doc:`Read more about Precision Control </getting_started/basics/transformations/transform_control/precision>`
+:doc:`Read more about Numerical Transformations </getting_started/basics/transformations/transform_control/numeric_input>`
+:doc:`Read more about Transform Orientations </getting_started/basics/transformations/transform_control/transform_orientations>`
 
 
 Scaling with the 3D Transform Manipulator
@@ -141,7 +141,7 @@ and blue triad is selected). Set the manipulator type to scale
 - Your changes will be applied when you release :kbd:`LMB` or press :kbd:`Spacebar` or
   :kbd:`Return`. Your changes will be cancelled if you press :kbd:`RMB` or :kbd:`Esc`.
 
-:doc:`Read more about the 3D Transform Manipulator » </getting_started/basics/transformations/transform_control/manipulators>`
+:doc:`Read more about the 3D Transform Manipulator </getting_started/basics/transformations/transform_control/manipulators>`
 
 
 Scaling with the Properties Panel
@@ -158,8 +158,8 @@ Scale values can also be specified in the Properties panel (:kbd:`N`)
 by altering the amount value in the scaling slider of the Transform panel.
 Scaling along particular axes can be enabled or disabled by toggling the padlock icon.
 
-:doc:`Read more about Panels » </getting_started/basics/interface/panels>`
+:doc:`Read more about Panels </getting_started/basics/interface/panels>`
 
-:doc:`Read more about scaling modes » </getting_started/basics/transformations/transform_control/transform_orientations>`
+:doc:`Read more about scaling modes </getting_started/basics/transformations/transform_control/transform_orientations>`
 
 

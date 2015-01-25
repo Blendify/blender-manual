@@ -55,7 +55,7 @@ if the Transform Orientation is set to *Normal*, pressing:
 
 will mirror the selection along the X-axis of the *Normal Orientation.*
 
-:doc:`Read more about Transform Orientations » </getting_started/basics/transformations/transform_control/transform_orientations>`
+:doc:`Read more about Transform Orientations </getting_started/basics/transformations/transform_control/transform_orientations>`
 
 
 .. figure:: /images/3D-interaction_Transformations_Advanced_Mirror_interactive-mirror.jpg

@@ -64,9 +64,9 @@ Manipulator controls
   will be equivalent to pressing :kbd:`R` twice.
   This will start *trackball* rotation.
 
-:doc:`Read more about constraining transformations » </getting_started/basics/transformations/transform_control/precision>`
-:doc:`Read more about axis locking » </getting_started/basics/transformations/transform_control/axis_locking>`
-:doc:`Read more about trackball rotation » </getting_started/basics/transformations/rotate>`
+:doc:`Read more about constraining transformations </getting_started/basics/transformations/transform_control/precision>`
+:doc:`Read more about axis locking </getting_started/basics/transformations/transform_control/axis_locking>`
+:doc:`Read more about trackball rotation </getting_started/basics/transformations/rotate>`
 
 
 Manipulator Preferences
