@@ -19,36 +19,6 @@ other fluid algorithms include *Navier-Stokes* (NS)
 solvers and *Smoothed Particle Hydrodynamics* (SPH) methods.
 LBM lies somewhere between these two.
 
-In general,
-it is really hard for current computers to correctly simulate even a 1-meter tank of water.
-For simulating a wave crashing through a city,
-you would probably need one of the most expensive supercomputers you could get,
-and it might still not work properly,
-no matter which of the three algorithms above you're using. Therefore,
-to achieve "the effect that you really want",
-you'll need to resort to strategies very similar to what filmmakers have been doing
-(quite successfully...) in "analogue" movies for many years: "\ *fake it!* "
-
-A good fluid simulation is a *very important* part, but not the *only* part,
-of achieving a satisfactory image.
-Let Blender do the computational dirty-work of calculating the basic fluid simulation, then
-create realism by adding carefully selected details that match the viewer's expectations for
-"the real-life maelstrom that you have created".
-
-For example, you can pretend to have a wave in a gigantic city by:
-building a *smaller* model, modeling a *small* wave in the model at very high resolution,
-and hope that nobody will notice the difference between a 100m and a 1m wave (they won't).
-Texture the wave front with lots of noise and clouds affecting the color. Add lots of smoke
-(mist) emitters on the various surfaces that the wave hits, timing each of them to emit at the
-moment of impact in a direction incident to the surface and collision. Animate cars and trash
-(and drowning people...) to float and bob on the wave front using the baked mesh. Use a string
-of mist emitters pointing up positioned at the wave crest to simulate the mist that blows off
-the top of the crest into the air. Consider exactly where you want to put the camera,
-whether you want to use a zoom lens or a wide angle, and so on
-(is the viewer to be "looking down upon the poor unfortunate actors",
-or "drowning along with them"?). *This* is the kind of attention to detail,
-above and beyond the fluid simulation itself, that will carry the shot.
-
 For Blender's LBM solver, the following things will make the simulation harder to compute:
 
 - Large domains.
