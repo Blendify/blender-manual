@@ -20,7 +20,7 @@ header in the bottom left hand corner. Releasing :kbd:`Ctrl` or :kbd:`Shift`
 during the transformation will cause the movement to revert back to its normal mode of
 operation.
 
-:doc:`Read more about Window Headers » </getting_started/basics/interface/window_system/headers>`
+:doc:`Read more about Window Headers </getting_started/basics/interface/window_system/headers>`
 
 
 Usage
@@ -41,7 +41,7 @@ Hold :kbd:`Ctrl`,
 Then move the mouse in the desired direction. The reverse action will also work i.e.
 clicking the manipulator handle and then holding the shortcut key for precision control.
 
-:doc:`Read more about the Transform Manipulator » </getting_started/basics/transformations/transform_control/manipulators>`
+:doc:`Read more about the Transform Manipulator </getting_started/basics/transformations/transform_control/manipulators>`
 
 
 .. tip:: Combining with other controls
@@ -71,7 +71,7 @@ BU and so on until the zoom limit is reached.
 Zooming out will have the opposite effect and cause movement to happen by increments of 10,
 100 etc BU.
 
-:doc:`Read more about Zooming » </getting_started/basics/navigating/3d_view#zooming_the_view>`
+:doc:`Read more about Zooming </getting_started/basics/navigating/3d_view#zooming_the_view>`
 
 
 Rotation transformations
@@ -91,7 +91,7 @@ Holding :kbd:`Ctrl` will cause size changes in increments of 0.1 BU.
    Note that if you have a :doc:`Snap Element </getting_started/basics/transformations/transform_control/snap#snap_element>` option enabled,
    holding :kbd:`Ctrl` will cause the selection to snap to the nearest element.
 
-   :doc:`Read more about Snapping » </getting_started/basics/transformations/transform_control/snap>`
+   :doc:`Read more about Snapping </getting_started/basics/transformations/transform_control/snap>`
 
 
 Holding SHIFT

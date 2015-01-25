@@ -219,7 +219,7 @@ Transform (Manipulator) Selectors
 These handy selectors allow you to rotate or move objects by grabbing
 (clicking with your mouse) their controls and moving your mouse in the axis.
 
-:doc:`Read more about Transform Manipulators » </getting_started/basics/transformations/transform_control/manipulators>`
+:doc:`Read more about Transform Manipulators </getting_started/basics/transformations/transform_control/manipulators>`
 
 
 Layer Selector
