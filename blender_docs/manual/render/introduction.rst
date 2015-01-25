@@ -73,7 +73,6 @@ Render Workbench Integration
 
 .. figure:: /images/Manual-Render-Pipeline.jpg
    :width: 320px
-   :figwidth: 320px
 
 
 Blender has three independent rendering workbenches which flow the image processing in a

@@ -24,7 +24,6 @@ you can change it to a Console Editor.
 
 .. figure:: /images/Manual-Part-XX-Manual-Extensions-Python-Console-Default-Console.jpg
    :width: 600px
-   :figwidth: 600px
 
 
 From the screen shot above,
@@ -44,7 +43,6 @@ at the prompt and execute it.
 
 .. figure:: /images/Manual-Part-XX-Manual-Extensions-Python-Console-Listing-Globals.jpg
    :width: 600px
-   :figwidth: 600px
 
 
 Following is a quick overview of the output
@@ -68,7 +66,6 @@ auto-complete feature in action.
 
 .. figure:: /images/Manual-Part-XX-Manual-Extensions-Python-Console-Auto-Completion.jpg
    :width: 600px
-   :figwidth: 600px
 
 
 You will notice that a list of sub-modules inside of bpy appear. These modules encapsulate all
@@ -79,7 +76,6 @@ Lets list all the contents of bpy.app module.
 
 .. figure:: /images/Manual-Part-XX-Manual-Extensions-Python-Console-List-SubModule-Contents.jpg
    :width: 600px
-   :figwidth: 600px
 
 
 Notice the green output above the prompt where you enabled auto-completion.
@@ -100,7 +96,6 @@ Lamp and Camera.
 
 .. figure:: /images/Manual-Part-XX-Manual-Extensions-Python-Console-Default-Scene.jpg
    :width: 600px
-   :figwidth: 600px
 
 
 - All objects exist in a context and there can be various modes under which they are operated upon.
@@ -124,7 +119,6 @@ Note
 
 .. figure:: /images/Manual-Part-XX-Manual-Extensions-Python-Console-Example-bpy-context.jpg
    :width: 600px
-   :figwidth: 600px
 
 
 Try it out!
@@ -217,7 +211,6 @@ Try it out!
 
 .. figure:: /images/Manual-Part-XX-Manual-Extensions-Python-Console-Example-bpy-data.jpg
    :width: 600px
-   :figwidth: 600px
 
 
 Exercise
@@ -288,5 +281,4 @@ Press ENTER-KEY twice after entering the command at the shell prompt.
 
 .. figure:: /images/Manual-Part-XX-Manual-Extensions-Python-Console-Example-bpy-ops.jpg
    :width: 400px
-   :figwidth: 400px
 

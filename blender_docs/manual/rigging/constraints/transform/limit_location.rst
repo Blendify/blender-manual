@@ -36,7 +36,6 @@ Options
 
 .. figure:: /images/25-Manual-Constraints-Transform-LimitLoc.jpg
    :width: 302px
-   :figwidth: 302px
 
    Limit Location panel
 

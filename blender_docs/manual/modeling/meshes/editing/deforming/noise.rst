@@ -39,14 +39,12 @@ texture's own panel (e.g. *Clouds*, *Marble*, etc.).
 
 .. figure:: /images/Noise1.jpg
    :width: 300px
-   :figwidth: 300px
 
    mesh before noise is added
 
 
 .. figure:: /images/Noise2.jpg
    :width: 300px
-   :figwidth: 300px
 
    mesh after noise is added, using basic cloud texture
 

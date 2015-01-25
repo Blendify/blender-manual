@@ -8,7 +8,6 @@ Point Lamp
 
 .. figure:: /images/25-Manual-Lighting-Lamps-Point.jpg
    :width: 200px
-   :figwidth: 200px
 
    Point lamp
 
@@ -45,14 +44,12 @@ Shadows
 
 .. figure:: /images/25-Manual-Lighting-Lamps-PointPanel-Noshad.jpg
    :width: 307px
-   :figwidth: 307px
 
    Without ray shadows
 
 
 .. figure:: /images/25-Manual-Lighting-Lamps-PointPanel-Rayshad.jpg
    :width: 307px
-   :figwidth: 307px
 
    Point lamp with ray shadows and Adaptive QMC sample generator enabled
 

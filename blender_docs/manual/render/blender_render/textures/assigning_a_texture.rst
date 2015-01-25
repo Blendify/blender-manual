@@ -12,7 +12,6 @@ Choosing the Texture context
 
 .. figure:: /images/25-Manual-Textures-top-panel.jpg
    :width: 300px
-   :figwidth: 300px
 
    Texture panel
 
@@ -25,7 +24,6 @@ Choosing the Texture data type
 
 .. figure:: /images/25-Manual-Textures-panel.jpg
    :width: 311px
-   :figwidth: 311px
 
    Texture panel with buttons for Material, World, and Brush textures highlighted
 
@@ -37,7 +35,6 @@ the kind of texture that is being edited.
 
 .. figure:: /images/26-Manual-Textures-Lamp-panel.jpg
    :width: 300px
-   :figwidth: 300px
 
    Texture panel with button for Lamp textures highlighted
 
@@ -47,7 +44,6 @@ Textures Slots
 
 .. figure:: /images/25-Manual-Textures-top-panel.jpg
    :width: 300px
-   :figwidth: 300px
 
    Texture panel
 

@@ -24,7 +24,6 @@ Options
 
 .. figure:: /images/25-Manual-Constraints-Relationship-Pivot.jpg
    :width: 302px
-   :figwidth: 302px
 
    Pivot panel
 

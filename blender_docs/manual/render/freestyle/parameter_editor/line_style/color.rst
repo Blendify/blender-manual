@@ -5,7 +5,6 @@ Color
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Color.jpg
    :width: 300px
-   :figwidth: 300px
 
    Line Style Color UI
 
@@ -32,7 +31,6 @@ Along Stroke
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Color_Along_Stroke.jpg
    :width: 300px
-   :figwidth: 300px
 
    Line Style Color's Along Stroke modifier
 
@@ -49,7 +47,6 @@ Distance from Camera
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Color_Distance_From_Camera.jpg
    :width: 300px
-   :figwidth: 300px
 
    Line Style Color's Distance From Camera modifier
 
@@ -75,7 +72,6 @@ Distance from Object
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Color_Distance_From_Object.jpg
    :width: 300px
-   :figwidth: 300px
 
    Line Style Color's Distance From Object modifiers
 
@@ -104,7 +100,6 @@ Material
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Color_Material.jpg
    :width: 300px
-   :figwidth: 300px
 
    Line Style Color's Material modifiers
 
@@ -122,7 +117,6 @@ the result will not be blurred between materials along the strokes.
 
 .. figure:: /images/Lilies_Color_Material.jpg
    :width: 400px
-   :figwidth: 400px
 
    Material modifiers demo by T.K.
    `File:Lilies_Color_Material.zip <http://wiki.blender.org/index.php/File:Lilies_Color_Material.zip>`__

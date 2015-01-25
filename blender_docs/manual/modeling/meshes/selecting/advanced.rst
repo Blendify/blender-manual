@@ -257,7 +257,6 @@ Path Selection
 
 .. figure:: /images/Select_face_path.jpg
    :width: 200px
-   :figwidth: 200px
 
    Select a face or vertex path with :kbd:`Ctrl-RMB`
 
@@ -286,21 +285,18 @@ then all connected edges on the mesh will be considered inside the loop.
 
 .. figure:: /images/Mesh.loop.select1.jpg
    :width: 400px
-   :figwidth: 400px
 
    Loop to Region.
 
 
 .. figure:: /images/Mesh.loop.select3.jpg
    :width: 400px
-   :figwidth: 400px
 
    This tool handles multiple loops fine, as you can see.
 
 
 .. figure:: /images/Mesh.loop.select5.jpg
    :width: 400px
-   :figwidth: 400px
 
    This tool handles "holes" just fine as well.
 
@@ -326,7 +322,6 @@ All this is much more simple to illustrates with examples:
 
 .. figure:: /images/Mesh.region.select1.jpg
    :width: 400px
-   :figwidth: 400px
 
    Select Boundary Loop does the opposite and forces into Edge Select Mode
 

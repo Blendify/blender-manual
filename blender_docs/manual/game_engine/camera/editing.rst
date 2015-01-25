@@ -5,7 +5,6 @@ Camera Editing
 
 .. figure:: /images/BGE_Camera_Properties.jpg
    :width: 300px
-   :figwidth: 300px
 
    Camera Properties
 
@@ -31,7 +30,6 @@ Embedded Player
 
 .. figure:: /images/BGE_Camera_Properties_Game.jpg
    :width: 300px
-   :figwidth: 300px
 
    Game Panel
 
@@ -44,7 +42,6 @@ Standalone Player
 
 .. figure:: /images/BGE_Camera_Properties_Standalone.jpg
    :width: 300px
-   :figwidth: 300px
 
    Standalone Panel
 
@@ -88,7 +85,6 @@ Stereo
 
 .. figure:: /images/BGE_Camera_Properties_Stereo.jpg
    :width: 300px
-   :figwidth: 300px
 
    Stereo Panel
 
@@ -111,7 +107,6 @@ Shading
 
 .. figure:: /images/BGE_Camera_Properties_Shading.jpg
    :width: 300px
-   :figwidth: 300px
 
    Shading Panel
 
@@ -135,7 +130,6 @@ Performance
 
 .. figure:: /images/BGE_Camera_Properties_Performance.jpg
    :width: 300px
-   :figwidth: 300px
 
    Performance Panel
 
@@ -154,7 +148,6 @@ Display
 
 .. figure:: /images/BGE_Camera_Properties_Display.jpg
    :width: 300px
-   :figwidth: 300px
 
    Display Panel
 

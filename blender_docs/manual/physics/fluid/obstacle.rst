@@ -35,7 +35,6 @@ Boundary type
 
 .. figure:: /images/Manual-Part-X-bndtcomp.jpg
    :width: 610px
-   :figwidth: 610px
 
    Example of the different boundary types for a drop falling onto the slanted wall.
    From left to right: no-slip, part-slip 0.3, part-slip 0.7 and free-slip.

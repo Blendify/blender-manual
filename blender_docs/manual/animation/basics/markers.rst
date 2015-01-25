@@ -62,7 +62,6 @@ Sequencer
 
 .. figure:: /images/Sequencer-markers.jpg
    :width: 186px
-   :figwidth: 186px
 
    Markers in the Sequencer
 

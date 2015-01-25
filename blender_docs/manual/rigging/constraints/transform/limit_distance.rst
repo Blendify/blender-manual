@@ -27,7 +27,6 @@ Options
 
 .. figure:: /images/25-Manual-Constraints-Transform-LimitDist.jpg
    :width: 304px
-   :figwidth: 304px
 
    Limit Distance panel
 

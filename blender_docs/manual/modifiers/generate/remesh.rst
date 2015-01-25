@@ -9,7 +9,6 @@ The output follows the surface curvature of the input, but its topology contains
 
 .. figure:: /images/Remesh-modifier-screenshot-00.jpg
    :width: 600px
-   :figwidth: 600px
 
 Options
 =======
@@ -20,7 +19,6 @@ Mode
 
    .. figure:: /images/Remesh-mode-cone-example.jpg
       :width: 600px
-      :figwidth: 600px
 
       This example shows a cone with each of the different remesh modes.
       From left to right: original cone, Blocks, Smooth, and Sharp
@@ -41,7 +39,6 @@ Mode
 
 .. figure:: /images/Remesh-depth-cone-example.jpg
    :width: 600px
-   :figwidth: 600px
 
    Input mesh, and the low to high resolution output meshes
 
@@ -69,7 +66,6 @@ Remove Disconnected Pieces
 
    .. figure:: /images/Remesh-remove-disconnected-example.jpg
       :width: 600px
-      :figwidth: 600px
 
       The input mesh (left) is fairly noisy,
       so the initial output of the remesh modifier (center) contains small disconnected pieces.
@@ -89,7 +85,6 @@ Examples
 
 .. figure:: /images/Remesh-text-00.jpg
    :width: 640px
-   :figwidth: 640px
 
    Remesh modifier applied to text to improve topology
 

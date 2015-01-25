@@ -5,7 +5,6 @@ Soft Bodies
 
 .. figure:: /images/Blender3D_HiddenTextSoftbody.jpg
    :width: 600px
-   :figwidth: 600px
 
    Image 1a: A softbody cloth uncovering a text.
    `Animation <http://www.vimeo.com/1865528>`__ -
@@ -36,7 +35,6 @@ Typical scenarios for using Soft Bodies
 
 .. figure:: /images/Blender3D_WindConeSoftbody.jpg
    :width: 300px
-   :figwidth: 300px
 
    Image 1b: A wind cone. The cone is a Soft Body, as the suspension.
    `Animation <http://www.vimeo.com/1865817>`__ - `Blend file

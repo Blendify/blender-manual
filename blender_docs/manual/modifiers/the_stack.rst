@@ -16,11 +16,9 @@ For example, the image below shows :doc:`SubSurf </modifiers/generate/subsurf>` 
 
    * - .. figure:: /images/25-Manual-Modifiers-stackorder-example2.jpg
           :width: 300px
-          :figwidth: 300px
 
      - .. figure:: /images/25-Manual-Modifiers-stackorder-examp1e1.jpg
           :width: 300px
-          :figwidth: 300px
 
 
 On the left, the *Mirror* modifier is the last item in the stack and

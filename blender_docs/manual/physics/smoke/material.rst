@@ -12,7 +12,6 @@ Simulating the smoke is easy, however rendering it is not.
 
 .. figure:: /images/render.jpg
    :width: 300px
-   :figwidth: 300px
 
    The Render without the correct smoke material.
 
@@ -25,7 +24,6 @@ The material must be a volumetric material with a Density of 0, and a high Densi
 
 .. figure:: /images/material.jpg
    :width: 300px
-   :figwidth: 300px
 
    The material settings.
 
@@ -42,19 +40,16 @@ though. We'll cover those later.
 
    * - .. figure:: /images/Material_tab.jpg
           :width: 200px
-          :figwidth: 200px
 
           Go to the material tab
 
      - .. figure:: /images/Material_volume.jpg
           :width: 200px
-          :figwidth: 200px
 
           Smoke needs a volume material
 
      - .. figure:: /images/Density_0.jpg
           :width: 200px
-          :figwidth: 200px
 
           Density applies to the cube only, so we need to set it to 0
 
@@ -69,7 +64,6 @@ You must remember to set the domain object and change the influence.
 
 .. figure:: /images/d.jpg
    :width: 300px
-   :figwidth: 300px
 
    The texture settings.
 
@@ -92,19 +86,16 @@ by turning "Emmision Color" back on.
 
    * - .. figure:: /images/Texture_tab.jpg
           :width: 200px
-          :figwidth: 200px
 
           We need to add a texture of the smoke
 
      - .. figure:: /images/Texture_type.jpg
           :width: 200px
-          :figwidth: 200px
 
           Type should be Voxel Data
 
      - .. figure:: /images/Voxel_domain.jpg
           :width: 200px
-          :figwidth: 200px
 
           The domain is once again our big cube
 
@@ -113,20 +104,17 @@ by turning "Emmision Color" back on.
 
    * - .. figure:: /images/Influence_density.jpg
           :width: 200px
-          :figwidth: 200px
 
           Use density as influence
 
      - .. figure:: /images/Smoke_render.jpg
           :width: 200px
-          :figwidth: 200px
 
           Finally your first smoke render :)
 
 
 .. figure:: /images/render2.jpg
    :width: 550px
-   :figwidth: 550px
 
    The rendered smoke. It's hard to see, but it's there.
 
@@ -140,7 +128,6 @@ turn up the Emmision Value in the Materials panel.
 
 .. figure:: /images/e.jpg
    :width: 300px
-   :figwidth: 300px
 
    The Fire material.
 
@@ -152,14 +139,12 @@ and change the influence to emmision and emmision color. Change the blend to Mul
 
 .. figure:: /images/f.jpg
    :width: 300px
-   :figwidth: 300px
 
    The fire texture settings.
 
 
 .. figure:: /images/render3.jpg
    :width: 640px
-   :figwidth: 640px
 
    The fire render.
 

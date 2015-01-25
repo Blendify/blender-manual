@@ -23,21 +23,18 @@ Axes
 
 .. figure:: /images/SmoothVertex1.jpg
    :width: 200px
-   :figwidth: 200px
 
    mesh before smoothing
 
 
 .. figure:: /images/SmoothVertex2.jpg
    :width: 200px
-   :figwidth: 200px
 
    mesh after 1 smoothing iteration
 
 
 .. figure:: /images/SmoothVertex3.jpg
    :width: 200px
-   :figwidth: 200px
 
    mesh after 10 smoothing iterations
 

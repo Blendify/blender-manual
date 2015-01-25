@@ -54,13 +54,11 @@ Resolution
 
          * - .. figure:: /images/Manual-Fluid-70res.jpg
                 :width: 270px
-                :figwidth: 270px
 
                 10cm mug at Resolution 70.
 
            - .. figure:: /images/Manual-Fluid-200res.jpg
                 :width: 270px
-                :figwidth: 270px
 
                 10cm mug at Resolution 200.
 
@@ -273,7 +271,6 @@ Domain Boundary
 
 .. figure:: /images/Blender_fluids_domain_boundary.jpg
    :width: 300px
-   :figwidth: 300px
 
    The Domain Boundary panel
 
@@ -305,7 +302,6 @@ Domain Particles
 
 .. figure:: /images/Blender_fluids_domain_particles.jpg
    :width: 300px
-   :figwidth: 300px
 
    The Domain Particles panel
 
@@ -324,7 +320,6 @@ Generate Particles
 
 .. figure:: /images/Manual-FluidSimParts.jpg
    :width: 600px
-   :figwidth: 600px
 
    An example of the effect of particles can be seen here - the image to the left was simulated without,
    and the right one with particles and subdivision enabled.

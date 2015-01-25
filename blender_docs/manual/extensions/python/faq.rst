@@ -61,7 +61,6 @@ How do I get the world coordinates of a control vertex of a BezierCurve?
 
 .. figure:: /images/Manual-Part20-scripting-faq-CV-in-world-coords.jpg
    :width: 480px
-   :figwidth: 480px
 
 
 `More info... <https://sites.google.com/site/satishgoda/blender/blog/blender25xscriptinggettingtheworldcoordinates>`__
@@ -75,7 +74,6 @@ Method 1
 
 .. figure:: /images/Manual-Part20-scripting-faq-select-curve-control-point-method-1.jpg
    :width: 480px
-   :figwidth: 480px
 
 
 ::
@@ -92,7 +90,6 @@ Method 2
 
 .. figure:: /images/Manual-Part20-scripting-faq-select-curve-control-point-method-2.jpg
    :width: 480px
-   :figwidth: 480px
 
 
 ::

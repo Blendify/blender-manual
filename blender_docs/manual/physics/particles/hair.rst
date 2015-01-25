@@ -122,7 +122,6 @@ Usage
 
 .. figure:: /images/Blender3D_FurWithParticles-Finished-2.48a.jpg
    :width: 400px
-   :figwidth: 400px
 
    Image 4b: Particle systems may get hairy...
 

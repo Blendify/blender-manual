@@ -55,14 +55,12 @@ For using images as textures, see the page on :doc:`Image Textures </render/blen
 
 .. figure:: /images/Doc26-textures-uv-layout.jpg
    :width: 250px
-   :figwidth: 250px
 
    A uv layout in the uv editor
 
 
 .. figure:: /images/Doc26-textures-uv-layout2.jpg
    :width: 250px
-   :figwidth: 250px
 
    A snapshot of the uv layout to be used in an image editor
 
@@ -177,7 +175,6 @@ New Images
 
 .. figure:: /images/Doc26-textures-uv-layout-testGrid.jpg
    :width: 200px
-   :figwidth: 200px
 
    The new Image dialogue
 
@@ -220,14 +217,12 @@ look like cloth, you do NOT want any stretching
 
 .. figure:: /images/Doc26-textures-uv-layout-testGrid2.jpg
    :width: 200px
-   :figwidth: 200px
 
    The test grid applied to the UVs
 
 
 .. figure:: /images/Doc26-textures-uv-layout-testGrid3.jpg
    :width: 200px
-   :figwidth: 200px
 
    A preview of the texture on the geometry
 

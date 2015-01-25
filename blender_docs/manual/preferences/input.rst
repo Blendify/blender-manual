@@ -9,7 +9,6 @@ well as define your own keymap.
 
 .. figure:: /images/Manual-Interface-Configuration-Input-UserPreferencesInput.jpg
    :width: 650px
-   :figwidth: 650px
 
 
 Managing presets
@@ -56,7 +55,6 @@ Setting presets to default
 
 .. figure:: /images/Manual-Interface-Configuration-Input-SplashScreenInteraction.jpg
    :width: 307px
-   :figwidth: 307px
 
 
 Once you've configured your mouse and keyboard *Presets*,
@@ -154,7 +152,6 @@ Keymap editor
 
 .. figure:: /images/Manual-Interface-Configuration-Input-KeymapEditor.jpg
    :width: 320px
-   :figwidth: 320px
 
 
 The Keymap editor lets you change the default Hotkeys. You can change keymaps for each window.

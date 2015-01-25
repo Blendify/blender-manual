@@ -123,7 +123,6 @@ will also be visible in reflections.
 
 .. figure:: /images/Manual-Cycles-Env-Trick-Nodes.jpg
    :width: 500px
-   :figwidth: 500px
 
    Nodes for the trick above
 

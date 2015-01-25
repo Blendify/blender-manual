@@ -32,7 +32,6 @@ Usage
 
 .. figure:: /images/3D-interaction_Transformation_Advanced_Warp_warp-mesh.jpg
    :width: 350px
-   :figwidth: 350px
 
    In this example, a plane is warped around the 3D cursor by the indicated number of degrees.
 
@@ -66,7 +65,6 @@ to the same Suzanne mesh when in different views. A 3D render is also provided f
 
 .. figure:: /images/3D-interaction_Transformation_Advanced_Warp_warp-cursor-view.jpg
    :width: 500px
-   :figwidth: 500px
 
    The left side of this image shows how the Warp transform is influenced by the location of the cursor.
    The right hand side shows the influence of the current view.

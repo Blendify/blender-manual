@@ -4,7 +4,6 @@ Numeric input
 
 .. figure:: /images/3D_interaction-Transform_Control-Numeric_Input_numeric-input-header.jpg
    :width: 300px
-   :figwidth: 300px
 
    Numeric input in the 3D window header
 
@@ -78,7 +77,6 @@ Numeric input via the Properties shelf
 
 .. figure:: /images/3D_interaction-Transform_Control-Numeric_Input_properties-panel.jpg
    :width: 300px
-   :figwidth: 300px
 
    Transformations can also be entered through the Transform panel on the Properties shelf.
 

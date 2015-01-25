@@ -51,15 +51,12 @@ other parts of the image and will contribute significantly to the lighting of th
 
    * - .. figure:: /images/Cycles_noise_fisheye_reference.jpg
           :width: 180px
-          :figwidth: 180px
 
      - .. figure:: /images/Cycles_noise_fisheye.jpg
           :width: 180px
-          :figwidth: 180px
 
      - .. figure:: /images/Cycles_noise_fisheye_hotspot.jpg
           :width: 180px
-          :figwidth: 180px
 
 
 The lamp is a known light source, so it will not be too hard to find, but the glossy highlight
@@ -80,15 +77,12 @@ Below is an example of using Filter Glossy and Smooth Light Falloff.
 
    * - .. figure:: /images/Cycles_noise_fisheye_blur_reference.jpg
           :width: 180px
-          :figwidth: 180px
 
      - .. figure:: /images/Cycles_noise_fisheye_blur.jpg
           :width: 180px
-          :figwidth: 180px
 
      - .. figure:: /images/Cycles_noise_fisheye_blur_hotspot.jpg
           :width: 180px
-          :figwidth: 180px
 
 
 Bounces
@@ -106,15 +100,12 @@ and transmission shaders such as glass usually need the most.
 
    * - .. figure:: /images/Cycles_noise_0bounce.jpg
           :width: 180px
-          :figwidth: 180px
 
      - .. figure:: /images/Cycles_noise_2bounce.jpg
           :width: 180px
-          :figwidth: 180px
 
      - .. figure:: /images/Cycles_noise_4bounce.jpg
           :width: 180px
-          :figwidth: 180px
 
 
 Also important is to **use shader colors that do not have components of value 1.0** or
@@ -141,15 +132,12 @@ Many render engines will typically disable caustics by default.
 
    * - .. figure:: /images/Cycles_noise_reference.jpg
           :width: 180px
-          :figwidth: 180px
 
      - .. figure:: /images/Cycles_noise_no_caustics.jpg
           :width: 180px
-          :figwidth: 180px
 
      - .. figure:: /images/Cycles_noise_filter_glossy.jpg
           :width: 180px
-          :figwidth: 180px
 
 
 However using No Caustics will result in missing light,
@@ -176,11 +164,9 @@ This is a typical recipe for fireflies.
 
    * - .. figure:: /images/Cycles_noise_falloff_hard.jpg
           :width: 180px
-          :figwidth: 180px
 
      - .. figure:: /images/Cycles_noise_falloff_soft.jpg
           :width: 180px
-          :figwidth: 180px
 
 
 To reduce this problem, the :ref:`render-cycles-nodes-more-light_falloff` node has a **Smooth factor,
@@ -210,11 +196,9 @@ and the image renders with slightly less noise by disabling Sample as Lamp on th
 
    * - .. figure:: /images/Cycles_noise_sample_lamp.jpg
           :width: 180px
-          :figwidth: 180px
 
      - .. figure:: /images/Cycles_noise_no_sample_lamp.jpg
           :width: 180px
-          :figwidth: 180px
 
 
 The world background also has a *Sample as Lamp* (:ref:`render-cycles-integrator-world_settings`) option.
@@ -239,18 +223,15 @@ The Light Path node is used to determine when to use which of the two shaders.
 
 .. figure:: /images/Cycles_noise_glass_setup.jpg
    :width: 516px
-   :figwidth: 516px
 
 
 .. list-table::
 
    * - .. figure:: /images/Cycles_noise_glass_too_much_shadow.jpg
           :width: 180px
-          :figwidth: 180px
 
      - .. figure:: /images/Cycles_noise_glass_trick.jpg
           :width: 180px
-          :figwidth: 180px
 
 
 Above we can see the node setup used for the glass transparency trick;
@@ -278,11 +259,9 @@ with the second render using a mesh light positioned in the window.
 
    * - .. figure:: /images/Cycles_noise_window_no_trick.jpg
           :width: 180px
-          :figwidth: 180px
 
      - .. figure:: /images/Cycles_noise_window_trick.jpg
           :width: 180px
-          :figwidth: 180px
 
 
 Clamp Fireflies
@@ -299,10 +278,8 @@ which might be useful to preserve for camera effects such as bloom or glare.
 
    * - .. figure:: /images/Cycles_noise_noclamp.jpg
           :width: 180px
-          :figwidth: 180px
 
      - .. figure:: /images/Cycles_noise_clamp_4.0.jpg
           :width: 180px
-          :figwidth: 180px
 
 

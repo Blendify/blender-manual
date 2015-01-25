@@ -13,7 +13,6 @@ Options:
 
 .. figure:: /images/BGE_Controller_Or.jpg
    :width: 292px
-   :figwidth: 292px
 
    OR Controller
 

@@ -5,7 +5,6 @@ Hemi Lamp
 
 .. figure:: /images/Manual-Part-V-HemiScheme.jpg
    :width: 250px
-   :figwidth: 250px
 
    Hemi light conceptual scheme
 
@@ -30,7 +29,6 @@ Options
 
 .. figure:: /images/25-Manual-Lighting-Lamps-Hemi.jpg
    :width: 307px
-   :figwidth: 307px
 
    Hemi lamp's panel
 

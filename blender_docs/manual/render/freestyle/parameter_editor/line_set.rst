@@ -10,7 +10,6 @@ through various methods.
 
 .. figure:: /images/Manual-2.6-Render-freestyle-BasicEdgeTypeSelectionEx.jpg
    :width: 600px
-   :figwidth: 600px
 
    Examples of some basic edge types by LightBWK
    (`File:EdgeType.zip <http://wiki.blender.org/index.php/File:EdgeType.zip>`__)
@@ -30,7 +29,6 @@ Hidden
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Hidden_Edges.jpg
    :width: 600px
-   :figwidth: 600px
 
    Proof of concept of visible and hidden edges by LightBWK
    (`Sample .blend <http://wiki.blender.org/index.php/File:HiddenCreaseEdgeMark.zip>`__)
@@ -45,7 +43,6 @@ Start and End
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-QI_Range.jpg
    :width: 600px
-   :figwidth: 600px
 
    QI Range proof of concept demo, Start: 3, End: 7, by LightBWK
    (`Sample .blend <http://wiki.blender.org/index.php/File:QI-Range.zip>`__)
@@ -70,7 +67,6 @@ Crease
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-CreaseConcept.jpg
    :width: 600px
-   :figwidth: 600px
 
    Crease Angle proof of concept for 121º by LightBWK
    ( `the .blend file <http://wiki.blender.org/index.php/File:CreaseAngle.zip>`__)
@@ -94,7 +90,6 @@ External Contour
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-ContourVsExternalContour.jpg
    :width: 600px
-   :figwidth: 600px
 
    Left pair: Contour; Right pair: External Contour
 

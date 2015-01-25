@@ -20,7 +20,6 @@ The *To Sphere* transformation will give the selection spherical qualities. The
 
 .. figure:: /images/3D_interaction-Transformations-Advanced-To_Sphere_suzanne-spherical.jpg
    :width: 640px
-   :figwidth: 640px
 
    Suzanne with inceasing sphericity.
    The sequence above shows a Suzanne mesh with a 0, 0.25 (25%), 0.5 (50%) and 1 (100%) To Sphere transform applied.
@@ -31,7 +30,6 @@ Usage
 
 .. figure:: /images/3D_interaction-Transformations-Advanced-To_Sphere_toolshelf-f6.jpg
    :width: 150px
-   :figwidth: 150px
 
    To Sphere Factor.
 
@@ -56,7 +54,6 @@ will be smoother and more spherical when there are more mesh elements available 
 
 .. figure:: /images/3D_interaction-Transformations-Advanced-To_Sphere_cubes-spherical.jpg
    :width: 640px
-   :figwidth: 640px
 
    To Sphere applied to cubes with different subdivision levels.
    In this image sequence, To Sphere was applied to the entire cube
@@ -69,7 +66,6 @@ and arrangement of elements that were selected (as shown by the below image).
 
 .. figure:: /images/3D_interaction-Transformations-Advanced-To_Sphere_other-spherical.jpg
    :width: 640px
-   :figwidth: 640px
 
    To Sphere applied to different selections.
 

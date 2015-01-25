@@ -28,7 +28,6 @@ Options
 
 .. figure:: /images/25-Manual-Constraints-Tracking-StretchTo.jpg
    :width: 250px
-   :figwidth: 250px
 
    Stretch To panel for a Mesh Object
 
@@ -42,7 +41,6 @@ Target (Mesh Object Type)
 
 .. figure:: /images/Manual-Constraints-Tracking-StretchTo-Armature.jpg
    :width: 250px
-   :figwidth: 250px
 
    Stretch To panel for a Armature Object
 

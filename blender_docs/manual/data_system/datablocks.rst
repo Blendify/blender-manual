@@ -15,7 +15,6 @@ Datablocks can reside within as many .blend files as needed for good project org
 
 .. figure:: /images/Doc26-datablocks.jpg
    :width: 400px
-   :figwidth: 400px
 
    Datablocks view
 

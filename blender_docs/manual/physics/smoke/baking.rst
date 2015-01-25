@@ -25,19 +25,16 @@ animation.
 
    * - .. figure:: /images/Smoke_cache.jpg
           :width: 200px
-          :figwidth: 200px
 
           Go to the cache section of your smoke domain
 
      - .. figure:: /images/Smoke_cache_name.jpg
           :width: 200px
-          :figwidth: 200px
 
           The files on disk need a name
 
      - .. figure:: /images/Smoke_bake.jpg
           :width: 200px
-          :figwidth: 200px
 
           Finally we're ready to bake
 

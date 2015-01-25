@@ -12,7 +12,6 @@ Special Options:
 
 .. figure:: /images/BGE_Actuator_Camera.jpg
    :width: 271px
-   :figwidth: 271px
 
    Camera Actuator
 

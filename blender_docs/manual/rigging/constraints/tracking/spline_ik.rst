@@ -30,7 +30,6 @@ Options
 
 .. figure:: /images/25-Manual-Constraints-Tracking-SplineIK.jpg
    :width: 305px
-   :figwidth: 305px
 
    Spline IK panel
 

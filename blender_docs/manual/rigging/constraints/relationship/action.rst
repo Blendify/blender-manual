@@ -39,7 +39,6 @@ Options
 
 .. figure:: /images/25-Manual-Constraints-Relationship-Action.jpg
    :width: 293px
-   :figwidth: 293px
 
    Action panel
 

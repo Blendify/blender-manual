@@ -5,7 +5,6 @@ Armature Structure
 
 .. figure:: /images/Manual-Part-I-Quick51.jpg
    :width: 250px
-   :figwidth: 250px
 
    The very basic armature of the
    :doc:`Gingerbread Man tutorial </your_first_animation/2.animating_the_gingerbread_man>`.
@@ -23,7 +22,6 @@ Chains of Bones
 
 .. figure:: /images/ManRiggingChainEx3DViewEditMode.jpg
    :width: 250px
-   :figwidth: 250px
 
    An armature with two chains of bones.
 
@@ -63,7 +61,6 @@ but let us have a quick look at this important feature.
 
 .. figure:: /images/Man2.5RiggingEditingBoneCxtRelationsPanel.jpg
    :width: 250px
-   :figwidth: 250px
 
    The Armature Bones panel with two bones selected, and their Child of settings highlighted.
 

@@ -24,7 +24,6 @@ all transformations will occur relative to the active element.
 
 .. figure:: /images/3D_interaction-Transform_control-Pivot_point-Active_element-selected-active-element.jpg
    :width: 640px
-   :figwidth: 640px
 
    Display of active elements in Object mode is shown on the left of the
    image where the active element (cube) is a lighter orange.
@@ -43,7 +42,6 @@ while the other Objects rotate and scale in relation to the active element.
 
 .. figure:: /images/3D_interaction-Transform_control-Pivot_point-Active_element-active-object-rotation.jpg
    :width: 640px
-   :figwidth: 640px
 
    Rotation and scaling with the cube as the active element.
 
@@ -74,7 +72,6 @@ transformed.
 
 .. figure:: /images/3D_interaction-Transform_control-Pivot_point-Active_single-element-selection.jpg
    :width: 640px
-   :figwidth: 640px
 
    Edit mode and only one element selected.
 
@@ -99,7 +96,6 @@ the selected elements have been rotated.
 
 .. figure:: /images/3D_interaction-Transform_control-Pivot_point-Active_multiple-element-selection.jpg
    :width: 640px
-   :figwidth: 640px
 
    Edit mode and multiple selections.
 

@@ -112,19 +112,16 @@ Attenuation
 
       * - .. figure:: /images/Manual-AmbientOcclusion-3Samples.jpg
              :width: 200px
-             :figwidth: 200px
 
              Ambient Occlusion with 3 Samples.
 
         - .. figure:: /images/Manual-AmbientOcclusion-6Samples.jpg
              :width: 200px
-             :figwidth: 200px
 
              Ambient Occlusion with 6 Samples.
 
         - .. figure:: /images/Manual-AmbientOcclusion-12Samples.jpg
              :width: 200px
-             :figwidth: 200px
 
              Ambient Occlusion with 12 Samples.
 
@@ -177,14 +174,12 @@ Attenuation
 
    * - .. figure:: /images/Manual-AmbientOcclusion-Bias0.05.jpg
           :width: 200px
-          :figwidth: 200px
 
           24×24 UV Sphere with Bias: 0.05 (default).
           Note the facets on the sphere's surface even though it is set to smooth.
 
      - .. figure:: /images/Manual-AmbientOcclusion-Bias0.15.jpg
           :width: 200px
-          :figwidth: 200px
 
           Raising the Bias to 0.15 removes the faceted artifacts.
 

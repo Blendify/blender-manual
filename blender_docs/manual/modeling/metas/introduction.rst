@@ -60,7 +60,6 @@ In Object mode, the calculated mesh is shown, along with a black "selection ring
 
 .. figure:: /images/MetaInfluenceAndSelection.jpg
    :width: 350px
-   :figwidth: 350px
 
    Meta Ball example.
 
@@ -85,13 +84,11 @@ the *Active Element* panel appears for editing individual meta elements.
 
    * - .. figure:: /images/MetaPropertiesObjectMode.jpg
           :width: 300px
-          :figwidth: 300px
 
           global meta properties.
 
      - .. figure:: /images/MetaPropertiesEditMode.jpg
           :width: 300px
-          :figwidth: 300px
 
           individual meta properties.
 
@@ -119,7 +116,6 @@ with the above mentioned configuration applied as follows:
 
 .. figure:: /images/MetaUnderlyingStructure.jpg
    :width: 600px
-   :figwidth: 600px
 
    Left: Underlying structure, Right: the shape.
 
@@ -150,7 +146,6 @@ A negative meta will push away or repel the meshes of positive *Meta* objects.
 
 .. figure:: /images/MetaIntersection.jpg
    :width: 400px
-   :figwidth: 400px
 
    Positive.
 
@@ -267,7 +262,6 @@ Cube (parallelepipedal volume, tri-dimensional structure)
 
 .. figure:: /images/MetaPrimitives.jpg
    :width: 600px
-   :figwidth: 600px
 
    the 5 meta primitives.
 

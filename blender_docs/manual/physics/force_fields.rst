@@ -138,7 +138,6 @@ Whether *Boids* seek or fly goals/predators depends on the *Physics* settings of
 
 .. figure:: /images/UM_PART_XIII_KST_PI03.jpg
    :width: 100px
-   :figwidth: 100px
 
    Image 2b: Spherical field indicator.
 
@@ -149,7 +148,6 @@ Wind
 
 .. figure:: /images/UM_PART_XIII_KST_PI02.jpg
    :width: 100px
-   :figwidth: 100px
 
    Image 3a: Wind field indicator.
 
@@ -163,7 +161,6 @@ Vortex Field
 
 .. figure:: /images/UM_PART_XIII_KST_PI04.jpg
    :width: 100px
-   :figwidth: 100px
 
    Image 3b: Vortex field indicator.
 
@@ -337,7 +334,6 @@ Shape
 
 .. figure:: /images/Blender3D_CurveGuideKink.jpg
    :width: 400px
-   :figwidth: 400px
 
    Image 4b: Kink options of a curve guide. From left to right: Radial, Wave, Braid, Roll.
    `Animation <http://www.vimeo.com/1866538>`__

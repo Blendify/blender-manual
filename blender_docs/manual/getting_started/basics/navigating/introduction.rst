@@ -30,7 +30,6 @@ The header shows you a menu and the current mode, as explained below.
 
 .. figure:: /images/2.5_Manual-3D-Header.jpg
    :width: 600px
-   :figwidth: 600px
 
    3D View header.
 
@@ -40,7 +39,6 @@ View Menu
 
 .. figure:: /images/2.5_Manual-3D-View-Menu.jpg
    :width: 300px
-   :figwidth: 300px
 
    The View menu.
 

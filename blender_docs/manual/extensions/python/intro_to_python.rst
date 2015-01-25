@@ -57,7 +57,6 @@ Following is a video that shows how you can switch to the interpreter.
 
 .. figure:: /images/Manual-Part-XX-Manual-Extensions-Python-Console-Default-Console.jpg
    :width: 600px
-   :figwidth: 600px
 
 
 You can start typing Python commands,

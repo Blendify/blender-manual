@@ -52,25 +52,21 @@ Instead let's see what SSS does to a distinct light point.
 
    * - .. figure:: /images/25-Manual-Materials-SSS.jpg
           :width: 300px
-          :figwidth: 300px
 
           Image 3a: No SSS.
 
      - .. figure:: /images/25-Manual-Materials-SSS1.jpg
           :width: 300px
-          :figwidth: 300px
 
           Image 3b: Small SSS radius.
 
    * - .. figure:: /images/25-Manual-Materials-SSS2.jpg
           :width: 300px
-          :figwidth: 300px
 
           Image 3c: SSS radius enlarged.
 
      - .. figure:: /images/25-Manual-Materials-SSS3.jpg
           :width: 300px
-          :figwidth: 300px
 
           Image 3d: SSS with very large red radius value.
 
@@ -137,7 +133,6 @@ Scale
 
 .. figure:: /images/Manual-25-Material-SSS-Swatch.jpg
    :width: 90px
-   :figwidth: 90px
 
    The SSS Color Swatch
 
@@ -227,31 +222,26 @@ Skin
 
    * - .. figure:: /images/Manual-25-Material-SSS-MH-Head-1.jpg
           :width: 100px
-          :figwidth: 100px
 
           1
 
      - .. figure:: /images/Manual-25-Material-SSS-MH-Head-2.jpg
           :width: 100px
-          :figwidth: 100px
 
           2
 
      - .. figure:: /images/Manual-25-Material-SSS-MH-Head-3.jpg
           :width: 100px
-          :figwidth: 100px
 
           3
 
      - .. figure:: /images/Manual-25-Material-SSS-MH-Head-4.jpg
           :width: 100px
-          :figwidth: 100px
 
           4
 
      - .. figure:: /images/Manual-25-Material-SSS-MH-Head-5.jpg
           :width: 100px
-          :figwidth: 100px
 
           5
 

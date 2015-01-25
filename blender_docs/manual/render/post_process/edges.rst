@@ -8,7 +8,6 @@ Edge (Toon) Rendering
 
 .. figure:: /images/Manual-Part-XI-Toon01.jpg
    :width: 240px
-   :figwidth: 240px
 
    A scene with Toon materials.
 
@@ -52,14 +51,12 @@ Examples
 
 .. figure:: /images/Manual-Part-XI-Toon02.jpg
    :width: 400px
-   :figwidth: 400px
 
    Scene re-rendered with toon edge set.
 
 
 .. figure:: /images/Manual-Renderlayer-Edge.jpg
    :width: 400px
-   :figwidth: 400px
 
    Post-processing Edge and Renderlayers
 

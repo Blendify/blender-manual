@@ -17,7 +17,6 @@ Surface and Wire materials
 
 .. figure:: /images/25-Manual-Textures-Influence-Surface.jpg
    :width: 308px
-   :figwidth: 308px
 
    Texture Influence panel for a Surface material
 
@@ -124,7 +123,6 @@ Volume materials
 
 .. figure:: /images/25-Manual-Textures-Influence-Volume.jpg
    :width: 308px
-   :figwidth: 308px
 
    Texture Influence panel for Volume material
 
@@ -152,7 +150,6 @@ Halo materials
 
 .. figure:: /images/25-Manual-Textures-Influence-Halo.jpg
    :width: 308px
-   :figwidth: 308px
 
    Texture Influence panel for a Halo material
 

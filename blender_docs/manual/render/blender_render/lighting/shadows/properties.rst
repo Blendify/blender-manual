@@ -5,7 +5,6 @@ Common Shadowing Lamps Options
 
 .. figure:: /images/Manual-Lighting-Shadow-Common-Properties.jpg
    :width: 310px
-   :figwidth: 310px
 
    Common shadowing options for lamps
 
@@ -31,19 +30,16 @@ Shadow color
 
       * - .. figure:: /images/Manual_-_Shadow_and_Spot_-_Red_Buffer_Shadow.jpg
              :width: 190px
-             :figwidth: 190px
 
              Red colored shadow example
 
         - .. figure:: /images/Manual_-_Shadow_and_Spot_-_Green_Buffer_Shadow.jpg
              :width: 190px
-             :figwidth: 190px
 
              Green colored shadow example
 
         - .. figure:: /images/Manual_-_Shadow_and_Spot_-_Blue_Buffer_Shadow.jpg
              :width: 190px
-             :figwidth: 190px
 
              Blue colored shadow example
 

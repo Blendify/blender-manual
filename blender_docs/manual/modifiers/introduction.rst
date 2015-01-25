@@ -24,7 +24,6 @@ You can add several modifiers to a single object to form a :doc:`Modifier Stack 
 
 .. figure:: /images/25-Manual-Modifiers-menu.jpg
    :width: 600px
-   :figwidth: 600px
 
    Modifiers menu
 

@@ -14,7 +14,6 @@ Materials
 
 .. figure:: /images/25-Manual-Lighting-LightGr-Mat.jpg
    :width: 317px
-   :figwidth: 317px
 
    Light Group options for Materials
 
@@ -35,7 +34,6 @@ Render Layers
 
 .. figure:: /images/25-Manual-Lighting-LightGr-RenLay.jpg
    :width: 317px
-   :figwidth: 317px
 
    Light Group options for Render Layers
 

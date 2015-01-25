@@ -7,19 +7,16 @@ Wave Modifier
 
    * - .. figure:: /images/25-Manual-Modifiers-Wave-example-Circular.jpg
           :width: 180px
-          :figwidth: 180px
 
           Circular wave front
 
      - .. figure:: /images/25-Manual-Modifiers-Wave-example-Linear.jpg
           :width: 180px
-          :figwidth: 180px
 
           Linear wave front
 
      - .. figure:: /images/25-Manual-Modifiers-Wave-example-normals.jpg
           :width: 180px
-          :figwidth: 180px
 
           Motion enabled for X,
           Normals enabled for Y.
@@ -133,7 +130,6 @@ The relationship of the above values is described here:
 
 .. figure:: /images/Blender3D_WaveModifierParameters.jpg
    :width: 600px
-   :figwidth: 600px
 
    Wave front characteristics.
 

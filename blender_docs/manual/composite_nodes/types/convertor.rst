@@ -252,7 +252,6 @@ Example
 
 .. figure:: /images/Manual-Compositing-Node-IDMask_ex.jpg
    :width: 300px
-   :figwidth: 300px
 
    Example
 
@@ -301,7 +300,6 @@ Manual Z-Mask
 
 .. figure:: /images/Manual-Compositing-Node-Math_MinMax.jpg
    :width: 300px
-   :figwidth: 300px
 
    Example
 
@@ -450,7 +448,6 @@ Reality
 
 .. figure:: /images/Manual-Compositing-Node-Math_Quantize-Red.jpg
    :width: 650px
-   :figwidth: 650px
 
 
 To implement this function in Blender, consider the noodle above. First,
@@ -560,7 +557,6 @@ Examples
 
 .. figure:: /images/Manual-Compositing-Covert-CombineRGBA.jpg
    :width: 200px
-   :figwidth: 200px
 
 
 In this first example, we take the Alpha channel and blur it,
@@ -574,7 +570,6 @@ as a "out-of-phase" time-traveling sync effect.
 
 .. figure:: /images/Manual-Compositing-Covert-CombineRGBA2.jpg
    :width: 200px
-   :figwidth: 200px
 
 
 In this fun little noodle we make all the reds become green,

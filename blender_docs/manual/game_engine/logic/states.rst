@@ -43,7 +43,6 @@ Editing States
 
 .. figure:: /images/BGE_Controller_State_Panel.jpg
    :width: 292px
-   :figwidth: 292px
 
    State Panel Button
 
@@ -62,7 +61,6 @@ Visible and Initial.
 
 .. figure:: /images/BGE_Controller_State_Panel1.jpg
    :width: 292px
-   :figwidth: 292px
 
    State Panel Visible
 
@@ -85,7 +83,6 @@ at the head of their columns are ticked.
 
 .. figure:: /images/BGE_Controller_State_Panel2.jpg
    :width: 292px
-   :figwidth: 292px
 
    State Panel Initial
 

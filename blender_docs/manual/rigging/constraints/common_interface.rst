@@ -8,7 +8,6 @@ Constraints Common Interface
 
 .. figure:: /images/25-Manual-Constraints-Subpanel-3parts.jpg
    :width: 303px
-   :figwidth: 303px
 
    The three parts of a constraint interface
 
@@ -30,7 +29,6 @@ Constraints Header
 
 .. figure:: /images/25-Manual-Constraints-Subpanel-header.jpg
    :width: 406px
-   :figwidth: 406px
 
    A constraint header
 
@@ -65,7 +63,6 @@ Constraints Settings
 
 .. figure:: /images/25-Manual-Constraints-Subpanel-body.jpg
    :width: 303px
-   :figwidth: 303px
 
    The central part of a constraint's subpanel contains the constraint's settings, the target, and constraint space
 
@@ -148,7 +145,6 @@ Influence
 
 .. figure:: /images/25-Manual-Constraints-Subpanel-influence.jpg
    :width: 303px
-   :figwidth: 303px
 
    Influence
 

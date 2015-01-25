@@ -80,19 +80,16 @@ If any object that was last active appears in the group it will become selected 
 
    * - .. figure:: /images/25-Manual-Modeling-Meshes-Selection-Borderselect1.jpg
           :width: 200px
-          :figwidth: 200px
 
           Start
 
      - .. figure:: /images/25-Manual-Modeling-Meshes-Selection-Borderselect2.jpg
           :width: 200px
-          :figwidth: 200px
 
           Selecting
 
      - .. figure:: /images/25-Manual-Modeling-Meshes-Selection-Borderselect3.jpg
           :width: 200px
-          :figwidth: 200px
 
           Complete
 
@@ -130,13 +127,11 @@ or the :kbd:`Wheel`.
 
    * - .. figure:: /images/25-Manual-Modeling-Meshes-Selection-Circularselect1.jpg
           :width: 300px
-          :figwidth: 300px
 
           Before
 
      - .. figure:: /images/25-Manual-Modeling-Meshes-Selection-Circularselect2.jpg
           :width: 300px
-          :figwidth: 300px
 
           After
 
@@ -174,19 +169,16 @@ To deselect, use :kbd:`Ctrl-Shift-LMB` while dragging.
 
    * - .. figure:: /images/25-Manual-Modeling-Meshes-Selection-Lassoselect1.jpg
           :width: 200px
-          :figwidth: 200px
 
           Start
 
      - .. figure:: /images/25-Manual-Modeling-Meshes-Selection-Lassoselect2.jpg
           :width: 200px
-          :figwidth: 200px
 
           Selecting
 
      - .. figure:: /images/25-Manual-Modeling-Meshes-Selection-Lassoselect3.jpg
           :width: 200px
-          :figwidth: 200px
 
           Complete
 

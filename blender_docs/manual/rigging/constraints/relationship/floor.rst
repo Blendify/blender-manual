@@ -22,7 +22,6 @@ Options
 
 .. figure:: /images/25-Manual-Constraints-Relationship-Floor.jpg
    :width: 303px
-   :figwidth: 303px
 
    Floor panel
 

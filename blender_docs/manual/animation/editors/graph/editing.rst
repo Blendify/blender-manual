@@ -149,13 +149,11 @@ Snap Keys :kbd:`Shift-S`
 
    * - .. figure:: /images/Manual-Animation-F-Curves-Flatten-Handles-1.jpg
           :width: 200px
-          :figwidth: 200px
 
           Before Flatten Handles.
 
      - .. figure:: /images/Manual-Animation-F-Curves-Flatten-Handles-2.jpg
           :width: 200px
-          :figwidth: 200px
 
           After Flatten Handles.
 
@@ -191,13 +189,11 @@ Clean Keyframes
 
    * - .. figure:: /images/Doc26-fcurve-clean1.jpg
           :width: 300px
-          :figwidth: 300px
 
           Fcurve before cleaning
 
      - .. figure:: /images/Doc26-fcurve-clean2.jpg
           :width: 300px
-          :figwidth: 300px
 
           Fcurve after cleaning
 
@@ -216,13 +212,11 @@ seem to be never modified by this tool.
 
    * - .. figure:: /images/Doc26-fcurve-clean1.jpg
           :width: 300px
-          :figwidth: 300px
 
           Fcurve before smoothing
 
      - .. figure:: /images/Doc26-fcurve-smooth.jpg
           :width: 300px
-          :figwidth: 300px
 
           Fcurve after smoothing
 
@@ -238,13 +232,11 @@ Sample Keyframes :kbd:`Shift-O`
 
    * - .. figure:: /images/Doc26-fcurve-sample.jpg
           :width: 300px
-          :figwidth: 300px
 
           Fcurve before sampling
 
      - .. figure:: /images/Doc26-fcurve-sample2.jpg
           :width: 300px
-          :figwidth: 300px
 
           Fcurve after sampling
 

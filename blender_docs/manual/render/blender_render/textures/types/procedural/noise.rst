@@ -5,7 +5,6 @@ Procedural textures: Noise
 
 .. figure:: /images/25-Manual-Textures-Procedural-Noise.jpg
    :width: 307px
-   :figwidth: 307px
 
    Noise Texture Panel
 

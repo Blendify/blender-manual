@@ -40,7 +40,6 @@ Shadow
 
 .. figure:: /images/Tutorials-NTR-ComFilterNodeIllustration.jpg
    :width: 500px
-   :figwidth: 500px
 
    The Filter node has seven modes, shown here.
 
@@ -82,7 +81,6 @@ makes the Blur node gamma-correct the image before blurring it.
 
 .. figure:: /images/Tutorials-NTR-ComBlurIllustration.jpg
    :width: 650px
-   :figwidth: 650px
 
    Blur node blur modes using 15% of image size as XY, no Bokeh/Gamma. Click expand to see details
 
@@ -187,21 +185,18 @@ Examples
 
 .. figure:: /images/Manual-Compositing_Nodes-BilateralBlur_ex3.jpg
    :width: 250px
-   :figwidth: 250px
 
    Bilateral smoothed buffered shadow
 
 
 .. figure:: /images/Manual-Compositing_Nodes-BilateralBlur_ex1.jpg
    :width: 250px
-   :figwidth: 250px
 
    Bilateral smoothed AO
 
 
 .. figure:: /images/Manual-Compositing_Nodes-BilateralBlur_ex2.jpg
    :width: 250px
-   :figwidth: 250px
 
    Bilateral faked blurry refraction+smoothed reytraced soft shadow
 
@@ -301,7 +296,6 @@ Example
 
 .. figure:: /images/Manual-Compositing_Nodes-Dilate_ex.jpg
    :width: 300px
-   :figwidth: 300px
 
    Magenta tinge
 
@@ -461,7 +455,6 @@ Examples
 
 .. figure:: /images/Manual-Node-Defocus-example.jpg
    :width: 200px
-   :figwidth: 200px
 
 
 In this `blend file example <http://wiki.blender.org/uploads/7/79/Doftest.blend>`__, the ball

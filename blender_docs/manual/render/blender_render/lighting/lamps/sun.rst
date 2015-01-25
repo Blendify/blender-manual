@@ -20,7 +20,6 @@ the location of a *Sun* lamp does not affect the rendered result (unless you use
 
 .. figure:: /images/25-Manual-Lighting-Lamps-Sun-LampPanel.jpg
    :width: 304px
-   :figwidth: 304px
 
    Sun lamp panel
 
@@ -44,7 +43,6 @@ Sky & Atmosphere
 
 .. figure:: /images/25-Manual-Lighting-Lamps-Sun-SkyAtmoPanel.jpg
    :width: 304px
-   :figwidth: 304px
 
    Sky & Atmosphere panel
 
@@ -59,7 +57,6 @@ Shadow
 
 .. figure:: /images/25-Manual-Lighting-Lamps-Sun-ShadPanel.jpg
    :width: 304px
-   :figwidth: 304px
 
    Shadow panel
 

@@ -30,7 +30,6 @@ Objects' mesh.
 
 .. figure:: /images/3D_interaction-Transform_control-Pivot_point-Median_point-median-point-objects.jpg
    :width: 640px
-   :figwidth: 640px
 
    Median points in Object Mode. The Median point is indicated by the yellow dot.
 
@@ -49,7 +48,6 @@ you can see that the median point has shifted to the region with the most vertic
 
 .. figure:: /images/3D_interaction-Transform_control-Pivot_point-Median_point-median-point-vertices.jpg
    :width: 640px
-   :figwidth: 640px
 
    Median points in Edit Mode. The Median point is indicated by the yellow dot.
 

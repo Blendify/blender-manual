@@ -65,7 +65,6 @@ use :kbd:`Shift-LMB` - doing this on an already active layer will deselect it.
 
 .. figure:: /images/Manual-3Dinteraction-Navigating-Layers-layer-buttons.jpg
    :width: 600px
-   :figwidth: 600px
 
    3D Viewport layer buttons.
 

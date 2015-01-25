@@ -9,7 +9,6 @@ The *File Preferences* tab allows you to configure auto-save preferences and set
 
 .. figure:: /images/Manual-Interface-Configuration-File-UserPreferencesFile.jpg
    :width: 650px
-   :figwidth: 650px
 
 
 File Paths

@@ -14,6 +14,5 @@ See the :doc:`Add-ons Page </extensions/python/add_ons>` for more on using Add-o
 
 .. figure:: /images/User-pref-add-ons.jpg
    :width: 640px
-   :figwidth: 640px
 
 

@@ -123,7 +123,6 @@ the following picture expertly provides a great example of what each pass looks 
 
 .. figure:: /images/Tidy_cornelius_passes.jpg
    :width: 650px
-   :figwidth: 650px
 
 
 The available sockets are:

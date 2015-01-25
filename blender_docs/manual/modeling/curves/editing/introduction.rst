@@ -229,7 +229,6 @@ The two curves are joined by a segment to become a single curve.
 
 .. figure:: /images/Editing_Curves_two-curves-joined.jpg
    :width: 600px
-   :figwidth: 600px
 
    Curves before and after joining
 
@@ -292,13 +291,11 @@ All
 
    * - .. figure:: /images/Editing_Curves_delete-selected.jpg
           :width: 300px
-          :figwidth: 300px
 
           Deleting Curve Selected
 
      - .. figure:: /images/Editing_Curves_delete-segment.jpg
           :width: 300px
-          :figwidth: 300px
 
           Deleting Curve segments
 
@@ -330,7 +327,6 @@ that when a 2D curve is closed, it creates a renderable flat face.
 
 .. figure:: /images/Editing_Curves_open-closed-cyclic.jpg
    :width: 400px
-   :figwidth: 400px
 
    Open and Closed curves.
 
@@ -370,7 +366,6 @@ Converting Curve Type
 
 .. figure:: /images/Editing_Curves_set-spline-type.jpg
    :width: 150px
-   :figwidth: 150px
 
    Set Spline Type button
 

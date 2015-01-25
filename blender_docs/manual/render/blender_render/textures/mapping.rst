@@ -18,7 +18,6 @@ Coordinates
 
 .. figure:: /images/25-Manual-Textures-Mapping-Coord.jpg
    :width: 207px
-   :figwidth: 207px
 
    Mapping Coordinate menu
 
@@ -79,7 +78,6 @@ Projection
 
 .. figure:: /images/25-Manual-Textures-Mapping-Proj.jpg
    :width: 210px
-   :figwidth: 210px
 
    Projection menu
 

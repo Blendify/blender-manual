@@ -5,7 +5,6 @@ Wire Render
 
 .. figure:: /images/Doc_2.6_Materials_Render_Wire0.jpg
    :width: 320px
-   :figwidth: 320px
 
    Wire Render
 
@@ -19,7 +18,6 @@ provided by the Surface rendered image.
 
 .. figure:: /images/Doc_2.6_Materials_Demo_Wire.jpg
    :width: 320px
-   :figwidth: 320px
 
    Wire Render
 

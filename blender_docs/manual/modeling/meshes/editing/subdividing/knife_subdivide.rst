@@ -27,21 +27,18 @@ Drawing the cut line
 
 .. figure:: /images/Knife1.jpg
    :width: 200px
-   :figwidth: 200px
 
    Mesh before knife cut
 
 
 .. figure:: /images/Knife2.jpg
    :width: 200px
-   :figwidth: 200px
 
    Knife cut active
 
 
 .. figure:: /images/Knife3.jpg
    :width: 200px
-   :figwidth: 200px
 
    After confirming knife cut
 
@@ -60,14 +57,12 @@ New cut :kbd:`E`
 
 .. figure:: /images/Knife4.jpg
    :width: 300px
-   :figwidth: 300px
 
    Creating multiple cuts
 
 
 .. figure:: /images/Knife5.jpg
    :width: 300px
-   :figwidth: 300px
 
    Result of starting new cuts while in the tool
 
@@ -88,14 +83,12 @@ Cut through: :kbd:`Z`
 
 .. figure:: /images/Knife6.jpg
    :width: 300px
-   :figwidth: 300px
 
    Constraining cut angle
 
 
 .. figure:: /images/Knife7.jpg
    :width: 300px
-   :figwidth: 300px
 
    Result of constraining cut angle
 
@@ -137,42 +130,36 @@ Examples
 
 .. figure:: /images/Knife_project_text_before.jpg
    :width: 300px
-   :figwidth: 300px
 
    Before projecting from a text object
 
 
 .. figure:: /images/Knife_project_text_after.jpg
    :width: 300px
-   :figwidth: 300px
 
    Resulting knife projection
 
 
 .. figure:: /images/Knife_project_mesh_before.jpg
    :width: 300px
-   :figwidth: 300px
 
    Before projecting from a mesh object
 
 
 .. figure:: /images/Knife_project_mesh_after.jpg
    :width: 300px
-   :figwidth: 300px
 
    Resulting knife projection (extruded after)
 
 
 .. figure:: /images/Knife_project_curve_before.jpg
    :width: 300px
-   :figwidth: 300px
 
    Before projecting from a 3D curve object
 
 
 .. figure:: /images/Knife_project_curve_after.jpg
    :width: 300px
-   :figwidth: 300px
 
    Resulting knife projection (extruded after)
 

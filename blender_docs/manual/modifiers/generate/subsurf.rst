@@ -5,7 +5,6 @@ Subdivision Surface Modifier
 
 .. figure:: /images/SubsurfSmoothingDemoGrid-HiRes.jpg
    :width: 300px
-   :figwidth: 300px
 
    Click to zoom; Subsurfs levels 0 to 3, without and with Smooth Shading.
    This was rendered from: `SubsurfDemo.blend <http://wiki.blender.org/index.php/Media:SubsurfDemo.blend>`__
@@ -103,10 +102,8 @@ This lets you grab the vertices as they lie in their new smoothed locations, rat
 
    * - .. figure:: /images/SubsurfEditCageOff.jpg
           :width: 250px
-          :figwidth: 250px
      - .. figure:: /images/SubsurfEditCageOn.jpg
           :width: 250px
-          :figwidth: 250px
    * - Edit Cage Off (Default)
      - Edit Cage On
 
@@ -233,7 +230,6 @@ shares the overall normal orientation of that original face.
 
 .. figure:: /images/Manual-Part-II-SubSurf05b.jpg
    :width: 300px
-   :figwidth: 300px
 
    Fig. 1: Solid view of subsurfed meshes with inconsistent normals (top) and consistent normals (bottom).
    Note the ugly dark areas that appear.
@@ -241,7 +237,6 @@ shares the overall normal orientation of that original face.
 
 .. figure:: /images/Manual-Part-II-SubSurf05a.jpg
    :width: 300px
-   :figwidth: 300px
 
    Fig. 2: Side view of the above meshes' normals, with random normals (top) and with coherent normals (bottom).
 

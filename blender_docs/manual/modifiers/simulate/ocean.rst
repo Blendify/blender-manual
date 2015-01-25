@@ -14,7 +14,6 @@ Options
 
 .. figure:: /images/Ocean_modifier.jpg
    :width: 240px
-   :figwidth: 240px
 
    Ocean Modifier Panel
 
@@ -112,7 +111,6 @@ Simulation Data Generation Options
 
 .. figure:: /images/Ocean_foam_layer_name.jpg
    :width: 240px
-   :figwidth: 240px
 
    Using foam vertex colors with a named data layer
 

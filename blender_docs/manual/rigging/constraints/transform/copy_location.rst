@@ -22,7 +22,6 @@ Options
 
 .. figure:: /images/25-Manual-Constraints-Transform-CopyLoc.jpg
    :width: 307px
-   :figwidth: 307px
 
    Copy Location panel
 

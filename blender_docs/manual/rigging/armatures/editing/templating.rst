@@ -152,19 +152,16 @@ No, View, Joint buttons
 
    * - .. figure:: /images/ManRiggingTemplatingBoneRollExNo.jpg
           :width: 200px
-          :figwidth: 200px
 
           With No roll option.
 
      - .. figure:: /images/ManRiggingTemplatingBoneRollExView.jpg
           :width: 200px
-          :figwidth: 200px
 
           With View roll option.
 
      - .. figure:: /images/ManRiggingTemplatingBoneRollExJoint.jpg
           :width: 200px
-          :figwidth: 200px
 
           With Joint roll option.
 
@@ -198,25 +195,21 @@ Think of them as A(ngle of bones), L(ength of bones) and D(efinition of stroke).
 
    * - .. figure:: /images/ManRiggingTemplatingInfluenceWeightsEx111.jpg
           :width: 150px
-          :figwidth: 150px
 
           A: 1.0; L: 1.0; D: 1.0.
 
      - .. figure:: /images/ManRiggingTemplatingInfluenceWeightsEx100.jpg
           :width: 150px
-          :figwidth: 150px
 
           A: 1.0; L: 0.0; D: 0.0.
 
      - .. figure:: /images/ManRiggingTemplatingInfluenceWeightsEx010.jpg
           :width: 150px
-          :figwidth: 150px
 
           A: 0.0; L: 1.0; D: 0.0.
 
      - .. figure:: /images/ManRiggingTemplatingInfluenceWeightsEx001.jpg
           :width: 150px
-          :figwidth: 150px
 
           A: 0.0; L: 0.0; D: 1.0.
 
@@ -239,14 +232,12 @@ Naming and placeholders, using a simple leg template.
 
       * - .. figure:: /images/ManRiggingTemplatingNamePlaceholdersEx1.jpg
              :width: 325px
-             :figwidth: 325px
 
              Before conversion (note the &n and &s
              placeholders in template bones' names).
 
         - .. figure:: /images/ManRiggingTemplatingNamePlaceholdersEx2.jpg
              :width: 205px
-             :figwidth: 205px
 
              After conversion: the placeholders have been replaced by the
              content of the S and N text fields of the Bone Sketching panel.
@@ -258,14 +249,12 @@ Auto naming and placeholders, using a simple leg template.
 
       * - .. figure:: /images/ManRiggingTemplatingAutoNamingEx1.jpg
              :width: 285px
-             :figwidth: 285px
 
              Before conversion (note that, in the Bone Sketching panel,
              the S and N fields are empty, and the small "auto" button is enabled).
 
         - .. figure:: /images/ManRiggingTemplatingAutoNamingEx2.jpg
              :width: 315px
-             :figwidth: 315px
 
 
 Static text line

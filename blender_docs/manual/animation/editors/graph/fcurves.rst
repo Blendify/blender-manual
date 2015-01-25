@@ -38,7 +38,6 @@ by Blender and filled in. Thus, the animators' workload is significantly reduced
 
 .. figure:: /images/Manual-Animation-F-Curves-Concept.jpg
    :width: 200px
-   :figwidth: 200px
 
    Example of interpolation
 
@@ -78,7 +77,6 @@ Constant
 
 .. figure:: /images/Doc26-fcurve-constant.jpg
    :width: 300px
-   :figwidth: 300px
 
    Constant.
 
@@ -91,7 +89,6 @@ Linear
 
 .. figure:: /images/Doc26-fcurve-linear.jpg
    :width: 300px
-   :figwidth: 300px
 
    Linear.
 
@@ -103,7 +100,6 @@ Bezier
 
 .. figure:: /images/Doc26-fcurve-clean1.jpg
    :width: 300px
-   :figwidth: 300px
 
    Bézier.
 
@@ -128,7 +124,6 @@ Constant
 
 .. figure:: /images/Doc26-fcurve-extrapolate1.jpg
    :width: 300px
-   :figwidth: 300px
 
    Constant extrapolation
 
@@ -140,7 +135,6 @@ Linear
 
 .. figure:: /images/Doc26-fcurve-extrapolate2.jpg
    :width: 300px
-   :figwidth: 300px
 
    Linear extrapolation
 
@@ -161,7 +155,6 @@ Automatic
 
 .. figure:: /images/Doc26-fcurve-auto.jpg
    :width: 400px
-   :figwidth: 400px
 
    Auto handles
 
@@ -173,7 +166,6 @@ Vector
 
 .. figure:: /images/Doc26-fcurve-vector.jpg
    :width: 400px
-   :figwidth: 400px
 
    Vector handles
 
@@ -184,7 +176,6 @@ Aligned
 
 .. figure:: /images/Doc26-fcurve-aligned.jpg
    :width: 400px
-   :figwidth: 400px
 
    Aligned handles
 
@@ -195,7 +186,6 @@ Free
 
 .. figure:: /images/Doc26-fcurve-free.jpg
    :width: 400px
-   :figwidth: 400px
 
    Free handles
 
@@ -206,7 +196,6 @@ Auto Clamped
 
 .. figure:: /images/Doc26-fcurve-autoClamped.jpg
    :width: 400px
-   :figwidth: 400px
 
    Auto clamped handles
 

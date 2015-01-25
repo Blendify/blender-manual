@@ -48,7 +48,6 @@ Limited Dissolve
 
 .. figure:: /images/Bmesh_limited-dissolve.jpg
    :width: 400px
-   :figwidth: 400px
 
    Example showing the how Limited Dissolve can be used.
 
@@ -60,7 +59,6 @@ Limited Dissolve
 
 .. figure:: /images/Bmesh_dissolve_face_split.jpg
    :width: 500px
-   :figwidth: 500px
 
    Dissolve Face Split option. Left - the input, middle - regular dissolve, right - Face Split enabled
 

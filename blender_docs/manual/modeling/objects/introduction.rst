@@ -16,7 +16,6 @@ Object Mode
 
 .. figure:: /images/Manual-2.5-Part-II-ObjectMode-Selected-Ex.jpg
    :width: 400px
-   :figwidth: 400px
 
    Selected object in 3D View: (1) Solid shading, (2) Wireframe shading.
 

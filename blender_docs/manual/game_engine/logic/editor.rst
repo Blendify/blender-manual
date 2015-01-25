@@ -17,7 +17,6 @@ We will look at each one individually.
 
 .. figure:: /images/Manual-2.5-Logic_Panel_Expanded_menus.jpg
    :width: 610px
-   :figwidth: 610px
 
    The different parts of the Logic Panel.
 

@@ -5,7 +5,6 @@ Actuator Editing
 
 .. figure:: /images/BGE_Actuator_Column.jpg
    :width: 292px
-   :figwidth: 292px
 
    Actuator Column with Typical Actuator
 
@@ -24,7 +23,6 @@ Column Heading
 
 .. figure:: /images/BGE_Actuator_Column1.jpg
    :width: 292px
-   :figwidth: 292px
 
    Actuator Column Heading
 
@@ -62,7 +60,6 @@ Object Heading
 
 .. figure:: /images/BGE_Actuator_Column2.jpg
    :width: 292px
-   :figwidth: 292px
 
    Actuator Object Heading
 

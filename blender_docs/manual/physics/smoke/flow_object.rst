@@ -26,19 +26,16 @@ We also don't want to see the particles so turn off the render, too.
 
    * - .. figure:: /images/Particles_tab.jpg
           :width: 200px
-          :figwidth: 200px
 
           The particles tab is right next to the physics tab
 
      - .. figure:: /images/No_physics.jpg
           :width: 200px
-          :figwidth: 200px
 
           We don't want the particles to be affected by physics
 
      - .. figure:: /images/No_render.jpg
           :width: 200px
-          :figwidth: 200px
 
           We also don't want to see the particles
 
@@ -55,19 +52,16 @@ Another way to preview the smoke is starting the animation by :kbd:`Alt-A`
 
    * - .. figure:: /images/Chose_particle_system.jpg
           :width: 200px
-          :figwidth: 200px
 
           Select the newly created particle system here
 
      - .. figure:: /images/Scrub_timeline.jpg
           :width: 200px
-          :figwidth: 200px
 
           Either scrub on the timeline or use Alt+A
 
      - .. figure:: /images/Smoke_viewport.jpg
           :width: 200px
-          :figwidth: 200px
 
           Now there should be smoke in the viewport
 

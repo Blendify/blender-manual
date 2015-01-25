@@ -16,7 +16,6 @@ in *Properties* window, *Object data* context:
 
 .. figure:: /images/Man2.5RiggingEditingObjectDataPropertyWindow.jpg
    :width: 267px
-   :figwidth: 267px
 
    The Object data property in the Properties window.
 
@@ -26,7 +25,6 @@ Skeleton panel (all modes)
 
 .. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtSkeletonPanel.jpg
    :width: 250px
-   :figwidth: 250px
 
    The Skeleton panel.
 
@@ -39,7 +37,6 @@ Display panel (all modes)
 
 .. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtDisplayPanel.jpg
    :width: 250px
-   :figwidth: 250px
 
    The Display panel.
 
@@ -54,7 +51,6 @@ Bone groups panel (pose mode)
 
 .. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtBonesGroupsPanel.jpg
    :width: 250px
-   :figwidth: 250px
 
    The Bone Groups panel.
 
@@ -67,7 +63,6 @@ Pose Library panel (Pose mode)
 
 .. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtPoseLibraryPanel.jpg
    :width: 250px
-   :figwidth: 250px
 
    The Pose Library panel.
 
@@ -80,7 +75,6 @@ Ghost panel (all modes)
 
 .. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtGhostPanel.jpg
    :width: 250px
-   :figwidth: 250px
 
    The Ghost panel.
 
@@ -93,7 +87,6 @@ iTaSC parameters panel (all modes)
 
 .. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtiTaSCparametersPanel.jpg
    :width: 250px
-   :figwidth: 250px
 
    The iTaSC parameters panel.
 
@@ -106,7 +99,6 @@ Motion Paths panel (Pose mode)
 
 .. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtMotionPathsPanel.jpg
    :width: 250px
-   :figwidth: 250px
 
    The Motion Paths panel.
 
@@ -119,7 +111,6 @@ Custom Properties panel (all modes)
 
 .. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtCustomPropertiesPanel.jpg
    :width: 250px
-   :figwidth: 250px
 
    The Custom Properties panel.
 
@@ -143,7 +134,6 @@ in *Properties* window, *Bone* context:
 
 .. figure:: /images/Man2.5RiggingBonePrincipalsBonePropertyWindow.jpg
    :width: 250px
-   :figwidth: 250px
 
    The Bone context.
 
@@ -153,7 +143,6 @@ Relations panel (edit mode)
 
 .. figure:: /images/Man2.5RiggingEditingBoneCxtRelationsPanel.jpg
    :width: 250px
-   :figwidth: 250px
 
    The Relations panel.
 
@@ -166,7 +155,6 @@ Display panel (object mode)
 
 .. figure:: /images/Man2.5RiggingEditingBoneCxtDisplayPanel.jpg
    :width: 250px
-   :figwidth: 250px
 
    The Display panel.
 
@@ -179,7 +167,6 @@ Deform panel (all modes)
 
 .. figure:: /images/Man2.5RiggingEditingBoneCxtDeformPanel.jpg
    :width: 250px
-   :figwidth: 250px
 
    The Deform panel.
 
@@ -199,7 +186,6 @@ Custom Properties panel (all modes)
 
 .. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtCustomPropertiesPanel.jpg
    :width: 250px
-   :figwidth: 250px
 
    The Custom Properties panel.
 
@@ -212,7 +198,6 @@ Transform panel (edit and pose mode)
 
 .. figure:: /images/Man2.5RiggingEditingBoneCxtTransformPanel.jpg
    :width: 250px
-   :figwidth: 250px
 
    The Transform panel(edit mode).
 
@@ -224,7 +209,6 @@ Transform panel (edit and pose mode)
 
 .. figure:: /images/Man2.5RiggingEditingBoneCxtTransformPPanel.jpg
    :width: 250px
-   :figwidth: 250px
 
    The Transform panel(pose mode).
 
@@ -234,7 +218,6 @@ Transform Locks panel (pose mode)
 
 .. figure:: /images/Man2.5RiggingEditingBoneCxtTranformLocksPanel.jpg
    :width: 250px
-   :figwidth: 250px
 
    The Transform Locks panel.
 
@@ -247,7 +230,6 @@ Inverse Kinematics panel (pose mode)
 
 .. figure:: /images/Man2.5RiggingEditingBoneCxtInverseKinematicsPanel.jpg
    :width: 250px
-   :figwidth: 250px
 
    The Inverse Kinematics panel.
 

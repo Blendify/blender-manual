@@ -48,7 +48,6 @@ Let's make a simple example:
 
 .. figure:: /images/Manual-Part-II-curvesDeform_exampleEditCurve.jpg
    :width: 300px
-   :figwidth: 300px
 
    Edit Curve.
 
@@ -66,7 +65,6 @@ Let's make a simple example:
 
 .. figure:: /images/Manual-Part-II-curvesDeform_exampleMonkeyOnCurve1.jpg
    :width: 200px
-   :figwidth: 200px
 
    Monkey on a Curve.
 
@@ -81,7 +79,6 @@ Let's make a simple example:
 
 .. figure:: /images/2.5_Manual-Part-II-curvesDeform_exampleMonkeyOnCurve2.jpg
    :width: 250px
-   :figwidth: 250px
 
    Monkey deformations.
 

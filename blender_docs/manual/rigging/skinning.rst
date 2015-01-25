@@ -15,7 +15,6 @@ it should transform and/or deform is called the "skinning" process...
 
 .. figure:: /images/Manual-Part-I-Quick62.jpg
    :width: 600px
-   :figwidth: 600px
 
    The ginebread mesh skinned on its armature.
 

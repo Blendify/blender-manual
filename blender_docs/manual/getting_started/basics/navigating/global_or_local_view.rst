@@ -35,7 +35,6 @@ up because only the objects you selected will be visible.
 
 .. figure:: /images/Manual-3Dinteraction-Navigating-Global-Local-global-local.jpg
    :width: 600px
-   :figwidth: 600px
 
    Global and Local view
 

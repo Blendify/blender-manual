@@ -35,13 +35,11 @@ All commands described below can be found in *Object* menu and/or in *Object too
 
    * - .. figure:: /images/Manual-2.6-Panel-ObjectTools.jpg
           :width: 50px
-          :figwidth: 50px
 
           Object tools panel
 
      - .. figure:: /images/Manual-2.6-Menu-Object.jpg
           :width: 75px
-          :figwidth: 75px
 
           Object menu
 

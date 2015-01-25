@@ -20,7 +20,6 @@ Blender comes with a number of "primitive" mesh shapes that you can start modeli
 
 .. figure:: /images/Mesh-primitives.jpg
    :width: 610px
-   :figwidth: 610px
 
    Blender's ten standard primitives
 
@@ -241,7 +240,6 @@ Add-ons
 
 .. figure:: /images/25-Manual-Mesh-Structures-script-primitives.jpg
    :width: 600px
-   :figwidth: 600px
 
    A few of the mesh primitives available as add-ons.
 

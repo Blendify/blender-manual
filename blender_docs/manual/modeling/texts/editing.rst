@@ -57,7 +57,6 @@ the frame's *Width* must be greater than **0.0**.
 
 .. figure:: /images/2.5_Manual-Part-II-Text-Frame-Default-Ex.jpg
    :width: 250px
-   :figwidth: 250px
 
    Frame width.
 
@@ -85,7 +84,6 @@ Example: Text Flow
 
 .. figure:: /images/2.5_Manual-Part-II-Text-Frame-Working-Ex2.jpg
    :width: 300px
-   :figwidth: 300px
 
    wrapping
 
@@ -105,7 +103,6 @@ which just happens to be the default/initial frame.
 
 .. figure:: /images/2.5_Manual-Part-II-Text-Frame-Working-Ex4.jpg
    :width: 300px
-   :figwidth: 300px
 
    text flowing from box 1 to box 2
 
@@ -118,7 +115,6 @@ Example: Multiple columns
 
 .. figure:: /images/2.5_Manual-Part-II-Text-Frame-Working-Ex5.jpg
    :width: 400px
-   :figwidth: 400px
 
    Text 5.
 
@@ -148,7 +144,6 @@ on the *Assign* button in the Materials panel.
 
 .. figure:: /images/2.5_Manual-Part-II-Text-MaterialIndex-Ex.jpg
    :width: 300px
-   :figwidth: 300px
 
    Red Green Blue.
 

@@ -21,7 +21,6 @@ each with its own unique strengths and limitations. Here are the available lamps
 
 .. figure:: /images/25-Manual-Lighting-Lamps-Visual.jpg
    :width: 300px
-   :figwidth: 300px
 
    Visual height and shadow markers of two points lamps. Ray Shadow is enabled on the left lamp.
 

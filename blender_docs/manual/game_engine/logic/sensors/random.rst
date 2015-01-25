@@ -5,7 +5,6 @@ Random sensor
 
 .. figure:: /images/BGE_Sensor_Random.jpg
    :width: 300px
-   :figwidth: 300px
 
    Random sensor
 

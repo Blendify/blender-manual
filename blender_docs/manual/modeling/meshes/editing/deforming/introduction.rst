@@ -20,21 +20,18 @@ even though this has no real interest (except perhaps with a "plane locking"...)
 
 .. figure:: /images/ShrinkFlatten1.jpg
    :width: 200px
-   :figwidth: 200px
 
    mesh before push/pull
 
 
 .. figure:: /images/PushPull1.jpg
    :width: 200px
-   :figwidth: 200px
 
    Pulled out using a negative value
 
 
 .. figure:: /images/PushPull2.jpg
    :width: 200px
-   :figwidth: 200px
 
    Pushed in using a positive value
 
@@ -78,21 +75,18 @@ A cylinder is warped into a semicircular shape
 
 .. figure:: /images/WarpTool1.jpg
    :width: 220px
-   :figwidth: 220px
 
    Cylinder before being warped.
 
 
 .. figure:: /images/WarpTool2.jpg
    :width: 220px
-   :figwidth: 220px
 
    Cylinder warped, using a small angle.
 
 
 .. figure:: /images/WarpTool3.jpg
    :width: 220px
-   :figwidth: 220px
 
    Warp using larger angle.
 
@@ -127,21 +121,18 @@ press the :kbd:`LMB`.
 
 .. figure:: /images/Shear1.jpg
    :width: 200px
-   :figwidth: 200px
 
    before shearing
 
 
 .. figure:: /images/Shear2.jpg
    :width: 200px
-   :figwidth: 200px
 
    Horizonatl shearing
 
 
 .. figure:: /images/Shear3.jpg
    :width: 200px
-   :figwidth: 200px
 
    Vertical shearing
 
@@ -190,14 +181,12 @@ First, start with a :doc:`Cube </modeling/meshes/primitives#cube>`.
 
 .. figure:: /images/ToSphereBefore.jpg
    :width: 300px
-   :figwidth: 300px
 
    Subdivided cube, before
 
 
 .. figure:: /images/ToSphereAfter.jpg
    :width: 300px
-   :figwidth: 300px
 
    Subdivided cube, after warp
 

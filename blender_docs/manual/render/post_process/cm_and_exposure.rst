@@ -8,7 +8,6 @@ Color Management
 
 .. figure:: /images/Blender2.64_color_management.jpg
    :width: 250px
-   :figwidth: 250px
    :align: right
 
    Different views and exposures of the same render

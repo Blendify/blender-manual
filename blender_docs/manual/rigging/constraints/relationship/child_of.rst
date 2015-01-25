@@ -33,7 +33,6 @@ Options
 
 .. figure:: /images/25-Manual-Constraints-Relationship-ChildOf.jpg
    :width: 307px
-   :figwidth: 307px
 
    Child Of panel
 

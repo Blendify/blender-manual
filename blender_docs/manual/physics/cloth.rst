@@ -10,19 +10,16 @@ Cloth Simulation
 
    * - .. figure:: /images/Cloth-example1.jpg
           :width: 150px
-          :figwidth: 150px
 
           Cloth example.
 
      - .. figure:: /images/Cloth-oncarvedwood.jpg
           :width: 150px
-          :figwidth: 150px
 
           Cloth on carved wooden men (made by motorsep).
 
      - .. figure:: /images/Cloth-example2.jpg
           :width: 150px
-          :figwidth: 150px
 
           Cloth example.
 
@@ -149,7 +146,6 @@ Pinning
 
 .. figure:: /images/Clothscreeny2.jpg
    :width: 200px
-   :figwidth: 200px
 
    Cloth in action.
 
@@ -208,7 +204,6 @@ Collision Settings
 
 .. figure:: /images/Cloth_collisionpanel.jpg
    :width: 200px
-   :figwidth: 200px
 
    Cloth Collisions panel.
 
@@ -291,7 +286,6 @@ Cloth - Object collisions
 
 .. figure:: /images/Manual-Panel-Collision.jpg
    :width: 200px
-   :figwidth: 200px
 
    Collision settings.
 
@@ -321,7 +315,6 @@ Mesh Object Modifier Stack
 
 .. figure:: /images/Manual-Simulation-Cloth-ColliderStack.jpg
    :width: 200px
-   :figwidth: 200px
 
    Collision stack.
 
@@ -346,7 +339,6 @@ Bake Collision
 
 .. figure:: /images/Manual-Simulation-Cloth-CollisionBake.jpg
    :width: 200px
-   :figwidth: 200px
 
    After Baking.
 
@@ -492,7 +484,6 @@ Using Cloth for Softbodies
 
 .. figure:: /images/Cloth-Sb1.jpg
    :width: 200px
-   :figwidth: 200px
 
    Using cloth for softbodies.
 
@@ -511,7 +502,6 @@ Cloth with Wind
 
 .. figure:: /images/Cloth-flag2.jpg
    :width: 200px
-   :figwidth: 200px
 
    Flag with wind applied.
 

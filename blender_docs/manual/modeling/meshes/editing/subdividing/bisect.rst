@@ -25,14 +25,12 @@ This means the bisect tool can cut off parts of a mesh without creating any hole
 
 .. figure:: /images/Mesh_bisect.jpg
    :width: 300px
-   :figwidth: 300px
 
    Example of a common use of bisect
 
 
 .. figure:: /images/Mesh_bisect_uv.jpg
    :width: 300px
-   :figwidth: 300px
 
    Example of bisect with fill option
 

@@ -13,7 +13,6 @@ Special Options:
 
 .. figure:: /images/BGE_Actuator_Random_Bool_Constant.jpg
    :width: 271px
-   :figwidth: 271px
 
    Camera Actuator
 
@@ -29,7 +28,6 @@ which is useful for test purposes.
 
 .. figure:: /images/BGE_Actuator_Random_Float_Neg_Exp.jpg
    :width: 271px
-   :figwidth: 271px
 
    Float Neg. Exp.
 
@@ -45,7 +43,6 @@ Float Neg. Exp.
 
 .. figure:: /images/BGE_Actuator_Random_Float_Normal.jpg
    :width: 271px
-   :figwidth: 271px
 
    Float Normal
 
@@ -63,7 +60,6 @@ Float normal
 
 .. figure:: /images/BGE_Actuator_Random_Float_Uniform.jpg
    :width: 271px
-   :figwidth: 271px
 
    Float Uniform
 
@@ -81,7 +77,6 @@ Float uniform
 
 .. figure:: /images/BGE_Actuator_Random_Float_Constant.jpg
    :width: 271px
-   :figwidth: 271px
 
    Float Constant
 
@@ -97,7 +92,6 @@ Float constant
 
 .. figure:: /images/BGE_Actuator_Random_Int_Poisson.jpg
    :width: 271px
-   :figwidth: 271px
 
    Random Integer Poisson
 
@@ -113,7 +107,6 @@ Int Poisson
 
 .. figure:: /images/BGE_Actuator_Random_Int_Uniform.jpg
    :width: 271px
-   :figwidth: 271px
 
    Random Integer Uniform
 
@@ -131,7 +124,6 @@ Int uniform
 
 .. figure:: /images/BGE_Actuator_Random_Int_Constant.jpg
    :width: 271px
-   :figwidth: 271px
 
    Random Integer Constant
 
@@ -147,7 +139,6 @@ Int constant
 
 .. figure:: /images/BGE_Actuator_Random_Bool_Bernoulli.jpg
    :width: 271px
-   :figwidth: 271px
 
    Random Bool Bernoulli
 
@@ -163,7 +154,6 @@ Bool Bernoulli
 
 .. figure:: /images/BGE_Actuator_Random_Bool_Uniform.jpg
    :width: 271px
-   :figwidth: 271px
 
    Random Bool Uniform
 
@@ -177,7 +167,6 @@ Bool uniform
 
 .. figure:: /images/BGE_Actuator_Random_Bool_Constant.jpg
    :width: 271px
-   :figwidth: 271px
 
    Random Bool Constant
 

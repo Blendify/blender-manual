@@ -115,25 +115,21 @@ for examples of the different modes.
 
    * - .. figure:: /images/Manual-Part-II-EditModeVerticeModeExample_2.5.jpg
           :width: 300px
-          :figwidth: 300px
 
           none Vertices mode example.
 
      - .. figure:: /images/Manual-Part-II-EditModeEdgeModeExample_2.5.jpg
           :width: 300px
-          :figwidth: 300px
 
           Edges mode example.
 
    * - .. figure:: /images/Manual-Part-II-EditModeFaceModeExample_2.5.jpg
           :width: 300px
-          :figwidth: 300px
 
           Faces mode example.
 
      - .. figure:: /images/Manual-Part-II-EditModeMixedModeExample_2.5.jpg
           :width: 300px
-          :figwidth: 300px
 
           Mixed mode example.
 

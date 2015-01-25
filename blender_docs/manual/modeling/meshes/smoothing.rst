@@ -13,15 +13,12 @@ Mesh Shading
 
    * - .. figure:: /images/25-manual-meshsmooth-example-2rrflat.jpg
           :width: 200px
-          :figwidth: 200px
 
      - .. figure:: /images/25-manual-meshsmooth-example-05edgesplit.jpg
           :width: 200px
-          :figwidth: 200px
 
      - .. figure:: /images/25-manual-meshsmooth-example-10edgeloops.jpg
           :width: 200px
-          :figwidth: 200px
 
 
 As seen in the previous sections, polygons are central to Blender. Most objects are
@@ -54,11 +51,9 @@ Smooth shading
 
    * - .. figure:: /images/25-manual-meshsmooth-shading.jpg
           :width: 80px
-          :figwidth: 80px
 
      - .. figure:: /images/25-manual-meshsmooth-example-03rrsmooth.jpg
           :width: 220px
-          :figwidth: 220px
 
 
 The easiest way is to set an entire object as smooth or faceted by selecting a mesh object,
@@ -104,10 +99,8 @@ Auto Smooth
 
    * - .. figure:: /images/25-manual-meshsmooth-example-04rrautosmooth.jpg
           :width: 180px
-          :figwidth: 180px
      - .. figure:: /images/25-manual-meshsmooth-autosmooth.jpg
           :width: 180px
-          :figwidth: 180px
 
 
 It can be difficult to create certain combinations of smooth and solid faces using the above
@@ -139,19 +132,16 @@ based on angle—those marked as sharp.
 
    * - .. figure:: /images/25-manual-meshsmooth-example-05edgesplit.jpg
           :width: 200px
-          :figwidth: 200px
 
           Edge Split modifier enabled, based on angle
 
      - .. figure:: /images/25-manual-meshsmooth-example-07marksharp.jpg
           :width: 200px
-          :figwidth: 200px
 
           Edges marked as sharp
 
      - .. figure:: /images/25-manual-meshsmooth-example-06marksharp.jpg
           :width: 200px
-          :figwidth: 200px
 
           Resulting render with sharp edge weighting
 
@@ -207,28 +197,24 @@ you can smooth the mesh non-destructively with one or several of the following m
 
 .. figure:: /images/25-manual-meshsmooth-example-08subsurf.jpg
    :width: 150px
-   :figwidth: 150px
 
    Subsurf
 
 
 .. figure:: /images/25-manual-meshsmooth-example-09edgecrease.jpg
    :width: 150px
-   :figwidth: 150px
 
    Using creased edges, and resulting subsurf artifacts
 
 
 .. figure:: /images/25-manual-meshsmooth-example-10edgeloops.jpg
    :width: 150px
-   :figwidth: 150px
 
    Extra edge loops added
 
 
 .. figure:: /images/25-manual-meshsmooth-example-11edgeloops.jpg
    :width: 150px
-   :figwidth: 150px
 
    3D view showing creased edges (pink) and added edges loops (yellow)
 

@@ -33,7 +33,6 @@ Vertex Group
 
 .. figure:: /images/Wireframe_Mod_Result.jpg
    :width: 350px
-   :figwidth: 350px
 
    Wireframes on a displaced plane.
    In this example, the wireframes carry a second (dark) material while the displaced plane uses its original one.

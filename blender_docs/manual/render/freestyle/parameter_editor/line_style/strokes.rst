@@ -5,7 +5,6 @@ Stroke
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Stroke_UI.jpg
    :width: 300px
-   :figwidth: 300px
 
    Stroke Line Style
 
@@ -39,7 +38,6 @@ which can be useful for line styles which depend on accurate representation of t
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Chaining_UI.jpg
    :width: 300px
-   :figwidth: 300px
 
    Chaining
 
@@ -58,7 +56,6 @@ Min 2D Angle and Max 2D Angle
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Splitting_UI.jpg
    :width: 300px
-   :figwidth: 300px
 
    Splitting
 
@@ -76,7 +73,6 @@ Selection
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Selection_Length_UI.jpg
    :width: 300px
-   :figwidth: 300px
 
    Selection
 
@@ -98,7 +94,6 @@ Butt
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Caps_UI.jpg
    :width: 300px
-   :figwidth: 300px
 
    Line tip caps
 
@@ -116,7 +111,6 @@ Dashed Line
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Dashes_UI.jpg
    :width: 300px
-   :figwidth: 300px
 
    Dashes Line UI
 

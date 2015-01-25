@@ -48,7 +48,6 @@ Options
 
 .. figure:: /images/25-Manual-Constraints-Tracking-ClampTo.jpg
    :width: 306px
-   :figwidth: 306px
 
    Clamp To panel
 

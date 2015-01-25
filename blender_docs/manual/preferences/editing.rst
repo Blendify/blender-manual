@@ -8,7 +8,6 @@ These preferences control how several tools will interact with your input.
 
 .. figure:: /images/Manual-Interface-Configuration-Editing-EditingUserPreferences.jpg
    :width: 640px
-   :figwidth: 640px
 
 
 Link Materials To

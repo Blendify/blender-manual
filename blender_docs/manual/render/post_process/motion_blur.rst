@@ -91,20 +91,17 @@ The scale beneath the cube helps in appreciating the movement of 1 Blender unit.
 
    * - .. figure:: /images/Manual-Part-XI-MBlur02.jpg
           :width: 320px
-          :figwidth: 320px
 
           Image 1. Frame 1 of moving cube without Motion Blur.
 
      - .. figure:: /images/Manual-Part-XI-MBlur03.jpg
           :width: 320px
-          :figwidth: 320px
 
           Image 2. Frame 2 of moving cube without Motion Blur.
 
 
 .. figure:: /images/Manual-Part-XI-MBlur04.jpg
    :width: 320px
-   :figwidth: 320px
 
 
 *Image 3* on the other hand shows the rendering of frame 1 when Motion Blur is set and 8 'intermediate' frames are
@@ -120,11 +117,9 @@ A value greater than 1 implies a very 'slow' camera shutter.
 
    * - .. figure:: /images/Manual-Part-XI-MBlur05.jpg
           :width: 320px
-          :figwidth: 320px
 
      - .. figure:: /images/Manual-Part-XI-MBlur06.jpg
           :width: 320px
-          :figwidth: 320px
 
 
 Better results than those shown can be obtained by setting 11 or 16 samples rather than 8,

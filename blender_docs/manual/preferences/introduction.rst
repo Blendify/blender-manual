@@ -24,7 +24,6 @@ You can also load the Preferences editor in any window by selecting (|user-prefe
 
 .. figure:: /images/User-preferences.jpg
    :width: 650px
-   :figwidth: 650px
 
 
 Configure

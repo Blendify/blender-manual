@@ -5,7 +5,6 @@ Mirror Modifier
 
 .. figure:: /images/25-Manual-Modifiers-Mirror-example-Cube.jpg
    :width: 350px
-   :figwidth: 350px
 
    The corner of a cube mirrored across three axes to form... well... a cube.
 
@@ -101,7 +100,6 @@ the order in which the modifiers are placed is important.
 
 .. figure:: /images/25-Manual-Modifiers-Mirror-Subsurf2.jpg
    :width: 300px
-   :figwidth: 300px
 
    Subsurf modifier before Mirror modifier
 
@@ -114,7 +112,6 @@ This is because the subsurf calculation moves vertices away from the mirror plan
 
 .. figure:: /images/25-Manual-Modifiers-Mirror-Subsurf1.jpg
    :width: 300px
-   :figwidth: 300px
 
    Mirror modifier before Subsurf modifier
 

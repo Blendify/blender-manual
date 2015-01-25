@@ -163,14 +163,12 @@ Layering UV Textures
 
 .. figure:: /images/Manual-UV-Layer_One.jpg
    :width: 300px
-   :figwidth: 300px
 
    Base UV Texture
 
 
 .. figure:: /images/Manual-UV-Layer-Two.jpg
    :width: 300px
-   :figwidth: 300px
 
    Layered UV Texture
 
@@ -256,7 +254,6 @@ The vertex colors are used to modulate the brightness or color of the UV image t
 
 .. figure:: /images/Manual-Part-IV-uv04.jpg
    :width: 550px
-   :figwidth: 550px
 
    Vertex colors modulate texture.
 
@@ -275,7 +272,6 @@ Using Alpha Transparency
 
 .. figure:: /images/Manual-UV-Alpha.jpg
    :width: 200px
-   :figwidth: 200px
 
    Alpha UV Textures
 
@@ -405,7 +401,6 @@ Image
 
 .. figure:: /images/25-Manual-Textures-Image-panel.jpg
    :width: 306px
-   :figwidth: 306px
 
    Image panel
 
@@ -494,7 +489,6 @@ Fields
 
 .. figure:: /images/26-Manual-Textures-Image-panel-Generated.jpg
    :width: 306px
-   :figwidth: 306px
 
    Image panel for Generated source of Image texture
 
@@ -531,10 +525,8 @@ In the *Image Sampling* panel we can control how the information is retrieved fr
 
    * - .. figure:: /images/Manual-PartIV-Bahnhofstrasse.jpg
           :width: 120px
-          :figwidth: 120px
      - .. figure:: /images/Manual-PartIV-Map_To_Eingabewerte.jpg
           :width: 100px
-          :figwidth: 100px
    * - Background image
      - Foreground image
 
@@ -550,10 +542,8 @@ the horizontal bar has 50% alpha.
 
    * - .. figure:: /images/Manual-PartIV-UseAlpha.jpg
           :width: 150px
-          :figwidth: 150px
      - .. figure:: /images/Manual-PartIV-CalcAlpha.jpg
           :width: 150px
-          :figwidth: 150px
    * - Foreground image with *Use* alpha. The alpha values of the pixels are evaluated
      - Foreground image with *Calculate* alpha
 
@@ -581,7 +571,6 @@ Flip X/Y Axis
 
 .. figure:: /images/25-Manual-Textures-ImageSampling-panel.jpg
    :width: 306px
-   :figwidth: 306px
 
    Image Sampling panel
 
@@ -623,10 +612,8 @@ MIP Map
 
    * - .. figure:: /images/Manual-PartIV-ImageTextur-Linien.jpg
           :width: 160px
-          :figwidth: 160px
      - .. figure:: /images/Manual-PartIV_ImageTexturInterPol-Linien.jpg
           :width: 160px
-          :figwidth: 160px
 
 
 Interpolation
@@ -691,7 +678,6 @@ Image Mapping
 
 .. figure:: /images/25-Manual-Textures-ImageMapping-panel.jpg
    :width: 306px
-   :figwidth: 306px
 
    Image Mapping panel
 

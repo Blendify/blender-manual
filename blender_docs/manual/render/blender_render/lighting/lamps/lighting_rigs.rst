@@ -27,7 +27,6 @@ Environment or Ambient Only
 
 .. figure:: /images/27x-Manual-Lighting-Rigs-EL.jpg
    :width: 300px
-   :figwidth: 300px
 
    Environment (Ambient) lighting only.
 
@@ -40,7 +39,6 @@ and traveling to camera.
 
 .. figure:: /images/27x-Manual-Lighting-Rigs-AO.jpg
    :width: 256px
-   :figwidth: 256px
 
    Ambient occlusion.
 
@@ -55,7 +53,6 @@ Single Rig
 
 .. figure:: /images/27x-Manual-Lighting-Rigs-01.jpg
    :width: 300px
-   :figwidth: 300px
 
    Standard Spot light rig.
 
@@ -96,7 +93,6 @@ Two-Point Rig
 
 .. figure:: /images/27x-Manual-Lighting-Rigs-02.jpg
    :width: 300px
-   :figwidth: 300px
 
    Standard two-point light rig.
 
@@ -147,7 +143,6 @@ Studio rig
 
 .. figure:: /images/27x-Manual-Lighting-Rigs-03a-Studio.jpg
    :width: 300px
-   :figwidth: 300px
 
    Studio three-point light rig.
 
@@ -185,7 +180,6 @@ Standard Rig
 
 .. figure:: /images/27x-Manual-Lighting-Rigs-03b-Standart.jpg
    :width: 300px
-   :figwidth: 300px
 
    Standard three-point light rig.
 
@@ -219,7 +213,6 @@ Four-point Rig
 
 .. figure:: /images/27x-Manual-Lighting-Rigs-04.jpg
    :width: 300px
-   :figwidth: 300px
 
    Four-point light rig.
 

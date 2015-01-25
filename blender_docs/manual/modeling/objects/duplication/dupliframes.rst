@@ -12,7 +12,6 @@ Examples
 
 .. figure:: /images/25-Manual-Modeling-Dupliframes-example01.jpg
    :width: 300px
-   :figwidth: 300px
 
    Settings for the curve
 
@@ -24,7 +23,6 @@ and set *Frames* to something more reasonable than 100 (say 16).
 
 .. figure:: /images/25-Manual-Modeling-Dupliframes-example02.jpg
    :width: 300px
-   :figwidth: 300px
 
    Settings for the object
 
@@ -41,7 +39,6 @@ Add a *Monkey*. In the *Object* menu under *Duplication* enable
 
 .. figure:: /images/25-Manual-Modeling-Dupliframes-example03.jpg
    :width: 300px
-   :figwidth: 300px
 
    Parenting
 
@@ -53,7 +50,6 @@ Select the monkey and :kbd:`Alt-O` to reset its origin.
 
 .. figure:: /images/25-Manual-Modeling-Dupliframes-example04.jpg
    :width: 300px
-   :figwidth: 300px
 
    Orientation tweaks
 

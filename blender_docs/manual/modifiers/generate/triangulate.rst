@@ -10,13 +10,11 @@ This modifier does the exact same function as the triangulate function (:kbd:`Ct
 
    * - .. figure:: /images/Triangulate-before.jpg
           :width: 300px
-          :figwidth: 300px
 
           Mesh before Triangulate Modifier
 
      - .. figure:: /images/Triangulate-after.jpg
           :width: 300px
-          :figwidth: 300px
 
           Mesh after Triangulate Modifier
 

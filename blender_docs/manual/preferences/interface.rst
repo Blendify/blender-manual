@@ -8,7 +8,6 @@ Interface configuration lets you change how UI elements are displayed and how th
 
 .. figure:: /images/User-preferences-interface.jpg
    :width: 650px
-   :figwidth: 650px
 
 
 Display

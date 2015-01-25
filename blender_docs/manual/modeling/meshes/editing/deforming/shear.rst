@@ -15,7 +15,6 @@ Description
 
 .. figure:: /images/3D_interaction-Transformations-Advanced-Shear_toolshelf-f6.jpg
    :width: 150px
-   :figwidth: 150px
 
    Shear Offset Factor.
 
@@ -54,7 +53,6 @@ See below for the result of using *Shear* on a number of different elements.
 
 .. figure:: /images/3D_interaction-Transformations-Advanced-Shear_mesh.jpg
    :width: 640px
-   :figwidth: 640px
 
    The effects of a Shear transform with different Pivot Points. See the text below for additional information.
 
@@ -78,7 +76,6 @@ horizontal axis.
 
 .. figure:: /images/3D_interaction-Transformations-Advanced-Shear_objects.jpg
    :width: 640px
-   :figwidth: 640px
 
    The effects of a Shear transform on Objects with different Pivot Points.
    See the text below for additional information.

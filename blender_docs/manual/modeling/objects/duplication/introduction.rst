@@ -35,7 +35,6 @@ Examples
 
 .. figure:: /images/Manual-2.5-Modeling-Duplicate-Example.jpg
    :width: 620px
-   :figwidth: 620px
 
    The mesh ``Cone.006`` of object ``Cone.002`` is being edited.
    The mesh's Unique datablock ID name is highlighted in the Outliner.
@@ -82,7 +81,6 @@ Examples
 
 .. figure:: /images/Manual-2.5-Modelling-Duplicate-Linked-Example.jpg
    :width: 620px
-   :figwidth: 620px
 
    The object ``Cone.001`` was linked duplicated.
    Though both these cones are separate objects with unique names,

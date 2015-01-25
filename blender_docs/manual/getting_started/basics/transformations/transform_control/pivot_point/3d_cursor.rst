@@ -23,7 +23,6 @@ and 90 degrees around the 3D cursor (third panel).
 
 .. figure:: /images/3D_interaction_Transform-Control_Pivot-Point_3D-cursor_median-cursor-example.jpg
    :width: 640px
-   :figwidth: 640px
 
    Rotation around the 3D cursor compared to the median point.
 
@@ -39,7 +38,6 @@ Direct placement with the mouse
 
 .. figure:: /images/3D_interaction_Transform-Control_Pivot-Point_3D-cursor_two-view-positioning.jpg
    :width: 300px
-   :figwidth: 300px
 
    Positioning the 3D cursor with two orthogonal views.
 
@@ -92,7 +90,6 @@ Numeric input
 
 .. figure:: /images/3D_interaction_Transform-Control_Pivot-Point_3D-cursor_view-properties.jpg
    :width: 285px
-   :figwidth: 285px
 
    The 3D Cursor panel of the Properties shelf.
 

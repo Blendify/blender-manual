@@ -11,7 +11,6 @@ Sun: Sky & Atmosphere
 
 .. figure:: /images/25-Manual-Lighting-Lamps-Sun-SkyAtmoPanel.jpg
    :width: 304px
-   :figwidth: 304px
 
    Sky & Atmosphere panel
 
@@ -43,7 +42,6 @@ And the rotation around the Z axis determines the position of the sun around the
 
 .. figure:: /images/Manual-Lighting-Lamps-Sun-PositionForSkyAtmosphere.jpg
    :width: 610px
-   :figwidth: 610px
 
    The dashed "light line" of the Sun lamp crossing the camera focal point.
 
@@ -168,25 +166,21 @@ First, let's see what happens when we modify the orientation of the sun:
 
    * - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-MidDay.jpg
           :width: 200px
-          :figwidth: 200px
 
           With sun right overhead (mid-day).
 
      - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-MidNight.jpg
           :width: 200px
-          :figwidth: 200px
 
           With sun deep "under the Earth" (midnight).
 
    * - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-EarlyTwilight.jpg
           :width: 200px
-          :figwidth: 200px
 
           Sun slightly above the horizon (start of twilight).
 
      - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-LateTwilight.jpg
           :width: 200px
-          :figwidth: 200px
 
           Sun slightly below the horizon (end of twilight).
 
@@ -203,25 +197,21 @@ And now, the effects of various settings (examples created with
 
    * - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Turbidity2.0.jpg
           :width: 200px
-          :figwidth: 200px
 
           Turbidity: 2.0.
 
      - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Turbidity2.3.jpg
           :width: 200px
-          :figwidth: 200px
 
           Turbidity: 2.3.
 
    * - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Turbidity5.0.jpg
           :width: 200px
-          :figwidth: 200px
 
           Turbidity: 5.0.
 
      - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Turbidity10.0.jpg
           :width: 200px
-          :figwidth: 200px
 
           Turbidity: 10.0.
 
@@ -235,25 +225,21 @@ Sky
 
    * - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-HorBright0.0.jpg
           :width: 200px
-          :figwidth: 200px
 
           Horizon Brightness: 0.0.
 
      - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-HorBright0.85.jpg
           :width: 200px
-          :figwidth: 200px
 
           Horizon Brightness: 0.85.
 
    * - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-HorBright1.04.jpg
           :width: 200px
-          :figwidth: 200px
 
           Horizon Brightness: 1.04.
 
      - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-HorBright1.13.jpg
           :width: 200px
-          :figwidth: 200px
 
           Horizon Brightness: 1.13.
 
@@ -263,25 +249,21 @@ Sky
 
    * - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-HorSpread0.7.jpg
           :width: 200px
-          :figwidth: 200px
 
           Horizon Spread: 0.7.
 
      - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-HorSpread1.2.jpg
           :width: 200px
-          :figwidth: 200px
 
           Horizon Spread: 1.2.
 
    * - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-HorSpread2.2.jpg
           :width: 200px
-          :figwidth: 200px
 
           Horizon Spread: 2.2.
 
      - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-HorSpread5.0.jpg
           :width: 200px
-          :figwidth: 200px
 
           Horizon Spread: 5.0.
 
@@ -291,25 +273,21 @@ Sky
 
    * - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-SunBright0.2.jpg
           :width: 200px
-          :figwidth: 200px
 
           Sun Brightness: 0.2.
 
      - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-SunBright0.5.jpg
           :width: 200px
-          :figwidth: 200px
 
           Sun Brightness: 0.5.
 
    * - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-SunBright0.75.jpg
           :width: 200px
-          :figwidth: 200px
 
           Sun Brightness: 0.75.
 
      - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-SunBright1.0.jpg
           :width: 200px
-          :figwidth: 200px
 
           Sun Brightness: 1.0.
 
@@ -319,25 +297,21 @@ Sky
 
    * - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-SunSize2.0.jpg
           :width: 200px
-          :figwidth: 200px
 
           Sun Size: 2.0.
 
      - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-SunSize4.0.jpg
           :width: 200px
-          :figwidth: 200px
 
           Sun Size: 4.0.
 
    * - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-SunSize7.0.jpg
           :width: 200px
-          :figwidth: 200px
 
           Sun Size: 7.0.
 
      - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-SunSize10.0.jpg
           :width: 200px
-          :figwidth: 200px
 
           Sun Size: 10.0.
 
@@ -347,25 +321,21 @@ Sky
 
    * - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-BackLight-1.0.jpg
           :width: 200px
-          :figwidth: 200px
 
           Back Light: -1.0.
 
      - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-BackLight-0.33.jpg
           :width: 200px
-          :figwidth: 200px
 
           Back Light: -0.33.
 
    * - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-BackLight0.33.jpg
           :width: 200px
-          :figwidth: 200px
 
           Back Light: 0.33.
 
      - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-BackLight1.0.jpg
           :width: 200px
-          :figwidth: 200px
 
           Back Light: 1.0.
 
@@ -382,25 +352,21 @@ and *Sun Bright* to ``2.0``.
 
    * - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-SunIntensity1.0.jpg
           :width: 200px
-          :figwidth: 200px
 
           Sun Intensity: 1.0.
 
      - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-SunIntensity3.33.jpg
           :width: 200px
-          :figwidth: 200px
 
           Sun Intensity: 3.33.
 
    * - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-SunIntensity6.66.jpg
           :width: 200px
-          :figwidth: 200px
 
           Sun Intensity: 6.66.
 
      - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-SunIntensity10.0.jpg
           :width: 200px
-          :figwidth: 200px
 
           Sun Intensity: 10.0.
 
@@ -410,25 +376,21 @@ and *Sun Bright* to ``2.0``.
 
    * - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-Inscattering0.1.jpg
           :width: 200px
-          :figwidth: 200px
 
           Inscattering: 0.1.
 
      - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-Inscattering0.33.jpg
           :width: 200px
-          :figwidth: 200px
 
           Inscattering: 0.33.
 
    * - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-Inscattering0.66.jpg
           :width: 200px
-          :figwidth: 200px
 
           Inscattering: 0.66.
 
      - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-Inscattering1.0.jpg
           :width: 200px
-          :figwidth: 200px
 
           Inscattering: 1.0.
 
@@ -438,25 +400,21 @@ and *Sun Bright* to ``2.0``.
 
    * - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-Extinction0.0.jpg
           :width: 200px
-          :figwidth: 200px
 
           Extinction: 0.0.
 
      - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-Extinction0.33.jpg
           :width: 200px
-          :figwidth: 200px
 
           Extinction: 0.33.
 
    * - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-Extinction0.66.jpg
           :width: 200px
-          :figwidth: 200px
 
           Extinction: 0.66.
 
      - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-Extinction1.0.jpg
           :width: 200px
-          :figwidth: 200px
 
           Extinction: 1.0.
 
@@ -466,25 +424,21 @@ and *Sun Bright* to ``2.0``.
 
    * - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-Distance1.0.jpg
           :width: 200px
-          :figwidth: 200px
 
           Distance: 1.0.
 
      - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-Distance2.0.jpg
           :width: 200px
-          :figwidth: 200px
 
           Distance: 2.0.
 
    * - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-Distance3.0.jpg
           :width: 200px
-          :figwidth: 200px
 
           Distance: 3.0.
 
      - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-Sky-Distance4.0.jpg
           :width: 200px
-          :figwidth: 200px
 
           Distance: 4.0.
 

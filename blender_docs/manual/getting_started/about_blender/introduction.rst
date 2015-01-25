@@ -6,7 +6,6 @@ Introduction
 .. figure:: /images/introduction_intro_bigbuckbunny.jpg
    :align: right
    :width: 300px
-   :figwidth: 300px
 
    Blender 2.5 with a Big Buck Bunny scene open
 

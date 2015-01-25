@@ -210,7 +210,6 @@ adding and deleting custom orientations.
 
 .. figure:: /images/Orientations-Custom-Name.jpg
    :width: 300px
-   :figwidth: 300px
 
    Renaming a Custom Orientation
 

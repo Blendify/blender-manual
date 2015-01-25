@@ -16,14 +16,12 @@ The animation can them to recorded with :kbd:`Alt-A`
 
 .. figure:: /images/blocks.jpg
    :width: 640px
-   :figwidth: 640px
 
    Some Blocks about to fall
 
 
 .. figure:: /images/blocks2.jpg
    :width: 640px
-   :figwidth: 640px
 
    A Pile
 

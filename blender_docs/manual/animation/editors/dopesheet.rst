@@ -8,7 +8,6 @@ The Dopesheet
 
 .. figure:: /images/Manual-dopesheet-overview.jpg
    :width: 400px
-   :figwidth: 400px
 
    The DopeSheet
 
@@ -59,7 +58,6 @@ one, it is divided in three areas:
 
 .. figure:: /images/Doc26-actionEditor.jpg
    :width: 600px
-   :figwidth: 600px
 
    The Action Editor window, Action Editor mode, with an Object and Shape channels.
 

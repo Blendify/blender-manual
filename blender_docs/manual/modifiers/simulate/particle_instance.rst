@@ -14,7 +14,6 @@ otherwise the *ParticleInstance* modifier will appear to do nothing.
 
 .. figure:: /images/Manual_-_Modifiers_-_Particle_Instance_Modifier_-_Planes.jpg
    :width: 500px
-   :figwidth: 500px
 
    Particle system on left has no ParticleInstance modified object associated with it.
    The one on the right is associated with cube shown by using a ParticleInstance modifier on the cube.
@@ -25,7 +24,6 @@ Options
 
 .. figure:: /images/Doc26-particleInstanceModifier.jpg
    :width: 250px
-   :figwidth: 250px
 
    Particle Instance Modifier
 
@@ -70,7 +68,6 @@ Particle System
 
 .. figure:: /images/Manual_-_Modifiers_-_Particle_Instance_Modifiers_-_Split_Plane_2.jpg
    :width: 610px
-   :figwidth: 610px
 
    Render showing a single Plain mesh object assigned to two different vertex groups
    and each of those vertex groups is assigned a separate and independent particle system,
@@ -144,7 +141,6 @@ Random
 
 .. figure:: /images/Manual_-_Particle_Instance_Modifier_-_Keyed_Particle_Example_1.jpg
    :width: 500px
-   :figwidth: 500px
 
    Keyed particle following way points (showing one particle).
    `Example Blend file <http://wiki.blender.org/index.php/Media:Manual -
@@ -162,7 +158,6 @@ Random
 
 .. figure:: /images/Manual_-_Particle_Instance_Modifier_-_Keyed_Particle_Example_2.jpg
    :width: 500px
-   :figwidth: 500px
 
    Keyed particle following way points showing a mesh object
    (ParticleInstance modifier) in place of the original particle.
@@ -176,7 +171,6 @@ Random
 
 .. figure:: /images/Manual_-_Particle_Instance_Modifier_-_Keyed_Particle_Example_3.jpg
    :width: 500px
-   :figwidth: 500px
 
    Keyed particle following way points showing a mesh object (ParticleInstance modifier)
    in place of the original particle, that is also being deformed to fit the travel path of the original particle.
@@ -198,26 +192,22 @@ Random
 
       * - .. figure:: /images/Manual_-_Particle_Instance_Modifier_-_Keyed_Particle_Example_4.jpg
              :width: 300px
-             :figwidth: 300px
 
              The cylinder has most of its edge loops so most of the path deform is very regular
              apart from at the very end of the curve.
 
         - .. figure:: /images/Manual_-_Particle_Instance_Modifier_-_Keyed_Particle_Example_5.jpg
              :width: 300px
-             :figwidth: 300px
 
              The cylinder has some of its edge loops removed so the path of the deform starts to become less regular.
 
       * - .. figure:: /images/Manual_-_Particle_Instance_Modifier_-_Keyed_Particle_Example_6.jpg
              :width: 300px
-             :figwidth: 300px
 
              Now the deform path is very rough.
 
         - .. figure:: /images/Manual_-_Particle_Instance_Modifier_-_Keyed_Particle_Example_7.jpg
              :width: 300px
-             :figwidth: 300px
 
              At this point there aren't any vertices to bend the cylinder to follow the path,
              and instead the cylinder just goes directly to the last way point 4.
@@ -236,7 +226,6 @@ Random
 
 .. figure:: /images/Manual_-_Particle_Instance_Modifier_-_Strand_Mesh_Deform.jpg
    :width: 500px
-   :figwidth: 500px
 
    Strand with a ParticleInstance modifier associated with it and deforming the cylinder along the hair profile.
    `Example Blend file <http://wiki.blender.org/index.php/Media:Manual -

@@ -102,7 +102,6 @@ Using the Material Node with Specularity
 
 .. figure:: /images/26-Manual-Material-Node-Specular.jpg
    :width: 250px
-   :figwidth: 250px
 
    Material Node using Specularity
 
@@ -130,7 +129,6 @@ Extended Material Node
 
 .. figure:: /images/26-Manual-Extended-Material-Node.jpg
    :width: 200px
-   :figwidth: 200px
 
    Extended Material node
 
@@ -193,7 +191,6 @@ Lamp Data Node
 
 .. figure:: /images/26-Manual-Lamp-Data-Node.jpg
    :width: 180px
-   :figwidth: 180px
 
    Lamp Data node
 
@@ -263,7 +260,6 @@ is selected and introduced through the value and/or color socket.
 
 .. figure:: /images/26-Manual-Texture-Node-Example.jpg
    :width: 500px
-   :figwidth: 500px
 
    Example of the applying Texture node
 
@@ -341,7 +337,6 @@ Geometry Node Example using a UV image
 
 .. figure:: /images/26-Manual-Geometry-Node-Example.jpg
    :width: 500px
-   :figwidth: 500px
 
    Setup to render an UV-Mapped Image Texture.
 

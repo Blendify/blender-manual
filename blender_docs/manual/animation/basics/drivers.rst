@@ -306,7 +306,6 @@ This example is a Shape Key Driver. The driver was added to the shape key Value.
 
 .. figure:: /images/Doc_Animation_Driver_Shape_Key.jpg
    :width: 400px
-   :figwidth: 400px
 
    Shape Key Driver. Click to enlarge.
 

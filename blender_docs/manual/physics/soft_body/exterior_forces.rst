@@ -113,7 +113,6 @@ The vertex tries to reach it's target position with a certain, adjustable intens
 
 .. figure:: /images/Shockabs.gif
    :width: 300px
-   :figwidth: 300px
 
    Image 2b: Shock absorber description.
 

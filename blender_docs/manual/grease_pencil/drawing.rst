@@ -14,7 +14,6 @@ Drawing With Grease Pencil
 
 .. figure:: /images/ManualSketchingGreasePencil.jpg
    :width: 500px
-   :figwidth: 500px
 
    Grease Pencil Tool Shelf and Properties Panel.
 
@@ -121,7 +120,6 @@ plane passing through the endpoints.
 
 .. figure:: /images/3D-interaction_Sketching_Drawing_grease-pencil-drawing-settings.jpg
    :width: 500px
-   :figwidth: 500px
 
    The effect of different Drawing Settings on Grease Pencil strokes.
 

@@ -27,7 +27,6 @@ Options
 
 .. figure:: /images/Apinzonf_Diagram_Deform_Modifier_Panel_00.jpg
    :width: 369px
-   :figwidth: 369px
 
 
 Repeat
@@ -41,49 +40,41 @@ Repeat
 
       * - .. figure:: /images/Apinzonf_Deform_Cactus_09.jpg
              :width: 130px
-             :figwidth: 130px
 
              Original Model
 
         - .. figure:: /images/Apinzonf_Deform_Cactus_repeat_1.jpg
              :width: 130px
-             :figwidth: 130px
 
              Repeat: 1
 
         - .. figure:: /images/Apinzonf_Deform_Cactus_repeat_2.jpg
              :width: 130px
-             :figwidth: 130px
 
              Repeat: 2
 
         - .. figure:: /images/Apinzonf_Deform_Cactus_repeat_5.jpg
              :width: 130px
-             :figwidth: 130px
 
              Repeat: 5
 
       * - .. figure:: /images/Apinzonf_Deform_Horse_repeat_0.jpg
              :width: 130px
-             :figwidth: 130px
 
              Original Model
 
         - .. figure:: /images/Apinzonf_Deform_Horse_repeat_1.jpg
              :width: 130px
-             :figwidth: 130px
 
              Repeat: 1
 
         - .. figure:: /images/Apinzonf_Deform_Horse_repeat_2.jpg
              :width: 130px
-             :figwidth: 130px
 
              Repeat: 2
 
         - .. figure:: /images/Apinzonf_Deform_Horse_repeat_10.jpg
              :width: 130px
-             :figwidth: 130px
 
              Repeat: 10
 
@@ -136,7 +127,6 @@ of its neighbors to represent the local geometric detail of the mesh.
 
 .. figure:: /images/Apinzonf_Diagram_differential_coordinate.jpg
    :width: 369px
-   :figwidth: 369px
 
    Differential Coordinate
 

@@ -69,25 +69,21 @@ so that the darker parts of the image won't be changed at all
 
    * - .. figure:: /images/Manual-PartVI-DenseTeapot.jpg
           :width: 320px
-          :figwidth: 320px
 
           An overexposed teapot.
 
      - .. figure:: /images/Manual-PartVI-DenseTeapot-Range2.jpg
           :width: 320px
-          :figwidth: 320px
 
           Range: 2.0.
 
    * - .. figure:: /images/Manual-PartVI-DenseTeapot-Range0.5.jpg
           :width: 320px
-          :figwidth: 320px
 
           Range: 0.5.
 
      - .. figure:: /images/Manual-PartVI-DenseTeapot-Range2.0-Exposure0.3.jpg
           :width: 320px
-          :figwidth: 320px
 
           Range: 2.0, Exposure: 0.3.
 

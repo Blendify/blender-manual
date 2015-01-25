@@ -14,7 +14,6 @@ Text Objects
 
 .. figure:: /images/Manual-Part-II-TextSamples.jpg
    :width: 400px
-   :figwidth: 400px
 
    Text Examples.
 
@@ -73,7 +72,6 @@ Editing Text
 
 .. figure:: /images/2.5_Manual-Part-II-Modelling-Text-Create-Ex.jpg
    :width: 300px
-   :figwidth: 300px
 
    Text in Edit mode.
 
@@ -171,7 +169,6 @@ Convert text to text object
 
 .. figure:: /images/ConvertTextToTextObject.jpg
    :width: 250px
-   :figwidth: 250px
 
 
 An easy way to get text into Blender is to type it in :doc:`The Text Editor </extensions/python/text_editor>`.
@@ -199,7 +196,6 @@ They are usually a bit messy, so it may be useful to use a *Limited Dissolve* de
 
 .. figure:: /images/TextObjectFromText.jpg
    :width: 500px
-   :figwidth: 500px
 
    left normal text, right the made text object.
 
@@ -209,7 +205,6 @@ Text Selection
 
 .. figure:: /images/2.5_Manual-Part-II-Modelling-Text-Create-Ex.jpg
    :width: 200px
-   :figwidth: 200px
 
    Text in Edit mode.
 
@@ -294,7 +289,6 @@ Size
 
 .. figure:: /images/TextShear.jpg
    :width: 300px
-   :figwidth: 300px
 
    shear: 'blender' has a shear value of 1,
    '2.59' a shear value of 0
@@ -333,7 +327,6 @@ With the :doc:`curve modifier </modifiers/deform/curve>` you can let text follow
 
 .. figure:: /images/2.5_Manual-Part-II-Text-Curved-LowRes-Ex.jpg
    :width: 200px
-   :figwidth: 200px
 
    Text on curve.
 
@@ -365,7 +358,6 @@ Underline
 
 .. figure:: /images/TextFontSettings.jpg
    :width: 300px
-   :figwidth: 300px
 
    check a character option to, for example, type bold text
 
@@ -375,7 +367,6 @@ Character
 
 .. figure:: /images/2.5_Manual-Part-II-Text-Bold-Ex.jpg
    :width: 300px
-   :figwidth: 300px
 
    Bold text.
 
@@ -421,7 +412,6 @@ The *Paragraph* Panel has settings for the alignment and spacing of text.
 
 .. figure:: /images/TextParagraphSettings.jpg
    :width: 300px
-   :figwidth: 300px
 
    the paragraph tab
 
@@ -495,7 +485,6 @@ Render
 
 .. figure:: /images/TextShapeSettings.jpg
    :width: 300px
-   :figwidth: 300px
 
    the shape settings
 

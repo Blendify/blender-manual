@@ -118,42 +118,36 @@ Examples
 
 .. figure:: /images/Doc26-rip-before.jpg
    :width: 300px
-   :figwidth: 300px
 
    selected vertex
 
 
 .. figure:: /images/Doc26-rip-after.jpg
    :width: 300px
-   :figwidth: 300px
 
    Hole created after using rip on vertex
 
 
 .. figure:: /images/Doc26-rip-edges-before.jpg
    :width: 300px
-   :figwidth: 300px
 
    Edges selected
 
 
 .. figure:: /images/Doc26-rip-edges-after.jpg
    :width: 300px
-   :figwidth: 300px
 
    Result of rip with edge selection
 
 
 .. figure:: /images/Doc26-rip-complexSelection-before.jpg
    :width: 300px
-   :figwidth: 300px
 
    A complex selection of vertices
 
 
 .. figure:: /images/Doc26-rip-complexSelection-after.jpg
    :width: 300px
-   :figwidth: 300px
 
    Result of rip operation
 
@@ -185,14 +179,12 @@ it fills in the gap with geometry.
 
 .. figure:: /images/Doc26-rip-edges-before.jpg
    :width: 300px
-   :figwidth: 300px
 
    Edges selected
 
 
 .. figure:: /images/Doc26-ripFill-result.jpg
    :width: 300px
-   :figwidth: 300px
 
    Result of rip fill
 
@@ -251,21 +243,18 @@ splitting the face into two new faces.
 
 .. figure:: /images/Doc26-vertexConnect-before.jpg
    :width: 200px
-   :figwidth: 200px
 
    Selected vertices before connecting
 
 
 .. figure:: /images/Doc26-vertexConnect-after.jpg
    :width: 200px
-   :figwidth: 200px
 
    After connecting vertices
 
 
 .. figure:: /images/Doc26-vertexConnect-after-faces.jpg
    :width: 200px
-   :figwidth: 200px
 
    Two faces created from vertex connect operation
 
@@ -298,21 +287,18 @@ There are three options available by holding the following keys:
 
 .. figure:: /images/VertexSlide1.jpg
    :width: 200px
-   :figwidth: 200px
 
    Selected vertex
 
 
 .. figure:: /images/VertexSlide2.jpg
    :width: 200px
-   :figwidth: 200px
 
    Positioning vertex interactively
 
 
 .. figure:: /images/VertexSlide3.jpg
    :width: 200px
-   :figwidth: 200px
 
    Repositioned vertex
 

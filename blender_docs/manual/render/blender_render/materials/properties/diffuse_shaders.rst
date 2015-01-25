@@ -66,7 +66,6 @@ Lambert
 
 .. figure:: /images/Manual-2.5-Material-Shader-Lambert.jpg
    :width: 320px
-   :figwidth: 320px
 
    Lambert Shader
 
@@ -85,7 +84,6 @@ Default is 0.8, to allow other objects to be brighter.
 
 .. figure:: /images/Manual-2.5-Material-Shader-Lambert-Settings.jpg
    :width: 220px
-   :figwidth: 220px
 
    The Lambert diffuse shader settings.
 
@@ -102,7 +100,6 @@ Oren-Nayar
 
 .. figure:: /images/Manual-2.5-Material-Shader-Oren-Nayar.jpg
    :width: 320px
-   :figwidth: 320px
 
    Oren-Nayar Shader
 
@@ -124,7 +121,6 @@ Roughness
 
 .. figure:: /images/Manual-2.5-Material-Shader-Oren-Nayar-Settings.jpg
    :width: 200px
-   :figwidth: 200px
 
    The Oren-Nayar diffuse shader settings.
 
@@ -143,14 +139,12 @@ Toon
 
 .. figure:: /images/Manual-2.5-Material-Shader-Toon.jpg
    :width: 320px
-   :figwidth: 320px
 
    Toon Shader, Different Spec
 
 
 .. figure:: /images/Manual-2.5-Material-Shader-Toon-vary.jpg
    :width: 320px
-   :figwidth: 320px
 
    Toon Shader Variations
 
@@ -171,7 +165,6 @@ Smooth
 
 .. figure:: /images/Manual-2.5-Material-Shader-Toon-Settings.jpg
    :width: 200px
-   :figwidth: 200px
 
    The Toon diffuse shader settings.
 
@@ -188,7 +181,6 @@ Minnaert
 
 .. figure:: /images/Manual-2.5-Material-Shader-Minnaert.jpg
    :width: 320px
-   :figwidth: 320px
 
    Minnaert Shader
 
@@ -212,7 +204,6 @@ Dark
 
 .. figure:: /images/Manual-2.5-Material-Shader-Minnaert-Settings.jpg
    :width: 200px
-   :figwidth: 200px
 
    The Minnaert diffuse shader settings.
 
@@ -229,14 +220,12 @@ Fresnel
 
 .. figure:: /images/Manual-2.5-Material-Shader-Fresnel-vary.jpg
    :width: 320px
-   :figwidth: 320px
 
    Various settings for the Fresnel shader, Cook-Torr Specular shader kept at Intensity 0.5, Hardness: 50
 
 
 .. figure:: /images/Manual-2.5-Material-Shader-Fresnel.jpg
    :width: 320px
-   :figwidth: 320px
 
    Fresnel Shader, Different Spec
 
@@ -260,7 +249,6 @@ Factor
 
 .. figure:: /images/Manual-2.5-Material-Shader-Fresnel-Settings.jpg
    :width: 200px
-   :figwidth: 200px
 
    The Fresnel diffuse shader settings.
 

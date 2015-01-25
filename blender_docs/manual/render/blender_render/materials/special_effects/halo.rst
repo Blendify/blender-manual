@@ -5,7 +5,6 @@ Halo Rendering
 
 .. figure:: /images/Doc-26-Materials-HeloRender-Activate.jpg
    :width: 300px
-   :figwidth: 300px
 
    Activating helo rendering
 
@@ -25,7 +24,6 @@ Options
 
 .. figure:: /images/25-Manual-Materials-Halos.jpg
    :width: 309px
-   :figwidth: 309px
 
    Halo panels
 
@@ -108,7 +106,6 @@ which include Flare, Rings, Lines, Star, Texture, Extreme Alpha, and Shaded.
 
 .. figure:: /images/Manual-Part-III-Halo02.jpg
    :width: 630px
-   :figwidth: 630px
 
    Halo Variations
 
@@ -181,7 +178,6 @@ and disappears when another object occludes the flare mesh.
 
 .. figure:: /images/Manual-Part-III-Halo04.jpg
    :width: 630px
-   :figwidth: 630px
 
    Lens Flare
 

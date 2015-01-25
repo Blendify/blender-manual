@@ -31,7 +31,6 @@ Options
 
 .. figure:: /images/25-Manual-World-WorldSkyColor.jpg
    :width: 297px
-   :figwidth: 297px
 
    World panel
 
@@ -70,7 +69,6 @@ or which it maps to a virtual space around the scene.
 
 .. figure:: /images/25-Manual-World-TexCoord.jpg
    :width: 207px
-   :figwidth: 207px
 
    Texture Coordinates popup menu
 
@@ -97,7 +95,6 @@ Object
 
 .. figure:: /images/25-Manual-World-TexInfluence.jpg
    :width: 297px
-   :figwidth: 297px
 
    Texture Influence panel
 

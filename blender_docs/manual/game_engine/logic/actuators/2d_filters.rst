@@ -8,7 +8,6 @@ Filter 2D Actuator
 
 .. figure:: /images/BGE_Actuator_Filter_2D.jpg
    :width: 271px
-   :figwidth: 271px
 
    Edit Object actuator
 
@@ -76,21 +75,18 @@ so your hardware must support shaders.
 
 .. figure:: /images/Motionblur_render-full.jpg
    :width: 200px
-   :figwidth: 200px
 
    2D Filters: Motion Blur.
 
 
 .. figure:: /images/Sepia_render-full.jpg
    :width: 200px
-   :figwidth: 200px
 
    2D Filters: Sepia.
 
 
 .. figure:: /images/Sobel_render-full.jpg
    :width: 200px
-   :figwidth: 200px
 
    2D Filters: Sobel.
 

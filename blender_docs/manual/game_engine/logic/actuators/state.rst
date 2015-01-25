@@ -14,14 +14,12 @@ Special Options:
 
 .. figure:: /images/2.5_Game_Engine_Actuator_State.jpg
    :width: 271px
-   :figwidth: 271px
 
    State actuator
 
 
 .. figure:: /images/2.5_Game_Engine_Actuator_State_Options.jpg
    :width: 271px
-   :figwidth: 271px
 
    State actuator options
 

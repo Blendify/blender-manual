@@ -12,7 +12,6 @@ and *Drivers* for :doc:`Drivers </animation/basics/drivers>`. Both are very simi
 
 .. figure:: /images/Doc_Graph_Editor.jpg
    :width: 600px
-   :figwidth: 600px
 
    The Graph Editor.
 

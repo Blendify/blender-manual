@@ -45,7 +45,6 @@ Options
 
 .. figure:: /images/25-Manual-Constraints-Transform-LimitScale.jpg
    :width: 296px
-   :figwidth: 296px
 
    Limit Scale panel
 

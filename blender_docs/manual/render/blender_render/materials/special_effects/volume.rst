@@ -5,7 +5,6 @@ Volume Rendering
 
 .. figure:: /images/Doc-26-Materials-VolumeRender-Activate.jpg
    :width: 300px
-   :figwidth: 300px
 
    Activation volume rendering
 
@@ -108,25 +107,21 @@ the more easily it penetrates throughout the volume and to the shadow.
 
    * - .. figure:: /images/Manual-volumerendering-scatter-Sc0.5.jpg
           :width: 150px
-          :figwidth: 150px
 
           Scattering: 0.5
 
      - .. figure:: /images/Manual-volumerendering-scatter-Sc1.0.jpg
           :width: 150px
-          :figwidth: 150px
 
           Scattering: 1.0
 
      - .. figure:: /images/Manual-volumerendering-scatter-Sc2.0.jpg
           :width: 150px
-          :figwidth: 150px
 
           Scattering: 2.0
 
      - .. figure:: /images/Manual-volumerendering-scatter-Sc5.0.jpg
           :width: 150px
-          :figwidth: 150px
 
           Scattering: 5.0
 
@@ -136,7 +131,6 @@ Asymmetry
 
 .. figure:: /images/Volumerendering-phase_diagram.jpg
    :width: 300px
-   :figwidth: 300px
 
    Isotropic and Anisotropic scattering
 
@@ -177,25 +171,21 @@ there is less available to be transmitted through.
 
    * - .. figure:: /images/Manual-volumerendering-tr_y-sc0.5.jpg
           :width: 150px
-          :figwidth: 150px
 
           Transmission color: Yellow, Scattering: 0.5
 
      - .. figure:: /images/Manual-volumerendering-tr_y-sc1.0.jpg
           :width: 150px
-          :figwidth: 150px
 
           Transmission color: Yellow, Scattering: 1.0
 
      - .. figure:: /images/Manual-volumerendering-tr_y-sc2.0.jpg
           :width: 150px
-          :figwidth: 150px
 
           Transmission color: Yellow, Scattering: 2.0
 
      - .. figure:: /images/Manual-volumerendering-tr_y-sc5.0.jpg
           :width: 150px
-          :figwidth: 150px
 
           Transmission color: Yellow, Scattering: 5.0
 
@@ -220,25 +210,21 @@ Emission
 
    * - .. figure:: /images/Manual-volumerendering-emission-0.25-sc0.5.jpg
           :width: 150px
-          :figwidth: 150px
 
           Emission 0.25, Scattering: 0.5
 
      - .. figure:: /images/Manual-volumerendering-emission-0.25-sc1.0.jpg
           :width: 150px
-          :figwidth: 150px
 
           Emission 0.25, Scattering: 1.0
 
      - .. figure:: /images/Manual-volumerendering-emission-0.25-sc2.0.jpg
           :width: 150px
-          :figwidth: 150px
 
           Emission 0.25, Scattering: 2.0
 
      - .. figure:: /images/Manual-volumerendering-emission-0.25-sc5.0.jpg
           :width: 150px
-          :figwidth: 150px
 
           Emission 0.25, Scattering: 5.0
 
@@ -280,25 +266,21 @@ Of course you can always break the rules too!
 
    * - .. figure:: /images/Manual-volumerendering-reflection-sc0.5.jpg
           :width: 150px
-          :figwidth: 150px
 
           Reflection: Green, Scattering: 0.5
 
      - .. figure:: /images/Manual-volumerendering-reflection-sc1.0.jpg
           :width: 150px
-          :figwidth: 150px
 
           Reflection: Green, Scattering: 1.0
 
      - .. figure:: /images/Manual-volumerendering-reflection-sc2.0.jpg
           :width: 150px
-          :figwidth: 150px
 
           Reflection: Green, Scattering: 2.0
 
      - .. figure:: /images/Manual-volumerendering-reflection-sc5.0.jpg
           :width: 150px
-          :figwidth: 150px
 
           Reflection: Green, Scattering: 5.0
 
@@ -307,25 +289,21 @@ Of course you can always break the rules too!
 
    * - .. figure:: /images/Manual-volumerendering-refl_g-tr_y-sc0.5.jpg
           :width: 150px
-          :figwidth: 150px
 
           Reflection: Green, Transmission: Yellow, Scattering: 0.5
 
      - .. figure:: /images/Manual-volumerendering-refl_g-tr_y-sc1.0.jpg
           :width: 150px
-          :figwidth: 150px
 
           Reflection: Green, Transmission: Yellow, Scattering: 1.0
 
      - .. figure:: /images/Manual-volumerendering-refl_g-tr_y-sc2.0.jpg
           :width: 150px
-          :figwidth: 150px
 
           Reflection: Green, Transmission: Yellow, Scattering: 2.0
 
      - .. figure:: /images/Manual-volumerendering-refl_g-tr_y-sc5.0.jpg
           :width: 150px
-          :figwidth: 150px
 
           Reflection: Green, Transmission: Yellow, Scattering: 5.0
 

@@ -8,7 +8,6 @@ Editing Poses
 
 .. figure:: /images/Doc26-rigging-poseTools.jpg
    :width: 100px
-   :figwidth: 100px
 
    Pose Tools
 
@@ -61,7 +60,6 @@ in *Pose* mode, each bone has a scale of **1.0**, and null rotation and position
 
 .. figure:: /images/Doc26-rigging-pose-localRotate.jpg
    :width: 250px
-   :figwidth: 250px
 
    An example of locally-Y-axis locked rotation, with two bones selected.
    Note that the two green lines materializing the axes are centered on the armature's center,
@@ -242,19 +240,16 @@ By default, children bones inherit:
 
    * - .. figure:: /images/ManRiggingPosingRelatioshipsAndTransformExBasis.jpg
           :width: 200px
-          :figwidth: 200px
 
           The armature in its rest position.
 
      - .. figure:: /images/ManRiggingPosingRelatioshipsAndTransformExMonoRotation.jpg
           :width: 200px
-          :figwidth: 200px
 
           Rotation of a root bone.
 
      - .. figure:: /images/ManRiggingPosingRelatioshipsAndTransformExScalingChains.jpg
           :width: 200px
-          :figwidth: 200px
 
           Scaling of a root bone.
 
@@ -265,7 +260,6 @@ using their sub-panels in the *Armature Bones* panel:
 
 .. figure:: /images/Man2.5RiggingEditingBoneCxtRelationsPanel.jpg
    :width: 200px
-   :figwidth: 200px
 
    The Armature Bones panel in Pose mode.
 
@@ -287,19 +281,16 @@ all its descendants* will no longer be affected when you scale one of its ancest
 
    * - .. figure:: /images/ManRiggingPosingRelatioshipsAndTransformExHingeBone.jpg
           :width: 200px
-          :figwidth: 200px
 
           The yellow outlined Inherit Rotation disabled bone in the armature.
 
      - .. figure:: /images/ManRiggingPosingRelatioshipsAndTransformExHingeBoneInRotation.jpg
           :width: 200px
-          :figwidth: 200px
 
           Rotation of a bone with a Inherit Rotation disabled bone among its descendants.
 
      - .. figure:: /images/ManRiggingPosingRelatioshipsAndTransformExHingeBoneInScaling.jpg
           :width: 200px
-          :figwidth: 200px
 
           Scaling of a bone with a Inherit Rotation disabled bone among its descendants.
 
@@ -319,7 +310,6 @@ possible ones below - but this should anyway give you a good idea of the problem
 
 .. figure:: /images/ManRiggingPosingRelatioshipsAndTransformExMultiScaling.jpg
    :width: 200px
-   :figwidth: 200px
 
    Scaling bones, some of them related.
 

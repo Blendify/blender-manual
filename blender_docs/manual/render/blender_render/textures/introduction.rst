@@ -39,7 +39,6 @@ roughness and other surface qualities of a material.
 
 .. figure:: /images/Manual-Textures-Layers.jpg
    :width: 320px
-   :figwidth: 320px
 
    Textures Layer on base Material
 
@@ -61,7 +60,6 @@ The layers, if you will, are:
 
 .. figure:: /images/Manual-Part-IV-SomeMetal.jpg
    :width: 320px
-   :figwidth: 320px
 
    Some Metal Textures
 
@@ -122,7 +120,6 @@ but a very common use of a *World* is to shade a background color.
 
 .. figure:: /images/World.jpg
    :width: 320px
-   :figwidth: 320px
 
    Textures Layer on base Material
 
@@ -167,7 +164,6 @@ that has been unwrapped and assigned an image of user defined size.
 
 .. figure:: /images/Doc-2.6-Materials-Textures-Painting-Brush-Options.jpg
    :width: 320px
-   :figwidth: 320px
 
    Applied Brush texture in different painting modes
 

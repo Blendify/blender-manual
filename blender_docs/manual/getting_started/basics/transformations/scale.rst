@@ -25,7 +25,6 @@ the scale will continue in the negative direction and flip the element.
 
 .. figure:: /images/3D_interaction-Transformations-Basic-Scale-scale_basic_usage.jpg
    :width: 640px
-   :figwidth: 640px
 
    Basic scale usage. From left to right, the panels show: the original Object,
    a scaled down Object, a scaled up Object and a scale-flipped Object.
@@ -122,7 +121,6 @@ Scaling with the 3D Transform Manipulator
 
 .. figure:: /images/Icon-library_3D-Window_3D-transform-scale-manipulator.jpg
    :width: 100px
-   :figwidth: 100px
 
    Scaling Transform Manipulator
 
@@ -149,7 +147,6 @@ Scaling with the Properties Panel
 
 .. figure:: /images/3D_interaction-Transformations-Basic-Scale-scale_properties_panel.jpg
    :width: 180px
-   :figwidth: 180px
 
    Scale transform properties panel.
 

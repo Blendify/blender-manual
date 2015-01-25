@@ -48,14 +48,12 @@ Examples
 
 .. figure:: /images/Manual-Modifier-EdgeSplit-Example01.jpg
    :width: 600px
-   :figwidth: 600px
 
    Edge Split modifier output with From Marked As Sharp selected.
 
 
 .. figure:: /images/Edge_Split_to_improve_Smooth_Shading.jpg
    :width: 600px
-   :figwidth: 600px
 
    (From Left to right): Flat Shading, Smooth Shading, Smooth Shading with Edge Split.
 

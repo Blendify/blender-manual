@@ -68,7 +68,6 @@ Options
 
 .. figure:: /images/25-Manual-Constraints-Relationship-FollowPath.jpg
    :width: 305px
-   :figwidth: 305px
 
    Follow Path panel
 

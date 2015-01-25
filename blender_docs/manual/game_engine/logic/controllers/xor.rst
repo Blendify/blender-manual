@@ -12,7 +12,6 @@ Options:
 
 .. figure:: /images/BGE_Controller_Xor.jpg
    :width: 292px
-   :figwidth: 292px
 
    XOR Controller
 

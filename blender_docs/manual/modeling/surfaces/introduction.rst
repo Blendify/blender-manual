@@ -216,7 +216,6 @@ Weight
 
 .. figure:: /images/NurbsSurfaceWeightExample.jpg
    :width: 600px
-   :figwidth: 600px
 
    Surface Weight 5.
 
@@ -242,7 +241,6 @@ Preset Weights
 
 .. figure:: /images/NurbsSurfaceSphere.jpg
    :width: 250px
-   :figwidth: 250px
 
    A sphere surface.
 

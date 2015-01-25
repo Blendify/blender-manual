@@ -11,7 +11,6 @@ Textures Stack
 
 .. figure:: /images/Doc-26-Manual-Textures-Stack.jpg
    :width: 300px
-   :figwidth: 300px
 
    Textures Stack
 
@@ -33,7 +32,6 @@ Texture Datablock
 
 .. figure:: /images/Doc-26-Manual-Textures-Datablock.jpg
    :width: 300px
-   :figwidth: 300px
 
    Active Texture Datablock
 
@@ -67,7 +65,6 @@ Texture Type
 
 .. figure:: /images/Doc-26-Manual-Textures-Types.jpg
    :width: 300px
-   :figwidth: 300px
 
    Texture Types
 
@@ -89,7 +86,6 @@ Preview
 
 .. figure:: /images/25-Manual-Textures-preview-panel.jpg
    :width: 300px
-   :figwidth: 300px
 
    Preview panel
 
@@ -113,7 +109,6 @@ Colors
 
 .. figure:: /images/25-Manual-Textures-color-panel.jpg
    :width: 300px
-   :figwidth: 300px
 
    Colors panel
 

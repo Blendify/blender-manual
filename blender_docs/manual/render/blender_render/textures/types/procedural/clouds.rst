@@ -5,7 +5,6 @@ Procedural textures: Clouds
 
 .. figure:: /images/25-Manual-Textures-Procedural-Clouds.jpg
    :width: 307px
-   :figwidth: 307px
 
    Clouds Texture Panels
 

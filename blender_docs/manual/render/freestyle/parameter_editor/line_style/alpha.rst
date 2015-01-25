@@ -5,7 +5,6 @@ Alpha
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Alpha.jpg
    :width: 300px
-   :figwidth: 300px
 
    Line Style Alpha UI
 
@@ -32,7 +31,6 @@ Along Stroke
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Alpha_Along_Stroke.jpg
    :width: 300px
-   :figwidth: 300px
 
    Line Style Alpha's Along Stroke modifier
 
@@ -51,7 +49,6 @@ Distance from Camera
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Alpha_Distance_From_Camera.jpg
    :width: 300px
-   :figwidth: 300px
 
    Line Style Alpha's Distance From Camera modifier
 
@@ -79,7 +76,6 @@ Distance from Object
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Alpha_Distance_From_Object.jpg
    :width: 300px
-   :figwidth: 300px
 
    Line Style Alpha's Distance From Object modifier
 
@@ -110,7 +106,6 @@ Material
 
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Alpha_Material.jpg
    :width: 300px
-   :figwidth: 300px
 
    Line Style Alpha's Material modifier
 
