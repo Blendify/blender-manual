@@ -34,9 +34,6 @@ CUDA
 NVidia :abbr:`CUDA (Compute Unified Device Architecture)` is supported for :abbr:`GPU (Graphics
 processing unit)` rendering with **NVidia graphics cards**.
 We support graphics cards starting from GTX 4xx (computing capability 2.0).
-Computing capability 1.x cards are no longer supported,
-but you may still be able to compile experimental builds with a limited feature set
-(see below).
 
 Cycles requires recent drivers to be installed, on all operating systems.
 Be sure to download the Blender version matching your operating system; that is,
@@ -48,41 +45,11 @@ download 64-bit Blender for 64-bit operating systems.
 Limitations
 ===========
 
-- The maximum amount of individual textures is limited to 95 byte image textures (PNG, JPEG, ..)
-  and 5 float-image textures (OpenEXR, 16 bit TIFF, ..).
+- The maximum amount of individual textures is limited to 95 byte-image textures (PNG, JPEG, ..)
+  and 5 float-image textures (OpenEXR, 16 bit TIFF, ..) on GTX 4xx/5xx cards,
+  and 145 byte-image textures and 5 float-image textures on GTX6xx cards and above. 
 - :doc:`Open shading language </render/cycles/nodes/osl>` (OSL) is only supported by CPU.
-- Subsurface Scattering is not supported on GPU yet.
-
-
-Older Cards
-===========
-
-For Mac and Linux, it's possible to compile kernels at runtime, for cards that are not officially supported.
-GeForce 8xxx, 9xxx and 2xx cards are not included in the official release,
-but they might work by enabling :doc:`experimental features </render/cycles/experimental_features>`.
-
-The `CUDA toolkit 5.0 <https://developer.nvidia.com/cuda-toolkit-50-archive>`__ (64-bit version)
-or newer must be installed for this. Other versions might work, but are not supported.
-The first time rendering is done, the kernel must be compiled for your GPU architecture.
-Since Cycles is quite complex compared to a typical GPU kernel,
-compilation may take from 40 seconds to a few minutes, and may also use about 2GB of memory,
-depending on the graphics card model.
-
-
-Missing Features with Shader Model 1.x
-======================================
-
-Due to limitations of the hardware,
-compiling a kernel with all features enabled is not possible for these cards.
-Currently missing are:
-
-
-- Transparent Shadows
-- Sample as Lamp for World textures
-- Ambient Occlusion
-- Render Passes
-- Motion Blur
-- Non-Progressive integrator
+- Smoke/Fire rendering is not supported on GPU. 
 
 
 Frequently Asked Questions
