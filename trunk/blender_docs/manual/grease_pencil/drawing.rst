@@ -70,7 +70,7 @@ Set the color, line width and other aspects of the grease pencil's appearance in
 
 .. figure:: /images/grease_pencil_drawing_properties.jpg
 
-	Grease pencil properties
+   Grease pencil properties
 
 There are separate settings for each layer with those of the active layer shown in the panel.
 All the strokes on a layer (not just those made after a particular change)
@@ -132,8 +132,8 @@ Open the Grease Pencil tab on the Toolshelf (:kbd:`T`).
 Look for the tools in the Edit Strokes panel shown here:
 
 .. figure:: /images/grease_pencil_drawing_edit_strokes_panel.jpg
-	
-	Edit panel with grease pencil strokes.
+
+   Edit panel with grease pencil strokes.
 
 The basic steps are:
 
@@ -146,64 +146,60 @@ The basic steps are:
 Edit Mode
 ---------
 
+*Enable Editing* (:kbd:`D-Tab` )
+   Enters or exits the edit mode.
 
-*Enable Editing* (:kbd:`D-TAB` )
-	Enters or exits the edit mode.
-
-	
-While in the grease pencil editing mode, Blender redirects the common editing keys to operate on the grease pencil layer instead of the 3D scene components. 
+While in the grease pencil editing mode,
+Blender redirects the common editing keys to operate on the grease pencil layer instead of the 3D scene components.
 
 
 Select
 ------
 
-Grease pencil strokes are formed from a series of connected vertex points.  
+Grease pencil strokes are formed from a series of connected vertex points.
 To make changes, first select points on the strokes that you want to edit.
 You can only select points on the active layer.
 The selected points are hilited as in the image above.
- 
-Hint:  Set the layer's *Stroke Thickness* to 1 to make the points more visible.
 
-	*Select All* (:kbd:`A`)  *Border Select* (:kbd:`B`)  *Circle Select* (:kbd:`C`)  *Select Linked* (:kbd:`Ctrl-L`) *Select More* (:kbd:`Ctrl-NumpadPlus`)  *Select Less* (:kbd:`Ctrl-NumpadMinus`)
-		Use the mouse to select the points, or one of the selection buttons in the panel as detailed in 
-		:doc:`Basic Selection </modeling/meshes/selecting/basics>`.
-	
-	:kbd:`Alt-LMB`  Select Stroke
-		Instead of a single point, select all connected points on the stroke.
-		
-		
+.. hint::
+
+   Set the layer's *Stroke Thickness* to 1 to make the points more visible.
+
+*Select All* (:kbd:`A`) *Border Select* (:kbd:`B`) *Circle Select* (:kbd:`C`) *Select Linked* (:kbd:`Ctrl-L`) *Select More* (:kbd:`Ctrl-NumpadPlus`) *Select Less* (:kbd:`Ctrl-NumpadMinus`)
+   Use the mouse to select the points, or one of the selection buttons in the panel as detailed in
+   :doc:`Basic Selection </modeling/meshes/selecting/basics>`.
+
+:kbd:`Alt-LMB` Select Stroke
+   Instead of a single point, select all connected points on the stroke.
+
+
 Edit
 ----
 
-	*Delete* (:kbd:`X`)
-		Choose from:
-			- Points - delete the selected points, leaving a gap in the stroke
-			- Disolve - reconnect the ends so there is no gap in the stroke
-			- Strokes - delete the entire stroke containing any selected points
-			- Frame - delete a frame when doing :doc:`Animation of the Sketches </grease_pencil/layers_and_animation>`.
-		
-	*Duplicate* (:kbd:`Shift-D`)
-		Make a copy of the selected points at the same location.  Use the mouse to *Translate* them into position.
-		:kbd:`LMB` places them at their new position.
-		:kbd:`RMB` cancels and removes the duplicates.
-		
-	
-	*Translate* (:kbd:`G`)  	*Rotate* (:kbd:`R`)  	*Scale* (:kbd:`S`)
-		Move the selected points with the mouse.
-		:kbd:`LMB` places them at their new position.
-		Refine these operations with 
-		*Pivot Center*, 
-		*View* or *Global* transform orientations, 
-		snap to *Increment* and 
-		*Proportional Editing*
-		detailed in the general :doc:`Transformations Instructions </getting_started/basics/transformations/index>`.
-	
-	*Mirror* (:kbd:`Ctrl-M`)  *Bend* (:kbd:`Shift-W`)	*Shear* (:kbd:`Shift-Ctrl-Alt-S`)	*To Sphere* (:kbd:`Shift-Alt-S`)
-		These are similar to the equivalent mesh operations detailed in 
-		:doc:`Deforming Instructions </modeling/meshes/editing/deforming/index>`.
-		
+*Delete* (:kbd:`X`)
+   Choose from:
+      - Points - delete the selected points, leaving a gap in the stroke
+      - Disolve - reconnect the ends so there is no gap in the stroke
+      - Strokes - delete the entire stroke containing any selected points
+      - Frame - delete a frame when doing :doc:`Animation of the Sketches </grease_pencil/layers_and_animation>`.
+*Duplicate* (:kbd:`Shift-D`)
+   Make a copy of the selected points at the same location. Use the mouse to *Translate* them into position.
+   :kbd:`LMB` places them at their new position.
+   :kbd:`RMB` cancels and removes the duplicates.
+*Translate* (:kbd:`G`) *Rotate* (:kbd:`R`) *Scale* (:kbd:`S`)
+   Move the selected points with the mouse.
+   :kbd:`LMB` places them at their new position.
+   Refine these operations with
+   *Pivot Center*,
+   *View* or *Global* transform orientations,
+   snap to *Increment* and
+   *Proportional Editing*
+   detailed in the general :doc:`Transformations Instructions </getting_started/basics/transformations/index>`.
+*Mirror* (:kbd:`Ctrl-M`) *Bend* (:kbd:`Shift-W`) *Shear* (:kbd:`Shift-Ctrl-Alt-S`) *To Sphere* (:kbd:`Shift-Alt-S`)
+   These are similar to the equivalent mesh operations detailed in
+   :doc:`Deforming Instructions </modeling/meshes/editing/deforming/index>`.
 
-		
+
 Sensitivity When Drawing
 ========================
 

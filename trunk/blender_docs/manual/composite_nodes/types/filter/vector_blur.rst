@@ -43,7 +43,7 @@ and thus create nice looking masks. You can find this new option as 'min speed'.
 This minimum speed is in pixel units.
 A value of just 3 will already clearly separate the background from foreground.
 
-.. note:: Hint
+.. hint::
 
    You can make vector blur results a little smoother by passing the Speed pass through a blur node
    (but note that this can make strange results,

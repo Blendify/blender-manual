@@ -444,8 +444,8 @@ Limit
    Maximum number of weights allowed on each vertex (default:4)
 
 
-Weight Gradient (wip)
-=====================
+Weight Gradient
+===============
 
 .. figure:: /images/WeightGradient_266.jpg
    :width: 200px
@@ -468,7 +468,10 @@ The following weight paint options are used to control the gradient:
 - Curve - The brush falloff curve applies to the gradient too, so you can use this to adjust the blending.
 
 Blends the weights of selected vertices with unselected vertices.
-Hint: this tool only works in vertex select mode.
+
+.. hint::
+
+   This tool only works in vertex select mode.
 
 
 Operator Parameters
