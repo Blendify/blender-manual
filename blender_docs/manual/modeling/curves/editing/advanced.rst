@@ -209,7 +209,7 @@ Tilt
 
 
 Simple Extrusion
-~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^
 
 Let's first see the "simple" extrusion of curves, without additional bevel/taper objects.
 
@@ -260,7 +260,7 @@ Closed 2D Curve
 
 
 Advanced Extrusion
-~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^
 
 These extrusions use one or two additional curve objects,
 to create very complex organic shapes.
