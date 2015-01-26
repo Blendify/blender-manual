@@ -95,22 +95,27 @@ BSDF
 
 - ``diffuse(N)``
 - ``oren_nayar(N, roughness)``
-- ``reflection(N)``
-- ``refraction(N, ior)``
-- ``microfacet_beckmann(N, roughness)``
-- ``microfacet_beckmann_refraction(N, roughness, ior)``
-- ``microfacet_ggx(N, roughness)``
-- ``microfacet_ggx_refraction(N, roughness, ior)``
-- ``phong_ramp(N, exponent, colors[8])``
 - ``diffuse_ramp(N, colors[8])``
-- ``translucent(N)``
-- ``transparent()``
-- ``ashikhmin_velvet(N, roughness)``
-- ``ward(N, T, roughness_u, roughness_v)``
+- ``phong_ramp(N, exponent, colors[8])``
 - ``diffuse_toon(N, size, smooth)``
 - ``glossy_toon(N, size, smooth)``
-- ``westin_sheen(N, roughness)``
-- ``westin_backscatter(N, edginess)``
+- ``translucent(N)``
+- ``reflection(N)``
+- ``refraction(N, ior)``
+- ``transparent()``
+- ``microfacet_ggx(N, roughness)``
+- ``microfacet_ggx_aniso(N, T, ax, ay)``
+- ``microfacet_ggx_refraction(N, roughness, ior)``
+- ``microfacet_beckmann(N, roughness)``
+- ``microfacet_beckmann_aniso(N, T, ax, ay)``
+- ``microfacet_beckmann_refraction(N, roughness, ior)``
+- ``ashikhmin_shirley(N, T, ax, ay)``
+- ``ashikhmin_velvet(N, roughness)``
+
+
+Hair
+~~~~~~
+
 - ``hair_reflection(N, roughnessu, roughnessv, T, offset)``
 - ``hair_transmission(N, roughnessu, roughnessv, T, offset)``
 
