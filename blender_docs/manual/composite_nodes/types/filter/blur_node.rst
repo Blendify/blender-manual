@@ -1,8 +1,9 @@
 
 ..    TODO/Review: {{review|copy=X}} .
 
+*********
 Blur Node
-=========
+*********
 
 .. figure:: /images/Tutorials-NTR-ComBlur.jpg
 
@@ -20,7 +21,7 @@ as they will be multiplied with the X and Y number button values.
 
 
 Options
--------
+=======
 
 The X and Y values are the number of pixels over which to spread the blur effect.
 
@@ -52,7 +53,7 @@ Cubic, Mitch
 
 
 Example
--------
+=======
 
 An example blend file, in fact the one used to create the image above,
 `is available here. <http://wiki.blender.org/index.php/Media:Manual-Node-Blur.blend>`__

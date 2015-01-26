@@ -1,14 +1,15 @@
 
 ..    TODO/Review: {{review|copy=X}} .
 
+*********************
 Directional Blur Node
-=====================
+*********************
 
 Blurs an image in a specified direction and magnitude. Can be used to fake motion blur.
 
 
 Options
--------
+=======
 
 Iterations
    Controls how may times the image is duplicated to create the blur effect. Higher values give smoother results.

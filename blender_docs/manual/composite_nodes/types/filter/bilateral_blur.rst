@@ -1,8 +1,9 @@
 
 ..    TODO/Review: {{review|copy=X}} .
 
+*******************
 Bilateral Blur Node
-===================
+*******************
 
 .. figure:: /images/Tutorials-NTR-ComBilateralBlur.jpg
 
@@ -18,7 +19,7 @@ to make non-photorealistic compositing effects.
 
 
 Inputs
-------
+======
 
 Bilateral blur has 2 inputs:
    *Image*, for the image to be blurred.
@@ -34,7 +35,7 @@ but normals in combination with zbuffer can still define exact borders/edges of 
 
 
 Options
--------
+=======
 
 Iterations
    Defines how many times the filter should perform the operation on the image.
@@ -46,7 +47,7 @@ Space sigma
 
 
 Examples
---------
+========
 
 .. figure:: /images/Manual-Compositing_Nodes-BilateralBlur_ex3.jpg
    :width: 250px

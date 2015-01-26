@@ -1,8 +1,9 @@
 
 ..    TODO/Review: {{review|copy=X}} .
 
+***********
 Filter Node
-===========
+***********
 
 .. figure:: /images/Tutorials-NTR-ComFilter.jpg
 
