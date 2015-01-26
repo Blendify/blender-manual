@@ -178,7 +178,7 @@ Tools available in tracking mode
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Marker panel
-""""""""""""
+^^^^^^^^^^^^
 
 - The **Add Marker and Move** operator places a new marker at the position of the mouse
   (which is under the button in this case, not ideal but it's just how things work)
@@ -220,7 +220,7 @@ Marker panel
 
 
 Track panel
-"""""""""""
+^^^^^^^^^^^
 
 - The first row of buttons is used to perform tracking of selected tracks
   (i.e. following the selected feature from frame to frame).
@@ -249,7 +249,7 @@ Join
 
 
 Solve panel
-"""""""""""
+^^^^^^^^^^^
 
 **Camera Motion** operator solves the motion of camera using all tracks placed
 on the footage and two keyframes specified on this panel. There are some requirements:
@@ -274,7 +274,7 @@ completely incorrectly initially.
 
 
 Cleanup Panel
-"""""""""""""
+^^^^^^^^^^^^^
 
 This panel contains a single operator and its settings. This operator cleans up bad tracks:
 tracks which aren't tracked long enough or which failed to reconstruct accurately.
@@ -288,7 +288,7 @@ several actions can be performed for bad tracks:
 
 
 Clip Panel
-""""""""""
+^^^^^^^^^^
 
 This panel currently contains the single operator *Set as background* which sets the
 clip currently being edited as the camera background for all visible 3D viewports.
@@ -300,7 +300,7 @@ Properties available in tracking mode
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Grease Pencil Panel
-"""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^
 
 It's a standard grease pencil panel where new grease pencil layers and frames can be
 controlled. There's one difference in the behavior of the grease pencil from other areas -
@@ -311,7 +311,7 @@ This makes the stroke easy to notice on all kinds of movies.
 
 
 Objects Panel
-"""""""""""""
+^^^^^^^^^^^^^
 
 .. figure:: /images/Manual_movie_tracking_clip_editor_objects_panel.jpg
    :width: 130px
@@ -340,7 +340,7 @@ refining of camera intrinsics happens when solving camera motion only.
 
 
 Track Panel
-"""""""""""
+^^^^^^^^^^^
 
 .. figure:: /images/Manual_movie_tracking_clip_editor_track_panel.jpg
    :width: 130px
@@ -394,7 +394,7 @@ tracks so a whole group of tracks can be selected by color using the Select Grou
 
 
 Camera Data Panel
-"""""""""""""""""
+^^^^^^^^^^^^^^^^^
 
 This panel contains all settings of the camera used for filming the movie which is currently
 being edited in the clip editor.
@@ -430,7 +430,7 @@ Undistortion K1, K2 and K3
 
 
 Display Panel
-"""""""""""""
+^^^^^^^^^^^^^
 
 This panel contains all settings which control things displayed in the clip editor.
 
@@ -497,10 +497,10 @@ Display Aspect Ratio
 
 
 Tracking Settings Panel
-"""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^
 
 Common options
-~~~~~~~~~~~~~~
+""""""""""""""
 
 This panel contains all settings for the 2D tracking algorithms.
 Depending on which algorithm is used, different settings are displayed,
@@ -552,7 +552,7 @@ Margin
 
 
 KLT tracker options
-~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""
 
 The KLT tracker is the algorithm used by default.
 It allows tracking most kinds of feature points and their motion.
@@ -577,7 +577,7 @@ texture around that feature point is moving in another direction.
 
 
 SAD tracker options
-~~~~~~~~~~~~~~~~~~~
+"""""""""""""""""""
 
 On each step, the SAD tracker reviews the whole search area and finds the pattern on the
 second image which is most like the pattern which is getting tracking.
@@ -592,7 +592,7 @@ There's one limitation: currently: it works for features of size 16x16 pixels on
 
 
 Marker Panel
-""""""""""""
+^^^^^^^^^^^^
 
 This panel contains numerical settings for marker position,
 pattern and search area dimensions, and offset of anchor point from pattern center.
@@ -600,7 +600,7 @@ All sliders are self-explanatory.
 
 
 Proxy / Timecode Panel
-""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: /images/Manual_movie_tracking_clip_editor_proxy_timecode_panel.jpg
    :width: 130px

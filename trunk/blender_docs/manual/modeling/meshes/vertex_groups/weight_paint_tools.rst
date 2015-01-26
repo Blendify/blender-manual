@@ -368,7 +368,7 @@ From the redo panel you can change the parameters to meet your needs.
 
 
 Redo Panel Confusion
-~~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^^
 
 You may notice that the Operator Redo Panel (see below)
 stays available after the weight transfer is done.
@@ -379,7 +379,7 @@ state right before you initially called the Transfer Weights tool.
 
 
 Workaround
-~~~~~~~~~~
+^^^^^^^^^^
 
 When you want to call the Transfer Weights tool again after you made some changes to your
 vertex groups, then always use the "Transfer Weights" Button,
@@ -388,7 +388,7 @@ Unless you really want to reset your changes to the initial call of the tool.
 
 
 Operator Parameters
-~~~~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^^^^
 
 Defaults are marked in boldface:
 
