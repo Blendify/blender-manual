@@ -16,7 +16,7 @@
    types/output.rst
    types/color.rst
    types/vector.rst
-   types/filter.rst
    types/convertor.rst
    types/matte.rst
    types/distort.rst
+   types/filter/index.rst

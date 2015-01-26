@@ -1,8 +1,9 @@
 
 ..    TODO/Review: {{review|copy=X}} .
 
+*******
 Defocus
-=======
+*******
 
 This single node can be used to emulate depth of field using a postprocessing method.
 It can also be used to blur the image in other ways,
@@ -11,7 +12,7 @@ this node blurs areas of an image based on the input zbuffer map/mask.
 
 
 Camera Settings
----------------
+===============
 
 .. figure:: /images/Manual-Compositing-Node-Defocus_Camera_settings.jpg
 
@@ -33,7 +34,7 @@ the focal point is then visible as a yellow cross along the view direction of th
 
 
 Node Inputs
------------
+===========
 
 .. figure:: /images/Manual-Compositing-Node-Defocus.jpg
 
@@ -47,7 +48,7 @@ to vary the effect over time.
 
 
 Node Setting
-------------
+============
 
 The settings for this node are:
 
@@ -144,7 +145,7 @@ Zscale
 
 
 Examples
---------
+========
 
 .. figure:: /images/Manual-Node-Defocus-example.jpg
    :width: 200px
@@ -158,7 +159,7 @@ As the balls receed into the distance, they get blurrier.
 
 
 Hints
------
+=====
 
 Preview
    In general, use preview mode, change parameters to your liking,

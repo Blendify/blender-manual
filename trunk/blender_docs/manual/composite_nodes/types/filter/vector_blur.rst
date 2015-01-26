@@ -1,8 +1,9 @@
 
 ..    TODO/Review: {{review|copy=X}} .
 
+*************************
 Vector (Motion) Blur Node
-=========================
+*************************
 
 .. figure:: /images/Tutorials-NTR-ComVecBlur.jpg
 
@@ -50,7 +51,7 @@ A value of just 3 will already clearly separate the background from foreground.
 
 
 Examples
---------
+========
 
 An in-depth look at how to use the Vector Blur node
 :doc:`can be found here </ls/composite_nodes/types/filter/vector_blur>`.
@@ -67,7 +68,7 @@ you will find a rigged hand reaching down to pick up a ball. Based on how the ha
 is blurred the least.
 
 Known Bugs
-----------
+==========
 
 FIXME(Template Unsupported: Version;{{Version|2.44}})
 Does not work when reading from a multilayer OpenEXR sequence set
