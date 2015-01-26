@@ -114,7 +114,7 @@ BSDF
 
 
 Hair
-~~~~~~
+~~~~
 
 - ``hair_reflection(N, roughnessu, roughnessv, T, offset)``
 - ``hair_transmission(N, roughnessu, roughnessv, T, offset)``

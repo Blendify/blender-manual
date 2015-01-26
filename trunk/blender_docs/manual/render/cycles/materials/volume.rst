@@ -4,11 +4,6 @@
 Volume
 ******
 
-.. note:: Experimental feature
-
-   Volume rendering is currently a work in progress. Check the Limitations at the bottom of this page too.
-
-
 Volume rendering can be used to render effects like fire, smoke, mist, absorption in glass,
 and many other effects that can't be represented by surface meshes alone.
 
@@ -133,6 +128,10 @@ Limitations
 
 Currently we do not support:
 
-
-- GPU rendering of volumes
 - Correct ray visibility for volume meshes
+
+Not available on GPU:
+
+- Smoke/Fire rendering
+- Equi Angular / MIS Volume Sampling
+- Volume Multi Light sampling
