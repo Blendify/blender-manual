@@ -259,16 +259,10 @@ Zoom In
    Zoom into the center of the graph to show more details and provide more accurate control.
    To navigate around the curve while zoomed in, click and drag in an empty part of the graph.
 
-   .. figure:: /images/26-Material-Color-Node-Curves-Zoomout-Buticon.jpg
-
-      Zoom out curve.
 Zoom Out
    Zoom out of the graph to show less details and view the graph as a whole.
    You cannot zoom out further than the clipping borders (see *Clipping* below).
 
-   .. figure:: /images/26-Material-Color-Node-Curves-Zoomin-Buticon.jpg
-
-      Zoom in curve.
 Tools
    .. figure:: /images/26-Material-Color-Node-Curves-Tools.jpg
 
@@ -288,16 +282,9 @@ Tools
       Resets the curve in default (removes all added curve's points).
 Clipping
    Enable/disable clipping and set the values to clip to.
-
-   .. figure:: /images/26-Material-Color-Node-Curves-Clipping-Buticon.jpg
-
-      Clipping options display of the curve.
+   
 Delete
    Remove the selected control point.
-
-   .. figure:: /images/26-Material-Color-Node-Curves-Delpoints-Buticon.jpg
-
-      Deletes points of the curve.
 
 
 List View
@@ -317,9 +304,7 @@ Rename
 
 Resize
    The list view can be resized to show more or less items.
-   Hover the mouse over the handle.
-
-   Click and drag the handle to expand or shrink the list.
+   Hover the mouse over the handle then click and drag the handle to expand or shrink the list.
 
 Filter
    Click the *Show filtering options* button to toggle filter option buttons.
@@ -327,19 +312,16 @@ Filter
    Type part of a list item's name in the filter text box to filter items by part of their name.
 
    Filter Include
-      When the icon below is shown items that match the text will be the only ones visible.
+      When the magnifying glass icon has a **+** sign then only items that match the text will be displayed.
    Filter Exclude
-      When the icon below is shown only items that **do not** match will be shown.
+      When the magnifying glass icon has a **-** sign then only items that do not match text will be displayed.
 
 Sort
    Sort list items.
 
    Alphabetical
-      Sort objects by name.
-
       This button switches between alphabetical and non-alphabetical ordering.
+
    Inverse
       Sort objects in ascending or descending order. This also applies to alphabetical sorting, if selected.
-
-      This button toggles between ascending and descending order.
 
