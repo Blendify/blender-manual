@@ -87,6 +87,11 @@ full control over your transformation.
 :kbd:`Alt` + :kbd:`G` clears any previous transformation on the object and sets its origin back to the center.
 This only works in Object Mode.
 
+You can also move an object by clicking and holding :kbd:`RMB` on the object and dragging it around.
+Releasing the mouse button will not confirm the transformation
+(unless you have enabled *Release Confirms* in the :doc:`User Preferences </preferences/editing>`)
+you will need to confirm it with :kbd:`LMB`.
+
 
 Controling Grab/Move Precision
 ------------------------------
