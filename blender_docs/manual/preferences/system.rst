@@ -250,11 +250,8 @@ Color Picker Type
 Color Picker Type
    Choose which type of color dialog you prefer - it will show when clicking :kbd:`LMB` on any color field.
 
-   There are **4** types of color pickers available for Blender:
-      *Circle* (Default), *Square (HS + V)* , *Square (SV + H)* and *Square (HV + S)*
-
-      The color pickers are detailed at the
-      :doc:`Buttons and Controls </getting_started/basics/interface/buttons_and_controls>` page.
+   See the different color picker types at the
+   :doc:`Extended Controls </getting_started/basics/interface/extended_controls>` page.
 
 
 Custom Weight Paint Range
@@ -266,7 +263,7 @@ Custom Weight Paint Range
    Enabling the checkbox will enable an alternate map using a ramp starting with an empty range.
    Now you can create your custom map using the common color ramp options.
    For detailed information about how to use color ramps,
-   see: to the :doc:`Buttons and Controls </getting_started/basics/interface/buttons_and_controls>` page.
+   see: to the :doc:`Extended Controls </getting_started/basics/interface/extended_controls>` page.
 
 
 International Fonts
