@@ -108,7 +108,7 @@ Format
    and ``.jpg`` for images with a lot of color variance, such as sample renders and photographs.
 
    Do not use animated ``.gif`` files, these are hard to maintain, can be distracting
-   and are usually large in file size. If a video is needed, use YouTube or Vimeo.
+   and are usually large in file size. If a video is needed, use YouTube or Vimeo (see `Videos`_ below).
 Location
    Place the image in the ``manual/images`` folder. Use no other subfolders.
 Naming
@@ -121,8 +121,8 @@ Naming
    Do not use special characters or spaces
 
 
-Usage
------
+Usage Guides
+------------
 
 - Avoid specifying the resolution of the image or its alignment, so that the theme can handle the images consistently
   and provide the best layout across different screen sizes.
@@ -130,6 +130,31 @@ Usage
   it is better to use a single image that shows all of the relevant area
   (rather than multiple images for each icon or button) placed at the top of the section you are writing,
   and then explain the features in the order that they appear in the image.
+
+
+Videos
+======
+
+Videos from YouTube and Vimeo can be embedded using:
+
+.. code-block:: rst
+
+   .. youtube:: ID
+
+   .. vimeo:: ID
+
+The ``ID`` is found in the video's URL, e.g:
+
+- The ID for ``https://www.youtube.com/watch?v=Ge2Kwy5EGE0`` is ``Ge2Kwy5EGE0``
+- The ID for ``http://vimeo.com/15837189`` is ``15837189``
+
+
+Usage Guides
+------------
+  
+- Avoid adding videos which rely on voice, as this is difficult to translate.
+- Do not embed video tutorials as a means of explaining a feature, the writing itself should explain it adequately
+  (though you may include a link to the video at the bottom of the page under the heading ``Tutorials``).
 
 
 Useful Constructs
