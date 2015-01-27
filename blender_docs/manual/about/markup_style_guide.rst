@@ -83,8 +83,8 @@ and line numbers can be optionally shown with the ``:linenos:`` option.
       def some_function():
           ...
 
-Figures
-=======
+Images
+======
 
 Figures should be used to place images:
 
@@ -96,21 +96,40 @@ Figures should be used to place images:
       Image Caption
 
 
+Files
+-----
+
+No Caps, No Gaps
+   Lower case filenames, underscore between words.
+Sort Usefully
+   Order naming with specific identifiers at the end.
+Format
+   Use ``.png`` for images that have solid colors such as screenshots of the Blender interface,
+   and ``.jpg`` for images with a lot of color variance, such as sample renders and photographs.
+
+   Do not use animated ``.gif`` files, these are hard to maintain, can be distracting
+   and are usually large in file size. If a video is needed, use YouTube or Vimeo.
+Location
+   Place the image in the ``manual/images`` folder. Use no other subfolders.
+Naming
+   Image files should be named: ``chapter_subsection_id.png``, eg:
+
+   - ``render_cycles_lighting_example1.jpg``
+   - ``interface_intro_splash.jpg``
+   - ``interface_ui_panel.jpg``
+     
+   Do not use special characters or spaces
+
+
+Usage
+-----
+
 - Avoid specifying the resolution of the image or its alignment, so that the theme can handle the images consistently
   and provide the best layout across different screen sizes.
-- Use ``.png`` for images that have solid colors such as screenshots of the Blender interface,
-  and ``.jpg`` for images with a lot of color variance, such as sample renders and photographs.
-- Place the image in the ``manual/images`` folder. Use no other subfolders.
-- Use the following naming convention: :samp:`{chapter}_{subsection}_{name}.{format}`
-
-   + format is *png* or *jpg*
-   + use lowercase names, separated by underscores
-   + do not use special characters or spaces
-   + examples:
-
-      + render_cycles_lighting_example1.jpg
-      + interface_intro_splash.jpg
-      + interface_ui_panel.jpg
+- When documenting a panel or section of the UI,
+  it is better to use a single image that shows all of the relevant area
+  (rather than multiple images for each icon or button) placed at the top of the section you are writing,
+  and then explain the features in the order that they appear in the image.
 
 
 Useful Constructs
@@ -205,24 +224,6 @@ By default a table of contents should show two levels of depth.
       introduction.rst
       perspective.rst
       depth_of_field.rst
-
-
-Image Files
-===========
-
-Flat Structure
-   Quick to browse, preview thumbnails.
-No Caps, No Gaps
-   Lower case filenames, underscore separators.
-Sort Usefully
-   Order naming with specific identifiers at the end.
-
-
-Format should follow: ``$chapter_$subsection_$id.png``, eg:
-
-- ``render_cycles_lighting_example1.jpg``
-- ``interface_intro_splash.jpg``
-- ``interface_ui_panel.jpg``
 
 
 Further Reading
