@@ -24,24 +24,21 @@ with :kbd:`Down` and :kbd:`Up`, activate it by pressing :kbd:`Return`.
 Color Picker
 ============
 
-In Blender, you can choose from **4** types of color pickers; the options are:
-   *Circle* (Default), *Square (HS + V)* , *Square (SV + H)* and *Square (HV + S)*
+All of the Color picker types have the common *RGB*, *HSV* and *Hex* options to show values.
 
+Blender uses ``0 - 1.0`` values to express colors for *RGB* and *HSV* values.
+
+Some colors also define an alpha value (*A*), below the color sliders.
+
+You can optionally use hexidecimal *(Hex)* values,
+expressed as (``RRGGBB``), a common way to represent colors for HTML.
 
 For more information about how to select the type of color picker,
 please go to the :doc:`System </preferences/system>` preferences page.
 
 
-   All of the Color picker types have the common *RGB*, *HSV* and *Hex* options to show values.
-   Optionally, depending on the operation,
-   another slider for Alpha control is added at the bottom of the color picker.
+.. note:: Blender corrects Gamma by default
 
-
-   Blender uses Floating point values to express colors for *RGB* and *HSV* values.
-   The *Hex* values are expressed in the same way HTML colors are expressed.
-
-
-   Note that Blender corrects Gamma by default;
    for more information about how to disable Gamma correction in Blender,
    please go to the :doc:`Color Management and Exposure </render/post_process/cm_and_exposure>` page.
 
@@ -213,7 +210,7 @@ The *Curve Widget* is found in several places throughout Blender, such as:
 - Vector Curves node
 - Paint/Sculpt brush falloff
 - Color Management curves
-  
+
 The purpose of the *Curve Widget* is to allow the user to modify an input
 (such as an image) in an intuitive manner by
 smoothly adjusting the values up and down using the curve.
@@ -231,9 +228,12 @@ Like all curves in Blender, the curve of the *Curve Widget* is controlled using 
 By default there are two control points: one at ``0.0, 0.0`` and one at ``1.0, 1.0``,
 meaning the input is mapped directly to the output (unchanged).
 
-To **move** a control point, simply click and drag it around.
-To **add** a new control point, click anywhere on the curve where there is not already a control point.
-To **remove** a control point, select it and click the |delete-button| button at the top right.
+To **move** a control point
+   Simply click and drag it around.
+To **add** a new control point
+   Click anywhere on the curve where there is not already a control point.
+To **remove** a control point
+   select it and click the |delete-button| button at the top right.
 
 
 Controls
@@ -305,5 +305,41 @@ List View
 
 .. Document list view - vertex groups, UV Layers, they have search filtering, rename, scroll, resize etc.
 
-TODO.
+.. figure:: /images/extended_controls_list_view_filter.png
+
+At the bottom of a list view (like the ones found in the object data properties)
+there are controls for filtering and sorting and resizing.
+
+
+Rename
+   By pressing (:kbd:`Ctrl`, :kbd:`LMB`) over an item's name, you can edit the text-field.
+   This can also be achieved by double clicking.
+
+Resize
+   The list view can be resized to show more or less items.
+   Hover the mouse over the handle.
+
+   Click and drag the handle to expand or shrink the list.
+
+Filter
+   Click the *Show filtering options* button to toggle filter option buttons.
+
+   Type part of a list item's name in the filter text box to filter items by part of their name.
+
+   Filter Include
+      When the icon below is shown items that match the text will be the only ones visible.
+   Filter Exclude
+      When the icon below is shown only items that **do not** match will be shown.
+
+Sort
+   Sort list items.
+
+   Alphabetical
+      Sort objects by name.
+
+      This button switches between alphabetical and non-alphabetical ordering.
+   Inverse
+      Sort objects in ascending or descending order. This also applies to alphabetical sorting, if selected.
+
+      This button toggles between ascending and descending order.
 
