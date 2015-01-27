@@ -353,7 +353,7 @@ Directory and file prefix to store baked surface meshes.
 
 This is similar to the animation output settings, only selecting a file is a bit special:
 when you select any of the previously generated surface meshes
-(e.g.  ``test1_fluidsurface_final_0132.bobj.gz``),
+(e.g. ``test1_fluidsurface_final_0132.bobj.gz``),
 the prefix will be automatically set (``test1_`` in this example).
 This way the simulation can be done several times with different settings,
 and allows quick changes between the different sets of surface data.

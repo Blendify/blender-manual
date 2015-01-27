@@ -54,16 +54,14 @@ Pressing :kbd:`F` again toggles the fake user assignment.
 Performing this action is the same as clicking the *F* button next to material/image/... names.
 
 
-Outliner and OOPS Schematic
-***************************
+Outliner
+********
 
 You can easily inspect the contents of your file by using the *Outliner* window.
 This window displays the Blender data system (:doc:`fully documented here </data_system/the_outliner>`).
 This window offers two views of the database.
 The *Outliner* view allows you to do simple operations on the objects. These operations include selecting,
-renaming, deleting and linking. The *OOPS Schematic* (Object-Oriented Programming System)
-view allows you to easily see how datablocks are linked.
-You can filter the view by using buttons found in the header.
+renaming, deleting and linking.
 
 
 Users (Sharing)
@@ -87,12 +85,11 @@ You will notice a "2" next to the name of the material, indicating that there ar
 Fake User
 =========
 
-Remember that Blender does not save datablocks that are not linked to anything in the
-*current* file. If you're building a ".blend" file to serve as a library of things that you
-intend to link-to from *other* files,
+Remember that Blender does not save datablocks that are not linked to anything in the *current* file.
+If you're building a ``.blend`` file to serve as a library of things that you intend to link-to from *other* files,
 you'll need to make sure that they don't accidentally get deleted from the current
-(the library) file. Do this by giving the datablocks a "fake user,
-" by hitting the *F* button next to the name of the datablock.
+(the library) file. Do this by giving the datablocks a "fake user",
+by pressing the *F* button next to the name of the datablock.
 This prevents the user count from ever becoming zero: therefore,
 the datablock will not be deleted.
 (Blender does not keep track of how many other files link to this one.)
@@ -112,10 +109,10 @@ Further information on working with scenes can be found :doc:`here </data_system
 Appending or Linking Across Files
 *********************************
 
-The content of one .blend file is easily accessed and put into your current file by using the *File* ?
-*Append* function (accessed at any time by :kbd:`Shift-F1`).
-To find out more about how to copy or link objects across .blend files,
-:doc:`click here </data_system/linked_libraries>`.
+The content of one ``.blend`` file is easily accessed and put into your current file by using
+:menuselection:`File --> Append` or :menuselection:`File --> Link`
+To find out more about how to copy or link objects across ``.blend`` files,
+see :doc:`click here </data_system/linked_libraries>`.
 
 
 Proxy Objects
@@ -138,10 +135,9 @@ Pack and Unpack Data
 Blender has the ability to encapsulate (incorporate)
 various kinds of data within the .blend file that is normally saved outside of the ``.blend`` file.
 For example, an image texture that is an external ``.jpg`` file can be
-put "inside" the .blend file via *File* → *External Data* →
-*Pack into .blend file*. When the .blend file is saved,
-a copy of that ``.jpg`` file is put inside the .blend file.
-The .blend file can then be copied or emailed anywhere, and the image texture moves with it.
+put "inside" the ``.blend`` file via :menuselection:`File --> External Data --> Pack into .blend file`.
+When the .blend file is saved, a copy of that ``.jpg`` file is put inside the ``.blend`` file.
+The ``.blend`` file can then be copied or emailed anywhere, and the image texture moves with it.
 
 You know that an image texture is packed because you will see a little "Christmas present gift
 box" displayed in the header.
@@ -151,11 +147,10 @@ Unpack Data
 ===========
 
 When you have received a packed file,
-you can *File* → *External Data* → *Unpack into Files...*
-. You will be presented with the option to create the original directory structure or put
+you can :menuselection:`File --> External Data --> Unpack into Files...`.
+You will be presented with the option to create the original directory structure or put
 the file in the ``//`` (directory where the .blend file is). Use "original locations"
 if you will be modifying the textures and re-packing and exchanging .blend files,
 so that when you send it back and the originator unpacks,
 his copies of the textures will be updated.
-
 
