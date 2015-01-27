@@ -4,7 +4,7 @@ Buttons and Controls
 ********************
 
 Buttons and other controls can be found in almost every
-:doc:`Window </getting_started/basics/interface/window_types>` of the Blender
+:doc:`Window </editors/index>` of the Blender
 interface. The different types of controls are described below.
 
 

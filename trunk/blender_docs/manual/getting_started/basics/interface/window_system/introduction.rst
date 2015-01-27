@@ -66,7 +66,7 @@ The Info Window is found at the top of the Default Scene and has the following c
 
 Window/Editor Type Selector
    The red shaded area allows you to change the
-   :doc:`Window/Editor Type </getting_started/basics/interface/window_types>`.
+   :doc:`Window/Editor Type </editors/index>`.
    This region is found on every Window.
 Menu options
    The dark blue shaded area provides access to the main menu options.
@@ -112,7 +112,7 @@ Cube Mesh
    By default, a new installation of Blender will always start with a Cube *Mesh*
    sitting in the center of Global 3D space (in the picture above, it has been moved).
    After a while, you will most likely want to change the "Default" settings;
-   this is done by :doc:`configuring Blender </preferences>` as you would want it
+   this is done by :doc:`configuring Blender </preferences/index>` as you would want it
    on startup and then saving it as the "Default" using :kbd:`Ctrl-U` (*Save Default Settings*).
 
 Light (of type Lamp)
@@ -149,7 +149,7 @@ Read more about :doc:`Blender headers » </getting_started/basics/interface/wind
 Window/Editor Type Selector
    .. figure:: /images/Icon-library_3D-Window_Editor-type.jpg
 
-   Allows you to change the :doc:`type of Window </getting_started/basics/interface/window_types>`.
+   Allows you to change the :doc:`type of Window </editors/index>`.
    This option can be found in every window header.
    For example, if you want to see the *Outliner* window you would click and select it.
 
@@ -169,7 +169,7 @@ Viewport Shading
 
    Blender renders the 3D window using `OpenGL <http://en.wikipedia.org/wiki/OpenGL>`__.
    You can select the type of
-   :doc:`Viewport shading </getting_started/basics/navigating/3d_view_options#view_shading>`
+   :ref:`Viewport shading <view_shading>`
    that takes place by clicking this button and selecting from a variety of shading
    styles including simple bounding boxes and complex textures.
    It is recommended that you have a powerful graphics card if you are going to use the Textured style.

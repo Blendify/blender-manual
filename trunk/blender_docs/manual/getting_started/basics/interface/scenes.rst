@@ -79,7 +79,7 @@ Link Object Data
    If you want to make changes to an Object in the new Scene independently of the Objects in the other Scenes, you
    will have to manually make the object in the new Scene a "single-user" copy by :kbd:`LMB` the number in the
    *Object Data* panel of the Properties Window.
-   More information at the :doc:`Window Type </getting_started/basics/interface/window_types>` page.
+   More information at the :doc:`Window Type </editors/index>` page.
    This has the effect of making a new independent copy of the ObData.
 
 
