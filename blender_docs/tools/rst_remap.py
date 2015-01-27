@@ -25,6 +25,7 @@ General purpose tool for remapping directory structure of RestructuredText docum
 
 This tool allows you to snapshot the structure, move files and directories about,
 then finish the operation and all :doc:`... </path/to/file>` roles will be updated automatically.
+
 """
 
 
@@ -180,8 +181,7 @@ def main(argv=sys.argv):
         remap_finish(base_path)
     else:
         print(__doc__)
-        if "--help" not in argv:
-            print("Pass either 'start' or 'finish' as arguments")
+        print("Pass either 'start' or 'finish' as arguments")
 
 
 if __name__ == "__main__":
