@@ -1,7 +1,7 @@
 
-******************************
-General Usage of Input Devices
-******************************
+*************
+Input Devices
+*************
 
 Blender's workflows are optimized for parallel usage of mouse and keyboard.
 That's why we have evolved the 'golden rule':
@@ -74,6 +74,7 @@ This manual uses the following conventions to describe user input:
 Other keys are referred to by their names, such as :kbd:`Esc`, :kbd:`Tab`, :kbd:`F1` to :kbd:`F12`.
 Of special note are the arrow keys, :kbd:`Left`, :kbd:`Right` and so on.
 
+.. _mouse_button_emulation:
 
 Mouse Button Emulation
 ======================

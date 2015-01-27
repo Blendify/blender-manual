@@ -12,8 +12,7 @@ Overview
    :maxdepth: 1
 
    introduction.rst
-   keyboard_and_mouse.rst
-   keyboard_and_mouse.rst
+   input_devices.rst
    internationalization.rst
 
 
