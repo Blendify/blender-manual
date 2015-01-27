@@ -55,8 +55,7 @@ to change to the previous screen, press :kbd:`Ctrl-Left`.
 By default, each screen layout 'remembers' the last :doc:`scene </getting_started/basics/interface/scenes>`
 it was used on. Selecting a different layout will switch to the layout **and** jump to that scene.
 
-All changes to windows, as described in :doc:`Window system </getting_started/basics/interface/window_system>` and
-:doc:`Window types </getting_started/basics/interface/window_types>`, are saved within one screen.
+All changes to windows, as described in :doc:`Editor types </editors/index>`, are saved within one screen.
 If you change your windows in one screen, other screens won't be affected.
 
 

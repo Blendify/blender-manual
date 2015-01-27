@@ -281,7 +281,7 @@ International Fonts
 
 
    Blender supports I18N for internationalization, for more information,
-   see: :doc:`Internationalization </getting_started/basics/interface/internationalization>` page.
+   see: :doc:`Internationalization </preferences/internationalization>` page.
    For more Information on how to load International fonts,
    see: :doc:`Editing Texts </modeling/texts/editing>` page.
 

@@ -3,6 +3,8 @@
 View Settings
 *************
 
+.. _view_shading:
+
 View Shading
 ============
 
@@ -88,7 +90,7 @@ View
 ----
 
 Lens
-   Control the focal length of the 3d view camera in millimeters, unlike a :doc:`rendering camera </render/camera>`
+   Control the focal length of the 3d view camera in millimeters, unlike a :doc:`rendering camera </render/camera/index>`
 
 Lock to Object
    By entering the name of an object in the *Object* field, you lock your view to this object, i.e.

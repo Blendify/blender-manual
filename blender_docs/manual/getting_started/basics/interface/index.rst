@@ -13,7 +13,6 @@ Overview
 
    introduction.rst
    input_devices.rst
-   internationalization.rst
 
 
 Window Controls
@@ -23,7 +22,6 @@ Window Controls
    :maxdepth: 1
 
    window_system/index.rst
-   window_types.rst
    screens.rst
    scenes.rst
    modes.rst

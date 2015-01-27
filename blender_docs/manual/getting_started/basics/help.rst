@@ -79,7 +79,7 @@ You can also use Blender Search to generate the file. The text will list the ava
 While Blender is generating this list, the *Info Window* will change,
 showing a message for the operation (See Fig: Info Window - Operator Cheat Sheet ).
 To read the Text, switch to the Blender *Text Editor* Window,
-using the :doc:`Window type Selector </getting_started/basics/interface/window_types>`, and then,
+using the :doc:`Editor type Selector </editors/index>`, and then,
 clicking on the button *Browse Text to be Linked* of the Text Editor, your text block will be shown in the Editor.
 The file will be in your list of Text-block, named as ``OperatorsList.txt``,
 if the file is already generated, Blender will add a numeric suffix for the subsequent ones.
@@ -99,7 +99,7 @@ Creates a ``system-info.txt`` text block, which you can access in the Blender *T
 The text lists various key properties of your system and Blender, which can be useful in diagnosing problems.
 
 To read the Text, switch to the Blender *Text Editor* Window,
-using the :doc:`Window type Selector </getting_started/basics/interface/window_types>`, and then,
+using the :doc:`Editor type Selector </editors/index>`, and then,
 clicking on the button *Browse Text to be Linked* of the Text Editor, your text block will be shown in the Editor.
 The ``system-info.txt`` will be in your list of Text-blocks.
 
@@ -201,7 +201,7 @@ Blender Search
 
 The Blender Search feature, called the *Search Menu*,
 Activate by pressing :kbd:`Spacebar`, Blender will present you with a search popup,
-no matter which Blender Window your Mouse pointer is located
+no matter at which Blender Editor your Mouse pointer is located
 (except the *Text Editor* Window and *Python console*),
 and a field for you to type in.
 Just type what you need and Blender will present you a list of available options.
