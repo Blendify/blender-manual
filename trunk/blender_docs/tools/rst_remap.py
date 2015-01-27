@@ -26,6 +26,13 @@ General purpose tool for remapping directory structure of RestructuredText docum
 This tool allows you to snapshot the structure, move files and directories about,
 then finish the operation and all :doc:`... </path/to/file>` roles will be updated automatically.
 
+Usage:
+
+1.) rst_remap.py start
+2.) # Reorganise the document structure
+3.) rst_remap.py finish
+
+The tool maintains the document structure in the file manual/rst_map.data
 """
 
 
