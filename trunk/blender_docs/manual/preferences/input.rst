@@ -87,7 +87,7 @@ Emulate 3 Button Mouse
    This functionality can be emulated with key/mousebutton combos.
    This option is only available if *Select With* is set to *Right*.
    Read more about
-   :doc:`Emulating a 3 button mouse </getting_started/basics/interface/keyboard_and_mouse#mouse_button_emulation>`.
+   :ref:`Emulating a 3 button mouse <mouse_button_emulation>`.
 Continuous Grab
    Allows moving the mouse outside of the view (for translation, rotation, scale for example).
 Drag Threshold
