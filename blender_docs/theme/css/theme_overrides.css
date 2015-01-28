@@ -1,0 +1,45 @@
+/*
+This stylesheet is applied after the theme's default one,
+and thus any overrides or additions can be added here.
+
+More info:
+    http://sphinx-doc.org/extdev/appapi.html?highlight=add_stylesheet#sphinx.application.Sphinx.add_stylesheet
+    https://github.com/snide/sphinx_rtd_theme/issues/117#issuecomment-41571653
+*/
+
+/* kbd role */
+.kbd.docutils.literal {
+    color: #333;
+    font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+    font-size: 1em;
+}
+
+ /* Ensure background of input fields is light color even when a local theme wants it to be dark */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="url"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="week"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="color"] {
+    background-color:#FCFCFC;
+}
+
+/* Reference admonition */
+.rst-content .refbox .admonition-title {
+    background: #bbb;
+}
+.rst-content .refbox {
+    -webkit-font-smoothing: antialiased;
+    padding: 12px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    background: #e3e3e3;
+}
