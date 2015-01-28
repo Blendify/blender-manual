@@ -17,6 +17,13 @@ Rules of thumb:
 
   | *"Reloading the file will probably fix the problem"*
   | *"Most people don't use this option because ..."*
+- Avoid including specific details such as:
+
+  | *Blender has 23 different kinds of modifiers.*
+  | *Enabling previews adds 65536 bytes to the size of each Blend file
+    (unless its compressed).*
+
+  These details aren't useful for users to memorize and they become quickly out-dated.
 - Avoid *Product Placement* - unnecessarily promoting software or hardware brands.
   Keep content vendor-neutral where possible.
 - Avoid technical explanations about the mathematical/algorithmic implementation of a feature
