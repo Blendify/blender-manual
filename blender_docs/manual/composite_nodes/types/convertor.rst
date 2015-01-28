@@ -515,7 +515,7 @@ HSV
    Three values, often considered as more intuitive than the RGB system (nearly only used on computers):
 
    Hue
-      the **Hue** of the color (in some way, choose a 'color' of the rainbow);
+      the **Hue** of the color (choose a color of the rainbow);
    Saturation
       the **quantity** of hue in the color (from desaturate - shade of gray - to saturate - brighter colors)
    Value: the **luminosity** of the color

@@ -4,9 +4,8 @@ Material Vector Nodes
 *********************
 
 Vector nodes manipulate information about how light interacts with the material,
-multiplying vector sets, and other wonderful things that normal humans barely comprehend
-(except math geniuses, who may not be considered «normal»). Even if you aren't a math wiz,
-you'll find these nodes to be very useful.
+multiplying vector sets, and other wonderful things which can become quite advanced.
+Even if you don't have experience with vector maths, you'll find these nodes to be very useful.
 
 Vectors, in general, are two or three element values, for example,
 surface normals are vectors. Vectors are also important for calculating shading.

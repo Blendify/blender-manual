@@ -56,7 +56,7 @@ Rendering an image using ''OpenGL Render''
    :class: refbox
 
    | Mode:     All modes
-   | Hotkey:   Undefined -You can add one for your :doc:`Keymap » </preferences/input>`
+   | Hotkey:   Undefined -You can add one for your :doc:`Keymap </preferences/input>`
 
 
 To start an *OpenGL render* you can use any of the following options:
@@ -178,7 +178,7 @@ Rendering an animation using ''OpenGL Render''
    :class: refbox
 
    | Mode:     All modes
-   | Hotkey:   Undefined -You can add one for your :doc:`Keymap » </preferences/input>`
+   | Hotkey:   Undefined -You can add one for your :doc:`Keymap </preferences/input>`
 
 
 To Render an animation using *OpenGL Render*, you can use any of the following options:
@@ -201,7 +201,7 @@ Showing Only Rendered Objects
    :class: refbox
 
    | Mode:     All modes
-   | Hotkey:   Undefined - You can add one for your :doc:`Keymap » </preferences/input>`
+   | Hotkey:   Undefined - You can add one for your :doc:`Keymap </preferences/input>`
 
 
 .. figure:: /images/Manual-Vitals-Quick-Render-Display-Only-Render.jpg

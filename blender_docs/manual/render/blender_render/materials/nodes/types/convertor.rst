@@ -404,8 +404,7 @@ Outputs
 -------
 
 H
-   Value of the hue color channel,
-   separated out by the node (in some way, choose a «color» of the rainbow).
+   Value of the **hue** color channel, separated out by the node (choose a color of the rainbow).
 S
    Value of the saturation color channel,
    separated out by the node (the *quantity* of hue in the color

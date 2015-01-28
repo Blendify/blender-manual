@@ -40,9 +40,9 @@ to change the properties of objects as a function of time.
 Tutorials
 =========
 
-:doc:`Create the bird logo with Bezier Curves » </ls/modeling/curves/bézier>`
+:doc:`Create the bird logo with Bezier Curves </ls/modeling/curves/bézier>`
 
-:doc:`Skinning: Making a surface with two or more curves » </ls/modeling/surfaces/skinning>`
+:doc:`Skinning: Making a surface with two or more curves </ls/modeling/surfaces/skinning>`
 
 
 Curve Primitives
@@ -207,9 +207,9 @@ Path/Curve-Deform
    The *Radius, Stretch* and *Bounds Clamp* options control how Objects use the
    Curve and are dealt with in more detail in the appropriate links below.
 
-:doc:`Read more about Basic Curve Editing » </modeling/curves/editing/introduction>`
-:doc:`Read more about Paths » </animation/techs/object/path>`
-:doc:`Read more about Curve Deform » </modeling/curves/editing/advanced>`
+:doc:`Read more about Basic Curve Editing </modeling/curves/editing/introduction>`
+:doc:`Read more about Paths </animation/techs/object/path>`
+:doc:`Read more about Curve Deform </modeling/curves/editing/advanced>`
 
 
 Geometry
@@ -296,7 +296,7 @@ Start Bevel Factor and End Bevel Factor
    with a 50% Start Bevel Factor (middle) and with a 25% End Bevel Factor (right).
 
 
-:doc:`Read more about Advanced Curve Editing » </modeling/curves/editing/advanced>`
+:doc:`Read more about Advanced Curve Editing </modeling/curves/editing/advanced>`
 
 
 Path Animation
@@ -305,7 +305,7 @@ Path Animation
 The Path Animation settings can be used to determine how Objects move along a certain path.
 See the link below for further information.
 
-:doc:`Read more about utilizing Curves for paths during animation » </animation/techs/object/path>`
+:doc:`Read more about utilizing Curves for paths during animation </animation/techs/object/path>`
 
 
 Active Spline
