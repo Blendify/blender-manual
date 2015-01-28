@@ -28,11 +28,11 @@ then finish the operation and all :doc:`... </path/to/file>` roles will be updat
 
 Usage:
 
-1.) rst_remap.py start
-2.) # Reorganise the document structure
-3.) rst_remap.py finish
+ 1) rst_remap.py start
+ 2) # Reorganise the document structure, rename files.
+ 3) rst_remap.py finish
 
-The tool maintains the document structure in the file manual/rst_map.data
+note: you can't change the condense of the files you're remapping.
 """
 
 
