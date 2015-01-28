@@ -8,7 +8,7 @@ Drawing With Grease Pencil
 - Enable the *Grease Pencil* by clicking *Draw, Line, Poly or Erase* from the Toolshelf (:kbd:`T`).
   A new layer will be automatically added for you to draw on.
 - A new layer can be added from the *Grease Pencil Properties panel*.
-  This panel can also be used to customise the color, opacity and thickness of the pencil lines.
+  This panel can also be used to customize the color, opacity and thickness of the pencil lines.
   Changes to these settings will affect all strokes on the current layer.
 
 
@@ -159,18 +159,35 @@ Select
 Grease pencil strokes are formed from a series of connected vertex points.
 To make changes, first select points on the strokes that you want to edit.
 You can only select points on the active layer.
-The selected points are hilited as in the image above.
+The selected points are highlighted as in the image above.
 
 .. hint::
 
    Set the layer's *Stroke Thickness* to 1 to make the points more visible.
 
-*Select All* (:kbd:`A`) *Border Select* (:kbd:`B`) *Circle Select* (:kbd:`C`) *Select Linked* (:kbd:`Ctrl-L`) *Select More* (:kbd:`Ctrl-NumpadPlus`) *Select Less* (:kbd:`Ctrl-NumpadMinus`)
-   Use the mouse to select the points, or one of the selection buttons in the panel as detailed in
-   :doc:`Basic Selection </modeling/meshes/selecting/basics>`.
 
-:kbd:`Alt-LMB` Select Stroke
-   Instead of a single point, select all connected points on the stroke.
+Use the mouse to select the points, or one of the selection buttons in the panel as detailed in
+:doc:`Basic Selection </modeling/meshes/selecting/basics>`.
+
+Various selection functions similar to those available when editing meshes can be used:
+
+.. list-table::
+   :stub-columns: 1
+
+   * - Select All
+     - :kbd:`A`
+   * - Border Select
+     - :kbd:`B`
+   * - Circle Select
+     - :kbd:`C`
+   * - Select Linked
+     - :kbd:`Ctrl-L`
+   * - Select More
+     - :kbd:`Ctrl-NumpadPlus`
+   * - Select Less
+     - :kbd:`Ctrl-NumpadMinus`
+   * - Select Stroke
+     - :kbd:`Alt-LMB`
 
 
 Edit
@@ -180,7 +197,7 @@ Edit
    Choose from:
 
    - Points - delete the selected points, leaving a gap in the stroke
-   - Disolve - reconnect the ends so there is no gap in the stroke
+   - Dissolve - reconnect the ends so there is no gap in the stroke
    - Strokes - delete the entire stroke containing any selected points
    - Frame - delete a frame when doing :doc:`Animation of the Sketches </grease_pencil/layers_and_animation>`.
 *Duplicate* (:kbd:`Shift-D`)
