@@ -12,7 +12,7 @@ Adding object - menu, manual selection - is under last added object... or shortc
 :kbd:`Shift-A`.
 
 Edit mode:
-adding object → addin mesh, e.g. final merging into one object.
+adding object --> addin mesh, e.g. final merging into one object.
 
 center for adding: X 3D curson. If you need to center cursor.
 just press :kbd:`Shift-C`, or edit in the N tools menu cursor coordinates x,y,z.

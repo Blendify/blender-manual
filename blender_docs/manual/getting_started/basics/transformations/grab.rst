@@ -7,7 +7,7 @@ Grab/Move
    | Mode:     *Object* Mode, *Edit* Mode, and *Pose* Mode for the 3D View;
      *UV/Image Editor* Tools, *Sequence Editor*, *Dopesheet*,
      and *Graph Editor* for other specific types of Grab/Move operation.
-   | Menu:     Context Sensitive, Object Based → *Transform* → *Grab/Move*
+   | Menu:     Context Sensitive, Object Based --> *Transform* --> *Grab/Move*
    | Hotkey:   :kbd:`G` or combinations for specific Axis constraint
 
 

@@ -77,7 +77,7 @@ Dimension
 Lacunarity
    Lacunarity controls the scaling of each layer of the Musgrave texture,
    meaning that each additional layer will have a scale that is the inverse of the value which shows on the button.
-   i.e. Lacunarity = 2 → Scale = 1/2 original. Range: 0 to 6.
+   i.e. Lacunarity = 2 --> Scale = 1/2 original. Range: 0 to 6.
 Octaves
    Octave controls the number of times the original noise pattern is overlayed on itself and
    scaled/contrasted with the fractal dimension and lacunarity settings. Range: 0 to 8.

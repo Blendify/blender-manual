@@ -63,7 +63,7 @@ so switch to the top view with :kbd:`Numpad7`.
 
 
 Place the cursor along the center of the profile by selecting one of the vertices along the
-center, and snapping the 3D cursor to that location with :menuselection:`[shift][S] --> Cursor →
+center, and snapping the 3D cursor to that location with :menuselection:`[shift][S] --> Cursor -->
 Selection`. (*Glass profile, top view in* *Edit* *mode, just before spinning*)
 shows the wine glass profile from top view, with the cursor correctly positioned.
 

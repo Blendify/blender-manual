@@ -62,7 +62,7 @@ please go to the :doc:`System </preferences/system>` preferences page.
 
 
    Square (HS + V)
-      Hue, Saturation plus Value **→** A full gamut of colors is always shown.
+      Hue, Saturation plus Value **-->** A full gamut of colors is always shown.
       Brightness is subtracted from the
       base color chosen on the square of the color picker moving the slider to the left.
       For operations that are capable of using Alpha,
@@ -77,7 +77,7 @@ please go to the :doc:`System </preferences/system>` preferences page.
 
 
    Square (SV + H)
-      Saturation, Value plus Hue **→** A full Gamut of colors is
+      Saturation, Value plus Hue **-->** A full Gamut of colors is
       always shown at the bar in the middle of the color picker.
       Colors are adjusted using the a range of brightness of the
       base color chosen at the color bar in the middle of the picker.
@@ -93,7 +93,7 @@ please go to the :doc:`System </preferences/system>` preferences page.
 
 
    Square (HV + S)
-      Hue, Value and Saturation *→** A full gamut of colors is always shown at the square of the color picker.
+      Hue, Value and Saturation *-->** A full gamut of colors is always shown at the square of the color picker.
       Brightness is added to the base color chosen on the square of the color picker moving the slider to the left.
       For operations that are capable of using Alpha, another slider is added at the bottom of the color picker.
       See Fig. 5 - Color Picker - Square (HV + S)

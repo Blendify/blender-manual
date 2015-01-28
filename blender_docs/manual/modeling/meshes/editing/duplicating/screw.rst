@@ -7,7 +7,7 @@ Screw Tool
    :class: refbox
 
    | Mode:     *Edit Mode*
-   | Panel:    *Edit Mode* → *Mesh Tools* (shortcut :kbd:`T`) → Add → Screw Button
+   | Panel:    *Edit Mode* --> *Mesh Tools* (shortcut :kbd:`T`) --> Add --> Screw Button
 
 
 Introduction
@@ -54,7 +54,7 @@ Usage
 
 - This tool works only with Meshes.
 - In *Edit Mode*, the button for the *Screw* tool operation is located in the *Mesh Tools* Panel,
-  (shortcut :kbd:`T`) → Add → Screw Button.
+  (shortcut :kbd:`T`) --> Add --> Screw Button.
 - To use this tool, you need to create at least one open profile or line to be used as a vector for the height,
   angular vector and to give Blender a direction.
 - The *Screw* function uses two points given by the open line to create an initial vector to calculate the height
@@ -222,7 +222,7 @@ The Spring example
 - In case you have moved your cursor by clicking anywhere in the screen, again place your cursor at the Center,
   using the shortcut :kbd:`Shift-S` choosing *Cursor to Center* or the Transform Panel,
   placing your cursor at ``(0, 0, 0)`` typing directly into the Cursor 3D Location.
-- Add a circle using shortcut :kbd:`Shift-A` and choosing → Mesh → Circle.
+- Add a circle using shortcut :kbd:`Shift-A` and choosing --> Mesh --> Circle.
 - Rotate this circle using the shortcut :kbd:`R-X` and typing ``90`` and :kbd:`Return`.
 - Apply the Rotation using :kbd:`Ctrl-A` and choosing *Rotation*
 - Grab and move this circle to the left ``3`` Blender Units on the ``X`` Axis;

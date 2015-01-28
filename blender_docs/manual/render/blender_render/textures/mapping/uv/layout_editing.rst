@@ -215,10 +215,10 @@ Face Mirror and Rotate UVs
 
 Recall how the orientation of the UV Texture is relative to each face? Well,
 you might find that, for example, the image is upside down or laying on its side. If so,
-use *Face→Rotate UVs* (in the 3D window in Face Select mode)
+use *Face-->Rotate UVs* (in the 3D window in Face Select mode)
 menu to rotate the UVs per face in 90-degree turns.
 
-The *Face→Mirror UVs* to flips the image over like a pankcake in a pan,
+The *Face-->Mirror UVs* to flips the image over like a pankcake in a pan,
 mirroring the UVs per face and showing you the image 'reversed'.
 
 

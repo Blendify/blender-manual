@@ -17,14 +17,14 @@ Collisions
 
 If you change the deflection settings for an object you have to recalculate the particle,
 softbody or cloth system (*Free Cache*), this is not done automatically. You can
-clear the cache for all selected objects with :kbd:`Ctrl-B` → *Free cache selected*.
+clear the cache for all selected objects with :kbd:`Ctrl-B` --> *Free cache selected*.
 
 
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     *Object* Mode
-   | Panel:    *Object* context → *Physics* sub-context → *Collision*
+   | Panel:    *Object* context --> *Physics* sub-context --> *Collision*
 
 
 Options

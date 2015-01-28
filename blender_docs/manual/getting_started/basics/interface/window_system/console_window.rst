@@ -87,7 +87,7 @@ MacOS uses "files" with the .app extension called *applications*.
 These files are actually folders that appear as files in Finder. In order to run Blender you
 will have specify that path to the Blender executable inside this folder,
 to get all output printed to the terminal.
-You can start a terminal from Applications → Utilities.
+You can start a terminal from Applications --> Utilities.
 The path to the executable in the ``.app`` folder is ``./blender.app/Contents/MacOS/blender``.
 
 If you have Blender installed in the Applications folder, the following command could be used,

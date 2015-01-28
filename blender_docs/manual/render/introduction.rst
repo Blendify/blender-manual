@@ -45,7 +45,7 @@ See also the :doc:`Render Window </render/display>`.
 
 A movie is produced by pressing the big *Animation* button.
 The result of a rendering is kept in a buffer and shown in its own window.
-It can be saved by pressing :kbd:`F3` or via the *File→Save Image*
+It can be saved by pressing :kbd:`F3` or via the *File-->Save Image*
 menu using the output option in the *Output* panel.
 Animations are saved according to the format specified, usually as a series of frames in the output directory.
 See :doc:`Output Options </render/output>` and :doc:`Animations </render/workflows/animations>`.

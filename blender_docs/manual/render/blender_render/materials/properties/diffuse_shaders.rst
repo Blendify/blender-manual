@@ -7,7 +7,7 @@ Diffuse Shaders
    :class: refbox
 
    | Mode:     All Modes
-   | Panel:    Shading/Material Context → Diffuse
+   | Panel:    Shading/Material Context --> Diffuse
 
 
 A diffuse shader determines, simply speaking,
@@ -61,7 +61,7 @@ Lambert
    :class: refbox
 
    | Mode:     All Modes
-   | Panel:    Shading/Material Context → Shaders
+   | Panel:    Shading/Material Context --> Shaders
 
 
 .. figure:: /images/Manual-2.5-Material-Shader-Lambert.jpg
@@ -95,7 +95,7 @@ Oren-Nayar
    :class: refbox
 
    | Mode:     All Modes
-   | Panel:    Shading/Material Context → Shaders
+   | Panel:    Shading/Material Context --> Shaders
 
 
 .. figure:: /images/Manual-2.5-Material-Shader-Oren-Nayar.jpg
@@ -134,7 +134,7 @@ Toon
    :class: refbox
 
    | Mode:     All Modes
-   | Panel:    Shading/Material Context → Shaders
+   | Panel:    Shading/Material Context --> Shaders
 
 
 .. figure:: /images/Manual-2.5-Material-Shader-Toon.jpg
@@ -176,7 +176,7 @@ Minnaert
    :class: refbox
 
    | Mode:     All Modes
-   | Panel:    Shading/Material Context → Shaders
+   | Panel:    Shading/Material Context --> Shaders
 
 
 .. figure:: /images/Manual-2.5-Material-Shader-Minnaert.jpg
@@ -215,7 +215,7 @@ Fresnel
    :class: refbox
 
    | Mode:     All Modes
-   | Panel:    Shading/Material Context → Shaders
+   | Panel:    Shading/Material Context --> Shaders
 
 
 .. figure:: /images/Manual-2.5-Material-Shader-Fresnel-vary.jpg

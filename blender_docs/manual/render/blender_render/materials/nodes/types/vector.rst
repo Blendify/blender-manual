@@ -31,7 +31,7 @@ The resulting colorized output can be easily varied by moving the light source
 The (face) normal is the direction of the face in relation to the camera.
 You can use it to do the following:
 
-- Use this node to create a fixed direction → output *Normal*.
+- Use this node to create a fixed direction --> output *Normal*.
 - Calcuate the *Dot* -Product with the *Normal* -Input. The *Dot* -Product is a scalar value (a number).
 
   - If two normals are pointing in the same direction the *Dot* -Product is 1.

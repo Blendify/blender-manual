@@ -51,7 +51,7 @@ Any action used by the NLA first must be turned into an Action strip. This is do
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     Add → Action
+   | Menu:     Add --> Action
 
 
 .. figure:: /images/NLA_Action_Strip.jpg
@@ -68,7 +68,7 @@ Select two or more strips on the same track, and go to
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     Add → Transition
+   | Menu:     Add --> Transition
 
 
 .. figure:: /images/Manual_NLA-Basics_Transition.jpg
@@ -86,7 +86,7 @@ A meta strip can be moved and duplicated like a normal strip.
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     Add → Add Meta-Strips
+   | Menu:     Add --> Add Meta-Strips
    | Hotkey:   :kbd:`Shift-G`
 
 
@@ -108,7 +108,7 @@ A meta strip still contains the underlying strips. You can ungroup a Meta strip.
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     Add → Remove Meta-Strips
+   | Menu:     Add --> Remove Meta-Strips
    | Hotkey:   :kbd:`Alt-G`
 
 
@@ -121,7 +121,7 @@ The contents of Action strips can be edited, but you must be in 'Tweak Mode' to 
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     View → Enter Tweak Mode
+   | Menu:     View --> Enter Tweak Mode
    | Hotkey:   :kbd:`Tab`
 
 
@@ -175,7 +175,7 @@ a strip, go to
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     Edit→ Duplicate Strips
+   | Menu:     Edit--> Duplicate Strips
 
 
 Now, when any strip is tweaked, the others will change too.
@@ -208,7 +208,7 @@ Strip properties can be accessed via the NLA header.
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     View→ Properties
+   | Menu:     View--> Properties
 
 
 Renaming Strips

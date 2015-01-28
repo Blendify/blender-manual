@@ -7,7 +7,7 @@ Color Ramps
    :class: refbox
 
    | Mode:     All Modes
-   | Panel:    Context *Shading* → sub-context *Material* → *Ramps*
+   | Panel:    Context *Shading* --> sub-context *Material* --> *Ramps*
 
 
 In many real life situations — like skin or metals —
@@ -110,7 +110,7 @@ Colorbands
    :class: refbox
 
    | Mode:     All Modes
-   | Panel:    Context *Shading* → sub-context *Material* → *Ramps*
+   | Panel:    Context *Shading* --> sub-context *Material* --> *Ramps*
 
 
 A colorband can contain a gradient through a sequence of many colors (with alpha),

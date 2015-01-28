@@ -272,7 +272,7 @@ Finding ungrouped verts
 You can find ungrouped vertices as follows:
 
 - Press :kbd:`A` once or twice to unselect all vertices.
-- In the footer of the 3D Viewport: Navigate to Select → Ungrouped verts
+- In the footer of the 3D Viewport: Navigate to Select --> Ungrouped verts
 
 
 Keyboard Shortcuts
@@ -284,23 +284,14 @@ Keyboard Shortcuts
    Vertex Groups popup menu
 
 
-In Edit Mode you can type :menuselection:`[ctrl][G]` to a shortcut Menu for adding/removing
-verts to/from groups.
+In Edit Mode you can press :kbd:`Ctrl-G` to a shortcut Menu for adding/removing verts to/from groups.
 The popup menu provides the following functions with obvious functionality:
-
+(also available via :menuselection:`Mesh --> Vertices --> Vertex Groups`)
 
 - Assign to New Group
 - Assign to Active Group
 - Remove from Active Group
 - Remove from All
-
-The following functions should not be located here and might be removed in a future version of
-Blender:
-
-
-- Set Active Group
-- Set Remove Acive Group
-- Set Remove All Groups
 
 
 Vertex Group Management

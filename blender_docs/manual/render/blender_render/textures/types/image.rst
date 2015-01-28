@@ -185,7 +185,7 @@ just create one UV Texture (map) as described in this section. Then,
 create material image textures as described in the procedural materials section.
 Instead of mapping to Original Coordinates (OrCo), map to UV.
 
-Use that map name repeatedly in the Material→Textures→Map Input panel by selecting UV and
+Use that map name repeatedly in the Material-->Textures-->Map Input panel by selecting UV and
 typing the name in the text field. In the example to the right,
 our UV Texture is called "Head" (you may have to expand the image to see the panel settings).
 Then, the image texture shown will be mapped using the UV coordinates.
@@ -299,7 +299,7 @@ Transparent areas of the UV Image show as black.
 
 The top right ball has had a pink vertex color applied to the vertical band of faces
 (in the 3D View window, select the faces in UV Paint mode, switch to Vertex Paint mode,
-pick a pink color, and *Paint→Set Vertex Colors*).
+pick a pink color, and *Paint-->Set Vertex Colors*).
 The finger is mapped to the middle vertical band of faces,
 and VCol and Face Textures are enabled.
 The texture is mapped to Alpha black and multiplies the base material alpha value which is ``1.0``.

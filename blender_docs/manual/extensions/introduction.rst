@@ -53,13 +53,13 @@ All scripts are loaded from the ``scripts`` folder of the
 :doc:`local, system and user paths </getting_started/installing_blender/directorylayout>`.
 
 You can setup an addittional search path for scripts in
-:doc:`User preferences </preferences/file#file_paths>` (*User Preferences* → *File Paths*).
+:doc:`User preferences </preferences/file#file_paths>` (*User Preferences* --> *File Paths*).
 
 
 Installation
 ------------
 
-Add-ons are conveniently installed through Blender in the *User Preferences* →
+Add-ons are conveniently installed through Blender in the *User Preferences* -->
 *Add-ons* window. Click the *Install from File...* button and select the
 ``.py`` or ``.zip`` file.
 

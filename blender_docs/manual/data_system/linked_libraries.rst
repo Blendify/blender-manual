@@ -20,13 +20,13 @@ General Procedure
    :class: refbox
 
    | Mode:     All Modes
-   | Menu:     *File* → *Append or Link*
+   | Menu:     *File* --> *Append or Link*
    | Hotkey:   :kbd:`Shift-F1`
 
 
 The main menu in Blender is located in the *Info* window
 (by default the header located at the top of your screen). From that menu,
-all you have to do is use *File* → *Append or Link*,
+all you have to do is use *File* --> *Append or Link*,
 or press :kbd:`Shift-F1` in your active window.
 The active window will change to a *File Browser*
 (the *Window type* icon looks like a manila folder) selector window. Use this window
@@ -60,7 +60,7 @@ Appending library objects into your current project
 The following procedure appends an object with all its linked data, such as mesh data,
 materials, textures, ..., to the current .blend file.
 
-- Select *File* → *Append or Link*.
+- Select *File* --> *Append or Link*.
 - Locate and select the file that contains the object you want to append (often a "library" file).
 - Navigate to the *Object* section of the file.
 - Select one object from the list using :kbd:`LMB`, multiple objects via :kbd:`RMB`,
@@ -211,7 +211,7 @@ Reusing Node Layouts
 To reuse noodles (node layouts), open the original (source)
 file and create a Group for the set of nodes that you think you want to reuse.
 When you want to import that node group into your current file, :kbd:`LMB` on
-*File* → *Append* or :kbd:`LMB` on *File* →
+*File* --> *Append* or :kbd:`LMB` on *File* -->
 *Link* from the *Info* window header (or press :kbd:`F1` for
 *Append* or :kbd:`Ctrl-Alt-O` for *Link*), and navigate to the file.
 When you dive into the file, there will be a *NodeTree* option.

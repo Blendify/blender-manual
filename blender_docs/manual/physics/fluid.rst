@@ -7,7 +7,7 @@ Fluid Simulation
    :class: refbox
 
    | Mode:     *Object* mode / *Edit mode* (Mesh)
-   | Panel:    *Physics* sub-context → *Fluid*
+   | Panel:    *Physics* sub-context --> *Fluid*
 
 
 Description

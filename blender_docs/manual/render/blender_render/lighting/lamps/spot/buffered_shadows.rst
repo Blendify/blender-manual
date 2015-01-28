@@ -201,8 +201,8 @@ Sample Buffers
 This method offers very good performance because it can be done as a multi-threaded process.
 
 This method supports transparent shadows. To do so, you will first need to setup the shadow
-setting for the object which will receive the transparent shadow. (*Material* →
-*Shadow* → *Cat Buffer Shadows* and *Buffer Bias*)
+setting for the object which will receive the transparent shadow. (*Material* -->
+*Shadow* --> *Cat Buffer Shadows* and *Buffer Bias*)
 
 
 Deep generation method

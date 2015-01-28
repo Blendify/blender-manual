@@ -56,7 +56,7 @@ Strand/Particle
 Sticky
   Uses a mesh's sticky coordinates, which are a form of per-vertex UV co-ordinates.
   If you have made sticky coordinates first (in (usually)
-  Camera View` → :kbd:`Spacebar` → type *Sticky* → choose *Add Sticky* / *Remove Sticky*)
+  Camera View` --> :kbd:`Spacebar` --> type *Sticky* --> choose *Add Sticky* / *Remove Sticky*)
   the texture can be rendered in camera view (so called :doc:`Camera Mapping </ls/textures/uv/camera_mapping>`).
 Window
   The rendered image window coordinates. This is well suited to blending two objects.

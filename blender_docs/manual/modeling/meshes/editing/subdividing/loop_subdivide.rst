@@ -10,7 +10,7 @@ Loop Subdivide
    :class: refbox
 
    | Mode:     *Edit* mode
-   | Panel:    *Editing* context → *Mesh Tools*
+   | Panel:    *Editing* context --> *Mesh Tools*
    | Hotkey:   :kbd:`Ctrl-R`
 
 

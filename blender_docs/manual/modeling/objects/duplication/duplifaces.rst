@@ -7,7 +7,7 @@ DupliFaces
    :class: refbox
 
    | Mode:     *Object* mode
-   | Panel:    *Object* → *Duplication*
+   | Panel:    *Object* --> *Duplication*
 
 
 *Duplication Faces* or *DupliFaces* is the capability to replicate an object on each face of a parent object.

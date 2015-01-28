@@ -54,7 +54,7 @@ http://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.67/FreeStyle#Freestyle
 The Big Picture
 ===============
 
-- Activate FreeStyle by *Properties* window → *Render* tab → *FreeStyle* panel,
+- Activate FreeStyle by *Properties* window --> *Render* tab --> *FreeStyle* panel,
   tick check box. Please note that FreeStyle is only available for the Blender Internal renderer.
 - Freestyle settings are located in the new *Render Layers* context.
 - One render layer can only have one viewmap. A viewmap holds the edge detection settings (Crease Angle,

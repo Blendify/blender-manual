@@ -213,7 +213,7 @@ if you measured the edges with a ruler, they would all be the same.
 
 Orthographic rendering gives a true mathematical render of the shape of the object.
 An Orthographic perspective is what you see in the User View of a 3D window
-(if View→Orthographic is turned on).
+(if :menuselection:`View --> Orthographic` is enabled).
 
 To get an Orthographic render:
 

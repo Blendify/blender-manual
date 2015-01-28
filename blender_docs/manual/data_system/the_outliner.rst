@@ -14,7 +14,7 @@ For example, suppose you sneeze while moving an object; your mouse flies off you
 (gesundheit!) and the object is hurled somewhere off screen into space.
 Simply use the outliner to find it; select it,
 and move back to your 3D window to snap it back to your cursor (:kbd:`Shift-S`
-*→ Selection → Cursor*).
+*--> Selection --> Cursor*).
 
 Another more practical example is to evaluate the impact of a change on related
 :doc:`datablocks </data_system/datablocks>`.
@@ -83,7 +83,7 @@ it is selected and becomes the active object in all other 3D Views.
 Use this feature to find objects in your 3D View, select them in the *Outliner*,
 then zoom to them with :kbd:`NumpadPeriod` or if you don't have a numpad,
 snap and center your cursor on them via :kbd:`Shift-S`
-*→ Cursor → Selection*, and then :kbd:`C`.
+*--> Cursor --> Selection*, and then :kbd:`C`.
 
 
 .. figure:: /images/Manual-2-56-PartIII-Outliner-Activate-Datablock.jpg

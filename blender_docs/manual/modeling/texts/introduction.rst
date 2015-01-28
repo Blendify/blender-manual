@@ -22,7 +22,7 @@ Text Objects
 They share the same object type as curves and surfaces,
 as modern fonts (OpenType, TrueType, etc.) are vectorial, made of curves (generally Béziers).
 
-Blender uses a "Font System" to manage mapping "letter codes → objects representing them in 3D
+Blender uses a "Font System" to manage mapping "letter codes --> objects representing them in 3D
 views". This implies that not only does the font system have its own *built-in* font,
 but it can use external fonts too, including *PostScript Type 1*,
 *OpenType* and *TrueType* fonts. And last but not least,

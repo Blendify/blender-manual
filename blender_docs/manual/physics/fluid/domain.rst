@@ -121,7 +121,7 @@ Time
 
    If you set *Start* time to 3.0, and *End* time to 4.0, you will simulate 1 second of fluid motion.
    That one second of fluid motion will be spread across however-many frames are set in the *Anim* panel
-   (*Scene* context → *Render* sub-context → *Anim* and *Output* panel).
+   (*Scene* context --> *Render* sub-context --> *Anim* and *Output* panel).
 
    This means, for example, that if you have Blender set to make 250 frames at 25 fps, the fluid
    will look like it had already been flowing for 3 seconds at the start of the simulation,
@@ -201,14 +201,14 @@ Viscosity
    So if I take the kinematics values given bellow,
    and try to get the corresponding dynamic values, I have:
    *water: density: about 1000 (kg.m^-3); kinematic viscosity: 1×10^-6 (m^2.s^-1)
-   → dynamic viscosity is 1000 × 1×10^-6 = 1×10^-3 Pa.s, hence 1 cP.
-   → COHERENT
+   --> dynamic viscosity is 1000 × 1×10^-6 = 1×10^-3 Pa.s, hence 1 cP.
+   --> COHERENT
    *Oil:   density: more or less like water, so about 1000; Kinematic viscosity: 5×10^-5
-   → dynamic viscosity is 1000 × 5×10^-5 = 1×10^-2 Pa.s, hence 50 cP, and not 500 cP
-   → NOT COHERENT, unless Oil SAE 50 is ten times heavier than water!
+   --> dynamic viscosity is 1000 × 5×10^-5 = 1×10^-2 Pa.s, hence 50 cP, and not 500 cP
+   --> NOT COHERENT, unless Oil SAE 50 is ten times heavier than water!
    *Honey: density: about 1250 (kg.m^-3); kinematic viscosity: 2×10^-3
-   → dynamic viscosity is 1250 × 2×10^-3 = 2.5 Pa.s, hence 2500 cP, and not 1×10^4 cP
-   → NOT COHERENT, unless honey is five times heavier than water!
+   --> dynamic viscosity is 1250 × 2×10^-3 = 2.5 Pa.s, hence 2500 cP, and not 1×10^4 cP
+   --> NOT COHERENT, unless honey is five times heavier than water!
    *And so on, chocolate syrup density should be of 1×10^4 kg.m^-3 (ten times water density),
    ketchup density should be of 1×10^3 kg.m^-3 (same as water density, coherent I think),
    melting glass density should be of 1×10^12 kg.m^-3 (a thousand million times water density,

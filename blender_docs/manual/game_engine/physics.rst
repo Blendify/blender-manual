@@ -160,7 +160,7 @@ Show Framerate and Profile
 
    A shot of `Manual-BGE-Physics-DancingSticks.blend
    <http://wiki.blender.org/index.php/Media:Manual-BGE-Physics-DancingSticks.blend>`__ with
-   [Game → Show Framerate and Profile] enabled
+   [Game --> Show Framerate and Profile] enabled
 
 
 If you enable :menuselection:`Game --> Show Framerate and Profile`,

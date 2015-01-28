@@ -7,7 +7,7 @@ DupliVerts
    :class: refbox
 
    | Mode:     *Object* mode
-   | Panel:    *Object* → *Duplication*
+   | Panel:    *Object* --> *Duplication*
 
 
 *Duplication Vertices* or *DupliVerts* is the duplication of a base object at the location of the vertices of a mesh.
@@ -64,7 +64,7 @@ Now, the circle is the parent of the monkey; if you move the circle, the monkey 
 
 
 With only the circle selected, enable *Duplication vertices* in the
-*Object* panel→ *Duplication* → *Verts*.
+*Object* panel--> *Duplication* --> *Verts*.
 A monkey head should be placed at every vertex of the circle.
 
 The original monkey head at the center and the parent mesh are still shown in the 3D view but
@@ -100,7 +100,7 @@ This will rotate all base objects according to the vertex normals of the parent 
 
 
 To change the orientation of the duplicated objects, select the base object and in the
-*Object* → *Relations extras* panel change the *Tracking Axes*.
+*Object* --> *Relations extras* panel change the *Tracking Axes*.
 
 Output of various orientations:
 
@@ -122,9 +122,9 @@ Output of various orientations:
 
 .. note::
 
-   The axes of an object can be made visible in the *Object* → *Display* panel.
+   The axes of an object can be made visible in the *Object* --> *Display* panel.
    To display the vertex normals of the parent mesh,
-   tab into edit mode and enable this function in *Properties* (:kbd:`N`)→ *Display*
+   tab into edit mode and enable this function in *Properties* (:kbd:`N`)--> *Display*
    panel where you can also resize the displayed normals as necessary.
 
 
@@ -158,10 +158,10 @@ was adapted to the vertex normals of the parent mesh
 
 As in the previous example, the shape and proportions of the arrangement can now be tweaked.
 
-To turn all duplicates into real objects, simply select the icosphere and *Object* →
-*Apply* → *Make Duplicates Real* (:kbd:`Ctrl-Shift-A`).
+To turn all duplicates into real objects, simply select the icosphere and *Object* -->
+*Apply* --> *Make Duplicates Real* (:kbd:`Ctrl-Shift-A`).
 To make the icosphere and the tentacle a single object,
-make sure they are all selected and go to *Object* → *Join*
+make sure they are all selected and go to *Object* --> *Join*
 (:kbd:`Ctrl-J`).
 
 
