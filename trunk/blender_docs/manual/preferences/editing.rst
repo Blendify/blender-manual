@@ -38,7 +38,7 @@ ObData
 Object
    Any created material will be created as part of the Object datablock.
 
-:doc:`Read more about Blender's Data System » </data_system>`
+:doc:`Read more about Blender's Data System </data_system>`
 
 
 New objects
@@ -63,7 +63,7 @@ Step
 Memory Limit
    Maximum memory usage in Mb (0 is unlimited).
 
-:doc:`Read more about Undo and Redo options » </getting_started/basics/undo_and_redo>`
+:doc:`Read more about Undo and Redo options </getting_started/basics/undo_and_redo>`
 
 
 Grease Pencil

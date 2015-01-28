@@ -116,5 +116,5 @@ Auto Save Temporary File
 Timer
    Time to wait between automatic saves.
 
-:doc:`Read more about Auto Save options » </getting_started/basics/undo_and_redo#save_and_auto_save>`
+:doc:`Read more about Auto Save options </getting_started/basics/undo_and_redo#save_and_auto_save>`
 

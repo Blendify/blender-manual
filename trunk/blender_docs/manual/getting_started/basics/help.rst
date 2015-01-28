@@ -10,7 +10,7 @@ Help system
 
    | Mode:     All modes
    | Menu:     :menuselection:`Help`
-   | Hotkey:   Undefined - You can add one for your :doc:`Keymap » </preferences/input>`
+   | Hotkey:   Undefined - You can add one for your :doc:`Keymap </preferences/input>`
 
 
 Blender has a range of built-in and web-based Help options.

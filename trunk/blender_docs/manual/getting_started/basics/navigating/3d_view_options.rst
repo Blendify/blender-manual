@@ -39,7 +39,7 @@ Solid
    This draw mode is not dependent on scene light sources and can be configured in the *Solid OpenGL lights*
    group of controls from the *System & OpenGL* tab of the *User Preferences* window.
 
-   :doc:`Read more about System Configuration » </preferences/system>`
+   :doc:`Read more about System Configuration </preferences/system>`
 Wireframe
    Objects only consist of lines that make their shapes recognizable (e.g. the edges of meshes or surfaces).
 Bounding Box
@@ -183,7 +183,7 @@ Textured Solid
    Display face assigned textures in solid view.
 Toggle Quad View
    Toggles the four pane 3D view.
-   :doc:`Read more about arranging frames » </getting_started/basics/interface/window_system/arranging_frames>`
+   :doc:`Read more about arranging frames </getting_started/basics/interface/window_system/arranging_frames>`
 
 
 Background Image

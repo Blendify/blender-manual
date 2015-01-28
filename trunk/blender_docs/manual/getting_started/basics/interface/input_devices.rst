@@ -22,7 +22,7 @@ Blender's interface is designed to be used with the following recommended input 
 - A three-button mouse with a scroll wheel
 - A full keyboard with a numeric keypad (NumLock should generally be switched on).
 
-:doc:`Read more about Blender configuration » </preferences>`
+:doc:`Read more about Blender configuration </preferences>`
 
 
 Usage of Mouse Buttons
@@ -65,7 +65,7 @@ This manual uses the following conventions to describe user input:
 
    :kbd:`G` - refers to the lowercase ``g``.
 
-   :kbd:`Shift`, :kbd:`Ctrl` and :kbd:`Alt` are generally specified as modifier keys.
+   :kbd:`Shift`, :kbd:`Ctrl` and :kbd:`Alt` are specified as modifier keys.
 
    :kbd:`Ctrl-W` or :kbd:`Shift-Alt-A` - indicates that these keys should be pressed simultaneously
 
@@ -114,7 +114,7 @@ If you do not have a Numeric Numpad on the side of your keyboard, you may want t
 (uses the numbers at the top of the keyboard instead,
 however removes quick access to layer visibility).
 
-:doc:`Read more about NumPad Emulation on User Preferences page » </preferences/input#numpad_emulation>`
+:doc:`Read more about NumPad Emulation on User Preferences page </preferences/input#numpad_emulation>`
 
 
 Non English Keyboard
@@ -125,5 +125,5 @@ your computer to the UK or US layout as long as you work with Blender.
 Note that you can also change the Blender default keymap and change the default hotkeys.
 However this manual is based on the default keymap.
 
-:doc:`Read more about Blender configuration » </preferences/input>`
+:doc:`Read more about Blender configuration </preferences/input>`
 

@@ -361,7 +361,7 @@ Converting Curve Type
    :class: refbox
 
    | Mode:     *Edit* mode
-   | Panel:    *Curve Tools»Set Spline type*
+   | Panel:    Curve Tools --> Set Spline type
 
 
 .. figure:: /images/Editing_Curves_set-spline-type.jpg

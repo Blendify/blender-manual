@@ -111,7 +111,7 @@ Tool Shelf
 
 :doc:`View Selected </getting_started/basics/navigating/3d_view>` (:kbd:`NumpadPeriod`)
    Zooms the 3D view to encompass all the *selected* objects.
-      :doc:`Read more about Zooming the 3D View » </getting_started/basics/navigating/3d_view#zooming_the_view>`
+      :doc:`Read more about Zooming the 3D View </getting_started/basics/navigating/3d_view#zooming_the_view>`
 
 :doc:`View All </getting_started/basics/navigating/3d_view>` (:kbd:`Home`)
    Zooms the 3D view to encompass *all* the objects in the current scene.
@@ -134,7 +134,7 @@ Select Menu
 
 This menu contains tools for selecting objects.
 
-:doc:`Read more about Selecting » </modeling/objects/selecting>`
+:doc:`Read more about Selecting </modeling/objects/selecting>`
 
 
 Object Menu
@@ -143,7 +143,7 @@ Object Menu
 This menu appears when in Object Mode. In edit mode,
 it will change to the appropriate menu with editing tools.
 
-:doc:`Read more about Objects » </modeling/objects/introduction>`
+:doc:`Read more about Objects </modeling/objects/introduction>`
 
 
 Mode List
@@ -184,7 +184,7 @@ Allows you to change the way 3D objects are displayed in the viewport.
 - Material
 - Rendered
 
-:doc:`Read more about 3D view options » </getting_started/basics/navigating/3d_view_options#view_shading>`
+:doc:`Read more about 3D view options </getting_started/basics/navigating/3d_view_options#view_shading>`
 
 
 Pivot Point Selector
@@ -208,7 +208,7 @@ Using this selector, you can change the pivot point to the location of the:
 Use the *Object Center* to switch between transforming the entire objects,
 or just the position of the objects
 
-:doc:`Read more about Pivot Points » </getting_started/basics/transformations/transform_control/pivot_point>`
+:doc:`Read more about Pivot Points </getting_started/basics/transformations/transform_control/pivot_point>`
 
 
 Transform (Manipulator) Selectors
@@ -247,7 +247,7 @@ cluttered with the whole scene, and still have an ancillary complete view
 Or to have several views with different active cameras. Remember that you can use
 (:kbd:`Ctrl-Numpad0` to make the active object the active camera.
 
-:doc:`Read more about Scenes » </data_system/scenes>`
+:doc:`Read more about Scenes </data_system/scenes>`
 
 
 Snap to Mesh
@@ -256,7 +256,7 @@ Snap to Mesh
 This "magnet" button controls the snapping tools that help with transforming and modeling
 objects.
 
-:doc:`Read more about Snapping » </3d_interaction/transform_control/snap_to_mesh>`
+:doc:`Read more about Snapping </3d_interaction/transform_control/snap_to_mesh>`
 
 
 Render Buttons

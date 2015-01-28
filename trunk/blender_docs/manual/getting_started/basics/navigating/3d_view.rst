@@ -80,11 +80,11 @@ One possibility may be that the :doc:`clipping distance </render/camera#camera_s
 The camera will only show objects that fall within the clipping range.
 
 
-:doc:`Read more about Render perspectives » </render/camera/perspective>`
+:doc:`Read more about Render perspectives </render/camera/perspective>`
 
-:doc:`Read more about Camera View » </getting_started/basics/navigating/camera_view>`
+:doc:`Read more about Camera View </getting_started/basics/navigating/camera_view>`
 
-:doc:`Read more about Camera clipping » </render/camera#camera_settings>`
+:doc:`Read more about Camera clipping </render/camera#camera_settings>`
 
 
 Technical Details
@@ -370,7 +370,7 @@ If you want to be able to rotate each view, you can un-check the *Locked* option
 
 However in sometimes its preferable to split the view, so each can have its own configuration.
 
-:doc:`Read more about splitting windows » </getting_started/basics/interface/window_system/arranging_frames>`
+:doc:`Read more about splitting windows </getting_started/basics/interface/window_system/arranging_frames>`
 
 
 View Clipping Border

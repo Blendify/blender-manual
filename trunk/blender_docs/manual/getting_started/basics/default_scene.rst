@@ -48,7 +48,7 @@ Restoring the Default Scene to Factory Settings
 
    | Mode:     All modes
    | Menu:     :menuselection:`File --> Load factory Settings`
-   | Hotkey:   Undefined, you can add one for your :doc:`Keymap » </preferences/input>`
+   | Hotkey:   Undefined, you can add one for your :doc:`Keymap </preferences/input>`
 
 
 To restore the default scene to the factory settings,

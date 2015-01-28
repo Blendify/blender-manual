@@ -143,7 +143,7 @@ Camera
 This is the header for the 3D window. All windows in Blender have a header,
 although in some cases they may be located at bottom of the window.
 
-Read more about :doc:`Blender headers » </getting_started/basics/interface/window_system/headers>`
+Read more about :doc:`Blender headers </getting_started/basics/interface/window_system/headers>`
 
 
 Window/Editor Type Selector
