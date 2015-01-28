@@ -3,6 +3,32 @@
 Writing Style Guide
 *******************
 
+
+Primary Goals
+=============
+
+The main goals for this manual are as follows.
+
+User Focused
+   This manual is to be user focused, while we have technical users,
+   the manual should focus on being generally understandable for non-technical users.
+Complete
+   So there is a canonical source of truth for each of Blender's key areas.
+   This doesn't mean we have to document every small detail,
+   but users shouldn't have to rely on searching online to find the purpose of key features.
+Concise
+   Computer graphics is an incredibly interesting field,
+   there are many rules, exceptions to the rules and interesting details.
+   Expanding into details can add unnecessary content, so keep the text concise and relevant to the topic at hand.
+Maintainable
+   Not to be overlooked, is the ability for a small community to maintain a manual.
+   When writing, keep in mind that Blender has frequent releases,
+   so try to write content that won't have to be redone the moment some small change is made.
+
+
+Content Guidelines
+==================
+
 In order to maintain a consistent writing style within the manual,
 please keep this page in mind and only deviate from it when you have a good reason to do so.
 
