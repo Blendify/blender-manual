@@ -10,8 +10,7 @@ Primary Goals
 The main goals for this manual are as follows.
 
 User Focused
-   This manual is to be user focused, while we have technical users,
-   the manual should focus on being generally understandable for non-technical users.
+   While we have technical users, this manual shall be kept understandable by non-technical users.
 Complete
    So there is a canonical source of truth for each of Blender's key areas.
    This doesn't mean we have to document every small detail,
@@ -19,11 +18,13 @@ Complete
 Concise
    Computer graphics is an incredibly interesting field,
    there are many rules, exceptions to the rules and interesting details.
-   Expanding into details can add unnecessary content, so keep the text concise and relevant to the topic at hand.
+   Expanding into details can add unnecessary content,
+   so keep the text concise and relevant to the topic at hand.
 Maintainable
-   Not to be overlooked, is the ability for a small community to maintain a manual.
-   When writing, keep in mind that Blender has frequent releases,
-   so try to write content that won't have to be redone the moment some small change is made.
+   Keep in mind that Blender has frequent releases,
+   so try to write content that won.t have to be redone 
+   the moment some small change is made. 
+   This also helps a small documentor community to maintain the manual.
 
 
 Content Guidelines
@@ -34,11 +35,16 @@ please keep this page in mind and only deviate from it when you have a good reas
 
 Rules of thumb:
 
-- American English (eg: modeling and not modelling, color and not colour).
 - *Spell checking is strongly recommended.*
-- Use of correct grammar, appropriate wording and simple English.
-- Sentences should be kept short and clear, resulting in text that is easy to read, objective and to the point.
-- Do not write in first person perspective, about yourself or your own opinions.
+- Use American English (eg: modeling and not modelling, color and not colour).
+- Take care about grammar, appropriate wording and use simple English.
+- Keep Sentences short and clear, resulting in text that is easy to read, objective and to the point. 
+- Including why or how an option might be useful is a good idea.
+- If you are unsure about how a feature works, ask someone else or find out who developed it and ask them.
+
+To be avoided:
+
+- Avoid to write in first person perspective, about yourself or your own opinions.
 - Avoid `weasel words <http://en.wikipedia.org/wiki/Weasel_word>`__ and being unnecessarily vague, eg:
 
   | *"Reloading the file will probably fix the problem"*
@@ -70,8 +76,6 @@ Rules of thumb:
 - Do not simply copy the tool-tips from Blender.
 
   *People will come to the manual to learn more than is provided by the UI.*
-- Including why or how an option might be useful is a good idea.
-- If you are unsure about how a feature works, ask someone else or find out who developed it and ask them.
 
   As a last resort you can add comment (which is not shown in the html page, but useful for other editors): ::
 
