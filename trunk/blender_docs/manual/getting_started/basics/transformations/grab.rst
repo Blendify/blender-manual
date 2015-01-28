@@ -92,8 +92,8 @@ To confirm the action, press :kbd:`LMB`.
 
 .. note::
 
-   This behavior can be changed *Release Confirms* in the :doc:`User Preferences </preferences/editing>`)
-   So a single :kbd:`RMB` drag can be used to move and confirm.
+   This behavior can be changed using *Release Confirms* in the :doc:`User Preferences </preferences/editing>`,
+   so that a single :kbd:`RMB` drag can be used to move and confirm.
 
 
 Controling Grab/Move Precision
