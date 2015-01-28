@@ -68,7 +68,7 @@ print("Using Index:", master_doc)
 
 
 # General information about the project.
-project = 'Blender Manual'
+project = 'Blender Reference Manual'
 copyright = 'Creative Commons Zero'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -204,7 +204,7 @@ html_show_copyright = False
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'Blender Manual'
+htmlhelp_basename = 'Blender Reference Manual'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -270,8 +270,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('contents', 'Blender Manual', 'Blender Manual Documentation',
-   'Campbell Barton', 'Blender Manual', 'One line description of project.',
+  ('contents', 'Blender Reference Manual', 'Blender Manual Documentation',
+   'Campbell Barton', 'Blender Reference Manual', 'One line description of project.',
    'Miscellaneous'),
 ]
 
