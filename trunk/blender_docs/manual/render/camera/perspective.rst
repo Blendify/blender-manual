@@ -1,7 +1,4 @@
 
-..    TODO/Review: {{review|copy=X}} .
-
-
 *********************
 Perspective in Render
 *********************
@@ -38,7 +35,6 @@ the top to give the illusion that the building was taller and would look higher.
 During the Renaissance, the concept of using vanishing points in art evolved.
 Blender offers a few tricks of its own to let you do the same.
 
-
 .. note::
 
    To follow sections below you will need to know how to adjust
@@ -46,7 +42,7 @@ Blender offers a few tricks of its own to let you do the same.
 
 
 Three Point Rendering
-*********************
+=====================
 
 .. figure:: /images/Manual-Render-3pt.jpg
    :width: 200px
@@ -69,7 +65,7 @@ building so that you are not scared that the building is going to fall over.
 
 
 Two Point Rendering
-*******************
+===================
 
 .. figure:: /images/Manual-Render-2pt.jpg
    :width: 200px
@@ -110,7 +106,7 @@ toward the sides, further enhancing the depth.
 
 
 To achieve 2-point rendering:
-=============================
+-----------------------------
 
 - Use a short wide angle lens camera, say with a Lens *Size* of 10 mm placed close to the building,
   or a long lens farther away from the building. These differences affect the depth of the building render,
@@ -134,7 +130,7 @@ To achieve 2-point rendering:
 
 
 One Point Rendering
-*******************
+===================
 
 .. figure:: /images/Manual-Render-1pt.jpg
    :width: 200px
@@ -153,7 +149,7 @@ Title graphics are sometimes rendered this way.
 
 
 To get 1-point (1pt) renders
-============================
+----------------------------
 
 - To get more dramatic depth lines, use a short wide angle lens camera,
   say with a Lens *Size* of 10 mm, very close to the building.
@@ -191,7 +187,7 @@ in the upper left-hand corner of the passpartout.
 
 
 Orthographic Rendering
-**********************
+======================
 
 .. figure:: /images/Manual-Render-0pt.jpg
    :width: 200px
@@ -240,7 +236,7 @@ Specific measurements are left to reader using triangle math.
 
 
 Isometric Rendering
-===================
+-------------------
 
 .. figure:: /images/Manual-Render-Iso.jpg
    :width: 200px
@@ -257,20 +253,13 @@ and your vertical lines to be, well, vertical.
 Some `complicated vector calculus in Wikipedia <http://en.wikipedia.org/wiki/Isometric_projection>`__
 gives us a convenient shortcut. To get Isometric Renders:
 
+.. FIXME this is too much like a tutorial
 
 - Make your camera Orthographic
-
-
 - Add a "Track To" constraint (Object F7 context, Constraints panel) to the camera for it to Track To the object
   (type the name in the Target OB: field), using To: -Z and Up Y.
-
-
 - Position your camera so that it is 45 degrees in the XY plane from your object, and raised at a 30 degree angle.
   If your object is at XYZ (0,0,0),
   then your camera should be at (10, -10, 10), or for a view from the left side, (-10, -10, 10)
-
-
 - Adjust the Scale of the camera (Editing F9 context, Camera panel) so that the object fits within the passpartout
-
-
 - Adjust the Shift: Y value so that the object is centered in the render.
