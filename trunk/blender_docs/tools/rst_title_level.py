@@ -26,7 +26,7 @@ def title_level_edit(fn, data_src, level_add):
     title_levels = {ch: i for i, ch in enumerate(title_chars)}
 
     def retitle(title, level_text, level):
-        level_text = title_chars[level + 1] * len(level_text)
+        level_text = title_chars[level] * len(level_text)
         # print(title)
         # print(level_text)
         return title, level_text
@@ -61,6 +61,10 @@ def title_level_edit(fn, data_src, level_add):
                 if l_prev and l and (len(l) == len(l_prev)):
                     level = title_levels.get(l[0], -1)
                     if level != -1 and l.count(l[0]) == len(l):
+
+                        # adjust the current title level
+                        level += level_add
+
                         title_new, level_text_new = retitle(l_prev, l, level)
                         lines[i] = level_text_new
                         lines[i - 1] = title_new
