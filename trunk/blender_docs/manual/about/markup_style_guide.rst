@@ -117,7 +117,7 @@ Naming
    - ``render_cycles_lighting_example1.jpg``
    - ``interface_intro_splash.jpg``
    - ``interface_ui_panel.jpg``
-     
+
    Do not use special characters or spaces
 
 
@@ -130,6 +130,12 @@ Usage Guides
   it is better to use a single image that shows all of the relevant area
   (rather than multiple images for each icon or button) placed at the top of the section you are writing,
   and then explain the features in the order that they appear in the image.
+
+  .. note::
+
+     It's important that the manual can be maintained long term,
+     UI and tool-options change so try to avoid having a lot of images (when they aren't especially necessary).
+     Otherwise this becomes too much of a maintenance burden.
 
 
 Videos
@@ -151,7 +157,7 @@ The ``ID`` is found in the video's URL, e.g:
 
 Usage Guides
 ------------
-  
+
 - Avoid adding videos which rely on voice, as this is difficult to translate.
 - Do not embed video tutorials as a means of explaining a feature, the writing itself should explain it adequately
   (though you may include a link to the video at the bottom of the page under the heading ``Tutorials``).
