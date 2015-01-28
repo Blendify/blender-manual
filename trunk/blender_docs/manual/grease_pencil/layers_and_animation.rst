@@ -27,7 +27,7 @@ The active layer can also be identified by looking at the status indicator
 
 
 Animation of the Sketches
-*************************
+=========================
 
 Grease Pencil can be used to do basic pencil tests (i.e. 2D animation in flipbook style).
 Sketches are stored on the frame that they were drawn on, as a separate drawing
@@ -44,7 +44,7 @@ Therefore, it is simple to make a pencil-test/series of animated sketches:
 
 
 Onion Skinning
-==============
+--------------
 
 Onion-skinning (also known as ghosting), is a useful tool for animators, as neighboring frame
 (s) are lightly drawn by Blender. It allows animators to make judgments about movements,
@@ -60,7 +60,7 @@ Usage Notes:
 
 
 Adjusting Timing of Sketches
-============================
+----------------------------
 
 It is possible to set a Grease-Pencil block to be loaded up in the *DopeSheet* for
 editing of the timings of the drawings.
@@ -85,7 +85,7 @@ window) index (which is currently not shown anywhere else though).
 
 
 Copying Sketches
-================
+----------------
 
 It is possible to copy sketches from a layer/layers to other layers in the *Action Editor*,
 using the "Copy"/"Paste" buttons in the header.
