@@ -218,14 +218,14 @@ To work directly on the 'raw' frame set, a very common technique is to import yo
 strip and render it out to series of individual frames,
 where each frame is stored in its own image file (JPG most commonly).
 
-To do so, Add→Movie and load your original video. Set your Format SizeX and SizeY
+To do so, :menuselection:`Add --> Movie` and load your original video. Set your Format SizeX and SizeY
 (either to match the original,
 or different if you want to distort or upscale/downscale the video), set image type to JPEG,
 adjust your Quality settings, and in the Anim panel set your End:
 to the number of actual frames in the video strip. Click ANIMATION and a series of numbered
 files will be output to the top filespec in the Output panel.
 
-You can now delete the video strip, and Add→Image instead;
+You can now delete the video strip, and :menuselection:`Add --> Image` instead;
 right click on the directory name to pull in all of the images, in sequence,
 that are within that directory. Now, when you cut at frame 4321, for example,
 the next frame of the second strip will *really* start with frame 4322.

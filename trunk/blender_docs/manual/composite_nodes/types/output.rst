@@ -40,7 +40,7 @@ The image is facilitated by selecting the *IM:Viewer Node* on the window's heade
 The UV/Image Editor will display the image from the currently selected viewer node.
 
 To save the image being viewed,
-use the *Image→Save As* menu to save the image in a file.
+use the *Image-->Save As* menu to save the image in a file.
 
 The UV/Image Editor also has three additional options in its header to view Images with or
 without Alpha, or to view the Alpha or Z itself.
@@ -72,7 +72,7 @@ Saving your Composite Image
 ---------------------------
 
 The RENDER button renders a single frame or image.
-Save your image using :kbd:`F3` or the *File→Save Image* menu.
+Save your image using :kbd:`F3` or the *File-->Save Image* menu.
 The image will be saved using the image format settings on the Render panel.
 
 To save a sequence of images, for example,

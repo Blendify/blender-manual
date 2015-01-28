@@ -54,7 +54,7 @@ Wishing to make a cut pattern, the front of the blouse was unwrapped and basic r
 scaling was done to center it in the UV/Image Editor window.
 It was then moved off to the side, while the left and right sleeves were unwrapped,
 each rotated and scaled. Then, select a sample face from each cloth piece,
-in the 3D View Select→Linked Faces, and the UV/Image Editor will show all those pieces
+in the 3D View Select-->Linked Faces, and the UV/Image Editor will show all those pieces
 (as shown to the right). You can then work with all pieces for that UV Map.
 The example shows all three pieces moved onto the image area for painting. As you can see,
 the pattern nicely fits a square yard of cloth.

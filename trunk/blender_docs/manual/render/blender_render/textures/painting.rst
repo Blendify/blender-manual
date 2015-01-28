@@ -51,9 +51,9 @@ You cannot paint on a mesh in Texture Paint mode without **first** unwrapping yo
 
 
 - :doc:`Load an image </render/blender_render/textures/mapping/uv/applying_image#load>`
-  into the UV/Image Editor (Image→Open→select file), or
+  into the UV/Image Editor (Image-->Open-->select file), or
 - :doc:`Create a new image </render/blender_render/textures/mapping/uv/applying_image#load>`
-  (Image→New→specify size).
+  (Image-->New-->specify size).
 
 After you have done one of these two things,
 you can modify the image using the Texture Paint mode:
@@ -91,7 +91,7 @@ A full complement of brushes and colors can be selected from the Properties pane
 UV/Image Editor.
 Brush changes made in either panel are immediately reflected in the other panel. However,
 the modified texture will **not** be saved automatically;
-you must explicitly do so by Image→Save in the UV/Image Editor window.
+you must explicitly do so by Image-->Save in the UV/Image Editor window.
 
 
 Texture Preview
@@ -326,7 +326,7 @@ Saving
 ======
 
 If the header menu item Image has an asterisk next to it,
-it means that the image has been changed, but not saved. Use the *Image→Save Image*
+it means that the image has been changed, but not saved. Use the *Image-->Save Image*
 option to save your work with a different name or overwrite the original image.
 
 .. note:: UV Textures
@@ -339,7 +339,7 @@ The image format for saving is independent of the format for rendering.
 The format for saving a UV image is selected in the header of the Save Image window,
 and defaults to PNG (.png).
 
-If Packing is enabled in the window header, or if you manually *Image→Pack Image*,
+If Packing is enabled in the window header, or if you manually *Image-->Pack Image*,
 saving your images to a separate file is not necessary.
 
 

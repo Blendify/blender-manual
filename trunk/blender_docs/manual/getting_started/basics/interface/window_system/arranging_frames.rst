@@ -18,8 +18,8 @@ Maximizing a window
 ===================
 
 You can maximize a window frame to fill the whole application window with the *View*
-→ *Toggle Full Screen* menu entry. To return to normal size,
-use again *View* → *Toggle Full Screen*.
+--> *Toggle Full Screen* menu entry. To return to normal size,
+use again *View* --> *Toggle Full Screen*.
 A quicker way to achieve this is to use :kbd:`Shift-Spacebar`,
 :kbd:`Ctrl-Down` or :kbd:`Ctrl-Up` to toggle between maximized and framed windows.
 NOTE: The window your mouse is currently hovering over is the one that will be maximized using
@@ -106,7 +106,7 @@ Once you have that new window, you can move it to the other monitor
 you can also arrange its contents in the same way discussed so far (split and resize frames,
 and tune them as needed), and so on.
 
-There is, though, another way to get an extra window: *File* → *User Preferences...*
+There is, though, another way to get an extra window: *File* --> *User Preferences...*
 (or :kbd:`Ctrl-Alt-U`) pops a new window also,
 with the *User Preferences* window in its only frame.
 You can then proceed the same way with this window.

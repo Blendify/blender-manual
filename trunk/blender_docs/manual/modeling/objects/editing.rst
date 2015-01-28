@@ -21,7 +21,7 @@ Object Mode
 
 
 By default new files opens with enabled *Object Mode*.
-To enable it you may in *3D View window → Header* click *Object Mode button*
+To enable it you may in *3D View window --> Header* click *Object Mode button*
 (see picture *Object Mode button*)
 
 All edition tools works only with selected objects.
@@ -56,7 +56,7 @@ Add
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     *Main* → *Add*
+   | Menu:     *Main* --> *Add*
    | Hotkey:   :kbd:`Shift-A`
 
 
@@ -97,14 +97,14 @@ Duplicate
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     *Object → Duplicate Objects*
+   | Menu:     *Object --> Duplicate Objects*
    | Hotkey:   :kbd:`Shift-D`
 
 
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     *Object → Duplicate Linked*
+   | Menu:     *Object --> Duplicate Linked*
    | Hotkey:   :kbd:`Alt-D`
 
 
@@ -121,7 +121,7 @@ Join
    :class: refbox
 
    | Mode:     *Object* mode
-   | Menu:     *Object → Join*
+   | Menu:     *Object --> Join*
    | Hotkey:   :kbd:`Ctrl-J`
 
 
@@ -140,7 +140,7 @@ Delete / Erase
    :class: refbox
 
    | Mode:     *Edit* or *Object* mode
-   | Menu:     *Object* → *Delete*
+   | Menu:     *Object* --> *Delete*
    | Hotkey:   :kbd:`X` or :kbd:`Delete`
 
 
@@ -160,7 +160,7 @@ Translate
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     *Object → Transform → Grab/Move*
+   | Menu:     *Object --> Transform --> Grab/Move*
    | Hotkey:   :kbd:`G`
 
 
@@ -174,7 +174,7 @@ Rotate
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     *Object → Transform → Rotate*
+   | Menu:     *Object --> Transform --> Rotate*
    | Hotkey:   :kbd:`R`
 
 
@@ -189,7 +189,7 @@ Scale
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     *Object → Transform → Scale*
+   | Menu:     *Object --> Transform --> Scale*
    | Hotkey:   :kbd:`S`
 
 

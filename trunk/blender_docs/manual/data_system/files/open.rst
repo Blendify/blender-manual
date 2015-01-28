@@ -190,7 +190,7 @@ and will at least give you a chance to better evaluate what risks might be insid
 
 By default, Blender will trust all files and run scripts automatically.
 If you don't trust the file, and want protection, you can disable 'Trusted source' in the
-File→Open dialog in the properties section on the bottom left.
+File-->Open dialog in the properties section on the bottom left.
 Un-trusted files will disable embedded Python scripts after opening the file.
 
 

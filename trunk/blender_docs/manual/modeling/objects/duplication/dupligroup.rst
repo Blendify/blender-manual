@@ -7,7 +7,7 @@ DupliGroup
    :class: refbox
 
    | Mode:     *Object* mode
-   | Panel:    *Object* → *Duplication* → *Group*
+   | Panel:    *Object* --> *Duplication* --> *Group*
 
 
 *Duplication Group* or *DupliGroup* allows you to create an instance of a group for each instance of another object.
@@ -19,10 +19,10 @@ Basic Usage
 - Create a number of objects and group them by
    - selecting them all,
    - :kbd:`Ctrl-G`, and
-   - eventually rename your group in *Object* → *Groups*
+   - eventually rename your group in *Object* --> *Groups*
 - Create a DupliGroup by
    - adding another object (:kbd:`Shift-A`), say an *Empty*,
-   - in *Object* → *Duplication* enable *Group*, and
+   - in *Object* --> *Duplication* enable *Group*, and
    - select the name of your newly created group in the selection box that appears.
 
 
@@ -45,9 +45,9 @@ Example
 From here, you can use the easy way or the hard way:
 
 - The easy way:
-   - Select *Add* → *Group Instance* → ``[name of group you just linked]``.
+   - Select *Add* --> *Group Instance* --> ``[name of group you just linked]``.
 - The hard way:
-   - Select *Add* → *Empty*, and select the empty that you added.
+   - Select *Add* --> *Empty*, and select the empty that you added.
    - Switch to the *Object* context, and in the *Duplication* panel, click *Group*.
    - In the dropdown box that appears next to *Group:*, pick the group that you linked.
 

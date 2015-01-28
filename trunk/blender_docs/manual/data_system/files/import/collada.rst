@@ -317,7 +317,7 @@ node instances. Blender materials are exported with the following mapping:
 
 For bone nodes which are leaf nodes in the armature tree,
 or if a bone has more than one children a blender profile for tip with an <extra> tag,
-is added for those joint nodes. To correctly derive the bone→tail location on re-import.
+is added for those joint nodes. To correctly derive the bone-->tail location on re-import.
 
 
 Important things to remember

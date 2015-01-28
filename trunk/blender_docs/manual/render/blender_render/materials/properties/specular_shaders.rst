@@ -7,7 +7,7 @@ Specular Shaders
    :class: refbox
 
    | Mode:     All Modes
-   | Panel:    Shading/Material Context → Specular
+   | Panel:    Shading/Material Context --> Specular
 
 
 Specular shaders create the bright highlights that one would see on a glossy surface,
@@ -96,7 +96,7 @@ CookTorr
    :class: refbox
 
    | Mode:     All Modes
-   | Panel:    Shading/Material Context → Shaders
+   | Panel:    Shading/Material Context --> Shaders
 
 
 .. figure:: /images/Manual-2.5-Material-Shader-CookTorr.jpg
@@ -129,7 +129,7 @@ Phong
    :class: refbox
 
    | Mode:     All Modes
-   | Panel:    Shading/Material Context → Shaders
+   | Panel:    Shading/Material Context --> Shaders
 
 
 .. figure:: /images/Manual-2.5-Material-Shader-Phong.jpg
@@ -168,7 +168,7 @@ Blinn
    :class: refbox
 
    | Mode:     All Modes
-   | Panel:    Shading/Material Context → Shaders
+   | Panel:    Shading/Material Context --> Shaders
 
 
 .. figure:: /images/Manual-2.5-Material-Shader-Blinn.jpg
@@ -210,7 +210,7 @@ Toon
    :class: refbox
 
    | Mode:     All Modes
-   | Panel:    Shading/Material Context → Shaders
+   | Panel:    Shading/Material Context --> Shaders
 
 
 .. figure:: /images/Manual-2.5-Material-Shader-ToonSpec.jpg
@@ -242,7 +242,7 @@ WardIso
    :class: refbox
 
    | Mode:     All Modes
-   | Panel:    Shading/Material Context → Shaders
+   | Panel:    Shading/Material Context --> Shaders
 
 
 .. figure:: /images/Manual-2.5-Material-Shader-WardIso.jpg

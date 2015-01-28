@@ -64,7 +64,7 @@ as described in the :doc:`API references </extensions/python/references>`.
 
 The *Text Editor* has now also some dedicated Python scripts,
 which add some useful writing tools, like a class/function/variable browser, completion... You
-can access them through the *Text* → *Text Plugins* menu entry.
+can access them through the *Text* --> *Text Plugins* menu entry.
 
 
 Other usages for the Text window

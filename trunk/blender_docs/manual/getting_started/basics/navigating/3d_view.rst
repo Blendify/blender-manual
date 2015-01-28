@@ -210,7 +210,7 @@ Panning the View
    :class: refbox
 
    | Mode:     All modes
-   | Menu:     *View* → *Navigation*
+   | Menu:     *View* --> *Navigation*
    | Hotkey:
    | :kbd:`Shift-MMB` / :kbd:`Ctrl-Numpad2` / :kbd:`Ctrl-Numpad4` /
    | :kbd:`Ctrl-Numpad6` / :kbd:`Ctrl-Numpad8` / :kbd:`Shift-Alt-LMB`
@@ -234,7 +234,7 @@ Zooming the View
    :class: refbox
 
    | Mode:     All modes
-   | Menu:     *View* → *Navigation*
+   | Menu:     *View* --> *Navigation*
    | Hotkey:   :kbd:`Ctrl-MMB` / :kbd:`Wheel` / :kbd:`NumpadPlus` / :kbd:`NumpadMinus`
 
 

@@ -142,7 +142,7 @@ Basic Mapping
 *************
 
 Based on the fundamental geometry of the object, and how it is being viewed,
-the *Mesh→UV Unwrap→Cube, Cylinder,
+the *Mesh-->UV Unwrap-->Cube, Cylinder,
 and Sphere* UV Calculations attempt to unfold the faces for you as an initial best fit.
 Here, the view from the 3D window is especially important.
 Also, the settings for cube size or cylinder radius (Editing buttons, UV Calculation panel)
@@ -226,7 +226,7 @@ Radius
 Project From View
 =================
 
-In the 3D window, the *Face→Unwrap UVs→Project from View* option maps the face as
+In the 3D window, the *Face-->Unwrap UVs-->Project from View* option maps the face as
 seen through the view of the 3D window it was selected from.
 It is almost like you had x-ray vision or squashed the mesh flat as a pancake onto the UV map.
 Use this option if you are using a picture of a real object as a UV Texture for an object that
@@ -241,7 +241,7 @@ Resetting UVs
 =============
 
 In the 3D window,
-*Face→Unwrap→Reset* maps each selected face to the same area of the image,
+*Face-->Unwrap-->Reset* maps each selected face to the same area of the image,
 as previously discussed. To map all the faces of an object (a cube, for example)
 to the same image, select all the faces of the cube,
 and unwrap them using the Reset menu option.
@@ -309,7 +309,7 @@ In the UV/Image Editor window, you can see that all the faces are nicely unwrapp
 just as if you cut the seam with a scissors and spread out the fabric.
 
 
-When marking seams, you can use the *Select→Linked Faces* or :kbd:`Ctrl-L` in
+When marking seams, you can use the *Select-->Linked Faces* or :kbd:`Ctrl-L` in
 Face Select Mode to check your work.
 This menu option selects all faces connected to the selected one, up to a seam.
 If faces outside your intended seam are selected, you know that your seam is not continuous.
@@ -354,17 +354,18 @@ Unwrap
 
 
 Begin by selecting all faces to be unwrapped in the 3D View. With our faces selected,
-it is now time to unwrap them. In the 3D View,
-select *Mesh* →UV Unwrap or :kbd:`U` and select Unwrap.
+it is now time to unwrap them.
+In the 3D View, select :menuselection:`Mesh --> UV Unwrap --> Unwrap` or
+:kbd:`U` and select Unwrap.
 
-You can also do this from the UV/Image Editor window with command *UVs→Unwrap* or
-command :kbd:`E`. This method will unwrap all of the faces and reset previous work. The
+You can also do this from the UV/Image Editor window with command :menuselection:`UVs --> Unwrap` or :kbd:`E`.
+This method will unwrap all of the faces and reset previous work. The
 UVs menu will appear in the UV/Image Editor window after unwrapping has been performed once.
 
-The *Face→Unwrap→Unwrap* option unwraps the faces of the object to provide the
+This tool unwraps the faces of the object to provide the
 'best fit' scenario based on how the faces are connected and will fit within the image,
-and takes into account any seams within the selected faces. If possible, each selected face
-gets its own different area of the image and is not *tucked under* any other faces.
+and takes into account any seams within the selected faces.
+If possible, each selected face gets its own different area of the image and is not overlapping any other faces UV's.
 If all faces of an object are selected, then each face is mapped to some portion of the image.
 
 Blender has two ways of calculating the unwrapping.
@@ -475,7 +476,7 @@ Margin
 Follow Active Quads
 ===================
 
-The *Face→Unwrap→Follow Active Quads* takes the selected faces and lays them out
+The *Face-->Unwrap-->Follow Active Quads* takes the selected faces and lays them out
 by following continuous face loops, even if the mesh face is irregularly shaped.
 Note that it does not respect the image size,
 so you may have to scale them all down a bit to fit the image area.

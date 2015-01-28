@@ -168,8 +168,8 @@ Quaternion
 View
 ----
 
-The manipulator will match the 3D view, Y → Up/Down, X → Left/Right,
-Z → Towards/Away from you.
+The manipulator will match the 3D view, Y --> Up/Down, X --> Left/Right,
+Z --> Towards/Away from you.
 
 This way you can constrain movement to one View axis with :kbd:`G-X-X`.
 

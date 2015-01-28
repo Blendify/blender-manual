@@ -7,7 +7,7 @@ Material Preview
    :class: refbox
 
    | Mode:     All Modes
-   | Panel:    Shading/Material Context → Preview
+   | Panel:    Shading/Material Context --> Preview
 
 
 The Preview panel gives a quick visualization of the active material and its properties,

@@ -54,7 +54,7 @@ UV Project is great for making spotlights more diverse, and also for creating de
 
 The modifier's Image property is not generally used - instead,
 a texture mapped to the UV layer that the modifier targets is added to the object's Material.
-This allows you to prevent the image from repeating by setting *Texture → Image Mapping →
+This allows you to prevent the image from repeating by setting *Texture --> Image Mapping -->
 Extension* to *Clip*.
 
 

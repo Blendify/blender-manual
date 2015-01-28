@@ -49,7 +49,7 @@ Type
       resulting surfaces rather than on a mathematical derivation."
    Simple
       Only subdivides the surfaces, without any smoothing
-      (the same as :kbd:`W` → *Subdivide*, in Edit Mode).
+      (the same as :kbd:`W` --> *Subdivide*, in Edit Mode).
       Can be used, for example, to increase base mesh resolution when using displacement maps.
 
 Subdivisions
@@ -151,8 +151,8 @@ Weighted Creases
    :class: refbox
 
    | Mode:     Edit Mode (Mesh)
-   | Panel:    3D View → *Transform Properties*
-   | Menu:     *Mesh* → *Edges* → *Crease Subsurf*
+   | Panel:    3D View --> *Transform Properties*
+   | Menu:     *Mesh* --> *Edges* --> *Crease Subsurf*
    | Hotkey:   :kbd:`N` (*Transform Properties* Panel)
 
 

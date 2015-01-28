@@ -134,9 +134,9 @@ Edge Loops and Vertex Loops
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode → *Vertex* or *Edge* select mode
+   | Mode:     *Edit* mode --> *Vertex* or *Edge* select mode
    | Menu:     :menuselection:`Select --> Edge Loop` or :menuselection:`Mesh --> Edges --> Edge Loop`
-   | Hotkey:   :kbd:`Alt-RMB` or :kbd:`Ctrl-E` → :menuselection:`Edge Loop`
+   | Hotkey:   :kbd:`Alt-RMB` or :kbd:`Ctrl-E` --> :menuselection:`Edge Loop`
 
 
 Holding :kbd:`Alt` while selecting an edge selects a loop of edges that are connected in
@@ -173,7 +173,7 @@ Face Loops
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode → *Face* or *Vertex* select modes
+   | Mode:     *Edit* mode --> *Face* or *Vertex* select modes
    | Hotkey:   :kbd:`Alt-RMB`
 
 
@@ -213,9 +213,9 @@ Edge Ring
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode → *Edge* select mode
+   | Mode:     *Edit* mode --> *Edge* select mode
    | Menu:     :menuselection:`Select --> Edge Ring` or :menuselection:`Mesh --> Edges --> Edge Ring`
-   | Hotkey:   :kbd:`Ctrl-Alt-RMB` or :kbd:`Ctrl-E` → :menuselection:`Select --> Edge Ring`
+   | Hotkey:   :kbd:`Ctrl-Alt-RMB` or :kbd:`Ctrl-E` --> :menuselection:`Select --> Edge Ring`
 
 
 In *Edge* select mode, holding :kbd:`Ctrl-Alt`
@@ -252,7 +252,7 @@ Path Selection
    :class: refbox
 
    | Mode:     *Edit* mode
-   | Hotkey:   :kbd:`Ctrl-RMB` and the menu item :menuselection:`Select` → *Shortest Path*
+   | Hotkey:   :kbd:`Ctrl-RMB` and the menu item :menuselection:`Select` --> *Shortest Path*
 
 
 .. figure:: /images/Select_face_path.jpg
@@ -271,10 +271,10 @@ Loop Inner-Region
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode → *Edge* select mode
+   | Mode:     *Edit* mode --> *Edge* select mode
    | Menu:     :menuselection:`Select --> Select Loop Inner-Region` or
      :menuselection:`Mesh --> Edges --> Select Loop Inner-Region`
-   | Hotkey:   :kbd:`Ctrl-E` → :menuselection:`Select Loop Inner-Region`
+   | Hotkey:   :kbd:`Ctrl-E` --> :menuselection:`Select Loop Inner-Region`
 
 
 *Select Loop Inner-Region* selects all edges that are inside a closed loop of edges.
@@ -307,10 +307,10 @@ Boundary Loop
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode → *Edge* select mode
+   | Mode:     *Edit* mode --> *Edge* select mode
    | Menu:     :menuselection:`Select --> Select Boundary Loop` or
      :menuselection:`Mesh --> Edges --> Select Boundary Loop`
-   | Hotkey:   :kbd:`Ctrl-E` → :menuselection:`Select Boundary Loop`
+   | Hotkey:   :kbd:`Ctrl-E` --> :menuselection:`Select Boundary Loop`
 
 
 *Select Boundary Loop* is the "logical inverse" of *Select Loop Inner-Region*,

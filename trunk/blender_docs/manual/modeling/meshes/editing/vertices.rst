@@ -76,7 +76,7 @@ Remove Doubles
    :class: refbox
 
    | Mode:     *Edit* mode
-   | Panel:    *Editing* context → *Mesh Tools*
+   | Panel:    *Editing* context --> *Mesh Tools*
    | Menu:     :menuselection:`Mesh --> Vertices --> Remove Doubles`,
      :menuselection:`Specials --> Remove Doubles` or :menuselection:`Vertex Specials --> Remove Doubles`
    | Hotkey:   :menuselection:`[W] --> [4]` or :menuselection:`[ctrl][V] --> Remove doubles`
@@ -266,7 +266,7 @@ Vertex Slide
    :class: refbox
 
    | Mode:     *Edit* mode
-   | Panel:    *Editing* context → *Mesh Tools*
+   | Panel:    *Editing* context --> *Mesh Tools*
    | Menu:     :menuselection:`Mesh --> Vertices --> Vertex Slide` or :menuselection:`[Ctrl][V] --> Vertex Slide`
    | Hotkey:   :menuselection:`[Shift][V] --> Vertex Slide`
 
@@ -310,7 +310,7 @@ Smooth
    :class: refbox
 
    | Mode:     *Edit* mode
-   | Panel:    *Editing* context → *Mesh Tools*
+   | Panel:    *Editing* context --> *Mesh Tools*
    | Menu:     :menuselection:`Mesh --> Vertices --> Smooth`,
      :menuselection:`Specials --> Smooth` or :menuselection:`Vertex Specials --> Smooth`
    | Hotkey:   :menuselection:`[ctrl][V] --> Smooth vertex`

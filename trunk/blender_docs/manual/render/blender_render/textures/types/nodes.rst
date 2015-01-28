@@ -67,8 +67,8 @@ you would:
 
 You can also use these named outputs if you've decided to define your material using Material
 Nodes. In this case, you probably won't be using Texture Channels. Instead, you'll insert
-*Texture* nodes into your Material Node tree using *Add* →
-*Input* → *Texture*. Then,
+*Texture* nodes into your Material Node tree using *Add* -->
+*Input* --> *Texture*. Then,
 inside the texture node that you've just added, you can select which output you want to use
 *(e.g.* ``Diffuse`` or ``Normal``).
 

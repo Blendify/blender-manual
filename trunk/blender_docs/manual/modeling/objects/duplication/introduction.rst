@@ -7,7 +7,7 @@ Duplication
    :class: refbox
 
    | Mode:     *Edit* and *Object* modes
-   | Menu:     *Object* → *Duplicate*
+   | Menu:     *Object* --> *Duplicate*
    | Hotkey:   :kbd:`Shift-D`
 
 
@@ -60,7 +60,7 @@ Linked Duplicates
    :class: refbox
 
    | Mode:     *Object* mode
-   | Menu:     *Object* → *Duplicate Linked*
+   | Menu:     *Object* --> *Duplicate Linked*
    | Hotkey:   :kbd:`Alt-D`
 
 
@@ -143,7 +143,7 @@ Linked Library Duplication
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     *File* → *Link Append*
+   | Menu:     *File* --> *Link Append*
    | Hotkey:   :kbd:`Shift-F1`
 
 

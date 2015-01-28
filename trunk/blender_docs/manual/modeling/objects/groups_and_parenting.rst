@@ -702,7 +702,7 @@ Select Grouped
    :class: refbox
 
    | Mode:     *Object mode*
-   | Menu:     *Select* → *Grouped*
+   | Menu:     *Select* --> *Grouped*
    | Hotkey:   :kbd:`Shift-G`
 
 

@@ -140,7 +140,7 @@ for example.
    Presets used for storing user defined settings for cloth, render formats etc.
 
 ``./scripts/templates/*.py``
-   Example scripts which can be accessed from: Text Space's Header → Text → Script Templates.
+   Example scripts which can be accessed from: Text Space's Header --> Text --> Script Templates.
 
 ``./python/ ...``
    Bundled Python distribution, only necessary when the system Python installation is absent or incompatible.

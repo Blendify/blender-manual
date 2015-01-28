@@ -277,7 +277,7 @@ Mesh Objects Collide
 
 If your colliding object is not a mesh object, such as a NURBS surface, or text object,
 you must convert it to a mesh object. To do so, select the object in object mode,
-and in the 3D View header, select *Object* → *Convert Object Type*
+and in the 3D View header, select *Object* --> *Convert Object Type*
 (:kbd:`Alt-C`), and select *Mesh* from the popup menu.
 
 
@@ -414,10 +414,10 @@ let's delete the default cube and add a plane. I scaled mine up along the Y axis
 but you don't have to do this. In order to get some good floppy and flexible fabric,
 you'll need to subdivide it several times. I did it 8 times for this example.
 So :kbd:`Tab` into *Edit mode*,
-and press :kbd:`W` → *Subdivide multi*, and set it to 8.
+and press :kbd:`W` --> *Subdivide multi*, and set it to 8.
 
 Now, we'll make this cloth by going to the *Object* context
-(:kbd:`F7`) → *Physics* sub-context.
+(:kbd:`F7`) --> *Physics* sub-context.
 Scroll down until you see the *Cloth* panel, and press the *Cloth* button.
 Now, a lot of settings will appear, most of which we'll ignore for now.
 

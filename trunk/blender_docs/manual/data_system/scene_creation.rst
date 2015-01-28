@@ -20,7 +20,7 @@ usually displayed at the top of your screen:
    F) Version of Blender currently running (click the Blender icon to the left to show splash screen).
 
 
-Loading the UI with "File" → "Open"
+Loading the UI with "File" --> "Open"
 ===================================
 
 Inside each .blend file, Blender saves the user interface layout - the arrangement of
@@ -28,8 +28,8 @@ screen layouts when the file is saved. By default, this saved UI is loaded,
 over-riding any user defaults or the current screen layout. However, you can work on a blend
 file using your current UI settings by ignoring the UI settings saved in the file.
 This is done by restarting Blender or resetting it with
-(*File* → *New*, or :kbd:`Ctrl-X`),
-and opening the file browser with (*File* → *Open...*,
+(*File* --> *New*, or :kbd:`Ctrl-X`),
+and opening the file browser with (*File* --> *Open...*,
 or :kbd:`F1`). Turn off the *Load UI* button in the file browser header,
 and then open the file. This way,
 Blender will not disturb your current screen layout when it loads the new file.
@@ -43,7 +43,7 @@ Scenes and the objects they contain are generally specific to the project you ar
 However,
 they too can be saved in their current state to be re-used by pressing :kbd:`Ctrl-U`.
 They will then appear the next time Blender starts or when the user selects
-*File* → *New* (:kbd:`Ctrl-X`).
+*File* --> *New* (:kbd:`Ctrl-X`).
 
 Blender comes with one default scene, which contains a camera, a lamp, and a box.
 
@@ -111,7 +111,7 @@ Linking to a Scene
 
 You can, at any moment, link any object from one scene to another.
 Just open the scene where these objects are,
-use :kbd:`Ctrl-L` → *To Scene...*,
+use :kbd:`Ctrl-L` --> *To Scene...*,
 and choose the scene where you want your objects to appear.
 Those will be linked to the original objects; to make them single user (independent,
 unlinked...) in a given scene go to that scene, select them and use :kbd:`U`.
