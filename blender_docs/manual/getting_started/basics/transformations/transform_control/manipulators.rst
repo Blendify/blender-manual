@@ -1,3 +1,4 @@
+
 ************
 Manipulators
 ************
@@ -48,7 +49,7 @@ Manipulators can be accessed in the header of the *3D View* window:
 
 
 Manipulator controls
-********************
+====================
 
 - Holding down :kbd:`Ctrl` constrains the action to set increments.
   Holding down :kbd:`Shift` **after** you :kbd:`LMB` the manipulator handle
@@ -69,7 +70,7 @@ Manipulator controls
 
 
 Manipulator Preferences
-***********************
+=======================
 
 .. figure:: /images/3D_interaction-Transform_Control-Manipulators-manipulator_preferences.jpg
 
@@ -88,7 +89,7 @@ Hotspot
 
 
 Choosing the Transform Orientation
-**********************************
+==================================
 
 .. admonition:: Reference
    :class: refbox
