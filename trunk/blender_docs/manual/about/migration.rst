@@ -3,7 +3,7 @@
 MediaWiki to Sphinx Migration
 *****************************
 
-At the end of 2014 we migrated the manual from MediaWiki to Sphinx, which uses the RestructuredText markup language.
+At the end of 2014 we migrated the manual from MediaWiki to Sphinx, which uses the reStructuredText markup language.
 
 This is a somewhat controversial decision,
 so this sections explains some of the reasons why we felt Sphinx was worth moving to.
@@ -58,7 +58,7 @@ No Project Management
    its difficult to keep track of who does what, assign tasks, report issues etc.
 
 
-Sphinx/RestructuredText
+Sphinx/reStructuredText
 -----------------------
 
 
@@ -89,7 +89,7 @@ Cons
 ^^^^
 
 No online editing.
-   This isn't inherently a limitation of RestructuredText,
+   This isn't inherently a limitation of reStructuredText,
    and at some point we may investigate ways to support this.
 Must be built
    Docs need to be compiled into HTML, which takes time.

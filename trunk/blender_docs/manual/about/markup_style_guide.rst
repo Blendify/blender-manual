@@ -260,7 +260,7 @@ By default a table of contents should show two levels of depth.
 Further Reading
 ===============
 
-To learn more about RestructuredText, see:
+To learn more about reStructuredText, see:
 
 `Sphinx RST Primer <http://sphinx-doc.org/rest.html>`__
    Good basic introduction.
