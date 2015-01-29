@@ -20,7 +20,7 @@ Note that these are subjective points, more could be written on this.
 However for the purpose of maintaining a manual, here are some pros and cons for each system.
 
 
-MidiaWiki
+MediaWiki
 ---------
 
 
