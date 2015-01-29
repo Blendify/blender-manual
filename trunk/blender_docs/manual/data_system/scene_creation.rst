@@ -20,8 +20,8 @@ usually displayed at the top of your screen:
    F) Version of Blender currently running (click the Blender icon to the left to show splash screen).
 
 
-Loading the UI with "File" --> "Open"
-===================================
+Loading the UI (Opening a File)
+===============================
 
 Inside each .blend file, Blender saves the user interface layout - the arrangement of
 screen layouts when the file is saved. By default, this saved UI is loaded,
