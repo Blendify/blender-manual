@@ -3,9 +3,9 @@
 ..    TODO/Review: {{review|text=needs verification that it's up to date with 2.6|
                      fixes=[[User:bob_holcomb/Doc:2.6/Manual/Composite Nodes/Types/Matte|X]]}} .
 					 
-########################
-  Composite Matte Nodes
-########################
+##############
+  Matte Nodes
+##############
 
 These nodes give you the essential tools for working with blue-screen or green-screen footage,
 where live action is shot in front of a blue or green backdrop for replacement by a matte

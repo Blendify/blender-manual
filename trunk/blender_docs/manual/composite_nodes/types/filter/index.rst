@@ -1,8 +1,8 @@
 .. _composite_nodes_filter-index:
 
-#########################
-  Composite Filter Nodes
-#########################
+###############
+  Filter Nodes
+###############
 
 Filters process the pixels of an image to highlight additional details or perform some sort of
 post-processing effect on the image.

@@ -16,6 +16,12 @@ You can use as many of these as you would like.
 It is possible to automatically plug a Viewer node to any other node by pressing :kbd:`Shift-Ctrl-LMB` on it.
 
 
+.. note::
+
+   It is possible to add multiple Viewer nodes, though only the active one
+   (last selected, indicated with a slightly darker header) will be shown on the backdrop or in the UV/Image editor.
+
+
 Using the UV/Image Editor Window
 ================================
 

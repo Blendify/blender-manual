@@ -1,17 +1,10 @@
 .. _composite_nodes_vector-index:
 
-#########################
-  Composite Vector Nodes
-#########################
+###############
+  Vector Nodes
+###############
 
-Vector nodes manipulate information about how light interacts with the scene,
-multiplying vector sets, and other wonderful things that normal humans barely comprehend
-(except math geniuses, who may not be considered 'normal'). Even if you aren't a math wiz,
-you'll find these nodes to be very useful.
-
-Vectors, in general, are two or three element values, for example, RGB color value,
-and surface normals are vectors. Vectors are also important for calculating shading.
-
+These nodes can be used to manipulate various types of vectors, such as surface normals and speed vectors.
 
 .. toctree::
    :maxdepth: 1

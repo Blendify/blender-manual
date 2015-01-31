@@ -1,16 +1,17 @@
 .. _composite_nodes_converter-index:
 
-############################
-  Composite Converter Nodes
-############################
+##################
+  Converter Nodes
+##################
 
 
-As the name implies, these nodes convert the colors or other properties of various data (e.g.
-images) in some way.
+As the name implies, these nodes convert the colors or other properties of various data
+(e.g. transparency) in some way.
+
 They also split out or re-combine the different color channels that make up an image,
 allowing you to work on each channel independently.
-Various color channel arrangements are supported, including traditional RGB and HSV formats,
-and the newest High Definition Media Interface (HDMI) formats.
+Various color channel arrangements are supported, including traditional RGB, HSV
+and High Definition Media Interface (HDMI) formats.
 
 .. toctree::
    :maxdepth: 1
