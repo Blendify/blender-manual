@@ -9,11 +9,12 @@ This section is organized by type of nodes, which are grouped based on similar f
 .. toctree::
    :maxdepth: 1
 
-   input.rst
-   output.rst
-   color.rst
-   vector.rst
+   input/index.rst
+   output/index.rst
+   color/index.rst
+   converter/index.rst
    filter/index.rst
-   convertor.rst
-   matte.rst
-   distort.rst
+   vector/index.rst
+   matte/index.rst
+   distort/index.rst
+   layout/index.rst
