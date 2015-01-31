@@ -1,8 +1,8 @@
 .. _composite_nodes_types-index:
 
-#######################
-  Composite Node Types
-#######################
+#################
+  Types of Nodes
+#################
 
 This section is organized by type of nodes, which are grouped based on similar functions:
 

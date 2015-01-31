@@ -21,6 +21,12 @@ when the *Compositing* button is pressed on the Render Options Post-Processing
 panel. Otherwise, unpredictable results may occur.
 
 
+.. note::
+
+   If multiple Composite nodes are added, only the active one
+   (last selected, indicated with a slightly darker header) will be used.
+
+
 Saving your Composite Image
 ===========================
 

@@ -1,13 +1,13 @@
 .. _composite_nodes_color-index:
 
-########################
-  Composite Color Nodes
-########################
+##############
+  Color Nodes
+##############
 
 ..    TODO/Review: {{review|text=The Gamma Node explanation is a mess |copy=X}} .
 
-These nodes play with the colors in the image. They adjust the image's color intensity,
-adjust contrast and intensity, and, most importantly, mix two images together by color,
+These nodes adjust the image's colors, for example increasing the contrast, making it warmer,
+overlaying another image, etc.
 
 .. toctree::
    :maxdepth: 1
