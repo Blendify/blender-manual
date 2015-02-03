@@ -23,4 +23,5 @@ the current scene from the top, front, side and Camera perspective at the same t
 
    outliner/index.rst
    info.rst
+   timeline.rst
    sequencer/index.rst
