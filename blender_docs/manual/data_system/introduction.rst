@@ -11,53 +11,20 @@ Objects can contain multiple materials which can contain many textures.
 It is also possible to create links between different objects.
 
 
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     All Modes, Any Window
-   | Hotkey:   :kbd:`Shift-F4` - Data Select Browser
-
-
-To access the database, press :kbd:`Shift-F4` and the window will change to a
-*Data Select Browser* window, which lists the Objects in your .blend file.
-To go up a level, click the breadcrumbs (``..``)
-and then you will see the overall structure of a file: *Action*,
-*Armature*, *Brush*, *Camera*, *Curve*,
-*Group*, and so on (including *Object* s).
-
-:kbd:`LMB` selecting any datablock type, *Mesh*, for example,
-will give you a listing of the meshes used in the file, along with how many users there are for each one.
-For example, if you had a car mesh, and used that car mesh for six cars in a parking lot scene,
-the *Mesh* listing would show the Car and then the number 6.
-
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     *Data Select Browser*
-   | Hotkey:   :kbd:`F` - Fake User
-
-
-:kbd:`RMB` selecting certain kinds of datablocks
-(*Material* s, *Image* s, *Texture* s...) and pressing :kbd:`F` will assign a "fake user" to those datablocks.
-With a fake user in place, Blender will keep those datablocks in the file, even if they have no "real user".
-Datablocks without a user, real or fake, are not saved in the ``.blend`` file.
-Pressing :kbd:`F` again toggles the fake user assignment.
-Performing this action is the same as clicking the *F* button next to material/image/... names.
-
-
 Outliner
-********
+========
 
-You can easily inspect the contents of your file by using the *Outliner* window.
-This window displays the Blender data system (:doc:`fully documented here </data_system/the_outliner>`).
-This window offers two views of the database.
-The *Outliner* view allows you to do simple operations on the objects. These operations include selecting,
-renaming, deleting and linking.
+You can easily inspect the contents of your file by using the *Outliner* editor,
+which displays all of the data in your .blend file.
+
+The *Outliner* allows you to do simple operations on objects,
+such as selecting, renaming, deleting, linking and parenting.
+
+:doc:`Read more about the Outliner </editors/outliner/introduction>`
 
 
 Users (Sharing)
-***************
+===============
 
 Many datablocks can be shared among other datablocks - re-use is encouraged. For example,
 suppose you have a material for one object, named ``Glossy``.
@@ -75,7 +42,7 @@ You will notice a "2" next to the name of the material, indicating that there ar
 
 
 Fake User
-=========
+---------
 
 Remember that Blender does not save datablocks that are not linked to anything in the *current* file.
 If you're building a ``.blend`` file to serve as a library of things that you intend to link-to from *other* files,
@@ -88,7 +55,7 @@ the datablock will not be deleted.
 
 
 Copying and Linking Objects Between Scenes
-******************************************
+==========================================
 
 Sometimes you may want to link or copy objects between scenes. This is possible by first selecting objects you want
 to link or copy and then using the *Make Links* and *Make Single User* items found in
@@ -99,7 +66,7 @@ Further information on working with scenes can be found :doc:`here </data_system
 
 
 Appending or Linking Across Files
-*********************************
+=================================
 
 The content of one ``.blend`` file is easily accessed and put into your current file by using
 :menuselection:`File --> Append` or :menuselection:`File --> Link`
@@ -108,7 +75,7 @@ see :doc:`click here </data_system/linked_libraries>`.
 
 
 Proxy Objects
-=============
+-------------
 
 :doc:`Proxy objects </data_system/linked_libraries>` allow you to make (parts of) linked data local. For example,
 this allows an animator to make a local "copy" of the handler bones of a character,
@@ -122,7 +89,7 @@ Updates made to the shape of the car are applied automatically to the painter's 
 
 
 Pack and Unpack Data
-********************
+====================
 
 Blender has the ability to encapsulate (incorporate)
 various kinds of data within the .blend file that is normally saved outside of the ``.blend`` file.
@@ -136,7 +103,7 @@ box" displayed in the header.
 
 
 Unpack Data
-===========
+-----------
 
 When you have received a packed file,
 you can :menuselection:`File --> External Data --> Unpack into Files...`.
