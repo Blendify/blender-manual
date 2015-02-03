@@ -9,7 +9,7 @@ Opening Files
    :class: refbox
 
    | Menu:     :menuselection:`File --> Open`
-   | Hotkey:   :kbd:`F1`
+   | Hotkey:   :kbd:`Ctrl-O` or :kbd:`F1`
 
 
 To load a Blender file from disk, press :kbd:`Ctrl-O` or :kbd:`F1`.
@@ -55,8 +55,8 @@ Recent
    in the box labeled *Recent Files*.
 
 
-Open Options
-============
+Options
+=======
 
 Load UI
    Inside each .blend file, Blender saves the user interface arrangement. By default,
