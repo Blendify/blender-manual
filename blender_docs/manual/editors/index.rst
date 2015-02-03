@@ -22,4 +22,5 @@ the current scene from the top, front, side and Camera perspective at the same t
    :maxdepth: 2
 
    outliner/index.rst
+   info.rst
    sequencer/index.rst
