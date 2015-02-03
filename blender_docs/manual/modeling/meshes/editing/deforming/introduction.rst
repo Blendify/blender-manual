@@ -1,9 +1,11 @@
 
 ..    TODO/Review: {{review|text=move?}} .
 
-******************
-Deforming Geometry
-******************
+************
+Introduction
+************
+
+
 
 Push/Pull
 =========
@@ -45,7 +47,6 @@ Warp
 
    | Mode:     *Edit* mode
    | Menu:     :menuselection:`Mesh/Curve/Surface --> Transform --> Warp`
-   | Hotkey:   :kbd:`Shift-W`
 
 
 The *Warp* transformation is useful in very specific cases.
@@ -69,7 +70,7 @@ A cylinder is warped into a semicircular shape
 
 - Switch to top view and move the mesh away from the 3D cursor. This distance defines the radius of the warp.
 - Place the mesh in *Edit* mode (:kbd:`Tab`) and press :kbd:`A` to select all vertices.
-  Press :kbd:`Shift-W` to activate the warp transform tool.
+  Select the warp transform tool from the Mesh menu.
   Move the mouse left or right to interactively define the amount of warp.
 
 
@@ -191,3 +192,10 @@ First, start with a :doc:`Cube </modeling/meshes/primitives#cube>`.
    Subdivided cube, after warp
 
 
+Bend
+====
+
+.. figure:: /images/modeling_meshes_editing_deforming_bend.jpg
+
+This tool rotates a line of selected elements around the 3D Cursor, forming an arc where they bend.
+For details see :doc:`Bend </modeling/meshes/editing/deforming/bend>`.
