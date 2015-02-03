@@ -1,45 +1,20 @@
 
-***************
-Outliner window
-***************
-
-Description
-===========
-
-The *Outliner* window is used for easily navigating a complex scene.
-The Outliner gives you a 2D representation of your complicated 3D world.
-Use it to find things in your scene.
-
-For example, suppose you sneeze while moving an object; your mouse flies off your desk
-(gesundheit!) and the object is hurled somewhere off screen into space.
-Simply use the outliner to find it; select it,
-and move back to your 3D window to snap it back to your cursor (:kbd:`Shift-S`
-*--> Selection --> Cursor*).
-
-Another more practical example is to evaluate the impact of a change on related
-:doc:`datablocks </data_system/datablocks>`.
-Suppose you are looking at your ``TableTop`` object, and it doesn't look right,
-the ``Wood`` material doesn't look right; you want it to look more like mahogany.
-Since the same material can be used by many meshes,
-you're not sure how many things will change color when you change the material. Using the *Outliner*,
-you could find that material and trace the links that it has to every mesh in your scene.
-
-
-Outliner view
--------------
+************
+Introduction
+************
 
 .. figure:: /images/Manual-2-56-PartIII-Outliner-Window.jpg
 
    The Outliner window.
 
 
-The *Outliner* is a kind of list that organizes things related to each other.
+The *Outliner* is a list that organizes data in your scene.
 In the outliner, you can:
 
 - View the data in the scene.
 - Select and deselect objects in the scene.
 - Hide or show an object in the scene.
-- Enable or disable selection (to make an object "unselectable" in the 3D Views).
+- Enable or disable selection (to make an object "unselectable" in the 3D View).
 - Enable or disable the rendering of an object.
 - Delete objects from the scene.
 - Unlink data (equivalent to pressing the *X* button next to the name of a datablock).
@@ -47,32 +22,18 @@ In the outliner, you can:
 - Easily select which render pass to render (for example, you can choose to render just the *Specular* pass).
 
 
-Selecting the outliner window type
-**********************************
-
-.. figure:: /images/Manual-2-56-PartIII-Outliner-Window-Type.jpg
-
-   Change a window type to the Outliner.
-
-
-Choose a window and :kbd:`LMB` on its current *Window type* button
-(left-most icon in its header), and :kbd:`LMB` on *Outliner*.
-
-
 Using the Outliner
-******************
+==================
 
 Each row in the *Outliner* shows a datablock. You can click the plus-sign to the
 left of a name to expand the current datablock and see what other datablocks it contains.
-If the row is already expanded, the icon to the left will be a minus-sign.
-Clicking the minus-sign will collapse subordinate objects beneath the row.
 
 You can select datablocks in the *Outliner*,
 but this won't necessarily select the datablock in the scene.
 To select the datablock in the scene, you have to activate it.
 
 
-Selecting and activating
+Selecting and Activating
 ========================
 
 Single selection doesn't require any pre-selection: just work directly with :kbd:`LMB`
@@ -156,44 +117,21 @@ Toggling object-level restrictions
 The three following options, in the right side of the *Outliner* window,
 are only available for objects:
 
-**Visibility**
+Visibility
+   (*eye icon*)
+   Toggles the visibility of the object in the 3D View.
+   :kbd:`V` will toggle this property for any objects that are selected in the *Outliner*.
 
-
-.. figure:: /images/Manual-2-56-PartIII-Outliner-Restrict-Visibility.jpg
-
-   Restrict visibility
-
-
-   Toggle visibility by clicking the "eye" icon for the object on the right-hand side of the *Outliner*.
-   Useful for complex scenes when you don't want to assign the object to another layer.
-   This will only work on visible layers - an object on an invisible layer will still
-   be invisible regardless of what the *Outliner* says. :kbd:`V`
-   will toggle this property for any objects that are pre-selected in the *Outliner*.
-
-
-**Selectability**
-
-
-.. figure:: /images/Manual-2-56-PartIII-Outliner-Restrict-Selection.jpg
-
-   Restrict selection
-
-
-   Toggle selectability by clicking the "arrow" icon. This is useful for if you have placed something in the scene
+Selectability
+   (*mouse cursor icon*)
+   This is useful for if you have placed something in the scene
    and don't want to accidentally select it when working on something else.
-   :kbd:`S` will toggle this property for any objects that are pre-selected in the *Outliner*.
+   :kbd:`S` will toggle this property for any objects that are selected in the *Outliner*.
 
-
-**Rendering**
-
-
-.. figure:: /images/Manual-2-56-PartIII-Outliner-Restrict-Renderability.jpg
-
-   Restrict renderability
-
-   Toggle rendering by clicking the "camera" icon. This will still keep the object visible in the scene,
-   but it will be ignored by the renderer.
-   :kbd:`R` will toggle this property for any objects that are pre-selected in the *Outliner*.
+Rendering
+   (*camera icon*)
+   This will still keep the object visible in the scene, but it will be ignored by the renderer.
+   :kbd:`R` will toggle this property for any objects that are selected in the *Outliner*.
 
 
 Searching
@@ -203,11 +141,11 @@ You can search the file for datablocks,
 either by using the *Search* menu in the header of the *Outliner*,
 or by using one of the following hotkeys:
 
-- :kbd:`F` - *Find*.
-- :kbd:`Ctrl-F` - *Find (case sensitive)*.
-- :kbd:`Alt-F` - *Find complete*.
-- :kbd:`Ctrl-Alt-F` - *Find complete (case sensitive)*.
-- :kbd:`Shift-F` - *Find again*.
+- :kbd:`F` - Find.
+- :kbd:`Ctrl-F` - Find (case sensitive).
+- :kbd:`Alt-F` - Find complete.
+- :kbd:`Ctrl-Alt-F` - Find complete (case sensitive).
+- :kbd:`Shift-F` - Find again.
 
 Matching datablocks will be automatically selected.
 
@@ -220,11 +158,8 @@ Filtering the display
    Outliner Display dropdown.
 
 
-The window header has a field to let you select what the outliner should show in the outline.
-By default, the outliner shows *All Scenes*.
-You can select to show only the current scene, datablocks that have been selected,
-objects that are on currently selected layers, etc. These selects are to help you *narrow the
-list* of objects so that you can find things quickly and easily.
+The window header has a field to let you select what the outliner should show to help you narrow the
+list of objects so that you can find things quickly and easily.
 
 All Scenes
    Shows *everything* the outliner can display (in all scenes, all layers, etc.)
@@ -234,7 +169,6 @@ Visible Layers
    Shows everything on the visible (currently selected) layers in the current scene.
    Use the :doc:`layer </getting_started/basics/navigating/layers>` buttons
    to make objects on a layer visible in the 3D window.
-
 Selected
    Lists only the object(s) currently selected in the 3D window.
    You can select multiple objects by :kbd:`Shift-RMB` -clicking.
@@ -254,37 +188,3 @@ User Preferences
    TODO
 Key Maps
    TODO
-
-
-Example
-=======
-
-.. figure:: /images/Manual-2-56-PartIII-Outliner-Scene-Example.jpg
-
-   The Outliner window in list mode.
-
-
-The outline example shows that the ``.blend`` file has three scenes:
-``Ratchet in Middle``, ``Ratchet on Outside``,
-and ``Ratchet Out White``.
-By clicking on the little plus-sign to the left of the name,
-the outline is expanded one level.
-This was done for the ``Ratchet in Middle`` scene. As you can see,
-this scene has some ``World`` material settings, a ``Camera``, an ``Empty``, ``HandleFixed`` object...
-All objects that were added to the scene.
-
-By clicking the plus-sign next to ``ratchetgear``,
-we can see that it has some motion described by the ``Animation`` " entry;
-that it was based on a ``Circle`` mesh,
-and that it is the parent of ``HandleFixed.002``,
-which is in turn the parent of ``Plane.003``, and so on.
-
-
-The neat thing is: if you select any of these datablocks here,
-they will be selected in the 3D window as well, as far as this is possible.
-Pressing :kbd:`NumpadPeriod`
-with your mouse cursor in any 3D Window will center and align the view to that object.
-Very handy. Also, pressing :kbd:`X` will delete it,
-as well as all the other hotkeys that operate on the currently selected object.
-
-
