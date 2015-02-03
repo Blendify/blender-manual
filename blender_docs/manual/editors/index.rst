@@ -21,5 +21,5 @@ the current scene from the top, front, side and Camera perspective at the same t
 .. toctree::
    :maxdepth: 2
 
-   properties/index.rst
+   outliner/index.rst
    sequencer/index.rst
