@@ -3,114 +3,86 @@
 Opening Files
 *************
 
+.. figure:: /images/File-openwindow.jpg
+
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All modes
    | Menu:     :menuselection:`File --> Open`
    | Hotkey:   :kbd:`F1`
 
 
-Description
-===========
+To load a Blender file from disk, press :kbd:`Ctrl-O` or :kbd:`F1`.
+The *File Browser* window, as shown above, will open.
 
-Blender uses the ``.blend`` file format to save nearly everything: objects, scenes,
-textures, and even all your user interface window settings.
+The upper text box displays the current directory path,
+and the lower text box contains the selected filename.
 
+The + and - buttons to the right of the file name allow you to cycle through numbered files
+by increasing or decreasing the number at the end of the file name.
 
- .. warning::
+Pressing :kbd:`P` or clicking the up-arrow icon above the list of files will move you up to the parent directory.
+
+Click on a folder to go inside of it,
+Click on a file then click the *Open Blender File* button or press :kbd:`Enter` to open it
+
+Clicking *Cancel* will close the file browser window and return to the program.
+
+.. warning::
 
    Blender expects that you know what you are doing! When you load a file, you
    are **not** asked to save unsaved changes to the scene you were previously
    working on, completing the file load dialog is regarded as being enough
    confirmation that you didn't do this by accident.
 
-**Make sure that you save your files.**
 
+Sidebar
+=======
 
-.. figure:: /images/File-openwindow.jpg
-
-
-Using the File Browser and Folder Navigation
-============================================
-
-To load a Blender file from disk, press :kbd:`F1`. The *File Browser* window,
-as shown above, will open.
-
-The upper text box displays the current directory path,
-and the lower text box contains the selected filename. :kbd:`P`
-(or the *P* button) moves you up to the parent directory.
-
-The + and - buttons allow you to cycle through numbered files by increasing or decreasing the
-number at the end of the file name.
-
-Click on a folder to go inside of it,
-or click on a file then press the *Open Blender File* to open it
-
-Clicking *Cancel* will close the file browser window and return to the program.
-
-
-Side Panel
-==========
-
-The panel on the left displays different ways to find files and several options.
-To load a file, select it with :kbd:`LMB` and then press :kbd:`Return`,
-or click the *Open File* button.
-A file can also be loaded by simply clicking :kbd:`MMB` over its name.
-
+The left sidebar displays different ways to find files and several options.
 
 System
-------
-
-The system menu contains a list of drives that are available to navigate through to find
-files. Click on one to jump to that drive.
-
-
+   The system menu contains a list of drives that are available to navigate through to find
+   files. Click on one to jump to that drive.
 Bookmarks
----------
-
-These are folders that you want to be able to access often without having to navigate to them
-in the file browser. To add a directory to the bookmark menu, navigate to that folder,
-then click the *Add* button.
-To remove a folder from the list, simply click the *X* icon nexto to it.
-
-
+   These are folders that you want to be able to access often without having to navigate to them
+   in the file browser. To add a directory to the bookmark menu, navigate to that folder,
+   then click the *Add* button.
+   To remove a folder from the list, simply click the *X* icon next to it.
 Recent
-------
-
-This is a list of recently accessed folders. You can control how many folders appear in this
-list by going to the *File* tab of the user *Preferences*,
-in the box labeled *Recent Files*.
+   This is a list of recently accessed folders. You can control how many folders appear in this
+   list by going to the *File* tab of the :doc:`User Preferences </preferences/file>`,
+   in the box labeled *Recent Files*.
 
 
 Open Options
 ============
 
-Inside each .blend file, Blender saves the user interface - the screen layouts. By default,
-this saved UI is loaded, overriding any user defaults or current screen layouts that you have.
-If you want to work on the blend file using your current defaults, start a fresh Blender,
-then open the file browser (:kbd:`F1`). Turn off the *Load UI* button,
-and then open the file.
+Load UI
+   Inside each .blend file, Blender saves the user interface arrangement. By default,
+   this saved UI is loaded, overriding any user defaults or current screen layouts that you have.
+   If you want to work on the blend file using your own defaults, start a fresh Blender,
+   then open the file browser and turn off the *Load UI* button,
+   and then open the file.
+Trusted Source
+   When enabled, python scripts and drivers that may be included in the file will be run automatically.
+   Enable this only if you created the file yourself, or you trust that the person who gave it to you
+   did not include any malicious code with it. See `Security`_ below.
 
 
-The Header Panel
-================
+Header
+======
 
-The Header contains several tools for navigation files.
-The four arrow icons allow you to:
-
+The Header contains several tools for navigation of files. The four arrow icons allow you to:
 
 - *Move to previous folder*
 - *Move to next folder*
 - *Move up to parent directory*
 - *Refresh current folder*
 
-Create a new folder inside the current one by clicking the *Create New Directory*
-icon.
+Create a new folder inside the current one by clicking the *Create New Directory* button.
 
-The other icons allow you to control what files are visible and how they are displayed.
-You can:
-
+The other icons allow you to control what files are visible and how they are displayed. You can:
 
 - *Display files as a short list*
 - *Display files as a detailed list*
@@ -118,15 +90,12 @@ You can:
 
 You can sort files:
 
-
 - *Alphabetically*
 - *By file type*
 - *By Date of last edit*
 - *By file size*
 
-Filtering controls which file types are shown. Click the *Enable Filtering* icon,
-and toggle which types are shown:
-
+Click the funnel icon to toggle which file types are shown:
 
 - *Folders*
 - *Blend files*
@@ -148,49 +117,29 @@ From the *File* menu, you can also open files with the following tools:
 Open Recent
    Lists recently used files. Click on one to load it in.
 Recover Last Session
-   This will load the ``quit.blend`` file Blender automatically saves just before exiting.
-   So this option enables you to recover your last work session, e.g. if you closed Blender by accident...
+   This will load the ``quit.blend`` file Blender automatically saved just before exiting.
+   This option enables you to recover your last work session if, for example, you closed Blender by accident.
 Recover Auto Save
-   This will open an automatically saved file to recover it.
+   This will allow you to open an automatically saved file to recover it.
+
+.. seealso::
+
+   :ref:`Auto Saves <options-for-files>`
 
 
 Security
 ========
 
+.. warning::
+
+   Always be very careful when downloading .blend files and tools from un-trustworthy sources!
+
 Blender is aimed at production level use and relies heavily on Python,
-a powerful scripting language. Python can be used in Blender to create new tools,
-importers and exporters, and also to drive animation rigs.
-With Python scripting there are endless possibilities in what you can create with Blender.
+a powerful scripting language used to create new tools, importers drive animation rigs, etc.
 
 Part of Python's power comes from having full access to your system,
 however this power can also be misused in the wrong hands.
-It's possible (but not terribly likely) for dishonest people to distribute ``.blend``
+It is possible for dishonest people to distribute ``.blend``
 files containing scripts that may damage your system.
 These scripts can be attached as part of animation rigs,
 so that they will be run when such a ``.blend`` file is opened.
-
-
- .. warning::
-
-   Always be very careful when downloading .blend files and tools from
-   un-trustworthy sources!
-
-
-Protection
-----------
-
-.. figure:: /images/Manual-Introduction-Security-trusted-source.jpg
-
-To protect against malicious .blend files,
-it's possible to prevent any embedded scripts from running when you open a .blend file.
-This will mean that custom tools or rigs using Python features will not work,
-but this won't be a problem for .blend files that don't use these
-(such as material libraries),
-and will at least give you a chance to better evaluate what risks might be inside.
-
-By default, Blender will trust all files and run scripts automatically.
-If you don't trust the file, and want protection, you can disable 'Trusted source' in the
-File-->Open dialog in the properties section on the bottom left.
-Un-trusted files will disable embedded Python scripts after opening the file.
-
-
