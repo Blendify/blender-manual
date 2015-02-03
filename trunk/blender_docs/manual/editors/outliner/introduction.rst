@@ -42,9 +42,7 @@ Single selection doesn't require any pre-selection: just work directly with :kbd
 When you select an object in the list this way,
 it is selected and becomes the active object in all other 3D Views.
 Use this feature to find objects in your 3D View, select them in the *Outliner*,
-then zoom to them with :kbd:`NumpadPeriod` or if you don't have a numpad,
-snap and center your cursor on them via :kbd:`Shift-S`
-*--> Cursor --> Selection*, and then :kbd:`C`.
+then zoom to them with :menuselection:`View --> Show Active` or :kbd:`NumpadPeriod`.
 
 
 .. figure:: /images/Manual-2-56-PartIII-Outliner-Activate-Datablock.jpg
@@ -117,19 +115,16 @@ Toggling object-level restrictions
 The three following options, in the right side of the *Outliner* window,
 are only available for objects:
 
-Visibility
-   (*eye icon*)
+Visibility (*eye icon*)
    Toggles the visibility of the object in the 3D View.
    :kbd:`V` will toggle this property for any objects that are selected in the *Outliner*.
 
-Selectability
-   (*mouse cursor icon*)
+Selectability (*mouse cursor icon*)
    This is useful for if you have placed something in the scene
    and don't want to accidentally select it when working on something else.
    :kbd:`S` will toggle this property for any objects that are selected in the *Outliner*.
 
-Rendering
-   (*camera icon*)
+Rendering (*camera icon*)
    This will still keep the object visible in the scene, but it will be ignored by the renderer.
    :kbd:`R` will toggle this property for any objects that are selected in the *Outliner*.
 
