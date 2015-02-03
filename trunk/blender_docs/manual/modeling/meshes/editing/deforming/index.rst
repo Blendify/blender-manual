@@ -5,7 +5,7 @@
 ############
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    introduction.rst
    mirror.rst
@@ -16,3 +16,4 @@
    shear.rst
    to_sphere.rst
    warp.rst
+   bend.rst
