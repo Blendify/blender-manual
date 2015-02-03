@@ -12,6 +12,7 @@
    save.rst
    import.rst
    export.rst
+   relative_paths.rst
    formats.rst
    formats/openexr.rst
    formats/dpx,_cineon,_hdr.rst
