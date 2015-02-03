@@ -170,7 +170,7 @@ For example, the Add Modifier button will produce a menu with all of the availab
    just have to re-link it to another object or supply it with a "Fake User" (i.e.
    by clicking that option in the corresponding DataBlock in the datablock-view of the Outliner).
 
-   :doc:`Read more about Fake User </data_system/data_system>`
+   :doc:`Read more about Fake User </data_system/introduction>`
 
 
 

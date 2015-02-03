@@ -1,19 +1,11 @@
 
-..    TODO/Review: {{review
-   |text=
-   wrong version
-   : Data Select Browser not applicable/available in 2.5
-   Overview
-   : http://wiki.blender.org/index.php/Doc:2.5/Manual/Data_System/Data_System#Overview
-   }} .
-
-
-********
-Overview
-********
+************
+Introduction
+************
 
 Each .blend file contains a database. This database contains all scenes, objects, meshes,
 textures, etc. that are in the file.
+
 A file can contain multiple scenes and each scene can contain multiple objects.
 Objects can contain multiple materials which can contain many textures.
 It is also possible to create links between different objects.

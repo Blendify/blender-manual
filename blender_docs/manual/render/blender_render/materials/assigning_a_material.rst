@@ -124,7 +124,7 @@ Data
    the objects can have different materials and still share the same mesh.
    Short explanation: If connected to the object,
    you can have several instances of the same obData using different materials.
-   If linked to mesh data, you can't. See :doc:`Data System </data_system/data_system>` for more information.
+   If linked to mesh data, you can't. See :doc:`Data System </data_system/introduction>` for more information.
 
 
 Object Render Format (menu)
