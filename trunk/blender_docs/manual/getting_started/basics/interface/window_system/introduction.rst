@@ -175,15 +175,3 @@ This window lists all the objects in a scene and can be very useful when working
 scenes with lots of items.
 You can choose what types of elements and how they are displayed in the header.
 
-
-Timeline Window
----------------
-
-.. figure:: /images/Icon-library_Timeline-Window_header.jpg
-   :width: 640px
-
-   Timeline Window Header
-
-
-This window gives a timeline, through which you can scrub with the :kbd:`LMB`.
-
