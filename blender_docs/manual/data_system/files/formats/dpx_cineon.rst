@@ -18,16 +18,3 @@ We cannot find yet how to disable this, but it seems to read/write fine without 
 Blender DPX files (entire Elephants Dream movie)
 have been succesfully imported in a Quantel IQ HD/2K finishing/grading set without problems,
 so for now we assume it's compliant for professional usage.
-
-
-Radiance HDR
-************
-
-Radiance is a suite of tools for lighting simulation originally written by Greg Ward.
-Since Radiance had the first (and for a long time the only) HDR image format,
-this format is supported by many other software packages.
-
-Radiance (.hdr) files store colors still in 8 bits per component, but with an additional
-(shared) 8 bits exponent value, making it 32 bits per pixel.
-Only RGB can be stored in these files.
-
