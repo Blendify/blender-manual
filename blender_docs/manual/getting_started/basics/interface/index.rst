@@ -24,8 +24,6 @@ Window Controls
    window_system/index.rst
    screens.rst
    scenes.rst
-   modes.rst
-   contexts.rst
 
 
 Interface Controls
