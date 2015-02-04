@@ -25,6 +25,8 @@ Scale
    :width: 300px
 
 
+.. _cycles-panoramic-camera:
+
 Panoramic
 =========
 

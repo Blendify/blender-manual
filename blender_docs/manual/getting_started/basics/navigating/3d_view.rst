@@ -80,7 +80,7 @@ One possibility may be that the :doc:`clipping distance </render/camera#camera_s
 The camera will only show objects that fall within the clipping range.
 
 
-:doc:`Read more about Render perspectives </render/camera/perspective>`
+:doc:`Read more about Render perspectives </render/camera/lens>`
 
 :doc:`Read more about Camera View </getting_started/basics/navigating/camera_view>`
 

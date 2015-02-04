@@ -65,6 +65,7 @@ The camera with the solid triangle on top is the active camera.
    or global (locked) to the whole scene - see
    :doc:`this part of the 3D view options page </getting_started/basics/navigating/3d_view_options#lock_to_scene>`.
 
+.. _camera_settings:
 
 Camera Settings
 ===============
@@ -72,8 +73,9 @@ Camera Settings
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object* mode
-   | Panel:    *Camera*
+   | Mode:     Object mode
+   | Editor:   Properties
+   | Context:  Object Data
 
 
 Cameras are invisible in renders, so they don't have any material or texture settings.
@@ -84,52 +86,8 @@ which are displayed when a camera is the selected (active!) object.
 Lens
 ----
 
-.. figure:: /images/Manual-CameraPanel-2.57.png
-   :width: 270px
-
-   Camera Lens panel.
-
-
-Perspective / Orthographic / Panoramic
-   Select what projection type to use. *Perspective* is the default and makes objects further away
-   appear smaller while *Orthographic* maintains the exact measures of objects. A
-   *Perspective* projection is more similar to what an image obtained with a real camera would look like
-   while an *Orthographic* projection is a more technical view, best for blueprints,
-   but worst to convey distances between objects.
-   To configure these projections,
-   see :doc:`this page </render/camera/perspective>` on vanishing points and isometric view.
-   *Panoramic* renders the scene with a cylindrical projection.
-
-   .. figure:: /images/Manual-CameraView-Camera.jpg
-      :width: 200px
-
-      A camera with the clipping limits and focal point visible.
-
-Focal Length
-   Available in Perspective and Panoramic camera types, represents the lens focal length,
-   represented in degrees or millimeters. When *Orthographic* mode is selected,
-   the *Focal Length* setting changes to the *Orthographic Scale* setting.
-   This setting determines the size of the camera's visible area.
-Shift X/Y
-   Shifts the camera viewport. Note that most of the time,
-   this setting should not be used to adjust the camera position,
-   as the *Shift* setting is relative to the actual camera position, which will not be changed.
-Clipping Start/End
-   Sets the clipping limits. Only objects within the limits are rendered.
-   If *Limits* in the *Display* panel is enabled,
-   the clip bounds will be visible as two yellow connected dots on the camera line of sight.
-
-
-   .. note::
-
-      The *3D View* window contains settings similar to the camera,
-      such as *Orthographic* / *Perspective* and *Clip Start* / *Clip End*.
-      These settings have no effect on the camera rendering,
-      and only change the view settings when *not* in *Camera* view.
-      These settings are accessed through the :menuselection:`View` menu of the *3D View*.
-
-      See the :doc:`3D view options page </getting_started/basics/navigating/3d_view_options#view_properties_panel>`
-      for more details.
+The camera lens options control the way 3D objects are represented in a 2D image.
+See :doc:`Camera Lens </render/camera/lens>` for details.
 
 
 Camera
@@ -141,10 +99,14 @@ Camera
    Camera Presets panel.
 
 
-.. TODO
+.. TODO: Camera Presets
 
-- *Camera Presets*
-- *Sensor*
+.. _render-camera-sensor-size:
+
+Sensor size
+   As far as Blender is concerned, this setting does the same thing as the focal length.
+   This setting is mainly useful when trying to match the camera in blender to a real-life camera, e.g. for
+   :doc:`motion tracking </motion_tracking/index>`.
 
 
 .. _render-camera-dof:
