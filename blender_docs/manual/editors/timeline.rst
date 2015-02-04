@@ -1,10 +1,8 @@
 ..    TODO/Review: {{review}} .
 
-.. _timeline-editor:
-
-***********
-  Timeline
-***********
+********
+Timeline
+********
 
 .. figure:: /images/Icon-library_Timeline-Window_header.jpg
    :width: 640px
