@@ -177,7 +177,7 @@
       Now in most cases obsoleted by Raytracing, which though slower is easier to use and more accurate.
 
    Extrude
-      It's a tool used to create more geometry into the mesh. It is a very commonly used tool.
+      Modeling tool used to extend and add geometry to a mesh.
 
    Face
       Mesh element that defines a piece of surface. It consists of 3 or more :term:`edges <edge>`.
@@ -186,6 +186,13 @@
       Chain of consecutive :term:`quads <quad>`.
       A face loop stops at a :term:`triangle` or :term:`Ngon` (which don't belong to the loop), or at a boundary.
       Otherwise it's cyclic.
+      
+   Field of View
+      The area in which objects are visible to the camera. Also see :term:`Focal Length <focal length>`
+      
+   Focal Length
+      .. Distance required by a lens to focus collimated light.
+      Defines the magnification power of a lens. Also see :term:`Field of View <field of view>`
 
    Geometric Center
       An object's geometric center coincides with the geometric center of its bounding box.
@@ -423,4 +430,3 @@
 
    Vertex Group
       Vertices can be grouped together so that certain operations can work on specific groups.
-
