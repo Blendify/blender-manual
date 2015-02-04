@@ -1,10 +1,8 @@
 ..    TODO/Review: {{review}} .
 
-.. _info-editor:
-
-******************
-  The Info Editor
-******************
+***************
+The Info Editor
+***************
 
 .. figure:: /images/Interface_Window-System_Info-window-shaded.jpg
    :width: 640px
