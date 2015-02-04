@@ -32,10 +32,10 @@ New
    Restore the default scene to the factory settings.
 :doc:`Link or Append </data_system/linked_libraries>`
    You don't have to load a complete file, you can load in only selected parts from another file if you wish.
-:doc:`Import </data_system/files/import>`, (:doc:`COLLADA </data_system/files/import/collada>`)
+:doc:`Import </data_system/files/import_export>`
    Blender can use information stored in a variety of other format files which are created by
    other graphics programs.
-:doc:`Export </data_system/files/export>`
+:doc:`Export </data_system/files/import_export>`
    Normally you save your work in a .blend file,
    but you can export some or all of your work to a format that can be processed by other graphics programs.
 

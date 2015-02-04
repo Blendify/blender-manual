@@ -10,8 +10,7 @@
    introduction.rst
    open.rst
    save.rst
-   import.rst
-   export.rst
+   import_export.rst
    relative_paths.rst
    formats.rst
    formats/openexr.rst
