@@ -25,7 +25,7 @@ manually/numerically control the position, rotation, and other properties of an 
 In *Edit* mode, it mainly allows you to enter precise coordinates for a vertex,
 or median position for a group of vertices (including an edge/face). As each type of object has a different set of
 options in its *Transform Properties* panel in *Edit* mode,
-see their respective descriptions in the :doc:`Modeling chapter </modeling>`.
+see their respective descriptions in the :doc:`Modeling chapter </modeling/index>`.
 
 
 Options in Object mode
@@ -36,16 +36,16 @@ Options in Object mode
    Transform Properties panel in Object mode.
 
 
-Location X, Location Y, Location Z
+Location
    The object's center location in global coordinates.
-Rotation X, Rotation Y, Rotation Z
+Rotation
    The object's orientation, relative to the global axes and its own center.
-Scale X, Scale Y, Scale Z
+Scale
    The object's scale, relative to its center, in local coordinates
    (i.e. the *Scale X* value represents the scale along the local X-axis).
    Each object (cube, sphere, etc.), when created, has a scale of one blender unit in each local direction.
    To make the object bigger or smaller, you scale it in the desired dimension.
-Dimensions X, Dimensions Y, Dimensions Z
+Dimensions
    The object's basic dimensions (in blender units) from one outside edge to another, as if measured with a ruler.
    For multi-faceted surfaces, these fields give the dimensions of the bounding box
    (aligned with the local axes - think of a cardboard box just big enough to hold the object).
@@ -93,5 +93,4 @@ To lock a field, click the padlock icon next to the field. The field is unlocked
 .. figure:: /images/Manual-Part-II-ObjectMode-TransformProperties-Panel-Locked.jpg
 
 ).
-
 
