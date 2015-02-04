@@ -34,7 +34,7 @@ press the *Halo* button in the *Material* menu's top panel.
 As you will see in the 3D View, the mesh faces are no longer rendered.
 Instead just the vertex is rendered, since that is where each halo will originate.
 Halos can be hard to find in a crowded scene, so name it well for easy location in
-:doc:`the outliner </editors/outliner/introduction>`.
+:doc:`the outliner </editors/outliner>`.
 
 In the properties window, where we normally find the *Diffuse*,
 *Specular*, and *Shading* panels,
