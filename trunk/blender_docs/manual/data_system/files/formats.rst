@@ -1,16 +1,28 @@
 
-*****************
-Supported Formats
-*****************
+**************************
+Supported Graphics Formats
+**************************
 
 Image Formats
 =============
 
 This is the list of image file formats supported internally by Blender:
 
+- BMP
+- Iris
+- PNG
+- JPEG
+- JPEG 2000
+- Targa (compressed and uncompressed)
+- Cineon
+- DPX
+- OpenEXR (flat and multi-layer)
+- Radiance HDR
+- TIFF
 
-High Dynamic Range Graphics
----------------------------
+
+High Dynamic Range
+------------------
 
 Blender's image input/output system transparently support regular 32 bits graphics
 (4 x 8 bits) or floating point images storing 128 bits per pixel (4 x 32 bits).
@@ -27,29 +39,17 @@ and the Compositor.
 
 For hints how to manipulate or view HDR images, please check the Curves UI page.
 
+More information information about specific formats has been written here:
 
 - :doc:`OpenEXR (Multilayer) </data_system/files/formats/openexr>`
-- :doc:`DPX, Cineon and Radiance HDR </data_system/files/formats/dpx,_cineon,_hdr>`
-
-
-Others Formats
---------------
-
-Here's a list of other supported image formats:
-
-- BMP
-- DDS
-- SGI IRIS (old!)
-- PNG
-- JPEG
-- JPEG 2000
-- Targa
-- Targa Raw (uncompressed Targa)
-- TIFF
+- :doc:`DPX and Cineon </data_system/files/formats/dpx_cineon>`
+- :doc:`Radiance HDR </data_system/files/formats/hdr>`
 
 
 Movie Formats
 =============
+
+The following video formats are supported:
 
 - AVI (Windows)
 - AVI JPEG
@@ -65,9 +65,9 @@ Movie Formats
 Color Modes
 ===========
 
-- BW, Images get saved in 8 bits grayscale (only PNG, JPEG, TGA, TIF)
+- BW, Images get saved in 8 bits grayscale (only PNG, JPEG, TGA, TIFF)
 - RGB, Images are saved with RGB (color)
-- RGBA, Images are saved with RGB and Alpha data (if supported)
+- RGBA, Images are saved with RGB and an Alpha channel (if supported)
 
 
 Color Depths
@@ -77,4 +77,3 @@ Color Depths
 - 12 bit color channels
 - 16 bit color channels
 - 32 bit color channels
-
