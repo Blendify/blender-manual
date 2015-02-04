@@ -144,34 +144,3 @@ Layers
    may contain trees, or one layer may contain cameras and lights.
    To de-clutter the view you can turn layers on and off.
 
-
-Buttons (Properties) Window Header
-----------------------------------
-
-.. figure:: /images/Icon-library_Properties_header.jpg
-
-   Properties Window Header
-
-
-The Properties window displays panels of functions.
-Panels that contain similar functions are grouped, e.g.
-all of the rendering options are grouped.
-In the header of the Properties Windows is a row of buttons (called Context Buttons)
-that allow you to select which group of panels are shown.
-Some panels are only visible when particular Objects are selected.
-Panels can be collapsed by use of the small arrow left of the panel title (e.g.
-besides *Render*) and may be rearranged by dragging the top right corner.
-
-
-Outliner Window
----------------
-
-.. figure:: /images/Icon-library_Outliner-Window_header.jpg
-
-   Outliner Window Header
-
-
-This window lists all the objects in a scene and can be very useful when working with larger
-scenes with lots of items.
-You can choose what types of elements and how they are displayed in the header.
-
