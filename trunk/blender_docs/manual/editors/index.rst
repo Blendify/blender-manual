@@ -21,6 +21,8 @@ the current scene from the top, front, side and Camera perspective at the same t
 .. toctree::
    :maxdepth: 2
 
+   3dview/index.rst
+   properties/contexts.rst
    outliner.rst
    info.rst
    timeline.rst
