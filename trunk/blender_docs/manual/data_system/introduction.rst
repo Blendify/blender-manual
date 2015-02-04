@@ -20,7 +20,7 @@ which displays all of the data in your .blend file.
 The *Outliner* allows you to do simple operations on objects,
 such as selecting, renaming, deleting, linking and parenting.
 
-:doc:`Read more about the Outliner </editors/outliner/introduction>`
+:doc:`Read more about the Outliner </editors/outliner>`
 
 
 Users (Sharing)
