@@ -1,7 +1,7 @@
 
-************
-Introduction
-************
+********
+Outliner
+********
 
 .. figure:: /images/Manual-2-56-PartIII-Outliner-Window.jpg
 
