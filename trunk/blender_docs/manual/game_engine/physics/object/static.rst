@@ -3,7 +3,7 @@
 Static Physics Object Type
 **************************
 
-Static objects in the :doc:`Blender Game Engine </game_engine>` do not automatically react to physics,
+Static objects in the :doc:`Blender Game Engine </game_engine/index>` do not automatically react to physics,
 including gravity and collisions.
 Even if hit by the force of a speeding 18-wheeler truck,
 it will remain unresponsive in terms of location, rotation, or deformation.
@@ -13,7 +13,7 @@ and rotational inertia will transfer to objects capable of rotating (that is,
 Rigid Body Objects will spin in response, though Dynamic Objects will not).
 
 Note that none of this prevents you from transforming the Static Objects with
-:doc:`Logic Bricks </game_engine/logic>` or Python code.
+:doc:`Logic Bricks </game_engine/logic/index>` or Python code.
 The visual objects will correctly move and their physics representation will update in the engine as well.
 
 Another important note is that the default

@@ -47,8 +47,8 @@ However, Blender's :doc:`Softbody system </physics/soft_body>` provides better s
 Cloth is a specialized simulation of fabrics.
 
 Once the object is designated as Cloth,
-a Cloth :doc:`modifier </modifiers>` will be added to the object's modifier stack automatically.
-As a :doc:`modifier </modifiers>` then, it can interact with other modifiers,
+a Cloth :doc:`modifier </modifiers/index>` will be added to the object's modifier stack automatically.
+As a :doc:`modifier </modifiers/index>` then, it can interact with other modifiers,
 such as *Armature* and *Smooth*. In these cases,
 the ultimate shape of the mesh is computed in accordance with the order of the modifier stack. For example,
 you should smooth the cloth *after* the modifier computes the shape of the cloth.
@@ -150,7 +150,7 @@ Pinning
    Cloth in action.
 
 
-The first thing you need when pinning cloth is a :doc:`Vertex Group </modeling/meshes/vertex_groups>`.
+The first thing you need when pinning cloth is a :doc:`Vertex Group </modeling/meshes/vertex_groups/index>`.
 There are several ways of doing this including using the Weight Paint tool to paint the areas you want to pin
 (see the :doc:`Weight paint </modeling/meshes/vertex_groups/weight_paint>` section of the manual).
 

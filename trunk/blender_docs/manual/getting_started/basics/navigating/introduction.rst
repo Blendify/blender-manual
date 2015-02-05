@@ -116,7 +116,7 @@ Tool Shelf
 :doc:`View All </getting_started/basics/navigating/3d_view>` (:kbd:`Home`)
    Zooms the 3D view to encompass *all* the objects in the current scene.
 
-:doc:`Play Back Animation </animation>` (:kbd:`Alt-A`)
+:doc:`Play Back Animation </animation/index>` (:kbd:`Alt-A`)
    Plays back the animation from the current frame.
 
 :doc:`Duplicate area in new window </getting_started/basics/interface/window_system/arranging_frames>`
@@ -208,7 +208,7 @@ Using this selector, you can change the pivot point to the location of the:
 Use the *Object Center* to switch between transforming the entire objects,
 or just the position of the objects
 
-:doc:`Read more about Pivot Points </getting_started/basics/transformations/transform_control/pivot_point>`
+:doc:`Read more about Pivot Points </getting_started/basics/transformations/transform_control/pivot_point/index>`
 
 
 Transform (Manipulator) Selectors

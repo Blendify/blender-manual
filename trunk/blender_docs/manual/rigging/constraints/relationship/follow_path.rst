@@ -33,7 +33,7 @@ The movement of the owner along the target curve/path may be controlled in two d
   (by default, start frame: 1 [= offset of 0)], duration: 100).
 - The second way, much more precise and powerful,
   is to define a *Evaluation Time* interpolation curve for the *Target* path
-  (in the *Graph Editor*. See the :doc:`animation chapter </animation>` to learn more about Fcurves.
+  (in the *Graph Editor*. See the :doc:`animation chapter </animation/index>` to learn more about Fcurves.
 - If you don't want your owner to move along the path, you can give to the target curve a flat *Speed* FCurve
   (its value will control the position of the owner along the path).
 

@@ -6,7 +6,7 @@ Image node
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :doc:`Node Editor </render/blender_render/materials/nodes/editor>` --> :doc:`Node Composition </composite_nodes>`
+   | Panel:    :doc:`Node Editor </render/blender_render/materials/nodes/editor>` --> :doc:`Node Composition </composite_nodes/index>`
    | Menu:     :kbd:`Shift-A` --> :doc:`Input </ce/windows/nodes/composite#inputs>` --> Image
 
 
@@ -189,7 +189,7 @@ Notes
 **No Frame Stretching or Compression:**
 If the input animation (avi or frame set) was encoded at a frame rate that is *different* from your current settings,
 the resultant animation will appear to run faster or slower. Blender Nodes do not adjust input video frame rates.
-Use the scale control inside the :doc:`Video Sequence Editor </editors/sequencer>` to stretch or compress video
+Use the scale control inside the :doc:`Video Sequence Editor </editors/sequencer/index>` to stretch or compress video
 to the desired speed, and input it here.
 You can incorporate "Slow-Mo" into your video.
 To do so, *ANIM* ate a video segment at 60 frames per second,

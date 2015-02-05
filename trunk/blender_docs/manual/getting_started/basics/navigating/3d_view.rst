@@ -193,7 +193,7 @@ Of course you can always switch between the styles depending on what you are wor
    View rotation.
 
 
-To change the rotation "style", use the :doc:`User Preferences window </preferences>`.
+To change the rotation "style", use the :doc:`User Preferences window </preferences/index>`.
 Click on the *Input* button and you will see an option for choosing the Orbit style.
 There are two additional checkboxes for controlling the display in the 3D window in the *Interface* tab in
 the *User Preferences*.
@@ -461,7 +461,7 @@ and dolly the camera around without any of those limitations.
    View Navigation.
 
 
-In the :doc:`User Preferences window </preferences>`
+In the :doc:`User Preferences window </preferences/index>`
 select the navigation mode you want to use as default when invoking the View Navigation operator.
 Alternatively you can call the individual modes from the View Navigation menu.
 

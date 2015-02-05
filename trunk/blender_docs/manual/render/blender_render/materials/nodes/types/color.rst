@@ -71,7 +71,7 @@ Clicking on one of the *C R G B* components displays the curve for that channel.
 .. seealso::
 
    - Read more about using the :ref:`Curve Widget <curve-widget>`.
-   - :doc:`RGB Curves node in the compositor </composite_nodes/types/color>` (includes examples)
+   - :doc:`RGB Curves node in the compositor </composite_nodes/types/color/index>` (includes examples)
 
 
 Invert

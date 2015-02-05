@@ -3,7 +3,7 @@
 Rigid Body Physics Object Type
 ******************************
 
-Probably the most common type of object in the :doc:`Game Engine </game_engine>`.
+Probably the most common type of object in the :doc:`Game Engine </game_engine/index>`.
 It will give/receive collisions and react with a change in its velocity and its rotation.
 A Rigid Body ball would begin rotating and roll down
 (where a :doc:`Dynamic </game_engine/physics/object/dynamic>` ball would only hit and slide down the ramp).

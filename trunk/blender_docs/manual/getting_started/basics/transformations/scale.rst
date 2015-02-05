@@ -20,7 +20,7 @@ decrease as the pointer is moved towards it.
 If the mouse pointer crosses from the original side of the Pivot Point to the opposite side,
 the scale will continue in the negative direction and flip the element.
 
-:doc:`Read more about Pivot Points </getting_started/basics/transformations/transform_control/pivot_point>`
+:doc:`Read more about Pivot Points </getting_started/basics/transformations/transform_control/pivot_point/index>`
 
 
 .. figure:: /images/3D_interaction-Transformations-Basic-Scale-scale_basic_usage.jpg

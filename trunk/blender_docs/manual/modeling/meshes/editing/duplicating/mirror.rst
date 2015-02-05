@@ -25,7 +25,7 @@ mirror transform to create a reversed version to complete the model.
 Note that mirrored duplicates can also be created with a *Mirror modifier.*
 
 
-:doc:`Read more about the Pivot Point </getting_started/basics/transformations/transform_control/pivot_point>`
+:doc:`Read more about the Pivot Point </getting_started/basics/transformations/transform_control/pivot_point/index>`
 
 :doc:`Read more about the Mirror Modifier </modifiers/generate/mirror>`
 

@@ -86,7 +86,7 @@ for any errors that may have occurred when loading.
 .. tip:: Saving Add-on Preferences
 
    If you want an Add-on to be enabled everytime you start Blender,
-   you will need to save your :doc:`User Preferences </preferences>`.
+   you will need to save your :doc:`User Preferences </preferences/index>`.
 
 
 Development guidelines

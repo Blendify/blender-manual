@@ -9,7 +9,7 @@
 Armatures
 *********
 
-An "armature" is a type of object used for :doc:`rigging </rigging>`.
+An "armature" is a type of object used for :doc:`rigging </rigging/index>`.
 Armature object borrows many ideas from real life skeletons.
 
 

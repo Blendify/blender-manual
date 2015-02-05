@@ -22,7 +22,7 @@ Blender's interface is designed to be used with the following recommended input 
 - A three-button mouse with a scroll wheel
 - A full keyboard with a numeric keypad (NumLock should generally be switched on).
 
-:doc:`Read more about Blender configuration </preferences>`
+:doc:`Read more about Blender configuration </preferences/index>`
 
 
 Usage of Mouse Buttons

@@ -3,13 +3,13 @@
 Dynamic Physics Object Type
 ***************************
 
-Dynamic objects in the :doc:`Game Engine </game_engine>` give/receive collisions,
+Dynamic objects in the :doc:`Game Engine </game_engine/index>` give/receive collisions,
 but when they do so they themselves do not rotate in response.
 So, a Dynamic ball will hit a ramp and slide down, while a Rigid Body ball would begin rotating.
 
 If you do not need the rotational response the Dynamic type can save the extra computation.
 
-Note that these objects can still be rotated with :doc:`Logic Bricks </game_engine/logic>` or Python code.
+Note that these objects can still be rotated with :doc:`Logic Bricks </game_engine/logic/index>` or Python code.
 Their physics meshes will update when you do these rotations - so collisions will be based on the new orientations.
 
 In the example game demo, :doc:`Frijoles </ls/frijoles>`,

@@ -131,7 +131,7 @@ There are several tools for editing poses in an animation.
 
 Relax Pose (:menuselection:`Pose --> In-Betweens --> Relax Pose` or :kbd:`Alt-E`)
    Relax pose is somewhat related to the above topic - but it is only useful with keyframed bones
-   (see the :doc:`animation chapter </animation>`).
+   (see the :doc:`animation chapter </animation/index>`).
    When you edit such a bone (and hence take it "away" from its "keyed position"),
    using this command will progressively "bring it back" to its "keyed position",
    with smaller and smaller steps as it comes near it.

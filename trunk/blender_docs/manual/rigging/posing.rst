@@ -33,16 +33,16 @@ In this section, we will see:
 - How to :doc:`use the Spline inverse kinematics features </rigging/posing/inverse_kinematics/spline_ik>`.
 
 Even though it might be used for completely static purposes,
-posing is heavily connected with :doc:`animation features and techniques </animation>`.
+posing is heavily connected with :doc:`animation features and techniques </animation/index>`.
 
 In this part, we will try to focus on animation-independent posing, but this isn't always possible.
 So if you know nothing about animation in Blender,
-it might be a good idea to read the :doc:`animation features and techniques </animation>` chapter first,
+it might be a good idea to read the :doc:`animation features and techniques </animation/index>` chapter first,
 and then come back here.
 
 
 .. seealso::
 
-   As usual, see the :doc:`tutorials </rigging>` for more demonstrative examples,
+   As usual, see the :doc:`tutorials </rigging/index>` for more demonstrative examples,
    and especially :doc:`this BSoD one </animation/bsod/character_animation#animation>`.
 

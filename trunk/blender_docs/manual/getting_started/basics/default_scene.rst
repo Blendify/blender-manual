@@ -60,6 +60,6 @@ use :kbd:`Ctrl-U` and your Factory Settings will be saved as the default Scene f
 .. note:: User Preferences Window
 
    For more information about the Editor Window for User Preferences or how to clean your preferences manually,
-   please read the chapter about :doc:`User Preferences </preferences>`
+   please read the chapter about :doc:`User Preferences </preferences/index>`
 
 

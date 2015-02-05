@@ -48,7 +48,7 @@ clicking the manipulator handle and then holding the shortcut key for precision 
 
    All of the precision controls detailed on the page can be combined with the
    :doc:`Axis Locking </getting_started/basics/transformations/transform_control/axis_locking>` controls and used with the different
-   :doc:`Pivot Points </getting_started/basics/transformations/transform_control/pivot_point>`.
+   :doc:`Pivot Points </getting_started/basics/transformations/transform_control/pivot_point/index>`.
 
 
 Holding CTRL
