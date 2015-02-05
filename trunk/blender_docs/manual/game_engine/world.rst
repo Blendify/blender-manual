@@ -36,7 +36,7 @@ Horizon Color
    i.e. the color and intensity of any areas in the scene which are not filled explicitly.
 Ambient Color
    Ambient light mimics an overall background illumination obtained from diffusing surfaces
-   (see :doc:`Ambient Light </render/blender_render/lighting>`,
+   (see :doc:`Ambient Light </render/blender_render/lighting/index>`,
    :doc:`Exposure </render/post_process/cm_and_exposure>` and
    :doc:`Ambient Occlusion </render/blender_render/lighting/ambient_occlusion>`).
    Its general color and intensity are set by these controls.

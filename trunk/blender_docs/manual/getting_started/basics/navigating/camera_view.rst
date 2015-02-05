@@ -59,5 +59,5 @@ camera view.
 
 :doc:`Read more about Render Output options </render/output>`
 
-:doc:`Read more about Cameras </render/camera>`
+:doc:`Read more about Cameras </render/camera/index>`
 

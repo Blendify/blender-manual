@@ -99,7 +99,7 @@ Render Layer
    use this menu to select which layer is displayed.
 
 Render Pass
-   If you are using :doc:`Render Passes </render/post_process/passes>`,
+   If you are using :doc:`Render Passes </render/post_process/layers>`,
    use this menu to select which pass is displayed.
 
 Image Painting

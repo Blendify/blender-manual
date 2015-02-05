@@ -33,7 +33,7 @@ In Blender, the elements under your control which affect lighting are:
 - The color of the world :doc:`ambient light </render/blender_render/lighting/ambient_light>`.
 - The use of :doc:`Ambient Occlusion </render/blender_render/lighting/ambient_occlusion>`
   as a way to cast that ambient light onto the object.
-- The degree to which the ambient light colors the :doc:`material </render/blender_render/materials>` of the object.
+- The degree to which the ambient light colors the :doc:`material </render/blender_render/materials/index>` of the object.
 - The use of :doc:`Indirect lighting </render/blender_render/lighting/indirect_lighting>`,
   where the color of one object radiates onto another.
 - The :doc:`lamps </render/blender_render/lighting/lamps>` in your scene.

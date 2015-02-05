@@ -142,7 +142,7 @@ Attenuation
       Adapt to Speed
          A factor to reduce AO sampling on fast-moving pixels.
          As it uses the *Vec* render pass, that must also be enabled
-         (see :doc:`render passes page </render/post_process/passes>`).
+         (see :doc:`render passes page </render/post_process/layers>`).
 
 
 .. note:: About QMC

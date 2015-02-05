@@ -227,7 +227,7 @@ Workflow
 - Apply the image to the mesh as a UV texture. For displacement and normal maps,
   refer to :doc:`Bump and Normal Maps </render/blender_render/textures/influence/material/bump_and_normal>`.
   For full and texture bakes,
-  refer to :doc:`Textures </render/blender_render/textures>`.
+  refer to :doc:`Textures </render/blender_render/textures/index>`.
 - Refine the image using the process described below,
   or embellish with :doc:`Texture Paint </render/blender_render/textures/painting/projection>`
   or an external image editor.

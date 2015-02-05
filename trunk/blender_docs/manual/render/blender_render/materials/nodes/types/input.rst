@@ -327,7 +327,7 @@ Front/Back
 
    These are exactly the same settings as in the
    :doc:`Mapping </render/blender_render/textures/mapping>` panel for
-   :doc:`Textures </render/blender_render/textures>`,
+   :doc:`Textures </render/blender_render/textures/index>`,
    though a few settings - like *Stress* or *Tangent* - are missing here.
    Normally you would use this node as input for a `Texture Node`_.
 

@@ -94,7 +94,7 @@ Compute Device
       the user will be able to choose whether to use CPU or other computing device for Cycles Rendering.
 
 
-*OpenCL''*:sup:`1` is unsupported, see: :doc:`Cycles </render/cycles>` Render engine page
+*OpenCL''*:sup:`1` is unsupported, see: :doc:`Cycles </render/cycles/index>` Render engine page
 
 
 Open GL
