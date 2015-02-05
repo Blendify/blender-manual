@@ -186,12 +186,15 @@
       Chain of consecutive :term:`quads <quad>`.
       A face loop stops at a :term:`triangle` or :term:`Ngon` (which don't belong to the loop), or at a boundary.
       Otherwise it's cyclic.
-      
+
+   FCurve
+      Curve that holds the animation values of a specific property.
+
    Field of View
       The area in which objects are visible to the camera. Also see :term:`Focal Length <focal length>`
-      
+
    Focal Length
-      .. Distance required by a lens to focus collimated light.
+      Distance required by a lens to focus collimated light.
       Defines the magnification power of a lens. Also see :term:`Field of View <field of view>`
 
    Geometric Center
@@ -223,9 +226,6 @@
 
    Interpolation
       Method of calculating new data between points of known value, like :term:`keyframes <keyframe>`.
-
-   IPO curve
-      Curve that holds the animation values of a specific property.
 
    Inverse Kinematics
       Is the process of determining the movement of interconnected segments of a body or model.
