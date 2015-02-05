@@ -104,10 +104,9 @@ Camera
 .. _render-camera-sensor-size:
 
 Sensor size
-   As far as Blender is concerned, this setting does the same thing as the focal length.
-   This setting is mainly useful when trying to match the camera in blender to a real-life camera, e.g. for
-   :doc:`motion tracking </motion_tracking/index>`.
-
+   This setting is an alternative way to control the focal-length,
+   it's useful to match the camera in Blender to a physical camera & lens combination,
+   e.g. for :doc:`motion tracking </motion_tracking/index>`.
 
 .. _render-camera-dof:
 
