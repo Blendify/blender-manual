@@ -1,8 +1,8 @@
-.. _sequencer-index:
+.. _editors-vse-index:
 
-############
-  Sequencer
-############
+########################
+  Video Sequence Editor
+########################
 
 .. toctree::
 
