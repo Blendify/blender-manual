@@ -49,6 +49,6 @@ See Also
 
 - :doc:`Lamps Introduction </render/blender_render/lighting/lamps>`
 - :doc:`Shadows </render/blender_render/lighting/shadows>`
-- :doc:`Materials Introduction </render/blender_render/materials>`
+- :doc:`Materials Introduction </render/blender_render/materials/index>`
 
 

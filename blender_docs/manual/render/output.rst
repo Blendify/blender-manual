@@ -201,7 +201,6 @@ TIFF
 Frame Server
    This is an alternative output method that allows Blender to serve frames over a network,
    useful for using external video encoders where the frames would not fit uncompressed on disk.
-   :doc:`documentation </render/output/frameserver>`
 
 
 VSE Rendering

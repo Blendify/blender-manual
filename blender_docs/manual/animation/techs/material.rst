@@ -10,7 +10,7 @@ As of Blender 2.5, :doc:`Everything is animatable </introduction/whats_new_in_th
 Read more about keyframes :doc:`Here </animation/basics/key_frames>`.
 
 Before reading this page, you should know about Blender's materials - if not,
-read :doc:`this chapter </render/blender_render/materials>` first!
+read :doc:`this chapter </render/blender_render/materials/index>` first!
 
 Animated materials can be a very powerful tool, for many different purposes. For example,
 you can use them to simulate the color changes of a chameleon's skin,
