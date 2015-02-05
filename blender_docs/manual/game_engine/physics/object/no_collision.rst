@@ -3,7 +3,7 @@
 No Collision Physics Object Type
 ********************************
 
-"No Collision" objects in the :doc:`Game Engine </game_engine>` are completely unaffected by
+"No Collision" objects in the :doc:`Game Engine </game_engine/index>` are completely unaffected by
 :doc:`Physics </game_engine/physics>`, and do cause physics reactions.
 They are useful as pure display objects, such as the child of a *Custom Collision Hull*
 (:ref:`game_engine-physics-object-collision_bounds`).

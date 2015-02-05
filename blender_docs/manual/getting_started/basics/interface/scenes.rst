@@ -92,7 +92,7 @@ Full Copy
    Every Object in the original Scene is duplicated, and a duplicate, private copy of its ObData is made as well.
 
 To better understand the way Blender works with data,
-read through :doc:`Blender's Library and Data System. </data_system>`
+read through :doc:`Blender's Library and Data System. </data_system/index>`
 
 
 A brief example

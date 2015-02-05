@@ -9,7 +9,7 @@ Weight Editing
    Vertex Weights Panel
 
 
-As mentioned before in :doc:`Vertex Groups </modeling/meshes/vertex_groups>` each entry
+As mentioned before in :doc:`Vertex Groups </modeling/meshes/vertex_groups/index>` each entry
 in a Vertex Group also contains a weight value in the range of [0.0,1.0].
 Blender provides a *Vertex Weights* panel from where you can get (and edit)
 information about the weight values of each Vertex of a mesh.

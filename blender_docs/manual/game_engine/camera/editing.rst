@@ -113,7 +113,7 @@ Shading
 
 Specifies the shading mode to be used in rendering the game.
 The shading facilities available in Blender for use in
-:doc:`Materials </render/blender_render/materials/index>` and :doc:`Textures </render/blender_render/textures>`
+:doc:`Materials </render/blender_render/materials/index>` and :doc:`Textures </render/blender_render/textures/index>`
 are essentially the same in the Blender Game Engine.
 However the constraints of real-time display mean that only some of the facilities are available.
 

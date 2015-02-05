@@ -441,7 +441,7 @@ number or because you're skipping already-rendered frames).
 See Also
 ========
 
-- :doc:`Animation </animation>`
+- :doc:`Animation </animation/index>`
 - :doc:`Graph Editor </animation/editors/graph>`
 - :doc:`F-Curves </animation/editors/graph/fcurves>`
 - :doc:`Extending Blender with python </extensions/python>`.

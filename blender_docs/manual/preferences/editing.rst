@@ -38,7 +38,7 @@ ObData
 Object
    Any created material will be created as part of the Object datablock.
 
-:doc:`Read more about Blender's Data System </data_system>`
+:doc:`Read more about Blender's Data System </data_system/index>`
 
 
 New objects

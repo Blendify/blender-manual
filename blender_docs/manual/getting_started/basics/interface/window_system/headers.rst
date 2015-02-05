@@ -62,7 +62,7 @@ and if the header is at the bottom the item text will read "Flip to Top".
    If you find that the colors you see on screen do not match those mentioned
    in the Manual then it could be that your default theme has been altered.
    Creating a new theme or selecting/altering a pre-existing one can be done by selecting the
-   :doc:`User Preferences </preferences>` window and clicking on the *Themes* tab of the window.
+   :doc:`User Preferences </preferences/index>` window and clicking on the *Themes* tab of the window.
 
 
 Window type button

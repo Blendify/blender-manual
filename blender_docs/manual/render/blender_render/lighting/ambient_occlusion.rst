@@ -251,6 +251,6 @@ Hints
 
 Ambient occlusion is a ray-tracing technique (at least with the *Raytrace* method), so it tends to be slow.
 Furthermore, performance severely depends on octree size,
-see the :doc:`rendering chapter </render>` for more information.
+see the :doc:`rendering chapter </render/index>` for more information.
 
 

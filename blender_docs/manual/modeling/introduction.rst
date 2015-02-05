@@ -21,13 +21,13 @@ more complex shape.
 :doc:`Curve </modeling/curves/introduction>` and :doc:`Surface </modeling/surfaces/introduction>` Modeling
 ==========================================================================================================
 
-:doc:`Curve modeling</modeling/curves>` uses control points to define the shape of the curve.
+:doc:`Curve modeling</modeling/curves/index>` uses control points to define the shape of the curve.
 
-:doc:`Surface modeling</modeling/surfaces>` is similar to curve modeling,
+:doc:`Surface modeling</modeling/surfaces/index>` is similar to curve modeling,
 but instead of being limited to simple linear paths, they allow the creation of three dimensional surfaces,
 potentially with volume.
 
-:doc:`Meta Object (Metaball) Modeling</modeling/metas>`
+:doc:`Meta Object (Metaball) Modeling</modeling/metas/index>`
 =======================================================
 
 Metaball modeling begins similarly to mesh modeling, with a base shape like a cube or sphere, but instead of

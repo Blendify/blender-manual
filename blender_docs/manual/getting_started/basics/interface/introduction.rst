@@ -82,7 +82,7 @@ organized by a set of `Tabs`_. In the 3D View, the Toolshelf is split horizontal
 which contains optional properties of the last-performed action.
 
 On the right is the **Properties** sidebar
-(displayed using :kbd:`N`, not to be confused with the :doc:`Properties Editor </editors/properties>`) which contains
+(displayed using :kbd:`N`, not to be confused with the :doc:`Properties Editor </editors/properties/index>`) which contains
 both static and context-sensitive options for the editor and the current selection.
 
 
@@ -121,7 +121,7 @@ which can be collapsed to hide its contents by clicking on its header.
 This is where the buttons, menus, checkboxes, etc. are located.
 
 Panels are usually found in the sidebars of an Editor,
-but also make up most of the :doc:`Properties Editor </editors/properties>`'s main region.
+but also make up most of the :doc:`Properties Editor </editors/properties/index>`'s main region.
 
 In the image on the right there are 3 Panels: **Transform**, **Edit** 
 and **History**. The Edit Panel is expanded and the other 2 Panels are

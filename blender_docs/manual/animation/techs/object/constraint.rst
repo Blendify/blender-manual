@@ -3,7 +3,7 @@
 Using Constraints in Animation
 ******************************
 
-:doc:`Constraints </rigging/constraints>` are a way to control an object's properties (its location/rotation/scale),
+:doc:`Constraints </rigging/constraints/index>` are a way to control an object's properties (its location/rotation/scale),
 using either plain static values (like the :doc:`"limit" ones </rigging/constraints/transform/limit_location>`),
 or (an)other object(s), called "targets"
 (like e.g. the :doc:`"copy" ones </rigging/constraints/transform/copy_location>`).

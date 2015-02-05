@@ -3,7 +3,7 @@
 Soft Body Physics Object Type
 *****************************
 
-The most advanced type of object in the :doc:`Game Engine </game_engine>`.
+The most advanced type of object in the :doc:`Game Engine </game_engine/index>`.
 Also, it is the most finicky. If you are used to the fun experimentation
 that comes from playing around with the non-BGE Soft Body sims (such as Cloth),
 you will probably find a frustrating lack of options and exciting results.

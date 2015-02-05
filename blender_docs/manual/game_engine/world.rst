@@ -20,7 +20,7 @@ more extensive range of effects available with the Blender internal or cycles re
 .. tip::
 
    While world settings offer a simple way of adding effects to a scene,
-   :doc:`compositing nodes </composite_nodes>` are often preferred, though more complex to master,
+   :doc:`compositing nodes </composite_nodes/index>` are often preferred, though more complex to master,
    for the additional control and options they offer.
    For example, filtering the Z value (distance from camera) or normals (direction of surfaces)
    through compositing nodes can further increase the depth and spacial clarity of a scene.
@@ -87,7 +87,7 @@ Physics Engine
 Gravity
    The gravitational acceleration, in units of meters per squared second (``m.s``:sup:`-2`),
    of this world. Each object that is an actor has a mass and size slider.
-   In conjunction with the frame rate (see :doc:`Render </render>` section),
+   In conjunction with the frame rate (see :doc:`Render </render/index>` section),
    Blender uses this info to calculate how fast the object should accelerate downward.
 Culling Resolution
    The size of the occlusion culling buffer in pixel, use higher value for better precision (slower).

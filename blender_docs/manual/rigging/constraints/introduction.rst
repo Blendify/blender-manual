@@ -7,7 +7,7 @@ Introduction
 ************
 
 Constraints are a way of connecting *transform properties* (position, rotation and scale) between objects.
-Constraints are in a way the object counterpart of the :doc:`modifiers </modifiers>`,
+Constraints are in a way the object counterpart of the :doc:`modifiers </modifiers/index>`,
 which work on the object *data* (i.e. meshes, curves, etc.).
 
 All constraints share a basic :doc:`common interface </rigging/constraints/common_interface>`,
@@ -40,7 +40,7 @@ but there are a few exceptions which are noted in the relevant constraints pages
 
 To learn more:
 
-- Read about using constraints in object animation in the :doc:`Animation chapter </animation>`
+- Read about using constraints in object animation in the :doc:`Animation chapter </animation/index>`
 - Read about using constraints in rigging in the :doc:`Armatures </rigging/posing>`
 
 

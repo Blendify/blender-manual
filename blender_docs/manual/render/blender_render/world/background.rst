@@ -16,7 +16,7 @@ but a very common use of a *World* is to shade a background color.
 
 .. note:: Background Image in Render
 
-   To use an image as your render background, see :doc:`BackBuf images specified in the Output Panel </render>`
+   To use an image as your render background, see :doc:`BackBuf images specified in the Output Panel </render/index>`
 
 
 .. note:: Background Image in 3D

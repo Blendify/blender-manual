@@ -29,7 +29,7 @@ You have:
    Randomly covers the background with halo-like dots.
 
 While these world settings offers a simple way of adding effects to a scene,
-:doc:`compositing nodes </composite_nodes>` are often preferred, though more complex to master,
+:doc:`compositing nodes </composite_nodes/index>` are often preferred, though more complex to master,
 for the additional control and options they offer.
 For example, filtering the Z value (distance from camera) or normals (direction of surfaces)
 through compositing nodes can further increase the depth and spacial clarity of a scene.

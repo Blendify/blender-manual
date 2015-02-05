@@ -25,6 +25,6 @@ In the *Tool Shelf* are settings for *Vector* offset,
 and *Axis Constraints*.
 
 Note that duplicated elements belong to the same
-:doc:`vertex groups </modeling/meshes/vertex_groups>` as the "original" ones.
+:doc:`vertex groups </modeling/meshes/vertex_groups/index>` as the "original" ones.
 The same goes for the :doc:`material indices </render/blender_render/materials/multiple_materials>`,
 the edge's *Sharp* and *Seam* flags, and probably for the other vertex/edge/face properties...
