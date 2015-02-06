@@ -28,7 +28,7 @@ but instead of being limited to simple linear paths, they allow the creation of 
 potentially with volume.
 
 :doc:`Meta Object (Metaball) Modeling</modeling/metas/index>`
-=======================================================
+=============================================================
 
 Metaball modeling begins similarly to mesh modeling, with a base shape like a cube or sphere, but instead of
 extruding these base shapes, these objects are clumped together to form a larger object. In order to accomplish this,

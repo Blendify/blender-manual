@@ -44,5 +44,7 @@ duplicate of the selected node appeaing under the mouse pointer.
 
    **Gotcha!**
    
-   When you duplicate a node, the new node will be positioned *exactly* on top of the node that was duplicated. If you leave it there (and it's quite easy to do so), you can **not** easily tell that there are *two* nodes there! When in doubt, grab a node and move it slightly to see if something's lurking underneath.
+   When you duplicate a node, the new node will be positioned *exactly* on top of the node that was duplicated.
+   If you leave it there (and it's quite easy to do so), you can **not** easily tell that there are *two* nodes there!
+   When in doubt, grab a node and move it slightly to see if something's lurking underneath.
 

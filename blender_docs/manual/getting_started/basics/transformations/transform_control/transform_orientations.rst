@@ -53,8 +53,8 @@ Our Demo Cube
 Please note two things:
 
 - The "Mini-axis" in the lower-left corner, which represents the Global x/y/z orientation.
-- The :doc:`"Object Manipulator" </getting_started/basics/transformations/transform_control/manipulators>` widget emanating from the
-  selection, which represents the current Transform Orientation.
+- The :doc:`"Object Manipulator" </getting_started/basics/transformations/transform_control/manipulators>`
+  widget emanating from the selection, which represents the current Transform Orientation.
 
   - If you click on one of the axes of the Manipulator with :kbd:`LMB`,
     it will allow you to constrain movement to only this direction.

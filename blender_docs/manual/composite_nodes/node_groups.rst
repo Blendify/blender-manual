@@ -17,7 +17,7 @@ of these options work, but are not very efficient when working across different 
 created a “Depth of Field” composite node network and would like to use it in another .blend file? What if you
 wanted to apply exactly the same series of operations dozens of times? Here again, you *could* re-create the
 network, but this is not very efficient. A better method of re-use, for either material node branches or composite
-node networks, would be to create groups of nodes. 
+node networks, would be to create groups of nodes.
 
 Once a group has been defined, it becomes an opaque object; a reusable software component. You can (if you choose)
 ignore exactly how it is *defined,* and simply use it (as many times as you like) for whatever it *does.*
@@ -37,18 +37,24 @@ name your material node branches *Mat_XXX,* and your composite node networks *Cm
 .. note::
 
    **What not to include in your groups (all types of Node editors)**
-   
-   Remember that the essential idea is that a group should be an easily-reusable, self-contained software component. Material node groups should **not include**:
 
-   - **Source nodes**
-       if you include a source node in your group, you'll end up having the source node appearing *twice:* once inside the group, and once outside the group in the new material node-network.
+   Remember that the essential idea is that a group should be an easily-reusable,
+   self-contained software component. Material node groups should **not include**:
 
-       Examples of source nodes are: the *Material Node* (Material nodes editor) and the *Render Layers Node* (Composite Editor).
+   Source nodes
+       if you include a source node in your group,
+       you'll end up having the source node appearing *twice:* once inside the group,
+       and once outside the group in the new material node-network.
 
-   - **Output node**
+       Examples of source nodes are: the *Material Node* (Material nodes editor)
+       and the *Render Layers Node* (Composite Editor).
+
+   Output node
         if you include an output node in the group, there won't be an output socket available *from* the group!
 
-        Examples of output nodes are: the *Output Node* (Material nodes editor) and the *Viewer Node* (Composite Editor).
+        Examples of output nodes are: the *Output Node* (Material nodes editor)
+        and the *Viewer Node* (Composite Editor).
+
 
 Editing Node Groups
 ===================
@@ -59,11 +65,13 @@ just like you can if they were a normal part of your editor window. You will not
 outside node directly from them; you have to use the external sockets on the side of the Group node. To add or
 remove nodes from the group, you need to ungroup them.
 
+
 Ungrouping Nodes
 ================
 
 The :kbd:`Alt-G` command destroys the group and places the individual nodes into your editor workspace. No internal
 connections are lost, and now you can thread internal nodes to other nodes in your workspace.
+
 
 Appending Node Groups
 =====================

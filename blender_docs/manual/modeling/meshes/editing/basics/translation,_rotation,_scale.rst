@@ -19,7 +19,8 @@ rotate (:kbd:`R`) or scale (:kbd:`S`) them, like many other things in Blender,
 as described in the :doc:`Manipulation in 3D Space </getting_started/basics/transformations/introduction>` section.
 
 To move, rotate and scale selected components, either use the *Translate*, *Rotate*, and *Scale* buttons,
-the :doc:`transform manipulators </getting_started/basics/transformations/transform_control/manipulators>`, or the shortcuts:
+the :doc:`transform manipulators </getting_started/basics/transformations/transform_control/manipulators>`,
+or the shortcuts:
 
 :kbd:`G`, :kbd:`R`, and :kbd:`S` respectively.
 After moving a selection, the options in the Tool Shelf allow you to fine-tune your changes,

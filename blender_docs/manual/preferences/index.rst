@@ -14,4 +14,4 @@
    themes.rst
    file.rst
    system.rst
-   internationalization.rst
+

@@ -12,7 +12,8 @@ Constraints Common Interface
    The three parts of a constraint interface
 
 
-As with :doc:`modifiers </modifiers/index>`, an object (or bone, see the :doc:`rigging chapter </rigging/index>` for details)
+As with :doc:`modifiers </modifiers/index>`,
+an object (or bone, see the :doc:`rigging chapter </rigging/index>` for details)
 can use several constraints at once.
 Hence, these constraints are organized in a stack which controls their order of evaluation (from top to bottom).
 

@@ -96,6 +96,7 @@ Green
 Next to the colored dot you will see the name of that socket.
 This name usually explains what that socket is meant to be used for,
 however nothing is stopping you from using it for something else.
-An example of this is a common technique used in the game industry, where low file size and memory usage are important:
+An example of this is a common technique used in the game industry,
+where low file size and memory usage are important:
 The alpha channel of a diffuse texture is used for some other component of the material (e.g. specular intensity),
 instead of having to include a whole new image.

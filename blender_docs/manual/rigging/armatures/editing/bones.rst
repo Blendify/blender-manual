@@ -83,7 +83,8 @@ so you can place them to your liking. See (*Extrusion example*).
 You also can use the rotating/scaling extrusions,
 as explained for meshes :doc:`here </modeling/meshes/tools/add_divide#extrusion>`,
 by hitting respectively :kbd:`E-R` and :kbd:`E-S` -
-as well as :doc:`locked </getting_started/basics/transformations/transform_control/axis_locking>` extrusion along a global or local axis.
+as well as :doc:`locked </getting_started/basics/transformations/transform_control/axis_locking>`
+extrusion along a global or local axis.
 
 
 .. list-table::

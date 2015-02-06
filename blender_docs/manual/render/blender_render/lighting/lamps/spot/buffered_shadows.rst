@@ -250,7 +250,8 @@ Bias
 
 .. note:: Finer Bias tuning
 
-   You can now refine the *Bias* value independently for each :doc:`Material </render/blender_render/materials/index>`,
+   You can now refine the *Bias* value independently for each
+   :doc:`Material </render/blender_render/materials/index>`,
    using the *Bias* slider (*Material* menu, *Shadow* panel).
    This value is a factor by which the *Bias* value of each *Spot* buffered shadows lamp is multiplied,
    each time its light hits an object using this material.
