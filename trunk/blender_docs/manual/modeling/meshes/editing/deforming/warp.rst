@@ -40,7 +40,8 @@ Usage
 
 Select the elements you want to operate on and activate the *Warp* transform
 function. The *Warp* option can be invoked from the
-:menuselection:`Object/Mesh/Curve/Surface --> Transform --> Warp` menu option. The amount of warping given to the selection can be determined
+:menuselection:`Object/Mesh/Curve/Surface --> Transform --> Warp` menu option.
+The amount of warping given to the selection can be determined
 interactively by moving the mouse or by typing a number.
 Pressing :kbd:`Return` will confirm the transformation. The confirmed transformation can
 be further edited by pressing :kbd:`F6` or by going into the Toolshelf (:kbd:`T`)

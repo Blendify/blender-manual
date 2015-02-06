@@ -16,8 +16,8 @@ All translations are of same value, and are controlled by the mouse.
 It results in something that looks a bit like the scale effect, but much more deforming.
 
 Note that unlike the preceding ones,
-you can :doc:`lock </getting_started/basics/transformations/transform_control/axis_locking>` this transformation on axis -
-even though this has no real interest (except perhaps with a "plane locking"...).
+you can :doc:`lock </getting_started/basics/transformations/transform_control/axis_locking>`
+this transformation on axis - even though this has no real interest (except perhaps with a "plane locking"...).
 
 
 .. figure:: /images/ShrinkFlatten1.jpg

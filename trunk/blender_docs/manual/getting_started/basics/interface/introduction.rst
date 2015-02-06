@@ -82,8 +82,8 @@ organized by a set of `Tabs`_. In the 3D View, the Toolshelf is split horizontal
 which contains optional properties of the last-performed action.
 
 On the right is the **Properties** sidebar
-(displayed using :kbd:`N`, not to be confused with the :doc:`Properties Editor </editors/properties/index>`) which contains
-both static and context-sensitive options for the editor and the current selection.
+(displayed using :kbd:`N`, not to be confused with the :doc:`Properties Editor </editors/properties/index>`)
+which contains both static and context-sensitive options for the editor and the current selection.
 
 
 Headers

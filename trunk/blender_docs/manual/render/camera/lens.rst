@@ -49,7 +49,8 @@ Focal length
    The :term:`focal length` setting controls the amount of zoom, i.e.
    the amount of the scene which is visible all at once.
    Longer focal lengths result in a smaller :abbr:`FOV (Field of View)` (more zoom),
-   while short focal lengths allow you to see more of the scene at once (larger :abbr:`FOV (Field of View)`, less zoom).
+   while short focal lengths allow you to see more of the scene at once
+   (larger :abbr:`FOV (Field of View)`, less zoom).
 
    .. figure:: /images/perspective_perspective_traintracks_telephoto.jpg
 
