@@ -62,7 +62,7 @@ Z/depth Channel
   - If it does not have a Z channel (e.g. JPG or PNG images),
     Blender will supply one, setting the whole image to be at the camera (a depth of 0.00).
     To view the Z-depth channel, use the Map Value to ColorRamp noodle given above in the Render Layer input node
-    (see `Using the Z value Socket`_).
+    (see :ref:`render_layers-z_socket_usage` ).
 
 .. note:: Formats
 

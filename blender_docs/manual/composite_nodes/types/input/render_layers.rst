@@ -120,6 +120,7 @@ The available sockets are:
 - Radio (Radiosity): colors that are emitted by other objects and cast onto the scene
 - IndexOB: a numeric ordinal (index) of each object in the scene, as seen by the camera.
 
+.. _render_layers-z_socket_usage:
 
 Using the Z value Socket
 ========================

@@ -1,7 +1,6 @@
 
 ..    TODO/Review: {{review|text=missing dupli part}} .
 
-
 ***************
 Texture Mapping
 ***************
@@ -23,54 +22,53 @@ Coordinates
 
 
 Coordinates
-  Mapping works by using a set of coordinates to guide the mapping process.
-  These coordinates can come from anywhere, usually the object to which the texture is being applied to.
+   Mapping works by using a set of coordinates to guide the mapping process.
+   These coordinates can come from anywhere, usually the object to which the texture is being applied to.
 Global
-  The scene's global 3D coordinates. This is also useful for animations;
-  if you move the object, the texture moves across it.
-  It can be useful for letting objects appear or disappear at a certain position in space.
+   The scene's global 3D coordinates. This is also useful for animations;
+   if you move the object, the texture moves across it.
+   It can be useful for letting objects appear or disappear at a certain position in space.
 Object
-  Uses an object as source for coordinates. Often used with an *Empty*,
-  this is an easy way to place a small image at a given point on the object
-  (see `Position a Decal on a Mesh`_).
-  This object can also be animated, to move a texture around or through a surface.
+   Uses an object as source for coordinates. Often used with an *Empty*,
+   this is an easy way to place a small image at a given point on the object.
+   This object can also be animated, to move a texture around or through a surface.
 
   Object
     Select the name of an object.
 Generated
-  The original undeformed coordinates of the object. This is the default option for mapping textures.
+   The original undeformed coordinates of the object. This is the default option for mapping textures.
 UV
-  UV mapping is a very precise way of mapping a 2D texture to a 3D surface.
-  Each vertex of a mesh has its own UV co-ordinates which can be unwrapped and laid flat like a skin.
-  You can almost think of UV coordinates as a mapping that works on a 2D plane with its own local coordinate system
-  to the plane on which it is operating on.
-  This mapping is especially useful when using 2D images as textures,
-  as seen in :doc:`UV Mapping </render/blender_render/textures/mapping/uv>`.
-  You can use multiple textures with one set of UV coordinates.
+   UV mapping is a very precise way of mapping a 2D texture to a 3D surface.
+   Each vertex of a mesh has its own UV co-ordinates which can be unwrapped and laid flat like a skin.
+   You can almost think of UV coordinates as a mapping that works on a 2D plane with its own local coordinate system
+   to the plane on which it is operating on.
+   This mapping is especially useful when using 2D images as textures,
+   as seen in :doc:`UV Mapping </render/blender_render/textures/mapping/uv>`.
+   You can use multiple textures with one set of UV coordinates.
 
   Layer
     Select your UV layer to use it for mapping.
 Strand/Particle
-  Uses normalized 1D strand texture coordinate or particle age(X) and trail position (Y).
-  Use when texture is applied to hair strands or particles.
+   Uses normalized 1D strand texture coordinate or particle age(X) and trail position (Y).
+   Use when texture is applied to hair strands or particles.
 Sticky
-  Uses a mesh's sticky coordinates, which are a form of per-vertex UV co-ordinates.
-  If you have made sticky coordinates first (in (usually)
-  Camera View` --> :kbd:`Spacebar` --> type *Sticky* --> choose *Add Sticky* / *Remove Sticky*)
-  the texture can be rendered in camera view (so called :doc:`Camera Mapping </ls/textures/uv/camera_mapping>`).
+   Uses a mesh's sticky coordinates, which are a form of per-vertex UV co-ordinates.
+   If you have made sticky coordinates first (in (usually)
+   Camera View` --> :kbd:`Spacebar` --> type *Sticky* --> choose *Add Sticky* / *Remove Sticky*)
+   the texture can be rendered in camera view (so called :doc:`Camera Mapping </ls/textures/uv/camera_mapping>`).
 Window
-  The rendered image window coordinates. This is well suited to blending two objects.
+   The rendered image window coordinates. This is well suited to blending two objects.
 Normal
-  Uses the direction of the surface's normal vector as coordinates.
-  This is very useful when creating certain special effects that depend on viewing angle.
+   Uses the direction of the surface's normal vector as coordinates.
+   This is very useful when creating certain special effects that depend on viewing angle.
 Reflection
-  Uses the direction of the reflection vector as coordinates.
-  This is useful for adding reflection maps — you will need this input when Environment Mapping.
+   Uses the direction of the reflection vector as coordinates.
+   This is useful for adding reflection maps — you will need this input when Environment Mapping.
 Stress
-  Uses the difference of edge length compared to original coordinates of the mesh.
-  This is useful, for example, when a mesh is deformed by modifiers.
+   Uses the difference of edge length compared to original coordinates of the mesh.
+   This is useful, for example, when a mesh is deformed by modifiers.
 Tangent
-  Uses the optional tangent vector as texture coordinates.
+   Uses the optional tangent vector as texture coordinates.
 
 
 Projection
@@ -83,21 +81,21 @@ Projection
 
 
 Flat
-  Flat mapping gives the best results on single planar faces.
-  It does produce interesting effects on the sphere, but compared to a sphere-mapped sphere the result looks flat.
-  On faces that are not in the mapping plane the last pixel of the texture is extended,
-  which produces stripes on the cube and cylinder.
+   Flat mapping gives the best results on single planar faces.
+   It does produce interesting effects on the sphere, but compared to a sphere-mapped sphere the result looks flat.
+   On faces that are not in the mapping plane the last pixel of the texture is extended,
+   which produces stripes on the cube and cylinder.
 Cube
-  Cube mapping often gives the most useful results when the objects are not too curvy and organic
-  (notice the seams on the sphere).
+   Cube mapping often gives the most useful results when the objects are not too curvy and organic
+   (notice the seams on the sphere).
 Tube
-  Tube mapping maps the texture around an object like a label on a bottle.
-  The texture is therefore more stretched on the cylinder.
-  This mapping is of course very good for making the label on a bottle or assigning stickers to rounded objects.
-  However, this is not a cylindrical mapping so the ends of the cylinder are undefined.
+   Tube mapping maps the texture around an object like a label on a bottle.
+   The texture is therefore more stretched on the cylinder.
+   This mapping is of course very good for making the label on a bottle or assigning stickers to rounded objects.
+   However, this is not a cylindrical mapping so the ends of the cylinder are undefined.
 Sphere
-  Sphere mapping is the best type for mapping a sphere, and it is perfect for making planets and similar objects.
-  It is often very useful for creating organic objects. It also produces interesting effects on a cylinder.
+   Sphere mapping is the best type for mapping a sphere, and it is perfect for making planets and similar objects.
+   It is often very useful for creating organic objects. It also produces interesting effects on a cylinder.
 
 
 Inheriting coordinates from the parent object
@@ -118,8 +116,8 @@ Coordinate Offset, Scaling and Transformation
 
 
 Offset
-  The texture co-ordinates can be translated by an offset.
-  Enlarging of the Ofs moves the texture towards the top left.
+   The texture co-ordinates can be translated by an offset.
+   Enlarging of the Ofs moves the texture towards the top left.
 
 
 .. figure:: /images/25-Manual-Textures-Mapping-Size.jpg
