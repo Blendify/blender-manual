@@ -1,3 +1,8 @@
+..
+   This page includes some overly detailed & spesific infomration should be simplified.
+   Also its Blender-Internal spesific.
+   - ideasman42
+
 
 ************
 Introduction
@@ -23,13 +28,11 @@ You will need to do one or more of the following tasks on this page in order to 
 Hardware Improvements
 =====================
 
-- Get more RAM up to your PC's (motherboard and operating system) limit. Presently, Blender can use up to 8gig
-  of physical memory (64-bit address space), but most PCs can only handle 4G of RAM.
+- Install more system memory.
 - Upgrade your CPU to a multi-core/multiprocessor
 - Upgrade your OpenGL video drivers
-- Get a faster memory bus
-- Get faster memory, up to your PC's motherboard limit. 667MHz memory is 30% slower than 800MHz.
-- Use or set up a render farm using all available PCs in your house, or use a render farm such as BURP.
+- Get faster memory, up to your PC's motherboard limit.
+- Use or set up a render farm using all available PCs in your house, or use a render farm.
 
 
 Operating System Configuration
@@ -38,21 +41,14 @@ Operating System Configuration
 - Increase Blender's processing priority through your OS.
 - Increase your swap file space used by the OS for memory swapping. Also called virtual memory pagefile size,
   up to the size of your physical memory.
-- Upgrade to a 64-bit operating system (if you're not already using one).
-- Exit or stop any background processes, like virus scanners, BOINC, Real, even "inactive" ones like Quicktime,
-  as they can randomly start up to look for updates. They also take up RAM.
-- Disable network connections to stop random pinging traffic and refresh traffic.
-- Stop listening to Internet radio, and close web browsers, especially any multi-media (audio/video/game) sites.
-- Close down all other running applications, like Word.
-- Exit all TSRs (those icons on your system tray) and widgets, any background processes, and virus scanners.
+- Use a system-monitor to check if any other processes are using significant CPU or RAM, which can be closed.
+- Render in *background mode* (from the command line), saves extra memory.
 
 
 Blender Settings
 ================
 
 - Increase the MEM Cache Limit in the User Preferences System & OpenGL tab.
-- Upgrade to an `optimized Blender build <http://www.graphicall.org>`__,
-  especially if you have a modern chip that supports SSE2 - render times are **30% faster** using an optimized build.
 - Switch to an Orthographic camera, and render your own "parts" of the scene as separate images,
   and then paste those parts together in GIMP.
   An old trick in making your own panorama with a real camera is to take three or so pictures of a very wide
@@ -66,8 +62,6 @@ Blender Settings
 - Minimize the render window (and Blender if rendering to an internal window).
   ATI users report dramatic speedup on a per frame basis, which adds up over the frame range.
 - Use the Big Render script to render sub-sections of the overall image, and then paste them together.
-- Make a customized build. For example, comment out calls to check_non_flat_quads in convertblender.c;
-  in some cases can make a noticeable difference of 20-40%.
 
 
 Scene and Specific Objects
