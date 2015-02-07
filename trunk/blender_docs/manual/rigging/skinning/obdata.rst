@@ -19,7 +19,7 @@ This type of skinning is available for meshes, lattices, curves, surfaces, and t
 
 Bones can affect the object's shape in two ways:
 
-- The `Envelopes`_ process is available for all type of skinnable objects -
+- The `Envelope`_ process is available for all type of skinnable objects -
   it uses the "proximity" and "influence" of the bones to determine which part of the object they can deform.
 - The `Vertex Groups`_ method is (obviously) reserved to meshes and lattices -
   one bone only affect the vertices in the
