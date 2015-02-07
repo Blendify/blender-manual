@@ -66,7 +66,7 @@ In Object mode, the calculated mesh is shown, along with a black "selection ring
 
 In *Edit* mode (*Meta Ball* *example*), a meta is drawn as a mesh (either shaded or as black wireframe,
 but without any vertex of course), with two colored circles: a red one for selection (pink when selected),
-and a green one for a direct control of the meta's stiffness (see `Stiffness`_ - light green when active).
+and a green one for a direct control of the meta's stiffness (light green when active).
 Note that except for the *Scale* (:kbd:`S`) transformation,
 having the green circle highlighted is equivalent to having the red one.
 

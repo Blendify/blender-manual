@@ -1,6 +1,4 @@
 
-..    TODO/Review: {{review|copy=X}} .
-
 *********
 Blur Node
 *********
