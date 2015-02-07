@@ -342,8 +342,9 @@ option.
 Examples
 ========
 
-Distance
---------
+
+Distance Example
+----------------
 
 In this example, the *Lamp* has been set pretty close to the group of planes.
 This causes the light to affect the front, middle and rear planes more dramatically.
@@ -391,8 +392,8 @@ That is the nature of a *Lamp* light object. By moving the light infinitely far 
 you would begin to approach the characteristics of the *Sun* lamp type.
 
 
-Inverse Square
---------------
+Inverse Square Example
+----------------------
 
 *Inverse Square* makes the light's intensity falloff with a non-linear rate, or specifically, a quadratic rate.
 The characteristic feature of using *Inverse Square* is that the light's intensity begins to
@@ -435,8 +436,8 @@ This means there are at least two things that are controlling the surface's brig
 intensity and the angle between the light source and the surface's normal.
 
 
-Sphere
-------
+Sphere Example
+--------------
 
 .. figure:: /images/Manual-Part-V-LampRender-SphereView.jpg
 
@@ -485,16 +486,15 @@ which is beyond the last object. However, the light doesn't make it to the last 
 because the intensity has fallen to nearly ``0``.
 
 
-Hints
-=====
+.. hint::
 
-If a *Lamp* light is set to not cast shadows,
-it illuminates through walls and the like.
-If you want to achieve some nice effects like a fire,
-or a candle-lit room interior seen from outside a window,
-the *Sphere* option is a must. By carefully working on the *Distance*
-value you can make your warm firelight shed only within the room,
-while illuminating outside with a cool moonlight,
-the latter achieved with a *Sun* or *Hemi* light or both.
+   If a *Lamp* light is set to not cast shadows,
+   it illuminates through walls and the like.
+   If you want to achieve some nice effects like a fire,
+   or a candle-lit room interior seen from outside a window,
+   the *Sphere* option is a must. By carefully working on the *Distance*
+   value you can make your warm firelight shed only within the room,
+   while illuminating outside with a cool moonlight,
+   the latter achieved with a *Sun* or *Hemi* light or both.
 
 

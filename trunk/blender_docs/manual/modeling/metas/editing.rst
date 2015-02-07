@@ -23,8 +23,8 @@ Stiffness
 =========
 
 Together with *Threshold*, *Stiffness* controls the influencing range.
-While the threshold is common to all metas in the same object (or even the same
-`Object Family`_),
+While the threshold is common to all metas in the same object
+(or even the same `Object Families`_),
 the stiffness is specific to each meta.
 
 Scaling the inner green circle changes the *Stiffness* value.
@@ -196,5 +196,4 @@ For example, if you scale the *base*, the children's mesh structure changes. In
 which has the effect of scaling the mesh structure of each of the children. As you can see,
 the children's mesh resolution has increased, while the *base* decreased.
 *The children did not change size!*
-
 
