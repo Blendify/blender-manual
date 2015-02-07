@@ -3,7 +3,8 @@
 Pixelate
 ********
 
-Add this node in front of a scale node to get a pixelated (non smoothed) image from the resultant up scaled image.
+Add this node in front of a :doc:`scale </composite_nodes/types/distort/scale>`
+node to get a pixelated (non smoothed) image from the resultant up scaled image.
 
 .. figure:: /images/composite_node_filter_pixelate.png
    :width: 514px
