@@ -14,6 +14,7 @@ or by using a mask to vary the effect over the image.
    lens.rst
    translate.rst
    rotate.rst
+   flip.rst
    crop.rst
    displace.rst
    map_uv.rst
