@@ -81,12 +81,14 @@ Stroke
 Fill
    Sets the color of the interior space enclosed by the strokes.
    Increase the opacity from zero to make the fill visible.
+   Fill works best on convex shapes.
 Thickness
    Width of the line strokes.
 X-Ray
    Makes the lines visible when they pass behind other objects in the scene.
 Volumetric Strokes
-   Draw strokes as a series of spherical points, resulting in a volumetric effect.
+   Draw strokes as a series of filled spheres, resulting in an interesting volumetric effect.
+   Get best results with partial opacity and large stroke widths.
 
 
 Drawing Settings
