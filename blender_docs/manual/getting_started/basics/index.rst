@@ -1,5 +1,6 @@
 .. _basics-index:
-.. figure:: /images/getting_started_basics_interface_introduction_01.png
+
+.. figure:: /images/blender_default_startup.png
    :align: center
    :width: 75%
 
