@@ -126,7 +126,7 @@ To convert the meta, press :kbd:`Alt-C` in *Object* mode, and select *mesh*
 
 
 Object Families
-***************
+===============
 
 *Meta* objects have different behavior in *Object* mode than other object types -
 they can be "regrouped" into so-called "families".

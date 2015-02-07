@@ -73,7 +73,7 @@ Resolution
 .. note:: Resolution and Real-size of the Domain
 
    Be sure to set the resolution appropriate to the real-world size of the domain (see the *Realworld-size* in the
-   `Domain Wold`_).
+   `Domain World`_).
    If the domain is not cubic, the resolution will be taken for the longest side.
    The resolutions along the other sides will be reduced according to their lengths
    (therefore, a non-cubic domain will need less memory than a cubic one, resolutions being the same).
@@ -377,7 +377,7 @@ Baking always starts at Frame #1
    it will always bake from frame 1.
    If you wish the simulation to start later than frame 1, you must key the fluid objects in your domain
    to be inactive until the frame you desire to start the simulation. See
-   `Animating Fluid Property Changes`_ for more information.
+   :doc:`/physics/fluid/animation` for more information.
 
 Baking always ends at the *End* Frame set in the *Anim* panel
    If your frame-rate is 25 frames per second,

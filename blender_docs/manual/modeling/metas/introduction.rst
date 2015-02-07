@@ -134,7 +134,7 @@ Threshold (Influence)
 
 *Threshold* defines how much a meta's surface "influences" other metas.
 It controls the *field level* at which the surface is computed.
-The setting is global to a group (`Grouping`_) of *Meta* objects.
+The setting is global to a group of *Meta* objects.
 As the threshold increases, the influence that each meta has on each other increases.
 
 There are two types of influence: **positive** or **negative**. The type can be toggled on

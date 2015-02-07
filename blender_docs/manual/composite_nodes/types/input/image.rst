@@ -7,7 +7,7 @@ Image node
    :class: refbox
 
    | Panel:    :doc:`Node Editor </render/blender_render/materials/nodes/editor>` --> :doc:`Node Composition </composite_nodes/index>`
-   | Menu:     :kbd:`Shift-A` --> :doc:`Input </ce/windows/nodes/composite#inputs>` --> Image
+   | Menu:     :kbd:`Shift-A` --> :doc:`Input </composite_nodes/types/input/index>` --> Image
 
 
 .. figure:: /images/Tutorials-NTR-ComImage.jpg
