@@ -64,7 +64,8 @@ Rotate
    It can be used to add an additional rotation offset to the Bokeh shape. The value is the angle in degrees.
 
 Gamma Correct
-   Exactly the same as the *Gamma* option in Blender's general *Blur* node (see `Blur Node`_).
+   Exactly the same as the *Gamma* option in Blender's general *Blur* node
+   (see :doc:`Blur Node </composite_nodes/types/filter/blur_node>`).
    It can be useful to further brighten out of focus parts in the image, accentuating the Bokeh effect.
 
 
