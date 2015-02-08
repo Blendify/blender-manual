@@ -9,4 +9,3 @@
    introduction.rst
    background.rst
    mist.rst
-   stars.rst

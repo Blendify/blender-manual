@@ -25,9 +25,6 @@ You have:
 :doc:`Mist </render/blender_render/world/mist>`
    Add a mist to your scene to enhance the feeling of depth.
 
-:doc:`Stars </render/blender_render/world/stars>`
-   Randomly covers the background with halo-like dots.
-
 While these world settings offers a simple way of adding effects to a scene,
 :doc:`compositing nodes </composite_nodes/index>` are often preferred, though more complex to master,
 for the additional control and options they offer.
