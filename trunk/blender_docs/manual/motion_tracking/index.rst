@@ -6,10 +6,14 @@
 Introduction
 ============
 
-Motion tracking is a new technique available in Blender. It is still under development,
-and currently supports basic operations for 2D motion tracking, 3D motion tracking,
-and camera solution. It's already ready to be used in production,
-as validated by "Tears of Steel."
+Blender's motion tracker supports a couple of very powerful tools for 2D tracking and 3D motion tracking,
+including camera tracking and object tracking, as well as some special features like the plane track for compositing.
+Tracks can also be used to move and deform masks for rotoscoping in the Mask Editor,
+which is available as a special mode in the Movie Clip Editor. 
+
+It's ready to be used in production,
+as validated for example by the open movie `"Tears of Steel" <http://tearsofsteel.org>`__ by the Blender Foundation.
+Since then it has been improved a lot and the tracker is now fast, accurate and versatile.
 
 
 Getting started
@@ -28,7 +32,6 @@ to manually choose the tracking algorithm and its settings. Current defaults wor
 general footage which isn't very blurry and where feature points aren't getting highly
 deformed by perspective.
 
-Improving 2D tracking is already in our TODO list, but it's not high priority at this moment.
 If you aren't sure about algorithms and settings and don't want to read this document,
 you can just play with settings and find one which works for you.
 
@@ -42,26 +45,27 @@ For accurate camera motion,
 the exact value of the focal length and the "strength" of distortion are needed.
 
 Currently, focal length can be automatically obtained only from the camera's settings or from
-the EXIF information -- there are no tools inside Blender which can estimate it. But there are
-some tools which can help to find approximate values to compensate for distortion. There are
-also fully manual tools where you can use a grid which is getting affected by distortion model
-and deformed cells defines straight lines in the footage. You can also use the grease pencil
-for this - just draw line which should be straight on the footage using poly line brush and
-adjust distortion values to make the grease pencil match lines on the footage.
+the EXIF information. There are some tools which can help to find approximate values to compensate for distortion.
+There are also fully manual tools where you can use a grid which is getting affected by distortion model and deformed
+cells defines straight lines in the footage. 
+
+You can also use the grease pencil for this - just draw a line which should be straight on the footage using poly
+line brush and adjust the distortion values to make the grease pencil match lines on the footage.
 
 To calibrate your camera more accurately, use the grid calibration tool from OpenCV.
 OpenCV is using the same distortion model, so it shouldn't be a problem.
 
 
-Camera motion solving
+Camera and object motion solving
 ---------------------
 
-Despite the fact that there's no difference in solving camera motion and object motion from a
-mathematical point of view, only camera solving is currently supported.
-And it still has some limitations,
-like unsupported solve of tripod motions or dominant plane motions
-(where all trackable features belong to one plane).
-These limitations are planned to be solved in the future.
+Blender not only supports the solving of camera motion, including tripod shots,
+but also the solving of object motion in relation to the motion of the camera.
+In addition to that there is the Plane Track, which solves the motion of all markers on one plane. 
+
+There are also plans to add more tools in the future, for example more automatic tracking and solving,
+multi-camera solving and constrained solutions. 
+
 
 
 Basic tools for scene orientation and stabilization
@@ -88,8 +92,7 @@ Not implemented tools
 ---------------------
 
 Some tools aren't available in Blender yet, but they are in our TODO list.
-So there's currently no support for such things as rolling shutter filtering,
-object motion solving, motion capturing.
+So there's currently no support for such things as rolling shutter filtering or motion capturing.
 But you can try to hack this stuff using currently implemented things.
 
 
