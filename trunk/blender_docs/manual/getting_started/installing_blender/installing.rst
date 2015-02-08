@@ -52,10 +52,24 @@ through the `release notes <http://wiki.blender.org/index.php/Dev:Ref/Release_No
 
    Blender's source is available for reference and installation, with the following advantages:
 
-   - is always up to date,
+   - it is always up to date,
    - allows access to any version or branch where a feature is being developed,
    - can be freely customized.
 
    Building Blender from source is not trivial as there are many dependencies involved. There are
    `instructions <http://wiki.blender.org/index.php/Dev:Doc/Building_Blender>`__ available.
+
+
+
+Install Blender
+===============
+The procedure for installing a binary, either the last stable release or a daily build, is the same.
+Follow the steps for your operative system:
+
+.. toctree::
+   :maxdepth: 1
+
+   windows.rst
+   mac.rst
+   linux.rst
 
