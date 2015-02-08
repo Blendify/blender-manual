@@ -33,7 +33,7 @@ show up. The order of these buttons follows a hierarchy which is detailed below:
 - |Btn_Scene-25| :doc:`Scene </getting_started/basics/interface/scenes>`:
   Gravity in the scene, units and other general information.
 - |Btn_World-25| :doc:`World </render/blender_render/world/index>`:
-  Environmental lighting, sky, mist, stars and Ambient Occlusion.
+  Environmental lighting, sky, mist and Ambient Occlusion.
 - |Btn_Object-25| :doc:`Object </modeling/objects/introduction>`:
   Transformations, display options, visibility settings (via layers)
   duplication settings and animation information (regarding Object position).
