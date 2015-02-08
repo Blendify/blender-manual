@@ -6,30 +6,38 @@ Layers
 ******
 
 Grease Pencil sketches are organized in layers,
-much like those you could find in the GIMP or Photoshop.
-These layers are not related to any of the other layer systems in Blender,
-and also do not have an upper limit on the maximum number of layers that can be used.
-Like the layers in the aforementioned applications, these layers can also be renamed, locked,
-hidden, and deleted.
+much like the image layers in the GIMP or Photoshop.
+These layers are not related to any of the other layer systems in Blender.
 
-Their main purpose is to collect together a bunch of sketches that belong together in some
+The layers' main purpose is to gather sketches that are related in some
 meaningful way (i.e. "blocking notes", "director's comments on blocking", or "guidelines").
 For this reason, all the strokes on a layer (not just those made after a particular change)
 are affected by that layer's color, opacity, and stroke thickness settings.
 
-By default, most operations occur only on the *active* layer.
-The active layer can be identified as the one with the different panel color
-(in the default set, a light orangy-brown color). Clicking on a layer,
-or changing any of its settings will make it the new active layer.
+Layers are managed in the
+*Grease Pencil Panel* of the *Properties* region (:kbd:`N`) shown here.
 
-The active layer can also be identified by looking at the status indicator
-(in the top right-hand corner of every view with Grease Pencil data being shown).
+.. figure:: /images/grease_pencil_layers_list.jpg
+
+	Grease Pencil Panel
+
+Use the adjacent controls to Add, Remove or adjust the position of a layer in the list.
+Each layer has a visibility icon, and a lock icon to protect it from further changes.
+Double click on a layer name to rename it.
+
+There is a list of layers attached to each scene and a list of layers associated with each object.
+The buttons above the list box control its contents, showing either the layers associated with the active scene
+or the list of layers associated with the active object.
+
+By default, most operations occur only on the *active* layer highlighted in the list.
+
+
 
 
 Animation of the Sketches
 =========================
 
-Grease Pencil can be used to do basic pencil tests (i.e. 2D animation in flipbook style).
+Use the Grease Pencil to do basic pencil tests (i.e. 2D animation in flipbook style).
 Sketches are stored on the frame that they were drawn on, as a separate drawing
 (only on the layer that they exist on).
 Each drawing is visible until the next drawing for that layer is encountered.
@@ -46,17 +54,16 @@ Therefore, it is simple to make a pencil-test/series of animated sketches:
 Onion Skinning
 --------------
 
-Onion-skinning (also known as ghosting), is a useful tool for animators, as neighboring frame
-(s) are lightly drawn by Blender. It allows animators to make judgments about movements,
-by comparing movement from different frames.
+.. figure:: /images/grease_pencil_layers_onion.jpg
 
-Usage Notes:
+	Grease Pencil Onion Skinning
 
-- Onion-skinning is enabled per layer by clicking on the *Onion Skin* button in the grease pencil properties panel.
-- The *Frames* field, directly under the *Onion Skin* button, controls how many frames will be drawn.
-  When *Frames* is **0**, only the drawing on either side of the current frame will be visible.
-  Otherwise, this field specifies the maximum number of frames on either side of the
-  current frame that will result in a neighboring drawing.
+Onion-skinning, also known as ghosting, helps an animator by displaying the neighboring frames as a faded trail.
+Enable the option with the *Onion Skin* button in the grease pencil properties panel (shown above).
+
+Use *Before* and *After* to set the number of ghost frames drawn on either side of the current frame.
+When *Use Custom Colors* (Marked **A**) is enabled,
+you can also use the *Before* and *After* controls to change the color of the ghosted frames.
 
 
 Adjusting Timing of Sketches
