@@ -85,6 +85,18 @@ On the right is the **Properties** sidebar
 (displayed using :kbd:`N`, not to be confused with the :doc:`Properties Editor </editors/properties/index>`)
 which contains both static and context-sensitive options for the editor and the current selection.
 
+**Useful hotkeys**
+
+
+.. list-table::
+   :widths: 15 85
+
+   * - :kbd:`T`
+     - Toggle visibility of Tool Shelf
+   * - :kbd:`N`
+     - Toggle visibility of Properties Bar
+   * - :kbd:`F5`
+     - Flip Sidebar to opposite side
 
 Headers
 -------
@@ -93,6 +105,14 @@ Headers
 
 Headers are horizontal areas at the top or bottom of an Editor used
 as containers for menus and commonly used tools.
+
+**Useful hotkeys**
+
+.. list-table::
+   :widths: 15 85
+
+   * - :kbd:`F5`
+     - Move Header from Top to Bottom
 
 See: :doc:`Headers </getting_started/basics/interface/window_system/headers>` for details.
 
