@@ -5,16 +5,14 @@ Using Nodes
 Adding Nodes
 ============
 
-Nodes are added in two ways to the node editor window:
-
-- By clicking the *Add* menu in the node editor toolbar and picking the type of node you want, or
-- By clicking the :kbd:`Shift-A` -> *Add* and picking a node from the popup *Add* menu.
+Nodes are added in two ways to the node editor by using the :menuselection:`Add` menu (:kbd:`Shift-A`)
+and picking the desired type of node.
 
 Arranging Nodes
 ===============
 
 In general, try to arrange your nodes within the window such that the image flows from left to right, top to bottom.
-Move a node by clicking on a benign area and dragging it around. The node can be clicked almost anywhere and dragged
+Move a node by clicking on a benign area and drag it around. Nodes can be clicked almost anywhere and dragged
 about; connections will reshape as a bezier curve as best as possible.
 
 Connecting nodes
@@ -42,8 +40,6 @@ duplicate of the selected node appeaing under the mouse pointer.
 
 .. note::
 
-   **Gotcha!**
-   
    When you duplicate a node, the new node will be positioned *exactly* on top of the node that was duplicated.
    If you leave it there (and it's quite easy to do so), you can **not** easily tell that there are *two* nodes there!
    When in doubt, grab a node and move it slightly to see if something's lurking underneath.
