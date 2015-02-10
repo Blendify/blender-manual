@@ -18,3 +18,4 @@ or by using a mask to vary the effect over the image.
    crop.rst
    displace.rst
    map_uv.rst
+   transform.rst
