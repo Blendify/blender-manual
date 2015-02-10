@@ -47,7 +47,8 @@ clicking the manipulator handle and then holding the shortcut key for precision 
 .. tip:: Combining with other controls
 
    All of the precision controls detailed on the page can be combined with the
-   :doc:`Axis Locking </getting_started/basics/transformations/transform_control/axis_locking>` controls and used with the different
+   :doc:`Axis Locking </getting_started/basics/transformations/transform_control/axis_locking>`
+   controls and used with the different
    :doc:`Pivot Points </getting_started/basics/transformations/transform_control/pivot_point/index>`.
 
 
@@ -88,7 +89,8 @@ Holding :kbd:`Ctrl` will cause size changes in increments of 0.1 BU.
 
 .. note:: Snapping modes
 
-   Note that if you have a :doc:`Snap Element </getting_started/basics/transformations/transform_control/snap#snap_element>` option enabled,
+   Note that if you have a
+   :doc:`Snap Element </getting_started/basics/transformations/transform_control/snap#snap_element>` option enabled,
    holding :kbd:`Ctrl` will cause the selection to snap to the nearest element.
 
    :doc:`Read more about Snapping </getting_started/basics/transformations/transform_control/snap>`

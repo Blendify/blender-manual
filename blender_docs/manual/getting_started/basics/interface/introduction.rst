@@ -77,8 +77,9 @@ Regions
 These are vertical areas on the sides of the Editor which can be shown/hidden
 on demand by using hotkeys (see below).
 
-On the left is the **Toolshelf** (displayed using :kbd:`T`) which contains functions that are performed in that Editor,
-organized by a set of `Tabs`_. In the 3D View, the Toolshelf is split horizontally to contain the **Operator** region,
+On the left is the **Toolshelf** (displayed using :kbd:`T`)
+which contains functions that are performed in that Editor, organized by a set of `Tabs`_.
+In the 3D View, the Toolshelf is split horizontally to contain the **Operator** region,
 which contains properties of the last-performed action.
 
 On the right is the **Properties** region

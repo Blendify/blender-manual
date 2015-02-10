@@ -57,7 +57,7 @@ OpenCV is using the same distortion model, so it shouldn't be a problem.
 
 
 Camera and object motion solving
----------------------
+--------------------------------
 
 Blender not only supports the solving of camera motion, including tripod shots,
 but also the solving of object motion in relation to the motion of the camera.
