@@ -156,7 +156,8 @@ Proportional Editing
 ====================
 
 Proportional Editing is available in UV editing. The controls are the same as in the 3D view.
-See :doc:`Proportional Editing in 3D </getting_started/basics/transformations/transform_control/proportional_edit>` for full reference.
+See :doc:`Proportional Editing in 3D </getting_started/basics/transformations/transform_control/proportional_edit>`
+for full reference.
 
 
 Snapping

@@ -67,6 +67,7 @@ Appending Node Groups
 =====================
 
 Once you have appended a NodeTree to your .blend file, you can make use of it in the node editor by pressing
-:kbd:`Shift-A`: :menuselection:`Add --> Group`, then select the appended group. The "control panel" of the Group is the
-individual controls for the grouped nodes. You can change them by working with the Group node like any other node.
+:kbd:`Shift-A`: :menuselection:`Add --> Group`, then select the appended group.
+The "control panel" of the Group is the individual controls for the grouped nodes.
+You can change them by working with the Group node like any other node.
 

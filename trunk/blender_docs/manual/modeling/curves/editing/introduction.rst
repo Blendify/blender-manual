@@ -70,7 +70,8 @@ Like other elements in Blender, Curve control points can be grabbed/moved (:kbd:
 rotated (:kbd:`R`) or scaled (:kbd:`S`)
 as described in the :doc:`Basic Transformations </getting_started/basics/transformations/introduction>` section.
 When in *Edit* mode, :doc:`proportional editing
-</getting_started/basics/transformations/transform_control/proportional_edit>` is also available for transformation actions.
+</getting_started/basics/transformations/transform_control/proportional_edit>`
+is also available for transformation actions.
 
 
 Snapping
@@ -83,7 +84,8 @@ Snapping
    | Panel:    *Curve Tools* (*Editing* context)
 
 
-:doc:`Mesh snapping </getting_started/basics/transformations/transform_control/snap>` also works with curve components.
+:doc:`Mesh snapping </getting_started/basics/transformations/transform_control/snap>`
+also works with curve components.
 Both control points and their handles will be affected by snapping,
 except for within itself (other components of the active curve).
 Snapping works with 2D curves but points will be constrained to the local XY axes.
