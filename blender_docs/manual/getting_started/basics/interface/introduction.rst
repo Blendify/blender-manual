@@ -42,7 +42,7 @@ Screen Elements
    :width: 350
 
 The Blender window is organized into Editors, 
-which are composed of one `Main Region`_, one `Headers`_ and usually two `Sidebars`_ which contain `Panels`_
+which are composed of one `Main Region`_, one `Headers`_ and usually two `Regions`_ which contain `Panels`_
 of buttons, controls and widgets.
 
 The composition of the various Editors is called a "Screen Layout".
@@ -69,8 +69,8 @@ In general, an Editor opens a view for editing content of a specific part of Ble
 Editors are consistently organized into following parts:
 
 
-Sidebars
---------
+Regions
+-------
 
 (*Shown above in red*)
 
@@ -79,16 +79,13 @@ on demand by using hotkeys (see below).
 
 On the left is the **Toolshelf** (displayed using :kbd:`T`) which contains functions that are performed in that Editor,
 organized by a set of `Tabs`_. In the 3D View, the Toolshelf is split horizontally to contain the **Operator** region,
-which contains optional properties of the last-performed action.
+which contains properties of the last-performed action.
 
-On the right is the **Properties** sidebar
+On the right is the **Properties** region
 (displayed using :kbd:`N`, not to be confused with the :doc:`Properties Editor </editors/properties/index>`)
 which contains both static and context-sensitive options for the editor and the current selection.
 
-**Useful hotkeys**
-
-
-.. list-table::
+.. list-table:: Useful Hotkeys
    :widths: 15 85
 
    * - :kbd:`T`
@@ -96,7 +93,8 @@ which contains both static and context-sensitive options for the editor and the 
    * - :kbd:`N`
      - Toggle visibility of Properties Bar
    * - :kbd:`F5`
-     - Flip Sidebar to opposite side
+     - Flip Region to opposite side
+
 
 Headers
 -------
@@ -106,9 +104,7 @@ Headers
 Headers are horizontal areas at the top or bottom of an Editor used
 as containers for menus and commonly used tools.
 
-**Useful hotkeys**
-
-.. list-table::
+.. list-table:: Useful Hotkeys
    :widths: 15 85
 
    * - :kbd:`F5`
@@ -124,7 +120,7 @@ Main Region
 
 This is the most prominent part of the Editor and where most interaction happens.
 
-While both Headers and sidebars can be hidden, the main region will always be visible.
+While both Headers and Regions can be hidden, the main region will always be visible.
 
 Each Editor has a specific purpose, so the main region of each Editor are all very different from each other.
 See specific documentation about each editor in the :doc:`Editors </editors/index>` chapter.
@@ -140,7 +136,7 @@ The smallest organizational unit in the user interface is a panel,
 which can be collapsed to hide its contents by clicking on its header.
 This is where the buttons, menus, checkboxes, etc. are located.
 
-Panels are usually found in the sidebars of an Editor,
+Panels are usually found in the side regions of an Editor,
 but also make up most of the :doc:`Properties Editor </editors/properties/index>`'s main region.
 
 In the image on the right there are 3 Panels: **Transform**, **Edit** 
