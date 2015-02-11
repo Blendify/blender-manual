@@ -10,11 +10,12 @@ Primary Goals
 The main goals for this manual are as follows.
 
 User Focused
-   While we have technical users, this manual shall be kept understandable by non-technical users.
+   While some areas of computer graphics are highly technical,
+   this manual shall be kept understandable by non-technical users.
 Complete
    So there is a canonical source of truth for each of Blender's key areas.
    This doesn't mean we have to document every small detail,
-   but users shouldn't have to rely on searching online to find the purpose of key features.
+   but users shouldn't have to rely on searching elsewhere to find the purpose of key features.
 Concise
    Computer graphics is an incredibly interesting field,
    there are many rules, exceptions to the rules and interesting details.
