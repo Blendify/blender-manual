@@ -3,78 +3,40 @@
 Input Devices
 *************
 
-Blender's workflows are optimized for parallel usage of mouse and keyboard.
-That's why we have evolved the 'golden rule':
+Blender supports various types of input devices:
 
-   **Keep one hand on the mouse and the other on the keyboard**
-
-The most frequently used keys are grouped so that they can be reached by the left hand in
-standard position (index finger on :kbd:`F`) on the English keyboard layout.
-This assumes that you use the mouse with your right hand.
-
-
-Input configuration
-===================
-
-Blender's interface is designed to be used with the following recommended input configuration:
-
-
-- A three-button mouse with a scroll wheel
-- A full keyboard with a numeric keypad (NumLock should generally be switched on).
-
-:doc:`Read more about Blender configuration </preferences/index>`
-
+- Keyboard (recommended: keyboard with numeric keypad, english layout works best)
+- Mouse (recommended: 3 button mouse with scroll wheel)
+- NDOF Devices (Space Navigator, etc.)
+- Graphic Tablets
 
 Usage of Mouse Buttons
 ======================
 
-The mouse takes an important role while working with Blender.
-Therefore we have established a general usage of the mouse buttons which apply in most cases:
+In Blender the :kbd:`RMB` (Right Mouse Button) is generally used for Selection
+and the :kbd:`LMB` (Left Mouse Button) initiates or confirms actions. 
 
-Right Mouse Button
-   Select an item
-Left Mouse Button
-   Initiate or confirm an action
+Exceptions from the rule
+------------------------
 
-(These can be swapped in the Input tab of the User Preferences).
+Unfortunately there are a few corner cases where action and selection 
+might intertwine. And some parts in Blender even violate the principle 
+such that now :kbd:`LMB` selects and :kbd:`RMB` takes action (example: the Outliner).
 
-.. note::
+The mouse usage summarized:
 
-   The Reference section contains details (and a short video guide)
-   about the :doc:`Usage of Mouse Buttons for basic Operations </ce/userinterface/mousebuttons>`
+.. list-table::
+   :widths: 15 85
 
+   * - :kbd:`RMB`
+     - To select an item
+   * - :kbd:`SHIFT` :kbd:`RMB`
+     - To add more items
+   * - :kbd:`LMB`
+     - to perform an action on the selection 
 
-Conventions in this Manual
-==========================
+Video: `Learn more about Blender's Mouse Button usage <http://vimeo.com/76335056>`_
 
-This manual uses the following conventions to describe user input:
-
-
-- The mouse buttons are referred to as:
-
-   :kbd:`LMB` - Left Mouse Button
-   :kbd:`MMB` - Middle Mouse Button
-   :kbd:`RMB` - Right Mouse Button
-
-- If your mouse has a wheel
-
-   :kbd:`MMB` - Middle Mouse Button (clicking the wheel)
-   :kbd:`Wheel` - Scrolling the wheel.
-
-- Hotkey letters are shown in this manual like they appear on a keyboard; for example,
-
-   :kbd:`G` - refers to the lowercase ``g``.
-
-   :kbd:`Shift`, :kbd:`Ctrl` and :kbd:`Alt` are specified as modifier keys.
-
-   :kbd:`Ctrl-W` or :kbd:`Shift-Alt-A` - indicates that these keys should be pressed simultaneously
-
-   :kbd:`Numpad0` to :kbd:`Numpad9`, :kbd:`NumpadPlus` - and so on refer to the keys on the separate numeric keypad.
-
-Other keys are referred to by their names, such as :kbd:`Esc`, :kbd:`Tab`, :kbd:`F1` to :kbd:`F12`.
-Of special note are the arrow keys, :kbd:`Left`, :kbd:`Right` and so on.
-
-.. _mouse_button_emulation:
 
 Mouse Button Emulation
 ======================
