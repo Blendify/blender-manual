@@ -77,17 +77,37 @@ header and a file browser will open so that you can choose where to store the co
 The *Import Key Configuration* button installs a keymap configuration that is on
 your computer but not in Blender.
 
+.. _preferences_input_mouse:
 
 Mouse
 =====
 
 Emulate 3 Button Mouse
-   It is possible to use Blender without a 3 button mouse (such as a two-button mouse,
+   Blender can be configured to work with different mouse types (such as a two-button mouse,
    Apple single-button Mouse, or laptop).
-   This functionality can be emulated with key/mousebutton combos.
-   This option is only available if *Select With* is set to *Right*.
-   Read more about
-   :ref:`Emulating a 3 button mouse <mouse_button_emulation>`.
+   This functionality of the 3 mouse buttons will then be be emulated with 
+   key/mousebutton combos as shown in the table below.
+
+   .. list-table:: Shortcuts for supported mouse hardware
+      :header-rows: 1
+
+      * - 3-button Mouse
+        - 2-button Mouse
+        - Apple Mouse
+      * - :kbd:`LMB`
+        - :kbd:`LMB`
+        - :kbd:`LMB` (mouse button)
+      * - :kbd:`MMB`
+        - :kbd:`Alt-LMB`
+        - :kbd:`Cmd-LMB` (Option/Alt key + mouse button)
+      * - :kbd:`RMB`
+        - :kbd:`RMB`
+        - :kbd:`Cmd-LMB` (Command/Apple key + mouse button)
+
+
+   All the Mouse/Keyboard combinations mentioned in the Manual can be expressed with the
+   combinations shown in the table. For Example,
+   :kbd:`Shift-Alt-RMB` becomes :kbd:`Shift-Alt-Cmd-LMB` on a single-button mouse.
 Continuous Grab
    Allows moving the mouse outside of the view (for translation, rotation, scale for example).
 Drag Threshold
@@ -100,8 +120,14 @@ Double Click
 
 .. note::
 
-   If you're using a graphic tablet instead of mouse, and pressure doesn't work properly,
-   try to place the mouse pointer to Blender window and then unplug/replug your graphic tablet. This might help.
+   The Mouse emulate option is only available if *Select With* is set to *Right*.
+
+
+Graphic Tablets
+===============
+
+If you're using a graphic tablet instead of mouse, and pressure doesn't work properly,
+try to place the mouse pointer to Blender window and then unplug/replug your graphic tablet. This might help.
 
 
 Numpad emulation
