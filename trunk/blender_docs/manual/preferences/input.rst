@@ -77,19 +77,19 @@ header and a file browser will open so that you can choose where to store the co
 The *Import Key Configuration* button installs a keymap configuration that is on
 your computer but not in Blender.
 
-.. _preferences_input_mouse:
 
 Mouse
 =====
 
 Emulate 3 Button Mouse
    Blender can be configured to work with different mouse types (such as a two-button mouse,
-   Apple single-button Mouse, or laptop).
-   This functionality of the 3 mouse buttons will then be be emulated with 
+   Apple single-button Mouse, or laptop touchpad).
+   The functionality of the 3 mouse buttons will then be be emulated with 
    key/mousebutton combos as shown in the table below.
 
    .. list-table:: Shortcuts for supported mouse hardware
       :header-rows: 1
+      :stub-columns: 1
 
       * - 3-button Mouse
         - 2-button Mouse
@@ -126,8 +126,15 @@ Double Click
 Graphic Tablets
 ===============
 
-If you're using a graphic tablet instead of mouse, and pressure doesn't work properly,
-try to place the mouse pointer to Blender window and then unplug/replug your graphic tablet. This might help.
+Graphic tablets can be used to provide a more traditional method of controlling the mouse cursor using a pen.
+This can help to provide a more familiar experience for artists
+who are used to painting and drawing with similar tools,
+as well as provide additional controls such as pressure sensitivity.
+
+.. note::
+
+   If you are using a graphic tablet instead of a mouse and pressure sensitivity doesn't work properly,
+   try to place the mouse pointer in the Blender window and then unplug/replug your graphic tablet. This might help.
 
 
 Numpad emulation

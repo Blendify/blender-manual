@@ -21,16 +21,18 @@ It is possible to automatically plug a Viewer node to any other node by pressing
    It is possible to add multiple Viewer nodes, though only the active one
    (last selected, indicated with a slightly darker header) will be shown on the backdrop or in the UV/Image editor.
 
+
 Border Compositing
 ==================
 
-A border for compositor viewer node can be defined using :kbd:`Ctrl-B`.
+A border for the viewer node can be defined using :kbd:`Ctrl-B` and selecting a rectangular area.
 
-This border is used to define area of interest of viewer node which restricts compositing to this area. Used for
-faster previews by skipping compositing outside of the defined area of interest. This is only a preview option,
-final compositing does not depend on this border.
+This border is used to define the area of interest of the viewer node which restricts compositing to this area.
+Used for faster previews by skipping compositing outside of the defined area of interest.
+This is only a preview option, final compositing during a render ignores this border.
 
 Use :kbd:`Ctrl-Alt-B` to discard the defined border and see a full preview.
+
 
 Tile order
 ==========
@@ -39,18 +41,18 @@ The tile order can be defined for the backdrop image, using the *Tile order* fie
 viewer node (*Properties* panel in *Properties* sidebar, with the viewer node selected):
 
 Rule of thirds
-   Generates tiles around each of the 9 zones defined by the
+   Calculates tiles around each of the 9 zones defined by the
    **rule of thirds** (see `Rule of Thirds <http://en.wikipedia.org/wiki/Rule_of_thirds>`_ for more information).
 
 Bottom up
-   Tiles are generated from the bottom up.
+   Tiles are calculated from the bottom up.
 
 Random
-   Generates tiles randomly.
+   Calculates tiles in a non-specific order.
 
 Center
-   Generates the tiles around a specific center, defined by *X* and *Y* fields. Values in these fields
-   range from 0.0 to 1.0. Default is 0.5 (middle point).
+   Calculates the tiles around a specific center, defined by *X* and *Y* fields.
+
 
 Using the UV/Image Editor Window
 ================================
