@@ -3,8 +3,10 @@
 About this manual
 *****************
 
-In this manual you find a complete and concise source of information that shall help you to get comfortable with the application.
-You find links to the particular areas of interest on the document navigation bar on the left side of this manual.
+In this manual you will find a complete and concise source of information
+that shall help you to get comfortable with the application.
+
+You can find links to the particular areas of interest in the navigation bar on the left.
 
 
 Conventions used
@@ -14,13 +16,13 @@ The mouse buttons are referred to as:
 
 :kbd:`LMB` 
   Left Mouse Button
-:kbd:`MMB` 
-  Middle Mouse Button
 :kbd:`RMB` 
   Right Mouse Button
 
 If your mouse has a wheel
 
+:kbd:`MMB` 
+  Middle Mouse Button
 :kbd:`Wheel` 
   Scrolling the wheel.
 
