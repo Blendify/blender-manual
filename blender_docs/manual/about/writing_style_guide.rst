@@ -62,7 +62,7 @@ To be avoided:
 - Avoid technical explanations about the mathematical/algorithmic implementation of a feature
   if there is a simpler way to explain it (e.g. explaining how mesh smoothing algorithms work is unnecessary,
   but the blending types of a mix node do need a mathematical explanation).
-- Avoid repetition of large potions of text - simply explain it once, and from then on refer to that explanation.
+- Avoid repetition of large portions of text - simply explain it once, and from then on refer to that explanation.
 
   In some cases you might also consider defining a ``:term:`` in the **glossary**.
 - Avoid enumerating similar options, such as listing every preset or every frame-rate in a drop-down.
