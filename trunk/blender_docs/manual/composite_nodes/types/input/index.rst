@@ -20,7 +20,11 @@ As such, they have no input-connectors; only outputs.
 
    render_layers.rst
    image.rst
+   movie_clip.rst
+   mask.rst
    rgb.rst
    value.rst   
    texture.rst
+   bokeh_image.rst
    time.rst
+   track_position.rst

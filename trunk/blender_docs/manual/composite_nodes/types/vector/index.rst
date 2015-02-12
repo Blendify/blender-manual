@@ -11,5 +11,6 @@ These nodes can be used to manipulate various types of vectors, such as surface 
 
    normal.rst
    map_value.rst
+   map_range.rst
    normalize.rst
    vector_curves.rst
