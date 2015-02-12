@@ -16,7 +16,9 @@ Modify
 .. toctree::
    :maxdepth: 1
 
+   modify/data_transfer.rst
    modify/mesh_cache.rst
+   modify/normal_edit.rst
    modify/uv_project.rst
    modify/uv_warp.rst
    modify/vertex_weight.rst
