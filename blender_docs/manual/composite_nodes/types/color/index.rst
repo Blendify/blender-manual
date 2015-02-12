@@ -21,5 +21,6 @@ overlaying another image, etc.
    hue_correct.rst
    bright_contrast.rst
    gamma.rst
+   color_correction.rst
    tone_map.rst
    z-combine.rst

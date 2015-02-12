@@ -12,6 +12,7 @@ or by using a mask to vary the effect over the image.
 
    scale.rst
    lens.rst
+   movie_distortion.rst
    translate.rst
    rotate.rst
    flip.rst
@@ -19,3 +20,6 @@ or by using a mask to vary the effect over the image.
    displace.rst
    map_uv.rst
    transform.rst
+   stabilize_2d.rst
+   plane_track_deform.rst
+   corner_pin.rst

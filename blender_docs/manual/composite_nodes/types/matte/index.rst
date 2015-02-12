@@ -37,10 +37,15 @@ will complicate matters and mandate lower falloff values.
 .. toctree::
    :maxdepth: 1
 
+   keying.rst
+   keying_screen.rst
    channel_key.rst
    color_spill_key.rst
+   box_mask.rst
+   ellipse_mask.rst
    luminance_key.rst
    difference_key.rst
    distance_key.rst
    chroma_key.rst
    color_key.rst
+   double_edge_mask.rst
