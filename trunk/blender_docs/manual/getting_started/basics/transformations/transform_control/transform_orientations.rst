@@ -22,7 +22,8 @@ Transform Orientations
 
 Orientations affect the behavior of Transformations: Location, Rotation, and Scale.
 You will see an effect on the 3D Manipulator (the widget in the center of the selection),
-as well as on transformation constraints (like :doc:`axis locking </getting_started/basics/transformations/transform_control/axis_locking>`).
+as well as on transformation constraints
+(like :doc:`axis locking </getting_started/basics/transformations/transform_control/axis_locking>`).
 This means that, when you hit :kbd:`G-X`, it will constrain to the *global* x-axis,
 but if you hit :kbd:`G-X-X` it will constrain to your *Transform Orientation* s x-axis.
 

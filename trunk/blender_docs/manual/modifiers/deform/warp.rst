@@ -20,7 +20,8 @@ The Warp Modifier is a bit tricky at first, but it helps to understand how it wo
 The modifier requires two points, specified by object centers.
 The "from" point designates a point in space that is pulled toward the "to" point.
 It is akin to using the
-:doc:`Proportional Editing </getting_started/basics/transformations/transform_control/proportional_edit>` in Edit Mode.
+:doc:`Proportional Editing </getting_started/basics/transformations/transform_control/proportional_edit>`
+in Edit Mode.
 
 
 Options

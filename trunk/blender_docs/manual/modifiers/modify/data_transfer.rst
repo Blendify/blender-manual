@@ -16,6 +16,7 @@ to a single destination one - interpolated mapping.
    copying its normals from the reference, flat-shaded cube shown as wire here, to achieve the 'fake round corners'
    effect.
 
+
 Options
 =======
 
@@ -73,6 +74,7 @@ Generate Data Layers
    This modifier cannot generate needed data layers itself. Once the set of source data to transfer is selected,
    this button shall be used to generate matching destination layers.
 
+
 Selection of Data to Transfer
 -----------------------------
 
@@ -97,6 +99,7 @@ Islands Handling Refinement
    Typically, small values like 0.02 are enough to get good results, but if you are mapping from
    a very high poly source towards a very low poly destination, you may have to raise it quite significantly.
 
+
 Usage
 =====
 
@@ -105,6 +108,7 @@ First key thing to keep in mind when using this modifier is that **it will not c
 is selected. It should also be well understood that creating those data layers on destination mesh is **not**
 part of the modifier stack, which means e.g. that they will remain even once the modifier is deleted, or if
 source data selection is modified.
+
 
 Geometry Mapping
 ----------------
@@ -196,3 +200,4 @@ Interpolated Mappings
       Projected Face Interpolated
          This is a sampling process. Several rays are cast from the whole destination’s face (along its own normal),
          and if enough of them hit a source’s face, all hit source faces’ data are interpolated into destination one.
+

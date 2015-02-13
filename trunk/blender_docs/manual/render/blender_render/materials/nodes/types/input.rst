@@ -22,7 +22,8 @@ Material Node
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :doc:`Node Editor </render/blender_render/materials/nodes/editor>` --> :doc:`Material Nodes </render/blender_render/materials/nodes>`
+   | Panel:    :doc:`Node Editor </render/blender_render/materials/nodes/editor>` -->
+               :doc:`Material Nodes </render/blender_render/materials/nodes>`
    | Menu:     :kbd:`Shift-A` --> Input --> Material
 
 
