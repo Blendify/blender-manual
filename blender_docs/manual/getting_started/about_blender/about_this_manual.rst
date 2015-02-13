@@ -3,8 +3,8 @@
 About this manual
 *****************
 
-In this manual you will find a complete and concise source of information
-that shall help you to get comfortable with the application.
+In this manual aims to be a complete and concise source of information
+to help you to become familiar with the application.
 
 You can find links to the particular areas of interest in the navigation bar on the left.
 

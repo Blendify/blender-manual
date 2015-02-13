@@ -18,8 +18,9 @@ What that image looks like is based on four factors which the user can control:
 - The :doc:`Lighting </render/blender_render/lighting/introduction>` in your scene
 - The :doc:`Material </render/blender_render/materials/introduction>` of each object
 - Various render settings (quality, image size, layers etc)
-  
-Your computer will perform various complex calculations based on those factors in order to give you your rendered image.
+
+Your computer will perform various complex calculations
+based on those factors in order to give you your rendered image.
 This process may take some time depending on the complexity of the scene and your hardware.
 
 Once the render is complete, it is possible to do additional manipulation of the image,
@@ -41,7 +42,7 @@ In general, the process for rendering is:
 #. Repeat the above two steps until you are satisfied
 #. Render a high quality image, change or fix any issues and repeat until satisfied
 #. Save your image to a file, or render the animation to a video or image sequence.
-   
+
 
 Render Engines
 ==============

@@ -6,7 +6,8 @@ Scenes
 Scenes are a way to organize your work.
 Each ``.blend`` file can contain multiple scenes which share other data such as objects and materials
 
-Scene management and library appending/linking is based on Blender's :doc:`Library and Data System </data_system/index>`,
+Scene management and library appending/linking is based on Blender's
+:doc:`Library and Data System </data_system/index>`,
 so it is a good idea to read that manual page first if you're not familiar with the basics of that system.
 
 

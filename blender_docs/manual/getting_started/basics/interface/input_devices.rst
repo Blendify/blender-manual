@@ -7,7 +7,7 @@ Blender supports various types of input devices:
 
 - Keyboard (recommended: keyboard with numeric keypad, english layout works best)
 - Mouse (recommended: 3 button mouse with scroll wheel)
-- NDOF Devices
+- NDOF Devices (also known as *3D Mouse*)
 - Graphic Tablets
 
 
@@ -15,7 +15,7 @@ Usage of Mouse Buttons
 ======================
 
 In Blender the :kbd:`RMB` (Right Mouse Button) is generally used for Selection
-and the :kbd:`LMB` (Left Mouse Button) initiates or confirms actions. 
+and the :kbd:`LMB` (Left Mouse Button) initiates or confirms actions.
 
 The mouse usage summarized:
 
@@ -27,7 +27,7 @@ The mouse usage summarized:
    * - :kbd:`Shift-RMB`
      - To add more items to the selection
    * - :kbd:`LMB`
-     - to perform an action on the selection 
+     - to perform an action on the selection
 
 Video: `Learn more about Blender's Mouse Button usage <http://vimeo.com/76335056>`_
 
@@ -35,8 +35,8 @@ Video: `Learn more about Blender's Mouse Button usage <http://vimeo.com/76335056
 Exceptions from the Rule
 ------------------------
 
-Unfortunately there are a few corner cases where action and selection 
-might intertwine. Some parts in Blender even violate the principle 
+Unfortunately there are a few corner cases where action and selection
+might intertwine. Some parts in Blender even violate the principle
 such that :kbd:`LMB` selects and :kbd:`RMB` takes action, for example, the :doc:`Outliner </editors/outliner>`.
 
 

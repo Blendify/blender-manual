@@ -6,7 +6,8 @@ Time node
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    :doc:`Node Editor </render/blender_render/materials/nodes/editor>` --> :doc:`Node Composition </composite_nodes/index>`
+   | Panel:    :doc:`Node Editor </render/blender_render/materials/nodes/editor>` -->
+               :doc:`Node Composition </composite_nodes/index>`
    | Menu:     :kbd:`Shift-A` --> :doc:`Input </ce/windows/nodes/composite#inputs>` --> Time
 
 
