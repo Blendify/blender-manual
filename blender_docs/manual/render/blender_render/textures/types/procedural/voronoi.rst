@@ -31,8 +31,8 @@ Distance Metric
    - Actual Distance
 
    The *Minkovsky* setting has a user definable value (the *Exponent* button)
-   which determines the Minkovsky exponent (``e``) of the distance function ``
-   (x``:sup:`e` ``+ y``:sup:`e` ``+ z``:sup:`e` ``)``:sup:`1/e`.
+   which determines the Minkovsky exponent (``e``) of the distance function
+   ``(x``:sup:`e` ``+ y``:sup:`e` ``+ z``:sup:`e` ``)``:sup:`1/e`.
    A value of one produces the *Manhattan* distance metric, a value less than one produces stars
    (at **0.5**, it gives a *Minkovsky 1/2*), and higher values produce square cells (at **4.0**,
    it gives a *Minkovsky 4*, at **10.0**, a *Chebychev*).
@@ -92,4 +92,4 @@ Technical Details
 =================
 
 For a more in depth description of the Worley algorithm, see:
-`Worley Documentation <http://www.ypoart.com/Downloads/Worley.htm>`__ (dead link).
+`Worley Documentation <http://www.ypoart.com/Downloads/Worley.htm>`__.
