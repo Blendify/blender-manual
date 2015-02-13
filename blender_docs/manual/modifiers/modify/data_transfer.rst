@@ -10,13 +10,18 @@ Transfer works by generating a mapping between source mesh’s items (vertices, 
 and destination ones, either on a one-to-one basis, or mapping several source items
 to a single destination one - interpolated mapping.
 
-..
-   (nice image)
+.. figure:: /images/modifier_data_transfer_normals_example.png
+
+   From left to right, a flat-shaded beveled cube, a smooth-shaded beveled cube, and an autosmooth-shaded beveled cube
+   copying its normals from the reference, flat-shaded cube shown as wire here, to achieve the 'fake round corners'
+   effect.
 
 Options
 =======
 
 .. figure:: /images/modifier_data_transfer_ui.png
+
+   Data Transfer modifier.
 
 Source Object
    Mesh object to copy data from.
