@@ -3,24 +3,11 @@
 Introduction
 ************
 
-The *Grease Pencil* is a tool that allows you to draw sketches and annotations in
-the 3D view and UV/Image editor windows using freehand strokes. It is a tool that can be
-linked back to traditional 2D paper and pencil workflows where rough "guideline" sketches were
-often used for planning and quickly communicating ideas. In digital fields,
-a similar workflow was used by drawing on monitors with wax crayons and pencils. It is often
-useful to be able to directly scribble on to a work in progress instead of having to do so in
-a separate place (i.e. another part of the window,
-or even in a different application altogether).
-
-The name "Grease Pencil" is derived in homage to the wax crayons/pencils that early CG
-Animators used to draw arcs and other planning notes on their CRT's with.
-
-In addition to uses for animators in planning their poses and motion curves,
-Grease Pencil can also be useful in a number of scenarios, including but not limited to:
-
-- Planning topology and/or layout of models.
-- Director's shot review tool.
-- "Whiteboard" and assignment review tool for educators.
+Use the *Grease Pencil* tool to draw freehand sketches and annotations
+in the 3D View, UV/Image Editor, Node Editor, or Movie Clip Editor.
+The sketches are saved with the blend file.
+Planning animation poses and motion curves, sketching out model topology,
+and use as director's shot review tool are just a few of the applications.
 
 
 .. figure:: /images/2.5_Manual-GreasePencil-ExampleInAction.jpg
