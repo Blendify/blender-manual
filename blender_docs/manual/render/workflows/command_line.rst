@@ -6,8 +6,8 @@ Command Line
 In some situations we want to increase the render speed,
 access blender remotely to render something or build scripts that use the command line.
 
-One advantage of using the command line is that we don't need the X server (in case of Linux)
-and as a consequence we can render remotely by SSH or telnet.
+One advantage of using the command line is that we don't need the X server (in the case of Linux)
+and consequently we can render remotely by SSH or telnet.
 
 To see a list of available flags (for example to specify which scene to render, the end frame number, etc...),
 simply run:
@@ -154,9 +154,7 @@ Animation
 
 ``-E BLENDER_RENDER``
    Use the "Blender Render" engine. For a list of available renderers, run ``blender -E help``.
-``-s 10``
-   Set the start frame to ``10``.
-``-e 500``
-   Set the end frame to ``500``.
+``-s 10 -e 500``
+   Set the start frame to ``10`` and the end frame to ``500``.
 ``-t 2``
    Use only two threads.
