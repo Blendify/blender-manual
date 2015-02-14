@@ -185,8 +185,9 @@ While Hovering
 
    - :kbd:`Ctrl-C` - copy the value of the button.
    - :kbd:`Ctrl-V` - paste the value of the button.
-   - :kbd:`Backspace` - set the value to zero.
    - :kbd:`RMB` - open the context menu.
+   - :kbd:`Backspace` - set the value to zero.
+   - :kbd:`Minus` - negate number values (multiply by ``-1.0``).
    - :kbd:`Alt-Wheel` - changes the value incremental steps.
 
      This also works for dropdowns and checkboxes buttons, it will cycle values.
