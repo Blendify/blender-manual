@@ -79,6 +79,9 @@ In order to submit a patch, follow this process:
 
    This creates a simple text file that shows what text was added,
    removed or changed between your working files and the central repository.
+
+   If you have created or deleted files, you will need run ``svn add /path/to/file``
+   or ``svn rm /path/to/file`` before creating the diff. To see a list of affected files, run ``svn status``.
 #. `Upload the diff file here <https://developer.blender.org/differential/diff/create/>`__.
    If you don't have an account already, you can `register for one <https://developer.blender.org/auth/register/>`__.
 #. After submitting the diff, you'll be asked to "Create a new Revision"
