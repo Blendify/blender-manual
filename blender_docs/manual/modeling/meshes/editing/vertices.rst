@@ -76,7 +76,7 @@ Remove Doubles
    | Panel:    *Editing* context --> *Mesh Tools*
    | Menu:     :menuselection:`Mesh --> Vertices --> Remove Doubles`,
      :menuselection:`Specials --> Remove Doubles` or :menuselection:`Vertex Specials --> Remove Doubles`
-   | Hotkey:   :menuselection:`[W] --> [4]` or :menuselection:`[ctrl][V] --> Remove doubles`
+   | Hotkey:   :menuselection:`[W] --> Remove Doubles` or :menuselection:`Mesh --> Vertices --> Remove doubles`
 
 
 Remove Doubles is a useful tool to simplify a mesh by merging vertices that
@@ -230,7 +230,7 @@ Vertex Connect
    :class: refbox
 
    | Mode:     *Edit* mode
-   | Menu:     :menuselection:`Mesh --> Vertices --> Vertex Connect` or :menuselection:`[Ctrl][V] --> Vertex Connect`
+   | Menu:     :menuselection:`Mesh --> Vertices --> Vertex Connect`
    | Hotkey:   :kbd:`J`
 
 
@@ -264,7 +264,7 @@ Vertex Slide
 
    | Mode:     *Edit* mode
    | Panel:    *Editing* context --> *Mesh Tools*
-   | Menu:     :menuselection:`Mesh --> Vertices --> Vertex Slide` or :menuselection:`[Ctrl][V] --> Vertex Slide`
+   | Menu:     :menuselection:`Mesh --> Vertices --> Vertex Slide`
    | Hotkey:   :menuselection:`[Shift][V] --> Vertex Slide`
 
 
@@ -310,7 +310,7 @@ Smooth
    | Panel:    *Editing* context --> *Mesh Tools*
    | Menu:     :menuselection:`Mesh --> Vertices --> Smooth`,
      :menuselection:`Specials --> Smooth` or :menuselection:`Vertex Specials --> Smooth`
-   | Hotkey:   :menuselection:`[ctrl][V] --> Smooth vertex`
+   | Hotkey:   :menuselection:`Mesh --> Vertices --> Smooth vertex`
 
 
 This will apply once the :doc:`Smooth Tool </modeling/meshes/editing/deforming/smooth>`.
@@ -356,9 +356,7 @@ Blend From Shape, Propagate Shapes
 
    | Mode:     *Edit* mode
    | Menu:     :menuselection:`(Vertex) Specials --> Blend From Shape` and
-     :menuselection:`Vertex Specials --> Shape Propagate`
-   | Hotkey:   :menuselection:`[W] --> [alt][Blend From Shape]` or :menuselection:`[ctrl][V] --> Blend From Shape`,
-     and :menuselection:`[W] --> [alt][Shape Propagate]` or :menuselection:`[ctrl][V] --> Shape Propagate`
+               :menuselection:`Mesh --> Vertices --> Shape Propagate`
 
 
 These are options regarding :doc:`shape keys </animation/techs/shape/shape_keys>`.

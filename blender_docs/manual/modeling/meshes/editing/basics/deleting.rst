@@ -82,7 +82,6 @@ Unsubdivide
 
    | Mode:     *Edit* mode
    | Menu:     :menuselection:`Mesh --> Edges --> Unsubdivide`
-   | Hotkey:   :menuselection:`[Ctrl][E] --> Unsubdivide`
 
 
 Unsubdivide functions as the reverse of subdivide by attempting to remove edges that were the
@@ -105,7 +104,7 @@ Merging Vertices
 
    | Mode:     *Edit* mode
    | Menu:     :menuselection:`Mesh --> Vertices --> Merge...`,
-     :menuselection:`Specials --> Merge` or :menuselection:`Vertex Specials --> Merge`
+               :menuselection:`Specials --> Merge` or :menuselection:`Vertex Specials --> Merge`
    | Hotkey:   :kbd:`Alt-M`
 
 
@@ -159,8 +158,8 @@ Remove Doubles
    | Mode:     *Edit* mode
    | Panel:    *Editing* context --> *Mesh Tools*
    | Menu:     :menuselection:`Mesh --> Vertices --> Remove Doubles`,
-     :menuselection:`Specials --> Remove Doubles` or :menuselection:`Vertex Specials --> Remove Doubles`
-   | Hotkey:   :menuselection:`[W] --> [4]` or :menuselection:`[ctrl][V] --> Remove doubles`
+               :menuselection:`Specials --> Remove Doubles` or :menuselection:`Vertex Specials --> Remove Doubles`
+   | Hotkey:   :kbd:`W`, :menuselection:`Remove Doubles`
 
 
 Remove Doubles is a useful tool to simplify a mesh by merging
