@@ -3,8 +3,9 @@
 Sculpt Mode
 ***********
 
+
 Overview
-********
+========
 
 *Sculpt* Mode is similar to *Edit* Mode in that it is used to alter the shape of a model,
 but Sculpt Mode uses a very different workflow:
@@ -15,7 +16,7 @@ Sculpt Mode automatically selects vertices based on where the brush is, and modi
 
 
 Sculpt Mode
-***********
+===========
 
 Sculpt mode is selected from the mode menu of the *3D View* header.
 
@@ -37,7 +38,7 @@ Also a red circle will appear that follows the location of the cursor in the 3d 
 
 
 Sculpt Brushes
-**************
+==============
 
 Brushes are brush presets. They are a combination of a 'tool', along with stroke, texture,
 and options.
@@ -108,19 +109,19 @@ Thumb
 
 
 Sculpting with the Multires Modifier
-************************************
+====================================
 
 ...
 
 
 Sculpt Properties Panel
-***********************
+=======================
 
 This panel appears in the tool palette on the left side of the 3D viewport.
 
 
 Brush Menu
-==========
+----------
 
 Radius
    This option controls the radius of the brush, measured in pixels.
@@ -165,7 +166,7 @@ Accumulate
 
 
 Stroke Menu
-===========
+-----------
 
 Stroke Method
    Defines the way brush strokes are applied to the mesh:
@@ -201,7 +202,7 @@ Jitter
 
 
 Curve Menu
-==========
+----------
 
 The *Curve* section allows you to use a curve control to the right to modify the
 intensity of the brush from its centre (left part of the curve) towards its borders
@@ -213,7 +214,7 @@ intensity of the brush from its centre (left part of the curve) towards its bord
 
 
 Texture Menu
-============
+------------
 
 A texture can be used to determine the strength of brush effects as well.
 Select an existing texture from the texture box,
@@ -256,7 +257,7 @@ Overlay
 
 
 Symmetry Menu
-=============
+-------------
 
 Mirror the brush strokes across the selected local axes.
 Note that if you want to alter the directions the axes point in,
@@ -270,7 +271,7 @@ Radial
 
 
 Options Menu
-============
+------------
 
 Threaded Sculpt
    Takes advantage of multiple CPU processors to improve sculpting performance.
@@ -289,7 +290,7 @@ Lock
 
 
 Appearance Menu
-===============
+---------------
 
 You can set the color of the brush depending on if it is in additive or subtractive mode.
 
@@ -297,7 +298,7 @@ You can also set the brush icon from an image file.
 
 
 Tool Menu
-=========
+---------
 
 Here you can select the type of brush preset to use.
 *Reset Brush* will return the settings of a brush to its defaults.
@@ -306,7 +307,7 @@ You can also set Blender to use the current brush for *Vertex Paint* mode,
 
 
 Hiding and Revealing Mesh
-*************************
+=========================
 
 It is sometimes useful to isolate parts of a mesh to sculpt on. To hide a part of a mesh,
 press :kbd:`H` then click & drag around the part you want to hide.
@@ -322,7 +323,7 @@ To reveal all hidden parts, just hit :kbd:`Alt-H`.
 
 
 Keyboard Shortcuts
-******************
+==================
 
 These shortcuts may be customized under File > User preferences > Input > 3D View > Sculpt
 Mode.

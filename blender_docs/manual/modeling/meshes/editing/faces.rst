@@ -1,7 +1,4 @@
 
-..    TODO/Review: {{review|im=normals, quads to tris}} .
-
-
 **********
 Face Tools
 **********
@@ -9,10 +6,10 @@ Face Tools
 These are tools that manipulate faces.
 
 Creating Faces
-**************
+==============
 
 Make Edge/Face
-==============
+--------------
 
 .. admonition:: Reference
    :class: refbox
@@ -28,7 +25,7 @@ It is detailed in the :doc:`Basic Editing page </modeling/meshes/editing/basics/
 .. _modeling-meshes-editing-fill:
 
 Fill
-====
+----
 
 .. admonition:: Reference
    :class: refbox
@@ -76,7 +73,7 @@ note, unlike creating n-gons, fill supports holes.
 
 
 Beauty Fill
-===========
+-----------
 
 .. admonition:: Reference
    :class: refbox
@@ -103,7 +100,7 @@ It rearrange selected triangles to obtain more "balanced" ones (i.e. less long t
 
 
 Grid Fill
-=========
+---------
 
 .. admonition:: Reference
    :class: refbox
@@ -140,7 +137,7 @@ Grid Fill
 
 
 Convert Quads to Triangles
-==========================
+--------------------------
 
 .. admonition:: Reference
    :class: refbox
@@ -156,7 +153,7 @@ Remember that quads are just a set of two triangles.
 
 
 Convert Triangles to Quads
-==========================
+--------------------------
 
 .. admonition:: Reference
    :class: refbox
@@ -219,7 +216,7 @@ Compare Materials
 
 
 Solidify
-********
+========
 
 .. admonition:: Reference
    :class: refbox
@@ -259,7 +256,7 @@ Thickness
 
 
 Rotate Edges
-************
+============
 
 .. admonition:: Reference
    :class: refbox
@@ -290,7 +287,7 @@ for more information.
 
 
 Normals
-*******
+=======
 
 As normals are mainly a face "sub-product", we describe their few options here also.
 
@@ -298,7 +295,7 @@ See :doc:`Smoothing </modeling/meshes/smoothing>` for additional information on 
 
 
 Flip Direction
-==============
+--------------
 
 .. admonition:: Reference
    :class: refbox
@@ -314,7 +311,7 @@ which is always perpendicular to the face) of your normals, as only selected one
 
 
 Recalculate Normals
-===================
+-------------------
 
 .. admonition:: Reference
    :class: refbox
