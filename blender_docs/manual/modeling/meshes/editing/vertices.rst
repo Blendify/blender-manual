@@ -223,19 +223,40 @@ This will separate the selection in another mesh object,
 as described :doc:`here </modeling/objects/groups_and_parenting>`.
 
 
-Vertex Connect
-==============
+Connect Vertex Path
+===================
 
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     *Edit* mode
-   | Menu:     :menuselection:`Mesh --> Vertices --> Vertex Connect`
+   | Menu:     :menuselection:`Mesh --> Vertices --> Connect Vertex Path`
    | Hotkey:   :kbd:`J`
 
+This tool connects vertices in the order they're selected, splitting the faces between them.
 
-Vertex Connect takes two vertices that share a face, and creates an edge between the two,
-splitting the face into two new faces.
+Runnign a second time will connect the first/last endpoints.
+
+Vertices not connected to any faces will create edges,
+so this can be used as a way to quickly connect isolated vertices too.
+
+
+.. TODO, example images
+
+
+Connect Vertices
+================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     *Edit* mode
+   | Menu:     :menuselection:`Mesh --> Vertices --> Connect Vertices`
+
+
+This tool connects selected vertices by creating edges between them and splitting the face.
+
+This tool can be used on many faces at once.
 
 
 .. figure:: /images/Doc26-vertexConnect-before.jpg
