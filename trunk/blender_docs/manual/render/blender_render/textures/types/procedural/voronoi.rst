@@ -92,4 +92,4 @@ Technical Details
 =================
 
 For a more in depth description of the Worley algorithm, see:
-`Worley Documentation <http://www.ypoart.com/Downloads/Worley.htm>`__.
+`Worley Documentation <http://www.ypoart.com/downloads/Worley.htm>`__.
