@@ -19,5 +19,3 @@ but rather composited on top of the image.
    edges.rst
    stamp.rst
    cm_and_exposure.rst
-   motion_blur.rst
-

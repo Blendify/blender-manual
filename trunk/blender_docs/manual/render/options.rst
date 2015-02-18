@@ -55,7 +55,7 @@ Depth of Field (DOF) can create an unusual or appropriate sense of scale,
 depending how it is used.
 
 
-:doc:`Motion Blur </render/post_process/motion_blur>`
+:doc:`Motion Blur </render/blender_render/motion_blur>`
 =====================================================
 
 Cameras have a certain shutter speed, or the length of time the film is exposed to the image.

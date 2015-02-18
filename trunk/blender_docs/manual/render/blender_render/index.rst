@@ -13,3 +13,4 @@
    world/index.rst
    layers.rst
    passes.rst
+   motion_blur.rst
