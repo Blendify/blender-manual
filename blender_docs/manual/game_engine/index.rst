@@ -11,7 +11,6 @@
    screen_layout.rst
    logic/index.rst
    camera/index.rst
-   world.rst
    physics/index.rst
    performance/index.rst
    python_api/index.rst
