@@ -3,51 +3,37 @@
 Licensing of Blender Games
 **************************
 
-The licensing of games created for distribution using the Blender Game Engine and the
-Standalone Player is complicated by Blender's status as open-source software.
-This page aims to describe the problems, and present some possible solutions.
+Blender and the Blender Game Engine (BGE) is licensed as GNU GPL, which means that your games (if they include Blender
+software) have to comply with that license as well. This only applies to the software, or the bundle if it has software
+in it, not to the artwork you make with Blender. All your Blender creations are your sole property.
 
-Blender is distributed as open-source software distributed and owned by the Blender Foundation
-under the GNU General Public License (GPL).    In brief,
-while the Blender system itself is available to everyone,
-you own anything that you make using Blender (scripts, texture, rendered artwork etc.).
-See http://www.blender.org/education-help/faq/gpl-for-artists/ for further details.
+GNU GPL - also called "Free Software" - is a license that aims at keeping the licensed software free, forever.
+GNU GPL does not allow you to add new restrictions or limitations on the software you received under that license.
+That works fine if you want your clients or your audience to have the same rights as you have (with Blender).
 
-
-Standalone Player License
-=========================
-
-Unfortunately, this does not extend to games or other artwork distributed to run under the
-Blender Standalone Player. To distribute your game you need to create an executable
-(run time). What it does is take your Blender .blend file and put it "inside" the Standalone
-Player - a stripped-down version of Blender containing only the functions corresponding to the
-Blender Game Engine.
-The resulting executable file falls into the category of "derivatives" of the original program
-(i.e. a hybrid of your file with the Standalone Player itself),
-and therefore must be licensed as GPL.
+For people who prefer to lockup software or to restrict distribution or copying of their games, the BGE is not a good
+choice. The best you can achieve is to separate the contents (.blend files with game design) from the software (BGE) in
+their distribution, and license the first under own copyrights and keep the latter as GNU GPL.
 
 
-Distributing Games
-==================
 
-There are four possible solutions to the problem of how to distribute your game with suitable
-license protection:
+Standalone Games
+================
 
-#. Do not protect your Blender Game by license.
-   Are you really sure that you need to license it? Remember the old adage
-   "Imitation is the sincerest form of flattery".
-#. Pretend that there is no problem. It is very, very unlikely that the Blender Foundation
-   will ever prosecute anyone for distributing a game that is based on the BGE.
-#. Make use of an external system for running Blender games: e.g. BPPlayer or Gamekit
-   (but these are not fully tested).
-#. Use the Game Actuator, which enables a basic .blend game file to start.
-   By making a basic file which contains an "Always" sensor to run,
-   and allowing this to activate a "Game" actuator to load and run the full content of your game,
-   this gets round the problem. Your main file is now "outside" the Standalone Player,
-   so that it need not be open to GPL and is therefore "legally protected".
-   Although your game is not fully protected with this system,
-   it affords a similar level of protection to that used in most other distributed games. The fact that others can
-   access your .blend file does not mean that it can be used for purposes not covered by the license you want.
+In case you save out your game as a single "Standalone" the .blend file gets included in the binary (the BGE player).
+That requires the .blend file to be compatible with the GNU GPL license.
+
+In this case, you could decide to load and run another .blend file game (using the Game Actuator logic brick).
+That file then is not part of the binary, so you can apply any license you wish on it.
 
 
-(Acknowledgements: This page is based on information contained in the blog file of Dalai Felinto).
+
+More Information
+================
+
+More information you can find in the `blender.org FAQ <http://www.blender.org/support/faq/>`__.
+
+
+(Disclaimer: the former text on this page was inaccurate and had wrong statements in it.
+The current text has been rewritten by Blender Foundation's chairman.
+If you have questions about GPL, consult the `Free Software Foundation website <fsf.org>`__ .)
