@@ -4,84 +4,55 @@ Motion Blur
 ***********
 
 Blender's animations are by default rendered as a sequence of *perfectly still* images.
-This is unrealistic, since fast-moving objects do appear to be 'moving', that is,
-blurred by their own motion,
-both in a movie frame and in a photograph from a 'real-world camera'.
-To obtain such a Motion Blur effect,
-Blender can be made to render the current frame and some more frames,
-in between the real frames,
-and merge them all together to obtain an image where fast-moving details are 'blurred'.
+While great for stop-motion and time-lapses, this is unrealistic, since fast-moving 
+objects do appear to be blurred in the direction of motion,  
+both in a movie frame and in a photograph from a real-world camera.
 
-
-The Human Eye
-=============
-
-Our brains process about 15 images from each eye in parallel each second.
-My brain cognates those images together and I perceive motion by comparing the two.
-If something is moving fast enough, I perceive it to be a blur
-(either because my rods have some latency in reacting to light, or my brain,
-in overlaying and differencing the images, somehow merges them in a mix sort of fashion).
-The POINT IS, I *perceive* a motion blur.
-
-
-In Film
-=======
-
-To keep us from seeing jumpy motion pictures,
-we simply doubled the frame rate to 30 frames per second (fps) (24 fps EU). So, the shutter is
-basically open for a 30th of a second and the film is exposed to the world for that length of
-time. As things moved in the real world during that time, the film exposure caused the image
-of the moving thing to be physically blurred or smeared on that frame.
-When developed and shown, we physically see an image that is blurred. The POINT IS,
-I *see* a blurred image.
-
-
-In CG
-=====
-
-In CG, when a frame is rendered, the computer knows exactly where everything should be,
-and renders it as such. From frame to frame, an object is location A in frame 1,
-and location B in frame 2. When we show you these two frames at speed (30 fps),
-the image appears jumpy to us, because somewhere between the eyeballs and the film,
-there isn't that same blurring as in the real world and film, and we can tell.
-
-
-Motion Blur in Blender
-**********************
-
-So, how can we make a blurry CG image? Blender has two ways to achieve Motion Blur:
+Blender has two ways to achieve motion blur:
 
 
 Sampled Motion Blur
 ===================
 
-This method is slow, but produces better results.
-It can be activated in the motion blur section in the render options panel.
+Blender can be made to render the current frame and some more 'virtual' frames in between it and the next frame,
+then merge them all together to obtain an image where moving objects are 'blurred'.
+
+This method is slow, but produces good results.
+It can be activated in the *Sampled Motion Blur* panel of the render settings.
+This kind of motion blur is done during the render.
 
 Motion Samples
-   Set the number of samples to take for each frame.
+   Set the number of samples to take for each frame.  The higher the samples, the
+   smoother the blur effect, but the longer the render, as each virtual intermediate 
+   frame has to be rendered.
 
 Shutter
-   Time Taken in frames between shutter open and close.
+   Time (in frames) the shutter is open.  If you are rendering at 24 fps, 
+   and the Shutter is set to .5, the time in between frames is 41.67 ms, so the 
+   shutter is open for half that, 20.83 ms.
+
+.. note::
+
+   Samples are taken only from the *next* frame, not the previous one.
+   Therefore the blurred object will appear to be slightly ahead of how it would look without motion blur.
 
 
 Vector Blur
 ===========
 
-:doc:`Vector Blur </composite_nodes/vector_blur#vector-based_motion_blur>`
-is faster but sometimes has unwanted side-effects - which can be avoided, though.
-Vector blur is a process done in compositing, by rendering the scene without any blur,
-plus a pass that has movement information for each pixel.
+:doc:`Vector Blur </composite_nodes/types/filter/vector_blur>`
+is faster but sometimes has unwanted side-effects which are sometimes difficult to avoid.
+
+Vector blur is a process done in compositing (post-render time), by rendering the 
+scene without any blur, plus a pass that has movement information for each pixel.
 This information is a vector map which describes a 2d or 3d direction and magnitude.
 The compositor uses that data to blur each pixel in the given direction.
 
-
 Examples
-********
+========
 
-To better grasp the concept, let's assume that we have a cube,
-uniformly moving 1 Blender unit to the right at each frame. This is indeed fast,
-especially since the cube itself has a side of only 2 Blender units.
+To better grasp the concept, let's assume that we have a cube 2 units wide,
+uniformly moving 1 unit to the right at each frame.
 
 *Image 1* shows a render of frame 1 without Motion Blur; *Image 2* shows a render of frame 2.
 The scale beneath the cube helps in appreciating the movement of 1 Blender unit.
@@ -104,13 +75,11 @@ The scale beneath the cube helps in appreciating the movement of 1 Blender unit.
    :width: 320px
 
 
-*Image 3* on the other hand shows the rendering of frame 1 when Motion Blur is set and 8 'intermediate' frames are
-computed. *Shutter* is set to 0.5; this means that the 8 'intermediate' frames are computed on a 0.
-5 frame period starting from frame 1. This is very evident since the whole 'blurriness' of the cube occurs half a
-unit before and half a unit after the main cube body.
+*Image 3* shows the rendering of frame 1 when Sampled Motion Blur is enabled and 8 'intermediate' frames are
+computed. *Shutter* is set to 0.5 - thus the image 8 samples are rendered between frame 1 and halfway to frame 2.
 
-*Image 4* and *Image 5* show the effect of increasing Bf values.
-A value greater than 1 implies a very 'slow' camera shutter.
+*Image 4* and *Image 5* show the effect of increasing shutter values.
+A value greater than 1 is physically impossible in a real-world camera, but can be used to exaggerate the effect.
 
 
 .. list-table::
@@ -122,24 +91,13 @@ A value greater than 1 implies a very 'slow' camera shutter.
           :width: 320px
 
 
-Better results than those shown can be obtained by setting 11 or 16 samples rather than 8,
+Better results than those shown can be obtained by using higher samples than 8,
 but, of course, since as many *separate* renders as samples are needed,
 a Motion Blur render takes that many times more time than a non-Motion Blur one.
 
 
 Hints
-*****
+=====
 
-If Motion Blur is active, even if nothing is moving in the scene,
-Blender actually 'jitters' the camera a little between an 'intermediate' frame and the next.
-This implies that, even if Anti-Aliasing is off, the resulting images have nice Anti-Aliasing.
-MBLUR-obtained Anti-Aliasing is comparable to Anti-Aliasing of the same level,
-but is generally slower.
-
-This is interesting since,
-for very complex scenes where a level 16 Anti-Aliasing does not give satisfactory results,
-better results can be obtained using *both* Anti-Aliasing and MBlur.
-This way you have as many samples per frame as you have 'intermediate' frames,
-effectively giving oversampling at levels 25, 64, 121, 256 if 5,8,11,16 samples are chosen,
-respectively.
-
+Sampled Motion Blur can be used as an additional form of :doc:`Anti-Aliasing </render/internal/antialiasing>`,
+since aliasing artifacts are computed differently for each sample and averaged together at the end.
