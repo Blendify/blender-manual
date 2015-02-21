@@ -73,7 +73,7 @@ this may be replaced with a single plane, oriented in the same direction as the 
 
 
 Mapping is the process of applying a texture to the low-poly mesh.
-Consult the :doc:`Textures Mapping section</textures/mapping>`
+Consult the :doc:`Textures Mapping section</render/blender_render/textures/mapping>`
 for more information on applying a texture to a mesh's material.Special considerations for Bump and Normal Maps is:
 
 - When using a Bump map, map the texture to *Normal* and enable *No RGB*.
