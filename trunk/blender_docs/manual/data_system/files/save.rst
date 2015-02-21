@@ -55,7 +55,8 @@ The save options appear at the bottom of the sidebar.
 Compress File
    When enabled, the saved file will be smaller, but take longer to save and load.      
 Remap Relative
-   This option remaps relative paths (such as linked libraries and images) when saving a file in a new location.
+   This option remaps :doc:`relative paths </data_system/files/relative_paths>`
+   (such as linked libraries and images) when saving a file in a new location.
 Save Copy
    This option saves a copy of the actual working state, but does not make the saved file active.
 Legacy Mesh Format
