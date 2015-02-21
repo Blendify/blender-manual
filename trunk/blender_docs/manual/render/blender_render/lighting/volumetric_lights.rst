@@ -53,6 +53,6 @@ See also
 ********
 
 - :doc:`Mist </render/blender_render/world/mist>`
-- :doc:`Smoke </physics/smoke>`
+- :doc:`Smoke </physics/smoke/index>`
 - :doc:`Volumetric Materials </render/blender_render/materials/special_effects/volume>`
 

@@ -5,7 +5,7 @@ Particle Mode
 
 Using *Particle Mode* you can edit the key-points (key-frames)
 and paths of *Baked* :doc:`Hair </physics/particles/hair>`, :doc:`Particle
-</physics/particles>`, :doc:`Cloth </physics/cloth>`, and :doc:`Soft Body </physics/soft_body>` simulations.
+</physics/particles>`, :doc:`Cloth </physics/cloth>`, and :doc:`Soft Body </physics/soft_body/index>` simulations.
 (You can also edit and style hair before baking).
 
 Since working in particle mode is pretty easy and very similar to working with vertices in the

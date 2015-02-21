@@ -3,9 +3,9 @@
       (also some vid) and move the how-to-activate explanation in a new page}} .
 
 
-*************
-Dynamic Paint
-*************
+************
+Introduction
+************
 
 Dynamic paint is a new modifier and physics system that can turn objects into paint canvases
 and brushes, creating vertex colors, image sequences or displacement.

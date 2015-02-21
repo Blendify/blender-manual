@@ -23,7 +23,7 @@ Styling
 =======
 
 The next step is to style the hair.
-You can change the look of base hairs by changing the :doc:`Physics Settings </physics/particles/physics>`.
+You can change the look of base hairs by changing the :doc:`Physics Settings </physics/particles/physics/index>`.
 
 A more advanced way of changing the hair appearance is to use :doc:`Children </physics/particles/children>`.
 This adds child hairs to the original ones, and has settings for giving them different types of shapes.
@@ -36,7 +36,7 @@ Animating
 =========
 
 Hair can now be made dynamic using the cloth solver. This is covered in the
-:doc:`Hair Dynamics </physics/particles/hair/dynamics>` page.
+:doc:`Hair Dynamics </physics/particles/hair_dynamics>` page.
 
 
 Rendering
@@ -52,7 +52,7 @@ which is useful for thicker strands, or things like grass, or feathers, which ma
 
 
 Options
-*******
+=======
 
 .. figure:: /images/Blender3D_ParticleSystem_HairSettings-2.5.jpg
 
@@ -66,7 +66,7 @@ Advanced
 
 
 Emission
-========
+--------
 
 Amount
    Set the amount of hair strands. Use as little particles as possible,
@@ -78,13 +78,13 @@ Amount
 
 
 Hair Dynamics
-=============
+-------------
 
-Settings for adding movement to hair see :doc:`Hair Dynamics </physics/particles/hair/dynamics>`.
+Settings for adding movement to hair see :doc:`Hair Dynamics </physics/particles/hair_dynamics>`.
 
 
 Display
-=======
+-------
 
 Rendered
    Draw hair as curves.
@@ -105,20 +105,20 @@ Steps
 
 
 Children
-========
+--------
 
 See :doc:`Children </physics/particles/children>`.
 
 
 Render
-======
+------
 
 Hair can be rendered as a Path, Object, or Group.
 See :doc:`Particle Visualization </physics/particles/visualization>` for descriptions.
 
 
 Usage
-*****
+=====
 
 .. figure:: /images/Blender3D_FurWithParticles-Finished-2.48a.jpg
    :width: 400px

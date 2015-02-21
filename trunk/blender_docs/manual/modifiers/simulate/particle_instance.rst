@@ -242,7 +242,7 @@ Random
 See Also
 ========
 
-- :doc:`Particles </physics/particles>`
+- :doc:`Particles </physics/particles/index>`
 - :term:`Particle Terminology`
 
 

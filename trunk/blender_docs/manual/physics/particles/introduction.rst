@@ -1,7 +1,7 @@
 
-*********
-Particles
-*********
+************
+Introduction
+************
 
 Particles are lots of items emitted from mesh objects, typically in the thousands.
 Each particle can be a point of light or a mesh, and be joined or dynamic.
@@ -53,7 +53,7 @@ The size of your memory and your patience are your practical boundaries.
 
 
 Workflow
-********
+========
 
 The process for working with standard particles is:
 
@@ -69,7 +69,7 @@ The process for working with standard particles is:
 
 
 Creating a Particle System
-**************************
+==========================
 
 .. figure:: /images/Blender3D_ParticleSystem_CreateNew-2.5.jpg
 
@@ -88,7 +88,7 @@ even when using the same settings.
 
 
 Types of Particle systems
-=========================
+-------------------------
 
 .. figure:: /images/Blender3D_ParticleSystem_SelectType-2.5.jpg
 
@@ -115,7 +115,7 @@ type. For example, in *Image 3* they are shown for only system type *Emitter*.
 
 
 Common Options
-==============
+--------------
 
 Each system has the same basic sets of controls,
 but options within those sets vary based on the system employed. These sets of controls are:
@@ -125,11 +125,11 @@ but options within those sets vary based on the system employed. These sets of c
 :doc:`Cache </physics/particles/cache_and_bake>`
    In order to increase realtime response and avoid unnecessary recalculation of particles,
    the particle data can be cached in memory or stored on disk.
-:doc:`Velocity </physics/particles/physics>`
+:doc:`Velocity </physics/particles/physics/index>`
    Initial speed of particles.
-:doc:`Rotation </physics/particles/physics>`
+:doc:`Rotation </physics/particles/physics/index>`
    Rotational behavior of particles.
-:doc:`Physics </physics/particles/physics>`
+:doc:`Physics </physics/particles/physics/index>`
    How the movement of the particles behaves.
 :doc:`Render </physics/particles/visualization>`
    Rendering options.
@@ -137,16 +137,16 @@ but options within those sets vary based on the system employed. These sets of c
    Realtime display in the 3D View.
 :doc:`Children </physics/particles/children>`
    Control the creation of additional child particles.
-:doc:`Field Weights </physics/particles/physics>`
+:doc:`Field Weights </physics/particles/physics/index>`
    Factors for external forces.
-:doc:`Force Field Settings </physics/particles/physics>`
+:doc:`Force Field Settings </physics/particles/physics/index>`
    Makes particles force fields.
 :doc:`Vertex Groups </physics/particles/vertexgroups>`
    Influencing various settings with vertex groups.
 
 
 Links
-*****
+=====
 
 - `Tutorials <http://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Particle_Systems>`__
 - `Physics Caching and Baking

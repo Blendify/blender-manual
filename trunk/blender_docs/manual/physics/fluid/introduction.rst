@@ -1,7 +1,7 @@
 
-****************
-Fluid Simulation
-****************
+************
+Introduction
+************
 
 .. admonition:: Reference
    :class: refbox

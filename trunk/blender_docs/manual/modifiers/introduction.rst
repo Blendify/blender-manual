@@ -139,19 +139,19 @@ the attributes of these modifiers are accessible in separate panels.
    It is inserted in the modifier stack when you designate a mesh as Cloth.
 :doc:`Collision </physics/collision>`
    Simulates a collision between objects.
-:doc:`Dynamic Paint </physics/dynamic_paint>`
+:doc:`Dynamic Paint </physics/dynamic_paint/index>`
    Makes an object or a particle system paint a material onto another object.
 :doc:`Explode </modifiers/simulate/explode>`
    Blows up your mesh using a particle system.
-:doc:`Fluid </physics/fluid>`
+:doc:`Fluid </physics/fluid/index>`
    The object is part of a fluid simulation... The modifier added when you designate a mesh as Fluid.
 :doc:`Particle Instance </modifiers/simulate/particle_instance>`
    Makes an object act similar to a particle but using the mesh shape instead.
-:doc:`Particle System </physics/particles>`
+:doc:`Particle System </physics/particles/index>`
    Represents a particle system in the stack, so it is inserted when you add a particle system to the object.
-:doc:`Smoke </physics/smoke>`
+:doc:`Smoke </physics/smoke/index>`
    Simulates realistic smoke.
-:doc:`Soft Body </physics/soft_body>`
+:doc:`Soft Body </physics/soft_body/index>`
    The object is soft, elastic... Modifier added when you designate a mesh as Softbody.
 :doc:`Ocean </modifiers/simulate/ocean>`
    Quickly creates a realistic, animated ocean.
