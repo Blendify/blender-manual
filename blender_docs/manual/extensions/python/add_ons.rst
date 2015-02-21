@@ -1,92 +1,84 @@
-
-..    TODO/Review: {{review|partial=X|text=need to be updated to last change}} .
-
+.. TODO There is more addon related text in extensions/introduction.rst that should be merged in when this section is
+..      restructured
 
 *******
 Add-ons
 *******
 
-*Add-on* is the general term for any optional script that extends Blender's functionality.
+*Add-on* is the general term for a script that extends Blender's functionality.
 They are found in the *Add-ons* tab of the *User Preferences* window.
-This tab allows to install, enable and disable Add-ons.
-Blender comes with some useful Add-ons already, but you can also add your own,
-or any interesting ones you find on the web.
-The `Scripts Catalog <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts>`__ provides
-an index of Add-ons that are included with Blender as well as listing a number of external Add-ons.
+This tab allows to search, install, enable and disable Add-ons.
 
+
+Searching
+=========
+
+Blender comes with some useful Add-ons already, ready to be enabled, but you can also add your own,
+or any interesting ones you find on the web.
 
 .. figure:: /images/Userpref_addons_en_oct20_2013.jpg
    :width: 640px
 
+   Add-ons tab in the User Preferences
 
-Installation of an Add-on
-=========================
+.. TODO - add here explanation on official/contrib/ testing and on search and filter usability with Shift+click
 
-For a script to show up in the Add-ons tab it will first have to be installed. For this you
-can use the *Install Add-on* button in the header of the Add-ons window.
-Simply click the button and locate the script you wish to install. Once installed,
-the script will show up in the panel.
+The `Scripts Catalog <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts>`__ provides
+an index of Add-ons that are included with Blender as well as listing a number of external Add-ons.
 
-Alternatively you can manually install an Add-on.
-An Add-on is considered installed when it is located in the ``..
-/scripts/addons`` folder (where .. is the path to your Blender configuration folder).
-Simply moving the Add-on into that folder is enough.
-
-Add-ons can be python scripts ``.py`` or ``.zip`` files (containing ``.py`` scripts).
-
-
-File locations
-==============
-
-- Linux -
-  ``/home/$user/.config/blender/$version/scripts/addons``
-- Windows XP -
-  ``C:\Documents and Settings\%username%\Application Data\Blender Foundation\Blender\2.6x\scripts\addons``
-- Windows 7 -
-  ``C:\Users\%username%\AppData\Roaming\Blender Foundation\Blender\2.6x\scripts\addons``
-
-Note that the ``AppData`` folder in Windows 7 and the ``.
-config`` folder in Linux is hidden. The location may also be different depending on your
-choices for setting up your operating system and Blender.
-
-You can also create a personnal folder containing new add-ons and configure your files path in
-the *File* panel of the *User Preferences*.
-To create a personnal script folder:
-
-- Create an empty folder (i.e. 'script_addon_2-6x')
-- Add one folder named 'addons'. It has to named like this for Blender to recognize it.
-- Put your new add-ons in this 'addons' folder.
-- open the *File* panel of the *User Preferences*.
-- Fill the *Scripts* entry with the path to your script folder (i.e. 'script_addon_2-6x').
-
-For information on the location of blender directories
-see: :doc:`Configuration & Data Paths </getting_started/installing_blender/directorylayout>`
 
 
 Enabling and Disabling
 ======================
 
+Enable and disable and add-on by checking or unchecking the box on the right of the add-on you chose,
+as shown on the figure.
+
 .. figure:: /images/Manual-Extensions-Python-Addons-EnabledAddOn.jpg
 
    Enabling an Add-on
 
-
-Once an Add-on has been installed, it has to be enabled before it can be used. Simply place a
-check mark on the *Enable Add-on* box of the Add-on you wish to activate and you're
-done. The extra functionality of the Add-on is now integrated into Blender and can be used.
-
-To disable the functionality again, uncheck the box.
-To get more information on a certain Add-on you can press the arrow at the left
-of the entry and any additional information that is available will be shown.
+The add-on functionality should be immediately available.
 If the Add-on does not activate when enabled,
 check the :doc:`Console window </getting_started/basics/interface/window_system/console_window>`
-for any errors that may have occurred when loading.
+for any errors that may have occurred.
+
+
+You can click the arrow at the left of the add-on box to see more information, such as
+where it is located, a description and a link to the documentation.
+Here you can also find a button to report a bug specific of this add-on.
 
 
 .. tip:: Saving Add-on Preferences
 
-   If you want an Add-on to be enabled everytime you start Blender,
-   you will need to save your :doc:`User Preferences </preferences/index>`.
+   If you want an Add-on to be enabled every time you start Blender, you will need to *Save User Settings*.
+
+
+Installation of a 3rd party Add-on
+==================================
+
+For add-ons that you found on the web or your own to show on the list, you have to install them first
+by clicking *Install from File...* and providing a .zip or .py file.
+
+Alternatively you can manually install an Add-on, which is useful when developing your own add-ons.
+Move or link the files to ``../scripts/addons`` folder (where .. is the path to your Blender configuration folder).
+
+
+File locations
+==============
+
+For information on the location of blender directories
+see: :doc:`Configuration & Data Paths </getting_started/installing_blender/directorylayout>`
+
+You can also create a personal folder containing new add-ons and configure your files' path in
+the *File* panel of the *User Preferences*.
+To create a personal script folder:
+
+- Create an empty folder (i.e. 'script_addon_2-7x')
+- Add one folder named 'addons'. It has to named like this for Blender to recognize it.
+- Put your new add-ons in this 'addons' folder.
+- open the *File* panel of the *User Preferences*.
+- Fill the *Scripts* entry with the path to your script folder (i.e. 'script_addon_2-7x').
 
 
 Development guidelines
