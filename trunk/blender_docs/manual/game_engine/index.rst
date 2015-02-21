@@ -16,4 +16,3 @@
    python_api/index.rst
    blender_player.rst
    licensing.rst
-   android.rst
