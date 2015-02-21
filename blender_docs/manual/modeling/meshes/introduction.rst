@@ -136,8 +136,6 @@ Other useful tools are found in the *Properties Editor* under the
 *Object* 's and *Object Data* 's *Context buttons*,
 including display options and *Vertex groups*.
 
-For further information on panels see the :doc:`Reference panels </ce/panels>` section.
-
 
 Mesh Display
 ------------
