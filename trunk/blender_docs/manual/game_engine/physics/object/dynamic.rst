@@ -17,7 +17,7 @@ the Dynamic type is represented by the titular jumping beans.
 Though we want these characters to recoil back when they hit a Boulder or each other,
 having them torque in response to these collisions would result in their being impossible to control.
 
-For more documentation, see the :doc:`Top BGE Physics page </game_engine/physics>`.
+For more documentation, see the :doc:`Top BGE Physics page </game_engine/physics/index>`.
 
 
 Options

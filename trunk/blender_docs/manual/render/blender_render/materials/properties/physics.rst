@@ -20,7 +20,7 @@ This panel contains physical properties that control how the object surfaces tha
 material are rendered in real time by the Blender Game Engine.
 
 Physics settings are visible when using the game engine for rendering.
-Game physics usage is described :doc:`Here </game_engine/physics>`
+Game physics usage is described :doc:`Here </game_engine/physics/index>`
 
 Friction
    Coulomb friction coefficient when inside the physics distance area.

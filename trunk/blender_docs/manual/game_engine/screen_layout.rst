@@ -88,5 +88,5 @@ The Property panel of the screen is selected as usual from the main Information 
 However note that several sections of the Property panel are changed when the render engine
 (2) is changed from Blender Render to Blender Game.
 
-See following sections for details of the content of :doc:`Physics </game_engine/physics>` Properties panels.
+See following sections for details of the content of :doc:`Physics </game_engine/physics/index>` Properties panels.
 
