@@ -44,17 +44,6 @@ This can be achieved through lighting settings, or better, through
 :doc:`Color Management settings </render/post_process/cm_and_exposure>`
 
 
-:doc:`Depth of Field </render/camera/depth_of_field>`
-=====================================================
-
-Real cameras have a specific focal length.
-This is the distance from the lens where everything is in focus.
-Certain factors determine how much objects out of this range, or depth of field,
-are out of focus. By default, when rendering, all objects appear in perfect focus.
-Depth of Field (DOF) can create an unusual or appropriate sense of scale,
-depending how it is used.
-
-
 :doc:`Motion Blur </render/blender_render/motion_blur>`
 =====================================================
 

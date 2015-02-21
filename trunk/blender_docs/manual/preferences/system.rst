@@ -274,14 +274,11 @@ International Fonts
    enabling this check box will enable Blender to support International Fonts.
    International fonts can be loaded for the User Interface and used instead of Blender default bundled font.
 
-
    This will also enable options for translating the User Interface
    through a list of languages and Tips for Blender tools which appears
    whenever the user hovers a mouse over Blender tools.
 
-
-   Blender supports I18N for internationalization, for more information,
-   see: :doc:`Internationalization </preferences/internationalization>` page.
+   Blender supports I18N for internationalization.
    For more Information on how to load International fonts,
    see: :doc:`Editing Texts </modeling/texts/editing>` page.
 

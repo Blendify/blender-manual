@@ -314,9 +314,9 @@ control the twisting of the extruded "bevel" along the curve!
 Examples
 ========
 
-TODO: add some "simple" extrusion examples.
+.. TODO: add some "simple" extrusion examples.
 
-TODO: add some "bevel" extrusion with *Radius* examples.
+.. TODO: add some "bevel" extrusion with *Radius* examples.
 
 Let's taper a simple curve circle extruded object using a taper curve. Add a curve,
 then exit *Edit*
@@ -327,9 +327,8 @@ We now have a pipe.
 Add a third curve while in *Object* mode and call it ``TaperCurve``.
 Adjust the left control-point by raising it up about 5 units.
 
-Now return to the *Editing* :doc:`context </getting_started/basics/interface/contexts>`,
-and edit the first curve's *TaperOb* field in
-:doc:`Curve and Surface </ce/panels/editing/curves/curve_and_surface>` panel to reference the new taper curve
+Now return to the *Editing* context,
+and edit the first curve's *TaperOb* field in the Curve and Surface panel to reference the new taper curve
 which we called *TaperCurve*.
 When you hit enter the taper curve is applied immediately,
 with the results shown in (*Taper extruded curve*).

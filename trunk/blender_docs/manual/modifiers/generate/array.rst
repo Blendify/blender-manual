@@ -229,10 +229,8 @@ Tutorials
 =========
 
 - `Neal Hirsig's Array Modifier Screencast on Vimeo <http://vimeo.com/46061877>`__
-- :doc:`Creating A Double Helix With Modifiers </ls/modifiers/a_double_helix>`
+- `Creating A Double Helix With Modifiers <http://wiki.blender.org/index.php/Doc:2.4/Tutorials/Modifiers/A_Double_Helix>`__
 
 The 'Double Helix' tutorial explains the Array modifier.
 It is for an old Blender Version (2.44) but except for the keyboard
 shortcuts it is still valid.
-
-.. TODO broken Double Helix link
