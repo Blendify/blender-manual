@@ -8,7 +8,7 @@ RGB node
 
    | Panel:    :doc:`Node Editor </render/blender_render/materials/nodes/editor>` -->
                :doc:`Node Composition </composite_nodes/index>`
-   | Menu:     :kbd:`Shift-A` --> :doc:`Input </ce/windows/nodes/composite#inputs>` --> RGB
+   | Menu:     :kbd:`Shift-A` --> :doc:`Input </composite_nodes/types/input/index>` --> RGB
 
 
 The RGB node has no inputs.
