@@ -73,7 +73,7 @@ Save & Load
 ===========
 
 Relative Paths
-   By default, external files use a relative path. This works only when a Blender file is saved.
+   By default, external files use a :doc:`relative path </data_system/files/relative_paths>`. 
 Compress File
    Compress ``.blend`` file when saving.
 Load UI
