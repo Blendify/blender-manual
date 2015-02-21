@@ -15,7 +15,7 @@ support the deformation, as well as tweaking the options.
 In the example game demo, :doc:`Frijoles </ls/frijoles>`,
 the Soft Body type is represented by the decorative checkered flag at the top of the level.
 
-For more documentation, see the :doc:`Top BGE Physics page </game_engine/physics>`.
+For more documentation, see the :doc:`Top BGE Physics page </game_engine/physics/index>`.
 
 
 Options

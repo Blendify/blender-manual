@@ -16,7 +16,7 @@ In the example game demo, :doc:`Frijoles </ls/frijoles>`,
 the Rigid Body type is represented by the Boulders that spawn from the top of the level.
 Notice how they tumble and roll in response to the collisions with the Arena.
 
-For more documentation, see the :doc:`Top BGE Physics page </game_engine/physics>`.
+For more documentation, see the :doc:`Top BGE Physics page </game_engine/physics/index>`.
 
 
 Options
