@@ -1,9 +1,9 @@
 ..    TODO/Review: {{review}} .
 
 
-****************
-Smoke Simulation
-****************
+************
+Introduction
+************
 
 Development notes
 =================
@@ -21,7 +21,7 @@ Inner working
 The simulator uses a volumetric fluid-based model, with the end results output as voxel grids.
 This voxel data is visualized interactively in Blender's 3D view using custom OpenGL shading,
 and can be rendered using the Voxel Data texture.
-Blender's **smoke simulation** wraps Voxels around existing :doc:`Particles </physics/particles>`.
+Blender's **smoke simulation** wraps Voxels around existing :doc:`Particles </physics/particles/index>`.
 It requires a particle-emitting object and a 'domain' object within which smoke is rendered.
 
 

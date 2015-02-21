@@ -1,7 +1,7 @@
 
-***********
-Soft Bodies
-***********
+************
+Introduction
+************
 
 .. figure:: /images/Blender3D_HiddenTextSoftbody.jpg
    :width: 600px

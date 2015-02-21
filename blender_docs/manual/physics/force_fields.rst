@@ -6,7 +6,7 @@ Force Fields
 ************
 
 Force Fields offer a way to add extra movement to dynamic systems.
-:doc:`Particles </physics/particles>`, :doc:`Soft Bodies </physics/soft_body>`,
+:doc:`Particles </physics/particles/index>`, :doc:`Soft Bodies </physics/soft_body/index>`,
 `Rigid Bodies <http://wiki.blender.org/index.php/User:Sergof/GSoC2012/Documentation>`__ and
 :doc:`Cloth objects </physics/cloth>` can all be affected by forces fields.
 Force Fields automatically affect everything.
@@ -17,11 +17,11 @@ simply turn down the influence of that type of Force Field in its Field Weights 
 - All types of objects and particles can generate fields,
   but only curve object can bear *Curve Guides* fields.
 - Force Fields can also be generated from particles.
-  See :doc:`Particle Physics </physics/particles/physics>`
+  See :doc:`Particle Physics </physics/particles/physics/index>`
 - The objects need to share at least one common layer to have effect.
 
 You may limit the effect on particles to a group of objects
-(see the :doc:`Particle Physics </physics/particles/physics>` page).
+(see the :doc:`Particle Physics </physics/particles/physics/index>` page).
 
 
 Creating a Force Field
@@ -131,7 +131,7 @@ The *Force* field is the simplest of the fields. It gives a constant force towar
 Newtonian particles are attracted to a field with negative strength,
 and are blown away from a field with positive strength.
 
-For :doc:`Boids </physics/particles/physics>` a field with positive strength can be used as a *Goal*,
+For :doc:`Boids </physics/particles/physics/index>` a field with positive strength can be used as a *Goal*,
 a field with negative strength can be used as *Predator*.
 Whether *Boids* seek or fly goals/predators depends on the *Physics* settings of the Boids.
 

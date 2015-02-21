@@ -49,7 +49,7 @@ show up. The order of these buttons follows a hierarchy which is detailed below:
   Information about a surface (color, specularity, transparency, etc).
 - |Btn_Texture-25| :doc:`Textures </render/blender_render/textures/index>`:
   Used by materials to provide additional details (e.g. color, transparency, fake 3-dimensional depth).
-- |Btn_Particles-25| :doc:`Particles </physics/particles>`:
+- |Btn_Particles-25| :doc:`Particles </physics/particles/index>`:
   Add variable amounts of (usually small) objects such as lights or mesh Objects
   that can be manipulated by Force Fields and other settings.
 - |Btn_Physics-25| :doc:`Physics </physics/index>`:

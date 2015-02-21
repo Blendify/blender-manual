@@ -1,8 +1,8 @@
 .. _rigid_body-index:
 
-#####################
-  Rigid Body Physics
-#####################
+#############
+  Rigid Body
+#############
 
 .. toctree::
 

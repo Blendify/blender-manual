@@ -1,7 +1,7 @@
 
-**********************************
-Simulation performance adjustments
-**********************************
+***********
+Performance
+***********
 
 OpenMP (Mac OSX)
 ================

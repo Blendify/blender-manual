@@ -23,7 +23,7 @@ Using object layers, you can:
   reduce virtual-world clutter, and help improve your workflow.
 - Control :doc:`which lights illuminate an object </render/blender_render/lighting/lights/what_light_affects>`,
   by making a light illuminate only the objects on its own layer(s).
-- Control which forces affect which :doc:`particle systems </physics/particles>`,
+- Control which forces affect which :doc:`particle systems </physics/particles/index>`,
   since particles are only affected by forces and effects on the same layer.
 - Control which layers are rendered (and hence, which objects),
   and which properties/channels are made available for compositing by using
