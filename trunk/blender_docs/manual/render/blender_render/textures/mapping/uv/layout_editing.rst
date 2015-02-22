@@ -163,7 +163,8 @@ for full reference.
 Snapping
 ========
 
-Snapping in UV is also similar to :doc:`Snapping in 3D </getting_started/basics/transformations/transform_control/snap>`,
+Snapping in UV is also similar to
+:doc:`Snapping in 3D </getting_started/basics/transformations/transform_control/snap>`,
 but only snapping to UVs works, however,
 the *Snap to Pixels* option in the *UVs Menu* will force the UVs to snap to the pixels of an image if loaded.
 

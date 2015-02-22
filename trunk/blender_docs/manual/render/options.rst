@@ -45,7 +45,7 @@ This can be achieved through lighting settings, or better, through
 
 
 :doc:`Motion Blur </render/blender_render/motion_blur>`
-=====================================================
+=======================================================
 
 Cameras have a certain shutter speed, or the length of time the film is exposed to the image.
 Things that are in motion while the picture is taken will have some degree of blurring.
