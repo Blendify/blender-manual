@@ -4,7 +4,7 @@ Displaying and Saving Images
 ****************************
 
 After you have adjusted your render settings,
-in regards to :doc:`Quality </render/options>` and :doc:`Format </render/output>`,
+in regards to :doc:`Quality </render/blender_render/quality>` and :doc:`Format </render/output>`,
 you will need to actually render the image. Rendering still images is fairly simple.
 :doc:`Rendering Animations </render/workflows/animations>` is a bit more complex and is covered in the next sections.
 

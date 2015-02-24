@@ -14,3 +14,6 @@
    layers.rst
    passes.rst
    motion_blur.rst
+   antialiasing.rst
+   quality.rst
+   performance.rst

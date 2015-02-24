@@ -1,12 +1,11 @@
 ..
    This page includes some overly detailed & spesific infomration should be simplified.
-   Also its Blender-Internal spesific.
    - ideasman42
 
 
-************
-Introduction
-************
+**************************
+Performance Considerations
+**************************
 
 Optimizing Render Performance
 =============================
@@ -117,7 +116,7 @@ Render Settings
 
   - Disable unnecessary Render Passes, such as *Z*,
     or only render the pass of interest, such as *Diffuse*.
-- :doc:`Render Panel </render/options>`
+- :doc:`Render Panel </render/blender_render/quality>`
   - Turn off *Shadows*.
   - Turn off *Environment Mapping*.
   - Turn off *Panoramic Rendering*.
