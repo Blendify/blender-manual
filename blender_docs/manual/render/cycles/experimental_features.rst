@@ -17,5 +17,16 @@ Currently considered experimental:
 - OpenCL device
 - Displacement
 - Subdivision
-- CUDA device with compute model < 2.0
-- SSS rendering on the GPU
+  
+
+Experimental GPU Kernel
+=======================
+
+The following features are not usually supported for GPU rendering,
+but will work when using the experimental feature set:
+
+- :ref:`SSS <cycles_shader_sss>` shader
+- Correlated Multi Jitter sampling
+  
+.. warning:: The experimental GPU kernel requires a lot of memory
+             and thus may not work at all on cards without enough ram.
