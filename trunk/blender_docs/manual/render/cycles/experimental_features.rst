@@ -18,3 +18,4 @@ Currently considered experimental:
 - Displacement
 - Subdivision
 - CUDA device with compute model < 2.0
+- SSS rendering on the GPU
