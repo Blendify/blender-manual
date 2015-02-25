@@ -16,17 +16,26 @@ File Paths
 
 Locations for various external files can be set for the following options:
 
-
 Fonts
+   Default location when searching for font files.
 Textures
+   Default location when searching for image textures.
 Render Output
+   Where rendered images/videos are saved.
 Scripts
+   An additional location to search for Python scripts. See `Scripts Path`_ below.
 Sounds
+   Default location when searching for sound files.
 Temp
+   The location where temporary files are stored.
 Render Cache
+   The location where cached render images are stored.
 I18n Branches
+   The path to the ``/branches`` directory of your local svn-translation copy, to allow translating from the UI.
 Image Editor
+   The path to an external program to use for image editing.
 Animation Player
+   The path to an external program to use for playback of rendered animations.
 
 
 .. note:: If these folders do not exist, they will *not* be created automatically.
