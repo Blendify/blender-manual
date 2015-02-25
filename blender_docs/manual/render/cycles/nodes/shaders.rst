@@ -4,10 +4,7 @@
 Shader Nodes
 ************
 
-BSDF
-
-----
-
+.. _cycles_shader_diffuse:
 
 Diffuse
 ^^^^^^^
@@ -38,6 +35,9 @@ BSDF output
      - .. figure:: /images/cycles_manual_materials_oren-nayar.jpg
 
 
+.. _cycles_shader_translucent:
+
+
 Translucent
 ^^^^^^^^^^^
 
@@ -60,6 +60,8 @@ BSDF output
 
    Translucent Shader
 
+
+.. _cycles_shader_glossy:
 
 Glossy
 ^^^^^^
@@ -89,6 +91,8 @@ BSDF output
    * - .. figure:: /images/Manual_cycles_nodes_bsdf_glossyrender.jpg
      - .. figure:: /images/Manual_cycles_nodes_bsdf_glossyroughrender.jpg
 
+
+.. _cycles_shader_anisotropic:
 
 Anisotropic
 ^^^^^^^^^^^
@@ -132,6 +136,8 @@ BSDF output
          Anisotropic rotation on 0.25 (90- )
 
 
+.. _cycles_shader_toon:
+
 Toon
 ^^^^
 
@@ -154,6 +160,8 @@ BSDF output
 
    Toon Shader
 
+
+.. _cycles_shader_transparent:
 
 Transparent
 ^^^^^^^^^^^
@@ -189,6 +197,8 @@ BSDF output
           Transparent Shader (gray)
 
 
+.. _cycles_shader_glass:
+
 Glass
 ^^^^^
 
@@ -222,7 +232,9 @@ BSDF output
      - .. figure:: /images/Manual_cycles_nodes_bsdf_glass.jpg
    * - .. figure:: /images/Manual_cycles_nodes_bsdf_glassrender.jpg
      - .. figure:: /images/Manual_cycles_nodes_bsdf_glassroughrender.jpg
-       
+
+
+.. _cycles_shader_refraction:
 
 Refraction
 ^^^^^^^^^^
@@ -250,6 +262,8 @@ BSDF output
 
    Refraction Shader.
 
+
+.. _cycles_shader_velvet:
 
 Velvet
 ^^^^^^
@@ -279,11 +293,10 @@ BSDF output
    The Velvet Shader
 
 
-BSSRDF
-======
+.. _cycles_shader_sss:
 
 Subsurface Scattering
-^^^^^^^^^^^^^^^^^^^^^
+=====================
 
 Simple subsurface multiple scattering, for materials such as skin, wax, marble,
 milk and others. For these materials,
@@ -330,6 +343,8 @@ BSSRDF output
    A skin-toned SSS shader with color radius: 1.0, 0.8, 0.5.
 
 
+.. _cycles_shader_emission:
+
 Emission
 ========
 
@@ -370,6 +385,8 @@ the real sun for example has strength 384600000000000000000000000W.
 Emission shaders on meshes are also in Watts/m^2.
 
 
+.. _cycles_shader_background:
+
 Background
 ==========
 
@@ -383,6 +400,8 @@ Strength input
 Background output
    Background shader.
 
+
+.. _cycles_shader_holdout:
 
 Holdout
 =======
@@ -398,6 +417,8 @@ Holdout output
 
    The white area is a region with zero Alpha.
 
+
+.. _cycles_shader_ao:
 
 Ambient Occlusion
 =================
@@ -417,6 +438,8 @@ AO output
 
    White AO shader.
 
+
+.. _cycles_shader_mix_add:
 
 Mix and Add
 ===========
