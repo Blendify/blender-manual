@@ -14,32 +14,22 @@ The *File Preferences* tab allows you to configure auto-save preferences and set
 File Paths
 ==========
 
-When you work on an important project, it is wise to configure it.
-Set default paths for the different file types you will be using.
-
-Here is an example of a configuration:
+Locations for various external files can be set for the following options:
 
 
 Fonts
-   ``//fonts/``
 Textures
-   ``//textures/``
-Texture Plugins
-   ``//plugins/texture/``
-Sequence Plugins
-   ``//plugins/sequence/``
 Render Output
-   ``//renders/``
 Scripts
-   ``//scripts/``
 Sounds
-   ``//sounds/``
 Temp
-   ``//tmp/``
+Render Cache
+I18n Branches
+Image Editor
+Animation Player
 
 
-Note that blender wont create your project structure automatically.
-You need to create all directories manually in your file browser.
+.. note:: If these folders do not exist, they will *not* be created automatically.
 
 
 Scripts Path
@@ -67,6 +57,20 @@ the installation directory of Blender:
 - startup
 - templates
   Not all of the folders have to be present.
+
+
+Auto Execution
+==============
+
+Python scripts (including driver expressions) are not executed by default for security reasons.
+
+Auto Run Python Scripts
+   You may choose to ignore these security issues and allow scripts to be executed automatically.
+Excluded Paths
+   Blend files in these folders will *not* automatically run Python scripts.
+   This can be used to define where blend files from untrusted sources are kept.
+
+.. seealso:: :doc:`/extensions/python/security`
 
 
 Save & Load
