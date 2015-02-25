@@ -435,7 +435,7 @@ the Tail and Head fields. See figure 33.
 
    If you alter the Bone Envelope volume of a bone so that you can have it include/exclude
    certain vertices after you have already used Armature Deform With Envelope Weights,
-   by default the newly included/excluded vertices wont be effected by the change. When using
+   by default the newly included/excluded vertices won't be effected by the change. When using
    Armature Deform With Envelope Weights it only calculates which vertices will be affected by
    the Bone Envelope volume at the time of parenting, at which point it creates the required
    named Vertex Groups and assigns vertices to them as required. If you want any vertices to

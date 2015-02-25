@@ -20,7 +20,7 @@ simply run:
 .. note::
    
    Arguments are executed in the order they are given!
-   The following command wont work, since the output and extension is set after blender is told to render:
+   The following command won't work, since the output and extension is set after blender is told to render:
 
    .. code-block:: sh
 
