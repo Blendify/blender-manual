@@ -81,7 +81,7 @@ Specials
 
    Mirror Shape Key
       If your mesh is nice and symmetrical, in *Object* Mode, you can mirror the shape keys on the X axis.
-      This wont work unless the mesh vertices are perfectly symmetrical.
+      This won't work unless the mesh vertices are perfectly symmetrical.
       Use the :menuselection:`Mesh --> Symmetrize` function in *Edit* Mode.
 
    Mirror Shape Key (Topology)

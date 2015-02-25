@@ -64,7 +64,7 @@ Degenerate Dissolve
    | Menu:     :menuselection:`Mesh --> Clean up --> Degenerate Dissolve`
 
 
-This tool collapses / removes geometry which you typically wont want.
+This tool collapses / removes geometry which you typically won't want.
 
 
 - Edges with no length.
