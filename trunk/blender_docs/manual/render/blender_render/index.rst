@@ -1,8 +1,8 @@
 .. _blender-render-index:
 
-#################
-  Blender Render
-#################
+########################
+  Blender Render Engine
+########################
 
 .. toctree::
    :maxdepth: 1
