@@ -69,7 +69,7 @@ Transparency of surfaces will be taken into account, i.e.
 a half-transparent surface will only half occlude.
 
 An alternative method of using Ambient Occlusion on a per-shader basis is to use the
-:doc:`Ambient Occlusion shader </render/cycles/nodes/shaders#ambient_occlusion>`
+:ref:`cycles_shader_ao` shader
 (*non-shader AO node still to be implemented*).
 
 
