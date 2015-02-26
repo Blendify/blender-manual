@@ -84,9 +84,6 @@ Strength
       Darkens the color of the vertices.
 
 
-..    Comment: <!--[[Don't delete this space]]--> .
-
-
 Texture
 =======
 
