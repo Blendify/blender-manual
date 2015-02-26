@@ -32,6 +32,6 @@ Surface
 
 Surface
    The appearance of the environment,
-   usually preceded by a :doc:`Background Shader </render/cycles/nodes/shaders#background>`
+   usually preceded by a :ref:`cycles_shader_background` shader
 Volume
    *Currently under independent development, does nothing*

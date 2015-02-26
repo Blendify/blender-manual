@@ -10,3 +10,4 @@
    displacement.rst
    surface.rst
    volume.rst
+   texture_editing.rst

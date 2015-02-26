@@ -3,21 +3,17 @@
   Cycles Render Engine
 #######################
 
-
-
 .. toctree::
+   :titlesonly:
    :maxdepth: 2
 
    introduction.rst
-   camera.rst
+   settings/index.rst
    materials/index.rst
-   texture_editing.rst
+   nodes/index.rst
    world.rst
    lamps.rst
-   nodes/index.rst
-   light_paths.rst
-   integrator.rst
+   camera.rst
    reducing_noise.rst
-   passes.rst
    experimental_features.rst
    gpu_rendering.rst
