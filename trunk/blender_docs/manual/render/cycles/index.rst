@@ -17,3 +17,4 @@
    reducing_noise.rst
    experimental_features.rst
    gpu_rendering.rst
+   osl.rst

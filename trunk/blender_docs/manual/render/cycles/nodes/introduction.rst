@@ -55,7 +55,7 @@ Nodes for geometric data, texture coordinates,
 layering shaders and non-physically based tricks.
 
 
-:doc:`Open Shading Language </render/cycles/nodes/osl>`
+:doc:`Open Shading Language </render/cycles/osl>`
 =======================================================
 
 Custom nodes can be written using the Open Shading Language.
