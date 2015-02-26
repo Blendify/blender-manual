@@ -74,19 +74,6 @@ To find out more about how to copy or link objects across ``.blend`` files,
 see :doc:`click here </data_system/linked_libraries>`.
 
 
-Proxy Objects
--------------
-
-:doc:`Proxy objects </data_system/linked_libraries>` allow you to make (parts of) linked data local. For example,
-this allows an animator to make a local "copy" of the handler bones of a character,
-without having the actual rig duplicated. This is especially useful for character animation setups,
-where you want the entire character to be loaded from an external library,
-but still permit the animator to work with poses and actions. Another example:
-you can have a modeler working on the shape (mesh)
-of a car and another painter working on the materials for that car. The painter cannot alter the shape of the car,
-but can start working with color schemes for the car.
-Updates made to the shape of the car are applied automatically to the painter's proxy.
-
 
 Pack and Unpack Data
 ====================

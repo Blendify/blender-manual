@@ -217,6 +217,7 @@ Note that:
 So to summarize all this, you should use meshes as shape objects,
 with their center at their lower-Y end, and an overall Y length of **1.0** BU.
 
+.. _armature_layers:
 
 Armature Layers
 ***************
@@ -259,7 +260,7 @@ Only bones in active layers will be visible/editable - but they will always be e
 Protected Layers
 ================
 
-You can lock a given bone layer for all :doc:`proxies </data_system/linked_libraries#proxy_objects>`
+You can lock a given bone layer for all :ref:`proxies <proxy_objects>`
 of your armature, i.e. all bones in this layer won't be editable.
 To do so, in the *Skeleton* panel, :kbd:`Ctrl-LMB` click on the relevant button, the layer lock will be enabled.
 
