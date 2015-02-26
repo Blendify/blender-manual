@@ -62,7 +62,7 @@ while the remainder of the object and its skeleton are edited locally.
 
 :kbd:`Ctrl-Alt-P` makes the active linked object into a local proxy, appending `_proxy` to its name.
 
-Control *Protected Layers* in the source file using using the Skeleton panel of the Armatures tab.
+Set the *Protected Layers* in the source file using using the Skeleton panel of the Armatures tab.
 See :ref:`Armature Layers <armature_layers>`.
 The bones in protected layers will have their position restored from the source file when the referencing file is reloaded.
 
