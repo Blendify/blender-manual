@@ -9,8 +9,8 @@ Output nodes are always preceded by :doc:`Shaders </render/cycles/nodes/shaders>
 except in the case of the :doc:`Displacement </render/cycles/materials/displacement>` of a Material Output.
 
 
-[[Doc:2.6/Manual/Render/Cycles/Materials|Material Output]]
-==========================================================
+:doc:`Material Output </render/cycles/materials/index>`
+=======================================================
 
 Surface
    The surface output of the material
@@ -20,15 +20,15 @@ Displacement
    Used to create bump mapping or actual subdivided :doc:`Displacement </render/cycles/materials/displacement>`
 
 
-[[Doc:2.6/Manual/Render/Cycles/Lamps|Lamp Output]]
-==================================================
+:doc:`Lamp Output </render/cycles/lamps>`
+=========================================
 
 Surface
    Not an actual surface, but the final output of a :doc:`Lamp </render/cycles/lamps>` Object
 
 
-[[Doc:2.6/Manual/Render/Cycles/World|World Output]]
-===================================================
+:doc:`World Output </render/cycles/world>`
+==========================================
 
 Surface
    The appearance of the environment,

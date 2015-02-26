@@ -50,8 +50,8 @@ All these steps are explained in details below.
 done! Please check+edit `Raindrops <http://wiki.blender.org/index.php/User:Raindrops>`__ 19:32, 31 May 2013 (CEST)
 
 
-[[Doc:2.6/Manual/Rigging/Armatures|Armatures]]
-==============================================
+:doc:`Armatures </rigging/armatures>`
+=====================================
 
 Armatures are like the real-life skeletons;
 and provide the structure for a mesh for the purpose of posing or animation.
@@ -67,8 +67,8 @@ and provide the structure for a mesh for the purpose of posing or animation.
 :doc:`Selecting </rigging/armatures/selecting>`
    Select only the section of your armature that matters to you.
 
-[[Doc:2.6/Manual/Rigging/Armatures/Editing|Editing]]
-----------------------------------------------------
+:doc:`Editing </rigging/armatures/editing>`
+-------------------------------------------
 
 :doc:`Bones </rigging/armatures/editing/bones>`
    Learn how to practically edit bones in Blender and see what that causes.
@@ -78,8 +78,8 @@ and provide the structure for a mesh for the purpose of posing or animation.
    Templates offer a great way to quickly reuse already created rigs for your own models.
 
 
-[[Doc:2.6/Manual/Rigging/Skinning|Skinning]]
-============================================
+:doc:`Skinning </rigging/skinning>`
+===================================
 
 This section shows how to "flesh out" your character from a given armature.
 
@@ -103,8 +103,8 @@ around an armature.
    This method also avoids laborious programming of each movement.
 
 
-[[Doc:2.6/Manual/Rigging/Posing|Posing]]
-========================================
+:doc:`Posing </rigging/posing>`
+===============================
 
 Posing means shaping and arranging the objects in your scene in a particular way to create an
 interesting composition. For example,
