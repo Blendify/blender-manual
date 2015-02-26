@@ -7,8 +7,9 @@ Open Shading Language
 Users can now create their own nodes using
 `Open Shading Language <http://github.com/imageworks/OpenShadingLanguage>`__ (OSL).
 Note that these nodes will only work for CPU rendering;
-there is no support for running OSL code on the GPU. **To enable it,
-select Open Shading Language as the shading system** in the render settings.
+there is no support for running OSL code on the GPU.
+
+To enable it, select Open Shading Language as the shading system in the render settings.
 
 .. note::
 

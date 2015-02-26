@@ -13,5 +13,4 @@
    textures.rst
    vector.rst
    convertor.rst
-   osl.rst
    more.rst

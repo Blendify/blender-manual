@@ -48,7 +48,7 @@ Limitations
 - The maximum amount of individual textures is limited to 95 byte-image textures (PNG, JPEG, ..)
   and 5 float-image textures (OpenEXR, 16 bit TIFF, ..) on GTX 4xx/5xx cards,
   and 145 byte-image textures and 5 float-image textures on GTX6xx cards and above. 
-- :doc:`Open shading language </render/cycles/nodes/osl>` (OSL) is only supported by CPU.
+- :doc:`Open shading language </render/cycles/osl>` (OSL) is only supported by CPU.
 - Smoke/Fire rendering is not supported on GPU.
 - The :ref:`SSS shader <cycles_shader_sss>` is only supported
   in the :doc:`Experimental Feature Set </render/cycles/experimental_features>`.
