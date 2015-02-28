@@ -37,7 +37,7 @@ In Blender, the elements under your control which affect lighting are:
   :doc:`material </render/blender_render/materials/index>` of the object.
 - The use of :doc:`Indirect lighting </render/blender_render/lighting/indirect_lighting>`,
   where the color of one object radiates onto another.
-- The :doc:`lamps </render/blender_render/lighting/lamps>` in your scene.
+- The :doc:`lamps </render/blender_render/lighting/lamps/introduction>` in your scene.
 
 The physics of light bouncing around in the real world is simulated by Ambient Occlusion (a world setting),
 buffer shadows (which approximate shadows being cast by objects), ray tracing
