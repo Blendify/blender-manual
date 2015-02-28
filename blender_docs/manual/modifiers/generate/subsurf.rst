@@ -110,7 +110,7 @@ This lets you grab the vertices as they lie in their new smoothed locations, rat
 
 With the edit cage off, some vertices are buried under the subsurfed mesh. With dense vertex configurations,
 you might even have to temporarily disable the modifier or view
-:doc:`wireframe </getting_started/basics/navigating/3d_view_options>` shading so that you can see these vertices.
+:doc:`wireframe </editors/3dview/shading>` shading so that you can see these vertices.
 
 With the edit cage on, you do not have this problem. It does, however,
 have its own disadvantage---it can look *too* nice, hiding irregularities.
