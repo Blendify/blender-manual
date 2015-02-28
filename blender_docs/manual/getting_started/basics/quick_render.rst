@@ -48,6 +48,7 @@ options:
 
 To abort or quit the render, press :kbd:`Esc`.
 
+.. _opengl_render:
 
 Rendering an image using ''OpenGL Render''
 ==========================================

@@ -1,4 +1,3 @@
-..    TODO/Review: {{review}} .
 
 .. _3dview-editor:
 
@@ -6,96 +5,104 @@
 Introduction
 ************
 
-This is work in progres!
+The 3D View is used to interact with the 3D scene for a variety of purposes, such as modeling, animation,
+texture painting, etc.
 
-3D Cursor
-   .. figure:: /images/Icon-library_3D-Window_3D-cursor.jpg
+.. TODO expand, more general info
 
-   Can have multiple functions.
-   For example, it represents where new objects appear when they are first created,
-   or it can represent where the center of a rotation will be.
+Navigating in the 3D space is done with the use of both mouse movement and keyboard shortcuts.
 
-3D Transform Manipulator
-   .. figure:: /images/Icon-library_3D-Window_3D-transform-manipulator.jpg
-      :width: 50px
+Orbit (:kbd:`MMB`)
+   Rotate the view around the point of interest.
+Pan (:kbd:`Shift-MMB`)
+   Move the view up, down, left and right
+Zoom (:kbd:`Ctrl-MMB`/:kbd:`Scroll`)
+   Move the camera forwards and backwards
 
-   Is a visual aid in transforming objects (grab/move, rotate and scale).
-   Objects can also be transformed using the keyboard shortcuts: (:kbd:`G` / :kbd:`R` / :kbd:`S`);
-   :kbd:`Ctrl-Spacebar` will toggle the manipulator visibility
-
-Cube Mesh
-   By default, a new installation of Blender will always start with a Cube *Mesh*
-   sitting in the center of Global 3D space (in the picture above, it has been moved).
-   After a while, you will most likely want to change the "Default" settings;
-   this is done by :doc:`configuring Blender </preferences/index>` as you would want it
-   on startup and then saving it as the "Default" using :kbd:`Ctrl-U` (*Save Default Settings*).
-
-Light (of type Lamp)
-   .. figure:: /images/Icon-library_3D-Window_light-lamp.jpg
-
-   By default, a new installation of Blender will always start with a *Light*
-   source positioned somewhere close to the center of Global 3D space.
+:doc:`Read more about navigation </getting_started/basics/navigating/introduction>`.
 
 
-Camera
-   .. figure:: /images/Icon-library_3D-Window_camera.jpg
-      :width: 50px
+Modes
+=====
 
-   By default,
-   a new installation of Blender will always start with a *Camera*
-   positioned somewhere close to the center of Global 3D space and facing it.
+Blender has a number of *Modes* used for editing different kinds of data:
 
+- Object Mode
+- Edit Mode
+- Pose Mode
+- Sculpt Mode
+- Vertex Paint
+- Weight Paint
+- Texture Paint
+- Particle Edit
 
-3D Editor Header
-----------------
+The mode can be changed using the menu in the 3D View header, or using the hotkey associated with that mode.
 
-.. figure:: /images/Icon-library_3D-Window_header.jpg
-   :width: 640px
-
-   3D Window Header
-
-
-This is the header for the 3D window. All windows in Blender have a header,
-although in some cases they may be located at bottom of the window.
-
-Read more about :doc:`Blender headers </getting_started/basics/interface/window_system/headers>`
+:doc:`Read more about modes </editors/3dview/modes>`.
 
 
-Window/Editor Type Selector
-   .. figure:: /images/Icon-library_3D-Window_Editor-type.jpg
+Regions of the 3D View
+======================
 
-   Allows you to change the :doc:`type of Window </editors/index>`.
-   This option can be found in every window header.
-   For example, if you want to see the *Outliner* window you would click and select it.
+Toolshelf
+---------
 
+The Toolshelf is a context-sensitive region containing tools depending on the current mode
+(for example, modeling tools in *Edit Mode*, brush tools in *Sculpt Mode*...).
 
-3D Transform manipulator options
-   .. figure:: /images/Icon-library_3D-Window_3D-transform-manipulator-options.jpg
+For more information on specific tools available, see:
 
-   Access to the :doc:`manipulator </getting_started/basics/transformations/transform_control/manipulators>`
-   widget is also possible by clicking the coordinate system icon on the toolbar.
-   The translation/rotation/scale manipulators can be displayed by clicking each
-   of the three icons to the right of the coordinate system icon.
-   :kbd:`Shift-LMB` -clicking an icon will add/remove each manipulator's visibility.
-
-
-Viewport Shading
-   .. figure:: /images/Icon-library_3D-Window_header-viewport-shading.jpg
-
-   Blender renders the 3D window using `OpenGL <http://en.wikipedia.org/wiki/OpenGL>`__.
-   You can select the type of
-   :ref:`Viewport shading <view_shading>`
-   that takes place by clicking this button and selecting from a variety of shading
-   styles including simple bounding boxes and complex textures.
-   It is recommended that you have a powerful graphics card if you are going to use the Textured style.
+- :doc:`Transformations </getting_started/basics/transformations/index>`
+- :doc:`History </getting_started/basics/undo_and_redo>`
+- :doc:`Creating Objects </modeling/meshes/editing/basics/adding>`
+- :doc:`Groups and Parenting </modeling/objects/groups_and_parenting>`
+- :ref:`animation-index`
+- :ref:`rigid_body-index`
+- :ref:`grease_pencil-index`
+- :ref:`modeling-index`
+- :doc:`Sculpting </modeling/meshes/editing/sculpt_mode>`
+- :doc:`Vertex Painting </render/blender_render/materials/special_effects/vertex_paint>`
+- :doc:`Weight Painting </modeling/meshes/vertex_groups/weight_paint_tools>`
+- :doc:`Texture Painting </render/blender_render/textures/painting>`
 
 
-Layers
-   .. figure:: /images/Icon-library_3D-Window_header-layers.jpg
+Properties Region
+-----------------
 
-   Blender :doc:`Layers </getting_started/basics/navigating/layers>`
-   are provided to help distribute your objects into functional groups.
-   For example, one layer may contain a water object and another layer
-   may contain trees, or one layer may contain cameras and lights.
-   To de-clutter the view you can turn layers on and off.
+The Properties Region contains properties of the active object and selected objects (such as their locations),
+as well as properties of the editor itself
+(such as :doc:`/editors/3dview/display` settings and :doc:`background images </editors/3dview/background_images>`).
 
+
+Header
+------
+
+Contains various menus, buttons and options based on the current :ref:`mode <modes>`, such as:
+
+- :doc:`Shading mode </editors/3dview/shading>`
+- :doc:`Pivot options </getting_started/basics/transformations/transform_control/pivot_point/index>`
+- :doc:`Transform manipulator </getting_started/basics/transformations/transform_control/manipulators>`
+- :doc:`Proportional Edit </getting_started/basics/transformations/transform_control/proportional_edit>`
+- :doc:`Snapping </getting_started/basics/transformations/transform_control/snap>`
+- :ref:`OpenGL render <opengl_render>`
+
+
+Local View
+==========
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Editor:   *3D View*
+   | Menu:     :menuselection:`View --> View Global/Local`
+   | Hotkey:   :kbd:`NumpadSlash`
+
+.. figure:: /images/Manual-3Dinteraction-Navigating-Global-Local-global-local.jpg
+
+   Global and Local view
+
+When entering *Local View*, the selected objects are isolated and all other objects are temporarily hidden from view.
+This only affects the current 3D View editor, and not the render.
+
+This can be used to speed up viewport performance in heavy scenes,
+or allow you to focus on a specific object without others getting in your way.
