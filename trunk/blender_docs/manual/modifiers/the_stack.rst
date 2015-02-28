@@ -1,6 +1,7 @@
-***********
- The Stack
-***********
+
+*********
+The Stack
+*********
 
 A modifier is defined as the application of a "process" or "algorithm" upon objects. They can
 be applied in just about any order the users chooses. This kind of functionality is often referred to as a
@@ -30,7 +31,7 @@ by first mirroring the object, and then calculating the subdivision surface.
 
 
 Example
-*******
+=======
 
 .. figure:: /images/25-Manual-Modifiers-stackorder-example3.jpg
 

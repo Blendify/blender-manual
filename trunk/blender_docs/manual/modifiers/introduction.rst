@@ -1,9 +1,9 @@
 
 ..    TODO/Review: {{review|text=Needs to stay updated with new modifiers being added}} .
 
-**************
- Introduction
-**************
+************
+Introduction
+************
 
 .. admonition:: Reference
 
@@ -11,7 +11,7 @@
 
 
 Modifiers
-*********
+=========
 
 Modifiers are automatic operations that affect an object in a non-destructive way. With modifiers,
 you can perform many effects automatically that would otherwise be too tedious to do manually
@@ -32,7 +32,7 @@ There are four types of modifiers:
 
 
 Modify
-======
+------
 
 The *Modify* group of modifiers are tools similar to the *Deform Modifiers* (see below),
 but which do not directly affect the shape of the object; rather they affect some other data, such as vertex groups.
@@ -48,7 +48,7 @@ but which do not directly affect the shape of the object; rather they affect som
 
 
 Generate
-========
+--------
 
 The *Generate* group of modifiers are constructive tools that either change the
 general appearance of or automatically add new geometry to an object.
@@ -89,7 +89,7 @@ general appearance of or automatically add new geometry to an object.
 
 
 Deform
-======
+------
 
 The *Deform* group of modifiers only change the shape of an object without adding new geometry,
 and are available for meshes, and often texts, curves, surfaces and/or lattices.
@@ -126,7 +126,7 @@ and are available for meshes, and often texts, curves, surfaces and/or lattices.
 
 
 Simulate
-========
+--------
 
 The *Simulate* group of modifiers activate simulations. In most cases, these
 modifiers are automatically added to the modifiers stack whenever a *Particle System*
@@ -158,7 +158,7 @@ the attributes of these modifiers are accessible in separate panels.
 
 
 Interface
-*********
+=========
 
 .. figure:: /images/25-Manual-Modifiers-Subsurf.jpg
 
