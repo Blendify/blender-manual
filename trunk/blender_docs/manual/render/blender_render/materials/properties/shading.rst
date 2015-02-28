@@ -31,7 +31,7 @@ Translucency
 Shadeless
    Make this material insensitive to light or shadow; gives a solid, uniform color to the whole object.
 Tangent Shading
-   Use the material's tangent vector instead of the normal for shading — for anisotropic shading effects
+   Use the material's tangent vector instead of the normal for shading - for anisotropic shading effects
    (e.g. soft hair and brushed metal).
    This shading was
    `introduced in 2.42 <http://www.blender.org/development/release-logs/blender-242/material-features/>`__,

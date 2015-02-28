@@ -38,7 +38,7 @@ Rendering takes all available CPU time; you should render overnight,
 when the computer is not needed, or set Blender to a low priority while rendering,
 and work on other things (be careful with the RAM space!).
 
-The **Direct Approach** —highly **not** recommended and not a standard practice—is where
+The **Direct Approach** - highly **not** recommended and not a standard practice - is where
 you set your output format to an AVI or MOV format,
 and click ANIM to render your scene directly out to a movie file.
 Blender creates one file that holds all the frames of your animation. You can then use

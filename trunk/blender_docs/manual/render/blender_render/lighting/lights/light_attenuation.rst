@@ -124,7 +124,7 @@ Zeroing both "Linear" and "Quad"
 
 If both the *Linear* and *Quadratic* sliders have ``0.0`` as their
 values, the light intensity will not attenuate with distance.
-This does not mean that the light will not get darker—it will,
+This does not mean that the light will not get darker - it will,
 but only because the energy the light has is spread out over a wider and wider distance.
 The total amount of energy in the spread-out light will remain the same, though.
 The light angle also affects the amount of light you see.

@@ -174,7 +174,7 @@ Shadeless
    This disables the calculation of any shading, so only color information is visible.
    This is essentially makes it a "surface shader"
 Tangent Shading
-   Use the material's tangent vector instead of the normal for shading — for anisotropic shading effects
+   Use the material's tangent vector instead of the normal for shading - for anisotropic shading effects
    (e.g. soft hair and brushed metal). This shading was introduced in 2.42,
    see also settings for strand rendering in the menu further down and in the Particle System menu.
 Cubic Interpolation

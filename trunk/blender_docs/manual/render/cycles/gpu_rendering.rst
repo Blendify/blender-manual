@@ -100,7 +100,7 @@ What renders faster, NVidia or AMD, CUDA or OpenCL?
 ---------------------------------------------------
 
 Currently NVidia with CUDA is rendering faster. There is no fundamental reason why this should
-be so—we don't use any CUDA-specific features—but the compiler appears to be more mature,
+be so - we don't use any CUDA - specific features - but the compiler appears to be more mature,
 and can better support big kernels.
 OpenCL support is still being worked on and has not been optimized as much,
 because we haven't had the full kernel working yet.
