@@ -162,7 +162,7 @@ Current Scene
    Shows everything in the current scene.
 Visible Layers
    Shows everything on the visible (currently selected) layers in the current scene.
-   Use the :doc:`layer </getting_started/basics/navigating/layers>` buttons
+   Use the :doc:`layer </editors/3dview/layers>` buttons
    to make objects on a layer visible in the 3D window.
 Selected
    Lists only the object(s) currently selected in the 3D window.

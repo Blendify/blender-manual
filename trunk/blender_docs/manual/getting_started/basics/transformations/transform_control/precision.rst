@@ -72,7 +72,7 @@ BU and so on until the zoom limit is reached.
 Zooming out will have the opposite effect and cause movement to happen by increments of 10,
 100 etc BU.
 
-:doc:`Read more about Zooming </getting_started/basics/navigating/3d_view#zooming_the_view>`
+:doc:`Read more about Zooming </getting_started/basics/navigating/introduction>`
 
 
 Rotation transformations

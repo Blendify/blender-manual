@@ -36,7 +36,7 @@ Image
    including blueprints or character sheets to model from, instead of using background images.
    The image is displayed regardless of the 3D display mode.
    The settings are the same as in
-   :doc:`Background Image Settings </getting_started/basics/navigating/3d_view_options#background_image>`
+   :doc:`Background Image Settings </editors/3dview/background_images>`
 
 
 .. note::
