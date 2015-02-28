@@ -59,8 +59,8 @@ Step
 See Also
 ========
 
-- :doc:`Shadows </render/blender_render/lighting/shadows>`
-- :doc:`Spot Lamp </render/blender_render/lighting/lamps/spot>`
+- :doc:`Shadows </render/blender_render/lighting/shadows/introduction>`
+- :doc:`Spot Lamp </render/blender_render/lighting/lamps/spot/introduction>`
 - :doc:`Spot Buffered Shadows </render/blender_render/lighting/lamps/spot/buffered_shadows>`
 
 

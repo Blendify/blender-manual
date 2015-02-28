@@ -13,7 +13,7 @@ Spot Buffered Shadows
 
 
 Spotlights can use either
-:doc:`Raytraced Shadows </render/blender_render/lighting/lamps/spot#raytraced_shadows>` or buffered shadows.
+:doc:`Raytraced Shadows </render/blender_render/lighting/lamps/spot/introduction#raytraced_shadows>` or buffered shadows.
 Either of the two can provide various extra options.
 
 Raytraced shadows are generally more accurate,

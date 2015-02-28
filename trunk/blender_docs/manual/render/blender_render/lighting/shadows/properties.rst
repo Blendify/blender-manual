@@ -9,9 +9,9 @@ Common Shadowing Lamps Options
    Common shadowing options for lamps
 
 
-All lamps able to cast shadows (:doc:`Lamp </render/blender_render/lighting/lamps/lamp>`,
-:doc:`Spot </render/blender_render/lighting/lamps/spot>`, :doc:`Area </render/blender_render/lighting/lamps/area>` and
-:doc:`Sun </render/blender_render/lighting/lamps/sun>`) share some options, described below:
+All lamps able to cast shadows (:doc:`Lamp </render/blender_render/lighting/lamps/point/introduction>`,
+:doc:`Spot </render/blender_render/lighting/lamps/spot/introduction>`, :doc:`Area </render/blender_render/lighting/lamps/area/introduction>` and
+:doc:`Sun </render/blender_render/lighting/lamps/sun/introduction>`) share some options, described below:
 
 This Layer Only
    When this option is enabled, only the objects on the same layer as the light source will cast shadows.
@@ -50,12 +50,12 @@ Shadow color
 See Also
 ========
 
-- :doc:`Shadows </render/blender_render/lighting/shadows>`
+- :doc:`Shadows </render/blender_render/lighting/shadows/introduction>`
 - :doc:`Common Raytraced Options </render/blender_render/lighting/shadows/raytraced_properties>`
-- :doc:`Lamp Light Raytraced Shadows </render/blender_render/lighting/lamps/lamp>`
-- :doc:`Spot Light Raytraced Shadows </render/blender_render/lighting/lamps/spot>`
-- :doc:`Area Light Raytraced Shadows </render/blender_render/lighting/lamps/area>`
-- :doc:`Sun Light Raytraced Shadows </render/blender_render/lighting/lamps/sun>`
+- :doc:`Lamp Light Raytraced Shadows </render/blender_render/lighting/lamps/point/introduction>`
+- :doc:`Spot Light Raytraced Shadows </render/blender_render/lighting/lamps/spot/introduction>`
+- :doc:`Area Light Raytraced Shadows </render/blender_render/lighting/lamps/area/introduction>`
+- :doc:`Sun Light Raytraced Shadows </render/blender_render/lighting/lamps/sun/introduction>`
 - :doc:`Spot Light Buffered Shadows </render/blender_render/lighting/lamps/spot/buffered_shadows>`
 
 

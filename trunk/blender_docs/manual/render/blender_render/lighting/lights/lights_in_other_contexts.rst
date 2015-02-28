@@ -47,8 +47,8 @@ the scene will be lit exclusively by lamps in the specified group.
 See Also
 ========
 
-- :doc:`Lamps Introduction </render/blender_render/lighting/lamps>`
-- :doc:`Shadows </render/blender_render/lighting/shadows>`
+- :doc:`Lamps Introduction </render/blender_render/lighting/lamps/introduction>`
+- :doc:`Shadows </render/blender_render/lighting/shadows/introduction>`
 - :doc:`Materials Introduction </render/blender_render/materials/index>`
 
 
