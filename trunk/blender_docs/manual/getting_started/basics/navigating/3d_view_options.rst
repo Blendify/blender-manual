@@ -74,7 +74,7 @@ View Properties Panel
 
    | Mode:     All modes
    | Panel:    *View Properties*
-   | Menu:     :menuselection:`View --> View Properties...`
+   | Menu:     :menuselection:`View --> Properties...`
 
 
 Description
@@ -152,6 +152,8 @@ Display
 
 Only Render
    Displays only items that will be rendered.
+
+   This can be is useful to preview how animations look without being distracted by rigs and empties.
 Outline Selected
    If disabled, the pink outline around your selected objects in
    *Solid* / *Shaded* / *Textured* draw types will no longer be displayed.
@@ -160,27 +162,54 @@ All Object Origins
    (by default, unselected centers might be hidden by geometry in solid/shaded/textured shadings).
 Relationship Lines
    Controls whether the dashed parenting, constraining, hooking, etc., lines are drawn.
-All Edges
-   When wire overlay is enabled in the *Object* context,
-   this options forces all of the wireframe to be displayed in the viewport.
 Grid Floor
    If disabled, you have no grid in other views than the orthographic top/front/side ones.
-X Axis, Y Axis, Z Axis
-   Control which axes are shown in other views than the orthographic top/front/side ones.
-Lines
-   Controls the number of lines that make the grid in non-top/front/side orthographic views, in both directions.
-Scale
-   Control the scale of the grid floor
-Subdivisions
-   Controls the number of sub-lines that appear in each cell of the grid when you zoom in,
-   so it is a setting specific to top/front/side orthographic views.
-Shading
-   Control the way objects in the 3D view are shaded.
-Textured Solid
-   Display face assigned textures in solid view.
+
+   X Axis, Y Axis, Z Axis
+      Control which axes are shown in other views than the orthographic top/front/side ones.
+   Lines
+      Controls the number of lines that make the grid in non-top/front/side orthographic views, in both directions.
+   Scale
+      Control the scale of the grid floor
+   Subdivisions
+      Controls the number of sub-lines that appear in each cell of the grid when you zoom in,
+      so it is a setting specific to top/front/side orthographic views.
 Toggle Quad View
    Toggles the four pane 3D view.
    :doc:`Read more about arranging frames </getting_started/basics/interface/window_system/arranging_frames>`
+
+
+Shading
+-------
+
+Control the way objects in the 3D view are shaded.
+
+Textured Solid
+   Display face assigned textures in solid view.
+Matcap
+   A quick way to apply shader presets, (overriding regular materials)
+   which can help visualize your models while editing or sculpting,
+   without having to setup complex materials first.
+Backface Culling
+   Only show faces pointing towards the view.
+
+   This can be useful to find faces flipped the wrong way,
+   or to preview how a model may look when exported to an external rendering engine.
+   As many of them use single sided drawing.
+Depth of Field
+   Uses the camera depth settings to preview focal blur in the view-port,
+
+   *Only visible in a camera view*
+
+   .. TODO example image!
+Ambient Occlusion
+   This setting applies realtime soft-shadows to the objects in the view
+   which can help you see the shape of the models.
+
+   Typically such effects are rendered at higher quality,
+   but this is a quick real-time preview which can help when modeling or sculpting.
+
+   .. TODO example image!
 
 
 Background Image
