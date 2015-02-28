@@ -149,7 +149,7 @@ Filter
    Box
       Box Filter
    EWA
-      Elliptical Weighted Average —
+      Elliptical Weighted Average -
       one of the most efficient direct convolution algorithms developed by Paul Heckbert and Ned Greene in the 1980s.
       For each texel, EWA samples, weights,
       and accumulates texels within an elliptical footprint and then divides the result by the sum of the weights.

@@ -27,7 +27,7 @@ because not all datablocks are shared; some of them are "hard copied"!
 Note that you can choose which types of datablock will be linked or copied when duplicating:
 in the *User Preferences* ' (available in the *File* menu)
 *Editing* "tab", activate those types of datablocks you want to really copy in the
-*Duplicate Data* list — the others will just be linked.
+*Duplicate Data* list - the others will just be linked.
 
 
 Examples

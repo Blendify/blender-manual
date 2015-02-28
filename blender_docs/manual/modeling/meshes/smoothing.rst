@@ -125,7 +125,7 @@ Edge Split Modifier
 
 With the :doc:`Edge Split Modifier </modifiers/generate/edge_split>` we get a result
 similar to *Auto Smooth* with the ability to choose which edges should be split,
-based on angle—those marked as sharp.
+based on angle - those marked as sharp.
 
 
 .. list-table::

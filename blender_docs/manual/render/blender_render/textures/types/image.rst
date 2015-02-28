@@ -3,9 +3,9 @@
 Image Textures
 **************
 
-The term *Image Texture* simply means that a graphic image — a pixel grid
+The term *Image Texture* simply means that a graphic image - a pixel grid
 composed of R, G, B,
-and sometimes Alpha values — is used as the input source to the texture.
+and sometimes Alpha values - is used as the input source to the texture.
 As with other types of textures, this information can be used in a number of ways,
 not only as a simple "decal".
 
@@ -643,7 +643,7 @@ Filter
       Box
          A fast and simple nearest-neighbor interpolation known as Monte Carlo integration
       EWA
-         **E** lliptical **W** eighted **A** verage — one of the most efficient direct
+         **E** lliptical **W** eighted **A** verage - one of the most efficient direct
          convolution algorithms developed by Paul Heckbert and Ned Greene in the 1980s.
          For each texel, EWA samples, weights, and accumulates texels within an elliptical
          footprint and then divides the result by the sum of the weights.
