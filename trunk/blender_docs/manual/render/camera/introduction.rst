@@ -42,7 +42,6 @@ Changing the Active Camera
 
 
 .. figure:: /images/Manual-CameraView-ActiveCamera.jpg
-   :width: 200px
 
    Active camera (left one).
 
@@ -65,7 +64,7 @@ The camera with the solid triangle on top is the active camera.
    or global (locked) to the whole scene - see
    :doc:`Local Camera </editors/3dview/display>`.
 
-.. _camera_settings:
+.. _camera-settings:
 
 Camera Settings
 ===============
@@ -94,7 +93,6 @@ Camera
 ------
 
 .. figure:: /images/Manual-Camera-presets-panel.jpg
-   :width: 270px
 
    Camera Presets panel.
 
@@ -114,9 +112,8 @@ Depth of Field
 --------------
 
 .. figure:: /images/Manual-Camera-dof-panel.jpg
-   :width: 270px
 
-   Camera Display panel
+   Camera Depth of Field Panel
 
 
 Real world cameras transmit light through a lens that bends and focuses it onto the sensor.
@@ -126,24 +123,29 @@ but objects in front and behind that are blurred.
 The area in focus is called the *focal point* and can be set using either an exact value,
 or by using the distance between the camera and a chosen object:
 
-Depth of Field Object
-   Choose an object which will determine the focal point. Linking an object will deactivate the distance parameter.
+Focus Object
+   Choose an object which will determine the focal point. Linking an object will deactivate the distance parameter. 
    Typically this is used to give precise control over the position of the focal point,
    and also allows it to be animated or constrained to another object.
 Distance
-   Distance to the focal point. If *Limits* are enabled, it is shown as a yellow cross on the camera line of sight.
+   Sets the distance to the focal point when no *Focus Object* is specified. 
+   If *Limits* are enabled, a yellow cross is shown on the camera line of sight at this distance.
+   
+   .. hint::
 
-   .. tip::
-
-      You can hover the mouse over the *Distance* property and press :kbd:`E` to use a special *Depth Picker*.
+      Hover the mouse over the *Distance* property and press :kbd:`E` to use a special *Depth Picker*.
       Then click on a point in the 3D View to sample the distance from that point to the camera.
 
-
+Viewport F-stop
+   Controls the real-time focal blur effect used during sequencer or OpenGL rendering and, when enabled, camera views in the 3D viewport.
+   The amount of blur depends on this setting, along with Focal Length and Sensor Size.  
+   Smaller Viewport F-stop values result in more blur.
+   
+      
 Display
 -------
 
 .. figure:: /images/Manual-Camera-display-panel.jpg
-   :width: 270px
 
    Camera Display panel
 
@@ -158,8 +160,6 @@ Mist
 
 
 .. figure:: /images/Manual-Camera-camera-view.jpg
-   :width: 350px
-   :align: right
 
    Camera view displaying safe areas, sensor and name
 
