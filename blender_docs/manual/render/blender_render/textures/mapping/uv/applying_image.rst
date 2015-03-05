@@ -64,6 +64,7 @@ For using images as textures, see the page on :doc:`Image Textures </render/blen
 
    A snapshot of the uv layout to be used in an image editor
 
+.. _face_textures:
 
 Applying Textures to UVs
 ========================
