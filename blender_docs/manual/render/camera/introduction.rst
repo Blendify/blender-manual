@@ -124,24 +124,25 @@ The area in focus is called the *focal point* and can be set using either an exa
 or by using the distance between the camera and a chosen object:
 
 Focus Object
-   Choose an object which will determine the focal point. Linking an object will deactivate the distance parameter. 
+   Choose an object which will determine the focal point. Linking an object will deactivate the distance parameter.
    Typically this is used to give precise control over the position of the focal point,
    and also allows it to be animated or constrained to another object.
 Distance
-   Sets the distance to the focal point when no *Focus Object* is specified. 
+   Sets the distance to the focal point when no *Focus Object* is specified.
    If *Limits* are enabled, a yellow cross is shown on the camera line of sight at this distance.
-   
+
    .. hint::
 
       Hover the mouse over the *Distance* property and press :kbd:`E` to use a special *Depth Picker*.
       Then click on a point in the 3D View to sample the distance from that point to the camera.
 
 Viewport F-stop
-   Controls the real-time focal blur effect used during sequencer or OpenGL rendering and, when enabled, camera views in the 3D viewport.
-   The amount of blur depends on this setting, along with Focal Length and Sensor Size.  
+   Controls the real-time focal blur effect used during sequencer or OpenGL rendering and,
+   when enabled, camera views in the 3D viewport.
+   The amount of blur depends on this setting, along with Focal Length and Sensor Size.
    Smaller Viewport F-stop values result in more blur.
-   
-      
+
+
 Display
 -------
 
