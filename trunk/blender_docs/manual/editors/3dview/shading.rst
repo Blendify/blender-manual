@@ -17,7 +17,7 @@ Material
    A fast approximation of the applied material.  Some effects, such as procedural textures may not be shown.
 Textured
    Shows meshes with an image applied using the mesh's active UV Map.
-   For Cycles materials, the image is the last one selected in the Node Editor. 
+   For Cycles materials, the image is the last one selected in the Node Editor.
    For other render engine's, the UV Map's applied face texture will be shown.
 Solid
    The default drawing mode using solid colored surfaces and simple lighting.
@@ -31,7 +31,7 @@ Instead they use a simple default lighting adjusted by the
 *Solid OpenGL Lights* controls on the *System* tab of the
 :doc:`User Preferences </preferences/system>` window.
 
-The viewport shading controls the appearance of all objects in a scene, 
+The viewport shading controls the appearance of all objects in a scene,
 but this can be overridden for individual objects using the Display panel in their Object Properties.
 
 Keyboard Shortcuts
@@ -58,15 +58,16 @@ Shading Panel
 The shading panel in the Properties Region provides additional control over the way objects in the 3D view appear.
 
 Textured Solid
-   Display assigned :ref:`face textures<face_textures>` in the *Solid* shading mode. ( Not available in the Cycles Render Engine )
+   Display assigned :ref:`face textures<face_textures>` in the *Solid* shading mode.
+   *(Not available in the Cycles Render Engine)*
 Matcap
-   A selection of preset shader effects, (overriding regular materials)    
+   A selection of preset shader effects, (overriding regular materials)
    which can help visualize your models while editing or sculpting,
    without having to set up complex materials first.
 Backface Culling
    Only show the front side of faces.
-   Use this to find faces flipped the wrong way, especially when exporting to programs
-   that use single sided drawing.
+   Use this to find faces flipped the wrong way,
+   especially when exporting to programs that use single sided drawing.
 Depth of Field
    Simulates a camera's focal blur effect in the 3D viewport. *Only visible in a camera view*.
    Control the effect using these options in the
@@ -78,18 +79,19 @@ Ambient Occlusion
    occurs in crevices and corners.
    Typically such effects are rendered at higher quality,
    but this is a quick real-time preview which can help when modelling or sculpting.
-   
+
    These settings control the AO effect.
-   
+
    Strength
       A higher number makes the corners darker.
    Distance
       How far out of the corners does the effect extend.
    Attenuation
-      How strongly the effect attenuates with distance. 
-      Increasing this makes far away surfaces contribute less to the effect. 
+      How strongly the effect attenuates with distance.
+      Increasing this makes far away surfaces contribute less to the effect.
       Use this to get rid of some banding artifacts.
    Samples
-      The number of samples used for the effect. Low numbers produce a grainy effect, but the actual number used is squared so use high numbers with caution.
+      The number of samples used for the effect.
+      Low numbers produce a grainy effect, but the actual number used is squared so use high numbers with caution.
    Color
       Color of the effect, can be modified to give a different feel, from ambient lighting to dirt/rust.
