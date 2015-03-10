@@ -43,3 +43,7 @@ Suspend Scene
    Pauses a scene
 Resume Scene
    Resumes a paused scene.
+
+.. note::
+   A scene that it is paused can not resume itself. 
+   You need an active scene to resume other scene that it is paused.
