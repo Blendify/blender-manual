@@ -34,7 +34,7 @@
    types/nodes/color.rst
    types/nodes/patterns.rst
    types/nodes/textures.rst
-   types/nodes/convertor.rst
+   types/nodes/converter.rst
    types/nodes/distort.rst
    types/volume.rst
    types/volume/voxel_data.rst

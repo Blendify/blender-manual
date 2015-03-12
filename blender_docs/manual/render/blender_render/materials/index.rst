@@ -33,7 +33,7 @@
    nodes/types/output.rst
    nodes/types/color.rst
    nodes/types/vector.rst
-   nodes/types/convertor.rst
+   nodes/types/converter.rst
    options.rst
    special_effects/vertex_paint.rst
    special_effects/wire.rst
