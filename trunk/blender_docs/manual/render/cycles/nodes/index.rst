@@ -12,5 +12,5 @@
    shaders.rst
    textures.rst
    vector.rst
-   convertor.rst
+   converter.rst
    more.rst
