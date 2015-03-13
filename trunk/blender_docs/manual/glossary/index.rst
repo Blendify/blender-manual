@@ -38,6 +38,21 @@
          with the RGB channels representing the amount of light that comes toward the viewer,
          and alpha representing how much of the light from the background is blocked.
 
+      Conversion (Straight/Premultiplied) Alpha
+         Conversion between the two alpha types is not a simple operation and can involve data loss,
+         as both alpha types can represent data that the other can not, though it is often subtle.
+
+         Straight alpha can be considered to be an RGB color image with a separate alpha mask.
+         In areas where this mask is fully transparent, there can still be colors in the RGB channels.
+         On conversion to premultiplied alpha this mask is *'applied'*
+         and the colors in such areas become black and are lost.
+
+         Premultiplied alpha on the other hand can represent renders
+         that are both emitting light and letting through light from the background.
+         For example a transparent fire render might be emitting light,
+         but also letting through all light from objects behind it.
+         On converting to straight alpha this effect is lost.
+
    Ambient Light
       It's light that doesn't seem to come from a specific source, but is just there.
       In the real world, this is caused by stray photons bouncing around and occasionally ricocheting under the desk.
