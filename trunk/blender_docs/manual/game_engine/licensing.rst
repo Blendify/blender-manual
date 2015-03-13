@@ -32,7 +32,3 @@ More Information
 
 More information you can find in the `blender.org FAQ <http://www.blender.org/support/faq/>`__.
 
-
-(Disclaimer: the former text on this page was inaccurate and had wrong statements in it.
-The current text has been rewritten by Blender Foundation's chairman.
-If you have questions about GPL, consult the `Free Software Foundation website <fsf.org>`__ .)
