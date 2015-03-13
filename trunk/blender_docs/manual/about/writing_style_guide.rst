@@ -57,6 +57,14 @@ To be avoided:
     (unless its compressed).*
 
   These details aren't useful for users to memorize and they become quickly out-dated.
+- Avoid documenting bugs.
+
+  Blender has often has 100's of bugs fixed between releases, so its not realistic to reference
+  even a fraction of them from the manual, while keeping this list up to date.
+
+  Issues which are known to the developers and aren't going to be resolved before the next release
+  can be documented as **Known Limitations**,
+  in some cases it may be best to include them the in the **Troubleshooting** section.
 - Avoid *Product Placement* - unnecessarily promoting software or hardware brands.
   Keep content vendor-neutral where possible.
 - Avoid technical explanations about the mathematical/algorithmic implementation of a feature
