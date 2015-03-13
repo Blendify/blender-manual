@@ -1,3 +1,5 @@
+.. index::
+   pair: Armature; Bone
 
 *****
 Bones

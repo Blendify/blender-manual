@@ -1,3 +1,5 @@
+.. index::
+   pair: Armature; Panels
 
 ************************
 Armature Panels Overview
