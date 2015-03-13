@@ -38,6 +38,9 @@ Sections
    glossary/index.rst
 
 
+:ref:`Manual Index <genindex>`
+
+
 Get Involved
 ************
 
