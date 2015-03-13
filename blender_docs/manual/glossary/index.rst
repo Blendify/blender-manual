@@ -21,6 +21,23 @@
    Alpha Channel
       Additional channel in 2D image for transparency.
 
+      Straight Alpha
+         This is the alpha type used by paint programs such as Photoshop or Gimp,
+         and used in common file formats like PNG, BMP or Targa.
+         So, image textures or output for the web are usually straight alpha.
+         ``RGBA`` color are stored as ``(R, G, B, A)``
+         channels, with the RGB channels unaffected by the alpha channels.
+
+      Premultiplied Alpha
+         Rendering will output premultiplied alpha images, and the OpenEXR file format uses this alpha type.
+         So, intermediate files for rendering and compositing are often stored as premultiplied alpha.
+         Compared to straight alpha, the colors could be considered to be stored as ``(R*A, G*A, B*A, A)``,
+         with the alpha multiplied into the RGB channel.
+
+         This is the natural output of render engines,
+         with the RGB channels representing the amount of light that comes toward the viewer,
+         and alpha representing how much of the light from the background is blocked.
+
    Ambient Light
       It's light that doesn't seem to come from a specific source, but is just there.
       In the real world, this is caused by stray photons bouncing around and occasionally ricocheting under the desk.
@@ -330,6 +347,9 @@
       It's a vertex in which three or five or more edges are connected to.
       A vertex connected to one, two or four edges, is not a pole.
 
+   Premultiplied Alpha
+      See :term:`Alpha Channel`
+
    Primitive
       Is a basic object that can be used as a basis for modeling more complicated objects.
 
@@ -388,6 +408,9 @@
 
    Specular light
       Refers to the highlights on reflective objects.
+
+   Straight Alpha
+      See :term:`Alpha Channel`
 
    Sub surface scattering
       Mechanism of light transport in which light penetrates the surface of a translucent object,
