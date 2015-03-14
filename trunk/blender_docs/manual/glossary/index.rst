@@ -126,7 +126,7 @@
    Color Blend Modes
       Ways in which 2 colors can be blended in computer graphics.
 
-      See Wikipedia's `Blend Modes <http://en.wikipedia.org/wiki/Blend_modes>`__ article for more information.
+      See Wikipedia's `Blend Modes <http://en.wikipedia.org/wiki/Blend_modes>`__
 
    Concave face
       Face in which one vert is inside a triangle formed by other vertices of the face.
@@ -335,6 +335,10 @@
       In most cases, this center is at the geometric center of the object (geometric center of its bounding box).
       However, an object's center may be offset from the geometric center.
 
+   OpenGL
+      The graphics system used by Blender (and many other graphics applications)
+      for drawing 3D graphics, often taking advantage of hardware acceleration.
+
    Oversampling
       Is the technique of minimizing :term:`aliasing` when representing a high-resolution
       signal at a lower resolution.
@@ -380,9 +384,12 @@
       It's a :term:`face` that contains exactly four vertices.
 
    Radiosity
-      It's a more accurate but also more process-intensive technique than raytracing,
+      Is a global lighting method
       that calculates patterns of light and shadow for rendering graphics images from three-dimensional models.
       One of the many different tools which can simulate diffuse lighting in Blender.
+
+      See Wikipedia's
+      `Radiosity (computer graphics)<http://en.wikipedia.org/wiki/Radiosity_%28computer_graphics%29>`__
 
    Raytracing
       Rendering technique that works by tracing the path taken by a ray of light through the scene,
@@ -461,10 +468,11 @@
       Vertices are the terminating points of :term:`edges <edge>`.
 
    Vertex Buffer Object
-      Term used for uploading geometry to the graphics cards memory for improved performance.
+      Term used for uploading geometry to the graphics cards memory for improved performance
+      with :term:`OpenGL` drawing.
 
-      See Wikipedia's `Vertex Buffer Object <http://en.wikipedia.org/wiki/Vertex_Buffer_Object>`__
-      article for more information.
+      See Wikipedia's
+      `Vertex Buffer Object <http://en.wikipedia.org/wiki/Vertex_Buffer_Object>`__
 
    Vertex Group
       Vertices can be grouped together so that certain operations can work on specific groups.
