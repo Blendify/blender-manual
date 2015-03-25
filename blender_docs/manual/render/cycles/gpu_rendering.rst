@@ -7,10 +7,10 @@ GPU Rendering
 Introduction
 ============
 
-:abbr:`GPU (Graphics Processing Unit)` rendering makes it possible to use your graphics card for rendering, instead of the CPU.
-This can speed up rendering,
-because modern GPUs are designed to do quite a lot of number crunching. On the other hand,
-they also have some limitations in rendering complex scenes, due to more limited memory,
+:abbr:`GPU (Graphics Processing Unit)` rendering makes it possible to use your
+graphics card for rendering, instead of the CPU.
+This can speed up rendering, because modern GPUs are designed to do quite a lot of number crunching.
+On the other hand, they also have some limitations in rendering complex scenes, due to more limited memory,
 and issues with interactivity when using the same graphics card for display and rendering.
 
 Cycles has two GPU rendering modes: through CUDA,

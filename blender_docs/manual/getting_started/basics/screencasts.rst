@@ -30,7 +30,9 @@ If you are unsure what video codecs your system supports, select *AVI JPEG*.
 
 
 The FPS for video Screencasts and time between each Screenshot for an image series Screencast
-can be set from the :doc:`System panel </preferences/system>` of the :doc:`User Preferences </preferences/index>` window.
+can be set from the
+:doc:`System panel </preferences/system>` of the
+:doc:`User Preferences </preferences/index>` window.
 
 (See Fig: Options in the User Preferences Editor)
 

@@ -10,27 +10,32 @@ Main properties
 Rigid Body panel.
 
 *Type*
-   Role of the rigid body in the simulation. Active objects can be simulated dynamically, passive object remain static.
+   Role of the rigid body in the simulation.
+   Active objects can be simulated dynamically, passive object remain static.
 
    *Active*
-      Object is directly controlled by simulation results. The possibility to select this type also available with
-      *Add Active* button in the *Physics* tab of the *Tool Shelf*.
+      Object is directly controlled by simulation results.
+      The possibility to select this type also available with *Add Active*
+      button in the *Physics* tab of the *Tool Shelf*.
    *Passive*
       Object is directly controlled by animation system. Thus, this type is not available for `Rigid Body Dynamics`_.
-      The possibility to select this type also available with *Add Passive* button in the *Physics* tab of the *Tool Shelf*.
+      The possibility to select this type also available with *Add Passive*
+      button in the *Physics* tab of the *Tool Shelf*.
 *Dynamic*
    Enables/disables rigid body simulation for object.
 *Animated*
    Allows the rigid body additionally to be controlled by the animation system.
 *Mass*
    Specifies how heavy the object is and "weights" irrespective of gravity.
-   There are predefined mass preset available with the *Calculate Mass* button in the *Physics* tab of the *Tool Shelf*.
+   There are predefined mass preset available with the *Calculate Mass*
+   button in the *Physics* tab of the *Tool Shelf*.
 
    *Calculate Mass*
       Automatically calculate mass values for Rigid Body Objects based on volume.
       There are manu useful presets available from the menu, patching real-world objects.
 
-      Also you can have *Custom* mass material type, which is achieved by setting a custom density value (kg/m\ :sup:`3`).
+      Also you can have *Custom* mass material type,
+      which is achieved by setting a custom density value (kg/m\ :sup:`3`).
 
 
 Rigid Body Collisions
@@ -56,8 +61,10 @@ Collision shapes
 ----------------
 The *Shape* option determines the collision shape of the object. The following Collision Shapes are available:
 
- - **Primitive shapes** : these are best in terms of memory/performance but don't necessarily reflect the actual shape of
-   the object. They're calculated based on the object's bounding box. The center of gravity is always in the middle for now.
+ - **Primitive shapes** : these are best in terms of memory/performance but don't
+   necessarily reflect the actual shape of the object.
+   They're calculated based on the object's bounding box.
+   The center of gravity is always in the middle for now.
 
     - *Box*
          Box-like shapes (i.e. cubes), including planes (i.e. ground planes). The size per axis is calculated from the
@@ -67,11 +74,13 @@ The *Shape* option determines the collision shape of the object. The following C
     - *Capsule*
          This points up the Z-Axis.
     - *Cylinder*
-         This points up the Z-Axis. The height is taken from the z-axis, while the radius is the larger of the x/y-axes.
+         This points up the Z-Axis.
+         The height is taken from the z-axis, while the radius is the larger of the x/y-axes.
     - *Cone*
-         This points up the Z-Axis. The height is taken from the z-axis, while the radius is the larger of the x/y-axes.
- - **Mesh based shapes** : these are calculated based on the geometry of the object so they are a better representation
-   of the object. The center of gravity for these shapes is the object origin.
+         This points up the Z-Axis.
+         The height is taken from the z-axis, while the radius is the larger of the x/y-axes.
+ - **Mesh based shapes** : these are calculated based on the geometry of the object so
+   they are a better representation of the object. The center of gravity for these shapes is the object origin.
 
     - *Convex Hull*
          A mesh-like surface encompassing (i.e. shrinkwrap over) all vertices (best results with fewer vertices).

@@ -5,8 +5,8 @@ Tips
 
 As with all physics-enabled objects, pay close attention to the *Animated* check box in the *Rigid Body* panel of the
 *Physics* context in the *Properties* window. A common mistake is to use keyframe animation on a *Passive* physics
-object without checking the *Animated* box. The object will move, but the physics engine will behave as if the *Passive*
-is still in its starting place, leading to disappointment.
+object without checking the *Animated* box. The object will move, but the physics engine will behave as if the
+*Passive* is still in its starting place, leading to disappointment.
 
 Animation
 =========
@@ -18,10 +18,10 @@ using the object's last known location, rotation and velocities.
 Animating the strengths of various other parameters (a :ref:`Motor's <motor-constraint>` Target Velocity, a
 :ref:`Hinge's <Hinge-constraint>` limits, etc) can be used to accomplish a wide variety of interesting results.
 
-Enabling a constraint during the physics simulation often has dramatic results as the physics engine tries to bring into
-alignment two objects which are often dramatically out of alignment. It is very common for the affected objects to build
-up enough kinetic energy to bounce themselves out of camera (and into orbit, although the physics engine is not yet
-capable of simulating a planet's gravity well, so scratch that).
+Enabling a constraint during the physics simulation often has dramatic results as the physics engine tries to bring
+into alignment two objects which are often dramatically out of alignment. It is very common for the affected objects
+to build up enough kinetic energy to bounce themselves out of camera (and into orbit, although the physics engine is
+not yet capable of simulating a planet's gravity well, so scratch that).
 
 Rigid Body dynamics can be baking to normal keyframes with *Bake To Keyframes* button in the *Physics* tab of
 the *Tool Shelf*.
@@ -33,15 +33,16 @@ The simplest way of improving simulation stability is to increase the steps per 
 since making too many steps can cause problems and make the simulation even less stable (if you need more than 1000
 steps, you should look at other ways to improve stability).
 
-Increasing the number of solver iterations helps making constraints stronger and also improves object stacking stability.
+Increasing the number of solver iterations helps making constraints stronger and also improves object stacking
+stability.
 
-It's best to avoid small objects, as they're currently unstable. Ideally, objects should be at least 20 cm in diameter.
-If it's still necessary, setting the collision margin to 0, while generally not recommended, can help making small
-object behave more naturally.
+It's best to avoid small objects, as they're currently unstable. Ideally, objects should be at least 20 cm in
+diameter.  If it's still necessary, setting the collision margin to 0, while generally not recommended, can help
+making small object behave more naturally.
 
-When objects are small and/or move very fast, they can pass through each other. Besides what's mentioned above it's also
-good to avoid using mesh shapes in this case. Mesh shapes consist of individual triangles and therefore don't really
-have any thickness, so objects can pass through more easily. You can give them some thickness by increasing the
+When objects are small and/or move very fast, they can pass through each other. Besides what's mentioned above it's
+also good to avoid using mesh shapes in this case. Mesh shapes consist of individual triangles and therefore don't
+really have any thickness, so objects can pass through more easily. You can give them some thickness by increasing the
 collision margin.
 
 Combining Rigid Bodies with Other Simulations

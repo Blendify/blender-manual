@@ -8,18 +8,19 @@ Rigid Body World panel.
 The rigid body world is a group of Rigid Body objects, which holds settings that apply to all rigid bodies in this
 simulation and can be found in *Rigid Body World* panel of *Scene* context.
 
-When you add Rigid Body physics on an object, primary there is created a group of objects with default "RigidBodyWorld"
-name. Rigid body objects automatically are added to this group when you add Rigid Body physics for them.
+When you add Rigid Body physics on an object,
+primary there is created a group of objects with default "RigidBodyWorld" name.
+Rigid body objects automatically are added to this group when you add Rigid Body physics for them.
 
 You can be create several Rigid Body World groups and allocate there yours Rigid Body objects with *Groups* panel in
 *Object* context.
 
-Rigid body objects and constraints are only taken into account by the simulation if they are in the groups specified in
-*Group* field of the *Rigid Body World* panel in the *Scene* context.
+Rigid body objects and constraints are only taken into account by the simulation if they are in the groups specified
+in *Group* field of the *Rigid Body World* panel in the *Scene* context.
 
 *Rigid Body World* checkbox
-   Enable/disable evaluation of the Rigid Body simulation based on the rigid body objects participating in the specified
-   group of Rigid Body World.
+   Enable/disable evaluation of the Rigid Body simulation based on the rigid body objects
+   participating in the specified group of Rigid Body World.
 *Remove Rigid Body World* button
    Remove Rigid Body simulation from the current scene.
 *Group*
