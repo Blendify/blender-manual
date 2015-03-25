@@ -10,3 +10,4 @@
    properties.rst
    world.rst
    constraints.rst
+   tips.rst
