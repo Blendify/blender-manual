@@ -9,8 +9,10 @@ Common Shadowing Lamps Options
    Common shadowing options for lamps
 
 
-All lamps able to cast shadows (:doc:`Lamp </render/blender_render/lighting/lamps/point/introduction>`,
-:doc:`Spot </render/blender_render/lighting/lamps/spot/introduction>`, :doc:`Area </render/blender_render/lighting/lamps/area/introduction>` and
+All lamps able to cast shadows
+(:doc:`Lamp </render/blender_render/lighting/lamps/point/introduction>`,
+:doc:`Spot </render/blender_render/lighting/lamps/spot/introduction>`,
+:doc:`Area </render/blender_render/lighting/lamps/area/introduction>` and
 :doc:`Sun </render/blender_render/lighting/lamps/sun/introduction>`) share some options, described below:
 
 This Layer Only

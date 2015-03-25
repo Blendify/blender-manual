@@ -32,7 +32,8 @@ Light rays will be sent either according to the surface BRDF,
 or in the direction of known light sources (lamps, emitting meshes with Sample as Lamp).
 
 For more details, see the
-:doc:`Light Paths </render/cycles/settings/light_paths>` and :doc:`Integrator </render/cycles/settings/integrator>` documentation.
+:doc:`Light Paths </render/cycles/settings/light_paths>` and
+:doc:`Integrator </render/cycles/settings/integrator>` documentation.
 
 
 Where Noise Comes From

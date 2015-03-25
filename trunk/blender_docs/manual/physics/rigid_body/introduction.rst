@@ -3,11 +3,11 @@
 Introduction
 ************
 
-The rigid body simulation can be used to simulate the motion of solid objects. It affects the position and orientation 
-of objects and does not deform them.
+The rigid body simulation can be used to simulate the motion of solid objects.
+It affects the position and orientation of objects and does not deform them.
 
-Unlike the other simulations in Blender, the rigid body sim works closer with the animation system. This means that 
-rigid bodies can be used like regular objects and be part of parent-child relationships, animation constraints and 
+Unlike the other simulations in Blender, the rigid body sim works closer with the animation system. This means that
+rigid bodies can be used like regular objects and be part of parent-child relationships, animation constraints and
 drivers.
 
 
@@ -17,11 +17,11 @@ Creating a Rigid Body
 Creating the Rigid Body.
 
 Right now only mesh objects can participate in the rigid body simulation.
-To create rigid bodies, either click on *Rigid Body* button in the *Physics* context of the *Properties* window or use 
-the *Add Active*/*AddPassive* buttons in the *Physics* tab of the *Tool Shelf*.
+To create rigid bodies, either click on *Rigid Body* button in the *Physics* context of the
+*Properties* window or use the *Add Active*/*AddPassive* buttons in the *Physics* tab of the *Tool Shelf*.
 
-There are two types of rigid body: active and passive. *Active* bodies are dynamically simulated, while *passive* bodies
-remain static. Both types can be driven by the animation system when using the *Animated* option.
+There are two types of rigid body: active and passive. *Active* bodies are dynamically simulated, while *passive*
+bodies remain static. Both types can be driven by the animation system when using the *Animated* option.
 
 During the simulation, the rigid body system will override the position and orientation of dynamic rigid body objects.
 Note however that the location and rotation of the objects is not changed, so the rigid body sim acts similar to a
