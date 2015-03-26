@@ -19,15 +19,8 @@ Installing Python
       *In this guide version 3.4 is used.*
 
 #. Install Python with the installation wizard.
- 
+
       *In this guide the default settings are used. Python will be installed to C:\\Python34*
-
-You can check if it installed correctly by:
-
-- Opening a command prompt (Search for ``cmd.exe`` in the start menu).
-- Run ``cd C:\Python34`` to enter the folder where Python was installed.
-- Run ``python`` - the Python shell will start and show the Python version.
-- Type ``exit()`` to leave the Python shell.
 
 
 Installing SVN and Downloading the Repository
