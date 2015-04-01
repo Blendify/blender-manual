@@ -7,7 +7,6 @@
 .. toctree::
    :maxdepth: 1
 
-   introduction.rst
    mirror.rst
    shrink-fatten.rst
    smooth.rst
