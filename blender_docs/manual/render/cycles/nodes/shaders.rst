@@ -296,7 +296,7 @@ BSDF output
 .. _cycles_shader_sss:
 
 Subsurface Scattering
-=====================
+^^^^^^^^^^^^^^^^^^^^^
 
 Simple subsurface multiple scattering, for materials such as skin, wax, marble,
 milk and others. For these materials,
@@ -322,6 +322,9 @@ Scale input
    Global scale factor for the scattering radius.
 Radius input
    Scattering radius for each RGB color channel, the maximum distance that light can scatter.
+Sharpness input
+   Used only with **Cubic** falloff.  Values increasing from 0 to 1 prevents softening of sharp edges and reduces 
+   unwanted darkening.
 Normal input
    Normal used for shading; if nothing is connected the default shading normal is used.
 Texture Blur input
@@ -346,7 +349,7 @@ BSSRDF output
 .. _cycles_shader_emission:
 
 Emission
-========
+^^^^^^^^
 
 Lambertian emission, to be used for material and lamp surface outputs.
 
@@ -388,7 +391,7 @@ Emission shaders on meshes are also in Watts/m^2.
 .. _cycles_shader_background:
 
 Background
-==========
+^^^^^^^^^^
 
 Background light emission. This node should only be used for the world surface output;
 it is ignored in other cases.
@@ -404,7 +407,7 @@ Background output
 .. _cycles_shader_holdout:
 
 Holdout
-=======
+^^^^^^^
 
 A holdout shader is useful for compositing, to create a "hole" in the image with zero alpha
 transparency where the object with this shader is located.
@@ -421,7 +424,7 @@ Holdout output
 .. _cycles_shader_ao:
 
 Ambient Occlusion
-=================
+^^^^^^^^^^^^^^^^^
 
 The ambient occlusion node gives per-material control for the amount of AO.
 When AO is enabled in the world, it affects all diffuse BSDFs in the scene.
@@ -442,7 +445,7 @@ AO output
 .. _cycles_shader_mix_add:
 
 Mix and Add
-===========
+^^^^^^^^^^^
 
 Mix or add shaders together. Mixing can be used for material layering,
 where the *Fac* input may, for example, be connected to a Blend Weight node.
