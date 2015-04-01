@@ -74,8 +74,10 @@ Incoming
 Parametric
    Parametric coordinates of the shading point on the surface.
 Backfacing
-   1.0 if the face is being viewed from the backside, 0.0 for the frontside.
-
+   1.0 if the face is being viewed from the back side, 0.0 for the front side.
+Pointiness
+   An approximation of the curvature of the mesh per-vertex.
+   Lighter values indicate convex angles, darker values indicate concave angles.
 
 Light Path
 ==========
