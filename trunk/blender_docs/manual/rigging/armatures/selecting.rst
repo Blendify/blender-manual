@@ -129,7 +129,7 @@ By :kbd:`RMB` -clicking on a bone's body, you will select it
 (and hence you will implicitly select its root and tip).
 
 To each selected bone corresponds a sub-panel in the *Armature Bones* panel
-(*Editing* context, :kbd:`F9`).
+(*Editing* context).
 These sub-panels contain settings for some of the bones' properties (regarding e.g.
 relationships between bones, bones' influence on deformed geometry, etc.),
 as we will see later.

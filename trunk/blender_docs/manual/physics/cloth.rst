@@ -447,8 +447,8 @@ Smoothing of Cloth
 Now, if you followed this from the previous section,
 your cloth is probably looking a little blocky. In order to make it look nice and smooth like
 the picture you need to apply a *Smooth* and/or *Subsurf* modifier in the
-*Modifiers* panel under the *Editing* context (:kbd:`F9`). Then,
-in the same context, find the *Links and Materials* panel
+*Modifiers* panel under the *Editing* context.
+Then, in the same context, find the *Links and Materials* panel
 (the same one you used for vertex groups) and press *Set Smooth*.
 
 Now, if you hit :kbd:`Alt-A`, things are starting to look pretty nice, don't you think?

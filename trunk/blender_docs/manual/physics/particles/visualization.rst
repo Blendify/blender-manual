@@ -347,7 +347,7 @@ Split UV's
 Billboard Split UV
    Set the name of the *UV layer* to use with billboards
    (you can use a different one for each *UV Channel*). By default, it is the active UV layer
-   (check the *Mesh* panel in the *Editing* context, :kbd:`F9`).
+   (check the *Mesh* panel in the *Editing* context.
 Animate
    Dropdown menu, indicating how the split UVs could be animated (changing from particle to particle with time):
 

@@ -12,7 +12,7 @@ Text Boxes
    :class: refbox
 
    | Mode:     *Object* or *Edit* modes
-   | Panel:    *Font* (*Editing* context, :kbd:`F9`)
+   | Panel:    *Font* (*Editing* context)
 
 
 .. figure:: /images/2.5_Manual-Part-II-Text-Frame-UpperPanel-Area.jpg
@@ -132,7 +132,7 @@ Assigning Materials
    :class: refbox
 
    | Mode:     *Edit* mode
-   | Panel:    *Link and Materials* (*Editing* context, :kbd:`F9`)
+   | Panel:    *Link and Materials* (*Editing* context)
 
 
 Each character can have a different *Material index* in order to have different

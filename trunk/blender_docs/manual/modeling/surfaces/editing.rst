@@ -148,7 +148,7 @@ NURBS Control Points Settings
    :class: refbox
 
    | Mode:     *Edit* mode
-   | Panel:    *Curve Tools* (*Editing* context, :kbd:`F9`), and *Transform Properties*
+   | Panel:    *Curve Tools* (*Editing* context), and *Transform Properties*
 
 
 We saw in a :doc:`previous page </modeling/surfaces/introduction#weight>` that NURBS control points have a weight,
@@ -392,7 +392,7 @@ Subdivision
    :class: refbox
 
    | Mode:     *Edit* mode
-   | Panel:    *Curve Tools1* (*Editing* context, :kbd:`F9`)
+   | Panel:    *Curve Tools1* (*Editing* context)
    | Menu:     :menuselection:`Surface --> Segments --> Subdivide`, :menuselection:`Specials --> Subdivide`
    | Hotkey:   :menuselection:`[W] --> [pad1]`
 
@@ -415,7 +415,7 @@ Spin
    :class: refbox
 
    | Mode:     *Edit* mode
-   | Panel:    *Curve Tools1* (*Editing* context, :kbd:`F9`)
+   | Panel:    *Curve Tools1* (*Editing* context)
 
 
 This tool is a bit similar to its :doc:`mesh counterpart </modeling/meshes/tools#spin>` -

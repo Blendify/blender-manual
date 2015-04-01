@@ -230,7 +230,7 @@ Properties
    :class: refbox
 
    | Mode:     *Edit* mode
-   | Panel:    *Armature Bones* (*Editing* context, :kbd:`F9`)
+   | Panel:    *Armature Bones* (*Editing* context)
    | Menu:     :menuselection:`Armature --> Bone Settings --> ...`
    | Hotkey:   :kbd:`Shift-W`, :kbd:`Ctrl-Shift-W`, :kbd:`Alt-W`
 
@@ -242,7 +242,7 @@ Properties
 
 
 Most bones' properties (excepted the transform ones) are regrouped in each bone's sub-panel,
-in the *Armature Bones* panel (*Editing* context, :kbd:`F9`).
+in the *Armature Bones* panel (*Editing* context`).
 Let's detail them.
 
 Note that some of them are also available in the 3D views,
@@ -288,7 +288,7 @@ Bone Rigidity Settings
    :class: refbox
 
    | Mode:     *Edit* and *Pose* modes
-   | Panel:    *Armature Bones* (*Editing* context, :kbd:`F9`)
+   | Panel:    *Armature Bones* (*Editing* context)
 
 
 .. figure:: /images/ManRiggingEditingCxtArmatureBonesPanelPoseMode.jpg
@@ -349,7 +349,7 @@ Chain Editing
    :class: refbox
 
    | Mode:     *Edit* mode
-   | Panel:    *Armature Bones* (*Editing* context, :kbd:`F9`)
+   | Panel:    *Armature Bones* (*Editing* context)
    | Menu:     :menuselection:`Armature --> Parent --> ...`
    | Hotkey:   :kbd:`Ctrl-P`, :kbd:`Alt-P`
 
@@ -426,13 +426,13 @@ Naming Bones
    :class: refbox
 
    | Mode:     *Edit* mode
-   | Panel:    *Armature Bones* (*Editing* context, :kbd:`F9`), *Transform Properties* (3D views, :kbd:`N`)
+   | Panel:    *Armature Bones* (*Editing* context), *Transform Properties* (3D views, :kbd:`N`)
 
 
 You can rename your bones, either using the *Bone* field of the *Transform Properties*
 panel in the 3D views, for the active bone (:kbd:`N`),
 or using the *BO* field in each bone sub-panel of the *Armature Bones* panel
-(*Editing* context, :kbd:`F9`).
+(*Editing* context).
 
 Blender also provides you some tools that take advantage of bones named in a left/right
 symmetry fashion, and others that automatically name the bones of an armature.

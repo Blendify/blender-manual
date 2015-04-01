@@ -7,9 +7,8 @@ Text Objects
    :class: refbox
 
    | Mode:     *Edit* mode (*Text*)
-   | Panel:    *Curve and Surface*, *Font* and *Char* (*Editing* context, :kbd:`F9`)
+   | Panel:    *Curve and Surface*, *Font* and *Char* (*Editing* context)
    | Menu:     :menuselection:`Add --> Text`
-   | Hotkey:   :kbd:`F9`
 
 
 .. figure:: /images/Manual-Part-II-TextSamples.jpg
@@ -80,7 +79,7 @@ Editing text is quite different from other object types in Blender, and happens 
 First, the 3D view, of course, where you type your text, and have a few shortcuts, e.g. for applying
 styles (see `Character`_) - note however that most Blender hotkeys you know in *Edit*
 mode do not exist for texts! The second place is the *Button* window
-(*Editing* context, :kbd:`F9`), especially the *Font* panel.
+(*Editing* context), especially the *Font* panel.
 
 The menu of the 3D view header has nearly no use,
 and there is no *Specials* menu... You have no transform nor mirror tools, and so on.
@@ -228,7 +227,7 @@ Fonts
    :class: refbox
 
    | Mode:     *Edit* mode
-   | Panel:    *Font* (*Editing* context, :kbd:`F9`)
+   | Panel:    *Font* (*Editing* context)
 
 
 The *Font* panel has several options for changing the look of characters.
@@ -310,7 +309,7 @@ so let's detail it:
   ``common prefix`` followed by the ``char name`` (e.g. ``ft.a``, ``ft.b``, etc.).
 - Then, for the *Text* object, you must enable the *Dupli Verts* button
   (*Object* context - :kbd:`F7` -, *Anim Settings* panel).
-- Back in *Editing* context (:kbd:`F9`), in the *Font* panel,
+- Back in *Editing* context, in the *Font* panel,
   fill the *Ob Family* field with the *common prefix* of your "font" objects.
 
 Now, each time a char in your text matches the *suffix part* of a "font" object's name,
@@ -467,7 +466,7 @@ Shape
    :class: refbox
 
    | Mode:     *Object* or *Edit* modes
-   | Panel:    *Curve and Surface* (*Editing* context, :kbd:`F9`)
+   | Panel:    *Curve and Surface* (*Editing* context)
 
 
 As you can see in the *Curve and Surface* panel,
