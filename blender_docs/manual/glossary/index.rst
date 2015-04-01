@@ -410,7 +410,7 @@
       can be created within mesh-based models.
 
    Render
-      Proccess of generating an image out of a 3D model on a computer.
+      Process of generating an image out of a 3D model on a computer.
 
    Scanline
       Rendering technique. Much faster than :term:`raytracing`,

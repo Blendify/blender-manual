@@ -24,9 +24,8 @@ X, Y, Z
    Toggle buttons to enable/disable the modifier in the X, Y and/or Z axes directions.
 Factor
    The factor to control the smoothing amount.
-   The smoothing ranges from ``0.0`` to ``1.0`` (``0.0`` : disabled,
-   ``0.5`` : same as the *Smooth* button, ``1.0`` : maximum).
-   Alternatively, values outside this range (above ``1.0`` or below ``0.0``) distort the mesh.
+   Higher values will increase the effect.
+   Values outside this range (above ``1.0`` or below ``0.0``) distort the mesh.
 Repeat
    The number of smoothing iterations, equivalent to pressing the
    :doc:`Smooth </modeling/meshes/editing/deforming/introduction#smooth>` button multiple times.
