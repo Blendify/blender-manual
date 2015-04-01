@@ -54,6 +54,7 @@ Deform
 
    deform/armature.rst
    deform/cast.rst
+   deform/corrective_smooth.rst
    deform/curve.rst
    deform/displace.rst
    deform/hooks.rst
