@@ -168,7 +168,7 @@ First, start with a :doc:`Cube </modeling/meshes/primitives#cube>`.
 
 - Press :kbd:`Tab` to switch into *Edit* mode.
 - Make sure all the vertices of the cube are selected by pressing :kbd:`A` twice.
-  Then, go to the *Editing* context by pressing :kbd:`F9`. You should be able to see the *Mesh Tools* panel now.
+  Then, go to the *Editing* context. You should be able to see the *Mesh Tools* panel now.
 - Subdivide the cube by pressing the *Subdivide* button in the *Mesh Tools* panel,
   or with :menuselection:`[W] --> Subdivide`.
   You can do this as many times as you want; the more you subdivide, the smoother your sphere will be.

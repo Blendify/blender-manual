@@ -121,7 +121,7 @@ you see it by default in its *pose position* (i.e.
 as it was transformed in the *Pose* mode).
 If you want to see it in the rest position in all modes,
 enable the *Rest Position* button in the *Armature* panel
-(*Editing* context, :kbd:`F9`).
+(*Editing* context).
 
 
 In-Betweens

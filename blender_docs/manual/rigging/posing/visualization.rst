@@ -20,7 +20,7 @@ Colors
 
 In *Pose* mode, the bones can have different colors,
 following two different processes, controlled by the *Color* button
-(*Armature* panel, *Editing* context, :kbd:`F9`):
+(*Armature* panel, *Editing* context):
 
 - When it is disabled,
   bones are colored based on their "state" (i.e. if they use constraints, if they are posed, etc.).
@@ -56,8 +56,7 @@ Coloring from Bone Group
 
 The bone groups panel is available in the Object data editor for an armature.
 Bone groups facilitate the coloring (theming) of multiple bones.
-Bone groups are managed mostly in the *Buttons* window, *Editing* context
-(:kbd:`F9`).
+Bone groups are managed mostly in the *Buttons* window, *Editing* context.
 
 To create a new bone group,
 click on the *Add Group* button in the *Bone Groups:* buttons set
@@ -154,7 +153,7 @@ The ghosts are simply black drawings (more or less opaque)
 of the bones' outlines as they are at certain frames.
 
 The ghosts settings are found in the *Visualisations* panel
-(*Editing* context, :kbd:`F9`), only available in *Pose* mode.
+(*Editing* context), only available in *Pose* mode.
 You have three different types of ghosts, sharing more or less the same options:
 
 Around Current Frame
@@ -225,9 +224,9 @@ This feature allows you to visualize as curves the paths of bones' ends (either 
 by default, or their roots).
 
 Before we look at its options (all regrouped in the same *Visualisations* panel,
-in the *Editing* context, :kbd:`F9`), let's first see how to display/hide these paths. Unlike
-`Ghosts`_,
-you have to do it manually - and you have to first select the bones you want to show/hide the motion paths. Then,
+in the *Editing* context), let's first see how to display/hide these paths.
+Unlike `Ghosts`_, you have to do it manually -
+and you have to first select the bones you want to show/hide the motion paths. Then,
 
 - To show the paths (or update them, if needed),
   click on the *Calculate Path* button of the *Visualisations* panel, or,

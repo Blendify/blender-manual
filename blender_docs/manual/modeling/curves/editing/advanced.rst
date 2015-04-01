@@ -83,7 +83,8 @@ Note however that when you have more than one curve in the "parent" object,
 its "children" will only follow the first one.
 
 The *Stretch* curve option allows you to let the mesh object stretch, or squeeze,
-over the entire curve. This option is in *Editing* Context (:kbd:`F9`),
+over the entire curve.
+This option is in *Object Data* properties,
 for the "parent" curve. See (*Curve and Surface* *panel*).
 
 
@@ -128,7 +129,7 @@ Let's make a simple example:
 - Now, you can use the new, modern, modifier way of "curving" the Monkey:
 
   - Select the Monkey (:kbd:`RMB`).
-  - In the *Editing* context (:kbd:`F9`), *Modifiers* panel, add a *Curve* modifier.
+  - In the *Object Modifiers* properties, *Modifiers* panel, add a *Curve* modifier.
   - Type the name of the curve (should be ``Curve``) in the *Ob* field of the modifier,
     and optionally change the dominant axis to *Y*.
 - Or you can choose the old, deprecated method (note that it creates a "virtual" modifier...):
@@ -149,7 +150,7 @@ Let's make a simple example:
 
 - In (*Monkey deformations*), you can see the Monkey at different positions along the curve.
   To get a cleaner view over the deformation I have activated *SubSurf* with *Subdiv* to **2**,
-  and *Set Smooth* on the Monkey mesh (:kbd:`F9` to get *Editing* context).
+  and *Set Smooth* on the Monkey mesh.
 
 
 .. tip::
@@ -178,7 +179,7 @@ Extrusion
    :class: refbox
 
    | Mode:     *Object* or *Edit* mode
-   | Panel:    *Curve and Surface* (*Editing* context, :kbd:`F9`)
+   | Panel:    *Curve and Surface*
 
 
 Extrusion can be especially with the bevel/taper/Tilt/Radius options.
@@ -322,7 +323,7 @@ Let's taper a simple curve circle extruded object using a taper curve. Add a cur
 then exit *Edit*
 mode. Add another one (a closed one, like a circle); call it ``BevelCurve``,
 and enter its name in the *BevOb* field of the first curve
-(*Editing* context :kbd:`F9`, *Curve and Surface* panel).
+(*Editing* context *Curve and Surface* panel).
 We now have a pipe.
 Add a third curve while in *Object* mode and call it ``TaperCurve``.
 Adjust the left control-point by raising it up about 5 units.
