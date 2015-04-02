@@ -22,13 +22,13 @@ It can be activated in the *Sampled Motion Blur* panel of the render settings.
 This kind of motion blur is done during the render.
 
 Motion Samples
-   Set the number of samples to take for each frame.  The higher the samples, the
-   smoother the blur effect, but the longer the render, as each virtual intermediate 
-   frame has to be rendered.
-
+   Set the number of samples to take for each frame.
+   The higher the samples, the smoother the blur effect,
+   but the longer the render, as each virtual intermediate frame has to be rendered.
 Shutter
-   Time (in frames) the shutter is open.  If you are rendering at 24 fps, 
-   and the Shutter is set to .5, the time in between frames is 41.67 ms, so the 
+   Time (in frames) the shutter is open.
+   If you are rendering at 24 fps, and the Shutter is set to 0.5,
+   the time in between frames is 41.67 ms, so the
    shutter is open for half that, 20.83 ms.
 
 .. note::

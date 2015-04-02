@@ -323,8 +323,8 @@ Scale input
 Radius input
    Scattering radius for each RGB color channel, the maximum distance that light can scatter.
 Sharpness input
-   Used only with **Cubic** falloff.  Values increasing from 0 to 1 prevents softening of sharp edges and reduces 
-   unwanted darkening.
+   Used only with **Cubic** falloff.
+   Values increasing from 0 to 1 prevents softening of sharp edges and reduces unwanted darkening.
 Normal input
    Normal used for shading; if nothing is connected the default shading normal is used.
 Texture Blur input

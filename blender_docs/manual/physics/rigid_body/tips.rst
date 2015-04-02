@@ -36,9 +36,10 @@ steps, you should look at other ways to improve stability).
 Increasing the number of solver iterations helps making constraints stronger and also improves object stacking
 stability.
 
-It's best to avoid small objects, as they're currently unstable. Ideally, objects should be at least 20 cm in
-diameter.  If it's still necessary, setting the collision margin to 0, while generally not recommended, can help
-making small object behave more naturally.
+It's best to avoid small objects, as they're currently unstable.
+Ideally, objects should be at least 20 cm in diameter.
+If it's still necessary, setting the collision margin to 0,
+while generally not recommended, can help making small object behave more naturally.
 
 When objects are small and/or move very fast, they can pass through each other. Besides what's mentioned above it's
 also good to avoid using mesh shapes in this case. Mesh shapes consist of individual triangles and therefore don't

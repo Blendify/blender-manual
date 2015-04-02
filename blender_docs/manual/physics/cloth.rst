@@ -379,8 +379,7 @@ the starting shape of the mesh back to the *first frame* of the animation,
 replacing the original shape you started with,
 up to the frame you were on when you edited the mesh. Therefore,
 if you change the content of a mesh, when you :kbd:`Tab` out of *Edit mode*,
-you should unprotect and clear the cache ..    Comment: <!--''From next frame'' ???--> . so that Blender will
-make a consistent simulation.
+you should unprotect and clear the cache so that Blender will make a consistent simulation.
 
 
 Troubleshooting

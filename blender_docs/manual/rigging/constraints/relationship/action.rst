@@ -18,20 +18,19 @@ Note that even if the constraint accepts the *Mesh* action type,
 only the *Object*,
 *Pose* and *Constraint* types are really working,
 as constraints can only affect objects' or bones' transform properties,
-and not meshes' shapes... . Also note that only the object transformation (location, rotation,
-scale) is affected by the action,
-if the action contains keyframes for other properties they are ignored,
-as constraints do not influence those.
+and not meshes' shapes.
+Also note that only the object transformation (location, rotation, scale) is affected by the action,
+if the action contains keyframes for other properties they are ignored, as constraints do not influence those.
 
 As an example, let's assume you have defined an *Object* action
 (it can be assigned to any object, or even no object at all),
 and have mapped it on your owner through an *Action* constraint,
-so that moving the target in the ``[0.0,
-2.0]`` range along its X axis maps the action content on the owner in the ``[0,
-100]`` frame range. This will mean that when the target's X property is **0.0**,
-the owner will be as if in frame **0** of the linked action;
-with the target's X property at **1.0**,
-the owner will be as if in frame **50** of the linked action, etc.
+so that moving the target in the ``[0.0, 2.0]``
+range along its X axis maps the action content on the owner in the ``[0, 100]``
+frame range. This will mean that when the target's X property is ``0.0``
+the owner will be as if in frame ``0`` of the linked action;
+with the target's X property at ``1.0``
+the owner will be as if in frame ``50`` of the linked action, etc.
 
 
 Options
@@ -72,7 +71,7 @@ Object Action
 
 Target Range Min / Max
    The lower and upper bounds of the driving transform property value.
-   By default, both values are set to **0.0**
+   By default, both values are set to ``0.0``
 
  .. warning::
 
@@ -87,8 +86,8 @@ Action Range Start / End
    Note that:
 
    - These values must be strictly positive.
-   - By default, both values are set to **0**, which disables the mapping (i.e.
-     the owner just gets the properties defined at frame **0** of the linked action...).
+   - By default, both values are set to ``0`` which disables the mapping (i.e.
+     the owner just gets the properties defined at frame ``0`` of the linked action...).
 
 
 Notes
