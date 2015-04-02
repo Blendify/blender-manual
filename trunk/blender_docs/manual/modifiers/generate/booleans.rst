@@ -268,7 +268,7 @@ other Boolean modifier(s) in the stack for subsequent operations.
 
 Also, if some other modifiers are placed above this modifier and you click on Apply,
 Blender will warn you with the message ``"Applied Modifier was not first,
-results may not be as expected"`` . The best usage scenario for this modifier is to
+results may not be as expected"``. The best usage scenario for this modifier is to
 prepare your modified mesh and target to work with the Boolean modifier.
 
 When the Boolean modifier is the first of the stack and is applied, the other Modifiers will

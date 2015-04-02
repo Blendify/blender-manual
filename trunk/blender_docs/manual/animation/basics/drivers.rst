@@ -366,12 +366,12 @@ and uses the maximum value to determine how much the base should be
 extended. The generator polynomial is crafted such that the top of
 the dominant stack should line up with the bone for that stack.
 
-The value of Key2A is bound to the position of bone.L . Its generator
+The value of Key2A is bound to the position of ``Bone.L``. Its generator
 parameters are crafted such that when Key1's value reaches 1, the
 value of Key2A starts increasing beyond zero. In this way the top of
 the left stack will move with bone.L (mostly).
 
-The value of Key2B is bound to the position of bone.R . Its generator
+The value of Key2B is bound to the position of ``Bone.R``. Its generator
 parameters are similar to Key2A so that the top of the right stack
 will move with bone.R (mostly).
 

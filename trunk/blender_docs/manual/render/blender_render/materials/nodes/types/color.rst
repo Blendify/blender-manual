@@ -121,7 +121,7 @@ Fac
 Hue
    Input hue value of color. The value can be provided by another node or set manually.
 Saturation
-   Input saturation value of color . The value can be provided by another node or set manually.
+   Input saturation value of color. The value can be provided by another node or set manually.
 Value
    Input HSV-Value of color. The value can be provided by another node or set manually.
 Fac
