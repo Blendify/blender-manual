@@ -103,8 +103,7 @@ The advantage of using Blender's sequence editor lies in the easier synchronizat
 by sequencing frames and sound in the same application.
 
 To enable audio synchronisation after importing an audio track,
-select the *Scene* button (:kbd:`F10`)
-in the buttons window then choose the *Sound Block* Button (small blue sine wave).
+select the *Scene* button in the buttons window then choose the *Sound Block* Button (small blue sine wave).
 In here you'll see the *Sync* and *Scrub* tools.
 
 Sync
