@@ -3,7 +3,7 @@
 The Stack
 *********
 
-Modifiers are a series of non-destructive operations which can be applied ontop of a mesh.
+Modifiers are a series of non-destructive operations which can be applied on top of an objects geometry.
 They can be applied in just about any order the users chooses.
 
 This kind of functionality is often referred to as a "modifier stack"
