@@ -173,12 +173,13 @@ The Brush stroke definition
    Stroke Panel
 
 
-Stroke Method:
-
-- **Airbrush** : Keep applying paint effect while holding mouse down (spray)
-- **Space** : Limit brush application to the distance specified by spacing (see below)
-- **Dots** : Apply paint on each mouse move step
-
+Stroke Method
+   Airbrush
+      Keep applying paint effect while holding mouse down (spray)
+   Space
+      Limit brush application to the distance specified by spacing (see below)
+   Dots
+      Apply paint on each mouse move step
 Rate (only for Airbrush)
    Interval between paints for airbrush
 Spacing (only for Space)
