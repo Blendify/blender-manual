@@ -308,7 +308,7 @@ so let's detail it:
   They all must have a name following the schema:
   ``common prefix`` followed by the ``char name`` (e.g. ``ft.a``, ``ft.b``, etc.).
 - Then, for the *Text* object, you must enable the *Dupli Verts* button
-  (*Object* context - :kbd:`F7` -, *Anim Settings* panel).
+  (*Object* context - *Anim Settings* panel).
 - Back in *Editing* context, in the *Font* panel,
   fill the *Ob Family* field with the *common prefix* of your "font" objects.
 

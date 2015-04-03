@@ -69,7 +69,7 @@ The dominant axis setting is set on the mesh object.
 By default the dominant axis in Blender is *Y*.
 This can be changed by selecting one of the *Track X*,
 *Y* or *Z* buttons in the *Anim* Panel,
-(*Anim settings* *panel*), in *Object* context (:kbd:`F7`).
+(*Anim settings* *panel*), in *Object* context.
 
 
 .. figure:: /images/2.5_Manual-Part-II-curvesDeform_curveAndSurfacePanel.jpg

@@ -53,7 +53,7 @@ such as *Armature* and *Smooth*. In these cases,
 the ultimate shape of the mesh is computed in accordance with the order of the modifier stack. For example,
 you should smooth the cloth *after* the modifier computes the shape of the cloth.
 
-So you edit the Cloth settings in two places: use the F7 Physics buttons to edit the
+So you edit the Cloth settings in two places: use the Physics buttons to edit the
 properties of the cloth and use the Modifier stack to edit the Modifier properties related to
 display and interaction with other modifiers.
 
@@ -415,8 +415,7 @@ you'll need to subdivide it several times. I did it 8 times for this example.
 So :kbd:`Tab` into *Edit mode*,
 and press :kbd:`W` --> *Subdivide multi*, and set it to 8.
 
-Now, we'll make this cloth by going to the *Object* context
-(:kbd:`F7`) --> *Physics* sub-context.
+Now, we'll make this cloth by going to the *Object* context --> *Physics* sub-context.
 Scroll down until you see the *Cloth* panel, and press the *Cloth* button.
 Now, a lot of settings will appear, most of which we'll ignore for now.
 

@@ -99,10 +99,9 @@ Redo Last
    | Hotkey:   :kbd:`F6`
 
 
-Redo Last (New feature) is short for *Redo(ing your) Last (Action)*. Hitting
-:kbd:`F6` after an action will present you a context-sensitive Pop-Up Window based on
-your last action taken and the *Mode* and *Window* in which Blender is
-being used.
+Redo Last (New feature) is short for *Redo(ing your) Last (Action)*.
+Hitting :kbd:`F6` after an action will present you a context-sensitive
+Pop-Up Window based on your last action taken and the *Mode* and *Window* in which Blender is being used.
 
 For example, if your last action was a rotation in *Object* Mode,
 the Window will show you the last value changed for the angle (see Fig:Redo Last - Rotation),
