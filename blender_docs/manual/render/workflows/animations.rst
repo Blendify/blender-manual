@@ -137,7 +137,7 @@ Post Processing Panel
 Hints
 =====
 
-Argh! My bratty sister turned off the PC right in the middle of rendering my movie!
+You accidentally turned off you're PC right in the middle of rendering my movie!
    Unless your animation is really simple, and you expect it to render in half an hour or less,
    it is always a good idea to render the animation as separate image frames in a loss-less format (TGA, PNG, BMP)
    rather than as a movie file from the beginning.
