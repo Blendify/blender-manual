@@ -74,6 +74,8 @@ To find out more about how to copy or link objects across ``.blend`` files,
 see :doc:`click here </data_system/linked_libraries>`.
 
 
+.. _pack-unpack-data:
+
 
 Pack and Unpack Data
 ====================
