@@ -3,9 +3,11 @@
 The Stack
 *********
 
-A modifier is defined as the application of a "process" or "algorithm" upon objects. They can
-be applied in just about any order the users chooses. This kind of functionality is often referred to as a
-"modifier stack" and is also found in several other 3D applications.
+Modifiers are a series of non-destructive operations which can be applied ontop of a mesh.
+They can be applied in just about any order the users chooses.
+
+This kind of functionality is often referred to as a "modifier stack"
+and is also found in several other 3D applications.
 
 In a modifier stack the order in which modifiers are applied has an effect on the result.
 Fortunately modifiers can be rearranged easily by clicking the convenient up and down arrow icons.
@@ -26,8 +28,9 @@ On the left, the *Mirror* modifier is the last item in the stack and
 the result looks like two surfaces. On the right, the *Subsurf* modifier is the last
 item in the stack and the result is a single merged surface.
 
-Modifiers are calculated from top to bottom in the stack. In this example, the desired result (on right) is achieved
-by first mirroring the object, and then calculating the subdivision surface.
+Modifiers are calculated from top to bottom in the stack.
+In this example, the desired result (on right) is achieved by first mirroring the object,
+and then calculating the subdivision surface.
 
 
 Example

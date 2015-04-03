@@ -6,6 +6,7 @@ Contribute
 Whether you'd like to fix a tiny spelling mistake or rewrite an entire chapter,
 your help with the Blender manual is most welcome!
 
+
 How It Works
 ============
 
