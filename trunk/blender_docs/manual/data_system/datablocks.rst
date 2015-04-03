@@ -13,7 +13,7 @@ the properties set for those data-blocks, and the way the data-blocks link to ea
 Datablocks can reside within as many ``.blend`` files as needed for good project organization.
 
 
-.. figure:: /images/Doc26-data-blocks.jpg
+.. figure:: /images/Doc26-datablocks.jpg
    :width: 400px
 
    Datablocks view
