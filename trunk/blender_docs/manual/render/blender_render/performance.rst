@@ -202,14 +202,12 @@ There are compelling advantages to this approach:
   B, Alpha *(transparency...)* and Z-Depth information," so they're consistently fast.
 - Since each discrete rendering task has been simplified, the computer can carry them out using much fewer resources.
 - The tasks can be distributed among several different computers ... even less-powerful ones
-  (like the two older machines that are sitting in your closet right now because you can't get rid of them).
 - "After all, the scene doesn't actually have to be *physically perfect,* to be *convincing.* "
   A compositing-based approach lets you take full advantage of this.
   You can focus your attention (and Blender's)
   upon those specific aspects of the scene which will actually make a noticeable difference.
   It is possible to save a considerable amount of time by consciously choosing to exclude
-  less-important aspects which
-  (although "technically correct") probably won't be noticed.
+  less-important aspects which (although "technically correct") probably won't be noticed.
 
 Of course, this approach is not without its own set of trade-offs. You must devise a workable
 asset-management system for keeping track of exactly what material you have, where it is,
