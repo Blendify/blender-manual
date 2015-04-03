@@ -23,7 +23,7 @@ Options
 
 .. figure:: /images/Manual-Part-XI-Render07.jpg
 
-   Toon edge buttons (F10).
+   Toon edge buttons.
 
 
 Edge
@@ -32,7 +32,7 @@ Edge
 
 .. figure:: /images/Manual-Part-XI-Render08.jpg
 
-   Toon edge settings (F10).
+   Toon edge settings.
 
 
 Before repeating the rendering it is necessary to set some parameters:
