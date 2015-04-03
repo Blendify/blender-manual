@@ -38,7 +38,7 @@ New
 :doc:`Export </data_system/files/import_export>`
    Normally you save your work in a .blend file,
    but you can export some or all of your work to a format that can be processed by other graphics programs.
-:rev:`External Data <pack-unpack-data>`
+:ref:`External Data <pack-unpack-data>`
    Pack into .blend
       Pack all used external files into the .blend
    Unpack into Files
