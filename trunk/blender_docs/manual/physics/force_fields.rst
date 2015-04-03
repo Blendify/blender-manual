@@ -32,7 +32,6 @@ Creating a Force Field
 
    | Mode:     *Object* Mode
    | Panel:    *Object* context --> *Physics* sub-context --> *Fields*
-   | Hotkey:   :kbd:`F7`
 
 
 To create a single Force Field,
