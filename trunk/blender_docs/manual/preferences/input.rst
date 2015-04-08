@@ -116,7 +116,7 @@ Continuous Grab
 
    .. note::
 
-      Cursor warping is only supported by *relative* input devices (mouse, trackback, trackpad).
+      Cursor warping is only supported by *relative* input devices (mouse, trackball, trackpad).
 
       Graphics tablets however, typically use *absolute* positioning,
       this feature is disabled when a tablet is being used

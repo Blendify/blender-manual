@@ -73,7 +73,8 @@ Choose the type of texture that is used for the current texture datablock.
 
 
 - :doc:`Procedural Textures </render/blender_render/textures/types/procedural>`
-- :doc:`Image </render/blender_render/textures/types/image>` and :doc:`Video </render/blender_render/textures/types/video>` Textures
+- :doc:`Image </render/blender_render/textures/types/image>` and
+  :doc:`Video </render/blender_render/textures/types/video>` Textures
 - :doc:`Environment Map </render/blender_render/textures/mapping/environment>`
 - :doc:`Volume Textures </render/blender_render/textures/types/volume>`
 - Ocean Texture
