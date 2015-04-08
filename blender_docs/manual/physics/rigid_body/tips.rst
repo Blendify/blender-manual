@@ -8,6 +8,7 @@ As with all physics-enabled objects, pay close attention to the *Animated* check
 object without checking the *Animated* box. The object will move, but the physics engine will behave as if the
 *Passive* is still in its starting place, leading to disappointment.
 
+
 Animation
 =========
 
@@ -25,6 +26,7 @@ not yet capable of simulating a planet's gravity well, so scratch that).
 
 Rigid Body dynamics can be baking to normal keyframes with *Bake To Keyframes* button in the *Physics* tab of
 the *Tool Shelf*.
+
 
 Simulation Stability
 ====================
@@ -46,14 +48,16 @@ also good to avoid using mesh shapes in this case. Mesh shapes consist of indivi
 really have any thickness, so objects can pass through more easily. You can give them some thickness by increasing the
 collision margin.
 
+
 Combining Rigid Bodies with Other Simulations
 =============================================
 
 Since the rigid body simulation is part of the animation system, it can influence other simulations just like the
 animation system can.
 
-In order for this to work, the rigid body object needs to have a collision modifier. Simply click on *Collision* in the
-*Physics* context.
+In order for this to work, the rigid body object needs to have a collision modifier.
+Simply click on *Collision* in the *Physics* context.
+
 
 Scaling Rigid Bodies
 ====================
