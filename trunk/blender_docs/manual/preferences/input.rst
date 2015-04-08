@@ -109,7 +109,20 @@ Emulate 3 Button Mouse
    combinations shown in the table. For Example,
    :kbd:`Shift-Alt-RMB` becomes :kbd:`Shift-Alt-Cmd-LMB` on a single-button mouse.
 Continuous Grab
-   Allows moving the mouse outside of the view (for translation, rotation, scale for example).
+   This feature is used to prevent the problem where an action such as grabbing or panning a view,
+   is limited by your screen bounds.
+
+   This is done by warping the mouse within the view.
+
+   .. note::
+
+      Cursor warping is only supported by *relative* input devices (mouse, trackback, trackpad).
+
+      Graphics tablets however, typically use *absolute* positioning,
+      this feature is disabled when a tablet is being used
+
+      This is detected for each action,
+      so the presence of a tablet wont disable continuous-grab for mouse cursor input.
 Drag Threshold
    The number of pixels that a User Interface element has to be moved before it is recognized by Blender.
 Select with
