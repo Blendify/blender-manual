@@ -32,8 +32,8 @@ Inputs
 Fac
    The amount of mixing of the bottom socket is selected by the Factor input field (Fac:).
    A factor of zero does not use the bottom socket, whereas a value of ``1.0`` makes full use.
-   In Mix mode, 50:50 (0.50) is an even mix between the two,
-   but in Add mode, ``0.5`` means that only half of the second socket's influence will be applied.
+   In Mix mode, ``0.5`` is an even mix between the two, but in Add mode,
+   ``0.5`` means that only half of the second socket's influence will be applied.
 Color 1
    Input color value. The value can be provided by another node or set manually.
    Includes a color swatch, allowing you to select the color directly on the node.

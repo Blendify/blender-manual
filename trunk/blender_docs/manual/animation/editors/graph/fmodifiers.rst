@@ -81,9 +81,9 @@ Allows you to adjust the overall shape of a curve with control points.
 Reference Value
    Set the Y value the envelope is centered around.
 Min
-   Lower distance from Reference Value for 1:1 default influence.
+   Lower distance from Reference Value for ``1:1`` default influence.
 Max
-   Upper distance from Reference Value for 1:1 default influence.
+   Upper distance from Reference Value for ``1:1`` default influence.
 
 Add Point
    Add a set of control points. They will be created at the current frame.

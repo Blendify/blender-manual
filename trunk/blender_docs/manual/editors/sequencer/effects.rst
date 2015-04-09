@@ -322,14 +322,14 @@ Creating a Slow-Motion Effect
    50% Slow motion using Speed Control
 
 
-Suppose you want to sssslooow your strip dowwwwwwn.
+Suppose you want to slow your strip down.
 You need to affect the speed of the video clip without affecting the overall frame rate.
 Select the clip and Add-->Effect-->Speed Control effect strip.
 Click to drop it and press :kbd:`N` to get the Properties.
 Uncheck the *Stretch to input strip length* option in the Effect Strip section.
 Set the Speed factor to be the factor by which you want to adjust the speed.
-To cut the displayed speed by 50%, enter 0.50. Now, a 275-frame clip will play at half speed,
-and thus display only the first 137 frames.
+To cut the displayed speed by 50%, enter ``0.5``.
+Now, a 275-frame clip will play at half speed, and thus display only the first 137 frames.
 
 If you want the remaining frames to show in slo-mo after the first set is displayed,
 double the Length of the source strip
