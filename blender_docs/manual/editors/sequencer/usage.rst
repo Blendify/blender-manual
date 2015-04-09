@@ -462,8 +462,8 @@ View all Sequences :kbd:`Home`
    Zooms (out) the display to show all strips.
 Fit preview in Window :kbd:`Home`
    Resizes preview so that it fits in the window.
-Show Preview 1:1 :kbd:`Numpad1`
-   Resizes preview to a 1:1 scale (actual size).
+Show Preview ``1:1`` :kbd:`Numpad1`
+   Resizes preview to a ``1:1`` scale (actual size).
 View Selected :kbd:`NumpadPeriod`
    Zooms in the display to fit only the selected strips
 

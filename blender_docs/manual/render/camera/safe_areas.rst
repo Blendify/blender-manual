@@ -63,5 +63,5 @@ Old TV sets receiving ``16:9`` or ``21:9`` video will cut off the sides.
 Position content inside the center-cut areas to make sure the most important elements
 of your composition can still be visible in these screens.
 
-Blender defaults show a 4:3 (square) ratio inside 16:9 (wide-screen).
+Blender defaults show a ``4:3`` (square) ratio inside ``16:9`` (wide-screen).
 
