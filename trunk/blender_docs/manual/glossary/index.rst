@@ -12,6 +12,9 @@
       Blender makes a distinction between selected and active.
       Only one Object or item can be active at any given time.
 
+   Action Safe
+     Area of the screen visible on most devices. Place content inside it to ensure it doesn't get cut off. 
+
    Actuator
       A :term:`logic brick` that acts like a muscle of a lifeform. It can move the object, or also make a sound.
 
@@ -345,6 +348,12 @@
 
       Also called **Anti-Aliasing**.
 
+   Overscan
+      Overscan is the term used to describe the situation
+      when not all of a televised image is present on a viewing screen
+      See Wikipedia's:
+      `Overscan <http://en.wikipedia.org/wiki/Overscan>`__
+
    Particle system
       It's a technique that simulate certain kinds of fuzzy phenomena,
       which are otherwise very hard to reproduce with conventional rendering techniques.
@@ -450,6 +459,10 @@
       Is the tool which subdivides your model at render-time, without affecting your mesh at design-time.
 
       Also called: **Subsurf**.
+
+   Title Safe
+     Area of the screen visible on all devices. Place text and graphics inside this area to make sure they don't get 
+     cut off.
 
    Texture
       A texture specifies visual patterns on surfaces and simulates physical surface structure.

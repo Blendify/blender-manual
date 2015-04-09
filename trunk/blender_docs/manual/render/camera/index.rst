@@ -8,3 +8,4 @@
 
    introduction.rst
    lens.rst
+   safe_areas.rst
