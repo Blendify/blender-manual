@@ -165,9 +165,6 @@ Mist
    Camera view displaying safe areas, sensor and name
 
 
-Safe Areas
-   When this is enabled, extra dotted frames are drawn when in camera view,
-   delimiting the area considered as "safe" for important things.
 Sensor
    Displays a dotted frame in camera view.
 Name
@@ -206,6 +203,13 @@ Harmonious Triangle A
 Harmonious Triangle B
    Same as A, but with the opposite corners.
 
+
+Safe Areas
+^^^^^^^^^^^^^^^^^^
+
+When this is enabled, extra dotted frames are drawn when in camera view, delimiting the area considered as 
+"safe" for important elements. :doc:`More information about them in the safe areas section
+</editors/sequencer/safe_areas>`.
 
 Camera Navigation
 =================
