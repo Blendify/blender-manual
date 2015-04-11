@@ -1,4 +1,3 @@
-
 ..    TODO/Review: {{review|text=Some parts need to be updated, wiki notes have been added below.}} .
 
 
@@ -241,14 +240,14 @@ Header Controls
 The Timeline header controls.
 
 
-.. figure:: /images/K_Doc_Timeline_Header.jpg
+.. figure:: /images/animation_editors_timeline_header.png
    :width: 700px
 
    Timeline header controls.
 
 
-'''I''' Range Control
-^^^^^^^^^^^^^^^^^^^^^
+1. Range Control
+^^^^^^^^^^^^^^^^
 
    Use Preview Range
       This is an alternative range used to preview animations.
@@ -258,8 +257,8 @@ The Timeline header controls.
       This limits the *Time Cursor* to the *Playback Range*.
 
 
-'''II''' Frame Control
-^^^^^^^^^^^^^^^^^^^^^^
+2. Frame Control
+^^^^^^^^^^^^^^^^
 
    Start Frame
       The start frame of the animation / playback range.
@@ -272,8 +271,8 @@ The Timeline header controls.
       Also the position of the *Time Cursor*.
 
 
-'''III''' Player Control
-^^^^^^^^^^^^^^^^^^^^^^^^
+3. Player Control
+^^^^^^^^^^^^^^^^^
 
    These button are used to set, play, rewind, the *Time Cursor*.
 
@@ -307,8 +306,8 @@ The Timeline header controls.
       This stops the animation. :kbd:`Alt-A`
 
 
-'''IV''' Synchronize Playback
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+4. Synchronize Playback
+^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: /images/Doc_Animation_Red_FPS.jpg
 
@@ -332,9 +331,10 @@ The Timeline header controls.
       Sync to audio clock, dropping frames if playback is slow.
       This enables *AV-sync* and *Frame Dropping* from the *Playback Menu*.
 
+.. _animation-editors-timeline-autokeyframe:
 
-'''V''' Keyframe Control
-^^^^^^^^^^^^^^^^^^^^^^^^
+5. Keyframe Control
+^^^^^^^^^^^^^^^^^^^
 
 .. figure:: /images/Doc_kia_Cube03.jpg
 
@@ -352,7 +352,7 @@ The Timeline header controls.
       blender will add keyframes on the current frame for the transform properties.
 
       *Auto Keying Set* - Optional if Auto Keyframe enabled.
-         *Auto Keyframe* will insert new keyframes for the properties in the active *Keying Set*.
+	 *Auto Keyframe* will insert new keyframes for the properties in the active *Keying Set*.
 
       Note that *Auto Keyframe* only works for transform properties (objects and bones),
       in the 3D views (i.e. you cant use it e.g. to animate the colors of a material in the Properties window...).
@@ -368,7 +368,7 @@ The Timeline header controls.
    Timeline Layered.
 
       *Layered* - Optional while playback.
-         TODO.
+	 TODO.
 
 
 .. figure:: /images/Doc_kia_Cube02.jpg
@@ -417,5 +417,3 @@ Keyframing
       Displays a warning at the top right of the *3D View*, when moving objects, if *Auto Keyframe* is on.
    Only Insert Available
       With *Auto Keyframe* enabled, this will only add keyframes to channel F-Curves that already exist.
-
-
