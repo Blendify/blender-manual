@@ -283,8 +283,8 @@ Show Seconds
    Show timing in seconds not frames.
 Set Preview Range, Clear Preview Range (:kbd:`Ctrl-P`, :kbd:`Alt-P`)
    These entries allow you to define/clear a temporary preview range to use for the :kbd:`Alt-A` realtime playback
-   (this is the same thing as the *Pr* option of the
-   :doc:`Timeline window header </animation/editors/timeline#header_controls>`).
+   (this is the same thing as the *Playback Range* option of the
+   :doc:`timeline window header <animation-editors-timeline-headercontrols>`).
 Auto-Set Preview Range :kbd:`Ctrl-Alt-P`
    Automatically set Preview Range based on range of keyframes.
 View All :kbd:`Home`

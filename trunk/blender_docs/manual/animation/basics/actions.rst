@@ -105,7 +105,7 @@ Auto Keyframe
 Auto Keyframe is the red record button in the *Timeline* header. Auto Keyframe adds
 keyframes automatically to the set frame if the value for transform type properties changes.
 
-See :doc:`Timeline V Keyframe Control </animation/editors/timeline#v_keyframe_control>` for more info.
+See :ref:`Timeline V Keyframe Control <animation-editors-timeline-autokeyframe>` for more info.
 
 
 Keying Sets

@@ -1,4 +1,3 @@
-
 ..    TODO/Review: {{review|partial=X}} .
 
 
@@ -130,12 +129,12 @@ Sync Markers
 Show Seconds
    Whether to show the time in the X-axis as frames or as seconds
 
-Set Preview Range:kbd:`P`
+Set Preview Range :kbd:`P`
    Interactively define frame range used for playback.
    Allow you to define a temporary preview range to use for the :kbd:`Alt-A` realtime playback
-   (this is the same thing as the *Pr* option of the
-   :doc:`Timeline window header </animation/editors/timeline#header_controls>`).
-Clear Preview Range:kbd:`Alt-P`
+   (this is the same thing as the *Playback Range* option of the
+   :ref:`timeline window header <animation-editors-timeline-headercontrols>`).
+Clear Preview Range :kbd:`Alt-P`
    Clears the preview range
 Auto-Set Preview Range
    Automatically sets the preview range to playback the whole action.
