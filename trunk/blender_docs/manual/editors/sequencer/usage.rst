@@ -114,32 +114,23 @@ the text box at the top; this selects a **single** file (like a movie)
 
 In the case of (numbered) image **sequences**, you have a choice:
 
-- **Directory**:
-  :kbd:`RMB` right-click on a directory name,
-  and all files in that directory will be brought in as part of the image,
-  in sort order, one image per frame
-- **Range**:
-  Navigate into the directory and right-click and drag over a range of names to highlight multiple files.
-  You can page down and continue right-click-dragging to add more to the selection
-- **Batch**:
-  Shift-right-click selected non-related stills for batch processing; each image will be one frame, in sort order,
-  and can be a mix of file types (jpg, png, exr, etc.)
-- **All**:
-  Press *A* to select/deselect All files in the directory.
+Directory
+   :kbd:`RMB` right-click on a directory name,
+   and all files in that directory will be brought in as part of the image,
+   in sort order, one image per frame
+Range
+   Navigate into the directory and right-click and drag over a range of names to highlight multiple files.
+   You can page down and continue right-click-dragging to add more to the selection
+Batch
+   Shift-right-click selected non-related stills for batch processing; each image will be one frame, in sort order,
+   and can be a mix of file types (jpg, png, exr, etc.)
+All
+   Press *A* to select/deselect All files in the directory.
 
 When you click the *Select <whatever>* button,
 the window pane will switch back to VSE, and the strip will be rubber-banded to your mouse.
 You cannot load multiple movies at the same time by right-clicking them;
 no movies load if you right click them. Right-clicking only works for images.
-
-.. note:: Error: The selected file is not a movie or FFMPEG support not compiled in!
-
-   means that the file is not a movie that Blender can recognize, or **you selected with the wrong button**.
-   You get this error message because you *right* -clicked on a movie file,
-   OR you don't have a codec that can decode the avi file. If it's the latter,
-   find a codec so you can play the file outside of Blender, and then you will be able to load it.
-   If it's the former, you must left-click to select movies.
-
 
 In order to add items to the VSE, left-click for movies, left-click for single images,
 or right-click and drag for image sequences.
