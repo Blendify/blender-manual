@@ -1,4 +1,3 @@
-
 ************
 Graph Editor
 ************
@@ -162,7 +161,7 @@ View controls
       Normalize curves so the maximum or minimum point equals 1.0 or -1.0.
 
       Auto
-         Automatically recalculate curve normalization on every curve edit.
+	 Automatically recalculate curve normalization on every curve edit.
 
 
 .. figure:: /images/Doc_Graph_Header_Edit.jpg
@@ -183,13 +182,13 @@ Curve controls
       Pivot point for rotation.
 
       Bounding Box Center
-         Center of the select keyframes.
+	 Center of the select keyframes.
 
       2D Cursor
-         Center of the *2D Cursor*. *Time Cursor* + *Cursor*.
+	 Center of the *2D Cursor*. *Time Cursor* + *Cursor*.
 
       Individual Centers
-         Rotate the selected keyframe *Bezier* handles.
+	 Rotate the selected keyframe *Bezier* handles.
 
    *Copy Keyframes* :kbd:`Ctrl-C`
       Copy the selected keyframes to memory.
@@ -375,5 +374,3 @@ See Also
 - :doc:`Graph Editor - Editing </animation/editors/graph/editing>`
 - :doc:`Actions </animation/basics/actions>`
 - :doc:`Drivers </animation/basics/drivers>`
-
-

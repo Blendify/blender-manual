@@ -207,10 +207,10 @@ Playback Menu
   Mute the sound from Sequence Editors.
 - *AV-sync*
   Play back and sync with audio clock, dropping frames if frame display is too slow.
-  See :doc:`Header Controls </animation/editors/timeline#header_controls>` **IV** Synchronize Playback for more info.
+  See `4. Synchronize Playback`_ for more info.
 - *Frame Dropping*
   Play back dropping frames if frames are too slow.
-  See :doc:`Header Controls </animation/editors/timeline#header_controls>` **IV** Synchronize Playback for more info.
+  See `4. Synchronize Playback`_ for more info.
 - *Clip Editors*
   While playing, updates the *Movie Clip Editor*.
 - *Node Editors*
@@ -233,6 +233,8 @@ Playback Menu
 - *Top-Left 3D Editor*
   While playing, updates the *Timeline* if *Animation Editors* and *All 3D View Editors* disabled.
 
+
+.. _animation-editors-timeline-headercontrols:
 
 Header Controls
 ---------------

@@ -247,8 +247,8 @@ The RGB node has no inputs.
 It just outputs the value Color currently selected in its controls section.
 
 
-Material Node "Texture"
-=======================
+Texture Node
+============
 
 .. figure:: /images/26-Manual-Texture-Node.jpg
 
