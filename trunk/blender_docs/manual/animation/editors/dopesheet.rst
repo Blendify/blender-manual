@@ -140,12 +140,6 @@ Auto-Set Preview Range
    Automatically sets the preview range to playback the whole action.
 
 
-Select Menu
------------
-
-See :doc:`FCurve Editing </animation/editors/graph/editing>`
-
-
 Marker Menu
 -----------
 

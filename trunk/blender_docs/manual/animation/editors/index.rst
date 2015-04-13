@@ -11,7 +11,6 @@
    dopesheet/greasepencil.rst
    dopesheet/shapekey.rst
    graph.rst
-   graph/editing.rst
    graph/fcurves.rst
    graph/fmodifiers.rst
    nla.rst
