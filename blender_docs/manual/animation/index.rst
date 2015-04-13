@@ -18,7 +18,6 @@
    editors/graph.rst
    editors/graph/fcurves.rst
    editors/graph/fmodifiers.rst
-   editors/graph/editing.rst
    editors/dopesheet.rst
    editors/dopesheet/dopesheet.rst
    editors/dopesheet/action.rst

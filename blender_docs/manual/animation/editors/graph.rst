@@ -26,8 +26,7 @@ Here you can see and edit the curves and keyframes.
    A curve with different types of interpolation.
 
 
-See :doc:`F-Curves </animation/editors/graph/fcurves>`
-and :doc:`Editing </animation/editors/graph/editing>` for more info.
+See :doc:`F-Curves </animation/editors/graph/fcurves>` for more info.
 
 
 Navigation
@@ -101,8 +100,7 @@ Like with most animation editors, markers are shown at the bottom of the editor.
 
 *Markers* can be modified in the *Graph Editor* though its usually best to use the *Timeline*.
 
-See :doc:`Marker Menu </animation/editors/graph/editing#marker_menu>` or
-:doc:`Markers </animation/basics/markers>` for more info.
+See :doc:`Markers </animation/basics/markers>` for more info.
 
 
 Header
@@ -115,13 +113,6 @@ Here you'll find.
 - Graph Editor mode.
 - View controls.
 - Curve controls.
-
-
-Menus
------
-
-See :doc:`Header Menus </animation/editors/graph/editing#header_menus>` for more info.
-
 
 Header Controls
 ---------------
@@ -244,8 +235,6 @@ Channel Editing
 *Disable Mute Lock selected* :kbd:`Alt-W`
 
 *Toggle Mute Lock selected* :kbd:`Shift-W`
-
-See :doc:`Channel Menu </animation/editors/graph/editing#channel_menu>` for more info.
 
 
 Properties Region
@@ -371,6 +360,5 @@ See Also
 
 - :doc:`Graph Editor - F-Curves </animation/editors/graph/fcurves>`
 - :doc:`Graph Editor - F-Modifiers </animation/editors/graph/fmodifiers>`
-- :doc:`Graph Editor - Editing </animation/editors/graph/editing>`
 - :doc:`Actions </animation/basics/actions>`
 - :doc:`Drivers </animation/basics/drivers>`

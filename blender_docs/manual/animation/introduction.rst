@@ -33,7 +33,6 @@ General Principles and Tools
 The Graph Editor
 ----------------
 
-- :doc:`Using the Graph Editor </animation/editors/graph/editing>`
 - :doc:`F-Curves </animation/editors/graph/fcurves>`
 - :doc:`Editing Curves </animation/editors/graph/fcurves>`
 - :doc:`F-Curve Modifiers </animation/editors/graph/fmodifiers>`
