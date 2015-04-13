@@ -28,11 +28,9 @@ and select the datablock you want to reuse.
 Options:
 
 Relative Path
-	Available only when linking, see :doc:`relative paths </data_system/files/relative_paths>`.
-
+   Available only when linking, see :doc:`relative paths </data_system/files/relative_paths>`.
 Select
    Makes the object *Active* after it is loaded.
-
 Active Layer
    Enabled by default, the object is assigned to the visible layers in your scene.
    Otherwise, it is assigned to the same layers it resides on in the source file.
