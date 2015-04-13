@@ -2,7 +2,7 @@
 
 ..    TODO/Review: {{review|text=needs verification that it's up to date with 2.6|
                      fixes=[[User:bob_holcomb/Doc:2.6/Manual/Composite Nodes/Types/Matte|X]]}} .
-					 
+
 ##############
   Matte Nodes
 ##############

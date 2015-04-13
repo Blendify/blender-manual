@@ -354,7 +354,7 @@ The Timeline header controls.
       blender will add keyframes on the current frame for the transform properties.
 
       *Auto Keying Set* - Optional if Auto Keyframe enabled.
-	 *Auto Keyframe* will insert new keyframes for the properties in the active *Keying Set*.
+      *Auto Keyframe* will insert new keyframes for the properties in the active *Keying Set*.
 
       Note that *Auto Keyframe* only works for transform properties (objects and bones),
       in the 3D views (i.e. you cant use it e.g. to animate the colors of a material in the Properties window...).
@@ -370,7 +370,7 @@ The Timeline header controls.
    Timeline Layered.
 
       *Layered* - Optional while playback.
-	 TODO.
+      TODO.
 
 
 .. figure:: /images/Doc_kia_Cube02.jpg

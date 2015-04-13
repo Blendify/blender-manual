@@ -53,13 +53,13 @@ Keying Set Name
       Note, the same settings in *User Preferences* override these settings if enabled.
 
       Only Needed
-	 Only insert keyframes where they're needed in the relevant F-Curves.
+         Only insert keyframes where they're needed in the relevant F-Curves.
 
       Visual Keying
-	 Insert keyframes based on the visual transformation.
+         Insert keyframes based on the visual transformation.
 
       XYZ=RGB Colors
-	 For new F-Curves, set the colors to RGB for the property set, Location XYZ for example.
+         For new F-Curves, set the colors to RGB for the property set, Location XYZ for example.
 
 
 Active Keying Set Panel
@@ -107,13 +107,13 @@ Paths
       These options control individual properties in the Keying Set.
 
       Only Needed
-	 Only insert keyframes where they're needed in the relevant F-Curves.
+         Only insert keyframes where they're needed in the relevant F-Curves.
 
       Visual Keying
-	 Insert keyframes based on the visual transformation.
+         Insert keyframes based on the visual transformation.
 
       XYZ=RGB Colors
-	 For new F-Curves, set the colors to RGB for the property set, Location XYZ for example.
+         For new F-Curves, set the colors to RGB for the property set, Location XYZ for example.
 
 
 Adding Properties

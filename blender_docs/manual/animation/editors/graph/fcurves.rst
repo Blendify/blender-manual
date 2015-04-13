@@ -220,11 +220,11 @@ hence:
 
    * - .. figure:: /images/Manual-Animation-F-Curves-Moving-1.jpg
 
-	  Before moving the second keyframe
+          Before moving the second keyframe
 
      - .. figure:: /images/Manual-Animation-F-Curves-Moving-2.jpg
 
-	  After moving the second keyframe
+          After moving the second keyframe
 
 Editing Tools
 =============
@@ -276,14 +276,14 @@ Snap Keys :kbd:`Shift-S`
    Flatten Handles snapping example.
 
    * - .. figure:: /images/Manual-Animation-F-Curves-Flatten-Handles-1.jpg
-	  :width: 200px
+          :width: 200px
 
-	  Before Flatten Handles.
+          Before Flatten Handles.
 
      - .. figure:: /images/Manual-Animation-F-Curves-Flatten-Handles-2.jpg
-	  :width: 200px
+          :width: 200px
 
-	  After Flatten Handles.
+          After Flatten Handles.
 
 Mirror
 ------
@@ -313,14 +313,14 @@ Clean Keyframes
 .. list-table::
 
    * - .. figure:: /images/Doc26-fcurve-clean1.jpg
-	  :width: 300px
+          :width: 300px
 
-	  FCurve before cleaning
+          FCurve before cleaning
 
      - .. figure:: /images/Doc26-fcurve-clean2.jpg
-	  :width: 300px
+          :width: 300px
 
-	  FCurve after cleaning
+          FCurve after cleaning
 
 
 Smoothing
@@ -335,14 +335,14 @@ seem to be never modified by this tool.
 .. list-table::
 
    * - .. figure:: /images/Doc26-fcurve-clean1.jpg
-	  :width: 300px
+          :width: 300px
 
-	  FCurve before smoothing
+          FCurve before smoothing
 
      - .. figure:: /images/Doc26-fcurve-smooth.jpg
-	  :width: 300px
+          :width: 300px
 
-	  FCurve after smoothing
+          FCurve after smoothing
 
 
 Sampling and Baking Keyframes
@@ -354,14 +354,14 @@ Sample Keyframes :kbd:`Shift-O`
 .. list-table::
 
    * - .. figure:: /images/Doc26-fcurve-sample.jpg
-	  :width: 300px
+          :width: 300px
 
-	  FCurve before sampling
+          FCurve before sampling
 
      - .. figure:: /images/Doc26-fcurve-sample2.jpg
-	  :width: 300px
+          :width: 300px
 
-	  FCurve after sampling
+          FCurve after sampling
 
 Bake Curves :kbd:`Alt-C`
    Baking a curve replaces it with a set of sampled points, and removes the ability to edit the curve.
