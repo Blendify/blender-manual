@@ -69,7 +69,7 @@ print("Using Index:", master_doc)
 
 # General information about the project.
 project = 'Blender Reference Manual'
-copyright = 'Creative Commons Zero'
+copyright = ': This page is in public domain as CC0'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
