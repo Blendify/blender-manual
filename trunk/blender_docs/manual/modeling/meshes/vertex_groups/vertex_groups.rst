@@ -219,15 +219,15 @@ The Assign button is grayed out in that case.
    Also keep in mind that a vertex can be assigned to multiple groups.
 
 
-Checking assignments
+Checking Assignments
 --------------------
 
-To be sure the selected verts really have been added to the Vertex Group,
-you can try the deselect button. If the verts do not get deselected,
-then you probably forgot to hit the *Assign* button.
-But you can do that safely now.
-But remind:
-All selected verts get the weight assigned as displayed in the "Weight:" input field!
+To be sure the selected verts are in the desired Vertex Group,
+you can try press the deselect button.
+If the vertices remain selected then they're not yet in the current Vertex Group.
+
+At this point you may assign then, but take care since all selected vertices
+will have their weight set to the value in the *Weight:* field.
 
 
 Removing assignments from a Group
@@ -236,8 +236,8 @@ Removing assignments from a Group
 You remove vertices from a group as follows:
 
 - Select the group from the group list (make it the active group).
-- :kbd:`Shift-RMB` all vertices that you want to remove from the group.
-- :kbd:`LMB` click the *Remove* button.
+- Select all vertices that you want to remove from the group.
+- Press the *Remove* button.
 
 Note that Removing weight Assignments is not available for locked Vertex Groups.
 The Remove button is grayed out in that case.
