@@ -341,6 +341,8 @@
    OpenGL
       The graphics system used by Blender (and many other graphics applications)
       for drawing 3D graphics, often taking advantage of hardware acceleration.
+      See Wikipedia's:
+      `OpenGL <http://en.wikipedia.org/wiki/OpenGL>`__.
 
    Oversampling
       Is the technique of minimizing :term:`aliasing` when representing a high-resolution

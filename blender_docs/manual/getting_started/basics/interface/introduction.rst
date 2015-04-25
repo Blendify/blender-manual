@@ -3,14 +3,14 @@
   Introduction
 ***************
 
-Blender's User Interface is based on `OpenGL
-<http://en.wikipedia.org/wiki/OpenGL>`__.
+Blender's User Interface is based on :term:`OpenGL`,
 Thus its look and feel is consistent over all platforms.
 The interface can be customized to match specific tasks using Screen Layouts,
 which can then be named and saved for later reuse.
 
 Blender also makes heavy use of keyboard shortcuts to speed up work and allows customization of the
 :doc:`keymap <input_devices>`.
+
 
 User Interface Principles
 =========================
@@ -32,6 +32,7 @@ Non Blocking
 Non Modal
    User input should remain as consistent and predictable as possible
    without changing commonly used methods (mouse, keyboard) on the fly.
+
 
 Screen Elements
 ===============
