@@ -3,27 +3,26 @@
   Introduction
 ***************
 
-Blender's User Interface is based on `OpenGL <http://en.wikipedia.org/wiki/OpenGL>`__
+Blender's User Interface is based on `OpenGL
+<http://en.wikipedia.org/wiki/OpenGL>`__.
 Thus its look and feel is consistent over all platforms.
 The interface can be customized to match specific tasks using Screen Layouts,
 which can then be named and saved for later reuse.
 
 Blender also makes heavy use of keyboard shortcuts to speed up work and allows customization of the
 :doc:`keymap <input_devices>`.
- 
+
 User Interface Principles
 =========================
 
 .. figure:: /images/getting_started_basics_interface_introduction_03.jpg
-   :align: center
-   :width: 100%
 
 
 Non Overlapping
    The UI is designed to allow you to view all relevant options and tools at a glance
    without pushing or dragging Editors around.
    You can also open multiple Blender windows from one instance of Blender
-   and distribute these Windows over multiple monitors (see image above).
+   and distribute these windows over multiple monitors (see image above).
 
 Non Blocking
    Tools and interface options do not block the user from any other parts of Blender.
@@ -41,30 +40,32 @@ Screen Elements
    :align: right
    :width: 350
 
-The Blender window is organized into Editors, 
-which are composed of one `Main Region`_, one `Headers`_ and usually two `Regions`_ which contain `Panels`_
-of buttons, controls and widgets.
+The Blender window is organized into one or more *Areas* with each area
+containing an *Editor*. Editors are divided into a `Header`_ and one or more
+`Regions`_. Regions can have smaller structuring elements like `Panels`_ with
+buttons, controls and widgets placed within them.
 
-The composition of the various Editors is called a "Screen Layout".
-By default Blender starts up with a layout of 5 editors (see below)
+The composition of various Areas with predefined Editors in them is
+called a *Screen Layout*. By default Blender starts up with a layout of
+5 Editors as shown in the image below.
 
 .. figure:: /images/getting_started_basics_interface_introduction_02.png
-   :align: Center
-   :width: 100%
 
-   Blender's default Screen Layout contains 5 Editors
+   Blender's default Screen Layout with 5 Editors: Info (1), 3D View
+   (2), Outliner (3), Properties (4) and Timeline (5)
 
 
 Anatomy of an Editor
 ====================
 
+In general an Editor provides a way to view and modify your work through
+a specific part of Blender.
+
+The image below shows the 3D View as an example for an Editor.
+
 .. figure:: /images/getting_started_basics_interface_introduction_04.png
-   :align: center
-   :width: 100%
 
    The 3D View
-
-In general, an Editor opens a view for editing content of a specific part of Blender.
 
 Editors are consistently organized into following parts:
 
@@ -72,59 +73,49 @@ Editors are consistently organized into following parts:
 Regions
 -------
 
-(*Shown above in red*)
+At least one Region of an Editor is always visible. It’s called the
+Main Region and is the most prominent part of the Editor. In the
+3D View above this is marked with a green frame.
 
-These are vertical areas on the sides of the Editor which can be shown/hidden
-on demand by using hotkeys (see below).
+Beside that there can be more Regions available. In the 3D View above
+these are the *Toolshelf* (toggle visibility with :kbd:`T`) on the
+left side and the *Properties* (toggle visibility with :kbd:`N`) on
+the right side. They’re marked with red frames. Additional Regions
+mostly show context-sensitive content.
 
-On the left is the **Toolshelf** (displayed using :kbd:`T`)
-which contains functions that are performed in that Editor, organized by a set of `Tabs`_.
-In the 3D View, the Toolshelf is split horizontally to contain the **Operator** region,
-which contains properties of the last-performed action.
-
-On the right is the **Properties** region
-(displayed using :kbd:`N`, not to be confused with the :doc:`Properties Editor </editors/properties/index>`)
-which contains both static and context-sensitive options for the editor and the current selection.
+Each Editor has a specific purpose, so the Main Region and the
+availability of additional regions are different between Editors.
+See specific documentation about each editor in the
+:doc:`Editors </editors/index>` chapter.
 
 .. list-table:: Useful Hotkeys
    :widths: 15 85
 
    * - :kbd:`T`
-     - Toggle visibility of Tool Shelf
+     - Toggle visibility of Toolshelf Region
    * - :kbd:`N`
-     - Toggle visibility of Properties Bar
+     - Toggle visibility of Properties Region
    * - :kbd:`F5`
-     - Flip Region to opposite side
+     - Flip the Region under the mouse pointer to the opposite side
 
 
-Headers
--------
+Header
+------
 
-(*Shown above in purple*)
+A Header is a small horizontal part of an Editor and sits either at the
+top or bottom of the Area the Editor is in. It acts as a container for
+menus and commonly used tools. Like additional Regions the Header can
+be hidden.
 
-Headers are horizontal areas at the top or bottom of an Editor used
-as containers for menus and commonly used tools.
+In the 3D View above the Header is marked with a purple frame.
 
 .. list-table:: Useful Hotkeys
    :widths: 15 85
 
    * - :kbd:`F5`
-     - Move Header from Top to Bottom
+     - Move Header from Top to Bottom (mouse pointer must be over it)
 
 See: :doc:`Headers </getting_started/basics/interface/window_system/headers>` for details.
-
-
-Main Region
------------
-
-(*Shown above in green*)
-
-This is the most prominent part of the Editor and where most interaction happens.
-
-While both Headers and Regions can be hidden, the main region will always be visible.
-
-Each Editor has a specific purpose, so the main region of each Editor are all very different from each other.
-See specific documentation about each editor in the :doc:`Editors </editors/index>` chapter.
 
 
 Panels
@@ -140,7 +131,7 @@ This is where the buttons, menus, checkboxes, etc. are located.
 Panels are usually found in the side regions of an Editor,
 but also make up most of the :doc:`Properties Editor </editors/properties/index>`'s main region.
 
-In the image on the right there are 3 Panels: **Transform**, **Edit** 
+In the image on the right there are 3 Panels: **Transform**, **Edit**
 and **History**. The Edit Panel is expanded and the other 2 Panels are
 collapsed. Note that you can change the order of Panels
 by clicking on the handle in the upper right corner of a Panel's title.
@@ -154,7 +145,7 @@ Tabs
 .. figure:: /images/getting_started_basics_interface_introduction_07.png
    :align: right
 
-The Toolshelf has been further structured 
+The Toolshelf has been further structured
 into a set of context dependent vertical Tabs.
 
 In the image aside you can see the Tabs **Tools**, **Create**, etc.
@@ -166,7 +157,7 @@ Pinning
 
 Often it is desirable to view panels from different
 tabs at the same time. This has been solved
-by making panels pinnable. 
+by making panels pinnable.
 
 A pinned Panel remains visible regardless of which Tab has been selected.
 You can pin a Panel by :kbd:`Shift` clicking its header, or by right clicking on the header and choosing *Pin*.
