@@ -7,7 +7,7 @@ BUILDDIR      = build
 # Internal variables.
 PAPEROPT_a4     = -D latex_paper_size=a4
 PAPEROPT_letter = -D latex_paper_size=letter
-ALLSPHINXOPTS   = -d $(BUILDDIR)/doctrees $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) manual
+ALLSPHINXOPTS   = -d "$(BUILDDIR)/doctrees" $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) manual
 # the i18n builder cannot share the environment and doctrees with the others
 I18NSPHINXOPTS  = $(PAPEROPT_$(PAPER)) $(SPHINXOPTS) manual
 
@@ -23,8 +23,8 @@ $(CHAPTERS): all
 all: FORCE
 	# './' (input), './html/' (output)
 	QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
-	$(SPHINXBUILD) -b html $(SPHINXOPTS) ./manual $(BUILDDIR)/html
-	@echo "firefox" $(shell pwd)"/$(BUILDDIR)/html/"
+	$(SPHINXBUILD) -b html $(SPHINXOPTS) ./manual "$(BUILDDIR)/html"
+	@echo "xdg-open" $(shell pwd)"/$(BUILDDIR)/html/"
 
 # NOTE: PDF is giving warnings, non-trivial to fix, disable for now.
 #~ pdf: FORCE
@@ -55,7 +55,7 @@ gettext: FORCE
 
 
 clean: FORCE
-	rm -rf $(BUILDDIR)/html $(BUILDDIR)/latex
+	rm -rf "$(BUILDDIR)/html" "$(BUILDDIR)/latex"
 
 
 # -----------------------------------------------------------------------------
