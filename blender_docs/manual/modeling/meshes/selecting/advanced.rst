@@ -19,7 +19,7 @@ Select Every N Number of Vertices
    Selects vertices that are multiples of N.
 Sharp Edges
    This tool selects all edges between two faces forming an angle greater than the angle option,
-   Where increasing angle value will select a sharper edges.
+   Where an increasing angle selects sharper edges.
 Linked Flat Faces (:kbd:`Ctrl-Shift-Alt-F`)
    Select connected faces based on a threshold of the angle between them.
    This is useful for selecting faces that are planar.
