@@ -3,52 +3,41 @@
 Panels
 ******
 
-.. figure:: /images/Manual-Interface-Panels-PropertiesPanels-25.jpg
-   :align: right
+Panels are collapsible sections within Regions to have their elements
+more organized. They are heavily used in the *Properties Editor* but also
+appear elsewhere, e.g. in the Tool Shelf or the Properties Shelf that are
+available in some Editors.
 
-   Part of the properties window
+The image below shows Panels in different Regions in their expanded and
+collapsed state.
 
+.. figure:: /images/getting_started_basics_interface_panels_01.png
+   :width: 100%
 
-.. figure:: /images/Manual-Interface-Panels-3DWindowShelves-25.jpg
-   :align: right
+   Expanded (1) and collapsed (2) Panels in the Properties Editor (right area)
+   and in the additional Regions of the 3D View Editor (left area)
 
-   Shelves in a 3D Window
+- A click with the :kbd:`LMB` on the title area of a Panel expands or collapses it.
+- A :kbd:`LMB` drag motion over the title area will expand or collapse many at once.
+- A :kbd:`Ctrl+LMB` click on the title area of a specific Panel will collapse
+  all other Panels and make this the only expanded one.
 
+The availability of Panels in certain Regions can change related to the
+active Context. So for instance the Tool Shelf will show different Panels
+when used in different Editors. Also, the Panels in the Properties Editor
+will change if you switch its Context with the buttons in the Header.
 
-Panels generally appear in the *Properties Window*
-which can be found on the right hand side of the default screen layout.
-(see *Part of the Properties window*).
+There are some options available to customize Panels to your preference:
 
-Panels are also found on the *Tool shelf* and the *Properties shelf* which
-are toggleable parts of a 3D Window. To display the *Tool shelf*:
+- You can change the position of a Panel within its Region by clicking and
+  dragging it with the :kbd:`LBM` on the little widget in the upper right corner.
+- The zoom factor of a whole Region with Panels can be changed by
+  :kbd:`Ctrl+MMB` clicking and moving the mouse anywhere within that Region
+- The alignment of the Panels in the Properties Editor can be changed
+  between vertical and horizontal. To do this click with :kbd:`RMB` somewhere
+  within the main Region of the Properties Editor and choose either
+  *Horizontal* or *Vertical* from the appearing menu. Keep in mind though that
+  the Panels are optimized for vertical alignment.
 
-- use :menuselection:`View --> Tool` or press :kbd:`T`. To display the *Properties shelf*,
-- use :menuselection:`View --> Properties` or press :kbd:`N`. See *Shelves in a 3D Window*.
-
-
-The *Properties Window* includes the header which allows you to choose from several
-:doc:`Contexts. </getting_started/basics/interface/contexts>`
-Each *Context* has a different selection of panels.
-For example, the *Render Context* shows panels for setting the render output options,
-while the *Materials Context* has panels to set color, transparency, texture, etc.
-
-
-Panels in the *Properties Window* can be aligned vertically or horizontally by
-:kbd:`RMB` on the *Properties Window* and choosing the desired option from the
-menu. Note that the Panels in the *Properties Window* are optimized for vertical
-alignment.
-
-The placement and view of panels can also be altered to your preference. For example,
-panels can be:
-
-
-- moved around the window by :kbd:`LMB` dragging the widget in the upper right corner.
-- scrolled up and down by using :kbd:`Wheel`
-- zoomed in and out by holding :kbd:`Ctrl-MMB` and moving the mouse right and left.
-- collapsed/expanded by :kbd:`LMB` clicking the triangle on the left side of their header.
-  Its also possible to collapse all *other* panels by pressing :kbd:`Ctrl-LMB` on any panel header.
-
-
-For further details about each panel, see the :doc:`Panels </ce/panels>` reference section,
-or find the appropriate section in the manual.
-
+For further details about each Panel find the appropriate section for the
+related Editor in the manual.
