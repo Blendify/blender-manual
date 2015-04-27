@@ -18,13 +18,35 @@ CHAPTERS:=$(notdir $(sort $(CHAPTERS_FULL:%/=%)))
 # intersect make goals and possible chapters
 QUICKY_CHAPTERS=$(filter $(MAKECMDGOALS),$(CHAPTERS))
 
+
+# -----------------------
+# for echoing output only
+ifeq ($(QUICKY_CHAPTERS), )
+	CONTENTS_HTML="contents.html"
+else
+	CONTENTS_HTML="contents_quicky.html"
+endif
+
+# os specific
+ifeq ($(OS), Darwin)
+	# OSX
+	OPEN_CMD="open"
+else
+	# Linux/FreeBSD
+	OPEN_CMD="xdg-open"
+endif
+# end output for echoing
+# ----------------------
+
+
 $(CHAPTERS): all
 
 all: FORCE
 	# './' (input), './html/' (output)
 	QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
 	$(SPHINXBUILD) -b html $(SPHINXOPTS) ./manual "$(BUILDDIR)/html"
-	@echo "xdg-open" $(shell pwd)"/$(BUILDDIR)/html/"
+
+	@echo $(OPEN_CMD) $(shell pwd)"/$(BUILDDIR)/html/$(CONTENTS_HTML)"
 
 # NOTE: PDF is giving warnings, non-trivial to fix, disable for now.
 #~ pdf: FORCE
