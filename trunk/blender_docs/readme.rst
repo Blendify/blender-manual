@@ -5,9 +5,11 @@
 Blender-Manual is Blender's official project to provide the user with a clear, concise and up-to-date description of
 Blender's functioning in the current version.
 
-Complementary projects are the `Python API <http://www.blender.org/documentation/250PythonDoc>`__ as a reference,
-`StackExcange <http://blender.stackexchange.com>`__ for question answering and
-`Blender Cloud <http://cloud.blender.org/>`__ for training.
+Complementary projects are:
+
+- `Python API reference <http://www.blender.org/documentation/250PythonDoc>`__.
+- `StackExcange (Q&A) <http://blender.stackexchange.com>`__.
+- `Blender Cloud (training) <http://cloud.blender.org/>`__.
 
 
 **************
@@ -23,5 +25,7 @@ See also the `current open tasks <https://developer.blender.org/project/view/53/
 Building the Manual
 *******************
 
-See install.rst for how to build and the `Getting Started section <http://www.blender.org/documentation/contribute>`__
+See ``./manual/about/install/`` for building the manual
+and the `Getting Started section <http://www.blender.org/documentation/contribute>`__
 for an explanation on the full workflow and other tips.
+
