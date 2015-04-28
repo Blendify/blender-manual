@@ -102,7 +102,7 @@ Enabling Subsurface Scattering
 - Accessible at the top are various presets.
   Add new or remove old presets by clicking the *+* and *-* buttons.
   When you select a preset,
-  the *Radius* values, the *RGB Radius* and the *IOR* are set for you.
+  the *Radius* values, the *RGB Radius* and the :term:`IOR` are set for you.
   The remaining options are not set (because they are mostly dependent on the size of your object).
 
 *SubSurface Scattering* doesn't need ray tracing.
@@ -116,7 +116,7 @@ Options
 The numeric sliders control how the light is scattered:
 
 IOR
-   The *Index Of Refraction* value determines the falloff of incident light.
+   The :term:`Index Of Refraction` value determines the falloff of incident light.
    Higher values means that light falls off faster.
    The effect is quite subtle and changes the distribution function only a little bit.
    By the examination of many different materials, values of **1.3** to **1.5**

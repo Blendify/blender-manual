@@ -253,6 +253,7 @@
       ranging from direct sunlight to the deepest shadows.
       The use of high dynamic range imaging in computer graphics has been popularised by the work of Paul Debevec.
 
+   IOR
    Index Of Refraction
       It's a property of transparent materials.
       When a light ray travels through the same volume it follows a straight path.

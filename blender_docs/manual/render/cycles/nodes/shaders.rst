@@ -215,7 +215,7 @@ Color input
    Color of the surface, or physically speaking, the probability that light is transmitted for each wavelength.
 Roughness input
    Influences sharpness of the refraction; perfectly sharp at 0.0 and smoother with higher values.
-IOR input
+:term:`IOR` input
    Index of refraction defining how much the ray changes direction. At 1.
    0 rays pass straight through like transparent; higher values give more refraction.
 Normal input
