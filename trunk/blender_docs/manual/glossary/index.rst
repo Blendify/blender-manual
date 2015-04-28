@@ -280,6 +280,10 @@
    Knife
       Is a tool used to cut meshes to get more geometry.
 
+   Lattice
+      A lattice consists of a non-renderable three-dimensional grid of vertices
+      (see also the :doc:`/modifiers/deform/lattice`).
+
    Layer
       A visibility flag for objects.
 
