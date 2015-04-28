@@ -157,6 +157,7 @@
    Curve
       It's a class of objects. In Blender there are :term:`Bézier` curves and :term:`NURBS` curves.
 
+   DOF
    Depth Of Field
       It's the distance in front of and behind the subject which appears to be in focus.
       For any given lens setting, there is only one distance at which a subject is precisely in focus,
@@ -487,6 +488,7 @@
       It's a point in 3D space containing a location. It may also have a defined color.
       Vertices are the terminating points of :term:`edges <edge>`.
 
+   VBO
    Vertex Buffer Object
       Term used for uploading geometry to the graphics cards memory for improved performance
       with :term:`OpenGL` drawing.
