@@ -178,7 +178,7 @@ Blinn
 
 
 Blinn is a more 'physical' specular shader, often used with the Oren-Nayar diffuse shader.
-It can be more controllable because it adds a fourth option, an *index of refraction* (IOR),
+It can be more controllable because it adds a fourth option, an :term:`index of refraction`,
 to the aforementioned three.
 `James F. Blinn <http://en.wikipedia.org/wiki/Jim_Blinn>`__
 worked at NASA's Jet Propulsion Laboratory and became widely known for his work

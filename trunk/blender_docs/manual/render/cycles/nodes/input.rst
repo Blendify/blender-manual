@@ -132,7 +132,7 @@ computing how much light is refracted through and how much is reflected off a la
 The resulting weight can be used for layering shaders with the *Mix Shader* node.
 It is dependent on the angle between the surface normal and the viewing direction.
 
-IOR input
+:term:`IOR` input
    Index of refraction of the material being entered.
 Fresnel output
    Fresnel weight, indicating the probability with which light
