@@ -341,7 +341,7 @@ Drivers Panel
    Drivers Panel.
 
 
-See :doc:`Drivers Panel </animation/basics/drivers#drivers_panel>` for more info.
+See :ref:`animation_drivers_panel` for more info.
 
 
 Modifiers Panel

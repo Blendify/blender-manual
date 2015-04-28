@@ -24,6 +24,7 @@ The Driver Value is determined by Driver Variables or a Scripted Expression.
 Most the settings for the drivers :doc:`F-Curves </animation/editors/graph/fcurves>` are found in
 the :doc:`Graph Editor </animation/editors/graph>`.
 
+.. _animation_drivers_panel:
 
 Drivers Panel
 =============
