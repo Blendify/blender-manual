@@ -206,6 +206,14 @@ Samples
    For the branch path tracing integrator, this specifies the number of direct light samples per AA sample.
    Point lamps might need only one sample, while area lamps typically need more.
 
+Max Bounces
+   The maximum amount of bounces this light will contribute to the scene. 
+
+Portal
+   Only available for Area lamps. This setting enables area lamps to function as a light portal, 
+   helping to sample the environment lamp and therefore improving convergence. 
+   Note that this will make the area lamp itself invisible.
+
 
 Volume Render Settings
 ======================
