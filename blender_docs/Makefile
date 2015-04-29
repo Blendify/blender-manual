@@ -1,4 +1,3 @@
-
 SPHINXOPTS    =
 PAPER         =
 SPHINXBUILD   = sphinx-build
