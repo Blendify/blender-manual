@@ -1,7 +1,6 @@
 
 ..    TODO/Review: {{review|copy=X}} .
 
-
 *******
 Markers
 *******

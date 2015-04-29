@@ -79,7 +79,7 @@ Markers are usually used to identify key parts of the animation.
 
 Markers can be selected by pressing :kbd:`RMB` or :kbd:`Shift-RMB` to select more.
 
-See :doc:`Marker Menu </animation/editors/timeline#marker_menu>` below or
+See `Marker Menu`_ below or
 :doc:`Markers </animation/basics/markers>` for more info.
 
 
@@ -155,7 +155,6 @@ View All
 
 Show Seconds
    Show time in seconds for the *Timeline* and the *Time Cursor* based on the FPS. :kbd:`Ctrl-T`
-
 
 Marker Menu
 -----------
@@ -319,7 +318,7 @@ The Timeline header controls.
 
    When you play an animation, the FPS is displayed at the top left of the 3D View.
    If the scene is detailed and playback is slower than the set
-   :doc:`Frame Rate </render/output/video#dimensions_presets>`,
+   *Frame Rate* (see :ref:`render_output_dimensions_presets`,
    these options are used to synchronize the playback.
 
    No Sync

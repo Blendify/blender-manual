@@ -22,6 +22,7 @@ guaranteed that what is within the *inner* dashed rectangle in camera view will 
 on the screen. Everything within the two rectangles may or may not be visible,
 depending on the given TV set that your audience watches the video on.
 
+.. _render_output_dimensions_presets:
 
 Dimensions Presets
 ==================
@@ -29,9 +30,15 @@ Dimensions Presets
 .. figure:: /images/Render-Dimensions-Presets.jpg
 
 The rendering size is strictly dictated by the TV standard.
-Blender has 11 pre-set settings for your convenience:
+Blender has 11 popular pre-set settings, more can be added for your convenience.
 
-See: :term:`Video Presets`
+Saved information is:
+
+:Resolution: X, Y & percentage scale
+:Aspect ratio: pixel aspect ratio
+:Frame rate: frames per second, for animation
+
+See also :ref:`render_output_dimensions`
 
 Note that if you render your animation at 1600x1200 resolution, and then burn a DVD,
 your image will not be clearer or crisper on the TV; in fact the DVD burning software will
@@ -208,16 +215,16 @@ Frameserver
    as part of a render farm.
    The port number is specified in the OpenGL User Preferences panel.
 H.264
-   Encodes movies with the H.264 codec. See :doc:`Advanced Encoding </render/output/video#advanced_encoding>`.
+   Encodes movies with the H.264 codec. See `Advanced Encoding`_.
 MPEG
-   Encodes movies with the MPEG codec. See :doc:`Advanced Encoding </render/output/video#advanced_encoding>`.
+   Encodes movies with the MPEG codec. See `Advanced Encoding`_.
 Ogg Theora
    Encodes movies with the Theora codec as Ogg files.
-   See :doc:`Advanced Encoding </render/output/video#advanced_encoding>`.
+   See `Advanced Encoding`_.
 QuickTime
    Apple's Quicktime .mov file.
    The Quicktime codec dialog is available when this codec is installed and this format is initially chosen.
-   See :doc:`Quicktime Encoding </render/output/video#quicktime>`.
+   See *Quicktime* in `Video Formats`_.
 
    .. note:: Reads GIF if QuickTime is Installed
 
@@ -226,7 +233,7 @@ QuickTime
       The GIF capabilities (as well as flattened PSD,
       flattened PDF on Mac, and others) come along with QuickTime.
 Xvid
-   Encodes movies with the Xvid codec. See :doc:`Advanced Encoding </render/output/video#advanced_encoding>`.
+   Encodes movies with the Xvid codec. See `Advanced Encoding`_.
 
 
 Advanced Encoding

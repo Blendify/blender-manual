@@ -139,7 +139,6 @@ Clear Preview Range :kbd:`Alt-P`
 Auto-Set Preview Range
    Automatically sets the preview range to playback the whole action.
 
-
 Marker Menu
 -----------
 
