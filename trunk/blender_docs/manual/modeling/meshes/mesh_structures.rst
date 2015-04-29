@@ -91,8 +91,7 @@ In the image above, loops that do not end in poles are cyclic (``1`` and ``3``).
 They start and end at the same vertex and divide the model into two partitions.
 Loops can be a quick and powerful tool to work with specific,
 continuous regions of a mesh and are a prerequisite for organic character animation.
-For a detailed description of how to work with loops in Blender,
-please refer to the Manual page on
+For a detailed description of how to work with loops in Blender, see:
 :doc:`Edge and Face Tools </modeling/meshes/selecting/introduction#advanced_selection_tools>`.
 
 

@@ -34,13 +34,13 @@ You can optionally use hexidecimal *(Hex)* values,
 expressed as (``RRGGBB``), a common way to represent colors for HTML.
 
 For more information about how to select the type of color picker,
-please go to the :doc:`System </preferences/system>` preferences page.
+see: :doc:`System </preferences/system>` preferences page.
 
 
 .. note:: Blender corrects Gamma by default
 
    for more information about how to disable Gamma correction in Blender,
-   please go to the :doc:`Color Management and Exposure </render/post_process/cm_and_exposure>` page.
+   see: :doc:`Color Management and Exposure </render/post_process/cm_and_exposure>` page.
 
 
 .. figure:: /images/(Doc_26x_Manual_Preferences_System)_(Color_Picker_Circle)_(GBAFN).jpg
