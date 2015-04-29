@@ -28,7 +28,7 @@ This object will be *replaced* by the fluid during the simulation.
    When you calculate the fluid simulation, **you bake the simulation on the domain object**.
    For this reason all the baking options are visible only when selecting the Domain Object.
 
-   For baking options, please refer to `Baking`_ in this page.
+   For baking options, see: `Baking`_.
 
 
 Options
@@ -40,7 +40,7 @@ Options
 
 
 Bake button
-   For baking options please refer to `Baking`_ in this page.
+   For baking options, see: `Baking`_.
 
 Resolution
 
@@ -69,15 +69,13 @@ Resolution
       operating systems limit the amount of memory that can be allocated by a single *process*, such as Blender,
       even if the *machine* contains much more than this. Find out what limitations apply to your machine.
 
+   .. note:: Resolution and Real-size of the Domain
 
-.. note:: Resolution and Real-size of the Domain
-
-   Be sure to set the resolution appropriate to the real-world size of the domain (see the *Realworld-size* in the
-   `Domain World`_).
-   If the domain is not cubic, the resolution will be taken for the longest side.
-   The resolutions along the other sides will be reduced according to their lengths
-   (therefore, a non-cubic domain will need less memory than a cubic one, resolutions being the same).
-
+      Be sure to set the resolution appropriate to the real-world size of the domain (see the *Realworld-size* in the
+      `Domain World`_).
+      If the domain is not cubic, the resolution will be taken for the longest side.
+      The resolutions along the other sides will be reduced according to their lengths
+      (therefore, a non-cubic domain will need less memory than a cubic one, resolutions being the same).
 
    Preview resolution
 
@@ -103,7 +101,6 @@ Display quality
    To see the size and scope of the original domain box, select *Geometry* in the left dropdown.
 
 Time
-
    Start
       It is the simulation start time (in seconds).
 
@@ -112,37 +109,32 @@ Time
 
       For example, if you wanted the fluid to appear to already have been flowing
       for 4 seconds before the actual first frame of data, you would enter 4.0 here.
-
    End
       It is the simulation ending time (in seconds).
 
+   .. tip:: Start and end times have nothing to do with how many frames are baked
 
-.. tip:: Start and end times have nothing to do with how many frames are baked
+      If you set *Start* time to 3.0, and *End* time to 4.0, you will simulate 1 second of fluid motion.
+      That one second of fluid motion will be spread across however-many frames are set in the *Anim* panel
+      (*Scene* context --> *Render* sub-context --> *Anim* and *Output* panel).
 
-   If you set *Start* time to 3.0, and *End* time to 4.0, you will simulate 1 second of fluid motion.
-   That one second of fluid motion will be spread across however-many frames are set in the *Anim* panel
-   (*Scene* context --> *Render* sub-context --> *Anim* and *Output* panel).
-
-   This means, for example, that if you have Blender set to make 250 frames at 25 fps, the fluid
-   will look like it had already been flowing for 3 seconds at the start of the simulation,
-   *but* will play in slow motion (one-tenth normal speed),
-   since the 1 second fluid sim plays out over the course of 10 video seconds. To correct this,
-   change the end time to 13.0 (3.0 + 10.0) to match the 250 frames at 25 fps. Now,
-   the simulation will be real-time,
-   since you set 10 seconds of fluid motion to simulate over 10 seconds of animation.
-   Having these controls in effect gives you a "speed control" over the simulation.
-
+      This means, for example, that if you have Blender set to make 250 frames at 25 fps, the fluid
+      will look like it had already been flowing for 3 seconds at the start of the simulation,
+      *but* will play in slow motion (one-tenth normal speed),
+      since the 1 second fluid sim plays out over the course of 10 video seconds. To correct this,
+      change the end time to 13.0 (3.0 + 10.0) to match the 250 frames at 25 fps. Now,
+      the simulation will be real-time,
+      since you set 10 seconds of fluid motion to simulate over 10 seconds of animation.
+      Having these controls in effect gives you a "speed control" over the simulation.
 
 Generate Speed Vector
    If this button is clicked, no speed vectors will be exported.
    So by default, speed vectors are generated and stored on disk.
    They can be used to compute image based motion blur with the compositing nodes.
-
 Reverse fluid frames
    The simulation is calculated backward
-
 *Bake* directory
-   For baking options please refer to `Baking`_ in this page.
+   For baking options see: `Baking`_.
 
 
 Domain World
