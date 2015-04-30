@@ -68,10 +68,9 @@ and if the header is at the bottom the item text will read "Flip to Top".
 Window type button
 ==================
 
-:kbd:`LMB` clicking on the first icon at the left end of a header
-allows selection of one of the 16 different window types.
-Every window frame in Blender may contain any type of window.
-So if you want 3D views everywhere, just go ahead and change them all.
+:kbd:`LMB` clicking on the first icon at the left side of a header allows changing the window type.
+Every window frame in Blender may contain any type of window,
+allowing you to customize your window layout to your own work flows.
 
 
 Menus and buttons
