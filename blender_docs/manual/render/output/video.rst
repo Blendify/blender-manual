@@ -30,7 +30,7 @@ Dimensions Presets
 .. figure:: /images/Render-Dimensions-Presets.jpg
 
 The rendering size is strictly dictated by the TV standard.
-Blender has 11 popular pre-set settings, more can be added for your convenience.
+There are various popular presets included, more can be added for your convenience.
 
 Saved information is:
 
