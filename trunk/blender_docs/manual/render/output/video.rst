@@ -40,11 +40,6 @@ Saved information is:
 
 See also :ref:`render_output_dimensions`
 
-Note that if you render your animation at 1600x1200 resolution, and then burn a DVD,
-your image will not be clearer or crisper on the TV; in fact the DVD burning software will
-have had to downsize your images to fit the resolutions shown above,
-and you will have wasted about 4x disk space and render time.
-
 
 Pixel Aspect Ratio
 ==================
