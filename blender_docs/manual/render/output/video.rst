@@ -44,10 +44,10 @@ See also :ref:`render_output_dimensions`
 Pixel Aspect Ratio
 ==================
 
-Older TV screens do *not* have the square pixels which Computer monitors have;
-their pixels are somewhat rectangular, so it is necessary to generate *pre-distorted* images
-which will look bad on a computer but which will display nicely on a TV set. It is important
-that you use the correct pixel aspect ratio when rendering to prevent re-sampling,
+Unlike regular computer monitors, some screens (typically older TV sets)
+do *not* have the square pixels making it it necessary to generate
+*pre-distorted* images which will look stretched on a computer but which will display correctly on a TV set.
+It is important that you use the correct pixel aspect ratio when rendering to prevent re-scaling,
 resulting in lowered image quality.
 
 
@@ -107,7 +107,7 @@ or 30 frames per second (NTSC).
 Since the phosphors of the screen do not maintain luminosity for very long,
 this could produce a noticeable flickering.
 
-To minimize this, a TV does not represent frames as a Computer does ('progressive' mode),
+To minimize this, a TV does not represent frames as a computer does ('progressive' mode),
 but rather represents half-frames, or *fields* at a double refresh rate,
 hence 50 half frames per second on PAL and 60 half frames per second on NTSC.
 This was originally bound to the frequency of power lines in Europe (50Hz) and the US (60Hz).
