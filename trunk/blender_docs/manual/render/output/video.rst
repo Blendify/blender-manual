@@ -217,16 +217,9 @@ Ogg Theora
    Encodes movies with the Theora codec as Ogg files.
    See `Advanced Encoding`_.
 QuickTime
-   Apple's Quicktime .mov file.
-   The Quicktime codec dialog is available when this codec is installed and this format is initially chosen.
+   Apple's Quicktime ``.mov`` file.
+   The Quicktime codec dialog is available when this codec is installed on OSX.
    See *Quicktime* in `Video Formats`_.
-
-   .. note:: Reads GIF if QuickTime is Installed
-
-      Blender can read GIF files on Windows and Mac platforms with
-      `QuickTime <http://www.apple.com/quicktime/download>`__ installed.
-      The GIF capabilities (as well as flattened PSD,
-      flattened PDF on Mac, and others) come along with QuickTime.
 Xvid
    Encodes movies with the Xvid codec. See `Advanced Encoding`_.
 
@@ -282,8 +275,8 @@ Video Formats
    A derivative of the Resource Interchange File Format (RIFF), which divides a file's data into blocks, or "chunks."
 `Quicktime <http://en.wikipedia.org/wiki/.mov>`__: ``.mov``
    A multi-tracked format. QuickTime and MP4 container formats can use the same MPEG-4 formats;
-   they are mostly interchangeable in a QuickTime-only environment. MP4,
-   being an international standard, has more support.
+   they are mostly interchangeable in a QuickTime-only environment.
+   MP4, being an international standard, has more support.
 `DV <http://en.wikipedia.org/wiki/DV>`__: ``.dv``
    An intraframe video compression scheme,
    which uses the discrete cosine transform (DCT) to compress video on a frame-by-frame basis.

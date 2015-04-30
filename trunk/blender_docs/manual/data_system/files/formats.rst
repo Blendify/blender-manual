@@ -20,6 +20,10 @@ This is the list of image file formats supported internally by Blender:
 - Radiance HDR
 - TIFF
 
+.. note:: Quicktime
+
+   On OSX, Quicktime can be used to access file formats not natively supported (such as GIF).
+
 
 High Dynamic Range
 ------------------
