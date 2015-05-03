@@ -13,8 +13,8 @@ Blender operations, status, and internal errors. If Blender crashes on you,
 the *Console Window* may be able to indicate the cause or error.
 
 
-Windows XP/Vista/7
-==================
+Microsoft Windows
+=================
 
 .. figure:: /images/Interface-Window-System-console-windows.jpg
    :align: right
@@ -25,11 +25,10 @@ Windows XP/Vista/7
 
 When Blender is started on a Windows operating system,
 the *Console Window* is first created as a separate window on the desktop.
-Assuming that the right start-up conditions are met, the main Blender window should also
-appear and the *Console Window* will then be toggled off.
+The main Blender window will also appear and the *Console Window* will then be toggled off.
 To display the console again, go to :menuselection:`Window --> Toggle System Console`.
 
-The screenshot on the right shows the Blender *Console Window* on Windows XP
+The screenshot shows the Blender *Console Window* on Windows XP
 directly after starting Blender and then a short while later after opening a file along with
 the relevant messages.
 
@@ -37,7 +36,7 @@ the relevant messages.
 .. tip:: Closing the Blender Console Window
 
    The Blender *Console Window* must remain open while Blender is running.
-   Closing the *Console Window* will also close Blender, and unsaved work would be lost.
+   Closing the *Console Window* will also close Blender, losing any unsaved work.
    To turn off the console without closing Blender,
    toggle the console state to off via re-selecting Toggle System Console option from the drop-down menu
    :menuselection:`Window --> Toggle System Console`.
@@ -56,20 +55,20 @@ Linux
    Starting Blender from a Linux console window and subsequent messages.
 
 
-The Blender *Console Window* in Linux will generally only be visible on the Desktop
-if Blender is started from a Linux Terminal as Blender uses the
-*Console Window* it is started from to display Console output.
+The Blender *Console Window* in Linux will generally only be visible on the desktop
+if Blender is started from a terminal, as Blender outputs to the
+*Console Window* it is started from.
 
-Depending on your Desktop Environment setup, a Blender icon may appear on your desktop or an
+Depending on your desktop environment setup, a Blender icon may appear on your desktop or an
 entry for Blender added to your menu after you install Blender.
-When you start Blender using a Desktop icon or menu entry rather than a Terminal window, the
+When you start Blender using a desktop icon or menu entry rather than a Terminal window, the
 Blender *Console Window* text will most likely be hidden on the Terminal that your
 `XWindows <http://en.wikipedia.org/wiki/Xwindows>`__ server was started from.
 
 This screenshot shows Blender started from a Linux Terminal and the
 resulting console text being printed to it. This example shows that when Blender was started
 it was unable to access a library related to the Pulseaudio sound server. When Blender closed,
-it saved the recovery file to */tmp/quit.blend*.
+it saved the recovery file to ``/tmp/quit.blend``.
 
 
 MacOS
@@ -82,17 +81,16 @@ MacOS
    Starting Blender from a Mac OS X console window and subsequent messages.
 
 
-The process in MacOS is very similar to the one described for Linux.
 MacOS uses "files" with the .app extension called *applications*.
 These files are actually folders that appear as files in Finder. In order to run Blender you
-will have specify that path to the Blender executable inside this folder,
+will have to specify that path to the Blender executable inside this folder,
 to get all output printed to the terminal.
 You can start a terminal from Applications --> Utilities.
 The path to the executable in the ``.app`` folder is ``./blender.app/Contents/MacOS/blender``.
 
-If you have Blender installed in the Applications folder, the following command could be used,
-adapted to the particular Blender version:
-*/Applications/blender-2.64/blender.app/Contents/MacOS/blender*
+If you have Blender installed in the Applications folder, the following command could be
+used/adapted to the particular Blender version:
+``/Applications/blender-2.75/blender.app/Contents/MacOS/blender``
 
 
 Console Window Status and Error Messages

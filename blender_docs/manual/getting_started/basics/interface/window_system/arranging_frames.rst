@@ -1,11 +1,11 @@
 
 ****************
-Arranging frames
+Arranging Frames
 ****************
 
 Blender uses a novel screen-splitting approach to arrange window frames.
 The application window is always a rectangle on your desktop.
-Blender divides it up into a number of re-sizable window frames.
+It divides it up into a number of re-sizable window frames.
 A window frame contains the workspace for a particular type of window, like a 3D View window,
 or an Outliner.
 The idea is that you split up that big application window into any number of smaller
@@ -14,7 +14,7 @@ each window is always fully visible,
 and it is very easy to work in one window and hop over to work in another.
 
 
-Maximizing a window
+Maximizing a Window
 ===================
 
 You can maximize a window frame to fill the whole application window with the *View*
@@ -26,7 +26,7 @@ NOTE: The window your mouse is currently hovering over is the one that will be m
 the keyboard shortcuts.
 
 
-Splitting a window
+Splitting a Window
 ==================
 
 .. figure:: /images/Manual-Interface-Window_System-Arranging_frames-splitwidget.jpg
@@ -34,11 +34,11 @@ Splitting a window
 In the upper right and lower left corners of a window are the window splitter widgets,
 and they look like a little ridged thumb grip. It both splits and combines window panes.
 When you hover over it, your cursor will change to a cross.
-:kbd:`LMB` and drag it to the left to split the pane vertically,
+:kbd:`LMB` and drag it to the left to split the window pane vertically,
 or downward to split it horizontally.
 
 
-Joining two frames
+Joining Two Frames
 ==================
 
 In order to merge two window frames,
@@ -72,7 +72,7 @@ In the same way, windows may be merged left to right or vice versa.
 If you press :kbd:`Esc` before releasing the mouse, the operation will be aborted.
 
 
-Changing window size
+Changing Window Size
 ====================
 
 You can resize window frames by dragging their borders with :kbd:`LMB`. Simply move your
@@ -80,7 +80,7 @@ mouse cursor over the border between two frames until it changes to a double-hea
 and then click and drag.
 
 
-Swapping contents
+Swapping Contents
 =================
 
 You can swap the contents between two frames with :kbd:`Ctrl-LMB` on one of the
@@ -89,7 +89,7 @@ and releasing the mouse there. Those two frames don't need to be side by side,
 though they must be inside the same window.
 
 
-Opening new windows
+Opening New Windows
 ===================
 
 You may wish to have a new full window containing Blender frames. This can be useful,

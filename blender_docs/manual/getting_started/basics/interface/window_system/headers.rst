@@ -51,7 +51,7 @@ Header position
 ===============
 
 To move a header from top to bottom or the other way round,
-simply :kbd:`RMB` on it and select the appropriate item from the popup menu.
+simply :kbd:`RMB` on it and select the appropriate item from the pop-up menu.
 If the header is at the top, the item text will read "Flip to Bottom",
 and if the header is at the bottom the item text will read "Flip to Top".
 

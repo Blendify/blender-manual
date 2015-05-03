@@ -21,6 +21,8 @@ you can use the search function at the bottom of the list (pictured right).
 
 **Default Screens available**
 
+3D View Full
+   A full screen 3D view, used to preview your scene.
 Animation
    Making actors and other objects move about, change shape or color, etc.
 Compositing
@@ -30,6 +32,8 @@ Default
    The default layout used by Blender for new files. Useful for modeling new objects.
 Game Logic
    Planning and programming of games within Blender.
+Motion Tracking
+   Used for motion tracking with the movie clip editor.
 Scripting
    Documenting your work and/or writing custom scripts to automate Blender.
 UV Editing
@@ -37,13 +41,11 @@ UV Editing
 Video Editing
    Cutting and editing of animation sequences.
 
-Blender sorts these screen layouts for you automatically in alphabetical and/or numerical
-order. The list is available in the *Info Window* header that is at the top of the
+Screens can be selected in the *Info Window* header that is at the top of the
 layout for preset screens. This is often confused for a menu bar by those new to Blender;
 however it is simply a window showing only its *header*.
 
-To change to the next alphabetically listed screen press :kbd:`Ctrl-Right`;
-to change to the previous screen, press :kbd:`Ctrl-Left`.
+To cycle between screens use :kbd:`Ctrl-Right` and :kbd:`Ctrl-Left`.
 
 
 .. figure:: /images/Manual-Part-I-ConceptScreens25.jpg
@@ -69,12 +71,6 @@ Adding a new Screen Type
 
 Click on the "Add" button(|addview-button|) and a new frame layout will be
 created based on your current layout.
-
-You might want to give the new screen not only a *name* but also a *number* in front of it
-so that you can predictably scroll to it using the arrow keys.
-You can rename the layout by :kbd:`LMB` in the field and typing a new name,
-or clicking again to position the cursor in the field to edit.
-For example you could use the name "6-MyScreen". See *Screen and Scene selectors* above.
 
 
 Deleting a Screen
