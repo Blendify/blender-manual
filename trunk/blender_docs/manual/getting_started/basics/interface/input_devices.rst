@@ -35,9 +35,8 @@ Video: `Learn more about Blender's Mouse Button usage <http://vimeo.com/76335056
 Exceptions from the Rule
 ------------------------
 
-Unfortunately there are a few corner cases where action and selection
-might intertwine. Some parts in Blender even violate the principle
-such that :kbd:`LMB` selects and :kbd:`RMB` takes action, for example, the :doc:`Outliner </editors/outliner>`.
+There are a few corner cases where :kbd:`LMB` is used for selection. 
+For example, the *File Selector*.
 
 
 Non English Keyboard
@@ -46,7 +45,8 @@ Non English Keyboard
 If you use a keyboard with a non-english keyboard layout, you still may benefit from switching
 your computer to the UK or US layout as long as you work with Blender.
 
-Note that you can also change the default keymap and default hotkeys from the
-:doc:`User Preferences </preferences/input>`, however this manual assumes you are using the default keymap.
+.. note::
 
-:doc:`Read more about Blender configuration </preferences/input>`
+   You can also change the default keymap and default hotkeys from the
+   :doc:`User Preferences </preferences/input>`, however this manual assumes you are using the default keymap. 
+   :doc:`Read more about Blender configuration </preferences/input>`
