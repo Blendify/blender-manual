@@ -61,20 +61,34 @@ def find_and_replace(fn, data_src):
     """
     Simply finds and replaces text
     """
-    find_replace_dict = {
-                        "replace this text": "with this text",
-                        }
+    # handy for replacing exact words
+    use_whole_words = False
+
+    find_replace_pairs = (
+        ("popup", "pop-up"),
+        )
+
+
+    if use_whole_words:
+        import re
+        find_replace_pairs_re = [
+                (re.compile("\b" + src + "\b"), dst)
+                for src, dst in find_replace_pairs
+                ]
 
     lines = data_src.split("\n")
 
     for i, l in enumerate(lines):
         old_l = l
         do_replace = False
-        for to_find in find_replace_dict:
-            if to_find in l:
-                l = l.replace(to_find, find_replace_dict[to_find])
-                do_replace = True
-        if do_replace:
+        if use_whole_words:
+            for src_re, dst in find_replace_pairs_re:
+                l = re.sub(src_re, dst, l)
+        else:
+            for src, dst in find_replace_pairs:
+                l = l.replace(src, dst)
+
+        if old_l != l:
             lines[i] = l
             # print ("Replaced:", old_l, "\n    With:", l, "\n")
 
