@@ -31,12 +31,12 @@ Ways to use Particle Mode
 - Give it an initial velocity in the *Normal* direction (first check the *Advanced* box,
   then modify the *Velocity* sub-panel), or adjust the *Hair Length*.
 - Create a simulation - Place the camera at a good position
-  (:menuselection:`popup --> View --> Cameras --> Active Camera` ... or
+  (:menuselection:`pop-up --> View --> Cameras --> Active Camera` ... or
 
 FIXME(Template Unsupported: Shortcut/Keypress;
 {{Shortcut/Keypress|pad0}}
 )). Check the *Hair Dynamics* box.
-Select :menuselection:`popup --> Render --> Render OpenGL Animation` in *Render Engine* mode.
+Select :menuselection:`pop-up --> Render --> Render OpenGL Animation` in *Render Engine* mode.
 
 
 .. figure:: /images/Blender2.6_particle_mode.jpg

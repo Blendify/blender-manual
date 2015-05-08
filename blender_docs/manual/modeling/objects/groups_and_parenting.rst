@@ -36,7 +36,7 @@ If you selected multiple objects before selecting the parent,
 they will all be children of the parent and will be at the same level of the hierarchy
 (they are "siblings").
 
-The *Set Parent To* popup dialog is context sensitive, which means the number of entries it
+The *Set Parent To* pop-up dialog is context sensitive, which means the number of entries it
 displays can change depending on what objects are selected when the :kbd:`Ctrl-P`
 shortcut is used.
 
@@ -98,7 +98,7 @@ Figure 1 shows the 3 objects with no parenting relationships active on them.
 
 If you select the Monkey object by :kbd:`RMB` click and then :kbd:`Shift-RMB`
 click "EmptyA" object and press :kbd:`Ctrl-P` and then select *Object* from the *Set
-Parent To* popup dialog box.
+Parent To* pop-up dialog box.
 This will result in "EmptyA" object being the *Parent Object* of the Monkey object. With
 only "EmptyA" selected rotating/scaling/moving it will result in the Monkey object being
 altered respectively.
@@ -116,7 +116,7 @@ See figure 2.
 
 If you select only the Monkey object by :kbd:`RMB` click and then :kbd:`Shift-RMB`
 click "EmptyB" object and press :kbd:`Ctrl-P` and select *Object* from the *Set
-Parent To* popup dialog box.
+Parent To* pop-up dialog box.
 This will result in "EmptyB" object being the *Parent Object* of the Monkey object.
 Notice that when you change the parent of the Monkey the scale of the Monkey changed.
 See figure 3.
@@ -192,7 +192,7 @@ between an Armature Object and it's Child Objects.
 To use Armature Deform Parenting you must first select all the Child Objects that will be
 influenced by the Armature and then lastly select the Armature Object itself. Once all the
 Child Objects and the Armature Object are selected press :kbd:`Ctrl-P` and select
-Armature Deform in the Set Parent To popup dialog. See figure 6.
+Armature Deform in the Set Parent To pop-up dialog. See figure 6.
 
 
 .. figure:: /images/SR-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.jpg
@@ -332,7 +332,7 @@ neither will you have to assign Influences Weights to those Vertex Groups, Blend
 To activate Armature Deform With Automatic Weights you must be in Object Mode or Pose Mode,
 then select all the Child Objects (usually Mesh Object Types) and lastly select the Armature Object;
 Once done press :kbd:`Ctrl-P` and select the Armature Deform With Automatic Weights from the
-Set Parent To popup dialog.
+Set Parent To pop-up dialog.
 
 This method of parenting is certainly easier setup but it can often lead to Armatures which do not deform Child
 Objects in ways you would want, as Blender can get a little confused when it comes to determining which Bones should
@@ -440,7 +440,7 @@ the Tail and Head fields. See figure 33.
    the Bone Envelope volume at the time of parenting, at which point it creates the required
    named Vertex Groups and assigns vertices to them as required. If you want any vertices to
    take account of the new Bone Envelope volume size you will have carry out the Armature Deform
-   With Envelope Weights parenting again; In fact all parenting used in the Set Parent To popup
+   With Envelope Weights parenting again; In fact all parenting used in the Set Parent To pop-up
    dialog which tries to automatically assign vertices to Vertex Groups works like this.
 
 
@@ -464,7 +464,7 @@ if the specific bone it is the Child Object of moves. See figure 34.
 To use Bone Parenting, you must first select all the Child Objects you wish to parent to a specific Armature Bone,
 then :kbd:`Shift-RMB` select the Armature Object and switch it into Pose Mode and then select the
 specific bone you wish to be the Parent Bone by :kbd:`RMB` selecting it.
-Once done press :kbd:`Ctrl-P` and select Bone from the Set Parent To popup dialog.
+Once done press :kbd:`Ctrl-P` and select Bone from the Set Parent To pop-up dialog.
 
 Now transforming that bone in Pose Mode will result in the Child Objects also transforming.
 

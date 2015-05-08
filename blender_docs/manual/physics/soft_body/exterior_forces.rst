@@ -125,7 +125,7 @@ Default
    (or no *Goal*) means, that the vertex moves only according to Soft Body simulation.
    If no vertex group is used/assigned, this numeric field is the default goal weight for all vertices.
    If a vertex group is present and assigned,
-   this button instead shows an popup selector button that allows you to choose the name of the goal vertex group.
+   this button instead shows an pop-up selector button that allows you to choose the name of the goal vertex group.
    If you use a vertex group the weight of a vertex defines its goal.
 
    Often :doc:`weight painting </modeling/meshes/vertex_groups/weight_paint>`

@@ -170,7 +170,7 @@ Add Scene
 ---------
 
 You can add the virtual image output of a Scene in your current .blend file as well.
-Select the scene from the popup list,
+Select the scene from the pop-up list,
 and a strip will be added and rubberbanded to your mouse just like a movie or image.
 The strip length will be determined based on the animation settings in that scene
 (not the current scene, unless the VSE is operating in the same scene).

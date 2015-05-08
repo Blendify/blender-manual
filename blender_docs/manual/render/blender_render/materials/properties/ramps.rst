@@ -68,7 +68,7 @@ Color and alpha values for each marker can be set by clicking the
 
 .. figure:: /images/Manual-2.5-Material-Ramps-Input.jpg
 
-   Input popup menu
+   Input pop-up menu
 
 
 Input
@@ -91,7 +91,7 @@ Input
 
 .. figure:: /images/Manual-2.5-Material-Ramps-BlendMenu.jpg
 
-   Blend popup menu
+   Blend pop-up menu
 
 
 Blend
@@ -161,7 +161,7 @@ active mark. :kbd:`LMB` click it to display a color picker in which values for c
 
 .. figure:: /images/Manual-2.5-Material-Ramps-InterpolationMenu.jpg
 
-   Interpolation popup menu
+   Interpolation pop-up menu
 
 
 Interpolation

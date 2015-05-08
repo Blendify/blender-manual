@@ -23,7 +23,7 @@ Add a New Camera
    | Hotkey:   :kbd:`Shift-A` to add new.
 
 
-In *Object* mode simply press :kbd:`Shift-A` and in the popup menu,
+In *Object* mode simply press :kbd:`Shift-A` and in the pop-up menu,
 choose :menuselection:`Add --> Camera`.
 
 The default scene in Blender includes a camera,

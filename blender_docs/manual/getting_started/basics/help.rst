@@ -200,7 +200,7 @@ Blender Search
 
 
 The Blender Search feature, called the *Search Menu*,
-Activate by pressing :kbd:`Spacebar`, Blender will present you with a search popup,
+Activate by pressing :kbd:`Spacebar`, Blender will present you with a search pop-up,
 no matter at which Blender Editor your Mouse pointer is located
 (except the *Text Editor* Window and *Python console*),
 and a field for you to type in.

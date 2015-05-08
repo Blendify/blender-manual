@@ -216,10 +216,10 @@ with bones rolled in all angles... nasty! To address this problem, you have thre
   (i.e. move the mouse and :kbd:`LMB` click to validate, or type a numeric value and hit enter -
   or :kbd:`RMB` click or hit :kbd:`Esc` to cancel everything).
 - :menuselection:`Armature --> Bone Roll --> Clear Roll (Z-Axis Up)`
-  (or :kbd:`Ctrl-N-1`:menuselection:`popup --> Recalculate Bone Roll Angles --> Clear Roll (Z-Axis Up)`)
+  (or :kbd:`Ctrl-N-1`:menuselection:`pop-up --> Recalculate Bone Roll Angles --> Clear Roll (Z-Axis Up)`)
   will reset the selected bone roll so that their Z axis is as much as possible aligned with the global Z axis.
 - :menuselection:`Armature --> Bone Roll --> Roll to Cursor`
-  (or :kbd:`Ctrl-N-2`:menuselection:`popup --> Recalculate Bone Roll Angles --> Align Z-Axis to 3D-Cursor`)
+  (or :kbd:`Ctrl-N-2`:menuselection:`pop-up --> Recalculate Bone Roll Angles --> Align Z-Axis to 3D-Cursor`)
   will set the selected bone roll so that their Z axis is as much as possible pointed to the 3D cursor.
 
 

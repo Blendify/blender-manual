@@ -9,7 +9,7 @@ Blur Node
 
 
 The Blur node blurs an image, using one of seven blur modes
-(set using the upper-left popup button), and a radius defined by the X and Y number buttons.
+(set using the upper-left pop-up button), and a radius defined by the X and Y number buttons.
 By default these are set to zero,
 so to enable the node you must set one or both to a value greater then 0.
 You can optionally connect a value image to the Size input node,

@@ -322,7 +322,7 @@ both objects share layer 2.
 
 To view/change an object's layers,
 :kbd:`RMB` click to select the object in *Object* mode in the 3D view.
-:kbd:`M` to bring up the "Move Layers" popup,
+:kbd:`M` to bring up the "Move Layers" pop-up,
 which shows you all the layers that the object is on. To put the object on a single layer,
 :kbd:`LMB` click the layer button. To put the object on multiple layers,
 :kbd:`Shift-LMB` the layer buttons. To remove an object from a selected layer,
@@ -335,7 +335,7 @@ Mesh Objects Collide
 If your colliding object is not a mesh object, such as a NURBS surface, or text object,
 you must convert it to a mesh object. To do so, select the object in object mode,
 and in the 3D View header, select *Object* --> *Convert Object Type*
-(:kbd:`Alt-C`), and select *Mesh* from the popup menu.
+(:kbd:`Alt-C`), and select *Mesh* from the pop-up menu.
 
 
 Cloth - Object collisions

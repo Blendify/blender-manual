@@ -28,7 +28,7 @@ Open a default scene, then:
 - press :kbd:`Numpad1` to see the world in Front view
 - then, either:
   - in the Main Menu, Go to Add > Armature > Single Bone
-  - -or- in the 3D view, add an armature with :kbd:`Shift-A` :menuselection:`popup --> Armature --> Single Bone`
+  - -or- in the 3D view, add an armature with :kbd:`Shift-A` :menuselection:`pop-up --> Armature --> Single Bone`
 - press :kbd:`NumpadDelete` to see the armature at maximum zoom
 
 

@@ -24,7 +24,7 @@ or use another ``.blend`` file as a startup file with your customized user prefe
 
 .. figure:: /images/(Doc_26x_Manual_Vitals_Default_Scene)_(Save_Startup_File_Dialog)_(GBV266FN).jpg
 
-   Save User Settings popup
+   Save User Settings pop-up
 
 
 To change the default scene, make all of the desired changes to the current scene or current
@@ -33,8 +33,8 @@ Note that if you are using another ``.blend`` file when you press :kbd:`Ctrl-U`,
 will be the default startup file instead of the one that comes with the default Blender
 install.
 
-The *Save Startup File* popup confirmation will appear.
-Click :kbd:`LMB` on the *Save Startup File* popup or press :kbd:`Return`.
+The *Save Startup File* pop-up confirmation will appear.
+Click :kbd:`LMB` on the *Save Startup File* pop-up or press :kbd:`Return`.
 
 
 Press :kbd:`Esc` to abort.
