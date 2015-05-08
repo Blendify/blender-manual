@@ -70,7 +70,7 @@ or which it maps to a virtual space around the scene.
 .. figure:: /images/25-Manual-World-TexCoord.jpg
    :width: 207px
 
-   Texture Coordinates popup menu
+   Texture Coordinates pop-up menu
 
 
 The World textures are accessible in the texture menu (just select *World* first,

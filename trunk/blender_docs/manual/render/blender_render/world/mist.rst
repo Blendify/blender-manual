@@ -35,7 +35,7 @@ Depth
 .. figure:: /images/25-Manual-World-MistFalloff.jpg
    :width: 197px
 
-   Mist Falloff popup menu
+   Mist Falloff pop-up menu
 
 
 Height

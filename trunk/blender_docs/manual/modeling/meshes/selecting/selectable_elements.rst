@@ -27,7 +27,7 @@ Select Modes
 You have two ways to switch between select modes:
 
 
-Select Mode popup
+Select Mode pop-up
 -----------------
 
 .. admonition:: Reference
@@ -47,14 +47,14 @@ In *Edit* mode there are three different select modes for meshes; see
 
 
 :menuselection:`Select Mode --> Vertices`
-   Press :kbd:`Ctrl-Tab` and select *Vertices* from the popup menu, or press :kbd:`Ctrl-Tab`:kbd:`Numpad1`.
+   Press :kbd:`Ctrl-Tab` and select *Vertices* from the pop-up menu, or press :kbd:`Ctrl-Tab`:kbd:`Numpad1`.
    The selected vertices are drawn in yellow and unselected vertices are drawn in a pink color.
 :menuselection:`Select Mode --> Edges`
-   Press :kbd:`Ctrl-Tab` and select *Edges* from the popup menu, or press :kbd:`Ctrl-Tab`:kbd:`Numpad2`.
+   Press :kbd:`Ctrl-Tab` and select *Edges* from the pop-up menu, or press :kbd:`Ctrl-Tab`:kbd:`Numpad2`.
    In this mode the vertices are not drawn.
    Instead the selected edges are drawn in yellow and unselected edges are drawn in a black color.
 :menuselection:`Select Mode --> Faces`
-   Press :kbd:`Ctrl-Tab` and select *Faces* from the popup menu, or press :kbd:`Ctrl-Tab`:kbd:`Numpad3`.
+   Press :kbd:`Ctrl-Tab` and select *Faces* from the pop-up menu, or press :kbd:`Ctrl-Tab`:kbd:`Numpad3`.
    In this mode the faces are drawn with a selection point in the middle which is used for selecting a face.
    Selected faces are drawn in yellow with the selection point in orange, unselected faces are drawn in black.
 

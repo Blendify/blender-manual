@@ -38,7 +38,7 @@ Add Menu
 
 
 In the 3D view,
-:kbd:`Shift-A`:menuselection:`popup --> Bone` to add a new bone to your armature.
+:kbd:`Shift-A`:menuselection:`pop-up --> Bone` to add a new bone to your armature.
 
 This bone will be:
 
@@ -481,15 +481,15 @@ the bones created from a subdivision always form a connected chain of bones.
 
 To create two bones out of each selected bone:
 
-- press :kbd:`W`:menuselection:`popup --> Subdivide`, same as :kbd:`W-1`, or
+- press :kbd:`W`:menuselection:`pop-up --> Subdivide`, same as :kbd:`W-1`, or
 - select :menuselection:`Armature --> Subdivide` from the header menu
 
 To create an arbitrary number of bones from each selected bone:
 
-- press :kbd:`W`:menuselection:`popup --> Subdivide Multi`, same as :kbd:`W-2`, or
+- press :kbd:`W`:menuselection:`pop-up --> Subdivide Multi`, same as :kbd:`W-2`, or
 - select :menuselection:`Armature --> Subdivide Multi` from the header menu, an
 
-Then specify the number of cuts you want in the popup. As in mesh editing,
+Then specify the number of cuts you want in the pop-up. As in mesh editing,
 if you set ``n`` cuts, you'll get ``n+1`` bones for each selected bone.
 
 
@@ -516,7 +516,7 @@ You can prevent a bone from being transformed in *Edit mode* in several ways:
   in the *Transform Properties* panel (:kbd:`N` in a 3D view);
 - all bones can be locked clicking on the *Lock* button
   of their sub-panels in the *Armature Bones* panel;
-- press :kbd:`Shift-W`:menuselection:`popup --> Toggle Settings --> Locked`
+- press :kbd:`Shift-W`:menuselection:`pop-up --> Toggle Settings --> Locked`
 - select :menuselection:`Armature --> Bone Settings --> Toggle a Setting`).
 
 *If the root of a locked bone is connected to the tip of an unlocked bone,

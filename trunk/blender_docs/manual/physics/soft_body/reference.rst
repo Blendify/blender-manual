@@ -100,7 +100,7 @@ Use Goal
 Default
    If no vertex group is used, this numeric field is the default goal weight for all vertices.
    If a vertex group is present and assigned,
-   this button instead shows an popup selector button that allows you to choose the name of the goal vertex group.
+   this button instead shows an pop-up selector button that allows you to choose the name of the goal vertex group.
    A *Goal* value of 1.0 means no Soft Body simulation, the vertex stays at its original (animated)
    position. When setting *Goal* to 0.0, the object is only influenced by physical laws.
    By setting goal values between 0.0 and 1.0,

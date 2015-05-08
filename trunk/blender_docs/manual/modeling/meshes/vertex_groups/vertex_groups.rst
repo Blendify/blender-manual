@@ -278,14 +278,14 @@ You can find ungrouped vertices as follows:
 Keyboard Shortcuts
 ------------------
 
-.. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-popup.jpg
+.. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-pop-up.jpg
    :align: right
 
-   Vertex Groups popup menu
+   Vertex Groups pop-up menu
 
 
 In Edit Mode you can press :kbd:`Ctrl-G` to a shortcut Menu for adding/removing verts to/from groups.
-The popup menu provides the following functions with obvious functionality:
+The pop-up menu provides the following functions with obvious functionality:
 (also available via :menuselection:`Mesh --> Vertices --> Vertex Groups`)
 
 - Assign to New Group
