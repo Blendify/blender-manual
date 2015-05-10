@@ -72,7 +72,7 @@ Bounces
 Max Bounces
    Maximum number of light bounces. For best quality, this should be set to the maximum. However, in practice,
    it may be good to set it to lower values for faster rendering.
-   Setting it to maximum 1 bounce results in direct lighting.
+   Setting it to maximum 0 bounces results in direct lighting only.
 Min Bounces
    Minimum number of light bounces for each path,
    after which the integrator uses Russian Roulette to terminate paths that contribute less to the image.

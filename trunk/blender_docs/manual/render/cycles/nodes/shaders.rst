@@ -24,7 +24,7 @@ BSDF output
 
 .. list-table::
 
-   * - .. figure:: /images/Manual_cycles_nodes_bsdf_diffuse.jpg
+   * - .. figure:: /images/Manual_cycles_nodes_bsdf_diffuse.png
 
           Diffuse behavior
 
@@ -86,8 +86,8 @@ BSDF output
 
    * - Sharp Glossy
      - Rough Glossy
-   * - .. figure:: /images/Manual_cycles_nodes_bsdf_glossy_sharp.jpg
-     - .. figure:: /images/Manual_cycles_nodes_bsdf_glossy.jpg
+   * - .. figure:: /images/Manual_cycles_nodes_bsdf_glossy_sharp.png
+     - .. figure:: /images/Manual_cycles_nodes_bsdf_glossy.png
    * - .. figure:: /images/Manual_cycles_nodes_bsdf_glossyrender.jpg
      - .. figure:: /images/Manual_cycles_nodes_bsdf_glossyroughrender.jpg
 
@@ -181,7 +181,7 @@ BSDF output
 
 .. list-table::
 
-   * - .. figure:: /images/Manual_cycles_nodes_bsdf_transparent.jpg
+   * - .. figure:: /images/Manual_cycles_nodes_bsdf_transparent.png
           :align: center
 
           Transparent behaviour
@@ -228,8 +228,8 @@ BSDF output
 
    * - Sharp Glass
      - Rough Glass
-   * - .. figure:: /images/Manual_cycles_nodes_bsdf_glass_sharp.jpg
-     - .. figure:: /images/Manual_cycles_nodes_bsdf_glass.jpg
+   * - .. figure:: /images/Manual_cycles_nodes_bsdf_glass_sharp.png
+     - .. figure:: /images/Manual_cycles_nodes_bsdf_glass.png
    * - .. figure:: /images/Manual_cycles_nodes_bsdf_glassrender.jpg
      - .. figure:: /images/Manual_cycles_nodes_bsdf_glassroughrender.jpg
 
@@ -258,7 +258,7 @@ BSDF output
    Glossy :abbr:`BSDF (Bidirectional scattering distribution function)` shader.
 
 
-.. figure:: /images/Manual_cycles_nodes_bsdf_refraction.jpg
+.. figure:: /images/Manual_cycles_nodes_bsdf_refraction.png
 
    Refraction Shader.
 
