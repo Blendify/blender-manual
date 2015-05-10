@@ -258,7 +258,7 @@ BSDF output
    Glossy :abbr:`BSDF (Bidirectional scattering distribution function)` shader.
 
 
-.. figure:: /images/Manual_cycles_nodes_bsdf_refraction.png
+.. figure:: /images/Manual_cycles_nodes_bsdf_refraction.jpg
 
    Refraction Shader.
 
