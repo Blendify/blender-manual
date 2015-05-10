@@ -11,9 +11,7 @@ shaders. This way, textures can then be used to make the mesh surface more detai
 
 
 Type
-
-----
-
+====
 
 .. figure:: /images/Selection_017.jpg
 
@@ -38,12 +36,11 @@ Displacement + Bump
 Subdivision
 ===========
 
+*Implementation not finished yet, marked as an* :doc:`experimental feature </render/cycles/experimental_features>`.
+
 .. figure:: /images/cycles_manual_materials_displacementbump.jpg
 
    Bump Mapped Displacement
-
-
-*Implementation not finished yet, marked as :doc:`experimental features </render/cycles/experimental_features>`*
 
 When using *True Displacement* or *Displacement + Bump* and enabling *Use Subdivision*
 you can reduce the **Dicing Rate** to subdivide the mesh.

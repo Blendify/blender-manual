@@ -11,6 +11,4 @@
    output.rst
    shaders.rst
    textures.rst
-   vector.rst
-   converter.rst
    more.rst

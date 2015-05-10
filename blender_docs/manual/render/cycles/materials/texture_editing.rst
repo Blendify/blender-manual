@@ -32,8 +32,6 @@ Rendered
 .. figure:: /images/Cycles_texture_draw_modes.jpg
    :width: 600px
 
-   size
-
 
 Texture Properties
 ==================
