@@ -14,6 +14,7 @@ Type
 ====
 
 .. figure:: /images/Selection_017.jpg
+   :align: right
 
 Depending on the settings, the displacement may be virtual,
 only modifying the surface normals to give the impression of displacement,

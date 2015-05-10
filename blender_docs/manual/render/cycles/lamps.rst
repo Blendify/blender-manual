@@ -43,6 +43,12 @@ Area Lamp
 
 Area lamps emit light from a square or rectangular area with a Lambertian distribution.
 
+Light Portals
+-------------
+
+Area lamps can also function as light portals to help sample the environment light, and significantly reduce noise in interior scenes. Note that rendering with portals is usually slower, but as it converges more quickly, less samples are required.
+
+Light portals work by enabling the Portal option, and placing areas lamps in windows, door openings, and any place where light will enter the interior.
 
 Sun Lamp
 ========

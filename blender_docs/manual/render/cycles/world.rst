@@ -69,11 +69,10 @@ Transparency of surfaces will be taken into account, i.e.
 a half-transparent surface will only half occlude.
 
 An alternative method of using Ambient Occlusion on a per-shader basis is to use the
-:ref:`cycles_shader_ao` shader
-(*non-shader AO node still to be implemented*).
+:ref:`cycles_shader_ao` shader.
 
 
-Settings
+Sampling
 ========
 
 Multiple Importance Sample
@@ -100,6 +99,20 @@ Below is a comparison between Multiple Importance Sample Off and On - both image
 
           Multiple Importance Sample On
 
+
+For interior scenes, noise can be significantly reduce by setting up area lamps as :doc:`light portals </render/cycles/lamps>`.
+
+.. list-table::
+
+   * - .. figure:: /images/Manual_cycles_light_portals_off.jpg
+          :width: 300px
+
+          Without Light Portals
+
+     - .. figure:: /images/Manual_cycles_light_portals_on.jpg
+          :width: 300px
+
+          With Light Portals
 
 Ray Visibility
 ==============
