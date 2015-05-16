@@ -306,16 +306,10 @@ These options allow you to align and orient the view in different ways.
 They are found in the *View Menu*
 
    Align View to Selected menu
-      These options align your view with specified local axes of the selected object or, in *Edit* mode,
+      These options align your view with specified local axes of the selected object, bone or in *Edit* mode,
       with the normal of the selected face.
 
-
-      *Top* :kbd:`Shift-Numpad7`
-      *Bottom* :kbd:`Shift-Ctrl-Numpad7`
-      *Front* :kbd:`Shift-Numpad1`
-      *Back* :kbd:`Shift-Ctrl-Numpad1`
-      *Right* :kbd:`Shift-Numpad3`
-      *Left* :kbd:`Shift-Ctrl-Numpad3`
+      Hold down :kbd:`Shift` while using the numpad to set the view axis.
 
    Center Cursor and View All (:kbd:`Shift-C`)
       moves the cursor back to the origin **and** zooms in/out so that you can see everything in your scene.
