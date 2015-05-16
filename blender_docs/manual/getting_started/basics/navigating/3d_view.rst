@@ -266,8 +266,10 @@ Zoom Border
 The *Zoom Border* tool allows you to specify a rectangular region and zoom in so
 that the region fills the 3d view.
 
-You can access this through the *View* menu,
-or the shortcut :kbd:`Shift-B` then click and drag rectangle to zoom in.
+You can access this through the *View* menu, or the shortcut :kbd:`Shift-B`,
+then :kdb:`LMB` click and drag a rectangle to zoom into.
+
+Alternatively you can zoom out using the :kdb:`MMB`.
 
 
 Dolly the View
