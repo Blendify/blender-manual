@@ -269,7 +269,7 @@ that the region fills the 3d view.
 You can access this through the *View* menu, or the shortcut :kbd:`Shift-B`,
 then :kbd:`LMB` click and drag a rectangle to zoom into.
 
-Alternatively you can zoom out using the :kdb:`MMB`.
+Alternatively you can zoom out using the :kbd:`MMB`.
 
 
 Dolly the View
