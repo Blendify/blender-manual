@@ -3,12 +3,11 @@
 Panels
 ******
 
-Panels are collapsible sections within Regions to have their elements
-more organized. They are heavily used in the *Properties Editor* but also
-appear elsewhere, e.g. in the Tool Shelf or the Properties Shelf that are
-available in some Editors.
+Panels are collapsible sections within regions to help organise the interface. 
+They are heavily used in the *Properties Editor* but also
+appear elsewhere (For example: in the *Tool Shelf* or the *Properties Shelf*, available in some editors).
 
-The image below shows Panels in different Regions in their expanded and
+The image below shows panels in different regions in their expanded and
 collapsed state.
 
 .. figure:: /images/getting_started_basics_interface_panels_01.png
@@ -17,27 +16,23 @@ collapsed state.
    Expanded (1) and collapsed (2) Panels in the Properties Editor (right area)
    and in the additional Regions of the 3D View Editor (left area)
 
-- A click with the :kbd:`LMB` on the title area of a Panel expands or collapses it.
+- A click with the :kbd:`LMB` on the title area of a panel expands or collapses it.
 - A :kbd:`LMB` drag motion over the title area will expand or collapse many at once.
-- A :kbd:`Ctrl+LMB` click on the title area of a specific Panel will collapse
-  all other Panels and make this the only expanded one.
+- A :kbd:`Ctrl+LMB` click on the title area of a specific panel will collapse
+  all other panels and make this the only expanded one.
 
-The availability of Panels in certain Regions can change related to the
-active Context. So for instance the Tool Shelf will show different Panels
-when used in different Editors. Also, the Panels in the Properties Editor
-will change if you switch its Context with the buttons in the Header.
+Some panels only show in certain contexts.
+So for instance the *Tool Shelf* will show different panels depending on the objects mode.
 
-There are some options available to customize Panels to your preference:
+There are some options available to customize panels to your preference:
 
-- You can change the position of a Panel within its Region by clicking and
-  dragging it with the :kbd:`LBM` on the little widget in the upper right corner.
-- The zoom factor of a whole Region with Panels can be changed by
-  :kbd:`Ctrl+MMB` clicking and moving the mouse anywhere within that Region
-- The alignment of the Panels in the Properties Editor can be changed
+- You can change the position of a panel within its region by clicking and
+  dragging it with the :kbd:`LMB` on the little widget in the upper right corner.
+- The zoom factor of a whole region with panels can be changed by
+  :kbd:`Ctrl+MMB` clicking and moving the mouse anywhere within that region.
+- The alignment of the panels in the *Properties Editor* can be changed
   between vertical and horizontal. To do this click with :kbd:`RMB` somewhere
-  within the main Region of the Properties Editor and choose either
+  within the main region of the *Properties Editor* and choose either
   *Horizontal* or *Vertical* from the appearing menu. Keep in mind though that
-  the Panels are optimized for vertical alignment.
+  the panels are optimized for vertical alignment.
 
-For further details about each Panel find the appropriate section for the
-related Editor in the manual.

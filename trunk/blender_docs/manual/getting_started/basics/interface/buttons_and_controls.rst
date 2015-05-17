@@ -18,10 +18,7 @@ Operation Buttons
 
 
 These are buttons that perform an operation when clicked with :kbd:`LMB`.
-They can be identified by their gray color in the default Blender scheme.
-
-Pressing :kbd:`Ctrl-C` over these buttons copies their python command into the clipboard
-which can be used in the python console or in the text editor when writing scripts.
+They can be identified by their gray color in the default color scheme.
 
 
 Toggle Buttons
@@ -33,17 +30,15 @@ Toggle Buttons
    Toggle buttons
 
 
-Toggle buttons consist of tick boxes.
-Clicking this type of button will toggle a state but will not perform any operation. In some
-cases the button is attached to a number button to control the influence of the property.
-
+Toggle buttons are typically displayed as check boxes.
+Clicking this type of button will toggle a state but will not perform any operation.
 
 - To change many toggle buttons at once, you can :kbd:`LMB` drag over multiple buttons,
   This works for check-boxes, toggles in the outliner and layer buttons.
 
   .. note::
 
-     For layer buttons its often useful to hold :kbd:`Shift` at the same time,
+     For layer buttons (a type of toggle button) it is often useful to hold :kbd:`Shift` at the same time,
      to set or clear many layers at once.
 
 Radio Buttons
@@ -69,14 +64,13 @@ Number Buttons
 
 Number buttons can be identified by their labels,
 which in most cases contains the name and a colon followed by a number.
-Number buttons are handled in several ways:
+Number buttons can be edited in several ways:
 
 
 Incremental Steps
    To change the value in steps, click :kbd:`LMB` on the small triangles on the sides of the button.
 Dragging
    To change the value in a wider range, hold down :kbd:`LMB` and drag the mouse to the left or right.
-
 Text Input
    Press :kbd:`LMB` or :kbd:`Return` to edit the value as a text field.
 
@@ -125,10 +119,9 @@ Menu Buttons
    Datablock link buttons
 
 
-Use the Menu buttons to work with items on dynamically created lists.
+Use the menu buttons to work with items on dynamically created lists.
 Menu buttons are principally used to link DataBlocks to each other.
 DataBlocks are items like Meshes, Objects, Materials, Textures, and so on.
-Linking a Material to an Object will assign that material to the selected Objects.
 
 
 .. figure:: /images/Manual-Part-I-ConceptButtons4_1_25.jpg
@@ -137,8 +130,8 @@ Linking a Material to an Object will assign that material to the selected Object
    Datablock link menu with search
 
 
-- The first button (with an icon of the DataBlock type) opens a menu that lets you select the DataBlock to
-  link by clicking :kbd:`LMB` on the requested item. This list has a search box at the bottom.
+- The first button (with an icon of the DataBlock type) opens up a menu to select an item 
+  by clicking :kbd:`LMB`.
 - The second button displays the name of the linked DataBlock and lets you edit it after clicking :kbd:`LMB`.
 - The "+" button duplicates the current DataBlock and applies it.
 - The "X" button clears the link.
@@ -184,6 +177,13 @@ While Hovering
    *When the cursor is held over a button*
 
    - :kbd:`Ctrl-C` - copy the value of the button.
+   
+     .. note::
+     
+        Pressing :kbd:`Ctrl-C` over any `Operation Buttons`_ copies their Python command into the clipboard
+        which can be used in the Python console or in the text editor when writing scripts.
+   
+  
    - :kbd:`Ctrl-V` - paste the value of the button.
    - :kbd:`RMB` - open the context menu.
    - :kbd:`Backspace` - set the value to zero.
