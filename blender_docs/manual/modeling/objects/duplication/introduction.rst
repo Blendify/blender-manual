@@ -3,6 +3,30 @@
 Duplication
 ***********
 
+There are two types of duplication, being `Duplicate`_ and `Linked Duplicates`_ which supports instancing.
+
+
+Instancing
+==========
+
+Each Blender object type (mesh, lamp, curve, camera *etc.*) is composed from two parts:
+an *Object* and *Object Data* (sometimes abbreviated to *ObData*):
+
+Object
+   Holds information about the position, rotation and size of a particular element.
+Object Data
+   Holds everthing else.
+   For example:
+   
+   :Meshes: Store geometry, material list, vertex groups... etc.
+   :Cameras: Store focal length, depth of field, sensor size... etc.
+
+   Each object has a link to its associated object data, and a single object data may be shared by many objects.
+
+
+Duplicate
+=========
+
 .. admonition:: Reference
    :class: refbox
 
@@ -10,9 +34,6 @@ Duplication
    | Menu:     *Object* --> *Duplicate*
    | Hotkey:   :kbd:`Shift-D`
 
-
-Description
-===========
 
 This will create a visually-identical copy of the selected object(s). The copy is created at
 the same position as the original object and you are automatically placed in *Grab*
@@ -30,8 +51,9 @@ in the *User Preferences* ' (available in the *File* menu)
 *Duplicate Data* list - the others will just be linked.
 
 
+
 Examples
-========
+--------
 
 .. figure:: /images/Manual-2.5-Modeling-Duplicate-Example.jpg
    :width: 620px
@@ -54,7 +76,7 @@ See above if you want separate copies of the datablocks normally linked.
 
 
 Linked Duplicates
-*****************
+=================
 
 .. admonition:: Reference
    :class: refbox
@@ -64,9 +86,6 @@ Linked Duplicates
    | Hotkey:   :kbd:`Alt-D`
 
 
-Description
-===========
-
 You also have the choice of creating a *Linked Duplicate* rather than a *Duplicate*;
 this is called a deep link.
 This will create a new object with **all** of its data linked to the original object.
@@ -75,9 +94,18 @@ all linked copies are modified. Transform properties (object datablocks) still r
 not links, so you still can rotate, scale, and move freely without affecting the other copy.
 Reference (*Duplicate Example*) for the discussions below.
 
+.. hint:: 
+
+   If you want to make changes to an object in the new linked duplicate independently of the original object,
+   you will have to manually make the object a "single-user" copy by 
+   :kbd:`LMB` the number in the *Object Data* panel of the Properties Window.
+
+
+   .. figure:: /images/Manual-Interface-Scenes-mk_singleuser.jpg
+      :align: center
 
 Examples
-========
+--------
 
 .. figure:: /images/Manual-2.5-Modelling-Duplicate-Linked-Example.jpg
    :width: 620px
@@ -104,7 +132,7 @@ wheels on a car... anywhere there is repetition or symmetry.
 
 
 Procedural Duplication
-**********************
+======================
 
 .. admonition:: Reference
    :class: refbox
@@ -138,7 +166,7 @@ this is also a *very* powerful technique for arranging objects and for modeling 
 
 
 Linked Library Duplication
-**************************
+==========================
 
 .. admonition:: Reference
    :class: refbox
@@ -152,7 +180,7 @@ Any object or datablock in other ``.blend`` files can be reused in the current f
 
 
 Hints
-*****
+=====
 
 - If you want transform properties (i.e. object datablocks) to be "linked",
   see the page on :doc:`parenting </modeling/objects/groups_and_parenting>`.
