@@ -2,7 +2,7 @@
 ***************
   Introduction
 ***************
-Blender's user interface is consistent across all platforms. 
+Blender's user interface is consistent across all platforms.
 The interface can be customized to match specific tasks using Screen Layouts,
 which can then be named and saved for later use.
 

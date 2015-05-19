@@ -148,5 +148,5 @@ The following table shows the available hotkeys for the animation player:
      - Slow down playback.
    * - :kbd:`Plus`
      - Speed up playback.
-   
+
 A external player can be used instead by selecting it in the :doc:`User Preferences </preferences/file>`.

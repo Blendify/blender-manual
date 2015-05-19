@@ -11,7 +11,7 @@ overlaying another image, etc.
 
 .. toctree::
    :maxdepth: 1
-   
+
    mix.rst
    alpha_over.rst
    invert.rst

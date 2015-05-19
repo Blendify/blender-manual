@@ -47,7 +47,7 @@ You can download the latest version of Blender `here <http://www.blender.org/dow
 .. figure:: /images/introduction_intro_postprocessing.jpg
 
    A rendered image being post-processed
-   
+
 
 Blender makes it possible to perform a wide range of tasks, and it may seem daunting when first
 trying to grasp the basics. However, with a bit of motivation and the right learning material,

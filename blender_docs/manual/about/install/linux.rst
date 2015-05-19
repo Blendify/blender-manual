@@ -26,7 +26,7 @@ Debian/Ubuntu
 Redhat/Fedora
    .. code-block:: sh
 
-      sudo yum install python python-pip 
+      sudo yum install python python-pip
 Arch Linux
    .. code-block:: sh
 

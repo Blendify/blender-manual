@@ -35,7 +35,7 @@ Video: `Learn more about Blender's Mouse Button usage <http://vimeo.com/76335056
 Exceptions from the Rule
 ------------------------
 
-There are a few corner cases where :kbd:`LMB` is used for selection. 
+There are a few corner cases where :kbd:`LMB` is used for selection.
 For example, the *File Selector*.
 
 
@@ -48,5 +48,5 @@ your computer to the UK or US layout as long as you work with Blender.
 .. note::
 
    You can also change the default keymap and default hotkeys from the
-   :doc:`User Preferences </preferences/input>`, however this manual assumes you are using the default keymap. 
+   :doc:`User Preferences </preferences/input>`, however this manual assumes you are using the default keymap.
    :doc:`Read more about Blender configuration </preferences/input>`

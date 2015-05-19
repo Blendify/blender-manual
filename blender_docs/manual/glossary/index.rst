@@ -13,7 +13,7 @@
       Only one Object or item can be active at any given time.
 
    Action Safe
-     Area of the screen visible on most devices. Place content inside it to ensure it doesn't get cut off. 
+     Area of the screen visible on most devices. Place content inside it to ensure it doesn't get cut off.
 
    Actuator
       A :term:`logic brick` that acts like a muscle of a lifeform. It can move the object, or also make a sound.
@@ -469,7 +469,7 @@
       Also called: **Subsurf**.
 
    Title Safe
-     Area of the screen visible on all devices. Place text and graphics inside this area to make sure they don't get 
+     Area of the screen visible on all devices. Place text and graphics inside this area to make sure they don't get
      cut off.
 
    Texture

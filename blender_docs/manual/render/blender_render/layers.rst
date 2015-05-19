@@ -8,7 +8,7 @@ For the engine-independent settings, see :doc:`this section </render/post_proces
 
 Light Override
    Enter the name of a light group, and the scene will be lit with only those lights.
-   
+
    Examples of where this might be used:
 
    - Using multiple Render Layers with different light group overrides can

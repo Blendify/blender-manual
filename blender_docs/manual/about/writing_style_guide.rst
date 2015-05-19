@@ -23,8 +23,8 @@ Concise
    so keep the text concise and relevant to the topic at hand.
 Maintainable
    Keep in mind that Blender has frequent releases,
-   so try to write content that won.t have to be redone 
-   the moment some small change is made. 
+   so try to write content that won.t have to be redone
+   the moment some small change is made.
    This also helps a small documentor community to maintain the manual.
 
 
@@ -39,7 +39,7 @@ Rules of thumb:
 - *Spell checking is strongly recommended.*
 - Use American English (eg: modeling and not modelling, color and not colour).
 - Take care about grammar, appropriate wording and use simple English.
-- Keep Sentences short and clear, resulting in text that is easy to read, objective and to the point. 
+- Keep Sentences short and clear, resulting in text that is easy to read, objective and to the point.
 - Including why or how an option might be useful is a good idea.
 - If you are unsure about how a feature works, ask someone else or find out who developed it and ask them.
 

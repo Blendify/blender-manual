@@ -130,7 +130,7 @@ DataBlocks are items like Meshes, Objects, Materials, Textures, and so on.
    Datablock link menu with search
 
 
-- The first button (with an icon of the DataBlock type) opens up a menu to select an item 
+- The first button (with an icon of the DataBlock type) opens up a menu to select an item
   by clicking :kbd:`LMB`.
 - The second button displays the name of the linked DataBlock and lets you edit it after clicking :kbd:`LMB`.
 - The "+" button duplicates the current DataBlock and applies it.
@@ -166,7 +166,6 @@ For example, the Add Modifier button will produce a menu with all of the availab
    :doc:`Read more about Fake User </data_system/introduction>`
 
 
-
 Common Shortcuts
 ================
 
@@ -177,13 +176,13 @@ While Hovering
    *When the cursor is held over a button*
 
    - :kbd:`Ctrl-C` - copy the value of the button.
-   
+
      .. note::
-     
+
         Pressing :kbd:`Ctrl-C` over any `Operation Buttons`_ copies their Python command into the clipboard
         which can be used in the Python console or in the text editor when writing scripts.
-   
-  
+
+
    - :kbd:`Ctrl-V` - paste the value of the button.
    - :kbd:`RMB` - open the context menu.
    - :kbd:`Backspace` - set the value to zero.

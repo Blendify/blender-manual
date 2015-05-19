@@ -86,7 +86,7 @@ Save & Load
 ===========
 
 Relative Paths
-   By default, external files use a :doc:`relative path </data_system/files/relative_paths>`. 
+   By default, external files use a :doc:`relative path </data_system/files/relative_paths>`.
 Compress File
    Compress ``.blend`` file when saving.
 Load UI

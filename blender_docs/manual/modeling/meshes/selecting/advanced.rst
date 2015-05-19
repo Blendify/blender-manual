@@ -336,7 +336,7 @@ Boundary Loop
    | Hotkey:   :kbd:`Ctrl-E` --> :menuselection:`Select Boundary Loop`
 
 
-*Select Boundary Loop* is the "logical inverse" of *Select Loop Inner-Region*,
+*Select Boundary Loop* does the opposite of *Select Loop Inner-Region*,
 based on all regions currently selected, it selects only the edges at the border of these regions.
 It can operate in any select mode, but will always switch to *Edge* select mode when run.
 

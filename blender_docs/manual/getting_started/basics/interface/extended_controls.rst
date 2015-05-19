@@ -193,7 +193,6 @@ Color Bar
    showing the base color and the right side showing the color with the alpha value.
 
 
-
 .. _curve-widget:
 
 Curve Widget
@@ -245,7 +244,6 @@ Above the curve graph is a row of controls. These are:
 .. figure:: /images/26-Manual-Material-Vector-Node-Curves-Controls.jpg
 
    Node curve controls
-
 
 
 Channel selector

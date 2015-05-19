@@ -46,7 +46,6 @@ or accidentally saved over the wrong file.
    (e.g. changing ``file_01.blend`` to ``file_02.blend``).
 
 
-
 Options
 =======
 

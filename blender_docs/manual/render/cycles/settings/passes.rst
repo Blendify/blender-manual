@@ -71,7 +71,7 @@ Data Passes
 Combined
    The final combination of render passes with everything included.
 Z
-   The 
+   The
 Mist
    Mist value between 0.0 and 1.0, using settings from the Mist Pass panel in world properties.
 Normal

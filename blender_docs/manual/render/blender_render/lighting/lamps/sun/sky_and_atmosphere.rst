@@ -216,7 +216,6 @@ And now, the effects of various settings (examples created with
           Turbidity: 10.0.
 
 
-
 Sky
 ===
 

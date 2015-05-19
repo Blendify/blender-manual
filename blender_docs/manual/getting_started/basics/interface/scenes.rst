@@ -39,7 +39,7 @@ Adding a new Scene
 You can add a new scene by clicking the *Add* button (|addview-button|) in the scene selector option.
 When you create a new scene, you can choose between a number of options to control its contents.
 
-To choose between these options, 
+To choose between these options,
 it's useful to understand the difference between *Objects* and *Object Data*.
 See :doc:`Duplication </modeling/objects/duplication/introduction>`.
 
@@ -65,11 +65,11 @@ Link Object Data
    Creates new, duplicate copies of all of the objects in the currently selected scene,
    but each one of those duplicate objects will have *links to* the object-data (meshes, materials and so on)
    of the corresponding objects in the original scene.
-   
+
    This means that you can change the position,
    orientation and size of the objects in the new scene without affecting other scenes,
-   but any modifications to the object-data (meshes, materials *etc*) will also affect other scenes. 
-   This is because a *single instance of* the "object-data" is now being shared by all of the objects 
+   but any modifications to the object-data (meshes, materials *etc*) will also affect other scenes.
+   This is because a *single instance of* the "object-data" is now being shared by all of the objects
    in all of the scenes that link to it.
 
    More information at the :doc:`Window Type </editors/index>` page.

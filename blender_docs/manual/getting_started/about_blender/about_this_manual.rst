@@ -14,30 +14,30 @@ Conventions used
 
 The mouse buttons are referred to as:
 
-:kbd:`LMB` 
+:kbd:`LMB`
   Left Mouse Button
-:kbd:`RMB` 
+:kbd:`RMB`
   Right Mouse Button
 
 If your mouse has a wheel
 
-:kbd:`MMB` 
+:kbd:`MMB`
   Middle Mouse Button
-:kbd:`Wheel` 
+:kbd:`Wheel`
   Scrolling the wheel.
 
 Hotkey letters are shown in this manual like they appear on a keyboard; for example,
 
-:kbd:`G` 
+:kbd:`G`
   refers to the lowercase ``g``.
-:kbd:`Shift`, :kbd:`Ctrl`, :kbd:`Alt` 
+:kbd:`Shift`, :kbd:`Ctrl`, :kbd:`Alt`
   are specified as modifier keys.
-:kbd:`Ctrl-W`, :kbd:`Shift-Alt-A`, ...  
+:kbd:`Ctrl-W`, :kbd:`Shift-Alt-A`, ...
   indicates that these keys should be pressed simultaneously
-:kbd:`Numpad0` to :kbd:`Numpad9`, :kbd:`NumpadPlus` 
+:kbd:`Numpad0` to :kbd:`Numpad9`, :kbd:`NumpadPlus`
   refer to the keys on the separate numeric keypad.
 
-Other keys are referred to by their names, 
+Other keys are referred to by their names,
 such as :kbd:`Esc`, :kbd:`Tab`, :kbd:`F1` to :kbd:`F12`.
 Of special note are the arrow keys, :kbd:`Left`, :kbd:`Right` and so on.
 

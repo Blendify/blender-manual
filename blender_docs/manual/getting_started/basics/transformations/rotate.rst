@@ -150,6 +150,6 @@ can also be set in this panel from the drop down box.
 
 :doc:`Read more about rotation modes </getting_started/basics/transformations/transform_control/transform_orientations>`
 
-`Additional detail about rotation modes 
+`Additional detail about rotation modes
 <http://wiki.blender.org/index.php/User:Pepribal/Ref/Appendices/Rotation>`__
 

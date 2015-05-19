@@ -9,10 +9,10 @@ inside the Blender Window (except on the splash screen).
 .. figure:: /images/blender_default_startup.png
    :align: center
    :width: 75%
-  
+
    After closing splash screen, this is what the default Blender window looks like.
-   
-   
+
+
 #########
   Basics
 #########

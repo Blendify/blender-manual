@@ -144,7 +144,6 @@ The basic steps are:
 - move and reshape them
 
 
-
 Edit Mode
 ---------
 
