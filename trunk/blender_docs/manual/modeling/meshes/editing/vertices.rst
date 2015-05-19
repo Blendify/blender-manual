@@ -286,7 +286,7 @@ Vertex Slide
    | Mode:     *Edit* mode
    | Panel:    *Editing* context --> *Mesh Tools*
    | Menu:     :menuselection:`Mesh --> Vertices --> Vertex Slide`
-   | Hotkey:   :menuselection:`[Shift][V] --> Vertex Slide`
+   | Hotkey:   :kbd:`Shift-V`
 
 
 Vertex Slide will transform a vertex along one of its adjacent edges.
@@ -295,12 +295,18 @@ then confirm with :kbd:`LMB`.
 Drag the cursor to specify the position along the line formed by the edge,
 then :kbd:`LMB` again to move the vertex.
 
+:kbd:`Shift`
+   Higher precision control.
+:kbd:`Ctrl`
+   Snap to value (useful to combine with auto merge)
+:kbd:`LMB`
+   confirms the tool
+:kbd:`RMB` or :kbd:`Esc`
+   Cancels.
 
-There are three options available by holding the following keys:
 
-- Snap to Midpoint :kbd:`Shift`
-- Snap to Endpoint :kbd:`Alt`
-- Snap and Merge to Endpoint :kbd:`Ctrl`
+:kbd:`Alt` or :kbd:`C`
+   Toggle clamping the slide within the edge extents.
 
 
 .. figure:: /images/VertexSlide1.jpg
