@@ -105,20 +105,30 @@ Edge Slide
 
    | Mode:     *Edit* mode (*Vertex* or *Edge* select modes)
    | Menu:     :menuselection:`Mesh --> Edges --> Slide Edge` (or the same option in *Edge Specials* menu)
-   | Hotkey:   :menuselection:`[ctrl][E] --> [pad6]`
+   | Hotkey:   :kbd:`G`, :kbd:`G`
 
 
 Slides one or more edges across adjacent faces with a few restrictions involving the selection
-of edges (i.e. the selection must make sense, see below.)
+of edges *(i.e. the selection must define a valid loop, see below.)*
+
+:kbd:`Shift`
+   Higher precision control.
+:kbd:`Ctrl`
+   Snap to value (useful to combine with auto merge)
+:kbd:`LMB`
+   confirms the tool
+:kbd:`RMB` or :kbd:`Esc`
+   Cancels.
+
 
 Even :kbd:`E`
    Forces the edge loop to match the shape of the adjacent edge loop.
    You can flip to the opposite vertex using :kbd:`F`. Use :kbd:`Alt-Wheel` to change the control edge.
 Flip :kbd:`F`
    When Even mode is active, this flips between the two adjacent edge loops the active edge loop will match
+:kbd:`Alt` or :kbd:`C`
+   Toggle clamping the slide within the edge extents.
 
-:kbd:`LMB`
-   confirms the tool, and :kbd:`RMB` or :kbd:`Esc` cancels.
 
 This tool has a factor,
 which is displayed in the 3D View footer and in the *Tool Shelf*

@@ -9,8 +9,8 @@ The select menu in edit mode contains additional tool for selecting components:
 
 Mirror
    Select mesh items at the mirrored location.
-Linked :kbd:`Ctrl-L`
-   Selects all components that are connected to the current selection.
+Linked
+   Selects all components that are connected to the current selection. (see `Select Linked`_)
 Random
    Selects a random group of vertices, edges, or faces, based on a percentage value.
 Checker Deselect
@@ -50,6 +50,31 @@ Select Faces by Sides
    Selects all faces that have a specified number of edges.
 Loose Geometry
    Select all vertices or edges that do not form part of a face.
+
+
+Select Linked
+=============
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     *Edit* mode
+   | Menu:     :menuselection:`Select --> Linked`
+   | Hotkey:   :kbd:`Ctrl-L`
+
+Select parts of a mesh connected to already selected elements.
+This is often useful when a mesh has disconnected, overlapping parts,
+where isolating it any other way would be tedious.
+
+To give more control, you can also enable delimiters so the selection is
+constrained by seans, sharp-edges, materials or UV islands.
+
+.. hint::
+
+   You can also select linked data directly under the cursor,
+   using the :kbd:`L` shortcut to select or :kbd:`Shift-L` to deselect linked.
+
+   This works differently in that it uses the geometry under the cursor instead of the existing selection.
 
 
 Select Similar
