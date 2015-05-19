@@ -35,7 +35,7 @@ Node toggle
 
 Preview image toggle
    The sphere button on the far right of the title bar hides/shows the preview image.
-   
+
 .. list-table::
 
    * - .. figure:: /images/compositing_nodecontrols_collapse.png

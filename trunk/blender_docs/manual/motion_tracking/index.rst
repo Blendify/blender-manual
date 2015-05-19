@@ -9,7 +9,7 @@ Introduction
 Blender's motion tracker supports a couple of very powerful tools for 2D tracking and 3D motion tracking,
 including camera tracking and object tracking, as well as some special features like the plane track for compositing.
 Tracks can also be used to move and deform masks for rotoscoping in the Mask Editor,
-which is available as a special mode in the Movie Clip Editor. 
+which is available as a special mode in the Movie Clip Editor.
 
 It's ready to be used in production,
 as validated for example by the open movie `"Tears of Steel" <http://tearsofsteel.org>`__ by the Blender Foundation.
@@ -47,7 +47,7 @@ the exact value of the focal length and the "strength" of distortion are needed.
 Currently, focal length can be automatically obtained only from the camera's settings or from
 the EXIF information. There are some tools which can help to find approximate values to compensate for distortion.
 There are also fully manual tools where you can use a grid which is getting affected by distortion model and deformed
-cells defines straight lines in the footage. 
+cells defines straight lines in the footage.
 
 You can also use the grease pencil for this - just draw a line which should be straight on the footage using poly
 line brush and adjust the distortion values to make the grease pencil match lines on the footage.
@@ -61,11 +61,10 @@ Camera and object motion solving
 
 Blender not only supports the solving of camera motion, including tripod shots,
 but also the solving of object motion in relation to the motion of the camera.
-In addition to that there is the Plane Track, which solves the motion of all markers on one plane. 
+In addition to that there is the Plane Track, which solves the motion of all markers on one plane.
 
 There are also plans to add more tools in the future, for example more automatic tracking and solving,
-multi-camera solving and constrained solutions. 
-
+multi-camera solving and constrained solutions.
 
 
 Basic tools for scene orientation and stabilization

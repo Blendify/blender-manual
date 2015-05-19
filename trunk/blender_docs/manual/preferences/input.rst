@@ -84,7 +84,7 @@ Mouse
 Emulate 3 Button Mouse
    Blender can be configured to work with different mouse types (such as a two-button mouse,
    Apple single-button Mouse, or laptop touchpad).
-   The functionality of the 3 mouse buttons will then be be emulated with 
+   The functionality of the 3 mouse buttons will then be be emulated with
    key/mousebutton combos as shown in the table below.
 
    .. list-table:: Shortcuts for supported mouse hardware

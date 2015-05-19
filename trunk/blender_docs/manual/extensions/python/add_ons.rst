@@ -27,7 +27,6 @@ The `Scripts Catalog <http://wiki.blender.org/index.php/Extensions:2.6/Py/Script
 an index of Add-ons that are included with Blender as well as listing a number of external Add-ons.
 
 
-
 Enabling and Disabling
 ======================
 

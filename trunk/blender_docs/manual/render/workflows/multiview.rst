@@ -28,7 +28,7 @@ Open Movie Workshop series from the Blender Institute by **Andy Goralczyk**.
 Views Setup
 ===========
 
-Go to the Render Layers panel and enable *Views* for this scene. 
+Go to the Render Layers panel and enable *Views* for this scene.
 
 .. Go to the Render layers panel and enable :guilabel:`Views` for this scene.
 

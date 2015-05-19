@@ -246,7 +246,6 @@ leading to strange behavior. If your springs are acting weird, check the damping
          Spring Damping on X, Y or Z axis respectively. Amount of damping the spring has.
 
 
-
 .. _motor-constraint:
 
 Motor

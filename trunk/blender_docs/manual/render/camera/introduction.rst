@@ -207,7 +207,7 @@ Harmonious Triangle B
 Safe Areas
 ^^^^^^^^^^^^^^^^^^
 
-When this is enabled, extra dotted frames are drawn when in camera view, delimiting the area considered as 
+When this is enabled, extra dotted frames are drawn when in camera view, delimiting the area considered as
 "safe" for important elements. :doc:`More information about them in the safe areas section
 </editors/sequencer/safe_areas>`.
 

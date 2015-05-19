@@ -12,4 +12,3 @@
    duplifaces.rst
    dupliframes.rst
    dupligroup.rst
-   

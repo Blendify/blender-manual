@@ -60,7 +60,6 @@ through the `release notes <http://wiki.blender.org/index.php/Dev:Ref/Release_No
    `instructions <http://wiki.blender.org/index.php/Dev:Doc/Building_Blender>`__ available.
 
 
-
 Install Blender
 ===============
 The procedure for installing a binary, either the last stable release or a daily build, is the same.

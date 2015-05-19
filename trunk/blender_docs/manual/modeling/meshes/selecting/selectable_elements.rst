@@ -28,7 +28,7 @@ You have two ways to switch between select modes:
 
 
 Select Mode pop-up
------------------
+------------------
 
 .. admonition:: Reference
    :class: refbox

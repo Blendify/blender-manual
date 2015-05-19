@@ -61,7 +61,7 @@ Mix Mode
 
    Mix, Add, Subtract, Multiply
       Apply that operation, using mix factor to control how much of source or destination value to use.
-      Only available for a few types (vertex groups, vertex colors). 
+      Only available for a few types (vertex groups, vertex colors).
 
 Mix Factor
    How much of the transfered data gets mixed into existing one (not supported by all data types).
@@ -160,7 +160,7 @@ One-To-One Mappings
 
    Faces
       Nearest Face
-         Uses source’s nearest face. 
+         Uses source’s nearest face.
 
       Best Normal-Matching:
          Uses source’s face which normal is most similar with destination one.

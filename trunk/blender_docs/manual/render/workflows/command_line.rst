@@ -18,7 +18,7 @@ simply run:
 
 
 .. note::
-   
+
    Arguments are executed in the order they are given!
    The following command won't work, since the output and extension is set after blender is told to render:
 
@@ -50,7 +50,7 @@ and then run the blender command.
    cd c:\<blender installation directory>
    blender
 
-You can also add the Blender folder to your system ``PATH`` so that do you do not have to change to it each time. 
+You can also add the Blender folder to your system ``PATH`` so that do you do not have to change to it each time.
 
 
 Mac OS X
@@ -134,7 +134,6 @@ Single Image
 
 .. warning:: Arguments are case sensitive! ``-F`` and ``-f`` are not the same.
 
-   
 
 
 Animation

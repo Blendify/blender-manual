@@ -17,7 +17,7 @@ Object
 Object Data
    Holds everthing else.
    For example:
-   
+
    :Meshes: Store geometry, material list, vertex groups... etc.
    :Cameras: Store focal length, depth of field, sensor size... etc.
 
@@ -49,7 +49,6 @@ Note that you can choose which types of datablock will be linked or copied when 
 in the *User Preferences* ' (available in the *File* menu)
 *Editing* "tab", activate those types of datablocks you want to really copy in the
 *Duplicate Data* list - the others will just be linked.
-
 
 
 Examples
@@ -94,10 +93,10 @@ all linked copies are modified. Transform properties (object datablocks) still r
 not links, so you still can rotate, scale, and move freely without affecting the other copy.
 Reference (*Duplicate Example*) for the discussions below.
 
-.. hint:: 
+.. hint::
 
    If you want to make changes to an object in the new linked duplicate independently of the original object,
-   you will have to manually make the object a "single-user" copy by 
+   you will have to manually make the object a "single-user" copy by
    :kbd:`LMB` the number in the *Object Data* panel of the Properties Window.
 
 

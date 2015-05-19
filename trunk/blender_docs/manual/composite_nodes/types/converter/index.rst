@@ -15,7 +15,7 @@ and High Definition Media Interface (HDMI) formats.
 
 .. toctree::
    :maxdepth: 1
-   
+
    math.rst
    color_ramp.rst
    set_alpha.rst

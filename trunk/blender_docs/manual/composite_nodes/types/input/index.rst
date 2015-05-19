@@ -23,7 +23,7 @@ As such, they have no input-connectors; only outputs.
    movie_clip.rst
    mask.rst
    rgb.rst
-   value.rst   
+   value.rst
    texture.rst
    bokeh_image.rst
    time.rst

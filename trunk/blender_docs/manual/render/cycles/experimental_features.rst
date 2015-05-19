@@ -17,7 +17,7 @@ Currently considered experimental:
 - OpenCL device
 - Displacement
 - Subdivision
-  
+
 
 Experimental GPU Kernel
 =======================
@@ -27,6 +27,6 @@ but will work when using the experimental feature set:
 
 - :ref:`SSS <cycles_shader_sss>` shader
 - Correlated Multi Jitter sampling
-  
+
 .. warning:: The experimental GPU kernel requires a lot of memory
              and thus may not work at all on cards without enough ram.

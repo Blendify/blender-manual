@@ -13,4 +13,3 @@
    groups_and_parenting.rst
    randomize_transform.rst
    duplication/index.rst
-   

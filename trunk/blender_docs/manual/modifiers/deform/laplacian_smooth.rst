@@ -83,7 +83,6 @@ Repeat
              Repeat: ``10``
 
 
-
    .. list-table::
        (with a *factor* of ``-0.5``)
 
@@ -212,7 +211,6 @@ Border
              Border: 10.0
 
 
-
    .. list-table::
       (with a *factor* of ``20.0``)
 
@@ -235,7 +233,6 @@ Border
              :width: 130px
 
              Border: 20.0
-
 
 
    .. list-table::
