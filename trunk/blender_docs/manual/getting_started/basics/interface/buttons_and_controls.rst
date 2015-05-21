@@ -187,7 +187,7 @@ While Hovering
    - :kbd:`RMB` - open the context menu.
    - :kbd:`Backspace` - set the value to zero.
    - :kbd:`Minus` - negate number values (multiply by ``-1.0``).
-   - :kbd:`Alt-Wheel` - changes the value incremental steps.
+   - :kbd:`Ctrl-Wheel` - changes the value incremental steps.
 
      This also works for dropdowns and checkboxes buttons, it will cycle values.
 
