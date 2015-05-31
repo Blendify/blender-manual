@@ -138,26 +138,23 @@ Hints
 =====
 
 You accidentally turned off you're PC right in the middle of rendering my movie!
-   Unless your animation is really simple, and you expect it to render in half an hour or less,
-   it is always a good idea to render the animation as separate image frames in a loss-less format (TGA, PNG, BMP)
-   rather than as a movie file from the beginning.
+   Unless your animation renders in a few minutes,
+   it's best to render the animation as separate image files.
+   Instead of rendering directly to a compressed movie file, use a loss-less format (PNG for example).
+
    This allows you an easy recovery if there is a problem and you have to re-start the rendering,
-   since the frames you have already rendered will still be in the Output directory.
-   Just change the *START* frame number to the frame number where you want to pick up from,
-   and click *ANIM* again.
+   since the frames you have already rendered will still be in the output directory.
 
+   Just disable the *Overwrite* option to start rendering where you left off.
 
-I only need to re-render a few frames in the middle
-   It's also a good idea to render initially to a frame sequence, since if only a few frames have an error,
-   you can make corrections and re-render just the affected frames.
-   You can then make a movie out of the separate frames with Blender's sequence editor or with compositing nodes.
+   You can then make a movie out of the separate frames with Blender's sequence editor
+   or using 3rd party encoding software.
 
-Only first frame renders, then Blender locks up
-   If you click ANIM and only the first frame renders, be sure the output file is not locked by the media player.
-   In general, check the console when rendering.
+Animation Preview
+   It can be useful to render a subset of the animated sequence,
+   since if only part of an animation may have an error.
 
-Unable to create Quicktime movie
-   CreateMovieFile error: -47
+   Using an image format for output,
+   you can use the *Frame Step* option to render every *N'th* frame.
+   Then disable *Overwrite* and re-render with *Frame Step* set to 1.
 
-   The Quicktime movie strip is in use (possibly in the VSE) and cannot be overwritten. If it is used in the VSE,
-   delete the strip, or delete the file using your file explorer.
