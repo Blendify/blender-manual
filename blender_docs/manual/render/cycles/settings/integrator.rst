@@ -160,6 +160,13 @@ Shutter
    Time between frames over which motion blur is computed. Shutter time 1.0 blurs over the length of 1 frame,
    2.0 over the length of two frames, from the previous to the next.
 
+
+.. warning::
+
+   An object modifier setup that changes mesh topology over time will cause severe problems.
+
+   Common examples of this are animated booleans, defomation before edge-split, remesh, skin or decimate modifiers.
+
 .. _render-cycles-integrator-material_settings:
 
 Material Settings
