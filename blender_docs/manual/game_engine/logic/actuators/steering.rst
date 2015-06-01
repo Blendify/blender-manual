@@ -17,6 +17,7 @@ Options
 =======
 
 .. figure:: /images/Doc_Manual_BGE_Game_Actuator_Steering_-_Steering_Panel.jpg
+
 	Steering Actuator Panel
 
 
@@ -30,8 +31,10 @@ Target Object:
 Navigation Mesh Object:
     The name of the navigation mesh object used by the Steering Actuator when in Path following behavior.  
     The game object will use the Navigation Mesh to create a path to follow the Target Object.
+
     You can create your own mesh to use for navigation and make it a Navigation Mesh in:
     Properties menu -> 	Physics button -> Physics tab -> Physics Type: Navigation Mesh
+
     Or you can let Blender create a Navigation Mesh, then select a mesh.  (Floor or ground or etc.)
     Properties menu -> Scene button -> Navigation mesh tab -> Build navigation mesh
 
