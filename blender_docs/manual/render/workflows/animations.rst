@@ -152,7 +152,7 @@ You accidentally turned off you're PC right in the middle of rendering my movie!
 
 Animation Preview
    It can be useful to render a subset of the animated sequence,
-   since if only part of an animation may have an error.
+   since only part of an animation may have an error.
 
    Using an image format for output,
    you can use the *Frame Step* option to render every *N'th* frame.
