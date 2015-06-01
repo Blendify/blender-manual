@@ -3,11 +3,6 @@
 Introduction
 ************
 
-.. figure:: /images/Physic_types.jpg
-
-   Image 1: Physics types.
-
-
 The movement of particles may be controlled in a multitude of ways.
 With particles physics: there are five different systems:
 
