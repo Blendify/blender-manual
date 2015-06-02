@@ -114,7 +114,7 @@ Location
 Naming
    Image files should be named: ``chapter_subsection_id.png``, eg:
 
-   - ``render_cycles_lighting_example1.jpg``
+   - ``render_cycles_lighting_example_01.jpg``
    - ``interface_intro_splash.jpg``
    - ``interface_ui_panel.jpg``
 
