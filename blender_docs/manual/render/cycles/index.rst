@@ -15,6 +15,6 @@
    lamps.rst
    camera.rst
    reducing_noise.rst
-   experimental_features.rst
+   features.rst
    gpu_rendering.rst
    osl.rst

@@ -1,6 +1,6 @@
 
 *********************
-Experimental Features
+Features
 *********************
 
 Some features in Cycles are not finished yet, but already included in builds for testing.
