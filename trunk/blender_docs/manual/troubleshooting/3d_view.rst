@@ -41,13 +41,16 @@ Possible Solutions:
 
 OpenGL Occlusion Queries (User Preference)
    See :menuselection:`User Preferences --> System --> Selection`
+
    This option defaults *Automatic*, try setting this to *OpenGL Occlusion Queries*,
    since there is a significant performance difference under some configurations.
 OpenGL :term:`Virtex Buffer Objects <VBO>`
    See :menuselection:`User Preferences --> System --> VBOs`
+
    This uses a more optimal drawing method which may speed up selection.
 Upgrade OpenGL Drivers
    In some cases slow selection is resolved by using updated drivers.
+
    *It's generally good to use recent drivers when using 3D software.*
 Select Centers (Workaround)
    In *Object Mode*, holding :kbd:`Ctrl` while selecting uses the object center point.
