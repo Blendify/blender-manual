@@ -74,4 +74,4 @@ Enabled:
     Stops moving toward the Target Object once it reaches the maximum distance to approach the Target Object.  Won't follow even if the Target Object moves further away than the maximum distance. 
 
 Visualize:
-    This checkbox let the user specify wether to show or not the debug informations of the actuator. It is also necessary to enable Debug Properties in the Display menu of the render context. 
+    This checkbox let the user specify whether to show or not the debug informations of the actuator. It is also necessary to enable Debug Properties in the Display menu of the render context. 
