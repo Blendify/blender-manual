@@ -3,30 +3,68 @@
 Features
 *********************
 
-Some features in Cycles are not finished yet, but already included in builds for testing.
-These features may not work, crash Blender or change behavior in later versions.
+This page offers a comparison of available features on CPU, CUDA and OpenCL. 
 
-They are hidden by default, but can be enabled by setting *Feature Set* to
+.. list-table::
+   :header-rows: 1
+
+   * - Feature
+     - CPU
+     - CUDA (Nvidia GPU)
+     - OpenCL (AMD GPU)
+   * - Basic Shading
+     - yes
+     - yes
+     - yes
+   * - Transparent Shadows
+     - yes
+     - yes
+     - no
+   * - Motion Blur
+     - yes
+     - yes
+     - experimental
+   * - Hair
+     - yes
+     - yes
+     - experimental
+   * - Volume
+     - yes
+     - yes
+     - no
+   * - Smoke / Fire
+     - yes
+     - no
+     - no
+   * - Subsurface Scattering
+     - yes
+     - experimental
+     - no
+   * - Open Shading Language
+     - yes
+     - no
+     - no
+   * - CMJ sampling
+     - yes
+     - experimental
+     - no
+   * - Branched Path integrator
+     - yes
+     - yes
+     - no
+   * - Displacement / Subdivision
+     - experimental
+     - experimental
+     - experimental
+
+
+Experimental Features
+=======================
+Experimental features are disabled / hidden by default, but can be enabled by setting *Feature Set* to
 *Experimental* in the Render properties.
-
+They may not work properly, crash Blender or change their behaviour in later versions.
 
 .. figure:: /images/experimental.jpg
-
-Currently considered experimental:
-
-- OpenCL device
-- Displacement
-- Subdivision
-
-
-Experimental GPU Kernel
-=======================
-
-The following features are not usually supported for GPU rendering,
-but will work when using the experimental feature set:
-
-- :ref:`SSS <cycles_shader_sss>` shader
-- Correlated Multi Jitter sampling
 
 .. warning:: The experimental GPU kernel requires a lot of memory
              and thus may not work at all on cards without enough ram.
