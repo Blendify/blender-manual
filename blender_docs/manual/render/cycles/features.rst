@@ -10,9 +10,9 @@ This page offers a comparison of available features on CPU, CUDA and OpenCL.
 
    * - Feature
      - CPU
-     - CUDA (Nvidia GPU)
+     - CUDA (NVIDIA GPU)
      - OpenCL (AMD GPU)
-   * - Basic Shading
+   * - :abbr:`Basic Shading (Includes Node Shaders and Textures, Ambient Occlusion, Global Illumination...)`
      - yes
      - yes
      - yes

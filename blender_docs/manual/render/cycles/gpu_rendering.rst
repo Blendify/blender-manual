@@ -51,8 +51,8 @@ We support graphics cards starting from HD 7xxx (:abbr:`GCN (Graphics Core Next)
 Cycles requires recent AMD drivers to be installed, on all operating systems.
 
 
-Limitations
-===========
+Supported Features and Limitations
+==================================
 
 For an overview of supported features, check the comparison in the 
 :doc:`Features </render/cycles/features>`.
