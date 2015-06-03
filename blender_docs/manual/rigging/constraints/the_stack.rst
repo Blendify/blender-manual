@@ -43,12 +43,12 @@ The new constraint is *always* added at the bottom of the stack.
 
 You can also, in a 3D view, either:
 
-- Select only the future owner, hit :kbd:`Ctrl-Shift-C`,
+- Select only the future owner, press :kbd:`Ctrl-Shift-C`,
   and in the *Add Constraint to New Empty Object* menu that pops up, select the constraint you want to add.
   If the chosen constraint needs it,
   a new *Empty* object will be automatically added as target, positioned at the owner's center,
   and with null rotation.
-- Select first the future target, and then the future owner, hit :kbd:`Ctrl-Shift-C`,
+- Select first the future target, and then the future owner, press :kbd:`Ctrl-Shift-C`,
   and in the *Add Constraint to Active Object* (or *Add Constraint to Active Bone*)
   menu that pops up, select the constraint you want to add.
   If the chosen constraint needs it, the other selected object/bone will be used as target.
@@ -60,6 +60,6 @@ click on the "X" button of the header of the constraint you want to delete,
 in the *Constraints* panel.
 You can also remove all constraints from the selected object(s),
 using the :menuselection:`Object --> Constraints --> Clear Object Constraints`
-(or :menuselection:`Pose --> Constraints --> Clear Pose Constraints...` or hit :kbd:`Ctrl-Alt-C`).
+(or :menuselection:`Pose --> Constraints --> Clear Pose Constraints...` or press :kbd:`Ctrl-Alt-C`).
 
 

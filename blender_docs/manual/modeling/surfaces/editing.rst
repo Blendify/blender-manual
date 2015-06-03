@@ -61,7 +61,7 @@ Control Point Row
 This option works a bit like
 :doc:`edge loop selection </modeling/meshes/selecting/introduction#edge_loop_selection>` for meshes,
 inasmuch it selects a whole :doc:`row </modeling/surfaces#control_points,_rows_and_grid>` of control points,
-based on the active (the last selected) one. The first time you hit :kbd:`Shift-R`,
+based on the active (the last selected) one. The first time you press :kbd:`Shift-R`,
 the V-row passing through (containing) the active point will be *added to the current selection*.
 If you use again this shortcut, you will toggle between the U- and V-row of this point,
 *removing everything else from the selection*.

@@ -270,7 +270,7 @@ To automatically weight multiple bones, you can simply
 
 - :kbd:`Ctrl-Tab` out of Weight Paint Mode
 - Select the Armature. It should be in Pose mode. If it isn't, go :kbd:`Ctrl-Tab`
-- Select multiple bones :kbd:`Shift-LMB` or hit 'a' (maybe twice).
+- Select multiple bones :kbd:`Shift-LMB` or press :kbd:`A` (once or twice).
 - Select Mesh again
 - If not in weight paint already, toggle back into :kbd:`Ctrl-Tab`
 - Use the :kbd:`W` menu to automatic weight. This will weight all the bones you selected in Pose Mode.

@@ -147,7 +147,7 @@ For *Faces* select mode,
 the circle must intersect the face indicators usually represented by small pixel squares;
 one at the center of each face.
 
-To exit from this tool, click :kbd:`RMB`, or hit the :kbd:`Esc` key.
+To exit from this tool, click :kbd:`RMB`, or press the :kbd:`Esc` key.
 
 
 Lasso region

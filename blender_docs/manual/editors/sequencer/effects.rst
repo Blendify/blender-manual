@@ -413,7 +413,7 @@ Ever wanted to do multicam editing with Blender? Now you can and it is mindboggl
   that multicam is a rather simple effect strip: it just takes a selected channel as it's input.
   That's all. The magic comes with the convenient keyboard layout: when you select multicam,
   the keys 1-0 are mapped to a python handler, that does a cut on the multicam and changes it's input.
-- So: you select the multicam strip, you start playback and hit the keys 1-4 while watching your show.
+- So: you select the multicam strip, you start playback and press the keys 1-4 while watching your show.
 - You'll end up with a small multicam selector strip for every cut.
 
 In reality, it boils down to: watch a few seconds to see, what's coming,

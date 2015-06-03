@@ -24,8 +24,8 @@ Orientations affect the behavior of Transformations: Location, Rotation, and Sca
 You will see an effect on the 3D Manipulator (the widget in the center of the selection),
 as well as on transformation constraints
 (like :doc:`axis locking </getting_started/basics/transformations/transform_control/axis_locking>`).
-This means that, when you hit :kbd:`G-X`, it will constrain to the *global* x-axis,
-but if you hit :kbd:`G-X-X` it will constrain to your *Transform Orientation* s x-axis.
+This means that, when you press :kbd:`G-X`, it will constrain to the *global* x-axis,
+but if you press :kbd:`G-X-X` it will constrain to your *Transform Orientation* s x-axis.
 
 
 .. figure:: /images/Alt+Space-Menu.jpg
@@ -81,8 +81,8 @@ When using the Global orientation, the orientation's x,y,z matches world's x,y,z
 When this mode is selected,
 the local coordinates of the object are subjected to the Global coordinates.
 This is good to place objects in the scene. To constrain an axis,
-hit :kbd:`G` and the desired axis. To constrain to a local axis,
-hit the desired axis two times. The difference between Global and Local, is more noticeable
+press :kbd:`G` and the desired axis. To constrain to a local axis,
+press the desired axis two times. The difference between Global and Local, is more noticeable
 when you have an object in which the origin is not located at the exact center of the object,
 and doesn't match the Global coordinates.
 
@@ -130,7 +130,7 @@ If you select several elements, it will orient towards the average of those norm
 
 A great example of how this is useful is in Vertex Select Mode: Pick a vertex and then do
 :kbd:`G, Z, Z` to tug it away from the mesh and shove it into the mesh.
-To make this even more useful, select a nearby vertex and hit :kbd:`Shift-R` to repeat
+To make this even more useful, select a nearby vertex and press :kbd:`Shift-R` to repeat
 the same movement---except along that second vertex's normal instead.
 
 
@@ -218,7 +218,7 @@ adding and deleting custom orientations.
 The default name for these orientations comes from whatever you have selected. If an edge,
 it will be titled, "Edge," if an object, it will take that object's name, etc. The Toolshelf
 (:kbd:`T` in the 3D View)
-allows you to rename the custom orientation after you hit :kbd:`Ctrl-Alt-Spacebar`.
+allows you to rename the custom orientation after you press :kbd:`Ctrl-Alt-Spacebar`.
 
 
 .. figure:: /images/Orientations-Custom-Extrusion.jpg
@@ -233,7 +233,7 @@ In *Figure 1*, to achieve this effect:
 - Create a Custom Orientation with :kbd:`Ctrl-Alt-Spacebar` and rename it "Top Edge".
 - Select the objects's bottom, right edge.
 - Extrude with :kbd:`E`.
-- Cancel the extrusion's default movement by hitting :kbd:`RMB` or :kbd:`Esc`.
+- Cancel the extrusion's default movement by pressing :kbd:`RMB` or :kbd:`Esc`.
 - Hit :kbd:`G` to reinitiate movement.
 - Hit :kbd:`Z-Z` to constrain to the "Top Edge" orientation.
 

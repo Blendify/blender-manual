@@ -278,7 +278,7 @@ This may, or not, be desired according to the situation.
 All you have to do to achieve this effect is go to the Info Editor
 (the bar at the top of the window) :menuselection:`Game --> Record Animation`,
 and it will lock away your keyframes for use in *Blender Render* mode.
-You can go back to the 3D view and hit :kbd:`Alt-A` to play it back,
+You can go back to the 3D view and press :kbd:`Alt-A` to play it back,
 or :kbd:`Ctrl-F12` to render it out as an animation.
 
 Note that you can also use Game Logic Bricks and scripting. Everything will be recorded.

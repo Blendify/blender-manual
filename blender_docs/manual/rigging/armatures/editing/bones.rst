@@ -82,7 +82,7 @@ so you can place them to your liking. See (*Extrusion example*).
 
 You also can use the rotating/scaling extrusions,
 as explained for meshes :doc:`here </modeling/meshes/tools/add_divide#extrusion>`,
-by hitting respectively :kbd:`E-R` and :kbd:`E-S` -
+by pressing respectively :kbd:`E-R` and :kbd:`E-S` -
 as well as :doc:`locked </getting_started/basics/transformations/transform_control/axis_locking>`
 extrusion along a global or local axis.
 
@@ -101,24 +101,24 @@ extrusion along a global or local axis.
           The two mirror-extruded bones.
 
 
-Bones have an extra "mirror extruding" tool, called by hitting :kbd:`Shift-E`.
+Bones have an extra "mirror extruding" tool, called by pressing :kbd:`Shift-E`.
 By default, it behaves exactly like the standard extrusion.
 But once you have enabled the X-Axis mirror editing option (see
 `X-Axis Mirror Editing`_),
-each extruded tip will produce *two new bones*, having the same name except for a leading "_L/_R" code
+each extruded tip will produce *two new bones*, having the same name except for the ``_L``/``_R`` suffix
 (for left/right, see the :doc:`next page </rigging/armatures/editing/properties#naming_conventions>`).
-The "_L" bone behaves like the single one produced by the default extrusion -
+The ``_L`` bone behaves like the single one produced by the default extrusion -
 you can grab/rotate/scale it exactly the same way.
-The "_R" bone is its mirror counterpart (along the armature's local X axis), see (*Mirror extrusion example*).
+The ``_R`` bone is its mirror counterpart (along the armature's local X axis), see (*Mirror extrusion example*).
 
 
 .. warning::
 
-   Note that exactly as in mesh editing,
-   if you press :kbd:`Esc` right after you have pressed :kbd:`E`,
-   the extruded bones will be there but their length will be zero,
-   so very likely this will give you some headaches. If you realize the problem immediately,
-   you can undo by pressing :kbd:`Ctrl-Z`.
+   Cancelling the extrude action causes the newly created bones to snap back to the source position,
+   *(creating zero length bones)*.
+   These will be removed when exiting editmode, however they can cause confusion and it's
+   unlikely you want to keep them.
+   If you realize the problem immediately undo the extrude action.
 
 In case you're wondering, you cannot just press :kbd:`X` to solve this as you would in mesh editing,
 because extrusion selects the newly created tips, and as explained below the delete command ignores bones' ends.

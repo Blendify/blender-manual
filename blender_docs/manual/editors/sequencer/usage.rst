@@ -657,7 +657,7 @@ Editing Strips
 
 .. note:: Multiple selection
 
-   You can select several (handles of) strips by :kbd:`Shift-RMB` -clicking: when you'll hit :kbd:`G`,
+   You can select several (handles of) strips by :kbd:`Shift-RMB` clicking: when you press :kbd:`G`,
    everything that's selected will move with your mouse - this means that,
    for example, you can at the same time move a strip, shorten two others, and extend a forth one.
 
@@ -681,9 +681,9 @@ K cuts them in two. Use Cut to trim off roll-ups or lead-ins, or roll-downs or e
 
    For example, imagine that you have a strip of **50** frames,
    and that you want to delete the first ten ones.
-   You have to go to the **11** :sup:`th` frame, and hit :kbd:`K`;
+   You have to go to the ``11`` :sup:`th` frame, and press :kbd:`K`;
    the cut 'divides' your strip in two parts. You now can select the first small part
-   (frames **1** to **10**), and delete it hitting :kbd:`X`.
+   (frames ``1`` to ``10``), and delete it press :kbd:`X`.
 
    You might think that you have really erased the frames **1** to **10**,
    but there are still there, 'winded', as in a film reel, under your frame **11** :

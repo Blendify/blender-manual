@@ -213,8 +213,8 @@ with bones rolled in all angles... nasty! To address this problem, you have thre
 
 - :menuselection:`Armature --> Bone Roll --> Set Roll`
   (:kbd:`Ctrl-R`) will start a roll-specific rotation, which behaves like any other transform operations
-  (i.e. move the mouse and :kbd:`LMB` click to validate, or type a numeric value and hit enter -
-  or :kbd:`RMB` click or hit :kbd:`Esc` to cancel everything).
+  (i.e. move the mouse and :kbd:`LMB` click to validate, or type a numeric value and press :kbd:`Return`
+  or :kbd:`RMB` click or press :kbd:`Esc` to cancel everything).
 - :menuselection:`Armature --> Bone Roll --> Clear Roll (Z-Axis Up)`
   (or :kbd:`Ctrl-N-1`:menuselection:`pop-up --> Recalculate Bone Roll Angles --> Clear Roll (Z-Axis Up)`)
   will reset the selected bone roll so that their Z axis is as much as possible aligned with the global Z axis.
@@ -271,7 +271,7 @@ Hinge (also :menuselection:`[shift][W] --> Hinge` & co), S (also :menuselection:
    These settings affect the behavior of children bones while transforming their parent in *Pose* mode,
    so this will be detailed in the :doc:`posing part </rigging/posing>` !
 Hide
-   This will hide the bone (same as hitting :kbd:`H` in the 3D views;
+   This will hide the bone (same as pressing :kbd:`H` in the 3D views;
    see :doc:`this page </rigging/armatures/visualization#hiding_bones>`).
 Lock (also :menuselection:`[shift][W] --> Locked` & co)
    This will prevent all editing of the bone in *Edit* mode;
@@ -361,7 +361,7 @@ and if so, if it should be connected to it.
 
 To parent and/or connect bones, you can:
 
-- In a 3D view, select the bone and *then* its future parent, and hit :kbd:`Ctrl-P`
+- In a 3D view, select the bone and *then* its future parent, and press :kbd:`Ctrl-P`
   (or :menuselection:`Armature --> Parent --> Make Parent...`).
   In the small *Make Parent* menu that pops up, choose *Connected*
   if you want the child to be connected to its parent, else click on *Keep Offset*.
@@ -408,7 +408,7 @@ To parent and/or connect bones, you can:
 
 To disconnect and/or free bones, you can:
 
-- In a 3D view, select the desired bones, and hit :kbd:`Alt-P`
+- In a 3D view, select the desired bones, and press :kbd:`Alt-P`
   (or :menuselection:`Armature --> Parent --> Clear Parent...`).
   In the small *Clear Parent* menu that pops up, choose *Clear Parent* to completely free all selected bones,
   or *Disconnect Bone* if you just want to break their connections.

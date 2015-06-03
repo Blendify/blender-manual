@@ -7,7 +7,7 @@ Many factors go into the quality of the rendered image. Rendering a scene withou
 of the render settings is probably going to produce a rather unpleasant image.
 In previous chapters, you have learned how to model, shade, texture, and light scenes.
 Optimizing settings with respect to those areas will help to produce quality images,
-but there are some important settings that come into play before hitting the render button.
+but there are some important settings that come into play before pressing the render button.
 These can directly affect the look of the rendered image.
 
 The next section covers render layers and render passes,

@@ -146,7 +146,7 @@ Blender leaves the interactive mode and accepts all of the values. Because it's 
 can't return to the interactive mode after completing/leaving the operation or changing from
 *Edit Mode* to *Object Mode*.
 If you want to restart the operation from its beginning,
-you can hit :kbd:`Ctrl-Z` at any time in *Edit Mode*.
+you can press :kbd:`Ctrl-Z` at any time in *Edit Mode*.
 
 
 - The basic location of the cursor at the point of view (using Global coordinates)
