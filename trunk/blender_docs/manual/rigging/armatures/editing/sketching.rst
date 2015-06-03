@@ -134,7 +134,7 @@ raise this value a bit, and if you find them too jagged, lower it.
           But if you immediately click again and drag [lmb], you'll instead start a new free segment.
 
 
-You finalize a whole stroke by clicking* :kbd:`RMB`. You can cancel the stroke you are drawing by hitting :kbd:`Esc`.
+You finalize a whole stroke by clicking* :kbd:`RMB`. You can cancel the stroke you are drawing by pressing :kbd:`Esc`.
 You can also snap strokes to underlying meshes by holding* :kbd:`Ctrl` while drawing. By the way,
 the *Peel Objects* *button at the bottom of the* *Bone Sketching* panel is the same thing as the
 "monkey" button of the snapping header bar controls shown when* *Volume* snap element is selected - see the

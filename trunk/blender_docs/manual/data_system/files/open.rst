@@ -24,7 +24,7 @@ by increasing or decreasing the number at the end of the file name.
 Pressing :kbd:`P` or clicking the up-arrow icon above the list of files will move you up to the parent directory.
 
 Click on a folder to go inside of it,
-Click on a file then click the *Open Blender File* button or press :kbd:`Enter` to open it
+Click on a file then click the *Open Blender File* button or press :kbd:`Return` to open it
 
 Clicking *Cancel* will close the file browser window and return to the program.
 

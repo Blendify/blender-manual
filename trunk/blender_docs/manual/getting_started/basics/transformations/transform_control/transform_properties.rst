@@ -68,7 +68,7 @@ of all of its *vertices* and faces.
 Some fields have extra functionality or features, such as scroll regions.
 When attempting to edit these types of fields it is easier to use :kbd:`Shift-LMB` instead of just :kbd:`LMB`.
 After you have edited a field click outside of the field's edit area or press :kbd:`Return` to confirm the changes.
-Changes will be reflected in the display window immediately. To cancel, hit :kbd:`Esc`.
+Changes will be reflected in the display window immediately. To cancel, press :kbd:`Esc`.
 For further descriptions of the other features of an edit field
 see :doc:`The Interface </getting_started/basics/interface/index>` section.
 

@@ -107,7 +107,7 @@ and press :kbd:`M` (or :kbd:`Ctrl-Alt-M` in a video sequence editor).
 
 Alternatively, you can press :kbd:`Alt-A`
 (or the "playback" button of the *Timeline* window) to make the animation play,
-and then hit :kbd:`M` (or :kbd:`Ctrl-Alt-M` in VSE) at the appropriate points.
+and then press :kbd:`M` (or :kbd:`Ctrl-Alt-M` in VSE) at the appropriate points.
 This can be especially useful to mark the beats in some music.
 
 
@@ -162,7 +162,7 @@ Moving Markers
    | Hotkey:   :kbd:`Ctrl-G` ( :kbd:`G` in a timeline or audio)
 
 
-Once you have one or more markers selected, hit :kbd:`Ctrl-G`
+Once you have one or more markers selected, press :kbd:`Ctrl-G`
 (or :kbd:`G` in Timeline or Audio windows) to move them,
 and confirm the move with :kbd:`LMB` or :kbd:`Return` (as usual,
 cancel the move with :kbd:`RMB`, or :kbd:`Esc`).
@@ -184,7 +184,7 @@ Duplicating Markers
    | Hotkey:   :kbd:`Ctrl-Shift-D` ( :kbd:`Shift-D` in a timeline or audio)
 
 
-You can duplicate the selected markers by hitting :kbd:`Ctrl-Shift-D`
+You can duplicate the selected markers by pressing :kbd:`Ctrl-Shift-D`
 (or :kbd:`Shift-D` in a Timeline or Audio window). Once duplicated,
 the new ones are automatically placed in grab mode, so you can move them where
 (or rather when) you want.

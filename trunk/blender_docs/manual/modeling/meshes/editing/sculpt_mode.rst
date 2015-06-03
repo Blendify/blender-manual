@@ -313,7 +313,7 @@ It is sometimes useful to isolate parts of a mesh to sculpt on. To hide a part o
 press :kbd:`H` then click & drag around the part you want to hide.
 To reveal a hidden part of a mesh,
 press :kbd:`Shift-H` then click & drag around the part you want to reveal.
-To reveal all hidden parts, just hit :kbd:`Alt-H`.
+To reveal all hidden parts, just press :kbd:`Alt-H`.
 
 
 .. figure:: /images/Hide_before_and_after.jpg

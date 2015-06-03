@@ -68,7 +68,7 @@ full control over your transformation.
    a visual option to constrain the translation will be available,
    showing the three axes in the 3D View space. The axis of choice to confirm the operation
    will depend on the axis about which the :kbd:`MMB` is released. At any point during the operation,
-   the chosen axis can be changed by hitting :kbd:`X`, :kbd:`Y`, :kbd:`Z` on the keyboard.
+   the chosen axis can be changed by pressing :kbd:`X`, :kbd:`Y`, :kbd:`Z` on the keyboard.
 
 :kbd:`RMB` or :kbd:`Esc`
    Cancel the move, and return the object or data to its original location.

@@ -24,7 +24,7 @@ Now observe what happens to the profiling stats for each of the following (in or
   and notice that there is no improvement in speed.
   This is the view frustum culling working for you - it does not matter if that object exists or not.
 - Hit :kbd:`Z` to view wireframe. Notice that in the 3D Viewport you can see "Cube.BG",
-  but once you hit :kbd:`P`, it is not there.
+  but once you press :kbd:`P`, it is not there.
 - Make the "Occluder" object take up the whole camera's view with :kbd:`S-X-5`.
   You will see a huge leap in framerate,
   since almost nothing is being Rasterized. On my system the Rasterizer step drops to 5ms.

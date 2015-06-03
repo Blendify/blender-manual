@@ -92,7 +92,7 @@ the *Hide* toggle button in the *MetaBall tools*,
 or the :menuselection:`Metaball --> Hide MetaElems --> Hide Selected` menu option.
 
 To hide everything but the current selection,
-hit :kbd:`Shift-H` or use :menuselection:`Metaball --> Hide MetaElems --> Hide Deselected`.
+press :kbd:`Shift-H` or use :menuselection:`Metaball --> Hide MetaElems --> Hide Deselected`.
 
 To reveal what was hidden, use :kbd:`Alt-H`,
 or the relevant option in the same :menuselection:`Metaball --> Hide MetaElems` menu.

@@ -298,7 +298,7 @@ all its descendants* will no longer be affected when you scale one of its ancest
 Connected bones have another specificity: they cannot be translated. Indeed,
 as their root must be at their parent's tip, if you don't move the parent,
 you cannot move the child's root, but only its tip - which leads us to a child rotation.
-This is exactly what happens - when you hit :kbd:`G` with a connected bone selected,
+This is exactly what happens - when you press :kbd:`G` with a connected bone selected,
 Blender automatically switches to rotation operation.
 
 Bones relationships also have important consequences on how selections of multiple bones
@@ -324,7 +324,7 @@ possible ones below - but this should anyway give you a good idea of the problem
 - When connected and unconnected bones are selected,
   and you start a grab operation, only the unconnected bones are affected.
 - When a child connected hinge bone is in the selection,
-  and the "most parent" selected one is connected, when you hit :kbd:`G`,
+  and the "most parent" selected one is connected, when you press :kbd:`G`,
   nothing happens - Blender remains in grab operation, which of course has no effect on a connected bone.
   This might be a bug, in fact, as I see no reason for this behavior...
 

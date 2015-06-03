@@ -477,7 +477,7 @@ Scroll down until you see the *Cloth* panel, and press the *Cloth* button.
 Now, a lot of settings will appear, most of which we'll ignore for now.
 
 That's all you need to do to set your cloth up for animating,
-but if you hit :kbd:`Alt-A`, your lovely fabric will just drop very un-spectacularly.
+but if you press :kbd:`Alt-A`, your lovely fabric will just drop very un-spectacularly.
 That's what we'll cover in the next two sections about pinning and colliding.
 
 
@@ -506,7 +506,7 @@ the picture you need to apply a *Smooth* and/or *Subsurf* modifier in the
 Then, in the same context, find the *Links and Materials* panel
 (the same one you used for vertex groups) and press *Set Smooth*.
 
-Now, if you hit :kbd:`Alt-A`, things are starting to look pretty nice, don't you think?
+Now, if you press :kbd:`Alt-A`, things are starting to look pretty nice, don't you think?
 
 
 Cloth on armature

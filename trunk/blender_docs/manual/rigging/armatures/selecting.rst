@@ -68,7 +68,7 @@ To select bones' ends you have the standard selection methods.
      - | Click and drag :kbd:`LMB` the box around the ends you want to add to the current selection
        | Click and drag :kbd:`LMB` to remove from the current selection
        | release :kbd:`LMB` to validate
-       | hit :kbd:`Esc` or click :kbd:`RMB` to cancel
+       | press :kbd:`Esc` or click :kbd:`RMB` to cancel
      -
      -
    * - Box selection tool OFF

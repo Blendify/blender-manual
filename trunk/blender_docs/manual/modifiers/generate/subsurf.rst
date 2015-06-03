@@ -249,7 +249,7 @@ Abrupt normal changes can produce ugly black gouges (See:
 A quick way to fix this (one which works 90% of the time)
 is to use Blender's "Recalculate Normals" operation: In Edit Mode,
 select all with :kbd:`A`,
-then hit :kbd:`Ctrl-N` to recalculate the normals to point outside.
+then press :kbd:`Ctrl-N` to recalculate the normals to point outside.
 If you still have some ugly black gougesyou will have to manually flip some normals.
 To do this (still in Edit Mode),
 use the :menuselection:`Specials --> Flip Normals` functionality (shortcut: :kbd:`W`,

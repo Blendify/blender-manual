@@ -16,7 +16,7 @@ Creating the Domain
 Before you can add smoke to your scene you need to define the area where the smoke simulation
 takes place. In Blender physics this is called a domain. A good idea is to choose a cube for
 that because you can scale it to the view of your camera later on. In our case we just make
-the default cube bigger by hitting :kbd:`S` and dragging the mouse.
+the default cube bigger by pressing :kbd:`S` and dragging the mouse.
 
 
 .. note:: Don't edit the domain's vertices!
