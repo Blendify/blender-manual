@@ -64,7 +64,7 @@ Experimental features are disabled / hidden by default, but can be enabled by se
 *Experimental* in the Render properties.
 They may not work properly, crash Blender or change their behaviour in later versions.
 
-.. figure:: /images/experimental.jpg
+.. figure:: /images/cycles_ui_feature_set.jpg
 
 .. warning:: The experimental GPU kernel requires a lot of memory
              and thus may not work at all on cards without enough ram.
