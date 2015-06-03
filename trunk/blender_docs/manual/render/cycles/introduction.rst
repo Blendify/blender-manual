@@ -3,6 +3,8 @@
 Introduction
 ************
 
+.. figure:: /images/cycles_introduction.jpg
+
 Cycles is a ray tracing renderer focused on interactivity and ease of use,
 while still supporting many production features.
 
