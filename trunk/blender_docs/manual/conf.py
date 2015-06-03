@@ -23,7 +23,7 @@ sys.path.insert(0, os.path.abspath(os.path.join('..', 'exts')))
 
 # include at end of every file
 rst_epilog = """
-.. |BLENDER_VERSION| replace:: 2.74
+.. |BLENDER_VERSION| replace:: 2.75
 """
 
 # If your documentation needs a minimal Sphinx version, state it here.
