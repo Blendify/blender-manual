@@ -11,9 +11,9 @@ Saving Files
 
 There are a number of slightly different methods you can use to save your blend file to your hard drive:
 
-Save (:kbd:`Ctrl-S`, :kbd:`F2`, :kbd:`Ctrl-W`)
+Save (:kbd:`Ctrl-S`, :kbd:`Ctrl-W`)
    Save an existing blend file over itself.
-Save As (:kbd:`Ctrl-Shift-S`)
+Save As (:kbd:`Ctrl-Shift-S`, :kbd:`F2`)
    Choose a file to save the blend to.
 Save Copy (:kbd:`Ctrl-Alt-S`)
    Choose a file to save the blend to, but return to editing the original file upon completion.
