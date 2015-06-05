@@ -20,6 +20,13 @@ This is the list of image file formats supported internally by Blender:
 - Radiance HDR
 - TIFF
 
+More information information about specific formats has been written here:
+
+- :doc:`OpenEXR (Multilayer) </data_system/files/formats/openexr>`
+- :doc:`DPX and Cineon </data_system/files/formats/dpx_cineon>`
+- :doc:`Radiance HDR </data_system/files/formats/hdr>`
+
+
 .. note:: Quicktime
 
    On OSX, Quicktime can be used to access file formats not natively supported (such as GIF).
@@ -42,12 +49,6 @@ This includes the Video Sequence Editor, texture mapping, background images,
 and the Compositor.
 
 For hints how to manipulate or view HDR images, please check the Curves UI page.
-
-More information information about specific formats has been written here:
-
-- :doc:`OpenEXR (Multilayer) </data_system/files/formats/openexr>`
-- :doc:`DPX and Cineon </data_system/files/formats/dpx_cineon>`
-- :doc:`Radiance HDR </data_system/files/formats/hdr>`
 
 
 Movie Formats
