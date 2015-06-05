@@ -45,7 +45,7 @@ Users (Garbage Collection)
 ==========================
 
 It's good to be aware of how Blender,
-handles datab-blocks life-time, when they are freed and why.
+handles data-blocks life-time, when they are freed and why.
 
 Blender follows the general rule that data which isn't used, will be freed.
 

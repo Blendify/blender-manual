@@ -76,6 +76,15 @@ More information information about specific formats has been written here:
    On OSX, Quicktime can be used to access file formats not natively supported (such as GIF).
 
 
+Metadata
+--------
+
+Blender can save details such as render-time, marker, camera... etc, into the file.
+See: :doc:`Render Metadata </render/post_process/stamp>`.
+
+Only some files support this however.
+
+
 High Dynamic Range
 ------------------
 
@@ -94,19 +103,3 @@ and the Compositor.
 
 For hints how to manipulate or view HDR images, please check the Curves UI page.
 
-
-Color Modes
-===========
-
-- BW, Images get saved in 8 bits grayscale (only PNG, JPEG, TGA, TIFF)
-- RGB, Images are saved with RGB (color)
-- RGBA, Images are saved with RGB and an Alpha channel (if supported)
-
-
-Color Depths
-============
-
-- 8 bit color channels
-- 12 bit color channels
-- 16 bit color channels
-- 32 bit color channels
