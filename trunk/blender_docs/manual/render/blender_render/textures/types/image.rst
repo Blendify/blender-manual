@@ -434,7 +434,7 @@ Source:
       Single image file.
 
 File for Image or Movie texture:
-   See about supported :doc:`Image </data_system/files/formats>` formats.
+   See about supported :doc:`Image </data_system/files/image_formats>` formats.
 
    Pack image
       Embed image into current .blend file
