@@ -8,17 +8,61 @@ Image Formats
 
 This is the list of image file formats supported internally by Blender:
 
-- BMP
-- Iris
-- PNG
-- JPEG
-- JPEG 2000
-- Targa (compressed and uncompressed)
-- Cineon
-- DPX
-- OpenEXR (flat and multi-layer)
-- Radiance HDR
-- TIFF
+.. |tick|  unicode:: U+2713
+.. |cross| unicode:: U+2717
+
+.. list-table::
+   :header-rows: 1
+
+   * - Format
+     - Metadata
+     - DPI
+     - Extensions
+   * - BMP
+     - |cross|
+     - |tick|
+     - ``.bmp``
+   * - Iris
+     - |cross|
+     - |cross|
+     - ``.sgi`` ``.rgb`` ``.bw``
+   * - PNG
+     - |tick|
+     - |tick|
+     - ``.png``
+   * - JPEG
+     - |tick|
+     - |tick|
+     - ``.jpg`` ``.jpeg``
+   * - JPEG 2000
+     - |cross|
+     - |cross|
+     - ``.jp2`` ``.jp2`` ``.j2c``
+   * - Targa
+     - |cross|
+     - |cross|
+     - ``.tga``
+   * - Cineon
+     - |cross|
+     - |cross|
+     - ``.cin``
+   * - DPX
+     - |cross|
+     - |cross|
+     - ``.dpx``
+   * - OpenEXR
+     - |tick|
+     - |tick|
+     - ``.exr``
+   * - Radiance HDR
+     - |cross|
+     - |cross|
+     - ``.hdr``
+   * - TIFF
+     - |cross|
+     - |tick|
+     - ``.tif`` ``.tiff``
+
 
 More information information about specific formats has been written here:
 
@@ -49,22 +93,6 @@ This includes the Video Sequence Editor, texture mapping, background images,
 and the Compositor.
 
 For hints how to manipulate or view HDR images, please check the Curves UI page.
-
-
-Movie Formats
-=============
-
-The following video formats are supported:
-
-- AVI (Windows)
-- AVI JPEG
-- AVI Raw
-- Frame Server
-- H.264
-- MPEG
-- Ogg Theora
-- QuickTime
-- Xvid
 
 
 Color Modes
