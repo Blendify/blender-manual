@@ -5,6 +5,9 @@ Features
 
 This page offers a comparison of available features on CPU, CUDA and OpenCL. 
 
+.. |tick|  unicode:: U+2713
+.. |cross| unicode:: U+2717
+
 .. list-table::
    :header-rows: 1
 
@@ -13,49 +16,49 @@ This page offers a comparison of available features on CPU, CUDA and OpenCL.
      - CUDA (NVIDIA GPU)
      - OpenCL (AMD GPU)
    * - :abbr:`Basic Shading (Includes Node Shaders and Textures, Ambient Occlusion, Global Illumination...)`
-     - yes
-     - yes
-     - yes
+     - |tick|
+     - |tick|
+     - |tick|
    * - Transparent Shadows
-     - yes
-     - yes
-     - no
+     - |tick|
+     - |tick|
+     - |cross|
    * - Motion Blur
-     - yes
-     - yes
-     - experimental
+     - |tick|
+     - |tick|
+     - |tick| :sup:`(experimental)`
    * - Hair
-     - yes
-     - yes
-     - experimental
+     - |tick|
+     - |tick|
+     - |tick| :sup:`(experimental)`
    * - Volume
-     - yes
-     - yes
-     - no
+     - |tick|
+     - |tick|
+     - |cross|
    * - Smoke / Fire
-     - yes
-     - no
-     - no
+     - |tick|
+     - |cross|
+     - |cross|
    * - Subsurface Scattering
-     - yes
-     - experimental
-     - no
+     - |tick|
+     - |tick| :sup:`(experimental)`
+     - |cross|
    * - Open Shading Language
-     - yes
-     - no
-     - no
+     - |tick|
+     - |cross|
+     - |cross|
    * - CMJ sampling
-     - yes
-     - experimental
-     - no
+     - |tick|
+     - |tick| :sup:`(experimental)`
+     - |cross|
    * - Branched Path integrator
-     - yes
-     - yes
-     - no
+     - |tick|
+     - |tick|
+     - |cross|
    * - Displacement / Subdivision
-     - experimental
-     - experimental
-     - experimental
+     - |tick| :sup:`(experimental)`
+     - |tick| :sup:`(experimental)`
+     - |tick| :sup:`(experimental)`
 
 
 Experimental Features
