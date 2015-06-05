@@ -7,8 +7,9 @@ The stamp panel includes options for image stamping.
 Stamping adds text over the rendered image.
 
 Note that stamp information is also written into the metadata of images that support it
-(currently JPEG, EXR, PNG), even when the stamp checkbox is disabled,
-metadata is written into the file for checked items.
+See :doc:`image formats </data_system/files/image_formats>`.
+
+Metadata is written into the file for checked items.
 
 
 Stamping can include the following data:
