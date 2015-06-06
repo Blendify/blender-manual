@@ -103,7 +103,7 @@ Appending or Linking Across Files
 The content of one ``.blend`` file is easily accessed and put into your current file by using
 :menuselection:`File --> Append` or :menuselection:`File --> Link`
 To find out more about how to copy or link objects across ``.blend`` files,
-see :doc:`click here </data_system/linked_libraries>`.
+see :doc:`linked libraries </data_system/linked_libraries>`.
 
 
 Copying and Linking
