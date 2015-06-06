@@ -140,7 +140,7 @@ Metadata
 --------
 
 Blender can save details such as render-time, marker, camera... etc, into the file.
-See: :doc:`Render Metadata </render/post_process/stamp>`.
+See: :doc:`Render Metadata </render/post_process/metadata>`.
 
 Only some files support this however.
 

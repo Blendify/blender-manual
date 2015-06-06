@@ -17,5 +17,5 @@ but rather composited on top of the image.
 
    layers.rst
    edges.rst
-   stamp.rst
+   metadata.rst
    cm_and_exposure.rst
