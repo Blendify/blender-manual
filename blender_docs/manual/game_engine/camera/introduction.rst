@@ -47,7 +47,7 @@ The camera will follow the object. First select the camera and then select the o
 Next :kbd:`Ctrl-P` --> *Make Parent*.
 
 Note that if your object has any rotations then the camera will also have those rotations.
-To avoid this use "Parent to Vertex" (see below).
+To avoid this use `Parent to Vertex`_.
 
 
 Parent to Vertex

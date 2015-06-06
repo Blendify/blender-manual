@@ -15,53 +15,114 @@ This is the list of image file formats supported internally by Blender:
    :header-rows: 1
 
    * - Format
-     - Metadata
+     - `Channel Depth`_
+     - `Metadata`_
      - DPI
      - Extensions
    * - BMP
+     - 8bit
      - |cross|
      - |tick|
      - ``.bmp``
    * - Iris
+     - 8bit
      - |cross|
      - |cross|
      - ``.sgi`` ``.rgb`` ``.bw``
    * - PNG
+     - 8,16bit
      - |tick|
      - |tick|
      - ``.png``
    * - JPEG
+     - 8bit
      - |tick|
      - |tick|
      - ``.jpg`` ``.jpeg``
    * - JPEG 2000
+     - 8,12,16bit
      - |cross|
      - |cross|
      - ``.jp2`` ``.jp2`` ``.j2c``
    * - Targa
+     - 8bit
      - |cross|
      - |cross|
      - ``.tga``
    * - `Cineon & DPX`_
+     - 8bit
      - |cross|
      - |cross|
      - ``.cin`` ``.dpx``
    * - `OpenEXR`_
+     - half-float,float
      - |tick|
      - |tick|
      - ``.exr``
    * - `Radiance HDR`_
+     - float
      - |cross|
      - |cross|
      - ``.hdr``
    * - TIFF
+     - 8,16bit
      - |cross|
      - |tick|
      - ``.tif`` ``.tiff``
 
+.. hint::
+
+   If you aren't interensted in technical details,
+   a good rule of thumb for selecting an output formats for your project is:
+
+   Use OpenEXR
+      if you intend to do compositing or color-grading on these images.
+   Use PNG
+      if you intend on-screen output or encoding into multiple video formats.
+   Use JPEG
+      for on-screen output where file size is a concern and quality loss is acceptable.
+
+   *All these formats support compression which can be important when rendering out animations.*
+
+
 .. note:: Quicktime
 
    On OSX, Quicktime can be used to access file formats not natively supported (such as GIF).
+
+
+Channel Depth
+-------------
+
+Image file formats support a varying number of bits per pixel.
+This effects the color quality and file-size.
+
+Commonly used depths:
+
+8 bit *(256 levels)*
+   Most common for on-screen graphics and video
+10,12,16 bit *(1024,4096,65536 levels)*
+   Used for some formats focusing on photography and digital film formats
+   (such as DPX and JPEG 2000).
+16 bit half float
+   Since full 32bit float is often more than enough precision,
+   half float can save on disk-space while providing high dynamic range.
+32 bit float
+   Highest quality color depth.
+
+Internally Blender's image system supports either:
+
+- 8 bit per channel (4 x 8 bits).
+- 32 bit float per channel (4 x 32 bits) - *using 4x as much memory.*
+
+  Images higher than 8 bits per channel will be converted into float on loading into Blender.
+
+   .. note::
+
+      Floating point is often used for :term:`HDRI`,
+
+      When an image has float colors, all imaging functions in Blender default to use that.
+      This includes the Video Sequence Editor, texture mapping, background images,
+      and the Compositor.
 
 
 Metadata
@@ -71,20 +132,6 @@ Blender can save details such as render-time, marker, camera... etc, into the fi
 See: :doc:`Render Metadata </render/post_process/stamp>`.
 
 Only some files support this however.
-
-
-High Dynamic Range
-------------------
-
-Blender's image input/output system transparently support regular 32 bits graphics
-(4 x 8 bits) or floating point images storing 128 bits per pixel (4 x 32 bits).
-
-On reading High Dynamic Range Images (`HDRI <http://http://en.wikipedia.org/wiki/HDRI>`__),
-they are converted to RGBA float values even when they're for example 12bits per channel from the input file.
-
-When an image has float colors, all imaging functions in Blender default to use that.
-This includes the Video Sequence Editor, texture mapping, background images,
-and the Compositor.
 
 
 Format Details
@@ -103,6 +150,8 @@ DPX as well as Cineon only stores and converts the "visible" color range of valu
 and 1.0 (as result of rendering or composite).
 
 
+----
+
 OpenEXR
 -------
 
@@ -116,8 +165,8 @@ Apart from reading all OpenEXR file types, with RGBA and optional Z saved,
 Blender supports OpenEXR in two ways:
 
 
-Render Output
-^^^^^^^^^^^^^
+Output Options
+^^^^^^^^^^^^^^
 
 Available options for OpenEXR render output are:
 
@@ -158,6 +207,8 @@ single OpenEXR file in the default Blender 'temp' directory.
 
 When rendering is finished, after all render data has been freed,
 this then is read back entirely in memory.
+
+----
 
 
 Radiance HDR

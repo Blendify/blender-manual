@@ -248,11 +248,15 @@
       heavy computational requirements of calculating lighting for each pixel.
       The technique was first presented by Henri Gouraud in 1971.
 
+   HDRI
    High Dynamic Range Image
       HDRI is a set of techniques that allow a far greater dynamic range of exposures than normal digital imaging
       techniques. The intention is to accurately represent the wide range of intensity levels found in real scenes,
       ranging from direct sunlight to the deepest shadows.
       The use of high dynamic range imaging in computer graphics has been popularised by the work of Paul Debevec.
+
+      See Wikipedia's:
+      `HDRI <http://http://en.wikipedia.org/wiki/HDRI>`__.
 
    IOR
    Index Of Refraction
