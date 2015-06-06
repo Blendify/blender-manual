@@ -158,11 +158,9 @@ OpenEXR
 `ILM's OpenEXR <http://www.openexr.com>`__ has become a software industry standard for HDR image files,
 especially because of its flexible and expandable structure.
 
-OpenEXR files can store values in the entire floating point space,
-positive as well as negative numbers.
 
-Apart from reading all OpenEXR file types, with RGBA and optional Z saved,
-Blender supports OpenEXR in two ways:
+An OpenEXR file can store multiple layers and passes.
+This means OpenEXR images can be loaded into a compositor keeping render layers, passes intact.
 
 
 Output Options
@@ -196,17 +194,6 @@ Compression
       lossy algorithm from Pixar, converting 32 bits floats to 24 bits floats.
 
 
-Multi-layer, Multi-pass, tile-based files
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-An OpenEXR file can hold unlimited layers and passes, stored hierarchically.
-This feature used for the *Save Buffers* render option.
-This option doesn't allocate the entire final Render Result before render
-(which can have many layers and passes), but saves for each tile the intermediate result to a
-single OpenEXR file in the default Blender 'temp' directory.
-
-When rendering is finished, after all render data has been freed,
-this then is read back entirely in memory.
 
 ----
 
@@ -220,5 +207,4 @@ this format is supported by many other software packages.
 
 Radiance (.hdr) files store colors still in 8 bits per component, but with an additional
 (shared) 8 bits exponent value, making it 32 bits per pixel.
-Only RGB can be stored in these files.
 
