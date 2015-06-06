@@ -23,10 +23,10 @@ Sections
    editors/index.rst
    data_system/index.rst
    Modeling <modeling/index.rst>
-   Physics <physics/index.rst>
    Modifiers <modifiers/index.rst>
    Rigging <rigging/index.rst>
    Animation </animation/index.rst>
+   Physics <physics/index.rst>
    Rendering </render/index.rst>
    Compositing <composite_nodes/index.rst>
    motion_tracking/index.rst
