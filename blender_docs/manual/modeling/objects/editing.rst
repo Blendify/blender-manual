@@ -28,20 +28,7 @@ All edition tools works only with selected objects.
 See :doc:`Selecting Objects </modeling/objects/selecting>` for more information.
 
 
-All commands described below can be found in *Object* menu and/or in *Object tools* panel
-(see pictures).
-
-.. list-table::
-
-   * - .. figure:: /images/Manual-2.6-Panel-ObjectTools.jpg
-          :width: 50px
-
-          Object tools panel
-
-     - .. figure:: /images/Manual-2.6-Menu-Object.jpg
-          :width: 75px
-
-          Object menu
+All commands described below can be found in *Object* menu and/or in *Object tools* panel.
 
 
 Creation and deletion

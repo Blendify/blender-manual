@@ -33,12 +33,6 @@ enable *Cursor Depth* in the :doc:`User Preferences </preferences/interface>`
 Using the Snap Menu
 -------------------
 
-.. figure:: /images/3D_interaction_Transform-Control_Pivot-Point_3D-cursor_snap-menu.jpg
-   :align: center
-
-   The Snap menu.
-
-
 The *Snap* menu (:kbd:`Shift-S` or :menuselection:`Object/Mesh --> Snap`)
 will allow you to snap the cursor in the following ways:
 

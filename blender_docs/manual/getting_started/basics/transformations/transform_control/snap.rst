@@ -25,26 +25,16 @@ This menu provides a number of options to move the cursor or your selection to a
 (the cursor, selection or the grid).
 
 
-.. figure:: /images/3D-interaction_Transform-Control_Snap-snap-menu.jpg
-
-   Snap menu
-
-
 Selection to Grid
    Snaps the currently selected object(s) to the nearest grid point.
-
 Selection to Cursor
    Snaps the currently selected object(s) to the cursor location.
-
 Cursor to Selected
    Moves the cursor to the center of the selected object(s).
-
 Cursor to Center
    Moves the cursor to the center of the grid.
-
 Cursor to Grid
    Moves the cursor to the nearest grid point.
-
 Cursor to Active
    Moves the cursor to the center of the active object.
 
@@ -94,11 +84,6 @@ Increment
 
 Snap Target
 ===========
-
-.. figure:: /images/3D-interaction_Transform-Control_Snap-snap-target.jpg
-
-   Snap Target menu.
-
 
 Snap target options become active when either *Vertex*, *Edge*,
 *Face*, or *Volume* is selected as the snap element.

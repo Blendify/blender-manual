@@ -38,8 +38,6 @@ Object Physics
 Physics Type
 ============
 
-.. figure:: /images/Manual-BGE-Physics-PhysicsType.png
-
 :doc:`No Collision </game_engine/physics/object/no_collision>`
    Is not affected by the simulation nor affects other objects.
 :doc:`Static </game_engine/physics/object/static>`

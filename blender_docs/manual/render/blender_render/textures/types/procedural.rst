@@ -40,12 +40,6 @@ Common options
 Noise Basis
 -----------
 
-.. figure:: /images/Doc-26-Manual-Textures-Procedural-Noise-Basis.jpg
-   :width: 300px
-
-   Noise Basis list
-
-
 Each noise-based Blender texture (with the exception of Voronoi and simple noise) has a
 *Noise Basis* setting that allows the user to select which algorithm is used to
 generate the texture. This list includes the original Blender noise algorithm.

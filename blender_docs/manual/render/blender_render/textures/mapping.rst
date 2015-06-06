@@ -74,12 +74,6 @@ Tangent
 Projection
 ==========
 
-.. figure:: /images/25-Manual-Textures-Mapping-Proj.jpg
-   :width: 210px
-
-   Projection menu
-
-
 Flat
    Flat mapping gives the best results on single planar faces.
    It does produce interesting effects on the sphere, but compared to a sphere-mapped sphere the result looks flat.

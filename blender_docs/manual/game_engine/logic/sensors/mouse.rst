@@ -13,13 +13,6 @@ The *Mouse* sensor is for detecting mouse events.
 
 See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
 
-
-.. figure:: /images/BGE_Sensor_Mouse_Events.jpg
-   :width: 300px
-
-   Mouse Events
-
-
 Special Options:
 The controller consist only of a list of types of mouse events. These are:
 

@@ -126,11 +126,6 @@ will be closed automatically at their ends, like if you were extruding a region.
 Options
 =======
 
-.. figure:: /images/(Doc_26x_Modeling_Mesh_Screw)_(Mesh_Tools_Panel_Screw_Tool)_(GBAFN).jpg
-
-   Fig. 5 - Screw Tool in the Mesh Tools Panel (Edit Mode)
-
-
 This tool is an interactive and modal tool, and only works in the *Edit Mode*.
 
 Once you click in the *Screw* tool in the Mesh Tools Panel,
@@ -138,8 +133,6 @@ Blender will enter in the *Screw* interactive mode, and the Operator Panel at th
 end of the Mesh Tools Panel will be replaced so you can adjust the values explained below.
 To show the Mesh Tools Panel,
 use the shortcut :kbd:`T` in the Edit Mode of the 3D View Window.
-
-(See Fig. 5 - Screw Tool in the Mesh Tools Panel (Edit Mode), red box)
 
 Once you perform any other operation,
 Blender leaves the interactive mode and accepts all of the values. Because it's modal, you
