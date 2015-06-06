@@ -43,7 +43,7 @@ SYSTEM
    used for self contained bundles distributed by official blender.org builds.
 
 .. note::
-   The USER path will use ``$XDG_CONFIG_HOME`` if its set:
+   The **USER** path will use ``$XDG_CONFIG_HOME`` if its set:
 
    .. parsed-literal:: $XDG_CONFIG_HOME/blender/|BLENDER_VERSION|/
 
@@ -87,11 +87,13 @@ for example.
 
 ``./autosave/ ...``
    Autosave blend file location. *Windows only, temp directory used for other systems.*
-   Search order: **LOCAL, USER**.
+
+   Search order: ``LOCAL, USER``.
 
 ``./config/ ...``
    Defaults & session info.
-   Search order: **LOCAL, USER**.
+
+   Search order: ``LOCAL, USER``.
 
 ``./config/startup.blend``
    Default file to load on startup.
@@ -107,6 +109,7 @@ for example.
 
 ``./datafiles/ ...``
    Runtime files.
+
    Search order: ``LOCAL, USER, SYSTEM``
 
 ``./datafiles/locale/{language}/``
@@ -120,6 +123,7 @@ for example.
 
 ``./scripts/ ...``
    Python scripts for the user interface and tools.
+
    Search order: ``LOCAL, USER, SYSTEM``.
 
 ``./scripts/addons/*.py``
@@ -150,5 +154,6 @@ for example.
 
 ``./python/ ...``
    Bundled Python distribution, only necessary when the system Python installation is absent or incompatible.
+
    Search order: ``LOCAL, SYSTEM``.
 
