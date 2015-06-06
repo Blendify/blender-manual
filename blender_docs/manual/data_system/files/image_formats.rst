@@ -16,56 +16,67 @@ This is the list of image file formats supported internally by Blender:
 
    * - Format
      - `Channel Depth`_
+     - Alpha
      - `Metadata`_
      - DPI
      - Extensions
    * - BMP
      - 8bit
      - |cross|
+     - |cross|
      - |tick|
      - ``.bmp``
    * - Iris
      - 8bit
+     - |tick|
      - |cross|
      - |cross|
      - ``.sgi`` ``.rgb`` ``.bw``
    * - PNG
-     - 8,16bit
+     - 8, 16bit
+     - |tick|
      - |tick|
      - |tick|
      - ``.png``
    * - JPEG
      - 8bit
+     - |cross|
      - |tick|
      - |tick|
      - ``.jpg`` ``.jpeg``
    * - JPEG 2000
-     - 8,12,16bit
+     - 8, 12, 16bit
+     - |tick|
      - |cross|
      - |cross|
      - ``.jp2`` ``.jp2`` ``.j2c``
    * - Targa
      - 8bit
+     - |tick|
      - |cross|
      - |cross|
      - ``.tga``
    * - `Cineon & DPX`_
-     - 8,10,12,16bit
+     - 8, 10, 12,16bit
+     - |tick|
      - |cross|
      - |cross|
      - ``.cin`` ``.dpx``
    * - `OpenEXR`_
-     - half-float,float
+     - float 16, 32bit
+     - |tick|
      - |tick|
      - |tick|
      - ``.exr``
    * - `Radiance HDR`_
      - float
+     - |tick|
      - |cross|
      - |cross|
      - ``.hdr``
    * - TIFF
-     - 8,16bit
+     - 8, 16bit
+     - |tick|
      - |cross|
      - |tick|
      - ``.tif`` ``.tiff``
