@@ -123,7 +123,7 @@ Single Image
 
 .. code-block:: sh
 
-   blender -b file.blend -o /project/renders/frame_##### -F EXR -f -5
+   blender -b file.blend -o /project/renders/frame_##### -F EXR -f -2
 
 ``-o /project/renders/frame_#####``
    Path of where to save the rendered image, using 5 padded zeros for the frame number.
@@ -132,8 +132,9 @@ Single Image
 ``-f -2``
    Render only the second last frame.
 
-.. warning:: Arguments are case sensitive! ``-F`` and ``-f`` are not the same.
+.. warning::
 
+   Arguments are case sensitive! ``-F`` and ``-f`` are not the same.
 
 
 Animation
