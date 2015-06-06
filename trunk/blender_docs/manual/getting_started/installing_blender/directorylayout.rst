@@ -19,6 +19,11 @@ For locally extracted Blender distributions, the user configuration and data run
 kept in the same sub-directory, allowing multiple Blender versions to run without conflict,
 ignoring the **USER** and **SYSTEM** files.
 
+.. note::
+
+   You may need to have the "show hidden files" option checked in your file browser settings.
+
+
 Here are the default locations for each system:
 
 

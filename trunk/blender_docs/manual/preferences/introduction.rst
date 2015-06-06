@@ -3,11 +3,9 @@
 Introduction
 ************
 
-
 This chapter explains how to change Blender's default configuration with the *User Preferences* editor.
 
-The Blender *User Preferences* editor contains many of the settings that you can
-change to control the way Blender behaves each time you open the application.
+The Blender *User Preferences* editor contains settings to to control how Blender behaves.
 
 
 Open User Preferences
@@ -15,12 +13,7 @@ Open User Preferences
 
 .. |user-preferences-icon| image:: /images/User-preferences-icon.jpg
 
-To open a Blender *User Preferences* editor
-go to :menuselection:`File --> User Preferences` or press :kbd:`Ctrl-Alt-U`.
-Mac users can press :kbd:`Cmd-,`.
-You can also load the Preferences editor in any window by selecting (|user-preferences-icon|)
-*User Preferences* from the :doc:`Window type selection menu </editors/index>`.
-
+To open a Blender *User Preferences* editor go to :menuselection:`File --> User Preferences`.
 
 .. figure:: /images/User-preferences.jpg
    :width: 650px
@@ -39,7 +32,8 @@ At the top of the window, the available options are grouped into seven tabs:
 :doc:`Input </preferences/input>`
    Customize how Blender reacts to the mouse and keyboard as well as define your own keymap.
 :doc:`Add-ons </preferences/add_ons>`
-   Manage secondary options which are not enabled in Blender by default as well as install new features.
+   Manage Blender's *Add-ons*, allowing you to access features
+   not built-in as well as install new features.
 :doc:`Themes </preferences/themes>`
    Customize interface appearance and colors.
 :doc:`File </preferences/file>`
@@ -63,30 +57,13 @@ This will save all of the new preferences.
 Load Factory Settings
 =====================
 
-There are two ways to restore the default Blender settings:
+Go to :menuselection:`File --> Load Factory Settings`
+then save the preferences via the *User Preferences* editor.
 
+.. hint::
 
-- Go to :menuselection:`File --> Load Factory Settings` and then save the preferences
-  with :kbd:`Ctrl-U` or via the *User Preferences* editor.
-- Delete the ``startup.blend`` file from the following location on your computer:
+   It can be valuable to make a backup of your preferences the event that you lose your configuration.
 
-  Linux
-     .. parsed-literal:: /home/$user/.config/.blender/|BLENDER_VERSION|/startup.blend
-
-  Windows
-     .. parsed-literal:: C:/Users/$user/AppData/Roaming/Blender Foundation/Blender/|BLENDER_VERSION|/config/startup.blend
-
-  OSX
-     .. parsed-literal:: /Users/$user/Library/Application Support/Blender/|BLENDER_VERSION|/config/startup.blend
-
-
-.. note::
-
-   You may need to have the “show hidden files” option checked in your file browser settings.
-
-
-While you're in the Blender config folder,
-it can be valuable to copy your Blender settings file to another folder.
-In the event that you lose your configuration,
-you can restore your Blender settings file with your backup copy.
+   See the :doc:`directory layout </getting_started/installing_blender/directorylayout>`
+   section to see where your preferences are stored.
 
