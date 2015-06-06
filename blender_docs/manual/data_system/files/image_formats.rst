@@ -50,7 +50,7 @@ This is the list of image file formats supported internally by Blender:
      - |cross|
      - ``.tga``
    * - `Cineon & DPX`_
-     - 8bit
+     - 8,10,12,16bit
      - |cross|
      - |cross|
      - ``.cin`` ``.dpx``
