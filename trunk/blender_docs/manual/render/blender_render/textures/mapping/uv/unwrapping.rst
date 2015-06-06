@@ -72,11 +72,6 @@ face, or edge selection mode.
 Workflow
 ========
 
-.. figure:: /images/Manual-25-uv-unwrap-method.jpg
-
-   Choosing the unwrapping method
-
-
 The process for unwrapping is straightforward, but there are tons of options available,
 each of which dramatically affect the outcome of the unwrap.
 By understanding the meaning behind the options, you will become more efficient at unwrapping.

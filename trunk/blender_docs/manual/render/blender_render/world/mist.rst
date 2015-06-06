@@ -30,14 +30,6 @@ Start
 Depth
    The distance from *Start* of the mist, that it fades in over.
    Objects further from the camera than *Start+Depth* are completely hidden by the mist.
-
-
-.. figure:: /images/25-Manual-World-MistFalloff.jpg
-   :width: 197px
-
-   Mist Falloff pop-up menu
-
-
 Height
    Makes the mist intensity decrease with height, for a more realistic effect.
    If greater than 0, it sets, in Blender units,

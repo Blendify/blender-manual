@@ -19,11 +19,6 @@ rotation or scaling of the parent also affects the children.
 Parenting objects
 =================
 
-.. figure:: /images/26-Manual-Modeling-Objects-Parenting-SetParentPopUp.jpg
-
-   Set Parent To pop-up menu
-
-
 To parent objects, select at least two objects (select the *Child Objects* first,
 and select the *Parent Object* last), and press :kbd:`Ctrl-P`. The *Set Parent To*
 dialog will pop up allowing you to select from one of several possible different
@@ -577,11 +572,6 @@ Use the *Outliner* view to verify that the child object is still parented.
 
 Remove relationship/Clear Parent
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. figure:: /images/25-Manual-Modeling-Objects-Parenting-ClearParentPopUp.jpg
-
-   Clear Parent pop-up menu
-
 
 You can *remove* a parent-child relationship via :kbd:`Alt-P`
 

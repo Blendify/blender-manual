@@ -46,7 +46,7 @@ In Blender 2.5, the separate *Ramp* panels for the *Diffuse* shader and the
 
 .. figure:: /images/Manual-2.5-Material-RampsButton.jpg
 
- button.
+   button.
 
 By default the Ramp panel opens with two colors; the first stop (*0*)
 is black and transparent (Alpha=0) and the second stop (*1*) is white and opaque
@@ -57,19 +57,13 @@ The position of the color stop markers can be altered by either
 
 .. figure:: /images/Manual-2.5-Material-Ramps-StopPos.jpg
 
- box.
+   box.
 
 Color and alpha values for each marker can be set by clicking the
 
 .. figure:: /images/Manual-2.5-Material-Ramps-ColorAlpha.jpg
 
- box.
-
-
-.. figure:: /images/Manual-2.5-Material-Ramps-Input.jpg
-
-   Input pop-up menu
-
+   box.
 
 Input
    The input menu contains the following options for defining the gradient:

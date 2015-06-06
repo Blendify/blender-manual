@@ -267,11 +267,6 @@ Select linked
 Description
 -----------
 
-.. figure:: /images/25-Manual-Object-Selection-Linked.jpg
-
-   Linked selection menu
-
-
 Selects all objects which share a common datablock with the active object.
 
 
@@ -313,11 +308,6 @@ Select All by Type
 
 Description
 -----------
-
-.. figure:: /images/25-Manual-Object-Selection-Bytype.jpg
-
-   By Type selection menu
-
 
 The types are *Mesh*, *Curve*, *Surface*, *Meta*,
 *Font*, *Armature*, *Lattice*, *Empty*,
