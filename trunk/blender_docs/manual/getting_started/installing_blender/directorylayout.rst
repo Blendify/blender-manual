@@ -27,35 +27,8 @@ ignoring the **USER** and **SYSTEM** files.
 Here are the default locations for each system:
 
 
-OSX
-===
-
-LOCAL
-   .. parsed-literal:: ./|BLENDER_VERSION|/
-USER
-   .. parsed-literal:: /Users/{user}/Library/Application Support/Blender/|BLENDER_VERSION|/
-SYSTEM
-   .. parsed-literal:: /Library/Application Support/Blender/|BLENDER_VERSION|/
-
-.. note::
-   OSX stores the Blender binary in ``./blender.app/Contents/MacOS/blender``,
-   so the local path to data & config is:
-   .. parsed-literal:: ./blender.app/Contents/MacOS/|BLENDER_VERSION|/
-
-
-Windows
-=======
-
-LOCAL
-   .. parsed-literal:: .\\\ |BLENDER_VERSION|\\.
-USER
-   .. parsed-literal:: C:\\Documents and Settings\\{username}\\AppData\\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\
-SYSTEM
-   .. parsed-literal:: C:\\Documents and Settings\\All Users\\AppData\\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\
-
-
-Unix (Linux/BSD/Solaris)
-========================
+Linux
+=====
 
 LOCAL
    .. parsed-literal:: ./|BLENDER_VERSION|/
@@ -73,6 +46,34 @@ SYSTEM
    The USER path will use ``$XDG_CONFIG_HOME`` if its set:
 
    .. parsed-literal:: $XDG_CONFIG_HOME/blender/|BLENDER_VERSION|/
+
+
+OSX
+===
+
+LOCAL
+   .. parsed-literal:: ./|BLENDER_VERSION|/
+USER
+   .. parsed-literal:: /Users/{user}/Library/Application Support/Blender/|BLENDER_VERSION|/
+SYSTEM
+   .. parsed-literal:: /Library/Application Support/Blender/|BLENDER_VERSION|/
+
+.. note::
+   OSX stores the Blender binary in ``./blender.app/Contents/MacOS/blender``,
+   so the local path to data & config is:
+
+   .. parsed-literal:: ./blender.app/Contents/MacOS/|BLENDER_VERSION|/
+
+
+Windows
+=======
+
+LOCAL
+   .. parsed-literal:: .\\\ |BLENDER_VERSION|\\.
+USER
+   .. parsed-literal:: C:\\Documents and Settings\\{username}\\AppData\\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\
+SYSTEM
+   .. parsed-literal:: C:\\Documents and Settings\\All Users\\AppData\\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\
 
 
 Path Layout
