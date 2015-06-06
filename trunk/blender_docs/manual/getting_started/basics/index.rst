@@ -25,7 +25,7 @@ inside the Blender Window (except on the splash screen).
    transformations/index.rst
    quick_render.rst
    undo_and_redo.rst
-   default_scene.rst
+   startup_file.rst
    screenshots.rst
    screencasts.rst
    help.rst
