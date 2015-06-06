@@ -14,7 +14,7 @@ More info:
     font-size: 1em;
 }
 
- /* Ensure background of input fields is light color even when a local theme wants it to be dark */
+/* Ensure background of input fields is light color even when a local theme wants it to be dark */
 input[type="text"],
 input[type="password"],
 input[type="email"],
@@ -42,4 +42,12 @@ input[type="color"] {
     line-height: 24px;
     margin-bottom: 24px;
     background: #e3e3e3;
+}
+
+/* Fix giant captions */
+.caption-text {
+    font-size: 14px;
+    font-family: Lato, proxima-nova, 'Helvetica Neue', Arial, sans-serif;
+    font-weight: normal;    
+    line-height: 0px;
 }
