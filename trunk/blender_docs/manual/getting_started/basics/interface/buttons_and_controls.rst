@@ -80,6 +80,21 @@ Text Input
    - Press :kbd:`Esc` will cancel the value.
 
 
+Multi-Value Editing
+-------------------
+
+.. figure:: /images/ui_multi_value_edit.png
+   :align: right
+
+   Multi-value-editing
+
+It's often useful to edit multiple values at once (object scale or render resolution for example).
+
+This can be done by clicking on the button and dragging vertically to include buttons above/below.
+
+After the vertical motion you can drag from side to side, or release the :kbd:`LMB` to type in a value.
+
+
 Expressions
 -----------
 
