@@ -89,3 +89,11 @@ You can join these with your favorite IRC client:
 There also several more Blender-related channels not listed here
 (e.g. channels for speakers of a particular language).
 We recommend you search Freenode to see them all.
+
+
+Other Useful Links
+==================
+
+- `Blender FAQ <http://www.blender.org/support/faq/>`__ (Can I use Blender commercially? What is GPL/GNU? ...)
+- `Demo and benchmark files <http://www.blender.org/download/demo-files/>`__
+- Developers `Ask Us Anything! <http://wiki.blender.org/index.php/Dev:Doc/AskUsAnything>`__
