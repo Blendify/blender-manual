@@ -53,9 +53,7 @@ Presets
 -------
 
 To make life easier the topmost menu provides some common presets.
-You can add your own or remove one with the `+` and `-` buttons:
-
-See: :term:`Video Presets`
+You can add your own or remove one with the ``+`` and ``-`` buttons:
 
 
 Output Panel

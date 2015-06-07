@@ -22,6 +22,7 @@ Animation is typically achieved with the use of :doc:`/animation/basics/key_fram
 Chapters
 ========
 
+
 General Principles and Tools
 ----------------------------
 
@@ -30,6 +31,7 @@ General Principles and Tools
 - :doc:`Using The Timeline </animation/editors/timeline>`
 - :doc:`Markers </animation/basics/markers>`
 
+
 The Graph Editor
 ----------------
 
@@ -37,19 +39,21 @@ The Graph Editor
 - :doc:`Editing Curves </animation/editors/graph/fcurves>`
 - :doc:`F-Curve Modifiers </animation/editors/graph/fmodifiers>`
 
+
 The Action Editor
 -----------------
 
 - :doc:`Actions </animation/basics/actions>`
 - :ref:`animation-basics-actions-working_with_actions`
 
+
 Animation Techniques
 --------------------
 
 - :doc:`Constraints </animation/techs/object/constraint>`
 - :doc:`Moving objects on a Path </animation/techs/object/path>`
-- :doc:`Changing Object Layers </animation/layer_animation>`
 - :doc:`Game Engine Physics Recording </physics/using_ge>`
+
 
 Animating Deformation
 ---------------------
@@ -59,6 +63,7 @@ Animating Deformation
 - :doc:`Deforming with Hooks </modifiers/deform/hooks>`
 
 See also :doc:`Hook Modifier </modifiers/deform/hooks>`
+
 
 Drivers
 -------
