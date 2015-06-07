@@ -115,8 +115,8 @@ Menu Buttons
 
 Blender uses a variety of different menus for accessing options, tools and selecting data-blocks.
 
-Common Menu Shortcuts
----------------------
+Common Shortcuts
+----------------
 
 - Arrow keys can be used to navigate.
 - Each menu item has an underlined character which can be pressed to activate it.
@@ -179,8 +179,6 @@ Sometimes there is a list of applied data-blocks
    - To remove a section, click :kbd:`LMB` on the "-" to the right of the list.
 
 For details on the behavior of linking data see :doc:`data-block </data_system/datablocks>`.
-
-
 
 
 Common Shortcuts
