@@ -113,16 +113,45 @@ Also notice how you can mix between metric and imperial even though the display 
 Menu Buttons
 ============
 
-.. figure:: /images/Manual-Part-I-ConceptButtons4_25.jpg
-   :align: right
+Blender uses a variety of different menus for accessing options, tools and selecting data-blocks.
 
-   Datablock link buttons
+Common Menu Shortcuts
+---------------------
+
+- Arrow keys can be used to navigate.
+- Each menu item has an underlined character which can be pressed to activate it.
+- Number keys or num-pad can be used to access menu items.
+  (Where :kbd:`1` is the first menu item, :kbd:`2` the second... etc).
+- Press :kbd:`Return` to activate the selected manu item.
+- Press :kbd:`Esc` to cancel the menu.
 
 
-Use the menu buttons to work with items on dynamically created lists.
-Menu buttons are principally used to link DataBlocks to each other.
-DataBlocks are items like Meshes, Objects, Materials, Textures, and so on.
+Header Menus
+------------
 
+Header menus are used to configure the editor and access tools.
+
+
+Pop-Up Menus
+------------
+
+Pop-up menus are displayed as regular buttons, showing a range of options.
+For example, the *Add Modifier* button will produce a menu with all of the available modifiers.
+
+
+.. figure:: /images/Manual-Part-I-ConceptButtons4_menue_25.jpg
+   :align: center
+
+   Modifier options
+
+
+Data-Block Menus
+----------------
+
+Menu buttons are used link data-blocks to each other.
+data-blocks are items like *Meshes*, *Objects*, *Materials*, *Textures*, and so on.
+
+These menu's may show a preview and allow you to search by name since its common all items wont fit in the list.
 
 .. figure:: /images/Manual-Part-I-ConceptButtons4_1_25.jpg
    :align: right
@@ -130,32 +159,28 @@ DataBlocks are items like Meshes, Objects, Materials, Textures, and so on.
    Datablock link menu with search
 
 
-- The first button (with an icon of the DataBlock type) opens up a menu to select an item
-  by clicking :kbd:`LMB`.
-- The second button displays the name of the linked DataBlock and lets you edit it after clicking :kbd:`LMB`.
-- The "+" button duplicates the current DataBlock and applies it.
-- The "X" button clears the link.
+   - The first button (with an icon of the data-block type) opens up a menu to select an item
+     by clicking :kbd:`LMB`.
+   - The second button displays the name of the linked data-block which can be edited as a regular text field.
+   - The "+" button duplicates the current data-block and applies it.
+   - The "X" button clears the link.
 
-Sometimes there is a list of applied DataBlocks
-(such as a list of materials used on the object). See *DataBlock link buttons* above.
+Sometimes there is a list of applied data-blocks
+(such as a list of materials used on the object). See *data-block link buttons* above.
 
+.. figure:: /images/Manual-Part-I-ConceptButtons4_25.jpg
+   :align: right
 
-- To select a datablock, click :kbd:`LMB` on it.
-- To add a new section (e.g. material, or particle system),
-  click :kbd:`LMB` on the "+" button to the right of the list.
-- To remove a section, click :kbd:`LMB` on the "-" to the right of the list.
+   Datablock link buttons
+
+   - To select a datablock, click :kbd:`LMB` on it.
+   - To add a new section (e.g. material, or particle system),
+     click :kbd:`LMB` on the "+" button to the right of the list.
+   - To remove a section, click :kbd:`LMB` on the "-" to the right of the list.
 
 For details on the behavior of linking data see :doc:`data-block </data_system/datablocks>`.
 
 
-Another type of a Menu button block will show a static list with a range of options.
-For example, the Add Modifier button will produce a menu with all of the available modifiers.
-
-
-.. figure:: /images/Manual-Part-I-ConceptButtons4_menue_25.jpg
-   :align: center
-
-   Modifier options
 
 
 Common Shortcuts
