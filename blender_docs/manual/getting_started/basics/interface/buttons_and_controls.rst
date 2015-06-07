@@ -145,6 +145,8 @@ Sometimes there is a list of applied DataBlocks
   click :kbd:`LMB` on the "+" button to the right of the list.
 - To remove a section, click :kbd:`LMB` on the "-" to the right of the list.
 
+For details on the behavior of linking data see :doc:`data-block </data_system/datablocks>`.
+
 
 Another type of a Menu button block will show a static list with a range of options.
 For example, the Add Modifier button will produce a menu with all of the available modifiers.
@@ -154,16 +156,6 @@ For example, the Add Modifier button will produce a menu with all of the availab
    :align: center
 
    Modifier options
-
-
-.. note:: Unlinked objects
-
-   Unlinked data is *not* **lost until you quit Blender**. This is a powerful Undo feature.
-   If you delete an object the material assigned to it becomes unlinked, but is still there! You
-   just have to re-link it to another object or supply it with a "Fake User" (i.e.
-   by clicking that option in the corresponding DataBlock in the datablock-view of the Outliner).
-
-   :doc:`Read more about Fake User </data_system/introduction>`
 
 
 Common Shortcuts
