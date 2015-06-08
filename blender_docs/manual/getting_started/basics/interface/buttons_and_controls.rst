@@ -33,8 +33,12 @@ Toggle Buttons
 Toggle buttons are typically displayed as check boxes.
 Clicking this type of button will toggle a state but will not perform any operation.
 
-- To change many toggle buttons at once, you can :kbd:`LMB` drag over multiple buttons,
-  This works for check-boxes, toggles in the outliner and layer buttons.
+
+Toggle Drag
+-----------
+
+To change many toggle buttons at once, you can :kbd:`LMB` drag over multiple buttons,
+This works for check-boxes, toggles in the outliner and layer buttons.
 
   .. note::
 

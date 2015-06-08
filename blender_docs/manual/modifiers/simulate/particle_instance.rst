@@ -239,10 +239,7 @@ Random
    Otherwise the path a mesh took will not be visible!
 
 
-See Also
-========
+.. seealso::
 
-- :doc:`Particles </physics/particles/index>`
-- :term:`Particle Terminology`
-
+   :doc:`Particles </physics/particles/index>`
 
