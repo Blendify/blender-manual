@@ -5,7 +5,7 @@ Features
 
 This page offers a comparison of available features on CPU, CUDA and OpenCL. 
 
-.. |tick|  unicode:: U+2713
+.. |tick|  unicode:: U+2714
 .. |cross| unicode:: U+2717
 
 .. list-table::
@@ -26,11 +26,11 @@ This page offers a comparison of available features on CPU, CUDA and OpenCL.
    * - Motion Blur
      - |tick|
      - |tick|
-     - |tick| :sup:`(experimental)`
+     - |tick|
    * - Hair
      - |tick|
      - |tick|
-     - |tick| :sup:`(experimental)`
+     - |tick|
    * - Volume
      - |tick|
      - |tick|
