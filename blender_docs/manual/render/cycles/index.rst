@@ -18,3 +18,4 @@
    features.rst
    gpu_rendering.rst
    osl.rst
+   baking.rst
