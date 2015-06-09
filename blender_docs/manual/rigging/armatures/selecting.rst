@@ -186,9 +186,6 @@ To understand this, look at *Bone deselection in a selected chain*.
      - .. figure:: /images/ManRiggingBoneSelectExEditModeTwoBones.jpg
           :width: 300px
 
-          After [shift][rmb]-clicking Bone.003
-
-
 After :kbd:`Shift-RMB` -clicking ``Bone.003``:
 
 - ``Bone.003`` 's tip (which is same as ``Bone.004`` 's root) is deselected

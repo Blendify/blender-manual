@@ -81,12 +81,12 @@ whatever convert algorithm you use (except for the* *Template* conversion method
    * - .. figure:: /images/ManRiggingSketchingDrawingPolyStrokeEx1.jpg
           :width: 200px
 
-          The first segment has been started ([lmb] click) and the mouse moved to its end point.
+          The first segment has been started (:kbd:`LMB` click) and the mouse moved to its end point.
 
      - .. figure:: /images/ManRiggingSketchingDrawingPolyStrokeEx2.jpg
           :width: 200px
 
-          The first segment has been finalized by a second [lmb] click, which also started a new segment...
+          The first segment has been finalized by a second :kbd:`LMB` click, which also started a new segment...
 
      - .. figure:: /images/ManRiggingSketchingDrawingPolyStrokeEx3.jpg
           :width: 200px
@@ -116,22 +116,22 @@ raise this value a bit, and if you find them too jagged, lower it.
    * - .. figure:: /images/ManRiggingSketchingDrawingFreeStrokeEx1.jpg
           :width: 300px
 
-          While drawing a first free segment ([lmb] click and drag).
+          While drawing a first free segment (:kbd:`LMB` click and drag).
 
      - .. figure:: /images/ManRiggingSketchingDrawingFreeStrokeEx2.jpg
           :width: 300px
 
-          The first free segment finalized (releasing [lmb]).
+          The first free segment finalized (releasing :kbd:`LMB`).
 
    * - .. figure:: /images/ManRiggingSketchingDrawingFreeStrokeEx3.jpg
           :width: 300px
 
-          If you now move the mouse without pressing [lmb] again, you'll create a straight segment...
+          If you now move the mouse without pressing :kbd:`LMB` again, you'll create a straight segment...
 
      - .. figure:: /images/ManRiggingSketchingDrawingFreeStrokeEx4.jpg
           :width: 300px
 
-          But if you immediately click again and drag [lmb], you'll instead start a new free segment.
+          But if you immediately click again and drag :kbd:`LMB` you'll instead start a new free segment.
 
 
 You finalize a whole stroke by clicking* :kbd:`RMB`. You can cancel the stroke you are drawing by pressing :kbd:`Esc`.
