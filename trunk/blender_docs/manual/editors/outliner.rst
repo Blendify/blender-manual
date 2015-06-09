@@ -47,7 +47,7 @@ then zoom to them with :menuselection:`View --> Show Active` or :kbd:`NumpadPeri
 
 .. figure:: /images/Manual-2-56-PartIII-Outliner-Activate-Datablock.jpg
 
-   Click [lmb] on the mesh data of the cube to activate Edit mode.
+   Click :kbd:`LMB` on the mesh data of the cube to activate Edit mode.
 
 
 Activating a datablock
