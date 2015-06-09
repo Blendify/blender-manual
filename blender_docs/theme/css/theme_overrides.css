@@ -44,10 +44,16 @@ input[type="color"] {
     background: #e3e3e3;
 }
 
+
 /* Fix giant captions */
 .caption-text {
-    font-size: 14px;
+    font-size: 13px;
     font-family: Lato, proxima-nova, 'Helvetica Neue', Arial, sans-serif;
-    font-weight: normal;    
+    font-weight: normal;
+    line-height: 20px;
+    color:#808080;
+}
+
+.caption {
     line-height: 0px;
 }
