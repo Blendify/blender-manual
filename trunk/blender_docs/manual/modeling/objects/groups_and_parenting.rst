@@ -84,7 +84,6 @@ those being 2 Empty Objects named "EmptyA" and "EmptyB", and a Monkey object. Se
 
 
 .. figure:: /images/Parent_-_Object_(Keep_Transform)_-_A.jpg
-   :width: 800px
 
    Figure 1 - Scene with 2 Empties and a Monkey, no parenting currently active.
 
@@ -103,7 +102,6 @@ See figure 2.
 
 
 .. figure:: /images/Parent_-_Object_(Keep_Transform)_-_B.jpg
-   :width: 800px
 
    Figure 2 - Scene with Monkey object being the Child Object of "EmptyA".
    "EmptyA" has been scaled resulting in the Monkey also being scaled and moved to the left.
@@ -118,7 +116,6 @@ See figure 3.
 
 
 .. figure:: /images/Parent_-_Object_(Keep_Transform)_-_C.jpg
-   :width: 800px
 
    Figure 3 - Scene with Monkey object having its a parent changed
    from "EmptyA" to "EmptyB" and the resulting change in scale.
@@ -138,7 +135,6 @@ to the new parent "EmptyB"; See Figure 4.
 
 
 .. figure:: /images/Parent_-_Object_(Keep_Transform)_-_D.jpg
-   :width: 800px
 
    Figure 4 - Scene with Monkey object having its a parent changed
    from "EmptyA" to "EmptyB" using 'Object (Keep Transform)' parent method.
@@ -166,7 +162,6 @@ You are then able to move the Armature Bones and the Mesh Object will deform. Se
 
 
 .. figure:: /images/SQ-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.jpg
-   :width: 800px
 
    Figure 5 - Armature Object Bone associated with another Mesh Object, as the bone move the Mesh deforms similarly.
 
@@ -191,7 +186,6 @@ Armature Deform in the Set Parent To pop-up dialog. See figure 6.
 
 
 .. figure:: /images/SR-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.jpg
-   :width: 800px
 
    Figure 6 - Set Parent To dialog with Armature Deform Parenting option highlighted.
 
@@ -220,7 +214,6 @@ See figure 7.
 
 
 .. figure:: /images/SS-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.jpg
-   :width: 800px
 
    Figure 7 - Properties Editor > Object Data Context > Vertex Groups Panel with Assign Button
    and influence Weight Slider highlighted.
@@ -233,7 +226,6 @@ See figure 8.
 
 
 .. figure:: /images/ST-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.jpg
-   :width: 800px
 
    Figure 8 - 3D View Editor Header > Mode Select Button] set to Pose Mode,
    with Armature Bone highlighted in Cyan and effecting the Mesh Object
@@ -262,7 +254,6 @@ BoneB and BoneC. Notice that each Vertex Group is empty. See figure 21.
 
 
 .. figure:: /images/TG-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform_With_Empty_Groups.blend.jpg
-   :width: 800px
 
    Figure 21 - Cube in Edit Mode showing the 3 created Vertex Groups after it was parented
    using Armature Deform With Empty Groups to an Armature with 3 Bones named BoneA,
@@ -300,7 +291,6 @@ See figure 22.
 
 
 .. figure:: /images/TH-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform_With_Empty_Groups.blend.jpg
-   :width: 800px
 
    Figure 22 - 3 Bone Armature in Edit Mode with 2nd bone selected with [Properties Editor >
    Bone Context > Deform Panel] displayed an ticked, indicating the bone is a Deforming Bone.
@@ -352,7 +342,6 @@ parenting are calculated entirely visually using Bone Envelopes. See figure 28.
 
 
 .. figure:: /images/TN-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform_With_Envelope_Weights.jpg
-   :width: 800px
 
    Figure 28 - Single Armature Bone in Edit Mode with Envelope Weight display enabled.
    The gray volume around the bone is the Bone Envelope.
@@ -367,7 +356,6 @@ Any vertices outside the Bone Evelope volume will not be influenced. See figure 
 
 
 .. figure:: /images/TO-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform_With_Envelope_Weights.jpg
-   :width: 800px
 
    Figure 29 - 2 sets of Armatures each with 3 bones,
    the first set has all vertices inside the Bone Envelope, the second did not.
@@ -382,7 +370,6 @@ See figure 30.
 
 
 .. figure:: /images/TP-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform_With_Envelope_Weights.jpg
-   :width: 800px
 
    Figure 30 - Single Armature Bone with various different Bone Evelope sizes.
 
@@ -394,7 +381,6 @@ field] then enter a new value into it. See figure 31.
 
 
 .. figure:: /images/TQ-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform_With_Envelope_Weights.jpg
-   :width: 800px
 
    Figure 31 - [Properties Editor > Bone Context > Deform Panel > Envelope Section > Distance field] highlighted.
 
@@ -409,7 +395,6 @@ See figure 32.
 
 
 .. figure:: /images/TR-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform_With_Envelope_Weights.jpg
-   :width: 800px
 
    Figure 32 - 4 Armature Bones all using Envelope Weight.
    The 1st with a default radius value, the 3 others with differing Tail, Head and Body radius values.
@@ -421,7 +406,6 @@ the Tail and Head fields. See figure 33.
 
 
 .. figure:: /images/TS-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform_With_Envelope_Weights.jpg
-   :width: 800px
 
    Figure 33 - [Properties Editor > Bone Context > Deform Panel > Radius Section] head and tail fields highlighted.
 
@@ -448,7 +432,6 @@ if the specific bone it is the Child Object of moves. See figure 34.
 
 
 .. figure:: /images/TU-3DViewEditorHeader-ObjectMenu-Parent-BoneParenting.jpg
-   :width: 800px
 
    Figure 34 - 3 pictures of Armatures with 4 Bones,
    with the 2nd bone being the Bone Parent of the Child Object Cube.
@@ -477,7 +460,6 @@ See figure 37.
 
 
 .. figure:: /images/TX-3DViewEditorHeader-ObjectMenu-Parent-BoneParenting.jpg
-   :width: 800px
 
    Figure 37 - [Single Armature Bone which has a Child Object cube parented to it using Bone parenting.
    1st picture shows the position of the cube and armature before the bone is moved in Edit Mode.
@@ -490,7 +472,6 @@ the Child Objects will not move to the new location of the Pose Bone. See figure
 
 
 .. figure:: /images/TY-3DViewEditorHeader-ObjectMenu-Parent-BoneRelativeParenting.jpg
-   :width: 800px
 
    Figure 38 - [Single Armature Bone which has a Child Object cube parented to it using Bone Relative parenting.
    1st picture shows the position of the cube and armature before the bone is moved in Edit Mode.
@@ -536,7 +517,6 @@ The nearest vertices will be used from each object which is typically what you w
 
 
 .. figure:: /images/parent_vertex_object_mode_example.jpg
-   :width: 800px
 
    See:
 
