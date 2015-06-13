@@ -10,18 +10,26 @@ from sphinx.util.compat import Directive
 
 CONTROL_HEIGHT = 30
 
+_re_size = re.compile("(\d+)(|%|px)$")
+_re_aspect = re.compile("(\d+):(\d+)")
+
+
 def get_size(d, key):
     if key not in d:
         return None
-    m = re.match("(\d+)(|%|px)$", d[key])
+    m = _re_size.match(d[key])
     if not m:
         raise ValueError("invalid size %r" % d[key])
     return int(m.group(1)), m.group(2) or "px"
 
+
 def css(d):
     return "; ".join(sorted("%s: %s" % kv for kv in d.items()))
 
-class youtube(nodes.General, nodes.Element): pass
+
+class youtube(nodes.General, nodes.Element):
+    pass
+
 
 def visit_youtube_node(self, node):
     aspect = node["aspect"]
@@ -73,8 +81,10 @@ def visit_youtube_node(self, node):
         self.body.append(self.starttag(node, "iframe", **attrs))
         self.body.append("</iframe>")
 
+
 def depart_youtube_node(self, node):
     pass
+
 
 class YouTube(Directive):
     has_content = True
@@ -90,7 +100,7 @@ class YouTube(Directive):
     def run(self):
         if "aspect" in self.options:
             aspect = self.options.get("aspect")
-            m = re.match("(\d+):(\d+)", aspect)
+            m = _re_aspect.match(aspect)
             if m is None:
                 raise ValueError("invalid aspect ratio %r" % aspect)
             aspect = tuple(int(x) for x in m.groups())
@@ -98,7 +108,15 @@ class YouTube(Directive):
             aspect = None
         width = get_size(self.options, "width")
         height = get_size(self.options, "height")
-        return [youtube(id=self.arguments[0], aspect=aspect, width=width, height=height)]
+        return [
+            youtube(
+                id=self.arguments[0],
+                aspect=aspect,
+                width=width,
+                height=height,
+                )
+            ]
+
 
 def setup(app):
     app.add_node(youtube, html=(visit_youtube_node, depart_youtube_node))

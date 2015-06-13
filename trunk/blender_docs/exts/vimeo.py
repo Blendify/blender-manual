@@ -10,18 +10,26 @@ from sphinx.util.compat import Directive
 
 CONTROL_HEIGHT = 30
 
+_re_size = re.compile("(\d+)(|%|px)$")
+_re_aspect = re.compile("(\d+):(\d+)")
+
+
 def get_size(d, key):
     if key not in d:
         return None
-    m = re.match("(\d+)(|%|px)$", d[key])
+    m = _re_size.match(d[key])
     if not m:
         raise ValueError("invalid size %r" % d[key])
     return int(m.group(1)), m.group(2) or "px"
 
+
 def css(d):
     return "; ".join(sorted("%s: %s" % kv for kv in d.items()))
 
-class vimeo(nodes.General, nodes.Element): pass
+
+class vimeo(nodes.General, nodes.Element):
+    pass
+
 
 def visit_vimeo_node(self, node):
     aspect = node["aspect"]
@@ -48,7 +56,7 @@ def visit_vimeo_node(self, node):
             "border": "0",
         }
         attrs = {
-			"src": "//player.vimeo.com/video/%s" % node["id"],
+            "src": "//player.vimeo.com/video/%s" % node["id"],
             "style": css(style),
         }
         self.body.append(self.starttag(node, "iframe", **attrs))
@@ -67,14 +75,16 @@ def visit_vimeo_node(self, node):
             "border": "0",
         }
         attrs = {
-		    "src": "//player.vimeo.com/video/%s" % node["id"],
+            "src": "//player.vimeo.com/video/%s" % node["id"],
             "style": css(style),
         }
         self.body.append(self.starttag(node, "iframe", **attrs))
         self.body.append("</iframe>")
 
+
 def depart_vimeo_node(self, node):
     pass
+
 
 class Vimeo(Directive):
     has_content = True
@@ -90,7 +100,7 @@ class Vimeo(Directive):
     def run(self):
         if "aspect" in self.options:
             aspect = self.options.get("aspect")
-            m = re.match("(\d+):(\d+)", aspect)
+            m = _re_aspect.match(aspect)
             if m is None:
                 raise ValueError("invalid aspect ratio %r" % aspect)
             aspect = tuple(int(x) for x in m.groups())
@@ -98,7 +108,15 @@ class Vimeo(Directive):
             aspect = None
         width = get_size(self.options, "width")
         height = get_size(self.options, "height")
-        return [vimeo(id=self.arguments[0], aspect=aspect, width=width, height=height)]
+        return [
+            vimeo(
+                id=self.arguments[0],
+                aspect=aspect,
+                width=width,
+                height=height,
+                )
+             ]
+
 
 def setup(app):
     app.add_node(vimeo, html=(visit_vimeo_node, depart_vimeo_node))
