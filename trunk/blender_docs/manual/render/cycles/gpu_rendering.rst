@@ -46,7 +46,8 @@ OpenCL
 
 :abbr:`OpenCL (Open Computing Language)` is supported for GPU
 rendering with **AMD graphics cards**.
-We support graphics cards starting from HD 7xxx (:abbr:`GCN (Graphics Core Next)` architecture).
+We only support graphics cards with :abbr:`GCN (Graphics Core Next)` architecture (HD 7xxx and above).
+Not all HD 7xxx cards are GCN cards though, you can check if your card is `here <https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units>`__.
 
 Cycles requires recent AMD drivers to be installed, on all operating systems.
 
