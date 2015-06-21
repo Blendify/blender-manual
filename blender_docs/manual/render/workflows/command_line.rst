@@ -46,24 +46,29 @@ How to actually execute Blender from the command line depends on the platform an
 have installed Blender. Here are basic instructions for the different platforms.
 
 
-Windows
--------
+Linux
+-----
 
-Open the Command Prompt, go to the directory where Blender is installed,
-and then run the blender command.
+Open a terminal, then go to the directory where Blender is installed,
+and run the blender command like this.
 
-.. code-block:: bat
+.. code-block:: sh
 
-   cd c:\<blender installation directory>
+   cd <blender installation directory>
+   ./blender
+
+If you have Blender installed in your ``PATH``
+(usually when Blender is installed through a distribution package), you can simply run:
+
+.. code-block:: sh
+
    blender
-
-You can also add the Blender folder to your system ``PATH`` so that do you do not have to change to it each time.
 
 
 Mac OS X
 --------
 
-Open the Terminal application, go to the directory where Blender is installed,
+Open the terminal application, go to the directory where Blender is installed,
 and run the executable within the app bundle, with commands like this:
 
 .. code-block:: sh
@@ -86,24 +91,18 @@ If you then open a new terminal, the following command will work:
    blender
 
 
-Linux
------
+Windows
+-------
 
-Open a terminal, then go to the directory where Blender is installed,
-and run the blender command like this.
+Open the Command Prompt, go to the directory where Blender is installed,
+and then run the blender command.
 
-.. code-block:: sh
+.. code-block:: bat
 
-   cd <blender installation directory>
-   ./blender
-
-If you have Blender installed in your ``PATH``
-(usually when Blender is installed through a distribution package),
-you may be able to simply do this:
-
-.. code-block:: sh
-
+   cd c:\<blender installation directory>
    blender
+
+You can also add the Blender folder to your system ``PATH`` so that do you do not have to change to it each time.
 
 
 Examples
