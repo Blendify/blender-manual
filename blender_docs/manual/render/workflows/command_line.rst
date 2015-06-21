@@ -20,11 +20,18 @@ simply run:
 .. note::
 
    Arguments are executed in the order they are given!
+
    The following command won't work, since the output and extension is set after blender is told to render:
 
    .. code-block:: sh
 
       blender -b file.blend -a -x 1 -o //render
+
+   The following command will behave as expected.
+
+   .. code-block:: sh
+
+      blender -b file.blend -x 1 -o //render -a
 
    **Always position** ``-f`` **or** ``-a`` **as the last arguments.**
 
