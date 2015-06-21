@@ -45,7 +45,8 @@ all: FORCE
 	QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
 	$(SPHINXBUILD) -b html $(SPHINXOPTS) ./manual "$(BUILDDIR)/html"
 
-	@echo $(OPEN_CMD) $(shell pwd)"/$(BUILDDIR)/html/$(CONTENTS_HTML)"
+	@echo "To view, run:"
+	@echo "  "$(OPEN_CMD) $(shell pwd)"/$(BUILDDIR)/html/$(CONTENTS_HTML)"
 
 # NOTE: PDF is giving warnings, non-trivial to fix, disable for now.
 #~ pdf: FORCE
