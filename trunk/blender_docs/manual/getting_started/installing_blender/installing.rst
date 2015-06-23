@@ -11,8 +11,8 @@ Minimum Requirements
 Check if your system meets the
 `minimum or recommended requirements <http://www.blender.org/download/requirements/>`__.
 
-Always check that the graphics drivers are up to date and that OpenGL is well supported.
-Other Blender dependencies are already included in the binary and you do not need to worry
+Always check that the graphics drivers are up to date, and that OpenGL is well supported.
+Other Blender dependencies are already included in the binary, and you do not need to worry
 about those unless installing from source.
 
 Support for other hardware such as 3D mice and graphic tablets is covered later in
@@ -23,7 +23,7 @@ Download Blender
 ================
 
 
-The Blender Foundation distributes Blender in 3 different ways that you can choose from to better suit your needs.
+The Blender Foundation distributes Blender in 3 different ways that you can choose from, to better suit your needs.
 
 The options comprise binary packages for all the supported platforms and the source code. Within the binary packages,
 you can choose from a stable release or a daily build. The first has the benefit of being more reliable, the latter
@@ -39,8 +39,8 @@ through the `release notes <http://wiki.blender.org/index.php/Dev:Ref/Release_No
 
 `Daily Builds <http://builder.blender.org/download>`__
    This is a binary distribution of Blender that is updated daily to include the newest changes in development.
-   These versions are not as thoroughly tested as the stable version and might break, although they are official and
-   generally not highly experimental (there are branches for that).
+   These versions are not as thoroughly tested as the stable release, and might break, although they are official and
+   generally not highly experimental.
 
 
 `Build from Source <https://developer.blender.org/diffusion/B/>`__
@@ -52,12 +52,12 @@ through the `release notes <http://wiki.blender.org/index.php/Dev:Ref/Release_No
 
    Blender's source is available for reference and installation, with the following advantages:
 
-   - it is always up to date,
-   - allows access to any version or branch where a feature is being developed,
-   - can be freely customized.
+   - Blender is always up to date,
+   - it allows access to any version or branch where a feature is being developed,
+   - it can be freely customized.
 
-   Building Blender from source is not trivial as there are many dependencies involved. There are
-   `instructions <http://wiki.blender.org/index.php/Dev:Doc/Building_Blender>`__ available.
+   Building Blender from source is not trivial, as there are many steps involved. Here are the
+   `instructions <http://wiki.blender.org/index.php/Dev:Doc/Building_Blender>`__.
 
 
 Install Blender
