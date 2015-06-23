@@ -1,4 +1,3 @@
-
 *****************
 Particle Emission
 *****************
@@ -14,9 +13,9 @@ but you may also render these kind of particles as objects
 Options
 *******
 
-.. figure:: /images/Blender3D_ParticleSystem_EmissionSettings-2.5.jpg
+.. figure:: /images/particle_emission_settings.png
 
-   Image 2a: Settings for particle Emission.
+   Particle emission settings
 
 
 The buttons in the *Emission* panel control the way particles are emitted over time:
@@ -98,3 +97,10 @@ Grid
 
    Some modifiers like *Edge Split* break up the surface,
    in which case volume emission will not work correctly!
+
+Use Modifier Stack
+   Take any :doc:`Modifiers </modifiers/introduction>` above the particle modifier in the
+   :doc:`Modifier Stack </modifiers/the_stack>` into account when emitting particles.
+   
+   Note that particles may differ in the final render if these modifiers generate different geometry between
+   the viewport and render.
