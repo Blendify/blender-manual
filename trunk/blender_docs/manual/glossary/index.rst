@@ -302,13 +302,14 @@
       define a **closed non-self-intersecting volume** (see also :term:`non-manifold`).
       A manifold mesh is a mesh in which the structure of the connected
       faces in a closed volume will always point the normals (and their
-      surfaces) to the outside or to the inside of the mesh without any
-     overlaps. If you recalculate those normals, they will always point at
-     a predictable direction (To the outside or to the inside of the
-     volume). When working with non-closed volumes, a manifold mesh is a
-     mesh in which the normals will always define two different and
-     non-consecutive surfaces.
-     A manifold mesh will always define an even number of non overlapped surfaces.
+      surfaces) to the outside or to the inside of the mesh without any overlaps. 
+      If you recalculate those normals, they will always point at
+      a predictable direction (To the outside or to the inside of the
+      volume). 
+      When working with non-closed volumes, a manifold mesh is a
+      mesh in which the normals will always define two different and
+      non-consecutive surfaces.
+      A manifold mesh will always define an even number of non overlapped surfaces.
 
    Mesh
       Type of object consisting of :term:`vertices <vertex>`, :term:`edges <edge>` and :term:`faces <face>`.
