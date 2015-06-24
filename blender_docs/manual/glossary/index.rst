@@ -298,8 +298,17 @@
       A Logic brick can be a :term:`Sensor`, :term:`Controller` or :term:`Actuator`.
 
    Manifold
-      Manifold meshes, called also *water tight* meshes,
+      Manifold meshes, called also *water tight* meshes, 
       define a **closed non-self-intersecting volume** (see also :term:`non-manifold`).
+      A manifold mesh is a mesh in which the structure of the connected
+      faces in a closed volume will always point the normals (and their
+      surfaces) to the outside or to the inside of the mesh without any
+     overlaps. If you recalculate those normals, they will always point at
+     a predictable direction (To the outside or to the inside of the
+     volume). When working with non-closed volumes, a manifold mesh is a
+     mesh in which the normals will always define two different and
+     non-consecutive surfaces.
+     A manifold mesh will always define an even number of non overlapped surfaces.
 
    Mesh
       Type of object consisting of :term:`vertices <vertex>`, :term:`edges <edge>` and :term:`faces <face>`.
@@ -321,9 +330,18 @@
       This kind of geometry is not suitable for several types of operations,
       specially those where knowing the volume (inside/outside) of the object is important
       (refraction, fluids, booleans, or 3D printing, to name a few).
+      A non-manifold mesh is a mesh in which the structure of a
+      non-overlapped surface (based on it's connected faces) won't determine
+      the inside or the outside of a volume based on it's normals, defining
+      a  single surface for both sides, but ended with flipped normals.
+      When working with non-closed volumes, a non-manifold mesh will always
+      determine at least one discontinuity at the normal directions, either
+      by an inversion of a connected loop, or by an odd number of surfaces.
+      A non manifold mesh will always define an odd number of surfaces.
+
       There are several types of non-manifold geometry:
 
-      - Borders and holes (edges with only a single connected face), as faces have no thickness.
+      - Some borders and holes (edges with only a single connected face), as faces have no thickness.
       - Edges and vertices not belonging to any face (wire).
       - Edges connected to 3 or more faces (interior faces).
       - Vertices belonging to faces that are not adjoining (e.g. 2 cones sharing the vertex at the apex).
