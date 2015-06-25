@@ -298,14 +298,14 @@
       A Logic brick can be a :term:`Sensor`, :term:`Controller` or :term:`Actuator`.
 
    Manifold
-      Manifold meshes, called also *water tight* meshes, 
+      Manifold meshes, called also *water tight* meshes,
       define a **closed non-self-intersecting volume** (see also :term:`non-manifold`).
       A manifold mesh is a mesh in which the structure of the connected
       faces in a closed volume will always point the normals (and their
-      surfaces) to the outside or to the inside of the mesh without any overlaps. 
+      surfaces) to the outside or to the inside of the mesh without any overlaps.
       If you recalculate those normals, they will always point at
       a predictable direction (To the outside or to the inside of the
-      volume). 
+      volume).
       When working with non-closed volumes, a manifold mesh is a
       mesh in which the normals will always define two different and
       non-consecutive surfaces.
@@ -491,12 +491,16 @@
 
       Also called: **Subsurf**.
 
+   Texture
+      A texture specifies visual patterns on surfaces and simulates physical surface structure.
+   
    Title Safe
      Area of the screen visible on all devices. Place text and graphics inside this area to make sure they don't get
      cut off.
-
-   Texture
-      A texture specifies visual patterns on surfaces and simulates physical surface structure.
+     
+   Topology
+      Arrangement of *Vertices*, *Edges*, and *Faces* which define the shape of a mesh.
+      See :term:`vertex`, :term:`edge`, and :term:`face`.
 
    Topology
       TODO.

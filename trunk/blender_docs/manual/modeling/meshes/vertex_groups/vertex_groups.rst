@@ -278,7 +278,7 @@ You can find ungrouped vertices as follows:
 Keyboard Shortcuts
 ------------------
 
-.. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-pop-up.jpg
+.. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-pop-up.png
    :align: right
 
    Vertex Groups pop-up menu
