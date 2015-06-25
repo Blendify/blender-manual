@@ -498,6 +498,9 @@
    Texture
       A texture specifies visual patterns on surfaces and simulates physical surface structure.
 
+   Topology
+      TODO.
+
    Triangle
       It's a :term:`face` with exactly 3 :term:`vertices <vertex>`.
 
