@@ -65,10 +65,11 @@ check_syntax: FORCE
 	- rm rst_check_syntax.log
 
 check_structure: FORCE
-	- python3 tools/rst_check_structure.py --long > rst_check_structure.log
-	- @echo "Lines:" `cat rst_check.log  | wc -l`
-	- gvim --nofork -c "cfile rst_check_structure.log" -c "cope" -c "clast"
-	- rm rst_check_structure.log
+	- python3 tools/rst_check_structure.py --image
+#	- python3 tools/rst_check_structure.py --image > rst_check_structure.log
+#	- @echo "Lines:" `cat rst_check.log  | wc -l`
+#	- gvim --nofork -c "cfile rst_check_structure.log" -c "cope" -c "clast"
+#	- rm rst_check_structure.log
 
 gettext: FORCE
 	$(SPHINXBUILD) -b gettext $(I18NSPHINXOPTS) $(BUILDDIR)/locale
