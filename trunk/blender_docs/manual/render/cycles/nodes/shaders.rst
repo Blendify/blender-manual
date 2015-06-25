@@ -24,15 +24,15 @@ BSDF output
 
 .. list-table::
 
-   * - .. figure:: /images/Manual_cycles_nodes_bsdf_diffuse.png
+   * - .. figure:: /images/cycles_nodes_shader_diffuse_behavior.png
 
           Diffuse behavior
 
      -
 
-   * - .. figure:: /images/Manual_cycles_nodes_bsdf_diffuserender.jpg
+   * - .. figure:: /images/cycles_nodes_shader_diffuse.jpg
 
-     - .. figure:: /images/cycles_manual_materials_oren-nayar.jpg
+     - .. figure:: /images/cycles_nodes_shader_oren-nayar.jpg
 
 
 .. _cycles_shader_translucent:
@@ -51,11 +51,11 @@ BSDF output
    Translucent :abbr:`BSDF (Bidirectional scattering distribution function)` shader.
 
 
-.. figure:: /images/Manual_cycles_nodes_bsdf_translucent.png
+.. figure:: /images/cycles_nodes_shader_translucent_behavior.png
    :align: center
 
 
-.. figure:: /images/Manual_cycles_nodes_bsdf_translucentrender.jpg
+.. figure:: /images/cycles_nodes_shader_translucent.jpg
    :align: center
 
    Translucent Shader
@@ -86,10 +86,10 @@ BSDF output
 
    * - Sharp Glossy
      - Rough Glossy
-   * - .. figure:: /images/Manual_cycles_nodes_bsdf_glossy_sharp.png
-     - .. figure:: /images/Manual_cycles_nodes_bsdf_glossy.png
-   * - .. figure:: /images/Manual_cycles_nodes_bsdf_glossyrender.jpg
-     - .. figure:: /images/Manual_cycles_nodes_bsdf_glossyroughrender.jpg
+   * - .. figure:: /images/cycles_nodes_shader_glossy_sharp_behavior.png
+     - .. figure:: /images/cycles_nodes_shader_glossy_behavior.png
+   * - .. figure:: /images/cycles_nodes_shader_glossy.jpg
+     - .. figure:: /images/cycles_nodes_shader_glossyrough.jpg
 
 
 .. _cycles_shader_anisotropic:
@@ -127,11 +127,11 @@ BSDF output
 
 .. list-table::
 
-   * - .. figure:: /images/Anisotropic_rot0.jpg
+   * - .. figure:: /images/cycles_nodes_shader_anisotropic_rot0.jpg
 
          Anisotropic rotation on 0
 
-     - .. figure:: /images/Anisotropic_rot025.jpg
+     - .. figure:: /images/cycles_nodes_shader_anisotropic_rot025.jpg
 
          Anisotropic rotation on 0.25 (90- )
 
@@ -156,7 +156,7 @@ BSDF output
    Toon :abbr:`BSDF (Bidirectional scattering distribution function)` shader.
 
 
-.. figure:: /images/Cycles_mat_toon.jpg
+.. figure:: /images/cycles_nodes_shader_toon.jpg
 
    Toon Shader
 
@@ -181,18 +181,18 @@ BSDF output
 
 .. list-table::
 
-   * - .. figure:: /images/Manual_cycles_nodes_bsdf_transparent.png
+   * - .. figure:: /images/cycles_nodes_shader_transparent_behavior.png
           :align: center
 
           Transparent behaviour
 
      -
 
-   * - .. figure:: /images/Manual_cycles_nodes_bsdf_transparentrender.jpg
+   * - .. figure:: /images/cycles_nodes_shader_transparent.jpg
 
           Transparent Shader (pure white)
 
-     - .. figure:: /images/Manual_cycles_nodes_bsdf_transparentdarkrender.jpg
+     - .. figure:: /images/cycles_nodes_shader_transparentdark.jpg
 
           Transparent Shader (gray)
 
@@ -228,10 +228,10 @@ BSDF output
 
    * - Sharp Glass
      - Rough Glass
-   * - .. figure:: /images/Manual_cycles_nodes_bsdf_glass_sharp.png
-     - .. figure:: /images/Manual_cycles_nodes_bsdf_glass.png
-   * - .. figure:: /images/Manual_cycles_nodes_bsdf_glassrender.jpg
-     - .. figure:: /images/Manual_cycles_nodes_bsdf_glassroughrender.jpg
+   * - .. figure:: /images/cycles_nodes_shader_glass_sharp_behavior.png
+     - .. figure:: /images/cycles_nodes_shader_glass_behavior.png
+   * - .. figure:: /images/cycles_nodes_shader_glass.jpg
+     - .. figure:: /images/cycles_nodes_shader_glassrough.jpg
 
 
 .. _cycles_shader_refraction:
@@ -258,7 +258,7 @@ BSDF output
    Glossy :abbr:`BSDF (Bidirectional scattering distribution function)` shader.
 
 
-.. figure:: /images/Manual_cycles_nodes_bsdf_refraction.jpg
+.. figure:: /images/cycles_nodes_shader_refraction.jpg
 
    Refraction Shader.
 
@@ -283,11 +283,11 @@ BSDF output
    Velvet :abbr:`BSDF (Bidirectional scattering distribution function)` shader.
 
 
-.. figure:: /images/Manual_cycles_nodes_bsdf_velvet.png
+.. figure:: /images/cycles_nodes_shader_velvet_behavior.png
    :align: center
 
 
-.. figure:: /images/Manual_cycles_nodes_bsdf_velvetrender.jpg
+.. figure:: /images/cycles_nodes_shader_velvet.jpg
    :align: center
 
    The Velvet Shader
@@ -341,7 +341,7 @@ BSSRDF output
    :abbr:`BSSRDF (Bidirectional subsurface scattering distribution function)` shader.
 
 
-.. figure:: /images/Manual_cycles_nodes_bssrdf.jpg
+.. figure:: /images/cycles_nodes_shader_sss.jpg
 
    A skin-toned SSS shader with color radius: 1.0, 0.8, 0.5.
 
@@ -365,11 +365,11 @@ Emission output
 
 .. list-table::
 
-   * - .. figure:: /images/Cycles_shader_emission.jpg
+   * - .. figure:: /images/cycles_nodes_shader_emission.jpg
 
          Emission shader, with strength at ``1.0``
 
-     - .. figure:: /images/Manual_cycles_nodes_emission_bright.jpg
+     - .. figure:: /images/cycles_nodes_shader_emission_bright.jpg
 
          Emission shader, with strength at ``3.0``
 
@@ -409,16 +409,20 @@ Background output
 Holdout
 ^^^^^^^
 
-A holdout shader is useful for compositing, to create a "hole" in the image with zero alpha
-transparency where the object with this shader is located.
+The holdout shader creates a "hole" in the image with zero alpha
+transparency, which is useful for compositing (see :term:`alpha channel`).
+
+Note that the holdout shader can only create alpha when
+:menuselection:`Properties --> Render --> Film --> Transparent` is enabled. If it's disabled, the holdout shader will be
+black.
 
 Holdout output
    Holdout shader.
 
 
-.. figure:: /images/Manual_cycles_nodes_bsdf_holdoutrender.jpg
+.. figure:: /images/cycles_nodes_shader_holdout.jpg
 
-   The white area is a region with zero Alpha.
+   The checkered area is a region with zero alpha.
 
 
 .. _cycles_shader_ao:
@@ -437,7 +441,7 @@ AO output
    Ambient Occlusion shader.
 
 
-.. figure:: /images/Cycles_shader_ao.jpg
+.. figure:: /images/cycles_nodes_shader_ao.jpg
 
    White AO shader.
 
@@ -459,6 +463,6 @@ Shader output
    Mixed shader.
 
 
-.. figure:: /images/Manual_cycles_nodes_bsdf_mixrender.jpg
+.. figure:: /images/cycles_nodes_shader_mix.jpg
 
    A mix of a glossy and a diffuse shader makes a nice ceramic material.
