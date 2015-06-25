@@ -4,6 +4,7 @@
 ####################
 
 .. toctree::
+   :maxdepth: 2
 
    dopesheet.rst
    dopesheet/action.rst
