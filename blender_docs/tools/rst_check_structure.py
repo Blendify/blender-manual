@@ -107,7 +107,7 @@ def warn_images_post():
     l1 = [fn for fn in img_files_set - img_refs_set]
     l1.sort()
     for fn in l1:
-        print(fn)
+        print("svn rm --force manual/images/'" + fn + "'")
 
     print("\nLIST OF MISSING IMAGES:")
     print("=======================")
@@ -149,4 +149,3 @@ if __name__ == "__main__":
     else:
         print_help()
         print("No arguments passed")
-
