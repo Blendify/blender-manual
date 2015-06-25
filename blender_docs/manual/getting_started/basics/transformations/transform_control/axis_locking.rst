@@ -11,7 +11,7 @@ Description
    Axis locking
 
 
-:doc:`Transformations (translation/scale/rotation) </getting_started/basics/transformations/introduction>`in *Object*
+:doc:`Transformations (translation/scale/rotation) </getting_started/basics/transformations/introduction>` in *Object*
 and *Edit* mode, as well as extrusion in *Edit* mode) can be locked to particular axis relative to the current
 :doc:`transform orientation </getting_started/basics/transformations/transform_control/transform_orientations>`.
 By locking a transformation to a particular axis you are restricting transformations to a single dimension.
