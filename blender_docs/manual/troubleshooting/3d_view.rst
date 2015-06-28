@@ -44,7 +44,7 @@ OpenGL Occlusion Queries (User Preference)
 
    This option defaults *Automatic*, try setting this to *OpenGL Occlusion Queries*,
    since there is a significant performance difference under some configurations.
-OpenGL :term:`Virtex Buffer Objects <VBO>`
+OpenGL :term:`Vertex Buffer Objects <VBO>`
    See :menuselection:`User Preferences --> System --> VBOs`
 
    This uses a more optimal drawing method which may speed up selection.
