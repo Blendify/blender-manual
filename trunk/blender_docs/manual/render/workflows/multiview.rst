@@ -225,8 +225,6 @@ Off-Axis
    This is the ideal format since it is the one closest to how the human vision works.
 Parallel
    This method produces two parallel cameras that do not converge.
-   For the viewport stereo 3d preview a *Viewport Convergence Distance* is used.
-   For rendering this is not considered though.
    This method is common when combining real footage with rendered elements.
 Toe-in
    A less common approach is to rotate the cameras instead of shifting their frustum.
