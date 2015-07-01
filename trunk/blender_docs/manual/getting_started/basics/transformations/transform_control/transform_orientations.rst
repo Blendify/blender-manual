@@ -15,7 +15,7 @@ Transform Orientations
    | Hotkey:   :kbd:`Alt-Spacebar`
 
 
-.. figure:: /images/Orientations-Menu-2.5+.jpg
+.. figure:: /images/Orientations-Menu.jpg
 
    Transform orientations selection menu.
 
