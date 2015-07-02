@@ -97,11 +97,13 @@ def text_extract_help(text, args, static_strings):
     # args dicts
     args_short = {}
     args_long = {}
+    args_used = set()
+
     for (arg_short, arg_long), value in args.items():
         if arg_short is not None:
-            args_short[arg_short] = value
+            args_short[arg_short] = (arg_short, arg_long), value
         if arg_long is not None:
-            args_long[arg_long] = value
+            args_long[arg_long] = (arg_short, arg_long), value
 
     def args_get(arg):
         value = args_long.get(arg)
@@ -122,39 +124,86 @@ def text_extract_help(text, args, static_strings):
 
     # execute the code!
     other_vars = {
-        "BLEND_VERSION_STRING_FMT": "|VERSION| ",
+        "BLEND_VERSION_STRING_FMT": "Blender |BLENDER_VERSION| ",
         }
+
+
+    def write_arg(arg):
+        (arg_short, arg_long), arg_text = args_get(arg)
+        args_used.add((arg_short, arg_long))
+
+        # replacement table
+        arg_text = re.sub("\"\s*STRINGIFY_ARG\s*\(([a-zA-Z0-9_]+)\)\"", r"``\1``", arg_text)
+        arg_text = arg_text.replace('" STRINGIFY(BLENDER_MAX_THREADS) "', "64")
+        arg_text = arg_text.replace('" STRINGIFY(BLENDER_STARTUP_FILE) "', "startup.blend")
+        arg_text = arg_text.replace('" PY_ENABLE_AUTO', '\"')
+        arg_text = arg_text.replace('" PY_DISABLE_AUTO', ', (default).\"')
+
+        # print(arg_text)
+        arg_text = eval(arg_text, static_strings)
+        arg_text = arg_text.replace("\t", "   ")
+
+
+        # in place of more advanced formatting
+        arg_text = arg_text.replace(
+                "* ani_##_test.png becomes ani_01_test.png",
+                "\n   * ``ani_##_test.png`` becomes ``ani_01_test.png``"
+                )
+
+        text_rst.append("``" + "``, ``".join([w for w in (arg_short, arg_long) if w is not None]) + "`` ")
+        text_rst.append(arg_text + "\n")
+
 
     for l in body:
         if l.startswith("printf"):
             l = eval(l[7:].strip("();"), other_vars)
-            if l.strip("\n").endswith(":"):
+            if l.lstrip() == l and l.strip("\n").endswith(":"):
                 l = l.strip(":\n")
                 l = "\n\n" + l + "\n" + len(l) * '=' + "\n\n"
             else:
                 l = l.replace("\t", "   ")
+
             text_rst.append(l)
         elif l.startswith("BLI_argsPrintArgDoc("):
-            arg = l.split(",")[-1].strip(" );\n")
+            arg = l.split(",")[-1].strip(");\n")
             arg = eval(arg, {})
-
-            arg_text = args_get(arg)
-
-            # replacement table
-            arg_text = re.sub("\"\s*STRINGIFY_ARG\s*\(([a-zA-Z0-9_]+)\)\"", r"``\1``", arg_text)
-            arg_text = arg_text.replace('" STRINGIFY(BLENDER_MAX_THREADS) "', "64")
-            arg_text = arg_text.replace('" STRINGIFY(BLENDER_STARTUP_FILE) "', "startup.blend")
-            arg_text = arg_text.replace('" PY_ENABLE_AUTO', '\"')
-            arg_text = arg_text.replace('" PY_DISABLE_AUTO', ' (compiled as non-standard default)\"')
-
-            # print(arg_text)
-            arg_text = eval(arg_text, static_strings)
-            arg_text = arg_text.replace("\t", "   ")
-
-            text_rst.append(arg + " ")
-            text_rst.append(arg_text + "\n")
+            write_arg(arg)
+        elif l.startswith("BLI_argsPrintOtherDoc("):
+            items = list(args.items())
+            # sort as strings since we cant order (None <> str)
+            items.sort(key=lambda i: str(i[0]))
+            for key, value in items:
+                if key not in args_used:
+                    write_arg(key[0] or key[1])
 
     text_rst = "".join(text_rst)
+
+    # ------
+    # Post process (formatting)
+    # text_rst = re.split(r"\\n|[()]", text_rst)
+    text_rst = text_rst.splitlines()
+
+    for i, l in enumerate(text_rst):
+        # detect env var list
+        l_strip = l.lstrip()
+        if l_strip.startswith("$"):
+            l_strip, l_tail = l_strip.lstrip("$").split(" ", 1)
+            if l_strip.isupper():
+                l = ":%s: %s" % (l_strip, l_tail)
+            del l_tail
+        elif l_strip.startswith("#"):
+            indent = l[:len(l) - len(l_strip)]
+            l = "\n" + indent + ".. code-block:: sh\n\n" + indent + "   " + l.lstrip("# ") + "\n"
+        else:
+            # use "'" as "``", except when used as plural, eg "Python's"
+            l = re.sub("(?<![a-z])'|'(?!s)", "``", l)
+        del l_strip
+
+        text_rst[i] = l.rstrip(" ")
+
+    text_rst = "\n".join(text_rst)
+    # text_rst = text_rst.replace("\n\n\n\n", "\n\n\n")
+
     return text_rst
 
 
