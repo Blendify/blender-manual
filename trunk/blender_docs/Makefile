@@ -48,6 +48,14 @@ all: FORCE
 	@echo "To view, run:"
 	@echo "  "$(OPEN_CMD) $(shell pwd)"/$(BUILDDIR)/html/$(CONTENTS_HTML)"
 
+singlehtml: FORCE
+	# './' (input), './html/' (output)
+	QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
+	$(SPHINXBUILD) -b singlehtml $(SPHINXOPTS) ./manual "$(BUILDDIR)/singlehtml"
+
+	@echo "To view, run:"
+	@echo "  "$(OPEN_CMD) $(shell pwd)"/$(BUILDDIR)/single_html/$(CONTENTS_HTML)"
+
 # NOTE: PDF is giving warnings, non-trivial to fix, disable for now.
 #~ pdf: FORCE
 #~ 	QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
@@ -78,7 +86,7 @@ gettext: FORCE
 
 
 clean: FORCE
-	rm -rf "$(BUILDDIR)/html" "$(BUILDDIR)/latex"
+	rm -rf "$(BUILDDIR)/html" "$(BUILDDIR)/singlehtml" "$(BUILDDIR)/latex"
 
 
 # -----------------------------------------------------------------------------
