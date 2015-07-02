@@ -10,23 +10,9 @@ Help system
 
    | Mode:     All modes
    | Menu:     :menuselection:`Help`
-   | Hotkey:   Undefined - You can add one for your :doc:`Keymap </preferences/input>`
 
 
 Blender has a range of built-in and web-based Help options.
-
-The built in help options include:
-
-- A Menu with all of the Help Options including the Web based ones.
-  Some of them are also present in the *Splash Screen*.
-
-Other new features like:
-
-
-- The Blender Search (new feature).
-- Tooltips showing also the internal Python Operators (new feature),
-  when the user hovers the Mouse over a Button, a Menu,
-  Numeric Field or any Blender function that has a named Python Operator.
 
 
 General Web-based Help Options
@@ -45,7 +31,7 @@ General Web-based Help Options
 
 
 - :doc:`This is a link for the Official Blender Manual </contents>`,
-  in *Wiki* format, which you are now reading.
+   which you are now reading.
 - `Release Log <http://www.blender.org/development/release-logs/>`__ -
   The release notes on the Web for the current Blender version.
 - `Blender Website <http://www.blender.org/>`__ -
@@ -66,14 +52,14 @@ General Web-based Help Options
 Programming Options
 ===================
 
-- `Python 2.6X API Reference <http://www.blender.org/documentation/blender_python_api_2_71_release/>`__ -
+- `Python API Reference <http://www.blender.org/documentation/250PythonDoc>`__ -
   Python application programming interface (API) that Blender and
   :doc:`Python </introduction/installing_blender/python>` use to communicate with each other.
   Useful for the Blender Game Engine, Customizing, and other scripting.
 
 Access from :menuselection:`Help --> Operator Cheat Sheet`
 
-Creates the ``OperatorList.txt`` file, which you can access in the *Text Editor*.
+Creates the ``OperatorList.txt`` text-block, which you can access in the *Text Editor*.
 You can also use Blender Search to generate the file. The text will list the available Python operators.
 
 While Blender is generating this list, the *Info Window* will change,
