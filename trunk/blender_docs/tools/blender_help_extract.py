@@ -1,8 +1,11 @@
 import os
 import re
 
+# This script extracts the '--help' message from Blender's source code,
+# using primitive regex parsing.
+#
 # eg:
-# python blender_help_extract.py /src/blender/source/creator/creator.c command_line_args.rst
+# python tools/blender_help_extract.py /src/blender/source/creator/creator.c manual/advanced/command_line.rst
 
 
 def text_remove_comments(text):
