@@ -202,7 +202,7 @@ def text_extract_help(text, args, static_strings):
             l = "\n" + indent + ".. code-block:: sh\n\n" + indent + "   " + l.lstrip("# ") + "\n"
         else:
             # use "'" as "``", except when used as plural, eg "Python's"
-            l = re.sub("(?<![a-z])'|'(?!s)", "``", l)
+            l = re.sub("(?<![a-z])'|'(?![st])", "``", l)
         del l_strip
 
         text_rst[i] = l.rstrip(" ")
