@@ -69,7 +69,7 @@ Animation Playback Options
 ``-a`` <options> <file(s)>
    Playback <file(s)>, only operates this way when not running in background.
       -p <sx> <sy>   Open with lower left corner at <sx>, <sy>
-      -m      Read from disk (Don``t buffer)
+      -m      Read from disk (Don't buffer)
       -f <fps> <fps-base>      Specify FPS to start with
       -j <frame>   Set frame step to <frame>
       -s <frame>   Play from <frame>
@@ -249,9 +249,9 @@ Argument Order
 
    .. code-block:: sh
 
-      blender --background test.blend --render-frame 1 --render-output /tmp
+      blender --background test.blend --render-frame 1 --render-output '/tmp'
 
-   ...will not render to /tmp because ``--render-frame 1`` renders before the output path is set
+   ...will not render to ``/tmp`` because ``--render-frame 1`` renders before the output path is set
 
    .. code-block:: sh
 
