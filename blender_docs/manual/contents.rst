@@ -34,6 +34,7 @@ Sections
    Game Engine <game_engine/index.rst>
    Extending Blender <extensions/index.rst>
    User Preferences <preferences/index.rst>
+   Advanced <advanced/index.rst>
    Troubleshooting <troubleshooting/index.rst>
    glossary/index.rst
 
