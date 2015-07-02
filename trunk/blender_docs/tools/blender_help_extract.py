@@ -104,6 +104,12 @@ def text_extract_help(text, args, static_strings):
             args_short[arg_short] = (arg_short, arg_long), value
         if arg_long is not None:
             args_long[arg_long] = (arg_short, arg_long), value
+    # there is some overlap in short/long args, second pass to fix
+    # by assigning long-only
+    for (arg_short, arg_long), value in args.items():
+        if arg_short is not None:
+            if arg_long is None:
+                args_short[arg_short] = (arg_short, arg_long), value
 
     def args_get(arg):
         value = args_long.get(arg)
@@ -202,7 +208,7 @@ def text_extract_help(text, args, static_strings):
         text_rst[i] = l.rstrip(" ")
 
     text_rst = "\n".join(text_rst)
-    # text_rst = text_rst.replace("\n\n\n\n", "\n\n\n")
+    text_rst = text_rst.replace("\n\n\n\n", "\n\n\n")
 
     return text_rst
 

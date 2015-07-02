@@ -7,7 +7,6 @@ Command Line Arguments
 Blender |BLENDER_VERSION| Usage: blender [args ...] [file] [args ...]
 
 
-
 Render Options
 ==============
 
@@ -51,7 +50,6 @@ Render Options
    [1-64], 0 for systems processor count.
 
 
-
 Format Options
 ==============
 
@@ -65,13 +63,17 @@ Format Options
    Set option to add the file extension to the end of the file
 
 
-
 Animation Playback Options
 ==========================
 
-``-a``, ``--render-anim``
-   Render frames from start to end (inclusive)
-
+``-a`` <options> <file(s)>
+   Playback <file(s)>, only operates this way when not running in background.
+      -p <sx> <sy>   Open with lower left corner at <sx>, <sy>
+      -m      Read from disk (Don``t buffer)
+      -f <fps> <fps-base>      Specify FPS to start with
+      -j <frame>   Set frame step to <frame>
+      -s <frame>   Play from <frame>
+      -e <frame>   Play until <frame>
 
 
 Window Options
@@ -89,7 +91,6 @@ Window Options
    Do not use native pixel size, for high resolution displays (MacBook ``Retina``)
 
 
-
 Game Engine Specific Options
 ============================
 
@@ -98,7 +99,6 @@ Game Engine Specific Options
    -g vertexarrays      Use Vertex Arrays for rendering (usually faster)
    -g nomipmap      No Texture Mipmapping
    -g linearmipmap      Linear Texture Mipmapping instead of Nearest (default)
-
 
 
 Python Options
@@ -119,7 +119,6 @@ Python Options
    Run blender with an interactive console
 ``--addons``
    Comma separated list of addons (no spaces)
-
 
 
 Debug Options
@@ -168,7 +167,6 @@ Debug Options
    Disable the crash handler
 
 
-
 Misc Options
 ============
 
@@ -207,8 +205,6 @@ Misc Options
 Other Options
 =============
 
-``-a``, ``--render-anim``
-   Render frames from start to end (inclusive)
 ``/?``
    Print this help text and exit (windows only)
 ``--debug-freestyle``
@@ -219,7 +215,6 @@ Other Options
    Use new dependency graph
 ``--verbose`` <verbose>
    Set logging verbosity level.
-
 
 
 Experimental features
@@ -247,7 +242,6 @@ Argument Parsing
    ...will ignore ``8`` because there is no space between the ``-f`` and the frame value
 
 
-
 Argument Order
 ==============
 
@@ -270,7 +264,6 @@ Argument Order
       blender --background test.blend --render-output /tmp --render-frame 1
 
    ...works as expected.
-
 
 
 Environment Variables
