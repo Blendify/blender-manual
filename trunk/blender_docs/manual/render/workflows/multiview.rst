@@ -11,6 +11,10 @@ file that was made for monoscopic rendering and transform it in stereo-3d ready.
 
    Creature Factory 2 by Andy Goralczyk Rendered in Stereo 3D (anaglyph)
 
+.. note::
+
+   Multi-View drawing requires capable graphics card and drivers with *Triple Buffer* support.
+   If the *Automatic* mode doesn't work, set the *Window Draw Method* in the :doc:`System User Preferences</preferences/system>`.
 
 Introduction
 ============
