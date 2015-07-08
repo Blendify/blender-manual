@@ -82,9 +82,7 @@ chains longer than *Min 2D Length* and/or shorter than *Max 2D Length*.
 
 
 Caps
-
 ----
-
 
 You can choose between three types of line caps:
 
@@ -125,4 +123,5 @@ then the corresponding dash is ignored even if it has a non-zero value.
 
 Dashes are treated as separate strokes, meaning that you can apply line caps,
 as well as color, alpha and thickness modifiers.
+
 ..    Comment: <!--The image below shows a few examples of dashed lines on the default cube.--> .

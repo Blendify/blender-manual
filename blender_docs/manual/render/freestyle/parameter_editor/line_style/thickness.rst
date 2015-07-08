@@ -3,13 +3,11 @@
 Thickness
 *********
 
+In this tab you control the thickness of your strokes.
+
 .. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Thickness.jpg
    :width: 300px
-
-   Line Style Thickness UI
-
-
-In this tab you control the thickness of your strokes.
+   :align: right
 
 Base Thickness
    The base thickness for this line style.
@@ -24,7 +22,7 @@ Thickness Position
    Outside
       The strokes are drawn outside the object boundary.
    Relative
-      This allows you to specify the relative position by a number between **0.0** (inside) and **1.0** (outside),
+      This allows you to specify the relative position by a number between ``0.0`` (inside) and ``1.0`` (outside),
       in the *Thickness Ratio* numeric field just below.
 
 The thickness position options are applied only to strokes of edge types
@@ -49,32 +47,28 @@ Influence
 Along Stroke
 ------------
 
-.. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Thickness_Along_Stroke.jpg
-   :width: 300px
-
-   Line Style Thickness's Along Stroke modifier
-
-
 The *Along Stroke* modifier alters the base thickness with a new one from either a
 linear progression or a custom curve, mapped along each stroke's length. In other words,
 it applies the selected progression along each stroke.
 
+.. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Thickness_Along_Stroke.jpg
+   :width: 300px
+   :align: center
+
 Mapping
-   Either a linear progression (from **0.0** to **1.0**, which may be inverted with the *Invert* option),
+   Either a linear progression (from ``0.0`` to ``1.0`` which may be inverted with the *Invert* option),
    or a custom mapping curve.
 
 
 Calligraphy
 -----------
 
-.. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Thickness_Calligraphy.jpg
-   :width: 300px
-
-   Line Style Thickness's Calligraphy modifier
-
-
 The *Calligraphy* modifier mimics some broad and flat pens for calligraphy.
 It generates different thickness based on the orientation of the stroke.
+
+.. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Thickness_Calligraphy.jpg
+   :width: 300px
+   :align: right
 
 Orientation
    The angle (orientation) of the virtual drawing tool, from the vertical axis of the picture.
@@ -97,18 +91,16 @@ Min Thickness and Max Thickness
 Distance from Camera
 --------------------
 
-.. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Thickness_Distance_From_Camera.jpg
-   :width: 300px
-
-   Line Style Thickness's Distance From Camera modifier
-
-
 The *Distance from Camera* modifier alters the base thickness with a new one from
 either a linear progression or a custom curve,
 using the distance to the active camera as the parameter.
 
+.. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Thickness_Distance_From_Camera.jpg
+   :width: 300px
+   :align: right
+
 Mapping
-   Either a linear progression (from **0.0** to **1.0**, which may be inverted with the *Invert* option),
+   Either a linear progression (from ``0.0`` to ``1.0`` which may be inverted with the *Invert* option),
    or a custom mapping curve.
 
 Range Min and Range Max
@@ -126,21 +118,19 @@ Fill Range by Selection
 Distance from Object
 --------------------
 
-.. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Thickness_Distance_From_Object.jpg
-   :width: 300px
-
-   Line Style Thickness's Distance from Object modifier
-
-
 The *Distance from Object* modifier alters the base thickness with a new one from
 either a linear progression or a custom curve,
 using the distance to a given object as parameter.
+
+.. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Thickness_Distance_From_Object.jpg
+   :width: 300px
+   :align: right
 
 Target
    The object to measure distance from.
 
 Mapping
-   Either a linear progression (from **0.0** to **1.0**, which may be inverted with the *Invert* option),
+   Either a linear progression (from ``0.0`` to ``1.0`` which may be inverted with the *Invert* option),
    or a custom mapping curve.
 
 Range Min and Range Max
@@ -157,22 +147,121 @@ Fill Range by Selection
 Material
 --------
 
-.. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Thickness_Material.jpg
-   :width: 300px
-
-   Line Style Thickness's Material modifier
-
-
 The *Material* modifier alters the base thickness with a new one taken from the
 current material under the stroke.
 
 You can use various properties of the materials, among which some are multi-components (i.e.
 give RGB results). In that case, the mean value will be used.
 
+.. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Thickness_Material.jpg
+   :width: 300px
+   :align: right
+
 Mapping
-   Either a linear progression (from **0.0** to **1.0**, which may be inverted with the *Invert* option),
+   Either a linear progression (from ``0.0`` to ``1.0`` which may be inverted with the *Invert* option),
    or a custom mapping curve. Note the linear non-inverted option is equivalent to "do nothing",
    as original values from materials are already in the [0.0, 1.0] range...
 
 If used with the *Split by Material* option in the *Stroke* tab,
 the result will not be blurred between materials along the strokes.
+
+
+Noise
+-----
+
+.. figure:: /images/render_freestyle_geometry_simplification.png
+   :width: 400px
+   :align: center
+
+   Effect generated with a noise thickness modifier using asymmetric thickness.
+
+The *Noise* modifier uses a pseudo-random number generator to variably distribute thickness along the stroke. 
+
+.. figure:: /images/render_freestyle_ui_thickness_noise.png
+   :width: 300px
+   :align: right
+
+Min Thickness and Max Thickness
+   The minimum and maximum assigned thickness.
+
+Asymmetric 
+   Allows the thickness to be distributed unevenly at every point. Internally, the stroke is represented as a 
+   backbone with a thickness to the right and left side. All other thickness shaders make sure that the left 
+   and right thickness values are equal. For the Noise shader however, a meaningful (and good-looking) result
+   can be created by assigning different values to either side of the backbone. 
+
+
+Tangent 
+-------
+
+This modifier bases its effect on the traveling direction of the stroke evaluated at the stroke's vertices.
+
+.. figure:: /images/render_freestyle_ui_thickness_tangent.png
+   :width: 300px
+   :align: right
+
+Min Thickness and Max Thickness
+   The minimum and maximum assigned thickness.
+
+Mapping
+   Either a linear progression (from *Min Thickness* to *Max Thickness*, which may be inverted with the 
+   *Invert* option), or a custom mapping curve (on the same range).
+
+Min Angle and Max Angle 
+   The range of input values to the mapping. Out-of-range input values will be clamped by the Min and Max angles 
+   and their corresponding thickness values.
+
+
+3D Curvature 
+------------
+
+A modifier base on the `radial curvature <https://en.wikipedia.org/wiki/Radius_of_curvature_%28applications%29>`__
+of the underlying surface. 
+
+For the curvature to be calculated (and therefore for this modifier to have any effect), the *Face Smoothness* 
+option has to be turned on and the object needs to have *Smooth Shading*. 
+
+.. figure:: /images/render_freestyle_ui_thickness_curvature3d.png
+   :width: 300px
+   :align: right
+
+Min Thickness and Max Thickness
+   The minimum and maximum assigned thickness.
+
+Mapping
+   Either a linear progression (from *Min Thickness* to *Max Thickness*, which may be inverted with the *Invert* 
+   option), or a custom mapping curve (on the same range).
+
+Min Curvature and Max Curvature 
+   The limits of the mapping of the Min and Max Thickness.  
+   If the current point of the stroke is at *Min Curvature* or less from the target,
+   it will take the start thickness of the mapping, and conversely,
+   if it is at *Max Curvature* or more from the target, it will take the end thickness of the mapping.
+
+
+Crease Angle 
+------------
+
+.. figure:: /images/render_freestyle_thickness_crease_angle.png
+   :width: 400px
+   :align: center
+
+   Crease Angle modifier demo by T.K.
+   `File:Render_freestyle_modifier_crease_angle.blend
+   <http://wiki.blender.org/uploads/b/b4/Render_freestyle_modifier_crease_angle.blend>`__
+
+A modifier based on the Crease Angle (angle between two adjacent faces). If a stroke segment doesn't lie on a crease, 
+(the edge doesn't have the `Crease Angle nature
+<http://www.blender.org/api/blender_python_api_2_75_0/freestyle.types.html#freestyle.types.Nature>`__)
+it's values are not touched by this modifier. 
+
+.. figure:: /images/render_freestyle_ui_thickness_crease_angle.png
+   :width: 300px
+   :align: right
+
+Min Thickness and Max Thickness
+   The minimum and maximum assigned thickness.
+
+Mapping
+   Either a linear progression (from *Min Thickness* to *Max Thickness*, which may be inverted with the *Invert* 
+   option), or a custom mapping curve (on the same range).
