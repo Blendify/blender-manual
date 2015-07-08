@@ -73,8 +73,8 @@ The Big Picture
    block diagram of Freestyle view map and processes
 
 
-Known Limitations and issues
-============================
+Known Limitations
+=================
 
 - FreeStyle is only available for the Blender Internal renderer.
 - Highly memory demanding: All mesh objects in a render layer are loaded at once.

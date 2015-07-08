@@ -42,12 +42,14 @@ the Blender Python API reference manual for the full detail of style module cons
           :width: 300px
 
           By T.K. using the Python Scripting mode
+
           (`File:Turning_Pages.zip <http://wiki.blender.org/index.php/File:Turning_Pages.zip>`__, CC0)
 
      - .. figure:: /images/Sketchy_Broken_Topology.jpg
           :width: 300px
 
           By T.K. using the Python Scripting mode
+
           (`File:Lily_Broken_Topology.zip <http://wiki.blender.org/index.php/File:Lily_Broken_Topology.zip>`__, CC0)
 
 
@@ -58,15 +60,16 @@ A style module is a piece of code responsible for the stylization of Freestyle l
 The input of a style module is a set of feature edges called view map (ViewMap).
 The output is a set of stylized lines also referred to as strokes. A style module is
 structured as a pipeline of operations that allow for building strokes from the input edges
-within the view map. There are five kinds of operations
-(corresponding operator functions in parentheses):
+within the view map.
+
+There are five kinds of operations (listed with corresponding operator functions):
 
 
-- Selection (Operators.select())
-- Chaining (Operators.chain(), Operators.bidirectional_chain())
-- Splitting (Operators.sequential_split(), Operators.recursive_split())
-- Sorting (Operators.sort())
-- Stroke creation (Operators.create())
+- Selection ``Operators.select()``
+- Chaining ``Operators.chain(), Operators.bidirectional_chain()``
+- Splitting ``Operators.sequential_split(), Operators.recursive_split()``
+- Sorting ``Operators.sort()``
+- Stroke creation ``Operators.create()``
 
 The input view map is populated with a set of ViewEdge objects. The selection operation is
 used to pick up ViewEdges of interest to artists based on user-defined selection conditions
@@ -95,8 +98,7 @@ The selection operator goes through every element of the active set and keeps on
 satisfying a certain predicate. The Operators.select() method takes as the argument a unary
 predicate that works on any Interface1D that represents a 1D element. For example:
 
-::
-
+.. code-block:: python
 
    Operators.select(QuantitativeInvisibilityUP1D(0))
 
@@ -136,8 +138,7 @@ the chaining will propagate in the two directions from the starting edge.
 
 The following is a code example of bidirectional chaining:
 
-::
-
+.. code-block:: python
 
    Operators.bidirectional_chain(ChainSilhouetteIterator(),
    NotUP1D(QuantitativeInvisibilityUP1D(0)))
@@ -172,8 +173,7 @@ Every time the predicate is satisfied, the chain is split into two chains.
 At the end of the sequential split operation,
 the active set of chains is set to the new chains.
 
-::
-
+.. code-block:: python
 
    Operators.sequentialSplit(TrueUP0D(), 2)
 
@@ -190,8 +190,7 @@ function. The Chain is then split into two at that point.
 This process is recursively repeated on each of the two new Chains,
 until the input Chain satisfies a user-specified stopping condition.
 
-::
-
+.. code-block:: python
 
    func = Curvature2DAngleF0D()
    Operators.recursive_split(func, NotUP1D(HigherLengthUP1D(5)), 5)
@@ -210,8 +209,7 @@ The sorting operator (Operators::sort()) arranges the stacking order of active 1
 takes as argument a binary predicate used as a "smaller than" operator to order two 1D
 elements.
 
-::
-
+.. code-block:: python
 
    Operators.sort(Length2DBP1D())
 
@@ -236,14 +234,13 @@ selection on the set of chains.
 A Chain that doesn't satisfy the condition won't lead to a Stroke. The second input is a list
 of Shaders that will be responsible for the shading of each built stroke.
 
-::
-
+.. code-block:: python
 
    shaders_list = [
-   SamplingShader(5.0),
-   ConstantThicknessShader(2),
-   ConstantColorShader(0.2,0.2,0.2,1),
-   ]
+       SamplingShader(5.0),
+       ConstantThicknessShader(2),
+       ConstantColorShader(0.2,0.2,0.2,1),
+       ]
    Operators.create(DensityUP1D(8,0.1, IntegrationType.MEAN), shaders_list)
 
 
@@ -270,27 +267,31 @@ base classes and overriding appropriate methods. See the reference manual entrie
 following base classes for more information on the user-scriptable constructs.
 
 
-- UnaryPredicate0D
-- UnaryPredicate1D
-- BinaryPredicate0D
-- BinaryPredicate1D
-- UnaryFunction0DDouble
-- UnaryFunction0DEdgeNature
-- UnaryFunction0DFloat
-- UnaryFunction0DId
-- UnaryFunction0DMaterial
-- UnaryFunction0DUnsigned
-- UnaryFunction0DVec2f
-- UnaryFunction0DVec3f
-- UnaryFunction0DVectorViewShape
-- UnaryFunction0DViewShape
-- UnaryFunction1DDouble
-- UnaryFunction1DEdgeNature
-- UnaryFunction1DFloat
-- UnaryFunction1DUnsigned
-- UnaryFunction1DVec2f
-- UnaryFunction1DVec3f
-- UnaryFunction1DVectorViewShape
-- UnaryFunction1DVoid
-- ViewEdgeIterator
-- StrokeShader
+
+.. hlist::
+   :columns: 2
+
+   - UnaryPredicate0D
+   - UnaryPredicate1D
+   - BinaryPredicate0D
+   - BinaryPredicate1D
+   - UnaryFunction0DDouble
+   - UnaryFunction0DEdgeNature
+   - UnaryFunction0DFloat
+   - UnaryFunction0DId
+   - UnaryFunction0DMaterial
+   - UnaryFunction0DUnsigned
+   - UnaryFunction0DVec2f
+   - UnaryFunction0DVec3f
+   - UnaryFunction0DVectorViewShape
+   - UnaryFunction0DViewShape
+   - UnaryFunction1DDouble
+   - UnaryFunction1DEdgeNature
+   - UnaryFunction1DFloat
+   - UnaryFunction1DUnsigned
+   - UnaryFunction1DVec2f
+   - UnaryFunction1DVec3f
+   - UnaryFunction1DVectorViewShape
+   - UnaryFunction1DVoid
+   - ViewEdgeIterator
+   - StrokeShader
