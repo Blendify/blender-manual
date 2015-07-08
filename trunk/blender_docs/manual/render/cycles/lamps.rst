@@ -9,7 +9,7 @@ The difference is that they are not directly visible in the rendered image,
 and can be more easily managed as objects of their own type.
 
 Type
-   Currently **Point**, **Spot**, **Area** and **Sun** lamps are supported. Hemi lamps are not supported,
+   Currently *Point*, *Spot*, *Area* and *Sun* lamps are supported. *Hemi* lamps are not supported,
    and will be rendered as point and sun lamps respectively, but they may start working in the future,
    so it's best not to enable them to preserve compatibility.
 
@@ -46,9 +46,13 @@ Area lamps emit light from a square or rectangular area with a Lambertian distri
 Light Portals
 -------------
 
-Area lamps can also function as light portals to help sample the environment light, and significantly reduce noise in interior scenes. Note that rendering with portals is usually slower, but as it converges more quickly, less samples are required.
+Area lamps can also function as light portals to help sample the environment light,
+and significantly reduce noise in interior scenes.
+Note that rendering with portals is usually slower, but as it converges more quickly, less samples are required.
 
-Light portals work by enabling the Portal option, and placing areas lamps in windows, door openings, and any place where light will enter the interior.
+Light portals work by enabling the Portal option, and placing areas lamps in windows,
+door openings, and any place where light will enter the interior.
+
 
 Sun Lamp
 ========

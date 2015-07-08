@@ -269,7 +269,7 @@ Workflow For Absolute Shape Keys
 - Drag the Evaluation Time slider to make its value vary from 10 to 30.
 
 
-.. figure:: /images/Doc_Absolute_SK_Workflow_7.GIF
+.. figure:: /images/Doc_Absolute_SK_Workflow_7.gif
 
 
 More Details On Absolute Shape Keys

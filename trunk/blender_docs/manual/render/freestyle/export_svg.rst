@@ -12,9 +12,11 @@ SVG exporting for Freestyle is available through an addon.
    An example of a .svg result produced by the Freestyle SVG Exporter.
    Model by `Blendergoodies <http://www.blendswap.com/blends/view/76715>`__
 
-This addon can be enabled via *User Preferences* > *Addons* > *Render:Freestyle SVG Exporter*. The GUI for the exporter
-should now be visible in the render tab of the properties window. The exported .svg file is written to the default 
+This addon can be enabled via *User Preferences* > *Addons* > *Render:Freestyle SVG Exporter*.
+The GUI for the exporter should now be visible in the render tab of the properties window.
+The exported .svg file is written to the default 
 output path (*Properties* > *Render* > *Output*).
+
 
 Options
 =======
@@ -26,16 +28,13 @@ Options
 Mode
    Option between Frame and Animation. Frame will render a single frame, Animation will bundle all rendered frames 
    into a single .svg file. 
-
 Split at Invisible
    By default the exporter won't take invisible vertices into account and export them like they are visible. 
    Some stroke modifiers, like Blueprint, mark vertices as invisible to achieve a certain effect. Enabling this 
    option will make the paths split when encountering an invisible vertex, which leads to a better result. 
-
 Fill Contours
    The contour of objects is filled with their material color. Note that this features is somewhat unstable - 
    especially with animations.
-
 Stroke Cap Style
    Defines the style the stroke caps will have in the SVG output. 
 
