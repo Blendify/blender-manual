@@ -100,7 +100,8 @@ Below is a comparison between Multiple Importance Sample Off and On - both image
           Multiple Importance Sample On
 
 
-For interior scenes, noise can be significantly reduce by setting up area lamps as :doc:`light portals </render/cycles/lamps>`.
+For interior scenes, noise can be significantly reduce by
+setting up area lamps as :doc:`light portals </render/cycles/lamps>`.
 
 .. list-table::
 

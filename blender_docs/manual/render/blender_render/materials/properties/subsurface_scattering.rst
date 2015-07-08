@@ -120,8 +120,8 @@ IOR
    Higher values means that light falls off faster.
    The effect is quite subtle and changes the distribution function only a little bit.
    By the examination of many different materials, values of **1.3** to **1.5**
-   have been found to work well for most materials. If you know the exact material you are trying to simulate, see :ref:`transparency_ior_common`.
-
+   have been found to work well for most materials.
+   If you know the exact material you are trying to simulate, see :ref:`transparency_ior_common`.
 Scale
    The scale of your object, in Blender units, across which you want the scattering effect to take place.
    Scale *1.0* means **1** Blender unit equals **1** millimeter,

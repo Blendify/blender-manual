@@ -11,7 +11,7 @@ Options
 
 .. figure:: /images/Doc_Manual_BGE_Game_Actuator_Steering_-_Steering_Panel.jpg
 
-	Steering Actuator Panel
+   Steering Actuator Panel
 
 
 Behavior:
@@ -37,41 +37,31 @@ Navigation Mesh Object:
    * Properties Window → Scene context → Navigation mesh object panel → Build navigation mesh
 
 
-Dist:
+Dist
     The maximum distance for the game object approach the Target Object.
-
-
-Velocity:
+Velocity
     The velocity used to seek the Target Object.
-
-
-Acceleration:
+Acceleration
     The maximum acceleration to use when seeking the Target Object.
-
-
-Turn Speed:
+Turn Speed
     The maximum turning speed to use when seeking the Target Object. 
-
-
 Facing:
     Set a game object axis that always faces the Target Object.
-
-
-Axis:
+Axis
     The game object axis that always faces the Target Object.
     Options are: Positive (X, Y, Z) and Negative (- X, - Y, -Z).
-
-Axis N:
+Axis N
     Use the Normal of the Navigation Mesh to align the up vector of the game object. 
 
 
 Self Terminated:
-    
-Disabled:
-    Stops moving toward the Target Object once it reaches the maximum distance to approach the Target Object.  Will follow the Target Object if it moves further away than the maximum distance.
 
-Enabled:
-    Stops moving toward the Target Object once it reaches the maximum distance to approach the Target Object.  Won't follow even if the Target Object moves further away than the maximum distance. 
-
-Visualize:
-    This checkbox let the user specify whether to show or not the debug informations of the actuator. It is also necessary to enable Debug Properties in the Display menu of the render context. 
+Disabled
+    Stops moving toward the Target Object once it reaches the maximum distance to approach the Target Object.
+    Will follow the Target Object if it moves further away than the maximum distance.
+Enabled
+    Stops moving toward the Target Object once it reaches the maximum distance to approach the Target Object.
+    Won't follow even if the Target Object moves further away than the maximum distance. 
+Visualize
+    This checkbox let the user specify whether to show or not the debug informations of the actuator.
+    It is also necessary to enable Debug Properties in the Display menu of the render context. 
