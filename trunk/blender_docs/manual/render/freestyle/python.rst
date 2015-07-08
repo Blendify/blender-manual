@@ -96,19 +96,18 @@ Selection
 
 The selection operator goes through every element of the active set and keeps only the ones
 satisfying a certain predicate. The Operators.select() method takes as the argument a unary
-predicate that works on any Interface1D that represents a 1D element. For example:
+predicate that works on any ``Interface1D`` that represents a 1D element. For example:
 
 .. code-block:: python
 
    Operators.select(QuantitativeInvisibilityUP1D(0))
 
 
-This selection operation uses the QuantitativeInvisibilityUP1D predicate to select only the
-visible ViewEdge (more precisely, those whose quantitative invisibility is equal to 0). The
-selection operator is intended to selectively apply the style to a fraction of the active 1D
-elements.
+This selection operation uses the ``QuantitativeInvisibilityUP1D`` predicate to select only the
+visible ViewEdge (more precisely, those whose quantitative invisibility is equal to 0).
+The selection operator is intended to selectively apply the style to a fraction of the active 1D elements.
 
-It is noted that QuantitativeInvisibilityUP1D is a class implementing the predicate that tests
+It is noted that ``QuantitativeInvisibilityUP1D`` is a class implementing the predicate that tests
 line visibility, and the Operators.select()
 method takes an instance of the predicate class as argument. The testing of the predicate for
 a given 1D element is actually done by calling the predicate instance, that is,
@@ -126,14 +125,14 @@ the future strokes. The idea is to implement an iterator to traverse the ViewMap
 marching along ViewEdges. The iterator defines a chaining rule that determines the next
 ViewEdge to follow at a given vertex (see ViewEdgeIterator).
 Several such iterators are provided as part of the Freestyle Python API
-(see ChainPredicateIterator and ChainSilhouetteIterator).
-Custom iterators can be defined by inheriting the ViewEdgeIterator class. The chaining
-operator also takes as argument a UnaryPredicate working on Interface1D as a stopping
-criterion. The chaining stops when the iterator has reached a ViewEdge satisfying this
+(see ``ChainPredicateIterator`` and ``ChainSilhouetteIterator``).
+Custom iterators can be defined by inheriting the ViewEdgeIterator class.
+The chaining operator also takes as argument a UnaryPredicate working on ``Interface1D`` as a stopping criterion.
+The chaining stops when the iterator has reached a ViewEdge satisfying this
 predicate during the march along the graph.
 
-Chaining can be either unidirectional (Operators::chain()) or bidirectional
-(Operators::bidirectional_chain()). In the latter case,
+Chaining can be either unidirectional ``Operators.chain()`` or bidirectional
+``Operators.bidirectional_chain()``. In the latter case,
 the chaining will propagate in the two directions from the starting edge.
 
 The following is a code example of bidirectional chaining:
@@ -144,11 +143,11 @@ The following is a code example of bidirectional chaining:
    NotUP1D(QuantitativeInvisibilityUP1D(0)))
 
 
-The chaining operator uses the ChainSilhouetteIterator as the chaining rule and stops chaining
+The chaining operator uses the ``ChainSilhouetteIterator`` as the chaining rule and stops chaining
 as soon as the iterator has come to an invisible ViewEdge.
 
 The chaining operators process the set of active ViewEdge objects in order.
-The active ViewEdges can be previously sorted using the Operators::sort() method (see below).
+The active ViewEdges can be previously sorted using the ``Operators.sort()`` method (see below).
 It starts a chain with the first ViewEdge of the active set.
 All ViewEdges that have already been involved in the chaining process are marked
 (in the case of the example above, the time stamp of each ViewEdge is modified by default),
@@ -166,7 +165,7 @@ Splitting
 
 The splitting operation is used to refine the topology of each Chain.
 Splitting is performed either sequentially or recursively. Sequential splitting
-(Operators::sequentialSplit()) in its basic form,
+``Operators.sequentialSplit()`` in its basic form,
 parses the Chain at a given arbitrary resolution and evaluates a unary predicate
 (working on 0D elements) at each point along the Chain.
 Every time the predicate is satisfied, the chain is split into two chains.
@@ -182,9 +181,9 @@ In this example, the chain is split every 2 units.
 A more elaborated version uses two predicates instead of one: One to determine the starting
 point of the new chain and the other to determine its ending point. This second version can
 lead to a set of Chains that are disjoint or that overlap if the two predicates are different.
-(see Operators::sequentialSplit() for more details).
+(see ``Operators.sequentialSplit()`` for more details).
 
-Recursive splitting (Operators::recursiveSplit()) evaluates a function on the 0D elements
+Recursive splitting ``Operators.recursiveSplit()`` evaluates a function on the 0D elements
 along the Chain at a given resolution and find the point that gives the maximum value for the
 function. The Chain is then split into two at that point.
 This process is recursively repeated on each of the two new Chains,
@@ -205,17 +204,16 @@ Chains shorter than 5 units won't be split anymore.
 Sorting
 -------
 
-The sorting operator (Operators::sort()) arranges the stacking order of active 1D elements. It
-takes as argument a binary predicate used as a "smaller than" operator to order two 1D
-elements.
+The sorting operator ``Operators.sort()`` arranges the stacking order of active 1D elements.
+It takes as argument a binary predicate used as a "smaller than" operator to order two 1D elements.
 
 .. code-block:: python
 
    Operators.sort(Length2DBP1D())
 
 
-In this code example, the sorting uses the Length2DBP1D binary predicate to sort the
-Interface1D objects in the ascending order in terms of 2D length.
+In this code example, the sorting uses the ``Length2DBP1D`` binary predicate to sort the
+``Interface1D`` objects in the ascending order in terms of 2D length.
 
 The sorting is particularly useful when combined with causal density. Indeed,
 the causal density evaluates the density of the resulting image as it is modified. If we wish
@@ -227,12 +225,12 @@ we would use the sorting operator to insure that the most "important" lines are 
 Stroke creation
 ---------------
 
-Finally, the stroke creation operator (Operators::create())
+Finally, the stroke creation operator ``Operators.create()``
 takes the active set of Chains as input and build Strokes. The operator takes two arguments.
-The first is a unary predicate that works on Interface1D that is designed to make a last
+The first is a unary predicate that works on ``Interface1D`` that is designed to make a last
 selection on the set of chains.
-A Chain that doesn't satisfy the condition won't lead to a Stroke. The second input is a list
-of Shaders that will be responsible for the shading of each built stroke.
+A Chain that doesn't satisfy the condition won't lead to a Stroke.
+The second input is a list of shaders that will be responsible for the shading of each built stroke.
 
 .. code-block:: python
 
@@ -245,7 +243,7 @@ of Shaders that will be responsible for the shading of each built stroke.
 
 
 In this example,
-the DensityUP1D predicate is used to remove all Chains whose mean density is higher than 0.1.
+the ``DensityUP1D`` predicate is used to remove all Chains whose mean density is higher than 0.1.
 Each chain is transformed into a stroke by resampling it so as to have a point every 5 units
 and assigning to it a constant thickness of 2 units and a dark gray constant color.
 
@@ -258,8 +256,8 @@ even though individual style modules have a fixed pipeline structure.
 One is the sequencing of different pipeline control structures, and another is through the
 definition of functor objects that are passed as argument all along the pipeline.
 
-Different pipeline control structures can be defined by sequencing the selection, chaining,
-splitting, and sorting operations.
+Different pipeline control structures can be defined by sequencing the selection,
+chaining, splitting, and sorting operations.
 The stroke creation is always the last operation that concludes a style module.
 
 Predicates, functions, chaining iterators, and stroke shaders can be defined by inheriting
