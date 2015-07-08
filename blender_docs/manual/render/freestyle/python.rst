@@ -95,7 +95,7 @@ Selection
 ---------
 
 The selection operator goes through every element of the active set and keeps only the ones
-satisfying a certain predicate. The Operators.select() method takes as the argument a unary
+satisfying a certain predicate.  The ``Operators.select()`` method takes as the argument a unary
 predicate that works on any ``Interface1D`` that represents a 1D element. For example:
 
 .. code-block:: python
@@ -108,11 +108,12 @@ visible ViewEdge (more precisely, those whose quantitative invisibility is equal
 The selection operator is intended to selectively apply the style to a fraction of the active 1D elements.
 
 It is noted that ``QuantitativeInvisibilityUP1D`` is a class implementing the predicate that tests
-line visibility, and the Operators.select()
+line visibility, and the ``Operators.select()``
 method takes an instance of the predicate class as argument. The testing of the predicate for
 a given 1D element is actually done by calling the predicate instance, that is,
-by invoking the __call__ method of the predicate class. In other words, the Operators.select
-() method takes as argument a functor which in turn takes an Interface0D object as argument.
+by invoking the __call__ method of the predicate class.
+In other words, the ``Operators.select()`` method takes as argument a functor
+which in turn takes an ``Interface0D`` object as argument.
 The Freestyle Python API employs functors extensively to implement predicates,
 as well as functions.
 
