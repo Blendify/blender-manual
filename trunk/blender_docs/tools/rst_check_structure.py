@@ -102,13 +102,14 @@ def warn_images_post():
     img_files_set = set([f for f in os.listdir(imgpath)])
     img_refs_set = set(warn_images.img_refs)
 
-    print("\nLIST OF UNUSED IMAGES:")
-    print("======================")
+    print("\n"
+          "LIST OF UNUSED IMAGES:\n"
+          "======================")
     for fn in sorted(img_files_set - img_refs_set):
         print("svn rm --force 'manual/images/%s'" % fn)
 
-    print("\nLIST OF MISSING IMAGES:")
-    print("=======================")
+    print("LIST OF MISSING IMAGES:\n"
+          "=======================")
     for fn in sorted(img_refs_set - img_files_set):
         print(fn)
 
