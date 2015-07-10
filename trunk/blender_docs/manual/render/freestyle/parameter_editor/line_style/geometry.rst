@@ -188,9 +188,9 @@ Perlin Noise 1D
 ---------------
 
 
-The *Perlin Noise 1D* modifier adds one-dimensional Perlin noise to the stroke. The curvilinear abscissa (value
-between 0 and 1 determined by a point's position relative to the first and last point of a stroke) as the input to the
-noise function.
+The *Perlin Noise 1D* modifier adds one-dimensional Perlin noise to the stroke. The curvilinear abscissa (value between
+0 and 1 determined by a point's position relative to the first and last point of a stroke) is used as the input to the
+noise function to generate noisy displacements.
 
 This means that this modifier will give an identical result for two strokes with the same length and sampling
 interval.
@@ -236,7 +236,7 @@ Polygonization
    :align: right
 
 
-The *Poligonization* modifier simplifies strokes as much as possible
+The *Polygonization* modifier simplifies strokes as much as possible
 (in other words, it transforms smooth strokes into jagged polylines).
 
 Error
