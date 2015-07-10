@@ -134,8 +134,8 @@ Menu Buttons
 
 Blender uses a variety of different menus for accessing options, tools and selecting data-blocks.
 
-Common Shortcuts
-----------------
+Menu Shortcuts
+--------------
 
 - Arrow keys can be used to navigate.
 - Each menu item has an underlined character which can be pressed to activate it.
