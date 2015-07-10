@@ -118,15 +118,19 @@ units need to be set in the scene settings (Metric or Imperial).
 
 Examples of valid units include:
 
-- ``1cm``
-- ``1m 3mm``
-- ``1m, 3mm``
-- ``2ft``
-- ``3ft/0.5km``
-- ``2.2mm + 5' / 3" - 2yards``
+
+.. hlist::
+   :columns: 2
+
+   - ``1cm``
+   - ``1m 3mm``
+   - ``1m, 3mm``
+   - ``2ft``
+   - ``3ft/0.5km``
+   - ``2.2mm + 5' / 3" - 2yards``
 
 *Note that the commas are optional.
-Also notice how you can mix between metric and imperial even though the display can only show one at a time.*
+Notice how you can mix between metric and imperial even though the display can only show one at a time.*
 
 
 Menu Buttons
@@ -223,7 +227,7 @@ While Hovering
    - :kbd:`Minus` - negate number values (multiply by ``-1.0``).
    - :kbd:`Ctrl-Wheel` - changes the value incremental steps.
 
-     This also works for dropdowns and checkboxes buttons, it will cycle values.
+     For pop-up option menus buttons this cycles the value.
 
    Animation:
 
