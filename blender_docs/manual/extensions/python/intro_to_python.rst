@@ -57,7 +57,7 @@ Following is a video that shows how you can switch to the interpreter.
 
 
 You can start typing Python commands,
-expressions and statements at the interpreter prompt **>>>**
+expressions and statements at the interpreter prompt: ``>>>``
 
 
 Hello World
