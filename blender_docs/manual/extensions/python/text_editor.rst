@@ -89,8 +89,7 @@ Exercise
 
 Copy the text below in the Text Editor.
 
-::
-
+.. code-block:: python
 
    import bpy
    from math import radians, cos, sin
@@ -112,13 +111,13 @@ Copy the text below in the Text Editor.
    # Loop through the angles, determine x,y using polar coordinates
    # and create object
    for theta in anglesInRadians:
-   x = cursor.x + radius * cos(theta)
-   y = cursor.y + radius * sin(theta)
-   z = cursor.z
-   bpy.ops.mesh.primitive_cube_add(location=(x, y, z))
+       x = cursor.x + radius * cos(theta)
+       y = cursor.y + radius * sin(theta)
+       z = cursor.z
+       bpy.ops.mesh.primitive_cube_add(location=(x, y, z))
 
 
-Execute the script with :kbd:`Alt-P`.
+Execute the script with the *Run Script* button.
 
 You can see the result of running the above script in this video.
 
