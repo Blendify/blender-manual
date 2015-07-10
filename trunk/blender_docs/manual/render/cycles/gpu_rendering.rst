@@ -47,7 +47,8 @@ OpenCL
 :abbr:`OpenCL (Open Computing Language)` is supported for GPU
 rendering with **AMD graphics cards**.
 We only support graphics cards with :abbr:`GCN (Graphics Core Next)` architecture (HD 7xxx and above).
-Not all HD 7xxx cards are GCN cards though, you can check if your card is `here <https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units>`__.
+Not all HD 7xxx cards are GCN cards though, you can check if your card is
+`here <https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units>`__.
 
 Cycles requires recent AMD drivers to be installed, on all operating systems.
 
@@ -69,6 +70,7 @@ OpenCL:
 
 Frequently Asked Questions
 ==========================
+
 
 Why is Blender unresponsive during rendering?
 ---------------------------------------------
@@ -121,12 +123,13 @@ OpenCL support is still in an early stage and has not been optimized as much.
 Error Messages
 ==============
 
+
 Unsupported GNU version! gcc 4.7 and up are not supported!
 ----------------------------------------------------------
 
 On Linux, depending on your GCC version you might get this error.
 
-If so, delete the following line in /usr/local/cuda/include/host_config.h
+If so, delete the following line in ``/usr/local/cuda/include/host_config.h``
 
 ::
 
