@@ -57,24 +57,22 @@ though. We'll cover those later.
 Add the Texture
 ===============
 
-In addition, Smoke requires its own texture. Blender 2.5 has a new texture just for rendering smoke called
-:doc:`Voxel Data </render/blender_render/textures/types/volume>`.
+In addition, Smoke requires its own texture,
+you can use a volumetric texture known as :doc:`Voxel Data </render/blender_render/textures/types/volume>`.
 You must remember to set the domain object and change the influence.
-
 
 .. figure:: /images/d.jpg
    :width: 300px
 
    The texture settings.
 
-
-Go to the texture tab and change the type to 'Voxel Data'.
+Go to the texture tab and change the type to *Voxel Data*.
 Under the Voxel Data-Settings set the domain object to our domain cube
 (it should be listed just as 'Cube' since we are using Blender's default cube.
 Under Influence check 'Density' and leave it at 1.000
 (Emission should be automatically checked, too).
 Now you should be able to render single frames. You can choose to color your smoke as well,
-by turning "Emmision Color" back on.
+by turning *Emission Color* back on.
 
 
 .. tip:: To see the smoke more clearly
@@ -134,7 +132,7 @@ turn up the Emmision Value in the Materials panel.
 
 Then, add another texture (Keep the old texture or the smoke won't show).
 Give it a fiery color ramp- which colors based on the alpha,
-and change the influence to emmision and emmision color. Change the blend to Multiply.
+and change the influence to emission and emission color. Change the blend to Multiply.
 
 
 .. figure:: /images/f.jpg

@@ -57,7 +57,8 @@ Undo
 ====
 
 Global Undo
-   Works by keeping a full copy of the file in memory (thus needing more memory).
+   This enables Blender to save actions done when you are **not** in *Edit Mode*.
+   For example, duplicating Objects, changing panel settings or switching between modes.
 Step
    Number of Undo steps available.
 Memory Limit
