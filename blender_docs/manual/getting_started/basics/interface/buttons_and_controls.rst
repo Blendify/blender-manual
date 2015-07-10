@@ -133,6 +133,83 @@ Examples of valid units include:
 Notice how you can mix between metric and imperial even though the display can only show one at a time.*
 
 
+Unit Names
+^^^^^^^^^^
+
+.. note to authors, normally we would avoid documenting long lists of values
+   however, this isn't displayed anywhere else.
+
+Unit names have can be used with both long and short forms,
+here are listed recognized unit names you can use.
+
+Plurals of the names are recognized too, so ``meter`` and ``meters`` can both be used.
+
+Imperial:
+
+.. list-table::
+   :header-rows: 1
+   :stub-columns: 1
+
+   * - Full Name
+     - Short Name(s)
+     - Scale of a Meter
+   * - thou
+     - ``mil``
+     - ``0.0000254``
+   * - inch
+     - ``"``, ``in``
+     - ``0.0254``
+   * - foot, feet
+     - ``'``, ``ft``
+     - ``0.0254``
+   * - yard
+     - ``yd``
+     - ``0.9144``
+   * - chain
+     - ``ch``
+     - ``20.1168``
+   * - furlong
+     - ``fur``
+     - ``201.168``
+   * - mile
+     - ``mi``, ``m``
+     - ``1609.344``
+
+Metric:
+
+.. list-table::
+   :header-rows: 1
+   :stub-columns: 1
+
+   * - Full Name
+     - Short Name(s)
+     - Scale of a Meter
+   * - micrometer
+     - ``um``
+     - ``0.000001``
+   * - millimeter
+     - ``mm``
+     - ``0.001``
+   * - centimeter
+     - ``cm``
+     - ``0.01``
+   * - decimeter
+     - ``dm``
+     - ``0.1``
+   * - meter
+     - ``m``
+     - ``1.0``
+   * - dekameter
+     - ``dam``
+     - ``10.0``
+   * - hectometer
+     - ``hm``
+     - ``100.0``
+   * - kilometer
+     - ``km``
+     - ``1000.0``
+
+
 Menu Buttons
 ============
 
