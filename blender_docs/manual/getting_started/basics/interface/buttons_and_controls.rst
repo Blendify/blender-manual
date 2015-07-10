@@ -228,9 +228,14 @@ While Hovering
    Animation:
 
    - :kbd:`I` - insert a keyframe.
+   - :kbd:`Alt-I` - clear the keyframe.
+   - :kbd:`Alt-Shift-I` - clear all keyframes.
    - :kbd:`D` - assign a driver.
+   - :kbd:`Alt-D` - clear the driver.
+   - :kbd:`K` - add a keying set.
+   - :kbd:`Alt-K` - clear the keying-set.
 
-While Dragging
+While Dragging Numbers
    - :kbd:`Ctrl` - while dragging snap the discrete steps.
    - :kbd:`Shift` - gives finer control over the value.
 
