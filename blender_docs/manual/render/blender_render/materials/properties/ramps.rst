@@ -41,7 +41,7 @@ Options
    Ramps Panel
 
 
-In Blender 2.5, the separate *Ramp* panels for the *Diffuse* shader and the
+The separate *Ramp* panels for the *Diffuse* shader and the
 *Specular* shader respectively can be toggled on and off using the
 
 .. figure:: /images/Manual-2.5-Material-RampsButton.jpg

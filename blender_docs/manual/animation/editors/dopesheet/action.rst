@@ -6,7 +6,7 @@
 Action Editor
 *************
 
-Blender 2.5 simplifies the system by making Actions the generic containers for F-Curves.
+In Blender *Actions* are a generic containers for F-Curves.
 Actions can contain any number of F-Curves, and can be attached to any data block.As long as
 the RNA data paths stored in the Action's F-Curves can be found on that data block,
 the animation will work. For example, an action modifying 'X location' and 'Y location'
@@ -23,8 +23,8 @@ though, like e.g. with the :doc:`Action constraint </rigging/constraints/relatio
 or the :doc:`pose libraries </rigging/posing/pose_library>`).
 
 This is not a mandatory window, as you do can edit the actions used by the NLA directly in the
-*FCurve Editor* window (or even the *NLA Editor* one). However,
-it gives you a slightly simplified view of your FCurve datablocks
+*FCurve Editor* window (or even the *NLA Editor* one).
+However, it gives you a slightly simplified view of your FCurve datablocks
 (somewhat similar to the "key" mode of the FCurve window,
 even though more powerful in some ways) - and, more interesting,
 it can show you all "action" FCurve datablocks of a same object at once.

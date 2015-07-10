@@ -30,7 +30,6 @@ the petals in a flower).
    In `this .blend <http://wiki.blender.org/index.php/:File:Manual-2.5-DupliVerts-Examples.blend>`__,
    the first example, a monkey parented to a circle is on layer 1;
    while a tentacle parented to an icosphere is on layer 2.
-   The files was made using Blender 2.55.1 (r33567).
 
 
 DupliVerts as an Arranging Tool

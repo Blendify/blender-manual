@@ -34,34 +34,9 @@ At the :ref:`System Level <options-for-files>` (Relating to *Files*)
 Options for Actions (User Level)
 ================================
 
-.. figure:: /images/Manual-Vitals-Undo-and-Redo-UndoOptions.jpg
-   :align: right
-
-   Undo options
-
-
 The commands listed below will let you roll back an accidental action, redo your last action,
 or let you choose to recover to a specific point,
-by picking from a list of recent actions recorded by Blender. Two new features that were added
-to the Blender 2.5x series are the *Repeat* and *Repeat History* commands.
-
-To enable or disable Undo,
-go to the *User Preferences* window and click on the *Editing* tab.
-In this section you can set:
-
-Global Undo
-   This enables Blender to save actions done when you are **not** in *Edit Mode*.
-   For example, duplicating Objects, changing panel settings or switching between modes.
-   The default Blender Installation comes with the option *Global Undo* enabled.
-
-Steps
-   This numeric field indicates how many steps or actions to save.
-   The default value of **32** will allow you to Undo the last thirty-two actions that you performed.
-   You can change this numeric field to the maximum of **64**.
-
-Memory Limit
-   This numeric field allows you to define the maximum amount of memory in Megabytes
-   that the Undo system is allowed to use. The default value of **0** indicates no limit.
+by picking from a list of recent actions recorded by Blender.
 
 
 Undo
@@ -74,7 +49,10 @@ Undo
    | Hotkey:   :kbd:`Ctrl-Z`
 
 
-Like most programs, if you want to undo your last action, just press :kbd:`Ctrl-Z`
+If you want to undo your last action, just press :kbd:`Ctrl-Z`
+
+See :doc:`Editing Preferences </preferences/editing>` section on undo to change defaults.
+
 
 Redo
 ----
@@ -99,7 +77,7 @@ Redo Last
    | Hotkey:   :kbd:`F6`
 
 
-Redo Last (New feature) is short for *Redo(ing your) Last (Action)*.
+*Redo Last* is short for *Redo(ing your) Last (Action)*.
 Hitting :kbd:`F6` after an action will present you a context-sensitive
 Pop-Up Window based on your last action taken and the *Mode* and *Window* in which Blender is being used.
 
@@ -207,7 +185,7 @@ Repeat History
    The Repeat menu, which appears upon :kbd:`F3` press.
 
 
-The (New feature) Repeat History will present you a list of the last repeated actions,
+The *Repeat History* feature will present you a list of the last repeated actions,
 and you can choose the actions you want to repeat.
 It works in the same way as the Undo History, explained above,
 but the list contains only repeated actions. To access Repeat History, use :kbd:`F3`.
