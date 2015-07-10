@@ -219,7 +219,7 @@ While Hovering
 
    - :kbd:`Ctrl-V` - paste the value of the button.
    - :kbd:`RMB` - open the context menu.
-   - :kbd:`Backspace` - set the value to zero.
+   - :kbd:`Backspace` - cleare the value (sets to zero or clears a text field).
    - :kbd:`Minus` - negate number values (multiply by ``-1.0``).
    - :kbd:`Ctrl-Wheel` - changes the value incremental steps.
 
