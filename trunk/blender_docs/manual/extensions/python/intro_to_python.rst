@@ -12,9 +12,6 @@ This page exists for two reasons.
 
 - To introduce Programming using Python 3.x quickly and efficiently.
 - And most importantly teach inside of Blender's Console, so you can learn in context.
-- See
-
-`External links`_ below
 
 
 What is Programming?
