@@ -155,25 +155,25 @@ Imperial:
      - Scale of a Meter
    * - thou
      - ``mil``
-     - ``0.0000254``
+     - 0.0000254
    * - inch
      - ``"``, ``in``
-     - ``0.0254``
+     - 0.0254
    * - foot, feet
      - ``'``, ``ft``
-     - ``0.0254``
+     - 0.0254
    * - yard
      - ``yd``
-     - ``0.9144``
+     - 0.9144
    * - chain
      - ``ch``
-     - ``20.1168``
+     - 20.1168
    * - furlong
      - ``fur``
-     - ``201.168``
+     - 201.168
    * - mile
      - ``mi``, ``m``
-     - ``1609.344``
+     - 1609.344
 
 Metric:
 
@@ -186,28 +186,28 @@ Metric:
      - Scale of a Meter
    * - micrometer
      - ``um``
-     - ``0.000001``
+     - 0.000001
    * - millimeter
      - ``mm``
-     - ``0.001``
+     - 0.001
    * - centimeter
      - ``cm``
-     - ``0.01``
+     - 0.01
    * - decimeter
      - ``dm``
-     - ``0.1``
+     - 0.1
    * - meter
      - ``m``
-     - ``1.0``
+     - 1.0
    * - dekameter
      - ``dam``
-     - ``10.0``
+     - 10.0
    * - hectometer
      - ``hm``
-     - ``100.0``
+     - 100.0
    * - kilometer
      - ``km``
-     - ``1000.0``
+     - 1000.0
 
 
 Menu Buttons
