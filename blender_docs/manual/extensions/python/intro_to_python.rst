@@ -105,18 +105,3 @@ By doing so we are repeating the string by the count specified by *number*
 
    Check out :doc:`all the above examples in one place </extensions/python/intro_to_python>`
 
-
-External links
-==============
-
-Webpages
---------
-
-- http://www.sthurlow.com/python/
-
-
-Video Tutorials
----------------
-
-- If you want to learn Python programming in general, have a look at
-  `these tutorials <https://www.youtube.com/watch?list=PLEA1FEF17E1E5C0DA&v=4Mf0h3HphEA>`__.
