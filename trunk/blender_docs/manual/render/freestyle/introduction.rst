@@ -76,13 +76,15 @@ The Big Picture
 Known Limitations
 =================
 
-- FreeStyle is only available for the Blender Internal renderer.
 - Highly memory demanding: All mesh objects in a render layer are loaded at once.
-- Only faced mesh objects are supported. The following kinds of meshes are ignored.
+- Only faced mesh objects are supported. The following kinds of meshes are ignored:
+
   - Mesh faces with wire materials.
   - Mesh faces with completely transparent materials.
+  - Mesh faces with the Cast Only option enabled.
+
 - Transparent faces are treated as opaque faces.
 - No edges at face intersections are detected yet.
 - Layer masks do not work with Freestyle.
 - Freestyle rendering results do not have any Z depth information.
-- Does not work with a panoramic camera.
+- Panoramic cameras are not supported.
