@@ -81,7 +81,7 @@ Known Limitations
 
   - Mesh faces with wire materials.
   - Mesh faces with completely transparent materials.
-  - Mesh faces with the Cast Only option enabled.
+  - Mesh faces with the *Cast Only* material option enabled.
 
 - Transparent faces are treated as opaque faces.
 - No edges at face intersections are detected yet.
