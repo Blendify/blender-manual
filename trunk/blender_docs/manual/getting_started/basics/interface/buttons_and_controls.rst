@@ -144,9 +144,7 @@ here are listed recognized unit names you can use.
 
 Plurals of the names are recognized too, so ``meter`` and ``meters`` can both be used.
 
-Imperial:
-
-.. list-table::
+.. list-table:: Imperial Units
    :header-rows: 1
    :stub-columns: 1
 
@@ -175,9 +173,7 @@ Imperial:
      - ``mi``, ``m``
      - 1609.344
 
-Metric:
-
-.. list-table::
+.. list-table:: Metric Units
    :header-rows: 1
    :stub-columns: 1
 
