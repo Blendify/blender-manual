@@ -401,6 +401,10 @@
 
    Pivot Point
       It's a reference point used by many mesh manipulation tools.
+      
+   Pixel
+      The smallest unit of information in a 2D raster image, representing a single color made up of red, green, and blue
+      channels. If the image has an :term:`alpha channel`, the pixel will contain a corresponding fourth channel.
 
    Pole
       It's a vertex in which three or five or more edges are connected to.
