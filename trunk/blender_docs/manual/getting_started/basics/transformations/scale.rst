@@ -43,6 +43,7 @@ options such as Precision, Axis Locking, Numeric Input,
 Snapping and the different types of Pivot Point.
 
 :doc:`Read more about Transform Control </getting_started/basics/transformations/transform_control/index>`
+
 :doc:`Read more about Transform Orientations </getting_started/basics/transformations/transform_control/transform_orientations>`
 
 
@@ -113,7 +114,9 @@ in Blender Units (BU) to specify the amount of scaling after after initiating a 
 
 
 :doc:`Read more about Precision Control </getting_started/basics/transformations/transform_control/precision>`
+
 :doc:`Read more about Numerical Transformations </getting_started/basics/transformations/transform_control/numeric_input>`
+
 :doc:`Read more about Transform Orientations </getting_started/basics/transformations/transform_control/transform_orientations>`
 
 
@@ -159,5 +162,3 @@ Scaling along particular axes can be enabled or disabled by toggling the padlock
 :doc:`Read more about Panels </getting_started/basics/interface/panels>`
 
 :doc:`Read more about scaling modes </getting_started/basics/transformations/transform_control/transform_orientations>`
-
-
