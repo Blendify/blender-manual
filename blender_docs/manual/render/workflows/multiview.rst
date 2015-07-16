@@ -156,7 +156,7 @@ Blender supports from high-end 3D displays to simple red-cyan glasses.
 On top of that you can set a different display mode for each window.
 
 The display mode can be changed via the Window menu
-or if you create your own shortcuts for the **wm.stereo_3d** operator.
+or if you create your own shortcuts for the **wm.set_stereo_3d** operator.
 
 .. figure:: /images/Manual_multiview_window_stereo_3d.png
    :width: 642px
