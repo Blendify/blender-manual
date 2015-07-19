@@ -46,6 +46,6 @@ Get Involved
 ============
 
 If you would like to contribute to this manual, see :doc:`/about/index`,
-check for `open tasks <https://developer.blender.org/project/view/53/>`__,
+check for `open tasks <https://developer.blender.org/project/profile/53>`__,
 or join the `mailing list <http://lists.blender.org/mailman/listinfo/bf-docboard>`__
 and #blenderwiki channel on :ref:`IRC <irc-channels>`.

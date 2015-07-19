@@ -17,7 +17,7 @@ Project Status
 **************
 
 There are some left over TODOs from the MediaWiki migration and sections on the process of being reviewed.
-See also the `current open tasks <https://developer.blender.org/project/view/53/>`__ and the
+See also the `current open tasks <https://developer.blender.org/project/profile/53>`__ and the
 `section overview <http://www.blender.org/documentation/manual-sections/>`__
 
 
