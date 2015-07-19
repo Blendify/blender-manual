@@ -79,7 +79,7 @@ Automate Edits
    Tasks such as running a spell-checker, on the entire manual wasn't really possible with MediaWiki.
 Project Management
    While this isn't directly a feature of Sphinx, using version-control
-   means we can integrate a `project management system <https://developer.blender.org/project/view/53/>`__
+   means we can integrate a `project management system <https://developer.blender.org/project/profile/53>`__
    (Phabricator in this case).
 
    This means we can have a central place to track issues, set goals for releases and assign tasks.
