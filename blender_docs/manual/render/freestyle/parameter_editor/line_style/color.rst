@@ -202,10 +202,10 @@ Crease Angle
    `File:Render_freestyle_modifier_crease_angle.blend
    <http://wiki.blender.org/uploads/b/b4/Render_freestyle_modifier_crease_angle.blend>`__
 
-A modifier based on the Crease Angle (angle between two adjacent faces). If a stroke segment doesn't lie on a crease, 
-(the edge doesn't have the `Crease Angle nature
-<http://www.blender.org/api/blender_python_api_2_75_0/freestyle.types.html#freestyle.types.Nature>`__)
-it's values are not touched by this modifier. 
+A modifier based on the Crease Angle (angle between two adjacent faces). If a stroke segment doesn't lie on a crease 
+(i.e., the edge doesn't have the `Crease Angle nature
+<http://www.blender.org/api/blender_python_api_2_74_release/freestyle.types.html#freestyle.types.Nature>`__),
+its color values are not touched by the modifier. 
 
 .. figure:: /images/render_freestyle_ui_color_crease_angle.png
    :width: 300px
@@ -213,8 +213,8 @@ it's values are not touched by this modifier.
 
 
 Color Ramp
-   A standard Blender color ramp that maps the radial curvature to a stroke color.
+   A standard Blender color ramp that maps the crease angle to a stroke color.
 
 Min Angle and Max Angle 
-   The range of input values to the mapping. Out-of-range input values will be clamped by the Min and Max angles 
+   The range of input values to the mapping. Out-of-range crease angle values will be clamped by the Min and Max angles 
    and their corresponding color values.
