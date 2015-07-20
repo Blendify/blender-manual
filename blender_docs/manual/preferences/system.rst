@@ -41,7 +41,6 @@ Sound
 Sound
    Set the audio output device or no audio support. There are 3 Options:
 
-
    None
       No Audio support (no audio output, audio strips can be loaded normally)
    SDL
@@ -52,7 +51,6 @@ Sound
       This API provides buffered sound rendering with 3D/spatial support. Useful for the BGE Games.
 
 *'Specific sound options'* (With *SDL* or *OpenAL* enabled)
-
 
    Channels
       Set the audio channel count. Available options are:
@@ -78,23 +76,18 @@ TODO
 Compute Device
 ==============
 
-*The Options here will set the compute device used by the Cycles Render Engine*
+The Options here will set the compute device used by the Cycles render engine.
 
-
-   None
-      When set to *None* or the only option is *None*:
-      your CPU will be used as a computing device for Cycles Render Engine
-
-
-   When there are other Options for compute device such as:
-
-   CUDA / OpenCL:sup:`1`.
-      If the system has a compatible CUDA enabled graphics card and appropriate device drivers installed.
-      When one or both of the options are available,
-      the user will be able to choose whether to use CPU or other computing device for Cycles Rendering.
-
-
-*OpenCL''*:sup:`1` is unsupported, see: :doc:`Cycles </render/cycles/index>` Render engine page
+None
+   When set to *None* or the only option is *None*:
+   your CPU will be used as a computing device for Cycles Render Engine
+CUDA
+   If the system has a compatible CUDA enabled graphics card and appropriate device drivers installed.
+   When one or both of the options are available,
+   the user will be able to choose whether to use CPU or other computing device for Cycles Rendering.
+OpenCL
+   Note that this currently has limited support unsupported,
+   see: :doc:`Cycles </render/cycles/features>` Render engine page
 
 
 Open GL
@@ -105,8 +98,6 @@ Clip Alpha
    Minimum: **0.000** (No Clip) , Maximum: **1.000** , Default **0.000** (No Clip)
 Mipmaps
    Scale textures for 3D view using mipmap filtering. This increases display quality, but uses more memory.
-
-
 GPU MipMap Generation
    Generate MipMaps on the GPU. Offloads the CPU Mimpap generation to the GPU.
 
@@ -127,26 +118,17 @@ Window Draw Method
 Window Draw Method
    Specifies the Window Draw Method used to display Blender Window(s).
 
-
    *Automatic* (Default)
       Automatically set based on graphics card and driver.
-
-
    Triple Buffer
       Use a third buffer for minimal redraws at the cost of more memory.
       If you have a capable GPU, this is the best and faster method of redraw.
-
-
    Overlap
       Redraw all overlapping regions. Minimal memory usage, but more redraws.
       Recommended for some graphics cards and drivers combinations.
-
-
    Overlap Flip
       Redraw all overlapping regions. Minimal memory usage, but more redraws (for graphics drivers that do flipping).
       Recommended for some graphic cards and drivers combinations.
-
-
    Full
       Do a full redraw each time. Only use for reference, or when all else fails.
       Useful for certain cards with bad to no OpenGL acceleration at all.
@@ -155,7 +137,6 @@ Region Overlap
    This checkbox will enable Blender to draw regions overlapping the 3D Window.
    It means that the Object Tools and Transform Properties Tab,
    which are opened by using the shortcuts :kbd:`T` and :kbd:`N` will be drawn overlapping the 3D View Window.
-
 
    If you have a capable graphics card and drivers with *Triple Buffer* support,
    clicking the checkbox will enable the overlapping regions to be drawn using the *Triple Buffer* method,
