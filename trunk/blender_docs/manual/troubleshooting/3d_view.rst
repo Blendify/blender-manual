@@ -48,7 +48,7 @@ OpenGL :term:`Vertex Buffer Objects <VBO>`
    See :menuselection:`User Preferences --> System --> VBOs`
 
    This uses a more optimal drawing method which may speed up selection.
-Upgrade OpenGL Drivers
+Upgrade OpenGL Driver
    In some cases slow selection is resolved by using updated drivers.
 
    *It's generally good to use recent drivers when using 3D software.*
@@ -84,4 +84,42 @@ Invisible Limit Zooming In
 --------------------------
 
 TODO, see: http://blender.stackexchange.com/questions/644
+
+
+Tools
+=====
+
+
+.. _troubleshooting-3d_view-invalid_selection:
+
+Invalid Selection
+-----------------
+
+There are times when selection fails under some configurations,
+often this is noticeable in mesh *Edit Mode*,
+selecting vertices/edges/faces where random elements are selected.
+
+Internally Blender uses :term:`OpenGL` for selection,
+so the graphics card driver is relied on giving correct results.
+
+Possible Solutions:
+
+Disable Anti-Aliasing (:term:`FSAA, Multi-Sampling<FSAA>`)
+   This is by far the most common cause of selection issues.
+
+   There are known problems with some graphics cards when using Multi-sampling.
+
+   You can disable this option by:
+
+   - Turning it off in your graphics card driver options.
+   - Turning *Multi-Sampling* off in the :ref:`system preferences <preferences-system-multi_sampling>`.
+Change Anti-Aliasing Sample Settings
+   Depending on your OpenGL configuration,
+   some specific sample configurations may work, while others fail.
+
+   Unfortunately finding working configuration involves trial & error testing.
+Upgrade OpenGL Driver
+   As with any OpenGL related issues, using recent drivers can resolve problems.
+
+   However it should be noted that this is a fairly common problem and remains unresolved with many drivers.
 

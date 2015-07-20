@@ -233,6 +233,14 @@
       Distance required by a lens to focus collimated light.
       Defines the magnification power of a lens. Also see :term:`Field of View <field of view>`
 
+   FSAA
+   Full-Screen Anti-Aliasing
+      Also known as *Multi-Sampling*, is a way of enabling :term:`Anti-aliasing` on the graphics card,
+      so the entire image is displayed smooth.
+
+      On many graphics cards this can be enabled in the driver options.
+      This can also be set in the :ref:`system preferences <preferences-system-multi_sampling>`.
+
    Geometric Center
       An object's geometric center coincides with the geometric center of its bounding box.
 
@@ -313,6 +321,9 @@
 
    Mesh
       Type of object consisting of :term:`vertices <vertex>`, :term:`edges <edge>` and :term:`faces <face>`.
+
+   Multi-sampling
+      See :term:`FSAA`
 
    Motion Blur
       It's the simulation of the phenomenon that occurs when we perceive a rapidly moving object.

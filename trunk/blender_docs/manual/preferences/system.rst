@@ -133,6 +133,17 @@ Window Draw Method
       Do a full redraw each time. Only use for reference, or when all else fails.
       Useful for certain cards with bad to no OpenGL acceleration at all.
 
+.. _preferences-system-multi_sampling:
+
+Multi-Sampling
+   This enables :term:`FSAA` for smooth drawing,
+   at the expense of some performance.
+
+   .. note::
+
+      This is known to cause selection issues on some configurations,
+      see: :ref:`troubleshooting-3d_view-invalid_selection`.
+
 Region Overlap
    This checkbox will enable Blender to draw regions overlapping the 3D Window.
    It means that the Object Tools and Transform Properties Tab,
