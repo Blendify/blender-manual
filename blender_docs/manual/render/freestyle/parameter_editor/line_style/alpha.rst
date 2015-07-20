@@ -165,15 +165,19 @@ Min Angle and Max Angle
 
 3D Curvature 
 ------------
-A modifier base on the `radial curvature <https://en.wikipedia.org/wiki/Radius_of_curvature_%28applications%29>`__
-of the underlying surface. 
+
+A modifier based on radial curvatures of the underlying 3D surface.  The `curvature
+<https://en.wikipedia.org/wiki/Curvature>`__ of a 2D curve at a point is a measure of how quickly the curve turns at the
+point.  The quicker the turn is, the larger the curvature is at the point.  The curvature is zero if the curve is a
+straight line.  Radial curvatures are those computed for a 2D curve that appears at the cross-section between the 3D
+surface and a plane defined by the view point (camera location) and the normal direction of the surface at the point.
+
+For radial curvatures to be calculated (and therefore for this modifier to have any effect), the *Face Smoothness* 
+option has to be turned on and the object needs to have *Smooth Shading*. 
 
 .. figure:: /images/render_freestyle_ui_alpha_curvature3d.png
    :width: 300px
    :align: right
-
-For the curvature to be calculated (and therefore for this modifier to have any effect), the **Face Smoothness** 
-option has to be turned on and the object needs to have **Smooth Shading**. 
 
 Mapping
    Either a linear progression (from ``0.0`` to ``1.0``, which may be inverted with the *Invert* option),
