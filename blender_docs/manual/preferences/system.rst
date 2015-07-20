@@ -167,8 +167,6 @@ Limit Size
 Time Out
    Time since last access of a GL texture in seconds, after which it is freed. Set to 0 to keep textures allocated.
    Minimum: **0** , Maximum: **3600** , Default: **120**
-
-
 Collection Rate
    Number of seconds between each run of the GL texture garbage collector.
    Minimum: **0** , Maximum: **3600** , Default: **120**
@@ -183,8 +181,6 @@ Prefetch Frames
    correctly using direct rendering from the disk to video.
    duting video playbacks or editing operations.
    Minimum: **0** , Maximum: **500** , Default: **0** (No prefecth)
-
-
 Memory Cache Limit
    Upper limit of the sequencer's memory cache (megabytes).
    For optimum clip editor and sequencer performance, high values are recommended.
@@ -194,72 +190,63 @@ Memory Cache Limit
 Solid OpenGL lights
 ===================
 
-Solid OpenGL Lights
-   *Solid OpenGL Lights* are used to light the 3D Window,
-   mostly during *Solid view*. Lighting is constant and position "world" based.
-   There are three virtual light sources, also called OpenGL auxiliary lamps,
-   used to illuminate 3D View scenes, which will not display in renders.
+*Solid OpenGL Lights* are used to light the 3D Window,
+mostly during *Solid view*. Lighting is constant and position "world" based.
+There are three virtual light sources, also called OpenGL auxiliary lamps,
+used to illuminate 3D View scenes, which will not display in renders.
 
 
-   The Lamp Icons allows the user to enable or disable OpenGL Lamps.
-   At least one of the three auxiliary OpenGL Lamps must remain enabled for the 3D View.
-   The lamps are equal, their difference is their positioning and colors.
-   You can control the direction of the lamps, as well as their diffuse and specular colors. Available Options are:
+The Lamp Icons allows the user to enable or disable OpenGL Lamps.
+At least one of the three auxiliary OpenGL Lamps must remain enabled for the 3D View.
+The lamps are equal, their difference is their positioning and colors.
+You can control the direction of the lamps, as well as their diffuse and specular colors. Available Options are:
 
-
-   Direction:
-      Clicking with :kbd:`LMB` in the sphere and dragging the mouse cursor
-      let's the user change the direction of the lamp by rotating the sphere.
-      The direction of the lamp will be the same as shown at the sphere surface.
-
-
-   Diffuse:
-      This is the constant color of the lamp.
-      Clicking on the color widget, opens the color picker mini window and
-      allows the user to change colors using the color picker.
-
-
-   Specular:
-      This is the highlight color of the lamp
-      Clicking on the color widget, opens the color picker mini window and
-      allows the user to change colors using the color picker.
+Direction
+   Clicking with :kbd:`LMB` in the sphere and dragging the mouse cursor
+   let's the user change the direction of the lamp by rotating the sphere.
+   The direction of the lamp will be the same as shown at the sphere surface.
+Diffuse
+   This is the constant color of the lamp.
+   Clicking on the color widget, opens the color picker mini window and
+   allows the user to change colors using the color picker.
+Specular
+   This is the highlight color of the lamp
+   Clicking on the color widget, opens the color picker mini window and
+   allows the user to change colors using the color picker.
 
 
 Color Picker Type
 =================
 
-Color Picker Type
-   Choose which type of color dialog you prefer - it will show when clicking :kbd:`LMB` on any color field.
+Choose which type of color dialog you prefer - it will show when clicking :kbd:`LMB` on any color field.
 
-   See the different color picker types at the
-   :doc:`Extended Controls </getting_started/basics/interface/extended_controls>` page.
+See the different color picker types at the
+:doc:`Extended Controls </getting_started/basics/interface/extended_controls>` page.
 
 
 Custom Weight Paint Range
 =========================
 
-Custom Weight Paint Range
-   *Mesh skin weighting* is used to control how much a bone deforms the mesh of a character.
-   To visualize and paint these weights, Blender uses a color ramp (from blue to green, and from yellow to red).
-   Enabling the checkbox will enable an alternate map using a ramp starting with an empty range.
-   Now you can create your custom map using the common color ramp options.
-   For detailed information about how to use color ramps,
-   see: to the :doc:`Extended Controls </getting_started/basics/interface/extended_controls>` page.
+*Mesh skin weighting* is used to control how much a bone deforms the mesh of a character.
+To visualize and paint these weights, Blender uses a color ramp (from blue to green, and from yellow to red).
+Enabling the checkbox will enable an alternate map using a ramp starting with an empty range.
+Now you can create your custom map using the common color ramp options.
+For detailed information about how to use color ramps,
+see: to the :doc:`Extended Controls </getting_started/basics/interface/extended_controls>` page.
 
 
 International Fonts
 ===================
 
-International Fonts
-   Blender supports a wide range of languages,
-   enabling this check box will enable Blender to support International Fonts.
-   International fonts can be loaded for the User Interface and used instead of Blender default bundled font.
+Blender supports a wide range of languages,
+enabling this check box will enable Blender to support International Fonts.
+International fonts can be loaded for the User Interface and used instead of Blender default bundled font.
 
-   This will also enable options for translating the User Interface
-   through a list of languages and Tips for Blender tools which appears
-   whenever the user hovers a mouse over Blender tools.
+This will also enable options for translating the User Interface
+through a list of languages and Tips for Blender tools which appears
+whenever the user hovers a mouse over Blender tools.
 
-   Blender supports I18N for internationalization.
-   For more Information on how to load International fonts,
-   see: :doc:`Editing Texts </modeling/texts/editing>` page.
+Blender supports I18N for internationalization.
+For more Information on how to load International fonts,
+see: :doc:`Editing Texts </modeling/texts/editing>` page.
 
