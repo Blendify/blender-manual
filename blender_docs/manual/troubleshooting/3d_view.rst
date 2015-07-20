@@ -107,11 +107,11 @@ Possible Solutions:
 Disable Anti-Aliasing (:term:`FSAA, Multi-Sampling<FSAA>`)
    This is by far the most common cause of selection issues.
 
-   There are known problems with some graphics cards when using Multi-sampling.
+   There are known problems with some graphics cards when using FSAA/multi-sampling.
 
    You can disable this option by:
 
-   - Turning it off in your graphics card driver options.
+   - Turning FSAA/multi-sampling off in your graphics card driver options.
    - Turning *Multi-Sampling* off in the :ref:`system preferences <preferences-system-multi_sampling>`.
 Change Anti-Aliasing Sample Settings
    Depending on your OpenGL configuration,
