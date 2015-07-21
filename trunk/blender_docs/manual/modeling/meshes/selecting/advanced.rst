@@ -306,19 +306,19 @@ Note that if the selected loop of edges is not closed,
 then all connected edges on the mesh will be considered inside the loop.
 
 
-.. figure:: /images/Mesh-loop-select1.jpg
+.. figure:: /images/Mesh-loop-select1.png
    :width: 400px
 
    Loop to Region.
 
 
-.. figure:: /images/Mesh-loop-select3.jpg
+.. figure:: /images/Mesh-loop-select3.png
    :width: 400px
 
    This tool handles multiple loops fine, as you can see.
 
 
-.. figure:: /images/Mesh-loop-select5.jpg
+.. figure:: /images/Mesh-loop-select5.png
    :width: 400px
 
    This tool handles "holes" just fine as well.
@@ -343,7 +343,7 @@ It can operate in any select mode, but will always switch to *Edge* select mode 
 All this is much more simple to illustrates with examples:
 
 
-.. figure:: /images/Mesh-region-select1.jpg
+.. figure:: /images/Mesh-region-select1.png
    :width: 400px
 
    Select Boundary Loop does the opposite and forces into Edge Select Mode

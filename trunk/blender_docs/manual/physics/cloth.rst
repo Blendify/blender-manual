@@ -259,7 +259,7 @@ there are several items that have to be set up and working together:
 Collision Settings
 ------------------
 
-.. figure:: /images/Cloth_collisionpanel.jpg
+.. figure:: /images/Cloth_collisionpanel.png
    :width: 200px
 
    Cloth Collisions panel.
