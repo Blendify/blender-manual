@@ -123,32 +123,17 @@ Also note that you can see how the Bullet triangulation is working
 If you want finer-grained control over the display options,
 you can add this as a Python Controller and uncomment whichever pieces you want to see:
 
-::
 
+.. code-block:: python
 
    import bge
    debugs = (
-   #bge.constraints.DBG_DRAWWIREFRAME, # Draw wireframe in debug.
-   bge.constraints.DBG_DRAWAABB, # Draw Axis Aligned Bounding Box in debug.
-   #bge.constraints.DBG_DRAWFREATURESTEXT, # Draw freatures text in debug.
-   #bge.constraints.DBG_DRAWCONTACTPOINTS, # Draw contact points in debug.
-   #bge.constraints.DBG_NOHELPTEXT, # Debug without help text.
-   #bge.constraints.DBG_DRAWTEXT, # Draw text in debug.
-   #bge.constraints.DBG_PROFILETIMINGS, # Draw profile timings in debug.
-   #bge.constraints.DBG_ENABLESATCOMPARISION, # Enable sat comparision in debug.
-   #bge.constraints.DBG_DISABLEBULLETLCP, # Disable Bullet LCP.
-   #bge.constraints.DBG_ENABLECCD, # Enable Continous Colision Detection in debug.
-   #bge.constraints.DBG_DRAWCONSTRAINTS, # Draw constraints in debug.
-   #bge.constraints.DBG_DRAWCONSTRAINTLIMITS, # Draw constraint limits in debug.
-   #bge.constraints.DBG_FASTWIREFRAME, # Draw a fast wireframe in debug.
-   #bge.constraints.POINTTOPOINT_CONSTRAINT,
-   #bge.constraints.LINEHINGE_CONSTRAINT,
-   #bge.constraints.ANGULAR_CONSTRAINT,
-   #bge.constraints.CONETWIST_CONSTRAINT,
-   #bge.constraints.VEHICLE_CONSTRAINT,
-   )
+       bge.constraints.DBG_DRAWAABB,
+       )
    for d in debugs:
-   bge.constraints.setDebugMode(d)
+      bge.constraints.setDebugMode(d)
+
+For all debug modes, API docs for ``bge.constraints``.
 
 
 Show Framerate and Profile
