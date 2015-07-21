@@ -57,7 +57,7 @@ Limited Dissolve
       The face split option limits dissolve to only use the corners of the faces connected to the vertex.
 
 
-.. figure:: /images/Bmesh_dissolve_face_split.jpg
+.. figure:: /images/Bmesh_dissolve_face_split.png
    :width: 500px
 
    Dissolve Face Split option. Left - the input, middle - regular dissolve, right - Face Split enabled
