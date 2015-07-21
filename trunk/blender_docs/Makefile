@@ -56,12 +56,11 @@ singlehtml: FORCE
 	@echo "To view, run:"
 	@echo "  "$(OPEN_CMD) $(shell pwd)"/$(BUILDDIR)/single_html/$(CONTENTS_HTML)"
 
-# NOTE: PDF is giving warnings, non-trivial to fix, disable for now.
-#~ pdf: FORCE
-#~ 	QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
-#~ 	sphinx-build -b latex ./manual ./latex
-#~ 	make -C ./latex
-#~ 	@echo "evince latex/blender_manual.pdf"
+pdf: FORCE
+	QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
+	sphinx-build -b latex ./manual "$(BUILDDIR)/latex"
+	make -C "$(BUILDDIR)/latex"
+	@echo "  "$(OPEN_CMD)" $(BUILDDIR)/latex/blender_manual.pdf"
 
 readme: FORCE
 	rst2html readme.rst > readme.html
@@ -94,7 +93,7 @@ clean: FORCE
 help:
 	@echo ""
 	@echo "Convenience targets provided for building docs"
-	#~ @echo "- pdf        - create a PDF with latex"
+	@echo "- pdf        - create a PDF with latex"
 	@echo "- readme     - create 'readme.html'"
 	@echo "  ... otherwise defaults to HTML"
 	@echo ""
