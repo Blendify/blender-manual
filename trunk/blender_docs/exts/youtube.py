@@ -86,6 +86,10 @@ def depart_youtube_node(self, node):
     pass
 
 
+def nop_node(self, node):
+    pass
+
+
 class YouTube(Directive):
     has_content = True
     required_arguments = 1
@@ -119,5 +123,9 @@ class YouTube(Directive):
 
 
 def setup(app):
-    app.add_node(youtube, html=(visit_youtube_node, depart_youtube_node))
+    app.add_node(
+            youtube,
+            html=(visit_youtube_node, depart_youtube_node),
+            laytex=(nop_node, nop_node),
+            )
     app.add_directive("youtube", YouTube)

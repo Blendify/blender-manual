@@ -86,6 +86,10 @@ def depart_vimeo_node(self, node):
     pass
 
 
+def nop_node(self, node):
+    pass
+
+
 class Vimeo(Directive):
     has_content = True
     required_arguments = 1
@@ -119,5 +123,9 @@ class Vimeo(Directive):
 
 
 def setup(app):
-    app.add_node(vimeo, html=(visit_vimeo_node, depart_vimeo_node))
+    app.add_node(
+            vimeo,
+            html=(visit_vimeo_node, depart_vimeo_node),
+            latex=(nop_node, nop_node),
+            )
     app.add_directive("vimeo", Vimeo)
