@@ -59,7 +59,7 @@ singlehtml: FORCE
 pdf: FORCE
 	QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
 	sphinx-build -b latex ./manual "$(BUILDDIR)/latex"
-	make -C "$(BUILDDIR)/latex"
+	make -C "$(BUILDDIR)/latex" LATEXOPTS="-interaction nonstopmode"
 	@echo "  "$(OPEN_CMD)" $(BUILDDIR)/latex/blender_manual.pdf"
 
 readme: FORCE
