@@ -223,6 +223,11 @@
       A face loop stops at a :term:`triangle` or :term:`Ngon` (which don't belong to the loop), or at a boundary.
       Otherwise it's cyclic.
 
+   Face Normal
+      The normalized vector perpendicular to the plane that a :term:`face` lies in.
+
+      Each face has its own normal.
+
    FCurve
       Curve that holds the animation values of a specific property.
 
@@ -240,6 +245,9 @@
 
       On many graphics cards this can be enabled in the driver options.
       This can also be set in the :ref:`system preferences <preferences-system-multi_sampling>`.
+
+   Gamma
+      TODO.
 
    Geometric Center
       An object's geometric center coincides with the geometric center of its bounding box.
@@ -322,13 +330,13 @@
    Mesh
       Type of object consisting of :term:`vertices <vertex>`, :term:`edges <edge>` and :term:`faces <face>`.
 
-   Multi-sampling
-      See :term:`FSAA`
-
    Motion Blur
       It's the simulation of the phenomenon that occurs when we perceive a rapidly moving object.
       The object appears to be blurred because of our persistence of vision.
       Doing motion blur makes computer animation appear more realistic.
+
+   Multi-sampling
+      See :term:`FSAA`
 
    Ngon
       It's a :term:`face` that contains more than four vertices.
@@ -362,16 +370,19 @@
       to select these types of non-manifold geometry in a mesh.
 
    Normal
-      The normalized vector perpendicular to the plane that a :term:`face` lies in. Each face has its own normal.
+      The normalized vector perpendicular to a surface.
 
-   NURBS
-      Is a computer graphics technique for generating and representing **curves** and **surfaces**.
+      Normals can be assigned to vertices,
+      faces and modulated across a surface using :term:`normal mapping`.
 
    Normal mapping
       Is similar to :term:`Bump mapping`, but instead of the image being a greyscale heightmap,
       the colours define in which direction the normal should be shifted,
       the 3 colour channels being mapped to the 3 directions X, Y and Z.
       This allows more detail and control over the effect.
+
+   NURBS
+      Is a computer graphics technique for generating and representing **curves** and **surfaces**.
 
    Object center
       Reference point of an object for positioning (translating), orienting (rotating), and scaling an it.
@@ -412,7 +423,7 @@
 
    Pivot Point
       It's a reference point used by many mesh manipulation tools.
-      
+
    Pixel
       The smallest unit of information in a 2D raster image, representing a single color made up of red, green, and blue
       channels. If the image has an :term:`alpha channel`, the pixel will contain a corresponding fourth channel.
@@ -506,13 +517,16 @@
 
       Also called: **Subsurf**.
 
+   Tessellation
+      TODO.
+
    Texture
       A texture specifies visual patterns on surfaces and simulates physical surface structure.
-   
+
    Title Safe
-     Area of the screen visible on all devices. Place text and graphics inside this area to make sure they don't get
-     cut off.
-     
+     Area of the screen visible on all devices.
+     Place text and graphics inside this area to make sure they don't get cut off.
+
    Topology
       Arrangement of *Vertices*, *Edges*, and *Faces* which define the shape of a mesh.
       See :term:`vertex`, :term:`edge`, and :term:`face`.
