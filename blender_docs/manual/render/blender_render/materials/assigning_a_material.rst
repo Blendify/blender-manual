@@ -5,7 +5,7 @@ Assigning a Material
 
 Materials available in the currently-open Blender file can be investigated by clicking on the Materials button
 
-.. figure:: /images/Manual-Material-MatButton.jpg
+.. figure:: /images/Material-MatButton.jpg
 
    in the Properties Window Header.
    In this section we look at how to assign or remove a material to/from the Active Object in Blender, either by:
@@ -172,7 +172,7 @@ There are several ways to do this using the Available Materials menu:
    To use one, just click on it.
 
 
-.. figure:: /images/Manual-Material-MatMenu-AddFirst-SelectExistButton.jpg
+.. figure:: /images/Material-MatMenu-AddFirst-SelectExistButton.jpg
 
    Select an existing material.
 

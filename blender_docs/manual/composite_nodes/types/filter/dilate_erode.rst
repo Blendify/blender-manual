@@ -5,7 +5,7 @@
 Dilate/Erode Node
 *****************
 
-.. figure:: /images/Manual-Compositing_Nodes-Dilate_Erode.jpg
+.. figure:: /images/Compositing_Nodes-Dilate_Erode.jpg
 
    Dilate/Erode node
 
@@ -23,7 +23,7 @@ thus sharpening it relative to surrounding pixels of the same color.
 Example
 =======
 
-.. figure:: /images/Manual-Compositing_Nodes-Dilate_ex.jpg
+.. figure:: /images/Compositing_Nodes-Dilate_ex.jpg
    :width: 300px
    :figwidth: 300px
 

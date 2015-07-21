@@ -17,10 +17,10 @@ For example, the image below shows :doc:`SubSurf </modifiers/generate/subsurf>` 
 
 .. list-table::
 
-   * - .. figure:: /images/25-Manual-Modifiers-stackorder-example2.jpg
+   * - .. figure:: /images/Modifiers-stackorder-example2.jpg
           :width: 300px
 
-     - .. figure:: /images/25-Manual-Modifiers-stackorder-examp1e1.jpg
+     - .. figure:: /images/Modifiers-stackorder-examp1e1.jpg
           :width: 300px
 
 
@@ -36,7 +36,7 @@ and then calculating the subdivision surface.
 Example
 =======
 
-.. figure:: /images/25-Manual-Modifiers-stackorder-example3.jpg
+.. figure:: /images/Modifiers-stackorder-example3.jpg
 
    In this example a simple subdivided cube has been transformed into a rather complex object using
    a stack of modifiers.

@@ -7,7 +7,7 @@ In the Input preferences, you can customize how Blender reacts to the mouse and 
 well as define your own keymap.
 
 
-.. figure:: /images/Manual-Interface-Configuration-Input-UserPreferencesInput.jpg
+.. figure:: /images/Interface-Configuration-Input-UserPreferencesInput.jpg
    :width: 650px
 
 
@@ -24,7 +24,7 @@ picture.
 Adding and deleting presets
 ===========================
 
-.. figure:: /images/Manual-Interface-Configuration-Input-AddDeletePreset.jpg
+.. figure:: /images/Interface-Configuration-Input-AddDeletePreset.jpg
 
 Before changing anything in the default configuration,
 click on the "plus" symbol shown in the picture to add a new *Preset*. Blender will
@@ -53,7 +53,7 @@ You can change the preset you are using by doing one of the following:
 Setting presets to default
 ==========================
 
-.. figure:: /images/Manual-Interface-Configuration-Input-SplashScreenInteraction.jpg
+.. figure:: /images/Interface-Configuration-Input-SplashScreenInteraction.jpg
    :width: 307px
 
 
@@ -196,7 +196,7 @@ NDOF device
 Keymap editor
 =============
 
-.. figure:: /images/Manual-Interface-Configuration-Input-KeymapEditor.jpg
+.. figure:: /images/Interface-Configuration-Input-KeymapEditor.jpg
    :width: 320px
 
 

@@ -14,7 +14,7 @@ Each effect enhances your content in some way or allows professional-quality tra
 Add
 ===
 
-.. figure:: /images/Manual-VSE-Lighting-Example.gif
+.. figure:: /images/VSE-Lighting-Example.gif
 
    Can you hear the thunder?
 
@@ -42,7 +42,7 @@ and is controlled the same way by feeding the Factor input.
 Subtract Effect
 ===============
 
-.. figure:: /images/Manual-VSE-Subtract.jpg
+.. figure:: /images/VSE-Subtract.jpg
    :width: 300px
 
    Subtract Effect
@@ -58,7 +58,7 @@ since red and green make yellow.
 Cross and Gamma Cross
 =====================
 
-.. figure:: /images/Manual-VSE-Cross.jpg
+.. figure:: /images/VSE-Cross.jpg
 
 This effect fades from one strip to another, based on how many frames the two strips overlap.
 This is a very useful strip that blends the whole image from one to the other.
@@ -70,7 +70,7 @@ resulting in a smooth transition that is easier on the eye.
 Fade to Black
 -------------
 
-.. figure:: /images/Manual-VSE-Cross-Fade.jpg
+.. figure:: /images/VSE-Cross-Fade.jpg
    :width: 300px
 
    Cross-Fade between Black
@@ -91,7 +91,7 @@ Use the dominant color in the second strip to introduce the second strip.
 Multiply
 ========
 
-.. figure:: /images/Manual-VSE-Multiply.jpg
+.. figure:: /images/VSE-Multiply.jpg
    :width: 300px
 
    Multiply Effect.
@@ -136,7 +136,7 @@ With uniform colors
 Alpha Over, Under, and Over Drop
 ================================
 
-.. figure:: /images/Manual-VSE-Alpha.jpg
+.. figure:: /images/VSE-Alpha.jpg
    :width: 300px
 
    AlphaOver Effect
@@ -203,7 +203,7 @@ Wipe
 ----
 
 
-.. figure:: /images/Manual-VSE-wipe.jpg
+.. figure:: /images/VSE-wipe.jpg
    :width: 300px
 
    VSE Wipe Built-in Effect
@@ -233,7 +233,7 @@ Glow
 ----
 
 
-.. figure:: /images/Manual-VSE-Glow_example.jpg
+.. figure:: /images/VSE-Glow_example.jpg
    :width: 300px
 
    Example of a Glow effect applied to a picture.
@@ -258,7 +258,7 @@ crossing from the base image to the glowing one.
 Transform
 =========
 
-.. figure:: /images/Manual-VSE-Transform_ex.gif
+.. figure:: /images/VSE-Transform_ex.gif
 
 Transform is a swiss-army knife of image manipulation. It scales, shifts,
 and rotates the images within a strip.
@@ -268,7 +268,7 @@ enable the *Frame locked* button and define a curve in the Ipo Window
 (Sequence mode).
 
 
-.. figure:: /images/Manual-VSE-Transform_prop.jpg
+.. figure:: /images/VSE-Transform_prop.jpg
 
 With the *Transform* strip selected,
 uses the properties panel to adjust the settings of this effect:
@@ -316,7 +316,7 @@ position the next strip under the original at a point where you want motion to c
 Creating a Slow-Motion Effect
 -----------------------------
 
-.. figure:: /images/Manual-VSE-Speed-slomo-2.jpg
+.. figure:: /images/VSE-Speed-slomo-2.jpg
    :width: 300px
 
    50% Slow motion using Speed Control

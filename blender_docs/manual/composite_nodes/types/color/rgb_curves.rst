@@ -19,7 +19,7 @@ Clicking on one of the *C R G B* components displays the curve for that channel.
 Here are some common curves you can use to achieve desired effects:
 
 
-.. figure:: /images/Manual-Compositing-Common_RGB_Node_Uses.jpg
+.. figure:: /images/Compositing-Common_RGB_Node_Uses.jpg
 
    Identifiers: A) Lighten B) Negative C) Decrease Contrast D) Posterize
 
@@ -54,7 +54,7 @@ Examples
 Color correction using Curves
 -----------------------------
 
-.. figure:: /images/Manual-Compo-Color-RGB.jpg
+.. figure:: /images/Compo-Color-RGB.jpg
    :width: 320px
 
    Color correction with curves
@@ -71,7 +71,7 @@ read on for examples of the Darken and Contrast Enhancement curves.
 Color correction using Black/White Levels
 -----------------------------------------
 
-.. figure:: /images/Manual-Nodes-Curves-example-colorcorrection-levels.jpg
+.. figure:: /images/Nodes-Curves-example-colorcorrection-levels.jpg
    :width: 320px
 
    Color correction with Black/White Levels
@@ -96,7 +96,7 @@ setting Black and White Levels.
 Effects
 -------
 
-.. figure:: /images/Manual-Nodes-RGBCurve-Ex.jpg
+.. figure:: /images/Nodes-RGBCurve-Ex.jpg
    :width: 320px
 
    Changing colors

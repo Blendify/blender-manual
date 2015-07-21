@@ -44,7 +44,7 @@ Various things that are calculated in a standard render include:
 
 The answer to each of the above questions is an image or map, as shown below:
 
-.. figure:: /images/Manual-Render-RenderPasses-Example.jpg
+.. figure:: /images/Render-RenderPasses-Example.jpg
    :width: 600px
 
 
@@ -72,7 +72,7 @@ run the map back through that node to re-scale it back to the original before sa
 Selecting Render Passes
 =======================
 
-.. figure:: /images/Manual-RenderLayer-Panel.jpg
+.. figure:: /images/RenderLayer-Panel.jpg
 
 Render Passes are the various distinct outputs that the renderer is able to generate.
 All of the following render outputs are normally combined into a single output known,
@@ -175,7 +175,7 @@ elsewhere:
 Recoloring Shadows
 ------------------
 
-.. figure:: /images/Manual-Render-RenderPasses-Example2.jpg
+.. figure:: /images/Render-RenderPasses-Example2.jpg
    :width: 300px
 
 
@@ -221,7 +221,7 @@ where Anakin Skywalker already casts the shadow of Darth Vader.)
 Compositing Ambient Occlusion
 -----------------------------
 
-.. figure:: /images/Manual-Render-Passes-AO.jpg
+.. figure:: /images/Render-Passes-AO.jpg
    :width: 600px
 
 
@@ -254,7 +254,7 @@ they have to be added to the diffuse pass before adding the converted AO pass.
 Vector Blurring Shadows
 -----------------------
 
-.. figure:: /images/Manual-Nodes-VectorBlur-Shadow.jpg
+.. figure:: /images/Nodes-VectorBlur-Shadow.jpg
    :width: 600px
 
 

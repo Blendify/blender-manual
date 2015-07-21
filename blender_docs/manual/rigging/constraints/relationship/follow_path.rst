@@ -66,7 +66,7 @@ you can use a *Locked Track* and a target object to specify the up direction, as
 Options
 =======
 
-.. figure:: /images/25-Manual-Constraints-Relationship-FollowPath.jpg
+.. figure:: /images/Constraints-Relationship-FollowPath.jpg
    :width: 305px
 
    Follow Path panel

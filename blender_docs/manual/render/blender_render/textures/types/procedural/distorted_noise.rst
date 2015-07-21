@@ -3,7 +3,7 @@
 Procedural textures: Distorted Noise
 ************************************
 
-.. figure:: /images/25-Manual-Textures-Procedural-DistNoise.jpg
+.. figure:: /images/Textures-Procedural-DistNoise.jpg
    :width: 307px
 
    Distorted Noise Texture Panels

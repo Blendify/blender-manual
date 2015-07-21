@@ -50,7 +50,7 @@ This only affects the render and does not show in the viewport
 Displacement can also be done manually by use of the Displacement Modifier.
 
 
-.. figure:: /images/Manual-Cycles-Displacement-Dicing.jpg
+.. figure:: /images/Cycles-Displacement-Dicing.jpg
    :width: 567px
 
    Subdivision Off - On, Dicing Rate 1.0 - 0.3 - 0.05 (Monkeys look identical in viewport, no modifiers)

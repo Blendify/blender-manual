@@ -34,19 +34,19 @@ Sliding the new edge loop
    This step is skipped when using multiple edge loops (see below)
 
 
-.. figure:: /images/Doc26-loopCut-before.jpg
+.. figure:: /images/loopCut-before.jpg
    :width: 200px
 
    mesh before inserting edge loop
 
 
-.. figure:: /images/Doc26-loopCut-preview.jpg
+.. figure:: /images/loopCut-preview.jpg
    :width: 200px
 
    Preview of edge loop location
 
 
-.. figure:: /images/Doc26-loopCut-placement.jpg
+.. figure:: /images/loopCut-placement.jpg
    :width: 200px
 
    Interactive placement of edge loop between adjacent loops
@@ -72,13 +72,13 @@ Number of Cuts :kbd:`Wheel` or :kbd:`NumpadPlus` / :kbd:`NumpadMinus`
    and *you will not be able to control their positions*.
 
 
-.. figure:: /images/Doc26-loopCut-multicut.jpg
+.. figure:: /images/loopCut-multicut.jpg
    :width: 250px
 
    Preview of multiple edge loops
 
 
-.. figure:: /images/Doc26-loopCut-multicut-after.jpg
+.. figure:: /images/loopCut-multicut-after.jpg
    :width: 250px
 
    Result of using multiple cuts
@@ -93,13 +93,13 @@ Smoothing :kbd:`Alt-Wheel`
    Smoothing can help maintain the curvature of a surface once it is subdivided.
 
 
-.. figure:: /images/Doc26-loopCut-unsmooth.jpg
+.. figure:: /images/loopCut-unsmooth.jpg
    :width: 250px
 
    Added edge loops without smoothing
 
 
-.. figure:: /images/Doc26-loopCut-smooth.jpg
+.. figure:: /images/loopCut-smooth.jpg
    :width: 250px
 
    Same edge loops, but with smoothing value

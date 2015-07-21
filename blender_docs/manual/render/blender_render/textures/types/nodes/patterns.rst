@@ -9,7 +9,7 @@ Pattern Nodes
 Checker
 =======
 
-.. figure:: /images/Doc26-textureNodes_checker.jpg
+.. figure:: /images/textureNodes_checker.jpg
    :width: 200px
 
    Checker node
@@ -26,7 +26,7 @@ Size
 Bricks
 ======
 
-.. figure:: /images/Doc26-textureNodes_bricks.jpg
+.. figure:: /images/textureNodes_bricks.jpg
    :width: 200px
 
    Bricks node

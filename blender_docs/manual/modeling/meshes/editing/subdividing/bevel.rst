@@ -15,7 +15,7 @@ Bevel
    | Menu (vertex-only):    :menuselection:`Mesh --> Vertices --> Bevel` or :menuselection:`[Ctrl][V] --> Bevel`
    | Hotkey (vertex-only):  :kbd:`Shift-Ctrl-B`
 
-.. figure:: /images/Manual-PartII-Bevel-Cubes.jpg
+.. figure:: /images/Bevel-Cubes.jpg
 
    With bevel and without bevel.
 

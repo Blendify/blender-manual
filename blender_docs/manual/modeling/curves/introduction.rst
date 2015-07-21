@@ -3,7 +3,7 @@
 Curves
 ******
 
-.. figure:: /images/Manual-Part-II-LogoFinal.jpg
+.. figure:: /images/LogoFinal.jpg
 
    Bird logo made from Bezier curves.
 

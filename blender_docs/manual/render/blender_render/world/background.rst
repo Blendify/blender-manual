@@ -29,7 +29,7 @@ but a very common use of a *World* is to shade a background color.
 Options
 -------
 
-.. figure:: /images/25-Manual-World-WorldSkyColor.jpg
+.. figure:: /images/World-WorldSkyColor.jpg
    :width: 297px
 
    World panel
@@ -67,7 +67,7 @@ very large Box or sphere which encompasses the entire scene,
 or which it maps to a virtual space around the scene.
 
 
-.. figure:: /images/25-Manual-World-TexCoord.jpg
+.. figure:: /images/World-TexCoord.jpg
    :width: 207px
 
    Texture Coordinates pop-up menu
@@ -93,7 +93,7 @@ Object
    Position the texture relative to a specified object's local texture space
 
 
-.. figure:: /images/25-Manual-World-TexInfluence.jpg
+.. figure:: /images/World-TexInfluence.jpg
    :width: 297px
 
    Texture Influence panel

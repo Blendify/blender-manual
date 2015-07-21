@@ -3,7 +3,7 @@
 Hemi Lamp
 *********
 
-.. figure:: /images/Manual-Part-V-HemiScheme.jpg
+.. figure:: /images/HemiScheme.jpg
    :width: 250px
 
    Hemi light conceptual scheme
@@ -27,7 +27,7 @@ the inside of the hemisphere.
 Options
 =======
 
-.. figure:: /images/25-Manual-Lighting-Lamps-Hemi.jpg
+.. figure:: /images/Lighting-Lamps-Hemi.jpg
    :width: 307px
 
    Hemi lamp's panel

@@ -3,7 +3,7 @@
 Procedural textures: Magic
 **************************
 
-.. figure:: /images/25-Manual-Textures-Procedural-Magic.jpg
+.. figure:: /images/Textures-Procedural-Magic.jpg
    :width: 307px
 
    Magic Texture Panels

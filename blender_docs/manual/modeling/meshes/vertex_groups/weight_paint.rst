@@ -18,7 +18,7 @@ And since painting is always associated with color, we also need to define ...
 Weight Paint in a nutshell
 ==========================
 
-.. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-example.jpg
+.. figure:: /images/Modeling-Meshes-weight-paint-example.jpg
 
    Weight Painted Vertex Group
 
@@ -60,7 +60,7 @@ And all in-between influences are drawn in rainbow colors, depending on their va
 green, yellow, orange, red)
 
 
-.. figure:: /images/Blender3D_Weight_Spec.jpg
+.. figure:: /images/Weight_Spec.jpg
    :width: 610px
 
    Image 3: The color spectrum and their respective weights.
@@ -76,7 +76,7 @@ Thus you can see the referenced areas (drawn in cold/hot colors) and the unrefer
 Brushes
 =======
 
-.. figure:: /images/26-Manual-Modeling-Meshes-Weight-Paint-Brush.jpg
+.. figure:: /images/Modeling-Meshes-Weight-Paint-Brush.jpg
 
    The Brush panel in the Tool Shelf
 
@@ -165,7 +165,7 @@ Multi-Paint
 The Brush stroke definition
 ---------------------------
 
-.. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-stroke.jpg
+.. figure:: /images/Modeling-Meshes-weight-paint-stroke.jpg
    :width: 235px
 
    Stroke Panel
@@ -195,7 +195,7 @@ Factor
 The brush Falloff curve
 -----------------------
 
-.. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-curve.jpg
+.. figure:: /images/Modeling-Meshes-weight-paint-curve.jpg
    :width: 235px
 
    Curve Panel
@@ -208,7 +208,7 @@ extent. The usage should be obvious and intuitive.
 The brush appearance
 --------------------
 
-.. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-appearance.jpg
+.. figure:: /images/Modeling-Meshes-weight-paint-appearance.jpg
    :width: 235px
 
    Brush appearance
@@ -239,7 +239,7 @@ Blender provides several Brush presets:
 Customizing brush color space
 -----------------------------
 
-.. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-custom-colorband.jpg
+.. figure:: /images/Modeling-Meshes-weight-paint-custom-colorband.jpg
 
    Customizing the Color Band
 
@@ -263,7 +263,7 @@ The option is available from the footer menu bar of the 3D viewport
 (see icons surrounded by the yellow frame):
 
 
-.. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-select.jpg
+.. figure:: /images/Modeling-Meshes-weight-paint-select.jpg
 
 You can choose between *Face Selection masking* (left icon)
 and *Vertex selection masking* (right icon).
@@ -299,7 +299,7 @@ The following standard selection operations are supported:
 Vertex Selection Masking
 ------------------------
 
-.. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-vertex-select.jpg
+.. figure:: /images/Modeling-Meshes-weight-paint-vertex-select.jpg
 
    Vertex Selection masking
 
@@ -315,12 +315,12 @@ All unselected vertices are protected from unintentional changes.
 Face Selection Masking
 ----------------------
 
-.. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-face-select.jpg
+.. figure:: /images/Modeling-Meshes-weight-paint-face-select.jpg
 
    Face Selection masking
 
 
-.. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-face-select-hidden.jpg
+.. figure:: /images/Modeling-Meshes-weight-paint-face-select-hidden.jpg
 
    hidden faces
 
@@ -360,7 +360,7 @@ The selected area will be "cut out" as the area of interest.
 The rest of the 3D window gets hidden.
 
 
-.. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-border-select.jpg
+.. figure:: /images/Modeling-Meshes-weight-paint-border-select.jpg
 
    The Clipping Border is used to select interesting parts for local painting
 
@@ -374,7 +374,7 @@ weight gradient and of course brush strokes.
 Weight Paint Options
 ====================
 
-.. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-options.jpg
+.. figure:: /images/Modeling-Meshes-weight-paint-options.jpg
 
    Weight Paint Options
 
@@ -420,7 +420,7 @@ be shared across different brushes, as opposed to per-brush.
 Weight Paint Tools
 ==================
 
-.. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-tools.jpg
+.. figure:: /images/Modeling-Meshes-weight-paint-tools.jpg
 
    Weight Paint Tools
 
@@ -487,7 +487,7 @@ Then the mirrored groups with the mirrored weights are automatically created.
 Weight Painting for Particles
 =============================
 
-.. figure:: /images/Manual-WeightPaint-particles.jpg
+.. figure:: /images/WeightPaint-particles.jpg
 
    Weight painted particle emission.
 

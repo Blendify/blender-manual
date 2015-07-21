@@ -3,7 +3,7 @@
 Flip Node
 *********
 
-.. figure:: /images/Manual-Compositing_Nodes-Flip.jpg
+.. figure:: /images/Compositing_Nodes-Flip.jpg
 
    Flip node
 

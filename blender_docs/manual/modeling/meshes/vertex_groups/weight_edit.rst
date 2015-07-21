@@ -3,7 +3,7 @@
 Weight Editing
 **************
 
-.. figure:: /images/26-Manual-Modeling-Meshes-vertex-weights-panel-overview.jpg
+.. figure:: /images/Modeling-Meshes-vertex-weights-panel-overview.jpg
    :width: 235px
 
    Vertex Weights Panel
@@ -73,7 +73,7 @@ In that case the Vertex Weights Panel is not displayed.
 Each row in the Weight table contains 4 active elements:
 
 
-.. figure:: /images/26-Manual-Modeling-Meshes-vertex-weight-editor-name.jpg
+.. figure:: /images/Modeling-Meshes-vertex-weight-editor-name.jpg
    :width: 335px
 
    Change Active Group
@@ -86,7 +86,7 @@ As soon as you select any of the Vertex Group Names in the Weight table,
 the referenced Vertex Group becomes the new Active group.
 
 
-.. figure:: /images/26-Manual-Modeling-Meshes-vertex-weights-show.jpg
+.. figure:: /images/Modeling-Meshes-vertex-weights-show.jpg
    :width: 235px
 
    Enable display of Weights in Edit Mode
@@ -102,7 +102,7 @@ And there enable the *Show Weights* option.
 Now you can see the weights of the active Vertex Group displayed on the mesh surface.
 
 
-.. figure:: /images/26-Manual-Modeling-Meshes-weights-in-edit-mode.jpg
+.. figure:: /images/Modeling-Meshes-weights-in-edit-mode.jpg
    :width: 235px
 
    Weights in Edit Mode
@@ -116,7 +116,7 @@ available and you have direct visual control over how your Weights change when y
 weight values.
 
 
-.. figure:: /images/26-Manual-Modeling-Meshes-vertex-weight-editor-weight.jpg
+.. figure:: /images/Modeling-Meshes-vertex-weight-editor-weight.jpg
    :width: 235px
 
    Change Weight Value
@@ -131,7 +131,7 @@ drag right or left to increase/decrease the weight value. You also can use the r
 arrows displayed around the weight value to change the weight in steps.
 
 
-.. figure:: /images/26-Manual-Modeling-Meshes-vertex-weight-editor-paste.jpg
+.. figure:: /images/Modeling-Meshes-vertex-weight-editor-paste.jpg
    :width: 235px
 
    Paste weights
@@ -144,7 +144,7 @@ Paste a weight to other verts
 But note that weights are only pasted to verts which already have a weight value in the affected Vertex Group.
 
 
-.. figure:: /images/26-Manual-Modeling-Meshes-vertex-weight-editor-delete.jpg
+.. figure:: /images/Modeling-Meshes-vertex-weight-editor-delete.jpg
    :width: 235px
 
    Delete weights
@@ -160,7 +160,7 @@ Thus the entire row disappears when you click on the delete icon.
 The Function bar
 ----------------
 
-.. figure:: /images/26-Manual-Modeling-Meshes-vertex-weight-editor-functions.jpg
+.. figure:: /images/Modeling-Meshes-vertex-weight-editor-functions.jpg
    :width: 235px
 
    Vertex Weights panel Function Bar
@@ -187,7 +187,7 @@ Copy
 About locked Vertex Groups
 --------------------------
 
-.. figure:: /images/26-Manual-Modeling-Meshes-vertex-weight-editor-locked.jpg
+.. figure:: /images/Modeling-Meshes-vertex-weight-editor-locked.jpg
    :width: 235px
 
    Vertex Weights panel Locked

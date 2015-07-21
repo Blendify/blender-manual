@@ -110,12 +110,12 @@ Ridge & Valley
 Edge Marks
 ----------
 
-.. figure:: /images/Manual-Part26-freestyle-mark-freestyle-edge.jpg
+.. figure:: /images/freestyle-mark-freestyle-edge.jpg
 
    Select and mark Freestyle edges.
 
 
-.. figure:: /images/Manual-Part26-freestyle-edge-mark.jpg
+.. figure:: /images/freestyle-edge-mark.jpg
 
    Edge Mark setting in the Line Sets tab.
 
@@ -135,15 +135,15 @@ The examples below explain the use of edge marks.
 
 .. list-table::
 
-   * - .. figure:: /images/Manual-Part26-freestyle-edge-marks-viewport.jpg
+   * - .. figure:: /images/freestyle-edge-marks-viewport.jpg
 
           Marking Freestyle Edges in edit mode.
 
-     - .. figure:: /images/Manual-Part26-freestyle-edge-marks-disabled.jpg
+     - .. figure:: /images/freestyle-edge-marks-disabled.jpg
 
           Render without Edge Marks.
 
-     - .. figure:: /images/Manual-Part26-freestyle-edge-marks-enabled.jpg
+     - .. figure:: /images/freestyle-edge-marks-enabled.jpg
 
           Render with Edge Marks enabled.
 
@@ -168,7 +168,7 @@ What are edge marks not good for?
 Selection by Face Marks
 =======================
 
-.. figure:: /images/Manual-Part26-freestyle-mark-freestyle-face.jpg
+.. figure:: /images/freestyle-mark-freestyle-face.jpg
 
    Mark Freestyle Faces.
 
@@ -186,16 +186,16 @@ On the right is a render without face marks activated.
 
 .. list-table::
 
-   * - .. figure:: /images/Manual-Part26-freestyle-face-marks-viewport.jpg
+   * - .. figure:: /images/freestyle-face-marks-viewport.jpg
 
           Marked Faces.
 
-     - .. figure:: /images/Manual-Part26-freestyle-face-marks-disabled.jpg
+     - .. figure:: /images/freestyle-face-marks-disabled.jpg
 
           Render Output.
 
 
-.. figure:: /images/Manual-Part26-freestyle-face-mark.jpg
+.. figure:: /images/freestyle-face-mark.jpg
 
    Face mark options.
 
@@ -215,22 +215,22 @@ The image below shows the resulting combinations.
 
 .. list-table::
 
-   * - .. figure:: /images/Manual-Part26-freestyle-face-mark-inclusive-one.jpg
+   * - .. figure:: /images/freestyle-face-mark-inclusive-one.jpg
 
           Inclusive, One Face.
 
-     - .. figure:: /images/Manual-Part26-freestyle-face-mark-inclusive-both.jpg
+     - .. figure:: /images/freestyle-face-mark-inclusive-both.jpg
 
           Inclusive, Both Faces.
 
 
 .. list-table::
 
-   * - .. figure:: /images/Manual-Part26-freestyle-face-mark-exclusive-one.jpg
+   * - .. figure:: /images/freestyle-face-mark-exclusive-one.jpg
 
           Exclusive, One Face.
 
-     - .. figure:: /images/Manual-Part26-freestyle-face-mark-exclusive-both.jpg
+     - .. figure:: /images/freestyle-face-mark-exclusive-both.jpg
 
           Exclusive, Both Faces.
 

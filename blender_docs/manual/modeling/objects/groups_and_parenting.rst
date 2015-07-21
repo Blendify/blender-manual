@@ -83,7 +83,7 @@ Assume that we have a scene consisting of 3 objects,
 those being 2 Empty Objects named "EmptyA" and "EmptyB", and a Monkey object. See figure 1.
 
 
-.. figure:: /images/Parent_-_Object_(Keep_Transform)_-_A.jpg
+.. figure:: /images/Parent-Object_Keep_Transform-A.jpg
 
    Figure 1 - Scene with 2 Empties and a Monkey, no parenting currently active.
 
@@ -101,7 +101,7 @@ Scale the "EmptyA" object, so that the Monkey becomes smaller and moves to the l
 See figure 2.
 
 
-.. figure:: /images/Parent_-_Object_(Keep_Transform)_-_B.jpg
+.. figure:: /images/Parent-Object_Keep_Transform-B.jpg
 
    Figure 2 - Scene with Monkey object being the Child Object of "EmptyA".
    "EmptyA" has been scaled resulting in the Monkey also being scaled and moved to the left.
@@ -115,7 +115,7 @@ Notice that when you change the parent of the Monkey the scale of the Monkey cha
 See figure 3.
 
 
-.. figure:: /images/Parent_-_Object_(Keep_Transform)_-_C.jpg
+.. figure:: /images/Parent-Object_Keep_Transform-C.jpg
 
    Figure 3 - Scene with Monkey object having its a parent changed
    from "EmptyA" to "EmptyB" and the resulting change in scale.
@@ -134,7 +134,7 @@ would keep its scale information it obtained from the old parent "EmptyA" when i
 to the new parent "EmptyB"; See Figure 4.
 
 
-.. figure:: /images/Parent_-_Object_(Keep_Transform)_-_D.jpg
+.. figure:: /images/Parent-Object_Keep_Transform-D.jpg
 
    Figure 4 - Scene with Monkey object having its a parent changed
    from "EmptyA" to "EmptyB" using 'Object (Keep Transform)' parent method.
@@ -575,7 +575,7 @@ Clear Parent Inverse
 Hints
 -----
 
-.. figure:: /images/25-Manual-Modeling-Objects-Parenting-Exampel2-Outliner.jpg
+.. figure:: /images/Modeling-Objects-Parenting-Exampel2-Outliner.jpg
 
    Outliner view
 
@@ -603,7 +603,7 @@ press :kbd:`P` then select one of the following.
 Options
 -------
 
-.. figure:: /images/25-Manual-Modeling-Objects-Parenting-Exampel-SuzDissect.jpg
+.. figure:: /images/Modeling-Objects-Parenting-Exampel-SuzDissect.jpg
 
    Suzanne dissected neatly
 
@@ -619,7 +619,7 @@ By Material
 Grouping objects
 ================
 
-.. figure:: /images/25-Manual-Modeling-Objects-Parenting-Exampel-GroupedObj.jpg
+.. figure:: /images/Modeling-Objects-Parenting-Exampel-GroupedObj.jpg
 
    Grouped objects
 
@@ -638,7 +638,7 @@ Creating a Group
    :kbd:`Ctrl-G` creates a new group and adds the selected object(s) to it.
 
 
-.. figure:: /images/25-Manual-Modeling-Objects-Grouping-ObjProp.jpg
+.. figure:: /images/Modeling-Objects-Grouping-ObjProp.jpg
 
    Naming a Group
 

@@ -7,7 +7,7 @@ Fluid Technical Details
 Physical correctness
 ====================
 
-.. figure:: /images/Manual-Part-X-fluidsim-example3.jpg
+.. figure:: /images/fluidsim-example3.jpg
 
    "My cup runneth over"
 

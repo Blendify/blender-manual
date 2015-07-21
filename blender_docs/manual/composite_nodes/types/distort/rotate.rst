@@ -3,7 +3,7 @@
 Rotate Node
 ***********
 
-.. figure:: /images/Manual-Compositing_Nodes-Rotate.jpg
+.. figure:: /images/Compositing_Nodes-Rotate.jpg
 
    Rotate node
 

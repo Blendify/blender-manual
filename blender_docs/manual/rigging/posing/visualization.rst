@@ -48,7 +48,7 @@ ordered here by precedence (i.e. the bone will be of the color of the topmost va
 Coloring from Bone Group
 ------------------------
 
-.. figure:: /images/Doc26-rigging-boneGroups.jpg
+.. figure:: /images/rigging-boneGroups.jpg
    :width: 250px
 
    The Bone Groups panel with a bone group (default colors).
@@ -65,7 +65,7 @@ you can use the top row of controls to select another group in the drop-down lis
 ("arrows" button), rename the current group (text field), or delete it ("X" button).
 
 
-.. figure:: /images/Doc26-rigging-boneGroups-assign.jpg
+.. figure:: /images/rigging-boneGroups-assign.jpg
    :width: 250px
 
    The Bone Group drop-down list of a bone sub-panel.
@@ -90,7 +90,7 @@ Remove Bone Group
    Removes the active bone group
 
 
-.. figure:: /images/Doc26-rigging-boneGroups-colors.jpg
+.. figure:: /images/rigging-boneGroups-colors.jpg
    :width: 300px
 
    The Bone Color Set list of the bone group, and the color swatch of the chosen color theme.
@@ -131,7 +131,7 @@ Ghosts
    * - .. figure:: /images/Armature_ghost_arround_current.jpg
           :width: 200px
 
-     - .. figure:: /images/Manual-PartIX-ie_ghost.jpg
+     - .. figure:: /images/ie_ghost.jpg
           :width: 200px
 
 

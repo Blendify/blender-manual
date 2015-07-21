@@ -6,7 +6,7 @@
 Edge (Toon) Rendering
 *********************
 
-.. figure:: /images/Manual-Part-XI-Toon01.jpg
+.. figure:: /images/Toon01.jpg
    :width: 240px
 
    A scene with Toon materials.
@@ -21,7 +21,7 @@ Blender can add this feature as a post-processing operation.
 Options
 =======
 
-.. figure:: /images/Manual-Part-XI-Render07.jpg
+.. figure:: /images/Render07.jpg
 
    Toon edge buttons.
 
@@ -30,7 +30,7 @@ Edge
    This makes Blender search for edges in your rendering and add an 'outline' to them.
 
 
-.. figure:: /images/Manual-Part-XI-Render08.jpg
+.. figure:: /images/Render08.jpg
 
    Toon edge settings.
 
@@ -49,13 +49,13 @@ Color / R/G/B
 Examples
 ========
 
-.. figure:: /images/Manual-Part-XI-Toon02.jpg
+.. figure:: /images/Toon02.jpg
    :width: 400px
 
    Scene re-rendered with toon edge set.
 
 
-.. figure:: /images/Manual-Renderlayer-Edge.jpg
+.. figure:: /images/Renderlayer-Edge.jpg
    :width: 400px
 
    Post-processing Edge and Renderlayers

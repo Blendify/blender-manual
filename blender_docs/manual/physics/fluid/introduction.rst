@@ -27,7 +27,7 @@ and saving them to hard disk. Then the appropriate fluid surface for the current
 loaded from disk and displayed or rendered.
 
 
-.. figure:: /images/Manual-Part-X-fluidsim-example1.jpg
+.. figure:: /images/fluidsim-example1.jpg
    :width: 640px
 
    A breaking dam.

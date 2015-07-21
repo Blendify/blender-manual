@@ -44,7 +44,7 @@ Visualization
 Standard
 --------
 
-.. figure:: /images/Manual-Animation-Timeline-Markers.jpg
+.. figure:: /images/Animation-Timeline-Markers.jpg
 
    Markers: small but useful.
 

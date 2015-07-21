@@ -9,7 +9,7 @@ See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>`
 Options
 =======
 
-.. figure:: /images/Doc_Manual_BGE_Game_Actuator_Steering_-_Steering_Panel.jpg
+.. figure:: /images/bge_actuator_steering-steering_panel.jpg
 
    Steering Actuator Panel
 

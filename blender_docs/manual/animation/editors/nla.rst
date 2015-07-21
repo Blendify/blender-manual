@@ -71,7 +71,7 @@ Select two or more strips on the same track, and go to
    | Menu:     Add --> Transition
 
 
-.. figure:: /images/Manual_NLA-Basics_Transition.jpg
+.. figure:: /images/NLA-Basics_Transition.jpg
    :width: 200px
 
    Transition Strip.

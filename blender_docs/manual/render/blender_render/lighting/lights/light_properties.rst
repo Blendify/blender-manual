@@ -6,7 +6,7 @@
 Lights Common Options
 *********************
 
-.. figure:: /images/25-Manual-Lighting-Lights-Properties.jpg
+.. figure:: /images/Lighting-Lights-Properties.jpg
    :width: 312px
 
    Lamp Properties panels

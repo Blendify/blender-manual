@@ -14,7 +14,7 @@ this node blurs areas of an image based on the input zbuffer map/mask.
 Camera Settings
 ===============
 
-.. figure:: /images/Manual-Compositing-Node-Defocus_Camera_settings.jpg
+.. figure:: /images/Compositing-Node-Defocus_Camera_settings.jpg
 
    DofDist setting for the camera.
 
@@ -36,7 +36,7 @@ the focal point is then visible as a yellow cross along the view direction of th
 Node Inputs
 ===========
 
-.. figure:: /images/Manual-Compositing-Node-Defocus.jpg
+.. figure:: /images/Compositing-Node-Defocus.jpg
 
    Defocus node
 
@@ -69,7 +69,7 @@ Gamma Correct
    It can be useful to further brighten out of focus parts in the image, accentuating the Bokeh effect.
 
 
-.. figure:: /images/Manual-Compositing-Node-Defocus-WithZ.jpg
+.. figure:: /images/Compositing-Node-Defocus-WithZ.jpg
 
    Defocus node using Z-Buffer
 
@@ -148,7 +148,7 @@ Zscale
 Examples
 ========
 
-.. figure:: /images/Manual-Node-Defocus-example.jpg
+.. figure:: /images/Node-Defocus-example.jpg
    :width: 200px
    :figwidth: 200px
 

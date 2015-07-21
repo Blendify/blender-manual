@@ -17,7 +17,7 @@ This constraint is fully documented in the :doc:`inverse kinematics page
 Options
 =======
 
-.. figure:: /images/25-Manual-Constraints-Tracking-IK.jpg
+.. figure:: /images/Constraints-Tracking-IK.jpg
    :width: 305px
 
    Inverse Kinematics panel

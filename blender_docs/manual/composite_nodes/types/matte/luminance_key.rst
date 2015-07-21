@@ -32,7 +32,7 @@ keyed selection and a black and white *Matte* (i.e the alpha mask).
 Example
 =======
 
-.. figure:: /images/Manual-Composting-LumaKey_ex.jpg
+.. figure:: /images/Composting-LumaKey_ex.jpg
    :width: 300px
 
    Using Luma Key...with a twist

@@ -19,7 +19,7 @@ each with its own unique strengths and limitations. Here are the available lamps
   simulates a very far away and punctual light source, like the sun.
 
 
-.. figure:: /images/25-Manual-Lighting-Lamps-Visual.jpg
+.. figure:: /images/Lighting-Lamps-Visual.jpg
    :width: 300px
 
    Visual height and shadow markers of two points lamps. Ray Shadow is enabled on the left lamp.

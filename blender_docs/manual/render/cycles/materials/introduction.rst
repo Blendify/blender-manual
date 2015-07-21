@@ -8,7 +8,7 @@ They consist of three shaders, defining the appearance of the surface of the mes
 the volume inside the mesh, and displacement of the surface of the mesh.
 
 
-.. figure:: /images/Manual_cycles_material_shaders.png
+.. figure:: /images/cycles_material_shaders.png
 
 :doc:`Surface Shader </render/cycles/materials/surface>`
 ========================================================

@@ -50,7 +50,7 @@ Armature IK Panel
 This panel is used to select the IK Solver type for the armature. *Standard* or *iTaSC*.
 
 
-.. figure:: /images/Doc_IK_Armature_IK_Panel.jpg
+.. figure:: /images/IK_Armature_IK_Panel.jpg
 
    Properties > Armature > Inverse Kinematics Panel.
 
@@ -68,7 +68,7 @@ Bone IK Panel
 This panel is used to control how the *Pose Bones* work in the IK chain.
 
 
-.. figure:: /images/Doc_IK_Bone_IK_Panel.jpg
+.. figure:: /images/IK_Bone_IK_Panel.jpg
 
    Properties > Bone > Inverse Kinematics Panel.
 
@@ -95,7 +95,7 @@ but the forearm can still be twisted manually by pressing :kbd:`R-Y-Y` in *Pose 
 or by using other constraints.
 
 
-.. figure:: /images/Doc_IK_Arm_Example.jpg
+.. figure:: /images/IK_Arm_Example.jpg
 
    IK Arm Example.
 

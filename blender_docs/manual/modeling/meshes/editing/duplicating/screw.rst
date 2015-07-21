@@ -22,12 +22,12 @@ You can see some examples of Meshes generated with the *Screw* tool in Fig.
 1 - Wood Screw tip done with the screw tool and Fig. 2 - Spring done with the screw tool.
 
 
-.. figure:: /images/(Doc_26x_Modeling_Mesh_Screw)_(Screw_Example_Shell)_(GBAFN).jpg
+.. figure:: /images/Modeling_Mesh_Screw_Screw_Example_Shell.jpg
 
    Fig. 1 - Wood Screw tip done with the screw tool
 
 
-.. figure:: /images/(Doc_26x_Modeling_Mesh_Screw)_(Screw_Example_Spring)_(GBAFN).jpg
+.. figure:: /images/Modeling_Mesh_Screw_Screw_Example_Spring.jpg
 
    Fig. 2- Spring done with the screw tool
 
@@ -96,12 +96,12 @@ both in the info Window and at the place where you clicked to start performing t
 (when you click the Screw Button).
 
 
-.. figure:: /images/(Doc_26x_Modeling_Mesh_Screw)_(Error_Message_Info_Window)_(GBAFN).jpg
+.. figure:: /images/Modeling_Mesh_Screw_Error_Message_Info_Window.jpg
 
    Fig. 3 - Screw Error message in the Header of the Info Window
 
 
-.. figure:: /images/(Doc_26x_Modeling_Mesh_Screw)_(Error_Message_Screw_Tool)_(GBAFN).jpg
+.. figure:: /images/Modeling_Mesh_Screw_Error_Message_Screw_Tool.jpg
 
    Fig. 4 - Error message when clicking in the Screw Tool with an incorrect or bad selection
 
@@ -155,12 +155,12 @@ you can press :kbd:`Ctrl-Z` at any time in *Edit Mode*.
   Continuous operations without changing the selection will repeat the operation continuously from the last point.
 
 
-.. figure:: /images/(Doc_26x_Modeling_Mesh_Screw)_(Cursor_Basic_Location)_(GBAFN).jpg
+.. figure:: /images/Modeling_Mesh_Screw_Cursor_Basic_Location.jpg
 
    Fig. 6 - Cursor Basic Location - Transform Panel
 
 
-.. figure:: /images/(Doc_26x_Modeling_Mesh_Screw)_(Screw_Interactive_Panel)_(GBAFN).jpg
+.. figure:: /images/Modeling_Mesh_Screw_Screw_Interactive_Panel.jpg
 
    Fig. 7 - Screw Interactive Panel - Mesh Tools Panel (Edit Mode)
 
@@ -203,7 +203,7 @@ Examples
 The Spring example
 ------------------
 
-.. figure:: /images/(Doc_26x_Modeling_Mesh_Screw)_(Screw_Circle_Moved_X_-3BU)_(GBAFN).jpg
+.. figure:: /images/Modeling_Mesh_Screw_Screw_Circle_Moved_X_-3BU.jpg
 
    Fig. 8 - Circle placed at X -3,0,0
 
@@ -233,7 +233,7 @@ The Spring example
 Now we will create a height vector for Blender:
 
 
-.. figure:: /images/(Doc_26x_Modeling_Mesh_Screw)_(Spring_Profile_Ready)_(GBAFN).jpg
+.. figure:: /images/Modeling_Mesh_Screw_Spring_Profile_Ready.jpg
 
    Fig. 9 - Profile and vector created
 
@@ -273,12 +273,12 @@ changed the angular vector of the height you have given to Blender to the opposi
 10 - Counterclockwise direction and Fig. 11 - Flipped to Clockwise direction.
 
 
-.. figure:: /images/(Doc_26x_Modeling_Mesh_Screw)_(Screw_Spring_Counterclockwise)_(GBAFN).jpg
+.. figure:: /images/Modeling_Mesh_Screw_Screw_Spring_Counterclockwise.jpg
 
    Fig. 10 - Counterclockwise direction
 
 
-.. figure:: /images/(Doc_26x_Modeling_Mesh_Screw)_(Screw_Spring_Clockwise)_(GBAFN).jpg
+.. figure:: /images/Modeling_Mesh_Screw_Screw_Spring_Clockwise.jpg
 
    Fig. 11 - Flipped to Clockwise direction.
 
@@ -322,12 +322,12 @@ Below we show two bent Meshes using the Axis vectors and the Spring example. See
 the Top Ortho View.
 
 
-.. figure:: /images/(Doc_26x_Modeling_Mesh_Screw)_(Angular_Vector_Example_1)_(GBAFN).jpg
+.. figure:: /images/Modeling_Mesh_Screw_Angular_Vector_Example_1.jpg
 
    Fig. 12 - Bended Mesh, Example 1 - The Axis will give the profile a starting vector angle
 
 
-.. figure:: /images/(Doc_26x_Modeling_Mesh_Screw)_(Angular_Vector_Example_2)_(GBAFN).jpg
+.. figure:: /images/Modeling_Mesh_Screw_Angular_Vector_Example_2.jpg
 
    Fig. 13 - Bended Mesh Example 2 - The vector angle is maintained along the extrusions
 
@@ -372,13 +372,13 @@ will assembly perfectly with each other.
 - Change Steps and Turns as you like. Fig. 15 - Generated Mesh - Shows you an example of the results.
 
 
-.. figure:: /images/(Doc_26x_Modeling_Mesh_Screw)_(Screw_Perfect_Spindle_Profile)_(GBAFN).jpg
+.. figure:: /images/Modeling_Mesh_Screw_Screw_Perfect_Spindle_Profile.jpg
 
    Fig. 14 - Profile for a perfect screw spindle.
    The starting and ending vertices are forming a parallel line with the Blender Axis
 
 
-.. figure:: /images/(Doc_26x_Modeling_Mesh_Screw)_(Screw_Generated_Perfect_Spindle)_(GBAFN).jpg
+.. figure:: /images/Modeling_Mesh_Screw_Screw_Generated_Perfect_Spindle.jpg
 
    Fig. 15 - Generated Mesh. You can use this technique to perform normal screw modeling.
 
@@ -388,12 +388,12 @@ but maintaining the beginning and ending vertices at the same position.
 The generated mesh looks like a medieval ramp!
 
 
-.. figure:: /images/(Doc_26x_Modeling_Mesh_Screw)_(Ramp_Like_Profile)_(GBAFN).jpg
+.. figure:: /images/Modeling_Mesh_Screw_Ramp_Like_Profile.jpg
 
    Fig. 16 - Profile with starting and ending vertices forming a parallel line with the Blender Axis
 
 
-.. figure:: /images/(Doc_26x_Modeling_Mesh_Screw)_(Ramp_Like_Generated)_(GBAFN).jpg
+.. figure:: /images/Modeling_Mesh_Screw_Ramp_Like_Generated.jpg
 
    Fig. 17 - Generated Mesh with the profile at the left. We have inclined the visualization a bit.
 
@@ -433,12 +433,12 @@ To make this new example as short as possible, we will recycle our last example 
 - Press Screw.
 
 
-.. figure:: /images/(Doc_26x_Modeling_Mesh_Screw)_(Profile_With_Vector_Angle)_(GBAFN).jpg
+.. figure:: /images/Modeling_Mesh_Screw_Profile_With_Vector_Angle.jpg
 
    Fig. 18 - Profile With Starting Vector Angle
 
 
-.. figure:: /images/(Doc_26x_Modeling_Mesh_Screw)_(Generated_With_Base_Vector_Angle)_(GBAFN).jpg
+.. figure:: /images/Modeling_Mesh_Screw_Generated_With_Base_Vector_Angle.jpg
 
    Fig. 19 - Generated Mesh with the Profile
 

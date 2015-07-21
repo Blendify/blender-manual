@@ -100,7 +100,7 @@ Reference (*Duplicate Example*) for the discussions below.
    :kbd:`LMB` the number in the *Object Data* panel of the Properties Window.
 
 
-   .. figure:: /images/Manual-Interface-Scenes-mk_singleuser.jpg
+   .. figure:: /images/Interface-Scenes-mk_singleuser.jpg
       :align: center
 
 Examples

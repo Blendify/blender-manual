@@ -3,7 +3,7 @@
 Mix Node
 ********
 
-.. figure:: /images/Manual-Node-Mix.jpg
+.. figure:: /images/Node-Mix.jpg
 
 This node mixes a base image (threaded to the top socket) together with a second image
 (bottom socket)
@@ -41,7 +41,7 @@ Examples
 Below are samples of common mix modes and uses, mixing a color or checker with a mask.
 
 
-.. figure:: /images/Manual-Compositing-Mix-examples.jpg
+.. figure:: /images/Compositing-Mix-examples.jpg
 
 Some explanation of the mixing methods above might help you use the Mix node effectively:
 
@@ -77,7 +77,7 @@ You can see the effect each curve has independently,
 and the combined effect when they are **mixed** equally.
 
 
-.. figure:: /images/Manual-Compositing-RGB_Map.jpg
+.. figure:: /images/Compositing-RGB_Map.jpg
 
    Example node setup showing "Darken", "Enhance Contrast" and "Mix" nodes for composition.
 
@@ -127,7 +127,7 @@ The Add node adds the corresponding pixels,
 make the ones containing the mark ever-so-slightly brighter.
 
 
-.. figure:: /images/Manual-Compositing-Mix-watermark-encode.jpg
+.. figure:: /images/Compositing-Mix-watermark-encode.jpg
 
    Embedding your mark in an Image using a Mark and Specific Position
 
@@ -153,7 +153,7 @@ and the Map Value node amplifies any difference. The result is routed to a viewe
 and you can see how the original mark stands out, clear as a bell:
 
 
-.. figure:: /images/Manual-Compositing-Mix-watermark-decode.jpg
+.. figure:: /images/Compositing-Mix-watermark-decode.jpg
 
    Checking an image for your watermark
 

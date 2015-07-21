@@ -20,7 +20,7 @@ target.
 Options
 =======
 
-.. figure:: /images/25-Manual-Constraints-Transform-CopyLoc.jpg
+.. figure:: /images/Constraints-Transform-CopyLoc.jpg
    :width: 307px
 
    Copy Location panel

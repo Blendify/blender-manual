@@ -41,7 +41,7 @@ keyed selection and a black and white *Matte* (i.e the alpha mask).
 Simple Example
 ==============
 
-.. figure:: /images/Manual-Compositing-Node-DiffKey_ex1.jpg
+.. figure:: /images/Compositing-Node-DiffKey_ex1.jpg
    :width: 300px
 
    Using the Difference Key Node
@@ -76,7 +76,7 @@ we start decreasing the green until we settle on 55% (shown).
 Chaining Example
 ================
 
-.. figure:: /images/Manual-Compositing-DiffKey_ex2.jpg
+.. figure:: /images/Compositing-DiffKey_ex2.jpg
    :width: 300px
 
    Chaining Difference Key Nodes

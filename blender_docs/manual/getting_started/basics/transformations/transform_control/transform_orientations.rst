@@ -194,7 +194,7 @@ Custom Orientations
 ..    Comment: <!--[[File:Doc26-transformOrientationPanel.png|thumb|right|200px|Transform Orientation panel]]--> .
 
 
-.. figure:: /images/Doc26-transformOrientationPanel-custom.jpg
+.. figure:: /images/transformOrientationPanel-custom.jpg
 
    custom orientation
 

@@ -3,7 +3,7 @@
 Mirror Modifier
 ***************
 
-.. figure:: /images/25-Manual-Modifiers-Mirror-example-Cube.jpg
+.. figure:: /images/Modifiers-Mirror-example-Cube.jpg
    :width: 350px
 
    The corner of a cube mirrored across three axes to form... well... a cube.
@@ -18,7 +18,7 @@ It can also use another object as the mirror center, then use that object's loca
 Options
 =======
 
-.. figure:: /images/25-Manual-Modifiers-Mirror.jpg
+.. figure:: /images/Modifiers-Mirror.jpg
 
    Mirror modifier
 
@@ -98,7 +98,7 @@ When using the Mirror modifier along with a :doc:`subsurf </modifiers/generate/s
 the order in which the modifiers are placed is important.
 
 
-.. figure:: /images/25-Manual-Modifiers-Mirror-Subsurf2.jpg
+.. figure:: /images/Modifiers-Mirror-Subsurf2.jpg
    :width: 300px
 
    Subsurf modifier before Mirror modifier
@@ -110,7 +110,7 @@ This is because the subsurf calculation moves vertices away from the mirror plan
 *Merge Limit*.
 
 
-.. figure:: /images/25-Manual-Modifiers-Mirror-Subsurf1.jpg
+.. figure:: /images/Modifiers-Mirror-Subsurf1.jpg
    :width: 300px
 
    Mirror modifier before Subsurf modifier

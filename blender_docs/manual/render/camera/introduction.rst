@@ -41,7 +41,7 @@ Changing the Active Camera
    | Hotkey:   :kbd:`Ctrl-Numpad0`
 
 
-.. figure:: /images/Manual-CameraView-ActiveCamera.jpg
+.. figure:: /images/CameraView-ActiveCamera.jpg
 
    Active camera (left one).
 
@@ -92,7 +92,7 @@ See :doc:`Camera Lens </render/camera/lens>` for details.
 Camera
 ------
 
-.. figure:: /images/Manual-Camera-presets-panel.jpg
+.. figure:: /images/Camera-presets-panel.jpg
 
    Camera Presets panel.
 
@@ -111,7 +111,7 @@ Sensor size
 Depth of Field
 --------------
 
-.. figure:: /images/Manual-Camera-dof-panel.jpg
+.. figure:: /images/Camera-dof-panel.jpg
 
    Camera Depth of Field Panel
 
@@ -146,7 +146,7 @@ Viewport F-stop
 Display
 -------
 
-.. figure:: /images/Manual-Camera-display-panel.jpg
+.. figure:: /images/Camera-display-panel.jpg
 
    Camera Display panel
 
@@ -160,7 +160,7 @@ Mist
    in the :doc:`Mist section </render/blender_render/world/mist>`.
 
 
-.. figure:: /images/Manual-Camera-camera-view.jpg
+.. figure:: /images/Camera-camera-view.jpg
 
    Camera view displaying safe areas, sensor and name
 

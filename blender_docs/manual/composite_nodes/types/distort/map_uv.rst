@@ -3,7 +3,7 @@
 Map UV Node
 ***********
 
-.. figure:: /images/Manual-Compositing-Node-MapUV.jpg
+.. figure:: /images/Compositing-Node-MapUV.jpg
 
 So, I think we all agree that the problem is...we just don't know what we want.
 The same is true for directors. Despite our best job texturing our models, in post production,
@@ -33,7 +33,7 @@ so keep those UV texture outlines around even after all shooting is done.
 Examples
 ========
 
-.. figure:: /images/Manual-Compositing-Node-MapUV_ex.jpg
+.. figure:: /images/Compositing-Node-MapUV_ex.jpg
    :width: 300px
 
    Adding a Grid UV Textures for Motion Tracking
@@ -47,7 +47,7 @@ we mix that new UV Texture over the original face.
 We can use this grid texture to help in any motion tracking that we need to do.
 
 
-.. figure:: /images/Manual-Compositing-Node-MapUV_ex02.jpg
+.. figure:: /images/Compositing-Node-MapUV_ex02.jpg
    :width: 300px
 
    Adding UV Textures in Post-Production

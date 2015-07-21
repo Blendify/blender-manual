@@ -9,7 +9,7 @@ In the Properties editor, choose the Texture context: this will show the Texture
 Textures Stack
 ==============
 
-.. figure:: /images/Doc-26-Manual-Textures-Stack.jpg
+.. figure:: /images/Textures-Stack.jpg
    :width: 300px
 
    Textures Stack
@@ -30,7 +30,7 @@ image.
 Texture Datablock
 =================
 
-.. figure:: /images/Doc-26-Manual-Textures-Datablock.jpg
+.. figure:: /images/Textures-Datablock.jpg
    :width: 300px
 
    Active Texture Datablock
@@ -63,7 +63,7 @@ Unlink
 Texture Type
 ============
 
-.. figure:: /images/Doc-26-Manual-Textures-Types.jpg
+.. figure:: /images/Textures-Types.jpg
    :width: 300px
 
    Texture Types
@@ -85,7 +85,7 @@ These types are described in detail :doc:`in this section </render/blender_rende
 Preview
 =======
 
-.. figure:: /images/25-Manual-Textures-preview-panel.jpg
+.. figure:: /images/Textures-preview-panel.jpg
    :width: 300px
 
    Preview panel
@@ -108,7 +108,7 @@ Show Alpha
 Colors
 ======
 
-.. figure:: /images/25-Manual-Textures-color-panel.jpg
+.. figure:: /images/Textures-color-panel.jpg
    :width: 300px
 
    Colors panel

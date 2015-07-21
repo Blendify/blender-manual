@@ -3,7 +3,7 @@
 Invert
 ******
 
-.. figure:: /images/Manual-Nodes-Invert.jpg
+.. figure:: /images/Nodes-Invert.jpg
    :width: 320px
 
 

@@ -331,7 +331,7 @@ Shape
    0: linear progression along the curve. -0.99: the particles meet at the beginning of the curve.
 
 
-.. figure:: /images/Blender3D_CurveGuideKink.jpg
+.. figure:: /images/CurveGuideKink.jpg
    :width: 400px
 
    Image 4b: Kink options of a curve guide. From left to right: Radial, Wave, Braid, Roll.

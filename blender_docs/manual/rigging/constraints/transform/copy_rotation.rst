@@ -9,7 +9,7 @@ The *Copy Rotation* constraint forces its owner to match the rotation of its tar
 Options
 =======
 
-.. figure:: /images/25-Manual-Constraints-Transform-CopyRot.jpg
+.. figure:: /images/Constraints-Transform-CopyRot.jpg
    :width: 307px
 
    Copy Rotation panel

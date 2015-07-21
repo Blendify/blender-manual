@@ -40,7 +40,7 @@ The monkey uses two layouts, one which has one UV map of a few faces,
 and another that has three maps.
 
 
-.. figure:: /images/Manual-UV-Overview.jpg
+.. figure:: /images/UV-Overview.jpg
 
    How all the parts of UV Texturing work together
 
@@ -161,13 +161,13 @@ denser pattern by using the Texture controls for repeat or size.
 Layering UV Textures
 --------------------
 
-.. figure:: /images/Manual-UV-Layer_One.jpg
+.. figure:: /images/UV-Layer_One.jpg
    :width: 300px
 
    Base UV Texture
 
 
-.. figure:: /images/Manual-UV-Layer-Two.jpg
+.. figure:: /images/UV-Layer-Two.jpg
    :width: 300px
 
    Layered UV Texture
@@ -223,7 +223,7 @@ enables you to layer and combine textures in almost any way you can imagine.
 Mix and Match Materials
 -----------------------
 
-.. figure:: /images/Manual-UV-MixMat.jpg
+.. figure:: /images/UV-MixMat.jpg
 
 You can mix and match procedural materials and textures, vertex paint,
 and UV textures onto the same mesh.
@@ -252,7 +252,7 @@ The vertex colors are used to modulate the brightness or color of the UV image t
 - Ambient light lights it up.
 
 
-.. figure:: /images/Manual-Part-IV-uv04.jpg
+.. figure:: /images/uv04.jpg
    :width: 550px
 
    Vertex colors modulate texture.
@@ -270,7 +270,7 @@ but that's another story ...)
 Using Alpha Transparency
 ------------------------
 
-.. figure:: /images/Manual-UV-Alpha.jpg
+.. figure:: /images/UV-Alpha.jpg
    :width: 200px
 
    Alpha UV Textures
@@ -399,7 +399,7 @@ Settings
 Image
 =====
 
-.. figure:: /images/25-Manual-Textures-Image-panel.jpg
+.. figure:: /images/Textures-Image-panel.jpg
    :width: 306px
 
    Image panel
@@ -487,7 +487,7 @@ Fields
       Order of video fields - lower field first.
 
 
-.. figure:: /images/26-Manual-Textures-Image-panel-Generated.jpg
+.. figure:: /images/Textures-Image-panel-Generated.jpg
    :width: 306px
 
    Image panel for Generated source of Image texture
@@ -523,9 +523,9 @@ In the *Image Sampling* panel we can control how the information is retrieved fr
 
 .. list-table::
 
-   * - .. figure:: /images/Manual-PartIV-Bahnhofstrasse.jpg
+   * - .. figure:: /images/Bahnhofstrasse.jpg
           :width: 120px
-     - .. figure:: /images/Manual-PartIV-Map_To_Eingabewerte.jpg
+     - .. figure:: /images/Map_To_Eingabewerte.jpg
           :width: 100px
    * - Background image
      - Foreground image
@@ -540,9 +540,9 @@ the horizontal bar has 50% alpha.
 
 .. list-table::
 
-   * - .. figure:: /images/Manual-PartIV-UseAlpha.jpg
+   * - .. figure:: /images/UseAlpha.jpg
           :width: 150px
-     - .. figure:: /images/Manual-PartIV-CalcAlpha.jpg
+     - .. figure:: /images/CalcAlpha.jpg
           :width: 150px
    * - Foreground image with *Use* alpha. The alpha values of the pixels are evaluated
      - Foreground image with *Calculate* alpha
@@ -569,7 +569,7 @@ Flip X/Y Axis
    Rotates the image 90 degrees counterclockwise when rendered.
 
 
-.. figure:: /images/25-Manual-Textures-ImageSampling-panel.jpg
+.. figure:: /images/Textures-ImageSampling-panel.jpg
    :width: 306px
 
    Image Sampling panel
@@ -610,9 +610,9 @@ MIP Map
 .. list-table::
    Enlarged Image texture without and with *Interpolation*
 
-   * - .. figure:: /images/Manual-PartIV-ImageTextur-Linien.jpg
+   * - .. figure:: /images/ImageTextur-Linien.jpg
           :width: 160px
-     - .. figure:: /images/Manual-PartIV_ImageTexturInterPol-Linien.jpg
+     - .. figure:: /images/ImageTexturInterPol-Linien.jpg
           :width: 160px
 
 
@@ -624,7 +624,7 @@ Interpolation
    they remain 'sharp' even when enlarged considerably.
    When you enlarge this 10x10 pixel Image
 
-.. figure:: /images/Manual-PartIV-Linien.jpg
+.. figure:: /images/Linien.jpg
 
 the difference with and without *Interpolation* is clearly visible.
 Turn this image off if you are using digital photos to preserve crispness.
@@ -676,7 +676,7 @@ Filter
 Image Mapping
 =============
 
-.. figure:: /images/25-Manual-Textures-ImageMapping-panel.jpg
+.. figure:: /images/Textures-ImageMapping-panel.jpg
    :width: 306px
 
    Image Mapping panel

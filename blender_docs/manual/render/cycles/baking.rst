@@ -19,7 +19,7 @@ This way after the baking is done you can automatically preview the baked result
 Options
 =======
 
-.. figure:: /images/Manual-Cycles-Bake-Combined.png
+.. figure:: /images/Cycles-Bake-Combined.png
 	
 	Combined Pass
 

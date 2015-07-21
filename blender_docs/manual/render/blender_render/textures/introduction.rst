@@ -37,7 +37,7 @@ Blender allows the user to apply *textures* which can modify the reflectivity, s
 roughness and other surface qualities of a material.
 
 
-.. figure:: /images/Manual-Textures-Layers.jpg
+.. figure:: /images/Textures-Layers.jpg
    :width: 320px
 
    Textures Layer on base Material
@@ -58,7 +58,7 @@ The layers, if you will, are:
 - These two textures are **mixed** with the base material to provide the net effect: a cube of purplish-brown fog.
 
 
-.. figure:: /images/Manual-Part-IV-SomeMetal.jpg
+.. figure:: /images/SomeMetal.jpg
    :width: 320px
 
    Some Metal Textures

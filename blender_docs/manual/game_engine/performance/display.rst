@@ -14,7 +14,7 @@ style of the game to fit the window with the specified resolution.
 Options
 =======
 
-.. figure:: /images/(Doc_26x_Manual_Game_Engine_Performance_Display)_(Display_Tab_BGE_Render_Context)_(GBAFN).jpg
+.. figure:: /images/Game_Engine_Performance_Display_Display_Tab_BGE_Render_Context.jpg
 
    Fig. 1 - Display Tab at the Render Context
 

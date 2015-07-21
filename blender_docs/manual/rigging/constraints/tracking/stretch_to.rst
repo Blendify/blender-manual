@@ -26,7 +26,7 @@ With bones, the "volumetric" variation scales them along their own local axes
 Options
 =======
 
-.. figure:: /images/25-Manual-Constraints-Tracking-StretchTo.jpg
+.. figure:: /images/Constraints-Tracking-StretchTo.jpg
    :width: 250px
 
    Stretch To panel for a Mesh Object
@@ -39,7 +39,7 @@ Target (Mesh Object Type)
       When *Target* is a mesh, a new field is display where a vertex group can be selected.
 
 
-.. figure:: /images/Manual-Constraints-Tracking-StretchTo-Armature.jpg
+.. figure:: /images/Constraints-Tracking-StretchTo-Armature.jpg
    :width: 250px
 
    Stretch To panel for a Armature Object

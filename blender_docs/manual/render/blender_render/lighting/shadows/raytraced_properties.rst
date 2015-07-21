@@ -3,7 +3,7 @@
 Lamps Raytraced Shadows
 ***********************
 
-.. figure:: /images/25-Manual-Lighting-Shadow-Ray.jpg
+.. figure:: /images/Lighting-Shadow-Ray.jpg
    :width: 310px
 
    Ray shadowing options for lamps
@@ -57,47 +57,47 @@ Soft Size
 
    .. list-table::
 
-      * - .. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_1_-_Samples_2_-_Cube.jpg
+      * - .. figure:: /images/Light-Ray_Shadow-Soft_Size_1-Samples_2-Cube.jpg
              :width: 190px
 
              Soft Size: 1.0, Samples: 2.
 
-        - .. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_1_-_Samples_4_-_Cube.jpg
+        - .. figure:: /images/Light-Ray_Shadow-Soft_Size_1-Samples_4-Cube.jpg
              :width: 190px
 
              Soft Size: 1.0, Samples: 4.
 
-        - .. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_1_-_Samples_6_-_Cube.jpg
+        - .. figure:: /images/Light-Ray_Shadow-Soft_Size_1-Samples_6-Cube.jpg
              :width: 190px
 
              Soft Size: 1.0, Samples: 6.
 
-      * - .. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_2_-_Samples_2_-_Cube.jpg
+      * - .. figure:: /images/Light-Ray_Shadow-Soft_Size_2-Samples_2-Cube.jpg
              :width: 190px
 
              Soft Size: 2.0, Samples: 2.
 
-        - .. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_2_-_Samples_4_-_Cube.jpg
+        - .. figure:: /images/Light-Ray_Shadow-Soft_Size_2-Samples_4-Cube.jpg
              :width: 190px
 
              Soft Size: 2.0, Samples: 4.
 
-        - .. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_2_-_Samples_6_-_Cube.jpg
+        - .. figure:: /images/Light-Ray_Shadow-Soft_Size_2-Samples_6-Cube.jpg
              :width: 190px
 
              Soft Size: 2.0, Samples: 6.
 
-      * - .. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_3_-_Samples_2_-_Cube.jpg
+      * - .. figure:: /images/Light-Ray_Shadow-Soft_Size_3-Samples_2-Cube.jpg
              :width: 190px
 
              Soft Size: 3.0, Samples: 2.
 
-        - .. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_3_-_Samples_4_-_Cube.jpg
+        - .. figure:: /images/Light-Ray_Shadow-Soft_Size_3-Samples_4-Cube.jpg
              :width: 190px
 
              Soft Size: 3.0, Samples: 4.
 
-        - .. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_3_-_Samples_6_-_Cube.jpg
+        - .. figure:: /images/Light-Ray_Shadow-Soft_Size_3-Samples_6-Cube.jpg
              :width: 190px
 
              Soft Size: 3.0, Samples: 6.
@@ -105,7 +105,7 @@ Soft Size
 
    Below is an animated version of the above table of images showing the effects:
 
-   .. figure:: /images/Manual_-_Light_-_Ray_Shadow_-_Soft_Size_Samples_-_Cube_Animated.gif
+   .. figure:: /images/Light-Ray_Shadow-Soft_Size_Samples-Cube_Animated.gif
 
       Animated version renders with different Soft Size and Samples settings
       showing the effect of various values on the softness of shadow edges.

@@ -17,7 +17,7 @@ arbitrary topology.
 Options
 =======
 
-.. figure:: /images/Doc-skin-ui.jpg
+.. figure:: /images/skin-ui.jpg
    :width: 300px
 
    Skin modifier UI.

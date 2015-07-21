@@ -275,7 +275,7 @@ to select connected UVs, not border select because UVs from both will be selecte
 Combining UV Maps
 =================
 
-.. figure:: /images/Manual-UV-Unwrap-Bad.jpg
+.. figure:: /images/UV-Unwrap-Bad.jpg
    :width: 300px
 
    Bad Unwrap-Note Ear and Neck
@@ -288,7 +288,7 @@ the Unwrap from sphere option. The issues are with the ear; it is just a mush of
 and the neck, it is stretched and folded under. Too much work to clean up.
 
 
-.. figure:: /images/Manual-UV-Unwrap-Face.jpg
+.. figure:: /images/UV-Unwrap-Face.jpg
    :width: 300px
 
    Unwrap Face Only, without Ear or Neck
@@ -303,7 +303,7 @@ We select only the "face" faces, unwrap them using the *Sphere* calculation, and
 rotate them somewhat to fit logically within the image area of the UV/Image Editor window pan.
 
 
-.. figure:: /images/Manual-UV-Unwrap-Ear.jpg
+.. figure:: /images/UV-Unwrap-Ear.jpg
    :width: 300px
 
    Unwrap Projection: Ear
@@ -329,7 +329,7 @@ calculation for each piece that gives you the best fit and most logical layout f
 painting of that piece.
 
 
-.. figure:: /images/Manual-UV-Unwrap-All.jpg
+.. figure:: /images/UV-Unwrap-All.jpg
    :width: 300px
 
    UV Maps together
@@ -343,7 +343,7 @@ it is a simple matter of "stitching" (discussed in the next section)
 to construct the entire UV Map as a single map.
 
 
-.. figure:: /images/Manual-UV-Unwrap-Combo.jpg
+.. figure:: /images/UV-Unwrap-Combo.jpg
    :width: 300px
 
    UV Maps Arranged and Stitched
@@ -385,7 +385,7 @@ Turning on *Constrain to Image Bounds* will prevent UVs from being moved outside
 0 to 1 UV range.
 
 
-.. figure:: /images/Manual-Part-IV-uv_transform_menu.jpg
+.. figure:: /images/uv_transform_menu.jpg
 
    UV Transformation Menu.
 

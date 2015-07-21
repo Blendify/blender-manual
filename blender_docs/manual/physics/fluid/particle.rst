@@ -4,7 +4,7 @@
 Particle
 ********
 
-.. figure:: /images/Blender_fluids_particle.jpg
+.. figure:: /images/fluids_particle.jpg
    :width: 300px
 
    Fluid particle settings

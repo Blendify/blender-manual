@@ -7,7 +7,7 @@
 Introduction
 ************
 
-.. figure:: /images/25-Manual-World-WorldPanel.jpg
+.. figure:: /images/World-WorldPanel.jpg
 
    World panel
 

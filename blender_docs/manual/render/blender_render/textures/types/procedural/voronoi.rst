@@ -3,7 +3,7 @@
 Procedural textures: Voronoi
 ****************************
 
-.. figure:: /images/25-Manual-Textures-Procedural-Voronoi.jpg
+.. figure:: /images/Textures-Procedural-Voronoi.jpg
    :width: 307px
 
    Voronoi Texture Panels

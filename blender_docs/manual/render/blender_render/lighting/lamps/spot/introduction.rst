@@ -22,7 +22,7 @@ and spot lamps also provide other functionality such as "volumetric" halos.
 Lamp options
 ============
 
-.. figure:: /images/25-Manual-Lighting-Lamps-Spot-LampOptions.jpg
+.. figure:: /images/Lighting-Lamps-Spot-LampOptions.jpg
    :width: 307px
 
    Common Lamp options of a Spot
@@ -38,7 +38,7 @@ Light Falloff and Sphere
    These settings control how the light of the *Spot* decays with distance.
    See :doc:`Light Attenuation </render/blender_render/lighting/lights/light_attenuation>` for details.
 
-   .. figure:: /images/25-Manual-Lighting-Lamps-Spot-Terms.jpg
+   .. figure:: /images/Lighting-Lamps-Spot-Terms.jpg
       :width: 610px
 
       Changing the Spot options also changes the appearance of the spotlight as displayed in the 3D View
@@ -47,7 +47,7 @@ Light Falloff and Sphere
 Shadows
 =======
 
-.. figure:: /images/25-Manual-Lighting-Lamps-Spot-RayPanel.jpg
+.. figure:: /images/Lighting-Lamps-Spot-RayPanel.jpg
    :width: 306px
 
    Shadow panel set to Ray Shadow
@@ -89,10 +89,10 @@ Spot Shape
    .. list-table::
       Changing the spot *Size* option
 
-      * - .. figure:: /images/25-Manual-Lighting-Lamps-Spot-Size45.jpg
+      * - .. figure:: /images/Lighting-Lamps-Spot-Size45.jpg
              :width: 300px
 
-        - .. figure:: /images/25-Manual-Lighting-Lamps-Spot-Size60.jpg
+        - .. figure:: /images/Lighting-Lamps-Spot-Size60.jpg
              :width: 300px
 
 
@@ -118,7 +118,7 @@ Blend
    ("radial" falloff); they do not control the shadow's softness as shown below.
 
 
-   .. figure:: /images/Manual_-_Shadow_&_Spot_-_Spotlight_-_Render_-_Sharp_Shadow.jpg
+   .. figure:: /images/Shadow_&_Spot-Spotlight-Render-Sharp_Shadow.jpg
       :width: 400px
 
       Render showing the soft edge spotlighted area and the sharp/hard object shadow

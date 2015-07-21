@@ -16,7 +16,7 @@ When the current frame is a keyframe for the current active object, the name of 
 (shown in the bottom left corner of the 3D views) turns yellow.
 
 
-.. figure:: /images/Doc26-animation-keyframes-visualization.jpg
+.. figure:: /images/animation-keyframes-visualization.jpg
 
    Left: Current frame at 0. Right: Current frame is a keyframe for Cube
 
@@ -35,13 +35,13 @@ This feature allows you to visualize the animation of objects by displaying thei
 over a series of frames.
 
 
-.. figure:: /images/Doc26-animation-keyframes-visualization-motionPath.jpg
+.. figure:: /images/animation-keyframes-visualization-motionPath.jpg
    :width: 400px
 
    An animated cube with its motion path displayed
 
 
-.. figure:: /images/Doc26-animation-keyframes-visualization-motionPath-panel3.jpg
+.. figure:: /images/animation-keyframes-visualization-motionPath-panel3.jpg
    :width: 250px
 
    Motion paths panel
@@ -64,7 +64,7 @@ and a blue glow around the current frame.
 Options
 -------
 
-.. figure:: /images/Doc26-animation-keyframes-visualization-motionPath-panel.jpg
+.. figure:: /images/animation-keyframes-visualization-motionPath-panel.jpg
    :width: 200px
 
    The Motion Paths Panel set to "Around Frame"
@@ -76,7 +76,7 @@ Around Frame
    for a given number of frames before and after the current one (again, as with ghosts).
 
 
-.. figure:: /images/Doc26-animation-keyframes-visualization-motionPath-panel2.jpg
+.. figure:: /images/animation-keyframes-visualization-motionPath-panel2.jpg
    :width: 200px
 
    The Motion Paths Panel set to "In Range"

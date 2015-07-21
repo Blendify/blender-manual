@@ -15,7 +15,7 @@ material that a texture influences are controlled in the *Influence* panel.
 Surface and Wire materials
 ==========================
 
-.. figure:: /images/25-Manual-Textures-Influence-Surface.jpg
+.. figure:: /images/Textures-Influence-Surface.jpg
    :width: 308px
 
    Texture Influence panel for a Surface material
@@ -121,7 +121,7 @@ Bump Mapping
 Volume materials
 ================
 
-.. figure:: /images/25-Manual-Textures-Influence-Volume.jpg
+.. figure:: /images/Textures-Influence-Volume.jpg
    :width: 308px
 
    Texture Influence panel for Volume material
@@ -148,7 +148,7 @@ Reflection Color
 Halo materials
 ==============
 
-.. figure:: /images/25-Manual-Textures-Influence-Halo.jpg
+.. figure:: /images/Textures-Influence-Halo.jpg
    :width: 308px
 
    Texture Influence panel for a Halo material

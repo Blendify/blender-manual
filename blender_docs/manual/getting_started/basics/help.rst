@@ -71,7 +71,7 @@ The file will be in your list of Text-block, named as ``OperatorsList.txt``,
 if the file is already generated, Blender will add a numeric suffix for the subsequent ones.
 
 
-.. figure:: /images/Manual-Vitals-Help-Info-Operator-Cheat-Sheet.jpg
+.. figure:: /images/Vitals-Help-Info-Operator-Cheat-Sheet.jpg
 
    Info Window - Operator Cheat Sheet
 
@@ -128,7 +128,7 @@ OpenGL
   This can be useful in creating scripts.
 
 
-.. figure:: /images/Manual-Vitals-Help_Info_Log.jpg
+.. figure:: /images/Vitals-Help_Info_Log.jpg
 
    The Info Window Log after adding a Cube
 
@@ -180,7 +180,7 @@ Blender Search
    | Hotkey:   :kbd:`Spacebar`
 
 
-.. figure:: /images/Manual-Vitals-Help-Search-Keyword-Render.jpg
+.. figure:: /images/Vitals-Help-Search-Keyword-Render.jpg
 
    Blender Search - Render
 
@@ -215,7 +215,7 @@ the small Pop Up Window for the Blender Search will stay blank.
 Tooltips
 ========
 
-.. figure:: /images/Manual-Vitals-Help-Tooltip-Render-Engine.jpg
+.. figure:: /images/Vitals-Help-Tooltip-Render-Engine.jpg
 
    The Mouse pointer was Stopped for a while over the Render Engines List in the Info Window.
    The normal Tooltip is in white and the Python operator is displayed in grey

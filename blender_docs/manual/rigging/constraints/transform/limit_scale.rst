@@ -43,7 +43,7 @@ using the *Transformation Properties* axis locking feature is probably easier.
 Options
 =======
 
-.. figure:: /images/25-Manual-Constraints-Transform-LimitScale.jpg
+.. figure:: /images/Constraints-Transform-LimitScale.jpg
    :width: 296px
 
    Limit Scale panel

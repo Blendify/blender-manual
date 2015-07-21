@@ -71,7 +71,7 @@ Cull out and duplicate parts of a mesh
 Creating Vertex Groups
 ======================
 
-.. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-panel-empty.jpg
+.. figure:: /images/Modeling-Meshes-vertex-group-panel-empty.jpg
    :align: right
 
    Empty Vertex Group Panel
@@ -90,7 +90,7 @@ border (3). Initially the group is named *Group*
 Vertex Groups Panel Controls
 ----------------------------
 
-.. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-panel-one.jpg
+.. figure:: /images/Modeling-Meshes-vertex-group-panel-one.jpg
    :align: right
 
    One Vertex Group
@@ -125,7 +125,7 @@ Active Group
 Deleting vertex Groups
 ======================
 
-.. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-panel-dg.jpg
+.. figure:: /images/Modeling-Meshes-vertex-group-panel-dg.jpg
    :align: right
 
    Delete a Vertex Group
@@ -141,7 +141,7 @@ The vertices themselves are not deleted.
 Locking Vertex Groups
 =====================
 
-.. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-panel-lg.jpg
+.. figure:: /images/Modeling-Meshes-vertex-group-panel-lg.jpg
    :align: right
 
    Lock a Vertex Group
@@ -163,7 +163,7 @@ thus all corresponding function buttons become disabled for locked Vertex Groups
 Working with Content of Vertex Groups
 =====================================
 
-.. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-panel-one.jpg
+.. figure:: /images/Modeling-Meshes-vertex-group-panel-one.jpg
    :align: right
 
    Vertex Group Panel in Edit Mode
@@ -193,7 +193,7 @@ value that gets assigned to the selected verts when you press the Assign Button.
 Assigning verts to a Group
 --------------------------
 
-.. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-panel-assign.jpg
+.. figure:: /images/Modeling-Meshes-vertex-group-panel-assign.jpg
    :align: right
 
    Assign weights to active group
@@ -278,7 +278,7 @@ You can find ungrouped vertices as follows:
 Keyboard Shortcuts
 ------------------
 
-.. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-pop-up.png
+.. figure:: /images/Modeling-Meshes-vertex-group-pop-up.png
    :align: right
 
    Vertex Groups pop-up menu
@@ -297,7 +297,7 @@ The pop-up menu provides the following functions with obvious functionality:
 Vertex Group Management
 =======================
 
-.. figure:: /images/26-Manual-Modeling-Meshes-vertex-group-pulldown.jpg
+.. figure:: /images/Modeling-Meshes-vertex-group-pulldown.jpg
    :align: right
 
    Vertex groups panel's dropdown menu

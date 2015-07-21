@@ -50,22 +50,22 @@ Instead let's see what SSS does to a distinct light point.
 
 .. list-table::
 
-   * - .. figure:: /images/25-Manual-Materials-SSS.jpg
+   * - .. figure:: /images/Materials-SSS.jpg
           :width: 300px
 
           Image 3a: No SSS.
 
-     - .. figure:: /images/25-Manual-Materials-SSS1.jpg
+     - .. figure:: /images/Materials-SSS1.jpg
           :width: 300px
 
           Image 3b: Small SSS radius.
 
-   * - .. figure:: /images/25-Manual-Materials-SSS2.jpg
+   * - .. figure:: /images/Materials-SSS2.jpg
           :width: 300px
 
           Image 3c: SSS radius enlarged.
 
-     - .. figure:: /images/25-Manual-Materials-SSS3.jpg
+     - .. figure:: /images/Materials-SSS3.jpg
           :width: 300px
 
           Image 3d: SSS with very large red radius value.
@@ -93,7 +93,7 @@ its light is evenly distributed over the whole object.
 Enabling Subsurface Scattering
 ==============================
 
-.. figure:: /images/Manual25-Material-SSSPanel.jpg
+.. figure:: /images/Material-SSSPanel.jpg
 
    Image 4: The SSS Panel. SSS is already enabled.
 
@@ -130,7 +130,7 @@ Scale
    just use the formula: (size in blender units)/(real world size in millimeters)=scale.
 
 
-.. figure:: /images/Manual-25-Material-SSS-Swatch.jpg
+.. figure:: /images/Material-SSS-Swatch.jpg
    :width: 90px
 
    The SSS Color Swatch
@@ -219,27 +219,27 @@ Skin
 .. list-table::
       Increasing SSS scale (`.blend <http://wiki.blender.org/index.php/:File:MH-SSS-head-001.blend>`__)
 
-   * - .. figure:: /images/Manual-25-Material-SSS-MH-Head-1.jpg
+   * - .. figure:: /images/Material-SSS-MH-Head-1.jpg
           :width: 100px
 
           1
 
-     - .. figure:: /images/Manual-25-Material-SSS-MH-Head-2.jpg
+     - .. figure:: /images/Material-SSS-MH-Head-2.jpg
           :width: 100px
 
           2
 
-     - .. figure:: /images/Manual-25-Material-SSS-MH-Head-3.jpg
+     - .. figure:: /images/Material-SSS-MH-Head-3.jpg
           :width: 100px
 
           3
 
-     - .. figure:: /images/Manual-25-Material-SSS-MH-Head-4.jpg
+     - .. figure:: /images/Material-SSS-MH-Head-4.jpg
           :width: 100px
 
           4
 
-     - .. figure:: /images/Manual-25-Material-SSS-MH-Head-5.jpg
+     - .. figure:: /images/Material-SSS-MH-Head-5.jpg
           :width: 100px
 
           5

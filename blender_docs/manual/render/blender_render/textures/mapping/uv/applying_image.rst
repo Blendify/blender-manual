@@ -25,7 +25,7 @@ The image is an outline of the UV face mapping.
 Activating the tool brings up the File Browser Window with options for saving the layout:
 
 
-.. figure:: /images/Doc26-textures-uv-layout-export.jpg
+.. figure:: /images/textures-uv-layout-export.jpg
 
    Export options
 
@@ -53,13 +53,13 @@ so you can paint transparent areas of the mesh.
 For using images as textures, see the page on :doc:`Image Textures </render/blender_render/textures/types/image>`
 
 
-.. figure:: /images/Doc26-textures-uv-layout.jpg
+.. figure:: /images/textures-uv-layout.jpg
    :width: 250px
 
    A uv layout in the uv editor
 
 
-.. figure:: /images/Doc26-textures-uv-layout2.jpg
+.. figure:: /images/textures-uv-layout2.jpg
    :width: 250px
 
    A snapshot of the uv layout to be used in an image editor
@@ -95,7 +95,7 @@ the Proper way and the Quick Way:
 Use UV Coordinates
 ------------------
 
-.. figure:: /images/Doc26-textures-uv-coords.jpg
+.. figure:: /images/textures-uv-coords.jpg
 
    A texture setup to map using its UV coordinates
 
@@ -125,7 +125,7 @@ Full details of using Image textures are on the
 Face Textures
 -------------
 
-.. figure:: /images/Doc26-textures-uv-layout-facetex.jpg
+.. figure:: /images/textures-uv-layout-facetex.jpg
 
    The Material panel with activated Face Textures button.
 
@@ -174,7 +174,7 @@ Editor window Image}} menu to *Replace* the current image with an existing file
 New Images
 ----------
 
-.. figure:: /images/Doc26-textures-uv-layout-testGrid.jpg
+.. figure:: /images/textures-uv-layout-testGrid.jpg
    :width: 200px
 
    The new Image dialogue
@@ -216,13 +216,13 @@ look like cloth, you do NOT want any stretching
 (unless you want the cloth to look like spandex).
 
 
-.. figure:: /images/Doc26-textures-uv-layout-testGrid2.jpg
+.. figure:: /images/textures-uv-layout-testGrid2.jpg
    :width: 200px
 
    The test grid applied to the UVs
 
 
-.. figure:: /images/Doc26-textures-uv-layout-testGrid3.jpg
+.. figure:: /images/textures-uv-layout-testGrid3.jpg
    :width: 200px
 
    A preview of the texture on the geometry

@@ -60,7 +60,7 @@ Interpolated Mode
 Effects
 =======
 
-.. figure:: /images/Blender3D_ChildParticleRoundClump.jpg
+.. figure:: /images/ChildParticleRoundClump.jpg
 
    Image 2: From left to right: Round: 0.0 / Round: 1.0 / Clump: 1.0 / Clump: -1.0 / Shape: -0.99.
 
@@ -100,7 +100,7 @@ Kink
 ====
 
 
-.. figure:: /images/Blender3D_ChildParticleKink.jpg
+.. figure:: /images/ChildParticleKink.jpg
 
    Image 3: Child particles with Kink. From left to right: Curl / Radial / Wave / Braid / Roll.
 

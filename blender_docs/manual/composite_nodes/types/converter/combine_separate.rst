@@ -42,7 +42,7 @@ This node separates an image into its red, green, blue and alpha channels.
 There's a socket for each channel on the right.
 
 
-.. figure:: /images/Manual-Compositing_Nodes-Combine_RGBA.jpg
+.. figure:: /images/Compositing_Nodes-Combine_RGBA.jpg
 
    Combine RGBAnode
 
@@ -55,7 +55,7 @@ You use this node combine the channels after working on each color channel separ
 Examples
 --------
 
-.. figure:: /images/Manual-Compositing-Covert-CombineRGBA.jpg
+.. figure:: /images/Compositing-Covert-CombineRGBA.jpg
    :width: 200px
 
 
@@ -68,7 +68,7 @@ Animating this effect over a broader scale will make the object appear to "phase
 as a "out-of-phase" time-traveling sync effect.
 
 
-.. figure:: /images/Manual-Compositing-Covert-CombineRGBA2.jpg
+.. figure:: /images/Compositing-Covert-CombineRGBA2.jpg
    :width: 200px
 
 
@@ -100,7 +100,7 @@ You could isolate a specific range of colors
 Separate/Combine YUVA Node
 ==========================
 
-.. figure:: /images/Manual-Compositing_Nodes-Separate_YUVA.jpg
+.. figure:: /images/Compositing_Nodes-Separate_YUVA.jpg
 
    Separate YUVA node
 
@@ -110,7 +110,7 @@ then splits each channel out to its own output so that they can be manipulated i
 Note that U and V values range from -0.5 to +0.5.
 
 
-.. figure:: /images/Manual-Compositing_Nodes-Combine_YUVA.jpg
+.. figure:: /images/Compositing_Nodes-Combine_YUVA.jpg
 
    Combine YUVA node
 
@@ -122,7 +122,7 @@ can set a default value for the whole image for that channel using the numeric c
 Separate/Combine YCbCrA Node
 ============================
 
-.. figure:: /images/Manual-Compositing_Nodes-Separate_YCbCrA.jpg
+.. figure:: /images/Compositing_Nodes-Separate_YCbCrA.jpg
 
    Separate YCbCrA node
 
@@ -141,7 +141,7 @@ then splits each channel out to its own output so that they can be manipulated i
    Using the Exponential scale on the luminance channel gives high-contrast effect.
 
 
-.. figure:: /images/Manual-Compositing_Nodes-Combine_YCbCrA.jpg
+.. figure:: /images/Compositing_Nodes-Combine_YCbCrA.jpg
 
    Combine YCbCrA node
 

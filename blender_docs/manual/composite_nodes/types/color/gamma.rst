@@ -3,7 +3,7 @@
 Gamma
 *****
 
-.. figure:: /images/Manual-Nodes-Gamma.jpg
+.. figure:: /images/Nodes-Gamma.jpg
    :width: 320px
 
 

@@ -109,7 +109,7 @@ so that's why it's given this more abstract name, rather than motion tracking.
 This editor can be found in the list of editor types.
 
 
-.. figure:: /images/Manual_movie_tracking_clip_editor_type_menu.jpg
+.. figure:: /images/movie_tracking_clip_editor_type_menu.jpg
    :width: 120px
 
    Editor type menu
@@ -118,7 +118,7 @@ This editor can be found in the list of editor types.
 When you switch to Movie Clip Editor window, the interface changes in the following way.
 
 
-.. figure:: /images/Manual_movie_tracking_clip_editor_space_ui.jpg
+.. figure:: /images/movie_tracking_clip_editor_space_ui.jpg
    :width: 300px
 
    Movie Clip Editor interface
@@ -140,7 +140,7 @@ So, when a movie clip is loaded into the clip editor,
 extra panels are displayed in the interface.
 
 
-.. figure:: /images/Manual_movie_tracking_clip_editor_clip_opened_ui.jpg
+.. figure:: /images/movie_tracking_clip_editor_clip_opened_ui.jpg
    :width: 300px
 
    Movie Clip Editor with opened clip
@@ -162,7 +162,7 @@ currently displayed tool category can be changed using the Mode menu which is in
 header.
 
 
-.. figure:: /images/Manual_movie_tracking_clip_editor_mode_menu.jpg
+.. figure:: /images/movie_tracking_clip_editor_mode_menu.jpg
    :width: 300px
 
    Movie Clip Editor mode menu
@@ -315,7 +315,7 @@ This makes the stroke easy to notice on all kinds of movies.
 Objects Panel
 ^^^^^^^^^^^^^
 
-.. figure:: /images/Manual_movie_tracking_clip_editor_objects_panel.jpg
+.. figure:: /images/movie_tracking_clip_editor_objects_panel.jpg
    :width: 130px
 
    Objects Panel in clip editor
@@ -344,7 +344,7 @@ refining of camera intrinsics happens when solving camera motion only.
 Track Panel
 ^^^^^^^^^^^
 
-.. figure:: /images/Manual_movie_tracking_clip_editor_track_panel.jpg
+.. figure:: /images/movie_tracking_clip_editor_track_panel.jpg
    :width: 130px
 
    Track Panel in clip editor
@@ -604,7 +604,7 @@ All sliders are self-explanatory.
 Proxy / Timecode Panel
 ^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: /images/Manual_movie_tracking_clip_editor_proxy_timecode_panel.jpg
+.. figure:: /images/movie_tracking_clip_editor_proxy_timecode_panel.jpg
    :width: 130px
 
    Proxy / Timecode Panel in clip editor
@@ -645,7 +645,7 @@ and render undistorted is enabled, undistortion will happen automatically on fra
 Tools available in reconstruction mode
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: /images/Manual_movie_tracking_clip_editor_2d_stabilization_panel.jpg
+.. figure:: /images/movie_tracking_clip_editor_2d_stabilization_panel.jpg
    :width: 130px
 
    Proxy / 2D Stabilization Panel in clip editor

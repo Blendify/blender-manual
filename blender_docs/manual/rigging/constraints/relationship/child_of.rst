@@ -31,7 +31,7 @@ compared to the traditional method:
 Options
 =======
 
-.. figure:: /images/25-Manual-Constraints-Relationship-ChildOf.jpg
+.. figure:: /images/Constraints-Relationship-ChildOf.jpg
    :width: 307px
 
    Child Of panel

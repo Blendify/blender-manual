@@ -11,7 +11,7 @@ These nodes allow you to change the mapping of a texture.
 Rotate
 ======
 
-.. figure:: /images/Doc26-textureNodes-rotate.jpg
+.. figure:: /images/textureNodes-rotate.jpg
 
    Rotate node
 
@@ -27,7 +27,7 @@ Axis
 Translate
 =========
 
-.. figure:: /images/Doc26-textureNodes-translate.jpg
+.. figure:: /images/textureNodes-translate.jpg
 
    Translate node
 
@@ -41,7 +41,7 @@ Offset
 Scale
 =====
 
-.. figure:: /images/Doc26-textureNodes-scale.jpg
+.. figure:: /images/textureNodes-scale.jpg
 
    Scale node
 
@@ -55,7 +55,7 @@ Scale
 At
 ==
 
-.. figure:: /images/Doc26-textureNodes-at.jpg
+.. figure:: /images/textureNodes-at.jpg
 
    At node
 

@@ -11,25 +11,25 @@ Take a look at the following examples of a scene lit with Direct Lighting and bo
 Direct+Indirect Lighting:
 
 
-.. figure:: /images/27x-Manual-Lighting-Inderect_Lighting-01.jpg
+.. figure:: /images/Lighting-Inderect_Lighting-01.jpg
    :width: 400px
 
    Direct Lighting Schematic.
 
 
-.. figure:: /images/27x-Manual-Lighting-Inderect_Lighting-02.jpg
+.. figure:: /images/Lighting-Inderect_Lighting-02.jpg
    :width: 400px
 
    Direct Lighting Render
 
 
-.. figure:: /images/27x-Manual-Lighting-Inderect_Lighting-03.jpg
+.. figure:: /images/Lighting-Inderect_Lighting-03.jpg
    :width: 400px
 
    Direct+Indirect Lighting Schematic
 
 
-.. figure:: /images/27x-Manual-Lighting-Inderect_Lighting-04.jpg
+.. figure:: /images/Lighting-Inderect_Lighting-04.jpg
    :width: 400px
 
    Direct+Indirect Lighting Render
@@ -41,7 +41,7 @@ Images courtesy of `rastermon.com <http://web.archive.org/web/20050204031559/htt
 Inderect Lighting only works with Approximate gather method.
 
 
-.. figure:: /images/27x-Manual-Lighting-Inderect_Lighting.jpg
+.. figure:: /images/Lighting-Inderect_Lighting.jpg
    :width: 300px
 
    Inderect Lighting parameters.
@@ -65,7 +65,7 @@ Note that these settings also apply to Environment Lighting and Ambient Occlusio
 Approximate
 -----------
 
-.. figure:: /images/Doc26-lighting-ambientOcclusion-gather2.jpg
+.. figure:: /images/lighting-ambientOcclusion-gather2.jpg
 
    The Inderect Lighting panel, Approximate method.
 

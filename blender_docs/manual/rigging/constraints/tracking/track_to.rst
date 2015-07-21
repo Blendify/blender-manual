@@ -33,7 +33,7 @@ as it centers around the use of both of these constraints.
 Options
 =======
 
-.. figure:: /images/25-Manual-Constraints-Tracking-TrackTo.jpg
+.. figure:: /images/Constraints-Tracking-TrackTo.jpg
 
    Track To panel
 

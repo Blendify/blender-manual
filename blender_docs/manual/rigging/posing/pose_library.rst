@@ -14,7 +14,7 @@ The *Pose Library* panel is used to save, apply, and manage different armature p
 Pose Library Panel
 ==================
 
-.. figure:: /images/Doc_Pose_Library.jpg
+.. figure:: /images/Pose_Library.jpg
 
    Properties > Armature > Pose Library.
 

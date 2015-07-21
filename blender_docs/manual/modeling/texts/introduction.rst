@@ -11,7 +11,7 @@ Text Objects
    | Menu:     :menuselection:`Add --> Text`
 
 
-.. figure:: /images/Manual-Part-II-TextSamples.jpg
+.. figure:: /images/TextSamples.jpg
    :width: 400px
 
    Text Examples.

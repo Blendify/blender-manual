@@ -10,7 +10,7 @@ you can set objects in the scene to add or absorb fluid within the :doc:`Fluid D
 Inflow
 ======
 
-.. figure:: /images/Blender_fluids_inflow.jpg
+.. figure:: /images/fluids_inflow.jpg
    :width: 300px
 
    Fluid inflow settings
@@ -40,7 +40,7 @@ FIXME(Template Unsupported: Doc:2.6/Manual/Physics/Fluid/animated_mesh_export;
 Outflow
 =======
 
-.. figure:: /images/Blender_fluids_outflow.jpg
+.. figure:: /images/fluids_outflow.jpg
    :width: 300px
 
    Fluid outflow settings

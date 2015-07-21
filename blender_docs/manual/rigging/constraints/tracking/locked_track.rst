@@ -51,7 +51,7 @@ This is all related to the topic discussed at length in the
 Options
 =======
 
-.. figure:: /images/25-Manual-Constraints-Tracking-LockedTrack.jpg
+.. figure:: /images/Constraints-Tracking-LockedTrack.jpg
    :width: 304px
 
    Locked track panel

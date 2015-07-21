@@ -3,7 +3,7 @@
 Armature Structure
 ******************
 
-.. figure:: /images/Manual-Part-I-Quick51.jpg
+.. figure:: /images/Quick51.jpg
    :width: 250px
 
    The very basic armature of the

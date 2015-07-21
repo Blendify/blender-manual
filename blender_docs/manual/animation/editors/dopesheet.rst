@@ -5,7 +5,7 @@
 The Dopesheet
 *************
 
-.. figure:: /images/Manual-dopesheet-overview.jpg
+.. figure:: /images/dopesheet-overview.jpg
    :width: 400px
 
    The DopeSheet
@@ -21,7 +21,7 @@ It gives the animator a 'birds-eye-view' of every thing occurring within a scene
 Dope Sheet Modes
 ================
 
-.. figure:: /images/Manual-dopesheet-modes.jpg
+.. figure:: /images/dopesheet-modes.jpg
 
    DopeSheet modes
 
@@ -55,7 +55,7 @@ The *Action Editor* interface is somewhat similar to the *FCurve Editor*
 one, it is divided in three areas:
 
 
-.. figure:: /images/Doc26-actionEditor.jpg
+.. figure:: /images/actionEditor.jpg
    :width: 600px
 
    The Action Editor window, Action Editor mode, with an Object and Shape channels.
@@ -108,7 +108,7 @@ The left "list-tree"
 View Menu
 ---------
 
-.. figure:: /images/Doc26-actionEditor-sliders.jpg
+.. figure:: /images/actionEditor-sliders.jpg
 
    the action editor showing sliders
 

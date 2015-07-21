@@ -3,7 +3,7 @@
 ID Mask Node
 ************
 
-.. figure:: /images/Manual-Compositing-Node-IDMask.jpg
+.. figure:: /images/Compositing-Node-IDMask.jpg
 
    ID Mask node
 
@@ -19,7 +19,7 @@ This post-process function fills in the jaggies with interpolated values.
    Object indices are only output from a RenderLayers node or stored in a multilayer OpenEXR format image.
 
 
-.. figure:: /images/Manual-Compositing-Node-IDMask_panel.jpg
+.. figure:: /images/Compositing-Node-IDMask_panel.jpg
 
    Setting an Object Index
 
@@ -36,7 +36,7 @@ node or DOF noodles caused by some objects being close to camera against objects
 Example
 =======
 
-.. figure:: /images/Manual-Compositing-Node-IDMask_ex.jpg
+.. figure:: /images/Compositing-Node-IDMask_ex.jpg
    :width: 300px
 
    Example

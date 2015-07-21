@@ -49,21 +49,21 @@ Space sigma
 Examples
 ========
 
-.. figure:: /images/Manual-Compositing_Nodes-BilateralBlur_ex3.jpg
+.. figure:: /images/Compositing_Nodes-BilateralBlur_ex3.jpg
    :width: 250px
    :figwidth: 250px
 
    Bilateral smoothed buffered shadow
 
 
-.. figure:: /images/Manual-Compositing_Nodes-BilateralBlur_ex1.jpg
+.. figure:: /images/Compositing_Nodes-BilateralBlur_ex1.jpg
    :width: 250px
    :figwidth: 250px
 
    Bilateral smoothed AO
 
 
-.. figure:: /images/Manual-Compositing_Nodes-BilateralBlur_ex2.jpg
+.. figure:: /images/Compositing_Nodes-BilateralBlur_ex2.jpg
    :width: 250px
    :figwidth: 250px
 

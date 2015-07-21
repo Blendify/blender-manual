@@ -41,19 +41,19 @@ Note that each pixel has an identical pattern.
 
 .. list-table::
 
-   * - .. figure:: /images/Manual-oversampling-pattern-5.jpg
+   * - .. figure:: /images/oversampling-pattern-5.jpg
 
           5 samples
 
-     - .. figure:: /images/Manual-oversampling-pattern-8.jpg
+     - .. figure:: /images/oversampling-pattern-8.jpg
 
           8 samples
 
-     - .. figure:: /images/Manual-oversampling-pattern-11.jpg
+     - .. figure:: /images/oversampling-pattern-11.jpg
 
           11 samples
 
-     - .. figure:: /images/Manual-oversampling-pattern-16.jpg
+     - .. figure:: /images/oversampling-pattern-16.jpg
 
           16 samples
 
@@ -102,31 +102,31 @@ Mitchell-Netravali
 
 .. list-table::
 
-   * - .. figure:: /images/Manual-oversampling-graph-box.jpg
+   * - .. figure:: /images/oversampling-graph-box.jpg
 
           Box
 
-     - .. figure:: /images/Manual-oversampling-graph-tent.jpg
+     - .. figure:: /images/oversampling-graph-tent.jpg
 
           Tent
 
-     - .. figure:: /images/Manual-oversampling-graph-quadratic.jpg
+     - .. figure:: /images/oversampling-graph-quadratic.jpg
 
           Quadratic
 
-     - .. figure:: /images/Manual-oversampling-graph-cubic.jpg
+     - .. figure:: /images/oversampling-graph-cubic.jpg
 
           Cubic
 
-   * - .. figure:: /images/Manual-oversampling-graph-gaussian.jpg
+   * - .. figure:: /images/oversampling-graph-gaussian.jpg
 
           Gaussian
 
-     - .. figure:: /images/Manual-oversampling-graph-catmullrom.jpg
+     - .. figure:: /images/oversampling-graph-catmullrom.jpg
 
           Catmull-Rom
 
-     - .. figure:: /images/Manual-oversampling-graph-mitchell-netravali.jpg
+     - .. figure:: /images/oversampling-graph-mitchell-netravali.jpg
 
           Mitchell-Netravali
 
@@ -145,47 +145,47 @@ this will give an extra sharpening result.
 Examples
 ========
 
-.. figure:: /images/Manual-Part-XI-AA02.jpg
+.. figure:: /images/AA02.jpg
    :width: 630px
 
 
-.. figure:: /images/Manual-osa8_box.jpg
+.. figure:: /images/osa8_box.jpg
    :width: 630px
 
    AA 8, Box filter
 
 
-.. figure:: /images/Manual-osa8_tent.jpg
+.. figure:: /images/osa8_tent.jpg
    :width: 630px
 
    AA 8, Tent filter
 
 
-.. figure:: /images/Manual-osa8_quad.jpg
+.. figure:: /images/osa8_quad.jpg
    :width: 630px
 
    AA 8, Quadratic filter
 
 
-.. figure:: /images/Manual-osa8_cubic.jpg
+.. figure:: /images/osa8_cubic.jpg
    :width: 630px
 
    AA 8, Cubic filter
 
 
-.. figure:: /images/Manual-osa8_gauss.jpg
+.. figure:: /images/osa8_gauss.jpg
    :width: 630px
 
    AA 8, Gaussian filter
 
 
-.. figure:: /images/Manual-osa8_catrom.jpg
+.. figure:: /images/osa8_catrom.jpg
    :width: 630px
 
    AA 8, Catmull-Rom filter
 
 
-.. figure:: /images/Manual-osa8_mitch.jpg
+.. figure:: /images/osa8_mitch.jpg
    :width: 630px
 
    AA 8, Mitchell-Netravali filter

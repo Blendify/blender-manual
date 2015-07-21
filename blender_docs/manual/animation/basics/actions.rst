@@ -41,7 +41,7 @@ Keyframes
 F-Curve Interpolation
 =====================
 
-.. figure:: /images/Doc_Animation_Driver_FCurve.jpg
+.. figure:: /images/Animation_Driver_FCurve.jpg
 
    Graph Editor: Channel F-Curve.
 
@@ -79,7 +79,7 @@ This example shows you how to animate a cubes location, rotation, and scale.
 - Press :kbd:`I` in the 3D View. From the *Insert Keyframe Menu* select *LocRotScale*.
 
 
-.. figure:: /images/Doc_Actions_Insert_Keyframe_00.jpg
+.. figure:: /images/Actions_Insert_Keyframe_00.jpg
    :width: 500px
 
    Insert Keyframes.
@@ -88,7 +88,7 @@ This example shows you how to animate a cubes location, rotation, and scale.
 To test the animation, press :kbd:`Alt-A` to play.
 
 
-.. figure:: /images/Doc_Actions_Insert_Keyframe_01.jpg
+.. figure:: /images/Actions_Insert_Keyframe_01.jpg
    :width: 500px
 
    The animation on frames 1, 50, 100.
@@ -97,7 +97,7 @@ To test the animation, press :kbd:`Alt-A` to play.
 Auto Keyframe
 -------------
 
-.. figure:: /images/Doc_kia_Cube03.jpg
+.. figure:: /images/kia_Cube03.jpg
 
    Timeline Auto Keyframe.
 
@@ -111,7 +111,7 @@ See :ref:`Timeline V Keyframe Control <animation-editors-timeline-autokeyframe>`
 Keying Sets
 -----------
 
-.. figure:: /images/Doc_kia_Cube02.jpg
+.. figure:: /images/kia_Cube02.jpg
 
    Timeline Keying Sets.
 
@@ -132,7 +132,7 @@ See :doc:`Keying Sets </animation/basics/keying_sets>` for more info.
 Properties
 ----------
 
-.. figure:: /images/Doc_kia_Cube04.jpg
+.. figure:: /images/kia_Cube04.jpg
 
    Keyframe properties.
 
@@ -143,7 +143,7 @@ then select Insert Single Keyframe, or Insert Keyframes.
 Insert Keyframes :kbd:`I` will add a keyframes for the set of properties.
 
 
-.. figure:: /images/K_Doc_Animation_Properties.jpg
+.. figure:: /images/Animation_Properties.jpg
 
    Properties, Drivers, Keyframes.
 

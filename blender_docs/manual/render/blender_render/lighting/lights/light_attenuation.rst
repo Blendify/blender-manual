@@ -6,7 +6,7 @@ Light Attenuation
 Description
 ===========
 
-.. figure:: /images/25-Manual-Lighting-Falloff-hilite.jpg
+.. figure:: /images/Lighting-Falloff-hilite.jpg
    :width: 312px
 
    Lamp panel, falloff options highlighted
@@ -24,7 +24,7 @@ Falloff types
 Lin/Quad Weighted
 -----------------
 
-.. figure:: /images/25-Manual-Lighting-Falloff-linquad.jpg
+.. figure:: /images/Lighting-Falloff-linquad.jpg
    :width: 308px
 
    Lamp panel with Lin/Quad Weighted Falloff options highlighted
@@ -65,7 +65,7 @@ Where
 Quadratic
 ^^^^^^^^^
 
-.. figure:: /images/Manual_-_Light_-_Example_-_Default_Lin-Quad_Weighted.jpg
+.. figure:: /images/Light-Example-Default_Lin-Quad_Weighted.jpg
    :width: 250px
 
    Lamp with Lin/Quad Weighted falloff default settings
@@ -146,7 +146,7 @@ Below is a graph summarizing the lin/quad attenuation type,
 showing attenuation with or without the *Sphere* option (described later).
 
 
-.. figure:: /images/Manual-Part-V-DistanceGraph.jpg
+.. figure:: /images/DistanceGraph.jpg
    :width: 610px
 
 
@@ -196,12 +196,12 @@ the graph shows that the intensity of the light starts off at its maximum
 
 .. list-table::
 
-   * - .. figure:: /images/25-Manual-Lighting-Falloff-CustomDefault.jpg
+   * - .. figure:: /images/Lighting-Falloff-CustomDefault.jpg
           :width: 306px
 
           Default Falloff Curve panel graph.
 
-     - .. figure:: /images/Manual_-_Light_-_Example_-_Default_Custom_Curve.jpg
+     - .. figure:: /images/Light-Example-Default_Custom_Curve.jpg
           :width: 250px
 
           Render showing the Custom Curve lamp falloff type effect with default settings.
@@ -213,12 +213,12 @@ the light source, you could alter the graph as below:
 
 .. list-table::
 
-   * - .. figure:: /images/25-Manual-Lighting-Falloff-CustomReversed.jpg
+   * - .. figure:: /images/Lighting-Falloff-CustomReversed.jpg
           :width: 310px
 
           Falloff Curve for reversed attenuation.
 
-     - .. figure:: /images/Manual_-_Lights_-_Lamps_-_Falloff_Curve_Reverse_Render.jpg
+     - .. figure:: /images/Lights-Lamps-Falloff_Curve_Reverse_Render.jpg
           :width: 250px
 
           Falloff Curve for reversed attenuation rendered.
@@ -233,12 +233,12 @@ along with its resultant render output:
 
 .. list-table::
 
-   * - .. figure:: /images/25-Manual-Lighting-Falloff-CustomOscill.jpg
+   * - .. figure:: /images/Lighting-Falloff-CustomOscill.jpg
           :width: 310px
 
           Oscillating attenuation profile.
 
-     - .. figure:: /images/Manual_-_Lights_-_Lamps_-_Falloff_Curve_Render.jpg
+     - .. figure:: /images/Lights-Lamps-Falloff_Curve_Render.jpg
           :width: 250px
 
           Render showing the effects of a "wavelet" profile graph on the light attenuation.
@@ -247,7 +247,7 @@ along with its resultant render output:
 Inverse Square
 --------------
 
-.. figure:: /images/Manual_-_Light_-_Example_-_Inverse_Square.jpg
+.. figure:: /images/Light-Example-Inverse_Square.jpg
    :width: 300px
 
    Render showing the Inverse Square lamp falloff type effect with default settings.
@@ -264,7 +264,7 @@ to ``1.0``), with slight changes.
 Inverse Linear
 --------------
 
-.. figure:: /images/Manual_-_Light_-_Example_-_Inverse_Linear.jpg
+.. figure:: /images/Light-Example-Inverse_Linear.jpg
    :width: 300px
 
    Render showing the Inverse Linear lamp falloff type effect with default settings.
@@ -281,7 +281,7 @@ but can be easier to light with.
 Constant
 --------
 
-.. figure:: /images/Manual_-_Light_-_Example_-_Constant.jpg
+.. figure:: /images/Light-Example-Constant.jpg
    :width: 300px
 
    Render showing the Constant lamp falloff type effect with default settings.
@@ -296,7 +296,7 @@ which are so far away that their falloff isn't noticeable.
 Sphere
 ======
 
-.. figure:: /images/25-Manual-Lighting-Falloff-PointSphere.jpg
+.. figure:: /images/Lighting-Falloff-PointSphere.jpg
    :width: 300px
 
    Screenshot of the 3D view window, showing the Sphere light clipping circle.
@@ -328,12 +328,12 @@ option.
 
 .. list-table::
 
-   * - .. figure:: /images/Manual_-_Light_-_Constant_Falloff_-_Sphere_Active_-_Lighted_Plane.jpg
+   * - .. figure:: /images/Light-Constant_Falloff-Sphere_Active-Lighted_Plane.jpg
           :width: 300px
 
           Render showing the light attenuation of a Constant falloff light type with the Sphere option active.
 
-     - .. figure:: /images/Manual_-_Light_-_Constant_Falloff_-_Sphere_Deactivated_-_Lighted_Plane.jpg
+     - .. figure:: /images/Light-Constant_Falloff-Sphere_Deactivated-Lighted_Plane.jpg
           :width: 300px
 
           Render showing the light attenuation of a Constant falloff light type with the Sphere option deactivated.
@@ -356,15 +356,15 @@ more and more objects become progressively brighter.
 .. list-table::
    Various *Distance* settings (shadows disabled).
 
-   * - .. figure:: /images/Manual-Part-V-LampRender-Distance10.jpg
+   * - .. figure:: /images/LampRender-Distance10.jpg
 
           Distance: 10.
 
-     - .. figure:: /images/Manual-Part-V-LampRender-Distance100.jpg
+     - .. figure:: /images/LampRender-Distance100.jpg
 
           Distance: 100.
 
-     - .. figure:: /images/Manual-Part-V-LampRender-Distance1000.jpg
+     - .. figure:: /images/LampRender-Distance1000.jpg
 
           Distance: 1000.
 
@@ -404,15 +404,15 @@ We can see this in the (*Inverse Square* *selected*) images.
 .. list-table::
    *Inverse Square* selected (with the specified distances).
 
-   * - .. figure:: /images/Manual-Part-V-LampRender-Quad10.jpg
+   * - .. figure:: /images/LampRender-Quad10.jpg
 
           Inverse Square with 10.
 
-     - .. figure:: /images/Manual-Part-V-LampRender-Quad100.jpg
+     - .. figure:: /images/LampRender-Quad100.jpg
 
           Inverse Square with 100.
 
-     - .. figure:: /images/Manual-Part-V-LampRender-Quad1000.jpg
+     - .. figure:: /images/LampRender-Quad1000.jpg
 
           Inverse Square with 1000.
 
@@ -439,7 +439,7 @@ intensity and the angle between the light source and the surface's normal.
 Sphere Example
 --------------
 
-.. figure:: /images/Manual-Part-V-LampRender-SphereView.jpg
+.. figure:: /images/LampRender-SphereView.jpg
 
    Clipping Sphere.
 
@@ -460,15 +460,15 @@ the light attenuation is progressive
 .. list-table::
    *Sphere* enabled with the specified distances, *Inverse Linear* light falloff.
 
-   * - .. figure:: /images/Manual-Part-V-LampRender-Sphere10.jpg
+   * - .. figure:: /images/LampRender-Sphere10.jpg
 
           Sphere with 10.
 
-     - .. figure:: /images/Manual-Part-V-LampRender-Sphere20.jpg
+     - .. figure:: /images/LampRender-Sphere20.jpg
 
           Sphere with 20.
 
-     - .. figure:: /images/Manual-Part-V-LampRender-Sphere40.jpg
+     - .. figure:: /images/LampRender-Sphere40.jpg
 
           Sphere with 40.
 

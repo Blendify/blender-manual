@@ -9,7 +9,7 @@ The graph editor has two modes, *F-Curve* for :doc:`Actions </animation/basics/a
 and *Drivers* for :doc:`Drivers </animation/basics/drivers>`. Both are very similar in function.
 
 
-.. figure:: /images/Doc_Graph_Editor.jpg
+.. figure:: /images/Graph_Editor.jpg
    :width: 600px
 
    The Graph Editor.
@@ -21,7 +21,7 @@ Curve Editor Area
 Here you can see and edit the curves and keyframes.
 
 
-.. figure:: /images/Doc_Graph_Curve.jpg
+.. figure:: /images/Graph_Curve.jpg
 
    A curve with different types of interpolation.
 
@@ -55,7 +55,7 @@ These are some other useful tools.
 2D Cursor
 ---------
 
-.. figure:: /images/Doc_Graph_2DCursor.jpg
+.. figure:: /images/Graph_2DCursor.jpg
 
    Graph Editor 2D Cursor.
 
@@ -93,7 +93,7 @@ Markers
 Like with most animation editors, markers are shown at the bottom of the editor.
 
 
-.. figure:: /images/Doc_Graph_Markers.jpg
+.. figure:: /images/Graph_Markers.jpg
 
    Graph Editor Markers.
 
@@ -117,7 +117,7 @@ Here you'll find.
 Header Controls
 ---------------
 
-.. figure:: /images/Doc_Graph_Header_Mode.jpg
+.. figure:: /images/Graph_Header_Mode.jpg
 
    Graph Mode.
 
@@ -127,7 +127,7 @@ Mode
    and Drivers for :doc:`Drivers </animation/basics/drivers>`.
 
 
-.. figure:: /images/Doc_Graph_Header_View.jpg
+.. figure:: /images/Graph_Header_View.jpg
 
    View Controls.
 
@@ -155,7 +155,7 @@ View controls
       Automatically recalculate curve normalization on every curve edit.
 
 
-.. figure:: /images/Doc_Graph_Header_Edit.jpg
+.. figure:: /images/Graph_Header_Edit.jpg
 
    Curve Controls.
 
@@ -194,7 +194,7 @@ Curve controls
 Channels Region
 ===============
 
-.. figure:: /images/Doc_Graph_Channels.jpg
+.. figure:: /images/Graph_Channels.jpg
 
    Channels Region.
 
@@ -246,7 +246,7 @@ The panels in the *Properties Region*.
 View Properties Panel
 ---------------------
 
-.. figure:: /images/Doc_Graph_View_Properties_Panel.jpg
+.. figure:: /images/Graph_View_Properties_Panel.jpg
 
    View Properties Panel.
 
@@ -273,7 +273,7 @@ Cursor Y
 Active F-Curve Panel
 --------------------
 
-.. figure:: /images/Doc_Graph_Active_Fcurve_Panel.jpg
+.. figure:: /images/Graph_Active_Fcurve_Panel.jpg
 
    Active F-Curve Panel.
 
@@ -302,7 +302,7 @@ Color Mode
 Active Keyframe Panel
 ---------------------
 
-.. figure:: /images/Doc_Graph_Active_Keyframe_Panel.jpg
+.. figure:: /images/Graph_Active_Keyframe_Panel.jpg
 
    Active Keyframe Panel.
 
@@ -336,7 +336,7 @@ Right Handle
 Drivers Panel
 -------------
 
-.. figure:: /images/Doc_Graph_Drivers_Panel.jpg
+.. figure:: /images/Graph_Drivers_Panel.jpg
 
    Drivers Panel.
 
@@ -347,7 +347,7 @@ See :ref:`animation_drivers_panel` for more info.
 Modifiers Panel
 ---------------
 
-.. figure:: /images/Doc_Graph_Modifiers_Panel.jpg
+.. figure:: /images/Graph_Modifiers_Panel.jpg
 
    Modifiers Panel.
 

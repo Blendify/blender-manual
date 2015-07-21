@@ -14,7 +14,7 @@ Math
 ----
 
 
-.. figure:: /images/Doc26-textureNodes_math.jpg
+.. figure:: /images/textureNodes_math.jpg
 
    math node
 
@@ -63,7 +63,7 @@ Greater Than
 ColorRamp Node
 ==============
 
-.. figure:: /images/Doc26-textureNodes-colorRamp.jpg
+.. figure:: /images/textureNodes-colorRamp.jpg
 
    ColorRamp Node
 
@@ -109,7 +109,7 @@ Use the A: button to define the Alpha value of the selected color for each color
 RGB to BW Node
 ==============
 
-.. figure:: /images/Doc26-textureNodes-rgbToBw.jpg
+.. figure:: /images/textureNodes-rgbToBw.jpg
 
    RGB to BW Node
 
@@ -121,7 +121,7 @@ values.
 Value to Normal
 ===============
 
-.. figure:: /images/Doc26-textureNodes-valueToNormal.jpg
+.. figure:: /images/textureNodes-valueToNormal.jpg
 
    Value to Normal node
 
@@ -138,7 +138,7 @@ Nabla
 Distance
 ========
 
-.. figure:: /images/Doc26-textureNodes-distance.jpg
+.. figure:: /images/textureNodes-distance.jpg
 
    Distance node. Coordinate 2 dropdown is displayed
 

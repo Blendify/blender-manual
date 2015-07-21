@@ -3,7 +3,7 @@
 Scale Node
 **********
 
-.. figure:: /images/Manual-Compositing_Nodes-Scale.jpg
+.. figure:: /images/Compositing_Nodes-Scale.jpg
 
    Scale node
 

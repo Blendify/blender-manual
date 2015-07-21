@@ -48,7 +48,7 @@ But with a child mesh, another *Create Vertex Groups?* menu appears,
 with the following options - all regarding the "vertex groups" skinning method:
 
 
-.. figure:: /images/Doc26-rigging-armature-parent.jpg
+.. figure:: /images/rigging-armature-parent.jpg
 
    Set Parent menu
 
@@ -70,7 +70,7 @@ Automatic Weights
    with vertices assigned and weighted using the newer "bone heat" algorithm.
 
 
-.. figure:: /images/Doc26-rigging-armature-modifier.jpg
+.. figure:: /images/rigging-armature-modifier.jpg
    :width: 250px
 
    The Armature modifier.

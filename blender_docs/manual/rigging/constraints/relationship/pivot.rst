@@ -22,7 +22,7 @@ It was originally intended for foot rigs.
 Options
 =======
 
-.. figure:: /images/25-Manual-Constraints-Relationship-Pivot.jpg
+.. figure:: /images/Constraints-Relationship-Pivot.jpg
    :width: 302px
 
    Pivot panel

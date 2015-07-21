@@ -14,7 +14,7 @@ Mode
 
 
    Vertex Group
-      .. figure:: /images/25-Manual-Modifiers-Mask-VG.jpg
+      .. figure:: /images/Modifiers-Mask-VG.jpg
          :width: 350px
 
          Vertex Group
@@ -25,7 +25,7 @@ Mode
       and all vertices which do not belong to that group will be hidden.
 
    Armature
-      .. figure:: /images/25-Manual-Modifiers-Mask-A.jpg
+      .. figure:: /images/Modifiers-Mask-A.jpg
          :width: 350px
 
          Armature

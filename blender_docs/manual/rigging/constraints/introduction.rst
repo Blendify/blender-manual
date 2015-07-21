@@ -47,7 +47,7 @@ To learn more:
 Available Constraints
 =====================
 
-.. figure:: /images/(Doc_26x_Manual_Constraints_Introduction)_(Adding_Constraint_Menu)_(GBV266FN).jpg
+.. figure:: /images/Constraints_Introduction_Adding_Constraint_Menu.jpg
 
    The Constraint Menu
 

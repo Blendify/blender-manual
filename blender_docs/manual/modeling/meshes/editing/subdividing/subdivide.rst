@@ -56,17 +56,17 @@ Smoothness
 
 .. list-table::
 
-   * - .. figure:: /images/Doc26-subdivide-smooth-before.jpg
+   * - .. figure:: /images/subdivide-smooth-before.jpg
           :width: 200px
 
           Mesh before subdividing
 
-     - .. figure:: /images/Doc26-subdivide-smooth-none.jpg
+     - .. figure:: /images/subdivide-smooth-none.jpg
           :width: 200px
 
           Subdivided with no smoothing
 
-     - .. figure:: /images/Doc26-subdivide-smooth-after.jpg
+     - .. figure:: /images/subdivide-smooth-after.jpg
           :width: 200px
 
           Subdivided with smoothing of 1
@@ -96,17 +96,17 @@ Corner Cut Type
 
 .. list-table::
 
-   * - .. figure:: /images/Doc26-subdivide-twoEdgesQuad-fan2.jpg
+   * - .. figure:: /images/subdivide-twoEdgesQuad-fan2.jpg
           :width: 200px
 
           Fan cut type
 
-     - .. figure:: /images/Doc26-subdivide-twoEdgesQuad-innervert.jpg
+     - .. figure:: /images/subdivide-twoEdgesQuad-innervert.jpg
           :width: 200px
 
           Innervert cut type
 
-     - .. figure:: /images/Doc26-subdivide-twoEdgesQuad-path.jpg
+     - .. figure:: /images/subdivide-twoEdgesQuad-path.jpg
           :width: 200px
 
           Path cut type
@@ -117,17 +117,17 @@ Fractal
 
 .. list-table::
 
-   * - .. figure:: /images/Doc26-subdivide-fractal-before.jpg
+   * - .. figure:: /images/subdivide-fractal-before.jpg
           :width: 200px
 
           Plane before subdivision
 
-     - .. figure:: /images/Doc26-subdivide-fractal-none.jpg
+     - .. figure:: /images/subdivide-fractal-none.jpg
           :width: 200px
 
           Regular subdivision
 
-     - .. figure:: /images/Doc26-subdivide-fractal-after1.jpg
+     - .. figure:: /images/subdivide-fractal-after1.jpg
           :width: 200px
 
           Same mesh with fractal added
@@ -137,7 +137,7 @@ Along Normal
    Causes the vertices to move along the their normals, instead of random directions
 
 
-.. figure:: /images/Doc26-subdivide-fractal-alongNormal.jpg
+.. figure:: /images/subdivide-fractal-alongNormal.jpg
    :width: 200px
 
    Along normal set to 1
@@ -147,7 +147,7 @@ Random Seed
    Changes the random seed of the noise function, producing a different result for each seed value.
 
 
-.. figure:: /images/Doc26-subdivide-fractal-after2.jpg
+.. figure:: /images/subdivide-fractal-after2.jpg
    :width: 200px
 
    Same mesh with a different seed value
@@ -160,7 +160,7 @@ Below are several examples illustrating the various possibilities of the *Subdiv
 and *Subdivide Multi* tools. Note the selection after subdivision.
 
 
-.. figure:: /images/Doc26-subdivide-before.jpg
+.. figure:: /images/subdivide-before.jpg
    :width: 300px
 
    The sample mesh.
@@ -171,12 +171,12 @@ One Edge
 
 .. list-table::
 
-   * - .. figure:: /images/Doc26-subdivide-oneEdge.jpg
+   * - .. figure:: /images/subdivide-oneEdge.jpg
           :width: 250px
 
           One Edges
 
-     - .. figure:: /images/Doc26-subdivide-oneEdge-tri.jpg
+     - .. figure:: /images/subdivide-oneEdge-tri.jpg
           :width: 250px
 
           Quad/Tri Mode
@@ -187,10 +187,10 @@ Two Tri Edges
 
 .. list-table::
 
-   * - .. figure:: /images/Doc26-subdivide-twoEdgesTri.jpg
+   * - .. figure:: /images/subdivide-twoEdgesTri.jpg
           :width: 250px
 
-     - .. figure:: /images/Doc26-subdivide-twoEdgesTri-tri.jpg
+     - .. figure:: /images/subdivide-twoEdgesTri-tri.jpg
           :width: 250px
 
           Quad/Tri Mode
@@ -201,10 +201,10 @@ Two Opposite Quad Edges
 
 .. list-table::
 
-   * - .. figure:: /images/Doc26-subdivide-twoEdgesOpposite.jpg
+   * - .. figure:: /images/subdivide-twoEdgesOpposite.jpg
           :width: 250px
 
-     - .. figure:: /images/Doc26-subdivide-twoEdgesOpposite-tri.jpg
+     - .. figure:: /images/subdivide-twoEdgesOpposite-tri.jpg
           :width: 250px
 
           Quad/Tri Mode
@@ -215,12 +215,12 @@ Two Adjacent Quad Edges
 
 .. list-table::
 
-   * - .. figure:: /images/Doc26-subdivide-twoEdgesQuad-fan2.jpg
+   * - .. figure:: /images/subdivide-twoEdgesQuad-fan2.jpg
           :width: 250px
 
           Fan cut type
 
-     - .. figure:: /images/Doc26-subdivide-twoEdgesQuad-fan.jpg
+     - .. figure:: /images/subdivide-twoEdgesQuad-fan.jpg
           :width: 250px
 
           Quad/Tri Mode
@@ -228,12 +228,12 @@ Two Adjacent Quad Edges
 
 .. list-table::
 
-   * - .. figure:: /images/Doc26-subdivide-twoEdgesQuad-innervert.jpg
+   * - .. figure:: /images/subdivide-twoEdgesQuad-innervert.jpg
           :width: 250px
 
           Innervert cut type
 
-     - .. figure:: /images/Doc26-subdivide-twoEdgesQuad-innervert-tri.jpg
+     - .. figure:: /images/subdivide-twoEdgesQuad-innervert-tri.jpg
           :width: 250px
 
           Quad/Tri Mode
@@ -241,12 +241,12 @@ Two Adjacent Quad Edges
 
 .. list-table::
 
-   * - .. figure:: /images/Doc26-subdivide-twoEdgesQuad-path.jpg
+   * - .. figure:: /images/subdivide-twoEdgesQuad-path.jpg
           :width: 250px
 
           Path cut type
 
-     - .. figure:: /images/Doc26-subdivide-twoEdgesQuad-path-tri.jpg
+     - .. figure:: /images/subdivide-twoEdgesQuad-path-tri.jpg
           :width: 250px
 
           Quad/Tri Mode
@@ -257,10 +257,10 @@ Three Edges
 
 .. list-table::
 
-   * - .. figure:: /images/Doc26-subdivide-threeEdges.jpg
+   * - .. figure:: /images/subdivide-threeEdges.jpg
           :width: 250px
 
-     - .. figure:: /images/Doc26-subdivide-threeEdges-tri.jpg
+     - .. figure:: /images/subdivide-threeEdges-tri.jpg
           :width: 250px
 
           Quad/Tri Mode
@@ -271,10 +271,10 @@ Tri
 
 .. list-table::
 
-   * - .. figure:: /images/Doc26-subdivide-threeEdgesTri.jpg
+   * - .. figure:: /images/subdivide-threeEdgesTri.jpg
           :width: 250px
 
-     - .. figure:: /images/Doc26-subdivide-threeEdgesTri-tri.jpg
+     - .. figure:: /images/subdivide-threeEdgesTri-tri.jpg
           :width: 250px
 
           Quad/Tri Mode
@@ -285,10 +285,10 @@ Quad/Four Edges
 
 .. list-table::
 
-   * - .. figure:: /images/Doc26-subdivide-fourEdges.jpg
+   * - .. figure:: /images/subdivide-fourEdges.jpg
           :width: 250px
 
-     - .. figure:: /images/Doc26-subdivide-fourEdges-tri.jpg
+     - .. figure:: /images/subdivide-fourEdges-tri.jpg
           :width: 250px
 
           Quad/Tri Mode
@@ -299,12 +299,12 @@ Multicut
 
 .. list-table::
 
-   * - .. figure:: /images/Doc26-subdivide-tri-multi.jpg
+   * - .. figure:: /images/subdivide-tri-multi.jpg
           :width: 250px
 
           Tri with two cuts
 
-     - .. figure:: /images/Doc26-subdivide-quad-multi.jpg
+     - .. figure:: /images/subdivide-quad-multi.jpg
           :width: 250px
 
           Quad with two cuts

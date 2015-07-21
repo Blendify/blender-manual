@@ -3,7 +3,7 @@
 Bright/Contrast
 ***************
 
-.. figure:: /images/Manual-Nodes-BrightContrast.jpg
+.. figure:: /images/Nodes-BrightContrast.jpg
    :width: 320px
 
    A basic example
@@ -20,7 +20,7 @@ Contrast
 Notes
 =====
 
-.. figure:: /images/Manual-Nodes-BrightClamp.jpg
+.. figure:: /images/Nodes-BrightClamp.jpg
    :width: 320px
 
 

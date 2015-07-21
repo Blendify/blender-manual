@@ -13,7 +13,7 @@ ratio of its original volume.
 Option
 ======
 
-.. figure:: /images/25-Manual-Constraints-Transform-MaintainVol.jpg
+.. figure:: /images/Constraints-Transform-MaintainVol.jpg
    :width: 303px
 
    Maintain Volume panel

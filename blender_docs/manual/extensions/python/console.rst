@@ -22,7 +22,7 @@ By pressing :kbd:`Shift-F4` in any Blender Editor Type (3D View, Timeline etc.,)
 you can change it to a Console Editor.
 
 
-.. figure:: /images/Manual-Part-XX-Manual-Extensions-Python-Console-Default-Console.jpg
+.. figure:: /images/Extensions-Python-Console-Default-Console.jpg
    :width: 600px
 
 
@@ -41,7 +41,7 @@ To check what is loaded into the interpreter environment, type dir()
 at the prompt and execute it.
 
 
-.. figure:: /images/Manual-Part-XX-Manual-Extensions-Python-Console-Listing-Globals.jpg
+.. figure:: /images/Extensions-Python-Console-Listing-Globals.jpg
    :width: 600px
 
 
@@ -64,7 +64,7 @@ Now, type bpy. and then press :kbd:`Ctrl-Spacebar` and you will see the Console
 auto-complete feature in action.
 
 
-.. figure:: /images/Manual-Part-XX-Manual-Extensions-Python-Console-Auto-Completion.jpg
+.. figure:: /images/Extensions-Python-Console-Auto-Completion.jpg
    :width: 600px
 
 
@@ -74,7 +74,7 @@ that we can do with Blender Python API and are very powerful tools.
 Lets list all the contents of bpy.app module.
 
 
-.. figure:: /images/Manual-Part-XX-Manual-Extensions-Python-Console-List-SubModule-Contents.jpg
+.. figure:: /images/Extensions-Python-Console-List-SubModule-Contents.jpg
    :width: 600px
 
 
@@ -94,7 +94,7 @@ If you look at the 3D Viewport in the default Blender scene, you will notice 3 o
 Lamp and Camera.
 
 
-.. figure:: /images/Manual-Part-XX-Manual-Extensions-Python-Console-Default-Scene.jpg
+.. figure:: /images/Extensions-Python-Console-Default-Scene.jpg
    :width: 600px
 
 
@@ -117,7 +117,7 @@ Note
    For the commands below to show the proper output, make sure you have selected object(s) in the 3D view.
 
 
-.. figure:: /images/Manual-Part-XX-Manual-Extensions-Python-Console-Example-bpy-context.jpg
+.. figure:: /images/Extensions-Python-Console-Example-bpy-context.jpg
    :width: 600px
 
 
@@ -209,7 +209,7 @@ That's a lot of data.
 Try it out!
 ^^^^^^^^^^^
 
-.. figure:: /images/Manual-Part-XX-Manual-Extensions-Python-Console-Example-bpy-data.jpg
+.. figure:: /images/Extensions-Python-Console-Example-bpy-data.jpg
    :width: 600px
 
 
@@ -279,6 +279,6 @@ Press ENTER-KEY twice after entering the command at the shell prompt.
    ...     add_cube(location=(index*3, 0, 0), layers=mylayers)
 
 
-.. figure:: /images/Manual-Part-XX-Manual-Extensions-Python-Console-Example-bpy-ops.jpg
+.. figure:: /images/Extensions-Python-Console-Example-bpy-ops.jpg
    :width: 400px
 

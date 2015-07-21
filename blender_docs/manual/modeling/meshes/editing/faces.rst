@@ -237,19 +237,19 @@ Thickness
    Negative values offset outward.
 
 
-.. figure:: /images/Doc26-solidify-before.jpg
+.. figure:: /images/solidify-before.jpg
    :width: 200px
 
    Mesh before solidify operation
 
 
-.. figure:: /images/Doc26-solidify-after.jpg
+.. figure:: /images/solidify-after.jpg
    :width: 200px
 
    Solidify with a positive thickness
 
 
-.. figure:: /images/Doc26-solidify-after2.jpg
+.. figure:: /images/solidify-after2.jpg
    :width: 200px
 
    Solidify with a negative thickness

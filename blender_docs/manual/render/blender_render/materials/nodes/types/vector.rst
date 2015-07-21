@@ -14,7 +14,7 @@ surface normals are vectors. Vectors are also important for calculating shading.
 Normal Node
 ===========
 
-.. figure:: /images/26-Manual-Material-Vector-Node-Normal.jpg
+.. figure:: /images/Material-Vector-Node-Normal.jpg
 
    Normal node
 
@@ -68,7 +68,7 @@ Dot
 Controls
 --------
 
-.. figure:: /images/26-Manual-Material-Vector-Node-Normal-Preview.jpg
+.. figure:: /images/Material-Vector-Node-Normal-Preview.jpg
 
    Interactive Normal node preview
 
@@ -80,7 +80,7 @@ Interactive node preview
 Mapping Node
 ============
 
-.. figure:: /images/26-Manual-Material-Vector-Node-Mapping.jpg
+.. figure:: /images/Material-Vector-Node-Mapping.jpg
 
    Mapping node
 
@@ -113,7 +113,7 @@ The controls of the node have been ordered in X, Y, Z order.
 If you want to use the clamping options, try enabling Min and Max.
 
 
-.. figure:: /images/26-Manual-Material-Vector-Node-Mapping-Controls-Vectortype.jpg
+.. figure:: /images/Material-Vector-Node-Mapping-Controls-Vectortype.jpg
 
    Mapping Node Vector Types controls
 
@@ -131,7 +131,7 @@ Vector type selector
       Transform a normal vector with unit length.
 
 
-.. figure:: /images/26-Manual-Material-Vector-Node-Mapping-Controls-Transforms.jpg
+.. figure:: /images/Material-Vector-Node-Mapping-Controls-Transforms.jpg
 
    Mapping Node Transforms controls
 
@@ -144,7 +144,7 @@ Vector type selector
       Transform scale vector.
 
 
-.. figure:: /images/26-Manual-Material-Vector-Node-Mapping-Controls-Clipping.jpg
+.. figure:: /images/Material-Vector-Node-Mapping-Controls-Clipping.jpg
 
    Mapping Node Clipping controls
 
@@ -158,7 +158,7 @@ Vector type selector
 Vector Curves
 =============
 
-.. figure:: /images/26-Manual-Material-Vector-Node-Curves.jpg
+.. figure:: /images/Material-Vector-Node-Curves.jpg
 
    Vector Curves node
 

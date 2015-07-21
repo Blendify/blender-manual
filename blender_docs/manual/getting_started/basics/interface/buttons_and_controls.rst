@@ -11,7 +11,7 @@ interface. The different types of controls are described below.
 Operation Buttons
 =================
 
-.. figure:: /images/Manual-Part-I-ConceptButtons2_25.jpg
+.. figure:: /images/ConceptButtons2.jpg
    :align: right
 
    Operation button
@@ -24,7 +24,7 @@ They can be identified by their gray color in the default color scheme.
 Toggle Buttons
 ==============
 
-.. figure:: /images/Manual-Part-I-ConceptButtons1_1_25.jpg
+.. figure:: /images/ConceptButtons1_1.jpg
    :align: right
 
    Toggle buttons
@@ -48,7 +48,7 @@ This works for check-boxes, toggles in the outliner and layer buttons.
 Radio Buttons
 =============
 
-.. figure:: /images/Manual-Part-I-ConceptButtons1_25.jpg
+.. figure:: /images/ConceptButtons1.jpg
    :align: right
 
    Radio buttons
@@ -60,7 +60,7 @@ Radio buttons are used to choose from a small selection of "mutually exclusive" 
 Number Buttons
 ==============
 
-.. figure:: /images/Manual-Part-I-ConceptButtons3_25.jpg
+.. figure:: /images/ConceptButtons3.jpg
    :align: right
 
    Number buttons
@@ -235,7 +235,7 @@ Pop-up menus are displayed as regular buttons, showing a range of options.
 For example, the *Add Modifier* button will produce a menu with all of the available modifiers.
 
 
-.. figure:: /images/Manual-Part-I-ConceptButtons4_menue_25.jpg
+.. figure:: /images/ConceptButtons4_menue.jpg
    :align: center
 
    Modifier options
@@ -249,7 +249,7 @@ data-blocks are items like *Meshes*, *Objects*, *Materials*, *Textures*, and so 
 
 These menu's may show a preview and allow you to search by name since its common all items wont fit in the list.
 
-.. figure:: /images/Manual-Part-I-ConceptButtons4_1_25.jpg
+.. figure:: /images/ConceptButtons4_1.jpg
    :align: right
 
    Datablock link menu with search
@@ -264,7 +264,7 @@ These menu's may show a preview and allow you to search by name since its common
 Sometimes there is a list of applied data-blocks
 (such as a list of materials used on the object). See *data-block link buttons* above.
 
-.. figure:: /images/Manual-Part-I-ConceptButtons4_25.jpg
+.. figure:: /images/ConceptButtons4.jpg
    :align: right
 
    Datablock link buttons

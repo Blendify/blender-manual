@@ -3,7 +3,7 @@
 Outliner
 ********
 
-.. figure:: /images/Manual-2-56-PartIII-Outliner-Window.jpg
+.. figure:: /images/Outliner-Window.jpg
 
    The Outliner window.
 
@@ -45,7 +45,7 @@ Use this feature to find objects in your 3D View, select them in the *Outliner*,
 then zoom to them with :menuselection:`View --> Show Active` or :kbd:`NumpadPeriod`.
 
 
-.. figure:: /images/Manual-2-56-PartIII-Outliner-Activate-Datablock.jpg
+.. figure:: /images/Outliner-Activate-Datablock.jpg
 
    Click :kbd:`LMB` on the mesh data of the cube to activate Edit mode.
 
@@ -58,7 +58,7 @@ Activating a datablock
    cube will select the cube and enter *Object mode* (see right).
 
 
-.. figure:: /images/Manual-2-56-PartIII-Outliner-Window-Column-Icons.jpg
+.. figure:: /images/Outliner-Window-Column-Icons.jpg
 
    Toggling pre-selection of a datablock.
 
@@ -76,7 +76,7 @@ Toggle pre-selection of a group of datablocks
    which brings on a context menu (see bellow).
 
 
-.. figure:: /images/Manual-2-56-PartIII-Outliner-Object-Operation.jpg
+.. figure:: /images/Outliner-Object-Operation.jpg
 
    Context menu for the Cube object.
 
@@ -148,7 +148,7 @@ Matching datablocks will be automatically selected.
 Filtering the display
 =====================
 
-.. figure:: /images/Manual-2-56-PartIII-Outliner-Display-Mode.jpg
+.. figure:: /images/Outliner-Display-Mode.jpg
 
    Outliner Display dropdown.
 

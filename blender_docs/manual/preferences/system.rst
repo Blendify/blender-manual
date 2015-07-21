@@ -8,7 +8,7 @@ The *System* tab allows you to set resolution, scripting console preferences, so
 and internationalization.
 
 
-.. figure:: /images/(Doc_26x_Manual_Preferences_System)_(Screenshot_Full)_(GBV266FN).jpg
+.. figure:: /images/Preferences_System_Screenshot_Full.jpg
    :width: 650px
 
 

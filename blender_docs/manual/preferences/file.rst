@@ -7,7 +7,7 @@ The *File Preferences* tab allows you to configure auto-save preferences and set
 .blend files, rendered images, and more.
 
 
-.. figure:: /images/Manual-Interface-Configuration-File-UserPreferencesFile.jpg
+.. figure:: /images/Interface-Configuration-File-UserPreferencesFile.jpg
    :width: 650px
 
 
@@ -96,7 +96,7 @@ Load UI
    *Open Blender File* panel of the *File Browser* window.
 
 
-.. figure:: /images/Manual-Interface-Configuration-File-filefilter-25.jpg
+.. figure:: /images/Interface-Configuration-File-filefilter-25.jpg
 
    File extension filter
 
