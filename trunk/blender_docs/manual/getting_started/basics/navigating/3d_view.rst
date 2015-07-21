@@ -36,7 +36,7 @@ These are demonstrated in the *Orthographic (left) and perspective (right)
 projections* image below.
 
 
-.. figure:: /images/Manual-Part-I-3DPerspective.jpg
+.. figure:: /images/3DPerspective.jpg
    :width: 630px
 
    Orthographic (left) and perspective (right) projections.

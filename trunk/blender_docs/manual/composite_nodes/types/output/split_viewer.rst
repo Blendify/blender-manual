@@ -3,7 +3,7 @@
 SplitViewer Node
 ****************
 
-.. figure:: /images/Manual-Compositing_Nodes-SplitViewer.jpg
+.. figure:: /images/Compositing_Nodes-SplitViewer.jpg
 
    SplitViewer node
 

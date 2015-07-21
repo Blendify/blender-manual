@@ -20,7 +20,7 @@ Color 1/Color 2
 Voronoi
 =======
 
-.. figure:: /images/Doc26-textureNodes-voronoi.jpg
+.. figure:: /images/textureNodes-voronoi.jpg
 
    Voronoi node
 
@@ -31,7 +31,7 @@ See :doc:`Here </render/blender_render/textures/types/procedural/voronoi>`
 Blend
 =====
 
-.. figure:: /images/Doc26-textureNodes-blend.jpg
+.. figure:: /images/textureNodes-blend.jpg
 
    Blend node
 
@@ -42,7 +42,7 @@ See :doc:`Here </render/blender_render/textures/types/procedural/blend>`
 Magic
 =====
 
-.. figure:: /images/Doc26-textureNodes-magic.jpg
+.. figure:: /images/textureNodes-magic.jpg
 
    Magic node
 
@@ -53,7 +53,7 @@ See :doc:`Here </render/blender_render/textures/types/procedural/magic>`
 Marble
 ======
 
-.. figure:: /images/Doc26-textureNodes-marble.jpg
+.. figure:: /images/textureNodes-marble.jpg
 
    Marble node
 
@@ -64,7 +64,7 @@ See :doc:`Here </render/blender_render/textures/types/procedural/marble>`
 Clouds
 ======
 
-.. figure:: /images/Doc26-textureNodes-cloud.jpg
+.. figure:: /images/textureNodes-cloud.jpg
 
    Clouds node
 
@@ -77,7 +77,7 @@ Wood
 ----
 
 
-.. figure:: /images/Doc26-textureNodes-wood.jpg
+.. figure:: /images/textureNodes-wood.jpg
 
    Wood node
 
@@ -88,7 +88,7 @@ See :doc:`Here </render/blender_render/textures/types/procedural/wood>`
 Musgrave
 ========
 
-.. figure:: /images/Doc26-textureNodes-musgrave.jpg
+.. figure:: /images/textureNodes-musgrave.jpg
 
    Musgrave
 
@@ -99,7 +99,7 @@ See :doc:`Here </render/blender_render/textures/types/procedural/musgrave>`
 Noise
 =====
 
-.. figure:: /images/Doc26-textureNodes-noise.jpg
+.. figure:: /images/textureNodes-noise.jpg
 
    Noise
 
@@ -110,7 +110,7 @@ See :doc:`Here </render/blender_render/textures/types/procedural/noise>`
 Stucci
 ======
 
-.. figure:: /images/Doc26-textureNodes-stucci.jpg
+.. figure:: /images/textureNodes-stucci.jpg
 
    Stucci
 
@@ -121,7 +121,7 @@ See :doc:`Here </render/blender_render/textures/types/procedural/stucci>`
 Distorted Noise
 ===============
 
-.. figure:: /images/Doc26-textureNodes-distortedNoise.jpg
+.. figure:: /images/textureNodes-distortedNoise.jpg
 
    Distorted Noise node
 

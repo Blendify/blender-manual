@@ -24,7 +24,7 @@ we use the Fluid Control option to control part of the fluid so that it has a ce
 (the sphere drop or the teapot drop) before it falls in the rest of the fluid:
 
 
-.. figure:: /images/Manual-Part-X-fluidsim-example2.jpg
+.. figure:: /images/fluidsim-example2.jpg
    :width: 640px
 
    Falling drop

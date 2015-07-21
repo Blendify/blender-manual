@@ -59,7 +59,7 @@ How do I get the world coordinates of a control vertex of a BezierCurve?
    worldCoord = wmtx * localCoord
 
 
-.. figure:: /images/Manual-Part20-scripting-faq-CV-in-world-coords.jpg
+.. figure:: /images/scripting-faq-CV-in-world-coords.jpg
    :width: 480px
 
 
@@ -72,7 +72,7 @@ How do I select/deselect the control points of a Curve
 Method 1
 --------
 
-.. figure:: /images/Manual-Part20-scripting-faq-select-curve-control-point-method-1.jpg
+.. figure:: /images/scripting-faq-select-curve-control-point-method-1.jpg
    :width: 480px
 
 
@@ -88,7 +88,7 @@ Method 1
 Method 2
 --------
 
-.. figure:: /images/Manual-Part20-scripting-faq-select-curve-control-point-method-2.jpg
+.. figure:: /images/scripting-faq-select-curve-control-point-method-2.jpg
    :width: 480px
 
 

@@ -15,7 +15,7 @@ You can work with geometric objects in two modes.
    **Object mode** has the following header in the 3D view:
 
 
-.. figure:: /images/25-manual-editmode-3dviewheader-objectmode.jpg
+.. figure:: /images/editmode-3dviewheader-objectmode.jpg
    :width: 600px
 
    Object Mode header
@@ -27,7 +27,7 @@ Edit mode
    **Edit Mode** has the following header in the 3D view:
 
 
-.. figure:: /images/25-manual-editmode-3dviewheader-editmode.jpg
+.. figure:: /images/editmode-3dviewheader-editmode.jpg
    :width: 600px
 
    Edit Mode header
@@ -59,12 +59,12 @@ or most recently selected, object.
 Visualization
 =============
 
-.. figure:: /images/25-manual-editmode-cubeselect-1.jpg
+.. figure:: /images/editmode-cubeselect-1.jpg
 
    One cube selected
 
 
-.. figure:: /images/25-manual-editmode-cubeselect-2.jpg
+.. figure:: /images/editmode-cubeselect-2.jpg
 
    Two cubes selected before entering Edit mode
 
@@ -95,7 +95,7 @@ if enough vertices or edges are selected to define a face, that face is also hig
 Tool Shelf
 ==========
 
-.. figure:: /images/25-manual-editmode-meshtools-split.jpg
+.. figure:: /images/editmode-meshtools-split.jpg
 
    The Tool Shelf panel in edit mode (panel split in two parts for layout reasons)
 
@@ -119,7 +119,7 @@ For further information on panels see the :doc:`Reference panels </ce/panels>` s
 Properties Shelf
 ================
 
-.. figure:: /images/25-manual-editmode-properties-split.jpg
+.. figure:: /images/editmode-properties-split.jpg
 
    The Properties Shelf panel in edit mode (panel split in two parts for layout reasons)
 

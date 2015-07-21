@@ -128,7 +128,7 @@ Factor
 
              Factor: ``0.5``
 
-        - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_lambda2_5.jpg
+        - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_lambda.jpg
              :width: 130px
 
              Factor: ``2.5``
@@ -200,7 +200,7 @@ Border
 
              Border: 1.0
 
-        - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_border2_5.jpg
+        - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_border.jpg
              :width: 130px
 
              Border: 2.5
@@ -349,7 +349,7 @@ Vertex Group
       * - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_repeat0.jpg
              :width: 130px
 
-        - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_lambda2_5.jpg
+        - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_lambda.jpg
              :width: 130px
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_femme_paint.jpg

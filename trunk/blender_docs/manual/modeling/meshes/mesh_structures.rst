@@ -12,7 +12,7 @@ possibilities that will be the foundation for all our models.
 Vertices
 ========
 
-.. figure:: /images/25-Manual-Mesh-Structures-CubeExample.jpg
+.. figure:: /images/Mesh-Structures-CubeExample.jpg
 
    Vertex example
 
@@ -73,7 +73,7 @@ select three or four suitable vertices and press :kbd:`F`.
 Loops
 =====
 
-.. figure:: /images/25-Manual-mesh-structures-edge-and-face-loops.jpg
+.. figure:: /images/mesh-structures-edge-and-face-loops.jpg
 
    Edge and Face Loops
 

@@ -15,7 +15,7 @@ The Boolean modifier uses one of three Boolean operations (*Difference*
 to create a single compound object out of two mesh objects.
 
 .. TODO: Update image with 'Show all Edges' enabled
-.. figure:: /images/(Doc_26x_Modifier_Generate_Boolean)_(Union_Intersect_Difference_Examples)_(GBAFN).jpg
+.. figure:: /images/Modifier_Generate_Boolean_Union_Intersect_Difference_Examples.jpg
 
    Fig. 1 - The Union, Intersection and Difference between a Cube and a UV Sphere,
    with the modifier applied to the Sphere and using the cube as target. (Detail, Union is using Ngons).
@@ -87,7 +87,7 @@ operation for the Boolean modifier at a time.
 Options
 =======
 
-.. figure:: /images/(Doc_26x_Modifier_Generate_Boolean)_(Boolean_Modifier_Options)_(GBAFN).jpg
+.. figure:: /images/Modifier_Generate_Boolean_Boolean_Modifier_Options.jpg
 
    Fig. 2 - The Boolean Modifier
 
@@ -150,24 +150,24 @@ The meshes used have normals pointed outwards (Normal meshes).
 See their captions for more information.
 
 
-.. figure:: /images/(Doc_26x_Modifier_Generate_Boolean)_(Multi_Materials_Example_Base)_(GBAFN).jpg
+.. figure:: /images/Modifier_Generate_Boolean_Multi_Materials_Example_Base.jpg
 
    Fig. 3 - Cube with Multi-Material Mesh (modified) and Icosphere (target) with basic Material
 
 
-.. figure:: /images/(Doc_26x_Modifier_Generate_Boolean)_(Multi_Materials_Example_Union)_(GBAFN).jpg
+.. figure:: /images/Modifier_Generate_Boolean_Multi_Materials_Example_Union.jpg
 
    Fig. 4 - Union - The first active Material of the Cube
    is added to the new topology; other materials remain in the old topology
 
 
-.. figure:: /images/(Doc_26x_Modifier_Generate_Boolean)_(Multi_Materials_Example_Difference)_(GBAFN)_.jpg
+.. figure:: /images/Modifier_Generate_Boolean_Multi_Materials_Example_Difference_.jpg
 
    Fig. 5 - Difference - The Icosphere was subtracted from the Cube;
    the new topology has received the first active Material of the Cube
 
 
-.. figure:: /images/(Doc_26x_Modifier_Generate_Boolean)_(Multi_Materials_Example_Intersect)_(GBAFN)_.jpg
+.. figure:: /images/Modifier_Generate_Boolean_Multi_Materials_Example_Intersect_.jpg
 
    Fig. 6 - Intersect - The resulting Mesh was copied and rotated 180- -
    You can see the first active material of the cube in the back face (new topology);
@@ -180,12 +180,12 @@ As we said before, this is an exception rather than the rule.
 As you can see, the target received the materials of the modified mesh.
 
 
-.. figure:: /images/(Doc_26x_Modifier_Generate_Boolean)_(Multi_Materials_Example_Inverted_Normals_Back)_(GBAFN).jpg
+.. figure:: /images/Modifier_Generate_Boolean_Multi_Materials_Example_Inverted_Normals_Back.jpg
 
    Fig. 7 - Front of the target with the modified mesh materials
 
 
-.. figure:: /images/(Doc_26x_Modifier_Generate_Boolean)_(Multi_Materials_Example_Inverted_Normals_Front)_(GBAFN).jpg
+.. figure:: /images/Modifier_Generate_Boolean_Multi_Materials_Example_Inverted_Normals_Front.jpg
 
    Fig. 8 - Back of the target with the modified mesh materials
 
@@ -209,22 +209,22 @@ Fig. 9 shows the operation at the start (difference), and on the right (Fig. 10)
 the resulting mesh. In Figs. 11 and 12 we show the unwrap in the Blender UV/Image Editor Window.
 
 
-.. figure:: /images/(Doc_26x_Modifier_Generate_Boolean)_(UV_Boolean_Difference_Operation_Op_Start)_(GBAFN).jpg
+.. figure:: /images/Modifier_Generate_Boolean_UV_Boolean_Difference_Operation_Op_Start.jpg
 
    Fig. 9 - A UV Sphere and a Cube with different UV Maps
 
 
-.. figure:: /images/(Doc_26x_Modifier_Generate_Boolean)_(UV_Boolean_Difference_Operation_Applied)_(GBAFN).jpg
+.. figure:: /images/Modifier_Generate_Boolean_UV_Boolean_Difference_Operation_Applied.jpg
 
    Fig. 10 - Difference operation applied
 
 
-.. figure:: /images/(Doc_26x_Modifier_Generate_Boolean)_(UV_Map_Face_Modified_Mesh)_(GBAFN).jpg
+.. figure:: /images/Modifier_Generate_Boolean_UV_Map_Face_Modified_Mesh.jpg
 
    Fig. 11 - Faces of the modified mesh mapped
 
 
-.. figure:: /images/(Doc_26x_Modifier_Generate_Boolean)_(UV_Map_Face_Modified_Mesh_New_Topology)_(GBAFN).jpg
+.. figure:: /images/Modifier_Generate_Boolean_UV_Map_Face_Modified_Mesh_New_Topology.jpg
 
    Fig. 12 - New topology mapped and UV faces assigned; we have another image assigned to the purple tinted faces.
 
@@ -232,7 +232,7 @@ the resulting mesh. In Figs. 11 and 12 we show the unwrap in the Blender UV/Imag
 Other Modifiers
 ===============
 
-.. figure:: /images/(Doc_26x_Modifier_Generate_Boolean)_(Error_Message_Boolean_Operation)_(GBAFN).jpg
+.. figure:: /images/Modifier_Generate_Boolean_Error_Message_Boolean_Operation.jpg
 
    Fig. 13 - Boolean modifier with error message
 
@@ -279,12 +279,12 @@ Below are two images: one with the subsurf added to the target (Fig. 14),
 and another with the resulting topology (Fig. 15).
 
 
-.. figure:: /images/(Doc_26x_Modifier_Generate_Boolean)_(Subsurf_Added_To_The_Target)_(GBAFN).jpg
+.. figure:: /images/Modifier_Generate_Boolean_Subsurf_Added_To_The_Target.jpg
 
    Fig. 14 - The Subsurf is only added to the target (Icosphere), not applied
 
 
-.. figure:: /images/(Doc_26x_Modifier_Generate_Boolean)_(Resulting_Mesh_Subsurf_Added_To_The_Target)_(GBAFN).jpg
+.. figure:: /images/Modifier_Generate_Boolean_Resulting_Mesh_Subsurf_Added_To_The_Target.jpg
 
    Fig. 15 - The resulting topology. The Subsurf added to the target was taken into account
 
@@ -349,12 +349,12 @@ We made some examples with a cube and an icosphere showing the results.
 See Fig. 16 and 17 - All face normals are pointing outwards (Normal meshes).
 
 
-.. figure:: /images/(Doc_26x_Modifier_Generate_Boolean)_(Normals_Pointing_Outwards)_(GBAFN).jpg
+.. figure:: /images/Modifier_Generate_Boolean_Normals_Pointing_Outwards.jpg
 
    Fig. 16 - Faces with normals pointing outwards
 
 
-.. figure:: /images/(Doc_26x_Modifier_Generate_Boolean)_(Difference_Normals_Pointing_Outwards)_(GBAFN).jpg
+.. figure:: /images/Modifier_Generate_Boolean_Difference_Normals_Pointing_Outwards.jpg
 
    Fig. 17 - Normal Boolean modifier operation (Difference operation)
 
@@ -362,12 +362,12 @@ See Fig. 16 and 17 - All face normals are pointing outwards (Normal meshes).
 See Fig. 18 and 19 - All face normals are pointing inwards (Meshes with inverted normals)
 
 
-.. figure:: /images/(Doc_26x_Modifier_Generate_Boolean)_(Normals_Pointing_Inwards)_(GBAFN).jpg
+.. figure:: /images/Modifier_Generate_Boolean_Normals_Pointing_Inwards.jpg
 
    Fig. 18 - Faces with normals pointing inwards
 
 
-.. figure:: /images/(Doc_26x_Modifier_Generate_Boolean)_(Intersection_Normals_Pointing_Inwards)_(GBAFN).jpg
+.. figure:: /images/Modifier_Generate_Boolean_Intersection_Normals_Pointing_Inwards.jpg
 
    Fig. 19 - Normal Boolean modifier operation (Intersection operation)
 
@@ -378,12 +378,12 @@ In Fig. 20 - Face normals mixed, pointed to different directions and 21 - Result
 you can see that the modifier has bad effects when applied, leaving faces opened:
 
 
-.. figure:: /images/(Doc_26x_Modifier_Generate_Boolean)_(Normals_Mixed_Inwards_Outwards)_(GBAFN).jpg
+.. figure:: /images/Modifier_Generate_Boolean_Normals_Mixed_Inwards_Outwards.jpg
 
    Fig. 20 - Face normals mixed, pointed to different directions
 
 
-.. figure:: /images/(Doc_26x_Modifier_Generate_Boolean)_(Resulting_Mesh_Normals_Mixed)_(GBAFN).jpg
+.. figure:: /images/Modifier_Generate_Boolean_Resulting_Mesh_Normals_Mixed.jpg
 
    Fig. 21 - Resulting operation, Modifier has bad effect when applied, leaving faces opened
 
@@ -402,7 +402,7 @@ You can fix mixed normals by recalculating them outside or inside;
 here we also give you a small hint on how to do this prior to Boolean modifier usage:
 
 
-.. figure:: /images/(Doc_26x_Modifier_Generate_Boolean)_(Mesh_Display_Transform_Panel)_(GBAFN).jpg
+.. figure:: /images/Modifier_Generate_Boolean_Mesh_Display_Transform_Panel.jpg
 
    Fig. 22 - Mesh Display in the Transform Panel
 
@@ -420,7 +420,7 @@ Then select the faces that are pointing in the wrong direction using :kbd:`Shift
 in the Header of the 3D View, go to *Normals* and choose *Flip Normals*:
 
 
-.. figure:: /images/(Doc_26x_Modifier_Generate_Boolean)_(Recalculate_Normals_Menu_Mesh_Edit_Mode)_(GBAFN).jpg
+.. figure:: /images/Modifier_Generate_Boolean_Recalculate_Normals_Menu_Mesh_Edit_Mode.jpg
 
    Fig. 23 - Recalculate and Flip Normals in Mesh Menu Entry - 3D View
 
@@ -445,12 +445,12 @@ In this example, a difference between the cube and the icosphere is applied,
 but Blender connected a copy of the icosphere to the Cube mesh, trying to apply what was possible.
 
 
-.. figure:: /images/(Doc_26x_Modifier_Generate_Boolean)_(Mesh_With_Mixed_Empty_Faces)_(GBAFN).jpg
+.. figure:: /images/Modifier_Generate_Boolean_Mesh_With_Mixed_Empty_Faces.jpg
 
    Fig. 24 - Mesh with two empty faces mixed with normal faces
 
 
-.. figure:: /images/(Doc_26x_Modifier_Generate_Boolean)_(Mesh_With_Mixed_Empty_Faces_Result)_(GBAFN).jpg
+.. figure:: /images/Modifier_Generate_Boolean_Mesh_With_Mixed_Empty_Faces_Result.jpg
 
    Fig. 25 - Result of a difference operation applied - Blender connected what was possible.
 
@@ -469,12 +469,12 @@ the target.
 See Fig. 26 and Fig. 27 - Resulting operation using two non-closed volumes with faces forming a new topology.
 
 
-.. figure:: /images/(Doc_26x_Modifier_Generate_Boolean)_(Complete_Face_Shape)_(GBAFN).jpg
+.. figure:: /images/Modifier_Generate_Boolean_Complete_Face_Shape.jpg
 
    Fig. 26 - Non-closed volumes forming a new topology
 
 
-.. figure:: /images/(Doc_26x_Modifier_Generate_Boolean)_(Resulting_Complete_Face_Shape)_(GBAFN).jpg
+.. figure:: /images/Modifier_Generate_Boolean_Resulting_Complete_Face_Shape.jpg
 
    Fig. 27 - Resulting operation using two open volumes performing a new closed topology
 
@@ -483,12 +483,12 @@ Now, let's see what happens when we use meshes that are partially open,
 incomplete, or meshes that aren't forming a new topology.
 
 
-.. figure:: /images/(Doc_26x_Modifier_Generate_Boolean)_(Incomplete_Face_Shape)_(GBAFN).jpg
+.. figure:: /images/Modifier_Generate_Boolean_Incomplete_Face_Shape.jpg
 
    Fig. 28 - Open volumes that aren't forming a new topology.
 
 
-.. figure:: /images/(Doc_26x_Modifier_Generate_Boolean)_(Resulting_Incomplete_Face_Shape)_(GBAFN).jpg
+.. figure:: /images/Modifier_Generate_Boolean_Resulting_Incomplete_Face_Shape.jpg
 
    Fig. 29 - Resulting operation using two open volumes that aren't forming a new topology.
 

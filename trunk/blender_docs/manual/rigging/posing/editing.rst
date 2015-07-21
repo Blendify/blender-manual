@@ -6,7 +6,7 @@
 Editing Poses
 *************
 
-.. figure:: /images/Doc26-rigging-poseTools.jpg
+.. figure:: /images/rigging-poseTools.jpg
    :width: 100px
 
    Pose Tools
@@ -34,7 +34,7 @@ with a few specificities:
 - You can only select *whole bones* in *Pose* mode, not roots/tips...
 
 
-.. figure:: /images/Doc26-rigging-selectGrouped.jpg
+.. figure:: /images/rigging-selectGrouped.jpg
 
    The Select Grouped pop-up menu.
 
@@ -58,7 +58,7 @@ in *Pose* mode, each bone has a scale of **1.0**, and null rotation and position
 :kbd:`N`).
 
 
-.. figure:: /images/Doc26-rigging-pose-localRotate.jpg
+.. figure:: /images/rigging-pose-localRotate.jpg
    :width: 250px
 
    An example of locally-Y-axis locked rotation, with two bones selected.
@@ -161,7 +161,7 @@ Copy/Paste Pose
      :menuselection:`Pose --> Paste Pose`, :menuselection:`Pose --> Paste Flipped Pose`
 
 
-.. figure:: /images/Doc26-rigging-copyPastePose.jpg
+.. figure:: /images/rigging-copyPastePose.jpg
 
    Copy and paste pose buttons in the 3D View header in Pose mode.
 

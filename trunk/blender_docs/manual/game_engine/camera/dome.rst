@@ -31,7 +31,7 @@ orthographic camera, is a fisheye projection.
 Dome Camera Settings
 ********************
 
-.. figure:: /images/Manual-GameEngine-Dome-Panel.jpg
+.. figure:: /images/GameEngine-Dome-Panel.jpg
 
 Dome Type
    This menu allows you to select which type of dome camera to use.

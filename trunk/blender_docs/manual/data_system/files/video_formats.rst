@@ -63,7 +63,7 @@ Xvid
 Advanced Encoding
 -----------------
 
-.. figure:: /images/Render-FFMPEG-Video-2_5.jpg
+.. figure:: /images/Render-FFMPEG-Video.jpg
 
 If the *H.264*, *MPEG*, *Ogg Theora*,
 or *Xvid* codecs are chosen, an *Encoding* panel becomes available.

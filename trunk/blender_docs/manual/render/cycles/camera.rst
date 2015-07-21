@@ -10,7 +10,7 @@ Lens Size and Angle
    Control the field of view angle.
 
 
-.. figure:: /images/Manual_cycles_camera_persp.png
+.. figure:: /images/cycles_camera_persp.png
    :width: 300px
 
 
@@ -21,7 +21,7 @@ Scale
    Controls the size of objects projected on the image.
 
 
-.. figure:: /images/Manual_cycles_camera_ortho.png
+.. figure:: /images/cycles_camera_ortho.png
    :width: 300px
 
 

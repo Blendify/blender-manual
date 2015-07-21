@@ -68,11 +68,11 @@ Enabling Node Materials in the Material Buttons
 
 .. list-table::
 
-   * - .. figure:: /images/25-Manual-Materials-Nodes-StartPanel.jpg
+   * - .. figure:: /images/Materials-Nodes-StartPanel.jpg
 
           Material's menu with Nodes enabled
 
-     - .. figure:: /images/25-Manual-Materials-Nodes-DefaultStart-Node.jpg
+     - .. figure:: /images/Materials-Nodes-DefaultStart-Node.jpg
 
           Default nodes
 
@@ -85,7 +85,7 @@ What you have just done is told Blender to make the material you were on to beco
 tree. Most of the panels we normally find in the material menu are now gone.
 
 
-.. figure:: /images/25-Manual-Materials-Nodes-CompositingScreen.jpg
+.. figure:: /images/Materials-Nodes-CompositingScreen.jpg
 
    Accessing the Compositing screen
 
@@ -102,11 +102,11 @@ You can also split the 3D view in the default screen in two and change one into 
 
 .. list-table::
 
-   * - .. figure:: /images/25-Manual-Materials-Nodes-StartWithMaterial.jpg
+   * - .. figure:: /images/Materials-Nodes-StartWithMaterial.jpg
 
           Material's menu with a first material added to the Node Editor
 
-     - .. figure:: /images/25-Manual-Materials-Nodes-FirstMat.jpg
+     - .. figure:: /images/Materials-Nodes-FirstMat.jpg
 
           A first material added to the noodle
 

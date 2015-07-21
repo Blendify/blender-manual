@@ -39,7 +39,7 @@ see: `BGE-Physics-RigidBodyJoints.blend
 Options
 =======
 
-.. figure:: /images/25-Manual-Constraints-Relationship-RigidBodyJoint.jpg
+.. figure:: /images/Constraints-Relationship-RigidBodyJoint.jpg
    :width: 304px
 
    Rigid Body Joint panel

@@ -3,7 +3,7 @@
 Weight Tools
 ************
 
-.. figure:: /images/26-Manual-Modeling-Meshes-weight-paint-tools.jpg
+.. figure:: /images/Modeling-Meshes-weight-paint-tools.jpg
 
    Weight Paint Tools
 
@@ -47,7 +47,7 @@ which keep their weight values untouched.
 Operator Parameters
 -------------------
 
-.. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-normalize-all.jpg
+.. figure:: /images/Modeling-Meshes-wp-tools-normalize-all.jpg
 
    Normalize All Options
 
@@ -64,7 +64,7 @@ Lock Active
 Normalize
 =========
 
-.. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-normalize.jpg
+.. figure:: /images/Modeling-Meshes-wp-tools-normalize.jpg
 
    Normalize All Options
 
@@ -82,7 +82,7 @@ None
 Mirror
 ======
 
-.. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-mirror.jpg
+.. figure:: /images/Modeling-Meshes-wp-tools-mirror.jpg
 
    Normalize All Options
 
@@ -96,7 +96,7 @@ The mirror only takes place within the selected Vertex Group.
 Operator Parameters
 -------------------
 
-.. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-mirror-options.jpg
+.. figure:: /images/Modeling-Meshes-wp-tools-mirror-options.jpg
 
    Mirror Options
 
@@ -126,7 +126,7 @@ Topology Mirror
 Invert
 ======
 
-.. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-invert.jpg
+.. figure:: /images/Modeling-Meshes-wp-tools-invert.jpg
 
    Invert
 
@@ -144,7 +144,7 @@ Examples:
 Operator Parameters
 -------------------
 
-.. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-invert-operator.jpg
+.. figure:: /images/Modeling-Meshes-wp-tools-invert-operator.jpg
 
    Mirror Options
 
@@ -164,7 +164,7 @@ Remove Weights
 Clean
 =====
 
-.. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-clean.jpg
+.. figure:: /images/Modeling-Meshes-wp-tools-clean.jpg
 
    Invert
 
@@ -182,7 +182,7 @@ Weights are shown in Black.
 Operator Parameters
 -------------------
 
-.. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-clean-operator.jpg
+.. figure:: /images/Modeling-Meshes-wp-tools-clean-operator.jpg
 
    Mirror Options
 
@@ -200,7 +200,7 @@ Keep Single
 
 Levels
 ======
-.. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-levels.jpg
+.. figure:: /images/Modeling-Meshes-wp-tools-levels.jpg
 
    Invert
 
@@ -216,7 +216,7 @@ with this tool you can raise or lower the overall "heat" of the weight group.
 Operator Parameters
 -------------------
 
-.. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-levels-operator.jpg
+.. figure:: /images/Modeling-Meshes-wp-tools-levels-operator.jpg
 
    Mirror Options
 
@@ -244,7 +244,7 @@ Blends the weights of selected vertices with adjacent unselected vertices.
 This tool only works in vertex select mode.
 
 
-.. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-blend1.jpg
+.. figure:: /images/Modeling-Meshes-wp-tools-blend1.jpg
 
    Blending
 
@@ -264,7 +264,7 @@ This value is multiplied by the factor given in the Operator parameters (see bel
 - Dragging the factor from 0 to 1 gradually changes from the old value to the calculated average.
 
 
-.. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-blend2.jpg
+.. figure:: /images/Modeling-Meshes-wp-tools-blend2.jpg
 
    Blending
 
@@ -292,7 +292,7 @@ then we see different results for each of the selected verts:
   (it was already blue before blend was applied).
 
 
-.. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-blend3.jpg
+.. figure:: /images/Modeling-Meshes-wp-tools-blend3.jpg
 
    Blending
 
@@ -311,7 +311,7 @@ And I want to use this edge loop for blending the left side to the right side of
 Operator Parameters
 -------------------
 
-.. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-blend-operator.jpg
+.. figure:: /images/Modeling-Meshes-wp-tools-blend-operator.jpg
 
    Blend Options
 
@@ -334,12 +334,12 @@ object. However you can change the tool's behavior in the operator redo panel (s
 Prepare the copy
 ----------------
 
-.. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-transfer-wrong.jpg
+.. figure:: /images/Modeling-Meshes-wp-tools-transfer-wrong.jpg
 
    Blending
 
 
-.. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-transfer-ok.jpg
+.. figure:: /images/Modeling-Meshes-wp-tools-transfer-ok.jpg
 
    Blending
 
@@ -393,7 +393,7 @@ Operator Parameters
 Defaults are marked in boldface:
 
 
-.. figure:: /images/26-Manual-Modeling-Meshes-wp-tools-transfer-operator.jpg
+.. figure:: /images/Modeling-Meshes-wp-tools-transfer-operator.jpg
 
    Blend Options
 
@@ -447,7 +447,7 @@ Limit
 Weight Gradient
 ===============
 
-.. figure:: /images/WeightGradient_266.jpg
+.. figure:: /images/WeightGradient.jpg
    :width: 200px
 
    example of the gradient tool being used with selected vertices.

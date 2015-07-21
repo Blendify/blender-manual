@@ -6,7 +6,7 @@ Editing
 These preferences control how several tools will interact with your input.
 
 
-.. figure:: /images/Manual-Interface-Configuration-Editing-EditingUserPreferences.jpg
+.. figure:: /images/Interface-Configuration-Editing-EditingUserPreferences.jpg
    :width: 640px
 
 

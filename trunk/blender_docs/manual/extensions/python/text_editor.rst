@@ -5,14 +5,14 @@ The Text Editor
 
 Blender has a *Text Editor* among its windows types, accessible via the *Text Editor* button (
 
-.. figure:: /images/Manual-Part-XV-textButton.jpg
+.. figure:: /images/textButton.jpg
 
 ) of the *Window type* menu, or via :kbd:`Shift-F11`.
 
 The newly opened Text window is grey and empty, with a very simple toolbar (*Text Toolbar*).
 
 
-.. figure:: /images/Manual-Part-XX-Manual-Extensions-Python-Text-editor-Default-Toolbar.jpg
+.. figure:: /images/Extensions-Python-Text-editor-Default-Toolbar.jpg
 
    Text Toolbar.
 
@@ -23,7 +23,7 @@ creating new Text files. Once you click it, you will find that the Toolbar has c
 for good!
 
 
-.. figure:: /images/Manual-Part-XX-Manual-Extensions-Python-Text-editor-Toolbar-with-file-open.jpg
+.. figure:: /images/Extensions-Python-Text-editor-Toolbar-with-file-open.jpg
    :width: 600px
 
    Text Toolbar with a file open

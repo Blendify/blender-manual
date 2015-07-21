@@ -67,7 +67,7 @@ Mesh Volume
 
           Brush Source - Proximity. Brush affects all canvas pixels around it
 
-     - .. figure:: /images/Manual-DynamicPaint-Brush-Proximity-Project.jpg
+     - .. figure:: /images/DynamicPaint-Brush-Proximity-Project.jpg
 
           "Project" setting enabled. See how brush only affects canvas in normal direction
 
@@ -93,11 +93,11 @@ Project
 
           Inner Proximity. Proximity falloff is now visible inside the volume
 
-   * - .. figure:: /images/Manual-DynamicPaint-Brush-Negate-Volume.jpg
+   * - .. figure:: /images/DynamicPaint-Brush-Negate-Volume.jpg
 
           Negate Volume. Inner side of the volume has become completely transparent
 
-     - .. figure:: /images/Manual-DynamicPaint-Brush-Negate-Volume-And-Inner.jpg
+     - .. figure:: /images/DynamicPaint-Brush-Negate-Volume-And-Inner.jpg
 
           Inner Proximity and Negate Volume enabled together
 

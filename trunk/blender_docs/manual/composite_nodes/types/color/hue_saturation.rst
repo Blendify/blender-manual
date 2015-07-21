@@ -3,7 +3,7 @@
 Hue Saturation Node
 *******************
 
-.. figure:: /images/Manual-Node-HSV.jpg
+.. figure:: /images/Node-HSV.jpg
 
 As an alternative to RGB editing, color can be thought of as a mix of Hues,
 namely a normalized value along the visible spectrum from infra-red to ultraviolet
@@ -65,7 +65,7 @@ Changing the effect over time.
 HSV Example
 ===========
 
-.. figure:: /images/Manual-Node-HSV_example.jpg
+.. figure:: /images/Node-HSV_example.jpg
 
 Here, the image taken by a cheap digital camera in poor lighting at night using a flash
 (can we do it any worse, eh?) is adjusted by decreasing the Hue

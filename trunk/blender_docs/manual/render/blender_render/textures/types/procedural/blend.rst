@@ -3,7 +3,7 @@
 Procedural textures: Blend
 **************************
 
-.. figure:: /images/25-Manual-Textures-Procedural-Blend.jpg
+.. figure:: /images/Textures-Procedural-Blend.jpg
    :width: 307px
 
    Blend Texture Panels

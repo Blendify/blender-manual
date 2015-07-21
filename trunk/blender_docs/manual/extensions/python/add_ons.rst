@@ -33,7 +33,7 @@ Enabling and Disabling
 Enable and disable and add-on by checking or unchecking the box on the right of the add-on you chose,
 as shown on the figure.
 
-.. figure:: /images/Manual-Extensions-Python-Addons-EnabledAddOn.jpg
+.. figure:: /images/Extensions-Python-Addons-EnabledAddOn.jpg
 
    Enabling an Add-on
 

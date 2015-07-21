@@ -3,7 +3,7 @@
 File Output Node
 ****************
 
-.. figure:: /images/Manual-Compositing_Nodes-File_Output.jpg
+.. figure:: /images/Compositing_Nodes-File_Output.jpg
 
    File Output node
 

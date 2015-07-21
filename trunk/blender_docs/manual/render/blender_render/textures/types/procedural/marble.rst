@@ -3,7 +3,7 @@
 Procedural textures: Marble
 ***************************
 
-.. figure:: /images/25-Manual-Textures-Procedural-Marble.jpg
+.. figure:: /images/Textures-Procedural-Marble.jpg
    :width: 307px
 
    Marble Texture Panels

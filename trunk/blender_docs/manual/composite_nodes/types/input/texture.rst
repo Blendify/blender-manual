@@ -48,7 +48,7 @@ Texture nodes can output a straight black-and-white *Value* image
 Example
 =======
 
-.. figure:: /images/Manual-Compositing-Input-Texture.jpg
+.. figure:: /images/Compositing-Input-Texture.jpg
 
 In the example above, we want to simulate some red plasma gas out there in space. So, we fog
 up an image taken from the Hubble telecscope of Orion and take the ever-so-useful Cloud

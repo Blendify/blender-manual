@@ -238,7 +238,7 @@ or the `Stanford Bunny <http://en.wikipedia.org/wiki/Stanford_Bunny>`__.
 Add-ons
 =======
 
-.. figure:: /images/25-Manual-Mesh-Structures-script-primitives.jpg
+.. figure:: /images/Mesh-Structures-script-primitives.jpg
    :width: 600px
 
    A few of the mesh primitives available as add-ons.

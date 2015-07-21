@@ -35,7 +35,7 @@ Between these keyframes, the properties' values are computed (interpolated)
 by Blender and filled in. Thus, the animators' workload is significantly reduced.
 
 
-.. figure:: /images/Manual-Animation-F-Curves-Concept.jpg
+.. figure:: /images/Animation-F-Curves-Concept.jpg
    :width: 200px
 
    Example of interpolation
@@ -74,7 +74,7 @@ Constant
    Usually only used during the initial "blocking" stage in pose-to-pose animation workflows.
 
 
-.. figure:: /images/Doc26-fcurve-constant.jpg
+.. figure:: /images/fcurve-constant.jpg
    :width: 300px
 
    Constant.
@@ -86,7 +86,7 @@ Linear
    to easily get an infinite straight line (i.e. a linear curve).
 
 
-.. figure:: /images/Doc26-fcurve-linear.jpg
+.. figure:: /images/fcurve-linear.jpg
    :width: 300px
 
    Linear.
@@ -97,7 +97,7 @@ Bezier
    It gives nicely smoothed curves, i.e. smooth animations!
 
 
-.. figure:: /images/Doc26-fcurve-clean1.jpg
+.. figure:: /images/fcurve-clean1.jpg
    :width: 300px
 
    Bézier.
@@ -121,7 +121,7 @@ Constant
    (the one of these first and last keyframes).
 
 
-.. figure:: /images/Doc26-fcurve-extrapolate1.jpg
+.. figure:: /images/fcurve-extrapolate1.jpg
    :width: 300px
 
    Constant extrapolation
@@ -132,7 +132,7 @@ Linear
    (respectively their last two keyframes).
 
 
-.. figure:: /images/Doc26-fcurve-extrapolate2.jpg
+.. figure:: /images/fcurve-extrapolate2.jpg
    :width: 300px
 
    Linear extrapolation
@@ -152,7 +152,7 @@ Automatic
    Keyframes are automatically interpolated
 
 
-.. figure:: /images/Doc26-fcurve-auto.jpg
+.. figure:: /images/fcurve-auto.jpg
    :width: 400px
 
    Auto handles
@@ -163,7 +163,7 @@ Vector
    The linear segments remain if keyframe centers are moved. If handles are moved, the handle becomes Free.
 
 
-.. figure:: /images/Doc26-fcurve-vector.jpg
+.. figure:: /images/fcurve-vector.jpg
    :width: 400px
 
    Vector handles
@@ -173,7 +173,7 @@ Aligned
    Handle maintain rotation when moved, and curve tangent is maintained
 
 
-.. figure:: /images/Doc26-fcurve-aligned.jpg
+.. figure:: /images/fcurve-aligned.jpg
    :width: 400px
 
    Aligned handles
@@ -183,7 +183,7 @@ Free
    Breaks handles tangents
 
 
-.. figure:: /images/Doc26-fcurve-free.jpg
+.. figure:: /images/fcurve-free.jpg
    :width: 400px
 
    Free handles
@@ -193,7 +193,7 @@ Auto Clamped
    Auto handles clamped to not overshoot
 
 
-.. figure:: /images/Doc26-fcurve-autoClamped.jpg
+.. figure:: /images/fcurve-autoClamped.jpg
    :width: 400px
 
    Auto clamped handles
@@ -218,11 +218,11 @@ hence:
 .. list-table::
    Two control points switching: the curve can't go back in time!
 
-   * - .. figure:: /images/Manual-Animation-F-Curves-Moving-1.jpg
+   * - .. figure:: /images/Animation-F-Curves-Moving-1.jpg
 
           Before moving the second keyframe
 
-     - .. figure:: /images/Manual-Animation-F-Curves-Moving-2.jpg
+     - .. figure:: /images/Animation-F-Curves-Moving-2.jpg
 
           After moving the second keyframe
 
@@ -275,12 +275,12 @@ Snap Keys :kbd:`Shift-S`
 .. list-table::
    Flatten Handles snapping example.
 
-   * - .. figure:: /images/Manual-Animation-F-Curves-Flatten-Handles-1.jpg
+   * - .. figure:: /images/Animation-F-Curves-Flatten-Handles-1.jpg
           :width: 200px
 
           Before Flatten Handles.
 
-     - .. figure:: /images/Manual-Animation-F-Curves-Flatten-Handles-2.jpg
+     - .. figure:: /images/Animation-F-Curves-Flatten-Handles-2.jpg
           :width: 200px
 
           After Flatten Handles.
@@ -312,12 +312,12 @@ Clean Keyframes
 
 .. list-table::
 
-   * - .. figure:: /images/Doc26-fcurve-clean1.jpg
+   * - .. figure:: /images/fcurve-clean1.jpg
           :width: 300px
 
           FCurve before cleaning
 
-     - .. figure:: /images/Doc26-fcurve-clean2.jpg
+     - .. figure:: /images/fcurve-clean2.jpg
           :width: 300px
 
           FCurve after cleaning
@@ -334,12 +334,12 @@ seem to be never modified by this tool.
 
 .. list-table::
 
-   * - .. figure:: /images/Doc26-fcurve-clean1.jpg
+   * - .. figure:: /images/fcurve-clean1.jpg
           :width: 300px
 
           FCurve before smoothing
 
-     - .. figure:: /images/Doc26-fcurve-smooth.jpg
+     - .. figure:: /images/fcurve-smooth.jpg
           :width: 300px
 
           FCurve after smoothing
@@ -353,12 +353,12 @@ Sample Keyframes :kbd:`Shift-O`
 
 .. list-table::
 
-   * - .. figure:: /images/Doc26-fcurve-sample.jpg
+   * - .. figure:: /images/fcurve-sample.jpg
           :width: 300px
 
           FCurve before sampling
 
-     - .. figure:: /images/Doc26-fcurve-sample2.jpg
+     - .. figure:: /images/fcurve-sample2.jpg
           :width: 300px
 
           FCurve after sampling

@@ -3,7 +3,7 @@
 Procedural Textures
 *******************
 
-.. figure:: /images/25-Manual-Textures-Procedural-Menu.jpg
+.. figure:: /images/Textures-Procedural-Menu.jpg
    :width: 240px
 
    The Texture Type list in the Texture panel of the Texture Buttons. (Non procedural textures darkened out.)

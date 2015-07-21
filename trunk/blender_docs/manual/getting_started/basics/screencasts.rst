@@ -24,7 +24,7 @@ listed in the *Output panel* format menu.
 If you are unsure what video codecs your system supports, select *AVI JPEG*.
 
 
-.. figure:: /images/Manual-Vitals-Screencast-Small-User-Preferences-System.jpg
+.. figure:: /images/Vitals-Screencast-Small-User-Preferences-System.jpg
 
    Options in the User Preferences Editor
 
@@ -53,12 +53,12 @@ and with the Stop button for the Screencast, when in Screencast Mode. (See Fig:
 Info Window - Header - Capture Stop Button).
 
 
-.. figure:: /images/Manual-Vitals-Screencast-Small-Header-Info-Window-Normal.jpg
+.. figure:: /images/Vitals-Screencast-Small-Header-Info-Window-Normal.jpg
 
    Info Window - Header - Normal Operation
 
 
-.. figure:: /images/Manual-Vitals-Screencast-Small-Header-Info-Window-Stop.jpg
+.. figure:: /images/Vitals-Screencast-Small-Header-Info-Window-Stop.jpg
 
    Info Window - Header - Capture Stop Button
 
@@ -70,7 +70,7 @@ Info Window - Header - Capture Stop Button).
    but will not work to stop *Screencasts*.
 
 
-.. figure:: /images/Manual-Vitals-Screencast-Frame-Range-Sufix.jpg
+.. figure:: /images/Vitals-Screencast-Frame-Range-Sufix.jpg
 
    Dimensions Panel - Frame Range
 

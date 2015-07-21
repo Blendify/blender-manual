@@ -6,7 +6,7 @@ Drivers
 Drivers
 =======
 
-.. figure:: /images/Doc_Animation_Driver_FCurve.jpg
+.. figure:: /images/Animation_Driver_FCurve.jpg
 
    Graph Editor: Driver example.
 
@@ -29,7 +29,7 @@ the :doc:`Graph Editor </animation/editors/graph>`.
 Drivers Panel
 =============
 
-.. figure:: /images/Doc_Animation_Panel_Drivers.jpg
+.. figure:: /images/Animation_Panel_Drivers.jpg
 
    Graph Editor: Drivers: Drivers Panel.
 
@@ -82,17 +82,17 @@ Add Variable
    Adds a new Driver Variable.
 
 
-.. figure:: /images/Doc_Animation_Driver_Single_Property.jpg
+.. figure:: /images/Animation_Driver_Single_Property.jpg
 
    Setup of a Single Property.
 
 
-.. figure:: /images/Doc_Animation_Driver_Transform_Channel2.jpg
+.. figure:: /images/Animation_Driver_Transform_Channel2.jpg
 
    Transform Channel setup.
 
 
-.. figure:: /images/Doc_Animation_Driver_Distance.jpg
+.. figure:: /images/Animation_Driver_Distance.jpg
 
    Distance setup.
 
@@ -166,7 +166,7 @@ Add Drivers
 Add Single Driver
     This will add a single driver to the selected property.
 
-.. figure:: /images/Doc_Add_Driver2.jpg
+.. figure:: /images/Add_Driver2.jpg
 
 Drivers can also be added by pressing :kbd:`D` with the mouse over the property set.
 
@@ -229,7 +229,7 @@ Driver Expression
 Here are some examples using the scripted expression Expr to set the Driver Value.
 
 
-.. figure:: /images/Doc_Animation_Driver_Object_Rotation.jpg
+.. figure:: /images/Animation_Driver_Object_Rotation.jpg
 
    Object Rotation.
 
@@ -305,7 +305,7 @@ Shape Key Driver
 This example is a Shape Key Driver. The driver was added to the shape key Value.
 
 
-.. figure:: /images/Doc_Animation_Driver_Shape_Key.jpg
+.. figure:: /images/Animation_Driver_Shape_Key.jpg
    :width: 400px
 
    Shape Key Driver. Click to enlarge.
@@ -394,12 +394,12 @@ Some common problems people may run in to when using drivers.
 Scripted Expression
 -------------------
 
-.. figure:: /images/Doc_Drivers_Auto_Run_B.jpg
+.. figure:: /images/Drivers_Auto_Run_B.jpg
 
    Graph Editor > Properties > Drivers.
 
 
-.. figure:: /images/Doc_Drivers_Auto_Run_A.jpg
+.. figure:: /images/Drivers_Auto_Run_A.jpg
 
    Info Header.
 
@@ -411,12 +411,12 @@ you will have to open the file as *Trusted Source*,
 or set *Auto Run Python Scripts* in *User Preferences > File > Auto Execution*.
 
 
-.. figure:: /images/Doc_Drivers_Auto_Run_C.jpg
+.. figure:: /images/Drivers_Auto_Run_C.jpg
 
    File Browser.
 
 
-.. figure:: /images/Doc_Drivers_Auto_Run_D.jpg
+.. figure:: /images/Drivers_Auto_Run_D.jpg
 
    User Preference > File > Auto Execution.
 

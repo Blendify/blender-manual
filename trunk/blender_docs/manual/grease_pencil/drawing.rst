@@ -12,7 +12,7 @@ Drawing With Grease Pencil
   Changes to these settings will affect all strokes on the current layer.
 
 
-.. figure:: /images/ManualSketchingGreasePencil.jpg
+.. figure:: /images/SketchingGreasePencil.jpg
    :width: 500px
 
    Grease Pencil Tool Shelf and Properties Panel.

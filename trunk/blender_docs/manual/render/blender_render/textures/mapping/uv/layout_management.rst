@@ -31,7 +31,7 @@ The target Mesh will now have a UV map that matches the original mesh.
 Multiple UV Maps
 ****************
 
-.. figure:: /images/Manual-UV-Fashion.jpg
+.. figure:: /images/UV-Fashion.jpg
    :width: 300px
 
    Mesh with Multiple UV Textures
@@ -69,7 +69,7 @@ while other faces map to the second texture.
 UV Textures List
 ****************
 
-.. figure:: /images/Manual-UV-Editing-Mesh-panel.jpg
+.. figure:: /images/UV-Editing-Mesh-panel.jpg
 
 The Mesh panel (shown to the right) lists the UV Texture maps created for this mesh,
 and allows you to create New ones as placeholders for future unwrapping operations.

@@ -3,7 +3,7 @@
 World
 *****
 
-.. figure:: /images/Manual-Cycles-Environment-Lighting.jpg
+.. figure:: /images/Cycles-Environment-Lighting.jpg
 
    Lighting with an HDR image
 
@@ -91,11 +91,11 @@ Below is a comparison between Multiple Importance Sample Off and On - both image
 
 .. list-table::
 
-   * - .. figure:: /images/Manual-Cycles-MIS-Off.jpg
+   * - .. figure:: /images/Cycles-MIS-Off.jpg
 
           Multiple Importance Sample Off
 
-     - .. figure:: /images/Manual-Cycles-MIS-On.jpg
+     - .. figure:: /images/Cycles-MIS-On.jpg
 
           Multiple Importance Sample On
 
@@ -105,12 +105,12 @@ setting up area lamps as :doc:`light portals </render/cycles/lamps>`.
 
 .. list-table::
 
-   * - .. figure:: /images/Manual_cycles_light_portals_off.jpg
+   * - .. figure:: /images/cycles_light_portals_off.jpg
           :width: 300px
 
           Without Light Portals
 
-     - .. figure:: /images/Manual_cycles_light_portals_on.jpg
+     - .. figure:: /images/cycles_light_portals_on.jpg
           :width: 300px
 
           With Light Portals
@@ -135,7 +135,7 @@ Similarly, adding the *Is Camera* and *Is Glossy* rays will mean that the high-r
 will also be visible in reflections.
 
 
-.. figure:: /images/Manual-Cycles-Env-Trick-Nodes.jpg
+.. figure:: /images/Cycles-Env-Trick-Nodes.jpg
    :width: 500px
 
    Nodes for the trick above

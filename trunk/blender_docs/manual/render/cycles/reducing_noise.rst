@@ -21,7 +21,7 @@ and because we can keep rays relatively coherent to use an on-demand image cache
 compared to e.g. bidirectional path tracing.
 
 
-.. figure:: /images/Manual_cycles_light_path_rays.png
+.. figure:: /images/cycles_light_path_rays.png
 
 We do the inverse of what reality does,
 tracing light rays from the camera into the scene and onto lights,

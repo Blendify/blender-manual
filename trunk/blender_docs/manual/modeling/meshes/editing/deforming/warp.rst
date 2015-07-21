@@ -9,7 +9,7 @@ Warp
    | Menu:     :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Warp`
 
 
-.. figure:: /images/Doc26-warp.jpg
+.. figure:: /images/warp.jpg
 
    warp tool options
 

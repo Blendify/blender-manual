@@ -46,7 +46,7 @@ Sharp Edges
 Examples
 ========
 
-.. figure:: /images/Manual-Modifier-EdgeSplit-Example01.jpg
+.. figure:: /images/Modifier-EdgeSplit-Example01.jpg
    :width: 600px
 
    Edge Split modifier output with From Marked As Sharp selected.

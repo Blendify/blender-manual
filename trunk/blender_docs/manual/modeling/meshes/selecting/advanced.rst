@@ -178,7 +178,7 @@ or the *Edge Loop Select* option of the *Edge Specials* menu
    *and clicking on the edges* (not on the vertices).
 
 
-.. figure:: /images/Broken-Manual-Part-II-EdgeF.jpg
+.. figure:: /images/EdgeF.jpg
 
    Longitudinal and latitudinal edge loops.
 
@@ -208,7 +208,7 @@ the same can be accomplished by using :kbd:`Ctrl-Alt` to select an edge,
 which selects the face loop implicitly.
 
 
-.. figure:: /images/Manual-Part-II-EdgeFaceTools-FaceLoopSel.jpg
+.. figure:: /images/EdgeFaceTools-FaceLoopSel.jpg
 
    Face loop selection.
 
@@ -218,7 +218,7 @@ in *face* select mode.
 The loop extends perpendicular from the edge that was selected.
 
 
-.. figure:: /images/Manual-Part-II-EdgeFace-LoopingEdge-Algors-Vertex-Select.jpg
+.. figure:: /images/EdgeFace-LoopingEdge-Algors-Vertex-Select.jpg
 
    :kbd:`Alt` versus :kbd:`Ctrl-Alt` in vertex select mode.
 
@@ -257,7 +257,7 @@ or the *Edge Ring Select* option of the *Edge Specials* menu
    but this will directly select the corresponding face loop...
 
 
-.. figure:: /images/Manual-Part-II-EdgeFace-LoopingEdge-Algors-Select.jpg
+.. figure:: /images/EdgeFace-LoopingEdge-Algors-Select.jpg
 
    A selected edge loop, and a selected edge ring.
 

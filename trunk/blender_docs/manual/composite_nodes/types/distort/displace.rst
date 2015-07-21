@@ -36,7 +36,7 @@ such as a normal pass, which will displace the pixels based on the normal direct
 Example
 =======
 
-.. figure:: /images/Manual-Compositing-Nodes-Displace_example.jpg
+.. figure:: /images/Compositing-Nodes-Displace_example.jpg
    :width: 300px
 
    Music Video Distortion Example Using Displace

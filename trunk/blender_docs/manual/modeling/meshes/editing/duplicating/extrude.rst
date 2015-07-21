@@ -32,17 +32,17 @@ once to disable the face normal Z axis limit, and once to enable the global Z ax
 
 .. list-table::
 
-   * - .. figure:: /images/Doc26-extrude-face-before.jpg
+   * - .. figure:: /images/extrude-face-before.jpg
           :width: 200px
 
           Selected face
 
-     - .. figure:: /images/Doc26-extrude-face-after.jpg
+     - .. figure:: /images/extrude-face-after.jpg
           :width: 200px
 
           During extrude
 
-     - .. figure:: /images/Doc26-extrude-face-after-zAxiz.jpg
+     - .. figure:: /images/extrude-face-after-zAxiz.jpg
           :width: 200px
 
           Set to Z axis
@@ -89,17 +89,17 @@ This has several consequences: first, "internal" edges
 
 .. list-table::
 
-   * - .. figure:: /images/Doc26-extrude-face-multi.jpg
+   * - .. figure:: /images/extrude-face-multi.jpg
           :width: 200px
 
           Selection of multiple faces
 
-     - .. figure:: /images/Doc26-extrude-face-multi-region.jpg
+     - .. figure:: /images/extrude-face-multi-region.jpg
           :width: 200px
 
           Extruded using extrude region
 
-     - .. figure:: /images/Doc26-extrude-face-multi-individual.jpg
+     - .. figure:: /images/extrude-face-multi-individual.jpg
           :width: 200px
 
           Extruded using Extrude Individual
@@ -120,13 +120,13 @@ they will extrude as expected, forming a :term:`non-manifold` edge. Similarly,
 if edges are selected that do not form a face, they will extrude to form a face.
 
 
-.. figure:: /images/Doc26-extrude-vert.jpg
+.. figure:: /images/extrude-vert.jpg
    :width: 250px
 
    Single vertex extruded
 
 
-.. figure:: /images/Doc26-extrude-edge.jpg
+.. figure:: /images/extrude-edge.jpg
    :width: 250px
 
    Single edge extruded
@@ -139,25 +139,25 @@ To force a vertex or edge selection to extrude as a vertex or edge, respectively
 :kbd:`Alt-E` to access the Extrude *Edges Only* and *Vertices Only*.
 
 
-.. figure:: /images/Doc26-extrude-verts-before.jpg
+.. figure:: /images/extrude-verts-before.jpg
    :width: 250px
 
    Vertex selected
 
 
-.. figure:: /images/Doc26-extrude-verts-after.jpg
+.. figure:: /images/extrude-verts-after.jpg
    :width: 250px
 
    Vertices Only extrude
 
 
-.. figure:: /images/Doc26-extrude-edges-before.jpg
+.. figure:: /images/extrude-edges-before.jpg
    :width: 250px
 
    Edge selected
 
 
-.. figure:: /images/Doc26-extrude-edges-after.jpg
+.. figure:: /images/extrude-edges-after.jpg
    :width: 250px
 
    Edge Only extrude

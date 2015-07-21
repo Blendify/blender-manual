@@ -12,7 +12,7 @@ bouncing cube
 change your start and end frames to 1 and 150.
 
 
-.. figure:: /images/Manual-25-softbody-examples-timeline.jpg
+.. figure:: /images/softbody-examples-timeline.jpg
    :width: 600px
 
    The timeline
@@ -28,7 +28,7 @@ and move your cursor a bit.
 when finisht, your scene should look like this:
 
 
-.. figure:: /images/Manual-25-softbody-examples-scene-ready.jpg
+.. figure:: /images/softbody-examples-scene-ready.jpg
    :width: 400px
 
    The scene, ready for softbody physics
@@ -49,7 +49,7 @@ but for the final animation it's better to reduce it to 1, to cache everything.
 when finisht, your physics panel should look like this:
 
 
-.. figure:: /images/Manual-25-softbody-examples-physics-settings.jpg
+.. figure:: /images/softbody-examples-physics-settings.jpg
    :width: 500px
 
    The physics settings.

@@ -156,7 +156,7 @@ Click :kbd:`LMB` to validate, or :kbd:`RMB` to cancel the modification.
    effect.
 
 
-.. figure:: /images/Manual-VSE-sample.jpg
+.. figure:: /images/VSE-sample.jpg
 
 If you scroll up the workspace, you will see an information channel
 (at vertical location channel 0) that gives you some helpful hints about the active strip.
@@ -199,7 +199,7 @@ Please refer to :doc:`the Audio Sequences section </editors/sequencer/audio>` fo
 Adding Effects
 ==============
 
-.. figure:: /images/Manual-VSE-SFX.jpg
+.. figure:: /images/VSE-SFX.jpg
 
    Available Built-in Effects
 

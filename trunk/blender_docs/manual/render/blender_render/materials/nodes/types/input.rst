@@ -27,7 +27,7 @@ Material Node
    | Menu:     :kbd:`Shift-A` --> Input --> Material
 
 
-.. figure:: /images/26-Manual-Material-Node.jpg
+.. figure:: /images/Material-Node.jpg
 
    Material node
 
@@ -101,7 +101,7 @@ Invert Normal toggle
 Using the Material Node with Specularity
 ----------------------------------------
 
-.. figure:: /images/26-Manual-Material-Node-Specular.jpg
+.. figure:: /images/Material-Node-Specular.jpg
    :width: 250px
 
    Material Node using Specularity
@@ -128,7 +128,7 @@ you will see the yellow specular color mix in.
 Extended Material Node
 ======================
 
-.. figure:: /images/26-Manual-Extended-Material-Node.jpg
+.. figure:: /images/Extended-Material-Node.jpg
    :width: 200px
 
    Extended Material node
@@ -174,7 +174,7 @@ AO
 Camera Data Node
 ================
 
-.. figure:: /images/26-Manual-Camera-Data-Node.jpg
+.. figure:: /images/Camera-Data-Node.jpg
 
    Camera Data node
 
@@ -190,7 +190,7 @@ View Distance
 Lamp Data Node
 ==============
 
-.. figure:: /images/26-Manual-Lamp-Data-Node.jpg
+.. figure:: /images/Lamp-Data-Node.jpg
    :width: 180px
 
    Lamp Data node
@@ -223,7 +223,7 @@ The light textures and the shadow textures affect the Color and Shadow outputs, 
 Value Node
 ==========
 
-.. figure:: /images/26-Manual-Value-Node.jpg
+.. figure:: /images/Value-Node.jpg
 
    Value node
 
@@ -238,7 +238,7 @@ Use this node to supply a constant, fixed value to other nodes' value or factor 
 RGB Node
 ========
 
-.. figure:: /images/26-Manual-RGB-Node.jpg
+.. figure:: /images/RGB-Node.jpg
 
    RGB node
 
@@ -250,7 +250,7 @@ It just outputs the value Color currently selected in its controls section.
 Texture Node
 ============
 
-.. figure:: /images/26-Manual-Texture-Node.jpg
+.. figure:: /images/Texture-Node.jpg
 
    Texture node
 
@@ -259,7 +259,7 @@ A texture, from the list of textures available in the current blend file,
 is selected and introduced through the value and/or color socket.
 
 
-.. figure:: /images/26-Manual-Texture-Node-Example.jpg
+.. figure:: /images/Texture-Node-Example.jpg
    :width: 500px
 
    Example of the applying Texture node
@@ -292,7 +292,7 @@ you simply add the textures to the map and plug them into the map.
 Geometry Node
 =============
 
-.. figure:: /images/26-Manual-Geometry-Node.jpg
+.. figure:: /images/Geometry-Node.jpg
 
    Geometry node
 
@@ -336,7 +336,7 @@ Front/Back
 Geometry Node Example using a UV image
 --------------------------------------
 
-.. figure:: /images/26-Manual-Geometry-Node-Example.jpg
+.. figure:: /images/Geometry-Node-Example.jpg
    :width: 500px
 
    Setup to render an UV-Mapped Image Texture.

@@ -3,7 +3,7 @@
 Material Output Node
 ********************
 
-.. figure:: /images/26-Manual-Material-Output-Node.jpg
+.. figure:: /images/Material-Output-Node.jpg
 
    Output material node
 

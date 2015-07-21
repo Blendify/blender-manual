@@ -97,7 +97,7 @@ while appearing bright and dynamic on a computer monitor.
 Rendering to fields
 ===================
 
-.. figure:: /images/Manual-Part-XI-Fields02.jpg
+.. figure:: /images/Fields02.jpg
 
    Field Rendering result.
 

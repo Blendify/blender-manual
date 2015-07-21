@@ -3,7 +3,7 @@
 Procedural textures: Wood
 *************************
 
-.. figure:: /images/25-Manual-Textures-Procedural-Wood.jpg
+.. figure:: /images/Textures-Procedural-Wood.jpg
    :width: 307px
 
    Wood Texture Panels

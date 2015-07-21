@@ -3,7 +3,7 @@
 Halo Rendering
 **************
 
-.. figure:: /images/Doc-26-Materials-HeloRender-Activate.jpg
+.. figure:: /images/Materials-HeloRender-Activate.jpg
    :width: 300px
 
    Activating helo rendering
@@ -22,7 +22,7 @@ or when creating a viewable light or fog/atmospherics around an actual light.
 Options
 *******
 
-.. figure:: /images/25-Manual-Materials-Halos.jpg
+.. figure:: /images/Materials-Halos.jpg
    :width: 309px
 
    Halo panels
@@ -58,7 +58,7 @@ Hardness
    Sets the hardness of the halo. Similar to specular hardness
 
 
-.. figure:: /images/Manual-Materials-HaloAdd.jpg
+.. figure:: /images/Materials-HaloAdd.jpg
 
    Effect of Add
 
@@ -104,7 +104,7 @@ which include Flare, Rings, Lines, Star, Texture, Extreme Alpha, and Shaded.
 *Halo Variations* shows the result of applying a halo material to a single vertex mesh.
 
 
-.. figure:: /images/Manual-Part-III-Halo02.jpg
+.. figure:: /images/Halo02.jpg
    :width: 630px
 
    Halo Variations
@@ -114,7 +114,7 @@ The halo size, hardness and alpha can be adjusted with the pertinent sliders.
 These are very similar to traditional material settings
 
 
-.. figure:: /images/Manual-Materials-HaloAdd.jpg
+.. figure:: /images/Materials-HaloAdd.jpg
 
 The *Add* slider determine how much the halo colors are 'added to',
 rather than mixed with, the colors of the objects behind and together with other halos.
@@ -176,7 +176,7 @@ Blender's lens flare looks nice in motion,
 and disappears when another object occludes the flare mesh.
 
 
-.. figure:: /images/Manual-Part-III-Halo04.jpg
+.. figure:: /images/Halo04.jpg
    :width: 630px
 
    Lens Flare
@@ -214,7 +214,7 @@ Let's use a halo material to create a dotmatrix display.
   *Dot matrix image texture.* shows an image 512 pixels wide by 64 pixels high, with some black space at both sides.
 
 
-.. figure:: /images/Manual-Part-III-BlenderDotMatrix2.jpg
+.. figure:: /images/DotMatrix2.jpg
 
    Dot matrix image texture.
 
@@ -232,7 +232,7 @@ Let's use a halo material to create a dotmatrix display.
   Then adjust the brightness with the *Add* value in the MaterialButtons.
 
 
-.. figure:: /images/Manual-Part-III-DotMatrix.jpg
+.. figure:: /images/DotMatrix.jpg
 
    Dot Matrix display.
 

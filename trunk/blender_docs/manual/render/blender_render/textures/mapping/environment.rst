@@ -53,7 +53,7 @@ Options
    (reflection co-ordinates) in the Map Input panel of the Material context.
 
 
-.. figure:: /images/Doc26-textures-envMap-panel.jpg
+.. figure:: /images/textures-envMap-panel.jpg
 
    Reflecting plane EnvMap settings.
 
@@ -195,7 +195,7 @@ onto which it is being mapped.
 
           Planar reflection example. 1: Camera, 2: Empty, 3: Reflecting Plane.
 
-     - .. figure:: /images/Manual-Part-IV-EnvMap04.jpg
+     - .. figure:: /images/EnvMap04.jpg
           :width: 200px
 
           Sphere on a reflecting surface.
@@ -209,12 +209,12 @@ in order to get reflections of reflections.
 
 .. list-table::
 
-   * - .. figure:: /images/Manual-Part-IV-EnvMap05.jpg
+   * - .. figure:: /images/EnvMap05.jpg
           :width: 200px
 
           Reflecting sphere on a reflecting surface.
 
-     - .. figure:: /images/Manual-Part-IV-EnvMap06.jpg
+     - .. figure:: /images/EnvMap06.jpg
           :width: 200px
 
           Reflecting sphere on a reflecting surface with multiple
@@ -232,7 +232,7 @@ but because the environment map is calculated from the center of the sphere,
 the surrounding objects look artificially far away.
 
 
-.. figure:: /images/Manual-envmap-offset.jpg
+.. figure:: /images/envmap-offset.jpg
 
    Inaccurate spherical reflection, the colored objects are artificially offset
 

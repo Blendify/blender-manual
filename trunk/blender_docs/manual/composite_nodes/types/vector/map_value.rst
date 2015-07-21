@@ -33,7 +33,7 @@ suitable for connecting to a Blur node.
 Using Map Value to Multiply values
 ==================================
 
-.. figure:: /images/Manual-Compositing-Map_multiply.jpg
+.. figure:: /images/Compositing-Map_multiply.jpg
 
    Using Map Value to multiply
 

@@ -113,37 +113,37 @@ borders of the faces of the other side of the rip.
 Examples
 ^^^^^^^^
 
-.. figure:: /images/Doc26-rip-before.jpg
+.. figure:: /images/rip-before.jpg
    :width: 300px
 
    selected vertex
 
 
-.. figure:: /images/Doc26-rip-after.jpg
+.. figure:: /images/rip-after.jpg
    :width: 300px
 
    Hole created after using rip on vertex
 
 
-.. figure:: /images/Doc26-rip-edges-before.jpg
+.. figure:: /images/rip-edges-before.jpg
    :width: 300px
 
    Edges selected
 
 
-.. figure:: /images/Doc26-rip-edges-after.jpg
+.. figure:: /images/rip-edges-after.jpg
    :width: 300px
 
    Result of rip with edge selection
 
 
-.. figure:: /images/Doc26-rip-complexSelection-before.jpg
+.. figure:: /images/rip-complexSelection-before.jpg
    :width: 300px
 
    A complex selection of vertices
 
 
-.. figure:: /images/Doc26-rip-complexSelection-after.jpg
+.. figure:: /images/rip-complexSelection-after.jpg
    :width: 300px
 
    Result of rip operation
@@ -174,13 +174,13 @@ Rip fill works the same as the Rip tool above, but instead of leaving a hole,
 it fills in the gap with geometry.
 
 
-.. figure:: /images/Doc26-rip-edges-before.jpg
+.. figure:: /images/rip-edges-before.jpg
    :width: 300px
 
    Edges selected
 
 
-.. figure:: /images/Doc26-ripFill-result.jpg
+.. figure:: /images/ripFill-result.jpg
    :width: 300px
 
    Result of rip fill
@@ -259,19 +259,19 @@ This tool connects selected vertices by creating edges between them and splittin
 This tool can be used on many faces at once.
 
 
-.. figure:: /images/Doc26-vertexConnect-before.jpg
+.. figure:: /images/vertexConnect-before.jpg
    :width: 200px
 
    Selected vertices before connecting
 
 
-.. figure:: /images/Doc26-vertexConnect-after.jpg
+.. figure:: /images/vertexConnect-after.jpg
    :width: 200px
 
    After connecting vertices
 
 
-.. figure:: /images/Doc26-vertexConnect-after-faces.jpg
+.. figure:: /images/vertexConnect-after-faces.jpg
    :width: 200px
 
    Two faces created from vertex connect operation

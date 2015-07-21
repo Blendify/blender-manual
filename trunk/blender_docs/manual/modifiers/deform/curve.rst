@@ -17,7 +17,7 @@ the curve endings.
 Options
 =======
 
-.. figure:: /images/25-Manual-Modifiers-Curve.jpg
+.. figure:: /images/Modifiers-Curve.jpg
 
    Curve modifier
 
@@ -46,7 +46,7 @@ Let's make a simple example:
    [[File:Manual-Part-II-curvesDeform_exampleAddCurve.png|frame|left|Add a Curve.]]--> .
 
 
-.. figure:: /images/Manual-Part-II-curvesDeform_exampleEditCurve.jpg
+.. figure:: /images/curvesDeform_exampleEditCurve.jpg
    :width: 300px
 
    Edit Curve.
@@ -58,12 +58,12 @@ Let's make a simple example:
 - Assign the curve to the modifier, as shown below. The Monkey should be positioned on the curve:
 
 
-.. figure:: /images/25-Manual-Modifiers-Curve.jpg
+.. figure:: /images/Modifiers-Curve.jpg
 
    Assign the Bezier curve to the Curve modifier (for Monkey)
 
 
-.. figure:: /images/Manual-Part-II-curvesDeform_exampleMonkeyOnCurve1.jpg
+.. figure:: /images/curvesDeform_exampleMonkeyOnCurve1.jpg
    :width: 200px
 
    Monkey on a Curve.

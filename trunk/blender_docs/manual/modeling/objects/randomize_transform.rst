@@ -11,7 +11,7 @@ Randomize Transform
    | Menu:     :menuselection:`Object --> Transform --> Randomize Transform`
 
 
-.. figure:: /images/Doc26-transform-randomize.jpg
+.. figure:: /images/transform-randomize.jpg
 
    Randomize transform options
 

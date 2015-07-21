@@ -52,12 +52,12 @@ Resolution
 
       .. list-table::
 
-         * - .. figure:: /images/Manual-Fluid-70res.jpg
+         * - .. figure:: /images/Fluid-70res.jpg
                 :width: 270px
 
                 10cm mug at Resolution 70.
 
-           - .. figure:: /images/Manual-Fluid-200res.jpg
+           - .. figure:: /images/Fluid-200res.jpg
                 :width: 270px
 
                 10cm mug at Resolution 200.
@@ -261,7 +261,7 @@ Optimization
 Domain Boundary
 ===============
 
-.. figure:: /images/Blender_fluids_domain_boundary.jpg
+.. figure:: /images/fluids_domain_boundary.jpg
    :width: 300px
 
    The Domain Boundary panel
@@ -292,7 +292,7 @@ FIXME(Template Unsupported: Doc:2.6/Manual/Physics/Fluid/split_type;{{Doc:2.6/Ma
 Domain Particles
 ================
 
-.. figure:: /images/Blender_fluids_domain_particles.jpg
+.. figure:: /images/fluids_domain_particles.jpg
    :width: 300px
 
    The Domain Particles panel
@@ -310,7 +310,7 @@ Generate Particles
    To use it, you have to have a surface subdivision value of at least 2.
 
 
-.. figure:: /images/Manual-FluidSimParts.jpg
+.. figure:: /images/FluidSimParts.jpg
    :width: 600px
 
    An example of the effect of particles can be seen here - the image to the left was simulated without,

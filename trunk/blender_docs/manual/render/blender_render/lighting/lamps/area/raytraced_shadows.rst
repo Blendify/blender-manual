@@ -5,7 +5,7 @@
 Area Raytraced Shadows
 **********************
 
-.. figure:: /images/25-Manual-Lighting-Lamps-Area-AdapQMC.jpg
+.. figure:: /images/Lighting-Lamps-Area-AdapQMC.jpg
    :width: 300px
 
    Adaptive QMC settings
@@ -36,7 +36,7 @@ Adaptive QMC / Constant QMC
    :doc:`Shadow Properties </render/blender_render/lighting/shadows/properties>`.
 
 
-.. figure:: /images/25-Manual-Lighting-Lamps-Area-ContJitt.jpg
+.. figure:: /images/Lighting-Lamps-Area-ContJitt.jpg
    :width: 300px
 
    Constant Jittered settings
@@ -74,7 +74,7 @@ Constant Jittered
 Technical Details
 =================
 
-.. figure:: /images/Manual-Part-V-AreaLightConcept.jpg
+.. figure:: /images/AreaLightConcept.jpg
    :width: 250px
 
    Principles behind the Area light

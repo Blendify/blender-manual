@@ -9,7 +9,7 @@ The *Timeline* window, identified by a clock icon,
 is shown by default at the bottom of the screen.
 
 
-.. figure:: /images/K_Doc_Timeline.jpg
+.. figure:: /images/Timeline.jpg
    :width: 700px
 
    Timeline 2.69
@@ -33,7 +33,7 @@ Timeline Elements
 Time Cursor
 -----------
 
-.. figure:: /images/K_Doc_Timeline_Cursor.jpg
+.. figure:: /images/Timeline_Cursor.jpg
 
    Time Cursor
 
@@ -71,7 +71,7 @@ Markers are the small triangles, with their name near them.
 Markers are usually used to identify key parts of the animation.
 
 
-.. figure:: /images/K_Doc_Timeline_Markers.jpg
+.. figure:: /images/Timeline_Markers.jpg
    :width: 700px
 
    Markers
@@ -92,7 +92,7 @@ Timeline Area
 The main *Timeline* area displays the animation frames over time.
 
 
-.. figure:: /images/K_Doc_Timeline_Main.jpg
+.. figure:: /images/Timeline_Main.jpg
    :width: 700px
 
    Timeline Main Area
@@ -134,7 +134,7 @@ Cache
    This will display the baked *Cache Steps* for the active object.
 
 
-.. figure:: /images/K_Doc_Timeline_Cache.jpg
+.. figure:: /images/Timeline_Cache.jpg
 
    Timline Cache
 
@@ -278,7 +278,7 @@ The Timeline header controls.
    These button are used to set, play, rewind, the *Time Cursor*.
 
 
-.. figure:: /images/K_Doc_Timeline_Player_Controls.jpg
+.. figure:: /images/Timeline_Player_Controls.jpg
 
    Player Controls.
 
@@ -310,7 +310,7 @@ The Timeline header controls.
 4. Synchronize Playback
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: /images/Doc_Animation_Red_FPS.jpg
+.. figure:: /images/Animation_Red_FPS.jpg
 
    3D View Red FPS.
    60:54.75
@@ -337,7 +337,7 @@ The Timeline header controls.
 5. Keyframe Control
 ^^^^^^^^^^^^^^^^^^^
 
-.. figure:: /images/Doc_kia_Cube03.jpg
+.. figure:: /images/kia_Cube03.jpg
 
    Timeline Auto Keyframe.
 
@@ -364,7 +364,7 @@ The Timeline header controls.
    Todo.
 
 
-.. figure:: /images/Doc_Animation_Timeline_Layered.jpg
+.. figure:: /images/Animation_Timeline_Layered.jpg
 
    Timeline Layered.
 
@@ -372,7 +372,7 @@ The Timeline header controls.
       TODO.
 
 
-.. figure:: /images/Doc_kia_Cube02.jpg
+.. figure:: /images/kia_Cube02.jpg
 
    Timeline Keying Sets.
 

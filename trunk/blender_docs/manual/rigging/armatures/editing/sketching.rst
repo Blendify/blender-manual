@@ -6,7 +6,7 @@
 Skeleton Sketching
 ******************
 
-.. figure:: /images/Doc26-boneSketch.jpg
+.. figure:: /images/boneSketch.jpg
 
    The Bone Sketching panel in its default (inactive) state.
 
@@ -48,7 +48,7 @@ there is only one set of strokes (one sketch) in Blender, and not one per armatu
 Drawing Chains
 ==============
 
-.. figure:: /images/Doc26-boneSketch-strokes.jpg
+.. figure:: /images/boneSketch-strokes.jpg
    :width: 500px
 
    Strokes example. From top to bottom:
@@ -176,13 +176,13 @@ but rather create a new one, as if* *Overdraw Sketching* was disabled.
 
 .. list-table::
 
-   * - .. figure:: /images/Doc26-boneSketch-overdraw.jpg
+   * - .. figure:: /images/boneSketch-overdraw.jpg
           :width: 350px
 
           Adjusting a stroke: the gray part of the "unselected" (orange)
           stroke will be replaced by the currently drawn "replacement".
 
-     - .. figure:: /images/Doc26-boneSketch-overdraw2.jpg
+     - .. figure:: /images/boneSketch-overdraw2.jpg
           :width: 350px
 
           Stroke adjusted.
@@ -313,12 +313,12 @@ each free segment of the selected strokes will be uniformly divided in ``n`` par
 
 .. list-table::
 
-   * - .. figure:: /images/Doc26-boneSketch-convert.jpg
+   * - .. figure:: /images/boneSketch-convert.jpg
           :width: 300px
 
           The Fixed conversion settings and its preview on selected strokes.
 
-     - .. figure:: /images/Doc26-boneSketch-convert2.jpg
+     - .. figure:: /images/boneSketch-convert2.jpg
           :width: 300px
 
           The Fixed conversion result.
@@ -335,12 +335,12 @@ So the more twisted a free segment, the more bones it will generate.
 
 .. list-table::
 
-   * - .. figure:: /images/Doc26-boneSketch-convert3.jpg
+   * - .. figure:: /images/boneSketch-convert3.jpg
           :width: 300px
 
           The Adaptative conversion settings and its preview on selected strokes.
 
-     - .. figure:: /images/Doc26-boneSketch-convert4.jpg
+     - .. figure:: /images/boneSketch-convert4.jpg
           :width: 300px
 
           The Adaptative conversion result.
@@ -356,17 +356,17 @@ so that none of them is longer than the *Length* numeric field value
 
 .. list-table::
 
-   * - .. figure:: /images/Doc26-boneSketch-convert5.jpg
+   * - .. figure:: /images/boneSketch-convert5.jpg
           :width: 200px
 
           The Length conversion settings and its preview on selected strokes.
 
-     - .. figure:: /images/Doc26-boneSketch-convert6.jpg
+     - .. figure:: /images/boneSketch-convert6.jpg
           :width: 200px
 
           Using a larger length value.
 
-     - .. figure:: /images/Doc26-boneSketch-convert7.jpg
+     - .. figure:: /images/boneSketch-convert7.jpg
           :width: 200px
 
           The Length conversion result.

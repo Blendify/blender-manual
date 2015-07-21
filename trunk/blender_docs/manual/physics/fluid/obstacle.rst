@@ -33,7 +33,7 @@ Boundary type
    Note that if the mesh is moving, it will be treated as noslip automatically.
 
 
-.. figure:: /images/Manual-Part-X-bndtcomp.jpg
+.. figure:: /images/bndtcomp.jpg
    :width: 610px
 
    Example of the different boundary types for a drop falling onto the slanted wall.

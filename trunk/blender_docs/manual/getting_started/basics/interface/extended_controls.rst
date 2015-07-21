@@ -9,7 +9,7 @@ This page documents some of the more involved interface controls.
 Operator Search Menu
 ====================
 
-.. figure:: /images/Manual-Interface-Menus-SpacebarMenu25.jpg
+.. figure:: /images/Interface-Menus-SpacebarMenu25.jpg
    :align: right
 
    The [Space]-menu
@@ -43,7 +43,7 @@ see: :doc:`System </preferences/system>` preferences page.
    see: :doc:`Color Management and Exposure </render/post_process/cm_and_exposure>` page.
 
 
-.. figure:: /images/(Doc_26x_Manual_Preferences_System)_(Color_Picker_Circle)_(GBAFN).jpg
+.. figure:: /images/Preferences_System_Color_Picker_Circle.jpg
 
    Fig. 2 - Color Picker - Circle
 
@@ -55,7 +55,7 @@ see: :doc:`System </preferences/system>` preferences page.
       See Fig. 2 - Color Picker - Circle
 
 
-.. figure:: /images/(Doc_26x_Manual_Preferences_System)_(Color_Picker_HS_PLUS_V)_(GBAFN).jpg
+.. figure:: /images/Preferences_System_Color_Picker_HS_PLUS_V.jpg
 
    Fig. 3 - Color Picker
    Square (HS + V)
@@ -70,7 +70,7 @@ see: :doc:`System </preferences/system>` preferences page.
       See Fig. 3 - Color Picker - Square (HS + V)
 
 
-.. figure:: /images/(Doc_26x_Manual_Preferences_System)_(Color_Picker_SV_PLUS_H)_(GBAFN).jpg
+.. figure:: /images/Preferences_System_Color_Picker_SV_PLUS_H.jpg
 
    Fig. 4 - Color Picker
    Square (SV + H)
@@ -86,7 +86,7 @@ see: :doc:`System </preferences/system>` preferences page.
       See Fig. 4 - Color Picker - Square (SV + H)
 
 
-.. figure:: /images/(Doc_26x_Manual_Preferences_System)_(Color_Picker_HV_PLUS_S)_(GBAFN).jpg
+.. figure:: /images/Preferences_System_Color_Picker_HV_PLUS_S.jpg
 
    Fig. 5 - Color Picker
    Square (HV + S)
@@ -129,12 +129,12 @@ Color Ramp
 
 .. list-table::
 
-   * - .. figure:: /images/Manual-Part-I-Interface-ColorBand-Before_25.jpg
+   * - .. figure:: /images/Interface-ColorBand-Before.jpg
           :width: 310px
 
           Colorband before
 
-     - .. figure:: /images/Manual-Part-I-Interface-ColorBand-After_25.jpg
+     - .. figure:: /images/Interface-ColorBand-After.jpg
           :width: 310px
 
           Colorband after
@@ -198,7 +198,7 @@ Color Bar
 Curve Widget
 ============
 
-.. figure:: /images/26-Manual-Material-Color-Node-Curves.jpg
+.. figure:: /images/Material-Color-Node-Curves.jpg
 
    RGB Curves node
 
@@ -220,7 +220,7 @@ The input values are mapped to the X-axis of the graph, and the Y-axis is mapped
 Control Points
 --------------
 
-.. |delete-button| image:: /images/26-Material-Color-Node-Curves-Delpoints-Buticon.jpg
+.. |delete-button| image:: /images/Material-Color-Node-Curves-Delpoints-Buticon.jpg
 
 Like all curves in Blender, the curve of the *Curve Widget* is controlled using *control points*.
 
@@ -241,7 +241,7 @@ Controls
 Above the curve graph is a row of controls. These are:
 
 
-.. figure:: /images/26-Manual-Material-Vector-Node-Curves-Controls.jpg
+.. figure:: /images/Material-Vector-Node-Curves-Controls.jpg
 
    Node curve controls
 
@@ -249,7 +249,7 @@ Above the curve graph is a row of controls. These are:
 Channel selector
    Allows to select appropriate curve channel.
 
-   .. figure:: /images/26-Manual-Material-Vector-Node-Curves-Axes.jpg
+   .. figure:: /images/Material-Vector-Node-Curves-Axes.jpg
 
       Curve channel selector
 
@@ -262,7 +262,7 @@ Zoom Out
    You cannot zoom out further than the clipping borders (see *Clipping* below).
 
 Tools
-   .. figure:: /images/26-Material-Color-Node-Curves-Tools.jpg
+   .. figure:: /images/Material-Color-Node-Curves-Tools.jpg
 
       Advanced tools for curve
 

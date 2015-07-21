@@ -3,7 +3,7 @@
 Procedural textures: Musgrave
 *****************************
 
-.. figure:: /images/25-Manual-Textures-Procedural-Musgrave.jpg
+.. figure:: /images/Textures-Procedural-Musgrave.jpg
    :width: 307px
 
    Musgrave Texture Panels

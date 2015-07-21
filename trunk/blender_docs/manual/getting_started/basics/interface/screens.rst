@@ -3,7 +3,7 @@
 Screens
 *******
 
-.. figure:: /images/Manual-Scene-SR_Layout_Dropdown25.jpg
+.. figure:: /images/Scene-SR_Layout_Dropdown25.jpg
    :align: right
 
    Layout dropdown
@@ -48,7 +48,7 @@ however it is simply a window showing only its *header*.
 To cycle between screens use :kbd:`Ctrl-Right` and :kbd:`Ctrl-Left`.
 
 
-.. figure:: /images/Manual-Part-I-ConceptScreens25.jpg
+.. figure:: /images/ConceptScreens25.jpg
    :align: center
 
    Screen and Scene selectors
@@ -67,7 +67,7 @@ Configuring your Screens
 Adding a new Screen Type
 ------------------------
 
-.. |addview-button| image:: /images/Manual-Part-I-Interface-Screens-AddView-Button25.jpg
+.. |addview-button| image:: /images/Interface-Screens-AddView-Button25.jpg
 
 Click on the "Add" button(|addview-button|) and a new frame layout will be
 created based on your current layout.
@@ -76,7 +76,7 @@ created based on your current layout.
 Deleting a Screen
 -----------------
 
-.. |deleteview-button| image:: /images/Manual-Part-I-Interface-Screens-DeleteView-Button25.jpg
+.. |deleteview-button| image:: /images/Interface-Screens-DeleteView-Button25.jpg
 
 You can delete a screen by using the *Delete datablock* button
 (|deleteview-button|). See *Screen and Scene selectors* above.

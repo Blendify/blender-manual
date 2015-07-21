@@ -5,7 +5,7 @@ Multi-View Render
 For this 5-minute guide we will take an existent ``.blend``
 file that was made for monoscopic rendering and transform it in stereo-3d ready.
 
-.. figure:: /images/Manual_multiview_workflow_render_anaglyph.png
+.. figure:: /images/multiview_workflow_render_anaglyph.png
    :width: 700px
    :figwidth: 700px
 
@@ -24,7 +24,7 @@ Introduction
 Start opening up your project file, in this case ``turntable.blend`` from the **Creature Factory 2**
 Open Movie Workshop series from the Blender Institute by **Andy Goralczyk**.
 
-.. figure:: /images/Manual_multiview_workflow_1.png
+.. figure:: /images/multiview_workflow_1.png
    :width: 1213px
    :figwidth: 700px
 
@@ -38,7 +38,7 @@ Go to the Render Layers panel and enable *Views* for this scene.
 
 .. Go to the Render layers panel and enable :guilabel:`Views` for this scene.
 
-.. figure:: /images/Manual_multiview_workflow_2.png
+.. figure:: /images/multiview_workflow_2.png
    :width: 270px
    :figwidth: 270px
 
@@ -49,7 +49,7 @@ Go to the Render Layers panel and enable *Views* for this scene.
    When you turn on *Views* in the scene you get 3d preview in the viewport,
    as well as multiple panels that are now accessible all over the user interface.
 
-.. figure:: /images/Manual_multiview_workflow_3.png
+.. figure:: /images/multiview_workflow_3.png
    :width: 1213px
    :figwidth: 700px
 
@@ -64,7 +64,7 @@ In the Camera panel go to the Stereoscopy tab and change the *Convergence Distan
 
 The viewport will respond in real-time to those changes allowing you to preview the current depth value of the scene.
 
-.. figure:: /images/Manual_multiview_workflow_4.png
+.. figure:: /images/multiview_workflow_4.png
    :width: 468px
    :figwidth: 247px
 
@@ -82,7 +82,7 @@ You can toggle this and other display settings in the Stereoscopy tab of the vie
 In the following image the cameras frustum volumes are also visible.
 
 
-.. figure:: /images/Manual_multiview_workflow_5.png
+.. figure:: /images/multiview_workflow_5.png
    :width: 1036px
    :figwidth: 700px
 
@@ -96,7 +96,7 @@ If you have a real 3d display at some point you can change the 3D display mode i
 by calling the Stereo 3D operator.
 Be aware that some modes require a fullscreen editor to work.
 
-.. figure:: /images/Manual_multiview_window_stereo_3d.png
+.. figure:: /images/multiview_window_stereo_3d.png
    :width: 642px
    :figwidth: 642px
 
@@ -106,7 +106,7 @@ Be aware that some modes require a fullscreen editor to work.
 OpenGL Preview
 ==============
 
-.. figure:: /images/Manual_multiview_workflow_6.gif
+.. figure:: /images/multiview_workflow_6.gif
    :width: 300px
    :figwidth: 300px
    :align: right
@@ -133,7 +133,7 @@ Image Formats
 Your final animation can be saved in more robust formats than the ones used by the OpenGL render preview.
 In this example we saved as cross-eyed side-by-side stereo 3d.
 
-.. figure:: /images/Manual_multiview_workflow_render_sidebyside.png
+.. figure:: /images/multiview_workflow_render_sidebyside.png
    :width: 700px
    :figwidth: 700px
 
@@ -158,7 +158,7 @@ On top of that you can set a different display mode for each window.
 The display mode can be changed via the Window menu
 or if you create your own shortcuts for the **wm.set_stereo_3d** operator.
 
-.. figure:: /images/Manual_multiview_window_stereo_3d.png
+.. figure:: /images/multiview_window_stereo_3d.png
    :width: 642px
    :figwidth: 642px
 
@@ -205,7 +205,7 @@ on-the-fly and used for rendering and previsualization.
 For all the purposes this works as two cameras that share most parameters (focal length, clipping, ...).
 The stereo pair, however, is offsetted, and can have unique rotation and shift between itself.
 
-.. figure:: /images/Manual_multiview_camera.png
+.. figure:: /images/multiview_camera.png
    :width: 473px
    :figwidth: 300px
 
@@ -249,7 +249,7 @@ When you enable 'Views' in the Render Layer panel a new are is available in the 
 In this panel you can pick whether to see the stereo 3d in the viewport, or which camera to see.
 It also allow you to see the Cameras, the Plane and the Volume of the stereo cameras.
 
-.. figure:: /images/Manual_multiview_viewport_settings.png
+.. figure:: /images/multiview_viewport_settings.png
    :width: 407px
    :figwidth: 250px
 
@@ -273,7 +273,7 @@ Volume
    They are tolerated in the negative space (the region from the convergence plane into the image)
    but are to be avoided at all costs in the positive space (the area from the convergence plane to the camera).
 
-   .. figure:: /images/Manual_multiview_volume.png
+   .. figure:: /images/multiview_volume.png
       :width: 538px
       :figwidth: 402px
 
@@ -321,7 +321,7 @@ View Menu
    the rendered result in the combined stereo 3d or to inspect the individual views.
    This works for Viewer nodes, render results or opened images.
 
-   .. figure:: /images/Manual_multiview_image_editor_header.png
+   .. figure:: /images/multiview_image_editor_header.png
       :width: 1225px
       :figwidth: 700px
 
@@ -333,7 +333,7 @@ Views Format
    Blender should interpret the image by switching the mode to Stereo 3D,
    turning on Use Multi-View and picking the corresponding stereo method.
 
-   .. figure:: /images/Manual_multiview_image_editor_stereo_3d.png
+   .. figure:: /images/multiview_image_editor_stereo_3d.png
       :width: 494px
       :figwidth: 300px
 
@@ -348,7 +348,7 @@ The compositing of a view is completed before the remaining views start to be co
 The pipeline is the same as the single-view workflow, with the difference that you can use Image,
 Movies or Image Sequences in any of the supported Multi-View formats.
 
-.. figure:: /images/Manual_multiview_compositor.png
+.. figure:: /images/multiview_compositor.png
    :width: 1717px
    :figwidth: 700px
 
@@ -367,7 +367,7 @@ Switch View Node
    If you need to treat the views separately you can use the Switch View node
    to combine the views before an output node.
 
-   .. figure:: /images/Manual_multiview_compositor_switch_view.png
+   .. figure:: /images/multiview_compositor_switch_view.png
       :width: 320px
       :figwidth: 200px
 

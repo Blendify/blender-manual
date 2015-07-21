@@ -3,7 +3,7 @@
 Introduction
 ************
 
-.. figure:: /images/Blender3D_HiddenTextSoftbody.jpg
+.. figure:: /images/HiddenTextSoftbody.jpg
    :width: 600px
 
    Image 1a: A softbody cloth uncovering a text.
@@ -33,7 +33,7 @@ edit intermediate results and run the simulation from there.
 Typical scenarios for using Soft Bodies
 =======================================
 
-.. figure:: /images/Blender3D_WindConeSoftbody.jpg
+.. figure:: /images/WindConeSoftbody.jpg
    :width: 300px
 
    Image 1b: A wind cone. The cone is a Soft Body, as the suspension.

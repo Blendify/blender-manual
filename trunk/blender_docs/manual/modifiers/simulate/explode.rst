@@ -28,7 +28,7 @@ showing a cube with a particle system and Explode Modifier.
 Options
 =======
 
-.. figure:: /images/Doc26-explodeModifier.jpg
+.. figure:: /images/explodeModifier.jpg
 
    Explode Modifier panel with Particle System Modifier above it
 

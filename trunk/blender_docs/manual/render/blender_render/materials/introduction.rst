@@ -53,7 +53,7 @@ The surface properties and incident light angle tell us how much of that light w
 reflected back along the incident viewing angle *(Rendering engine basic principle)*.
 
 
-.. figure:: /images/Manual-Part-III-MatGen01.jpg
+.. figure:: /images/MatGen01.jpg
 
    Rendering engine basic principle.
 

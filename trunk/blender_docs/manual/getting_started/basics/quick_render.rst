@@ -31,7 +31,7 @@ Rendering an image using ''Full Render'' - Blender Internal
    | Hotkey:   :kbd:`F12`
 
 
-.. figure:: /images/Manual-Vitals-Starting-Header-Render-Menu.jpg
+.. figure:: /images/Vitals-Starting-Header-Render-Menu.jpg
    :align: right
 
    Header of the Info Window
@@ -63,9 +63,9 @@ Rendering an image using ''OpenGL Render''
 To start an *OpenGL render* you can use any of the following options:
 
 
-.. figure:: /images/Manual-Vitals-Starting-Small-OpenGL-Render-buttons.jpg
+.. figure:: /images/Vitals-Starting-Small-OpenGL-Render-buttons.jpg
 
-.. figure:: /images/Manual-Vitals-Starting-Small-Search-Render.jpg
+.. figure:: /images/Vitals-Starting-Small-Search-Render.jpg
    :align: right
 
    Search functionality
@@ -84,7 +84,7 @@ To abort or quit the render, press :kbd:`Esc`.
 Adjusting the resolution
 ========================
 
-.. figure:: /images/Manual-Starting-Vital-dimensions-panel.jpg
+.. figure:: /images/Starting-Vital-dimensions-panel.jpg
    :align: right
 
    Dimensions panel
@@ -102,7 +102,7 @@ but will also take longer to render.
 Output format and output file
 =============================
 
-.. figure:: /images/Manual-Starting-Vital-output-panel.jpg
+.. figure:: /images/Starting-Vital-output-panel.jpg
    :align: right
 
    Output panel
@@ -118,7 +118,7 @@ You can also choose the type of image or movie format for your work from the Men
 Saving your image
 =================
 
-.. figure:: /images/Manual-Starting-Vital-save-as.jpg
+.. figure:: /images/Starting-Vital-save-as.jpg
    :align: right
 
    Save as dialog
@@ -140,7 +140,7 @@ Rendering an animation using ''Full Render'' - Blender Internal
    | Hotkey:   :kbd:`Ctrl-F12`
 
 
-.. figure:: /images/Manual-Starting-Vital-dimensions-panel.jpg
+.. figure:: /images/Starting-Vital-dimensions-panel.jpg
    :align: right
 
    Dimensions panel
@@ -185,7 +185,7 @@ Rendering an animation using ''OpenGL Render''
 To Render an animation using *OpenGL Render*, you can use any of the following options:
 
 
-.. figure:: /images/Manual-Vitals-Starting-Small-OpenGL-Render-buttons.jpg
+.. figure:: /images/Vitals-Starting-Small-OpenGL-Render-buttons.jpg
 
 - Click on the small button showing a *slate*
   (together with a small image showing a *camera*) in the header of the 3D View
@@ -205,7 +205,7 @@ Showing Only Rendered Objects
    | Hotkey:   Undefined - You can add one for your :doc:`Keymap </preferences/input>`
 
 
-.. figure:: /images/Manual-Vitals-Quick-Render-Display-Only-Render.jpg
+.. figure:: /images/Vitals-Quick-Render-Display-Only-Render.jpg
    :align: right
 
    Transform Panel - Display Tab.

@@ -15,7 +15,7 @@ a 2D image texture could be configured to wrap itself around a cylindrical shape
 Coordinates
 ===========
 
-.. figure:: /images/25-Manual-Textures-Mapping-Coord.jpg
+.. figure:: /images/Textures-Mapping-Coord.jpg
    :width: 207px
 
    Mapping Coordinate menu
@@ -104,7 +104,7 @@ From Dupli
 Coordinate Offset, Scaling and Transformation
 =============================================
 
-.. figure:: /images/25-Manual-Textures-Mapping-Offset.jpg
+.. figure:: /images/Textures-Mapping-Offset.jpg
 
    Offset panel
 
@@ -114,7 +114,7 @@ Offset
    Enlarging of the Ofs moves the texture towards the top left.
 
 
-.. figure:: /images/25-Manual-Textures-Mapping-Size.jpg
+.. figure:: /images/Textures-Mapping-Size.jpg
 
    Size panel
 

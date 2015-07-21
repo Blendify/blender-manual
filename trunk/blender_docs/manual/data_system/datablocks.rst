@@ -35,7 +35,7 @@ When doing more complex projects managing data-blocks becomes more important,
 especially when inter-linking ``.blend`` files.
 
 
-.. figure:: /images/Doc26-datablocks.jpg
+.. figure:: /images/datablocks.jpg
    :width: 400px
 
    Datablocks view

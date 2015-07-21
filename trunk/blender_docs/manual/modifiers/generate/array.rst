@@ -133,7 +133,7 @@ Mechanical
 
 .. list-table::
 
-   * - .. figure:: /images/Blender_Array_Bridge.jpg
+   * - .. figure:: /images/Array_Bridge.jpg
           :width: 300px
 
           A bridge made from a tileable mesh.
@@ -204,7 +204,7 @@ Organic
 
           Fig 02
 
-   * - .. figure:: /images/Manual-Modifier-Array-Tentacle01.jpg
+   * - .. figure:: /images/Modifier-Array-Tentacle01.jpg
           :width: 600px
 
           Fig 03

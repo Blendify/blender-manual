@@ -52,7 +52,7 @@ Following is a video that shows how you can switch to the interpreter.
 
 .. youtube:: Ge2Kwy5EGE0
 
-.. figure:: /images/Manual-Part-XX-Manual-Extensions-Python-Console-Default-Console.jpg
+.. figure:: /images/Extensions-Python-Console-Default-Console.jpg
    :width: 600px
 
 
@@ -68,7 +68,7 @@ Let's get started with the classical "Hello World" program.
 Type the following print statement at the interpreter prompt and press :kbd:`Return` key.
 
 
-.. figure:: /images/Manual-Part-XX-Manual-Extensions-Python-Tutorial-Hello-World.jpg
+.. figure:: /images/Extensions-Python-Tutorial-Hello-World.jpg
 
 Let's break down the above statement.
 
@@ -96,7 +96,7 @@ By doing so we are repeating the string by the count specified by *number*
 - ***** is the multiplication operator in Python
 
 
-.. figure:: /images/Manual-Part-XX-Manual-Extensions-Python-Tutorial-Hello-World2.jpg
+.. figure:: /images/Extensions-Python-Tutorial-Hello-World2.jpg
 
 .. note::
 

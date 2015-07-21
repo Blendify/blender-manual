@@ -25,7 +25,7 @@ Anyway, enough about camera angles; this is about lighting.
 Environment or Ambient Only
 ===========================
 
-.. figure:: /images/27x-Manual-Lighting-Rigs-EL.jpg
+.. figure:: /images/Lighting-Rigs-EL.jpg
    :width: 300px
 
    Environment (Ambient) lighting only.
@@ -37,7 +37,7 @@ light that comes from sunlight being reflected off every surface it hits, hittin
 and traveling to camera.
 
 
-.. figure:: /images/27x-Manual-Lighting-Rigs-AO.jpg
+.. figure:: /images/Lighting-Rigs-AO.jpg
    :width: 256px
 
    Ambient occlusion.
@@ -51,7 +51,7 @@ You can vary the intensity of the ambient light across your scene via
 Single Rig
 ==========
 
-.. figure:: /images/27x-Manual-Lighting-Rigs-01.jpg
+.. figure:: /images/Lighting-Rigs-01.jpg
    :width: 300px
 
    Standard Spot light rig.
@@ -91,7 +91,7 @@ Do not use this rig for big open spaces or to show all aspects of a model.
 Two-Point Rig
 =============
 
-.. figure:: /images/27x-Manual-Lighting-Rigs-02.jpg
+.. figure:: /images/Lighting-Rigs-02.jpg
    :width: 300px
 
    Standard two-point light rig.
@@ -141,7 +141,7 @@ There are multiple thesis on this rig, and you will use one of two:
 Studio rig
 ----------
 
-.. figure:: /images/27x-Manual-Lighting-Rigs-03a-Studio.jpg
+.. figure:: /images/Lighting-Rigs-03a-Studio.jpg
    :width: 300px
 
    Studio three-point light rig.
@@ -178,7 +178,7 @@ you may have to pull the sidelights back to be more positioned like the two-poin
 Standard Rig
 ------------
 
-.. figure:: /images/27x-Manual-Lighting-Rigs-03b-Standart.jpg
+.. figure:: /images/Lighting-Rigs-03b-Standart.jpg
    :width: 300px
 
    Standard three-point light rig.
@@ -211,7 +211,7 @@ others, while making sure all three work together as a team.
 Four-point Rig
 ==============
 
-.. figure:: /images/27x-Manual-Lighting-Rigs-04.jpg
+.. figure:: /images/Lighting-Rigs-04.jpg
    :width: 300px
 
    Four-point light rig.

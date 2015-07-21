@@ -23,7 +23,7 @@ you to visualize your changes in Edit Mode.
 Options
 =======
 
-.. figure:: /images/25-Manual-Modifiers-Decimate.jpg
+.. figure:: /images/Modifiers-Decimate.jpg
 
    decimate modifier
 

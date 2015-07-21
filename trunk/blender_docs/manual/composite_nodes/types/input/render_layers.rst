@@ -11,7 +11,7 @@ Render Layers Node
    | Menu:     :kbd:`Shift-A` --> :doc:`Input </composite_nodes/types/input/index>` --> Render Layers
 
 
-.. figure:: /images/Manual-Compositing-RenderLayer_Node.jpg
+.. figure:: /images/Compositing-RenderLayer_Node.jpg
 
    Render Layers Node
 
@@ -68,7 +68,7 @@ and where infinity is, and a map of the alpha values for semi-transparent object
 You can see this map by mapping it to a blue screen:
 
 
-.. figure:: /images/Manual-Compositing-See_Alpha.jpg
+.. figure:: /images/Compositing-See_Alpha.jpg
 
    Viewing the Alpha values
 
@@ -141,7 +141,7 @@ that specify how far away each pixel in the image is away from the camera.
 You can see this map by translating it into colors, or shades of gray:
 
 
-.. figure:: /images/Manual-Compositing-See_Z.jpg
+.. figure:: /images/Compositing-See_Z.jpg
 
    Viewing the Z values
 

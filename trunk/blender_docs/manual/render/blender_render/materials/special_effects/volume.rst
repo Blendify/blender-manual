@@ -3,7 +3,7 @@
 Volume Rendering
 ****************
 
-.. figure:: /images/Doc-26-Materials-VolumeRender-Activate.jpg
+.. figure:: /images/Materials-VolumeRender-Activate.jpg
    :width: 300px
 
    Activation volume rendering
@@ -62,7 +62,7 @@ by controlling the density that one can get the typical 'volumetric' effects suc
 thick smoke.
 
 
-.. figure:: /images/Doc-26-Materials-VolumeRender-Options-Density.jpg
+.. figure:: /images/Materials-VolumeRender-Options-Density.jpg
 
    Density options
 
@@ -88,7 +88,7 @@ and some proportion of that light reaches the camera. This property makes it pos
 light beams as they travel though a volume and are scattered towards the eye.
 
 
-.. figure:: /images/Doc-26-Materials-VolumeRender-Options-Shading.jpg
+.. figure:: /images/Materials-VolumeRender-Options-Shading.jpg
 
    Shading options
 
@@ -311,7 +311,7 @@ Of course you can always break the rules too!
 Lighting
 ========
 
-.. figure:: /images/Doc-26-Materials-VolumeRender-Options-Lighting.jpg
+.. figure:: /images/Materials-VolumeRender-Options-Lighting.jpg
 
    Lighting options
 
@@ -353,7 +353,7 @@ Multiple Scattering Options:
 Transparency
 ============
 
-.. figure:: /images/Doc-26-Materials-VolumeRender-Options-Transparency.jpg
+.. figure:: /images/Materials-VolumeRender-Options-Transparency.jpg
 
    Transparency options
 
@@ -369,7 +369,7 @@ Raytrace
 Integration
 ===========
 
-.. figure:: /images/Doc-26-Materials-VolumeRender-Options-Integration.jpg
+.. figure:: /images/Materials-VolumeRender-Options-Integration.jpg
 
    Integration options
 
@@ -394,7 +394,7 @@ Depth Cutoff
 Options
 =======
 
-.. figure:: /images/Doc-26-Materials-VolumeRender-Options.jpg
+.. figure:: /images/Materials-VolumeRender-Options.jpg
 
    Material volume options
 

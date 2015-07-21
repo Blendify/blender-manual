@@ -337,11 +337,11 @@ with the results shown in (*Taper extruded curve*).
 
 .. list-table::
 
-   * - .. figure:: /images/Manual-Part-II-Curves-Simple-Taper-Ex.jpg
+   * - .. figure:: /images/Curves-Simple-Taper-Ex.jpg
 
           Taper extruded curve.
 
-     - .. figure:: /images/Manual-Part-II-Curves-Simple-Taper-Ex-Solid.jpg
+     - .. figure:: /images/Curves-Simple-Taper-Ex-Solid.jpg
 
           Taper solid mode.
 
@@ -353,7 +353,7 @@ which would lead to rendering artifacts.
 Of course as an artist that may be what you are looking for!
 
 
-.. figure:: /images/Manual-Part-II-curvesTaper02.jpg
+.. figure:: /images/curvesTaper02.jpg
 
    Taper example 1.
 
@@ -364,7 +364,7 @@ left taper curve is closer to the object center and that results in a smaller cu
 the right.
 
 
-.. figure:: /images/Manual-Part-II-curvesTaper03.jpg
+.. figure:: /images/curvesTaper03.jpg
 
    Taper example 2.
 
@@ -373,7 +373,7 @@ In (*Taper example 2*) a control point in the taper curve to the left is moved a
 center and that gives a wider result to the curve object on the right.
 
 
-.. figure:: /images/Manual-Part-II-curvesTaper04.jpg
+.. figure:: /images/curvesTaper04.jpg
 
    Taper example 3.
 

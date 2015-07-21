@@ -17,7 +17,7 @@ You can select and create scenes with the *Scene selector* in the Info window he
 (the bar at the top of most Blender layouts, see *Screen and Scene selectors*).
 
 
-.. figure:: /images/Manual-Part-I-ConceptScreens25.jpg
+.. figure:: /images/ConceptScreens25.jpg
    :align: center
 
    Screen and Scene selectors
@@ -29,12 +29,12 @@ Scene configuration
 Adding a new Scene
 ------------------
 
-.. figure:: /images/Manual-Part-I-Interface-Scene-AddButton-Dialog25.jpg
+.. figure:: /images/Interface-Scene-AddButton-Dialog25.jpg
    :align: right
 
    Add Scene menu
 
-.. |addview-button| image:: /images/Manual-Part-I-Interface-Screens-AddView-Button25.jpg
+.. |addview-button| image:: /images/Interface-Screens-AddView-Button25.jpg
 
 You can add a new scene by clicking the *Add* button (|addview-button|) in the scene selector option.
 When you create a new scene, you can choose between a number of options to control its contents.
@@ -113,7 +113,7 @@ read through :doc:`Blender's Library and Data System. </data_system/index>`
 Deleting a Scene
 ----------------
 
-.. |deleteview-button| image:: /images/Manual-Part-I-Interface-Screens-DeleteView-Button25.jpg
+.. |deleteview-button| image:: /images/Interface-Screens-DeleteView-Button25.jpg
 
 You can delete a scene by using the *Delete datablock* button
 (|deleteview-button|) from the scene selector option (see *Screen and Scene

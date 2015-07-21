@@ -76,7 +76,7 @@ This mode is good for:
 
 .. list-table::
 
-   * - .. figure:: /images/Manual-VSE-Luma_waveform_ex1.jpg
+   * - .. figure:: /images/VSE-Luma_waveform_ex1.jpg
 
           'Simple' picture.
           The various horizontal lines in the Luma waveform match the uniform-color lines of the picture.
@@ -85,7 +85,7 @@ This mode is good for:
           The two lines drawing an 'X' are from the two linear tone shades (white-->black and black-->white).
           Finally, the broken line matches the complex tone shade at the bottom of the picture.
 
-     - .. figure:: /images/Manual-VSE-Luma_waveform_ex2.jpg
+     - .. figure:: /images/VSE-Luma_waveform_ex2.jpg
 
           A 'real' picture.
           The curves are quite visible.
@@ -108,7 +108,7 @@ contiguous.
 Chroma Vectorscope
 ==================
 
-.. figure:: /images/Manual-VSE-ChromaExample.jpg
+.. figure:: /images/VSE-ChromaExample.jpg
    :width: 300px
 
    Example VSE Chroma Preview

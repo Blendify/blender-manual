@@ -14,7 +14,7 @@ In another 3D software you can find it with the name "Look at" constraint.
 Options
 =======
 
-.. figure:: /images/25-Manual-Constraints-Tracking-DampedTrack.jpg
+.. figure:: /images/Constraints-Tracking-DampedTrack.jpg
    :width: 304px
 
    Damped Track panel
@@ -28,7 +28,7 @@ Target (Mesh Object Type)
       a new field is displayed offering the optional choice to set a *Vertex Group* as target.
 
 
-.. figure:: /images/Properties_Editor_-_Object_Constraints_-_Damped_Track_-_Armature_Object_Type.jpg
+.. figure:: /images/Properties_Editor-Object_Constraints-Damped_Track-Armature_Object_Type.jpg
    :width: 304px
 
    Damped Track for Bones

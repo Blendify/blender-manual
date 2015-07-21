@@ -32,15 +32,15 @@ Examples
 
 .. list-table::
 
-   * - .. figure:: /images/Blender3D_CubePlaneCollision2.gif
+   * - .. figure:: /images/CubePlaneCollision2.gif
 
           Image 2a: A Soft Body cube colliding with a plane.
 
-     - .. figure:: /images/Blender3D_CubePlaneCollision3.gif
+     - .. figure:: /images/CubePlaneCollision3.gif
 
           Image 2b: A Soft Body plane colliding with a cube - no interaction at all.
 
-     - .. figure:: /images/Blender3D_CollidingPlane_CFace.gif
+     - .. figure:: /images/CollidingPlane_CFace.gif
 
           Image 2c: Collision with CFace activated.
 
@@ -61,11 +61,11 @@ Calculating Collisions
 
 .. list-table::
 
-   * - .. figure:: /images/Blender3D_VertexPlaneCollision.gif
+   * - .. figure:: /images/VertexPlaneCollision.gif
 
           Image 3a: Visualization of the collision of a Soft Body vertex with a plane.
 
-     - .. figure:: /images/Blender3D_VertexPlaneCollision2.gif
+     - .. figure:: /images/VertexPlaneCollision2.gif
 
           Image 3b: Six Soft Body vertices with different speed.
           `Blend file <http://wiki.blender.org/index.php/Media:CollidingVertices.blend>`__

@@ -29,7 +29,7 @@ the keyboard shortcuts.
 Splitting a Window
 ==================
 
-.. figure:: /images/Manual-Interface-Window_System-Arranging_frames-splitwidget.jpg
+.. figure:: /images/Interface-Window_System-Arranging_frames-splitwidget.jpg
 
 In the upper right and lower left corners of a window are the window splitter widgets,
 and they look like a little ridged thumb grip. It both splits and combines window panes.
@@ -52,7 +52,7 @@ they must both have the same width. If the one above is split vertically,
 you must first merge those two, and then join the bottom one up to the upper one.
 
 
-.. figure:: /images/Manual-Interface-Window_System-Arranging_frames-joinframes.jpg
+.. figure:: /images/Interface-Window_System-Arranging_frames-joinframes.jpg
    :width: 250px
 
 

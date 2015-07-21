@@ -22,7 +22,7 @@ allowing the background to bleed through.
 Examples
 ========
 
-.. figure:: /images/Manual-Compositing-AlphaOver-example.jpg
+.. figure:: /images/Compositing-AlphaOver-example.jpg
    :width: 300px
 
    Assembling a composite Image using AlphaOver
@@ -34,7 +34,7 @@ is greater than 1.00; otherwise you will see an unwanted halo effect.
 The resulting image is a composite of the two source images.
 
 
-.. figure:: /images/Manual-Compositing-AlphaOver-seethru.jpg
+.. figure:: /images/Compositing-AlphaOver-seethru.jpg
    :width: 300px
 
    Animated See-Through/Sheer SFX using AlphaOver - Frame 11
@@ -83,6 +83,6 @@ It also depends on whether or not you have rendered your image as a pre-mult,
 or straight RGBA image.
 
 
-.. figure:: /images/Manual-Compositing-AlphaOver-Layers.jpg
+.. figure:: /images/Compositing-AlphaOver-Layers.jpg
 
    Layering Images using AlphaOver Premul

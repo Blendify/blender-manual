@@ -17,7 +17,7 @@ Selection Modes
 Select Mode Header Widgets
 --------------------------
 
-.. figure:: /images/25-Manual-Modeling-Meshes-Selection-mode-buttons.jpg
+.. figure:: /images/Modeling-Meshes-Selection-mode-buttons.jpg
    :width: 190px
 
    Edit mode selection buttons
@@ -64,7 +64,7 @@ Select Mode Pop-up
    | Hotkey:   :kbd:`Ctrl-Tab`
 
 
-.. figure:: /images/25-Manual-Modeling-Meshes-Selection-mode.jpg
+.. figure:: /images/Modeling-Meshes-Selection-mode.jpg
    :width: 152px
 
    Mesh Select Mode menu
@@ -106,19 +106,19 @@ for examples of the different modes.
 
 .. list-table::
 
-   * - .. figure:: /images/Manual-Part-II-EditModeVerticeModeExample.jpg
+   * - .. figure:: /images/EditModeVerticeModeExample.jpg
 
           Vertices mode example.
 
-     - .. figure:: /images/Manual-Part-II-EditModeEdgeModeExample.jpg
+     - .. figure:: /images/EditModeEdgeModeExample.jpg
 
           Edges mode example.
 
-   * - .. figure:: /images/Manual-Part-II-EditModeFaceModeExample.jpg
+   * - .. figure:: /images/EditModeFaceModeExample.jpg
 
           Faces mode example.
 
-     - .. figure:: /images/Manual-Part-II-EditModeMixedModeExample.jpg
+     - .. figure:: /images/EditModeMixedModeExample.jpg
 
           Mixed mode example.
 

@@ -25,7 +25,7 @@ correspond to the distance between the owner and this target.
 Options
 =======
 
-.. figure:: /images/25-Manual-Constraints-Transform-LimitDist.jpg
+.. figure:: /images/Constraints-Transform-LimitDist.jpg
    :width: 304px
 
    Limit Distance panel

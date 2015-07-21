@@ -15,13 +15,13 @@ and better details than Vertex Painting can provide.
 UVs Explained
 *************
 
-.. figure:: /images/Manual-UV-boxprecut.jpg
+.. figure:: /images/UV-boxprecut.jpg
    :width: 180px
 
    Box being inspected
 
 
-.. figure:: /images/Manual-UV-boxcutup.jpg
+.. figure:: /images/UV-boxcutup.jpg
    :width: 180px
 
    Box mapped flat
@@ -61,17 +61,17 @@ We 'fill in' spaces toward the poles, or change the outline of the map in any of
 
 .. list-table::
 
-   * - .. figure:: /images/Manual-UV-projection-mercator.jpg
+   * - .. figure:: /images/UV-projection-mercator.jpg
           :width: 190px
 
           Mercator Projection
 
-     - .. figure:: /images/Manual-UV-projection-mollweide.jpg
+     - .. figure:: /images/UV-projection-mollweide.jpg
           :width: 190px
 
           Mollweide Projection
 
-     - .. figure:: /images/Manual-UV-projection-albers.jpg
+     - .. figure:: /images/UV-projection-albers.jpg
           :width: 190px
 
           Albers-equal Projection
@@ -92,7 +92,7 @@ to the Equator.)
 Half-Sphere Example
 ===================
 
-.. figure:: /images/Manual-UV-3D_Space_vs_UV_Space.jpg
+.. figure:: /images/UV-3D_Space_vs_UV_Space.jpg
    :width: 600px
 
    3D Space (XYZ) versus UV Space (click to enlarge)

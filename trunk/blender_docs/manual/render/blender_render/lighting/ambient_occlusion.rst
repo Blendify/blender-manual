@@ -39,7 +39,7 @@ which is a whitish yellow sunny kind of color on a bright-but-not-harshly-bright
 Options
 =======
 
-.. figure:: /images/Doc26-lighting-ambientOcclusion.jpg
+.. figure:: /images/lighting-ambientOcclusion.jpg
 
    The World panel with ambient color sliders highlighted.
 
@@ -80,7 +80,7 @@ Gather
 Raytrace
 ^^^^^^^^
 
-.. figure:: /images/Doc26-lighting-ambientOcclusion-gather.jpg
+.. figure:: /images/lighting-ambientOcclusion-gather.jpg
 
    The Amb Occ panel, Raytrace method.
 
@@ -110,17 +110,17 @@ Attenuation
 
    .. list-table::
 
-      * - .. figure:: /images/Manual-AmbientOcclusion-3Samples.jpg
+      * - .. figure:: /images/AmbientOcclusion-3Samples.jpg
              :width: 200px
 
              Ambient Occlusion with 3 Samples.
 
-        - .. figure:: /images/Manual-AmbientOcclusion-6Samples.jpg
+        - .. figure:: /images/AmbientOcclusion-6Samples.jpg
              :width: 200px
 
              Ambient Occlusion with 6 Samples.
 
-        - .. figure:: /images/Manual-AmbientOcclusion-12Samples.jpg
+        - .. figure:: /images/AmbientOcclusion-12Samples.jpg
              :width: 200px
 
              Ambient Occlusion with 12 Samples.
@@ -188,7 +188,7 @@ Attenuation
 Approximate
 ^^^^^^^^^^^
 
-.. figure:: /images/Doc26-lighting-ambientOcclusion-gather2.jpg
+.. figure:: /images/lighting-ambientOcclusion-gather2.jpg
 
    The Amb Occ panel, Approximate method.
 

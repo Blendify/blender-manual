@@ -13,7 +13,7 @@ Y and Z directions simultaneously (sometimes referred to as *Vector Displacement
 Options
 =======
 
-.. figure:: /images/25-Manual-Modifiers-Displace.jpg
+.. figure:: /images/Modifiers-Displace.jpg
 
    Displace modifier
 

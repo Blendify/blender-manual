@@ -33,7 +33,7 @@ Using an exponential correction formula, this now can be nicely corrected.
 Options
 =======
 
-.. figure:: /images/Doc26-world-exposure.jpg
+.. figure:: /images/world-exposure.jpg
 
    Exposure and Range sliders.
 
@@ -67,12 +67,12 @@ so that the darker parts of the image won't be changed at all
 
 .. list-table::
 
-   * - .. figure:: /images/Manual-PartVI-DenseTeapot.jpg
+   * - .. figure:: /images/DenseTeapot.jpg
           :width: 320px
 
           An overexposed teapot.
 
-     - .. figure:: /images/Manual-PartVI-DenseTeapot-Range2.jpg
+     - .. figure:: /images/DenseTeapot-Range2.jpg
           :width: 320px
 
           Range: 2.0.

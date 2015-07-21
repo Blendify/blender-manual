@@ -20,7 +20,7 @@ you use composition nodes to both assemble video clips together, and enhance the
    A node layout processes one image at a time, no matter what kind of input you provide.
 
 
-.. figure:: /images/Manual-Compositing-SimpleNoodle.jpg
+.. figure:: /images/Compositing-SimpleNoodle.jpg
 
    Default Composition Noodle
 
@@ -44,12 +44,12 @@ Access the :doc:`Node Editor </render/blender_render/materials/nodes/editor>` an
 *Composite Nodes* by clicking on the *Image* icon.
 
 
-.. figure:: /images/Manual-Compositing-Node_Header.jpg
+.. figure:: /images/Compositing-Node_Header.jpg
 
    Node Editor Header with Composite Nodes enabled
 
 
-.. figure:: /images/Manual-Part-VI-Using_Nodes-WindowsType.jpg
+.. figure:: /images/Using_Nodes-WindowsType.jpg
 
    Select the Node Editor window
 
@@ -58,7 +58,7 @@ To activate nodes for compositing, click the *Use Nodes* checkbox.
 Blender creates a default starting noodle, consisting of two nodes threaded together.
 
 
-.. figure:: /images/Manual-Compositing-Do.jpg
+.. figure:: /images/Compositing-Do.jpg
 
    Use Composition Nodes
 

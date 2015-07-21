@@ -21,7 +21,7 @@ The *Copy Scale* constraint forces its owner to have the same scale as its targe
 Options
 =======
 
-.. figure:: /images/25-Manual-Constraints-Transform-CopyScale.jpg
+.. figure:: /images/Constraints-Transform-CopyScale.jpg
    :width: 307px
 
    Copy Scale panel

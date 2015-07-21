@@ -39,7 +39,7 @@ but black is a good neutral color that is easy on the eyes and intellectually "r
 viewer's mind. The node map below shows how to do this using the Set Alpha node.
 
 
-.. figure:: /images/Manual-Compositing-SetAlpha_fadetoblack.jpg
+.. figure:: /images/Compositing-SetAlpha_fadetoblack.jpg
 
    Fade To Black
 
@@ -78,7 +78,7 @@ You can have the title fly in, or fade it in. To fade it in,
 use the SetAlpha node with the Time node as shown below.
 
 
-.. figure:: /images/Manual-Compositing-SetAlpha_FadeInTitle.jpg
+.. figure:: /images/Compositing-SetAlpha_FadeInTitle.jpg
 
    Using Set Alpha to Fade in a Title
 
@@ -94,7 +94,7 @@ transparent, allowing you to layer images on top of one another.
 Using SetAlpha to Colorize a BW Image
 =====================================
 
-.. figure:: /images/Manual-Compositing-SetAlpha_Colorize.jpg
+.. figure:: /images/Compositing-SetAlpha_Colorize.jpg
 
    Using Set Alpha to Colorize an Image
 

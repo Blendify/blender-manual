@@ -14,7 +14,7 @@
 Object Mode
 ***********
 
-.. figure:: /images/Part-II-ObjectMode-Selected-Ex.jpg
+.. figure:: /images/ObjectMode-Selected-Ex.jpg
    :width: 400px
 
    Selected object in 3D View: (1) Solid shading, (2) Wireframe shading.
@@ -78,7 +78,7 @@ However, not all of these transformations have an effect on all objects. For exa
 scaling a force field will not increase its effect.
 
 
-.. figure:: /images/Part-II-EditMode.jpg
+.. figure:: /images/EditMode.jpg
 
    Edit Mode button.
 

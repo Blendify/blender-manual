@@ -97,7 +97,7 @@ Local View
    | Menu:     :menuselection:`View --> View Global/Local`
    | Hotkey:   :kbd:`NumpadSlash`
 
-.. figure:: /images/Manual-3Dinteraction-Navigating-Global-Local-global-local.jpg
+.. figure:: /images/3Dinteraction-Navigating-Global-Local-global-local.jpg
 
    Global and Local view
 

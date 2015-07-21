@@ -9,7 +9,7 @@
 Sun: Sky & Atmosphere
 *********************
 
-.. figure:: /images/25-Manual-Lighting-Lamps-Sun-SkyAtmoPanel.jpg
+.. figure:: /images/Lighting-Lamps-Sun-SkyAtmoPanel.jpg
    :width: 304px
 
    Sky & Atmosphere panel
@@ -40,7 +40,7 @@ a light pointing straight up is "midnight", and so on...).
 And the rotation around the Z axis determines the position of the sun around the camera.
 
 
-.. figure:: /images/Manual-Lighting-Lamps-Sun-PositionForSkyAtmosphere.jpg
+.. figure:: /images/Lighting-Lamps-Sun-PositionForSkyAtmosphere.jpg
    :width: 610px
 
    The dashed "light line" of the Sun lamp crossing the camera focal point.
@@ -164,22 +164,22 @@ First, let's see what happens when we modify the orientation of the sun:
 .. list-table::
    Variations in *Sun* orientation, *Sun Size* to ``5.0``, all other settings to default.
 
-   * - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-MidDay.jpg
+   * - .. figure:: /images/Lighting-Lamps-Sun-SkyAtmosphere-MidDay.jpg
           :width: 200px
 
           With sun right overhead (mid-day).
 
-     - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-MidNight.jpg
+     - .. figure:: /images/Lighting-Lamps-Sun-SkyAtmosphere-MidNight.jpg
           :width: 200px
 
           With sun deep "under the Earth" (midnight).
 
-   * - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-EarlyTwilight.jpg
+   * - .. figure:: /images/Lighting-Lamps-Sun-SkyAtmosphere-EarlyTwilight.jpg
           :width: 200px
 
           Sun slightly above the horizon (start of twilight).
 
-     - .. figure:: /images/Manual-Lighting-Lamps-Sun-SkyAtmosphere-LateTwilight.jpg
+     - .. figure:: /images/Lighting-Lamps-Sun-SkyAtmosphere-LateTwilight.jpg
           :width: 200px
 
           Sun slightly below the horizon (end of twilight).

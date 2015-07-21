@@ -19,7 +19,7 @@ in the Node Editor, Graph Editor, UV Editor, Sequencer, etc.
 Options and other details will be discussed in their respective sections.
 
 
-.. figure:: /images/Doc_Blender_26_3D_inter_translate_value_display.jpg
+.. figure:: /images/3D_inter_translate_value_display.jpg
 
    Translation Display
 
@@ -58,7 +58,7 @@ full control over your transformation.
 :kbd:`LMB`
    Confirm the move, and leave the object or data at its current location on the screen.
 
-.. figure:: /images/Doc_blender_26_3D_interaction_trans_basics_grab_mmb.jpg
+.. figure:: /images/3D_interaction_trans_basics_grab_mmb.jpg
 
    Axis-Constraint in action
 
@@ -73,7 +73,7 @@ full control over your transformation.
 :kbd:`RMB` or :kbd:`Esc`
    Cancel the move, and return the object or data to its original location.
 
-.. figure:: /images/Doc_blender_26_manual_basic_trans_grab_shift_xyz.jpg
+.. figure:: /images/basic_trans_grab_shift_xyz.jpg
 
    Shift+X in action
 

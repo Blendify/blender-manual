@@ -3,7 +3,7 @@
 Fluid Object
 ************
 
-.. figure:: /images/Blender_fluids_fluid.jpg
+.. figure:: /images/fluids_fluid.jpg
    :width: 300px
 
    Fluid object settings

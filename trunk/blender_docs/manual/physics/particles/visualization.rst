@@ -147,7 +147,7 @@ Path
 ====
 
 
-.. figure:: /images/Blender3D_VisualisationPanelPath.jpg
+.. figure:: /images/VisualisationPanelPath.jpg
 
    Image 3: The Visualization panel for Path visualization.
 
@@ -242,7 +242,7 @@ Random Size
 Billboard
 =========
 
-.. figure:: /images/Blender3D_VisualisationPanelBillboard.jpg
+.. figure:: /images/VisualisationPanelBillboard.jpg
 
    Image 4: Billboard visualization for particles.
 

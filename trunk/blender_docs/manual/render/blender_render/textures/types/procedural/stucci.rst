@@ -3,7 +3,7 @@
 Procedural textures: Stucci
 ***************************
 
-.. figure:: /images/25-Manual-Textures-Procedural-Stucci.jpg
+.. figure:: /images/Textures-Procedural-Stucci.jpg
    :width: 307px
 
    Stucci Texture Panels

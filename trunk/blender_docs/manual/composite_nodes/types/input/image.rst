@@ -75,7 +75,7 @@ Z/depth Channel
 Saving/Retrieving Render Passes
 ===============================
 
-.. figure:: /images/Manual-Nodes-Input-Multilayer.jpg
+.. figure:: /images/Nodes-Input-Multilayer.jpg
 
 Blender can save the individual Render Layers and specific passes in a MultiLayer file format,
 which is an extension of the OpenEXR format. In this example,
@@ -115,7 +115,7 @@ The *Viewer* node always shows the size from its input, but when not linked
 Animations
 ==========
 
-.. figure:: /images/Manual-Compositing-Node-Image-anicontrols.jpg
+.. figure:: /images/Compositing-Node-Image-anicontrols.jpg
 
 To use image sequences or movies within your composition,
 press the face or little film strip button located to the right of the selector. As you click,
@@ -241,7 +241,7 @@ Notice the Time node; it tells the Mix node to use the top image until frame 30,
 at frame 31, changes the Mix factor to 1, which means to use the bottom set of images.
 
 
-.. figure:: /images/Manual-Compositing-CutSplice.jpg
+.. figure:: /images/Compositing-CutSplice.jpg
 
    Cut Splice using Nodes
 
@@ -269,7 +269,7 @@ and expand the Time frame for the splice. In the image below, beginning at frame
 we start fading **out** to cyan:
 
 
-.. figure:: /images/Manual-Compositing-fadeout.jpg
+.. figure:: /images/Compositing-fadeout.jpg
 
    Fading Out using Nodes
 
@@ -292,7 +292,7 @@ beginning at frame 20 with the transition completed by frame 30. Action continue
 scene as it fades out and is mixed with action that starts in the second scene.
 
 
-.. figure:: /images/Manual-Compositing-Splice-mix.jpg
+.. figure:: /images/Compositing-Splice-mix.jpg
 
    Mix Splice using Nodes
 
@@ -310,7 +310,7 @@ A Wink is just like blinking your eyes; one scene fades to black and the other f
 To use Blender to get this effect, build on the Cut and Fade splices discussed above to yield:
 
 
-.. figure:: /images/Manual-Compositing-Splice-wink.jpg
+.. figure:: /images/Compositing-Splice-wink.jpg
 
    A Wink using Nodes
 
