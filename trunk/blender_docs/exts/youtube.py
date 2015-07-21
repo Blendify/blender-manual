@@ -126,6 +126,6 @@ def setup(app):
     app.add_node(
             youtube,
             html=(visit_youtube_node, depart_youtube_node),
-            laytex=(nop_node, nop_node),
+            latex=(nop_node, nop_node),
             )
     app.add_directive("youtube", YouTube)
