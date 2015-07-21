@@ -31,7 +31,7 @@ You can create a new material for the object by
 The Shading context window then appears. This contains the following elements:
 
 
-.. figure:: /images/Doc_2.6_Materials_Creating.jpg
+.. figure:: /images/materials_creating.jpg
 
    Add new material
 
@@ -45,7 +45,7 @@ To add a new material, click "+" in the Active Material box.
 This action has a series of effects:
 
 
-.. figure:: /images/Doc_2.6_Materials_New.jpg
+.. figure:: /images/materials_new.jpg
 
    Materials Panel with New Entry
 
@@ -68,7 +68,7 @@ Material are as follows:
 **Active Material**
 
 
-.. figure:: /images/Doc_2.6_Materials_Available_Button_Icon.jpg
+.. figure:: /images/materials_available_button_icon.jpg
 
    Available Materials
    See Reusing Existing Materials below.
@@ -96,7 +96,7 @@ X
 
 **Nodes**
 
-.. figure:: /images/Doc_2.6_Materials_Nodes_Button_Icon.jpg
+.. figure:: /images/materials_nodes_button_icon.jpg
 
    If dark, use the Shader Nodes to generate the material.
 
@@ -104,7 +104,7 @@ Data
    Specifies whether the material is to be linked to the Object or to the Object Data.
 
 
-.. figure:: /images/Manual-2.5-Material-MatMenu-LinkObjData.jpg
+.. figure:: /images/Material-MatMenu-LinkObjData.jpg
 
    Link material to object or to object's data
 
@@ -139,22 +139,22 @@ Halos
    Material applied to halos around each object vertex.
 
 
-.. figure:: /images/Doc_2.6_Materials_Render_Surface.jpg
+.. figure:: /images/materials_render_surface.jpg
 
    Surface
 
 
-.. figure:: /images/Doc_2.6_Materials_Render_Wire.jpg
+.. figure:: /images/materials_render_wire.jpg
 
    Wire
 
 
-.. figure:: /images/Doc_2.6_Materials_Render_Volume.jpg
+.. figure:: /images/materials_render_volume.jpg
 
    Volume
 
 
-.. figure:: /images/Doc_2.6_Materials_Render_Halo.jpg
+.. figure:: /images/materials_render_halo.jpg
 
    Halo
 
@@ -177,7 +177,7 @@ There are several ways to do this using the Available Materials menu:
    Select an existing material.
 
 
-.. figure:: /images/Manual-2.5-Material-MatMenu-SearchList.jpg
+.. figure:: /images/Material-MatMenu-SearchList.jpg
 
    List of available materials
 

@@ -15,7 +15,7 @@ Text Boxes
    | Panel:    *Font* (*Editing* context)
 
 
-.. figure:: /images/2.5_Manual-Part-II-Text-Frame-UpperPanel-Area.jpg
+.. figure:: /images/text-frame-upperpanel-area.jpg
 
    Text frame.
 
@@ -55,7 +55,7 @@ the frame's *Width* must be greater than **0.0**.
    Technically the height is never actually **0.0** because the font itself always contributes height.
 
 
-.. figure:: /images/2.5_Manual-Part-II-Text-Frame-Default-Ex.jpg
+.. figure:: /images/text-frame-default-ex.jpg
    :width: 250px
 
    Frame width.
@@ -82,7 +82,7 @@ Any text in higher frames will be re-flowed downward into lower frames.
 Example: Text Flow
 ------------------
 
-.. figure:: /images/2.5_Manual-Part-II-Text-Frame-Working-Ex2.jpg
+.. figure:: /images/text-frame-working-ex2.jpg
    :width: 300px
 
    wrapping
@@ -101,7 +101,7 @@ This is because the text has reached the end of the last frame,
 which just happens to be the default/initial frame.
 
 
-.. figure:: /images/2.5_Manual-Part-II-Text-Frame-Working-Ex4.jpg
+.. figure:: /images/text-frame-working-ex4.jpg
    :width: 300px
 
    text flowing from box 1 to box 2
@@ -113,7 +113,7 @@ When we add another frame and set its width and height, the text will flow into 
 Example: Multiple columns
 -------------------------
 
-.. figure:: /images/2.5_Manual-Part-II-Text-Frame-Working-Ex5.jpg
+.. figure:: /images/text-frame-working-ex5.jpg
    :width: 400px
 
    Text 5.
@@ -142,7 +142,7 @@ You can assign indices either as you type, or after by selecting blocks of text 
 on the *Assign* button in the Materials panel.
 
 
-.. figure:: /images/2.5_Manual-Part-II-Text-MaterialIndex-Ex.jpg
+.. figure:: /images/text-materialindex-ex.jpg
    :width: 300px
 
    Red Green Blue.

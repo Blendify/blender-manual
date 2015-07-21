@@ -6,7 +6,7 @@ Shading
 In the separate *Shading* tab six more options are available:
 
 
-.. figure:: /images/Manual-2.5-Material-ShadingMenu.jpg
+.. figure:: /images/Material-ShadingMenu.jpg
 
    Shading menu, default settings
 

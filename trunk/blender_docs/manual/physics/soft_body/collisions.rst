@@ -92,7 +92,7 @@ that the fourth vertex also travels quite fast and because it is heavier it brea
 zone. The first three vertices collide OK.
 
 
-.. figure:: /images/Blender3D_SoftbodyCollidingEdges-2.49.jpg
+.. figure:: /images/softbodycollidingedges.jpg
 
    Image 3d: Also Edges and Faces can be used for the collision calculation.
 
@@ -106,7 +106,7 @@ the collision zones are not used.
 Good collisions
 ===============
 
-.. figure:: /images/Blender3D_SoftbodySolverParameters-2.49.jpg
+.. figure:: /images/softbodysolverparameters.jpg
 
    Image 4: Parameters for Soft Body calculation.
 

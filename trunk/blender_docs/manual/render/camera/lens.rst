@@ -9,7 +9,7 @@ Camera Lens
    | Context:  Object Data
    | Panel:    Lens
 
-.. figure:: /images/Manual-CameraPanel-2.57.png
+.. figure:: /images/CameraPanel.png
    :width: 270px
 
    Camera Lens panel.

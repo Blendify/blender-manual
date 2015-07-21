@@ -3,7 +3,7 @@
 Game Settings
 *************
 
-.. figure:: /images/Doc_2.6_Materials_Properties_Game_Settings.jpg
+.. figure:: /images/materials_properties_game_settings.jpg
 
    Game Settings Panel
 

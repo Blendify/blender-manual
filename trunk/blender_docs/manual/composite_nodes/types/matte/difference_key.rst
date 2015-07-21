@@ -3,7 +3,7 @@
 Difference Key Node
 *******************
 
-.. figure:: /images/2.5_Difference_node.jpg
+.. figure:: /images/difference_node.jpg
 
    Difference Key node
 

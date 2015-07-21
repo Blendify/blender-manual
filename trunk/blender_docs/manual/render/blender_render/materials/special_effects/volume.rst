@@ -105,22 +105,22 @@ the more easily it penetrates throughout the volume and to the shadow.
 
 .. list-table::
 
-   * - .. figure:: /images/Manual-volumerendering-scatter-Sc0.5.jpg
+   * - .. figure:: /images/volume-rendering-scatter-Sc0_5.jpg
           :width: 150px
 
           Scattering: 0.5
 
-     - .. figure:: /images/Manual-volumerendering-scatter-Sc1.0.jpg
+     - .. figure:: /images/volume-rendering-scatter-Sc1_0.jpg
           :width: 150px
 
           Scattering: 1.0
 
-     - .. figure:: /images/Manual-volumerendering-scatter-Sc2.0.jpg
+     - .. figure:: /images/volume-rendering-scatter-Sc2_0.jpg
           :width: 150px
 
           Scattering: 2.0
 
-     - .. figure:: /images/Manual-volumerendering-scatter-Sc5.0.jpg
+     - .. figure:: /images/volume-rendering-scatter-Sc5_0.jpg
           :width: 150px
 
           Scattering: 5.0
@@ -169,22 +169,22 @@ there is less available to be transmitted through.
 
 .. list-table::
 
-   * - .. figure:: /images/Manual-volumerendering-tr_y-sc0.5.jpg
+   * - .. figure:: /images/volume-rendering-tr_y-sc0_5.jpg
           :width: 150px
 
           Transmission color: Yellow, Scattering: 0.5
 
-     - .. figure:: /images/Manual-volumerendering-tr_y-sc1.0.jpg
+     - .. figure:: /images/volume-rendering-tr_y-sc1_0.jpg
           :width: 150px
 
           Transmission color: Yellow, Scattering: 1.0
 
-     - .. figure:: /images/Manual-volumerendering-tr_y-sc2.0.jpg
+     - .. figure:: /images/volume-rendering-tr_y-sc2_0.jpg
           :width: 150px
 
           Transmission color: Yellow, Scattering: 2.0
 
-     - .. figure:: /images/Manual-volumerendering-tr_y-sc5.0.jpg
+     - .. figure:: /images/volume-rendering-tr_y-sc5_0.jpg
           :width: 150px
 
           Transmission color: Yellow, Scattering: 5.0
@@ -208,22 +208,22 @@ Emission
 
 .. list-table::
 
-   * - .. figure:: /images/Manual-volumerendering-emission-0.25-sc0.5.jpg
+   * - .. figure:: /images/volume-rendering-emission-0_25-sc0_5.jpg
           :width: 150px
 
           Emission 0.25, Scattering: 0.5
 
-     - .. figure:: /images/Manual-volumerendering-emission-0.25-sc1.0.jpg
+     - .. figure:: /images/volume-rendering-emission-0_25-sc1_0.jpg
           :width: 150px
 
           Emission 0.25, Scattering: 1.0
 
-     - .. figure:: /images/Manual-volumerendering-emission-0.25-sc2.0.jpg
+     - .. figure:: /images/volume-rendering-emission-0_25-sc2_0.jpg
           :width: 150px
 
           Emission 0.25, Scattering: 2.0
 
-     - .. figure:: /images/Manual-volumerendering-emission-0.25-sc5.0.jpg
+     - .. figure:: /images/volume-rendering-emission-0_25-sc5_0.jpg
           :width: 150px
 
           Emission 0.25, Scattering: 5.0
@@ -264,22 +264,22 @@ Of course you can always break the rules too!
 
 .. list-table::
 
-   * - .. figure:: /images/Manual-volumerendering-reflection-sc0.5.jpg
+   * - .. figure:: /images/volume-rendering-reflection-sc0_5.jpg
           :width: 150px
 
           Reflection: Green, Scattering: 0.5
 
-     - .. figure:: /images/Manual-volumerendering-reflection-sc1.0.jpg
+     - .. figure:: /images/volume-rendering-reflection-sc1_0.jpg
           :width: 150px
 
           Reflection: Green, Scattering: 1.0
 
-     - .. figure:: /images/Manual-volumerendering-reflection-sc2.0.jpg
+     - .. figure:: /images/volume-rendering-reflection-sc2_0.jpg
           :width: 150px
 
           Reflection: Green, Scattering: 2.0
 
-     - .. figure:: /images/Manual-volumerendering-reflection-sc5.0.jpg
+     - .. figure:: /images/volume-rendering-reflection-sc5_0.jpg
           :width: 150px
 
           Reflection: Green, Scattering: 5.0
@@ -287,22 +287,22 @@ Of course you can always break the rules too!
 
 .. list-table::
 
-   * - .. figure:: /images/Manual-volumerendering-refl_g-tr_y-sc0.5.jpg
+   * - .. figure:: /images/volume-rendering-refl_g-tr_y-sc0_5.jpg
           :width: 150px
 
           Reflection: Green, Transmission: Yellow, Scattering: 0.5
 
-     - .. figure:: /images/Manual-volumerendering-refl_g-tr_y-sc1.0.jpg
+     - .. figure:: /images/volume-rendering-refl_g-tr_y-sc1_0.jpg
           :width: 150px
 
           Reflection: Green, Transmission: Yellow, Scattering: 1.0
 
-     - .. figure:: /images/Manual-volumerendering-refl_g-tr_y-sc2.0.jpg
+     - .. figure:: /images/volume-rendering-refl_g-tr_y-sc2_0.jpg
           :width: 150px
 
           Reflection: Green, Transmission: Yellow, Scattering: 2.0
 
-     - .. figure:: /images/Manual-volumerendering-refl_g-tr_y-sc5.0.jpg
+     - .. figure:: /images/volume-rendering-refl_g-tr_y-sc5_0.jpg
           :width: 150px
 
           Reflection: Green, Transmission: Yellow, Scattering: 5.0

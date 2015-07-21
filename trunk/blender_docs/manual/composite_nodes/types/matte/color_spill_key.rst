@@ -3,7 +3,7 @@
 Color Spill Node
 ****************
 
-.. figure:: /images/2.5_ColorSpill_node.jpg
+.. figure:: /images/colorspill_node.jpg
 
    Color Spill node
 

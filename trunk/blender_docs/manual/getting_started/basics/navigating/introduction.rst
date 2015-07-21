@@ -24,7 +24,7 @@ The header is shown at the bottom or top of the workspace, and can be hidden if 
 The header shows you a menu and the current mode, as explained below.
 
 
-.. figure:: /images/2.5_Manual-3D-Header.jpg
+.. figure:: /images/editor_3dview-header.jpg
    :width: 600px
 
    3D View header.
@@ -33,7 +33,7 @@ The header shows you a menu and the current mode, as explained below.
 View Menu
 ---------
 
-.. figure:: /images/2.5_Manual-3D-View-Menu.jpg
+.. figure:: /images/editor_3dview-view-menu.jpg
    :width: 300px
 
    The View menu.
@@ -145,7 +145,7 @@ it will change to the appropriate menu with editing tools.
 Mode List
 ---------
 
-.. figure:: /images/2.5_Manual-3D-Mode.jpg
+.. figure:: /images/editor_3dview-mode.jpg
 
    The Mode drop-down list.
 
@@ -186,7 +186,7 @@ Allows you to change the way 3D objects are displayed in the viewport.
 Pivot Point Selector
 --------------------
 
-.. figure:: /images/Manual-2.5-PivotSelection.jpg
+.. figure:: /images/PivotSelection.jpg
 
    Pivot point selector.
 

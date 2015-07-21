@@ -9,7 +9,7 @@
 Cache
 *****
 
-.. figure:: /images/Blender3D_ParticleSystem_CacheSettings-2.5.jpg
+.. figure:: /images/particlesystem_cachesettings.jpg
 
    Image 4: Cache panel for particles.
 

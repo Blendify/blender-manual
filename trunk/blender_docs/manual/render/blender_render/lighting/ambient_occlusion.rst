@@ -173,13 +173,13 @@ Attenuation
 
 .. list-table::
 
-   * - .. figure:: /images/Manual-AmbientOcclusion-Bias0.05.jpg
+   * - .. figure:: /images/AmbientOcclusion-Bias0-05.jpg
           :width: 200px
 
           24×24 UV Sphere with Bias: 0.05 (default).
           Note the facets on the sphere's surface even though it is set to smooth.
 
-     - .. figure:: /images/Manual-AmbientOcclusion-Bias0.15.jpg
+     - .. figure:: /images/AmbientOcclusion-Bias0-15.jpg
           :width: 200px
 
           Raising the Bias to 0.15 removes the faceted artifacts.

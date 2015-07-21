@@ -16,7 +16,7 @@ Let's first have a general overview of the various panels gathering the armature
 in *Properties* window, *Object data* context:
 
 
-.. figure:: /images/Man2.5RiggingEditingObjectDataPropertyWindow.jpg
+.. figure:: /images/RiggingEditingObjectDataPropertyWindow.jpg
    :width: 267px
 
    The Object data property in the Properties window.
@@ -25,7 +25,7 @@ in *Properties* window, *Object data* context:
 Skeleton panel (all modes)
 ==========================
 
-.. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtSkeletonPanel.jpg
+.. figure:: /images/RiggingEditingObjectDataPropertyCxtSkeletonPanel.jpg
    :width: 250px
 
    The Skeleton panel.
@@ -37,7 +37,7 @@ Skeleton panel (all modes)
 Display panel (all modes)
 =========================
 
-.. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtDisplayPanel.jpg
+.. figure:: /images/RiggingEditingObjectDataPropertyCxtDisplayPanel.jpg
    :width: 250px
 
    The Display panel.
@@ -51,7 +51,7 @@ Display panel (all modes)
 Bone groups panel (pose mode)
 =============================
 
-.. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtBonesGroupsPanel.jpg
+.. figure:: /images/RiggingEditingObjectDataPropertyCxtBonesGroupsPanel.jpg
    :width: 250px
 
    The Bone Groups panel.
@@ -63,7 +63,7 @@ Bone groups panel (pose mode)
 Pose Library panel (Pose mode)
 ==============================
 
-.. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtPoseLibraryPanel.jpg
+.. figure:: /images/RiggingEditingObjectDataPropertyCxtPoseLibraryPanel.jpg
    :width: 250px
 
    The Pose Library panel.
@@ -75,7 +75,7 @@ Pose Library panel (Pose mode)
 Ghost panel (all modes)
 =======================
 
-.. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtGhostPanel.jpg
+.. figure:: /images/RiggingEditingObjectDataPropertyCxtGhostPanel.jpg
    :width: 250px
 
    The Ghost panel.
@@ -87,7 +87,7 @@ Ghost panel (all modes)
 iTaSC parameters panel (all modes)
 ==================================
 
-.. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtiTaSCparametersPanel.jpg
+.. figure:: /images/RiggingEditingObjectDataPropertyCxtiTaSCparametersPanel.jpg
    :width: 250px
 
    The iTaSC parameters panel.
@@ -99,7 +99,7 @@ iTaSC parameters panel (all modes)
 Motion Paths panel (Pose mode)
 ==============================
 
-.. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtMotionPathsPanel.jpg
+.. figure:: /images/RiggingEditingObjectDataPropertyCxtMotionPathsPanel.jpg
    :width: 250px
 
    The Motion Paths panel.
@@ -111,7 +111,7 @@ Motion Paths panel (Pose mode)
 Custom Properties panel (all modes)
 ===================================
 
-.. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtCustomPropertiesPanel.jpg
+.. figure:: /images/RiggingEditingObjectDataPropertyCxtCustomPropertiesPanel.jpg
    :width: 250px
 
    The Custom Properties panel.
@@ -134,7 +134,7 @@ Let's first have a general grasp of the various panels gathering the bone settin
 in *Properties* window, *Bone* context:
 
 
-.. figure:: /images/Man2.5RiggingBonePrincipalsBonePropertyWindow.jpg
+.. figure:: /images/RiggingBonePrincipalsBonePropertyWindow.jpg
    :width: 250px
 
    The Bone context.
@@ -143,7 +143,7 @@ in *Properties* window, *Bone* context:
 Relations panel (edit mode)
 ===========================
 
-.. figure:: /images/Man2.5RiggingEditingBoneCxtRelationsPanel.jpg
+.. figure:: /images/RiggingEditingBoneCxtRelationsPanel.jpg
    :width: 250px
 
    The Relations panel.
@@ -155,7 +155,7 @@ Relations panel (edit mode)
 Display panel (object mode)
 ===========================
 
-.. figure:: /images/Man2.5RiggingEditingBoneCxtDisplayPanel.jpg
+.. figure:: /images/RiggingEditingBoneCxtDisplayPanel.jpg
    :width: 250px
 
    The Display panel.
@@ -167,7 +167,7 @@ Display panel (object mode)
 Deform panel (all modes)
 ========================
 
-.. figure:: /images/Man2.5RiggingEditingBoneCxtDeformPanel.jpg
+.. figure:: /images/RiggingEditingBoneCxtDeformPanel.jpg
    :width: 250px
 
    The Deform panel.
@@ -186,7 +186,7 @@ Deform panel (all modes)
 Custom Properties panel (all modes)
 ===================================
 
-.. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtCustomPropertiesPanel.jpg
+.. figure:: /images/RiggingEditingObjectDataPropertyCxtCustomPropertiesPanel.jpg
    :width: 250px
 
    The Custom Properties panel.
@@ -198,7 +198,7 @@ Custom Properties panel (all modes)
 Transform panel (edit and pose mode)
 ====================================
 
-.. figure:: /images/Man2.5RiggingEditingBoneCxtTransformPanel.jpg
+.. figure:: /images/RiggingEditingBoneCxtTransformPanel.jpg
    :width: 250px
 
    The Transform panel(edit mode).
@@ -209,7 +209,7 @@ Transform panel (edit and pose mode)
    When in pose mode you can only set location for the main bone, and you can now set rotation and scale.
 
 
-.. figure:: /images/Man2.5RiggingEditingBoneCxtTransformPPanel.jpg
+.. figure:: /images/RiggingEditingBoneCxtTransformPPanel.jpg
    :width: 250px
 
    The Transform panel(pose mode).
@@ -218,7 +218,7 @@ Transform panel (edit and pose mode)
 Transform Locks panel (pose mode)
 =================================
 
-.. figure:: /images/Man2.5RiggingEditingBoneCxtTranformLocksPanel.jpg
+.. figure:: /images/RiggingEditingBoneCxtTranformLocksPanel.jpg
    :width: 250px
 
    The Transform Locks panel.
@@ -230,7 +230,7 @@ Transform Locks panel (pose mode)
 Inverse Kinematics panel (pose mode)
 ====================================
 
-.. figure:: /images/Man2.5RiggingEditingBoneCxtInverseKinematicsPanel.jpg
+.. figure:: /images/RiggingEditingBoneCxtInverseKinematicsPanel.jpg
    :width: 250px
 
    The Inverse Kinematics panel.

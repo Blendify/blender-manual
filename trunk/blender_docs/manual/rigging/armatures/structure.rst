@@ -59,7 +59,7 @@ This is detailed in the :doc:`editing pages </rigging/armatures/editing/properti
 but let us have a quick look at this important feature.
 
 
-.. figure:: /images/Man2.5RiggingEditingBoneCxtRelationsPanel.jpg
+.. figure:: /images/RiggingEditingBoneCxtRelationsPanel.jpg
    :width: 250px
 
    The Armature Bones panel with two bones selected, and their Child of settings highlighted.

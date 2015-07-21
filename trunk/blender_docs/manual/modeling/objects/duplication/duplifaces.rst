@@ -23,7 +23,7 @@ One of the best ways to explain this is through an example illustration.
 Basic usage
 ===========
 
-.. figure:: /images/Manual-2.5-Dupliface-Example01-1Start.jpg
+.. figure:: /images/Dupliface-Example01-1Start.jpg
 
    A cube and a sphere
 
@@ -34,7 +34,7 @@ first :kbd:`RMB` select the sphere, then :kbd:`Shift-RMB` select the cube
 (order is very important here), and finally :kbd:`Ctrl-P` to parent.
 
 
-.. figure:: /images/Manual-2.5-Dupliface-Example01-2DuplifaceEnabled.jpg
+.. figure:: /images/Dupliface-Example01-2DuplifaceEnabled.jpg
 
    Duplication Faces applied to the cube
 
@@ -57,12 +57,12 @@ but neither is rendered.
 Scale
 =====
 
-.. figure:: /images/Manual-2.5-Dupliface-Example01-3ScaleEnabled.jpg
+.. figure:: /images/Dupliface-Example01-3ScaleEnabled.jpg
 
    Scale enabled
 
 
-.. figure:: /images/Manual-2.5-Dupliface-Example01-4ScaleChanged.jpg
+.. figure:: /images/Dupliface-Example01-4ScaleChanged.jpg
 
    Top face of cube scaled down
 

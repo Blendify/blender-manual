@@ -3,7 +3,7 @@
 Geometry
 ********
 
-.. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Geometry_UI.jpg
+.. figure:: /images/render-freestyle-Line_Style_Geometry_UI.jpg
    :width: 300px
 
    Line Style Geometry Overall UI
@@ -31,7 +31,7 @@ The *2D Offset* modifier adds some two-dimensional offsets to the stroke backbon
 geometry. It has two sets of independent options/effects:
 
 
-.. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Geometry_2D_Offset.jpg
+.. figure:: /images/render-freestyle-Line_Style_Geometry_2D_Offset.jpg
    :width: 300px
    :align: right
 
@@ -54,7 +54,7 @@ stroke backbone geometry. Scale is applied before rotation.
 
 The center (pivot point) of these 2D transformations can be:
 
-.. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Geometry_2D_Transform.jpg
+.. figure:: /images/render-freestyle-Line_Style_Geometry_2D_Transform.jpg
    :width: 300px
    :align: right
 
@@ -90,7 +90,7 @@ Rotation Angle
 Backbone Stretcher
 ------------------
 
-.. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Geometry_Backbone_Stretcher.jpg
+.. figure:: /images/render-freestyle-Line_Style_Geometry_Backbone_Stretcher.jpg
    :width: 300px
    :align: right
 
@@ -104,7 +104,7 @@ Backbone Length
 Bezier Curve
 ------------
 
-.. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Geometry_Bezier_Curve.jpg
+.. figure:: /images/render-freestyle-Line_Style_Geometry_Bezier_Curve.jpg
    :width: 300px
    :align: right
 
@@ -131,7 +131,7 @@ elliptical, or square contours. A blueprint here refers to those lines drawn at 
 of free-hand drawing to capture the silhouette of objects with a simple shape such as circles,
 ellipses and squares.
 
-.. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Geometry_Blueprint.jpg
+.. figure:: /images/render-freestyle-Line_Style_Geometry_Blueprint.jpg
    :width: 300px
    :align: right
 
@@ -163,7 +163,7 @@ Guiding Lines
 The *Guiding Lines* modifier replaces a stroke by a straight line connecting both of
 its ends.
 
-.. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Geometry_Guiding_Lines.jpg
+.. figure:: /images/render-freestyle-Line_Style_Geometry_Guiding_Lines.jpg
    :width: 300px
    :align: right
 
@@ -195,7 +195,7 @@ noise function to generate noisy displacements.
 This means that this modifier will give an identical result for two strokes with the same length and sampling
 interval.
 
-.. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Geometry_Perlin_Noise_1D.jpg
+.. figure:: /images/render-freestyle-Line_Style_Geometry_Perlin_Noise_1D.jpg
    :width: 300px
    :align: right
 
@@ -218,7 +218,7 @@ Angle
 Perlin Noise 2D
 ---------------
 
-.. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Geometry_Perlin_Noise_2D.jpg
+.. figure:: /images/render-freestyle-Line_Style_Geometry_Perlin_Noise_2D.jpg
    :width: 300px
    :align: right
 
@@ -231,7 +231,7 @@ Its settings are exactly the same as the *Perlin Noise 1D* modifier.
 Polygonization
 --------------
 
-.. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Geometry_Polygonization.jpg
+.. figure:: /images/render-freestyle-Line_Style_Geometry_Polygonization.jpg
    :width: 300px
    :align: right
 
@@ -251,7 +251,7 @@ Sampling
 The *Sampling* modifier changes the definition, precision of the stroke,
 for the following modifiers.
 
-.. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Geometry_Sampling.jpg
+.. figure:: /images/render-freestyle-Line_Style_Geometry_Sampling.jpg
    :width: 300px
    :align: right
 
@@ -266,7 +266,7 @@ Sinus Displacement
 
 The *Sinus Displacement* modifier adds a sinusoidal displacement to the stroke.
 
-.. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Geometry_Sinus_Displacement.jpg
+.. figure:: /images/render-freestyle-Line_Style_Geometry_Sinus_Displacement.jpg
    :width: 300px
    :align: right
 
@@ -294,7 +294,7 @@ Spatial Noise
 The *Spatial Noise* modifier adds some spatial noise to the stroke.  Spatial noise displacements are added in the normal
 direction (i.e., the direction perpendicular to the tangent line) evaluated at each stroke vertex.
 
-.. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Geometry_Spatial_Noise.jpg
+.. figure:: /images/render-freestyle-Line_Style_Geometry_Spatial_Noise.jpg
    :width: 300px
    :align: right
 
@@ -321,7 +321,7 @@ Tip Remover
 
 The *Tip Remover* modifier removes a piece of the stroke at its beginning and end.
 
-.. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Geometry_Tip_Remover.jpg
+.. figure:: /images/render-freestyle-Line_Style_Geometry_Tip_Remover.jpg
    :width: 300px
    :align: right
 

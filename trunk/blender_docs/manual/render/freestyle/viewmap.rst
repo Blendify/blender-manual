@@ -13,7 +13,7 @@ Face Smoothness
    When enabled, Face Smoothness will be taken into account for edges calculation.
 
 
-.. figure:: /images/Manual-2.6-Render-Freestyle-Parameter_Editor_Mode.jpg
+.. figure:: /images/render-freestyle-Parameter_Editor_Mode.jpg
    :width: 200px
 
    Parameter Editor Mode UI
@@ -32,7 +32,7 @@ Culling
 Advanced Options
 ================
 
-.. figure:: /images/Manual-2.6-Render-Freestyle-Advanced_Options.jpg
+.. figure:: /images/render-freestyle-Advanced_Options.jpg
    :width: 200px
 
    Advanced Options

@@ -282,7 +282,7 @@ which might be useful to preserve for camera effects such as bloom or glare.
    * - .. figure:: /images/Cycles_noise_noclamp.jpg
           :width: 180px
 
-     - .. figure:: /images/Cycles_noise_clamp_4.0.jpg
+     - .. figure:: /images/cycles_noise_clamp_4.jpg
           :width: 180px
 
 

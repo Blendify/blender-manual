@@ -321,12 +321,12 @@ you would get wavy patterns, see (*Wavy patterns*)).
 .. list-table::
    Wavy patterns.
 
-   * - .. figure:: /images/ManModifiersWeightVGroupGeometryEX1.0PF.jpg
+   * - .. figure:: /images/ModifiersWeightVGroupGeometryEX1-0PF.jpg
           :width: 300px
 
           Distance from edges.
 
-     - .. figure:: /images/ManModifiersWeightVGroupGeometryEX1.0PFWavyWeights.jpg
+     - .. figure:: /images/ModifiersWeightVGroupGeometryEX1-0PFWavyWeights.jpg
           :width: 300px
 
           Distance from vertices.
@@ -350,17 +350,17 @@ and play with the *Custom Curve* mapping to get a larger/narrower "valley"...
 .. list-table::
    *Curve Map* variations.
 
-   * - .. figure:: /images/ManModifiersWeightVGroupGeometryEX-5.0PF.jpg
+   * - .. figure:: /images/ModifiersWeightVGroupGeometryEX-5-0PF.jpg
           :width: 200px
 
           Concave-type mapping curve.
 
-     - .. figure:: /images/ManModifiersWeightVGroupGeometryEX1.0PF.jpg
+     - .. figure:: /images/ModifiersWeightVGroupGeometryEX1-0PF.jpg
           :width: 200px
 
           No mapping curve (linear).
 
-     - .. figure:: /images/ManModifiersWeightVGroupGeometryEX5.0PF.jpg
+     - .. figure:: /images/ModifiersWeightVGroupGeometryEX5-0PF.jpg
           :width: 200px
 
           Convex-type mapping curve.

@@ -3,7 +3,7 @@
 Color
 *****
 
-.. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Color.jpg
+.. figure:: /images/render-freestyle-Line_Style_Color.jpg
    :width: 300px
    :align: right
 
@@ -30,7 +30,7 @@ Influence
 Along Stroke
 ------------
 
-.. figure:: /images/Manual-2.6-Render-Freestyle-Color_Along_Stroke.jpg
+.. figure:: /images/render-freestyle-Color_Along_Stroke.jpg
    :width: 300px
    :align: right
 
@@ -48,7 +48,7 @@ Distance from Camera
 The *Distance from Camera* color modifier alters the base color with a new one from
 a given color ramp, using the distance to the active camera as the parameter.
 
-.. figure:: /images/Manual-2.6-Render-Freestyle-Color_Distance_From_Camera.jpg
+.. figure:: /images/render-freestyle-Color_Distance_From_Camera.jpg
    :width: 300px
    :align: right
 
@@ -71,7 +71,7 @@ Distance from Object
 The *Distance from Object* color modifier alters the base color with a new one from
 a given color ramp, using the distance to a given object as the parameter.
 
-.. figure:: /images/Manual-2.6-Render-Freestyle-Color_Distance_From_Object.jpg
+.. figure:: /images/render-freestyle-Color_Distance_From_Object.jpg
    :width: 300px
    :align: right
 
@@ -97,7 +97,7 @@ Material
 The *Material* color modifier alters the base color with a new one taken from the
 current material under the stroke.
 
-.. figure:: /images/Manual-2.6-Render-Freestyle-Color_Material.jpg
+.. figure:: /images/render-freestyle-Color_Material.jpg
    :width: 300px
    :align: right
 

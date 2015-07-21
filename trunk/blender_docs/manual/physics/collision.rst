@@ -30,7 +30,7 @@ clear the cache for all selected objects with :kbd:`Ctrl-B` --> *Free cache sele
 Options
 *******
 
-.. figure:: /images/Blender3D_2.58_CollisionPanel-2.49.jpg
+.. figure:: /images/collisionpanel.jpg
 
    Image 1: Collision panel in the Physics sub-context.
 

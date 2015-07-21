@@ -64,7 +64,7 @@ Lambert
    | Panel:    Shading/Material Context --> Shaders
 
 
-.. figure:: /images/Manual-2.5-Material-Shader-Lambert.jpg
+.. figure:: /images/Material-Shader-Lambert.jpg
    :width: 320px
 
    Lambert Shader
@@ -82,7 +82,7 @@ This shader has only the default option, determining how much of available light
 Default is 0.8, to allow other objects to be brighter.
 
 
-.. figure:: /images/Manual-2.5-Material-Shader-Lambert-Settings.jpg
+.. figure:: /images/Material-Shader-Lambert-Settings.jpg
    :width: 220px
 
    The Lambert diffuse shader settings.
@@ -98,7 +98,7 @@ Oren-Nayar
    | Panel:    Shading/Material Context --> Shaders
 
 
-.. figure:: /images/Manual-2.5-Material-Shader-Oren-Nayar.jpg
+.. figure:: /images/Material-Shader-Oren-Nayar.jpg
    :width: 320px
 
    Oren-Nayar Shader
@@ -119,7 +119,7 @@ Roughness
    The roughness of the surface, and hence, the amount of diffuse scattering.
 
 
-.. figure:: /images/Manual-2.5-Material-Shader-Oren-Nayar-Settings.jpg
+.. figure:: /images/Material-Shader-Oren-Nayar-Settings.jpg
    :width: 200px
 
    The Oren-Nayar diffuse shader settings.
@@ -137,13 +137,13 @@ Toon
    | Panel:    Shading/Material Context --> Shaders
 
 
-.. figure:: /images/Manual-2.5-Material-Shader-Toon.jpg
+.. figure:: /images/Material-Shader-Toon.jpg
    :width: 320px
 
    Toon Shader, Different Spec
 
 
-.. figure:: /images/Manual-2.5-Material-Shader-Toon-vary.jpg
+.. figure:: /images/Material-Shader-Toon-vary.jpg
    :width: 320px
 
    Toon Shader Variations
@@ -163,7 +163,7 @@ Smooth
    The softness of the boundary between lit and shadowed areas
 
 
-.. figure:: /images/Manual-2.5-Material-Shader-Toon-Settings.jpg
+.. figure:: /images/Material-Shader-Toon-Settings.jpg
    :width: 200px
 
    The Toon diffuse shader settings.
@@ -179,7 +179,7 @@ Minnaert
    | Panel:    Shading/Material Context --> Shaders
 
 
-.. figure:: /images/Manual-2.5-Material-Shader-Minnaert.jpg
+.. figure:: /images/Material-Shader-Minnaert.jpg
    :width: 320px
 
    Minnaert Shader
@@ -202,7 +202,7 @@ Dark
    The darkness of the 'lit' areas (higher) or the darkness of the edges pointing away from the light source (lower).
 
 
-.. figure:: /images/Manual-2.5-Material-Shader-Minnaert-Settings.jpg
+.. figure:: /images/Material-Shader-Minnaert-Settings.jpg
    :width: 200px
 
    The Minnaert diffuse shader settings.
@@ -218,13 +218,13 @@ Fresnel
    | Panel:    Shading/Material Context --> Shaders
 
 
-.. figure:: /images/Manual-2.5-Material-Shader-Fresnel-vary.jpg
+.. figure:: /images/Material-Shader-Fresnel-vary.jpg
    :width: 320px
 
    Various settings for the Fresnel shader, Cook-Torr Specular shader kept at Intensity 0.5, Hardness: 50
 
 
-.. figure:: /images/Manual-2.5-Material-Shader-Fresnel.jpg
+.. figure:: /images/Material-Shader-Fresnel.jpg
    :width: 320px
 
    Fresnel Shader, Different Spec
@@ -247,7 +247,7 @@ Factor
    Blending factor of the Fresnel factor to blend in, 5.0 is max.
 
 
-.. figure:: /images/Manual-2.5-Material-Shader-Fresnel-Settings.jpg
+.. figure:: /images/Material-Shader-Fresnel-Settings.jpg
    :width: 200px
 
    The Fresnel diffuse shader settings.

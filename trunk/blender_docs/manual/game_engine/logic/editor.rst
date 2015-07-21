@@ -15,7 +15,7 @@ panel content in which the major components have been labeled.
 We will look at each one individually.
 
 
-.. figure:: /images/Manual-2.5-Logic_Panel_Expanded_menus.jpg
+.. figure:: /images/Logic_Panel_Expanded_menus.jpg
    :width: 610px
 
    The different parts of the Logic Panel.

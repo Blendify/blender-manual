@@ -3,7 +3,7 @@
 Options
 *******
 
-.. figure:: /images/Doc_2.6_Materials_Properties_Options.jpg
+.. figure:: /images/materials_properties_options.jpg
 
    Material Options Panel
 

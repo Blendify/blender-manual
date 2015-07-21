@@ -68,7 +68,7 @@ Please note two things:
 Orientations
 ============
 
-.. figure:: /images/Manual-3D_interaction-Transform_Control-Transform_Orientations-01.Global.jpg
+.. figure:: /images/3D_interaction-Transform_Control-Transform_Orientations-01-Global.jpg
 
    Global.
 
@@ -87,7 +87,7 @@ when you have an object in which the origin is not located at the exact center o
 and doesn't match the Global coordinates.
 
 
-.. figure:: /images/Manual-3D_interaction-Transform_Control-Transform_Orientations-02.Local.jpg
+.. figure:: /images/3D_interaction-Transform_Control-Transform_Orientations-02-Local.jpg
 
    Local.
 
@@ -106,7 +106,7 @@ This orientation has an effect on many parts of the interface,
 so it is important to understand the distinction.
 
 
-.. figure:: /images/Manual-3D_interaction-Transform_Control-Transform_Orientations-03.Normal.jpg
+.. figure:: /images/3D_interaction-Transform_Control-Transform_Orientations-03-Normal.jpg
 
    Normal.
 
@@ -134,7 +134,7 @@ To make this even more useful, select a nearby vertex and press :kbd:`Shift-R` t
 the same movement---except along that second vertex's normal instead.
 
 
-.. figure:: /images/Manual-3D_interaction-Transform_Control-Transform_Orientations-04.Gimbal.jpg
+.. figure:: /images/3D_interaction-Transform_Control-Transform_Orientations-04-Gimbal.jpg
 
    Gimbal.
 
@@ -161,7 +161,7 @@ Quaternion
    the Manipulator behaves the same as in *Local* mode.
 
 
-.. figure:: /images/Manual-3D_interaction-Transform_Control-Transform_Orientations-05.View.jpg
+.. figure:: /images/3D_interaction-Transform_Control-Transform_Orientations-05-View.jpg
 
    View.
 

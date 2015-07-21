@@ -25,7 +25,7 @@ General Web-based Help Options
    and have a connection to the Internet.
 
 
-.. figure:: /images/Manual-Vitals-Help_Menu_2.61.jpg
+.. figure:: /images/Vitals-Help_Menu.jpg
 
    Help menu
 
@@ -107,7 +107,7 @@ OpenGL
    version, vendor and a list with your card capabilities or OpenGL software capabilities.
 
 
-.. figure:: /images/Manual-Vitals-Help-Info-Window-System.Info.jpg
+.. figure:: /images/Vitals-Help-Info-Window-System_Info.jpg
 
    Info Window - Info.txt
 
@@ -159,7 +159,7 @@ There are some Internet Based Help options that are also present in the Blender
 They are presented as the same links you will find at the *Help* Menu.
 
 
-.. figure:: /images/(Doc_26x_Manual_Vitals_Help)_(Splash_Screen_2.66)_(GBV266FN).jpg
+.. figure:: /images/ui_splash_screen_only.jpg
 
    Blender Splash Screen, Blender Version 2.66
 

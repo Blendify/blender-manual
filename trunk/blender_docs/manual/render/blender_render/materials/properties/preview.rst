@@ -50,32 +50,32 @@ Examples
 
 .. list-table::
 
-   * - .. figure:: /images/Manual-2.5-Material-MatMenu-Preview-Flat.jpg
+   * - .. figure:: /images/Material-MatMenu-Preview-Flat.jpg
           :width: 200px
 
           Plane preview.
 
-     - .. figure:: /images/Manual-2.5-Material-MatMenu-Preview-Sphere.jpg
+     - .. figure:: /images/Material-MatMenu-Preview-Sphere.jpg
           :width: 200px
 
           Sphere preview.
 
-     - .. figure:: /images/Manual-2.5-Material-MatMenu-Preview-Cube.jpg
+     - .. figure:: /images/Material-MatMenu-Preview-Cube.jpg
           :width: 200px
 
           Cube preview.
 
-   * - .. figure:: /images/Manual-2.5-Material-MatMenu-Preview-Monkey.jpg
+   * - .. figure:: /images/Material-MatMenu-Preview-Monkey.jpg
           :width: 200px
 
           Monkey preview.
 
-     - .. figure:: /images/Manual-2.5-Material-MatMenu-Preview-Strands.jpg
+     - .. figure:: /images/Material-MatMenu-Preview-Strands.jpg
           :width: 200px
 
           Hair Strands preview.
 
-     - .. figure:: /images/Manual-2.5-Material-MatMenu-Preview-SphereSky.jpg
+     - .. figure:: /images/Material-MatMenu-Preview-SphereSky.jpg
           :width: 200px
 
           Sky Sphere preview.

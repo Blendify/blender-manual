@@ -22,7 +22,7 @@ making it quite useful for creators of game content.
 Options
 =======
 
-.. figure:: /images/Reference-Panels-Modifier-EdgeSplit-2.5.jpg
+.. figure:: /images/Reference-Panels-Modifier-EdgeSplit.jpg
 
    Edge Split modifier.
 

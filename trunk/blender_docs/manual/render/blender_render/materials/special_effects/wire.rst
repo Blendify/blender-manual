@@ -3,7 +3,7 @@
 Wire Render
 ***********
 
-.. figure:: /images/Doc_2.6_Materials_Render_Wire0.jpg
+.. figure:: /images/materials_render_wire0.jpg
    :width: 320px
 
    Wire Render
@@ -16,7 +16,7 @@ alpha and other relevant properties of the lines are selected with the same cont
 provided by the Surface rendered image.
 
 
-.. figure:: /images/Doc_2.6_Materials_Demo_Wire.jpg
+.. figure:: /images/materials_demo_wire.jpg
    :width: 320px
 
    Wire Render

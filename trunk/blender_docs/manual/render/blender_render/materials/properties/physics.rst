@@ -11,7 +11,7 @@
 Game Physics
 ************
 
-.. figure:: /images/2.6-Materials-Properties-Game-Physics-Settings.jpg
+.. figure:: /images/materials-properties-game-physics-settings.jpg
 
    Panel Physics in Material context
 

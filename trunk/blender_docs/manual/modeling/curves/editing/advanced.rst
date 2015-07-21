@@ -49,7 +49,7 @@ to make it control the size of the "curved" object...).
 Interface
 ---------
 
-.. figure:: /images/2.5_Manual-Part-II-curvesDeform_parentMenu.jpg
+.. figure:: /images/curvesdeform_parentmenu.jpg
 
    Make Parent menu.
 
@@ -60,7 +60,7 @@ you will be presented with a menu (*Make Parent* *menu*).
 By selecting *Curve Deform*, you enable the curve deform function on the mesh object.
 
 
-.. figure:: /images/2.5_Manual-Part-II-curvesDeform_animPanel.jpg
+.. figure:: /images/curvesdeform_animpanel.jpg
 
    Anim settings panel.
 
@@ -72,7 +72,7 @@ This can be changed by selecting one of the *Track X*,
 (*Anim settings* *panel*), in *Object* context.
 
 
-.. figure:: /images/2.5_Manual-Part-II-curvesDeform_curveAndSurfacePanel.jpg
+.. figure:: /images/curvesdeform_curveandsurfacepanel.jpg
 
    Curve and Surface panel.
 
@@ -94,7 +94,7 @@ Example
 Let's make a simple example:
 
 
-.. figure:: /images/2.5_Manual-Part-II-curvesDeform_exampleAddMonkey.jpg
+.. figure:: /images/curvesdeform_exampleaddmonkey.jpg
 
    Add a Monkey!
 
@@ -104,7 +104,7 @@ Let's make a simple example:
 - Press :kbd:`Tab` to exit *Edit* mode.
 
 
-.. figure:: /images/2.5_Manual-Part-II-curvesDeform_exampleAddCurve.jpg
+.. figure:: /images/curvesdeform_exampleaddcurve.jpg
 
    Add a Curve.
 
@@ -112,7 +112,7 @@ Let's make a simple example:
 - Now add a curve (:menuselection:`Add --> Curve --> Bezier Curve`, *Add a Curve*).
 
 
-.. figure:: /images/2.5_Manual-Part-II-curvesDeform_exampleEditCurve.jpg
+.. figure:: /images/curvesdeform_exampleeditcurve.jpg
 
    Edit Curve.
 
@@ -121,7 +121,7 @@ Let's make a simple example:
   then exit *Edit* mode (:kbd:`Tab`).
 
 
-.. figure:: /images/2.5_Manual-Part-II-curvesDeform_exampleMonkeyOnCurve1.jpg
+.. figure:: /images/curvesdeform_examplemonkeyoncurve1.jpg
 
    Monkey on a Curve.
 
@@ -159,7 +159,7 @@ Let's make a simple example:
    Sometimes this is what you want to achieve, so you'll need to experiment and try it out!
 
 
-.. figure:: /images/2.5_Manual-Part-II-curvesDeform_exampleMonkeyOnCurve2.jpg
+.. figure:: /images/curvesdeform_examplemonkeyoncurve2.jpg
    :width: 650px
 
    Monkey deformations.

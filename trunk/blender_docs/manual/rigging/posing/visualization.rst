@@ -143,7 +143,7 @@ without having to play it back... Well,
 Blender features something very similar for armatures in *Pose* mode: the "ghosts".
 
 
-.. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtGhostPanel.jpg
+.. figure:: /images/RiggingEditingObjectDataPropertyCxtGhostPanel.jpg
    :width: 250px
 
    The Ghost panel showing the different options associated with different modes.
@@ -246,7 +246,7 @@ and they are also active during animation playback (:kbd:`Alt-A`,
 only useful when the *Around Current Frame* option is enabled).
 
 
-.. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtMotionPathsPanel.jpg
+.. figure:: /images/RiggingEditingObjectDataPropertyCxtMotionPathsPanel.jpg
    :width: 250px
 
    The Motion Paths Panel showing options for the different modes

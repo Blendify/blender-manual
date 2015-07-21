@@ -12,7 +12,7 @@ most of them only enable the default *Object* mode (like cameras, lamps, etc.).
 Each mode is designed to edit an aspect of the selected object. See the *Blender's Modes* table below for details.
 
 
-.. figure:: /images/2.6_ModeSelect.jpg
+.. figure:: /images/ModeSelect.jpg
 
    Mode selection example (mesh object).
 
@@ -45,38 +45,38 @@ Modes might affect many things in Blender:
      - Name
      - Shortcut
      - Details
-   * - .. figure:: /images/2.6_IconObjectMode.jpg
+   * - .. figure:: /images/IconObjectMode.jpg
      - *Object* mode
      - *None* :sup:`1`
      - The default mode, available for all object types,
        as it is dedicated to *Object* datablock editing (i.e. position/rotation/size).
-   * - .. figure:: /images/2.6_IconEditMode.jpg
+   * - .. figure:: /images/IconEditMode.jpg
      - *Edit* mode
      - :kbd:`Tab`:sup:`1`
      - A mode available for all renderable object types,
        as it is dedicated to their "shape" *ObData* datablock editing
        (i.e. vertices/edges/faces for meshes, control points for curves/surfaces, etc.)
-   * - .. figure:: /images/2.6_IconSculptMode.jpg
+   * - .. figure:: /images/IconSculptMode.jpg
      - *Sculpt* mode
      - *None* :sup:`1`
      - A mesh-only mode, that enables Blender's mesh 3D-sculpting tool.
-   * - .. figure:: /images/2.6_IconVertexPaint.jpg
+   * - .. figure:: /images/IconVertexPaint.jpg
      - *Vertex Paint* mode
      - *None* :sup:`1`
      - A mesh-only mode, that allows you to set your mesh's vertices colors (i.e. to "paint" them).
-   * - .. figure:: /images/2.6_IconTexturePaint.jpg
+   * - .. figure:: /images/IconTexturePaint.jpg
      - *Texture Paint* mode
      - *None* :sup:`1`
      - A mesh-only mode, that allows you to paint your mesh's texture directly on the model, in the 3D views.
-   * - .. figure:: /images/2.6_IconWeightPaint.jpg
+   * - .. figure:: /images/IconWeightPaint.jpg
      - *Weight Paint* mode
      - :kbd:`Ctrl-Tab`:sup:`2`
      - A mesh-only mode, dedicated to vertex group weighting.
-   * - .. figure:: /images/2.6_IconParticleMode.jpg
+   * - .. figure:: /images/IconParticleMode.jpg
      - *Particle* mode
      - *None* :sup:`1`
      - A mesh-only mode, dedicated to particle systems, useful with editable systems (hair).
-   * - .. figure:: /images/2.6_IconPoseMode.jpg
+   * - .. figure:: /images/IconPoseMode.jpg
      - *Pose* mode
      - :kbd:`Ctrl-Tab`:sup:`2`
      - An armature-only mode, dedicated to armature posing.

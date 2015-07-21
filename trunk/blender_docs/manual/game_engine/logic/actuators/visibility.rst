@@ -6,7 +6,7 @@ Visibility Actuator
 The Visibility actuator allows the user to change the visibility of objects during runtime.
 
 
-.. figure:: /images/2.5_Game_Engine_Actuator_Visibility.jpg
+.. figure:: /images/bge_actuator_visibility.jpg
    :width: 271px
 
    Visibility actuator
