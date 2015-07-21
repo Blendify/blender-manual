@@ -100,12 +100,12 @@ when the selection status of bones' ends is inverted, a new set of bones is sele
 .. list-table::
    Inverse selection
 
-   * - .. figure:: /images/ManRiggingBoneSelectExEditModeTwoBones.jpg
+   * - .. figure:: /images/RiggingBoneSelectExEditModeTwoBones.jpg
           :width: 300px
 
           Two bones selected.
 
-     - .. figure:: /images/ManRiggingBoneSelectExEditModeThreeBoneEnds.jpg
+     - .. figure:: /images/RiggingBoneSelectExEditModeThreeBoneEnds.jpg
           :width: 300px
 
           The result of the inverse selection :kbd:`Ctrl-I` the bones ends selection has been inverted,
@@ -145,12 +145,12 @@ bone belongs to by using the *linked selection* tool, :kbd:`L`.
 .. list-table::
    Linked bones selection
 
-   * - .. figure:: /images/ManRiggingBoneSelectExEditModeWholeBone.jpg
+   * - .. figure:: /images/RiggingBoneSelectExEditModeWholeBone.jpg
           :width: 300px
 
           A single selected bone.
 
-     - .. figure:: /images/ManRiggingBoneSelectExEditModeWholeChain.jpg
+     - .. figure:: /images/RiggingBoneSelectExEditModeWholeChain.jpg
           :width: 300px
 
           Its whole chain selected with [L].
@@ -178,12 +178,12 @@ To understand this, look at *Bone deselection in a selected chain*.
 .. list-table::
    Bone deselection in a selected chain
 
-   * - .. figure:: /images/ManRiggingBoneSelectExEditModeWholeChain.jpg
+   * - .. figure:: /images/RiggingBoneSelectExEditModeWholeChain.jpg
           :width: 300px
 
           A selected chain.
 
-     - .. figure:: /images/ManRiggingBoneSelectExEditModeTwoBones.jpg
+     - .. figure:: /images/RiggingBoneSelectExEditModeTwoBones.jpg
           :width: 300px
 
 After :kbd:`Shift-RMB` -clicking ``Bone.003``:

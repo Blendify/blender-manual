@@ -78,17 +78,17 @@ whatever convert algorithm you use (except for the* *Template* conversion method
 
 .. list-table::
 
-   * - .. figure:: /images/ManRiggingSketchingDrawingPolyStrokeEx1.jpg
+   * - .. figure:: /images/RiggingSketchingDrawingPolyStrokeEx1.jpg
           :width: 200px
 
           The first segment has been started (:kbd:`LMB` click) and the mouse moved to its end point.
 
-     - .. figure:: /images/ManRiggingSketchingDrawingPolyStrokeEx2.jpg
+     - .. figure:: /images/RiggingSketchingDrawingPolyStrokeEx2.jpg
           :width: 200px
 
           The first segment has been finalized by a second :kbd:`LMB` click, which also started a new segment...
 
-     - .. figure:: /images/ManRiggingSketchingDrawingPolyStrokeEx3.jpg
+     - .. figure:: /images/RiggingSketchingDrawingPolyStrokeEx3.jpg
           :width: 200px
 
           Repeating these steps, we now have a four-segment polygonal stroke.
@@ -113,22 +113,22 @@ raise this value a bit, and if you find them too jagged, lower it.
 .. list-table::
    Drawing free segments example.
 
-   * - .. figure:: /images/ManRiggingSketchingDrawingFreeStrokeEx1.jpg
+   * - .. figure:: /images/RiggingSketchingDrawingFreeStrokeEx1.jpg
           :width: 300px
 
           While drawing a first free segment (:kbd:`LMB` click and drag).
 
-     - .. figure:: /images/ManRiggingSketchingDrawingFreeStrokeEx2.jpg
+     - .. figure:: /images/RiggingSketchingDrawingFreeStrokeEx2.jpg
           :width: 300px
 
           The first free segment finalized (releasing :kbd:`LMB`).
 
-   * - .. figure:: /images/ManRiggingSketchingDrawingFreeStrokeEx3.jpg
+   * - .. figure:: /images/RiggingSketchingDrawingFreeStrokeEx3.jpg
           :width: 300px
 
           If you now move the mouse without pressing :kbd:`LMB` again, you'll create a straight segment...
 
-     - .. figure:: /images/ManRiggingSketchingDrawingFreeStrokeEx4.jpg
+     - .. figure:: /images/RiggingSketchingDrawingFreeStrokeEx4.jpg
           :width: 300px
 
           But if you immediately click again and drag :kbd:`LMB` you'll instead start a new free segment.
@@ -212,15 +212,15 @@ something that the gesture system would never recognize!
 
 .. list-table::
 
-   * - .. figure:: /images/ManRiggingSketchingCancelingGestureEx1.jpg
+   * - .. figure:: /images/RiggingSketchingCancelingGestureEx1.jpg
 
           Damn! I didn't want to cut this stroke here!
 
-     - .. figure:: /images/ManRiggingSketchingCancelingGestureEx2.jpg
+     - .. figure:: /images/RiggingSketchingCancelingGestureEx2.jpg
 
           Let's doodle a bit...
 
-     - .. figure:: /images/ManRiggingSketchingCancelingGestureEx3.jpg
+     - .. figure:: /images/RiggingSketchingCancelingGestureEx3.jpg
 
           Phew! That was close, but the stroke is still in one piece.
 
@@ -240,11 +240,11 @@ To* **cut** a segment (i.e. add a new black dot inside it, making two segments o
 
 .. list-table::
 
-   * - .. figure:: /images/ManRiggingSketchingCutGestureEx1.jpg
+   * - .. figure:: /images/RiggingSketchingCutGestureEx1.jpg
 
           Gesture.
 
-     - .. figure:: /images/ManRiggingSketchingCutGestureEx2.jpg
+     - .. figure:: /images/RiggingSketchingCutGestureEx2.jpg
 
           Result.
 
@@ -256,11 +256,11 @@ To* **delete** a stroke, draw a "V" crossing the stroke to delete twice.
 
 .. list-table::
 
-   * - .. figure:: /images/ManRiggingSketchingDeleteGestureEx1.jpg
+   * - .. figure:: /images/RiggingSketchingDeleteGestureEx1.jpg
 
           Gesture.
 
-     - .. figure:: /images/ManRiggingSketchingDeleteGestureEx2.jpg
+     - .. figure:: /images/RiggingSketchingDeleteGestureEx2.jpg
 
           Result.
 
@@ -273,11 +273,11 @@ draw a "C" crossing twice the stroke to reverse.
 
 .. list-table::
 
-   * - .. figure:: /images/ManRiggingSketchingReverseGestureEx1.jpg
+   * - .. figure:: /images/RiggingSketchingReverseGestureEx1.jpg
 
           Gesture.
 
-     - .. figure:: /images/ManRiggingSketchingReverseGestureEx2.jpg
+     - .. figure:: /images/RiggingSketchingReverseGestureEx2.jpg
 
           Result.
 

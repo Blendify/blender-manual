@@ -31,7 +31,7 @@ Rendering an image using ''Full Render'' - Blender Internal
    | Hotkey:   :kbd:`F12`
 
 
-.. figure:: /images/Vitals-Starting-Header-Render-Menu.jpg
+.. figure:: /images/basics-starting-header-render-menu.jpg
    :align: right
 
    Header of the Info Window
@@ -63,9 +63,9 @@ Rendering an image using ''OpenGL Render''
 To start an *OpenGL render* you can use any of the following options:
 
 
-.. figure:: /images/Vitals-Starting-Small-OpenGL-Render-buttons.jpg
+.. figure:: /images/basics-starting-small-opengl-render-buttons.jpg
 
-.. figure:: /images/Vitals-Starting-Small-Search-Render.jpg
+.. figure:: /images/basics-starting-small-search-render.jpg
    :align: right
 
    Search functionality
@@ -185,7 +185,7 @@ Rendering an animation using ''OpenGL Render''
 To Render an animation using *OpenGL Render*, you can use any of the following options:
 
 
-.. figure:: /images/Vitals-Starting-Small-OpenGL-Render-buttons.jpg
+.. figure:: /images/basics-starting-small-opengl-render-buttons.jpg
 
 - Click on the small button showing a *slate*
   (together with a small image showing a *camera*) in the header of the 3D View
@@ -205,7 +205,7 @@ Showing Only Rendered Objects
    | Hotkey:   Undefined - You can add one for your :doc:`Keymap </preferences/input>`
 
 
-.. figure:: /images/Vitals-Quick-Render-Display-Only-Render.jpg
+.. figure:: /images/basics-quick-render-display-only-render.jpg
    :align: right
 
    Transform Panel - Display Tab.

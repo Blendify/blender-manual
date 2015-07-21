@@ -69,12 +69,12 @@ so you can place them to your liking. See (*Extrusion example*).
 .. list-table::
    Extrusion example
 
-   * - .. figure:: /images/ManRiggingBoneSelectExEditModeThreeBoneEnds.jpg
+   * - .. figure:: /images/RiggingBoneSelectExEditModeThreeBoneEnds.jpg
           :width: 300px
 
           An armature with three selected tips.
 
-     - .. figure:: /images/ManRiggingBoneExtrudeExEditMode.jpg
+     - .. figure:: /images/RiggingBoneExtrudeExEditMode.jpg
           :width: 300px
 
           The three extruded bones.
@@ -90,12 +90,12 @@ extrusion along a global or local axis.
 .. list-table::
    Mirror extrusion example
 
-   * - .. figure:: /images/ManRiggingBoneMirrorExtrudeExEditMode1.jpg
+   * - .. figure:: /images/RiggingBoneMirrorExtrudeExEditMode1.jpg
           :width: 200px
 
           A single selected bone's tip.
 
-     - .. figure:: /images/ManRiggingBoneMirrorExtrudeExEditMode2.jpg
+     - .. figure:: /images/RiggingBoneMirrorExtrudeExEditMode2.jpg
           :width: 200px
 
           The two mirror-extruded bones.
@@ -147,7 +147,7 @@ About the new bone's tip:
 The position of the root and the parenting of the new bone depends on the active element:
 
 
-.. figure:: /images/ManRiggingMouseClickBone.jpg
+.. figure:: /images/RiggingMouseClickBone.jpg
    :width: 300px
 
    Ctrl-clicking when the active element is a bone
@@ -160,7 +160,7 @@ If the active element is a **bone**
   (check the outliner in *Ctrl-clicking when the active element is a bone*).
 
 
-.. figure:: /images/ManRiggingMouseClickTail.jpg
+.. figure:: /images/RiggingMouseClickTail.jpg
    :width: 300px
 
    Ctrl-clicking when the active element is a tip
@@ -173,7 +173,7 @@ If the active element is a **tip** :
   (check the outliner in *Ctrl-clicking when the active element is a tip*).
 
 
-.. figure:: /images/ManRiggingMouseClickHead.jpg
+.. figure:: /images/RiggingMouseClickHead.jpg
    :width: 300px
 
    Ctrl-clicking when the active element is a disconnected root
@@ -188,7 +188,7 @@ If the active element is a **disconnected root** :
 And hence the new bone will **not** be connected to any bone.
 
 
-.. figure:: /images/ManRiggingMouseClickHeadConnected.jpg
+.. figure:: /images/RiggingMouseClickHeadConnected.jpg
    :width: 300px
 
    Ctrl-clicking when the active element is a connected root
@@ -232,12 +232,12 @@ If you have one root and one tip selected, the new bone:
 .. list-table::
    Fill between a tip and a root
 
-   * - .. figure:: /images/ManRiggingFillTailHead.jpg
+   * - .. figure:: /images/RiggingFillTailHead.jpg
           :width: 300px
 
           Active tip on the left
 
-     - .. figure:: /images/ManRiggingFillTailHead2.jpg
+     - .. figure:: /images/RiggingFillTailHead2.jpg
           :width: 300px
 
           Active tip on the right
@@ -253,12 +253,12 @@ If you have two tips selected, the new bone:
 .. list-table::
    Fill between tips
 
-   * - .. figure:: /images/ManRiggingFillTailTailLeft.jpg
+   * - .. figure:: /images/RiggingFillTailTailLeft.jpg
           :width: 300px
 
           3D cursor on the left
 
-     - .. figure:: /images/ManRiggingFillTailTailRight.jpg
+     - .. figure:: /images/RiggingFillTailTailRight.jpg
           :width: 300px
 
           3D cursor on the right
@@ -280,12 +280,12 @@ new bone's root moves to the tip of the parent bone.
 .. list-table::
    Fill between roots
 
-   * - .. figure:: /images/ManRiggingFillHeadHead.jpg
+   * - .. figure:: /images/RiggingFillHeadHead.jpg
           :width: 300px
 
           Before UI update (3D cursor on the left)
 
-     - .. figure:: /images/ManRiggingFillHeadHeadCorrect.jpg
+     - .. figure:: /images/RiggingFillHeadHeadCorrect.jpg
           :width: 300px
 
           After UI update, correct visualization
@@ -298,12 +298,12 @@ end to the 3D cursor position, and it won't parent it to any bone in the armatur
 .. list-table::
    Fill with only one bone end selected
 
-   * - .. figure:: /images/ManRiggingFillTail.jpg
+   * - .. figure:: /images/RiggingFillTail.jpg
           :width: 300px
 
           Fill with only one tip selected
 
-     - .. figure:: /images/ManRiggingFillHead.jpg
+     - .. figure:: /images/RiggingFillHead.jpg
           :width: 300px
 
           Fill with only one root selected
@@ -350,12 +350,12 @@ its copy will be parented **but not connected** to the unselected bone
 .. list-table::
    Duplication example
 
-   * - .. figure:: /images/ManRiggingBoneSelectExEditModeThreeBonesSixEnds.jpg
+   * - .. figure:: /images/RiggingBoneSelectExEditModeThreeBonesSixEnds.jpg
           :width: 300px
 
           An armature with three selected bones and a selected single root.
 
-     - .. figure:: /images/ManRiggingBoneDuplicateExEditMode.jpg
+     - .. figure:: /images/RiggingBoneDuplicateExEditMode.jpg
           :width: 300px
 
           The three duplicated bones. Note that the selected chain is preserved in the copy,
@@ -398,12 +398,12 @@ to avoid deforming the whole armature.
 .. list-table::
    Deletion example
 
-   * - .. figure:: /images/ManRiggingBoneDeleteExEditMode1.jpg
+   * - .. figure:: /images/RiggingBoneDeleteExEditMode1.jpg
           :width: 300px
 
           An armature with two selected bones, just before deletion.
 
-     - .. figure:: /images/ManRiggingBoneDeleteExEditMode2.jpg
+     - .. figure:: /images/RiggingBoneDeleteExEditMode2.jpg
           :width: 300px
 
           The two bones have been deleted. Note that Bone.002,
@@ -442,23 +442,23 @@ differently depending in which chain is the edited bone
 .. list-table::
    Merge example
 
-   * - .. figure:: /images/ManRiggingBoneMergeExEditMode1.jpg
+   * - .. figure:: /images/RiggingBoneMergeExEditMode1.jpg
           :width: 300px
 
           An armature with a selected chain, and a single selected bone, just before merging.
 
-     - .. figure:: /images/ManRiggingBoneMergeExEditMode2.jpg
+     - .. figure:: /images/RiggingBoneMergeExEditMode2.jpg
           :width: 300px
 
           Bones Bone, Bone.001 and Bone.002 have been merged in Bone.006,
           whereas Bone.005 wasn't modified. Note Bone.003, connected to Bone.006 but not yet "really" connected.
 
-   * - .. figure:: /images/ManRiggingBoneMergeExEditMode3.jpg
+   * - .. figure:: /images/RiggingBoneMergeExEditMode3.jpg
           :width: 300px
 
           Bone.004 has been rotated, and hence the tip of Bone.006 was moved to the root of Bone.003.
 
-     - .. figure:: /images/ManRiggingBoneMergeExEditMode4.jpg
+     - .. figure:: /images/RiggingBoneMergeExEditMode4.jpg
           :width: 300px
 
           The tip of Bone.006 has been translated, and hence the root of Bone.003 was moved to the tip of `Bone.006`
@@ -496,12 +496,12 @@ if you set ``n`` cuts, you'll get ``n+1`` bones for each selected bone.
 .. list-table::
    Subdivision example
 
-   * - .. figure:: /images/ManRiggingBoneSubdivideExEditMode1.jpg
+   * - .. figure:: /images/RiggingBoneSubdivideExEditMode1.jpg
           :width: 300px
 
           An armature with one selected bone, just before multi-subdivision.
 
-     - .. figure:: /images/ManRiggingBoneSubdivideExEditMode2.jpg
+     - .. figure:: /images/RiggingBoneSubdivideExEditMode2.jpg
           :width: 300px
 
           The selected bone has been "cut" two times, giving three sub-bones.

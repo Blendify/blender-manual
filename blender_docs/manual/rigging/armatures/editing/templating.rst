@@ -56,11 +56,11 @@ are copied and the newly created copy of the chain is matched with the stroke.
 
 .. list-table::
 
-   * - .. figure:: /images/ManRiggingTemplatingStrokeConversionSameArmatureTemplateEx1.jpg
+   * - .. figure:: /images/RiggingTemplatingStrokeConversionSameArmatureTemplateEx1.jpg
 
           Before conversion.
 
-     - .. figure:: /images/ManRiggingTemplatingStrokeConversionSameArmatureTemplateEx2.jpg
+     - .. figure:: /images/RiggingTemplatingStrokeConversionSameArmatureTemplateEx2.jpg
 
           After conversion.
 
@@ -80,11 +80,11 @@ are copied and the newly created copy of the chain is matched with the stroke.
 
 .. list-table::
 
-   * - .. figure:: /images/ManRiggingTemplatingMultiPolyStrokesConversionEx1.jpg
+   * - .. figure:: /images/RiggingTemplatingMultiPolyStrokesConversionEx1.jpg
 
           Before conversion.
 
-     - .. figure:: /images/ManRiggingTemplatingMultiPolyStrokesConversionEx2.jpg
+     - .. figure:: /images/RiggingTemplatingMultiPolyStrokesConversionEx2.jpg
 
           After conversion.
 
@@ -122,11 +122,11 @@ OK now let us see some important ground rules:
 .. list-table::
    The *Bone Sketching* panel with *Template* conversion method enabled.
 
-   * - .. figure:: /images/ManRiggingTemplatingBoneSketchingPanelCurrentArmatureTemplate.jpg
+   * - .. figure:: /images/RiggingTemplatingBoneSketchingPanelCurrentArmatureTemplate.jpg
 
           With current edited armature as template.
 
-     - .. figure:: /images/ManRiggingTemplatingBoneSketchingPanelOtherArmatureTemplate.jpg
+     - .. figure:: /images/RiggingTemplatingBoneSketchingPanelOtherArmatureTemplate.jpg
 
           With another armature as template.
 
@@ -150,17 +150,17 @@ No, View, Joint buttons
    Templating: bone roll example. The ``Bone.003`` -to- ``Bone.005`` chain is the mapped-to-stroke
    version of ``Bone`` -to- ``Bone.002`` selected one, and ``Bone.001`` has a modified roll angle.
 
-   * - .. figure:: /images/ManRiggingTemplatingBoneRollExNo.jpg
+   * - .. figure:: /images/RiggingTemplatingBoneRollExNo.jpg
           :width: 200px
 
           With No roll option.
 
-     - .. figure:: /images/ManRiggingTemplatingBoneRollExView.jpg
+     - .. figure:: /images/RiggingTemplatingBoneRollExView.jpg
           :width: 200px
 
           With View roll option.
 
-     - .. figure:: /images/ManRiggingTemplatingBoneRollExJoint.jpg
+     - .. figure:: /images/RiggingTemplatingBoneRollExJoint.jpg
           :width: 200px
 
           With Joint roll option.
@@ -193,22 +193,22 @@ Think of them as A(ngle of bones), L(ength of bones) and D(efinition of stroke).
    Examples of *Template* conversions for various influence weights values,
    with one stroke quite similar to the template chain's shape, and one stroke very different.
 
-   * - .. figure:: /images/ManRiggingTemplatingInfluenceWeightsEx111.jpg
+   * - .. figure:: /images/RiggingTemplatingInfluenceWeightsEx111.jpg
           :width: 150px
 
           A: 1.0; L: 1.0; D: 1.0.
 
-     - .. figure:: /images/ManRiggingTemplatingInfluenceWeightsEx100.jpg
+     - .. figure:: /images/RiggingTemplatingInfluenceWeightsEx100.jpg
           :width: 150px
 
           A: 1.0; L: 0.0; D: 0.0.
 
-     - .. figure:: /images/ManRiggingTemplatingInfluenceWeightsEx010.jpg
+     - .. figure:: /images/RiggingTemplatingInfluenceWeightsEx010.jpg
           :width: 150px
 
           A: 0.0; L: 1.0; D: 0.0.
 
-     - .. figure:: /images/ManRiggingTemplatingInfluenceWeightsEx001.jpg
+     - .. figure:: /images/RiggingTemplatingInfluenceWeightsEx001.jpg
           :width: 150px
 
           A: 0.0; L: 0.0; D: 1.0.
@@ -230,13 +230,13 @@ Naming and placeholders, using a simple leg template.
 
    .. list-table::
 
-      * - .. figure:: /images/ManRiggingTemplatingNamePlaceholdersEx1.jpg
+      * - .. figure:: /images/RiggingTemplatingNamePlaceholdersEx1.jpg
              :width: 325px
 
              Before conversion (note the &n and &s
              placeholders in template bones' names).
 
-        - .. figure:: /images/ManRiggingTemplatingNamePlaceholdersEx2.jpg
+        - .. figure:: /images/RiggingTemplatingNamePlaceholdersEx2.jpg
              :width: 205px
 
              After conversion: the placeholders have been replaced by the
@@ -247,13 +247,13 @@ Auto naming and placeholders, using a simple leg template.
 
    .. list-table::
 
-      * - .. figure:: /images/ManRiggingTemplatingAutoNamingEx1.jpg
+      * - .. figure:: /images/RiggingTemplatingAutoNamingEx1.jpg
              :width: 285px
 
              Before conversion (note that, in the Bone Sketching panel,
              the S and N fields are empty, and the small "auto" button is enabled).
 
-        - .. figure:: /images/ManRiggingTemplatingAutoNamingEx2.jpg
+        - .. figure:: /images/RiggingTemplatingAutoNamingEx2.jpg
              :width: 315px
 
 

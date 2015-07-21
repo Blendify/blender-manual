@@ -13,7 +13,7 @@ Blender Screenshots
    | Hotkey:   :kbd:`Ctrl-F3`
 
 
-.. figure:: /images/Vitals-Screenshot-Small-Save-Full-Screen.jpg
+.. figure:: /images/basics-screenshot-small-save-full-screen.jpg
 
    Save Screenshot Option
 

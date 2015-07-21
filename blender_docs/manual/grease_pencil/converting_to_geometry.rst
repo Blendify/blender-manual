@@ -9,7 +9,7 @@ based on the current view settings, by transforming the points recorded when dra
 so it may be necessary to simplify or subdivide parts of the created geometry for standard use.
 
 
-.. figure:: /images/ManGreasePencilPanel3DView.jpg
+.. figure:: /images/GreasePencilPanel3DView.jpg
 
    Grease Pencil panel in 3D View.
 
@@ -38,7 +38,7 @@ Bezier Curve
 General Options
 ===============
 
-.. figure:: /images/ManGreasePencilConvertToCurvePanel.jpg
+.. figure:: /images/GreasePencilConvertToCurvePanel.jpg
 
    The Convert to Curve options.
 

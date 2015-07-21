@@ -53,7 +53,7 @@ found in the *Display* panel of the *Object data* context.
 Bone types
 ==========
 
-.. figure:: /images/ManRiggingOctahedronEx3DViewEditMode.jpg
+.. figure:: /images/RiggingOctahedronEx3DViewEditMode.jpg
    :width: 250px
 
    A basic armature in Octahedron visualization, Edit mode.
@@ -71,7 +71,7 @@ This is the default visualization, well suited for most of editing tasks. It mat
 - The bone roll (as it has a square section).
 
 
-.. figure:: /images/ManRiggingStickEx3DViewPoseMode.jpg
+.. figure:: /images/RiggingStickEx3DViewPoseMode.jpg
    :width: 250px
 
    The same armature in Stick visualization, Pose mode.
@@ -86,7 +86,7 @@ It just materializes bones by sticks of constant (and small) thickness,
 so it gives you no information about root and tip, nor bone size or roll angle.
 
 
-.. figure:: /images/ManRiggingBBoneEx3DViewEditMode.jpg
+.. figure:: /images/RiggingBBoneEx3DViewEditMode.jpg
    :width: 250px
 
    The same armature in B-Bone visualization, Edit mode.
@@ -99,7 +99,7 @@ This visualization shows the curves of "smooth" multi-segmented bones;
 see the :doc:`bone page </rigging/armatures/bones#bones_rigidity>` for details.
 
 
-.. figure:: /images/ManRiggingEnvelopeEx3DViewPoseMode.jpg
+.. figure:: /images/RiggingEnvelopeEx3DViewPoseMode.jpg
    :width: 250px
 
    The Bone Groups panel.
@@ -186,14 +186,14 @@ To assign a custom shape to a bone, you have to:
    The Display panel.
 
 
-.. figure:: /images/ManRiggingBoneShapeEx3DViewObjectMode.jpg
+.. figure:: /images/RiggingBoneShapeEx3DViewObjectMode.jpg
    :width: 300px
 
    The armature with shapes assigned to two bones, in Object mode.
    Note the centers of the Cone and Cube objects.
 
 
-.. figure:: /images/ManRiggingBoneShapeEx3DViewPoseMode.jpg
+.. figure:: /images/RiggingBoneShapeEx3DViewPoseMode.jpg
    :width: 300px
 
    The same armature in Pose mode...

@@ -214,7 +214,7 @@ Motion Paths
    | Hotkey:   :kbd:`W-3`, :kbd:`W-4`
 
 
-.. figure:: /images/ManRiggingPosingMotionPathsEx.jpg
+.. figure:: /images/RiggingPosingMotionPathsEx.jpg
    :width: 250px
 
    A motion paths example.

@@ -20,7 +20,7 @@ which create some sort of "limbs" in your armature, as detailed in `Chains of Bo
 Chains of Bones
 ===============
 
-.. figure:: /images/ManRiggingChainEx3DViewEditMode.jpg
+.. figure:: /images/RiggingChainEx3DViewEditMode.jpg
    :width: 250px
 
    An armature with two chains of bones.
