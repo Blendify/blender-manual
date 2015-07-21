@@ -25,7 +25,7 @@ General Web-based Help Options
    and have a connection to the Internet.
 
 
-.. figure:: /images/Vitals-Help_Menu.jpg
+.. figure:: /images/basics-help_menu.jpg
 
    Help menu
 
@@ -71,7 +71,7 @@ The file will be in your list of Text-block, named as ``OperatorsList.txt``,
 if the file is already generated, Blender will add a numeric suffix for the subsequent ones.
 
 
-.. figure:: /images/Vitals-Help-Info-Operator-Cheat-Sheet.jpg
+.. figure:: /images/basics-help-info-operator-cheat-sheet.jpg
 
    Info Window - Operator Cheat Sheet
 
@@ -107,7 +107,7 @@ OpenGL
    version, vendor and a list with your card capabilities or OpenGL software capabilities.
 
 
-.. figure:: /images/Vitals-Help-Info-Window-System_Info.jpg
+.. figure:: /images/basics-help-info-window-system_info.jpg
 
    Info Window - Info.txt
 
@@ -128,7 +128,7 @@ OpenGL
   This can be useful in creating scripts.
 
 
-.. figure:: /images/Vitals-Help_Info_Log.jpg
+.. figure:: /images/basics-help_info_log.jpg
 
    The Info Window Log after adding a Cube
 
@@ -180,7 +180,7 @@ Blender Search
    | Hotkey:   :kbd:`Spacebar`
 
 
-.. figure:: /images/Vitals-Help-Search-Keyword-Render.jpg
+.. figure:: /images/basics-help-search-keyword-render.jpg
 
    Blender Search - Render
 
@@ -215,7 +215,7 @@ the small Pop Up Window for the Blender Search will stay blank.
 Tooltips
 ========
 
-.. figure:: /images/Vitals-Help-Tooltip-Render-Engine.jpg
+.. figure:: /images/basics-help-tooltip-render-engine.jpg
 
    The Mouse pointer was Stopped for a while over the Render Engines List in the Info Window.
    The normal Tooltip is in white and the Python operator is displayed in grey

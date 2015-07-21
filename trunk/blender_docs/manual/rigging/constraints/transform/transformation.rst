@@ -57,12 +57,12 @@ Extrapolate
 .. list-table::
    The *Extrapolate* principles.
 
-   * - .. figure:: /images/ManConstraintsTransformationExtrapolatePrinciple1.jpg
+   * - .. figure:: /images/ConstraintsTransformationExtrapolatePrinciple1.jpg
           :width: 300px
 
           Extrapolate disabled: the output values are bounded inside the [1.0, 2.0] range.
 
-     - .. figure:: /images/ManConstraintsTransformationExtrapolatePrinciple2.jpg
+     - .. figure:: /images/ConstraintsTransformationExtrapolatePrinciple2.jpg
           :width: 300px
 
           Extrapolate enabled: the output values are "free" to proportionally follow the input ones.

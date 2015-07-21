@@ -72,7 +72,7 @@ The **Video Sequence Editor** just adds a vertical dashed line to each marker
 3D View
 -------
 
-.. figure:: /images/ManAnimationMarkers3DViewEx.jpg
+.. figure:: /images/AnimationMarkers3DViewEx.jpg
 
    Marker in a 3D View.
 

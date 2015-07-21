@@ -97,7 +97,7 @@ the contents of the Pop-Up Window are different, because of your context (Edit M
 
 .. list-table::
 
-   * - .. figure:: /images/Vitals-Undo-Redo-F6-Rotation-Object-Edit.jpg
+   * - .. figure:: /images/basics-undo-redo-f6-rotation-object-edit.jpg
           :align: center
 
    * -     **Left Image**: Redo Last - Rotation ( Object Mode, 60 degrees )
@@ -121,7 +121,7 @@ Undo History
    | Hotkey:   :kbd:`Ctrl-Alt-Z`
 
 
-.. figure:: /images/Vitals-Undo-Redo-Ctrl+Alt+z_Menu.jpg
+.. figure:: /images/basics-undo-redo-ctrl+alt+z_menu.jpg
    :align: right
 
    The Undo History menu, which appears upon :kbd:`Ctrl-Alt-Z` press.
@@ -179,7 +179,7 @@ Repeat History
    | Hotkey:   :kbd:`F3`
 
 
-.. figure:: /images/Vitals-Undo-Redo-F3_Menu.jpg
+.. figure:: /images/basics-undo-redo-f3_menu.jpg
    :align: right
 
    The Repeat menu, which appears upon :kbd:`F3` press.
@@ -207,7 +207,7 @@ Blender Search
    | Hotkey: :kbd:`Spacebar`
 
 
-.. figure:: /images/Vitals-Undo-Redo-Redo_Last_Spacebar_Menu.jpg
+.. figure:: /images/basics-undo-redo-redo_last_spacebar_menu.jpg
 
    Spacebar search for Redo Last
 
@@ -229,7 +229,7 @@ Options for Files (System Level)
 Save and Auto Save
 ------------------
 
-.. figure:: /images/Vitals-Undo-and-Redo-AutosaveOptions.jpg
+.. figure:: /images/basics-undo-and-redo-autosaveoptions.jpg
    :align: right
 
    Auto Save options
@@ -282,7 +282,7 @@ Recover Last Session
    Note that files in your *Temp* directory are deleted when you reboot.
 
 
-.. figure:: /images/Vitals-Undo-Display_File_Date.jpg
+.. figure:: /images/basics-undo-display_file_date.jpg
 
    Blender File Browser
 

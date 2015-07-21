@@ -22,7 +22,7 @@ There are currently three Vertex Weight modifiers:
 Common Settings
 ===============
 
-.. figure:: /images/ManModifiersWeightVG_mask.jpg
+.. figure:: /images/ModifiersWeightVG_mask.jpg
    :width: 300px
 
    The influence/masking part of Vertex Weight modifiers.
@@ -98,7 +98,7 @@ the vertex group you are editing.
 Vertex Weight Edit Modifier
 ===========================
 
-.. figure:: /images/ManModifiersWeightVGEdit.jpg
+.. figure:: /images/ModifiersWeightVGEdit.jpg
    :width: 300px
 
    The Vertex Weight Edit modifier panel.
@@ -147,7 +147,7 @@ Group Remove
 Vertex Weight Mix Modifier
 ==========================
 
-.. figure:: /images/ManModifiersWeightVGMix.jpg
+.. figure:: /images/ModifiersWeightVGMix.jpg
    :width: 300px
 
    The Vertex Weight Mix modifier panel.
@@ -213,7 +213,7 @@ Mix Set
 Vertex Weight Proximity Modifier
 ================================
 
-.. figure:: /images/ManModifiersWeightVGProximity.jpg
+.. figure:: /images/ModifiersWeightVGProximity.jpg
    :width: 300px
 
    The Vertex Weight Proximity modifier panel.
@@ -366,7 +366,7 @@ and play with the *Custom Curve* mapping to get a larger/narrower "valley"...
           Convex-type mapping curve.
 
 
-.. figure:: /images/ManModifiersWeightVGroupGeometryEXRemVerts.jpg
+.. figure:: /images/ModifiersWeightVGroupGeometryEXRemVerts.jpg
    :width: 200px
 
    Vertices with a computed weight below 0.1 removed from the vertex group.
@@ -411,17 +411,17 @@ Leave the mapping to the default *Local* option, and play with the various chann
 .. list-table::
    Texture channel variations.
 
-   * - .. figure:: /images/ManModifiersWeightVGroupTexExIntensity.jpg
+   * - .. figure:: /images/ModifiersWeightVGroupTexExIntensity.jpg
           :width: 200px
 
           Using intensity.
 
-     - .. figure:: /images/ManModifiersWeightVGroupTexExRed.jpg
+     - .. figure:: /images/ModifiersWeightVGroupTexExRed.jpg
           :width: 200px
 
           Using Red.
 
-     - .. figure:: /images/ManModifiersWeightVGroupTexExSaturation.jpg
+     - .. figure:: /images/ModifiersWeightVGroupTexExSaturation.jpg
           :width: 200px
 
           Using Saturation.
@@ -444,17 +444,17 @@ and above ``0.75`` : this creates great "walls" in the waves...
 .. list-table::
    Custom mapping curve.
 
-   * - .. figure:: /images/ManModifiersWeightVGroupTexExCMapCurve.jpg
+   * - .. figure:: /images/ModifiersWeightVGroupTexExCMapCurve.jpg
           :width: 200px
 
           A customized mapping curve.
 
-     - .. figure:: /images/ManModifiersWeightVGroupTexExRed.jpg
+     - .. figure:: /images/ModifiersWeightVGroupTexExRed.jpg
           :width: 200px
 
           Custom Mapping disabled.
 
-     - .. figure:: /images/ManModifiersWeightVGroupTexExRedCMap.jpg
+     - .. figure:: /images/ModifiersWeightVGroupTexExRedCMap.jpg
           :width: 200px
 
           Custom Mapping enabled.

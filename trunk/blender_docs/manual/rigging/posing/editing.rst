@@ -197,28 +197,28 @@ Here are important points:
 .. list-table::
 
    * - Examples of pose copy/paste.
-     - .. figure:: /images/ManRiggingPosingCopyPoseExRestArmaOrg.jpg
+     - .. figure:: /images/RiggingPosingCopyPoseExRestArmaOrg.jpg
 
           The rest position of our original armature.
-     - .. figure:: /images/ManRiggingPosingCopyPoseExRestArmaDest.jpg
+     - .. figure:: /images/RiggingPosingCopyPoseExRestArmaDest.jpg
 
           The rest position of our destination armature.
-   * - .. figure:: /images/ManRiggingPosingCopyPoseExPose1ArmaOrg.jpg
+   * - .. figure:: /images/RiggingPosingCopyPoseExPose1ArmaOrg.jpg
 
           The first copied pose (note that only forearm and finger2_a are selected and hence copied).
-     - .. figure:: /images/ManRiggingPosingCopyPoseExPastedPose1ArmaDest.jpg
+     - .. figure:: /images/RiggingPosingCopyPoseExPastedPose1ArmaDest.jpg
 
           ...pasted on the destination armature...
-     - .. figure:: /images/ManRiggingPosingCopyPoseExPastedMirrPose1ArmaDest.jpg
+     - .. figure:: /images/RiggingPosingCopyPoseExPastedMirrPose1ArmaDest.jpg
 
           ...and mirror-pasted on the destination armature.
-   * - .. figure:: /images/ManRiggingPosingCopyPoseExPose2ArmaOrg.jpg
+   * - .. figure:: /images/RiggingPosingCopyPoseExPose2ArmaOrg.jpg
 
           The same pose as above is copied, but this time with all bones selected, ...
-     - .. figure:: /images/ManRiggingPosingCopyPoseExPastedPose2ArmaDest.jpg
+     - .. figure:: /images/RiggingPosingCopyPoseExPastedPose2ArmaDest.jpg
 
           ...pasted on the destination armature...
-     - .. figure:: /images/ManRiggingPosingCopyPoseExPastedMirrPose2ArmaDest.jpg
+     - .. figure:: /images/RiggingPosingCopyPoseExPastedMirrPose2ArmaDest.jpg
 
           ...and mirror-pasted on the destination armature.
 
@@ -238,17 +238,17 @@ By default, children bones inherit:
 .. list-table::
    Examples of transforming parented/connected bones.
 
-   * - .. figure:: /images/ManRiggingPosingRelatioshipsAndTransformExBasis.jpg
+   * - .. figure:: /images/RiggingPosingRelatioshipsAndTransformExBasis.jpg
           :width: 200px
 
           The armature in its rest position.
 
-     - .. figure:: /images/ManRiggingPosingRelatioshipsAndTransformExMonoRotation.jpg
+     - .. figure:: /images/RiggingPosingRelatioshipsAndTransformExMonoRotation.jpg
           :width: 200px
 
           Rotation of a root bone.
 
-     - .. figure:: /images/ManRiggingPosingRelatioshipsAndTransformExScalingChains.jpg
+     - .. figure:: /images/RiggingPosingRelatioshipsAndTransformExScalingChains.jpg
           :width: 200px
 
           Scaling of a root bone.
@@ -279,17 +279,17 @@ all its descendants* will no longer be affected when you scale one of its ancest
 .. list-table::
    Examples of transforming parented/connected bones with** *Inherit Rotation* disabled.
 
-   * - .. figure:: /images/ManRiggingPosingRelatioshipsAndTransformExHingeBone.jpg
+   * - .. figure:: /images/RiggingPosingRelatioshipsAndTransformExHingeBone.jpg
           :width: 200px
 
           The yellow outlined Inherit Rotation disabled bone in the armature.
 
-     - .. figure:: /images/ManRiggingPosingRelatioshipsAndTransformExHingeBoneInRotation.jpg
+     - .. figure:: /images/RiggingPosingRelatioshipsAndTransformExHingeBoneInRotation.jpg
           :width: 200px
 
           Rotation of a bone with a Inherit Rotation disabled bone among its descendants.
 
-     - .. figure:: /images/ManRiggingPosingRelatioshipsAndTransformExHingeBoneInScaling.jpg
+     - .. figure:: /images/RiggingPosingRelatioshipsAndTransformExHingeBoneInScaling.jpg
           :width: 200px
 
           Scaling of a bone with a Inherit Rotation disabled bone among its descendants.
@@ -308,7 +308,7 @@ possible ones below - but this should anyway give you a good idea of the problem
 - Non-related selected bones are transformed independently, as usual.
 
 
-.. figure:: /images/ManRiggingPosingRelatioshipsAndTransformExMultiScaling.jpg
+.. figure:: /images/RiggingPosingRelatioshipsAndTransformExMultiScaling.jpg
    :width: 200px
 
    Scaling bones, some of them related.
