@@ -93,7 +93,10 @@ clean: FORCE
 help:
 	@echo ""
 	@echo "Convenience targets provided for building docs"
+	@echo "- singlehtml - create a single (huge) HTML file"
 	@echo "- pdf        - create a PDF with latex"
+	@echo "               warning: this currently has some problems,"
+	@echo "               though the PDF generates, there are various unresolved issues."
 	@echo "- readme     - create 'readme.html'"
 	@echo "  ... otherwise defaults to HTML"
 	@echo ""
