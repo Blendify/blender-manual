@@ -12,7 +12,7 @@ diffraction and sub-surface scattering. Typical materials might be brass, skin, 
 or linen.
 
 
-.. figure:: /images/Doc_2.6_Materials_Demo.jpg
+.. figure:: /images/materials_demo.jpg
    :width: 320px
 
    Various basic materials (single, multiple material, transparency, vertex paint).

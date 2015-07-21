@@ -10,7 +10,7 @@ Planning animation poses and motion curves, sketching out model topology,
 and use as director's shot review tool are just a few of the applications.
 
 
-.. figure:: /images/2.5_Manual-GreasePencil-ExampleInAction.jpg
+.. figure:: /images/greasepencil-example-in-action.jpg
    :width: 500px
 
    The Grease Pencil in action.

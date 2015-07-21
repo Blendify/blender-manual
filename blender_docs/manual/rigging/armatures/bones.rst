@@ -36,25 +36,25 @@ Bones can be visualized in various ways: *Octahedron*, *Stick*,
 *B-Bone*, *Envelope* and *Wire*. Custom shapes can be used, too!
 
 
-.. figure:: /images/Man2.5RiggingBonePrincipalsBoneDisplayOctahedral.jpg
+.. figure:: /images/RiggingBonePrincipalsBoneDisplayOctahedral.jpg
    :width: 300px
 
    Octahedral bone display.
 
 
-.. figure:: /images/Man2.5RiggingBonePrincipalsBoneDisplayStick.jpg
+.. figure:: /images/RiggingBonePrincipalsBoneDisplayStick.jpg
    :width: 300px
 
    Stick bone display.
 
 
-.. figure:: /images/Man2.5RiggingBonePrincipalsBoneDisplayBBone.jpg
+.. figure:: /images/RiggingBonePrincipalsBoneDisplayBBone.jpg
    :width: 300px
 
    B-Bone bone display.
 
 
-.. figure:: /images/Man2.5RiggingBonePrincipalsBoneDisplayEnvelope.jpg
+.. figure:: /images/RiggingBonePrincipalsBoneDisplayEnvelope.jpg
    :width: 300px
 
    Envelope bone display.
@@ -68,7 +68,7 @@ will show local axes for each bone's tip. The Y axis is always aligned along the
 oriented from root to tip. So, this is the "roll" axis of the bones.
 
 
-.. figure:: /images/Man2.5RiggingBonePrincipalsBonePropertyWindow.jpg
+.. figure:: /images/RiggingBonePrincipalsBonePropertyWindow.jpg
    :width: 250px
 
    The Bone context.

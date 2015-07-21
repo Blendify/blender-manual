@@ -41,7 +41,7 @@ In *Edit* mode there are three different select modes for meshes; see
 (*Select Mode* *menu*).
 
 
-.. figure:: /images/Manual-Part-II-EditModeMenu_2.5.jpg
+.. figure:: /images/EditModeMenu.jpg
 
    Select Mode menu.
 
@@ -74,7 +74,7 @@ Select Mode header widgets
    | Panel:    Header of the *3D View*
 
 
-.. figure:: /images/Manual-Part-II-EditModeButtonsLabeled_2.5.jpg
+.. figure:: /images/EditModeButtonsLabeled.jpg
 
    Edit mode select mode buttons.
 
@@ -113,22 +113,22 @@ for examples of the different modes.
 
 .. list-table::
 
-   * - .. figure:: /images/Manual-Part-II-EditModeVerticeModeExample_2.5.jpg
+   * - .. figure:: /images/EditModeVerticeModeExample.jpg
           :width: 300px
 
           none Vertices mode example.
 
-     - .. figure:: /images/Manual-Part-II-EditModeEdgeModeExample_2.5.jpg
+     - .. figure:: /images/EditModeEdgeModeExample.jpg
           :width: 300px
 
           Edges mode example.
 
-   * - .. figure:: /images/Manual-Part-II-EditModeFaceModeExample_2.5.jpg
+   * - .. figure:: /images/EditModeFaceModeExample.jpg
           :width: 300px
 
           Faces mode example.
 
-     - .. figure:: /images/Manual-Part-II-EditModeMixedModeExample_2.5.jpg
+     - .. figure:: /images/EditModeMixedModeExample.jpg
           :width: 300px
 
           Mixed mode example.

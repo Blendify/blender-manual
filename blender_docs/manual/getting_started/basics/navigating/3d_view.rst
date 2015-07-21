@@ -55,7 +55,7 @@ making it easier to draw and judge proportions.
 Options
 =======
 
-.. figure:: /images/Manual-Part-I-3DCameraView-2.5.jpg
+.. figure:: /images/3DCameraView.jpg
 
    Demonstration of camera view.
 
@@ -128,7 +128,7 @@ Rotating the View
 Description
 ===========
 
-.. figure:: /images/Manual-Part-I-3DView2.5.jpg
+.. figure:: /images/3DView.jpg
    :width: 300px
 
    A 3D viewport's View menu.
@@ -188,7 +188,7 @@ you gain the sense of "Up" and "Down" which can help if you are feeling disorien
 Of course you can always switch between the styles depending on what you are working on.
 
 
-.. figure:: /images/Manual-Part-I-Interface-Navigating-InfoWindow-ViewRotation2.5.jpg
+.. figure:: /images/Interface-Navigating-InfoWindow-ViewRotation.jpg
 
    View rotation.
 

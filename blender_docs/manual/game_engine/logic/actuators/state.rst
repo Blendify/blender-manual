@@ -12,13 +12,13 @@ See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>`
 Special Options:
 
 
-.. figure:: /images/2.5_Game_Engine_Actuator_State.jpg
+.. figure:: /images/bge_actuator_state.jpg
    :width: 271px
 
    State actuator
 
 
-.. figure:: /images/2.5_Game_Engine_Actuator_State_Options.jpg
+.. figure:: /images/bge_actuator_state_options.jpg
    :width: 271px
 
    State actuator options

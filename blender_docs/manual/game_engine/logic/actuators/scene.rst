@@ -3,7 +3,7 @@
 Scene Actuator
 **************
 
-.. figure:: /images/2.5_Game_Engine_Actuator_Scene.jpg
+.. figure:: /images/bge_actuator_scene.jpg
    :width: 257px
 
    Scene actuator
@@ -19,7 +19,7 @@ Special Options:
 The actuator has eight modes:
 
 
-.. figure:: /images/2.5_Game_Engine_Actuator_Scene_Options.jpg
+.. figure:: /images/bge_actuator_scene_options.jpg
    :width: 257px
 
    Scene actuator options

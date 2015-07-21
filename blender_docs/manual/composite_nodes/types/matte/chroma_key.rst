@@ -3,7 +3,7 @@
 Chroma Key Node
 ***************
 
-.. figure:: /images/2.5_ChromaKey_node.jpg
+.. figure:: /images/chromakey_node.jpg
 
    Chroma Key node
 

@@ -82,17 +82,17 @@ To show the effect of the different edge settings we will use two cubes
 
 .. list-table::
 
-   * - .. figure:: /images/Blender3D_QuadVSTri-SB-0001-2.49.jpg
+   * - .. figure:: /images/quadvstri-sb-0001.jpg
           :width: 200px
 
           Image 3a: Frame 1 without Stiff Quads.
 
-     - .. figure:: /images/Blender3D_QuadVSTri-SB-0036-2.49.jpg
+     - .. figure:: /images/quadvstri-sb-0036.jpg
           :width: 200px
 
           Image 3b: Frame 36.
 
-     - .. figure:: /images/Blender3D_QuadVSTri-SB-0401-2.49.jpg
+     - .. figure:: /images/quadvstri-sb-0401.jpg
           :width: 200px
 
           Image 3c: Frame 401.
@@ -105,17 +105,17 @@ though it will deform temporarily because of the forces created during collision
 
 .. list-table::
 
-   * - .. figure:: /images/Blender3D_QuadVSTri-SB-SQ-0001-2.49.jpg
+   * - .. figure:: /images/quadvstri-sb-sq-0001.jpg
           :width: 200px
 
           Image 4a: Frame 1 with Stiff Quads.
 
-     - .. figure:: /images/Blender3D_QuadVSTri-SB-SQ-0036-2.49.jpg
+     - .. figure:: /images/quadvstri-sb-sq-0036.jpg
           :width: 200px
 
           Image 4b: Frame 36.
 
-     - .. figure:: /images/Blender3D_QuadVSTri-SB-SQ-0401-2.49.jpg
+     - .. figure:: /images/quadvstri-sb-sq-0401.jpg
           :width: 200px
 
           Image 4c: Frame 401.
@@ -128,18 +128,18 @@ because it has no quads anyway.
 
 .. list-table::
 
-   * - .. figure:: /images/Blender3D_QuadVSTri-SB-BS-0001-2.49.jpg
+   * - .. figure:: /images/quadvstri-sb-bs-0001.jpg
           :width: 200px
 
           Image 5a: Frame 1 with Bending Stiffness.
           `Blend file <http://wiki.blender.org/index.php/Media:Blender3D Quads-BE-Stiffness.blend>`__
 
-     - .. figure:: /images/Blender3D_QuadVSTri-SB-BS-0036-2.49.jpg
+     - .. figure:: /images/quadvstri-sb-bs-0036.jpg
           :width: 200px
 
           Image 5b: Frame 36.
 
-     - .. figure:: /images/Blender3D_QuadVSTri-SB-BS-0401-2.49.jpg
+     - .. figure:: /images/quadvstri-sb-bs-0401.jpg
           :width: 200px
 
           Image 5c: Frame 401.
@@ -154,17 +154,17 @@ Now both cubes are more rigid.
 
 .. list-table::
 
-   * - .. figure:: /images/Blender3D_QuadVSTri-Bending-001-2.49.jpg
+   * - .. figure:: /images/quadvstri-bending-001.jpg
           :width: 200px
 
           Image 6a: Two planes going to collide.
 
-     - .. figure:: /images/Blender3D_QuadVSTri-Bending-101-2.49.jpg
+     - .. figure:: /images/quadvstri-bending-101.jpg
           :width: 200px
 
           Image 6b: No bending stiffness, Frame 101.
 
-     - .. figure:: /images/Blender3D_QuadVSTri-Bending-high-101-2.49.jpg
+     - .. figure:: /images/quadvstri-bending-high-101.jpg
           :width: 200px
 
           Image 6c: High bending stiffness (10), Frame 101.

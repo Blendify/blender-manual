@@ -162,7 +162,7 @@ Image textures can be loaded into blender. These images can then be applied to a
 that has been unwrapped and assigned an image of user defined size.
 
 
-.. figure:: /images/Doc-2.6-Materials-Textures-Painting-Brush-Options.jpg
+.. figure:: /images/materials-textures-painting-brush-options.jpg
    :width: 320px
 
    Applied Brush texture in different painting modes

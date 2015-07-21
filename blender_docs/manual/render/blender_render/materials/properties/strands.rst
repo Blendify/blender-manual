@@ -48,7 +48,7 @@ Polygon strands:
 Strands Shading
 ===============
 
-.. figure:: /images/Doc_2.6_Materials_Properties_Strands.jpg
+.. figure:: /images/materials_properties_strands.jpg
 
    Image 1: Strands Panel.
 
@@ -123,7 +123,7 @@ Surface Diffuse
 Texturing along the Strand
 ==========================
 
-.. figure:: /images/Doc_2.6_Materials_Texture_Mapping.jpg
+.. figure:: /images/materials_texture_mapping.jpg
 
    Image 4: Fading a strand to alpha...
 

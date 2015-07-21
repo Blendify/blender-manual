@@ -3,7 +3,7 @@
 Luminance Key Node
 ******************
 
-.. figure:: /images/2.5_Luminance_node.jpg
+.. figure:: /images/luminance_node.jpg
 
    Luminance Key node
 

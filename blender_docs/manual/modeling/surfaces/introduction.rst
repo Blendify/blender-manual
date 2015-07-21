@@ -12,7 +12,7 @@
 Surfaces
 ********
 
-.. figure:: /images/Blender2.5NurbsSurface.jpg
+.. figure:: /images/NurbsSurface.jpg
 
    Surface.
 

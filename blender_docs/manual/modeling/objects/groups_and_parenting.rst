@@ -253,7 +253,7 @@ the Armature Parent Object the Cube will get 3 new Vertex Groups created on it c
 BoneB and BoneC. Notice that each Vertex Group is empty. See figure 21.
 
 
-.. figure:: /images/TG-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform_With_Empty_Groups.blend.jpg
+.. figure:: /images/3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform_With_Empty_Groups-blend.jpg
 
    Figure 21 - Cube in Edit Mode showing the 3 created Vertex Groups after it was parented
    using Armature Deform With Empty Groups to an Armature with 3 Bones named BoneA,
@@ -290,7 +290,7 @@ If it is the selected bone is a Deforming Bone, otherwise it is a Control Bone.
 See figure 22.
 
 
-.. figure:: /images/TH-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform_With_Empty_Groups.blend.jpg
+.. figure:: /images/3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform_With_Empty_Groups-blend.jpg
 
    Figure 22 - 3 Bone Armature in Edit Mode with 2nd bone selected with [Properties Editor >
    Bone Context > Deform Panel] displayed an ticked, indicating the bone is a Deforming Bone.

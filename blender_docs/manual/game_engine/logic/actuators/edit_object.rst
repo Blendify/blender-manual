@@ -10,7 +10,7 @@ See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>`
 Special Options:
 
 
-.. figure:: /images/2.5_Game_Engine_Actuator_Edit_Object.jpg
+.. figure:: /images/bge_actuator_edit_object.jpg
    :width: 271px
 
    Edit Object actuator

@@ -16,7 +16,7 @@ You see particles as a *Particle* modifier,
 but all settings are done in the *Particle tab*.
 
 
-.. figure:: /images/Blender3D_FurExample_2.49.jpg
+.. figure:: /images/fur_example.jpg
    :width: 300px
 
    Image 1: Some fur made from particles
@@ -71,7 +71,7 @@ The process for working with standard particles is:
 Creating a Particle System
 ==========================
 
-.. figure:: /images/Blender3D_ParticleSystem_CreateNew-2.5.jpg
+.. figure:: /images/particlesystem_createnew.jpg
 
    Image 2: Adding a particle system.
 
@@ -90,7 +90,7 @@ even when using the same settings.
 Types of Particle systems
 -------------------------
 
-.. figure:: /images/Blender3D_ParticleSystem_SelectType-2.5.jpg
+.. figure:: /images/particlesystem_selecttype.jpg
 
    Image 3: Particle system types.
 

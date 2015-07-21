@@ -164,7 +164,7 @@ Preserve Volume (Armature modifier)
 Bone Deform Options
 ===================
 
-.. figure:: /images/Man2.5RiggingEditingBoneCxtDeformPanel.jpg
+.. figure:: /images/RiggingEditingBoneCxtDeformPanel.jpg
    :width: 250px
 
    Bone Deform Options

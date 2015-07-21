@@ -77,12 +77,12 @@ so that the darker parts of the image won't be changed at all
 
           Range: 2.0.
 
-   * - .. figure:: /images/Manual-PartVI-DenseTeapot-Range0.5.jpg
+   * - .. figure:: /images/DenseTeapot-Range0_5.jpg
           :width: 320px
 
           Range: 0.5.
 
-     - .. figure:: /images/Manual-PartVI-DenseTeapot-Range2.0-Exposure0.3.jpg
+     - .. figure:: /images/DenseTeapot-Range2_0-Exposure0_3.jpg
           :width: 320px
 
           Range: 2.0, Exposure: 0.3.

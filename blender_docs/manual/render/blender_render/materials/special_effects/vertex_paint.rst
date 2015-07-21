@@ -17,7 +17,7 @@ however, it will not show up in the render unless you check "Vertex Color Paint"
 `Options <http://wiki.blender.org/index.php/User:Sculptorjim/Materials/Properties/Options>`__ Panel.
 
 
-.. figure:: /images/Doc_2.6_Materials_VertexPaint0.jpg
+.. figure:: /images/materials_vertexpaint0.jpg
 
    Vertex Painting Mode
 
@@ -34,7 +34,7 @@ The Tools Shelf, shortcut :kbd:`T` contains most of the options for vertex paint
 The following sections describe the controls in each of the available panels.
 
 
-.. figure:: /images/Doc-2.6-Materials-VertexPaint-ToolShelf-Tools.jpg
+.. figure:: /images/materials-vertexpaint-toolshelf-tools.jpg
    :width: 600px
 
    Settings for vertex painting
@@ -176,7 +176,7 @@ the brush. In other words, they allow you to edit the Falloff of the brush inten
 Options
 *******
 
-.. figure:: /images/Doc-2.6-Materials-VertexPaint-ToolShelf-Options.jpg
+.. figure:: /images/materials-vertexpaint-toolshelf-options.jpg
    :width: 600px
 
    Options for vertex painting

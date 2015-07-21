@@ -156,15 +156,15 @@ Using repeat :kbd:`Shift-R`, the *Monkey* was also duplicated and moved.
 
 .. list-table::
 
-   * - .. figure:: /images/UndoRedo-00.Repeat.jpg
+   * - .. figure:: /images/UndoRedo-00-Repeat.jpg
 
           Suzanne.
 
-     - .. figure:: /images/UndoRedo-01.Repeat.jpg
+     - .. figure:: /images/UndoRedo-01-Repeat.jpg
 
           After a :kbd:`Shift-D` and move.
 
-     - .. figure:: /images/UndoRedo-02.Repeat.jpg
+     - .. figure:: /images/UndoRedo-02-Repeat.jpg
 
           After a :kbd:`Shift-R`.
 

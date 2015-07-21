@@ -123,7 +123,7 @@ A noticeable jitter of the edges of moving objects would be present.
 Options
 -------
 
-.. figure:: /images/Render-to-Fields-2.5+.jpg
+.. figure:: /images/Render-to-Fields.jpg
 
    Field Rendering setup.
 

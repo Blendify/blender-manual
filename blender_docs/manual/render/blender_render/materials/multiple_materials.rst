@@ -9,7 +9,7 @@ However, in some applications you can obtain multiple colors on an object by ass
 different materials to the individual faces of the object.
 
 
-.. figure:: /images/Doc_2.6_Materials_Creating.jpg
+.. figure:: /images/materials_creating.jpg
 
    Add new material
 
@@ -18,7 +18,7 @@ To apply several materials to different faces of the same object,
 you use the Material Slots options (3) in the Materials header panel.
 
 
-.. figure:: /images/Manual-2.5-Material-MatMenu-MatAdded-EditMode.jpg
+.. figure:: /images/Material-MatMenu-MatAdded-EditMode.jpg
 
    Material menu in edit mode
 

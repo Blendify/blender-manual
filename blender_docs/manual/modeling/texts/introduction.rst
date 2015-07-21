@@ -69,7 +69,7 @@ Editing Text
    | Hotkey:   see below
 
 
-.. figure:: /images/2.5_Manual-Part-II-Modelling-Text-Create-Ex.jpg
+.. figure:: /images/modelling-text-create-ex.jpg
    :width: 300px
 
    Text in Edit mode.
@@ -202,7 +202,7 @@ They are usually a bit messy, so it may be useful to use a *Limited Dissolve* de
 Text Selection
 --------------
 
-.. figure:: /images/2.5_Manual-Part-II-Modelling-Text-Create-Ex.jpg
+.. figure:: /images/modelling-text-create-ex.jpg
    :width: 200px
 
    Text in Edit mode.
@@ -236,7 +236,7 @@ The *Font* panel has several options for changing the look of characters.
 Loading and Changing Fonts
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: /images/2.5_Manual-Part-II-Text-Load-Ex.jpg
+.. figure:: /images/text-load-ex.jpg
 
    Loading a Type 1 font file.
 
@@ -324,7 +324,7 @@ Text on Curve
 With the :doc:`curve modifier </modifiers/deform/curve>` you can let text follow a curve.
 
 
-.. figure:: /images/2.5_Manual-Part-II-Text-Curved-LowRes-Ex.jpg
+.. figure:: /images/text-curved-lowres-ex.jpg
    :width: 200px
 
    Text on curve.
@@ -364,7 +364,7 @@ Underline
 Character
 ^^^^^^^^^
 
-.. figure:: /images/2.5_Manual-Part-II-Text-Bold-Ex.jpg
+.. figure:: /images/text-bold-ex.jpg
    :width: 300px
 
    Bold text.

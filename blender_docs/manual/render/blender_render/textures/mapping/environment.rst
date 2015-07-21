@@ -190,7 +190,7 @@ onto which it is being mapped.
 
 .. list-table::
 
-   * - .. figure:: /images/Manual-Part-IV-EnvMap01-2.40.jpg
+   * - .. figure:: /images/EnvMap01.jpg
           :width: 300px
 
           Planar reflection example. 1: Camera, 2: Empty, 3: Reflecting Plane.

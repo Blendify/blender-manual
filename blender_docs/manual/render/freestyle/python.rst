@@ -38,7 +38,7 @@ the Blender Python API reference manual for the full detail of style module cons
 
 .. list-table::
 
-   * - .. figure:: /images/Manual-2.6-Render-Freestyle-Demo-Turning_Pages.jpg
+   * - .. figure:: /images/render-freestyle-Demo-Turning_Pages.jpg
           :width: 300px
 
           By T.K. using the Python Scripting mode

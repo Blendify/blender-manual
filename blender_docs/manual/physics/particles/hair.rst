@@ -54,7 +54,7 @@ which is useful for thicker strands, or things like grass, or feathers, which ma
 Options
 =======
 
-.. figure:: /images/Blender3D_ParticleSystem_HairSettings-2.5.jpg
+.. figure:: /images/particlesystem_hairsettings.jpg
 
    Image 4a: Settings for a Hair particle system.
 
@@ -120,7 +120,7 @@ See :doc:`Particle Visualization </physics/particles/visualization>` for descrip
 Usage
 =====
 
-.. figure:: /images/Blender3D_FurWithParticles-Finished-2.48a.jpg
+.. figure:: /images/fur_withparticles-finished.jpg
    :width: 400px
 
    Image 4b: Particle systems may get hairy...

@@ -27,12 +27,12 @@ to sculpt mode specific panels. The panels in the toolbar will be *Brush*,
 Also a red circle will appear that follows the location of the cursor in the 3d view.
 
 
-.. figure:: /images/2.5_Sculpt_mode_drop_down.jpg
+.. figure:: /images/sculpt_mode_drop_down.jpg
 
    Sculpt Mode Dropdown.
 
 
-.. figure:: /images/2.5_Sculpt_brush_circle.jpg
+.. figure:: /images/sculpt_brush_circle.jpg
 
    The cursor in Sculpt Mode.
 

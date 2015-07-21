@@ -258,7 +258,7 @@ Exactly like standard children objects. You can modify this behavior on a per-bo
 using their sub-panels in the *Armature Bones* panel:
 
 
-.. figure:: /images/Man2.5RiggingEditingBoneCxtRelationsPanel.jpg
+.. figure:: /images/RiggingEditingBoneCxtRelationsPanel.jpg
    :width: 200px
 
    The Armature Bones panel in Pose mode.

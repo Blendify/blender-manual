@@ -12,7 +12,7 @@
    | Menu:     Droplist in the header of the 3D view
 
 
-.. figure:: /images/Manual-2.5-PivotSelection.jpg
+.. figure:: /images/PivotSelection.jpg
 
    Pivot Point modes.
 

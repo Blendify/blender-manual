@@ -54,7 +54,7 @@ in the *User Preferences* ' (available in the *File* menu)
 Examples
 --------
 
-.. figure:: /images/Manual-2.5-Modeling-Duplicate-Example.jpg
+.. figure:: /images/Modeling-Duplicate-Example.jpg
    :width: 620px
 
    The mesh ``Cone.006`` of object ``Cone.002`` is being edited.
@@ -106,7 +106,7 @@ Reference (*Duplicate Example*) for the discussions below.
 Examples
 --------
 
-.. figure:: /images/Manual-2.5-Modelling-Duplicate-Linked-Example.jpg
+.. figure:: /images/Modelling-Duplicate-Linked-Example.jpg
    :width: 620px
 
    The object ``Cone.001`` was linked duplicated.

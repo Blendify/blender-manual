@@ -6,7 +6,7 @@
 Color Management
 ****************
 
-.. figure:: /images/Blender2.64_color_management.jpg
+.. figure:: /images/color_management.jpg
    :width: 250px
    :align: right
 
@@ -26,7 +26,7 @@ Rendering and compositing is best done in **scene linear color space**,
 which corresponds more closely to nature, and makes computations more physically accurate.
 
 
-.. figure:: /images/Blender2.64_color_mgt_example_workflow.jpg
+.. figure:: /images/color_mgt_example_workflow.jpg
 
    Example linear workflow
 
@@ -45,7 +45,7 @@ so we have to take care to do the right conversion into and out of this linear c
 Settings
 ========
 
-.. figure:: /images/Blender2.64_color_mgt_settings.jpg
+.. figure:: /images/color_mgt_settings.jpg
 
    Scene settings for color management
 
@@ -72,7 +72,7 @@ Display Device
 
    Color management can be disabled by setting the device to None.
 
-.. figure:: /images/Blender2.64_color_mgt_display.jpg
+.. figure:: /images/color_mgt_display.jpg
 
    Conversion from linear to display device space
 
@@ -158,7 +158,7 @@ Color Space
    For such images the color space should be set to None.
 
 
-.. figure:: /images/Blender2.64_color_mgt_image_settings.jpg
+.. figure:: /images/color_mgt_image_settings.jpg
 
    Image settings for color management
 

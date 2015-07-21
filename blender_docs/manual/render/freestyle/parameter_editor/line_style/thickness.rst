@@ -5,7 +5,7 @@ Thickness
 
 In this tab you control the thickness of your strokes.
 
-.. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Thickness.jpg
+.. figure:: /images/render-freestyle-Line_Style_Thickness.jpg
    :width: 300px
    :align: right
 
@@ -51,7 +51,7 @@ The *Along Stroke* modifier alters the base thickness with a new one from either
 linear progression or a custom curve, mapped along each stroke's length. In other words,
 it applies the selected progression along each stroke.
 
-.. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Thickness_Along_Stroke.jpg
+.. figure:: /images/render-freestyle-Line_Style_Thickness_Along_Stroke.jpg
    :width: 300px
    :align: center
 
@@ -66,7 +66,7 @@ Calligraphy
 The *Calligraphy* modifier mimics some broad and flat pens for calligraphy.
 It generates different thickness based on the orientation of the stroke.
 
-.. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Thickness_Calligraphy.jpg
+.. figure:: /images/render-freestyle-Line_Style_Thickness_Calligraphy.jpg
    :width: 300px
    :align: right
 
@@ -95,7 +95,7 @@ The *Distance from Camera* modifier alters the base thickness with a new one fro
 either a linear progression or a custom curve,
 using the distance to the active camera as the parameter.
 
-.. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Thickness_Distance_From_Camera.jpg
+.. figure:: /images/render-freestyle-Line_Style_Thickness_Distance_From_Camera.jpg
    :width: 300px
    :align: right
 
@@ -122,7 +122,7 @@ The *Distance from Object* modifier alters the base thickness with a new one fro
 either a linear progression or a custom curve,
 using the distance to a given object as parameter.
 
-.. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Thickness_Distance_From_Object.jpg
+.. figure:: /images/render-freestyle-Line_Style_Thickness_Distance_From_Object.jpg
    :width: 300px
    :align: right
 
@@ -153,7 +153,7 @@ current material under the stroke.
 You can use various properties of the materials, among which some are multi-components (i.e.
 give RGB results). In that case, the mean value will be used.
 
-.. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Thickness_Material.jpg
+.. figure:: /images/render-freestyle-Line_Style_Thickness_Material.jpg
    :width: 300px
    :align: right
 

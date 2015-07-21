@@ -19,7 +19,7 @@ the surface is fully opaque,
 and the color of the surface determines the final color of the pixel.
 
 
-.. figure:: /images/Doc_2.6_Materials_Properties_Transparency.jpg
+.. figure:: /images/materials_properties_transparency.jpg
 
    Transparency Panel
 
@@ -120,7 +120,7 @@ this is all because of the Index of Refraction of glass.
 Options
 =======
 
-.. figure:: /images/Manual-2.5-Material-RaytracedTransp-Panel.jpg
+.. figure:: /images/Material-RaytracedTransp-Panel.jpg
 
    The Transparency Panel.
 
@@ -168,7 +168,7 @@ Examples
 Index of Refraction
 -------------------
 
-.. figure:: /images/Manual-2.5-Material-RaytracedTransp-IOR-Examples.jpg
+.. figure:: /images/Material-RaytracedTransp-IOR-Examples.jpg
 
    Influence of the IOR of an Object on the distortion of the background:
    spheres of Water, Glass and Diamond (top to bottom).
@@ -185,10 +185,10 @@ Fresnel
 
 .. list-table::
 
-   * - .. figure:: /images/Manual-2.5-Material-RayTraceTransp-FresnelExampel.jpg
+   * - .. figure:: /images/Material-RayTraceTransp-FresnelExampel.jpg
           :width: 320px
 
-     - .. figure:: /images/Manual-2.5-Material-RayTraceTransp-FresnelExampelZTransp.jpg
+     - .. figure:: /images/Material-RayTraceTransp-FresnelExampelZTransp.jpg
           :width: 320px
 
    * - 16 pieces of glass rotated in various directions demonstrate the angle-dependent Fresnel effect
@@ -198,10 +198,10 @@ Fresnel
 
      -
 
-   * - .. figure:: /images/Manual-2.5-Material-RayTraceTransp-FresnelSettings.jpg
+   * - .. figure:: /images/Material-RayTraceTransp-FresnelSettings.jpg
           :width: 320px
 
-     - .. figure:: /images/Manual-2.5-Material-RayTraceTransp-FresnelSettingsZTransp.jpg
+     - .. figure:: /images/Material-RayTraceTransp-FresnelSettingsZTransp.jpg
           :width: 320px
 
    * - Settings for Fresnel using ray-traced (left) and Z transparency (right).
@@ -220,7 +220,7 @@ value or decreasing the *Alpha* value.
 Depth
 -----
 
-.. figure:: /images/Manual-2.5-Material-Transp-3GlassesExample.jpg
+.. figure:: /images/Material-Transp-3GlassesExample.jpg
    :width: 640px
 
    A simple scene with three glasses on a surface, and three lamps.

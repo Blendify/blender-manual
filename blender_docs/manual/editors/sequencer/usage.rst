@@ -19,7 +19,7 @@ It offers a number of built-in and plug-in effects to transition from sequence t
 providing advanced hollywood-style effects for a professional looking video.
 
 
-.. figure:: /images/2.5_Manual-VSE-header.jpg
+.. figure:: /images/vse-header.jpg
    :width: 400px
 
    Video Sequence Editor in Sequence display mode
@@ -39,7 +39,7 @@ In the x direction, seconds of animation or frames of animation
 (see the Reference for more info).
 
 
-.. figure:: /images/2.5_Manual-VSE-DoSequence.jpg
+.. figure:: /images/vse-dosequence.jpg
 
    Sequence Output Enabled
 

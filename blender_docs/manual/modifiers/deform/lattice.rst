@@ -10,7 +10,7 @@ Lattice object.
 Options
 =======
 
-.. figure:: /images/Reference-Panels-Modifier-Lattice.2.5.jpg
+.. figure:: /images/Reference-Panels-Modifier-Lattice.jpg
 
    Lattice modifier.
 

@@ -6,25 +6,25 @@ Armature visualization
 We have 4 basic bone visualization: Octahedral, Stick, B-Bone, Envelope and Wire:
 
 
-.. figure:: /images/Man2.5RiggingBonePrincipalsBoneDisplayOctahedral.jpg
+.. figure:: /images/RiggingBonePrincipalsBoneDisplayOctahedral.jpg
    :width: 300px
 
    Octahedral bone display.
 
 
-.. figure:: /images/Man2.5RiggingBonePrincipalsBoneDisplayStick.jpg
+.. figure:: /images/RiggingBonePrincipalsBoneDisplayStick.jpg
    :width: 300px
 
    Stick bone display.
 
 
-.. figure:: /images/Man2.5RiggingBonePrincipalsBoneDisplayBBone.jpg
+.. figure:: /images/RiggingBonePrincipalsBoneDisplayBBone.jpg
    :width: 300px
 
    B-Bone bone display.
 
 
-.. figure:: /images/Man2.5RiggingBonePrincipalsBoneDisplayEnvelope.jpg
+.. figure:: /images/RiggingBonePrincipalsBoneDisplayEnvelope.jpg
    :width: 300px
 
    Envelope bone display.
@@ -44,7 +44,7 @@ But let's first see some general visualization properties of armatures,
 found in the *Display* panel of the *Object data* context.
 
 
-.. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtDisplayPanel.jpg
+.. figure:: /images/RiggingEditingObjectDataPropertyCxtDisplayPanel.jpg
    :width: 250px
 
    The Display panel.
@@ -149,7 +149,7 @@ Blender allows you to give to each bone of an armature a specific shape
 First of all, you have to enable the *Shapes* button (*Armature* panel).
 
 
-.. figure:: /images/Man2.5RiggingEditingBoneCxtDisplayPanel.jpg
+.. figure:: /images/RiggingEditingBoneCxtDisplayPanel.jpg
    :width: 250px
 
    The Display panel.
@@ -180,7 +180,7 @@ To assign a custom shape to a bone, you have to:
   in this example we are using a cube and a cone. Tou can optionally set the *At* field to another bone.
 
 
-.. figure:: /images/Man2.5RiggingEditingBoneCxtDisplayPanel2.jpg
+.. figure:: /images/RiggingEditingBoneCxtDisplayPanel2.jpg
    :width: 250px
 
    The Display panel.
@@ -229,7 +229,7 @@ Armature Layers
    | Panel:    *Skeleton* panel, *Object data* context
 
 
-.. figure:: /images/Man2.5RiggingEditingObjectDataPropertyCxtSkeletonPanel.jpg
+.. figure:: /images/RiggingEditingObjectDataPropertyCxtSkeletonPanel.jpg
    :width: 250px
 
    The Skeleton panel.
@@ -277,7 +277,7 @@ Bone Layers
    | Panel:    *Relations* panel *Bone* context
 
 
-.. figure:: /images/Man2.5RiggingEditingBoneCxtRelationsPanel.jpg
+.. figure:: /images/RiggingEditingBoneCxtRelationsPanel.jpg
    :width: 250px
 
    The Relations panel.
@@ -308,7 +308,7 @@ Hiding Bones
    | Panel:    *Display* panel, *Bone* context
 
 
-.. figure:: /images/Man2.5RiggingEditingBoneCxtDisplayPanel.jpg
+.. figure:: /images/RiggingEditingBoneCxtDisplayPanel.jpg
    :width: 250px
 
    The Display panel.

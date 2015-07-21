@@ -15,7 +15,7 @@ See :doc:`/render/blender_render/lighting/shadows/index` for a more complete des
    In MultiTexture mode, shadows only appear in the rendered image: none of these can be seen in the preview image.
 
 
-.. figure:: /images/Doc_2.6_Materials_Properties_Shadow.jpg
+.. figure:: /images/materials_properties_shadow.jpg
 
    Fig. 1: Shadow Panel.
 
@@ -25,7 +25,7 @@ controls the effects that the material can have on the shadows that appear in th
 The various properties are described in the sections below.
 
 
-.. figure:: /images/Doc_2.6_Materials_Properties_Shadow2.jpg
+.. figure:: /images/materials_properties_shadow2.jpg
 
    Fig. 2: Scene- all shadow properties off.
 
@@ -54,12 +54,12 @@ Receive Transparent
    and color of the shadow-casting object (Fig. 4).
 
 
-.. figure:: /images/Doc_2.6_Materials_Properties_Shadow3.jpg
+.. figure:: /images/materials_properties_shadow3.jpg
 
    Fig. 3: Plane - Receive.
 
 
-.. figure:: /images/Doc_2.6_Materials_Properties_Shadow4.jpg
+.. figure:: /images/materials_properties_shadow4.jpg
 
    Fig. 4: Plane - Receive + Receive Transparency.
 
@@ -84,12 +84,12 @@ Shadow and Distance
    ???
 
 
-.. figure:: /images/Doc_2.6_Materials_Properties_Shadow5.jpg
+.. figure:: /images/materials_properties_shadow5.jpg
 
    Fig. 5: Posts - Cast Only.
 
 
-.. figure:: /images/Doc_2.6_Materials_Properties_Shadow6.jpg
+.. figure:: /images/materials_properties_shadow6.jpg
 
    Fig. 6: Posts - Shadows Only.
 

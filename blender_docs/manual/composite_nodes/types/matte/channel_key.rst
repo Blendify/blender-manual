@@ -3,7 +3,7 @@
 Channel Key Node
 ****************
 
-.. figure:: /images/2.5_Channel_key_node.jpg
+.. figure:: /images/channel_key_node.jpg
    :width: 150px
 
    Channel Key node

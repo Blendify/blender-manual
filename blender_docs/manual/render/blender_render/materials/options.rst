@@ -14,7 +14,7 @@ and activate a material for editing in the rest of the panels.
 Context
 =======
 
-.. figure:: /images/Manual-2.5-Material-MatMenu-MatAdded-ObjectMode.jpg
+.. figure:: /images/Material-MatMenu-MatAdded-ObjectMode.jpg
 
    Material panel
 
@@ -58,7 +58,7 @@ Deselect
 Material naming and linking
 ---------------------------
 
-.. figure:: /images/Manual-2.5-Material-MatMenu-LinkObjData.jpg
+.. figure:: /images/Material-MatMenu-LinkObjData.jpg
 
    Link material to object or to object's data
 

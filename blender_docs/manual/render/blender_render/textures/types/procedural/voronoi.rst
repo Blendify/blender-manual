@@ -43,7 +43,7 @@ Distance Metric
 
 .. list-table::
 
-   * - .. figure:: /images/VoronoyMinkovsky0.5.jpg
+   * - .. figure:: /images/VoronoyMinkovsky0_5.jpg
           :width: 200px
 
           Minkovsky Exponent : 0.5 (Minkovsky 1/2)

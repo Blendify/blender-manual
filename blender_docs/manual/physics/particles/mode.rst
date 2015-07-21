@@ -39,7 +39,7 @@ FIXME(Template Unsupported: Shortcut/Keypress;
 Select :menuselection:`pop-up --> Render --> Render OpenGL Animation` in *Render Engine* mode.
 
 
-.. figure:: /images/Blender2.6_particle_mode.jpg
+.. figure:: /images/particle_mode.jpg
    :width: 120px
 
    Editing hair strands in Particle Mode

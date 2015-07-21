@@ -3,7 +3,7 @@
 Line Style & Modifiers
 **********************
 
-.. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_UI.jpg
+.. figure:: /images/render-freestyle-Line_Style_UI.jpg
    :width: 300px
 
    Line Style UI
@@ -30,7 +30,7 @@ sets by selecting it from the dropdown menu next to its name.
    as specified in the :doc:`core options </render/freestyle/core>`).
 
 
-.. figure:: /images/Manual-2.6-Render-Freestyle-Line_Style_Demo.jpg
+.. figure:: /images/render-freestyle-Line_Style_Demo.jpg
    :width: 800px
 
    Line Style demo `File:LineStyles.zip <http://wiki.blender.org/index.php/File:LineStyles.zip>`__
