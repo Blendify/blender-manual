@@ -308,58 +308,87 @@ IOR values for Common Materials
 The following list provides some index of refraction values to use when ray-traced
 transparency is used for various liquids, solids (gems), and gases:
 
-Air
-   ``1.000``
-Alcohol
-   ``1.329``
-Bronze
-   ``1.18``
-Carbon Dioxide (gas)
-   ``1.000449``
-Chalk
-   ``1.510``
-Copper
-   ``1.10``
-Glass
-   ``1.51714``
-Gold
-   ``0.47``
-Ice
-   ``1.309``
-Iron
-   ``1.51``
-Lead
-   ``2.01``
-Milk
-   ``1.35``
-Oil, vegetable (50- C)
-   ``1.47``
-Oxygen (gas)
-   ``1.000276``
-Rock Salt
-   ``1.544``
-Rubber, Natural
-   ``1.5191``
-Ruby
-   ``1.757 - 1.779``
-Shampoo
-   ``1.362``
-Silicon
-   ``4.24``
-Silver
-   ``0.18``
-Steel
-   ``2.50``
-Water (0- C)
-   ``1.33346``
-Water (100- C)
-   ``1.31766``
-Water (20- C)
-   ``1.33283``
-Water (gas)
-   ``1.000261``
-Water (35- C, room temp)
-   ``1.33157``
-Vodka
-   ``1.363``
+.. Sections ordered by density (low -> high)
+
+
+Gasses
+------
+
+.. hlist::
+   :columns: 3
+
+   - Air ``1.000``
+   - Carbon Dioxide ``1.000449``
+   - Oxygen ``1.000276``
+
+Common Liquids
+--------------
+
+.. hlist::
+   :columns: 3
+
+   - Alcohol ``1.329``
+   - Milk ``1.35``
+   - Oil, vegetable (50- C) ``1.47``
+   - Shampoo ``1.362``
+   - Water (0- C) ``1.33346``
+   - Water (100- C) ``1.31766``
+   - Water (20- C) ``1.33283``
+   - Water (gas) ``1.000261``
+   - Water (35- C, room temp) ``1.33157``
+   - Vodka ``1.363``
+
+
+Common Transparent Materials
+----------------------------
+
+.. hlist::
+   :columns: 3
+
+   - Glass ``1.51714``
+   - Ice ``1.309``
+   - Rock Salt ``1.544``
+
+
+Common Opaque Materials
+-----------------------
+
+.. hlist::
+   :columns: 3
+
+   - Asphalt ``1.635 ``
+   - Chalk ``1.510``
+   - Plastic ``1.46``
+   - Rubber, Natural ``1.5191``
+   - Silicon ``4.24``
+
+
+Gemstones
+---------
+
+.. hlist::
+   :columns: 3
+
+   - Diamond ``2.417``
+   - Jade, Nephrite ``1.61``
+   - Opal ``1.45``
+   - Ruby ``1.757 - 1.779``
+
+
+Metals
+------
+
+.. hlist::
+   :columns: 3
+
+   - Aluminum ``1.44``
+   - Bronze ``1.18``
+   - Copper ``1.10``
+   - Gold ``0.47``
+   - Iron ``1.51``
+   - Lead ``2.01``
+   - Platinum ``2.33``
+   - Silver ``0.18``
+   - Steel ``2.50``
+   - Titanium ``2.16``
 
