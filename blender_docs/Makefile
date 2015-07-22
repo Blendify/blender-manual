@@ -54,7 +54,7 @@ singlehtml: FORCE
 	$(SPHINXBUILD) -b singlehtml $(SPHINXOPTS) ./manual "$(BUILDDIR)/singlehtml"
 
 	@echo "To view, run:"
-	@echo "  "$(OPEN_CMD) $(shell pwd)"/$(BUILDDIR)/single_html/$(CONTENTS_HTML)"
+	@echo "  "$(OPEN_CMD) $(shell pwd)"/$(BUILDDIR)/singlehtml/$(CONTENTS_HTML)"
 
 pdf: FORCE
 	QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
