@@ -179,27 +179,6 @@ in other editor windows and they will work much the same way as they do in 3D Vi
 Rotating and scaling also work in certain editors as well.
 
 
-Python Scripting
-================
-
-You can use Python Scripting in Blender to Grab/Move Objects or elements to a specific location,
-either using the Python interactive console or running a Python script in the Text Editor Window.
-
-Getting the location vector for current object ``bpy.context.scene.objects.active.location``
-returns you the location vector for the active object in the scene.
-You can assign a different value to the location vector to change the position of the object.
-
-Operator for translating active object and its syntax:
-
-.. code-block:: python
-
-   bpy.ops.transform.translate(value=(<DX>, <DY>, <DZ>), constraint_axis=(<bool>,
-   <bool>,<bool>), constraint_orientation='<ORIENTATION NAME>', mirror=<bool>,
-   proportional='<ENABLE?DISABLE>', proportional_edit_falloff='<FALLOFF TYPE>',
-   proportional_size=<INT>, snap=<bool>, snap_target='<SNAP TARGET>', snap_point=<x,y,z>,
-   snap_align=<bool>, snap_normal=<x,y,z>, texture_space=<bool>, release_confirm=<bool>)
-
-
 Hints
 =====
 
