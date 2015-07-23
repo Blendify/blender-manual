@@ -356,7 +356,7 @@ Common Opaque Materials
 .. hlist::
    :columns: 3
 
-   - Asphalt ``1.635 ``
+   - Asphalt ``1.635``
    - Chalk ``1.510``
    - Plastic ``1.46``
    - Rubber, Natural ``1.5191``
