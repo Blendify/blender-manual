@@ -38,9 +38,19 @@ endif
 # ----------------------
 
 
-$(CHAPTERS): all
+ifneq "$(findstring singlehtml, $(MAKECMDGOALS))" ""
+	.DEFAULT_GOAL := singlehtml
+else ifneq "$(findstring pdf, $(MAKECMDGOALS))" ""
+	.DEFAULT_GOAL := pdf
+else
+	.DEFAULT_GOAL := html
+endif
 
-all: FORCE
+
+$(CHAPTERS): $(.DEFAULT_GOAL)
+
+
+html: FORCE
 	# './' (input), './html/' (output)
 	QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
 	$(SPHINXBUILD) -b html $(SPHINXOPTS) ./manual "$(BUILDDIR)/html"
@@ -93,6 +103,7 @@ clean: FORCE
 help:
 	@echo ""
 	@echo "Convenience targets provided for building docs"
+	@echo "- html       - create HTML pages (default)"
 	@echo "- singlehtml - create a single (huge) HTML file"
 	@echo "- pdf        - create a PDF with latex"
 	@echo "               warning: this currently has some problems,"
