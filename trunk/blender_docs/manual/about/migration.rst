@@ -103,12 +103,15 @@ Barrier of Entry
 Increasing the barrier of entry isn't something to be taken lightly,
 however its our opinion that the trade-off is worthwhile.
 
-The short term benefit of quick & easy editing,
+The short term benefit of quick & easy editing with the Wiki,
 has to be weighed against the long term benefits of using a system better suited
 to collaboratively writing a document.
 
-We've also observed that drive-by edits often aren't such good quality,
-adding redundant text and even mis-information in some cases.
+We've observed the quality of drive-by edits varies a lot,
+sometimes adding redundant text and even mis-information at times.
+
+Often, low quality content would stay un-edited or incomplete,
+instead of being improved by others or removed.
 
 
 Conclusion
