@@ -54,7 +54,7 @@ OSX
 LOCAL
    .. parsed-literal:: ./|BLENDER_VERSION|/
 USER
-   .. parsed-literal:: /Users/{user}/Library/Application Support/Blender/|BLENDER_VERSION|/
+   .. parsed-literal:: /Users/$USER/Library/Application Support/Blender/|BLENDER_VERSION|/
 SYSTEM
    .. parsed-literal:: /Library/Application Support/Blender/|BLENDER_VERSION|/
 
@@ -71,7 +71,7 @@ Windows
 LOCAL
    .. parsed-literal:: .\\\ |BLENDER_VERSION|\\.
 USER
-   .. parsed-literal:: C:\\Documents and Settings\\{username}\\AppData\\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\
+   .. parsed-literal:: C:\\Documents and Settings\\$USERNAME\\AppData\\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\
 SYSTEM
    .. parsed-literal:: C:\\Documents and Settings\\All Users\\AppData\\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\
 
