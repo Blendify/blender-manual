@@ -4,6 +4,9 @@
 
 Welcome to the Blender Manual!
 
+This site can be downloaded for offline use
+`Download the full manual (zipped HTML files) <blender_manual.zip>`__
+
 
 Getting Started
 ---------------
