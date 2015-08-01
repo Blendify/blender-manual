@@ -29,28 +29,24 @@ Diffuse Indirect
 Diffuse Color
    Color weights of diffuse BSDFs. These weights are the color input socket for BSDF nodes,
    modified by any Mix and Add Shader nodes.
-
 Glossy Direct, Indirect, Color
    Same as above, but for glossy BSDFs.
 Transmission Direct, Indirect, Color
    Same as above, but for transmission BSDFs.
 Subsurface Direct, Indirect, Color
    Same as above, but for subsurface BSDFs.
-
 Emission
    Emission from directly visible surfaces.
 Environment
    Emission from the directly visible background. When the film is set to transparent,
    this can be used to get the environment color and composite it back in.
-
-
 Shadow
    Shadows from lamp objects.
 Ambient Occlusion
    Ambient occlusion from directly visible surfaces. BSDF color or AO factor is not included; i.e.
    it gives a 'normalized' value between 0 and 1.
 
-Note that :ref:`transparent BSDFs are given special treatment </render/cycles/settings/light_paths>`
+Note that :doc:`transparent BSDFs are given special treatment </render/cycles/settings/light_paths>`
 a fully transparent surface is treated as if there is no surface there at all;
 a partially transparent surface is treated as if only part of the light rays can pass through.
 This means it is not included in the Transmission passes;
