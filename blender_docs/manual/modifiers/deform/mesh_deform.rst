@@ -71,6 +71,15 @@ Dynamic
    Like with *Precision*, this setting is unavailable once a cage has been bound.
 
 
+.. warning::
+
+   Significant changes to the entire change mesh *(such as rotating the cage upside down)*
+   can cause noticable artifacts.
+
+   These can be reduced by binding at higher resolutions,
+   however it is a known limitation with this modifier and can't be avoided entirely.
+
+
 Hints
 =====
 
