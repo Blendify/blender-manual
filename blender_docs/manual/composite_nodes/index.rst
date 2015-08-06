@@ -8,8 +8,4 @@
    :maxdepth: 2
 
    introduction.rst
-   editor.rst
-   node_controls.rst
-   usage.rst
-   node_groups.rst
    types/index.rst

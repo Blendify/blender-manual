@@ -4,7 +4,7 @@ Node Controls
 
 This page explains the widgets to control a node.
 
-.. figure:: /images/compositing_nodecontrols_overview.png
+.. figure:: /images/editors_nodeeditor_nodecontrolsoverview.png
 
    Nodes main controls
 
@@ -38,15 +38,15 @@ Preview image toggle
 
 .. list-table::
 
-   * - .. figure:: /images/compositing_nodecontrols_collapse.png
+   * - .. figure:: /images/editors_nodeeditor_nodecontrolscollapse1.png
 
           Full display
 
-     - .. figure:: /images/compositing_nodecontrols_collapse2.png
+     - .. figure:: /images/editors_nodeeditor_nodecontrolscollapse2.png
 
           Preview hidden
 
-     - .. figure:: /images/compositing_nodecontrols_collapse3.png
+     - .. figure:: /images/editors_nodeeditor_nodecontrolscollapse3.png
 
           Node collapsed
 
@@ -59,7 +59,7 @@ or right edge of the node.
 Sockets
 =======
 
-.. figure:: /images/compositing_nodecontrols_sockets.png
+.. figure:: /images/editors_nodeeditor_nodecontrolssockets.png
 
    Node sockets
 
