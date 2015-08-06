@@ -5,15 +5,16 @@ Using Nodes
 Adding Nodes
 ============
 
-Nodes are added in two ways to the node editor by using the :menuselection:`Add` menu (:kbd:`Shift-A`)
-and picking the desired type of node.
+Nodes are added in two ways to the node editor:
+
+ - By using the toolshelf which has buttons for adding nodes, organized with tabs, or
+ - By using the :menuselection:`Add` menu (:kbd:`Shift-A`, or using the node editor header)
 
 Arranging Nodes
 ===============
 
 In general, try to arrange your nodes within the window such that the image flows from left to right, top to bottom.
-Move a node by clicking on a benign area and drag it around. Nodes can be clicked almost anywhere and dragged
-about; connections will reshape as a bezier curve as best as possible.
+Move a node by clicking on a benign area and drag it around. A node can be clicked almost anywhere to start dragging.
 
 
 Auto-offset
@@ -40,27 +41,26 @@ Example Video:
 Connecting nodes
 ================
 
-:kbd:`LMB`-click and drag a socket: you will see a branch coming out of it: this is called a "thread".
+:kbd:`LMB`-click on a socket and drag. You will see a line coming out of it: This is called a *link* or *noodle*.
 
-Keep dragging and connect the thread to an input socket of another node, then release the :kbd:`LMB`.
+Keep dragging and connect the link to an input socket of another node, then release the :kbd:`LMB`.
 
-In this case, a copy of each output is routed along a thread. However, only a single thread can be linked to an
-input socket.
+While multiple links can route out of an output socket, only a single link can be attached to an input socket.
 
-To reposition the outgoing node links of a node, rather than adding a new one, hold :kbd:`Ctrl` while dragging from an output socket. This
-works for single as well as for multiple outgoing connections.
+To reposition the outgoing links of a node, rather than adding a new one, hold :kbd:`Ctrl` while dragging from an
+output socket. This works for single as well as for multiple outgoing links.
 
 Disconnecting nodes
 ===================
 
-To break a link between sockets :kbd:`Ctrl-LMB`-click in an empty areas near the thread you want to disconnect and
-drag: you will see a little cutter icon appearing at your mouse pointer. Move it over the thread itself, and
+To break a link between sockets :kbd:`Ctrl-LMB`-click in an empty area, near the link you want to disconnect, and
+drag: You will see a little cutter icon appearing at your mouse pointer. Move it over the link itself, and
 release the :kbd:`LMB`.
 
 Duplicating a node
 ==================
 
-Click :kbd:`LMB` or :kbd:`RMB` on the desidered node, press  :kbd:`Shift-D` and move the mouse away to see the
+Click :kbd:`LMB` or :kbd:`RMB` on the desidered node, press :kbd:`Shift-D` and move the mouse away to see the
 duplicate of the selected node appeaing under the mouse pointer.
 
 .. note::
