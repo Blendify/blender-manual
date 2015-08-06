@@ -113,6 +113,16 @@ def warn_images_post():
     for fn in sorted(img_refs_set - img_files_set):
         print(fn)
 
+    if len(img_files_set) != len(set([fn.lower() for fn in img_files_set])):
+        img_files_set_lower = set()
+        print("LIST OF CASE-COLLIDING IMAGES:\n"
+              "==============================")
+        for fn in sort(img_files_set):
+            fn_lower = fn.lower()
+            if fn_lower in img_files_set_lower:
+                print(fn)
+            img_files_set_lower.add(fn_lower)
+
 
 # define the operations to call
 operations = []
