@@ -44,7 +44,7 @@ tightly or add more complexity? Here is where nodes come in.
 
 
 Making this node map is accomplished by working in a
-:doc:`Node Editor window </render/blender_render/materials/nodes/editor>`.
+:doc:`Node Editor window </editors/node_editor/editor>`.
 This section covers:
 
 - Enabling Material Nodes.
@@ -58,7 +58,7 @@ FIXME(Template Unsupported: Doc:2.6/Reference/Nodes/Concepts; {{Doc:2.6/Referenc
 Accessing The Node Editor
 =========================
 
-First lets enter the :doc:`node editor </render/blender_render/materials/nodes/editor>`
+First lets enter the :doc:`node editor </editors/node_editor/editor>`
 and make sure that the node editor has the material node button (the sphere icon) pressed,
 not the composite or texture node buttons.
 
