@@ -47,6 +47,9 @@ Keep dragging and connect the thread to an input socket of another node, then re
 In this case, a copy of each output is routed along a thread. However, only a single thread can be linked to an
 input socket.
 
+To reposition the outgoing node links of a node, rather than adding a new one, hold :kbd:`Ctrl` while dragging from an output socket. This
+works for single as well as for multiple outgoing connections.
+
 Disconnecting nodes
 ===================
 
