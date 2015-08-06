@@ -15,6 +15,28 @@ In general, try to arrange your nodes within the window such that the image flow
 Move a node by clicking on a benign area and drag it around. Nodes can be clicked almost anywhere and dragged
 about; connections will reshape as a bezier curve as best as possible.
 
+
+Auto-offset
+-----------
+
+*Auto-offset* is a feature that helps organizing node layouts interactively without interrupting the user workflow.
+When you drop a node with at least one input and one output socket onto an existing connection between two nodes,
+auto-offset will, depending on the direction setting, automatically move the left or right node away to make room
+for the new node.
+
+.. figure:: /images/compositing_usingnodes_autooffset.png
+
+Auto-offset is enabled by default, but it can be disabled from the node editor header.
+
+You can toggle the offset direction while you are moving the node by pressing :kbd:`T`.
+
+The offset margin can be changed using the *Auto-offset Margin* setting in the editing section of the User Preferences.
+
+Example Video:
+
+.. vimeo:: 135125839
+
+
 Connecting nodes
 ================
 
