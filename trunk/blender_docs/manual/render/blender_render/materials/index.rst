@@ -24,10 +24,6 @@
    properties/game_settings.rst
    properties/physics.rst
    nodes.rst
-   nodes/editor.rst
-   nodes/node_controls.rst
-   nodes/usage.rst
-   nodes/node_groups.rst
    nodes/types.rst
    nodes/types/input.rst
    nodes/types/output.rst
