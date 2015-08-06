@@ -1,7 +1,6 @@
 
-
 ******************
-System preferences
+System Preferences
 ******************
 
 The *System* tab allows you to set resolution, scripting console preferences, sound, graphics cards,
@@ -111,6 +110,8 @@ VBOs
    Use Vertex Buffer Objects, or vertex arrays if unsupported, for viewport rendering.
    Helps to speed up viewport rendering by allowing vertex array data to be stored in Graphics card memory.
 
+
+.. _preferences-system-window_draw:
 
 Window Draw Method
 ==================
