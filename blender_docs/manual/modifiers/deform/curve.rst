@@ -46,7 +46,7 @@ Let's make a simple example:
    [[File:Manual-Part-II-curvesDeform_exampleAddCurve.png|frame|left|Add a Curve.]]--> .
 
 
-.. figure:: /images/curvesDeform_exampleEditCurve.jpg
+.. figure:: /images/curvesdeform_exampleeditcurve2.jpg
    :width: 300px
 
    Edit Curve.
@@ -63,7 +63,7 @@ Let's make a simple example:
    Assign the Bezier curve to the Curve modifier (for Monkey)
 
 
-.. figure:: /images/curvesDeform_exampleMonkeyOnCurve1.jpg
+.. figure:: /images/curvesdeform_examplemonkeyoncurve3.jpg
    :width: 200px
 
    Monkey on a Curve.
