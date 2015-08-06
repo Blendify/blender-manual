@@ -102,6 +102,9 @@ clean: FORCE
 # Help for build targets
 help:
 	@echo ""
+	@echo "Documentation"
+	@echo "============="
+	@echo ""
 	@echo "Convenience targets provided for building docs"
 	@echo "- html       - create HTML pages (default)"
 	@echo "- singlehtml - create a single (huge) HTML file"
@@ -112,7 +115,15 @@ help:
 	@echo "  ... otherwise defaults to HTML"
 	@echo ""
 	@echo "Chapters - for quickly building a single chapter"
+	@echo ""
 
 	@$(foreach ch,$(CHAPTERS),echo "- "$(ch);)
+	@echo ""
+	@echo ""
+	@echo "Checking"
+	@echo "========"
+	@echo ""
+	@echo "- check_syntax       Check the syntax of all .rst files."
+	@echo "- check_structure    Check the structure of all .rst files."
 
 FORCE:
