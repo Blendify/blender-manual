@@ -25,7 +25,7 @@ When you drop a node with at least one input and one output socket onto an exist
 auto-offset will, depending on the direction setting, automatically move the left or right node away to make room
 for the new node.
 
-.. figure:: /images/compositing_usingnodes_autooffset.png
+.. figure:: /images/editors_nodeeditor_autooffset.png
 
 Auto-offset is enabled by default, but it can be disabled from the node editor header.
 

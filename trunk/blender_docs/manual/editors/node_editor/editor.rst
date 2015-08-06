@@ -11,7 +11,7 @@ FIXME(Template Unsupported: Doc:2.6/Reference/Nodes/Node Editor;
 Buttons for work with Compositing nodes
 =======================================
 
-.. figure:: /images/Compositing-Node-Header-Additionally.jpg
+.. figure:: /images/editors_nodeeditor_header.jpg
 
    Buttons for work with Compositing nodes
 
@@ -29,7 +29,7 @@ Use the active viewer node output as a backdrop. When enabled,
 additional settings appear in the Header and the Properties Panel:
 
 
-.. figure:: /images/Compositing-Node-Header-Backdrop-Channels.jpg
+.. figure:: /images/editors_nodeeditor_backdropchannels.jpg
 
    Backdrop Channels.
 
@@ -38,7 +38,7 @@ Backdrop Channels
    Set the image to be displayed with *Color*, *Color and Alpha*, or just *Alpha*.
 
 
-.. figure:: /images/Compositing-Node-Header-Zoom-Offset.jpg
+.. figure:: /images/editors_nodeeditor_zoomoffset.jpg
 
    Options of Zoom and Offset of Backdrop.
 
@@ -59,7 +59,7 @@ Re-render and composite changed layer when edits to the 3d scene are made.
 Perfomance for Compositing Nodes in Node Editor
 ===============================================
 
-.. figure:: /images/Compositing-Node-Panel-Perfomance.jpg
+.. figure:: /images/editors_nodeeditor_performancepanel.jpg
 
    Perfomance for Compositing Nodes in Node Editor
 
