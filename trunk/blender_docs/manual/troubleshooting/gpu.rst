@@ -24,7 +24,7 @@ Upgrade your OpenGL Driver
 Disable Anti-Aliasing (:term:`FSAA, Multi-Sampling<FSAA>`) 
    See :ref:`Invalid Selection, Disable Anti-Aliasing <troubleshooting-3d_view-invalid_selection>`.
 Change the *Window Draw Method*
-   This be set in the :ref:`system preferences <preferences-system-window_draw>`.
+   This is set in the :ref:`system preferences <preferences-system-window_draw>`.
    Its selected automatically, however when experiencing problems its worth
    checking if changing this resolves interface drawing problems.
 
