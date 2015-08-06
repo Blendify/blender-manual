@@ -27,7 +27,7 @@ Using Texture Nodes
 ===================
 
 To use texture nodes with the current texture,
-open a :doc:`Node Editor window </render/blender_render/textures/types/nodes/editor>`,
+open a :doc:`Node Editor window </editors/node_editor/editor>`,
 set it to *Texture* mode by clicking the "Texture" icon (
 
 .. figure:: /images/Selector-Node-Btn-Texture.jpg
