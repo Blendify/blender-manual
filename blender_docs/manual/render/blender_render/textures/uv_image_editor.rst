@@ -7,10 +7,13 @@ The UV/Image Editor for texturing
    TODO: Match formatting from: http://wiki.blender.org/index.php/Doc:2.6/Reference/Textures/UV_Image_Editor
    EDITORS NOTE: we probably don't need to move All tiny images over from old doc.
 
-
-[[Image:Doc-26-Textures-UV-Image-Editor-Texturing-Main.png|thumb|right|600px|UV/Image Editor window for texturing]]
 The UV/Image Editor is where you will be editing the UVs.
 This is an overview of the tools found there. Using the UV editor is explained more in depth in the next sections.
+
+.. figure:: /images/editors_uv-image-main.jpg
+   :align: center
+
+   UV/Image Editor window for texturing.
 
 
 Header Bar
