@@ -41,7 +41,6 @@
    mapping.rst
    mapping/environment.rst
    mapping/uv.rst
-   mapping/uv_image_editor.rst
    mapping/uv/unwrapping.rst
    mapping/uv/layout_management.rst
    mapping/uv/layout_editing.rst
