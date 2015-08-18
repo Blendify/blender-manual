@@ -561,3 +561,8 @@
 
    Vertex Group
       Vertices can be grouped together so that certain operations can work on specific groups.
+
+   Voxel
+      A cubicle 3D equivalent to the square 2D pixel.
+      The name is a combination of the terms "Volumetric" and ":term:`Pixel <pixel>`".
+      Used to store smoke and fire data from physics simulations.

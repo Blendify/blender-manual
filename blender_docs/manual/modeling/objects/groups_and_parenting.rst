@@ -616,6 +616,8 @@ By Material
    Creates separate mesh objects for each material.
 
 
+.. _grouping-objects:
+
 Grouping objects
 ================
 
