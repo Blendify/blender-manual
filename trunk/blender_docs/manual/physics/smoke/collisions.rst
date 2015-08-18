@@ -1,16 +1,30 @@
-..    TODO/Review: {{review|im=needs the settings panel image}} .
-
 **********
 Collisions
 **********
 
-Smoke can collide with mesh objects, using the 'Collision' option in smoke.
-Currently only static collision objects are supported.
+*Smoke Collision* objects are used to deflect smoke and influence airflow.
+
+
+To define any mesh object as a *Smoke Collision* object,
+add smoke physics by clicking *Smoke* in :menuselection:`Properties --> Physics`.
+Then select *Collision* as the *Smoke Type*.
+
+
+.. figure:: /images/smoke_collision_settings.png
+
+	*Smoke Collision* settings
+
+
+.. TODO, can't figure out what the differences between the collision types are :/
+.. Wild speculation on SE: http://blender.stackexchange.com/q/1723/599
+
+Collision type
+	Type of collision object
+
 
 
 Forces
 ======
 
-Blender's force fields (such as wind or vortex fields) are also supported,
-modifying the smoke simulation as they do for other physics systems such as particles.
-
+:doc:`Force Fields</physics/force_fields>` (such as wind or vortex) are supported, like most physics systems.
+The influence individual force types have :ref:`can be controlled per domain object <smoke-field-weights>`.

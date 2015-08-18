@@ -12,4 +12,3 @@
    collisions.rst
    material.rst
    baking.rst
-   appendix.rst
