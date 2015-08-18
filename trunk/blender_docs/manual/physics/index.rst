@@ -19,3 +19,4 @@
    force_fields.rst
    using_ge.rst
    performances.rst
+   baking.rst
