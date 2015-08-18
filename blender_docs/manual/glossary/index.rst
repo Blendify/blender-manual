@@ -83,6 +83,10 @@
 
    Axis
       A reference line depicting the direction of one of the coordinates in any coordinate system.
+      
+   Baking
+      Baking refers to the process of computing and storing the result of a potentially time-consuming calculation
+      so as to avoid needing to calculate it again.
 
    Bevel
       Operation to chamfer or bevel edges of an object.
