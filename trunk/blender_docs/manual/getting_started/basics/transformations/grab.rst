@@ -152,13 +152,13 @@ If you have changed the orientation to something other than Global,
 you can hotkey your chosen axis of orientation by hitting the relevant axis modifying hotkey
 **twice** instead of just once. Hitting the axis modifying hotkey three times reverts back to Global orientation.
 
-   - The :kbd:`G` hotkey followed by :kbd:`xx` or :kbd:`yy` or
-     :kbd:`zz` allows you to translate the object in the object's Local axis by default,
+   - The :kbd:`G` hotkey followed by :kbd:`X-X` or :kbd:`Y-Y` or
+     :kbd:`Z-Z` allows you to translate the object in the object's Local axis by default,
      or on an axis of the selected orientation if the transform orientation is not set to Global.
      This modifying hotkey combination can be followed with numbers as described in the previous section.
 
-   - The :kbd:`G` hotkey followed by :kbd:`Shift` and :kbd:`xx` or :kbd:`yy` or
-     :kbd:`zz` will lock the object's translation on a single Local axis by default,
+   - The :kbd:`G` hotkey followed by :kbd:`Shift` and :kbd:`X-X` or :kbd:`Y-Y` or
+     :kbd:`Z-Z` will lock the object's translation on a single Local axis by default,
      or on an axis of the selected orientation if the transform orientation is not set to Global.
      Locking one axis means the selected object moves freely on the other two axes.
 

@@ -31,7 +31,7 @@ This panel is used to add, select, manage *Absolute Keying Sets*.
 
 
 Keying Set Name
-   The active Keying Set is highlighted in blue, :kbd:`LMB-x2` to rename.
+   The active Keying Set is highlighted in blue, press :kbd:`Ctrl-LMB` to rename.
 
 `+`
    Add new (Empty) keying set to the active Scene.

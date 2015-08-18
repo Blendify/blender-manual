@@ -366,7 +366,7 @@
       - Edges connected to 3 or more faces (interior faces).
       - Vertices belonging to faces that are not adjoining (e.g. 2 cones sharing the vertex at the apex).
 
-      In edit mode, use :menuselection:`3D View --> Select --> Non Manifold` or :kbd:`Ctrl Alt Shift M`
+      In edit mode, use :menuselection:`3D View --> Select --> Non Manifold` or :kbd:`Ctrl-Alt-Shift-M`
       to select these types of non-manifold geometry in a mesh.
 
    Normal
