@@ -103,7 +103,15 @@ Is Transmission Ray output
    1.0 if shading is executed for a transmission ray, 0.0 otherwise.
 Ray Length output
    Distance traveled by the light ray from the last bounce or camera.
-
+Ray Depth
+   Number of times the ray has "bounced", i.e. been reflected or transmitted on interaction with a surface.
+   
+   .. note::
+      Passing through a transparent shader :ref:`does not count as a normal "bounce" <render-cycles-light_paths-transparency>`.
+      
+Transparent Depth
+   Number of times the ray has passed through a transparent shader.
+   
 
 Object Info
 ===========
