@@ -18,10 +18,19 @@ Then select *Collision* as the *Smoke Type*.
 .. TODO, can't figure out what the differences between the collision types are :/
 .. Wild speculation on SE: http://blender.stackexchange.com/q/1723/599
 
+.. Lukas Toenne investigated this (https://developer.blender.org/T45842#329325) and it appears that rigid and static
+	are the same.
+
 Collision type
-	Type of collision object
-
-
+	Static
+		Simple collision model which can be calculated quickly, but may be inaccurate for moving objects.
+		
+	Animated
+		More complex collision model which takes into account impulse imparted to smoke when the collider is moving.
+		Calculations are slower, but more accurate for moving objects.
+		
+	Rigid
+		Identical to *Static* (unfinished code).
 
 Forces
 ======
