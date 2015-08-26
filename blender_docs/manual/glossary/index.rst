@@ -141,9 +141,6 @@
    Constraint
       Tt is any factor that limits the performance of a system with respect to its goal.
 
-   Control cage
-      Mesh used in subsurf modeling to control the shape of the mesh.
-
    Controller
       A :term:`logic brick` that acts like the brain of a lifeform.
       It makes decisions to activate muscles (:term:`actuators <actuator>`),
@@ -188,11 +185,6 @@
       but the image is used to physically move the vertices of the mesh at render time.
       This is of course only useful if the mesh has large amounts of vertices.
 
-   Doppler Effect
-      The Doppler effect is the change in pitch that occurs when a sound has a velocity relative to the listener.
-      When a sound moves towards the listener the pitch will rise.
-      When going away from the listener the pitch will drop. A well known example is the sound of an car passing by.
-
    Double Buffer
       Blender uses two buffers (images) to draw the interface in.
       The content of one buffer is displayed, while drawing occurs on the other buffer.
@@ -215,9 +207,6 @@
       Method of calculating reflections.
       It involves rendering images at strategic positions and applying them as textures to the mirror.
       Now in most cases obsoleted by Raytracing, which though slower is easier to use and more accurate.
-
-   Extrude
-      Modeling tool used to extend and add geometry to a mesh.
 
    Face
       Mesh element that defines a piece of surface. It consists of 3 or more :term:`edges <edge>`.
@@ -302,9 +291,6 @@
       the senior artist would draw these frames, leaving the "in between" frames to an apprentice.
       Now, the animator creates only the first and last frames of a simple sequence (keyframes);
       the computer fills in the gap.
-
-   Knife
-      Is a tool used to cut meshes to get more geometry.
 
    Lattice
       A lattice consists of a non-renderable three-dimensional grid of vertices
@@ -445,11 +431,6 @@
    Procedural Texture
       Computer generated (generic) textures. Procedural textures can be configured via parameters.
 
-   Proportional Editing
-      Used to alter existing model in a more organic way.
-      When elements are moved interactively,
-      neighbouring elements are also moved depending on their distance and the defined parameters.
-
    Quad
       It's a :term:`face` that contains exactly four vertices.
 
@@ -517,9 +498,12 @@
       If new edges cross a new vertex is created on their crossing point.
 
    Subdivision surface
-      Is the tool which subdivides your model at render-time, without affecting your mesh at design-time.
+      Is a method of creating smooth surfaces, which can take a low polygon mesh as input.
 
-      Also called: **Subsurf**.
+      Sometimes abbreviated to **Subsurf**.
+
+      See Wikipedia's
+      `Catmull-Clark subdivision surface <http://en.wikipedia.org/wiki/Catmull%E2%80%93Clark_subdivision_surface>`__
 
    Tessellation
       TODO.
