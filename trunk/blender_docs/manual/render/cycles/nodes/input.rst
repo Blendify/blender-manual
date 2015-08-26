@@ -204,6 +204,34 @@ Reflection
    Vector in the direction of a sharp reflection, typically used for environment maps.
 
 
+UV Map
+======
+
+Retrieve specific UV maps.
+Unlike the `Texture Coordinates`_ node which only provides the active UV map,
+this node can retrieve any UV map belonging to the object using the material.
+
+From Dupli
+   If the material is applied to a dupli object, output UV coordinates from the active UV map of the parent object.
+   
+   .. figure:: /images/cycles_nodes_from_dupli_comparison.png
+   
+      From left to right: Sphere with UV mapped texture.
+      Small spheres duplicated to the faces of the textured sphere using :doc:`duplifaces </modeling/objects/duplication/duplifaces>`.
+      Small spheres with *From Dupli* enabled, using the UV map of the large sphere.
+   
+   .. note::
+   
+      *From Dupli* only works when the dupli object is instanced from faces,
+      either with :doc:`particles </physics/particles/introduction>` or
+      :doc:`duplifaces </modeling/objects/duplication/duplifaces>`.
+
+UV Map
+   UV map to use.
+UV output
+   UV mapping coordinates from the specified UV layer.
+   
+
 Particle Info
 =============
 
