@@ -179,8 +179,8 @@ Facing output
    as the surface goes from facing the viewer to viewing it at a grazing angle.
 
 
-Texture Coordinates
-===================
+Texture Coordinate
+==================
 
 Commonly used texture coordinates,
 typically used as inputs for the *Vector* input for texture nodes.
@@ -192,7 +192,7 @@ Generated
 Normal
    Object space normal, for texturing objects with the texture staying fixed on the object as it transformed.
 UV
-   UV texture coordinates from the active render UV layer.
+   UV texture coordinates from the active render UV map.
 Object
    Position coordinate in object space.
 Camera
@@ -208,7 +208,7 @@ UV Map
 ======
 
 Retrieve specific UV maps.
-Unlike the `Texture Coordinates`_ node which only provides the active UV map,
+Unlike the `Texture Coordinate`_ node which only provides the active UV map,
 this node can retrieve any UV map belonging to the object using the material.
 
 From Dupli
