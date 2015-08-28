@@ -80,8 +80,9 @@ Try opening ``build/html/contents.html`` in your web browser and read the manual
    open build/html/contents.html
 
 Now that you are able to build the manual,
-please visit `blender.org/documentation <http://blender.org/documentation>`__
-for more information such as the style guide and how to submit patches and gain commit access.
+please check out the :doc:`writing </about/writing_style_guide>` and :doc:`markup </about/writing_style_guide>`
+style guides for standard conventions, or the :doc:`contribution </about/contribute>`
+page to see how you can help write this manual.
 
 
 Building a Single Chapter
