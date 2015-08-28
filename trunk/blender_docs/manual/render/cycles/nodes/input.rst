@@ -185,23 +185,45 @@ Texture Coordinate
 Commonly used texture coordinates,
 typically used as inputs for the *Vector* input for texture nodes.
 
-Generated
+Generated output
    Automatically-generated texture coordinates from the vertex positions of the mesh without deformation,
    keeping them sticking to the surface under animation. Range from 0.0 to 1.
    0 over the bounding box of the undeformed mesh.
-Normal
+Normal output
    Object space normal, for texturing objects with the texture staying fixed on the object as it transformed.
-UV
+UV output
    UV texture coordinates from the active render UV map.
-Object
+Object output
    Position coordinate in object space.
-Camera
+Camera output
    Position coordinate in camera space.
-Window
+Window output
    Location of shading point on the screen, ranging from 0.0 to 1.
    0 from the left to right side and bottom to top of the render.
-Reflection
+Reflection output
    Vector in the direction of a sharp reflection, typically used for environment maps.
+
+Object
+   Specific object to use for object space coordinates.
+   This only affects the *Object* output.
+   
+.. _cycles-nodes-input-texture-coordinate-from-dupli:
+
+From Dupli
+   If the material is applied to a dupli object, use texture coordinates from the parent object.
+   This only affects the *Generated* and *UV* outputs.
+
+   .. figure:: /images/cycles_nodes_from_dupli_comparison.png
+
+      From left to right: Sphere with UV mapped texture.
+      Small spheres duplicated to the faces of the textured sphere using :doc:`duplifaces </modeling/objects/duplication/duplifaces>`.
+      Small spheres with *From Dupli* enabled, using the UV map of the large sphere.
+
+   .. note::
+
+      *From Dupli* only works with the UV output when the dupli object is instanced from faces,
+      either with :doc:`particles </physics/particles/introduction>` or
+      :doc:`duplifaces </modeling/objects/duplication/duplifaces>`.
 
 
 UV Map
@@ -212,19 +234,7 @@ Unlike the `Texture Coordinate`_ node which only provides the active UV map,
 this node can retrieve any UV map belonging to the object using the material.
 
 From Dupli
-   If the material is applied to a dupli object, output UV coordinates from the active UV map of the parent object.
-   
-   .. figure:: /images/cycles_nodes_from_dupli_comparison.png
-   
-      From left to right: Sphere with UV mapped texture.
-      Small spheres duplicated to the faces of the textured sphere using :doc:`duplifaces </modeling/objects/duplication/duplifaces>`.
-      Small spheres with *From Dupli* enabled, using the UV map of the large sphere.
-   
-   .. note::
-   
-      *From Dupli* only works when the dupli object is instanced from faces,
-      either with :doc:`particles </physics/particles/introduction>` or
-      :doc:`duplifaces </modeling/objects/duplication/duplifaces>`.
+   See the :ref:`From Dupli <cycles-nodes-input-texture-coordinate-from-dupli>` option of the *Texture Coordinate node*.
 
 UV Map
    UV map to use.
