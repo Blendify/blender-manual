@@ -78,10 +78,21 @@ We are now ready to convert all those **rst** files into pretty **html**!
   The building process may take several minutes the first time (or after any major changes),
   but the next time you build it should only take a few seconds.
 
+  .. note:: 
+
+     If you encounter an error ending with ``TypeError: an integer is required (got type str)``,
+     you may need to install an older version of *Babel* (the Python Internationalization Library).
+
+     To do this, simply run:
+
+     ::
+
+        C:\Python34\Scripts\pip install sphinx "babel<2.0"
+
 - Once the docs have been built, all the html files can be found inside ``C:\blender_docs\build\html``.
   Try opening ``\build\html\contents.html`` in your web browser and read the manual.
 
 Now that you are able to build the manual,
-please visit `blender.org/documentation <http://blender.org/documentation>`__
-for more information such as the style guide and how to submit patches and gain commit access.
-
+please check out the :doc:`writing </about/writing_style_guide>` and :doc:`markup </about/writing_style_guide>`
+style guides for standard conventions, or the :doc:`contribution </about/contribute>`
+page to see how you can help write this manual.
