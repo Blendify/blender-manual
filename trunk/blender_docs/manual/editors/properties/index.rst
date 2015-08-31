@@ -1,8 +1,8 @@
 .. _editors-properties-index:
 
-#############
-  Properties
-#############
+####################
+  Properties Editor
+####################
 
 TODO - see: https://developer.blender.org/T42899
 
