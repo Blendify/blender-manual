@@ -1,9 +1,9 @@
 ..    TODO/Review: {{review|text=Some parts need to be updated, wiki notes have been added below.}} .
 
 
-************
-The Timeline
-************
+***************
+Timeline Editor
+***************
 
 The *Timeline* window, identified by a clock icon,
 is shown by default at the bottom of the screen.
