@@ -68,7 +68,7 @@ Render
    Set quality when rendering in Node Editor.
 Edit
    Set quality when editing in Node Editor
-Chunksi
+Chunk Size
    Max size of a title (smaller values give better distribution of multiple threads, but more overhead).
 OpenCL
    Enable GPU calculations when working in Node Editor.
