@@ -94,6 +94,9 @@ To be avoided:
 Glossary
 --------
 
+This section is specifically about the :doc:`Glossary </glossary/index>` section,
+where we define common terms in Blender and computer-graphics.
+
 Rules of thumb:
 
 - Define the term before providing any further information.
