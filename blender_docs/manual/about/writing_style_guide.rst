@@ -90,3 +90,78 @@ To be avoided:
 
      .. TODO, how does this tool work? ask Joe Blogg's
 
+
+Glossary
+--------
+
+Rules of thumb:
+
+- Define the term before providing any further information.
+- Avoid using constructs such as *"It is"* or *"xyz is"* before the definition.
+- Avoid repeating the term immediately or using it in the definition.
+- Avoid adding terms not found in Blender's interface or the manual.
+- Avoid overly long entries.
+  If an explanation of a complex term is needed, supplement with external links.
+- Avoid duplicating documentation;
+  if explaining the term is the primary focus of another section of the manual
+  (e.g. if the term is the name of a tool),
+  either just link to that section, or avoid creating a glossary entry entirely.
+
+
+Examples
+^^^^^^^^
+
+This entry:
+
+.. code-block:: rst
+
+   Displacement Mapping
+      Uses a greyscale heightmap, like Bump Mapping,
+      but the image is used to physically move the vertices of the mesh at render time.
+      This is of course only useful if the mesh has large amounts of vertices.
+
+Would be written like this instead, putting a definition first:
+
+.. code-block:: rst
+
+   Displacement Mapping
+      Method for distorting vertices based on an image.
+      Similar to Bump Mapping, but instead operates on the mesh's actual geometry.
+      This relies on the mesh having enough geometry.
+
+----
+
+This entry:
+
+.. code-block:: rst
+
+   Doppler Effect
+      The Doppler effect is the change in pitch that occurs
+      when a sound has a velocity relative to the listener.
+
+Would be written more like this, avoiding the immediate repetition of the term:
+
+.. code-block:: rst
+
+   Doppler Effect
+      Perceived change in pitch that occurs
+      when the source of a sound is moving relative to the listener.
+
+----
+
+This entry:
+
+.. code-block:: rst
+
+   Curve
+      It’s a class of objects.
+      In Blender there are Bézier curves and NURBS curves.
+
+Would be written more like this, avoiding the *"it's"*:
+
+.. code-block:: rst
+
+   Curve
+      A type of object defined in terms of a line interpolated between Control Vertices.
+      *Available types of curves include Bézier and NURBS.*
+

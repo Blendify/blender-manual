@@ -4,7 +4,10 @@
   Glossary
 ###########
 
-.. if you add new entries, keep the alphabetical sorting!
+.. For writing style guide, see: ``../about/writing_style_guide.rst``.
+
+.. If you add new entries, keep the alphabetical sorting!
+
 
 .. glossary::
 
