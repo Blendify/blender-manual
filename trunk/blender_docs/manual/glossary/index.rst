@@ -136,7 +136,7 @@
    Color Blend Modes
       Ways in which 2 colors can be blended in computer graphics.
 
-      See Wikipedia's `Blend Modes <http://en.wikipedia.org/wiki/Blend_modes>`__
+      See `Blend Modes <http://en.wikipedia.org/wiki/Blend_modes>`__ on Wikipedia.
 
    Concave face
       Face in which one vert is inside a triangle formed by other vertices of the face.
@@ -267,8 +267,7 @@
       ranging from direct sunlight to the deepest shadows.
       The use of high dynamic range imaging in computer graphics has been popularised by the work of Paul Debevec.
 
-      See Wikipedia's:
-      `HDRI <http://http://en.wikipedia.org/wiki/HDRI>`__.
+      See `HDRI <http://en.wikipedia.org/wiki/HDRI>`__ on Wikipedia.
 
    IOR
    Index Of Refraction
@@ -385,8 +384,8 @@
    OpenGL
       The graphics system used by Blender (and many other graphics applications)
       for drawing 3D graphics, often taking advantage of hardware acceleration.
-      See Wikipedia's:
-      `OpenGL <http://en.wikipedia.org/wiki/OpenGL>`__.
+
+      See `OpenGL <http://en.wikipedia.org/wiki/OpenGL>`__ on Wikipedia.
 
    Oversampling
       Is the technique of minimizing :term:`aliasing` when representing a high-resolution
@@ -397,8 +396,8 @@
    Overscan
       Overscan is the term used to describe the situation
       when not all of a televised image is present on a viewing screen
-      See Wikipedia's:
-      `Overscan <http://en.wikipedia.org/wiki/Overscan>`__
+
+      See `Overscan <http://en.wikipedia.org/wiki/Overscan>`__ on Wikipedia.
 
    Particle system
       It's a technique that simulate certain kinds of fuzzy phenomena,
@@ -442,8 +441,9 @@
       that calculates patterns of light and shadow for rendering graphics images from three-dimensional models.
       One of the many different tools which can simulate diffuse lighting in Blender.
 
-      See Wikipedia's
+      See
       `Radiosity (computer graphics) <http://en.wikipedia.org/wiki/Radiosity_%28computer_graphics%29>`__
+      on Wikipedia.
 
    Raytracing
       Rendering technique that works by tracing the path taken by a ray of light through the scene,
@@ -505,8 +505,10 @@
 
       Sometimes abbreviated to **Subsurf**.
 
-      See Wikipedia's
+      See
       `Catmull-Clark subdivision surface <http://en.wikipedia.org/wiki/Catmull%E2%80%93Clark_subdivision_surface>`__
+      on Wikipedia
+
 
    Tessellation
       TODO.
@@ -543,8 +545,7 @@
       Term used for uploading geometry to the graphics cards memory for improved performance
       with :term:`OpenGL` drawing.
 
-      See Wikipedia's
-      `Vertex Buffer Object <http://en.wikipedia.org/wiki/Vertex_Buffer_Object>`__
+      See `Vertex Buffer Object <http://en.wikipedia.org/wiki/Vertex_Buffer_Object>`__ on Wikipedia.
 
    Vertex Group
       Vertices can be grouped together so that certain operations can work on specific groups.
