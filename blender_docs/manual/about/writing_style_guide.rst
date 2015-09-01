@@ -109,6 +109,11 @@ Rules of thumb:
   if explaining the term is the primary focus of another section of the manual
   (e.g. if the term is the name of a tool),
   either just link to that section, or avoid creating a glossary entry entirely.
+- URL references are to be added at the end, formatted as follows, eg:
+
+  .. code-block:: rst
+
+     See also `OpenGL <http://en.wikipedia.org/wiki/OpenGL>`__ on Wikipedia.
 
 
 Examples
