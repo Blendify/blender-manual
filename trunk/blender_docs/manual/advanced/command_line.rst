@@ -127,7 +127,7 @@ Debug Options
 ``-d``, ``--debug``
    Turn debugging on
 
-   * Prints every operator call and their arguments
+   * Enables memory error detection
    * Disables mouse grab (to interact with a debugger in some cases)
    * Keeps Python's ``sys.stdin`` rather than setting it to None
 ``--debug-value`` <value>
@@ -157,7 +157,7 @@ Debug Options
 ``--debug-gpumem``
    Enable GPU memory stats in status bar
 ``--debug-wm``
-   Enable debug messages for the window manager
+   Enable debug messages for the window manager, also prints every operator call
 ``--debug-all``
    Enable all debug messages (excludes libmv)
 
@@ -209,6 +209,8 @@ Other Options
    Print this help text and exit (windows only)
 ``--debug-freestyle``
    Enable debug/profiling messages from Freestyle rendering
+``--debug-gpu``
+   Enable gpu debug context and information for OpenGL 4.3+.
 ``--disable-abort-handler``
    Disable the abort handler
 ``--enable-new-depsgraph``
