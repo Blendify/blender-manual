@@ -81,12 +81,9 @@
       A single-member class of primitive object.
       It consists of :term:`bones <bone>`. Its primary use is in development of animated, articulated objects.
 
-   Automerge
-      Editing mode working with Snap-tool. It removes the doubles when you snap 2 vertices.
-
    Axis
       A reference line depicting the direction of one of the coordinates in any coordinate system.
-      
+
    Baking
       Baking refers to the process of computing and storing the result of a potentially time-consuming calculation
       so as to avoid needing to calculate it again.
@@ -134,7 +131,7 @@
       Is a tool used to remove redundant edges from geometry.
 
    Color Blend Modes
-      Ways in which 2 colors can be blended in computer graphics.
+      Ways in which two colors can be blended in computer graphics.
 
       See also `Blend Modes <http://en.wikipedia.org/wiki/Blend_modes>`__ on Wikipedia.
 
