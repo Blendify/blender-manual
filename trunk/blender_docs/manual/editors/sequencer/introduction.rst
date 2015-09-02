@@ -40,10 +40,3 @@ Finally,
 add an audio track so you can synchronize the timing of the video sequence to match it.
 The result of using the VSE is your finished movie.
 
-
-.. note:: FFMPEG Support
-
-   Support for exporting an avi/quicktime movie using FFMPEG does work,
-   currently (since 2.44) only within the Linux and Windows builds. With FFMPEG support,
-   you are able to save the audio track with your video.
-
