@@ -32,7 +32,7 @@ Rigid Body panel.
 
    *Calculate Mass*
       Automatically calculate mass values for Rigid Body Objects based on volume.
-      There are manu useful presets available from the menu, patching real-world objects.
+      There are many useful presets available from the menu, patching real-world objects.
 
       Also you can have *Custom* mass material type,
       which is achieved by setting a custom density value (kg/m\ :sup:`3`).
