@@ -218,7 +218,7 @@ Menu Shortcuts
 - Each menu item has an underlined character which can be pressed to activate it.
 - Number keys or num-pad can be used to access menu items.
   (Where :kbd:`1` is the first menu item, :kbd:`2` the second... etc).
-- Press :kbd:`Return` to activate the selected manu item.
+- Press :kbd:`Return` to activate the selected menu item.
 - Press :kbd:`Esc` to cancel the menu.
 
 
