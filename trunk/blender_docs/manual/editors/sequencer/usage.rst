@@ -13,6 +13,12 @@
 Overview of the Sequence Editor
 *******************************
 
+.. figure:: /images/sequencer_modes_screen_layout.jpg
+   :width: 300px
+
+   Default Video Editing screen layout.
+
+
 Blender's Video Sequence Editor is a flexible workbench for editing your video footage.
 It is used to review your footage, and glue many sequences of your movie together.
 It offers a number of built-in and plug-in effects to transition from sequence to sequence,
