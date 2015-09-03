@@ -82,7 +82,7 @@
       It consists of :term:`bones <bone>`. Its primary use is in development of animated, articulated objects.
 
    Axis
-      A reference line depicting the direction of one of the coordinates in any coordinate system.
+      A reference line which defines coordinates along one cardinal direction in n-D space.
 
    Baking
       Baking refers to the process of computing and storing the result of a potentially time-consuming calculation
@@ -147,16 +147,18 @@
       either using simple logic or complex Python scripts.
 
    Convex face
-      Not :term:`concave face`. Opposite of concave face.
+      Face where, if lines were drawn from each vertex to every other vertex, all lines would remain within the face.
+      Opposite of a :term:`concave face`.
 
    Coplanar
-      Items that are in the same plane in 3D space.
+      Refers to any set of elements that are all aligned to the same 2D plane in 3D space.
 
    Crease
       It's used to define the sharpness of edges and faces of subsurfaced meshes.
 
    Curve
-      It's a class of objects. In Blender there are :term:`Bézier` curves and :term:`NURBS` curves.
+      A type of object defined in terms of a line interpolated between Control Vertices.
+      Available types of curves include :term:`Bézier` and :term:`NURBS`.
 
    DOF
    Depth Of Field
@@ -181,9 +183,9 @@
       A Directional Light illuminates all objects in the scene, no matter where they are.
 
    Displacement Mapping
-      Uses a greyscale heightmap, like :term:`Bump Mapping`,
-      but the image is used to physically move the vertices of the mesh at render time.
-      This is of course only useful if the mesh has large amounts of vertices.
+      Method for distorting vertices based on an image or texture.
+      Similar to :term:`Bump Mapping`, but instead operates on the mesh's actual geometry.
+      This relies on the mesh having enough geometry to represent details in the image.
 
    Double Buffer
       Blender uses two buffers (images) to draw the interface in.
@@ -218,7 +220,6 @@
 
    Face Normal
       The normalized vector perpendicular to the plane that a :term:`face` lies in.
-
       Each face has its own normal.
 
    FCurve
@@ -259,10 +260,9 @@
 
    HDRI
    High Dynamic Range Image
-      HDRI is a set of techniques that allow a far greater dynamic range of exposures than normal digital imaging
+      A set of techniques that allow a far greater dynamic range of exposures than normal digital imaging
       techniques. The intention is to accurately represent the wide range of intensity levels found in real scenes,
       ranging from direct sunlight to the deepest shadows.
-      The use of high dynamic range imaging in computer graphics has been popularised by the work of Paul Debevec.
 
       See also `HDRI <http://en.wikipedia.org/wiki/HDRI>`__ on Wikipedia.
 
@@ -296,7 +296,8 @@
       (see also the :doc:`/modifiers/deform/lattice`).
 
    Layer
-      A visibility flag for objects.
+      A device for organizing objects.
+      See also :doc:`Layers </editors/3dview/layers>`.
 
    Logic brick
       A graphical representation of a functional unit in Blender's game logic.
@@ -461,7 +462,7 @@
       can be created within mesh-based models.
 
    Render
-      Process of generating an image out of a 3D model on a computer.
+      The process of computationally generating a 2D image from 3D geometry.
 
    Scanline
       Rendering technique. Much faster than :term:`raytracing`,
@@ -480,7 +481,8 @@
       or smooth (faces are smoothed by interpolating the normal on every point of the face).
 
    Specular light
-      Refers to the highlights on reflective objects.
+      Light which is reflected precisely, like a mirror.
+      Also used to refer to highlights on reflective objects.
 
    Straight Alpha
       See :term:`Alpha Channel`
@@ -496,7 +498,8 @@
       It's used to add more geometry to a mesh.
       It creates new vertices on subdivided edges, new edges between subdivisions and new faces based on new edges.
       If new edges cross a new vertex is created on their crossing point.
-
+      
+   Subsurf
    Subdivision surface
       Is a method of creating smooth surfaces, which can take a low polygon mesh as input.
 
@@ -521,9 +524,6 @@
       Arrangement of *Vertices*, *Edges*, and *Faces* which define the shape of a mesh.
       See :term:`vertex`, :term:`edge`, and :term:`face`.
 
-   Topology
-      TODO.
-
    Triangle
       It's a :term:`face` with exactly 3 :term:`vertices <vertex>`.
 
@@ -539,8 +539,7 @@
 
    VBO
    Vertex Buffer Object
-      Term used for uploading geometry to the graphics cards memory for improved performance
-      with :term:`OpenGL` drawing.
+      :term:`OpenGL` method for uploading geometry to the graphics cards memory for improved performance.
 
       See also `Vertex Buffer Object <http://en.wikipedia.org/wiki/Vertex_Buffer_Object>`__ on Wikipedia.
 
