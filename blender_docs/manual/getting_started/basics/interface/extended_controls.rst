@@ -30,17 +30,20 @@ Blender uses ``0 - 1.0`` values to express colors for *RGB* and *HSV* values.
 
 Some colors also define an alpha value (*A*), below the color sliders.
 
-You can optionally use hexidecimal *(Hex)* values,
-expressed as (``RRGGBB``), a common way to represent colors for HTML.
-
-For more information about how to select the type of color picker,
-see: :doc:`System </preferences/system>` preferences page.
-
-
 .. note:: Blender corrects Gamma by default
 
    for more information about how to disable Gamma correction in Blender,
    see: :doc:`Color Management and Exposure </render/post_process/cm_and_exposure>` page.
+
+
+
+Color Picker Types
+------------------
+
+The default color picker type can be selected in the user preferences,
+see: :doc:`System </preferences/system>`.
+
+
 
 
 .. figure:: /images/Preferences_System_Color_Picker_Circle.jpg
@@ -93,7 +96,7 @@ see: :doc:`System </preferences/system>` preferences page.
 
 
    Square (HV + S)
-      Hue, Value and Saturation *-->** A full gamut of colors is always shown at the square of the color picker.
+      Hue, Value and Saturation **-->** A full gamut of colors is always shown at the square of the color picker.
       Brightness is added to the base color chosen on the square of the color picker moving the slider to the left.
       For operations that are capable of using Alpha, another slider is added at the bottom of the color picker.
       See Fig. 5 - Color Picker - Square (HV + S)
@@ -101,6 +104,17 @@ see: :doc:`System </preferences/system>` preferences page.
 
 - Use :kbd:`Wheel` to change overall brightness.
 - Color sliders don't have a default value; the last value before any changes is used instead.
+
+
+Hexidecimal Colors
+------------------
+
+You can optionally use hexidecimal *(Hex)* values,
+expressed as (``RRGGBB``), a common way to represent colors for HTML
+and useful quicky copy/paste colors between applications.
+
+Shorthand hex colors are also supported (``RGB``),
+so dark-yellow (``ffcc00``), can be written as ``fc0``.
 
 
 Eye Dropper

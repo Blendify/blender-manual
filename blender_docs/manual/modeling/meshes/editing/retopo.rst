@@ -1,6 +1,7 @@
 
-.. NOTE: This page could document a workflow which is handled by tools documented elsewhere.
-         it could also be completely removed.
+.. NOTE::
+   This page could document a workflow which is handled by tools documented elsewhere.
+   it could also be completely removed.
 
 
 **************
