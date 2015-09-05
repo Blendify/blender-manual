@@ -36,6 +36,9 @@ Some colors also define an alpha value (*A*), below the color sliders.
    see: :doc:`Color Management and Exposure </render/post_process/cm_and_exposure>` page.
 
 
+- Use :kbd:`Wheel` to change overall brightness.
+- Press :kbd:`Backspace` to reset to the original color.
+
 
 Color Picker Types
 ------------------
@@ -43,67 +46,37 @@ Color Picker Types
 The default color picker type can be selected in the user preferences,
 see: :doc:`System </preferences/system>`.
 
+For operations that are capable of using Alpha, another slider is added at the bottom of the color picker.
 
+.. hlist::
+   :columns: 3
 
+   - .. figure:: /images/Preferences_System_Color_Picker_SV_PLUS_H.jpg
 
-.. figure:: /images/Preferences_System_Color_Picker_Circle.jpg
+        Square (SV + H), *Saturation, Value plus Hue.*
+        Colors are adjusted using the a range of brightness of the
+        base color chosen at the color bar in the middle of the picker.
 
-   Fig. 2 - Color Picker - Circle
+   - .. figure:: /images/Preferences_System_Color_Picker_Circle.jpg
 
+        Circle HSV (Default).
+        A full gamut of colors ranging from center to the borders is always shown; center is a mix of the colors.
 
-   Circle (Default)
-      A full gamut of colors ranging from center to the borders is always shown; center is a mix of the colors.
-      Brightness is adjusted with the right bar, from top to bottom.
-      For operations that are capable of using Alpha, another slider is added at the bottom of the color picker.
-      See Fig. 2 - Color Picker - Circle
+   - .. figure:: /images/Preferences_System_Color_Picker_HS_PLUS_V.jpg 
 
+        Square (HS + V), *Hue, Saturation plus Value.*
+        Brightness is subtracted from the
+        base color chosen on the square of the color picker moving the slider to the left.
 
-.. figure:: /images/Preferences_System_Color_Picker_HS_PLUS_V.jpg
+   - .. figure:: /images/Preferences_System_Color_Picker_Circle_HSL.png
 
-   Fig. 3 - Color Picker
-   Square (HS + V)
+        Circle HSL.
+        A variation of the regular circle select that uses *HSL* for mixing.
 
+   - .. figure:: /images/Preferences_System_Color_Picker_HV_PLUS_S.jpg
 
-   Square (HS + V)
-      Hue, Saturation plus Value **-->** A full gamut of colors is always shown.
-      Brightness is subtracted from the
-      base color chosen on the square of the color picker moving the slider to the left.
-      For operations that are capable of using Alpha,
-      another slider is added at the bottom of the color picker.
-      See Fig. 3 - Color Picker - Square (HS + V)
-
-
-.. figure:: /images/Preferences_System_Color_Picker_SV_PLUS_H.jpg
-
-   Fig. 4 - Color Picker
-   Square (SV + H)
-
-
-   Square (SV + H)
-      Saturation, Value plus Hue **-->** A full Gamut of colors is
-      always shown at the bar in the middle of the color picker.
-      Colors are adjusted using the a range of brightness of the
-      base color chosen at the color bar in the middle of the picker.
-      For operations that are capable of using Alpha,
-      another slider is added at the bottom of the color picker.
-      See Fig. 4 - Color Picker - Square (SV + H)
-
-
-.. figure:: /images/Preferences_System_Color_Picker_HV_PLUS_S.jpg
-
-   Fig. 5 - Color Picker
-   Square (HV + S)
-
-
-   Square (HV + S)
-      Hue, Value and Saturation **-->** A full gamut of colors is always shown at the square of the color picker.
-      Brightness is added to the base color chosen on the square of the color picker moving the slider to the left.
-      For operations that are capable of using Alpha, another slider is added at the bottom of the color picker.
-      See Fig. 5 - Color Picker - Square (HV + S)
-
-
-- Use :kbd:`Wheel` to change overall brightness.
-- Color sliders don't have a default value; the last value before any changes is used instead.
+        Square (HV + S), *Hue, Value and Saturation*.
+        Brightness is added to the base color chosen on the square of the color picker moving the slider to the left.
 
 
 Hexidecimal Colors
