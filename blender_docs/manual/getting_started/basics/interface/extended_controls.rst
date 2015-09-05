@@ -57,7 +57,7 @@ For operations that are capable of using Alpha, another slider is added at the b
         Colors are adjusted using the a range of brightness of the
         base color chosen at the color bar in the middle of the picker.
 
-   - .. figure:: /images/Preferences_System_Color_Picker_Circle.jpg
+   - .. figure:: /images/Preferences_System_Color_Picker_Circle_HSV.png
 
         Circle HSV (Default).
         A full gamut of colors ranging from center to the borders is always shown; center is a mix of the colors.
