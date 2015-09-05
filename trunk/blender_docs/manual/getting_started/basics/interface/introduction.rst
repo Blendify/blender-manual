@@ -7,7 +7,7 @@ The interface can be customized to match specific tasks using Screen Layouts,
 which can then be named and saved for later use.
 
 Blender also makes heavy use of keyboard shortcuts to speed up work and allows customization of the
-:doc:`keymap <input_devices>`.
+:doc:`keymap </getting_started/basics/interface/input_devices>`.
 
 
 User Interface Principles
