@@ -13,7 +13,7 @@ it is possible to translate and zoom a *Buttons* window and its panels.
 .. tip:: Mouse Buttons and Numpad
 
    If you have a mouse with less than three buttons or a keyboard without numpad,
-   see the :doc:`Keyboard and Mouse </getting_started/basics/interface/input_devices>`
+   see the :doc:`Keyboard and Mouse </interface/input_devices>`
    page of the manual to learn how to use them with Blender.
 
 
@@ -82,7 +82,7 @@ The camera will only show objects that fall within the clipping range.
 
 :doc:`Read more about Render perspectives </render/camera/lens>`
 
-:doc:`Read more about Camera View </getting_started/basics/navigating/camera_view>`
+:doc:`Read more about Camera View </editors/3dview/navigate/camera_view>`
 
 :doc:`Read more about Camera clipping </render/camera#camera_settings>`
 
@@ -366,7 +366,7 @@ If you want to be able to rotate each view, you can un-check the *Locked* option
 
 However in sometimes its preferable to split the view, so each can have its own configuration.
 
-:doc:`Read more about splitting windows </getting_started/basics/interface/window_system/arranging_frames>`
+:doc:`Read more about splitting windows </interface/window_system/arranging_frames>`
 
 
 View Clipping Border
@@ -446,8 +446,8 @@ or you apparently cannot move the camera any nearer. As an example,
 try to navigate to a very distant object in the view with traditional methods
 (explained above) and see what you can get.
 
-With :doc:`Walk mode </getting_started/basics/navigating/3d_view#walk_mode>` and
-:doc:`Fly mode </getting_started/basics/navigating/3d_view#fly_mode>` you move, pan and tilt,
+With :doc:`Walk mode </editors/3dview/navigate/3d_view#walk_mode>` and
+:doc:`Fly mode </editors/3dview/navigate/3d_view#fly_mode>` you move, pan and tilt,
 and dolly the camera around without any of those limitations.
 
 

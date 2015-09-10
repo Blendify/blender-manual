@@ -20,13 +20,4 @@ inside the Blender Window (except on the splash screen).
 .. toctree::
    :maxdepth: 1
 
-   interface/index.rst
-   navigating/index.rst
-   transformations/index.rst
-   quick_render.rst
    undo_and_redo.rst
-   startup_file.rst
-   screenshots.rst
-   screencasts.rst
-   help.rst
-

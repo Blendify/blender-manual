@@ -83,7 +83,7 @@ Here you choose which video codec you want to use, and compression settings.
 With all of these compression choices, there is a tradeoff between file size,
 compatibility across platforms, and playback quality.
 
-When you view the :doc:`System Console </getting_started/basics/interface/window_system/console_window>`,
+When you view the :doc:`System Console </interface/window_system/console_window>`,
 you can see some of the output of the encoding process.
 You will see even more output if you execute Blender as ``blender -d``.
 

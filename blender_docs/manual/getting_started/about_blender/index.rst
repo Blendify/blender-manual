@@ -11,4 +11,3 @@
    history.rst
    license.rst
    community.rst
-   about_this_manual.rst

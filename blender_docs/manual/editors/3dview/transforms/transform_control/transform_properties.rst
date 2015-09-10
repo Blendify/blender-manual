@@ -70,7 +70,7 @@ When attempting to edit these types of fields it is easier to use :kbd:`Shift-LM
 After you have edited a field click outside of the field's edit area or press :kbd:`Return` to confirm the changes.
 Changes will be reflected in the display window immediately. To cancel, press :kbd:`Esc`.
 For further descriptions of the other features of an edit field
-see :doc:`The Interface </getting_started/basics/interface/index>` section.
+see :doc:`The Interface </interface/index>` section.
 
 
 Transform Properties Locking

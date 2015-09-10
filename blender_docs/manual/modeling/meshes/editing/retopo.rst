@@ -23,7 +23,7 @@ in the view's Z-axis.
 
 This allows you to model freely, without concern for form, and to focus on topology
 
-See :doc:`Snapping </getting_started/basics/transformations/transform_control/snap>`
+See :doc:`Snapping </editors/3dview/transforms/transform_control/snap>`
 
 
 Shrinkwrap Modifier

@@ -41,7 +41,7 @@ choose one transformation orientation and then one axis on it.
 Pivot point
 ===========
 
-:doc:`Pivot points </getting_started/basics/transformations/transform_control/pivot_point/index>` must be set first.
+:doc:`Pivot points </editors/3dview/transforms/transform_control/pivot_point/index>` must be set first.
 Pivot points will become the center of symmetry.
 If the widget is turned on it will always show where the pivot point is.
 
@@ -49,7 +49,7 @@ If the widget is turned on it will always show where the pivot point is.
 On (*Mirror around the Individual Centers ...*) the pivot point default to
 **median point of the selection of vertices** in *Edit* mode.
 This is a special case of the *Edit* mode as explained on the
-:doc:`pivot point page </getting_started/basics/transformations/transform_control/pivot_point/index>`.
+:doc:`pivot point page </editors/3dview/transforms/transform_control/pivot_point/index>`.
 
 
 .. figure:: /images/MirrorTool1.jpg
@@ -85,6 +85,6 @@ and the axis of transformation is X.
 Transformation orientation
 ==========================
 
-:doc:`Transformation Orientations </getting_started/basics/transformations/transform_control/transform_orientations>`
+:doc:`Transformation Orientations </editors/3dview/transforms/transform_control/transform_orientations>`
 are found on the 3D area header, next to the *Widget* buttons.
 They decide which coordinate system will rule the mirroring.

@@ -54,7 +54,7 @@ To cycle between screens use :kbd:`Ctrl-Right` and :kbd:`Ctrl-Left`.
    Screen and Scene selectors
 
 
-By default, each screen layout 'remembers' the last :doc:`scene </getting_started/basics/interface/scenes>`
+By default, each screen layout 'remembers' the last :doc:`scene </interface/scenes>`
 it was used on. Selecting a different layout will switch to the layout **and** jump to that scene.
 
 All changes to windows, as described in :doc:`Editor types </editors/index>`, are saved within one screen.
@@ -85,7 +85,7 @@ You can delete a screen by using the *Delete datablock* button
 Rearranging a Screen
 --------------------
 
-Use the :doc:`window controls </getting_started/basics/interface/window_system/arranging_frames>`
+Use the :doc:`window controls </interface/window_system/arranging_frames>`
 to move frame borders, split and consolidate windows.
 When you have a layout that you like, press :kbd:`Ctrl-U` to update your User defaults.
 Be aware that all of the current scenes become part of those defaults,

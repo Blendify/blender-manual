@@ -48,16 +48,16 @@ Properties Panel
    - :doc:`Item </getting_started/basics/navigating/3d_view_options>`
    - :doc:`Display </getting_started/basics/navigating/3d_view_options>`
    - :doc:`Background Images </getting_started/basics/navigating/3d_view_options>`
-   - :doc:`Transform Orientations </getting_started/basics/transformations/transform_control/transform_orientations>`
+   - :doc:`Transform Orientations </editors/3dview/transforms/transform_control/transform_orientations>`
 
 Tool Shelf
    Toggles the *Tool Shelf* (:kbd:`T`), which appears on the left side of the 3d view,
    and allows you to perform various operations, depending on the type of object selected, and the mode you are in.
 
-:doc:`Camera </getting_started/basics/navigating/camera_view>` (:kbd:`Numpad0`)
+:doc:`Camera </editors/3dview/navigate/camera_view>` (:kbd:`Numpad0`)
    Switches the view to the current camera view.
 
-:doc:`Viewing angles </getting_started/basics/navigating/3d_view>`:
+:doc:`Viewing angles </editors/3dview/navigate/3d_view>`:
    These commands change the view to the default Top/Bottom, Front/Back, or Left/Right views.
 
    - Top (:kbd:`Numpad7`)
@@ -67,20 +67,20 @@ Tool Shelf
    - Right (:kbd:`Numpad3`)
    - Left (:kbd:`Ctrl-Numpad3`)
 
-:doc:`Cameras Menu </getting_started/basics/navigating/camera_view>`:
+:doc:`Cameras Menu </editors/3dview/navigate/camera_view>`:
    *Set Active object as camera*
    *Active camera*
 
-:doc:`Perspective/Orthographic View </getting_started/basics/navigating/3d_view#perspective_and_orthographic_projection>` (:kbd:`Numpad5`)
+:doc:`Perspective/Orthographic View </editors/3dview/navigate/3d_view#perspective_and_orthographic_projection>` (:kbd:`Numpad5`)
    These commands change the projection of the 3D view
 
-:doc:`Navigation Menu </getting_started/basics/navigating/3d_view>`
+:doc:`Navigation Menu </editors/3dview/navigate/3d_view>`
    This sub-menu contains commands for rotating and panning the view.
    Using these commands through the menu is not that efficient. However, like all Blender menus,
    the much more convenient keyboard shortcuts are listed next to the commands.
 
 
-:doc:`Align View </getting_started/basics/navigating/3d_view>`
+:doc:`Align View </editors/3dview/navigate/3d_view>`
    This submenu allows you to align the 3D view in certain ways.
 
    - *Align to selected*
@@ -89,39 +89,39 @@ Tool Shelf
    - *View Selected*
    - *Center View to cursor*
 
-:doc:`Clipping Border... </getting_started/basics/navigating/3d_view#view_clipping_border>` (:kbd:`Alt-B`)
+:doc:`Clipping Border... </editors/3dview/navigate/3d_view#view_clipping_border>` (:kbd:`Alt-B`)
    Allows you to define a clipping border to limit the 3D view display to a portion of 3D space.
 
-:doc:`Zoom Border... </getting_started/basics/navigating/3d_view>` (:kbd:`Shift-B`)
+:doc:`Zoom Border... </editors/3dview/navigate/3d_view>` (:kbd:`Shift-B`)
    Allows you to define the area you want to zoom into.
 
 :doc:`Show all Layers </getting_started/basics/navigating/layers>` (:kbd:`~`)
    Makes all of the display layers visible.
 
-:doc:`Global View/Local View </getting_started/basics/navigating/3d_view>` (:kbd:`NumpadSlash`)
+:doc:`Global View/Local View </editors/3dview/navigate/3d_view>` (:kbd:`NumpadSlash`)
    Global view shows all of the 3D objects in the scene. Local view only displays the selected objects.
    This helps if there are many objects in the scene, that may be in the way.
    Accidentally pressing :kbd:`NumpadSlash` can happen rather often if you're new to Blender,
    so if a bunch of the objects in your scene seem to have mysteriously vanished, try turning off local view.
 
 
-:doc:`View Selected </getting_started/basics/navigating/3d_view>` (:kbd:`NumpadPeriod`)
+:doc:`View Selected </editors/3dview/navigate/3d_view>` (:kbd:`NumpadPeriod`)
    Zooms the 3D view to encompass all the *selected* objects.
-      :doc:`Read more about Zooming the 3D View </getting_started/basics/navigating/3d_view#zooming_the_view>`
+      :doc:`Read more about Zooming the 3D View </editors/3dview/navigate/3d_view#zooming_the_view>`
 
-:doc:`View All </getting_started/basics/navigating/3d_view>` (:kbd:`Home`)
+:doc:`View All </editors/3dview/navigate/3d_view>` (:kbd:`Home`)
    Zooms the 3D view to encompass *all* the objects in the current scene.
 
 :doc:`Play Back Animation </animation/index>` (:kbd:`Alt-A`)
    Plays back the animation from the current frame.
 
-:doc:`Duplicate area in new window </getting_started/basics/interface/window_system/arranging_frames>`
+:doc:`Duplicate area in new window </interface/window_system/arranging_frames>`
    Clones the current 3D view in a new window
 
-:doc:`Quad View </getting_started/basics/interface/window_system/arranging_frames>`
+:doc:`Quad View </interface/window_system/arranging_frames>`
    Toggles a four pane 3D view, each showing a different angle of the scene.
 
-:doc:`Toggle Full Screen </getting_started/basics/interface/window_system/arranging_frames>` (:kbd:`Ctrl-Up`)
+:doc:`Toggle Full Screen </interface/window_system/arranging_frames>` (:kbd:`Ctrl-Up`)
    Maximizes the *3D View* window to fill the full screen area.
 
 
@@ -204,7 +204,7 @@ Using this selector, you can change the pivot point to the location of the:
 Use the *Object Center* to switch between transforming the entire objects,
 or just the position of the objects
 
-:doc:`Read more about Pivot Points </getting_started/basics/transformations/transform_control/pivot_point/index>`
+:doc:`Read more about Pivot Points </editors/3dview/transforms/transform_control/pivot_point/index>`
 
 
 Transform (Manipulator) Selectors
@@ -213,7 +213,7 @@ Transform (Manipulator) Selectors
 These handy selectors allow you to rotate or move objects by grabbing
 (clicking with your mouse) their controls and moving your mouse in the axis.
 
-:doc:`Read more about Transform Manipulators </getting_started/basics/transformations/transform_control/manipulators>`
+:doc:`Read more about Transform Manipulators </editors/3dview/transforms/transform_control/manipulators>`
 
 
 Layer Selector

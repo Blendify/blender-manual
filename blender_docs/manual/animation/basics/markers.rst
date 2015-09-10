@@ -27,7 +27,7 @@ A marker created in one of these windows will also appear in all others that sup
 including:
 
 
-- The :doc:`3D View window </getting_started/basics/navigating/index>`.
+- The :doc:`3D View window </editors/3dview/navigate/index>`.
 
 
 Pose markers

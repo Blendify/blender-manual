@@ -39,7 +39,7 @@ as shown on the figure.
 
 The add-on functionality should be immediately available.
 If the Add-on does not activate when enabled,
-check the :doc:`Console window </getting_started/basics/interface/window_system/console_window>`
+check the :doc:`Console window </interface/window_system/console_window>`
 for any errors that may have occurred.
 
 

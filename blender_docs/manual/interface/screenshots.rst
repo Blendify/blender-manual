@@ -2,9 +2,9 @@
 .. This could be moved into some other page, it used to contain a lot of info about screenshots
    on each operating system, but this is outside the scope of Blender's manual.
 
-*******************
-Blender Screenshots
-*******************
+***********
+Screenshots
+***********
 
 .. admonition:: Reference
    :class: refbox
@@ -29,4 +29,3 @@ called *Save Screenshot* where you can find format settings and a checkbox with 
 - Check the Option to save the entire Blender window
   (full width and height of the Blender window you are using when you call the command).
 - Uncheck the box to save only your active window (where your mouse is located when you call the command).
-

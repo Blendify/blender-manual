@@ -2,9 +2,9 @@
 ..    TODO/Review: {{Review}} .
 
 
-*******************
-Blender Screencasts
-*******************
+***********
+Screencasts
+***********
 
 .. admonition:: Reference
    :class: refbox
@@ -115,5 +115,4 @@ achieving standard dimensions for the output of the Blender Screencast. (I.e. NT
 Full HD, etc).
 You can control the width and height of your Blender Window, starting Blender from a Command Line.
 To learn more about starting Blender from a command line,
-see the page about :doc:`Blender Console Window </getting_started/basics/interface/window_system/console_window>`.
-
+see the page about :doc:`Blender Console Window </interface/window_system/console_window>`.

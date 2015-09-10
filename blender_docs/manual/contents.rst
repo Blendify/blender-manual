@@ -26,6 +26,7 @@ Sections
 .. toctree::
    :maxdepth: 1
 
+   interface/index.rst
    editors/index.rst
    data_system/index.rst
    Modeling <modeling/index.rst>

@@ -267,7 +267,7 @@ Vertical Pan or Pitch
    This is just a rotation along the local X-axis. Press :kbd:`R` to enter object rotation mode, then :kbd:`X` twice
    (the first press selects the *global* axis - pressing the same letter a second time selects the *local* axis -
    this works with any axis;
-   see the :doc:`axis locking page </getting_started/basics/transformations/transform_control/axis_locking>`).
+   see the :doc:`axis locking page </editors/3dview/transforms/transform_control/axis_locking>`).
 Horizontal Pan or Yaw
    This corresponds to a rotation around the camera's local Y axis... Yes, that's it, press :kbd:`R`,
    and then :kbd:`Y` twice!
@@ -282,6 +282,6 @@ Aiming the camera in Flymode
 ----------------------------
 
 When you are in *Camera* view,
-the :doc:`fly mode </getting_started/basics/navigating#fly_mode>` actually moves your active camera...
+the :doc:`fly mode </editors/3dview/navigate#fly_mode>` actually moves your active camera...
 
 .. youtube:: bTRrHNn-d4w

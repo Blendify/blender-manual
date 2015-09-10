@@ -30,7 +30,7 @@ show up. The order of these buttons follows a hierarchy which is detailed below:
 
 - |Btn_Render-25| :doc:`Render </render/index>`:
   Everything related to render output (dimensions, anti-aliasing, performance etc).
-- |Btn_Scene-25| :doc:`Scene </getting_started/basics/interface/scenes>`:
+- |Btn_Scene-25| :doc:`Scene </interface/scenes>`:
   Gravity in the scene, units and other general information.
 - |Btn_World-25| :doc:`World </render/blender_render/world/index>`:
   Environmental lighting, sky, mist and Ambient Occlusion.
@@ -55,6 +55,6 @@ show up. The order of these buttons follows a hierarchy which is detailed below:
 - |Btn_Physics-25| :doc:`Physics </physics/index>`:
   Properties relating to Cloth, Force Fields, Collision, Fluid and Smoke Simulation.
 
-The :doc:`Buttons </getting_started/basics/interface/buttons_and_controls>`
-in each context are grouped into :doc:`Panels </getting_started/basics/interface/panels>`.
+The :doc:`Buttons </interface/buttons_and_controls>`
+in each context are grouped into :doc:`Panels </interface/panels>`.
 
