@@ -22,7 +22,7 @@ The splash screen will disappear revealing the default layout and cube.
 
 Every window you see can be further broken down into separate areas
 (as described in the section on
-:doc:`arranging frames </getting_started/basics/interface/window_system/arranging_frames>`).
+:doc:`arranging frames </interface/window_system/arranging_frames>`).
 The default scene is described below.
 
 

@@ -29,7 +29,7 @@ Random Seed
 
 Transform Delta
    Randomize Delta Transform values instead of regular transform.
-   See :doc:`Delta Transforms </getting_started/basics/transformations/transform_control/transform_properties#delta_transform>`.
+   See :doc:`Delta Transforms </editors/3dview/transforms/transform_control/transform_properties#delta_transform>`.
 
 Randomize Location
    Randomize Location vales

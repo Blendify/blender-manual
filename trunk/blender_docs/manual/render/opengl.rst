@@ -1,9 +1,9 @@
 
 ..    TODO/Review: {{review}} .
 
-***************
-Quick Rendering
-***************
+*************
+OpenGL Render
+*************
 
 What is rendering?
 ==================
@@ -267,4 +267,3 @@ And then here is the *Full Render* using Blender Internal render engine:
 You can use OpenGL to render both images and animations,
 and change dimensions using the same instructions explained above. As with a normal render,
 you can abort it with :kbd:`Esc`.
-

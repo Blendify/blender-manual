@@ -20,11 +20,11 @@ Editor Type Selector
 Menu options
    The dark blue shaded area provides access to the main menu options.
 Current Screen (default is Default)
-   The green shaded area allows you to select different :doc:`Screens </getting_started/basics/interface/screens>`.
+   The green shaded area allows you to select different :doc:`Screens </interface/screens>`.
    By default, Blender comes with several pre-configured *Screen* s for you to choose from.
    If you need custom screen layouts, you can create and name them.
 Current Scene
-   The yellow shaded area allows you to select different :doc:`Scenes </getting_started/basics/interface/scenes>`.
+   The yellow shaded area allows you to select different :doc:`Scenes </interface/scenes>`.
    Having multiple Scenes allows you to work with separate virtual environments,
    with completely separate data, or with objects and/or mesh data linked between them.
    (In some 3D packages, each file contains one scene,

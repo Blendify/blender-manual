@@ -1,7 +1,7 @@
 
-************************
-Setting the Startup File
-************************
+************
+Startup File
+************
 
 .. admonition:: Reference
    :class: refbox
@@ -40,4 +40,3 @@ After this you can save the startup file to overwrite any customizations permane
 
    For more information about the Editor Window for User Preferences or how to clean your preferences manually,
    see :doc:`User Preferences </preferences/index>`
-

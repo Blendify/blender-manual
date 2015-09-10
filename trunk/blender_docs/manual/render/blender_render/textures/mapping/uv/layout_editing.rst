@@ -156,7 +156,7 @@ Proportional Editing
 ====================
 
 Proportional Editing is available in UV editing. The controls are the same as in the 3D view.
-See :doc:`Proportional Editing in 3D </getting_started/basics/transformations/transform_control/proportional_edit>`
+See :doc:`Proportional Editing in 3D </editors/3dview/transforms/transform_control/proportional_edit>`
 for full reference.
 
 
@@ -164,7 +164,7 @@ Snapping
 ========
 
 Snapping in UV is also similar to
-:doc:`Snapping in 3D </getting_started/basics/transformations/transform_control/snap>`,
+:doc:`Snapping in 3D </editors/3dview/transforms/transform_control/snap>`,
 but only snapping to UVs works, however,
 the *Snap to Pixels* option in the *UVs Menu* will force the UVs to snap to the pixels of an image if loaded.
 

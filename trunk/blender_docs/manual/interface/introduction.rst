@@ -7,7 +7,7 @@ The interface can be customized to match specific tasks using Screen Layouts,
 which can then be named and saved for later use.
 
 Blender also makes heavy use of keyboard shortcuts to speed up work and allows customization of the
-:doc:`keymap </getting_started/basics/interface/input_devices>`.
+:doc:`keymap </interface/input_devices>`.
 
 
 User Interface Principles
@@ -113,7 +113,7 @@ The 3D View above the header is marked with a purple frame.
    * - :kbd:`F5`
      - Move Header from Top to Bottom (mouse pointer must be over it)
 
-See: :doc:`Headers </getting_started/basics/interface/window_system/headers>` for details.
+See: :doc:`Headers </interface/window_system/headers>` for details.
 
 
 Panels
@@ -134,7 +134,7 @@ and **History**. The edit panel is expanded and the other 2 panels are
 collapsed. Note that you can change the order of panels
 by clicking on the handle in the upper right corner of a panel's title.
 
-See: :doc:`panels </getting_started/basics/interface/panels>` for details.
+See: :doc:`panels </interface/panels>` for details.
 
 
 Tabs

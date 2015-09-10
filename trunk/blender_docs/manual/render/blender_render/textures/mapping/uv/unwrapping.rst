@@ -60,7 +60,7 @@ unwrapping your model is done within Edit Mode in the 3D View window. This
 process creates one or more UV Islands in the
 :doc:`UV/Image Editor window </render/blender_render/textures/mapping/uv_image_editor>`.
 
-To begin, choose the *UV Editing* :doc:`screen layout </getting_started/basics/interface/screens>`
+To begin, choose the *UV Editing* :doc:`screen layout </interface/screens>`
 from the selection list at the top of your screen in the User Preferences
 window header. This sets one of the panes to show you the UV/Image Editor
 window (:kbd:`Shift-F10`), and the other pane to the 3D window (:kbd:`Shift-F5`).

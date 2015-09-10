@@ -12,4 +12,4 @@
    Graphics Hardware <gpu.rst>
    Crashes <crash.rst>
    Recovering Lost Work <recover.rst>
-
+   General help <general_help.rst>

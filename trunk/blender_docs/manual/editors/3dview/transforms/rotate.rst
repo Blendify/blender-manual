@@ -29,7 +29,7 @@ about options such as Precision, Axis Locking, Numeric Input,
 Snapping and the different types of Pivot Point.
 
 :doc:`Read more about Transform Control </3d_interaction/transform_control>`
-:doc:`Read more about Transform Orientations </getting_started/basics/transformations/transform_control/transform_orientations>`
+:doc:`Read more about Transform Orientations </editors/3dview/transforms/transform_control/transform_orientations>`
 
 
 ----
@@ -59,7 +59,7 @@ Constraining the rotation axis (axis locking)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Rotation can be constrained to a particular axis or axes through the use of
-:doc:`Axis Locking </getting_started/basics/transformations/transform_control/axis_locking>`.
+:doc:`Axis Locking </editors/3dview/transforms/transform_control/axis_locking>`.
 To constrain rotation, the following shortcuts can be used:
 
 
@@ -73,15 +73,15 @@ moving the mouse in the desired direction e.g.
 
 - :kbd:`R`, move the mouse along the X axis, :kbd:`MMB`: Rotate only along the **X Axis**
 
-:doc:`Read more about Axis Locking </getting_started/basics/transformations/transform_control/axis_locking>`
+:doc:`Read more about Axis Locking </editors/3dview/transforms/transform_control/axis_locking>`
 
 
 Fine Tuning The Rotation
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-:doc:`Precise control </getting_started/basics/transformations/transform_control/precision>` can be had over rotation
+:doc:`Precise control </editors/3dview/transforms/transform_control/precision>` can be had over rotation
 through the use of the :kbd:`Shift` and :kbd:`Ctrl` keys to limit rotation to discrete amounts.
-You can also enter a :doc:`numerical value </getting_started/basics/transformations/transform_control/numeric_input>`
+You can also enter a :doc:`numerical value </editors/3dview/transforms/transform_control/numeric_input>`
 in degrees to specify the amount of rotation after after initiating a rotation transformation.
 
 
@@ -100,9 +100,9 @@ in degrees to specify the amount of rotation after after initiating a rotation t
    :kbd:`X` will by default set rotation to occur around the local orientation.
 
 
-:doc:`Read more about Precision Control </getting_started/basics/transformations/transform_control/precision>`
-:doc:`Read more about Numerical Transformations </getting_started/basics/transformations/transform_control/numeric_input>`
-:doc:`Read more about Transform Orientations </getting_started/basics/transformations/transform_control/transform_orientations>`
+:doc:`Read more about Precision Control </editors/3dview/transforms/transform_control/precision>`
+:doc:`Read more about Numerical Transformations </editors/3dview/transforms/transform_control/numeric_input>`
+:doc:`Read more about Transform Orientations </editors/3dview/transforms/transform_control/transform_orientations>`
 
 
 Rotation with the 3D Transform Manipulator
@@ -128,7 +128,7 @@ and blue triad is selected). Set the manipulator type to rotation
 - Your changes will be applied when you release :kbd:`LMB` or press :kbd:`Spacebar` or
   :kbd:`Return`. Your changes will be cancelled if you press :kbd:`RMB` or :kbd:`Esc`.
 
-:doc:`Read more about the 3D Transform Manipulator </getting_started/basics/transformations/transform_control/manipulators>`
+:doc:`Read more about the 3D Transform Manipulator </editors/3dview/transforms/transform_control/manipulators>`
 
 
 Rotation with the Properties Panel
@@ -146,9 +146,9 @@ Rotation along particular axes can be enabled or disabled by toggling the padloc
 The rotation mode (Euler, Axis Angle, Quaternion)
 can also be set in this panel from the drop down box.
 
-:doc:`Read more about Panels </getting_started/basics/interface/panels>`
+:doc:`Read more about Panels </interface/panels>`
 
-:doc:`Read more about rotation modes </getting_started/basics/transformations/transform_control/transform_orientations>`
+:doc:`Read more about rotation modes </editors/3dview/transforms/transform_control/transform_orientations>`
 
 `Additional detail about rotation modes
 <http://wiki.blender.org/index.php/User:Pepribal/Ref/Appendices/Rotation>`__

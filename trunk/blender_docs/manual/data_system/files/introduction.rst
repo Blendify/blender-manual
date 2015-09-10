@@ -26,9 +26,9 @@ New
    Saves a copy of the current file.
 :doc:`User Preferences </preferences/introduction>`
    Opens the user preferences dialog.
-:doc:`Save User Settings </getting_started/basics/startup_file>`
+:doc:`Save User Settings </preferences/startup_file>`
    Saves the current scene and preferences to startup.blend.
-:doc:`Load Factory Settings </getting_started/basics/startup_file>`
+:doc:`Load Factory Settings </preferences/startup_file>`
    Restore the default scene to the factory settings.
 :doc:`Link or Append </data_system/linked_libraries>`
    You don't have to load a complete file, you can load in only selected parts from another file if you wish.

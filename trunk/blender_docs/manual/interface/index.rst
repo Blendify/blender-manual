@@ -35,4 +35,12 @@ Interface Controls
    panels.rst
    buttons_and_controls.rst
    extended_controls.rst
+   
+Tools
+*****
 
+.. toctree::
+   :maxdepth: 1
+   
+   screenshots.rst
+   screencasts.rst

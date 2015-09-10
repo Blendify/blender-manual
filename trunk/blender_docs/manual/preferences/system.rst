@@ -233,7 +233,7 @@ Color Picker Type
 Choose which type of color dialog you prefer - it will show when clicking :kbd:`LMB` on any color field.
 
 See the different color picker types at the
-:doc:`Extended Controls </getting_started/basics/interface/extended_controls>` page.
+:doc:`Extended Controls </interface/extended_controls>` page.
 
 
 Custom Weight Paint Range
@@ -244,7 +244,7 @@ To visualize and paint these weights, Blender uses a color ramp (from blue to gr
 Enabling the checkbox will enable an alternate map using a ramp starting with an empty range.
 Now you can create your custom map using the common color ramp options.
 For detailed information about how to use color ramps,
-see: to the :doc:`Extended Controls </getting_started/basics/interface/extended_controls>` page.
+see: to the :doc:`Extended Controls </interface/extended_controls>` page.
 
 
 International Fonts

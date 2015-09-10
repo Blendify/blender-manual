@@ -8,6 +8,8 @@
    :maxdepth: 2
 
    introduction.rst
+   navigate/index.rst
+   transforms/index.rst
    modes.rst
    shading.rst
    display.rst
