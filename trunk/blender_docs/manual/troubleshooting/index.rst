@@ -11,4 +11,5 @@
    3D Viewport <3d_view.rst>
    Graphics Hardware <gpu.rst>
    Crashes <crash.rst>
+   Recovering Lost Work <recover.rst>
 
