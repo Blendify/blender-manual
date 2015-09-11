@@ -41,15 +41,15 @@ Hold :kbd:`Ctrl`,
 Then move the mouse in the desired direction. The reverse action will also work i.e.
 clicking the manipulator handle and then holding the shortcut key for precision control.
 
-:doc:`Read more about the Transform Manipulator </editors/3dview/transforms/transform_control/manipulators>`
+:doc:`Read more about the Transform Manipulator </editors/3dview/transform/transform_control/manipulators>`
 
 
 .. tip:: Combining with other controls
 
    All of the precision controls detailed on the page can be combined with the
-   :doc:`Axis Locking </editors/3dview/transforms/transform_control/axis_locking>`
+   :doc:`Axis Locking </editors/3dview/transform/transform_control/axis_locking>`
    controls and used with the different
-   :doc:`Pivot Points </editors/3dview/transforms/transform_control/pivot_point/index>`.
+   :doc:`Pivot Points </editors/3dview/transform/transform_control/pivot_point/index>`.
 
 
 Holding CTRL
@@ -90,10 +90,10 @@ Holding :kbd:`Ctrl` will cause size changes in increments of 0.1 BU.
 .. note:: Snapping modes
 
    Note that if you have a
-   :doc:`Snap Element </editors/3dview/transforms/transform_control/snap#snap_element>` option enabled,
+   :doc:`Snap Element </editors/3dview/transform/transform_control/snap#snap_element>` option enabled,
    holding :kbd:`Ctrl` will cause the selection to snap to the nearest element.
 
-   :doc:`Read more about Snapping </editors/3dview/transforms/transform_control/snap>`
+   :doc:`Read more about Snapping </editors/3dview/transform/transform_control/snap>`
 
 
 Holding SHIFT

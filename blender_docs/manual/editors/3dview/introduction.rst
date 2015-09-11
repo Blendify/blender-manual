@@ -52,7 +52,7 @@ The Toolshelf is a context-sensitive region containing tools depending on the cu
 
 For more information on specific tools available, see:
 
-- :doc:`Transformations </editors/3dview/transforms/index>`
+- :doc:`Transformations </editors/3dview/transform/index>`
 - :doc:`History </getting_started/basics/undo_and_redo>`
 - :doc:`Creating Objects </modeling/meshes/editing/basics/adding>`
 - :doc:`Groups and Parenting </modeling/objects/groups_and_parenting>`
@@ -80,10 +80,10 @@ Header
 Contains various menus, buttons and options based on the current :ref:`mode <modes>`, such as:
 
 - :doc:`Shading mode </editors/3dview/shading>`
-- :doc:`Pivot options </editors/3dview/transforms/transform_control/pivot_point/index>`
-- :doc:`Transform manipulator </editors/3dview/transforms/transform_control/manipulators>`
-- :doc:`Proportional Edit </editors/3dview/transforms/transform_control/proportional_edit>`
-- :doc:`Snapping </editors/3dview/transforms/transform_control/snap>`
+- :doc:`Pivot options </editors/3dview/transform/transform_control/pivot_point/index>`
+- :doc:`Transform manipulator </editors/3dview/transform/transform_control/manipulators>`
+- :doc:`Proportional Edit </editors/3dview/transform/transform_control/proportional_edit>`
+- :doc:`Snapping </editors/3dview/transform/transform_control/snap>`
 - :ref:`OpenGL render <opengl_render>`
 
 

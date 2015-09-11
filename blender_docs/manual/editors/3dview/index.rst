@@ -9,7 +9,7 @@
 
    introduction.rst
    navigate/index.rst
-   transforms/index.rst
+   transform/index.rst
    modes.rst
    shading.rst
    display.rst
