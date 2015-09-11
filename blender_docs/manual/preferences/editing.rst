@@ -64,7 +64,7 @@ Step
 Memory Limit
    Maximum memory usage in Mb (0 is unlimited).
 
-:doc:`Read more about Undo and Redo options </getting_started/basics/undo_and_redo>`
+:doc:`Read more about Undo and Redo options </interface/undo_and_redo>`
 
 
 Grease Pencil
