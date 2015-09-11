@@ -13,6 +13,7 @@ Screenshots
    :class: refbox
 
    | Mode:     All modes
+   | Menu:     :menuselection:`Window --> Save Screenshot`
    | Hotkey:   :kbd:`Ctrl-F3`
 
 
@@ -41,10 +42,18 @@ Screencasts
    :class: refbox
 
    | Mode:     All modes
+   | Menu:     :menuselection:`Window --> Make Screencast`
    | Hotkey:   :kbd:`Alt-F3`
 
 
-The shortcut :kbd:`Alt-F3` starts the screencast function.
+This is a quick way to make screen-casts from within Blender.
+
+.. note::
+
+   This is limited to a single window and does *not* support audio.
+
+   For recording tutorials you may want to use more comprehensive, 3rd party solutions.
+
 Screencasts will record your actions over time either as a video or sequence of image files.
 The type and location of the output is determined by the settings in the
 :doc:`Output panel </render/output>` of the :doc:`Render context </editors/properties/contexts>` window.
@@ -64,16 +73,6 @@ The FPS for video Screencasts and time between each Screenshot for an image seri
 can be set from the
 :doc:`System panel </preferences/system>` of the
 :doc:`User Preferences </preferences/index>` window.
-
-(See Fig: Options in the User Preferences Editor)
-
-
-.. note:: Audio support
-
-   Blender Screencast doesn't support audio recordings,
-   so you will have to do it manually using other software, e.g.
-   `Audacity <http://audacity.sourceforge.net/>`__, in conjunction with Blender.
-
 
 When you start Blender Screencasts, the header of the *Info Window* will change,
 and it will show you a button for stopping your capture.
@@ -124,18 +123,18 @@ using the width and height of the Window you are working in.
 If you choose to capture to a Video file,
 Blender will have to pass those frames to a Video codec.
 
-**Warning:** Some codecs limit the output width/height or the video quality.
+.. warning::
+   Some codecs limit the output width/height or the video quality.
 
-
-- When you save your *Screencast* in an Image format,
-  the Images will be saved using the entire Blender Window, with full width and height,
-  and the quality of the Image will be defined by its type (i.e. JPG, PNG, and so on)
-  and configuration (i.e. Slider *quality* of the .JPG format).
-- When you save your *Screencast* in a Video format, it will be sent to a codec.
-  Depending on the codec limitations, the resulting output Video could be scaled down.
-  Furthermore, some combinations of Window width and height cannot be processed by certain codecs.
-  In these cases, the *Screencast* will try to start, but will immediately stop.
-  In order to solve this, choose another Window format and/or another codec.
+   - When you save your *Screencast* in an Image format,
+     the Images will be saved using the entire Blender Window, with full width and height,
+     and the quality of the Image will be defined by its type (i.e. JPG, PNG, and so on)
+     and configuration (i.e. Slider *quality* of the .JPG format).
+   - When you save your *Screencast* in a Video format, it will be sent to a codec.
+     Depending on the codec limitations, the resulting output Video could be scaled down.
+     Furthermore, some combinations of Window width and height cannot be processed by certain codecs.
+     In these cases, the *Screencast* will try to start, but will immediately stop.
+     In order to solve this, choose another Window format and/or another codec.
 
 
 Blender Window Dimension
