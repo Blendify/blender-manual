@@ -41,9 +41,6 @@ the relevant messages.
    toggle the console state to off via re-selecting Toggle System Console option from the drop-down menu
    :menuselection:`Window --> Toggle System Console`.
 
-   Note the Blender *Console Window* can look very similar to MS-DOS,
-   so make sure that you are closing the correct window if an instance of MS-DOS is open.
-
 
 Linux
 =====
@@ -55,8 +52,8 @@ Linux
    Starting Blender from a Linux console window and subsequent messages.
 
 
-The Blender *Console Window* in Linux will generally only be visible on the desktop
-if Blender is started from a terminal, as Blender outputs to the
+The Blender *Console Window* in Linux will typically only be visible on the desktop
+if Blender is manually started from a terminal, as Blender outputs to the
 *Console Window* it is started from.
 
 Depending on your desktop environment setup, a Blender icon may appear on your desktop or an
@@ -66,9 +63,7 @@ Blender *Console Window* text will most likely be hidden on the Terminal that yo
 `XWindows <http://en.wikipedia.org/wiki/Xwindows>`__ server was started from.
 
 This screenshot shows Blender started from a Linux Terminal and the
-resulting console text being printed to it. This example shows that when Blender was started
-it was unable to access a library related to the Pulseaudio sound server. When Blender closed,
-it saved the recovery file to ``/tmp/quit.blend``.
+resulting console text being printed to it.
 
 
 MacOS
