@@ -30,7 +30,7 @@ Save Versions
 =============
 
 Depending on the number of
-:doc:`Save Versions </getting_started/basics/undo_and_redo#save_and_auto_save>` you have set,
+:doc:`Save Versions </interface/undo_and_redo#save_and_auto_save>` you have set,
 all existing files with the same name will be rotated to a ``.blend#`` file extension,
 where ``#`` is ``1``, ``2``, ``3``, etc.
 

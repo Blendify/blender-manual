@@ -2,6 +2,19 @@
 ***************
   Introduction
 ***************
+
+When starting Blender, the splash screen appears.
+On the left side are links to official web pages, and on the right are your most recently opened projects.
+
+To close the splash screen start a new project, you can press :kbd:`Esc` or click anywhere
+inside the Blender Window (except on the splash screen).
+
+.. figure:: /images/blender_default_startup.png
+   :align: center
+   :width: 75%
+
+   After closing splash screen, this is what the default Blender window looks like.
+
 Blender's user interface is consistent across all platforms.
 The interface can be customized to match specific tasks using Screen Layouts,
 which can then be named and saved for later use.

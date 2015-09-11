@@ -41,5 +41,6 @@ Tools
 
 .. toctree::
    :maxdepth: 1
-   
-   Screen Capture <screenshot.rst>
+
+   undo_and_redo.rst
+   screenshot.rst

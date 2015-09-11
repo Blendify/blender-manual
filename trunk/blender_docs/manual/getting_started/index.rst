@@ -9,4 +9,3 @@
 
    about_blender/index.rst
    installing_blender/index.rst
-   basics/index.rst

@@ -53,7 +53,7 @@ The Toolshelf is a context-sensitive region containing tools depending on the cu
 For more information on specific tools available, see:
 
 - :doc:`Transformations </editors/3dview/transform/index>`
-- :doc:`History </getting_started/basics/undo_and_redo>`
+- :doc:`History </interface/undo_and_redo>`
 - :doc:`Creating Objects </modeling/meshes/editing/basics/adding>`
 - :doc:`Groups and Parenting </modeling/objects/groups_and_parenting>`
 - :ref:`animation-index`
