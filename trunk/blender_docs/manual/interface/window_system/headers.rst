@@ -101,11 +101,11 @@ simply right click on the header and enable set it to collapsed.
 .. figure:: /images/Header_menu_expand.jpg
    :width: 359px
 
-   Right click to access the header menu
+   Right-click on any of the header menus :menuselection:`Header --> Collapse Menus`.
 
 
 .. figure:: /images/Header_menu_collapsed.jpg
    :width: 359px
 
-   Access the menu from the collapsed icon
+   Access the menu from the collapsed icon.
 
