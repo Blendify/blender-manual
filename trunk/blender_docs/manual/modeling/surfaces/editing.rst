@@ -120,10 +120,10 @@ Basic Surface Editing (translation, rotation, scale)
 
 Once you have a selection of one or more control points,
 you can grab/move (:kbd:`G`), rotate (:kbd:`R`) or scale (:kbd:`S`) them, like many other things in Blender,
-as described in the :doc:`Manipulation in 3D Space </editors/3dview/transforms/introduction>` section.
+as described in the :doc:`Manipulation in 3D Space </editors/3dview/transform/introduction>` section.
 
 You also have in *Edit* mode an extra option when using these basic manipulations: the
-:doc:`proportional editing </editors/3dview/transforms/transform_control/proportional_edit>`.
+:doc:`proportional editing </editors/3dview/transform/transform_control/proportional_edit>`.
 
 
 Advanced Transform Tools

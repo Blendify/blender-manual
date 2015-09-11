@@ -20,7 +20,7 @@ point to bounding box with the :kbd:`,` hotkey or via the menu in the *Window He
 The image below shows how the Object's Bounding Box size is determined by the size
 of the Object.
 
-:doc:`Read more about selecting different pivot points </editors/3dview/transforms/transform_control/pivot_point/index>`
+:doc:`Read more about selecting different pivot points </editors/3dview/transform/transform_control/pivot_point/index>`
 
 
 .. figure:: /images/3D_interaction-Transform_Control-Pivot_Point-Bounding_Box_Center-bounding-box-demo.jpg

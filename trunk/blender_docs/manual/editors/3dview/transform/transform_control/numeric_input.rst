@@ -44,9 +44,9 @@ the *Global* axis. Pressing :kbd:`X`, :kbd:`Y` or :kbd:`Z` again
 will constrain movement to the orientation set in the *Transform Orientation*
 setting of the 3D window header.
 
-:doc:`Read more about Transform Orientations </editors/3dview/transforms/transform_control/transform_orientations>`
+:doc:`Read more about Transform Orientations </editors/3dview/transform/transform_control/transform_orientations>`
 
-:doc:`Read more about Axis Locking </editors/3dview/transforms/transform_control/axis_locking>`
+:doc:`Read more about Axis Locking </editors/3dview/transform/transform_control/axis_locking>`
 
 
 Rotation

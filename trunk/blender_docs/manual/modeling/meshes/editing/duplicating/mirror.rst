@@ -25,7 +25,7 @@ mirror transform to create a reversed version to complete the model.
 Note that mirrored duplicates can also be created with a *Mirror modifier.*
 
 
-:doc:`Read more about the Pivot Point </editors/3dview/transforms/transform_control/pivot_point/index>`
+:doc:`Read more about the Pivot Point </editors/3dview/transform/transform_control/pivot_point/index>`
 
 :doc:`Read more about the Mirror Modifier </modifiers/generate/mirror>`
 
@@ -55,7 +55,7 @@ if the Transform Orientation is set to *Normal*, pressing:
 
 will mirror the selection along the X-axis of the *Normal Orientation.*
 
-:doc:`Read more about Transform Orientations </editors/3dview/transforms/transform_control/transform_orientations>`
+:doc:`Read more about Transform Orientations </editors/3dview/transform/transform_control/transform_orientations>`
 
 
 .. figure:: /images/3D-interaction_Transformations_Advanced_Mirror_interactive-mirror.jpg

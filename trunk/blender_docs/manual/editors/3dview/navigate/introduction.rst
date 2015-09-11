@@ -48,7 +48,7 @@ Properties Panel
    - :doc:`Item </getting_started/basics/navigating/3d_view_options>`
    - :doc:`Display </getting_started/basics/navigating/3d_view_options>`
    - :doc:`Background Images </getting_started/basics/navigating/3d_view_options>`
-   - :doc:`Transform Orientations </editors/3dview/transforms/transform_control/transform_orientations>`
+   - :doc:`Transform Orientations </editors/3dview/transform/transform_control/transform_orientations>`
 
 Tool Shelf
    Toggles the *Tool Shelf* (:kbd:`T`), which appears on the left side of the 3d view,
@@ -204,7 +204,7 @@ Using this selector, you can change the pivot point to the location of the:
 Use the *Object Center* to switch between transforming the entire objects,
 or just the position of the objects
 
-:doc:`Read more about Pivot Points </editors/3dview/transforms/transform_control/pivot_point/index>`
+:doc:`Read more about Pivot Points </editors/3dview/transform/transform_control/pivot_point/index>`
 
 
 Transform (Manipulator) Selectors
@@ -213,7 +213,7 @@ Transform (Manipulator) Selectors
 These handy selectors allow you to rotate or move objects by grabbing
 (clicking with your mouse) their controls and moving your mouse in the axis.
 
-:doc:`Read more about Transform Manipulators </editors/3dview/transforms/transform_control/manipulators>`
+:doc:`Read more about Transform Manipulators </editors/3dview/transform/transform_control/manipulators>`
 
 
 Layer Selector

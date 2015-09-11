@@ -138,7 +138,7 @@ You finalize a whole stroke by clicking* :kbd:`RMB`. You can cancel the stroke y
 You can also snap strokes to underlying meshes by holding* :kbd:`Ctrl` while drawing. By the way,
 the *Peel Objects* *button at the bottom of the* *Bone Sketching* panel is the same thing as the
 "monkey" button of the snapping header bar controls shown when* *Volume* snap element is selected - see the
-:doc:`snap to mesh </editors/3dview/transforms/transform_control/snap#snap_element>` page for details.
+:doc:`snap to mesh </editors/3dview/transform/transform_control/snap#snap_element>` page for details.
 
 
 Selecting Strokes

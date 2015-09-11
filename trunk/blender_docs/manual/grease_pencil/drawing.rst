@@ -213,7 +213,7 @@ Edit
    *View* or *Global* transform orientations,
    snap to *Increment* and
    *Proportional Editing*
-   detailed in the general :doc:`Transformations Instructions </editors/3dview/transforms/index>`.
+   detailed in the general :doc:`Transformations Instructions </editors/3dview/transform/index>`.
 *Mirror* (:kbd:`Ctrl-M`) *Bend* (:kbd:`Shift-W`) *Shear* (:kbd:`Shift-Ctrl-Alt-S`) *To Sphere* (:kbd:`Shift-Alt-S`)
    These are similar to the equivalent mesh operations detailed in
    :doc:`Deforming Instructions </modeling/meshes/editing/deforming/index>`.
