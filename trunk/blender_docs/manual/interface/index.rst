@@ -42,5 +42,4 @@ Tools
 .. toctree::
    :maxdepth: 1
    
-   screenshots.rst
-   screencasts.rst
+   Screen Capture <screenshot.rst>
