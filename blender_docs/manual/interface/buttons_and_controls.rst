@@ -227,15 +227,7 @@ Header Menus
 
 Header menus are used to configure the editor and access tools.
 
- .. figure:: /images/interface_header_collapse-menu.png
-   :align: right
-
-   Example of a collapsed menu.
-
-To save space, its possible to collapse all header menus into a single icon.
-
-Right-click on any of the header menus :menuselection:`Header --> Collapse Menus`
-
+See :doc:`Headers </interface/window_system/headers>` for header options.
 
 
 Pop-Up Menus

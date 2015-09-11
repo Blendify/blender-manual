@@ -106,7 +106,7 @@ def warn_images_post():
           "LIST OF UNUSED IMAGES:\n"
           "======================")
     for fn in sorted(img_files_set - img_refs_set):
-        print("svn rm --force 'manual/images/%s'" % fn)
+        print(" svn rm --force 'manual/images/%s'" % fn)
 
     print("LIST OF MISSING IMAGES:\n"
           "=======================")
