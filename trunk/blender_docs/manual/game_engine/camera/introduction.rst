@@ -84,28 +84,3 @@ there is an option to shift the camera view on the x/y plane of the view. It is 
 lens shift in video projectors that usually shift the image up along the Y axis.
 So for example,
 when you put the beamer on a table it does not project half of the image on the table.
-
-Unfortunately, this parameter is not taken in account by the Game Engine.
-
-To manipulate the projection we can then directly modify the camera projection matrix in Python.
-
-.. code-block:: python
-
-   import bge
-   scene = bge.logic.getCurrentScene()
-   cam = scene.active_camera
-   # get projection matrix
-   camatrix = cam.projection_matrix
-   # modifying the camera projection matrix by modifying the x and y terms
-   # of the 3rd row to obtain a shift of the rendered area
-   camatrix[2][0] = 2*shiftx
-   camatrix[2][1] = 2*shitfy
-   cam.projection_matrix = camatrix
-
-
-Here in field of view units are shiftx and shifty. So for example,
-for shifting the view up half a screen shifty is set to 0.5.
-
-Note that a camera's projection_matrix attribute may not be set until after initialization
-scripts are executed and running this code immediately after the game starts will mess up the
-projection matrix.
