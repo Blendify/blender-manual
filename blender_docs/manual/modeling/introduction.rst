@@ -45,10 +45,10 @@ Inserting text is quite common for the creation of logos, and can be seen as a s
 modeling. You may define the text, font, bevel, extruded width and several other parameters
 that control generated object.
 
-:doc:`Scripted Modeling </modeling/scripts>`
-============================================
+Scripted Modeling
+=================
 
-Since Blender functionality is extensible via Python scripting, there are a number of very useful scripts that assist
+Since Blender functionality is :doc:`extensible via Python scripting </extensions/index>`, there are a number of very useful scripts that assist
 you in modeling. They may give you new mesh primitives to work with, or apply some fancy manipulation of the meshes
 that you are already working with.
 

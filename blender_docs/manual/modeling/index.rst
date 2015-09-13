@@ -16,4 +16,3 @@
    metas/index.rst
    empties.rst
    groups.rst
-   scripts.rst
