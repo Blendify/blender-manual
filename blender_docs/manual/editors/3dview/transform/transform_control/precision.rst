@@ -12,13 +12,23 @@ Precision
 Description
 ===========
 
-Holding :kbd:`Ctrl` or :kbd:`Shift` during a transformation operation
-(such as grab/move, rotate or scale)
-will allow you to perform the transformation in either fixed amounts,
-very small amounts or both. The magnitude of the transformation can be viewed in the 3D window
+Holding :kbd:`Ctrl` during a transform operation (such as grab, rotate or scale)
+will toggle :ref:`Transform Snapping <transform-snap>`.
+When the :ref:`Snap Element <transform-snap-element>` is set to *Increment*,
+this allows the transformation to be performed in fixed amounts.
+
+Holding :kbd:`Shift` during a transform operation will transform the object at 1/10th the speed,
+allowing much finer control.
+
+The magnitude of the transformation can be viewed in the 3D window
 header in the bottom left hand corner. Releasing :kbd:`Ctrl` or :kbd:`Shift`
 during the transformation will cause the movement to revert back to its normal mode of
 operation.
+
+.. note::
+   
+   The snapping behaviors described on this page **only** apply when :ref:`Increment Snap <transform-snap-element>`
+   is selected.
 
 :doc:`Read more about Window Headers </interface/window_system/headers>`
 
@@ -126,4 +136,3 @@ Scale transformations
 ---------------------
 
 Holding :kbd:`Ctrl-Shift` will cause size changes in 0.01 BU increments.
-
