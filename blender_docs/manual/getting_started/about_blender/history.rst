@@ -164,8 +164,8 @@ Blender goes Open Source
   to the Bullet physics engine, dome (fish-eye) rendering, and more API GE calls made available.
 
 
-Blender 2.5 - The Recode!
--------------------------
+Blender 2.5x - The Recode!
+--------------------------
 
 - `2.5x <http://wiki.blender.org/index.php/Dev:2.5/Source>`__ - From 2009 to August 2011:
   This series released four `pre-version <http://archive.blender.org/development/release-logs/blender-256-beta>`__
@@ -173,6 +173,11 @@ Blender 2.5 - The Recode!
   - to 2.59 - August 2011). It is one of the most important development projects, with a total refactor of
   the software with new functions, redesign of the internal window manager and event/tool/data handling system,
   and new Python API. The final version of this project was Blender 2.59 in August 2011.
+
+
+Blender 2.6x to 2.7x - Improvements & Stabalizing
+-------------------------------------------------
+
 - `2.60 <http://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.60>`__ - October 2011:
   Internationalization of the UI, improvements in animation system and the GE, vertex weight groups modifiers,
   3D audio and video, bug fixes, and the UI internationalization.
@@ -224,3 +229,13 @@ Blender 2.5 - The Recode!
   Cycles gets volume and SSS support on the GPU, pie menus are added and tooltips greatly improved,
   the intersection modeling tool is added, new sun beam node for the compositor, Freestyle now works with
   Cycles, texture painting workflow is improved, and more than 220 bug fixes.
+- `2.73 <http://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.73>`__  - January 2015:
+  Cycles gets improved volumetric support, major upgrade to grease pencil,
+  MS-Windows gets Input Method Editors (IMEs)
+  and general improvements to painting, freestyle, sequencer and add-ons.
+- `2.74 <http://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.74>`__ - March 2015:
+  Support for custom-normals, viewport compositing and improvements to hair dynamics.
+- `2.75 <http://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.75>`__  - July 2015:
+  Integrated stereo/multi-view pipeline, corrective smooth modifier
+  and new dependency graph *(enable as a command line option)*.
+
