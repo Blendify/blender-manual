@@ -56,27 +56,16 @@ Rendering an image using ''OpenGL Render''
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     All modes
-   | Hotkey:   Undefined -You can add one for your :doc:`Keymap </preferences/input>`
+   | Mode: All modes
+   | Menu: :menuselection:`Render --> OpenGL Render Image`
 
-
-To start an *OpenGL render* you can use any of the following options:
-
+Activating OpenGL render from the menu will render to active camera view.
 
 .. figure:: /images/basics-starting-small-opengl-render-buttons.jpg
-
-.. figure:: /images/basics-starting-small-search-render.jpg
    :align: right
 
-   Search functionality
-
-
-- Click on *OpenGL Render Active Viewport*, in the header of the 3D Window,
-  using the small button showing a *Camera* (together with a small image showing a *slate*)
-  in the header of the 3D View
-- Go to :menuselection:`Render --> OpenGL Render Image` from the header of the *Info Window*
-  (see: *Header of the Info Window* Image)
-- Using Blender Search: press :kbd:`Spacebar`, type *Render* and click on *OpenGL Render*.
+You can also render any view-port, from the header of the *3D View*,
+using the small button showing a *Camera* (together with a small image showing a *slate*)
 
 To abort or quit the render, press :kbd:`Esc`.
 
