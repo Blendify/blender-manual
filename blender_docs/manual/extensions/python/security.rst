@@ -29,17 +29,12 @@ Auto Execution
 Here are the different ways blend files may automatically run scripts.
 
 
-- Registered Text-Blocks
-
-*A text block can have its* **Register** *option enabled which means it will load on start.*
-
-- Animation Drivers
-
-*Python expressions can be used to* **drive** *values and are often used in more advanced rigs and animations.*
-
-- Game Engine Auto-Start
-
-*scripts are often used for game logic, blend files can have auto-start enabled with runs the game on load.*
+Registered Text-Blocks
+  A text block can have its *Register* option enabled which means it will load on start.
+Animation Drivers
+  Python expressions can be used to *Drive* values and are often used in more advanced rigs and animations.
+Game Engine Auto-Start
+  Scripts are often used for game logic, blend files can have *Auto Start* enabled with runs the game on load.
 
 
 Manual Execution
