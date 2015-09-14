@@ -168,7 +168,7 @@ Rendering an animation using ''OpenGL Render''
    :class: refbox
 
    | Mode:     All modes
-   | Hotkey:   Undefined -You can add one for your :doc:`Keymap </preferences/input>`
+   | Menu:     :menuselection:`Render --> OpenGL Render Animation`
 
 
 To Render an animation using *OpenGL Render*, you can use any of the following options:
@@ -191,7 +191,6 @@ Showing Only Rendered Objects
    :class: refbox
 
    | Mode:     All modes
-   | Hotkey:   Undefined - You can add one for your :doc:`Keymap </preferences/input>`
 
 
 .. figure:: /images/basics-quick-render-display-only-render.jpg

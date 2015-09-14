@@ -28,7 +28,6 @@ Restoring to Factory Settings
 
    | Mode:     All modes
    | Menu:     :menuselection:`File --> Load factory Settings`
-   | Hotkey:   Undefined, you can add one for your :doc:`Keymap </preferences/input>`
 
 
 To restore the startup file to the factory settings,
