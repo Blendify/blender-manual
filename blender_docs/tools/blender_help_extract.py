@@ -155,7 +155,7 @@ def text_extract_help(text, args, static_strings):
 
         # in place of more advanced formatting
         arg_text = arg_text.replace(
-                "* ani_##_test.png becomes ani_01_test.png",
+                "* 'ani_##_test.png' becomes 'ani_01_test.png'",
                 "\n   * ``ani_##_test.png`` becomes ``ani_01_test.png``"
                 )
 
