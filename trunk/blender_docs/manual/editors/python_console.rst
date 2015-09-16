@@ -3,9 +3,10 @@
 Python Console
 **************
 
-The interactive console in Blender 2.5 has been improved. Auto Complete,
-Python Reporting & more features have been added.
-Testing one-liners in the console is a good way to learn the Python API.
+The Python console is a quick way to execute Python commands,
+with access to the entire Python API, command history and auto-complete.
+
+Its a good way to explore possibilities, which can then be pasted into larger scripts.
 
 
 Usage
@@ -30,8 +31,8 @@ From the screen shot above,
 you will notice that apart from the usual hot keys that are used to navigate,
 by pressing :kbd:`Ctrl-Spacebar` you can enable Auto-complete feature.
 
-Since Blender 2.5 uses Python 3.x,
-the interpreter is loaded and is ready to accept commands at the prompt **>>>**
+The command prompt is typical for Python 3.x,
+the interpreter is loaded and is ready to accept commands at the prompt ``>>>``
 
 
 First look at the Console Environment
@@ -48,11 +49,9 @@ at the prompt and execute it.
 Following is a quick overview of the output
 
 ``C``
-   Quick access to bpy.context
+   Quick access to ``bpy.context``
 ``D``
-   Quick access to bpy.data
-``__builtins__``
-   Python Built-ins (Classes, functions, variables)
+   Quick access to ``bpy.data``
 ``bpy``
    Top level Blender Python API module.
 
