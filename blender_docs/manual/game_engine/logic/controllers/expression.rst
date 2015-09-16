@@ -134,3 +134,13 @@ You can also do:
 This expression returns True,
 hence in this case the controller sends a positive pulse to the connected actuators.
 
+Parts of the Expression Controller
+==================================
+
+.. figure:: /images/game_engine_controllers_expression.png
+
+1. Expression
+
+   The Expression to calculate.
+
+See :ref:`standard controller parts <standard-controller-parts>` for descriptions of the remaining options.

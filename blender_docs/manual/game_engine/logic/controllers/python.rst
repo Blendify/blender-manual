@@ -26,16 +26,20 @@ every time the controller is triggered.
 
 The entire file can be run by setting the type to *Script* and setting the name to myscript.py.
 
-Parts of the Python Controller:
+Parts of the Python Controller
 ===============================
 
 .. image:: /images/game_engine_python_controller.jpg
 
 
-#. Type: Specifies whether it is a module or entire file.
-#. The name of the file to be loaded.
-#. Continuously reload the file.
+#. Type
+      Specifies whether it is a module or entire file.
+#. Name
+      The name of the file to be loaded.
+#. D (Use Debug)
+      Continuously reload the file.
 
-The :doc:`remaining parts </game_engine/logic/controllers/editing>` are standard to all controllers.
+
+See :ref:`standard controller parts <standard-controller-parts>` for descriptions of the remaining options.
 
 More information on the python API can be found :doc:`here </game_engine/python_api/index>`.
