@@ -9,14 +9,57 @@
 
    The Editor selection menu.
 
-Blender provides a number of different Editor types for displaying and modifying different aspects of data.
+Blender provides a number of different *Editor* types for displaying and modifying different aspects of data.
 
-It is also possible to open the same Editor type multiple times and thus
-show different views on the same data in parallel.
-For example you can open the 3D View Editor 4 times to show
-the current scene from the top, front, side and Camera perspective at the same time.
+It is also possible to open the same Editor type multiple times to have different views on the same data.
 
 :doc:`Read more about arranging frames </interface/window_system/arranging_frames>`
+
+3D
+--
+
+.. toctree::
+   :maxdepth: 1
+
+   3dview/index.rst
+
+
+Animation
+---------
+
+.. toctree::
+   :maxdepth: 1
+
+   timeline.rst
+   graph_editor/index.rst
+   dope_sheet/index.rst
+   nla/index.rst
+
+
+Image/Video
+-----------
+
+.. toctree::
+   :maxdepth: 1
+
+   uv_image/index.rst
+   sequencer/index.rst
+   movie_clip.rst
+
+
+Nodes/Logic
+-----------
+
+.. toctree::
+   :maxdepth: 1
+
+   text_editor.rst
+   node_editor/index.rst
+   logic_editor.rst
+
+
+Settings
+--------
 
 .. toctree::
    :maxdepth: 1
@@ -24,28 +67,15 @@ the current scene from the top, front, side and Camera perspective at the same t
    info.rst
    outliner.rst
    properties/index.rst
-   node_editor/index.rst
-   sequencer/index.rst
-   timeline.rst
-   3dview/index.rst
 
-.. Correct Order (as inside Blender):
-..    Python Console
-..    File Browser
-..    Info
-..    User Preferences
-..    Outliner
-..    Properties
-..    Logic Editor
-..    Node Editor
-..    Text Editor
-..    Movie Clip Editor
-..    Video Sequence Editor
-..    UV/Image Editor
-..    NLA Editor
-..    Dope Sheet
-..    Graph Editor
-..    Timeline
-..    3D View
-.. (Delete this comment when all editors have been documented,
-.. this is just for easy reference while the editor docs are being added)
+
+Other
+-----
+
+.. toctree::
+   :maxdepth: 1
+
+   file_browser.rst
+
+   python_console.rst
+
