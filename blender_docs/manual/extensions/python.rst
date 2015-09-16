@@ -55,18 +55,16 @@ Links that deal with distributing your scripts.
   - Project to maintain a central repository of extensions to Blender.
 
 
-Getting Started - Wiki tutorials
-================================
+Getting Started - Manual links
+==============================
 
-The following pages are located on this wiki and take you from the basics to the more advanced
+The following links take you from the basics to the more advanced
 concepts of Python scripting for Blender.
 
 
+- :doc:`Text Editor </editors/text_editor>`
+- :doc:`Python Console </editors/python_console>`
 - :doc:`Hello World </extensions/python/intro_to_python>`
-- :doc:`Console </extensions/python/console>`
-- :doc:`Text editor </extensions/python/text_editor>`
-- :doc:`Geometry </extensions/python/geometry>`
-- :doc:`Properties, ID-Properties and their differences </extensions/python/properties>`
 
 
 Getting Started - External links

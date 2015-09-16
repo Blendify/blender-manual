@@ -3,11 +3,8 @@
 Text Editor
 ***********
 
-Blender has a *Text Editor* among its windows types, accessible via the *Text Editor* button (
-
-.. figure:: /images/textButton.jpg
-
-) of the *Window type* menu, or via :kbd:`Shift-F11`.
+Blender has a *Text Editor* among its windows types,
+accessible via the *Window type* menu, or the shortcut :kbd:`Shift-F11`.
 
 The newly opened Text window is grey and empty, with a very simple toolbar (*Text Toolbar*).
 
@@ -44,6 +41,9 @@ The following keyboard commands apply:
 - :kbd:`Ctrl-C` - Copies the marked text into the text clipboard.
 - :kbd:`Ctrl-X` - Cuts out the marked text into the text clipboard.
 - :kbd:`Ctrl-V` - Pastes the text from the clipboard at the cursor location in the Text window.
+- :kbd:`Ctrl-D` - Duplicate the current line.
+- :kbd:`Tab` - Indent the selection.
+- :kbd:`Shift-Tab` - Un-indent the selection.
 - :kbd:`Shift-Ctrl-Alt-S` - Saves unsaved text as a text file, a *File Browser* window appears.
 - :kbd:`Alt-S` - Saves an already open file.
 - :kbd:`Alt-O` - Loads a text, a *File Browser* window appears.
@@ -51,7 +51,6 @@ The following keyboard commands apply:
 - :kbd:`Ctrl-Z` - Undo.
 - :kbd:`Ctrl-Shift-Z` - Redo.
 - :kbd:`Alt-R` - Reopen (reloads) the current buffer (all non-saved modifications are lost).
-- :kbd:`Alt-M` - Converts the content of the text window into 3D text (max 100 chars).
 
 To delete a text buffer just press the *X* button next to the buffer's name,
 just as you do for materials, etc.
@@ -70,56 +69,13 @@ can access them through the *Text* --> *Text Plugins* menu entry.
 Other usages for the Text window
 ================================
 
-The text window is handy also when you want to share your ``.blend`` files with the community or with your friends.
-A Text window can be used to write in a
-README text explaining the contents of your blender file.
-Much more handy than having it on a separate application. Be sure to keep it visible when
-saving! If you are sharing the file with the community and you want to share it under some
-license you can write the license in a text window.
+The text window is handy also when you want to share your ``.blend`` files with others.
+A *Text* window can be used to write in a ``README`` text explaining the contents of your blend file.
+Be sure to keep it visible when saving!
 
 
 Demonstration
-*************
+=============
 
 .. youtube:: OzGZ_ssrmsQ
 
-
-Exercise
-********
-
-Copy the text below in the Text Editor.
-
-.. code-block:: python
-
-   import bpy
-   from math import radians, cos, sin
-
-   # An object can exist in 20 layers,
-   # so the following code determines on which layers you want it to be
-
-   # Get the cursor's location
-   cursor = bpy.context.scene.cursor_location
-
-   # Radius of the circle
-   radius = 5
-
-   # Space the cubes around the circle. Default is 36 degrees apart
-   # Get a list of angles converted to radians
-
-   anglesInRadians = [radians(degree) for degree in range(0, 360, 36)]
-
-   # Loop through the angles, determine x,y using polar coordinates
-   # and create object
-   for theta in anglesInRadians:
-       x = cursor.x + radius * cos(theta)
-       y = cursor.y + radius * sin(theta)
-       z = cursor.z
-       bpy.ops.mesh.primitive_cube_add(location=(x, y, z))
-
-
-Execute the script with the *Run Script* button.
-
-You can see the result of running the above script in this video.
-
-
-.. youtube:: pPR9Eog0S3E
