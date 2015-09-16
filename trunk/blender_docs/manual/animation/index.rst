@@ -18,7 +18,6 @@
    editors/graph.rst
    editors/graph/fcurves.rst
    editors/graph/fmodifiers.rst
-   editors/nla.rst
    techs.rst
    techs/object.rst
    techs/object/constraint.rst
