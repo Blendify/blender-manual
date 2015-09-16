@@ -139,7 +139,7 @@ Linear
 
 
 Additional extrapolation tools (e.g. the "Cycles" F-Modifier)
-are located in the :doc:`F-Curve Modifiers </animation/editors/graph/fmodifiers>`
+are located in the :doc:`F-Curve Modifiers </editors/graph_editor/fmodifiers>`
 
 
 Handle Types
