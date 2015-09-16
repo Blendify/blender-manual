@@ -34,7 +34,7 @@ Key Features
   :doc:`scripting </extensions/introduction>`,
   :doc:`rendering </render/introduction>`,
   :doc:`compositing </composite_nodes/introduction>`,
-  :doc:`VFX </motion_tracking/index>`,
+  :doc:`VFX </editors/movie_clip_editor/index>`,
   and :doc:`game creation </game_engine/introduction>`.
 - Cross platform, with an OpenGL GUI that is uniform on all major platforms (and customizable with Python scripts).
 - High quality 3D architecture enabling fast and efficient creation work-flow.
