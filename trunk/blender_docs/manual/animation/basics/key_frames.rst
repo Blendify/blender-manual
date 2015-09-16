@@ -37,4 +37,4 @@ Editing Key Frames
 ==================
 
 For editing key frames go to the :doc:`Graph Editor </animation/editors/graph>`
-or to the :doc:`Dopesheet </animation/editors/dopesheet>`
+or to the :doc:`Dopesheet </editors/dope_sheet/dope_sheet>`

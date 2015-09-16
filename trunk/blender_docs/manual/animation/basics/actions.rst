@@ -203,7 +203,7 @@ Working with Actions
 When you first animate an object by adding keyframes,
 blender creates an *Action* to record the data.
 
-*Actions* can be managed with the *Action Browser* in the :doc:`DopeSheet </animation/editors/dopesheet>`
+*Actions* can be managed with the *Action Browser* in the :doc:`DopeSheet </editors/dope_sheet/dope_sheet>`
 *Action Editor* header, or the properties region of the :doc:`NLA Editor </animation/editors/nla>`.
 
 If you are making multiple actions for the same object,
