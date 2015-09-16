@@ -31,7 +31,7 @@ Key Features
   :doc:`rigging and skinning </rigging/introduction>`,
   :doc:`animation </animation/introduction>`,
   many types of :doc:`simulations </physics/introduction>` (fluid, rigid bodies, etc),
-  :doc:`scripting </extensions/introduction>`,
+  :doc:`scripting </advanced/scripting/introduction>`,
   :doc:`rendering </render/introduction>`,
   :doc:`compositing </composite_nodes/introduction>`,
   :doc:`VFX </editors/movie_clip_editor/index>`,

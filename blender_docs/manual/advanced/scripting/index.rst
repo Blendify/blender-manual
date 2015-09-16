@@ -1,8 +1,8 @@
 .. _extensions-index:
 
-#############
-  Extensions
-#############
+############
+  Scripting
+############
 
 .. toctree::
 

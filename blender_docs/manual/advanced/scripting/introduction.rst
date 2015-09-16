@@ -7,7 +7,7 @@ Extending Blender
 *****************
 
 Unlike many programs you may be familiar with, Blender is not monolithic and static.
-You can extend its functionality with :doc:`Python scripting </extensions/python>`
+You can extend its functionality with :doc:`Python scripting </advanced/scripting/python>`
 without having to modify the source and recompile
 
 

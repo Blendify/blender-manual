@@ -38,7 +38,7 @@ Links that are useful while writing scripts.
 - `CookBook <http://wiki.blender.org/index.php/Dev:2.5/Py/Scripts/Cookbook>`__
 
   - A section of handy code snippets (yet to be written)
-- :doc:`FAQ </extensions/python/faq>`
+- :doc:`FAQ </advanced/scripting/python/faq>`
 
   - Frequently asked questions and their answers
 
@@ -64,7 +64,7 @@ concepts of Python scripting for Blender.
 
 - :doc:`Text Editor </editors/text_editor>`
 - :doc:`Python Console </editors/python_console>`
-- :doc:`Hello World </extensions/python/intro_to_python>`
+- :doc:`Hello World </advanced/scripting/python/intro_to_python>`
 
 
 Getting Started - External links
