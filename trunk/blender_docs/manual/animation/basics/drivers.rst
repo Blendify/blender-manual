@@ -21,8 +21,8 @@ So from this example, if the Driver Value is 2.0 the property will be 0.5.
 
 The Driver Value is determined by Driver Variables or a Scripted Expression.
 
-Most the settings for the drivers :doc:`F-Curves </animation/editors/graph/fcurves>` are found in
-the :doc:`Graph Editor </animation/editors/graph>`.
+Most the settings for the drivers :doc:`F-Curves </editors/graph_editor/fcurves>` are found in
+the :doc:`Graph Editor </editors/graph_editor/introduction>`.
 
 .. _animation_drivers_panel:
 
@@ -34,7 +34,7 @@ Drivers Panel
    Graph Editor: Drivers: Drivers Panel.
 
 
-This panel is located in the :doc:`Graph Editor </animation/editors/graph>` with the mode set to Drivers.
+This panel is located in the :doc:`Graph Editor </editors/graph_editor/introduction>` with the mode set to Drivers.
 
 The drivers panel is for setting up *Driver Variables* or a *Scripted Expression* which
 will determine the value of the *Driver Value*.
@@ -443,8 +443,8 @@ See Also
 ========
 
 - :doc:`Animation </animation/index>`
-- :doc:`Graph Editor </animation/editors/graph>`
-- :doc:`F-Curves </animation/editors/graph/fcurves>`
+- :doc:`Graph Editor </editors/graph_editor/introduction>`
+- :doc:`F-Curves </editors/graph_editor/fcurves>`
 - :doc:`Extending Blender with python </extensions/python>`.
 
 

@@ -14,10 +14,6 @@
    basics/keying_sets.rst
    basics/markers.rst
    basics/motion_paths.rst
-   editors/index.rst
-   editors/graph.rst
-   editors/graph/fcurves.rst
-   editors/graph/fmodifiers.rst
    techs.rst
    techs/object.rst
    techs/object/constraint.rst
