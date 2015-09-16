@@ -14,18 +14,18 @@ Render Options
    Run in background (often used for UI-less rendering)
 ``-a``, ``--render-anim``
    Render frames from start to end (inclusive)
-``-S``, ``--scene`` <name>
-   Set the active scene <name> for rendering
-``-f``, ``--render-frame`` <frame>
-   Render frame <frame> and save it.
-   +<frame> start frame relative, -<frame> end frame relative.
-``-s``, ``--frame-start`` <frame>
-   Set start to frame <frame> (use before the -a argument)
-``-e``, ``--frame-end`` <frame>
-   Set end to frame <frame> (use before the -a argument)
-``-j``, ``--frame-jump`` <frames>
+``-S``, ``--scene`` ``<name>``
+   Set the active scene ``<name>`` for rendering
+``-f``, ``--render-frame`` ``<frame>``
+   Render frame ``<frame>`` and save it.
+   ``+<frame>`` start frame relative, ``-<frame>`` end frame relative.
+``-s``, ``--frame-start`` ``<frame>``
+   Set start to frame ``<frame>`` (use before the -a argument)
+``-e``, ``--frame-end`` ``<frame>``
+   Set end to frame ``<frame>`` (use before the -a argument)
+``-j``, ``--frame-jump`` ``<frames>``
    Set number of frames to step forward after each rendered frame
-``-o``, ``--render-output`` <path>
+``-o``, ``--render-output`` ``<path>``
    Set the render path and file name.
    Use ``//`` at the start of the path to render relative to the blend file.
 
@@ -43,38 +43,38 @@ Render Options
       blender -b foobar.blend -o //render_ -F PNG -x 1 -a
 
    ``//render_`` becomes ``//render_####``, writing frames as ``//render_0001.png``
-``-E``, ``--engine`` <engine>
+``-E``, ``--engine`` ``<engine>``
    Specify the render engine
    use -E help to list available engines
-``-t``, ``--threads`` <threads>
-   Use amount of <threads> for rendering and other operations
+``-t``, ``--threads`` ``<threads>``
+   Use amount of ``<threads>`` for rendering and other operations
    [1-64], 0 for systems processor count.
 
 
 Format Options
 ==============
 
-``-F``, ``--render-format`` <format>
+``-F``, ``--render-format`` ``<format>``
    Set the render format, Valid options are...
       TGA IRIS JPEG MOVIE IRIZ RAWTGA
       AVIRAW AVIJPEG PNG BMP FRAMESERVER
    (formats that can be compiled into blender, not available on all systems)
       HDR TIFF EXR MULTILAYER MPEG AVICODEC QUICKTIME CINEON DPX DDS
-``-x``, ``--use-extension`` <bool>
+``-x``, ``--use-extension`` ``<bool>``
    Set option to add the file extension to the end of the file
 
 
 Animation Playback Options
 ==========================
 
-``-a`` <options> <file(s)>
-   Playback <file(s)>, only operates this way when not running in background.
-      -p <sx> <sy>   Open with lower left corner at <sx>, <sy>
+``-a`` ``<options>`` ``<file(s)>``
+   Playback ``<file(s)>``, only operates this way when not running in background.
+      -p ``<sx>`` ``<sy>``   Open with lower left corner at ``<sx>``, ``<sy>``
       -m      Read from disk (Don't buffer)
-      -f <fps> <fps-base>      Specify FPS to start with
-      -j <frame>   Set frame step to <frame>
-      -s <frame>   Play from <frame>
-      -e <frame>   Play until <frame>
+      -f ``<fps>`` ``<fps-base>``      Specify FPS to start with
+      -j ``<frame>``   Set frame step to ``<frame>``
+      -s ``<frame>``   Play from ``<frame>``
+      -e ``<frame>``   Play until ``<frame>``
 
 
 Window Options
@@ -84,8 +84,8 @@ Window Options
    Force opening with borders (default)
 ``-W``, ``--window-borderless``
    Force opening without borders
-``-p``, ``--window-geometry`` <sx> <sy> <w> <h>
-   Open with lower left corner at <sx>, <sy> and width and height as <w>, <h>
+``-p``, ``--window-geometry`` ``<sx>`` ``<sy>`` ``<w>`` ``<h>``
+   Open with lower left corner at ``<sx>``, ``<sy>`` and width and height as ``<w>``, ``<h>``
 ``-con``, ``--start-console``
    Start with the console window open (ignored if -b is set), (Windows only)
 ``--no-native-pixels``
@@ -110,11 +110,11 @@ Python Options
 ``-Y``, ``--disable-autoexec``
    Disable automatic Python script execution (pydrivers & startup scripts), (default).
 
-``-P``, ``--python`` <filename>
+``-P``, ``--python`` ``<filename>``
    Run the given Python script file
-``--python-text`` <name>
+``--python-text`` ``<name>``
    Run the given Python script text block
-``--python-expr`` <expression>
+``--python-expr`` ``<expression>``
    Run the given expression as a Python script
 ``--python-console``
    Run blender with an interactive console
@@ -131,8 +131,8 @@ Debug Options
    * Enables memory error detection
    * Disables mouse grab (to interact with a debugger in some cases)
    * Keeps Python's ``sys.stdin`` rather than setting it to None
-``--debug-value`` <value>
-   Set debug value of <value> on startup
+``--debug-value`` ``<value>``
+   Set debug value of ``<value>`` on startup
 
 
 ``--debug-events``
@@ -216,7 +216,7 @@ Other Options
    Disable the abort handler
 ``--enable-new-depsgraph``
    Use new dependency graph
-``--verbose`` <verbose>
+``--verbose`` ``<verbose>``
    Set logging verbosity level.
 
 
