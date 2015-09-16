@@ -19,7 +19,7 @@ Markers can be created and edited in all of the following editors
 - The :doc:`Graph Editor Window </animation/editors/graph>`.
 - The :doc:`Action Editor window </animation/basics/actions>`.
 - The :doc:`The Dope Sheet </editors/dope_sheet/dope_sheet>`.
-- The :doc:`NLA Editor window </animation/editors/nla>`.
+- The :doc:`NLA Editor window </editors/nla>`.
 - The :doc:`Video Sequence Editor window </editors/sequencer/index>`.
 - The :doc:`Timeline window </editors/timeline>`.When you create
 

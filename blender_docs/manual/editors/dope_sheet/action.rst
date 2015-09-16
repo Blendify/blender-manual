@@ -15,9 +15,9 @@ since both objects have 'X location' and 'Y location' properties beneath them.
 
 The *Action Editor* window enables you to see and edit the FCurve datablocks you defined as actions in the
 *FCurve Editor* window. So it takes place somewhere in-between the low-level
-:doc:`FCurves </animation/editors/graph>`, and the high-level :doc:`NLA editor </animation/editors/nla>`.
+:doc:`FCurves </animation/editors/graph>`, and the high-level :doc:`NLA editor </editors/nla>`.
 Hence, you do not have to use them for simple Ipo curves animations - and they have not much interest in themselves,
-so you will mostly use this window when you do :doc:`NLA animation </animation/editors/nla>`
+so you will mostly use this window when you do :doc:`NLA animation </editors/nla>`
 (they do have a few specific usages on their own,
 though, like e.g. with the :doc:`Action constraint </rigging/constraints/relationship/action>`,
 or the :doc:`pose libraries </rigging/posing/pose_library>`).
