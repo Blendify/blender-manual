@@ -3,7 +3,7 @@
 Python Console
 **************
 
-The Python console is a quick way to execute Python commands,
+The Python console is a quick way to execute commands,
 with access to the entire Python API, command history and auto-complete.
 
 Its a good way to explore possibilities, which can then be pasted into larger scripts.
@@ -194,13 +194,11 @@ Complex one... But this prints a list of objects not including the active object
 bpy.data
 --------
 
-bpy.data has a bunch of functions and variables that give you access to all the data in the
+``bpy.data`` has functions and attributes that give you access to all the data in the
 Blender file.
 
 You can access following data in the current Blender file:
-objects, meshes, materials, textures, scenes, screens, sounds, scripts, texts,
-cameras, curves, lamps, brushes, armatures, images, lattices, libraries, worlds,
-groups, metaballs, particles, node_groups
+objects, meshes, materials, textures, scenes, screens, sounds, scripts, ... etc.
 
 That's a lot of data.
 
@@ -257,7 +255,7 @@ So first we define an array variable for later reference:
 
 .. code-block:: python
 
-   >>> mylayers = [False]*20
+   >>> mylayers = [False] * 20
    >>> mylayers[0] = True
 
 
@@ -275,7 +273,7 @@ Press ENTER-KEY twice after entering the command at the shell prompt.
 .. code-block:: python
 
    >>> for index in range(0, 5):
-   ...     add_cube(location=(index*3, 0, 0), layers=mylayers)
+   ...     add_cube(location=(index * 3, 0, 0), layers=mylayers)
 
 
 .. figure:: /images/Extensions-Python-Console-Example-bpy-ops.jpg
