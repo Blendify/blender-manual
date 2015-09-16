@@ -355,10 +355,9 @@ Modifiers Panel
 See :doc:`F-Modifiers </editors/graph_editor/fmodifiers>` for more info.
 
 
-See Also
-========
+.. seealso::
 
-- :doc:`Graph Editor - F-Curves </editors/graph_editor/fcurves>`
-- :doc:`Graph Editor - F-Modifiers </editors/graph_editor/fmodifiers>`
-- :doc:`Actions </animation/basics/actions>`
-- :doc:`Drivers </animation/basics/drivers>`
+   - :doc:`Graph Editor - F-Curves </editors/graph_editor/fcurves>`
+   - :doc:`Graph Editor - F-Modifiers </editors/graph_editor/fmodifiers>`
+   - :doc:`Actions </animation/basics/actions>`
+   - :doc:`Drivers </animation/basics/drivers>`
