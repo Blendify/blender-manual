@@ -62,7 +62,7 @@ These are some other useful tools.
 
 The current frame is represented by a green vertical line called the *Time Cursor*.
 
-As in the :doc:`Timeline </animation/editors/timeline>`,
+As in the :doc:`Timeline </editors/timeline>`,
 you can change the current frame by pressing or holding :kbd:`LMB`.
 
 The green horizontal line is called the *Cursor*.

@@ -15,7 +15,6 @@
    basics/markers.rst
    basics/motion_paths.rst
    editors/index.rst
-   editors/timeline.rst
    editors/graph.rst
    editors/graph/fcurves.rst
    editors/graph/fmodifiers.rst
