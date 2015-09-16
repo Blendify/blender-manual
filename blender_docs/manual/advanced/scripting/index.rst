@@ -1,8 +1,8 @@
 .. _extensions-index:
 
-############
-  Scripting
-############
+################################
+  Scripting & Extending Blender
+################################
 
 .. toctree::
 
