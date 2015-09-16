@@ -445,7 +445,7 @@ See Also
 - :doc:`Animation </animation/index>`
 - :doc:`Graph Editor </editors/graph_editor/introduction>`
 - :doc:`F-Curves </editors/graph_editor/fcurves>`
-- :doc:`Extending Blender with python </extensions/python>`.
+- :doc:`Extending Blender with python </advanced/scripting/python>`.
 
 
 Links

@@ -153,7 +153,7 @@ Debug Options
 ``--debug-depsgraph``
    Enable debug messages from dependency graph
 ``--debug-depsgraph-no-threads``
-   Switch dependency graph to a single threaded evlauation
+   Switch dependency graph to a single threaded evaluation
 ``--debug-gpumem``
    Enable GPU memory stats in status bar
 ``--debug-wm``
