@@ -66,6 +66,8 @@ Seed
    Random number generator seed; each different value gives a different noise pattern.
 
 
+.. _cycles-bounces:
+
 Bounces
 ^^^^^^^
 
