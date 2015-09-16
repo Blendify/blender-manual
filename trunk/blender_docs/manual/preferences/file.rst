@@ -11,6 +11,8 @@ The *File Preferences* tab allows you to configure auto-save preferences and set
    :width: 650px
 
 
+.. _preferences-file_paths:
+
 File Paths
 ==========
 
@@ -129,5 +131,5 @@ Auto Save Temporary File
 Timer
    Time to wait between automatic saves.
 
-:doc:`Read more about Auto Save options </interface/undo_and_redo#save_and_auto_save>`
+:doc:`Read more about Auto Save options </troubleshooting/recover>`
 
