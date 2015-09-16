@@ -9,7 +9,6 @@
    introduction.rst
    assigning_a_texture.rst
    options.rst
-   uv_image_editor.rst
    types.rst
    types/procedural.rst
    types/procedural/blend.rst
