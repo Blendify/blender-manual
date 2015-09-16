@@ -44,7 +44,7 @@ Image/Video
 
    uv_image/index.rst
    sequencer/index.rst
-   movie_clip.rst
+   Movie Clip Editor <movie_clip_editor/index.rst>
 
 
 Nodes/Logic

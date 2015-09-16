@@ -126,7 +126,7 @@ Categories
    Rigid Bodies can simulate dynamic objects that are fairly rigid.
    Fluids, which include liquids and gasses, can be simulated, including Smoke.
    Force Fields can modify the behavior of simulations.
-:doc:`Motion Tracking </motion_tracking/index>`
+:doc:`Motion Tracking </editors/movie_clip_editor/index>`
    Motion tracking is a new technique available in Blender. It is still under development,
    and currently supports basic operations for 2D motion tracking, 3D motion tracking, and camera solution.
 `Animation Scripts <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts#Animation_Scripts>`__
