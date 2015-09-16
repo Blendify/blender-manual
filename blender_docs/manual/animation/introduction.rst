@@ -28,7 +28,7 @@ General Principles and Tools
 
 - :doc:`Key frames </animation/basics/key_frames>`
 - :doc:`Animation Editors </animation/editors/index>`
-- :doc:`Using The Timeline </animation/editors/timeline>`
+- :doc:`Using The Timeline </editors/timeline>`
 - :doc:`Markers </animation/basics/markers>`
 
 
@@ -97,7 +97,7 @@ Animation Basics
 Animation Editors
 -----------------
 
-:doc:`Timeline </animation/editors/timeline>`
+:doc:`Timeline </editors/timeline>`
    The Timeline Editor is a quick editor to set and control the time frame.
    This also has some tools for animation.
 :doc:`Graph Editor </animation/editors/graph>`

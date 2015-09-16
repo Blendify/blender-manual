@@ -15,4 +15,3 @@
    graph/fcurves.rst
    graph/fmodifiers.rst
    nla.rst
-   timeline.rst

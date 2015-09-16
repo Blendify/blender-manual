@@ -30,7 +30,7 @@ Animation
 .. toctree::
    :maxdepth: 1
 
-   timeline.rst
+   Timeline <timeline.rst>
    graph_editor/index.rst
    dope_sheet/index.rst
    nla/index.rst
