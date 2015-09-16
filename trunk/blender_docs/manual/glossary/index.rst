@@ -105,6 +105,10 @@ For other common conventions used throughout the manual.
       A type of logic dealing with binary true/false states.
       
       See also :doc:`boolean modifier </modifiers/generate/booleans>`
+      
+   Bounce
+      Refers to the reflection or transmission of a light ray upon interaction with a material.
+      See also :doc:`/render/cycles/settings/light_paths`.
 
    Bounding Box
       Box that encloses the shape of an object. The box is aligned with the local space of the object.

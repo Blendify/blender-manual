@@ -15,6 +15,10 @@ Type
 
 Size
    Size of the lamp in Blender Units; increasing this will result in softer shadows and shading.
+   
+Max Bounces
+   Maximum number of times light from the lamp is allowed to :term:`bounce`.
+   Limited by :ref:`scene-wide bounce settings <cycles-bounces>`
 
 Cast Shadow
    By disabling this option, light from lamps will not be blocked by objects in-between.
