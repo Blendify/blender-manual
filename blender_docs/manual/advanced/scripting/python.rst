@@ -6,19 +6,14 @@ Blender, Python Manual
 Introduction
 ============
 
-Welcome to the Blender Python Manual.
-
-
-Python `www.Python.org <http://www.python.org/>`__ is an interpreted, interactive,
+Python is an interpreted, interactive,
 object-oriented programming language. It incorporates modules, exceptions, dynamic typing,
 very high level dynamic data types, and classes.
 Python combines remarkable power with very clear syntax.
 
-
 Python scripts are a powerful and versatile way to extend Blender functionality.
 Most areas of Blender can be scripted, including Animation, Rendering, Import and Export,
 Object Creation and the scripting of repetitive tasks.
-
 
 To interact with Blender, scripts can make use of the tightly integrated API
 (Application Programming Interface).
@@ -29,29 +24,24 @@ General information
 
 Links that are useful while writing scripts.
 
+- `Python.org <http://www.python.org/>`__
+  - General information about Python.
 - `Blender Python API <http://www.blender.org/documentation/250PythonDoc/>`__
-
   - Official API documentation. Use this for referencing while writing scripts.
 - `API introduction <http://www.blender.org/documentation/blender_python_api_2_72_release/info_quickstart.html>`__
-
   - A short introduction to get you started with the API. Contains examples.
 - `CookBook <http://wiki.blender.org/index.php/Dev:2.5/Py/Scripts/Cookbook>`__
-
   - A section of handy code snippets (yet to be written)
 - :doc:`FAQ </advanced/scripting/python/faq>`
-
   - Frequently asked questions and their answers
 
 Links that deal with distributing your scripts.
 
 - `Sharing scripts <http://wiki.blender.org/index.php/Dev:Py/Sharing>`__
-
   - Information on how to share your scripts and get them included in the official Blender distribution.
 - `Creating Add-ons <http://wiki.blender.org/index.php/Dev:2.5/Py/Scripts/Guidelines/Addons>`__
-
-  - As of Blender 2.5 Alpha1, this is the new way to spread scripts for Blender.
+  - Add-ons are used to encapsulate and distribute scripts.
 - `Extensions project <https://projects.blender.org/projects/bf-extensions/>`__
-
   - Project to maintain a central repository of extensions to Blender.
 
 
