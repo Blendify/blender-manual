@@ -187,6 +187,9 @@ def text_extract_help(text, args, static_strings):
 
     text_rst = "".join(text_rst)
 
+    # not essential, but nice to have <word> as ``<word>``
+    text_rst = re.sub(r"([\+\-]*<[a-zA-Z0-9\(\)_\-]+>)", r"``\1``", text_rst)
+
     # ------
     # Post process (formatting)
     # text_rst = re.split(r"\\n|[()]", text_rst)
