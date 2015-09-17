@@ -145,14 +145,14 @@ Move object from previous x location by 0.5 unit
 
 .. code-block:: python
 
-   >>> bpy.context.object.location = [1, 2, 3]
+   >>> bpy.context.object.location = (1, 2, 3)
 
 
 Changes x, y, z location
 
 .. code-block:: python
 
-   >>> bpy.context.object.location.xyz = [1, 2, 3]
+   >>> bpy.context.object.location.xyz = (1, 2, 3)
 
 
 Same as above
@@ -176,7 +176,11 @@ bpy.context.selected_objects
 
 .. code-block:: python
 
-   >>> bpy.context.selected_objects then press {{Shortcut|Ctrl|Space}}
+   >>> bpy.context.selected_objects
+
+... then press :kbd:`Ctrl-Space`
+
+.. code-block:: python
 
    >>> bpy.context.selected_objects[0]
 
