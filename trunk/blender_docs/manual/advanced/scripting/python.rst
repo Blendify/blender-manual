@@ -32,8 +32,6 @@ Links that are useful while writing scripts.
   - A short introduction to get you started with the API. Contains examples.
 - `CookBook <http://wiki.blender.org/index.php/Dev:2.5/Py/Scripts/Cookbook>`__
   - A section of handy code snippets (yet to be written)
-- :doc:`FAQ </advanced/scripting/python/faq>`
-  - Frequently asked questions and their answers
 
 Links that deal with distributing your scripts.
 
