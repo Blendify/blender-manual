@@ -52,7 +52,6 @@ concepts of Python scripting for Blender.
 
 - :doc:`Text Editor </editors/text_editor>`
 - :doc:`Python Console </editors/python_console>`
-- :doc:`Hello World </advanced/scripting/python/intro_to_python>`
 
 
 Getting Started - External links
