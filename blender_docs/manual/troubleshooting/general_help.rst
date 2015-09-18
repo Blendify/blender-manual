@@ -43,37 +43,24 @@ General Web-based Help Options
   bug tracking, patches and scripts, education and training, documentation development and functionality research.
 - `User Community <http://www.blender.org/community/user-community/>`__ -
   Lists of many different support venues here.
-- `Report a Bug <http://projects.blender.org/tracker/?atid=498&group_id=9&func=browse>`__
-  - The Blender Bug Tracker page.
+- `Report a Bug <https://developer.blender.org/maniphest/task/create/?project=2&type=Bug>`__
+  The Blender Bug Tracker page.
 
-**Important:** in order to Report a Bug, you must register at the website.
+  Note: in order to Report a Bug, you must register at the website.
 
 
-Programming Options
-===================
+Scripting Options
+=================
 
 - `Python API Reference <http://www.blender.org/documentation/250PythonDoc>`__ -
-  Python application programming interface (API) that Blender and
-  :doc:`Python </introduction/installing_blender/python>` use to communicate with each other.
-  Useful for the Blender Game Engine, Customizing, and other scripting.
+  Python application programming interface (API).
+- *Operator Cheat Sheet* -
+  Creates the ``OperatorList.txt`` text-block, which you can access in the *Text Editor*.
+  You can also use Blender Search to generate the file. The lists the available Python operators.
 
-Access from :menuselection:`Help --> Operator Cheat Sheet`
+  .. figure:: /images/basics-help-info-operator-cheat-sheet.jpg
 
-Creates the ``OperatorList.txt`` text-block, which you can access in the *Text Editor*.
-You can also use Blender Search to generate the file. The text will list the available Python operators.
-
-While Blender is generating this list, the *Info Window* will change,
-showing a message for the operation (See Fig: Info Window - Operator Cheat Sheet ).
-To read the Text, switch to the Blender *Text Editor* Window,
-using the :doc:`Editor type Selector </editors/index>`, and then,
-clicking on the button *Browse Text to be Linked* of the Text Editor, your text block will be shown in the Editor.
-The file will be in your list of Text-block, named as ``OperatorsList.txt``,
-if the file is already generated, Blender will add a numeric suffix for the subsequent ones.
-
-
-.. figure:: /images/basics-help-info-operator-cheat-sheet.jpg
-
-   Info Window - Operator Cheat Sheet
+     Info Window - Operator Cheat Sheet
 
 
 Diagnostics Options
