@@ -7,7 +7,7 @@ Difference Key Node
 
    Difference Key Node
 
-This node produces a matte that isolates foreground content by comparing it with a reference background image. 
+This node produces a matte that isolates foreground content by comparing it with a reference background image.
 
 There are two inputs:
 

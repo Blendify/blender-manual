@@ -62,7 +62,7 @@ For operations that are capable of using Alpha, another slider is added at the b
         Circle HSV (Default).
         A full gamut of colors ranging from center to the borders is always shown; center is a mix of the colors.
 
-   - .. figure:: /images/Preferences_System_Color_Picker_HS_PLUS_V.jpg 
+   - .. figure:: /images/Preferences_System_Color_Picker_HS_PLUS_V.jpg
 
         Square (HS + V), *Hue, Saturation plus Value.*
         Brightness is subtracted from the

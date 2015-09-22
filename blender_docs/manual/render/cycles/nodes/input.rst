@@ -120,13 +120,13 @@ Ray Length output
    Distance traveled by the light ray from the last bounce or camera.
 Ray Depth
    Number of times the ray has "bounced", i.e. been reflected or transmitted on interaction with a surface.
-   
+
    .. note::
       Passing through a transparent shader :ref:`does not count as a normal "bounce" <render-cycles-light_paths-transparency>`.
-      
+
 Transparent Depth
    Number of times the ray has passed through a transparent shader.
-   
+
 
 Object Info
 ===========
@@ -206,7 +206,7 @@ Reflection output
 Object
    Specific object to use for object space coordinates.
    This only affects the *Object* output.
-   
+
 .. _cycles-nodes-input-texture-coordinate-from-dupli:
 
 From Dupli
@@ -239,7 +239,7 @@ UV Map
    UV map to use.
 UV output
    UV mapping coordinates from the specified UV layer.
-   
+
 
 Particle Info
 =============

@@ -39,7 +39,6 @@ Cycles requires recent NVIDIA drivers to be installed, on all operating systems.
 `List of CUDA cards with shader model <http://www.NVIDIA.com/object/cuda_gpus.htm>`__
 
 
-
 OpenCL
 ------
 
@@ -56,9 +55,9 @@ Cycles requires recent AMD drivers to be installed, on all operating systems.
 Supported Features and Limitations
 ==================================
 
-For an overview of supported features, check the comparison in the 
+For an overview of supported features, check the comparison in the
 :doc:`Features </render/cycles/features>`.
-  
+
 CUDA:
    The maximum amount of individual textures is limited to 95 byte-image textures (PNG, JPEG, ..)
    and 5 float-image textures (OpenEXR, 16 bit TIFF, ..) on GTX 4xx/5xx cards,

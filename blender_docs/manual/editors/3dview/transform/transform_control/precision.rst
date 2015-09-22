@@ -26,7 +26,7 @@ during the transformation will cause the movement to revert back to its normal m
 operation.
 
 .. note::
-   
+
    The snapping behaviors described on this page **only** apply when :ref:`Increment Snap <transform-snap-element>`
    is selected.
 

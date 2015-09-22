@@ -65,7 +65,6 @@ Change Draw Modes (Workaround)
    Ultimately, if none of these options work out it may be worth upgrading your hardware.
 
 
-
 Navigation
 ==========
 
@@ -74,7 +73,7 @@ Lost in Space
 -------------
 
 When navigating your scene, you may accidentally navigate away from your scene
-and find yourself with a blank view-port 
+and find yourself with a blank view-port
 
 TODO.
 

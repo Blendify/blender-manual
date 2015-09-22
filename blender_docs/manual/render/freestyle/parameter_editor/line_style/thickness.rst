@@ -175,7 +175,7 @@ Noise
 
    Effect generated with a noise thickness modifier using asymmetric thickness.
 
-The *Noise* modifier uses a pseudo-random number generator to variably distribute thickness along the stroke. 
+The *Noise* modifier uses a pseudo-random number generator to variably distribute thickness along the stroke.
 
 .. figure:: /images/render_freestyle_ui_thickness_noise.png
    :width: 300px
@@ -184,14 +184,14 @@ The *Noise* modifier uses a pseudo-random number generator to variably distribut
 Min Thickness and Max Thickness
    The minimum and maximum assigned thickness.
 
-Asymmetric 
-   Allows the thickness to be distributed unevenly at every point. Internally, the stroke is represented as a 
-   backbone with a thickness to the right and left side. All other thickness shaders make sure that the left 
+Asymmetric
+   Allows the thickness to be distributed unevenly at every point. Internally, the stroke is represented as a
+   backbone with a thickness to the right and left side. All other thickness shaders make sure that the left
    and right thickness values are equal. For the Noise shader however, a meaningful (and good-looking) result
-   can be created by assigning different values to either side of the backbone. 
+   can be created by assigning different values to either side of the backbone.
 
 
-Tangent 
+Tangent
 -------
 
 This modifier bases its effect on the traveling direction of the stroke evaluated at the stroke's vertices.
@@ -204,15 +204,15 @@ Min Thickness and Max Thickness
    The minimum and maximum assigned thickness.
 
 Mapping
-   Either a linear progression (from *Min Thickness* to *Max Thickness*, which may be inverted with the 
+   Either a linear progression (from *Min Thickness* to *Max Thickness*, which may be inverted with the
    *Invert* option), or a custom mapping curve (on the same range).
 
-Min Angle and Max Angle 
-   The range of input values to the mapping. Out-of-range input values will be clamped by the Min and Max angles 
+Min Angle and Max Angle
+   The range of input values to the mapping. Out-of-range input values will be clamped by the Min and Max angles
    and their corresponding thickness values.
 
 
-3D Curvature 
+3D Curvature
 ------------
 
 A modifier based on radial curvatures of the underlying 3D surface.  The `curvature
@@ -221,8 +221,8 @@ point.  The quicker the turn is, the larger the curvature is at the point.  The 
 straight line.  Radial curvatures are those computed for a 2D curve that appears at the cross-section between the 3D
 surface and a plane defined by the view point (camera location) and the normal direction of the surface at the point.
 
-For radial curvatures to be calculated (and therefore for this modifier to have any effect), the *Face Smoothness* 
-option has to be turned on and the object needs to have *Smooth Shading*. 
+For radial curvatures to be calculated (and therefore for this modifier to have any effect), the *Face Smoothness*
+option has to be turned on and the object needs to have *Smooth Shading*.
 
 .. figure:: /images/render_freestyle_ui_thickness_curvature3d.png
    :width: 300px
@@ -232,17 +232,17 @@ Min Thickness and Max Thickness
    The minimum and maximum assigned thickness.
 
 Mapping
-   Either a linear progression (from *Min Thickness* to *Max Thickness*, which may be inverted with the *Invert* 
+   Either a linear progression (from *Min Thickness* to *Max Thickness*, which may be inverted with the *Invert*
    option), or a custom mapping curve (on the same range).
 
-Min Curvature and Max Curvature 
-   The limits of the mapping of the Min and Max Thickness.  
+Min Curvature and Max Curvature
+   The limits of the mapping of the Min and Max Thickness.
    If the current point of the stroke is at *Min Curvature* or less from the target,
    it will take the start thickness of the mapping, and conversely,
    if it is at *Max Curvature* or more from the target, it will take the end thickness of the mapping.
 
 
-Crease Angle 
+Crease Angle
 ------------
 
 .. figure:: /images/render_freestyle_thickness_crease_angle.png
@@ -256,7 +256,7 @@ Crease Angle
 A modifier based on the Crease Angle (angle between two adjacent faces). If a stroke segment doesn't lie on a crease
 (i.e., the edge doesn't have the `Crease Angle nature
 <http://www.blender.org/api/blender_python_api_2_74_release/freestyle.types.html#freestyle.types.Nature>`__),
-its thickness value is not touched by this modifier. 
+its thickness value is not touched by this modifier.
 
 .. figure:: /images/render_freestyle_ui_thickness_crease_angle.png
    :width: 300px
@@ -266,5 +266,5 @@ Min Thickness and Max Thickness
    The minimum and maximum assigned thickness.
 
 Mapping
-   Either a linear progression (from *Min Thickness* to *Max Thickness*, which may be inverted with the *Invert* 
+   Either a linear progression (from *Min Thickness* to *Max Thickness*, which may be inverted with the *Invert*
    option), or a custom mapping curve (on the same range).

@@ -268,7 +268,6 @@ base classes and overriding appropriate methods. See the reference manual entrie
 following base classes for more information on the user-scriptable constructs.
 
 
-
 .. hlist::
    :columns: 2
 
