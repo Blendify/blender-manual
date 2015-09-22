@@ -59,6 +59,13 @@ Undo
 Global Undo
    This enables Blender to save actions done when you are **not** in *Edit Mode*.
    For example, duplicating Objects, changing panel settings or switching between modes.
+
+   .. warning::
+      While disabling this option does same memory,
+      it stops the redo panel from functioning,
+      also preventing tool options from being changed in some cases.
+
+      For typical usage, its best to keep this enabled.
 Step
    Number of Undo steps available.
 Memory Limit
