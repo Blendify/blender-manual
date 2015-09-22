@@ -61,7 +61,6 @@ of all of its *vertices* and faces.
 
 
 .. note::
-
    center
 
 

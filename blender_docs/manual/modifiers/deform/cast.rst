@@ -19,7 +19,6 @@ it is not limited to casting to a sphere.
 
 
 .. note::
-
    For performance reasons, this modifier only works with local coordinates.
    If the modified object looks wrong, you may need to apply its rotation (:kbd:`Ctrl-A`),
    especially when casting to a cylinder.

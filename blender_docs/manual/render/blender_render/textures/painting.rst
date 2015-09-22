@@ -222,7 +222,6 @@ it must only be defined. The example to the right shows the effects of painting 
 Switching the texture to Rings makes a target/flower type of brush painting pattern.
 
 .. note::
-
    In Clone paint mode,
    this field changes to indicate the picture image or texture that you are cloning from.
 

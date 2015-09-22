@@ -56,7 +56,6 @@ or *Border Select, is available in both *Edit mode* and *Object* mode.
 
 
 .. note::
-
    What is selected using both these tools is affected by the *Limit Selection to visible* feature
    (available under the 3D viewport) in *Solid Viewport Shading Mode*.
 
@@ -102,7 +101,6 @@ by releasing :kbd:`LMB` the selection is complete; see (*Complete*).
 
 
 .. note::
-
    Border select adds to the previous selection,
    so in order to select only the contents of the rectangle, deselect all with :kbd:`A` first.
    In addition, you can use :kbd:`MMB` while you draw the border to deselect all objects within the rectangle.

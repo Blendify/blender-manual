@@ -24,7 +24,6 @@ Relative paths is the default but this can be changed in the
 of the User Preferences Editor.
 
 .. note::
-
    You can't enter relative paths into a new *untitled* blend file.
    Save it before linking to external files.
 

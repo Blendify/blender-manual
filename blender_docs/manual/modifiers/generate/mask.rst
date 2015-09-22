@@ -41,7 +41,6 @@ Inverse
    which do not belong to the Vertex Group, and hiding those that do.
 
 .. warning::
-
    The Mask modifier only takes into account whether a vertex is part of the group or not,
    the weight is not taken into account.
 

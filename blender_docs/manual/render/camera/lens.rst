@@ -120,6 +120,5 @@ If *Limits* in the *Display* panel is enabled,
 the clip bounds will be visible as two yellow connected dots on the camera line of sight.
 
 .. note::
-
    The *3D View* window contains settings similar to the camera,
    see the :doc:`3D view options page </editors/3dview/display>` for more details.

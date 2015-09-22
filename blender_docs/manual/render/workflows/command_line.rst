@@ -18,7 +18,6 @@ simply run:
 
 
 .. note::
-
    Arguments are executed in the order they are given!
 
    The following command won't work, since the output and extension is set after blender is told to render:
@@ -139,7 +138,6 @@ Single Image
    Render only the second last frame.
 
 .. warning::
-
    Arguments are case sensitive! ``-F`` and ``-f`` are not the same.
 
 

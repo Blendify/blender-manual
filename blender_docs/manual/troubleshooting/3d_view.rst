@@ -59,7 +59,6 @@ Change Draw Modes (Workaround)
    Using *Wireframe* or even *Bounding Box* draw modes can used to more quickly select different objects.
 
 .. note::
-
    Obviously the workarounds listed here aren't long term solutions,
    but its handy to know if you're stuck using a system with poor OpenGL support.
 

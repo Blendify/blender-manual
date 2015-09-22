@@ -71,7 +71,6 @@ Delete (:kbd:`X`)
    (i.e. unlink the underlying FCurve datablock from this action datablock).
 
  .. warning::
-
    The :kbd:`X` shortcut is area-dependent: if you use it in the left list
    part, it'll delete the selected channels, whereas if you use it in the main
    area, it'll delete the selected keyframes...

@@ -46,7 +46,6 @@ Clamp
    even when outside the segment between the 3d cursor and the mouse.
 
 .. note::
-
    Unlike most other transform modes *Bend* isn't effected by *Pivot Point* or *Transform Orientation*,
    always using the View Plane instead.
 

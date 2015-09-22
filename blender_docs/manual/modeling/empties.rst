@@ -40,7 +40,6 @@ Image
 
 
 .. note::
-
    While alpha-images can be used, there is a known limitation with object draw order,
    where alphas won't always draw on top of other objects when unselected.
 

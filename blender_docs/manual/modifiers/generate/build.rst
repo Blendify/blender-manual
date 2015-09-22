@@ -10,7 +10,6 @@ By default, faces appear in the order in which they are stored in memory
 by selecting *Sort Faces* from the *Search Menu* (:kbd:`Spacebar`)
 
 .. note::
-
    When using Blender Render, if the material of the mesh is a halo rather than a standard one,
    then the vertices of the mesh, not the faces, appear one after another.
 

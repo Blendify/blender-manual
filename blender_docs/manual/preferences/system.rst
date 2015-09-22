@@ -141,7 +141,6 @@ Multi-Sampling
    at the expense of some performance.
 
    .. note::
-
       This is known to cause selection issues on some configurations,
       see: :ref:`troubleshooting-3d_view-invalid_selection`.
 

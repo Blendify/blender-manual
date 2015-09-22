@@ -45,6 +45,5 @@ Simulation
 TODO.
 
 .. warning::
-
    If you use motion blur in your animation,
    you will need to bake one extra frame past the last frame which you will be rendering.

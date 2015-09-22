@@ -22,7 +22,6 @@ panel. Otherwise, unpredictable results may occur.
 
 
 .. note::
-
    If multiple Composite nodes are added, only the active one
    (last selected, indicated with a slightly darker header) will be used.
 

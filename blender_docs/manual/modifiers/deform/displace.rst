@@ -52,7 +52,6 @@ Texture Coordinates
 
 
       .. note::
-
          Since UV coordinates are specified per face, the UV texture coordinate system currently determines the UV
          coordinate for each vertex from the first face encountered which uses that vertex;
          any other faces using that vertex are ignored.

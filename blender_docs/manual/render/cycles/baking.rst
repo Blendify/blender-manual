@@ -130,7 +130,6 @@ Cage
 	Object to use as cage instead of calculating the cage from the active object with the *Cage Extrusion*.
 
 .. note::
-
 	**Cage**
 	
 	When the base mesh extruded doesn't give good results, you can create a copy of the base mesh and modify it to use as

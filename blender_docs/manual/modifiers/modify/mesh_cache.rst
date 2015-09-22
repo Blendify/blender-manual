@@ -38,7 +38,6 @@ Deform Mode
    In this case you can select the 'Deform' option which integrates deformations with the mesh-cache result.
 
    .. note::
-
       This feature is limited to making smaller, isolated edits and won't work for larger changes such as
       re-posing limbs
 

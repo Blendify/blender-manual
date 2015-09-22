@@ -102,7 +102,6 @@ In order to submit a patch, follow this process:
    or commit the patch if it is accepted.
 
 .. note::
-
    If your patch includes changes to or additional images, simply attach them when you're creating the revision.
 
 Once you have had a few patches accepted, we cut out the middle man and give you direct access to edit the manual!

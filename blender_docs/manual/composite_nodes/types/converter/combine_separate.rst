@@ -135,7 +135,6 @@ then splits each channel out to its own output so that they can be manipulated i
 - Cr: Chrominance Red, 0=Red, 1=Yellow
 
 .. note::
-
    If running these channels through a ColorRamp to adjust value,
    use the Cardinal scale for accurate representation.
    Using the Exponential scale on the luminance channel gives high-contrast effect.

@@ -29,7 +29,6 @@ Click on a file then click the *Open Blender File* button or press :kbd:`Return`
 Clicking *Cancel* will close the file browser window and return to the program.
 
 .. warning::
-
    Blender expects that you know what you are doing! When you load a file, you
    are **not** asked to save unsaved changes to the scene you were previously
    working on, completing the file load dialog is regarded as being enough
@@ -131,7 +130,6 @@ Security
 ========
 
 .. warning::
-
    Always be very careful when downloading .blend files and tools from un-trustworthy sources!
 
 Blender is aimed at production level use and relies heavily on Python,

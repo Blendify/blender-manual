@@ -31,7 +31,6 @@ Border
    :kbd:`Ctrl-Alt-B` is the shortcut to disable the border.
 
    .. note::
-
       This disables the *Save Buffers* option in *Performance* and *Full Sample* option in *Anti-Aliasing*.
 
    Enabling *Crop* will crop the rendered image to the *Border* size,

@@ -76,13 +76,11 @@ So this allows you to reproduce your drawing movements.
 
 
 .. warning::
-
    All those "timing" options need *Link Stroke* to be enabled - else
    they would not make much sense!
 
 
 .. warning::
-
    Please note that if you use this tool with older grease pencil's strokes
    (i.e. some without any timing data), you will only have a subset of those
    options available (namely, only linear progression along the curve over a

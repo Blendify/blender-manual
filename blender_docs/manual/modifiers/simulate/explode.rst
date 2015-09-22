@@ -20,7 +20,6 @@ showing a cube with a particle system and Explode Modifier.
 (`Blend file <http://wiki.blender.org/index.php/Media:Manual_-_Explode_Modifier_-_Exploding_Cube_-_2.5.blend>`__)
 
 .. note::
-
    The Explode modifier must come after the Particle System Modifier
    because the Particle System Modifier has the information needed to drive the Explode Modifier.
 

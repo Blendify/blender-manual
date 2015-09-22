@@ -411,7 +411,6 @@ the Tail and Head fields. See figure 33.
 
 
 .. note::
-
    If you alter the Bone Envelope volume of a bone so that you can have it include/exclude
    certain vertices after you have already used Armature Deform With Envelope Weights,
    by default the newly included/excluded vertices won't be effected by the change. When using
@@ -532,7 +531,6 @@ and avoid the tedious effort of establishing each parent-child vertex relationsh
 
 
 .. note::
-
    It is in fact a sort of "reversed" :doc:`hook </modifiers/deform/hooks>`
 
 

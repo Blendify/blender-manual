@@ -22,7 +22,6 @@ Property
    This field can be used to limit the sensor to look for only those objects with this property.
 
 .. note::
-
    #. Unless the Property field is set, the Ray sensor can detect objects "through" other objects (walls etc).
    #. Objects must have "Actor" enabled to be detected.
 
