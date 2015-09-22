@@ -81,7 +81,6 @@ in the examples below.
 
 
 .. warning::
-
   Wireframe thickness is an approximation. While *Even Thickness* should yield good results in many cases,
   skinny faces can cause ugly spikes. In this case you can either reduce the extreme angles in the geometry
   or disable the *Even Thickness* option.

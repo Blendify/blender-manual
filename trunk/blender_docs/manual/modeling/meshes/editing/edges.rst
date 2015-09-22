@@ -276,7 +276,6 @@ This will create one face-loop where two previously existed.
 
 
 .. note::
-
    The *Edge Loop* option is very different to the *Edges* option,
    even if you use it on edges that look like an edge loop.
    Deleting an edge loop merges the surrounding faces together to preserve the surface of the mesh.

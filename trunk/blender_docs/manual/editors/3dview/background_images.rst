@@ -17,7 +17,6 @@ or animation (when using a video as background), etc.
 
 
 .. note::
-
    Background images are only available for orthographic views.
 
 

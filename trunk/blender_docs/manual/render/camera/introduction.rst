@@ -59,7 +59,6 @@ The camera with the solid triangle on top is the active camera.
 
 
 .. warning::
-
    The active camera, as well as the layers, can be specific to a given view,
    or global (locked) to the whole scene - see
    :doc:`Local Camera </editors/3dview/display>`.
@@ -218,7 +217,6 @@ There are several different ways to navigate and position the camera in your sce
 
 
 .. note::
-
    Remember that the active "camera" might be any kind of object.
    So these actions can be used, for example, to position and aim a lamp.
 

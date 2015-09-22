@@ -21,7 +21,6 @@ This field to enter the initial seed for the random number algorithm. (Range 0-1
 
 
 .. note::
-
    0 is not random, but is useful for testing and debugging purposes.
 
 .. note::

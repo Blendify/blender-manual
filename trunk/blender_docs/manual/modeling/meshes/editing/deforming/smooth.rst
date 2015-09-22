@@ -56,7 +56,6 @@ mesh shape. Laplacian smooth exists as a mesh operation and as a non-destructive
 
 
 .. note::
-
    The :doc:`Smooth modifier </modifiers/deform/smooth>`, which can be limited to a *Vertex Group*,
    is a non-destructive alternative to the smooth tool.
 

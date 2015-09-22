@@ -85,7 +85,6 @@ Green
 
 
 .. note::
-
    Usually the socket types will match (e.g. color output to color input),
    although they do not always have to:
 

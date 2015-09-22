@@ -11,7 +11,6 @@ Noise
 
 
 .. note::
-
    *Noise* is an old feature. The :doc:`Displace Modifier </modifiers/deform/displace>`
    is a non-destructive alternative to the Noise tool and is a more flexible way to realize these sort of effects.
    The key advantages of the modifier are that it can be canceled at any moment,

@@ -117,7 +117,6 @@ Narrowness
 
 
 .. warning::
-
    All the values described above must be multiplied with the corresponding *Scale* values of the
    object to get the real dimensions.
 

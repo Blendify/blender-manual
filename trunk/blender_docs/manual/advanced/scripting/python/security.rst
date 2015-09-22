@@ -100,7 +100,6 @@ Example - rendering an animation in background mode, allowing drivers and other 
    blender --background --enable-autoexec my_movie.blend --render-anim
 
 .. note::
-
    These command line arguments can be used to start a regular blender instance and will
    still override the user-preferences.
 

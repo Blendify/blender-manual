@@ -69,7 +69,6 @@ Extrapolate
 
 
 .. warning::
-
    Note that:
 
    - When mapping transform properties to location (i.e. *Loc*, *Destination* button is enabled),

@@ -58,7 +58,6 @@ Multiply
 
 
 .. note::
-
    If *Multiply* is chosen, there must be other light sources; otherwise the scene will be pitch black.
    In the other two cases the scene is lit even if no explicit light is present, just from the AO effect.
    Although many people like to use AO alone as a quick shortcut to light a scene,

@@ -2,7 +2,6 @@
 ..    TODO/Review: {{review|partial=x}} .
 
 .. note::
-
    **Incomplete Page.** Descriptions of some controls either very brief or missing.
    If you have more information, please update this page (and remove this note when you feel the page is complete).
 

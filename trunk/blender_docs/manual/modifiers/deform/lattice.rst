@@ -61,7 +61,6 @@ Edit Mode ? There are a couple of reasons for that:
 - A lattice does not affect the texture coordinates of a mesh's surface.
 
 .. note::
-
    When using a lattice to deform particles,
    always remember to place the Lattice Modifier after the Particle System Modifier.
    Read more about the importance of the modifier stack :doc:`here </modifiers/the_stack>`.

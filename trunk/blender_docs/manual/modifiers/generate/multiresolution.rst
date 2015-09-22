@@ -16,7 +16,6 @@ to the :doc:`Subsurf </modifiers/generate/subsurf>` modifier, but also allows yo
 in sculpt mode.
 
 .. note::
-
    The *Multiresolution Modifier* is the only modifier that cannot be repositioned in the stack if it means that
    there will be geometry or other object data created or removed before it
    (i.e. all *Generate*,

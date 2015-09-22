@@ -59,7 +59,6 @@ To Action
    Select the name of the action you want to use.
 
  .. warning::
-
    Even though it might not be in red state (UI refresh problems...), this
    constraint is obviously not functional when this field does not contain a
    valid action.
@@ -74,7 +73,6 @@ Target Range Min / Max
    By default, both values are set to ``0.0``
 
  .. warning::
-
     Unfortunately, here again we find the constraints limitations:
 
       - When using a rotation property as "driver",

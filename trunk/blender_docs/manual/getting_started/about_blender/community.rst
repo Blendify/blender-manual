@@ -83,7 +83,6 @@ You can join these with your favorite IRC client:
   For discussion related to Blender's documentation
 
 .. note::
-
    If you do not have an IRC client, you can access IRC using `webchat <http://webchat.freenode.net/>`__.
 
 There also several more Blender-related channels not listed here

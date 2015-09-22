@@ -24,7 +24,6 @@ method is the Compositor node Vector Blur.
 To use, connect the appropriate passes from a Render Result node.
 
 .. note::
-
    Make sure to enable the Speed (called Vec)
    pass in the Render Layers panel for the render layer you wish to perform motion blur on.
 

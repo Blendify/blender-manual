@@ -33,7 +33,6 @@ Bind
    actually alters the shape of the modified object.
 
    .. warning::
-
       Depending on the settings of the Mesh Deform modifier and complexity of the deform mesh cage and/or
       deformed object, it can take a long time for this operation to complete.
       This can result in Blender not responding to user's actions until it has completed.
@@ -72,7 +71,6 @@ Dynamic
 
 
 .. warning::
-
    Significant changes to the entire change mesh *(such as rotating the cage upside down)*
    can cause noticable artifacts.
 

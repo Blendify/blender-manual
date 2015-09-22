@@ -32,7 +32,6 @@ Shutter
    shutter is open for half that, 20.83 ms.
 
 .. note::
-
    Samples are taken only from the *next* frame, not the previous one.
    Therefore the blurred object will appear to be slightly ahead of how it would look without motion blur.
 

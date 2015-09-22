@@ -66,7 +66,6 @@ into regular objects that can be transformed and animated normally.
 
 
 .. note::
-
    Note that if the DupliGroup was linked from an external file the Object Data
    (mesh, materials, textures, transforms) will also still be linked from the original group.
    However, the various object's parent-child relationships do not carry over.

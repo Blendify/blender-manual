@@ -120,7 +120,6 @@ Output of various orientations:
 
 
 .. note::
-
    The axes of an object can be made visible in the *Object* --> *Display* panel.
    To display the vertex normals of the parent mesh,
    tab into edit mode and enable this function in *Properties* (:kbd:`N`)--> *Display*

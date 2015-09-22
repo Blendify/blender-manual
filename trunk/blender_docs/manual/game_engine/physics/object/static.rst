@@ -50,7 +50,6 @@ Collision Bounds
 ================
 
 .. note::
-
    The Static type differs from the others in that it defaults to a Triangle Mesh bounds,
    instead of a simple sphere.
 

@@ -10,7 +10,6 @@ The *Copy Scale* constraint forces its owner to have the same scale as its targe
 
 
  .. warning::
-
    Here we talk of **scale**, not of **size**! Indeed, you can have two
    objects, one much bigger than the other, and yet both of them have the same
    scale. This is also true with bones: in *Pose* mode, they all

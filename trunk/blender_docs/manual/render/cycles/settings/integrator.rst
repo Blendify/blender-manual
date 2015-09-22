@@ -164,7 +164,6 @@ Shutter
 
 
 .. warning::
-
    An object modifier setup that changes mesh topology over time will cause severe problems.
 
    Common examples of this are animated booleans, defomation before edge-split, remesh, skin or decimate modifiers.

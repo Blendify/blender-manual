@@ -57,7 +57,6 @@ Clip Start and Clip End
    Adjust the minimum and maximum distances to be visible for the view-port.
 
    .. note::
-
       A large clipping range will allow you to see both near and far objects, but reduces the depth precision.
 
       To avoid this:

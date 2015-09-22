@@ -192,7 +192,6 @@ The typical workflow for pinning:
   Pinned vertices will be under control of the Armature modifier.
 
 .. note::
-
    When animating or posing the character you must begin from the bind pose.
    Move the character to its initial pose over several frames so the physics engine can simulate the clothing moving.
    Very fast movements and teleport jumps can break the physics simulation.
@@ -360,7 +359,6 @@ soft bodies, and cloth).
 
 
 .. warning::
-
    There are three different *Collision* panels, all found in the *Physics* sub-context.
    The first (by default), a tab beside the *Fields* panel, is the one needed here. The second panel,
    a tab in the *Soft Body* group, concern softbodies (and so has nothing to do with cloth).

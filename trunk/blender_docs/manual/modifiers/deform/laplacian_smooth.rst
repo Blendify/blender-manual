@@ -31,7 +31,6 @@ Repeat
    When on ``0``, no smoothing is done.
 
    .. note::
-
       More repetitions will take longer to calculate - beware of doing so on meshes with a large number of vertices.
 
 

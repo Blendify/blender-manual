@@ -17,7 +17,6 @@ It is possible to automatically plug a Viewer node to any other node by pressing
 
 
 .. note::
-
    It is possible to add multiple Viewer nodes, though only the active one
    (last selected, indicated with a slightly darker header) will be shown on the backdrop or in the UV/Image editor.
 

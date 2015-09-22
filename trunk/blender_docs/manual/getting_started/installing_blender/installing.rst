@@ -46,7 +46,6 @@ through the `release notes <http://wiki.blender.org/index.php/Dev:Ref/Release_No
 `Build from Source <https://developer.blender.org/diffusion/B/>`__
 
    .. note::
-
       This is included for completeness, but it is **not** expected
       that regular users should have to compile their own Blender builds.
 

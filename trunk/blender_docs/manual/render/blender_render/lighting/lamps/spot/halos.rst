@@ -49,7 +49,6 @@ Step
 
 
 .. note::
-
    The halo effect can be greatly enhanced when using buffered shadows: when the halo's *Step* is not null,
    they can create "volumetric shadows".
    See the page about *Spot*
