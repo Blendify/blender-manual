@@ -127,5 +127,6 @@ def setup(app):
             vimeo,
             html=(visit_vimeo_node, depart_vimeo_node),
             latex=(nop_node, nop_node),
+            text=(nop_node, nop_node),
             )
     app.add_directive("vimeo", Vimeo)
