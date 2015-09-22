@@ -20,7 +20,7 @@ Options
 =======
 
 .. figure:: /images/Cycles-Bake-Combined.png
-	
+
 	Combined Pass
 
 Bake Mode
@@ -46,7 +46,7 @@ Normals
 
 		Object space
 			Normals in object coordinates, independent of object transformation, but dependent on deformation.
-		
+
 		Tangent space
 			Normals in tangent space coordinates, independent of object transformation and deformation.
 			This is the default, and the right choice in most cases, since then the normal map can be used for animated
@@ -100,9 +100,9 @@ Select to Active
 	For even more control you can use a *Cage Object*.
 
 .. note::
-	
+
 	**Memory Usage**
-	
+
  	There is a CPU fixed memory footprint for every object used to bake from.
 	In order to avoid crashes due to lack of memory the highpoly objects can be joined before the baking process.
 	The render tiles parameter also influence the memory usage, so the bigger the tile the less overhead you have,
@@ -131,6 +131,6 @@ Cage
 
 .. note::
 	**Cage**
-	
+
 	When the base mesh extruded doesn't give good results, you can create a copy of the base mesh and modify it to use as
 	a *Cage*. Both meshes need to have the same :term:`topology` (number of faces and face order).

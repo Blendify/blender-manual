@@ -3,7 +3,7 @@
 Features
 *********************
 
-This page offers a comparison of available features on CPU, CUDA and OpenCL. 
+This page offers a comparison of available features on CPU, CUDA and OpenCL.
 
 .. |tick|  unicode:: U+2714
 .. |cross| unicode:: U+2717

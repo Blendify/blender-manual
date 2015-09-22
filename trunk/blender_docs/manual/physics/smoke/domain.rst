@@ -16,7 +16,7 @@ To turn it into a smoke domain, click *Smoke* in :menuselection:`Properties --> 
 as the *Smoke Type*.
 
 .. note::
-   
+
    You *can* use other shapes of mesh objects as domain objects,
    but the smoke simulator will use the shape's :term:`bounding box`
    as the domain bounds. In other words, the actual shape of the domain will still be rectangular.
@@ -36,14 +36,14 @@ Resolution
    The smoke domain is subdivided into many "cells" called voxels (see :term:`voxel`) which make up "pixels" of smoke.
    This setting controls the number of subdivisions in the domain.
    Higher numbers of subdivisions are one way of creating higher resolution smoke (See `Smoke High Resolution`_)
-   
+
    Since the resolution is defined in terms of *subdivisions*, larger domains will need more divisions to
    get an equivalent resolution to a small domain.
-   
-   
+
+
    Also see `Note on Divisions and High Resolution`_.
-   
-   
+
+
 Time Scale
    Controls the speed of the simulation. Low values result in a "slow motion" simulation, while higher values can be
    used to advance the simulation faster (useful for generating smoke for use in still renders).
@@ -55,16 +55,16 @@ Border Collisions
 
    Vertically Open
       Smoke disappears when it hits the top or bottom of the domain, but collides with the walls.
-      
+
    Open
       Smoke disappears when it hits any side of the domain.
-      
+
    Collide All
       Smoke collides with all sides of the domain.
 
 Density
    Controls how much smoke is affected by density.
-   
+
    * Values above 0 will cause the smoke to rise (simulating smoke which is lighter than ambient air).
    * Values below 0 will cause smoke to sink (simulating smoke which is heavier than ambient air).
 
@@ -72,34 +72,34 @@ Density
 
 Temp. Diff.
    The *Temperature Difference* setting controls how much smoke is affected by temperature.
-   
+
    The effect this setting has on smoke depends on the
    :ref:`per flow object *Temp. Diff.* setting <smoke-flow-temp-diff>`:
-   
+
    * Values above 0 will result in the smoke rising when the flow object *Temp. Diff.* is set to a positive value, and
      smoke sinking when the flow object *Temp. Diff.* is set to a negative value.
    * Values below 0 will result in the opposite of positive values, i.e. smoke emitted from flow objects with a positive
      *Temp. Diff.* will sink, and smoke from flow objects with a negative *Temp. Diff.* will rise.
-   
+
    Note that smoke from multiple flow objects with different temperatures will mix and warm up/cool down until an
    equilibrium is reached.
-   
-   
+
+
 Vorticity
    Controls the amount of turbulence in the smoke. Higher values will make lots of small swirls, while lower values
    make smoother shapes.
-   
+
    .. figure:: /images/smoke_domain_vorticity.jpg
-   
+
       Comparison of different amounts of vorticity. The domain on the left has a vorticity of 3, while the domain on
       the right has a vorticity of .01.
 
 Dissolve
    Allow smoke to dissipate over time.
-   
+
 Time
    Speed of smoke's dissipation in frames.
-   
+
 Slow
    Dissolve smoke in a logarithmic fashion. Dissolves quickly at first, but lingers longer.
 
@@ -110,7 +110,7 @@ Smoke Flames
 Speed
    How fast fuel burns. Larger values result in smaller flames (fuel burns before it can go very far),
    smaller values result in larger flames (fuel has time to flow farther before being fully consumed).
-   
+
 Smoke
    Amount of extra smoke created automatically to simulate burnt fuel.
 
@@ -125,7 +125,7 @@ Maximum
 
 Smoke Color
    Color of smoke created by burnt fuel.
-   
+
 
 Smoke Adaptive Domain
 =====================
@@ -145,7 +145,6 @@ Margin
 Threshold
    Smallest amount of smoke a voxel can contain before it's considered empty and the adaptive domain is allowed to cut
    it out of the simulation.
-   
 
 
 .. _smoke-high-resolution:
@@ -166,11 +165,11 @@ Show High Resolution
 
 Noise Method
    The two options, *Wavelet* and *FFT*, are very similar.
-   
+
    .. figure:: /images/smoke_domain_high_resolution_method.jpg
-   
+
       Comparison of noise methods. *Wavelet* on the left, *FFT* on the right.
-   
+
    .. note::
       *Wavelet* is an implementation of
       `Turbulence for Fluid Simulation
@@ -178,11 +177,11 @@ Noise Method
 
 Strength
    Strength of noise.
-   
+
    .. figure:: /images/smoke_domain_high_resolution_strength.jpg
-   
+
       From left to right, the domains' high resolution strengths are set to 0, 2, and 6.
-   
+
 Smoke Groups
 ============
 
@@ -211,7 +210,7 @@ Effector Group
 
 Gravity
    How much the smoke is affected by Gravity.
-   
+
 All
    Overall influence of all force fields.
 
@@ -220,7 +219,7 @@ The other settings determine how much influence individual force field types hav
 .. figure:: /images/smoke_domain_force_field_demo.jpg
 
    Smoke with a wind force field.
-   
+
 
 Note on Divisions and High Resolution
 =====================================
@@ -233,7 +232,7 @@ By using different combinations of these resolution settings you can obtain a va
 
    Comparison between a domain with 24 divisions and 4 *High Resolution* divisions (left),
    and a domain with 100 divisions and 1 *High Resolution* division (right).
-   
+
 Low division simulations with lots of *High Resolution* divisions generally appear smaller in real-world scale
 (larger flames etc.)
 and can be used to achieve pyroclastic plumes such as this:

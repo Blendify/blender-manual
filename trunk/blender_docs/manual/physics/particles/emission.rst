@@ -101,6 +101,6 @@ Grid
 Use Modifier Stack
    Take any :doc:`Modifiers </modifiers/introduction>` above the particle modifier in the
    :doc:`Modifier Stack </modifiers/the_stack>` into account when emitting particles.
-   
+
    Note that particles may differ in the final render if these modifiers generate different geometry between
    the viewport and render.

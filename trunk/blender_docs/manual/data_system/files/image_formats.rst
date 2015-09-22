@@ -204,7 +204,6 @@ Compression
       lossy algorithm from Pixar, converting 32 bits floats to 24 bits floats.
 
 
-
 ----
 
 

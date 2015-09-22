@@ -13,9 +13,9 @@ Also see
 
 .. toctree::
    :maxdepth: 1
-   
+
    conventions.rst
-   
+
 For other common conventions used throughout the manual.
 
 
@@ -47,13 +47,13 @@ For other common conventions used throughout the manual.
       Premultiplied Alpha
          Method where ``RGBA`` channels are stored as ``(R*A, G*A, B*A, A)``,
          with the alpha multiplied into the RGB channel.
-         
+
          This is the natural output of render engines,
          with the RGB channels representing the amount of light that comes toward the viewer,
          and alpha representing how much of the light from the background is blocked.
          The OpenEXR file format uses this alpha type.
          So, intermediate files for rendering and compositing are often stored as premultiplied alpha.
-         
+
 
       Conversion (Straight/Premultiplied) Alpha
          Conversion between the two alpha types is not a simple operation and can involve data loss,
@@ -103,9 +103,9 @@ For other common conventions used throughout the manual.
 
    Boolean
       A type of logic dealing with binary true/false states.
-      
+
       See also :doc:`boolean modifier </modifiers/generate/booleans>`
-      
+
    Bounce
       Refers to the reflection or transmission of a light ray upon interaction with a material.
       See also :doc:`/render/cycles/settings/light_paths`.
@@ -235,7 +235,7 @@ For other common conventions used throughout the manual.
 
    Gamma
       An operation used to adjust brightness of an image.
-      
+
       See also `Gamma correction <https://en.wikipedia.org/wiki/Gamma_correction>`__ on Wikipedia.
 
    Geometric Center
@@ -288,7 +288,7 @@ For other common conventions used throughout the manual.
 
    Lattice
       A type of object consisting of a non-renderable three-dimensional grid of vertices.
-      
+
       See also :doc:`/modifiers/deform/lattice`.
 
    Layer
@@ -409,7 +409,7 @@ For other common conventions used throughout the manual.
 
    Pivot Point
       Reference point used by many mesh manipulation tools.
-      
+
       See also :doc:`/getting_started/basics/transformations/transform_control/pivot_point/index`.
 
    Pixel
@@ -489,7 +489,7 @@ For other common conventions used throughout the manual.
       Technique for adding more geometry to a mesh.
       It creates new vertices on subdivided edges, new edges between subdivisions and new faces based on new edges.
       If new edges cross a new vertex is created on their crossing point.
-      
+
    Subsurf
    Subdivision surface
       Method of creating smooth higher poly surfaces which can take a low polygon mesh as input.

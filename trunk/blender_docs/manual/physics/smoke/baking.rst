@@ -14,4 +14,4 @@ See :doc:`/physics/baking`.
 .. note::
    Baking can only been done once your .blend is saved.
    If your .blend has not been saved, the *Smoke Cache* panel will be disabled.
-   
+

@@ -338,7 +338,7 @@ Simplification
 
 
 The *Simplification* modifier merges stroke vertices that lie close to one another, like the *Decimate* modifier for
-meshes. 
+meshes.
 
 .. figure:: /images/render_freestyle_ui_geometry_simplification.png
    :width: 300px

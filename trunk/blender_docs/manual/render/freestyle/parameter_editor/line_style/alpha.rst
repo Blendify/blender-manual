@@ -122,7 +122,7 @@ the result will not be blurred between materials along the strokes.
 Noise
 -----
 
-The *Noise* modifier uses a pseudo-random number generator to variably distribute transparency along the stroke. 
+The *Noise* modifier uses a pseudo-random number generator to variably distribute transparency along the stroke.
 
 .. figure:: /images/render_freestyle_ui_alpha_noise.png
    :width: 300px
@@ -136,7 +136,7 @@ Period
    changing transparency along the stroke.
 
 Seed
-   Seed used by the pseudo-random numer generator. 
+   Seed used by the pseudo-random numer generator.
 
 Mapping
    Either a linear progression (from ``0.0`` to ``1.0``, which may be inverted with the *Invert* option),
@@ -144,7 +144,7 @@ Mapping
    as original values from materials are already in the ``[0.0, 1.0]`` range.
 
 
-Tangent 
+Tangent
 -------
 
 .. figure:: /images/render_freestyle_ui_alpha_tangent.png
@@ -158,12 +158,12 @@ Mapping
    or a custom mapping curve. Note the linear non-inverted option is equivalent to "do nothing",
    as original values from materials are already in the ``[0.0, 1.0]`` range.
 
-Min Angle and Max Angle 
-   The range of input values to the mapping. Out-of-range input values will be clamped by the Min and Max angles 
+Min Angle and Max Angle
+   The range of input values to the mapping. Out-of-range input values will be clamped by the Min and Max angles
    and their corresponding alpha values.
 
 
-3D Curvature 
+3D Curvature
 ------------
 
 A modifier based on radial curvatures of the underlying 3D surface.  The `curvature
@@ -172,8 +172,8 @@ point.  The quicker the turn is, the larger the curvature is at the point.  The 
 straight line.  Radial curvatures are those computed for a 2D curve that appears at the cross-section between the 3D
 surface and a plane defined by the view point (camera location) and the normal direction of the surface at the point.
 
-For radial curvatures to be calculated (and therefore for this modifier to have any effect), the *Face Smoothness* 
-option has to be turned on and the object needs to have *Smooth Shading*. 
+For radial curvatures to be calculated (and therefore for this modifier to have any effect), the *Face Smoothness*
+option has to be turned on and the object needs to have *Smooth Shading*.
 
 .. figure:: /images/render_freestyle_ui_alpha_curvature3d.png
    :width: 300px
@@ -184,14 +184,14 @@ Mapping
    or a custom mapping curve. Note the linear non-inverted option is equivalent to "do nothing",
    as original values from materials are already in the ``[0.0, 1.0]`` range.
 
-Min Curvature and Max Curvature 
+Min Curvature and Max Curvature
    The limits of the mapping.
    If the current point of the stroke is at *Min Curvature* or less from the target,
    it will take the start alpha of the mapping, and conversely,
    if it is at *Max Curvature* or more from the target, it will take the end alpha of the mapping.
 
 
-Crease Angle 
+Crease Angle
 ------------
 
 .. figure:: /images/render_freestyle_alpha_crease_angle.png
@@ -205,7 +205,7 @@ Crease Angle
 A modifier based on the Crease Angle (angle between two adjacent faces). If a stroke segment doesn't lie on a crease
 (i.e., the edge doesn't have the `Crease Angle nature
 <http://www.blender.org/api/blender_python_api_2_74_release/freestyle.types.html#freestyle.types.Nature>`__),
-its alpha value is not touched by this modifier. 
+its alpha value is not touched by this modifier.
 
 .. figure:: /images/render_freestyle_ui_alpha_crease_angle.png
    :width: 300px
@@ -216,6 +216,6 @@ Mapping
    or a custom mapping curve. Note the linear non-inverted option is equivalent to "do nothing",
    as original values from materials are already in the ``[0.0, 1.0]`` range.
 
-Min Angle and Max Angle 
-   The range of input values to the mapping. Out-of-range input values will be clamped by the Min and Max angles 
+Min Angle and Max Angle
+   The range of input values to the mapping. Out-of-range input values will be clamped by the Min and Max angles
    and their corresponding alpha values.

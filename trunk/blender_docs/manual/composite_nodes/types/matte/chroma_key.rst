@@ -22,16 +22,15 @@ Key Color
 Control this node using:
 
 Acceptance
-   An angle on the color wheel that represents how tolerant the keying color is. Larger angles allow for larger 
+   An angle on the color wheel that represents how tolerant the keying color is. Larger angles allow for larger
    variation in the keying color to be considered background pixels.
 Cutoff
-   controls the level that is considered pure background. Higher cutoff levels means more pixels will be 
+   controls the level that is considered pure background. Higher cutoff levels means more pixels will be
    100% transparent if they are within the angle tolerance.
 Falloff
    Increase to make nearby pixels partially transparent producing a smoother blend along the edges.
 
 
-  
 Outputs are:
 
 Image
