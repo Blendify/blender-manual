@@ -31,6 +31,7 @@ file to another, Blender does not make a distinction between material node group
 recommended some naming convention that will allow you to easily distinguish between the two types.
 
 .. note::
+
    **What not to include in your groups (all types of Node editors)**
 
    Remember that the essential idea is that a group should be an easily-reusable,

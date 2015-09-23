@@ -104,6 +104,7 @@ Radius
    The radius defines the area of influence of the brush.
 
    .. note::
+
       You can also change the Brush radius with a keyboard shortcut while painting.
       Just press :kbd:`F` at any time, then drag the mouse to increase/reduce the brush radius.
       Finally click :kbd:`LMB` to use the new setting.
@@ -307,6 +308,7 @@ In this mode you can select one or more vertices and then paint only on the sele
 All unselected vertices are protected from unintentional changes.
 
 .. note::
+
    This option can also be toggled with the :kbd:`V` key:
 
 

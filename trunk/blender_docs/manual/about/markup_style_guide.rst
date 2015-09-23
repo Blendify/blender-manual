@@ -39,11 +39,9 @@ Headings
    Document Paragraph
    """"""""""""""""""
 
-.. note::
-   *Parts* should only be used for contents or index pages.
+.. note:: *Parts* should only be used for contents or index pages.
 
-.. note::
-   each ``.rst`` file should only have one chapter heading (``*``) per file.
+.. note:: each ``.rst`` file should only have one chapter heading (``*``) per file.
 
 
 Text Styling
@@ -134,6 +132,7 @@ Usage Guides
   and then explain the features in the order that they appear in the image.
 
   .. note::
+
      It's important that the manual can be maintained long term,
      UI and tool-options change so try to avoid having a lot of images (when they aren't especially necessary).
      Otherwise this becomes too much of a maintenance burden.

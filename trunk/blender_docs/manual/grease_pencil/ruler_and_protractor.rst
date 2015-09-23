@@ -36,10 +36,12 @@ Here are common steps for using the ruler.
 - Press :kbd:`Return` to store the ruler for later use or :kbd:`Esc` to cancel.
 
 .. note::
+
    Editing operations can be used while the ruler is running,
    however tools like the knife can't be used at the same time.
 
 .. note::
+
    Unit settings and scale from the scene are used for displaying dimensions.
 
 

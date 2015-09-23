@@ -73,6 +73,7 @@ and scroll the :kbd:`Wheel` to increase or decrease the number of segments. (see
    Result of bevel (vertex only)
 
 .. note::
+
    Normal (edge) beveling only works on edges that have exactly two faces
    attached to them.
    Vertex bevel has no such restriction.

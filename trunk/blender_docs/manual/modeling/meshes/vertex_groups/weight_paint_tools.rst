@@ -57,6 +57,7 @@ Lock Active
 
 
 .. note::
+
    Currently this tool normalizes ALL vertex groups except the locked vertex groups.
 
 
@@ -156,6 +157,7 @@ Remove Weights
    Remove verts from the Vertex Group if they are 0.0 after inverting.
 
 .. note::
+
    Locked vertex Groups are not affected.
 
 
@@ -207,6 +209,7 @@ Adds an offset and a scale to all weights of the selected Weight Groups.
 with this tool you can raise or lower the overall "heat" of the weight group.
 
 .. note::
+
    No weight will ever be set to values above 1.0 or below 0.0 regardless of the settings.
 
 
@@ -228,6 +231,7 @@ Gain
    However, you can enter any factor you like here by typing from the keyboard.
 
 .. note::
+
    Whichever Gain and Offset you choose,
    in all cases the final value of each weight will be clamped to the range [0.0, 1.0].
    So you will never get negative weights or overheated areas (weight > 1.0) with this tool.
@@ -416,6 +420,7 @@ Replace
 - **All** : delete all previous content of the target vertex group before copying the group from the source object.
 
 .. note::
+
    If a vertex group is contained in 2 or more of the selected objects,
    then the result depends on the order in which the selected objects are processed.
    However, the order of processing cannot be influenced.

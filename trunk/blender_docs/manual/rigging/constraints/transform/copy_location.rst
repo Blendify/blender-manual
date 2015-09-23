@@ -11,6 +11,7 @@ target.
 
 
  .. warning::
+
    Note that if you use such a constraint on a *connected* bone, it will have
    no effect, as it is the parent's tip which controls the position of your
    owner bone's root.

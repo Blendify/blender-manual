@@ -22,6 +22,7 @@ At the :ref:`System Level <recover-options-for-files>` (Relating to *Files*)
   which saves your Blender file automatically when you exit Blender.
 
   .. note::
+
       In addition to these functions being enabled by default,
       the *Save on Quit* functionality cannot be disabled.
 

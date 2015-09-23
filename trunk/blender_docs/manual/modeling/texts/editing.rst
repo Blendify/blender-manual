@@ -51,6 +51,7 @@ the frame's *Width* must be greater than **0.0**.
 
 
 .. note::
+
    Technically the height is never actually **0.0** because the font itself always contributes height.
 
 

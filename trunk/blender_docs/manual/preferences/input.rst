@@ -45,6 +45,7 @@ You can change the preset you are using by doing one of the following:
 
 
 .. note::
+
    Note that either of the above options will only change the preset for the current file. If you select
    :menuselection:`File --> New` or :menuselection:`File --> Open`, the default preset will be re-loaded.
 
@@ -114,6 +115,7 @@ Continuous Grab
    This is done by warping the mouse within the view.
 
    .. note::
+
       Cursor warping is only supported by *relative* input devices (mouse, trackball, trackpad).
 
       Graphics tablets however, typically use *absolute* positioning,
@@ -130,6 +132,7 @@ Double Click
 
 
 .. note::
+
    The Mouse emulate option is only available if *Select With* is set to *Right*.
 
 
@@ -142,6 +145,7 @@ who are used to painting and drawing with similar tools,
 as well as provide additional controls such as pressure sensitivity.
 
 .. note::
+
    If you are using a graphic tablet instead of a mouse and pressure sensitivity doesn't work properly,
    try to place the mouse pointer in the Blender window and then unplug/replug your graphic tablet. This might help.
 

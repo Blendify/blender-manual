@@ -21,6 +21,7 @@ can be set for the whole picture using the input field. Additionally,
 the Alpha factor can be set by feeding its socket.
 
 .. note::
+
    This is not, and is not intended to be,
    a general-purpose solution to the problem of compositing an image that doesn't contain Alpha information.
    You might wish to use "Chroma Keying" or "Difference Keying" (as discussed elsewhere) if you can.

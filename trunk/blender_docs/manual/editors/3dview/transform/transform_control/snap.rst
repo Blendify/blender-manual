@@ -78,6 +78,7 @@ Increment
    Snap to grid points. When in Orthographic view, the snapping increment changes depending on zoom level.
 
    .. note::
+
       In this context the grid does not mean the visual grid cue displayed.
       Snapping will use the resolution of the displayed grid,
       but all transformations are relative to the initial position (before the snap operation).

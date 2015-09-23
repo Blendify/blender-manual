@@ -31,6 +31,7 @@ using another armature as template for the current one...
 
 
 .. warning::
+
    One important thing to understand about armature editing is that you
    **edit the rest position of your armature**, i.e. its "default state".
    An armature in its *rest position* has all bones with no rotation and scaled to **1.0** in their own local space.
@@ -42,6 +43,7 @@ to :doc:`skin </rigging/skinning>` and :doc:`pose </rigging/posing>` it!
 
 
 .. warning::
+
    Please note that some tools work on bones' ends, while others work on bones themselves.
    Be careful not to get confused.
 

@@ -40,6 +40,7 @@ Decimate Type
          - On ``0.0``, all faces have been removed.
 
          .. note::
+
             Although the *Ratio* is directly proportional to the number of remaining faces,
             triangles are used when calculating the ratio.
 
@@ -49,6 +50,7 @@ Decimate Type
             This is only true if the *Triangulate* option is disabled.
 
          .. note::
+
             N-Gons are currently not supported when collapsing edges,
             the operation will still succeed, but edges attached aren't considered for reduction.
 

@@ -20,6 +20,7 @@ kept in the same sub-directory, allowing multiple Blender versions to run withou
 ignoring the **USER** and **SYSTEM** files.
 
 .. note::
+
    You may need to have the "show hidden files" option checked in your file browser settings.
 
 

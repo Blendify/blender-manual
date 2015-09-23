@@ -113,6 +113,7 @@ The ``_R`` bone is its mirror counterpart (along the armature's local X axis), s
 
 
 .. warning::
+
    Cancelling the extrude action causes the newly created bones to snap back to the source position,
    *(creating zero length bones)*.
    These will be removed when exiting editmode, however they can cause confusion and it's
@@ -326,6 +327,7 @@ Duplication
 
 
 .. note::
+
    This tool works on selected bones; selected ends are ignored.
 
 
@@ -379,6 +381,7 @@ Standard deletion
    | Hotkey:   :kbd:`X`
 
 .. note::
+
    This tool works on selected bones: selected ends are ignored.
 
 

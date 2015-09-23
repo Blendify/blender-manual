@@ -244,6 +244,7 @@ You can also use one effect strip as the input or source strip with another stri
 thus layering effects on top of one another.
 
 .. note::
+
    The only exception is the Color Generator effect. It does not depend on a base strip;
    you can add and position it independent of any other strip.
    Change the length as you would any strip.

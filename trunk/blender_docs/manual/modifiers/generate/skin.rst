@@ -11,6 +11,7 @@ It is a quick way to generate base meshes for sculpting and/or smooth organic sh
 arbitrary topology.
 
 .. note::
+
    Faces in the original geometry are ignored by the Skin modifier.
 
 Options
@@ -26,6 +27,7 @@ Create Armature
    Create an armature on top of the object - each edge becomes a bone.
 
    .. note::
+
        If the root vertex has more than one adjacent edge,
        an extra bone will be created to serve as the root.
 
@@ -72,6 +74,7 @@ Symmetry Axes
    In other words, using it avoids merging triangles across an axis unless the triangles form a symmetric quad.
 
    .. note::
+
       These symmetry axes checkboxes do not add geometry flipped across an axis.
       For that, the Mirror modifier should be used, typically placed above the Skin modifier.
 

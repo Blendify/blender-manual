@@ -8,6 +8,7 @@ by modifying its weights and/or which vertices belong to the vertex group.
 
 
  .. warning::
+
     These modifiers do implicit clamping of weight values in the standard ``[0.0, 1.0]`` range.
     All values below ``0.0`` will be set to ``0.0``, and all values above ``1.0`` will be set to ``1.0``.
 
@@ -34,6 +35,7 @@ Global Influence
    (``0.0`` will leave the vertex group's weights untouched, ``1.0`` is standard influence).
 
  .. warning::
+
    Influence only affects weights, adding/removing of vertices
    to/from vertex group is not prevented by setting this value to ``0.0``.
 
@@ -75,6 +77,7 @@ Texture
          Uses the saturation value (e.g. pure red's value is ``1.0``, gray is ``0.0``)
 
       .. note::
+
          All of the channels above are gamma corrected, except for *Intensity*.
 
    Object
@@ -202,6 +205,7 @@ Mix Set
       Affects only vertices belonging to both vertex groups.
 
    .. warning::
+
       When using *All vertices*, *Vertices from group B* or *Vertices from one group*,
       vertices might be added to the affected vertex group.
 

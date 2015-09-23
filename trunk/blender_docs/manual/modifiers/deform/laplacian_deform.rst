@@ -18,6 +18,7 @@ of a vertex based on its neighbors.
 
 
 .. note::
+
    You must define a *Anchors Vertex Group*. Without a vertex group modifier does nothing.
 
 
@@ -106,6 +107,7 @@ The system did not find a solution
    This message is displayed if the solver SuperLU did not find a solution for the linear system.
 
 .. note::
+
    If the mesh is dense, with a number of vertices greater than 100,000,
    then it is possible that the nonlinear optimization system will fail.
 

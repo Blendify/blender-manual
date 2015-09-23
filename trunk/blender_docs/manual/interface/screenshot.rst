@@ -49,6 +49,7 @@ Screencasts
 This is a quick way to make screen-casts from within Blender.
 
 .. note::
+
    This is limited to a single window and does *not* support audio.
 
    For recording tutorials you may want to use more comprehensive, 3rd party solutions.
@@ -111,6 +112,7 @@ defined in the Frame Range of the Dimensions panel,
 (See Fig: Dimensions Panel - Frame Range - highlighted in yellow)
 
 .. note::
+
    The configuration of the End frame, present in the Frame Range of the Dimensions Panel,
    **will not** stop your capture automatically.
    You will always have to stop the Screencast manually, using the Stop button.

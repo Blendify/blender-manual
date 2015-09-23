@@ -36,6 +36,7 @@ they create the visual complexity that the eye expects to see from shiny reflect
 
 
 .. note::
+
    It's useful to remember here that the true goal of this technique is *believability*,
    not *accuracy*. The eye doesn't need a physically accurate simulation of the light's travel;
    it just needs to be lulled into believing that the scene is real by seeing the complexity it
@@ -92,6 +93,7 @@ Clear All Environment Maps
 
 
 .. note::
+
    EnvMap calculation can be disabled at a global level by the EnvMap Tog Button in the Render
    Panel of the Rendering Buttons.
 

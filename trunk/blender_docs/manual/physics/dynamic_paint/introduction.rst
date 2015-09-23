@@ -40,6 +40,7 @@ Modifier itself has two different types:
 
 
 .. note::
+
    You can also enable brush and canvas simultaneously.
    In that case same object's "brush" doesn't influence it's "canvas",
    but can still interact with other objects in the scene.

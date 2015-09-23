@@ -16,6 +16,7 @@ If you want to translate, please wait until the manual is closer to being ready 
 announce on the `bf-docboard <http://lists.blender.org/mailman/listinfo/bf-docboard>`__ mailing list.
 
 .. note::
+
    We have investigated translation workflow,
    See the `translation design task <https://developer.blender.org/T43083>`__ for details on the proposed process.
 

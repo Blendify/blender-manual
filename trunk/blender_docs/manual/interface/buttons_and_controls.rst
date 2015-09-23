@@ -41,6 +41,7 @@ To change many toggle buttons at once, you can :kbd:`LMB` drag over multiple but
 This works for check-boxes, toggles in the outliner and layer buttons.
 
   .. note::
+
      For layer buttons (a type of toggle button) it is often useful to hold :kbd:`Shift` at the same time,
      to set or clear many layers at once.
 
@@ -290,6 +291,7 @@ While Hovering
    - :kbd:`Ctrl-C` - copy the value of the button.
 
      .. note::
+
         Pressing :kbd:`Ctrl-C` over any `Operation Buttons`_ copies their Python command into the clipboard
         which can be used in the Python console or in the text editor when writing scripts.
 

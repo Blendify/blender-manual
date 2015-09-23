@@ -67,5 +67,6 @@ you will likely want to enable the **UV Project** Material Option
 This uses a different UV interpolation to prevent distortion.
 
 .. note::
+
    This option is not yet available for Cycles
 

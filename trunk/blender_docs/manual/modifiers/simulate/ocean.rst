@@ -61,6 +61,7 @@ Resolution
    The higher the resolution, the more detail will be produced, but the slower it will be to calculate.
 
    .. note::
+
       When using the 'Generate' modifier geometry option,
       this resolution value also determines the resolution of the generated mesh surface,
       equal to the resolution of the internal simulation data.

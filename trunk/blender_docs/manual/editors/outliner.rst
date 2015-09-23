@@ -92,6 +92,7 @@ Context menu
    - *Make Local* - To create a "local" duplicate of this datablock.
 
    .. note::
+
       Some datablock types will not have a context menu at all!
 
 

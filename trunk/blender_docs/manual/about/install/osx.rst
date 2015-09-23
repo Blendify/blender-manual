@@ -12,6 +12,7 @@ This guide covers the following topics:
 
 
 .. note::
+
    This guides relies heavily in command-line tools.
    It assumes you are the least familiar with the OSX Terminal application.
 

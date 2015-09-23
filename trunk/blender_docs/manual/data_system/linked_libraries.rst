@@ -54,6 +54,7 @@ Look in the Outliner, with display mode set to *Blender File*, to see all your l
    Use :menuselection:`Object --> Make Local --> Selected Objects` to make the position editable.
 
 .. note::
+
    Appending data you already have linked, will add objects / groups to the scene,
    but will keep them linked (and un-editable).
 

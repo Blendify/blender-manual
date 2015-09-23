@@ -199,6 +199,7 @@ of the target topology that will be the result of the operation on the modified 
 Blender will also use the same image mapped to the target faces in the modified mesh.
 
 .. warning::
+
    Depending on the way you have assigned textures to the faces during the UV unwrap,
    and the complexity of your meshes, the boolean operation may generate imperfect UVs for the new faces.
 

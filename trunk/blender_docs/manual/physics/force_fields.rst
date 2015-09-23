@@ -46,6 +46,7 @@ these common options are explained for the *Spherical* field.
 
 
 .. note::
+
    After changing the fields (*Fields* panel) or deflection
    (*Collision* panel) settings, you have to recalculate the particle,
    softbody or cloth system (*Free Cache*), this is not done automatically. You can
