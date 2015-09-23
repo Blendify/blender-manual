@@ -86,6 +86,7 @@ see the `Vertex Groups`_ description below.
 
 
  .. warning::
+
     A single object can have several *Armature* modifiers
     (with e.g. different armatures, or different settings...),
     working on top of each other, **or** mixing their respective effects

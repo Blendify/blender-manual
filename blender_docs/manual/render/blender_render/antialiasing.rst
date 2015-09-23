@@ -81,6 +81,7 @@ Box
    A low-quality box-shaped curve
 
    .. note::
+
       This filter is relatively low quality.
       you can see that only the samples within the pixel itself are added to the pixel's color.
       For the other filters,

@@ -48,6 +48,7 @@ the pivot point to another location, so some tools are more or less applicable i
 
 
 .. note::
+
    The three selection mode buttons are only visible in *Edit mode*.
    The colors of selected, unselected and active geometry depend entirely on the current theme.
    Black, orange and white are from the default theme.

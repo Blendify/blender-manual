@@ -91,6 +91,7 @@ You can also move an object by clicking and holding :kbd:`RMB` on the object to 
 To confirm the action, press :kbd:`LMB`.
 
 .. note::
+
    This behavior can be changed using *Release Confirms* in the :doc:`User Preferences </preferences/editing>`,
    so that a single :kbd:`RMB` drag can be used to move and confirm.
 

@@ -78,7 +78,8 @@ We are now ready to convert all those **rst** files into pretty **html**!
   The building process may take several minutes the first time (or after any major changes),
   but the next time you build it should only take a few seconds.
 
-  .. note::
+  .. note:: 
+
      If you encounter an error ending with ``TypeError: an integer is required (got type str)``,
      you may need to install an older version of *Babel* (the Python Internationalization Library).
 

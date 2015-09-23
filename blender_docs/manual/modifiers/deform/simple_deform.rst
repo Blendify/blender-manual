@@ -42,6 +42,7 @@ Origin
    - Scaled to change the deform factor.
 
    .. note::
+
       When the object controlling the origin (the one in the *Origin* field)
       is a child of the deformed object, this creates a cyclic dependency in Blender's data system.
       The workaround is to create a new empty and parent both objects to it.

@@ -8,6 +8,7 @@ they can also affect many of the other properties of a material. The different a
 material that a texture influences are controlled in the *Influence* panel.
 
 .. note::
+
    Texture options for *Surface* and *Wire* materials and in some cases also for *Volume* and *Halo* materials.
 
 

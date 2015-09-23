@@ -46,6 +46,7 @@ If you use a keyboard with a non-english keyboard layout, you still may benefit 
 your computer to the UK or US layout as long as you work with Blender.
 
 .. note::
+
    You can also change the default keymap and default hotkeys from the
    :doc:`User Preferences </preferences/input>`, however this manual assumes you are using the default keymap.
    :doc:`Read more about Blender configuration </preferences/input>`

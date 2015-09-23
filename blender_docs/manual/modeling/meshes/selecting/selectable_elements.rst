@@ -88,6 +88,7 @@ edges and/or faces at the same time!
 
 
 .. note::
+
    The "Mode Selection" buttons are only visible for meshes in *Edit* mode.
 
 

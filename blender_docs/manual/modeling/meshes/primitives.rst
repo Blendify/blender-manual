@@ -97,6 +97,7 @@ Rings
 
 
 .. note::
+
    If you specify a six segment, six ring UVsphere you'll get something which, in top view,
    is a hexagon (six segments), with five rings plus two points at the poles.
    Thus, one ring fewer than expected, or one more, if you count the poles as rings of radius 0.
@@ -122,6 +123,7 @@ Size
 
 
 .. note::
+
    It is possible to add an icosphere subdivided 500 times.
    Adding such a dense mesh is a sure way to cause a program crash.
    An icosphere subdivided 10 times would have 5,242,880 triangles, so be very careful about this!

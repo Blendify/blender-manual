@@ -46,6 +46,7 @@ Options:
       *Merge Limit* they are snapped together and cannot be moved beyond the mirror plane.
 
       .. note::
+
          Vertices on the mirror plane will be unable to move away from the mirror plane
          as long as *Clipping* is enabled.
          You must disable *Clipping* to be able to move the vertices along the mirror axis again.

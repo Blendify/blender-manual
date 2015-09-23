@@ -44,6 +44,7 @@ the individual controller pages for a more detailed description of each controll
 
 
 .. note::
+
    It is assumed that more than one sensor is connected to the controller.
    For only one sensor, consult the "All" line.
 

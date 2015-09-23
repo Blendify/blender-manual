@@ -33,6 +33,7 @@ through compositing nodes can further increase the depth and spacial clarity of 
 
 
 .. note::
+
    Some of the settings under the World panel in Blender affect lighting so you find them under the
    :doc:`Lighting </render/blender_render/lighting/index>` chapter
    (see :doc:`Ambient Light </render/blender_render/lighting/ambient_light>`,

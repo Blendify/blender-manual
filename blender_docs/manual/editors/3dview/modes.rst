@@ -22,6 +22,7 @@ You set the current mode in the *Mode* drop-down list of *3D View* header
 
 
  .. warning::
+
    You can only select objects in *Object* mode. In all others, the
    current object selection is "locked" (except, to some extent, with an
    armature's *Pose* mode).
@@ -99,6 +100,7 @@ and the *Pose* and *Edit* modes for armatures, in the :doc:`rigging one </riggin
 
 
 .. note::
+
    If you are reading this manual and some button or menu option is referenced that does not appear on your screen,
    it may be that you are not in the proper mode for that option to be valid.
 

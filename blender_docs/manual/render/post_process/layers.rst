@@ -75,6 +75,7 @@ as long as that Scene Layer is also visible.
 
 
 .. warning::
+
    Only the objects in visible Scene Layers will be rendered.
    So, if only Scene Layer 1 is visible and your Render Layer set specifies to render only Layers 2 and 3,
    nothing will be rendered.

@@ -126,6 +126,7 @@ With uniform colors
 
 
 .. note::
+
    This effect reduces the global luminosity of the picture
    (the result will always be smaller than the smallest operand).
    If one of the image is all white, the result is the other picture;

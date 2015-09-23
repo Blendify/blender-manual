@@ -12,6 +12,7 @@ through lower and upper bounds.
 
 
  .. warning::
+
    This constraint does not tolerate negative scale values (those you might
    use to mirror an object...): when you add it to an object or bone, even if
    no axis limit is enabled, nor the *For Transform* button, as soon

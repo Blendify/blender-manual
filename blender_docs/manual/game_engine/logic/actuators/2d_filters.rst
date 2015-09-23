@@ -61,6 +61,7 @@ render.disableMotionBlur()
 
 
 .. note::
+
    Your graphic hardware and OpenGL driver must support accumulation buffer (``glAccum`` function).
 
 

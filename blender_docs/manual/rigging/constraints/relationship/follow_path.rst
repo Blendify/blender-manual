@@ -53,6 +53,7 @@ you can use a *Locked Track* and a target object to specify the up direction, as
 
 
 .. note::
+
    Note that you also need to keyframe Evaluation Time for the Path. Select the path, go to the path properties,
    set the overall frame to the first frame of the path (e.g. frame 1),
    set the value of Evaluation time to the first frame of the path (e.g. 1), right click on Evaluation time,

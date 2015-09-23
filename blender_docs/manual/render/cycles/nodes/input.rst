@@ -220,6 +220,7 @@ From Dupli
       Small spheres with *From Dupli* enabled, using the UV map of the large sphere.
 
    .. note::
+
       *From Dupli* only works with the UV output when the dupli object is instanced from faces,
       either with :doc:`particles </physics/particles/introduction>` or
       :doc:`duplifaces </modeling/objects/duplication/duplifaces>`.

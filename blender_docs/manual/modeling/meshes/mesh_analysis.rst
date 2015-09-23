@@ -84,6 +84,7 @@ Similar to wall-thickness, sharp edges can form shapes that are too thin to be a
 
 
 .. warning::
+
    There are some known limitations with mesh analysis
 
    - Currently only displayed with deform modifiers.

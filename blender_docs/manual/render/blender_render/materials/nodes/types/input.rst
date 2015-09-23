@@ -325,6 +325,7 @@ Front/Back
 
 
 .. note::
+
    These are exactly the same settings as in the
    :doc:`Mapping </render/blender_render/textures/mapping>` panel for
    :doc:`Textures </render/blender_render/textures/index>`,

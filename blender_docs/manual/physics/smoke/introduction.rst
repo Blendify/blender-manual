@@ -31,6 +31,7 @@ A basic workflow looks like this:
 6. :doc:`Bake </physics/smoke/baking>` the simulation.
 
 .. note::
+
    There is a *Quick Smoke* operator which will automatically create a domain object with a basic smoke/fire material.
    It can be found in :menuselection:`3D View --> Object --> Quick Effects --> Quick Smoke`,
    or in the :kbd:`Space` search box.

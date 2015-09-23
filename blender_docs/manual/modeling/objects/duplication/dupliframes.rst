@@ -68,6 +68,7 @@ All monkeys are now real objects, but still linked copies. To change this,
 
 
 .. note::
+
    There are many alternatives to Dupliframes. Which tool to use depends on context.
 
    - To use a small curve as a profile and a larger curve as a path,

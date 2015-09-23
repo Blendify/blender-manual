@@ -39,6 +39,7 @@ Sharp Edges
    (Menu shortcut: :kbd:`Ctrl-E` in Edit Mode).
 
 .. note::
+
    :term:`Non-manifold` edges (edges shared by more than two faces) will always be split.
 
 
@@ -58,6 +59,7 @@ Examples
 
 
 .. note::
+
    Splitting edges can also be performed manually in Edit Mode using: :menuselection:`Edge Specials --> Edge Split`
    (Menu shortcut: :kbd:`Ctrl-E`).
 

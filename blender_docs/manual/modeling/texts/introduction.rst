@@ -42,6 +42,7 @@ including the "blue" font that has been applied to a curve path.
 
 
 .. note::
+
    A maximum of ``50000`` characters is allowed per text object; however,
    be forewarned that the more characters a single text object has,
    the slower the object will respond interactively.
@@ -336,6 +337,7 @@ using :kbd:`Alt-C` and click mesh.
 
 
 .. note::
+
    There is also a Text on Curve feature,
    but the curve modifier offers more options.
 

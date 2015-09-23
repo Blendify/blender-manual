@@ -12,6 +12,7 @@ file that was made for monoscopic rendering and transform it in stereo-3d ready.
    Creature Factory 2 by Andy Goralczyk Rendered in Stereo 3D (anaglyph)
 
 .. note::
+
    Multi-View drawing requires capable graphics card and drivers with *Triple Buffer* support.
    If the *Automatic* mode doesn't work,
    set the *Window Draw Method* in the :doc:`System User Preferences</preferences/system>`.
@@ -44,6 +45,7 @@ Go to the Render Layers panel and enable *Views* for this scene.
    Scene Render Views
 
 .. note::
+
    When you turn on *Views* in the scene you get 3d preview in the viewport,
    as well as multiple panels that are now accessible all over the user interface.
 

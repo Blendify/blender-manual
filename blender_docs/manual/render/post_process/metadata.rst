@@ -32,6 +32,7 @@ Note
 
 
 .. note::
+
    Only some image formats support metadata:
    See :doc:`image formats </data_system/files/image_formats>`.
 

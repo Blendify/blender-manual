@@ -73,6 +73,7 @@ Only Rim
    TODO
 
 .. note::
+
    *Fill Rim* and *Only Rim* only make a difference on :term:`non-manifold` objects,
    since the "rims" are generated from the borders of the original geometry.
 
@@ -91,12 +92,14 @@ Material Index Offset
 
 
 .. warning::
+
   The modifier thickness is calculated using local vertex coordinates. If the object has non-uniform scale,
   the thickness will vary on different sides of the object.
 
   To fix this, either apply (:kbd:`Ctrl-A`) or clear (:kbd:`Alt-S`) scale.
 
 .. warning::
+
   Solidify thickness is an approximation.
   While "Even Thickness" and "High Quality Normals" should yield good results,
   the final wall thickness isn't guaranteed and may vary depending on the mesh topology.

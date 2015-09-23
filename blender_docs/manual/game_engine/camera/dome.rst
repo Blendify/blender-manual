@@ -18,6 +18,7 @@ orthographic camera, is a fisheye projection.
 
 
 .. note::
+
    Remember to use Blender in **fullscreen mode** to get the maximum out of your projector.
 
    To accomplish that launch Blender with the command-line argument -W.
@@ -197,6 +198,7 @@ Example files
 
 
 .. note::
+
    Important: the viewport is calculated using the ratio of canvas width by canvas height.
    Therefore different screen sizes will require different warp mesh files. Also in order to get
    the correct ratio of your projector you need to use Blender in Fullscreen mode.
