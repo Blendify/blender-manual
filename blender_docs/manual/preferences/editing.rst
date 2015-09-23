@@ -61,7 +61,7 @@ Global Undo
    For example, duplicating Objects, changing panel settings or switching between modes.
 
    .. warning::
-      While disabling this option does same memory,
+      While disabling this option does save memory,
       it stops the redo panel from functioning,
       also preventing tool options from being changed in some cases.
 
