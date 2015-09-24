@@ -29,7 +29,9 @@ There are some options available to customize panels to your preference:
 - You can change the position of a panel within its region by clicking and
   dragging it with the :kbd:`LMB` on the little widget in the upper right corner.
 - The zoom factor of a whole region with panels can be changed by
-  :kbd:`Ctrl-MMB` clicking and moving the mouse anywhere within that region.
+  :kbd:`Ctrl-MMB` clicking and moving the mouse anywhere within that region
+  or use the :kbd:`NumpadPlus` and :kbd:`NumpadMinus` to zoom in and out the contents.
+  Pressing :kbd:`Home` (Show All) will reset the zooming at the screen/panel focused by the mouse pointer.
 - The alignment of the panels in the *Properties Editor* can be changed
   between vertical and horizontal. To do this click with :kbd:`RMB` somewhere
   within the main region of the *Properties Editor* and choose either

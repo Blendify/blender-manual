@@ -16,12 +16,8 @@ General
 
 DPI
    Value of the screen resolution which controls the size of Blender's interface fonts and internal icons shown.
-   Useful for taking screen shots for book printing and use of high resolution monitors,
-   (such as Retina Display and others) matching the screen DPI with Blender DPI.
-   During normal usage, most Blender users might prefer to zoom screen elements
-   pressing :kbd:`Ctrl` and dragging :kbd:`MMB` left and right over a panel to resize its contents,
-   or use the :kbd:`NumpadPlus` and :kbd:`NumpadMinus` to zoom in and out the contents.
-   Pressing :kbd:`Home` (Show All) will reset the zooming at the screen/panel focused by the mouse pointer.
+   Useful for taking screen shots for book printing and use of high resolution monitors.
+   During typical usage, you may prefer to use zoom which is a available in many parts of Blender interface.
 Frame Server Port
    TCP/IP port used in conjunction with the IP Address of the machine for frameserver rendering.
    Used when working with distributed rendering.
