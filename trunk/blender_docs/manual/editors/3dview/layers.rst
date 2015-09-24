@@ -35,7 +35,9 @@ this can quickly become cluttered. Therefore, Blender also provides layers just 
 Armature layers are very similar to object layers, in that you can divide up an armature (rig)
 across layers and only display those layers you wish to work on.
 
-:doc:`Read more about armature layers </rigging/armatures/visualization#armature_layers>`
+.. seealso::
+
+   :ref:`armature_layers`
 
 
 Working with Layers
