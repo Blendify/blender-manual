@@ -138,9 +138,8 @@ your workflow as this will help increase your productivity. Some examples could 
       Outliner, Text Editor (Scripts) window
 
 
-.. note:: Reuse your Layouts
+.. hint:: Reuse your Layouts
 
-   If you create a new window layout and would like to use it for future .blend files,
-   simply save it as the User default by pressing :kbd:`Ctrl-U`
-   (don't forget: all screens and scenes themselves will be saved as default too).
+   If you create a new window layout and would like to use it for future ``.blend`` files,
+   you can save it for later reuse, see :doc:`/preferences/startup_file`.
 
