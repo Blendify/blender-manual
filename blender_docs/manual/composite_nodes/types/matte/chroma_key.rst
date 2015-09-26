@@ -4,6 +4,8 @@ Chroma Key Node
 ***************
 
 .. figure:: /images/chromakey_node.jpg
+   :align: right
+   :width: 150px
 
    Chroma Key node
 
@@ -37,3 +39,4 @@ Image
    with its alpha channel adjusted for the keyed selection
 Matte
    a monochrome representation of the mask
+

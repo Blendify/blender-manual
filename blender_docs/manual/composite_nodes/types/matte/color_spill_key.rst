@@ -4,6 +4,8 @@ Color Spill Node
 ****************
 
 .. figure:: /images/colorspill_node.jpg
+   :align: right
+   :width: 150px
 
    Color Spill node
 
@@ -25,3 +27,4 @@ greater than the color spill algorithm normally allows.
 This is useful for exceptionally high amounts of color spill.
 
 The outputs of this node are the image with the corrected channels.
+
