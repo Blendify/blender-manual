@@ -36,12 +36,6 @@ such as a normal pass, which will displace the pixels based on the normal direct
 Example
 =======
 
-.. figure:: /images/Compositing-Nodes-Displace_example.jpg
-   :width: 300px
-
-   Music Video Distortion Example Using Displace
-
-
 In this example, she's singing about dreams of the future. So, to represent this,
 we use a moving clouds texture (shot just by rendering the cloud texture on a moving plane)
 as the displacement map. Now, the colors in a black and white image go from zero (black)
@@ -59,3 +53,10 @@ the effect, but this is the core.
 Photos courtesy of Becca, no rights reserved. See also some movies of this node in action,
 made by the wizard programmer himself, by following this
 `external link <http://lists.blender.org/pipermail/bf-blender-cvs/2006-December/008773.html>`__
+
+
+.. figure:: /images/Compositing-Nodes-Displace_example.jpg
+   :width: 300px
+
+   Music Video Distortion Example Using Displace
+

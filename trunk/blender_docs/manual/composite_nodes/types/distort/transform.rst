@@ -4,6 +4,8 @@ Transform Node
 **************
 
 .. figure:: /images/composite_node_distort_transform.jpg
+   :align: right
+   :width: 150px
 
    Transform node
 
