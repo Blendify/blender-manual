@@ -4,6 +4,8 @@ Render Layers Node
 ******************
 
 .. figure:: /images/Compositing-RenderLayer_Node.jpg
+   :align: right
+   :width: 150px
 
    Render Layers Node
 

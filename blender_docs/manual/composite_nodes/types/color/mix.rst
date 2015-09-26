@@ -4,6 +4,8 @@ Mix Node
 ********
 
 .. figure:: /images/Node-Mix.jpg
+   :align: right
+   :width: 150px
 
 This node mixes a base image (threaded to the top socket) together with a second image
 (bottom socket)
@@ -183,3 +185,4 @@ area of your photo. Remember that black is zero (no) effect, and white is one (f
 And by the way, ya grew to like the smell of the fixer,
 and with a little soft music in the background and the sound of the running water,
 it was very relaxing. I kinda miss those dayz.
+

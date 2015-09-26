@@ -4,6 +4,8 @@ Hue Saturation Node
 *******************
 
 .. figure:: /images/Node-HSV.jpg
+   :align: right
+   :width: 150px
 
 As an alternative to RGB editing, color can be thought of as a mix of Hues,
 namely a normalized value along the visible spectrum from infra-red to ultraviolet
@@ -72,3 +74,4 @@ Here, the image taken by a cheap digital camera in poor lighting at night using 
 (decreasing reds and revealing more blues and greens), decreasing Saturation
 (common in digital cameras, and evens out contrast) and increasing Value
 (making it all lighter).
+

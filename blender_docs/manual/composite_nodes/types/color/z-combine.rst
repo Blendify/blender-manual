@@ -4,6 +4,8 @@ Z-Combine Node
 **************
 
 .. figure:: /images/Tutorials-NTR-ComZCombine.jpg
+   :align: right
+   :width: 150px
 
    Z Combine node
 
@@ -99,3 +101,4 @@ The resulting image appears to have the cube on the table.
    and then mix the Z-combine with a slightly magnified background,
    the outline of the transparent area will distort the background,
    enough to make it look like you are seeing part of the background through an invisible yet Fresnel-lens object.
+

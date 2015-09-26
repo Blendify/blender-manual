@@ -4,6 +4,8 @@ Texture Node
 ************
 
 .. figure:: /images/Tutorials-NTR-Tex.jpg
+   :align: right
+   :width: 150px
 
    Texture node
 
