@@ -7,10 +7,10 @@ Bilateral Blur Node
 
 .. figure:: /images/Tutorials-NTR-ComBilateralBlur.jpg
 
-   Blur node
+   Bilateral Blur node
 
 
-The bilateral blur node performs a high quality adaptive blur on the source image.
+The Bilateral Blur node performs a high quality adaptive blur on the source image.
 It can be used for various purposes like:
 smoothing results from blenders raytraced ambient occlusion
 smoothing results from various unbiased renderers,
@@ -21,7 +21,7 @@ to make non-photorealistic compositing effects.
 Inputs
 ======
 
-Bilateral blur has 2 inputs:
+Bilateral blur has two inputs:
    *Image*, for the image to be blurred.
    *Determinator*, which is non-obligatory, and is used only if connected.
 
@@ -42,7 +42,7 @@ Iterations
    It practically defines the radius of blur.
 Color Sigma
    Defines the threshold for which color differences in the image should be taken as edges.
-Space sigma
+Space Sigma
    A fine-tuning variable for blur radius.
 
 
@@ -67,4 +67,5 @@ Examples
    :width: 250px
    :figwidth: 250px
 
-   Bilateral faked blurry refraction+smoothed reytraced soft shadow
+   Bilateral faked blurry refraction+smoothed raytraced soft shadow
+

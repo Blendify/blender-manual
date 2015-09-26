@@ -67,9 +67,8 @@ you will find a rigged hand reaching down to pick up a ball. Based on how the ha
 (the least Z value) are blurred more, and those farther away (the forearm)
 is blurred the least.
 
-Known Bugs
-==========
 
-FIXME(Template Unsupported: Version;{{Version|2.44}})
-Does not work when reading from a multilayer OpenEXR sequence set
+.. note::
+
+   Does not work when reading from a multilayer OpenEXR sequence set
 

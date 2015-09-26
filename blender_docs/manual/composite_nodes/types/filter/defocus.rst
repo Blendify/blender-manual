@@ -74,7 +74,7 @@ Gamma Correct
    Defocus node using Z-Buffer
 
 
-fStop
+f-Stop
    This is the most important parameter to control the amount of focal blur:
    it simulates the aperture *f* of a real lens(' iris) - without modifying the luminosity of the picture,
    however! As in a real camera, the *smaller* this number is, the more-open the lens iris is,
@@ -142,7 +142,7 @@ Zscale
    its range is too narrow to control the blur properly. This parameter can be used to expand the range of the input
    (or for that matter, narrow it as well, by setting it to a value less than one). So for *No zbuffer*,
    this parameter therefore then becomes the main blur control
-   (similar to *fStop* when you *do* use a zbuffer).
+   (similar to *f-Stop* when you *do* use a zbuffer).
 
 
 Examples
@@ -156,7 +156,7 @@ Examples
 In this `blend file example <http://wiki.blender.org/uploads/7/79/Doftest.blend>`__, the ball
 array image is blurred as if it was taken by a camera with a f-stop of 2.8 resulting in a
 farily narrow depth of field centered on 7.5 blender units from the camera.
-As the balls receed into the distance, they get blurrier.
+As the balls recede into the distance, they get blurrier.
 
 
 Hints
@@ -209,3 +209,4 @@ No ZBuffer
    be VERY careful with the *No ZBuffer* switch. If the *Zscale* value happens to be large,
    and you forget to set it back to some low value,
    the values may suddenly be interpreted as huge blur-radius values that will cause processing times to explode.
+
