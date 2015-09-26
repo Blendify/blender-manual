@@ -1,6 +1,6 @@
 
 *********
-Time node
+Time Node
 *********
 
 .. figure:: /images/Tutorials-NTR-ComTime.jpg

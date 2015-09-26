@@ -1,6 +1,6 @@
 
 ********
-RGB node
+RGB Node
 ********
 
 The RGB node has no inputs.
