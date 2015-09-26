@@ -1,6 +1,6 @@
 
 **********
-Value node
+Value Node
 **********
 
 The Value node has no inputs; it just outputs a numerical value
