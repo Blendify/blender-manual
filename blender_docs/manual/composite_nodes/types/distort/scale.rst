@@ -4,6 +4,8 @@ Scale Node
 **********
 
 .. figure:: /images/Compositing_Nodes-Scale.jpg
+   :align: right
+   :width: 150px
 
    Scale node
 
