@@ -4,6 +4,8 @@ Viewer
 ******
 
 .. figure:: /images/Tutorials-NTR-ComViewer.jpg
+   :align: right
+   :width: 150px
 
    Viewer node
 

@@ -4,6 +4,8 @@ File Output Node
 ****************
 
 .. figure:: /images/Compositing_Nodes-File_Output.jpg
+   :align: right
+   :width: 150px
 
    File Output node
 
@@ -32,3 +34,4 @@ you can save intermediate images automatically. Neat, huh?
    As with all filename entries, use ``//`` at the beginning of the field
    to shorthand reference the current directory of the ``.blend`` file.
    You can also use the .. breadcrumb to go up a directory.
+
