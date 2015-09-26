@@ -3,6 +3,13 @@
 Channel Key Node
 ****************
 
+.. figure:: /images/channel_key_node.jpg
+   :align: right
+   :width: 150px
+
+   Channel Key node
+
+
 The *Channel Key* node determines background objects from foreground objects by the
 difference in the selected channel's levels. For example in YUV color space,
 this is useful when compositing stock footage of explosions (very bright)
@@ -28,10 +35,4 @@ transparency between foreground and background objects.
 
 The outputs of this node are the *Image* with an alpha channel adjusted for the
 keyed selection and a black and white *Matte* (i.e the alpha mask).
-
-
-.. figure:: /images/channel_key_node.jpg
-   :width: 150px
-
-   Channel Key node
 

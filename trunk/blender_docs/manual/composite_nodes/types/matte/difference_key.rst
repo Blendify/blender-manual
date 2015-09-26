@@ -4,6 +4,8 @@ Difference Key Node
 *******************
 
 .. figure:: /images/difference_node.jpg
+   :align: right
+   :width: 150px
 
    Difference Key Node
 
@@ -26,4 +28,5 @@ Image
    with its alpha channel adjusted for the keyed selection
 Matte
    a monochrome representation of the mask
+
 

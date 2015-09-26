@@ -4,6 +4,8 @@ Luminance Key Node
 ******************
 
 .. figure:: /images/luminance_node.jpg
+   :align: right
+   :width: 150px
 
    Luminance Key node
 
@@ -57,3 +59,4 @@ we feed the background photo to the bottom socket
 and the bottom socket where the factor is 1.0). Feeding our original photo into the top socket
 means it will be used where the Luminance Key node has spit out Black. Voila,
 our model is teleported from Atlanta to aboard a cruise ship docked in Miami.
+
