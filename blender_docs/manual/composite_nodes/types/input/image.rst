@@ -1,6 +1,6 @@
 
 **********
-Image node
+Image Node
 **********
 
 .. figure:: /images/Tutorials-NTR-ComImage.jpg
