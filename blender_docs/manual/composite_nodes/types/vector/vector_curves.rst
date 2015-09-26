@@ -4,6 +4,11 @@ Vector Curves Node
 ******************
 
 .. figure:: /images/Node-Vector.jpg
+   :align: right
+   :width: 150px
+
+   Vector Curves node
+
 
 The Vector Curves node maps an input vector image's x, y,
 and z components to a diagonal curve. The three channels are accessed via the X, Y,
