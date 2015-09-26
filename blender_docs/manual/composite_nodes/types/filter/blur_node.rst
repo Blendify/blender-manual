@@ -4,6 +4,8 @@ Blur Node
 *********
 
 .. figure:: /images/Tutorials-NTR-ComBlur.jpg
+   :align: right
+   :width: 150px
 
    Blur node
 
@@ -11,7 +13,7 @@ Blur Node
 The Blur node blurs an image, using one of seven blur modes
 (set using the upper-left pop-up button), and a radius defined by the X and Y number buttons.
 By default these are set to zero,
-so to enable the node you must set one or both to a value greater then 0.
+so to enable the node you must set one or both to a value greater than 0.
 You can optionally connect a value image to the Size input node,
 to control the blur radius with a mask.
 The values must be mapped between 0-1 for best effect,
@@ -58,3 +60,4 @@ An example blend file, in fact the one used to create the image above,
 The .blend file takes one image from the RenderLayer "Blurs" and blurs it while offsetting it (Translate)
 and then combining it (AlphaOver) to build up the progressive sequence of blurs.
 Play with the Value and Multiply nodes to change the amount of blurring that each algorithm does.
+

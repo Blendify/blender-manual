@@ -6,6 +6,8 @@ Vector (Motion) Blur Node
 *************************
 
 .. figure:: /images/Tutorials-NTR-ComVecBlur.jpg
+   :align: right
+   :width: 150px
 
    Vector Blur node
 

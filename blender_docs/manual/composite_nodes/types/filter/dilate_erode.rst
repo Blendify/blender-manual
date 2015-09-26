@@ -6,6 +6,8 @@ Dilate/Erode Node
 *****************
 
 .. figure:: /images/Compositing_Nodes-Dilate_Erode.jpg
+   :align: right
+   :width: 150px
 
    Dilate/Erode node
 
@@ -23,16 +25,14 @@ thus sharpening it relative to surrounding pixels of the same color.
 Example
 =======
 
-.. figure:: /images/Compositing_Nodes-Dilate_ex.jpg
-   :width: 300px
-   :figwidth: 300px
-
-   Magenta tinge
-
-
-In the above example image,
+In this example image,
 we wanted to take the rather boring array of ball bearings and spruce it up; make it hot,
 baby. So, we dilated the red and eroded the green, leaving the blue alone.
 If we had dilated both red and green...(hint: red and green make yellow).
 The amount of influence is increased by increasing the *Distance* values.
 `Blend file available here. <http://wiki.blender.org/uploads/5/51/Derotest.blend>`__
+
+.. figure:: /images/Compositing_Nodes-Dilate_ex.jpg
+   :width: 300px
+   :figwidth: 300px
+

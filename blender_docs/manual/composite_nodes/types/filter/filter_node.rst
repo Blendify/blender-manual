@@ -6,6 +6,8 @@ Filter Node
 ***********
 
 .. figure:: /images/Tutorials-NTR-ComFilter.jpg
+   :align: right
+   :width: 150px
 
    Filter node
 
