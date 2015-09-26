@@ -3,14 +3,6 @@
 Image node
 **********
 
-.. admonition:: Reference
-   :class: refbox
-
-   | Panel:    :doc:`Node Editor </editors/node_editor/editor>` -->
-               :doc:`Node Composition </composite_nodes/index>`
-   | Menu:     :kbd:`Shift-A` --> :doc:`Input </composite_nodes/types/input/index>` --> Image
-
-
 .. figure:: /images/Tutorials-NTR-ComImage.jpg
 
    Image node
@@ -335,3 +327,4 @@ of Blender and how to use its Nodes to achieve just the blended crossover effect
    The above examples call out two feeds, but by replicating the Input, Time and Mix nodes,
    you can have multiple feeds at any one time;
    just set the Time node to tell the Mixer when to cut over to using it.
+
