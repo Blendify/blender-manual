@@ -3,14 +3,6 @@
 Texture Node
 ************
 
-.. admonition:: Reference
-   :class: refbox
-
-   | Panel:    :doc:`Node Editor </editors/node_editor/editor>` -->
-               :doc:`Node Composition </composite_nodes/index>`
-   | Menu:     :kbd:`Shift-A` --> :doc:`Input </composite_nodes/types/input/index>` --> Texture
-
-
 .. figure:: /images/Tutorials-NTR-Tex.jpg
 
    Texture node
@@ -53,3 +45,4 @@ Example
 In the example above, we want to simulate some red plasma gas out there in space. So, we fog
 up an image taken from the Hubble telecscope of Orion and take the ever-so-useful Cloud
 texture and use it to mix in red with the image.
+

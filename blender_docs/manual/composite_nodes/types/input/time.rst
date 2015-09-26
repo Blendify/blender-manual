@@ -3,14 +3,6 @@
 Time node
 *********
 
-.. admonition:: Reference
-   :class: refbox
-
-   | Panel:    :doc:`Node Editor </editors/node_editor/editor>` -->
-               :doc:`Node Composition </composite_nodes/index>`
-   | Menu:     :kbd:`Shift-A` --> :doc:`Input </composite_nodes/types/input/index>` --> Time
-
-
 .. figure:: /images/Tutorials-NTR-ComTime.jpg
 
    Time node
@@ -103,3 +95,4 @@ Whew! Rearranging slide and changing the timing was clunky but doable by moving 
 The *Node* way is to create an image input, one for each slide image.
 Using the Image input and Time nodes connected to an AlphaOver mixer is much simpler, clearer,
 and easier to maintain.
+

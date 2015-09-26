@@ -3,14 +3,6 @@
 Render Layers Node
 ******************
 
-.. admonition:: Reference
-   :class: refbox
-
-   | Panel:    :doc:`Node Editor </editors/node_editor/editor>` -->
-               :doc:`Node Composition </composite_nodes/index>`
-   | Menu:     :kbd:`Shift-A` --> :doc:`Input </composite_nodes/types/input/index>` --> Render Layers
-
-
 .. figure:: /images/Compositing-RenderLayer_Node.jpg
 
    Render Layers Node
@@ -167,3 +159,4 @@ the image from the frame is simply where things are at that particular time. How
 from the *Render Layers* node, Blender puts out a vector set that says how particular pixels are moving,
 or will move, to the next frame. You use this socket to create a
 :doc:`blurring effect. </composite_nodes/types/filter/vector_blur>`.
+
