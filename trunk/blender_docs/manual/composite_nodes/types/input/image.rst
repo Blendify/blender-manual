@@ -4,6 +4,8 @@ Image node
 **********
 
 .. figure:: /images/Tutorials-NTR-ComImage.jpg
+   :align: right
+   :width: 150px
 
    Image node
 

@@ -4,6 +4,8 @@ RGB Curves Node
 ***************
 
 .. figure:: /images/Tutorials-NTR-ComRGBCurves.jpg
+   :align: right
+   :width: 150px
 
    RGB Curves node
 

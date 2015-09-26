@@ -4,6 +4,8 @@ Time node
 *********
 
 .. figure:: /images/Tutorials-NTR-ComTime.jpg
+   :align: right
+   :width: 150px
 
    Time node
 

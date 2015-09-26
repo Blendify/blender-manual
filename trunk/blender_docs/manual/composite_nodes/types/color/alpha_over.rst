@@ -4,6 +4,8 @@ AlphaOver Node
 **************
 
 .. figure:: /images/Tutorials-NTR-AlphaOver.jpg
+   :align: right
+   :width: 150px
 
    AlphaOver node
 
@@ -86,3 +88,4 @@ or straight RGBA image.
 .. figure:: /images/Compositing-AlphaOver-Layers.jpg
 
    Layering Images using AlphaOver Premul
+
