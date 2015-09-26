@@ -6,6 +6,8 @@ Bilateral Blur Node
 *******************
 
 .. figure:: /images/Tutorials-NTR-ComBilateralBlur.jpg
+   :align: right
+   :width: 150px
 
    Bilateral Blur node
 
