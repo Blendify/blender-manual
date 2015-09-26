@@ -119,11 +119,3 @@ and also use the material that you used to create the node tree.
 Here, we added a new material in the *Node editor* (*Material.001*),
 and as we did, we can access the properties of this material in the material's menu.
 
-
-External Links
-==============
-
-- `Blender Material Nodes <http://www.blender.org/development/release-logs/blender-242/blender-material-nodes/>`__ -
-  Changelog for the Blender version that introduced material nodes.
-
-
