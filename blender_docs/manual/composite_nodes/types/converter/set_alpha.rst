@@ -4,6 +4,8 @@ Set Alpha Node
 **************
 
 .. figure:: /images/Tutorials-NTR-ComSetAlpha.jpg
+   :align: right
+   :width: 150px
 
    Set Alpha node
 

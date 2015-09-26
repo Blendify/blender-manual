@@ -4,6 +4,8 @@ ID Mask Node
 ************
 
 .. figure:: /images/Compositing-Node-IDMask.jpg
+   :align: right
+   :width: 150px
 
    ID Mask node
 
@@ -57,3 +59,4 @@ obscured by a fully or partially opaque object in front of it.
 If something else is in front of it,
 even if that thing is partially transparent and you can see the object in a render,
 the mask will not reflect that partially obscured part.
+

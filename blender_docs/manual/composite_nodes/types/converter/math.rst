@@ -4,6 +4,8 @@ Math Node
 *********
 
 .. figure:: /images/Compositing-Node-Math.jpg
+   :align: right
+   :width: 150px
 
    Math node
 
@@ -223,3 +225,4 @@ If using the HSV, you could reduce the Saturation and Value to 2 values (0 or 1.
 by Multiply by 2 and Divide by 2, and restrict the Hue to 64 possible values.
 
 You can use this noodle to quantize any channel; alpha, speed (vector), z-values, and so forth.
+
