@@ -4,6 +4,8 @@ SplitViewer Node
 ****************
 
 .. figure:: /images/Compositing_Nodes-SplitViewer.jpg
+   :align: right
+   :width: 150px
 
    SplitViewer node
 
@@ -14,3 +16,4 @@ Use this node for making side-by-side comparisons of two renderings/images,
 perhaps from different renderlayers or from different scenes.
 When transitioning between scenes, you want to be sure the stop action is seamless; use this
 node to compare the end of one scene with the beginning of another to ensure they align.
+

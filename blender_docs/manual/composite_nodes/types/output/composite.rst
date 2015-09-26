@@ -1,9 +1,11 @@
-
+﻿
 *********
 Composite
 *********
 
 .. figure:: /images/Tutorials-NTR-ComCompositeOut.jpg
+   :align: right
+   :width: 150px
 
    Composite node
 
