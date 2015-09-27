@@ -5,7 +5,7 @@
 Filter Node
 ***********
 
-.. figure:: /images/compositing_typesofnodes_filter.jpg
+.. figure:: /images/composite_node_filter.png
    :align: right
    :width: 150px
 
