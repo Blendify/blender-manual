@@ -131,7 +131,8 @@ Scale
 
 
 .. figure:: /images/Material-SSS-Swatch.jpg
-   :width: 90px
+   :width: 150px
+   :align: right
 
    The SSS Color Swatch
 
