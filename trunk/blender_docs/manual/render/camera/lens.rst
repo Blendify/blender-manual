@@ -2,13 +2,6 @@
 Camera Lens
 ***********
 
-.. admonition:: Reference
-   :class: refbox
-
-   | Editor:   Properties
-   | Context:  Object Data
-   | Panel:    Lens
-
 .. figure:: /images/CameraPanel.png
    :width: 270px
 
