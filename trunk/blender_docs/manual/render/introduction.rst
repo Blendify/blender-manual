@@ -3,14 +3,6 @@
 Introduction
 ************
 
-.. admonition:: Reference
-   :class: refbox
-
-   | Editor:   Properties
-   | Context:  Render
-   | Hotkey:   :kbd:`F12`
-
-
 Rendering is the process of creating a 2D image (or video) from your 3D scene.
 What that image looks like is based on four factors which the user can control:
 
@@ -59,3 +51,4 @@ Blender includes two render engines by default:
 - :doc:`Cycles </render/cycles/index>`
 
 More render engines from third-party developers can also be added using :doc:`Add-ons </advanced/scripting/python/add_ons>`
+
