@@ -15,11 +15,15 @@ A scene can contain more than one camera, but only one of them will be used at a
 Add a New Camera
 ================
 
-In *Object* mode simply press :kbd:`Shift-A` and in the pop-up menu,
-choose :menuselection:`Add --> Camera`.
+.. admonition:: Reference
+   :class: refbox
 
-The default scene in Blender includes a camera,
-so you'll probably only need to add a new one if you have deleted the default one,
+   | Mode:     *Object* mode
+   | Menu:     :menuselection:`Add --> Camera`
+   | Hotkey:   :kbd:`Shift-A` to add new.
+
+The default scene includes a camera,
+so you'll only need to add a new one if you have deleted the default one,
 or need to animate a cut between two cameras.
 
 
