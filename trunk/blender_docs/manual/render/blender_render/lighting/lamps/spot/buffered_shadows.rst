@@ -198,12 +198,12 @@ Sample Buffers
    Buffer Shadow set to Irregular
 
 
-*Irregular* shadow method is used to generate sharp/hard shadows that are placed as accurately as raytraced shadows.
+Irregular shadow method is used to generate sharp/hard shadows that are placed as accurately as raytraced shadows.
 This method offers very good performance because it can be done as a multi-threaded process.
 
-This method supports transparent shadows. To do so, you will first need to setup the shadow
-setting for the object which will receive the transparent shadow. (*Material* -->
-*Shadow* --> *Cat Buffer Shadows* and *Buffer Bias*)
+This method supports transparent shadows.
+To do so, you will first need to setup the shadow setting for the object which will receive the transparent shadow.
+(*Material* --> *Shadow* --> *Cat Buffer Shadows* and *Buffer Bias*)
 
 
 Deep generation method
@@ -214,9 +214,11 @@ Deep generation method
 
    Buffer Shadow set to Deep
 
+   Deep Shadow buffer supports transparency and better filtering,
+   at the cost of more memory usage and processing time
 
-Deep Shadow buffer supports transparency and better filtering , at the cost of more memory usage and processing time
-   *Compress*: Deep shadow map compression treshold
+Compress
+   Deep shadow map compression threshold.
 
 
 Common options
