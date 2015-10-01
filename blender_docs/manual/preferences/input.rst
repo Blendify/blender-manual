@@ -163,28 +163,33 @@ View manipulation
 =================
 
 Orbit Style
-   Select how Blender works when you rotate the 3D view (by default :kbd:`MMB`).
-   Two styles are available. If you come from Maya or Cinema 4D, you will prefer *Turntable*.
+   Select how Blender works when you rotate the 3D view by default when holding :kbd:`MMB`.
+
+   Turntable
+      Rotates the view keeping the horizon horizontal.
+   Orbit
+      Is less restrictive, allowing any orientation.
 Zoom Style
    Choose your preferred style of zooming in and out with :kbd:`Ctrl-MMB`
-      Scale
-         *Scale* zooming depends on where you first click in the view.
-         To zoom out, hold :kbd:`Ctrl-MMB` while dragging from the edge of the screen towards the center.
-         To zoom in, hold :kbd:`Ctrl-MMB` while dragging from the center of the screen towards the edge.
-      Continue
-         The *Continue* zooming option allows you to control the speed
-         (and not the value) of zooming by moving away from the initial click-point with :kbd:`Ctrl-MMB`.
-         Moving up from the initial click-point or to the right will zoom out,
-         moving down or to the left will zoom in. The further away you move,
-         the faster the zoom movement will be.
-         The directions can be altered by the *Vertical* and *Horizontal* radio buttons and the
-         *Invert Zoom Direction* option.
-      Dolly
-         *Dolly* zooming works similarly to *Continue* zooming except that zoom speed is constant.
-      Vertical
-         Moving up zooms out and moving down zooms in.
-      Horizontal
-         Moving left zooms in and moving right zooms out.
+
+   Scale
+      *Scale* zooming depends on where you first click in the view.
+      To zoom out, hold :kbd:`Ctrl-MMB` while dragging from the edge of the screen towards the center.
+      To zoom in, hold :kbd:`Ctrl-MMB` while dragging from the center of the screen towards the edge.
+   Continue
+      The *Continue* zooming option allows you to control the speed
+      (and not the value) of zooming by moving away from the initial click-point with :kbd:`Ctrl-MMB`.
+      Moving up from the initial click-point or to the right will zoom out,
+      moving down or to the left will zoom in. The further away you move,
+      the faster the zoom movement will be.
+      The directions can be altered by the *Vertical* and *Horizontal* radio buttons and the
+      *Invert Zoom Direction* option.
+   Dolly
+      *Dolly* zooming works similarly to *Continue* zooming except that zoom speed is constant.
+   Vertical
+      Moving up zooms out and moving down zooms in.
+   Horizontal
+      Moving left zooms in and moving right zooms out.
 Invert Zoom Direction
    Inverts the Zoom direction for *Dolly* and *Continue* zooming.
 Invert Wheel Zoom Direction
