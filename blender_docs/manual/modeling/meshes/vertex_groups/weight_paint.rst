@@ -245,8 +245,9 @@ Customizing brush color space
 
 
 Blender allows customization of the color range used for the Weight Paint colors.
-You can define the color band as you like; for example, you can make it purely black/white
-(similar to maya Weight painting), and you can even use Alpha values here.
+You can define the color band as you like;
+for example, you can make it purely black/white if you prefer,
+you can even use alpha values here.
 
 You find the customizer in the User Properties section, in the System Tab.
 
