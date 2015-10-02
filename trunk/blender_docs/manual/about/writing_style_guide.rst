@@ -39,13 +39,13 @@ Rules of thumb:
 - *Spell checking is strongly recommended.*
 - Use American English (eg: modeling and not modelling, color and not colour).
 - Take care about grammar, appropriate wording and use simple English.
-- Keep Sentences short and clear, resulting in text that is easy to read, objective and to the point.
+- Keep sentences short and clear, resulting in text that is easy to read, objective and to the point.
 - Including why or how an option might be useful is a good idea.
 - If you are unsure about how a feature works, ask someone else or find out who developed it and ask them.
 
 To be avoided:
 
-- Avoid to write in first person perspective, about yourself or your own opinions.
+- Avoid writing in first person perspective, about yourself or your own opinions.
 - Avoid `weasel words <http://en.wikipedia.org/wiki/Weasel_word>`__ and being unnecessarily vague, eg:
 
   | *"Reloading the file will probably fix the problem"*
@@ -172,4 +172,3 @@ Would be written more like this, avoiding the *"it's"*:
    Curve
       A type of object defined in terms of a line interpolated between Control Vertices.
       *Available types of curves include Bézier and NURBS.*
-
