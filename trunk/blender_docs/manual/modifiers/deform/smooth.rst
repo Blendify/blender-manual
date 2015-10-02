@@ -27,8 +27,8 @@ Factor
    Higher values will increase the effect.
    Values outside this range (above ``1.0`` or below ``0.0``) distort the mesh.
 Repeat
-   The number of smoothing iterations, equivalent to pressing the
-   :doc:`Smooth </modeling/meshes/editing/deforming/introduction#smooth>` button multiple times.
+   The number of smoothing iterations,
+   equivalent to executing the smooth tool multiple times.
 Vertex Group
    A vertex group name, to restrict the effect to the vertices in it only.
    This allows for selective, real-time smoothing, by painting vertex weights.
