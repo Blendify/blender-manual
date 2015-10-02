@@ -124,7 +124,7 @@ Recover Auto Save
 
 .. seealso::
 
-   :ref:`Auto Saves <options-for-files>`
+   :ref:`Auto Saves <recover-options-for-files>`
 
 
 Security

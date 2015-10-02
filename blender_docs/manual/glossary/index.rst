@@ -246,7 +246,7 @@ For other common conventions used throughout the manual.
       The goal is to compute all possible light interactions in a given scene,
       and thus obtain a truly photo realistic image.
       All combinations of diffuse and specular reflections and transmissions must be accounted for.
-      Effects such as colour bleeding and caustics must be included in a global illumination simulation.
+      Effects such as color bleeding and caustics must be included in a global illumination simulation.
 
    Gouraud Shading
       Used to achieve smooth lighting on low-polygon surfaces without the
@@ -363,8 +363,8 @@ For other common conventions used throughout the manual.
 
    Normal mapping
       Is similar to :term:`Bump mapping`, but instead of the image being a greyscale heightmap,
-      the colours define in which direction the normal should be shifted,
-      the 3 colour channels being mapped to the 3 directions X, Y and Z.
+      the colors define in which direction the normal should be shifted,
+      the 3 color channels being mapped to the 3 directions X, Y and Z.
       This allows more detail and control over the effect.
 
    NURBS
@@ -404,7 +404,7 @@ For other common conventions used throughout the manual.
       Local illumination model that can produce a certain degree of realism in three-dimensional
       objects by combining three elements: diffuse, specular and ambient for each considered point on a surface.
       It has several assumptions - all lights are points, only surface geometry is considered,
-      only local modelling of diffuse and specular, specular colour is the same as light colour,
+      only local modelling of diffuse and specular, specular color is the same as light color,
       ambient is a global constant.
 
    Pivot Point
@@ -413,8 +413,9 @@ For other common conventions used throughout the manual.
       See also :doc:`/getting_started/basics/transformations/transform_control/pivot_point/index`.
 
    Pixel
-      The smallest unit of information in a 2D raster image, representing a single color made up of red, green, and blue
-      channels. If the image has an :term:`alpha channel`, the pixel will contain a corresponding fourth channel.
+      The smallest unit of information in a 2D raster image,
+      representing a single color made up of red, green, and blue channels.
+      If the image has an :term:`alpha channel`, the pixel will contain a corresponding fourth channel.
 
    Pole
       :term:`Vertex` where three, five, or more edges meet.
