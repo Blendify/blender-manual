@@ -452,7 +452,7 @@ Use this when working arranging a lot of strips and you want to use all of your 
 
 
 Draw Frames
-   Diplays the frame number instead of the time, in the Frame Number Indicator.
+   Displays the frame number instead of the time, in the Frame Number Indicator.
 Show Frame Number Indicator
    Toggles the units of measure across the bottom of the workspace between seconds or frames.
 Safe Margin

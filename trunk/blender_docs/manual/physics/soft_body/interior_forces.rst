@@ -31,7 +31,7 @@ but would change your mesh topology drastically.
 Luckily, Blender allows us to define additional *virtual* connections.
 On one hand we can define virtual connections between the diagonal edges of a quad face
 (*Stiff Quads*, *Image 1b*), on the other hand we can define virtual connections
-between a vertex and any vertices connected to it's neighbours
+between a vertex and any vertices connected to it's neighbors
 (*Bending Stiffness*). In other words, the amount of bend that is allowed between a
 vertex and any other vertex that is separated by two edge connections.
 

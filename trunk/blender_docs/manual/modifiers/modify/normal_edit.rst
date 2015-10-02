@@ -52,13 +52,13 @@ Mix Factor
 
 Vertex Group
    Allows per-item fine control of the mix factor. Vertex group influence can be reverted using the small
-   “arrow” button to the right.
+   "arrow" button to the right.
 
 Usage
 =====
 
-This modifier can be used to quickly generate radial normals for low-poly tree foliage, or “fix” shading of
-toon-like rendering by partially bending default normals…
+This modifier can be used to quickly generate radial normals for low-poly tree foliage, or "fix" shading of
+toon-like rendering by partially bending default normals...
 
 The only mandatory prerequisite to use it is to enable *Auto Smooth* option in Mesh properties, *Normals* panel.
 

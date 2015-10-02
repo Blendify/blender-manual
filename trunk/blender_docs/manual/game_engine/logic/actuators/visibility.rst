@@ -19,7 +19,7 @@ Special Options:
 Visible
    Toggle checkbox to toggle visibility
 Occlusion
-   Toggle checkbox to toggle occlusion. Must be initialised from the Physics tab.
+   Toggle checkbox to toggle occlusion. Must be initialized from the *Physics* tab.
 Children
    Toggle checkbox to toggle recursive setting -
    will set visibility / occlusion state to all child objects, children of children (recursively)

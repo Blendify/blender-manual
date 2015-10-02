@@ -204,7 +204,7 @@ The channels region is used to select and manage the curves for the graph editor
 Hide curve
    Represented by the eye icon.
 
-Deactive/Mute curve
+Deactivate/Mute curve
    Represented by the speaker icon.
 
 Lock curve from editing

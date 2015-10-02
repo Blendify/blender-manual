@@ -19,7 +19,7 @@ they have no real knowledge of what was where in the last frame, and where it is
 In Blender, there are two ways to produce motion blur. The first method
 (which produces the most correct results)
 works by rendering a single frame up to 16 times with slight time offsets,
-then accumlating these images together;
+then accumulating these images together;
 this is called Motion Blur and is activated on the Render panel. The second (and much faster)
 method is the Compositor node Vector Blur.
 

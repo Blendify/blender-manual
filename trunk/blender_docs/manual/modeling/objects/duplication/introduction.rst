@@ -15,7 +15,7 @@ an *Object* and *Object Data* (sometimes abbreviated to *ObData*):
 Object
    Holds information about the position, rotation and size of a particular element.
 Object Data
-   Holds everthing else.
+   Holds everything else.
    For example:
 
    :Meshes: Store geometry, material list, vertex groups... etc.

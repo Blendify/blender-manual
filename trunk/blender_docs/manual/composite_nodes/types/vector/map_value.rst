@@ -19,12 +19,11 @@ Size
    will scale (multiply) that value by a number
 Min/Max
    you can set the minimum and maximum numbers to clamp (cut off) the value too.
-   Min and Max must be individually enabled by :kbd:`LMB` clicking on the label for them to clamp.
+   *Min* and *Max* must be individually enabled by :kbd:`LMB` clicking on the label for them to clamp.
    :kbd:`Shift-LMB` on the value to change it.
 
-
-   - If Min is enabled and the value is less than Min, set the ouput value to Min
-   - If Max is enabled and the input value is greater than Max, set the ouput value to Max
+   - If *Min* is enabled and the value is less than *Min*, set the output value to *Min*.
+   - If *Max* is enabled and the input value is greater than Max, set the ouput value to *Max*.
 
 This is particularly useful in achieving a depth-of-field effect,
 where you can use the Map Value node to map a Z value

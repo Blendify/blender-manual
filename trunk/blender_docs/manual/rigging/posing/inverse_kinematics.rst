@@ -80,7 +80,7 @@ Stiffness
    Stiffness around the axis. Influence disabled if using *Lock*.
 
 Limit
-   Limit movement around the axis, specifide by the sliders.
+   Limit movement around the axis.
 
 Stretch
    Stretch influence to IK target. 0.000 is the same as disabled.

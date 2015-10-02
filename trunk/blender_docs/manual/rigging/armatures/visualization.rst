@@ -159,7 +159,7 @@ Attributes
 ----------
 
 Wireframe
-   When enabled, bone is displayed in wireframe mode regardles of the viewport drawing mode.
+   When enabled, bone is displayed in wireframe mode regardless of the viewport drawing mode.
    Useful for non-obstructive custom bone chains.
 
 Hide
