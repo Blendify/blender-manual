@@ -430,6 +430,27 @@ For other common conventions used throughout the manual.
    Procedural Texture
       Computer generated (generic) textures. Procedural textures can be configured via parameters.
 
+   Projection
+      In computer graphics there are 2 common camera projections used.
+
+      Perspective
+         A *perspective* view is geometrically constructed by taking a scene in 3D
+         and placing an observer at point ``O``.
+         The 2D perspective scene is built by placing a plane (e.g. a sheet of paper)
+         where the 2D scene is to be drawn in front of point ``O``,
+         perpendicular to the viewing direction.
+         For each point ``P`` in the 3D scene a ``PO`` line is drawn,
+         passing by ``O`` and ``P``. The intersection point ``S`` between
+         this ``PO`` line and the plane is the perspective projection of that point.
+         By projecting all points ``P`` of the scene you get a perspective view.
+      Orthographic
+         In an *orthographic* projection,
+         you have a viewing direction but not a viewing point ``O``. The line is then drawn
+         through point ``P`` so that it is parallel to the viewing direction. The intersection
+         ``S`` between the line and the plane is the orthographic projection of the point
+         ``P``.
+         By projecting all points ``P`` of the scene you get the orthographic view.
+
    Quad
       :term:`Face` that contains exactly four :term:`vertices <vertex>`.
 
