@@ -114,7 +114,7 @@ It is possible to copy or link most of Blender's data-block.
 See:
 
 - :doc:`Adding scenes </data_system/scenes>`
-- :doc:`Object duplication </modeling/objects/duplication>`
+- :doc:`Object duplication </modeling/objects/duplication/index>`
 
 
 When an *ObData* data-block is used (linked) by more than one object,

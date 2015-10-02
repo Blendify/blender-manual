@@ -25,20 +25,6 @@ If a file with the same given name already exists, the text field will turn red 
 
 .. figure:: /images/File-savewindow.jpg
 
-
-Save Versions
-=============
-
-Depending on the number of
-:doc:`Save Versions </interface/undo_and_redo#save_and_auto_save>` you have set,
-all existing files with the same name will be rotated to a ``.blend#`` file extension,
-where ``#`` is ``1``, ``2``, ``3``, etc.
-
-So, if you were working on ``MyWork.blend``, and saved it,
-the existing ``MyWork.blend`` is renamed to ``MyWork.blend1``, and a new ``MyWork.blend`` is saved.
-This way, you have hot backups of old saved versions in case you need to massively undo changes,
-or accidentally saved over the wrong file.
-
 .. tip::
 
    Use the **plus**/**minus** buttons to the right of the file name,
@@ -61,3 +47,8 @@ Save Copy
 Legacy Mesh Format
    Save the blend file, but ignore faces with more than 4 vertices ("ngons")
    so that older versions of Blender (before 2.63) can open it.
+
+
+.. seealso::
+
+   :ref:`Auto Save <recover-options-for-files>`
