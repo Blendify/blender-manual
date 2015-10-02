@@ -36,9 +36,10 @@ The menu of available constraint types.
 There are several constraint types available:
 
 Fixed_
-   Glue rigid bodies together. Fixes the relative position and orientation of two rigid bodies.
+   Glue rigid bodies together.
+   Fixes the relative position and orientation of two rigid bodies.
 Point_
-   Constrains rigid bodies to move around a commom pivot point.
+   Constrains rigid bodies to move around a common pivot point.
 Hinge_
    Only allows rotation around the Z axis of the constraint object.
 Slider_
@@ -46,9 +47,11 @@ Slider_
 Piston_
    Restrict rigid body translation and rotation to the X axis of the constraint object.
 Generic_
-   Restrict rigid body translation and rotation to specified axes. Allows customizable constraint axes.
+   Restrict rigid body translation and rotation to specified axes.
+   Allows customizable constraint axes.
 `Generic Spring`_
-   Restrict rigid body translation and rotation to specified axes with springs. Like Generic with spring motion.
+   Restrict rigid body translation and rotation to specified axes with springs.
+   Like Generic with spring motion.
 Motor_
    Drive rigid body around or along an axis.
 
@@ -76,7 +79,7 @@ Rigid Body Constraint panel.
    than specified in the rigid body world.
 
    *Iterations*
-      Number of constraint solver iterations made per simiulation step for this constraint.
+      Number of constraint solver iterations made per simulation step for this constraint.
 
 *Limits*:
    By using limits you can constrain objects even more by specifying a translation/rotation range on/around
@@ -154,9 +157,10 @@ rotation, or relative translation along other axes.
 Piston
 ======
 
-A piston permits translation along the X axis of the constraint object. It also allows rotation around the X axis of
-the constraint object. It's like a combination of the freedoms of a slider with the freedoms of a hinge (neither of
-which is very free alone).
+A piston permits translation along the X axis of the constraint object.
+It also allows rotation around the X axis of the constraint object.
+It's like a combination of the freedoms of a slider with the freedoms of a hinge
+(neither of which is very free alone).
 
 *Limits*:
    *X Axis*

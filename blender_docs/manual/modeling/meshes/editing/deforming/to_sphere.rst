@@ -21,7 +21,8 @@ The *To Sphere* transformation will give the selection spherical qualities. The
 .. figure:: /images/3D_interaction-Transformations-Advanced-To_Sphere_suzanne-spherical.jpg
    :width: 640px
 
-   Suzanne with inceasing sphericity.
+   Suzanne with increasing sphericity.
+
    The sequence above shows a Suzanne mesh with a 0, 0.25 (25%), 0.5 (50%) and 1 (100%) To Sphere transform applied.
 
 

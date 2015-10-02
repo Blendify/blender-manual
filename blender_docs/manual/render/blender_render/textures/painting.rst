@@ -129,7 +129,7 @@ Name your brush by clicking on the name field and entering any name you wish,
 such as "Red Air" for a red airbrush. To toss out a brush,
 click the brush delete *X* button next to its name.
 If you want to keep this brush around for the next time you run Blender,
-click the *F* ake user button next to the brush delete X button.
+click the Fake user button (F) next to the brush delete (X) button.
 
 If you have a tablet pen with pressure sensitivity,
 toggle the small "P" button next to the opacity, size,

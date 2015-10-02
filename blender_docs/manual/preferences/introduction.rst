@@ -48,7 +48,7 @@ Save the new preferences
 Once you have set your preferences, you will need to manually save them,
 otherwise the new configuration will be lost after a restart.
 Blender saves its preferences to *userpref.blend* in your user folder
-(see next section, “Load Factory Settings”, for details).
+(see next section, "Load Factory Settings", for details).
 
 In the *User Preferences* window, click on the *Save User Settings* button in the bottom left.
 This will save all of the new preferences.

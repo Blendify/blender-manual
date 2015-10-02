@@ -52,7 +52,7 @@ Shortcuts in the 3D View
 A quicker way to move objects in 3D space is with the :kbd:`G` hotkey.
 Pressing :kbd:`G` activates "Grab/Move" transformation mode.
 The selected object or data then moves freely according to the mouse pointer's location and camera.
-Using this shortcut in combination with specifc shortcuts which specify a chosen axis gives you
+Using this shortcut in combination with specific shortcuts which specify a chosen axis gives you
 full control over your transformation.
 
 :kbd:`LMB`

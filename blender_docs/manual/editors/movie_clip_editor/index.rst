@@ -667,8 +667,8 @@ The camera can also have rotated a bit, adding some tilt to the footage.
 There's the **Stabilize Rotation** option to compensate for this tilt.
 A single extra track needs to be set for this, and it works in the following way.
 On first frame of the movie, this track is connected with the median point of the tracks from
-list above and angle between horizon and this segment is ket constant through the whole
-footage. The amount of rotation applied to the footage can be controlled by **Rotation Influence**.
+list above and angle between horizon and this segment is kept constant through the whole footage.
+The amount of rotation applied to the footage can be controlled by **Rotation Influence**.
 
 If the camera jumps a lot, there'll be noticeable black areas near image boundaries.
 To get rid of these black holes, there's the **Autoscale** option,

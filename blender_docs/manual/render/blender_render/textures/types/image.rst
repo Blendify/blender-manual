@@ -642,17 +642,16 @@ Filter
 
       Box
          A fast and simple nearest-neighbor interpolation known as Monte Carlo integration
-      EWA
-         **E** lliptical **W** eighted **A** verage - one of the most efficient direct
+      EWA (Elliptical Weighted Average)
+         One of the most efficient direct
          convolution algorithms developed by Paul Heckbert and Ned Greene in the 1980s.
          For each texel, EWA samples, weights, and accumulates texels within an elliptical
          footprint and then divides the result by the sum of the weights.
 
          Eccentricity
             Maximum Eccentricity. Higher values give less blur at distant/oblique angles, but is slower
-      FELINE
-         FELINE (**F** ast **E** lliptical **Line** s),
-         uses several isotropic probes at several points along a line in texture space to produce an anisotropic
+      FELINE (Fast Elliptical Lines)
+         Uses several isotropic probes at several points along a line in texture space to produce an anisotropic
          filter to reduce aliasing artifacts without considerably increasing rendering time.
 
          Probes

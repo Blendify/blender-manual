@@ -7,8 +7,8 @@ Action Editor
 *************
 
 In Blender *Actions* are a generic containers for F-Curves.
-Actions can contain any number of F-Curves, and can be attached to any data block.As long as
-the RNA data paths stored in the Action's F-Curves can be found on that data block,
+Actions can contain any number of F-Curves, and can be attached to any data block.
+As long as the RNA data paths stored in the Action's F-Curves can be found on that data block,
 the animation will work. For example, an action modifying 'X location' and 'Y location'
 properties can be shared across multiple objects,
 since both objects have 'X location' and 'Y location' properties beneath them.

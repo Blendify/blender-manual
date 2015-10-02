@@ -147,7 +147,7 @@ Vertices may not penetrate the balls of other vertices.
 If you want a good result you may have to adjust the size of these balls.
 Normally it works pretty well with the default options.
 
-Ball Size Caclulation
+Ball Size Calculation
    Man ("manual")
       The *Ball Size* directly sets the ball size (in BU).
    Av ("average")

@@ -23,7 +23,7 @@ Concise
    so keep the text concise and relevant to the topic at hand.
 Maintainable
    Keep in mind that Blender has frequent releases,
-   so try to write content that won.t have to be redone
+   so try to write content that won't have to be redone
    the moment some small change is made.
    This also helps a small documentor community to maintain the manual.
 

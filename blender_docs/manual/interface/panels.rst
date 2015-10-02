@@ -3,7 +3,7 @@
 Panels
 ******
 
-Panels are collapsible sections within regions to help organise the interface.
+Panels are collapsible sections within regions to help organize the interface.
 They are heavily used in the *Properties Editor* but also
 appear elsewhere (For example: in the *Tool Shelf* or the *Properties Shelf*, available in some editors).
 

@@ -4,7 +4,7 @@ Data Transfer Modifier
 **********************
 
 The **Data Transfer** modifier transfers several types of data from one mesh to another.
-Data types include vertex groups, UV layers, vertex colors, custom normals…
+Data types include vertex groups, UV layers, vertex colors, custom normals...
 
 Transfer works by generating a mapping between source mesh’s items (vertices, edges, etc.)
 and destination ones, either on a one-to-one basis, or mapping several source items
@@ -32,16 +32,16 @@ Source Object
    in local space (i.e. as if both object's centers were at the same place).
 
 Max Distance
-   When the icon “finger” button to the right is enabled, this is the maximum distance
+   When the icon "finger" button to the right is enabled, this is the maximum distance
    between source and destination to get a successful mapping. If a destination item cannot find
    a source one withing that range, then it will get no transfered data.
 
-   This allows to transfer a small sub-detailed mesh onto a more complete one (e.g. from a “hand” mesh
-   towards a “full body” one).
+   This allows to transfer a small sub-detailed mesh onto a more complete one
+   (e.g. from a "hand" mesh towards a "full body" one).
 
 Ray Radius
    For ray-casting-based mapping methods, the radius of the cast rays. Especially important for 1D and 2D
-   items (i.e. vertices and edges), without some width there would be nearly no ray-casting matches…
+   items (i.e. vertices and edges), without some width there would be nearly no ray-casting matches...
 
 Mix Mode
    Controls how destination data are affected:
@@ -68,7 +68,7 @@ Mix Factor
 
 Vertex Group
    Allows per-item fine control of the mix factor. Vertex group influence can be reverted using the small
-   “arrow” button to the right.
+   "arrow" button to the right.
 
 Generate Data Layers
    This modifier cannot generate needed data layers itself. Once the set of source data to transfer is selected,
@@ -113,7 +113,7 @@ source data selection is modified.
 Geometry Mapping
 ----------------
 
-Geometry mapping is the process by which a given destination vertex/edge/… knows **which part** of the source mesh
+Geometry mapping is the process by which a given destination vertex/edge/... knows **which part** of the source mesh
 to get its data from. It is crucial to understand this topic well to get good results with this modifier.
 
 Topology
@@ -145,7 +145,7 @@ One-To-One Mappings
 
    Face Corners
       A face corner is not a real item by itself, it’s some kind of split vertex attached to a specific face.
-      Hence both vertex (location) and face (normal, …) aspects are used to match them together.
+      Hence both vertex (location) and face (normal, ...) aspects are used to match them together.
 
       Nearest Corner and Best Matching Normal
          Uses source’s corner having the most similar **split** normal with destination one,
@@ -187,7 +187,7 @@ Interpolated Mappings
 
    Face Corners
       A face corner is not a real item by itself, it’s some kind of split vertex attached to a specific face.
-      Hence both vertex (location) and face (normal, …) aspects are used to match them together.
+      Hence both vertex (location) and face (normal, ...) aspects are used to match them together.
 
       Nearest Face Interpolated
          Uses nearest point of nearest source’s face, interpolates data from all that source face’s corners.

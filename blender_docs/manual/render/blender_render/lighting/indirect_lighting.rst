@@ -3,7 +3,7 @@
 Indirect Lighting
 *****************
 
-*Inderect Lighting* adds inderect light bouncing of surrounding objects.
+*Indirect Lighting* adds indirect light bouncing of surrounding objects.
 It's modes the light that is reflected from other surfaces to the current surface.
 Is more comprehensive, more physically correct, and produces more realistic images.
 It is also more computationally expensive.
@@ -38,27 +38,27 @@ Direct+Indirect Lighting:
 Images courtesy of `rastermon.com <http://web.archive.org/web/20050204031559/http://rastermon.com/GI1.htm>`__
 
 
-Inderect Lighting only works with Approximate gather method.
+Indirect Lighting only works with Approximate gather method.
 
 
 .. figure:: /images/Lighting-Inderect_Lighting.jpg
    :width: 300px
 
-   Inderect Lighting parameters.
+   Indirect Lighting parameters.
 
 
 Options
 =======
 
-The *Inderect Lighting* panel contains two options:
+The *Indirect Lighting* panel contains two options:
 
 Factor
    Defines how much surrounding objects contribute to light.
 
 Bounces
-   Number of inderect deffuse light bounces.
+   Number of indirect diffuse light bounces.
 
-The *Gather* panel contains settings for the inderect lighting quality.
+The *Gather* panel contains settings for the indirect lighting quality.
 Note that these settings also apply to Environment Lighting and Ambient Occlusion.
 
 
@@ -67,7 +67,7 @@ Approximate
 
 .. figure:: /images/lighting-ambientOcclusion-gather2.jpg
 
-   The Inderect Lighting panel, Approximate method.
+   The Indirect Lighting panel, Approximate method.
 
 
 The *Approximate* method gives a much smoother result for the same amount of render

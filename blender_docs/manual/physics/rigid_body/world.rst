@@ -74,8 +74,8 @@ If you haven’t saved the blend file, the cache is created in memory,
 so save your file first or the cache may be lost.
 
 
-External Force Infuence on Rigid Body
-=====================================
+External Force Influence on Rigid Body
+======================================
 
 Rigid Body Cache panel.
 

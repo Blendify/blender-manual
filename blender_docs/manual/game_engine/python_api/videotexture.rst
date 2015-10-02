@@ -228,7 +228,7 @@ The ``VideoFFmpeg`` source has several attributes to control the movie playback:
 
 ``scale``
    (*bool*).
-   Set to True to activate fast nearest neighbour scaling algorithm.
+   Set to True to activate fast nearest neighbor scaling algorithm.
    Texture width and height must be a power of 2.
    If the video picture size is not a power of 2, rescaling is required.
    By default ``bge.texture`` uses the precise but slow ``gluScaleImage()`` function.
@@ -319,7 +319,7 @@ Here are some possible advanced work flow:
    GameLogic.video.source.refresh()
 
 
-- Load image from source for python processing wihtout download to GPU:
+- Load image from source for Python processing without download to GPU:
 - note that we don't even call refresh on the Texture
 - we could also just create a source object without a Texture object
 

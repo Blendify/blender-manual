@@ -109,7 +109,7 @@ Also note that you can see how the Bullet triangulation is working
 
 - **RGB/XYZ Widget** - Representing the object's Local Orientation and Origin.
 - **Green** - "sleeping meshes" that are not moving, saving calculations until an external event "wakes" it.
-- **White** - White lines represent active bounding meshes at are undergoing physics calulations,
+- **White** - White lines represent active bounding meshes at are undergoing physics calculations,
   untill such calculations are so small that the object is put to rest.
   This is how you can see the effects of the *Collision Bounds*.
   - **Thick, or Many White Lines** - A compound collision mesh/meshes.

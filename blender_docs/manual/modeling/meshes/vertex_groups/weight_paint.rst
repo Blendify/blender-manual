@@ -201,8 +201,8 @@ The brush Falloff curve
    Curve Panel
 
 
-The brush falloff editor allows you to speciy the characteristics of your brushes to a large
-extent. The usage should be obvious and intuitive.
+The brush falloff editor allows you to specify the characteristics of your brushes to a large extent.
+The usage should be obvious and intuitive.
 
 
 The brush appearance
