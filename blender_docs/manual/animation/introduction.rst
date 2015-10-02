@@ -27,7 +27,6 @@ General Principles and Tools
 ----------------------------
 
 - :doc:`Key frames </animation/basics/key_frames>`
-- :doc:`Animation Editors </animation/editors/index>`
 - :doc:`Using The Timeline </editors/timeline>`
 - :doc:`Markers </animation/basics/markers>`
 
@@ -36,7 +35,7 @@ The Graph Editor
 ----------------
 
 - :doc:`F-Curves </editors/graph_editor/fcurves>`
-- :doc:`Editing Curves </editors/graph_editor/fcurves>`
+- :doc:`F-Curve Editing </editors/graph_editor/fcurves>`
 - :doc:`F-Curve Modifiers </editors/graph_editor/fmodifiers>`
 
 

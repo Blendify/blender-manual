@@ -410,7 +410,7 @@ For other common conventions used throughout the manual.
    Pivot Point
       Reference point used by many mesh manipulation tools.
 
-      See also :doc:`/getting_started/basics/transformations/transform_control/pivot_point/index`.
+      See also :doc:`/editors/3dview/transform/transform_control/pivot_point/index`.
 
    Pixel
       The smallest unit of information in a 2D raster image,

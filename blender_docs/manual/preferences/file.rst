@@ -81,7 +81,7 @@ Excluded Paths
    Blend files in these folders will *not* automatically run Python scripts.
    This can be used to define where blend files from untrusted sources are kept.
 
-.. seealso:: :doc:`/extensions/python/security`
+.. seealso:: :doc:`/advanced/scripting/python/security`
 
 
 Save & Load
