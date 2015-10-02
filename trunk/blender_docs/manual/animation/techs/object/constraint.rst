@@ -58,7 +58,7 @@ Let's use the *Copy Location* constraint and its *Offset* button.
 For example, you can make your owner (let's call it ``moon``)
 describe perfect circles centered on the ``(0.0, 0.0, 0.0)`` point
 (using e.g. pydriven *LocX* / *LocY* animation curves,
-see :doc:`this page </animation/basics/drivers#drivers>`),
+see :doc:`this page </animation/basics/drivers>`),
 and then make it copy the location of a target (called, I don't know... ``earth``, for example) -
 with the *Offset* button enabled.
 Congratulation, you just modeled a satellite in a (simplified) orbit around its planet...
@@ -84,7 +84,7 @@ Animating Constraints Influence
 More "classically",
 you can also animate a few properties of each constraint using animation curves.
 
-You only have two animation curves (see also: :doc:`/animation/editors/graph`):
+You only have two animation curves (see also: :doc:`/editors/graph_editor/index`):
 
 - You can animate the *Influence* of a constraint.
   For example, in the `Example`_ above, I used it to first stick the camera to the "moon", then to the "earth",

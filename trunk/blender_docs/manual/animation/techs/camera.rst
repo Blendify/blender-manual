@@ -6,10 +6,6 @@
 Animating Cameras
 *****************
 
-As of Blender 2.5, :doc:`Everything is animatable </introduction/whats_new_in_this_series#animation_system>`.
-Read more about keyframes :doc:`Here </animation/basics/key_frames>`.
-
-
 Example
 =======
 
@@ -37,5 +33,4 @@ This won't give you a fully perfect transtrav - to get such one,
 you would have to dive into trigonometric maths... But the result is visually quite satisfying.
 
 .. vimeo:: 15837189
-
 

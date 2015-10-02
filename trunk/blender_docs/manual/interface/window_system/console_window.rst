@@ -104,8 +104,9 @@ Common messages
 
 - found bundled python: (FOLDER)
 
-   This message indicates that Blender was able to find the :doc:`Python </advanced/scripting/python>` library for the Python
-   interpreter embedded within Blender. If this folder is missing or unable to be found,
+   This message indicates that Blender was able to find the :doc:`Python </advanced/scripting/index>`
+   library for the Python interpreter embedded within Blender.
+   If this folder is missing or unable to be found,
    it is likely that an error will occur, and this message will not appear.
 
 - malloc returns nil()
