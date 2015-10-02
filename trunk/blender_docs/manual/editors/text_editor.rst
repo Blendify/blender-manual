@@ -59,7 +59,7 @@ The most notable keystroke is :kbd:`Alt-P` which makes the content of the buffer
 interpreter built into Blender. The next page will present an example of Python scripting.
 Before going on it is worth noticing that Blender comes with a fully functional Python interpreter built in,
 and with a lots of Blender-specific modules,
-as described in the :doc:`API references </advanced/scripting/python/references>`.
+as described in the :doc:`API references </advanced/scripting/index>`.
 
 The *Text Editor* has now also some dedicated Python scripts,
 which add some useful writing tools, like a class/function/variable browser, completion... You

@@ -19,6 +19,14 @@ Depth Buffer Glitches
 TODO, see: http://blender.stackexchange.com/questions/1385
 
 
+Objects Invisible in Camera View
+--------------------------------
+
+If you have a large scene, viewing it through Camera View may not display all of the Objects in the scene.
+One possibility may be that the :ref:`clipping distance <camera-clipping>` of the camera is too low.
+The camera will only show objects that fall within the clipping range.
+
+
 Performance
 ===========
 

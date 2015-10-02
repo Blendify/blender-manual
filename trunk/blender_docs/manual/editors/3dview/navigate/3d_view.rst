@@ -75,16 +75,12 @@ The rendered image will contain everything within the orange dotted line.
 Zooming in and out is possible in this view, but to change the viewpoint,
 you have to move or rotate the camera.
 
-If you have a large scene, viewing it through Camera View may not display all of the Objects in the scene.
-One possibility may be that the :doc:`clipping distance </render/camera#camera_settings>` of the camera is too low.
-The camera will only show objects that fall within the clipping range.
 
+.. seealso::
 
-:doc:`Read more about Render perspectives </render/camera/lens>`
-
-:doc:`Read more about Camera View </editors/3dview/navigate/camera_view>`
-
-:doc:`Read more about Camera clipping </render/camera#camera_settings>`
+   - :doc:`Render perspectives </render/camera/lens>`
+   - :doc:`Camera View </editors/3dview/navigate/camera_view>`
+   - :ref:`Camera clipping <camera-clipping>`
 
 
 Technical Details
