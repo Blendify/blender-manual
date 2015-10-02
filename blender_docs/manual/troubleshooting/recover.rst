@@ -51,15 +51,13 @@ for you to regress to a previous version of your work.
 Save on Quit
    The function *Save on Quit* is enabled by default in Blender.
    Blender will always save your files when you quit the application under normal operation.
-
 Save Versions
    This option tells Blender to keep the indicated number of saved versions of your file in your current working
-   directory when you manually save a file. These files will have the extension: ``.blend1``, ``.blend2``, etc.,
+   directory when you manually save a file.
+   These files will have the extension: ``.blend1``, ``.blend2``, etc.,
    with the number increasing to the number of versions you specify. Older files will be named with a higher number.
    e.g. With the default setting of **2**, you will have three versions of your file: ``*.blend`` (your last save),
    ``*.blend1`` (your second last save) and ``*.blend2`` (your third last save).
-
-
 Auto Save Temporary Files
    Checking this box tells Blender to *automatically* save a backup copy of your work-in-progress to the Temp
    directory (refer to the *File* panel in the *User Preferences* window for its location).
