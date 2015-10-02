@@ -105,6 +105,8 @@ Using lens shift is equivalent to rendering an image with a larger
 :abbr:`FOV (Field of View)` and cropping it off-center.
 
 
+.. _camera-clipping:
+
 Clipping
 ========
 
