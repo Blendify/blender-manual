@@ -18,7 +18,7 @@ it is possible to translate and zoom a *Buttons* window and its panels.
 
 
 Perspective and Orthographic Views
-**********************************
+==================================
 
 .. admonition:: Reference
    :class: refbox
@@ -26,10 +26,6 @@ Perspective and Orthographic Views
    | Mode:     All modes
    | Menu:     :menuselection:`View --> Perspective` / :menuselection:`View --> Orthographic`
    | Hotkey:   :kbd:`Numpad5`
-
-
-Description
-===========
 
 Each 3D viewport supports two different types of projection.
 These are demonstrated in the *Orthographic (left) and perspective (right)
@@ -53,7 +49,7 @@ making it easier to draw and judge proportions.
 
 
 Options
-=======
+-------
 
 .. figure:: /images/3DCameraView.jpg
 
@@ -80,38 +76,12 @@ you have to move or rotate the camera.
 
    - :doc:`Render perspectives </render/camera/lens>`
    - :doc:`Camera View </editors/3dview/navigate/camera_view>`
-   - :ref:`Camera clipping <camera-clipping>`
-
-
-Technical Details
-=================
-
-Perspective definition
-----------------------
-
-A *perspective* view is geometrically constructed by taking a scene in 3D and placing an
-observer at point ``O``. The 2D perspective scene is built by placing a plane (e.g.
-a sheet of paper) where the 2D scene is to be drawn in front of point ``O``,
-perpendicular to the viewing direction.
-For each point ``P`` in the 3D scene a ``PO`` line is drawn,
-passing by ``O`` and ``P``. The intersection point ``S`` between
-this ``PO`` line and the plane is the perspective projection of that point.
-By projecting all points ``P`` of the scene you get a perspective view.
-
-
-Orthographic definition
------------------------
-
-In an *orthographic* projection,
-you have a viewing direction but not a viewing point ``O``. The line is then drawn
-through point ``P`` so that it is parallel to the viewing direction. The intersection
-``S`` between the line and the plane is the orthographic projection of the point
-``P``.
-By projecting all points ``P`` of the scene you get the orthographic view.
+   - :ref:`Camera Clipping <camera-clipping>`
+   - :term:`Camera Projections <projection>`
 
 
 Rotating the View
-*****************
+=================
 
 .. admonition:: Reference
    :class: refbox
@@ -119,10 +89,6 @@ Rotating the View
    | Mode:     All modes
    | Menu:     :menuselection:`View --> Navigation`
    | Hotkey:   :kbd:`MMB` / :kbd:`Numpad2` / :kbd:`Numpad4` / :kbd:`Numpad6` / :kbd:`Numpad8` / :kbd:`Ctrl-Alt-Wheel`
-
-
-Description
-===========
 
 .. figure:: /images/3DView.jpg
    :width: 300px
@@ -139,7 +105,7 @@ The *Camera* view shows the current scene as seen from the camera view point.
 
 
 Options
-=======
+-------
 
 You can select the viewing direction for a 3D viewport with the *View* menu entries,
 or by pressing the hotkeys :kbd:`Numpad3` for "side", :kbd:`Numpad1` for "front",
@@ -167,7 +133,7 @@ to rotate the scene around the Z global axis from your current point of view.
 
 
 TrackBall/Turntable
--------------------
+^^^^^^^^^^^^^^^^^^^
 
 By default, when you rotate the view as described above, you are using the *turntable* method.
 For some users this is intuitive and for others it is not.
@@ -200,7 +166,7 @@ the last selection will be used anyway.
 
 
 Panning the View
-****************
+================
 
 .. admonition:: Reference
    :class: refbox
@@ -211,10 +177,6 @@ Panning the View
    | :kbd:`Shift-MMB` / :kbd:`Ctrl-Numpad2` / :kbd:`Ctrl-Numpad4` /
    | :kbd:`Ctrl-Numpad6` / :kbd:`Ctrl-Numpad8` / :kbd:`Shift-Alt-LMB`
 
-
-Description
-===========
-
 To pan the view, hold down :kbd:`Shift` and drag :kbd:`MMB` in the 3D Viewport.
 For discrete steps, use the hotkeys :kbd:`Ctrl-Numpad8`, :kbd:`Ctrl-Numpad2`,
 :kbd:`Ctrl-Numpad4` and :kbd:`Ctrl-Numpad6` as with rotating (note:
@@ -224,7 +186,7 @@ you can hold :kbd:`Shift` :kbd:`Alt` while dragging with :kbd:`LMB`.
 
 
 Zooming the View
-****************
+================
 
 .. admonition:: Reference
    :class: refbox
@@ -232,10 +194,6 @@ Zooming the View
    | Mode:     All modes
    | Menu:     *View* --> *Navigation*
    | Hotkey:   :kbd:`Ctrl-MMB` / :kbd:`Wheel` / :kbd:`NumpadPlus` / :kbd:`NumpadMinus`
-
-
-Description
-===========
 
 You can zoom in and out by holding down :kbd:`Ctrl` and dragging :kbd:`MMB`.
 The hotkeys are :kbd:`NumpadPlus` and :kbd:`NumpadMinus`.
@@ -257,7 +215,7 @@ hold :kbd:`Ctrl-MMB` and move your mouse up and down.
 
 
 Zoom Border
-===========
+-----------
 
 The *Zoom Border* tool allows you to specify a rectangular region and zoom in so
 that the region fills the 3d view.
@@ -269,17 +227,13 @@ Alternatively you can zoom out using the :kbd:`MMB`.
 
 
 Dolly the View
-**************
+==============
 
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     All modes
    | Hotkey:   :kbd:`Ctrl-Shift-MMB`
-
-
-Description
-===========
 
 In most cases its sufficient to zoom the view to get a closer look at something,
 however you may notice that at a certain point you cannot zoom any closer.
@@ -293,10 +247,10 @@ You can dolly back and fourth by holding down :kbd:`Ctrl-Shift` and dragging
 
 
 Aligning the View
-*****************
+=================
 
 Align View
-==========
+----------
 
 These options allow you to align and orient the view in different ways.
 They are found in the *View Menu*
@@ -324,7 +278,7 @@ View All :kbd:`Home`
 
 
 Local and Global View
-*********************
+=====================
 
 You can toggle between *Local* and *Global* view by selecting the option
 from the *View Menu* or using the shortcut :kbd:`NumpadSlash`.
@@ -335,7 +289,7 @@ Press :kbd:`NumpadSlash` to return to *Global View*.
 
 
 Quad View
-*********
+=========
 
 .. admonition:: Reference
    :class: refbox
@@ -366,7 +320,7 @@ However in sometimes its preferable to split the view, so each can have its own 
 
 
 View Clipping Border
-********************
+====================
 
 .. admonition:: Reference
    :class: refbox
@@ -374,10 +328,6 @@ View Clipping Border
    | Mode:     All modes
    | Menu:     :menuselection:`View --> Set Clipping Border`
    | Hotkey:   :kbd:`Alt-B`
-
-
-Description
-===========
 
 .. figure:: /images/3D_Interaction-Navigating-3D_view-Region_Clipping.jpg
    :width: 340px
@@ -403,7 +353,7 @@ To delete this clipping, press :kbd:`Alt-B` again.
 
 
 Example
-=======
+-------
 
 The *Region/Volume clipping* image shows an example of using the clipping tool with a cube.
 Start by activating the tool with :kbd:`Alt-B` (upper left of the image).
@@ -420,17 +370,13 @@ all of 3D space will become visible again.
 
 
 View Navigation
-***************
+===============
 
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     All modes
    | Hotkey:   :kbd:`Shift-F`
-
-
-Description
-===========
 
 When you have to place the view, normally you do as described above.
 
