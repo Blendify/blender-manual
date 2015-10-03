@@ -9,6 +9,4 @@
 
    action.rst
    dope_sheet.rst
-   grease_pencil.rst
    shapekey.rst
-
