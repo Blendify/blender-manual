@@ -21,8 +21,8 @@ Drawing With Grease Pencil
 *Grease Pencil* sketches can be converted to editable geometry and used to aid the animation process.
 
 
-- :doc:`Read more about Layers and Animation </grease_pencil/layers_and_animation>`
-- :doc:`Read more about Converting sketches to geometry </grease_pencil/converting_to_geometry>`
+- :doc:`Read more about Layers and Animation </interface/grease_pencil/layers_and_animation>`
+- :doc:`Read more about Converting sketches to geometry </interface/grease_pencil/converting_to_geometry>`
 
 
 Drawing
@@ -200,7 +200,7 @@ Edit
    - Points - delete the selected points, leaving a gap in the stroke
    - Dissolve - reconnect the ends so there is no gap in the stroke
    - Strokes - delete the entire stroke containing any selected points
-   - Frame - delete a frame when doing :doc:`Animation of the Sketches </grease_pencil/layers_and_animation>`.
+   - Frame - delete a frame when doing :doc:`Animation of the Sketches </interface/grease_pencil/layers_and_animation>`.
 *Duplicate* (:kbd:`Shift-D`)
    Make a copy of the selected points at the same location. Use the mouse to *Translate* them into position.
    :kbd:`LMB` places them at their new position.

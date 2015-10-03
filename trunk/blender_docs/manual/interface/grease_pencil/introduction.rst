@@ -18,7 +18,7 @@ and use as director's shot review tool are just a few of the applications.
 
 The next few pages explain how to use this tool:
 
-- :doc:`Drawing sketches </grease_pencil/drawing>`.
-- :doc:`Layers and Animation </grease_pencil/layers_and_animation>`.
-- :doc:`Converting sketches to geometry </grease_pencil/converting_to_geometry>`.
+- :doc:`Drawing sketches </interface/grease_pencil/drawing>`.
+- :doc:`Layers and Animation </interface/grease_pencil/layers_and_animation>`.
+- :doc:`Converting sketches to geometry </interface/grease_pencil/converting_to_geometry>`.
 

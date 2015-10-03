@@ -30,7 +30,7 @@ even though more powerful in some ways) - and, more interesting,
 it can show you all "action" FCurve datablocks of a same object at once.
 
 Additionally, it also allows you to affect timing of the different keys of the layers created with the
-:doc:`grease pencil tool </grease_pencil/introduction>`.
+:doc:`grease pencil tool </interface/grease_pencil/introduction>`.
 
 Each "action" FCurve datablock forms a top-level channel (see below).
 Note that an object can have several *Constraint* (one per animated constraint)
