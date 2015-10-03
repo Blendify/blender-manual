@@ -255,7 +255,7 @@ WardIso is a flexible specular shader that can be useful for metal or plastic.
 
 Gregory J. Ward
    developed a relatively simple model that obeyed the most basic laws of physics. In his 1992 paper,
-   *Measuring and modeling anisotropic re?ection,* Ward introduced a Bidirectional Re?ectance Distribution Function
+   *Measuring and modeling anisotropic reaection,* Ward introduced a Bidirectional Re?ectance Distribution Function
    (BRDF) since then widely used in computer graphics because the few parameters it uses are simple to control.
    His model could represent both isotropic surfaces (independent of light direction) and anisotropic surfaces
    (direction dependent). In Blender,

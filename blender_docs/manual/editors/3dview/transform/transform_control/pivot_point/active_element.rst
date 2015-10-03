@@ -80,7 +80,6 @@ Let's review each case:
 
 - *Faces* have their pivot point where their selection dot appears, which is where the median of their vertices is.
 - *Edges* have their pivot point on their middle since this is always where the median of an edge is.
-- :doc:`Fgons </modeling/meshes/mesh_structures#fgons>` behave the same as faces.
 - A single *Vertex* has no dimensions at all so it can't show any transformation
   (except translation, which is not affected by the pivot point).
 

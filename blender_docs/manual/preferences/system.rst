@@ -183,16 +183,19 @@ Collection Rate
 Sequencer/Clip Editor
 =====================
 
-Prefetch Frames
-   Number of frames to render ahead during playback.
-   Useful when the chosen video codec cannot sustain screen frame rates
-   correctly using direct rendering from the disk to video.
-   duting video playbacks or editing operations.
-   Minimum: **0** , Maximum: **500** , Default: **0** (No prefecth)
+..
+   NOTE: this is currently commented out in the code.
+   Prefetch Frames
+      Number of frames to render ahead during playback.
+      Useful when the chosen video codec cannot sustain screen frame rates
+      correctly using direct rendering from the disk to video.
+      During video playbacks or editing operations.
+      Minimum: **0** , Maximum: **500** , Default: **0** (No pre-fetch).
+
 Memory Cache Limit
    Upper limit of the sequencer's memory cache (megabytes).
    For optimum clip editor and sequencer performance, high values are recommended.
-   Minimum: **0** (No cache) , Maximum: **1024** (1 Gigabyte) , Default: **128**
+   Minimum: **0** (No cache) , Maximum: **1024** (1 Gigabyte), Default: **128**
 
 
 Solid OpenGL lights
