@@ -150,7 +150,7 @@ as well as provide additional controls such as pressure sensitivity.
    try to place the mouse pointer in the Blender window and then unplug/replug your graphic tablet. This might help.
 
 
-Numpad emulation
+Numpad Emulation
 ================
 
 The Numpad keys are used quite often in Blender and are not the same keys as the regular
@@ -159,14 +159,22 @@ you can tell Blender to treat the standard number keys as Numpad keys.
 Just check *Emulate Numpad*.
 
 
-View manipulation
+View Manipulation
 =================
+
+.. _preferences-input-orbit_style:
 
 Orbit Style
    Select how Blender works when you rotate the 3D view by default when holding :kbd:`MMB`.
 
    Turntable
       Rotates the view keeping the horizon horizontal.
+
+      This behaves like a potters wheel or record player where you have two axes of rotation available,
+      and the world seems to have a better definition of what is "Up" and "Down" in it.
+
+      The drawback to using the *Turntable* style is that you lose some flexibility when working with your objects.
+      However, you gain the sense of "Up" and "Down" which can help if you are feeling disoriented.
    Orbit
       Is less restrictive, allowing any orientation.
 Zoom Style

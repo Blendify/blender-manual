@@ -51,9 +51,19 @@ Zoom to Mouse Position
    Helpful to avoid panning if you are frequently zooming in and out.
 Rotate Around Selection
    The selected object becomes the rotation center of the viewport.
+   When there is no selection the last selection will be used.
+
+   .. hint::
+
+      This may seem ideal behavior,
+      however it can become problematic with larger objects such as a terrain-mesh,
+      where the center isn't necessarily your point of interest.
+
 Global Pivot
    Lock the same rotation/scaling pivot in all 3D views.
 Auto Perspective
+   .. _preferences-interface-auto_perspective:
+
    Automatically to perspective Top/Side/Front view after using User Orthographic.
    When disabled, Top/Side/Front views will retain Orthographic or Perspective view
    (whichever was active at the time of switching to that view).

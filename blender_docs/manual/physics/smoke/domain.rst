@@ -6,8 +6,8 @@ The domain object contains the entire simulation. Smoke and fire cannot leave th
 the edge or disappear, depending on the domain's settings.
 
 Keep in mind that large domains require higher resolutions and longer bake times.
-You'll want to make it just large enough that the simulation will fit inside it, but not so large that it takes too long
-to compute the simulation.
+You'll want to make it just large enough that the simulation will fit inside it,
+but not so large that it takes too long to compute the simulation.
 
 
 To create a domain, add a cube (:kbd:`Shift-A` :menuselection:`Add --> Mesh --> Cube`) and transform it until it
@@ -45,12 +45,15 @@ Resolution
 
 
 Time Scale
-   Controls the speed of the simulation. Low values result in a "slow motion" simulation, while higher values can be
-   used to advance the simulation faster (useful for generating smoke for use in still renders).
+   Controls the speed of the simulation.
+   Low values result in a "slow motion" simulation,
+   while higher values can be used to advance the simulation faster
+   (useful for generating smoke for use in still renders).
 
 Border Collisions
-   Controls which sides of the domain will allow smoke "through" the domain, making it disappear without influencing the
-   rest of the simulation, and which sides will deflect smoke as if colliding with a
+   Controls which sides of the domain will allow smoke "through" the domain,
+   making it disappear without influencing the rest of the simulation,
+   and which sides will deflect smoke as if colliding with a
    :doc:`Collision Object</physics/smoke/collisions>`.
 
    Vertically Open
@@ -76,10 +79,11 @@ Temp. Diff.
    The effect this setting has on smoke depends on the
    :ref:`per flow object *Temp. Diff.* setting <smoke-flow-temp-diff>`:
 
-   * Values above 0 will result in the smoke rising when the flow object *Temp. Diff.* is set to a positive value, and
-     smoke sinking when the flow object *Temp. Diff.* is set to a negative value.
-   * Values below 0 will result in the opposite of positive values, i.e. smoke emitted from flow objects with a positive
-     *Temp. Diff.* will sink, and smoke from flow objects with a negative *Temp. Diff.* will rise.
+   - Values above 0 will result in the smoke rising when the flow object *Temp. Diff.* is set to a positive value,
+     and smoke sinking when the flow object *Temp. Diff.* is set to a negative value.
+   - Values below 0 will result in the opposite of positive values, i.e.
+     smoke emitted from flow objects with a positive *Temp. Diff.* will sink,
+     and smoke from flow objects with a negative *Temp. Diff.* will rise.
 
    Note that smoke from multiple flow objects with different temperatures will mix and warm up/cool down until an
    equilibrium is reached.
@@ -182,6 +186,7 @@ Strength
 
       From left to right, the domains' high resolution strengths are set to 0, 2, and 6.
 
+
 Smoke Groups
 ============
 
@@ -190,8 +195,9 @@ Flow Group
    this domain.
 
 Collision Group
-   If set, only objects in the specified :ref:`Group <grouping-objects>` will be allowed to act as collision objects in
-   this domain.
+   If set, only objects in the specified :ref:`Group <grouping-objects>`
+   will be allowed to act as collision objects in this domain.
+
 
 Smoke Cache
 ===========

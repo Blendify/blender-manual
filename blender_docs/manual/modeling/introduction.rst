@@ -48,9 +48,10 @@ that control generated object.
 Scripted Modeling
 =================
 
-Since Blender functionality is :doc:`extensible via Python scripting </advanced/scripting/index>`, there are a number of very useful scripts that assist
-you in modeling. They may give you new mesh primitives to work with, or apply some fancy manipulation of the meshes
-that you are already working with.
+Since Blender functionality is :doc:`extensible via Python scripting </advanced/scripting/index>`,
+there are a number of very useful scripts that assist you in modeling.
+They may give you new mesh primitives to work with,
+or apply some fancy manipulation of the meshes that you are already working with.
 
 Modeling scripts are generally more advanced, but also less frequently used
 programmatic effects that can be a huge time saver in certain cases.

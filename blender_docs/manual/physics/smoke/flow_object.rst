@@ -64,8 +64,9 @@ Source
       With this option selected there is a box to select a particle system and one addition setting, *Set Size*.
 
          Set Size
-            When this setting is enabled it allows the *Size* setting to define the maximum distance in voxels at which
-            particles can emit smoke, similar to the :ref:`*Surface* <smoke-flow-surface>` setting for mesh sources.
+            When this setting is enabled it allows the *Size* setting to define
+            the maximum distance in voxels at which particles can emit smoke,
+            similar to the :ref:`*Surface* <smoke-flow-surface>` setting for mesh sources.
 
             When disabled, particles will fill the nearest :term:`voxel` with smoke.
 
@@ -76,7 +77,8 @@ Initial Velocity
       Multiplier for inherited velocity. A value of 1 will emit smoke moving at the same speed as the source.
 
    Normal
-      When using a mesh source, this option controls how much velocity smoke is given along the source's :term:`normal`.
+      When using a mesh source,
+      this option controls how much velocity smoke is given along the source's :term:`normal`.
 
 
 Initial Values
@@ -131,8 +133,8 @@ Use Texture
    When enabled, use the specified texture to control where smoke is emitted.
 
 Vertex Group
-   When set, use the specified :doc:`Vertex Group </modeling/meshes/vertex_groups/vertex_groups>` to control where smoke
-   is emitted.
+   When set, use the specified :doc:`Vertex Group </modeling/meshes/vertex_groups/vertex_groups>`
+   to control where smoke is emitted.
 
 These settings are useful for effects like this:
 

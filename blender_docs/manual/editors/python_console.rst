@@ -178,7 +178,7 @@ bpy.context.selected_objects
 
    >>> bpy.context.selected_objects
 
-... then press :kbd:`Ctrl-Space`
+... then press :kbd:`Ctrl-Spacebar`
 
 .. code-block:: python
 

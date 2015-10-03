@@ -5,8 +5,9 @@
 Introduction
 ************
 
-Smoke simulation is used to simulate the fluid movement of air and generate animated :term:`voxel` textures representing
-the density, heat, and velocity of other fluids or suspended particles (i.e. smoke) which can be used for rendering.
+Smoke simulation is used to simulate the fluid movement of air and generate animated
+:term:`voxel` textures representing the density, heat, and velocity of other fluids or suspended particles
+(i.e. smoke) which can be used for rendering.
 
 .. add pretty smoke/fire render here?
 
@@ -34,7 +35,7 @@ A basic workflow looks like this:
 
    There is a *Quick Smoke* operator which will automatically create a domain object with a basic smoke/fire material.
    It can be found in :menuselection:`3D View --> Object --> Quick Effects --> Quick Smoke`,
-   or in the :kbd:`Space` search box.
+   or in the :kbd:`Spacebar` search box.
 
 Technical information
 =====================

@@ -103,6 +103,6 @@ Blender allows for storing and managing multiple caches at once for the same phy
 
 	Two different caches stored simultaneously.
 
-Caches can be added and removed with the :kbd:`+` and :kbd:`-` buttons.
+Caches can be added and removed with the :kbd:`Plus` and :kbd:`Minus` buttons.
 Renaming a cache can be done by either double clicking or pressing :kbd:`Ctrl-LMB` on the desired
 cache.
