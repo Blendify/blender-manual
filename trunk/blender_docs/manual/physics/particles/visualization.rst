@@ -221,7 +221,7 @@ WholeGroup
    Use the whole group at once, instead of one of its elements, the group being displayed in place of each particle.
 Use Count
    Use objects multiple times in the same groups.
-   Specify the order and nuber of times to repeat each object with the list box that appears.
+   Specify the order and number of times to repeat each object with the list box that appears.
    You can duplicate an object in the list with the :kbd:`Plus` button,
    or remove a duplicate with the :kbd:`Minus` button.
 

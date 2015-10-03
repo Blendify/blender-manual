@@ -23,7 +23,7 @@ Min/Max
    :kbd:`Shift-LMB` on the value to change it.
 
    - If *Min* is enabled and the value is less than *Min*, set the output value to *Min*.
-   - If *Max* is enabled and the input value is greater than Max, set the ouput value to *Max*.
+   - If *Max* is enabled and the input value is greater than *Max*, set the output value to *Max*.
 
 This is particularly useful in achieving a depth-of-field effect,
 where you can use the Map Value node to map a Z value
@@ -35,11 +35,11 @@ Using Map Value to Multiply values
 ==================================
 
 You can also use the map value node to multiply values to achieve an output number that you
-desire. In the mini-map to the right, the Time node ouputs a value between 0.00 and 1.
+desire. In the mini-map to the right, the Time node outputs a value between 0.0 and 1.
 00 evenly scaled over 30 frames. The *first* Map Value node multiplies the input by 2,
-resulting in an output value that scales from 0.00 to 2.00 over 30 frames.
+resulting in an output value that scales from 0.0 to 2.0 over 30 frames.
 The *second* Map Value node subtracts 1 from the input,
-giving working values between -1.00 and 1.00, and multiplies that by 150,
+giving working values between -1.00 and 1.0, and multiplies that by 150,
 resulting in an output value between -150 and 150 over a 30-frame sequence.
 
 

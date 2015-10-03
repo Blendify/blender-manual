@@ -347,4 +347,5 @@ meshes.
    :align: right
 
 Tolerance
-   Measure for how close points have te to each other to be merged. A higher tolerance means more vertices are merged.
+   Measure for how close points have to be to each other to be merged.
+   A higher tolerance means more vertices are merged.
