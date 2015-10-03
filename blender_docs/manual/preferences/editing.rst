@@ -77,7 +77,7 @@ Memory Limit
 Grease Pencil
 =============
 
-Grease Pencil permits you to draw in the 3D viewport with a pencil-like tool.
+:doc:`Grease Pencil </interface/grease_pencil/index>` permits you to draw in the 3D viewport with a pencil-like tool.
 
 Manhattan Distance
    The minimum number of pixels the mouse has to move horizontally or vertically before the movement is recorded.
@@ -157,4 +157,3 @@ If you leave the mesh box unchecked then when you change the mesh of one object,
 the change will be mirrored in the duplicate Object.
 
 The same rules apply to each of the check-boxes in the 'Duplicate Data' list.
-
