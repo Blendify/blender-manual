@@ -131,38 +131,10 @@ to rotate the scene around the Z global axis from your current point of view.
    Remember that most hotkeys affect **the active window** (the one that has focus),
    so check that the mouse cursor is in the area you want to work in before your use the hotkeys.
 
+.. seealso::
 
-TrackBall/Turntable
-^^^^^^^^^^^^^^^^^^^
-
-By default, when you rotate the view as described above, you are using the *turntable* method.
-For some users this is intuitive and for others it is not.
-If you feel you are having difficulties with this style of 3D window rotation
-you can switch to the *trackball* style.
-With the trackball style you are rotating the scene as though you are rolling your hand across a *trackball*.
-
-The *turntable* style is fashioned more like a record player where you have two axes
-of rotation available,
-and the world seems to have a better definition of what is "Up" and "Down" in it. The downside
-to using the *Turntable* style is that you lose some flexibility when working with
-your objects. However,
-you gain the sense of "Up" and "Down" which can help if you are feeling disoriented.
-Of course you can always switch between the styles depending on what you are working on.
-
-
-.. figure:: /images/Interface-Navigating-InfoWindow-ViewRotation.jpg
-
-   View rotation.
-
-
-To change the rotation "style", use the :doc:`User Preferences window </preferences/index>`.
-Click on the *Input* button and you will see an option for choosing the Orbit style.
-There are two additional checkboxes for controlling the display in the 3D window in the *Interface* tab in
-the *User Preferences*.
-*Auto Perspective* will automatically switch to perspective whenever the view is rotated using :kbd:`MMB`.
-*Rotate Around Selection* will rotate the view around the center of the current selection.
-If there is no selection at that moment (e.g. if you used :kbd:`A` to deselect everything),
-the last selection will be used anyway.
+   - :ref:`Orbit Style Preference <preferences-input-orbit_style>`
+   - :ref:`Auto-Perspective Preference <preferences-interface-auto_perspective>`
 
 
 Panning the View
@@ -206,7 +178,7 @@ To zoom a *Buttons* window,
 hold :kbd:`Ctrl-MMB` and move your mouse up and down.
 
 
-.. note:: If You Get Lost
+.. hint:: If You Get Lost
 
    If you get lost in 3D space, which is not uncommon, two hotkeys will help you:
    :kbd:`Home` changes the view so that you can see all objects (:menuselection:`View --> View All` menu entry),
@@ -369,14 +341,8 @@ Once clipping is deactivated with another :kbd:`Alt-B`,
 all of 3D space will become visible again.
 
 
-View Navigation
-===============
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     All modes
-   | Hotkey:   :kbd:`Shift-F`
+Walk/Fly Mode
+=============
 
 When you have to place the view, normally you do as described above.
 
@@ -388,9 +354,7 @@ or you apparently cannot move the camera any nearer. As an example,
 try to navigate to a very distant object in the view with traditional methods
 (explained above) and see what you can get.
 
-With :doc:`Walk mode </editors/3dview/navigate/3d_view#walk_mode>` and
-:doc:`Fly mode </editors/3dview/navigate/3d_view#fly_mode>` you move, pan and tilt,
-and dolly the camera around without any of those limitations.
+With walk/fly modes you move, pan, tilt, and dolly the camera around without any of those limitations.
 
 
 .. figure:: /images/3D_Interaction-Navigating-3D_view-Navigation_Mode.jpg
@@ -403,4 +367,99 @@ In the :doc:`User Preferences window </preferences/index>`
 select the navigation mode you want to use as default when invoking the View Navigation operator.
 Alternatively you can call the individual modes from the View Navigation menu.
 
+.. note::
+
+   This mode actually *moves* the camera used by the view.
+   This means that when you are in camera view,
+   it moves the active camera'', which is another way to place and aim it.
+
+
+Walk Mode
+---------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All modes
+   | Menu:     :menuselection:`View --> View Navigation --> Walk Navigation`
+   | Hotkey:   :kbd:`Shift-F`
+
+Usage
+^^^^^
+
+On activation the mouse pointer will move at the center of the view,
+and a cross marker will appear...
+
+This navigation mode behaves similar to the first person navigation system available in most 3d world games nowadays.
+It works with a combination of keyboard keys (:kbd:`W`:kbd:`A`:kbd:`S`:kbd:`D`) and mouse movement.
+By default the navigation is in the 'free' mode, with no gravity influence.
+You can toggle between gravity and free mode during the navigation (:kbd:`Tab`). 
+
+To move to places more quickly you can teleport (:kbd:`Spacebar`) around your scene.
+If there is an object in front of the walk cross/aim you will move in that direction until you reach the point
+(offset by the 'camera height' value set in the [Doc:2.6/Manual/Preferences|User Preferences window]]).
+
+Shortcuts
+^^^^^^^^^
+
+- Move the mouse left/right to pan the view left/right or move it up/down to tilt the view up/down.
+- Move the camera forward/backward (:kbd:`W`/:kbd:`S`).
+- Strafe left/right (:kbd:`A`/:kbd:`D`).
+- Jump (:kbd:`V`) - only in 'gravity' mode.
+- Move up and down (:kbd:`Q`/:kbd:`E`) - only in 'free' mode.
+- Alternate between 'free' and 'gravity' modes (:kbd:`Tab`).
+- Change the movement speed:
+  - :kbd:`WheelUp` or :kbd:`NumpadPlus`} to increase the movement speed for this open session
+  - :kbd:`WheelDown` or to :kbd:`NumpadMinus`} to decrease the movement speed for this open session
+  - :kbd:`Shift` (hold) - to speed up the movement temporarily
+  - :kbd:`Alt` (hold) - to slow down the movement temporarily
+
+
+When you are happy with the new view, click :kbd:`LMB` to confirm.
+In case you want to go back from where you started, press :kbd:`Esc` or :kbd:`RMB`, as usual.
+
+If the defaults values (speed, mouse sensitivity, ...) need adjustments for your project,
+in the [[Doc:2.6/Manual/Preferences|User Preferences window]] you can select a few options for the navigation system:
+
+
+Fly Mode
+--------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All modes
+   | Menu:     :menuselection:`View --> View Navigation --> Fly Navigation`
+   | Hotkey:   :kbd:`Shift-F`
+
+
+Usage
+^^^^^
+
+On activation the mouse pointer will move at the center of the view,
+and a squared marker will appear – a sort of HUD...
+
+Some of the options of Fly mode are influenced by the position of the
+mouse pointer relative to the center of the view itself,
+and the squared marker around this center provides a sort of
+"safe region" where you can place the mouse for it to have no effect on the view.
+The more you take the mouse pointer away from the marker, the more you pan, or track, etc.
+
+
+Shortcuts
+^^^^^^^^^
+
+- Move the mouse left/right to pan the view left/right or move it up/down to tilt the view up/down.
+- Move the view forward/backward:
+  - :kbd:`WheelUp` or :kbd:`NumpadPlus`} to accelerate the movement forward.
+  - :kbd:`WheelDown` or to :kbd:`NumpadMinus`} to accelerate the movement backward.
+
+    So if the view is already moving forward,
+    :kbd:`WheelDown`/:kbd:`NumpadMinus`} will eventually stop it and then move it backward, etc.
+- Drag the :kbd:`MMB` to dolly.
+  In this case the view can move laterally on its local axis at the moment you drag the mouse – quite obviously,
+  dragging left/right/up/down makes the view dolly on the left/right/up/down respectively.
+
+When you are happy with the new view, click :kbd:`LMB` to confirm.
+In case you want to go back from where you started, press :kbd:`Esc` or :kbd:`RMB`, as usual.
 

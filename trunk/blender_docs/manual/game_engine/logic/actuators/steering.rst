@@ -2,7 +2,8 @@
 Steering Actuator
 *****************
 
-The steering actuator moves an object towards a target object, with options to seek, flee, or follow a path. This actuator will not actually try to avoid obstacles by deviating the objects course.
+The steering actuator moves an object towards a target object, with options to seek, flee, or follow a path.
+This actuator will not actually try to avoid obstacles by deviating the objects course.
 
 See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
 

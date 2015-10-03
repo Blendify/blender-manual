@@ -122,7 +122,9 @@ Ray Depth
    Number of times the ray has "bounced", i.e. been reflected or transmitted on interaction with a surface.
 
    .. note::
-      Passing through a transparent shader :ref:`does not count as a normal "bounce" <render-cycles-light_paths-transparency>`.
+
+      Passing through a transparent shader
+      :ref:`does not count as a normal "bounce" <render-cycles-light_paths-transparency>`.
 
 Transparent Depth
    Number of times the ray has passed through a transparent shader.
@@ -216,7 +218,8 @@ From Dupli
    .. figure:: /images/cycles_nodes_from_dupli_comparison.png
 
       From left to right: Sphere with UV mapped texture.
-      Small spheres duplicated to the faces of the textured sphere using :doc:`duplifaces </modeling/objects/duplication/duplifaces>`.
+      Small spheres duplicated to the faces of the textured sphere using
+      :doc:`duplifaces </modeling/objects/duplication/duplifaces>`.
       Small spheres with *From Dupli* enabled, using the UV map of the large sphere.
 
    .. note::
@@ -234,7 +237,8 @@ Unlike the `Texture Coordinate`_ node which only provides the active UV map,
 this node can retrieve any UV map belonging to the object using the material.
 
 From Dupli
-   See the :ref:`From Dupli <cycles-nodes-input-texture-coordinate-from-dupli>` option of the *Texture Coordinate node*.
+   See the :ref:`From Dupli <cycles-nodes-input-texture-coordinate-from-dupli>`
+   option of the *Texture Coordinate node*.
 
 UV Map
    UV map to use.
