@@ -37,7 +37,7 @@ There are four basic views for the Dopesheet.These all view different contexts o
    It uses/edits the same action datablock as the previous mode.
    It seems to be an old and useless thing,
    as the *Action Editor* mode handles *Shape* channels very well, and this mode adds nothing...
-:doc:`Grease Pencil </editors/dope_sheet/grease_pencil>`
+:doc:`Grease Pencil </interface/grease_pencil/index>`
    *Grease Pencil* is dedicated to the
    :doc:`grease pencil tool's </interface/grease_pencil/layers_and_animation>` keyframes -
    for each grease pencil layer, you have a strip along which you can grab its keys,
