@@ -43,7 +43,7 @@ Properties Panel
    Toggles the *Properties* side panel (:kbd:`N`), which allows you to tweak many 3D view settings:
 
    - :doc:`Transform </modeling/objects/editing>`
-   - :doc:`Grease Pencil </grease_pencil/introduction>`
+   - :doc:`Grease Pencil </interface/grease_pencil/introduction>`
    - :doc:`View </getting_started/basics/navigating/3d_view_options>`
    - :doc:`Item </getting_started/basics/navigating/3d_view_options>`
    - :doc:`Display </getting_started/basics/navigating/3d_view_options>`

@@ -36,7 +36,6 @@ Sections
    Physics <physics/index.rst>
    Rendering </render/index.rst>
    Compositing <composite_nodes/index.rst>
-   Grease Pencil <grease_pencil/index.rst>
    Game Engine <game_engine/index.rst>
    User Preferences <preferences/index.rst>
    Advanced <advanced/index.rst>
