@@ -188,8 +188,9 @@ Perlin Noise 1D
 ---------------
 
 
-The *Perlin Noise 1D* modifier adds one-dimensional Perlin noise to the stroke. The curvilinear abscissa (value between
-0 and 1 determined by a point's position relative to the first and last point of a stroke) is used as the input to the
+The *Perlin Noise 1D* modifier adds one-dimensional Perlin noise to the stroke.
+The curvilinear abscissa (value between 0 and 1 determined by a point's position
+relative to the first and last point of a stroke) is used as the input to the
 noise function to generate noisy displacements.
 
 This means that this modifier will give an identical result for two strokes with the same length and sampling
@@ -291,8 +292,9 @@ Phase
 Spatial Noise
 -------------
 
-The *Spatial Noise* modifier adds some spatial noise to the stroke.  Spatial noise displacements are added in the normal
-direction (i.e., the direction perpendicular to the tangent line) evaluated at each stroke vertex.
+The *Spatial Noise* modifier adds some spatial noise to the stroke.
+Spatial noise displacements are added in the normal direction
+(i.e., the direction perpendicular to the tangent line) evaluated at each stroke vertex.
 
 .. figure:: /images/render-freestyle-Line_Style_Geometry_Spatial_Noise.jpg
    :width: 300px
