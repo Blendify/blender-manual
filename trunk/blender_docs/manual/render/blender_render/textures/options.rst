@@ -72,14 +72,14 @@ Texture Type
 Choose the type of texture that is used for the current texture datablock.
 
 
-- :doc:`Procedural Textures </render/blender_render/textures/types/procedural>`
+- :doc:`Procedural Textures </render/blender_render/textures/types/procedural/introduction>`
 - :doc:`Image </render/blender_render/textures/types/image>` and
   :doc:`Video </render/blender_render/textures/types/video>` Textures
 - :doc:`Environment Map </render/blender_render/textures/mapping/environment>`
-- :doc:`Volume Textures </render/blender_render/textures/types/volume>`
+- :doc:`Volume Textures </render/blender_render/textures/types/volume/index>`
 - Ocean Texture
 
-These types are described in detail :doc:`in this section </render/blender_render/textures/types>`.
+These types are described in detail :doc:`in this section </render/blender_render/textures/types/introduction>`.
 
 
 Preview
@@ -142,7 +142,7 @@ Here you can control how the texture will be mapped on the object.
    These options are not available for brushes because they wouldn't make sense
 
 
-See :doc:`Mapping </render/blender_render/textures/mapping>` section for details.
+See :doc:`Mapping </render/blender_render/textures/mapping/introduction>` section for details.
 
 
 Influence

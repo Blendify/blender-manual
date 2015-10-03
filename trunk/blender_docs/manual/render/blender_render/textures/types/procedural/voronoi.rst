@@ -1,6 +1,6 @@
 
 ****************************
-Procedural textures: Voronoi
+Voronoi
 ****************************
 
 .. figure:: /images/Textures-Procedural-Voronoi.jpg

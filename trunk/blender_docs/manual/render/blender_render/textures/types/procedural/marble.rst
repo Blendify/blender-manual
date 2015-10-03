@@ -1,6 +1,6 @@
 
 ***************************
-Procedural textures: Marble
+Marble
 ***************************
 
 .. figure:: /images/Textures-Procedural-Marble.jpg

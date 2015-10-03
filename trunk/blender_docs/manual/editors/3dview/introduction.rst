@@ -63,7 +63,7 @@ For more information on specific tools available, see:
 - :doc:`Sculpting </modeling/meshes/editing/sculpt_mode>`
 - :doc:`Vertex Painting </render/blender_render/materials/special_effects/vertex_paint>`
 - :doc:`Weight Painting </modeling/meshes/vertex_groups/weight_paint_tools>`
-- :doc:`Texture Painting </render/blender_render/textures/painting>`
+- :doc:`Texture Painting </render/blender_render/textures/painting/introduction>`
 
 
 Properties Region

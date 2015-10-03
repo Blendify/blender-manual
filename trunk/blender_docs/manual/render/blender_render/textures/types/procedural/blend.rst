@@ -1,6 +1,6 @@
 
 **************************
-Procedural textures: Blend
+Blend
 **************************
 
 .. figure:: /images/Textures-Procedural-Blend.jpg
@@ -42,4 +42,3 @@ Radial
    A radial progression
    **Horizontal** / **Vertical**
    The direction of the progression is flipped a quarter turn.
-
