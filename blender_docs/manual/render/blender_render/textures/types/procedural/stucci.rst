@@ -1,6 +1,6 @@
 
 ***************************
-Procedural textures: Stucci
+Stucci
 ***************************
 
 .. figure:: /images/Textures-Procedural-Stucci.jpg

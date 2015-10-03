@@ -1,6 +1,6 @@
 
 ************************************
-Procedural textures: Distorted Noise
+Distorted Noise
 ************************************
 
 .. figure:: /images/Textures-Procedural-DistNoise.jpg
@@ -28,4 +28,3 @@ Noise
    The size of the noise generated
 Distortion
    The amount that *Distortion Noise* affects *Basis*
-

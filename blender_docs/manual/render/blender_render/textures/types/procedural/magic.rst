@@ -1,6 +1,6 @@
 
 **************************
-Procedural textures: Magic
+Magic
 **************************
 
 .. figure:: /images/Textures-Procedural-Magic.jpg

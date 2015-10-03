@@ -1,6 +1,6 @@
 
 **************************
-Procedural textures: Noise
+Noise
 **************************
 
 .. figure:: /images/Textures-Procedural-Noise.jpg

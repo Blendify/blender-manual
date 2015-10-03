@@ -20,7 +20,7 @@ In Blender, *Texture* s can be:
 - applied to the :doc:`World Background </render/blender_render/world/background>`
 - applied to a *Brush*, see for example:
   - :doc:`Sculpt Mode </modeling/meshes/editing/sculpt_mode>`
-  - :doc:`Painting the Texture </render/blender_render/textures/painting>`
+  - :doc:`Painting the Texture </render/blender_render/textures/painting/introduction>`
 - associated with *Modifiers*, see:
   - Particles textures
   - Ocean textures
@@ -74,7 +74,7 @@ under different lighting conditions, and so forth.
 Blender allows you to achieve this in many ways.
 You can use "a stack of texture layers" as described in :doc:`this section </render/blender_render/textures/options>`,
 or you can also use arbitrarily-complex networks ("noodles"...)
-of "texture nodes" as discussed :doc:`here </render/blender_render/textures/types/nodes>`; the choice is yours.
+of "texture nodes" as discussed :doc:`here </render/blender_render/textures/types/nodes/introduction>`; the choice is yours.
 
 
 Materials Textures fall into three primary categories:
@@ -168,7 +168,7 @@ that has been unwrapped and assigned an image of user defined size.
    Applied Brush texture in different painting modes
 
 
-- Brush textures can be used to :doc:`paint </render/blender_render/textures/painting>` textures.
+- Brush textures can be used to :doc:`paint </render/blender_render/textures/painting/introduction>` textures.
 - Brush textures can be used to :doc:`paint </render/blender_render/materials/special_effects/vertex_paint>` vertices.
 - Brush textures can also be used in :doc:`sculpting </modeling/meshes/editing/sculpt_mode>` to create topology.
 

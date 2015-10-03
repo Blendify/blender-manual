@@ -1,6 +1,6 @@
 
 ***************************
-Procedural textures: Clouds
+Clouds
 ***************************
 
 .. figure:: /images/Textures-Procedural-Clouds.jpg
@@ -42,5 +42,3 @@ A three-dimensional table with pseudo-random values is used,
 from which a fluent interpolation value can be calculated with each 3D coordinate
 (thanks to Ken Perlin for his masterful article "An Image Synthesizer",
 from the SIGGRAPH proceedings 1985). This calculation method is also called Perlin Noise.
-
-

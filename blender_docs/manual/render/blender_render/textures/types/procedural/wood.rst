@@ -1,6 +1,6 @@
 
 *************************
-Procedural textures: Wood
+Wood
 *************************
 
 .. figure:: /images/Textures-Procedural-Wood.jpg

@@ -1,6 +1,6 @@
 
 *****************************
-Procedural textures: Musgrave
+Musgrave
 *****************************
 
 .. figure:: /images/Textures-Procedural-Musgrave.jpg
