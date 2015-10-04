@@ -69,13 +69,14 @@ See also
 ..    TODO/Review: {{WikiTask/Todo|check these links, make sure they are compatible with Blender 2.6}} .
 
 
-- `Tutorial 1: Very Basic Introduction <http://wiki.blender.org/index.php/User:N
-  t/SummerOfCode2005/Fluid Animation/Tutorial 1>`__
-- `Tutorial 2: The Next Step <http://wiki.blender.org/index.php/User:N t/SummerOfCode2005/Fluid
-  Animation/Tutorial 2>`__
-- `Tutorial 1&2 Gui Changes for newer builds <http://wiki.blender.org/index.php/User:N
-  t/SummerOfCode2005/Fluid Animation/Tutorial Changes>`__
-- :doc:`Another BSoD fluid tutorial </ls/physics/bsod/fluid>`
+- `Tutorial 1: Very Basic Introduction
+  <http://wiki.blender.org/index.php/User:N t/SummerOfCode2005/Fluid Animation/Tutorial 1>`__
+- `Tutorial 2: The Next Step
+  <http://wiki.blender.org/index.php/User:N t/SummerOfCode2005/Fluid Animation/Tutorial 2>`__
+- `Tutorial 1&2 Gui Changes for newer builds
+  <http://wiki.blender.org/index.php/User:N t/SummerOfCode2005/Fluid Animation/Tutorial Changes>`__
+- `Another BSoD fluid tutorial
+  <http://wiki.blender.org/index.php/Doc:2.4/Tutorials/Physics/BSoD/Fluid>`__
 - `Developer documentation (implementation, dependencies, ...)
   <http://wiki.blender.org/index.php/User:N t/SummerOfCode2005/Fluid Animation/Development>`__
 
