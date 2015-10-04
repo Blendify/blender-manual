@@ -40,9 +40,7 @@ you can roll a sheet of paper to create a cylinder; well, even if it "draws" a v
 the sheet itself will remain a (nearly...) 2D object!
 
 In fact, surfaces are very similar to the results you get when
-:doc:`extruding a curve </modeling/curves/editing/advanced>`
-(by the way, I think it should be possible to convert an extruded curve to a surface,
-at least when only made of NURBS - but Blender cannot do it currently...).
+:doc:`extruding a curve </modeling/curves/editing/extrude>`
 
 
 Finding Surface Tools
@@ -86,13 +84,13 @@ several attributes that separate them but the most important is that a NURBS cur
 single interpolation axis (U) and a NURBS surface has two interpolation axes (U and V).
 
 However, you can have "2D" surfaces made of curves
-(using the :doc:`extrusion tools </modeling/curves/editing/advanced>`,
+(using the :doc:`extrusion tools </modeling/curves/editing/extrude>`,
 or, to a lesser extent, the filling of closed 2D curves. And you can have "1D" curves made of surfaces,
 like a NURBS surface with only one row (either in U or V direction) of control points produces only a curve...
 
 Visually you can tell which is which by entering *Edit* mode and looking at the 3D window's header:
 either the header shows *Surface* or *Curve* as one of the menu choices. Also,
-you can :doc:`extrude </modeling/curves/editing/advanced>` a whole NURBS surface curve to create a surface,
+you can :doc:`extrude </modeling/curves/editing/extrude>` a whole NURBS surface curve to create a surface,
 but you can't with a simple NURBS curve (we talk here about the "standard" *Extrude* tool,
 the one activated with the *E* shortcut, not the quite-specific curve extrusion tools - yes, I know,
 it's not easy to follow...).

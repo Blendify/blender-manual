@@ -65,7 +65,7 @@ Follow
    Causes the curve path children to rotate along the curvature of the path.
 Radius
    Causes the curve path child to be scaled by the set curve radius.
-   See :doc:`Curve Extruding </modeling/curves/editing/advanced>`
+   See :doc:`Curve Extruding </modeling/curves/editing/extrude>`
 Offset Children
    Causes the animation to be offset by the curve path child's time offset value,
    which can be found in its *Animation Hacks* section of the *Object Panel*.

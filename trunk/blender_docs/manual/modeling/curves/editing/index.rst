@@ -8,4 +8,5 @@
    :maxdepth: 2
 
    introduction.rst
-   advanced.rst
+   deform.rst
+   extrude.rst
