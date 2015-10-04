@@ -9,7 +9,6 @@ selecting and advanced editing are covered in the following pages:
 
 - :doc:`Curve basics </modeling/curves/introduction>`
 - :doc:`Curve Selecting </modeling/curves/selecting>`
-- :doc:`Advanced Curve Editing </modeling/curves/editing/advanced>`
 
 
 Curve Display
@@ -104,7 +103,7 @@ Deforming Tools
 The *To Sphere*, *Shear*, *Wrap* and *Push/Pull* transform tools are described in the
 :doc:`Transformations </editors/3dview/transform/introduction>` sections.
 The two other tools, *Tilt* and *Shrink/Fatten Radius* are related to
-:doc:`Curve Extrusion </modeling/curves/editing/advanced>`.
+:doc:`Curve Extrusion </modeling/curves/editing/extrude>`.
 
 
 Smoothing

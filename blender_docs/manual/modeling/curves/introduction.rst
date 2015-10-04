@@ -26,7 +26,7 @@ less data and so can produce results using less memory and storage space at mode
 time. However, this procedural approach to surfaces can increase demands at render time.
 
 Certain modeling techniques, such as
-:doc:`extruding a profile along a path </modeling/curves/editing/advanced#curve_extrusion>`,
+:doc:`extruding a profile along a path </modeling/curves/editing/extrude>`,
 are possible only using curves. On the other hand, when using curves,
 vertex-level control is more difficult and if fine control is necessary,
 :doc:`mesh editing </modeling/meshes/editing/introduction>` may be a better modeling option.
@@ -35,14 +35,6 @@ Bezier curves are the most commonly used curves for designing letters or logos.
 They are also widely used in animation, both as :doc:`paths </animation/techs/object/path>`
 for objects to move along and as :doc:`F-curves </editors/graph_editor/fcurves>`
 to change the properties of objects as a function of time.
-
-
-Tutorials
-=========
-
-:doc:`Create the bird logo with Bezier Curves </ls/modeling/curves/bézier>`
-
-:doc:`Skinning: Making a surface with two or more curves </ls/modeling/surfaces/skinning>`
 
 
 Curve Primitives
@@ -209,9 +201,10 @@ Path/Curve-Deform
    The *Radius, Stretch* and *Bounds Clamp* options control how Objects use the
    Curve and are dealt with in more detail in the appropriate links below.
 
-:doc:`Read more about Basic Curve Editing </modeling/curves/editing/introduction>`
-:doc:`Read more about Paths </animation/techs/object/path>`
-:doc:`Read more about Curve Deform </modeling/curves/editing/advanced>`
+.. seealso::
+
+   - :doc:`Basic Curve Editing </modeling/curves/editing/introduction>`
+   - :doc:`Animation Paths </animation/techs/object/path>`
 
 
 Geometry
@@ -296,9 +289,6 @@ Start Bevel Factor and End Bevel Factor
 
    A Curve with no Bevel factor applied (left),
    with a 50% Start Bevel Factor (middle) and with a 25% End Bevel Factor (right).
-
-
-:doc:`Read more about Advanced Curve Editing </modeling/curves/editing/advanced>`
 
 
 Path Animation

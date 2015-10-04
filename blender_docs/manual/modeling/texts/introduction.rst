@@ -524,6 +524,6 @@ Auto Texture Space
 Geometry
 ========
 
-Text objects have all the :doc:`curves extrusion features </modeling/curves/editing/advanced#extrusion>`.
+Text objects have all the :doc:`curves extrusion features </modeling/curves/editing/extrude>`.
 
 
