@@ -1,4 +1,4 @@
-
+﻿
 *****
 Links
 *****
@@ -21,11 +21,6 @@ mmd_tools test2 with Blender+Freestyle (未来時計 AM4:30)
 
 Video Tutorials
 ===============
-
-.. youtube:: ON9Sod3GUEg
-
-`An introduction to Freestyle plugin for Blender: "sketching" Suzanne / HD
-<http://www.youtube.com/watch?v=ON9Sod3GUEg>`__
 
 .. youtube:: Uq1-KoZ7Uv4
 
