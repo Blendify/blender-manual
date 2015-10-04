@@ -16,6 +16,7 @@ but rather composited on top of the image.
    :maxdepth: 2
 
    layers.rst
+   differ.rst
    edges.rst
    metadata.rst
    cm_and_exposure.rst
