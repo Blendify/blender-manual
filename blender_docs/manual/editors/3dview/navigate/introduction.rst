@@ -44,10 +44,8 @@ Properties Panel
 
    - :doc:`Transform </modeling/objects/editing>`
    - :doc:`Grease Pencil </interface/grease_pencil/introduction>`
-   - :doc:`View </getting_started/basics/navigating/3d_view_options>`
-   - :doc:`Item </getting_started/basics/navigating/3d_view_options>`
-   - :doc:`Display </getting_started/basics/navigating/3d_view_options>`
-   - :doc:`Background Images </getting_started/basics/navigating/3d_view_options>`
+   - :doc:`Display & View Panels </editors/3dview/display>`
+   - :doc:`Background Images </editors/3dview/background_images>`
    - :doc:`Transform Orientations </editors/3dview/transform/transform_control/transform_orientations>`
 
 Tool Shelf
@@ -95,7 +93,7 @@ Tool Shelf
 :doc:`Zoom Border... </editors/3dview/navigate/3d_view>` (:kbd:`Shift-B`)
    Allows you to define the area you want to zoom into.
 
-:doc:`Show all Layers </getting_started/basics/navigating/layers>` (:kbd:`~`)
+:doc:`Show all Layers </editors/3dview/layers>` (:kbd:`~`)
    Makes all of the display layers visible.
 
 :doc:`Global View/Local View </editors/3dview/navigate/3d_view>` (:kbd:`NumpadSlash`)
@@ -252,7 +250,7 @@ Snap to Mesh
 This "magnet" button controls the snapping tools that help with transforming and modeling
 objects.
 
-:doc:`Read more about Snapping </3d_interaction/transform_control/snap_to_mesh>`
+:doc:`Read more about Snapping </editors/3dview/transform/transform_control/snap>`
 
 
 Render Buttons
