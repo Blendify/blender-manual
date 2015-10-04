@@ -38,17 +38,6 @@ The only lamp able to create volumetric effects is the
 </render/blender_render/lighting/lamps/sun/sky_and_atmosphere>`
 of the *Sun* lamp as volumetric as well).
 
-
-Example
-=======
-
-`Blend file of spotlight animation.
-<http://wiki.blender.org/index.php/Media:Manual - Shadow and Spot - Spotlight Animation.blend>`__
-
-
-.. vimeo:: 1827483
-
-
 See also
 ********
 
