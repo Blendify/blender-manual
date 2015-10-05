@@ -159,6 +159,8 @@ Shape
    By default, new curves are set to be 3D, which means that Control Points can be placed anywhere in 3D space.
    Curves can also be set to 2D which constrain the Control Points to the Curve's local XY axis.
 
+.. _curve-resolution:
+
 Resolution
    The *resolution* property defines the number of points that are computed between every pair of Control Points.
    Curves can be made more or less smooth by increasing and decreasing the resolution respectively.

@@ -473,11 +473,7 @@ texts have most of the same options as curves.
 Resolution
 ----------
 
-Preview
-   the :doc:`resolution </modeling/curves/introduction#curve_resolution>` in the viewport.
-Render
-   the :doc:`resolution </modeling/curves/introduction#curve_resolution>` on the render.
-
+Preview, Render resolution. See :ref:`curve resolution <curve-resolution>`.
 
 .. figure:: /images/TextShapeSettings.jpg
    :width: 300px
