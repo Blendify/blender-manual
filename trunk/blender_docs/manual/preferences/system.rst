@@ -246,8 +246,10 @@ For detailed information about how to use color ramps,
 see: to the :doc:`Extended Controls </interface/extended_controls>` page.
 
 
-International Fonts
-===================
+.. _preferences-system-international:
+
+Internationalization
+====================
 
 Blender supports a wide range of languages,
 enabling this check box will enable Blender to support International Fonts.

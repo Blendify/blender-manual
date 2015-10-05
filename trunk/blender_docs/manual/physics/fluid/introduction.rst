@@ -59,8 +59,7 @@ In general, you follow these steps:
    For this reason:
 
    - all the baking options are visible only when selecting the Domain Object,
-   - baking options are explained in the :doc:`the baking section
-     </physics/fluid/domain#baking>` of the Domain manual page.
+   - baking options are explained in the :ref:`the baking section <fluid-baking>` of the Domain manual page.
 
 
 More about the simulation
