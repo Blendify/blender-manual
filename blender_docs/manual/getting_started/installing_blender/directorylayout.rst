@@ -24,11 +24,14 @@ ignoring the **USER** and **SYSTEM** files.
    You may need to have the "show hidden files" option checked in your file browser settings.
 
 
+Platform Dependant Paths
+========================
+
 Here are the default locations for each system:
 
 
 Linux
-=====
+-----
 
 LOCAL
    .. parsed-literal:: ./|BLENDER_VERSION|/
@@ -49,7 +52,7 @@ SYSTEM
 
 
 OSX
-===
+---
 
 LOCAL
    .. parsed-literal:: ./|BLENDER_VERSION|/
@@ -66,7 +69,7 @@ SYSTEM
 
 
 Windows
-=======
+-------
 
 LOCAL
    .. parsed-literal:: .\\\ |BLENDER_VERSION|\\.
