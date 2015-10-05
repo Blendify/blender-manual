@@ -37,7 +37,6 @@ Coloring from Bone State
 This is the default and oldest way - there are six different color codes,
 ordered here by precedence (i.e. the bone will be of the color of the topmost valid state):
 
-- **Purple**: The :doc:`Stride Root bone </animation/techs/armatures/stride>`.
 - **Orange**: A bone with a targetless Solver constraint.
 - **Yellow**: A bone with an :doc:`IK Solver constraint </rigging/constraints/tracking/ik_solver>`.
 - **Green**: A bone with any other kind of constraint.
