@@ -60,7 +60,7 @@ Look in the Outliner, with display mode set to *Blender File*, to see all your l
 
    This is done so existing relationships with linked data remain intact.
 
-.. _proxy_objects:
+.. _object-proxy:
 
 Proxy Objects
 =============
