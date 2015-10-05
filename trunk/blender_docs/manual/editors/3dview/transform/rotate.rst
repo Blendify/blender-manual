@@ -28,7 +28,7 @@ may wish to read the Transform Control and Orientation pages which provide more 
 about options such as Precision, Axis Locking, Numeric Input,
 Snapping and the different types of Pivot Point.
 
-:doc:`Read more about Transform Control </3d_interaction/transform_control>`
+:doc:`Read more about Transform Control </editors/3dview/transform/transform_control/index>`
 :doc:`Read more about Transform Orientations </editors/3dview/transform/transform_control/transform_orientations>`
 
 

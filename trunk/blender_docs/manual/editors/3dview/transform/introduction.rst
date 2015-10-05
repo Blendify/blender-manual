@@ -13,4 +13,4 @@ Basic transformations include:
 - :doc:`Scaling </editors/3dview/transform/scale>`
 
 More advanced transformations such as mirroring, shearing and warping can be found in the
-:doc:`Advanced Transformations </3d_interaction/transformations>` section.
+:doc:`Advanced Transformations </editors/3dview/transform/index>` section.
