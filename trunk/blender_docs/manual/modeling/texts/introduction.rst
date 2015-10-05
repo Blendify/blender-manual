@@ -163,21 +163,18 @@ Some examples are given below:
      - ø
 
 
-Convert text to text object
+Convert Text to Text Object
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: /images/ConvertTextToTextObject.jpg
    :width: 250px
 
 
-An easy way to get text into Blender is to type it in :doc:`The Text Editor </extensions/python/text_editor>`.
-It is suggested to do this with a
-:doc:`split window </interface/window_system/arranging_frames#splitting_a_window>`
-as you will be able to see the 3D view port and text editor at the same time.
-In the *Text Editor* select *Text > Create Text Block*. Then begin typing.
-When finished, select *Edit >> Text to 3D Object >> One Object* or *One Object per Line* depending on your needs.
-It is also possible to load a text file via *Text >> Open Text Block*
-which can be useful for importing large amounts of text at once.
+Using an existing text-block, you can convert it to an object from the text editor's header,
+select :menuselection:`Edit --> Text to 3D Object`,
+*One Object* or *One Object per Line* depending on your needs.
+
+It is also possible to paste from the clipboard or a file from the *Edit* menu, while editing 3D Text.
 
 
 3D Mesh
