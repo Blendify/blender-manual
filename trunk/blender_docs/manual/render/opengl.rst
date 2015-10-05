@@ -38,9 +38,36 @@ the Blender Internal engine.
 
           Full Render
 
+.. tip::
 
-Rendering an image using ''OpenGL Render''
-==========================================
+   .. figure:: /images/basics-quick-render-display-only-render.jpg
+      :align: right
+
+      Display Panel.
+
+   **Showing Only Rendered Objects**
+
+   To access this option, enable the *Only Render* in the :doc:`Display Panel </editors/3dview/display>`.
+
+   While this option is not spesific to OpenGL rendering,
+   its often useful to enable, since it removes data such as rigs and empties
+   that can be a distraction.
+
+
+Settings
+========
+
+For the most part, *OpenGL Render* uses view-port,
+however some render settings are used too.
+
+- Render Dimensions
+- Render Aspect
+- Anti-Aliasing Samples
+- File Format & Output (file-path, format, compression settings... etc).
+
+
+Rendering an image using *OpenGL Render*
+========================================
 
 Activating OpenGL render from the menu will render to active camera view.
 
@@ -53,8 +80,8 @@ using the small button showing a *Camera* (together with a small image showing a
 To abort or quit the render, press :kbd:`Esc`.
 
 
-Rendering an animation using ''OpenGL Render''
-==============================================
+Rendering an animation using *OpenGL Render*
+============================================
 
 To Render an animation using *OpenGL Render*, you can use any of the following options:
 
@@ -69,17 +96,13 @@ To Render an animation using *OpenGL Render*, you can use any of the following o
 To abort or quit rendering the animation, press :kbd:`Esc`.
 
 
-.. tip::
-   .. figure:: /images/basics-quick-render-display-only-render.jpg
-      :align: right
+Rendering from the Sequencer
+============================
 
-      Display Panel.
+Using scene strips in the sequencer you can edit together scenes to quickly render an entire sequence of shots.
 
-   **Showing Only Rendered Objects**
+.. figure:: /images/basics-starting-small-opengl-render-buttons.jpg
+   :align: right 
 
-   To access this option, enable the *Only Render* in the :doc:`Display Panel </editors/3dview/display>`.
-
-   While this option is not spesific to OpenGL rendering,
-   its often useful to enable, since it removes data such as rigs and empties
-   that can be a distraction.
+This can be activated using the render icons in the sequencer's playback window header.
 
