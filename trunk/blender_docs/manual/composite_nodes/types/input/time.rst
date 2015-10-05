@@ -39,7 +39,7 @@ doing so is easily overlooked in your node map and can be very confusing
 
    In Blender, time is measured in frames.
    The actual duration of a time span depends on how fast those frames whiz by (frame rate).
-   You set the frame rate in your animation settings (:doc:`Scene Context </ce/buttons/scene_context>`).
+   You set the frame rate in your animation settings (:ref:`Render Dimensions Panel <render_output_dimensions>`).
    Common settings range from 5 seconds per frame for slideshows (0.2 fps), to 30 fps for US movies.
 
 
