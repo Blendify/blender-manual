@@ -28,7 +28,7 @@ Pre-visualizing the cut
 Sliding the new edge loop
    Once an edge is chosen via :kbd:`LMB`,
    you can move the mouse along the edge to determine where the new edge loop will be placed.
-   This is identical to the :doc:`Edge Slide tool </modeling/meshes/editing/edges#edge_slide>`.
+   This is identical to the :ref:`Edge Slide tool <modeling-meshes-editing-edge-slide>`.
    Clicking :kbd:`LMB` again confirms and makes the cut at the pre-visualized location,
    or clicking :kbd:`RMB` forces the cut to exactly 50%.
    This step is skipped when using multiple edge loops (see below)
@@ -60,10 +60,10 @@ Options are only available while the tool is in use, and are displayed in the 3d
 Even :kbd:`E`
    Only available for single edge loops.
    This matches the shape of the edge loop to one of the adjacent edge loops.
-   (See :doc:`Edge Slide tool </modeling/meshes/editing/edges#edge_slide>` for details)
+   (See :ref:`Edge Slide tool <modeling-meshes-editing-edge-slide>` for details)
 Flip :kbd:`F`
    When Even is enabled, this flips the target edge loop to match.
-   (See :doc:`Edge Slide tool </modeling/meshes/editing/edges#edge_slide>` for details)
+   (See :ref:`Edge Slide tool <modeling-meshes-editing-edge-slide>` for details)
 Number of Cuts :kbd:`Wheel` or :kbd:`NumpadPlus` / :kbd:`NumpadMinus`
    After activating the tool, but before confirming initial loop location,
    you can increase and decrease the number of cuts to create,
@@ -103,4 +103,3 @@ Smoothing :kbd:`Alt-Wheel`
    :width: 250px
 
    Same edge loops, but with smoothing value
-

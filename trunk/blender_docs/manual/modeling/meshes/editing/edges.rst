@@ -17,8 +17,8 @@ Make Edge/Face
 
 
 It will create an edge or some faces, depending on your selection.
-We have already discussed this tool in the
-:doc:`editing basics page </modeling/meshes/editing/basics/introduction#edge_and_face_creation>`.
+
+See also :doc:`/modeling/meshes/editing/basics/creating_faces_and_edges`.
 
 
 Set Edge Attributes
@@ -96,6 +96,7 @@ where by moving the mouse (or typing a value with the keyboard) you can set the 
 crease value of selected edges.
 To clear the crease edge property, enter a value of **-1**.
 
+.. _modeling-meshes-editing-edge-slide:
 
 Edge Slide
 ==========
@@ -220,6 +221,7 @@ end such that they form a continuous chain. This is *literally* a general rule b
 can still select edges in a chain that are invalid because some of the edges in the chain are
 in different edge loops.
 
+.. _modeling-meshes-editing-edges-rotate:
 
 Rotate Edge
 ===========
@@ -360,6 +362,7 @@ a hole will be created, and the selected edges are duplicated to form the border
 
    Adjacent face moved to reveal hole left by split
 
+.. _modeling-meshes-editing-bridge-edge-loops:
 
 Bridge Edge Loops
 =================
@@ -446,5 +449,3 @@ Example of the subdivision option and surface blending with UV's.
    :width: 300px
 
    Bridge result
-
-

@@ -20,7 +20,7 @@ Make Edge/Face
 
 
 This will create an edge or some faces, depending on your selection.
-It is detailed in the :doc:`Basic Editing page </modeling/meshes/editing/basics/introduction#edge_and_face_creation>`.
+Also see :doc:`/modeling/meshes/editing/basics/creating_faces_and_edges`.
 
 .. _modeling-meshes-editing-fill:
 
@@ -98,6 +98,7 @@ It rearrange selected triangles to obtain more "balanced" ones (i.e. less long t
 
    Result of Beauty Fill, :kbd:`Alt-Shift-F`
 
+.. _modeling-meshes-editing-grid-fill:
 
 Grid Fill
 ---------
@@ -282,7 +283,7 @@ It works on the shared edge between two faces and rotates that edge if the edge 
    After rotating edge
 
 
-See :doc:`Rotate Edge CW / Rotate Edge CCW </modeling/meshes/editing/edges#rotate_edge_cw_/_rotate_edge_ccw>`
+See :ref:`Rotate Edge <modeling-meshes-editing-edges-rotate>`
 for more information.
 
 
@@ -328,5 +329,3 @@ This volume do not need to be closed. In fact, this means that the face of inter
 adjacent with at least one non-coplanar other face. For example,
 with a *Grid* primitive, neither *Recalculate Outside* nor
 *Recalculate Inside* will never modify its normals...
-
-

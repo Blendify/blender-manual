@@ -111,9 +111,8 @@ For each tool a context-dependent menu is opened at the bottom of the *Tool Shel
 
 Even more mesh editing tools can be enabled in the *User Preferences* '
 *Add-ons* section.
-The development of new tools is regularly announced on Blender-related sites and forums.
 
-For further information on panels see the :doc:`Reference panels </ce/panels>` section.
+For further information on panels see :doc:`/interface/panels`.
 
 
 Properties Shelf
@@ -145,5 +144,3 @@ TODO...
 - Overlays
 - Normals
 - Edge/Face Info
-
-
