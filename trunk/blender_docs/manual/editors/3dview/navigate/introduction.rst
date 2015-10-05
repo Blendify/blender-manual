@@ -40,21 +40,18 @@ View Menu
 
 
 Properties Panel
-   Toggles the *Properties* side panel (:kbd:`N`), which allows you to tweak many 3D view settings:
+   Toggles the *Properties* side panel, which allows you to tweak many 3D view settings:
 
    - :doc:`Transform </modeling/objects/editing>`
    - :doc:`Grease Pencil </interface/grease_pencil/introduction>`
    - :doc:`Display & View Panels </editors/3dview/display>`
    - :doc:`Background Images </editors/3dview/background_images>`
    - :doc:`Transform Orientations </editors/3dview/transform/transform_control/transform_orientations>`
-
 Tool Shelf
    Toggles the *Tool Shelf* (:kbd:`T`), which appears on the left side of the 3d view,
    and allows you to perform various operations, depending on the type of object selected, and the mode you are in.
-
-:doc:`Camera </editors/3dview/navigate/camera_view>` (:kbd:`Numpad0`)
+:doc:`Camera </editors/3dview/navigate/camera_view>`
    Switches the view to the current camera view.
-
 :doc:`Viewing angles </editors/3dview/navigate/3d_view>`:
    These commands change the view to the default Top/Bottom, Front/Back, or Left/Right views.
 
@@ -64,20 +61,15 @@ Tool Shelf
    - Back (:kbd:`Ctrl-Numpad1`)
    - Right (:kbd:`Numpad3`)
    - Left (:kbd:`Ctrl-Numpad3`)
-
 :doc:`Cameras Menu </editors/3dview/navigate/camera_view>`:
    *Set Active object as camera*
    *Active camera*
-
-:doc:`Perspective/Orthographic View </editors/3dview/navigate/3d_view#perspective_and_orthographic_projection>` (:kbd:`Numpad5`)
+:ref:`Perspective/Orthographic View <view3d-projections>`
    These commands change the projection of the 3D view
-
 :doc:`Navigation Menu </editors/3dview/navigate/3d_view>`
    This sub-menu contains commands for rotating and panning the view.
    Using these commands through the menu is not that efficient. However, like all Blender menus,
    the much more convenient keyboard shortcuts are listed next to the commands.
-
-
 :doc:`Align View </editors/3dview/navigate/3d_view>`
    This submenu allows you to align the 3D view in certain ways.
 
@@ -87,39 +79,28 @@ Tool Shelf
    - *View Selected*
    - *Center View to cursor*
 
-:doc:`Clipping Border... </editors/3dview/navigate/3d_view#view_clipping_border>` (:kbd:`Alt-B`)
+:ref:`Clipping Border... <view3d-clip_border>`
    Allows you to define a clipping border to limit the 3D view display to a portion of 3D space.
-
-:doc:`Zoom Border... </editors/3dview/navigate/3d_view>` (:kbd:`Shift-B`)
+:doc:`Zoom Border... </editors/3dview/navigate/3d_view>`
    Allows you to define the area you want to zoom into.
-
-:doc:`Show all Layers </editors/3dview/layers>` (:kbd:`~`)
+:doc:`Show all Layers </editors/3dview/layers>`
    Makes all of the display layers visible.
-
-:doc:`Global View/Local View </editors/3dview/navigate/3d_view>` (:kbd:`NumpadSlash`)
+:ref:`Global View/Local View <view3d-local_view>`
    Global view shows all of the 3D objects in the scene. Local view only displays the selected objects.
    This helps if there are many objects in the scene, that may be in the way.
    Accidentally pressing :kbd:`NumpadSlash` can happen rather often if you're new to Blender,
    so if a bunch of the objects in your scene seem to have mysteriously vanished, try turning off local view.
-
-
-:doc:`View Selected </editors/3dview/navigate/3d_view>` (:kbd:`NumpadPeriod`)
+:doc:`View Selected </editors/3dview/navigate/3d_view>`
    Zooms the 3D view to encompass all the *selected* objects.
-      :doc:`Read more about Zooming the 3D View </editors/3dview/navigate/3d_view#zooming_the_view>`
-
-:doc:`View All </editors/3dview/navigate/3d_view>` (:kbd:`Home`)
+:ref:`View All <view3d-view_all>`
    Zooms the 3D view to encompass *all* the objects in the current scene.
-
-:doc:`Play Back Animation </animation/index>` (:kbd:`Alt-A`)
+:doc:`Play Back Animation </animation/index>`
    Plays back the animation from the current frame.
-
 :doc:`Duplicate area in new window </interface/window_system/arranging_frames>`
    Clones the current 3D view in a new window
-
 :doc:`Quad View </interface/window_system/arranging_frames>`
    Toggles a four pane 3D view, each showing a different angle of the scene.
-
-:doc:`Toggle Full Screen </interface/window_system/arranging_frames>` (:kbd:`Ctrl-Up`)
+:doc:`Toggle Full Screen </interface/window_system/arranging_frames>`
    Maximizes the *3D View* window to fill the full screen area.
 
 
@@ -178,7 +159,7 @@ Allows you to change the way 3D objects are displayed in the viewport.
 - Material
 - Rendered
 
-:doc:`Read more about 3D view options </getting_started/basics/navigating/3d_view_options#view_shading>`
+:doc:`Read more about 3D view options </editors/3dview/shading>`
 
 
 Pivot Point Selector
@@ -217,11 +198,7 @@ These handy selectors allow you to rotate or move objects by grabbing
 Layer Selector
 --------------
 
-Layers are well documented in the :doc:`Layers page </getting_started/basics/navigating/layers#description>`.
-Toggling layer visibility is covered in the section on
-:doc:`viewing layers </getting_started/basics/navigating/layers#viewing_layers>` and
-:doc:`moving objects between layers </getting_started/basics/navigating/layers#moving_objects_between_layers>`
-is also discussed in this page.
+Layers are well documented in the :doc:`Layers page </editors/3dview/layers>`.
 
 
 Lock to Scene
