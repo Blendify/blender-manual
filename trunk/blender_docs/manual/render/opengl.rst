@@ -69,12 +69,13 @@ To Render an animation using *OpenGL Render*, you can use any of the following o
 To abort or quit rendering the animation, press :kbd:`Esc`.
 
 
-.. tip:: **Showing Only Rendered Objects**
-
+.. tip::
    .. figure:: /images/basics-quick-render-display-only-render.jpg
       :align: right
 
       Display Panel.
+
+   **Showing Only Rendered Objects**
 
    To access this option, enable the *Only Render* in the :doc:`Display Panel </editors/3dview/display>`.
 
