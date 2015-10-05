@@ -12,10 +12,8 @@ Check if your system meets the
 `minimum or recommended requirements <http://www.blender.org/download/requirements/>`__.
 
 Always check that the graphics drivers are up to date, and that OpenGL is well supported.
-Other Blender dependencies are already included in the binary, and you do not need to worry
-about those unless installing from source.
 
-Support for other hardware such as 3D mice and graphic tablets is covered later in
+Support for other hardware such as graphic tablets and 3D mice are covered later in
 :doc:`Supported Hardware </getting_started/installing_blender/hardware>`.
 
 
@@ -56,8 +54,8 @@ through the `release notes <http://wiki.blender.org/index.php/Dev:Ref/Release_No
    - it allows access to any version or branch where a feature is being developed,
    - it can be freely customized.
 
-   Building Blender from source is not trivial, as there are many steps involved. Here are the
-   `instructions <http://wiki.blender.org/index.php/Dev:Doc/Building_Blender>`__.
+   Building Blender from source is not trivial, as there are many steps involved.
+   Here are the `instructions <http://wiki.blender.org/index.php/Dev:Doc/Building_Blender>`__.
 
 
 Install Blender
