@@ -9,7 +9,10 @@ Display Panel
 Only Render
    Displays only items that will be rendered.
 
-   This can be is useful to preview how animations look without being distracted by rigs and empties.
+   This can be is useful to preview how animations look without being distracted by
+   rigs, empties, lights & cameras.
+
+   Useful to enable with :doc:`/render/opengl`.
 Outline Selected
    If disabled, the pink outline around your selected objects in
    *Solid* / *Shaded* / *Textured* draw types will no longer be displayed.
