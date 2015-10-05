@@ -54,6 +54,9 @@ Lock to Object
    you can further center the view on one of its bones by entering its name in the *Bone* field.
 Lock to Cursor
    Lock the center of the view to the position of the 3D cursor
+
+.. _view3d-lock_camera_to_view:
+
 Lock Camera to View
    When in camera view, use this option to move the camera in 3D space, while continuing to remain in camera view.
 Clip Start and Clip End

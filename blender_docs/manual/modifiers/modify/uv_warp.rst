@@ -17,8 +17,7 @@ Options
 .. figure:: /images/Uvwarp_ui.jpg
 
 UV Center
-   The center point of the :doc:`UV map </render/blender_render/textures/mapping/uv>`
-   to use when applying scale or rotation.
+   The center point of the UV map to use when applying scale or rotation.
    With (0, 0) at the bottom left and (1, 1) at the top right. Defaults to (0.5, 0.5).
 UV Axis
    The axes to use when mapping the 3D coordinates into 2D.
@@ -27,7 +26,8 @@ From/To
 Vertex Group
    The vertex group can be used to scale the influence of the transformation per-vertex.
 UV Map
-   Which :doc:`UV map </render/blender_render/textures/mapping/uv>` to modify. Defaults to the active rendering layer.
+   Which UV map to modify.
+   Defaults to the active rendering layer.
 
 
 Usage

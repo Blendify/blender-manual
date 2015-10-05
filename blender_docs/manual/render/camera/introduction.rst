@@ -274,10 +274,10 @@ Sideways Tracking
    (you can use :kbd:`X` twice or :kbd:`Y` to get pure-horizontal or pure-vertical sideways tracking).
 
 
-Aiming the camera in Flymode
-----------------------------
+.. seealso::
 
-When you are in *Camera* view,
-the :doc:`fly mode </editors/3dview/navigate#fly_mode>` actually moves your active camera...
-
-.. youtube:: bTRrHNn-d4w
+   :ref:`Fly/Walk Mode <view3d-walk_fly>`
+      When you are in walk/fly mode, navigation actually moves your camera:
+   :ref:`Lock Camera to View <view3d-lock_camera_to_view>`
+      When enabled,
+      performing typical view manipulation operations will move the camera object.

@@ -317,6 +317,8 @@ Generate Particles
    and the right one with particles and subdivision enabled.
 
 
+.. _fluid-baking:
+
 Baking
 ======
 
