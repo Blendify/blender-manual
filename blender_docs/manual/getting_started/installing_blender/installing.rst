@@ -54,9 +54,6 @@ through the `release notes <http://wiki.blender.org/index.php/Dev:Ref/Release_No
    - it allows access to any version or branch where a feature is being developed,
    - it can be freely customized.
 
-   Building Blender from source is not trivial, as there are many steps involved.
-   Here are the `instructions <http://wiki.blender.org/index.php/Dev:Doc/Building_Blender>`__.
-
 
 Install Blender
 ===============
