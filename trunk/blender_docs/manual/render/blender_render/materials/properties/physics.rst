@@ -29,7 +29,7 @@ Elasticity
    The elasticity of collisions determines how much of the kinetic
    energy is retained after the collision. A value of 1 will result in
    a collision where objects bounce off each other, and the kinetic
-   energy after the collision is the samea s before. A value of 0 will
+   energy after the collision is the same as before. A value of 0 will
    result in a collision where the objects stick together after the
    collision, as all energy will have been converted to heat (or other
    energy forms that Blender also does not model).
