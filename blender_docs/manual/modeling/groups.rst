@@ -31,4 +31,4 @@ of course). The selection of "real" members of the group is reflected in their "
 When the proxy itself is selected, the empty turns pink, and the other parts, purple.
 
 The only options of these "group proxies" are the same as the ones for
-:doc:`empties visualization </modeling/empties#visualization>`.
+:ref:`empties display types<object-empty-display>`.
