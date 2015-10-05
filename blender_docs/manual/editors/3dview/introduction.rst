@@ -84,7 +84,7 @@ Contains various menus, buttons and options based on the current :ref:`mode <mod
 - :doc:`Transform manipulator </editors/3dview/transform/transform_control/manipulators>`
 - :doc:`Proportional Edit </editors/3dview/transform/transform_control/proportional_edit>`
 - :doc:`Snapping </editors/3dview/transform/transform_control/snap>`
-- :ref:`OpenGL render <opengl_render>`
+- :doc:`OpenGL render </render/opengl>`
 
 
 Local View
