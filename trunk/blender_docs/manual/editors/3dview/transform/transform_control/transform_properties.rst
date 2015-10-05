@@ -1,6 +1,4 @@
 
-..    TODO/Review: {{review|text= delta transforms}} .
-
 ********************
 Transform Properties
 ********************
@@ -58,19 +56,6 @@ Dimensions
 Use this panel to either edit or display the object's transform properties such as position,
 rotation and/or scaling. These fields change the object's center and then affects the aspect
 of all of its *vertices* and faces.
-
-
-.. note::
-
-   center
-
-
-Some fields have extra functionality or features, such as scroll regions.
-When attempting to edit these types of fields it is easier to use :kbd:`Shift-LMB` instead of just :kbd:`LMB`.
-After you have edited a field click outside of the field's edit area or press :kbd:`Return` to confirm the changes.
-Changes will be reflected in the display window immediately. To cancel, press :kbd:`Esc`.
-For further descriptions of the other features of an edit field
-see :doc:`The Interface </interface/index>` section.
 
 
 Transform Properties Locking
