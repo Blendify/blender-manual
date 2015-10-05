@@ -11,6 +11,7 @@ Edges can be selected in much the same way as vertices and faces -
 by right-clicking them while Edge Select Mode is activated.
 Pressing :kbd:`Shift` while clicking will add/subtract to the existing selection.
 
+.. _modeling-meshes-selecting-edge-loops:
 
 Edge Loops
 ==========
@@ -77,5 +78,3 @@ Or use :kbd:`Alt-Ctrl-RMB` on an edge.
    Instead of selecting the missing edges manually or by using :kbd:`Shift-Alt-RMB` twice,
    it is easier to first switch to Vertex Select Mode, which will kind of "flood" the selection.
    A subsequent switch to Face Select Mode will then properly select the faces.
-
-

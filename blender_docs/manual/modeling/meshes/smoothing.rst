@@ -166,7 +166,7 @@ You can apply one of the following in *Edit mode*:
    This relaxes selected components, resulting in a smoother mesh.
 :doc:`Laplacian Smooth </modeling/meshes/editing/deforming/smooth>`
    Smooths geometry by offers controls for better preserving larger details.
-:doc:`Subdivide Smooth </modeling/meshes/introduction#specials>`
+:doc:`Subdivide Smooth </modeling/meshes/editing/subdividing/subdivide>`
    Adjusting the *smooth* parameter after using the *subdivide*
    tool results in a more organic shape. This is similar to using the subdivide modifier.
 :doc:`Bevel </modeling/meshes/editing/introduction>`
@@ -190,7 +190,7 @@ you can smooth the mesh non-destructively with one or several of the following m
    Bevel can be set to work on an angle threshold, or on edge weight values.
 :doc:`Subdivision Surface Modifier </modifiers/generate/subsurf>`
    Catmull-Clark subdivision produces smooth results. Sharp edges can be defined with
-   :doc:`subdivision creases </modifiers/generate/subsurf#weighted_creases_for_subdivision_surfaces>`
+   :ref:`subdivision creases <modifiers-generate-subsurf-creases>`
    or by setting certain edges to "sharp" and adding an :doc:`EdgeSplit modifier </modifiers/generate/edge_split>`
    (set to *From Marked As Sharp*) before the *Subsurf* modifier.
 
@@ -217,4 +217,3 @@ you can smooth the mesh non-destructively with one or several of the following m
    :width: 150px
 
    3D view showing creased edges (pink) and added edges loops (yellow)
-

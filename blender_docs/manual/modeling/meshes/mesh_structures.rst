@@ -92,7 +92,7 @@ They start and end at the same vertex and divide the model into two partitions.
 Loops can be a quick and powerful tool to work with specific,
 continuous regions of a mesh and are a prerequisite for organic character animation.
 For a detailed description of how to work with loops in Blender, see:
-:doc:`Edge and Face Tools </modeling/meshes/selecting/introduction#advanced_selection_tools>`.
+:doc:`/modeling/meshes/selecting/advanced`.
 
 
 Edge Loops
@@ -112,7 +112,7 @@ contours and deformation lines of the skin and the underlying muscles and are mo
 areas that deform more when the character moves, for example at the shoulders or knees.
 
 Further details on working with Edge Loops can be found in
-:doc:`Edge Loop Selection </modeling/meshes/selecting/introduction#edge_loop_selection>`.
+:ref:`Edge Loop Selection <modeling-meshes-selecting-edge-loops>`.
 
 
 Face Loops
@@ -124,5 +124,4 @@ Note that for non-circular loops (``4``)
 the faces containing the poles are not included in a Face Loop.
 
 Further details on working with Face Loops can be found in
-:doc:`Face Loop Selection </modeling/meshes/selecting/introduction#face_loop_selection>`.
-
+:ref:`Face Loop Selection <modeling-meshes-selecting-face-loops>`.

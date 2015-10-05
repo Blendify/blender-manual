@@ -13,6 +13,8 @@ The selection works as usual with :kbd:`RMB` ;
 to add/remove to an existing selection, additionally press :kbd:`Shift`
 
 
+.. _modeling-meshes-selecting-face-loops:
+
 Face Loops
 ==========
 

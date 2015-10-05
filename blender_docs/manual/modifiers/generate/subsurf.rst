@@ -143,6 +143,7 @@ Control
 
 Subsurf rounds off edges, and often this is not what you want. There are several solutions.
 
+.. _modifiers-generate-subsurf-creases:
 
 Weighted Creases
 ----------------
