@@ -13,10 +13,34 @@ There are three primary types of modeling - mesh modeling, curve/surface modelin
 :doc:`Mesh Modeling </modeling/meshes/introduction>`
 ====================================================
 
-Mesh modeling typically begins with a primitive shape (e.g. circle, cube, cylinder...).
+Mesh modeling is done within the *3D View* and
+typically begins with a primitive shape (e.g. circle, cube, cylinder...).
 This :doc:`Mesh Primitive </modeling/meshes/primitives>` is defined by an array of points in 3D space called vertices
 (singular form is :term:`Vertex`). From there you might begin extruding faces and moving vertices to create a larger,
 more complex shape.
+
+
+Mesh Modeling Modes
+-------------------
+
+The 3D View has three principal modes that allow for the creation of, editing and manipulation of the mesh models.
+Each of the three modes have a variety of tools. Some tools may be found in one or more of the modes.
+
+Modes that used for modeling:
+
+- Object Mode
+- Edit Mode
+- Sculpt Mode
+
+Creation of a mesh primitive typically starts by adding a mesh object in *Object Mode*.
+Limited types of editing such as size, location, and orientation can be accomplished in *Object Mode*.
+*Object mode* also provides the means to Join and Group multiple mesh primitives.
+
+More detailed editing of the mesh model shape is done in *Edit Mode*, and *Sculpt Mode*.
+The nature of these three modes determines the tools that are available within the various panels of the 3D View.
+Switching between modes while modeling is common.
+Some tools may be available in more than one mode while others may be unique to a particular mode.
+
 
 :doc:`Curve </modeling/curves/introduction>` and :doc:`Surface </modeling/surfaces/introduction>` Modeling
 ==========================================================================================================
@@ -57,5 +81,6 @@ Modeling scripts are generally more advanced, but also less frequently used
 programmatic effects that can be a huge time saver in certain cases.
 
 The included :doc:`spin </modeling/meshes/editing/duplicating/spin>`
-and :doc:`screw </modeling/meshes/editing/duplicating/screw>` functions are examples of a modeling scripts that
+and :doc:`screw </modeling/meshes/editing/duplicating/screw>` functions are two examples of modeling scripts that
 might otherwise take significantly more work to replicate by hand through mesh or curve modeling.
+
