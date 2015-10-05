@@ -68,7 +68,7 @@ Follow the steps for your operative system:
 .. toctree::
    :maxdepth: 1
 
-   windows.rst
-   mac.rst
    linux.rst
+   osx.rst
+   windows.rst
 
