@@ -332,6 +332,8 @@ that when a 2D curve is closed, it creates a renderable flat face.
    Open and Closed curves.
 
 
+.. _curve-switch_direction:
+
 Switch Direction
 ================
 
@@ -427,7 +429,7 @@ Curve Parenting
 
 
 You can make other selected objects
-:doc:`children </modeling/objects/groups_and_parenting#parenting_objects>` of one or three control points
+:ref:`children <object-parenting>` of one or three control points
 :kbd:`Ctrl-P`, as with mesh objects.
 
 Select either 1 or 3 control points,

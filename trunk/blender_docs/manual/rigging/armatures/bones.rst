@@ -19,10 +19,8 @@ They have three elements:
 - the "body" itself,
 - and the "end point" named **tip** or **tail**.
 
-Select the :doc:`default armature </rigging/armatures/object_mode#your_first_armature>`
-and press :kbd:`Tab` to enter *Edit mode*.
-As you can see, in this mode you can select the root and the tip, and move them as you do with mesh vertices
-(don't lose too much time here though, specific pages about selecting and editing will come later).
+With the default armature in edit-mode,
+you can select the root and the tip, and move them as you do with mesh vertices.
 
 Both root and tip (the "ends") define the bone by their respective position.
 
@@ -119,13 +117,13 @@ you can't see these segments in *Object mode*, because they're aligned.
    The same armature in Object mode
 
 
-When you connect bones to form a :doc:`chain </rigging/armatures/structure#chains_of_bones>`,
+When you connect bones to form a :ref:`chain <armature-bone_chain>`,
 Blender calculates a Bezier curve passing through all the bones' ends,
 and bones' segments in the chain will bend and roll to follow this invisible curve.
 
 *You have no direct access to this curve*;
 you can only control it to some extent using bone properties,
-as explained in the :doc:`editing pages </rigging/armatures/editing/properties#bone_rigidity_settings>`.
+as explained in the :ref:`editing pages <armature-bone-rigid>`.
 
 In *An armature of B-Bones in Edit mode* we connected 3 bones,
 each one made of 5 segments. These are *B-bones* but as you see,
@@ -151,7 +149,9 @@ if some bones in a chain have several segments,
 they will nonetheless smoothly deform their geometry...
 
 
-Bones influence
+.. _armature-bone-influence:
+
+Bones Influence
 ===============
 
 Basically, a bone controls a geometry when vertices "follow" the bone. This is like how the
