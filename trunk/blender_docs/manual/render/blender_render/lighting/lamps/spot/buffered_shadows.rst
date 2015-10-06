@@ -13,7 +13,7 @@ Spot Buffered Shadows
 
 
 Spotlights can use either
-:doc:`Raytraced Shadows </render/blender_render/lighting/lamps/spot/introduction#raytraced_shadows>`
+:doc:`Raytraced Shadows </render/blender_render/lighting/lamps/spot/raytraced_shadows>`
 or buffered shadows.
 Either of the two can provide various extra options.
 
@@ -149,7 +149,7 @@ Filter Type
       The buffered shadows will be anti-aliased using the "Gaussian" filtering method.
       It produces a very soft/blurry anti-aliasing. As result, this filter is excellent with high resolution renders.
 
-   The :doc:`Anti-Aliasing page </render/internal/antialiasing>` in the Render chapter will give
+   The :doc:`Anti-Aliasing page </render/blender_render/antialiasing>` in the Render chapter will give
    more information on the various filtering/distribution methods and their uses.
 
 Samples
