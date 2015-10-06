@@ -99,5 +99,5 @@ a Motion Blur render takes that many times more time than a non-Motion Blur one.
 Hints
 =====
 
-Sampled Motion Blur can be used as an additional form of :doc:`Anti-Aliasing </render/internal/antialiasing>`,
+Sampled Motion Blur can be used as an additional form of :doc:`Anti-Aliasing </render/blender_render/antialiasing>`,
 since aliasing artifacts are computed differently for each sample and averaged together at the end.
