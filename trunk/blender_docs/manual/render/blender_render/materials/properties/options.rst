@@ -16,7 +16,7 @@ Traceable (default On)
    See :doc:`Transparency </render/blender_render/materials/properties/transparency>` for details of ray-tracing.
 Full Oversampling
    Force this material to render full shading/textures for all
-   :doc:`anti-aliasing </render/internal/antialiasing>` samples.
+   :doc:`anti-aliasing </render/blender_render/antialiasing>` samples.
 Sky
    Render this material with zero alpha, but with
    :doc:`sky background </render/blender_render/lighting/lamps/sun/sky_and_atmosphere>` in place (scanline only)
@@ -37,10 +37,10 @@ Local
    :doc:`light group </render/blender_render/lighting/lights/lights_in_other_contexts>` with the same name.
 Face Textures
    Replace object's base color with color from
-   :doc:`UV map </render/blender_render/textures/mapping/uv>` image textures.
+   :ref:`UV map <editors-uv_image-index>` image textures.
 Face Textures Alpha
    Replace object's base alpha with alpha from
-   :doc:`UV map </render/blender_render/textures/mapping/uv>` image textures.
+   :ref:`UV map <editors-uv_image-index>` image textures.
 Vertex Color Paint
    Replace object's base color with
    :doc:`vertex paint </render/blender_render/materials/special_effects/vertex_paint>`

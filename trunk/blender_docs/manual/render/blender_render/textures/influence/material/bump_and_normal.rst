@@ -73,7 +73,7 @@ this may be replaced with a single plane, oriented in the same direction as the 
 
 
 Mapping is the process of applying a texture to the low-poly mesh.
-Consult the :doc:`Textures Mapping section</render/blender_render/textures/mapping>`
+Consult the :doc:`Textures Mapping section</render/blender_render/textures/mapping/index>`
 for more information on applying a texture to a mesh's material.Special considerations for Bump and Normal Maps is:
 
 - When using a Bump map, map the texture to *Normal* and enable *No RGB*.
@@ -81,5 +81,5 @@ for more information on applying a texture to a mesh's material.Special consider
 
 The coordinate systems of the two objects must match. For example, if you bake using a UV map of the high-poly model,
 you must UV map the low poly model and line up its UV coordinates to match the outline of the high-poly image
-(see :doc:`UV unwrapping </render/blender_render/textures/mapping/uv>` to line up with the high-poly map edges.
+(see :ref:`UV unwrapping <editors-uv_image-index>` to line up with the high-poly map edges.
 
