@@ -53,14 +53,6 @@ found in the *Display* panel of the *Object data* context.
 Bone Types
 ----------
 
-.. figure:: /images/RiggingOctahedronEx3DViewEditMode.jpg
-   :width: 250px
-
-   A basic armature in Octahedron visualization, Edit mode.
-
-   Note the 40- rolled Bone.001 bone.
-
-
 Octahedral bone
    This is the default visualization, well suited for most of editing tasks. It materializes:
 
@@ -68,34 +60,31 @@ Octahedral bone
    - The bone "size" (its thickness is proportional to its length).
    - The bone roll (as it has a square section).
 
-
-   .. figure:: /images/RiggingStickEx3DViewPoseMode.jpg
+   .. figure:: /images/RiggingOctahedronEx3DViewEditMode.jpg
       :width: 250px
 
-      The same armature in Stick visualization, Pose mode.
-      Note that Bone.001 roll angle is not visible (except by its XZ axes).
+      Note the 40- rolled Bone.001 bone.
 Stick bone
    This is the simplest and most non-intrusive visualization.
    It just materializes bones by sticks of constant (and small) thickness,
    so it gives you no information about root and tip, nor bone size or roll angle.
 
-
-   .. figure:: /images/RiggingBBoneEx3DViewEditMode.jpg
+   .. figure:: /images/RiggingStickEx3DViewPoseMode.jpg
       :width: 250px
 
-      The same armature in B-Bone visualization, Edit mode.
+      Note that Bone.001 roll angle is not visible (except by its XZ axes).
 B-Bone bone
    This visualization shows the curves of "smooth" multi-segmented bones;
    see the :ref:`bone page <armature-bone-rigid>` for details.
 
-
-   .. figure:: /images/RiggingEnvelopeEx3DViewPoseMode.jpg
+   .. figure:: /images/RiggingBBoneEx3DViewEditMode.jpg
       :width: 250px
-
-      The Bone Groups panel.
 Envelope bone
    This visualization materializes the bone deformation influence.
    More on this in the :ref:`bone page <armature-bone-influence>`.
+
+   .. figure:: /images/RiggingEnvelopeEx3DViewPoseMode.jpg
+      :width: 250px
 
 
 Draw Options
