@@ -4,8 +4,7 @@
 #################
 
 .. toctree::
-	:maxdepth: 2
+   :maxdepth: 2
 
-	introduction.rst
-	environment.rst
-	uv/index.rst
+   introduction.rst
+   environment.rst

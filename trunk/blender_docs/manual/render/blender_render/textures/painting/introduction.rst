@@ -50,9 +50,9 @@ You cannot paint on a mesh in Texture Paint mode without **first** unwrapping yo
 **and** doing one of the following steps. Either:
 
 
-- :doc:`Load an image </render/blender_render/textures/mapping/uv/applying_image#load>`
+- :doc:`Load an image </editors/uv_image/applying_image#load>`
   into the UV/Image Editor (Image-->Open-->select file), or
-- :doc:`Create a new image </render/blender_render/textures/mapping/uv/applying_image#load>`
+- :doc:`Create a new image </editors/uv_image/applying_image#load>`
   (Image-->New-->specify size).
 
 After you have done one of these two things,
