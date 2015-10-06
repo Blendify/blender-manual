@@ -55,10 +55,9 @@ Getting Started
 
 
 By default, meshes are not created with UVs. First you must map the faces, then
-you can :doc:`edit them </render/blender_render/textures/mapping/uv/layout_editing>`. The process of
-unwrapping your model is done within Edit Mode in the 3D View window. This
-process creates one or more UV Islands in the
-:doc:`UV/Image Editor window </render/blender_render/textures/mapping/uv_image_editor>`.
+you can :doc:`edit them </render/blender_render/textures/mapping/uv/layout_editing>`.
+The process of unwrapping your model is done within Edit Mode in the 3D View window.
+This process creates one or more UV Islands in the :ref:`UV/Image Editor window <editors-uv_image-index>`.
 
 To begin, choose the *UV Editing* :doc:`screen layout </interface/screens>`
 from the selection list at the top of your screen in the User Preferences
@@ -485,5 +484,4 @@ Length
 Please note that it is the shape of the active quad in UV space that is being followed,
 not its shape in 3d space. To get a clean 90-degree unwrap make sure the active quad is a
 rectangle in UV space before using "Follow active quad".
-
 
