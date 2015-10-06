@@ -91,7 +91,7 @@ see the `Vertex Groups`_ description below.
     (with e.g. different armatures, or different settings...),
     working on top of each other, **or** mixing their respective effects
     (depending whether their* *MultiModifier* option is set,
-    see :doc:`their description </modifiers/deform/armature#options>` for more details),
+    see :ref:`their description <modifier-armature-multi_modifier>` for more details),
     and only one "virtual old parenting" one, which will always be at the top of the stack.
 
 Note finally that for settings that are present in both the armature's *Armature*
@@ -310,12 +310,4 @@ reaching the forearm zone - and vice versa for the forearm group weights... Of c
 this is a very raw example - skinning a realistic joint is a big job,
 as you have to carefully find good weights for each vertex,
 to have the most realistic behavior when bending - and this is not an easy thing!
-
-
-See Also
-========
-
-Making good but short examples about skinning to shapes is not an easy thing - so if you want better examples,
-have a look to :doc:`this BSoD tutorial </animation/bsod/character_animation#rigging>`,
-which illustrates (among many other things) the skinning of a simple human rig with a mesh object.
 

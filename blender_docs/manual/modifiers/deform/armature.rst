@@ -24,10 +24,8 @@ Options
 
 Object
    The name of the armature object used by this modifier.
-
 Preserve Volume
    Use quaternions for preserving volume of object during deformation. It can be better in many situations.
-
 Vertex Group
    The name of a vertex group of the object, the weights of which will be used to determine the influence of this
    *Armature* modifier's result when mixing it with the results from other *Armature* ones.
@@ -39,6 +37,8 @@ Vertex Group
       Inverts the influence set by the vertex group defined in previous setting
       (i.e. reverses the weight values of this group).
 
+.. _modifier-armature-multi_modifier:
+
 Multi Modifier
    Use the same data as a previous modifier (usually also an *Armature* modifier) as input.
    This allows you to use several armatures to deform the same object, all based on the "non-deformed" data
@@ -46,7 +46,6 @@ Multi Modifier
 
    The results of the *Armature* modifiers are then mixed together, using the weights of the
    *Vertex Group* as "mixing guides".
-
 Bind To
    Method to bind the armature to the mesh.
 
