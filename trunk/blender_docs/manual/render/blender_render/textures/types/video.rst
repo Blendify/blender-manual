@@ -38,7 +38,7 @@ Source
       Then change the Source to Image Sequence, and enter the ending frame number of this sequence.
 
 More about loading source file for video texture see
-:doc:`here </render/blender_render/textures/types/image#settings>`.
+:ref:`here <render-blender_internal-image_settings>`.
 
 Fields
    Work with field images. Video frames consist of two different images (fields) that are merged.
@@ -79,10 +79,8 @@ Use Alpha
    Premultiplied
       Transparent RGB pixels of an image are multiplied by the image's alpha value.
 
+.. seealso::
 
-About input color space for video texture see :doc:`here </render/blender_render/textures/types/image>`.
-
-About video sampling for video texture see :doc:`here </render/blender_render/textures/types/image#image_sampling>`.
-
-About video mapping for video texture see :doc:`here </render/blender_render/textures/types/image#image_mapping>`.
+   For sampling and mapping documentation see
+   :doc:`Image Texture </render/blender_render/textures/types/image>`
 

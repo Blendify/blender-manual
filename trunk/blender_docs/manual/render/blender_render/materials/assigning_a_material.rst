@@ -190,8 +190,8 @@ There are several ways to do this using the Available Materials menu:
 
 
    *Multiple Objects -* In the 3D View, with :kbd:`Ctrl-L`
-   you can quickly link all selected objects to the material (and other aspects) of the
-   :doc:`active object </modeling/objects/selecting#selections_and_the_active_object>`.
+   you can quickly link all selected objects to the material (and other aspects)
+   of the :ref:`active object <object-active>`.
    Very useful if you need to set a large number of objects to the same material;
    just select all of them,
    then the object that has the desired material, and :kbd:`Ctrl-L` link them to that "parent".

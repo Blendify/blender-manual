@@ -13,6 +13,8 @@ This section covers how to export an outline of your UV map,
 and how to load images into the UV editor.
 
 
+.. _uv_image-export_layout:
+
 Exporting UV Layout Image
 =========================
 

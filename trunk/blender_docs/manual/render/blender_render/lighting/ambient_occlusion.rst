@@ -148,8 +148,7 @@ Attenuation
 .. note:: About QMC
 
    See also the
-   :doc:`raytraced shadows page
-   </render/blender_render/lighting/shadows/raytraced_properties#what_is_quasi-monte_carlo?>`
+   :ref:`raytraced shadows page <render-blender_internal-quasi_monte_carlo>`
    for more info about the Quasi-Monte Carlo sampling method.
 
 
