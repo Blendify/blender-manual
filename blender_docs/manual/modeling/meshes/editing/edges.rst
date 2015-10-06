@@ -40,7 +40,7 @@ Mark Seam and Clear Seam
 
 
 Seams are a way to create separations, "islands", in UV maps.
-See the :doc:`UVTexturing section </render/blender_render/textures/mapping/uv>` for more details.
+See the :ref:`UVTexturing section <editors-uv_image-index>` for more details.
 These commands set or unset this flag for selected edges.
 
 
@@ -96,7 +96,7 @@ where by moving the mouse (or typing a value with the keyboard) you can set the 
 crease value of selected edges.
 To clear the crease edge property, enter a value of **-1**.
 
-.. _modeling-meshes-editing-edge-slide:
+.. _modeling-meshes-editing-edge_slide:
 
 Edge Slide
 ==========
@@ -221,7 +221,7 @@ end such that they form a continuous chain. This is *literally* a general rule b
 can still select edges in a chain that are invalid because some of the edges in the chain are
 in different edge loops.
 
-.. _modeling-meshes-editing-edges-rotate:
+.. _modeling-meshes-editing-edges_rotate:
 
 Rotate Edge
 ===========
@@ -362,7 +362,7 @@ a hole will be created, and the selected edges are duplicated to form the border
 
    Adjacent face moved to reveal hole left by split
 
-.. _modeling-meshes-editing-bridge-edge-loops:
+.. _modeling-meshes-editing-bridge_edge_loops:
 
 Bridge Edge Loops
 =================

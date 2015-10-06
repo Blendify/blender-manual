@@ -98,7 +98,7 @@ It rearrange selected triangles to obtain more "balanced" ones (i.e. less long t
 
    Result of Beauty Fill, :kbd:`Alt-Shift-F`
 
-.. _modeling-meshes-editing-grid-fill:
+.. _modeling-meshes-editing-grid_fill:
 
 Grid Fill
 ---------
@@ -283,7 +283,7 @@ It works on the shared edge between two faces and rotates that edge if the edge 
    After rotating edge
 
 
-See :ref:`Rotate Edge <modeling-meshes-editing-edges-rotate>`
+See :ref:`Rotate Edge <modeling-meshes-editing-edges_rotate>`
 for more information.
 
 
