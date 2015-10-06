@@ -17,9 +17,6 @@ as it has a more easily controlled constraining mechanism.
 
 This constraint shares a close relationship to the
 :doc:`Inverse Kinematics constraint </rigging/constraints/tracking/ik_solver>` in some ways.
-It is very important in rig design, and you should be sure to read and understand the
-:doc:`2.49 BSoD tracking tutorial </ls/animation/techs/armatures/bsod/tracking>`,
-as it centers around the use of both of these constraints.
 
 .. tip:: Billboard tracking
 
