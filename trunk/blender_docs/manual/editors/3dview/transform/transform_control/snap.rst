@@ -38,6 +38,7 @@ Cursor to Grid
 Cursor to Active
    Moves the cursor to the center of the active object.
 
+
 .. _transform-snap:
 
 Transform Snapping
@@ -51,6 +52,7 @@ in the 3D view's header buttons.
 .. figure:: /images/3D-interaction_Transform-Control_Snap-magnet-header.jpg
 
    Magnet icon in the 3D view header (red when enabled).
+
 
 .. _transform-snap-element:
 

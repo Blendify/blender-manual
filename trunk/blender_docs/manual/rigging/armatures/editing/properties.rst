@@ -449,6 +449,8 @@ symmetry fashion, and others that automatically name the bones of an armature.
 Let's look at this in detail.
 
 
+.. _armature-editing-naming_conventions:
+
 Naming Conventions
 ------------------
 
