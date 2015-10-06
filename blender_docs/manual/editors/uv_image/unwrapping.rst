@@ -14,9 +14,9 @@ but you may need to do additional mapping or editing. In this fashion,
 you can use the UV Texture image to guide additional geometry changes.
 
 This section covers techniques for Mapping Uvs.
-The next sections cover :doc:`Editing UVs </render/blender_render/textures/mapping/uv/layout_editing>`,
-followed by methods of :doc:`Managing UV Layouts </render/blender_render/textures/mapping/uv/layout_management>`,
-and :doc:`Applying Images to UVs </render/blender_render/textures/mapping/uv/applying_image>`.
+The next sections cover :doc:`Editing UVs </editors/uv_image/layout_editing>`,
+followed by methods of :doc:`Managing UV Layouts </editors/uv_image/layout_management>`,
+and :doc:`Applying Images to UVs </editors/uv_image/applying_image>`.
 
 
 About UVs
@@ -55,7 +55,7 @@ Getting Started
 
 
 By default, meshes are not created with UVs. First you must map the faces, then
-you can :doc:`edit them </render/blender_render/textures/mapping/uv/layout_editing>`.
+you can :doc:`edit them </editors/uv_image/layout_editing>`.
 The process of unwrapping your model is done within Edit Mode in the 3D View window.
 This process creates one or more UV Islands in the :ref:`UV/Image Editor window <editors-uv_image-index>`.
 
@@ -81,9 +81,9 @@ The process is:
 - Select a UV mapping method from the UV Unwrap menu
 - Adjust the unwrap settings
 - Add a test image to see if there will be any distortion.
-  See :doc:`Applying Images to UVs </render/blender_render/textures/mapping/uv/applying_image>`
+  See :doc:`Applying Images to UVs </editors/uv_image/applying_image>`
 - Adjust UVs in the UV editor.
-  See :doc:`Editing UVs </render/blender_render/textures/mapping/uv/layout_editing>`
+  See :doc:`Editing UVs </editors/uv_image/layout_editing>`
 
 
 Mapping Types
@@ -160,7 +160,7 @@ Cube
 
 Cube mapping projects s mesh onto six separate planes, creating 6 UV islands.
 In the UV editor, these will appear overlapped, but can be moved.
-See :doc:`Editing UVs </render/blender_render/textures/mapping/uv/layout_editing>`.
+See :doc:`Editing UVs </editors/uv_image/layout_editing>`.
 
 Cube Size
    Set the size of the cube to be projected onto.
@@ -452,7 +452,7 @@ Share Tex Space
    It attempts to fit all of the objects' faces in the UV bounds without overlapping.
 New UV Layer
    If mapping multiple meshes, this option creates a new UV layer for each mesh.
-   See :doc:`Managing the Layout </render/blender_render/textures/mapping/uv/layout_management>`.
+   See :doc:`Managing the Layout </editors/uv_image/layout_management>`.
 New Image
    Assigns new images for every mesh, but only one if *Shared Tex Space* is enabled.
 
