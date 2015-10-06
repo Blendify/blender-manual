@@ -37,7 +37,7 @@ across layers and only display those layers you wish to work on.
 
 .. seealso::
 
-   :ref:`armature_layers`
+   :ref:`armature-layers`
 
 
 Working with Layers

@@ -58,10 +58,10 @@ control the render face size:
 
 :doc:`Subdivision Surface </modifiers/generate/subsurf>` **Meshes**
    Rendered face size is controlled with render subsurf level. Displacement really likes smooth normals.
-Manually ( *Edit Mode* ) :doc:`subdivided </modeling/meshes/advanced_tools#subdivide>` meshes
+Manually ( *Edit Mode* ) :doc:`subdivided </modeling/meshes/editing/subdividing/subdivide>` meshes
    Control render faces with number of subdivides.
    (This can be combined with the above methods.) Displaces exactly the same Simple Subsurf,
-   but slows editing down because of the OpenGL overhead of drawing the extra faces.
+   but slows editing down because of drawing overhead of drawing the extra faces.
    (You can't turn the edit subdivide level down this way).
 :doc:`Meta Objects </modeling/metas/introduction>`
    Control render faces with render wiresize. Small wire == more faces.
