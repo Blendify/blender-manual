@@ -19,7 +19,7 @@ as they are common to most object editing, and already described
 :doc:`here </editors/3dview/transform/transform_control/index>`
 (note however that some options, like snapping, do not seem to work, even though they are available...).
 The same goes for mirroring,
-as it's nearly the same as with :doc:`mesh editing </modeling/meshes/tools/transform_deform#mirror>`.
+as it's nearly the same as with :doc:`mesh editing </modeling/meshes/editing/deforming/mirror>`.
 Just keep in mind that bones' roots and tips behave more or less like meshes' vertices,
 and bones themselves act like edges in a mesh.
 
@@ -225,6 +225,8 @@ with bones rolled in all angles... nasty! To address this problem, you have thre
   will set the selected bone roll so that their Z axis is as much as possible pointed to the 3D cursor.
 
 
+.. _armature-bone_properties:
+
 Properties
 ==========
 
@@ -274,7 +276,7 @@ Hinge (also :menuselection:`[shift][W] --> Hinge` & co), S (also :menuselection:
    so this will be detailed in the :doc:`posing part </rigging/posing>` !
 Hide
    This will hide the bone (same as pressing :kbd:`H` in the 3D views;
-   see :doc:`this page </rigging/armatures/visualization#hiding_bones>`).
+   see :ref:`this page <armature-bone_hide>`).
 Lock (also :menuselection:`[shift][W] --> Locked` & co)
    This will prevent all editing of the bone in *Edit* mode;
    see :doc:`previous page </rigging/armatures/editing/bones>`.
@@ -323,7 +325,7 @@ it is **1**, which gives a standard rigid bone! The higher this setting (max **3
 but the heavier the pose calculations...
 
 Each bone's ends are mapped to its "virtual" Bezier curve's
-:doc:`"auto" </modeling/curves/introduction#editing_bezier_curves>`
+:ref:`"auto" <curve-handle_type-auto>`
 handle. Therefore, you can't control their direction,
 but you can change their "length" using the *In* and *Out* numeric fields,
 to control the "root handle" and "tip handle" of the bone, respectively.
@@ -424,6 +426,8 @@ To disconnect and/or free bones, you can:
 
 Note that relationships with non-selected children are never modified.
 
+
+.. _armature-editing-naming_bones:
 
 Naming Bones
 ============

@@ -108,6 +108,8 @@ scaled and shrunk/fattened like any vertex in a mesh.
 Bezier Curve Handle Types
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.. _curve-handle_type-auto:
+
 Automatic :kbd:`V-A`
    This handle has a completely automatic length and direction which is set by Blender to
    ensure the smoothest result.

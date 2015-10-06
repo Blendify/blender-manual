@@ -299,6 +299,8 @@ you have to select the chosen bone(s)!
   Note that this way, *you assign the same layers to all selected bones*.
 
 
+.. _armature-bone_hide:
+
 Hiding Bones
 ************
 
