@@ -51,11 +51,6 @@ UV
 Strand/Particle
    Uses normalized 1D strand texture coordinate or particle age(X) and trail position (Y).
    Use when texture is applied to hair strands or particles.
-Sticky
-   Uses a mesh's sticky coordinates, which are a form of per-vertex UV co-ordinates.
-   If you have made sticky coordinates first (in (usually)
-   Camera View` --> :kbd:`Spacebar` --> type *Sticky* --> choose *Add Sticky* / *Remove Sticky*)
-   the texture can be rendered in camera view (so called :doc:`Camera Mapping </ls/textures/uv/camera_mapping>`).
 Window
    The rendered image window coordinates. This is well suited to blending two objects.
 Normal
