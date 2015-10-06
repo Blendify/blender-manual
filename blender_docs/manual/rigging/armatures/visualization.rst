@@ -31,7 +31,7 @@ We have 4 basic bone visualization: Octahedral, Stick, B-Bone, Envelope and Wire
 
 
 Display Panel
-*************
+=============
 
 .. admonition:: Reference
    :class: refbox
@@ -50,8 +50,8 @@ found in the *Display* panel of the *Object data* context.
    The Display panel.
 
 
-Bone types
-==========
+Bone Types
+----------
 
 .. figure:: /images/RiggingOctahedronEx3DViewEditMode.jpg
    :width: 250px
@@ -62,58 +62,44 @@ Bone types
 
 
 Octahedral bone
----------------
+   This is the default visualization, well suited for most of editing tasks. It materializes:
 
-This is the default visualization, well suited for most of editing tasks. It materializes:
-
-- The bone root ("big" end) and tip ("small" end).
-- The bone "size" (its thickness is proportional to its length).
-- The bone roll (as it has a square section).
+   - The bone root ("big" end) and tip ("small" end).
+   - The bone "size" (its thickness is proportional to its length).
+   - The bone roll (as it has a square section).
 
 
-.. figure:: /images/RiggingStickEx3DViewPoseMode.jpg
-   :width: 250px
+   .. figure:: /images/RiggingStickEx3DViewPoseMode.jpg
+      :width: 250px
 
-   The same armature in Stick visualization, Pose mode.
-   Note that Bone.001 roll angle is not visible (except by its XZ axes).
-
-
+      The same armature in Stick visualization, Pose mode.
+      Note that Bone.001 roll angle is not visible (except by its XZ axes).
 Stick bone
-----------
-
-This is the simplest and most non-intrusive visualization.
-It just materializes bones by sticks of constant (and small) thickness,
-so it gives you no information about root and tip, nor bone size or roll angle.
+   This is the simplest and most non-intrusive visualization.
+   It just materializes bones by sticks of constant (and small) thickness,
+   so it gives you no information about root and tip, nor bone size or roll angle.
 
 
-.. figure:: /images/RiggingBBoneEx3DViewEditMode.jpg
-   :width: 250px
+   .. figure:: /images/RiggingBBoneEx3DViewEditMode.jpg
+      :width: 250px
 
-   The same armature in B-Bone visualization, Edit mode.
-
-
+      The same armature in B-Bone visualization, Edit mode.
 B-Bone bone
------------
-
-This visualization shows the curves of "smooth" multi-segmented bones;
-see the :ref:`bone page <armature-bone-rigid>` for details.
+   This visualization shows the curves of "smooth" multi-segmented bones;
+   see the :ref:`bone page <armature-bone-rigid>` for details.
 
 
-.. figure:: /images/RiggingEnvelopeEx3DViewPoseMode.jpg
-   :width: 250px
+   .. figure:: /images/RiggingEnvelopeEx3DViewPoseMode.jpg
+      :width: 250px
 
-   The Bone Groups panel.
-
-
+      The Bone Groups panel.
 Envelope bone
--------------
-
-This visualization materializes the bone deformation influence.
-More on this in the :ref:`bone page <armature-bone-influence>`.
+   This visualization materializes the bone deformation influence.
+   More on this in the :ref:`bone page <armature-bone-influence>`.
 
 
-Attributes
-==========
+Draw Options
+------------
 
 Names
    When enabled, the name of each bone is drawn.
@@ -135,7 +121,7 @@ Delay Refresh
 
 
 Shaped Bones
-============
+------------
 
 .. admonition:: Reference
    :class: refbox
@@ -221,7 +207,7 @@ with their center at their lower-Y end, and an overall Y length of **1.0** BU.
 .. _armature-layers:
 
 Armature Layers
-***************
+===============
 
 .. admonition:: Reference
    :class: refbox
@@ -243,7 +229,7 @@ hide or show one or several layers, etc.
 
 
 Showing/hiding bone layers
-==========================
+--------------------------
 
 Only bones in active layers will be visible/editable - but they will always be effective
 (i.e move objects or deform geometry), whether in an active layer or not. To
@@ -259,7 +245,7 @@ Only bones in active layers will be visible/editable - but they will always be e
 
 
 Protected Layers
-================
+----------------
 
 You can lock a given bone layer for all :ref:`proxies <object-proxy>`
 of your armature, i.e. all bones in this layer won't be editable.
@@ -269,7 +255,7 @@ Protected layers in proxy are restored to proxy settings on file reload and undo
 
 
 Bone Layers
-***********
+===========
 
 .. admonition:: Reference
    :class: refbox
@@ -285,7 +271,7 @@ Bone Layers
 
 
 Moving bones between layers
-===========================
+---------------------------
 
 Obviously, you have to be in *Edit* or *Pose* modes to move bones between
 layers - note that as with objects, bones can lay in several layers at once,
@@ -302,7 +288,7 @@ you have to select the chosen bone(s)!
 .. _armature-bone_hide:
 
 Hiding Bones
-************
+============
 
 .. admonition:: Reference
    :class: refbox
@@ -333,5 +319,4 @@ they will still be visible in *Pose* mode, and vice-versa.
 Hidden bone in *Pose* mode are also invisible in *Object* mode.
 And in *Edit* mode, the bone to hide must be fully selected,
 not just his root or tip...
-
 
