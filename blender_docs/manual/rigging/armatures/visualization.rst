@@ -96,7 +96,7 @@ B-Bone bone
 -----------
 
 This visualization shows the curves of "smooth" multi-segmented bones;
-see the :doc:`bone page </rigging/armatures/bones#bones_rigidity>` for details.
+see the :ref:`bone page <armature-bone-rigid>` for details.
 
 
 .. figure:: /images/RiggingEnvelopeEx3DViewPoseMode.jpg
@@ -109,7 +109,7 @@ Envelope bone
 -------------
 
 This visualization materializes the bone deformation influence.
-More on this in the :doc:`bone page </rigging/armatures/bones#bones_influence>`.
+More on this in the :ref:`bone page <armature-bone-influence>`.
 
 
 Attributes
@@ -217,7 +217,8 @@ Note that:
 So to summarize all this, you should use meshes as shape objects,
 with their center at their lower-Y end, and an overall Y length of **1.0** BU.
 
-.. _armature_layers:
+
+.. _armature-layers:
 
 Armature Layers
 ***************

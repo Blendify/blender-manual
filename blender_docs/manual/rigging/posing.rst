@@ -40,9 +40,3 @@ So if you know nothing about animation in Blender,
 it might be a good idea to read the :doc:`animation features and techniques </animation/index>` chapter first,
 and then come back here.
 
-
-.. seealso::
-
-   As usual, see the :doc:`tutorials </rigging/index>` for more demonstrative examples,
-   and especially :doc:`this BSoD one </animation/bsod/character_animation#animation>`.
-

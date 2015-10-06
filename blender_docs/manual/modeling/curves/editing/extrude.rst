@@ -74,7 +74,7 @@ Open 2D Curve
    the wall becomes a sort of slide or gutter.
    Note the direction of this bevel is sometimes strange and unpredictable, often the reverse of what you would get
    with the same curve closed? You can inverse this direction by
-   :doc:`switching the direction </modeling/curves/editing/introduction#switch_direction>` of the curve.
+   :ref:`switching the direction <curve-switch_direction>` of the curve.
 
    This allows you, e.g., to quickly simulate a marble rolling down a complex slide,
    by combining an extruded beveled curve,

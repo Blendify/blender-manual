@@ -39,7 +39,7 @@ so by transforming a bone, you will affect all its connected parent/children/sib
 
 Finally, you can edit in the *Transform Properties* panel (:kbd:`N`)
 the positions and radius of both ends of the active selected bone,
-as well as its :doc:`roll rotation </rigging/armatures/editing/properties#bone_roll>`.
+as well as its :ref:`roll rotation <armature-bone_roll>`.
 
 
 Radius and Scaling in Envelope Visualization
@@ -192,6 +192,8 @@ but in "reversed order". See the *Switching example*.
           Bone.003 is now a free bone.
 
 
+.. _armature-bone_roll:
+
 Bone Roll
 =========
 
@@ -261,7 +263,7 @@ child of
    `Chain Editing`_.
 Segm
    This setting controls the number of segments that a bone has; see
-   `Bone Rigidity Settings`_.
+   `Bone Rigidity`_.
 Dist, Weight, Deform
    (also :menuselection:`[shift][W] --> Deform` & co), Mult (also :menuselection:`[shift][W] --> Mult VG` & co)
 
@@ -278,11 +280,13 @@ Lock (also :menuselection:`[shift][W] --> Locked` & co)
    see :doc:`previous page </rigging/armatures/editing/bones>`.
 Layers button
    These small buttons allow you to control to which bone layer this bone belongs;
-   see :doc:`this page </rigging/armatures/visualization#bone_layers>`.
+   see :ref:`this page <armature-layers>`.
 
 
-Bone Rigidity Settings
-======================
+.. _armature-bone-rigid:
+
+Bone Rigidity
+=============
 
 .. admonition:: Reference
    :class: refbox
@@ -341,6 +345,8 @@ angle with previous/next bones in the chain, and so on.
 
           Bone.004 with In at 2.0, and Out at 0.0.
 
+
+.. _armature-bone_chain_edit:
 
 Chain Editing
 =============

@@ -6,8 +6,7 @@ Armature Structure
 .. figure:: /images/Quick51.jpg
    :width: 250px
 
-   The very basic armature of the
-   :doc:`Gingerbread Man tutorial </your_first_animation/2.animating_the_gingerbread_man>`.
+   Example of a very basic armature.
 
 Armatures mimic real skeletons. They are made out of bones, which are (by default) rigid elements.
 But you have more possibilities than with real skeletons: In addition to the "natural" rotation of bones,
@@ -16,6 +15,8 @@ they can be completely free if you want. However,
 the most natural and useful setups imply that some bones are related to others, forming so-called "chains of bones",
 which create some sort of "limbs" in your armature, as detailed in `Chains of Bones`_.
 
+
+.. _armature-bone_chain:
 
 Chains of Bones
 ===============
@@ -55,7 +56,7 @@ their relationships have no effect on bone transformations in this mode
 Editing Bones Relationships
 ---------------------------
 
-This is detailed in the :doc:`editing pages </rigging/armatures/editing/properties#chain_editing>`,
+This is detailed in the :ref:`editing pages <armature-bone_chain_edit>`,
 but let us have a quick look at this important feature.
 
 

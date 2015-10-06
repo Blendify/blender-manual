@@ -16,6 +16,8 @@ you want to designate one object as the parent of all the children. Movement,
 rotation or scaling of the parent also affects the children.
 
 
+.. _object-parenting:
+
 Parenting objects
 =================
 

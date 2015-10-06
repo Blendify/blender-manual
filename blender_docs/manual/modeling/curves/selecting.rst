@@ -90,8 +90,8 @@ based on the current selection (i.e.
 the control points following or preceding the selected ones along the curve).
 
 
-More and Less
-=============
+Select More / Less
+==================
 
 .. admonition:: Reference
    :class: refbox
@@ -101,11 +101,7 @@ More and Less
    | Hotkey:   :kbd:`Ctrl-NumpadPlus` / :kbd:`Ctrl-NumpadMinus`
 
 
-These two options are complementary and similar to
-:doc:`those for meshes </modeling/meshes/selecting/advanced#less_and_more>`.
 Their purpose, based on the currently selected control points, is to reduce or enlarge this selection.
-
-The algorithm is the same as with meshes, but results are more easy to understand:
 
 More
    for each selected control point, select **all** its linked points (i.e. one or two...).
