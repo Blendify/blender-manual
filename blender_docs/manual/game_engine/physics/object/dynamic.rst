@@ -12,11 +12,6 @@ If you do not need the rotational response the Dynamic type can save the extra c
 Note that these objects can still be rotated with :doc:`Logic Bricks </game_engine/logic/index>` or Python code.
 Their physics meshes will update when you do these rotations - so collisions will be based on the new orientations.
 
-In the example game demo, :doc:`Frijoles </ls/frijoles>`,
-the Dynamic type is represented by the titular jumping beans.
-Though we want these characters to recoil back when they hit a Boulder or each other,
-having them torque in response to these collisions would result in their being impossible to control.
-
 For more documentation, see the :doc:`Top BGE Physics page </game_engine/physics/index>`.
 
 

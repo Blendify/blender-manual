@@ -12,9 +12,6 @@ Do not despair, we are here to help you get some reasonable settings.
 Your setup will involve making sure you have sufficient geometry in the Soft Body's mesh to
 support the deformation, as well as tweaking the options.
 
-In the example game demo, :doc:`Frijoles </ls/frijoles>`,
-the Soft Body type is represented by the decorative checkered flag at the top of the level.
-
 For more documentation, see the :doc:`Top BGE Physics page </game_engine/physics/index>`.
 
 
@@ -129,7 +126,7 @@ Hints
 =====
 
 - A very important configurable in the case of Soft Body interactions is
-  :doc:`World properties </game_engine/world>` :menuselection:`--> Physics --> Physics Steps --> Substeps`.
+  :doc:`World properties </game_engine/physics/world>` :menuselection:`--> Physics --> Physics Steps --> Substeps`.
   In the test ``.blend`` here:
   `Manual-BGE-Physics-SoftBody_PhysicsSteps.blend
   <http://wiki.blender.org/index.php/Media:Manual-BGE-Physics-SoftBody_PhysicsSteps.blend>`__,

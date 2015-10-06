@@ -8,9 +8,6 @@ No Collision Physics Object Type
 They are useful as pure display objects, such as the child of a *Custom Collision Hull*
 (:ref:`game_engine-physics-object-collision_bounds`).
 
-In the example game demo, :doc:`Frijoles </ls/frijoles>`,
-the No Collision type is represented by the "HUD" objects that display the health status.
-
 For more documentation, see the :doc:`Top BGE Physics page </game_engine/physics/index>`.
 
 

@@ -18,3 +18,5 @@
    object/vehicle.rst
    object/occluder.rst
    object/sensor.rst
+   object/character.rst
+   object/navigation_mesh.rst

@@ -21,9 +21,6 @@ Another important note is that the default
 is a Triangle Mesh, meaning it is higher in computational requirements but also in detail.
 This in turn means the "Radius" option has no effect by default.
 
-In the example game demo, :doc:`Frijoles </ls/frijoles>`,
-the Static type is represented by the "Arena" object that holds all the moving bits.
-
 For more documentation, see the :doc:`Top BGE Physics page </game_engine/physics/index>`.
 
 
