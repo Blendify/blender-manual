@@ -106,7 +106,7 @@ Render Settings
   - Disable *Edge* rendering.
   - *Save Buffers*.
 
-  - Render to an :doc:`Image Editor </ce/windows/uv-image>` window,
+  - Render to an :ref:`Image Editor <editors-uv_image-index>` window,
     not a pop-up. :doc:`Render Window </render/display>`.
   - Use multiple *Threads* on a multi-core CPU (with multiple *Parts*).
 - :doc:`Render Layers Panel </render/post_process/layers>`

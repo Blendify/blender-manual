@@ -15,6 +15,4 @@ This section is organized by type of node, which are grouped based on similar fu
    Change the way light is reflected off the material.
 :doc:`Convertors </render/blender_render/materials/nodes/types/converter>`
    Convert colors to other material colors.
-:doc:`Dynamic </materials/nodes/types/dynamic>`
-   Custom nodes defined by Python. These are also known as PyNodes.
 
