@@ -30,7 +30,6 @@ Color
    Amount texture affect the basic color or RGB value of the material
 Alpha
    Influences the opacity of the material.
-   See :doc:`Use Alpha for Object Transparency </ls/textures/use_alpha_for_object_transparency>`.
    Also use *Z Transparency* for light and if combining multiple channels.
 Translucency
    Influences the Translucency amount.

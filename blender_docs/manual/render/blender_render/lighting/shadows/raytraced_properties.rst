@@ -119,6 +119,8 @@ Threshold
    The maximum *Threshold* value is ``1.0``.
 
 
+.. _render-blender_internal-quasi_monte_carlo:
+
 What is Quasi-Monte Carlo?
 **************************
 

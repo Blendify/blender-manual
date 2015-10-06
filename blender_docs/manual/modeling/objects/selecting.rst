@@ -13,6 +13,8 @@ Blender has advanced selection methods.
 Both in *Object mode* and in *Edit mode*.
 
 
+.. _object-active:
+
 Selections and the Active Object
 ================================
 
