@@ -23,8 +23,8 @@ For a discussion on how to partially overcome this, see:
 Global Options
 ==============
 
-The global Physics Engine settings can be found in the :doc:`World Properties </game_engine/world>`, which
-include the Gravity constant and some important engine performance tweaks.
+The global Physics Engine settings can be found in the :doc:`World Properties </game_engine/physics/world>`,
+which include the Gravity constant and some important engine performance tweaks.
 
 
 Object Physics

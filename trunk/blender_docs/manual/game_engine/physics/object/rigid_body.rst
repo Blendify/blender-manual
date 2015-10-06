@@ -12,10 +12,6 @@ The idea behind Rigid Body dynamics is that the mesh does not deform.
 If you need deformation you will need to either go to
 :doc:`Soft Body </game_engine/physics/object/soft_body>` or else fake it with animated Actions.
 
-In the example game demo, :doc:`Frijoles </ls/frijoles>`,
-the Rigid Body type is represented by the Boulders that spawn from the top of the level.
-Notice how they tumble and roll in response to the collisions with the Arena.
-
 For more documentation, see the :doc:`Top BGE Physics page </game_engine/physics/index>`.
 
 

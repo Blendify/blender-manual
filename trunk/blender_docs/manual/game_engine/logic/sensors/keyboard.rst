@@ -10,7 +10,7 @@ Keyboard Sensor
 
 
 The *Keyboard* sensor is for detecting keyboard input.
-It can also save keyboard input to a :doc:`String property </game_engine/logic/properties#property_types>`.
+It can also save keyboard input to a :ref:`String property <game_engine-property_types>`.
 
 See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
 
@@ -27,7 +27,7 @@ A FALSE pulse is given when the key is released.
 All keys button
    Sends a TRUE pulse when any key is pressed.
    This is useful for custom key maps with a
-   :doc:`Python controller </game_engine/logic/controllers#python_controller>`.
+   :doc:`Python controller </game_engine/logic/controllers/python>`.
 First Modifier, Second Modifier
    Specifies additional key(s), all of which must be held down while
    the active key is pressed in order for the sensor to give a TRUE pulse.

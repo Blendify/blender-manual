@@ -7,6 +7,8 @@ Properties are the game logic equivalent to variables. They are stored with the 
 and can be used to represent things about them such as ammo, health, name, and so on.
 
 
+.. _game_engine-property_types:
+
 Property Types
 --------------
 
