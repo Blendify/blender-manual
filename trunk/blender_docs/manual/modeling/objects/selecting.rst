@@ -6,7 +6,7 @@ Selecting
 *********
 
 Introduction
-************
+============
 
 Selection determines which elements will be the target of our actions.
 Blender has advanced selection methods.
@@ -14,7 +14,7 @@ Both in *Object mode* and in *Edit mode*.
 
 
 Selections and the Active Object
-********************************
+================================
 
 Blender distinguishes between two different states of selection:
 
@@ -36,7 +36,7 @@ Blender distinguishes between two different states of selection:
 
 
 Point Selection
-***************
+===============
 
 The simplest form of object *selection* consists of using :kbd:`RMB` on it.
 
@@ -57,7 +57,7 @@ Otherwise it just adds those to the selection. There appears to be no workaround
 
 
 Rectangular or Border Select
-****************************
+============================
 
 .. admonition:: Reference
    :class: refbox
@@ -68,7 +68,7 @@ Rectangular or Border Select
 
 
 Description
-===========
+-----------
 
 With *Border Select* you draw a rectangle while holding down :kbd:`LMB`.
 Any object that lies even partially within this rectangle becomes selected.
@@ -80,7 +80,7 @@ To cancel the selection use :kbd:`RMB`.
 
 
 Example
-=======
+-------
 
 .. figure:: /images/Object-Selection-Border.jpg
    :width: 610px
@@ -99,14 +99,14 @@ the last selected object prior to using the *Border Select* tool.
 
 
 Hints
-=====
+-----
 
 *Border Select* adds to the previous selection, so in order to select only the contents of the rectangle,
 deselect all with :kbd:`A` first.
 
 
 Lasso Select
-************
+============
 
 .. admonition:: Reference
    :class: refbox
@@ -117,14 +117,14 @@ Lasso Select
 
 
 Description
-===========
+-----------
 
 Lasso select is used by drawing a dotted line around the pivot point of the objects,
 in *Object mode*.
 
 
 Usage
-=====
+-----
 
 While holding :kbd:`Ctrl` down, you simply have to draw around the pivot point of each
 object you want to select with :kbd:`LMB`.
@@ -139,7 +139,7 @@ Lasso select adds to the previous selection. For deselection, use :kbd:`Ctrl-Shi
 
 
 Circle Select
-*************
+=============
 
 .. admonition:: Reference
    :class: refbox
@@ -150,7 +150,7 @@ Circle Select
 
 
 Description
-===========
+-----------
 
 .. figure:: /images/Object-Selection-Circle0.jpg
    :width: 100px
@@ -178,7 +178,7 @@ To cancel the selection use :kbd:`RMB` or key :kbd:`Esc`,
 
 
 Menu Selection
-**************
+==============
 
 The selection methods described above are the most common.
 There are also many more options accessible through the *Select* menu of the 3D view.
@@ -187,7 +187,7 @@ Each is more adapted to certain operations.
 
 
 Select Grouped
-==============
+--------------
 
 .. admonition:: Reference
    :class: refbox
@@ -198,7 +198,7 @@ Select Grouped
 
 
 Description
------------
+^^^^^^^^^^^
 
 .. figure:: /images/Object-Selection-Grouped.jpg
 
@@ -212,7 +212,7 @@ groups.
 
 
 Options
--------
+^^^^^^^
 
 *Select* --> *Grouped* in *Object mode* uses the active object as a basis to select all others.
 
@@ -254,7 +254,7 @@ Pass Index
 
 
 Select linked
-=============
+-------------
 
 .. admonition:: Reference
    :class: refbox
@@ -265,13 +265,13 @@ Select linked
 
 
 Description
------------
+^^^^^^^^^^^
 
 Selects all objects which share a common datablock with the active object.
 
 
 Options
--------
+^^^^^^^
 
 *Select* --> *Linked* in *Object mode* uses the active object as a basis to select all others.
 
@@ -296,7 +296,7 @@ Library
 
 
 Select All by Type
-==================
+------------------
 
 .. admonition:: Reference
    :class: refbox
@@ -307,7 +307,7 @@ Select All by Type
 
 
 Description
------------
+^^^^^^^^^^^
 
 The types are *Mesh*, *Curve*, *Surface*, *Meta*,
 *Font*, *Armature*, *Lattice*, *Empty*,
@@ -318,7 +318,7 @@ one go.
 
 
 Options
--------
+^^^^^^^
 
 *Select All by Type* in *Object* mode offers an option for every type
 of object that can be described by the *ObData* datablock.
@@ -327,7 +327,7 @@ Just take your pick.
 
 
 Select All by Layer
-===================
+-------------------
 
 .. admonition:: Reference
    :class: refbox
@@ -338,7 +338,7 @@ Select All by Layer
 
 
 Description
------------
+^^^^^^^^^^^
 
 .. figure:: /images/Object-Selection-AllByLayer.jpg
 
@@ -355,7 +355,7 @@ visible or not, in one single command.
 
 
 Options
--------
+^^^^^^^
 
 In the *Tool Shelf* --> *Select by Layer* the following options are available:
 
@@ -375,7 +375,7 @@ Layer
 
 
 Other Menu Options
-==================
+------------------
 
 Available options on the first level of the menu are:
 
@@ -404,5 +404,4 @@ Inverse (:kbd:`Ctrl-I`)
 (De)select All (:kbd:`A`)
    If anything was selected it is first deselected.
    Otherwise it toggles between selecting and deselecting every visible object.
-
 
