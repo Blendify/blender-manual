@@ -55,10 +55,10 @@ Available Constraints
 There are several types of constraints. We can classify them into four families:
 
 
-- :doc:`Motion Tracking </rigging/constraints#motion_tracking>`
-- :doc:`Transform </rigging/constraints#transform_constraints>`
-- :doc:`Tracking </rigging/constraints#tracking_constraints>`
-- :doc:`Relationship </rigging/constraints#relationship_constraints>`
+- `Motion Tracking`_
+- `Transform Constraints`_
+- `Tracking Constraints`_
+- `Relationship Constraints`_
 
 
 There are constraints that works with their *owner* object and others that need a second
@@ -69,6 +69,8 @@ between the owner and target objects.
 
 Motion Tracking
 ---------------
+
+.. TODO: document
 
 - Camera Solver
 - Object Solver
