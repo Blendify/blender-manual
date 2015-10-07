@@ -106,8 +106,6 @@ Once you have that new window, you can move it to the other monitor
 you can also arrange its contents in the same way discussed so far (split and resize frames,
 and tune them as needed), and so on.
 
-There is, though, another way to get an extra window: *File* --> *User Preferences...*
-(or :kbd:`Ctrl-Alt-U`) pops a new window also,
-with the *User Preferences* window in its only frame.
-You can then proceed the same way with this window.
+There is, though, another way to get an extra window: :menuselection:`File --> User Preferences...`
+pops a new window also, with the *User Preferences* window in its only frame.
 
