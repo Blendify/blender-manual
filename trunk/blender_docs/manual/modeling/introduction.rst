@@ -77,10 +77,6 @@ there are a number of very useful scripts that assist you in modeling.
 They may give you new mesh primitives to work with,
 or apply some fancy manipulation of the meshes that you are already working with.
 
-Modeling scripts are generally more advanced, but also less frequently used
-programmatic effects that can be a huge time saver in certain cases.
-
-The included :doc:`spin </modeling/meshes/editing/duplicating/spin>`
-and :doc:`screw </modeling/meshes/editing/duplicating/screw>` functions are two examples of modeling scripts that
-might otherwise take significantly more work to replicate by hand through mesh or curve modeling.
+Modeling scripts are an advanced topic,
+while not essential automating some tasks can be a huge time saver in certain cases.
 
