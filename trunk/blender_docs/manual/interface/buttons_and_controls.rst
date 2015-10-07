@@ -159,7 +159,7 @@ Plurals of the names are recognized too, so ``meter`` and ``meters`` can both be
      - 0.0254
    * - foot, feet
      - ``'``, ``ft``
-     - 0.0254
+     - 0.3048
    * - yard
      - ``yd``
      - 0.9144
@@ -217,7 +217,8 @@ Menu Shortcuts
 - Arrow keys can be used to navigate.
 - Each menu item has an underlined character which can be pressed to activate it.
 - Number keys or num-pad can be used to access menu items.
-  (Where :kbd:`1` is the first menu item, :kbd:`2` the second... etc).
+  (Where :kbd:`1` is the first menu item, :kbd:`2` the second... etc.
+  For larger menus :kbd:`Alt-1` the 11th... up to :kbd:`Alt-0` the 20th)
 - Press :kbd:`Return` to activate the selected menu item.
 - Press :kbd:`Esc` to cancel the menu.
 
@@ -308,7 +309,7 @@ While Hovering
 
    - :kbd:`I` - insert a keyframe.
    - :kbd:`Alt-I` - clear the keyframe.
-   - :kbd:`Alt-Shift-I` - clear all keyframes.
+   - :kbd:`Alt-Shift-I` - clear all keyframes (removing all F-Curves).
    - :kbd:`D` - assign a driver.
    - :kbd:`Alt-D` - clear the driver.
    - :kbd:`K` - add a keying set.
