@@ -72,5 +72,5 @@ Invisible
 Collision Bounds
 ================
 
-See :doc:`Here <game_engine-physics-types>`.
+See :ref:`Here <game_engine-physics-types>`.
 
