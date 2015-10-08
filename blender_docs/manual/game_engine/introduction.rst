@@ -45,7 +45,7 @@ physics and rendering simulations in sequential order. The engine is written in 
 
 By default, the user has access to a powerful, high level, Event Driven
 :doc:`Logic Editor </game_engine/logic/editor>`
-which is comprised of a seriers of specialised components called "Logic Bricks".
+which is comprised of a series of specialized components called "Logic Bricks".
 The :doc:`Logic Editor </game_engine/logic/editor>` provides deep interaction with the simulation,
 and its functionality can be extended through Python scripting.
 It is designed to abstract the complex engine features into a simple user interface,
@@ -55,7 +55,7 @@ can be found in the :doc:`Game Logic Screen Layout </game_engine/screen_layout>`
 
 
 The Game Engine is closely integrated with the existing code base of Blender, which permits
-quick transitions between the traditional modeling featureset and game-specific functionality
+quick transitions between the traditional modeling feature set and game-specific functionality
 provided by the program. In this sense,
 the Game Engine can be efficiently used in all areas of game design,
 from prototyping to final release.
@@ -68,7 +68,7 @@ project.
 There are a number of powerful libraries included in the 2.5 / 2.6 releases of Blender,
 including:
 
-- Recast - a state of the art navigation mesh construction toolset for games.
+- Recast - a state of the art navigation mesh construction tool set for games.
 - Detour - a path-finding and spatial reasoning toolkit.
 - Bullet - a physics engine featuring 3D collision detection, soft body dynamics, and rigid body dynamics
 - Audaspace - a sound library for control of audio. Uses OpenAL or SDL
@@ -76,7 +76,7 @@ including:
 When creating a game or simulation in the BGE, there are four essential steps:
 
 - Create visual elements that can be rendered. This could be 3D models or images.
-- Enable interaction within the scene using logic bricks to script custom behaviour and determine how it is invoked
+- Enable interaction within the scene using logic bricks to script custom behavior and determine how it is invoked
   (using the appropriate "sensors" such as keyboards or joysticks).
 - Create one (or more) camera to give a frustrum from which to render the scene,
   and modify the parameters to support the environment in which the game will be displayed, such as Stereo rendering.
