@@ -4,8 +4,6 @@
   Properties Editor
 ####################
 
-TODO - see: https://developer.blender.org/T42899
-
 .. toctree::
 
-   contexts.rst
+   introduction.rst
