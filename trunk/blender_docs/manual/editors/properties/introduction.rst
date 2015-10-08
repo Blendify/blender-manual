@@ -27,6 +27,8 @@ These tabs are used to add features, and to change properties for the Active Sce
 
    Scene / Render tabs.
 
+.. _properties-context-render:
+
 Render
    Everything related to render output (dimensions, anti-aliasing, performance etc).
 Render Layers
