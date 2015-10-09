@@ -334,4 +334,3 @@ While Editing Text
 All Modes
    - :kbd:`Esc`, :kbd:`RMB` - cancels.
    - :kbd:`Return`, :kbd:`LMB` - confirms.
-

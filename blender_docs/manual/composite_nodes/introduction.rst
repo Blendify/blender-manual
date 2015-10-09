@@ -1,5 +1,4 @@
 
-
 ************
 Introduction
 ************
@@ -14,7 +13,7 @@ you use composition nodes to both assemble video clips together, and enhance the
 
 .. note:: Term: Image
 
-   We use the term *Image* to refer to a single picture,
+   The term *Image* may refer to a single picture,
    a picture in a numbered sequence of images,
    or a frame of a movie clip.
    A node layout processes one image at a time, no matter what kind of input you provide.
@@ -30,12 +29,6 @@ optionally merge it with other images, and finally save it.
 
 The example to the right shows the simplest node setup;
 an input node links the camera view to an output node so it can be saved.
-
-
-FIXME(Template Unsupported: Doc:2.6/Reference/Nodes/Concepts;
-{{Doc:2.6/Reference/Nodes/Concepts}}
-)
-
 
 Accessing and Activating Nodes
 ==============================
@@ -74,6 +67,10 @@ This tells Blender to composite the final image by running it through the compos
 You now have your first node setup, a RenderLayer input node linked to a Composite output node.
 From here, you can add and connect many :doc:`types of compositing nodes </composite_nodes/types/index>`,
 in a sort of map layout, to your heart's content (or physical memory constraints, whichever comes first).
+
+.. note:: Nodes
+
+   Nodes and node conecpts are explained in more detail in the :doc:`Node Editor </editors/node_editor/index>`
 
 
 Examples
