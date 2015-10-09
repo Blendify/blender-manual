@@ -32,7 +32,6 @@ Object Physics
 
 .. figure:: /images/BGE-Physics-PropertiesTabs.jpg
 
-
 .. _game_engine-physics-types:
 
 Physics Type
