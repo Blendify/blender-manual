@@ -44,5 +44,3 @@ Usage Notes
 With the state actuator, you can create tiers of logic,
 without the need for hundreds of properties. Use it well, and you benefit greatly,
 but often problems may be circumvented by python.
-
-

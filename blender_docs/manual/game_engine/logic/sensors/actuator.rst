@@ -1,6 +1,6 @@
 
 ***************
-Actuator sensor
+Actuator Sensor
 ***************
 
 .. figure:: /images/BGE_Sensor_Actuator.jpg
@@ -21,5 +21,3 @@ Special Options:
 
 Actuator
    Name of actuator (NB This must be owned by the same object).
-
-

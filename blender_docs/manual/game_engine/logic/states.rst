@@ -96,5 +96,3 @@ states may be clicked as the state in which the object starts when the game is r
 At the right is the I (Information) button; if clicked, and the (Game)
 Show Debug Properties menu entry is clicked, the current state of the object is shown in the
 top left-hand corner of the display while the game is running.
-
-

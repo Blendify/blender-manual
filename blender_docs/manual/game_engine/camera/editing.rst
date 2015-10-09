@@ -168,4 +168,3 @@ Deprecation Warnings
    Only available when game is run within Blender - not in standalone player version.
 Mouse Cursor
    Show mouse cursor while game runs (available in both Blender and standalone versions).
-

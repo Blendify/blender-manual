@@ -44,4 +44,3 @@ Equal
    Sends a TRUE pulse when the property value matches the *Value* in the sensor.
 
 Note the names of other properties can also be entered to compare properties.
-

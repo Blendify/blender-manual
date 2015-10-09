@@ -56,5 +56,3 @@ Vinterlaced
 3D Tv Top-Bottom
    One frame displays the left image above and the right image below.
    The images are squashed vertically to fit. This mode is designed for passive 3D TV.
-
-

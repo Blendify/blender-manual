@@ -1,6 +1,6 @@
 
 ************
-Delay sensor
+Delay Sensor
 ************
 
 .. figure:: /images/BGE_Sensor_Delay.jpg
@@ -21,4 +21,3 @@ Duration
    The number of logic ticks the sensor waits before sending the negative pulse.
 Repeat Button
    Makes the sensor restart after the delay and duration time is up.
-

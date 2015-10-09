@@ -1,6 +1,6 @@
 
 ************
-Touch sensor
+Touch Sensor
 ************
 
 .. figure:: /images/BGE_Sensor_Touch.jpg
@@ -35,5 +35,3 @@ in contact.
 
    The *Touch* sensor can not detect collisions with soft bodies.
    This is a limitation in Bullet, the physics library used by the Game Engine.
-
-

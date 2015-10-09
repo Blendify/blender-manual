@@ -39,4 +39,3 @@ Property
 **Usage Notes**
 You can use the Message Actuator to send data, such as scores to other objects,
 or even across scenes! (alternatively use ``bge.logic.globalDict``).
-

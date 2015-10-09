@@ -46,5 +46,3 @@ The following types of sensor are currently available:
    Shoots a ray in the direction of an axis and detects hits.
 :doc:`Touch </game_engine/logic/sensors/touch>`
    Detects when the object is in contact with another object.
-
-

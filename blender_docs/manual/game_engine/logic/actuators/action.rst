@@ -56,4 +56,3 @@ Layer
    The animation layer to play the action on.
 Layer Weight
    How much of the previous layer to blend into this one.
-

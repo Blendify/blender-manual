@@ -1,6 +1,6 @@
 
 *************
-Random sensor
+Random Sensor
 *************
 
 .. figure:: /images/BGE_Sensor_Random.jpg
@@ -27,5 +27,3 @@ This field to enter the initial seed for the random number algorithm. (Range 0-1
 .. note::
    If you run several times with the same Seed, the sequence of intervals you get will be the same in each run,
    although the intervals will be randomly distibuted.
-
-

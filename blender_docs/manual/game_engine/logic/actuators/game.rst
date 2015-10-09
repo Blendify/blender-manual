@@ -45,5 +45,3 @@ If you use the keyboard sensor as a hook for the :kbd:`Esc` key,
 in the event that the quit game actuator fails, such as an error in a python file,
 the game will be unable to close. Data may be recovered from quit.blend
 :menuselection:`File --> Recover Last Session`
-
-

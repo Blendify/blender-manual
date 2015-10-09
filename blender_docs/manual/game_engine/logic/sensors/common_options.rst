@@ -123,4 +123,3 @@ The following parameters specifies how the sensor's status gets evaluated:
    This means the sensors's state changes to positive when evaluating False and changes to
    False when evaluating True.
    If the *Tap* parameter is set, the sensor triggers the controller based on the inverted sensor state.
-

@@ -202,4 +202,3 @@ Example files
    Important: the viewport is calculated using the ratio of canvas width by canvas height.
    Therefore different screen sizes will require different warp mesh files. Also in order to get
    the correct ratio of your projector you need to use Blender in Fullscreen mode.
-

@@ -1,6 +1,6 @@
 
 ***************
-Joystick sensor
+Joystick Sensor
 ***************
 
 .. figure:: /images/BGE_Sensor_Joystick1.jpg
@@ -109,4 +109,3 @@ Axis
 
 Button
    Specify the *button number* to use.
-
