@@ -33,4 +33,3 @@ This won't give you a fully perfect transtrav - to get such one,
 you would have to dive into trigonometric maths... But the result is visually quite satisfying.
 
 .. vimeo:: 15837189
-
