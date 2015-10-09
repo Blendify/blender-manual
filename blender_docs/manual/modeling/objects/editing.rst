@@ -2,9 +2,9 @@
 ..    TODO/Review: {{review|partial=X|text=need more info about Editing function, not all are in this page}} .
 
 
-************
-Introduction
-************
+**************
+Object Editing
+**************
 
 In this section will be described tools for editing objects in *Object Mode*.
 

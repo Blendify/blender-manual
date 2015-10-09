@@ -10,9 +10,9 @@
              so this section needs to be moved out to an earlier section,
              perhaps the beginning of 3d navigation(/3d_interaction/navigating)
 
-***********
-Object Mode
-***********
+************
+Introduction
+************
 
 .. figure:: /images/ObjectMode-Selected-Ex.jpg
    :width: 400px
