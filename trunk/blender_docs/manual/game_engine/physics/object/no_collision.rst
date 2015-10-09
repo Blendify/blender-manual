@@ -27,5 +27,3 @@ All Types
 FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/AllTypes;
 {{Doc:2.6/Manual/Game_Engine/Physics/AllTypes}}
 )
-
-

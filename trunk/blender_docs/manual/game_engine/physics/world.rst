@@ -143,5 +143,3 @@ Level height
    when they are treated as those which are situated one above the other i.e. they doesn't influence to each other.
 Visualization
    Enable debug visualization for obstacle simulation.
-
-
