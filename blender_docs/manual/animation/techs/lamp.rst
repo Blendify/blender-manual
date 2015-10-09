@@ -39,5 +39,3 @@ Once your torch is flying, you should get something as shown below - you can dow
 file `here <http://wiki.blender.org/index.php/File:ManAnimationTechsLampExFlyingTorch.blend>`__.
 
 .. vimeo:: 15837328
-
-
