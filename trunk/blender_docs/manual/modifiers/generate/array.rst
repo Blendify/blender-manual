@@ -98,17 +98,17 @@ First Last
 
 Distance
    Controls the merge distance for *Merge*.
-Start cap
-   The mesh object to be used as a start cap.
-   A single copy of this object will be placed at the "beginning" of the array - in fact,
-   as if it was in position ``-1``, i.e. one "array step" before the first "regular" array copy.
-   Of course, if *Merge* is activated,
-   and the *Start cap* is near enough to the first copy, they will be merged.
-End cap
-   The mesh object to be used as an end cap.
-   A single copy of this object will be placed at the "end" of the array - in fact,
-   as if it was in position **n+1**, i.e. one "array step" after the last "regular" array copy.
-   And as *Start cap*, it can be merged with the last copy...
+Start Cap / End Cap
+   This allows either endpoints of the array to have a different mesh subsisted.
+
+   For the *start*: as if it was in position ``-1``, i.e. one "array step" before the first "regular" array copy.
+   For the *end*: as if it was in position ``n+1``, i.e. one "array step" after the last "regular" array copy.
+
+   When *Merge* is activated, and the *cap* vertices are within the distance threshold, they will be merged.
+
+   .. note::
+
+      The start/end cap objects currently don't support the *First Last* option.
 
 
 Hints
