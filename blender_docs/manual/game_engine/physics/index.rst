@@ -9,7 +9,6 @@
 
    introduction.rst
    world.rst
-   material.rst
    object/static.rst
    object/no_collision.rst
    object/dynamic.rst
