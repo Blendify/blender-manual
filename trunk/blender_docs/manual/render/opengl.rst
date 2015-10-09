@@ -49,7 +49,7 @@ the Blender Internal engine.
 
    To access this option, enable the *Only Render* in the :doc:`Display Panel </editors/3dview/display>`.
 
-   While this option is not spesific to OpenGL rendering,
+   While this option is not specific to OpenGL rendering,
    its often useful to enable, since it removes data such as rigs and empties
    that can be a distraction.
 
@@ -105,4 +105,3 @@ Using scene strips in the sequencer you can edit together scenes to quickly rend
    :align: right 
 
 This can be activated using the render icons in the sequencer's playback window header.
-
