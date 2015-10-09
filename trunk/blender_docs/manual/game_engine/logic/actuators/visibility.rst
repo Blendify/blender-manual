@@ -31,4 +31,3 @@ Usage Notes
 Using the visiblity actuator will save on Rasterizer usage, however not Physics,
 and so is limited in terms of Level of Detail (LOD). For LOD look at replace mesh,
 but be aware that the logic required can negate the effect of the LOD.
-

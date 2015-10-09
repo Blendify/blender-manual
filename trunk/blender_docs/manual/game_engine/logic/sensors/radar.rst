@@ -40,4 +40,3 @@ This sensor is useful for giving bots sight only in front of them, for example.
 
    The *Radar* sensor can not detect soft bodies.
    This is a limitation in Bullet, the physics library used by the Game Engine.
-

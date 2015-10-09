@@ -36,4 +36,3 @@ Range
 X-Ray Mode button
    Makes it x-ray, so that it sees through objects that don't
    have the property or material specified in the filter field.
-

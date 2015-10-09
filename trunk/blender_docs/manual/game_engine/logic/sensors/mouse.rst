@@ -1,6 +1,6 @@
 
 ************
-Mouse sensor
+Mouse Sensor
 ************
 
 .. figure:: /images/BGE_Sensor_Mouse1.jpg
@@ -38,4 +38,3 @@ A FALSE pulse is given when any of the above conditions ends.
 
 There is no logic brick for specific mouse movement and reactions
 (such as first person camera), these have to be coded in python.
-

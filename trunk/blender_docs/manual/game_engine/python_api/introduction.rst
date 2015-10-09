@@ -6,7 +6,7 @@ Introduction
 This site is currently under development.
 
 To see the full Python API please click on the following link:
-`Python API <http://www.blender.org/documentation/blender_python_api_2_62_release/#game-engine-modules>`__.
+`Python API <http://www.blender.org/api/250PythonDoc>`__.
 
 
 More informations:

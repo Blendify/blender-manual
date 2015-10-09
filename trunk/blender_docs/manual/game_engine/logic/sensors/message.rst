@@ -24,4 +24,3 @@ Subject
 ..note::
 
    See :doc:`Message Actuator </game_engine/logic/actuators/message>` for how to send messages.
-

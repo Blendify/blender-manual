@@ -128,5 +128,3 @@ To limit movement within an area or volume, use two or three constraints.
       Maximum limit in specified axis (Blender Units)
    Damping
       Delay (frames) of the constraint response (0 - 100)
-
-

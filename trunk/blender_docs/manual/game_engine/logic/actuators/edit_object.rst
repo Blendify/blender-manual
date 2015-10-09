@@ -114,5 +114,3 @@ The object that is added needs to be on another, hidden, layer.
       Useful for shooting objects, create them with an initial speed.
    Angular Velocity
       Angular velocity, works like in the motion actuator but on the created object instead of the object itself.
-
-

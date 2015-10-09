@@ -21,4 +21,3 @@ Actuator name
    It is used to access actuators with python; it needs to be unique among the selected objects.
 :kbd:`X` **Button**
    Deletes the actuator.
-

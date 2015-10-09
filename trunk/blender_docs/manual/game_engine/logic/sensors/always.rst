@@ -16,4 +16,3 @@ or at every *x* logic tick (with non-null *f*), or at start-up
 See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
 
 This sensor doesn't have any special options.
-

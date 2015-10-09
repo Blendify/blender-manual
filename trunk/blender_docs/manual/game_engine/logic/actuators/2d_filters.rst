@@ -148,5 +148,3 @@ Blue Sepia Example:
      float gray = dot(texcolor.rgb, vec3(0.299, 0.587, 0.114));
      gl_FragColor = vec4(gray * vec3(0.8, 1.0, 1.2), texcolor.a);
    }
-
-

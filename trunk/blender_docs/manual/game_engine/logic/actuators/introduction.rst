@@ -49,5 +49,3 @@ The following types of actuator are currently available:
   Provides pathfinding options for the object.
 :doc:`Visibility </game_engine/logic/actuators/visibility>`
   Changes visibility of the object.
-
-

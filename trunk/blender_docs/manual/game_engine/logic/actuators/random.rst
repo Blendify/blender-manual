@@ -178,5 +178,3 @@ Bool constant
       Boolean property to receive value
    Value
       Value (True or False)
-
-

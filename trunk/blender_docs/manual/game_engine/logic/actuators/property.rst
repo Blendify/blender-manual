@@ -55,5 +55,3 @@ Next you set up a *Property* sensor for an interval, greater than 100.
 This is connected (through an *AND* controller)
 to an *Assign Property* actuator which is set to 100.
 So if the players hp increases over 100 it is set to 100.
-
-
