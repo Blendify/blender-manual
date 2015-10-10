@@ -1,5 +1,6 @@
+*****************
 Multicam Selector
-=================
+*****************
 
 Ever wanted to do multicam editing with Blender? Now you can and it is mindbogglingly easy:
 

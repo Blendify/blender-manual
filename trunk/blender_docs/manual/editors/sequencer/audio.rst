@@ -1,36 +1,23 @@
 
-..    TODO/Review: {{review|copy=X}} .
-
-
 *************
 Sound Editing
 *************
-
-Blender contains a multi-track Audio sequencing toolbox. You can add WAV,
-Mp3 files from your hard disk as a file, or as encoded within a movie,
+As well as images and movies the VSE can also edit audio tracks. You can add WAV,
+Mp3 and other audio formates files from your hard disk as a file, or as encoded within a movie,
 and mix them using an F-Curve as a volume control.
 
 
 .. figure:: /images/SoundEdit.jpg
-   :width: 512px
 
    A sound strip in the sequence editor.
 
 
 Options
 =======
-
-Audio-RAM loads a file into memory and plays it from there.
-You can only load stand-alone WAV files.
-Audio-HD plays the sound back from the hard disk and thus does not take up memory.
-With Audio HD, you can load stand-alone WAV files, but also audio tracks from movies.
-
-For either, a green audio strip will be created. With Audio RAM,
-a waveform is created that shows you the waveform inside the green strip,
-scaled to the height of the green strip. Since Audio-RAM files are read into memory,
-changing the audio file will not affect playback,
-and you will have to re-open the file so that Blender re-reads the file.
-
+Pack
+	This allows you to save the audio file into the .blend file.
+Caching
+	Caching loads a file into ram and plays it from there, apposed to reading it for the hard drive.
 
 .. note:: Hiss, Crackle and Pop
 
@@ -44,17 +31,15 @@ and you will have to re-open the file so that Blender re-reads the file.
    static hiss seems to occur whenever two or more audio strips are overlapping in the timeline...
 
 
-Audio Mixing in the VSE
-=======================
+Draw Waveform
+	Draws a waveform over top of the sequence strip. This can be useful for syncing two or more audio strips.
 
-You can have as many Audio strips as you wish and the result will be the mixing of all of
-them. You can give each strip its own name and Gain (in dB) via the :kbd:`N` menu.
-This also let you set a strip to mute or 'Pan' it; -1 is hard left, +1 is hard right,
-with percentages in-between.
-
-Overlapping strips are automatically mixed down during ANIM processing. For example,
-you can have the announcer on channel 5, background music on channel 6,
-and foley sound effects on channel 7.
+Volume
+	Changes the loudness of the audio.
+Pitch
+	Changes the frequency of the audio.
+Pan
+	Used to pan the audio from left an right channels -2 being hard left, 2 being hard right.
 
 
 Working with Audio Tracks
@@ -65,53 +50,31 @@ adjust its starting offset using :kbd:`RMB` over the arrow end handles,
 and :kbd:`K` cut it into pieces.
 A useful example is cutting out the "um's" and dead voice time.
 
+You can have as many Audio strips as you wish and the result will be the mixing of all of
+them. You can give each strip its own name and volume via the :kbd:`N` menu.
+
+Overlapping strips are automatically mixed down during ANIM processing. For example,
+you can have the announcer on channel 5, background music on channel 6,
+and Foley sound effects on channel 7.
+
 
 Animating Audio Track Properties
 ================================
 
-You want to set a value somewhere between 0.0 and 1.0, and the volume becomes that percent; 0.6 is 60%.
-You can add a gain to the volume through the strip properties (:kbd:`N`).
-You can make a curve by having multiple points, to vary the volume over its length.
-Press :kbd:`Tab` to edit the curve, just like any old bezier F-curve.
-
-In the Y direction, 1.0 is full volume, 0.0 is completely silent.
-Only the FFMPEG-output system is currently able to mix audio and video into one output stream.
-Use :kbd:`Ctrl-LMB` to add control points, and :kbd:`Tab` to edit a curve.
-
-Animating an audio strip affects the volume of the strip in the resulting composite.
-Use animation on an audio strip to fade in/out background music or to adjust volume levels.
+To animate audio strips simply hit :kbd: `I` over any of its values. Examples of animating 
+an audio strip are to fade in/out background music or to adjust volume levels.
 Layered/crossed audio strips are added together;
-the lower channel does not override and cut out higher channels.
+the lower channel does not override and cut out higher channels (unlike image and video strips).
 This makes Blender an audio mixer.
 By adding audio tracks and using the curves to adjust each tracks' sound level,
 you have an automated dynamic multi-track audio mixer!
 
 
 Output
-******
+======
 
-The output is therefore a video file if the *ANIMATION* button in the
-*Render* Panel of the Scene Context/Render Sub-context is used as described before.
-An audio file may be created via the *MIXDOWN* button in the *Sequencer*
-button of the Scene Context, Sound Sub-context. This WAV file contains the full audio sequence
-and is created in the same directory of the video file and with the *same name* but
-with a ``.wav`` extension.
-You can mix Video and Audio later on with an external program or by adding it to, for example,
-an image sequence strip as described above.
-
-The advantage of using Blender's sequence editor lies in the easier synchronization attainable
-by sequencing frames and sound in the same application.
-
-To enable audio synchronisation after importing an audio track,
-select the *Scene* button in the buttons window then choose the *Sound Block* Button (small blue sine wave).
-In here you'll see the *Sync* and *Scrub* tools.
-
-Sync
-   lets Blender drop image frames to keep up with realtime audio when you play an animation in the 3D window.
-   This gives you a rough overview of the timing of your animation.
-Scrub
-   allows you to drag your frame-marker or change frames in any window
-   and it will play a clip of audio for that point in time.
-
-Draging the frame-marker over a range of frames in the Action Editor will allow you to hear
-roughly where specific sounds occur so that you can key poses or shapes on this frame.
+There are two ways to render out your audio. You can either have it encoded with a video file
+or in its own audio file. To render your audio in an video file make sure to use a video format
+as the output with an audio codec and hit the render *ANIMATION* button in the properties editor.
+Read more on how to do this :doc:`here </render/output/video>`. To render as a audio file simple
+use the *AUDIO* button. Read more on how to do this :doc:`here </render/output/video>`.
