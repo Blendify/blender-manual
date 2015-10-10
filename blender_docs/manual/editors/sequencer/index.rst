@@ -5,9 +5,10 @@
 ########################
 
 .. toctree::
-
+   :maxdepth: 2
+   
    introduction.rst
    usage.rst
    modes.rst
-   effects.rst
+   effects/index.rst
    audio.rst

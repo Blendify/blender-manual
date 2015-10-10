@@ -9,61 +9,6 @@
       00:48, 31 May 2013 (CEST)|link=Meta:Sanbox/Doc:2.6/Manual/Sequencer/Usage}} .
 
 
-*******************************
-Overview of the Sequence Editor
-*******************************
-
-.. figure:: /images/sequencer_modes_screen_layout.jpg
-   :width: 300px
-
-   Default Video Editing screen layout.
-
-
-Blender's Video Sequence Editor is a flexible workbench for editing your video footage.
-It is used to review your footage, and glue many sequences of your movie together.
-It offers a number of built-in and plug-in effects to transition from sequence to sequence,
-providing advanced hollywood-style effects for a professional looking video.
-
-
-.. figure:: /images/vse-header.jpg
-   :width: 400px
-
-   Video Sequence Editor in Sequence display mode
-
-
-The Video Sequence Editor has a header (where the menu and view modes are shown) and a workspace,
-and works in one of several view modes. The Marker menu allows you to add markers in the VSE.
-Markers are shared across animation editors. See :doc:`Markers </animation/basics/markers>`
-
-The sequencer workspace is horizontally striped into channels and each video strip will go in
-a horizontal channel. Each channel is numbered on the left-hand side, starting from 0
-(you can't put anything thing in this special one!) and going up.
-Stripes toward the bottom are more dominant, which we'll get to in a minute.
-In the x direction, seconds of animation or frames of animation
-(:kbd:`Ctrl-T` to choose) are used as the measure of time
-(seconds 1 through 7 are shown). You can scale the time using the zoom keys or mouse actions
-(see the Reference for more info).
-
-
-.. figure:: /images/vse-dosequence.jpg
-
-   Sequence Output Enabled
-
-
-When you click Render or Anim to generate an image or video,
-Blender has a choice of what image to compose for the current frame/scrub range:
-
-- Current Scene layer result
-- Sequence Editor channel 0 result
-- Composition Node Editor renderlayer result
-
-The video sequencer is enabled by default.
-
-
-When you go to the render panel where ordinary renderings take place and you click animation
-or image with the VSE open, it will render the clips for the VSE instead of the scene.
-
-
 Using the Sequence Editor
 *************************
 
@@ -72,7 +17,7 @@ Adding Strips
 
 .. figure:: /images/VseAddMenu.jpg
 
-   the add menu
+   The Add Menu
 
 
 The Add menu is the main menu you will be using to add content to the VSE. In general,
@@ -206,6 +151,7 @@ Adding Effects
 ==============
 
 .. figure:: /images/VSE-SFX.jpg
+   :align: right
 
    Available Built-in Effects
 
@@ -746,5 +692,3 @@ It is possible to edit the contents of a meta strip by selecting it and pressing
 You can press Tab again to finish editing that strip. Since meta strips can be nested, to pop
 out one level of meta strip make sure you do not have a meta strip as the active strip when
 you press Tab.
-
-

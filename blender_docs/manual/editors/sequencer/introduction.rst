@@ -1,7 +1,4 @@
 
-..    TODO/Review: {{review|copy=X}} .
-
-
 ************
 Introduction
 ************
@@ -11,25 +8,8 @@ as well as an advanced node-based editor that also manipulates a video stream.
 :doc:`Compositing Nodes </composite_nodes/types/index>` operate equally well on images or video streams,
 and can apply detailed image manipulation on the stream.
 
-Operating at a higher conceptual level, and used later in the video production process,
-Blender's legacy VSE operates on a set of entire strips at a time, as a chunk of footage.
-The many parts of Blender work together in typical work flow fashion:
-
-
-- Model to construct the objects
-- Assign Materials and introduce Lighting to color the objects
-- Animate your objects to make them move
-- Render layers of video using cameras
-- Use Compositing nodes to:
-  - Enhance the images by adjusting colors, adding in-scene special effects
-  - Layer the images into a composite image sequence (strip)
-- Assemble the video strips together to make a movie using the VSE.
-
 The VSE within Blender is a complete video editing system that allows you to combine multiple
-video channels and add effects to them.
-Its functionality has been inside Blender since the beginning.
-Even though it has a limited number of operations,
-you can use these to create powerful video edits
+video channels and add effects to them. You can use these effects to create powerful video edits
 (especially when you combine it with the animation power of Blender!) Furthermore,
 it is extensible via a plugin system to perform an unlimited number of image manipulations.
 
@@ -40,3 +20,43 @@ Finally,
 add an audio track so you can synchronize the timing of the video sequence to match it.
 The result of using the VSE is your finished movie.
 
+.. figure:: /images/sequencer_modes_screen_layout.jpg
+
+   Default Video Editing screen layout.
+
+The Video Sequence Editor has a header (where the menu and view modes are shown) and a workspace,
+and works in one of several view modes. The Marker menu allows you to add markers in the VSE.
+Markers are shared across animation editors. See :doc:`Markers </animation/basics/markers>`
+
+The sequencer workspace is horizontally striped into channels and each video strip will go in
+a horizontal channel. Each channel is numbered on the left-hand side, starting from 0
+(you can't put anything thing in this special one!) and going up.
+Stripes toward the bottom are more dominant, which we'll get to in a minute.
+In the x direction, seconds of animation or frames of animation
+(:kbd:`Ctrl-T` to choose) are used as the measure of time
+(seconds 1 through 7 are shown). You can scale the time using the zoom keys or mouse actions
+(see the Reference for more info).
+
+.. figure:: /images/vse-header.jpg
+
+   Video Sequence Editor in Sequence display mode
+
+Enabling The VSE
+----------------
+
+When you click Render or Anim to generate an image or video,
+Blender has a choice of what image to compose for the current frame/scrub range:
+
+- Current Scene layer result
+- Sequence Editor channel 0 result
+- Composition Node Editor renderlayer result
+
+The video sequencer is enabled by default.
+
+
+When you go to the render panel where ordinary renderings take place and you click animation
+or image with the VSE open, it will render the clips for the VSE instead of the scene.
+
+.. figure:: /images/vse-dosequence.jpg
+
+   Sequence Output Enabled
