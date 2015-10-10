@@ -115,4 +115,3 @@ Scrub
 
 Draging the frame-marker over a range of frames in the Action Editor will allow you to hear
 roughly where specific sounds occur so that you can key poses or shapes on this frame.
-
