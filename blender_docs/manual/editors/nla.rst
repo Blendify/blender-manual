@@ -55,7 +55,6 @@ Any action used by the NLA first must be turned into an Action strip. This is do
 
 
 .. figure:: /images/NLA_Action_Strip.jpg
-   :width: 200px
 
    Action Strip.
 
@@ -72,7 +71,6 @@ Select two or more strips on the same track, and go to
 
 
 .. figure:: /images/NLA-Basics_Transition.jpg
-   :width: 200px
 
    Transition Strip.
 
@@ -144,19 +142,16 @@ you'll prefer the keys to remain on their original frames, regardless of where t
 To do so, hit the 'unpin' icon, next to the strip.
 
 .. figure:: /images/nla_pinned_01.jpg
-   :width: 350px
 
    Nla strip with pinned keys.
 
 
 .. figure:: /images/nla_pin_02.jpg
-   :width: 350px
 
    Strip moved, notice the keys move with it.
 
 
 .. figure:: /images/nla_pin_03.jpg
-   :width: 350px
 
    The unpinned keys return to their original frames.
 
@@ -185,17 +180,17 @@ the original will turn to red.
 .. list-table::
 
    * - .. figure:: /images/NLA_original_strip.jpg
-          :width: 200px
+          :width: 190px
 
           Original strip.
 
      - .. figure:: /images/NLA_linked_duplicate.jpg
-          :width: 200px
+          :width: 190px
 
           Duplicated strip.
 
      - .. figure:: /images/NLA_linked_duplicate_edited.jpg
-          :width: 200px
+          :width: 190px
 
           Duplicated strip being edited.
 

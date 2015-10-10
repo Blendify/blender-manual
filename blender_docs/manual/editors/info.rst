@@ -5,7 +5,6 @@ Info Editor
 ***********
 
 .. figure:: /images/Interface_Window-System_Info-window-shaded.jpg
-   :width: 640px
 
    Info Window
 
@@ -36,4 +35,5 @@ Resource Information
    This region will tell you how much memory is being consumed based on the number of vertices,
    faces and objects in the selected scene, as well as totals of what resources are currently selected.
    This can help identify when you are reaching the limits of your hardware.
+
 
