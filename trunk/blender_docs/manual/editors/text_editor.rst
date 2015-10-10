@@ -21,7 +21,6 @@ for good!
 
 
 .. figure:: /images/Extensions-Python-Text-editor-Toolbar-with-file-open.jpg
-   :width: 600px
 
    Text Toolbar with a file open
 

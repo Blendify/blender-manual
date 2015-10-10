@@ -8,10 +8,8 @@ is shown by default at the bottom of the screen.
 
 
 .. figure:: /images/Timeline.jpg
-   :width: 700px
 
-   Timeline 2.69
-
+   Timeline
 
 The *Timeline* is not much of an editor, but more of a information and control window.
 
@@ -70,7 +68,6 @@ Markers are usually used to identify key parts of the animation.
 
 
 .. figure:: /images/Timeline_Markers.jpg
-   :width: 700px
 
    Markers
 
@@ -240,7 +237,6 @@ The Timeline header controls.
 
 
 .. figure:: /images/animation_editors_timeline_header.png
-   :width: 700px
 
    Timeline header controls.
 
@@ -416,3 +412,4 @@ Keyframing
       Displays a warning at the top right of the *3D View*, when moving objects, if *Auto Keyframe* is on.
    Only Insert Available
       With *Auto Keyframe* enabled, this will only add keyframes to channel F-Curves that already exist.
+
