@@ -13,32 +13,9 @@ By default,
 the ColorRamp is added to the node map with two colors at opposite ends of the spectrum.
 A completely black black is on the left
 (Black as shown in the swatch with an Alpha value of 1.00)
-and a whitewash white is on the right. To select a color,
-:kbd:`LMB` click on the thin vertical line/band within the colorband.
-The example picture shows the black color selected, as it is highlighted white.
-The settings for the color are shown above the colorband as (left to right): color swatch,
-Alpha setting, and interpolation type.
+and a whitewash white is on the right.
 
-To change the hue of the selected color in the colorband,
-:kbd:`LMB` click on the swatch,
-and use the pop-up color picker control to select a new color.
-Press :kbd:`Return` to set that color.
-
-To add colors,
-hold :kbd:`Ctrl` down and :kbd:`Ctrl-LMB` click inside the gradient.
-Edit colors by clicking on the rectangular color swatch, which pops up a color-editing dialog.
-Drag the gray slider to edit Alpha values. Note that you can use textures for masks
-(or to simulate the old "Emit" functionality)
-by connecting the alpha output to the factor input of an RGB mixer.
-
-To delete a color from the colorband, select it and press the Delete button.
-
-When using multiple colors,
-you can control how they transition from one to another through an interpolation mixer.
-Use the interpolation buttons to control how the colors should band together: Ease, Cardinal,
-Linear, or Spline.
-
-Use the A: button to define the Alpha value of the selected color for each color in the range.
+See :ref:`ui-color_ramp` for editing info.
 
 
 Using ColorRamp to create an Alpha Mask

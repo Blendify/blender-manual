@@ -111,8 +111,10 @@ Camera Depth
 - :kbd:`Spacebar` resets and starts mixing the colors again.
 
 
-Color Ramp
-==========
+.. _ui-color_ramp:
+
+Color Ramp Widget
+=================
 
 .. list-table::
 
@@ -178,6 +180,13 @@ Color Bar
    Opens a color Picker for the user to specify color and Alpha for the selected color stop.
    When a color is using Alpha, the Color Bar is then divided in two, with the left side
    showing the base color and the right side showing the color with the alpha value.
+
+
+Shortcuts
+---------
+
+- :kbd:`LMB` (drag) moves colors.
+- :kbd:`Ctrl-LMB` (click) adds a new control point.
 
 
 .. _curve-widget:
