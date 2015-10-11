@@ -34,7 +34,7 @@ double the Length of the source strip
 (since effects strip bounds are controlled by their source strips).
 If you're using a speed factor other than 0.5 then use the formula
 
-new_length = true_length / Speed_factor
+``new_length = real_length / speed_factor``
 
 That's it! Set your render to animate (in this example) all 550 frames.
 
@@ -71,11 +71,11 @@ If you are rendering your video to a sequence set,
 you can effectively increase or decrease the number of individual image files created,
 by using a Global Speed value less than or greater than one, respectively. For example,
 if you captured a five-minute video at 30 fps and wanted to transfer that to film,
-which runs at 24 fps, you would enter a Global Speed of 30/24, or 1.25
+which runs at 24 fps, you would enter a Global Speed of ``30/24``, or ``1.25``
 (and Enable Frame Blending to give that film blur feel).
-Instead of producing 5*60*30=9000 frames, Blender would produce 9000/1.25=7200=5*60*24 frames.
-In this case, you set a Sta:1 and End:7200, set your Format output to Jpeg, 30fps,
-and image files 0001.jpg through 7200.jpg would be rendered out,
-but those images 'cover' the entire 9000 frames. The image file 7200.
-jpg is the same a frame 9000. When you read those images back into your film .blend at 24 fps,
-the strip will last exactly 5 minutes.
+Instead of producing ``5*60*30=9000`` frames, Blender would produce ``9000/1.25=7200=5*60*24`` frames.
+In this case, you set a ``start=1`` and ``end=7200``, set your Format output to Jpeg, 30fps,
+and image files ``0001.jpg`` through ``7200.jpg`` would be rendered out,
+but those images 'cover' the entire 9000 frames.
+The image file ``7200.jpg`` is the same a frame 9000.
+When you read those images back into your film .blend at 24 fps, the strip will last exactly 5 minutes.
