@@ -1,12 +1,12 @@
-.. _effects-index:
+.. _sequencer_effects-index:
 
-###################
+####################
   Sequencer Effects
-###################
+####################
 
-Blender offers a variety of built effects that are built into Blender, and are therefore universal. Some operate on
-two strips; some on one, and some create a new strip. Each effect enhances your content in some way or allows
-professional-quality transitions.
+Blender offers a variety of effects.
+These typically operate over one or two effects.
+
 
 .. toctree::
    :maxdepth: 2
@@ -26,4 +26,3 @@ professional-quality transitions.
    text.rst
    transform.rst
    wipe.rst
-   
