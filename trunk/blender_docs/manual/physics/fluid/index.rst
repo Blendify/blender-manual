@@ -6,6 +6,7 @@
 ###################
 
 .. toctree::
+   :maxdepth: 2
 
    introduction.rst
    domain.rst
