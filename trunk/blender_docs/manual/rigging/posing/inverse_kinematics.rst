@@ -22,11 +22,20 @@ Automatic IK
 
 Automatic IK is a tool for quick posing, it can be enabled in the tool shelf in the 3D view,
 when in pose mode. When the Auto IK option is enabled, translating a bone will activate
-inverse kinematic and rotate bones higher up to follow the selected bone. By default,
-the length of the IK chain is as long as there are parent bones,
-and this length can be modified with :kbd:`Shift` :kbd:`PageUp`,
-:kbd:`Shift` :kbd:`PageDown`, or :kbd:`Shift` :kbd:`WheelUp`,
-:kbd:`Shift` :kbd:`WheelDown`.
+inverse kinematics and rotate the parent bone, and the parent’s parent, and so on, to
+follow the selected bone. The IK chain can only extend from a child to a parent bone
+if the child is *connected* to it.
+
+The length of the chain is increased
+(if there is a connected parent available to add to it)
+with :kbd:`Ctrl-PageUp` or :kbd:`Ctrl-WheelDown`,
+and decreased with :kbd:`Ctrl-PageDown` or :kbd:`Ctrl-WheelUp`.
+However, the initial chain length is 0, which effectively
+means follow the connections to parent bones as far as possible, with no length limit.
+So pressing :kbd:`Ctrl-PageUp` the first time sets the chain length to 1 (move only the selected bone),
+and pressing :kbd:`Ctrl-PageDown` at this point sets it back to 0 (unlimited) again.
+Thus, you have to press :kbd:`Ctrl-PageUp` *more than once from the initial state*
+to set a finite chain length greater than 1.
 
 This is a more limited feature than using an IK constraint, which can be configured,
 but it can be useful for quick posing.
