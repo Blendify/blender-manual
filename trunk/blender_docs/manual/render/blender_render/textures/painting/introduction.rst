@@ -299,7 +299,7 @@ Changing the shape of the curve will make the brush softer or harder.
 
 .. seealso::
 
-   - Read more about using the :ref:`Curve Widget <curve-widget>`.
+   - Read more about using the :ref:`ui-curve_widget`.
 
 
 Paint options

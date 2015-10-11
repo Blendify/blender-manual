@@ -111,7 +111,7 @@ Camera Depth
 - :kbd:`Spacebar` resets and starts mixing the colors again.
 
 
-.. _ui-color_ramp:
+.. _ui-color_ramp_widget:
 
 Color Ramp Widget
 =================
@@ -189,7 +189,7 @@ Shortcuts
 - :kbd:`Ctrl-LMB` (click) adds a new control point.
 
 
-.. _curve-widget:
+.. _ui-curve_widget:
 
 Curve Widget
 ============

@@ -16,7 +16,7 @@ Clicking on one of the *C R G B* components displays the curve for that channel.
 
 .. seealso::
 
-   - Read more about using the :ref:`Curve Widget <curve-widget>`.
+   - Read more about using the :ref:`ui-curve_widget`.
 
 Here are some common curves you can use to achieve desired effects:
 
