@@ -3,7 +3,7 @@
 ###################
 
 .. toctree::
-	:maxdepth: 2
+   :maxdepth: 2
 
-	introduction.rst
-	projection.rst
+   introduction.rst
+   projection.rst

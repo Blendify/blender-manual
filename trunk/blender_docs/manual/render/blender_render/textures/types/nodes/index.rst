@@ -4,13 +4,13 @@
 ################
 
 .. toctree::
-	:maxdepth: 1
+   :maxdepth: 1
 
-	introduction.rst
-	input.rst
-	output.rst
-	color.rst
-	patterns.rst
-	textures.rst
-	converter.rst
-	distort.rst
+   introduction.rst
+   input.rst
+   output.rst
+   color.rst
+   patterns.rst
+   textures.rst
+   converter.rst
+   distort.rst

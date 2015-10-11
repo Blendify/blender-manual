@@ -15,9 +15,9 @@ and mix them using an F-Curve as a volume control.
 Options
 =======
 Pack
-	This allows you to save the audio file into the .blend file.
+   This allows you to save the audio file into the .blend file.
 Caching
-	Caching loads a file into ram and plays it from there, apposed to reading it for the hard drive.
+   Caching loads a file into ram and plays it from there, apposed to reading it for the hard drive.
 
 .. note:: Hiss, Crackle and Pop
 
@@ -32,14 +32,14 @@ Caching
 
 
 Draw Waveform
-	Draws a waveform over top of the sequence strip. This can be useful for syncing two or more audio strips.
+   Draws a waveform over top of the sequence strip. This can be useful for syncing two or more audio strips.
 
 Volume
-	Changes the loudness of the audio.
+   Changes the loudness of the audio.
 Pitch
-	Changes the frequency of the audio.
+   Changes the frequency of the audio.
 Pan
-	Used to pan the audio from left an right channels -2 being hard left, 2 being hard right.
+   Used to pan the audio from left an right channels -2 being hard left, 2 being hard right.
 
 
 Working with Audio Tracks
