@@ -110,7 +110,7 @@ Blender offers options to limit the amount of the transformation in small or pre
    This activates :doc:`snapping </editors/3dview/transform/transform_control/snap>` based on the
    snapping constraint which has been already set. You may not be able to enable every snapping option in all cases.
 
-:kbd:`Ctrl` + :kbd:`Shift`
+:kbd:`Ctrl-Shift`
    Precise snap. This option will move the object with high precision along with the snapping constraint.
 
 :kbd:`X`/:kbd:`Y`/:kbd:`Z` + decimal number

@@ -167,9 +167,8 @@ Once you have one or more markers selected, press :kbd:`Ctrl-G`
 and confirm the move with :kbd:`LMB` or :kbd:`Return` (as usual,
 cancel the move with :kbd:`RMB`, or :kbd:`Esc`).
 
-By default, you grab the markers in one-frame steps, but if you hold :kbd:`Ctrl`, the
-markers will move in steps corresponding to one second - so if you have set your scene to
-**25 fps**, the markers will move in twenty-five-frames steps.
+By default, you grab the markers in one-frame steps, but if you hold :kbd:`Ctrl`,
+the markers will move in steps corresponding to one second (according to the scenes *FPS*).
 
 
 Duplicating Markers
