@@ -15,7 +15,7 @@ A completely black black is on the left
 (Black as shown in the swatch with an Alpha value of 1.00)
 and a whitewash white is on the right.
 
-See :ref:`ui-color_ramp` for editing info.
+See :ref:`ui-color_ramp_widget` for editing info.
 
 
 Using ColorRamp to create an Alpha Mask

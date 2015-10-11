@@ -116,7 +116,7 @@ Look
 
 Use Curves
    Adjust RGB Curves to control image colors before color space conversion.
-   Read more about using the :ref:`Curve Widget <curve-widget>`.
+   Read more about using the :ref:`ui-curve_widget`.
 
 
 Sequencer

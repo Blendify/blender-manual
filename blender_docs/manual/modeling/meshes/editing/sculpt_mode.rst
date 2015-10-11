@@ -210,7 +210,7 @@ intensity of the brush from its centre (left part of the curve) towards its bord
 
 .. seealso::
 
-   - Read more about using the :ref:`Curve Widget <curve-widget>`.
+   - Read more about using the :ref:`ui-curve_widget`.
 
 
 Texture Menu

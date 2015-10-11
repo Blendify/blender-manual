@@ -168,7 +168,7 @@ Use this node to remap a vector value using curve controls.
 
 .. seealso::
 
-   - Read more about using the :ref:`Curve Widget <curve-widget>`.
+   - Read more about using the :ref:`ui-curve_widget`.
 
 
 Inputs
