@@ -1,4 +1,3 @@
-
 .. _particles-index:
 
 ############
