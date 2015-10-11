@@ -68,6 +68,25 @@ D1 / G1 / D2 / G2 / D3 / G3
    `Dashed Line`_).
 
 
+Sorting
+=======
+
+.. figure:: /images/render-freestyle-Sorting_UI.jpg
+   :width: 300px
+
+
+You can sort the order of your strokes, allowing the lines to stack in the order given.
+
+Sort key
+   Choose which way you would like to sort your strokes.
+
+Integration Type
+   Use in tandem with the Sort Key to determine the range for sorting
+
+Sort Order
+   With the given result you can choose to "Reverse" the sort order
+
+
 Selection
 =========
 
