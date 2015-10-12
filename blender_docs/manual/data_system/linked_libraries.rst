@@ -76,3 +76,15 @@ See :ref:`Armature Layers <armature-layers>`.
 The bones in protected layers will have their position restored from the source file
 when the referencing file is reloaded.
 
+
+Known Limitations
+=================
+
+For the most part linking data will work as expected, however there are some corner-cases which aren't supported.
+
+Object Rigid-Body
+   When linking objects **directly** into a ``.blend`` file,
+   the *Rigid Body* settings won't be linked in
+   since they're associated with their scenes world.
+
+   As an alternative you could link in the entire scene and set it as a :ref:`scene-background_set`.
