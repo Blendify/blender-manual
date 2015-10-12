@@ -82,7 +82,7 @@ Known Limitations
 
 For the most part linking data will work as expected, however there are some corner-cases which aren't supported.
 
-Object Rigid-Body
+Object Rigid-Body Constraints
    When linking objects **directly** into a ``.blend`` file,
    the *Rigid Body* settings won't be linked in
    since they're associated with their scenes world.
