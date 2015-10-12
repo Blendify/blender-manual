@@ -98,9 +98,6 @@ Use Goal
    How a softbody tries to achieve this goal can be defined using stiffness forces and damping.
 
 Default
-   If no vertex group is used, this numeric field is the default goal weight for all vertices.
-   If a vertex group is present and assigned,
-   this button instead shows an pop-up selector button that allows you to choose the name of the goal vertex group.
    A *Goal* value of 1.0 means no Soft Body simulation, the vertex stays at its original (animated)
    position. When setting *Goal* to 0.0, the object is only influenced by physical laws.
    By setting goal values between 0.0 and 1.0,
@@ -122,7 +119,8 @@ Damping
    The friction for *Goal*. Higher values dampen the effect of the goal on the soft body.
 
 Vertex Group
-   Use a vertex group to specify goal weights.
+   Use a vertex group to allow per-vertex goal weights
+   (multiplied by the *Default* goal).
 
 
 Soft Body Edges
