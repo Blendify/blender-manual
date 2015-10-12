@@ -215,4 +215,3 @@ then the material will be retained when the file is saved, even if it has no use
 Only if it has 0 "real" users, and no "Fake" user, will the material be permanently deleted.
 Note that it will still remain in the Materials list until the Blender file is saved,
 but will have disappeared when the file is reloaded.
-

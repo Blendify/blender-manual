@@ -45,4 +45,3 @@ and brief details of their scope. Details of their controls and settings are giv
    (Only Blender Render): Controls settings for real-time rendering of Game Engine objects.
 :doc:`Physics </render/blender_render/materials/properties/physics>`
    (??)
-

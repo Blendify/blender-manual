@@ -5,6 +5,7 @@
 ############
 
 .. toctree::
+   :maxdepth: 2
 
    introduction.rst
    assigning_a_material.rst

@@ -1,4 +1,3 @@
-
 .. _particle_physics-index:
 
 ###################
@@ -6,6 +5,7 @@
 ###################
 
 .. toctree::
+   :maxdepth: 2
 
    introduction.rst
    newtonian.rst
