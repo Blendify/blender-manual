@@ -417,9 +417,14 @@ To move back and forth through your movie, use the Timeline window.
 moving the vertical bar which indicates the current frame. As you do,
 the image for that frame is displayed in the VSE window.
 
+When you :kbd:`LMB` directly on a sequence strip, this will show the strip *solo*,
+(temporarily disregarding effects and other strips, showing only this strips output).
+
 Real-time scrubbing and image display is possible on reasonable computers when viewing an
-image sequence or movie (avi/mov) file. Scene images have to be rendered individually,
-which may take some time.
+image sequence or movie (avi/mov) file.
+
+Scene strips can use OpenGL previews or proxies for realtime playback,
+otherwise displaying rendered frame is supported, but typically too slow for real-time playback.
 
 
 View Modes
