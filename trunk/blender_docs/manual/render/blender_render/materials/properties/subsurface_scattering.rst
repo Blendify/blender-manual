@@ -201,8 +201,8 @@ See the external links for more information:
 - Adjust the brightness with the *Front* and *Back* values.
 
 
-=A more intuitive approach
-==========================
+A more intuitive approach
+=========================
 
 - Set the Scattering color to .5
 - Set the Front weight to 2.

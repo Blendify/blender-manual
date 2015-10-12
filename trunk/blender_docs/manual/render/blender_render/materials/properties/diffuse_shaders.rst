@@ -287,5 +287,3 @@ Factor
      You will need a modern, standards compliant, browser to see the animation. Click to View Animation.]]
    }}
    --> .
-
-
