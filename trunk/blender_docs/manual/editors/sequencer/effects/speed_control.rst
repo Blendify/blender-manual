@@ -12,7 +12,7 @@ position the next strip under the original at a point where you want motion to c
 
 
 Creating a Slow-Motion Effect
------------------------------
+=============================
 
 .. figure:: /images/VSE-Speed-slomo-2.jpg
    :width: 300px
@@ -40,7 +40,7 @@ That's it! Set your render to animate (in this example) all 550 frames.
 
 
 Keyframing the Speed Control
-----------------------------
+============================
 
 .. figure:: /images/Speed-Control-keyframe-Frame-number.jpg
 
@@ -64,7 +64,7 @@ effect.
 
 
 Changing Video Frame Rates
---------------------------
+==========================
 
 You can use the speed control to change the frames per second (fps), or framerate, of a video.
 If you are rendering your video to a sequence set,
