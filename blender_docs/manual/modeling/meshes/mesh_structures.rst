@@ -47,7 +47,7 @@ Faces are used to build the actual surface of the object.
 They are what you see when you render the mesh.
 If this area does not contain a face,
 it will simply be transparent or non-existent in the rendered image. To create a face,
-select three or four suitable vertices and press :kbd:`F`.
+select three or more suitable vertices and press :kbd:`F`.
 
 A face is defined as the area between either three (triangles), four (quadrangles) or more (ngons) vertices,
 with an edge on every side.
@@ -56,15 +56,6 @@ These are often abbreviated to *tris, quads & ngons*.
 Triangles are always flat and therefore easy to calculate.
 On the other hand,
 quadrangles "deform well" and are therefore preferred for subdivision modeling.
-
-Take care when using quads and ngons,
-because internally they are simply divided into triangles.
-Four-sided faces only work well if the face is pretty much flat
-(all points lie within one imaginary plane) and convex
-(the angle at no corner is greater than or equal to 180 degrees).
-This is the case with the faces of a cube, for example.
-That's why you can't see any diagonal in its wireframe model,
-because they would divide each square face into two triangles.
 
 While you could build a cube with triangular faces,
 it would just look more confusing in *Edit mode*.
