@@ -140,6 +140,8 @@ Objects that can be created out of cylinders include handles or rods.
 
 Vertices
    Then number of vertical edge loops used to define the cylinder.
+   Similarly to the circle, specifying a small number of vertices produces an object with a polygonal cross section
+   (a prism).
 Radius
    Sets the radius of the cylinder.
 Depth
@@ -162,6 +164,8 @@ Objects that can be created out of cones include spikes or pointed hats.
 
 Vertices
    The number of vertical edge loops used to define the cone.
+   Similarly to the circle and cylinder,
+   specifying a small number of vertices produces an object with a polygonal base section (a pyramid).
 Radius 1
    Sets the radius of the base of the cone.
 Radius 2
