@@ -9,8 +9,15 @@ The Console Window
 ******************
 
 The *Console Window* is an operating system text window that displays messages about
-Blender operations, status, and internal errors. If Blender crashes on you,
-the *Console Window* may be able to indicate the cause or error.
+Blender operations, status, and internal errors.
+
+
+Use Cases:
+
+- If Blender exits unexpectedly, the messages may indicate the cause or error.
+- To see the output of Python scripts ``print()`` command.
+- To launch with :doc:`/advanced/command_line` options.
+- When troubleshooting, to see the output of ``--debug`` messages.
 
 
 Microsoft Windows

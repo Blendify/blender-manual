@@ -106,21 +106,22 @@ OpenGL
    Info Window - Info.txt
 
 
-- *Toggle System Console* - Reveals the command window that contains Blender's *stdout* messages.
-  Can be very useful for figuring out how the UI works, or what is going wrong if you encounter a problem.
-  Even more information is available here, if you invoke Blender as *blender -d*.
-  This menu item only shows up on Windows.
+Toggle System Console
+---------------------
 
-  - In all Operating Systems, to see this information, simply run *blender* from the command-line.
-  - On Linux, if you ran Blender from the GUI, you can see the output in *~/.xsession-errors*
-  - On Mac OS X, you can open Console.app (in the Utilities folder in Applications) and check the Log there.
+This menu item is only available for MS-Windows.
+Other systems need to explicitly launch from a console.
+
+For more information on the console window, see: :doc:`/interface/window_system/console_window`.
 
 
-- *Info Window Log* - This is not exactly a Help menu, but it is related.
-  If you mouseover the line between the Info window and the 3D then click and drag the Info window down a bit,
-  you can see the stream of Python calls that the UI is making when you work.
-  This can be useful in creating scripts.
+Info Window Log
+---------------
 
+This is not exactly a Help menu, but it is related.
+If you mouse-over the line between the Info window and the 3D then click and drag the Info window down a bit,
+you can see the stream of Python calls that the UI is making when you work.
+This can be useful in creating scripts.
 
 .. figure:: /images/basics-help_info_log.jpg
 
@@ -158,6 +159,7 @@ They are presented as the same links you will find at the *Help* Menu.
    Blender Splash Screen, Blender Version 2.66
 
 
+******************
 Other Help Options
 ******************
 
