@@ -50,8 +50,9 @@ Sound
       Uses Simple Direct Media Layer API from `libsdl.org <http://www.libsdl.org>`__ to render sounds directly
       to the sound device output. Very useful for sequencer strips editing.
    OpenAL
-      Uses OpenAL soft API for Linux and OpenAL from creative Labs for Windows.
-      This API provides buffered sound rendering with 3D/spatial support. Useful for the BGE Games.
+      This API provides buffered sound rendering with 3D/spatial support.
+
+      Used for 3D source support by *Speaker Objects* and the *Game Engine*.
 
 *'Specific sound options'* (With *SDL* or *OpenAL* enabled)
 
