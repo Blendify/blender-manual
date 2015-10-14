@@ -26,7 +26,7 @@ Virtual Pixel Mode
 
    .. note::
 
-      This is currently auto-detected on OSX.
+      This is auto-detected on OSX.
 Frame Server Port
    TCP/IP port used in conjunction with the IP Address of the machine for frameserver rendering.
    Used when working with distributed rendering.
