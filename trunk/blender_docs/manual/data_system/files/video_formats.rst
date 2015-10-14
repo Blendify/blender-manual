@@ -226,14 +226,12 @@ Audio Codecs
    Audio Codec 3, an audio compression technology developed by Dolby Laboratories.
 `AAC <http://en.wikipedia.org/wiki/Advanced_Audio_Coding>`__
    Advanced Audio Codec," a standardized, lossy compression and encoding scheme for digital audio.
-   Designed to be the successor of the MP3 format,
-   AAC generally achieves better sound quality than MP3 at similar bit rates.
+
+   *AAC generally achieves better sound quality than MP3 at similar bit rates.*
 `Vorbis <http://en.wikipedia.org/wiki/Vorbis>`__
    An open-standard, highly-compressed format comparable to MP3 or AAC.
-   Had been shown to perform significantly better than many other lossy
-   audio formats in the past in that it produced smaller files at equivalent
-   or higher quality while retaining computational complexity comparable
-   to other MDCT formats such as AAC or Windows Media Audio.
+
+   *Vorbis generally achieves better sound quality than MP3 at similar bit rates.*
 `FLAC <http://en.wikipedia.org/wiki/FLAC>`__
    Free Loss-less Audio Codec.
    Digital audio compressed by FLAC's algorithm can typically be reduced to 50-60% of its original size,
