@@ -61,17 +61,14 @@ the Game Engine can be efficiently used in all areas of game design,
 from prototyping to final release.
 
 The Game Engine can simulate content within Blender,
-however it also includes the ability to export a binary run-time to Windows, Linux and MacOS.
-There is also basic support for mobile platforms with the Android Blender Player GSOC 2012
-project.
+however it also includes the ability to export a binary run-time to Linux, MacOSX and MS-Windows.
 
-There are a number of powerful libraries included in the 2.5 / 2.6 releases of Blender,
-including:
+There are a number of powerful libraries the Game-Engine takes advantage of:
 
-- Recast - a state of the art navigation mesh construction tool set for games.
-- Detour - a path-finding and spatial reasoning toolkit.
-- Bullet - a physics engine featuring 3D collision detection, soft body dynamics, and rigid body dynamics
 - Audaspace - a sound library for control of audio. Uses OpenAL or SDL
+- Bullet - a physics engine featuring 3D collision detection, soft body dynamics, and rigid body dynamics
+- Detour - a path-finding and spatial reasoning toolkit.
+- Recast - a state of the art navigation mesh construction tool set for games.
 
 When creating a game or simulation in the BGE, there are four essential steps:
 
