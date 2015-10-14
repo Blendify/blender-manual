@@ -66,7 +66,14 @@ Scripting Options
 Diagnostics Options
 ===================
 
+
+System Info
+-----------
+
 Access :menuselection:`Help --> System Info`
+
+This diagnostic tool extracts system information which can be useful to include in bug reports,
+or inspecting Blender's configuration.
 
 Creates a ``system-info.txt`` text block, which you can access in the Blender *Text Editor*.
 The text lists various key properties of your system and Blender, which can be useful in diagnosing problems.
