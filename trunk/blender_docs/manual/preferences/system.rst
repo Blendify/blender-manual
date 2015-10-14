@@ -7,8 +7,7 @@ The *System* tab allows you to set resolution, scripting console preferences, so
 and internationalization.
 
 
-.. figure:: /images/Preferences_System_Screenshot_Full.jpg
-   :width: 650px
+.. figure:: /images/preferences_system_ui.png
 
 
 General
