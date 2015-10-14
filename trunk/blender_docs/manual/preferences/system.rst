@@ -18,6 +18,15 @@ DPI
    Value of the screen resolution which controls the size of Blender's interface fonts and internal icons shown.
    Useful for taking screen shots for book printing and use of high resolution monitors.
    During typical usage, you may prefer to use zoom which is a available in many parts of Blender interface.
+Virtual Pixel Mode
+   Allows you to select global scaling.
+   While the DPI only scales the interface, this will scale line width, vertex-size.
+
+   This is intended for hi-dpi monitors.
+
+   .. note::
+
+      This is currently auto-detected on OSX.
 Frame Server Port
    TCP/IP port used in conjunction with the IP Address of the machine for frameserver rendering.
    Used when working with distributed rendering.
