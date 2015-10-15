@@ -102,12 +102,12 @@ Scene and Specific Objects
 Render Settings
 ===============
 
-- :doc:`Output Panel </render/output>`
+- :doc:`Output Panel </render/output/output>`
   - Disable *Edge* rendering.
   - *Save Buffers*.
 
   - Render to an :ref:`Image Editor <editors-uv_image-index>` window,
-    not a pop-up. :doc:`Render Window </render/display>`.
+    not a pop-up. :doc:`Render Window </render/output/display>`.
   - Use multiple *Threads* on a multi-core CPU (with multiple *Parts*).
 - :doc:`Render Layers Panel </render/post_process/layers>`
   - Render only the Layers of interest.
@@ -143,7 +143,7 @@ Render Settings
   - Bake Ambient Occlusion only.
   - Bake textures for objects.
   - Baking Normals or Displacement does not speed up render time, and are used for other things.
-- :doc:`Format Panel </render/output>`
+- :doc:`Format Panel </render/output/output>`
   - Render at a lower resolution. Smaller pictures take less time to render.
   - Choose a faster CODEC or CODEC settings.
   - Render in black and white (*BW* button).
