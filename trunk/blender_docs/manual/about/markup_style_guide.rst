@@ -13,6 +13,12 @@ Conventions
 - Lines should be less than 120 characters long.
 - Use italics for button/menu names.
 
+Other loose conventions:
+
+- Avoid unicode characters.
+- Avoid heavily wrapped text
+  *(sentences can have their own lines for eg.)*.
+
 
 Headings
 ========
