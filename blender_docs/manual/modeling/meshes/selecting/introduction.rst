@@ -74,13 +74,27 @@ You can also choose a selection mode with the pop-up menu
 
 :menuselection:`Select Mode --> Vertices`
    Press :kbd:`Ctrl-Tab` and select *Vertices* from the pop-up menu, or press :kbd:`Ctrl-Tab`:kbd:`1`.
+
+   The selected vertices are drawn in yellow and unselected vertices are drawn in a pink color.
 :menuselection:`Select Mode --> Edges`
    Press :kbd:`Ctrl-Tab` and select *Edges* from the pop-up menu, or press :kbd:`Ctrl-Tab`:kbd:`2`.
+
+   In this mode the vertices are not drawn.
+   Instead the selected edges are drawn in yellow and unselected edges are drawn in a black color.
 :menuselection:`Select Mode --> Faces`
    Press :kbd:`Ctrl-Tab` and select *Faces* from the pop-up menu, or press :kbd:`Ctrl-Tab`:kbd:`3`.
 
+   In this mode the faces are drawn with a selection point in the middle which is used for selecting a face.
+   Selected faces are drawn in yellow with the selection point in orange, unselected faces are drawn in black.
 
-Switching select mode
+
+Almost all modification tools are available in all three modes.
+So you can *Rotate*, *Scale*, *Extrude*, etc. in all modes.
+Of course rotating and scaling a *single* vertex will not do anything useful,
+so some tools are more or less applicable in some modes.
+
+
+Switching Select Mode
 ---------------------
 
 When switching modes in an "ascendant" way (i.e. from simpler to more complex), from
