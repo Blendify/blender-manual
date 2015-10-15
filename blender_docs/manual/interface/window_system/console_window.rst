@@ -19,44 +19,17 @@ Use Cases:
 - To launch with :doc:`/advanced/command_line` options.
 - When troubleshooting, to see the output of ``--debug`` messages.
 
-
-Microsoft Windows
-=================
-
-.. figure:: /images/Interface-Window-System-console-windows.jpg
-   :align: right
-   :width: 360px
-
-   The Blender Console Window on Windows XP and subsequent messages.
-
-
-When Blender is started on a Windows operating system,
-the *Console Window* is first created as a separate window on the desktop.
-The main Blender window will also appear and the *Console Window* will then be toggled off.
-To display the console again, go to :menuselection:`Window --> Toggle System Console`.
-
-The screenshot shows the Blender *Console Window* on Windows XP
-directly after starting Blender and then a short while later after opening a file along with
-the relevant messages.
-
-
-.. tip:: Closing the Blender Console Window
-
-   The Blender *Console Window* must remain open while Blender is running.
-   Closing the *Console Window* will also close Blender, losing any unsaved work.
-   To turn off the console without closing Blender,
-   toggle the console state to off via re-selecting Toggle System Console option from the drop-down menu
-   :menuselection:`Window --> Toggle System Console`.
-
+Platform Dependant Instructions
+===============================
 
 Linux
-=====
+-----
 
 .. figure:: /images/Interface-Window-System-console-linux.jpg
    :align: right
    :width: 360px
 
-   Starting Blender from a Linux console window and subsequent messages.
+   Starting Blender from a Linux console window.
 
 
 The Blender *Console Window* in Linux will typically only be visible on the desktop
@@ -73,26 +46,56 @@ This screenshot shows Blender started from a Linux Terminal and the
 resulting console text being printed to it.
 
 
-MacOS
-=====
+Mac OSX
+-------
 
 .. figure:: /images/Interface-Window-System-console-mac.jpg
    :align: right
    :width: 360px
 
-   Starting Blender from a Mac OS X console window and subsequent messages.
+   Starting Blender from a Mac OSX console window.
 
 
-MacOS uses "files" with the .app extension called *applications*.
-These files are actually folders that appear as files in Finder. In order to run Blender you
-will have to specify that path to the Blender executable inside this folder,
+Mac-OSX uses "files" with the ``.app`` extension called *applications*.
+These files are actually folders that appear as files in Finder.
+In order to run Blender you will have to specify that path to the Blender executable inside this folder,
 to get all output printed to the terminal.
 You can start a terminal from Applications --> Utilities.
 The path to the executable in the ``.app`` folder is ``./blender.app/Contents/MacOS/blender``.
 
-If you have Blender installed in the Applications folder, the following command could be
-used/adapted to the particular Blender version:
-``/Applications/blender-2.75/blender.app/Contents/MacOS/blender``
+If you have Blender installed in the Applications folder,
+the following command can be used:
+
+.. parsed-literal:: /Applications/blender-\ |BLENDER_VERSION|/blender.app/Contents/MacOS/blender
+
+
+MS-Windows
+----------
+
+.. figure:: /images/Interface-Window-System-console-windows.jpg
+   :align: right
+   :width: 360px
+
+   Blender's Console Window on MS-Windows.
+
+
+When Blender is started on a MS-Windows operating system,
+the *Console Window* is first created as a separate window on the desktop.
+The main Blender window will also appear and the *Console Window* will then be toggled off.
+To display the console again, go to :menuselection:`Window --> Toggle System Console`.
+
+The screenshot shows the Blender *Console Window* on MS-Windows
+directly after starting Blender and then a short while later after opening a file along with
+the relevant messages.
+
+
+.. tip:: Closing the Blender Console Window
+
+   The Blender *Console Window* must remain open while Blender is running.
+   Closing the *Console Window* will also close Blender, losing any unsaved work.
+   To turn off the console without closing Blender,
+   toggle the console state to off via re-selecting Toggle System Console option from the drop-down menu
+   :menuselection:`Window --> Toggle System Console`.
 
 
 Console Window Status and Error Messages

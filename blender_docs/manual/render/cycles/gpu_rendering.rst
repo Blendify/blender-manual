@@ -138,7 +138,7 @@ If so, delete the following line in ``/usr/local/cuda/include/host_config.h``
 CUDA Error: Invalid kernel image
 --------------------------------
 
-If you get this error on Windows 64-bit, be sure to use the 64-bit build of Blender,
+If you get this error on MS-Windows 64-bit, be sure to use the 64-bit build of Blender,
 not the 32-bit version.
 
 
@@ -154,7 +154,7 @@ The NVIDIA OpenGL driver lost connection with the display driver
 ----------------------------------------------------------------
 
 If a GPU is used for both display and rendering,
-Windows has a limit on the time the GPU can do render computations.
+MS-Windows has a limit on the time the GPU can do render computations.
 If you have a particularly heavy scene, Cycles can take up too much GPU time.
 Reducing Tile Size in the Performance panel may alleviate the issue,
 but the only real solution is to use separate graphics cards for display and rendering.

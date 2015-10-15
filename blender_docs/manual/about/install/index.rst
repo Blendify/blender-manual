@@ -10,5 +10,5 @@ This section documents how to install the software used to generate the manual o
    :maxdepth: 1
 
    Linux <linux.rst>
-   OSX <osx.rst>
-   Windows <windows.rst>
+   Mac OSX <osx.rst>
+   MS-Windows <windows.rst>
