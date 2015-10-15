@@ -42,13 +42,7 @@ Faces
    Selected faces and their selection point are drawn in orange,
    unselected faces are drawn in black, and the active or last selected face is highlighted in white.
 
-.. hint::
-
-   Using these buttons you can enable multiple *Selection Modes* at once
-   :kbd:`Shift-LMB` clicking the buttons.
-
-   This allows you to quickly select Vertices/Edges/Faces,
-   without first having to switch modes.
+When using these button, you can make use of modifier keys, see: `Switching Select Mode`_.
 
 Almost all tools are available in all three mesh selection modes.
 So you can *Rotate*, *Scale*, *Extrude*, etc. in all modes.
@@ -68,12 +62,11 @@ Select Mode Pop-up
 
 
 .. figure:: /images/Modeling-Meshes-Selection-mode.jpg
-   :width: 152px
+   :align: right
 
    Mesh Select Mode menu
 
-
-You can also choose a selection mode with the pop-up menu
+You can choose a selection mode with the pop-up menu:
 
 :menuselection:`Select Mode --> Vertices`
    Press :kbd:`Ctrl-Tab` and select *Vertices* from the pop-up menu, or press :kbd:`Ctrl-Tab`:kbd:`1`.
@@ -81,6 +74,9 @@ You can also choose a selection mode with the pop-up menu
    Press :kbd:`Ctrl-Tab` and select *Edges* from the pop-up menu, or press :kbd:`Ctrl-Tab`:kbd:`2`.
 :menuselection:`Select Mode --> Faces`
    Press :kbd:`Ctrl-Tab` and select *Faces* from the pop-up menu, or press :kbd:`Ctrl-Tab`:kbd:`3`.
+
+
+When using this menu, you can make use of modifier keys, see: `Switching Select Mode`_.
 
 
 Switching Select Mode
@@ -98,6 +94,18 @@ Hence, switching in a "descendant" way (i.e. from more complex to simpler),
 all elements defining the "high-level" element (like a face) will be selected
 (the four vertices or edges of a quadrangle, for example).
 
+Multiple Selection Modes
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+By holding :kbd:`Shift-LMB` when selecting a selection mode,
+you can enable multiple *Selection Modes* at once.
+
+This allows you to quickly select Vertices/Edges/Faces,
+without first having to switch modes.
+
+Expanding Selection Modes
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
 By holding :kbd:`Ctrl` when selecting a higher selection mode,
 all elements touching the current selection will be added,
 even if the selection does not form a complete higher element.
@@ -105,7 +113,6 @@ even if the selection does not form a complete higher element.
 See (*Vertices* *mode example*), (*Edges* *mode example*),
 (*Faces* *mode example*) and (*Mixed mode example*)
 for examples of the different modes.
-
 
 .. list-table::
 
