@@ -10,7 +10,7 @@ Image Node
    Image node
 
 
-The *Image* node injects any image :doc:`format that is supported by Blender </render/output>`.
+The *Image* node injects any image :doc:`format that is supported by Blender </render/output/output>`.
 Besides inputting the actual image, this node can also input *Alpha* and depth (*Z*) values
 if the image has them. If the image is a MultiLayer format,
 all saved render passes are input. Use this node to input:

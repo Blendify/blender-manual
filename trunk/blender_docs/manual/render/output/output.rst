@@ -85,7 +85,6 @@ Output Format
 
 .. hint:: Home-Made Render Farm
 
-
    An easy way to get multiple machines to share the rendering workload is to:
 
    - Set up a shared directory over a network file-system.

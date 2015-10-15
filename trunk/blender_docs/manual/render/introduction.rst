@@ -18,7 +18,7 @@ This process may take some time depending on the complexity of the scene and you
 Once the render is complete, it is possible to do additional manipulation of the image,
 called :doc:`Post Processing </render/post_process/index>`.
 
-Finally, the output can be saved to an image or video file using one of the :doc:`output formats </render/output>`.
+Finally, the output can be saved to an image or video file using one of the :doc:`output formats </render/output/output>`.
 
 
 Workflow

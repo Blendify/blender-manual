@@ -105,7 +105,7 @@ Frame Sequence Workflow
 - Scrub through the animation, checking that you have included all the frames.
 - In the Scene Render buttons, in the Post Processing panel, activate *Sequencer*.
 - In the Format panel, choose the container and codec you want (e.g. MPEG H.264)
-  and configure it. The video codecs are described on the previous page: :doc:`Output Options </render/output>`.
+  and configure it. The video codecs are described on the previous page: :doc:`Output Options </render/output/output>`.
 - Click the ANIMATION render button and Blender will render out the sequence editor output into your movie.
 
 Why go through all this hassle? Well, first of all, if you render out single frames you can

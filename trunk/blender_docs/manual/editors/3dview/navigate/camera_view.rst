@@ -59,7 +59,6 @@ context or by activating the option again and selecting *Render Border* larger t
    Render border and associated render.
 
 
-:doc:`Read more about Render Output options </render/output>`
+:doc:`Read more about Render Output options </render/output/output>`
 
 :doc:`Read more about Cameras </render/camera/index>`
-
