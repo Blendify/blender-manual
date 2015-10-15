@@ -3,25 +3,15 @@
 OpenGL Render
 *************
 
-Introduction
-============
+OpenGL rendering uses the 3d-views drawing for quick *preview* renders.
 
+This allows you to inspect your animatic
+(for object movements, alternate angles, etc.).
 
-OpenGL rendering allows you to quickly inspect your animatic
-(for things like object movements, alternate angles, etc.),
-by giving you a draft quality rendering of the current view-port.
+This can also be used to preview your animations -
+in the event your scene is too complex for your system to play back in real-time in the 3d-view.
 
-Because it is only rendered using OpenGL, it is much faster to generate,
-even if it only looks as good as what you see in the 3D view-port.
-
-This allows you to preview your animation with fluid playback,
-which you would otherwise not be able to do in real time due to scene complexity (i.e.,
-pressing :kbd:`Alt-A` results in too low of a *Frames Per Second* to get a good feel
-for the animation).
-
-You can use OpenGL to render both images and animations,
-and change dimensions using the same instructions explained above. As with a normal render,
-you can abort it with :kbd:`Esc`.
+You can use OpenGL to render both images and animations.
 
 Below is a comparison between the OpenGL render and a final render using
 the Blender Internal engine.
@@ -76,6 +66,8 @@ Activating OpenGL render from the menu will render from the active camera.
 
 You can also render any view-port, from the header of the *3D View*,
 using the small button showing a *Camera* (together with a small image showing a *slate*)
+
+As with a normal render, you can abort it with :kbd:`Esc`.
 
 Render a Still Image
    Click on the small button showing a *camera* in the header of the 3D View.
