@@ -198,8 +198,7 @@ The typical workflow for pinning:
    Very fast movements and teleport jumps can break the physics simulation.
 
 
-..    Comment: <!--
-   Note that if you move the cloth object ''after'' you have already run some simulations,
+.. Note that if you move the cloth object ''after'' you have already run some simulations,
    you must unprotect and clear the cache; otherwise, Blender will use the position of the
    current/cached mesh's vertices when trying to represent where they are.
    Editing the shape of the mesh, after simulation, is also discussed below.
@@ -210,9 +209,9 @@ The typical workflow for pinning:
    Finally, use the Timeline window Play button,
    or press {{Shortcut|alt|A}} in the 3D View to run the simulation.
    Your cloth will fall and interact with Deflection objects as it would in the real world.
-   <!--this is jumping ahead and not clear and not true at this point.
+
+.. This is jumping ahead and not clear and not true at this point.
    --[[User:Roger|Roger]] 18:42, 27 April 2008 (UTC)
-   --> .
 
 
 Cloth Sewing Springs
