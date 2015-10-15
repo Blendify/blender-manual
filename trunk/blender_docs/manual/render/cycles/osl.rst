@@ -43,14 +43,12 @@ under:
 
 
 Linux
-   ``/home/$user/.config/blender/`` *Version Number* ``/shaders/``
-Windows
-   ``C:\Users\$user\AppData\Roaming\Blender Foundation\Blender\`` *Version Number* ``\shaders\``
-Mac OS X
-   ``/Users/$user/Library/Application Support/Blender/`` *Version Number* ``/shaders/``
+   .. parsed-literal:: $HOME/.config/blender/|BLENDER_VERSION|/shaders/
+MS-Windows
+   .. parsed-literal:: C:\\Users\\$user\\AppData\\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\shaders\\
+Mac OSX
+   .. parsed-literal:: /Users/$USER/Library/Application Support/Blender/|BLENDER_VERSION|/shaders/
 
-
-(Replace *Version Number* with the release number of your current Blender installation, e.g. *2.65* or *2.66*.)
 
 For use in production, we suggest to **use a node group to wrap shader script nodes**,
 and link that into other .blend files.

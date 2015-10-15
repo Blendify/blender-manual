@@ -167,13 +167,13 @@ Still
    interlacing of the footage afterwards.
 
 
-Home-made Render Farm
+Home-Made Render Farm
 ---------------------
 
 .. figure:: /images/Homemade-Render-Farm.jpg
 
 An easy way to get multiple machines to share the rendering workload is to:
 
-- Set up a shared directory (such as a Windows Share or an NFS mount)
-- Un-check "Overwrite" and check "Placeholders"
+- Set up a shared directory over a network file-system.
+- Disable *Overwrite*, enable  *Placeholders* in the Render *Output* panel.
 - Start as many machines as you wish rendering to that directory -- they will not step on each other's toes.

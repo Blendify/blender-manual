@@ -51,8 +51,8 @@ SYSTEM
    .. parsed-literal:: $XDG_CONFIG_HOME/blender/|BLENDER_VERSION|/
 
 
-OSX
----
+Mac OSX
+-------
 
 LOCAL
    .. parsed-literal:: ./|BLENDER_VERSION|/
@@ -68,8 +68,8 @@ SYSTEM
    .. parsed-literal:: ./blender.app/Contents/MacOS/|BLENDER_VERSION|/
 
 
-Windows
--------
+MS-Windows
+----------
 
 LOCAL
    .. parsed-literal:: .\\\ |BLENDER_VERSION|\\.

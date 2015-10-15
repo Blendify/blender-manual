@@ -27,8 +27,8 @@ Install and Build
 The installation and building process is different for each operating system, instructions have been written for:
 
 - :doc:`Linux </about/install/linux>`
-- :doc:`OSX </about/install/osx>`
-- :doc:`Windows </about/install/windows>`
+- :doc:`Mac OSX </about/install/osx>`
+- :doc:`MS-Windows </about/install/windows>`
 
 
 Make Your Changes
