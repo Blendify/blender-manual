@@ -165,15 +165,3 @@ Still
    too much information is missing to do good neighborhood operations (blur, vector blur etc.).
    The solution is to render your animation at double the frame rate without fields and do the
    interlacing of the footage afterwards.
-
-
-Home-Made Render Farm
----------------------
-
-.. figure:: /images/Homemade-Render-Farm.jpg
-
-An easy way to get multiple machines to share the rendering workload is to:
-
-- Set up a shared directory over a network file-system.
-- Disable *Overwrite*, enable  *Placeholders* in the Render *Output* panel.
-- Start as many machines as you wish rendering to that directory -- they will not step on each other's toes.
