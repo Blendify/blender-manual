@@ -66,10 +66,10 @@ however some render settings are used too.
 - File Format & Output (file-path, format, compression settings... etc).
 
 
-Rendering an image using *OpenGL Render*
-========================================
+Rendering
+=========
 
-Activating OpenGL render from the menu will render to active camera view.
+Activating OpenGL render from the menu will render from the active camera.
 
 .. figure:: /images/basics-starting-small-opengl-render-buttons.jpg
    :align: right
@@ -77,31 +77,20 @@ Activating OpenGL render from the menu will render to active camera view.
 You can also render any view-port, from the header of the *3D View*,
 using the small button showing a *Camera* (together with a small image showing a *slate*)
 
-To abort or quit the render, press :kbd:`Esc`.
+Render a Still Image
+   Click on the small button showing a *camera* in the header of the 3D View.
 
+   Or from the menu: :menuselection:`Render --> OpenGL Render Image`
+   from the header of the *Info Window*
+Render an Animation
+   Click on the small button showing a *slate* in the header of the 3D View.
 
-Rendering an animation using *OpenGL Render*
-============================================
+   Or from the menu: :menuselection:`Render --> OpenGL Render Animation`
+   from the header of the *Info Window*
+Render from the Sequencer
+   Click on the small button showing a *slate* in the header of *Sequencer* preview window.
 
-To Render an animation using *OpenGL Render*, you can use any of the following options:
+   Using scene strips in the sequencer you can edit together scenes to quickly render an entire sequence of shots.
 
-.. figure:: /images/basics-starting-small-opengl-render-buttons.jpg
-   :align: right 
+   This can be activated using the render icons in the sequencer's playback window header.
 
-- Click on the small button showing a *slate*
-  (together with a small image showing a *camera*) in the header of the 3D View
-- Go to :menuselection:`Render --> OpenGL Render animation` from the header of the *Info Window*
-  (see: *Header of the Info Window* Image)
-
-To abort or quit rendering the animation, press :kbd:`Esc`.
-
-
-Rendering from the Sequencer
-============================
-
-Using scene strips in the sequencer you can edit together scenes to quickly render an entire sequence of shots.
-
-.. figure:: /images/basics-starting-small-opengl-render-buttons.jpg
-   :align: right 
-
-This can be activated using the render icons in the sequencer's playback window header.
