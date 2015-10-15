@@ -82,3 +82,12 @@ Output Format
    Based on which format is used, other options such as channels, bit-depth and compression level are available.
 
 .. TODO - 'Cache Result' definition is very similar to the tooltip and should be improved.
+
+.. hint:: Home-Made Render Farm
+
+
+   An easy way to get multiple machines to share the rendering workload is to:
+
+   - Set up a shared directory over a network file-system.
+   - Disable *Overwrite*, enable  *Placeholders* in the Render *Output* panel.
+   - Start as many machines as you wish rendering to that directory

@@ -12,8 +12,8 @@
    blender_render/index.rst
    cycles/index.rst
    camera/index.rst
-   display.rst
-   output.rst
+   output/display.rst
+   output/output.rst
    output/video.rst
    post_process/index.rst
    freestyle/index.rst
