@@ -15,6 +15,7 @@ The basic principle of the method is: the weight information is literally *paint
 on top of the Mesh body by using a set of Weight brushes.
 And since painting is always associated with color, we also need to define ...
 
+
 Weight Paint in a nutshell
 ==========================
 
@@ -49,6 +50,7 @@ Weight Paint in a nutshell
    Draw a *Clipping Border*
       :kbd:`Alt-B` then drag the clipping border to select the part of the 3D window which shall be kept visible.
       You can then draw only in this part. Press :kbd:`Alt-B` again to remove the *clipping border*.
+
 
 The weighting Color Code
 ========================
@@ -436,7 +438,7 @@ The weight paint tools are full described in the
 Weight Painting for Bones
 =========================
 
-This is probably the most often used application of weight painting.
+This is one of the main uses of weight painting.
 When a bone moves, vertices around the joint should move as well,
 but just a little, to mimic the stretching of the skin around the joint.
 Use a "light" weight (10-40%)
@@ -455,8 +457,8 @@ To modify automatically assigned weights, jump into the middle of the process wh
 *Pick up here for modifying automatically assigned weights.*
 
 
-- Select the armature in 3D View, and bring the armature to *Pose* **mode** (:kbd:`Ctrl-Tab`,
-  or the 3D View window header mode selector).
+- Select the armature in 3D View, and bring the armature to *Pose* **mode**
+  (:kbd:`Ctrl-Tab`, or the 3D View window header mode selector).
 - Select a desired bone in the armature.
 - Select your mesh (using :kbd:`RMB`) and change immediately to *Weight Paint* mode.
   The mesh will be colored according to the weight (degree) that the selected bone movement affects the mesh.
@@ -469,12 +471,8 @@ You may select a different bone with :kbd:`RMB` while weight painting,
 provided the armature was left in *Pose* mode as described above.
 This will activate the vertex group sharing the name with the selected bone,
 and display related weights. If the mesh skins the bones,
-you will not be able to see the bones because the mesh is painted. If so,
-turn on *X-Ray* view (*Buttons* window, *Editing* context,
-*Armature* panel). While there on that panel,
-you can also change how the bones are displayed (*Octahedron*, *Stick*,
-*B-Bone*, or *Envelope*) and enable *Draw Names* to ensure the
-name of the selected bone matches up to the vertex group.
+you will not be able to see the bones because the mesh is painted.
+If so, turn on *X-Ray* view (*Buttons* window, *Editing* context, *Armature* panel).
 
 If you paint on the mesh, a vertex group is created for the bone.
 If you paint on vertices outside the group,
@@ -500,5 +498,4 @@ so that the proper weights are achieved while using the actual number of particl
 Use this to make portions of your mesh hairier than others by weight painting a vertex group,
 and then calling out the name of the vertex group in the *VGroup:* field
 (*Particles* panel, *Object* context).
-
 
