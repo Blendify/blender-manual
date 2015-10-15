@@ -3,6 +3,22 @@
 Markup Style Guide
 ******************
 
+.. Editors Note:
+   ::
+   There are many detailed conventions, eg:
+   ::
+   - when definition lists / bullet-points are used.
+   - word-ordering in filenames.
+   - how text is wrapped.
+   - number of spaces between lines.
+   - when it is/isnt okay to add in unicode characters.
+   - should comments on a page be above or below titles :)
+   ::
+   Having a lot of detailed text on this page is off-putting to new contributors,
+   so please avoid making this page into a wall-of-text,
+   many conventions can be noticed along the way by reading existing text.
+
+
 This pages covers the conventions for writing and use of the reStructuredText (RST) markup syntax.
 
 
