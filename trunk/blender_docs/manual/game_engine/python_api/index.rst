@@ -1,4 +1,4 @@
-.. _gamengine-python-api-index:
+.. _game_engine-python-api-index:
 
 ###############
   Python API

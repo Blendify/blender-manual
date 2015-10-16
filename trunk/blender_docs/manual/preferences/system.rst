@@ -148,7 +148,7 @@ Multi-Sampling
    .. note::
 
       This is known to cause selection issues on some configurations,
-      see: :ref:`troubleshooting-3d_view-invalid_selection`.
+      see: :ref:`troubleshooting-3dview-invalid_selection`.
 
 Region Overlap
    This checkbox will enable Blender to draw regions overlapping the 3D Window.

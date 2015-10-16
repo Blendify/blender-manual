@@ -63,5 +63,5 @@ Recover Auto Save
 
 .. seealso::
 
-   :ref:`Auto Saves <recover-options-for-files>`
+   :ref:`Auto Saves <troubleshooting-file_recovery>`
 

@@ -1,4 +1,4 @@
-.. _gamengine-performance-index:
+.. _game_engine-performance-index:
 
 ###############
   Performance

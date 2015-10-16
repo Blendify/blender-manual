@@ -51,4 +51,4 @@ Legacy Mesh Format
 
 .. seealso::
 
-   :ref:`Auto Save <recover-options-for-files>`
+   :ref:`Auto Save <troubleshooting-file_recovery>`

@@ -1,4 +1,4 @@
-.. _gamengine-camera-index:
+.. _game_engine-camera-index:
 
 ##########
   Camera
