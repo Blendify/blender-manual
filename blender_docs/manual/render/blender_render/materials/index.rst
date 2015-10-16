@@ -22,7 +22,6 @@
    properties/strands.rst
    properties/options.rst
    properties/shadows.rst
-   properties/physics.rst
    nodes.rst
    nodes/types.rst
    nodes/types/input.rst
