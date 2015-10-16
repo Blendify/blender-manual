@@ -9,6 +9,7 @@
 
    introduction.rst
    world.rst
+   using_ge.rst
    object/static.rst
    object/no_collision.rst
    object/dynamic.rst
