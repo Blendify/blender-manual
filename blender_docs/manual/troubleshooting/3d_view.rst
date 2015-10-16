@@ -97,7 +97,7 @@ Tools
 =====
 
 
-.. _troubleshooting-3d_view-invalid_selection:
+.. _troubleshooting-3dview-invalid_selection:
 
 Invalid Selection
 -----------------

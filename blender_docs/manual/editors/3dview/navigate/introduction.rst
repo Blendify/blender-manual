@@ -64,7 +64,7 @@ Tool Shelf
 :doc:`Cameras Menu </editors/3dview/navigate/camera_view>`:
    *Set Active object as camera*
    *Active camera*
-:ref:`Perspective/Orthographic View <view3d-projections>`
+:ref:`Perspective/Orthographic View <3dview-projections>`
    These commands change the projection of the 3D view
 :doc:`Navigation Menu </editors/3dview/navigate/3d_view>`
    This sub-menu contains commands for rotating and panning the view.
@@ -79,20 +79,20 @@ Tool Shelf
    - *View Selected*
    - *Center View to cursor*
 
-:ref:`Clipping Border... <view3d-clip_border>`
+:ref:`Clipping Border... <3dview-clip_border>`
    Allows you to define a clipping border to limit the 3D view display to a portion of 3D space.
 :doc:`Zoom Border... </editors/3dview/navigate/3d_view>`
    Allows you to define the area you want to zoom into.
 :doc:`Show all Layers </editors/3dview/layers>`
    Makes all of the display layers visible.
-:ref:`Global View/Local View <view3d-local_view>`
+:ref:`Global View/Local View <3dview-local_view>`
    Global view shows all of the 3D objects in the scene. Local view only displays the selected objects.
    This helps if there are many objects in the scene, that may be in the way.
    Accidentally pressing :kbd:`NumpadSlash` can happen rather often if you're new to Blender,
    so if a bunch of the objects in your scene seem to have mysteriously vanished, try turning off local view.
 :doc:`View Selected </editors/3dview/navigate/3d_view>`
    Zooms the 3D view to encompass all the *selected* objects.
-:ref:`View All <view3d-view_all>`
+:ref:`View All <3dview-view_all>`
    Zooms the 3D view to encompass *all* the objects in the current scene.
 :doc:`Play Back Animation </animation/index>`
    Plays back the animation from the current frame.

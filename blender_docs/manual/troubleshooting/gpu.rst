@@ -22,7 +22,7 @@ Upgrade your OpenGL Driver
    If you're experiencing any strange graphics problems with Blender,
    its always good to double check you're using the latest drivers.
 Disable Anti-Aliasing (:term:`FSAA, Multi-Sampling<FSAA>`)
-   See :ref:`Invalid Selection, Disable Anti-Aliasing <troubleshooting-3d_view-invalid_selection>`.
+   See :ref:`Invalid Selection, Disable Anti-Aliasing <troubleshooting-3dview-invalid_selection>`.
 Change the *Window Draw Method*
    This is set in the :ref:`system preferences <preferences-system-window_draw>`.
    Its selected automatically, however when experiencing problems its worth

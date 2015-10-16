@@ -17,7 +17,7 @@ it is possible to translate and zoom a *Buttons* window and its panels.
    page of the manual to learn how to use them with Blender.
 
 
-.. _view3d-projections:
+.. _3dview-projections:
 
 Perspective and Orthographic Views
 ==================================
@@ -248,13 +248,13 @@ They are found in the *View Menu*
 View Selected
    See above
 
-.. _view3d-view_all:
+.. _3dview-view_all:
 
 View All :kbd:`Home`
    Frames all the objects in the scene, so they are visible in the viewport.
 
 
-.. _view3d-local_view:
+.. _3dview-local_view:
 
 Local and Global View
 =====================
@@ -298,7 +298,7 @@ However in sometimes its preferable to split the view, so each can have its own 
 :doc:`Read more about splitting windows </interface/window_system/arranging_frames>`
 
 
-.. _view3d-clip_border:
+.. _3dview-clip_border:
 
 View Clipping Border
 ====================
@@ -350,7 +350,7 @@ Once clipping is deactivated with another :kbd:`Alt-B`,
 all of 3D space will become visible again.
 
 
-.. _view3d-walk_fly:
+.. _3dview-walk_fly:
 
 Walk/Fly Mode
 =============
