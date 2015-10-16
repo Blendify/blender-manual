@@ -28,4 +28,3 @@ The animation can them to recorded with :kbd:`Alt-A`
 
 If you just want a static pile of stuff, you can move to the last frame,
 and delete all the keyframes quickly by turning them into NLAs and deleting.
-
