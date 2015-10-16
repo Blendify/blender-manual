@@ -59,15 +59,16 @@ Options
 =======
 
 Load UI
-   Inside each .blend file, Blender saves the user interface arrangement. By default,
-   this saved UI is loaded, overriding any user defaults or current screen layouts that you have.
+   Inside each .blend file, Blender saves the user interface arrangement.
+   By default, this saved UI is loaded, overriding any user defaults or current screen layouts that you have.
    If you want to work on the blend file using your own defaults, start a fresh Blender,
    then open the file browser and turn off the *Load UI* button,
    and then open the file.
 Trusted Source
-   When enabled, python scripts and drivers that may be included in the file will be run automatically.
-   Enable this only if you created the file yourself, or you trust that the person who gave it to you
-   did not include any malicious code with it. See `Security`_ below.
+   When enabled, Python scripts and drivers that may be included in the file will be run automatically.
+   Enable this only if you created the file yourself,
+   or you trust that the person who gave it to you did not include any malicious code with it.
+   See :doc:`/advanced/scripting/python/security` to configure default trust options.
 
 
 Header
@@ -126,20 +127,3 @@ Recover Auto Save
 
    :ref:`Auto Saves <recover-options-for-files>`
 
-
-Security
-========
-
-.. warning::
-
-   Always be very careful when downloading .blend files and tools from un-trustworthy sources!
-
-Blender is aimed at production level use and relies heavily on Python,
-a powerful scripting language used to create new tools, importers drive animation rigs, etc.
-
-Part of Python's power comes from having full access to your system,
-however this power can also be misused in the wrong hands.
-It is possible for dishonest people to distribute ``.blend``
-files containing scripts that may damage your system.
-These scripts can be attached as part of animation rigs,
-so that they will be run when such a ``.blend`` file is opened.

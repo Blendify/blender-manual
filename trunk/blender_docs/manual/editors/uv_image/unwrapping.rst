@@ -430,8 +430,8 @@ Area Weight
 
 .. _lightmap-pack:
 
-Lightmap
-========
+Lightmap Pack
+=============
 
 Lightmap Pack takes each of a mesh's faces, or selected faces,
 and packs them into the UV bounds. Lightmaps are used primarily in gaming contexts,
