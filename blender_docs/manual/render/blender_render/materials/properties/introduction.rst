@@ -41,7 +41,5 @@ and brief details of their scope. Details of their controls and settings are giv
    Various options for shading and coloring the object.
 :doc:`Shadow </render/blender_render/materials/properties/shadows>`:
    Controls how objects using this material cast and receive shadows.
-:doc:`Game Settings </render/blender_render/materials/properties/game_settings>`
+:doc:`Game Settings </game_engine/materials>`
    (Only Blender Render): Controls settings for real-time rendering of Game Engine objects.
-:doc:`Physics </render/blender_render/materials/properties/physics>`
-   (??)
