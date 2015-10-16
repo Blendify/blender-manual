@@ -9,6 +9,7 @@
 
    introduction.rst
    screen_layout.rst
+   materials.rst
    logic/index.rst
    camera/index.rst
    physics/index.rst

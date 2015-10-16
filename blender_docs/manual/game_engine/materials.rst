@@ -1,7 +1,8 @@
+..    TODO/Review: {{review|void=X}} .
 
-*************
-Game Settings
-*************
+**************
+Game Materials
+**************
 
 .. figure:: /images/materials_properties_game_settings.jpg
 
@@ -60,5 +61,4 @@ of faces to which the material is applied.
       Screen aligned billboard.
 
    Normal (default)
-      No transofmation.
-
+      No transformation.
