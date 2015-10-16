@@ -52,7 +52,21 @@ Look in the Outliner, with display mode set to *Blender File*, to see all your l
 
    You cannot move a linked object. Its position is defined in its source file.
 
-   Use :menuselection:`Object --> Make Local --> Selected Objects` to make the position editable.
+   If you want to modify the object locally you can either:
+
+   Use :doc:`Dupli-Groups </modeling/objects/duplication/dupligroup>`
+      Instead of linking in *Objects* directly,
+      its often more useful to link in *Groups*, which can be assigned to empties and moved,
+      while maintaining the link to the original file.
+
+      Its also useful to be able to add/remove objects from the group
+      without having to manage linking in multiple objects.
+   Make Objects Local
+      Use :menuselection:`Object --> Make Local --> Selected Objects` to make the position editable.
+
+      This means that object data (animation, constraints, modifiers...) will be local to your ``.blend`` file.
+      But the object-data will still be linked and remain immutable.
+      
 
 .. note::
 
