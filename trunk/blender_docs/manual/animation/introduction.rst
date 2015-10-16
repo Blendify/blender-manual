@@ -51,7 +51,7 @@ Animation Techniques
 
 - :doc:`Constraints </animation/techs/object/constraint>`
 - :doc:`Moving objects on a Path </animation/techs/object/path>`
-- :doc:`Game Engine Physics Recording </physics/using_ge>`
+- :doc:`Game Engine Physics Recording </game_engine/physics/using_ge>`
 
 
 Animating Deformation

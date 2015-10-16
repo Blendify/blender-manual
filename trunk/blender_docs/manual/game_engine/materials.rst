@@ -14,10 +14,6 @@ Game Settings
 This panel contains properties that control how the object surfaces that use the
 material are rendered in real time by the Blender Game Engine.
 
-Game settings are visible when using the game engine for rendering.
-Material physics usage is described :doc:`here </render/blender_render/materials/properties/physics>`.
-
-
 Backface Cull (default On)
    Hide the back faces of objects rendered with this material.
    If "Off", both sides of the surface are visible (at the expense of lower rendering speed).
@@ -66,17 +62,9 @@ of faces to which the material is applied.
    Normal (default)
       No transformation.
 
-Physics
-=======
 
-   ::
-   Incomplete Page Descriptions of some controls either very brief or missing.
-   If you have more information, please update this page (and remove this note when you feel the page is complete).
-
-
-************
-Game Physics
-************
+Material Physics
+================
 
 .. figure:: /images/materials-properties-game-physics-settings.jpg
 

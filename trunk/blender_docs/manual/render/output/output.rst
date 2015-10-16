@@ -83,7 +83,7 @@ Output Format
 
 .. TODO - 'Cache Result' definition is very similar to the tooltip and should be improved.
 
-.. hint:: Home-Made Render Farm
+.. hint:: Primitive Render-Farm
 
    An easy way to get multiple machines to share the rendering workload is to:
 

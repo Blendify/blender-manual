@@ -31,8 +31,6 @@ The main purpose of this is to be able to drag media files.
 Shortcuts
 ---------
 
-----
-
 
 Path Fields
 ^^^^^^^^^^^
