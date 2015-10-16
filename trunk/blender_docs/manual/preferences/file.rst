@@ -84,6 +84,8 @@ Excluded Paths
 .. seealso:: :doc:`/advanced/scripting/python/security`
 
 
+.. _preferences-save_load:
+
 Save & Load
 ===========
 
