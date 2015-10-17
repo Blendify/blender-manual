@@ -384,7 +384,11 @@ More complex rules can be added, such as obstacle avoidance and goal seeking.
 Turbulence
 ----------
 
-Create a random turbulence effect with a 3d noise.
+Creates a random & chaotic 3d noise effect, similar to jets in a hot tub or geysers under the ocean.
+
+.. figure:: /images/physics_force_fields_turbulence_example.png
+  
+   Turbulence force field affecting a particle system.
 
 Size
    Indicates the scale of the noise.
@@ -408,4 +412,3 @@ Links
 
 - `Wind & Deflector force update 2.48
   <http://wiki.blender.org/index.php/Template:Release_Notes/2.48/WindCollisions>`__
-
