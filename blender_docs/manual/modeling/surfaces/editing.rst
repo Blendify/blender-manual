@@ -330,7 +330,7 @@ Example
 
 In (*Before*) a row of control points has been selected by initially selecting the control point labeled ``A``
 and using :kbd:`Shift-R` to select the remaining control points.
-Then, using the :doc:`Erase menu </ce/menus/erase#edit_mode>` (:kbd:`X`),
+Then, using the *Delete Menu* (:kbd:`X`),
 the *selected* row of control points is erased, resulting in (*After*).
 
 
