@@ -384,7 +384,7 @@ More complex rules can be added, such as obstacle avoidance and goal seeking.
 Turbulence
 ----------
 
-Creates a random & chaotic 3d noise effect, similar to jets in a hot tub or geysers under the ocean.
+Creates a random & chaotic 3d noise effect, similar to jets of water or geysers under the ocean.
 
 .. figure:: /images/physics_force_fields_turbulence_example.png
   
