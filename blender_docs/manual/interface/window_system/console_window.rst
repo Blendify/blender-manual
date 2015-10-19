@@ -91,11 +91,10 @@ the relevant messages.
 
 .. tip:: Closing the Blender Console Window
 
-   The Blender *Console Window* must remain open while Blender is running.
    Closing the *Console Window* will also close Blender, losing any unsaved work.
+
    To turn off the console without closing Blender,
-   toggle the console state to off via re-selecting Toggle System Console option from the drop-down menu
-   :menuselection:`Window --> Toggle System Console`.
+   just run *Toggle System Console* again from the menu (as mentioned above).
 
 
 Console Window Status and Error Messages
