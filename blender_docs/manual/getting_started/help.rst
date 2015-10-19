@@ -10,7 +10,6 @@ Tooltips
 .. figure:: /images/ui_tooltip_example.png
 
    The Mouse pointer was Stopped for a while over the Render Engines List in the Info Window.
-   The normal Tooltip is in white and the Python operator is displayed in grey.
 
 When hovering your cursor over a button or setting,
 it will show you the *Tooltip*, and related details depending on the button type,
