@@ -51,8 +51,7 @@ There are three primary types of modeling - mesh modeling, curve/surface modelin
    when two or more are brought together they merge by smoothly rounding out the point of connection,
    appearing as one unified object.
 
-   This is one of the quickest ways to get started roughly modeling an object.
-   The resulting figure can then be converted into a mesh for further detailing using :kbd:`Alt-C`.
+   This can also be a quick way to get started with a rough shape which can be converted to a mesh later.
 :doc:`Text Modeling </modeling/texts/introduction>` -
    inserting text is quite common for the creation of logos,
    and can be seen as a special case of neither curve nor mesh modeling.
