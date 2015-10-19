@@ -26,5 +26,3 @@
    techs/shape/indirect_animation.rst
    techs/armatures.rst
    techs/armatures/mocap.rst
-   techs/camera.rst
-   techs/material.rst
