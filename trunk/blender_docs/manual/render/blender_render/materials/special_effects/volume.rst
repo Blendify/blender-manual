@@ -10,27 +10,16 @@ Volume Rendering
 
 
 Volume rendering is a method for rendering light as it passes through participating media,
-within a 3d region.
-The implementation in Blender's sim-physics branch is a physically based model,
+within a 3d region. The implementation in Blender a physically based model,
 which represents the various interactions of light in a volume relatively realistically.
-
-
-.. figure:: /images/Volumerendering-solid_eq.jpg
-
-   Solid rendering
-
-   The process of rendering a solid surface involves the camera finding a piece of geometry,
-   then calculating the light that bounces from light sources (lamp objects, or other geometry),
-   off the surface, and towards the camera.
-   The light that arrives at the camera is the final color that's rendered.
 
 .. figure:: /images/Volumerendering-volume_eq.jpg
 
    Volume rendering
 
-   Rendering a volume works differently. Light enters a 3D region of space (defined as the volume) that may be filled
-   with small particles, such as smoke, mist or clouds.
-
+Rendering a volume is different then :doc:`Solid Render </render/blender_render/materials/properties/diffuse_shaders>`.
+For volume light enters a 3D region of space (defined as the volume)
+that may be filled with small particles, such as smoke, mist or clouds.
 The light bounces around off the various molecules, being scattered or absorbed,
 until some light passes through the volume and reaches the camera.
 In order for that volume to be visible, the renderer must figure out how much material the
@@ -46,7 +35,7 @@ Options
 *******
 
 Density
-=======
+-------
 
 .. figure:: /images/Volumerendering-density.jpg
 
@@ -61,12 +50,6 @@ which can either be a constant density throughout, or varied, controlled by a te
 by controlling the density that one can get the typical 'volumetric' effects such as clouds or
 thick smoke.
 
-
-.. figure:: /images/Materials-VolumeRender-Options-Density.jpg
-
-   Density options
-
-
 Density
    The base density of the material - other density from textures is added on top
 Density Scale
@@ -75,7 +58,7 @@ Density Scale
 
 
 Shading
-=======
+-------
 
 .. figure:: /images/Volumerendering-scattering1.jpg
 
@@ -140,7 +123,7 @@ all directions - known as Isotropic scattering.
 In real life different types of media can scatter light in different angular directions,
 known as Anisotropic scattering.
 Back-scattering means that light is scattered more towards the incoming light direction, and
-forward-scattering means it's scattered along the same direction as the light is travelling.
+forward-scattering means it's scattered along the same direction as the light is traveling.
 
 Asymmetry
    Asymmetry controls the range between back-scattering (-1.0) and forward-scattering (1.0).
@@ -353,18 +336,13 @@ Multiple Scattering Options:
 Transparency
 ============
 
-.. figure:: /images/Materials-VolumeRender-Options-Transparency.jpg
+The transparency settings are the same as
+:doc:`Solid Render </render/blender_render/materials/properties/diffuse_shaders>` except you have less settings.
+For volume rendering you only have:
 
-   Transparency options
-
-
-Mask
-   Mask the Background.
-Z Transparency
-   Use Alpha buffer for transparent faces.
-Raytrace
-   Use Raytracing for Transparent Refraction rendering.
-
+- Mask
+- Z Transparency
+- Raytrace
 
 Integration
 ===========
@@ -390,7 +368,6 @@ Depth Cutoff
    Stop ray marching early if transmission drops below this luminance -
    higher values give speedups in dense volumes at the expense of accuracy.
 
-
 Options
 =======
 
@@ -411,105 +388,78 @@ Light Group
 Exclusive
    Material uses this group exclusively. Lamps are excluded from other scene lighting.
 
+Smoke and Fire
+==============
 
-Examples
-********
+Create the Material
+-------------------
 
-<these are sandbox edits to the whole shading intro section of the wiki,
-which groups materials and textures, and gives us an entree into Volumetric shading.
-Note qualification of Mesh object. Need to investigate shading of other object types...>
+The material must be a volumetric material with a Density of 0, and a high Density Scale.
 
-Shading is the process and the code which enables an object to be seen in the final render
-output. Blender has four methods to shade a mesh object:
+.. figure:: /images/material.jpg
+   :width: 300px
 
+   The Material Settings
 
-- Surface
-- Volumetric
-- Halo
-- Wire
+Smoke requires a complex material to render correctly. Select the big cube and go to the material tab.
+There change the material to 'Volume' and set the density to 0.
+If you set the density to values bigger than 0 the domain cube will be filled with the volume material.
+The `other settings <http://wiki.blender.org/index.php/User:Broken/VolumeRenderingDev>`__ will affect the smoke,
+though. We'll cover those later.
 
-Surface shading indicates that the object is a tangible,
-skinned object that has a solid (but possibly pliable) surface, such as a chair, a sword,
-or a peach. The surface is described in terms of having a diffuse, specular, mirror,
-and transparency.
-It may also have a semi-transparent surface and something inside of it that scatters light,
-called sub-surface scattering. It may be reflective, such as chrome, smooth plastic,
-or metal, and may be partially transparent, such as glass, or liquid.
+Add the Texture
+---------------
 
-Volumetric shading treats the object as a volume of space that is filled with microscopic
-particles, such as a cloud, smoke, mist, fog, mystical spells, and steam.
-As light enters the volume, it is scattered by these particles,
-and some of that scattering reaches the eye/camera for us to see.
-The volume is described in terms of density, xxx.
-The particles may be uniformly colored but have a varying density within the volume,
-and so the shape may have darker areas.
-The density may be uniformly dispersed throughout the volume, or it may be clumpled,
-giving a recognizable shape. Those microscopic particles may give off light themselves,
-as if they contained glowing embers or sparks,
-or were transmitting some energy field inside the cloud.
-That density may be driven by a particle system to create a well-defined jet or emission.
+In addition, Smoke requires its own texture,
+you can use a volumetric texture known as :doc:`Voxel Data </render/blender_render/textures/types/volume/index>`.
+You must remember to set the domain object and change the influence.
 
-Halo shading turns each vertex of the object into a glob of light, an effect seen with sparks,
-pixie dust, glint, and sparkles from, for example, a diamond in bright sunlight.
-Halos can also be used to give a rough approximation of a lens flare, which is observed when a
-real camera lens looks directly at a bright light source such as the sun.
+.. figure:: /images/rendering_bi_fire.jpg
 
-Wire shading renders each edge of the object as a thin line, like a wire cage, or net.
-Wire rendering is very fast and can be used as a proxy material for a more complicated surface
-to save time during intermediate renders.
+   The texture settings.
 
-There are two major components to shading: the Material and its Textures.
-The color that you see is a function of the light and the shading,
-so you need to also check out the lighting section as well.
-There are five types of objects in Blender that can be shaded: Mesh, Curve, Surface, Meta,
-and Text.
-The table below indicates which types of shading are available for each kind of object.
-Keep in mind that all types of non-mesh objects can be converted from their type to a Mesh,
-so, ultimately, all kinds of shading are available for all kinds of objects
+Go to the texture tab and change the type to *Voxel Data*.
+Under the Voxel Data-Settings set the domain object to our domain cube
+(it should be listed just as 'Cube' since we are using Blender's default cube.
+Under Influence check 'Density' and leave it at 1.000
+(Emission should be automatically checked, too).
+Now you should be able to render single frames. You can choose to color your smoke as well,
+by turning *Emission Color* back on.
+
+.. figure:: /images/Smoke_render.jpg
+
+   Finished Result
+
+.. tip:: To see the smoke more clearly
+
+   Under the world tab, chose a very dark color for the horizon.
+
+Extending the Smoke Simulator: Fire!
+------------------------------------
+
+You can also turn your smoke into fire with another texture! To make fire,
+turn up the Emission Value in the Materials panel.
 
 
-.. list-table::
-   Shading available per Object type
+.. figure:: /images/e.jpg
+   :width: 300px
 
-   * - Surface
-     - Halo
-     - Wire
-     - Volumetric
-     - no
-   * - Mesh
-     - yes
-     - full
-     - yes
-     - yes
-   * - Curve
-     - if cyclic or extruded
-     - no
-     - no
-     - no
-   * - Surface
-     - yes
-     - no
-     - yes
-     - no
-   * - Meta
-     - yes
-     - no
-     - no
-     - no
-   * - Text
-     - yes
-     - no
-     - no
-     - no
+   The Fire material.
 
 
-..    Comment: <!--
-   [[File:1.png|300px|Step Size 1.0]]
-   [[File:8.png|300px|Step Size 0.5]]
-   [[File:3.png|300px|Step Size 0.3]]
-   [[File:4.png|300px|Step Size 0.1]]
-   [[File:5.png|300px|Step Size 0.05]]
-   [[File:6.png|300px|Step Size 0.02]]
-   --> .
+Then, add another texture (Keep the old texture or the smoke won't show).
+Give it a fiery color ramp- which colors based on the alpha,
+and change the influence to emission and emission color. Change the blend to Multiply.
 
 
+.. figure:: /images/f.jpg
+   :width: 300px
+
+   The fire texture settings.
+
+
+.. figure:: /images/render3.jpg
+   :width: 640px
+
+   The fire render.
+   

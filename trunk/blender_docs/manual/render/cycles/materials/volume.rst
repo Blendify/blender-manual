@@ -104,6 +104,15 @@ as most of the distance between the sun and the earth is empty space.
 For such effects it is be better to create a volume object surrounding the scene.
 The size of this object will determine how much light is scattered or absorbed.
 
+Smoke
+-----
+Creating a smoke material for cycles can be difficult however
+the image below shows a good setup on how to do this.
+
+.. figure:: /images/cycles_materials_smoke.png
+
+   Smoke and Fire Material
+
 
 Scattering Bounces
 ------------------
