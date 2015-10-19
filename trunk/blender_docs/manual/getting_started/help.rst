@@ -45,13 +45,6 @@ This opens a web-page relating to the button under the cursor, supporting both t
 Help Menu
 =========
 
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     All modes
-   | Menu:     :menuselection:`Help`
-
-
 Blender has a range of built-in and web-based Help options.
 
 
@@ -70,8 +63,8 @@ General Web-based Help
    Help menu
 
 
-- :doc:`This is a link for the Official Blender Manual </contents>`,
-   which you are now reading.
+- :doc:`This is a link for the Official Blender Manual </contents>` -
+  which you are now reading.
 - `Release Log <http://www.blender.org/development/release-logs/>`__ -
   The release notes on the Web for the current Blender version.
 - `Blender Website <http://www.blender.org/>`__ -
