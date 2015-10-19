@@ -2,7 +2,7 @@
 ..    TODO/Review: {{review}} .
 
 ***********
-Help system
+Help System
 ***********
 
 .. admonition:: Reference
