@@ -1,11 +1,11 @@
 /*
-This stylesheet is applied after the theme's default one,
-and thus any overrides or additions can be added here.
-
-More info:
-    http://sphinx-doc.org/extdev/appapi.html?highlight=add_stylesheet#sphinx.application.Sphinx.add_stylesheet
-    https://github.com/snide/sphinx_rtd_theme/issues/117#issuecomment-41571653
-*/
+ * This stylesheet is applied after the theme's default one,
+ * and thus any overrides or additions can be added here.
+ *
+ * More info:
+ *     http://sphinx-doc.org/extdev/appapi.html?highlight=add_stylesheet#sphinx.application.Sphinx.add_stylesheet
+ *     https://github.com/snide/sphinx_rtd_theme/issues/117#issuecomment-41571653
+ */
 
 /* kbd role */
 .kbd.docutils.literal {
@@ -44,6 +44,10 @@ input[type="color"] {
     background: #e3e3e3;
 }
 
+/* Ugly 'red' literals */
+.rst-content tt.literal, .rst-content tt.literal, .rst-content code.literal {
+    color:#404040;
+}
 
 /* Fix giant captions */
 .caption-text {
