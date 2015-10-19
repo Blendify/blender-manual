@@ -211,21 +211,13 @@ the small Pop Up Window for the Blender Search will stay blank.
 Tooltips
 ========
 
-.. figure:: /images/basics-help-tooltip-render-engine.jpg
+.. figure:: /images/ui_tooltip_example.png
 
    The Mouse pointer was Stopped for a while over the Render Engines List in the Info Window.
-   The normal Tooltip is in white and the Python operator is displayed in grey
+   The normal Tooltip is in white and the Python operator is displayed in grey.
 
-
-The *Tooltips* in Blender were completely recoded,
-and every time you hover your Mouse over a Button, a Command,
+When hovering your cursor over a button, a Command,
 Numeric Fields or things that are related to Operators, staying for a while,
 it will show you not only the normal Tooltip, but also the specific related operator.
 Those operators are useful for lots of tasks, from Python Scripts to Keymaps.
-In the example Image at the right, we pointed our Mouse over the Info Window,
-specifically over the list of the Render engines available, waited for a while,
-and the Tooltip with the appropriate operator was shown. In our example,
-it shows the Tooltip *Engine to Use for Rendering* in white, and ``Python: RenderSettings.engine`` in grey,
-which is the Operator associated with the function.
-
 
