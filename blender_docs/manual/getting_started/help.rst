@@ -12,10 +12,12 @@ Tooltips
    The Mouse pointer was Stopped for a while over the Render Engines List in the Info Window.
    The normal Tooltip is in white and the Python operator is displayed in grey.
 
-When hovering your cursor over a button, a Command,
-Numeric Fields or things that are related to Operators, staying for a while,
-it will show you not only the normal Tooltip, but also the specific related operator.
-Those operators are useful for lots of tasks, from Python Scripts to Keymaps.
+When hovering your cursor over a button or setting,
+it will show you the *Tooltip*, and related details depending on the button type,
+such as the key-shortcut for a tool.
+
+The *Python:* text, included last may be of interest to you if you're an animator
+or interested in automating tasks.
 
 
 Context Sensitive Manual Access
