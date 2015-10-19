@@ -9,10 +9,17 @@ This page documents some of the more involved interface controls.
 Operator Search Menu
 ====================
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All modes
+   | Hotkey:   :kbd:`Spacebar`
+
+
 .. figure:: /images/Interface-Menus-SpacebarMenu25.jpg
    :align: right
 
-   The [Space]-menu
+   The operator search popup.
 
 
 A menu with access to all *Blender* commands is available by pressing

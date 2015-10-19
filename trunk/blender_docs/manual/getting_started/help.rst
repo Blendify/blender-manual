@@ -1,9 +1,48 @@
 
-..    TODO/Review: {{review}} .
-
 ***********
 Help System
 ***********
+
+
+Tooltips
+========
+
+.. figure:: /images/ui_tooltip_example.png
+
+   The Mouse pointer was Stopped for a while over the Render Engines List in the Info Window.
+   The normal Tooltip is in white and the Python operator is displayed in grey.
+
+When hovering your cursor over a button, a Command,
+Numeric Fields or things that are related to Operators, staying for a while,
+it will show you not only the normal Tooltip, but also the specific related operator.
+Those operators are useful for lots of tasks, from Python Scripts to Keymaps.
+
+
+Context Sensitive Manual Access
+===============================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All modes
+   | Menu:     :kbd:`RMB`, :menuselection:`Online Manual`
+   | Hotkey:   :kbd:`Alt-F1`
+
+You may want to access help for a tool or area from within Blender.
+
+Use the key-shortcut, or right-click menu to visit pages from this reference manual within Blender.
+This opens a web-page relating to the button under the cursor, supporting both tool and value buttons.
+
+.. note::
+
+   We don't currently have 100% coverage,
+   you may see an alert in the info header if some tools don't have a link to the manual.
+
+   Other times buttons may link to more general sections of the documentation.
+
+
+Help Menu
+=========
 
 .. admonition:: Reference
    :class: refbox
@@ -15,8 +54,8 @@ Help System
 Blender has a range of built-in and web-based Help options.
 
 
-General Web-based Help Options
-==============================
+General Web-based Help
+----------------------
 
 .. tip:: Browser and Internet Connection
 
@@ -49,8 +88,8 @@ General Web-based Help Options
   Note: in order to Report a Bug, you must register at the website.
 
 
-Scripting Options
-=================
+Scripting Reference
+-------------------
 
 - `Python API Reference <http://www.blender.org/documentation/250PythonDoc>`__ -
   Python application programming interface (API).
@@ -61,10 +100,6 @@ Scripting Options
   .. figure:: /images/basics-help-info-operator-cheat-sheet.jpg
 
      Info Window - Operator Cheat Sheet
-
-
-Diagnostics Options
-===================
 
 
 System Info
@@ -106,15 +141,6 @@ OpenGL
    Info Window - Info.txt
 
 
-Toggle System Console
----------------------
-
-This menu item is only available for MS-Windows.
-Other systems need to explicitly launch from a console.
-
-For more information on the console window, see: :doc:`/interface/window_system/console_window`.
-
-
 Info Window Log
 ---------------
 
@@ -129,7 +155,7 @@ This can be useful in creating scripts.
 
 
 Legacy Version Support
-======================
+----------------------
 
 FCurve/Driver fix
    Sometimes, when you load .blend's made from older versions of Blender (2.56 and previous),
@@ -140,7 +166,7 @@ TexFace to Material Convert
 
 
 Splash Screen
-=============
+-------------
 
 Access this by clicking on the Blender icon in the Info Window's header.
 
@@ -157,67 +183,4 @@ They are presented as the same links you will find at the *Help* Menu.
 .. figure:: /images/ui_splash_screen_only.jpg
 
    Blender Splash Screen, Blender Version 2.66
-
-
-******************
-Other Help Options
-******************
-
-Here we explain the two new features added for Blender,
-*Blender Search* and the recoded *Tooltips*.
-
-Blender Search
-==============
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     All modes
-   | Hotkey:   :kbd:`Spacebar`
-
-
-.. figure:: /images/basics-help-search-keyword-render.jpg
-
-   Blender Search - Render
-
-
-The Blender Search feature, called the *Search Menu*,
-Activate by pressing :kbd:`Spacebar`, Blender will present you with a search pop-up,
-no matter at which Blender Editor your Mouse pointer is located
-(except the *Text Editor* Window and *Python console*),
-and a field for you to type in.
-Just type what you need and Blender will present you a list of available options.
-You can click on the appropriate function for you, or search through them using your keyboard,
-type :kbd:`Return` to accept, or :kbd:`Esc` to leave.
-Clicking outside of the Blender Search Window or taking the Mouse pointer away,
-will also leave Blender Search.
-
-The Image at the right shows Blender Search when we type the word *Render* inside the field.
-If you continue typing,
-your search keywords will refine your search and if no named operator can be found,
-the small Pop Up Window for the Blender Search will stay blank.
-
-
-.. admonition:: How it works
-   :class: refbox
-
-   Every Blender Internal Operator can use a defined name, some of them are predefined names for the user.
-   For example, the *Render* command is a named Python call,
-   the appropriate Operator is ``Python: bpy.ops.render.render()`` , but for the user, it is called Render.
-   All of those *user* names that were previously attributed for
-   Python operators can searched for using *Blender Search*.
-
-
-Tooltips
-========
-
-.. figure:: /images/ui_tooltip_example.png
-
-   The Mouse pointer was Stopped for a while over the Render Engines List in the Info Window.
-   The normal Tooltip is in white and the Python operator is displayed in grey.
-
-When hovering your cursor over a button, a Command,
-Numeric Fields or things that are related to Operators, staying for a while,
-it will show you not only the normal Tooltip, but also the specific related operator.
-Those operators are useful for lots of tasks, from Python Scripts to Keymaps.
 
