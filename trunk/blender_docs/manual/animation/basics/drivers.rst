@@ -445,7 +445,7 @@ See Also
 - :doc:`Animation </animation/index>`
 - :doc:`Graph Editor </editors/graph_editor/introduction>`
 - :doc:`F-Curves </editors/graph_editor/fcurves>`
-- :doc:`Extending Blender with Python </advanced/scripting/index>`.
+- :ref:`Extending Blender with Python <scripting-index>`.
 
 
 Links
