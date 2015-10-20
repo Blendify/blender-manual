@@ -328,9 +328,7 @@ Interpolation
       Smooths the normals of the Curve
 
 
-----
-
-.. _nurbs-curve:
+.. _modeling-curve-nurbs:
 
 Non-Uniform Rational B-Splines (NURBS)
 ======================================
@@ -364,32 +362,34 @@ Active Spline
 
    NURBS Active Spline panel.
 
+.. _modeling-curve-knot:
 
-One of the characteristics of a NURBS object is the *knot vector*. This is a sequence of
-numbers used to determine the influence of the control points on the curve.
-While you cannot edit the knot vectors directly, you can influence them through the
-*Endpoint* and *Bezier* options in the Active Spline panel. Note that the
-*Endpoint* and *Bezier* settings only apply to open NURBS curves.
+Knots
+   One of the characteristics of a NURBS object is the *knot vector*. This is a sequence of
+   numbers used to determine the influence of the control points on the curve.
+   While you cannot edit the knot vectors directly, you can influence them through the
+   *Endpoint* and *Bezier* options in the Active Spline panel. Note that the
+   *Endpoint* and *Bezier* settings only apply to open NURBS curves.
 
-Cyclic
-   Makes the NURBS curve cyclic.
-
-
-.. figure:: /images/Modeling_Curves_nurbs-cyclic.jpg
-
-   A NURBS curve with Cyclic applied.
+   Cyclic
+      Makes the NURBS curve cyclic.
 
 
-Bezier
-   Makes the NURBS curve act like a Bezier curve.
-Endpoint
-   Makes the curve contact the end control points. Cyclic must be disabled for this option to work.
+   .. figure:: /images/Modeling_Curves_nurbs-cyclic.jpg
+
+      A NURBS curve with Cyclic applied.
 
 
-.. figure:: /images/Modeling_Curves_nurbs-endpoint.jpg
-   :width: 511px
+   Bezier
+      Makes the NURBS curve act like a Bezier curve.
+   Endpoint
+      Makes the curve contact the end control points. Cyclic must be disabled for this option to work.
 
-   A NURBS curve with Endpoint enabled.
+
+   .. figure:: /images/Modeling_Curves_nurbs-endpoint.jpg
+      :width: 511px
+
+      A NURBS curve with Endpoint enabled.
 
 .. _modeling-curve-order:
 
@@ -404,6 +404,11 @@ Order
    :width: 511px
 
    NURBS curves with orders of 2 (left), 4 (middle) and 6 (right).
+
+.. _modeling-curve-weight:
+
+Weight
+   TODO.
 
 
 Path
