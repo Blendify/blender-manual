@@ -40,6 +40,7 @@ Border Select
    (and the specifics of *Border Select* in *Edit* mode have already been discussed
    :doc:`here </modeling/meshes/selecting/introduction>`).
 
+.. _modeling-curves-selecting-every-nth:
 
 Every Nth
 =========

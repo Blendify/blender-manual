@@ -32,6 +32,7 @@ Normals
 Normal Size
    Sets the display scale of curve normals.
 
+.. _curves-hiding:
 
 Hiding Elements
 ---------------
@@ -156,6 +157,7 @@ Handle types are a property of :doc:`Bézier curves.
 For example, switching to *Vector handles* can be used to create curves with sharp corners.
 Read the :doc:`Bézier curves </modeling/curves/introduction>` page for more details.
 
+.. _modeling-curves-extending:
 
 Extending Curves
 ================
@@ -176,6 +178,7 @@ A new segment will only be added if a single vertex, or handle,
 at one end of the curve is selected. If two or more control points are selected,
 a new Bézier closed curve is started.
 
+.. _modeling-curves-subdivision:
 
 Subdivision
 ===========
@@ -210,6 +213,7 @@ This command duplicates the selected control points,
 along with the curve segments implicitly selected (if any).
 The copy is selected and placed in *Grab* mode, so you can move it to another place.
 
+.. _modeling-curves-joining-segments:
 
 Joining Curve Segments
 ======================
@@ -300,6 +304,7 @@ All
 
           Deleting Curve segments
 
+.. _modeling-curves-opening-and-closing:
 
 Opening and Closing a Curve
 ===========================
@@ -463,4 +468,3 @@ Set Goal Weight
 Set Goal Weight
    This sets the "goal weight" of selected control points, which is used when a curve has Soft
    Body physics, forcing the curve to "stick" to their original positions, based on the weight.
-
