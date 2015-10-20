@@ -21,25 +21,16 @@ you can use the search function at the bottom of the list (pictured right).
 
 **Default Screens available**
 
-3D View Full
-   A full screen 3D view, used to preview your scene.
-Animation
-   Making actors and other objects move about, change shape or color, etc.
-Compositing
-   Combining different parts of a scene (e.g. background, actors, special effects) and
-   filter them (e.g. color correction).
-Default
-   The default layout used by Blender for new files. Useful for modeling new objects.
-Game Logic
-   Planning and programming of games within Blender.
-Motion Tracking
-   Used for motion tracking with the movie clip editor.
-Scripting
-   Documenting your work and/or writing custom scripts to automate Blender.
-UV Editing
-   Flattening a projection of an object mesh in 2D to control how a texture maps to the surface.
-Video Editing
-   Cutting and editing of animation sequences.
+:3D View Full: A full screen 3D view, used to preview your scene.
+:Animation: Making actors and other objects move about, change shape or color, etc.
+:Compositing: Combining different parts of a scene
+   (e.g. background, actors, special effects) and filter them (e.g. color correction).
+:Default: The default layout used by Blender for new files. Useful for modeling new objects.
+:Game Logic: Planning and programming of games within Blender.
+:Motion Tracking: Used for motion tracking with the movie clip editor.
+:Scripting: Documenting your work and/or writing custom scripts to automate Blender.
+:UV Editing: Flattening a projection of an object mesh in 2D to control how a texture maps to the surface.
+:Video Editing: Cutting and editing of animation sequences.
 
 Screens can be selected in the *Info Window* header that is at the top of the
 layout for preset screens. This is often confused for a menu bar by those new to Blender;
@@ -53,12 +44,13 @@ To cycle between screens use :kbd:`Ctrl-Right` and :kbd:`Ctrl-Left`.
 
    Screen and Scene selectors
 
+.. hint::
 
-By default, each screen layout 'remembers' the last :doc:`scene </interface/scenes>`
-it was used on. Selecting a different layout will switch to the layout **and** jump to that scene.
-
-All changes to windows, as described in :doc:`Editor types </editors/index>`, are saved within one screen.
-If you change your windows in one screen, other screens won't be affected.
+   By default, each screen layout 'remembers' the last :doc:`scene </data_system/scenes>`
+   it was used on. Selecting a different layout will switch to the layout **and** jump to that scene.
+   
+   All changes to windows, as described in :doc:`Editor Types </editors/index>`, are saved within one screen.
+   Changes to one screen, wont affect others.
 
 
 Configuring your Screens
