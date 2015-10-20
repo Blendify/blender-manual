@@ -71,7 +71,7 @@ Surface Structure
 *****************
 
 Many of the concepts from :doc:`curves </modeling/curves/introduction>`,
-especially :ref:`NURBS <nurbs-curve>` ones,
+especially :ref:`NURBS <modeling-curve-nurbs>` ones,
 carry directly over to NURBS surfaces,
 such as control points, *Order*, *Weight*, *Resolution*, etc.
 Here we will just talk about the differences.
@@ -122,7 +122,7 @@ be able to "merge" different pieces of surfaces if at least one of their rows ma
 Surface Resolution
 ==================
 
-Just like :doc:`NURBS curves </modeling/curves/introduction#nurbs>`, *Resolution* controls the detail of the surface.
+Just like :ref:`NURBS curves <modeling-curve-nurbs>`, *Resolution* controls the detail of the surface.
 The higher the *Resolution* the more detailed and smoother the surface is.
 The lower the *Resolution* the rougher the surface. However, here you have two resolution settings,
 one for each interpolation axis (U and V). Note that unlike with curves, you have only one resolution
@@ -165,7 +165,7 @@ This makes working with surfaces quite easy.
 Knots
 =====
 
-Just like with :doc:`NURBS curves </modeling/curves/introduction#knots>`, NURBS surfaces have two knot vectors,
+Just like with :ref:`NURBS curves <modeling-curve-knot>`, NURBS surfaces have two knot vectors,
 one for each U and V axis. Here again, they can be one of *Uniform*, *Endpoint*,
 or *Bezier*, with the same properties as for curves. And as with curves, only open surfaces
 (in the relevant direction) are affected by this setting...
@@ -220,7 +220,7 @@ Weight
    Surface Weight 5.
 
 
-Guess what? Yes, it works exactly like :doc:`NURBS Curves </modeling/curves/introduction#weight>` ! *Weight* specifies
+Guess what? Yes, it works exactly like :ref:`NURBS Curves <modeling-curve-weight>` ! *Weight* specifies
 how much each control point "pulls" on the curve.
 
 In (*Surface Weight 5*), a single control point, labeled ``C``,
@@ -232,7 +232,7 @@ other out. It is the difference in the weights that cause the surface to move to
 from a control point.
 
 The *Weight* of any particular control point is visible in the
-:doc:`Transform Properties panel </ce/panels/transform_properties/curve_mode>`
+:doc:`Transform Properties panel </editors/3dview/transform/transform_control/transform_properties>`
 (:kbd:`N`), *in the* *W* *field* (and not the *Weight* field...).
 
 
@@ -251,11 +251,9 @@ or cylinders, you must set to specific values the weights of the control points 
 which are provided as presets in the *Curve Tools* panel (lower right corner).
 This is not intuitive, and you should read more on NURBS before trying this.
 
-We saw with 1D :doc:`NURBS curves </modeling/curves/introduction#preset_weights>` how to create a circle;
-let's see how to create a sphere with 2D surfaces.
-It is the same principle - you'll note that the four different weights needed for creating a sphere
-(**1.0**, **0.707** = ``sqrt(0.5)``, **0.354** = ``sqrt(2)/4``, and **0.25**)
-are the four presets available in the :doc:`Curve Tools </ce/panels/editing/curves/curve_tools>` panel...
+To create a sphere with 2D surfaces, its the same principle as with a 2D circle -
+you'll note that the four different weights needed for creating a sphere
+(**1.0**, **0.707** = ``sqrt(0.5)``, **0.354** = ``sqrt(2)/4``, and **0.25**).
 
 
 Primitives
