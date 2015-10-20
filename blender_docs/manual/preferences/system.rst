@@ -42,7 +42,7 @@ Sound
 =====
 
 Sound
-   Set the audio output device or no audio support. There are 3 Options:
+   Set the audio output device or no audio support:
 
    None
       No Audio support (no audio output, audio strips can be loaded normally)

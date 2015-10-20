@@ -1,3 +1,5 @@
+
+*********
 Grab/Move
 *********
 
@@ -131,18 +133,13 @@ Orientations
 ============
 
 There are 5 standard orientation references for all transformations.
-You can find out more about transform orientations :doc:`here
-</editors/3dview/transform/transform_control/transform_orientations>`.
+You can find out more about transform orientations
+:doc:`here </editors/3dview/transform/transform_control/transform_orientations>`.
 
 .. figure:: /images/3d_interaction_trans_grab_orientation.png
 
    Orientation choice menu
 
-- Global (the default)
-- Local
-- Normal
-- Gimbal
-- View
 
 Each mode is a co-ordinate system in which transformations can be carried out.
 These orientations can be chosen from the pop-up menu to the side of the controls which toggle
@@ -152,15 +149,15 @@ If you have changed the orientation to something other than Global,
 you can hotkey your chosen axis of orientation by hitting the relevant axis modifying hotkey
 **twice** instead of just once. Hitting the axis modifying hotkey three times reverts back to Global orientation.
 
-   - The :kbd:`G` hotkey followed by :kbd:`X-X` or :kbd:`Y-Y` or
-     :kbd:`Z-Z` allows you to translate the object in the object's Local axis by default,
-     or on an axis of the selected orientation if the transform orientation is not set to Global.
-     This modifying hotkey combination can be followed with numbers as described in the previous section.
+- The :kbd:`G` hotkey followed by :kbd:`X-X` or :kbd:`Y-Y` or
+  :kbd:`Z-Z` allows you to translate the object in the object's Local axis by default,
+  or on an axis of the selected orientation if the transform orientation is not set to Global.
+  This modifying hotkey combination can be followed with numbers as described in the previous section.
 
-   - The :kbd:`G` hotkey followed by :kbd:`Shift` and :kbd:`X-X` or :kbd:`Y-Y` or
-     :kbd:`Z-Z` will lock the object's translation on a single Local axis by default,
-     or on an axis of the selected orientation if the transform orientation is not set to Global.
-     Locking one axis means the selected object moves freely on the other two axes.
+- The :kbd:`G` hotkey followed by :kbd:`Shift` and :kbd:`X-X` or :kbd:`Y-Y` or
+  :kbd:`Z-Z` will lock the object's translation on a single Local axis by default,
+  or on an axis of the selected orientation if the transform orientation is not set to Global.
+  Locking one axis means the selected object moves freely on the other two axes.
 
 .. figure:: /images/3d_interaction_trans_grab_xyz_number.png
 

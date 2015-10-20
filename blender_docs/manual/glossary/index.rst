@@ -431,7 +431,7 @@ For other common conventions used throughout the manual.
       Computer generated (generic) textures. Procedural textures can be configured via parameters.
 
    Projection
-      In computer graphics there are 2 common camera projections used.
+      In computer graphics there are two common camera projections used.
 
       Perspective
          A *perspective* view is geometrically constructed by taking a scene in 3D
