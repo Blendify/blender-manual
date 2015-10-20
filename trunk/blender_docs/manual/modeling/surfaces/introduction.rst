@@ -64,15 +64,14 @@ except that the ``U`` direction is indicated by yellow grid lines,
 and the ``V`` one is materialized by pink grid lines, as you can see in
 (*Surface*).
 
-You can :doc:`hide and reveal </modeling/curves/introduction#hiding_elements>` control points just as with curves,
-and you have the same draw options in the :doc:`Curve Tools </modeling/curves/introduction#curve_tools>` panel.
+You can :ref:`hide and reveal <curves-hiding>` control points just as with curves.
 
 
 Surface Structure
 *****************
 
 Many of the concepts from :doc:`curves </modeling/curves/introduction>`,
-especially :doc:`NURBS </modeling/curves/introduction#nurbs>` ones,
+especially :ref:`NURBS <nurbs-curve>` ones,
 carry directly over to NURBS surfaces,
 such as control points, *Order*, *Weight*, *Resolution*, etc.
 Here we will just talk about the differences.
@@ -95,6 +94,7 @@ but you can't with a simple NURBS curve (we talk here about the "standard" *Extr
 the one activated with the *E* shortcut, not the quite-specific curve extrusion tools - yes, I know,
 it's not easy to follow...).
 
+.. _modeling-surfaces-rows-grids:
 
 Control Points, Rows and Grid
 =============================
@@ -208,6 +208,7 @@ You can set independently the order for each interpolation axis, and like curves
 it cannot be lower than **2**,
 and higher than **6** or the number of control points on the relevant axis.
 
+.. _modeling-surfaces-wieght:
 
 Weight
 ======
@@ -278,4 +279,3 @@ There are also two preset NURBS surface curves (with only one control point on e
    NURBS curve primitives.
 
 Note how a circle NURBS surface is never filled, unlike its "real" curve counterpart...
-

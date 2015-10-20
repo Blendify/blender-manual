@@ -42,7 +42,7 @@ Every Nth
    | Hotkey:   None
 
 
-This is the same option as for :doc:`curve selection </modeling/curves/editing/introduction#every_nth>`.
+This is the same option as for :ref:`curve selection <modeling-curves-selecting-every-nth>`.
 However, the behavior of the *N*
 ("selection step") parameter in the 2D of a NURBS surface "cage" seems quite difficult to understand...
 
@@ -59,8 +59,8 @@ Control Point Row
 
 
 This option works a bit like
-:doc:`edge loop selection </modeling/meshes/selecting/introduction#edge_loop_selection>` for meshes,
-inasmuch it selects a whole :doc:`row </modeling/surfaces#control_points,_rows_and_grid>` of control points,
+:ref:`edge loop selection <modeling-meshes-selecting-edge-loops>` for meshes,
+inasmuch it selects a whole :ref:`row <modeling-surfaces-rows-grids>` of control points,
 based on the active (the last selected) one. The first time you press :kbd:`Shift-R`,
 the V-row passing through (containing) the active point will be *added to the current selection*.
 If you use again this shortcut, you will toggle between the U- and V-row of this point,
@@ -136,8 +136,8 @@ Advanced Transform Tools
    | Menu:     :menuselection:`Surface --> Transform`
 
 
-The *To Sphere*, *Shear*, *Wrap* and *Push/Pull* transform tools are described in the
-:doc:`Mesh Editing </modeling/meshes/tools#advanced_transform_tools>` chapter.
+The *To Sphere*, *Shear*, *Warp* and *Push/Pull* transform tools are described in the
+:doc:`Mesh Deforming </modeling/meshes/editing/deforming/index>` section.
 Surfaces have no specific transform tools.
 
 
@@ -151,7 +151,7 @@ NURBS Control Points Settings
    | Panel:    *Curve Tools* (*Editing* context), and *Transform Properties*
 
 
-We saw in a :doc:`previous page </modeling/surfaces/introduction#weight>` that NURBS control points have a weight,
+We saw in a :ref:`previous page <modeling-surfaces-wieght>` that NURBS control points have a weight,
 which is the influence of this point on the surface.
 You set it either using the big *Set Weight* button in the *Curve Tools* panel
 (after having defined the weight in the numeric field to the right),
@@ -173,7 +173,7 @@ Unlike meshes or curves, you cannot generally directly add new control points to
 (with :kbd:`Ctrl-LMB` clicks), as you can only extend a surface by adding a whole U- or V-row at once.
 The only exception is when working on a NURBS surface curve, i.e.
 a surface with only one control point on each U- or V-row. In this special case,
-all works exactly as with :doc:`curves </modeling/curves/editing/introduction#adding_new_segments>`.
+all works exactly as with :ref:`curves <modeling-curves-extending>`.
 
 Most of the time, only extrusion is available. As usual, once the tool is activated the
 extrusion happens immediately and you are placed into *Grab mode*,
@@ -241,7 +241,7 @@ Opening or Closing a Surface
    | Hotkey:   :kbd:`C`
 
 
-As in :doc:`curves </modeling/curves/editing/introduction#opening_and_closing_a_curve>`,
+As in :ref:`curves <modeling-curves-opening-and-closing>`,
 surfaces can be closed (cyclic) or open. However, as surfaces are 2D,
 you can control this property independently along the U and V axes.
 
@@ -345,7 +345,7 @@ Joining or Merging Surfaces
    | Hotkey:   :kbd:`F`
 
 
-Just like :doc:`curves </modeling/curves/editing/introduction#joining_or_merging_curves>`,
+Just like :ref:`curves <modeling-curves-joining-segments>`,
 merging two surfaces requires that a single edge, a border row of control points,
 from two separate surfaces are selected. This means that the surfaces must be part of the same object. For example,
 you can't join two surfaces while in *Object* mode - but you can of course, as with any objects of the same type,
@@ -368,7 +368,6 @@ one, Blender will automatically "invert" the axis of one surface for them to mat
 NURBS surface curves are often used to create objects like hulls,
 as they define cross sections all along the object,
 and you just have to "skin" them as described above to get a nice, smooth and harmonious shape.
-See :doc:`this tutorial </ls/modeling/surfaces/skinning>` for a detailed workflow.
 
 
 Examples
@@ -404,7 +403,7 @@ you will subdivide once all *completely selected grids* by subdividing each "qua
 smaller ones.
 
 If you apply it to a 1D surface (a "surface curve"),
-this tool works exactly as with :doc:`curves </modeling/curves/editing/introduction#subdivision>`.
+this tool works exactly as with :ref:`curves <modeling-curves-subdivision>`.
 
 
 Spin
@@ -418,7 +417,7 @@ Spin
    | Panel:    *Curve Tools1* (*Editing* context)
 
 
-This tool is a bit similar to its :doc:`mesh counterpart </modeling/meshes/tools#spin>` -
+This tool is a bit similar to its :doc:`mesh counterpart </modeling/meshes/editing/duplicating/spin>` -
 but with less control and options (in fact, there's none!).
 
 It only works on selected "surfaces" made of *one U-row* (and not with one V-row),
@@ -457,8 +456,7 @@ Other Specials Options
 
 
 The *Specials* menu contains exactly the same additional options as for
-:doc:`curves </modeling/curves/editing/introduction#other_specials_options>` -
-but I suppose *Set Radius* and *Smooth Radius* have nothing to do here...
+curves, except for *Set Radius* and *Smooth Radius*.
 
 
 Conversion
@@ -483,13 +481,11 @@ Misc Editing
 ------------
 
 You have some of the same options as with meshes, or in *Object* mode.
-You can :doc:`separate </modeling/objects/groups_and_parenting#separating_objects>` a given surface (:kbd:`P`),
-make other selected objects :doc:`children </modeling/objects/groups_and_parenting#parenting_objects>`
+You can :ref:`separate <object-separating>` a given surface (:kbd:`P`),
+make other selected objects :ref:`children <object-parenting>`
 of one or three control points
 (:kbd:`Ctrl-P` - note however that parenting to three control points has a strange behavior with curves...),
 or :doc:`add hooks </modifiers/deform/hooks>` to control some points with other objects.
 
 The *Mirror* tool is also available, behaving exactly as with
-:doc:`mesh vertices </modeling/meshes/tools#mirror>`.
-
-
+:doc:`mesh vertices </modeling/meshes/editing/basics/mirror>`.
