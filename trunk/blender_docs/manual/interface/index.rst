@@ -23,7 +23,6 @@ Window Controls
 
    window_system/index.rst
    screens.rst
-   scenes.rst
 
 
 Interface Controls
