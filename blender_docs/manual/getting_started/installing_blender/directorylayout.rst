@@ -3,7 +3,7 @@
 Configuration and Data Paths
 ****************************
 
-There are 3 different directories Blender may use,
+There are three different directories Blender may use,
 their exact locations are operating system dependent.
 
 LOCAL
@@ -159,4 +159,3 @@ for example.
    Bundled Python distribution, only necessary when the system Python installation is absent or incompatible.
 
    Search order: ``LOCAL, SYSTEM``.
-
