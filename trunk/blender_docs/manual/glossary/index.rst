@@ -236,10 +236,17 @@ For other common conventions used throughout the manual.
    Gamma
       An operation used to adjust brightness of an image.
 
-      See also `Gamma correction <https://en.wikipedia.org/wiki/Gamma_correction>`__ on Wikipedia.
+      See also `Gamma correction <http://en.wikipedia.org/wiki/Gamma_correction>`__ on Wikipedia.
 
    Geometric Center
       Mean average of the positions of all vertices making up the object.
+
+   Gimbal Lock
+      The limitation where axes of rotation can become aligned,
+      loosing the ability to rotate on an axis (typically assosiated with *Euler* rotation).
+
+      - See also `Gimbal lock <http://en.wikipedia.org/wiki/Gimbal_lock>`__ on Wikipedia.
+      - See also `Gimbal lock <http://blender.stackexchange.com/questions/469>`__ on Stackexchange.
 
    Global Illumination
       A superset of radiosity and ray tracing.
@@ -352,8 +359,7 @@ For other common conventions used throughout the manual.
       - Edges connected to 3 or more faces (interior faces).
       - Vertices belonging to faces that are not adjoining (e.g. 2 cones sharing the vertex at the apex).
 
-      In edit mode, use :menuselection:`3D View --> Select --> Non Manifold` or :kbd:`Ctrl-Alt-Shift-M`
-      to select these types of non-manifold geometry in a mesh.
+      See also: :ref:`Select Non-Manifold <mesh-select-non_manifold>` tool.
 
    Normal
       The normalized vector perpendicular to a surface.

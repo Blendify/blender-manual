@@ -23,6 +23,9 @@ Sharp Edges
 Linked Flat Faces (:kbd:`Ctrl-Shift-Alt-F`)
    Select connected faces based on a threshold of the angle between them.
    This is useful for selecting faces that are planar.
+
+.. _mesh-select-non_manifold:
+
 Non Manifold (:kbd:`Ctrl-Shift-Alt-M`)
    Selects the :term:`non-manifold` geometry of a mesh.
    This entry is available when editing a mesh, in Vertex and Edge selection modes only.

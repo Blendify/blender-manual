@@ -75,7 +75,8 @@ Global
       Global.
 
    The manipulator matches the global axis.
-   When using the Global orientation, the orientation's x,y,z matches world's x,y,z axis.
+
+   When using the Global orientation, the orientation's XYZ matches world's XYZ axis.
    When this mode is selected,
    the local coordinates of the object are subjected to the Global coordinates.
    This is good to place objects in the scene. To constrain an axis,
@@ -90,6 +91,7 @@ Local
       Local.
 
    The manipulator matches the object axis.
+
    Notice that, here, the Manipulator is at a slight tilt
    (it is most visible on the object's y-axis, the green arrow).
    This is due to our 15º rotation of the object.
@@ -104,8 +106,9 @@ Normal
 
       Normal.
 
-   The z-axis of the manipulator will match the normal vector of the selected object.
-   In Object Mode, this is equivalent to Local Orientation, but in Edit Mode,
+   The z-axis of the manipulator will match the normal vector of the selection.
+
+   In Object Mode, this is equivalent to Local Orientation, in Edit Mode,
    it becomes more interesting.
 
    As you see, the light blue lines indicate the faces' normals,
@@ -128,16 +131,13 @@ Gimbal
 
       Gimbal.
 
-   Gimbal's behavior highly depends on the :doc:`Rotation Mode </editors/3dview/transform/rotate>`
-   that you are in (accessible in the :kbd:`N` Properties Panel in the *3D View*,
-   in top section, *Transform*).
+   Gimbal's behavior highly depends on the current :doc:`Rotation Mode </editors/3dview/transform/rotate>`
+   (accessible in the :kbd:`N` Properties Panel in the *3D View*, in top section, *Transform*).
 
    XYZ Euler
-      the default rotation mode, the object Manipulator's z-axis will always point to the global z-axis,
-      where the other two will remain perpendicular to each other.
-      In the other *Euler* rotation modes,
-      the last axis applied will be the one for which the Manipulator stays fixed.
-      So, for *YZX Euler*, the x-axis of the Manipulator will be the same as the global x-axis.
+      The manipulator handles are aligned to the euler axis,
+      allowing you to see the discreet XYZ axis underlying the euler rotation,
+      as well as possible :term:`gimbal lock`.
    Axis Angle
       The x, y, and z coordinates define a point relative to the object origin
       through which an imaginary "skewer" passes.
