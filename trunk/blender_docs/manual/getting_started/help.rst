@@ -101,38 +101,36 @@ System Info
 
 Access :menuselection:`Help --> System Info`
 
-This diagnostic tool extracts system information which can be useful to include in bug reports,
-or inspecting Blender's configuration.
 
-Creates a ``system-info.txt`` text block, which you can access in the Blender *Text Editor*.
-The text lists various key properties of your system and Blender, which can be useful in diagnosing problems.
+This extracts system information which can be useful to include in bug reports,
+inspecting the configuration or diagnosing problems.
 
-To read the Text, switch to the Blender *Text Editor* Window,
-using the :doc:`Editor type Selector </editors/index>`, and then,
-clicking on the button *Browse Text to be Linked* of the Text Editor, your text block will be shown in the Editor.
-The ``system-info.txt`` will be in your list of Text-blocks.
+.. figure:: /images/basics-help-info-window-system_info.jpg
+
+   Info Window - Info.txt
+
+Running this creates a text-block called ``system-info.txt``,
+which you can access in the Blender *Text Editor*.
+
+To read the text, switch to the Blender *Text Editor* Window,
+using the :doc:`Editor type Selector </editors/index>`,
+then, click on the button *Browse Text to be Linked* of the Text Editor.
 
 
 The text file contains sections:
 
 Blender
-   This section of the info.txt shows you the Blender version, flags used when Blender was compiled,
-   day and time when Blender was compiled, build system, and the path in which Blender is running.
+   This section shows you the Blender version, details about the build configuration,
+   and the path in which Blender is running.
 Python
    The Python version you are using, showing the paths of the Python programming language paths.
 Directories
-   The Blender directories setup for ``scripts``, ``user scripts``, ``datafiles``, ``config``,
-   ``scripts (internal)``,
-   ``autosave`` directory and ``temp dir``.
+   Paths used for scripts, data-files, presets and temporary files.
+
    Those directories are configured using the :doc:`User Preferences </preferences/file>` Editor Window.
 OpenGL
-   This section will show you the version of OpenGL that you are using for Blender, the name of the manufacturer,
-   version, vendor and a list with your card capabilities or OpenGL software capabilities.
-
-
-.. figure:: /images/basics-help-info-window-system_info.jpg
-
-   Info Window - Info.txt
+   This section shows the OpenGL version, the name of the manufacturer,
+   and lists the capabilities of your hardware & driver.
 
 
 Info Window Log
