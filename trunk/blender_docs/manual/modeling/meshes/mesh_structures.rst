@@ -86,6 +86,8 @@ For a detailed description of how to work with loops in Blender, see:
 :doc:`/modeling/meshes/selecting/advanced`.
 
 
+.. _modeling-mesh-structure-edge_loops:
+
 Edge Loops
 ==========
 

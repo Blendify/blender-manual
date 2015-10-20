@@ -104,7 +104,7 @@ their layout is quite constraining. The concept of "segment" disappears,
 replaced by "rows" and the overall "grid".
 
 A "row" is a set of control points forming one "line" in one interpolation direction
-(a bit similar to :doc:`edge loops </modeling/meshes/mesh_structures#edge_loops_and_face_loops>` for meshes).
+(a bit similar to :ref:`edge loops <modeling-mesh-structure-edge_loops>` for meshes).
 So you have "U-rows" and "V-rows" in a NURBS surface.
 The key point is that *all rows of a given type (U or V) have the same number of control points*.
 Each control point belongs to exactly one U-row and one V-row.
@@ -188,7 +188,7 @@ To cause the surface to extend to all edges you would set the ``V`` 's axis to
 Order
 =====
 
-One more time, this property is the same as with :doc:`NURBS Curves </modeling/curves/introduction#order>`;
+One more time, this property is the same as with :ref:`NURBS Curves <modeling-curve-order>`;
 it specifies how much the control points are taken into account for calculating the curve of the surface shape.
 For high *Orders*, (*1*), the surface pulls away from the control points,
 creating a smoother surface - assuming that the
@@ -208,7 +208,8 @@ You can set independently the order for each interpolation axis, and like curves
 it cannot be lower than **2**,
 and higher than **6** or the number of control points on the relevant axis.
 
-.. _modeling-surfaces-wieght:
+
+.. _modeling-surfaces-weight:
 
 Weight
 ======

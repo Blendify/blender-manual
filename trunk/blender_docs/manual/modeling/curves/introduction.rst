@@ -391,6 +391,7 @@ Endpoint
 
    A NURBS curve with Endpoint enabled.
 
+.. _modeling-curve-order:
 
 Order
    The order of the NURBS curve determines the area of influence of the control points over the curve.

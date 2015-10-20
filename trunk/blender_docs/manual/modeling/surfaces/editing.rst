@@ -151,7 +151,7 @@ NURBS Control Points Settings
    | Panel:    *Curve Tools* (*Editing* context), and *Transform Properties*
 
 
-We saw in a :ref:`previous page <modeling-surfaces-wieght>` that NURBS control points have a weight,
+We saw in a :ref:`previous page <modeling-surfaces-weight>` that NURBS control points have a weight,
 which is the influence of this point on the surface.
 You set it either using the big *Set Weight* button in the *Curve Tools* panel
 (after having defined the weight in the numeric field to the right),
