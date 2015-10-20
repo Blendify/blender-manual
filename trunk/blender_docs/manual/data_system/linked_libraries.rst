@@ -96,6 +96,10 @@ Known Limitations
 
 For the most part linking data will work as expected, however there are some corner-cases which aren't supported.
 
+Circular Dependencies
+   In general dependencies shouldn't go in both directions.
+
+   Attempting to link or append data which links back to the current file will likely result in missing links.
 Object Rigid-Body Constraints
    When linking objects **directly** into a ``.blend`` file,
    the *Rigid Body* settings won't be linked in
