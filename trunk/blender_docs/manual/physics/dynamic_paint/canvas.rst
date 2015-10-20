@@ -195,7 +195,7 @@ Effects Panel
 This is a special feature for "Paint" type surface.
 It generates animated movement on canvas surface.
 
-Currently there are 3 effects available:
+Effects:
 
 Spread
    Paint slowly spreads to surrounding points eventually filling all connected areas.

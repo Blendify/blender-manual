@@ -21,8 +21,7 @@ it automatically is enabled.
 
 You can also directly add a "path" from the :menuselection:`Add --> Curve --> Path` menu entry (in a 3D view).
 This will insert in your scene a *three-dimensional* NURBS curve.
-This is an important point: by default, Blender's curve are 2 dimensional, i.e.
-are laid on a plane, which is often not the desired behavior of a path.
+This is an important point: by default, Blender's curve are *2D* and won't move on the Z axis.
 To turn a standard curve three-dimensional, enable its *3D* button,
 in the same *Curve and Surface* editing panel.
 
