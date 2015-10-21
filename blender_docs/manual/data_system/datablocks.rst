@@ -1,7 +1,7 @@
 
 ..
    TODO
-
+   ::
    Some of the text here is overly verbose and reads like a tutorial,
    data-blocks are more of a concept to explain.
    Tips on copying data can go elsewhere ~ ideasman42.
@@ -47,15 +47,14 @@ Users (Garbage Collection)
 It's good to be aware of how Blender,
 handles data-blocks life-time, when they are freed and why.
 
-Blender follows the general rule that data which isn't used, will be freed.
+Blender follows the general rule where unused data is eventually removed.
 
-Its common to add and remove a lot of data while working,
+Since its common to add and remove a lot of data while working,
 this has the advantage of not having to manually manage every single data-block.
 
 This works by skipping zero user data-blocks when writing ``.blend`` files.
 
-While this is acceptable as default behavior,
-there are times when you want to save a data-block even when its unused
+In some cases you want to save a data-block even when its unused
 *(typically for re-usable asset libraries).* see `Fake User`_.
 
 
@@ -73,6 +72,7 @@ by pressing the *F* button next to the name of the data-block.
 This prevents the user count from ever becoming zero: therefore,
 the data-block won't be deleted.
 (since Blender doesn't keep track of how many other files link to this one.)
+
 
 Users (Sharing)
 ===============
@@ -141,4 +141,174 @@ Other data-blocks such as groups and actions can be *Unlinked* from the *Outline
 
    For data-blocks that can be unlinked - hold :kbd:`Shift` while pressing on the *X* button,
    This force-clears the user-count, so the data-block will be removed on reload.
+
+
+.. _data_system-datablock_types:
+
+
+Datablock Types
+===============
+
+.. EDITORS NOTE:
+   Mostly we want to avoid long lists of data - but in this case,
+   Its the only comprehensive list of data-blocks, and something which you can't
+   find directly just though looking at the interface.
+   ::
+   TODO, add links to related docs for each type.
+
+For reference, here is a table of data-blocks types stored in ``.blend`` files.
+
+
+:Link: Library Linking, *supports bing linked into other blend files*.
+:Pack: File Packing, *supports file contents being packed into the blend file*.
+
+.. |tick|  unicode:: U+2713
+.. |cross| unicode:: U+2717
+
+.. list-table::
+   :header-rows: 1
+
+   * - Type
+     - Link
+     - Pack
+     - Description
+   * - Action
+     - |tick|
+     - |cross|
+     - | Stores animation FCurves.
+       | Used as data-block animation data,
+       | and the Non-Linear-Editor.
+   * - Armature
+     - |tick|
+     - |cross|
+     - | Skeleton used to deform meshes.
+       | Used as object-data & by the Armature Modifier.
+   * - Brush
+     - |tick|
+     - |cross|
+     - | Used by paint tools.
+   * - Camera
+     - |tick|
+     - |cross|
+     - | Used as object-data.
+   * - Curve
+     - |tick|
+     - |cross|
+     - | Used by camera, font & surface objects.
+   * - Font
+     - |tick|
+     - |tick|
+     - | References font files.
+       | Used by Font object-data.
+   * - GreasePencil
+     - |tick|
+     - |cross|
+     - | 2D/3D sketch data.
+       | Used as overlay *helper* info, by the
+       | 3D-View, Image, Sequencer & MovieClip editors.
+   * - Group
+     - |tick|
+     - |cross|
+     - | Reference object's.
+       | Used by dupli-grous & often library-linking.
+   * - Image
+     - |tick|
+     - |tick|
+     - | Image files.
+       | Used by textures & shader nodes.
+   * - Lamp
+     - |tick|
+     - |cross|
+     - | Used as object-data.
+   * - Lattice
+     - |cross|
+     - |cross|
+     - | Grid based lattice deformation.
+       | Used as object-data and by the Lattice Modifier.
+   * - Library
+     - |cross|
+     - |tick|
+     - | TODO.
+   * - LineStyle
+     - |tick|
+     - |cross|
+     - | Used by the FreeStyle render-engine.
+   * - Mask
+     - |tick|
+     - |cross|
+     - | 2D animated mask curves.
+       | Used by compositing nodes & sequencer strip.
+   * - Material
+     - |tick|
+     - |cross|
+     - | Used by objects, meshes & curves.
+   * - Mesh
+     - |tick|
+     - |cross|
+     - | Geometry verts/edges/faces.
+       | Used as object-data.
+   * - MetaBall
+     - |tick|
+     - |cross|
+     - | TODO.
+   * - MovieClip
+     - |tick|
+     - |cross|
+     - | TODO.
+   * - NodeGroup
+     - |tick|
+     - |cross|
+     - | TODO.
+   * - Object
+     - |tick|
+     - |cross|
+     - | TODO.
+       | Used by scenes & groups.
+   * - Particle
+     - |tick|
+     - |cross|
+     - | TODO.
+   * - Palette
+     - |tick|
+     - |cross|
+     - | Store color presets.
+       | Access from the paint tools.
+   * - Scene
+     - |tick|
+     - |cross|
+     - | TODO.
+   * - Screen
+     - |cross|
+     - |cross|
+     - | TODO.
+   * - ShapeKeys
+     - |cross|
+     - |cross|
+     - | TODO.
+   * - Sounds
+     - |tick|
+     - |tick|
+     - | TODO.
+   * - Speaker
+     - |tick|
+     - |cross|
+     - | TODO.
+   * - Text
+     - |tick|
+     - |cross|
+     - | Text data.
+   * - Texture
+     - |tick|
+     - |cross|
+     - | 2D/3D textures.
+   * - World
+     - |tick|
+     - |cross|
+     - | Used by scenes for render environment settings.
+
+..
+   * - WindowManager
+     - |cross|
+     - |cross|
+     - | TODO.
 
