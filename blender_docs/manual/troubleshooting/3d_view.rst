@@ -119,7 +119,7 @@ Disable Anti-Aliasing (:term:`FSAA, Multi-Sampling<FSAA>`)
    You can disable this option by:
 
    - Turning FSAA/multi-sampling off in your graphics card driver options.
-   - Turning *Multi-Sampling* off in the :ref:`system preferences <preferences-system-multi_sampling>`.
+   - Turning *Multi-Sampling* off in the :ref:`system preferences <prefs-system-multi_sampling>`.
 Change Anti-Aliasing Sample Settings
    Depending on your OpenGL configuration,
    some specific sample settings may work, while others fail.

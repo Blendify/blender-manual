@@ -135,8 +135,8 @@ to rotate the scene around the Z global axis from your current point of view.
 
 .. seealso::
 
-   - :ref:`Orbit Style Preference <preferences-input-orbit_style>`
-   - :ref:`Auto-Perspective Preference <preferences-interface-auto_perspective>`
+   - :ref:`Orbit Style Preference <prefs-input-orbit_style>`
+   - :ref:`Auto-Perspective Preference <prefs-interface-auto_perspective>`
 
 
 Panning the View

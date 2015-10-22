@@ -117,7 +117,7 @@ All scripts are loaded from the ``scripts`` folder of the
 :doc:`local, system and user paths </getting_started/installing_blender/directorylayout>`.
 
 You can setup an additional search path for scripts in
-:ref:`preferences-file_paths` (*User Preferences* --> *File Paths*).
+:ref:`prefs-file_paths` (*User Preferences* --> *File Paths*).
 
 
 Installation

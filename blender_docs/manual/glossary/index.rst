@@ -230,7 +230,7 @@ For other common conventions used throughout the manual.
       Method of :term:`Anti-aliasing` on the graphics card, so the entire image is displayed smooth.
       Also known as *Multi-Sampling*.
 
-      This can be enabled in the :ref:`user preferences <preferences-system-multi_sampling>`.
+      This can be enabled in the :ref:`user preferences <prefs-system-multi_sampling>`.
       On many graphics cards this can also be enabled in the driver options.
 
    Gamma

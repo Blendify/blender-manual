@@ -1,4 +1,4 @@
-.. _preferences-index:
+.. _prefs-index:
 
 ##############
   Preferences
