@@ -36,7 +36,7 @@ for direct lighting or global illumination.
 
 Each texture type in Cycles corresponds to a node,
 with a texture coordinate and various parameters as input, and a color or value as output.
-No texture datablocks are needed; instead node groups can be used for reusing texture setups.
+No texture data-blocks are needed; instead node groups can be used for reusing texture setups.
 
 For UV mapping and texture painting in the viewport, the Image texture node must be used.
 When setting such a node as active, it will be drawn in Textured draw mode,

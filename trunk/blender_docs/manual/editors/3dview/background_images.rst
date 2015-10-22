@@ -36,7 +36,7 @@ Data Source
    Image
       Use an external image, image sequence, video file or generated texture.
    Movie Clip
-      Use one of the Movie Clip datablocks.
+      Use one of the Movie Clip data-blocks.
 Opacity
    Controls the transparency of the background image.
 Front/Back

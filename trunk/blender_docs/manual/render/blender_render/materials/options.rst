@@ -69,7 +69,7 @@ Number of users (number field)
    and will update across all of them when edited. Clicking this number will make a 'single user copy',
    duplicating the material, with it linked only to the active object/object's data.
 F (Fake user)
-   Gives the material a 'fake user', to keep the material datablock saved in the .blend file,
+   Gives the material a 'fake user', to keep the material data-block saved in the .blend file,
    even if it has no real users.
 Plus sign
    Add a new material.
@@ -77,19 +77,19 @@ X sign
    Remove link to this material.
 Nodes
    Designates this material to be a material node noodle, and not from the Material/Ramps/Shaders settings.
-Datablock links
+Data-block links
    The Link pop-up menu has two choices, Data and Object.
    These two menu choices determine whether the material is linked to the object or to the data,
    (in this case, the mesh). The Data menu item determines that this material will be linked to the mesh's
-   datablock which is linked to the object's datablock.
+   data-block which is linked to the object's data-block.
    The Object menu item determines that the material will be linked to the object's data block directly.
 
-   This has consequences of course. For example, different objects may share the same mesh datablock.
-   Since this datablock defines the shape of the object any change in edit mode will be reflected on all of those
-   objects. Moreover, anything linked to that mesh datablock will be shared by every object that shares that mesh.
+   This has consequences of course. For example, different objects may share the same mesh data-block.
+   Since this data-block defines the shape of the object any change in edit mode will be reflected on all of those
+   objects. Moreover, anything linked to that mesh data-block will be shared by every object that shares that mesh.
    So, if the material is linked to the mesh, every object will share it.
 
-   On the other hand, if the material is linked directly to the object datablock, the objects can have
+   On the other hand, if the material is linked directly to the object data-block, the objects can have
    different materials and still share the same mesh.
 
    Short explanation: If connected to the object, you can have several instances of the same obData using

@@ -109,7 +109,7 @@ Filter File Extensions
    By activating this, file dialog windows will only show appropriate files
    (i.e. ``.blend`` files when loading a complete *Blender* setting).
    The selection of file types may be changed in the file dialog window.
-Hide Dot File/Datablocks
+Hide Dot File/Data-blocks
    Hide file which start with ``.`` on file browsers (in Linux and Apple systems, ``.`` files are hidden).
 Hide Recent Locations
    Hides the *Recent* panel of the *File Browser* window which displays recently accessed folders.

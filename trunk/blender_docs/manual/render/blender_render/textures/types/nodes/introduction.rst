@@ -58,7 +58,7 @@ which you can then use for different things. For example,
 you might want your texture to define both a diffuse (color) map and a normal map. To do this,
 you would:
 
-- Create two texture slots in the texture list, and set them to the same texture datablock.
+- Create two texture slots in the texture list, and set them to the same texture data-block.
 - Add two *Output* nodes to the node tree,
   and type new names into their *Name* text-boxes: *e.g.* ``Diffuse`` for one and ``Normal`` " for the other.
 - Underneath the texture picker in the texture panel, you'll see a dropdown list with the names of your outputs.

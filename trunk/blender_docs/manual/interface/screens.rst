@@ -70,7 +70,7 @@ Deleting a Screen
 
 .. |deleteview-button| image:: /images/Interface-Screens-DeleteView-Button25.jpg
 
-You can delete a screen by using the *Delete datablock* button
+You can delete a screen by using the *Delete Data-Block* button
 (|deleteview-button|). See *Screen and Scene selectors* above.
 
 

@@ -10,7 +10,7 @@ We saw in the :doc:`previous page </rigging/skinning/objects>`
 how to link (parent) whole objects to armature bones -
 a way to control the transform properties of this object via a rig.
 However, armatures are much more powerful:
-they can deform the *shape* of an object (i.e. affect its ObData datablock - its vertices or control points...).
+they can deform the *shape* of an object (i.e. affect its ObData data-block - its vertices or control points...).
 
 In this case, the child object is parented (skinned) to the whole armature,
 so that each of its bones controls a part of the "skin" object's geometry.

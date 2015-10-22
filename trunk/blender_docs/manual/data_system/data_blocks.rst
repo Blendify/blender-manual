@@ -7,9 +7,9 @@
    Tips on copying data can go elsewhere ~ ideasman42.
 
 
-**********
-Datablocks
-**********
+***********
+Data-Blocks
+***********
 
 The base unit for any Blender project is the data-block.
 Examples of data-blocks include:
@@ -38,7 +38,7 @@ especially when inter-linking ``.blend`` files.
 .. figure:: /images/datablocks.jpg
    :width: 400px
 
-   Datablocks view
+   Data-blocks view
 
 
 Users (Garbage Collection)
@@ -123,8 +123,8 @@ a small button with its number of linked objects (users) shows up next to its na
 If you click on it, you create a single-user copy of this data-block for the current object.
 
 
-Removing Datablocks
-===================
+Removing Data-Blocks
+====================
 
 As covered in `Users (Garbage Collection)`_, data-blocks are typically removed when they're no longer used.
 
@@ -146,8 +146,8 @@ Other data-blocks such as groups and actions can be *Unlinked* from the *Outline
 .. _data_system-datablock_types:
 
 
-Datablock Types
-===============
+Data-Block Types
+================
 
 .. EDITORS NOTE:
    Mostly we want to avoid long lists of data - but in this case,

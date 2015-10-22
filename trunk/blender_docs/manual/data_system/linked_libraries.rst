@@ -3,7 +3,7 @@
 Append and Link
 ***************
 
-These functions help you reuse materials, objects and other :doc:`datablocks </data_system/data_blocks>`
+These functions help you reuse materials, objects and other :doc:`data-blocks </data_system/data_blocks>`
 loaded from an external source ``.blend`` file.
 You can build libraries of common content and share them across multiple referencing files.
 
@@ -45,7 +45,7 @@ must be linked to an object before they become visible.
 Newly added Group types are available in :menuselection:`Add --> Group Instances` in 3D View,
 or for NodeTree groups, the same menu in the Node Editor.
 
-Look in the Outliner, with display mode set to *Blender File*, to see all your linked and appended datablocks.
+Look in the Outliner, with display mode set to *Blender File*, to see all your linked and appended data-blocks.
 :kbd:`Ctrl-LMB` on a file name allows you to redirect a link to another file.
 
 .. hint::

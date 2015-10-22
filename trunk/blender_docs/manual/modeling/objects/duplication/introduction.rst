@@ -39,15 +39,15 @@ This will create a visually-identical copy of the selected object(s). The copy i
 the same position as the original object and you are automatically placed in *Grab*
 mode. Reference (*Duplicate Example*) for the discussions below.
 
-This copy is a new object, which **shares** some datablocks with the original object
+This copy is a new object, which **shares** some data-blocks with the original object
 (by default, all the Materials, Textures, and Ipos), but which has copied others,
 like the mesh, for example.
 This is why this form of duplication is sometimes called "shallow link",
-because not all datablocks are shared; some of them are "hard copied"!
+because not all data-blocks are shared; some of them are "hard copied"!
 
-Note that you can choose which types of datablock will be linked or copied when duplicating:
+Note that you can choose which types of data-block will be linked or copied when duplicating:
 in the *User Preferences* ' (available in the *File* menu)
-*Editing* "tab", activate those types of datablocks you want to really copy in the
+*Editing* "tab", activate those types of data-blocks you want to really copy in the
 *Duplicate Data* list - the others will just be linked.
 
 
@@ -58,7 +58,7 @@ Examples
    :width: 620px
 
    The mesh ``Cone.006`` of object ``Cone.002`` is being edited.
-   The mesh's Unique datablock ID name is highlighted in the Outliner.
+   The mesh's Unique data-block ID name is highlighted in the Outliner.
 
 
 The cone in the middle has been (1) link duplicated to the left and (2)
@@ -67,11 +67,11 @@ duplicated to the right.
 - The duplicated right cone is being edited, the original cone in the middle remains unchanged.
   The mesh data has been copied, not linked.
 - Likewise, if the right cone is edited in object mode, the original cone remains unchanged.
-  The new object's transform properties or datablock is a copy, not linked.
+  The new object's transform properties or data-block is a copy, not linked.
 - When the right cone was duplicated, it inherited the material of the middle cone.
   The material properties were linked, not copied.
 
-See above if you want separate copies of the datablocks normally linked.
+See above if you want separate copies of the data-blocks normally linked.
 
 
 Linked Duplicates
@@ -89,7 +89,7 @@ You also have the choice of creating a *Linked Duplicate* rather than a *Duplica
 this is called a deep link.
 This will create a new object with **all** of its data linked to the original object.
 If you modify one of the linked objects in *Edit mode*,
-all linked copies are modified. Transform properties (object datablocks) still remain copies,
+all linked copies are modified. Transform properties (object data-blocks) still remain copies,
 not links, so you still can rotate, scale, and move freely without affecting the other copy.
 Reference (*Duplicate Example*) for the discussions below.
 
@@ -168,11 +168,11 @@ Linked Library Duplication
 
 
 :doc:`Linked Libraries </data_system/linked_libraries>` :Linked Libraries are also a form of duplication.
-Any object or datablock in other ``.blend`` files can be reused in the current file.
+Any object or data-block in other ``.blend`` files can be reused in the current file.
 
 
 .. hint::
-   - If you want transform properties (i.e. object datablocks) to be "linked",
+   - If you want transform properties (i.e. object data-blocks) to be "linked",
      see the page on :doc:`parenting </modeling/objects/groups_and_parenting>`.
    - Material Transparency will not display when instancing dupli-groups;
      this is a known limitation of Blender's view-port.

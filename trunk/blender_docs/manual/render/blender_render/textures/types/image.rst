@@ -407,8 +407,9 @@ Image Settings
 
 
 In the *Image Sampling* panel we tell Blender which source file to use.
-Image or Movie Datablock:
 
+
+Image or Movie Data-block:
    Browse
       Select an image or video among linked to the .blend file
    Name field

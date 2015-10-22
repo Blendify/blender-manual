@@ -27,13 +27,13 @@ The order in the Stack Textures defines how textures overlay each other for fina
 image.
 
 
-Texture Datablock
-=================
+Texture Data-Block
+==================
 
 .. figure:: /images/Textures-Datablock.jpg
    :width: 300px
 
-   Active Texture Datablock
+   Active Texture Data-Block
 
 
 Select a slot in the Textures Stack to see its settings.
@@ -69,7 +69,7 @@ Texture Type
    Texture Types
 
 
-Choose the type of texture that is used for the current texture datablock.
+Choose the type of texture that is used for the current texture data-block.
 
 
 - :doc:`Procedural Textures </render/blender_render/textures/types/procedural/introduction>`

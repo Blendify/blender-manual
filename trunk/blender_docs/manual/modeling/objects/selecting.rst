@@ -269,7 +269,7 @@ Select linked
 Description
 ^^^^^^^^^^^
 
-Selects all objects which share a common datablock with the active object.
+Selects all objects which share a common data-block with the active object.
 
 
 Options
@@ -281,12 +281,12 @@ Available options are:
 
 Object Data
    Selects every object that is linked to the same Object Data, i.e.
-   the datablock that specifies the type (mesh, curve, etc.) and the build
+   the data-block that specifies the type (mesh, curve, etc.) and the build
    (constitutive elements like vertices, control vertices, and where they are in space) of the object.
 Material
-   Selects every object that is linked to the same material datablock.
+   Selects every object that is linked to the same material data-block.
 Texture
-   Selects every object that is linked to the same texture datablock.
+   Selects every object that is linked to the same texture data-block.
 Dupligroup
    Selects all objects that use the same **Group** for duplication.
 Particle System
@@ -323,7 +323,7 @@ Options
 ^^^^^^^
 
 *Select All by Type* in *Object* mode offers an option for every type
-of object that can be described by the *ObData* datablock.
+of object that can be described by the *ObData* data-block.
 
 Just take your pick.
 
