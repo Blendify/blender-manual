@@ -93,19 +93,19 @@ Material Index Offset
 
 .. warning::
 
-  The modifier thickness is calculated using local vertex coordinates. If the object has non-uniform scale,
-  the thickness will vary on different sides of the object.
+   The modifier thickness is calculated using local vertex coordinates. If the object has non-uniform scale,
+   the thickness will vary on different sides of the object.
 
-  To fix this, either apply (:kbd:`Ctrl-A`) or clear (:kbd:`Alt-S`) scale.
+   To fix this, either apply (:kbd:`Ctrl-A`) or clear (:kbd:`Alt-S`) scale.
 
-.. warning::
 
-  Solidify thickness is an approximation.
-  While "Even Thickness" and "High Quality Normals" should yield good results,
-  the final wall thickness isn't guaranteed and may vary depending on the mesh topology.
+Known Limitations
+=================
 
-  In order to maintain precise wall thickness in every case, we would need to add/remove faces on the offset shell -
-  something this modifier doesn't do since this would add a lot of complexity and slow down the modifier.
+Even Thickness
+   Solidify thickness is an approximation.
+   While "Even Thickness" and "High Quality Normals" should yield good results,
+   the final wall thickness isn't guaranteed and may vary depending on the mesh topology.
 
-  Hence it is not recommended to use this for purposes requiring accuracy such as architectural/CAD modeling.
-
+   In order to maintain precise wall thickness in every case, we would need to add/remove faces on the offset shell -
+   something this modifier doesn't do since this would add a lot of complexity and slow down the modifier.
