@@ -228,7 +228,8 @@ For reference, here is a table of data-blocks types stored in ``.blend`` files.
    * - Library
      - |cross|
      - |tick|
-     - | TODO.
+     - | References to external ``.blend`` files.
+       | Access from the outliner's *Blendfile* view.
    * - LineStyle
      - |tick|
      - |cross|
@@ -241,7 +242,8 @@ For reference, here is a table of data-blocks types stored in ``.blend`` files.
    * - Material
      - |tick|
      - |cross|
-     - | Used by objects, meshes & curves.
+     - | Set shading and texturing render properties.
+       | Used by objects, meshes & curves.
    * - Mesh
      - |tick|
      - |cross|
@@ -250,24 +252,29 @@ For reference, here is a table of data-blocks types stored in ``.blend`` files.
    * - MetaBall
      - |tick|
      - |cross|
-     - | TODO.
+     - | An isosurface in 3D space.
+       | Used as object-data.
    * - MovieClip
      - |tick|
      - |cross|
-     - | TODO.
+     - | Reference to an image sequence or video file.
+       | Used in the motion-tracking editor.
    * - NodeGroup
      - |tick|
      - |cross|
-     - | TODO.
+     - | Collections of re-usable nodes.
+       | Used in the node-editor.
    * - Object
      - |tick|
      - |cross|
-     - | TODO.
+     - | An entity in the scene with location,
+       | scale, rotation.
        | Used by scenes & groups.
    * - Particle
      - |tick|
      - |cross|
-     - | TODO.
+     - | Particle settings.
+       | Used by particle systems.
    * - Palette
      - |tick|
      - |cross|
@@ -276,31 +283,38 @@ For reference, here is a table of data-blocks types stored in ``.blend`` files.
    * - Scene
      - |tick|
      - |cross|
-     - | TODO.
+     - | Primary store of all data displayed and animated.
+       | Used as top-level storage for objects & animation.
    * - Screen
      - |cross|
      - |cross|
-     - | TODO.
+     - | Screen layout.
+       | Used by each window, which has its own screen.
    * - ShapeKeys
      - |cross|
      - |cross|
-     - | TODO.
+       | Geometry shape storage, which can be animated.
+     - | Used by mesh, curve and lattice objects.
    * - Sounds
      - |tick|
      - |tick|
-     - | TODO.
+       | References to sound files.
+     - | Used by speaker objects and the game-engine.
    * - Speaker
      - |tick|
      - |cross|
-     - | TODO.
+     - | Sound sources for a 3D scene.
+       | Used as object-data.
    * - Text
      - |tick|
      - |cross|
      - | Text data.
+       | Used by Python scripts and OSL shaders.
    * - Texture
      - |tick|
      - |cross|
      - | 2D/3D textures.
+       | Used by materials, world and brushes.
    * - World
      - |tick|
      - |cross|
