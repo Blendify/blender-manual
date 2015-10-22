@@ -47,7 +47,7 @@ Vertex Group Mask
 Texture
    An additional texture, the values of which will be multiplied with the global influence value for each vertex.
 
-   This is a standard texture :doc:`datablock </data_system/datablocks>` control.
+   This is a standard texture :doc:`datablock </data_system/data_blocks>` control.
    When set, it reveals other settings:
 
    Texture Coordinates

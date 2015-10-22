@@ -8,7 +8,7 @@
    :maxdepth: 2
 
    introduction.rst
-   datablocks.rst
+   data_blocks.rst
    scenes.rst
    files/index.rst
    linked_libraries.rst
