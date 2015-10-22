@@ -90,7 +90,8 @@ As covered in `Users (Garbage Collection)`_, data-blocks are typically removed w
 
 There are some exceptions to this however.
 
-Scenes, text, can be removed directly.
+The following data-blocks can be removed directly:
+Scene, Text, Group and Screen.
 
 Other data-blocks such as groups and actions can be *Unlinked* from the *Outliner* context menu.
 
