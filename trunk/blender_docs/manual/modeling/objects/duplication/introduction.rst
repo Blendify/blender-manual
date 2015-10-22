@@ -157,6 +157,17 @@ These options are located in the *Object* menu.
    this is also a *very* powerful technique for arranging objects and for modeling them.
 
 
+Copying & Linking Objects Between Scenes
+========================================
+
+Sometimes you may want to link or copy objects between scenes. This is possible by first selecting objects you want
+to link or copy and then using the *Make Links* and *Make Single User* items found in
+*Object* menu in the 3D viewport header. Use *Make Links* to make links between scenes.
+To make a plain copy, you first make a link and then use *Make Single User* to make a stand-alone copy of
+the object in your current scene.
+Further information on working with scenes can be found :doc:`here </data_system/scenes>`.
+
+
 Linked Library Duplication
 ==========================
 
