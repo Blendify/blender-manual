@@ -160,11 +160,16 @@ These options are located in the *Object* menu.
 Copying & Linking Objects Between Scenes
 ========================================
 
-Sometimes you may want to link or copy objects between scenes. This is possible by first selecting objects you want
-to link or copy and then using the *Make Links* and *Make Single User* items found in
-*Object* menu in the 3D viewport header. Use *Make Links* to make links between scenes.
-To make a plain copy, you first make a link and then use *Make Single User* to make a stand-alone copy of
-the object in your current scene.
+Sometimes you may want to link or copy objects between scenes.
+This is possible by first selecting objects you want to link and then using:
+:menuselection:`Object --> Make Links --> Object to Scene`.
+
+This makes the same object exist in 2 different scenes at once, including its position and animation data.
+You can tell this is a *multi-user* object by the blue color of its center-circle
+
+If you don't want the objects to be shared between the scenes, you can make them *Single-User* by using:
+:menuselection:`Object --> Make Single User --> Object`.
+
 Further information on working with scenes can be found :doc:`here </data_system/scenes>`.
 
 
