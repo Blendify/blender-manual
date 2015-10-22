@@ -11,7 +11,7 @@ Language
 
 At :menuselection:`File --> User Preferences --> System`, enable ``International Fonts`` to choose the
 ``Language`` and what to translate from ``Interface``, ``Tooltips`` and ``New Data``.
-See more at :ref:`preferences-system-international`
+See more at :ref:`prefs-system-international`
 
 
 Input

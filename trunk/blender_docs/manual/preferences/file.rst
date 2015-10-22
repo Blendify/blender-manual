@@ -11,7 +11,7 @@ The *File Preferences* tab allows you to configure auto-save preferences and set
    :width: 650px
 
 
-.. _preferences-file_paths:
+.. _prefs-file_paths:
 
 File Paths
 ==========
@@ -84,7 +84,7 @@ Excluded Paths
 .. seealso:: :doc:`/advanced/scripting/python/security`
 
 
-.. _preferences-save_load:
+.. _prefs-save_load:
 
 Save & Load
 ===========

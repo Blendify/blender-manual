@@ -162,7 +162,7 @@ Just check *Emulate Numpad*.
 View Manipulation
 =================
 
-.. _preferences-input-orbit_style:
+.. _prefs-input-orbit_style:
 
 Orbit Style
    Select how Blender works when you rotate the 3D view by default when holding :kbd:`MMB`.

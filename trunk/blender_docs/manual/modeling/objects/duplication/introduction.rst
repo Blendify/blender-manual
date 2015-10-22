@@ -3,7 +3,8 @@
 Duplication
 ***********
 
-There are two types of duplication, being `Duplicate`_ and `Linked Duplicates`_ which supports instancing.
+There are two types of object duplication,
+being `Duplicate`_ and `Linked Duplicates`_ which instance their object-data.
 
 
 Instancing
@@ -21,7 +22,8 @@ Object Data
    :Meshes: Store geometry, material list, vertex groups... etc.
    :Cameras: Store focal length, depth of field, sensor size... etc.
 
-   Each object has a link to its associated object data, and a single object data may be shared by many objects.
+   Each object has a link to its associated object-data,
+   and a single object-data may be shared by many objects.
 
 
 Duplicate
@@ -35,20 +37,18 @@ Duplicate
    | Hotkey:   :kbd:`Shift-D`
 
 
-This will create a visually-identical copy of the selected object(s). The copy is created at
-the same position as the original object and you are automatically placed in *Grab*
-mode. Reference (*Duplicate Example*) for the discussions below.
+This will create a visually-identical copy of the selected object(s).
+The copy is created at the same position as the original object and you are automatically placed in *Grab* mode.
+See the example below.
 
-This copy is a new object, which **shares** some data-blocks with the original object
+This copy is a new object, which shares some data-blocks with the original object
 (by default, all the Materials, Textures, and Ipos), but which has copied others,
 like the mesh, for example.
 This is why this form of duplication is sometimes called "shallow link",
 because not all data-blocks are shared; some of them are "hard copied"!
 
 Note that you can choose which types of data-block will be linked or copied when duplicating:
-in the *User Preferences* ' (available in the *File* menu)
-*Editing* "tab", activate those types of data-blocks you want to really copy in the
-*Duplicate Data* list - the others will just be linked.
+in the :ref:`User Preferences, Editing Page <prefs-editing-duplicate_data>`.
 
 
 Examples

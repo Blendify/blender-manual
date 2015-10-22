@@ -116,7 +116,7 @@ VBOs
    Helps to speed up viewport rendering by allowing vertex array data to be stored in Graphics card memory.
 
 
-.. _preferences-system-window_draw:
+.. _prefs-system-window_draw:
 
 Window Draw Method
 ==================
@@ -139,7 +139,7 @@ Window Draw Method
       Do a full redraw each time. Only use for reference, or when all else fails.
       Useful for certain cards with bad to no OpenGL acceleration at all.
 
-.. _preferences-system-multi_sampling:
+.. _prefs-system-multi_sampling:
 
 Multi-Sampling
    This enables :term:`FSAA` for smooth drawing,
@@ -255,7 +255,7 @@ For detailed information about how to use color ramps,
 see: to the :doc:`Extended Controls </interface/extended_controls>` page.
 
 
-.. _preferences-system-international:
+.. _prefs-system-international:
 
 Internationalization
 ====================

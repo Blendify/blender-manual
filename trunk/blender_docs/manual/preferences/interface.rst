@@ -62,7 +62,7 @@ Rotate Around Selection
 Global Pivot
    Lock the same rotation/scaling pivot in all 3D views.
 Auto Perspective
-   .. _preferences-interface-auto_perspective:
+   .. _prefs-interface-auto_perspective:
 
    Automatically to perspective Top/Side/Front view after using User Orthographic.
    When disabled, Top/Side/Front views will retain Orthographic or Perspective view
