@@ -49,11 +49,6 @@ Decimate Type
 
             This is only true if the *Triangulate* option is disabled.
 
-         .. note::
-
-            N-Gons are currently not supported when collapsing edges,
-            the operation will still succeed, but edges attached aren't considered for reduction.
-
    Un-Subdivide
       Can be thought of as the reverse of subdivide.
       Attempts to remove edges that were the result of a subdivide operation.
@@ -85,3 +80,12 @@ Decimate Type
 
 Face Count
    This field shows the number of remaining faces as a result of applying the Decimate modifier.
+
+
+Known Limitations
+=================
+
+N-Gons
+   N-Gons are currently not supported when collapsing edges,
+   the operation will still succeed, but edges attached aren't considered for reduction.
+
