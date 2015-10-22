@@ -49,12 +49,12 @@ Modes might affect many things in Blender:
      - *Object* mode
      - *None* :sup:`1`
      - The default mode, available for all object types,
-       as it is dedicated to *Object* datablock editing (i.e. position/rotation/size).
+       as it is dedicated to *Object* data-block editing (i.e. position/rotation/size).
    * - .. figure:: /images/IconEditMode.jpg
      - *Edit* mode
      - :kbd:`Tab`:sup:`1`
      - A mode available for all renderable object types,
-       as it is dedicated to their "shape" *ObData* datablock editing
+       as it is dedicated to their "shape" *ObData* data-block editing
        (i.e. vertices/edges/faces for meshes, control points for curves/surfaces, etc.)
    * - .. figure:: /images/IconSculptMode.jpg
      - *Sculpt* mode

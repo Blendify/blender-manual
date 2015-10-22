@@ -17,7 +17,7 @@ In the outliner, you can:
 - Enable or disable selection (to make an object "unselectable" in the 3D View).
 - Enable or disable the rendering of an object.
 - Delete objects from the scene.
-- Unlink data (equivalent to pressing the *X* button next to the name of a datablock).
+- Unlink data (equivalent to pressing the *X* button next to the name of a data-block).
 - Easily select which render layer to render.
 - Easily select which render pass to render (for example, you can choose to render just the *Specular* pass).
 
@@ -25,12 +25,12 @@ In the outliner, you can:
 Using the Outliner
 ==================
 
-Each row in the *Outliner* shows a datablock. You can click the plus-sign to the
-left of a name to expand the current datablock and see what other datablocks it contains.
+Each row in the *Outliner* shows a data-block. You can click the plus-sign to the
+left of a name to expand the current data-block and see what other data-blocks it contains.
 
-You can select datablocks in the *Outliner*,
-but this won't necessarily select the datablock in the scene.
-To select the datablock in the scene, you have to activate it.
+You can select data-blocks in the *Outliner*,
+but this won't necessarily select the data-block in the scene.
+To select the data-block in the scene, you have to activate it.
 
 
 Selecting and Activating
@@ -50,9 +50,9 @@ then zoom to them with :menuselection:`View --> Show Active` or :kbd:`NumpadPeri
    Click :kbd:`LMB` on the mesh data of the cube to activate Edit mode.
 
 
-Activating a datablock
-   *Activate* the datablock with :kbd:`LMB` on the *icon* of the datablock.
-   Activating the datablock will automatically switch to the relevant mode.
+Activating a data-block
+   *Activate* the data-block with :kbd:`LMB` on the *icon* of the data-block.
+   Activating the data-block will automatically switch to the relevant mode.
    For example, activating the mesh data of the cube will select the cube
    and enter *Edit mode* while activating the object data of the
    cube will select the cube and enter *Object mode* (see right).
@@ -60,11 +60,11 @@ Activating a datablock
 
 .. figure:: /images/Outliner-Window-Column-Icons.jpg
 
-   Toggling pre-selection of a datablock.
+   Toggling pre-selection of a data-block.
 
 
-Toggle pre-selection of a group of datablocks
-   Useful when you want to select/deselect a whole bunch of datablocks.
+Toggle pre-selection of a group of data-blocks
+   Useful when you want to select/deselect a whole bunch of data-blocks.
    For this you must prepare the selection using, to your liking:
 
    - :kbd:`RMB` or :kbd:`LMB`,
@@ -82,22 +82,22 @@ Toggle pre-selection of a group of datablocks
 
 
 Context menu
-   Show the context menu for a datablock with :kbd:`RMB` on the icon or name.
-   Depending on the type of the pre-selected datablock(s), you will have all or part of the following options:
+   Show the context menu for a data-block with :kbd:`RMB` on the icon or name.
+   Depending on the type of the pre-selected data-block(s), you will have all or part of the following options:
 
    - *Select*.
    - *Deselect*.
    - *Delete*.
-   - *Unlink* - To unlink a datablock from its "owner" (e.g., a material from its mesh).
-   - *Make Local* - To create a "local" duplicate of this datablock.
+   - *Unlink* - To unlink a data-block from its "owner" (e.g., a material from its mesh).
+   - *Make Local* - To create a "local" duplicate of this data-block.
 
    .. note::
 
-      Some datablock types will not have a context menu at all!
+      Some data-block types will not have a context menu at all!
 
 
-Deleting a datablock
-   Use :kbd:`X` to delete the selected datablock(s).
+Deleting a data-block
+   Use :kbd:`X` to delete the selected data-block(s).
 
 Expanding one level
    Use :kbd:`NumpadPlus` to expand one level down in the tree-list.
@@ -132,7 +132,7 @@ Rendering (*camera icon*)
 Searching
 =========
 
-You can search the file for datablocks,
+You can search the file for data-blocks,
 either by using the *Search* menu in the header of the *Outliner*,
 or by using one of the following hotkeys:
 
@@ -142,7 +142,7 @@ or by using one of the following hotkeys:
 - :kbd:`Ctrl-Alt-F` - Find complete (case sensitive).
 - :kbd:`Shift-F` - Find again.
 
-Matching datablocks will be automatically selected.
+Matching data-blocks will be automatically selected.
 
 
 Filtering the display

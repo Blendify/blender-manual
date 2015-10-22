@@ -74,7 +74,7 @@ Material are as follows:
    See Reusing Existing Materials below.
 
 Name
-   Like other datablocks, Blender will automatically set the name of the new material to
+   Like other data-blocks, Blender will automatically set the name of the new material to
    ``Material``, ``Material.001`` and so on.
    You can change this by over-typing with your own choice of name.
 Number of Users
@@ -113,14 +113,14 @@ Data
    These two menu choices determine whether the material is linked to the object or to the data,
    (in this case) the mesh (or curve, nurbs, etc.).
    The Data menu item determines that this material will be linked to the mesh's
-   datablock which is linked to the object's datablock.
+   data-block which is linked to the object's data-block.
    The Object menu item determines that the material will be linked to the object's data block directly.
-   This has consequences of course. For example, different objects may share the same mesh datablock.
-   Since this datablock defines the shape of the object,
+   This has consequences of course. For example, different objects may share the same mesh data-block.
+   Since this data-block defines the shape of the object,
    any change in edit mode will be reflected on all of those objects.
-   Moreover, anything linked to that mesh datablock will be shared by every object that shares that mesh.
+   Moreover, anything linked to that mesh data-block will be shared by every object that shares that mesh.
    So, if the material is linked to the mesh, every object will share it.
-   On the other hand, if the material is linked directly to the object datablock,
+   On the other hand, if the material is linked directly to the object data-block,
    the objects can have different materials and still share the same mesh.
    Short explanation: If connected to the object,
    you can have several instances of the same obData using different materials.

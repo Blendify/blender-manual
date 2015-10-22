@@ -57,35 +57,35 @@ It can have up to eighteen *Texture Slots*:
   up and down in the stack or to copy/paste material's settings between slots.
 
 
-Creating a new Texture Datablock in a new Texture Slot
-======================================================
+Creating a new Texture Data-Block in a new Texture Slot
+=======================================================
 
 Select an empty slot, then click on the *New* button.
 
 This will do two things:
 
-- it will create a new texture datablock
+- it will create a new texture data-block
 - also, it will add a new slot in the textures stack
 
 
-Creating a new Texture Datablock in a non-empty slot
-====================================================
+Creating a new Texture Data-Block in a non-empty slot
+=====================================================
 
 Select a non-empty slot, then click on the *Plus* button.
 
 This will do two things:
 
-- it will create a new texture datablock, with a new name,
-  **making a copy of the texture datablock assigned to the selected slot**
-- it will assign this new datablock to the selected slot
+- it will create a new texture data-block, with a new name,
+  **making a copy of the texture data-block assigned to the selected slot**
+- it will assign this new data-block to the selected slot
 
 
-Sharing a Texture Datablock in a non-empty slot
-===============================================
+Sharing a Texture Data-Block in a non-empty slot
+================================================
 
 - Select a non-empty slot, then click on the *Browse* button.
-  This will open a menu showing all the available Texture Datablocks in this file.
-- Choose a texture datablock in the menu to assign it to the selected slot.
+  This will open a menu showing all the available Texture data-blocks in this file.
+- Choose a texture data-block in the menu to assign it to the selected slot.
   This will share the chosen texture with more than one object,
-  hence the *Number of users* shown in the texture datablock will increase by one.
+  hence the *Number of users* shown in the texture data-block will increase by one.
 

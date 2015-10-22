@@ -33,8 +33,8 @@ There are four basic views for the Dopesheet.These all view different contexts o
 :doc:`Action Editor </editors/dope_sheet/action>`
    *Action Editor* is the default, and most useful one. It's here you can define and control your actions.
 :doc:`Shape Key Editor </editors/dope_sheet/shapekey>`
-   *ShapeKey Editor* is dedicated to the *Shape* Ipo datablocks.
-   It uses/edits the same action datablock as the previous mode.
+   *ShapeKey Editor* is dedicated to the *Shape* Ipo data-blocks.
+   It uses/edits the same action data-block as the previous mode.
    It seems to be an old and useless thing,
    as the *Action Editor* mode handles *Shape* channels very well, and this mode adds nothing...
 :doc:`Grease Pencil </interface/grease_pencil/index>`
@@ -43,7 +43,7 @@ There are four basic views for the Dopesheet.These all view different contexts o
    for each grease pencil layer, you have a strip along which you can grab its keys,
    and hence easily re-time your animated sketches.
    As it is just another way to see and edit the grease pencil data,
-   this mode uses no datablock (and hence has nothing to do with actions...).
+   this mode uses no data-block (and hence has nothing to do with actions...).
    Note that you'll have as much top-level grease pencil channels as you have sketched windows
    (3D views, *UV/Image Editor*, etc.)
 
@@ -63,7 +63,7 @@ one, it is divided in three areas:
 
 The header bar
    Here you find the menus, a first block of controls related to the editor "mode",
-   a second one concerning the action datablocks, and a few other tools
+   a second one concerning the action data-blocks, and a few other tools
    (like the copy/paste buttons, and snapping type).
 
 The main area
@@ -80,9 +80,9 @@ The main area
 The left "list-tree"
    This part shows the action's channel "headers" and their hierarchy. Basically, there are:
 
-   - "Top-level" channels, which represent whole FCurve datablocks
+   - "Top-level" channels, which represent whole FCurve data-blocks
      (so there's one for *Object* one, one for *Shape* one, etc.).
-     They gather *all* keyframes defined in their underlying FCurve datablock.
+     They gather *all* keyframes defined in their underlying FCurve data-block.
    - "Mid-level" channels, which seem currently to have no use
      (there's one per top-level channel, they are all named *FCurves*, and have no option at all...).
    - "Low-level" channels, which represent individual FCurve ,

@@ -43,7 +43,7 @@ The following sections describe the controls in each of the available panels.
 Brush
 =====
 
-Brush Datablock
+Brush Data-Block
    The image, name panel and color selector at the top allows you to select brush presets,
    rename brushes, as well as add custom brushes, and delete them.
 Radius

@@ -15,8 +15,8 @@ Image Texture
 
 Use an image file as a texture.
 
-Image Datablock
-   Image datablock used as the image source. Currently not all images supported by Blender can be used by Cycles.
+Image Data-Block
+   Image data-block used as the image source. Currently not all images supported by Blender can be used by Cycles.
    In particular, generated, packed images or animations are not supported currently.
 Projection
    Projection to use for mapping the textures.
@@ -65,8 +65,8 @@ Environment Texture
 Use an environment map image file as a texture.
 The environment map is expected to be in Latitude/Longitude or 'latlong' format.
 
-Image Datablock
-   Image datablock used as the image source. Currently not all images supported by Blender can be used by Cycles.
+Image Data-Block
+   Image data-block used as the image source. Currently not all images supported by Blender can be used by Cycles.
    In particular, generated, packed images or animations are not supported currently.
 Color Space
    Type of data that the image contains, either Color or Non-Color Data.

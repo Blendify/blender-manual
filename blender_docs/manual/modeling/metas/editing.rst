@@ -136,7 +136,7 @@ producing something very similar to having several metas inside the same object.
 
 A family is defined by the left part of an object's name (the one before the dot). Remember,
 an object's name is the one in the *OB* field, in most panels,
-**not** the *MB* field, which is the meta datablock's name... For example,
+**not** the *MB* field, which is the meta data-block's name... For example,
 the *family* part of ``MetaPlane.001`` is ``MetaPlane``.
 Each meta object in the same "family" is associated with one another as discussed below.
 

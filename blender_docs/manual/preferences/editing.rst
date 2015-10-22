@@ -19,10 +19,10 @@ Link Materials To
 
 
 To understand this option properly, you need to understand how Blender works with Objects.
-Almost everything in Blender is organized in a hierarchy of Datablocks.
-A Datablock can be thought of as containers for certain pieces of information. For example,
-the Object Datablock contains information about the Object's location while the Object Data
-(*ObData*) datablock contains information about the mesh.
+Almost everything in Blender is organized in a hierarchy of data-blocks.
+A data-block can be thought of as containers for certain pieces of information. For example,
+the Object data-block contains information about the Object's location while the Object Data
+(*ObData*) data-block contains information about the mesh.
 
 
 A material may be linked in two different ways:
@@ -34,9 +34,9 @@ A material may be linked in two different ways:
 
 
 ObData
-   Any created material will be created as part of the ObData datablock.
+   Any created material will be created as part of the ObData data-block.
 Object
-   Any created material will be created as part of the Object datablock.
+   Any created material will be created as part of the Object data-block.
 
 :doc:`Read more about Blender's Data System </data_system/index>`
 

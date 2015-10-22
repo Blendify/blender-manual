@@ -103,7 +103,6 @@ View
       Intended for inspecting the image but not for final export.
       Raw gives the image without any color space conversion,
       while Log gives a more "flat" view of the image without very dark or light areas.
-
 Exposure
    Used to control the image brightness (in stops) applied before color space conversion.
 Gamma
@@ -113,7 +112,6 @@ Gamma
 Look
    Choose an artistic effect from set of measured film response data which
    roughly emulates the look of certain film types. Applied before color space conversion.
-
 Use Curves
    Adjust RGB Curves to control image colors before color space conversion.
    Read more about using the :ref:`ui-curve_widget`.
@@ -146,7 +144,7 @@ where manual changes are needed is when working with or baking normal maps or di
 maps, for example. Such maps do not actually store colors, just data encoded as colors.
 In such cases they should be marked as **Non-Color Data**.
 
-Image datablocks will always store float buffers in memory in the scene linear color space,
+Image data-blocks will always store float buffers in memory in the scene linear color space,
 while a byte buffer in memory and files on disk are stored in the color space specified with
 this setting:
 
@@ -164,7 +162,7 @@ Color Space
 
 
 By default only renders are displayed and saved with the render view transformations applied.
-These are the Render Result and Viewer image datablocks,
+These are the Render Result and Viewer image data-blocks,
 and the files saved directly to disk with the Render Animation operator.
 However when loading a render saved to an intermediate OpenEXR file,
 Blender can't detect automatically that this is a render (it could be e.g.
@@ -173,7 +171,7 @@ We need to specify that this is a render and that we want the transformations ap
 with these two settings:
 
 View as Render
-   Display the image datablock (not only renders) with view transform, exposure, gamma, RGB curves applied.
+   Display the image data-block (not only renders) with view transform, exposure, gamma, RGB curves applied.
    Useful for viewing rendered frames in linear OpenEXR files the same as when rendering them directly.
 Save as Render
    Option in the image save operator to apply the view transform, exposure, gamma, RGB curves.

@@ -64,7 +64,7 @@ In terms of scale, the scale values return to 1.
 To apply a transform select the *Apply* sub-menu from the *Object menu* or
 use the shortcut :kbd:`Ctrl-A` and select the appropriate transform to apply
 
-*Make Duplicates Real* unlinks linked duplicates so each duplicate now has its own datablock.
+*Make Duplicates Real* unlinks linked duplicates so each duplicate now has its own data-block.
 
 
 Apply Options

@@ -84,7 +84,7 @@ where the ability to re-time blocking is one of the main purposes of the whole e
 
 
 All the available Grease-Pencil blocks for the current screen layout will be shown.
-The Area/Grease-Pencil datablocks are drawn as green channels,
+The Area/Grease-Pencil data-blocks are drawn as green channels,
 and are named with relevant info from the views. They are also labeled with the area (i.e.
 window) index (which is currently not shown anywhere else though).
 

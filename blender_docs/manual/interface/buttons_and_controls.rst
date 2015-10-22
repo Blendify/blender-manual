@@ -255,7 +255,7 @@ These menu's may show a preview and allow you to search by name since its common
 .. figure:: /images/ConceptButtons4_1.jpg
    :align: right
 
-   Datablock link menu with search
+   Data-block link menu with search
 
 
    - The first button (with an icon of the data-block type) opens up a menu to select an item
@@ -270,9 +270,9 @@ Sometimes there is a list of applied data-blocks
 .. figure:: /images/ConceptButtons4.jpg
    :align: right
 
-   Datablock link buttons
+   Data-block link buttons
 
-   - To select a datablock, click :kbd:`LMB` on it.
+   - To select a data-block, click :kbd:`LMB` on it.
    - To add a new section (e.g. material, or particle system),
      click :kbd:`LMB` on the "+" button to the right of the list.
    - To remove a section, click :kbd:`LMB` on the "-" to the right of the list.

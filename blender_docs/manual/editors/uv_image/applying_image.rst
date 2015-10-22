@@ -247,7 +247,7 @@ The first row of buttons allow you to:
 - Set as *Fake User*
 - Create a *New Image*
 - *Open* an image
-- *Unlink Datablock*
+- *Unlink Data-Block*
 
 Select the image type in the *Source* menu. Each has different options:
 
