@@ -1,12 +1,4 @@
 
-..
-   TODO
-   ::
-   Some of the text here is overly verbose and reads like a tutorial,
-   data-blocks are more of a concept to explain.
-   Tips on copying data can go elsewhere ~ ideasman42.
-
-
 ***********
 Data-Blocks
 ***********
@@ -83,44 +75,12 @@ Examples where sharing data is common.
 
 - Sharing textures among materials.
 - Sharing meshes between objects (instances).
-- Sharing animated actions between objects, for example to make all the lights dim together.
+- Sharing animated actions between objects,
+  for example to make all the lights dim together.
 
+You can also share data-blocks between files, see.
 
-Copying and Linking Objects Between Scenes
-==========================================
-
-Sometimes you may want to link or copy objects between scenes. This is possible by first selecting objects you want
-to link or copy and then using the *Make Links* and *Make Single User* items found in
-*Object* menu in the 3D viewport header. Use *Make Links* to make links between scenes.
-To make a plain copy, you first make a link and then use *Make Single User* to make a stand-alone copy of
-the object in your current scene.
-Further information on working with scenes can be found :doc:`here </data_system/scenes>`.
-
-
-Appending or Linking Across Files
-=================================
-
-The content of one ``.blend`` file is easily accessed and put into your current file by using
-:menuselection:`File --> Append` or :menuselection:`File --> Link`
-To find out more about how to copy or link objects across ``.blend`` files,
-see :doc:`linked libraries </data_system/linked_libraries>`.
-
-
-Copying and Linking
-===================
-
-It is possible to copy or link most of Blender's data-block.
-
-See:
-
-- :doc:`Adding scenes </data_system/scenes>`
-- :doc:`Object duplication </modeling/objects/duplication/index>`
-
-
-When an *ObData* data-block is used (linked) by more than one object,
-a small button with its number of linked objects (users) shows up next to its name
-*(also visible for materials, textures, images)*.
-If you click on it, you create a single-user copy of this data-block for the current object.
+- :doc:`linked libraries </data_system/linked_libraries>`.
 
 
 Removing Data-Blocks
@@ -161,6 +121,15 @@ For reference, here is a table of data-blocks types stored in ``.blend`` files.
 
 :Link: Library Linking, *supports bing linked into other blend files*.
 :Pack: File Packing, *supports file contents being packed into the blend file*.
+
+
+.. EDITORS NOTE:
+   For each data-block, we have 2 lines.
+   1) a terse description.
+   2) how its used.
+   ::
+   Keep these short.
+
 
 .. |tick|  unicode:: U+2713
 .. |cross| unicode:: U+2717
@@ -293,13 +262,13 @@ For reference, here is a table of data-blocks types stored in ``.blend`` files.
    * - ShapeKeys
      - |cross|
      - |cross|
-       | Geometry shape storage, which can be animated.
-     - | Used by mesh, curve and lattice objects.
+     - | Geometry shape storage, which can be animated.
+       | Used by mesh, curve and lattice objects.
    * - Sounds
      - |tick|
      - |tick|
-       | References to sound files.
-     - | Used by speaker objects and the game-engine.
+     - | References to sound files.
+       | Used by speaker objects and the game-engine.
    * - Speaker
      - |tick|
      - |cross|
