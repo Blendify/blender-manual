@@ -3,7 +3,7 @@
 Append and Link
 ***************
 
-These functions help you reuse materials, objects and other :doc:`datablocks </data_system/datablocks>`
+These functions help you reuse materials, objects and other :doc:`datablocks </data_system/data_blocks>`
 loaded from an external source ``.blend`` file.
 You can build libraries of common content and share them across multiple referencing files.
 
