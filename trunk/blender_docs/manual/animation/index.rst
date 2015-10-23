@@ -4,25 +4,28 @@
   Animation
 ############
 
+Animation fundamentals.
+
 .. toctree::
    :maxdepth: 2
 
    introduction.rst
-   basics/key_frames.rst
-   basics/actions.rst
-   basics/drivers.rst
-   basics/keying_sets.rst
-   basics/markers.rst
-   basics/motion_paths.rst
-   techs.rst
-   techs/object.rst
-   techs/object/constraint.rst
-   techs/object/path.rst
-   techs/shape.rst
-   techs/shape/shape_keys.rst
-   techs/shape/shape_keys/editing.rst
-   techs/shape/shape_keys/animating.rst
-   techs/shape/shape_keys/examples.rst
-   techs/shape/indirect_animation.rst
-   techs/armatures.rst
-   techs/armatures/mocap.rst
+   key_frames.rst
+   key_frame_visualization.rst
+   actions.rst
+   drivers.rst
+   keying_sets.rst
+   markers.rst
+   constraints.rst
+   shape_keys.rst
+
+Animation techniques.
+
+.. EDITORS NOTE:
+   These could be re-worked, or moved into more general
+   docs which cover features of the object/armature panel?
+
+.. toctree::
+   :maxdepth: 2
+
+   object_path.rst

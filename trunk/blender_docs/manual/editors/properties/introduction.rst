@@ -90,7 +90,7 @@ Scene features are mainly documented in the data-system,
 though some tools are added to different sections.
 
 - :doc:`Scenes </data_system/scenes>`
-- :doc:`Keying Sets </animation/basics/keying_sets>`
+- :doc:`Keying Sets </animation/keying_sets>`
 
 The Object features are usually documented in the 'Objects' part of the Modeling Section.
 

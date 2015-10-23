@@ -126,7 +126,7 @@ or the *Keying Sets Panel*.
 Now when you press :kbd:`I` in the 3D view,
 blender will add keyframes for all the properties in the active keying set.
 
-See :doc:`Keying Sets </animation/basics/keying_sets>` for more info.
+See :doc:`Keying Sets </animation/keying_sets>` for more info.
 
 
 Properties

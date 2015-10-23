@@ -353,9 +353,6 @@ Shape Key Operators
 See Also
 ========
 
-- :doc:`2.4 Shape Keys </animation/techs/shape/shape_keys>`
-- :doc:`2.4 Editing Shape Keys </animation/techs/shape/shape_keys/editing>`
-- :doc:`2.4 Animating Shape Keys </animation/techs/shape/shape_keys/animating>`
-- :doc:`2.4 Shape Keys Examples </animation/techs/shape/shape_keys/examples>`
+- :doc:`2.4 Shape Keys </animation/shape_keys>`
 - `Add-on: Corrective Shape Key
   <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Animation/Corrective_Shape_Key>`__

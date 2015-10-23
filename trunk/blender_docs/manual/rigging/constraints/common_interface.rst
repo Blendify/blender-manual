@@ -159,7 +159,7 @@ Note that if a constraint has a full influence on a given property, all other co
 above in the stack working on that same property will have no effect at all.
 
 But the best thing with influence is that you can animate it with an Fcurve - see
-:doc:`the constraints page of the animation chapter </animation/techs/object/constraint>` for
+:doc:`the constraints page of the animation chapter </animation/constraints>` for
 more details about this.
 
 

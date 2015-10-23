@@ -5,8 +5,8 @@ Graph Editor
 The graph editor is the main animation editor.
 It allows you to modify the animation for any properties using :doc:`F-Curves </editors/graph_editor/fcurves>`.
 
-The graph editor has two modes, *F-Curve* for :doc:`Actions </animation/basics/actions>`,
-and *Drivers* for :doc:`Drivers </animation/basics/drivers>`. Both are very similar in function.
+The graph editor has two modes, *F-Curve* for :doc:`Actions </animation/actions>`,
+and *Drivers* for :doc:`Drivers </animation/drivers>`. Both are very similar in function.
 
 
 .. figure:: /images/Graph_Editor.jpg
@@ -100,7 +100,7 @@ Like with most animation editors, markers are shown at the bottom of the editor.
 
 *Markers* can be modified in the *Graph Editor* though its usually best to use the *Timeline*.
 
-See :doc:`Markers </animation/basics/markers>` for more info.
+See :doc:`Markers </animation/markers>` for more info.
 
 
 Header
@@ -123,8 +123,8 @@ Header Controls
 
 
 Mode
-   F-Curve for :doc:`Actions </animation/basics/actions>`,
-   and Drivers for :doc:`Drivers </animation/basics/drivers>`.
+   F-Curve for :doc:`Actions </animation/actions>`,
+   and Drivers for :doc:`Drivers </animation/drivers>`.
 
 
 .. figure:: /images/Graph_Header_View.jpg
@@ -359,5 +359,5 @@ See :doc:`F-Modifiers </editors/graph_editor/fmodifiers>` for more info.
 
    - :doc:`Graph Editor - F-Curves </editors/graph_editor/fcurves>`
    - :doc:`Graph Editor - F-Modifiers </editors/graph_editor/fmodifiers>`
-   - :doc:`Actions </animation/basics/actions>`
-   - :doc:`Drivers </animation/basics/drivers>`
+   - :doc:`Actions </animation/actions>`
+   - :doc:`Drivers </animation/drivers>`

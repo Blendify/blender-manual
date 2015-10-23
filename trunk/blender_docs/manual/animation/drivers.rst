@@ -320,7 +320,7 @@ The Driver F-Curve is mapped like so
 
 This kind of driver can also be setup with the Variable Type Rotational Difference.
 
-See :doc:`Shape Keys </animation/techs/shape/shape_keys>` for more info.
+See :doc:`Shape Keys </animation/shape_keys>` for more info.
 
 
 Drivers And Multiple Relative Shape Keys
