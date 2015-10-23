@@ -30,13 +30,13 @@ like for example with the :doc:`Copy Location constraint </rigging/constraints/t
 where the owner object will simply copy the location of its target (with an optional constant offset).
 But you can also have very complex behaviors,
 like when using the :doc:`Action constraint </rigging/constraints/relationship/action>`,
-which is a sort of :doc:`Animation Driver </animation/basics/drivers>` for actions!
+which is a sort of :doc:`Animation Driver </animation/drivers>` for actions!
 
 We should also mention the classical :doc:`Child Of constraint </rigging/constraints/relationship/child_of>`,
 which creates parent/child relationship.
 These relationships indeed imply indirect animation (as transforming the parent affects by default all its children).
 But the *Child Of* constraint is also very important, as it allows you to parent your objects to bones,
-and hence use :doc:`Armatures </animation/techs/armatures>` to animate them!
+and hence use :doc:`Armatures </rigging/armatures>` to animate them!
 
 Back to our simple *Copy Location* example,
 you can have two different behaviors of this constraint:
@@ -58,7 +58,7 @@ Let's use the *Copy Location* constraint and its *Offset* button.
 For example, you can make your owner (let's call it ``moon``)
 describe perfect circles centered on the ``(0.0, 0.0, 0.0)`` point
 (using e.g. pydriven *LocX* / *LocY* animation curves,
-see :doc:`this page </animation/basics/drivers>`),
+see :doc:`this page </animation/drivers>`),
 and then make it copy the location of a target (called, I don't know... ``earth``, for example) -
 with the *Offset* button enabled.
 Congratulation, you just modeled a satellite in a (simplified) orbit around its planet...

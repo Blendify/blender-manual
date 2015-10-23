@@ -386,6 +386,6 @@ Blend From Shape, Propagate Shapes
                :menuselection:`Mesh --> Vertices --> Shape Propagate`
 
 
-These are options regarding :doc:`shape keys </animation/techs/shape/shape_keys>`.
+These are options regarding :doc:`shape keys </animation/shape_keys>`.
 
 

@@ -16,7 +16,7 @@ Inherited animation
 In this chapter we will cover the first two,
 but the basics given here are actually vital for understanding the following chapters as well.
 
-Animation is typically achieved with the use of :doc:`/animation/basics/key_frames`.
+Animation is typically achieved with the use of :doc:`/animation/key_frames`.
 
 
 Chapters
@@ -26,9 +26,9 @@ Chapters
 General Principles and Tools
 ----------------------------
 
-- :doc:`Key frames </animation/basics/key_frames>`
+- :doc:`Key frames </animation/key_frames>`
 - :doc:`Using The Timeline </editors/timeline>`
-- :doc:`Markers </animation/basics/markers>`
+- :doc:`Markers </animation/markers>`
 
 
 The Graph Editor
@@ -42,22 +42,22 @@ The Graph Editor
 The Action Editor
 -----------------
 
-- :doc:`Actions </animation/basics/actions>`
+- :doc:`Actions </animation/actions>`
 - :ref:`animation-basics-actions-working_with_actions`
 
 
 Animation Techniques
 --------------------
 
-- :doc:`Constraints </animation/techs/object/constraint>`
-- :doc:`Moving objects on a Path </animation/techs/object/path>`
+- :doc:`Constraints </animation/constraints>`
+- :doc:`Moving objects on a Path </animation/object_path>`
 - :doc:`Game Engine Physics Recording </game_engine/physics/using_ge>`
 
 
 Animating Deformation
 ---------------------
 
-- :doc:`Shape Keys </animation/techs/shape/shape_keys>`
+- :doc:`Shape Keys </animation/shape_keys>`
 - :doc:`Deforming by a Lattice </modifiers/deform/lattice>`
 - :doc:`Deforming with Hooks </modifiers/deform/hooks>`
 
@@ -67,8 +67,8 @@ See also :doc:`Hook Modifier </modifiers/deform/hooks>`
 Drivers
 -------
 
-- :doc:`Drivers </animation/basics/drivers>`
-- :doc:`Driven Shape Keys </animation/techs/shape/shape_keys>`
+- :doc:`Drivers </animation/drivers>`
+- :doc:`Driven Shape Keys </animation/shape_keys>`
 
 The `Introduction to Character Animation tutorial
 <http://wiki.blender.org/index.php/Doc:Tutorials/Animation/BSoD/Character_Animation BSoD>`__
@@ -76,20 +76,20 @@ is a good starting point for learning character animation.
 Even if you never used Blender before.
 
 
-Animation Basics
-----------------
+Animation Fundamentals
+----------------------
 
-:doc:`Actions </animation/basics/actions>`
+:doc:`Actions </animation/actions>`
    Actions are used to record the animation of objects and properties.
-:doc:`Drivers </animation/basics/drivers>`
+:doc:`Drivers </animation/drivers>`
    Drivers are used to control and animate properties.
-:doc:`Keying Sets </animation/basics/keying_sets>`
+:doc:`Keying Sets </animation/keying_sets>`
    Keying Sets are used to record a set of properties at the same time.
-:doc:`Markers </animation/basics/markers>`
+:doc:`Markers </animation/markers>`
    Markers are used to mark key points/events within an animation.
-:doc:`Motion Paths </animation/basics/motion_paths>`
+:doc:`Motion Paths </animation/key_frame_visualization>`
    Motion Paths are used to visualize an animation.
-:doc:`Shape Keys </animation/techs/shape/shape_keys>`
+:doc:`Shape Keys </animation/shape_keys>`
    Shape Keys are used to deform objects into new shapes.
 
 

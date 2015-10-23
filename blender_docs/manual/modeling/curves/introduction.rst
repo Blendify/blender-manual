@@ -32,7 +32,7 @@ vertex-level control is more difficult and if fine control is necessary,
 :doc:`mesh editing </modeling/meshes/editing/introduction>` may be a better modeling option.
 
 Bezier curves are the most commonly used curves for designing letters or logos.
-They are also widely used in animation, both as :doc:`paths </animation/techs/object/path>`
+They are also widely used in animation, both as :doc:`paths </animation/object_path>`
 for objects to move along and as :doc:`F-curves </editors/graph_editor/fcurves>`
 to change the properties of objects as a function of time.
 
@@ -208,7 +208,7 @@ Path/Curve-Deform
 .. seealso::
 
    - :doc:`Basic Curve Editing </modeling/curves/editing/introduction>`
-   - :doc:`Animation Paths </animation/techs/object/path>`
+   - :doc:`Animation Paths </animation/object_path>`
 
 
 Geometry
@@ -301,7 +301,7 @@ Path Animation
 The Path Animation settings can be used to determine how Objects move along a certain path.
 See the link below for further information.
 
-:doc:`Read more about utilizing Curves for paths during animation </animation/techs/object/path>`
+:doc:`Read more about utilizing Curves for paths during animation </animation/object_path>`
 
 
 Active Spline
@@ -415,7 +415,7 @@ Path
 ====
 
 
-As mentioned above, Curves are often used as :doc:`paths </animation/techs/object/path>`.
+As mentioned above, Curves are often used as :doc:`paths </animation/object_path>`.
 Any curve can be used as a Path if the *Path Animation* option is selected.
 
 The Path option available from the *Add Curve* menu is identical to a 3D NURBS

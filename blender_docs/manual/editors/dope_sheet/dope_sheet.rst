@@ -142,4 +142,4 @@ Auto-Set Preview Range
 Marker Menu
 -----------
 
-See the :doc:`Markers page </animation/basics/markers>`.
+See the :doc:`Markers page </animation/markers>`.
