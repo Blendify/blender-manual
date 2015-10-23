@@ -28,4 +28,5 @@ Animation techniques.
 .. toctree::
    :maxdepth: 2
 
+   camera.rst
    object_path.rst

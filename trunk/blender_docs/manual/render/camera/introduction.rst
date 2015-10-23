@@ -204,80 +204,42 @@ Safe Areas
 ^^^^^^^^^^
 
 When this is enabled, extra dotted frames are drawn when in camera view, delimiting the area considered as
-"safe" for important elements. :doc:`More information about them in the safe areas section
-</render/camera/safe_areas>`.
-
-Camera Navigation
-=================
-
-There are several different ways to navigate and position the camera in your scene, some of them are explained below.
+"safe" for important elements.
+:doc:`More information about them in the safe areas section </render/camera/safe_areas>`.
 
 
-.. note::
-
-   Remember that the active "camera" might be any kind of object.
-   So these actions can be used, for example, to position and aim a lamp.
-
-
-Move active camera to view
---------------------------
+Render Border
+=============
 
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object* mode
-   | Hotkey:   :kbd:`Ctrl-Alt-Numpad0`
+   | Mode:     All modes
+   | Menu:     :menuselection:`View --> Render Border`
+   | Hotkey:   :kbd:`Ctrl-B`
+
+.. figure:: /images/3D-interaction_Navigating_Camera-View-render-border-toggle.jpg
+
+   Render Border toggle
 
 
-This feature allows you to position and orient the active camera to match your current
-viewport.
+While in camera view, you can define a subregion to render by drawing out a rectangle within the cameras frame.
+Your renders will now be limited to the part of scene visible within the render border.
+This can be very useful for reducing render times for quick previews on an area of interest.
 
-Select a camera and then move around in the 3D view to a desired position and direction for
-your camera (so that you're seeing what you want the camera to see). Now press
-:kbd:`Ctrl-Alt-Numpad0` and your selected camera positions itself to match the view,
-and switches to camera view.
+The border can be disabled by disabling the *Border* option in the *Dimensions* panel of the *Render*
+context or by activating the option again and selecting *Render Border* larger than the camera view.
 
+.. note:: Anti-Aliasing and blur options with borders
 
-Camera View Positioning
------------------------
+   Note that when Render Borders are activated,
+   Full Sampling Anti-Aliasing will be disabled while Sampled Motion Blur will become available.
 
-By enabling *Lock Camera to View* in the View menu of the View Properties panel,
-while in camera view, you can navigate the 3d viewport as usual,
-while remaining in camera view. Controls are exactly the same as when normally moving in 3d.
-
-
-Roll, Pan, Dolly, and Track
----------------------------
-
-To perform these camera moves, the camera must first be *selected*,
-so that it becomes the active object (while viewing through it,
-you can :kbd:`RMB` -click on the solid rectangular edges to select it).
-The following actions also assume that you are in camera view
-(:kbd:`Numpad0`)! Having done so, you can now manipulate the camera using the same commands
-that are used to manipulate any object:
-
-Roll
-   Press :kbd:`R` to enter object rotation mode. The default will be to rotate the camera in its local Z-axis
-   (the axis orthogonal to the camera view), which is the definition of a camera "roll".
-Vertical Pan or Pitch
-   This is just a rotation along the local X-axis. Press :kbd:`R` to enter object rotation mode, then :kbd:`X` twice
-   (the first press selects the *global* axis - pressing the same letter a second time selects the *local* axis -
-   this works with any axis;
-   see the :doc:`axis locking page </editors/3dview/transform/transform_control/axis_locking>`).
-Horizontal Pan or Yaw
-   This corresponds to a rotation around the camera's local Y axis... Yes, that's it, press :kbd:`R`,
-   and then :kbd:`Y` twice!
-Dolly
-   To dolly the camera, press :kbd:`G` then :kbd:`MMB` (or :kbd:`Z` twice).
-Sideways Tracking
-   Press :kbd:`G` and move the mouse
-   (you can use :kbd:`X` twice or :kbd:`Y` to get pure-horizontal or pure-vertical sideways tracking).
+   :doc:`Read more about Anti-Aliasing </render/blender_render/antialiasing>`
+   :doc:`Read more about Motion Blur </render/blender_render/motion_blur>`
 
 
-.. seealso::
+.. figure:: /images/3D-interaction_Navigating_Camera-View-render-border.jpg
+   :width: 640px
 
-   :ref:`Fly/Walk Mode <3dview-walk_fly>`
-      When you are in walk/fly mode, navigation actually moves your camera:
-   :ref:`Lock Camera to View <3dview-lock_camera_to_view>`
-      When enabled,
-      performing typical view manipulation operations will move the camera object.
+   Render border and associated render.
