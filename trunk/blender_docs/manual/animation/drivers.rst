@@ -3,9 +3,6 @@
 Drivers
 *******
 
-Drivers
-=======
-
 .. figure:: /images/Animation_Driver_FCurve.jpg
 
    Graph Editor: Driver example.
