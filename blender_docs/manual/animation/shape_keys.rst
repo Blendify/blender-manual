@@ -3,9 +3,6 @@
 Shape Keys
 **********
 
-Introduction
-============
-
 *Shape Keys* are used on Objects like *Mesh*, *Curve*, *Surface*, *Lattice*.
 They are used to deform the object vertices into a new shape.
 

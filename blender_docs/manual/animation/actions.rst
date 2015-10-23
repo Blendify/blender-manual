@@ -3,9 +3,6 @@
 Actions
 *******
 
-Actions
-=======
-
 When animating objects and properties in blender, Actions record and contain the data.
 
 
