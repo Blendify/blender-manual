@@ -8,10 +8,6 @@ Keyframe Visualization
 
 There are some important visualization features in the 3D views that can help animation.
 
-
-Keyframe Visualization
-======================
-
 When the current frame is a keyframe for the current active object, the name of this object
 (shown in the bottom left corner of the 3D views) turns yellow.
 
