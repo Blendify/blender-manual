@@ -22,6 +22,8 @@ Zoom (:kbd:`Ctrl-MMB`/:kbd:`Wheel`)
 Node Tree Types
 ===============
 
+.. _node-tree-types:
+
 Blender has a number of different node tree types:
 
 - :doc:`Compositing Nodes </composite_nodes/index>`
