@@ -9,6 +9,6 @@
 
    introduction.rst
    editor.rst
-   node_controls.rst
+   node_parts.rst
    usage.rst
    node_groups.rst
