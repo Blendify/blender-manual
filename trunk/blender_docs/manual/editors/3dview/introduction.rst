@@ -55,7 +55,7 @@ For more information on specific tools available, see:
 - :doc:`Transformations </editors/3dview/transform/index>`
 - :doc:`History </interface/undo_and_redo>`
 - :doc:`Creating Objects </modeling/meshes/editing/basics/adding>`
-- :doc:`Groups and Parenting </modeling/objects/groups_and_parenting>`
+- :doc:`Groups and Parenting </modeling/objects/parents>`
 - :ref:`animation-index`
 - :ref:`rigid_body-index`
 - :ref:`grease_pencil-index`

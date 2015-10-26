@@ -51,7 +51,7 @@ When rendering, Blender only renders the selected layers.
 If all your lights are on a layer that is *not selected*,
 you won't see anything in your render except for objects lit by ambient lighting.
 
-:doc:`Groups and Parenting </modeling/objects/groups_and_parenting>`
+:doc:`Groups and Parenting </modeling/objects/parents>`
 are other ways to logically group related sets of objects.
 Please refer to the relevant sections for more information.
 
