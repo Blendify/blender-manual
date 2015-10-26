@@ -69,7 +69,7 @@ Modeling a low-poly using Blender's Mesh editing tools. In general,
 the same or similar faces should exist that reflect the model. For example,
 a highly detailed ear may have 1000 faces in the high-poly model. In the low-poly model,
 this may be replaced with a single plane, oriented in the same direction as the detailed ear mesh. *(Tip:* Blender's
-:doc:`multi-resolution mesh </modifiers/generate/multiresolution>` modeling feature can be used to good effect here.)
+:doc:`multi-resolution mesh </modeling/modifiers/generate/multiresolution>` modeling feature can be used to good effect here.)
 
 
 Mapping is the process of applying a texture to the low-poly mesh.

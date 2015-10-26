@@ -439,6 +439,6 @@ Examples
 See Also
 ========
 
-- :doc:`Smooth Modifier </modifiers/deform/smooth>`
+- :doc:`Smooth Modifier </modeling/modifiers/deform/smooth>`
 
 

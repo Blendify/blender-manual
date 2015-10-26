@@ -5,7 +5,7 @@
 ###########
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    introduction.rst
    objects/index.rst
@@ -15,4 +15,5 @@
    texts/index.rst
    metas/index.rst
    empties.rst
+   modifiers/index.rst
    groups.rst

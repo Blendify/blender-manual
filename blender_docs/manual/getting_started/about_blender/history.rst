@@ -205,8 +205,8 @@ Blender 2.6x to 2.7x - Improvements & Stabalizing
 - `2.66 <http://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.66>`__ - February 2013:
   Dynamic topology, rigid body simulation, improvements in UI and usability (including retina display
   support), Cycles now supports hair, the bevel tool now supports individual vertex bevelling,
-  new :doc:`Mesh Cache </modifiers/modify/mesh_cache>` modifier and the
-  new :doc:`UV Warp </modifiers/modify/uv_warp>` modifier,
+  new :doc:`Mesh Cache </modeling/modifiers/modify/mesh_cache>` modifier and the
+  new :doc:`UV Warp </modeling/modifiers/modify/uv_warp>` modifier,
   new SPH particle fluid solver. More than 250 bug fixes.
 - `2.67 <http://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.67>`__ - May 2013:
   Freestyle was added, paint system improvements, subsurface scattering for Cycles, Ceres library in the

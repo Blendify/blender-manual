@@ -35,7 +35,7 @@ as opposed to un-beveled objects which can look too perfect.
 Bevel Modifier
 ==============
 
-The :doc:`Bevel Modifier </modifiers/generate/bevel>` is a non destructive alternative to the bevel tool.
+The :doc:`Bevel Modifier </modeling/modifiers/generate/bevel>` is a non destructive alternative to the bevel tool.
 It gives you the same options, with additional goodies, like the bevel width controlled by the vertices weight,
 and all the modifiers general enhancements (non-destructive operations, ...).
 

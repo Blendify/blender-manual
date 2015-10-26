@@ -77,7 +77,7 @@ Usage
 
 In the modifier panel, add a Remesh modifier.
 The input mesh should have some thickness to it; if the input is completely flat,
-add a :doc:`solidify </modifiers/generate/solidify>` modifier above the remesh modifier.
+add a :doc:`solidify </modeling/modifiers/generate/solidify>` modifier above the remesh modifier.
 
 
 Examples

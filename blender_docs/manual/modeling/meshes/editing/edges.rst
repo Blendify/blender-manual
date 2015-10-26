@@ -55,7 +55,7 @@ Mark Sharp and Clear Sharp
    | Hotkey:   :kbd:`Ctrl-E-Numpad1` and :kbd:`Ctrl-E-Numpad2`
 
 
-The *Sharp* flag is used by the :doc:`EdgeSplit modifier </modifiers/generate/edge_split>`,
+The *Sharp* flag is used by the :doc:`EdgeSplit modifier </modeling/modifiers/generate/edge_split>`,
 which is part of the smoothing technics.
 As seams, it is a property of edges, and these commands set or unset it for selected ones.
 
@@ -72,7 +72,7 @@ Adjust Bevel Weight
 
 
 This edge property (a value between **0.0** and **1.0**)
-is used by the :doc:`Bevel modifier </modifiers/generate/bevel>` to control the bevel intensity of the edges.
+is used by the :doc:`Bevel modifier </modeling/modifiers/generate/bevel>` to control the bevel intensity of the edges.
 This command enters an interactive mode (a bit like transform tools),
 where by moving the mouse (or typing a value with the keyboard)
 you can set the (average) bevel weight of selected edges.
@@ -90,7 +90,7 @@ Crease SubSurf
 
 
 This edge property (a value between **0.0** and **1.0**) is used by the
-:doc:`Subsurf modifier </modifiers/generate/subsurf>` to control the sharpness of the edges in the subdivided mesh.
+:doc:`Subsurf modifier </modeling/modifiers/generate/subsurf>` to control the sharpness of the edges in the subdivided mesh.
 This command enters an interactive mode (a bit like transform tools),
 where by moving the mouse (or typing a value with the keyboard) you can set the (average)
 crease value of selected edges.

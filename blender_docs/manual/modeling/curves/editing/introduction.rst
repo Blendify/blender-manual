@@ -452,7 +452,7 @@ Hooks
    | Hotkey:   :kbd:`Ctrl-H`
 
 
-:doc:`Hooks </modifiers/deform/hooks>` can be added to control one or more points with other objects.
+:doc:`Hooks </modeling/modifiers/deform/hooks>` can be added to control one or more points with other objects.
 
 
 Set Goal Weight

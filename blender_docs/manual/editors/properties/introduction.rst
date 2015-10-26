@@ -99,7 +99,7 @@ The Object features are usually documented in the 'Objects' part of the Modeling
 The other features each have their own section in the manual.
 
 - :doc:`Constraints </rigging/constraints/introduction>`
-- :doc:`Modifiers </modifiers/introduction>`
+- :doc:`Modifiers </modeling/modifiers/introduction>`
 - :doc:`Particles </physics/particles/introduction>`
 - :doc:`Physics </physics/introduction>`
 

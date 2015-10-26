@@ -47,8 +47,8 @@ However, Blender's :doc:`Softbody system </physics/soft_body/index>` provides be
 Cloth is a specialized simulation of fabrics.
 
 Once the object is designated as Cloth,
-a Cloth :doc:`modifier </modifiers/index>` will be added to the object's modifier stack automatically.
-As a :doc:`modifier </modifiers/index>` then, it can interact with other modifiers,
+a Cloth :doc:`modifier </modeling/modifiers/index>` will be added to the object's modifier stack automatically.
+As a :doc:`modifier </modeling/modifiers/index>` then, it can interact with other modifiers,
 such as *Armature* and *Smooth*. In these cases,
 the ultimate shape of the mesh is computed in accordance with the order of the modifier stack. For example,
 you should smooth the cloth *after* the modifier computes the shape of the cloth.

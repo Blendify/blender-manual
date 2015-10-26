@@ -5,7 +5,7 @@ Array Modifier
 
 The Array modifier creates an array of copies of the base object, with each copy being offset from the previous
 one in any of a number of possible ways. Vertices in adjacent copies can be merged if they are nearby,
-allowing smooth :doc:`subsurf </modifiers/generate/subsurf>` frameworks to be generated.
+allowing smooth :doc:`subsurf </modeling/modifiers/generate/subsurf>` frameworks to be generated.
 
 This modifier can be useful when combined with tileable meshes for quickly developing large
 scenes. It is also useful for creating complex repetitive shapes.

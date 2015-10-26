@@ -58,10 +58,10 @@ Animating Deformation
 ---------------------
 
 - :doc:`Shape Keys </animation/shape_keys>`
-- :doc:`Deforming by a Lattice </modifiers/deform/lattice>`
-- :doc:`Deforming with Hooks </modifiers/deform/hooks>`
+- :doc:`Deforming by a Lattice </modeling/modifiers/deform/lattice>`
+- :doc:`Deforming with Hooks </modeling/modifiers/deform/hooks>`
 
-See also :doc:`Hook Modifier </modifiers/deform/hooks>`
+See also :doc:`Hook Modifier </modeling/modifiers/deform/hooks>`
 
 
 Drivers
@@ -110,7 +110,7 @@ Animation Editors
 Categories
 ----------
 
-:doc:`Modifiers </modifiers/introduction>`
+:doc:`Modifiers </modeling/modifiers/introduction>`
    Modifiers are automatic operations that affect an object in a non-destructive way.
    With modifiers, you can perform many effects automatically that would otherwise be tedious to do manually.
 :doc:`Rigging </rigging/introduction>`

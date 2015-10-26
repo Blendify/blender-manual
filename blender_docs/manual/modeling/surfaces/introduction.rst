@@ -110,7 +110,7 @@ The key point is that *all rows of a given type (U or V) have the same number of
 Each control point belongs to exactly one U-row and one V-row.
 
 All this forms a "grid", or "cage", the shape of which controls the shape of the NURBS surface.
-A bit like a :doc:`lattice </modifiers/deform/lattice>` ...
+A bit like a :doc:`lattice </modeling/modifiers/deform/lattice>` ...
 
 This is very important to grasp: you cannot add a single control point to a NURBS surface;
 you have to add a whole U- or V-row at once (in practice,

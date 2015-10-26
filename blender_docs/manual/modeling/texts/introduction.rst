@@ -187,7 +187,7 @@ To do this, go to *Object Mode* and select your Text Object.
 Press :kbd:`Alt-C` and select *Mesh From Curve/Meta/Surf/Text*.
 Now you can return to *Edit Mode* and manually edit the vertices.
 They are usually a bit messy, so it may be useful to use a *Limited Dissolve* deletion or *Remesh* Object
-:doc:`Modifier </modifiers/index>` at a low threshold to clean up your mesh.
+:doc:`Modifier </modeling/modifiers/index>` at a low threshold to clean up your mesh.
 
 
 .. figure:: /images/TextObjectFromText.jpg
@@ -318,7 +318,7 @@ corresponding chars.
 Text on Curve
 ^^^^^^^^^^^^^
 
-With the :doc:`curve modifier </modifiers/deform/curve>` you can let text follow a curve.
+With the :doc:`curve modifier </modeling/modifiers/deform/curve>` you can let text follow a curve.
 
 
 .. figure:: /images/text-curved-lowres-ex.jpg

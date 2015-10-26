@@ -49,7 +49,7 @@ Laplacian Smooth
    | Hotkey:   :menuselection:`[W] --> Laplacian Smooth`
 
 
-See the :doc:`Laplacian Smooth Modifier </modifiers/deform/laplacian_smooth>` for details.
+See the :doc:`Laplacian Smooth Modifier </modeling/modifiers/deform/laplacian_smooth>` for details.
 
 Laplacian smooth is uses an alternative smoothing algorithm that better preserves the overall
 mesh shape. Laplacian smooth exists as a mesh operation and as a non-destructive modifier.
@@ -57,7 +57,7 @@ mesh shape. Laplacian smooth exists as a mesh operation and as a non-destructive
 
 .. note::
 
-   The :doc:`Smooth modifier </modifiers/deform/smooth>`, which can be limited to a *Vertex Group*,
+   The :doc:`Smooth modifier </modeling/modifiers/deform/smooth>`, which can be limited to a *Vertex Group*,
    is a non-destructive alternative to the smooth tool.
 
 

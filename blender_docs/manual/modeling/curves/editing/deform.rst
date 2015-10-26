@@ -32,7 +32,7 @@ to make it control the size of the "curved" object...).
 
 .. note:: Use modifiers!
 
-   The *Curve Deform* relationship is now also a modifier, called :doc:`Curve </modifiers/deform/curve>`.
+   The *Curve Deform* relationship is now also a modifier, called :doc:`Curve </modeling/modifiers/deform/curve>`.
    The *Curve* modifier function acts the same as its counterpart,
    except that when the modifier is used, the "dominant axis" is set inside its properties -
    and the *Track X* / *Y* / *Z* buttons no longer have an effect on it.

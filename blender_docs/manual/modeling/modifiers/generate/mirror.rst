@@ -94,7 +94,7 @@ click *Apply* to make a real version of your mesh or leave it as is for future e
 Using the Mirror Modifier with a Subdivision Surface Modifier
 -------------------------------------------------------------
 
-When using the Mirror modifier along with a :doc:`subsurf </modifiers/generate/subsurf>` modifier,
+When using the Mirror modifier along with a :doc:`subsurf </modeling/modifiers/generate/subsurf>` modifier,
 the order in which the modifiers are placed is important.
 
 

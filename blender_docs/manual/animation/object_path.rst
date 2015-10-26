@@ -37,7 +37,7 @@ For more on editing path/curves, see the :doc:`modeling chapter </modeling/curve
 
    If you would rather like to have your object's *shape* follow a path (like e.g.
    a sheet of paper inside a printer),
-   you should use the :doc:`Curve Modifier </modifiers/deform/curve>`
+   you should use the :doc:`Curve Modifier </modeling/modifiers/deform/curve>`
 
 
 Parenting Method

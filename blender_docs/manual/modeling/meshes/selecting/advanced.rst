@@ -117,7 +117,7 @@ Edge Selection Mode:
       Selects all edges that are between two faces forming a similar angle, as with those already selected.
    Crease
       Selects all edges that have a similar *Crease* value as those already selected.
-      The *Crease* value is a setting used by the :doc:`Subsurf Modifier </modifiers/generate/subsurf>`.
+      The *Crease* value is a setting used by the :doc:`Subsurf Modifier </modeling/modifiers/generate/subsurf>`.
    Bevel
       Selects all edges that have the same *Bevel Weight* as those already selected.
    Seam
@@ -126,7 +126,7 @@ Edge Selection Mode:
    Sharpness
       Selects all edges that have the same *Sharp* state as those already selected.
       *Sharp* is a true/false setting (a flag) used by the
-      :doc:`EdgeSplit Modifier </modifiers/generate/edge_split>`.
+      :doc:`EdgeSplit Modifier </modeling/modifiers/generate/edge_split>`.
 
 
 Face Selection Mode:
