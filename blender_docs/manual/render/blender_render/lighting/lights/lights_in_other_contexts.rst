@@ -23,7 +23,7 @@ By default, materials are lit by all lamps in all visible layers, but a material
 This sort of control can be incredibly useful, especially in scenes with complex lighting setups.
 To enable this, navigate to the *Material* menu's *Options*
 panel and select a group of lamps in the *Light Group* field.
-Note that a :doc:`light group </modeling/objects/parents>` must be created first.
+Note that a :doc:`light group </modeling/objects/groups>` must be created first.
 
 If the *Exclusive* button is enabled,
 lights in the specified group will *only* affect objects with this material.

@@ -10,6 +10,7 @@
    introduction.rst
    selecting.rst
    editing.rst
-   groups_and_parenting.rst
+   parents.rst
+   groups.rst
    randomize_transform.rst
    duplication/index.rst
