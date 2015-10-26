@@ -16,4 +16,3 @@
    metas/index.rst
    empties.rst
    modifiers/index.rst
-   groups.rst
