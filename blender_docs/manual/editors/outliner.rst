@@ -172,7 +172,7 @@ Active
 Same Types
    Lists only those objects in the current scene that are of the same types as those selected in the 3d window.
 Groups
-   Lists only :doc:`Groups </modeling/objects/groups_and_parenting>` and their members.
+   Lists only :doc:`Groups </modeling/objects/parents>` and their members.
 Libraries
    TODO
 Sequence
