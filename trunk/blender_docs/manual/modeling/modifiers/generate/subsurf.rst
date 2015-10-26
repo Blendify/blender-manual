@@ -221,42 +221,6 @@ Note that we had to add some extra edge loops near the Creased edges -- this was
 the effects of Smooth Shading, which bleeds over onto the adjacent flat faces.
 
 
-Limitations & Workarounds
-=========================
-
-Blender's subdivision system produces nice smooth subsurfed meshes, but any subsurfed face
-(that is, any small face created by the algorithm from a single face of the original mesh),
-shares the overall normal orientation of that original face.
-
-
-.. figure:: /images/SubSurf05b.jpg
-   :width: 300px
-
-   Fig. 1: Solid view of subsurfed meshes with inconsistent normals (top) and consistent normals (bottom).
-   Note the ugly dark areas that appear.
-
-
-.. figure:: /images/SubSurf05a.jpg
-   :width: 300px
-
-   Fig. 2: Side view of the above meshes' normals, with random normals (top) and with coherent normals (bottom).
-
-
-Abrupt normal changes can produce ugly black gouges (See:
-*Fig. 1*), even though these flipped normals are not an issue for the shape itself (See:
-*Fig. 2*).
-
-
-A quick way to fix this (one which works 90% of the time)
-is to use Blender's "Recalculate Normals" operation: In Edit Mode,
-select all with :kbd:`A`,
-then press :kbd:`Ctrl-N` to recalculate the normals to point outside.
-If you still have some ugly black gougesyou will have to manually flip some normals.
-To do this (still in Edit Mode),
-use the :menuselection:`Specials --> Flip Normals` functionality (shortcut: :kbd:`W`,
-:kbd:`N`) to fix them. Smoothing out normals is good for the mesh, and it's good for the soul.
-
-
 .. _subsurf_performance:
 
 Performance Considerations
@@ -414,3 +378,41 @@ subdivisions. The *Render Subdivisions* will always be on ``2`` when added like 
 
 If an object already has a subsurf modifier, doing this will simply change its subdivision level instead of adding
 another modifier.
+
+
+Known Limitations
+=================
+
+Blender's subdivision system produces nice smooth subsurfed meshes, but any subsurfed face
+(that is, any small face created by the algorithm from a single face of the original mesh),
+shares the overall normal orientation of that original face.
+
+
+.. figure:: /images/SubSurf05b.jpg
+   :width: 300px
+
+   Fig. 1: Solid view of subsurfed meshes with inconsistent normals (top) and consistent normals (bottom).
+   Note the ugly dark areas that appear.
+
+
+.. figure:: /images/SubSurf05a.jpg
+   :width: 300px
+
+   Fig. 2: Side view of the above meshes' normals, with random normals (top) and with coherent normals (bottom).
+
+
+Abrupt normal changes can produce ugly black gouges (See:
+*Fig. 1*), even though these flipped normals are not an issue for the shape itself (See:
+*Fig. 2*).
+
+
+A quick way to fix this (one which works 90% of the time)
+is to use Blender's "Recalculate Normals" operation: In Edit Mode,
+select all with :kbd:`A`,
+then press :kbd:`Ctrl-N` to recalculate the normals to point outside.
+If you still have some ugly black gougesyou will have to manually flip some normals.
+To do this (still in Edit Mode),
+use the :menuselection:`Specials --> Flip Normals` functionality (shortcut: :kbd:`W`,
+:kbd:`N`) to fix them. Smoothing out normals is good for the mesh, and it's good for the soul.
+
+
