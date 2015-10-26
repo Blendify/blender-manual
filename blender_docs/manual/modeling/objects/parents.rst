@@ -442,10 +442,11 @@ Once done press :kbd:`Ctrl-P` and select Bone from the Set Parent To pop-up dial
 Now transforming that bone in Pose Mode will result in the Child Objects also transforming.
 
 
-Bone Relative Parenting
-=======================
+Relative Parenting
+------------------
 
-Bone Relative parenting works in the same way as Bone parenting with one difference.
+Bone Relative parenting is an option you can toggle for each bone.
+This works in the same way as Bone parenting with one difference.
 
 With Bone parenting if you have parented a bone to some Child Objects and
 you select that bone and switch it into Edit Mode and then translate that bone;
