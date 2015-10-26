@@ -102,10 +102,13 @@ Material Index Offset
 Known Limitations
 =================
 
-Even Thickness
-   Solidify thickness is an approximation.
-   While "Even Thickness" and "High Quality Normals" should yield good results,
-   the final wall thickness isn't guaranteed and may vary depending on the mesh topology.
 
-   In order to maintain precise wall thickness in every case, we would need to add/remove faces on the offset shell -
-   something this modifier doesn't do since this would add a lot of complexity and slow down the modifier.
+Even Thickness
+--------------
+
+Solidify thickness is an approximation.
+While "Even Thickness" and "High Quality Normals" should yield good results,
+the final wall thickness isn't guaranteed and may vary depending on the mesh topology.
+
+In order to maintain precise wall thickness in every case, we would need to add/remove faces on the offset shell -
+something this modifier doesn't do since this would add a lot of complexity and slow down the modifier.
