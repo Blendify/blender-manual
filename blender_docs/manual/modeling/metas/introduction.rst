@@ -1,6 +1,6 @@
 
 ************
-Meta Objects
+Introduction
 ************
 
 .. admonition:: Reference

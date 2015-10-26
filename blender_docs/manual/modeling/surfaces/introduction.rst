@@ -7,10 +7,9 @@
    : Surface Weight 5.
    }} .
 
-
-********
-Surfaces
-********
+************
+Introduction
+************
 
 .. figure:: /images/NurbsSurface.jpg
 

@@ -1,7 +1,7 @@
 
-******
-Curves
-******
+************
+Introduction
+************
 
 .. figure:: /images/LogoFinal.jpg
 
