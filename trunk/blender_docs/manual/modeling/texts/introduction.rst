@@ -1,6 +1,6 @@
 
 ************
-Text Objects
+Introduction
 ************
 
 .. admonition:: Reference
