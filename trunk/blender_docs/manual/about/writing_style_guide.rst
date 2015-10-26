@@ -64,15 +64,17 @@ To be avoided:
 
   Issues which are known to the developers and aren't going to be resolved before the next release
   can be documented as **Known Limitations**,
-  in some cases it may be best to include them the in the **Troubleshooting** section.
+  in some cases it may be best to include them the in the :doc:`troubleshooting </troubleshooting/index>` section.
 - Avoid *Product Placement* - unnecessarily promoting software or hardware brands.
   Keep content vendor-neutral where possible.
 - Avoid technical explanations about the mathematical/algorithmic implementation of a feature
-  if there is a simpler way to explain it (e.g. explaining how mesh smoothing algorithms work is unnecessary,
+  if there is a simpler way to explain it
+
+  (e.g. explaining how mesh smoothing algorithms work is unnecessary,
   but the blending types of a mix node do need a mathematical explanation).
 - Avoid repetition of large portions of text - simply explain it once, and from then on refer to that explanation.
 
-  In some cases you might also consider defining a ``:term:`` in the **glossary**.
+  For general terminology, consider defining a ``:term:`` in the :doc:`glossary </glossary/index>`.
 - Avoid enumerating similar options, such as listing every preset or every frame-rate in a drop-down.
 
   Their contents may be summarized or simply omitted.
