@@ -7,7 +7,7 @@ Themes
 The *Themes* tab allows you to customize interface appearance and colors.
 
 
-.. figure:: ../images/User-preferences-themes.png
+.. figure:: /images/User-preferences-themes.png
    :width: 650px
 
 
