@@ -104,7 +104,7 @@ For other common conventions used throughout the manual.
    Boolean
       A type of logic dealing with binary true/false states.
 
-      See also :doc:`boolean modifier </modifiers/generate/booleans>`
+      See also :doc:`boolean modifier </modeling/modifiers/generate/booleans>`
 
    Bounce
       Refers to the reflection or transmission of a light ray upon interaction with a material.
@@ -296,7 +296,7 @@ For other common conventions used throughout the manual.
    Lattice
       A type of object consisting of a non-renderable three-dimensional grid of vertices.
 
-      See also :doc:`/modifiers/deform/lattice`.
+      See also :doc:`/modeling/modifiers/deform/lattice`.
 
    Layer
       A device for organizing objects.

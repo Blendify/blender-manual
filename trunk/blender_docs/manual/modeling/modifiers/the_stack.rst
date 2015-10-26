@@ -11,8 +11,8 @@ and is also found in several other 3D applications.
 
 In a modifier stack the order in which modifiers are applied has an effect on the result.
 Fortunately modifiers can be rearranged easily by clicking the convenient up and down arrow icons.
-For example, the image below shows :doc:`SubSurf </modifiers/generate/subsurf>` and
-:doc:`Mirror </modifiers/generate/mirror>` modifiers that have switched places.
+For example, the image below shows :doc:`SubSurf </modeling/modifiers/generate/subsurf>` and
+:doc:`Mirror </modeling/modifiers/generate/mirror>` modifiers that have switched places.
 
 
 .. list-table::

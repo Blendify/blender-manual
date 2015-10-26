@@ -64,5 +64,5 @@ The only mandatory prerequisite to use it is to enable *Auto Smooth* option in M
 
 .. tip::
    More complex normal manipulations can be achieved by copying normals from one mesh to another,
-   see the :doc:`Data Transfer modifier </modifiers/modify/data_transfer>`.
+   see the :doc:`Data Transfer modifier </modeling/modifiers/modify/data_transfer>`.
 

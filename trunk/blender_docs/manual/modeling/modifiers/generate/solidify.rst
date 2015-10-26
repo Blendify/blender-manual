@@ -43,7 +43,7 @@ Vertex Group
 
 
 Crease
-   These options are intended for usage with the :doc:`Subdivision Surface </modifiers/generate/subsurf>` modifier.
+   These options are intended for usage with the :doc:`Subdivision Surface </modeling/modifiers/generate/subsurf>` modifier.
 
 
    .. figure:: /images/Modifiers-Solidify-Rims.jpg

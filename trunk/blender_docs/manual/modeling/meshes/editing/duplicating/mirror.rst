@@ -27,7 +27,7 @@ Note that mirrored duplicates can also be created with a *Mirror modifier.*
 
 :doc:`Read more about the Pivot Point </editors/3dview/transform/transform_control/pivot_point/index>`
 
-:doc:`Read more about the Mirror Modifier </modifiers/generate/mirror>`
+:doc:`Read more about the Mirror Modifier </modeling/modifiers/generate/mirror>`
 
 
 Usage

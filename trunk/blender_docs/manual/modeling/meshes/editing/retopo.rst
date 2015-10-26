@@ -29,7 +29,7 @@ See :doc:`Snapping </editors/3dview/transform/transform_control/snap>`
 Shrinkwrap Modifier
 ===================
 
-The :doc:`Shrinkwrap Modifier </modifiers/deform/shrinkwrap>` is useful in conjunction with face snapping.
+The :doc:`Shrinkwrap Modifier </modeling/modifiers/deform/shrinkwrap>` is useful in conjunction with face snapping.
 If edits to the new mesh have been made with snapping disabled,
 the shrinkwrap modifier will allow you to stick the new mesh to the old mesh, as if you were shrinkwrapping it.
 

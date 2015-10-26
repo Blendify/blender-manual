@@ -14,7 +14,7 @@ it is not limited to casting to a sphere.
 
 .. tip::
 
-   The :doc:`Smooth modifier </modifiers/deform/smooth>` is a good companion to *Cast*,
+   The :doc:`Smooth modifier </modeling/modifiers/deform/smooth>` is a good companion to *Cast*,
    since the cast shape sometimes needs smoothing to look nicer or even to fix shading artifacts.
 
 

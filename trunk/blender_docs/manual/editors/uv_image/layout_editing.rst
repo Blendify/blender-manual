@@ -237,7 +237,7 @@ You can *Unpin a UV* with the shorctut :kbd:`Alt-P`
 
 Pinning is most effective when using the Unwrap method of UV mapping, for organic objects.
 An example is when you are modeling a symmetrical object using the
-:doc:`Mirror Modifier </modifiers/generate/mirror>`.
+:doc:`Mirror Modifier </modeling/modifiers/generate/mirror>`.
 Some of the UVs on the mirror axis may be shared across the mirrored counterparts.
 You could pin the UVs that correspond to the midline, then align them on the X axis,
 and they will stay in that location.

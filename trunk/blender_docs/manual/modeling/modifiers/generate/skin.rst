@@ -104,7 +104,7 @@ Examples
 - Try to sketch results similar to *Fig. 1*, through extruding the vertices of the object.
 - Use :kbd:`Ctrl-A` to change the size of the different regions within the creature.
 - Use *Mark Loose* at regions like the neck, to merge these faces more together.
-- To get smoother results, activate *Smooth Shading* and add a :doc:`subsurf </modifiers/generate/subsurf>`
+- To get smoother results, activate *Smooth Shading* and add a :doc:`subsurf </modeling/modifiers/generate/subsurf>`
   (Shortcut: :kbd:`Ctrl-3`) to the object.
 
 

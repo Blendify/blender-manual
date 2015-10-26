@@ -535,7 +535,7 @@ and avoid the tedious effort of establishing each parent-child vertex relationsh
 
 .. note::
 
-   It is in fact a sort of "reversed" :doc:`hook </modifiers/deform/hooks>`
+   It is in fact a sort of "reversed" :doc:`hook </modeling/modifiers/deform/hooks>`
 
 
 Options

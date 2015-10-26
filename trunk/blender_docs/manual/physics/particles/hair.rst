@@ -46,7 +46,7 @@ Blender can render hairs in several different ways. Materials have a Strand sect
 covered in the materials section in the :doc:`Strands Page </render/blender_render/materials/properties/strands>`.
 
 Hair can also be used as a basis for the :doc:`Particle Instance modifier
-</modifiers/simulate/particle_instance>`,
+</modeling/modifiers/simulate/particle_instance>`,
 which allows you to have a mesh be deformed along the curves,
 which is useful for thicker strands, or things like grass, or feathers, which may have a more specific look.
 

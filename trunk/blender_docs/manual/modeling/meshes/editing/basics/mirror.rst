@@ -67,7 +67,7 @@ Mirror Modifier
 
 The conditions for X-mirror to work are quite strict, which can make it difficult to use.
 To have an exact mirrored version of a (half) mesh,
-its easier and simpler to use the :doc:`Mirror modifier </modifiers/generate/mirror>`
+its easier and simpler to use the :doc:`Mirror modifier </modeling/modifiers/generate/mirror>`
 
 
 Snap to Symmetry

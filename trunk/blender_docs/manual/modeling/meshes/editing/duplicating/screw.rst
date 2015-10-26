@@ -39,7 +39,7 @@ The *Screw* tool combines a repetitive *Spin* with a translation,
 to generate a screw-like, or spiral-shaped, object. Use this tool to create screws, springs,
 or shell-shaped structures (Sea shells, Wood Screw Tips, Special profiles, etc).
 
-The main difference between the Screw Tool and the :doc:`Screw Modifier </modifiers/generate/screw>` is that the
+The main difference between the Screw Tool and the :doc:`Screw Modifier </modeling/modifiers/generate/screw>` is that the
 Screw Tool can calculate the angular progressions using the basic profile angle automatically or adjusting the Axis
 angular vector without using a second modifier (for example, using the Screw Modifier with a Bevel Modifier,
 Curve Modifier, etc...), resulting in a much cleaner approach for vertex distribution and usage.

@@ -99,8 +99,8 @@ Grid
    in which case volume emission will not work correctly!
 
 Use Modifier Stack
-   Take any :doc:`Modifiers </modifiers/introduction>` above the particle modifier in the
-   :doc:`Modifier Stack </modifiers/the_stack>` into account when emitting particles.
+   Take any :doc:`Modifiers </modeling/modifiers/introduction>` above the particle modifier in the
+   :doc:`Modifier Stack </modeling/modifiers/the_stack>` into account when emitting particles.
 
    Note that particles may differ in the final render if these modifiers generate different geometry between
    the viewport and render.

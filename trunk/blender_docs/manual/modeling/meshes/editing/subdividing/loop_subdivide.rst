@@ -89,7 +89,7 @@ Smoothing :kbd:`Alt-Wheel`
    causing them to be shifted outwards or inwards by a given percentage,
    similar to the *Subdivide Smooth* command. When not using smoothing,
    new vertices for the new edge loop are placed exactly on the pre-existing edges. This keeps subdivided faces flat,
-   but can distort geometry, particularly when using :doc:`Subdivision Surfaces </modifiers/generate/subsurf>`.
+   but can distort geometry, particularly when using :doc:`Subdivision Surfaces </modeling/modifiers/generate/subsurf>`.
    Smoothing can help maintain the curvature of a surface once it is subdivided.
 
 

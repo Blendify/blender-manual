@@ -19,7 +19,7 @@ This process creates virtual geometry that is generated non-destructively withou
 but it can be converted to real geometry that you could edit with the *Apply* button.
 
 Also, like the rest of the Modifiers, order of execution has an important bearing on the results.
-For this, see the documentation on :doc:`The Stack </modifiers/the_stack>`.
+For this, see the documentation on :doc:`The Stack </modeling/modifiers/the_stack>`.
 
 Keep in mind that this is a different operation than its companion,
 :doc:`Smooth Shading </modeling/meshes/smoothing>`.
@@ -28,7 +28,7 @@ You can see the difference between the two in the grid image to the right.
 .. tip::
 
    The Subsurf modifier does not allow you to edit the new subdivided geometry without applying it,
-   but the :doc:`Multires </modifiers/generate/multiresolution>` modifier does (in sculpt mode).
+   but the :doc:`Multires </modeling/modifiers/generate/multiresolution>` modifier does (in sculpt mode).
 
 
 Options
@@ -129,7 +129,7 @@ Order of the Modifier Stack
    Also, the Mirror before the Subsurf is clearly correct compared to the other way around.
 
 
-The :doc:`Evaluation order </modifiers/the_stack>` of Modifiers is often significant,
+The :doc:`Evaluation order </modeling/modifiers/the_stack>` of Modifiers is often significant,
 but especially so in the case of the Subsurf.
 The key to deciding your Modifier stack order is to picture the changes at each step,
 perhaps by temporarily Apply'ing the Modifiers,

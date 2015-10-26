@@ -50,9 +50,9 @@ Types of Objects
 :doc:`Armatures </rigging/armatures>`
    Armatures are used for :doc:`rigging </rigging/introduction>`
    3D models in order to make them poseable and animateable.
-:doc:`Lattice </modifiers/deform/lattice>`
+:doc:`Lattice </modeling/modifiers/deform/lattice>`
    Lattices are non-renderable wireframes, commonly used for taking additional control
-   over other objects with help of the :doc:`Lattice Modifier </modifiers/deform/lattice>`.
+   over other objects with help of the :doc:`Lattice Modifier </modeling/modifiers/deform/lattice>`.
 :doc:`Empty </modeling/empties>`
    Empties are null objects that are simple visual transform nodes that do not render.
    They are useful for controlling the position or movement of other objects.

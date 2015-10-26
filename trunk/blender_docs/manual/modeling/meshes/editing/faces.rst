@@ -229,7 +229,7 @@ Solidify
 
 This takes a selection of faces and solidifies them by extruding them
 uniformly to give volume to a :term:`non-manifold` surface.
-This is also available as a :doc:`Modifier </modifiers/generate/solidify>`.
+This is also available as a :doc:`Modifier </modeling/modifiers/generate/solidify>`.
 After using the tool, you can set the offset distance in the Tool Palette.
 
 Thickness

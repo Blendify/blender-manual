@@ -64,4 +64,4 @@ Edit Mode ? There are a couple of reasons for that:
 
    When using a lattice to deform particles,
    always remember to place the Lattice Modifier after the Particle System Modifier.
-   Read more about the importance of the modifier stack :doc:`here </modifiers/the_stack>`.
+   Read more about the importance of the modifier stack :doc:`here </modeling/modifiers/the_stack>`.

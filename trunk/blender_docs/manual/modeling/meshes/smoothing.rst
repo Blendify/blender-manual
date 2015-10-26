@@ -123,7 +123,7 @@ made by the *Auto Smooth* algorithm.
 Edge Split Modifier
 ===================
 
-With the :doc:`Edge Split Modifier </modifiers/generate/edge_split>` we get a result
+With the :doc:`Edge Split Modifier </modeling/modifiers/generate/edge_split>` we get a result
 similar to *Auto Smooth* with the ability to choose which edges should be split,
 based on angle - those marked as sharp.
 
@@ -179,19 +179,19 @@ Modifiers
 Alternatively,
 you can smooth the mesh non-destructively with one or several of the following modifiers:
 
-:doc:`Smooth Modifier </modifiers/deform/smooth>`
+:doc:`Smooth Modifier </modeling/modifiers/deform/smooth>`
    Works like the *Smooth* tool in *Edit mode*;
    can be applied to specific parts of the mesh using vertex groups.
-:doc:`Laplactian Smooth Modifier </modifiers/deform/laplacian_smooth>`
+:doc:`Laplactian Smooth Modifier </modeling/modifiers/deform/laplacian_smooth>`
    Works like the *Laplacian Smooth* tool in *Edit mode*;
    can be applied to specific parts of the mesh using vertex groups.
-:doc:`Bevel Modifier </modifiers/generate/bevel>`
+:doc:`Bevel Modifier </modeling/modifiers/generate/bevel>`
    Works like the *Bevel* tool in *Edit mode*;
    Bevel can be set to work on an angle threshold, or on edge weight values.
-:doc:`Subdivision Surface Modifier </modifiers/generate/subsurf>`
+:doc:`Subdivision Surface Modifier </modeling/modifiers/generate/subsurf>`
    Catmull-Clark subdivision produces smooth results. Sharp edges can be defined with
    :ref:`subdivision creases <modifiers-generate-subsurf-creases>`
-   or by setting certain edges to "sharp" and adding an :doc:`EdgeSplit modifier </modifiers/generate/edge_split>`
+   or by setting certain edges to "sharp" and adding an :doc:`EdgeSplit modifier </modeling/modifiers/generate/edge_split>`
    (set to *From Marked As Sharp*) before the *Subsurf* modifier.
 
 
