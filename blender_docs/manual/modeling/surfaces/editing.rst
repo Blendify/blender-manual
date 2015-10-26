@@ -481,7 +481,7 @@ Misc Editing
 ------------
 
 You have some of the same options as with meshes, or in *Object* mode.
-You can :ref:`separate <object-separating>` a given surface (:kbd:`P`),
+You can :ref:`separate <object-separate>` a given surface (:kbd:`P`),
 make other selected objects :ref:`children <object-parenting>`
 of one or three control points
 (:kbd:`Ctrl-P` - note however that parenting to three control points has a strange behavior with curves...),
