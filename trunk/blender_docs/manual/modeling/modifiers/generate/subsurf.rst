@@ -383,6 +383,10 @@ another modifier.
 Known Limitations
 =================
 
+
+Non Contiguous Normals
+----------------------
+
 Blender's subdivision system produces nice smooth subsurfed meshes, but any subsurfed face
 (that is, any small face created by the algorithm from a single face of the original mesh),
 shares the overall normal orientation of that original face.
@@ -416,3 +420,13 @@ use the :menuselection:`Specials --> Flip Normals` functionality (shortcut: :kbd
 :kbd:`N`) to fix them. Smoothing out normals is good for the mesh, and it's good for the soul.
 
 
+Concave NGons
+-------------
+
+While NGons are supported,
+concave ngons may give ugly overlapping results.
+
+.. figure:: /images/modifier_subsurf_ngon_concave.png
+   :width: 300px
+
+   The ngons on the right show overlapping subsurf result.
