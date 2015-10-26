@@ -1,25 +1,18 @@
 
 ..    TODO/Review: {{review|text=add group instance}} .
 
-******************************
-Grouping And Parenting Objects
-******************************
+*****************
+Parenting Objects
+*****************
 
-There can be many objects in a scene: A typical stage scene consists of furniture, props,
-lights, and backdrops.
-Blender helps you keep everything organized by allowing you to group like objects together.
+
+.. _object-parenting:
 
 When modeling a complex object, such as a watch,
 you may choose to model the different parts as separate objects. However,
 all of the parts may be attached to each other. In these cases,
 you want to designate one object as the parent of all the children. Movement,
 rotation or scaling of the parent also affects the children.
-
-
-.. _object-parenting:
-
-Parenting objects
-=================
 
 To parent objects, select at least two objects (select the *Child Objects* first,
 and select the *Parent Object* last), and press :kbd:`Ctrl-P`. The *Set Parent To*
@@ -65,7 +58,7 @@ Blender supports many different types of parenting, listed below:
 
 
 Object Parent
--------------
+=============
 
 *Object Parent* is the most general form of parenting that Blender supports.
 If will take selected objects and make the last selected object the *Parent Object*,
@@ -73,7 +66,7 @@ while all other selected objects will be *Child Objects*.
 
 
 Object (Keep Transform) Parent
-------------------------------
+==============================
 
 *Object (Keep Transform) Parent* works in a very similar way to *Object Parent* the major difference is in whether
 the *Child Objects* will remember any previous transformations applied to them from the previous *Parent Object*.
@@ -151,7 +144,7 @@ If you want to follow along with the above description here is the blend file us
 
 
 Armature Deform Parent
-----------------------
+======================
 
 An Armature in Blender can be thought of as similar to the armature of a real skeleton,
 and just like a real skeleton an Armature can consist of many bones. These bones can be moved
@@ -238,7 +231,7 @@ vertices of an object will result in those vertices also being transformed.
 
 
 Armature Deform Parent With Empty Groups
-----------------------------------------
+========================================
 
 The Armature Deform With Empty Groups parenting method works in almost the same way as
 Armature Deform parenting with one difference. That difference is that when you parent a
@@ -299,7 +292,7 @@ See figure 22.
 
 
 Armature Deform With Automatic Weights
---------------------------------------
+======================================
 
 Armature Deform With Automatic Weights parenting feature does everything Armature Deform With Empty Groups does with
 one extra thing. That extra thing is that unlike Armature Deform With Empty Groups which leaves the automatically
@@ -332,7 +325,7 @@ Weights of vertices in relation to the Vertex Groups they belong to and have inf
 .. TODO - Move this to armature modifier?
 
 Armature Deform With Envelope Weights
--------------------------------------
+=====================================
 
 Works in a similar way to Armature Deform With Automatic Weights in that it will create Vertex
 Groups on the Child Objects that have names matching those of the Parent Object Armature Bones.
@@ -426,7 +419,7 @@ the Tail and Head fields. See figure 33.
 
 
 Bone Parent
------------
+===========
 
 Bone parenting allows you to make a certain bone in an armature the Parent Object of another object.
 This means that when transforming an armature the Child Object will only move
@@ -450,7 +443,7 @@ Now transforming that bone in Pose Mode will result in the Child Objects also tr
 
 
 Bone Relative Parenting
------------------------
+=======================
 
 Bone Relative parenting works in the same way as Bone parenting with one difference.
 
@@ -483,7 +476,7 @@ the Child Objects will not move to the new location of the Pose Bone. See figure
 
 
 Vertex Parent
--------------
+=============
 
 You can parent an object to a single vertex or a group of three vertices as well;
 that way the child/children will move when the parent mesh is deformed,
@@ -491,7 +484,7 @@ like a mosquito on a pulsing artery.
 
 
 Vertex Parent from Edit Mode
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------
 
 In *Object* mode, select the child/children and then the parent object.
 :kbd:`Tab` into *Edit mode* and on the parent object select either one vertex
@@ -509,7 +502,7 @@ the child/children will move as well.
 
 
 Vertex Parent from Object Mode
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------------
 
 Vertex parenting can be performed from object mode,
 This is done like regular object parenting,
@@ -539,11 +532,11 @@ and avoid the tedious effort of establishing each parent-child vertex relationsh
 
 
 Options
--------
+=======
 
 
 Move child
-^^^^^^^^^^
+----------
 
 You can *move* a child object to its parent by clearing its origin.
 The relationship between the parent and child isn't affected.
@@ -553,7 +546,7 @@ Use the *Outliner* view to verify that the child object is still parented.
 
 
 Remove relationship/Clear Parent
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------------
 
 You can *remove* a parent-child relationship via :kbd:`Alt-P`
 
@@ -575,7 +568,7 @@ Clear Parent Inverse
 
 
 Hints
------
+=====
 
 .. figure:: /images/Modeling-Objects-Parenting-Exampel2-Outliner.jpg
 
@@ -603,9 +596,6 @@ though there are several different ways to do this. In Edit Mode,
 press :kbd:`P` then select one of the following.
 
 
-Options
--------
-
 .. figure:: /images/Modeling-Objects-Parenting-Exampel-SuzDissect.jpg
 
    Suzanne dissected neatly
@@ -618,68 +608,3 @@ All Loose Parts
 By Material
    Creates separate mesh objects for each material.
 
-
-.. _grouping-objects:
-
-Grouping objects
-================
-
-.. figure:: /images/Modeling-Objects-Parenting-Exampel-GroupedObj.jpg
-
-   Grouped objects
-
-
-Group objects together without any kind of transformation relationship.
-Use groups to just logically organize your scene,
-or to facilitate one-step appending or linking between files or across scenes.
-Objects that are part of a group always shows as light green when selected; see image
-(*Grouped objects*).
-
-
-Options
--------
-
-Creating a Group
-   :kbd:`Ctrl-G` creates a new group and adds the selected object(s) to it.
-
-
-.. figure:: /images/Modeling-Objects-Grouping-ObjProp.jpg
-
-   Naming a Group
-
-
-Naming a Group
-   All groups that an object has been assigned to are listed in the *Object Properties Panel* 's *Relations* panel.
-   To rename a group, simply click in the groups name field.
-   To name groups in the *Outliner* window, select *Groups* as the outliner display from the header combo box,
-   and :kbd:`Ctrl-LMB` click on the group name.
-   The name will change to an editable field; make your changes and press :kbd:`Return`.
-Restricting Group Contents via Layers
-   The cluster of layer buttons attached to each group determines from
-   which layers the group objects will be included when duplicated.
-   If your group contains objects on layers 10, 11 and 12, but you disable the layer 12 button in the group controls,
-   duplicates of that group (using the :doc:`Dupligroup </modeling/objects/duplication/dupligroup>` feature)
-   will only show the portions of the group that reside in layers 10 and 11.
-Appending or Linking Groups
-   To append a group from another ``.blend`` file,
-   consult :doc:`this page </data_system/linked_libraries>`.
-   In summary, :menuselection:`File --> Link / Append Link` Select a ``.blend`` file and, and then the group.
-Removing Groups
-   To remove a object from a group, under the object context button, open the "Groups" pane.
-   Find the name of the group from which you wish to remove the object,
-   and click the x to the right of the group name.
-
-
-Select Grouped
---------------
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     *Object mode*
-   | Menu:     *Select* --> *Grouped*
-   | Hotkey:   :kbd:`Shift-G`
-
-
-Select objects by parenting and grouping characteristics.
-See :doc:`Select Grouped </modeling/objects/selecting>` for more information.
