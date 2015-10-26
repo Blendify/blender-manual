@@ -231,7 +231,7 @@ vertices of an object will result in those vertices also being transformed.
 
 
 Armature Deform Parent With Empty Groups
-========================================
+----------------------------------------
 
 The Armature Deform With Empty Groups parenting method works in almost the same way as
 Armature Deform parenting with one difference. That difference is that when you parent a
@@ -292,7 +292,7 @@ See figure 22.
 
 
 Armature Deform With Automatic Weights
-======================================
+--------------------------------------
 
 Armature Deform With Automatic Weights parenting feature does everything Armature Deform With Empty Groups does with
 one extra thing. That extra thing is that unlike Armature Deform With Empty Groups which leaves the automatically
@@ -325,7 +325,7 @@ Weights of vertices in relation to the Vertex Groups they belong to and have inf
 .. TODO - Move this to armature modifier?
 
 Armature Deform With Envelope Weights
-=====================================
+-------------------------------------
 
 Works in a similar way to Armature Deform With Automatic Weights in that it will create Vertex
 Groups on the Child Objects that have names matching those of the Parent Object Armature Bones.
@@ -580,32 +580,4 @@ There is another way to see the parent-child relationship in groups and that is 
 of the :doc:`Outliner window </editors/outliner>`. Image (*Outliner* *view*)
 is an example of what the *Outliner* view looks like for the (*Parenting Example*).
 Cube ``A``'s object name is ``Cube_Parent`` and cube ``B`` is ``Cube_Child``.
-
-
-.. TODO: This seems off topic - ideasman42
-.. _object-separating:
-
-Separating Objects
-==================
-
-At some point,
-you'll come to a time when you need to cut parts away from a mesh to be separate.
-Well, the operation is easy.
-
-To separate an object, the vertices (or faces) must be selected and then separated,
-though there are several different ways to do this. In Edit Mode,
-press :kbd:`P` then select one of the following.
-
-
-.. figure:: /images/Modeling-Objects-Parenting-Exampel-SuzDissect.jpg
-
-   Suzanne dissected neatly
-
-
-Selected
-   This option separates the selection to a new object.
-All Loose Parts
-   Separates the mesh in its unconnected parts.
-By Material
-   Creates separate mesh objects for each material.
 
