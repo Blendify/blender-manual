@@ -203,6 +203,9 @@ For other common conventions used throughout the manual.
       It involves rendering images at strategic positions and applying them as textures to the mirror.
       Now in most cases obsoleted by Raytracing, which though slower is easier to use and more accurate.
 
+   Euler Rotation
+      TODO.
+
    Face
       Mesh element that defines a piece of surface. It consists of 3 or more :term:`edges <edge>`.
 
@@ -243,7 +246,7 @@ For other common conventions used throughout the manual.
 
    Gimbal Lock
       The limitation where axes of rotation can become aligned,
-      loosing the ability to rotate on an axis (typically assosiated with *Euler* rotation).
+      loosing the ability to rotate on an axis (typically assosiated with :term:`euler rotation`).
 
       - See also `Gimbal lock <http://en.wikipedia.org/wiki/Gimbal_lock>`__ on Wikipedia.
       - See also `Gimbal lock <http://blender.stackexchange.com/questions/469>`__ on Stackexchange.
