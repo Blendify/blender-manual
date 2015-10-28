@@ -197,32 +197,52 @@ but in "reversed order". See the *Switching example*.
 Bone Roll
 =========
 
+In *Edit* mode, you can control of the bones roll
+(i.e. the rotation around the Y axis of the bone).
+
+However, after editing the armature, or when using :term:`euler rotation`,
+you may want to set the bone roll.
+
+
+Set Bone Roll
+-------------
+
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     *Edit* mode
-   | Menu:     :menuselection:`Armature --> Bone Roll --> ...`
-   | Hotkey:   :kbd:`Ctrl-R`, :kbd:`Ctrl-N`
+   | Menu:     :menuselection:`Armature --> Bone Roll --> Set`
+   | Hotkey:   :kbd:`Ctrl-R`
+
+This is a transform mode where you can edit the roll of all selected bones.
 
 
-In *Edit* mode, you have options dedicated to the control of the bone roll rotation
-(i.e. the rotation around the Y axis of the bone). Each time you add a new bone,
-its default roll is so that its Z axis is as perpendicular to the current 3D view as possible.
-And each time you transform a bone, Blender tries to determine its best roll...
+Recalculate Bone Roll
+---------------------
 
-But this might lead to an unclear armature,
-with bones rolled in all angles... nasty! To address this problem, you have three options:
+.. admonition:: Reference
+   :class: refbox
 
-- :menuselection:`Armature --> Bone Roll --> Set Roll`
-  (:kbd:`Ctrl-R`) will start a roll-specific rotation, which behaves like any other transform operations
-  (i.e. move the mouse and :kbd:`LMB` click to validate, or type a numeric value and press :kbd:`Return`
-  or :kbd:`RMB` click or press :kbd:`Esc` to cancel everything).
-- :menuselection:`Armature --> Bone Roll --> Clear Roll (Z-Axis Up)`
-  (or :kbd:`Ctrl-N-1`:menuselection:`pop-up --> Recalculate Bone Roll Angles --> Clear Roll (Z-Axis Up)`)
-  will reset the selected bone roll so that their Z axis is as much as possible aligned with the global Z axis.
-- :menuselection:`Armature --> Bone Roll --> Roll to Cursor`
-  (or :kbd:`Ctrl-N-2`:menuselection:`pop-up --> Recalculate Bone Roll Angles --> Align Z-Axis to 3D-Cursor`)
-  will set the selected bone roll so that their Z axis is as much as possible pointed to the 3D cursor.
+   | Mode:     *Edit* mode
+   | Menu:     :menuselection:`Armature --> Bone Roll --> Recalculate`
+   | Hotkey:   :kbd:`Ctrl-N`
+
+
+Axis Orientation
+   Local (X,Z) Tangent
+      Align roll relative to the axis defined by the bone and it's parent.
+   Global (X,Y,Z) Axis
+      Align roll to global X,Y,Z axis.
+   Active Bone
+      Follow the rotation of the active bone.
+   View Axis
+      Set the roll to align with the view-port.
+   Cursor
+      Set the roll towards the 3D cursor.
+Flip Axis
+   Reverse the axis direction.
+Shortest Rotation
+   Avoids rolling the bone over 90 degrees from its current value.
 
 
 .. _armature-bone_properties:
