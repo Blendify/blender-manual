@@ -71,8 +71,7 @@ Rotation
 
 .. figure:: /images/Rotation.jpg
 
-   Image 4: Particles rotation.
-
+   Particles rotation settings.
 
 These parameters specify how the individual particles are rotated during their travel. To
 visualize the rotation of a particle you should choose visualization type Axis in the

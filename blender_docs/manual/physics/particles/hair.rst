@@ -56,7 +56,7 @@ Options
 
 .. figure:: /images/particlesystem_hairsettings.jpg
 
-   Image 4a: Settings for a Hair particle system.
+   Hair particle system settings
 
 
 Regrow
@@ -123,14 +123,12 @@ Usage
 .. figure:: /images/fur_withparticles-finished.jpg
    :width: 400px
 
-   Image 4b: Particle systems may get hairy...
+   Particle systems may get hairy...
 
 
 - `Fur Tutorial <http://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Furry>`__,
-  which produced (*Image 4b*). It deals especially with short hair.
+  which produced The image above. It deals especially with short hair.
 
 
 - `Blender Hair Basics <http://www.youtube.com/watch?v=kpLaxqemFU0>`__,
   a thorough overview of all of the hair particle settings.
-
-

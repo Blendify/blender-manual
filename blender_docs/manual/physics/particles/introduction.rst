@@ -19,8 +19,7 @@ but all settings are done in the *Particle tab*.
 .. figure:: /images/fur_example.jpg
    :width: 300px
 
-   Image 1: Some fur made from particles
-   (`Blend file <http://wiki.blender.org/index.php/Media:Blender3D FurExample 2.49.blend>`__).
+   Some fur made from particles
 
 
 Particles generally flow out from their mesh into space.
@@ -73,7 +72,7 @@ Creating a Particle System
 
 .. figure:: /images/particlesystem_createnew.jpg
 
-   Image 2: Adding a particle system.
+   Adding a particle system.
 
 
 To add a new particle system to an object, go to the *Particles* tab of the object
@@ -92,7 +91,7 @@ Types of Particle systems
 
 .. figure:: /images/particlesystem_selecttype.jpg
 
-   Image 3: Particle system types.
+   Particle System Types.
 
 
 After you have created a particle system,
@@ -154,4 +153,3 @@ Links
 - `Particle Rewrite Documentation <http://wiki.blender.org/index.php/BlenderDev/Particles_Rewrite_Doc>`__
 - `Thoughts about the particle rewrite code <http://wiki.blender.org/index.php/BlenderDev/Particles_Rewrite>`__
 - `Static Particle Fur Library <http://cs.unm.edu/~sketch/gallery/resource/furlib.html>`__
-

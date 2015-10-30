@@ -5,7 +5,7 @@ Boids
 
 .. figure:: /images/Boids.jpg
 
-   Image 7: Boid Physics.
+   Boid Physics Settings.
 
 
 Boids particle systems can be set to follow basic rules and behaviors.
@@ -230,4 +230,3 @@ for example, even if instructed not to, most of the time.
 
 As a final note, the Collision algorithm is still not perfect and in research progress,
 so you can expect wrong behaviors at some occasion. It is worked on.
-

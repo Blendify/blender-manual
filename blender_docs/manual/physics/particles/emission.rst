@@ -15,7 +15,7 @@ Options
 
 .. figure:: /images/particle_emission_settings.png
 
-   Particle emission settings
+   Particle Emission Settings
 
 
 The buttons in the *Emission* panel control the way particles are emitted over time:
