@@ -11,7 +11,7 @@ Cache
 
 .. figure:: /images/particlesystem_cachesettings.jpg
 
-   Image 4: Cache panel for particles.
+   Particles Cache Settings.
 
 
 *Emitter* systems use a unified system for caching and baking (together with softbody and cloth).
@@ -61,5 +61,3 @@ Two notes at the end:
 - Be careful with the sequence of modifiers in the modifier stack (as always).
   You may have a different number of faces in the 3D window and for rendering (e.g. when using subdivision surface),
   if so, the rendered result may be very different from what you see in the 3D window.
-
-

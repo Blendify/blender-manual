@@ -22,6 +22,3 @@ You can affect the following attributes:
 
 Examples
 ========
-
-...
-

@@ -255,5 +255,3 @@ Draw
       Draws the children of the particles too.
       This allows to fine tune the particles and see their effects on the result,
       but it may slow down your system if you have many children.
-
-

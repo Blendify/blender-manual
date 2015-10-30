@@ -5,21 +5,12 @@ Keyed Particles
 
 .. figure:: /images/Keyed.jpg
 
-   Image 6: Keyed Physics.
-
+   Keyed Physics Settings.
 
 The particle paths of keyed particles are determined from the emitter to another particle
 system's particles. This allows creation of chains of systems with keyed physics to create
 long strands or groovy moving particles. Basically the particles have no dynamics but are
 interpolated from one system to the next at drawtime.
-Because you have so much control over these kind of systems, you may use it
-
-For example, for machines handling fibers (animation of a loom, ...). In (Image 3),
-the strands flow from the bottom system (First keyed)
-to the second keyed system in the middle,
-and from that to the top system that has None-Physics.
-Since you may animate each emitter object as you like,
-you can do arbitrarily complex animations.
 
 
 Setup
@@ -40,7 +31,6 @@ Loops
 
 Keys
 ====
-
 
 Key Targets
    You have to enter the name of the object which bears the target system and if there are
@@ -73,4 +63,3 @@ the movement from the first system to the second will get all the lifetime
 (the particles will die at the second system).
 
 If you set Time to 0 the particles will start at the second system and travel to the target.
-

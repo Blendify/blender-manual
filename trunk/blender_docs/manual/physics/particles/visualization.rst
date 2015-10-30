@@ -1,10 +1,4 @@
 
-..    TODO/Review: {{review
-   |im=
-   Images from 2.4
-   }} .
-
-
 **********************
 Particle Visualization
 **********************
@@ -102,14 +96,12 @@ Died
 None
 ====
 
-
 When set to *None* particles are not rendered.
 This is useful if you are using the particles to duplicate objects.
 
 
 Halo
 ====
-
 
 Halo particles are rendered as :doc:`Halo Type Materials </render/blender_render/materials/special_effects/halo>`.
 
@@ -125,7 +117,6 @@ Random
 
 Line
 ====
-
 
 The Line visualization mode creates (more or less thin)
 polygon lines with the strand renderer in the direction of particles velocities. The thickness
@@ -146,10 +137,9 @@ Trail Count
 Path
 ====
 
-
 .. figure:: /images/VisualisationPanelPath.jpg
 
-   Image 3: The Visualization panel for Path visualization.
+   The Visualization panel for Path visualization.
 
 
 The *Path* visualization needs a :doc:`Hair </physics/particles/hair>` particle system or
@@ -244,7 +234,7 @@ Billboard
 
 .. figure:: /images/VisualisationPanelBillboard.jpg
 
-   Image 4: Billboard visualization for particles.
+   Billboard visualization for particles.
 
 
 *Billboards* are aligned square planes. They are aligned to the camera by default,
@@ -375,4 +365,3 @@ Offset
 
 Trail Count
    See the description in `Halo`_.
-

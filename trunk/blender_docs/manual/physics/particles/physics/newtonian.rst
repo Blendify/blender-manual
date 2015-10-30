@@ -15,8 +15,7 @@ Forces
 
 .. figure:: /images/Newtonan.jpg
 
-   Image 5: Newtonian Physics.
-
+   Newtonian Physics Settings.
 
 Brownian
    Specify the amount of Brownian motion.
@@ -37,16 +36,13 @@ Size Deflect
 Die on Hit
    Kill particle when it hits a deflector object.
 
-
 Integration
 ===========
 
-..    Comment: <!--[[File:Integrators.png|frame|right|Image 2: Integrators types.]]--> .
 
 Integrators are a set of mathematical methods available to calculate the movement of
 particles. The following guidelines will help to choose a proper integrator,
 according to the behavior aimed at by the animator.
-
 
 Euler
    Also known as "Forward Euler". Simplest integrator.
@@ -59,24 +55,23 @@ Euler
    dampening where speedy calculations is more important than accuracy.
 Varlet
    Very fast and stable integrator, energy is conserved over time with very little numerical dissipation.
-   +
 Midpoint
    Also known as "2nd order Runge-Kutta". Slower than Euler but much more stable.
    If the acceleration is constant (no drag for example), it is energy conservative.
    It should be noted that in example of the bouncing particles,
    the particles might bounce higher than they started once in a while, but this is not a trend.
    This integrator is a generally good integrator for use in most cases.
-   +
 RK4
    Short for "4th order Runge-Kutta". Similar to Midpoint but slower and in most cases more accurate.
    It is energy conservative even if the acceleration is not constant.
    Only needed in complex simulations where Midpoint is found not to be accurate enough.
-   +
 
+
+Frame Settings
+==============
 
 Timestep
    The simulation time step per frame.
 Subframes
    Subframes to simulate for improved stability and finer granularity in simulations.
    Use higher values for faster moving particles.
-

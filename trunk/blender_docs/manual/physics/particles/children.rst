@@ -62,7 +62,7 @@ Effects
 
 .. figure:: /images/ChildParticleRoundClump.jpg
 
-   Image 2: From left to right: Round: 0.0 / Round: 1.0 / Clump: 1.0 / Clump: -1.0 / Shape: -0.99.
+   From left to right: Round: 0.0 / Round: 1.0 / Clump: 1.0 / Clump: -1.0 / Shape: -0.99.
 
 
 Clump
@@ -99,14 +99,13 @@ Random, Size, Threshold
 Kink
 ====
 
-
 .. figure:: /images/ChildParticleKink.jpg
 
-   Image 3: Child particles with Kink. From left to right: Curl / Radial / Wave / Braid / Roll.
+   Child particles with Kink. From left to right: Curl / Radial / Wave / Braid / Roll.
 
 
-With *Kink* you can rotate the children around the parent. See above picture
-(*Image 3*) for the different types of *Kink*.
+With *Kink* you can rotate the children around the parent.
+See above picture for the different types of *Kink*.
 
 Curl
    Children grow in a spiral around the parent hairs.
@@ -128,4 +127,3 @@ Frequency
    The frequency of the offset (1/total length). The higher the frequency the more rotations are done.
 Shape
    Where the rotation starts (offset of rotation).
-

@@ -5,8 +5,7 @@ Fluid Physics
 
 .. figure:: /images/Fluid.jpg
 
-   Image 8: Fluid Physics.
-
+   Fluid Physics Settings.
 
 Fluid simulations are widely used in CG, and a very desired feature of any particle system,
 fluid particles are similar to newtonian ones but this time particles are influenced by
@@ -73,4 +72,3 @@ Initial Rest Length
    Use initial length as spring rest length instead of 2*particle size.
 Frames
    Create springs for this number of frames since particle's birth (0 is always).
-
