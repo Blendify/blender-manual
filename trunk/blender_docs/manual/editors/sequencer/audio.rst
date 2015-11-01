@@ -61,7 +61,7 @@ and Foley sound effects on channel 7.
 Animating Audio Track Properties
 ================================
 
-To animate audio strips simply hit :kbd: `I` over any of its values. Examples of animating 
+To animate audio strips simply hit :kbd:`I` over any of its values. Examples of animating 
 an audio strip are to fade in/out background music or to adjust volume levels.
 Layered/crossed audio strips are added together;
 the lower channel does not override and cut out higher channels (unlike image and video strips).
