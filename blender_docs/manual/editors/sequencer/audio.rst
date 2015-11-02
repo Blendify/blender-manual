@@ -2,6 +2,7 @@
 *************
 Sound Editing
 *************
+
 As well as images and movies the VSE can also edit audio tracks. You can add WAV,
 Mp3 and other audio formates files from your hard disk as a file, or as encoded within a movie,
 and mix them using an F-Curve as a volume control.
@@ -14,16 +15,15 @@ and mix them using an F-Curve as a volume control.
 
 Options
 =======
+
 Pack
    This allows you to save the audio file into the .blend file.
 Caching
    Caching loads a file into ram and plays it from there, apposed to reading it for the hard drive.
 
    .. seealso:: `Hiss, Crackle and Pop`_.
-
 Draw Waveform
    Draws a waveform over top of the sequence strip. This can be useful for syncing two or more audio strips.
-
 Volume
    Changes the loudness of the audio.
 Pitch
@@ -84,8 +84,9 @@ Hiss, Crackle and Pop
 In some cases when *Caching* is disabled, playback noise/hiss is introduced.
 
 If you hear pops and crackles, usually that is a sign that your hardware cannot keep up in real-time playback.
-They will not be present in your final rendered animation output (but they may show up in Game mode).
+They will not be present in your final rendered animation output.
 
-Also,
-static hiss seems to occur whenever two or more audio strips are overlapping in the timeline...
+.. AGAIN, please link to bug report.
+
+Also, static hiss seems to occur whenever two or more audio strips are overlapping in the timeline.
 
