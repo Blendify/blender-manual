@@ -196,7 +196,7 @@ Object Index
 Material Index
    Material pass index, same as in the Material Index pass.
 Random
-   Random number unique to a single object instance.
+   Random number between 0 and 1 unique to a single object instance.
 
 
 Particle Info
