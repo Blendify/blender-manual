@@ -105,7 +105,7 @@ Sensor size
 .. _render-camera-dof:
 
 Depth of Field
----------------------------------
+--------------
 
 .. figure:: /images/camera_dof_panel.jpg
 
