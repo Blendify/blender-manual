@@ -105,9 +105,9 @@ Sensor size
 .. _render-camera-dof:
 
 Depth of Field
---------------
+---------------------------------
 
-.. figure:: /images/Camera-dof-panel.jpg
+.. figure:: /images/camera_dof_panel.jpg
 
    Camera Depth of Field Panel
 
@@ -132,11 +132,25 @@ Distance
       Hover the mouse over the *Distance* property and press :kbd:`E` to use a special *Depth Picker*.
       Then click on a point in the 3D View to sample the distance from that point to the camera.
 
+High Quality
+    In order for the viewport to offer an accurate representation of depth of field,
+    like a render, you must enable High Quality. Without it, you may notice a
+    difference in shading.
+
 Viewport F-stop
    Controls the real-time focal blur effect used during sequencer or OpenGL rendering and,
    when enabled, camera views in the 3D viewport.
    The amount of blur depends on this setting, along with Focal Length and Sensor Size.
    Smaller Viewport F-stop values result in more blur.
+
+Blades
+   Add a number of polygonal *blades* to the blur effect, in order to achieve a
+   a *bokeh effect* in the viewport. To enable this feature, the blades must be
+   set to at least 3 (3 sides, triangle)
+
+.. figure:: /images/camera_dof_bokeh.jpg
+
+   The viewport bokeh effect with the blades set to 3
 
 
 Display

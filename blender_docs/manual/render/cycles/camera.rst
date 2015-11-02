@@ -71,27 +71,57 @@ Field of View
 Depth of Field
 ==============
 
-Aperture Type
-   Method with which to specify the size of the camera opening through which light enters.
-   With Radius the radius of the opening can be specified,
-   while F/Stop specifies the size relative to the camera focal length, a measure more common in photography.
-   Their relation is: *aperture radius = focal length / (2 f-stop)*
-Aperture Size
-   Also called lens radius. If this is zero, all objects will appear in focus,
-   while larger values will make objects farther than the focal distance appear out of focus.
-Aperture F/Stop
-   Also called F-number or relative aperture. Lower numbers give more depth of field;
-   higher numbers give a sharper image.
+.. figure:: /images/cycles_camera_dof_panel.jpg
 
-Aperture Blades
-   If this setting is 3 or more, a polygonal-shaped aperture will be used instead of a circle,
-   which will affect the shape of out of focus highlights in the rendered image.
-Aperture Rotation
-   Rotation of the *Aperture Blades*.
+Focus
+  Set an object to be used as a focal point by the camera, causing the camera
+  to focus on the selected object.
 
-Focal Distance
-   Distance at which objects are in perfect focus. Alternatively,
-   an object can be specified whose distance from the camera will be used.
+Distance
+  When an object is not used, the camera can be set to focus on an area in 3D
+  space set by the distance from the camera. Using the *Limit* Display option, you
+  are able to view the distance in the 3D space.
+
+High Quality
+  Enables the High Quality *viewport* depth of field, giving a more accurate
+  representation of *depth of field*. This allows the viewport depth of field
+  to be closely represented to that of the render and render preview depth of
+  field.
+
+F-Stop
+  Viewport depth of field aperture measured in F-Stops. Smaller numbers will
+  cause more blur in the viewport, OpenGL renders, and sequencer.
+
+Blades
+  The number of polygonal sides to give blurred objects in the viewport. The minimum
+  number of blades needed to enable the bokeh effect is 3 (triangle). *Only available
+  with High Quality*
+
+Aperture
+  Use F-Stop or Radius to set the aperture for the render, and render preview.
+  F-Stop is the focal ratio, where Radius is the the raidus of the focal point.
+
+Size/Number
+  Aperture radius *size*, or F-Stop *number* used for the render, and render
+  preview. Using the F-Stop with a low number, or Radius with a large size will
+  result in a strong blur, also allowing the use of the *bokeh effect*.
+
+Blades
+  Total number of polygonal blades used to alter the shape of the blurred objects
+  in the render, and render preview. Like the viewport, the minimum amount of
+  blades to enable the bokeh effect is 3, resulting in a triangle shaped blur.
+
+Rotation
+  Rotate the polygonal blades along the facing axis, and will rotate in a clockwise,
+  and counter-clockwise fashion.
+
+Ratio
+  Change the amount of distortion to simulate the anamorphic bokeh effect. A
+  setting of 1.0 shows no distortion, where a number below 1.0 will cause a
+  horizontal distortion, and a higher number will cause a vertical distortion.
+
+
+.. figure:: /images/cycles_camera_dof_bokeh.jpg
 
 
 Clipping
