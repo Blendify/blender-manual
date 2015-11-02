@@ -8,23 +8,11 @@ Introduction
 
 A *Camera* is an object that provides a means of rendering images from Blender.
 It defines which portions of a scene is visible in the rendered image.
+By default a scene contains one camera. However, A scene can contain more than one camera,
+but only one of them will be used at a time.
+So you will only need to add a new camera if you are making cuts between them.
+See :doc:`Animating  Cameras </animation/camera>`.
 
-A scene can contain more than one camera, but only one of them will be used at a time.
-
-
-Add a New Camera
-================
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     *Object* mode
-   | Menu:     :menuselection:`Add --> Camera`
-   | Hotkey:   :kbd:`Shift-A` to add new.
-
-The default scene includes a camera,
-so you'll only need to add a new one if you have deleted the default one,
-or need to animate a cut between two cameras.
 
 
 Changing the Active Camera
