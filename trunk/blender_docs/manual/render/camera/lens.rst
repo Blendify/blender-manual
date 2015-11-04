@@ -110,8 +110,15 @@ Using lens shift is equivalent to rendering an image with a larger
 Clipping
 ========
 
-Set the clipping limits with the *Start* and *End* values. Only objects within the limits are rendered.
-If *Limits* in the *Display* panel is enabled,
+Set the clipping limits with the *Start* and *End* values.
+
+Only objects within the limits are rendered.
+
+For OpenGL display, setting clipping distances to limited values
+is important to ensure sufficient rasterization precision.
+Ray tracing renders don't suffer from this issue so much, and as such more extreme values can safely be set.
+
+When *Limits* in the *Display* panel is enabled,
 the clip bounds will be visible as two yellow connected dots on the camera line of sight.
 
 .. note::
