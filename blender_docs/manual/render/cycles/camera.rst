@@ -31,7 +31,7 @@ Panoramic
 =========
 
 Cycles supports Equirectangular and Fisheye panoramic cameras.
-Note that these can't be displayed with OpenGL rendering in the viewport;
+Note that these can't be displayed with OpenGL rendering in the view-port;
 they will only work for rendering.
 
 
@@ -58,7 +58,7 @@ It provides a lens focal length and field of view angle,
 and will also take the sensor dimensions into account.
 
 The *Fisheye Equidistant* lens does not correspond to any real lens model; it will
-give a circular fisheye that doesn't take any sensor information into account but rather uses
+give a circular fish-eye that doesn't take any sensor information into account but rather uses
 the whole sensor. This is a good lens for full dome projection.
 
 Lens
@@ -82,16 +82,16 @@ Distance
   Using the *Limit* Display option, you are able to view the distance in the 3D space.
 
 High Quality
-  Enables the High Quality *viewport* depth of field, giving a more accurate
-  representation of *depth of field*. This allows the viewport depth of field
+  Enables the High Quality *view-port* depth of field, giving a more accurate
+  representation of *depth of field*. This allows the view-port depth of field
   to be closely represented to that of the render and render preview depth of field.
 
 F-Stop
   Viewport depth of field aperture measured in F-Stops. Smaller numbers will
-  cause more blur in the viewport, OpenGL renders, and sequencer.
+  cause more blur in the view-port, OpenGL renders, and sequencer.
 
 Blades
-  The number of polygonal sides to give blurred objects in the viewport.
+  The number of polygonal sides to give blurred objects in the view-port.
   The minimum number of blades needed to enable the bokeh effect is 3 (triangle).
   *Only available with High Quality*
 
@@ -106,7 +106,7 @@ Size/Number
 
 Blades
   Total number of polygonal blades used to alter the shape of the blurred objects
-  in the render, and render preview. Like the viewport, the minimum amount of
+  in the render, and render preview. As with the view-port, the minimum amount of
   blades to enable the bokeh effect is 3, resulting in a triangle shaped blur.
 
 Rotation
