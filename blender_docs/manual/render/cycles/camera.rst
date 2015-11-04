@@ -36,11 +36,10 @@ they will only work for rendering.
 
 
 Equirectangular
-^^^^^^^^^^^^^^^
+---------------
 
-Render a panoramic view of the scenes from the camera location and use an equirectangular
-
-projection, always rendering the full 360- over the X-axis and 180- over the Y-axis.
+Render a panoramic view of the scenes from the camera location and use an equirectangular projection,
+always rendering the full 360- over the X-axis and 180- over the Y-axis.
 
 This projection is compatible with the environment texture as used for world shaders,
 so it can be used to render an environment map. To match the default mapping,
@@ -50,7 +49,7 @@ mapping.
 
 
 Fisheye
-^^^^^^^
+-------
 
 Fisheye lenses are typically wide angle lenses with strong distortion,
 useful for creating panoramic images for e.g. dome projection, or as an artistic effect.
@@ -79,32 +78,31 @@ Focus
 
 Distance
   When an object is not used, the camera can be set to focus on an area in 3D
-  space set by the distance from the camera. Using the *Limit* Display option, you
-  are able to view the distance in the 3D space.
+  space set by the distance from the camera.
+  Using the *Limit* Display option, you are able to view the distance in the 3D space.
 
 High Quality
   Enables the High Quality *viewport* depth of field, giving a more accurate
   representation of *depth of field*. This allows the viewport depth of field
-  to be closely represented to that of the render and render preview depth of
-  field.
+  to be closely represented to that of the render and render preview depth of field.
 
 F-Stop
   Viewport depth of field aperture measured in F-Stops. Smaller numbers will
   cause more blur in the viewport, OpenGL renders, and sequencer.
 
 Blades
-  The number of polygonal sides to give blurred objects in the viewport. The minimum
-  number of blades needed to enable the bokeh effect is 3 (triangle). *Only available
-  with High Quality*
+  The number of polygonal sides to give blurred objects in the viewport.
+  The minimum number of blades needed to enable the bokeh effect is 3 (triangle).
+  *Only available with High Quality*
 
 Aperture
   Use F-Stop or Radius to set the aperture for the render, and render preview.
   F-Stop is the focal ratio, where Radius is the the raidus of the focal point.
 
 Size/Number
-  Aperture radius *size*, or F-Stop *number* used for the render, and render
-  preview. Using the F-Stop with a low number, or Radius with a large size will
-  result in a strong blur, also allowing the use of the *bokeh effect*.
+  Aperture radius *size*, or F-Stop *number* used for the render, and render preview.
+  Using the F-Stop with a low number, or Radius with a large size will result in a strong blur,
+  also allowing the use of the *bokeh effect*.
 
 Blades
   Total number of polygonal blades used to alter the shape of the blurred objects
@@ -116,9 +114,9 @@ Rotation
   and counter-clockwise fashion.
 
 Ratio
-  Change the amount of distortion to simulate the anamorphic bokeh effect. A
-  setting of 1.0 shows no distortion, where a number below 1.0 will cause a
-  horizontal distortion, and a higher number will cause a vertical distortion.
+  Change the amount of distortion to simulate the anamorphic bokeh effect.
+  A setting of 1.0 shows no distortion, where a number below 1.0 will cause a horizontal distortion,
+  and a higher number will cause a vertical distortion.
 
 
 .. figure:: /images/cycles_camera_dof_bokeh.jpg
@@ -128,8 +126,9 @@ Clipping
 ========
 
 Clip Start and End
-   The interval in which objects are directly visible.
-   Any objects outside this range still influence the image indirectly, as further light bounces are not clipped.
-   For OpenGL rendering,
-   setting clipping distances to limited values is important to ensure sufficient rasterization precision.
-   Ray tracing does not suffer from this issue much, and as such more extreme values can safely be set.
+   The interval in which objects are directly visible,
+   Any objects outside this range still influence the image indirectly,
+   as further light bounces are not clipped.
+
+   .. seealso:: :ref:`Camera Clipping <camera-clipping>`.
+
