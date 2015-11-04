@@ -27,7 +27,7 @@ YCbCr
    Luminance-ChannelBlue-ChannelRed Component video for digital broadcast use,
    whose standards have been updated for HDTV and commonly referred to as the HDMI format for component video.
 
-See the global wikipedia for more information on color spaces.
+See also :term:`color space`.
 
 
 Separate/Combine RGBA Node

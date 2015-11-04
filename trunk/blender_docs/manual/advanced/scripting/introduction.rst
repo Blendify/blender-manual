@@ -54,9 +54,7 @@ concepts of Python scripting for Blender.
 Getting Started - External links
 ================================
 
-The following pages are not located on this wiki,
-but contain a lot of good information to start learning how to write scripts for Blender.
-
+Here are external links containing a lot of good information to start learning how to write scripts for Blender.
 
 - `Introductory tutorial by Satish Goda
   <http://sites.google.com/site/satishgoda/blender/learningblender25/introduction-to-blender-python-api>`__
@@ -89,9 +87,9 @@ there are literally hundreds of add-ons written by many people:
 - Other **Testing** add-ons are included in development builds but not official releases,
   many of them work reliably and are very useful but are not ensured to be stable for release.
 
-An Overview of all add-ons is available in this wiki in the
-`Scripts Catalog <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts>`__
-and in the `Extensions tracker <https://projects.blender.org/projects/bf-extensions/>`__.
+For an overview of all add-ons is available in, see
+`Scripts Catalog <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts>`__ and
+`Extensions tracker <https://projects.blender.org/projects/bf-extensions/>`__.
 
 
 Scripts
