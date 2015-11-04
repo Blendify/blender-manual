@@ -127,6 +127,11 @@ For other common conventions used throughout the manual.
 
       See also `Blend Modes <http://en.wikipedia.org/wiki/Blend_modes>`__ on Wikipedia.
 
+   Color Space
+      TODO.
+
+      See also `Color Spaces <http://en.wikipedia.org/wiki/Color_space>`__ on Wikipedia.
+
    Concave face
       Face in which one vert is inside a triangle formed by other vertices of the face.
 
