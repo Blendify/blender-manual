@@ -15,16 +15,15 @@ and better details than Vertex Painting can provide.
 UVs Explained
 *************
 
-.. figure:: /images/UV-boxprecut.jpg
-   :width: 180px
+.. list-table::
 
-   Box being inspected
+   * - .. figure:: /images/UV-boxprecut.jpg
 
+          Box being inspected
 
-.. figure:: /images/UV-boxcutup.jpg
-   :width: 180px
+     - .. figure:: /images/UV-boxcutup.jpg
 
-   Box mapped flat
+          Box mapped flat
 
 
 The best analogy to understanding UV mapping is cutting up a cardboard box.
