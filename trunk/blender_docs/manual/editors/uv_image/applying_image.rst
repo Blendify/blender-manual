@@ -29,7 +29,7 @@ Activating the tool brings up the File Browser Window with options for saving th
 
 .. figure:: /images/textures-uv-layout-export.jpg
 
-   Export options
+   Export Options
 
 
 All UVs
@@ -55,16 +55,17 @@ so you can paint transparent areas of the mesh.
 For using images as textures, see the page on :doc:`Image Textures </render/blender_render/textures/types/image>`
 
 
-.. figure:: /images/textures-uv-layout.jpg
-   :width: 250px
+.. list-table::
 
-   A uv layout in the uv editor
+   * - .. figure:: /images/textures-uv-layout.jpg
+          :width: 250px
 
+          A UV Layout in the UV Editor          
 
-.. figure:: /images/textures-uv-layout2.jpg
-   :width: 250px
+     - .. figure:: /images/textures-uv-layout2.jpg
+          :width: 250px
 
-   A snapshot of the uv layout to be used in an image editor
+          A UV Layout in the Image Editor
 
 .. _face_textures:
 
@@ -139,9 +140,6 @@ In the Buttons window, Material settings, click *ADD NEW* material.
 On the Options panel, enable *Face Textures*. This way is quick,
 but bypasses the normal rendering system for fast results,
 but results which do not respect transparency and proper shading.
-
-
-----
 
 
 Loading and Saving Images
@@ -350,9 +348,4 @@ you will have to re-pack or reload.
 
 To pack an image, select *Pack Image* from the *Image* menu. To Unpack,
 select this option again and select *Remove Pack*.
-
 The File-->Append function automatically goes into ``.blend`` files and shows you the image textures packed in it.
-The public domain Blender Texture CD is also a great resource,
-and there are many other sources of public domain (and licensed) textures. All textures on the
-Elephants Dream CD are liberally licensed under
-`CC-BY 2.5 <http://creativecommons.org/licenses/by/2.5/>`__.

@@ -71,7 +71,7 @@ UV Textures List
 
 .. figure:: /images/UV-Editing-Mesh-panel.jpg
 
-The Mesh panel (shown to the right) lists the UV Texture maps created for this mesh,
+The Mesh panel lists the UV Texture maps created for this mesh,
 and allows you to create New ones as placeholders for future unwrapping operations.
 
 Click the *+* button to add a new UV texture,
@@ -86,5 +86,3 @@ The example shows a few UV maps created for a character, and the map for Clothes
 
 Note that each texture can be mapped to a specific UV texture.
 See the :doc:`Mapping </render/blender_render/textures/mapping/introduction>` section of the texture panel.
-
-
