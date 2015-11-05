@@ -203,8 +203,8 @@ Generated Type
       Generates a blank image of the specified color.
 32 bit
    Creates a 32 bit image. This is a larger file size,
-   but holds much more color information than the standard 8 bit image. For close ups and large gradients,
-   it may be better to use a 32 bit image.
+   but holds much more color information than the standard 8 bit image.
+   For close ups and large gradients, it may be better to use a 32 bit image.
 
 
 Using the Test Grid
@@ -212,20 +212,19 @@ Using the Test Grid
 
 Use the UV Test Grid option to check for undue stretching or distortion of faces. If your
 image is a base uniform pattern and you want the application of that image to your model to
-look like cloth, you do NOT want any stretching
-(unless you want the cloth to look like spandex).
+look like cloth, you do NOT want any stretching (unless you want the cloth to look like spandex).
 
+.. list-table::
 
-.. figure:: /images/textures-uv-layout-testGrid2.jpg
-   :width: 200px
+   * - .. figure:: /images/textures-uv-layout-testGrid2.jpg
+          :width: 250px
 
-   The test grid applied to the UVs
+          The test grid applied to the UVs          
 
+     - .. figure:: /images/textures-uv-layout-testGrid3.jpg
+          :width: 250px
 
-.. figure:: /images/textures-uv-layout-testGrid3.jpg
-   :width: 200px
-
-   A preview of the texture on the geometry
+          A preview of the texture on the geometry
 
 
 When you render, the mesh will have the test grid as its colors,
