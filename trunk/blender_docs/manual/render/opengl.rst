@@ -52,7 +52,7 @@ however some render settings are used too.
 
 - Render Dimensions
 - Render Aspect
-- Anti-Aliasing Samples
+- Anti-Aliasing, Samples & Full Sample (for slower, higher quality output).
 - File Format & Output (file-path, format, compression settings... etc).
 
 
@@ -85,4 +85,20 @@ Render from the Sequencer
    Using scene strips in the sequencer you can edit together scenes to quickly render an entire sequence of shots.
 
    This can be activated using the render icons in the sequencer's playback window header.
+
+
+Known Limitations
+=================
+
+
+OpenGL Anti-Aliasing Support
+----------------------------
+
+Some graphics cards don't support this feature
+(known as the frame-buffer multi-sample OpenGL extensions).
+
+In this case rendering works but no anti-aliasing is performed.
+
+Enabling *Full Sample*, can be used to workaround this limit,
+because it doesn't rely on hardware multi-sample support.
 
