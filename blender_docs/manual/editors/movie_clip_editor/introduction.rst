@@ -32,5 +32,5 @@ So, when a movie clip is loaded into the clip editor, extra panels are displayed
 
    Movie Clip Editor with a Opened Clip
 
-- :doc:`Tracking </editors/movie_clip_editor/tracking/index>`
+- :doc:`Motion Tracking </editors/movie_clip_editor/tracking/index>`
 - :doc:`Masking </editors/movie_clip_editor/masking>`
