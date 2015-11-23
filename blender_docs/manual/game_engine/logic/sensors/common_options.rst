@@ -42,19 +42,19 @@ X button
 
 The following parameters specifies how the sensor triggers connected controllers:
 
-
-.. figure:: /images/BGE_Sensor_Level_True_Button.jpg
-
-   True level triggering.
+True level triggering
    If this is set, the connected controllers will be triggered as long as the sensor's state is positive.
    The sensor will trigger with the delay (see parameter: frequency) of the sensor.
 
+.. figure:: /images/BGE_Sensor_Level_True_Button.jpg
+   :align: right
 
-.. figure:: /images/BGE_Sensor_Level_False_Button.jpg
-
-   False level triggering.
+False level triggering
    If this is set, the connected controllers will be triggered as long as the sensor's state is negative.
    The sensor will trigger with the delay (see parameter: frequency) of the sensor.
+
+.. figure:: /images/BGE_Sensor_Level_False_Button.jpg
+   :align: right
 
 Freq
    Despite it's name "Frequency", this parameter sets the delay between repeated triggers,
