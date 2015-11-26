@@ -99,7 +99,7 @@ Coordinates
    Repeat
       Draw the image repeated outside of the main view.
    Normalized
-      Display UV coordinates from 0.0 to 1.0 rather then in pixels
+      Display UV coordinates from 0.0 to 1.0 rather than in pixels
 
 Cursor Location
    2D cursor location for this view
@@ -122,10 +122,10 @@ Stretch
 Navigating in UV Space
 ======================
 
-Panning can be done by clicking the {{Shortcut|mmb}} and dragging.
+Panning can be done by clicking the :kbd:`MMB` and dragging.
 
-Zooming can be done by scrolling {{Shortcut|mmb}} up or down.
-Also, as in the 3D view, you can use {{Shortcut|pad+}} or {{Shortcut|pad-}} to zoom.
+Zooming can be done by scrolling :kbd:`MMB` up or down.
+Also, as in the 3D view, you can use :kbd:`NumpadPlus` or :kbd:`NumpadMinus` to zoom.
 
 The following shortcuts are available, and through the *View Menu*:
 
