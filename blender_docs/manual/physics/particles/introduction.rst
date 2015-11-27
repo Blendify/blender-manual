@@ -107,7 +107,7 @@ Emitter
 :doc:`Hair </physics/particles/hair>`
    This system type is rendered as strands and has some very special properties:
    it may be edited in the 3D window in realtime and you can also animate
-   the strands with :doc:`Cloth Simulation </physics/cloth>`.
+   the strands with :doc:`Cloth Simulation </physics/cloth/index>`.
 
 The settings in the *Particle System* panel are partially different for each system
 type. For example, in *Image 3* they are shown for only system type *Emitter*.

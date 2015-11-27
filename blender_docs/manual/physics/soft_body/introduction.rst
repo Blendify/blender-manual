@@ -13,7 +13,7 @@ Introduction
 
 A Soft Body in general, is a simulation of a soft or rigid deformable object.
 In Blender, this system is best for simple cloth objects and closed meshes.
-There is dedicated :doc:`Cloth Simulation </physics/cloth>` physics that use a different solver,
+There is dedicated :doc:`Cloth Simulation </physics/cloth/index>` physics that use a different solver,
 and is better for cloth.
 
 This simulation is done by applying forces to the vertices or controlpoints of the object.
@@ -46,7 +46,7 @@ Soft Bodies are well suited for:
 - Elastic objects with or without collision.
 - Flags, fabric reacting to forces.
 - Certain modeling tasks, like a cushion or a table cloth over an object.
-- Blender has another simulation system for clothing (see :doc:`Clothes </physics/cloth>`).
+- Blender has another simulation system for clothing (see :doc:`Clothes </physics/cloth/index>`).
   But you can sometimes use Soft Bodies for certain parts of clothing, like wide sleeves.
 - Hair (as long as you minimize collision).
 - Animation of swinging ropes, chains and the like.
