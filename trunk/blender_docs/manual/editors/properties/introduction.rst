@@ -33,7 +33,8 @@ Render
    Everything related to render output (dimensions, anti-aliasing, performance etc).
 Render Layers
    Render Layers and Passes.
-   Scene** Gravity, Units to use, Keying Sets, Color Management, Audio settings, Physics.
+Scene
+   Gravity, Units to use, Keying Sets, Color Management, Audio settings, Physics, and scene simplification options.
 World
    Environmental lighting, sky, mist and Ambient Occlusion.
 
