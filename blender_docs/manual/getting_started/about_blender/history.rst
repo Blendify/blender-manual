@@ -24,8 +24,7 @@ level 3D modeling and animation tools within the reach of the general computing 
 NaN's business model involved providing commercial products and services around Blender. In
 1999 NaN attended its first SIGGRAPH conference in an effort to more widely promote Blender.
 Blender's first SIGGRAPH convention was a huge success and gathered a tremendous amount of
-interest from both the press and attendees.
-Blender was a hit and its huge potential confirmed!
+interest from both the press and attendees. Blender was a hit and its huge potential confirmed!
 
 Following the success of the SIGGRAPH conference in early 2000, NaN secured financing of €4.5M from
 venture capitalists. This large inflow of cash enabled NaN to rapidly expand its operations.
@@ -57,7 +56,7 @@ to release Blender as open source. The "Free Blender" campaign sought to raise �
 that the Foundation could buy the rights to the Blender source code and intellectual property
 rights from the NaN investors and subsequently release Blender to the open source community.
 With an enthusiastic group of volunteers, among them several ex-NaN employees,
-a fund raising campaign was launched to "Free Blender".
+a fund raising campaign was launched to "Free Blender". 
 To everyone's surprise and delight the campaign reached the €100,000 goal in only seven short weeks.
 On Sunday October 13, 2002,
 Blender was released to the world under the terms of the `GNU GPL <http://www.gnu.org/copyleft/gpl>`__.
@@ -238,4 +237,6 @@ Blender 2.6x to 2.7x - Improvements & Stabalizing
 - `2.75 <http://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.75>`__  - July 2015:
   Integrated stereo/multi-view pipeline, corrective smooth modifier
   and new dependency graph *(enable as a command line option)*.
-
+- `2.76 <http://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.76>`__  - November 2015:
+  Pixar OpenSubdiv support, Viewport and File Browser performance boost,
+  node auto-offset, and a text effect strip for the Sequencer.
