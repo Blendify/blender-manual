@@ -7,9 +7,9 @@
 .. toctree::
    :maxdepth: 2
 
-   introduction.rst
-   cloth.rst
+   introduction.rst  
    collision.rst
+   cloth/index.rst
    dynamic_paint/index.rst
    fluid/index.rst
    particles/index.rst
