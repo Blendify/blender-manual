@@ -8,8 +8,6 @@ The **UV Warp** modifier uses two objects to define a transformation which is ap
 Its purpose is to give you direct control over the object's UVs in the 3D View,
 allowing you to directly translate, rotate and scale existing UV coordinates using controller objects or bones.
 
-`Download an example <http://wiki.blender.org/index.php/:File:Uvwarp.blend>`__
-
 
 Options
 =======
