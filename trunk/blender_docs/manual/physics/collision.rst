@@ -4,7 +4,7 @@ Collisions
 **********
 
 :doc:`Particles </physics/particles/index>`, :doc:`Soft Bodies </physics/soft_body/index>` and
-:doc:`Cloth objects </physics/cloth>` may collide with mesh objects.
+:doc:`Cloth objects </physics/cloth/index>` may collide with mesh objects.
 :doc:`Boids </physics/particles/physics/boids>` try to avoid *Collision* objects.
 
 

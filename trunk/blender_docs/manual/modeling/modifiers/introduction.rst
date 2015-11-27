@@ -134,7 +134,7 @@ or *Physics* simulation is enabled. Their only role is to define the
 place in the modifier stack used as base data by the tool they represent. Generally,
 the attributes of these modifiers are accessible in separate panels.
 
-:doc:`Cloth </physics/cloth>`
+:doc:`Cloth </physics/cloth/index>`
    Simulates the properties of a piece of cloth.
    It is inserted in the modifier stack when you designate a mesh as Cloth.
 :doc:`Collision </physics/collision>`
