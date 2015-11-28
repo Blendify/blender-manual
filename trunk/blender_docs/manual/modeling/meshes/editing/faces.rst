@@ -22,6 +22,18 @@ Make Edge/Face
 This will create an edge or some faces, depending on your selection.
 Also see :doc:`/modeling/meshes/editing/basics/creating_faces_and_edges`.
 
+.. list-table::
+
+   * - .. figure:: /images/Fill1.jpg
+          :width: 300px
+
+          A closed perimeter of edges
+
+     - .. figure:: /images/Fill2.jpg
+          :width: 300px
+
+          Filled using fill
+
 .. _modeling-meshes-editing-fill:
 
 Fill
@@ -39,37 +51,26 @@ The *Fill* option will create *triangular* faces from any group of selected edge
 or vertices, *as long as they form one or more complete perimeters*.
 
 
-.. figure:: /images/Fill1.jpg
-   :width: 200px
-
-   A closed perimeter of edges
-
-
-.. figure:: /images/Fill2.jpg
-   :width: 200px
-
-   Filled using shortcut [F]. Created an n-gon
-
 
 .. figure:: /images/Fill3.jpg
-   :width: 200px
+   :width: 300px
 
-   Filled using fill[Alt][F]
+   Filled using fill
 
 
 note, unlike creating n-gons, fill supports holes.
 
+.. list-table::
 
-.. figure:: /images/Fill1_holes.jpg
-   :width: 200px
+   * - .. figure:: /images/Fill1_holes.jpg
+          :width: 300px
 
-   A closed perimeter of edges with holes
+          A closed perimeter of edges with holes
 
+     - .. figure:: /images/Fill2_holes.jpg
+          :width: 300px
 
-.. figure:: /images/Fill2_holes.jpg
-   :width: 200px
-
-   Filled using fill[Alt][F]
+          Filled using fill
 
 
 Beauty Fill
@@ -87,16 +88,18 @@ Beauty Fill
 It rearrange selected triangles to obtain more "balanced" ones (i.e. less long thin triangles).
 
 
-.. figure:: /images/mesh_beauty_fill_before.jpg
-   :width: 200px
+.. list-table::
 
-   Text converted to a mesh
+   * - .. figure:: /images/mesh_beauty_fill_before.jpg
+          :width: 300px
 
+          Text converted to a mesh
 
-.. figure:: /images/mesh_beauty_fill_after.jpg
-   :width: 200px
+     - .. figure:: /images/mesh_beauty_fill_after.jpg
+          :width: 300px
 
-   Result of Beauty Fill, :kbd:`Alt-Shift-F`
+          Result of Beauty Fill, :kbd:`Alt-Shift-F`
+
 
 .. _modeling-meshes-editing-grid_fill:
 
@@ -112,29 +115,17 @@ Grid Fill
 
 *Grid Fill* uses a pair of connected edge-loops to fill in a grid that follows the surrounding geometry.
 
+.. list-table::
 
-.. figure:: /images/mesh_fill_grid_simple_before.jpg
-   :width: 200px
+   * - .. figure:: /images/mesh_fill_grid_surface_before.jpg
+          :width: 300px
 
-   Input
+          Input
 
+     - .. figure:: /images/mesh_fill_grid_surface_after.jpg
+          :width: 300px
 
-.. figure:: /images/mesh_fill_grid_simple_after.jpg
-   :width: 200px
-
-   Grid fill result
-
-
-.. figure:: /images/mesh_fill_grid_surface_before.jpg
-   :width: 200px
-
-   Input
-
-
-.. figure:: /images/mesh_fill_grid_surface_after.jpg
-   :width: 200px
-
-   Grid fill result
+          Grid Fill Result
 
 
 Convert Quads to Triangles
@@ -179,18 +170,17 @@ it is also possible not to obtain only quads. In fact,
 this tool tries to create "squarishest" quads as possible from the given triangles,
 which means some triangles could remain.
 
+.. list-table::
 
-.. figure:: /images/Fill5.jpg
-   :width: 200px
+   * - .. figure:: /images/Fill5.jpg
+          :width: 300px
 
-   Before converting tris to quads
+          Before converting tris to quads
 
+     - .. figure:: /images/QuadToTris.jpg
+          :width: 300px
 
-.. figure:: /images/QuadToTris.jpg
-   :width: 200px
-
-   After converting tris to quads, with a max angle of 30
-
+          After converting tris to quads
 
 All the menu entries and hotkey use the settings defined in the *Mesh Tools* panel:
 
@@ -270,18 +260,17 @@ This command functions the same edge rotation in edge mode.
 
 It works on the shared edge between two faces and rotates that edge if the edge was selected.
 
+.. list-table::
 
-.. figure:: /images/RotateEdgeFaceMode1.jpg
-   :width: 300px
+   * - .. figure:: /images/RotateEdgeFaceMode1.jpg
+          :width: 300px
 
-   Two faces selected
+          Two Faces Selected
 
+     - .. figure:: /images/RotateEdgeFaceMode2.jpg
+          :width: 300px
 
-.. figure:: /images/RotateEdgeFaceMode2.jpg
-   :width: 300px
-
-   After rotating edge
-
+          Full Render
 
 See :ref:`Rotate Edge <modeling-meshes-editing-edges_rotate>`
 for more information.
