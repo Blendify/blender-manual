@@ -18,4 +18,3 @@
    misc.rst
    retopo.rst
    sculpt_mode.rst
-   multires.rst
