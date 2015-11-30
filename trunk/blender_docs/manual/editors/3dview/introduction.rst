@@ -61,10 +61,10 @@ For more information on specific tools available, see:
 - :ref:`rigid_body-index`
 - :ref:`grease_pencil-index`
 - :ref:`modeling-index`
-- :doc:`Sculpting </modeling/meshes/editing/sculpt_mode>`
-- :doc:`Vertex Painting </render/blender_render/materials/special_effects/vertex_paint>`
-- :doc:`Weight Painting </modeling/meshes/vertex_groups/weight_paint_tools>`
-- :doc:`Texture Painting </render/blender_render/textures/painting/introduction>`
+- :ref:`painting_sculping-index`
+- :ref:`painting_vertex-index`
+- :ref:`painting_weight-index`
+- :ref:`painting_texture-index`
 
 
 Properties Region
