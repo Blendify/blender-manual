@@ -120,7 +120,7 @@ object in your scene.
 
    Last, you can directly set the color of object surfaces using various special effects. Strictly speaking,
    these are not materials at all, but they are included here because they affect the appearance of your objects.
-   These include :doc:`Vertex Painting </render/blender_render/materials/special_effects/vertex_paint>`,
+   These include :ref:`Vertex Painting <painting_vertex-index>`,
    :doc:`Wire Rendering </render/blender_render/materials/special_effects/wire>`,
    :doc:`Volume Rendering </render/blender_render/materials/special_effects/volume>`,
    and :doc:`Halo Rendering </render/blender_render/materials/special_effects/halo>`.

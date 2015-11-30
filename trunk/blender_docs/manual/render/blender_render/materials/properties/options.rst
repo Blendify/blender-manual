@@ -43,10 +43,10 @@ Face Textures Alpha
    :ref:`UV map <editors-uv_image-index>` image textures.
 Vertex Color Paint
    Replace object's base color with
-   :doc:`vertex paint </render/blender_render/materials/special_effects/vertex_paint>`
+   :ref:`vertex paint <painting_vertex-index>`
    colors (multiply with 'texture face' face assigned textures)
 Vertex Color Light
-   Add :doc:`vertex paint </render/blender_render/materials/special_effects/vertex_paint>`
+   Add :ref:`vertex paint <painting_vertex-index>`
    colors as additional lighting.
    (This can be used to produce good incandescence effects).
 Object Color
