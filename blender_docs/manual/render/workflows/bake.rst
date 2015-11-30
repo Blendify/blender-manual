@@ -229,5 +229,5 @@ Workflow
   For full and texture bakes,
   refer to :doc:`Textures </render/blender_render/textures/index>`.
 - Refine the image using the process described below,
-  or embellish with :doc:`Texture Paint </render/blender_render/textures/painting/projection>`
+  or embellish with :ref:`painting_texture-index`
   or an external image editor.
