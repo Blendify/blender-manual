@@ -30,6 +30,7 @@ Sections
    editors/index.rst
    data_system/index.rst
    Modeling <modeling/index.rst>
+   Painting & Sculpting <painting/index.rst>
    Rigging <rigging/index.rst>
    Animation </animation/index.rst>
    Physics <physics/index.rst>
