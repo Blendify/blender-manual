@@ -111,9 +111,6 @@ GPU MipMap Generation
 Anisotropic Filtering
    Set the level of anisotropic filtering. Available Options are:
    *Off'' (No Filtering)* , 2x (Default) , *4x* , *8x* , *16x*
-VBOs
-   Use Vertex Buffer Objects, or vertex arrays if unsupported, for viewport rendering.
-   Helps to speed up viewport rendering by allowing vertex array data to be stored in Graphics card memory.
 
 
 .. _prefs-system-window_draw:
