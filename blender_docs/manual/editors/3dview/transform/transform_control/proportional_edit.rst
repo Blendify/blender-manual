@@ -13,7 +13,7 @@ it is very useful when you need to smoothly deform the surface of a dense mesh.
 
 .. note:: Sculpting
 
-   Blender also has :doc:`Sculpt Mode </modeling/meshes/editing/sculpt_mode>`
+   Blender also has :ref:`painting_sculping-index`
    that contains brushes and tools for proportionally editing a mesh without seeing the individual vertices.
 
 
