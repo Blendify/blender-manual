@@ -35,7 +35,6 @@ The following sections describe the controls in each of the available panels.
 
 
 .. figure:: /images/materials-vertexpaint-toolshelf-tools.jpg
-   :width: 600px
 
    Settings for vertex painting
 
@@ -177,7 +176,6 @@ Options
 *******
 
 .. figure:: /images/materials-vertexpaint-toolshelf-options.jpg
-   :width: 600px
 
    Options for vertex painting
 
@@ -208,5 +206,3 @@ Unified Settings
       All brushes use the same size.
    Strength
       All brushes use the same strength.
-
-
