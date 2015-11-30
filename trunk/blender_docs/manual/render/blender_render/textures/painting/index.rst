@@ -6,4 +6,3 @@
    :maxdepth: 2
 
    introduction.rst
-   projection.rst
