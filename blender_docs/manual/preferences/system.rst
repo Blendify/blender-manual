@@ -94,6 +94,30 @@ OpenCL
    see: :doc:`Cycles </render/cycles/features>` Render engine page
 
 
+.. _prefs-system-opensubdiv:
+
+OpenSubdiv Compute
+==================
+
+The Options here will set the compute device used by OpenSubdiv for the
+:doc:`Subdivision Surface Modifier </modeling/modifiers/generate/subsurf>`.
+
+None
+   Disables any OpenSubdiv compute devices, makes sure legacy subsurf code from Blender is used.
+   Use this option when OpenSubdiv causes any bugs or regressions.
+CPU
+   Single threaded CPU implementation.
+   It is mainly useful in cases when GPU compute is possible and threaded CPU option causes artifacts
+   (it is unlikely to happen, but still possible).
+OpenMP
+   Multi-threaded CPU implementation. It is similar to threading model of old subsurf code.
+   Use it for maximum performance in cases when GPU compute is not available.
+GLSL Transform Feedback
+   Uses GPU to perform calculations, has minimal requirements to video card and driver.
+GLSL Compute
+   Uses GPU to perform calculations,
+   supposed to be more efficient than Transform Feedback but also has higher requirements to video card and driver. 
+
 Open GL
 =======
 
@@ -268,4 +292,3 @@ whenever the user hovers a mouse over Blender tools.
 Blender supports I18N for internationalization.
 For more Information on how to load International fonts,
 see: :doc:`Editing Texts </modeling/texts/editing>` page.
-
