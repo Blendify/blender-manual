@@ -46,7 +46,7 @@ and another that has three maps.
 
 
 When using file textures, it is very important that you have
-:doc:`Mapped the UVs </editors/uv_image/unwrapping>`
+:doc:`Mapped the UVs </editors/uv_image/texturing/unwrapping>`
 of the mesh, and they are laid out appropriately.
 
 You don't have to UV map the *entire* mesh.
@@ -72,8 +72,8 @@ Workflow
 
 The process consists of the following steps.
 
-- Create the Mesh. :doc:`Unwrap </editors/uv_image/unwrapping>` it into one or more
-  :doc:`UV Layouts </editors/uv_image/layout_management>`.
+- Create the Mesh. :doc:`Unwrap </editors/uv_image/texturing/unwrapping>` it into one or more
+  :doc:`UV Layouts </editors/uv_image/texturing/layout_management>`.
 - Create one or more Materials for the Mesh.
 - Create one or more images for each UV Layout and aspect of the texture. Either
   - paint directly on the mesh using Texture Paint in the 3D window,
@@ -103,7 +103,7 @@ Creating an Image Texture
 -------------------------
 
 To create an image within Blender,
-you have to first create a :doc:`New Blank </editors/uv_image/applying_image>`
+you have to first create a :doc:`New Blank </editors/uv_image/texturing/applying_image>`
 Image with a uniform color or test grid.
 After that, you can color the image using the:
 
