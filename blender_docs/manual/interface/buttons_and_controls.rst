@@ -315,6 +315,18 @@ While Hovering
    - :kbd:`K` - add a keying set.
    - :kbd:`Alt-K` - clear the keying-set.
 
+   Python Scripting:
+
+   - :kbd:`Ctrl-Shift-C` - copy the data-path for this property
+     (also available from the right-click menu).
+     Useful when writing drivers or scripts.
+   - :kbd:`Ctrl-Alt-Shift-C` - copy the full data-path for this data-block and property.
+
+     .. warning::
+
+        This is typically bad practice when scripting,
+        in most cases its best to access values based on the context.
+
 While Dragging Numbers
    - :kbd:`Ctrl` - while dragging snap the discrete steps.
    - :kbd:`Shift` - gives finer control over the value.
