@@ -136,15 +136,14 @@ Object Mode
    mode allows you to work with objects as a whole.
 Edit Mode
    Allows you to modify the shape of the object.
-`Sculpt mode </modeling/meshes/editing/sculpt_mode>`
+:ref:`Sculpt Mode <painting_sculping-index>`
    In this mode your cursor becomes a tool to shape the object
 
 The cursor becomes a brush in:
 
-
-- :doc:`Vertex Paint </render/blender_render/materials/special_effects/vertex_paint>` mode
-- :doc:`Weight Paint </modeling/meshes/vertex_groups/weight_paint>` mode
-- :doc:`Texture Paint </render/blender_render/textures/painting/introduction>` mode.
+- :ref:`painting_vertex-index` mode
+- :ref:`painting_weight-index` mode
+- :ref:`painting_texture-index` mode.
 
 
 ViewPort Shading List

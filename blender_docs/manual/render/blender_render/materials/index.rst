@@ -30,7 +30,6 @@
    nodes/types/vector.rst
    nodes/types/converter.rst
    options.rst
-   special_effects/vertex_paint.rst
    special_effects/wire.rst
    special_effects/volume.rst
    special_effects/halo.rst

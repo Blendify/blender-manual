@@ -302,7 +302,7 @@ To modify your new Texture, you can:
 - :doc:`Render Bake </render/workflows/bake>` an image based on how the mesh looks
 
   - The Render Bake feature provides several tools to replace the current image
-    based on a render of :doc:`Vertex Paint </render/blender_render/materials/special_effects/vertex_paint>` colors,
+    based on a render of :ref:`Vertex Paint <painting_vertex-index>` colors,
     Normals (bumps), Procedural materials, textures and lighting, and ambient occlusion.
 - Paint using :doc:`Texture Paint </render/blender_render/textures/painting/introduction>`.
 
