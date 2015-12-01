@@ -290,13 +290,6 @@ While Hovering
    *When the cursor is held over a button*
 
    - :kbd:`Ctrl-C` - copy the value of the button.
-
-     .. note::
-
-        Pressing :kbd:`Ctrl-C` over any `Operation Buttons`_ copies their Python command into the clipboard
-        which can be used in the Python console or in the text editor when writing scripts.
-
-
    - :kbd:`Ctrl-V` - paste the value of the button.
    - :kbd:`RMB` - open the context menu.
    - :kbd:`Backspace` - clears the value (sets to zero or clears a text field).
@@ -317,15 +310,16 @@ While Hovering
 
    Python Scripting:
 
-   - :kbd:`Ctrl-Shift-C` - copy the data-path for this property
+   - :kbd:`Ctrl-C` - over any `Operation Buttons`_ copies their Python command into the clipboard.
+
+     This can be used in the Python console or in the text editor when writing scripts.
+   - :kbd:`Ctrl-Shift-C` - over property buttons copies their data-path for this property
      (also available from the right-click menu).
+
      Useful when writing drivers or scripts.
-   - :kbd:`Ctrl-Alt-Shift-C` - copy the full data-path for this data-block and property.
+   - :kbd:`Ctrl-Alt-Shift-C` - over property buttons copies their *full* data-path for the data-block and property.
 
-     .. warning::
-
-        This is typically bad practice when scripting,
-        in most cases its best to access values based on the context.
+     Note that in most cases its best to access values based on the context, instead of by name.
 
 While Dragging Numbers
    - :kbd:`Ctrl` - while dragging snap the discrete steps.
