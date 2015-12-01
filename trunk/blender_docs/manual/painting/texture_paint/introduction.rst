@@ -2,9 +2,9 @@
 .. note: this is for 3d-viewport painting,
    image editor painting belongs in the image editor section.
 
-****************
-Texture Painting
-****************
+************
+Introduction
+************
 
 A UV Texture is a picture (image, sequence or movie)
 that is used to color the surface of a mesh.
