@@ -103,7 +103,7 @@ Improving Performance
 
 In order to utilize maximum performance form OpenSubdiv the following things are required:
 
-- Subsurf modifier must be last in the :doc:`modifier stack </modeling/modifiers/generate/subsuf>`.
+- Subsurf modifier must be last in the :doc:`modifier stack </modeling/modifiers/the_stack>`.
 - There should be no modifiers prior to Subsurf which changes mesh topology across the time.
 - Other objects should not use geometry of OpenSubdiv mesh
 
