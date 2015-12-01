@@ -94,14 +94,16 @@ evaluation will happen on the compute device selected in the User Preferences.
 Best performance will be achieved when using GLSL evaluation.
 As a result performance of the modifier will be much higher which is great for animations.
 
-To enable OpenSubdiv you must first choose the fastest compute device. To do this see the :ref:`prefs-system-opensubdiv` section. To find more on OpenSubdiv read the `Release Notes <http://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.76/OpenSubdiv>`__.
+To enable OpenSubdiv you must first choose the fastest compute device.
+To do this see the :ref:`prefs-system-opensubdiv` section. To find more on OpenSubdiv read the
+`Release Notes <http://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.76/OpenSubdiv>`__.
 
 Improving Performance
 ---------------------
 
 In order to utilize maximum performance form OpenSubdiv the following things are required:
 
-- Subsurf modifier must be last in the modifier stack (add link to doc)
+- Subsurf modifier must be last in the :doc:`modifier stack </modeling/modifiers/generate/subsuf>`.
 - There should be no modifiers prior to Subsurf which changes mesh topology across the time.
 - Other objects should not use geometry of OpenSubdiv mesh
 
