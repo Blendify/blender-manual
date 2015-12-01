@@ -18,13 +18,20 @@ For more documentation, see the :doc:`Top BGE Physics page </game_engine/physics
 Options
 =======
 
-FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/CommonOptions;
-{{Doc:2.6/Manual/Game_Engine/Physics/CommonOptions}}
-)
+- Actor - Enables detection by Near and Radar Sensors.
+  - Default: On.
+  - Python property: ``obj.game.use_actor``
+- Ghost - Disables collisions completely, similar to No Collision.
+  - Default: Off.
+  - Python property: ``obj.game.use_ghost``
+- Invisible - Does not display, the same as setting the object to unrendered (such as unchecking the "Camera" icon in the Outliner).
+  - Default: Off.
+  - Python property: ``obj.use_render``
 
-FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/MassOption;
-{{Doc:2.6/Manual/Game_Engine/Physics/MassOption}}
-)
+- Mass - Affects the reaction due to collision between objects -- more massive objects have more inertia. Will also affect material force fields. Will also change behaviors if you are using the suspension and steering portions of Bullet physics.
+   - Range: 0.01-10,000.
+   - Default: 1.
+   - Python property: ``obj.game.mass`` 
 
 
 - *Shape Match* - Upon starting the Game Engine this will record the starting
@@ -162,13 +169,3 @@ A common practice within the non-BGE Cloth simulator is to employ
 
 These do not work in the BGE, so you will have to figure out a way to use Python
 (or perhaps plain Logic Bricks) to apply forces to the Soft Body objects.
-
-
-All Types
-=========
-
-FIXME(Template Unsupported: Doc:2.6/Manual/Game_Engine/Physics/AllTypes;
-{{Doc:2.6/Manual/Game_Engine/Physics/AllTypes}}
-)
-
-

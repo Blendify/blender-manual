@@ -12,12 +12,6 @@ You can use these textures wherever you can use regular textures:
 you can place them in texture channels, in material nodes, in particle systems,
 and even inside other textures.
 
-
-FIXME(Template Unsupported: Doc:2.6/Reference/Nodes/Concepts;
-{{Doc:2.6/Reference/Nodes/Concepts}}
-)
-
-
 .. note::
 
    Node-based textures do **not** work for realtime display, they will only be visible in rendered images.

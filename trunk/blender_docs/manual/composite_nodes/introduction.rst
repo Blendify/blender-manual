@@ -37,15 +37,9 @@ Access the :doc:`Node Editor </editors/node_editor/index>` and enable
 *Composite Nodes* by clicking on the *Image* icon.
 
 
-.. figure:: /images/Compositing-Node_Header.jpg
+.. figure:: /images/editors_nodeeditor_header.jpg
 
    Node Editor Header with Composite Nodes enabled
-
-
-.. figure:: /images/Using_Nodes-WindowsType.jpg
-
-   Select the Node Editor window
-
 
 To activate nodes for compositing, click the *Use Nodes* checkbox.
 Blender creates a default node setup, consisting out of two nodes linked together.
@@ -72,6 +66,75 @@ in a sort of map layout, to your heart's content (or physical memory constraints
 
    Nodes and node conecpts are explained in more detail in the :doc:`Node Editor </editors/node_editor/index>`
 
+Buttons for work with Compositing nodes
+=======================================
+
+Free Unused Button
+------------------
+
+This button frees up memory space when you have a very complex node map. Recommended.
+
+
+Backdrop
+--------
+
+Use the active viewer node output as a backdrop. When enabled,
+additional settings appear in the Header and the Properties Panel:
+
+
+.. figure:: /images/editors_nodeeditor_backdropchannels.jpg
+
+   Backdrop Channels.
+
+
+Backdrop Channels
+   Set the image to be displayed with *Color*, *Color and Alpha*, or just *Alpha*.
+
+
+.. figure:: /images/editors_nodeeditor_zoomoffset.jpg
+   :align: right
+
+   Backdrop Options
+
+
+Zoom
+   Sets how big the backdrop image is.
+Offset
+   Change the screen space position of the backdrop,
+   or click the *Move* button, or shortcut :kbd:`Alt-MMB` to manually move it.
+
+
+Auto Render
+-----------
+
+Re-render and composite changed layer when edits to the 3d scene are made.
+
+
+Perfomance for Compositing Nodes in Node Editor
+===============================================
+
+.. figure:: /images/editors_nodeeditor_performancepanel.jpg
+   :align: right
+
+   Perfomance Settings
+
+
+Render
+   Set quality when rendering in Node Editor.
+Edit
+   Set quality when editing in Node Editor
+Chunk Size
+   Max size of a title (smaller values give better distribution of multiple threads, but more overhead).
+OpenCL
+   Enable GPU calculations when working in Node Editor.
+Buffer Groups
+   Enable buffering of group nodes.
+Two Pass
+   Use two pass execution during editing: first calculate fast nodes, second pass calculate all nodes.
+Viewer Border
+   Use boundaries for viewer nodes and composite backdrop.
+Highlight
+   Highlight nodes that are being calculated.
 
 Examples
 ========

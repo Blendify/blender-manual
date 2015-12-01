@@ -13,10 +13,18 @@ make sure that the normals of the obstacle are calculated correctly, and radiati
 particularly when using a spinned container. Applying the Modifier *SubSurf* before
 baking the simulation could also be a good idea if the mesh is not animated.
 
+Volume initialization type
 
-FIXME(Template Unsupported: Doc:2.6/Manual/Physics/Fluid/volume_init;
-{{Doc:2.6/Manual/Physics/Fluid/volume_init}}
-)
+    Volume
+       The inside of the object is initialized as fluid all . This works only if the closed mesh .
+    Shell
+       It is initialized as a thin fluid layer of the surface of the mesh . This can also be used in the mesh open.
+    Both
+       It is a state , such as the sum of the Volume and Shell. This also must be a closed mesh.
+
+.. figure:: /images/physics_fluid_initialization.jpg
+
+   Example of different types of initiation of volume
 
 Boundary type
    Determines the stickiness of the obstacle surface, called "Surface Adhesion".
@@ -39,10 +47,11 @@ Boundary type
    Example of the different boundary types for a drop falling onto the slanted wall.
    From left to right: no-slip, part-slip 0.3, part-slip 0.7 and free-slip.
 
-
-FIXME(Template Unsupported: Doc:2.6/Manual/Physics/Fluid/animated_mesh_export;
-{{Doc:2.6/Manual/Physics/Fluid/animated_mesh_export}}
-)
+Animated Mesh/Export
+   Click this button if the network is animated (eg . Deformed by an armature ,
+   shape keys (shape keys) or lattice).
+   It can become very slow and is not necessary if the network is animated IPO position and rotation
+   (ie only object transformations).
 
 PartSlip Amount
    Amount of mixing between no- and free-slip, described above.

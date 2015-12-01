@@ -51,10 +51,6 @@ This section covers:
 - The Node Editor window, its basic controls, and working with nodes.
 - The specific types of nodes available for materials.
 
-
-FIXME(Template Unsupported: Doc:2.6/Reference/Nodes/Concepts; {{Doc:2.6/Reference/Nodes/Concepts}})
-
-
 Accessing The Node Editor
 =========================
 
@@ -118,4 +114,3 @@ and also use the material that you used to create the node tree.
 
 Here, we added a new material in the *Node editor* (*Material.001*),
 and as we did, we can access the properties of this material in the material's menu.
-

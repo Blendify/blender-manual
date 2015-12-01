@@ -199,8 +199,7 @@ Gestures
 ========
 
 There quite a few things about strokes editing that are only available through gestures.
-Gestures are started by clicking and holding
-FIXME(Template Unsupported: Shortcut/Keypress; {{Shortcut/Keypress|shift}}) :kbd:`LMB`
+Gestures are started by clicking and holding :kbd:`Shift-LMB`
 (when you are not already drawing a stroke), and materialized by blue-to-white lines.
 A gesture can affect several strokes at once.
 
