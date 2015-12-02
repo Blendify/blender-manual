@@ -215,7 +215,7 @@ shares the overall normal orientation of that original face.
    * - .. figure:: /images/SubSurf05b.jpg
           :width: 300px
      - .. figure:: /images/SubSurf05a.jpg
-          :width: 250px
+          :width: 300px
    * - Comparison of good normals and bad normals
      - Side view of image on left
 
