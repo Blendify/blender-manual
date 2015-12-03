@@ -1,5 +1,3 @@
-.. Text was taken from old wiki to be reviewed
-.. http://wiki.blender.org/index.php/User:Sculptorjim/Game_Engine/Physics/Objects/Dynamic
 
 ***************************
 Dynamic Physics Object Type
