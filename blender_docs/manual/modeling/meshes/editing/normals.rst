@@ -8,6 +8,14 @@ Introduction
 Displaying Normals
 ==================
 
+To show the normals of the faces, you can open the Transform Panel,
+find the Mesh display tab, and click on the small cube without the orange dot.
+You can also change the height of the axis that points the direction of the normal. The default is ``0.1``.
+
+.. figure:: /images/modeling_meshes_editing_normals_display.png
+
+   Normal Display Options
+
 Editing
 =======
 
