@@ -345,11 +345,3 @@ Shape Key Operators
 
 3D View > Edit Mode > Header > Mesh > Vertices > Blend From Shape
    Blend in shape from a shape key.
-
-
-See Also
-========
-
-- :doc:`2.4 Shape Keys </animation/shape_keys>`
-- `Add-on: Corrective Shape Key
-  <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Animation/Corrective_Shape_Key>`__
