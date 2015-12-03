@@ -2,13 +2,14 @@
 Normals
 *******
 
+Introduction
+============
+
+Displaying Normals
+==================
+
 Editing
 =======
-
-As normals are mainly a face "sub-product", we describe their few options here also.
-
-See :doc:`Smoothing </modeling/meshes/smoothing>` for additional information on working with face normals.
-
 
 Flip Direction
 --------------

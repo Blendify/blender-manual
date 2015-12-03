@@ -9,6 +9,7 @@
 
    introduction.rst
    basics/index.rst
+   normals.rst
    vertices.rst
    edges.rst
    faces.rst
