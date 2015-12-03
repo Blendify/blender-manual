@@ -17,4 +17,3 @@
    duplicating/index.rst
    subdividing/index.rst
    misc.rst
-   retopo.rst
