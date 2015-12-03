@@ -151,17 +151,17 @@ Usage
 By default, the position of vertices on the edge loop move as a percentage of the distance
 between their original position and the adjacent edge loop, regardless of the edges' lengths.
 
+.. list-table::
 
-.. figure:: /images/EdgeSlide1.jpg
-   :width: 250px
+   * - .. figure:: /images/EdgeSlide1.jpg
+          :width: 300px
 
-   selected edge loop
+          Selected Edge Loop
 
+     - .. figure:: /images/EdgeSlide2.jpg
+          :width: 300px
 
-.. figure:: /images/EdgeSlide2.jpg
-   :width: 250px
-
-   Repositioned edge loop
+          Repositioned Edge Loop
 
 
 Even mode
@@ -178,17 +178,17 @@ length indicator in the header changes showing where along the length of the edg
 To change the control edge that determines the position of the edge loop,
 use the :kbd:`Alt-Wheel` to scroll to a different edge.
 
+.. list-table::
 
-.. figure:: /images/EdgeSlide3.jpg
-   :width: 250px
+   * - .. figure:: /images/EdgeSlide3.jpg
+          :width: 300px
 
-   Even mode enabled
+          Even Mode Enabled
 
+     - .. figure:: /images/EdgeSlide4.jpg
+          :width: 300px
 
-.. figure:: /images/EdgeSlide4.jpg
-   :width: 250px
-
-   Even mode with flip enabled
+          Even Mode with Flip Enabled
 
 
 Moving the mouse moves the selected edge loop towards or away from the start vertex,
@@ -239,17 +239,17 @@ vertices. This is very useful for restructuring a mesh's topology.
 The tool can operate on one explicitly selected edge,
 or on two selected vertices or two selected faces that implicitly share an edge between them.
 
+.. list-table::
 
-.. figure:: /images/EdgeFlip1.jpg
-   :width: 250px
+   * - .. figure:: /images/EdgeFlip1.jpg
+          :width: 300px
 
-   selected edge
+          Selected Edge
 
+     - .. figure:: /images/EdgeFlip2.jpg
+          :width: 300px
 
-.. figure:: /images/EdgeFlip2.jpg
-   :width: 250px
-
-   Edge, rotated CW
+          Edge, rotated CW
 
 
 Using Face Selection
@@ -294,17 +294,17 @@ the surrounding edges. If the edges had been deleted by choosing *Edges* from th
 (*Erase* *Menu*)
 there would be an empty band of deleted faces all the way around the sphere instead.
 
+.. list-table::
 
-.. figure:: /images/DeleteEdgeLoop1.jpg
-   :width: 300px
+   * - .. figure:: /images/DeleteEdgeLoop1.jpg
+          :width: 300px
 
-   Selected edge loop
+          Selected Edge Loop
 
+     - .. figure:: /images/DeleteEdgeLoop2.jpg
+          :width: 300px
 
-.. figure:: /images/DeleteEdgeLoop2.jpg
-   :width: 300px
-
-   Edge loop deleted
+          Edge Loop Deleted
 
 
 Collapse
@@ -322,17 +322,17 @@ This takes a selection of edges and for each edge, merges its two vertices toget
 This is useful for taking a ring of edges and collapsing it,
 removing the face loop it ran through.
 
+.. list-table::
 
-.. figure:: /images/Collapse1.jpg
-   :width: 300px
+   * - .. figure:: /images/Collapse1.jpg
+          :width: 300px
 
-   Selected edge ring
+          Selected Edge Ring
 
+     - .. figure:: /images/Collapse2.jpg
+          :width: 300px
 
-.. figure:: /images/Collapse2.jpg
-   :width: 300px
-
-   Edge ring collapsed
+          Edge Ring Collapsed
 
 
 Edge Split
@@ -350,17 +350,18 @@ Edge Split
 or a border edge is selected when using *Edge split*,
 a hole will be created, and the selected edges are duplicated to form the border of the hole
 
+.. list-table::
 
-.. figure:: /images/EdgeSplit1.jpg
-   :width: 300px
+   * - .. figure:: /images/EdgeSplit1.jpg
+          :width: 300px
 
-   Selected edges
+          Selected Edges
 
+     - .. figure:: /images/EdgeSplit2.jpg
+          :width: 300px
 
-.. figure:: /images/EdgeSplit2.jpg
-   :width: 300px
+          Adjacent face moved to reveal hole left by split
 
-   Adjacent face moved to reveal hole left by split
 
 .. _modeling-meshes-editing-bridge_edge_loops:
 
@@ -378,74 +379,70 @@ Bridge Edge Loops
 
 Simple example showing 2 closed edge loops.
 
+.. list-table::
 
-.. figure:: /images/mesh_bridge_simple_before.jpg
-   :width: 300px
+   * - .. figure:: /images/mesh_bridge_simple_before.jpg
+          :width: 300px
 
-   Input
+          Input
 
+     - .. figure:: /images/mesh_bridge_simple_after.jpg
+          :width: 300px
 
-.. figure:: /images/mesh_bridge_simple_after.jpg
-   :width: 300px
-
-   Bridge result
-
+          Bridge Result
 
 Example of bridge tool between edge loops with different numbers of vertices.
 
+.. list-table::
 
-.. figure:: /images/mesh_bridge_uneven_before.jpg
-   :width: 300px
+   * - .. figure:: /images/mesh_bridge_uneven_before.jpg
+          :width: 300px
 
-   Input
+          Input
 
+     - .. figure:: /images/mesh_bridge_uneven_after.jpg
+          :width: 300px
 
-.. figure:: /images/mesh_bridge_uneven_after.jpg
-   :width: 300px
-
-   Bridge result
-
+          Bridge Result
 
 Example using the bridge tool to punch holes in face selections and connect them.
 
+.. list-table::
 
-.. figure:: /images/mesh_bridge_faces_before.jpg
-   :width: 300px
+   * - .. figure:: /images/mesh_bridge_faces_before.jpg
+          :width: 300px
 
-   Input
+          Input
 
+     - .. figure:: /images/mesh_bridge_faces_after.jpg
+          :width: 300px
 
-.. figure:: /images/mesh_bridge_faces_after.jpg
-   :width: 300px
-
-   Bridge result
-
+          Bridge Result
 
 Example showing how bridge tool can detect multiple loops and loft them in one step.
 
+.. list-table::
 
-.. figure:: /images/mesh_bridge_multi_before.jpg
-   :width: 300px
+   * - .. figure:: /images/mesh_bridge_multi_before.jpg
+          :width: 300px
 
-   Input
+          Input
 
+     - .. figure:: /images/mesh_bridge_multi_after.jpg
+          :width: 300px
 
-.. figure:: /images/mesh_bridge_multi_after.jpg
-   :width: 300px
-
-   Bridge result
-
+          Bridge Result
 
 Example of the subdivision option and surface blending with UV's.
 
+.. list-table::
 
-.. figure:: /images/mesh_bridge_advanced_before.jpg
-   :width: 300px
+   * - .. figure:: /images/mesh_bridge_advanced_before.jpg
+          :width: 300px
 
-   Input
+          Input
 
+     - .. figure:: /images/mesh_bridge_advanced_after.jpg
+          :width: 300px
 
-.. figure:: /images/mesh_bridge_advanced_after.jpg
-   :width: 300px
-
-   Bridge result
+          Bridge Result
