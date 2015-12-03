@@ -17,8 +17,8 @@ to create a single compound object out of two mesh objects.
 .. TODO: Update image with 'Show all Edges' enabled
 .. figure:: /images/Modifier_Generate_Boolean_Union_Intersect_Difference_Examples.jpg
 
-   Fig. 1 - The Union, Intersection and Difference between a Cube and a UV Sphere,
-   with the modifier applied to the Sphere and using the cube as target. (Detail, Union is using Ngons).
+   The Union, Intersection and Difference between a Cube and a UV Sphere,
+   with the modifier applied to the Sphere and using the cube as target.
 
 
 Description
@@ -38,17 +38,17 @@ and you will have to move or hide the target to see the resulting mesh.
 The only exception is when you are using inverted normals;
 in this case, depending on the calculations, you will also change the topology of the target.
 You can see one example of a target being modified in the
-:ref:`Materials <boolean_materials>` section in this page, see Fig. 7 and 8.
+:ref:`Materials <boolean_materials>` section in this page.
 
 The results of the mesh operation will only be shown in Object Mode of the 3D View.
 
 .. note::
+
    - The Boolean modifier works with open and closed volumes.
    - The Boolean modifier doesn't work on edges without faces.
    - The target topology determines the new topology of the modified mesh.
    - The face normals are taken into account for the calculations.
    - Whether faces are marked for smooth or flat for shading doesn't affect the calculations of this modifier.
-     (See Fig. 28 and 29.)
    - The line at which this modifier is calculated is delimited by the first tangential contact
      between faces of the modified mesh and target.
 
@@ -66,19 +66,17 @@ Usage
 
 Using the default Blender install, with the desired mesh Object selected,
 go to the *Properties Window* which is located at the right of your Blender Screen,
-below the Outliner. Click on the Modifiers Context, which is represented by a wrench (see Fig.
-2 - The Boolean modifier; the wrench is highlighted in blue). Then, click on the *Add Modifier*
+below the Outliner. Click on the Modifiers Context, which is represented by a wrench -
+The Boolean modifier. Then, click on the *Add Modifier*
 Button and Blender will show you a list of all of the available Modifiers.
 The Boolean modifier is located on the third row in the *Generate* Column.
 
 You can also click on the *Add Modifier* Button and use :kbd:`N` to add the
-Boolean modifier,
-or use Blender search with the shortcut :kbd:`Spacebar` and type "Add Modifier",
+Boolean modifier, or use Blender search with the shortcut :kbd:`Spacebar` and type "Add Modifier",
 click on *Add Modifier* and press :kbd:`N`.
 
-When you add the Boolean modifier for an Object,
-Blender will need a second Object to perform the operation. You can use open or closed Meshes,
-as long as they have faces for calculations.
+When you add the Boolean modifier for an Object, Blender will need a second Object to perform the operation.
+You can use open or closed Meshes, as long as they have faces for calculations.
 
 You can add one or more modifiers of this type for an Object but you can only apply one
 operation for the Boolean modifier at a time.
@@ -89,7 +87,7 @@ Options
 
 .. figure:: /images/Modifier_Generate_Boolean_Boolean_Modifier_Options.jpg
 
-   Fig. 2 - The Boolean Modifier
+   Boolean Modifier Options
 
 
 Operations
@@ -132,62 +130,50 @@ The Boolean modifier preserves the Materials of the participant Meshes,
 including their basic textures and mappings, and the modified mesh will receive its first
 active material index assigned to its new topology (the first active material).
 
+Below, some examples are shown to exemplify how materials work with the Boolean modifier;
+we took the cube as the modified mesh, and the icosphere as the target with one material
+(white). We added four different indexes to one of the faces of the cube,
+leaving another basic material in the other faces.
+The top left image shows how the Boolean modifier interacts with the materials.
+The other three images show the three different Boolean operations applied to the modified mesh.
+In all the images the meshes have normals pointed outwards with the Icosphere as the target,
+and the Cube being the modified mesh.
+
+.. list-table::
+
+   * - .. figure:: /images/Modifier_Generate_Boolean_Multi_Materials_Example_Base.jpg
+
+          Cube with Multi-Materials and Icosphere with basic Material
+
+     - .. figure:: /images/Modifier_Generate_Boolean_Multi_Materials_Example_Union.jpg
+
+          Union: The first active Material of the Cube is added to the new topology
+
+   * - .. figure:: /images/Modifier_Generate_Boolean_Multi_Materials_Example_Difference_.jpg
+
+          Difference: The Icosphere was subtracted from the Cube
+
+     - .. figure:: /images/Modifier_Generate_Boolean_Multi_Materials_Example_Intersect_.jpg
+
+          Intersect: The resulting Mesh was copied and rotated 180
+
 The only exception is the difference operation when the normals of the target and modified
-mesh are inverted (Fig 7 and 8). In this case, Blender will project the textures in an
+mesh are inverted. In this case, Blender will project the textures in an
 inverted direction over the target using the center contact of the meshes as a pivot and the
 resulting mesh will have the modified mesh subtracted from the target.
 For complex target meshes in some particular cases,
 you may have to reassign materials to faces because Blender will use the possible projection,
-and this may result in a sub-optimal texture assignment.
+and this may result in a sub-optimal texture assignment. You can see this in the last example below.
 
-Below, some examples are shown to exemplify how materials work with the Boolean modifier;
-we took the cube as the modified mesh, and the icosphere as the target with one material
-(white). We added four different indexes to one of the faces of the cube,
-leaving another basic material in the other faces. Fig.
-3 shows how the Boolean modifier interacts with the materials.
-Figs. 4, 5 and 6 show three different Boolean operations applied to the modified mesh.
-The meshes used have normals pointed outwards (Normal meshes).
-See their captions for more information.
+.. list-table::
 
+   * - .. figure:: /images/Modifier_Generate_Boolean_Multi_Materials_Example_Inverted_Normals_Back.jpg
 
-.. figure:: /images/Modifier_Generate_Boolean_Multi_Materials_Example_Base.jpg
+          Front of the target with the modified mesh materials
 
-   Fig. 3 - Cube with Multi-Material Mesh (modified) and Icosphere (target) with basic Material
+     - .. figure:: /images/Modifier_Generate_Boolean_Multi_Materials_Example_Inverted_Normals_Front.jpg
 
-
-.. figure:: /images/Modifier_Generate_Boolean_Multi_Materials_Example_Union.jpg
-
-   Fig. 4 - Union - The first active Material of the Cube
-   is added to the new topology; other materials remain in the old topology
-
-
-.. figure:: /images/Modifier_Generate_Boolean_Multi_Materials_Example_Difference_.jpg
-
-   Fig. 5 - Difference - The Icosphere was subtracted from the Cube;
-   the new topology has received the first active Material of the Cube
-
-
-.. figure:: /images/Modifier_Generate_Boolean_Multi_Materials_Example_Intersect_.jpg
-
-   Fig. 6 - Intersect - The resulting Mesh was copied and rotated 180- -
-   You can see the first active material of the cube in the back face (new topology);
-   the front face received the 4 basic materials of the cube.
-
-
-In our last examples (Figs. 7 and 8) of how the Boolean modifier works with Materials,
-we have inverted normals for both the target (Icosphere) and modified mesh (Cube).
-As we said before, this is an exception rather than the rule.
-As you can see, the target received the materials of the modified mesh.
-
-
-.. figure:: /images/Modifier_Generate_Boolean_Multi_Materials_Example_Inverted_Normals_Back.jpg
-
-   Fig. 7 - Front of the target with the modified mesh materials
-
-
-.. figure:: /images/Modifier_Generate_Boolean_Multi_Materials_Example_Inverted_Normals_Front.jpg
-
-   Fig. 8 - Back of the target with the modified mesh materials
+          Back of the target with the modified mesh materials
 
 
 UV Mappings
@@ -205,37 +191,29 @@ Blender will also use the same image mapped to the target faces in the modified 
 
 Below we have four Images, a UV sphere mapped with a test grid tinted blue and the other face tinted in purple,
 one face of the cube tinted in a light orange and the other faces using the normal test grid.
-Fig. 9 shows the operation at the start (difference), and on the right (Fig. 10),
-the resulting mesh. In Figs. 11 and 12 we show the unwrap in the Blender UV/Image Editor Window.
+The firat image shows the operation at the start (difference), and on to the right of that shows the resulting mesh.
+And in the bottom row we show the unwrap in the Blender UV/Image Editor Window.
 
+.. list-table::
 
-.. figure:: /images/Modifier_Generate_Boolean_UV_Boolean_Difference_Operation_Op_Start.jpg
+   * - .. figure:: /images/Modifier_Generate_Boolean_UV_Boolean_Difference_Operation_Op_Start.jpg
 
-   Fig. 9 - A UV Sphere and a Cube with different UV Maps
+          A UV Sphere and a Cube with different UV Maps
 
+     - .. figure:: /images/Modifier_Generate_Boolean_UV_Boolean_Difference_Operation_Applied.jpg
 
-.. figure:: /images/Modifier_Generate_Boolean_UV_Boolean_Difference_Operation_Applied.jpg
+          Difference operation applied
 
-   Fig. 10 - Difference operation applied
+   * - .. figure:: /images/Modifier_Generate_Boolean_UV_Map_Face_Modified_Mesh.jpg
 
+          Faces of the modified mesh mapped
 
-.. figure:: /images/Modifier_Generate_Boolean_UV_Map_Face_Modified_Mesh.jpg
+     - .. figure:: /images/Modifier_Generate_Boolean_UV_Map_Face_Modified_Mesh_New_Topology.jpg
 
-   Fig. 11 - Faces of the modified mesh mapped
-
-
-.. figure:: /images/Modifier_Generate_Boolean_UV_Map_Face_Modified_Mesh_New_Topology.jpg
-
-   Fig. 12 - New topology mapped and UV faces assigned; we have another image assigned to the purple tinted faces.
-
+          New topology mapped and UV faces assigned
 
 Other Modifiers
 ===============
-
-.. figure:: /images/Modifier_Generate_Boolean_Error_Message_Boolean_Operation.jpg
-
-   Fig. 13 - Boolean modifier with error message
-
 
 The Boolean modifier calculation is performed using the target modified mesh
 topology and dimensions. Other modifiers added to the modified mesh are bypassed.
@@ -253,10 +231,14 @@ The Boolean modifier can be added together with other modifiers in the modified 
 but depending on the modifier,
 the calculations can't be done and/or the modifier cannot execute.
 When the modifier cannot execute,
-it will show the message ``"Cannot execute boolean operation"`` (see Fig. 13),
+it will show the message ``"Cannot execute boolean operation"``,
 and when the modifier cannot be applied to the mesh,
 Blender will show the message ``"Modifier is disabled, Skipping Apply."``.
 In this case, you either have to remove some modifiers or apply the necessary ones.
+
+.. figure:: /images/Modifier_Generate_Boolean_Error_Message_Boolean_Operation.jpg
+
+   Boolean Modifier with error message
 
 The most common case is when you add or copy a Boolean modifier to use the
 modified mesh in conjunction with another target later; Blender will place the warning in the
@@ -275,19 +257,17 @@ When the Boolean modifier is the first of the stack and is applied, the other Mo
 act over the resulting meshes using the resulting topology and will remain in the modifiers
 stack.
 
-Below are two images: one with the subsurf added to the target (Fig. 14),
-and another with the resulting topology (Fig. 15).
+Below are two images: one with the subsurf added to the target, and another with the resulting topology.
 
+.. list-table::
 
-.. figure:: /images/Modifier_Generate_Boolean_Subsurf_Added_To_The_Target.jpg
+   * - .. figure:: /images/Modifier_Generate_Boolean_Subsurf_Added_To_The_Target.jpg
 
-   Fig. 14 - The Subsurf is only added to the target (Icosphere), not applied
+          Modifier with Subsurf Target
 
+     - .. figure:: /images/Modifier_Generate_Boolean_Resulting_Mesh_Subsurf_Added_To_The_Target.jpg
 
-.. figure:: /images/Modifier_Generate_Boolean_Resulting_Mesh_Subsurf_Added_To_The_Target.jpg
-
-   Fig. 15 - The resulting topology. The Subsurf added to the target was taken into account
-
+          The Resulting Topology
 
 As you can see, the added (not applied) subsurf to the target was taken into consideration.
 The topology of the Icosphere with subsurf (Level 2) was completely transferred to the modified mesh.
@@ -317,7 +297,6 @@ Hints
 Be aware that other modifiers and their stack position could cause this modifier to fail in
 certain circumstances.
 
-
 .. tip::
 
    The best way to work with this modifier when you need to make lots of sequential operations
@@ -345,48 +324,44 @@ outwards for the faces of the topology used for calculations. In this case,
 Blender will enable the modifier and you may apply the modifier, but with bad to no effects.
 We made some examples with a cube and an icosphere showing the results.
 
+In the images below, all face normals are pointing outwards (Normal meshes).
 
-See Fig. 16 and 17 - All face normals are pointing outwards (Normal meshes).
+.. list-table::
 
+   * - .. figure:: /images//Modifier_Generate_Boolean_Normals_Pointing_Outwards.jpg
 
-.. figure:: /images/Modifier_Generate_Boolean_Normals_Pointing_Outwards.jpg
+          Faces with normals pointing outwards
 
-   Fig. 16 - Faces with normals pointing outwards
+     - .. figure:: /images/Modifier_Generate_Boolean_Difference_Normals_Pointing_Outwards.jpg
 
+          Normal Boolean modifier operation (Difference operation)
 
-.. figure:: /images/Modifier_Generate_Boolean_Difference_Normals_Pointing_Outwards.jpg
+In the images below, all  face normals are inverted and using the intersection operation 
 
-   Fig. 17 - Normal Boolean modifier operation (Difference operation)
+.. list-table::
 
+   * - .. figure:: /images/Modifier_Generate_Boolean_Normals_Pointing_Inwards.jpg
 
-See Fig. 18 and 19 - All face normals are pointing inwards (Meshes with inverted normals)
+          Boolean Operation with inverted normals
 
+     - .. figure:: /images/Modifier_Generate_Boolean_Intersection_Normals_Pointing_Inwards.jpg
 
-.. figure:: /images/Modifier_Generate_Boolean_Normals_Pointing_Inwards.jpg
-
-   Fig. 18 - Faces with normals pointing inwards
-
-
-.. figure:: /images/Modifier_Generate_Boolean_Intersection_Normals_Pointing_Inwards.jpg
-
-   Fig. 19 - Normal Boolean modifier operation (Intersection operation)
-
+          Normal Boolean modifier operation
 
 Now, let's see what happens when the normal directions are mixed for one of the
-participants in the Boolean modifier operation.
-In Fig. 20 - Face normals mixed, pointed to different directions and 21 - Resulting operation,
+participants in the Boolean modifier operation. The images below show face normals mixed,
+pointed to different directions and the resulting operation,
 you can see that the modifier has bad effects when applied, leaving faces opened:
 
+.. list-table::
 
-.. figure:: /images/Modifier_Generate_Boolean_Normals_Mixed_Inwards_Outwards.jpg
+   * - .. figure:: /images/Modifier_Generate_Boolean_Normals_Mixed_Inwards_Outwards.jpg
 
-   Fig. 20 - Face normals mixed, pointed to different directions
+          Face normals mixed, pointed to different directions
 
+     - .. figure:: /images/Modifier_Generate_Boolean_Resulting_Mesh_Normals_Mixed.jpg
 
-.. figure:: /images/Modifier_Generate_Boolean_Resulting_Mesh_Normals_Mixed.jpg
-
-   Fig. 21 - Resulting operation, Modifier has bad effect when applied, leaving faces opened
-
+          Resulting operation leaves  faces opened
 
 As you can see, the normal directions can be pointing to any of the Mesh sides,
 but can't be mixed in opposite directions for the faces of the participants.
@@ -398,31 +373,23 @@ operation.
 Tip for Fixing Mixed Normals
 ----------------------------
 
+.. figure:: /images/Modifier_Generate_Boolean_Mesh_Display_Transform_Panel.jpg
+   :align: right
+
+   Mesh Display Panel
+
 You can fix mixed normals by recalculating them outside or inside;
 here we also give you a small hint on how to do this prior to Boolean modifier usage:
 
-
-.. figure:: /images/Modifier_Generate_Boolean_Mesh_Display_Transform_Panel.jpg
-
-   Fig. 22 - Mesh Display in the Transform Panel
-
-
-To show the normals of the faces, you can open the Transform Panel, find the Mesh display tab,
-and click on the small cube without the orange dot. (See Fig. 22 - Mesh Display in the Transform Panel.)
-You can also change the height of the axis that points the direction of the normal.
-The default is ``0.1``.
+To show the normals of the faces, you can open the Transform Panel,
+find the Mesh display tab, and click on the small cube without the orange dot.
+You can also change the height of the axis that points the direction of the normal. The default is ``0.1``.
 
 When some normal directions are mixed pointing inwards and outwards, you can recalculate them to the inside
-using :kbd:`Ctrl-Shift-N` and to outside using :kbd:`Ctrl-N`.
-If the normals still get mixed due to Mesh complexities,
+using :kbd:`Ctrl-Shift-N` and to outside using :kbd:`Ctrl-N`. If the normals still get mixed due to Mesh complexities,
 you can change to Face selection Mode while in Edit Mode using :kbd:`Ctrl-Tab` and choosing *Face Mode*.
 Then select the faces that are pointing in the wrong direction using :kbd:`Shift-RMB` and use the *Mesh* Menu entry
 in the Header of the 3D View, go to *Normals* and choose *Flip Normals*:
-
-
-.. figure:: /images/Modifier_Generate_Boolean_Recalculate_Normals_Menu_Mesh_Edit_Mode.jpg
-
-   Fig. 23 - Recalculate and Flip Normals in Mesh Menu Entry - 3D View
 
 
 Empty or Duplicated Faces
@@ -444,70 +411,54 @@ Below we show an example of meshes with open faces mixed with normal faces being
 In this example, a difference between the cube and the icosphere is applied,
 but Blender connected a copy of the icosphere to the Cube mesh, trying to apply what was possible.
 
+.. list-table::
 
-.. figure:: /images/Modifier_Generate_Boolean_Mesh_With_Mixed_Empty_Faces.jpg
+   * - .. figure:: /images/Modifier_Generate_Boolean_Mesh_With_Mixed_Empty_Faces.jpg
 
-   Fig. 24 - Mesh with two empty faces mixed with normal faces
+          Mesh with two empty faces mixed with normal faces
 
+     - .. figure:: /images/Modifier_Generate_Boolean_Mesh_With_Mixed_Empty_Faces_Result.jpg
 
-.. figure:: /images/Modifier_Generate_Boolean_Mesh_With_Mixed_Empty_Faces_Result.jpg
-
-   Fig. 25 - Result of a difference operation applied - Blender connected what was possible.
+          Result of a difference operation applied
 
 
 Open Volumes
 ============
 
-The Boolean modifier permits you to use open meshes or non-closed volumes
+The Boolean Modifier permits you to use open meshes or non-closed volumes
 (not open faces).
 
 When using open meshes or non-closed volumes, the Boolean modifier won't perform
 any operation in faces that don't create a new topology filled with faces using the faces of
 the target.
 
+In the images below, is the resulting operation when using two non-closed volumes with faces forming a new topology.
 
-See Fig. 26 and Fig. 27 - Resulting operation using two non-closed volumes with faces forming a new topology.
+.. list-table::
 
+   * - .. figure:: /images/Modifier_Generate_Boolean_Complete_Face_Shape.jpg
 
-.. figure:: /images/Modifier_Generate_Boolean_Complete_Face_Shape.jpg
+          Non-closed volumes forming a new topology
 
-   Fig. 26 - Non-closed volumes forming a new topology
+     - .. figure:: /images/Modifier_Generate_Boolean_Resulting_Complete_Face_Shape.jpg
 
-
-.. figure:: /images/Modifier_Generate_Boolean_Resulting_Complete_Face_Shape.jpg
-
-   Fig. 27 - Resulting operation using two open volumes performing a new closed topology
-
+          Resulting operation using two open volumes
 
 Now, let's see what happens when we use meshes that are partially open,
 incomplete, or meshes that aren't forming a new topology.
 
-
-.. figure:: /images/Modifier_Generate_Boolean_Incomplete_Face_Shape.jpg
-
-   Fig. 28 - Open volumes that aren't forming a new topology.
-
-
-.. figure:: /images/Modifier_Generate_Boolean_Resulting_Incomplete_Face_Shape.jpg
-
-   Fig. 29 - Resulting operation using two open volumes that aren't forming a new topology.
-
-
-As you can see in Fig. 28, the faces of one participant in the Boolean operation
-gives incomplete information to the modifier; the result is shown in Fig.
-29 - Resulting operation using two open volumes that aren't forming a new topology. The
-resulting edges get messy and there is not enough information to create faces for the
-resulting Mesh. This example uses a smooth shaded UVsphere cut in half. As explained before,
+As you can see in the images below the faces of one participant in the Boolean operation
+gives incomplete information to the modifier. The resulting edges get messy and there is
+not enough information to create faces for the resulting Mesh.
+This example uses a smooth shaded UVsphere cut in half. As explained before,
 the shading (smooth/flat) doesn't affect the calculations of the modifier.
 
+.. list-table::
 
-Useful Links
-============
+   * - .. figure:: /images/Modifier_Generate_Boolean_Incomplete_Face_Shape.jpg
 
-- `Carve Developement Home <https://code.google.com/p/carve/>`__ - GPLv2 C++ source at Google Code
-- `Carve library <http://carve-csg.com/>`__ - Homepage for the Carve Library project.
-- `Sculpt Tools <https://github.com/MadMinstrel/blender-sculpt-tools>`__ -
-  Link for a Blender Add-on - This add-on uses another approach to use the Boolean operations,
-  when you select two or more objects, the active one becomes the modified mesh and all the others becomes a target.
-  This add-on will add the Boolean modifier and apply it to the meshes automatically.
+          Open volumes that aren't forming a new topology
 
+     - .. figure:: /images/Modifier_Generate_Boolean_Resulting_Incomplete_Face_Shape.jpg
+
+          Resulting Operation of image on the left
