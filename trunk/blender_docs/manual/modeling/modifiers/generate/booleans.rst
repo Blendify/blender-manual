@@ -309,9 +309,8 @@ Face Normals
 When using the Boolean modifier,
 Blender will use the face normal directions to calculate the three Boolean operations.
 The direction of the normals will define the result of the three available operations.
-When one of the participants has inverted normals,
-you're in fact multiplying the operation by ``-1`` and inverting the calculation order.
-You can, at any time, select your modified mesh,
+When one of the participants has inverted normals, you're in fact multiplying the operation by ``-1``
+and inverting the calculation order. You can, at any time, select your modified mesh,
 enter Edit Mode and flip the normals to change the behavior of the Boolean modifier.
 See *Tips for Fixing Mixed Normals* below.
 
@@ -369,27 +368,11 @@ The Library can't determine properly what's positive and negative for the operat
 results will be bad or you will have no effect when using the Boolean modifier
 operation.
 
+A quick way to fix this is to use Blender's
+:doc:`Recalculate Normals </modeling/meshes/editing/normals>` operation in Edit Mode.
 
-Tip for Fixing Mixed Normals
-----------------------------
-
-.. figure:: /images/Modifier_Generate_Boolean_Mesh_Display_Transform_Panel.jpg
-   :align: right
-
-   Mesh Display Panel
-
-You can fix mixed normals by recalculating them outside or inside;
-here we also give you a small hint on how to do this prior to Boolean modifier usage:
-
-To show the normals of the faces, you can open the Transform Panel,
-find the Mesh display tab, and click on the small cube without the orange dot.
-You can also change the height of the axis that points the direction of the normal. The default is ``0.1``.
-
-When some normal directions are mixed pointing inwards and outwards, you can recalculate them to the inside
-using :kbd:`Ctrl-Shift-N` and to outside using :kbd:`Ctrl-N`. If the normals still get mixed due to Mesh complexities,
-you can change to Face selection Mode while in Edit Mode using :kbd:`Ctrl-Tab` and choosing *Face Mode*.
-Then select the faces that are pointing in the wrong direction using :kbd:`Shift-RMB` and use the *Mesh* Menu entry
-in the Header of the 3D View, go to *Normals* and choose *Flip Normals*:
+If you still have some ugly black gouges you will have to
+:doc:`Manually Flip the Normals </modeling/meshes/editing/normals>`.
 
 
 Empty or Duplicated Faces
