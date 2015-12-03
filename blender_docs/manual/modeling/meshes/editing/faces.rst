@@ -274,3 +274,8 @@ It works on the shared edge between two faces and rotates that edge if the edge 
 
 See :ref:`Rotate Edge <modeling-meshes-editing-edges_rotate>`
 for more information.
+
+Normals
+-------
+
+See :ref:`Editing Normals <modeling-meshes-editing-normals_editing>` for more information.
