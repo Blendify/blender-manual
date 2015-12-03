@@ -194,26 +194,25 @@ you can smooth the mesh non-destructively with one or several of the following m
    or by setting certain edges to "sharp" and adding an :doc:`EdgeSplit modifier </modeling/modifiers/generate/edge_split>`
    (set to *From Marked As Sharp*) before the *Subsurf* modifier.
 
+.. list-table::
+   Example mesh with *Auto Smooth* enabled
 
-.. figure:: /images/meshsmooth-example-08subsurf.jpg
-   :width: 150px
+   * - .. figure:: /images/meshsmooth-example-08subsurf.jpg
+          :width: 300px
 
-   Subsurf
+          Subsurf
 
+     - .. figure:: /images/meshsmooth-example-09edgecrease.jpg
+          :width: 300px
 
-.. figure:: /images/meshsmooth-example-09edgecrease.jpg
-   :width: 150px
+          Using creased edges, and resulting subsurf artifacts
 
-   Using creased edges, and resulting subsurf artifacts
+   * - .. figure:: /images/meshsmooth-example-10edgeloops.jpg
+          :width: 300px
 
+          Extra edge loops added
 
-.. figure:: /images/meshsmooth-example-10edgeloops.jpg
-   :width: 150px
+     - .. figure:: /images/meshsmooth-example-11edgeloops.jpg
+          :width: 300px
 
-   Extra edge loops added
-
-
-.. figure:: /images/meshsmooth-example-11edgeloops.jpg
-   :width: 150px
-
-   3D view showing creased edges (pink) and added edges loops (yellow)
+          3D view showing creased edges (pink) and added edges loops (yellow)
