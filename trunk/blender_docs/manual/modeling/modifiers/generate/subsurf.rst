@@ -223,10 +223,10 @@ Abrupt normal changes can produce ugly black gouges even though
 these flipped normals are not an issue for the shape itself.
 
 A quick way to fix this is to use Blender's
-:doc:`Recalculate Normals </modeling/meshes/editing/faces>` operation in Edit Mode.
+:doc:`Recalculate Normals </modeling/meshes/editing/normals>` operation in Edit Mode.
 
 If you still have some ugly black gouges you will have to
-:doc:`Manually Flip the Normals </modeling/meshes/editing/faces>`.
+:doc:`Manually Flip the Normals </modeling/meshes/editing/normals>`.
 
 Concave NGons
 -------------
