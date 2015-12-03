@@ -270,7 +270,16 @@ Domain Boundary
 This box has all the slip and surface options.
 
 
-FIXME(Template Unsupported: Doc:2.6/Manual/Physics/Fluid/split_type;{{Doc:2.6/Manual/Physics/Fluid/split_type}})
+Boundary type
+    The stickiness of the surface of the obstacle , to determine the " tacky surface (Surface Adhesion)."
+    In the real world, and the tackiness and fluid, the granularity of the object surface, tack, determined by the elasticity.
+No Slip
+    Fluid will stick To snugly (speed 0).
+Free Slip
+    Fluid will move on the object (0 normal direction of speed).
+Part Slip
+    It is a two intermediate. It is almost Noslip, 1 in the Free exactly the same in 0.
+
 
 *Surface*
 
