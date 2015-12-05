@@ -1,10 +1,6 @@
 
-..    TODO/Review: {{review
-   |text=
-   wrong place
-   : In 2.4 this page is here Manual/3D interaction/Navigating/3D View Options|
-   fixes=[[User:Fade/Doc:2.6/Manual/3D_interaction/Navigating/3D_View_Options|X]]
-   }} .
+.. TODO/Review: {{review|text=wrong place In 2.4 this page is here Manual/3D interaction/Navigating/3D View Options|
+   fixes=[[User:Fade/Doc:2.6/Manual/3D_interaction/Navigating/3D_View_Options|X]]}}.
 
 
 ************
@@ -42,7 +38,7 @@ View Menu
 Properties Panel
    Toggles the *Properties* side panel, which allows you to tweak many 3D view settings:
 
-   - :doc:`Transform </modeling/objects/editing>`
+   - :doc:`Transform </editors/3dview/transform/introduction>`
    - :doc:`Grease Pencil </interface/grease_pencil/introduction>`
    - :doc:`Display & View Panels </editors/3dview/display>`
    - :doc:`Background Images </editors/3dview/background_images>`
@@ -109,7 +105,7 @@ Select Menu
 
 This menu contains tools for selecting objects.
 
-:doc:`Read more about Selecting </modeling/objects/selecting>`
+:doc:`Read more about Selecting </editors/3dview/selecting>`
 
 
 Object Menu
@@ -118,7 +114,7 @@ Object Menu
 This menu appears when in Object Mode. In edit mode,
 it will change to the appropriate menu with editing tools.
 
-:doc:`Read more about Objects </modeling/objects/introduction>`
+:doc:`Read more about Objects </editors/3dview/transform/introduction>`
 
 
 Mode List

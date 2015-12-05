@@ -22,7 +22,7 @@ For other common conventions used throughout the manual.
 .. glossary::
 
    Active
-      One of the three :doc:`selection states </modeling/objects/selecting>`.
+      One of the three :doc:`selection states </editors/3dview/selecting>`.
       Only one object or item can be active at any given time.
 
    Action Safe

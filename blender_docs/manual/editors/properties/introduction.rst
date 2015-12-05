@@ -93,9 +93,9 @@ though some tools are added to different sections.
 - :doc:`Scenes </data_system/scenes>`
 - :doc:`Keying Sets </animation/keying_sets>`
 
-The Object features are usually documented in the 'Objects' part of the Modeling Section.
+The Object features are usually documented in the 'Objects' part of the 3D Viewport Section.
 
-- :doc:`Modeling </modeling/objects/introduction>`
+- :doc:`Modeling </editors/3dview/transform/introduction>`
 
 The other features each have their own section in the manual.
 
@@ -103,4 +103,3 @@ The other features each have their own section in the manual.
 - :doc:`Modifiers </modeling/modifiers/introduction>`
 - :doc:`Particles </physics/particles/introduction>`
 - :doc:`Physics </physics/introduction>`
-
