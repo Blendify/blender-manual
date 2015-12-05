@@ -60,7 +60,6 @@ Numeric Input
 -------------
 
 .. figure:: /images/3D_interaction_Transform-Control_Pivot-Point_3D-cursor_view-properties.jpg
-   :align: center
 
    The 3D Cursor panel of the Properties shelf.
 
