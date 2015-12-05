@@ -9,7 +9,10 @@
 
    introduction.rst
    navigate/index.rst
+   selecting.rst
    transform/index.rst
+   groups.rst
+   parents.rst
    modes.rst
    shading.rst
    display.rst

@@ -42,7 +42,7 @@ Restricting Group Contents via Layers
    The cluster of layer buttons attached to each group determines from
    which layers the group objects will be included when duplicated.
    If your group contains objects on layers 10, 11 and 12, but you disable the layer 12 button in the group controls,
-   duplicates of that group (using the :doc:`Dupligroup </modeling/objects/duplication/dupligroup>` feature)
+   duplicates of that group (using the :doc:`Dupligroup </editors/3dview/transform/duplication/dupligroup>` feature)
    will only show the portions of the group that reside in layers 10 and 11.
 Appending or Linking Groups
    To append a group from another ``.blend`` file,
@@ -66,5 +66,5 @@ Select Grouped
 
 
 Select objects by parenting and grouping characteristics.
-See :doc:`Select Grouped </modeling/objects/selecting>` for more information.
+See :doc:`Select Grouped </editors/3dview/selecting>` for more information.
 

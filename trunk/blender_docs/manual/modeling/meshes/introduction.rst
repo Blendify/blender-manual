@@ -10,7 +10,7 @@ Entering Edit Mode
 
 You can work with geometric objects in two modes.
 
-:doc:`Object mode </modeling/objects/introduction>`
+:doc:`Object mode </editors/transform/introduction>`
    Operations in *Object Mode* affect the whole object.
    **Object mode** has the following header in the 3D view:
 
@@ -139,8 +139,35 @@ including display options and *Vertex groups*.
 Mesh Display
 ------------
 
-TODO...
+.. figure:: /images/modeling_editmode_mesh_display.jpg
+   :align: right
 
-- Overlays
-- Normals
-- Edge/Face Info
+   Mesh Display Panel
+
+This panel is available only in edit mode, when the object bing edited is a mesh.
+
+The Overlays section provides controls for highlighting parts of the mesh.
+
+Edges
+   Toggles the option to see the selected edges highlighted.
+   If enabled the edges that have both vertices selected will be highlighted
+   This only affects in vertex selection mode and when :doc: UV unwrapping (UV/Image editor).
+Faces
+   Defines if the selected faces will be highlighted in the :doc: 3D View. This affects all selection modes.
+Creases and Bevel Weight
+   let us highlight edges marked with a crease weight for the :doc: Subdivision Surface modifier and/
+   or a bevel weight for the :doc: Bevel modifier, respectively. In both cases, the higher the weight, the brighter the highlight.
+Seams and Sharp
+   lets us highlight those edges marked as UV seam for unwrapping and/or sharp edge for the :doc: Edge Split modifier.
+
+Normals Section:
+
+We can choose to show or not the normals of faces and/or vertices using the Face and Vertex tick boxes,
+under the Normals section. In addition, we can define the size of these with Normal Size.
+
+The Numerics section lets us see some numerical measures of the selected elements on screen:
+
+Edge Length
+   shows the lenghts, in Blender units, of the selected edges.
+Face Angles and Face Area
+   show the angles (in degrees) and area (in square Blender units) of the selected faces.

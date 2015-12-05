@@ -54,7 +54,7 @@ Look in the Outliner, with display mode set to *Blender File*, to see all your l
 
    If you want to modify the object locally you can either:
 
-   Use :doc:`Dupli-Groups </modeling/objects/duplication/dupligroup>`
+   Use :doc:`Dupli-Groups </editors/3dview/transform/duplication/dupligroup>`
       Instead of linking in *Objects* directly,
       its often more useful to link in *Groups*, which can be assigned to empties and moved,
       while maintaining the link to the original file.

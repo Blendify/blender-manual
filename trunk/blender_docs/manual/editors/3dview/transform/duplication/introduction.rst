@@ -143,15 +143,15 @@ Procedural Duplication
 There are currently four ways in Blender to procedurally duplicate objects.
 These options are located in the *Object* menu.
 
-:doc:`Verts </modeling/objects/duplication/dupliverts>`
+:doc:`Verts </editors/3dview/transform/duplication/dupliverts>`
    This creates an instance of all children of this object on each vertex (for mesh objects only).
-:doc:`Faces </modeling/objects/duplication/duplifaces>`
+:doc:`Faces </editors/3dview/transform/duplication/duplifaces>`
    This creates an instance of all children of this object on each face (for mesh objects only).
-:doc:`Group </modeling/objects/duplication/dupligroup>`
+:doc:`Group </editors/3dview/transform/duplication/dupligroup>`
    This creates an instance of the group with the transformation of the object.
    Group duplicators can be animated using actions,
    or can get a :ref:`Proxy <object-proxy>`.
-:doc:`Frames </modeling/objects/duplication/dupliframes>`
+:doc:`Frames </editors/3dview/transform/duplication/dupliframes>`
    For animated objects, this creates an instance on every frame.
    As you'll see on this topic's subpage,
    this is also a *very* powerful technique for arranging objects and for modeling them.
@@ -189,7 +189,7 @@ Any object or data-block in other ``.blend`` files can be reused in the current 
 
 .. hint::
    - If you want transform properties (i.e. object data-blocks) to be "linked",
-     see the page on :doc:`parenting </modeling/objects/parents>`.
+     see the page on :doc:`parenting </editors/3dview/parents>`.
    - Material Transparency will not display when instancing dupli-groups;
      this is a known limitation of Blender's view-port.
 

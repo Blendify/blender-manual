@@ -167,6 +167,6 @@ make sure they are all selected and go to *Object* --> *Join*
 See also
 ========
 
-Other duplication methods are listed :doc:`here </modeling/objects/duplication/introduction>`.
+Other duplication methods are listed :doc:`here </editors/3dview/transform/duplication/introduction>`.
 
 

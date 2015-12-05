@@ -8,7 +8,6 @@
    :maxdepth: 2
 
    introduction.rst
-   objects/index.rst
    meshes/index.rst
    curves/index.rst
    surfaces/index.rst
