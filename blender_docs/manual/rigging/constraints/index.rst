@@ -10,6 +10,13 @@
    introduction.rst
    common_interface.rst
    the_stack.rst
+
+Transform
+=========
+
+.. toctree::
+   :maxdepth: 1
+
    transform/copy_location.rst
    transform/copy_rotation.rst
    transform/copy_scale.rst
@@ -20,6 +27,13 @@
    transform/limit_scale.rst
    transform/maintain_volume.rst
    transform/transformation.rst
+
+Tracking
+========
+
+.. toctree::
+   :maxdepth: 1
+
    tracking/clamp_to.rst
    tracking/damped_track.rst
    tracking/ik_solver.rst
@@ -27,6 +41,13 @@
    tracking/spline_ik.rst
    tracking/stretch_to.rst
    tracking/track_to.rst
+
+Relationship
+============
+
+.. toctree::
+   :maxdepth: 1
+
    relationship/action.rst
    relationship/child_of.rst
    relationship/floor.rst
