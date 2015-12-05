@@ -21,7 +21,7 @@ Select Menu
 
 The *Select* menu (3D view headers) is even simpler than for curves...
 
-   All these options have the same meaning and behavior as in :doc:`Object mode </modeling/objects/selecting>`
+   All these options have the same meaning and behavior as in :doc:`Object mode </editors/3dview/selecting>`
    (and the specificities of *Border Select* in *Edit* mode have already been discussed
    :doc:`here </modeling/meshes/selecting/introduction>`).
 
@@ -468,13 +468,6 @@ However, there is an "external" conversion available, from surface to mesh,
 that only works in *Object* mode.
 It transforms a *Surface* object into a *Mesh* one,
 using the surface resolutions in both directions to create faces, edges and vertices.
-
-
-Retopology
-----------
-
-Snapping surface components is the same as is with meshes and curves.
-See :doc:`Retopology </modeling/meshes/editing/retopo>` for more information.
 
 
 Misc Editing
