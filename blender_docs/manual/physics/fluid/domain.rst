@@ -266,9 +266,7 @@ Domain Boundary
 
    The Domain Boundary panel
 
-
 This box has all the slip and surface options.
-
 
 Boundary type
     The stickiness of the surface of the obstacle , to determine the " tacky surface (Surface Adhesion)."
@@ -279,7 +277,6 @@ Free Slip
     Fluid will move on the object (0 normal direction of speed).
 Part Slip
     It is a two intermediate. It is almost Noslip, 1 in the Free exactly the same in 0.
-
 
 *Surface*
 
