@@ -112,7 +112,7 @@ After that, you can color the image using the:
 - Render Bake image based on how the mesh looks in the scene
 
 After you have created your image,
-you can modify it using Blender's built-in :doc:`Texture Paint </render/blender_render/textures/painting/introduction>`
+you can modify it using Blender's built-in :doc:`Texture Paint </painting/texture_paint/introduction>`
 or any external image painting program.
 
 
