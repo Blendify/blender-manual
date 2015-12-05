@@ -10,7 +10,7 @@ Entering Edit Mode
 
 You can work with geometric objects in two modes.
 
-:doc:`Object mode </editors/transform/introduction>`
+:doc:`Object mode </editors/3dview/transform/introduction>`
    Operations in *Object Mode* affect the whole object.
    **Object mode** has the following header in the 3D view:
 
@@ -49,7 +49,7 @@ Tools and modes in the 3D view header are (left to right):
 You can switch between the Object and Edit modes with the :kbd:`Tab` key. You can change
 to any mode by selecting the desired *Mode* in the menu in the 3d view header.
 
-After creating an object you may be immediately placed in *Edit mode*
+After creating an object youd may be immediately placed in *Edit mode*
 - depending on whether the *Switch to Edit Mode* button is toggled in the
 *User Preferences* *Editing* tab.
 *Edit mode* only applies to one object at a time, the *active*,
