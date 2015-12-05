@@ -175,9 +175,7 @@ You can use many of the same Grab/Move hotkeys after :kbd:`G`
 in other editor windows and they will work much the same way as they do in 3D View.
 Rotating and scaling also work in certain editors as well.
 
+.. tip::
 
-Hints
-=====
-
-- Moving an object in Object mode changes the object's origin.
-  Moving the object's vertices/edges/faces in Edit Mode doesn't change the object's origin.
+   Moving an object in Object mode changes the object's origin.
+   Moving the object's vertices/edges/faces in Edit Mode doesn't change the object's origin.
