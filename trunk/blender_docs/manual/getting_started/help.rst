@@ -3,7 +3,6 @@
 Help System
 ***********
 
-
 Tooltips
 ========
 
@@ -65,7 +64,7 @@ General Web-based Help
 
 - :doc:`This is a link for the Official Blender Manual </contents>` -
   which you are now reading.
-- `Release Log <http://www.blender.org/development/release-logs/>`__ -
+- `Release Log <http://wiki.blender.org/index.php/Dev:Ref/Release_Notes/>`__ -
   The release notes on the Web for the current Blender version.
 - `Blender Website <http://www.blender.org/>`__ -
   The *blender.org* home page.
@@ -146,25 +145,14 @@ This can be useful in creating scripts.
    The Info Window Log after adding a Cube
 
 
-Legacy Version Support
-----------------------
-
-FCurve/Driver fix
-   Sometimes, when you load .blend's made from older versions of Blender (2.56 and previous),
-   the Function Curves and Shapekey Drivers will not function correctly due to updates in the animation system.
-   Selecting this option updates the FCurve/Driver data paths.
-TexFace to Material Convert
-   Convert old Texface settings into material. It may create new materials if needed.
-
-
 Splash Screen
 -------------
 
 Access this by clicking on the Blender icon in the Info Window's header.
 
 This displays the image where you can identify package and version.
-At the top-right corner, you can see the Version and SVN (Subversion) revision (See Fig: Blender Splash Screen).
-For example, in our Splash Screen, you can see the version **2.66.0** and the revision number **r54697**.
+At the top-right corner, you can see the Date that Blender was compiled and the Git Hash.
+For example, in our Splash Screen below, you can see the version **2.76b** and the revision number **f337fea**.
 This can be useful to give to support personnel when diagnosing a problem.
 
 There are some Internet Based Help options that are also present in the Blender
@@ -172,7 +160,6 @@ There are some Internet Based Help options that are also present in the Blender
 They are presented as the same links you will find at the *Help* Menu.
 
 
-.. figure:: /images/ui_splash_screen_only.jpg
+.. figure:: /images/getting_started_help_splash.png
 
-   Blender Splash Screen, Blender Version 2.66
-
+   Blender Splash Screen, Blender Version 2.76b
