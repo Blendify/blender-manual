@@ -54,5 +54,4 @@ Relationship
    relationship/follow_path.rst
    relationship/pivot.rst
    relationship/rigid_body_joint.rst
-   relationship/script.rst
    relationship/shrinkwrap.rst
