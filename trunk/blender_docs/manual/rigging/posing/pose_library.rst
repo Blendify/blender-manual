@@ -3,8 +3,8 @@
 Pose Library
 ************
 
-Intro
-=====
+Introduction
+============
 
 The *Pose Library* panel is used to save, apply, and manage different armature poses.
 
@@ -67,5 +67,3 @@ Editing
    Rename Pose. :kbd:`Shift-Ctrl-L`.
 
    Remove Pose. :kbd:`Alt-L`.
-
-
