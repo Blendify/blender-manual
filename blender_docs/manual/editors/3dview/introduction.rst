@@ -138,23 +138,3 @@ Types of Objects
    Force fields are used in physical simulations.
    They give simulations external forces, creating movement,
    and are represented in 3d editor by small control objects.
-
-Local View
-==========
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Editor:   *3D View*
-   | Menu:     :menuselection:`View --> View Global/Local`
-   | Hotkey:   :kbd:`NumpadSlash`
-
-.. figure:: /images/3Dinteraction-Navigating-Global-Local-global-local.jpg
-
-   Global and Local view
-
-When entering *Local View*, the selected objects are isolated and all other objects are temporarily hidden from view.
-This only affects the current 3D View editor, and not the render.
-
-This can be used to speed up viewport performance in heavy scenes,
-or allow you to focus on a specific object without others getting in your way.
