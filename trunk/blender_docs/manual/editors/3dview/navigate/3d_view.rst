@@ -259,12 +259,20 @@ View All :kbd:`Home`
 Local and Global View
 =====================
 
+.. figure:: /images/3Dinteraction-Navigating-Global-Local-global-local.jpg
+
+   Global and Local view
+
+
 You can toggle between *Local* and *Global* view by selecting the option
 from the *View Menu* or using the shortcut :kbd:`NumpadSlash`.
 Local view isolates the selected object or objects,
 so that they are the only ones visible in the viewport.
 This is useful for working on objects that are obscured by other ones, or have heavy geometry.
 Press :kbd:`NumpadSlash` to return to *Global View*.
+
+This can be used to speed up viewport performance in heavy scenes,
+or allow you to focus on a specific object without others getting in your way.
 
 
 Quad View
