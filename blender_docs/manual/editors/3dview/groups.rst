@@ -67,4 +67,3 @@ Select Grouped
 
 Select objects by parenting and grouping characteristics.
 See :doc:`Select Grouped </editors/3dview/selecting>` for more information.
-

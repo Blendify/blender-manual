@@ -199,9 +199,6 @@ Select Grouped
    | Hotkey:   :kbd:`Shift-G`
 
 
-Description
-^^^^^^^^^^^
-
 .. figure:: /images/Object-Selection-Grouped.jpg
 
    Select Grouped menu
@@ -266,9 +263,6 @@ Select linked
    | Hotkey:   :kbd:`Shift-L`
 
 
-Description
-^^^^^^^^^^^
-
 Selects all objects which share a common data-block with the active object.
 
 
@@ -308,9 +302,6 @@ Select All by Type
    | Hotkey:   None
 
 
-Description
-^^^^^^^^^^^
-
 The types are *Mesh*, *Curve*, *Surface*, *Meta*,
 *Font*, *Armature*, *Lattice*, *Empty*,
 *Camera*, *Lamp*, *Speaker*.
@@ -338,9 +329,6 @@ Select All by Layer
    | Menu:     *Select* --> *Select All by Layer*
    | Hotkey:   None
 
-
-Description
-^^^^^^^^^^^
 
 .. figure:: /images/Object-Selection-AllByLayer.jpg
 
@@ -406,4 +394,3 @@ Inverse (:kbd:`Ctrl-I`)
 (De)select All (:kbd:`A`)
    If anything was selected it is first deselected.
    Otherwise it toggles between selecting and deselecting every visible object.
-
