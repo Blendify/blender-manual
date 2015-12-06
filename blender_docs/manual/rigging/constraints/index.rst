@@ -11,6 +11,16 @@
    common_interface.rst
    the_stack.rst
 
+Motion Tracking
+===============
+
+.. toctree::
+   :maxdepth: 1
+
+   motion_tracking/camera_solver.rst
+   motion_tracking/object_solver.rst
+   motion_tracking/follow_track.rst
+
 Transform
 =========
 
