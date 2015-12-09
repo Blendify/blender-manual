@@ -1,6 +1,6 @@
 
 Strip Properties
-================
+****************
 
 The properties for the strip are examined and set in the properties panel,
 shortcut kbd`N`.
@@ -110,8 +110,8 @@ Use Color Balance
    Set the amount of the effect by setting the color swatch; white (RGB 1,1,1) has no effect.
 
 
-Proxy Strip Properties Panel
-============================
+Proxy / Timecode Panel
+======================
 
 A proxy is a smaller image (faster to load) that stands in for the main image.
 When you Rebuild proxy Blender computes small images (like thumbnails)
