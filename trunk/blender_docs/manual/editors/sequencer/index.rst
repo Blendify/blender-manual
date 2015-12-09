@@ -10,6 +10,6 @@
    introduction.rst
    usage.rst
    strip_properties.rst
-   modes.rst
+   display_modes.rst
    effects/index.rst
    audio.rst

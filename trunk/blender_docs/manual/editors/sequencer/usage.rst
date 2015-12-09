@@ -280,7 +280,7 @@ only the sequencer is displayed. The second button displays only the Preview win
 and the third button displays both the Sequencer and the Preview.
 
 When the preview is enabled, you have several options to change what type pf preview to display.
-They are explained in the :doc:`Display Modes Page </editors/sequencer/modes>`.
+They are explained in the :doc:`Display Modes Page </editors/sequencer/display_modes>`.
 
 
 Scene Preview
