@@ -1,7 +1,4 @@
 
-..    TODO/Review: {{review|copy=X}} .
-
-
 **********************
 Sequence Display Modes
 **********************
@@ -9,19 +6,20 @@ Sequence Display Modes
 By default, the VSE only displays the sequencer. Several options in the header bar allow you
 change the editor to display the sequence in real time, and in various ways.
 
+.. figure:: /images/editors_sequencer_display_header.png
+
+   Sequencer Display Header
+
 The second button will change the editor to display only the preview,
-and the third button displays both the sequencer and the preview
+and the third button displays both the sequencer and the preview.
 
-
-the VSE workspace can show you different aspects of the composite result,
+The VSE workspace can show you different aspects of the composite result,
 for the current frame:
-
 
 - Image/Sequence: Colors (what you see)
 - Chroma: Color hue and saturation
 - Luma: Brightness/contrast
 - Histogram: Levels of red, green, and blue
-
 
 In the Chroma, Luma, and Image modes, a channel selector appears;
 channel 0 is the result of compositing the strips with their special effects strips.
