@@ -126,21 +126,7 @@ be selected in the Properties panel of the Sequencer View (where the edit plays 
 Sound
 =====
 
-This panel appears when a sound file is selected.
-
-Here you can specify the Sound Strip's file path and file name.
-
-Pack
-   Packs the sound file into the current .blend file.
-Caching
-   The sound file is decoded and loaded into RAM.
-Volume
-   Set the volume of the Sound file.
-AttenuationdB
-   Attenuation in decibels
-Trim Duration StartEnd
-   Offset the start and end of a sound strip.
-
+These settings are covered in the :doc:`Audio Stip </editors/sequencer/audio>` docs.
 
 Scene
 =====
