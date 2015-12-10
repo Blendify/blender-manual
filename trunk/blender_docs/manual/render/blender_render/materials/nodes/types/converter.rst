@@ -319,8 +319,11 @@ Separate RGB Node
 
    Separate RGB node
 
-
-This node separates an image into its red, green and blue channels. The colors are then converted to intensity, which returns a greyscale to the output. For example, if you have an image with pure green, then the red and blue outputs will be black and the green output will be completely white. Mixed colors will return mixed values according to their RGB intensity.   
+This node separates an image into its red, green and blue channels.
+The colors are then converted to intensity, which returns a greyscale to the output.
+For example, if you have an image with pure green,
+then the red and blue outputs will be black and the green output will be completely white.
+Mixed colors will return mixed values according to their RGB intensity.   
 
 
 Inputs
