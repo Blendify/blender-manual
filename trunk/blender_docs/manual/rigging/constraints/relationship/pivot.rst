@@ -48,12 +48,3 @@ Example
 =======
 
 .. youtube:: sncFstaycIo
-
-
-See also
-********
-
-- `Blender Artists Forum: Head-Tail pivot Constrain proposal (with Video and .blend)
-  <http://blenderartists.org/forum/showthread.php?t=186169&page=1>`__,
-  the thread where the constraint was first proposed
-
