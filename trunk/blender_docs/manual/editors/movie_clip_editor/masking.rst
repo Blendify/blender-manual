@@ -15,19 +15,21 @@ These masks can also be used in other places in Blender.
 Compositing Node
 ----------------
 
-In the compositing nodes the Mask input node can be used to select a mask datablock, with as output the raster mask image.
-This image can be used with other nodes, for example to Invert, Multiply or Mix, or use as a factor input. The node options are:
+In the compositing nodes the Mask input node can be used to select a mask datablock,
+with as output the raster mask image. This image can be used with other nodes,
+for example to Invert, Multiply or Mix, or use as a factor input. The node options are:
 
 Anti-Alias
     Create smooth mask edges rather than hard ones. 
 Feather
     Use or ignore feather points defined for splines. 
 Size
-    Scene Size will give an image the size of the render resolution for the scene, scaling along when rendering with different resolutions.
-    Fixed gives a fixed size in pixels. Fixed/Scene gives a size in pixels that still scales along when changing the render resolution percentage in the scene. 
+    Scene Size will give an image the size of the render resolution for the scene,
+    scaling along when rendering with different resolutions. Fixed gives a fixed size in pixels. Fixed/
+    Scene gives a size in pixels that still scales along when changing the render resolution percentage in the scene. 
 Motion Blur
-    For animated masks, creating a motion blurred mask from the surrounding frames, with a given number of samples (higher gives better quality),
-    and a camera shutter time in seconds. 
+    For animated masks, creating a motion blurred mask from the surrounding frames,
+    with a given number of samples (higher gives better quality), and a camera shutter time in seconds. 
 
 Sequencer Strip
 ---------------
@@ -47,7 +49,8 @@ with the exception that linking masks to motion tracking data is only possible i
 
 Once set to Mask mode, a Mask datablock can be added. Any image, movie clip,
 render or compositing result can be used as a backdrop to draw masks over.
-To get interactive feedback on the resulting mask, a Mask node can be connected directly to a Viewer node in the compositor,
+To get interactive feedback on the resulting mask,
+a Mask node can be connected directly to a Viewer node in the compositor,
 which will then keep updating the compositing result while editing.
 
 S-Curves
@@ -106,11 +109,13 @@ Curve Handles
 Feather
 -------
 
-It's possible to control feather of mask, including a way to define non-linear feather. Linear feather is controlled by a slider,
+It's possible to control feather of mask, including a way to define non-linear feather.
+Linear feather is controlled by a slider,
 non-linear feather is controlled in the same curve-based way to define feather falloff.
 
    - :kbd:`Shift-LMB` is used to define a feathering outline curve. To create an initial feather,
-     sliding from a spline control point outside or inside will create and position feather points. After this :kbd:`Shift-LMB`
+     sliding from a spline control point outside or inside will create and position feather points.
+     After this :kbd:`Shift-LMB`
      will insert new feather point and mouse sliding can be used to move them around.
    - :kbd:`Alt-S` will scale the feather size. 
 
@@ -134,7 +139,8 @@ For animation more complex mask shapes, it is also possible to do more high leve
      Works for both individual mask point parenting and for overall spline.
      To select motion track to be parented to use :kbd:`Ctrl-RMB`.
      To parent selected mask points to active motion track use :kbd:`Ctrl-P`.
-   - Mask animation timing can be edited from the Dope Sheet where there is a mask mode where mask keyframes can be selected and edited.
+   - Mask animation timing can be edited from the Dope Sheet.
+     Here there is a mask mode where mask keyframes can be selected and edited.
 
 
 Shape Keys
@@ -146,4 +152,5 @@ so inserting a shape key will keyframe all the splines and points contained in i
    - :kbd:`I` will insert a shape key for the active mask layer at the current frame
    - :kbd:`Alt-I`  will clear the shape key for the active mask layer at the current frame.
    - Feather Reset Animation: Resets the feather offset across all animated frames.
-   - Re-Key Points of Selected Shapes: Re-interpolate selected points on across the range of keys selected in the dope sheet.
+   - Re-Key Points of Selected Shapes:
+     Re-interpolate selected points on across the range of keys selected in the dope sheet.

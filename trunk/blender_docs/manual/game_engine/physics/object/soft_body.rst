@@ -32,6 +32,7 @@ Options
 - Mass - Affects the reaction due to collision between objects --
   more massive objects have more inertia. Will also affect material force fields.
   Will also change behaviors if you are using the suspension and steering portions of Bullet physics.
+
    - Range: 0.01-10,000.
    - Default: 1.
    - Python property: ``obj.game.mass`` 
@@ -76,23 +77,30 @@ Options
   - Range: 0-1.
   - Default: 0.5.
   - Python property: ``obj.game.soft_body.linear_stiffness``
+
 - *Friction* - Dynamic friction coefficient.
+
 .. TODO: Learn/demo/explain.
 
   - Range: 0-1.
   - Default: 0.2.
   - Python property: ``obj.game.soft_body.dynamic_friction``
+
 - *Margin* - Small value makes the algorithm unstable.
+
 .. TODO: Learn/demo/explain.
 
   - Range: 0.01-1.
   - Default: 0.01.
   - Python property: ``obj.game.soft_body.collision_margin``
+
 - *Bending Constraint* - Enable Bending Constraints
+
 .. TODO: Learn/demo/explain.
 
   - Default: On.
   - Python property: ``obj.game.soft_body.use_bending_constraints``
+
 - *Cluster Collision* - Affects Collision sensors as well as physics.
 
   - Demo: `BGE-Physics-Objects-SoftBodies_ClusterRigidToSoftBody.blend

@@ -19,7 +19,8 @@ and white when in *Edit mode*.
 With *Active element as Pivot* set to active,
 all transformations will occur relative to the active element.
 
-:doc:`Read more about selecting different pivot points </editors/3dview/transform/transform_control/pivot_point/index>`
+Read more about selecting different
+:doc:`Pivot Points </editors/3dview/transform/transform_control/pivot_point/index>`
 
 
 .. figure:: /images/3D_interaction-Transform_control-Pivot_point-Active_element-selected-active-element.jpg

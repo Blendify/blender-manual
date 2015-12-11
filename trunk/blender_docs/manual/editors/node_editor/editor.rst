@@ -82,7 +82,7 @@ Material, Compositing or Texture buttons
 - To work with Texture nodes, click on the checker.
 
 Use Nodes
-   This button tells the render engine to use the node map in computing the material color or rendering the final image,
+   Tells the render engine to use the node map in computing the material color or rendering the final image,
    or not. If not, the map is ignored and the basic render of the material tabs or scene is accomplished. 
 Use Pinned
    This button tells the render engine to use pinned node tree.

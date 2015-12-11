@@ -39,7 +39,7 @@ Vertex Group
 
 
 Crease Edges
-   This option is intended for usage with the :doc:`Subdivision Surface </modeling/modifiers/generate/subsurf>` modifier.
+   This option is intended for usage with the :doc:`Subdivision Modifier </modeling/modifiers/generate/subsurf>`.
    Enable this option to crease edges on their junctions and prevent large curved intersections.
 
    Crease Weight

@@ -110,11 +110,10 @@ Select to Active
 
 Cage
    Cast rays to active object from a cage.
-   A cage is a ballooned-out version of the lowpoly mesh created either automatically (by adjusting the ray distance) or
-   manually (by specifying an object to use).
-   When not using a cage the rays will conform to the mesh normals.
-   This produces glitches on the edges, but it's a preferable method when baking into planes to avoid the need of adding
-   extra loops around the edges.
+   A cage is a ballooned-out version of the lowpoly mesh created either automatically
+   (by adjusting the ray distance) or manually (by specifying an object to use).
+   When not using a cage the rays will conform to the mesh normals. This produces glitches on the edges,
+   but it's a preferable method when baking into planes to avoid the need of adding extra loops around the edges.
 
 Ray Distance
    Distance to use for the inward ray cast when using selected to active.
