@@ -263,5 +263,3 @@ enabled in the *User Preferences* ' *Add-ons* section
 `Gears <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Add Mesh/Add Gear>`__
    Adds a gear or a `worm <http://en.wikipedia.org/wiki/Worm_drive>`__
    with many parameters to control the shape in the *Tool Shelf*.
-
-

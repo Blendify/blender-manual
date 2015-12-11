@@ -32,8 +32,8 @@ or the list of layers associated with the active object.
 By default, most operations occur only on the *active* layer highlighted in the list.
 
 
-Animation of the Sketches
-=========================
+Animating Sketches
+==================
 
 Use the Grease Pencil to do basic pencil tests (i.e. 2D animation in flipbook style).
 Sketches are stored on the frame that they were drawn on, as a separate drawing
@@ -99,4 +99,3 @@ This works in a similar way as the copy/paste tools for keyframes in the *Action
 Sketches can also be copied from one screen (or view) to another using these tools.
 It is important to keep in mind that keyframes will only be pasted into selected layers,
 so layers will need to be created for the destination areas too.
-

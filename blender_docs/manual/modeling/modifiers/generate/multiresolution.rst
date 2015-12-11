@@ -12,8 +12,8 @@ Multiresolution Modifier
 
 
 The Multiresolution modifier (often shortened to *Multires*) gives you the ability to subdivide a mesh similarly
-to the :doc:`Subsurf </modeling/modifiers/generate/subsurf>` modifier, but also allows you to edit the new subdivision levels
-in sculpt mode.
+to the :doc:`Subsurf Modifier </modeling/modifiers/generate/subsurf>`,
+but also allows you to edit the new subdivision levels in sculpt mode.
 
 .. note::
 

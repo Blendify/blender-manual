@@ -200,7 +200,7 @@ Edit
    - Points - delete the selected points, leaving a gap in the stroke
    - Dissolve - reconnect the ends so there is no gap in the stroke
    - Strokes - delete the entire stroke containing any selected points
-   - Frame - delete a frame when doing :doc:`Animation of the Sketches </interface/grease_pencil/layers_and_animation>`.
+   - Frame - delete a frame when doing :doc:`Animating Sketches </interface/grease_pencil/layers_and_animation>`.
 *Duplicate* (:kbd:`Shift-D`)
    Make a copy of the selected points at the same location. Use the mouse to *Translate* them into position.
    :kbd:`LMB` places them at their new position.

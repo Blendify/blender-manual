@@ -104,8 +104,8 @@ Frame Sequence Workflow
   You can add other strips, like an audio strip.
 - Scrub through the animation, checking that you have included all the frames.
 - In the Scene Render buttons, in the Post Processing panel, activate *Sequencer*.
-- In the Format panel, choose the container and codec you want (e.g. MPEG H.264)
-  and configure it. The video codecs are described on the previous page: :doc:`Output Options </render/output/output>`.
+- In the Format panel, choose the container and codec you want (e.g. MPEG H.264) and configure it.
+  The video codecs are described on the previous page: :doc:`Output Options </render/output/output>`.
 - Click the ANIMATION render button and Blender will render out the sequence editor output into your movie.
 
 Why go through all this hassle? Well, first of all, if you render out single frames you can
@@ -157,4 +157,3 @@ Animation Preview
    Using an image format for output,
    you can use the *Frame Step* option to render every *N'th* frame.
    Then disable *Overwrite* and re-render with *Frame Step* set to 1.
-

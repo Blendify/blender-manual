@@ -54,7 +54,7 @@ Using Individual Origins in Face mode produces the most predictable results.
 
 .. list-table::
 
-   * - .. figure:: /images/3D-Interaction_Transform-Control_Pivot-Point_Individual-Origins-rotation-individual-faces.jpg
+   * - .. figure:: /images/editors_3dview_transform_control_individual.jpg
           :width: 320px
 
           Rotation of individual faces with the pivot point indicated by the image text.
@@ -98,5 +98,3 @@ this tool can save a lot of time and lead to unique shapes. This "anemone" was m
 12 sided cylinder in about 10 minutes by repeatedly using this workflow:
 extrusions of individual faces, scaling with *median as a pivot point*,
 and scaling and rotations of those faces with *Individual Origins as pivot points*.
-
-

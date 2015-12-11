@@ -17,7 +17,8 @@ which represents the various interactions of light in a volume relatively realis
 
    Volume rendering
 
-Rendering a volume is different then :doc:`Solid Render </render/blender_render/materials/properties/diffuse_shaders>`.
+Rendering a volume is different then :doc:`Solid Render
+</render/blender_render/materials/properties/diffuse_shaders>`.
 For volume light enters a 3D region of space (defined as the volume)
 that may be filled with small particles, such as smoke, mist or clouds.
 The light bounces around off the various molecules, being scattered or absorbed,

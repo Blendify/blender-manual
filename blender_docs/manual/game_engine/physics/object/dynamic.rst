@@ -40,8 +40,8 @@ Use Material Force Field
 Rotate From Normal
    Todo Python property: ``obj.game.use_rotate_from_normal``
 No Sleeping
-   Prevents simulation meshes from sleeping. When an object has a linear velocity or angular velocity, it is in motion.
-   It will detect collisions, receive gravity, etc. Once these thresholds are close to zero,
+   Prevents simulation meshes from sleeping. When an object has a linear velocity or angular velocity,
+   it is in motion. It will detect collisions, receive gravity, etc. Once these thresholds are close to zero,
    it will cease these calculations---until another object interacts with it wake it up.
    Python property: ``obj.game.use_sleep``
 Mass
@@ -112,7 +112,8 @@ Form Factor
    For affecting the Inertia Tensor. The higher the value, the greater the rotational inertia,
    and thus the more resistant to torque. You might think this is strange,
    considering Dynamic types do not have torque in response to collisions --
-   but you can still see this value's effects when you manually apply Torque. Python property: ``obj.game.form_factor``
+   but you can still see this value's effects when you manually apply Torque.
+   Python property: ``obj.game.form_factor``
 Anisotropic Friction
    Isotropic friction is identical at all angles. Anisotropic is directionally-dependant.
    Here you can vary the coefficients for the three axes individually, or disable friction entirely.
@@ -133,12 +134,15 @@ Damping- Increase the "sluggishness" of the object.
       if a Motion Controller applies Torque to an object, this damping will be a factor.
       Python property: ``obj.game.rotation_damping``
 Lock Translation
-   Seize the object in the world along one or more axes. Note that this is global coordinates, not local or otherwise.
+   Seize the object in the world along one or more axes.
+   Note that this is global coordinates, not local or otherwise.
+
        - X Python property: ``obj.game.lock_location_x``
        - Y Python property: ``obj.game.lock_location_y``
        - Z Python property: ``obj.game.lock_location_z``
 Lock Rotation
    Same, but for rotation (also with respect to the global coordinates).
+
      - X Python property: ``obj.game.lock_rotation_x``
      - Y Python property: ``obj.game.lock_rotation_y``
      - Z Python property: ``obj.game.lock_rotation_z``
@@ -184,7 +188,8 @@ and look for the white (or green, if sleeping) geometry.
 Now we can explain the various options for the `Collision Bounds` settings:
 
 Default
-   For Dynamic and Static objects, it is a Triangle Mesh (see below). For everything else, it is a Sphere (see below). 
+   For Dynamic and Static objects, it is a Triangle Mesh (see below).
+   For everything else, it is a Sphere (see below). 
 Capsule - A cylinder with hemispherical caps, like a pill.
    Radius of the hemispheres is the greater of the x or y extent.
    Height is the z bounds 

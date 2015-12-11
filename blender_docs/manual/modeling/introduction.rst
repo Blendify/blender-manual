@@ -65,4 +65,3 @@ Scripted Modeling
 
    Modeling scripts are an advanced topic,
    while not essential automating some tasks can be a huge time saver in certain cases.
-

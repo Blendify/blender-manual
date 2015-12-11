@@ -59,7 +59,7 @@ Active UV Texture Map Selector
 Image Channels to Draw
    Set the image to be displayed with *Color*, *Color and Alpha*, or just *Alpha*.
 Auto Update Other Affected Windows
-   Update other affected windows space automatically to reflect changes during interactive operations such as transfom.
+   Update other affected windows space automatically to reflect changes during interactive operations e.g. transfom.
 
 
 Properties Panel

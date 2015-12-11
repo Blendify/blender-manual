@@ -151,12 +151,15 @@ The Overlays section provides controls for highlighting parts of the mesh.
 Edges
    Toggles the option to see the selected edges highlighted.
    If enabled the edges that have both vertices selected will be highlighted
-   This only affects in vertex selection mode and when :doc: UV unwrapping (UV/Image editor).
+   This only affects in vertex selection mode and when :doc:`UV Unwrapping </editors/uv_image/texturing/unwrapping>`.
 Faces
-   Defines if the selected faces will be highlighted in the :doc: 3D View. This affects all selection modes.
+   Defines if the selected faces will be highlighted in the :doc:`3D Viewport </editors/3dview/index>`.
+   This affects all selection modes.
 Creases and Bevel Weight
-   let us highlight edges marked with a crease weight for the :doc: Subdivision Surface modifier and/
-   or a bevel weight for the :doc: Bevel modifier, respectively. In both cases, the higher the weight, the brighter the highlight.
+   Highlights edges marked with a crease weight for the :doc:`Subdivision Surface Modifier
+   </modeling/modifiers/generate/subsurf>`
+   and/or a bevel weight for the :doc:`Bevel Modifier </modeling/modifiers/generate/bevel>`,
+   respectively. In both cases, the higher the weight, the brighter the highlight.
 Seams and Sharp
    lets us highlight those edges marked as UV seam for unwrapping and/or sharp edge for the :doc: Edge Split modifier.
 

@@ -1,6 +1,5 @@
 ..    TODO/Review: {{review|text=todo: review the viscosity table commented text}} .
 
-
 ************
 Fluid Domain
 ************
@@ -269,8 +268,10 @@ Domain Boundary
 This box has all the slip and surface options.
 
 Boundary type
-    The stickiness of the surface of the obstacle , to determine the " tacky surface (Surface Adhesion)."
-    In the real world, and the tackiness and fluid, the granularity of the object surface, tack, determined by the elasticity.
+    The stickiness of the surface of the obstacle,
+    to determine the "tacky surface (Surface Adhesion)."
+    In the real world, and the tackiness and fluid,
+    the granularity of the object surface, tack, determined by the elasticity.
 No Slip
     Fluid will stick To snugly (speed 0).
 Free Slip
@@ -426,4 +427,3 @@ Baking processing time
    It must be some small number in at least one direction.
 
    --> .
-

@@ -64,13 +64,12 @@ Baking a map, simply put, is to take the detail of a high polygon mesh, and appl
 The similar object is identical to the high-poly mesh except with less vertices.
 Use the :doc:`Render Bake </render/workflows/bake>` feature in Blender to accomplish this.
 
-
 Modeling a low-poly using Blender's Mesh editing tools. In general,
 the same or similar faces should exist that reflect the model. For example,
 a highly detailed ear may have 1000 faces in the high-poly model. In the low-poly model,
-this may be replaced with a single plane, oriented in the same direction as the detailed ear mesh. *(Tip:* Blender's
-:doc:`multi-resolution mesh </modeling/modifiers/generate/multiresolution>` modeling feature can be used to good effect here.)
-
+this may be replaced with a single plane, oriented in the same direction as the detailed ear mesh.
+*(Tip:* Blender's :doc:`multi-resolution mesh </modeling/modifiers/generate/multiresolution>`
+modeling feature can be used to good effect here.)
 
 Mapping is the process of applying a texture to the low-poly mesh.
 Consult the :doc:`Textures Mapping section</render/blender_render/textures/mapping/index>`
@@ -82,4 +81,3 @@ for more information on applying a texture to a mesh's material.Special consider
 The coordinate systems of the two objects must match. For example, if you bake using a UV map of the high-poly model,
 you must UV map the low poly model and line up its UV coordinates to match the outline of the high-poly image
 (see :ref:`UV unwrapping <editors-uv_image-index>` to line up with the high-poly map edges.
-
