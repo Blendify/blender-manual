@@ -95,7 +95,7 @@ gettext: FORCE
 
 
 clean: FORCE
-	rm -rf "$(BUILDDIR)/html" "$(BUILDDIR)/singlehtml" "$(BUILDDIR)/latex"
+	rm -rf "$(BUILDDIR)/html" "$(BUILDDIR)/singlehtml" "$(BUILDDIR)/latex" "$(BUILDDIR)/locale"
 
 
 # -----------------------------------------------------------------------------
