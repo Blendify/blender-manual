@@ -24,11 +24,14 @@ Options
 - Ghost - Disables collisions completely, similar to No Collision.
   - Default: Off.
   - Python property: ``obj.game.use_ghost``
-- Invisible - Does not display, the same as setting the object to unrendered (such as unchecking the "Camera" icon in the Outliner).
+- Invisible - Does not display, the same as setting the object to unrendered (
+  such as unchecking the "Camera" icon in the Outliner).
   - Default: Off.
   - Python property: ``obj.use_render``
 
-- Mass - Affects the reaction due to collision between objects -- more massive objects have more inertia. Will also affect material force fields. Will also change behaviors if you are using the suspension and steering portions of Bullet physics.
+- Mass - Affects the reaction due to collision between objects --
+  more massive objects have more inertia. Will also affect material force fields.
+  Will also change behaviors if you are using the suspension and steering portions of Bullet physics.
    - Range: 0.01-10,000.
    - Default: 1.
    - Python property: ``obj.game.mass`` 
@@ -43,8 +46,6 @@ Options
   - Demo: `BGE-Physics-Objects-SoftBodies_ShapeMatchAndLinearStiffness.blend
     <http://wiki.blender.org/index.php/Media:BGE-Physics-Objects-SoftBodies_ShapeMatchAndLinearStiffness.blend>`__
   - Default: On.
-  - Code effect: When on, it will call `btSoftBody::setPose(false,true)
-    <http://www.continuousphysics.com/Bullet/BulletFull/btSoftBody_8cpp_source.html#l00626>`__
   - Python property: ``obj.game.soft_body.use_shape_match``
   - Suboption: *Threshold* -
     `Linearly scales the pose match
@@ -54,8 +55,6 @@ Options
     - A threshold of 0.0 makes it behave like *Shape Match* off with a *Linear Stiffness* of 0.0.
     - Range: 0-1.
     - Default: 0.5.
-    - Code effect: Sets `btSoftBody::Config::kMT
-      <http://www.continuousphysics.com/Bullet/BulletFull/structbtSoftBody_1_1Config.html#a8e9d39cceaf15fd8697b2f8831b2fee1>`__.
     - Python property: ``obj.game.soft_body.shape_threshold``
 - *Welding*
   TODO.
@@ -68,9 +67,6 @@ Options
     <http://wiki.blender.org/index.php/Media:BGE-Physics-Objects-SoftBodies_PositionIterations.blend>`__.
   - Range: 0-10.
   - Default: 2.
-  - Code effect: Represents the number of times `this loop
-    <http://www.continuousphysics.com/Bullet/BulletFull/btSoftBody_8cpp_source.html#l01627>`__
-    is run.
   - Python property: ``obj.game.soft_body.location_iterations``
 - *Linear Stiffness* - Linear stiffness of the soft body links.
   This is most evident when you have *Shape Match* off, but it is also evident with it on.
@@ -81,23 +77,19 @@ Options
   - Default: 0.5.
   - Python property: ``obj.game.soft_body.linear_stiffness``
 - *Friction* - Dynamic friction coefficient.
-  .. TODO: Learn/demo/explain.
+.. TODO: Learn/demo/explain.
 
-  - Code effect: Sets `btSoftBody::Config::kMT
-    <http://www.continuousphysics.com/Bullet/BulletFull/btSoftBodyInternals_8h.html>`__,
-    which, for Soft Bodies, defines the minimum friction versus the Material Friction
-    (which in turn defaults to 0.5).
   - Range: 0-1.
   - Default: 0.2.
   - Python property: ``obj.game.soft_body.dynamic_friction``
 - *Margin* - Small value makes the algorithm unstable.
-  .. TODO: Learn/demo/explain.
+.. TODO: Learn/demo/explain.
 
   - Range: 0.01-1.
   - Default: 0.01.
   - Python property: ``obj.game.soft_body.collision_margin``
 - *Bending Constraint* - Enable Bending Constraints
-  .. TODO: Learn/demo/explain.
+.. TODO: Learn/demo/explain.
 
   - Default: On.
   - Python property: ``obj.game.soft_body.use_bending_constraints``
