@@ -1,7 +1,7 @@
 
-**************************
+*****
 Blend
-**************************
+*****
 
 .. figure:: /images/Textures-Procedural-Blend.jpg
    :width: 307px

@@ -1,7 +1,7 @@
 
-**************************
+*****
 Noise
-**************************
+*****
 
 .. figure:: /images/Textures-Procedural-Noise.jpg
    :width: 307px
@@ -19,5 +19,3 @@ Often used for
    For material displacement or bump, use clouds instead.
 Result(s)
    Intensity
-
-

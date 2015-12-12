@@ -1,7 +1,7 @@
 
-**************************
+*****
 Magic
-**************************
+*****
 
 .. figure:: /images/Textures-Procedural-Magic.jpg
    :width: 307px
@@ -23,4 +23,3 @@ Depth
    The depth of the calculation. A higher number results in a long calculation time, but also in finer details.
 Turbulence
    The strength of the pattern.
-

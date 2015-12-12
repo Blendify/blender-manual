@@ -1,7 +1,7 @@
 
-************************************
+***************
 Distorted Noise
-************************************
+***************
 
 .. figure:: /images/Textures-Procedural-DistNoise.jpg
    :width: 307px
