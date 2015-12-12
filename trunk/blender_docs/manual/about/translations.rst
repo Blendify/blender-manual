@@ -29,12 +29,12 @@ From the directory containing your checkout of the manual run the following comm
 
 .. code-block:: sh
 
-   svn checkout https://svn.blender.org/svnroot/bf-manual-translations/trunk/blender_docs/locale manual/locale
+   svn checkout https://svn.blender.org/svnroot/bf-manual-translations/trunk/blender_docs/locale locale
 
-This will create a ``manual/locale/`` subdirectory.
+This will create a ``locale/`` subdirectory.
 
 Now you can edit the PO translation files,
-eg: ``manual/locale/fr/LC_MESSAGES/getting_started/about_blender/introduction.po``
+eg: ``locale/fr/LC_MESSAGES/getting_started/about_blender/introduction.po``
 
 These files can be edited and committed back to svn.
 
@@ -54,9 +54,7 @@ To creates the ``.mo`` files (needed for building translation).
 
 .. code-block:: sh
 
-   cd manual
    sphinx-intl build
-   cd ..
 
 Now you can build the manual with the translation applied.
 
