@@ -46,27 +46,27 @@ Distance Metric
    * - .. figure:: /images/VoronoyMinkovsky0_5.jpg
           :width: 200px
 
-          Minkovsky Exponent : 0.5 (Minkovsky 1/2)
+          Minkovsky Exponent: 0.5 (Minkovsky 1/2)
 
      - .. figure:: /images/VoronoyMinkovsky1.jpg
           :width: 200px
 
-          Minkovsky Exponent : 1 (Manhattan)
+          Minkovsky Exponent: 1 (Manhattan)
 
      - .. figure:: /images/VoronoiMinkovsky2.jpg
           :width: 200px
 
-          Minkovsky Exponent : 2 (Actual Distance)
+          Minkovsky Exponent: 2 (Actual Distance)
 
    * - .. figure:: /images/VoronoyMinkovsky4.jpg
           :width: 200px
 
-          Minkovsky Exponent : 4 (Minkovsky 4)
+          Minkovsky Exponent: 4 (Minkovsky 4)
 
      - .. figure:: /images/VoronoyMinkovsky10.jpg
           :width: 200px
 
-          Minkovsky Exponent : 10 (Chebychev)
+          Minkovsky Exponent: 10 (Chebychev)
 
      - .. figure:: /images/VoronoyDistanceSquared.jpg
           :width: 200px
@@ -79,17 +79,10 @@ Feature Weights
    which are used to calculate the distances between each cell in the texture based on the distance metric.
    Adjusting these values can have some interesting effects on the end result...
 
-   .. (no gallery yet) Check the Samples Gallery for some examples of these settings and what textures they produce.
+.. (no gallery yet) Check the Samples Gallery for some examples of these settings and what textures they produce.
 
 Coloring
    Four settings (*Intensity*, *Position*, *Position and Outline*, and *Position, Outline, and Intensity*)
    that can use four different noise basis as methods to calculate color and intensity of the texture output.
    This gives the Voronoi texture you create with the "Worley Sliders"
    a completely different appearance and is the equivalent of the noise basis setting found on the other textures.
-
-
-Technical Details
-=================
-
-For a more in depth description of the Worley algorithm, see:
-`Worley Documentation <http://www.ypoart.com/downloads/Worley.htm>`__.
