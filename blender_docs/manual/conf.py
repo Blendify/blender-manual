@@ -290,6 +290,6 @@ texinfo_documents = [
 #texinfo_show_urls = 'footnote'
 
 # translations
-locale_dirs = ['locale/']   # path is example but recommended.
+locale_dirs = ['../locale/']   # path is example but recommended.
 gettext_compact = False     # optional.
 
