@@ -33,12 +33,3 @@ Size
 Depth
    The depth of the *Clouds* calculation.
    A higher number results in a long calculation time, but also in finer details.
-
-
-Technical Details
-=================
-
-A three-dimensional table with pseudo-random values is used,
-from which a fluent interpolation value can be calculated with each 3D coordinate
-(thanks to Ken Perlin for his masterful article "An Image Synthesizer",
-from the SIGGRAPH proceedings 1985). This calculation method is also called Perlin Noise.
