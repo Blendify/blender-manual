@@ -9,6 +9,11 @@ Translations
    this page shows the initial steps for translators to get started.
 
 
+On this page French (``fr``) is used for examples,
+however it can be replaced with other
+`languages codes <http://www.gnu.org/software/gettext/manual/html_node/Usual-Language-Codes.html>`__ of course.
+
+
 Installing Dependencies
 =======================
 
