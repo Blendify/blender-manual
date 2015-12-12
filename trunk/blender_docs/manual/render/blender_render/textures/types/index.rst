@@ -11,4 +11,3 @@
    video.rst
    nodes/index.rst
    volume/index.rst
-   ocean.rst

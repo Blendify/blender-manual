@@ -7,6 +7,7 @@
    :maxdepth: 1
 
    introduction.rst
+   ocean.rst
    blend.rst
    clouds.rst
    distorted_noise.rst
