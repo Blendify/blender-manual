@@ -6,7 +6,7 @@ Texture types
 These are the available texture types:
 
 
-- :doc:`Procedural Textures </render/blender_render/textures/types/procedural/introduction>`
+- :doc:`Procedural Textures </editors/uv_image/texturing/textures/introduction>`
 
 
 .. figure:: /images/Textures-Types-Procedural.jpg
@@ -43,7 +43,7 @@ These are the available texture types:
    Textures that can be applied to volumetric data.
 
 
-- :doc:`Ocean Textures </render/blender_render/textures/types/ocean>`
+- :doc:`Ocean Textures </editors/uv_image/texturing/textures/ocean>`
 
 
 .. figure:: /images/Textures-Types-Ocean.jpg
