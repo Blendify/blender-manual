@@ -1,7 +1,7 @@
 
-***************************
+******
 Marble
-***************************
+******
 
 .. figure:: /images/Textures-Procedural-Marble.jpg
    :width: 307px
@@ -32,4 +32,3 @@ Depth
    A higher value results in greater calculation time, but also in finer details.
 Turbulence
    The turbulence of the sine bands.
-

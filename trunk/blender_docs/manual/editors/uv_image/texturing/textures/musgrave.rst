@@ -1,7 +1,7 @@
 
-*****************************
+********
 Musgrave
-*****************************
+********
 
 .. figure:: /images/Textures-Procedural-Musgrave.jpg
    :width: 307px
@@ -96,4 +96,3 @@ Gain
    The higher the number, the greater the range.
    This is a fast way to bring out additional details in a texture where extremes are normally clipped off.
    Range: 0 to 6.
-

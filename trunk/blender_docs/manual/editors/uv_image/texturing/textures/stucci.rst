@@ -1,7 +1,7 @@
 
-***************************
+******
 Stucci
-***************************
+******
 
 .. figure:: /images/Textures-Procedural-Stucci.jpg
    :width: 307px
@@ -29,4 +29,3 @@ Size
    Dimension of the Noise table
 Turbulence
    Depth of the *Stucci* calculations
-

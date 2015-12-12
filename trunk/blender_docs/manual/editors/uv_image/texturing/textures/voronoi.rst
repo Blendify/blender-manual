@@ -1,7 +1,7 @@
 
-****************************
+*******
 Voronoi
-****************************
+*******
 
 .. figure:: /images/Textures-Procedural-Voronoi.jpg
    :width: 307px
