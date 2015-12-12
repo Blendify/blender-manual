@@ -13,6 +13,9 @@ On this page French (``fr``) is used for examples,
 however it can be replaced with other
 `languages codes <http://www.gnu.org/software/gettext/manual/html_node/Usual-Language-Codes.html>`__.
 
+To see which languages are currently available, you can browse the repository:
+http://developer.blender.org/diffusion/BMT/browse/trunk/blender_docs/locale
+
 
 Installing Dependencies
 =======================
@@ -32,11 +35,17 @@ First of all, its assumed that you have the manual already building.
 
 From the directory containing your checkout of the manual run the following command.
 
+.. note::
+
+   Be sure to change the ``/fr`` suffixes to the language you're translating!
+
+   You can remove the suffix to checkout all languages too, however this will be a much larger download.
+
 .. code-block:: sh
 
-   svn checkout https://svn.blender.org/svnroot/bf-manual-translations/trunk/blender_docs/locale locale
+   svn checkout https://svn.blender.org/svnroot/bf-manual-translations/trunk/blender_docs/locale/fr locale/fr
 
-This will create a ``locale/`` subdirectory.
+This will create a ``locale/fr`` subdirectory.
 
 Now you can edit the PO translation files,
 eg: ``locale/fr/LC_MESSAGES/getting_started/about_blender/introduction.po``
