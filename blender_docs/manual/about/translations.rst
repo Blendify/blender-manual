@@ -48,9 +48,14 @@ From the directory containing your checkout of the manual run the following comm
 This will create a ``locale/fr`` subdirectory.
 
 Now you can edit the PO translation files,
-eg: ``locale/fr/LC_MESSAGES/getting_started/about_blender/introduction.po``
+eg:
 
-These files can be edited and committed back to svn.
+Original RST File
+   ``manual/getting_started/about_blender/introduction.rst``
+Generated PO File
+   ``locale/fr/LC_MESSAGES/getting_started/about_blender/introduction.po``
+
+The modified ``.po`` files can be edited and committed back to svn.
 
 
 Building with Translations
