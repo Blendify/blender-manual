@@ -11,7 +11,7 @@ Translations
 
 On this page French (``fr``) is used for examples,
 however it can be replaced with other
-`languages codes <http://www.gnu.org/software/gettext/manual/html_node/Usual-Language-Codes.html>`__ of course.
+`languages codes <http://www.gnu.org/software/gettext/manual/html_node/Usual-Language-Codes.html>`__.
 
 
 Installing Dependencies
@@ -102,5 +102,6 @@ The updated templates can then be committed to svn.
 
 .. seealso::
 
+   Instructions on this page are based on
    `Sphinx Intl documentation <http://sphinx-doc.org/latest/intl.html>`__
 
