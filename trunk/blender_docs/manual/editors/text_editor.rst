@@ -64,17 +64,8 @@ The *Text Editor* has now also some dedicated Python scripts,
 which add some useful writing tools, like a class/function/variable browser, completion... You
 can access them through the *Text* --> *Text Plugins* menu entry.
 
+.. tip:: Usages for the Text window
 
-Other usages for the Text window
-================================
-
-The text window is handy also when you want to share your ``.blend`` files with others.
-A *Text* window can be used to write in a ``README`` text explaining the contents of your blend file.
-Be sure to keep it visible when saving!
-
-
-Demonstration
-=============
-
-.. youtube:: OzGZ_ssrmsQ
-
+   The text window is handy also when you want to share your ``.blend`` files with others.
+   A *Text* window can be used to write in a ``README`` text explaining the contents of your blend file.
+   Be sure to keep it visible when saving!
