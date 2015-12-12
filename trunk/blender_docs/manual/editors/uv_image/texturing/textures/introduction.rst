@@ -22,16 +22,16 @@ the user can easily keep the specified frequencies within acceptable limits.
 These are the available types:
 
 
-- :doc:`Blend </render/blender_render/textures/types/procedural/blend>`
-- :doc:`Clouds </render/blender_render/textures/types/procedural/clouds>`
-- :doc:`Distorted Noise </render/blender_render/textures/types/procedural/distorted_noise>`
-- :doc:`Magic </render/blender_render/textures/types/procedural/magic>`
-- :doc:`Marble </render/blender_render/textures/types/procedural/marble>`
-- :doc:`Musgrave </render/blender_render/textures/types/procedural/musgrave>`
-- :doc:`Noise </render/blender_render/textures/types/procedural/noise>`
-- :doc:`Stucci </render/blender_render/textures/types/procedural/stucci>`
-- :doc:`Voronoi </render/blender_render/textures/types/procedural/voronoi>`
-- :doc:`Wood </render/blender_render/textures/types/procedural/wood>`
+- :doc:`Blend </editors/uv_image/texturing/textures/blend>`
+- :doc:`Clouds </editors/uv_image/texturing/textures/clouds>`
+- :doc:`Distorted Noise </editors/uv_image/texturing/textures/distorted_noise>`
+- :doc:`Magic </editors/uv_image/texturing/textures/magic>`
+- :doc:`Marble </editors/uv_image/texturing/textures/marble>`
+- :doc:`Musgrave </editors/uv_image/texturing/textures/musgrave>`
+- :doc:`Noise </editors/uv_image/texturing/textures/noise>`
+- :doc:`Stucci </editors/uv_image/texturing/textures/stucci>`
+- :doc:`Voronoi </editors/uv_image/texturing/textures/voronoi>`
+- :doc:`Wood </editors/uv_image/texturing/textures/wood>`
 
 
 Common options
@@ -132,5 +132,3 @@ If intensity only ones are used the result is a black and white texture,
 which can be greatly enhanced by the use of ramps.
 If on the other hand you use ramps and need an intensity value,
 you have to switch on *No RGB* in the *Mapping* panel.
-
-

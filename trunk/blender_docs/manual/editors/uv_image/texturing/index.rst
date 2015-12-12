@@ -7,6 +7,7 @@
    :maxdepth: 2
 
    introduction.rst
+   textures/index.rst
    uv_mapping.rst
    unwrapping.rst
    layout_management.rst
