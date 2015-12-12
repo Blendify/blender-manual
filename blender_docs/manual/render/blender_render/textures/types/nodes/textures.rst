@@ -25,7 +25,7 @@ Voronoi
    Voronoi node
 
 
-See :doc:`Here </render/blender_render/textures/types/procedural/voronoi>`
+See :doc:`Here </editors/uv_image/texturing/textures/voronoi>`
 
 
 Blend
@@ -36,7 +36,7 @@ Blend
    Blend node
 
 
-See :doc:`Here </render/blender_render/textures/types/procedural/blend>`
+See :doc:`Here </editors/uv_image/texturing/textures/blend>`
 
 
 Magic
@@ -47,7 +47,7 @@ Magic
    Magic node
 
 
-See :doc:`Here </render/blender_render/textures/types/procedural/magic>`
+See :doc:`Here </editors/uv_image/texturing/textures/magic>`
 
 
 Marble
@@ -58,7 +58,7 @@ Marble
    Marble node
 
 
-See :doc:`Here </render/blender_render/textures/types/procedural/marble>`
+See :doc:`Here </editors/uv_image/texturing/textures/marble>`
 
 
 Clouds
@@ -69,7 +69,7 @@ Clouds
    Clouds node
 
 
-See :doc:`Here </render/blender_render/textures/types/procedural/clouds>`
+See :doc:`Here </editors/uv_image/texturing/textures/clouds>`
 
 
 Wood
@@ -82,7 +82,7 @@ Wood
    Wood node
 
 
-See :doc:`Here </render/blender_render/textures/types/procedural/wood>`
+See :doc:`Here </editors/uv_image/texturing/textures/wood>`
 
 
 Musgrave
@@ -93,7 +93,7 @@ Musgrave
    Musgrave
 
 
-See :doc:`Here </render/blender_render/textures/types/procedural/musgrave>`
+See :doc:`Here </editors/uv_image/texturing/textures/musgrave>`
 
 
 Noise
@@ -104,7 +104,7 @@ Noise
    Noise
 
 
-See :doc:`Here </render/blender_render/textures/types/procedural/noise>`
+See :doc:`Here </editors/uv_image/texturing/textures/noise>`
 
 
 Stucci
@@ -115,7 +115,7 @@ Stucci
    Stucci
 
 
-See :doc:`Here </render/blender_render/textures/types/procedural/stucci>`
+See :doc:`Here </editors/uv_image/texturing/textures/stucci>`
 
 
 Distorted Noise
@@ -126,4 +126,4 @@ Distorted Noise
    Distorted Noise node
 
 
-See :doc:`Here </render/blender_render/textures/types/procedural/distorted_noise>`
+See :doc:`Here </editors/uv_image/texturing/textures/distorted_noise>`

@@ -72,7 +72,7 @@ Texture Type
 Choose the type of texture that is used for the current texture data-block.
 
 
-- :doc:`Procedural Textures </render/blender_render/textures/types/procedural/introduction>`
+- :doc:`Procedural Textures </editors/uv_image/texturing/textures/introduction>`
 - :doc:`Image </render/blender_render/textures/types/image>` and
   :doc:`Video </render/blender_render/textures/types/video>` Textures
 - :doc:`Environment Map </render/blender_render/textures/mapping/environment>`
