@@ -8,23 +8,31 @@ import re
 # if you want to operate on a subdir, eg: "render"
 SUBDIR = ""
 CURRENT_DIR = os.path.abspath(os.path.dirname(__file__))
-RST_DIR = os.path.normpath(os.path.join(CURRENT_DIR, "..", "manual", SUBDIR))
+ROOT_DIR = os.path.normpath(os.path.join(CURRENT_DIR, ".."))
+RST_DIR = os.path.join(ROOT_DIR, "manual", SUBDIR)
+LOCALE_DIR = os.path.join(ROOT_DIR, "locale")
 
 
-def rst_files(path):
+def files_recursive(path, ext_test):
     for dirpath, dirnames, filenames in os.walk(path):
         if dirpath.startswith("."):
             continue
 
         for filename in filenames:
             ext = os.path.splitext(filename)[1]
-            if ext.lower() == ".rst":
+            if ext.lower().endswith(ext_test):
                 yield os.path.join(dirpath, filename)
 
 
 def main():
     for operation, operation_post in operations:
-        for fn in rst_files(RST_DIR):
+
+        # single argument operations
+        if operation_post is ...:
+            operation()
+            continue
+
+        for fn in files_recursive(RST_DIR, ext_test=".rst"):
             with open(fn, "r", encoding="utf-8") as f:
                 data_src = f.read()
                 data_dst = operation(fn, data_src)
@@ -124,11 +132,30 @@ def warn_images_post():
             img_files_set_lower.add(fn_lower)
 
 
+def warn_locale():
+    """
+    Check for stale PO files.
+    """
+    files_rst = list(files_recursive(RST_DIR, ext_test=".rst"))
+    files_po = list(files_recursive(LOCALE_DIR, ext_test=".po"))
+
+    for f in files_po:
+        # strip LOCALE_DIR from start
+        f_sub = f[len(LOCALE_DIR) + 1:-2] + "rst"
+        # strip 'fr/LC_MESSAGES'
+        f_sub = os.sep.join(f_sub.split(os.sep)[2:])
+        f_po_as_rst = os.path.join(RST_DIR, f_sub)
+        if not os.path.exists(f_po_as_rst):
+            print(" svn rm %r" % f[len(LOCALE_DIR) + 1:])
+        
+
+
 # define the operations to call
 operations = []
 operations_checks = {
     "--url": (warn_broken_urls, None),
     "--image": (warn_images, warn_images_post),
+    "--locale": (warn_locale, ...),  # run once
     }
 
 
