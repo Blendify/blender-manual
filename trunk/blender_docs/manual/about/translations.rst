@@ -68,6 +68,28 @@ If you're on ms-windows and don't have ``make``, run:
 
    sphinx-build -b html -D language='fr' ./manual ./build/html
 
+Now you will have a build of the manual with translations applied.
+
+
+Updating PO Files
+-----------------
+
+As the original manual changes, the templates will need updating.
+
+This can be done as follows.
+
+.. code-block:: sh
+
+   make gettext
+   sphinx-intl update -p build/locale -l fr
+
+The updated templates can then be committed to svn.
+
+*TODO: document how to handle files being added/removed/moved.*
+
+
+----
+
 .. note::
 
    See the `translation design task <https://developer.blender.org/T43083>`__
