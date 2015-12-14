@@ -58,17 +58,17 @@ Blob
    control the amount of pinching at the edge of the sphere.
 Clay (:kbd:`C`)
    Similar to the *Draw* brush, but includes settings to adjust the plane on which the brush acts.
-Clay Strips
+Clay Strips (:kbd:`C`)
    Similar to the *Clay* brush, but it uses a cube test to define the brush area of influence rather than a sphere.
-Crease
+Crease (:kbd:`Shift-C`)
    Creates sharp indents or ridges by pushing or pulling the mesh, while pinching the vertices together.
-Draw (:kbd:`D`)
+Draw (:kbd:`X`)
    Moves vertices inward or outward,
    based the average normal of the vertices contained within the drawn brush stroke.
 Fill
    The *Fill* brush works like the Flatten brush, but only brings vertices below the brush plane upwards.
    The inverse of the Scrape brush is to *Deepen* by pushing vertices above the plane downward.
-Flatten (:kbd:`T`)
+Flatten (:kbd:`Shift-T`)
    The *Flatten* brush finds an 'area plane'
    located by default at the average height above/below the vertices within the brush area.
    The vertices are then pulled towards this plane.
@@ -101,7 +101,7 @@ Smooth (:kbd:`S`)
    As the name suggests,
    eliminates irregularities in the area of the mesh within the brush's
    influence by smoothing the positions of the vertices.
-Snake Hook
+Snake Hook (:kbd:`K`)
    Pulls vertices along with the movement of the brush to create long, snake-like forms.
 Thumb
    Similar to the *Nudge* brush, this one flattens the mesh in the brush area,
@@ -190,6 +190,8 @@ Airbrush
 The following parameters are available for the *Dots*, *Space*,
 and *Airbrush* strokes:
 
+Jitter
+   Jitters the position of the brush while painting.
 Smooth stroke
    Brush lags behind mouse and follows a smoother path. When enabled, the following become active:
 
@@ -197,8 +199,6 @@ Smooth stroke
       Sets the minimum distance from the last point before stroke continues.
    Factor
       Sets the amount of smoothing
-Jitter
-   Jitters the position of the brush while painting.
 
 
 Curve Menu
@@ -252,49 +252,130 @@ Size
    This setting allows you to modify the scaling factor of the texture. Not available for *Drag* textures.
 Sample Bias
    Value added to texture samples.
-Overlay
-   When enabled, the texture is shown in the viewport, as determined by the; *Alpha* value.
 
+Dyntopo Menu
+------------
+
+Detail Type
+   Dynotopo uses three different detail methods to create dynamic detail to an object. The
+   methods avaiable are Relative Detail (Default), Constant Detail, and Brush Detail.
+
+   Relative Detail
+       This method is uses a detail size based on the number of pixels, and in turn
+       will create topology in that size.
+
+   Constant Detail
+       To keep detail uniform across the entire object, Constant Detail can be used.
+       The Detail is based on the percentage of a single BU (Blender Unit).
+
+   Brush Detail
+       Giving more control over the topology, with this method you can create topology
+       based on the brush size. You can increase and lower topology by simply resizing
+       the brush itself. The detail size is based the size of the brush itself, where
+       100% will create topology the size of the brush ring itself.
+
+Detail Size
+    Each Deatil Type's detail is set here. Depending on the Detail Type being used
+    this property will rather show as a pixel count (px), or percentage.
+
+Detail Refine Method
+    When using Dynamic Topology, a certain method will be used to tell how topology
+    is handled. Setting the option will determine which of the methods will be used when
+    altering the topology.
+
+    Subdivide
+        Just like the subdivide command, this method will only subdivide topology
+        to match the detail given.
+
+    Collapse
+        When topology is too dense, and is smaller than the detail given, edges will
+        be collapse to fit the detail size appropriately.
+
+    Subdivde Collapse
+        This method combines the two methods, subdividing edges smaller than the
+        detail size, and collapsing topology.
+
+    Detail Flood Fill
+        When using Constant Detail mode, this option is made available, allowing
+        you to fill the entire object with a uniform detail, based on the detail size.
 
 Symmetry Menu
 -------------
 
-Mirror the brush strokes across the selected local axes.
-Note that if you want to alter the directions the axes point in,
-you must rotate the model in *Edit* Mode, not *Object* Mode.
-
-Feather
-   Reduces the strength of the stroke where it overlaps the planes of symmetry.
+Mirror
+  Mirror the brush strokes across the selected local axes.
+  Note that if you want to alter the directions the axes point in,
+  you must rotate the model in *Edit* Mode, not *Object* Mode
 Radial
    These settings allow for radial symmetry in the desired axes.
    The number determines how many times the stroke will be repeated within 360 degrees around the central axes.
+Feather
+   Reduces the strength of the stroke where it overlaps the planes of symmetry.
+Lock
+   These three buttons allow you to block any modification/deformation
+   of your model along selected local axes, while you are sculpting it.
+Tiling
+   Using this option allows you to seamlessly tile your strokes along the given
+   axes.
+Tile Offset
+   The default tile size is set to one BU (Blender Unit). The offset allows the
+   option to alter the tile size along all three axes.
+
+Overlay Menu
+------------
+
+Overlay
+   When enabled, the brush texture is shown in the viewport
+
+   View
+      The eye icon is used as a toggle to show or hide the given brush texture
+   Alpha
+      You can change the amount of transparency used when showing the texture using
+      the Alpha slider
+   Stroke Overlay
+      The brush icon allows you to turn off the viewport overlay during strokes
 
 
 Options Menu
 ------------
 
+Gravity
+    Factor
+       Setting the factor allows you to add gravity to your brush strokes, giving
+       it a draping effect.
+    Orientation
+       Using another object, the gravity can be oriented to the set object's local
+       Z axis, changing the direction of the gravity.
 Threaded Sculpt
    Takes advantage of multiple CPU processors to improve sculpting performance.
 Fast Navigation
    For *Multires* models, show low resolution while navigation the viewport.
-Show Brush
-   Shows the brush shape in the viewport.
+Use Deform Only
+   Limits active modifiers on the active object to Deform modifiers, and Multiresolution
+Show Diffuse Color
+   Allows the active object to show it's diffuse color when sculpting
 Unified Settings:
    Size
       Forces the brush size to be shared across brushes.
    Strength
       Forces the brush strength to be shared across brushes.
-Lock
-   These three buttons allow you to block any modification/deformation
-   of your model along selected local axes, while you are sculpting it.
+   Color
+      Not Used in Sculpt Mode
+Show Brush
+   Shows the brush shape in the viewport.
+Color (Add/Subtract)
+   Set the color of the brush ring when its particular effect is active
 
 
 Appearance Menu
----------------
+----------------
 
-You can set the color of the brush depending on if it is in additive or subtractive mode.
-
-You can also set the brush icon from an image file.
+Show Brush
+   Shows the brush shape in the viewport.
+Color (Add/Subtract)
+   Set the color of the brush ring when its particular effect is active
+Custom Icon
+   Append an image file to the active brush as an icon.
 
 
 Tool Menu
@@ -349,11 +430,13 @@ Mode.
    * - Brush direction toggle (*Add* / *Sub*)
      - :kbd:`Ctrl` pressed while sculpting
    * - Set stroke method (airbrush, anchored, ..)
-     - :kbd:`A`
-   * - Smooth stroke toggle
+     - :kbd:`E`
+   * - Toggle Smooth Stroke
      - :kbd:`Shift-S`
+   * - Smooth stroke toggle
+     - :kbd:`Shift`
    * - *Draw* brush
-     - :kbd:`D`
+     - :kbd:`X`
    * - *Smooth* brush
      - :kbd:`S`
    * - *Pinch/Magnify* brush
@@ -388,12 +471,13 @@ Mode.
      - :kbd:`PageDown`
    * - Set multires level
      - :kbd:`Ctrl-0` to :kbd:`Ctrl-5`
-   * - Dynamic topology toggle
+   * - Dynamic Topology toggle
      - :kbd:`Ctrl-D`
+   * - Dynamic Topology detail
+     - :kbd:`Shift-D`
    * - Set texture angle type
      - :kbd:`R`
    * - Translate/scale/rotate stencil texture
      - :kbd:`RMB`, :kbd:`Shift-RMB`, :kbd:`Ctrl-RMB`
    * - Translate/scale/rotate stencil mask
      - :kbd:`Alt-RMB`, :kbd:`Alt-Shift-RMB`, :kbd:`Alt-Ctrl-RMB`
-
