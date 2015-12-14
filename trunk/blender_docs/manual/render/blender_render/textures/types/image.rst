@@ -338,7 +338,7 @@ To overlay multiple UV images, you have several options:
 - Define two objects, one just inside the other.
   The inner object would have the base image,
   and the outer image the overlaid image with a material alpha less than one (1.0).
-- Use the :doc:`Material nodes </render/blender_render/materials/nodes>`
+- Use the :doc:`Material nodes </render/blender_render/materials/nodes/index>`
   to combine the two images via the AlphaOver or Mix node,
   thus creating a third noded material that you use as the material for the face.
   Using this approach, you will not have to UV map;

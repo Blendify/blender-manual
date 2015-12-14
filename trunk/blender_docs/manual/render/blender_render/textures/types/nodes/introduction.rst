@@ -6,7 +6,7 @@ Texture Nodes
 As an alternative to using the :doc:`Texture Stack </render/blender_render/textures/options>`,
 Blender includes a node-based texture generation system which enables you to create textures by combining colors,
 patterns and other textures in much the same way that you combine
-:doc:`Material Nodes </render/blender_render/materials/nodes>`.
+:doc:`Material Nodes </render/blender_render/materials/nodes/index>`.
 
 You can use these textures wherever you can use regular textures:
 you can place them in texture channels, in material nodes, in particle systems,
