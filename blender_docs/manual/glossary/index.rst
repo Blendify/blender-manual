@@ -466,6 +466,7 @@ For other common conventions used throughout the manual.
          By projecting all points ``P`` of the scene you get the orthographic view.
 
    Quad
+   Quadrilateral
       :term:`Face` that contains exactly four :term:`vertices <vertex>`.
 
    Radiosity
