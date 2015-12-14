@@ -22,4 +22,3 @@
    radar.rst
    random.rst
    ray.rst
-   touch.rst
