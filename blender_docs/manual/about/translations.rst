@@ -63,9 +63,11 @@ Building with Translations
 
 .. note::
 
-   This is quite involved, and it may not be expected that translators have to build the translated manual locally.
+   This is optional, translations are automatically built online, eg:
+   http://www.blender.org/manual/fr/
 
-   Instead we may rely on the docs being build automatically online.
+   This is quite involved,
+   so its not be expected that translators should be doing their own builds locally.
 
 ----
 
