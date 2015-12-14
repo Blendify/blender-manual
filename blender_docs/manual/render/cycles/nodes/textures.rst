@@ -355,3 +355,69 @@ Color output
    Texture color output.
 Fac output
    Mortar mask (1 = mortar).
+
+
+Point Density
+=============
+
+.. figure:: /images/cycles_nodes_tex_point_density.jpg
+   :width: 200px
+
+   Domain object with Point Density texture using vertices from ball as points.
+
+
+Used to add volumetric points for each particle or vertex of another object.
+
+
+Options
+"""""""
+
+Point Data
+   Where to get points from.
+
+   Particle System
+      Use each particle position from the specified particle system.
+   Object Vertices
+      Use each vertex position from the specified object.
+Object
+   Which object's vertices or particle system will be used.
+Particle System
+   Particle positions from this system will be used.
+Space
+   The coordinate system for mapping points.
+
+   World Space
+      Map each point exactly where the source particle/vertex is.
+   Object Space
+      Fit the points from the source particles/vertices
+      inside the bounding box of the object with the point density texture.
+      .. TODO As far as I can tell this is how it works, but should be checked with a developer.
+Radius
+   Radius from the shaded sample to look for points within.
+   .. TODO Same as tooltip, this does not make much sense to me.
+Interpolation
+   Texel filtering type.
+
+   Closest
+      No interpolation, use nearest texel. Produces blocky looking points.
+   Linear
+      Interpolate linearly between texels, producing soft, round points.
+   Cubic
+      Use cubic falloff, producing very soft points. Useful when points are very densely packed.
+Resolution
+   The dimensions of the texture holding the point data.
+Color Source
+   Which attribute of the particle system is used to color the output.
+
+
+Sockets
+"""""""
+
+Vector
+   Texture coordinate to sample texture at;
+   defaults to global position (Position output of Geometry node) if the socket is left unconnected.
+
+Color output
+   Texture color output.
+Density output
+   Density of volume.
