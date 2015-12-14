@@ -4,7 +4,6 @@ Magic
 *****
 
 .. figure:: /images/Textures-Procedural-Magic.jpg
-   :width: 307px
 
    Magic Texture Panels
 

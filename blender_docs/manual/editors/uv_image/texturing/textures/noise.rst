@@ -4,7 +4,6 @@ Noise
 *****
 
 .. figure:: /images/Textures-Procedural-Noise.jpg
-   :width: 307px
 
    Noise Texture Panel
 

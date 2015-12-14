@@ -4,7 +4,6 @@ Clouds
 ******
 
 .. figure:: /images/Textures-Procedural-Clouds.jpg
-   :width: 307px
 
    Clouds Texture Panels
 
