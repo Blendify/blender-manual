@@ -5,11 +5,10 @@
 #######################
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    introduction.rst
    weight_paint/index.rst
    vertex_paint/index.rst
    texture_paint/index.rst
    sculpting/index.rst
-
