@@ -111,7 +111,7 @@ your workflow as this will help increase your productivity. Some examples could 
    3-Material
       Properties window for Material settings, 3D window for selecting objects, Outliner,
       Library script (if used), Node Editor
-      (if using :doc:`Node based materials </render/blender_render/materials/nodes>`)
+      (if using :doc:`Node based materials </render/blender_render/materials/nodes/index>`)
    4-UV Layout
       UV/Image Editor Window, 3D Window for seaming and unwrapping mesh
    5-Painting

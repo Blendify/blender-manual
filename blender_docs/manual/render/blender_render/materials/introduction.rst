@@ -115,7 +115,7 @@ object in your scene.
    First, you can set the :doc:`Properties </render/blender_render/materials/properties/introduction>`
    in the various Material panels.
 
-   Second, you can use :doc:`Nodes </render/blender_render/materials/nodes>`;
+   Second, you can use :doc:`Nodes </render/blender_render/materials/nodes/index>`;
    a graphical nodes editor is available.
 
    Last, you can directly set the color of object surfaces using various special effects. Strictly speaking,

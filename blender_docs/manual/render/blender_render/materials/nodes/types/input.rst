@@ -23,7 +23,7 @@ Material Node
    :class: refbox
 
    | Panel:    :doc:`Node Editor </editors/node_editor/editor>` -->
-               :doc:`Material Nodes </render/blender_render/materials/nodes>`
+               :doc:`Material Nodes </render/blender_render/materials/nodes/index>`
    | Menu:     :kbd:`Shift-A` --> Input --> Material
 
 
