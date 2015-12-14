@@ -8,7 +8,7 @@
    :maxdepth: 2
 
    introduction.rst
-   translation,_rotation,_scale.rst
+   translation_rotation_scale.rst
    adding.rst
    deleting.rst
    creating_faces_and_edges.rst
