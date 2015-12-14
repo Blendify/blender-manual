@@ -4,7 +4,6 @@ Marble
 ******
 
 .. figure:: /images/Textures-Procedural-Marble.jpg
-   :width: 307px
 
    Marble Texture Panels
 

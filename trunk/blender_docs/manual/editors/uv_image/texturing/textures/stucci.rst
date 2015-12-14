@@ -4,7 +4,6 @@ Stucci
 ******
 
 .. figure:: /images/Textures-Procedural-Stucci.jpg
-   :width: 307px
 
    Stucci Texture Panels
 

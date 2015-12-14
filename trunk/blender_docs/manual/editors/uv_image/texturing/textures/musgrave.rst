@@ -4,7 +4,6 @@ Musgrave
 ********
 
 .. figure:: /images/Textures-Procedural-Musgrave.jpg
-   :width: 307px
 
    Musgrave Texture Panels
 

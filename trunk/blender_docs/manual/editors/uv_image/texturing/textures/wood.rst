@@ -4,7 +4,6 @@ Wood
 ****
 
 .. figure:: /images/Textures-Procedural-Wood.jpg
-   :width: 307px
 
    Wood Texture Panels
 
