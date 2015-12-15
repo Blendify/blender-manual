@@ -73,12 +73,6 @@ All vertices keep their relative weights,
 but the entire set of weights is scaled up such that the highest weight value is 1.0
 
 
-Operator Parameters
--------------------
-
-None
-
-
 Mirror
 ======
 
@@ -331,17 +325,19 @@ By default this tool copies all vertex groups contained in the selected objects 
 object. However you can change the tool's behavior in the operator redo panel (see below).
 
 
-Prepare the copy
+Prepare the Copy
 ----------------
 
-.. figure:: /images/Modeling-Meshes-wp-tools-transfer-wrong.jpg
 
-   Blending
+.. list-table::
 
+   * - .. figure:: /images/Modeling-Meshes-wp-tools-transfer-wrong.jpg
 
-.. figure:: /images/Modeling-Meshes-wp-tools-transfer-ok.jpg
+          Blending
 
-   Blending
+     - .. figure:: /images/Modeling-Meshes-wp-tools-transfer-ok.jpg
+
+          Blending
 
 
 You first select all source objects, and finally the target object
@@ -355,7 +351,7 @@ but you have to ensure that all objects are visible when you call the tool.
 Now ensure that the Target Object is in Weight Paint mode.
 
 
-Call the tool
+Call the Tool
 -------------
 
 Open the Tool Shelf and locate the Weight Tools panel.
