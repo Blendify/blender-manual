@@ -37,7 +37,7 @@ Texture Properties
 ==================
 
 .. figure:: /images/Cycles_texture_tab_menu.jpg
-   :width: 220px
+   :width: 210px
    :align: right
 
 
@@ -56,7 +56,7 @@ Painting & UV Editing
 =====================
 
 .. figure:: /images/Cycles_active_texture.jpg
-   :width: 220px
+   :width: 210px
    :align: right
 
 
@@ -67,4 +67,3 @@ and it is indicated as blue in the material properties.
 
 For UV mapping, the active UV map as specified in the mesh properties is used.
 Assigning images in the image editor also affects the active image texture node.
-
