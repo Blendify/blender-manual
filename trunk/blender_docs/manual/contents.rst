@@ -11,9 +11,10 @@ Welcome to the Blender Manual!
    `Download the full manual (zipped HTML files) <blender_manual.zip>`__
 
 For other languages see:
-(`French <http://www.blender.org/manual/fr/>`__,
+(`German <http://www.blender.org/manual/de/>`__,
+`French <http://www.blender.org/manual/fr/>`__,
 `Russian <http://www.blender.org/manual/ru/>`__)
-translations.
+(work-in-progress) translations.
 
 
 Getting Started
