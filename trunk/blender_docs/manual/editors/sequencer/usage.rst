@@ -369,47 +369,28 @@ delete it by pressing *X* or using this menu option.
 *Duplicate* a strip to make an unlinked copy; drag it to a time and channel, and drop it by :kbd:`LMB` click.
 
 The Strip Menu contains additional tools for working with strips:
-*Grab/Move*
 
-*Grab/Extend from Frame*
-
-*Cut (hard) at frame*
-
-*Cut (soft) at frame*
-
-*Separate Images*
-*Deinterlace Movies*
-
-*Duplicate Strips*
-
-*Erase Strips*
-
-*Set Render Size*
-
-*Make Meta Strip*
-
-*UnMeta Strip*
-
-*Reload Strips*
-
-*Reassign Inputs*
-
-*Swap Inputs*
-
-
-*Lock Strips*
-
-*UnLock Strips*
-
-*Mute Strips*
-
-*Un-Mute Strips*
-
-*Mute Deselected Strips*
-
-*Snap Strips*
-
-*Swap Strips*
+- *Grab/Move*
+- *Grab/Extend from Frame*
+- *Cut (hard) at frame*
+- *Cut (soft) at frame*
+- *Separate Images*
+- *Deinterlace Movies*
+- *Duplicate Strips*
+- *Erase Strips*
+- *Set Render Size*
+- *Make Meta Strip*
+- *UnMeta Strip*
+- *Reload Strips*
+- *Reassign Inputs*
+- *Swap Inputs*
+- *Lock Strips*
+- *UnLock Strips*
+- *Mute Strips*
+- *Un-Mute Strips*
+- *Mute Deselected Strips*
+- *Snap Strips*
+- *Swap Strips*
 
 
 Snap to Frame
