@@ -7,9 +7,9 @@
 Introduction
 ************
 
-.. figure:: /images/World-WorldPanel.jpg
+.. figure:: /images/render_internal_world_panel.png
 
-   World panel
+   World Panel
 
 
 Blender provides a number of very interesting settings to complete your renderings by adding a
@@ -41,5 +41,3 @@ through compositing nodes can further increase the depth and spacial clarity of 
    :doc:`Ambient Occlusion </render/blender_render/lighting/ambient_occlusion>`).
    When using a *Sun Lamp* options for *Sky & Atmosphere*
    are available in the *Lamp* menu.
-
-
