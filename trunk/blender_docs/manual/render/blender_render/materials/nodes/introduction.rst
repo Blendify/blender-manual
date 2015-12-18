@@ -1,10 +1,7 @@
 
-*****
-Nodes
-*****
-
-Introduction
-============
+*********************
+Introduction to Nodes
+*********************
 
 In addition to creating materials as just described using all the settings on all the
 materials panels,
