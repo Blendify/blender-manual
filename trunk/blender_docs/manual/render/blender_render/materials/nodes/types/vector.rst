@@ -1,7 +1,7 @@
 
-*********************
-Material Vector Nodes
-*********************
+************
+Vector Nodes
+************
 
 Vector nodes manipulate information about how light interacts with the material,
 multiplying vector sets, and other wonderful things which can become quite advanced.

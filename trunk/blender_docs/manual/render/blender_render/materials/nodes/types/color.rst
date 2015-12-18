@@ -1,7 +1,7 @@
 
-********************
-Material Color Nodes
-********************
+***********
+Color Nodes
+***********
 
 MixRGB
 ======
@@ -136,4 +136,3 @@ Outputs
 
 Color
    Value of the color, combined by the node.
-
