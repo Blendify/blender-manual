@@ -82,7 +82,8 @@ check_syntax: FORCE
 	- rm rst_check_syntax.log
 
 check_structure: FORCE
-	- python3 tools/rst_check_structure.py --image
+	- python3 tools/rst_check_structure.py --image --locale
+
 #	- python3 tools/rst_check_structure.py --image > rst_check_structure.log
 #	- @echo "Lines:" `cat rst_check.log  | wc -l`
 #	- gvim --nofork -c "cfile rst_check_structure.log" -c "cope" -c "clast"
