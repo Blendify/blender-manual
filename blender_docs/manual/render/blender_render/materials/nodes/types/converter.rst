@@ -1,7 +1,7 @@
 
-************************
-Material Convertor Nodes
-************************
+***************
+Convertor Nodes
+***************
 
 As the name implies, these nodes convert the colors in the material in some way.
 
@@ -444,5 +444,3 @@ Outputs
 
 Color
    Output value of the color, combined by the node.
-
-

@@ -1,7 +1,7 @@
 
-********************
-Material Input Nodes
-********************
+***********
+Input Nodes
+***********
 
 A starting material is created in the Materials Panel. The *Nodes* button is enabled
 to add that material to the list of noded materials shown in the Node Editor window header.
@@ -346,4 +346,3 @@ E.g.: To render an UV-mapped image, you would use the *UV* output and plug it in
 the *Vector* Input of a texture node. Then you plug the color output of the texture
 node into the color input of the material node - which corresponds to the setting on the
 *Map To* panel.
-
