@@ -4,6 +4,9 @@
   File Browser
 ###############
 
+.. figure:: /images/editors_file_editor.png
+
+   File Browser
 
 Usage
 =====
@@ -155,5 +158,3 @@ Click the funnel icon to toggle which file types are shown:
 - *Font files*
 - *Music files*
 - *Text files*
-
-
