@@ -8,7 +8,7 @@
 ..    TODO/Review: {{WikiTask/Inprogress|50|--[[User:Polosson|http&#58;//www.polosson.com]]
       00:48, 31 May 2013 (CEST)|link=Meta:Sanbox/Doc:2.6/Manual/Sequencer/Usage}} .
 
-
+*************************
 Using the Sequence Editor
 *************************
 
