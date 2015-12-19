@@ -5,20 +5,13 @@
 Undo and Redo
 *************
 
-The commands listed below will let you roll back an accidental action, redo your last action,
-or let you choose to recover to a specific point,
+The commands listed below will let you roll back an accidental action,
+redo your last action, or let you choose to recover to a specific point,
 by picking from a list of recent actions recorded by Blender.
 
 
 Undo
 ====
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     All modes
-   | Hotkey:   :kbd:`Ctrl-Z`
-
 
 If you want to undo your last action, just press :kbd:`Ctrl-Z`
 
@@ -28,25 +21,11 @@ See :doc:`Editing Preferences </preferences/editing>` section on undo to change 
 Redo
 ====
 
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     All modes
-   | Hotkey:   :kbd:`Ctrl-Shift-Z`
-
-
 To roll back your Undo action, press :kbd:`Ctrl-Shift-Z`
 
 
 Redo Last
 =========
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     All modes
-   | Hotkey:   :kbd:`F6`
-
 
 *Redo Last* is short for *Redo(ing your) Last (Action)*.
 Hitting :kbd:`F6` after an action will present you a context-sensitive
@@ -71,9 +50,9 @@ the contents of the Pop-Up Window are different, because of your context (Edit M
    * - .. figure:: /images/basics-undo-redo-f6-rotation-object-edit.jpg
           :align: center
 
-   * -     **Left Image**: Redo Last - Rotation ( Object Mode, 60 degrees )
+   * -     **Left Image**: Redo Last- Rotation (Object Mode, 60 degrees)
 
-   * -     **Right Right**: Redo Last - Scale ( Edit Mode, Resize face )
+   * -     **Right Right**: Redo Last- Scale (Edit Mode, Resize face)
 
 
 .. tip:: Operations using Redo Last
@@ -85,17 +64,10 @@ the contents of the Pop-Up Window are different, because of your context (Edit M
 Undo History
 ============
 
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     All modes
-   | Hotkey:   :kbd:`Ctrl-Alt-Z`
-
-
 .. figure:: /images/basics-undo-redo-ctrl+alt+z_menu.jpg
    :align: right
 
-   The Undo History menu, which appears upon :kbd:`Ctrl-Alt-Z` press.
+   The Undo History Menu
 
 
 There is also a Undo History of your actions, recorded by Blender.
@@ -110,13 +82,6 @@ Once you do make a new change, the Undo History is truncated at that point.
 
 Repeat Last
 ===========
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     All modes
-   | Hotkey:   :kbd:`Shift-R`
-
 
 The Repeat Last feature will Repeat your last action when you press :kbd:`Shift-R`.
 
@@ -143,18 +108,10 @@ Using repeat :kbd:`Shift-R`, the *Monkey* was also duplicated and moved.
 Repeat History
 ==============
 
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     All modes
-   | Hotkey:   :kbd:`F3`
-
-
 .. figure:: /images/basics-undo-redo-f3_menu.jpg
    :align: right
 
-   The Repeat menu, which appears upon :kbd:`F3` press.
-
+   The Repeat Menu
 
 The *Repeat History* feature will present you a list of the last repeated actions,
 and you can choose the actions you want to repeat.
@@ -162,30 +119,10 @@ It works in the same way as the Undo History, explained above,
 but the list contains only repeated actions. To access Repeat History, use :kbd:`F3`.
 
 
-.. note:: There are two separate Histories for Blender
+.. note::
 
    Blender uses two separate Histories, one dedicated for the *Edit* Mode,
    and one dedicated for the *Object* Mode.
-
-
-Blender Search
-==============
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode: All modes
-   | Hotkey: :kbd:`Spacebar`
-
-
-.. figure:: /images/basics-undo-redo-redo_last_spacebar_menu.jpg
-
-   Spacebar search for Redo Last
-
-
-You can always access all of the explained options for user actions,
-using Blender Search :kbd:`Spacebar`.
-
 
 .. important::
 
