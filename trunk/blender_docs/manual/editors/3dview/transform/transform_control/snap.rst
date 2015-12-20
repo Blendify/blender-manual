@@ -94,13 +94,13 @@ Snap target options become active when either *Vertex*, *Edge*,
 These determine what part of the selection snaps to the target objects.
 
 Active
-   move the active element (vertex in Edit mode, object in Object mode) to the target.
+   Moves the active element (vertex in Edit mode, object in Object mode) to the target.
 Median
-   move the median of the selection to the target.
+   Moves the median of the selection to the target.
 Center
-   move the current transformation center to the target. Can be used with 3D cursor to snap with an offset.
+   Moves the current transformation center to the target. Can be used with 3D cursor to snap with an offset.
 Closest
-   move the closest point of the selection to the target.
+   Moves the closest point of the selection to the target.
 
 
 .. list-table::
@@ -161,8 +161,8 @@ Multiple Snap Targets
    Multiple snapping targets.
 
 
-Once transforming a selection with Snapping on (not just with the Ctrl key held),
-you can press A to mark the current snapping point, then proceed to mark as many other
+Once transforming a selection with Snapping on (not just with the :kbd:`Ctrl` key held),
+you can press :kbd:`A` to mark the current snapping point, then proceed to mark as many other
 snapping points as you wish and the selection will be snapped to the average location of all
 the marked points.
 
