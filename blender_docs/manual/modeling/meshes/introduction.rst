@@ -144,7 +144,7 @@ Mesh Display
 
    Mesh Display Panel
 
-This panel is available only in edit mode, when the object bing edited is a mesh.
+This panel is available only in edit mode, when the object being edited is a mesh.
 
 The Overlays section provides controls for highlighting parts of the mesh.
 
@@ -161,7 +161,8 @@ Creases and Bevel Weight
    and/or a bevel weight for the :doc:`Bevel Modifier </modeling/modifiers/generate/bevel>`,
    respectively. In both cases, the higher the weight, the brighter the highlight.
 Seams and Sharp
-   lets us highlight those edges marked as UV seam for unwrapping and/or sharp edge for the :doc: Edge Split modifier.
+   Highlights edges marked as an UV seam for unwrapping and/or sharp edges for the :doc:`Edge Split Modifier
+   </modeling/modifiers/generate/edge_split>`
 
 Normals Section:
 
