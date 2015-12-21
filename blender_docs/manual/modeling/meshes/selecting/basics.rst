@@ -141,7 +141,7 @@ As soon as an edge intersects the circle the edge becomes selected.
 The tool is interactive such that edges are selected while the circle region is being dragged with the :kbd:`LMB`.
 
 If you want to deselect elements,
-either hold :kbd:`MMB` or :kbd:`Alt-LMB` and begin clicking or dragging again.
+hold :kbd:`MMB` and begin clicking or dragging again.
 
 For *Faces* select mode,
 the circle must intersect the face indicators usually represented by small pixel squares;
