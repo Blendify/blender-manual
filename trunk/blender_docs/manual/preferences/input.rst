@@ -82,10 +82,10 @@ Mouse
 =====
 
 Emulate 3 Button Mouse
-   Blender can be configured to work with different mouse types (such as a two-button mouse,
-   Apple single-button Mouse, or laptop touchpad).
+   Blender can be configured to work with pointing devices which don't have a middle-mouse button
+   (such as a two-button mouse, Apple single-button mouse, or laptop touch-pad).
    The functionality of the 3 mouse buttons will then be be emulated with
-   key/mousebutton combos as shown in the table below.
+   key/mouse-button combinations as shown in the table below.
 
    .. list-table:: Shortcuts for supported mouse hardware
       :header-rows: 1
@@ -104,10 +104,11 @@ Emulate 3 Button Mouse
         - :kbd:`RMB`
         - :kbd:`Cmd-LMB` (Command/Apple key + mouse button)
 
+   Mouse/Keyboard combinations refrenced in this manual can be expressed with the combinations shown in the table.
+   For Example.
 
-   All the Mouse/Keyboard combinations mentioned in the Manual can be expressed with the
-   combinations shown in the table. For Example,
-   :kbd:`Shift-Alt-RMB` becomes :kbd:`Shift-Alt-Cmd-LMB` on a single-button mouse.
+   - :kbd:`MMB` drag becomes :kbd:`Alt-LMB` drag.
+   - :kbd:`Shift-Alt-RMB` becomes :kbd:`Shift-Alt-Cmd-LMB` on a single-button mouse.
 Continuous Grab
    This feature is used to prevent the problem where an action such as grabbing or panning a view,
    is limited by your screen bounds.
