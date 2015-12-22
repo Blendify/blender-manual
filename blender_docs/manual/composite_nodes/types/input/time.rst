@@ -3,12 +3,11 @@
 Time Node
 *********
 
-.. figure:: /images/Tutorials-NTR-ComTime.jpg
+.. figure:: /images/compositing_nodes_time.png
    :align: right
    :width: 150px
 
-   Time node
-
+   Time Node
 
 The Time node generates a *fac* tor value (from 0.00 to 1.00)
 (that changes according to the curve drawn) as time progresses through your movie (frames).
@@ -97,4 +96,3 @@ Whew! Rearranging slide and changing the timing was clunky but doable by moving 
 The *Node* way is to create an image input, one for each slide image.
 Using the Image input and Time nodes connected to an AlphaOver mixer is much simpler, clearer,
 and easier to maintain.
-

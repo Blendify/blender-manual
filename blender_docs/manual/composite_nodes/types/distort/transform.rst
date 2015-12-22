@@ -3,12 +3,11 @@
 Transform Node
 **************
 
-.. figure:: /images/composite_node_distort_transform.jpg
+.. figure:: /images/compositing_nodes_transform.png
    :align: right
    :width: 150px
 
-   Transform node
-
+   Transform Node
 
 This node combines the functionality of three other nodes: :doc:`Scale </composite_nodes/types/distort/scale>`,
 :doc:`translate </composite_nodes/types/distort/translate>`,

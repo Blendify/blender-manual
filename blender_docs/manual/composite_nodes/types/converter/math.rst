@@ -3,12 +3,11 @@
 Math Node
 *********
 
-.. figure:: /images/Compositing-Node-Math.jpg
+.. figure:: /images/compositing_nodes_math.png
    :align: right
    :width: 150px
 
-   Math node
-
+   Math Node
 
 This node performs the selected math operation on an image or buffer.
 All common math functions are supported. If only an image is fed to one Value socket, the math
@@ -225,4 +224,3 @@ If using the HSV, you could reduce the Saturation and Value to 2 values (0 or 1.
 by Multiply by 2 and Divide by 2, and restrict the Hue to 64 possible values.
 
 You can use this noodle to quantize any channel; alpha, speed (vector), z-values, and so forth.
-

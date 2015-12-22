@@ -3,12 +3,11 @@
 Texture Node
 ************
 
-.. figure:: /images/Tutorials-NTR-Tex.jpg
+.. figure:: /images/compositing_nodes_texture.png
    :align: right
    :width: 150px
 
-   Texture node
-
+   Texture Node
 
 The *Texture* node makes 3D textures available to the compositor.
 
@@ -47,4 +46,3 @@ Example
 In the example above, we want to simulate some red plasma gas out there in space. So, we fog
 up an image taken from the Hubble telecscope of Orion and take the ever-so-useful Cloud
 texture and use it to mix in red with the image.
-

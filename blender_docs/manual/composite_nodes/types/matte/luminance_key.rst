@@ -3,12 +3,11 @@
 Luminance Key Node
 ******************
 
-.. figure:: /images/luminance_node.jpg
+.. figure:: /images/compositing_nodes_luminancekey.png
    :align: right
    :width: 150px
 
-   Luminance Key node
-
+   Luminance Key Node
 
 The *Luminance Key* node determines background objects from foreground objects by
 the difference in the luminance (brightness) levels.
@@ -59,4 +58,3 @@ we feed the background photo to the bottom socket
 and the bottom socket where the factor is 1.0). Feeding our original photo into the top socket
 means it will be used where the Luminance Key node has spit out Black. Voila,
 our model is teleported from Atlanta to aboard a cruise ship docked in Miami.
-

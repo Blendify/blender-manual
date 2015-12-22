@@ -3,12 +3,10 @@
 File Output Node
 ****************
 
-.. figure:: /images/Compositing_Nodes-File_Output.jpg
+.. figure:: /images/compositing_nodes_fileoutput.png
    :align: right
-   :width: 150px
 
-   File Output node
-
+   File Output Node
 
 This node puts out an RGBA image, in the format selected, for each frame range specified,
 to the filename entered, as part of a frameset sequence.
@@ -34,4 +32,3 @@ you can save intermediate images automatically. Neat, huh?
    As with all filename entries, use ``//`` at the beginning of the field
    to shorthand reference the current directory of the ``.blend`` file.
    You can also use the .. breadcrumb to go up a directory.
-

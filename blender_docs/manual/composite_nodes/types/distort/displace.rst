@@ -3,6 +3,12 @@
 Displace Node
 *************
 
+.. figure:: /images/compositing_nodes_displace.png
+   :align: right
+   :width: 150px
+
+   Displace Node
+
 Ever look down the road on a hot summer day? See how the image is distorted by the hot air?
 That's because the light is being bent by the air; the air itself is acting like a lens.
 This fancy little node does the same thing;
@@ -59,4 +65,3 @@ made by the wizard programmer himself, by following this
    :width: 300px
 
    Music Video Distortion Example Using Displace
-

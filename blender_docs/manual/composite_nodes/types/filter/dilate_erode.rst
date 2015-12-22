@@ -5,11 +5,11 @@
 Dilate/Erode Node
 *****************
 
-.. figure:: /images/Compositing_Nodes-Dilate_Erode.jpg
+.. figure:: /images/compositing_nodes_delateerode.png
    :align: right
    :width: 150px
 
-   Dilate/Erode node
+   Dilate/Erode Node
 
 
 This node blurs individual color channels. The color channel (or a black and white image)
@@ -35,4 +35,3 @@ The amount of influence is increased by increasing the *Distance* values.
 .. figure:: /images/Compositing_Nodes-Dilate_ex.jpg
    :width: 300px
    :figwidth: 300px
-

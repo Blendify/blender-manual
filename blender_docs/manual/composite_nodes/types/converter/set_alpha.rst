@@ -3,12 +3,11 @@
 Set Alpha Node
 **************
 
-.. figure:: /images/Tutorials-NTR-ComSetAlpha.jpg
+.. figure:: /images/compositing_nodes_setalpha.png
    :align: right
    :width: 150px
 
-   Set Alpha node
-
+   Set Alpha Node
 
 This node adds an alpha channel to a picture. Some image formats, such as JPEG,
 do not support an alpha channel. In order to overlay a JPEG image on top of a background,

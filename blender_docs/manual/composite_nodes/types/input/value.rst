@@ -3,6 +3,12 @@
 Value Node
 **********
 
+.. figure:: /images/compositing_nodes_value.png
+   :align: right
+   :width: 150px
+
+   Value Node
+
 The Value node has no inputs; it just outputs a numerical value
 (floating point spanning 0.00 to 1.00)
 currently entered in the NumButton displayed in its controls selection.

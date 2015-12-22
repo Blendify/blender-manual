@@ -3,12 +3,11 @@
 Render Layers Node
 ******************
 
-.. figure:: /images/Compositing-RenderLayer_Node.jpg
+.. figure:: /images/compositing_nodes_renderlayer.png
    :align: right
    :width: 150px
 
    Render Layers Node
-
 
 This node is the starting place to getting a picture of your scene into the compositing node
 map.
@@ -161,4 +160,3 @@ the image from the frame is simply where things are at that particular time. How
 from the *Render Layers* node, Blender puts out a vector set that says how particular pixels are moving,
 or will move, to the next frame. You use this socket to create a
 :doc:`blurring effect. </composite_nodes/types/filter/vector_blur>`.
-

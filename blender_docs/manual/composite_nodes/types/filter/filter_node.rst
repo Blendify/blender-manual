@@ -5,12 +5,11 @@
 Filter Node
 ***********
 
-.. figure:: /images/composite_node_filter.png
+.. figure:: /images/compositing_nodes_filter.png
    :align: right
    :width: 150px
 
-   Filter node
-
+   Filter Node
 
 The Filter node implements various common image enhancement filters.
 The supported filters are, if not obvious,

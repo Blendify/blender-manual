@@ -5,12 +5,11 @@
 Bilateral Blur Node
 *******************
 
-.. figure:: /images/Tutorials-NTR-ComBilateralBlur.jpg
+.. figure:: /images/compositing_nodes_bilateralblur.png
    :align: right
    :width: 150px
 
-   Bilateral Blur node
-
+   Bilateral Blur Node
 
 The Bilateral Blur node performs a high quality adaptive blur on the source image.
 It can be used for various purposes like:
@@ -70,4 +69,3 @@ Examples
    :figwidth: 250px
 
    Bilateral faked blurry refraction+smoothed raytraced soft shadow
-

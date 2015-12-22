@@ -1,9 +1,15 @@
 
 ..    TODO/Review: {{review|copy=X}} .
 
-*******
-Defocus
-*******
+************
+Defocus Node
+************
+
+.. figure:: /images/compositing_nodes_defocus.png
+   :align: right
+   :width: 150px
+
+   Defocus Node
 
 This single node can be used to emulate depth of field using a postprocessing method.
 It can also be used to blur the image in other ways,
@@ -36,11 +42,6 @@ the focal point is then visible as a yellow cross along the view direction of th
 Node Inputs
 ===========
 
-.. figure:: /images/Compositing-Node-Defocus.jpg
-
-   Defocus node
-
-
 The node requires two inputs, an image and a zbuffer,
 the latter does not need to be an actual zbuffer, but can also be another (grayscale)
 image used as mask, or a single value input, for instance from a time node,
@@ -67,12 +68,6 @@ Gamma Correct
    Exactly the same as the *Gamma* option in Blender's general *Blur* node
    (see :doc:`Blur Node </composite_nodes/types/filter/blur_node>`).
    It can be useful to further brighten out of focus parts in the image, accentuating the Bokeh effect.
-
-
-.. figure:: /images/Compositing-Node-Defocus-WithZ.jpg
-
-   Defocus node using Z-Buffer
-
 
 f-Stop
    This is the most important parameter to control the amount of focal blur:

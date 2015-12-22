@@ -3,12 +3,11 @@
 RGB Curves Node
 ***************
 
-.. figure:: /images/Tutorials-NTR-ComRGBCurves.jpg
+.. figure:: /images/compositing_nodes_rgbcurves.png
    :align: right
    :width: 150px
 
-   RGB Curves node
-
+   RGB Curves Node
 
 For each color component channel (RGB) or the composite (C),
 this node allows you to define a bezier curve that varies the input (x-axis) to produce an output value (y-axis).

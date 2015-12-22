@@ -3,9 +3,11 @@
 Map UV Node
 ***********
 
-.. figure:: /images/Compositing-Node-MapUV.jpg
+.. figure:: /images/compositing_nodes_mapuv.png
    :align: right
    :width: 150px
+
+   Map UV Node
 
 So, I think we all agree that the problem is...we just don't know what we want.
 The same is true for directors. Despite our best job texturing our models, in post-production,
@@ -62,4 +64,3 @@ Let's keep it to ourselves for now.
    :width: 300px
 
    Adding UV Textures in Post-Production
-

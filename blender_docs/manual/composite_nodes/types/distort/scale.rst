@@ -3,11 +3,11 @@
 Scale Node
 **********
 
-.. figure:: /images/Compositing_Nodes-Scale.jpg
+.. figure:: /images/compositing_nodes_scale.png
    :align: right
    :width: 150px
 
-   Scale node
+   Scale Node
 
 
 This node scales the size of an image. Scaling can be either absolute or relative.
@@ -24,4 +24,3 @@ Use this node to match image sizes. Most nodes produce an image that is the same
 image input into their top image socket. So,
 if you want to uniformly combine two images of different size,
 you must scale the second to match the resolution of the first.
-

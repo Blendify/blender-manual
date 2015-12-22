@@ -1,10 +1,14 @@
 
-***********
-Hue Correct
-***********
+****************
+Hue Correct Node
+****************
 
 The Hue Correct node is able to adjust the Hue, Saturation, and Value of an image,
 with an input curve.
+
+.. figure:: /images/compositing_nodes_huecorrect.png
+
+   Color Balance Node
 
 By default, the curve is a straight line, meaning there is no change.
 The spectrum allows you to raise or lower HSV levels for each range of pixel colors.

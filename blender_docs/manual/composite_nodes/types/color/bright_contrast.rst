@@ -1,13 +1,13 @@
 
-***************
-Bright/Contrast
-***************
+********************
+Bright/Contrast Node
+********************
 
-.. figure:: /images/Nodes-BrightContrast.jpg
-   :width: 320px
+.. figure:: /images/compositing_nodes_brightcontrast.png
+   :align: right
+   :width: 150px
 
-   A basic example
-
+   Bright/Contrast Node
 
 Bright
    A multiplier-type factor by which to increase the overall brightness
@@ -37,3 +37,7 @@ the specular pass has valued much less than 1 in the dark areas;
 when added to the medium gray, it makes black. Passing the brightened image through either the
 Map Value or the ColorRamp produces the desired effect.
 
+.. figure:: /images/Nodes-BrightContrast.jpg
+   :width: 320px
+
+   A basic example

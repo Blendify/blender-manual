@@ -5,12 +5,11 @@
 Vector (Motion) Blur Node
 *************************
 
-.. figure:: /images/Tutorials-NTR-ComVecBlur.jpg
+.. figure:: /images/compositing_nodes_vectorblur.png
    :align: right
    :width: 150px
 
-   Vector Blur node
-
+   Vector Blur Node
 
 Motion blur is the effect of objects moving so fast they blur.
 Because CG animations work by rendering individual frames,
@@ -73,4 +72,3 @@ is blurred the least.
 .. note::
 
    Does not work when reading from a multilayer OpenEXR sequence set
-
