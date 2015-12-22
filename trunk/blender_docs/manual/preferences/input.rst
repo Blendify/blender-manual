@@ -99,7 +99,7 @@ Emulate 3 Button Mouse
         - :kbd:`LMB` (mouse button)
       * - :kbd:`MMB`
         - :kbd:`Alt-LMB`
-        - :kbd:`Cmd-LMB` (Option/Alt key + mouse button)
+        - :kbd:`Alt-LMB` (Option/Alt key + mouse button)
       * - :kbd:`RMB`
         - :kbd:`RMB`
         - :kbd:`Cmd-LMB` (Command/Apple key + mouse button)
