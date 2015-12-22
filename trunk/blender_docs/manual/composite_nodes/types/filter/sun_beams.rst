@@ -3,6 +3,12 @@
 Sun Beams
 *********
 
+.. figure:: /images/compositing_nodes_sunbeams.png
+   :align: right
+   :width: 150px
+
+   Sun Beams Node
+
 Sun Beams is a 2D effect for simulating the effect of bright light getting scattered in a medium
 `(Crepuscular Rays) <http://en.wikipedia.org/wiki/Crepuscular_rays>`__.
 This phenomenon can be created by renderers, but full volumetric lighting is
@@ -11,9 +17,6 @@ Also when working with 2D images only the volumetric data may not be available.
 In these cases the "Sun Beams" node provides a computationally cheap way of
 creating a convincing effect based on image brightness alone.
 
-.. figure:: /images/composite_nodes_filter_sun_beams.png
-   :width: 450px
-   :figwidth: 450px
 
 Usage
 =====
@@ -31,3 +34,7 @@ Possible ways to achieve this are
 After generating the sun beams from such a light source image they can then be overlayed on the original image.
 Usually a simple "Add" mix node is sufficient,
 and physically correct because the scattered light adds to the final result.
+
+.. figure:: /images/composite_nodes_filter_sun_beams.png
+   :width: 450px
+   :figwidth: 450px

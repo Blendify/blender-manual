@@ -1,14 +1,17 @@
 
-********
-Pixelate
-********
+*************
+Pixelate Node
+*************
+
+.. figure:: /images/compositing_nodes_pixelate.png
+   :align: right
+   :width: 150px
+
+   Pixelate Node
 
 Add this node in front of a :doc:`scale </composite_nodes/types/distort/scale>`
 node to get a pixelated (non smoothed) image from the resultant up scaled image.
 
-.. figure:: /images/composite_node_filter_pixelate.png
-   :width: 514px
-   :figwidth: 514px
 
 Example
 =======
@@ -25,3 +28,7 @@ The background image will be unchanged.
 Now add a Pixelate node between the two scale nodes.
 
 (note: you can use alt-v and v to zoom the backdrop in and out respectively if needed)
+
+.. figure:: /images/composite_node_filter_pixelate.png
+   :width: 514px
+   :figwidth: 514px

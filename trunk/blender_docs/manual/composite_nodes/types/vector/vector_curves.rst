@@ -3,12 +3,11 @@
 Vector Curves Node
 ******************
 
-.. figure:: /images/Node-Vector.jpg
+.. figure:: /images/compositing_nodes_vectorcurves.png
    :align: right
    :width: 150px
 
-   Vector Curves node
-
+   Vector Curves Node
 
 The Vector Curves node maps an input vector image's x, y,
 and z components to a diagonal curve. The three channels are accessed via the X, Y,
@@ -19,4 +18,3 @@ if point A is dragged across point B,
 then point B will become point A and point A will become point B).
 
 Use this curve to slow things down or speed them up from the original scene.
-

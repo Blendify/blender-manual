@@ -1,13 +1,12 @@
 ﻿
-*********
-Composite
-*********
+**************
+Composite Node
+**************
 
-.. figure:: /images/Tutorials-NTR-ComCompositeOut.jpg
+.. figure:: /images/compositing_nodes_composite.png
    :align: right
-   :width: 150px
 
-   Composite node
+   Composite Node
 
 
 The Composite node is where the actual output from the compositor is connected to the

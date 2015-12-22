@@ -6,6 +6,10 @@ Color Balance
 The Color Balance node can adjust the color and values of an image using two different
 correction formulas.
 
+.. figure:: /images/compositing_nodes_colorbalance.png
+
+   Bright/Contrast Node
+
 The *Lift, Gammma, Gain* formula uses *Lift*, *Gamma*, and
 *Gain* calculations to adjust an image. *Lift* increases the value of dark
 colors, *Gamma* will adjust midtones, and *Gain* adjusts highlights.

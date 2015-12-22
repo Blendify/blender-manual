@@ -3,12 +3,11 @@
 Map Value Node
 **************
 
-.. figure:: /images/Tutorials-NTR-ComMapValue.jpg
+.. figure:: /images/compositing_nodes_mapvalue.png
    :align: right
    :width: 150px
 
-   Map Value node
-
+   Map Value Node
 
 Map Value node is used to scale, offset and clamp values
 (value refers to each vector in the set). The formula for how this node works is:
@@ -46,4 +45,3 @@ resulting in an output value between -150 and 150 over a 30-frame sequence.
 .. figure:: /images/Compositing-Map_multiply.jpg
 
    Using Map Value to multiply
-

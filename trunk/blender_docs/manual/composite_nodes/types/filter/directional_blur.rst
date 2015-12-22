@@ -5,6 +5,12 @@
 Directional Blur Node
 *********************
 
+.. figure:: /images/compositing_nodes_directionalblur.png
+   :align: right
+   :width: 150px
+
+   Dilate/Erode Node
+
 Blurs an image in a specified direction and magnitude. Can be used to fake motion blur.
 
 

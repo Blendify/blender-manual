@@ -1,7 +1,13 @@
 
-***************
-Lens Distortion
-***************
+********************
+Lens Distortion Node
+********************
+
+.. figure:: /images/compositing_nodes_lensdistortion.png
+   :align: right
+   :width: 150px
+
+   Lens Distortion Node
 
 Use this node to simulate distortions that real camera lenses produce.
 
@@ -17,4 +23,3 @@ Jitter
    Adds jitter to the distortion. Faster, but noisier.
 Fit
    Scales image so black areas are not visible. Only works for positive distortion.
-

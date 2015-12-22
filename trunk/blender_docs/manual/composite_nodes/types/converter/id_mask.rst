@@ -3,11 +3,11 @@
 ID Mask Node
 ************
 
-.. figure:: /images/Compositing-Node-IDMask.jpg
+.. figure:: /images/compositing_nodes_idmask.png
    :align: right
    :width: 150px
 
-   ID Mask node
+   ID Mask Node
 
 
 This node will use the Object Index pass (see RenderLayers)
@@ -59,4 +59,3 @@ obscured by a fully or partially opaque object in front of it.
 If something else is in front of it,
 even if that thing is partially transparent and you can see the object in a render,
 the mask will not reflect that partially obscured part.
-

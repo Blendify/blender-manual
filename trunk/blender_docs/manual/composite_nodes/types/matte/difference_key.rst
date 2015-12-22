@@ -3,7 +3,7 @@
 Difference Key Node
 *******************
 
-.. figure:: /images/difference_node.jpg
+.. figure:: /images/compositing_nodes_differencekey.png
    :align: right
    :width: 150px
 
@@ -28,5 +28,3 @@ Image
    with its alpha channel adjusted for the keyed selection
 Matte
    a monochrome representation of the mask
-
-

@@ -1,13 +1,13 @@
 
-**************
-AlphaOver Node
-**************
+***************
+Alpha Over Node
+***************
 
-.. figure:: /images/Tutorials-NTR-AlphaOver.jpg
+.. figure:: /images/compositing_nodes_alphaover.png
    :align: right
    :width: 150px
 
-   AlphaOver node
+   Alpha Over Node
 
 
 Use this node to layer images on top of one another. This node takes two images as input,
@@ -88,4 +88,3 @@ or straight RGBA image.
 .. figure:: /images/Compositing-AlphaOver-Layers.jpg
 
    Layering Images using AlphaOver Premul
-

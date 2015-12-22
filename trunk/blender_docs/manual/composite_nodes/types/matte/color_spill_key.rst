@@ -3,12 +3,11 @@
 Color Spill Node
 ****************
 
-.. figure:: /images/colorspill_node.jpg
+.. figure:: /images/compositing_nodes_colorspill.png
    :align: right
    :width: 150px
 
-   Color Spill node
-
+   Color Spill Node
 
 The *Color Spill* node reduces one of the RGB channels so that it is not greater
 than any of the others.
@@ -27,4 +26,3 @@ greater than the color spill algorithm normally allows.
 This is useful for exceptionally high amounts of color spill.
 
 The outputs of this node are the image with the corrected channels.
-

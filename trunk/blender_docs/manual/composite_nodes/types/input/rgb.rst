@@ -3,6 +3,12 @@
 RGB Node
 ********
 
+.. figure:: /images/compositing_nodes_rgb.png
+   :align: right
+   :width: 150px
+
+   RGB Node
+
 The RGB node has no inputs.
 It just outputs the Color currently selected in its controls section;
 a sample of it is shown in the top box. In the example to the right,
@@ -21,4 +27,3 @@ Example
 In this example, our corporate color is teal, but the bozo who made the presentation forgot.
 So, we multiply his lame black and white image with our corporate color to save him from
 embarrassment in front of the boss when he gives his boring presentation.
-

@@ -1,14 +1,12 @@
 
-******
-Viewer
-******
+***********
+Viewer Node
+***********
 
-.. figure:: /images/Tutorials-NTR-ComViewer.jpg
+.. figure:: /images/compositing_nodes_viewer.png
    :align: right
-   :width: 150px
 
-   Viewer node
-
+   Viewer Node
 
 The *Viewer* node is a temporary, in-process viewer.
 Plug it in wherever you would like to see an image or value-map in your node-tree.

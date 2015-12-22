@@ -1,11 +1,13 @@
 
-******
-Invert
-******
+***********
+Invert Node
+***********
 
-.. figure:: /images/Nodes-Invert.jpg
-   :width: 320px
+.. figure:: /images/compositing_nodes_invert.png
+   :align: right
+   :width: 150px
 
+   Invert Node
 
 This handy node inverts the colors in the input image, producing a negative.
 
@@ -21,3 +23,7 @@ RGB
    Invert the colors from white. In this example, red inverted is cyan (teal).
 A
    Invert the alpha (transparency) channel as well. Handy for masking.
+
+
+.. figure:: /images/Nodes-Invert.jpg
+   :width: 320px

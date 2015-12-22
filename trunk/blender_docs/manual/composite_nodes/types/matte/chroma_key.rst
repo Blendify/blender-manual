@@ -3,12 +3,11 @@
 Chroma Key Node
 ***************
 
-.. figure:: /images/chromakey_node.jpg
+.. figure:: /images/compositing_nodes_chromakey.png
    :align: right
    :width: 150px
 
-   Chroma Key node
-
+   Chroma Key Node
 
 The *Chroma Key* node determines if a pixel is foreground or background
 (and thereby should be transparent) based on its chroma values.
@@ -39,4 +38,3 @@ Image
    with its alpha channel adjusted for the keyed selection
 Matte
    a monochrome representation of the mask
-

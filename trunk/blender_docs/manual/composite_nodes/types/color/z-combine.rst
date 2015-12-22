@@ -3,11 +3,11 @@
 Z-Combine Node
 **************
 
-.. figure:: /images/Tutorials-NTR-ComZCombine.jpg
+.. figure:: /images/compositing_nodes_zcombine.png
    :align: right
    :width: 150px
 
-   Z Combine node
+   Z Combine Node
 
 
 The Z-Combine node takes two images and two Z-value sets as input. It overlays the images

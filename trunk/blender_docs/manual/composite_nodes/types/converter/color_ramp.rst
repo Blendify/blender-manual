@@ -9,6 +9,10 @@ It works exactly the same way as a
 using the Factor value as a slider or index to the color ramp shown,
 and outputting a color value and an alpha value from the output sockets.
 
+.. figure:: /images/compositing_nodes_colorramp.png
+
+   Color Ramp Node
+
 By default,
 the ColorRamp is added to the node map with two colors at opposite ends of the spectrum.
 A completely black black is on the left

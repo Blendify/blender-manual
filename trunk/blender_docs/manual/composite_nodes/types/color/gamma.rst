@@ -1,11 +1,13 @@
 
-*****
-Gamma
-*****
+**********
+Gamma Node
+**********
 
-.. figure:: /images/Nodes-Gamma.jpg
-   :width: 320px
+.. figure:: /images/compositing_nodes_gamma.png
+   :align: right
+   :width: 150px
 
+   Gamma Node
 
 A reason for applying gamma correction to the final render is to correct lighting issues.
 Lighting issues that can be corrected by a gamma correction node are light attenuation with
@@ -27,3 +29,6 @@ Gamma correction in Blender enters in a few places.
 The first is in this section with the nodes, both this node and the Tonemap node,
 and the second is in calculating Radiosity. In the noodle to the left,
 the split viewer shows the before and after effect of applying a gamma correction.
+
+.. figure:: /images/Nodes-Gamma.jpg
+   :width: 320px

@@ -33,19 +33,19 @@ See also :term:`color space`.
 Separate/Combine RGBA Node
 ==========================
 
-.. figure:: /images/Tutorials-NTR-ComSepRGBA.jpg
+.. figure:: /images/compositing_nodes_separatergba.png
+   :width: 150px
 
-   Separate RGBA node
+   Separate RGBA Node
 
 
 This node separates an image into its red, green, blue and alpha channels.
 There's a socket for each channel on the right.
 
+.. figure:: /images/compositing_nodes_combinergba.png
+   :width: 150px
 
-.. figure:: /images/Compositing_Nodes-Combine_RGBA.jpg
-
-   Combine RGBAnode
-
+   Combine RGBA Node
 
 This node combines separate input images as each color and alpha channel,
 producing a composite image.
@@ -58,7 +58,6 @@ Examples
 .. figure:: /images/Compositing-Covert-CombineRGBA.jpg
    :width: 200px
 
-
 In this first example, we take the Alpha channel and blur it,
 and then combine it back with the colors. When placed in a scene,
 the edges of it will blend in, instead of having a hard edge.
@@ -67,10 +66,8 @@ Use this noodle when adding CG elements to live action to remove any hard edges.
 Animating this effect over a broader scale will make the object appear to "phase" in and out,
 as a "out-of-phase" time-traveling sync effect.
 
-
 .. figure:: /images/Compositing-Covert-CombineRGBA2.jpg
    :width: 200px
-
 
 In this fun little noodle we make all the reds become green,
 and all the green both Red and Blue, and remove Blue from the image completely. Very cute.
@@ -80,10 +77,10 @@ Very fun.
 Separate/Combine HSVA Nodes
 ===========================
 
-.. figure:: /images/Tutorials-NTR-ComSepHSVA.jpg
+.. figure:: /images/compositing_nodes_separatehsva.png
+   :width: 150px
 
-   Separate HSVA node
-
+   Separate HSVA Node
 
 This node separates an image into image maps for the hue, saturation, value and alpha channels.
 
@@ -96,24 +93,27 @@ You could isolate a specific range of colors
 (by clipping the Hue channel via the Colorramp node) and change their color
 (by the Add/Subtract mix node).
 
+.. figure:: /images/compositing_nodes_combinehsva.png
+   :width: 150px
+
+   Separate HSVA Node
 
 Separate/Combine YUVA Node
 ==========================
 
-.. figure:: /images/Compositing_Nodes-Separate_YUVA.jpg
+.. figure:: /images/compositing_nodes_separateyuva.png
+   :width: 150px
 
-   Separate YUVA node
-
+   Separate YUVA Node
 
 This node converts an RGBA image to YUVA color space,
 then splits each channel out to its own output so that they can be manipulated independently.
 Note that U and V values range from -0.5 to +0.5.
 
+.. figure:: /images/compositing_nodes_combineyuva.png
+   :width: 150px
 
-.. figure:: /images/Compositing_Nodes-Combine_YUVA.jpg
-
-   Combine YUVA node
-
+   Combine YUVA Node
 
 Combines the channels back into a composite image. If you do not connect any input socket, you
 can set a default value for the whole image for that channel using the numeric controls shown.
@@ -122,10 +122,10 @@ can set a default value for the whole image for that channel using the numeric c
 Separate/Combine YCbCrA Node
 ============================
 
-.. figure:: /images/Compositing_Nodes-Separate_YCbCrA.jpg
+.. figure:: /images/compositing_nodes_separateycbcra.png
+   :width: 150px
 
-   Separate YCbCrA node
-
+   Separate YCbCrA Node
 
 This node converts an RGBA image to YCbCrA color space,
 then splits each channel out to its own output so that they can be manipulated independently:
@@ -140,13 +140,11 @@ then splits each channel out to its own output so that they can be manipulated i
    use the Cardinal scale for accurate representation.
    Using the Exponential scale on the luminance channel gives high-contrast effect.
 
+.. figure:: /images/compositing_nodes_combineycbcra.png
+   :width: 150px
 
-.. figure:: /images/Compositing_Nodes-Combine_YCbCrA.jpg
-
-   Combine YCbCrA node
-
+   Combine YCbCrA Node
 
 So, I kinda think you get the idea,
 and I was trying to think of some other creative way to write down the same thing,
 but I can't. So, you'll have to figure this node out on your own.
-

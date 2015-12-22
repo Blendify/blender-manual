@@ -3,6 +3,11 @@
 Translate Node
 **************
 
+.. figure:: /images/compositing_nodes_translate.png
+   :align: right
+   :width: 150px
+
+   Transform Node
 
 The translate node translates (moves)
 an image by the specified amounts in the X and Y directions. X and Y are in pixels,
@@ -18,4 +23,3 @@ This node can be used for:
 - Movie credits.
 - Moving a matte.
 - Camera shake.
-

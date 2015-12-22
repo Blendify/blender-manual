@@ -3,6 +3,12 @@
 Crop Node
 *********
 
+.. figure:: /images/compositing_nodes_crop.png
+   :align: right
+   :width: 150px
+
+   Crop Node
+
 The Crop Node takes an input image and crops it to a selected region.
 
 Crop Image Size

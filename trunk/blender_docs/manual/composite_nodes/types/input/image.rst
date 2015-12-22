@@ -3,11 +3,11 @@
 Image Node
 **********
 
-.. figure:: /images/Tutorials-NTR-ComImage.jpg
+.. figure:: /images/compositing_nodes_image.png
    :align: right
    :width: 150px
 
-   Image node
+   Image Node
 
 
 The *Image* node injects any image :doc:`format that is supported by Blender </render/output/output>`.

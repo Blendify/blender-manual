@@ -3,12 +3,11 @@
 Blur Node
 *********
 
-.. figure:: /images/Tutorials-NTR-ComBlur.jpg
+.. figure:: /images/compositing_nodes_bilateralblur.png
    :align: right
    :width: 150px
 
-   Blur node
-
+   Blur Node
 
 The Blur node blurs an image, using one of seven blur modes
 (set using the upper-left pop-up button), and a radius defined by the X and Y number buttons.
@@ -35,7 +34,7 @@ makes the Blur node gamma-correct the image before blurring it.
    :width: 650px
    :figwidth: 650px
 
-   Blur node blur modes using 15% of image size as XY, no Bokeh/Gamma. Click expand to see details
+   Blur node blur modes using 20% of image size as XY, no Bokeh/Gamma
 
 
 The difference between them is how they handle sharp edges and smooth gradients and preserve
@@ -60,4 +59,3 @@ An example blend file, in fact the one used to create the image above,
 The .blend file takes one image from the RenderLayer "Blurs" and blurs it while offsetting it (Translate)
 and then combining it (AlphaOver) to build up the progressive sequence of blurs.
 Play with the Value and Multiply nodes to change the amount of blurring that each algorithm does.
-
