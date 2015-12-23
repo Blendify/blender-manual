@@ -57,9 +57,9 @@ General Web-based Help
    and have a connection to the Internet.
 
 
-.. figure:: /images/basics-help_menu.jpg
+.. figure:: /images/getting_started_help_menu.png
 
-   Help menu
+   Help Menu
 
 
 - :doc:`This is a link for the Official Blender Manual </contents>` -
