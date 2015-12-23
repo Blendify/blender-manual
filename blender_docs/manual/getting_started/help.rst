@@ -58,6 +58,8 @@ General Web-based Help
 
 
 .. figure:: /images/getting_started_help_menu.png
+   :width: 200px
+   :align: right
 
    Help Menu
 
@@ -68,15 +70,15 @@ General Web-based Help
   The release notes on the Web for the current Blender version.
 - `Blender Website <http://www.blender.org/>`__ -
   The *blender.org* home page.
-- `Blender e-Shop <http://www.blender3d.org/e-shop/>`__ -
-  The Blender e-Store, where you can buy Training DVD's, books, t-shirts and other products.
+- `Blender e-Shop <http://www.store.blender.org/>`__ -
+  The Blender Store, where you can buy Training DVD's, books, t-shirts and other products.
 - `Developer Community <http://www.blender.org/community/get-involved/>`__ -
   The *blender.org* "Get Involved" page. This is the launch page for Blender software development,
   bug tracking, patches and scripts, education and training, documentation development and functionality research.
 - `User Community <http://www.blender.org/community/user-community/>`__ -
-  Lists of many different support venues here.
+  Lists of many different support venues.
 - `Report a Bug <https://developer.blender.org/maniphest/task/create/?project=2&type=Bug>`__
-  The Blender Bug Tracker page.
+  The Blender Bug Tracker.
 
   Note: in order to Report a Bug, you must register at the website.
 

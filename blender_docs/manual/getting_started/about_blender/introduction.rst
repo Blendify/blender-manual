@@ -24,17 +24,17 @@ Key Features
 ============
 
 - Blender is a fully integrated 3D content creation suite, offering a broad range of essential tools, including
-  :doc:`modeling </modeling/introduction>`,
-  :ref:`UV mapping <editors-uv_image-index>`,
-  :doc:`texturing </render/blender_render/textures/introduction>`,
-  :doc:`rigging and skinning </rigging/introduction>`,
-  :doc:`animation </animation/introduction>`,
-  many types of :doc:`simulations </physics/introduction>` (fluid, rigid bodies, etc),
-  :doc:`scripting </advanced/scripting/introduction>`,
-  :doc:`rendering </render/introduction>`,
-  :doc:`compositing </composite_nodes/introduction>`,
+  :doc:`Modeling </modeling/introduction>`,
+  :ref:`UV Mapping <editors-uv_image-index>`,
+  :doc:`Texturing </render/blender_render/textures/introduction>`,
+  :doc:`Rigging </rigging/introduction>`,
+  :doc:`Animation </animation/introduction>`,
+  many types of :doc:`Simulations </physics/introduction>`,
+  :doc:`Scripting </advanced/scripting/introduction>`,
+  :doc:`Rendering </render/introduction>`,
+  :doc:`Compositing </composite_nodes/introduction>`,
   :doc:`VFX </editors/movie_clip_editor/index>`,
-  and :doc:`game creation </game_engine/introduction>`.
+  and :doc:`Game Creation </game_engine/introduction>`.
 - Cross platform, with an OpenGL GUI that is uniform on all major platforms (and customizable with Python scripts).
 - High quality 3D architecture enabling fast and efficient creation work-flow.
 - Excellent community support from `forums <http://BlenderArtists.org>`__ and :ref:`IRC <irc-channels>`.
@@ -54,7 +54,7 @@ it is possible to familiarize yourself with Blender after a few hours of practic
 
 This manual is a good start, though it serves more as a reference.
 There are also many online video tutorials from specialized websites, and several
-books and training DVDs available in the `Blender Store <http://www.blender3d.org/e-shop/>`__
+books and training DVDs available in the `Blender Store <http://www.store.blender.org>`__
 and on the `Blender Cloud <https://cloud.blender.org/>`__.
 
 Despite everything Blender can do, it remains a tool. Great artists do not create masterpieces
