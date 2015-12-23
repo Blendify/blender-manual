@@ -26,7 +26,7 @@ Key Features
 - Blender is a fully integrated 3D content creation suite, offering a broad range of essential tools, including
   :doc:`Modeling </modeling/introduction>`,
   :ref:`UV Mapping <editors-uv_image-index>`,
-  :doc:`Texturing </render/blender_render/textures/introduction>`,
+  :doc:`Texturing </editors/uv_image/texturing/introduction>`,
   :doc:`Rigging </rigging/introduction>`,
   :doc:`Animation </animation/introduction>`,
   many types of :doc:`Simulations </physics/introduction>`,
