@@ -43,4 +43,3 @@ For more on the GPL, check the its page on the
 
    The GPL only applies to the Blender application and **not** the artwork you create with it;
    for more info see the `Blender License <http://www.blender.org/about/license/>`__.
-
