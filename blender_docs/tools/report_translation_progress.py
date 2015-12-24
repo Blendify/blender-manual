@@ -50,6 +50,8 @@ def po_files(path):
 
 def report_progress(path, report, quiet=False):
 
+    report('Translation progress: %s' % path)
+
     msgstrs_all_complete = 0
     msgstrs_all_empty = 0
     msgstrs_all_fuzzy = 0
@@ -86,6 +88,7 @@ def report_progress(path, report, quiet=False):
                    (msgstrs_file_empty,
                     msgstrs_file_fuzzy,
                     msgstrs_file_complete,
+                    0.0 if not msgstrs_file_complete else
                     ((1.0 - (msgstrs_file_empty + msgstrs_file_fuzzy) /
                      msgstrs_file_complete) * 100.0),
                     po_filepath[len(path):]))
@@ -101,8 +104,10 @@ def report_progress(path, report, quiet=False):
         report("         %s" % po_filepath)
 
     report('Summary: %d empty of %d; or [%5.1f %%] complete' %
-           (msgstrs_all_empty, msgstrs_all_complete,
-            ((1.0 - (msgstrs_all_empty /
+           (msgstrs_all_empty,
+            msgstrs_all_complete,
+            0.0 if not msgstrs_all_complete else
+            ((1.0 - ((msgstrs_all_empty + msgstrs_all_fuzzy ) /
               msgstrs_all_complete)) * 100.0)))
 
 
