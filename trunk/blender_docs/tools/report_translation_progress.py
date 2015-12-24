@@ -24,6 +24,14 @@
 
 '''
 Translation Tracker: report the number of complete translations.
+
+Example:
+
+  report_translation_progress.py locale/fr
+
+Summeary only - for all languages:
+
+  report_translation_progress.py --quiet locale/*
 '''
 
 import os
