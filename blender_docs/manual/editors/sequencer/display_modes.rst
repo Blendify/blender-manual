@@ -72,28 +72,31 @@ This mode is good for:
   completely distorted and clips at the top or the bottom.
 
 
-.. list-table::
 
-   * - .. figure:: /images/VSE-Luma_waveform_ex1.jpg
+.. hlist::
+   :columns: 2
 
-          'Simple' picture.
-          The various horizontal lines in the Luma waveform match the uniform-color lines of the picture.
-          Note that the 'grey 20%' one-pixel width line (inside the yellow strip)
-          is represented in the Luma waveform by a grey line.
-          The two lines drawing an 'X' are from the two linear tone shades (white-->black and black-->white).
-          Finally, the broken line matches the complex tone shade at the bottom of the picture.
+   - .. figure:: /images/VSE-Luma_waveform_ex1.jpg
 
-     - .. figure:: /images/VSE-Luma_waveform_ex2.jpg
+        'Simple' picture.
+        The various horizontal lines in the Luma waveform match the uniform-color lines of the picture.
+        Note that the 'grey 20%' one-pixel width line (inside the yellow strip)
+        is represented in the Luma waveform by a grey line.
+        The two lines drawing an 'X' are from the two linear tone shades (white-->black and black-->white).
+        Finally, the broken line matches the complex tone shade at the bottom of the picture.
 
-          A 'real' picture.
-          The curves are quite visible.
-          We found a luma of 80-100% for the sky,
-          a luma around 40% for the sea,
-          and a luma of 10-20% for the mountains, growing around 40% for the sunny part.
+   - .. figure:: /images/VSE-Luma_waveform_ex2.jpg
 
-     - Examples of *VSE* *Luma* Previews.
-       Note that the pictures (first green frame, at the top) are only 50px high,
-       to limit the number of curves displayed in the *Luma waveform* !
+        A 'real' picture.
+        The curves are quite visible.
+        We found a luma of 80-100% for the sky,
+        a luma around 40% for the sea,
+        and a luma of 10-20% for the mountains, growing around 40% for the sunny part.
+
+.. Note::
+
+   Note that the pictures (first green frame, at the top) are only 50px high,
+   to limit the number of curves displayed in the *Luma waveform* 
 
 
 Use this display to check for appropriate contrast and luminosity across all frames in the
@@ -159,5 +162,3 @@ image would have most of its information toward the left side of the graph.
 
 Use this mode to balance out the tonal range in an image.
 A well balanced image should a nice smooth distribution of color values.
-
-
