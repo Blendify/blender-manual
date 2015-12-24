@@ -12,6 +12,13 @@ both in a movie frame and in a photograph from a real-world camera.
 
    Cycles Motion Blur Example
 
+.. note::
+
+     If there are particles or other physics system in a scene,
+     be sure to bake them before rendering,
+     otherwise you might not get correct or consistent motion.
+
+
 Options
 =======
 
@@ -29,6 +36,13 @@ Position
 - Start on frame
 
 Shutter Speed
-   Time taken in frames between when the shutter is open and closed.
+   Time between frames over which motion blur is computed. Shutter time 1.0 blurs over the length of 1 frame,
+   2.0 over the length of two frames, from the previous to the next.
 Shutter Curve
    Curve defining how the shutter opens and closes.
+
+.. warning::
+
+   An object modifier setup that changes mesh topology over time will cause severe problems.
+
+   Common examples of this are animated booleans, defomation before edge-split, remesh, skin or decimate modifiers.
