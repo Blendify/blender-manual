@@ -540,6 +540,9 @@ For other common conventions used throughout the manual.
    Texture
       Specifies visual patterns on surfaces and simulates physical surface structure.
 
+   Timecode
+     A coded signal on videotape or film giving information about the frame number, time of recording, or exposure.
+
    Title Safe
      Area of the screen visible on all devices.
      Place text and graphics inside this area to make sure they don't get cut off.
