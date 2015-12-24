@@ -9,7 +9,6 @@
    
    introduction.rst
    usage.rst
-   strip_properties.rst
+   properties/index.rst
+   strips/index.rst
    display_modes.rst
-   effects/index.rst
-   audio.rst
