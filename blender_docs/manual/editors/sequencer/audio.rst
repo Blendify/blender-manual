@@ -8,9 +8,9 @@ Mp3 and other audio formates files from your hard disk as a file, or as encoded 
 and mix them using an F-Curve as a volume control.
 
 
-.. figure:: /images/SoundEdit.jpg
+.. figure:: /images/editors_sequencer_audio_editing.png
 
-   A sound strip in the sequence editor.
+   Example of Sound Editing
 
 
 Options
@@ -87,4 +87,3 @@ They will not be present in your final rendered animation output.
 .. AGAIN, please link to bug report.
 
 Also, static hiss seems to occur whenever two or more audio strips are overlapping in the timeline.
-
