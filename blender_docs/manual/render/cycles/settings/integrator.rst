@@ -19,7 +19,7 @@ Scene Settings
 ==============
 
 Sampling
-^^^^^^^^
+--------
 
 There are two integrator modes that can be used: path tracing and branched path tracing.
 The **path tracing integrator** is a pure path tracer;
@@ -69,7 +69,7 @@ Seed
 .. _cycles-bounces:
 
 Bounces
-^^^^^^^
+-------
 
 Max Bounces
    Maximum number of light bounces. For best quality, this should be set to the maximum. However, in practice,
@@ -90,7 +90,7 @@ Transmission Bounces
 
 
 Transparency
-^^^^^^^^^^^^
+------------
 
 Transparency Max
    Maximum number of transparency bounces.
@@ -102,7 +102,7 @@ Transparent Shadows
 
 
 Tricks
-^^^^^^
+------
 
 .. _render-cycles-integrator-no_caustics:
 
