@@ -83,15 +83,15 @@ Add Variable
 
    Setup of a Single Property.
 
+.. list-table::
 
-.. figure:: /images/Animation_Driver_Transform_Channel2.jpg
+   * - .. figure:: /images/Animation_Driver_Transform_Channel2.jpg
 
-   Transform Channel setup.
+          Transform Channel Setup
 
+     - .. figure:: /images/Animation_Driver_Distance.jpg
 
-.. figure:: /images/Animation_Driver_Distance.jpg
-
-   Distance setup.
+          Distance Setup
 
 
 Driver Variables
