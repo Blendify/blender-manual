@@ -195,17 +195,10 @@ thus layering effects on top of one another.
    you can add and position it independent of any other strip.
    Change the length as you would any strip.
 
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Sequence, Effects Strip Selected
-   | Menu:     Strip --> Change Effect
-   | Hotkey:   :kbd:`C`
-
 
 If you picked the wrong effect from the menu, you can always change it by selecting the strip
 (:kbd:`RMB`) and using the Strip-->Change Effect selection. Or,
-you can press *C* hange to switch effects on a selected Effects strip.
+you can press :kbd:`C` to switch effects on a selected Effects strip.
 
 
 Adjusting the View
@@ -441,7 +434,7 @@ Editing Strips
 .. note:: Multiple selection
 
    You can select several (handles of) strips by :kbd:`Shift-RMB` clicking: when you press :kbd:`G`,
-   everything that's selected will move with your mouse - this means that,
+   everything that's selected will move with your mouse- this means that,
    for example, you can at the same time move a strip, shorten two others, and extend a forth one.
 
 
@@ -452,8 +445,7 @@ Editing Strips
 
 While splicing two strips happens just by placing them finish-to-start,
 cut a strip by pressing :kbd:`K` to cut. At the selected frame for the selected strips,
-K cuts them in two. Use Cut to trim off roll-ups or lead-ins, or roll-downs or extra film shot
-("C" was already taken for Change).
+:kbd:`K` cuts them in two. Use Cut to trim off roll-ups or lead-ins, or roll-downs or extra film shot.
 
 
 .. note:: Note on the 'cut'
@@ -502,7 +494,7 @@ Meta Strips
 -----------
 
 A Meta-Strip is a group of strips. Select all the strips you want to group,
-and Ctrl-g to group them into one meta.
+and :kbd:`Ctrl-G` to group them into one meta.
 The meta spans from the beginning of the first strip to the end of the last one,
 and condenses all channels into a single strip, just like doing a mixdown in audio software.
 Separating (ungrouping) them restores them to their relative positions and channels.
@@ -522,4 +514,4 @@ transforms to each instance in the loop.
 It is possible to edit the contents of a meta strip by selecting it and pressing Tab.
 You can press Tab again to finish editing that strip. Since meta strips can be nested, to pop
 out one level of meta strip make sure you do not have a meta strip as the active strip when
-you press Tab.
+you press :kbd:`Tab`.
