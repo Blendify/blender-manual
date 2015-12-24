@@ -143,32 +143,6 @@ Clamp Samples
    bright colors in other places where there is no noise will be lost as well.
    So this is a balance between reducing the noise and keeping the image from losing its intended bright colors.
 
-
-Motion Blur
-^^^^^^^^^^^
-
-Camera and object motion blur rendering can be enabled per scene,
-and affects all render layers. This will take the camera and object motion into account to
-blur objects along 3 points through the previous, current and next frame.
-Currently scale motion is not supported,
-only object transformations like translation and rotation.
-Viewport rendering currently will not show motion blur.
-
-If there are particles or other physics system in a scene,
-be sure to bake them before rendering,
-otherwise you might not get correct or consistent motion.
-
-Shutter
-   Time between frames over which motion blur is computed. Shutter time 1.0 blurs over the length of 1 frame,
-   2.0 over the length of two frames, from the previous to the next.
-
-
-.. warning::
-
-   An object modifier setup that changes mesh topology over time will cause severe problems.
-
-   Common examples of this are animated booleans, defomation before edge-split, remesh, skin or decimate modifiers.
-
 .. _render-cycles-integrator-material_settings:
 
 Material Settings
