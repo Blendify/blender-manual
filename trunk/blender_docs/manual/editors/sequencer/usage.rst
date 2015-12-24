@@ -144,7 +144,7 @@ Add Audio
 
 The VSE can incorporate an audio channel which you can hear as you scrub.
 Add an audio track when you are trying to time your video/animation to an audio track, or vice versa.
-Please refer to :doc:`the Audio Sequences section </editors/sequencer/audio>` for more information.
+Please refer to :doc:`the Audio Sequences section </editors/sequencer/strips/audio>` for more information.
 
 
 Adding Effects
