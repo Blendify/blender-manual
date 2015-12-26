@@ -63,6 +63,14 @@ To install these dependencies, we can use the ``pip`` command:
 
    sudo pip install -r requirements.txt
 
+.. note::
+
+   Every now and then you may want to make sure your libs are up to date using:
+
+   .. code-block:: sh
+
+      sudo pip install -r requirements.txt  --upgrade
+
 
 Building the HTML Files
 =======================
