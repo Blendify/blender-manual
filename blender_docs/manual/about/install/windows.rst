@@ -62,6 +62,14 @@ Setting up the Build Environment
 During the setup some warnings may be shown, but don't worry about them.
 However if any errors occur, they may cause some problems.
 
+.. note::
+
+   Every now and then you may want to make sure your libs are up to date using:
+
+   ::
+
+      pip install -r requirements.txt  --upgrade
+
 
 Building the HTML Files
 =======================
