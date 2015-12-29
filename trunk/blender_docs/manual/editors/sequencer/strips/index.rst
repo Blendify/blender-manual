@@ -8,5 +8,6 @@
 
    introduction.rst
    scene.rst
+   image_movie.rst
    effects/index.rst
    audio.rst
