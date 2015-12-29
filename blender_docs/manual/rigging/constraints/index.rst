@@ -1,8 +1,8 @@
 .. _constraints-index:
 
-###############
+##############
   Constraints
-###############
+##############
 
 .. toctree::
    :maxdepth: 2

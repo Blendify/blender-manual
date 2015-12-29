@@ -1,8 +1,8 @@
 .. _skinning-index:
 
-###############
+###########
   Skinning
-###############
+###########
 
 .. toctree::
    :maxdepth: 2
