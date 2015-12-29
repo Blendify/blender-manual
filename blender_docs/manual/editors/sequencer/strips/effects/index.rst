@@ -11,6 +11,7 @@ These typically operate over one or two effects.
 .. toctree::
    :maxdepth: 2
 
+   introduction.rst
    add.rst
    adjustment.rst
    alpha_over_under_overdrop.rst
