@@ -1,7 +1,7 @@
 
-***********
-Strip Input
-***********
+*****************
+Strip Input Panel
+*****************
 
 Controls the source of the strip. Fields include file path, file name, image offset,
 crop settings.
