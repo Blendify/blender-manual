@@ -1,13 +1,6 @@
-
-..    TODO/Review: {{review
-   |text=This page is not in good shape.
-         Redundant to the introduction page and the how to's should be in the tutorial section.
-   }} .
-
-
-*********
-Armatures
-*********
+****************
+  Introduction
+****************
 
 An "armature" is a type of object used for :doc:`rigging </rigging/index>`.
 Armature object borrows many ideas from real life skeletons.

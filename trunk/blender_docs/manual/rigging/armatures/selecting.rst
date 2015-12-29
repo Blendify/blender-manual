@@ -1,5 +1,3 @@
-.. index::
-   pair: Armature; Selecting
 
 **************************
 Selecting armature's bones

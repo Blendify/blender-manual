@@ -1,5 +1,3 @@
-.. index::
-   pair: Armature; Editing
 
 ****************
 Armature Editing
