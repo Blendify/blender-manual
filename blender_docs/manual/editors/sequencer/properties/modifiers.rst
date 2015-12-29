@@ -24,38 +24,42 @@ Each modifiers have several buttons at their top:
 - Strip Use this to apply the modification on the whole image,
   or to use another strip's image (with alpha channel) for masking the modifier (and only this modifier),
   by choosing it in the "Mask" drop-down list.
-- Mask This one allows you to choose a Mask created in the Mask editor which will limit the modification to the masked image's zones.
+- Mask This one allows you to choose a Mask created in the Mask editor
+  which will limit the modification to the masked image's zones.
 
 Currently, the following modifiers are supported:
 
 Color Balance
    Color balance adjustments, through Lift, Gamma, and Gain.
 
-.. note::
-   This modifier works the same as the :doc:`Color Balance Node </composite_nodes/types/color/color_balance>`
+   .. note::
+
+      This modifier works the same as the :doc:`Color Balance Node </composite_nodes/types/color/color_balance>`
 
 Curves
    C/RGB curves.
 
-.. note::
-   This modifier works the same as the :doc:`Curves Node </composite_nodes/types/color/rgb_curves>`
+   .. note::
+
+      This modifier works the same as the :doc:`Curves Node </composite_nodes/types/color/rgb_curves>`
 
 Hue Correct
    HSV multi points curves.
 
-.. note::
-   This modifier works the same as the :doc:`Curves Node </composite_nodes/types/color/hue_correct>`
+   .. note::
+
+      This modifier works the same as the :doc:`Curves Node </composite_nodes/types/color/hue_correct>`
 
 Bright/Contrast
    Adjusts the brightness and contrast of the modifier input.
 Mask
    Use it for masking the other modifiers in the stack which are below.
 
-For example, to correct the brightness only on a certain zone of the image,
-you can filter the Bright/Contrast modifier by placing a Mask modifier,
-just before it in the stack. You can choose to use a Mask created in the Mask editor,
-or to use another strip as a mask (the image of this strip must have an alpha channel).
-This mask will be applied on all the others modifiers below it in the stack.
+   For example, to correct the brightness only on a certain zone of the image,
+   you can filter the Bright/Contrast modifier by placing a Mask modifier,
+   just before it in the stack. You can choose to use a Mask created in the Mask editor,
+   or to use another strip as a mask (the image of this strip must have an alpha channel).
+   This mask will be applied on all the others modifiers below it in the stack.
 
 White Balance
    Use it to adjust the white balance by choosing the color that should be white.
