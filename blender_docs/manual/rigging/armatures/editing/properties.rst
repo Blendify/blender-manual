@@ -56,7 +56,7 @@ Radius and Scaling in Envelope Visualization
 When bones are displayed using *Octahedron*, *Stick* or *B-Bone* visualizations,
 scaling will behave as expected, similar to scaling mesh objects.
 When bones are displayed using *Envelope* visualization, scaling will have a different effect:
-it will scale the radius of the selected bones's ends. (see: :doc:`skinning part </rigging/skinning>`).
+it will scale the radius of the selected bones's ends. (see: :doc:`skinning part </rigging/skinning/index>`).
 As you control only one value (the radius), there is no axis locking here. And as usual, with connected bones,
 you scale at the same time the radius of the parent's tip and of the children's roots.
 
@@ -105,7 +105,7 @@ ScaleB and Envelope
 It has different behavior depending on the active visualization, as explained below:
 
 In *Envelope* visualization, it allows you to edit the influence of the selected bones
-(their *Dist* property, see the :doc:`skinning part </rigging/skinning>`) -
+(their *Dist* property, see the :doc:`skinning part </rigging/skinning/index>`) -
 as with the "standard" scaling with this visualization (see the previous section),
 this is a one-value property, so there is no axis locking and such.
 
@@ -290,10 +290,10 @@ Dist, Weight, Deform
    (also :menuselection:`[shift][W] --> Deform` & co), Mult (also :menuselection:`[shift][W] --> Mult VG` & co)
 
    These settings control how the bone influences its geometry - along with the bones' ends radius.
-   This will be detailed in the :doc:`skinning part </rigging/skinning>`.
+   This will be detailed in the :doc:`skinning part </rigging/skinning/index>`.
 Hinge (also :menuselection:`[shift][W] --> Hinge` & co), S (also :menuselection:`[shift][W] --> No Scale` & co)
    These settings affect the behavior of children bones while transforming their parent in *Pose* mode,
-   so this will be detailed in the :doc:`posing part </rigging/posing>` !
+   so this will be detailed in the :doc:`posing part </rigging/posing/index>` !
 Hide
    This will hide the bone (same as pressing :kbd:`H` in the 3D views;
    see :ref:`this page <armature-bone_hide>`).

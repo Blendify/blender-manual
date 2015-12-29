@@ -5,7 +5,7 @@
 Posing
 ******
 
-Once your armature is :doc:`skinned </rigging/skinning>` by the needed object(s), you can start to pose it.
+Once your armature is :doc:`skinned </rigging/skinning/index>` by the needed object(s), you can start to pose it.
 Basically, by transforming its bones, you deform or transform the skin object(s).
 But you don't do that in *Edit* mode - remember that in this mode, you edit *the default, base,
 "rest" position of your armature*. You can't use the *Object* mode either,

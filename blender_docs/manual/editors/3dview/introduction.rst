@@ -119,7 +119,7 @@ Types of Objects
    they merge by smoothly rounding out the connection, appearing as one unified object.
 :doc:`Text </modeling/texts/introduction>`
    Text objects create a two dimensional representation of a string of characters.
-:doc:`Armatures </rigging/armatures>`
+:doc:`Armatures </rigging/armatures/index>`
    Armatures are used for :doc:`rigging </rigging/introduction>`
    3D models in order to make them poseable and animateable.
 :doc:`Lattice </modeling/modifiers/deform/lattice>`

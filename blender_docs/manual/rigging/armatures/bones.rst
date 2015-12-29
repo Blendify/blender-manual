@@ -182,6 +182,4 @@ which depends on:
    Our armature in Envelope visualization, in Pose mode.
 
 
-All these influence parameters are further detailed in the :doc:`skinning pages </rigging/skinning>`.
-
-
+All these influence parameters are further detailed in the :doc:`skinning pages </rigging/skinning/index>`.

@@ -36,7 +36,7 @@ We should also mention the classical :doc:`Child Of constraint </rigging/constra
 which creates parent/child relationship.
 These relationships indeed imply indirect animation (as transforming the parent affects by default all its children).
 But the *Child Of* constraint is also very important, as it allows you to parent your objects to bones,
-and hence use :doc:`Armatures </rigging/armatures>` to animate them!
+and hence use :doc:`Armatures </rigging/armatures/index>` to animate them!
 
 Back to our simple *Copy Location* example,
 you can have two different behaviors of this constraint:
