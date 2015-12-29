@@ -41,7 +41,7 @@ but there are a few exceptions which are noted in the relevant constraints pages
 To learn more:
 
 - Read about using constraints in object animation in the :doc:`Animation chapter </animation/index>`
-- Read about using constraints in rigging in the :doc:`Armatures </rigging/posing>`
+- Read about using constraints in rigging in the :doc:`Armatures </rigging/posing/index>`
 
 
 Available Constraints
