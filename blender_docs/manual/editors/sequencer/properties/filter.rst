@@ -3,6 +3,9 @@
 Filter Panel
 ************
 
+.. figure:: /images/editors_sequencer_properties_filter.png
+   :align: right
+
 Enables you to quickly set common image pre-processing options.
 
 Strobe
