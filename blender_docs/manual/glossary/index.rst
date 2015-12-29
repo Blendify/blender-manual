@@ -85,8 +85,7 @@ For other common conventions used throughout the manual.
       See :term:`oversampling`.
 
    Armature
-      A single-member class of primitive object.
-      It consists of :term:`bones <bone>`. Its primary use is in development of animated, articulated objects.
+      An :term:`Object` consisting of :term:`bones <bone>`. Used to :term:`rig` characters, props, etc.
 
    Axis
       A reference line which defines coordinates along one cardinal direction in n-D space.
@@ -121,6 +120,9 @@ For other common conventions used throughout the manual.
 
    Caustics
       Bright concentrations of light focused by specularly reflecting or refracting objects.
+
+   Child
+      An :term:`Object` that is affected by its :term:`Parent`.
 
    Color Blend Modes
       Methods for blending two colors together.
@@ -201,7 +203,7 @@ For other common conventions used throughout the manual.
        Path of all :term:`edges <edge>` along a :term:`face loop` that share two faces belonging to that loop.
 
    Empty
-      Kind of object that cannot hold any geometry.
+      An :term:`Object` without any :term:`Vertices`, :term:`Edges <Edge>` or :term:`Faces <Face>`.
 
    Environment Map
       Method of calculating reflections.
@@ -384,10 +386,12 @@ For other common conventions used throughout the manual.
    NURBS
       A computer graphics technique for generating and representing **curves** and **surfaces**.
 
-   Object center
-      Reference point of an object for positioning (translating), orienting (rotating), and scaling an it.
-      In most cases, this center is at the geometric center of the object (geometric center of its bounding box).
-      However, an object's center may be offset from the geometric center.
+   Object
+      Container for a type (Mesh, Curve, Surface, Metaball, Text, Armature, Lattice, Empty, Camera, Lamp) and basic 3D transform data(:term:`Object Center`).
+
+   Object Center
+   Object Origin
+      A reference point used to position, rotate, and scale an :term:`Object` and to define its Local Space coordinates.
 
    OpenGL
       The graphics system used by Blender (and many other graphics applications)
@@ -406,6 +410,12 @@ For other common conventions used throughout the manual.
       when not all of a televised image is present on a viewing screen
 
       See also `Overscan <http://en.wikipedia.org/wiki/Overscan>`__ on Wikipedia.
+
+   Parent
+      An :term:`Object` that affects its :term:`Child` objects.
+
+   Parenting
+      Creating a :term:`Parent`-:term:`Child` relationship between two objects.
 
    Particle system
       Technique that simulate certain kinds of fuzzy phenomena,
@@ -492,6 +502,9 @@ For other common conventions used throughout the manual.
    Render
       The process of computationally generating a 2D image from 3D geometry.
 
+   Rig
+      A system of relationships that determine how something moves. The act of building of such a system.
+
    Scanline
       Rendering technique. Much faster than :term:`raytracing`,
       but allows fewer effects, such as reflections, refractions, motion blur and focal blur.
@@ -561,6 +574,7 @@ For other common conventions used throughout the manual.
       or overlapping areas of the texture.
 
    Vertex
+   Vertices
       A point in 3D space containing a location. It may also have a defined color.
       Vertices are the terminating points of :term:`edges <edge>`.
 
@@ -572,9 +586,12 @@ For other common conventions used throughout the manual.
 
    Vertex Group
       Collection of :term:`vertices <vertex>`.
-      Vertex groups are useful for applying certain operations to specific areas of a mesh.
+      Vertex groups are useful for limiting operations to specific areas of a mesh.
 
    Voxel
       A cubicle 3D equivalent to the square 2D pixel.
       The name is a combination of the terms "Volumetric" and ":term:`Pixel <pixel>`".
       Used to store smoke and fire data from physics simulations.
+
+   Weight Painting
+      Assigning :term:`vertices` to :term:`Vertex Groups <Vertex Group>` with a weight between 0.0 and 1.0.
