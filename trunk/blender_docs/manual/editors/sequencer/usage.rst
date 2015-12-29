@@ -166,6 +166,7 @@ like the :doc:`Color Generator </editors/sequencer/strips/effects/color>`,
 it will be rubberbanded to your mouse; click to drop the strip.
 
 ..note::
+
   Since most Effects strips depend on one or two source strips,
   their frame location and duration depends on their source strips. Thus,
   you may not be able to move it; you have to move the source strips in order to affect the effect strip.
