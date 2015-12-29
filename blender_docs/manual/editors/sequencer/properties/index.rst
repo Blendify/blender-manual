@@ -1,7 +1,7 @@
 
-##########################
-  Strip Properties Editor
-##########################
+###################
+  Strip Properties
+###################
 
 
 The properties for the strip are examined and set in the properties panel,
