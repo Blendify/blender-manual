@@ -136,7 +136,7 @@ smooth bones are an easy way to replace long chains of many small rigid bones po
 
 However, if the chain has an influence on objects rather than geometry,
 the segments' orientation is not taken in account
-(details are explained in the :doc:`skinning part </rigging/skinning/index.rst>`).
+(details are explained in the :doc:`skinning part </rigging/skinning/index>`).
 
 When not visualized as *B-Bone* s, bones are always shown as rigid sticks,
 *even though the bone segments are still present and effective*
