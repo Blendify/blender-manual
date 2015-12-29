@@ -98,7 +98,7 @@ For other common conventions used throughout the manual.
       Operation to chamfer or bevel edges of an object.
 
    Bone
-      Each of the segments that make up an :term:`armature`.
+      The building block of an :term:`Armature`. Made up of a :term:`Head`, :term:`Tail` and :term:`Roll Angle` which define a set of local axes and a point of rotation at the :term:`Head`.
 
    Boolean
       A type of logic dealing with binary true/false states.
@@ -138,7 +138,7 @@ For other common conventions used throughout the manual.
       Face in which one vert is inside a triangle formed by other vertices of the face.
 
    Constraint
-      Factor that limits the performance of a system with respect to its goal.
+      A way of controlling one :term:`object` with data from another.
 
    Controller
       A :term:`logic brick` that acts like the brain of a lifeform.
@@ -265,10 +265,16 @@ For other common conventions used throughout the manual.
       All combinations of diffuse and specular reflections and transmissions must be accounted for.
       Effects such as color bleeding and caustics must be included in a global illumination simulation.
 
+   Global Space
+      See :term:`World Space`.
+
    Gouraud Shading
       Used to achieve smooth lighting on low-polygon surfaces without the
       heavy computational requirements of calculating lighting for each pixel.
       The technique was first presented by Henri Gouraud in 1971.
+
+   Head
+      A subcomponent of a :term:`Bone`. The point of rotation for that :term:`Bone`. Has X, Y and Z coordinates measured in the :term:`Local Space` of the :term:`Armature` :term:`Object`. Used in conjunction with the :term:`Tail` to define the :term:`local <Local Space>` Y axis of the :term:`Bone` in :term:`Pose Mode`. The larger of the two ends when drawn as an :term:`Octahedron`.
 
    HDRI
    High Dynamic Range Image
@@ -303,6 +309,9 @@ For other common conventions used throughout the manual.
       Now, the animator creates only the first and last frames of a simple sequence (keyframes);
       the computer fills in the gap.
 
+   Keyframing
+      Inserting :term:`Keyframes <Keyframe>` to build an animated sequence.
+
    Lattice
       A type of object consisting of a non-renderable three-dimensional grid of vertices.
 
@@ -311,6 +320,11 @@ For other common conventions used throughout the manual.
    Layer
       A device for organizing objects.
       See also :doc:`Layers </editors/3dview/layers>`.
+
+   Local Space
+      A 3D coordinate system that originates (for Objects) at the :term:`Object Center` or (for Bones) at the :term:`Head` of the :term:`Bone`.
+
+      Compare to :term:`World Space`.
 
    Logic brick
       A graphical representation of a functional unit in Blender's game logic.
@@ -391,7 +405,10 @@ For other common conventions used throughout the manual.
 
    Object Center
    Object Origin
-      A reference point used to position, rotate, and scale an :term:`Object` and to define its Local Space coordinates.
+      A reference point used to position, rotate, and scale an :term:`Object` and to define its :term:`Local Space` coordinates.
+
+   Octahedron
+      An eight-sided figure commonly used to depict the :term:`Bones <Bone>` of an :term:`Armature`.
 
    OpenGL
       The graphics system used by Blender (and many other graphics applications)
@@ -415,7 +432,7 @@ For other common conventions used throughout the manual.
       An :term:`Object` that affects its :term:`Child` objects.
 
    Parenting
-      Creating a :term:`Parent`-:term:`Child` relationship between two objects.
+      Creating a :term:`Parent`-:term:`Child` relationship between two :term:`objects <Object>`.
 
    Particle system
       Technique that simulate certain kinds of fuzzy phenomena,
@@ -444,6 +461,12 @@ For other common conventions used throughout the manual.
    Pole
       :term:`Vertex` where three, five, or more edges meet.
       A vertex connected to one, two, or four edges is not a pole.
+
+   Pose Mode
+      Used for :term:`posing`, :term:`keyframing`, :term:`weight painting`, :term:`constraining <Constraint>` and :term:`parenting` the :term:`bones <Bone>` of an :term:`armature`.
+
+   Posing
+      Moving, Rotating and Scaling the :term:`bones <Bone>` of an :term:`armature` to achieve an aesthetically pleasing pose for a character.
 
    Premultiplied Alpha
       See :term:`Alpha Channel`
@@ -477,6 +500,7 @@ For other common conventions used throughout the manual.
 
    Quad
    Quadrilateral
+   Quadrangle
       :term:`Face` that contains exactly four :term:`vertices <vertex>`.
 
    Radiosity
@@ -504,6 +528,10 @@ For other common conventions used throughout the manual.
 
    Rig
       A system of relationships that determine how something moves. The act of building of such a system.
+
+   Roll
+   Roll Angle
+      The orientation of the local X and Z axes of a :term:`Bone`. Has no effect on the local Y axis as local Y is determined by the location of the :term:`Head` and :term:`Tail`.
 
    Scanline
       Rendering technique. Much faster than :term:`raytracing`,
@@ -550,6 +578,9 @@ For other common conventions used throughout the manual.
       `Catmull-Clark subdivision surface <http://en.wikipedia.org/wiki/Catmull%E2%80%93Clark_subdivision_surface>`__
       on Wikipedia
 
+   Tail
+      A subcomponent of a :term:`Bone`. Has X, Y and Z coordinates measured in the :term:`Local Space` of the Armature Object. Used in conjunction with the :term:`Head` to define the :term:`local <Local Space>` Y axis of a :term:`Bone` in :term:`Pose Mode`. The smaller of the two ends when drawn as an :term:`Octahedron`.
+
    Texture
       Specifies visual patterns on surfaces and simulates physical surface structure.
 
@@ -563,6 +594,9 @@ For other common conventions used throughout the manual.
    Topology
       Arrangement of *Vertices*, *Edges*, and *Faces* which define the shape of a mesh.
       See :term:`vertex`, :term:`edge`, and :term:`face`.
+
+   Transforms
+      The combined idea of location, rotation and scale. 
 
    Triangle
       :term:`Face` with exactly 3 :term:`vertices <vertex>`.
@@ -594,4 +628,9 @@ For other common conventions used throughout the manual.
       Used to store smoke and fire data from physics simulations.
 
    Weight Painting
-      Assigning :term:`vertices` to :term:`Vertex Groups <Vertex Group>` with a weight between 0.0 and 1.0.
+      Assigning :term:`vertices` to :term:`Vertex Groups <Vertex Group>` with a weight of 0.0 - 1.0.
+
+   World Space
+      A 3D coordinate system that originates at a point at the origin of the world.
+      Compare to :term:`Local Space`.
+

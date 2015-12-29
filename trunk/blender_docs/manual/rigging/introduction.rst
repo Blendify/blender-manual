@@ -3,10 +3,6 @@
 Introduction
 ************
 
-.. warning::
-
-   The rigging chapter is currently under revision. Please be patient.
-
 Rigging makes animation possible. Without a good rig animation is incredibly frustrating.
 Imagine animating a bouncing ball without the ability to squash it against the ground?
 Try animating a monkey swinging through the trees with no control to make the monkey's hands grab onto the branches.
