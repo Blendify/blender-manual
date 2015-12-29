@@ -165,7 +165,7 @@ the Effect strip will be shown above the source strips. If it is an independent 
 like the :doc:`Color Generator </editors/sequencer/strips/effects/color>`,
 it will be rubberbanded to your mouse; click to drop the strip.
 
-..note::
+.. note::
 
   Since most Effects strips depend on one or two source strips,
   their frame location and duration depends on their source strips. Thus,
