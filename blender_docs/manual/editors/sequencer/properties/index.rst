@@ -26,3 +26,4 @@ The panels for each of these sets of options and controls are shown to the right
    input.rst
    filter.rst
    proxy_timecode.rst
+   modifiers.rst
