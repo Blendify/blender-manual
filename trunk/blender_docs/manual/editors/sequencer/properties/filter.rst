@@ -1,11 +1,13 @@
 
-******
-Filter
-******
+************
+Filter Panel
+************
 
 Enables you to quickly set common image pre-processing options.
-Strobe
 
+Strobe
+   To display only a defined number of images. For example, if you set this to 10,
+   the strip will only display frames 1,11,21,31,41... of the source.
 Flip
    X flips (reverses) the image left-to-right, Y reverses top-to-bottom.
 Backwards
@@ -17,12 +19,5 @@ Saturation
    Increase or decrease the saturation of an image.
 Multiply
    Multiplies the colors by this value.
-Premultiply
-   Premultiply the Alpha channel.
 Convert Float
    Converts input to float data.
-
-Use Color Balance
-   Provides three filters to adjust coloration Lift, Gamma, and Gain. Each pass can have a positive,
-   or inverted effect by clicking the appropriate button.
-   Set the amount of the effect by setting the color swatch; white (RGB 1,1,1) has no effect.
