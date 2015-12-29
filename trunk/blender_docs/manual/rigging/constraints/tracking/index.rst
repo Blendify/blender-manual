@@ -1,8 +1,8 @@
 .. _tracking-index:
 
-##############
+###########
   Tracking
-##############
+###########
 
 .. toctree::
    :maxdepth: 2

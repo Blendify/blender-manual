@@ -1,8 +1,8 @@
 .. _posing-index:
 
-##########
+#########
   Posing
-##########
+#########
 
 .. toctree::
    :maxdepth: 2

@@ -1,8 +1,8 @@
 .. _armatures-index:
 
-###############
+############
   Armatures
-###############
+############
 
 .. toctree::
    :maxdepth: 2
