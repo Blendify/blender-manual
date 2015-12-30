@@ -305,7 +305,7 @@ Scale input
    Overall texture scale. The scale is a factor of the bounding box of the face divided by the scale.
    For example, a scale of 15 will result in 15 alternate patterns over the overall UV bounding box.
    Different patterns could be achieved using other nodes to the give different input patterns to this socket 
-   For example, using the `Math Node`_.
+   For example, using the Math Node.
 Color output
    Texture color output.
 Fac output
