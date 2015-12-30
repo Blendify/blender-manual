@@ -136,8 +136,12 @@ def main():
 
     args = parser.parse_args()
     for path in args.paths:
-        report_progress(path, report=print, quiet=args.quiet)
-
+        if os.path.isdir(path):
+            report_progress(path, report=print, quiet=args.quiet)
+        else:
+            print('%s isn\'t a directory' %
+                (path))
+        print()
 
 if __name__ == "__main__":
     main()
