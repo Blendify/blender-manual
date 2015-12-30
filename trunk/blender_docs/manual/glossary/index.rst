@@ -98,7 +98,8 @@ For other common conventions used throughout the manual.
       Operation to chamfer or bevel edges of an object.
 
    Bone
-      The building block of an :term:`Armature`. Made up of a :term:`Head`, :term:`Tail` and :term:`Roll Angle` which define a set of local axes and a point of rotation at the :term:`Head`.
+      The building block of an :term:`Armature`. Made up of a :term:`Head`, :term:`Tail`
+      and :term:`Roll Angle` which define a set of local axes and a point of rotation at the :term:`Head`.
 
    Boolean
       A type of logic dealing with binary true/false states.
@@ -274,7 +275,10 @@ For other common conventions used throughout the manual.
       The technique was first presented by Henri Gouraud in 1971.
 
    Head
-      A subcomponent of a :term:`Bone`. The point of rotation for that :term:`Bone`. Has X, Y and Z coordinates measured in the :term:`Local Space` of the :term:`Armature` :term:`Object`. Used in conjunction with the :term:`Tail` to define the :term:`local <Local Space>` Y axis of the :term:`Bone` in :term:`Pose Mode`. The larger of the two ends when drawn as an :term:`Octahedron`.
+      A subcomponent of a :term:`Bone`. The point of rotation for that :term:`Bone`.
+      Has X, Y and Z coordinates measured in the :term:`Local Space` of the :term:`Armature` :term:`Object`.
+      Used in conjunction with the :term:`Tail` to define the :term:`local <Local Space>` Y axis of the :term:`Bone`
+      in :term:`Pose Mode`. The larger of the two ends when drawn as an :term:`Octahedron`.
 
    HDRI
    High Dynamic Range Image
@@ -322,7 +326,8 @@ For other common conventions used throughout the manual.
       See also :doc:`Layers </editors/3dview/layers>`.
 
    Local Space
-      A 3D coordinate system that originates (for Objects) at the :term:`Object Center` or (for Bones) at the :term:`Head` of the :term:`Bone`.
+      A 3D coordinate system that originates (for Objects) at the :term:`Object Center`
+      or (for Bones) at the :term:`Head` of the :term:`Bone`.
 
       Compare to :term:`World Space`.
 
@@ -401,11 +406,13 @@ For other common conventions used throughout the manual.
       A computer graphics technique for generating and representing **curves** and **surfaces**.
 
    Object
-      Container for a type (Mesh, Curve, Surface, Metaball, Text, Armature, Lattice, Empty, Camera, Lamp) and basic 3D transform data(:term:`Object Center`).
+      Container for a type (Mesh, Curve, Surface, Metaball, Text, Armature,
+      Lattice, Empty, Camera, Lamp) and basic 3D transform data(:term:`Object Center`).
 
    Object Center
    Object Origin
-      A reference point used to position, rotate, and scale an :term:`Object` and to define its :term:`Local Space` coordinates.
+      A reference point used to position, rotate, and scale an :term:`Object`
+      and to define its :term:`Local Space` coordinates.
 
    Octahedron
       An eight-sided figure commonly used to depict the :term:`Bones <Bone>` of an :term:`Armature`.
@@ -463,10 +470,12 @@ For other common conventions used throughout the manual.
       A vertex connected to one, two, or four edges is not a pole.
 
    Pose Mode
-      Used for :term:`posing`, :term:`keyframing`, :term:`weight painting`, :term:`constraining <Constraint>` and :term:`parenting` the :term:`bones <Bone>` of an :term:`armature`.
+      Used for :term:`posing`, :term:`keyframing`, :term:`weight painting`,
+      :term:`constraining <Constraint>` and :term:`parenting` the :term:`bones <Bone>` of an :term:`armature`.
 
    Posing
-      Moving, Rotating and Scaling the :term:`bones <Bone>` of an :term:`armature` to achieve an aesthetically pleasing pose for a character.
+      Moving, Rotating and Scaling the :term:`bones <Bone>` of an :term:`armature`
+      to achieve an aesthetically pleasing pose for a character.
 
    Premultiplied Alpha
       See :term:`Alpha Channel`
@@ -531,7 +540,8 @@ For other common conventions used throughout the manual.
 
    Roll
    Roll Angle
-      The orientation of the local X and Z axes of a :term:`Bone`. Has no effect on the local Y axis as local Y is determined by the location of the :term:`Head` and :term:`Tail`.
+      The orientation of the local X and Z axes of a :term:`Bone`.
+      Has no effect on the local Y axis as local Y is determined by the location of the :term:`Head` and :term:`Tail`.
 
    Scanline
       Rendering technique. Much faster than :term:`raytracing`,
@@ -579,7 +589,10 @@ For other common conventions used throughout the manual.
       on Wikipedia
 
    Tail
-      A subcomponent of a :term:`Bone`. Has X, Y and Z coordinates measured in the :term:`Local Space` of the Armature Object. Used in conjunction with the :term:`Head` to define the :term:`local <Local Space>` Y axis of a :term:`Bone` in :term:`Pose Mode`. The smaller of the two ends when drawn as an :term:`Octahedron`.
+      A subcomponent of a :term:`Bone`. Has X, Y and Z coordinates measured in the :term:`Local Space`
+      of the Armature Object. Used in conjunction with the :term:`Head`
+      to define the :term:`local <Local Space>` Y axis of a :term:`Bone` in :term:`Pose Mode`.
+      The smaller of the two ends when drawn as an :term:`Octahedron`.
 
    Texture
       Specifies visual patterns on surfaces and simulates physical surface structure.
@@ -633,4 +646,3 @@ For other common conventions used throughout the manual.
    World Space
       A 3D coordinate system that originates at a point at the origin of the world.
       Compare to :term:`Local Space`.
-
