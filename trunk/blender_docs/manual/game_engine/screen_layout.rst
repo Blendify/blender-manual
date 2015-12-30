@@ -6,7 +6,7 @@ Game Logic Screen Layout
 The design, construction, debugging and running of a game utilizes a wide range of Blender functions.
 To help with the process, Blender incorporates a suggested screen layout for setting up BGE games.
 This includes many already-familiar panels but also a new
-:doc:`Logic Editor </game_engine/logic/editor>` panel (4) concerned solely with the BGE.
+:doc:`Logic Editor </editors/logic_editor>` panel (4) concerned solely with the BGE.
 
 The diagram below shows this default Game Logic screen layout,
 together with the appropriate options for game setup/debug/running
@@ -68,7 +68,7 @@ Auto Start
 
 
 **4) Logic Editor panel**
-The :doc:`Logic Editor </game_engine/logic/editor>` is where the
+The :doc:`Logic Editor </editors/logic_editor>` is where the
 :doc:`logic, properties and states </game_engine/logic/index>` are set up to control the behaviour of
 the objects in the game.
 (The Logic Editor panel can also be displayed by selecting Logic Editor in the Display Editor menu,
@@ -89,4 +89,3 @@ However note that several sections of the Property panel are changed when the re
 (2) is changed from Blender Render to Blender Game.
 
 See following sections for details of the content of :doc:`Physics </game_engine/physics/index>` Properties panels.
-

@@ -50,9 +50,8 @@ The :doc:`Logic Editor </game_engine/logic/editor>` provides deep interaction wi
 and its functionality can be extended through Python scripting.
 It is designed to abstract the complex engine features into a simple user interface,
 which does not require experience with Programming.
-An overview of the :doc:`Logic Editor </game_engine/logic/editor>`
+An overview of the :doc:`Logic Editor </editors/logic_editor>`
 can be found in the :doc:`Game Logic Screen Layout </game_engine/screen_layout>`
-
 
 The Game Engine is closely integrated with the existing code base of Blender, which permits
 quick transitions between the traditional modeling feature set and game-specific functionality
@@ -78,4 +77,3 @@ When creating a game or simulation in the BGE, there are four essential steps:
 - Create one (or more) camera to give a frustrum from which to render the scene,
   and modify the parameters to support the environment in which the game will be displayed, such as Stereo rendering.
 - Launch the game, using the internal player or exporting a runtime to the appropriate platform.
-
