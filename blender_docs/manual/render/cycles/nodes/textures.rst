@@ -225,13 +225,13 @@ Scale input
 Detail input
    Amount of noise detail.
 Dimension input
-   *TBD*
+   The highest fractal dimension, specified as the highest scale for the steps of the intensity.
 Lacunarity input
-   *TBD*
+   The space of the lacunarity, specified as a frequency factor. 
 Offset input
-   *TBD*
+   The offset of the fractal, specified between black and white values (Intensity)
 Gain input
-   *TBD*
+   A multiplier for the gain input
 Color output
    Texture color output.
 Fac output
@@ -304,7 +304,7 @@ Color1/2 input
 Scale input
    Overall texture scale. The scale is a factor of the bounding box of the face divided by the scale.
    For example, a scale of 15 will result in 15 alternate patterns over the overall UV bounding box.
-   Different patterns could be achieved using other nodes to the give different input patterns to this socket 
+   Different patterns could be achieved using other nodes to give different input patterns to this socket.
    For example, using the Math Node.
 Color output
    Texture color output.
