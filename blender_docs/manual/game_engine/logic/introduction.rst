@@ -4,7 +4,7 @@ Introduction
 ************
 
 Game Logic is the default scripting layer in the game engine.
-Each GameObject in the game may store a collection of logical components (Logic Bricks)
+Each Game Object in the game may store a collection of logical components (Logic Bricks)
 which control its behavior within the scene. Logic bricks can be combined to perform
 user-defined actions that determine the progression of the simulation.
 
@@ -13,7 +13,7 @@ Logic Bricks
 ============
 
 The main part of game logic can be set up through a graphical interface the
-:doc:`Logic Editor </game_engine/logic/editor>`, and therefore does not require detailed programming knowledge.
+:doc:`Logic Editor </editors/logic_editor>`, and therefore does not require detailed programming knowledge.
 Logic is set up as blocks (or "bricks") which represent preprogrammed functions;
 these can be tweaked and combined to create the game/application. There are three types of logic brick:
 :doc:`Sensors </game_engine/logic/sensors/introduction>`,
@@ -34,7 +34,7 @@ They are used to save and access data values either for the whole game (eg. scor
 or for particular objects/players (e.g. names).
 However, in the Blender Game Engine, a property is associated with an object.
 Properties can be of different types,
-and are set up in a special area of the :doc:`Logic Editor </game_engine/logic/editor>`.
+and are set up in a special area of the :doc:`Logic Editor </editors/logic_editor>`.
 
 
 States
