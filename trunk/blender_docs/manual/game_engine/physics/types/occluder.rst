@@ -87,10 +87,12 @@ There are situations where occlusion culling will not bring any benefit:
 
 
 - If the occluders are small and don't hide many objects.
+
   - In that case, occlusion culling is just dragging your CPU down).
 
 
 - If the occluders are large but hides simple objects.
+
   - In that case you're better off sending the objects to the GPU).
 
 
