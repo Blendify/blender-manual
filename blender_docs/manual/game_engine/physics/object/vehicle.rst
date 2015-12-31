@@ -1,7 +1,7 @@
 
-******************
-Vehicle Controller
-******************
+**************************
+Vehicle Controller Physics
+**************************
 
 Introduction
 ============

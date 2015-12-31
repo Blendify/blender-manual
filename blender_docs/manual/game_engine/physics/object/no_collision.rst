@@ -1,7 +1,7 @@
 
-********************************
-No Collision Physics Object Type
-********************************
+********************
+No Collision Physics
+********************
 
 "No Collision" objects in the :doc:`Game Engine </game_engine/index>` are completely unaffected by
 :doc:`Physics </game_engine/physics/index>`, and do cause physics reactions.

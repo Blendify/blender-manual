@@ -1,7 +1,7 @@
 
-*******************
-Occlude Object Type
-*******************
+**********************
+Occlude Object Physics
+**********************
 
 If an Occlude type object is between the camera and another object,
 that other object will not be rasterized (calculated for rendering).
