@@ -6,7 +6,7 @@ Message Sensor
 .. figure:: /images/BGE_Sensor_Message.jpg
    :width: 300px
 
-   Message sensor
+   Message Sensor
 
 
 The *Message* sensor can be used to detect either text messages or property values.
@@ -21,6 +21,6 @@ Special Options:
 Subject
    Specifies the message that must be received to trigger the sensor (this can be left blank).
 
-..note::
+.. note::
 
    See :doc:`Message Actuator </game_engine/logic/actuators/message>` for how to send messages.
