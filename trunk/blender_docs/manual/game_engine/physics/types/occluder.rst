@@ -78,8 +78,8 @@ there is no performance decrease compared to regular view frustrum culling.
 Recommendations
 ===============
 
-Occlusion culling is most useful when the occluders are large objects (buildings, mountains,
-...) that hide many complex objects in an unpredictable way. However,
+Occlusion culling is most useful when the occluders are large objects (buildings, mountains...)
+that hide many complex objects in an unpredictable way. However,
 don't be too concerned about performance: even if you use it inappropriately,
 the performance decrease will be limited due to the structure of the algorithm.
 
