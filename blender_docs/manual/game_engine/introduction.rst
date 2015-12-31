@@ -46,7 +46,7 @@ physics and rendering simulations in sequential order. The engine is written in 
 By default, the user has access to a powerful, high level, Event Driven
 :doc:`Logic Editor </editors/logic_editor>`
 which is comprised of a series of specialized components called "Logic Bricks".
-The :doc:`Logic Editor </game_engine/logic/editor>` provides deep interaction with the simulation,
+The :doc:`Logic Editor </editors/logic_editor>` provides deep interaction with the simulation,
 and its functionality can be extended through Python scripting.
 It is designed to abstract the complex engine features into a simple user interface,
 which does not require experience with Programming.
