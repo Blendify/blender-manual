@@ -71,15 +71,14 @@ controllers for every selected object appear in the list,
 but this may be modified by the column heading filters.
 
 At the head of each displayed object controller list, three entries appear:
-   **(Used States Button)**
-   Shows which states are in use for the object.
+   **(Used States Button)** Shows which states are in use for the object.
    Detailed description of the marked panel is given in :doc:`States </game_engine/logic/states>`.
 Name
    The name of the object.
 Add Controller
    When clicked, a menu appears with the available controller types.
    Selecting an entry adds a new controller to the object.
-   See :doc:`Controllers </game_engine/logic/controllers/index>` for a list of available controller types.
+   See :doc:`Controllers </game_engine/logic/controllers/types/index>` for a list of available controller types.
 
 Standard Controller Parts
 =========================

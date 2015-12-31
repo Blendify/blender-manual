@@ -23,14 +23,14 @@ There are eight types of controller logic brick to carry out the logic process o
 signal(s): these are described in the separate pages shown below:
 
 
-- :doc:`AND </game_engine/logic/controllers/and>`
-- :doc:`OR </game_engine/logic/controllers/or>`
-- :doc:`XOR </game_engine/logic/controllers/xor>`
-- :doc:`NAND </game_engine/logic/controllers/nand>`
-- :doc:`NOR </game_engine/logic/controllers/nor>`
-- :doc:`XNOR </game_engine/logic/controllers/xnor>`
-- :doc:`Expression </game_engine/logic/controllers/expression>`
-- :doc:`Python </game_engine/logic/controllers/python>`
+- :doc:`AND </game_engine/logic/controllers/types/and>`
+- :doc:`OR </game_engine/logic/controllers/types/or>`
+- :doc:`XOR </game_engine/logic/controllers/types/xor>`
+- :doc:`NAND </game_engine/logic/controllers/types/nand>`
+- :doc:`NOR </game_engine/logic/controllers/types/nor>`
+- :doc:`XNOR </game_engine/logic/controllers/types/xnor>`
+- :doc:`Expression </game_engine/logic/controllers/types/expression>`
+- :doc:`Python </game_engine/logic/controllers/types/python>`
 
 This table gives a quick overview of the logic operations performed by the logical controller
 types. The first column, input,
@@ -58,12 +58,12 @@ the individual controller pages for a more detailed description of each controll
      -
      -
    * -
-     - :doc:`AND </game_engine/logic/controllers/and>`
-     - :doc:`OR </game_engine/logic/controllers/or>`
-     - :doc:`XOR </game_engine/logic/controllers/xor>`
-     - :doc:`NAND </game_engine/logic/controllers/nand>`
-     - :doc:`NOR </game_engine/logic/controllers/nor>`
-     - :doc:`XNOR </game_engine/logic/controllers/xnor>`
+     - :doc:`AND </game_engine/logic/controllers/types/and>`
+     - :doc:`OR </game_engine/logic/controllers/types/or>`
+     - :doc:`XOR </game_engine/logic/controllers/types/xor>`
+     - :doc:`NAND </game_engine/logic/controllers/types/nand>`
+     - :doc:`NOR </game_engine/logic/controllers/types/nor>`
+     - :doc:`XNOR </game_engine/logic/controllers/types/xnor>`
    * - None
      - False
      - False
