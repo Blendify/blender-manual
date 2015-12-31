@@ -75,4 +75,4 @@ Name
 Add Sensor
    When clicked, a menu appears with the available sensor types.
    Selecting an entry adds a new sensor to the object.
-   See :doc:`Sensors </game_engine/logic/sensors/index>` for a list of available sensor types.
+   See :doc:`Sensors </game_engine/logic/sensors/types/index>` for a list of available sensor types.

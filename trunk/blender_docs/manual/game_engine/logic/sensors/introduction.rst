@@ -15,29 +15,29 @@ details of this process are given in the :doc:`Sensor Editing </game_engine/logi
 
 The following types of sensor are currently available:
 
-:doc:`Actuator </game_engine/logic/sensors/actuator>`
+:doc:`Actuator </game_engine/logic/sensors/types/actuator>`
    Detects when a particular actuator receives an activation pulse.
-:doc:`Always </game_engine/logic/sensors/always>`
+:doc:`Always </game_engine/logic/sensors/types/always>`
    Gives a continuous output signal at regular intervals.
-:doc:`Collision </game_engine/logic/sensors/collision>`
+:doc:`Collision </game_engine/logic/sensors/types/collision>`
    Detects collisions between objects or materials.
-:doc:`Delay </game_engine/logic/sensors/delay>`
+:doc:`Delay </game_engine/logic/sensors/types/delay>`
    Delays output by a specified number of logic ticks.
-:doc:`Joystick </game_engine/logic/sensors/joystick>`
+:doc:`Joystick </game_engine/logic/sensors/types/joystick>`
    Detects movement of specified joystick controls.
-:doc:`Keyboard </game_engine/logic/sensors/keyboard>`
+:doc:`Keyboard </game_engine/logic/sensors/types/keyboard>`
    Detects keyboard input.
-:doc:`Message </game_engine/logic/sensors/message>`
+:doc:`Message </game_engine/logic/sensors/types/message>`
    Detects either text messages or property values
-:doc:`Mouse </game_engine/logic/sensors/mouse>`
+:doc:`Mouse </game_engine/logic/sensors/types/mouse>`
    Detects mouse events.
-:doc:`Near </game_engine/logic/sensors/near>`
+:doc:`Near </game_engine/logic/sensors/types/near>`
    Detects objects that move to within a specific distance of themselves.
-:doc:`Property </game_engine/logic/sensors/property>`
+:doc:`Property </game_engine/logic/sensors/types/property>`
    Detects changes in the properties of its owner object.
-:doc:`Radar </game_engine/logic/sensors/radar>`
+:doc:`Radar </game_engine/logic/sensors/types/radar>`
    Detects objects that move to within a specific distance of themselves, within an angle from an axis.
-:doc:`Random </game_engine/logic/sensors/random>`
+:doc:`Random </game_engine/logic/sensors/types/random>`
    Generates random pulses.
-:doc:`Ray </game_engine/logic/sensors/ray>`
+:doc:`Ray </game_engine/logic/sensors/types/ray>`
    Shoots a ray in the direction of an axis and detects hits.

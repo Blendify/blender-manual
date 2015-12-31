@@ -170,7 +170,7 @@ but these are fairly hard to configure well.
 Actions
 -------
 
-To use an :doc:`Action Actuator </game_engine/logic/actuators/action>`
+To use an :doc:`Action Actuator </game_engine/logic/actuators/types/action>`
 to do the deformation, you have to make a choice. If you use Shapekeys in the Action,
 you will be fine as far as the overall collisions (but see below for the note on ``reinstancePhysicsMesh()``).
 The mesh itself is both a display and a physics mesh, so there is not much to configure.
