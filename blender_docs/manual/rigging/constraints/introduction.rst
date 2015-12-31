@@ -25,8 +25,9 @@ Constraints work in combination with each other to form a Constraint Stack.
 
    The Constraint Stack is evaluated from top to bottom.
 
-Constraints are a fantastic way to add sophistication and complexity to a rig. But be careful not to rush in too quickly,
-piling up constraint upon constraint until you lose all sense of how they interact with each other.
+Constraints are a fantastic way to add sophistication and complexity to a rig.
+But be careful not to rush in too quickly, piling up constraint upon constraint
+until you lose all sense of how they interact with each other.
 
 Start simply. Get to know a single constraint inside and out. Copy Location is a good first constraint to explore.
 Take the time to understand every fundamental concept behind it, and the other constraints will make far more sense.
