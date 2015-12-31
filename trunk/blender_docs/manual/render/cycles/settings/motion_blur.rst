@@ -31,9 +31,9 @@ Options
 Position
    Controls at what point the shutter opens in relation to the frame.
 
-- End on frame
-- Center on frame
-- Start on frame
+   - End on frame
+   - Center on frame
+   - Start on frame
 
 Shutter Speed
    Time between frames over which motion blur is computed. Shutter time 1.0 blurs over the length of 1 frame,
