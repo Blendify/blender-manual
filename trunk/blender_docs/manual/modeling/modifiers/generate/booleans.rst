@@ -327,7 +327,7 @@ In the images below, all face normals are pointing outwards (Normal meshes).
 
 .. list-table::
 
-   * - .. figure:: /images//Modifier_Generate_Boolean_Normals_Pointing_Outwards.jpg
+   * - .. figure:: /images/Modifier_Generate_Boolean_Normals_Pointing_Outwards.jpg
 
           Faces with normals pointing outwards
 
