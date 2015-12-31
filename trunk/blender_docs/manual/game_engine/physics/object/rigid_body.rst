@@ -1,8 +1,8 @@
 .. xxx this is the same as game_engine/physics/object/dynamic.rst
 
-******************************
-Rigid Body Physics Object Type
-******************************
+******************
+Rigid Body Physics
+******************
 
 Probably the most common type of object in the :doc:`Game Engine </game_engine/index>`.
 It will give/receive collisions and react with a change in its velocity and its rotation.

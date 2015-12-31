@@ -1,7 +1,7 @@
 
-**************************
-Static Physics Object Type
-**************************
+**************
+Static Physics
+**************
 
 Static objects in the :doc:`Blender Game Engine </game_engine/index>` do not automatically react to physics,
 including gravity and collisions.

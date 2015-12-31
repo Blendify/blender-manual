@@ -1,7 +1,7 @@
 
-***************************
-Dynamic Physics Object Type
-***************************
+***************
+Dynamic Physics
+***************
 
 Dynamic objects in the :doc:`Game Engine </game_engine/index>` give/receive collisions,
 but when they do so they themselves do not rotate in response.
