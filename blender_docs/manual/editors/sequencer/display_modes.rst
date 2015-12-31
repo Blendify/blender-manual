@@ -27,17 +27,14 @@ Channel 1 is what the current frame's image from the strip in channel 1 looks li
 (channel 1 is at the bottom of the heap). The display of these modes is either the composite
 (channel 0) or the frame from the strip (channels 1 through n).
 
-Zoom the view of any of these workspaces by scrolling your middle mouse wheel.
-
 
 Image Preview
 =============
 
 In the upper window pane of the Sequence screen layout is another VSE window,
-this one set to Image Preview mode.
-It shows you what the resulting video will look like when saved.
-This is the main working mode for adding strips and moving them around, cutting, grouping
-(making meta) and splicing them through special effects.
+this one set to Image Preview mode. It shows you what the resulting video will look like when saved.
+This is the main working mode for adding strips and moving them around,
+cutting, grouping (making meta) and splicing them through special effects.
 
 
 Luma Waveform
@@ -99,11 +96,10 @@ This mode is good for:
    to limit the number of curves displayed in the *Luma waveform* 
 
 
-Use this display to check for appropriate contrast and luminosity across all frames in the
-channel. When spots in the film that should have even illumination don't,
+Use this display to check for appropriate contrast and luminosity across all frames in the channel.
+When spots in the film that should have even illumination don't,
 it looks like a flashbulb went off or an extra light was suddently turned on. This can happen
-if two strips were rendered or shot under different lighting conditions but are supposed to be
-contiguous.
+if two strips were rendered or shot under different lighting conditions but are supposed to be contiguous.
 
 
 Chroma Vectorscope
@@ -115,8 +111,7 @@ Chroma Vectorscope
    Example VSE Chroma Preview
 
 
-Use this mode judge the quality of the color-distribution and saturation,
-you can also view a U/V scatter-plot.
+Use this mode judge the quality of the color-distribution and saturation, you can also view a U/V scatter-plot.
 
 The picture is converted to YUV-format. The U- and V-values represent the angle of the color.
 For pixel of the picture, one point is plotted in the display at the U and V-value-position.
@@ -125,8 +120,7 @@ If several pixels happen to have the same U/V-value the pixel in the plot gets b
 To help you understand what color is meant, a hexagram marking the extreme positions (red,
 magenta, blue, cyan, green, yellow) is drawn and a red cross to mark the origin.
 
-In other words, for the selected channel,
-this display shows the color space of the image inside a hexagon.
+In other words, for the selected channel, this display shows the color space of the image inside a hexagon.
 Each point of the hexagon is a primary color: red, magenta, blue, cyan, green, and yellow.
 Black is at the center, and overall saturation is scaled as dots closer to the outside.
 The example to the right shows that the image has a lot of red (50% saturation)
@@ -137,8 +131,7 @@ Color calibration is a matter of taste and depends on what you want.
 
 Use this display to check for too much color saturation.
 While over-saturated images look great for op-art and computer displays,
-they stink when shown on the big screen TV.
-Use the *Alt-A* nimation key to scrub the video;
+they stink when shown on the big screen TV. Use :kbd:`Alt-A` to scrub the video;
 this display will update with a new/revised map for each frame.
 Just like watching the Image preview to see what it looks like,
 watch the Chroma Vectorscope to watch for color use.
