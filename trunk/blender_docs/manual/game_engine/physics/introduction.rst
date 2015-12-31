@@ -37,25 +37,25 @@ Object Physics
 Physics Type
 ============
 
-:doc:`No Collision </game_engine/physics/object/no_collision>`
+:doc:`No Collision </game_engine/physics/types/no_collision>`
    Is not affected by the simulation nor affects other objects.
-:doc:`Static </game_engine/physics/object/static>`
+:doc:`Static </game_engine/physics/types/static>`
    Participates in the simulation, affecting other objects, but is not affected by it.
-:doc:`Dynamic </game_engine/physics/object/dynamic>`
+:doc:`Dynamic </game_engine/physics/types/dynamic>`
    Object that can move besides colliding and being collided with.
-:doc:`Rigid Body </game_engine/physics/object/rigid_body>`
+:doc:`Rigid Body </game_engine/physics/types/rigid_body>`
    Has rigid body dynamics.
-:doc:`Soft Body </game_engine/physics/object/soft_body>`
+:doc:`Soft Body </game_engine/physics/types/soft_body>`
    Soft body dynamics.
-:doc:`Character Controller </game_engine/physics/object/character>`
+:doc:`Character Controller </game_engine/physics/types/character>`
    Character controller.
-:doc:`Vehicle Controller </game_engine/physics/object/vehicle>`
+:doc:`Vehicle Controller </game_engine/physics/types/vehicle>`
    Vehicle controller.
-:doc:`Occluder </game_engine/physics/object/occluder>`
+:doc:`Occluder </game_engine/physics/types/occluder>`
    Prevents calculation of rendered objects (not their physics, though!).
-:doc:`Sensor </game_engine/physics/object/sensor>`
+:doc:`Sensor </game_engine/physics/types/sensor>`
    Detects presence without restituting collisions.
-:doc:`Navigation Mesh </game_engine/physics/object/navigation_mesh>`
+:doc:`Navigation Mesh </game_engine/physics/types/navigation_mesh>`
    To make pathfinding paths. Useful for Artificial Intelligence.
 
 
@@ -163,7 +163,7 @@ nor do they account for them in the physics model. This leaves you with a few op
 Soft Bodies
 -----------
 
-You can try using a :doc:`Soft Body </game_engine/physics/object/soft_body>`,
+You can try using a :doc:`Soft Body </game_engine/physics/types/soft_body>`,
 but these are fairly hard to configure well.
 
 
