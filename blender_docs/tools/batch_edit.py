@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# Apache License, Version 2.0
+# <pep8 compliant>
 
 import os
 # if you want to operate on a subdir, eg: "render"
