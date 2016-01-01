@@ -1,3 +1,7 @@
+#!/usr/bin/env python3
+# Apache License, Version 2.0
+# <pep8 compliant>
+
 import os
 import re
 
