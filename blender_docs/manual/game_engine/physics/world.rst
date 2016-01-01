@@ -20,7 +20,7 @@ more extensive range of effects available with the Blender internal or cycles re
 .. tip::
 
    While world settings offer a simple way of adding effects to a scene,
-   :doc:`compositing nodes </composite_nodes/index>` are often preferred, though more complex to master,
+   :doc:`compositing nodes </compositing/index>` are often preferred, though more complex to master,
    for the additional control and options they offer.
    For example, filtering the Z value (distance from camera) or normals (direction of surfaces)
    through compositing nodes can further increase the depth and spacial clarity of a scene.

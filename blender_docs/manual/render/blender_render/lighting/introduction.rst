@@ -22,7 +22,7 @@ The color of an object and the lighting of your scene is affected by:
 - Your brain's perception of the color and intensity
   relative to those objects around it and the world background color,
   which can be changed using color manipulation techniques using Blender
-  :doc:`Composite Nodes </composite_nodes/introduction>`.
+  :doc:`Composite Nodes </compositing/introduction>`.
 
 
 Global Influences

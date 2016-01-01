@@ -41,7 +41,7 @@ Sections
    Animation </animation/index.rst>
    Physics <physics/index.rst>
    Rendering </render/index.rst>
-   Compositing <composite_nodes/index.rst>
+   Compositing <compositing/index.rst>
    Game Engine <game_engine/index.rst>
    User Preferences <preferences/index.rst>
    Advanced <advanced/index.rst>

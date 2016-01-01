@@ -20,7 +20,7 @@ Modifiers
 =========
 
 There are four alpha modifiers available, which can be mixed with the base alpha using a subset of the usual methods
-(see for example the :doc:`Mix compositing node </composite_nodes/types/color/mix>` for further discussion of
+(see for example the :doc:`Mix compositing node </compositing/types/color/mix>` for further discussion of
 this topic). As with other modifier stacks in Blender, they are applied from top to bottom.
 
 Influence

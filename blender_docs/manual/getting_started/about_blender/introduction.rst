@@ -32,7 +32,7 @@ Key Features
   many types of :doc:`Simulations </physics/introduction>`,
   :doc:`Scripting </advanced/scripting/introduction>`,
   :doc:`Rendering </render/introduction>`,
-  :doc:`Compositing </composite_nodes/introduction>`,
+  :doc:`Compositing </compositing/introduction>`,
   :doc:`VFX </editors/movie_clip_editor/index>`,
   and :doc:`Game Creation </game_engine/introduction>`.
 - Cross platform, with an OpenGL GUI that is uniform on all major platforms (and customizable with Python scripts).

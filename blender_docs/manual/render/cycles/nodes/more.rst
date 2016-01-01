@@ -376,16 +376,16 @@ Some nodes are common with Composite nodes,
 their documentation can be found at their relevant pages rather than repeated here.
 
 
-- :doc:`Brightness Contrast </composite_nodes/types/color/bright_contrast>`
-- :doc:`Separate RGB </composite_nodes/types/converter/combine_separate>`
-- :doc:`Combine RGB </composite_nodes/types/converter/combine_separate>`
-- :doc:`Separate HSV </composite_nodes/types/converter/combine_separate>`
-- :doc:`Combine HSV </composite_nodes/types/converter/combine_separate>`
-- :doc:`Gamma </composite_nodes/types/color/gamma>`
-- :doc:`Hue Saturation Value </composite_nodes/types/color/hue_saturation>`
-- :doc:`Invert </composite_nodes/types/color/invert>`
-- :doc:`Math </composite_nodes/types/converter/math>`
-- :doc:`Mix RGB </composite_nodes/types/color/mix>`
-- :doc:`RGB Curves </composite_nodes/types/color/rgb_curves>`
-- :doc:`RGB to BW </composite_nodes/types/converter/rgb_to_bw>`
-- :doc:`Vector Curve </composite_nodes/types/vector/vector_curves>`
+- :doc:`Brightness Contrast </compositing/types/color/bright_contrast>`
+- :doc:`Separate RGB </compositing/types/converter/combine_separate>`
+- :doc:`Combine RGB </compositing/types/converter/combine_separate>`
+- :doc:`Separate HSV </compositing/types/converter/combine_separate>`
+- :doc:`Combine HSV </compositing/types/converter/combine_separate>`
+- :doc:`Gamma </compositing/types/color/gamma>`
+- :doc:`Hue Saturation Value </compositing/types/color/hue_saturation>`
+- :doc:`Invert </compositing/types/color/invert>`
+- :doc:`Math </compositing/types/converter/math>`
+- :doc:`Mix RGB </compositing/types/color/mix>`
+- :doc:`RGB Curves </compositing/types/color/rgb_curves>`
+- :doc:`RGB to BW </compositing/types/converter/rgb_to_bw>`
+- :doc:`Vector Curve </compositing/types/vector/vector_curves>`

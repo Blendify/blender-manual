@@ -331,7 +331,7 @@ To overlay multiple UV images, you have several options:
 
 - Create multiple UV Textures which map the same,
   and then use different images (with Alpha) and blender will overlay them automatically.
-- Use the :doc:`Composite Nodes </composite_nodes/index>` to combine the two images via the AlphaOver node,
+- Use the :doc:`Composite Nodes </compositing/index>` to combine the two images via the AlphaOver node,
   creating and saving the composite image. Open that composited image as the UV Texture.
 - Use an external paint program to alpha overlay the images and save the file,
   and load it as the face's UV Texture
