@@ -1,8 +1,8 @@
 .. _composite_nodes-index:
 
-##################
-  Composite Nodes
-##################
+##############
+  Compositing
+##############
 
 .. toctree::
    :maxdepth: 2

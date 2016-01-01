@@ -21,7 +21,7 @@ since the timespan is 250 frames and the line is straight from corner to corner,
 
 .. note:: Note on output values
 
-   The :doc:`Map Value </composite_nodes/types/vector/map_value>`
+   The :doc:`Map Value </compositing/types/vector/map_value>`
    node can be used to map the output to a more appropriate value.
    With some time curves, it is possible that the Time node may output a number larger than one or less than zero.
    To be safe, use the Min/Max clamping function of the Map Value node to limit output.
@@ -61,12 +61,12 @@ the following time controls are made:
 
 
 Common uses for this include a
-:doc:`"fade to black" </composite_nodes/types/converter/set_alpha>`,
+:doc:`"fade to black" </compositing/types/converter/set_alpha>`,
 wherein the accelerate time curve (typically exponentially-shaped)
 feeds a mix value that mixes a constant black color in,
 so that the blackness accelerates and eventually darkens the image to total black.
 Other good uses include an increasing soften (blur-out or -in) effect,
-or :doc:`fade-in </composite_nodes/types/converter/set_alpha>` a background or foreground,
+or :doc:`fade-in </compositing/types/converter/set_alpha>` a background or foreground,
 instead of just jumping things into or out of the scene.
 
 

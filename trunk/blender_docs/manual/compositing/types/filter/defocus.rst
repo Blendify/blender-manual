@@ -66,7 +66,7 @@ Rotate
 
 Gamma Correct
    Exactly the same as the *Gamma* option in Blender's general *Blur* node
-   (see :doc:`Blur Node </composite_nodes/types/filter/blur_node>`).
+   (see :doc:`Blur Node </compositing/types/filter/blur_node>`).
    It can be useful to further brighten out of focus parts in the image, accentuating the Bokeh effect.
 
 f-Stop

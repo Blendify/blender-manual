@@ -59,7 +59,7 @@ This tells Blender to composite the final image by running it through the compos
 
 
 You now have your first node setup, a RenderLayer input node linked to a Composite output node.
-From here, you can add and connect many :doc:`types of compositing nodes </composite_nodes/types/index>`,
+From here, you can add and connect many :doc:`types of compositing nodes </compositing/types/index>`,
 in a sort of map layout, to your heart's content (or physical memory constraints, whichever comes first).
 
 .. note:: Nodes

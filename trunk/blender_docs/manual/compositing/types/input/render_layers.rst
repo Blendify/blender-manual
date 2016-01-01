@@ -159,4 +159,4 @@ a single image or frame from the animation does not portray any motion;
 the image from the frame is simply where things are at that particular time. However,
 from the *Render Layers* node, Blender puts out a vector set that says how particular pixels are moving,
 or will move, to the next frame. You use this socket to create a
-:doc:`blurring effect. </composite_nodes/types/filter/vector_blur>`.
+:doc:`blurring effect. </compositing/types/filter/vector_blur>`.
