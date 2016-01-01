@@ -55,7 +55,7 @@ Examples
 ========
 
 An in-depth look at how to use the Vector Blur node
-:doc:`can be found here </composite_nodes/types/filter/vector_blur>`.
+:doc:`can be found here </compositing/types/filter/vector_blur>`.
 
 As far as we know, this node represents a
 `new approach to calculating motion blur

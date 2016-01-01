@@ -9,9 +9,9 @@ Transform Node
 
    Transform Node
 
-This node combines the functionality of three other nodes: :doc:`Scale </composite_nodes/types/distort/scale>`,
-:doc:`translate </composite_nodes/types/distort/translate>`,
-and :doc:`rotate </composite_nodes/types/distort/rotate>` nodes.
+This node combines the functionality of three other nodes: :doc:`Scale </compositing/types/distort/scale>`,
+:doc:`translate </compositing/types/distort/translate>`,
+and :doc:`rotate </compositing/types/distort/rotate>` nodes.
 
 X, Y
    Used to move the input image horizontally and vertically.

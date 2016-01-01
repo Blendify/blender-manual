@@ -10,7 +10,7 @@ Bokeh Image
    Bokeh Image Node
 
 Bokeh Image generates a special input image for use with the
-:doc:`Bokeh Blur </composite_nodes/types/filter/bokeh_blur>` filter node.
+:doc:`Bokeh Blur </compositing/types/filter/bokeh_blur>` filter node.
 
 Bokeh Image is designed to create a reference image which simulates optical parameters such as aperture shape
 and lens distortions which have important impacts on bokeh in real cameras.
