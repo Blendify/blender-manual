@@ -304,7 +304,7 @@ To modify your new Texture, you can:
   - The Render Bake feature provides several tools to replace the current image
     based on a render of :ref:`Vertex Paint <painting_vertex-index>` colors,
     Normals (bumps), Procedural materials, textures and lighting, and ambient occlusion.
-- Paint using :doc:`Texture Paint </painting/texture_paint/introduction>`.
+- Paint using :doc:`Texture Paint </painting_sculpting/painting/texture_paint/introduction>`.
 
   - Use the UV/Image Editor menu *Image* --> *New*. Then start painting your mesh with
 - Use external software to create an image
