@@ -34,21 +34,21 @@ Color Balance
 
    .. note::
 
-      This modifier works the same as the :doc:`Color Balance Node </composite_nodes/types/color/color_balance>`
+      This modifier works the same as the :doc:`Color Balance Node </compositing/types/color/color_balance>`
 
 Curves
    C/RGB curves.
 
    .. note::
 
-      This modifier works the same as the :doc:`Curves Node </composite_nodes/types/color/rgb_curves>`
+      This modifier works the same as the :doc:`Curves Node </compositing/types/color/rgb_curves>`
 
 Hue Correct
    HSV multi points curves.
 
    .. note::
 
-      This modifier works the same as the :doc:`Curves Node </composite_nodes/types/color/hue_correct>`
+      This modifier works the same as the :doc:`Curves Node </compositing/types/color/hue_correct>`
 
 Bright/Contrast
    Adjusts the brightness and contrast of the modifier input.

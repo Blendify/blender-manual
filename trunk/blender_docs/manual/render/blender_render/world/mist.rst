@@ -59,9 +59,9 @@ Because *Mist* works by adjusting transparency,
 this can sometimes cause objects to be partially transparent when they shouldn't be.
 One workaround is to set the Mist settings as desired, but turn Mist off.
 The Mist data is still available for compositing even though it is off.
-Use :doc:`Do Composite </composite_nodes/index>`
+Use :doc:`Do Composite </compositing/index>`
 and the :doc:`Node Editor </editors/node_editor/index>` to feed the Mist pass to an
-:doc:`AlphaOver </composite_nodes/types/color/alpha_over>` to blend the background color
+:doc:`AlphaOver </compositing/types/color/alpha_over>` to blend the background color
 (or a render layer with just the sky) with the rendered image.
 This produces the mist effect but since Mist is off the object transparency (or lack of) is preserved.
 

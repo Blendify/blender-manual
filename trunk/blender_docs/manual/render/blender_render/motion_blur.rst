@@ -40,7 +40,7 @@ Shutter
 Vector Blur
 ===========
 
-:doc:`Vector Blur </composite_nodes/types/filter/vector_blur>`
+:doc:`Vector Blur </compositing/types/filter/vector_blur>`
 is faster but sometimes has unwanted side-effects which are sometimes difficult to avoid.
 
 Vector blur is a process done in compositing (post-render time), by rendering the

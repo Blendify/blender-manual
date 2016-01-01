@@ -36,7 +36,7 @@ Modifiers
 
 There are five thickness modifiers available,
 which can be mixed with the base thickness using a subset of the usual methods
-(see for example the :doc:`Mix compositing node </composite_nodes/types/color/mix>`
+(see for example the :doc:`Mix compositing node </compositing/types/color/mix>`
 for further discussion of this topic). As with other modifier stacks in Blender,
 they are applied from top to bottom.
 
