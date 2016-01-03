@@ -17,7 +17,6 @@ Summeary only - for all languages:
 
 import os
 
-
 def po_files(path):
     for dirpath, dirnames, filenames in os.walk(path):
         if dirpath.startswith("."):
@@ -28,6 +27,37 @@ def po_files(path):
             if ext.lower() == ".po":
                 yield os.path.join(dirpath, filename)
 
+def parse_file(po_filepath):
+    msgstrs_complete = -1  # First lines contain a "fake" msgstr
+    msgstrs_empty = 0
+    msgstrs_fuzzy = 0
+    for line in open(po_filepath, encoding='utf8'):
+        result = parse_line(line)
+        if result == 'COMPLETE' or result == 'EMPTY':
+            msgstrs_complete += 1
+            if result == 'EMPTY':
+                msgstrs_empty += 1
+                last_line_was_empty_msg_str = True
+        else:
+            if result == 'CONTINUATION':
+                if last_line_was_empty_msg_str:
+                    msgstrs_empty -= 1
+            else:
+                if result == 'FUZZY':
+                    msgstrs_fuzzy += 1
+            last_line_was_empty_msg_str = False
+    return msgstrs_complete, msgstrs_empty, msgstrs_fuzzy
+
+def parse_line(line):
+    if line.startswith('msgstr'):
+        if line.startswith('msgstr ""'):
+            return 'EMPTY'
+        return 'COMPLETE'
+    if line[0] == '"':
+        return 'CONTINUATION'
+    if 'fuzzy' in line:
+        return 'FUZZY'
+    return 'NONE'
 
 def report_progress(path, report, quiet=False):
 
@@ -43,26 +73,10 @@ def report_progress(path, report, quiet=False):
 
     for po_filepath in po_files(path):
 
-        msgstrs_file_complete = -1  # First lines contain a "fake" msgstr
-        msgstrs_file_empty = 0
-        msgstrs_file_fuzzy = 0
+        (msgstrs_file_complete, msgstrs_file_empty, msgstrs_file_fuzzy) = parse_file(po_filepath)
 
-        for line in open(po_filepath, encoding='utf8'):
-            if line.startswith('msgstr'):
-                msgstrs_file_complete += 1
-                if line.startswith('msgstr ""'):
-                    msgstrs_file_empty += 1
-                    last_line_was_empty_msg_str = True
-            else:
-                if line[0] == '"':
-                    if last_line_was_empty_msg_str:
-                        msgstrs_file_empty -= 1
-                        last_line_was_empty_msg_str = False
-                else:
-                    last_line_was_empty_msg_str = False
-                    if 'fuzzy' in line:
-                        msgstrs_file_fuzzy += 1
-                        msgstrs_all_fuzzy_files.add(po_filepath)
+        if msgstrs_file_fuzzy > 0:
+            msgstrs_all_fuzzy_files.add(po_filepath)
 
         if not quiet:
             report('%3d empty, %3d fuzzy of %3d; or [%5.1f %%] in %s' %
@@ -82,7 +96,7 @@ def report_progress(path, report, quiet=False):
         'Fuzzy:   %d fuzzy strings in:' %
         (msgstrs_all_fuzzy))
     for po_filepath in sorted(msgstrs_all_fuzzy_files):
-        report("         %s" % po_filepath)
+        report(' ' * 9 + "%s" % po_filepath)
 
     report('Summary: %d empty of %d; or [%5.1f %%] complete' %
            (msgstrs_all_empty,
@@ -90,7 +104,6 @@ def report_progress(path, report, quiet=False):
             0.0 if not msgstrs_all_complete else
             ((1.0 - ((msgstrs_all_empty + msgstrs_all_fuzzy ) /
               msgstrs_all_complete)) * 100.0)))
-
 
 def main():
     import argparse
@@ -120,8 +133,7 @@ def main():
         if os.path.isdir(path):
             report_progress(path, report=print, quiet=args.quiet)
         else:
-            print('%s isn\'t a directory' %
-                (path))
+            print('%s isn\'t a directory' % (path))
         print()
 
 if __name__ == "__main__":
