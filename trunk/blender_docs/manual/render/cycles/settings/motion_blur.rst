@@ -41,6 +41,15 @@ Shutter Speed
 Shutter Curve
    Curve defining how the shutter opens and closes.
 
+Shutter Type
+   Replicates CMOS cameras by rendering a rolling shutter effect using scanlines.
+
+   - Top Bottom: Renders rolling shutter from the top of the image from the bottom.
+
+Rolling Shutter Duration
+   Controls balance between pure rolling shutter effect and pure motion blur effect.
+   With zero being no rolling shutter and one being all rolling shutter.
+
 .. warning::
 
    An object modifier setup that changes mesh topology over time will cause severe problems.
