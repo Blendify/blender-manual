@@ -1,7 +1,7 @@
 
-*************
-Sound Editing
-*************
+************
+Sound Strips
+************
 
 As well as images and movies the VSE can also edit audio tracks. You can add WAV,
 Mp3 and other audio formates files from your hard disk as a file, or as encoded within a movie,
@@ -75,15 +75,11 @@ Hiss, Crackle and Pop
 ---------------------
 
 .. EDITORS NOTE:
-   Is this still a problem?
-   We should include a comment linking to some bug report if it is.
-   - ideasman42
+   This is a common problem and unavoidable see T37432#351492
 
 In some cases when *Caching* is disabled, playback noise/hiss is introduced.
 
 If you hear pops and crackles, usually that is a sign that your hardware cannot keep up in real-time playback.
 They will not be present in your final rendered animation output.
 
-.. AGAIN, please link to bug report.
-
-Also, static hiss seems to occur whenever two or more audio strips are overlapping in the timeline.
+Also, static hiss can occur whenever two or more audio strips are overlapping in the timeline.
