@@ -121,8 +121,7 @@ Sequencer
 ---------
 
 Color Space
-   The color space that the sequencer operates in.
-   By default the sequencer operates in sRGB space,
+   The color space that the sequencer operates in. By default the sequencer operates in sRGB space,
    but it can also be set to work in Linear space like the Compositing nodes, or another color space.
    Different color spaces will give different results for color correction, cross fades, and other operations.
 
@@ -223,10 +222,3 @@ Compatibility with existing files should mostly be preserved.
 Files that had color management enabled should be entirely compatible, while older files with
 the color management option disabled are mostly compatible but different for vertex colors and
 viewport colors.
-
-
-See Also
-========
-
-- `Developer Documentation <http://wiki.blender.org/index.php/User:Nazg-gul/ColorManagement>`__
-- `User:Sobotka/Color_Management <http://wiki.blender.org/index.php/User:Sobotka/Color_Management>`__
