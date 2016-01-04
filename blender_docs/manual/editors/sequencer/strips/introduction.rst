@@ -1,7 +1,7 @@
 
-*************
-Adding Strips
-*************
+************
+Introduction
+************
 
 .. figure:: /images/VseAddMenu.jpg
 
