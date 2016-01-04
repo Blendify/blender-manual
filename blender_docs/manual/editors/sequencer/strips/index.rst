@@ -11,3 +11,4 @@
    image_movie.rst
    effects/index.rst
    audio.rst
+   meta.rst
