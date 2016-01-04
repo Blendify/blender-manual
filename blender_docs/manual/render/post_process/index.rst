@@ -16,6 +16,6 @@ but rather composited on top of the image.
    :maxdepth: 2
 
    layers.rst
-   dither.rst
+   panel.rst
    metadata.rst
    cm_and_exposure.rst
