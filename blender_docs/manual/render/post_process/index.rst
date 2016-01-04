@@ -17,6 +17,5 @@ but rather composited on top of the image.
 
    layers.rst
    dither.rst
-   edges.rst
    metadata.rst
    cm_and_exposure.rst
