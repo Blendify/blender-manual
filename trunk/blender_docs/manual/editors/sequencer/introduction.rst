@@ -41,22 +41,7 @@ In the x direction, seconds of animation or frames of animation
 
    Video Sequence Editor in Sequence display mode
 
-Enabling The VSE
-----------------
+.. note::
 
-When you click Render or Anim to generate an image or video,
-Blender has a choice of what image to compose for the current frame/scrub range:
-
-- Current Scene layer result
-- Sequence Editor channel 0 result
-- Composition Node Editor renderlayer result
-
-The video sequencer is enabled by default.
-
-
-When you go to the render panel where ordinary renderings take place and you click animation
-or image with the VSE open, it will render the clips for the VSE instead of the scene.
-
-.. figure:: /images/vse-dosequence.jpg
-
-   Sequence Output Enabled
+   By default the Sequencer is enablied however it can be disabled
+   in the :doc:`Post Processing Panel </render/post_process/panel>`
