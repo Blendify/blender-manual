@@ -89,6 +89,9 @@ check_structure: FORCE
 #	- gvim --nofork -c "cfile rst_check_structure.log" -c "cope" -c "clast"
 #	- rm rst_check_structure.log
 
+update_po: FORCE
+	- ./tools/maintenance/update_po.sh
+
 gettext: FORCE
 	$(SPHINXBUILD) -b gettext $(I18NSPHINXOPTS) $(BUILDDIR)/locale
 	@echo
@@ -126,5 +129,10 @@ help:
 	@echo ""
 	@echo "- check_syntax       Check the syntax of all .rst files."
 	@echo "- check_structure    Check the structure of all .rst files."
-
+	@echo ""
+	@echo ""
+	@echo "Maintenance"
+	@echo "==========="
+	@echo ""
+	@echo "- update_po          Update the PO translations files from the RST source."
 FORCE:
