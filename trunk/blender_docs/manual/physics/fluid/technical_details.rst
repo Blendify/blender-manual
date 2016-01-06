@@ -33,28 +33,3 @@ Generally, don't rely on the physical settings too much
 (such as physical domain size or length of the animation in seconds).
 Rather try to get the overall motion right with a low resolution,
 and then increase the resolution as much as possible or desired.
-
-
-Acknowledgements
-================
-
-The integration of the fluid simulator was done as a Google Summer-of-Code project. More
-information about the solver can be found at
-`www.ntoken.com <http://graphics.ethz.ch/~thuereyn/ntoken3/Publications.html>`__.
-These Animations were created with the solver before its integration into blender:
-`Adaptive Grids <http://www10.informatik.uni-erlangen.de/~sinithue/public/phd/nthuerey_050731_sgposter.avi>`__,
-`Interactive Animations
-<http://www10.informatik.uni-erlangen.de/~sinithue/public/phd/nthuerey_050607_tr1rtlbm.avi>`__.
-Thanks to Chris Want for organizing the Blender-SoC projects, and
-to Jonathan Merrit for mentoring this one! And of course thanks to Google for starting the
-whole thing... SoC progress updates were posted here:
-`SoC-Blenderfluid-Blog at PlanetSoC <http://www.planetsoc.com/blog/51>`__.
-
-The solver itself was developed by Nils Thuerey with the help and supervision of the following
-people: U. Ruede, T. Pohl, C. Koerner, M. Thies, M. Oechsner and T.
-Hofmann at the Department of Computer Science 10 (System Simulation, LSS) in Erlangen,
-Germany.
-
-- `http://www10.informatik.uni-erlangen.de/~sinithue/img/lsslogo.png <http://www10.informatik.uni-erlangen.de/>`__
-- `http://www10.informatik.uni-erlangen.de/~sinithue/img/unierlangenlogo.png <http://www.uni-erlangen.de/>`__
-

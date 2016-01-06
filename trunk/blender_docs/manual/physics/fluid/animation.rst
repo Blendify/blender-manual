@@ -65,4 +65,3 @@ AttrForceStr, AttrForceRa
 
 VelForceStr, VelForceRa
    These curves control the values of the velocity force settings.
-

@@ -45,5 +45,3 @@ Initial velocity
    If the normals face the wrong way, you'll be rewarded with a "gigantic flood of water" because Blender will think
    that the volume of the object is outside of its mesh! This applies regardless of the *Volume init* type
    setting.
-
-

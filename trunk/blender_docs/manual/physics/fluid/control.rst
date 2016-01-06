@@ -25,13 +25,11 @@ we use the Fluid Control option to control part of the fluid so that it has a ce
 
 
 .. figure:: /images/fluidsim-example2.jpg
-   :width: 640px
 
    Falling drop
 
 
 .. figure:: /images/Fluidcontrol-banner.jpg
-   :width: 640px
 
    "Magic Fluid Control"
 
@@ -59,10 +57,3 @@ Attraction force
 
 Velocity force
    If the fluid control object moves, the resulting velocity can also introduce a force to the fluid.
-
-
-See also
-========
-
-Release notes: http://wiki.blender.org/index.php/Template:Release_Notes/2.48/FluidControl
-

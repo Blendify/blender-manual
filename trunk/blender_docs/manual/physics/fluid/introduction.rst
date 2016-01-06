@@ -3,16 +3,6 @@
 Introduction
 ************
 
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     *Object* mode / *Edit mode* (Mesh)
-   | Panel:    *Physics* sub-context --> *Fluid*
-
-
-Description
-===========
-
 While modeling a scene with blender,
 certain objects can be marked to participate in the fluid simulation, e.g.
 as fluid or as an obstacle. The bounding box of another object will be used to define a
@@ -73,4 +63,3 @@ To know more about simulating fluids in Blender you can read:
   to learn how to do a more realistic fluid simulation,
 - the :doc:`fluids appendix </physics/fluid/appendix>` to learn limitations and workarounds,
   and some additional links.
-

@@ -72,4 +72,3 @@ Impact Factor
    If this object is not moving, this setting has no effect.
    However, it if is and the fluid collides with it, a negative value takes volume away from the Domain,
    and a positive number adds to it. Ranges from -2.0 to 10.0.
-
