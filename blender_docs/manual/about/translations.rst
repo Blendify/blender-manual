@@ -109,6 +109,43 @@ The updated templates can then be committed to svn.
 *TODO: document how to handle files being added/removed/moved.*
 
 
+.. _translations-fuzzy-strings:
+
+Keeping track of fuzzy strings
+==============================
+
+When the manual is updated, those translations which are outdated will be marked as fuzzy.
+To keep track with that, you can use a tool we created for that task.
+
+Download the tools/ folder:
+
+.. code-block:: sh
+
+   cd path/to/translationfolder
+   svn checkout https://svn.blender.org/svnroot/bf-manual/trunk/blender_docs/tools
+
+You should have a directory layout like this:
+
+.. code-block:: sh
+   
+   translations/
+   |- fr/
+   |  |- LC_MESSAGES/
+   |- tools/
+
+Now execute:
+
+.. code-block:: sh
+
+   python3 tools/report_translation_progress.py fr/LC_MESSAGES/
+
+You should get a list of all the files with informations about the number of empty and fuzzy strings.
+If you want only a summary, append ``-q`` to the command above. For more options see:
+
+.. code-block:: sh
+
+   python3 tools/report_translation_progress.py --help
+
 ----
 
 .. note::
