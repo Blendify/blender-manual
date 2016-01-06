@@ -298,6 +298,14 @@ While Hovering
 
      For pop-up option menus buttons this cycles the value.
 
+   File Selector Icon:
+
+   - :kbd:`LMB` - select a new file.
+   - :kbd:`Shift-LMB` - open the file externally
+     *(using the systems default editor)*.
+   - :kbd:`Alt-LMB` - open the directory externally
+     *(using the systems file manager)*.
+
    Animation:
 
    - :kbd:`I` - insert a keyframe.
