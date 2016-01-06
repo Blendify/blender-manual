@@ -11,7 +11,7 @@ Welcome to the Blender Manual!
    `Download the full manual (zipped HTML files) <blender_manual.zip>`__
 
 For other languages see:
-(`Chinese <http://www.blender.org/manual/zh_cn/>`__
+(`Chinese <http://www.blender.org/manual/zh.cn/>`__
 `German <http://www.blender.org/manual/de/>`__,
 `French <http://www.blender.org/manual/fr/>`__,
 `Russian <http://www.blender.org/manual/ru/>`__)
