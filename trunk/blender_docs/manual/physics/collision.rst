@@ -28,7 +28,7 @@ clear the cache for all selected objects with :kbd:`Ctrl-B` --> *Free cache sele
 
 
 Options
-*******
+=======
 
 .. figure:: /images/physics_collision.png
 
