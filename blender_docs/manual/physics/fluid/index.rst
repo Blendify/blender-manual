@@ -17,5 +17,4 @@
    control.rst
    animation.rst
    hints.rst
-   technical_details.rst
    appendix.rst
