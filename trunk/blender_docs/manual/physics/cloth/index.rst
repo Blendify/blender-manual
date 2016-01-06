@@ -8,3 +8,5 @@
 
    introduction.rst
    cloth_settings.rst
+   collisions.rst
+   examples.rst
