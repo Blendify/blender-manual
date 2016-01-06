@@ -97,26 +97,16 @@ Scripting Reference
      Info Window - Operator Cheat Sheet
 
 
-System Info
------------
+Save System Info
+----------------
 
-Access :menuselection:`Help --> System Info`
+Access :menuselection:`Help --> Save System Info`
 
 
 This extracts system information which can be useful to include in bug reports,
 inspecting the configuration or diagnosing problems.
 
-.. figure:: /images/basics-help-info-window-system_info.jpg
-
-   Info Window - Info.txt
-
-Running this creates a text-block called ``system-info.txt``,
-which you can access in the Blender *Text Editor*.
-
-To read the text, switch to the Blender *Text Editor* Window,
-using the :doc:`Editor type Selector </editors/index>`,
-then, click on the button *Browse Text to be Linked* of the Text Editor.
-
+You will be prompted to save a text file ``system-info.txt``.
 
 The text file contains sections:
 
