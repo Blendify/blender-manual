@@ -11,7 +11,7 @@ Welcome to the Blender Manual!
    `Download the full manual (zipped HTML files) <blender_manual.zip>`__
 
 For other languages see:
-(`Chinese <http://www.blender.org/manual/zh.cn/>`__
+(`Chinese <http://www.blender.org/manual/zh.cn/>`__,
 `German <http://www.blender.org/manual/de/>`__,
 `French <http://www.blender.org/manual/fr/>`__,
 `Russian <http://www.blender.org/manual/ru/>`__)
@@ -36,17 +36,17 @@ Sections
    interface/index.rst
    editors/index.rst
    data_system/index.rst
-   Modeling <modeling/index.rst>
-   Painting & Sculpting <painting_sculpting/index.rst>
-   Rigging <rigging/index.rst>
-   Animation </animation/index.rst>
-   Physics <physics/index.rst>
-   Rendering </render/index.rst>
-   Compositing <compositing/index.rst>
-   Game Engine <game_engine/index.rst>
-   User Preferences <preferences/index.rst>
-   Advanced <advanced/index.rst>
-   Troubleshooting <troubleshooting/index.rst>
+   modeling/index.rst
+   painting_sculpting/index.rst
+   rigging/index.rst
+   /animation/index.rst
+   physics/index.rst
+   /render/index.rst
+   compositing/index.rst
+   game_engine/index.rst
+   preferences/index.rst
+   advanced/index.rst
+   troubleshooting/index.rst
    glossary/index.rst
 
 
