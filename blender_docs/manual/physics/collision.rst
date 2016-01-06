@@ -3,8 +3,8 @@
 Collisions
 **********
 
-:doc:`Particles </physics/particles/index>`, :doc:`Soft Bodies </physics/soft_body/index>` and
-:doc:`Cloth objects </physics/cloth/index>` may collide with mesh objects.
+:doc:`Particles </physics/particles/index>`, :doc:`Soft Bodies </physics/soft_body/index>`
+and :doc:`Cloth objects </physics/cloth/index>` may collide with mesh objects.
 :doc:`Boids </physics/particles/physics/boids>` try to avoid *Collision* objects.
 
 
@@ -30,9 +30,9 @@ clear the cache for all selected objects with :kbd:`Ctrl-B` --> *Free cache sele
 Options
 *******
 
-.. figure:: /images/collisionpanel.jpg
+.. figure:: /images/physics_collision.png
 
-   Image 1: Collision panel in the Physics sub-context.
+   Collision Panel
 
 
 Permeability
@@ -92,11 +92,10 @@ Examples
 
 .. figure:: /images/UM_PART_XIII_KST_PI10.jpg
 
-   Image 2: Deflected Particles.
+   Deflected Particles
 
 
-Here is a *Meta* object, dupliverted to a particle system emitting downwards,
-and deflected by a mesh cube:
+Here is a *Meta* object, dupliverted to a particle system emitting downwards, and deflected by a mesh cube:
 
 
 Hints
@@ -107,5 +106,3 @@ Hints
   so if you use a force field with a short range you don't need necessarily collision.
 - Hair particles avoid their emitting mesh if you edit them in *Particle* mode.
   So you can at least model the hair with collision.
-
-
