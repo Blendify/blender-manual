@@ -3,13 +3,13 @@
 Text Effect
 ***********
 
-The text effect strip allows you to directly displaying text in the sequence editor. The strip will
-display the text inserted in its text field on the final sequence
+The text effect strip allows you to directly displaying text in the sequence editor.
+The strip will display the text inserted in its text field on the final sequence.
 
-
-.. figure:: /images/vse_effects_text.png
+.. figure:: /images/editors_sequencer_effects_text.png
 
    Text Effect
+
 
 Options
 =======
@@ -26,6 +26,7 @@ X Position
    Positions the text on the x axis. Only appears if auto center is off.
 Y Position
    Positions the text on the y axis.
+
 
 Export Subtitles
 ================
