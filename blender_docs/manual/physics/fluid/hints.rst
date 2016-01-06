@@ -51,4 +51,3 @@ Some useful hints about fluid simulation in Blender:
   let me know: send the .blend file and a problem description to ``nils at thuerey dot de``.
   Please check these wiki pages and the `blenderartists-forum
   <http://blenderartists.org/forum/>`__ before sending a mail!
-

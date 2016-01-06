@@ -42,4 +42,3 @@ Particle type
 Path (bake directory)
    The simulation run from which to load the particles.
    This should usually have the same value as the fluid domain object (e.g. copy by :kbd:`Ctrl-C`, :kbd:`Ctrl-V`).
-
