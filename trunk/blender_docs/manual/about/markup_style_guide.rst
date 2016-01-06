@@ -159,6 +159,8 @@ Usage Guides
      UI and tool-options change so try to avoid having a lot of images (when they aren't especially necessary).
      Otherwise this becomes too much of a maintenance burden.
 
+.. Editors Note:
+   In some case it is better to specify the image location e.g. tall and narrow images such as nodes.
 
 Videos
 ======
@@ -288,4 +290,3 @@ To learn more about reStructuredText, see:
    Good basic introduction.
 `Docutils reStructuredText reference <http://docutils.sourceforge.net/rst.html>`__
    Links to reference and user documentation.
-
