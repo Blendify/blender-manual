@@ -2,9 +2,9 @@
 ..    TODO/Review: {{review|copy=X|text=Partially}} .
 
 
-****************
-Cloth Simulation
-****************
+************
+Introduction
+************
 
 Cloth simulation is one of the hardest aspects of CG,
 because it is a deceptively simple real-world item that is taken for granted,
