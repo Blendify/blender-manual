@@ -1,6 +1,6 @@
 
 ****************************
-Controlling the fluid volume
+Controlling the Fluid Volume
 ****************************
 
 To control the volume of the fluid simulation,
@@ -10,10 +10,9 @@ you can set objects in the scene to add or absorb fluid within the :doc:`Fluid D
 Inflow
 ======
 
-.. figure:: /images/fluids_inflow.jpg
-   :width: 300px
+.. figure:: /images/physics_fluid_types_inflow.png
 
-   Fluid inflow settings
+   Fluid Inflow Settings
 
 Volume initialization type
 
@@ -31,10 +30,10 @@ Volume initialization type
 This object will put fluid into the simulation, like a water tap.
 
 
-Inflow velocity
+Inflow Velocity
    Speed of the fluid that is created inside of the object.
 
-Local Coords / Enable
+Local Coords/Enable
    Use local coordinates for the inflow.
    This is useful if the inflow object is moving or rotating, as the inflow stream will
    follow/copy that motion. If disabled, the inflow location and direction do not change.
@@ -48,10 +47,9 @@ Animated Mesh/Export
 Outflow
 =======
 
-.. figure:: /images/fluids_outflow.jpg
-   :width: 300px
+.. figure:: /images/physics_fluid_types_outflow.png
 
-   Fluid outflow settings
+   Fluid Outflow Settings
 
 
 Any fluid that enters the region of this object will be deleted (think of a drain or a black hole).
@@ -59,4 +57,4 @@ This can be useful in combination with an inflow to prevent the whole domain fro
 When enabled, this is like a tornado (waterspout) or "wet vac" vacuum cleaner,
 and the part where the fluid disappears will follow the object as it moves around.
 
-The Volume initializations are the same for Outflow as there are for Inflow.
+The Volume initializations are the same for *Outflow* as there are for *Inflow*.
