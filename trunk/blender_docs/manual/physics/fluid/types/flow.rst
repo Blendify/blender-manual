@@ -1,7 +1,7 @@
 
-****************************
-Controlling the Fluid Volume
-****************************
+**********************
+Fluid Inflow / Outflow
+**********************
 
 To control the volume of the fluid simulation,
 you can set objects in the scene to add or absorb fluid within the :doc:`Fluid Domain </physics/fluid/types/domain>`.
