@@ -7,11 +7,11 @@ Fluid Obstacle
 This object will be used as an obstacle in the simulation. As with a fluid object,
 obstacle objects currently should not intersect. As for fluid objects,
 the actual mesh geometry is used for obstacles. For objects with a volume,
-make sure that the normals of the obstacle are calculated correctly, and radiating properly
-(use the *Flip Normal* button, in *Edit mode*,
-*Mesh Tools* panel, *Editing* context),
-particularly when using a spinned container. Applying the Modifier *SubSurf* before
-baking the simulation could also be a good idea if the mesh is not animated.
+make sure that the normals of the obstacle are calculated correctly,
+and radiating properly (use the *Flip Normal* button, in *Edit mode*,
+*Mesh Tools* panel, *Editing* context), particularly when using a spinned container.
+Applying a :doc:`SubSurf Modifier </modeling/modifiers/generate/subsurf>`
+before baking the simulation could also be a good idea if the mesh is not animated.
 
 Volume Initialization Type
    See :ref:`Volume Initialization Type <fluid-initialization>`
@@ -21,18 +21,17 @@ Boundary type
    Surface Adhesion depends in real-world on the fluid and the graininess or
    friction/adhesion/absorption qualities of the surface.
 
-   Noslip
-      causes the fluid to stick to the obstacle (zero velocity).
-   Free
-      (-slip) allows movement along the obstacle (only zero normal velocity).
-   Part
-      (-slip) mixes both types, with 0 being mostly noslip, and 1 being identical to freeslip.
+   No Slip
+      Causes the fluid to stick to the obstacle (zero velocity).
+   Free Slip
+      Allows movement along the obstacle (only zero normal velocity).
+   Part Slip
+      Mixes both types, with 0 being mostly no slip, and 1 being identical to free slip.
 
-   Note that if the mesh is moving, it will be treated as noslip automatically.
+   Note that if the mesh is moving, it will be treated as no slip automatically.
 
 
 .. figure:: /images/bndtcomp.jpg
-   :width: 610px
 
    Example of the different boundary types for a drop falling onto the slanted wall.
    From left to right: no-slip, part-slip 0.3, part-slip 0.7 and free-slip.
@@ -42,17 +41,6 @@ Animated Mesh/Export
 
 PartSlip Amount
    Amount of mixing between no- and free-slip, described above.
-
-
-.. note:: Moving obstacles support
-
-   Blender supports now moving obstacles.
-
-   In the past, a moving obstacle was automatically treated as no slip (sticky),
-   so if you wanted to splash off of a moving object,
-   you had to put a transparent plane in the spot where the fluid will hit the moving object,
-   exactly aligned and shaped as the object, to fake the splash. This is not needed anymore.
-
 
 Impact Factor
    Amount of fluid volume correction for gain/loss from impacting with moving objects.
