@@ -299,10 +299,9 @@ Part Slip
 Domain Particles
 ================
 
-.. figure:: /images/fluids_domain_particles.jpg
-   :width: 300px
+.. figure:: /images/physics_fluid_domain_particles.png
 
-   The Domain Particles panel
+   The Domain Particles Panel
 
 
 Here you can add particles to the fluid simulated, to enhance the visual effect.
