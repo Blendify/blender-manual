@@ -10,7 +10,7 @@ Baking
 
 
 Bake Button
------------
+===========
 
 Perform the actual fluid simulation. Blender will continue to work normally,
 except there will be a status bar in the top of the window, next to the render pulldown.
@@ -21,7 +21,7 @@ one for the *Preview* quality), plus one ``.bvel.gz``
 
 
 Bake directory
---------------
+==============
 
 Directory and file prefix to store baked surface meshes.
 
@@ -34,7 +34,7 @@ and allows quick changes between the different sets of surface data.
 
 
 Notes
------
+=====
 
 Unique domain
    Because of the possibility of spanning and linking between scenes,
