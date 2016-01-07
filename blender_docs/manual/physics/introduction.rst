@@ -16,7 +16,7 @@ often used to simulate real physical phenomena, such as:
 
 :doc:`Particle Systems </physics/particles/index>` can be used to simulate many things: hair, grass, smoke, flocks.
 
-:doc:`Hair </physics/particles/hair>` is a subset of the particle system,
+:doc:`Hair </physics/particles/hair/index>` is a subset of the particle system,
 and can be used for strand-like objects, such as hair, fur, grass, quills, etc.
 
 :doc:`Soft Bodies </physics/soft_body/index>` are useful for everything that tends to bend, deform,

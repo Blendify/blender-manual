@@ -13,7 +13,7 @@ Without recalculating the physics the number and visualization of the children c
   (which makes it better suitable for fur and the like).
   However, children from particles follow their parents better, e.g.
   if you have a softbody animation and don't want the hair to penetrate the emitting mesh.
-  But see also our manual page about :doc:`Hair </physics/particles/hair>`.
+  But see also our manual page about :doc:`Hair </physics/particles/hair/index>`.
 - If you turn on children the parents are no longer rendered
   (which makes sense because the shape of the children may be quite different from that of their parents).
   If you want to see the parents additionally turn on the *Parents* button in the *Visualization* panel.
