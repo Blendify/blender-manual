@@ -20,16 +20,16 @@ Workflow
 In general, you follow these steps:
 
 
-- First you want to set the :doc:`simulation domain </physics/fluid/domain>`,
-- Next set the :doc:`fluid source(s) </physics/fluid/fluid_object>`, and specify there physical properties,
-- In some cases you may want to set other objects to :doc:`Control the Volume </physics/fluid/volume>` of the fluid,
+- First you want to set the :doc:`simulation domain </physics/fluid/types/domain>`,
+- Next set the :doc:`fluid source(s) </physics/fluid/types/fluid_object>`, and specify there physical properties,
+- In some cases you may want to set other objects to :doc:`Control the Volume </physics/fluid/types/volume>` of the fluid,
 - You can also depending on your scene add other objects related to the fluid, like:
 
-  - :doc:`Obstacles </physics/fluid/obstacle>`,
-  - :doc:`Particles </physics/fluid/particle>` floating on the fluid,
+  - :doc:`Obstacles </physics/fluid/types/obstacle>`,
+  - :doc:`Particles </physics/fluid/types/particle>` floating on the fluid,
 
 - Eventually, you can :doc:`Animate </physics/fluid/animation>` the fluid properties,
-- And lastly you must :doc:`Bake the Simulation </physics/fluid/domain>`.
+- And lastly you must :doc:`Bake the Simulation </physics/fluid/types/domain>`.
 
 
 .. tip:: Baking is done on the Domain object!
