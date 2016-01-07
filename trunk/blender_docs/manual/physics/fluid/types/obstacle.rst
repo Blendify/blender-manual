@@ -13,18 +13,8 @@ make sure that the normals of the obstacle are calculated correctly, and radiati
 particularly when using a spinned container. Applying the Modifier *SubSurf* before
 baking the simulation could also be a good idea if the mesh is not animated.
 
-Volume initialization type
-
-    Volume
-       The inside of the object is initialized as fluid all . This works only if the closed mesh .
-    Shell
-       It is initialized as a thin fluid layer of the surface of the mesh . This can also be used in the mesh open.
-    Both
-       It is a state , such as the sum of the Volume and Shell. This also must be a closed mesh.
-
-.. figure:: /images/physics_fluid_initialization.jpg
-
-   Example of different types of initiation of volume
+Volume Initialization Type
+   See :ref:`Volume Initialization Type <fluid-initialization>`
 
 Boundary type
    Determines the stickiness of the obstacle surface, called "Surface Adhesion".

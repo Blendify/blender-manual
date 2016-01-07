@@ -14,18 +14,8 @@ Inflow
 
    Fluid Inflow Settings
 
-Volume initialization type
-
-    Volume
-       The inside of the object is initialized as fluid all . This works only if the closed mesh .
-    Shell
-       It is initialized as a thin fluid layer of the surface of the mesh . This can also be used in the mesh open.
-    Both
-       It is a state , such as the sum of the Volume and Shell. This also must be a closed mesh.
-
-.. figure:: /images/physics_fluid_initialization.jpg
-
-   Example of different types of initiation of volume
+Volume Initialization Type
+   See :ref:`Volume Initialization Type <fluid-initialization>`
 
 This object will put fluid into the simulation, like a water tap.
 
@@ -57,4 +47,5 @@ This can be useful in combination with an inflow to prevent the whole domain fro
 When enabled, this is like a tornado (waterspout) or "wet vac" vacuum cleaner,
 and the part where the fluid disappears will follow the object as it moves around.
 
-The Volume initializations are the same for *Outflow* as there are for *Inflow*.
+Volume Initialization Type
+   See :ref:`Volume Initialization Type <fluid-initialization>`

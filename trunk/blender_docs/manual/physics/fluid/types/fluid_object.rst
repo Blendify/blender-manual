@@ -14,18 +14,8 @@ fluid in the simulation. If you place more than one fluid object inside the doma
 they should currently not intersect. Also make sure the surface normals are pointing outwards.
 In contrast to domain objects, the actual mesh geometry is used for fluid objects.
 
-Volume initialization type
-
-    Volume
-       The inside of the object is initialized as fluid all . This works only if the closed mesh .
-    Shell
-       It is initialized as a thin fluid layer of the surface of the mesh . This can also be used in the mesh open.
-    Both
-       It is a state , such as the sum of the Volume and Shell. This also must be a closed mesh.
-
-.. figure:: /images/physics_fluid_initialization.jpg
-
-   Example of different types of initiation of volume
+Volume Initialization Type
+   See :ref:`Volume Initialization Type <fluid-initialization>`
 
 Animated Mesh/Export
    Click this button if the network is animated (eg . Deformed by an armature ,
