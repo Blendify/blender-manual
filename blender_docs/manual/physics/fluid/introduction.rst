@@ -28,9 +28,7 @@ In general, you follow these steps:
   - :doc:`Obstacles </physics/fluid/types/obstacle>`,
   - :doc:`Particles </physics/fluid/types/particle>` floating on the fluid,
 
-- Eventually, you can :doc:`Animate </physics/fluid/animation>` the fluid properties,
 - And lastly you must :doc:`Bake the Simulation </physics/fluid/types/domain>`.
-
 
 .. tip:: Baking is done on the Domain object!
 
