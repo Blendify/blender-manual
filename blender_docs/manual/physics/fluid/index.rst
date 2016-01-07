@@ -16,5 +16,4 @@
    particle.rst
    control.rst
    animation.rst
-   hints.rst
    appendix.rst
