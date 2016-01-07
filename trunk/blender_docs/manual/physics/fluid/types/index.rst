@@ -12,6 +12,6 @@
    domain.rst
    fluid_object.rst
    obstacle.rst
-   volume.rst
+   flow.rst
    particle.rst
    control.rst
