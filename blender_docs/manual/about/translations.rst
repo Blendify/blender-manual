@@ -121,10 +121,13 @@ The updated templates can then be committed to svn.
    adds any new files and prints the final command to commit the changes.
 
 
+Maintenance
+===========
+
 .. _translations-fuzzy-strings:
 
 Keeping track of fuzzy strings
-==============================
+------------------------------
 
 When the manual is updated, those translations which are outdated will be marked as fuzzy.
 To keep track with that, you can use a tool we created for that task.
