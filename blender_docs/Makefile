@@ -89,17 +89,21 @@ check_structure: FORCE
 #	- gvim --nofork -c "cfile rst_check_structure.log" -c "cope" -c "clast"
 #	- rm rst_check_structure.log
 
+clean: FORCE
+	rm -rf "$(BUILDDIR)/html" "$(BUILDDIR)/singlehtml" "$(BUILDDIR)/latex" "$(BUILDDIR)/locale"
+
 update_po: FORCE
 	- ./tools/maintenance/update_po.sh
+
+report_po_progress: FORCE
+	- python3 tools/report_translation_progress.py --quiet \
+	          `find locale/ -maxdepth 1 -mindepth 1 -type d -not -iwholename '*.svn*' -printf 'locale/%f\n' | sort`
 
 gettext: FORCE
 	$(SPHINXBUILD) -b gettext $(I18NSPHINXOPTS) $(BUILDDIR)/locale
 	@echo
 	@echo "Build finished. The message catalogs are in $(BUILDDIR)/locale."
 
-
-clean: FORCE
-	rm -rf "$(BUILDDIR)/html" "$(BUILDDIR)/singlehtml" "$(BUILDDIR)/latex" "$(BUILDDIR)/locale"
 
 
 # -----------------------------------------------------------------------------
@@ -134,5 +138,6 @@ help:
 	@echo "Maintenance"
 	@echo "==========="
 	@echo ""
-	@echo "- update_po          Update the PO translations files from the RST source."
+	@echo "- update_po              Update the PO translations files from the RST source."
+	@echo "- report_po_progress     Report progress on each languages translations."
 FORCE:
