@@ -9,7 +9,7 @@ They may react to many different influences and forces, and have the notion of a
 Dynamic particles can represent fire, smoke, mist,
 and other things such as dust or magic spells.
 
-:doc:`Hair </physics/particles/hair>` type particles are a subset of regular particles.
+:doc:`Hair </physics/particles/hair/index>` type particles are a subset of regular particles.
 Hair systems form strands that can represent hair, fur, grass and bristles.
 
 You see particles as a *Particle* modifier,
@@ -41,7 +41,7 @@ Particles may be rendered as:
 - Meshes which in turn may be animated (e.g. fish, bees, ...).
   In these cases, each particle "carries" another object.
 - :doc:`Strands </render/blender_render/materials/properties/strands>` (for :doc:`Hair, Fur,
-  Grass </physics/particles/hair>`); the complete way of a particle will be shown as a strand.
+  Grass </physics/particles/hair/hair>`); the complete way of a particle will be shown as a strand.
   These strands can be manipulated in the 3D window (combing, adding, cutting, moving, etc).
 
 Every object may carry many particle systems. Each particle system may contain up to 100.
@@ -62,7 +62,7 @@ The process for working with standard particles is:
 - Tailor each Particle System's settings to achieve the desired effect.
 - Animate the base mesh and other particle meshes involved in the scene.
 - Define and shape the path and flow of the particles.
-- For :doc:`Hair </physics/particles/hair>` particle systems: Sculpt the emitter's flow
+- For :doc:`Hair </physics/particles/hair/index>` particle systems: Sculpt the emitter's flow
   (cut the hair to length and comb it for example).
 - Make final render and do physics simulation(s), and tweak as needed.
 
@@ -104,7 +104,7 @@ Emitter
    In such a system, particles are emitted from the selected object
    from the *Start* frame to the *End* frame and have a certain lifespan.
 
-:doc:`Hair </physics/particles/hair>`
+:doc:`Hair </physics/particles/hair/index>`
    This system type is rendered as strands and has some very special properties:
    it may be edited in the 3D window in realtime and you can also animate
    the strands with :doc:`Cloth Simulation </physics/cloth/index>`.

@@ -142,7 +142,7 @@ Path
    The Visualization panel for Path visualization.
 
 
-The *Path* visualization needs a :doc:`Hair </physics/particles/hair>` particle system or
+The *Path* visualization needs a :doc:`Hair </physics/particles/hair/index>` particle system or
 :doc:`Keyed </physics/particles/physics/keyed>` particles.
 
 Strand render

@@ -12,8 +12,7 @@
    physics/index.rst
    visualization.rst
    cache_and_bake.rst
-   hair.rst
-   hair_dynamics.rst
+   hair/index.rst
    children.rst
    vertexgroups.rst
    mode.rst

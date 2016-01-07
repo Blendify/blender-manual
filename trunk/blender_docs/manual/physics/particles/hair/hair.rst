@@ -36,7 +36,7 @@ Animating
 =========
 
 Hair can now be made dynamic using the cloth solver. This is covered in the
-:doc:`Hair Dynamics </physics/particles/hair_dynamics>` page.
+:doc:`Hair Dynamics </physics/particles/hair/hair_dynamics>` page.
 
 
 Rendering
@@ -80,7 +80,7 @@ Amount
 Hair Dynamics
 -------------
 
-Settings for adding movement to hair see :doc:`Hair Dynamics </physics/particles/hair_dynamics>`.
+Settings for adding movement to hair see :doc:`Hair Dynamics </physics/particles/hair/hair_dynamics>`.
 
 
 Display
