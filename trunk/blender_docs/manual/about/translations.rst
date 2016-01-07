@@ -108,6 +108,18 @@ The updated templates can then be committed to svn.
 
 *TODO: document how to handle files being added/removed/moved.*
 
+.. note::
+
+   To streamline updating files,
+   we have a convenience Makefile target.
+
+   .. code-block:: sh
+
+      make update_po
+
+   This runs the update,
+   adds any new files and prints the final command to commit the changes.
+
 
 .. _translations-fuzzy-strings:
 
