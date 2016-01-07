@@ -3,10 +3,24 @@
 Introduction
 ************
 
+
+Common Options
+==============
+
+.. _fluid-animated-mesh:
+
+Animated Mesh/Export
+--------------------
+  
+Click this button if the network is animated (eg . Deformed by an armature ,
+shape keys (shape keys) or lattice).
+It can become very slow and is not necessary if the network is animated IPO position and rotation
+(ie only object transformations).
+
 .. _fluid-initialization:
 
 Volume Initialization Type
-==========================
+--------------------------
 
 A common option amoung the different fluid types is *Volume Initialization*.
 

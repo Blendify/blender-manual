@@ -18,10 +18,7 @@ Volume Initialization Type
    See :ref:`Volume Initialization Type <fluid-initialization>`
 
 Animated Mesh/Export
-   Click this button if the network is animated (eg . Deformed by an armature ,
-   shape keys (shape keys) or lattice).
-   It can become very slow and is not necessary if the network is animated IPO position and rotation
-   (ie only object transformations).
+   See :ref:`Animated Mesh/Export <fluid-animated-mesh>`
 
 Initial velocity
    Speed of the fluid at the beginning of the simulation, in meters per second.

@@ -38,10 +38,7 @@ Boundary type
    From left to right: no-slip, part-slip 0.3, part-slip 0.7 and free-slip.
 
 Animated Mesh/Export
-   Click this button if the network is animated (eg . Deformed by an armature ,
-   shape keys (shape keys) or lattice).
-   It can become very slow and is not necessary if the network is animated IPO position and rotation
-   (ie only object transformations).
+   See :ref:`Animated Mesh/Export <fluid-animated-mesh>`
 
 PartSlip Amount
    Amount of mixing between no- and free-slip, described above.
