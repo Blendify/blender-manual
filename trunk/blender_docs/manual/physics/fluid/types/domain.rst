@@ -27,7 +27,7 @@ This object will be *replaced* by the fluid during the simulation.
    When you calculate the fluid simulation, **you bake the simulation on the domain object**.
    For this reason all the baking options are visible only when selecting the Domain Object.
 
-   For baking options, see: `Baking`_.
+   For baking options, see :doc:`Baking </physics/fluid/baking>`.
 
 
 Options
@@ -39,7 +39,7 @@ Options
 
 
 Bake button
-   For baking options, see: `Baking`_.
+   For baking options, see :doc:`Baking </physics/fluid/baking>`.
 
 Resolution
 
@@ -133,7 +133,7 @@ Generate Speed Vector
 Reverse fluid frames
    The simulation is calculated backward
 *Bake* directory
-   For baking options see: `Baking`_.
+   For baking options see :doc:`Baking </physics/fluid/baking>`.
 
 
 Domain World
