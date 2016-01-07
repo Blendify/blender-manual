@@ -22,7 +22,7 @@ In general, you follow these steps:
 
 - First you want to set the :doc:`simulation domain </physics/fluid/types/domain>`,
 - Next set the :doc:`fluid source(s) </physics/fluid/types/fluid_object>`, and specify there physical properties,
-- In some cases you may want to set other objects to :doc:`Control the Volume </physics/fluid/types/volume>` of the fluid,
+- In some cases you may want to set other objects to :doc:`Control the Flow </physics/fluid/types/flow>` of the fluid,
 - You can also depending on your scene add other objects related to the fluid, like:
 
   - :doc:`Obstacles </physics/fluid/types/obstacle>`,
