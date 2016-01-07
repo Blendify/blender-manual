@@ -9,11 +9,6 @@
    :maxdepth: 2
 
    introduction.rst
-   domain.rst
-   fluid_object.rst
-   obstacle.rst
-   volume.rst
-   particle.rst
-   control.rst
+   types/index.rst
    animation.rst
    appendix.rst
