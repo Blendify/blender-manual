@@ -35,10 +35,6 @@ Some useful hints about fluid simulation in Blender:
   if the chosen resolution is too coarse to resolve them (increasing it might solve this problem).
 
 
-- Note that fluid simulation parameters,
-  such as inflow velocity or the active flag can be animated with *Fluidsim* Ipos (see above).
-
-
 - Don't try to do a complicated scene all at once.
   Blender has a powerful compositor that you can use to combine multiple animations.
 
@@ -49,12 +45,6 @@ Some useful hints about fluid simulation in Blender:
    A third ``.avi`` is usually the smoke and mist and it is laid on top of everything as well.
    Add a rain sheet on top of the mist and spray and you'll have quite a storm brewing! And then lightning flashes,
    trash blowing around, all as separate animations, compositing the total for a truly spectacular result.
-
-
-- If you're having trouble, or something isn't working as you think it should -
-  let me know: send the .blend file and a problem description to ``nils at thuerey dot de``.
-  Please check these wiki pages and the `blenderartists-forum
-  <http://blenderartists.org/forum/>`__ before sending a mail!
 
 
 Limitations & Workarounds
@@ -81,7 +71,7 @@ Limitations & Workarounds
   this can happen if the resolution is really high and more than 2GB are allocated, causing Blender to crash.
   Reduce the resolution.
   Many operating systems limit the total amount of memory that can be allocated by a *process*,
-  such as Blender, even if the *machine* has more memory installed. Sux...
+  such as Blender, even if the *machine* has more memory installed.
 
 
 - The meshes should be closed, so if some parts of e.g.
@@ -92,14 +82,6 @@ Limitations & Workarounds
 
 - If the fluid simulation exits with an error message (stating e.g. that the "init has failed"),
   make sure you have valid settings for the domain object, e.g. by resetting them to the defaults.
-
-
-- To import a single fluid surface mesh you can use this script: `.bobj.-Import-Script
-  <http://www10.informatik.uni-erlangen.de/~sinithue/temp/bobj_import.py>`__.
-
-
-- You may not be able to bake a fluid that takes more than 1GB, not even with the
-  LargeAddressAware build - it might be a limitation of the current fluid engine.
 
 
 - Note that first frame may well take only a few hundred MBs of RAM memory,
