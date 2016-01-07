@@ -17,6 +17,8 @@ Summeary only - for all languages:
 
 import os
 
+from file_translation_progress import parse_file
+
 def po_files(path):
     for dirpath, dirnames, filenames in os.walk(path):
         if dirpath.startswith("."):
@@ -26,38 +28,6 @@ def po_files(path):
             ext = os.path.splitext(filename)[1]
             if ext.lower() == ".po":
                 yield os.path.join(dirpath, filename)
-
-def parse_file(po_filepath):
-    msgstrs_complete = -1  # First lines contain a "fake" msgstr
-    msgstrs_empty = 0
-    msgstrs_fuzzy = 0
-    for line in open(po_filepath, encoding='utf8'):
-        result = parse_line(line)
-        if result == 'COMPLETE' or result == 'EMPTY':
-            msgstrs_complete += 1
-            if result == 'EMPTY':
-                msgstrs_empty += 1
-                last_line_was_empty_msg_str = True
-        else:
-            if result == 'CONTINUATION':
-                if last_line_was_empty_msg_str:
-                    msgstrs_empty -= 1
-            else:
-                if result == 'FUZZY':
-                    msgstrs_fuzzy += 1
-            last_line_was_empty_msg_str = False
-    return msgstrs_complete, msgstrs_empty, msgstrs_fuzzy
-
-def parse_line(line):
-    if line.startswith('msgstr'):
-        if line.startswith('msgstr ""'):
-            return 'EMPTY'
-        return 'COMPLETE'
-    if line[0] == '"':
-        return 'CONTINUATION'
-    if 'fuzzy' in line:
-        return 'FUZZY'
-    return 'NONE'
 
 def report_progress(path, report, quiet=False):
 
