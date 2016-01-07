@@ -139,8 +139,8 @@ Download the tools/ folder:
 You should have a directory layout like this:
 
 .. code-block:: sh
-   
-   translations/
+
+   locale/
    |- fr/
    |  |- LC_MESSAGES/
    |- tools/
@@ -149,7 +149,7 @@ Now execute:
 
 .. code-block:: sh
 
-   python3 tools/report_translation_progress.py fr/LC_MESSAGES/
+   python3 tools/report_translation_progress.py locale/fr/LC_MESSAGES/
 
 You should get a list of all the files with informations about the number of empty and fuzzy strings.
 If you want only a summary, append ``-q`` to the command above. For more options see:
