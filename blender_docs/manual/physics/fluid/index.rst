@@ -10,5 +10,6 @@
 
    introduction.rst
    types/index.rst
+   baking.rst
    animation.rst
    appendix.rst
