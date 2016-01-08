@@ -76,7 +76,5 @@ Other
 .. toctree::
    :maxdepth: 1
 
-   file_browser.rst
-
+   file_browser/introduction.rst
    python_console.rst
-
