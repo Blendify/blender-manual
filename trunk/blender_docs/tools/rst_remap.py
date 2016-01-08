@@ -67,6 +67,7 @@ def fatal(msg):
 SUBDIR = ""
 CURRENT_DIR = os.path.abspath(os.path.dirname(__file__))
 RST_DIR = os.path.normpath(os.path.join(CURRENT_DIR, "..", "manual", SUBDIR))
+LOCALE_DIR = os.path.join(RST_DIR, "..", "locale")
 
 # name for temp file
 RST_MAP_ID = "rst_map.data"
@@ -112,6 +113,7 @@ def remap_start(base_path):
     with open(filepath_remap, 'wb') as fh:
         import pickle
         pickle.dump(remap_data_src, fh, pickle.HIGHEST_PROTOCOL)
+    print("Remap started, tracking (%d) files." % len(remap_data_src))
 
 
 def remap_finish(base_path):
@@ -126,6 +128,9 @@ def remap_finish(base_path):
 
     remap_data_dst = remap_data_create(base_path)
 
+    # Store: {source: dest}, without path prefix or extension, eg:
+    # /path/to/docs/manual/interface/introduction.rst, becomes...
+    #                     /interface/introduction
     src_dst_map = {}
 
     for file_hash, file_rstpath_src in remap_data_src.items():
@@ -157,6 +162,36 @@ def remap_finish(base_path):
                 d[-2] = file_rstpath_dst
             else:
                 print("warning: unknown path %r" % file_rstpath_src)
+
+    # now move PO files
+    if os.path.exists(LOCALE_DIR):
+        import subprocess
+
+        translation_paths = [
+                os.path.join(LOCALE_DIR, d, "LC_MESSAGES") for d in os.listdir(LOCALE_DIR)
+                if not d.startswith(".")]
+
+        for file_path_src, file_path_dst in src_dst_map.items():
+            if file_path_src != file_path_dst:
+                file_path_src = file_path_src.lstrip("\\/")
+                file_path_dst = file_path_dst.lstrip("\\/")
+                for locale_dir in translation_paths:
+                    file_path_src_po = os.path.join(locale_dir, file_path_src) + ".po"
+                    if not os.path.exists(file_path_src_po):
+                        print("warning: PO file not found %r" % file_path_src_po)
+                    else:
+                        file_path_dst_po = os.path.join(locale_dir, file_path_dst) + ".po"
+                        if os.path.exists(file_path_dst_po):
+                            print("warning: PO file already exists %r" % file_path_dst_po)
+                        else:
+                            dir_path_dst_po = os.path.dirname(file_path_dst_po)
+                            # ensure the new directory exist
+                            os.makedirs(dir_path_dst_po, exist_ok=True)
+                            try:
+                                subprocess.check_call(["svn", "info", dir_path_dst_po], cwd=locale_dir)
+                            except subprocess.CalledProcessError:
+                                subprocess.check_call(["svn", "add", dir_path_dst_po], cwd=locale_dir)
+                            subprocess.check_call(["svn", "mv", file_path_src_po, file_path_dst_p], cwd=locale_dir)
 
     os.remove(filepath_remap)
 
