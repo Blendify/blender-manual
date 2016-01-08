@@ -142,14 +142,3 @@ but options within those sets vary based on the system employed. These sets of c
    Makes particles force fields.
 :doc:`Vertex Groups </physics/particles/vertexgroups>`
    Influencing various settings with vertex groups.
-
-
-Links
-=====
-
-- `Tutorials <http://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Particle_Systems>`__
-- `Physics Caching and Baking
-  <http://www.blender.org/development/release-logs/blender-246/physics-caching-and-baking/>`__
-- `Particle Rewrite Documentation <http://wiki.blender.org/index.php/BlenderDev/Particles_Rewrite_Doc>`__
-- `Thoughts about the particle rewrite code <http://wiki.blender.org/index.php/BlenderDev/Particles_Rewrite>`__
-- `Static Particle Fur Library <http://cs.unm.edu/~sketch/gallery/resource/furlib.html>`__
