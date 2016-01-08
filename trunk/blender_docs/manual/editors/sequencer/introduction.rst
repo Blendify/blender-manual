@@ -13,11 +13,9 @@ video channels and add effects to them. You can use these effects to create powe
 (especially when you combine it with the animation power of Blender!) Furthermore,
 it is extensible via a plugin system to perform an unlimited number of image manipulations.
 
-Using the VSE, you load multiple video clips and lay them end-to-end (or in some cases,
-overlay them),
+Using the VSE, you load multiple video clips and lay them end-to-end (or in some cases, overlay them),
 inserting fades and transitions to link the end of one clip to the beginning of another.
-Finally,
-add an audio track so you can synchronize the timing of the video sequence to match it.
+Finally, add an audio track so you can synchronize the timing of the video sequence to match it.
 The result of using the VSE is your finished movie.
 
 .. figure:: /images/sequencer_modes_screen_layout.jpg
@@ -29,13 +27,18 @@ and works in one of several view modes. The Marker menu allows you to add marker
 Markers are shared across animation editors. See :doc:`Markers </animation/markers>`
 
 The sequencer workspace is horizontally striped into channels and each video strip will go in
-a horizontal channel. Each channel is numbered on the left-hand side, starting from 0
-(you can't put anything thing in this special one!) and going up.
+a horizontal channel. Each channel is numbered on the left-hand side, starting from 0 and going up.
+
+.. note::
+
+   The first channel `0` is unusible as a place to put strips.
+   This is because it is used by the :doc:`Sequencer Display </editors/sequencer/display_modes>`
+   to show a composite of all strips above channel `0`.
+
 Stripes toward the bottom are more dominant, which we'll get to in a minute.
 In the x direction, seconds of animation or frames of animation
-(:kbd:`Ctrl-T` to choose) are used as the measure of time
-(seconds 1 through 7 are shown). You can scale the time using the zoom keys or mouse actions
-(see the Reference for more info).
+(:kbd:`Ctrl-T` to choose) are used as the measure of time (seconds 1 through 7 are shown).
+You can scale the time using the zoom keys or mouse actions (see the Reference for more info).
 
 .. figure:: /images/vse-header.jpg
 
@@ -44,4 +47,4 @@ In the x direction, seconds of animation or frames of animation
 .. note::
 
    By default the Sequencer is enablied however it can be disabled
-   in the :doc:`Post Processing Panel </render/post_process/panel>`
+   in the :doc:`Post Processing Panel </render/post_process/panel>`.
