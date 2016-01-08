@@ -1,8 +1,8 @@
 ..    TODO/Review: {{review}} .
 
-********
-Particle
-********
+**************
+Fluid Particle
+**************
 
 .. figure:: /images/fluids_particle.jpg
    :width: 300px
