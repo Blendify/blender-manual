@@ -191,7 +191,7 @@ def remap_finish(base_path):
                                 subprocess.check_call(["svn", "info", dir_path_dst_po], cwd=locale_dir)
                             except subprocess.CalledProcessError:
                                 subprocess.check_call(["svn", "add", dir_path_dst_po], cwd=locale_dir)
-                            subprocess.check_call(["svn", "mv", file_path_src_po, file_path_dst_p], cwd=locale_dir)
+                            subprocess.check_call(["svn", "mv", file_path_src_po, file_path_dst_po], cwd=locale_dir)
 
     os.remove(filepath_remap)
 
