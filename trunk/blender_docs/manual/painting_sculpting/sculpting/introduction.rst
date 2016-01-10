@@ -19,12 +19,17 @@ Sculpt Mode
 ===========
 
 Sculpt mode is selected from the mode menu of the *3D View* header.
-
+ 
 Once sculpt mode is activated the *Toolbar* of the *3D View* will change
 to sculpt mode specific panels. The panels in the toolbar will be *Brush*,
 *Texture*, *Tool*, *Symmetry*, *Stroke*,
 *Curve*, *Appearance*, and *Options*.
 Also a red circle will appear that follows the location of the cursor in the 3d view.
+
+.. note::
+
+   To have a predictable brush behavior, apply the scale of your mesh.
+
 
 
 .. figure:: /images/sculpt_mode_drop_down.jpg
@@ -48,9 +53,9 @@ Many can be toggled to have an additive or subtractive effect.
 They can be selected in the *Tool* menu.
 
 
-.. figure:: /images/Sculpt_draw_various_size_and_strength.jpg
+.. figure:: /images/sculpt_brushes.png
 
-   Drawing in various sizes and strengths.
+   Sculpt brushes
 
 
 Blob
@@ -106,13 +111,6 @@ Snake Hook (:kbd:`K`)
 Thumb
    Similar to the *Nudge* brush, this one flattens the mesh in the brush area,
    while moving it in the direction of the brush stroke.
-
-
-Sculpting with the Multires Modifier
-====================================
-
-...
-
 
 Sculpt Properties Panel
 =======================
@@ -253,52 +251,6 @@ Size
 Sample Bias
    Value added to texture samples.
 
-Dyntopo Menu
-------------
-
-Detail Type
-   Dynotopo uses three different detail methods to create dynamic detail to an object. The
-   methods avaiable are Relative Detail (Default), Constant Detail, and Brush Detail.
-
-   Relative Detail
-       This method is uses a detail size based on the number of pixels, and in turn
-       will create topology in that size.
-
-   Constant Detail
-       To keep detail uniform across the entire object, Constant Detail can be used.
-       The Detail is based on the percentage of a single BU (Blender Unit).
-
-   Brush Detail
-       Giving more control over the topology, with this method you can create topology
-       based on the brush size. You can increase and lower topology by simply resizing
-       the brush itself. The detail size is based the size of the brush itself, where
-       100% will create topology the size of the brush ring itself.
-
-Detail Size
-    Each Deatil Type's detail is set here. Depending on the Detail Type being used
-    this property will rather show as a pixel count (px), or percentage.
-
-Detail Refine Method
-    When using Dynamic Topology, a certain method will be used to tell how topology
-    is handled. Setting the option will determine which of the methods will be used when
-    altering the topology.
-
-    Subdivide
-        Just like the subdivide command, this method will only subdivide topology
-        to match the detail given.
-
-    Collapse
-        When topology is too dense, and is smaller than the detail given, edges will
-        be collapse to fit the detail size appropriately.
-
-    Subdivde Collapse
-        This method combines the two methods, subdividing edges smaller than the
-        detail size, and collapsing topology.
-
-    Detail Flood Fill
-        When using Constant Detail mode, this option is made available, allowing
-        you to fill the entire object with a uniform detail, based on the detail size.
-
 Symmetry Menu
 -------------
 
@@ -321,7 +273,7 @@ Tile Offset
    The default tile size is set to one BU (Blender Unit). The offset allows the
    option to alter the tile size along all three axes.
 
-Overlay Menu
+Options Tab
 ------------
 
 Overlay
@@ -387,20 +339,21 @@ You can also set Blender to use the current brush for *Vertex Paint* mode,
 *Weight Paint* mode, and *Texture Paint* mode using the toggle buttons.
 
 
-Hiding and Revealing Mesh
-=========================
+Hiding and Masking Mesh
+=======================
 
 It is sometimes useful to isolate parts of a mesh to sculpt on. To hide a part of a mesh,
 press :kbd:`H` then click & drag around the part you want to hide.
 To reveal a hidden part of a mesh,
 press :kbd:`Shift-H` then click & drag around the part you want to reveal.
 To reveal all hidden parts, just press :kbd:`Alt-H`.
+With the mask brush we can paint a part of the mesh and hide it.
 
 
-.. figure:: /images/Hide_before_and_after.jpg
+.. figure:: /images/sculpt_hide_mask.png
    :width: 610px
 
-   Before and after Hiding.
+   Black part is masked, down in the picture mask/hide menu
 
 
 Keyboard Shortcuts
