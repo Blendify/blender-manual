@@ -19,11 +19,9 @@ Sculpt Mode
 ===========
 
 Sculpt mode is selected from the mode menu of the *3D View* header.
- 
 Once sculpt mode is activated the *Toolbar* of the *3D View* will change
 to sculpt mode specific panels. The panels in the toolbar will be *Brush*,
-*Texture*, *Tool*, *Symmetry*, *Stroke*,
-*Curve*, *Appearance*, and *Options*.
+*Texture*, *Tool*, *Symmetry*, *Stroke*, *Curve*, *Appearance*, and *Options*.
 Also a red circle will appear that follows the location of the cursor in the 3d view.
 
 .. note::
@@ -137,9 +135,9 @@ Strength
 If the range of strengths doesn't seem to fit the model (for example,
 if even the lowest strength setting still makes too large of a change on the model)
 then you can scale the model (in *Edit* Mode, not *Object* Mode).
-Larger sizes will make the brush's effect smaller, and vice versa. You can change the brush
-strength interactively by pressing :kbd:`Shift-F` in the 3D view and then moving the
-brush and then left clicking.
+Larger sizes will make the brush's effect smaller, and vice versa.
+You can change the brush strength interactively by pressing :kbd:`Shift-F`
+in the 3D view and then moving the brush and then left clicking.
 You can enter the size numerically also while in :kbd:`Shift-F` sizing.
 Brush strength can be affected by enabling the pressure sensitivity icon,
 if a supported tablet is being used.
@@ -274,7 +272,7 @@ Tile Offset
    option to alter the tile size along all three axes.
 
 Options Tab
-------------
+-----------
 
 Overlay
    When enabled, the brush texture is shown in the viewport
