@@ -7,8 +7,7 @@ Adjusting the View
 ==================
 
 Use these shortcuts to adjust the sequence area of the VSE:
-Pan :kbd:`MMB`
-Zoom :kbd:`Wheel`
+Pan :kbd:`MMB` Zoom :kbd:`Wheel`
 Vertical Scroll use :kbd:`Shift-Wheel`, or drag on the left scroll bar.
 Horizontal Scroll use :kbd:`Ctrl-Wheel`, or drag on the lower scroll ;bar.
 Scale View Vertically, drag on the circles on the vertical scroll bar.
@@ -34,7 +33,7 @@ Use this when working arranging a lot of strips and you want to use all of your 
 
    | Mode:     Sequence
    | Menu:     View --> Show Frames, View --> Show Seconds
-   | Hotkey:   :kbd:`T`
+   | Hotkey:   :kbd:`Ctrl-T`
 
 
 Draw Frames
