@@ -16,10 +16,10 @@ Range
    Navigate into the directory and right-click and drag over a range of names to highlight multiple files.
    You can page down and continue right-click-dragging to add more to the selection
 Batch
-   Shift-right-click selected non-related stills for batch processing; each image will be one frame, in sort order,
-   and can be a mix of file types (jpg, png, exr, etc.)
+   Shift-right-click selected non-related stills for batch processing; each image will be one frame,
+   in sort order, and can be a mix of file types (jpg, png, exr, etc.)
 All
-   Press *A* to select/deselect All files in the directory.
+   Press :kbd:`A` to select/deselect All files in the directory.
 
 When you click the *Select <whatever>* button,
 the window pane will switch back to VSE, and the strip will be rubber-banded to your mouse.
@@ -27,10 +27,8 @@ You cannot load multiple movies at the same time by right-clicking them;
 no movies load if you right click them. Right-clicking only works for images.
 
 In order to add items to the VSE, left-click for movies, left-click for single images,
-or right-click and drag for image sequences.
-Move your mouse to the frame/time and stripe you want,
-and click to break the rubberband and drop the strip in place
-(in a channel and starting at a frame).
+or right-click and drag for image sequences. Move your mouse to the frame/time and stripe you want,
+and click to break the rubberband and drop the strip in place (in a channel and starting at a frame).
 
 When you add an image, Blender makes it into a 50-frame strip,
 which means that image will be in your video for two seconds (at 25 fps - PAL).
