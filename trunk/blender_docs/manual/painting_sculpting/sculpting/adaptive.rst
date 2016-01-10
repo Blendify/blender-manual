@@ -7,8 +7,8 @@ Dynamic Topology
 ================
 
 Dynamic topology (AKA dyntopo) is a dynamic tessellation sculpting method, adds and 
-removes details on the fly. Dyntopo is quick, just get a brush and start to sculpt. Dyntopo
-will add details base upon your brush size, detail type and strength.
+removes details on the fly. Dyntopo is quick, just get a brush and start to sculpt.
+Dyntopo will add details base upon your brush size, detail type and strength.
 
 Detail Type
    Dyntopo uses three different detail methods to create dynamic detail to an object. The
@@ -57,4 +57,24 @@ Direction
      Determines which direction the model will be symmetrized.
 		
 Dyntopo Symmetrize
-         Uses direction orientation to symmetrize. Since Dyntopo adds details dynamical may happen that the model goes asymmetric, so this a good 
+         Uses direction orientation to symmetrize. Since Dyntopo adds details dynamical
+         may happen that the model goes asymmetric, so this a good tool for that. 
+
+
+Multi-Resolution Modifier
+=========================
+
+The multires modifier is needed to sculpt. The modifier will subdivide the mesh. 
+The more subdivision the more computing will be needed. With the Blender stack 
+no-destructive data, multires sculpting will help when you have a clean topology base mesh.
+
+When sculpting with multires we have the ability sculpt in different level of subdivision, 
+this mean we can sculpt some details in subdivision level 1 and add more details in 
+subdivision 2 and go back to subdivision 1 correct some mistakes. While this workflow is
+often used, multires modifier has some limitations. You may end up with some mesh distortions.
+As an advice, add as more details as possible before adding more subdivisions. 
+Clay brush, SculptDraw work better with multires sculpting to sculpt secondary forms.
+
+.. seealso::
+
+   Read more about the :doc:`Multi Resolution Modifier </modeling/modifiers/generate/multiresolution>`.
