@@ -6,7 +6,7 @@ Introduction
 Constraints control the behavior of one object with data from another.
 Constraints can make the eyes of a tennis player track a tennis ball bouncing across the court.
 Constraints allow the wheels on a bus to all rotate together.
-Constraints help a dinosaur's legs bend at the knee automatically as it walks.
+Constraints help a dinosaur's legs bend at the knee automatically.
 Constraints make it easy for a hand to grip the hilt of a sword and the sword to swing with the hand.
 
 Constraints, in Blender, work with :term:`Objects <Object>` and :term:`Bones <Bone>`.
