@@ -279,5 +279,3 @@ is preventing the motion of the motor).
          Target linear or angular motor velocity respectively.
       *Max Impulse*
          Maximum linear or angular motor impulse respectively.
-
-

@@ -67,5 +67,3 @@ problems.
 
 If dynamic scaling is not needed, rigid body objects should have the scale applied by using the *Apply Scale* command
 (:kbd:`Ctrl-A`).
-
-
