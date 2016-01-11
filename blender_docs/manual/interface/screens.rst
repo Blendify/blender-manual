@@ -6,7 +6,7 @@ Screens
 .. figure:: /images/Scene-SR_Layout_Dropdown25.jpg
    :align: right
 
-   Layout dropdown
+   Layout Dropdown
 
 
 Blender's flexibility with windows lets you create customized working environments for
@@ -103,35 +103,23 @@ Additional Layouts
 As you become more experienced with Blender, consider adding some other screen layouts to suit
 your workflow as this will help increase your productivity. Some examples could include:
 
-   1-Model
-      Four 3D windows (top, front, side and perspective), Properties window for Editing
-   2-Lighting
-      3D windows for moving lights, UV/Image Window for displaying Render Result,
-      Properties window for rendering and lamp properties and controls
-   3-Material
-      Properties window for Material settings, 3D window for selecting objects, Outliner,
-      Library script (if used), Node Editor
-      (if using :doc:`Node based materials </render/blender_render/materials/nodes/index>`)
-   4-UV Layout
-      UV/Image Editor Window, 3D Window for seaming and unwrapping mesh
-   5-Painting
-      UV/Image Editor for texture painting image,
-      3D window for painting directly on object in UV Face Select mode,
-      three mini-3D windows down the side that have background
-      reference pictures set to full strength, Properties window
-   6-Animation
-      Graph Editor, 3D Window for posing armature, NLA Window
-   7-Node
-      Big Node Editor window for noodles, UV/Image window linked to Render Result
-   8-Sequence
-      Graph Editor, video sequence editor in Image Preview mode,
-      video sequence editor in timeline mode, a Timeline window, and the good old Properties window.
-   9-Notes/Scripting
-      Outliner, Text Editor (Scripts) window
+Modeling
+   Four 3D windows (top, front, side and perspective), Properties window for Editing
+Lighting
+   3D windows for moving lights, UV/Image Window for displaying Render Result,
+   Properties window for rendering and lamp properties and controls
+Materials
+   Properties window for Material settings, 3D window for selecting objects, Outliner,
+   Library script (if used), Node Editor
+   (if using :doc:`Node based materials </render/blender_render/materials/nodes/index>`)
+Painting
+   UV/Image Editor for texture painting image,
+   3D window for painting directly on object in UV Face Select mode,
+   three mini-3D windows down the side that have background
+   reference pictures set to full strength, Properties window
 
 
 .. hint:: Reuse your Layouts
 
    If you create a new window layout and would like to use it for future ``.blend`` files,
    you can save it for later reuse, see :doc:`/preferences/startup_file`.
-
