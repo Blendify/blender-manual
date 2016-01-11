@@ -20,9 +20,9 @@ Render Options
    Render frame ``<frame>`` and save it.
    ``+<frame>`` start frame relative, ``-<frame>`` end frame relative.
 ``-s``, ``--frame-start`` ``<frame>``
-   Set start to frame ``<frame>`` (use before the -a argument)
+   Set start to frame ``<frame>``, supports +/- for relative frames too.
 ``-e``, ``--frame-end`` ``<frame>``
-   Set end to frame ``<frame>`` (use before the -a argument)
+   Set end to frame ``<frame>``, supports +/- for relative frames too.
 ``-j``, ``--frame-jump`` ``<frames>``
    Set number of frames to step forward after each rendered frame
 ``-o``, ``--render-output`` ``<path>``
@@ -118,6 +118,8 @@ Python Options
    Run the given expression as a Python script
 ``--python-console``
    Run blender with an interactive console
+``--python-exit-code``
+   Set the exit-code in [0..255] to exit if a Python exception is raised (only for scripts executed from the command line), zero disables.
 ``--addons``
    Comma separated list of addons (no spaces)
 
