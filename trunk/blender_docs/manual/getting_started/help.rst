@@ -97,6 +97,8 @@ Scripting Reference
      Info Window - Operator Cheat Sheet
 
 
+.. _help-system_info:
+
 Save System Info
 ----------------
 

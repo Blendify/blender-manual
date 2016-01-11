@@ -103,3 +103,12 @@ In this case rendering works but no anti-aliasing is performed.
 Enabling *Full Sample*, can be used to workaround this limit,
 because it doesn't rely on hardware multi-sample support.
 
+.. hint::
+
+   Exact extensions needed, as listed in output from :ref:`help-system_info` (OpenGL section).
+
+   - ``GL_ARB_texture_multisample``
+   - ``GL_EXT_framebuffer_blit``
+   - ``GL_EXT_framebuffer_multisample_blit_scaled``
+   - ``GL_EXT_framebuffer_multisample``
+
