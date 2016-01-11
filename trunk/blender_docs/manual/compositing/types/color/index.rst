@@ -23,4 +23,4 @@ overlaying another image, etc.
    gamma.rst
    color_correction.rst
    tone_map.rst
-   z-combine.rst
+   z_combine.rst
