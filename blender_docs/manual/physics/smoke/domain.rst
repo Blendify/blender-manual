@@ -1,19 +1,20 @@
+
 ************
 Smoke Domain
 ************
 
-The domain object contains the entire simulation. Smoke and fire cannot leave the domain, it will either collide with
-the edge or disappear, depending on the domain's settings.
+The domain object contains the entire simulation. Smoke and fire cannot leave the domain,
+it will either collide with the edge or disappear, depending on the domain's settings.
 
 Keep in mind that large domains require higher resolutions and longer bake times.
 You'll want to make it just large enough that the simulation will fit inside it,
 but not so large that it takes too long to compute the simulation.
 
 
-To create a domain, add a cube (:kbd:`Shift-A` :menuselection:`Add --> Mesh --> Cube`) and transform it until it
-encloses the area where you want smoke. Translation, rotation, and scaling are all allowed.
-To turn it into a smoke domain, click *Smoke* in :menuselection:`Properties --> Physics`, then select *Domain*
-as the *Smoke Type*.
+To create a domain, add a cube (:kbd:`Shift-A` :menuselection:`Add --> Mesh --> Cube`)
+and transform it until it encloses the area where you want smoke. Translation, rotation,
+and scaling are all allowed. To turn it into a smoke domain, click *Smoke*
+in :menuselection:`Properties --> Physics`, then select *Domain* as the *Smoke Type*.
 
 .. note::
 
@@ -37,16 +38,15 @@ Resolution
    This setting controls the number of subdivisions in the domain.
    Higher numbers of subdivisions are one way of creating higher resolution smoke (See `Smoke High Resolution`_)
 
-   Since the resolution is defined in terms of *subdivisions*, larger domains will need more divisions to
-   get an equivalent resolution to a small domain.
+   Since the resolution is defined in terms of *subdivisions*,
+   larger domains will need more divisions to get an equivalent resolution to a small domain.
 
 
    Also see `Note on Divisions and High Resolution`_.
 
 
 Time Scale
-   Controls the speed of the simulation.
-   Low values result in a "slow motion" simulation,
+   Controls the speed of the simulation. Low values result in a "slow motion" simulation,
    while higher values can be used to advance the simulation faster
    (useful for generating smoke for use in still renders).
 
@@ -85,18 +85,18 @@ Temp. Diff.
      smoke emitted from flow objects with a positive *Temp. Diff.* will sink,
      and smoke from flow objects with a negative *Temp. Diff.* will rise.
 
-   Note that smoke from multiple flow objects with different temperatures will mix and warm up/cool down until an
-   equilibrium is reached.
+   Note that smoke from multiple flow objects with different temperatures
+   will mix and warm up/cool down until an equilibrium is reached.
 
 
 Vorticity
-   Controls the amount of turbulence in the smoke. Higher values will make lots of small swirls, while lower values
-   make smoother shapes.
+   Controls the amount of turbulence in the smoke. Higher values will make lots of small swirls,
+   while lower values make smoother shapes.
 
    .. figure:: /images/smoke_domain_vorticity.jpg
 
-      Comparison of different amounts of vorticity. The domain on the left has a vorticity of 3, while the domain on
-      the right has a vorticity of .01.
+      Comparison of different amounts of vorticity. The domain on the left has a vorticity of 3,
+      while the domain on the right has a vorticity of .01.
 
 Dissolve
    Allow smoke to dissipate over time.
@@ -134,8 +134,8 @@ Smoke Color
 Smoke Adaptive Domain
 =====================
 
-When enabled, the domain will adaptively shrink to best fit the smoke, saving computation time by leaving voxels
-without smoke out of the simulation.
+When enabled, the domain will adaptively shrink to best fit the smoke,
+saving computation time by leaving voxels without smoke out of the simulation.
 Unless the *Additional* option is used, the adaptive domain will not exceed the bounds of the original domain.
 
 Additional
@@ -175,8 +175,7 @@ Noise Method
       Comparison of noise methods. *Wavelet* on the left, *FFT* on the right.
 
    .. note::
-      *Wavelet* is an implementation of
-      `Turbulence for Fluid Simulation
+      *Wavelet* is an implementation of `Turbulence for Fluid Simulation
       <https://graphics.ethz.ch/research/physics_animation_fabrication/simulation/turb.php>`__.
 
 Strength
@@ -191,8 +190,8 @@ Smoke Groups
 ============
 
 Flow Group
-   If set, only objects in the specified :ref:`Group <grouping-objects>` will be allowed to act as flow objects in
-   this domain.
+   If set, only objects in the specified :ref:`Group <grouping-objects>`
+   will be allowed to act as flow objects in this domain.
 
 Collision Group
    If set, only objects in the specified :ref:`Group <grouping-objects>`
@@ -230,8 +229,8 @@ The other settings determine how much influence individual force field types hav
 Note on Divisions and High Resolution
 =====================================
 
-:ref:`High Resolution Divisions <smoke-high-resolution>` and :ref:`Domain Subdivisions <smoke-resolution>` are not
-equivalent.
+:ref:`High Resolution Divisions <smoke-high-resolution>`
+and :ref:`Domain Subdivisions <smoke-resolution>` are not equivalent.
 By using different combinations of these resolution settings you can obtain a variety of different styles of smoke.
 
 .. figure:: /images/smoke_domain_high_resolution_comparison.jpg
@@ -239,9 +238,9 @@ By using different combinations of these resolution settings you can obtain a va
    Comparison between a domain with 24 divisions and 4 *High Resolution* divisions (left),
    and a domain with 100 divisions and 1 *High Resolution* division (right).
 
-Low division simulations with lots of *High Resolution* divisions generally appear smaller in real-world scale
-(larger flames etc.)
-and can be used to achieve pyroclastic plumes such as this:
+Low division simulations with lots of *High Resolution*
+divisions generally appear smaller in real-world scale
+(larger flames etc.) and can be used to achieve pyroclastic plumes such as this:
 
 .. figure:: /images/smoke_domain_note_on_resolution.jpg
 
