@@ -19,11 +19,11 @@ Airflow inside the domain can affect other physics simulations via the smoke flo
 Workflow
 ========
 
-At least a :doc:`Domain object</physics/smoke/domain>` object and
+At least a :doc:`Domain Object </physics/smoke/types/domain>` object and
 one :doc:`Flow object </physics/smoke/types/flow_object>` are required to create a smoke simulation.
 A basic workflow looks like this:
 
-1. Create a :doc:`Domain object</physics/smoke/domain>` that defines the bounds of the simulation volume.
+1. Create a :doc:`Domain Object </physics/smoke/types/domain>` that defines the bounds of the simulation volume.
 2. Define a :doc:`Flow object </physics/smoke/types/flow_object>` or objects which will emit smoke and fire.
 3. Set :doc:`Collision objects </physics/smoke/types/collisions>` to make the smoke interact with objects in the scene.
 4. Assign a :doc:`Volumetric material </physics/smoke/material>` to the domain object.

@@ -54,7 +54,7 @@ Border Collisions
    Controls which sides of the domain will allow smoke "through" the domain,
    making it disappear without influencing the rest of the simulation,
    and which sides will deflect smoke as if colliding with a
-   :doc:`Collision Object</physics/smoke/collisions>`.
+   :doc:`Collision Object </physics/smoke/types/collisions>`.
 
    Vertically Open
       Smoke disappears when it hits the top or bottom of the domain, but collides with the walls.

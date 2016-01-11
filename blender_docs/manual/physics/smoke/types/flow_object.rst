@@ -1,9 +1,10 @@
 
 *****************
-Smoke Flow object
+Smoke Flow Object
 *****************
 
-*Smoke Flow* objects are used to add or remove smoke and fire to a :doc:`Smoke Domain</physics/smoke/domain>` object.
+*Smoke Flow* objects are used to add or remove smoke and fire
+to a :doc:`Smoke Domain </physics/smoke/types/domain>` object.
 
 To define any mesh object as a *Smoke Flow* object, add smoke physics by clicking *Smoke*
 in :menuselection:`Properties --> Physics`. Then select *Flow* as the *Smoke Type*.
@@ -41,8 +42,8 @@ Source
    This setting defines the method used to emit smoke and fire.
 
    Mesh
-      Create smoke/fire directly from the object's mesh. With this option selected there two additional settings,
-      *Surface* and *Volume*.
+      Create smoke/fire directly from the object's mesh.
+      With this option selected there two additional settings, *Surface* and *Volume*.
 
          .. _smoke-flow-surface:
 
