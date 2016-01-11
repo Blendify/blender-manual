@@ -8,8 +8,6 @@
    :maxdepth: 2
 
    introduction.rst
-   domain.rst
-   flow_object.rst
-   collisions.rst
+   types/index.rst
    material.rst
    baking.rst

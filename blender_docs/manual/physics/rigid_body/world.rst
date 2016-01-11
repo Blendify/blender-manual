@@ -80,4 +80,3 @@ External Force Influence on Rigid Body
 Rigid Body Cache panel.
 
 As other physics dynamics systems, Rigid Body simulation are also influenced by external force effectors.
-
