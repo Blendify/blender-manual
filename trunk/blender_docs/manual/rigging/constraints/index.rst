@@ -8,9 +8,20 @@
    :maxdepth: 2
 
    introduction.rst
-   common_interface.rst
-   the_stack.rst
 
+
+Interface
+=========
+
+.. toctree::
+   :maxdepth: 1
+
+   interface/adding_removing.rst
+   interface/header.rst
+   interface/target.rst
+   interface/space.rst
+   interface/influence.rst
+   interface/the_stack.rst
 
 Motion Tracking
 ===============
