@@ -1,12 +1,12 @@
+
 *****************
 Smoke Flow object
 *****************
 
 *Smoke Flow* objects are used to add or remove smoke and fire to a :doc:`Smoke Domain</physics/smoke/domain>` object.
 
-To define any mesh object as a *Smoke Flow* object,
-add smoke physics by clicking *Smoke* in :menuselection:`Properties --> Physics`.
-Then select *Flow* as the *Smoke Type*.
+To define any mesh object as a *Smoke Flow* object, add smoke physics by clicking *Smoke*
+in :menuselection:`Properties --> Physics`. Then select *Flow* as the *Smoke Type*.
 Now you should have a default smoke flow source object. You can test this by playing the animation
 (:kbd:`Alt-A`) from the first frame. If your source object is inside your domain, you should see smoke.
 
@@ -91,8 +91,8 @@ Smoke Color
    .. figure:: /images/smoke_flow_color_blending.jpg
 
 Flame Rate:
-   Amount of "fuel" being burned per second. Larger values result in larger flames, smaller values result in smaller
-   flames:
+   Amount of "fuel" being burned per second. Larger values result in larger flames,
+   smaller values result in smaller flames:
 
    .. figure:: /images/smoke_flow_flame_rate.jpg
 
@@ -125,9 +125,8 @@ Smoke Flow Advanced
 
 .. figure:: /images/smoke_flow_advanced.png
 
-When using a mesh as the *Flow Source*,
-you can use these settings to control where on the mesh smoke can be emitted from. These settings have no effect on
-outflow objects.
+When using a mesh as the *Flow Source*, you can use these settings to control where on the
+mesh smoke can be emitted from. These settings have no effect on outflow objects.
 
 Use Texture
    When enabled, use the specified texture to control where smoke is emitted.
@@ -139,4 +138,3 @@ Vertex Group
 These settings are useful for effects like this:
 
 .. figure:: /images/smoke_flow_texture_usecase.jpg
-

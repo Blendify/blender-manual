@@ -1,19 +1,18 @@
 ..    TODO/Review: {{review}} .
 
-
 ************
 Introduction
 ************
 
-Smoke simulation is used to simulate the fluid movement of air and generate animated
-:term:`voxel` textures representing the density, heat, and velocity of other fluids or suspended particles
+Smoke simulation is used to simulate the fluid movement of air and generate animated :term:`voxel`
+textures representing the density, heat, and velocity of other fluids or suspended particles
 (i.e. smoke) which can be used for rendering.
 
 .. add pretty smoke/fire render here?
 
-Smoke and fire are emitted into a :doc:`Domain</physics/smoke/domain>` from a mesh object or particle system.
-Smoke movement is controlled by airflow inside the domain, which can be influenced by
-:doc:`smoke collision objects </physics/smoke/collisions>`.
+Smoke and fire are emitted into a :doc:`Domain </physics/smoke/domain>`
+from a mesh object or particle system. Smoke movement is controlled by airflow inside the domain,
+ which can be influenced by :doc:`smoke collision objects </physics/smoke/collisions>`.
 Smoke will also be affected by scene gravity and :doc:`force fields</physics/force_fields>`.
 Airflow inside the domain can affect other physics simulations via the smoke flow force field.
 
