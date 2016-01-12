@@ -198,14 +198,3 @@ Tips
   but that is a path that you have to wander alone. We will deal with
   :doc:`Collisions </physics/soft_body/collisions>` in detail later.
 - Try and use a *Lattice* or a *Curve Guide* Soft Body instead of the object itself. This may be magnitudes faster.
-
-
-Links
-=====
-
-- `Developer Notes <http://mosebjorn.altervista.org/>`__
-- `Swinging of a chain <http://blenderartists.org/forum/showthread.php?t=114723>`__
-- `Softbodies for Rigged Characters
-  <http://web.archive.org/web/20090130014636/http://www.enricovalenza.com/softb.html>`__
-
-
