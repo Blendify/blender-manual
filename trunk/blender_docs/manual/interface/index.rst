@@ -6,7 +6,7 @@
 
 
 Overview
-********
+========
 
 .. toctree::
    :maxdepth: 1
@@ -16,7 +16,7 @@ Overview
 
 
 Window Controls
-***************
+===============
 
 .. toctree::
    :maxdepth: 1
@@ -26,7 +26,7 @@ Window Controls
 
 
 Interface Controls
-******************
+==================
 
 .. toctree::
    :maxdepth: 1
@@ -36,7 +36,7 @@ Interface Controls
    extended_controls.rst
 
 Tools
-*****
+=====
 
 .. toctree::
    :maxdepth: 1
