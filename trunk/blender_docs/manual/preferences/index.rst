@@ -1,8 +1,8 @@
 .. _prefs-index:
 
-##############
-  Preferences
-##############
+###################
+  User Preferences
+###################
 
 .. toctree::
    :maxdepth: 1
