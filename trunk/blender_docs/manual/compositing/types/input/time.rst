@@ -75,8 +75,8 @@ another inverted blur to a foreground renderlayer, and time-feeding both.
 This node group would simulate someone focusing the camera lens.
 
 
-Examples and suggestions
-========================
+Usage
+=====
 
 As your imagination runs wild, consider a few ideas that came to me just now on my couch:
 mixing a clouds texture with a time input to fog up a piece of glass or show spray paint
@@ -84,15 +84,3 @@ building up on a wall. Consider mixing red and the soften with time (decreasing 
 to show what someone sees when waking up from a hard hit on the head.
 Mix HSV input with a starfield image with time (decreasing output)
 to show what we might see someday as we accelerate our starship and experience red-shift.
-
-As a user, you should know that we have arrived at the point where there are many ways to do
-the same thing in Blender. For example, an old way to make a slide show using Blender,
-you created multiple image textures, one image for each slide,
-and assigned them as texture channels to the material for the screen, then created a screen
-(plane) that filled the cameral view. Using a material ipo,
-you would adjust the Color influence of each channel at different frames,
-fading one in as the previous slide faded out.
-Whew! Rearranging slide and changing the timing was clunky but doable by moving the IPO keys.
-The *Node* way is to create an image input, one for each slide image.
-Using the Image input and Time nodes connected to an AlphaOver mixer is much simpler, clearer,
-and easier to maintain.
