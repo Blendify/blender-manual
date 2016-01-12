@@ -36,7 +36,7 @@ Options
 
 
 Permeability
-   Fraction of particles passing through the mesh. Can be animated with *Object* Ipos, *Perm* channel.
+   Fraction of particles passing through the mesh.
 
 Stickiness
    How much particles stick to the object.
