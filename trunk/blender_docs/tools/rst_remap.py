@@ -165,33 +165,42 @@ def remap_finish(base_path):
 
     # now move PO files
     if os.path.exists(LOCALE_DIR):
-        import subprocess
+        from subprocess import check_call
 
-        translation_paths = [
-                os.path.join(LOCALE_DIR, d, "LC_MESSAGES") for d in os.listdir(LOCALE_DIR)
-                if not d.startswith(".")]
+        # first check we have working svn installed
+        try:
+            check_call(["svn", "help"])
+            has_svn = True
+        except:
+            print("warning: command 'svn' not found in your PATH, not updating translations!")
+            has_svn = False
 
-        for file_path_src, file_path_dst in src_dst_map.items():
-            if file_path_src != file_path_dst:
-                file_path_src = file_path_src.lstrip("\\/")
-                file_path_dst = file_path_dst.lstrip("\\/")
-                for locale_dir in translation_paths:
-                    file_path_src_po = os.path.join(locale_dir, file_path_src) + ".po"
-                    if not os.path.exists(file_path_src_po):
-                        print("warning: PO file not found %r" % file_path_src_po)
-                    else:
-                        file_path_dst_po = os.path.join(locale_dir, file_path_dst) + ".po"
-                        if os.path.exists(file_path_dst_po):
-                            print("warning: PO file already exists %r" % file_path_dst_po)
+        if has_svn:
+            translation_paths = [
+                    os.path.join(LOCALE_DIR, d, "LC_MESSAGES") for d in os.listdir(LOCALE_DIR)
+                    if not d.startswith(".")]
+
+            for file_path_src, file_path_dst in src_dst_map.items():
+                if file_path_src != file_path_dst:
+                    file_path_src = file_path_src.lstrip("\\/")
+                    file_path_dst = file_path_dst.lstrip("\\/")
+                    for locale_dir in translation_paths:
+                        file_path_src_po = os.path.join(locale_dir, file_path_src) + ".po"
+                        if not os.path.exists(file_path_src_po):
+                            print("warning: PO file not found %r" % file_path_src_po)
                         else:
-                            dir_path_dst_po = os.path.dirname(file_path_dst_po)
-                            # ensure the new directory exist
-                            os.makedirs(dir_path_dst_po, exist_ok=True)
-                            try:
-                                subprocess.check_call(["svn", "info", dir_path_dst_po], cwd=locale_dir)
-                            except subprocess.CalledProcessError:
-                                subprocess.check_call(["svn", "add", dir_path_dst_po], cwd=locale_dir)
-                            subprocess.check_call(["svn", "mv", file_path_src_po, file_path_dst_po], cwd=locale_dir)
+                            file_path_dst_po = os.path.join(locale_dir, file_path_dst) + ".po"
+                            if os.path.exists(file_path_dst_po):
+                                print("warning: PO file already exists %r" % file_path_dst_po)
+                            else:
+                                dir_path_dst_po = os.path.dirname(file_path_dst_po)
+                                # ensure the new directory exist
+                                os.makedirs(dir_path_dst_po, exist_ok=True)
+                                try:
+                                    check_call(["svn", "info", dir_path_dst_po], cwd=locale_dir)
+                                except subprocess.CalledProcessError:
+                                    check_call(["svn", "add", dir_path_dst_po], cwd=locale_dir)
+                                check_call(["svn", "mv", file_path_src_po, file_path_dst_po], cwd=locale_dir)
 
     os.remove(filepath_remap)
 
