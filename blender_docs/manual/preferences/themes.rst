@@ -7,7 +7,7 @@ Themes
 The *Themes* tab allows you to customize interface appearance and colors.
 
 
-.. figure:: /images/User-preferences-themes.png
+.. figure:: /images/user_preferences_themes_tab.png
    :width: 650px
 
 
@@ -20,3 +20,12 @@ Themes use blender's preset system.
 To save a theme, click the `+` button next to the preset selection drop-down and enter a name.
 This will save the theme to an XML file in the ``./scripts/presets/interface_theme/`` subdirectory of one of the
 :doc:`configuration directories </getting_started/installing_blender/directorylayout>`.
+
+Available Themes
+================
+
+Default
+-------
+
+.. figure:: /images/theme_default.png
+   :width: 650px

@@ -6,7 +6,7 @@ Interface
 Interface configuration lets you change how UI elements are displayed and how they react.
 
 
-.. figure:: /images/User-preferences-interface.jpg
+.. figure:: /images/user_preferences_interface_tab.png
    :width: 650px
 
 

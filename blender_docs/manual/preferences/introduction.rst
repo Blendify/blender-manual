@@ -15,7 +15,7 @@ Open User Preferences
 
 To open a Blender *User Preferences* editor go to :menuselection:`File --> User Preferences`.
 
-.. figure:: /images/User-preferences.png
+.. figure:: /images/user_preferences_interface_tab.png
    :width: 650px
 
 

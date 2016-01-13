@@ -7,7 +7,7 @@ In the Input preferences, you can customize how Blender reacts to the mouse and 
 well as define your own keymap.
 
 
-.. figure:: /images/Interface-Configuration-Input-UserPreferencesInput.jpg
+.. figure:: /images/user_preferences_input_tab.png
    :width: 650px
 
 
