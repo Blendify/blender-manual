@@ -386,40 +386,10 @@ Unless you really want to reset your changes to the initial call of the tool.
 Operator Parameters
 ^^^^^^^^^^^^^^^^^^^
 
-Defaults are marked in boldface:
-
-
-.. figure:: /images/Modeling-Meshes-wp-tools-transfer-operator.jpg
-
-   Blend Options
-
-
-Group:
-
-Active
-   Only copy to the Active Group in the active Object.
-   This option only works when the active Object has an active Vertex Group set.
-   Otherwise the Weight transfer will not do anything.
-All
-   Copy all Vertex groups from the selected objects to the Active Object.
-
-Method:
-
-- **Nearest vertex In face** : TODO
-- Nearest Face: TODO
-- Nearest vertex: TODO
-- Vertex Index (verbatim copy, works only for meshes with identical index count)
-
-Replace
-
-- Empty: Only copy a weight to the active object if the vertex has not yet had a weight set in the group.
-- **All** : delete all previous content of the target vertex group before copying the group from the source object.
-
 .. note::
 
-   If a vertex group is contained in 2 or more of the selected objects,
-   then the result depends on the order in which the selected objects are processed.
-   However, the order of processing cannot be influenced.
+   This tool now uses the generic 'data transfer' one. Please refer to the
+   :doc:`/modeling/modifiers/modify/data_transfer` for options details and explanations.
 
 
 Limit Total
