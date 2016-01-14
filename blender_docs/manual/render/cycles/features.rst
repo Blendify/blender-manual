@@ -41,7 +41,7 @@ This page offers a comparison of available features on CPU, CUDA and OpenCL.
      - |cross|
    * - Subsurface Scattering
      - |tick|
-     - |tick| :sup:`(experimental)`
+     - |tick|
      - |cross|
    * - Open Shading Language
      - |tick|
@@ -49,7 +49,7 @@ This page offers a comparison of available features on CPU, CUDA and OpenCL.
      - |cross|
    * - CMJ sampling
      - |tick|
-     - |tick| :sup:`(experimental)`
+     - |tick|
      - |cross|
    * - Branched Path integrator
      - |tick|
@@ -68,6 +68,3 @@ Experimental features are disabled / hidden by default, but can be enabled by se
 They may not work properly, crash Blender or change their behaviour in later versions.
 
 .. figure:: /images/cycles_ui_feature_set.jpg
-
-.. warning:: The experimental GPU kernel requires a lot of memory
-             and thus may not work at all on cards without enough ram.
