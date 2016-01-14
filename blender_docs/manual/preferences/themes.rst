@@ -21,11 +21,9 @@ To save a theme, click the `+` button next to the preset selection drop-down and
 This will save the theme to an XML file in the ``./scripts/presets/interface_theme/`` subdirectory of one of the
 :doc:`configuration directories </getting_started/installing_blender/directorylayout>`.
 
-Available Themes
-================
 
-Default
--------
+.. figure:: /images/theme_elsyiun.png
 
-.. figure:: /images/theme_default.png
-   :width: 650px
+   Blender comes bundled with a small selection of themes.
+
+   This is an example of the theme *Elsyiun*.
