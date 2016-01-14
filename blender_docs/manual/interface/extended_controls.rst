@@ -9,14 +9,7 @@ This page documents some of the more involved interface controls.
 Operator Search Menu
 ====================
 
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     All modes
-   | Hotkey:   :kbd:`Spacebar`
-
-
-.. figure:: /images/Interface-Menus-SpacebarMenu25.jpg
+.. figure:: /images/interface_controls_spacebar.png
    :align: right
 
    The operator search popup.
@@ -325,4 +318,3 @@ Sort
 
    Inverse
       Sort objects in ascending or descending order. This also applies to alphabetical sorting, if selected.
-
