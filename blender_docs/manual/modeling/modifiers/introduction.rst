@@ -22,7 +22,7 @@ You can add several modifiers to a single object to form a :doc:`Modifier Stack 
 *Apply* a modifier if you wish to make its changes permanent.
 
 
-.. figure:: /images/Modifiers-menu.jpg
+.. figure:: /images/modifier-menu.jpg
    :width: 600px
 
    Modifiers menu
@@ -160,7 +160,7 @@ the attributes of these modifiers are accessible in separate panels.
 Interface
 =========
 
-.. figure:: /images/Modifiers-Subsurf.jpg
+.. figure:: /images/modifier-subsurf.jpg
 
    Panel Layout (Subsurf as an example)
 

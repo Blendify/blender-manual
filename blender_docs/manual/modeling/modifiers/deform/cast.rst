@@ -28,7 +28,7 @@ it is not limited to casting to a sphere.
 Options
 =======
 
-.. figure:: /images/Modifiers-cast.jpg
+.. figure:: /images/modifier-cast.jpg
 
    Cast Modifier
 
@@ -73,7 +73,7 @@ Control Object
 Example
 =======
 
-.. figure:: /images/Modifiers-Cast-Example.jpg
+.. figure:: /images/modifier-cast-example.jpg
    :width: 400px
 
    Top: Suzanne without modifiers. Middle: Suzanne with each type of Cast Modifier (Sphere, Cylinder and Cuboid).

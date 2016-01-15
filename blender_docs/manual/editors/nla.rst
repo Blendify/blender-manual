@@ -270,5 +270,5 @@ Modifiers can stack different combinations of effects for strips.
 Obviously there will be more to come on this.
 
 
-.. figure:: /images/Modifiers.jpg
+.. figure:: /images/modifier.jpg
 

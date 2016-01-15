@@ -10,7 +10,7 @@ to act as a deformation cage around another mesh.
 Options
 =======
 
-.. figure:: /images/Modifiers-MeshDeform.jpg
+.. figure:: /images/modifier-meshdeform.jpg
 
    Mesh Deform modifier
 

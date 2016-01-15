@@ -5,17 +5,17 @@ Wave Modifier
 
 .. list-table::
 
-   * - .. figure:: /images/Modifiers-Wave-example-Circular.jpg
+   * - .. figure:: /images/modifier-wave-example-circular.jpg
           :width: 180px
 
           Circular wave front
 
-     - .. figure:: /images/Modifiers-Wave-example-Linear.jpg
+     - .. figure:: /images/modifier-wave-example-linear.jpg
           :width: 180px
 
           Linear wave front
 
-     - .. figure:: /images/Modifiers-Wave-example-normals.jpg
+     - .. figure:: /images/modifier-wave-example-normals.jpg
           :width: 180px
 
           Motion enabled for X,
@@ -32,7 +32,7 @@ Activating *Normals* or typing a name in *VGroup* will simply deactivate the mod
 Options
 =======
 
-.. figure:: /images/Modifiers-Wave.jpg
+.. figure:: /images/modifier-wave.jpg
 
    Wave modifier
 

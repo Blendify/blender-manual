@@ -12,7 +12,7 @@ that to use this modifier you must also have another object which has a particle
 otherwise the *ParticleInstance* modifier will appear to do nothing.
 
 
-.. figure:: /images/Modifiers-Particle_Instance_Modifier-Planes.jpg
+.. figure:: /images/modifier-particle_instance_modifier-planes.jpg
    :width: 500px
 
    Particle system on left has no ParticleInstance modified object associated with it.
@@ -66,7 +66,7 @@ Particle System
    shape of a cube.
 
 
-.. figure:: /images/Modifiers-Particle_Instance_Modifiers-Split_Plane_2.jpg
+.. figure:: /images/modifier-particle_instance_modifiers-split_plane_2.jpg
    :width: 610px
 
    Render showing a single Plain mesh object assigned to two different vertex groups
