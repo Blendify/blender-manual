@@ -196,6 +196,7 @@ def remap_finish_rst(base_path, remap_rst_src, remap_rst_dst):
 
     # now move PO files
     if os.path.exists(LOCALE_DIR):
+        import subprocess
         from subprocess import check_call
 
         # first check we have working svn installed
@@ -230,7 +231,7 @@ def remap_finish_rst(base_path, remap_rst_src, remap_rst_dst):
                                 try:
                                     check_call(["svn", "info", dir_path_dst_po], cwd=locale_dir)
                                 except subprocess.CalledProcessError:
-                                    check_call(["svn", "add", dir_path_dst_po], cwd=locale_dir)
+                                    check_call(["svn", "add", "--parents", dir_path_dst_po], cwd=locale_dir)
                                 check_call(["svn", "mv", file_path_src_po, file_path_dst_po], cwd=locale_dir)
 
 
