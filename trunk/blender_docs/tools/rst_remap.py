@@ -84,6 +84,17 @@ def rst_files(path):
                 yield os.path.join(dirpath, filename)
 
 
+def image_files(path):
+    for dirpath, dirnames, filenames in os.walk(path):
+        if dirpath.startswith("."):
+            continue
+
+        for filename in filenames:
+            ext = os.path.splitext(filename)[1]
+            if ext.lower() in {".jpg", ".jpeg", ".png", ".svg"}:
+                yield os.path.join(dirpath, filename)
+
+
 def remap_data_create(base_path):
 
     if os.sep != "/":
@@ -93,13 +104,21 @@ def remap_data_create(base_path):
         def compat_path(fn):
             return "/" + fn
 
-    remap_data = {}
+    # store rst's without extension
+    remap_rst = {}
     for fn in rst_files(base_path):
         file_hash = uuid_from_file(fn)
         file_rstpath = compat_path(os.path.splitext(os.path.relpath(fn, base_path))[0])
-        remap_data[file_hash] = file_rstpath
+        remap_rst[file_hash] = file_rstpath
 
-    return remap_data
+    # images keep their extension
+    remap_images = {}
+    for fn in image_files(base_path):
+        file_hash = uuid_from_file(fn)
+        file_rstpath = compat_path(os.path.relpath(fn, base_path))
+        remap_images[file_hash] = file_rstpath
+
+    return (remap_rst, remap_images)
 
 
 def remap_start(base_path):
@@ -113,7 +132,8 @@ def remap_start(base_path):
     with open(filepath_remap, 'wb') as fh:
         import pickle
         pickle.dump(remap_data_src, fh, pickle.HIGHEST_PROTOCOL)
-    print("Remap started, tracking (%d) files." % len(remap_data_src))
+    print("Remap started, tracking (%d rst, %d image) files." %
+          (len(remap_data_src[0]), len(remap_data_src[1])))
 
 
 def remap_finish(base_path):
@@ -128,13 +148,24 @@ def remap_finish(base_path):
 
     remap_data_dst = remap_data_create(base_path)
 
+    remap_rst_src, remap_image_src = remap_data_src
+    remap_rst_dst, remap_image_dst = remap_data_dst
+
+    remap_finish_rst(base_path, remap_rst_src, remap_rst_dst)
+    remap_finish_image(base_path, remap_image_src, remap_image_dst)
+
+    os.remove(filepath_remap)
+
+
+def remap_finish_rst(base_path, remap_rst_src, remap_rst_dst):
+
     # Store: {source: dest}, without path prefix or extension, eg:
     # /path/to/docs/manual/interface/introduction.rst, becomes...
     #                     /interface/introduction
     src_dst_map = {}
 
-    for file_hash, file_rstpath_src in remap_data_src.items():
-        file_rstpath_dst = remap_data_dst.get(file_hash)
+    for file_hash, file_rstpath_src in remap_rst_src.items():
+        file_rstpath_dst = remap_rst_dst.get(file_hash)
         if file_rstpath_dst is None:
             # shouldn't happen often.
             print("warning: source '%s.rst' not found!" % file_rstpath_src[1:])
@@ -202,7 +233,37 @@ def remap_finish(base_path):
                                     check_call(["svn", "add", dir_path_dst_po], cwd=locale_dir)
                                 check_call(["svn", "mv", file_path_src_po, file_path_dst_po], cwd=locale_dir)
 
-    os.remove(filepath_remap)
+
+def remap_finish_image(base_path, remap_image_src, remap_image_dst):
+
+    # Store: {source: dest}, without path prefix, eg:
+    # /path/to/docs/manual/images/my_image.jpg, becomes...
+    #                     /images/my_image.jpg
+    src_dst_map = {}
+
+    for file_hash, file_imagepath_src in remap_image_src.items():
+        file_imagepath_dst = remap_image_dst.get(file_hash)
+        if file_imagepath_dst is None:
+            # shouldn't happen often.
+            print("warning: source '%s' not found!" % file_imagepath_src[1:])
+            file_imagepath_dst = file_imagepath_src
+
+        src_dst_map[file_imagepath_src] = file_imagepath_dst
+
+    # now remap the doc links
+    import rst_helpers
+    from itertools import chain
+
+    for fn in rst_files(base_path):
+        for d in chain(rst_helpers.directive_iter(fn, "figure"),
+                       rst_helpers.directive_iter(fn, "image")):
+            file_imagepath_src = d[-1].strip()
+
+            file_imagepath_dst = src_dst_map.get(file_imagepath_src)
+            if file_imagepath_dst is not None:
+                d[-1] = file_imagepath_dst
+            else:
+                print("warning: unknown path %r" % file_imagepath_src)
 
 
 def main(argv=sys.argv):
