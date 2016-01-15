@@ -20,19 +20,12 @@
 
 # <pep8 compliant>
 
+__all__ = (
+    "role_iter",
+    "directive_iter",
+    )
 
-def role_iter(fn, role, angle_brackets=False):
-    """
-    Convenience iterator for roles,
-    so you can loop over and manipulate roles without the hassle of involved string manipulation.
-    """
-    import re
-    if angle_brackets:
-        dir_re = re.compile(r"(\:" + role + "\:\`)([^\<,\n]*)(\s+\<)([^\,\n>]+)(\>\`)")
-    else:
-        dir_re = re.compile(r"(\:" + role + "\:\`)([^`,\n]*)(\`)")
-    dir_find = ":" + role + ":"
-
+def _re_iter_edit(fn, find_text, find_re, find_string):
     with open(fn, "r", encoding="utf-8") as f:
         data_src = f.read()
 
@@ -40,11 +33,11 @@ def role_iter(fn, role, angle_brackets=False):
     data_dst_ls = [data_src]
     offset = 0
     while True:
-        offset = data_dst_ls[-1].find(dir_find, offset)
+        offset = data_dst_ls[-1].find(find_string, offset)
         if offset == -1:
             break
 
-        g = dir_re.match(data_dst_ls[-1][offset:])
+        g = find_re.match(data_dst_ls[-1][offset:])
         if g:
             offset_next = offset + g.span()[1]
             ls_orig = list(g.groups())
@@ -56,9 +49,36 @@ def role_iter(fn, role, angle_brackets=False):
             else:
                 offset = offset_next
         else:
-            offset += len(role)
+            offset += len(find_text)
 
     if len(data_dst_ls) != 1:
         with open(fn, "w", encoding="utf-8") as f:
             f.write("".join(data_dst_ls))
+
+
+def role_iter(fn, role, angle_brackets=False):
+    """
+    Convenience iterator for roles,
+    so you can loop over and manipulate roles without the hassle of involved string manipulation.
+    """
+    import re
+    if angle_brackets:
+        role_re = re.compile(r"(\:" + role + "\:\`)([^\<,\n]*)(\s+\<)([^\,\n>]+)(\>\`)")
+    else:
+        role_re = re.compile(r"(\:" + role + "\:\`)([^`,\n]*)(\`)")
+    role_find = ":" + role + ":"
+
+    yield from _re_iter_edit(fn, role, role_re, role_find)
+
+
+def directive_iter(fn, directive):
+    """
+    Convenience iterator for directives,
+    so you can loop over and manipulate roles without the hassle of involved string manipulation.
+    """
+    import re
+    directive_re = re.compile(r"(\.\.\s+)(" + directive + ")(\:\:\s+)([^\s,\n]*)")
+    directive_find = ".. " + directive + "::"
+
+    yield from _re_iter_edit(fn, directive, directive_re, directive_find)
 
