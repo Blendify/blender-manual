@@ -169,7 +169,7 @@ the result will not be blurred between materials along the strokes.
 Noise
 -----
 
-.. figure:: /images/render_freestyle_geometry_simplification.png
+.. figure:: /images/render-freestyle_geometry_simplification.png
    :width: 400px
    :align: center
 
@@ -177,7 +177,7 @@ Noise
 
 The *Noise* modifier uses a pseudo-random number generator to variably distribute thickness along the stroke.
 
-.. figure:: /images/render_freestyle_ui_thickness_noise.png
+.. figure:: /images/render-freestyle_ui_thickness_noise.png
    :width: 300px
    :align: right
 
@@ -196,7 +196,7 @@ Tangent
 
 This modifier bases its effect on the traveling direction of the stroke evaluated at the stroke's vertices.
 
-.. figure:: /images/render_freestyle_ui_thickness_tangent.png
+.. figure:: /images/render-freestyle_ui_thickness_tangent.png
    :width: 300px
    :align: right
 
@@ -227,7 +227,7 @@ and the normal direction of the surface at the point.
 For radial curvatures to be calculated (and therefore for this modifier to have any effect),
 the *Face Smoothness* option has to be turned on and the object needs to have *Smooth Shading*.
 
-.. figure:: /images/render_freestyle_ui_thickness_curvature3d.png
+.. figure:: /images/render-freestyle_ui_thickness_curvature3d.png
    :width: 300px
    :align: right
 
@@ -248,7 +248,7 @@ Min Curvature and Max Curvature
 Crease Angle
 ------------
 
-.. figure:: /images/render_freestyle_thickness_crease_angle.png
+.. figure:: /images/render-freestyle_thickness_crease_angle.png
    :width: 400px
    :align: center
 
@@ -261,7 +261,7 @@ A modifier based on the Crease Angle (angle between two adjacent faces). If a st
 <http://www.blender.org/api/blender_python_api_2_74_release/freestyle.types.html#freestyle.types.Nature>`__),
 its thickness value is not touched by this modifier.
 
-.. figure:: /images/render_freestyle_ui_thickness_crease_angle.png
+.. figure:: /images/render-freestyle_ui_thickness_crease_angle.png
    :width: 300px
    :align: right
 

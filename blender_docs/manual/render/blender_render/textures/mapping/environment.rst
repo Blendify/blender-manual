@@ -53,7 +53,7 @@ Options
    (reflection co-ordinates) in the Map Input panel of the Material context.
 
 
-.. figure:: /images/textures-envMap-panel.jpg
+.. figure:: /images/texture-envMap-panel.jpg
 
    Reflecting plane EnvMap settings.
 

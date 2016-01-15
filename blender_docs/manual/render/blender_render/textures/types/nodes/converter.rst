@@ -14,7 +14,7 @@ Math
 ----
 
 
-.. figure:: /images/textureNodes_math.jpg
+.. figure:: /images/texture-nodes_math.jpg
 
    math node
 
@@ -63,7 +63,7 @@ Greater Than
 ColorRamp Node
 ==============
 
-.. figure:: /images/textureNodes-colorRamp.jpg
+.. figure:: /images/texture-nodes-colorRamp.jpg
 
    ColorRamp Node
 
@@ -86,7 +86,7 @@ See :ref:`ui-color_ramp_widget` for editing info.
 RGB to BW Node
 ==============
 
-.. figure:: /images/textureNodes-rgbToBw.jpg
+.. figure:: /images/texture-nodes-rgbToBw.jpg
 
    RGB to BW Node
 
@@ -98,7 +98,7 @@ values.
 Value to Normal
 ===============
 
-.. figure:: /images/textureNodes-valueToNormal.jpg
+.. figure:: /images/texture-nodes-valueToNormal.jpg
 
    Value to Normal node
 
@@ -115,7 +115,7 @@ Nabla
 Distance
 ========
 
-.. figure:: /images/textureNodes-distance.jpg
+.. figure:: /images/texture-nodes-distance.jpg
 
    Distance node. Coordinate 2 dropdown is displayed
 

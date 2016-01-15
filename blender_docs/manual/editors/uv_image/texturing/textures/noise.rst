@@ -3,7 +3,7 @@
 Noise
 *****
 
-.. figure:: /images/Textures-Procedural-Noise.jpg
+.. figure:: /images/texture-procedural-noise.jpg
 
    Noise Texture Panel
 

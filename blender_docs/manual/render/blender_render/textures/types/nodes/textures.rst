@@ -20,7 +20,7 @@ Color 1/Color 2
 Voronoi
 =======
 
-.. figure:: /images/textureNodes-voronoi.jpg
+.. figure:: /images/texture-nodes-voronoi.jpg
 
    Voronoi node
 
@@ -31,7 +31,7 @@ See :doc:`Here </editors/uv_image/texturing/textures/voronoi>`
 Blend
 =====
 
-.. figure:: /images/textureNodes-blend.jpg
+.. figure:: /images/texture-nodes-blend.jpg
 
    Blend node
 
@@ -42,7 +42,7 @@ See :doc:`Here </editors/uv_image/texturing/textures/blend>`
 Magic
 =====
 
-.. figure:: /images/textureNodes-magic.jpg
+.. figure:: /images/texture-nodes-magic.jpg
 
    Magic node
 
@@ -53,7 +53,7 @@ See :doc:`Here </editors/uv_image/texturing/textures/magic>`
 Marble
 ======
 
-.. figure:: /images/textureNodes-marble.jpg
+.. figure:: /images/texture-nodes-marble.jpg
 
    Marble node
 
@@ -64,7 +64,7 @@ See :doc:`Here </editors/uv_image/texturing/textures/marble>`
 Clouds
 ======
 
-.. figure:: /images/textureNodes-cloud.jpg
+.. figure:: /images/texture-nodes-cloud.jpg
 
    Clouds node
 
@@ -77,7 +77,7 @@ Wood
 ----
 
 
-.. figure:: /images/textureNodes-wood.jpg
+.. figure:: /images/texture-nodes-wood.jpg
 
    Wood node
 
@@ -88,7 +88,7 @@ See :doc:`Here </editors/uv_image/texturing/textures/wood>`
 Musgrave
 ========
 
-.. figure:: /images/textureNodes-musgrave.jpg
+.. figure:: /images/texture-nodes-musgrave.jpg
 
    Musgrave
 
@@ -99,7 +99,7 @@ See :doc:`Here </editors/uv_image/texturing/textures/musgrave>`
 Noise
 =====
 
-.. figure:: /images/textureNodes-noise.jpg
+.. figure:: /images/texture-nodes-noise.jpg
 
    Noise
 
@@ -110,7 +110,7 @@ See :doc:`Here </editors/uv_image/texturing/textures/noise>`
 Stucci
 ======
 
-.. figure:: /images/textureNodes-stucci.jpg
+.. figure:: /images/texture-nodes-stucci.jpg
 
    Stucci
 
@@ -121,7 +121,7 @@ See :doc:`Here </editors/uv_image/texturing/textures/stucci>`
 Distorted Noise
 ===============
 
-.. figure:: /images/textureNodes-distortedNoise.jpg
+.. figure:: /images/texture-nodes-distortedNoise.jpg
 
    Distorted Noise node
 

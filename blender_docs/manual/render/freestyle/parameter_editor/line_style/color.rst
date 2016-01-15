@@ -122,7 +122,7 @@ Noise
 
 The *Noise* modifier uses a pseudo-random number generator to variably distribute color along the stroke.
 
-.. figure:: /images/render_freestyle_ui_color_noise.png
+.. figure:: /images/render-freestyle_ui_color_noise.png
    :width: 300px
    :align: right
 
@@ -145,7 +145,7 @@ Tangent
 
 This modifier bases its effect on the traveling direction of the stroke evaluated at the stroke's vertices.
 
-.. figure:: /images/render_freestyle_ui_color_tangent.png
+.. figure:: /images/render-freestyle_ui_color_tangent.png
    :width: 300px
    :align: right
 
@@ -160,7 +160,7 @@ Min Angle and Max Angle
 3D Curvature
 ------------
 
-.. figure:: /images/render_freestyle_color_curvature3d.png
+.. figure:: /images/render-freestyle_color_curvature3d.png
    :width: 400px
    :align: center
 
@@ -180,7 +180,7 @@ and the normal direction of the surface at the point.
 For radial curvatures to be calculated (and therefore for this modifier to have any effect),
 the *Face Smoothness* option has to be turned on and the object needs to have *Smooth Shading*.
 
-.. figure:: /images/render_freestyle_ui_color_curvature3d.png
+.. figure:: /images/render-freestyle_ui_color_curvature3d.png
    :width: 300px
    :align: right
 
@@ -197,7 +197,7 @@ Min Curvature and Max Curvature
 Crease Angle
 ------------
 
-.. figure:: /images/render_freestyle_color_crease_angle.png
+.. figure:: /images/render-freestyle_color_crease_angle.png
    :width: 400px
    :align: center
 
@@ -210,7 +210,7 @@ A modifier based on the Crease Angle (angle between two adjacent faces). If a st
 <http://www.blender.org/api/blender_python_api_2_74_release/freestyle.types.html#freestyle.types.Nature>`__),
 its color values are not touched by the modifier.
 
-.. figure:: /images/render_freestyle_ui_color_crease_angle.png
+.. figure:: /images/render-freestyle_ui_color_crease_angle.png
    :width: 300px
    :align: right
 

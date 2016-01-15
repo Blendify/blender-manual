@@ -334,7 +334,7 @@ Tip Length
 Simplification
 --------------
 
-.. figure:: /images/render_freestyle_simplification.png
+.. figure:: /images/render-freestyle_simplification.png
    :width: 600px
    :align: center
 
@@ -342,7 +342,7 @@ Simplification
 The *Simplification* modifier merges stroke vertices that lie close to one another, like the *Decimate* modifier for
 meshes.
 
-.. figure:: /images/render_freestyle_ui_geometry_simplification.png
+.. figure:: /images/render-freestyle_ui_geometry_simplification.png
    :width: 300px
    :align: right
 

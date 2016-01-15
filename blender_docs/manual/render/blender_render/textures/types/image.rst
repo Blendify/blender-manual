@@ -400,7 +400,7 @@ Settings
 Image Settings
 ==============
 
-.. figure:: /images/Textures-Image-panel.jpg
+.. figure:: /images/texture-image-panel.jpg
    :width: 306px
 
    Image panel
@@ -489,7 +489,7 @@ Fields
       Order of video fields - lower field first.
 
 
-.. figure:: /images/Textures-Image-panel-Generated.jpg
+.. figure:: /images/texture-image-panel-generated.jpg
    :width: 306px
 
    Image panel for Generated source of Image texture
@@ -571,7 +571,7 @@ Flip X/Y Axis
    Rotates the image 90 degrees counterclockwise when rendered.
 
 
-.. figure:: /images/Textures-ImageSampling-panel.jpg
+.. figure:: /images/texture-imagesampling-panel.jpg
    :width: 306px
 
    Image Sampling panel
@@ -677,7 +677,7 @@ Filter
 Image Mapping
 =============
 
-.. figure:: /images/Textures-ImageMapping-panel.jpg
+.. figure:: /images/texture-imagemapping-panel.jpg
    :width: 306px
 
    Image Mapping panel

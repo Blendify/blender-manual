@@ -7,7 +7,7 @@ The Remesh modifier is a tool for generating new mesh topology.
 The output follows the surface curvature of the input, but its topology contains only quads.
 
 
-.. figure:: /images/Remesh-modifier-screenshot-00.jpg
+.. figure:: /images/modifier-remesh-modifier-screenshot-00.jpg
    :width: 600px
 
 Options
@@ -17,7 +17,7 @@ Mode
    There are three basic modes available in the remesh modifier: Blocks, Smooth and Sharp.
 
 
-   .. figure:: /images/Remesh-mode-cone-example.jpg
+   .. figure:: /images/modifier-remesh-mode-cone-example.jpg
       :width: 600px
 
       This example shows a cone with each of the different remesh modes.
@@ -37,7 +37,7 @@ Mode
       point of the cone are more accurately reproduced in Sharp mode.
 
 
-.. figure:: /images/Remesh-depth-cone-example.jpg
+.. figure:: /images/modifier-remesh-depth-cone-example.jpg
    :width: 600px
 
    Input mesh, and the low to high resolution output meshes
@@ -64,7 +64,7 @@ Remove Disconnected Pieces
       Use this to control how small a disconnected component must be to be removed.
 
 
-   .. figure:: /images/Remesh-remove-disconnected-example.jpg
+   .. figure:: /images/modifier-remesh-remove-disconnected-example.jpg
       :width: 600px
 
       The input mesh (left) is fairly noisy,
@@ -83,7 +83,7 @@ add a :doc:`solidify </modeling/modifiers/generate/solidify>` modifier above the
 Examples
 ========
 
-.. figure:: /images/Remesh-text-00.jpg
+.. figure:: /images/modifier-remesh-text-00.jpg
    :width: 640px
 
    Remesh modifier applied to text to improve topology

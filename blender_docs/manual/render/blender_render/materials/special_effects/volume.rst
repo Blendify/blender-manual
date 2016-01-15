@@ -415,7 +415,7 @@ In addition, Smoke requires its own texture,
 you can use a volumetric texture known as :doc:`Voxel Data </render/blender_render/textures/types/volume/index>`.
 You must remember to set the domain object and change the influence.
 
-.. figure:: /images/rendering_bi_fire.jpg
+.. figure:: /images/render-bi-fire.jpg
 
    The texture settings.
 

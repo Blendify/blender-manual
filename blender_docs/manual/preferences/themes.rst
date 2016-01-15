@@ -22,7 +22,7 @@ This will save the theme to an XML file in the ``./scripts/presets/interface_the
 :doc:`configuration directories </getting_started/installing_blender/directorylayout>`.
 
 
-.. figure:: /images/theme_elsyiun.png
+.. figure:: /images/user_prefs-theme_example.png
 
    Blender comes bundled with a small selection of themes.
 

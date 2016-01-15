@@ -9,7 +9,7 @@ Texture Color Nodes
 Mix
 ===
 
-.. figure:: /images/textures-nodes-color-mix.jpg
+.. figure:: /images/texture-nodes-color-mix.jpg
 
    mix node
 
@@ -47,7 +47,7 @@ Factor
 RGB Curves
 ==========
 
-.. figure:: /images/textures-nodes-color-rgbCurves.jpg
+.. figure:: /images/texture-nodes-color-rgbCurves.jpg
    :width: 250px
 
    RGB Curves node
@@ -66,7 +66,7 @@ Clicking on one of the *C R G B* components displays the curve for that channel.
 Invert
 ======
 
-.. figure:: /images/textures-nodes-color-invert.jpg
+.. figure:: /images/texture-nodes-color-invert.jpg
 
    invert node
 
@@ -77,7 +77,7 @@ This node simply inverts the input values and colors.
 Hue Saturation Value
 ====================
 
-.. figure:: /images/textures-nodes-color-hsv.jpg
+.. figure:: /images/texture-nodes-color-hsv.jpg
    :width: 300px
 
    Hue Saturation Value node
@@ -89,7 +89,7 @@ Use this node to adjust the Hue, Saturation, and Value of an input.
 Combine and Separate RGB
 ========================
 
-.. figure:: /images/textures-nodes-color-combineRgb.jpg
+.. figure:: /images/texture-nodes-color-combineRgb.jpg
    :width: 250px
 
    Combine RGB node
@@ -102,7 +102,7 @@ With Combine RGB, you can specify the values of each channel,
 and the node will combine them into a color value.
 
 
-.. figure:: /images/textures-nodes-color-separateRgb.jpg
+.. figure:: /images/texture-nodes-color-separateRgb.jpg
    :width: 250px
 
    Separate RGB node

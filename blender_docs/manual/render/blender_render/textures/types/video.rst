@@ -3,7 +3,7 @@
 Video Textures
 **************
 
-.. figure:: /images/Textures-Video-Example.jpg
+.. figure:: /images/texture-video-example.jpg
    :width: 700px
 
    Video texture
@@ -20,7 +20,7 @@ Options
 Image
 -----
 
-.. figure:: /images/Textures-Video-Imagepanel.jpg
+.. figure:: /images/texture-video-imagepanel.jpg
    :width: 400px
 
    Image panel for video texture

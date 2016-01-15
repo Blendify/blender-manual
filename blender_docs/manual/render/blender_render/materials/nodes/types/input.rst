@@ -250,7 +250,7 @@ It just outputs the value Color currently selected in its controls section.
 Texture Node
 ============
 
-.. figure:: /images/Texture-Node.jpg
+.. figure:: /images/texture-node.jpg
 
    Texture node
 
@@ -259,7 +259,7 @@ A texture, from the list of textures available in the current blend file,
 is selected and introduced through the value and/or color socket.
 
 
-.. figure:: /images/Texture-Node-Example.jpg
+.. figure:: /images/texture-node-example.jpg
    :width: 500px
 
    Example of the applying Texture node

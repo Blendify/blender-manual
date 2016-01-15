@@ -7,7 +7,7 @@
 Introduction
 ************
 
-.. figure:: /images/render_internal_world_panel.png
+.. figure:: /images/render-internal_world_panel.png
 
    World Panel
 

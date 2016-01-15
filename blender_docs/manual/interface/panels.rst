@@ -10,7 +10,7 @@ appear elsewhere (For example: in the *Tool Shelf* or the *Properties Shelf*, av
 The image below shows panels in different regions in their expanded and
 collapsed state.
 
-.. figure:: /images/getting_started_basics_interface_panels_01.png
+.. figure:: /images/getting_started-basics_interface_panels_01.png
    :width: 100%
 
    Expanded (1) and collapsed (2) Panels in the Properties Editor (right area)
