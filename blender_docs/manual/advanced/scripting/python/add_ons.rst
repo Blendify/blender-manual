@@ -16,7 +16,7 @@ Searching
 Blender comes with some useful Add-ons already, ready to be enabled, but you can also add your own,
 or any interesting ones you find on the web.
 
-.. figure:: /images/preferences_system_ui.png
+.. figure:: /images/user_prefs-addons_tab.png
 
    Add-ons tab in the User Preferences
 

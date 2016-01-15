@@ -7,7 +7,7 @@ The *File Preferences* tab allows you to configure auto-save preferences and set
 .blend files, rendered images, and more.
 
 
-.. figure:: /images/user_preferences_file_tab.png
+.. figure:: /images/user_prefs-file_tab.png
    :width: 650px
 
 

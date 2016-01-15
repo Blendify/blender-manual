@@ -7,7 +7,7 @@ The *System* tab allows you to set resolution, scripting console preferences, so
 and internationalization.
 
 
-.. figure:: /images/preferences_system_ui.png
+.. figure:: /images/user_prefs-system_tab.png
 
 
 General
