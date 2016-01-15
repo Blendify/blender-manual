@@ -13,7 +13,7 @@ It can be applied to meshes, lattices, curves, surfaces and texts.
 Options
 =======
 
-.. figure:: /images/Modifiers-ShrinkwrapNSP.jpg
+.. figure:: /images/modifier-shrinkwrapnsp.jpg
 
    Nearest Surface Point
 
@@ -39,7 +39,7 @@ Mode
       This is only meaningful when *Offset* is not null.
 
    Projection
-      .. figure:: /images/Modifiers-ShrinkwrapP.jpg
+      .. figure:: /images/modifier-shrinkwrapp.jpg
 
       This will project vertices along a chosen axis until they touch the shrink target.
       Vertices that never touch the shrink target are left in their original position.
@@ -66,7 +66,7 @@ Mode
          An additional object to project over.
 
    Nearest Vertex
-      .. figure:: /images/Modifiers-ShrinkwrapNV.jpg
+      .. figure:: /images/modifier-shrinkwrapnv.jpg
 
       This will snap vertices to the nearest vertex of the shrink target. It adds no extra options.
 

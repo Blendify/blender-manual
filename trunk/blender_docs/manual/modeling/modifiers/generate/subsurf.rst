@@ -31,7 +31,7 @@ You can see the difference between the two in the grid image below.
 Modifier Settings
 =================
 
-.. figure:: /images/Modifiers-Subsurf.jpg
+.. figure:: /images/modifier-subsurf.jpg
 
    Modifier's Panel
 
@@ -72,7 +72,7 @@ Options:
       When enabled, the UV maps will also be subsurfed
       (i.e. Blender will add "virtual" coordinates for all sub-faces created by this modifier).
       
-   .. figure:: /images/Modifiers-Generate-Subsurf-SubdivideUVs.jpg
+   .. figure:: /images/modifier-generate-subsurf-subdivideuvs.jpg
 
       Subdivide UVs on and off
 

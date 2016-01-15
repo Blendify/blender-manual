@@ -3,7 +3,7 @@
 Smooth Modifier
 ***************
 
-.. figure:: /images/Modifiers-Mesh-Smooth-example01.jpg
+.. figure:: /images/modifier-mesh-smooth-example01.jpg
 
    Smooth modifier applied to a subdivided cube
 

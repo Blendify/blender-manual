@@ -3,7 +3,7 @@
 Hook Modifier
 *************
 
-.. figure:: /images/Modifiers-Hook-example1.jpg
+.. figure:: /images/modifier-hook-example1.jpg
 
    Two spheres used as Hooks to deform a subdivided cube.
 
@@ -22,7 +22,7 @@ they have the advantage that you can grab vertices directly for manipulation.
 Options
 =======
 
-.. figure:: /images/Modifiers-Hook.jpg
+.. figure:: /images/modifier-hook.jpg
 
    Hook modifier
 

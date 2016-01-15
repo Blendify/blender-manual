@@ -11,7 +11,7 @@ flexible way by using 2 objects to select the "from" and "to" regions,
 with options for using a curve falloff, texture and vertex group.
 
 
-.. figure:: /images/Modifiers-Warp-example02.jpg
+.. figure:: /images/modifier-warp-example02.jpg
 
    Warp modifier applied to a grid
 
@@ -27,7 +27,7 @@ in Edit Mode.
 Options
 =======
 
-.. figure:: /images/Modifiers-Warp-example01.jpg
+.. figure:: /images/modifier-warp-example01.jpg
 
    Warp modifier
 

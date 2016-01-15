@@ -17,7 +17,7 @@ the curve endings.
 Options
 =======
 
-.. figure:: /images/Modifiers-Curve.jpg
+.. figure:: /images/modifier-curve.jpg
 
    Curve modifier
 
@@ -58,7 +58,7 @@ Let's make a simple example:
 - Assign the curve to the modifier, as shown below. The Monkey should be positioned on the curve:
 
 
-.. figure:: /images/Modifiers-Curve.jpg
+.. figure:: /images/modifier-curve.jpg
 
    Assign the Bezier curve to the Curve modifier (for Monkey)
 
