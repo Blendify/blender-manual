@@ -14,7 +14,7 @@ Time
 ----
 
 
-.. figure:: /images/textureNodes-time.jpg
+.. figure:: /images/texture-nodes-time.jpg
    :width: 200px
 
    Time node
@@ -39,7 +39,7 @@ The shape of the curve can be manipulated to vary the output over time in differ
       Causes the curve to stay horizontal before the first point and after the last point.
 
 
-.. figure:: /images/textureNodes-time-extendHorizontal.jpg
+.. figure:: /images/texture-nodes-time-extendHorizontal.jpg
    :width: 150px
 
    Extend Horizontal
@@ -50,7 +50,7 @@ The shape of the curve can be manipulated to vary the output over time in differ
       based on the shape of the curve.
 
 
-.. figure:: /images/textureNodes-time-extendExtrapolate.jpg
+.. figure:: /images/texture-nodes-time-extendExtrapolate.jpg
    :width: 150px
 
    Extend Extrapolate
@@ -74,7 +74,7 @@ Clipping Options:
 Coordinates
 ===========
 
-.. figure:: /images/textureNodes-coordinate2.jpg
+.. figure:: /images/texture-nodes-coordinate2.jpg
 
    Coordinates node
 
@@ -90,7 +90,7 @@ relative to its bounding box as RGB colors:
 Texture Node
 ============
 
-.. figure:: /images/textureNodes-texture.jpg
+.. figure:: /images/texture-nodes-texture.jpg
 
    Texture node
 
@@ -104,7 +104,7 @@ Color 1 and Color 2
 Image Node
 ==========
 
-.. figure:: /images/textureNodes-image.jpg
+.. figure:: /images/texture-nodes-image.jpg
 
    Image node
 

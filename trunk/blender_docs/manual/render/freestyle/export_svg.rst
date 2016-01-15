@@ -5,7 +5,7 @@ Freestyle SVG Exporter
 
 SVG exporting for Freestyle is available through an addon.
 
-.. figure:: /images/render_freestyle_svg_car.png
+.. figure:: /images/render-freestyle_svg_car.png
    :width: 600px
    :align: center
 
@@ -21,7 +21,7 @@ output path (*Properties* > *Render* > *Output*).
 Options
 =======
 
-.. figure:: /images/render_freestyle_ui_svg_exporter.png
+.. figure:: /images/render-freestyle_ui_svg_exporter.png
    :width: 300px
    :align: right
 
@@ -62,7 +62,7 @@ The exporter supports the creation of SVG animations. When the Mode is set to An
 one when rendering a frame (f12) or all when rendering an animation (shift f12) - into a single file.
 Most modern browsers support the rendering of SVG animations.
 
-.. figure:: /images/render_freestyle_svg_rotating_cube.svg
+.. figure:: /images/render-freestyle_svg_rotating_cube.svg
    :width: 600px
    :align: center
 
@@ -77,7 +77,7 @@ the Contour and External Contour edge type, combined with some predicates. The f
 the SVG renderer cannot correctly draw the path that the exporter has generated. This problem is extra apparent in
 animations.
 
-.. figure:: /images/render_freestyle_svg_pallet.svg
+.. figure:: /images/render-freestyle_svg_pallet.svg
    :width: 600px
    :align: center
 

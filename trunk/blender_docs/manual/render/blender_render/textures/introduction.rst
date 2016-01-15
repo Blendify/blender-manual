@@ -37,7 +37,7 @@ Blender allows the user to apply *textures* which can modify the reflectivity, s
 roughness and other surface qualities of a material.
 
 
-.. figure:: /images/Textures-Layers.jpg
+.. figure:: /images/texture-layers.jpg
    :width: 320px
 
    Textures Layer on base Material

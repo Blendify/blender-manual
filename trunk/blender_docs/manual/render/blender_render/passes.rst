@@ -44,7 +44,7 @@ Various things that are calculated in a standard render include:
 
 The answer to each of the above questions is an image or map, as shown below:
 
-.. figure:: /images/Render-RenderPasses-Example.jpg
+.. figure:: /images/render-renderpasses-example.jpg
    :width: 600px
 
 
@@ -175,7 +175,7 @@ elsewhere:
 Recoloring Shadows
 ------------------
 
-.. figure:: /images/Render-RenderPasses-Example2.jpg
+.. figure:: /images/render-renderpasses-example2.jpg
    :width: 300px
 
 
@@ -221,7 +221,7 @@ where Anakin Skywalker already casts the shadow of Darth Vader.)
 Compositing Ambient Occlusion
 -----------------------------
 
-.. figure:: /images/Render-Passes-AO.jpg
+.. figure:: /images/render-passes-ao.jpg
    :width: 600px
 
 

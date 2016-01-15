@@ -3,7 +3,7 @@
 Blend
 *****
 
-.. figure:: /images/Textures-Procedural-Blend.jpg
+.. figure:: /images/texture-procedural-blend.jpg
 
    Blend Texture Panels
 

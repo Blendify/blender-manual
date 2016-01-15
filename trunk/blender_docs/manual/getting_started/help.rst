@@ -57,7 +57,7 @@ General Web-based Help
    and have a connection to the Internet.
 
 
-.. figure:: /images/getting_started_help_menu.png
+.. figure:: /images/getting_started-help_menu.png
    :width: 200px
    :align: right
 
@@ -154,6 +154,6 @@ There are some Internet Based Help options that are also present in the Blender
 They are presented as the same links you will find at the *Help* Menu.
 
 
-.. figure:: /images/getting_started_help_splash.png
+.. figure:: /images/getting_started-help_splash.png
 
    Blender Splash Screen, Blender Version 2.76b

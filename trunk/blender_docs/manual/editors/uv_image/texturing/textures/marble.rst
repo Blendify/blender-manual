@@ -3,7 +3,7 @@
 Marble
 ******
 
-.. figure:: /images/Textures-Procedural-Marble.jpg
+.. figure:: /images/texture-procedural-marble.jpg
 
    Marble Texture Panels
 

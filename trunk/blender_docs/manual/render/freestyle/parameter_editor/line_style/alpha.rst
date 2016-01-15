@@ -124,7 +124,7 @@ Noise
 
 The *Noise* modifier uses a pseudo-random number generator to variably distribute transparency along the stroke.
 
-.. figure:: /images/render_freestyle_ui_alpha_noise.png
+.. figure:: /images/render-freestyle_ui_alpha_noise.png
    :width: 300px
    :align: right
 
@@ -147,7 +147,7 @@ Mapping
 Tangent
 -------
 
-.. figure:: /images/render_freestyle_ui_alpha_tangent.png
+.. figure:: /images/render-freestyle_ui_alpha_tangent.png
    :width: 300px
    :align: right
 
@@ -178,7 +178,7 @@ and the normal direction of the surface at the point.
 For radial curvatures to be calculated (and therefore for this modifier to have any effect),
 the *Face Smoothness* option has to be turned on and the object needs to have *Smooth Shading*.
 
-.. figure:: /images/render_freestyle_ui_alpha_curvature3d.png
+.. figure:: /images/render-freestyle_ui_alpha_curvature3d.png
    :width: 300px
    :align: right
 
@@ -197,7 +197,7 @@ Min Curvature and Max Curvature
 Crease Angle
 ------------
 
-.. figure:: /images/render_freestyle_alpha_crease_angle.png
+.. figure:: /images/render-freestyle_alpha_crease_angle.png
    :width: 400px
    :align: center
 
@@ -210,7 +210,7 @@ A modifier based on the Crease Angle (angle between two adjacent faces). If a st
 <http://www.blender.org/api/blender_python_api_2_74_release/freestyle.types.html#freestyle.types.Nature>`__),
 its alpha value is not touched by this modifier.
 
-.. figure:: /images/render_freestyle_ui_alpha_crease_angle.png
+.. figure:: /images/render-freestyle_ui_alpha_crease_angle.png
    :width: 300px
    :align: right
 

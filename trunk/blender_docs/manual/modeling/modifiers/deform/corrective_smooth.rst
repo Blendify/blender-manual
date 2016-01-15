@@ -24,7 +24,7 @@ Smoothing
 Options
 =======
 
-.. figure:: /images/modifier_corrective_smooth_ui.png
+.. figure:: /images/modifier-corrective_smooth_ui.png
 
    Corrective smooth modifier
 
@@ -83,7 +83,7 @@ Here is an example of a character using a simple rig using only bone envelopes *
 
    * - Armature Only
      - Armature & Corrective Smooth
-   * - .. figure:: /images/modifier_corrective_smooth_example_pose_before.png
+   * - .. figure:: /images/modifier-corrective_smooth_example_pose_before.png
           :scale: 66%
-     - .. figure:: /images/modifier_corrective_smooth_example_pose_after.png
+     - .. figure:: /images/modifier-corrective_smooth_example_pose_after.png
           :scale: 66%

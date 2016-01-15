@@ -13,7 +13,7 @@ with existing ones.
 Options
 =======
 
-.. figure:: /images/modifier_normal_edit_ui.png
+.. figure:: /images/modifier-normal_edit_ui.png
 
    Normal Edit modifier.
 

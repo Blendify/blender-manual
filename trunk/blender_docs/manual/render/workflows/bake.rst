@@ -49,7 +49,7 @@ but will have much fewer faces/polygons.
 Options
 =======
 
-.. figure:: /images/Render-Bake-AO.jpg
+.. figure:: /images/render-bake-ao.jpg
    :width: 329px
 
    Ambient Occlusion
@@ -78,13 +78,13 @@ Shadow
 Bakes shadows and lighting.
 
 
-.. figure:: /images/Render-Bake-Norm.jpg
+.. figure:: /images/render-bake-norm.jpg
    :width: 330px
 
    Normals
 
 
-.. figure:: /images/Render-Bake-NormSpace.jpg
+.. figure:: /images/render-bake-normspace.jpg
    :width: 217px
 
    Normal Space
@@ -119,7 +119,7 @@ Textures
 Bakes colors of materials and textures only, without shading.
 
 
-.. figure:: /images/Render-Bake-Disp.jpg
+.. figure:: /images/render-bake-disp.jpg
    :width: 329px
 
    Displacement
@@ -170,7 +170,7 @@ Specular Color and Intensity
 Bakes specular color or specular intensity values.
 
 
-.. figure:: /images/Render-Bake-FullRender.jpg
+.. figure:: /images/render-bake-fullrender.jpg
    :width: 328px
 
    Full Render

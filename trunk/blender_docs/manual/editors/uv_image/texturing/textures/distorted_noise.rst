@@ -3,7 +3,7 @@
 Distorted Noise
 ***************
 
-.. figure:: /images/Textures-Procedural-DistNoise.jpg
+.. figure:: /images/texture-procedural-distnoise.jpg
 
    Distorted Noise Texture Panels
 

@@ -27,7 +27,7 @@ you can also use any external paint program. For example,
 GIMP is a full-featured image manipulation program that is also open-source.
 
 
-.. figure:: /images/textures-painting.jpg
+.. figure:: /images/texture-painting.jpg
    :width: 400px
 
    Texture painting in Blender
@@ -55,7 +55,7 @@ After you have done one of these two things,
 you can modify the image using the Texture Paint mode:
 
 
-.. figure:: /images/textures-painting-paintMode.jpg
+.. figure:: /images/texture-painting-paintMode.jpg
    :width: 250px
 
    Enabling paint mode
@@ -139,7 +139,7 @@ color.
 Brush
 -----
 
-.. figure:: /images/textures-painting-brush.jpg
+.. figure:: /images/texture-painting-brush.jpg
    :width: 200px
 
    Brush Settings
@@ -202,7 +202,7 @@ Alpha
 Texture
 -------
 
-.. figure:: /images/textures-painting-brushTexture.jpg
+.. figure:: /images/texture-painting-brushTexture.jpg
    :width: 250px
 
    Texture options and example

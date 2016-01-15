@@ -27,7 +27,7 @@ depending on the given TV set that your audience watches the video on.
 Dimensions Presets
 ==================
 
-.. figure:: /images/Render-Dimensions-Presets.jpg
+.. figure:: /images/render-dimensions-presets.jpg
 
 The rendering size is strictly dictated by the TV standard.
 There are various popular presets included, more can be added for your convenience.
@@ -123,7 +123,7 @@ A noticeable jitter of the edges of moving objects would be present.
 Options
 -------
 
-.. figure:: /images/Render-to-Fields.jpg
+.. figure:: /images/render-to-fields.jpg
 
    Field Rendering setup.
 

@@ -3,7 +3,7 @@
 Magic
 *****
 
-.. figure:: /images/Textures-Procedural-Magic.jpg
+.. figure:: /images/texture-procedural-magic.jpg
 
    Magic Texture Panels
 

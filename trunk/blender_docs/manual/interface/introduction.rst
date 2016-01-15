@@ -26,7 +26,7 @@ Blender also makes heavy use of keyboard shortcuts to speed up work and allows c
 User Interface Principles
 =========================
 
-.. figure:: /images/getting_started_basics_interface_introduction_03.jpg
+.. figure:: /images/getting_started-basics_interface_introduction_03.jpg
 
    This is an example of Blender's multiple window support.
 
@@ -48,7 +48,7 @@ Non Modal Tools
 Screen Elements
 ===============
 
-.. figure:: /images/getting_started_basics_interface_introduction_05.png
+.. figure:: /images/getting_started-basics_interface_introduction_05.png
    :align: right
    :width: 350
 
@@ -61,7 +61,7 @@ The composition of various Areas with predefined Editors in them is
 called a *Screen Layout*. By default Blender starts up with a layout of
 5 Editors as shown in the image below.
 
-.. figure:: /images/getting_started_basics_interface_introduction_02.png
+.. figure:: /images/getting_started-basics_interface_introduction_02.png
 
    Blender's default Screen Layout with 5 Editors: Info (1), 3D View
    (2), Outliner (3), Properties (4) and Timeline (5)
@@ -75,7 +75,7 @@ a specific part of Blender.
 
 The image below shows the 3D View as an example of an editor.
 
-.. figure:: /images/getting_started_basics_interface_introduction_04.png
+.. figure:: /images/getting_started-basics_interface_introduction_04.png
 
    The 3D View
 
@@ -132,7 +132,7 @@ See: :doc:`Headers </interface/window_system/headers>` for details.
 Panels
 ======
 
-.. figure:: /images/getting_started_basics_interface_introduction_06.png
+.. figure:: /images/getting_started-basics_interface_introduction_06.png
    :align: right
 
 The smallest organizational unit in the user interface is a panel,
@@ -153,7 +153,7 @@ See: :doc:`panels </interface/panels>` for details.
 Tabs
 ====
 
-.. figure:: /images/getting_started_basics_interface_introduction_07.png
+.. figure:: /images/getting_started-basics_interface_introduction_07.png
    :align: right
 
 The Toolshelf has been further structured

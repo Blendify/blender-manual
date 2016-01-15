@@ -234,7 +234,7 @@ Concave NGons
 While NGons are supported,
 concave ngons may give ugly overlapping results.
 
-.. figure:: /images/modifier_subsurf_ngon_concave.png
+.. figure:: /images/modifier-subsurf_ngon_concave.png
    :width: 300px
 
    The ngons on the right show overlapping subsurf result.

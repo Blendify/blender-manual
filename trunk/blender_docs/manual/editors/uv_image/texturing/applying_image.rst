@@ -27,7 +27,7 @@ The image is an outline of the UV face mapping.
 Activating the tool brings up the File Browser Window with options for saving the layout:
 
 
-.. figure:: /images/textures-uv-layout-export.jpg
+.. figure:: /images/texture-uv-layout-export.jpg
 
    Export Options
 
@@ -57,12 +57,12 @@ For using images as textures, see the page on :doc:`Image Textures </render/blen
 
 .. list-table::
 
-   * - .. figure:: /images/textures-uv-layout.jpg
+   * - .. figure:: /images/texture-uv-layout.jpg
           :width: 250px
 
           A UV Layout in the UV Editor          
 
-     - .. figure:: /images/textures-uv-layout2.jpg
+     - .. figure:: /images/texture-uv-layout2.jpg
           :width: 250px
 
           A UV Layout in the Image Editor
@@ -98,7 +98,7 @@ the Proper way and the Quick Way:
 Use UV Coordinates
 ------------------
 
-.. figure:: /images/textures-uv-coords.jpg
+.. figure:: /images/texture-uv-coords.jpg
 
    A texture setup to map using its UV coordinates
 
@@ -128,7 +128,7 @@ Full details of using Image textures are on the
 Face Textures
 -------------
 
-.. figure:: /images/textures-uv-layout-facetex.jpg
+.. figure:: /images/texture-uv-layout-facetex.jpg
 
    The Material panel with activated Face Textures button.
 
@@ -174,7 +174,7 @@ Editor window Image}} menu to *Replace* the current image with an existing file
 New Images
 ----------
 
-.. figure:: /images/textures-uv-layout-testGrid.jpg
+.. figure:: /images/texture-uv-layout-testGrid.jpg
    :width: 200px
 
    The new Image dialogue
@@ -216,12 +216,12 @@ look like cloth, you do NOT want any stretching (unless you want the cloth to lo
 
 .. list-table::
 
-   * - .. figure:: /images/textures-uv-layout-testGrid2.jpg
+   * - .. figure:: /images/texture-uv-layout-testGrid2.jpg
           :width: 250px
 
           The test grid applied to the UVs          
 
-     - .. figure:: /images/textures-uv-layout-testGrid3.jpg
+     - .. figure:: /images/texture-uv-layout-testGrid3.jpg
           :width: 250px
 
           A preview of the texture on the geometry
