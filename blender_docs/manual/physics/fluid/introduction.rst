@@ -9,7 +9,7 @@ These can include but not limited to, being a fluid or as an obstacle.
 For a fluid simulation you have to have a domain to define the space that the simulation takes up.
 In the domain settings you will be be able to define the global simulation parameters (such as viscosity and gravity).
 
-.. figure:: /images/fluidsim-example1.jpg
+.. figure:: /images/physics_fluid_example.jpg
 
    Example of Fluid Simulation
 

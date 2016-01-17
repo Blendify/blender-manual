@@ -33,7 +33,7 @@ This object will be *replaced* by the fluid during the simulation.
 Options
 -------
 
-.. figure:: /images/Fluid_domainpanel.jpg
+.. figure:: /images/physics_fluid_types_domain.jpg
 
    The fluid simulation options with Domain selected
 
@@ -51,12 +51,12 @@ Resolution
 
       .. list-table::
 
-         * - .. figure:: /images/Fluid-70res.jpg
+         * - .. figure:: /images/physics_fluid_types_domain_ resolution_low.jpg
                 :width: 270px
 
                 10cm mug at Resolution 70.
 
-           - .. figure:: /images/Fluid-200res.jpg
+           - .. figure:: /images/physics_fluid_types_domain_ resolution_high.jpg
                 :width: 270px
 
                 10cm mug at Resolution 200.
@@ -139,7 +139,7 @@ Reverse fluid frames
 Domain World
 ============
 
-.. figure:: /images/Fluid_domainworld.jpg
+.. figure:: /images/physics_fluid_types_domain_ world.jpg
 
    The Domain World options.
 
@@ -316,7 +316,7 @@ Generate Particles
    To use it, you have to have a surface subdivision value of at least 2.
 
 
-.. figure:: /images/FluidSimParts.jpg
+.. figure:: /images/physics_fluid_types_domain_ particals.jpg
    :width: 600px
 
    An example of the effect of particles can be seen here - the image to the left was simulated without,
