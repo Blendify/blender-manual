@@ -3,7 +3,7 @@
 Fluid Object
 ************
 
-.. figure:: /images/fluids_fluid.jpg
+.. figure:: /images/physics_fluid_types_fluid.jpg
    :width: 300px
 
    Fluid object settings

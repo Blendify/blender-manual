@@ -4,7 +4,7 @@
 Fluid Particle
 **************
 
-.. figure:: /images/fluids_particle.jpg
+.. figure:: /images/physics_fluid_types_partical.jpg
    :width: 300px
 
    Fluid particle settings

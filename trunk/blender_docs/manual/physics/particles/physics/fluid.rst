@@ -3,7 +3,7 @@
 Fluid Physics
 *************
 
-.. figure:: /images/Fluid.jpg
+.. figure:: /images/physics_particles_fluid.jpg
 
    Fluid Physics Settings.
 
