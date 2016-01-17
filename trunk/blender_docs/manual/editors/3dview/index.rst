@@ -9,6 +9,7 @@
 
    introduction.rst
    navigate/index.rst
+   objects/index.rst
    selecting.rst
    transform/index.rst
    groups.rst
