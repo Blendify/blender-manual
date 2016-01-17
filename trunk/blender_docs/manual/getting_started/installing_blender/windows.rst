@@ -15,7 +15,7 @@ The ``.exe`` will run an installer to choose where to place Blender
 and to configure MS-Windows to have an entry on the menu and to open ``.blend`` files with Blender.
 Administrator rights are needed to install Blender on your system.
 
-.. figure:: /images/Windows_installer.jpg
+.. figure:: /images/getting_started_installing_windows.png
 
 .. note::
 
@@ -25,4 +25,3 @@ Administrator rights are needed to install Blender on your system.
    There is no installer to place Blender on the menu, but there is also no need for administrator rights.
    With this option it is possible to have multiple versions of Blender without conflicting,
    as they are not actually installed on the system.
-
