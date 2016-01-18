@@ -20,6 +20,26 @@ for the big images and may take some time. After computing them, though,
 editing functions like scrubbing and scrolling is much faster but gives a low-res result.
 Make sure to disable proxies before final rendering.
 
+Build Original
+   Used to define which resolutions of proxy images should be built.
+Build Undistorted
+   Builds images from undistorted original images for the sizes set above.
+   This helps provide faster playback of undistorted footage.
+Quality
+   Defines the quality of the JPEG's used for proxies.
+Proxy Custom Directory
+   By default, all generated proxy images are storing to the <path of original footage>/BL_proxy/<clip name> folder,
+   but this location can be set by hand using this option.
+Rebuild Proxy
+   Regenerates proxy images for all sizes set above and regenerate all timecodes which can be used later.
+Timecode
+   See `Timecode`_.
+Proxy Render Size
+   defines which proxy image resolution is used for display.
+   If **Render Undistorted** is set, then images created from undistorted frames are used.
+   If there's no generated proxies, render size is set to "No proxy, full render",
+   and render undistorted is enabled, undistortion will happen automatically on frame draw.
+
 
 Timecode
 ========
