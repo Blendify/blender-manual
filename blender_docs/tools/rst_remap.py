@@ -197,11 +197,12 @@ def remap_finish_rst(base_path, remap_rst_src, remap_rst_dst):
     # now move PO files
     if os.path.exists(LOCALE_DIR):
         import subprocess
-        from subprocess import check_call
+        from subprocess import check_call, check_output
 
         # first check we have working svn installed
         try:
-            check_call(["svn", "help"])
+            # don't log to stdout (annoying)
+            check_output(["svn", "help"])
             has_svn = True
         except:
             print("warning: command 'svn' not found in your PATH, not updating translations!")
