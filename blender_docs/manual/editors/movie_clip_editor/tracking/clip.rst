@@ -1,6 +1,7 @@
-############
-  Clip View
-############
+
+*********
+Clip View
+*********
 
 Introduction
 ============
@@ -452,47 +453,6 @@ Marker Panel
 This panel contains numerical settings for marker position,
 pattern and search area dimensions, and offset of anchor point from pattern center.
 All sliders are self-explanatory.
-
-
-Proxy/Timecode Panel
-^^^^^^^^^^^^^^^^^^^^
-
-.. figure:: /images/movie_tracking_clip_editor_proxy_timecode_panel.jpg
-   :align: right
-   :width: 130px
-
-   Proxy/Timecode Panel
-
-This panel contains options used for image proxies and timecodes for movies.
-
-Proxy allows displaying images with lower resolution in the clip editor. This can be helpful
-in cases when tracking of 4K footage is happening on a machine with a small amount of RAM.
-
-The first four options are used to define which resolutions of proxy images should be built.
-Currently it's possible to build images 25%, 50%, 75% and 100% of the original image size.
-Proxy size of 100% can be used for movies which contain broken frames which can't be decoded.
-
-**Build Undistorted** means that the proxy builder also creates images from undistorted original images for the
-sizes set above. This helps provide faster playback of undistorted footage.
-
-Generated proxy images are encoding using JPEG,
-and the quality of the JPEG codec is controlled with the **Quality** slider.
-
-By default, all generated proxy images are storing to the <path of original
-footage>/BL_proxy/<clip name> folder,
-but this location can be set by hand using the **Proxy Custom Directory** option.
-
-*Rebuild Proxy* will regenerate proxy images for all sizes set above and
-regenerate all timecodes which can be used later.
-
-**Use Timecode Index** can (and better be used) for movie files.
-Basically, timecode makes frame search faster and more accurate.
-Depending on your camera and codec, different timecodes can give better result.
-
-**Proxy Render Size** defines which proxy image resolution is used for display.
-If **Render Undistorted** is set, then images created from undistorted frames are used.
-If there's no generated proxies, render size is set to "No proxy, full render",
-and render undistorted is enabled, undistortion will happen automatically on frame draw.
 
 
 Tools available in reconstruction mode
