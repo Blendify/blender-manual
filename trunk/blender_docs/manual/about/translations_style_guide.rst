@@ -11,7 +11,7 @@ This page covers conventions concerning the translations.
    - The license of the translations is CC0 (public domain) as is the original.
 
 
-Should I translate \*..\* ?
+Should I translate \.\. ?
 ===========================
 
 Maybe
@@ -47,7 +47,7 @@ Text you don't understand
 Technical Terms
 ===============
 
-.. Taken from http://wiki.blender.org/index.php/Meta:Guides/Translation_Guide
+.. Modified from http://wiki.blender.org/index.php/Meta:Guides/Translation_Guide
 
 In general, the technical terms used in CG are quite new or even downright neologisms invented for the needs,
 so they do not always have a translation in your language. Moreover,
@@ -59,9 +59,11 @@ You can then find a translation for it, which you will use from times to times (
 This is also valid in the other way: even when a term has a straightforward translation,
 don't hesitate to use its English version from times to times, to gets the reader used with it...
 
-If a term is definitively not translatable, just give its definition one time (*per pages*, preferably),
-then always use its English version.
+If a term is definitively not translatable, simply use the English one,
+but make sure it's manual entry is translated. 
 
+In the manual, the English term is written first (to maintain alphabetic order)
+with the translated entry following in parenthesis, when appropiate.
 
 Adding Text
 ===========
