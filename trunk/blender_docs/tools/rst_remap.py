@@ -91,7 +91,7 @@ def image_files(path):
 
         for filename in filenames:
             ext = os.path.splitext(filename)[1]
-            if ext.lower() in {".jpg", ".jpeg", ".png", ".svg"}:
+            if ext.lower() in {".jpg", ".jpeg", ".png", ".gif", ".svg"}:
                 yield os.path.join(dirpath, filename)
 
 
