@@ -6,6 +6,9 @@ Introduction
 When set to hair mode, particle system creates only static particles,
 which may be used for hair, fur, grass and the like.
 
+.. figure:: /images/physics_particles_hair_example.jpg
+
+   Particle hair systems example. Used for the grass and fur.
 
 Growing
 =======
@@ -116,19 +119,10 @@ Render
 Hair can be rendered as a Path, Object, or Group.
 See :doc:`Particle Visualization </physics/particles/visualization>` for descriptions.
 
+.. seealso::
 
-Usage
-=====
+   - `Fur Tutorial <http://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Furry>`__,
+     which produced The image above. It deals especially with short hair.
 
-.. figure:: /images/fur_withparticles-finished.jpg
-   :width: 400px
-
-   Particle systems may get hairy...
-
-
-- `Fur Tutorial <http://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Furry>`__,
-  which produced The image above. It deals especially with short hair.
-
-
-- `Blender Hair Basics <http://www.youtube.com/watch?v=kpLaxqemFU0>`__,
-  a thorough overview of all of the hair particle settings.
+   - `Blender Hair Basics <http://www.youtube.com/watch?v=kpLaxqemFU0>`__,
+     a thorough overview of all of the hair particle settings.
