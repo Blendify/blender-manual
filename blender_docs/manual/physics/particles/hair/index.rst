@@ -8,5 +8,5 @@
 .. toctree::
    :maxdepth: 2
 
-   hair.rst
+   introduction.rst
    hair_dynamics.rst
