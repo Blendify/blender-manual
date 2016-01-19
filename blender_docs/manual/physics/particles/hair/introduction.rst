@@ -1,7 +1,7 @@
 
-****
-Hair
-****
+************
+Introduction
+************
 
 When set to hair mode, particle system creates only static particles,
 which may be used for hair, fur, grass and the like.
