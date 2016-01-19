@@ -23,3 +23,4 @@ and High Definition Media Interface (HDMI) formats.
    id_mask.rst
    rgb_to_bw.rst
    combine_separate.rst
+   switch_view.rst
