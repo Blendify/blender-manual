@@ -172,7 +172,7 @@ Active
 Same Types
    Lists only those objects in the current scene that are of the same types as those selected in the 3d window.
 Groups
-   Lists only :doc:`Groups </editors/3dview/groups>` and their members.
+   Lists only :doc:`Groups </editors/3dview/relationships/groups>` and their members.
 Libraries
    TODO
 Sequence
