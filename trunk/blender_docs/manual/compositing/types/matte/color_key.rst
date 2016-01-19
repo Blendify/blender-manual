@@ -3,7 +3,7 @@
 Color Key Node
 **************
 
-.. figure:: /images/compositing_nodes_chromakey.png
+.. figure:: /images/compositing_nodes_colorkey.png
    :align: right
    :width: 150px
 
