@@ -75,7 +75,7 @@ This means interesting effects such as *Copy Rotation* are unavailable directly.
 
 Your options include:
 
-- :doc:`Parenting </editors/3dview/parents>` - But not Vertex Parenting.
+- :doc:`Parenting </editors/3dview/relationships/parents>` - But not Vertex Parenting.
 - :doc:`Rigid Body Joint </rigging/constraints/relationship/rigid_body_joint>` -
   This is the one Constraint that you can set up through the UI that works in the BGE.
   It has several options, and can be very powerful - see ITS page for a detailed description and demo .blend.

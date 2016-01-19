@@ -189,7 +189,7 @@ Any object or data-block in other ``.blend`` files can be reused in the current 
 
 .. hint::
    - If you want transform properties (i.e. object data-blocks) to be "linked",
-     see the page on :doc:`parenting </editors/3dview/parents>`.
+     see the page on :doc:`parenting </editors/3dview/relationships/parents>`.
    - Material Transparency will not display when instancing dupli-groups;
      this is a known limitation of Blender's view-port.
 
