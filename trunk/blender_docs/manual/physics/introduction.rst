@@ -1,7 +1,7 @@
 
-**********************************
-Introduction to Physics Simulation
-**********************************
+************
+Introduction
+************
 
 This chapter covers various advanced Blender effects,
 often used to simulate real physical phenomena, such as:
