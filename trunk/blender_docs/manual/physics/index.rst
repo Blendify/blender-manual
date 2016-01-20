@@ -17,5 +17,4 @@
    soft_body/index.rst
    rigid_body/index.rst
    force_fields.rst
-   performances.rst
    baking.rst
