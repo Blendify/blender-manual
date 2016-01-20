@@ -458,7 +458,7 @@ All sliders are self-explanatory.
 Tools available in reconstruction mode
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: /images/movie_tracking_clip_editor_2d_stabilization_panel.jpg
+.. figure:: /images/movie_tracking_clip_editor_2d_stabilization_panel.png
    :align: right
    :width: 130px
 
