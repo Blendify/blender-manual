@@ -51,12 +51,12 @@ Resolution
 
       .. list-table::
 
-         * - .. figure:: /images/physics_fluid_types_domain_ resolution_low.jpg
+         * - .. figure:: /images/physics_fluid_types_domain_resolution_low.jpg
                 :width: 270px
 
                 10cm mug at Resolution 70.
 
-           - .. figure:: /images/physics_fluid_types_domain_ resolution_high.jpg
+           - .. figure:: /images/physics_fluid_types_domain_resolution_high.jpg
                 :width: 270px
 
                 10cm mug at Resolution 200.
@@ -139,7 +139,7 @@ Reverse fluid frames
 Domain World
 ============
 
-.. figure:: /images/physics_fluid_types_domain_ world.jpg
+.. figure:: /images/physics_fluid_types_domain_world.jpg
 
    The Domain World options.
 
@@ -268,16 +268,16 @@ Domain Boundary
 This box has all the slip and surface options.
 
 Boundary type
-    The stickiness of the surface of the obstacle,
-    to determine the "tacky surface (Surface Adhesion)."
-    In the real world, and the tackiness and fluid,
-    the granularity of the object surface, tack, determined by the elasticity.
+   The stickiness of the surface of the obstacle,
+   to determine the "tacky surface (Surface Adhesion)."
+   In the real world, and the tackiness and fluid,
+   the granularity of the object surface, tack, determined by the elasticity.
 No Slip
-    Fluid will stick To snugly (speed 0).
+   Fluid will stick To snugly (speed 0).
 Free Slip
-    Fluid will move on the object (0 normal direction of speed).
+   Fluid will move on the object (0 normal direction of speed).
 Part Slip
-    It is a two intermediate. It is almost Noslip, 1 in the Free exactly the same in 0.
+   It is a two intermediate. It is almost Noslip, 1 in the Free exactly the same in 0.
 
 *Surface*
 
@@ -316,7 +316,7 @@ Generate Particles
    To use it, you have to have a surface subdivision value of at least 2.
 
 
-.. figure:: /images/physics_fluid_types_domain_ particals.jpg
+.. figure:: /images/physics_fluid_types_domain_particals.jpg
    :width: 600px
 
    An example of the effect of particles can be seen here - the image to the left was simulated without,
