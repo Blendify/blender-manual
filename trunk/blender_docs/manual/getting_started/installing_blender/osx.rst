@@ -24,7 +24,7 @@ Performance
 ===========
 
 Often when doing CPU intensive tasks in Blender you might have poor performance.
-This can especially be true when :doc:`Baking Physics Simulations </getting_started/installing_blender/installing>`.
+This can especially be true when :doc:`Baking Physics Simulations </physics/baking`.
 This is due to a feature called OpenMP that Blender uses to do multiple calculations at once.
 However, it is a known issue on OSX that this will not work properly.
 This is due to how the domain splitting distributes threads to cells which are sometimes
