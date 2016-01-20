@@ -26,7 +26,7 @@ It can be used for skin, rubber, and even clothes, even though there is separate
 
 :doc:`Rigid Bodies </physics/rigid_body/index>` can simulate dynamic objects that are fairly rigid.
 
-:doc:`Fluids </physics/fluid/index>`, which include liquids and gasses, can be simulated,
+:doc:`Fluids </physics/fluid/index>`, which include liquids and gases, can be simulated,
 including :doc:`Smoke </physics/smoke/index>`.
 
 :doc:`Force Fields </physics/force_fields>` can modify the behavior of simulations.
@@ -48,3 +48,7 @@ The most popular and probably not colonized **Mars** has ``g = 3.69``.
 
 Note that you can scale down the gravity value per physics system in the *Field Weights tab.*
 
+.. note::
+
+   When using OSX you might have poor performance when doing physics simulations.
+   To fix these issues see the :ref:`OSX Performance <osx-performance>`.
