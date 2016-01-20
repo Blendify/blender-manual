@@ -108,15 +108,23 @@ def remap_data_create(base_path):
     remap_rst = {}
     for fn in rst_files(base_path):
         file_hash = uuid_from_file(fn)
-        file_rstpath = compat_path(os.path.splitext(os.path.relpath(fn, base_path))[0])
-        remap_rst[file_hash] = file_rstpath
+        file_path = compat_path(os.path.splitext(os.path.relpath(fn, base_path))[0])
+        file_path_prev = remap_rst.get(file_hash)
+        if file_path_prev is not None:
+            print("Duplicate file contents: %r, %r" % (file_path_prev, file_path))
+        else:
+            remap_rst[file_hash] = file_path
 
     # images keep their extension
     remap_images = {}
     for fn in image_files(base_path):
         file_hash = uuid_from_file(fn)
-        file_rstpath = compat_path(os.path.relpath(fn, base_path))
-        remap_images[file_hash] = file_rstpath
+        file_path = compat_path(os.path.relpath(fn, base_path))
+        file_path_prev = remap_images.get(file_hash)
+        if file_path_prev is not None:
+            print("Duplicate file contents: %r, %r" % (file_path_prev, file_path))
+        else:
+            remap_images[file_hash] = file_path
 
     return (remap_rst, remap_images)
 
