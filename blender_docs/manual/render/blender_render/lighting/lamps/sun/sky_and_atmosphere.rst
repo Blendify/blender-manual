@@ -195,7 +195,7 @@ And now, the effects of various settings (examples created with
 .. list-table::
    Variations in *Turbidity* parameter, all other settings to default.
 
-   * - .. figure:: /images/Lighting-Lamps-Sun-SkyAtmosphere-Turbidity2_0.jpg
+   * - .. figure:: /images/Lighting-Lamps-Sun-SkyAtmosphere-Sky-BackLight1_0.jpg
           :width: 200px
 
           Turbidity: 2.0.
@@ -285,7 +285,7 @@ Sky
 
           Sun Brightness: 0.75.
 
-     - .. figure:: /images/Lighting-Lamps-Sun-SkyAtmosphere-Sky-SunBright1_0.jpg
+     - .. figure:: /images/Lighting-Lamps-Sun-SkyAtmosphere-Sky-BackLight1_0.jpg
           :width: 200px
 
           Sun Brightness: 1.0.
@@ -349,7 +349,7 @@ and *Sun Bright* to ``2.0``.
 .. list-table::
    Variations in *Sun Intensity* parameter, all other settings to default.
 
-   * - .. figure:: /images/Lighting-Lamps-Sun-SkyAtmosphere-Sky-SunIntensity1_0.jpg
+   * - .. figure:: /images/Lighting-Lamps-Sun-SkyAtmosphere-Sky-Inscattering0_1.jpg
           :width: 200px
 
           Sun Intensity: 1.0.
@@ -364,7 +364,7 @@ and *Sun Bright* to ``2.0``.
 
           Sun Intensity: 6.66.
 
-     - .. figure:: /images/Lighting-Lamps-Sun-SkyAtmosphere-Sky-SunIntensity10_0.jpg
+     - .. figure:: /images/Lighting-Lamps-Sun-SkyAtmosphere-Sky-BackLight1_0.jpg
           :width: 200px
 
           Sun Intensity: 10.0.
@@ -388,7 +388,7 @@ and *Sun Bright* to ``2.0``.
 
           Inscattering: 0.66.
 
-     - .. figure:: /images/Lighting-Lamps-Sun-SkyAtmosphere-Sky-Inscattering1_0.jpg
+     - .. figure:: /images/Lighting-Lamps-Sun-SkyAtmosphere-Sky-BackLight1_0.jpg
           :width: 200px
 
           Inscattering: 1.0.
@@ -412,7 +412,7 @@ and *Sun Bright* to ``2.0``.
 
           Extinction: 0.66.
 
-     - .. figure:: /images/Lighting-Lamps-Sun-SkyAtmosphere-Sky-Extinction1_0.jpg
+     - .. figure:: /images/Lighting-Lamps-Sun-SkyAtmosphere-Sky-BackLight1_0.jpg
           :width: 200px
 
           Extinction: 1.0.
