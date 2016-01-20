@@ -105,7 +105,7 @@ though it will deform temporarily because of the forces created during collision
 
 .. list-table::
 
-   * - .. figure:: /images/quadvstri-sb-sq-0001.jpg
+   * - .. figure:: /images/quadvstri-sb-0001.jpg
           :width: 200px
 
           Image 4a: Frame 1 with Stiff Quads.
@@ -128,7 +128,7 @@ because it has no quads anyway.
 
 .. list-table::
 
-   * - .. figure:: /images/quadvstri-sb-bs-0001.jpg
+   * - .. figure:: /images/quadvstri-sb-0001.jpg
           :width: 200px
 
           Image 5a: Frame 1 with Bending Stiffness.

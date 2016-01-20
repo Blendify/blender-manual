@@ -179,7 +179,7 @@ Minnaert
    | Panel:    Shading/Material Context --> Shaders
 
 
-.. figure:: /images/Material-Shader-Minnaert.jpg
+.. figure:: /images/Material-Shader-Lambert.jpg
    :width: 320px
 
    Minnaert Shader
