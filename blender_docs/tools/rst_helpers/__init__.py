@@ -25,7 +25,7 @@ __all__ = (
     "directive_iter",
     )
 
-def _re_iter_edit(fn, find_text, find_re, find_string):
+def _re_iter_edit(fn, find_text, find_re):
     with open(fn, "r", encoding="utf-8") as f:
         data_src = f.read()
 
@@ -33,13 +33,9 @@ def _re_iter_edit(fn, find_text, find_re, find_string):
     data_dst_ls = [data_src]
     offset = 0
     while True:
-        offset = data_dst_ls[-1].find(find_string, offset)
-        if offset == -1:
-            break
-
-        g = find_re.match(data_dst_ls[-1][offset:])
+        g = find_re.search(data_dst_ls[-1], offset)
         if g:
-            offset_next = offset + g.span()[1]
+            offset, offset_next = g.span()
             ls_orig = list(g.groups())
             ls = ls_orig[:]
             yield ls
@@ -49,7 +45,7 @@ def _re_iter_edit(fn, find_text, find_re, find_string):
             else:
                 offset = offset_next
         else:
-            offset += len(find_text)
+            break
 
     if len(data_dst_ls) != 1:
         with open(fn, "w", encoding="utf-8") as f:
@@ -66,9 +62,8 @@ def role_iter(fn, role, angle_brackets=False):
         role_re = re.compile(r"(\:" + role + "\:\`)([^\<,\n]*)(\s+\<)([^\,\n>]+)(\>\`)")
     else:
         role_re = re.compile(r"(\:" + role + "\:\`)([^`,\n]*)(\`)")
-    role_find = ":" + role + ":"
 
-    yield from _re_iter_edit(fn, role, role_re, role_find)
+    yield from _re_iter_edit(fn, role, role_re)
 
 
 def directive_iter(fn, directive):
@@ -77,8 +72,11 @@ def directive_iter(fn, directive):
     so you can loop over and manipulate roles without the hassle of involved string manipulation.
     """
     import re
-    directive_re = re.compile(r"(\.\.\s+)(" + directive + ")(\:\:\s+)([^\s,\n]*)")
-    directive_find = ".. " + directive + "::"
+    # Support basic directives:
+    # ..·image::·/images/foo.png
+    # As well as substitutions
+    # ..·|my-image|·image::·/images/foo.png
+    directive_re = re.compile(r"(\.\.\s+)(\|[^\|]+\|\s+)?(" + directive + ")(\:\:\s+)([^\s,\n]*)")
 
-    yield from _re_iter_edit(fn, directive, directive_re, directive_find)
+    yield from _re_iter_edit(fn, directive, directive_re)
 
