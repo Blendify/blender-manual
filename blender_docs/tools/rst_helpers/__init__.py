@@ -56,6 +56,30 @@ def role_iter(fn, role, angle_brackets=False):
     """
     Convenience iterator for roles,
     so you can loop over and manipulate roles without the hassle of involved string manipulation.
+
+    For the string:
+
+        :some_role:`some text <some link>`
+
+    The following list will be given:
+
+        [":some_role:`"
+         "some text",
+         " <",
+         "some link",
+         ">`",
+         ]
+
+    Or with angle_brackets=False:
+
+        :some_role:`some text`
+
+    Becomes:
+
+        [":some_role:`"
+         "some text",
+         "`"
+         ]
     """
     import re
     if angle_brackets:
@@ -70,6 +94,21 @@ def directive_iter(fn, directive):
     """
     Convenience iterator for directives,
     so you can loop over and manipulate roles without the hassle of involved string manipulation.
+
+    For the string:
+
+        .. |my-image| image:: /images/foo.png
+
+    The following list will be given:
+
+        [".. ",                 # 0
+         "|my-image|",          # 1, substitution or None if not given.
+         "image",               # 2, directive-type
+         ":: ",                 # 3
+         "/images/foo.png",     # 4, directive
+         ]
+
+    Note that directive arguments aren't currently supported.
     """
     import re
     # Support basic directives:
