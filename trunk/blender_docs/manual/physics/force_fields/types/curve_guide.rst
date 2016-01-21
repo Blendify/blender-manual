@@ -3,28 +3,44 @@
 Curve Guide
 ***********
 
-.. figure:: /images/CurveGuideForceField.jpg
+The *Curve Guild* is used to force particles to follow a certain
+path defined by a :doc:`Curve Object </modeling/curves/index>`.
 
-   Image 4a: A Curve Guide field.
+.. figure:: /images/physics_force_fields_curve_example.png
 
+   Example of Curve Guide.
 
-*Curve* objects can be the source of a *Curve Guide* field.
-You can guide particles along a certain path, they don't affect Softbodys.
-A typical scenario would be to move a red blood cell inside a vein, or to animate the particle flow in a motor.
-You can use *Curve Guide* s also to shape certain hair strands -
-though this may no longer be used as often now because we have the :doc:`Particle Mode </physics/particles/mode>`.
+A typical scenario would be to move a red blood cell inside a vein,
+or to animate the particle flow in a motor.
+You can use *Curve Guide* s also to shape certain hair strands.
+
+.. note::
+
+   You can also use the :doc:`Particle Mode </physics/particles/mode>` to define a path.
+
 Since you can animate curves as Softbody or any other usual way,
 you may build very complex animations while keeping great control and keeping the simulation time to a minimum.
 
-The option *Curve Follow* does not work for particles.
-Instead you have to set *Angular Velocity*
+The option *Curve Follow* does not work for particles. Instead you have to set *Angular Velocity*
 (in the *Physics* panel of the *Particle* sub-context)
 to *Spin* and leave the rotation constant (i.e. don't turn on *Dynamic*).
 
 *Curve Guide* s affect all particles on the same layer, independently from their distance to the curve.
 If you have several guides in a layer,
 their fields add up to each other (the way you may have learned it in your physics course).
-But you can limit their influence radius:
+But you can limit their influence radius by changing there *Minimum Distance* (see below).
+
+.. note::
+
+   The Curve Guide does not effect :doc:`Softbodys </physics/soft_body/index>`.
+
+
+Options
+=======
+
+.. figure:: /images/physics_force_fields_curve.png
+
+   Curve Guide Settings.
 
 Minimum Distance
    The distance from the curve, up to where the force field is effective with full strength.
@@ -58,29 +74,27 @@ Shape
    +0.99: the particles meet at the end of the curve.
    0: linear progression along the curve. -0.99: the particles meet at the beginning of the curve.
 
+Kink
+   Changes the shape that the particles can take:
+
+   Curl
+      The radius of the influence depends on the distance of the curve to the emitter.
+   Radial
+      A three dimensional, standing wave.
+   Wave
+      A two dimensional, standing wave.
+   Braid
+      Braid.
+   Roll
+      A one dimensional, standing wave.
+
+It is not so easy to describe the resulting shapes, so have a look at the example below.
 
 .. figure:: /images/CurveGuideKink.jpg
    :width: 400px
 
-   Image 4b: Kink options of a curve guide. From left to right: Radial, Wave, Braid, Roll.
+   Kink options of a curve guide. From left to right: Radial, Wave, Braid, Roll.
    `Animation <http://www.vimeo.com/1866538>`__
-
-
-With the drop down box *Kink*, you can vary the form of the force field:
-
-Curl
-   The radius of the influence depends on the distance of the curve to the emitter.
-Radial
-   A three dimensional, standing wave.
-Wave
-   A two dimensional, standing wave.
-Braid
-   Braid.
-Roll
-   A one dimensional, standing wave.
-
-It is not so easy to describe the resulting shapes, I hope it's shown clearly enough in
-(*Image 4b*).
 
 Frequency
    The frequency of the offset.
