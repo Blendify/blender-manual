@@ -47,7 +47,7 @@ Types of Objects
    This is the virtual camera that is used to determine what appears in the render.
 :doc:`Lamps </render/blender_render/lighting/index>`
    These are used to place light sources in the scene.
-:doc:`Force Fields </physics/force_fields>`
+:doc:`Force Fields </physics/force_fields/index>`
    Force fields are used in physical simulations.
    They give simulations external forces, creating movement,
    and are represented in 3d editor by small control objects.

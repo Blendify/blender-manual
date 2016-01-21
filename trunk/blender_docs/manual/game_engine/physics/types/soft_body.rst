@@ -141,7 +141,7 @@ Hints
 .. warning::
 
    A common practice within the non-BGE Cloth simulator is to employ
-   :doc:`Force Fields </physics/force_fields>` to animate the cloth.
+   :doc:`Force Fields </physics/force_fields/index>` to animate the cloth.
    These do not work in the BGE, so you will have to figure out a way to use Python
    (or perhaps plain Logic Bricks) to apply forces to the Soft Body objects.
 
