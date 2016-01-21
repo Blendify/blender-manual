@@ -19,15 +19,21 @@ This way after the baking is done you can automatically preview the baked result
 Options
 =======
 
-.. figure:: /images/Cycles-Bake-Combined.png
+.. figure:: /images/Cycles-Bake-AO.png
 
-   Combined Pass
+   Ambient Occlusion Pass
 
 Bake Mode
 ---------
 
 Combined
-   Bakes all materials, textures, and lighting except specularity and SSS.
+   Bakes all materials, textures, and lighting except specularity.
+
+.. figure:: /images/Cycles-Bake-Combined.png
+
+   Combined Pass Options
+
+The passes that contribute to the combined pass can be toggled individually to form the final map.
 
 Ambient Occlusion
    Bakes ambient occlusion as specified in the World panels. Ignores all lights in the scene.
@@ -38,11 +44,12 @@ Shadow
 Normals
    Bakes normals to an RGB image.
 
+.. .. figure:: /images/Cycles-Bake-Normal.png
+
+..   Normal Pass Options
+
    Normal Space
       Normals can be baked in different spaces:
-
-      World space
-         Normals in world coordinates, dependent on object transformation and deformation.
 
       Object space
          Normals in object coordinates, independent of object transformation, but dependent on deformation.
@@ -67,21 +74,18 @@ Emit
 Environment
    Bakes the environment as seen from the center of the object.
 
-Diffuse Color/Direct/Indirect
-   Bakes the diffuse pass of a material.
-   Diffuse Color is a property of the surface and independent of sampling refinement.
+Diffuse / Glossy / Transmission / Subsurface
+   Bakes the diffuse, glossiness, transmission of subsurface pass of a material.
 
-Glossy Color/Direct/Indirect
-   Bakes the glossiness of a material.
-   Glossy Color is a property of the surface and independent of sampling refinement.
+.. figure:: /images/Cycles-Bake-Diffuse.png
 
-Transmission Color/Direct/Indirect
-   Bakes the transmission of a material.
-   Transmission Color is a property of the surface and independent of sampling refinement.
+   Diffuse Pass Options
 
-Subsurface Color/Direct/Indirect
-   Bakes the subsurface pass of a material.
-   Subsurface Color is a property of the surface and independent of sampling refinement.
+If only color is selected you get the pass color, which is a property of the surface and independent of sampling refinement.
+
+If color is not selected, you get the direct and/or indirect contributions in grayscale.
+
+If color and either direct or indirect is selected you get the direct and/or indirect contributions colored.
 
 Additional Options
 ==================
