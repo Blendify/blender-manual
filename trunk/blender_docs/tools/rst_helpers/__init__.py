@@ -59,9 +59,9 @@ def role_iter(fn, role, angle_brackets=False):
     """
     import re
     if angle_brackets:
-        role_re = re.compile(r"(\:" + role + "\:\`)([^\<,\n]*)(\s+\<)([^\,\n>]+)(\>\`)")
+        role_re = re.compile(r"(\:" + role + r"\:\`)([^\<,\n]*)(\s+\<)([^\,\n>]+)(\>\`)")
     else:
-        role_re = re.compile(r"(\:" + role + "\:\`)([^`,\n]*)(\`)")
+        role_re = re.compile(r"(\:" + role + r"\:\`)([^`,\n]*)(\`)")
 
     yield from _re_iter_edit(fn, role, role_re)
 
@@ -76,7 +76,7 @@ def directive_iter(fn, directive):
     # ..·image::·/images/foo.png
     # As well as substitutions
     # ..·|my-image|·image::·/images/foo.png
-    directive_re = re.compile(r"(\.\.\s+)(\|[^\|]+\|\s+)?(" + directive + ")(\:\:\s+)([^\s,\n]*)")
+    directive_re = re.compile(r"(\.\.\s+)(\|[^\|]+\|\s+)?(" + directive + r")(\:\:\s+)([^\s,\n]*)")
 
     yield from _re_iter_edit(fn, directive, directive_re)
 
