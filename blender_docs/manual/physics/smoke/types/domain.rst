@@ -208,7 +208,7 @@ See :doc:`Baking</physics/smoke/baking>`.
 Smoke Field Weights
 ===================
 
-These settings determine how much gravity and :doc:`Force Fields</physics/force_fields>` affect the smoke.
+These settings determine how much gravity and :doc:`Force Fields</physics/force_fields/index>` affect the smoke.
 
 Effector Group
    When set, smoke can only be influenced by force fields in the specified group.

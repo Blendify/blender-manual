@@ -29,7 +29,7 @@ It can be used for skin, rubber, and even clothes, even though there is separate
 :doc:`Fluids </physics/fluid/index>`, which include liquids and gases, can be simulated,
 including :doc:`Smoke </physics/smoke/index>`.
 
-:doc:`Force Fields </physics/force_fields>` can modify the behavior of simulations.
+:doc:`Force Fields </physics/force_fields/index>` can modify the behavior of simulations.
 
 
 Gravity
