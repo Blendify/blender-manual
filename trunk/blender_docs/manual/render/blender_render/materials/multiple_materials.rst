@@ -18,7 +18,7 @@ To apply several materials to different faces of the same object,
 you use the Material Slots options (3) in the Materials header panel.
 
 
-.. figure:: /images/Material-MatMenu-MatAdded-EditMode.jpg
+.. figure:: /images/material-matmenu-matadded-editmode.jpg
 
    Material menu in edit mode
 

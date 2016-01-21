@@ -6,7 +6,7 @@ Color Nodes
 MixRGB
 ======
 
-.. figure:: /images/Material-Color-Node-Mix.jpg
+.. figure:: /images/material-color-node-mix.jpg
 
    MixRGB node
 
@@ -59,7 +59,7 @@ Clamp
 RGB Curves
 ==========
 
-.. figure:: /images/Material-Color-Node-Curves.jpg
+.. figure:: /images/material-color-node-curves.jpg
 
    RGB Curves node
 
@@ -77,7 +77,7 @@ Clicking on one of the *C R G B* components displays the curve for that channel.
 Invert
 ======
 
-.. figure:: /images/Material-Color-Node-Invert.jpg
+.. figure:: /images/material-color-node-invert.jpg
 
    Invert node
 
@@ -105,7 +105,7 @@ Color
 Hue Saturation Value
 ====================
 
-.. figure:: /images/Material-Color-Node-HSV.jpg
+.. figure:: /images/material-color-node-hsv.jpg
 
    Hue Saturation Value node
 

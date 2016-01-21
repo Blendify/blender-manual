@@ -60,18 +60,18 @@ The scale beneath the cube helps in appreciating the movement of 1 Blender unit.
 
 .. list-table::
 
-   * - .. figure:: /images/MBlur02.jpg
+   * - .. figure:: /images/render-mblur02.jpg
           :width: 320px
 
           Image 1. Frame 1 of moving cube without Motion Blur.
 
-     - .. figure:: /images/MBlur03.jpg
+     - .. figure:: /images/render-mblur03.jpg
           :width: 320px
 
           Image 2. Frame 2 of moving cube without Motion Blur.
 
 
-.. figure:: /images/MBlur04.jpg
+.. figure:: /images/render-mblur04.jpg
    :width: 320px
 
 
@@ -84,10 +84,10 @@ A value greater than 1 is physically impossible in a real-world camera, but can 
 
 .. list-table::
 
-   * - .. figure:: /images/MBlur05.jpg
+   * - .. figure:: /images/render-mblur05.jpg
           :width: 320px
 
-     - .. figure:: /images/MBlur06.jpg
+     - .. figure:: /images/render-mblur06.jpg
           :width: 320px
 
 

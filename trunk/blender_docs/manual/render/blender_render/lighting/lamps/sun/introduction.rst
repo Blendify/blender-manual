@@ -18,7 +18,7 @@ the location of a *Sun* lamp does not affect the rendered result (unless you use
 :doc:`"sky & atmosphere" option </render/blender_render/lighting/lamps/sun/sky_and_atmosphere>`).
 
 
-.. figure:: /images/Lighting-Lamps-Sun-LampPanel.jpg
+.. figure:: /images/lighting-lamps-sun-lamp_panel.jpg
    :width: 304px
 
    Sun lamp panel
@@ -41,7 +41,7 @@ The *Sun* lamp has no light falloff settings: it always uses a constant attenuat
 Sky & Atmosphere
 ================
 
-.. figure:: /images/Lighting-Lamps-Sun-SkyAtmoPanel.jpg
+.. figure:: /images/lighting-lamps-sun-sky_atmosphere_panel.jpg
    :width: 304px
 
    Sky & Atmosphere panel
@@ -55,7 +55,7 @@ and the atmosphere through which it shines, are available. For details, see
 Shadow
 ======
 
-.. figure:: /images/Lighting-Lamps-Sun-ShadPanel.jpg
+.. figure:: /images/lighting-lamps-sun-shade_panel.jpg
    :width: 304px
 
    Shadow panel

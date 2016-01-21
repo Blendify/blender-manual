@@ -27,7 +27,7 @@ the inside of the hemisphere.
 Options
 =======
 
-.. figure:: /images/Lighting-Lamps-Hemi.jpg
+.. figure:: /images/lighting-lamps-hemi.jpg
    :width: 307px
 
    Hemi lamp's panel

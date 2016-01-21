@@ -3,7 +3,7 @@
 Halo Rendering
 **************
 
-.. figure:: /images/Materials-HeloRender-Activate.jpg
+.. figure:: /images/materials-helorender-activate.jpg
    :width: 300px
 
    Activating helo rendering
@@ -22,7 +22,7 @@ or when creating a viewable light or fog/atmospherics around an actual light.
 Options
 *******
 
-.. figure:: /images/Materials-Halos.jpg
+.. figure:: /images/materials-halos.jpg
    :width: 309px
 
    Halo panels
@@ -58,7 +58,7 @@ Hardness
    Sets the hardness of the halo. Similar to specular hardness
 
 
-.. figure:: /images/Materials-HaloAdd.jpg
+.. figure:: /images/materials-haloadd.jpg
 
    Effect of Add
 
@@ -114,7 +114,7 @@ The halo size, hardness and alpha can be adjusted with the pertinent sliders.
 These are very similar to traditional material settings
 
 
-.. figure:: /images/Materials-HaloAdd.jpg
+.. figure:: /images/materials-haloadd.jpg
 
 The *Add* slider determine how much the halo colors are 'added to',
 rather than mixed with, the colors of the objects behind and together with other halos.

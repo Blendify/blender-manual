@@ -194,7 +194,7 @@ Shortcuts
 Curve Widget
 ============
 
-.. figure:: /images/Material-Color-Node-Curves.jpg
+.. figure:: /images/material-color-node-curves.jpg
 
    RGB Curves node
 
@@ -216,7 +216,7 @@ The input values are mapped to the X-axis of the graph, and the Y-axis is mapped
 Control Points
 --------------
 
-.. |delete-button| image:: /images/Material-Color-Node-Curves-Delpoints-Buticon.jpg
+.. |delete-button| image:: /images/material-color-node-curves-delpoints-buticon.jpg
 
 Like all curves in Blender, the curve of the *Curve Widget* is controlled using *control points*.
 
@@ -237,7 +237,7 @@ Controls
 Above the curve graph is a row of controls. These are:
 
 
-.. figure:: /images/Material-Vector-Node-Curves-Controls.jpg
+.. figure:: /images/material-vector-node-curves-controls.jpg
 
    Node curve controls
 
@@ -245,7 +245,7 @@ Above the curve graph is a row of controls. These are:
 Channel selector
    Allows to select appropriate curve channel.
 
-   .. figure:: /images/Material-Vector-Node-Curves-Axes.jpg
+   .. figure:: /images/material-vector-node-curves-axes.jpg
 
       Curve channel selector
 
@@ -258,7 +258,7 @@ Zoom Out
    You cannot zoom out further than the clipping borders (see *Clipping* below).
 
 Tools
-   .. figure:: /images/Material-Color-Node-Curves-Tools.jpg
+   .. figure:: /images/material-color-node-curves-tools.jpg
 
       Advanced tools for curve
 

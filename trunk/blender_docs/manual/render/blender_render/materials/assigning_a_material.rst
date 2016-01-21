@@ -5,7 +5,7 @@ Assigning a Material
 
 Materials available in the currently-open Blender file can be investigated by clicking on the Materials button
 
-.. figure:: /images/Material-MatButton.jpg
+.. figure:: /images/material-matbutton.jpg
 
    in the Properties Window Header.
    In this section we look at how to assign or remove a material to/from the Active Object in Blender, either by:
@@ -104,7 +104,7 @@ Data
    Specifies whether the material is to be linked to the Object or to the Object Data.
 
 
-.. figure:: /images/Material-MatMenu-LinkObjData.jpg
+.. figure:: /images/material-matmenu-linkobjdata.jpg
 
    Link material to object or to object's data
 
@@ -172,12 +172,12 @@ There are several ways to do this using the Available Materials menu:
    To use one, just click on it.
 
 
-.. figure:: /images/Material-MatMenu-AddFirst-SelectExistButton.jpg
+.. figure:: /images/material-matmenu-addfirst-select_exist_button.jpg
 
    Select an existing material.
 
 
-.. figure:: /images/Material-MatMenu-SearchList.jpg
+.. figure:: /images/material-matmenu-searchlist.jpg
 
    List of available materials
 

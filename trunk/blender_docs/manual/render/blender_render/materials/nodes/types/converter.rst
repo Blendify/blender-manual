@@ -9,7 +9,7 @@ As the name implies, these nodes convert the colors in the material in some way.
 ColorRamp Node
 ==============
 
-.. figure:: /images/Material-Convertor-Node-ColorRamp.jpg
+.. figure:: /images/material-convertor-node-color_ramp.jpg
 
    ColorRamp node
 
@@ -51,22 +51,22 @@ Alpha
 Controls
 --------
 
-.. figure:: /images/Material-Convertor-Node-ColorRamp-Addpoint-Buticon.jpg
+.. figure:: /images/material-convertor-node-color_ramp-addpoint-buticon.jpg
 
    Add a new mark to the center of the colorband with the default color (neutral gray).
 
 
-.. figure:: /images/Material-Convertor-Node-ColorRamp-Deletepoint-Buticon.jpg
+.. figure:: /images/material-convertor-node-color_ramp-deletepoint-buticon.jpg
 
    Remove the currently selected mark from the colorband.
 
 
-.. figure:: /images/Material-Convertor-Node-ColorRamp-Flip-Buticon.jpg
+.. figure:: /images/material-convertor-node-color_ramp-flip-buticon.jpg
 
    Flip the colorband.
 
 
-.. figure:: /images/Material-Convertor-Node-ColorRamp-Interpolation.jpg
+.. figure:: /images/material-convertor-node-color_ramp-interpolation.jpg
 
    Modes of interpolation between marker's values color ramp
 
@@ -86,7 +86,7 @@ Interpolation
       Constant.
 
 
-.. figure:: /images/Material-Convertor-Node-Colorband.jpg
+.. figure:: /images/material-convertor-node-colorband.jpg
 
    Colorband
 
@@ -96,18 +96,18 @@ Colorband
    each color acting across a certain position in the spectrum.
 
 
-.. figure:: /images/Material-Convertor-Node-ColorRamp-Numberpoint-Buticon.jpg
+.. figure:: /images/material-convertor-node-color_ramp-numberpoint-buticon.jpg
 
    The number of the active mark.
 
 
-.. figure:: /images/Material-Convertor-Node-ColorRamp-Pospoint-Buticon.jpg
+.. figure:: /images/material-convertor-node-color_ramp-pospoint-buticon.jpg
 
    *Pos*. The position of the active color mark in the colorband (range 0.0–1.0).
    The position of the color marks can also be changed by :kbd:`LMB` dragging them in the colorband.
 
 
-.. figure:: /images/Material-Convertor-Node-ColorSwatch.jpg
+.. figure:: /images/material-convertor-node-colorswatch.jpg
 
    Color swatch to color selection for a mark
 
@@ -122,7 +122,7 @@ See more details about node controls' functions :doc:`here </render/blender_rend
 RGB to BW Node
 ==============
 
-.. figure:: /images/Material-Convertor-Node-RGB-to-BW.jpg
+.. figure:: /images/material-convertor-node-rgb-to-bw.jpg
 
    RGB to BW node
 
@@ -147,7 +147,7 @@ Value
 Math Node
 =========
 
-.. figure:: /images/Material-Convertor-Node-Math.jpg
+.. figure:: /images/material-convertor-node-math.jpg
 
    Math node
 
@@ -226,7 +226,7 @@ Operation
 Vector Math Node
 ================
 
-.. figure:: /images/Material-Convertor-Node-VectorMath.jpg
+.. figure:: /images/material-convertor-node-vectormath.jpg
 
    Vector Math node
 
@@ -279,7 +279,7 @@ Operation
 Squeeze Value Node
 ==================
 
-.. figure:: /images/Material-Convertor-Node-SqueezeValue.jpg
+.. figure:: /images/material-convertor-node-squeezevalue.jpg
 
    Squeeze Value node
 
@@ -315,7 +315,7 @@ Value
 Separate RGB Node
 =================
 
-.. figure:: /images/Material-Convertor-Node-SeparateRGB.jpg
+.. figure:: /images/material-convertor-node-separatergb.jpg
 
    Separate RGB node
 
@@ -347,7 +347,7 @@ B
 Combine RGB Node
 ================
 
-.. figure:: /images/Material-Convertor-Node-CombineRGB.jpg
+.. figure:: /images/material-convertor-node-combinergb.jpg
 
    Combine RGB node
 
@@ -376,7 +376,7 @@ Image
 Separate HSV Node
 =================
 
-.. figure:: /images/Material-Convertor-Node-SeparateHSV.jpg
+.. figure:: /images/material-convertor-node-separatehsv.jpg
 
    Separate HSV node
 
@@ -420,7 +420,7 @@ V
 Combine HSV Node
 ================
 
-.. figure:: /images/Material-Convertor-Node-CombineHSV.jpg
+.. figure:: /images/material-convertor-node-combinehsv.jpg
 
    Combine HSV node
 

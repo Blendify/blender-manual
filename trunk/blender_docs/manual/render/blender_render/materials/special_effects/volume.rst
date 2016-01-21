@@ -3,7 +3,7 @@
 Volume Rendering
 ****************
 
-.. figure:: /images/Materials-VolumeRender-Activate.jpg
+.. figure:: /images/materials-volumerender-activate.jpg
    :width: 300px
 
    Activation volume rendering
@@ -72,7 +72,7 @@ and some proportion of that light reaches the camera. This property makes it pos
 light beams as they travel though a volume and are scattered towards the eye.
 
 
-.. figure:: /images/Materials-VolumeRender-Options-Shading.jpg
+.. figure:: /images/materials-volumerender-options-shading.jpg
 
    Shading options
 
@@ -295,7 +295,7 @@ Of course you can always break the rules too!
 Lighting
 ========
 
-.. figure:: /images/Materials-VolumeRender-Options-Lighting.jpg
+.. figure:: /images/materials-volumerender-options-lighting.jpg
 
    Lighting options
 
@@ -348,7 +348,7 @@ For volume rendering you only have:
 Integration
 ===========
 
-.. figure:: /images/Materials-VolumeRender-Options-Integration.jpg
+.. figure:: /images/materials-volumerender-options-integration.jpg
 
    Integration options
 
@@ -372,7 +372,7 @@ Depth Cutoff
 Options
 =======
 
-.. figure:: /images/Materials-VolumeRender-Options.jpg
+.. figure:: /images/materials-volumerender-options.jpg
 
    Material volume options
 

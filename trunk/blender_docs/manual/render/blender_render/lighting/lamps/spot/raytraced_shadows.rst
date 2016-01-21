@@ -6,7 +6,7 @@
 Raytraced Shadows
 *****************
 
-.. figure:: /images/Lighting-Lamps-Sun-ShadPanel.jpg
+.. figure:: /images/lighting-lamps-sun-shade_panel.jpg
    :width: 304px
 
    Shadow panel

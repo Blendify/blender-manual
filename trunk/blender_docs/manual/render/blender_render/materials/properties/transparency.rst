@@ -120,7 +120,7 @@ this is all because of the Index of Refraction of glass.
 Options
 =======
 
-.. figure:: /images/Material-RaytracedTransp-Panel.jpg
+.. figure:: /images/material-raytrace_transp-panel.jpg
 
    The Transparency Panel.
 
@@ -168,7 +168,7 @@ Examples
 Index of Refraction
 -------------------
 
-.. figure:: /images/Material-RaytracedTransp-IOR-Examples.jpg
+.. figure:: /images/material-raytrace_transp-ior-examples.jpg
 
    Influence of the IOR of an Object on the distortion of the background:
    spheres of Water, Glass and Diamond (top to bottom).
@@ -185,10 +185,10 @@ Fresnel
 
 .. list-table::
 
-   * - .. figure:: /images/Material-RayTraceTransp-FresnelExampel.jpg
+   * - .. figure:: /images/material-raytrace_transp-fresnelexampel.jpg
           :width: 320px
 
-     - .. figure:: /images/Material-RayTraceTransp-FresnelExampelZTransp.jpg
+     - .. figure:: /images/material-raytrace_transp-fresnelexampelztransp.jpg
           :width: 320px
 
    * - 16 pieces of glass rotated in various directions demonstrate the angle-dependent Fresnel effect
@@ -198,10 +198,10 @@ Fresnel
 
      -
 
-   * - .. figure:: /images/Material-RayTraceTransp-FresnelSettings.jpg
+   * - .. figure:: /images/material-raytrace_transp-fresnelsettings.jpg
           :width: 320px
 
-     - .. figure:: /images/Material-RayTraceTransp-FresnelSettingsZTransp.jpg
+     - .. figure:: /images/material-raytrace_transp-fresnelsettingsztransp.jpg
           :width: 320px
 
    * - Settings for Fresnel using ray-traced (left) and Z transparency (right).
@@ -220,7 +220,7 @@ value or decreasing the *Alpha* value.
 Depth
 -----
 
-.. figure:: /images/Material-Transp-3GlassesExample.jpg
+.. figure:: /images/material-transp-3glassesexample.jpg
    :width: 640px
 
    A simple scene with three glasses on a surface, and three lamps.
@@ -253,32 +253,32 @@ Transparent shadows
 
 .. list-table::
 
-   * - .. figure:: /images/Material-TranspShadow-Example-NoTraSha.jpg
+   * - .. figure:: /images/material-transp_shadow-example-notrasha.jpg
           :width: 320px
 
           No transparent shadows
 
-     - .. figure:: /images/Material-TranspShadow-Example-EnvLight.jpg
+     - .. figure:: /images/material-transp_shadow-example-envlight.jpg
           :width: 320px
 
           No transparent shadows, environment lighting enabled
 
-   * - .. figure:: /images/Material-TranspShadow-Example-TraSha.jpg
+   * - .. figure:: /images/material-transp_shadow-example-trasha.jpg
           :width: 320px
 
           Transparent shadows enabled, alpha set to 0.0
 
-     - .. figure:: /images/Material-TranspShadow-Example-TraSha2.jpg
+     - .. figure:: /images/material-transp_shadow-example-trasha2.jpg
           :width: 320px
 
           As previous, alpha set to 0.25
 
-   * - .. figure:: /images/Material-TranspShadow-Example-TraSha-AO1.jpg
+   * - .. figure:: /images/material-transp_shadow-example-trasha-ao1.jpg
           :width: 320px
 
           Transparent shadows with ambient occlusion set to multiply, distance 1 (radius of sphere)
 
-     - .. figure:: /images/Material-TranspShadow-Example-TraSha-AO2.jpg
+     - .. figure:: /images/material-transp_shadow-example-trasha-ao2.jpg
           :width: 320px
 
           As previous, distance increased to 2 (diameter of sphere)
