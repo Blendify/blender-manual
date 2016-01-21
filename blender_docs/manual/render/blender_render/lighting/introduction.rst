@@ -87,7 +87,7 @@ cube or background.
 Overriding Materials to Reset Lighting
 ======================================
 
-.. figure:: /images/Lighting-MatField.jpg
+.. figure:: /images/lighting-mat_field.jpg
    :width: 310px
 
    Material field in the Render Layers panel

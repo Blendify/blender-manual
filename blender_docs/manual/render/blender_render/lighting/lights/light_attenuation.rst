@@ -6,7 +6,7 @@ Light Attenuation
 Description
 ===========
 
-.. figure:: /images/Lighting-Falloff-hilite.jpg
+.. figure:: /images/lighting-falloff-hilite.jpg
    :width: 312px
 
    Lamp panel, falloff options highlighted
@@ -24,7 +24,7 @@ Falloff types
 Lin/Quad Weighted
 -----------------
 
-.. figure:: /images/Lighting-Falloff-linquad.jpg
+.. figure:: /images/lighting-falloff-linquad.jpg
    :width: 308px
 
    Lamp panel with Lin/Quad Weighted Falloff options highlighted
@@ -196,7 +196,7 @@ the graph shows that the intensity of the light starts off at its maximum
 
 .. list-table::
 
-   * - .. figure:: /images/Lighting-Falloff-CustomDefault.jpg
+   * - .. figure:: /images/lighting-falloff-custom_default.jpg
           :width: 306px
 
           Default Falloff Curve panel graph.
@@ -213,7 +213,7 @@ the light source, you could alter the graph as below:
 
 .. list-table::
 
-   * - .. figure:: /images/Lighting-Falloff-CustomReversed.jpg
+   * - .. figure:: /images/lighting-falloff-custom_reversed.jpg
           :width: 310px
 
           Falloff Curve for reversed attenuation.
@@ -233,7 +233,7 @@ along with its resultant render output:
 
 .. list-table::
 
-   * - .. figure:: /images/Lighting-Falloff-CustomOscill.jpg
+   * - .. figure:: /images/lighting-falloff-custom_oscill.jpg
           :width: 310px
 
           Oscillating attenuation profile.
@@ -296,7 +296,7 @@ which are so far away that their falloff isn't noticeable.
 Sphere
 ======
 
-.. figure:: /images/Lighting-Falloff-PointSphere.jpg
+.. figure:: /images/lighting-falloff-point_sphere.jpg
    :width: 300px
 
    Screenshot of the 3D view window, showing the Sphere light clipping circle.

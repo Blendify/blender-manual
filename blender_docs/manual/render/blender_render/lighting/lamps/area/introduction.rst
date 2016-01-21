@@ -11,7 +11,7 @@ borders by sampling a lamp along a grid the size of which is defined by the user
 This is in direct contrast to point-like artificial lights which produce sharp borders.
 
 
-.. figure:: /images/Lighting-Lamps-Area-ComOptions.jpg
+.. figure:: /images/lighting-lamps-area-com_options.jpg
    :width: 308px
 
    Commons Options
@@ -50,9 +50,9 @@ the *Shadow* panel has the following default layout:
 .. list-table::
    The *Shadow* panel when *Area* light source is selected.
 
-   * - .. figure:: /images/Lighting-Lamps-Area-AdapQMC.jpg
+   * - .. figure:: /images/lighting-lamps-area-adap_qmc.jpg
           :width: 300px
-     - .. figure:: /images/Lighting-Lamps-Area-ContJitt.jpg
+     - .. figure:: /images/lighting-lamps-area-cont_jitt.jpg
           :width: 300px
    * - Adaptive QMC settings
      - Constant Jittered settings
@@ -64,13 +64,13 @@ Area Shape
 The shape of the area light can be set to *Square* or *Rectangle*.
 
 
-.. figure:: /images/Lighting-Lamps-Area-Square.jpg
+.. figure:: /images/lighting-lamps-area-square.jpg
    :width: 308px
 
    Square options
 
 
-.. figure:: /images/Lighting-Lamps-Area-Rect.jpg
+.. figure:: /images/lighting-lamps-area-rect.jpg
    :width: 308px
 
    Rectangle options

@@ -36,7 +36,7 @@ Blender materials.
 Options
 -------
 
-.. figure:: /images/Material-RampsPanel.jpg
+.. figure:: /images/material-rampspanel.jpg
 
    Ramps Panel
 
@@ -44,7 +44,7 @@ Options
 The separate *Ramp* panels for the *Diffuse* shader and the
 *Specular* shader respectively can be toggled on and off using the
 
-.. figure:: /images/Material-RampsButton.jpg
+.. figure:: /images/material-rampsbutton.jpg
 
    button.
 
@@ -55,13 +55,13 @@ is black and transparent (Alpha=0) and the second stop (*1*) is white and opaque
 The position of the color stop markers can be altered by either
 (1) dragging the stop marker in the colorband or (2) by changing the *Pos* value in the
 
-.. figure:: /images/Material-Ramps-StopPos.jpg
+.. figure:: /images/material-ramps-stoppos.jpg
 
    box.
 
 Color and alpha values for each marker can be set by clicking the
 
-.. figure:: /images/Material-Ramps-ColorAlpha.jpg
+.. figure:: /images/material-ramps-coloralpha.jpg
 
    box.
 
@@ -83,7 +83,7 @@ Input
       Using alpha values here is most useful for tweaking a finishing touch to a material.
 
 
-.. figure:: /images/Material-Ramps-BlendMenu.jpg
+.. figure:: /images/material-ramps-blendmenu.jpg
 
    Blend pop-up menu
 
@@ -131,7 +131,7 @@ F
    and in the colorband, the active mark is displayed as a dashed line.
    Another marker can be selected (1) using the arrows in the
 
-.. figure:: /images/Material-Ramps-MarkerSelectSlider.jpg
+.. figure:: /images/material-ramps-markerselectslider.jpg
 
  slider, (2) by clicking on the number being displayed and entering a number of a color mark,
  or (3) by :kbd:`LMB` clicking a marker in the colorband.
@@ -153,7 +153,7 @@ active mark. :kbd:`LMB` click it to display a color picker in which values for c
 (*RGB*) and transparency (*Alpha*) can be set.
 
 
-.. figure:: /images/Material-Ramps-InterpolationMenu.jpg
+.. figure:: /images/material-ramps-interpolationmenu.jpg
 
    Interpolation pop-up menu
 

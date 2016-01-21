@@ -3,7 +3,7 @@
 Common Shadowing Lamps Options
 ******************************
 
-.. figure:: /images/Lighting-Shadow-Common-Properties.jpg
+.. figure:: /images/lighting-shadow-common-properties.jpg
    :width: 310px
 
    Common shadowing options for lamps
