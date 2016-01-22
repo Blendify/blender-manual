@@ -1,26 +1,16 @@
 ..    TODO/Review: {{review|text= move direction of time?}} .
 
-
 ********
 F-Curves
 ********
 
-Once you have created keyframes for something, you can edit their corresponding curves.
-In Blender 2.5, IPO Curves have been replaced by FCurves, however,
-editing these curves is essentially still the same.
-
-
-The concept of Interpolation
-============================
-
-When something is "animated," it changes over time. In Blender,
-animating an object means changing one of its properties, such as its X location,
-or the Red channel value of its material diffuse color, and so on,
-during a certain amount of time.
+After animating some property in Blender using keyframes you can edit their corresponding curves.
+When something is "animated," it changes over time. This curve in shown as something called an F-Curve.
+Basically what an F-Curve does is it a interpolates between two animated properties. In Blender,
+animating an object means changing one of its properties, such as an objects location, or its scale.
 
 As mentioned, Blender's fundamental unit of time is the "frame",
 which usually lasts just a fraction of a second, depending on the *frame rate* of the scene.
-
 As animation is composed of incremental changes spanning multiple frames,
 usually these properties ARE NOT manually modified *frame by frame*, because:
 
@@ -36,19 +26,18 @@ by Blender and filled in. Thus, the animators' workload is significantly reduced
 
 
 .. figure:: /images/Animation-F-Curves-Concept.jpg
+   :align: right
    :width: 200px
 
    Example of interpolation
-
 
 For example, if you have:
 
 - a control point of value ``0`` at frame ``0``,
 - another one of value ``10`` at frame ``25``,
-- linear interpolation,
+- and you use linear interpolation,
 
 then, at frame ``5`` we get a value of ``2``.
-
 
 The same goes for all intermediate frames: with just two points,
 you get a smooth growth from ``0`` to ``10`` along the **25 frames**.
