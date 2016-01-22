@@ -4,10 +4,6 @@
   Sequencer Effects
 ####################
 
-Blender offers a variety of effects.
-These typically operate over one or two effects.
-
-
 .. toctree::
    :maxdepth: 2
 
