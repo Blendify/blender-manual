@@ -158,10 +158,24 @@ Auto Normalize
    That is, Blender always does a normalization over all deform bones. Hence in practice it is not necessary to
    maintain a strict normalization and further normalizing weights should not affect animation at all.
 
+   This option works most intuitively when used to maintain normalization while painting on top of weights
+   that are already normalized with some other tool.
+
 Multi-Paint
-   Paint on all selected Vertex Groups simultaneously.
-   This option is only useful in the context of Armatures,
-   where you can select multiple Vertex Groups by selecting multiple Pose bones.
+   Paint on all selected Vertex Groups simultaneously, in a way that preserves their relative influence.
+   This can be useful when tweaking weights in an area that is affected by more than 3 bones at once,
+   e.g. certain areas on a character's face.
+
+   This option is only useful in the context of Armatures, where you can select multiple Vertex Groups
+   by selecting multiple Pose bones. Once at least two Vertex Groups are selected, viewport colors and
+   paint logic switch to Multi-Paint mode, using the sum of the selected groups' weights if Auto Normalize
+   is enabled, and the average otherwise. Any paint operations aimed at this collective weight are applied
+   to individual Vertex Group weights in such way that their ratio stays the same.
+
+   Since the ratio is undefined if all weights are zero, Multi-Paint can't operate on vertices that don't
+   have any weight assigned to the relevant Vertex Groups. For this reason it also doesn't allow reducing
+   the weight all the way to zero. When used with X-Mirror, it only guarantees completely symmetrical
+   result if weights are initially symmetrical.
 
 
 The Brush stroke definition
