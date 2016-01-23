@@ -23,6 +23,39 @@ faster but gives a low-res result. Disable proxies before final rendering.
 In order to actually use the proxies, the proper Proxy Render Size dropdown value must
 be selected in the Properties panel of the Sequencer View (where the edit plays back).
 
+Proxy Storage
+   Defines whether the proxies are for individual strips or the entire sequence.
+
+   Per Strip
+      Proxies are stored in the directory of the input.
+
+      Proxy Custom Directory
+         By default, all generated proxy images are storing to the <path of original footage>
+         /BL_proxy/<clip name> folder, but this location can be set by hand using this option.
+      Proxy Custom File
+         Allows you to use pre-existing proxies
+
+   Project
+      All proxies are stored in one directory
+      
+      Proxy Directory
+         The location to to store the proxies for the project. 
+
+Proxy Size
+   Buttons to control how big the proxies are.
+   The available options are ``25``,``50``, ``75``, ``100`` percent of original strip size.
+Overwrite
+   Saves over any existing proxies in the proxy storage directory.
+Quality
+   Defines the quality of the JPEG's used for proxies.
+Timecode
+   See `Timecode`_.
+Set Selected Strip Proxies
+   Same as choosing the *Proxy Size* and *Overwrite*
+Rebuild Proxy and Timecode Indices
+   Generates Proxies and Timecodes, same as doing :menuselection:`Strip --> Rebuild Proxy and Timecode indices`
+
+
 Timecode
 ========
 
