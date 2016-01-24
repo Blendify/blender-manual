@@ -29,6 +29,16 @@ def po_files(path):
             if ext.lower() == ".po":
                 yield os.path.join(dirpath, filename)
 
+def report_fuzzy_filepaths(report, filepaths, limited=False, number=10):
+    if limited and len(filepaths) > number:
+        filepaths = sorted(filepaths)[:number]
+        filepaths.append("-- and more --")
+    else:
+        filepaths = sorted(filepaths)
+
+    for po_filepath in filepaths:
+        report(' ' * 9 + "%s" % po_filepath)
+
 def report_progress(path, report, quiet=False):
 
     report('Translation progress: %s' % path)
@@ -65,8 +75,8 @@ def report_progress(path, report, quiet=False):
     report(
         'Fuzzy:   %d fuzzy strings in:' %
         (msgstrs_all_fuzzy))
-    for po_filepath in sorted(msgstrs_all_fuzzy_files):
-        report(' ' * 9 + "%s" % po_filepath)
+
+    report_fuzzy_filepaths(report, msgstrs_all_fuzzy_files, quiet)
 
     report('Summary: %d empty of %d; or [%5.1f %%] complete' %
            (msgstrs_all_empty,
