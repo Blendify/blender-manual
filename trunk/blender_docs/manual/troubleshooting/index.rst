@@ -26,5 +26,5 @@ Here are some known compatibility issues listed by platform.
 
    compatibility_linux.rst
    compatibility_osx.rst
-   compatibility_win.rst
+   compatibility_windows.rst
 
