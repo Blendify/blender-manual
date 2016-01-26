@@ -47,8 +47,3 @@ The most popular and probably not colonized **Mars** has ``g = 3.69``.
 
 
 Note that you can scale down the gravity value per physics system in the *Field Weights tab.*
-
-.. note::
-
-   When using OSX you might have poor performance when doing physics simulations.
-   To fix these issues see the :ref:`OSX Performance <osx-performance>`.
