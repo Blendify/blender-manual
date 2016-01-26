@@ -49,7 +49,7 @@ def _re_iter_edit(fn, find_text, find_re):
 
     if len(data_dst_ls) != 1:
         with open(fn, "w", encoding="utf-8") as f:
-            f.write("".join(data_dst_ls))
+            f.write("".join([w for w in data_dst_ls if w is not None]))
 
 
 def role_iter(fn, role, angle_brackets=False):
