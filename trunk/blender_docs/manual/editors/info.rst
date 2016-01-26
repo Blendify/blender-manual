@@ -4,7 +4,7 @@
 Info Editor
 ***********
 
-.. figure:: /images/Interface_Window-System_Info-window-shaded.jpg
+.. figure:: /images/interface_window-system_info-window-shaded.jpg
 
    Info Window
 
