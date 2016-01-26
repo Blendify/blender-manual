@@ -46,11 +46,12 @@ Ambient Occlusion
    Ambient occlusion from directly visible surfaces. BSDF color or AO factor is not included; i.e.
    it gives a 'normalized' value between 0 and 1.
 
-Note that :doc:`transparent BSDFs are given special treatment </render/cycles/settings/light_paths>`
-a fully transparent surface is treated as if there is no surface there at all;
-a partially transparent surface is treated as if only part of the light rays can pass through.
-This means it is not included in the Transmission passes;
-for that a glass BSDF with index of refraction 1.0 can be used.
+.. note::
+    :doc:`Transparent BSDFs are given special treatment </render/cycles/settings/light_paths>`.
+    A fully transparent surface is treated as if there is no surface there at all;
+    a partially transparent surface is treated as if only part of the light rays can pass through.
+    This means it is not included in the Transmission passes;
+    for that a glass BSDF with index of refraction 1.0 can be used.
 
 
 Combining
@@ -68,9 +69,16 @@ Data Passes
 Combined
    The final combination of render passes with everything included.
 Z
-   The
+   Distance in term:`BU` to any visible surfaces.
+   
+   .. note::
+    The Z pass only uses one sample.
+    When depth values need to be blended in case of motion blur or :term:`DOF`, use the mist pass.
+   
 Mist
-   Mist value between 0.0 and 1.0, using settings from the Mist Pass panel in world properties.
+   Distance to visible surfaces, mapped to the 0.0-1.0 range.
+   When enabled, settings are in :menuselection:`Properties --> World --> Mist Pass`.
+   
 Normal
    Surface normal used for shading.
 Vector
@@ -84,7 +92,6 @@ Material Index
    Pass index of material.
 
 The Z, Object Index and Material Index passes are not anti-aliased.
-This is done intentionally because such values can't really be blended correctly.
 
 Alpha Threshold
    Z, Index, normal,
