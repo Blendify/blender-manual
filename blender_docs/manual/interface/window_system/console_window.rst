@@ -25,7 +25,7 @@ Platform Dependant Instructions
 Linux
 -----
 
-.. figure:: /images/Interface-Window-System-console-linux.jpg
+.. figure:: /images/interface-window_system-console-linux.jpg
    :align: right
    :width: 360px
 
@@ -49,7 +49,7 @@ resulting console text being printed to it.
 Mac OSX
 -------
 
-.. figure:: /images/Interface-Window-System-console-mac.jpg
+.. figure:: /images/interface-window_system-console-mac.jpg
    :align: right
    :width: 360px
 
@@ -72,7 +72,7 @@ the following command can be used:
 MS-Windows
 ----------
 
-.. figure:: /images/Interface-Window-System-console-windows.jpg
+.. figure:: /images/interface-window_system-console-windows.jpg
    :align: right
    :width: 360px
 
