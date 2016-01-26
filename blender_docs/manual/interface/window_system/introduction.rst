@@ -29,14 +29,15 @@ The default scene is described below.
 The default scene
 =================
 
-The default scene is separated into five windows and is loaded each time you start Blender or
-a new file. The five windows are:
+The default scene is separated into five windows and is loaded each time you start Blender or a new file.
+The five areas are:
 
-- The Info window (shaded red) at the top. The Info window is comprised solely of a header.
-- A large 3D window (3D View) (shaded green).
-- A Timeline window at the bottom (shaded purple).
-- An Outliner window at the top right (shaded yellow).
-- A Properties window (Buttons window) at the bottom right (shaded blue).
+- The Info Space (shaded red) at the top.
+  *(The Info window used mainly for its header)*.
+- A large 3D View (shaded green).
+- A Timeline at the bottom (shaded purple).
+- An Outliner at the top right (shaded yellow).
+- A Properties editor at the bottom right (shaded blue).
 
 As an introduction we will cover a few of the basic elements.
 
