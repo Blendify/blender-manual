@@ -69,7 +69,7 @@ Data Passes
 Combined
    The final combination of render passes with everything included.
 Z
-   Distance in term:`BU` to any visible surfaces.
+   Distance in :term:`BU` to any visible surfaces.
    
    .. note::
     The Z pass only uses one sample.
