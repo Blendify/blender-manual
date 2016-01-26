@@ -96,6 +96,11 @@ For other common conventions used throughout the manual.
 
    Bevel
       Operation to chamfer or bevel edges of an object.
+      
+   BU
+   Blender Units
+      Internal units used by blender, equivalent to meters.
+      Often abbreviated to "BU".
 
    Bone
       The building block of an :term:`Armature`. Made up of a :term:`Head`, :term:`Tail`
@@ -609,7 +614,7 @@ For other common conventions used throughout the manual.
       See :term:`vertex`, :term:`edge`, and :term:`face`.
 
    Transforms
-      The combined idea of location, rotation and scale. 
+      The combined idea of location, rotation and scale.
 
    Triangle
       :term:`Face` with exactly 3 :term:`vertices <vertex>`.
