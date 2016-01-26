@@ -35,7 +35,7 @@ Grid Floor
       so it is a setting specific to top/front/side orthographic views.
 Toggle Quad View
    Toggles the four pane 3D view.
-   :doc:`Read more about arranging areas</interface/window_system/arranging_frames>`
+   :doc:`Read more about arranging areas</interface/window_system/arranging_area>`
 
 
 View Panel
