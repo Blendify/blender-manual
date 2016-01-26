@@ -10,5 +10,5 @@
    introduction.rst
    properties.rst
    world.rst
-   constraints.rst
+   constraints/index.rst
    tips.rst

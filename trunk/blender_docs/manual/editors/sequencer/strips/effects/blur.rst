@@ -3,4 +3,5 @@
 Gaussian Blur
 *************
 
-Todo see https://developer.blender.org/T44581
+The Guasssian Blur strip is used to blur the in put in the defined direction.
+
