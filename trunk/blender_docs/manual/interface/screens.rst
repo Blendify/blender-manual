@@ -77,7 +77,7 @@ You can delete a screen by using the *Delete Data-Block* button
 Rearranging a Screen
 --------------------
 
-Use the :doc:`window controls </interface/window_system/arranging_frames>`
+Use the :doc:`window controls </interface/window_system/arranging_areas>`
 to move frame borders, split and consolidate windows.
 When you have a layout that you like, press :kbd:`Ctrl-U` to update your User defaults.
 Be aware that all of the current scenes become part of those defaults,

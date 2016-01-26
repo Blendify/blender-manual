@@ -92,11 +92,11 @@ Tool Shelf
    Zooms the 3D view to encompass *all* the objects in the current scene.
 :doc:`Play Back Animation </animation/index>`
    Plays back the animation from the current frame.
-:doc:`Duplicate area in new window </interface/window_system/arranging_frames>`
+:doc:`Duplicate area in new window </interface/window_system/arranging_areas>`
    Clones the current 3D view in a new window
-:doc:`Quad View </interface/window_system/arranging_frames>`
+:doc:`Quad View </interface/window_system/arranging_areas>`
    Toggles a four pane 3D view, each showing a different angle of the scene.
-:doc:`Toggle Full Screen </interface/window_system/arranging_frames>`
+:doc:`Toggle Full Screen </interface/window_system/arranging_areas>`
    Maximizes the *3D View* window to fill the full screen area.
 
 

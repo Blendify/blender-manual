@@ -13,7 +13,7 @@ Blender provides a number of different *Editor* types for displaying and modifyi
 
 It is also possible to open the same Editor type multiple times to have different views on the same data.
 
-:doc:`Read more about arranging frames </interface/window_system/arranging_frames>`
+:doc:`Read more about arranging frames </interface/window_system/arranging_areas>`
 
 3D
 --
