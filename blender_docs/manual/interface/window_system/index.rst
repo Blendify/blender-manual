@@ -8,6 +8,6 @@
    :maxdepth: 1
 
    introduction.rst
-   arranging_frames.rst
+   arranging_areas.rst
    headers.rst
    console_window.rst
