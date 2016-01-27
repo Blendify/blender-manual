@@ -53,9 +53,9 @@ You now have your first node setup, a RenderLayer input node linked to a Composi
 From here, you can add and connect many :doc:`types of compositing nodes </compositing/types/index>`,
 in a sort of map layout, to your heart's content (or physical memory constraints, whichever comes first).
 
-.. note:: Nodes
+.. note::
 
-   Nodes and node conecpts are explained in more detail in the :doc:`Node Editor </editors/node_editor/index>`
+   Nodes and node concepts are explained in more detail in the :doc:`Node Editor </editors/node_editor/index>`
 
 Options
 =======
