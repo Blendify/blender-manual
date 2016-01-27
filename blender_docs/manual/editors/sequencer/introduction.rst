@@ -31,7 +31,7 @@ a horizontal channel. Each channel is numbered on the left-hand side, starting f
 
 .. note::
 
-   The first channel `0` is unusible as a place to put strips.
+   The first channel `0` is unusable as a place to put strips.
    This is because it is used by the :doc:`Sequencer Display </editors/sequencer/display_modes>`
    to show a composite of all strips above channel `0`.
 
@@ -46,5 +46,5 @@ You can scale the time using the zoom keys or mouse actions (see the Reference f
 
 .. note::
 
-   By default the Sequencer is enablied however it can be disabled
+   By default the Sequencer is enabled however, it can be disabled
    in the :doc:`Post Processing Panel </render/post_process/panel>`.

@@ -3,10 +3,9 @@
 Introduction
 ************
 
-Compositing Nodes allow you to assemble and enhance an image (or movie).
-Using composition nodes,
-you can glue two pieces of footage together and colorize the whole sequence all at once. You
-can enhance the colors of a single image or an entire movie clip in a static manner or in a
+Compositing Nodes allow you to assemble and enhance an image (or movie). Using composition nodes,
+you can glue two pieces of footage together and colorize the whole sequence all at once.
+You can enhance the colors of a single image or an entire movie clip in a static manner or in a
 dynamic way that changes over time (as the clip progresses). In this way,
 you use composition nodes to both assemble video clips together, and enhance them.
 
@@ -30,8 +29,9 @@ optionally merge it with other images, and finally save it.
 The example to the right shows the simplest node setup;
 an input node links the camera view to an output node so it can be saved.
 
-Accessing and Activating Nodes
-==============================
+
+Getting Started
+===============
 
 Access the :doc:`Node Editor </editors/node_editor/index>` and enable
 *Composite Nodes* by clicking on the *Image* icon.
@@ -49,14 +49,10 @@ Blender creates a default node setup, consisting out of two nodes linked togethe
 
    Use Composition Nodes
 
+.. note::
 
-To use this mini-map,
-you must now tell Blender to use the Compositing Node map that has been created,
-and to composite the image using composition nodes. To do so, switch to the *Render*
-button area and activate the *Compositing* button located below the
-*Post Processing* tab.
-This tells Blender to composite the final image by running it through the composition node map.
-
+   After clicking *Use Nodes* the Compositor is enabled however,
+   it can also be disabled in the :doc:`Post Processing Panel </render/post_process/panel>`.
 
 You now have your first node setup, a RenderLayer input node linked to a Composite output node.
 From here, you can add and connect many :doc:`types of compositing nodes </compositing/types/index>`,
@@ -66,14 +62,11 @@ in a sort of map layout, to your heart's content (or physical memory constraints
 
    Nodes and node conecpts are explained in more detail in the :doc:`Node Editor </editors/node_editor/index>`
 
-Buttons for work with Compositing nodes
-=======================================
+Options
+=======
 
 Free Unused Button
-------------------
-
-This button frees up memory space when you have a very complex node map. Recommended.
-
+   This button frees up memory space when you have a very complex node map.
 
 Backdrop
 --------
@@ -103,15 +96,12 @@ Offset
    Change the screen space position of the backdrop,
    or click the *Move* button, or shortcut :kbd:`Alt-MMB` to manually move it.
 
-
 Auto Render
------------
-
-Re-render and composite changed layer when edits to the 3d scene are made.
+   Re-render and composite changed layer when edits to the 3d scene are made.
 
 
-Perfomance for Compositing Nodes in Node Editor
-===============================================
+Perfomance Settings 
+===================
 
 .. figure:: /images/editors_nodeeditor_performancepanel.jpg
    :align: right
@@ -135,6 +125,7 @@ Viewer Border
    Use boundaries for viewer nodes and composite backdrop.
 Highlight
    Highlight nodes that are being calculated.
+
 
 Examples
 ========
