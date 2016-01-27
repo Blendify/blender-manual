@@ -104,10 +104,9 @@ if two strips were rendered or shot under different lighting conditions but are 
 Chroma Vectorscope
 ------------------
 
-.. figure:: /images/VSE-ChromaExample.jpg
-   :width: 300px
+.. figure:: /images/editors_sequencer_view_vectorscope.png
 
-   Example VSE Chroma Preview
+   Example of Chroma Vectorscope Preview.
 
 
 Use this mode judge the quality of the color-distribution and saturation, you can also view a U/V scatter-plot.
@@ -145,6 +144,10 @@ This mode is good for:
 
 Histogram
 ---------
+
+.. figure:: /images/editors_sequencer_view_histogram.png
+
+   Example of Histogram Preview.
 
 This mode displays a graph showing the distribution of color information in the pixels of the
 currently displayed image. The X-axis represents values of pixel, from 0 to 1 (or 0 to 255),
