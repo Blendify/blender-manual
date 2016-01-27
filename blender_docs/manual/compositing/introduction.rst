@@ -44,11 +44,6 @@ Access the :doc:`Node Editor </editors/node_editor/index>` and enable
 To activate nodes for compositing, click the *Use Nodes* checkbox.
 Blender creates a default node setup, consisting out of two nodes linked together.
 
-
-.. figure:: /images/Compositing-Do.jpg
-
-   Use Composition Nodes
-
 .. note::
 
    After clicking *Use Nodes* the Compositor is enabled however,
