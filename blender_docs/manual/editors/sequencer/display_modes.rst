@@ -27,9 +27,11 @@ Channel 1 is what the current frame's image from the strip in channel 1 looks li
 (channel 1 is at the bottom of the heap). The display of these modes is either the composite
 (channel 0) or the frame from the strip (channels 1 through n).
 
+Previews
+========
 
 Image Preview
-=============
+-------------
 
 In the upper window pane of the Sequence screen layout is another VSE window,
 this one set to Image Preview mode. It shows you what the resulting video will look like when saved.
@@ -38,7 +40,7 @@ cutting, grouping (making meta) and splicing them through special effects.
 
 
 Luma Waveform
-=============
+-------------
 
 For the selected channel, brightness, or luminosity, is mapped with this display.
 
@@ -67,8 +69,6 @@ This mode is good for:
 - With the more advanced gamma-plugin you can decide where you have to desaturate (especially in dark regions).
 - You can judge if you want to dump the whole thing since it is
   completely distorted and clips at the top or the bottom.
-
-
 
 .. hlist::
    :columns: 2
@@ -101,9 +101,8 @@ When spots in the film that should have even illumination don't,
 it looks like a flashbulb went off or an extra light was suddently turned on. This can happen
 if two strips were rendered or shot under different lighting conditions but are supposed to be contiguous.
 
-
 Chroma Vectorscope
-==================
+------------------
 
 .. figure:: /images/VSE-ChromaExample.jpg
    :width: 300px
@@ -144,9 +143,8 @@ This mode is good for:
   If you add saturation using the "gamma"-plugin you can see in the U/V-plot if you distort the color.
 - If you do color-matching on a by hand basis you can match the angle you see of different channels monitors.
 
-
 Histogram
-=========
+---------
 
 This mode displays a graph showing the distribution of color information in the pixels of the
 currently displayed image. The X-axis represents values of pixel, from 0 to 1 (or 0 to 255),
