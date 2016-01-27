@@ -10,8 +10,7 @@ Boids
 
 Boids particle systems can be set to follow basic rules and behaviors.
 They are useful for simulating flocks, swarms, herds and schools of various kind of animals,
-insects and fishes.
-They can react on the presence of other objects and on the members of their own system.
+insects and fishes. They can react on the presence of other objects and on the members of their own system.
 Boids can handle only a certain amount of information,
 therefore the sequence of the Behaviour settings is very important.
 In certain situations only the first three parameter are evaluated.
@@ -21,7 +20,7 @@ To view the subpanel to the right, add a *Particle System* of type
 
 
 Physics
-*******
+=======
 
 Boids try to avoid objects with activated Deflection.
 They try to reach objects with positive Spherical fields,
@@ -76,7 +75,7 @@ Height
 
 
 Battle
-======
+------
 
 Health
    Initial boid health when born.
@@ -91,7 +90,7 @@ Range
 
 
 Alliance
-========
+--------
 
 The relations box allows you to set up other particle systems to react with the boids.
 Setting the type to *Enemy* will cause the systems to fight with each other.
@@ -100,7 +99,7 @@ Setting the type to *Enemy* will cause the systems to fight with each other.
 
 
 Deflectors and Effectors
-========================
+------------------------
 
 As mentioned before, very much like Newtonian particles,
 Boids will react to the surrounding deflectors and fields,
@@ -109,22 +108,21 @@ according to the needs of the animator:
 Deflection:
 Boids will try to avoid deflector objects according to the Collision rule's weight.
 It works best for convex surfaces (some work needed for concave surfaces).
-For boid physics,
-Spherical fields define the way the objects having the field are seen by others.
+For boid physics, Spherical fields define the way the objects having the field are seen by others.
 So a negative Spherical field (on an object or a particle system)
 will be a predator to all other boids particle systems,
 and a positive field will be a goal to all other boids particle systems.
 
-When you select an object with a particle system set on, you have in the Fields tab a little
-menu stating if the field should apply to the emitter object or to the particle system. You
-have to select the particle system name if you want prey particles to flew away from predator
-particles.
+When you select an object with a particle system set on,
+you have in the Fields tab a little menu stating if the field
+should apply to the emitter object or to the particle system.
+You have to select the particle system name if you want
+prey particles to flew away from predator particles.
 
 Spherical fields: These effectors could be predators (negative Strength)
 that boids try to avoid or targets (positive Strength)
 that boids try to reach according to the (respectively) Avoid and Goal rules' weights.
-Spherical's effective Strength is multiplied by the actual relevant weight (e.g.
-if either Strength or Goal is null,
+Spherical's effective Strength is multiplied by the actual relevant weight (e.g. if either Strength or Goal is null,
 then a flock of boids won't track a positive Spherical field).
 You can also activate Die on hit (Extras panel) so that a prey particle simply disappears when
 "attacked" by a predator particle which reaches it. To make this work,
@@ -135,7 +133,7 @@ The size of the predators and the prey can be set with the Size button in the Ex
 
 
 Boid Brain
-==========
+----------
 
 The Boid Brain panel controls how the boids particles will react with each other.
 The boids' behavior is controlled by a list of rules.

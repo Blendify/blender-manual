@@ -95,13 +95,13 @@ Auto Render
    Re-render and composite changed layer when edits to the 3d scene are made.
 
 
-Perfomance Settings 
-===================
+Performance Settings 
+====================
 
 .. figure:: /images/editors_nodeeditor_performancepanel.jpg
    :align: right
 
-   Perfomance Settings
+   Performance Settings
 
 
 Render
