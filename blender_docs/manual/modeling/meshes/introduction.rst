@@ -10,15 +10,14 @@ Entering Edit Mode
 
 You can work with geometric objects in two modes.
 
-:doc:`Object mode </editors/3dview/transform/introduction>`
+:doc:`Object Mode </editors/3dview/transform/introduction>`
    Operations in *Object Mode* affect the whole object.
-   **Object mode** has the following header in the 3D view:
+   **Object Mode** has the following header in the 3D view:
 
 
-.. figure:: /images/editmode-3dviewheader-objectmode.jpg
-   :width: 600px
+.. figure:: /images/modeling_meshes_modes_object.png
 
-   Object Mode header
+   Object Mode Header.
 
 
 Edit mode
@@ -27,10 +26,9 @@ Edit mode
    **Edit Mode** has the following header in the 3D view:
 
 
-.. figure:: /images/editmode-3dviewheader-editmode.jpg
-   :width: 600px
+.. figure:: /images/modeling_meshes_modes_edit.png
 
-   Edit Mode header
+   Edit Mode Header.
 
 
 Tools and modes in the 3D view header are (left to right):
@@ -139,7 +137,7 @@ including display options and *Vertex groups*.
 Mesh Display
 ------------
 
-.. figure:: /images/modeling_editmode_mesh_display.jpg
+.. figure:: /images/modeling_meshes_display.png
    :align: right
 
    Mesh Display Panel
