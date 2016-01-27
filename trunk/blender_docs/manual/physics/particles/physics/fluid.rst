@@ -12,25 +12,22 @@ fluid particles are similar to newtonian ones but this time particles are influe
 internal forces like pressure, surface tension, viscosity, springs, etc.
 Blender particle fluids use the SPH techniques to solve the particles fluid equations.
 
-Smoothed-particle hydrodynamics (SPH)
-is a computational method used for simulating fluid flows.
+Smoothed-particle hydrodynamics (SPH) is a computational method used for simulating fluid flows.
 It has been used in many fields of research, including astrophysics, ballistics, vulcanology,
-and oceanography. It is a mesh-free Lagrangian method
-(where the co-ordinates move with the fluid), and the resolution of the method can easily be
-adjusted with respect to variables such as the density.
+and oceanography. It is a mesh-free Lagrangian method (where the co-ordinates move with the fluid),
+and the resolution of the method can easily be adjusted with respect to variables such as the density.
 
 From liquids to slime, goo to sand and wispy smoke the possibilities are endless.
 
 
 Settings
-********
+========
 
 Fluid physics share options with :doc:`Newtonian Physics </physics/particles/physics/newtonian>`.
 These are covered on that page.
 
-
 Fluid Properties
-================
+----------------
 
 Stiffness
    How incompressible the fluid is.
@@ -39,9 +36,8 @@ Viscosity
 Buoyancy
    Artificial buoyancy force in negative gravity direction based on pressure differences inside the fluid.
 
-
 Advanced
-========
+--------
 
 Repulsion Factor
    How strongly the fluid tries to keep from clustering (factor of stiffness).
@@ -53,9 +49,8 @@ Interaction Radius
 Rest Density
    Density of fluid when at rest. Check box sets this to be a factor of default density.
 
-
 Springs
-=======
+-------
 
 Force
    Spring force
