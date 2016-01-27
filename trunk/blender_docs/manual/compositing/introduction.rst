@@ -91,7 +91,7 @@ Backdrop Channels
    Set the image to be displayed with *Color*, *Color and Alpha*, or just *Alpha*.
 
 
-.. figure:: /images/editors_nodeeditor_zoomoffset.jpg
+.. figure:: /images/compositing_backdrop.png
    :align: right
 
    Backdrop Options
