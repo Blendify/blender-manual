@@ -15,8 +15,8 @@ To adjust the start and end of the wipe you must adjust the temporal bounds of t
 in a way that alters their intersection.
 
 
-Settings
-========
+Options
+=======
 
 Transition
    The type of transition used.
