@@ -25,7 +25,7 @@ it will be rubberbanded to your mouse; click to drop the strip.
   you may not be able to move it; you have to move the source strips in order to affect the effect strip.
 
 To use an effect that combines or makes a transition between (or composites) two strips,
-you must *B* ox select or shift-right-click two of them. When you add the effect strip,
+you must Box select (:kbd:`B`) or shift-right-click two of them. When you add the effect strip,
 it will be placed in a channel above the two in Grab mode (click to drop it on a channel).
 Its duration will be the overlap between the two strips as a maximum.
 

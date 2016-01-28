@@ -3,7 +3,7 @@
 Adjustment Layer
 ****************
 
-The adjustment layer strip works like a regular input file strip except for the fact,
+The Adjustment Layer strip works like a regular input file strip except for the fact,
 that it considers all strips below it as it's input.
 
 Real world use cases: you want to add some last finishing color correction on top of parts of
