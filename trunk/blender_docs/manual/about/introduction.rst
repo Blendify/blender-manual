@@ -1,7 +1,7 @@
 
-************************
-About the Blender Manual
-************************
+**********************************
+Introduction to the Blender Manual
+**********************************
 
 The Blender Manual is a community driven effort to which anyone can contribute.
 Either if you found a typo or if you want to improve the general quality of the documentation,
