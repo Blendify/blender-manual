@@ -35,4 +35,4 @@ to one Meta-Strip then applying it to each individual strip.
 .. seealso::
 
    It is also possible to do the similar task described above with a
-   :doc:`Adustment Layer </editors/sequencer/display_modes>` effect strip.
+   :doc:`Adustment Layer </editors/sequencer/strips/effects/adjustment>` effect strip.
