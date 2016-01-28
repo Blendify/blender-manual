@@ -110,14 +110,15 @@ Thumb
    Similar to the *Nudge* brush, this one flattens the mesh in the brush area,
    while moving it in the direction of the brush stroke.
 
+
 Sculpt Properties Panel
 =======================
 
 This panel appears in the tool palette on the left side of the 3D viewport.
 
 
-Brush Menu
-----------
+Brush Panel
+-----------
 
 Radius
    This option controls the radius of the brush, measured in pixels.
@@ -144,25 +145,32 @@ if a supported tablet is being used.
 
 Autosmooth
    Sets the amount of smoothing to be applied to each stroke.
-
+Normal Weight
+   TODO.
+Pinch Factor
+   TODO.
+Rake Factor
+   TODO.
 Sculpt Plane
    Use this menu to set the plane in which the sculpting takes place.
-
 Plane Offset
    Adjusts the plane on which the brush acts toward or away from the viewer.
-
+Height
+   TODO.
 Trim
    Enables trimming of the sculpt plane, determined by the *Distance* setting.
-
 Front Faces Only
    When enabled, the brush only affects vertices that are facing the viewer.
-
 Accumulate
    Causes stroke dabs to accumulate on top of each other.
+Add/Subtract
+   TODO.
+Persistent
+   TODO.
 
 
-Stroke Menu
------------
+Stroke Panel
+------------
 
 Stroke Method
    Defines the way brush strokes are applied to the mesh:
@@ -197,8 +205,8 @@ Smooth stroke
       Sets the amount of smoothing
 
 
-Curve Menu
-----------
+Curve Panel
+-----------
 
 The *Curve* section allows you to use a curve control to the right to modify the
 intensity of the brush from its centre (left part of the curve) towards its borders
@@ -209,8 +217,8 @@ intensity of the brush from its centre (left part of the curve) towards its bord
    - Read more about using the :ref:`ui-curve_widget`.
 
 
-Texture Menu
-------------
+Texture Panel
+-------------
 
 A texture can be used to determine the strength of brush effects as well.
 Select an existing texture from the texture box,
@@ -249,8 +257,9 @@ Size
 Sample Bias
    Value added to texture samples.
 
-Symmetry Menu
--------------
+
+Symmetry Panel
+--------------
 
 Mirror
   Mirror the brush strokes across the selected local axes.
@@ -271,23 +280,24 @@ Tile Offset
    The default tile size is set to one BU (Blender Unit). The offset allows the
    option to alter the tile size along all three axes.
 
-Options Tab
------------
-
-Overlay
-   When enabled, the brush texture is shown in the viewport
-
-   View
-      The eye icon is used as a toggle to show or hide the given brush texture
-   Alpha
-      You can change the amount of transparency used when showing the texture using
-      the Alpha slider
-   Stroke Overlay
-      The brush icon allows you to turn off the viewport overlay during strokes
 
 
-Options Menu
-------------
+Overlay Panel
+-------------
+
+When enabled, the brush texture is shown in the viewport
+
+View
+   The eye icon is used as a toggle to show or hide the given brush texture
+Alpha
+   You can change the amount of transparency used when showing the texture using
+   the Alpha slider
+Stroke Overlay
+   The brush icon allows you to turn off the viewport overlay during strokes
+
+
+Options Panel
+-------------
 
 Gravity
     Factor
@@ -317,7 +327,7 @@ Color (Add/Subtract)
    Set the color of the brush ring when its particular effect is active
 
 
-Appearance Menu
+Appearance Panel
 ----------------
 
 Show Brush
@@ -326,6 +336,10 @@ Color (Add/Subtract)
    Set the color of the brush ring when its particular effect is active
 Custom Icon
    Append an image file to the active brush as an icon.
+
+
+Sculpt Menus
+============
 
 
 Tool Menu
