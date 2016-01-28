@@ -3,10 +3,10 @@
 Introduction
 ************
 
-.. figure:: /images/VSE-SFX.jpg
+.. figure:: /images/editors_sequencer_strips_effects.png
    :align: right
 
-   Available Effects
+   Available Effects.
 
 Blender offers a set of effects that can be added to your sequence. Theses effects are listed to the right.
 Each effect is explained in the next pages individually, but they all are added and controlled in the same way.
