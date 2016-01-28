@@ -3,25 +3,36 @@
 Meta Strips
 ***********
 
-A Meta-Strip is a group of strips. Select all the strips you want to group,
-and :kbd:`Ctrl-G` to group them into one meta.
-The meta spans from the beginning of the first strip to the end of the last one,
-and condenses all channels into a single strip, just like doing a mixdown in audio software.
-Separating (ungrouping) them restores them to their relative positions and channels.
+Meta-Strips are a kind of organization tool. For example,
+if you are using a lot of strips and they are complicated
+the the interface you can group them together using Meta-Strips.
+A Meta-Strip spans from the beginning of the first strip to the end of the last one,
+and condenses all channels into a single strip. Separating (ungrouping)
+them restores them to their relative positions and channels.
+To create a Meta-Strip select all the strips you want to group, and :kbd:`Ctrl-G` to group them.
+If you choose to delete a Meta-Strip and want to keep the strips inside, use :kbd:`Alt-G`.
 
-The default blend mode for a meta strip is Replace. There are many cases where this alters
-the results of the animation so be sure to check the results and adjust the blend mode if
-necessary.
+.. figure:: /images/editors_sequencer_strips_meta.png
 
-One convenient use for meta strips is when you want to apply the same effect to multiple
-strips. For example: scaling a loop. Until blender gets a Loop effect,
-the only way to loop a clip is to duplicate it several times.
-If the clip needs any transforms (like scaling or translating an animated watermark or source
-material in a different aspect ratio) it is much more convenient to apply a single set of
-transforms to a meta strip built from the repeated duplicates than apply copies of those
-transforms to each instance in the loop.
+   Example of Meta-Strip.
 
-It is possible to edit the contents of a meta strip by selecting it and pressing Tab.
-You can press Tab again to finish editing that strip. Since meta strips can be nested, to pop
-out one level of meta strip make sure you do not have a meta strip as the active strip when
-you press :kbd:`Tab`.
+After creating a Meta-Strip it is also possible to edit the contents inside a Meta-Strip.
+To do this select the desired Meta-strip and press :kbd:`Tab`.
+Once you are done editing the contents inside a Meta-Strip press :kbd:`Tab` again to exit the Meta-Strip.
+Meta-Strips can also be nested, which make editing them a little confusing.
+To exit out one level of Meta-Strip make sure you do not have a Meta-Strip selected when you press :kbd:`Tab`.
+
+.. note::
+
+   The default blend mode for a Meta strip is Replace. There are many cases where this alters
+   the results of the animation so be sure to check the results and adjust the blend mode if necessary.
+
+One convenient use for Meta-Strips is when you want to apply the same effect to multiple strips.
+For example: if you have a video that was recorded in different files and want to add an effect strip.
+It is much more convenient to apply a single set of effects
+to one Meta-Strip then applying it to each individual strip.
+
+.. seealso::
+
+   It is also possible to do the similar task described above with a
+   :doc:`Adustment Layer </editors/sequencer/display_modes>` effect strip.

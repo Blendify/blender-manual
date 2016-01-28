@@ -66,7 +66,7 @@ This mode is good for:
 
 - If the waveform does not fill the whole picture you might want to play with the "setup" and "gain"
   master-sliders in the "gamma"-plugin until it fills the whole picture (contrast autostretch).
-- With the more advanced gamma-plugin you can decide where you have to desaturate (especially in dark regions).
+- With the more advanced gamma-plugin you can decide where you have to desaturated (especially in dark regions).
 - You can judge if you want to dump the whole thing since it is
   completely distorted and clips at the top or the bottom.
 
@@ -98,7 +98,7 @@ This mode is good for:
 
 Use this display to check for appropriate contrast and luminosity across all frames in the channel.
 When spots in the film that should have even illumination don't,
-it looks like a flashbulb went off or an extra light was suddently turned on. This can happen
+it looks like a flashbulb went off or an extra light was suddenly turned on. This can happen
 if two strips were rendered or shot under different lighting conditions but are supposed to be contiguous.
 
 Chroma Vectorscope
