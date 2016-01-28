@@ -37,11 +37,13 @@ Their movement can be affected by many things, including:
 
 Particles may be rendered as:
 
-- :doc:`Halos </render/blender_render/materials/special_effects/halo>` (for Flames, Smoke, Clouds).
+- :doc:`Halos </render/blender_render/materials/special_effects/halo>`
+  (for Flames, Smoke, Clouds).
 - Meshes which in turn may be animated (e.g. fish, bees, ...).
   In these cases, each particle "carries" another object.
-- :doc:`Strands </render/blender_render/materials/properties/strands>` (for :doc:`Hair, Fur,
-  Grass </physics/particles/hair/hair>`); the complete way of a particle will be shown as a strand.
+- :doc:`Strands </render/blender_render/materials/properties/strands>`
+  (for :doc:`Hair, Fur, Grass </physics/particles/hair/index>`);
+  the complete way of a particle will be shown as a strand.
   These strands can be manipulated in the 3D window (combing, adding, cutting, moving, etc).
 
 Every object may carry many particle systems. Each particle system may contain up to 100.
