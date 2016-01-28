@@ -16,8 +16,10 @@ The most common trick is to :term:`keyframe` animate the location or rotation of
 the *Animated* checkbox. When the curve on the *Animated* property switches to disabled, the physics engine takes over
 using the object's last known location, rotation and velocities.
 
-Animating the strengths of various other parameters (a :ref:`Motor's <motor-constraint>` Target Velocity, a
-:ref:`Hinge's <Hinge-constraint>` limits, etc) can be used to accomplish a wide variety of interesting results.
+Animating the strengths of various other parameters
+(a :doc:`Motor's </physics/rigid_body/constraints/types/motor>` Target Velocity,
+a :doc:`Hinge's </physics/rigid_body/constraints/types/hidge>` limits, etc)
+can be used to accomplish a wide variety of interesting results.
 
 Enabling a constraint during the physics simulation often has dramatic results as the physics engine tries to bring
 into alignment two objects which are often dramatically out of alignment. It is very common for the affected objects

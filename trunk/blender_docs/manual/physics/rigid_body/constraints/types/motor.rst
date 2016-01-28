@@ -1,4 +1,3 @@
-.. _motor-constraint:
 
 *****
 Motor
