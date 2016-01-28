@@ -63,3 +63,11 @@ Mask
 
 White Balance
    Use it to adjust the white balance by choosing the color that should be white.
+
+Tone Map
+   Used to map one set of colors to another in order to approximate the appearance
+   of high dynamic range images in a medium that has a more limited dynamic range.
+
+   .. note::
+
+      This modifier works the same as the :doc:`Tone Map Node </compositing/types/color/tone_map>`
