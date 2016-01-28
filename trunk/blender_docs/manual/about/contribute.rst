@@ -10,16 +10,17 @@ your help with the Blender manual is most welcome!
 How It Works
 ============
 
-In plain English:
+In a nutshell:
 
-- The manual is written in the `reStructuredText <http://sphinx-doc.org/rest.html>`__ markup language and
-  contained in a central repository.
-- Writers can download the source files from this repository and edit them using a text editor.
-- They can "convert" the source files into HTML web pages to see exactly what it'll look like on
-  `blender.org/manual <http://blender.org/manual/>`__.
-- When they're happy with their changes, they publish them to the central repository so that everyone
-  else can work from them.
+- The manual is written in the `reStructuredText <http://sphinx-doc.org/rest.html>`__ markup language.
+- The manual sources are hosted in a central repository (at blender.org).
 
+- You download the source files from the repository and edit them using a plain text editor.
+- You convert the modified source files into HTML web pages on your local disk to see how your changes 
+  later look like on `blender.org/manual <http://blender.org/manual/>`__.
+- When you are satisfied with your work, you publish your modified files to the central repository
+  and now all other documentors can grab your contribution to work on top of it.
+- A few moments after your upload is completed, your modified documents become visible in the online blender manual.
 
 Install and Build
 =================
