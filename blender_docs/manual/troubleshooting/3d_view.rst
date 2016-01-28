@@ -12,12 +12,10 @@ Troubleshooting the 3D View
 Drawing
 =======
 
-
 Depth Buffer Glitches
 ---------------------
 
 TODO, see: http://blender.stackexchange.com/questions/1385
-
 
 Objects Invisible in Camera View
 --------------------------------
@@ -30,7 +28,6 @@ The camera will only show objects that fall within the clipping range.
 Performance
 ===========
 
-
 Slow Drawing
 ------------
 
@@ -40,8 +37,7 @@ TODO.
 Slow Selection
 --------------
 
-Blender uses OpenGL drawing for selection,
-some graphics card drivers are slow at performing this operation *(since its not in common used for games)*.
+Blender uses OpenGL drawing for selection, some graphics card drivers are slow at performing this operation.
 
 This becomes especially problematic on dense geometry.
 
@@ -52,13 +48,8 @@ OpenGL Occlusion Queries (User Preference)
 
    This option defaults *Automatic*, try setting this to *OpenGL Occlusion Queries*,
    since there is a significant performance difference under some configurations.
-OpenGL :term:`Vertex Buffer Objects <VBO>`
-   See :menuselection:`User Preferences --> System --> VBOs`
-
-   This uses a more optimal drawing method which may speed up selection.
 Upgrade OpenGL Driver
    In some cases slow selection is resolved by using updated drivers.
-
    *It's generally good to use recent drivers when using 3D software.*
 Select Centers (Workaround)
    In *Object Mode*, holding :kbd:`Ctrl` while selecting uses the object center point.
@@ -77,7 +68,6 @@ Change Draw Modes (Workaround)
 Navigation
 ==========
 
-
 Lost in Space
 -------------
 
@@ -85,7 +75,6 @@ When navigating your scene, you may accidentally navigate away from your scene
 and find yourself with a blank view-port
 
 TODO.
-
 
 Invisible Limit Zooming In
 --------------------------
@@ -95,7 +84,6 @@ TODO, see: http://blender.stackexchange.com/questions/644
 
 Tools
 =====
-
 
 .. _troubleshooting-3dview-invalid_selection:
 
@@ -129,4 +117,3 @@ Upgrade OpenGL Driver
    As with any OpenGL related issues, using recent drivers can resolve problems.
 
    However it should be noted that this is a fairly common problem and remains unresolved with many drivers.
-

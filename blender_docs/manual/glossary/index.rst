@@ -630,12 +630,6 @@ For other common conventions used throughout the manual.
       A point in 3D space containing a location. It may also have a defined color.
       Vertices are the terminating points of :term:`edges <edge>`.
 
-   VBO
-   Vertex Buffer Object
-      :term:`OpenGL` method for uploading geometry to the graphics cards memory for improved performance.
-
-      See also `Vertex Buffer Object <http://en.wikipedia.org/wiki/Vertex_Buffer_Object>`__ on Wikipedia.
-
    Vertex Group
       Collection of :term:`vertices <vertex>`.
       Vertex groups are useful for limiting operations to specific areas of a mesh.
