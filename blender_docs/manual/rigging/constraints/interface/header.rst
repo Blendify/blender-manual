@@ -1,8 +1,8 @@
 
 
-*********
+******
 Header
-*********
+******
 
 Every constraint has a header.
 The interface elements of the header are explained below using a Copy Location constraint as an example.
@@ -13,7 +13,8 @@ The interface elements of the header are explained below using a Copy Location c
 
 Expansion Arrow (pointing down or right)
    Show or Hide the settings of the constraint.
-   Tidy up the :doc:`constraint stack </rigging/constraints/interface/the_stack>` by hiding constraints that don't currently need attention.
+   Tidy up the :doc:`constraint stack </rigging/constraints/interface/the_stack>`
+   by hiding constraints that don't currently need attention.
    Constraints will continue to affect the scene even when hidden.
 
 "Copy Location" (first occurrence)
@@ -25,7 +26,8 @@ Expansion Arrow (pointing down or right)
 
    The **red** background is a warning that the constraint is not yet functional.
    The background will turn **gray** when the constraint is functioning.
-   When this Copy Location constraint has a valid target in the "Target Field" it will turn gray and begin to function.
+   When this Copy Location constraint has a valid target in the "Target Field"
+   it will turn gray and begin to function.
 
 Eyeball (open or closed)
    Enable or Disable (Mute/Unmute) the constraint. Disabling a constraint will stop its affect on the scene. 
