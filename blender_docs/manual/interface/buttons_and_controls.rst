@@ -110,6 +110,22 @@ may be used.
 `math module reference <http://docs.python.org/py3k/library/math.html>`__
 
 
+Expressions as Drivers
+^^^^^^^^^^^^^^^^^^^^^^
+
+You may want your expression to be re-evaluated after its entered.
+Blender supports this using :doc:`Drivers </animation/drivers>` (a feature of the animation system).
+
+Expression beginning with ``#``, have a special use.
+Instead of evaluating the value and discarding the expression,
+a driver is added to the property with the expression entered.
+
+The expression ``#frame`` is a quick way to access map a value to the current frame,
+but more complex expressions are also supported ``#fmod(frame, 24) / 24`` for example.
+
+This is simply a convenient shortcut to add drivers which can also be added via the :kbd:`RMB` menu.
+
+
 Units
 -----
 
