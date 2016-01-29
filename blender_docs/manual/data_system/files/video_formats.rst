@@ -253,7 +253,6 @@ Volume
 
 
 Tips
-
 ----
 
 
@@ -282,4 +281,3 @@ This way, you can easily:
 - Try out different video options in seconds, rather than minutes or hours.
 - Enjoy the rest of the features of the VSE,
   such as adding Image Strips from previous renders, audio, video clips, etc.
-

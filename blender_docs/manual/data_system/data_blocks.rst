@@ -22,7 +22,6 @@ Some common characteristics:
 - They can have their own animation data.
 - They can have custom properties.
 
-
 When doing more complex projects managing data-blocks becomes more important,
 especially when inter-linking ``.blend`` files.
 
@@ -48,7 +47,6 @@ This works by skipping zero user data-blocks when writing ``.blend`` files.
 
 In some cases you want to save a data-block even when its unused
 *(typically for re-usable asset libraries).* see `Fake User`_.
-
 
 Fake User
 ---------
@@ -105,7 +103,6 @@ Other data-blocks such as groups and actions can be *Unlinked* from the *Outline
 
 
 .. _data_system-datablock_types:
-
 
 Data-Block Types
 ================
@@ -295,4 +292,3 @@ For reference, here is a table of data-blocks types stored in ``.blend`` files.
      - |cross|
      - |cross|
      - | TODO.
-

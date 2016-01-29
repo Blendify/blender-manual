@@ -33,4 +33,3 @@ of the User Preferences Editor.
    If it's necessary to relocate a blend file relative to its linked resources,
    use Blender's File :doc:`Save As</data_system/files/save>`
    function which has an option to *Remap Relative* file links.
-

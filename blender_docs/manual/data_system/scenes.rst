@@ -73,6 +73,7 @@ Full Copy
    The choices for adding a scene, therefore determine just how much of this information will be
    *copied from* the active scene to the new one, and how much will be *shared* (linked).
 
+
 Removing a Scene
 ================
 
@@ -110,4 +111,3 @@ To make them single user (independent and unlinked) in a given scene go to that 
 select them, then from the 3d-view header access :menuselection:`Obejct -> Make Single User`.
 You will be presented with a few options that allow you to free up the data-blocks (Object,
 Material, Texture...) that you want.
-

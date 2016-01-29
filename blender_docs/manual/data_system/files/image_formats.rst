@@ -135,7 +135,6 @@ Internally Blender's image system supports either:
       This includes the Video Sequence Editor, texture mapping, background images,
       and the Compositor.
 
-
 Metadata
 --------
 
@@ -148,7 +147,6 @@ Only some files support this however.
 Format Details
 ==============
 
-
 Cineon & DPX
 ------------
 
@@ -160,19 +158,14 @@ DPX is currently a widely adopted standard used in the film hardware/software in
 DPX as well as Cineon only stores and converts the "visible" color range of values between 0.0
 and 1.0 (as result of rendering or composite).
 
-
-----
-
 OpenEXR
 -------
 
 `ILM's OpenEXR <http://www.openexr.com>`__ has become a software industry standard for HDR image files,
 especially because of its flexible and expandable structure.
 
-
 An OpenEXR file can store multiple layers and passes.
 This means OpenEXR images can be loaded into a compositor keeping render layers, passes intact.
-
 
 Output Options
 ^^^^^^^^^^^^^^
@@ -204,10 +197,6 @@ Compression
    ``PXR24``
       lossy algorithm from Pixar, converting 32 bits floats to 24 bits floats.
 
-
-----
-
-
 Radiance HDR
 ------------
 
@@ -217,4 +206,3 @@ this format is supported by many other software packages.
 
 Radiance (.hdr) files store colors still in 8 bits per component, but with an additional
 (shared) 8 bits exponent value, making it 32 bits per pixel.
-
