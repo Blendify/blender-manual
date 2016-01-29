@@ -24,12 +24,17 @@ At least a :doc:`Domain Object </physics/smoke/types/domain>` object and
 one :doc:`Flow object </physics/smoke/types/flow_object>` are required to create a smoke simulation.
 A basic workflow looks like this:
 
-#. Create a :doc:`Domain Object </physics/smoke/types/domain>` that defines the bounds of the simulation volume.
-#. Define a :doc:`Flow object </physics/smoke/types/flow_object>` or objects which will emit smoke and fire.
-#. Set :doc:`Collision objects </physics/smoke/types/collisions>` to make the smoke interact with objects in the scene.
-#. Assign a :doc:`Volumetric material </physics/smoke/material>` to the domain object.
-#. Save the .blend.
-#. :doc:`Bake </physics/smoke/baking>` the simulation.
+#. Create a :doc:`Domain Object </physics/smoke/types/domain>`
+   that defines the bounds of the simulation volume.
+#. Define a :doc:`Flow object </physics/smoke/types/flow_object>`
+   or objects which will emit smoke and fire.
+#. Set :doc:`Collision objects </physics/smoke/types/collisions>`
+   to make the smoke interact with objects in the scene.
+#. Assign a :doc:`Volumetric material </physics/smoke/material>`
+   to the domain object.
+#. Save the ``.blend``.
+#. :doc:`Bake </physics/smoke/baking>`
+   the simulation.
 
 .. note::
 
