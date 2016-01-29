@@ -1,7 +1,7 @@
 
-************************
-Translations Style Guide
-************************
+***********
+Style Guide
+***********
 
 This page covers conventions concerning the translations.
 
