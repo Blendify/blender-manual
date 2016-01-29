@@ -45,7 +45,6 @@ Trusted Source
    See :doc:`/advanced/scripting/python/security` to configure default trust options.
 
 
-
 .. _other-file-open-options:
 
 Other File Open Options
@@ -64,4 +63,3 @@ Recover Auto Save
 .. seealso::
 
    :ref:`Auto Saves <troubleshooting-file_recovery>`
-

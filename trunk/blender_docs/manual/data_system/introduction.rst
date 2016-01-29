@@ -22,8 +22,8 @@ such as selecting, renaming, deleting, linking and parenting.
 
 :doc:`Read more about the Outliner </editors/outliner>`
 
-.. _pack-unpack-data:
 
+.. _pack-unpack-data:
 
 Pack and Unpack Data
 ====================
@@ -38,7 +38,6 @@ The ``.blend`` file can then be copied or emailed anywhere, and the image textur
 You know that an image texture is packed because you will see a little "Christmas present gift
 box" displayed in the header.
 
-
 Unpack Data
 -----------
 
@@ -49,4 +48,3 @@ the file in the ``//`` (directory where the .blend file is). Use "original locat
 if you will be modifying the textures and re-packing and exchanging .blend files,
 so that when you send it back and the originator unpacks,
 his copies of the textures will be updated.
-

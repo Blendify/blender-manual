@@ -14,7 +14,6 @@ Where as *Append* makes a full copy of the data into your ``.blend``.
 You can make further edits to your local copy of the data,
 but changes in the external source file will not be reflected in the referencing file.
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -66,7 +65,6 @@ Look in the Outliner, with display mode set to *Blender File*, to see all your l
 
       This means that object data (animation, constraints, modifiers...) will be local to your ``.blend`` file.
       But the object-data will still be linked and remain immutable.
-      
 
 .. note::
 
@@ -74,6 +72,7 @@ Look in the Outliner, with display mode set to *Blender File*, to see all your l
    but will keep them linked (and un-editable).
 
    This is done so existing relationships with linked data remain intact.
+
 
 .. _object-proxy:
 
@@ -96,14 +95,12 @@ Known Limitations
 
 For the most part linking data will work as expected, however there are some corner-cases which aren't supported.
 
-
 Circular Dependencies
 ---------------------
 
 In general dependencies shouldn't go in both directions.
 
 Attempting to link or append data which links back to the current file will likely result in missing links.
-
 
 Object Rigid-Body Constraints
 -----------------------------
