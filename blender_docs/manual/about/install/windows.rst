@@ -16,7 +16,7 @@ Installing Python
 
 #. Download the Python installation package for MS-Windows from here: https://www.python.org/downloads/
 
-      *In this guide version 3.5.1 is used.*
+      *In this guide version 3.5.x is used.*
 
 #. Install Python with the installation wizard.
 
@@ -47,17 +47,17 @@ Setting up the Build Environment
 - Open a command prompt and change to the repository folder using
   ::
 
-    cd C:\blender_docs
+     cd C:\blender_docs
 
 - Install the all the requirements using Python's ``pip`` command
   ::
 
-    pip install -r requirements.txt
+     pip install -r requirements.txt
 
 - If all goes well, you should see the following message when it's finished
   ::
 
-    Successfully installed Jinja2 MarkupSafe Pygments Sphinx docutils sphinx-rtd-theme Cleaning up...
+     Successfully installed Jinja2 MarkupSafe Pygments Sphinx docutils sphinx-rtd-theme Cleaning up...
 
 During the setup some warnings may be shown, but don't worry about them.
 However if any errors occur, they may cause some problems.
@@ -67,7 +67,7 @@ However if any errors occur, they may cause some problems.
    Every now and then you may want to make sure your libs are up to date using:
    ::
 
-    pip install -r requirements.txt  --upgrade
+      pip install -r requirements.txt  --upgrade
 
 
 Building the HTML Files
@@ -79,13 +79,13 @@ We are now ready to convert all those **rst** files into pretty **html**!
 - Build using the following command
   ::
 
-    sphinx-build.exe -b html .\manual .\build\html
+     sphinx-build -b html manual build\html
 
   This is the command you will always use when building the docs.
   The building process may take several minutes the first time (or after any major changes),
   but the next time you build it should only take a few seconds.
 
-  .. note:: 
+  .. note::
 
      If you encounter an error ending with ``TypeError: an integer is required (got type str)``,
      you may need to install an older version of *Babel* (the Python Internationalization Library).
@@ -93,7 +93,7 @@ We are now ready to convert all those **rst** files into pretty **html**!
      To do this, simply run:
      ::
 
-       pip install sphinx "babel<2.0"
+        pip install sphinx "babel<2.0"
 
 - Once the docs have been built, all the html files can be found inside ``C:\blender_docs\build\html``.
   Try opening ``\build\html\contents.html`` in your web browser and read the manual.
