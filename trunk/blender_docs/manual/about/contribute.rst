@@ -18,9 +18,11 @@ In a nutshell:
 - You download the source files from the repository and edit them using a plain text editor.
 - You convert the modified source files into HTML web pages on your local disk to see how your changes 
   later look like on `blender.org/manual <http://blender.org/manual/>`__.
-- When you are satisfied with your work, you publish your modified files to the central repository
-  and now all other documentors can grab your contribution to work on top of it.
-- A few moments after your upload is completed, your modified documents become visible in the online blender manual.
+- When you are satisfied with your work, commit your modified files to the central repository
+  for others to work with and continue collaborating.
+- Soon after your changes are committed to the central repository,
+  the modifications become visible in the online blender manual.
+
 
 Install and Build
 =================
