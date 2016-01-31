@@ -16,14 +16,15 @@ DupliGroup
 Basic Usage
 ===========
 
-- Create a number of objects and group them by
+Create a Group:
    - selecting them all,
    - :kbd:`Ctrl-G`, and
    - eventually rename your group in *Object* --> *Groups*
-- Create a DupliGroup by
-   - adding another object (:kbd:`Shift-A`), say an *Empty*,
-   - in *Object* --> *Duplication* enable *Group*, and
-   - select the name of your newly created group in the selection box that appears.
+Create a new Group Instance:
+   - :menuselection:`Add -> Group Instance`
+Change the Group Instance of existing objects:
+   - In the properties editor *Object* --> *Duplication* enable *Group*
+   - Select the name of your newly created group.
 
 
 DupliGroup and Dynamic Linking
