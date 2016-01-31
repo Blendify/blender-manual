@@ -19,13 +19,13 @@ Basic Usage
 ===========
 
 Create a Group:
-   - selecting them all,
-   - :kbd:`Ctrl-G`, and
-   - eventually rename your group in *Object* --> *Groups*
+   - Selecting the objects to be grouped.
+   - Create a new group :menuselection:`Object --> Group --> Create New Group`
+   - Rename your group in the properties editor: *Object --> Groups*
 Create a new Group Instance:
    - :menuselection:`Add -> Group Instance`
 Change the Group Instance of existing objects:
-   - In the properties editor *Object* --> *Duplication* enable *Group*
+   - In the properties editor: *Object --> Duplication*, enable *Group*.
    - Select the name of your newly created group.
 
 At this point, an instance of the group will appear. You can duplicate the empty,
