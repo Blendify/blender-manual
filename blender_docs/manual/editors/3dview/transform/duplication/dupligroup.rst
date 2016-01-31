@@ -12,6 +12,8 @@ DupliGroup
 
 *Duplication Group* or *DupliGroup* allows you to create an instance of a group for each instance of another object.
 
+*DupliGroups* may contain animations, objects with physics simulations and even other nested *DupliGroups*.
+
 
 Basic Usage
 ===========
@@ -26,6 +28,10 @@ Change the Group Instance of existing objects:
    - In the properties editor *Object* --> *Duplication* enable *Group*
    - Select the name of your newly created group.
 
+At this point, an instance of the group will appear. You can duplicate the empty,
+and the DupliGroup settings will be preserved for each empty.
+This way, you can get multiple copies of linked data very easily.
+
 
 DupliGroup and Dynamic Linking
 ==============================
@@ -36,25 +42,6 @@ You can dynamically link groups from one blend file to another.
 When you do so, the linked group does not appear anywhere in your scene
 until you create an object controlling where the group instance appears.
 
-
-Example
--------
-
-- Link a group from another file into your scene,
-  as described in :doc:`Appending and Linking </data_system/linked_libraries>`.
-
-From here, you can use the easy way or the hard way:
-
-- The easy way:
-   - Select *Add* --> *Group Instance* --> ``[name of group you just linked]``.
-- The hard way:
-   - Select *Add* --> *Empty*, and select the empty that you added.
-   - Switch to the *Object* context, and in the *Duplication* panel, click *Group*.
-   - In the dropdown box that appears next to *Group:*, pick the group that you linked.
-
-At this point, an instance of the group will appear. You can duplicate the empty,
-and the DupliGroup settings will be preserved for each empty. This way,
-you can get multiple copies of linked data very easily.
 
 
 Making a DupliGroup Object Real
