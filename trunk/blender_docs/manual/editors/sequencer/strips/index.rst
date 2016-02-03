@@ -8,6 +8,7 @@
 
    introduction.rst
    scene.rst
+   mask.rst
    image_movie.rst
    effects/index.rst
    audio.rst

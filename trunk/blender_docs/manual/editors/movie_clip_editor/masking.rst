@@ -1,6 +1,7 @@
-###########
-  Masking
-###########
+
+*******
+Masking
+*******
 
 Introduction
 ============
@@ -12,31 +13,6 @@ or as a rough matte for green screen keying. Masks are independent from a partic
 and so they can just as well be used for creating motion graphics or other effects in the compositor.
 These masks can also be used in other places in Blender.
 
-Compositing Node
-----------------
-
-In the compositing nodes the Mask input node can be used to select a mask datablock,
-with as output the raster mask image. This image can be used with other nodes,
-for example to Invert, Multiply or Mix, or use as a factor input. The node options are:
-
-Anti-Alias
-    Create smooth mask edges rather than hard ones. 
-Feather
-    Use or ignore feather points defined for splines. 
-Size
-    Scene Size will give an image the size of the render resolution for the scene,
-    scaling along when rendering with different resolutions. Fixed gives a fixed size in pixels. Fixed/
-    Scene gives a size in pixels that still scales along when changing the render resolution percentage in the scene. 
-Motion Blur
-    For animated masks, creating a motion blurred mask from the surrounding frames,
-    with a given number of samples (higher gives better quality), and a camera shutter time in seconds. 
-
-Sequencer Strip
----------------
-
-In the sequencer a Mask strip can be added, which generates a mask image.
-This works similar to the compositing node but without the options available for finer control.
-The mask image is always generated at the render resolution, scaling along with different proxy levels. 
 
 Editing Masks
 =============
