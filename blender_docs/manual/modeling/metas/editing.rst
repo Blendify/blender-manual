@@ -160,6 +160,14 @@ The *base* meta is effectively the parent of
 it is as if the other metas were "included" or joined into the base one).
 
 
+.. hint::
+
+   When working with multiple scenes,
+   take care naming your meta objects so the *base* is always in the same scene as other metas.
+
+   Failing to do this will give confusing behavior *(invisible meta objects)*.
+
+
 Examples
 ========
 
