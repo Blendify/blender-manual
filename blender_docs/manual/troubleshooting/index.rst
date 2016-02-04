@@ -11,6 +11,7 @@
    3D Viewport <3d_view.rst>
    Graphics Hardware <gpu.rst>
    Crashes <crash.rst>
+   Python Errors <python.rst>
    Recovering Lost Work <recover.rst>
 
 
