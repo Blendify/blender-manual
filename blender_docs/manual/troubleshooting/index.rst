@@ -20,12 +20,6 @@ Compatibility
 
 Some applications which integrate themselves into your system can cause problem's with Blender.
 
-Here are some known compatibility issues listed by platform.
-
-.. toctree::
-   :maxdepth: 1
-
-   compatibility_linux.rst
-   compatibility_osx.rst
-   compatibility_windows.rst
+Here is a list of
+`known compatibility issues <http://wiki.blender.org/index.php/Dev:Source/Development/Compatibility>`__.
 
