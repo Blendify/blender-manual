@@ -3,13 +3,13 @@
 Troubleshooting Python problems
 *******************************
 
-Mixed Python Libraries (Dll's)
+Mixed Python Libraries (DLL's)
 ==============================
 
 You ever got trapped in a situation where a part of Blender always ends up
-with throwing tons of python errors into the Blender Console? Or you got
-this awesome Addon but it just fails to install by telling you about dubious
-issues like for example "%s is not a valid Win32 application."
+with throwing tons of python errors into the Blender Console?
+Or you have an add-on that just fails when enabled with an error, eg:
+``... is not a valid Win32 application.``.
 
 .. figure:: /images/troubleshooting-python.png
 
@@ -18,17 +18,22 @@ issues like for example "%s is not a valid Win32 application."
 This may be caused by some inconsistency in the Python libraries.
 However Blender comes with its own bundled Python interpreter.
 So unless Blender has a distribution bug, there is no way to
-get your environment poluted, Blender should just run... one might think.
+get your environment polluted, Blender should just run... one might think.
+
 
 PYTHONPATH
 ----------
 
-But there are ways to spoil the system. The most probable method how you
-can get Blender to fail is by telling it to not use the bundled Python
-Interpreter at all, but the one you want (by using the system variable PYTHONPATH).
+When the ``PYTHONPATH`` is set incorrectly, Blender may fail to load.
 
-Please check if you have this variable defined and disable this variable temporary.
-Then restart Blender and see if that helps.
+Blender respects the systems ``PYTHONPATH`` environment variable,
+see: `Pythons documentation <https://docs.python.org/3/using/cmdline.html#envvar-PYTHONPATH>`__ for details.
+
+This can be useful for Python developers who want to use their own Python installation
+however it will prevent Blender from opening at all when set to an incompatible version of Python.
+
+To see if this is the cause of an error temporary unset the environment variable and reload Blender.
+
 
 Addon issues
 ------------
@@ -39,6 +44,7 @@ the Addon that you want to install has its own .pyd files (this is not a common 
 but well, it can happen). If so, then please check if the libraries match with Blender's
 bundled Python Interpreter. If in doubt then ask the Addon creator.
 
+
 Left over files in Appdata
 --------------------------
 
@@ -48,8 +54,9 @@ do not take care then you can easily pollute your Blender without even noticing.
 
 Here is a method how you can find a solution:
 
+
 Finding out which Python Library made the Problem
-"""""""""""""""""""""""""""""""""""""""""""""""""
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This is normally reported somewhere around the bottom line of the Traceback.
 In the image above you see the problem is caused while trying to import _socket.
