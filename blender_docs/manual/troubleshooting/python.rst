@@ -3,12 +3,46 @@
 Troubleshooting Python problems
 *******************************
 
-Mixed Python Libraries (DLL's)
-==============================
 
-You ever got trapped in a situation where a part of Blender always ends up
-with throwing tons of python errors into the Blender Console?
-Or you have an add-on that just fails when enabled with an error, eg:
+PYTHONPATH
+==========
+
+Blender will fail to load if the ``PYTHONPATH`` is set incorrectly.
+
+This can be useful for Python developers who want to use their own Python installation
+however it will prevent Blender from opening at all when set to an incompatible version of Python.
+
+To see if this is the cause of an error temporary unset the environment variable and reload Blender.
+
+See `Python's documentation <https://docs.python.org/3/using/cmdline.html#envvar-PYTHONPATH>`__ for details.
+
+
+Pre-Compiled Libraries
+======================
+
+While not common practice, Python add-ons can be distributed with their own pre-compiled libraries.
+Unlike regular Python scripts, these are not portable between different platforms.
+
+It is possible the library is incompatible with your Blender installation
+*(attempting to load a library built for a different version of Python,
+or loading a 32-bit library on a 64-bit system)*.
+
+If the add-on contains ``.pyd`` or ``.so`` files,
+check that the distribution is compatible with your operating system.
+
+
+Platform Specific
+=================
+
+
+MS-Windows
+----------
+
+
+Mixed Python Libraries (DLL's)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+If Python is raising errors or you have an add-on that just fails when enabled with an error, eg:
 ``... is not a valid Win32 application.``.
 
 .. figure:: /images/troubleshooting-python.png
@@ -16,69 +50,53 @@ Or you have an add-on that just fails when enabled with an error, eg:
    A Python Traceback
 
 This may be caused by some inconsistency in the Python libraries.
-However Blender comes with its own bundled Python interpreter.
-So unless Blender has a distribution bug, there is no way to
-get your environment polluted, Blender should just run... one might think.
+While Blender comes with its own bundled Python interpreter, duplicate, incompatible libraries can cause problems.
 
+To find out which Python Library caused the Problem check the error message.
 
-PYTHONPATH
-----------
+This is normally reported somewhere around the bottom line of the traceback.
+With the error above you see the problem is caused while trying to import ``_socket``.
+This corresponds to either a file named ``_socket.py`` or ``_socket.pyd``.
 
-When the ``PYTHONPATH`` is set incorrectly, Blender may fail to load.
+To help troubleshoot this problem,
+the following script can be pasted into the text edit and run to check for duplicate paths
+(output will show in :doc:`/interface/window_system/console_window`).
 
-Blender respects the systems ``PYTHONPATH`` environment variable,
-see: `Pythons documentation <https://docs.python.org/3/using/cmdline.html#envvar-PYTHONPATH>`__ for details.
+.. code-block:: python
 
-This can be useful for Python developers who want to use their own Python installation
-however it will prevent Blender from opening at all when set to an incompatible version of Python.
+   import os
+   import sys
+   
+   # Change this based on the library you wish to test
+   test_lib = "_socket.pyd"
+   
+   def GetSystemDirectory():
+       from ctypes import windll, create_string_buffer, sizeof
+       GetSystemDirectory = windll.kernel32.GetSystemDirectoryA
+       buffer = create_string_buffer(260)
+       GetSystemDirectory(buffer, sizeof(buffer))
+       return os.fsdecode(buffer.value)
+   
+   def library_search_paths():
+       return (
+           # Windows search paths
+           os.path.dirname(sys.argv[0]),
+           os.getcwd(),
+           GetSystemDirectory(),
+           os.environ["WINDIR"],  # GetWindowsDirectory
+           *os.environ["PATH"].split(";"),
+   
+           # regular Python search paths
+           *sys.path,
+           )
+   
+   def check_library_duplicate(libname):
+       paths = [p for p in library_search_paths()
+                if os.path.exists(os.path.join(p, libname))]
+   
+       print("Library %r found in %d locations:" % (libname, len(paths)))
+       for p in paths:
+           print("- %r" % p)
+   
+   check_library_duplicate(test_lib)
 
-To see if this is the cause of an error temporary unset the environment variable and reload Blender.
-
-
-Addon issues
-------------
-
-An Addon might possibly come along with its own Python libraries. These libraries
-might not work nicely together with the current Blender installation. Please check if
-the Addon that you want to install has its own .pyd files (this is not a common situation,
-but well, it can happen). If so, then please check if the libraries match with Blender's
-bundled Python Interpreter. If in doubt then ask the Addon creator.
-
-
-Left over files in Appdata
---------------------------
-
-Blender is flexible. It can be extended in many ways. And because Blender tries to
-be friendly to everyone it allows you to add python libraries in many places. If you
-do not take care then you can easily pollute your Blender without even noticing.
-
-Here is a method how you can find a solution:
-
-
-Finding out which Python Library made the Problem
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-This is normally reported somewhere around the bottom line of the Traceback.
-In the image above you see the problem is caused while trying to import _socket.
-This corresponds to either a file named _socket.py or _socket.pyd.
-In many cases the filename is reported one line above, but not always,
-especially if the module comes from a python library. In that case you
-don't get informed about from where the file comes. So you have to find the file.
-
-Check in following locations:
-
-- The Scripts folder
-- The application Data Folder
-- The Blender installation folder
-- The Python Installation (if you have installed Python independent from Blender)
-
-If you find this file at multiple locations, then you are already in trouble.
-If you find the File in the Blender Installation folder and somewhere else, then
-the version in the Blender Installation Folder should be used. In that case rename
-or remove the file from the other location and see if Blender now behaves different.
-
-.. tip:: Quick Tests:
-
-   - Move the Application Data aside (rename it temporary) and restart Blender to see
-     if you possibly have a corrupt customdata.
-   - Restart Blender with Factory Settings and see if this makes anything better.
