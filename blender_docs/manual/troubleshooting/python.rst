@@ -44,9 +44,9 @@ Left over files in Appdata
 
 Blender is flexible. It can be extended in many ways. And because Blender tries to
 be friendly to everyone it allows you to add python libraries in many places. If you
-do not take care then you can easily polute your Blender without even noticing.
+do not take care then you can easily pollute your Blender without even noticing.
 
-Here is a method how you can find a polution:
+Here is a method how you can find a solution:
 
 Finding out which Python Library made the Problem
 """""""""""""""""""""""""""""""""""""""""""""""""
@@ -56,7 +56,7 @@ In the image above you see the problem is caused while trying to import _socket.
 This corresponds to either a file named _socket.py or _socket.pyd.
 In many cases the filename is reported one line above, but not always,
 especially if the module comes from a python library. In that case you
-don't get informed about from where the file comes. So you have to find file.
+don't get informed about from where the file comes. So you have to find the file.
 
 Check in following locations:
 
@@ -67,7 +67,7 @@ Check in following locations:
 
 If you find this file at multiple locations, then you are already in trouble.
 If you find the File in the Blender Installation folder and somewhere else, then
-the version in the Blender Installation Folder shoul dbe used. In that case rename
+the version in the Blender Installation Folder should be used. In that case rename
 or remove the file from the other location and see if Blender now behaves different.
 
 .. tip:: Quick Tests:
