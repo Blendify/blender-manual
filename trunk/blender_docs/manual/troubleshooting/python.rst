@@ -1,6 +1,6 @@
 
 *******************************
-Troubleshooting Python problems
+Troubleshooting Python Problems
 *******************************
 
 
@@ -47,7 +47,7 @@ If Python is raising errors or you have an add-on that just fails when enabled w
 
 .. figure:: /images/troubleshooting-python.png
 
-   A Python Traceback
+   A Python traceback.
 
 This may be caused by some inconsistency in the Python libraries.
 While Blender comes with its own bundled Python interpreter, duplicate, incompatible libraries can cause problems.
@@ -59,7 +59,7 @@ With the error above you see the problem is caused while trying to import ``_soc
 This corresponds to either a file named ``_socket.py`` or ``_socket.pyd``.
 
 To help troubleshoot this problem,
-the following script can be pasted into the text edit and run to check for duplicate paths
+the following script can be pasted into the text edit and run to check for duplicate libraries in your search path.
 (output will show in :doc:`/interface/window_system/console_window`).
 
 .. code-block:: python
