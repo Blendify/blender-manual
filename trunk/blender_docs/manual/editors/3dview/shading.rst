@@ -59,26 +59,22 @@ Shading Panel
 The shading panel in the Properties Region provides additional control over the way objects in the 3D view appear.
 
 Textured Solid
-   Display assigned :ref:`face textures<face_textures>` in the *Solid* shading mode.
+   Display assigned :ref:`face textures <face_textures>` in the *Solid* shading mode.
    *(Not available in the Cycles Render Engine)*
 Matcap
    A selection of preset shader effects, (overriding regular materials)
    which can help visualize your models while editing or sculpting,
    without having to set up complex materials first.
 Backface Culling
-   Only show the front side of faces.
-   Use this to find faces flipped the wrong way,
+   Only show the front side of faces. Use this to find faces flipped the wrong way,
    especially when exporting to programs that use single sided drawing.
 Depth of Field
    Simulates a camera's focal blur effect in the 3D viewport. *Only visible in a camera view*.
-   Control the effect using these options in the
-   :ref:`Properties Tab<camera-settings>`
-   of the active camera:
-   Focal Length, Sensor Size, Focus Object or Focus Distance, and Viewport F-stop.
+   Control the effect using these options in the :ref:`Properties Tab <camera-settings>`
+   of the active camera: Focal Length, Sensor Size, Focus Object or Focus Distance, and Viewport F-stop.
 Ambient Occlusion
    Improves the realism of the viewport image by simulating the darkening effect that
-   occurs in crevices and corners.
-   Typically such effects are rendered at higher quality,
+   occurs in crevices and corners. Typically such effects are rendered at higher quality,
    but this is a quick real-time preview which can help when modelling or sculpting.
 
    These settings control the AO effect.
