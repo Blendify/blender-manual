@@ -23,20 +23,19 @@ if NOT "%1" == "" (
 
 	REM Documentation
 	if "%1" == "html" (
-		sphinx-build.exe -b html .\manual .\build\html
+		sphinx-build -b html .\manual .\build\html
 	) else if "%1" == "clean" (
 		RMDIR/s/q build
-		sphinx-build.exe -b html .\manual .\build\html
-		)
-		goto EOF
+	)
+	goto EOF
 
 	REM RST Checks
 	) else if "%1" == "check_syntax" (
 		python tools/rst_check_syntax.py --long > rst_check_syntax.log
 		type rst_check_syntax.log
 		DEL rst_check_syntax.log
-		)
-		goto EOF
+	)
+	goto EOF
 ::	) else if "%1" == "check_structure" (
 ::		python tools/rst_check_structure.py --image > rst_check_structure.log
 ::		type rst_check_structure.log
