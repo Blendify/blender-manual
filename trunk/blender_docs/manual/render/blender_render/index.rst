@@ -15,6 +15,6 @@
    passes.rst
    motion_blur.rst
    antialiasing.rst
-   edges.rst
+   post_processing/index.rst
    quality.rst
    performance.rst

@@ -18,6 +18,11 @@ if NOT "%1" == "" (
 		echo.
 		echo - check_syntax
 REM		echo - check_structure
+		echo.
+		echo Sphinx
+		echo ======
+		echo.
+		echo - upgrade
 		goto EOF
 	)
 
@@ -42,6 +47,13 @@ REM		type rst_check_structure.log
 REM		DEL rst_check_structure.log
 REM		)
 REM		goto EOF
+	REM Sphinx
+	) else if "%1" == "upgrade" (
+		pip install -r requirements.txt  --upgrade > requirements.log
+		type requirements.log
+		DEL requirements.log
+		)
+		goto EOF
 	) else (
 		echo Command "%1" unknown, aborting!
 		goto EOF
