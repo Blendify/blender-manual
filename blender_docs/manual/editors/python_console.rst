@@ -212,23 +212,23 @@ Exercise
 
 .. code-block:: python
 
-   >>> for object in bpy.data.scenes['Scene'].objects: print(object.name)
+   for obj in bpy.data.scenes['Scene'].objects: print(obj.name)
 
 :kbd:`Return` twice
 Prints the names of all objects belonging to the Blender scene with name "Scene"
 
 .. code-block:: python
 
-   >>> bpy.data.scenes['Scene'].objects.unlink(bpy.context.active_object)
+   bpy.data.scenes['Scene'].objects.unlink(bpy.context.active_object)
 
 
 Unlink the active object from the Blender scene named 'Scene'
 
 .. code-block:: python
 
-   >>> bpy.data.materials['Material'].shadows
+   bpy.data.materials['Material'].shadows
 
-   >>> bpy.data.materials['Material'].shadows = False
+   bpy.data.materials['Material'].shadows = False
 
 
 bpy.ops
@@ -252,15 +252,15 @@ So first we define an array variable for later reference:
 
 .. code-block:: python
 
-   >>> mylayers = [False] * 20
-   >>> mylayers[0] = True
+   mylayers = [False] * 20
+   mylayers[0] = True
 
 
 We create a reference to the operator that is used for creating a cube mesh primitive
 
 .. code-block:: python
 
-   >>> add_cube = bpy.ops.mesh.primitive_cube_add
+   add_cube = bpy.ops.mesh.primitive_cube_add
 
 
 Now in a for loop, we create the five objects like this (In the screenshot above,
@@ -269,8 +269,8 @@ Press :kbd:`Return` twice after entering the command at the shell prompt.
 
 .. code-block:: python
 
-   >>> for index in range(5):
-   ...     add_cube(location=(index * 3, 0, 0), layers=mylayers)
+   for index in range(5):
+       add_cube(location=(index * 3, 0, 0), layers=mylayers)
 
 
 .. figure:: /images/Extensions-Python-Console-Example-bpy-ops.jpg
