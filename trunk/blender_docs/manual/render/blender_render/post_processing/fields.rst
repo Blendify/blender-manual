@@ -27,7 +27,7 @@ A noticeable jitter of the edges of moving objects would be present.
 
 
 Options
--------
+=======
 
 .. figure:: /images/render-to-fields.jpg
 
