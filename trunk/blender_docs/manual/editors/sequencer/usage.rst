@@ -17,7 +17,7 @@ As usual, the View Menu controls what and how you view in the workspace.
 Properties Panel
    The Properties Panel contains options for the way the preview is displayed.
 View all Sequences :kbd:`Home`
-   Zooms (out) the display to show all strips.
+   Zooms the display to show all strips.
 Show Preview ``1:1`` :kbd:`Numpad1`
    Resizes preview to a ``1:1`` scale (actual size).
 View Selected :kbd:`NumpadPeriod`
@@ -37,8 +37,6 @@ Draw Frames
    Displays the frame number instead of the time, in the Frame Number Indicator.
 Show Frame Number Indicator
    Toggles the units of measure across the bottom of the workspace between seconds or frames.
-Safe Margin
-   Displays an overlay on the preview, marking where title safe region is.
 Transform Markers
    Transform Markers as well as Strips.
 
