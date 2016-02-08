@@ -45,9 +45,12 @@ View Settings
 -------------
 
 Show Overexposed
-   Shows overexposed (bright white) areas using a zebra pattern
+   Shows overexposed (bright white) areas using a zebra pattern.
+   The threshold can be adjust with the slider.
 Proxy Render Size
    Size to display proxies at in the preview window.
+   Using a smaller preview size will increase speed.
+
 
 Safe Areas
 ----------

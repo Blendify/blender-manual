@@ -44,7 +44,6 @@ Separate Colors
 Transform Markers
    Transform Markers as well as Strips.
 
-
 Scrubbing
 ---------
 
@@ -62,7 +61,6 @@ image sequence or movie (avi/mov) file.
 Scene strips can use OpenGL previews or proxies for realtime playback,
 otherwise displaying rendered frame is supported, but typically too slow for real-time playback.
 
-
 View Modes
 ----------
 
@@ -72,35 +70,6 @@ and the third button displays both the Sequencer and the Preview.
 
 When the preview is enabled, you have several options to change what type pf preview to display.
 They are explained in the :doc:`Display Modes Page </editors/sequencer/display_modes>`.
-
-
-Scene Preview
--------------
-
-When using a Scene Strip in the sequencer,
-these settings in the Properties Panel determine how they are shown in the preview window.
-
-Open GL Preview
-   If you have Open GL, enable this setting to use Open GL for the scene preview renders.
-   The drop down menu allows you to change how the Scene is displayed (Bounding Box, Wireframe, Solid, Textured).
-
-
-View Settings
--------------
-
-The View Settings section in the properties panel contains addition display options.
-
-Show Overexposed
-   Increasing this number to 1 or greater displays a striped overlay to the preview image,
-   showing where it is overexposed. A higher number gives a higher threshold for marking overexposure.
-
-Safe Margin
-   Displays an overlay on the preview, marking where title safe region is.
-
-Proxy Render Size
-   Draws preview using full resolution or different proxy resolutions.
-   Render resolution is determined in the render settings panel. Using a smaller preview size will increase speed.
-
 
 Refresh View
 ------------
@@ -183,7 +152,6 @@ The Strip Menu contains additional tools for working with strips:
 - *Snap Strips*
 - *Swap Strips*
 
-
 Snap to Frame
 -------------
 
@@ -194,13 +162,11 @@ If your Time display is in seconds,
 you can get to fractional parts of a second by zooming the display;
 you can get all the way down to an individual frame.
 
-
 Separate Images to Strips
 -------------------------
 
 :kbd:`Y` Converts the strip into multiple strips, one strip for each frame.
 Very useful for slide shows and other cases where you want to bring in a set on non-continuous images.
-
 
 Editing Strips
 --------------
@@ -218,7 +184,6 @@ Editing Strips
   - Dragging the left arrow left will create a lead-in (copies) of the first frame for as many frames as you drag it.
     Use this when you want some frames for transitions to the this clip.
 
-
 - :kbd:`RMB` on the right arrow of the strip selects the **end** frame of the strip;
   holding it down (or pressing :kbd:`G` rab) and then moving the mouse changes the ending frame within the strip:
 
@@ -235,7 +200,6 @@ Editing Strips
    everything that's selected will move with your mouse- this means that,
    for example, you can at the same time move a strip, shorten two others, and extend a forth one.
 
-
 - STRIP EXTEND. With a number of Image strips selected, pressing :kbd:`E` enters EXTEND mode.
   All selected strip handles to the "mouse side" of the current frame indicator will transform together,
   allowing you to essentially extend the strips that fall exactly on the
@@ -244,7 +208,6 @@ Editing Strips
 While splicing two strips happens just by placing them finish-to-start,
 cut a strip by pressing :kbd:`K` to cut. At the selected frame for the selected strips,
 :kbd:`K` cuts them in two. Use Cut to trim off roll-ups or lead-ins, or roll-downs or extra film shot.
-
 
 .. note:: Note on the 'cut'
 
@@ -269,7 +232,6 @@ cut a strip by pressing :kbd:`K` to cut. At the selected frame for the selected 
 
    This is at the heart of nearly every editor solution, and that's quite handy!
 
-
 .. note:: Action Stops
 
    When extending the start beyond the beginning or end after the ending,
@@ -278,9 +240,7 @@ cut a strip by pressing :kbd:`K` to cut. At the selected frame for the selected 
    still happening so that the stop action is not that noticeable
    (unless, of course, you want it to be, like the 80's drama sitcoms).
 
-
 Change the length of an effect strip by changing the start/end frame of the origin strips.
-
 
 Copy and Paste
 --------------
