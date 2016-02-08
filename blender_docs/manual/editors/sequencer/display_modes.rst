@@ -68,6 +68,10 @@ Allows you to use :doc:`Grease Pencil </interface/grease_pencil/index>` in the s
 Previews
 ========
 
+The are an array of different display modes available, each having a specific purpose.
+You can adjust the view by zooming in with :kbd:`Plus` and zoom out with :kbd:`Minus`.
+You can also reset the view with :kbd:`Home`.
+
 Image Preview
 -------------
 
