@@ -39,8 +39,6 @@ Show Frame Number Indicator
    Toggles the units of measure across the bottom of the workspace between seconds or frames.
 Safe Margin
    Displays an overlay on the preview, marking where title safe region is.
-Separate Colors
-   When using Luma Waveform view, this separates R,G, and B into separate graphs.
 Transform Markers
    Transform Markers as well as Strips.
 
