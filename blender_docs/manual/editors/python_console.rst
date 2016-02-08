@@ -234,11 +234,11 @@ Unlink the active object from the Blender scene named 'Scene'
 bpy.ops
 -------
 
-The tool/action system in Blender 2.5 is built around the concept of operators. These
-operators can be called directly from console or can be executed by click of a button or
-packaged in a python script. Very powerful they are..
+The tool system is built around the concept of operators.
+Operators are typically executed from buttons or menus but can also be be called directly from Python too.
 
-For a list of various operator categories, click here
+See the `bpy.ops <https://www.blender.org/api/blender_python_api_current/bpy.ops.html>`__ API documentation
+for a list of all operators.
 
 Lets create a set of five Cubes in the 3D Viewport. First,
 delete the existing Cube object by selecting it and pressing :kbd:`X`
