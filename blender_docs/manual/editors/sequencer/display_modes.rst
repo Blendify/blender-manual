@@ -27,6 +27,44 @@ Channel 1 is what the current frame's image from the strip in channel 1 looks li
 (channel 1 is at the bottom of the heap). The display of these modes is either the composite
 (channel 0) or the frame from the strip (channels 1 through n).
 
+
+Properties Bar
+==============
+
+Scene Preview / Render
+----------------------
+
+OpenGL Preview
+   Create OpenGL renders for the :doc:`Scene Strip </editors/sequencer/strips/scene>`.
+Sequencer Preview Shading
+   Method for rendering OpenGL renders.
+Textured Solid
+   Display textures even when in solid mode.
+
+View Settings
+-------------
+
+Show Overexposed
+   Shows overexposed (bright white) areas using a zebra pattern
+Proxy Render Size
+   Size to display proxies at in the preview window.
+
+Safe Areas
+----------
+
+Shows guides used to position elements to ensure that the
+most important parts of the video can be seen across all screens.
+
+.. seealso::
+
+   See :doc:`Safe Areas </render/camera/safe_areas>` in the camera docs.
+
+Grease Pencil
+-------------
+
+Allows you to use :doc:`Grease Pencil </interface/grease_pencil/index>` in the sequencer.
+
+
 Previews
 ========
 
@@ -37,7 +75,6 @@ In the upper window pane of the Sequence screen layout is another VSE window,
 this one set to Image Preview mode. It shows you what the resulting video will look like when saved.
 This is the main working mode for adding strips and moving them around,
 cutting, grouping (making meta) and splicing them through special effects.
-
 
 Luma Waveform
 -------------
@@ -75,26 +112,21 @@ This mode is good for:
 
    - .. figure:: /images/VSE-Luma_waveform_ex1.jpg
 
-        'Simple' picture.
-        The various horizontal lines in the Luma waveform match the uniform-color lines of the picture.
-        Note that the 'grey 20%' one-pixel width line (inside the yellow strip)
-        is represented in the Luma waveform by a grey line.
+        'Simple' picture. The various horizontal lines in the Luma waveform
+        match the uniform-color lines of the picture. Note that the 'grey 20%'
+        one-pixel width line (inside the yellow strip) is represented in the Luma waveform by a grey line.
         The two lines drawing an 'X' are from the two linear tone shades (white-->black and black-->white).
         Finally, the broken line matches the complex tone shade at the bottom of the picture.
 
    - .. figure:: /images/VSE-Luma_waveform_ex2.jpg
 
-        A 'real' picture.
-        The curves are quite visible.
-        We found a luma of 80-100% for the sky,
-        a luma around 40% for the sea,
-        and a luma of 10-20% for the mountains, growing around 40% for the sunny part.
+        A 'real' picture. The curves are quite visible. We found a luma of 80-100% for the sky,
+        a luma around 40% for the sea, and a luma of 10-20% for the mountains, growing around 40% for the sunny part.
 
 .. Note::
 
    Note that the pictures (first green frame, at the top) are only 50px high,
    to limit the number of curves displayed in the *Luma waveform* 
-
 
 Use this display to check for appropriate contrast and luminosity across all frames in the channel.
 When spots in the film that should have even illumination don't,
@@ -133,7 +165,6 @@ they stink when shown on the big screen TV. Use :kbd:`Alt-A` to scrub the video;
 this display will update with a new/revised map for each frame.
 Just like watching the Image preview to see what it looks like,
 watch the Chroma Vectorscope to watch for color use.
-
 
 This mode is good for:
 
