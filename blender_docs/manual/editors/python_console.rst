@@ -46,12 +46,9 @@ at the prompt and execute it.
 
 Following is a quick overview of the output
 
-``C``
-   Quick access to ``bpy.context``
-``D``
-   Quick access to ``bpy.data``
-``bpy``
-   Top level Blender Python API module.
+:``C``: Quick access to ``bpy.context``.
+:``D``: Quick access to ``bpy.data``.
+:``bpy``: Top level Blender Python API module.
 
 
 Auto Completion at work
@@ -125,42 +122,42 @@ bpy.context.object or bpy.context.active_object
 
 .. code-block:: python
 
-   >>> bpy.context.object.location.x = 1
+   bpy.context.object.location.x = 1
 
 
 Change x location to a value of 1
 
 .. code-block:: python
 
-   >>> bpy.context.object.location.x += 0.5
+   bpy.context.object.location.x += 0.5
 
 
 Move object from previous x location by 0.5 unit
 
 .. code-block:: python
 
-   >>> bpy.context.object.location = (1, 2, 3)
+   bpy.context.object.location = (1, 2, 3)
 
 
 Changes x, y, z location
 
 .. code-block:: python
 
-   >>> bpy.context.object.location.xyz = (1, 2, 3)
+   bpy.context.object.location.xyz = (1, 2, 3)
 
 
 Same as above
 
 .. code-block:: python
 
-   >>> type(bpy.context.object.location)
+   type(bpy.context.object.location)
 
 
 Data type of objects location
 
 .. code-block:: python
 
-   >>> dir(bpy.context.object.location)
+   dir(bpy.context.object.location)
 
 
 Now that is a lot of data that you have access to
@@ -170,20 +167,20 @@ bpy.context.selected_objects
 
 .. code-block:: python
 
-   >>> bpy.context.selected_objects
+   bpy.context.selected_objects
 
 ... then press :kbd:`Ctrl-Spacebar`
 
 .. code-block:: python
 
-   >>> bpy.context.selected_objects[0]
+   bpy.context.selected_objects[0]
 
 
 Prints out name of first object in the list
 
 .. code-block:: python
 
-   >>> [object for object in bpy.context.selected_objects if object != bpy.context.object]
+   [obj for obj in bpy.context.selected_objects if obj != bpy.context.object]
 
 
 Complex one... But this prints a list of objects not including the active object
