@@ -16,10 +16,10 @@ and the third button displays both the sequencer and the preview.
 The VSE workspace can show you different aspects of the composite result,
 for the current frame:
 
-- Image/Sequence: Colors (what you see)
-- Chroma: Color hue and saturation
-- Luma: Brightness/contrast
-- Histogram: Levels of red, green, and blue
+:Image/Sequence: Colors (what you see).
+:Chroma: Color hue and saturation.
+:Luma: Brightness/contrast.
+:Histogram: Levels of red, green, and blue.
 
 In the Chroma, Luma, and Image modes, a channel selector appears;
 channel 0 is the result of compositing the strips with their special effects strips.
@@ -110,7 +110,7 @@ frame sharing the same luminosity - i.e. the number of curves that cross at this
 (black/transparent, for no pixel, white/opaque for at least 3 pixels).
 
 Separate Colors
-   Separates R,G, and B into separate graphs.
+   Separates RGB channels into separate graphs.
 
 This mode is good for:
 
