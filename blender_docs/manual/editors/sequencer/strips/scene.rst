@@ -3,9 +3,9 @@
 Scene Strip
 ***********
 
-You can add the virtual image output of a Scene in your current .blend file as well.
-Select the scene from the pop-up list,
-and a strip will be added and rubberbanded to your mouse just like a movie or image.
+Scene strips are a way to insert the render output of a scene into your sequence.
+Instead of rendering out a video, then inserting the video file, you can insert the scene directly.
+
 The strip length will be determined based on the animation settings in that scene
 (not the current scene, unless the VSE is operating in the same scene).
 
@@ -21,8 +21,14 @@ rendering the scene to a sequence of PNGs and using an Image Sequence strip inst
 scene. This is very popular for static graphic overlays like title cards which are often
 little more than a static image with animated opacity.
 
-Sequencer
-   Process the render (and composited) result through the video sequence editor pipeline,
-   if sequencer strips exist. This is the same function as in the render settings.
+Use Sequence
+   Expand the scenes sequence strips, allowing one scene to re-use another scenes edit,
+   (instead of taking the render output from the scene).
+
+   This is similar to how :doc:`/editors/sequencer/strips/meta` work,
+   with the added advantage of supporting multiple instances of the same data.
 Camera Override
-   Change the camera that will be used.
+   This can be used to override the scenes camera with any other object.
+
+   It's useful to support switching views within a single scene.
+
