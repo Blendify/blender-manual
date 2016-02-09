@@ -18,9 +18,12 @@ Camera Override
    This can be used to override the scenes camera with any other object.
 
    It's useful to support switching views within a single scene.
+Show Grease Pencil
+   Shows :doc:`Grease Pencil </interface/grease_pencil/index>` in OpenGl preview.
+Audio Volume
+   Volume of the audio taken from the chosen scene.
 
 .. hint::
 
    Its best not add a scene strip for the scene you're currently editing.
    While this is supported, it can be confusing when changing the start and end frame.
-
