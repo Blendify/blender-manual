@@ -123,7 +123,7 @@ Moving keypoints or particles
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - To move selected keypoints press :kbd:`G`, or use one of the various other methods to grab vertices.
-- To move a particle root you have to turn off *Keep* *Root* in the *Tool Bar*.
+- To move a particle root you have to turn off *Keep* *Root* in the *Toolbar*.
 - You can do many of the things like with vertices, including scaling,
   rotating and removing (complete particles or single keys).
 - You may not duplicate or extrude keys or particles,
@@ -131,7 +131,7 @@ Moving keypoints or particles
 - Alternatively you can rekey a particle (:kbd:`W` --> *Rekey* / :kbd:`Numpad1`) and choose the number of keys.
 
 How smoothly the hair and particle paths are displayed depends on the *Path Steps*
-setting in the *Tool Bar*. Low settings produce blocky interpolation between points,
+setting in the *Toolbar*. Low settings produce blocky interpolation between points,
 while high settings produce a smooth curve.
 
 
