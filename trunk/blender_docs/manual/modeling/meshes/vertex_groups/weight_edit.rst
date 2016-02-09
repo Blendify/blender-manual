@@ -163,7 +163,7 @@ The Function bar
 .. figure:: /images/Modeling-Meshes-vertex-weight-editor-functions.jpg
    :width: 235px
 
-   Vertex Weights panel Function Bar
+   Vertex Weights panel.
 
 
 The function bar contains 2 functions:

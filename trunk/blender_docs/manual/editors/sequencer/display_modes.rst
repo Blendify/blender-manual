@@ -28,8 +28,9 @@ Channel 1 is what the current frame's image from the strip in channel 1 looks li
 (channel 0) or the frame from the strip (channels 1 through n).
 
 
-Properties Bar
-==============
+Properties Region
+=================
+
 
 Scene Preview / Render
 ----------------------
@@ -40,6 +41,7 @@ Sequencer Preview Shading
    Method for rendering OpenGL renders.
 Textured Solid
    Display textures even when in solid mode.
+
 
 View Settings
 -------------
@@ -62,6 +64,7 @@ most important parts of the video can be seen across all screens.
 
    See :doc:`Safe Areas </render/camera/safe_areas>` in the camera docs.
 
+
 Grease Pencil
 -------------
 
@@ -75,6 +78,7 @@ The are an array of different display modes available, each having a specific pu
 You can adjust the view by zooming in with :kbd:`Plus` and zoom out with :kbd:`Minus`.
 You can also reset the view with :kbd:`Home`.
 
+
 Image Preview
 -------------
 
@@ -82,6 +86,7 @@ In the upper window pane of the Sequence screen layout is another VSE window,
 this one set to Image Preview mode. It shows you what the resulting video will look like when saved.
 This is the main working mode for adding strips and moving them around,
 cutting, grouping (making meta) and splicing them through special effects.
+
 
 Luma Waveform
 -------------
@@ -141,6 +146,7 @@ When spots in the film that should have even illumination don't,
 it looks like a flashbulb went off or an extra light was suddenly turned on. This can happen
 if two strips were rendered or shot under different lighting conditions but are supposed to be contiguous.
 
+
 Chroma Vectorscope
 ------------------
 
@@ -180,6 +186,7 @@ This mode is good for:
   You will most likely see all pixels building a crowd at the origin.
   If you add saturation using the "gamma"-plugin you can see in the U/V-plot if you distort the color.
 - If you do color-matching on a by hand basis you can match the angle you see of different channels monitors.
+
 
 Histogram
 ---------
