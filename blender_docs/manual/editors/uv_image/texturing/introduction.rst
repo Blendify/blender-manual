@@ -15,7 +15,7 @@ This is an overview of the tools found there. Using the UV editor is explained m
    UV/Image Editor window for texturing.
 
 
-Header Regio
+Header Region
 =============
 
 .. figure:: /images/editors_image_texturing-header.png
