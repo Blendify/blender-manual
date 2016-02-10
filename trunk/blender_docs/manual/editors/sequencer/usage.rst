@@ -162,6 +162,7 @@ Separate Images to Strips
 :kbd:`Y` Converts the strip into multiple strips, one strip for each frame.
 Very useful for slide shows and other cases where you want to bring in a set on non-continuous images.
 
+
 Editing Strips
 --------------
 
@@ -188,16 +189,19 @@ Editing Strips
     Extending a clip beyond its end results in Blender making a copy of the last image.
     Use this for transitions out of this clip.
 
-.. note:: Multiple selection
+  .. note:: Multiple selection
 
-   You can select several (handles of) strips by :kbd:`Shift-RMB` clicking: when you press :kbd:`G`,
-   everything that's selected will move with your mouse- this means that,
-   for example, you can at the same time move a strip, shorten two others, and extend a forth one.
+     You can select several (handles of) strips by :kbd:`Shift-RMB` clicking: when you press :kbd:`G`,
+     everything that's selected will move with your mouse- this means that,
+     for example, you can at the same time move a strip, shorten two others, and extend a forth one.
 
-- STRIP EXTEND. With a number of Image strips selected, pressing :kbd:`E` enters EXTEND mode.
+- Strip Extend
+
+  With a number of strips selected, pressing :kbd:`E` lets you interactively extend the strips.
+  This is is similar to grabbing but is useful for extending (or shortening) time around the current frame.
+
   All selected strip handles to the "mouse side" of the current frame indicator will transform together,
-  allowing you to essentially extend the strips that fall exactly on the
-  current frame marker and having all others adjust to compensate.
+  so you can change the duration of the current frame.
 
 While splicing two strips happens just by placing them finish-to-start,
 cut a strip by pressing :kbd:`K` to cut. At the selected frame for the selected strips,
