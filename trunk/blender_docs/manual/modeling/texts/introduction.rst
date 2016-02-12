@@ -104,14 +104,15 @@ Home/End
 Next/Previous word
    To move the cursor on a word's boundary, use :kbd:`Ctrl-Left` or :kbd:`Ctrl-Right`.
 
-The text buffer does not communicate with the desktop. It only works within Blender.
-To insert text from outside Blender, see `Inserting Text`_ below.
+The text buffer is in sync with the desktop clipboard.
+But if it is used within Blender the text formatting will be copied as well.
+For other ways of inserting a text, see `Inserting Text`_ below.
 
 
 Inserting Text
 --------------
 
-You can insert text in three different ways: from the internal text buffer
+You can insert text in two ways: from the internal text buffer
 (`Editing Text`_), or from a text file.
 
 To load text from a text file, use the :menuselection:`Text --> Paste File` tool.
