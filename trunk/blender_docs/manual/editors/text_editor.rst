@@ -66,6 +66,6 @@ can access them through the *Text* --> *Text Plugins* menu entry.
 
 .. tip:: Usages for the Text window
 
-   The text window is handy also when you want to share your ``.blend`` files with others.
+   The text window is handy also when you want to share your blend-files with others.
    A *Text* window can be used to write in a ``README`` text explaining the contents of your blend file.
    Be sure to keep it visible when saving!

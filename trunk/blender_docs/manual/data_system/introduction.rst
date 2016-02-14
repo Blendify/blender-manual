@@ -3,7 +3,7 @@
 Introduction
 ************
 
-Each ``.blend`` file contains a database.
+Each blend file contains a database.
 This database contains all scenes, objects, meshes, textures, etc. that are in the file.
 
 A file can contain multiple scenes and each scene can contain multiple objects.
@@ -29,11 +29,11 @@ Pack and Unpack Data
 ====================
 
 Blender has the ability to encapsulate (incorporate)
-various kinds of data within the .blend file that is normally saved outside of the ``.blend`` file.
-For example, an image texture that is an external ``.jpg`` file can be
-put "inside" the ``.blend`` file via :menuselection:`File --> External Data --> Pack into .blend file`.
-When the .blend file is saved, a copy of that ``.jpg`` file is put inside the ``.blend`` file.
-The ``.blend`` file can then be copied or emailed anywhere, and the image texture moves with it.
+various kinds of data within the .blend file that is normally saved outside of the blend file.
+For example, an image texture that is an external image file can be
+put "inside" the blend file via :menuselection:`File --> External Data --> Pack into .blend file`.
+When the .blend file is saved, a copy of that image file is put inside the blend file.
+The blend file can then be copied or emailed anywhere, and the image texture moves with it.
 
 You know that an image texture is packed because you will see a little "Christmas present gift
 box" displayed in the header.

@@ -121,5 +121,5 @@ Painting
 
 .. hint:: Reuse your Layouts
 
-   If you create a new window layout and would like to use it for future ``.blend`` files,
+   If you create a new window layout and would like to use it for future blend-files,
    you can save it for later reuse, see :doc:`/preferences/startup_file`.

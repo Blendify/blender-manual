@@ -32,7 +32,7 @@ A basic workflow looks like this:
    to make the smoke interact with objects in the scene.
 #. Assign a :doc:`Volumetric material </physics/smoke/material>`
    to the domain object.
-#. Save the ``.blend``.
+#. Save the blend-file.
 #. :doc:`Bake </physics/smoke/baking>`
    the simulation.
 

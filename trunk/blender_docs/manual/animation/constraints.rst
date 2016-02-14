@@ -73,7 +73,7 @@ the technique described above:
 Note that the this "solar" system is not realistic at all (wrong scale,
 the "earth" is rotating in the wrong direction around the "sun", ...).
 
-You can download the ``.blend`` file
+You can download the blend file
 (`download here <http://wiki.blender.org/index.php/File:ManAnimationTechsUsingConstraintsExSolarSys.blend>`__)
 used to create this animation.
 

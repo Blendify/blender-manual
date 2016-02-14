@@ -2,7 +2,7 @@
 Multi-View Render
 *****************
 
-For this 5-minute guide we will take an existent ``.blend``
+For this 5-minute guide we will take an existing blend
 file that was made for monoscopic rendering and transform it in stereo-3d ready.
 
 .. figure:: /images/multiview_workflow_render_anaglyph.png

@@ -12,7 +12,7 @@ they belong to armature, scene and mesh types respectively.
 
 Some common characteristics:
 
-- They're the primary contents of the ``.blend`` file.
+- They're the primary contents of the blend file.
 - They can link to each other, for reuse and instancing.
   *(child/parent, object/object-data, with modifiers and constraints too).*
 - Their names are unique.
@@ -23,7 +23,7 @@ Some common characteristics:
 - They can have custom properties.
 
 When doing more complex projects managing data-blocks becomes more important,
-especially when inter-linking ``.blend`` files.
+especially when inter-linking blend files.
 
 
 .. figure:: /images/datablocks.jpg
@@ -43,7 +43,7 @@ Blender follows the general rule where unused data is eventually removed.
 Since its common to add and remove a lot of data while working,
 this has the advantage of not having to manually manage every single data-block.
 
-This works by skipping zero user data-blocks when writing ``.blend`` files.
+This works by skipping zero user data-blocks when writing blend files.
 
 In some cases you want to save a data-block even when its unused
 *(typically for re-usable asset libraries).* see `Fake User`_.
@@ -54,7 +54,7 @@ Fake User
 Since zero user data-blocks aren't saved.
 There are times when you want to force the data to be kept irrespective of its users.
 
-If you're building a ``.blend`` file to serve as a library of things that you intend to link-to from *other* files,
+If you're building a blend file to serve as a library of things that you intend to link-to from *other* files,
 you'll need to make sure that they don't accidentally get deleted from the library file.
 
 Do this by giving the data-blocks a *Fake User*,
@@ -114,7 +114,7 @@ Data-Block Types
    ::
    TODO, add links to related docs for each type.
 
-For reference, here is a table of data-blocks types stored in ``.blend`` files.
+For reference, here is a table of data-blocks types stored in blend files.
 
 
 :Link: Library Linking, *supports bing linked into other blend files*.
@@ -195,7 +195,7 @@ For reference, here is a table of data-blocks types stored in ``.blend`` files.
    * - Library
      - |cross|
      - |tick|
-     - | References to external ``.blend`` files.
+     - | References to external blend files.
        | Access from the outliner's *Blendfile* view.
    * - LineStyle
      - |tick|

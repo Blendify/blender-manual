@@ -4,7 +4,7 @@ Scenes
 ******
 
 Scenes are a way to organize your work.
-Each ``.blend`` file can contain multiple scenes which share other data such as objects and materials
+Each blend file can contain multiple scenes which share other data such as objects and materials
 
 Scene management and library appending/linking is based on Blender's
 :doc:`Library and Data System </data_system/index>`,
@@ -95,7 +95,7 @@ This scene can have its own animation, physics-simulations etc,
 but you will have to select it from the *Scene* browser if you want to edit any of its contents.
 
 This can also be used in combination with `Linking to a Scene`_,
-where one ``.blend`` file has the environment, which can be re-used in many places.
+where one blend-file contains the environment, which can be re-used in many places.
 
 
 Linking to a Scene

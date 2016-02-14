@@ -4,13 +4,13 @@ Append and Link
 ***************
 
 These functions help you reuse materials, objects and other :doc:`data-blocks </data_system/data_blocks>`
-loaded from an external source ``.blend`` file.
+loaded from an external source blend file.
 You can build libraries of common content and share them across multiple referencing files.
 
 *Link* creates a reference to the data in the source file such that
 changes made there will be reflected in the referencing file the next time it is reloaded.
 
-Where as *Append* makes a full copy of the data into your ``.blend``.
+Where as *Append* makes a full copy of the data into your blend.
 You can make further edits to your local copy of the data,
 but changes in the external source file will not be reflected in the referencing file.
 
@@ -21,8 +21,7 @@ but changes in the external source file will not be reflected in the referencing
    | Menu:     *File* --> *Append or Link*
    | Hotkey:   :kbd:`Shift-F1`  or  :kbd:`Ctrl-Alt-O`
 
-In the *File Browser* window
-navigate to the external source ``.blend`` file
+In the *File Browser* window navigate to the external source blend-file
 and select the data-block you want to reuse.
 
 Options:
@@ -63,7 +62,7 @@ Look in the Outliner, with display mode set to *Blender File*, to see all your l
    Make Objects Local
       Use :menuselection:`Object --> Make Local --> Selected Objects` to make the position editable.
 
-      This means that object data (animation, constraints, modifiers...) will be local to your ``.blend`` file.
+      This means that object data (animation, constraints, modifiers...) will be local to your blend-file.
       But the object-data will still be linked and remain immutable.
 
 .. note::
@@ -105,7 +104,7 @@ Attempting to link or append data which links back to the current file will like
 Object Rigid-Body Constraints
 -----------------------------
 
-When linking objects **directly** into a ``.blend`` file,
+When linking objects **directly** into a blend file,
 the *Rigid Body* settings won't be linked in
 since they're associated with their scenes world.
 

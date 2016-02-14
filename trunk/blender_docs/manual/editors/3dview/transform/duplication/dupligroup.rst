@@ -37,7 +37,7 @@ DupliGroup and Dynamic Linking
 ==============================
 
 See :doc:`Appending and Linking </data_system/linked_libraries>`
-to understand how to dynamically link data from another ``.blend`` file into the current file.
+to understand how to dynamically link data from another blend file into the current file.
 You can dynamically link groups from one blend file to another.
 When you do so, the linked group does not appear anywhere in your scene
 until you create an object controlling where the group instance appears.
