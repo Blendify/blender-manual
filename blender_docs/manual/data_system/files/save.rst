@@ -20,7 +20,8 @@ Save Copy (:kbd:`Ctrl-Alt-S`)
    This can be used to save backups of the current working state without modifying the original file.
 
 If the file name doesn't end with ``.blend``, the extension is automatically appended.
-If a file with the same given name already exists, the text field will turn red as a warning.
+If a file with the same given name already exists,
+the text field will turn red as a warning that the file will be overwritten.
 
 
 .. figure:: /images/File-savewindow.jpg

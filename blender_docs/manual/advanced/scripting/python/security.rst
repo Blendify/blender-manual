@@ -40,7 +40,7 @@ Game Engine Auto-Start
 Manual Execution
 ----------------
 
-There are other ways scripts in a ``blend`` file may execute that require user
+There are other ways scripts in a blend-file may execute that require user
 interaction (therefor will run even when auto-execution is off),
 but you should be aware
 that this is the case since it's not necessarily obvious.

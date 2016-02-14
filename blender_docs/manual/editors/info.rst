@@ -27,7 +27,7 @@ Current Scene
    Having multiple Scenes allows you to work with separate virtual environments,
    with completely separate data, or with objects and/or mesh data linked between them.
    (In some 3D packages, each file contains one scene,
-   while in Blender, one ``.blend`` file may contain several scenes.)
+   while in Blender, one blend-file may contain several scenes.)
 Current Engine
    The purple shaded area gives a list of available rendering and game engines.
 Resource Information

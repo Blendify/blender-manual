@@ -32,7 +32,7 @@ Blender can now be launched by double-clicking the executable.
 
 
 For easy access, you can configure your system by adding a menu entry or shortcut for Blender and associate and open
-``.blend`` files with Blender when opening from the file browser.
+blend-files with Blender when opening from the file browser.
 These settings typically belong to the Window Manager (KDE, Gnome, Unity).
 
 
