@@ -83,8 +83,3 @@ you will get a white or clear halo around your image where they meet,
 since your alpha value is being squared or cubed.
 It also depends on whether or not you have rendered your image as a pre-mult,
 or straight RGBA image.
-
-
-.. figure:: /images/Compositing-AlphaOver-Layers.jpg
-
-   Layering Images using AlphaOver Premul
