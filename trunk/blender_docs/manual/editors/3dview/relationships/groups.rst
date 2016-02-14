@@ -45,9 +45,9 @@ Restricting Group Contents via Layers
    duplicates of that group (using the :doc:`Dupligroup </editors/3dview/transform/duplication/dupligroup>` feature)
    will only show the portions of the group that reside in layers 10 and 11.
 Appending or Linking Groups
-   To append a group from another blend file,
+   To append a group from another blend-file,
    consult :doc:`this page </data_system/linked_libraries>`.
-   In summary, :menuselection:`File --> Link / Append Link` Select a blend file and, and then the group.
+   In summary, :menuselection:`File --> Link / Append Link` Select a blend-file and, and then the group.
 Removing Groups
    To remove a object from a group, under the object context button, open the "Groups" pane.
    Find the name of the group from which you wish to remove the object,

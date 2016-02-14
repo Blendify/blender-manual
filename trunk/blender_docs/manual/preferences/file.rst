@@ -4,7 +4,7 @@ File Preferences
 ****************
 
 The *File Preferences* tab allows you to configure auto-save preferences and set default file paths for
-.blend files, rendered images, and more.
+blend-files, rendered images, and more.
 
 
 .. figure:: /images/user_prefs-file_tab.png
@@ -79,7 +79,7 @@ Auto Run Python Scripts
    You may choose to ignore these security issues and allow scripts to be executed automatically.
 Excluded Paths
    Blend files in these folders will *not* automatically run Python scripts.
-   This can be used to define where blend files from untrusted sources are kept.
+   This can be used to define where blend-files from untrusted sources are kept.
 
 .. seealso:: :doc:`/advanced/scripting/python/security`
 

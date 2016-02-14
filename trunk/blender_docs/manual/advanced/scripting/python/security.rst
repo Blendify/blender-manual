@@ -3,16 +3,16 @@
 Scripting & Security
 ********************
 
-The ability to include Python scripts within blend files is valuable for advanced tasks such
+The ability to include Python scripts within blend-files is valuable for advanced tasks such
 as rigging, automation and using the game-engine,
 however it poses a security risk since Python doesn't restrict what a script can do.
 
 Therefore, you should only run scripts from sources you know and trust.
 
 Automatic execution is disabled by default,
-however some blend files need this to function properly.
+however some blend-files need this to function properly.
 
-When a blend file tries to execute a script and is not allowed, a message will appear in the
+When a blend-file tries to execute a script and is not allowed, a message will appear in the
 header with the option to **Reload Trusted** or **Ignore** the message.
 
 
@@ -26,7 +26,7 @@ Scripts in Blend Files
 Auto Execution
 --------------
 
-Here are the different ways blend files may automatically run scripts.
+Here are the different ways blend-files may automatically run scripts.
 
 
 Registered Text-Blocks
@@ -34,7 +34,7 @@ Registered Text-Blocks
 Animation Drivers
   Python expressions can be used to *Drive* values and are often used in more advanced rigs and animations.
 Game Engine Auto-Start
-  Scripts are often used for game logic, blend files can have *Auto Start* enabled with runs the game on load.
+  Scripts are often used for game logic, blend-files can have *Auto Start* enabled with runs the game on load.
 
 
 Manual Execution
@@ -54,7 +54,7 @@ that this is the case since it's not necessarily obvious.
 Controlling Script Execution
 ============================
 
-Blender provides a number of ways to control whether scripts from a blend file are allowed to
+Blender provides a number of ways to control whether scripts from a blend-file are allowed to
 automatically execute.
 
 First of all, the file-selector has the option **Trusted Source** which you can use on a
@@ -72,7 +72,7 @@ In the **File** section of the user-preferences there is the toggle **Auto-Run P
 Scripts**.
 
 This means the **Trusted Source** option in the file-selector will be enabled by default,
-and scripts can run when blend files are loaded without using the file selector.
+and scripts can run when blend-files are loaded without using the file selector.
 
 Once enabled you have the option to exclude certain directories,
 a typical configuration would be to trust all paths except for the download directory.

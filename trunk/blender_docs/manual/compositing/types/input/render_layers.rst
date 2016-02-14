@@ -12,7 +12,7 @@ Render Layers Node
 This node is the starting place to getting a picture of your scene into the compositing node
 map.
 
-This node inputs an image from a scene within your blend file.
+This node inputs an image from a scene within your blend-file.
 Select the scene and the active render layer from the yellow selection list at the bottom of the node.
 Blender uses the active camera for that scene to create an image of the objects specified in the
 :doc:`RenderLayer </render/post_process/layers>`.
@@ -34,8 +34,9 @@ The example shows that two other passes are enabled:
 Use the re-render button (Small landscape icon - to the right of the Renderlayer name)
 to re-render the scene and refresh the image and map.
 
-You may recall that a .blend file may contain many scenes. The Renderlayer node can pick up
-the scene info from any available scene by selecting the scene from the left-hand selector.
+You may recall that a blend-file may contain many scenes.
+The Render Layer node can pick up the scene info from any available scene
+by selecting the scene from the left-hand selector.
 If that *other* scene also uses the compositor and/or sequencer,
 you should note that the scene information taken is the raw information
 (pre-compositing and pre-sequencing).

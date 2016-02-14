@@ -412,7 +412,7 @@ In the *Image Sampling* panel we tell Blender which source file to use.
 
 Image or Movie Data-block:
    Browse
-      Select an image or video among linked to the .blend file
+      Select an image or video among linked to the blend-file
    Name field
       Internal name of image
    F
@@ -440,7 +440,7 @@ File for Image or Movie texture:
    See about supported :doc:`Image </data_system/files/image_formats>` formats.
 
    Pack image
-      Embed image into current .blend file
+      Embed image into current blend-file
    Path
       Path to file
    File Browser

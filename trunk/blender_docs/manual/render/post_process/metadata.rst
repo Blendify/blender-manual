@@ -22,7 +22,7 @@ Camera
 Lens
    Include the name of the active camera's lens value.
 Filename
-   Include the filename of the .blend file.
+   Include the filename of the blend-file.
 Marker
    Include the name of the last marker.
 Seq. Strip

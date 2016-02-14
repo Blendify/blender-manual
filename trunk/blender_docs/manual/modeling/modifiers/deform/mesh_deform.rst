@@ -40,7 +40,7 @@ Bind
 
       It is also possible that Blender will run out of memory and crash.
 
-      To be safe, save your blend file before proceeding!
+      To be safe, save your blend-file before proceeding!
 
 Unbind
    When a deformed object has been associated to a deform mesh cage, it can later be disassociated by clicking the

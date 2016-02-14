@@ -17,7 +17,7 @@ Options
 =======
 
 Pack
-   This allows you to save the audio file into the .blend file.
+   This allows you to save the audio file into the blend-file.
 Caching
    Caching loads a file into ram and plays it from there, apposed to reading it for the hard drive.
 Draw Waveform

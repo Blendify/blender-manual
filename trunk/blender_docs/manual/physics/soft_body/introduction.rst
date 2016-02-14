@@ -148,7 +148,7 @@ that will make a recalculating necessary.
   - If you are not allowed to write to the required sub-directory caching will not take place.
   - The cache can be freed per physics system with a button in the panels,
     or with the :kbd:`Ctrl-B` shortcut key to free it for all selected objects.
-  - You may run into trouble if your .blend file path is very long and your operating system
+  - You may run into trouble if your blend-file path is very long and your operating system
     has a limit on the path length that is supported.
 - Baking:
 

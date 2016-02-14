@@ -432,7 +432,7 @@ There is a `well known limitation <https://developer.blender.org/T40301>`__
 with drivers on bones that refer to another bone in the same armature. Their values can be
 incorrectly calculated based on the position of the other bone as it was *before* you adjust
 the current_frame. This can lead to obvious shape glitches when the rendering of frames has
-a jump in the frame number (either because the blend file is currently on a different frame
+a jump in the frame number (either because the blend-file is currently on a different frame
 number or because you're skipping already-rendered frames).
 
 

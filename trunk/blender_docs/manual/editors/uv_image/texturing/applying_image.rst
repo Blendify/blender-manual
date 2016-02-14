@@ -153,7 +153,7 @@ click the *Browse* button in the *Header*,
 or make a new texture by clicking the *New* button.
 
 In a team environment, or if you are using an external paint program to edit the image while
-the .blend file is active, and the file is updated and re-saved, use the UV/Image Editor to
+the blend-file is active, and the file is updated and re-saved, use the UV/Image Editor to
 *Image-->Reload* it and see the latest and greatest in Blender. Also,
 use Reload if you have mapped more faces to an image,
 and the 3D View will be updated with the latest image mapping back to faces.
@@ -329,12 +329,12 @@ Texture paint and external software can be used to add or enhance the image.
 Regardless of which method you use, ultimately you must either
 
 - save your texture in a separate image file (for example JPG for colors, PNG with RGBA for alpha),
-- pack the image inside the blend file (UV/Image Editor Image-->Pack as PNG),
+- pack the image inside the blend-file (UV/Image Editor Image-->Pack as PNG),
 - or do both.
 
 The advantage to saving as a separate file is that you can easily switch textures just by
 copying other image files over it, and you can use external editing programs to work on it.
-The advantage of packing is that your whole project is kept in the .blend file,
+The advantage of packing is that your whole project is kept in the blend-file,
 and that you only have to manage one file.
 
 You can invert the colors of an image by selecting the *Invert* menu.

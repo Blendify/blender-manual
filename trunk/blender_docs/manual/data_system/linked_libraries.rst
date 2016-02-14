@@ -4,7 +4,7 @@ Append and Link
 ***************
 
 These functions help you reuse materials, objects and other :doc:`data-blocks </data_system/data_blocks>`
-loaded from an external source blend file.
+loaded from an external source blend-file.
 You can build libraries of common content and share them across multiple referencing files.
 
 *Link* creates a reference to the data in the source file such that
@@ -104,7 +104,7 @@ Attempting to link or append data which links back to the current file will like
 Object Rigid-Body Constraints
 -----------------------------
 
-When linking objects **directly** into a blend file,
+When linking objects **directly** into a blend-file,
 the *Rigid Body* settings won't be linked in
 since they're associated with their scenes world.
 

@@ -38,7 +38,7 @@ Notes
 
 Unique domain
    Because of the possibility of spanning and linking between scenes,
-   there can only be one domain in an entire .blend file.
+   there can only be one domain in an entire blend-file.
 
 Selecting a Baked Domain
    After a domain has been baked, it changes to the fluid mesh.

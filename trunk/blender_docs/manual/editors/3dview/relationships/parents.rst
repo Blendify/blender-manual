@@ -135,7 +135,7 @@ to the new parent "EmptyB"; See Figure 4.
    from "EmptyA" to "EmptyB" using 'Object (Keep Transform)' parent method.
 
 
-If you want to follow along with the above description here is the blend file used to describe
+If you want to follow along with the above description here is the blend-file used to describe
 *Object (Keep Transform)* parenting method:
 
 

@@ -25,7 +25,7 @@ Blender uses a "Font System" to manage mapping "letter codes --> objects represe
 views". This implies that not only does the font system have its own *built-in* font,
 but it can use external fonts too, including *PostScript Type 1*,
 *OpenType* and *TrueType* fonts. And last but not least,
-it can use any objects existing in the current .blend file as letters...
+it can use any objects existing in the current blend-file as letters...
 
 Texts in Bender allow you to create/render 2D or 3D text, shaded as you want,
 with various advanced layout options (like justifying and frames), as we will see below.

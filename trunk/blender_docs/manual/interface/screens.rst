@@ -91,7 +91,7 @@ vertically-arranged panels have greater support.
 Overriding Defaults
 -------------------
 
-When you save a .blend file, the screen layouts are also saved in it. When you open a file,
+When you save a blend-file, the screen layouts are also saved in it. When you open a file,
 enabling the *Load UI* checkbox in the file browser indicates that Blender should
 use the file's screen layouts (overriding your defaults in the process).
 Leaving the *Load UI* checkbox disabled tells Blender to use the current layout.

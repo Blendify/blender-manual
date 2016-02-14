@@ -122,7 +122,7 @@ Single Image
 ``-b``
    Render in the background (without UI).
 ``file.blend``
-   Path to the blend file to render.
+   Path to the blend-file to render.
 ``-f 10``
    Render only the 10th frame.
 
@@ -134,7 +134,7 @@ Single Image
 ``-o /project/renders/frame_#####``
    Path of where to save the rendered image, using 5 padded zeros for the frame number.
 ``-F EXR``
-   Override the image format specified in the blend file and save to an OpenEXR image.
+   Override the image format specified in the blend-file and save to an OpenEXR image.
 ``-f -2``
    Render only the second last frame.
 
@@ -151,7 +151,7 @@ Animation
    blender -b file.blend -a
 
 ``-a``
-   Render the whole animation using all the settings saved in the blend file.
+   Render the whole animation using all the settings saved in the blend-file.
 
 
 .. code-block:: sh

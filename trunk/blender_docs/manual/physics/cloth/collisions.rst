@@ -13,7 +13,7 @@ there are several items that have to be set up and working together:
 - The other objects must be mesh objects.
 - The other objects may move or be themselves deformed by other objects (like an armature or shape key).
 - The other mesh objects must be told to deflect the cloth object.
-- The blend file must be saved in a directory so that simulation results can be saved.
+- The blend-file must be saved in a directory so that simulation results can be saved.
 - You then *Bake* the simulation. The simulator computes the shape of the cloth for a frame range.
 - You can then edit the simulation results, or make adjustments to the cloth mesh, at specific frames.
 - You can make adjustments to the environment or deforming objects,
@@ -68,7 +68,7 @@ Distance
    The best value is 0.75; for fast things you better take 1.0. The value 0.5 is quite risky
    (most likely many penetrations) but also gives some speedup.
 
-Regression blend file:
+Regression blend-file:
 `Cloth selfcollisions <http://wiki.blender.org/index.php/Media:Cloth-regression-selfcollisions.blend>`__.
 
 

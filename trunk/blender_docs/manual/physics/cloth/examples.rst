@@ -49,14 +49,14 @@ Cloth on armature
 =================
 
 Cloth deformed by armature and also respecting an additional collision object:
-`Regression blend file <http://wiki.blender.org/index.php/Media:Cloth-regression-armature.blend>`__.
+`Regression blend-file <http://wiki.blender.org/index.php/Media:Cloth-regression-armature.blend>`__.
 
 
 Cloth with animated vertex groups
 =================================
 
 Cloth with animated pinned vertices:
-`Regression blend file <http://wiki.blender.org/index.php/Media:Cloth_anim_vertex.blend>`__.
+`Regression blend-file <http://wiki.blender.org/index.php/Media:Cloth_anim_vertex.blend>`__.
 UNSUPPORTED: Starting with a goal of 0 and increasing it,
 but still having the vertex not pinned will not work (e.g. from goal = 0 to goal = 0.5).
 
@@ -65,7 +65,7 @@ Cloth with Dynamic Paint
 ========================
 
 Cloth with Dynamic Paint using animated vertex groups:
-`Regression blend file <http://wiki.blender.org/index.php/Media:Cloth_dynamic_paint.blend>`__.
+`Regression blend-file <http://wiki.blender.org/index.php/Media:Cloth_dynamic_paint.blend>`__.
 UNSUPPORTED: Starting with a goal of 0 and increasing it, but still having the vertex not pinned will not work
 (e.g. from goal = 0 to goal = 0.5) because the necessary "goal springs" cannot be generated on the fly.
 
@@ -97,5 +97,5 @@ Cloth with Wind
    Flag with wind applied.
 
 
-Regression blend file for Cloth with wind and self collisions (also the blend for the image above):
+Regression blend-file for Cloth with wind and self collisions (also the blend for the image above):
 `Cloth flag with wind and selfcollisions <http://wiki.blender.org/index.php/Media:Cloth-flag2.blend>`__.

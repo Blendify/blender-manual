@@ -27,7 +27,7 @@ Render Options
    Set number of frames to step forward after each rendered frame
 ``-o``, ``--render-output`` ``<path>``
    Set the render path and file name.
-   Use ``//`` at the start of the path to render relative to the blend file.
+   Use ``//`` at the start of the path to render relative to the blend-file.
 
    The ``#`` characters are replaced by the frame number, and used to define zero padding.
 
@@ -262,7 +262,7 @@ Argument Order
 
       blender --background --render-output /tmp test.blend --render-frame 1
 
-   ...will not render to ``/tmp`` because loading the blend file overwrites the render output that was set
+   ...will not render to ``/tmp`` because loading the blend-file overwrites the render output that was set
 
    .. code-block:: sh
 

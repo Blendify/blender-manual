@@ -179,7 +179,7 @@ In this example we use a simple video file as source.
 The ``VideoFFmpeg`` constructor takes a file name as argument.
 To avoid any confusion with the location of the file, we will use ``GameLogic.expandPath
 ()`` to build an absolute file name,
-assuming the video file is in the same directory as the blend file:
+assuming the video file is in the same directory as the blend-file:
 
 .. code-block:: python
 

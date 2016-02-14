@@ -10,16 +10,16 @@ The options to manage files are:
 New
    Clears the current scene and loads startup.blend
 :doc:`Open </data_system/files/open>`
-   Open a blend file
+   Open a blend-file
 :ref:`Open Recent <other-file-open-options>`
-   Displays a list of recently saved .blend files to open
+   Displays a list of recently saved blend-files to open
 :ref:`Recover last session <other-file-open-options>`
-   This will load the quit.blend file Blender automatically saves just before exiting.
+   This will load the ``quit.blend`` file Blender automatically saves just before exiting.
    So this option enables you to recover your last work session, e.g. if you closed Blender by accident
 :ref:`Recover Auto Save <other-file-open-options>`
    This will open an automatically saved file to recover it.
 :doc:`Save </data_system/files/save>`
-   Save the current blend file.
+   Save the current blend-file.
 :doc:`Save As </data_system/files/save>`
    Opens file browser to specify file name and location of save.
 :doc:`Save Copy </data_system/files/save>`
@@ -36,7 +36,7 @@ New
    Blender can use information stored in a variety of other format files which are created by
    other graphics programs.
 :doc:`Export </data_system/files/import_export>`
-   Normally you save your work in a .blend file,
+   Normally you save your work in a blend-file,
    but you can export some or all of your work to a format that can be processed by other graphics programs.
 :ref:`External Data <pack-unpack-data>`
    Pack into .blend

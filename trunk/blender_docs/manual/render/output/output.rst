@@ -72,7 +72,7 @@ File Path
    (e.g. ``image_##_test.png`` translates to ``image_01_test.png``).
 
    This settings expands :doc:`relative paths </data_system/files/relative_paths>`
-   where a ``//`` prefix represents the directory of the current blend file.
+   where a ``//`` prefix represents the directory of the current blend-file.
 Overwrite
    Overwrite existing files when rendering
 Placeholders

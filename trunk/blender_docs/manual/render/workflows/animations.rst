@@ -89,7 +89,7 @@ Frame Sequence Workflow
   (I prefer PNG or MultiLayer because of their loss-less nature).
 - Choose the output path and file type in the Output panel as well, for example ``//render/my-anim-``.
 - Confirm the range of your animation frame Start and End.
-- Save your .blend file.
+- Save your blend-file.
 - Press the big *Animation* button.
   Do a long task [like sleeping, playing a video game,
   or cleaning your driveway] while you wait for your computer to finish rendering the frames.
