@@ -61,13 +61,18 @@ Output Panel
 This panel provides options for setting the location of rendered frames for animations,
 and the quality of the saved images.
 
+.. _render_output-filepath:
+
 File Path
    Choose the location to save rendered frames.
 
    When rendering an animation,
    the frame number is appended at the end of the file name with 4 padded zeros (e.g. ``image0001.png``).
-   You can set a custom padding size by adding the appropriate number of ``#`` at the end of the file name
-   (e.g. ``image_##.png`` would translate to ``image_01.png``).
+   You can set a custom padding size by adding the appropriate number of ``#`` anywhere in the file name
+   (e.g. ``image_##_test.png`` translates to ``image_01_test.png``).
+
+   This settings expands :doc:`relative paths </data_system/files/relative_paths>`
+   where a ``//`` prefix represents the directory of the current blend file.
 Overwrite
    Overwrite existing files when rendering
 Placeholders
