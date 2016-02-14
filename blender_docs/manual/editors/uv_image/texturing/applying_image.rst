@@ -293,6 +293,11 @@ if the image was generated or you want to save as a different name.
 Using *Save as Copy*, (:kbd:`F3`) will save the file to a specified name,
 but will keep the old one open in the Image editor.
 
+.. seealso::
+
+   :ref:`pack-unpack-data`.
+
+
 Modifying your Image Texture
 ============================
 
@@ -335,16 +340,3 @@ and that you only have to manage one file.
 You can invert the colors of an image by selecting the *Invert* menu.
 in the *Image* menu
 
-
-Packing Images inside the Blend file
-====================================
-
-If you pack your .blend file,
-the current version of all UV Texture images are packed into the file.
-If those files later change, the updates will not be automatically re-packed;
-the old version of the image is what will be used. To update,
-you will have to re-pack or reload.
-
-To pack an image, select *Pack Image* from the *Image* menu. To Unpack,
-select this option again and select *Remove Pack*.
-The File-->Append function automatically goes into ``.blend`` files and shows you the image textures packed in it.
