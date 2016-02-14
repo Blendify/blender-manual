@@ -7,7 +7,7 @@ If an Occlude type object is between the camera and another object,
 that other object will not be rasterized (calculated for rendering).
 It is culled because it is occluded.
 
-There is a demo .blend file to examplify some concepts:
+There is a demo blend-file to exemplify some concepts:
 `BGE-Physics-Objects-Occluder.blend <http://wiki.blender.org/index.php/Media:BGE-Physics-Objects-Occluder.blend>`__
 
 

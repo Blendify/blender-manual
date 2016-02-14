@@ -255,7 +255,7 @@ Texture Node
    Texture node
 
 
-A texture, from the list of textures available in the current blend file,
+A texture, from the list of textures available in the current blend-file,
 is selected and introduced through the value and/or color socket.
 
 

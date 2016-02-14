@@ -23,7 +23,7 @@ with the introduction of line style modifiers, the sky is the limit!
    :width: 600px
 
    A cartoon scene from `OHA Studio <http://oha-studios.com/>`__
-   (`the .blend file <http://download.blender.org/demo/test/freestyle_demo_file.blend.zip>`__).
+   (`the blend-file <http://download.blender.org/demo/test/freestyle_demo_file.blend.zip>`__).
    © Mechanimotion Entertainment.
 
 

@@ -5,7 +5,7 @@ Introduction
 
 Use the *Grease Pencil* tool to draw freehand sketches and annotations
 in the 3D View, UV/Image Editor, Node Editor, or Movie Clip Editor.
-The sketches are saved with the blend file.
+The sketches are saved with the blend-file.
 Planning animation poses and motion curves, sketching out model topology,
 and use as director's shot review tool are just a few of the applications.
 

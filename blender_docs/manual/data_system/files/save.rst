@@ -9,10 +9,10 @@ Saving Files
    | Editor:   Info
    | Menu:     File
 
-There are a number of slightly different methods you can use to save your blend file to your hard drive:
+There are a number of slightly different methods you can use to save your blend-file to your hard drive:
 
 Save (:kbd:`Ctrl-S`, :kbd:`Ctrl-W`)
-   Save an existing blend file over itself.
+   Save an existing blend-file over itself.
 Save As (:kbd:`Ctrl-Shift-S`, :kbd:`F2`)
    Choose a file to save the blend to.
 Save Copy (:kbd:`Ctrl-Alt-S`)
@@ -46,7 +46,7 @@ Remap Relative
 Save Copy
    This option saves a copy of the actual working state, but does not make the saved file active.
 Legacy Mesh Format
-   Save the blend file, but ignore faces with more than 4 vertices ("ngons")
+   Save the blend-file, but ignore faces with more than 4 vertices ("ngons")
    so that older versions of Blender (before 2.63) can open it.
 
 

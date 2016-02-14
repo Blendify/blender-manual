@@ -20,7 +20,7 @@ Use cases include:
 - Opening and Saving Blend files.
 - Import/Export other file formats.
 - Picking new locations for existing file-paths (images, video's, fonts... etc).
-- Browsing inside other blend files, when using :doc:`/data_system/linked_libraries`.
+- Browsing inside other blend-files, when using :doc:`/data_system/linked_libraries`.
 
 You can also keep the file selector open, as with any other window type.
 In this case the buttons to load a files is removed.

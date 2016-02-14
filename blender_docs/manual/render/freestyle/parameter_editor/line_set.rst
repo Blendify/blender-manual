@@ -69,7 +69,7 @@ Crease
    :width: 600px
 
    Crease Angle proof of concept for 121º by LightBWK
-   ( `the .blend file <http://wiki.blender.org/index.php/File:CreaseAngle.zip>`__)
+   ( `the blend-file <http://wiki.blender.org/index.php/File:CreaseAngle.zip>`__)
 
 
 Border

@@ -69,7 +69,7 @@ Number of users (number field)
    and will update across all of them when edited. Clicking this number will make a 'single user copy',
    duplicating the material, with it linked only to the active object/object's data.
 F (Fake user)
-   Gives the material a 'fake user', to keep the material data-block saved in the .blend file,
+   Gives the material a 'fake user', to keep the material data-block saved in the blend-file,
    even if it has no real users.
 Plus sign
    Add a new material.

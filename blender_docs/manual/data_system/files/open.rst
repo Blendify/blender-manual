@@ -33,9 +33,9 @@ Options
 =======
 
 Load UI
-   Inside each .blend file, Blender saves the user interface arrangement.
+   Inside each blend-file, Blender saves the user interface arrangement.
    By default, this saved UI is loaded, overriding any user defaults or current screen layouts that you have.
-   If you want to work on the blend file using your own defaults, start a fresh Blender,
+   If you want to work on the blend-file using your own defaults, start a fresh Blender,
    then open the file browser and turn off the *Load UI* button,
    and then open the file.
 Trusted Source

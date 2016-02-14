@@ -34,10 +34,10 @@ Quit Game
 Restart Game
    Once the actuator is activated, the blenderplayer restarts the game (reloads from file).
 Start Game From File
-   Once the actuator is activated, the blenderplayer starts the .blend file from the path specified.
+   Once the actuator is activated, the blenderplayer starts the blend-file from the path specified.
 
    File
-      Path to the .blend file to load.
+      Path to the blend-file to load.
 
 
 **Notes**

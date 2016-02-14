@@ -44,7 +44,7 @@ Deform Mode
 
 Interpolation
    None or Linear which will blend between frames;
-   use linear when the frames in the cache file don't match up exactly with the frames in the blend file.
+   use linear when the frames in the cache file don't match up exactly with the frames in the blend-file.
 
 Time Mapping:
 -------------

@@ -40,7 +40,7 @@ The following types of actuator are currently available:
 :doc:`Random </game_engine/logic/actuators/types/random>`
   Creates random values which can be stored in properties.
 :doc:`Scene </game_engine/logic/actuators/types/scene>`
-  Manage the scenes in your .blend file. These can be used as levels or for UI and background.
+  Manage the scenes in your blend-file. These can be used as levels or for UI and background.
 :doc:`Sound </game_engine/logic/actuators/types/sound>`
   Used to play sounds in the game.
 :doc:`State </game_engine/logic/actuators/types/state>`

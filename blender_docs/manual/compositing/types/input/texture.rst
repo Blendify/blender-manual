@@ -12,7 +12,7 @@ Texture Node
 The *Texture* node makes 3D textures available to the compositor.
 
 The Texture node makes 3D textures available to the compositor. A texture,
-from the list of textures available in the current blend file,
+from the list of textures available in the current blend-file,
 is selected and introduced through the value and/or color socket.
 
 

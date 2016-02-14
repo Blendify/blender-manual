@@ -67,7 +67,7 @@ def find_and_replace(fn, data_src):
     use_whole_words = False
 
     find_replace_pairs = (
-        ("popup", "pop-up"),
+        ("blend files", "blend-files"),
         )
 
 

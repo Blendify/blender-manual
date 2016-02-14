@@ -142,7 +142,7 @@ Mechanical
           :width: 300px
 
           A track.
-          `Sample blend file <http://wiki.blender.org/index.php/Media:Tracktest.blend>`__
+          `Sample blend-file <http://wiki.blender.org/index.php/Media:Tracktest.blend>`__
 
    * - .. figure:: /images/Dev-ArrayModifier-Cog01.jpg
           :width: 300px
@@ -154,13 +154,13 @@ Mechanical
           :width: 300px
 
           A crankshaft.
-          `Sample blend file <http://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Crankshaft01.blend>`__
+          `Sample blend-file <http://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Crankshaft01.blend>`__
 
    * - .. figure:: /images/Dev-ArrayModifier-Chain01.jpg
           :width: 300px
 
           A chain created from a single link.
-          `Sample blend file <http://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Chain01.blend>`__
+          `Sample blend-file <http://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Chain01.blend>`__
 
      -
 
@@ -217,12 +217,12 @@ Fig 01
 Fig 02
    A double spiral created with two array modifiers and one subsurf modifier applied to a cube.
    As above, the vertex merge threshold is set very high to give the effect of skinning.
-   `Sample blend file <http://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Spiral01.blend>`__
+   `Sample blend-file <http://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Spiral01.blend>`__
 Fig 03
    A tentacle created with an Array modifier followed by a Curve modifier.
    The segment in the foreground is the base mesh for the tentacle; the tentacle is capped by two
    specially-modeled objects deformed by the same Curve object as the main part of the tentacle.
-   `Sample blend file <http://wiki.blender.org/index.php/Media:Manual-Modifier-Array-Tentacle01.blend>`__
+   `Sample blend-file <http://wiki.blender.org/index.php/Media:Manual-Modifier-Array-Tentacle01.blend>`__
 
 
 Tutorials

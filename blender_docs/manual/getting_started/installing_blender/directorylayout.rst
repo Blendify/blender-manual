@@ -89,7 +89,7 @@ for example.
 
 
 ``./autosave/ ...``
-   Autosave blend file location. *Windows only, temp directory used for other systems.*
+   Autosave blend-file location. *Windows only, temp directory used for other systems.*
 
    Search order: ``LOCAL, USER``.
 

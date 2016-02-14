@@ -4,7 +4,7 @@ Scenes
 ******
 
 Scenes are a way to organize your work.
-Each blend file can contain multiple scenes which share other data such as objects and materials
+Each blend-file can contain multiple scenes which share other data such as objects and materials
 
 Scene management and library appending/linking is based on Blender's
 :doc:`Library and Data System </data_system/index>`,

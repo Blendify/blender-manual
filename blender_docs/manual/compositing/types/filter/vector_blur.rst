@@ -62,7 +62,7 @@ As far as we know, this node represents a
 <http://www.blender.org/development/release-logs/blender-242/vector-blur/>`__.
 Use vector blur in compositing with confidence instead of motion blur. In face,
 when compositing images, it is necessary to use vector blur since there isn't "real" motion.
-In this `example blend file <http://download.blender.org/demo/test/driven_hand_blur.blend>`__,
+In this `example blend-file <http://download.blender.org/demo/test/driven_hand_blur.blend>`__,
 you will find a rigged hand reaching down to pick up a ball. Based on how the hand is moving
 (those vectors), the image is blurred in that direction. The fingers closest to the camera
 (the least Z value) are blurred more, and those farther away (the forearm)

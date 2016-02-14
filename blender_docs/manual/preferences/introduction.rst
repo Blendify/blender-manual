@@ -37,7 +37,7 @@ At the top of the window, the available options are grouped into seven tabs:
 :doc:`Themes </preferences/themes>`
    Customize interface appearance and colors.
 :doc:`File </preferences/file>`
-   Configure auto-save preferences and set default file paths for .blend files, rendered images, and more.
+   Configure auto-save preferences and set default file paths for blend-files, rendered images, and more.
 :doc:`System </preferences/system>`
    Set resolution, scripting console preferences, sound, graphics cards, and internationalization.
 

@@ -29,7 +29,7 @@ or the text editor.
 OSL shaders can be linked to the node in a few different ways. With the **Internal** mode,
 a text data-block is used to store the OSL shader,
 and the OSO bytecode is stored in the node itself.
-This is useful for distributing a .blend file with everything packed into it.
+This is useful for distributing a blend-file with everything packed into it.
 
 The **External** mode can be used to specify a .osl file on disk,
 and this will then be automatically compiled into a .oso file in the same directory.
@@ -51,7 +51,7 @@ Mac OSX
 
 
 For use in production, we suggest to **use a node group to wrap shader script nodes**,
-and link that into other .blend files.
+and link that into other blend-files.
 This makes it easier to make changes to the node afterwards as sockets are added or removed,
 without having to update the script nodes in all files.
 
