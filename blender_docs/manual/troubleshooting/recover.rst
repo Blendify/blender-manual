@@ -32,6 +32,7 @@ At the :ref:`System Level <troubleshooting-file_recovery>` (Relating to *Files*)
 Options for Files (System Level)
 ================================
 
+
 Save and Auto Save
 ------------------
 
@@ -48,33 +49,7 @@ Blender can use an *Autosave* function. The *File* tab of the
 *User Preferences* window allows you to configure the two ways that Blender provides
 for you to regress to a previous version of your work.
 
-Save on Quit
-   The function *Save on Quit* is enabled by default in Blender.
-   Blender will always save your files when you quit the application under normal operation.
-Save Versions
-   This option tells Blender to keep the indicated number of saved versions of your file in your current working
-   directory when you manually save a file.
-   These files will have the extension: ``.blend1``, ``.blend2``, etc.,
-   with the number increasing to the number of versions you specify. Older files will be named with a higher number.
-   e.g. With the default setting of **2**, you will have three versions of your file: ``*.blend`` (your last save),
-   ``*.blend1`` (your second last save) and ``*.blend2`` (your third last save).
-Auto Save Temporary Files
-   Checking this box tells Blender to *automatically* save a backup copy of your work-in-progress to the Temp
-   directory (refer to the *File* panel in the *User Preferences* window for its location).
-   This will also enable the *Timer (mins)*
-   control which specifies the number of minutes between each Auto Save.
-   The default value of the Blender installation is **5** (5 minutes). The minimum is **1**,
-   and the Maximum is **60**
-   (Save at every one hour).The Auto Saved files are named using a random number and have a ``.blend`` extension.
-
-
-.. tip:: Compress Files
-
-   The option to Compress files will try to compact your files whenever Blender is saving them. Large Scenes,
-   dense Meshes, big Textures or lots of elements in your Scene will result in a big ``.blend`` being created.
-   This option could slow down Blender when you quit,
-   or under normal operation when Blender is saving your backup files. In fact,
-   using this option you will trade processor time for file space.
+See :ref:`prefs-auto_save` for details.
 
 
 Recovering Auto Saves
@@ -102,7 +77,7 @@ Recover Last Session
 Recover Auto Save
    :menuselection:`File --> Recover Auto Save...` allows you to open the Auto Saved file.
    After loading the Auto Saved version,
-   you may save it over the current file in your working directory as a normal ``.blend`` file.
+   you may save it over the current file in your working directory as a normal blend-file.
 
 
 .. important::
@@ -111,17 +86,4 @@ Recover Auto Save
    performed.Only **one** Auto Saved file exists for each project
    (i.e. Blender does not keep older versions -
    hence you won't be able to go back more than a few minutes with this tool).
-
-
-Other options
--------------
-
-Recent Files
-   This setting controls how many recent files are listed in the :menuselection:`File --> Open Recent` sub-menu.
-
-Save Preview Images
-   Previews of images and materials in the *File Browser* window are created on demand.
-   To save these previews into your ``.blend`` file, enable this option
-   (at the cost of increasing the size of your ``.blend`` file).
-
 

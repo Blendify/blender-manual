@@ -92,7 +92,15 @@ Save & Load
 Relative Paths
    By default, external files use a :doc:`relative path </data_system/files/relative_paths>`.
 Compress File
-   Compress ``.blend`` file when saving.
+   Compress blend-file when saving.
+
+   The option to Compress files will compact your files whenever Blender is saving them.
+   Dense meshes, large packed textures or lots of elements in your scene
+   will result in a large blend being created.
+
+   This option may slow down Blender when you quit,
+   or under normal operation when Blender is saving your backup files.
+   Using this option traces processor time for file-size.
 Load UI
    Default setting is to load the Window layout
    (the :doc:`Screens </interface/screens>`) of the saved file.
@@ -107,7 +115,7 @@ Load UI
 
 Filter File Extensions
    By activating this, file dialog windows will only show appropriate files
-   (i.e. ``.blend`` files when loading a complete *Blender* setting).
+   (i.e. blend-files when loading a complete *Blender* setting).
    The selection of file types may be changed in the file dialog window.
 Hide Dot File/Data-blocks
    Hide file which start with ``.`` on file browsers (in Linux and Apple systems, ``.`` files are hidden).
@@ -117,21 +125,39 @@ Show Thumbnails
    Displays a thumbnail of images and movies when using the *File Browser*.
 
 
+.. _prefs-auto_save:
+
 Auto Save
 =========
 
 Save Versions
    Number of versions created for the same file (for backup).
+
+   This option tells Blender to keep the indicated number of saved versions of your file in your current working
+   directory when you manually save a file.
+   These files will have the extension: ``.blend1``, ``.blend2``, etc.,
+   with the number increasing to the number of versions you specify. Older files will be named with a higher number.
+   e.g. With the default setting of **2**, you will have three versions of your file: ``*.blend`` (your last save),
+   ``*.blend1`` (your second last save) and ``*.blend2`` (your third last save).
 Recent Files
    Number of files displayed in :menuselection:`File --> Open Recent`.
 Save Preview Images
    Previews of images and materials in the *File Browser* window are created on demand.
-   To save these previews into your ``.blend`` file,
-   enable this option (at the cost of increasing the size of your ``.blend`` file).
+   To save these previews into your blend-file,
+   enable this option (at the cost of increasing the size of your blend-file).
 Auto Save Temporary File
    Enable Auto Save (create a temporary file).
+
+   Checking this box tells Blender to *automatically* save a backup copy of your work-in-progress to the Temp
+   directory (refer to the *File* panel in the *User Preferences* window for its location).
+
+   The Auto Saved files are named using a random number and have a blend extension.
 Timer
    Time to wait between automatic saves.
 
-:doc:`Read more about Auto Save options </troubleshooting/recover>`
+   This specifies the number of minutes between each Auto Save.
+   The default value of the Blender installation is **5** (5 minutes).
+   The minimum is **1**, and the Maximum is **60** (Save at every one hour).
+
+:doc:`Read more about Auto Save options </troubleshooting/recover>`.
 
