@@ -70,7 +70,7 @@ This is often useful when a mesh has disconnected, overlapping parts,
 where isolating it any other way would be tedious.
 
 To give more control, you can also enable delimiters so the selection is
-constrained by seans, sharp-edges, materials or UV islands.
+constrained by seams, sharp-edges, materials or UV islands.
 
 .. hint::
 
