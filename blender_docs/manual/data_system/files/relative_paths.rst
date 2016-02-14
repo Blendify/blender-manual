@@ -3,7 +3,7 @@
 Relative Paths
 **************
 
-Many Blender files reference external images or other linked ``.blend`` files.
+Many Blender files reference external images or other linked blend files.
 A path tells Blender where to look for these files.
 If the external files are moved, the blend file that references them won't look right.
 
@@ -11,13 +11,13 @@ When you specify one of these external files, the default option is to make the 
 Blender stores a partial path evaluated relative to the directory location of the referencing blend file.
 This choice helps when you need to reorganize folders or move your files.
 
-With a relative path you can move the ``.blend`` file to a new location provided
+With a relative path you can move the blend file to a new location provided
 the externally linked files are moved along with it.
 For example you could send someone a folder that contains a .blend file
 and a sub-folder of external images that it references.
 
-Most file selection windows provide a *Relative Path* check box,
-or when you type in a path into a text field, use a double slash prefix (``//``) to make it so.
+When relative paths are supported, the file selector provides a *Relative Path* check box,
+when entering the path into a text field, use a double slash prefix (``//``) to make it so.
 
 Relative paths is the default but this can be changed in the
 :doc:`File Preferences Tab </preferences/file>`
