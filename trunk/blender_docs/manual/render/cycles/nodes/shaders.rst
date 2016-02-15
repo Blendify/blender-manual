@@ -7,7 +7,7 @@ Shader Nodes
 .. _cycles_shader_diffuse:
 
 Diffuse
-^^^^^^^
+=======
 
 Lambertian and Oren-Nayar diffuse reflection.
 
@@ -37,9 +37,8 @@ BSDF output
 
 .. _cycles_shader_translucent:
 
-
 Translucent
-^^^^^^^^^^^
+===========
 
 Lambertian diffuse transmission.
 
@@ -64,7 +63,7 @@ BSDF output
 .. _cycles_shader_glossy:
 
 Glossy
-^^^^^^
+======
 
 Glossy reflection with microfacet distribution, used for materials such as metal or mirrors.
 
@@ -95,7 +94,7 @@ BSDF output
 .. _cycles_shader_anisotropic:
 
 Anisotropic
-^^^^^^^^^^^
+===========
 
 Anisotropic glossy reflection, with separate control over U and V direction roughness.
 The tangents used for shading are derived from the active UV map. If no UV map is available,
@@ -139,7 +138,7 @@ BSDF output
 .. _cycles_shader_toon:
 
 Toon
-^^^^
+====
 
 Diffuse and Glossy Toon :abbr:`BSDF (Bidirectional scattering distribution function)` for
 creating cartoon light effects.
@@ -164,7 +163,7 @@ BSDF output
 .. _cycles_shader_transparent:
 
 Transparent
-^^^^^^^^^^^
+===========
 
 Transparent :abbr:`BSDF (Bidirectional scattering distribution function)` without refraction,
 passing straight through the surface, as if there were no geometry there. Useful with alpha maps, for example.
@@ -200,7 +199,7 @@ BSDF output
 .. _cycles_shader_glass:
 
 Glass
-^^^^^
+=====
 
 Glass-like shader mixing refraction and reflection at grazing angles. Like the transparent shader,
 only pure white will make it transparent. The glass shader tends to cause noise due to caustics.
@@ -237,7 +236,7 @@ BSDF output
 .. _cycles_shader_refraction:
 
 Refraction
-^^^^^^^^^^
+==========
 
 Glossy refraction with sharp or microfacet distribution,
 used for materials that transmit light. For best results this node should be considered as a
@@ -266,7 +265,7 @@ BSDF output
 .. _cycles_shader_velvet:
 
 Velvet
-^^^^^^
+======
 
 Velvet reflection shader for materials such as cloth.
 It is meant to be used together with other shaders (such as a *Diffuse Shader*)
@@ -296,7 +295,7 @@ BSDF output
 .. _cycles_shader_sss:
 
 Subsurface Scattering
-^^^^^^^^^^^^^^^^^^^^^
+=====================
 
 Simple subsurface multiple scattering, for materials such as skin, wax, marble,
 milk and others. For these materials,
@@ -353,7 +352,7 @@ BSSRDF output
 .. _cycles_shader_emission:
 
 Emission
-^^^^^^^^
+========
 
 Lambertian emission, to be used for material and lamp surface outputs.
 
@@ -392,10 +391,35 @@ the real sun for example has strength 384600000000000000000000000W.
 Emission shaders on meshes are also in Watts/m^2.
 
 
+.. _cycles_shader_hair:
+
+Hair
+====
+
+Used to add shading for :doc:`Hair </physics/particles/hair/index>`.
+
+Component
+   There are two components that can be used to control the look of the hair.
+   Usually you are going to want each of these and use a :ref:`Mix Node <cycles_shader_mix_add>`.
+
+   Reflection
+      The light that bounces off the surface of the hair.
+   Transmission
+      The light that passes through the hair and comes out the other side.
+Color
+   Color of the hair.
+Offset
+   Controls the way the light is rotated for the reflection/transmission.
+Roughness U/V
+   Controls the roughness in the direction light is skewed, and perpendicular to it.
+Tangent
+   Input tangent.
+
+
 .. _cycles_shader_background:
 
 Background
-^^^^^^^^^^
+==========
 
 Background light emission. This node should only be used for the world surface output;
 it is ignored in other cases.
@@ -411,7 +435,7 @@ Background output
 .. _cycles_shader_holdout:
 
 Holdout
-^^^^^^^
+=======
 
 The holdout shader creates a "hole" in the image with zero alpha
 transparency, which is useful for compositing (see :term:`alpha channel`).
@@ -432,7 +456,7 @@ Holdout output
 .. _cycles_shader_ao:
 
 Ambient Occlusion
-^^^^^^^^^^^^^^^^^
+=================
 
 The ambient occlusion node gives per-material control for the amount of AO.
 When AO is enabled in the world, it affects all diffuse BSDFs in the scene.
@@ -453,7 +477,7 @@ AO output
 .. _cycles_shader_mix_add:
 
 Mix and Add
-^^^^^^^^^^^
+===========
 
 Mix or add shaders together. Mixing can be used for material layering,
 where the *Fac* input may, for example, be connected to a Blend Weight node.
