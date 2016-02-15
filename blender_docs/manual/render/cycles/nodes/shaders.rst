@@ -494,3 +494,14 @@ Shader output
 .. figure:: /images/cycles_nodes_shader_mix.jpg
 
    A mix of a glossy and a diffuse shader makes a nice ceramic material.
+
+
+Volume Absorption
+=================
+
+Todo.
+
+Volume Scatter
+==============
+
+Todo.
