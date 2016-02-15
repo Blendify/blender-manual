@@ -15,17 +15,22 @@ which allows you to apply these modifiers onto several strips the same time.
 
 Use Linear Modifiers
    Calculate modifiers in linear space instead of sequencer space.
+Copy to Selected Strips
+  Allows you to copy the modifiers to selected strips.
+  This works two ways, you can either replace the old modifiers or append/add to the previous modifiers.
 
 Each modifiers have several buttons at their top:
 
 - The "eye" is to disable the modifier. Very useful to compare the image, with / without modifications.
 - The next two buttons (up and down arrows) are used to change the modifier's position in the stack.
 - The cross is to delete the modifier from the stack.
-- Strip Use this to apply the modification on the whole image,
-  or to use another strip's image (with alpha channel) for masking the modifier (and only this modifier),
-  by choosing it in the "Mask" drop-down list.
-- Mask This one allows you to choose a Mask created in the Mask editor
-  which will limit the modification to the masked image's zones.
+
+Strip
+   Use this to apply the modification on the whole image, or to use another strip's image (with alpha channel)
+   for masking the modifier (and only this modifier), by choosing it in the "Mask" drop-down list.
+Mask
+   This allows you to choose a Mask created in the Mask editor
+   which will limit the modification to the masked image's zones.
 
 Currently, the following modifiers are supported:
 
