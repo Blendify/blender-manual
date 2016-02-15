@@ -50,10 +50,12 @@ Mac OSX
    .. parsed-literal:: /Users/$USER/Library/Application Support/Blender/|BLENDER_VERSION|/shaders/
 
 
-For use in production, we suggest to **use a node group to wrap shader script nodes**,
-and link that into other blend-files.
-This makes it easier to make changes to the node afterwards as sockets are added or removed,
-without having to update the script nodes in all files.
+.. tip::
+
+   For use in production, we suggest to **use a node group to wrap shader script nodes**,
+   and link that into other blend-files.
+   This makes it easier to make changes to the node afterwards as sockets are added or removed,
+   without having to update the script nodes in all files.
 
 
 Writing Shaders
