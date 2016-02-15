@@ -33,8 +33,8 @@ Render Samples
 Preview Samples
    Number of samples for viewport rendering.
 
-The **branched path tracing integrator** (formerly called non-progressive integrator)
-is similar, but at the first hit it will split the path for different surface components and
+The **branched path tracing integrator** is similar,
+but at the first hit it will split the path for different surface components and
 will take all lights into account for shading instead of just one.
 This makes each sample slower, but will reduce noise,
 especially in scenes dominated by direct or one-bounce lighting.
