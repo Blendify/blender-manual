@@ -40,17 +40,17 @@ OpenGL Preview
    use a quick OpenGL preview (see :doc:`/render/opengl` for more on this subject).
 
    Otherwise a full render is used, which can be very slow.
-Sequencer Preview Shading
-   Method for rendering OpenGL renders.
-Textured Solid
-   Display textures even when in solid mode.
 
+   Sequencer Preview Shading
+      Method for rendering OpenGL renders.
+   Textured Solid
+      Display textures even when in solid mode.
 
-Settings used by OpenGL Previews:
+   Settings used by OpenGL Previews:
 
-- The anti-alias setting from the active scene is used for all scenes.
-- The alpha setting is taken from each scene,
-  where *Sky* fills in a solid background and *Transparent* has a transparent background.
+   - The anti-alias setting from the active scene is used for all scenes.
+   - The alpha setting is taken from each scene,
+     where *Sky* fills in a solid background and *Transparent* has a transparent background.
 
 
 View Settings
