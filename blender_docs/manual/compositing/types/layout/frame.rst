@@ -45,3 +45,11 @@ Once a satisfactory color is found it may be saved as a preset for re-use in oth
 To do this press the *+* button next to the Color Presets
 drop down in the properties panel and add a name for the preset.
 To delete a preset first choose that preset for the active Frame and press the *-* button in the properties panel.
+
+
+Text Display
+============
+
+For more comprehensive documentation, frame nodes can reference a text-block,
+this is displayed read-only, so you'll need to use the text editor to modify the contents.
+
