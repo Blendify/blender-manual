@@ -48,8 +48,9 @@ To delete a preset first choose that preset for the active Frame and press the *
 
 
 Text Display
-============
+------------
 
-For more comprehensive documentation, frame nodes can reference a text-block,
-this is displayed read-only, so you'll need to use the text editor to modify the contents.
+When you need to display more comprehensive text, frame nodes can display the contents of a text-block.
+
+This is read-only, so you'll need to use the text editor to modify the contents.
 
