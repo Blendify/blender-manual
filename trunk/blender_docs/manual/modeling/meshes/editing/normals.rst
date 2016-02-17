@@ -30,7 +30,7 @@ Flip Direction
 
    | Mode:     *Edit* mode
    | Menu:     :menuselection:`Mesh --> Normals --> Flip` or :menuselection:`Specials --> Flip Normals`
-   | Hotkey:   :menuselection:`[W] --> Flip Normals` }
+   | Hotkey:   :kbd:`W`, :menuselection:`Flip Normals`
 
 
 Well, it will just reverse the normals direction of all selected faces.
@@ -47,12 +47,11 @@ Recalculate Normals
    | Mode:     *Edit* mode
    | Menu:     :menuselection:`Mesh --> Normals --> Recalculate Outside` and
      :menuselection:`Mesh --> Normals --> RecalculateInside`
-   | Hotkey:   :kbd:`Ctrl-N` and *ctrl*
+   | Hotkey:   :kbd:`Ctrl-N` and :kbd:`Ctrl-Shift-N`
 
 
 These commands will recalculate the normals of selected faces so that they point outside
 (respectively inside) the volume that the face belongs to.
 This volume do not need to be closed. In fact, this means that the face of interest must be
-adjacent with at least one non-coplanar other face. For example,
-with a *Grid* primitive, neither *Recalculate Outside* nor
-*Recalculate Inside* will never modify its normals...
+adjacent with at least one non-coplanar other face.
+For example, with a *Grid* primitive, recalculating normals doesn't have a meaningful result.
