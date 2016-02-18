@@ -250,6 +250,7 @@ Running a second time will connect the first/last endpoints.
 Vertices not connected to any faces will create edges,
 so this can be used as a way to quickly connect isolated vertices too.
 
+
 Connect Vertices
 ================
 
@@ -265,22 +266,25 @@ This tool connects selected vertices by creating edges between them and splittin
 This tool can be used on many faces at once.
 
 
-.. figure:: /images/vertexConnect-before.jpg
-   :width: 200px
+.. list-table::
 
-   Selected vertices before connecting
+   * - .. figure:: /images/vertexConnect-before.jpg
+          :width: 180px
 
+          Certices before connecting.
 
-.. figure:: /images/vertexConnect-after.jpg
-   :width: 200px
+     - .. figure:: /images/vertexConnect-after.jpg
+          :width: 180px
 
-   After connecting vertices
+          After connecting vertices.
 
+     - .. figure:: /images/vertexConnect-after-faces.jpg
+          :width: 180px
 
-.. figure:: /images/vertexConnect-after-faces.jpg
-   :width: 200px
+          Resulting face pair.
 
-   Two faces created from vertex connect operation
+The main difference between this tool and `Connect Vertex Path`_,
+is this tool ignores selection order and connects all selected vertices that share a face.
 
 
 Vertex Slide
