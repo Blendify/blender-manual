@@ -271,7 +271,7 @@ This tool can be used on many faces at once.
    * - .. figure:: /images/vertexConnect-before.jpg
           :width: 180px
 
-          Certices before connecting.
+          Vertices before connecting.
 
      - .. figure:: /images/vertexConnect-after.jpg
           :width: 180px
