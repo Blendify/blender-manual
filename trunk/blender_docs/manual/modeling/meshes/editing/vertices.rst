@@ -235,14 +235,20 @@ Connect Vertex Path
 
 This tool connects vertices in the order they're selected, splitting the faces between them.
 
-Runnign a second time will connect the first/last endpoints.
+.. list-table::
+
+   * - .. figure:: /images/mesh-connect_verts_pair-before.png
+
+          Two disconnected vertices.
+
+     - .. figure:: /images/mesh-connect_verts_pair-after.png
+
+          Result of connecting.
+
+Running a second time will connect the first/last endpoints.
 
 Vertices not connected to any faces will create edges,
 so this can be used as a way to quickly connect isolated vertices too.
-
-
-.. TODO, example images
-
 
 Connect Vertices
 ================
