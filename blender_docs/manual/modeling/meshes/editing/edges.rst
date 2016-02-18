@@ -67,8 +67,7 @@ Adjust Bevel Weight
    :class: refbox
 
    | Mode:     *Edit* mode (*Vertex* or *Edge* select modes)
-   | Menu:     :menuselection:`Mesh --> Edges --> Adjust Bevel Weight`
-   | Hotkey:   :kbd:`Ctrl-Shift-E`
+   | Menu:     :menuselection:`Mesh --> Edges --> Edge Bevel Weight`
 
 
 This edge property (a value between **0.0** and **1.0**)
