@@ -36,8 +36,6 @@ Mark Seam and Clear Seam
 
    | Mode:     *Edit* mode (*Vertex* or *Edge* select modes)
    | Menu:     :menuselection:`Mesh --> Edges --> Mark Seam/Clear Seam` (or the same options in *Edge Specials* menu)
-   | Hotkey:   :kbd:`Ctrl-E-Numpad1` and :kbd:`Ctrl-E-Numpad2`
-
 
 Seams are a way to create separations, "islands", in UV maps.
 See the :ref:`UVTexturing section <editors-uv_image-index>` for more details.
@@ -52,8 +50,6 @@ Mark Sharp and Clear Sharp
 
    | Mode:     *Edit* mode (*Vertex* or *Edge* select modes)
    | Menu:     :menuselection:`Mesh --> Edges --> Mark Seam/Clear Seam` (or the same options in *Edge Specials* menu)
-   | Hotkey:   :kbd:`Ctrl-E-Numpad1` and :kbd:`Ctrl-E-Numpad2`
-
 
 The *Sharp* flag is used by the :doc:`EdgeSplit modifier </modeling/modifiers/generate/edge_split>`,
 which is part of the smoothing technics.
@@ -231,7 +227,6 @@ Rotate Edge
 
    | Mode:     *Edit* mode (*Vertex* or *Edge* select modes)
    | Menu:     :menuselection:`Mesh --> Edges --> Rotate Edge CW / Rotate Edge CCW`
-   | Hotkey:   :menuselection:`[ctrl][E] --> Rotate Edge CW`   and :menuselection:`[ctrl][E] --> Rotate Edge CCW`
 
 
 Rotating an edge clockwise or counter-clockwise spins an edge between two faces around their
@@ -270,7 +265,7 @@ Delete Edge Loop
 
    | Mode:     *Edit* mode (*Vertex* or *Edge* select modes)
    | Menu:     :menuselection:`Mesh --> Delete --> Edge Loop`
-   | Hotkey:   :menuselection:`[X]/[Del] --> [g]`
+   | Hotkey:   :kbd:`X` or :kbd:`Delete`, :menuselection:`Edge Loop`
 
 
 *Delete Edge Loop* allows you to delete a selected edge loop if it is between two other edge loops.
@@ -315,7 +310,7 @@ Collapse
 
    | Mode:     *Edit* mode
    | Menu:     :menuselection:`Mesh --> Delete --> Edge Collapse`
-   | Hotkey:   :menuselection:`[alt][M] --> [pad3]`
+   | Hotkey:   :kbd:`Alt-M`, :menuselection:`Collapse`
 
 
 This takes a selection of edges and for each edge, merges its two vertices together.
@@ -343,7 +338,6 @@ Edge Split
 
    | Mode:     *Edit* mode
    | Menu:     :menuselection:`Mesh --> Edges --> Edge Split`
-   | Hotkey:   :menuselection:`[Ctrl][E] --> Edge Split`
 
 
 *Edge split* is similar to the rip tool. When two or more touching interior edges,
