@@ -275,9 +275,9 @@ Clamp Fireflies
 Ideally with all the previous tricks, fireflies would be eliminated, but they could still happen. For that,
 **the intensity that any individual light ray sample will contribute to a pixel can be clamped**
 to a maximum value with the integrator :ref:`Clamp setting <render-cycles-integrator-clamp_samples>`.
+
 If set too low this can cause missing highlights in the image,
 which might be useful to preserve for camera effects such as bloom or glare.
-
 To mitigate this conundrum it's often useful to clamp only indirect bounces,
 leaving highlights directly visible to the camera untouched.
 
