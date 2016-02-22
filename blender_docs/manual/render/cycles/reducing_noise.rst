@@ -267,6 +267,8 @@ with the second render using a mesh light positioned in the window.
 
 In newer versions, :doc:`light portals </render/cycles/world>` provide a better solution.
 
+.. _render-cycles-reducing_noise-clamp_samples:
+
 Clamp Fireflies
 ---------------
 
@@ -276,6 +278,9 @@ to a maximum value with the integrator :ref:`Clamp setting <render-cycles-integr
 If set too low this can cause missing highlights in the image,
 which might be useful to preserve for camera effects such as bloom or glare.
 
+To mitigate this conundrum it's often useful to clamp only indirect bounces,
+leaving highlights directly visible to the camera untouched.
+
 
 .. list-table::
 
@@ -284,5 +289,3 @@ which might be useful to preserve for camera effects such as bloom or glare.
 
      - .. figure:: /images/cycles_noise_clamp_4.jpg
           :width: 180px
-
-

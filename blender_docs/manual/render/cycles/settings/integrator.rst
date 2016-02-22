@@ -132,16 +132,27 @@ Filter Glossy
 
 .. _render-cycles-integrator-clamp_samples:
 
-Clamp Samples
-   This option will clamp all samples to a maximum intensity they can contribute to the pixel,
-   again to reduce noise at the cost of accuracy. With value 0.0 this option is disabled;
-   lower values clamp more light away.
+Clamp Direct
+   This option limits the maximum intensity a sample from rays which have not yet bounced can contribute to a pixel.
+   Setting this option to 0.0 disables clamping altogether.
+   Lower have a greater affect (dimmer samples) on the resulting image than higher values.
+
+   .. note ::
+      A common issue encountered with path-tracing is the occurrence of "fireflies":
+      improbable samples that contribute very high values to pixels.
+      This option provides a way to limit that. However note that as you clamp out such values,
+      other bright lights/reflections will be dimmed as well.
+   
+      Care must be taken when using this setting to find a balance between mitigating fireflies and losing
+      intentionally bright parts. It's often useful to clamp indirect bounces separately,
+      as they tend to cause more fireflies than direct bounces. See the *Clamp Indirect* setting.
+
+Clamp Indirect
+   The same as the *Clamp Direct*, but for rays which have bounced multiple times.
 
 
-   If the image has fireflies, there will be samples that contribute very high values to pixels,
-   and this option provides a way to limit that. However note that as you clamp out such values,
-   bright colors in other places where there is no noise will be lost as well.
-   So this is a balance between reducing the noise and keeping the image from losing its intended bright colors.
+See :ref:`Reducing Noise <render-cycles-reducing_noise-clamp_samples>` for examples of the clamp settings in use.
+   
 
 .. _render-cycles-integrator-material_settings:
 
