@@ -3,6 +3,14 @@
 Post Processing Panel
 *********************
 
+The Post Processing panel is use to control different option used to process your image after rendering.
+It can be found in the :doc:` Properties Editor <editors/properties/introduction>`.
+
+.. figure:: /images/render_post_panel.png
+   :align: right
+
+   Post Processing Panel.
+
 Compositing
    Use compositing for the final image.
 Sequencer
