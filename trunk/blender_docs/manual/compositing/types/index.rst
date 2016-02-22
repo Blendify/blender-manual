@@ -4,8 +4,6 @@
   Types of Nodes
 #################
 
-This section is organized by type of nodes, which are grouped based on similar functions:
-
 .. toctree::
    :maxdepth: 1
 
@@ -17,4 +15,5 @@ This section is organized by type of nodes, which are grouped based on similar f
    vector/index.rst
    matte/index.rst
    distort/index.rst
+   group.rst
    layout/index.rst
