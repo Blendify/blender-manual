@@ -146,7 +146,10 @@ if a supported tablet is being used.
 Autosmooth
    Sets the amount of smoothing to be applied to each stroke.
 Normal Weight
-   TODO.
+   Constrains brush movement along the surface normal.
+   Especially useful with the *Grab Brush*, can be temporarily enabled by holding :kbd:`Ctrl`.
+
+   Applies to *Grab* and *Snake Hook* brushes.
 Pinch Factor
    TODO.
 Rake Factor
