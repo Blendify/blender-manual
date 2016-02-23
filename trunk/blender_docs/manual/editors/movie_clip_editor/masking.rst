@@ -82,6 +82,8 @@ Curve Handles
    - :kbd:`Ctrl-N` make normals (handle directions) consistent
    - Switch Direction handle directions in/out. 
 
+.. _mask-feather:
+
 Feather
 -------
 
