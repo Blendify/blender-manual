@@ -18,6 +18,7 @@ and direct light sampling (picking a light source and tracing a ray towards it) 
 Scene Settings
 ==============
 
+
 Sampling
 --------
 
@@ -137,8 +138,9 @@ Clamp Direct
    Setting this option to 0.0 disables clamping altogether.
    Lower have a greater affect (dimmer samples) on the resulting image than higher values.
 
-   .. note ::
-      A common issue encountered with path-tracing is the occurrence of "fireflies":
+   .. note::
+
+      A common issue encountered with path-tracing is the occurrence of *"fireflies"*:
       improbable samples that contribute very high values to pixels.
       This option provides a way to limit that. However note that as you clamp out such values,
       other bright lights/reflections will be dimmed as well.
@@ -152,7 +154,7 @@ Clamp Indirect
 
 
 See :ref:`Reducing Noise <render-cycles-reducing_noise-clamp_samples>` for examples of the clamp settings in use.
-   
+
 
 .. _render-cycles-integrator-material_settings:
 
@@ -168,6 +170,7 @@ Multiple Importance Sample
 
    This option will only have an influence if the material contains an emission node;
    it will be automatically disabled otherwise.
+
 
 .. _render-cycles-integrator-world_settings:
 
