@@ -1,13 +1,13 @@
-
+﻿
 *****************
 Blender's History
 *****************
 
-In 1988 Ton Roosendaal co-founded the Dutch animation studio NeoGeo. NeoGeo quickly became
+In 1988, Ton Roosendaal co-founded the Dutch animation studio NeoGeo. NeoGeo quickly became
 the largest 3D animation studio in the Netherlands and one of the leading animation houses in
 Europe. NeoGeo created award-winning productions
 (European Corporate Video Awards 1993 and 1995)
-for large corporate clients such as multi-national electronics company Philips.
+for large corporate clients such as multinational electronics company Philips.
 Within NeoGeo Ton was responsible for both art direction and internal software development.
 After careful deliberation Ton decided that the current in-house 3D toolset for NeoGeo was
 too old and cumbersome to maintain, and needed to be rewritten from scratch. In
@@ -18,7 +18,7 @@ Blender could be used as a tool for other artists outside of NeoGeo.
 In 1998, Ton decided to found a new company called Not a Number (NaN)
 as a spin-off of NeoGeo to further market and develop Blender.
 At the core of NaN was a desire to create and distribute a compact,
-cross platform 3D application for free. At the time this was a revolutionary concept as most
+cross-platform 3D application for free. At the time, this was a revolutionary concept as most
 commercial 3D applications cost thousands of dollars. NaN hoped to bring professional
 level 3D modeling and animation tools within the reach of the general computing public.
 NaN's business model involved providing commercial products and services around Blender. In
@@ -56,9 +56,9 @@ to release Blender as open source. The "Free Blender" campaign sought to raise �
 that the Foundation could buy the rights to the Blender source code and intellectual property
 rights from the NaN investors and subsequently release Blender to the open source community.
 With an enthusiastic group of volunteers, among them several ex-NaN employees,
-a fund raising campaign was launched to "Free Blender". 
+a fundraising campaign was launched to "Free Blender". 
 To everyone's surprise and delight the campaign reached the €100,000 goal in only seven short weeks.
-On Sunday October 13, 2002,
+On Sunday, October 13, 2002,
 Blender was released to the world under the terms of the `GNU GPL <http://www.gnu.org/copyleft/gpl>`__.
 Blender development continues to this day driven by a team of dedicated volunteers from around the
 world led by Blender's original creator, Ton Roosendaal.
@@ -104,7 +104,7 @@ Blender goes Open Source
 - 2.25 - October 2002:
   `Blender Publisher <http://download.blender.org/release/Publisher2.25/>`__ becomes freely available.
 - Tuhopuu1 - Oct 2002: The experimental tree of Blender is created, a coder's playground.
-- 2.26 - February 2003: The first true open source Blender release.
+- 2.26 - February 2003: The first truly open source Blender release.
 - 2.27 - May 2003: The second open source Blender release.
 - 2.28x - July 2003: First of the 2.28x series.
 - `2.30 <http://archive.blender.org/development/release-logs/blender-230/>`__ - October 2003:
@@ -112,7 +112,7 @@ Blender goes Open Source
 - `2.31 <http://archive.blender.org/development/release-logs/blender-231/>`__ - December 2003:
   Upgrade to stable 2.3x UI project.
 - `2.32 <http://archive.blender.org/development/release-logs/blender-232/>`__ - January 2004:
-  Major overhaul of internal rendering capabilities.
+  A major overhaul of internal rendering capabilities.
 - `2.33 <http://archive.blender.org/development/release-logs/blender-233/>`__ - April 2004:
   Game Engine returns, ambient occlusion, new procedural textures.
 - `2.34 <http://archive.blender.org/development/release-logs/blender-234/>`__ - August 2004:
@@ -127,7 +127,7 @@ Blender goes Open Source
   Transformation tools and widgets, softbodies, force fields, deflections,
   incremental subdivision surfaces, transparent shadows, and multi-threaded rendering.
 - `2.40 <http://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.40>`__ - December 2005:
-  Full rework of armature system, shape keys, fur with particles, fluids and rigid bodies.
+  Full rework of armature system, shape keys, fur with particles, fluids, and rigid bodies.
 - `2.41 <http://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.41>`__ - January 2006:
   Lots of fixes, and some game engine features.
 - `2.42 <http://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.42>`__ - July 2006:
@@ -135,7 +135,7 @@ Blender goes Open Source
   This was the release following `Project Orange <http://orange.blender.org/>`__.
 - `2.43 <http://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.43>`__ - February 2007:
   Multi-resolution meshes, multi-layer UV textures, multi-layer images and multi-pass rendering and baking,
-  sculpting, retopology, multiple additional matte, distort and filter nodes, modeling and animation improvements,
+  sculpting, retopology, multiple additional mattes, distort and filter nodes, modeling and animation improvements,
   better painting with multiple brushes, fluid particles,
   proxy objects, sequencer rewrite, and post-production UV texturing.
 - `2.44 <http://www.blender.org/development/release-logs/blender-244>`__ - May 2007:
@@ -159,7 +159,7 @@ Blender goes Open Source
 - `2.49 <http://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.49>`__ - June 2009:
   Node-based textures, armature sketching (called Etch-a-Ton), boolean mesh operation improvements,
   JPEG2000 support, projection painting for direct transfer of images to models, and a significant Python
-  script catalogue. GE enhancements included video textures, where you can play movies in-game, upgrades
+  script catalog. GE enhancements included video textures, where you can play movies in-game, upgrades
   to the Bullet physics engine, dome (fish-eye) rendering, and more API GE calls made available.
 
 
