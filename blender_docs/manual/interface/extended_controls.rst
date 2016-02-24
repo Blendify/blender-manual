@@ -132,7 +132,7 @@ Add (``+`` Button)
    they will be placed in the middle of both stops.
 Delete (``-`` Button)
    Deletes the selected color stop from the list.
-'F' (Button)
+Flip (``<->`` Button)
    Flips the color band, inverting the values of the custom weight paint range.
 Numeric Field
    Whenever the user adds a color stop to the custom weight paint range, the color stop will receive an index.
