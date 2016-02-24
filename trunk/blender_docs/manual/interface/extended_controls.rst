@@ -134,10 +134,6 @@ Delete (``-`` Button)
    Deletes the selected color stop from the list.
 Flip (``<->`` Button)
    Flips the color band, inverting the values of the custom weight paint range.
-Numeric Field
-   Whenever the user adds a color stop to the custom weight paint range, the color stop will receive an index.
-   This field shows the indexes added (clicking in the arrows until the counter stops), and allows
-   the user to select the color stop from the list. The selected color stop will be shown with a dashed line.
 Color Mode
    Allows you to control how colors are mixed when blending.
 
@@ -156,11 +152,12 @@ Interpolation Options
    :Linear: Uses a *Linear* Interpolation for the color stops.
    :Ease: Uses a *Ease* Interpolation for the color stops.
    :Constant: Uses a *Constant* Interpolation for the color stops.
+Numeric Field
+   Index of the active color-stop (shown as a dashed line).
 
+   Allows you to change the active color when colors may be too close to easily select with the cursor.
 Position
    This slider controls the positioning of the selected color stop in the range.
-
-
 Color Bar
    Opens a color Picker for the user to specify color and Alpha for the selected color stop.
    When a color is using Alpha, the Color Bar is then divided in two, with the left side
