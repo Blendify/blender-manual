@@ -116,18 +116,9 @@ Camera Depth
 Color Ramp Widget
 =================
 
-.. list-table::
+.. figure:: /images/ui-color_ramp.png
 
-   * - .. figure:: /images/Interface-ColorBand-Before.jpg
-          :width: 310px
-
-          Colorband before
-
-     - .. figure:: /images/Interface-ColorBand-After.jpg
-          :width: 310px
-
-          Colorband after
-
+   Color-Ramp.
 
 *Color Ramps* enables the user to specify a range of colors based on color stops.
 Color stops are similar to a mark indicating where the exact chosen color should be.
@@ -135,30 +126,21 @@ The interval from each of the color stops added to the ramp is a result of the c
 chosen interpolation method. The available options for Color Ramps are:
 
 
-Add (Button)
+Add (``+`` Button)
    Clicking on this button will add a stop to your custom weight paint map.
    The stops are added from the last selected stop to the next one, from left to right and
    they will be placed in the middle of both stops.
-
-
-Delete (Button)
+Delete (``-`` Button)
    Deletes the selected color stop from the list.
-
-
 'F' (Button)
    Flips the color band, inverting the values of the custom weight paint range.
-
-
 Numeric Field
    Whenever the user adds a color stop to the custom weight paint range, the color stop will receive an index.
    This field shows the indexes added (clicking in the arrows until the counter stops), and allows
    the user to select the color stop from the list. The selected color stop will be shown with a dashed line.
-
-
 Interpolation Options
    Enables the user to choose from **4** types of calculations for the color interpolation for each color stop.
    Available options are:
-
 
    B-Spline
       Uses a *B-Spline* Interpolation for the color stops.
@@ -170,7 +152,6 @@ Interpolation Options
       Uses a *Ease* Interpolation for the color stops.
    Constant
       Uses a *Constant* Interpolation for the color stops.
-
 
 Position
    This slider controls the positioning of the selected color stop in the range.
