@@ -305,6 +305,8 @@ There are shortcuts shared between many button types.
 While Hovering
    *When the cursor is held over a button*
 
+   Properties:
+
    - :kbd:`Ctrl-C` - copy the value of the button.
    - :kbd:`Ctrl-V` - paste the value of the button.
    - :kbd:`RMB` - open the context menu.
