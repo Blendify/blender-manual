@@ -4,7 +4,7 @@ Installing on OSX
 *****************
 
 Check the :doc:`Installing Blender </getting_started/installing_blender/installing>`
-page to find the minimum requirements and where to get Blender, if you haven't done so yet.
+page to find the minimum requirements and where to get Blender (if you haven't done so yet).
 
 After downloading Blender for Mac-OSX, uncompress the file and drag ``blender.app`` onto the Applications folder.
 

@@ -1,4 +1,4 @@
-.. _glossary:
+﻿.. _glossary:
 
 ###########
   Glossary
@@ -8,7 +8,7 @@
 
 .. If you add new entries, keep the alphabetical sorting!
 
-This page lists definitions for terms used in blender and this manual.
+This page lists definitions for terms used in Blender and this manual.
 Also see
 
 .. toctree::
@@ -29,13 +29,13 @@ For other common conventions used throughout the manual.
      Area of the screen visible on most devices. Place content inside it to ensure it doesn't get cut off.
 
    Actuator
-      A :term:`logic brick` that acts like a muscle of a lifeform. It can move the object, or also make a sound.
-
+      A :term:`logic brick` that acts like a muscle of a lifeform. It can move the object, or make a sound.
+	
    Aliasing
       Rendering artifacts in the form of jagged lines.
 
    Alpha Channel
-      Additional channel in 2D image for transparency.
+      Additional channel in an image for transparency.
 
       Straight Alpha
          Method where ``RGBA`` channels are stored as ``(R, G, B, A)``
@@ -57,25 +57,25 @@ For other common conventions used throughout the manual.
 
       Conversion (Straight/Premultiplied) Alpha
          Conversion between the two alpha types is not a simple operation and can involve data loss,
-         as both alpha types can represent data that the other can not, though it is often subtle.
+         as both alpha types can represent data that the other can not though it is often subtle.
 
          Straight alpha can be considered to be an RGB color image with a separate alpha mask.
          In areas where this mask is fully transparent, there can still be colors in the RGB channels.
-         On conversion to premultiplied alpha this mask is *'applied'*
+         On conversion to premultiplied alpha this mask is *applied'*
          and the colors in such areas become black and are lost.
 
-         Premultiplied alpha on the other hand can represent renders
+         Premultiplied alpha, on the other hand, can represent renders
          that are both emitting light and letting through light from the background.
-         For example a transparent fire render might be emitting light,
+         For example, a transparent fire render might be emitting light,
          but also letting through all light from objects behind it.
-         On converting to straight alpha this effect is lost.
+         On converting to straight alpha, this effect is lost.
 
    Ambient Light
-      Light that comes from the surrounding environment as a whole.
+      The light that comes from the surrounding environment as a whole.
 
    Ambient Occlusion
       A ratio of how much :term:`ambient light` a surface point would be likely to receive.
-      If a a surface point is under a foot or table,
+      If a surface point is under a foot or table,
       it will end up much darker than the top of someone's head or the tabletop.
 
    Animation
@@ -95,7 +95,7 @@ For other common conventions used throughout the manual.
       so as to avoid needing to calculate it again.
 
    Bevel
-      Operation to chamfer or bevel edges of an object.
+      The operation to chamfer or bevel edges of an object.
       
    BU
    Blender Units
@@ -116,7 +116,7 @@ For other common conventions used throughout the manual.
       See also :doc:`/render/cycles/settings/light_paths`.
 
    Bounding Box
-      Box that encloses the shape of an object. The box is aligned with the local space of the object.
+      The box that encloses the shape of an object. The box is aligned with the local space of the object.
 
    Bump Mapping
       Technique for simulating slight variations in surface height using a grayscale "height-map" texture.
@@ -152,7 +152,7 @@ For other common conventions used throughout the manual.
       either using simple logic or complex Python scripts.
 
    Convex face
-      Face where, if lines were drawn from each vertex to every other vertex, all lines would remain within the face.
+      Face where, if lines were drawn from each vertex to every other vertex, all lines would remain in the face.
       Opposite of a :term:`concave face`.
 
    Coplanar
@@ -177,12 +177,12 @@ For other common conventions used throughout the manual.
    Diffuse Light
       Even, directed light coming off a surface.
       For most things, diffuse light is the main lighting we see.
-      Diffuse light comes from a specific direction or location, and creates shading.
+      Diffuse light comes from a specific direction or location and creates shading.
       Surfaces facing towards the light source will be brighter,
       while surfaces facing away from the light source will be darker.
 
    Directional Light
-      Light that has a specific direction, but no location.
+      The light that has a specific direction, but no location.
       It seems to come from an infinitely far away source, like the sun.
       Surfaces facing the light are illuminated more than surfaces facing away, but their location doesn't matter.
       A Directional Light illuminates all objects in the scene, no matter where they are.
@@ -193,9 +193,9 @@ For other common conventions used throughout the manual.
       This relies on the mesh having enough geometry to represent details in the image.
 
    Double Buffer
-      Technique for drawing and displaying content on screen.
+      Technique for drawing and displaying content on the screen.
       Blender uses two buffers (images) to draw the interface in.
-      The content of one buffer is displayed, while drawing occurs on the other buffer.
+      The content of one buffer is displayed while drawing occurs on the other buffer.
       When drawing is complete, the buffers are switched.
 
    Edge
@@ -203,7 +203,7 @@ For other common conventions used throughout the manual.
 
    Edge Loop
       Chain of :term:`edges <edge>` belonging to consecutive :term:`quads <quad>`.
-      An edge loop ends at a pole or a boundary. Otherwise it is cyclic.
+      An edge loop ends at a pole or a boundary. Otherwise, it is cyclic.
 
    Edge Ring
        Path of all :term:`edges <edge>` along a :term:`face loop` that share two faces belonging to that loop.
@@ -212,7 +212,7 @@ For other common conventions used throughout the manual.
       An :term:`Object` without any :term:`Vertices`, :term:`Edges <Edge>` or :term:`Faces <Face>`.
 
    Environment Map
-      Method of calculating reflections.
+      A method of calculating reflections.
       It involves rendering images at strategic positions and applying them as textures to the mirror.
       Now in most cases obsoleted by Raytracing, which though slower is easier to use and more accurate.
 
@@ -225,41 +225,41 @@ For other common conventions used throughout the manual.
    Face Loop
       Chain of consecutive :term:`quads <quad>`.
       A face loop stops at a :term:`triangle` or :term:`Ngon` (which don't belong to the loop), or at a boundary.
-      Otherwise it's cyclic.
+      Otherwise, it's cyclic.
 
    Face Normal
       The normalized vector perpendicular to the plane that a :term:`face` lies in.
       Each face has its own normal.
 
    FCurve
-      Curve that holds the animation values of a specific property.
+      A curve that holds the animation values of a specific property.
 
    Field of View
       The area in which objects are visible to the camera. Also see :term:`Focal Length <focal length>`
 
    Focal Length
-      Distance required by a lens to focus collimated light.
+      The distance required by a lens to focus collimated light.
       Defines the magnification power of a lens. Also see :term:`Field of View <field of view>`
 
    FSAA
    Full-Screen Anti-Aliasing
-      Method of :term:`Anti-aliasing` on the graphics card, so the entire image is displayed smooth.
+      A method of :term:`Anti-aliasing` on the graphics card, so the entire image is displayed smooth.
       Also known as *Multi-Sampling*.
 
       This can be enabled in the :ref:`user preferences <prefs-system-multi_sampling>`.
-      On many graphics cards this can also be enabled in the driver options.
+      On many graphics cards, this can also be enabled in the driver options.
 
    Gamma
-      An operation used to adjust brightness of an image.
+      An operation used to adjust the brightness of an image.
 
       See also `Gamma correction <http://en.wikipedia.org/wiki/Gamma_correction>`__ on Wikipedia.
 
    Geometric Center
-      Mean average of the positions of all vertices making up the object.
+      The mean average of the positions of all vertices making up the object.
 
    Gimbal Lock
       The limitation where axes of rotation can become aligned,
-      loosing the ability to rotate on an axis (typically assosiated with :term:`euler rotation`).
+      losing the ability to rotate on an axis (typically associated with :term:`euler rotation`).
 
       - See also `Gimbal lock <http://en.wikipedia.org/wiki/Gimbal_lock>`__ on Wikipedia.
       - See also `Gimbal lock <http://blender.stackexchange.com/questions/469>`__ on Stackexchange.
@@ -267,7 +267,7 @@ For other common conventions used throughout the manual.
    Global Illumination
       A superset of radiosity and ray tracing.
       The goal is to compute all possible light interactions in a given scene,
-      and thus obtain a truly photo realistic image.
+      and thus, obtain a truly photo-realistic image.
       All combinations of diffuse and specular reflections and transmissions must be accounted for.
       Effects such as color bleeding and caustics must be included in a global illumination simulation.
 
@@ -306,7 +306,7 @@ For other common conventions used throughout the manual.
    Inverse Kinematics
       The process of determining the movement of interconnected segments of a body or model.
       Using ordinary Kinematics on a hierarchically structured object
-      you can for example move the shoulder of a puppet.
+      you can for example, move the shoulder of a puppet.
       The upper and lower arm and hand will automatically follow that movement.
       IK will allow you to move the hand and let the lower and upper arm go along with the movement.
       Without IK the hand would come off the model and would move independently in space.
@@ -344,7 +344,7 @@ For other common conventions used throughout the manual.
       Manifold meshes, also called *water tight* meshes,
       define a **closed non-self-intersecting volume** (see also :term:`non-manifold`).
       A manifold mesh is a mesh in which the structure of the connected
-      faces in a closed volume will always point the normals (and their
+      faces in a closed volume will always point the normals (and there
       surfaces) to the outside or to the inside of the mesh without any overlaps.
       If you recalculate those normals, they will always point at
       a predictable direction (To the outside or to the inside of the
@@ -352,7 +352,7 @@ For other common conventions used throughout the manual.
       When working with non-closed volumes, a manifold mesh is a
       mesh in which the normals will always define two different and
       non-consecutive surfaces.
-      A manifold mesh will always define an even number of non overlapped surfaces.
+      A manifold mesh will always define an even number of non-overlapped surfaces.
 
    Mesh
       Type of object consisting of :term:`vertices <vertex>`, :term:`edges <edge>` and :term:`faces <face>`.
@@ -375,16 +375,16 @@ For other common conventions used throughout the manual.
    Non-manifold
       Non-Manifold meshes essentially define geometry which cannot exist in the real world.
       This kind of geometry is not suitable for several types of operations,
-      specially those where knowing the volume (inside/outside) of the object is important
+      especially those where knowing the volume (inside/outside) of the object is important
       (refraction, fluids, booleans, or 3D printing, to name a few).
       A non-manifold mesh is a mesh in which the structure of a
       non-overlapped surface (based on it's connected faces) won't determine
-      the inside or the outside of a volume based on it's normals, defining
+      the inside or the outside of a volume based on its normals, defining
       a  single surface for both sides, but ended with flipped normals.
       When working with non-closed volumes, a non-manifold mesh will always
-      determine at least one discontinuity at the normal directions, either
+      determine at least one discontinuity in the normal directions, either
       by an inversion of a connected loop, or by an odd number of surfaces.
-      A non manifold mesh will always define an odd number of surfaces.
+      A non-manifold mesh will always define an odd number of surfaces.
 
       There are several types of non-manifold geometry:
 
@@ -457,7 +457,7 @@ For other common conventions used throughout the manual.
       Local illumination model that can produce a certain degree of realism in three-dimensional
       objects by combining three elements: diffuse, specular and ambient for each considered point on a surface.
       It has several assumptions - all lights are points, only surface geometry is considered,
-      only local modelling of diffuse and specular, specular color is the same as light color,
+      only local modeling of diffuse and specular, specular color is the same as light color,
       ambient is a global constant.
 
    Pivot Point
@@ -492,7 +492,7 @@ For other common conventions used throughout the manual.
       Computer generated (generic) textures. Procedural textures can be configured via parameters.
 
    Projection
-      In computer graphics there are two common camera projections used.
+      In computer graphics, there are two common camera projections used.
 
       Perspective
          A *perspective* view is geometrically constructed by taking a scene in 3D
@@ -565,13 +565,13 @@ For other common conventions used throughout the manual.
       or smooth (faces are smoothed by interpolating the normal on every point of the face).
 
    Specular light
-      Light which is reflected precisely, like a mirror.
+      A light which is reflected precisely, like a mirror.
       Also used to refer to highlights on reflective objects.
 
    Straight Alpha
       See :term:`Alpha Channel`
 
-   Sub surface scattering
+   Subsurface scattering
       Mechanism of light transport in which light penetrates the surface of a translucent object,
       is scattered by interacting with the material, and exits the surface at a different point.
       All non-metallic materials are translucent to some degree.
@@ -581,11 +581,11 @@ For other common conventions used throughout the manual.
    Subdividing
       Technique for adding more geometry to a mesh.
       It creates new vertices on subdivided edges, new edges between subdivisions and new faces based on new edges.
-      If new edges cross a new vertex is created on their crossing point.
+      If new edges cross a new vertex is created at their crossing point.
 
    Subsurf
    Subdivision surface
-      Method of creating smooth higher poly surfaces which can take a low polygon mesh as input.
+      A method of creating smooth higher poly surfaces which can take a low polygon mesh as input.
 
       Sometimes abbreviated to **Subsurf**.
 
@@ -610,7 +610,7 @@ For other common conventions used throughout the manual.
      Place text and graphics inside this area to make sure they don't get cut off.
 
    Topology
-      Arrangement of *Vertices*, *Edges*, and *Faces* which define the shape of a mesh.
+      The arrangement of *Vertices*, *Edges*, and *Faces* which define the shape of a mesh.
       See :term:`vertex`, :term:`edge`, and :term:`face`.
 
    Transforms
@@ -620,7 +620,7 @@ For other common conventions used throughout the manual.
       :term:`Face` with exactly 3 :term:`vertices <vertex>`.
 
    UV map
-      Defines a relation between the surface of a 3 dimensional mesh and a 2D texture. In detail,
+      Defines a relation between the surface of a mesh and a 2D texture. In detail,
       each face of the mesh is mapped to a corresponding face on the texture.
       It is possible and often common practice to map several faces of the mesh to the same
       or overlapping areas of the texture.

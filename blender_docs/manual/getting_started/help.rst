@@ -14,7 +14,7 @@ When hovering your cursor over a button or setting,
 it will show you the *Tooltip*, and related details depending on the button type,
 such as the key-shortcut for a tool.
 
-The *Python:* text, included last may be of interest to you if you're an animator
+The *Python:* text included last may be of interest to you if you're an animator
 or automating tasks, see :ref:`scripting-index`.
 
 
@@ -31,7 +31,7 @@ Context Sensitive Manual Access
 You may want to access help for a tool or area from within Blender.
 
 Use the key-shortcut, or right-click menu to visit pages from this reference manual within Blender.
-This opens a web-page relating to the button under the cursor, supporting both tool and value buttons.
+This opens a webpage relating to the button under the cursor, supporting both tool and value buttons.
 
 .. note::
 
@@ -132,7 +132,7 @@ Info Window Log
 This is not exactly a Help menu, but it is related.
 If you mouse-over the line between the Info window and the 3D then click and drag the Info window down a bit,
 you can see the stream of Python calls that the UI is making when you work.
-This can be useful in creating scripts.
+This can be useful for creating scripts.
 
 .. figure:: /images/basics-help_info_log.jpg
 
@@ -149,9 +149,9 @@ At the top-right corner, you can see the Date that Blender was compiled and the 
 For example, in our Splash Screen below, you can see the version **2.76b** and the revision number **f337fea**.
 This can be useful to give to support personnel when diagnosing a problem.
 
-There are some Internet Based Help options that are also present in the Blender
+There is also some Internet based help options that are also present in the Blender
 *Splash Screen*.
-They are presented as the same links you will find at the *Help* Menu.
+These are presented as the same links you will find in the *Help* Menu.
 
 
 .. figure:: /images/getting_started-help_splash.png
