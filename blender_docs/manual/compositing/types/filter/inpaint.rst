@@ -7,6 +7,6 @@ Inpaint Node
    :align: right
    :width: 150px
 
-   Inpaint Node
+   Inpaint Node.
 
 TODO - see: https://developer.blender.org/T43469

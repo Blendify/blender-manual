@@ -30,7 +30,7 @@ Enabling and Disabling
 ======================
 
 Enable and disable and add-on by checking or unchecking the box on the right of the add-on you chose,
-as shown on the figure.
+as shown in the figure.
 
 .. figure:: /images/Extensions-Python-Addons-EnabledAddOn.jpg
 
@@ -39,7 +39,7 @@ as shown on the figure.
 The add-on functionality should be immediately available.
 If the Add-on does not activate when enabled,
 check the :doc:`Console window </interface/window_system/console_window>`
-for any errors that may have occurred.
+for any errors, that may have occurred.
 
 
 You can click the arrow at the left of the add-on box to see more information, such as
@@ -58,7 +58,7 @@ Installation of a 3rd party Add-on
 For add-ons that you found on the web or your own to show on the list, you have to install them first
 by clicking *Install from File...* and providing a .zip or .py file.
 
-Alternatively you can manually install an Add-on, which is useful when developing your own add-ons.
+Alternatively, you can manually install an Add-on, which is useful when developing your own add-ons.
 Move or link the files to ``../scripts/addons`` folder (where .. is the path to your Blender configuration folder).
 
 
@@ -73,7 +73,7 @@ the *File* panel of the *User Preferences*.
 To create a personal script folder:
 
 - Create an empty folder (i.e. 'script_addon_2-7x')
-- Add one folder named 'addons'. It has to named like this for Blender to recognize it.
+- Add one folder named 'addons'. It must have this name for Blender to recognize it.
 - Put your new add-ons in this 'addons' folder.
 - open the *File* panel of the *User Preferences*.
 - Fill the *Scripts* entry with the path to your script folder (i.e. 'script_addon_2-7x').

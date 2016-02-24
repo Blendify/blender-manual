@@ -7,6 +7,6 @@ Stabilize 2D
    :align: right
    :width: 150px
 
-   Scale Node
+   Scale Node.
 
 TODO - see: https://developer.blender.org/T43469

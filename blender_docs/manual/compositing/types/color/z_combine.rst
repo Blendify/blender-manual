@@ -22,7 +22,7 @@ You can think of a negative Z value as being behind the camera.
 When choosing between two negative Z-values, Z-Combine will use whichever is more negative.
 
 Alpha values carry over from the input images. Not only is the image pixel chosen,
-but also its alpha channel value. So, if a pixel is partially or totally transparent,
+but also, it's alpha channel value. So, if a pixel is partially or totally transparent,
 the result of the Z-Combine will also be partially transparent;
 in which case the background image will show through the foreground (chosen) pixel.
 Where there are sharp edges or contrast,
@@ -59,14 +59,14 @@ When this happens, Z-offset uses the sphere's pixels to form the resulting pictu
 
 This node can be used to combine a foreground with a background matte painting.
 Walt Disney pioneered the use of multi-plane mattes, where three or four partial mattes were
-painted on glass and placed on the left and right at different Z positions; mininal camera
+painted on glass and placed on the left and right at different Z positions; minimal camera
 moves to the right created the illusion of depth as Bambi moved through the forest.
 
 
 .. note:: Valid Input
 
    Z Input Sockets do not accept fixed values; they must get a vector set (see Map Value node).
-   Image Input Sockets will not accept a color, since it does not have UV coordinates.
+   Image Input Sockets will not accept a color since it does not have UV coordinates.
 
 
 .. figure:: /images/Compositing-Z-Offset-ex_images.jpg
@@ -76,7 +76,7 @@ moves to the right created the illusion of depth as Bambi moved through the fore
 
 
 You can use Z-Combine to merge two images as well,
-using the Z-values put out by two renderlayers.
+using the Z-values put out by two render layers.
 Using the Z-values from the sphere and cube scenes above, but threading different images,
 yields the example to the right.
 
@@ -90,8 +90,8 @@ yields the example to the right.
 In this noodle
 (you may click the little expand-o-matic icon in the bottom right to view it to full size),
 we mix a render scene with a flat image. In the side view of the scene,
-the purple cube is 10 units away from camera, and the gray ball is 20.
-The 3D cursor is about 15 units away from camera. We Z-in the image at a location of 15,
+the purple cube is 10 units away from the camera, and the gray ball is 20.
+The 3D cursor is about 15 units away from the camera. We Z-in the image at a location of 15,
 thus inserting it in-between the cube and the ball.
 The resulting image appears to have the cube on the table.
 

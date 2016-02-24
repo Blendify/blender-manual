@@ -7,6 +7,6 @@ Corner Pin Node
    :align: right
    :width: 150px
 
-   Corner Pin Node
+   Corner Pin Node.
 
 TODO - see: https://developer.blender.org/T43469

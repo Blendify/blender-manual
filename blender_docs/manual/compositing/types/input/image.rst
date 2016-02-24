@@ -73,12 +73,12 @@ Saving/Retrieving Render Passes
 
 Blender can save the individual Render Layers and specific passes in a MultiLayer file format,
 which is an extension of the OpenEXR format. In this example,
-we are reading in frames 50 to 100 of a RenderLayer that were generated some time ago.
+we are reading in frames 50 to 100 of a RenderLayer that was generated some time ago.
 The passes that were saved were the Image, Alpha, Z, Specular and AO passes.
 
 To create a MultiLayer image set when initially rendering, simply disable Do Composite,
 set your Format to MultiLayer,
-enable the Render Layer passes you wish to save over the desired frame range, and Animate.
+enable the Render Layer passes you wish to save over the desired frame range and Animate.
 Then, in Blender, enable Compositing Nodes and Do Composite,
 and use the Image input node to read in the EXR file. When you do, you will see each of the
 saved passes available as sockets for you to use in your compositing noodle.
@@ -99,7 +99,7 @@ When nodes receive inputs with differently sized Images, these rules apply:
 - The composite is centered by default,
   unless a translation has been assigned to a buffer using a *Translate* node.
 
-So each node in a composite can operate on different sized images, as defined by its inputs.
+So each node in a composite can operate on different sized images as defined by its inputs.
 Only the *Composite* output node has a fixed size,
 as defined by the *Scene buttons* (Format Panel).
 The *Viewer* node always shows the size from its input, but when not linked
@@ -146,11 +146,11 @@ For example, if your images were called "credits-0001.png", "credits-0002.png" t
 "credits-0300.png" and you wanted to start picking up with frame 20, you'd put 20 here.
 
 To have the movie/sequence start over and repeat when it is done,
-press the *Cycl* ic button. For example, if you were compositing a fan into a room,
+press the *Cyclic* button. For example, if you were compositing a fan into a room,
 and the fan animation lasted 30 frames, the animation would start over at frame 31, 61, 91,
 and so on, continuously looping. As you scrub from frame to frame,
 to see the actual video frame used for the current frame of animation,
-press the auto button to the right of the *Cycl* ic button.
+press the auto button to the right of the *Cyclic* button.
 
 
 Generated Images
@@ -165,7 +165,7 @@ changes are broadcast throughout Blender as soon as you lift the mouse button.
 One of the places that the image can go is to the Image Input node.
 The example shows a painting session going on in the right-hand UV/Image Editor window for the painting "Untitled".
 Create this image via Image?New in the UV/Image Editor.
-Refer to the texture paint section of the user maual for more info on using Texture Paint.
+Refer to the texture paint section of the user manual for more info on using Texture Paint.
 
 
 In the left-hand window, the Image input node was used to select that "Untitled" image.

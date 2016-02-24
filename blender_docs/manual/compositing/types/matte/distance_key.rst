@@ -9,7 +9,7 @@ Distance Key Node
 
    Distance Key Node
 
-The Distance Key node determines a pixels alpha value based on the 3 dimensional
+The Distance Key node determines a pixel's alpha value based on the 3 dimensional
 distance between the image pixel color and the key color in a 3D RGB color space.
 This key works well when trying to single out a specific color in a background
 (not necessarily green). It is also possible to work with YCbCr color space

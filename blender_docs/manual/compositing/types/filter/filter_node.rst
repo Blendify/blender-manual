@@ -9,7 +9,7 @@ Filter Node
    :align: right
    :width: 150px
 
-   Filter Node
+   Filter Node.
 
 The Filter node implements various common image enhancement filters.
 The supported filters are, if not obvious,
@@ -41,4 +41,4 @@ Shadow
 The *Soften*, *Laplace*, *Sobel*,
 *Prewitt* and *Kirsch* all perform edge-detection
 (in slightly different ways) based on vector calculus and set theory equations that would fill
-six blackboards with gobbledy gook. Recommended reading for insomniacs.
+six blackboards with gobbledygook. Recommended reading for insomniacs.

@@ -84,7 +84,7 @@ Specials
    Mirror Shape Key (Topology)
       This is the same as *Mirror Shape Key* though it detects
       the mirrored vertices based on the topology of the mesh.
-      The mesh vertices dont have to be perfectly symmetrical for this one to work.
+      The mesh vertices don't have to be perfectly symmetrical for this one to work.
 
    New Shape From Mix
       Add a new shape key with the current deformed shape of the object.
@@ -107,7 +107,7 @@ Relative Shape Keys
 ^^^^^^^^^^^^^^^^^^^
 
 Relative shape keys deform from a selected shape key.
-By default all relative shape keys deform from the first shape key called the Basis shape key.
+By default, all relative shape keys deform from the first shape key called the Basis shape key.
 
 
 .. figure:: /images/Shape_Keys_Relative3.jpg
@@ -122,7 +122,7 @@ Name
    Name of the active shape key.
 
 Value
-   Value of the active shape key.
+   The value of the active shape key.
 
 Range
    Min and Max range of the active shape key value.
@@ -150,7 +150,7 @@ Reset Timing
    Reset the timing for absolute shape keys.
    For example, if you have the shape keys, Basis, Key_1, Key_2, in that order.
 
-   Reset Timing will loop the shapekeys, and set the shape key frames to +0.1.
+   Reset Timing will loop the shape keys, and set the shape keyframes to +0.1.
       Basis 0.1
       Key_1 0.2
       Key_2 0.3
@@ -174,7 +174,7 @@ Interpolation
 Evaluation Time
    This is used to control the shape key influence.
 
-   For example, if you have the shape keys, Basis, Key_1, Key_2, in that order,and you reset timing.
+   For example, if you have the shape keys, Basis, Key_1, Key_2, in that order, and you reset timing.
       Basis 10.0
       Key_1 20.0
       Key_2 30.0
@@ -192,7 +192,7 @@ Evaluation Time
 Workflow For Relative Shape Keys
 ================================
 
-This example shows you how to make a cube mesh transform in to a sphere.
+This example shows you how to make a cube mesh transform into a sphere.
 
 
 - In *Object Mode* add two shape keys via the *Shape Key Panel*.

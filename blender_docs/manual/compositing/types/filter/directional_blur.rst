@@ -9,7 +9,7 @@ Directional Blur Node
    :align: right
    :width: 150px
 
-   Dilate/Erode Node
+   Dilate/Erode Node.
 
 Blurs an image in a specified direction and magnitude. Can be used to fake motion blur.
 

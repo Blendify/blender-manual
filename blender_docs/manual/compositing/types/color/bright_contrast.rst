@@ -24,7 +24,7 @@ Notes
    :width: 320px
 
 
-It is possible that this node will put out a value set that has values beyond normal range, i.
+It is possible that this node will put out a value set that has values beyond the normal range, i.
 e. values > 1 or < 0.
 If you will be using the output to mix with other images in the normal range,
 you should clamp the values using the Map Value node (with the Min and Max enabled),

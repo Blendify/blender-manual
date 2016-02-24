@@ -41,7 +41,7 @@ and hence use :doc:`Armatures </rigging/armatures/index>` to animate them!
 Back to our simple *Copy Location* example,
 you can have two different behaviors of this constraint:
 
-- When its *Offset* button is disabled (the default), the location of the owner is "absolutely"
+- When it's *Offset* button is disabled (the default), the location of the owner is "absolutely"
   controlled by the constraint's target, which means nothing (except other constraints below in the stack...)
   will be able to control the owner's position. Not even the object's animation curves.
 - However, when the *Offset* button is enabled,
@@ -70,7 +70,7 @@ the technique described above:
 
 .. vimeo:: 15187945
 
-Note that the this "solar" system is not realistic at all (wrong scale,
+Note that this "solar" system is not realistic at all (the wrong scale,
 the "earth" is rotating in the wrong direction around the "sun", ...).
 
 You can download the blend-file

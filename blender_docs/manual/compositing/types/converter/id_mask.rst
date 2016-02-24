@@ -7,7 +7,7 @@ ID Mask Node
    :align: right
    :width: 150px
 
-   ID Mask Node
+   ID Mask Node.
 
 
 This node will use the Object Index pass (see RenderLayers)
@@ -48,8 +48,8 @@ In this example, the left rear red cube is assigned PassIndex 1,
 and the right cube PassIndex 2. Where the two cubes intersect,
 there is going to be noticeable pixelation (jaggies)
 because they come together at a sharp angle and are different colors.
-Using the mask from object 1, which is smoothed (anti-aliased) at the edges,
-we use a Mix node set on Multiply to multiply the smoothed edges against the image,
+Using the mask from object 1, which is smoothed (antialiased) at the edges,
+we use a Mix Node set on Multiply to multiply the smoothed edges of the image,
 thus removing those nasty (Mick) Jaggies. Thus, being smoothed out,
 the Rolling Stones gather no moss. (I really hope you get that obscure reference :)
 

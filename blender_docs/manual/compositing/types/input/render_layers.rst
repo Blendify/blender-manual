@@ -9,7 +9,7 @@ Render Layers Node
 
    Render Layers Node
 
-This node is the starting place to getting a picture of your scene into the compositing node
+This node is the starting place for getting a picture of your scene into the compositing node
 map.
 
 This node inputs an image from a scene within your blend-file.
@@ -21,7 +21,7 @@ The *Image* is input into the map, along with the following data:
 
 - *Alpha* (transparency) mask
 
-Depending on the Renderlayer passes that are enabled, other sockets are available.
+Depending on the Render layer passes that are enabled, other sockets are available.
 By default the Z is enabled:
 
 - *Z* depth map (how far away each pixel is from the camera)
@@ -31,7 +31,7 @@ The example shows that two other passes are enabled:
 - *Normal* vector set (how light bounces off the surface)
 - *Speed* vector set (how fast an object is moving from one frame to the next)
 
-Use the re-render button (Small landscape icon - to the right of the Renderlayer name)
+Use the re-render button (Small landscape icon - to the right of the Render layer name)
 to re-render the scene and refresh the image and map.
 
 You may recall that a blend-file may contain many scenes.
@@ -125,9 +125,9 @@ since items farther away are blurrier (but more on that later).
 
 Imagine a camera hovering over an X-Y plane. When looking through the camera at the plane,
 Y is up/down and X is left/right, just like when you are looking at a graph.
-The camera is up in the air though, so it has a Z value from the X-Y plane, and,
+The camera is up in the air, though, so it has a Z value from the X-Y plane, and,
 from the perspective of the camera, the plane,
-in fact all the objects that the camera can see,
+in fact, all the objects that the camera can see,
 have a Z value as a distance that they are away from it.
 In addition to the pretty colors of an image,
 a RenderLayer input node also generates a Z value map. This map is a whole bunch of numbers
@@ -148,7 +148,7 @@ takes each value and maps it to a shade of gray that we can see with our eyes. F
 the output of the colorramp is output to a Composite viewer to show you, our dear reader,
 a picture of the Z values. Notice that we have set up the Map Value node so that things closer
 to the camera appear blacker (think: black is 0, less Z means a smaller number)
-and pixels/items farther away have an increasing Z distance and therefore get whiter.
+and pixels/items farther away have an increasing Z distance and, therefore, get whiter.
 We chose a Size value of 0.05 to see Z values ranging from 0 to 20 (20 is 1/0.05).
 
 

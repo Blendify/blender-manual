@@ -14,7 +14,7 @@ painting or virtual background.
 In general, hook up these nodes to a viewer, set your UV/Image Editor to show the viewer node,
 and play with the sliders in real-time using a sample image from the footage,
 to get the settings right. In some cases,
-small adjustments can eliminate artifacts or foreground image degredation. For example,
+small adjustments can eliminate artifacts or foreground image degradation. For example,
 taking out too much green can result in foreground actors looking 'flat' or blueish/purplish.
 
 You can and should chain these nodes together,
@@ -22,7 +22,7 @@ refining your color correction in successive refinements,
 using each node's strengths to operate on the previous node's output.
 There is no "one stop shopping" or one "does-it-all" node; they work best in combination.
 
-Usually, green screen is shot in a stage with consistent lighting from shot to shot,
+Usually, green screen is shot on a stage with consistent lighting from shot to shot,
 so the same settings will work across multiple shots of raw footage.
 Footage shot outside under varying lighting conditions (and wind blowing the background)
 will complicate matters and mandate lower falloff values.
@@ -30,7 +30,7 @@ will complicate matters and mandate lower falloff values.
 .. note:: Garbage Matte
 
    Garbage matte is not a node,
-   but a technique where the foreground is outlined using a closed curve (bezier or nurbs).
+   but a technique where the foreground is outlined using a closed curve (bezier or NURBS).
    Only the area within the curve is processed using these matte nodes;
    everything else is garbage and thus discarded.
 

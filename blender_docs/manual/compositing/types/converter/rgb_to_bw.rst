@@ -7,7 +7,7 @@ RGB to BW Node
    :align: right
    :width: 150px
 
-   RGB to BW Node
+   RGB to BW Node.
 
 This node converts an RGB input and outputs a greyscale image.
 

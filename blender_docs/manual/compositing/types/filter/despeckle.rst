@@ -7,6 +7,6 @@ Despeckle Node
    :align: right
    :width: 150px
 
-   Blur Node
+   Blur Node.
 
 TODO - see: https://developer.blender.org/T43469

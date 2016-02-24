@@ -7,6 +7,6 @@ Plane Track Deform Node
    :align: right
    :width: 150px
 
-   Plane Track Deform Node
+   Plane Track Deform Node.
 
 TODO - see: https://developer.blender.org/T43469

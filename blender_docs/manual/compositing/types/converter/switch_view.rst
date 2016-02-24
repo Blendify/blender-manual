@@ -7,6 +7,6 @@ Switch View Node
    :align: right
    :width: 150px
 
-   Switch View Node
+   Switch View Node.
 
 TODO - see: https://developer.blender.org/T43469

@@ -13,7 +13,7 @@ This guide covers the following topics:
 
 .. note::
 
-   This guides relies heavily in command-line tools.
+   This guide relies heavily on command-line tools.
    It assumes you are the least familiar with the OSX Terminal application.
 
 
@@ -30,7 +30,7 @@ Install those packages or make sure you have them in your system.
 Downloading the Repository
 ==========================
 
-Simply checkout the blender-manual repository using:
+Simply check out the blender-manual repository using:
 
    .. code-block:: sh
 
@@ -58,7 +58,7 @@ To install these dependencies, we can use the ``pip`` command:
 
 .. note::
 
-   Every now and then you may want to make sure your libs are up to date using:
+   Every now and then you may want to make sure your dependencies are up to date using:
 
    .. code-block:: sh
 
@@ -80,7 +80,7 @@ This is the command you will always use when building the docs.
 The building process may take several minutes the first time (or after any major changes),
 but the next time you build it should only take a few seconds.
 
-Once the docs have been built, all the html files can be found inside ``~/blender_docs/build/html``.
+Once the docs have been built, all the HTML files can be found inside ``~/blender_docs/build/html``.
 Try opening ``build/html/contents.html`` in your web browser and read the manual.
 
 .. code-block:: sh

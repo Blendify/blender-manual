@@ -12,7 +12,7 @@ For instance, an input could be:
 - a movie clip (such as an image sequence or video), or
 - just a color or value.
 
-These nodes generate the information that feed other nodes.
+These nodes generate the information that feeds other nodes.
 As such, they have no input-connectors; only outputs.
 
 .. toctree::

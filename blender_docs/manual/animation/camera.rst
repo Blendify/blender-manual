@@ -8,7 +8,7 @@ These are some basic tools and properties animators may use for the camera.
 Switching Cameras
 =================
 
-Switching cameras is done with the Timeline operator 'Bind Camera to Markers'.
+Switching cameras can be done with the Timeline operator 'Bind Camera to Markers'.
 
 The triangle above the camera will become shaded when active.
 
@@ -29,7 +29,7 @@ Moving Cameras
 Move Along a Path
 -----------------
 
-Sometimes its easier to move objects on path,
+Sometimes it's easier to move objects on path,
 see :doc:`Moving Objects on a Path </animation/object_path>` for more info.
 
 
@@ -46,7 +46,7 @@ Lock Camera to View
 
 :ref:`Lock Camera to View <3dview-lock_camera_to_view>` can be used in conjunction with the timeline record option.
 
-To record your view-port navigation as animation curves.
+To record your viewport navigation as animation curves.
 
 
 Dolly Zoom

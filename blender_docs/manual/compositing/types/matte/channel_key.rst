@@ -19,9 +19,9 @@ There is one input to this node, the *Image* that is to be keyed.
 Control this node using:
 
 Color Space
-   buttons selects what color space the channels will represent.
+   This button selects what color space the channels will represent.
 Channel
-   buttons selects the channel to use to determine the matte.
+   This button selects the channel to use to determine the matte.
 High
    value selector determines the lowest values that are considered foreground.
    (which is supposed to be - relatively - height values: from this value to 1.0).

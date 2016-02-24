@@ -77,8 +77,8 @@ The **Video Sequence Editor** just adds a vertical dashed line to each marker
    Marker in a 3D View.
 
 
-The View do not allow you to create/edit/remove markers,
-they just show their name between ``<>`` at there bottom left corner,
+The View does not allow you to create/edit/remove markers,
+they just show their name between ``<>`` at their bottom left corner,
 near the active object's name, when you are at their frame
 (see Marker in a 3D view).
 
@@ -87,8 +87,8 @@ Creating and Editing Markers
 ============================
 
 Unfortunately, there is no common shortcuts and menu for marker's editing, across the
-different window types that supports them... So in the refboxes of each action described below,
-I put the most-common shortcut and menu entry, with the known exceptions between brackets.
+different window types that support them... So in the refboxes of each action described below,
+I put the most common shortcut and menu entry, with the known exceptions between brackets.
 
 
 Creating Markers
@@ -124,7 +124,7 @@ Selecting Markers
 Click :kbd:`RMB` on the marker's triangle to select it. Use :kbd:`Shift-RMB` to
 (de)select multiple markers.
 
-In the Ipo Curve Editor, Action Editor, NLA Editor and Video Sequence Editor windows,
+In the Ipo Curve Editor, Action Editor, NLA Editor, and Video Sequence Editor windows,
 you can also (de)select all markers with :kbd:`Ctrl-A`,
 and border-select them with :kbd:`Ctrl-B` (as usual, :kbd:`LMB` to select,
 :kbd:`RMB` to deselect).

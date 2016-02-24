@@ -7,7 +7,7 @@ Translate Node
    :align: right
    :width: 150px
 
-   Transform Node
+   Transform Node.
 
 The translate node translates (moves)
 an image by the specified amounts in the X and Y directions. X and Y are in pixels,

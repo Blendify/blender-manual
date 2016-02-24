@@ -13,7 +13,7 @@ This node mixes a base image (threaded to the top socket) together with a second
 (bottom socket)
 by working on the individual and corresponding pixels in the two images or surfaces.
 The way the output image is produced is selected in the drop-down menu. The size
-(output resolution) of the image produced by the mix node is the size of the base image.
+(output resolution) of the image produced by the Mix Node is the size of the base image.
 The alpha and Z channels are mixed as well.
 
 .. seealso::
@@ -55,13 +55,13 @@ Some explanation of the mixing methods above might help you use the Mix node eff
 - *Subtract* : Taking Blue away from white leaves Red and Green,
   which combined make Yellow (and you never thought you'd need a color wheel again, eh?).
   Taking Blue away from Purple leaves Red.
-  Use this to de-saturate an image. Taking away yellow makes an image bluer and more depressing.
+  Use this to desaturate an image. Taking away yellow makes an image bluer and more depressing.
 - *Multiply* : Black (0.00) times anything leaves black.
   Anything times White (1.00) is itself. Use this to mask out garbage, or to colorize a black-and-white image.
 - *Hue* : Shows you how much of a color is in an image,
   ignoring all colors except what is selected: makes a monochrome picture (style 'Black & Hue').
 - *Mix* : Combines the two images, averaging the two.
-- *Lighten* : Like bleach, makes your whites whiter. Use with a mask to lighten up a little.
+- *Lighten* : Like bleach makes your whites whiter. Use with a mask to lighten up a little.
 - *Difference* : Kinda cute in that it takes out a color.
   The color needed to turn Yellow into White is Blue.
   Use this to compare two verrry similar images to see what had been done to one to make it the other;
@@ -88,19 +88,15 @@ and the combined effect when they are **mixed** equally.
 
 As you can hopefully see, our original magic monkey was overexposed by too much light.
 To cure an overexposure, you must both darken the image and enhance the contrast.
-Other paint programs usually provide a slider type of control, but Blender,
-ah the fantastic Blender, provides a user-definable curve to provide precise control.
 
 In the top RGB curve, *Darken*, only the right side of the curve was lowered; thus,
 any X input along the bottom results in a geometrically less Y output. The *Enhance
 Contrast* RGB 'S' curve scales the output such that middle values of X change dramatically;
 namely, the middle brightness scale is expanded,
-and thus whiter whites and blacker blacks are output. To make this curve,
+and thus, whiter whites and blacker blacks are output. To make this curve,
 simply click on the curve and a new control point is added.
 Drag the point around to bend the curve as you wish.
 The Mix node combines these two effects equally, and Suzanne feels much better.
-And NOBODY wants a cranky monkey on their hands.
-
 
 Using Mix to Watermark images
 -----------------------------
@@ -124,7 +120,7 @@ While neutral gray works best using the encoding method suggested,
 you are free to use other colors or patterns. It can be a single pixel or a whole gradient;
 it's up to you. In the example below,
 we are encoding the watermark in a specific location in the image using the Translate node;
-this helps later because we only have to look in a specific location for the mark. We then use
+this helps later because we only have to look at a specific location for the mark. We then use
 the RGB to BW node to convert the image to numbers that the Map Value node can use to make the
 image subliminal. In this case, it reduces the mark to one-tenth of its original intensity.
 The Add node adds the corresponding pixels,
@@ -184,6 +180,3 @@ The mask had a hole in it,
 letting light through and thus 'burning' in the image onto the paper. The same equivalent can
 be used here by mixing an alpha mask image with your image using a dodge mixer to lighten an
 area of your photo. Remember that black is zero (no) effect, and white is one (full) effect.
-And by the way, ya grew to like the smell of the fixer,
-and with a little soft music in the background and the sound of the running water,
-it was very relaxing. I kinda miss those dayz.

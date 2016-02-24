@@ -147,7 +147,7 @@ Value
 Workflow
 ========
 
-There are some different ways to add drivers in blender. These are some driver examples and workflow.
+There are some different ways to add drivers in Blender. These are some driver examples and workflow.
 After adding drivers they are usually modified in the *Graph Editor* with the mode set the *Drivers*.
 
 
@@ -171,8 +171,8 @@ Drivers can also be added by pressing :kbd:`D` with the mouse over the property 
 Expression
 ----------
 
-This is quick way to add drivers with a scripted expression.
-First click the property you want add a driver to, then add a hash ``#`` and a scripted expression.
+This is a quick way to add drivers with a scripted expression.
+First click the property you want to add a driver to, then add a hash ``#`` and a scripted expression.
 
 Some examples.
 
@@ -192,7 +192,7 @@ When adding drivers with the same settings, this can save time modifying setting
 Transform Driver
 ----------------
 
-This examples shows you how setup a transform driver.
+This example shows you how setup a transform driver.
 First make sure you are in the Front Ortho view. :kbd:`Numpad5`, :kbd:`Numpad1`.
 
 (1) In object mode, select then duplicate the default ``Cube``. :kbd:`Shift-D`. Move ``Cube.001`` to a new location.
@@ -256,7 +256,7 @@ Y Location Expr
 Driver Namespace
 ^^^^^^^^^^^^^^^^
 
-There is a list of built in driver functions and properties.
+There is a list of built-in driver functions and properties.
 These can be displayed via the python console.
 
 ::
@@ -366,7 +366,7 @@ the dominant stack should line up with the bone for that stack.
 
 The value of Key2A is bound to the position of ``Bone.L``. Its generator
 parameters are crafted such that when Key1's value reaches 1, the
-value of Key2A starts increasing beyond zero. In this way the top of
+value of Key2A starts increasing beyond zero. In this way, the top of
 the left stack will move with bone.L (mostly).
 
 The value of Key2B is bound to the position of ``Bone.R``. Its generator
@@ -376,16 +376,16 @@ will move with bone.R (mostly).
 Since it's quite easy for bone.L and bone.R to be in positions that
 indicate conflicting values for Key1 there will be times when the
 bones do not line up with the tops of their respective stacks. If the
-driver for Key1 were to use Average or Minimum instead of Maximum to
+driver for Key1 was to use Average or Minimum instead of Maximum to
 determine the value of the shape key then "conflicts" between bone.L
-and bone.R would be resolved differently. You will chose according to
+and bone.R would be resolved differently. You will choose according to
 the needs of your animation.
 
 
 Troubleshooting
 ===============
 
-Some common problems people may run in to when using drivers.
+Some common problems people may run into when using drivers.
 
 
 Scripted Expression
@@ -401,7 +401,7 @@ Scripted Expression
    Info Header.
 
 
-By default blender will not auto run python scripts.
+By default blender will not autorun python scripts.
 
 If using a *Scripted Expression* Driver Type,
 you will have to open the file as *Trusted Source*,
@@ -422,18 +422,18 @@ Rotational Properties are Radians
 ---------------------------------
 
 Parts of the User Interface may use different units of measurements for angles, rotation.
-In the Graph Editor while working with Drivers, all angles are Radians.
+In the Graph Editor, while working with Drivers, all angles are Radians.
 
 
 Intra-armature Bone Drivers Can Misbehave
 -----------------------------------------
 
-There is a `well known limitation <https://developer.blender.org/T40301>`__
+There is a `well-known limitation <https://developer.blender.org/T40301>`__
 with drivers on bones that refer to another bone in the same armature. Their values can be
 incorrectly calculated based on the position of the other bone as it was *before* you adjust
 the current_frame. This can lead to obvious shape glitches when the rendering of frames has
 a jump in the frame number (either because the blend-file is currently on a different frame
-number or because you're skipping already-rendered frames).
+number or because you're skipping already rendered frames).
 
 
 See Also
