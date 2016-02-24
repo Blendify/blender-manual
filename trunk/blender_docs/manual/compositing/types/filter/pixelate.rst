@@ -7,10 +7,10 @@ Pixelate Node
    :align: right
    :width: 150px
 
-   Pixelate Node
+   Pixelate Node.
 
 Add this node in front of a :doc:`scale </compositing/types/distort/scale>`
-node to get a pixelated (non smoothed) image from the resultant up scaled image.
+node to get a pixelated (non-smoothed) image from the resultant upscaled image.
 
 
 Example

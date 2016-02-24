@@ -32,7 +32,7 @@ Adjust alpha and the mix factor to control how much the new texture overlays the
 
 Of course, when painting the new texture,
 it helps to have the UV maps for the original objects in the scene,
-so keep those UV texture outlines around even after all shooting is done.
+so keep those UV texture outlines around even, after all, shooting is done.
 
 Examples
 ========

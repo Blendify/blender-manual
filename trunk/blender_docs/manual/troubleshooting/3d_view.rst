@@ -49,18 +49,18 @@ OpenGL Occlusion Queries (User Preference)
    This option defaults *Automatic*, try setting this to *OpenGL Occlusion Queries*,
    since there is a significant performance difference under some configurations.
 Upgrade OpenGL Driver
-   In some cases slow selection is resolved by using updated drivers.
+   In some cases, slow selection is resolved by using updated drivers.
    *It's generally good to use recent drivers when using 3D software.*
 Select Centers (Workaround)
    In *Object Mode*, holding :kbd:`Ctrl` while selecting uses the object center point.
    While this can be useful on its own, its has the side-effect of not relying on OpenGL selection.
 Change Draw Modes (Workaround)
-   Using *Wireframe* or even *Bounding Box* draw modes can used to more quickly select different objects.
+   Using *Wireframe* or even *Bounding Box* draw modes can be used to more quickly select different objects.
 
 .. note::
 
-   Obviously the workarounds listed here aren't long term solutions,
-   but its handy to know if you're stuck using a system with poor OpenGL support.
+   Obviously, the workarounds listed here aren't long term solutions,
+   but it's handy to know if you're stuck using a system with poor OpenGL support.
 
    Ultimately, if none of these options work out it may be worth upgrading your hardware.
 
@@ -72,7 +72,7 @@ Lost in Space
 -------------
 
 When navigating your scene, you may accidentally navigate away from your scene
-and find yourself with a blank view-port
+and find yourself with a blank viewport
 
 TODO.
 
@@ -95,7 +95,7 @@ often this is noticeable in mesh *Edit Mode*,
 selecting vertices/edges/faces where random elements are selected.
 
 Internally Blender uses :term:`OpenGL` for selection,
-so the graphics card driver is relied on giving correct results.
+so the graphics card driver relies on giving correct results.
 
 Possible Solutions:
 
@@ -110,10 +110,10 @@ Disable Anti-Aliasing (:term:`FSAA, Multi-Sampling<FSAA>`)
    - Turning *Multi-Sampling* off in the :ref:`system preferences <prefs-system-multi_sampling>`.
 Change Anti-Aliasing Sample Settings
    Depending on your OpenGL configuration,
-   some specific sample settings may work, while others fail.
+   some specific sample settings may work while others fail.
 
    Unfortunately finding working configuration involves trial & error testing.
 Upgrade OpenGL Driver
    As with any OpenGL related issues, using recent drivers can resolve problems.
 
-   However it should be noted that this is a fairly common problem and remains unresolved with many drivers.
+   However, it should be noted that this is a fairly common problem and remains unresolved with many drivers.

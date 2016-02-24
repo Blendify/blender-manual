@@ -44,5 +44,5 @@ Example
 .. figure:: /images/Compositing-Input-Texture.jpg
 
 In the example above, we want to simulate some red plasma gas out there in space. So, we fog
-up an image taken from the Hubble telecscope of Orion and take the ever-so-useful Cloud
+up an image taken from the Hubble telescope of Orion and take the ever-so-useful Cloud
 texture and use it to mix in red with the image.

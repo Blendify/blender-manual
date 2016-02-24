@@ -37,7 +37,7 @@ Downloading the Repository
 ==========================
 
 
-Simply checkout the blender-manual repository using:
+Simply check out the blender-manual repository using:
 
    .. code-block:: sh
 
@@ -65,7 +65,7 @@ To install these dependencies, we can use the ``pip`` command:
 
 .. note::
 
-   Every now and then you may want to make sure your libs are up to date using:
+   Every now and then you may want to make sure your lib dependencies are up to date using:
 
    .. code-block:: sh
 

@@ -7,7 +7,7 @@ Compositing Nodes allow you to assemble and enhance an image (or movie). Using c
 you can glue two pieces of footage together and colorize the whole sequence all at once.
 You can enhance the colors of a single image or an entire movie clip in a static manner or in a
 dynamic way that changes over time (as the clip progresses). In this way,
-you use composition nodes to both assemble video clips together, and enhance them.
+you use composition nodes to both assemble video clips together and enhance them.
 
 
 .. note:: Term: Image
@@ -19,11 +19,11 @@ you use composition nodes to both assemble video clips together, and enhance the
 
 .. figure:: /images/editors_nodeeditor_introduction.png
 
-   Example of Composition.
+   An example of Composition.
 
 
 To process your image, you use nodes to import the image into Blender, change it,
-optionally merge it with other images, and finally save it.
+optionally merge it with other images, and finally, save it.
 
 The example to the right shows the simplest node setup;
 an input node links the camera view to an output node so it can be saved.
@@ -39,7 +39,7 @@ To activate nodes for compositing, click the *Use Nodes* checkbox (see `Options`
 
 .. note::
 
-   After clicking *Use Nodes* the Compositor is enabled however,
+   After clicking *Use Nodes* the Compositor is enabled, however,
    it can also be disabled in the :doc:`Post Processing Panel </render/post_process/panel>`.
 
 You now have your first node setup, from here you can add and connect many types of
@@ -85,7 +85,7 @@ Offset
    Change the screen space position of the backdrop,
    or click the *Move* button, or shortcut :kbd:`Alt-MMB` to manually move it.
 Fit
-   Automatically scales the back drop to fit the size of the node editor.
+   Automatically scales the backdrop to fit the size of the node editor.
 
 Performance 
 -----------
@@ -100,14 +100,14 @@ Render
 Edit
    Sets the quality when making edits.
 Chunk Size
-   Max size of a title (smaller values give better distribution of multiple threads, but more overhead).
+   Max size of a title (smaller values give a better distribution of multiple threads, but more overhead).
 OpenCL
    This allows the use of an OpenCL platform to aid in rendering.
-   Generally this should be enabled unless your hardware does not have good OpenCL support.
+   Generally, this should be enabled unless your hardware does not have good OpenCL support.
 Buffer Groups
-   Enables buffering of group nodes to increase speed at the cost of more memory.
+   Enables buffering of group nodes to increase the speed at the cost of more memory.
 Two Pass
-   Use two pass execution during editing: first calculate fast nodes, second pass calculate all nodes.
+   Use two pass execution during editing: first calculate fast nodes, the second pass calculate all nodes.
 Viewer Border
    This allows you to set a render border for the backdrop.
    To define the resolution of the border use :kbd:`CTRL-B`
@@ -132,4 +132,4 @@ You can change the mood of an image:
   The film 'Sin City' is the most extreme example of this I have ever seen.
 - A startling event may be sharpened and contrast-enhanced.
 - A happy feeling - you guessed it - add yellow (equal parts red and green, no blue) for bright and sunny.
-- Dust and airborne dirt is often added as a cloud texture over the image to give a little more realism.
+- Dust and airborne dirt are often added as a cloud texture over the image to give a little more realism.

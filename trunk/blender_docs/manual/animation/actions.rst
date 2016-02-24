@@ -3,7 +3,7 @@
 Actions
 *******
 
-When animating objects and properties in blender, Actions record and contain the data.
+When animating objects and properties in Blender, Actions record and contain the data.
 
 
 .. figure:: /images/K_Animation_Actions_Data3.jpg
@@ -115,7 +115,7 @@ Keying Sets
 
 Keying Sets are a set of keyframe channels.
 They are used to record multiple properties at the same time.
-There are some built in keying sets, 'LocRotScale', and also custom keying sets can be made.
+There are some built-in keying sets, 'LocRotScale', and also, custom keying sets can be made.
 
 To use the keying set, first select a keying set from the *Timeline* header,
 or the *Keying Sets Panel*.
@@ -134,10 +134,10 @@ Properties
    Keyframe properties.
 
 
-Keyframes can be used to animate lots of different properties in blender.
+Keyframes can be used to animate lots of different properties in Blender.
 To add keyframes to a property in the UI, :kbd:`RMB` the property,
 then select Insert Single Keyframe, or Insert Keyframes.
-Insert Keyframes :kbd:`I` will add a keyframes for the set of properties.
+Insert Keyframes :kbd:`I` will add keyframes for the set of properties.
 
 
 .. figure:: /images/Animation_Properties.jpg
@@ -154,7 +154,7 @@ Gray - Property is not animated with Keyframes or Drivers.
    Add Single Driver.
    Paste Driver.
 
-Purple - Property value is controlled with a Driver.
+Purple - Property value is controlled by a Driver.
    Delete Drivers.
    Delete Single Driver.
    Copy Driver.
@@ -208,4 +208,4 @@ press the **F** button for each action,
 this will give the actions a *Fake User* and will make blender save the unlinked actions.
 
 Objects can only use one *Action* at a time for editing,
-the :doc:`NLA Editor </editors/nla>` is used to blend mutiple actions together.
+the :doc:`NLA Editor </editors/nla>` is used to blend multiple actions together.

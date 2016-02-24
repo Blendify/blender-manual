@@ -12,7 +12,7 @@ They are used to keyframe multiple properties at the same time,
 usually by pressing :kbd:`I` in the 3D View.
 
 There are some built in Keying Sets,
-and also custom Keying Sets called *Absolute Keying Sets*.
+and also, custom Keying Sets called *Absolute Keying Sets*.
 
 To select and use a Keying Set, set the *Active Keying Set* in the
 :ref:`Timeline Header <animation-editors-timeline-autokeyframe>`,
@@ -34,7 +34,7 @@ Keying Set Name
    The active Keying Set is highlighted in blue, press :kbd:`Ctrl-LMB` to rename.
 
 `+`
-   Add new (Empty) keying set to the active Scene.
+   Add a new (Empty) keying set to the active Scene.
 
 `-`
    Remove the active Keying Set.
@@ -46,7 +46,7 @@ Keying Set Name
 
    Export to File
       Export Keying Set to a python script *File.py*.
-      To re add the keying set from the *File.py*, open then run the *File.py* from the Text Editor.
+      To re-add the keying set from the *File.py*, open then run the *File.py* from the Text Editor.
 
    Keyframing Settings
       These options control all properties in the Keying Set.
@@ -83,7 +83,7 @@ Paths
    The active *Path* is highlighted in blue.
 
 +
-   Add new empty path to active Keying Set.
+   Adds a new empty path to active Keying Set.
 
 -
    Remove active path from the active Keying Set.

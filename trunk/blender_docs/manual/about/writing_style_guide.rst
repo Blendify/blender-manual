@@ -1,4 +1,4 @@
-
+﻿
 *******************
 Writing Style Guide
 *******************
@@ -54,17 +54,17 @@ To be avoided:
 
   | *Blender has 23 different kinds of modifiers.*
   | *Enabling previews adds 65536 bytes to the size of each Blend file
-    (unless its compressed).*
+    (unless it's compressed).*
 
-  These details aren't useful for users to memorize and they become quickly out-dated.
+  These details aren't useful for users to memorize and they become quickly outdated.
 - Avoid documenting bugs.
 
-  Blender has often has 100's of bugs fixed between releases, so its not realistic to reference
+  Blender has often has 100's of bugs fixed between releases, so it's not realistic to reference
   even a fraction of them from the manual, while keeping this list up to date.
 
   Issues which are known to the developers and aren't going to be resolved before the next release
   can be documented as **Known Limitations**,
-  in some cases it may be best to include them the in the :doc:`troubleshooting </troubleshooting/index>` section.
+  in some cases, it may be best to include them the in the :doc:`troubleshooting </troubleshooting/index>` section.
 - Avoid *Product Placement* - unnecessarily promoting software or hardware brands.
   Keep content vendor-neutral where possible.
 - Avoid technical explanations about the mathematical/algorithmic implementation of a feature
@@ -81,14 +81,14 @@ To be avoided:
 
   *Such lists are only showing what is already obvious in the interface
   and end up being a lot of text to read & maintain.*
-- Avoid documenting changes in Blender between releases, thats what the release notes are for.
+- Avoid documenting changes in Blender between releases, that's what the release notes are for.
   We only need to document the current state of Blender.
 - Unless the unit a value is measured in is obscure and unpredictable, there is no need to mention it.
 - Do not simply copy the tool-tips from Blender.
 
   *People will come to the manual to learn more than is provided by the UI.*
 
-  As a last resort you can add comment (which is not shown in the html page, but useful for other editors): ::
+  As a last resort you can add comment (which is not shown in the HTML page, but useful for other editors): ::
 
      .. TODO, how does this tool work? ask Joe Blogg's
 
@@ -135,7 +135,7 @@ Would be written like this instead, putting a definition first:
 .. code-block:: rst
 
    Displacement Mapping
-      Method for distorting vertices based on an image.
+      A method for distorting vertices based on an image.
       Similar to Bump Mapping, but instead operates on the mesh's actual geometry.
       This relies on the mesh having enough geometry.
 

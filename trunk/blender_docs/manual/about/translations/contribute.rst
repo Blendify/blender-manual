@@ -5,12 +5,12 @@ Contribute
 
 .. note::
 
-   At time of writing we are setting up translations workflow,
+   At time of writing, we are setting up translations workflow,
    this page shows the initial steps for translators to get started.
 
 
 On this page French (``fr``) is used for examples,
-however it can be replaced with other
+however, it can be replaced with other
 `languages codes <http://www.gnu.org/software/gettext/manual/html_node/Usual-Language-Codes.html>`__.
 
 To see which languages are currently available, you can browse the repository:
@@ -20,8 +20,8 @@ http://developer.blender.org/diffusion/BMT/browse/trunk/blender_docs/locale
 Installing Dependencies
 =======================
 
-For translations we use Sphinx's internationalization package.
-However this is not included with Sphinx and needs to be installed.
+For translations, we use Sphinx's internationalization package.
+However, this is not included with Sphinx and needs to be installed.
 
 .. code-block:: sh
 
@@ -31,7 +31,7 @@ However this is not included with Sphinx and needs to be installed.
 Downloading the Repository
 ==========================
 
-First of all, its assumed that you have the manual already building.
+First of all, it's assumed that you have the manual already building.
 
 From the directory containing your checkout of the manual run the following command.
 
@@ -39,7 +39,7 @@ From the directory containing your checkout of the manual run the following comm
 
    Be sure to change the ``/fr`` suffixes to the language you're translating!
 
-   You can remove the suffix to checkout all languages too, however this will be a much larger download.
+   You can remove the suffix to check out all languages too, however, this will be a much larger download.
 
 .. code-block:: sh
 
@@ -67,7 +67,7 @@ Building with Translations
    http://www.blender.org/manual/fr/
 
    This is quite involved,
-   so its not be expected that translators should be doing their own builds locally.
+   so it's not be expected that translators should be doing their own builds locally.
 
 ----
 
@@ -154,7 +154,7 @@ Now execute:
 
    python3 tools/report_translation_progress.py locale/fr/LC_MESSAGES/
 
-You should get a list of all the files with informations about the number of empty and fuzzy strings.
+You should get a list of all the files with information about the number of empty and fuzzy strings.
 If you want only a summary, append ``-q`` to the command above. For more options see:
 
 .. code-block:: sh

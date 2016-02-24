@@ -31,9 +31,9 @@ Options
 Fac
    How much the node should factor in its settings and affect the output.
 Black Level
-   Defines the input color that is mapped to black. Default is black, which does not change the image.
+   Defines the input color that is mapped to black. The default is black, which does not change the image.
 White Level
-   Defines the input color that is mapped to white. Default is white, which does not change the image.
+   Defines the input color that is mapped to white. The default is white, which does not change the image.
 
 The levels work exactly like the ones in the image viewer.
 Input colors are scaled linearly to match black/white levels.
@@ -87,7 +87,7 @@ the White Level is set to the color of a bright spot of the sand in the backgrou
 and the Black Level to the color in the center of the fish's eye. To do this efficiently it's
 best to bring up an image viewer window showing the original input image. You can then use the
 levels' color picker to easily choose the appropriate colors from the input image,
-zooming in to pixel level if necessary. The result can be fine-tuned with the R,G,
+zooming into pixel level if necessary. The result can be fine-tuned with the R,G,
 and B curves like in the previous example.
 
 The curve for C is used to compensate for the increased contrast that is a side-effect of
@@ -113,5 +113,5 @@ but depending on the settings they can result in the described color substitutio
 (What really happens when setting Black Level to pure red and White Level to pure blue
 is that the red channel gets inverted, green gets reduced to zero and blue remains unchanged.)
 
-Because of this the results of setting arbitrary Black/White Levels or RGB curves is hard to
+Because of this, the results of setting arbitrary Black/White Levels or RGB curves is hard to
 predict, but can be fun to play with.

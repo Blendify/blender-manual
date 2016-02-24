@@ -95,7 +95,7 @@ Display Range
 
 Frame Numbers
    When enabled, a small number appears next to each frame dot on the path,
-   which is of course the number of the corresponding frame...
+   which is, of course, the number of the corresponding frame...
 Keyframes
    When enabled, big yellow square dots are drawn on motion paths,
    materializing the keyframes of their bones
@@ -110,7 +110,7 @@ Cache
       You cannot modify this range without deleting the motion path first.
    Calculate Paths/ Update Paths
       If no paths have been calculated, Calculate Paths will create a new motion path in cache.
-      In the pop up box, select the frame range to calculate.
+      In the pop-up box, select the frame range to calculate.
       If a path has already been calculated, Update Paths will update the path shape to the current animation.
       To change the frame range of the calculated path, you need to delete the path and calculate it again.
 

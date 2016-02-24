@@ -11,7 +11,7 @@ Alpha Over Node
 
 
 Use this node to layer images on top of one another. This node takes two images as input,
-combines them by a factor, and outputs the image.
+combines them with a factor, and outputs the image.
 Connect the Background image to the top input, and the foreground image to the lower input.
 Where the foreground image pixels have an alpha greater than 0 (namely, have some visibility),
 the background image will be overlaid.
@@ -30,9 +30,9 @@ Examples
    Assembling a composite Image using AlphaOver
 
 
-In this example, an image of a Toucan is superimposed over a wooden background. Use the
+In this example, an image of a Toucan is superimposed on a wooden background. Use the
 PreMultiply button when the foreground image and background images have a combined Alpha that
-is greater than 1.00; otherwise you will see an unwanted halo effect.
+is greater than 1.00; otherwise, you will see an unwanted halo effect.
 The resulting image is a composite of the two source images.
 
 
@@ -71,8 +71,8 @@ You then add the resultant images and get the final composite.
 
 A pre-multiplied alpha is when the image (RGB)
 pixels are already multiplied by the alpha channel,
-therefore the above compositing op doesn't work too well,
-and you have to hit 'convert pre-mult'. This is only an issue in semi transparent area,
+therefore, the above compositing op doesn't work too well,
+and you have to hit 'convert pre-mult'. This is only an issue in semi-transparent area,
 and edges usually. The issue normally occurs in Nodes when you have combined, with alpha,
 two images, and then wish to combine that image with yet another image.
 The previously combined image was previously multiplied (pre-mult)

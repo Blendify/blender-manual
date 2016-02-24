@@ -7,7 +7,7 @@ Rotate Node
    :align: right
    :width: 150px
 
-   Rotate Node
+   Rotate Node.
 
 
 This node rotates an image.

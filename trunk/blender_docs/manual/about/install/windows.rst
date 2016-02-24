@@ -26,14 +26,14 @@ Installing Python
 Installing SVN and Downloading the Repository
 =============================================
 
-In this guide we'll use TortoiseSVN, though any Subversion client will do.
+In this guide, we'll use TortoiseSVN though any Subversion client will do.
 
 #. Download TortoiseSVN for MS-Windows from `here <http://tortoisesvn.net/downloads.html>`__
 #. Install TortoiseSVN with the installation wizard. When choosing which features will be installed,
    it is recommended that you enable *command line client tools* to give you access to SVN from the command line
    (there is no harm in doing this, and it may be helpful if you ever run into any trouble).
 #. Once the installation has finished, create a new folder that will contain everything related to the Blender Manual.
-   In this guide we'll use ``C:\blender_docs``.
+   In this guide, we'll use ``C:\blender_docs``.
 #. Open the new folder, right click and choose *SVN Checkout...* from the context menu.
 #. In the *URL of repository* field, enter: ``https://svn.blender.org/svnroot/bf-manual/trunk/blender_docs``.
 #. In the *Checkout directory* field, enter: ``C:\blender_docs``.
@@ -49,7 +49,7 @@ Setting up the Build Environment
 
      cd C:\blender_docs
 
-- Install the all the requirements using Python's ``pip`` command
+- Install the all the dependencies using Python's ``pip`` command
   ::
 
      pip install -r requirements.txt
@@ -59,12 +59,12 @@ Setting up the Build Environment
 
      Successfully installed Jinja2 MarkupSafe Pygments Sphinx docutils sphinx-rtd-theme Cleaning up...
 
-During the setup some warnings may be shown, but don't worry about them.
+During the setup, some warnings may be shown, but don't worry about them.
 However if any errors occur, they may cause some problems.
 
 .. note::
 
-   Every now and then you may want to make sure your libs are up to date using:
+   Every now and then you may want to make sure your dependencies are up to date using:
    ::
 
       pip install -r requirements.txt  --upgrade
@@ -95,10 +95,10 @@ We are now ready to convert all those **rst** files into pretty **html**!
 
         pip install sphinx "babel<2.0"
 
-- Once the docs have been built, all the html files can be found inside ``C:\blender_docs\build\html``.
+- Once the docs have been built, all the HTML files can be found inside ``C:\blender_docs\build\html``.
   Try opening ``\build\html\contents.html`` in your web browser and read the manual.
 
 Now that you are able to build the manual,
 please visit the :doc:`writing </about/writing_style_guide>` and :doc:`markup </about/markup_style_guide>`
 style guides for standard conventions, or the :doc:`contribution </about/contribute>`
-page to see how you can help write this manual.
+page to see how you can help write this Manual.

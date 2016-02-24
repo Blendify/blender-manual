@@ -17,7 +17,7 @@ it moves an input image's pixels based on an input vector mask
 
 This can be useful for a lot of things, like hot air distortion, quick-and-dirty refraction,
 compositing live footage behind refracting objects like looking through bent glass or glass
-blocks, and more! Remember what HAL saw in 2001:Space Odyssey;
+blocks, and more! Remember what HAL saw in 2001: Space Odyssey;
 that distorted wide-angle lens? Yup,
 this node can take a flat image and apply a mask to produce that image.
 
@@ -31,7 +31,7 @@ The (red) channel 1's value determines displacement along the positive or negati
 
 If both the channels' values are equal (i.e. a greyscale image),
 the input image will be displaced equally in both X and Y directions,
-and also according to the X scale and Y scale buttons. These scale button act as multipliers
+and also according to the X scale and Y scale buttons. These scale buttons act as multipliers
 to increase or decrease the strength of the displacement along their respective axes.
 They need to be set to non-zero values for the node to have any effect.
 

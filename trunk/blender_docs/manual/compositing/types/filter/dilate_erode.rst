@@ -9,7 +9,7 @@ Dilate/Erode Node
    :align: right
    :width: 150px
 
-   Dilate/Erode Node
+   Dilate/Erode Node.
 
 
 This node blurs individual color channels. The color channel (or a black and white image)
@@ -18,7 +18,7 @@ and the *Distance* is set manually (by clicking on the arrows or the value)
 or automatically from a value node or a time-and-map-value noodle. A positive value of
 *Distance* expands the influence of a pixel on its surrounding pixels,
 thus blurring that color outward. A negative value erodes its influence,
-thus increases the constrast of that pixel relative to its surrounding pixels,
+thus increases the contrast of that pixel relative to its surrounding pixels,
 thus sharpening it relative to surrounding pixels of the same color.
 
 

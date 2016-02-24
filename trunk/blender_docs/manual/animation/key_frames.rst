@@ -3,7 +3,7 @@
 Key Frames
 **********
 
-A *Key Frame* is simply a marker in time which stores the value of a property.
+A *Key Frame* is simply a marker of time which stores the value of a property.
 
 For example, a key frame might indicate that the horizontal position of a cube is at ``3m`` on frame 1.
 
@@ -18,7 +18,7 @@ Adding Key Frames
 
 There are several methods of adding new keys. Namely:
 
-- In the 3D View, pressing :kbd:`I` will bring up a menu to choose what to add a key frame to.
+- In the 3D View, pressing :kbd:`I` will bring up a menu to choose what to add a keyframe to.
 - Hovering over a property and pressing :kbd:`I`.
 - :kbd:`RMB` a value and choose *Insert Keyframe* from the menu.
 
@@ -26,7 +26,7 @@ There are several methods of adding new keys. Namely:
 Removing Key Frames
 ===================
 
-There are several methods of removing key frames
+There are several methods of removing keyframes
 
 - In the 3D View press :kbd:`Alt-I` to remove keys on the current frame for selected objects.
 - When the mouse is over a value press :kbd:`Alt-I`.

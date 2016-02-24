@@ -7,7 +7,7 @@ Lens Distortion Node
    :align: right
    :width: 150px
 
-   Lens Distortion Node
+   Lens Distortion Node.
 
 Use this node to simulate distortions that real camera lenses produce.
 

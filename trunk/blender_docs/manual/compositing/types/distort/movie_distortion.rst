@@ -7,6 +7,6 @@ Movie Distortion Node
    :align: right
    :width: 150px
 
-   Movie Distortion Node
+   Movie Distortion Node.
 
 TODO - see: https://developer.blender.org/T43469

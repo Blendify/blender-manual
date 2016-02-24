@@ -5,7 +5,7 @@ Introduction
 
 Python is an interpreted, interactive,
 object-oriented programming language. It incorporates modules, exceptions, dynamic typing,
-very high level dynamic data types, and classes.
+very high-level dynamic data types, and classes.
 Python combines remarkable power with very clear syntax.
 
 Python scripts are a powerful and versatile way to extend Blender functionality.
@@ -62,12 +62,12 @@ Here are external links containing a lot of good information to start learning h
 - `Ira Krakow's video tutorials <http://www.youtube.com/watch?v=vmhU_whC6zw>`__
   - First video in a series of video tutorials.
 - `Quickstart guide <http://en.wikibooks.org/wiki/Blender_3D:_Blending_Into_Python/2.5_quickstart>`__
-  - A quickstart guide for people who already have some familiarity with Python and Blender.
+  - A quick start guide for people who already have some familiarity with Python and Blender.
 - `Examples thread <http://blenderartists.org/forum/showthread.php?t=164765>`__
   - A forum thread containing many short working script examples.
 - `Introduction to Python
   <http://cgcookie.com/blender/2011/08/26/introduction-to-scripting-with-python-in-blender/>`__
-  - A one hour video tutorial introducing Python and the Blender API.
+  - A one-hour video tutorial introducing Python and the Blender API.
 
 
 Extending Blender
@@ -95,7 +95,7 @@ For an overview of all add-ons is available in, see
 Scripts
 -------
 
-Apart from add-ons there are also scripts you can use to extend Blenders functionality:
+Apart from add-ons, there are also scripts you can use to extend Blenders functionality:
 
 - Modules: Utility libraries for import into other scripts.
 - Presets: Settings for Blender's tools and key configurations.

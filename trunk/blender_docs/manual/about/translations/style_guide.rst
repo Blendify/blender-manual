@@ -18,7 +18,7 @@ Maybe
 -----
 
 Hyperlinks
-   Can be translated, but only as a addition, not as a replacement.
+   Can be translated, but only as an addition, not as a replacement.
    See also `Adding Text`_
 
 Technical Terms
@@ -35,7 +35,7 @@ Never
 
 Images
    You probably won't find the original scene if it is a screenshot of a file
-   and it's too much load for the server (and too much work for you).
+   and it's too much load on the server (and too much work for you).
 
 Menu and button names
    We expect our readers to use the English UI.
@@ -63,7 +63,7 @@ If a term is definitively not translatable, simply use the English one,
 but make sure it's manual entry is translated. 
 
 In the manual, the English term is written first (to maintain alphabetic order)
-with the translated entry following in parenthesis, when appropiate.
+with the translated entry following in parenthesis, when appropriate.
 
 Adding Text
 ===========
@@ -72,7 +72,7 @@ Generally, **you should always translate exactly what is in the text**,
 and avoid providing updates or extra information.
 
 But sometimes that is necessary, for example when talking about the manual
-itself: To an foreign reader it isn't clear, that he or she can contribute English text only,
+itself: To a foreign reader it isn't clear, that he or she can contribute English text only,
 whereas this is obvious to an English reader.
 
 In these (rare) cases you can and should provide extra information.
@@ -86,4 +86,5 @@ To keep track with that, you can use a tool we created for that task,
 see :ref:`how to install it <translations-fuzzy-strings>`.
 
 .. seealso:: http://wiki.blender.org/index.php/Meta:Guides/Translation_Guide
+
 

@@ -56,7 +56,7 @@ for conventions and :doc:`Markup Style Guide </about/markup_style_guide>`
 to learn how to write in the reStructuredText markup language.
 
 If you are going to add or overhaul a section, be sure to check carefully that it doesn't already exist.
-In some places the docs are so disorganized that sections may be duplicated or in a strange location.
+In some places, the docs are so disorganized that sections may be duplicated or in a strange location.
 In the case that you find a duplicate or out of place section,
 `create a task <https://developer.blender.org/maniphest/task/create/?project=53>`__
 explaining the issue, and optionally include a revision (actual changes).
@@ -90,7 +90,7 @@ In order to submit a patch, follow this process:
    This creates a simple text file that shows what text was added,
    removed or changed between your working files and the central repository.
 
-   If you have created or deleted files, you will need run ``svn add /path/to/file``
+   If you have created or deleted files, you will need to run ``svn add /path/to/file``
    or ``svn rm /path/to/file`` before creating the diff. To see a list of affected files, run ``svn status``.
 #. `Upload the diff file here <https://developer.blender.org/differential/diff/create/>`__.
    If you don't have an account already, you can `register for one <https://developer.blender.org/auth/register/>`__.
@@ -100,7 +100,7 @@ In order to submit a patch, follow this process:
    (see *Documentation Team* `here <https://developer.blender.org/project/profile/53>`__) of that chapter is,
    assign them as the *Reviewer* and they'll be notified of your patch.
    If you can't find out who that is (or there is no one),
-   instead mail the `bf-docboard <http://lists.blender.org/mailman/listinfo/bf-docboard>`__ mailing list,
+   instead, mail the `bf-docboard <http://lists.blender.org/mailman/listinfo/bf-docboard>`__ mailing list,
    or tell someone in ``#blenderwiki`` on :ref:`IRC <irc-channels>`.
 #. They will review your patch and let you know about any changes you could make,
    or commit the patch if it is accepted.

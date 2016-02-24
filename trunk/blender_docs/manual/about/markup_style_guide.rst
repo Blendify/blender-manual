@@ -10,8 +10,8 @@ Markup Style Guide
    - when definition lists / bullet-points are used.
    - word-ordering in filenames.
    - how text is wrapped.
-   - number of spaces between lines.
-   - when it is/isnt okay to add in unicode characters.
+   - the number of spaces between lines.
+   - when it is/isn't okay to add in Unicode characters.
    - should comments on a page be above or below titles :)
    ::
    Having a lot of detailed text on this page is off-putting to new contributors,
@@ -19,7 +19,7 @@ Markup Style Guide
    many conventions can be noticed along the way by reading existing text.
 
 
-This pages covers the conventions for writing and use of the reStructuredText (RST) markup syntax.
+This page covers the conventions for writing and use of the reStructuredText (RST) markup syntax.
 
 
 Conventions
@@ -31,7 +31,7 @@ Conventions
 
 Other loose conventions:
 
-- Avoid unicode characters.
+- Avoid Unicode characters.
 - Avoid heavily wrapped text
   *(sentences can have their own lines for eg.)*.
 
@@ -122,12 +122,12 @@ Files
 -----
 
 No Caps, No Gaps
-   Lower case filenames, underscore between words.
+   Lower case filenames underscore between words.
 Sort Usefully
    Order naming with specific identifiers at the end.
 Format
    Use ``.png`` for images that have solid colors such as screenshots of the Blender interface,
-   and ``.jpg`` for images with a lot of color variance, such as sample renders and photographs.
+   and ``.jpg`` for images with a lot of color variances, such as sample renders and photographs.
 
    Do not use animated ``.gif`` files, these are hard to maintain, can be distracting
    and are usually large in file size. If a video is needed, use YouTube or Vimeo (see `Videos`_ below).
@@ -156,11 +156,11 @@ Usage Guides
   .. note::
 
      It's important that the manual can be maintained long term,
-     UI and tool-options change so try to avoid having a lot of images (when they aren't especially necessary).
-     Otherwise this becomes too much of a maintenance burden.
+     UI and tool options change so try to avoid having a lot of images (when they aren't especially necessary).
+     Otherwise, this becomes too much of a maintenance burden.
 
 .. Editors Note:
-   In some case it is better to specify the image location e.g. tall and narrow images such as nodes.
+   In some cases, it is better to specify the image location e.g. tall and narrow images such as nodes.
 
 Videos
 ======
@@ -269,7 +269,7 @@ should have an index.rst (containing the TOC for that section) and an ``introduc
 Table of Contents
 -----------------
 
-By default a table of contents should show two levels of depth.
+By default, a table of contents should show two levels of depth.
 
 .. code-block:: rst
 

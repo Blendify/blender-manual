@@ -33,7 +33,7 @@ Sat:
    A saturation of 1.0 blends in the hue, and 2.0 doubles the amount of pigment and brings out the colors.
 Val:
    **Value** affects the overall amount of the color in the image.
-   Increasing values make an image lighter; decreaing values shift an image darker.
+   Increasing values make an image lighter; decreasing values shift an image darker.
 Fac:
    **Factor** determines how much this node affects the image.
    A factor of 0 means that the input image is not affected by the Hue and Saturation settings.
@@ -53,7 +53,7 @@ Hue and Saturation work together.
    but the saturation slider can deepen or lighten the intensity of that color.
 Gray & White are neutral hues.
    A gray image, where the RGB values are equal, has no hue. Therefore,
-   this node can only affect it with the *Val* slider. This applies for all shades of gray,
+   this node can only affect it with the *Val* slider. This applies to all shades of gray,
    from black to white; wherever the values are equal.
 Changing the effect over time.
    The Hue and Saturation values are set in the node by the slider,
@@ -71,7 +71,7 @@ HSV Example
 
 .. figure:: /images/Node-HSV_example.jpg
 
-Here, the image taken by a cheap digital camera in poor lighting at night using a flash
+Here, the image was taken by a cheap digital camera in poor lighting at night using a flash
 (can we do it any worse, eh?) is adjusted by decreasing the Hue
 (decreasing reds and revealing more blues and greens), decreasing Saturation
 (common in digital cameras, and evens out contrast) and increasing Value

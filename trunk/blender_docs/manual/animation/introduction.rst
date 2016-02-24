@@ -13,7 +13,7 @@ Deforming them
 Inherited animation
    Causing the object to move based on the movement of another object (e.g. its parent, hook, armature, etc...).
 
-In this chapter we will cover the first two,
+In this chapter, we will cover the first two,
 but the basics given here are actually vital for understanding the following chapters as well.
 
 Animation is typically achieved with the use of :doc:`/animation/key_frames`.
@@ -130,6 +130,6 @@ Categories
    and currently supports basic operations for 2D motion tracking, 3D motion tracking, and camera solution.
 `Animation Scripts <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts#Animation_Scripts>`__
    Add-on scripts for animation.
-`Rigging Scipts <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts#Rigging_Scripts>`__
+`Rigging Scripts <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts#Rigging_Scripts>`__
    Add-on scripts for rigging.
 

@@ -20,7 +20,7 @@ Control this node using:
 
 - The *High* value selector determines the lowest values that are considered foreground.
   (which is supposed to be - relatively - light: from this value to 1.0).
-- The *Low* value selector determines the hightes values that are considered to be background objects.
+- The *Low* value selector determines the highest values that are considered to be background objects.
   (which is supposed to be - relatively - dark: from 0.0 to this value).
 
 It is possible to have a separation between the two values to allow for a gradient of

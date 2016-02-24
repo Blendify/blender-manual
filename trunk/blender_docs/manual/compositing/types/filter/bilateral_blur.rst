@@ -9,9 +9,9 @@ Bilateral Blur Node
    :align: right
    :width: 150px
 
-   Bilateral Blur Node
+   Bilateral Blur Node.
 
-The Bilateral Blur node performs a high quality adaptive blur on the source image.
+The Bilateral Blur node performs a high-quality adaptive blur on the source image.
 It can be used for various purposes like:
 smoothing results from blenders raytraced ambient occlusion
 smoothing results from various unbiased renderers,
@@ -32,7 +32,7 @@ the node blurs the image depending on the edges present in the source image.
 If the Determinator is connected,
 it serves as the source for defining edges/borders for the blur in the image.
 This has great advantage in case the source image is too noisy,
-but normals in combination with zbuffer can still define exact borders/edges of objects.
+but normals in combination with Z-buffer can still define exact borders/edges of objects.
 
 
 Options

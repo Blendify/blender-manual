@@ -33,16 +33,16 @@ and we are actively searching for contributors and documentation module owners.
 Communication
 =============
 
-Communication is a very important step of community development.
+Communication is a very important step in community development.
 Before you make any edits that are not simple and plainly justified (for example, moving folders around),
 you should verify with a manual maintainer that your contribution is along the community's vision for the manual.
-This ensures best use of your time and good will as it is otherwise possible that, for some reason,
+This ensures the best use of your time and good will as it is otherwise possible that, for some reason,
 your changes will conflict and be rejected or need time-consuming review.
 For example, another person may be already working on the section you wish to change,
 the section may be scheduled for deletion or to be updated according to a planned change to Blender.
 
 Manual maintainers and the general community can also point to areas that are in need of big or small changes.
-Communicating early and frequently is key to have a productive environment,
+Communicating early and frequently is the key to have a productive environment,
 to not waste people's effort and to attain a better Blender manual as a result.
 
 Most communication happens on mailing lists, IRC chat and the bug and patch trackers.
@@ -68,5 +68,5 @@ Blender's Manual is free and published under
 This means that anyone is free to download, edit and share the manual.
 It also means that when contributing to the manual you don't hold exclusive copyright to your text.
 You are, of course, acknowledged and appreciated for your contribution.
-However others can change and improve your text in order to keep the manual consistent and up to date.
+However, others can change and improve your text in order to keep the manual consistent and up to date.
 

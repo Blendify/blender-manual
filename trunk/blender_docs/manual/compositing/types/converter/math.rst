@@ -43,7 +43,7 @@ the node selects those Z values where the corresponding pixel is closer to the c
 so it chooses the Z values for the plane and part of the cube.
 The background has an infinite Z value, so it is clamped to 1.0 (shown as white).
 In the maximum example, the Z values of the cube are greater than the plane,
-so they are chosen for the left side, but the plane (FlyCam) Renderlayer's Z are infinite
+so they are chosen for the left side, but the plane (FlyCam) Render layers Z are infinite
 (mapped to 1.0) for the right side, so they are chosen.
 
 
@@ -59,7 +59,7 @@ since we all know that Sine(2*pi/4)=Sine(pi/2)=+1.0.
 
 Since the Sine function can put out values between -1.0 and 1.0,
 the Map Value node scales that to 0.0 to 1.0 by taking the input (-1 to 1), adding 1
-(making 0 to 2), and multiplying the result by one half
+(making 0 to 2), and multiplying the result by one-half
 (thus scaling the output between 0 and 1).
 The default ColorRamp converts those values to a grayscale. Thus,
 medium gray corresponds to a 0.0 output by the sine, black to -1.0, and white to 1.0.
@@ -68,7 +68,7 @@ noodle provides a smooth cyclic sequence through the range of grays.
 
 Use this function to vary, for example,
 the alpha channel of an image to produce a fading in/out effect.
-Alter the Z channel to move an scene in/out of focus.
+Alter the Z channel to move a scene in/out of focus.
 Alter a color channel value to make a color "pulse".
 
 
@@ -80,7 +80,7 @@ Brightening/Scaling a Channel
 This example has a Multiply node increasing the luminance channel (Y)
 of the image to make it brighter. Note that you should use a Map Value node with Min() and Max
 () enabled to clamp the output to valid values.
-With this approach you could use a logarithmic function to make a high-dynamic range image.
+With this approach, you could use a logarithmic function to make a high-dynamic range image.
 For this particular example,
 there is also a Brighten/Contrast node that might give simpler control over brightness.
 
@@ -103,7 +103,7 @@ The difference in appearance between {4,4,16} and {6,6,7} is that the first set 
 16} would have fewer shades of red and green, but lots of shades of blue. The set {6,6,
 7} would have a more even distribution of colors.
 To get better image quality with fewer color values,
-give more possible values to the predominant colors in the image.
+give possible values to the predominant colors in the image.
 
 
 Theory
@@ -112,7 +112,7 @@ Theory
 `Two Approaches to Quantizing to 6 values
 <http://wiki.blender.org/index.php/File:Manual-Compositing-Node-Math_ColorBand>`__
 
-To accomplish this quantization of an image to 256 possible values, lets use the set {6,6,7}.
+To accomplish this quantization of an image to 256 possible values, let's use the set {6,6,7}.
 To split up a continuous range of values between 0 and 1 (the full Red spectrum)
 into 6 values, we need to construct an algorithm or function that takes any input value but
 only puts out 6 possible values, as illustrated by the image to the right.
@@ -123,13 +123,13 @@ which tells us how far apart each quantified value is from the other.
 So, to get good even shading,
 we want to take values that are 0.16 or less and map them to 0.0;
 values between 0.16 and 0.33 get fixed to 0.2;
-colorband values between 0.33 and 0.5 get quantized to 0.4,
+color band values between 0.33 and 0.5 get quantized to 0.4,
 and so on up to values between 0.83 and 1.0 get mapped to 1.0.
 
 .. note:: Function f(x)
 
    An algebraic function is made up of primitive mathematical operations
-   (add, subtract, multiply, sine, cosine, etc) that operate on an input value to provide a desired output value.
+   (add, subtract, multiply, sine, cosine, etc) that operate on an input value to provide the desired output value.
 
 
 `Spreadsheet showing a function <http://wiki.blender.org/index.php/File:Manual-Compositing-Node-Math_spreadsheet>`__
@@ -141,7 +141,7 @@ such as .552, but only outputs a value of 0.0, 0.2, 0.4, etc. We can imagine the
 to get that range 0 to 1 powered up to something 0 to 6 so that we can chop off and make it a
 whole number. So, with six divisions,
 how can we do that? The answer is we multiply the range by 6.
-The output of that first math multiply node is a range of values between 0 and 6.
+The output of that first math Multiply Node is a range of values between 0 and 6.
 To get even divisions, because we are using the rounding function (see documentation above),
 we want any number plus or minus around a whole number will get rounded to that number. So,
 we subtract a half, which shifts everything over. The Round()
@@ -189,7 +189,7 @@ and then dividing by five results in six values {0.0,0.2,0.4,0.6,0.8,1.0}.
 The result is that the output value can only be one of a certain set of values,
 stair-stepped because of the rounding function of the math node noodle.
 Copying this one channel to operate on Green and Blue gives the noodle below.
-To get the 6:6:7, we set the three multiply nodes to {6,6,7} and the divide nodes to {5,5,6}.
+To get the 6:6:7, we set the three Multiply Nodes to {6,6,7} and the divide nodes to {5,5,6}.
 
 If you make this into a node group, you can easily re-use this setup from project to project.
 When you do, consider using a math node to drive the different values that you would have to
@@ -200,7 +200,7 @@ Summary
 -------
 
 Normally, an output render consists of 32- or 24-bit color depth,
-and each pixel can be one of millions of possible colors.
+and each pixel can be one of the millions of possible colors.
 This noodle example takes each of the Red,
 Green and Blue channels and normalizes them to one of a few values.
 When all three channels are combined back together,
@@ -213,8 +213,8 @@ so you will have to first add on a half to bring the range between 0 and 1,
 and then after dividing, subtract a half to bring in back into standard range.
 
 The JPG or PNG image format will store each of the colors according to their image standard
-for color depth (e.g. JPG is 24-bit), but the image will be very very small, since reducing
-color depth and quantizing colors is essentially what the JPEG compression algorithm
+for color depth (e.g. JPG is 24-bit), but the image will be very very small since reducing
+color depth and quantizing colors are essentially what the JPEG compression algorithm
 accomplishes.
 
 You do not have to reduce the color depth of each channel evenly. For example,

@@ -10,20 +10,20 @@ Time Node
    Time Node
 
 The Time node generates a *fac* tor value (from 0.00 to 1.00)
-(that changes according to the curve drawn) as time progresses through your movie (frames).
+(that changes according to the curve was drawn) as time progresses through your movie (frames).
 
 The *Start* and *End* NumButtons specify the range of time the values
 should be output along, and this range becomes the X-axis of the graph.
 The curve defines the Y-value and hence the factor that is output.
 In the example to the right,
-since the timespan is 250 frames and the line is straight from corner to corner,
+since the time span is 250 frames and the line is straight from corner to corner,
 0.50 would be output at frame 125, and 0.75 will be output at frame 187.
 
 .. note:: Note on output values
 
    The :doc:`Map Value </compositing/types/vector/map_value>`
    node can be used to map the output to a more appropriate value.
-   With some time curves, it is possible that the Time node may output a number larger than one or less than zero.
+   With sometimes curves, it is possible that the Time node may output a number larger than one or less than zero.
    To be safe, use the Min/Max clamping function of the Map Value node to limit output.
 
 
@@ -70,8 +70,8 @@ or :doc:`fade-in </compositing/types/converter/set_alpha>` a background or foreg
 instead of just jumping things into or out of the scene.
 
 
-You can even imagine hooking up one blur to a background renderlayer,
-another inverted blur to a foreground renderlayer, and time-feeding both.
+You can even imagine hooking up one blur to a background render layer,
+another inverted blur to a foreground render layer, and time feeding both.
 This node group would simulate someone focusing the camera lens.
 
 

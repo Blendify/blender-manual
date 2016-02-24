@@ -10,7 +10,7 @@ correction formulas.
 
    Bright/Contrast Node
 
-The *Lift, Gammma, Gain* formula uses *Lift*, *Gamma*, and
+The *Lift, Gamma, Gain* formula uses *Lift*, *Gamma*, and
 *Gain* calculations to adjust an image. *Lift* increases the value of dark
 colors, *Gamma* will adjust midtones, and *Gain* adjusts highlights.
 
@@ -26,7 +26,7 @@ where:
 ``s``
    Slope (any number 0 or greater, nominal value is 1.0).
 ``o``
-   Offset (any number, nominal value is 0).
+   Offset (any number, the nominal value is 0).
 ``p``
    Power (any number greater than 0, nominal value is 1.0).
 

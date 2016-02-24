@@ -15,7 +15,7 @@ and outputting a color value and an alpha value from the output sockets.
 
 By default,
 the ColorRamp is added to the node map with two colors at opposite ends of the spectrum.
-A completely black black is on the left
+A completely black is on the left
 (Black as shown in the swatch with an Alpha value of 1.00)
 and a whitewash white is on the right.
 
