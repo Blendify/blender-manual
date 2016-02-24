@@ -3,6 +3,9 @@
 Introduction
 ************
 
+.. TODO. Split this page,
+   it currently contains more information then just introductory material.
+
 Vertex Groups can potentially have a very large number of associated vertices and thus a large
 number of weights (one weight per assigned vertex). *Weight Painting* is a method to
 maintain large amounts of weight information in a very intuitive way.
@@ -176,6 +179,16 @@ Multi-Paint
    have any weight assigned to the relevant Vertex Groups. For this reason it also doesn't allow reducing
    the weight all the way to zero. When used with X-Mirror, it only guarantees completely symmetrical
    result if weights are initially symmetrical.
+
+   .. tip::
+   
+      While Multi-Paint can't directly paint on zero-weight vertices,
+      it is possible to use the *Smooth Weight* tool to copy a reasonable non-zero weight
+      distribution from adjacent vertices without leaving Multi-Paint mode or changing bone selection.
+
+      To do that, enable vertex selection, select target vertices,
+      and apply one iteration of the tool using vertex groups from *Selected Pose Bones* with low Factor.
+      After that simply paint on top to set the desired collective weight.
 
 
 The Brush stroke definition
