@@ -11,7 +11,7 @@ File Output Node
 This node writes out an image, for each frame range specified,
 to the filename entered, as part of a frameset sequence.
 
-Unlike the render output filepath, this node uses a base-directory and an image name,
+Unlike the render output filepath, this node uses a base directory and an image name,
 by default the output path is composed of:
 ``{base path}/{file name}{frame number}.{extension}``.
 

@@ -26,7 +26,7 @@ Min/Max
 
 This is particularly useful in achieving a depth-of-field effect,
 where you can use the Map Value node to map a Z value
-(which can be 20 or 30 or even 500 depending on the scene) to to range between 0-1,
+(which can be 20 or 30 or even 500 depending on the scene) to range between 0-1,
 suitable for connecting to a Blur node.
 
 

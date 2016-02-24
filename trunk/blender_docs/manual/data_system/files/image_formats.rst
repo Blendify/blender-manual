@@ -84,7 +84,7 @@ This is the list of image file formats supported internally by Blender:
 .. hint::
 
    If you aren't interested in technical details,
-   a good rule of thumb for selecting an output formats for your project is:
+   a good rule of thumb for selecting output formats for your project is:
 
    Use OpenEXR
       if you intend to do compositing or color-grading on these images.
@@ -105,7 +105,7 @@ Channel Depth
 -------------
 
 Image file formats support a varying number of bits per pixel.
-This effects the color quality and file-size.
+This affects the color quality and file-size.
 
 Commonly used depths:
 
@@ -116,7 +116,7 @@ Commonly used depths:
    (such as DPX and JPEG 2000).
 16 bit half float
    Since full 32bit float is often more than enough precision,
-   half float can save on disk-space while providing high dynamic range.
+   half float can save on disk space while providing a high dynamic range.
 32 bit float
    Highest quality color depth.
 
@@ -125,7 +125,7 @@ Internally Blender's image system supports either:
 - 8 bit per channel (4 x 8 bits).
 - 32 bit float per channel (4 x 32 bits) - *using 4x as much memory.*
 
-  Images higher than 8 bits per channel will be converted into float on loading into Blender.
+  Images higher than 8 bits per channel will be converted into a float on loading into Blender.
 
    .. note::
 
@@ -141,7 +141,7 @@ Metadata
 Blender can save details such as render-time, marker, camera... etc, into the file.
 See: :doc:`Render Metadata </render/post_process/metadata>`.
 
-Only some files support this however.
+Only some files support this, however.
 
 
 Format Details
@@ -156,7 +156,7 @@ DPX supports 16 bits color/channel, linear as well as logarithmic.
 DPX is currently a widely adopted standard used in the film hardware/software industry.
 
 DPX as well as Cineon only stores and converts the "visible" color range of values between 0.0
-and 1.0 (as result of rendering or composite).
+and 1.0 (as a result of rendering or composite).
 
 OpenEXR
 -------
@@ -178,7 +178,7 @@ Half
 
 Zbuf
    Save the depth information.
-   In Blender this now is written in floats too,
+   In Blender, this now is written in floats too,
    denoting the exact distance from the camera in "Blender unit" values.
 
 Preview
@@ -191,9 +191,9 @@ Compression
    ``PIZ``
       lossless wavelet compression. Compresses images with grain well.
    ``ZIP``
-      standard lossless compression using zlib.
+      standard lossless compression using Zlib.
    ``RLE``
-      runlength encoded, lossless, works well when scanlines have same values.
+      Runlength encoded, lossless, works well when scanlines have same values.
    ``PXR24``
       lossy algorithm from Pixar, converting 32 bits floats to 24 bits floats.
 
