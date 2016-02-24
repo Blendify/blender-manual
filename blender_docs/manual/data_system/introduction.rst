@@ -44,7 +44,7 @@ Unpack Data
 When you have received a packed file,
 you can :menuselection:`File --> External Data --> Unpack into Files...`.
 You will be presented with the option to create the original directory structure or put
-the file in the ``//`` (directory where the blend-file is). Use "original locations"
+the file in the ``//`` (the directory where the blend-file is). Use "original locations"
 if you will be modifying the textures and re-packing and exchanging blend-files,
 so that when you send it back and the originator unpacks,
 his copies of the textures will be updated.

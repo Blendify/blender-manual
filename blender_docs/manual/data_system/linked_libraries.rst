@@ -10,7 +10,7 @@ You can build libraries of common content and share them across multiple referen
 *Link* creates a reference to the data in the source file such that
 changes made there will be reflected in the referencing file the next time it is reloaded.
 
-Where as *Append* makes a full copy of the data into your blend.
+Whereas *Append* makes a full copy of the data into your blend.
 You can make further edits to your local copy of the data,
 but changes in the external source file will not be reflected in the referencing file.
 
@@ -53,11 +53,11 @@ Look in the Outliner, with display mode set to *Blender File*, to see all your l
    If you want to modify the object locally you can either:
 
    Use :doc:`Dupli-Groups </editors/3dview/transform/duplication/dupligroup>`
-      Instead of linking in *Objects* directly,
-      its often more useful to link in *Groups*, which can be assigned to empties and moved,
+      Instead of linking to *Objects* directly,
+      it's often more useful to link in *Groups*, which can be assigned to empties and moved,
       while maintaining the link to the original file.
 
-      Its also useful to be able to add/remove objects from the group
+      It's also useful to be able to add/remove objects from the group
       without having to manage linking in multiple objects.
    Make Objects Local
       Use :menuselection:`Object --> Make Local --> Selected Objects` to make the position editable.
@@ -67,7 +67,7 @@ Look in the Outliner, with display mode set to *Blender File*, to see all your l
 
 .. note::
 
-   Appending data you already have linked, will add objects / groups to the scene,
+   Appending data you already have linked will add objects / groups to the scene,
    but will keep them linked (and un-editable).
 
    This is done so existing relationships with linked data remain intact.
@@ -83,7 +83,7 @@ while the remainder of the object and its skeleton are edited locally.
 
 :kbd:`Ctrl-Alt-P` makes the active linked object into a local proxy, appending `_proxy` to its name.
 
-Set the *Protected Layers* in the source file using using the Skeleton panel of the Armatures tab.
+Set the *Protected Layers* in the source file using the Skeleton panel of the Armatures tab.
 See :ref:`Armature Layers <armature-layers>`.
 The bones in protected layers will have their position restored from the source file
 when the referencing file is reloaded.
@@ -92,12 +92,12 @@ when the referencing file is reloaded.
 Known Limitations
 =================
 
-For the most part linking data will work as expected, however there are some corner-cases which aren't supported.
+For the most part linking data will work as expected, however, there are some corner-cases which aren't supported.
 
 Circular Dependencies
 ---------------------
 
-In general dependencies shouldn't go in both directions.
+In general, dependencies shouldn't go in both directions.
 
 Attempting to link or append data which links back to the current file will likely result in missing links.
 
@@ -108,4 +108,4 @@ When linking objects **directly** into a blend-file,
 the *Rigid Body* settings won't be linked in
 since they're associated with their scenes world.
 
-As an alternative you could link in the entire scene and set it as a :ref:`scene-background_set`.
+As an alternative, you could link in the entire scene and set it as a :ref:`scene-background_set`.

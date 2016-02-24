@@ -25,9 +25,9 @@ different operating systems.
 Most codecs can only compress the RGB or YUV color space,
 but some support the Alpha channel as well. Codecs that support RGBA include:
 
-- animation (quicktime)
+- animation (Quicktime)
 - PNG TIFF Pixlet - not loss-less, and may be only available on Mac-OSX.
-- `Lagarith Loss-less Video Codec <http://lags.leetcode.net/codec.html>`__
+- `Lagarith Lossless Video Codec <http://lags.leetcode.net/codec.html>`__
 
 AVI Codec
    AVI codec compression. Available codecs are operating-system dependent.
@@ -71,8 +71,8 @@ This has settings for encoding these file types, and other formats using FFmpeg.
 `FFmpeg <http://ffmpeg.org>`__, short for Fast Forward Moving Pictures Expert Group,
 is a collection of free and open source software libraries that can record,
 convert and stream digital audio and video in numerous formats.
-It includes libavcodec, an audio/video codec library used by several other projects,
-and libavformat, an audio/video container mux and demux library.
+It includes libav-codec, an audio/video codec library used by several other projects,
+and libav-format, an audio/video container mux and demux library.
 
 
 Video Settings
@@ -151,7 +151,7 @@ None
 `MPEG-4(DivX) <http://en.wikipedia.org/wiki/MPEG-4>`__
    See `Video Formats`_.
 `HuffYUV <http://en.wikipedia.org/wiki/HuffYUV>`__
-   Loss-less video codec created by Ben Rudiak-Gould which is
+   Lossless video codec created by Ben Rudiak-Gould which is
    meant to replace uncompressed YCbCr as a video capture format.
 `DV <http://en.wikipedia.org/wiki/DV>`__
    See `Video Formats`_.
@@ -175,7 +175,7 @@ Options
 Bitrate
    Set the average `bitrate <http://en.wikipedia.org/wiki/Bit_rate>`__ (quality),
    which is the count of binary digits per frame.
-   See also: `ffmpeg -b:v <http://ffmpeg.org/ffmpeg.html#Description>`__
+   See also: `FFmpeg -b:v <http://ffmpeg.org/ffmpeg.html#Description>`__
 
 Rate
    The bitrate control also includes a *Minimum* and a *Maximum*.
@@ -186,15 +186,15 @@ Rate
 GOP Size
    The number of pictures per `Group of Pictures <http://en.wikipedia.org/wiki/Group_of_pictures>`__.
    Set to 0 for "intra_only", which disables `inter-frame <http://en.wikipedia.org/wiki/Inter-frame>`__ video.
-   From ffmpeg docs: "For streaming at very low bitrate application, use a low frame rate and a small GOP size.
+   From FFmpeg docs: "For streaming at very low bitrate application, use a low frame rate and a small GOP size.
    This is especially true for RealVideo where the Linux player does not seem to be very fast,
    so it can miss frames"
 
 
 Autosplit Output
    If your video is HUGE and exceeds 2Gig, enable Autosplit Output.
-   The main control over output filesize is the GOP, or keyframe interlace.
-   A higher number generally leads to a smaller file, but needs a higher-powered device to replay it.
+   The main control over output filesize is the GOP or keyframe interlace.
+   A higher number generally leads to a smaller file but needs a higher-powered device to replay it.
 
 Mux
    `Multiplexing <http://www.afterdawn.com/glossary/term.cfm/multiplexing>`__ settings.
@@ -202,7 +202,7 @@ Mux
    Rate
       Maximum bit rate of the multiplexed stream.
    Packet Size
-      (Undocumented in ffmpeg)
+      (Undocumented in FFmpeg)
 
 
 .. note:: Standards
@@ -232,7 +232,7 @@ Audio Codecs
 
    *Vorbis generally achieves better sound quality than MP3 at similar bit rates.*
 `FLAC <http://en.wikipedia.org/wiki/FLAC>`__
-   Free Loss-less Audio Codec.
+   Free Lossless Audio Codec.
    Digital audio compressed by FLAC's algorithm can typically be reduced to 50-60% of its original size,
    and decompressed into an identical copy of the original audio data.
 `PCM <http://en.wikipedia.org/wiki/PCM>`__
@@ -242,12 +242,12 @@ Audio Codecs
 
 
 Bitrate
-   For each codec, you can to control the bitrate (quality) of the sound in the movie.
+   For each codec, you can control the bitrate (quality) of the sound in the movie.
    This example shows MP3 encoding at 128kbps. Higher bitrates are bigger files that stream worse but sound better.
    Stick to powers of 2 for compatibility.
 Samplerate
    Samplerate controls the number of samples per second of the audio.
-   The default, 44100, is standard for many file types, including CD audio, and produces a high quality sound.
+   The default, 48000, is standard for most studio quality sound.
 Volume
    Set the output volume of the audio.
 
@@ -264,11 +264,11 @@ If you want to output your movie with sound that you have loaded into the VSE,
 use **FFMPEG**.
 
 If you are going to do post-processing on your movie,
-it is best to use a frame set rendered as **OpenEXR** images; if you only want one file,
+it is best to use a frameset rendered as **OpenEXR** images; if you only want one file,
 then choose **AVI Raw**. While AVI Raw is huge,
 it preserves the exact quality of output for post-processing. After post-processing
 (compositing and/or sequencing), you can compress it down.
-You don't want to post-process a compressed file, because the compression artifacts might
+You don't want to post-process a compressed file because the compression artifacts might
 throw off what you are trying to accomplish with the post-processing.
 
 Note that you might not want to render directly to a video format.

@@ -6,7 +6,7 @@ Scenes
 Scenes are a way to organize your work.
 Each blend-file can contain multiple scenes which share other data such as objects and materials
 
-Scene management and library appending/linking is based on Blender's
+Scene management and library appending/linking are based on Blender's
 :doc:`Library and Data System </data_system/index>`,
 so it is a good idea to read that manual page first if you're not familiar with the basics of that system.
 
@@ -55,7 +55,7 @@ Link Object Data
    orientation and size of the objects in the new scene without affecting other scenes,
    but any modifications to the object-data (meshes, materials *etc*) will also affect other scenes.
    This is because a *single instance of* the "object-data" is now being shared by all of the objects
-   in all of the scenes that link to it.
+   in all of the scenes, that link to it.
 
    More information at the :doc:`Window Type </editors/index>` page.
    This has the effect of making a new independent copy of the object-data.
@@ -70,7 +70,7 @@ Full Copy
    it's useful to understand the difference between *Objects* and *Object Data*.
    See :doc:`Duplication </editors/3dview/transform/duplication/introduction>`.
 
-   The choices for adding a scene, therefore determine just how much of this information will be
+   The choices for adding a scene, therefore, determine just how much of this information will be
    *copied from* the active scene to the new one, and how much will be *shared* (linked).
 
 

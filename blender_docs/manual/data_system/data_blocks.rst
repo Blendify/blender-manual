@@ -36,7 +36,7 @@ Users (Garbage Collection)
 ==========================
 
 It's good to be aware of how Blender,
-handles data-blocks life-time, when they are freed and why.
+handles data-blocks lifetime, when they are freed and why.
 
 Blender follows the general rule where unused data is eventually removed.
 
@@ -45,7 +45,7 @@ this has the advantage of not having to manually manage every single data-block.
 
 This works by skipping zero user data-blocks when writing blend-files.
 
-In some cases you want to save a data-block even when its unused
+In some cases, you want to save a data-block even when it's unused
 *(typically for re-usable asset libraries).* see `Fake User`_.
 
 Fake User
@@ -54,7 +54,7 @@ Fake User
 Since zero user data-blocks aren't saved.
 There are times when you want to force the data to be kept irrespective of its users.
 
-If you're building a blend-file to serve as a library of things that you intend to link-to from *other* files,
+If you're building a blend-file to serve as a library of things that you intend to link to and from *other* files,
 you'll need to make sure that they don't accidentally get deleted from the library file.
 
 Do this by giving the data-blocks a *Fake User*,
@@ -86,7 +86,7 @@ Removing Data-Blocks
 
 As covered in `Users (Garbage Collection)`_, data-blocks are typically removed when they're no longer used.
 
-There are some exceptions to this however.
+There are some exceptions to this, however.
 
 The following data-blocks can be removed directly:
 Scene, Text, Group and Screen.
@@ -99,7 +99,7 @@ Other data-blocks such as groups and actions can be *Unlinked* from the *Outline
    especially since image views are counted as users.
 
    For data-blocks that can be unlinked - hold :kbd:`Shift` while pressing on the *X* button,
-   This force-clears the user-count, so the data-block will be removed on reload.
+   This force clears the user-count, so the data-block will be removed on reloading.
 
 
 .. _data_system-datablock_types:
@@ -109,8 +109,8 @@ Data-Block Types
 
 .. EDITORS NOTE:
    Mostly we want to avoid long lists of data - but in this case,
-   Its the only comprehensive list of data-blocks, and something which you can't
-   find directly just though looking at the interface.
+   it's the only comprehensive list of data-blocks, and something which you can't
+   find directly just through looking at the interface.
    ::
    TODO, add links to related docs for each type.
 
@@ -177,7 +177,7 @@ For reference, here is a table of data-blocks types stored in blend-files.
      - |tick|
      - |cross|
      - | Reference object's.
-       | Used by dupli-grous & often library-linking.
+       | Used by dupli-groups & often library-linking.
    * - Image
      - |tick|
      - |tick|

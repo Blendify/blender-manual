@@ -14,9 +14,9 @@ There are a number of slightly different methods you can use to save your blend-
 Save (:kbd:`Ctrl-S`, :kbd:`Ctrl-W`)
    Save an existing blend-file over itself.
 Save As (:kbd:`Ctrl-Shift-S`, :kbd:`F2`)
-   Choose a file to save the blend to.
+   Choose a file to save the blend-file to.
 Save Copy (:kbd:`Ctrl-Alt-S`)
-   Choose a file to save the blend to, but return to editing the original file upon completion.
+   Choose a file to save the blend-file to, but return to editing the original file upon completion.
    This can be used to save backups of the current working state without modifying the original file.
 
 If the file name doesn't end with ``.blend``, the extension is automatically appended.
@@ -44,9 +44,9 @@ Remap Relative
    This option remaps :doc:`relative paths </data_system/files/relative_paths>`
    (such as linked libraries and images) when saving a file in a new location.
 Save Copy
-   This option saves a copy of the actual working state, but does not make the saved file active.
+   This option saves a copy of the actual working state but does not make the saved file active.
 Legacy Mesh Format
-   Save the blend-file, but ignore faces with more than 4 vertices ("ngons")
+   Save the blend-file, but ignore faces with more than 4 vertices ("Ngons")
    so that older versions of Blender (before 2.63) can open it.
 
 
