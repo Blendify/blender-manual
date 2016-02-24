@@ -1,4 +1,4 @@
-
+﻿
 *********************
 The Blender Community
 *********************
@@ -29,13 +29,13 @@ There are `several independent websites <http://www.blender.org/support/user-com
 blogs, news and tutorial sites dedicated to Blender.
 
 One of the largest community forums is `Blender Artists <http://blenderartists.org/forum/>`__, where Blender users
-gather to show off their creations, get feedback, ask and offer help and in general discuss Blender.
+gather to show off their creations, get feedback, ask and offer help and, in general, discuss Blender.
 
 
 Support
 =======
 
-Blender's community is one of its greatest features, so apart from this user manual there are many
+Blender's community is one of its greatest features, so apart from this user manual, there are many
 different ways to get support from other users, such as :ref:`IRC <irc-channels>` and
 `Stack Exchange <http://blender.stackexchange.com/>`__.
 
@@ -72,7 +72,7 @@ You can join these with your favorite IRC client:
 - `#blender <irc://irc.freenode.net/blender>`__
   Community support channel
 - `#blenderchat <irc://irc.freenode.net/blenderchat>`__
-  For general discussion or offtopic chat
+  For general discussion or off topic chat
 - `#blendercoders <irc://irc.freenode.net/blendercoders>`__
   For developers to discuss Blender development
 - `#blenderpython <irc://irc.freenode.net/blenderpython>`__

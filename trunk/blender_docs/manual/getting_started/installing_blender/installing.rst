@@ -11,7 +11,7 @@ Minimum Requirements
 Check if your system meets the
 `minimum or recommended requirements <http://www.blender.org/download/requirements/>`__.
 
-Always check that the graphics drivers are up to date, and that OpenGL is well supported.
+Always check that the graphics drivers are up to date and that OpenGL is well supported.
 
 Support for other hardware such as graphic tablets and 3D mice are covered later in
 :doc:`Supported Hardware </getting_started/installing_blender/hardware>`.

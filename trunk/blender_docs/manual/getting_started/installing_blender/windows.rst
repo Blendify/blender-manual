@@ -23,5 +23,5 @@ Administrator rights are needed to install Blender on your system.
    where you can double-click the executable to run Blender.
 
    There is no installer to place Blender on the menu, but there is also no need for administrator rights.
-   With this option it is possible to have multiple versions of Blender without conflicting,
+   With this option, it is possible to have multiple versions of Blender without conflicting,
    as they are not actually installed on the system.

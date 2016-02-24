@@ -19,7 +19,7 @@ Be aware, though, that the package may be outdated comparing to the latest offic
 features of Blender. For example, some distributions do not build Blender with CUDA support for licensing reasons.
 
 If there is a specific package for your distribution, you may choose what is preferable and most convenient,
-otherwise there is nothing wrong with the official binary on `blender.org <http://www.blender.org/download/>`__.
+otherwise, there is nothing wrong with the official binary on `blender.org <http://www.blender.org/download/>`__.
 
 
 Download from blender.org

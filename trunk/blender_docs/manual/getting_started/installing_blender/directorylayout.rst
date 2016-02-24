@@ -7,7 +7,7 @@ There are three different directories Blender may use,
 their exact locations are operating system dependent.
 
 LOCAL
-   Location of configuration and runtime data (for self contained bundle)
+   Location of configuration and runtime data (for self-contained bundle)
 USER
    Location of configuration files (normally in the user's home directory).
 SYSTEM
@@ -43,7 +43,7 @@ SYSTEM
 
 .. note::
    The path ./|BLENDER_VERSION|/ is relative to the Blender Executable &
-   used for self contained bundles distributed by official blender.org builds.
+   used for self-contained bundles distributed by official blender.org builds.
 
 .. note::
    The **USER** path will use ``$XDG_CONFIG_HOME`` if its set:
@@ -130,7 +130,7 @@ for example.
    Search order: ``LOCAL, USER, SYSTEM``.
 
 ``./scripts/addons/*.py``
-   Python add-ons which may be enabled in the user preferences, includes import/export format support,
+   Python addons which may be enabled in the user preferences include import/export format support,
    render engine integration and many handy utilities.
 
 ``./scripts/addons/modules/*.py``

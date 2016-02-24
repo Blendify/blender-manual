@@ -21,7 +21,7 @@ Since the source code is universally available, there are also many more chances
 When a program is licensed under the GNU General Public License (the GPL):
 
 - You have the right to use the program for any purpose.
-- You have the right to modify the program, and have access to the source codes.
+- You have the right to modify the program and have access to the source codes.
 - You have the right to copy and distribute the program.
 - You have the right to improve the program, and release your own versions.
 
@@ -36,8 +36,8 @@ responsibilities that are designed to protect your freedoms and the freedoms of 
 - You may not restrict the licensing of the program beyond the terms of the GPL.
   (you may not turn a GPL'd program into a proprietary product.)
 
-For more on the GPL, check the its page on the
-`GNU Project web site <https://www.gnu.org/licenses/licenses.html#GPL>`__.
+For more on the GPL, check its page on the
+`GNU Project website <https://www.gnu.org/licenses/licenses.html#GPL>`__.
 
 .. note::
 

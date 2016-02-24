@@ -4,7 +4,7 @@ Configuration
 *************
 
 Here are some preferences that you may wish to set initially.
-The full list and explanation of the preferences is in the section :doc:`User Preferences </preferences/index>`.
+The full list and explanation of the user preferences are documented in the section :doc:`User Preferences </preferences/index>`.
 
 Language
 ========
@@ -36,7 +36,7 @@ The ``Temp`` directory sets where to store files such as temporary renders and a
 .. tip::
 
    The ``//`` at the start of each path in Blender means the directory of the currently opened blend-file,
-   used to reference relative-paths.
+   used to reference relative paths.
 
 If you trust the source of your blend-files, you can enable *Auto Run Python Scripts*.
 This option is meant to protect you from malicious Python scripts that someone can include inside a Blender file.
