@@ -138,20 +138,24 @@ Numeric Field
    Whenever the user adds a color stop to the custom weight paint range, the color stop will receive an index.
    This field shows the indexes added (clicking in the arrows until the counter stops), and allows
    the user to select the color stop from the list. The selected color stop will be shown with a dashed line.
+Color Mode
+   Allows you to control how colors are mixed when blending.
+
+   :RGB: Blends color by mixing each color channel and combining.
+   :HSV/HSL: Blends colors by first converting to HSV or HSL, mixing, then combining again.
+      
+      This has the advantage of maintaining saturation between different hues,
+      where RGB would de-saturate, this allows for a richer gradient.
 Interpolation Options
-   Enables the user to choose from **4** types of calculations for the color interpolation for each color stop.
+   Enables the user to choose the types of calculations for the color interpolation for each color stop.
+
    Available options are:
 
-   B-Spline
-      Uses a *B-Spline* Interpolation for the color stops.
-   Cardinal
-      Uses a *Cardinal* Interpolation for the color stops.
-   Linear
-      Uses a *Linear* Interpolation for the color stops.
-   Ease
-      Uses a *Ease* Interpolation for the color stops.
-   Constant
-      Uses a *Constant* Interpolation for the color stops.
+   :B-Spline: Uses a *B-Spline* Interpolation for the color stops.
+   :Cardinal: Uses a *Cardinal* Interpolation for the color stops.
+   :Linear: Uses a *Linear* Interpolation for the color stops.
+   :Ease: Uses a *Ease* Interpolation for the color stops.
+   :Constant: Uses a *Constant* Interpolation for the color stops.
 
 Position
    This slider controls the positioning of the selected color stop in the range.
