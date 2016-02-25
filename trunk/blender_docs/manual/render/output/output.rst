@@ -54,6 +54,14 @@ Presets
 To make life easier the topmost menu provides some common presets.
 You can add your own or remove one with the ``+`` and ``-`` buttons:
 
+.. note::
+
+   Unlike regular computer monitors, some screens (typically older TV sets)
+   do *not* have the square pixels making it it necessary to generate
+   *pre-distorted* images which will look stretched on a computer but which will display correctly on a TV set.
+   It is important that you use the correct pixel aspect ratio when rendering to prevent re-scaling,
+   resulting in lowered image quality.
+
 
 Output Panel
 ============
