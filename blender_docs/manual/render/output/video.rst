@@ -22,34 +22,6 @@ guaranteed that what is within the *inner* dashed rectangle in camera view will 
 on the screen. Everything within the two rectangles may or may not be visible,
 depending on the given TV set that your audience watches the video on.
 
-.. _render_output_dimensions_presets:
-
-Dimensions Presets
-==================
-
-.. figure:: /images/render-dimensions-presets.jpg
-
-The rendering size is strictly dictated by the TV standard.
-There are various popular presets included, more can be added for your convenience.
-
-Saved information is:
-
-:Resolution: X, Y & percentage scale
-:Aspect ratio: pixel aspect ratio
-:Frame rate: frames per second, for animation
-
-See also :ref:`render_output_dimensions`
-
-
-Pixel Aspect Ratio
-==================
-
-Unlike regular computer monitors, some screens (typically older TV sets)
-do *not* have the square pixels making it it necessary to generate
-*pre-distorted* images which will look stretched on a computer but which will display correctly on a TV set.
-It is important that you use the correct pixel aspect ratio when rendering to prevent re-scaling,
-resulting in lowered image quality.
-
 
 Color Saturation
 ================
@@ -92,3 +64,102 @@ the difference between the highest RGB value and the lowest RGB value should not
 This is not strict - something more than 0.8 is acceptable - but an RGB display with color
 contrast that ranges from 0.0 to 1.0 will appear to be very ugly (over-saturated) on video,
 while appearing bright and dynamic on a computer monitor.
+
+
+Encoding Panel
+==============
+
+Here you choose which video codec you want to use, and compression settings.
+With all of these compression choices, there is a tradeoff between file size,
+compatibility across platforms, and playback quality.
+
+When you view the :doc:`System Console </interface/window_system/console_window>`,
+you can see some of the output of the encoding process.
+You will see even more output if you execute Blender as ``blender -d``.
+
+You can use the presets, DV, SVCD, DVD, etc.
+which choose optimum settings for you for that type of output,
+or you can manually select the format (MPEG-1, MPEG-2, MPEG-4, AVI, Quicktime (if installed),
+DV, H.264, or Xvid (if installed). You must have the proper codec installed on your computer
+for Blender to be able to call it and use it to compress the video stream.
+
+Format
+   Video container or file type. For a list of all available options see :doc:` </data_system/files/video_formats>`.
+
+   Codec
+      Chooses the method of compression and encoding.
+      For a list of all available options see :doc:` </data_system/files/video_formats>`.
+   Lossless Output
+      Allows the ability to perfectly reconstruct compressed data from compressed data.
+
+Bitrate
+   Set the average `bitrate <http://en.wikipedia.org/wiki/Bit_rate>`__ (quality),
+   which is the count of binary digits per frame.
+   See also: `FFmpeg -b:v <http://ffmpeg.org/ffmpeg.html#Description>`__
+
+GOP Size
+   The number of pictures per `Group of Pictures <http://en.wikipedia.org/wiki/Group_of_pictures>`__.
+   Set to 0 for "intra_only", which disables `inter-frame <http://en.wikipedia.org/wiki/Inter-frame>`__ video.
+   From FFmpeg docs: "For streaming at very low bitrate application, use a low frame rate and a small GOP size.
+   This is especially true for RealVideo where the Linux player does not seem to be very fast,
+   so it can miss frames"
+
+Autosplit Output
+   If your video is HUGE and exceeds 2Gig, enable Autosplit Output.
+   The main control over output filesize is the GOP or keyframe interlace.
+   A higher number generally leads to a smaller file but needs a higher-powered device to replay it.
+
+Mux
+   `Multiplexing <http://www.afterdawn.com/glossary/term.cfm/multiplexing>`__ settings.
+
+   Rate
+      Maximum bit rate of the multiplexed stream.
+   Packet Size
+      Reduces data fragmentation or muxer overhead depending on the source.
+
+.. note:: Standards
+
+   Codecs cannot encode off-the-wall video sizes, so stick to the XY sizes used in the presets for standard TV sizes.
+
+Rate
+   The bitrate control also includes a *Minimum* and a *Maximum*.
+
+   Buffer
+      The `decoder bitstream buffer <http://en.wikipedia.org/wiki/Video_buffering_verifier>`__ size.
+
+Audio Codec
+   Audio conainer used, For a list of all available options see :doc:` </data_system/files/video_formats>`.
+Bitrate
+   For each codec, you can control the bitrate (quality) of the sound in the movie.
+   This example shows MP3 encoding at 128kbps. Higher bitrates are bigger files that stream worse but sound better.
+   Stick to powers of 2 for compatibility.
+Volume
+   Sets the output volume of the audio.
+
+Tips
+----
+
+Choosing which format to use depends on what you are going to do with the image.
+
+If you are animating a movie and are not going to do any post-processing or special effects on
+it, use either **AVI-JPEG** or **AVI Codec** and choose the XviD open codec.
+If you want to output your movie with sound that you have loaded into the VSE,
+use **FFMPEG**.
+
+If you are going to do post-processing on your movie, it is best to use a frameset rendered as **OpenEXR** images;
+if you only want one file, then choose **AVI Raw**. While AVI Raw is huge,
+it preserves the exact quality of output for post-processing.
+After post-processing (compositing and/or sequencing), you can compress it down.
+You don't want to post-process a compressed file because the compression artifacts might
+throw off what you are trying to accomplish with the post-processing.
+
+Note that you might not want to render directly to a video format.
+If a problem occurs while rendering, you have to re-render all frames from the beginning.
+If you first render out a set of static images (such as the default PNG, or the higher-quality OpenEXR),
+you can stitch them together with an Image Strip in the :doc:`Video Sequence Editor </editors/sequencer/usage>`.
+This way, you can easily:
+
+- Restart the rendering from the place (the frame) where the problem occurred.
+- Try out different video options in seconds, rather than minutes or hours.
+- Enjoy the rest of the features of the VSE,
+  such as adding Image Strips from previous renders, audio, video clips, etc.

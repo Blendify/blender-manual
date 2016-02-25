@@ -25,7 +25,7 @@ different operating systems.
 Most codecs can only compress the RGB or YUV color space,
 but some support the Alpha channel as well. Codecs that support RGBA include:
 
-- animation (Quicktime)
+- Quicktime
 - PNG TIFF Pixlet - not loss-less, and may be only available on Mac-OSX.
 - `Lagarith Lossless Video Codec <http://lags.leetcode.net/codec.html>`__
 
@@ -45,56 +45,21 @@ Frameserver
    as part of a render farm.
    The port number is specified in the OpenGL User Preferences panel.
 H.264
-   Encodes movies with the H.264 codec. See `Advanced Encoding`_.
+   Encodes movies with the H.264 codec.
 MPEG
-   Encodes movies with the MPEG codec. See `Advanced Encoding`_.
+   Encodes movies with the MPEG codec.
 Ogg Theora
    Encodes movies with the Theora codec as Ogg files.
-   See `Advanced Encoding`_.
 QuickTime
    Apple's Quicktime ``.mov`` file.
    The Quicktime codec dialog is available when this codec is installed on OSX.
-   See *Quicktime* in `Video Formats`_.
+   See *Quicktime* in `Video Containers`_.
 Xvid
-   Encodes movies with the Xvid codec. See `Advanced Encoding`_.
-
-
-Advanced Encoding
------------------
-
-.. figure:: /images/render-ffmpeg-video.jpg
-
-If the *H.264*, *MPEG*, *Ogg Theora*,
-or *Xvid* codecs are chosen, an *Encoding* panel becomes available.
-This has settings for encoding these file types, and other formats using FFmpeg.
-
-`FFmpeg <http://ffmpeg.org>`__, short for Fast Forward Moving Pictures Expert Group,
-is a collection of free and open source software libraries that can record,
-convert and stream digital audio and video in numerous formats.
-It includes libav-codec, an audio/video codec library used by several other projects,
-and libav-format, an audio/video container mux and demux library.
-
-
-Video Settings
---------------
-
-Here you choose which video codec you want to use, and compression settings.
-With all of these compression choices, there is a tradeoff between file size,
-compatibility across platforms, and playback quality.
-
-When you view the :doc:`System Console </interface/window_system/console_window>`,
-you can see some of the output of the encoding process.
-You will see even more output if you execute Blender as ``blender -d``.
-
-You can use the presets, DV, SVCD, DVD, etc.
-which choose optimum settings for you for that type of output,
-or you can manually select the format (MPEG-1, MPEG-2, MPEG-4, AVI, Quicktime (if installed),
-DV, H.264, or Xvid (if installed). You must have the proper codec installed on your computer
-for Blender to be able to call it and use it to compress the video stream.
+   Encodes movies with the Xvid codec.
 
 
 Video Containers
-^^^^^^^^^^^^^^^^
+================
 
 `MPEG-1 <http://en.wikipedia.org/wiki/MPEG-1>`__: ``.mpg``, ``.mpeg``
    A standard for lossy compression of video and audio.
@@ -138,9 +103,8 @@ Video Containers
    It is a common audio format for consumer audio storage, as well as a de facto standard of digital
    audio compression for the transfer and playback of music on digital audio players.
 
-
 Video Codecs
-^^^^^^^^^^^^
+------------
 
 None
    *For audio-only encoding.*
@@ -169,53 +133,8 @@ None
    The encoder and decoder are part of the free, open-source library libavcodec in FFmpeg.
 
 
-Options
-^^^^^^^
-
-Bitrate
-   Set the average `bitrate <http://en.wikipedia.org/wiki/Bit_rate>`__ (quality),
-   which is the count of binary digits per frame.
-   See also: `FFmpeg -b:v <http://ffmpeg.org/ffmpeg.html#Description>`__
-
-Rate
-   The bitrate control also includes a *Minimum* and a *Maximum*.
-
-   Buffer
-      The `decoder bitstream buffer <http://en.wikipedia.org/wiki/Video_buffering_verifier>`__ size.
-
-GOP Size
-   The number of pictures per `Group of Pictures <http://en.wikipedia.org/wiki/Group_of_pictures>`__.
-   Set to 0 for "intra_only", which disables `inter-frame <http://en.wikipedia.org/wiki/Inter-frame>`__ video.
-   From FFmpeg docs: "For streaming at very low bitrate application, use a low frame rate and a small GOP size.
-   This is especially true for RealVideo where the Linux player does not seem to be very fast,
-   so it can miss frames"
-
-
-Autosplit Output
-   If your video is HUGE and exceeds 2Gig, enable Autosplit Output.
-   The main control over output filesize is the GOP or keyframe interlace.
-   A higher number generally leads to a smaller file but needs a higher-powered device to replay it.
-
-Mux
-   `Multiplexing <http://www.afterdawn.com/glossary/term.cfm/multiplexing>`__ settings.
-
-   Rate
-      Maximum bit rate of the multiplexed stream.
-   Packet Size
-      (Undocumented in FFmpeg)
-
-
-.. note:: Standards
-
-   Codecs cannot encode off-the-wall video sizes, so stick to the XY sizes used in the presets for standard TV sizes.
-
-
-Audio Settings
---------------
-
-Audio is encoded using the codec you choose.
-
-Audio Codecs
+Audio Containers
+================
 
 `MP2 <http://en.wikipedia.org/wiki/MPEG-1_Audio_Layer_II>`__
    A lossy audio compression format defined by ISO/IEC 11172-3.
@@ -239,45 +158,3 @@ Audio Codecs
    Pulse Code Modulation, a method used to digitally represent sampled analog signals.
    It is the standard form for digital audio in computers and various Blu-ray,
    Compact Disc and DVD formats, as well as other uses such as digital telephone systems
-
-
-Bitrate
-   For each codec, you can control the bitrate (quality) of the sound in the movie.
-   This example shows MP3 encoding at 128kbps. Higher bitrates are bigger files that stream worse but sound better.
-   Stick to powers of 2 for compatibility.
-Samplerate
-   Samplerate controls the number of samples per second of the audio.
-   The default, 48000, is standard for most studio quality sound.
-Volume
-   Set the output volume of the audio.
-
-
-Tips
-----
-
-
-Choosing which format to use depends on what you are going to do with the image.
-
-If you are animating a movie and are not going to do any post-processing or special effects on
-it, use either **AVI-JPEG** or **AVI Codec** and choose the XviD open codec.
-If you want to output your movie with sound that you have loaded into the VSE,
-use **FFMPEG**.
-
-If you are going to do post-processing on your movie,
-it is best to use a frameset rendered as **OpenEXR** images; if you only want one file,
-then choose **AVI Raw**. While AVI Raw is huge,
-it preserves the exact quality of output for post-processing. After post-processing
-(compositing and/or sequencing), you can compress it down.
-You don't want to post-process a compressed file because the compression artifacts might
-throw off what you are trying to accomplish with the post-processing.
-
-Note that you might not want to render directly to a video format.
-If a problem occurs while rendering, you have to re-render all frames from the beginning.
-If you first render out a set of static images (such as the default PNG, or the higher-quality OpenEXR),
-you can stitch them together with an Image Strip in the :doc:`Video Sequence Editor (VSE) </editors/sequencer/usage>`.
-This way, you can easily:
-
-- Restart the rendering from the place (the frame) where the problem occurred.
-- Try out different video options in seconds, rather than minutes or hours.
-- Enjoy the rest of the features of the VSE,
-  such as adding Image Strips from previous renders, audio, video clips, etc.
