@@ -9,13 +9,11 @@ Blur Node
 
    Blur Node.
 
-The Blur node blurs an image, using one of seven blur modes
-(set using the upper-left pop-up button), and a radius defined by the X and Y number buttons.
-By default, these are set to zero,
+The Blur node blurs an image, using one of seven blur modes (set using the upper-left pop-up button),
+and a radius defined by the X and Y number buttons. By default, these are set to zero,
 so to enable the node you must set one or both to a value greater than 0.
 You can optionally connect a value image to the Size input node,
-to control the blur radius with a mask.
-The values must be mapped between 0-1 for best effect,
+to control the blur radius with a mask. The values must be mapped between 0-1 for best effect,
 as they will be multiplied with the X and Y number button values.
 
 
@@ -41,14 +39,13 @@ The difference between them is how they handle sharp edges and smooth gradients 
 the highs and the lows.
 In particular, (and you may have to closely examine the full-resolution picture to see this):
 
-Flat
-   Simply blurs everything uniformly
-Tent
-   Preserves the high and the lows better making a linear falloff
-Quadratic
-   CatRom keeps sharp contrast edges crisp.
-Cubic, Mitch
-   Preserve the highs but give an almost out-of-focus blur while smoothing sharp edges
+:Flat: Simply blurs everything uniformly.
+:Tent: Preserves the high and the lows better making a linear falloff.
+:Quadratic: CatRom keeps sharp contrast edges crisp.
+:Cubic / Mitch: Preserve the highs but give an almost out-of-focus blur while smoothing sharp edges.
+
+Extend Bounds
+   Allows the image that is being blurred to extend past its original dimension.
 
 
 Example
