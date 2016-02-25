@@ -256,23 +256,43 @@ View All :kbd:`Home`
 
 .. _3dview-local_view:
 
-Local and Global View
-=====================
+Local View
+==========
 
 .. figure:: /images/3Dinteraction-Navigating-Global-Local-global-local.jpg
 
-   Global and Local view
+   With/Without *Local View*.
 
 
-You can toggle between *Local* and *Global* view by selecting the option
+You can toggle *Local View* by selecting the option
 from the *View Menu* or using the shortcut :kbd:`NumpadSlash`.
+
 Local view isolates the selected object or objects,
 so that they are the only ones visible in the viewport.
 This is useful for working on objects that are obscured by other ones, or have heavy geometry.
-Press :kbd:`NumpadSlash` to return to *Global View*.
+Press :kbd:`NumpadSlash` to exit *Local View*.
 
-This can be used to speed up viewport performance in heavy scenes,
-or allow you to focus on a specific object without others getting in your way.
+This allow you to focus on a specific object without others getting in your way,
+and can be used to speed up viewport performance in heavy scenes.
+
+.. note::
+
+   These notes cover changes in local-view which aren't immediately obvious.
+
+   3D Cursor
+      In local-view the 3D cursor is not locked to the scene.
+      Instead, each view has an independent cursor location.
+   Layers
+      Local-view bypasses layers, using only the selected objects when entering local-view.
+      Although new objects may be added while in local-view.
+
+      Its also possible to send objects out of local view,
+      using :menuselection:`Object -> Move Objects out of Local View`,
+      which can be useful to further isolate a selection.
+   Preview Renders
+      Preview renders will still use lamps outside the local-view,
+      this allows you to quickly render previews
+      without having to remember to select all lamps when entering local-view.
 
 
 Quad View
