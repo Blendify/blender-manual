@@ -12,8 +12,8 @@ because you have only one selectable element type, the control points
 however, especially for Béziers, as there is the central vertex, and its two handles...
 
 The basic tools are the same as with :doc:`meshes </modeling/meshes/selecting/basics>`,
-so you can select a simple control point with a :kbd:`LMB` -click,
-add to current selection with :kbd:`Shift-LMB` -clicks, :kbd:`B` order-select, and so on.
+so you can select a simple control point with a :kbd:`RMB`,
+add to current selection with :kbd:`Shift-RMB`, :kbd:`B` border-select, and so on.
 
 One word about the Bézier control points: when you select the main central vertex,
 the two handles are automatically selected too, so you can grab it as a whole,
