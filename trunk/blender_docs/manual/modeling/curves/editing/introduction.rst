@@ -101,7 +101,7 @@ Deforming Tools
    | Menu:     :menuselection:`Curve --> Transform`
 
 
-The *To Sphere*, *Shear*, *Wrap* and *Push/Pull* transform tools are described in the
+The *To Sphere*, *Shear*, *Warp* and *Push/Pull* transform tools are described in the
 :doc:`Transformations </editors/3dview/transform/introduction>` sections.
 The two other tools, *Tilt* and *Shrink/Fatten Radius* are related to
 :doc:`Curve Extrusion </modeling/curves/editing/extrude>`.
