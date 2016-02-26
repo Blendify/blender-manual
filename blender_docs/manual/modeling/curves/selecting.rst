@@ -40,16 +40,15 @@ Border Select
    (and the specifics of *Border Select* in *Edit* mode have already been discussed
    :doc:`here </modeling/meshes/selecting/introduction>`).
 
-.. _modeling-curves-selecting-every-nth:
 
-Every Nth
-=========
+Checker Deselect
+================
 
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     *Edit* mode
-   | Menu:     :menuselection:`Select --> Every Nth`
+   | Menu:     :menuselection:`Select --> Checker Deselect`
    | Hotkey:   None
 
 
@@ -57,6 +56,13 @@ This only works if you already have at least one control point selected.
 Using the current selection, it will add to it every nth control point,
 before and after the initial selection. The "selection step" is specified in the *N*
 pop-up numeric field shown during the tool start.
+
+Nth Selection
+   Number of points to select.
+Skip
+   Number of points to skip.
+Offset
+   Offests at what point to start at.
 
 
 Select/Deselect First/Last
