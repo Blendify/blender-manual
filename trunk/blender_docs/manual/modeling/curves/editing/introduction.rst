@@ -166,11 +166,11 @@ Extending Curves
 
 Once a curve is created you can add new segments (in fact,
 new control points defining new segments), either by extruding,
-or placing new handles with :kbd:`Ctrl-LMB` clicks.
+or placing new handles with :kbd:`Ctrl-LMB`.
 Each new segment is added to one end of the curve.
-A new segment will only be added if a single vertex, or handle,
-at one end of the curve is selected. If two or more control points are selected,
-a new Bézier closed curve is started.
+The Bézier curve can only be extend at the endpoints.
+:kbd:`Ctrl-LMB` on inner control points will make unconnected duplicates.
+
 
 .. _modeling-curves-subdivision:
 
@@ -206,6 +206,7 @@ Duplication
 This command duplicates the selected control points,
 along with the curve segments implicitly selected (if any).
 The copy is selected and placed in *Grab* mode, so you can move it to another place.
+
 
 .. _modeling-curves-joining-segments:
 
