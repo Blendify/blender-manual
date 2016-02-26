@@ -396,7 +396,7 @@ that only works in *Object* mode.
 It transforms a *Curve* object in a *Mesh* one,
 using the curve resolution to create edges and vertices.
 Note that it also keeps the faces and volumes created by closed and extruded curves.
-
+z
 Convert Mesh to Curve
 ---------------------
 
@@ -444,6 +444,8 @@ Hooks
 
 :doc:`Hooks </modeling/modifiers/deform/hooks>` can be added to control one or more points with other objects.
 
+
+.. _modeling-curve-weight:
 
 Set Goal Weight
 ===============

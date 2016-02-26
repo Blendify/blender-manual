@@ -60,8 +60,8 @@ Path
    Adds a NURBS open 3D curve made of five aligned control points,
    with *Endpoint* knots and the *CurvePath* setting enabled.
 
-.. _curves_bezier:
 
+.. _curves_bezier:
 
 Bezier Curves
 =============
@@ -134,9 +134,6 @@ Free :kbd:`V-F`
 
 Additionally,
 the :kbd:`V-T` shortcut can be used to toggle between Free and Aligned handle types.
-
-
-----
 
 
 Curve Properties
@@ -405,15 +402,9 @@ Order
 
    NURBS curves with orders of 2 (left), 4 (middle) and 6 (right).
 
-.. _modeling-curve-weight:
-
-Weight
-   TODO.
-
 
 Path
 ====
-
 
 As mentioned above, Curves are often used as :doc:`paths </animation/object_path>`.
 Any curve can be used as a Path if the *Path Animation* option is selected.
