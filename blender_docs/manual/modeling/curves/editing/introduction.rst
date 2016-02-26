@@ -52,9 +52,6 @@ Hide Unselected elements
    or the :menuselection:`Curve --> Show/Hide --> Hide Unselected` menu option from the 3D window header.
 
 
-----
-
-
 Basic Curve Editing (translation, rotation, scale)
 ==================================================
 
@@ -106,7 +103,6 @@ The *To Sphere*, *Shear*, *Warp* and *Push/Pull* transform tools are described i
 The two other tools, *Tilt* and *Shrink/Fatten Radius* are related to
 :doc:`Curve Extrusion </modeling/curves/editing/extrude>`.
 
-
 Smoothing
 ---------
 
@@ -137,9 +133,6 @@ The *Mirror* tool is also available, behaving exactly as with
 :doc:`mesh vertices </modeling/meshes/editing/deforming/mirror>`,
 
 
-----
-
-
 Set Bézier Handle Type
 ======================
 
@@ -156,6 +149,7 @@ Handle types are a property of :doc:`Bézier curves.
 </modeling/curves/introduction>` and can be used to alter features of the curve.
 For example, switching to *Vector handles* can be used to create curves with sharp corners.
 Read the :doc:`Bézier curves </modeling/curves/introduction>` page for more details.
+
 
 .. _modeling-curves-extending:
 
@@ -304,6 +298,7 @@ All
 
           Deleting Curve segments
 
+
 .. _modeling-curves-opening-and-closing:
 
 Opening and Closing a Curve
@@ -351,12 +346,9 @@ Switch Direction
    | Hotkey:   :menuselection:`[W] --> [pad2]`
 
 
-This command will "reverse" the direction of any curve with at least one selected element (i.
-e. the start point will become the end one, and *vice versa*).
+This command will "reverse" the direction of any curve with at least one selected element
+(i.e. the start point will become the end one, and *vice versa*).
 This is mainly useful when using a curve as path, or using the bevel and taper options.
-
-
-----
 
 
 Converting Tools
@@ -388,7 +380,6 @@ nor the same number of control points. For example, when converting a NURBS to a
 each group of three NURBS control points become a unique Bézier one
 (center point and two handles).
 
-
 Convert Curve to Mesh
 ---------------------
 
@@ -405,7 +396,6 @@ that only works in *Object* mode.
 It transforms a *Curve* object in a *Mesh* one,
 using the curve resolution to create edges and vertices.
 Note that it also keeps the faces and volumes created by closed and extruded curves.
-
 
 Convert Mesh to Curve
 ---------------------
