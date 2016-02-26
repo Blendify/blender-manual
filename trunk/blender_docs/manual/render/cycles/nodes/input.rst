@@ -38,11 +38,23 @@ Color
 Attribute
 =========
 
-Retrieve attribute attached to the object or mesh.
-Currently UV maps and vertex color layers can be retrieved this way by their names,
-with layers and attributes planned to be added. Also internal attributes like *P*
-(position), *N* (normal), *Ng* (geometric normal) may be accessed this way,
-although there are more convenient nodes for this.
+The Attribute Node allows you to retrieve attributes attached to an object or mesh.
+Currently, the following are the most important ones that you will need to know:
+
+:Vertex Color Layers: These can be retrieved this by their names.
+:density: gives a scalar defining the density of any smoke inside the
+          :doc:`Smoke Domain </physics/smoke/types/domain>`.
+:flame: gives a scalar defining the density of any fire inside the :doc:`Smoke Domain </physics/smoke/types/domain>`.
+        All three outputs are the same.
+:color: gives the color of the smoke inside the :doc:`Smoke Domain </physics/smoke/types/domain>`.
+        The color and vector outputs are the same. The fac output is an average of the channels.
+:Ocean Foam: Gives a scalar define where foam might apear when using an
+             :doc:`Ocean Modifier </modeling/modifiers/simulate/ocean>`.
+             This depends on the name you give this property.
+
+For a full list of options see `This Tread
+<http://blender.stackexchange.com/questions/14262/what-can-you-call-from-the-attribute-node/14267#14267>`__
+on the Blender Stack Exchange.
 
 Name
    Name of the attribute.
