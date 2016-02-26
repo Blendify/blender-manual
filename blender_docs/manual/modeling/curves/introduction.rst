@@ -408,6 +408,3 @@ Path
 
 As mentioned above, Curves are often used as :doc:`paths </animation/object_path>`.
 Any curve can be used as a Path if the *Path Animation* option is selected.
-
-The Path option available from the *Add Curve* menu is identical to a 3D NURBS
-curve, except that you do not have access to the *Active Spline* panel.
