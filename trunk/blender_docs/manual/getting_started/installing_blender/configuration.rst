@@ -8,16 +8,17 @@ The full list and explanation of the user preferences are documented in the sect
 :doc:`User Preferences </preferences/index>`.
 
 
-:ref:`Language <prefs-system-international>`
-============================================
+Language
+========
 
 At :menuselection:`File --> User Preferences --> System`, enable *International Fonts* to choose the
 ``Language`` and what to translate from ``Interface``, ``Tooltips`` and ``New Data``.
-See more at :ref:`prefs-system-international`
+
+See :ref:`prefs-system-international` for details.
 
 
-:doc:`Input </preferences/input>`
-=================================
+Input
+=====
 
 If you have a compact keyboard without a separate number pad enable
 :menuselection:`File --> User Preferences --> Emulate Numpad`.
@@ -25,9 +26,11 @@ If you have a compact keyboard without a separate number pad enable
 If you don't have a middle mouse button you can enable
 :menuselection:`File --> User Preferences --> Emulate 3 Button Mouse`.
 
+See :doc:`/preferences/input` for details.
 
-:doc:`File and Paths </preferences/file>`
-=========================================
+
+File and Paths
+==============
 
 At :menuselection:`File --> User Preferences --> File`
 you can set options such as what external ``Image Editor`` to use,
@@ -46,3 +49,4 @@ This would not happen by accident,
 and most users leave this option on to automatically run scripts often used in advanced rigs
 (such as ``Rigify`` that controls the skeleton of a human rig).
 
+See :doc:`/preferences/file` for details.
