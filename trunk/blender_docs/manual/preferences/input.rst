@@ -77,6 +77,11 @@ header and a file browser will open so that you can choose where to store the co
 The *Import Key Configuration* button installs a keymap configuration that is on
 your computer but not in Blender.
 
+The exported keymap will only contain keymaps and categories that have been modified by the user.
+In addition, add-ons may register keymaps to their respective functions,
+however these keymaps are not exported unless changed by the user.
+This exported file may be thought of as a *"keymap delta"* instead of a full keymap export.
+
 
 Mouse
 =====
