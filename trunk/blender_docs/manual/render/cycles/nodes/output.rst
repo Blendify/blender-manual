@@ -9,13 +9,17 @@ Output nodes are always preceded by :doc:`Shaders </render/cycles/nodes/shaders>
 except in the case of the :doc:`Displacement </render/cycles/materials/displacement>` of a Material Output.
 
 
+.. _cycles_shader_output_material:
+
 :doc:`Material Output </render/cycles/materials/index>`
 =======================================================
 
 Surface
    The surface output of the material
 Volume
-   *Currently under independent development, does nothing*
+   Used to output of the different volume shaders. See the :ref:`Emission <cycles_shader_emission>`,
+   :ref:`Volume Absorption <cycles_shader_volume_absorption>`,
+   and :ref:`Volume Scatter <cycles_shader_volume_scatter>` For more information.
 Displacement
    Used to create bump mapping or actual subdivided :doc:`Displacement </render/cycles/materials/displacement>`
 
@@ -34,4 +38,10 @@ Surface
    The appearance of the environment,
    usually preceded by a :ref:`cycles_shader_background` shader
 Volume
-   *Currently under independent development, does nothing*
+   Used to add volumetric effects to the world. See the :ref:`Volume Absorption <cycles_shader_volume_absorption>`
+   and :ref:`Volume Scatter <cycles_shader_volume_scatter>` for more information.
+
+   .. note::
+
+      It is not possible to have and HDR and volumetric due to the fact that
+      HDR's are assumed to be an infant distance from the the camera.

@@ -9,4 +9,5 @@
 
    introduction.rst
    masking.rst
+   painting.rst
    texturing/index.rst
