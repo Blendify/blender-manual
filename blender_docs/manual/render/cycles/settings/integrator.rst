@@ -60,6 +60,8 @@ Mesh Light Samples
    Number of mesh light samples to take for each AA sample.
 Subsurface Samples
    Number of subsurface scattering samples to take for each AA sample.
+Volume Samples
+   Number of volume scattering samples to take for each AA sample.
 
 For both integrators the noise pattern can be controlled.
 
@@ -88,6 +90,8 @@ Glossy Bounces
    Maximum number of glossy bounces.
 Transmission Bounces
    Maximum number of transmission bounces.
+Volume Bounces
+   Maximum number of volume scattering bounces.
 
 
 Transparency
@@ -107,10 +111,12 @@ Tricks
 
 .. _render-cycles-integrator-no_caustics:
 
-No Caustics
+Reflective Caustics
    While in principle path tracing supports rendering of caustics with a sufficient number of samples,
    in practice it may be inefficient to the point that there is just too much noise.
-   This option makes it possible to disable them entirely.
+   This option can be unchecked, to disable reflective caustics.
+Refractive Caustics
+    The same as above, but for refractive caustics.
 
 
 .. _render-cycles-integrator-filter_glossy:
@@ -150,7 +156,7 @@ Clamp Direct
       as they tend to cause more fireflies than direct bounces. See the *Clamp Indirect* setting.
 
 Clamp Indirect
-   The same as the *Clamp Direct*, but for rays which have bounced multiple times.
+   The same as *Clamp Direct*, but for rays which have bounced multiple times.
 
 
 See :ref:`Reducing Noise <render-cycles-reducing_noise-clamp_samples>` for examples of the clamp settings in use.
