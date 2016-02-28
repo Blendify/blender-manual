@@ -276,29 +276,22 @@ The Timeline header controls.
 
    Player Controls.
 
-
-   Jump to start
-      This sets the cursor to the start of frame range. :kbd:`Shift-Ctrl-Down` or :kbd:`Shift-Left`
-
-   Jump to previous keyframe
-      This sets the cursor to the previous keyframe. :kbd:`Down`
-
-   Rewind
-      This plays the animation sequence in reverse. :kbd:`Shift-Alt-A`
-      When playing the play buttons switch to a pause button.
-
-   Play
-      This plays the animation sequence. :kbd:`Alt-A`
-      When playing the play buttons switch to a pause button.
-
-   Jump to next keyframe
-      This sets the cursor to the next keyframe. :kbd:`Up`
-
-   Jump to end
-      This sets the cursor to the end of frame range. :kbd:`Shift-Ctrl-Up` or :kbd:`Shift-Right`
-
-   Pause
-      This stops the animation. :kbd:`Alt-A`
+Jump to start
+   This sets the cursor to the start of frame range. :kbd:`Shift-Ctrl-Down` or :kbd:`Shift-Left`
+Jump to previous keyframe
+   This sets the cursor to the previous keyframe. :kbd:`Down`
+Rewind
+   This plays the animation sequence in reverse. :kbd:`Shift-Alt-A`
+   When playing the play buttons switch to a pause button.
+Play
+   This plays the animation sequence. :kbd:`Alt-A`
+   When playing the play buttons switch to a pause button.
+Jump to next keyframe
+   This sets the cursor to the next keyframe. :kbd:`Up`
+Jump to end
+   This sets the cursor to the end of frame range. :kbd:`Shift-Ctrl-Up` or :kbd:`Shift-Right`
+Pause
+   This stops the animation. :kbd:`Alt-A`
 
 
 4. Synchronize Playback
@@ -310,21 +303,20 @@ The Timeline header controls.
    60:54.75
 
 
-   When you play an animation, the FPS is displayed at the top left of the 3D View.
-   If the scene is detailed and playback is slower than the set
-   *Frame Rate* (see :ref:`render_output-dimensions`,
-   these options are used to synchronize the playback.
+When you play an animation, the FPS is displayed at the top left of the 3D View.
+If the scene is detailed and playback is slower than the set
+*Frame Rate* (see :ref:`render_output-dimensions`,
+these options are used to synchronize the playback.
 
-   No Sync
-      Do not sync, play every frame.
+No Sync
+   Do not sync, play every frame.
+Frame Dropping
+   Drop frames if playback is too slow.
+   This enables *Frame Dropping* from the *Playback Menu*.
+AV-sync
+   Sync to audio clock, dropping frames if playback is slow.
+   This enables *AV-sync* and *Frame Dropping* from the *Playback Menu*.
 
-   Frame Dropping
-      Drop frames if playback is too slow.
-      This enables *Frame Dropping* from the *Playback Menu*.
-
-   AV-sync
-      Sync to audio clock, dropping frames if playback is slow.
-      This enables *AV-sync* and *Frame Dropping* from the *Playback Menu*.
 
 .. _animation-editors-timeline-autokeyframe:
 
@@ -336,21 +328,21 @@ The Timeline header controls.
    Timeline Auto Keyframe.
 
 
-   Auto Keyframe
-      The "Record" red-dot button enables something called *Auto Keyframe* :
-      It will add and/or replace existing keyframes for the active object when you transform it in the 3D view.
+Auto Keyframe
+   The "Record" red-dot button enables something called *Auto Keyframe* :
+   It will add and/or replace existing keyframes for the active object when you transform it in the 3D view.
 
-      For example, when enabled, first set the *Time Cursor* to the desired frame,
-      then move an object in the 3d view, or set a new value for a property in the UI.
+   For example, when enabled, first set the *Time Cursor* to the desired frame,
+   then move an object in the 3d view, or set a new value for a property in the UI.
 
-      When you set a new value for the properties,
-      blender will add keyframes on the current frame for the transform properties.
+   When you set a new value for the properties,
+   blender will add keyframes on the current frame for the transform properties.
 
-      *Auto Keying Set* - Optional if Auto Keyframe enabled.
-      *Auto Keyframe* will insert new keyframes for the properties in the active *Keying Set*.
+   *Auto Keying Set* - Optional if Auto Keyframe enabled.
+   *Auto Keyframe* will insert new keyframes for the properties in the active *Keying Set*.
 
-      Note that *Auto Keyframe* only works for transform properties (objects and bones),
-      in the 3D views (i.e. you cant use it e.g. to animate the colors of a material in the Properties window...).
+   Note that *Auto Keyframe* only works for transform properties (objects and bones),
+   in the 3D views (i.e. you cant use it e.g. to animate the colors of a material in the Properties window...).
 
 
 .. note:: Layered
@@ -371,23 +363,21 @@ The Timeline header controls.
    Timeline Keying Sets.
 
 
-   Active Keying Set
-      *Keying Sets* are a set of keyframe channels in one.
+Active Keying Set
+   *Keying Sets* are a set of keyframe channels in one.
 
-      They are made so the user can record multiple properties at the same time.
+   They are made so the user can record multiple properties at the same time.
 
-      With a keying set selected, when you insert a keyframe,
-      blender will add keyframes for the properties in the active *Keying Set*.
+   With a keying set selected, when you insert a keyframe,
+   blender will add keyframes for the properties in the active *Keying Set*.
 
-      There are some built in keying sets, 'LocRotScale', and also custom keying sets.
+   There are some built in keying sets, 'LocRotScale', and also custom keying sets.
 
-      Custom keying sets can be defined in the in the panels *Properties > Scene > Keying Sets + Active Keying Set*.
-
-   Insert Keyframes
-      Insert keyframes on the current frame for the properties in the active *Keying Set*.
-
-   Delete Keyframes
-      Delete keyframes on the current frame for the properties in the active *Keying Set*.
+   Custom keying sets can be defined in the in the panels *Properties > Scene > Keying Sets + Active Keying Set*.
+Insert Keyframes
+   Insert keyframes on the current frame for the properties in the active *Keying Set*.
+Delete Keyframes
+   Delete keyframes on the current frame for the properties in the active *Keying Set*.
 
 
 User Preferences
