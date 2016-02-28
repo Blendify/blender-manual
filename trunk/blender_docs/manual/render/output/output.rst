@@ -7,7 +7,7 @@ The first step in the rendering process is to determine and set the output optio
 This includes render size, frame rate, pixel aspect ratio, output location, and file type.
 
 
-.. _render_output_dimensions:
+.. _render_output-dimensions:
 
 Dimensions
 ==========
