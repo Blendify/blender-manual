@@ -37,7 +37,7 @@ This page offers a comparison of available features on CPU, CUDA and OpenCL.
      - |cross|
    * - Smoke / Fire
      - |tick|
-     - |cross|
+     - |tick|
      - |cross|
    * - Subsurface Scattering
      - |tick|
