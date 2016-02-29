@@ -9,11 +9,9 @@
 
    introduction.rst
    navigate/index.rst
-   objects/index.rst
+   object/index.rst
    selecting.rst
    transform/index.rst
-   relationships/index.rst
-   modes.rst
    shading.rst
    display.rst
    layers.rst
