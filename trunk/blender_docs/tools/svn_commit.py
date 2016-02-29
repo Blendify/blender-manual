@@ -3,13 +3,13 @@
 # Copyright 2015 Anton Felix Lorenzen <anfelor@web.de>
 # <pep8 compliant>
 
-'''
+"""
 SVN Commit: commit the changes to svn with an helpful error message.
 
 Example (-p = Prefix, -s = Suffix):
 
   svn_commit.py /locale/fr -p 'FR: ' -s 'Happy New Year!'
-'''
+"""
 
 import os
 
