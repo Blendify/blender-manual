@@ -275,17 +275,12 @@ Selected
    so it might decrease when you delete some control point.
    Of course, when only one point remains, there is no more visible curve,
    and when all points are deleted, the curve itself is deleted.
-
 Segment
    This option is somewhat the opposite to the preceding one, as it will cut the curve,
    without removing any control points, by erasing one selected segment.
    This option always removes *only one segment* (the last "selected" one),
    even when several are in the selection.
    So to delete all segments in your selection, you'll have to repetitively use the same erase option...
-
-All
-   As with meshes, this deletes everything in the object!
-
 
 .. list-table::
 
