@@ -17,10 +17,7 @@ Join
    | Menu:     :menuselection:`Object --> Join`
    | Hotkey:   :kbd:`Ctrl-J`
 
-
-Joining makes a single object from all selected objects of the same type.
-
-All objects are merged into the last selected *Active* objects data.
+Joining merges all objects into the last selected *Active* object.
 
 This tools works for meshes, curves, surfaces, metas and armature object types.
 
