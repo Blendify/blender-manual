@@ -33,7 +33,7 @@ Air
 Pinning
 =======
 
-.. figure:: /images/Clothscreeny2.jpg
+.. figure:: /images/physics-cloth-pin-example_01.png
    :width: 200px
 
    Cloth in action.
