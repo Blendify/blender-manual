@@ -9,5 +9,7 @@
 
    introduction.rst
    types/index.rst
-   relationships/index.rst
    modes.rst
+   editing.rst
+   relationships/index.rst
+
