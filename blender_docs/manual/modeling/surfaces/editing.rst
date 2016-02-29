@@ -42,7 +42,7 @@ Every Nth
    | Hotkey:   None
 
 
-This is the same option as for :ref:`curve selection <modeling-curves-selecting-every-nth>`.
+This is the same option as for :ref:`curve selection <modeling-curves-checker_deselect>`.
 However, the behavior of the *N*
 ("selection step") parameter in the 2D of a NURBS surface "cage" seems quite difficult to understand...
 

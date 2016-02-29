@@ -1,9 +1,9 @@
 
-.. _modes:
+.. _object-modes:
 
-*****
-Modes
-*****
+************
+Object Modes
+************
 
 *Modes* are a Blender-level object-oriented feature,
 which means that *the whole Blender application* is always in *one and only one mode*,
