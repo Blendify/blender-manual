@@ -1,4 +1,3 @@
-
 ***************
 Timeline Editor
 ***************
@@ -134,8 +133,8 @@ Cache
    Timline Cache
 
 
-   Show Cache
-      Show all enabled types.
+Show Cache
+   Show all enabled types.
 
    *Softbody*, *Particles*, *Cloth*, *Smoke*, *Dynamic Paint*, *Rigid Body*.
 
@@ -344,18 +343,12 @@ Auto Keyframe
    Note that *Auto Keyframe* only works for transform properties (objects and bones),
    in the 3D views (i.e. you cant use it e.g. to animate the colors of a material in the Properties window...).
 
-
-.. note:: Layered
-
-   Todo.
-
+Layered
+   Optional while playback. TODO.
 
 .. figure:: /images/Animation_Timeline_Layered.jpg
 
    Timeline Layered.
-
-      *Layered* - Optional while playback.
-      TODO.
 
 
 .. figure:: /images/kia_Cube02.jpg
@@ -402,4 +395,3 @@ Keyframing
       Displays a warning at the top right of the *3D View*, when moving objects, if *Auto Keyframe* is on.
    Only Insert Available
       With *Auto Keyframe* enabled, this will only add keyframes to channel F-Curves that already exist.
-
