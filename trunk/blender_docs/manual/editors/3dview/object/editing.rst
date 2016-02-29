@@ -23,8 +23,12 @@ This tools works for meshes, curves, surfaces, metas and armature object types.
 
 .. note::
 
-   Modifiers are not taken into account when joining,
-   so you may wish to apply modifiers first in some cases.
+   Object data has many attributes which may be handled when joining.
+
+   Materials, vertex-groups, UV and Vertex layers will be merged.
+
+   Modifiers, constraints, groups and parent relationships
+   are ignored when joining and wont be applied to the active object.
 
 
 .. _object-separate:
