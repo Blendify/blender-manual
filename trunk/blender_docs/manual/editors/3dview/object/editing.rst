@@ -14,16 +14,20 @@ Join
    :class: refbox
 
    | Mode:     *Object* mode
-   | Menu:     *Object --> Join*
+   | Menu:     :menuselection:`Object --> Join`
    | Hotkey:   :kbd:`Ctrl-J`
 
 
-Joining makes one single object from all selected objects. Objects must be of the same type.
-Origin point is obtained from the previously *active* object.
-Performing a join is equivalent to adding new objects while in *Edit mode*.
-The non-active objects are deleted and their meshes added to the active object, so that
-only the active object remains. This only works with editable objects
-containing meshes and curves.
+Joining makes a single object from all selected objects of the same type.
+
+All objects are merged into the last selected *Active* objects data.
+
+This tools works for meshes, curves, surfaces, metas and armature object types.
+
+.. note::
+
+   Modifiers are not taken into account when joining,
+   so you may wish to apply modifiers first in some cases.
 
 
 .. _object-separate:
@@ -35,7 +39,7 @@ Separate
    :class: refbox
 
    | Mode:     *Edit* mode
-   | Menu:     *Mesh --> Vertices --> Separate*
+   | Menu:     :menuselection:`Mesh --> Vertices --> Separate`
    | Hotkey:   :kbd:`P`
 
 At some point,
