@@ -1,4 +1,3 @@
-
 **************
 Weight Editing
 **************
@@ -35,7 +34,7 @@ However we can identify 2 implicit categories of Vertex Groups:
 The ``Deform Groups``
 ---------------------
 
-These Vertex groups are sometimes also named *Weight Groups*.
+These Vertex Groups are sometimes also named *Weight Groups* or *Weight Maps*.
 They are used for defining the weight tables of Armature bones.
 All Deform Groups of an Object are strictly related to each other via their weight values.
 
@@ -111,7 +110,7 @@ Now you can see the weights of the active Vertex Group displayed on the mesh sur
 Edit Weights in Edit Mode
 =========================
 
-It is now very easy to work with weightmaps in Edit mode. All edit options of the mesh are
+It is now very easy to work with Vertex Groups in Edit mode. All edit options of the mesh are
 available and you have direct visual control over how your Weights change when you edit the
 weight values.
 
