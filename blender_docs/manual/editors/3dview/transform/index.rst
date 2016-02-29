@@ -11,6 +11,6 @@
    rotate.rst
    scale.rst
    duplication/index.rst
-   advanced_transforms.rst
    origns.rst
    transform_control/index.rst
+   tools.rst
