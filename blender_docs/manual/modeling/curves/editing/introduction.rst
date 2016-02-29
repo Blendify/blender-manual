@@ -264,9 +264,7 @@ Deleting Elements
    | Menu:     :menuselection:`Curve --> Delete...`
    | Hotkey:   :kbd:`X` or :kbd:`Delete`
 
-
-The *Erase* pop-up menu of curves offers you three options:
-
+Options for the *Erase* pop-up menu:
 
 Selected
    This will delete the selected control points, *without* breaking the curve (i.e.
