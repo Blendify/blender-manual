@@ -38,7 +38,7 @@ Blender has a number of *Modes* used for editing different kinds of data:
 
 The mode can be changed using the menu in the 3D View header, or using the hotkey associated with that mode.
 
-:doc:`Read more about modes </editors/3dview/modes>`.
+:doc:`Read more about modes </editors/3dview/object/modes>`.
 
 
 Regions of the 3D View
@@ -55,8 +55,8 @@ For more information on specific tools available, see:
 - :doc:`Transformations </editors/3dview/transform/index>`
 - :doc:`History </interface/undo_and_redo>`
 - :doc:`Creating Objects </modeling/meshes/editing/basics/adding>`
-- :doc:`Parents </editors/3dview/relationships/parents>`
-- :doc:`Groups </editors/3dview/relationships/groups>`
+- :doc:`Parents </editors/3dview/object/relationships/parents>`
+- :doc:`Groups </editors/3dview/object/relationships/groups>`
 - :ref:`animation-index`
 - :ref:`rigid_body-index`
 - :ref:`grease_pencil-index`
