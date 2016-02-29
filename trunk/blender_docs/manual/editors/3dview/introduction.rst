@@ -72,7 +72,7 @@ Properties Region
 
 The Properties Region contains properties of the active object and selected objects (such as their locations),
 as well as properties of the editor itself
-(such as :doc:`/editors/3dview/display` settings and :doc:`background images </editors/3dview/background_images>`).
+(such as :doc:`/editors/3dview/display` settings and :doc:`background images </editors/3dview/display/background_images>`).
 
 
 Header
@@ -80,7 +80,7 @@ Header
 
 Contains various menus, buttons and options based on the current :ref:`mode <object-modes>`, such as:
 
-- :doc:`Shading mode </editors/3dview/shading>`
+- :doc:`Shading mode </editors/3dview/display/shading>`
 - :doc:`Pivot options </editors/3dview/transform/transform_control/pivot_point/index>`
 - :doc:`Transform manipulator </editors/3dview/transform/transform_control/manipulators>`
 - :doc:`Proportional Edit </editors/3dview/transform/transform_control/proportional_edit>`

@@ -32,7 +32,7 @@ the Blender Internal engine.
 
    **Showing Only Rendered Objects**
 
-   To access this option, enable the *Only Render* in the :doc:`Display Panel </editors/3dview/display>`.
+   To access this option, enable the *Only Render* in the :doc:`Display Panel </editors/3dview/display/panels>`.
 
    While this option is not specific to OpenGL rendering, its often useful to enable,
    since it removes data such as rigs and empties that can be a distraction.
