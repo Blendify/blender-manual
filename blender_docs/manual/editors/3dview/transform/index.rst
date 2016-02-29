@@ -1,7 +1,7 @@
 
-#############
-  Transforms
-#############
+############
+  Transform
+############
 
 .. toctree::
    :maxdepth: 2
