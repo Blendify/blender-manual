@@ -64,21 +64,17 @@ This can be changed by selecting one of the *Track X*,
 *Y* or *Z* buttons in the *Anim* Panel,
 (*Anim settings* *panel*), in *Object* context.
 
-
-.. figure:: /images/curvesdeform_curveandsurfacepanel.jpg
-
-   Curve and Surface panel.
-
-
 Cyclic (or closed)
 curves work as expected where the object deformations traverse along the path in cycles.
 Note however that when you have more than one curve in the "parent" object,
 its "children" will only follow the first one.
 
-The *Stretch* curve option allows you to let the mesh object stretch, or squeeze,
-over the entire curve.
-This option is in *Object Data* properties,
-for the "parent" curve. See (*Curve and Surface* *panel*).
+.. figure:: /images/curve-shape_panel.png
+
+   Curve Shape Panel.
+
+The *Stretch* curve option allows you to let the mesh object stretch, or squeeze, over the entire curve.
+This option is in *Object Data* properties.
 
 
 Example
