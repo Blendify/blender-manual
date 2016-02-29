@@ -57,3 +57,28 @@ Scale Even
 Scale
    The maximum scale randomization over each axis.
 
+
+Align Objects
+=============
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     *Object* mode
+   | Menu:     :menuselection:`Object --> Transform --> Align Objects`
+
+TODO.
+
+
+Animated Transform to Deltas
+============================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     *Object* mode
+   | Menu:     :menuselection:`Object --> Transform --> Animated Transform to Deltas`
+
+TODO.
+
+
