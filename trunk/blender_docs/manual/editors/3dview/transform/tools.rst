@@ -1,9 +1,8 @@
 
-.. TODO: Content here could be moved elsewhere.
+***************
+Transform Tools
+***************
 
-************************
-Advanced Transformations
-************************
 
 Randomize Transform
 ===================
