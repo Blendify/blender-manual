@@ -17,7 +17,7 @@ if NOT "%1" == "" (
 		echo ========
 		echo.
 		echo - check_syntax
-REM		echo - check_structure
+		echo - check_structure
 		echo.
 		echo Sphinx
 		echo ======
@@ -41,12 +41,12 @@ REM		echo - check_structure
 		DEL rst_check_syntax.log
 	)
 	goto EOF
-REM	) else if "%1" == "check_structure" (
-REM		python tools/rst_check_structure.py --image > rst_check_structure.log
-REM		type rst_check_structure.log
-REM		DEL rst_check_structure.log
-REM		)
-REM		goto EOF
+	) else if "%1" == "check_structure" (
+		python tools/rst_check_structure.py --image > rst_check_structure.log
+		type rst_check_structure.log
+		DEL rst_check_structure.log
+		)
+		goto EOF
 	REM Sphinx
 	) else if "%1" == "upgrade" (
 		pip install -r requirements.txt  --upgrade > requirements.log

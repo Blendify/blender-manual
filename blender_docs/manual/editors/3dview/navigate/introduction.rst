@@ -40,8 +40,8 @@ Properties Panel
 
    - :doc:`Transform </editors/3dview/transform/introduction>`
    - :doc:`Grease Pencil </interface/grease_pencil/introduction>`
-   - :doc:`Display & View Panels </editors/3dview/display>`
-   - :doc:`Background Images </editors/3dview/background_images>`
+   - :doc:`Display & View Panels </editors/3dview/display/panels>`
+   - :doc:`Background Images </editors/3dview/display/background_images>`
    - :doc:`Transform Orientations </editors/3dview/transform/transform_control/transform_orientations>`
 Tool Shelf
    Toggles the *Tool Shelf* (:kbd:`T`), which appears on the left side of the 3d view,
@@ -154,7 +154,7 @@ Allows you to change the way 3D objects are displayed in the viewport.
 - Material
 - Rendered
 
-:doc:`Read more about 3D view options </editors/3dview/shading>`
+:doc:`Read more about 3D view options </editors/3dview/display/shading>`
 
 
 Pivot Point Selector

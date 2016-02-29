@@ -23,7 +23,7 @@ but a very common use of a *World* is to shade a background color.
 
    To use an image as a background image in your 3D view,
    for example as a reference when doing a model,
-   see :doc:`using a Background Image </editors/3dview/background_images>`
+   see :doc:`using a Background Image </editors/3dview/display/background_images>`
 
 
 Options

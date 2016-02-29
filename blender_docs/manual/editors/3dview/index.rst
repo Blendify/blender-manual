@@ -12,8 +12,6 @@
    object/index.rst
    selecting.rst
    transform/index.rst
-   shading.rst
-   display.rst
+   display/index.rst
    layers.rst
    3d_cursor.rst
-   background_images.rst
