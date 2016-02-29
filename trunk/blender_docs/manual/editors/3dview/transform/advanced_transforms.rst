@@ -1,5 +1,5 @@
 
-..    TODO/Review: {{review|partial=X|im=examples}} .
+.. TODO: Content here could be moved elsewhere.
 
 ************************
 Advanced Transformations

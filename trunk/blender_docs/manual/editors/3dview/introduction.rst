@@ -78,7 +78,7 @@ as well as properties of the editor itself
 Header
 ------
 
-Contains various menus, buttons and options based on the current :ref:`mode <modes>`, such as:
+Contains various menus, buttons and options based on the current :ref:`mode <object-modes>`, such as:
 
 - :doc:`Shading mode </editors/3dview/shading>`
 - :doc:`Pivot options </editors/3dview/transform/transform_control/pivot_point/index>`

@@ -1,8 +1,8 @@
 .. _3dview-relationships-index:
 
-################
-  Relationships
-################
+#######################
+  Object Relationships
+#######################
 
 .. toctree::
    :maxdepth: 2
