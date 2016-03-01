@@ -7,7 +7,7 @@ The *System* tab allows you to set resolution, scripting console preferences, so
 and internationalization.
 
 
-.. figure:: /images/user_prefs-system_tab.png
+.. figure:: /images/preferences_system.png
 
 
 General
@@ -18,14 +18,16 @@ DPI
    Useful for taking screen shots for book printing and use of high resolution monitors.
    During typical usage, you may prefer to use zoom which is a available in many parts of Blender interface.
 Virtual Pixel Mode
-   Allows you to select global scaling.
-   While the DPI only scales the interface, this will scale line width, vertex-size.
+   Allows you to select global scaling. While the DPI only scales the interface,
+   this will scale line width, vertex-size. This is intended for hi-dpi monitors.
 
-   This is intended for hi-dpi monitors.
+   :Native: The normal pixel size.
+   :Double: Double of the native pixel size.
 
    .. note::
 
       This is auto-detected on OSX.
+
 Frame Server Port
    TCP/IP port used in conjunction with the IP Address of the machine for frameserver rendering.
    Used when working with distributed rendering.
@@ -41,40 +43,42 @@ Console Scrollback
 Sound
 =====
 
-Sound
+Audio Device
+
    Set the audio output device or no audio support:
 
-   None
-      No Audio support (no audio output, audio strips can be loaded normally)
-   SDL
-      Uses Simple Direct Media Layer API from `libsdl.org <http://www.libsdl.org>`__ to render sounds directly
-      to the sound device output. Very useful for sequencer strips editing.
-   OpenAL
-      This API provides buffered sound rendering with 3D/spatial support.
-
+   :None: No Audio support (no audio output, audio strips can be loaded normally)
+   :SDL: Uses Simple Direct Media Layer API from `libsdl.org <http://www.libsdl.org>`__
+      to render sounds directly to the sound device output. Very useful for sequencer strips editing.
+   :OpenAL: Provides buffered sound rendering with 3D/spatial support.
       Used for 3D source support by *Speaker Objects* and the *Game Engine*.
 
 *'Specific sound options'* (With *SDL* or *OpenAL* enabled)
 
-   Channels
-      Set the audio channel count. Available options are:
-      *Stereo* (Default) , *4 Channels* , *5.1 Surround* , *7.1 Surround*
-   Mixing Buffer
-      Set the number of samples used by the audio mixing buffer. Available options are:
-       *512* , *1024* , *2048* (Default), *4096* , *8192*, *16384*, and *32768*
-   Sample Rate
-      Set the audio sample rate. Available options are:
-      *44.1 Khz* (Default), *48 Khs* , *96 Khz* and *192Khz*
-   Sample Format
-      Set the audio sample format. Available options are:
-      *32 bit float* (Default), *8 bit Unsigned* , *16 Bits Signed* , *24 Bits Signed* , *32 Bits Signed* ,
-      *32 Bits Float* and *64 Bits Float*
+Channels
+   Set the audio channel count. Available options are: *Stereo*, *4 Channels* , *5.1 Surround* , *7.1 Surround*
+Mixing Buffer
+   Set the number of samples used by the audio mixing buffer. Available options are:
+   *512* , *1024* , *2048*, *4096* , *8192*, *16384*, and *32768*
+Sample Rate
+   Set the audio sample rate. Available options are: *44.1 Khz*, *48 Khs*, *96 Khz* and *192Khz*
+Sample Format
+   Set the audio sample format. Available options are:
+   *32 bit float*, *8 bit Unsigned*, *16 Bits Signed*, *24 Bits Signed*,
+   *32 Bits Signed*, *32 Bits Float*, and *64 Bits Float*.
 
 
 Screencast
 ==========
 
-TODO
+.. todo add link
+
+These settings are used to control the frame-rate for recording a screencast.
+
+FPS
+   Frame-rate for screencast playback.
+Wait Timer
+   Time in milliseconds between each frame recorded for screencast.
 
 
 Compute Device
@@ -86,12 +90,15 @@ None
    When set to *None* or the only option is *None*:
    your CPU will be used as a computing device for Cycles Render Engine
 CUDA
-   If the system has a compatible CUDA enabled graphics card and appropriate device drivers installed.
-   When one or both of the options are available,
-   the user will be able to choose whether to use CPU or other computing device for Cycles Rendering.
+   If the system has a compatible Nvidia CUDA enabled graphics card you will be able
+   to use it to render with the :doc:`Cycles </render/cycles/features>` render engine.
 OpenCL
-   Note that this currently has limited support unsupported,
-   see: :doc:`Cycles </render/cycles/features>` Render engine page
+   If the system has a compatible OpenCL device, it will show up has an option for rendering cycles.
+
+   .. note::
+
+      that this currently has limited support, see:
+      :doc:`Cycles Features </render/cycles/features>` page for more information.
 
 
 .. _prefs-system-opensubdiv:
@@ -103,38 +110,46 @@ The Options here will set the compute device used by OpenSubdiv for the
 :doc:`Subdivision Surface Modifier </modeling/modifiers/generate/subsurf>`.
 
 None
-   Disables any OpenSubdiv compute devices, makes sure legacy subsurf code from Blender is used.
+   Disables any OpenSubdiv compute devices, makes sure legacy subsurf method is used.
    Use this option when OpenSubdiv causes any bugs or regressions.
 CPU
    Single threaded CPU implementation.
    It is mainly useful in cases when GPU compute is possible and threaded CPU option causes artifacts
    (it is unlikely to happen, but still possible).
 OpenMP
-   Multi-threaded CPU implementation. It is similar to threading model of old subsurf code.
-   Use it for maximum performance in cases when GPU compute is not available.
+   Multi-threaded CPU implementation. Use it for maximum performance in cases when GPU compute is not available.
 GLSL Transform Feedback
    Uses GPU to perform calculations, has minimal requirements to video card and driver.
 GLSL Compute
-   Uses GPU to perform calculations,
-   supposed to be more efficient than Transform Feedback but also has higher requirements to video card and driver. 
+   Uses GPU to perform calculations, supposed to be more efficient than *Transform Feedback*
+   but also has higher requirements to video card and driver. 
 
-Open GL
-=======
+
+OpenGL
+======
 
 Clip Alpha
    Clip alpha below this threshold in the 3D viewport.
-   Minimum: **0.000** (No Clip) , Maximum: **1.000** , Default **0.000** (No Clip)
+   Note that the default is set to a low value to prevent issues on some GPU's.
 Mipmaps
-   Scale textures for 3D view using mipmap filtering. This increases display quality, but uses more memory.
+   Scale textures for 3D view using Mipmap filtering. This increases display quality, but uses more memory.
 GPU MipMap Generation
    Generate MipMaps on the GPU. Offloads the CPU Mimpap generation to the GPU.
-
-
 16 Bit Float Textures
    Enables the use of 16 Bit per component Texture Images (Floating point Images).
+
+Selection
+   Selection method to use for selecting.
+
+   :Automatic: Automatically choses the best setting depending on your OS, GPU, and drivers.
+   :OpenGL Select: Legacy OpenGL selection method for legacy hardware.
+   :OpenGL Occlusion Queries: More optimized OpenGL selection method.
+      Use this method if you are using an `OpenSubdiv Compute`_ compute device.
+
 Anisotropic Filtering
-   Set the level of anisotropic filtering. Available Options are:
-   *Off'' (No Filtering)* , 2x (Default) , *4x* , *8x* , *16x*
+   Sets the level of anisotropic filtering.
+   This improves the quality of how textures are drawn at the cost of performance.
+   Available Options are: *Off* (No Filtering), *2x*, *4x*, *8x*, and *16x*.
 
 
 .. _prefs-system-window_draw:
@@ -145,7 +160,7 @@ Window Draw Method
 Window Draw Method
    Specifies the Window Draw Method used to display Blender Window(s).
 
-   *Automatic* (Default)
+   Automatic
       Automatically set based on graphics card and driver.
    Triple Buffer
       Use a third buffer for minimal redraws at the cost of more memory.
@@ -163,8 +178,7 @@ Window Draw Method
 .. _prefs-system-multi_sampling:
 
 Multi-Sampling
-   This enables :term:`FSAA` for smooth drawing,
-   at the expense of some performance.
+   This enables :term:`FSAA` for smoother drawing, at the expense of some performance.
 
    .. note::
 
@@ -173,22 +187,17 @@ Multi-Sampling
 
 Region Overlap
    This checkbox will enable Blender to draw regions overlapping the 3D Window.
-   It means that the Object Tools and Transform Properties Tab,
+   It means that the *Object Tools* and *Transform Properties* regions,
    which are opened by using the shortcuts :kbd:`T` and :kbd:`N` will be drawn overlapping the 3D View Window.
 
    If you have a capable graphics card and drivers with *Triple Buffer* support,
    clicking the checkbox will enable the overlapping regions to be drawn using the *Triple Buffer* method,
    which will also enable them to be drawn using Alpha, showing the 3D View contents trough the
-   Object Tools and Transform Properties Tab.
-
-
-Text Draw Options
-=================
+   *Object Tools* and *Transform Properties* regions.
 
 Text Draw Options
    Enable interface text anti-aliasing.
    When disabled, texts are drawn using text straight render (Filling only absolute Pixels).
-   Default: Enabled.
 
 
 Textures
@@ -197,17 +206,22 @@ Textures
 Limit Size
    Limit the maximum resolution for pictures used in textured display to save memory.
    The limit options are specified in a square of pixels,
-   (e.g.: the option 256 means a texture of 256x256 pixels)
-   This is useful for game engineers,
+   (e.g.: the option 256 means a texture of 256x256 pixels) This is useful for game engineers,
    whereas the texture limit matches paging blocks of the textures in the target graphic card memory.
-   Available Options are:
-   *Off* (No limit - Default) , *128*, *256*, *512*, *1024*, *2048*, *4096*, *8192*.
+   Available Options are: *Off* (No limit), *128*, *256*, *512*, *1024*, *2048*, *4096*, and *8192*.
 Time Out
    Time since last access of a GL texture in seconds, after which it is freed. Set to 0 to keep textures allocated.
-   Minimum: **0** , Maximum: **3600** , Default: **120**
+   Minimum: *0*, Maximum: *3600*.
 Collection Rate
    Number of seconds between each run of the GL texture garbage collector.
-   Minimum: **0** , Maximum: **3600** , Default: **120**
+   Minimum: *0*, Maximum: *3600*.
+
+Image Draw Method
+   Method to draw images as the following options are supported:
+   
+   :2D Texture: Uses CPU for display transform and draws images as a 2D texture.
+   :GLSL: Fastest method using GLSL for display transform and draws images as a 2D texture.
+   :Draw Pixels: Uses CPU for display transform and draws images as a 2D texture.
 
 
 Sequencer/Clip Editor
@@ -220,12 +234,11 @@ Sequencer/Clip Editor
       Useful when the chosen video codec cannot sustain screen frame rates
       correctly using direct rendering from the disk to video.
       During video playbacks or editing operations.
-      Minimum: **0** , Maximum: **500** , Default: **0** (No pre-fetch).
+      Minimum: *0*, Maximum: *500*.
 
 Memory Cache Limit
    Upper limit of the sequencer's memory cache (megabytes).
    For optimum clip editor and sequencer performance, high values are recommended.
-   Minimum: **0** (No cache) , Maximum: **1024** (1 Gigabyte), Default: **128**
 
 
 Solid OpenGL lights
@@ -261,8 +274,7 @@ Color Picker Type
 
 Choose which type of color dialog you prefer - it will show when clicking :kbd:`LMB` on any color field.
 
-See the different color picker types at the
-:doc:`Extended Controls </interface/extended_controls>` page.
+See the different color picker types at the :doc:`Extended Controls </interface/extended_controls>` page.
 
 
 Custom Weight Paint Range
