@@ -9,8 +9,6 @@ Space
 
 While object positions, vertex locations aren't clamped, larger values become increasingly imprecise.
 
-For a rough rule of thumb, values within -5000/+5000 are typically reliable (range of 10000).
-
 To get an idea of the precision you can work with using different scales.
 
 Heres a table of scales and their associated accuracy.
@@ -36,6 +34,10 @@ Heres a table of scales and their associated accuracy.
 :10,000: 1/1024th
 :100,000: 1/128th
 :1,000,000: 1/16th
+
+.. hint::
+
+   For a rough rule of thumb, values within -5000/+5000 are typically reliable (range of 10000).
 
 
 Time
@@ -66,7 +68,9 @@ here are some common limits.
 :directory: 768
 :file-name: 256
 :file-path: 1024
-:name / identifier: 64
+:identifier: 64
+
+   *Used for data-block names, modifiers, vertex-groups, UV-lauers... etc*.
 
 .. note::
 
