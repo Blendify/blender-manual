@@ -1,9 +1,8 @@
-
 **************************
 Licensing of Blender Games
 **************************
 
-Blender and the Blender Game Engine (BGE) is licensed as GNU GPL, which means that your games
+Blender and the Blender Game Engine (BGE) are licensed as GNU GPL, which means that your games
 (if they include Blender software)
 have to comply with that license as well.
 This only applies to the software, or the bundle if it has software
