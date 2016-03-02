@@ -71,10 +71,10 @@ Text Fields
 Fixed strings are used internally, and while its not useful to list all limits,
 here are some common limits.
 
-:directory: 768
-:file-name: 256
-:file-path: 1024
-:identifier: 64
+:directory: 767
+:file-name: 255
+:file-path: 1023
+:identifier: 63
 
    *Used for data-block names, modifiers, vertex-groups, UV-lauers... etc*.
 
