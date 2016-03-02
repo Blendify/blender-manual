@@ -81,7 +81,7 @@ Window Options
 ==============
 
 ``-w``, ``--window-border``
-   Force opening with borders (default)
+   Force opening without borders
 ``-W``, ``--window-borderless``
    Force opening without borders
 ``-p``, ``--window-geometry`` ``<sx>`` ``<sy>`` ``<w>`` ``<h>``
@@ -106,9 +106,9 @@ Python Options
 ==============
 
 ``-y``, ``--enable-autoexec``
-   Enable automatic Python script execution
+   Enable automatic Python script execution (default)
 ``-Y``, ``--disable-autoexec``
-   Disable automatic Python script execution (pydrivers & startup scripts), (default).
+   Disable automatic Python script execution (pydrivers & startup scripts)
 
 ``-P``, ``--python`` ``<filename>``
    Run the given Python script file
@@ -119,7 +119,8 @@ Python Options
 ``--python-console``
    Run blender with an interactive console
 ``--python-exit-code``
-   Set the exit-code in [0..255] to exit if a Python exception is raised (only for scripts executed from the command line), zero disables.
+   Set the exit-code in [0..255] to exit if a Python exception is raised
+   (only for scripts executed from the command line), zero disables.
 ``--addons``
    Comma separated list of addons (no spaces)
 
@@ -211,7 +212,7 @@ Other Options
 ``/?``
    Print this help text and exit (windows only)
 ``--debug-freestyle``
-   Enable debug/profiling messages from Freestyle rendering
+   Enable debug messages for FreeStyle
 ``--debug-gpu``
    Enable gpu debug context and information for OpenGL 4.3+.
 ``--disable-abort-handler``
