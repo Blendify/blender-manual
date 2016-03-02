@@ -9,7 +9,7 @@ import re
 # using primitive regex parsing.
 #
 # eg:
-# python tools/blender_help_extract.py /src/blender/source/creator/creator.c manual/advanced/command_line.rst
+# python tools/blender_help_extract.py /src/blender/source/creator/creator_args.c manual/advanced/command_line.rst
 
 
 def text_remove_comments(text):
@@ -26,7 +26,52 @@ def text_remove_comments(text):
     return re.sub(pattern, replacer, text)
 
 
+def text_join_lines(text):
+    # return text.replace(",\n", ",")
+    pattern = re.compile(
+        '\s*,\n\s*',
+        re.DOTALL | re.MULTILINE
+        )
+    return re.sub(pattern, ", ", text)
+
+
+def text_expand_macros(text):
+    # CB() macro
+    def replacer_CB(match):
+        return match.group(2) + "_doc, " + match.group(2)
+
+    pattern_CB = re.compile(
+        r'\b(CB)\s*\(([^\,]+)\)',
+        re.DOTALL | re.MULTILINE
+        )
+
+    # CB_EX() macro
+    def replacer_CB_EX(match):
+        return match.group(2) + "_doc_" + match.group(3) + ", " + match.group(2)
+
+    pattern_CB_EX = re.compile(
+        r'\b(CB_EX)\s*\(([^\,]+),\s*([^\)]+)\)',
+        re.DOTALL | re.MULTILINE
+        )
+
+    # STRINGIFY_ARG() macro
+    def replacer_STRINGIFY_ARG(match):
+        return "\"``" + match.group(2) + "``\""
+
+    pattern_STRINGIFY_ARG = re.compile(
+        r'\b(STRINGIFY_ARG)\s*\(([^\)]+)\)',
+        re.DOTALL | re.MULTILINE
+        )
+
+    text = re.sub(pattern_CB, replacer_CB, text)
+    text = re.sub(pattern_CB_EX, replacer_CB_EX, text)
+    text = re.sub(pattern_STRINGIFY_ARG, replacer_STRINGIFY_ARG, text)
+
+    return text
+
+
 def text_extract_args(text):
+
     args = {}
     # use replace to scan (misuse!)
 
@@ -75,6 +120,17 @@ def text_extract_strings(text):
     strings = {}
     # use replace to scan (misuse!)
 
+    text = (text
+            ).replace(
+            "PY_ENABLE_AUTO", " \" (default)\""
+            ).replace(
+            "PY_DISABLE_AUTO", " \"\""
+            ).replace(
+            "STRINGIFY(BLENDER_STARTUP_FILE)", "\"startup.blend\""
+            ).replace(
+            "STRINGIFY(BLENDER_MAX_THREADS)", "\"64\""
+            )
+
     def replacer(match):
         var = match.group(1).strip()
         s = match.group(2)
@@ -83,7 +139,7 @@ def text_extract_strings(text):
         strings[var] = s
 
     pattern = re.compile(
-        r'\bstatic\s+char\s+([A-Za-z0-9_]+)\[\]\s*=\s*((?:(?!"\s*;).)*?")\s*;',
+        r'\bstatic\s+const\s+char\s+([A-Za-z0-9_]+)\[\]\s*=\s*((?:(?!"\s*;).)*?")\s*;',
         re.DOTALL | re.MULTILINE
         )
 
@@ -92,7 +148,7 @@ def text_extract_strings(text):
 
 
 def text_extract_help(text, args, static_strings):
-    func_id = 'static int print_help(int UNUSED(argc), const char **UNUSED(argv), void *data)\n'
+    func_id = 'static int arg_handle_print_help(int UNUSED(argc), const char **UNUSED(argv), void *data)\n'
     index_start = text.find(func_id)
     index_end = text.find("\texit(0);", index_start)
     # print(index_start, index_end)
@@ -228,8 +284,8 @@ def main():
     source_file = sys.argv[-2]
     output_file = sys.argv[-1]
 
-    if not source_file.endswith("creator.c"):
-        print("Expected 'creator.c' to be passed as the second last argument")
+    if not source_file.endswith("creator_args.c"):
+        print("Expected 'creator_args.c' to be passed as the second last argument")
         return
     if not output_file.endswith(".rst"):
         print("Expected an '.rst' file to be passed as the last argument")
@@ -239,6 +295,10 @@ def main():
         text = f.read()
 
     text = text_remove_comments(text)
+    # join ',\n' - function args split across lines.
+    text = text_join_lines(text)
+    # expand CB macros
+    text = text_expand_macros(text)
     # first pass, extract 'BLI_argsAdd'
 
     args = text_extract_args(text)
