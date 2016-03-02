@@ -14,7 +14,6 @@
    blur.rst
    color.rst
    cross.rst
-   gamma_cross.rst
    glow.rst
    multicam.rst
    multiply.rst
