@@ -59,6 +59,12 @@ The maximum frame for each scene is currently 500,000, and allows for continuous
 :60 fps: 2 hours, 18 seconds.
 
 
+.. note::
+
+   In practice, a finished work is typically composted of output from many scenes.
+   So this limit doesn't prevent you from creating longer works.
+
+
 Text Fields
 ===========
 
