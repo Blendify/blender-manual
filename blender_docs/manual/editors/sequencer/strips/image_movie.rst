@@ -40,7 +40,7 @@ Use :kbd:`LMB` to validate, or :kbd:`RMB` to cancel the modification.
    Dealing with different sized images and different sized outputs is tricky.
    If you have a mis-match between the size of the input image and the render output size,
    the VSE will try to auto-scale the image to fit it entirely in the output.
-   This may result in clipping. If you do not want that, use *Crop* and/or *Offset* in the :doc:`Input <>`
+   This may result in clipping. If you do not want that, use *Crop* and/or *Offset* in the Input
    panel to move and select a region of the image within the output. When you use *Crop* or *Offset*,
    the auto-scaling will be disabled and you can manually re-scale by adding the Transform effect.
 
