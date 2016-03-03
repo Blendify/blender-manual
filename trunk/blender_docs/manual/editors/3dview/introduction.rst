@@ -71,7 +71,7 @@ Properties Region
 -----------------
 
 The Properties Region contains properties of the active object and selected objects (such as their locations),
-as well as properties of the editor itself (such as the :doc:`Display and View Panels </editors/3dview/display>`
+as well as properties of the editor itself (such as the :doc:`Display and View Panels </editors/3dview/display/panels>`
 and :doc:`Background Images </editors/3dview/display/background_images>`).
 
 
