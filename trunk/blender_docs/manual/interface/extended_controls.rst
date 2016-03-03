@@ -9,7 +9,7 @@ This page documents some of the more involved interface controls.
 Operator Search Menu
 ====================
 
-.. figure:: /images/interface_controls_spacebar.png
+.. figure:: /images/ui-controls-operator_search.png
    :align: right
 
    The operator search popup.
