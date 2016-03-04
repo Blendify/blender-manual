@@ -1,4 +1,5 @@
 
+******
 Rotate
 ******
 
@@ -18,7 +19,6 @@ or roll and involves changing the orientation of elements (vertices, edge, face,
 around one or more axes or the element's Pivot Point.
 There are multiple ways to rotate an element which include:
 
-
 - The keyboard shortcut (:kbd:`R`)
 - The 3D manipulator widget
 - The Properties menu (:kbd:`N`)
@@ -30,9 +30,6 @@ Snapping and the different types of Pivot Point.
 
 :doc:`Read more about Transform Control </editors/3dview/transform/transform_control/index>`
 :doc:`Read more about Transform Orientations </editors/3dview/transform/transform_control/transform_orientations>`
-
-
-----
 
 
 Usage
@@ -69,7 +66,6 @@ To constrain rotation, the following shortcuts can be used:
 
 Axis locking can also be enabled by pressing the :kbd:`MMB` after enabling rotation and
 moving the mouse in the desired direction e.g.
-
 
 - :kbd:`R`, move the mouse along the X axis, :kbd:`MMB`: Rotate only along the **X Axis**
 
@@ -152,4 +148,3 @@ can also be set in this panel from the drop down box.
 
 `Additional detail about rotation modes
 <http://wiki.blender.org/index.php/User:Pepribal/Ref/Appendices/Rotation>`__
-
