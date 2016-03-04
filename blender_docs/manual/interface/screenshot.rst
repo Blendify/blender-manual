@@ -35,6 +35,8 @@ called *Save Screenshot* where you can find format settings and a checkbox with 
 - Uncheck the box to save only your active window (where your mouse is located when you call the command).
 
 
+.. _info-screencast:
+
 Screencasts
 ===========
 
@@ -63,16 +65,9 @@ every 50 ms and stored in the */tmp* folder. If you want to record a video, set 
 listed in the *Output panel* format menu.
 If you are unsure what video codecs your system supports, select *AVI JPEG*.
 
+.. note::
 
-.. figure:: /images/basics-screencast-small-user-preferences-system.jpg
-
-   Options in the User Preferences Editor
-
-
-The FPS for video Screencasts and time between each Screenshot for an image series Screencast
-can be set from the
-:doc:`System panel </preferences/system>` of the
-:doc:`User Preferences </preferences/index>` window.
+   You can change the frame-rate for a screen cast in the :ref:`User Preferences <prefs-system-screencast>`.
 
 When you start Blender Screencasts, the header of the *Info Window* will change,
 and it will show you a button for stopping your capture.
@@ -146,4 +141,3 @@ Full HD, etc).
 You can control the width and height of your Blender Window, starting Blender from a Command Line.
 To learn more about starting Blender from a command line,
 see the page about :doc:`Blender Console Window </interface/window_system/console_window>`.
-
