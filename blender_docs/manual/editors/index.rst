@@ -67,7 +67,7 @@ Settings
    properties/index.rst
    outliner.rst
    Preferences <../preferences/index.rst>
-   Info <info.rst>
+   info/index.rst
 
 
 Other
