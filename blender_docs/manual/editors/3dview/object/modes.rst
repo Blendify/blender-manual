@@ -86,12 +86,12 @@ Modes might affect many things in Blender:
           :width: 35px
      - *Pose* mode
      - :kbd:`Ctrl-Tab`:sup:`2`
-     - An armature-only mode, dedicated to armature posing.
+     - An armature only mode, dedicated to armature posing.
    * - .. figure:: /images/icons_grease-pencil.png
           :width: 35px
-     - Todo.
-     - Todo.
-     - Todo.
+     - Edit Strokes.
+     - :kbd:`D-Tab`.
+     - A Grease Pencil only mode, dedicated to editing Grease Pencil strokes.
 
 
 Notes about modes shortcuts:
