@@ -23,9 +23,8 @@ You set the current mode in the *Mode* drop-down list of *3D View* header
 
  .. warning::
 
-   You can only select objects in *Object* mode. In all others, the
-   current object selection is "locked" (except, to some extent, with an
-   armature's *Pose* mode).
+   You can only select objects in *Object* mode. In all others,the current object selection is "locked"
+   (except, to some extent, with an armature's *Pose* mode).
 
 Modes might affect many things in Blender:
 
@@ -45,41 +44,54 @@ Modes might affect many things in Blender:
      - Name
      - Shortcut
      - Details
-   * - .. figure:: /images/IconObjectMode.jpg
+   * - .. figure:: /images/icons_object-mode.png
+          :width: 35px
      - *Object* mode
      - *None* :sup:`1`
      - The default mode, available for all object types,
        as it is dedicated to *Object* data-block editing (i.e. position/rotation/size).
-   * - .. figure:: /images/IconEditMode.jpg
+   * - .. figure:: /images/icons_edit-mode.png
+          :width: 35px
      - *Edit* mode
      - :kbd:`Tab`:sup:`1`
      - A mode available for all renderable object types,
        as it is dedicated to their "shape" *ObData* data-block editing
        (i.e. vertices/edges/faces for meshes, control points for curves/surfaces, etc.)
-   * - .. figure:: /images/IconSculptMode.jpg
+   * - .. figure:: /images/icons_sculpt-mode.png
+          :width: 35px
      - *Sculpt* mode
      - *None* :sup:`1`
      - A mesh-only mode, that enables Blender's mesh 3D-sculpting tool.
-   * - .. figure:: /images/IconVertexPaint.jpg
+   * - .. figure:: /images/icons_vertex-paint.png
+          :width: 35px
      - *Vertex Paint* mode
      - *None* :sup:`1`
      - A mesh-only mode, that allows you to set your mesh's vertices colors (i.e. to "paint" them).
-   * - .. figure:: /images/IconTexturePaint.jpg
+   * - .. figure:: /images/icons_texture-paint.png
+          :width: 35px
      - *Texture Paint* mode
      - *None* :sup:`1`
      - A mesh-only mode, that allows you to paint your mesh's texture directly on the model, in the 3D views.
-   * - .. figure:: /images/IconWeightPaint.jpg
+   * - .. figure:: /images/icons_weight-paint.png
+          :width: 35px
      - *Weight Paint* mode
      - :kbd:`Ctrl-Tab`:sup:`2`
      - A mesh-only mode, dedicated to vertex group weighting.
-   * - .. figure:: /images/IconParticleMode.jpg
+   * - .. figure:: /images/icons_particle-edit.png
+          :width: 35px
      - *Particle* mode
      - *None* :sup:`1`
      - A mesh-only mode, dedicated to particle systems, useful with editable systems (hair).
-   * - .. figure:: /images/IconPoseMode.jpg
+   * - .. figure:: /images/icons_pose-mode.png
+          :width: 35px
      - *Pose* mode
      - :kbd:`Ctrl-Tab`:sup:`2`
      - An armature-only mode, dedicated to armature posing.
+   * - .. figure:: /images/icons_grease-pencil.png
+          :width: 35px
+     - Todo.
+     - Todo.
+     - Todo.
 
 
 Notes about modes shortcuts:

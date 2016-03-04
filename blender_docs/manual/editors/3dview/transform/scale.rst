@@ -32,7 +32,6 @@ the scale will continue in the negative direction and flip the element.
 
 There are multiple ways to scale an element which include:
 
-
 - The keyboard shortcut (:kbd:`S`)
 - The 3D manipulator widget
 - The Properties menu (:kbd:`N`)
@@ -45,9 +44,6 @@ Snapping and the different types of Pivot Point.
 :doc:`Read more about Transform Control </editors/3dview/transform/transform_control/index>`
 
 :doc:`Read more about Transform Orientations </editors/3dview/transform/transform_control/transform_orientations>`
-
-
-----
 
 
 Usage
