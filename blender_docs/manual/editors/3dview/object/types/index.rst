@@ -8,3 +8,4 @@
    :maxdepth: 2
 
    speaker.rst
+   empties.rst
