@@ -13,5 +13,4 @@
    surfaces/index.rst
    texts/index.rst
    metas/index.rst
-   empties.rst
    modifiers/index.rst

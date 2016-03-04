@@ -38,7 +38,7 @@ Types of Objects
 :doc:`Lattice </modeling/modifiers/deform/lattice>`
    Lattices are non-renderable wireframes, commonly used for taking additional control
    over other objects with help of the :doc:`Lattice Modifier </modeling/modifiers/deform/lattice>`.
-:doc:`Empty </modeling/empties>`
+:doc:`Empty </editors/3dview/object/types/empties>`
    Empties are null objects that are simple visual transform nodes that do not render.
    They are useful for controlling the position or movement of other objects.
 :doc:`Speaker </editors/sequencer/strips/audio>`
