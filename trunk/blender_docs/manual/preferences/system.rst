@@ -68,12 +68,12 @@ Sample Format
    *32 Bits Signed*, *32 Bits Float*, and *64 Bits Float*.
 
 
+.. _prefs-system-screencast:
+
 Screencast
 ==========
 
-.. todo add link
-
-These settings are used to control the frame-rate for recording a screencast.
+These settings are used to control the frame-rate for recording a :ref:`Screencast <info-screencast>`.
 
 FPS
    Frame-rate for screencast playback.
