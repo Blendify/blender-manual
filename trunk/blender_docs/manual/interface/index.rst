@@ -42,5 +42,4 @@ Tools
    :maxdepth: 1
 
    undo_and_redo.rst
-   screenshot.rst
    grease_pencil/index.rst

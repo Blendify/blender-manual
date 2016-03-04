@@ -1,7 +1,4 @@
 
-.. This could be moved into some other page, it used to contain a lot of info about screenshots
-   on each operating system, but this is outside the scope of Blender's manual.
-
 **************
 Screen Capture
 **************
