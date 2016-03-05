@@ -112,10 +112,24 @@ Smoothing
    | Mode:     *Edit* mode
    | Hotkey:   :menuselection:`[W][] --> smooth`
 
-
 Curve smoothing is available through the specials menu. For Bézier curves, this smoothing
-operation currently only smooths the positions of control points and not their tangents.
-End points are also constrained when smoothing.
+operation reduces the distance between the selected control point/s and
+their neighbors, while keeping the neighbors anchored. 
+Does not effect control point tangents.
+
+
+.. figure:: /images/modeling_curves_smoothing_example1.jpg
+
+   Original, unsmoothed Curve.
+
+.. figure:: /images/modeling_curves_smoothing_example2.jpg.
+
+   Entire curve smoothed over 200 times by holding :kbd:`Shift-R` to repeat last step
+			
+.. figure:: /images/modeling_curves_smoothing_example3.jpg
+
+   Only three control points in the center smoothed over 200 times.
+
 
 
 Mirror
@@ -381,16 +395,16 @@ Convert Curve to Mesh
    :class: refbox
 
    | Mode:     *Object* mode
-   | Menu:     :menuselection:`Object --> Convert to`
+   | Menu:     :menuselection:`Object --> Convert to --> Mesh From Curve/Meta/Surface/Text`
    | Hotkey:   :kbd:`Alt-C`
 
 
 There is also an "external" conversion, from curve to mesh,
 that only works in *Object* mode.
-It transforms a *Curve* object in a *Mesh* one,
+It transforms a *Curve* object into a *Mesh* object,
 using the curve resolution to create edges and vertices.
 Note that it also keeps the faces and volumes created by closed and extruded curves.
-z
+
 Convert Mesh to Curve
 ---------------------
 
@@ -398,7 +412,7 @@ Convert Mesh to Curve
    :class: refbox
 
    | Mode:     *Object* mode
-   | Menu:     :menuselection:`Object --> Convert to`
+   | Menu:     :menuselection:`Object --> Convert to --> Curve From Mesh/Text`
    | Hotkey:   :kbd:`Alt-C`
 
 
@@ -421,8 +435,13 @@ You can make other selected objects
 :ref:`children <object-parenting>` of one or three control points
 :kbd:`Ctrl-P`, as with mesh objects.
 
+To select a mesh(that is in view) while editing a curve, :kbd:`Ctrl-P` click on it.
 Select either 1 or 3 control points,
-then :kbd:`Ctrl-RMB` another object and use :kbd:`Ctrl-P` to make a vertex parent.
+then :kbd:`Ctrl-RMB` the object and use :kbd:`Ctrl-P` to make a vertex parent.
+Selecting 3 control points will make the child follow
+the median point between the three vertices.
+An alternative would be to use a 
+:doc:`Child of constraint </rigging/constraints/relationship/child_of>`
 
 
 Hooks
@@ -451,6 +470,6 @@ Set Goal Weight
    | Menu:     :menuselection:`W --> Set Goal Weight`
 
 
-Set Goal Weight
-   This sets the "goal weight" of selected control points, which is used when a curve has Soft
-   Body physics, forcing the curve to "stick" to their original positions, based on the weight.
+This sets the "goal weight" of selected control points,
+which is used when a curve has :doc:`Soft Body </physics/soft_body/index>` physics,
+forcing the curve to "stick" to their original positions, based on the weight.
