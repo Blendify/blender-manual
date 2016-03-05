@@ -13,7 +13,7 @@ There are three primary types of modeling - mesh modeling, curve/surface modelin
 :doc:`Mesh Modeling </modeling/meshes/introduction>`
    is done within the *3D View* and typically begins with a primitive shape (e.g. circle, cube, cylinder...).
 
-   This :doc:`Mesh Primitive </modeling/meshes/primitives>`
+   This :doc:`Mesh Primitive </editors/3dview/object/types/primitives>`
    is defined by an array of points in 3D space called vertices (singular form is :term:`Vertex`).
    From there you might begin extruding faces and moving vertices to create a larger, more complex shape.
 

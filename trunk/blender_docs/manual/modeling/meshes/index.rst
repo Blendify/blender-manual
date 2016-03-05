@@ -9,7 +9,6 @@
 
    introduction.rst
    mesh_structures.rst
-   primitives.rst
    mesh_analysis.rst
    selecting/index.rst
    editing/index.rst
