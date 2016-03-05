@@ -3,6 +3,11 @@
 Introduction
 ************
 
+.. figure:: /images/physics_rigidbody_panel.jpg
+   :width: 400px
+
+   Default rigid body panel
+
 The rigid body simulation can be used to simulate the motion of solid objects.
 It affects the position and orientation of objects and does not deform them.
 
