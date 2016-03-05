@@ -3,13 +3,12 @@
 Curve Guide
 ***********
 
-The *Curve Guild* is used to force particles to follow a certain
-path defined by a :doc:`Curve Object </modeling/curves/index>`.
-
 .. figure:: /images/physics_force_fields_curve_example.png
 
-   Example of Curve Guide.
+   Curve Guide force field.
 
+The *Curve Guide* is used to force particles to follow a certain
+path defined by a :doc:`Curve Object </modeling/curves/index>`.
 A typical scenario would be to move a red blood cell inside a vein,
 or to animate the particle flow in a motor.
 You can use *Curve Guide* s also to shape certain hair strands.
@@ -38,9 +37,10 @@ But you can limit their influence radius by changing there *Minimum Distance* (s
 Options
 =======
 
-.. figure:: /images/physics_force_fields_curve.png
+.. figure:: /images/force_field_panel_curveg.jpg
+   :width: 400px
 
-   Curve Guide Settings.
+   UI for a Curve Guide force field.
 
 Minimum Distance
    The distance from the curve, up to where the force field is effective with full strength.
