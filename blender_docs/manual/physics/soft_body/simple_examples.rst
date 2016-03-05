@@ -1,15 +1,18 @@
 
 ***************
-Simple examples
+Simple Examples
 ***************
 
-some simple examples showing the power of softbody physics.
+Here are some simple examples showing the power of softbody physics.
 
 
-bouncing cube
+Bouncing Cube
 =============
 
-change your start and end frames to 1 and 150.
+The Process
+-----------
+
+First, change your start and end frames to 1 and 150.
 
 
 .. figure:: /images/softbody-examples-timeline.jpg
@@ -18,14 +21,14 @@ change your start and end frames to 1 and 150.
    The timeline
 
 
-add a plane, and scale it 5 times. next go to the physics tab, and add a collision.
-the default settings are fine for this example.
+Then, add a plane, and scale it 5 times. Next, go to the physics tab, and add a collision.
+The default settings are fine for this example.
 
-now add a cube, or use the default cube. Tab into edit mode and subdivide it thrice.
-then add a bevel modifier to it, to smoothen the edges. to add a little more, press r twice,
+Now add a cube, or use the default cube. Tab into edit mode and subdivide it three times. 
+Add a bevel modifier to it to smoothen the edges and then to add a little more, press r twice,
 and move your cursor a bit.
 
-when finisht, your scene should look like this:
+When finished, your scene should look like this:
 
 
 .. figure:: /images/softbody-examples-scene-ready.jpg
@@ -34,19 +37,18 @@ when finisht, your scene should look like this:
    The scene, ready for softbody physics
 
 
-Everything is ready to add the softbody physics. go to the physics tab and add 'softbody'.
-uncheck the soft body goal , and check softbody self collision. under soft body edges,
+Everything is ready to add the softbody physics. Go to :menuselection:`Properties --> Physics` and choose *Softbody*.
+Uncheck the soft body goal, and check softbody self collision. Also, under soft body edges,
 increase the bending to 10.
 
-playing tha animation with alt a will now give a slow animation of a bouncing cube.
-to speed things up, we need to bake the softbody physics.
+Playing tha animation with :kbd:`ALT+A` will now give a slow animation of a bouncing cube.
+To speed things up, we need to bake the softbody physics.
 
-Under Soft Body Cache change start and end to your start and end frames.
-in this case 1 and 150.
-to test if everything is working, you can take a cache step of 5 or 10,
+Under *Soft Body Cache* change the start and end values to your start and end frames. In this case 1 and 150.
+Now, to test if everything is working, you can take a cache step of 5 or 10,
 but for the final animation it's better to reduce it to 1, to cache everything.
 
-when finisht, your physics panel should look like this:
+When finished, your physics panel should look like this:
 
 
 .. figure:: /images/softbody-examples-physics-settings.jpg
@@ -55,11 +57,11 @@ when finisht, your physics panel should look like this:
    The physics settings.
 
 
-you can now bake the simulation, give the cube materials and textures and render the animation.
+You can now bake the simulation, give the cube materials and textures and render the animation.
 
 
-result
-======
+The Result
+----------
 
 The rendered bouncing cube:
 
