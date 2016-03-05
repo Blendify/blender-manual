@@ -21,6 +21,10 @@ simply turn down the influence of that type of Force Field in its Field Weights 
 You may limit the effect on particles to a group of objects
 (see the :doc:`Particle Physics </physics/particles/physics/index>` page).
 
+.. figure:: /images/force_field_types.jpg
+
+   Force field types from left to right: Force, Wind, Vortex, Magnetic, Harmonic, Charge, Lennard Jones, Texture, Curve Guide, Boid, Turbulence, Drag, and Smoke Flow.
+
 
 Creating a Force Field
 ======================

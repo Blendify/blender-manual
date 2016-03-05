@@ -1,14 +1,24 @@
 
-*************
-Texture Field
-*************
+*******
+Texture
+*******
 
-You can use a texture force field to create an arbitrarily complicated force field,
+.. figure:: /images/force_field_type_texture.jpg
+   :width: 400px
+
+   Texture force field.
+
+You can use a *Texture* force field to create an arbitrarily complicated force field,
 which force in the 3 directions is color coded. Red is coding for the x-axis,
 green for the y-axis and blue for the z-axis
 (like the color of the coordinate axes in the 3D window). A value of 0.5 means no force,
 a value larger than 0.5 acceleration in negative axis direction (like -Z),
 a value smaller than 0.5 acceleration in positive axis direction (like +Z).
+
+.. figure:: /images/force_field_panel_texture.jpg
+   :width: 400px
+
+   UI for a Texture force field.
 
 Texture mode
    This sets the way a force vector is derived from the texture.
