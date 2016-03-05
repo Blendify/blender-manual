@@ -7,5 +7,6 @@
 .. toctree::
    :maxdepth: 2
 
-   speaker.rst
+   primitives.rst
    empties.rst
+   speaker.rst
