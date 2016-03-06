@@ -9,7 +9,7 @@ Complementary projects are:
 
 - `StackExcange (Q&A) <http://blender.stackexchange.com>`__.
 - `Blender Cloud (training) <http://cloud.blender.org/>`__.
-- `Python API reference <http://www.blender.org/documentation/250PythonDoc>`__.
+- `Python API reference <http://www.blender.org/api/blender_python_api_current>`__.
 
 
 **************
@@ -25,6 +25,6 @@ Building the Manual
 *******************
 
 See ``./manual/about/install/`` for building the manual
-and the `Getting Started section <http://www.blender.org/documentation/contribute>`__
+and the ``./manual/about/contribute.rst`` page
 for an explanation on the full work-flow and other tips.
 
