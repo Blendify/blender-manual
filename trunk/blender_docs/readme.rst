@@ -24,7 +24,8 @@ See also the `current open tasks <https://developer.blender.org/project/profile/
 Building the Manual
 *******************
 
-See ``./manual/about/install/`` for building the manual
-and the ``./manual/about/contribute.rst`` page
-for an explanation on the full work-flow and other tips.
+- See `/manual/about/install/ <manual/about/install/>`__
+  page for building the manual.
+- See `/manual/about/contribute <manual/about/contribute.rst>`__
+  page for an explanation on the full work-flow and other tips.
 
