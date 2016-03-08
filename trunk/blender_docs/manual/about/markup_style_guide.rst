@@ -113,7 +113,7 @@ Figures should be used to place images:
 
 .. code-block:: rst
 
-   .. figure:: /images/modifiers_subsurf_example.jpg
+   .. figure:: /images/editors_menu.png
 
       Image Caption
 
