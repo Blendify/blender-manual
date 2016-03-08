@@ -1,7 +1,7 @@
 
-**********
-UV Mapping
-**********
+************
+Introduction
+************
 
 The most flexible way of mapping a 2D texture over a 3D object is a process called "UV
 mapping". In this process, you take your three-dimensional (X,Y & Z)
@@ -13,7 +13,7 @@ and better details than Vertex Painting can provide.
 
 
 UVs Explained
-*************
+=============
 
 .. list-table::
 
@@ -50,7 +50,7 @@ and then arrange them in some way upon a photograph that's also lying on that ta
 
 
 Cartography Example
-===================
+-------------------
 
 Cartographers (map makers) have been dealing with this problem for millennia. A cartography
 (map-making) example is creating a projection map of the whole world. In cartography,
@@ -89,7 +89,7 @@ to the Equator.)
 
 
 Half-Sphere Example
-===================
+-------------------
 
 .. figure:: /images/UV-3D_Space_vs_UV_Space.jpg
    :width: 600px
@@ -109,14 +109,14 @@ image above is an example of how a point on a 3D object might be mapped onto a 2
 
 
 The UV Editor
-*************
+=============
 
 About functionalities for mapping UV see
 :ref:`UV/Image Editor <editors-uv_image-index>` section for details.
 
 
 Advantages of UVs
-*****************
+=================
 
 While procedural textures (described in the previous chapters) are useful-they never repeat
 themselves and always "fit" 3D objects-they are not sufficient for more complex or natural

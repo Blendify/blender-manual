@@ -67,6 +67,7 @@ For using images as textures, see the page on :doc:`Image Textures </editors/uv_
 
           A UV Layout in the Image Editor
 
+
 .. _face_textures:
 
 Applying Textures to UVs
@@ -339,4 +340,3 @@ and that you only have to manage one file.
 
 You can invert the colors of an image by selecting the *Invert* menu.
 in the *Image* menu
-

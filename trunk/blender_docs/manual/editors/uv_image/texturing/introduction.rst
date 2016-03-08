@@ -28,15 +28,15 @@ View Menu
    Tools for, working with the editor and controlling how things are displayed.
    The properties panel has display options and manipulation tools.
 Select Menu
-   Tools for :doc:`Selecting UV's </editors/uv_image/texturing/layout_editing>`
+   Tools for :doc:`Selecting UV's </editors/uv_image/texturing/uv_editing/layout_editing>`
 Image Menu
-   This contains options for when :doc:`Working with Images </editors/uv_image/texturing/applying_image>`
+   This contains options for when :doc:`Working with Images </editors/uv_image/texturing/uv_editing/applying_image>`
 UVs Menu
-   Contains tools for :doc:`Unwrapping Meshes </editors/uv_image/texturing/uv_mapping>`
-   and :doc:`Editing UV's </editors/uv_image/texturing/layout_editing>`.
+   Contains tools for :doc:`Unwrapping Meshes </editors/uv_image/texturing/uv_editing/introduction>`
+   and :doc:`Editing UV's </editors/uv_image/texturing/uv_editing/layout_editing>`.
 
 Image Selector Menu
-   Select the image to apply when :doc:`Working with Images </editors/uv_image/texturing/applying_image>`.
+   Select the image to apply when :doc:`Working with Images </editors/uv_image/texturing/uv_editing/applying_image>`.
 Pin Image
    Displays current image regardless of selected object.
 Pivot Point Selector
@@ -71,14 +71,14 @@ Properties Panel
    Image Editor Properties Panel
 
 UV Vertex
-   Transform Properties :doc:`Selecting UV's </editors/uv_image/texturing/layout_editing>`.
+   Transform Properties :doc:`Selecting UV's </editors/uv_image/texturing/uv_editing/layout_editing>`.
 Grease Pencil
    See the :doc:`Grease Pencil </interface/grease_pencil/converting_to_geometry>` Docs.
 Image
    Contains the properties of the current Image.
 Display
    Controls display options for UVs and additional settings for when
-   :doc:`Working with Images </editors/uv_image/texturing/applying_image>`.
+   :doc:`Working with Images </editors/uv_image/texturing/uv_editing/applying_image>`.
 
 Display Options
 ---------------
