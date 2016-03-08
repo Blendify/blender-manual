@@ -94,10 +94,7 @@ Passes selector buttons) for Blender to put out the values corresponding to the 
 For a simple scene, a monkey and her bouncy ball,
 the following picture expertly provides a great example of what each pass looks like:
 
-
-.. figure:: /images/render-renderpasses-example.jpg
-   :width: 650px
-
+.. figure:: /images/render-renderpasses-example.png
 
 The available sockets are:
 
