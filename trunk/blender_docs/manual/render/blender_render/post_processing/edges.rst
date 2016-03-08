@@ -21,19 +21,13 @@ Blender can add this feature as a post-processing operation.
 Options
 =======
 
-.. figure:: /images/Render07.jpg
+.. figure:: /images/Render07.png
 
    Toon edge buttons.
 
 
 Edge
    This makes Blender search for edges in your rendering and add an 'outline' to them.
-
-
-.. figure:: /images/Render08.jpg
-
-   Toon edge settings.
-
 
 Before repeating the rendering it is necessary to set some parameters:
 
@@ -55,12 +49,6 @@ Examples
    Scene re-rendered with toon edge set.
 
 
-.. figure:: /images/Renderlayer-Edge.jpg
-   :width: 400px
-
-   Post-processing Edge and Renderlayers
-
-
 It is possible to separate out the edge layer using a render layer dedicated to that purpose.
 The alpha channel is 0 where there is no edge, and 1 where the edge is.
 By separating out the edge layer, you can blur it, change its color, mask it, etc.
@@ -73,4 +61,3 @@ I run that layer through a blur node. Using the Alphaover node,
 I then composite the cube on top of the blurred edge.
 The result gives a soft-shadow kind of effect.
 Note that Premultiply is set because the Edge image already has an alpha of 1.0 set.
-
