@@ -73,9 +73,7 @@ See :doc:`Here </editors/uv_image/texturing/textures/procedural/clouds>`
 
 
 Wood
-
-----
-
+====
 
 .. figure:: /images/texture-nodes-wood.jpg
 

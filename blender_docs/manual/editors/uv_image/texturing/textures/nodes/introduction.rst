@@ -1,7 +1,7 @@
 
-*************
-Texture Nodes
-*************
+************
+Introduction
+************
 
 As an alternative to using the :doc:`Texture Stack </render/blender_render/textures/options>`,
 Blender includes a node-based texture generation system which enables you to create textures by combining colors,
@@ -20,15 +20,10 @@ and even inside other textures.
 Using Texture Nodes
 ===================
 
-To use texture nodes with the current texture,
-open a :doc:`Node Editor window </editors/node_editor/editor>`,
-set it to *Texture* mode by clicking the "Texture" icon (
+.. |texture-button| image:: /images/images/Selector-Node-Btn-Texture.jpg
 
-.. figure:: /images/Selector-Node-Btn-Texture.jpg
-
-   Texture
-
-) in its header.
+To use texture nodes with the current texture, open a :doc:`Node Editor window </editors/node_editor/editor>`,
+set it to *Texture* mode by clicking the "Texture" icon (|texture-button|) in its header.
 
 To start adding nodes, you first need to select a material.
 Now you can either click the *New* button in the Node editor,
@@ -65,4 +60,3 @@ Nodes. In this case, you probably won't be using Texture Channels. Instead, you'
 *Input* --> *Texture*. Then,
 inside the texture node that you've just added, you can select which output you want to use
 *(e.g.* ``Diffuse`` or ``Normal``).
-

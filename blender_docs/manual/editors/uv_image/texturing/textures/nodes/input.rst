@@ -10,14 +10,12 @@ Input nodes provide input data for other nodes.
 
 
 Time
-
-----
-
+====
 
 .. figure:: /images/texture-nodes-time.jpg
    :width: 200px
 
-   Time node
+   Time node.
 
 
 The time node uses a frame range to output a value between 0 and 1.

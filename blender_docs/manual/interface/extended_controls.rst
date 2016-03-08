@@ -139,9 +139,9 @@ Color Mode
 
    :RGB: Blends color by mixing each color channel and combining.
    :HSV/HSL: Blends colors by first converting to HSV or HSL, mixing, then combining again.
-      
       This has the advantage of maintaining saturation between different hues,
       where RGB would de-saturate, this allows for a richer gradient.
+
 Interpolation Options
    Enables the user to choose the types of calculations for the color interpolation for each color stop.
 
@@ -152,6 +152,7 @@ Interpolation Options
    :Linear: Uses a *Linear* Interpolation for the color stops.
    :Ease: Uses a *Ease* Interpolation for the color stops.
    :Constant: Uses a *Constant* Interpolation for the color stops.
+
 Numeric Field
    Index of the active color-stop (shown as a dashed line).
 

@@ -10,9 +10,7 @@ As the name implies, these nodes convert the colors in the material in some way.
 
 
 Math
-
-----
-
+====
 
 .. figure:: /images/texture-nodes_math.jpg
 
@@ -121,4 +119,3 @@ Distance
 
 
 Computes the distance between two 3d coordinates.
-
