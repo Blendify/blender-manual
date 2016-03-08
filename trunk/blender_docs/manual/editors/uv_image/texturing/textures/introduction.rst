@@ -1,7 +1,7 @@
 
-*******************
-Procedural Textures
-*******************
+************
+Introduction
+************
 
 .. figure:: /images/texture-procedural-menu.jpg
    :width: 240px
