@@ -70,7 +70,7 @@ Lens
 ----
 
 The camera lens options control the way 3D objects are represented in a 2D image.
-See :doc:`Camera Lens </render/camera/lens>` for details.
+See :doc:`Camera Lens </editors/3dview/object/types/camera/lens>` for details.
 
 
 Camera
@@ -207,7 +207,7 @@ Safe Areas
 
 When this is enabled, extra dotted frames are drawn when in camera view, delimiting the area considered as
 "safe" for important elements.
-:doc:`More information about them in the safe areas section </render/camera/safe_areas>`.
+:doc:`More information about them in the safe areas section </editors/3dview/object/types/camera/safe_areas>`.
 
 
 Render Border

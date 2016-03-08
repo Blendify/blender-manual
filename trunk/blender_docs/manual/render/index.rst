@@ -11,7 +11,6 @@
 
    blender_render/index.rst
    cycles/index.rst
-   camera/index.rst
    output/index.rst
    post_process/index.rst
    freestyle/index.rst

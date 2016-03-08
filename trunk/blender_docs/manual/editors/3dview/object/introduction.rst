@@ -43,7 +43,7 @@ Types of Objects
    They are useful for controlling the position or movement of other objects.
 :doc:`Speaker </editors/sequencer/strips/audio>`
    Brings to scene source of sound.
-:doc:`Cameras </render/camera/index>`
+:doc:`Cameras </editors/3dview/object/types/camera/index>`
    This is the virtual camera that is used to determine what appears in the render.
 :doc:`Lamps </render/blender_render/lighting/index>`
    These are used to place light sources in the scene.

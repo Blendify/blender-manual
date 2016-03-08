@@ -68,7 +68,7 @@ Display Mode
       Displays a gray-scale image. White areas are opaque, black areas have an alpha of 0.
    Z Depth
       Display the depth from the camera, from Clip Start to Clip End,
-      as specified in the :doc:`Camera settings </render/camera/introduction>`.
+      as specified in the :doc:`Camera settings </editors/3dview/object/types/camera/introduction>`.
 
 
 Animation Playback
