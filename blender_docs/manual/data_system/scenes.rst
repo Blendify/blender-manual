@@ -30,7 +30,7 @@ While you are adding a new scene, you have these options:
 
    Add scene pop-up menu.
 
-.. |addview-button| image:: /images/Interface-Screens-AddView-Button25.jpg
+.. |addview-button| image:: /images/icons_add.jpg
 
 
 New
