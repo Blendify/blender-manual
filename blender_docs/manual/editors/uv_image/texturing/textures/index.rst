@@ -1,20 +1,14 @@
-
-######################
-  Procedural Textures
-######################
+################
+  Texture types
+################
 
 .. toctree::
-   :maxdepth: 1
+   :titlesonly:
+   :maxdepth: 2
 
    introduction.rst
-   ocean.rst
-   blend.rst
-   clouds.rst
-   distorted_noise.rst
-   magic.rst
-   marble.rst
-   musgrave.rst
-   noise.rst
-   stucci.rst
-   voronoi.rst
-   wood.rst
+   image.rst
+   video.rst
+   procedural/index.rst
+   volume/index.rst
+   nodes/index.rst

@@ -11,7 +11,6 @@
    introduction.rst
    assigning_a_texture.rst
    options.rst
-   types/index.rst
    mapping/index.rst
    influence/index.rst
    
