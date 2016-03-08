@@ -11,3 +11,4 @@
    lattice.rst
    empties.rst
    speaker.rst
+   camera/index.rst
