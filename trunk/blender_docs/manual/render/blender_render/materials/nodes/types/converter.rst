@@ -51,17 +51,17 @@ Alpha
 Controls
 --------
 
-.. figure:: /images/material-convertor-node-color_ramp-addpoint-buticon.jpg
+.. figure:: /images/icons_add.jpg
 
    Add a new mark to the center of the colorband with the default color (neutral gray).
 
 
-.. figure:: /images/material-convertor-node-color_ramp-deletepoint-buticon.jpg
+.. figure:: /images/icons_minus.jpg
 
    Remove the currently selected mark from the colorband.
 
 
-.. figure:: /images/material-convertor-node-color_ramp-flip-buticon.jpg
+.. figure:: /images/icons_reverse.jpg
 
    Flip the colorband.
 
