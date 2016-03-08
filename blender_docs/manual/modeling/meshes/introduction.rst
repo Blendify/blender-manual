@@ -149,7 +149,7 @@ The Overlays section provides controls for highlighting parts of the mesh.
 Edges
    Toggles the option to see the selected edges highlighted.
    If enabled the edges that have both vertices selected will be highlighted
-   This only affects in vertex selection mode and when :doc:`UV Unwrapping </editors/uv_image/texturing/unwrapping>`.
+   This only affects in vertex selection mode and when :doc:`UV Unwrapping </editors/uv_image/texturing/uv_editing/unwrapping>`.
 Faces
    Defines if the selected faces will be highlighted in the :doc:`3D Viewport </editors/3dview/display/index>`.
    This affects all selection modes.

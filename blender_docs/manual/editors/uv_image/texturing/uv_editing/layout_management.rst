@@ -11,15 +11,14 @@ or transfer a UV map to another mesh.
 
 
 Transferring UV Maps
-********************
+====================
 
 You can copy a UV Map from one mesh to another Mesh provided both meshes have the same
 geometry/vertex order. This is useful for example when you want to recreate a UV map from an
 earlier version of your model with intact UVs.
 
-
 Workflow
-========
+--------
 
 - :kbd:`RMB` Select the target mesh (to which you want to copy the UV Map)
 - :kbd:`Shift` select the source mesh (that contains the intact UV map)
@@ -29,7 +28,7 @@ The target Mesh will now have a UV map that matches the original mesh.
 
 
 Multiple UV Maps
-****************
+================
 
 .. figure:: /images/UV-Fashion.jpg
    :width: 300px
@@ -67,7 +66,7 @@ while other faces map to the second texture.
 
 
 UV Textures List
-****************
+================
 
 .. figure:: /images/UV-Editing-Mesh-panel.jpg
 
