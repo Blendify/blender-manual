@@ -158,3 +158,14 @@ Audio Containers
    Pulse Code Modulation, a method used to digitally represent sampled analog signals.
    It is the standard form for digital audio in computers and various Blu-ray,
    Compact Disc and DVD formats, as well as other uses such as digital telephone systems
+
+
+Known Limitations
+=================
+
+Video Output Size
+-----------------
+
+Some codecs impose limitations on output size,
+``H.264``, for example requires both the height and width to be divisible by 2.
+
