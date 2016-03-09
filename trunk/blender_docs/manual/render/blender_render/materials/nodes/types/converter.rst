@@ -51,17 +51,17 @@ Alpha
 Controls
 --------
 
-.. figure:: /images/icons_add.jpg
+.. figure:: /images/icons_add.png
 
    Add a new mark to the center of the colorband with the default color (neutral gray).
 
 
-.. figure:: /images/icons_minus.jpg
+.. figure:: /images/icons_minus.png
 
    Remove the currently selected mark from the colorband.
 
 
-.. figure:: /images/icons_reverse.jpg
+.. figure:: /images/icons_reverse.png
 
    Flip the colorband.
 

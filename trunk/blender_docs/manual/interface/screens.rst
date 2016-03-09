@@ -59,7 +59,7 @@ Configuring your Screens
 Adding a new Screen Type
 ------------------------
 
-.. |addview-button| image:: /images/icons_add.jpg
+.. |addview-button| image:: /images/icons_add.png
 
 Click on the "Add" button(|addview-button|) and a new frame layout will be
 created based on your current layout.

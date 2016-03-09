@@ -56,7 +56,7 @@ Rendering
 
 Activating OpenGL render from the menu will render from the active camera.
 
-.. figure:: /images/icons_render.jpg
+.. figure:: /images/icons_render.png
    :align: right
 
 You can also render any view-port, from the header of the *3D View*,
@@ -105,4 +105,3 @@ because it doesn't rely on hardware multi-sample support.
    - ``GL_EXT_framebuffer_blit``
    - ``GL_EXT_framebuffer_multisample_blit_scaled``
    - ``GL_EXT_framebuffer_multisample``
-
