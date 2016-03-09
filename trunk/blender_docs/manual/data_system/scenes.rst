@@ -30,8 +30,6 @@ While you are adding a new scene, you have these options:
 
    Add scene pop-up menu.
 
-.. |addview-button| image:: /images/icons_add.png
-
 
 New
    Creates an empty scene with default values.

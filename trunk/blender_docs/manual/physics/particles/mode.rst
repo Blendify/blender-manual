@@ -1,4 +1,7 @@
 
+.. |hair-point-button| image:: /images/icons_add.png
+   :width: 25px
+
 *************
 Particle Mode
 *************
@@ -76,12 +79,8 @@ Ways to use Particle Mode
 To be able to clearly see what you are working on:
 
 - Turn on the *Particle Edit Properties* (*PEP*) panel with :kbd:`N`.
-- Select *Point select mode*
-
-.. figure:: /images/icons_hair-points.png
-
- in the header of the 3D window. This will display key points along the particle path.
-
+- Select *Point select mode* (|hair-point-button|) in the header of the 3D window.
+  This will display key points along the particle path.
 
 .. tip:: Brush Size
 

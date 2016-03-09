@@ -3,6 +3,11 @@
 Sensor Common Options
 *********************
 
+.. |true-button| image:: /images/icons_sensor-true.png
+   :width: 25px
+.. |false-button| image:: /images/icons_sensor-false.png
+   :width: 25px
+
 .. figure:: /images/BGE_Sensor_Column3.jpg
    :width: 292px
 
@@ -32,7 +37,6 @@ X button
    If a controller does not get trigger by any connected sensor
    (regardless of the sensors' state) it will not be activated at all.
 
-
    A sensor triggers the connected controllers on state change.
    When the sensor changes its state from negative to positive or positive to negative,
    the sensor triggers the connected controllers.
@@ -44,18 +48,10 @@ The following parameters specifies how the sensor triggers connected controllers
 
 True level triggering
    If this is set, the connected controllers will be triggered as long as the sensor's state is positive.
-   The sensor will trigger with the delay (see parameter: frequency) of the sensor.
-
-.. figure:: /images/icons_sensor-true.png
-   :align: right
-
+   The sensor will trigger with the delay (see parameter: frequency) of the sensor. |true-button|
 False level triggering
    If this is set, the connected controllers will be triggered as long as the sensor's state is negative.
-   The sensor will trigger with the delay (see parameter: frequency) of the sensor.
-
-.. figure:: /images/icons_sensor-false.png
-   :align: right
-
+   The sensor will trigger with the delay (see parameter: frequency) of the sensor. |false-button|
 Freq
    Despite it's name "Frequency", this parameter sets the delay between repeated triggers,
    measured in frames (also known as logic ticks). The default value is 0 and it means no delay.
