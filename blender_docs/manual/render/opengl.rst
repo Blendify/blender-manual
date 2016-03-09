@@ -1,4 +1,7 @@
 
+.. |render-button| image:: /images/icons_render.png
+   :width: 50px
+
 *************
 OpenGL Render
 *************
@@ -56,12 +59,8 @@ Rendering
 
 Activating OpenGL render from the menu will render from the active camera.
 
-.. figure:: /images/icons_render.png
-   :width: 35px
-   :align: right
-
 You can also render any view-port, from the header of the *3D View*,
-using the small button showing a *Camera* (together with a small image showing a *slate*)
+using the small button showing a *Camera* (|render-button|).
 
 As with a normal render, you can abort it with :kbd:`Esc`.
 
