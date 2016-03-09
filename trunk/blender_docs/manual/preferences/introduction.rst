@@ -11,7 +11,7 @@ The Blender *User Preferences* editor contains settings to to control how Blende
 Open User Preferences
 =====================
 
-.. |user-preferences-icon| image:: /images/user_prefs-icon.jpg
+.. |user-preferences-icon| image:: /images/icons_user-preferences.jpg
 
 To open a Blender *User Preferences* editor go to :menuselection:`File --> User Preferences`.
 
