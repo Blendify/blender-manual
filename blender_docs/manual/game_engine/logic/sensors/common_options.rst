@@ -46,20 +46,19 @@ True level triggering
    If this is set, the connected controllers will be triggered as long as the sensor's state is positive.
    The sensor will trigger with the delay (see parameter: frequency) of the sensor.
 
-.. figure:: /images/icons_sensor-true.jpg
+.. figure:: /images/icons_sensor-true.png
    :align: right
 
 False level triggering
    If this is set, the connected controllers will be triggered as long as the sensor's state is negative.
    The sensor will trigger with the delay (see parameter: frequency) of the sensor.
 
-.. figure:: /images/icons_sensor-false.jpg
+.. figure:: /images/icons_sensor-false.png
    :align: right
 
 Freq
    Despite it's name "Frequency", this parameter sets the delay between repeated triggers,
-   measured in frames (also known as logic ticks).
-   The default value is 0 and it means no delay.
+   measured in frames (also known as logic ticks). The default value is 0 and it means no delay.
    It is only used at least one of the level triggering parameters are enabled.
 
    Raising the value of *freq* is a good way for saving performance costs by avoiding
