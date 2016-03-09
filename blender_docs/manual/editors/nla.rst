@@ -43,7 +43,7 @@ Creating Action Strips
 
 Any action used by the NLA first must be turned into an Action strip. This is done so by clicking the
 
-.. figure:: /images/icon_snowflake.jpg
+.. figure:: /images/icons_snowflake.jpg
 
 
  next to the action listed in the NLA. Alternatively, you can go to

@@ -46,14 +46,14 @@ True level triggering
    If this is set, the connected controllers will be triggered as long as the sensor's state is positive.
    The sensor will trigger with the delay (see parameter: frequency) of the sensor.
 
-.. figure:: /images/BGE_Sensor_Level_True_Button.jpg
+.. figure:: /images/icons_sensor-true.jpg
    :align: right
 
 False level triggering
    If this is set, the connected controllers will be triggered as long as the sensor's state is negative.
    The sensor will trigger with the delay (see parameter: frequency) of the sensor.
 
-.. figure:: /images/BGE_Sensor_Level_False_Button.jpg
+.. figure:: /images/icons_sensor-false.jpg
    :align: right
 
 Freq

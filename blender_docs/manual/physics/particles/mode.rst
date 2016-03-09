@@ -78,7 +78,7 @@ To be able to clearly see what you are working on:
 - Turn on the *Particle Edit Properties* (*PEP*) panel with :kbd:`N`.
 - Select *Point select mode*
 
-.. figure:: /images/Icon-library_3D-Window_PointSelectMode.jpg
+.. figure:: /images/icons_hair-points.jpg
 
  in the header of the 3D window. This will display key points along the particle path.
 
