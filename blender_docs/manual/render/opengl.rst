@@ -57,6 +57,7 @@ Rendering
 Activating OpenGL render from the menu will render from the active camera.
 
 .. figure:: /images/icons_render.png
+   :width: 35px
    :align: right
 
 You can also render any view-port, from the header of the *3D View*,

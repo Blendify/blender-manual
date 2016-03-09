@@ -52,16 +52,19 @@ Controls
 --------
 
 .. figure:: /images/icons_add.png
+   :width: 25px
 
    Add a new mark to the center of the colorband with the default color (neutral gray).
 
 
 .. figure:: /images/icons_minus.png
+   :width: 25px
 
    Remove the currently selected mark from the colorband.
 
 
 .. figure:: /images/icons_reverse.png
+   :width: 25px
 
    Flip the colorband.
 
