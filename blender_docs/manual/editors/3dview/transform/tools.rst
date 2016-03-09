@@ -80,5 +80,3 @@ Animated Transform to Deltas
    | Menu:     :menuselection:`Object --> Transform --> Animated Transform to Deltas`
 
 TODO.
-
-

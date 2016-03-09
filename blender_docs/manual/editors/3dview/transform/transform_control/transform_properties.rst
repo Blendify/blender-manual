@@ -8,7 +8,7 @@ These may need to be manipulated numerically, reset, or applied.
 
 
 Transform Properties Panel
-**************************
+==========================
 
 .. admonition:: Reference
    :class: refbox
@@ -27,7 +27,7 @@ see their respective descriptions in the :doc:`Modeling chapter </modeling/index
 
 
 Options in Object mode
-======================
+----------------------
 
 .. figure:: /images/Transform-properties-panel.jpg
 
@@ -59,7 +59,7 @@ of all of its *vertices* and faces.
 
 
 Transform Properties Locking
-============================
+----------------------------
 
 The locking feature of the Location, Rotation and Scale fields allows you to control a
 transform property solely from the properties panel.

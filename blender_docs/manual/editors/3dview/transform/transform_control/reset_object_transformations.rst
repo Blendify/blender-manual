@@ -5,19 +5,15 @@
 Clear Object transformations
 ****************************
 
+Clearing transforms simply resets the transform values.
+The objects location and rotation values return to 0, and the scale returns to 1.
+
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     *Object* mode
    | Menu:     :menuselection:`Object --> Clear --> Clear Location/Clear Scale/Clear Rotation/Clear Origin`
    | Hotkey:   :kbd:`Alt-G`, :kbd:`Alt-S`, :kbd:`Alt-R`, :kbd:`Alt-O`
-
-
-Description
-===========
-
-Clearing transforms simply resets the transform values.
-The objects location and rotation values return to 0, and the scale returns to 1.
 
 
 Clear Options
@@ -46,7 +42,7 @@ Clear Origin :kbd:`Alt-O`
 
 
 Apply Object transformations
-****************************
+============================
 
 .. admonition:: Reference
    :class: refbox
@@ -68,7 +64,7 @@ use the shortcut :kbd:`Ctrl-A` and select the appropriate transform to apply
 
 
 Apply Options
-=============
+-------------
 
 .. figure:: /images/3D-interaction_Transform-Control_Object-Transformations-apply-transformations.jpg
 
@@ -102,4 +98,3 @@ Apply Visual Transform :kbd:`Ctrl-A`
 
 Make Duplicate Real :kbd:`Shift-Ctrl-A`
    Make any duplicates attached to this Object real so that they can be edited.
-
