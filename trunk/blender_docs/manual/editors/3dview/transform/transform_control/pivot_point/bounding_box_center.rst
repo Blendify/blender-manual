@@ -1,4 +1,5 @@
 
+****************************
 Bounding Box Center as Pivot
 ****************************
 
@@ -64,5 +65,3 @@ only the center of the selected vertices.
 
    The effects of rotation in different mesh selection modes when the bounding box is set as the pivot point.
    The pivot point is shown by a yellow circle.
-
-

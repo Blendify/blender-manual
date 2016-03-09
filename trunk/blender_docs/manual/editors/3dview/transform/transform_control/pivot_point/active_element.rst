@@ -1,4 +1,5 @@
 
+***********************
 Active Element as Pivot
 ***********************
 
@@ -105,5 +106,3 @@ the selected elements have been rotated.
 - *Fgons* behave exactly like faces.
 - There is a case for *Vertices* this time: the active Vertex is where the pivot point resides.
   All other vertices are transformed relative to it.
-
-

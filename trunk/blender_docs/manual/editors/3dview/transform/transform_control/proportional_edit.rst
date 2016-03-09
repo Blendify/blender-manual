@@ -1,4 +1,5 @@
 
+*****************
 Proportional Edit
 *****************
 
@@ -43,6 +44,8 @@ the other two cubes follow the movement.
 
    Proportional editing in Object mode.
 
+
+.. Todo move to modeling section
 
 Edit mode
 =========
@@ -203,5 +206,3 @@ application of textures and lighting.
    :width: 620px
 
    Final rendered landscape.
-
-

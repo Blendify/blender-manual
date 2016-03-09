@@ -1,4 +1,5 @@
 
+*********************
 Median Point as Pivot
 *********************
 
@@ -50,5 +51,3 @@ you can see that the median point has shifted to the region with the most vertic
    :width: 640px
 
    Median points in Edit Mode. The Median point is indicated by the yellow dot.
-
-

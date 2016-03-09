@@ -1,5 +1,6 @@
 
-Numeric input
+*************
+Numeric Input
 *************
 
 .. figure:: /images/3D_interaction-Transform_Control-Numeric_Input_numeric-input-header.jpg
@@ -85,4 +86,3 @@ It is also possible to enter numeric values for each transformation using the
 *Transform* panel found on the Properties shelf (:kbd:`N`). The
 *Transform* panel can also be used to prevent transformations along particular axes
 by clicking the lock icon.
-

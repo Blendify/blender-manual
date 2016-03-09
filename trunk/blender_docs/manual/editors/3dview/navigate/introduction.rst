@@ -237,5 +237,3 @@ so it's rather useful if someone asks to see the wireframe of an Object you're w
 The second button will render an animation of the 3D View,
 making it useful for making preview renders of animations. The animation will be saved in the
 folder and format specified in the *Output* panel of the *Render* context.
-
-

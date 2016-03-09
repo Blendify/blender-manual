@@ -5,6 +5,7 @@
    global orientation when transformations are made by shortcuts}} .
 
 
+**********************
 Transform Orientations
 **********************
 
@@ -221,4 +222,3 @@ In *Figure 1*, to achieve this effect:
 - Cancel the extrusion's default movement by pressing :kbd:`RMB` or :kbd:`Esc`.
 - Hit :kbd:`G` to reinitiate movement.
 - Hit :kbd:`Z-Z` to constrain to the "Top Edge" orientation.
-

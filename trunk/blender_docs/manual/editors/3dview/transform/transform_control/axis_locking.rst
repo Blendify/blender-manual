@@ -1,9 +1,7 @@
 
+************
 Axis Locking
 ************
-
-Description
-===========
 
 .. figure:: /images/3D_interaction-Transform_Control-Axis_locking-axis-locking.jpg
    :width: 150px
@@ -20,15 +18,10 @@ By locking a transformation to a particular axis you are restricting transformat
 Usage
 -----
 
-A locked axis will display in a brighter color than an unlocked axis.
-For example in the image to the right,
-the Z axis is drawn in light blue as movement is constrained to this axis.
-This example can be achieved in two ways:
-
+A locked axis will display in a brighter color than an unlocked axis. For example in the image to the right,
+the Z axis is drawn in light blue as movement is constrained to this axis. This example, can be achieved in two ways:
 
 - Press :kbd:`G` to enable translation, press :kbd:`Z` to constrain movement to the Z-axis.
-
-
 - Press :kbd:`G` to enable translation, move the mouse in the Z direction, then press :kbd:`MMB`.
 
 
@@ -45,9 +38,8 @@ Axis locking
    | Hotkey:   :kbd:`X`, :kbd:`Y`, :kbd:`Z` or :kbd:`MMB` after moving the mouse in the desired direction.
 
 
-Axis locking limits the transformation to a single axis
-(or forbids transformations along two axes). An object, face,
-vertex or other selectable item will only be able to move,
+Axis locking limits the transformation to a single axis (or forbids transformations along two axes).
+An object, face, vertex or other selectable item will only be able to move,
 scale or rotate in a single dimension.
 
 
@@ -100,9 +92,6 @@ again will lock translation to the Z axis relative to the *Normal* orientation.
 Pressing :kbd:`Z` again will remove all constraints.
 The current mode will be displayed in the left hand side of the *3D window header*.
 
-
-----
-
 As can be seen in the *Axis locking modes* image,
 the direction of the transform also takes into account the selection. Sections A and B show Z
 axis locking in *Global* and *Normal* orientations respectively.
@@ -111,4 +100,3 @@ E and F with edge selection and G and H with vertex selection.
 
 Note that using a locked axis does not prevent you from using the keyboard to enter
 :doc:`numeric transformation </editors/3dview/transform/transform_control/numeric_input>` values.
-
