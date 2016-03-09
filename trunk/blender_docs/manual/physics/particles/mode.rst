@@ -1,5 +1,5 @@
 
-.. |hair-point-button| image:: /images/icons_add.png
+.. |hair-point-button| image:: /images/icons_hair-points.png
    :width: 25px
 
 *************
