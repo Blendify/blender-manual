@@ -14,7 +14,7 @@ Surprisingly, "linking" an armature to the object(s)
 it should transform and/or deform is called the "skinning" process...
 
 
-.. figure:: /images/Quick62.jpg
+.. figure:: /images/Quick62.png
    :width: 600px
 
    The ginebread mesh skinned on its armature.
@@ -31,4 +31,3 @@ In Blender, you have two main skinning types:
   This is the more complex and powerful method,
   and *the only way to really deform the geometry of the object*,
   i.e. to modify its vertices/control points relative positions.
-

@@ -105,7 +105,7 @@ and in the 3D View header, select *Object* --> *Convert Object Type*
 Cloth - Object collisions
 -------------------------
 
-.. figure:: /images/Panel-Collision.jpg
+.. figure:: /images/Panel-Collision.png
    :width: 200px
 
    Collision settings.
