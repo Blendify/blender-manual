@@ -2,9 +2,9 @@
 ..    TODO/Review: {{review|copy=X}} .
 
 
-********
-Skinning
-********
+************
+Introduction
+************
 
 We have seen in :doc:`previous pages </rigging/armatures/index>` how to design an armature,
 create chains of bones, etc.
