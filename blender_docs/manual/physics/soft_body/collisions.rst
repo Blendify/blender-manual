@@ -15,20 +15,20 @@ you can use edges and faces to improve the collision calculation.
 
 
 Collisions with other objects
-*****************************
+=============================
 
 For a *Soft Body* to collide with another object there are a few prerequisites:
 
 - Both objects have to share a layer, but the layer does not necessarily have to be visible.
 - The collision object has to be a mesh object.
 - You have to activate the option *Collision* in the *Collision* panel of the *Physics* sub-context
-  (*Image 1*) for the collision object. The collision object may also be a Soft Body.
+  for the collision object. The collision object may also be a Soft Body.
 - If you use modifiers such as *Array* and *Mirror* you have to activate *EV.M.Stack* to ensure
   that collision calculation is based on the modified object. The sequence of *Modifiers* is not important.
 
 
 Examples
-========
+--------
 
 .. list-table::
 
@@ -57,7 +57,7 @@ so you can get an idea of how we might optimize it.
 
 
 Calculating Collisions
-======================
+----------------------
 
 .. list-table::
 
@@ -92,7 +92,7 @@ that the fourth vertex also travels quite fast and because it is heavier it brea
 zone. The first three vertices collide OK.
 
 
-.. figure:: /images/softbodycollidingedges.jpg
+.. figure:: /images/softbodycollidingedges.png
 
    Image 3d: Also Edges and Faces can be used for the collision calculation.
 
@@ -104,9 +104,9 @@ the collision zones are not used.
 
 
 Good collisions
-===============
+---------------
 
-.. figure:: /images/softbodysolverparameters.jpg
+.. figure:: /images/softbodysolverparameters.png
 
    Image 4: Parameters for Soft Body calculation.
 
@@ -136,7 +136,7 @@ however this may be difficult if you are using an animated mesh.
 
 
 Self Collision
-**************
+==============
 
 *Self Collision* is working only if you have activated *Use Edges*.
 
@@ -180,5 +180,3 @@ Damping
 
 Collisions with other objects are set in the (other) :doc:`Collision panel </physics/collision>`.
 To collide with another object they have to share at least one common layer.
-
-
