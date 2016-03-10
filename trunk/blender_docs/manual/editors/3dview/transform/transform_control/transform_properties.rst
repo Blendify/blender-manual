@@ -1,4 +1,9 @@
 
+.. |lock-button| image:: /images/icons_lock.png
+   :width: 25px
+.. |unlock-button| image:: /images/icons_unlock.png
+   :width: 25px
+
 ********************
 Transform Properties
 ********************
@@ -69,13 +74,6 @@ translate the object along the global X axis.
 However, you can still translate it using the *Location X* edit field.
 Consider the locking feature as a rigid constraint only changeable from the panel.
 
-To lock a field, click the padlock icon next to the field. The field is unlocked if the icon appears as (
-
-.. figure:: /images/icons_unlock.jpg
-
-), and it is locked if the icon appears as (
-
-.. figure:: /images/icons_lock.jpg
-
-).
-
+To lock a field, click the padlock icon next to the field.
+The field is unlocked if the icon appears as (|unlock-button|),
+and it is locked if the icon appears as (|lock-button|).
