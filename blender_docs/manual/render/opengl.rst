@@ -50,7 +50,7 @@ however some render settings are used too.
 - Render Dimensions
 - Render Aspect
 - Anti-Aliasing, Samples & Full Sample (for slower, higher quality output).
-- Alpha (*Sky* background is only used when the 3D view has *World Background* enabled).
+- Alpha.
 - File Format & Output (file-path, format, compression settings... etc).
 
 
