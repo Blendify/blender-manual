@@ -238,27 +238,8 @@ much like the `Utah Tea Pot <http://en.wikipedia.org/wiki/Utah_teapot>`__
 or the `Stanford Bunny <http://en.wikipedia.org/wiki/Stanford_Bunny>`__.
 
 
-Add-ons
-=======
+.. note:: Add-ons
 
-.. figure:: /images/Mesh-Structures-script-primitives.jpg
-   :width: 600px
-
-   A few of the mesh primitives available as add-ons.
-
-
-In addition to the basic geometric primitives, Blender has a constantly increasing number of
-script generated meshes to offer as pre-installed add-ons. These become available when
-enabled in the *User Preferences* ' *Add-ons* section
-(filter by *Add Mesh*). Only a few are mentioned here:
-
-`Landscape <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Add Mesh/ANT Landscape>`__
-   Adds a landscape primitive. Many parameters and filters appear in the *Tool Shelf*.
-
-`Pipe Joints <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Add Mesh/Add Pipe Joints>`__
-   Adds one of five different pipe joint primitives.
-   Radius, angle, and other parameters can be changed in the *Tool Shelf*.
-
-`Gears <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Add Mesh/Add Gear>`__
-   Adds a gear or a `worm <http://en.wikipedia.org/wiki/Worm_drive>`__
-   with many parameters to control the shape in the *Tool Shelf*.
+   In addition to the basic geometric primitives, Blender has a number of script
+   generated meshes to offer as pre-installed add-ons. These become available when
+   enabled in the *User Preferences Addons* section (filter by *Add Mesh*).

@@ -1,7 +1,7 @@
 
-***********************
-Active Element as Pivot
-***********************
+**************
+Active Element
+**************
 
 .. admonition:: Reference
    :class: refbox

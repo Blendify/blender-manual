@@ -1,7 +1,7 @@
 
-***************************
-Individual Origins as Pivot
-***************************
+******************
+Individual Origins
+******************
 
 .. admonition:: Reference
    :class: refbox

@@ -1,9 +1,9 @@
+
 ################
-  Texture types
+  Texture Types
 ################
 
 .. toctree::
-   :titlesonly:
    :maxdepth: 2
 
    introduction.rst

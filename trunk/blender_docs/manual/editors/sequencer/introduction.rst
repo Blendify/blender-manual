@@ -4,19 +4,14 @@ Introduction
 ************
 
 In addition to modeling and animation, Blender has a fully functional Video Sequence Editor (VSE)
-as well as an advanced node-based editor that also manipulates a video stream.
-:doc:`Compositing Nodes </compositing/types/index>` operate equally well on images or video streams,
-and can apply detailed image manipulation on the stream.
-
+as well as an advanced :doc:`Compositor </compositing/introduction>` that also manipulates a video stream.
 The VSE within Blender is a complete video editing system that allows you to combine multiple
 video channels and add effects to them. You can use these effects to create powerful video edits
-(especially when you combine it with the animation power of Blender!) Furthermore,
-it is extensible via a plugin system to perform an unlimited number of image manipulations.
+(especially when you combine it with the animation power of Blender!).
 
-Using the VSE, you load multiple video clips and lay them end-to-end (or in some cases, overlay them),
+To use the VSE, you load multiple video clips and lay them end-to-end (or in some cases, overlay them),
 inserting fades and transitions to link the end of one clip to the beginning of another.
-Finally, add an audio track so you can synchronize the timing of the video sequence to match it.
-The result of using the VSE is your finished movie.
+Finally, you can audio and synchronize the timing of the video sequence to match it.
 
 .. figure:: /images/sequencer_modes_screen_layout.jpg
 
