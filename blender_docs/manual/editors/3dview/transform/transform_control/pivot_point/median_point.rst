@@ -1,7 +1,7 @@
 
-*********************
-Median Point as Pivot
-*********************
+************
+Median Point
+************
 
 .. admonition:: Reference
    :class: refbox

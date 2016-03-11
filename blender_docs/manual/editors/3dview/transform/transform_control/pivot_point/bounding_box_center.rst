@@ -1,7 +1,7 @@
 
-****************************
-Bounding Box Center as Pivot
-****************************
+*******************
+Bounding Box Center
+*******************
 
 .. admonition:: Reference
    :class: refbox
