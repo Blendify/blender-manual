@@ -31,8 +31,10 @@ Performance
 Slow Drawing
 ------------
 
-TODO.
-
+There are a couple of reasons why you may be experiencing a slow viewport.
+The first is that your hardware, mainly your graphics card, may be too slow to keep up with your model.
+The second is that your your graphics card driver may be out of date,
+you will always want to use the latest supported driver for your hardware.
 
 Slow Selection
 --------------
@@ -48,7 +50,7 @@ OpenGL Occlusion Queries (User Preference)
 
    This option defaults *Automatic*, try setting this to *OpenGL Occlusion Queries*,
    since there is a significant performance difference under some configurations.
-Upgrade OpenGL Driver
+Upgrade Graphics Driver
    In some cases, slow selection is resolved by using updated drivers.
    *It's generally good to use recent drivers when using 3D software.*
 Select Centers (Workaround)
@@ -113,7 +115,7 @@ Change Anti-Aliasing Sample Settings
    some specific sample settings may work while others fail.
 
    Unfortunately finding working configuration involves trial & error testing.
-Upgrade OpenGL Driver
+Upgrade Graphics Driver
    As with any OpenGL related issues, using recent drivers can resolve problems.
 
    However, it should be noted that this is a fairly common problem and remains unresolved with many drivers.
