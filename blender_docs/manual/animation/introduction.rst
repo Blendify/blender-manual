@@ -71,7 +71,7 @@ Drivers
 - :doc:`Driven Shape Keys </animation/shape_keys>`
 
 The `Introduction to Character Animation tutorial
-<http://wiki.blender.org/index.php/Doc:Tutorials/Animation/BSoD/Character_Animation BSoD>`__
+<https://wiki.blender.org/index.php/Doc:Tutorials/Animation/BSoD/Character_Animation BSoD>`__
 is a good starting point for learning character animation.
 Even if you never used Blender before.
 
@@ -128,8 +128,8 @@ Categories
 :doc:`Motion Tracking </editors/movie_clip_editor/index>`
    Motion tracking is a new technique available in Blender. It is still under development,
    and currently supports basic operations for 2D motion tracking, 3D motion tracking, and camera solution.
-`Animation Scripts <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts#Animation_Scripts>`__
+`Animation Scripts <https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts#Animation_Scripts>`__
    Add-on scripts for animation.
-`Rigging Scripts <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts#Rigging_Scripts>`__
+`Rigging Scripts <https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts#Rigging_Scripts>`__
    Add-on scripts for rigging.
 

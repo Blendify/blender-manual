@@ -28,7 +28,7 @@ Installing SVN and Downloading the Repository
 
 In this guide, we'll use TortoiseSVN though any Subversion client will do.
 
-#. Download TortoiseSVN for MS-Windows from `here <http://tortoisesvn.net/downloads.html>`__
+#. Download TortoiseSVN for MS-Windows from `here <https://tortoisesvn.net/downloads.html>`__
 #. Install TortoiseSVN with the installation wizard. When choosing which features will be installed,
    it is recommended that you enable *command line client tools* to give you access to SVN from the command line
    (there is no harm in doing this, and it may be helpful if you ever run into any trouble).

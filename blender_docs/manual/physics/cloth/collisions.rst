@@ -69,7 +69,7 @@ Distance
    (most likely many penetrations) but also gives some speedup.
 
 Regression blend-file:
-`Cloth selfcollisions <http://wiki.blender.org/index.php/Media:Cloth-regression-selfcollisions.blend>`__.
+`Cloth selfcollisions <https://wiki.blender.org/index.php/Media:Cloth-regression-selfcollisions.blend>`__.
 
 
 Shared Layers

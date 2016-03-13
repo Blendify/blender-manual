@@ -35,7 +35,7 @@ Direct+Indirect Lighting:
    Direct+Indirect Lighting Render
 
 
-Images courtesy of `rastermon.com <http://web.archive.org/web/20050204031559/http://rastermon.com/GI1.htm>`__
+Images courtesy of `rastermon.com <https://web.archive.org/web/20050204031559/https://rastermon.com/GI1.htm>`__
 
 
 Indirect Lighting only works with Approximate gather method.

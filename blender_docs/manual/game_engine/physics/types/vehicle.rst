@@ -38,7 +38,7 @@ keeping it from hitting the ground. In effect, the vehicle chassis 'floats' alon
 The friction force is calculated for each wheel where the ray contacts the ground.
 This is applied as a sideways and forwards force.
 
-You can check Kester Maddock's approach to vehicle simulation `here <http://tinyurl.com/ydfb7lm>`__.
+You can check Kester Maddock's approach to vehicle simulation `here <https://tinyurl.com/ydfb7lm>`__.
 It includes some common problems, workarounds and tips and tricks.
 
 How to use

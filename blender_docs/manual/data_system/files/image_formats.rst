@@ -161,7 +161,7 @@ and 1.0 (as a result of rendering or composite).
 OpenEXR
 -------
 
-`ILM's OpenEXR <http://www.openexr.com>`__ has become a software industry standard for HDR image files,
+`ILM's OpenEXR <https://www.openexr.com>`__ has become a software industry standard for HDR image files,
 especially because of its flexible and expandable structure.
 
 An OpenEXR file can store multiple layers and passes.

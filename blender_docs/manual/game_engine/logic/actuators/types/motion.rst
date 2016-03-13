@@ -123,4 +123,4 @@ Derivative Coefficient
    Set the Derivative Coefficient. This dampens the acceleration when
    the target velocity is almost reached.
 
-.. _PID controller: http://en.wikipedia.org/wiki/PID_controller
+.. _PID controller: https://en.wikipedia.org/wiki/PID_controller

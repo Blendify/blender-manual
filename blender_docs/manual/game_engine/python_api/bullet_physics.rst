@@ -17,7 +17,7 @@ Features:
 - Access to internal physics settings, like deactivation time, debugging features.
 
 Easiest is to look at the Bullet physics demos, how to use them. More information can be found
-`here <http://www.continuousphysics.com/Bullet/phpBB2/viewforum.php?f=17>`__.
+`here <https://www.continuousphysics.com/Bullet/phpBB2/viewforum.php?f=17>`__.
 
 Python script example:
 ::

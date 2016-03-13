@@ -11,10 +11,10 @@ Contribute
 
 On this page French (``fr``) is used for examples,
 however, it can be replaced with other
-`languages codes <http://www.gnu.org/software/gettext/manual/html_node/Usual-Language-Codes.html>`__.
+`languages codes <https://www.gnu.org/software/gettext/manual/html_node/Usual-Language-Codes.html>`__.
 
 To see which languages are currently available, you can browse the repository:
-http://developer.blender.org/diffusion/BMT/browse/trunk/blender_docs/locale
+https://developer.blender.org/diffusion/BMT/browse/trunk/blender_docs/locale
 
 
 Installing Dependencies
@@ -64,7 +64,7 @@ Building with Translations
 .. note::
 
    This is optional, translations are automatically built online, eg:
-   http://www.blender.org/manual/fr/
+   https://www.blender.org/manual/fr/
 
    This is quite involved,
    so it's not be expected that translators should be doing their own builds locally.
@@ -171,4 +171,4 @@ If you want only a summary, append ``-q`` to the command above. For more options
 .. seealso::
 
    Instructions on this page are based on
-   `Sphinx Intl documentation <http://sphinx-doc.org/latest/intl.html>`__
+   `Sphinx Intl documentation <https://sphinx-doc.org/latest/intl.html>`__

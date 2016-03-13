@@ -93,7 +93,7 @@ Data or Modifiers Textures
    - volumetric materials use Voxel Data textures, or Point Density textures
    - textures can be obtained from an Ocean Modifier
 
-`CRL <http://wiki.blender.org/index.php/User:Chrisryanleggett>`__ 02:25, 26 May 2014 (UTC)(Sign)
+`CRL <https://wiki.blender.org/index.php/User:Chrisryanleggett>`__ 02:25, 26 May 2014 (UTC)(Sign)
 
 
 World Textures
@@ -150,7 +150,7 @@ Paper
    but it is clipped in the image (it stays on a horizontal plane (parallel to x-y plane):
    what ever the angle of the camera may be, the horizon is always at the middle of the image).
 
-`CRL <http://wiki.blender.org/index.php/User:Chrisryanleggett>`__ 02:31, 26 May 2014 (UTC)(Sign)
+`CRL <https://wiki.blender.org/index.php/User:Chrisryanleggett>`__ 02:31, 26 May 2014 (UTC)(Sign)
 
 
 Brush Textures

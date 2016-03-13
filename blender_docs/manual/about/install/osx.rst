@@ -22,9 +22,9 @@ Installing Dependencies
 
 Install those packages or make sure you have them in your system.
 
-- `Python <http://www.python.org/>`__
+- `Python <https://www.python.org/>`__
 - `PIP <https://pip.pypa.io/en/latest/installing.html>`__
-- `Subversion <http://subversion.apache.org/>`__
+- `Subversion <https://subversion.apache.org/>`__
 
 
 Downloading the Repository

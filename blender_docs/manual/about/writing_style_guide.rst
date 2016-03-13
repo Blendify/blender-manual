@@ -46,7 +46,7 @@ Rules of thumb:
 To be avoided:
 
 - Avoid writing in first person perspective, about yourself or your own opinions.
-- Avoid `weasel words <http://en.wikipedia.org/wiki/Weasel_word>`__ and being unnecessarily vague, eg:
+- Avoid `weasel words <https://en.wikipedia.org/wiki/Weasel_word>`__ and being unnecessarily vague, eg:
 
   | *"Reloading the file will probably fix the problem"*
   | *"Most people don't use this option because ..."*
@@ -115,7 +115,7 @@ Rules of thumb:
 
   .. code-block:: rst
 
-     See also `OpenGL <http://en.wikipedia.org/wiki/OpenGL>`__ on Wikipedia.
+     See also `OpenGL <https://en.wikipedia.org/wiki/OpenGL>`__ on Wikipedia.
 
 
 Examples

@@ -27,7 +27,7 @@ but some support the Alpha channel as well. Codecs that support RGBA include:
 
 - Quicktime
 - PNG TIFF Pixlet - not loss-less, and may be only available on Mac-OSX.
-- `Lagarith Lossless Video Codec <http://lags.leetcode.net/codec.html>`__
+- `Lagarith Lossless Video Codec <https://lags.leetcode.net/codec.html>`__
 
 AVI Codec
    AVI codec compression. Available codecs are operating-system dependent.
@@ -41,7 +41,7 @@ AVI Raw
    Audio-Video Interlaced (AVI) uncompressed frames.
 Frameserver
    Blender puts out `frames upon request
-   <http://wiki.blender.org/index.php/Dev:Source/Render/Frameserver>`__
+   <https://wiki.blender.org/index.php/Dev:Source/Render/Frameserver>`__
    as part of a render farm.
    The port number is specified in the OpenGL User Preferences panel.
 H.264
@@ -61,44 +61,44 @@ Xvid
 Video Containers
 ================
 
-`MPEG-1 <http://en.wikipedia.org/wiki/MPEG-1>`__: ``.mpg``, ``.mpeg``
+`MPEG-1 <https://en.wikipedia.org/wiki/MPEG-1>`__: ``.mpg``, ``.mpeg``
    A standard for lossy compression of video and audio.
    It is designed to compress VHS-quality raw digital video and CD audio down to 1.5 Mbit/s.
-`MPEG-2 <http://en.wikipedia.org/wiki/MPEG-2>`__: ``.dvd``, ``.vob``, ``.mpg``, ``.mpeg``
+`MPEG-2 <https://en.wikipedia.org/wiki/MPEG-2>`__: ``.dvd``, ``.vob``, ``.mpg``, ``.mpeg``
    A standard for "the generic coding of moving pictures and associated audio information".
    It describes a combination of lossy video compression and lossy audio data compression
    methods which permit storage and transmission of movies using currently
    available storage media and transmission bandwidth.
-`MPEG-4(DivX) <http://en.wikipedia.org/wiki/MPEG-4>`__: ``.mp4``, ``.mpg``, ``.mpeg``
+`MPEG-4(DivX) <https://en.wikipedia.org/wiki/MPEG-4>`__: ``.mp4``, ``.mpg``, ``.mpeg``
    Absorbs many of the features of MPEG-1 and MPEG-2 and other related standards, and adds new features.
-`AVI <http://en.wikipedia.org/wiki/Audio_Video_Interleave>`__: ``.avi``
+`AVI <https://en.wikipedia.org/wiki/Audio_Video_Interleave>`__: ``.avi``
    A derivative of the Resource Interchange File Format (RIFF), which divides a file's data into blocks, or "chunks."
-`Quicktime <http://en.wikipedia.org/wiki/.mov>`__: ``.mov``
+`Quicktime <https://en.wikipedia.org/wiki/.mov>`__: ``.mov``
    A multi-tracked format. QuickTime and MP4 container formats can use the same MPEG-4 formats;
    they are mostly interchangeable in a QuickTime-only environment.
    MP4, being an international standard, has more support.
-`DV <http://en.wikipedia.org/wiki/DV>`__: ``.dv``
+`DV <https://en.wikipedia.org/wiki/DV>`__: ``.dv``
    An intraframe video compression scheme,
    which uses the discrete cosine transform (DCT) to compress video on a frame-by-frame basis.
    Audio is stored uncompressed.
-`H.264 <http://en.wikipedia.org/wiki/H.264>`__: ``.avi`` *for now*.
+`H.264 <https://en.wikipedia.org/wiki/H.264>`__: ``.avi`` *for now*.
    A standard for video compression, and is currently one of the most commonly used formats for the recording,
    compression, and distribution of high definition video.
-`Xvid <http://en.wikipedia.org/wiki/Xvid>`__: ``.avi`` *for now*
+`Xvid <https://en.wikipedia.org/wiki/Xvid>`__: ``.avi`` *for now*
    A video codec library following the MPEG-4 standard. It uses ASP features such as b-frames,
    global and quarter pixel motion compensation, lumi masking, trellis quantization, and H.263,
    MPEG and custom quantization matrices. Xvid is a primary competitor of the DivX Pro Codec.
-`Ogg <http://en.wikipedia.org/wiki/Theora>`__: ``.ogg``, ``.ogv``
+`Ogg <https://en.wikipedia.org/wiki/Theora>`__: ``.ogg``, ``.ogv``
    A free lossy video compression format.
    It is developed by the Xiph.Org Foundation and distributed without licensing fees.
-`Matroska <http://en.wikipedia.org/wiki/Matroska>`__: ``.mkv``
+`Matroska <https://en.wikipedia.org/wiki/Matroska>`__: ``.mkv``
    An open standard free container format, a file format that can hold an unlimited number of video,
    audio, picture or subtitle tracks in one file.
-`Flash <http://en.wikipedia.org/wiki/Flash_Video>`__: ``.flv``
+`Flash <https://en.wikipedia.org/wiki/Flash_Video>`__: ``.flv``
    A container file format used to deliver video over the Internet using Adobe Flash Player.
-`Wav <http://en.wikipedia.org/wiki/Wav>`__: ``.wav``
+`Wav <https://en.wikipedia.org/wiki/Wav>`__: ``.wav``
    An uncompressed (or lightly compressed) Microsoft and IBM audio file format.
-`Mp3 <http://en.wikipedia.org/wiki/MP3>`__: ``.mp3``
+`Mp3 <https://en.wikipedia.org/wiki/MP3>`__: ``.mp3``
    A highly-compressed, patented digital audio encoding format using a form of lossy data compression.
    It is a common audio format for consumer audio storage, as well as a de facto standard of digital
    audio compression for the transfer and playback of music on digital audio players.
@@ -108,26 +108,26 @@ Video Codecs
 
 None
    *For audio-only encoding.*
-`MPEG-1 <http://en.wikipedia.org/wiki/MPEG-1>`__
+`MPEG-1 <https://en.wikipedia.org/wiki/MPEG-1>`__
    See `Video Formats`_.
-`MPEG-2 <http://en.wikipedia.org/wiki/MPEG-2>`__
+`MPEG-2 <https://en.wikipedia.org/wiki/MPEG-2>`__
    See `Video Formats`_.
-`MPEG-4(DivX) <http://en.wikipedia.org/wiki/MPEG-4>`__
+`MPEG-4(DivX) <https://en.wikipedia.org/wiki/MPEG-4>`__
    See `Video Formats`_.
-`HuffYUV <http://en.wikipedia.org/wiki/HuffYUV>`__
+`HuffYUV <https://en.wikipedia.org/wiki/HuffYUV>`__
    Lossless video codec created by Ben Rudiak-Gould which is
    meant to replace uncompressed YCbCr as a video capture format.
-`DV <http://en.wikipedia.org/wiki/DV>`__
+`DV <https://en.wikipedia.org/wiki/DV>`__
    See `Video Formats`_.
-`H.264 <http://en.wikipedia.org/wiki/H.264>`__
+`H.264 <https://en.wikipedia.org/wiki/H.264>`__
    See `Video Formats`_.
-`Xvid <http://en.wikipedia.org/wiki/Xvid>`__
+`Xvid <https://en.wikipedia.org/wiki/Xvid>`__
    See `Video Formats`_.
-`Theora <http://en.wikipedia.org/wiki/Theora>`__
+`Theora <https://en.wikipedia.org/wiki/Theora>`__
    See Ogg in `Video Formats`_.
-`Flash Video <http://en.wikipedia.org/wiki/Flash_Video>`__
+`Flash Video <https://en.wikipedia.org/wiki/Flash_Video>`__
    See `Video Formats`_.
-`FFmpeg video codec #1 <http://en.wikipedia.org/wiki/FFV1>`__
+`FFmpeg video codec #1 <https://en.wikipedia.org/wiki/FFV1>`__
    A.K.A. FFV1, a loss-less intra-frame video codec.
    It can use either variable length coding or arithmetic coding for entropy coding.
    The encoder and decoder are part of the free, open-source library libavcodec in FFmpeg.
@@ -136,25 +136,25 @@ None
 Audio Containers
 ================
 
-`MP2 <http://en.wikipedia.org/wiki/MPEG-1_Audio_Layer_II>`__
+`MP2 <https://en.wikipedia.org/wiki/MPEG-1_Audio_Layer_II>`__
    A lossy audio compression format defined by ISO/IEC 11172-3.
-`MP3 <http://en.wikipedia.org/wiki/MP3>`__
+`MP3 <https://en.wikipedia.org/wiki/MP3>`__
    See MP3 in `Video Formats`_ above.)
-`AC3 <http://en.wikipedia.org/wiki/Dolby_Digital>`__
+`AC3 <https://en.wikipedia.org/wiki/Dolby_Digital>`__
    Audio Codec 3, an audio compression technology developed by Dolby Laboratories.
-`AAC <http://en.wikipedia.org/wiki/Advanced_Audio_Coding>`__
+`AAC <https://en.wikipedia.org/wiki/Advanced_Audio_Coding>`__
    Advanced Audio Codec," a standardized, lossy compression and encoding scheme for digital audio.
 
    *AAC generally achieves better sound quality than MP3 at similar bit rates.*
-`Vorbis <http://en.wikipedia.org/wiki/Vorbis>`__
+`Vorbis <https://en.wikipedia.org/wiki/Vorbis>`__
    An open-standard, highly-compressed format comparable to MP3 or AAC.
 
    *Vorbis generally achieves better sound quality than MP3 at similar bit rates.*
-`FLAC <http://en.wikipedia.org/wiki/FLAC>`__
+`FLAC <https://en.wikipedia.org/wiki/FLAC>`__
    Free Lossless Audio Codec.
    Digital audio compressed by FLAC's algorithm can typically be reduced to 50-60% of its original size,
    and decompressed into an identical copy of the original audio data.
-`PCM <http://en.wikipedia.org/wiki/PCM>`__
+`PCM <https://en.wikipedia.org/wiki/PCM>`__
    Pulse Code Modulation, a method used to digitally represent sampled analog signals.
    It is the standard form for digital audio in computers and various Blu-ray,
    Compact Disc and DVD formats, as well as other uses such as digital telephone systems

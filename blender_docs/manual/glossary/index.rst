@@ -133,12 +133,12 @@ For other common conventions used throughout the manual.
    Color Blend Modes
       Methods for blending two colors together.
 
-      See also `Blend Modes <http://en.wikipedia.org/wiki/Blend_modes>`__ on Wikipedia.
+      See also `Blend Modes <https://en.wikipedia.org/wiki/Blend_modes>`__ on Wikipedia.
 
    Color Space
       TODO.
 
-      See also `Color Spaces <http://en.wikipedia.org/wiki/Color_space>`__ on Wikipedia.
+      See also `Color Spaces <https://en.wikipedia.org/wiki/Color_space>`__ on Wikipedia.
 
    Concave face
       Face in which one vert is inside a triangle formed by other vertices of the face.
@@ -252,7 +252,7 @@ For other common conventions used throughout the manual.
    Gamma
       An operation used to adjust the brightness of an image.
 
-      See also `Gamma correction <http://en.wikipedia.org/wiki/Gamma_correction>`__ on Wikipedia.
+      See also `Gamma correction <https://en.wikipedia.org/wiki/Gamma_correction>`__ on Wikipedia.
 
    Geometric Center
       The mean average of the positions of all vertices making up the object.
@@ -261,8 +261,8 @@ For other common conventions used throughout the manual.
       The limitation where axes of rotation can become aligned,
       losing the ability to rotate on an axis (typically associated with :term:`euler rotation`).
 
-      - See also `Gimbal lock <http://en.wikipedia.org/wiki/Gimbal_lock>`__ on Wikipedia.
-      - See also `Gimbal lock <http://blender.stackexchange.com/questions/469>`__ on Stackexchange.
+      - See also `Gimbal lock <https://en.wikipedia.org/wiki/Gimbal_lock>`__ on Wikipedia.
+      - See also `Gimbal lock <https://blender.stackexchange.com/questions/469>`__ on Stackexchange.
 
    Global Illumination
       A superset of radiosity and ray tracing.
@@ -291,7 +291,7 @@ For other common conventions used throughout the manual.
       techniques. The intention is to accurately represent the wide range of intensity levels found in real scenes,
       ranging from direct sunlight to the deepest shadows.
 
-      See also `HDRI <http://en.wikipedia.org/wiki/HDRI>`__ on Wikipedia.
+      See also `HDRI <https://en.wikipedia.org/wiki/HDRI>`__ on Wikipedia.
 
    IOR
    Index Of Refraction
@@ -426,7 +426,7 @@ For other common conventions used throughout the manual.
       The graphics system used by Blender (and many other graphics applications)
       for drawing 3D graphics, often taking advantage of hardware acceleration.
 
-      See also `OpenGL <http://en.wikipedia.org/wiki/OpenGL>`__ on Wikipedia.
+      See also `OpenGL <https://en.wikipedia.org/wiki/OpenGL>`__ on Wikipedia.
 
    Oversampling
       Is the technique of minimizing :term:`aliasing` when representing a high-resolution
@@ -438,7 +438,7 @@ For other common conventions used throughout the manual.
       The term used to describe the situation
       when not all of a televised image is present on a viewing screen
 
-      See also `Overscan <http://en.wikipedia.org/wiki/Overscan>`__ on Wikipedia.
+      See also `Overscan <https://en.wikipedia.org/wiki/Overscan>`__ on Wikipedia.
 
    Parent
       An :term:`Object` that affects its :term:`Child` objects.
@@ -523,7 +523,7 @@ For other common conventions used throughout the manual.
       One of the many different tools which can simulate diffuse lighting in Blender.
 
       See also
-      `Radiosity (computer graphics) <http://en.wikipedia.org/wiki/Radiosity_%28computer_graphics%29>`__
+      `Radiosity (computer graphics) <https://en.wikipedia.org/wiki/Radiosity_%28computer_graphics%29>`__
       on Wikipedia.
 
    Raytracing
@@ -590,7 +590,7 @@ For other common conventions used throughout the manual.
       Sometimes abbreviated to **Subsurf**.
 
       See also
-      `Catmull-Clark subdivision surface <http://en.wikipedia.org/wiki/Catmull%E2%80%93Clark_subdivision_surface>`__
+      `Catmull-Clark subdivision surface <https://en.wikipedia.org/wiki/Catmull%E2%80%93Clark_subdivision_surface>`__
       on Wikipedia
 
    Tail

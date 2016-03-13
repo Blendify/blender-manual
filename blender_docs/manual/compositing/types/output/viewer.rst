@@ -42,7 +42,7 @@ viewer node (*Properties* panel in *Properties* sidebar, with the viewer node se
 
 Rule of thirds
    Calculates tiles around each of the 9 zones defined by the
-   **rule of thirds** (see `Rule of Thirds <http://en.wikipedia.org/wiki/Rule_of_thirds>`_ for more information).
+   **rule of thirds** (see `Rule of Thirds <https://en.wikipedia.org/wiki/Rule_of_thirds>`_ for more information).
 
 Bottom up
    Tiles are calculated from the bottom up.

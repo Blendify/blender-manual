@@ -53,7 +53,7 @@ The *Cursor to Selected* option is also affected by the current :ref:`pivot-poin
    center of the bounding box surrounding the objects' centers.
  - When the *Median Point* pivot point is selected,
    *Cursor to Selected* will snap the 3D cursor to the
-   `median <http://en.wikipedia.org/wiki/Median>`__ of the object centers.
+   `median <https://en.wikipedia.org/wiki/Median>`__ of the object centers.
 
 
 Numeric Input

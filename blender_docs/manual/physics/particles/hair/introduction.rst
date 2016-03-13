@@ -121,8 +121,8 @@ See :doc:`Particle Visualization </physics/particles/visualization>` for descrip
 
 .. seealso::
 
-   - `Fur Tutorial <http://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Furry>`__,
+   - `Fur Tutorial <https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Furry>`__,
      which produced The image above. It deals especially with short hair.
 
-   - `Blender Hair Basics <http://www.youtube.com/watch?v=kpLaxqemFU0>`__,
+   - `Blender Hair Basics <https://www.youtube.com/watch?v=kpLaxqemFU0>`__,
      a thorough overview of all of the hair particle settings.

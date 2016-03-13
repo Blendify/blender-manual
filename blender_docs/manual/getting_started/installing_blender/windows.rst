@@ -7,7 +7,7 @@ Check the :doc:`minimum requirements and where to get Blender </getting_started/
 if you haven't done so yet.
 
 You will also need the
-`Visual C++ 2013 Redistributable Package <http://www.microsoft.com/en-us/download/details.aspx?id=40784>`__.
+`Visual C++ 2013 Redistributable Package <https://www.microsoft.com/en-us/download/details.aspx?id=40784>`__.
 
 Download the ``.zip`` or ``.exe`` for your architecture (64bit is preferable if your machine supports it).
 

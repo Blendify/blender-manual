@@ -59,7 +59,7 @@ you can use a *Locked Track* and a target object to specify the up direction, as
    set the value of Evaluation time to the first frame of the path (e.g. 1), right click on Evaluation time,
    select create keyframe, set the overall frame to the last frame of the path (e.g. frame 100),
    set the value of Evaluation time to the last frame of the path (e.g. 100), right click on Evaluation time,
-   select create keyframe. ..    Comment: <!-- from http://overshoot.tv/node/1123 paragraph needs cleanup but this
+   select create keyframe. ..    Comment: <!-- from https://overshoot.tv/node/1123 paragraph needs cleanup but this
    definitely needs to be in the documentation --> .
 
 

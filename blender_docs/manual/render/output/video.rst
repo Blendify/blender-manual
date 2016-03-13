@@ -93,13 +93,13 @@ Format
       Allows the ability to perfectly reconstruct compressed data from compressed data.
 
 Bitrate
-   Set the average `bitrate <http://en.wikipedia.org/wiki/Bit_rate>`__ (quality),
+   Set the average `bitrate <https://en.wikipedia.org/wiki/Bit_rate>`__ (quality),
    which is the count of binary digits per frame.
-   See also: `FFmpeg -b:v <http://ffmpeg.org/ffmpeg.html#Description>`__
+   See also: `FFmpeg -b:v <https://ffmpeg.org/ffmpeg.html#Description>`__
 
 GOP Size
-   The number of pictures per `Group of Pictures <http://en.wikipedia.org/wiki/Group_of_pictures>`__.
-   Set to 0 for "intra_only", which disables `inter-frame <http://en.wikipedia.org/wiki/Inter-frame>`__ video.
+   The number of pictures per `Group of Pictures <https://en.wikipedia.org/wiki/Group_of_pictures>`__.
+   Set to 0 for "intra_only", which disables `inter-frame <https://en.wikipedia.org/wiki/Inter-frame>`__ video.
    From FFmpeg docs: "For streaming at very low bitrate application, use a low frame rate and a small GOP size.
    This is especially true for RealVideo where the Linux player does not seem to be very fast,
    so it can miss frames"
@@ -110,7 +110,7 @@ Autosplit Output
    A higher number generally leads to a smaller file but needs a higher-powered device to replay it.
 
 Mux
-   `Multiplexing <http://www.afterdawn.com/glossary/term.cfm/multiplexing>`__ settings.
+   `Multiplexing <https://www.afterdawn.com/glossary/term.cfm/multiplexing>`__ settings.
 
    Rate
       Maximum bit rate of the multiplexed stream.
@@ -125,7 +125,7 @@ Rate
    The bitrate control also includes a *Minimum* and a *Maximum*.
 
    Buffer
-      The `decoder bitstream buffer <http://en.wikipedia.org/wiki/Video_buffering_verifier>`__ size.
+      The `decoder bitstream buffer <https://en.wikipedia.org/wiki/Video_buffering_verifier>`__ size.
 
 Audio Codec
    Audio conainer used, For a list of all available options see :doc:` </data_system/files/video_formats>`.

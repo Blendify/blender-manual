@@ -122,7 +122,7 @@ pygments_style = 'sphinx'
 
 # -- Options for HTML output ---------------------------------------------------
 
-# use http://read-the-docs.readthedocs.org/en/latest/theme.html if available.
+# use https://read-the-docs.readthedocs.org/en/latest/theme.html if available.
 try:
     import sphinx_rtd_theme
 except ImportError:

@@ -47,7 +47,7 @@ Text you don't understand
 Technical Terms
 ===============
 
-.. Modified from http://wiki.blender.org/index.php/Meta:Guides/Translation_Guide
+.. Modified from https://wiki.blender.org/index.php/Meta:Guides/Translation_Guide
 
 In general, the technical terms used in CG are quite new or even downright neologisms invented for the needs,
 so they do not always have a translation in your language. Moreover,
@@ -85,6 +85,6 @@ When the manual is updated, those translations which are outdated will be marked
 To keep track with that, you can use a tool we created for that task,
 see :ref:`how to install it <translations-fuzzy-strings>`.
 
-.. seealso:: http://wiki.blender.org/index.php/Meta:Guides/Translation_Guide
+.. seealso:: https://wiki.blender.org/index.php/Meta:Guides/Translation_Guide
 
 

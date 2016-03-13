@@ -9,7 +9,7 @@ Mesh Shading
 .. list-table::
    Example mesh rendered flat, smoothed using edge split, and using Subdivision Surface.
    Note how edges are rendered differently.
-   `Sample .blend <http://wiki.blender.org/index.php/:File:25-manual-meshsmooth-example.blend>`__
+   `Sample .blend <https://wiki.blender.org/index.php/:File:25-manual-meshsmooth-example.blend>`__
 
    * - .. figure:: /images/meshsmooth-example-2rrflat.jpg
           :width: 200px

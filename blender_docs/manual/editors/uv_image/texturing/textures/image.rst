@@ -595,7 +595,7 @@ Derivative Map
    Use red and green as derivative values.
 
 MIP Map
-   `MIP Maps <http://en.wikipedia.org/wiki/Mipmap>`__ are pre-calculated, smaller,
+   `MIP Maps <https://en.wikipedia.org/wiki/Mipmap>`__ are pre-calculated, smaller,
    filtered Textures for a certain size. A series of pictures is generated, each half the size of the former one.
    This optimizes the filtering process. By default, this option is enabled and speeds up rendering
    (especially useful in the game engine). When this option is OFF, you generally get a sharper image,
@@ -661,7 +661,7 @@ Filter
             Number of probes to use. An integer between 1 and 256.
             Further reading: McCormack, J; Farkas, KI; Perry, R; Jouppi, NP (1999)
             `Simple and Table Feline: Fast Elliptical Lines for Anisotropic Texture Mapping
-            <http://www.hpl.hp.com/techreports/Compaq-DEC/WRL-99-1.pdf>`__,
+            <https://www.hpl.hp.com/techreports/Compaq-DEC/WRL-99-1.pdf>`__,
             WRL
       Area
          Area filter to use for image sampling

@@ -80,6 +80,6 @@ All monkeys are now real objects, but still linked copies. To change this,
 External links
 **************
 
-- `Blender Artists: Dupliframes in 2.5 <http://blenderartists.org/forum/showthread.php?t=181911&page=1>`__
+- `Blender Artists: Dupliframes in 2.5 <https://blenderartists.org/forum/showthread.php?t=181911&page=1>`__
 
 

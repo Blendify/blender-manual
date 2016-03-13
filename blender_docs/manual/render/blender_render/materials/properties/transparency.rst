@@ -194,7 +194,7 @@ Fresnel
    * - 16 pieces of glass rotated in various directions demonstrate the angle-dependent Fresnel effect
        with ray-traced (left) and alpha buffered transparency (right).
        Note that the major difference is the lack of IOR effect in the latter case.
-       (Download `.blend <http://wiki.blender.org/index.php/:File:Manual25-Material-FresnelExample.blend>`__.)
+       (Download `.blend <https://wiki.blender.org/index.php/:File:Manual25-Material-FresnelExample.blend>`__.)
 
      -
 
@@ -225,7 +225,7 @@ Depth
 
    A simple scene with three glasses on a surface, and three lamps.
    Depth was set to 4, 8, 12, and 14, resulting in render times of 24 sec, 34 sec, 6 min, and 11 min respectively.
-   (Download `.blend <http://wiki.blender.org/index.php/:File:Manual25-Material-3GlassesExample.blend>`__.)
+   (Download `.blend <https://wiki.blender.org/index.php/:File:Manual25-Material-3GlassesExample.blend>`__.)
 
 
 Increasing *Depth* also considerably increases render time.
@@ -237,7 +237,7 @@ Light rays thus have to pass through four surfaces for each glass.
 But not only that, at every point on a surface, some of the light can be reflected,
 or mirrored off the surface in various directions.
 This results in multiple rays needing to be calculated for each point
-(often referred to as a `tree of rays <http://www.cs.unc.edu/~rademach/xroads-RT/RTarticle.html>`__).
+(often referred to as a `tree of rays <https://www.cs.unc.edu/~rademach/xroads-RT/RTarticle.html>`__).
 In each of the rendered images above there are 640×400=256 000 pixels.
 By increasing *Depth*, at least one tree of rays is added to each pixel.
 

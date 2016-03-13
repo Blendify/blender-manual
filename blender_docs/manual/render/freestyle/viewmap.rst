@@ -45,4 +45,4 @@ It affects the calculation of curvatures for *Ridge*,
 Kr Derivative Epsilon
    It provides you with control over the output of *Suggestive Contour* and *Silhouette*
    edge type selection (further information in
-   `this pdf <http://wiki.blender.org/index.php/file:Manual-2.6-Render-Freestyle-PrincetownLinestyle.pdf>`__).
+   `this pdf <https://wiki.blender.org/index.php/file:Manual-2.6-Render-Freestyle-PrincetownLinestyle.pdf>`__).

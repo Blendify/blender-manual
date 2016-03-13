@@ -9,7 +9,7 @@ there are several options for helping out. You can:
 
 #. Fix problems, improve the documentation and write new sections - see how to :doc:`contribute </about/contribute>`.
 #. `Report problems <https://developer.blender.org/maniphest/task/create/?project=53>`__ in the documentation.
-#. Get involved in discussions through the `mailing list <http://lists.blender.org/mailman/listinfo/bf-docboard>`__
+#. Get involved in discussions through the `mailing list <https://lists.blender.org/mailman/listinfo/bf-docboard>`__
    and ``#blenderwiki`` :ref:`IRC channel <irc-channels>`.
 
 
@@ -55,7 +55,7 @@ support channel at `#blender <irc://irc.freenode.net/#blender>`__.
 
 Blender has its own system of module owners with developer and artist members who are
 responsible for the design and maintenance of the assigned Blender areas.
-See the `module owners page <http://wiki.blender.org/index.php/Dev:Doc/Process/Module_Owners/List>`__
+See the `module owners page <https://wiki.blender.org/index.php/Dev:Doc/Process/Module_Owners/List>`__
 for more information.
 
 

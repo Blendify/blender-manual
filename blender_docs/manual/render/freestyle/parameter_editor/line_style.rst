@@ -33,5 +33,5 @@ sets by selecting it from the dropdown menu next to its name.
 .. figure:: /images/render-freestyle-Line_Style_Demo.jpg
    :width: 800px
 
-   Line Style demo `File:LineStyles.zip <http://wiki.blender.org/index.php/File:LineStyles.zip>`__
+   Line Style demo `File:LineStyles.zip <https://wiki.blender.org/index.php/File:LineStyles.zip>`__
 

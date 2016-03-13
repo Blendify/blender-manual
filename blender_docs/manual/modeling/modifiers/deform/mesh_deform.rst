@@ -94,6 +94,6 @@ See Also
 ========
 
 - The :doc:`Lattice modifier </modeling/modifiers/deform/lattice>`.
-- `Original paper <http://graphics.pixar.com/library/HarmonicCoordinatesB/>`__
+- `Original paper <https://graphics.pixar.com/library/HarmonicCoordinatesB/>`__
 
 

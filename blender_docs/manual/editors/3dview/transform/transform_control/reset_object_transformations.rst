@@ -94,7 +94,7 @@ Apply Visual Transform :kbd:`Ctrl-A`
    Apply (set) the result of a constraint and apply this back to the Object's location, rotation and scale.
    See the following post for more detailed discussion:
    `Apply visual transform
-   <http://projects.blender.org/tracker/index.php?func=detail&group_id=9&atid=498&aid=24616>`__.
+   <https://projects.blender.org/tracker/index.php?func=detail&group_id=9&atid=498&aid=24616>`__.
 
 Make Duplicate Real :kbd:`Shift-Ctrl-A`
    Make any duplicates attached to this Object real so that they can be edited.

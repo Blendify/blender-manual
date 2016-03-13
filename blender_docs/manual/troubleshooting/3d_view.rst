@@ -15,7 +15,7 @@ Drawing
 Depth Buffer Glitches
 ---------------------
 
-TODO, see: http://blender.stackexchange.com/questions/1385
+TODO, see: https://blender.stackexchange.com/questions/1385
 
 Objects Invisible in Camera View
 --------------------------------
@@ -79,7 +79,7 @@ TODO.
 Invisible Limit Zooming In
 --------------------------
 
-TODO, see: http://blender.stackexchange.com/questions/644
+TODO, see: https://blender.stackexchange.com/questions/644
 
 
 Tools

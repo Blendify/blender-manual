@@ -73,7 +73,7 @@ Particle System
    and each of those vertex groups is assigned a separate and independent particle system,
    with each particle system being assigned a different ParticleInstance modifier.
    In the case shown the ParticleInstance modifiers are a sphere and a cube.
-   `Example Blend file <http://wiki.blender.org/index.php/Media:Manual - Modifiers -
+   `Example Blend file <https://wiki.blender.org/index.php/Media:Manual - Modifiers -
    Particle Instance Modifiers - Split Plane.blend>`__
 
 
@@ -143,7 +143,7 @@ Random
    :width: 500px
 
    Keyed particle following way points (showing one particle).
-   `Example Blend file <http://wiki.blender.org/index.php/Media:Manual -
+   `Example Blend file <https://wiki.blender.org/index.php/Media:Manual -
    Particle Instance Modifier - Keyed Particle Example 1.blend>`__
 
 
@@ -161,7 +161,7 @@ Random
 
    Keyed particle following way points showing a mesh object
    (ParticleInstance modifier) in place of the original particle.
-   `Example Blend file <http://wiki.blender.org/index.php/Media:Manual -
+   `Example Blend file <https://wiki.blender.org/index.php/Media:Manual -
    Particle Instance Modifier - Keyed Particle Example 2.blend>`__
 
 
@@ -174,7 +174,7 @@ Random
 
    Keyed particle following way points showing a mesh object (ParticleInstance modifier)
    in place of the original particle, that is also being deformed to fit the travel path of the original particle.
-   `Example Blend file <http://wiki.blender.org/index.php/Media:Manual -
+   `Example Blend file <https://wiki.blender.org/index.php/Media:Manual -
    Particle Instance Modifier - Keyed Particle Example 3.blend>`__
 
 
@@ -228,7 +228,7 @@ Random
    :width: 500px
 
    Strand with a ParticleInstance modifier associated with it and deforming the cylinder along the hair profile.
-   `Example Blend file <http://wiki.blender.org/index.php/Media:Manual -
+   `Example Blend file <https://wiki.blender.org/index.php/Media:Manual -
    Particle Instance Modifier - Strand Mesh Deform.blend>`__
 
 

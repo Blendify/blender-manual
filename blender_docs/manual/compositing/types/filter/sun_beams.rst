@@ -10,7 +10,7 @@ Sun Beams
    Sun Beams Node
 
 Sun Beams is a 2D effect for simulating the effect of bright light getting scattered in a medium
-`(Crepuscular Rays) <http://en.wikipedia.org/wiki/Crepuscular_rays>`__.
+`(Crepuscular Rays) <https://en.wikipedia.org/wiki/Crepuscular_rays>`__.
 This phenomenon can be created by renderers, but full volumetric lighting is
 a rather arduous approach and takes a lot of render time.
 Also, when working with 2D images only the volumetric data may not be available.

@@ -12,7 +12,7 @@ through various methods.
    :width: 600px
 
    Examples of some basic edge types by LightBWK
-   (`File:EdgeType.zip <http://wiki.blender.org/index.php/File:EdgeType.zip>`__)
+   (`File:EdgeType.zip <https://wiki.blender.org/index.php/File:EdgeType.zip>`__)
 
 
 Selection by Visibility
@@ -31,7 +31,7 @@ Hidden
    :width: 600px
 
    Proof of concept of visible and hidden edges by LightBWK
-   (`Sample .blend <http://wiki.blender.org/index.php/File:HiddenCreaseEdgeMark.zip>`__)
+   (`Sample .blend <https://wiki.blender.org/index.php/File:HiddenCreaseEdgeMark.zip>`__)
 
 
 QI Range
@@ -45,7 +45,7 @@ Start and End
    :width: 600px
 
    QI Range proof of concept demo, Start: 3, End: 7, by LightBWK
-   (`Sample .blend <http://wiki.blender.org/index.php/File:QI-Range.zip>`__)
+   (`Sample .blend <https://wiki.blender.org/index.php/File:QI-Range.zip>`__)
 
 
 Selection by Edge Types
@@ -69,7 +69,7 @@ Crease
    :width: 600px
 
    Crease Angle proof of concept for 121º by LightBWK
-   ( `the blend-file <http://wiki.blender.org/index.php/File:CreaseAngle.zip>`__)
+   ( `the blend-file <https://wiki.blender.org/index.php/File:CreaseAngle.zip>`__)
 
 
 Border
@@ -98,7 +98,7 @@ Suggestive Contour
    Draws some lines which would form the contour of the mesh if the viewport was shifted.
    Depends on your viewmap settings for *Kr Derivative Epsilon* and *Sphere Radius*
    (further information: `File:Manual-2.6-Render-Freestyle-PrincetownLinestyle.pdf
-   <http://wiki.blender.org/index.php/File:Manual-2.6-Render-Freestyle-PrincetownLinestyle.pdf>`__).
+   <https://wiki.blender.org/index.php/File:Manual-2.6-Render-Freestyle-PrincetownLinestyle.pdf>`__).
 
 Material Boundary
    Draws lines where two materials meet on the same object. Must be activated in the viewmap settings.

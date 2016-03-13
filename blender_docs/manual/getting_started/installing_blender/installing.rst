@@ -9,7 +9,7 @@ Minimum Requirements
 ====================
 
 Check if your system meets the
-`minimum or recommended requirements <http://www.blender.org/download/requirements/>`__.
+`minimum or recommended requirements <https://www.blender.org/download/requirements/>`__.
 
 Always check that the graphics drivers are up to date and that OpenGL is well supported.
 
@@ -26,12 +26,12 @@ The options comprise binary packages for all the supported platforms and the sou
 you can choose from a stable release or a daily build. The first has the benefit of being more reliable, the latter
 provides the newest features, as they are developed. Blender is released approximately every 3 months.
 You can keep up to date with the newest changes
-through the `release notes <http://wiki.blender.org/index.php/Dev:Ref/Release_Notes/>`__.
+through the `release notes <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/>`__.
 
-`Latest Stable Release <http://www.blender.org/download/>`__
+`Latest Stable Release <https://www.blender.org/download/>`__
    This is a binary distribution of the latest version of Blender.
    It is considered stable and without regressions.
-`Daily Builds <http://builder.blender.org/download>`__
+`Daily Builds <https://builder.blender.org/download>`__
    This is a binary distribution of Blender that is updated daily to include the newest changes in development.
    These versions are not as thoroughly tested as the stable release, and might break,
    although they are official and generally not highly experimental.

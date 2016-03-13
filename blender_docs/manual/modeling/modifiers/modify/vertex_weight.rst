@@ -297,7 +297,7 @@ and use its *Custom Curve* mapping to get larger/narrower "wave influence's slop
 
 .. vimeo:: 30187079
 
-`The Blender file <http://wiki.blender.org/index.php/Media:ManModifiersWeightVGroupEx.blend>`__, ``TEST_1`` scene.
+`The Blender file <https://wiki.blender.org/index.php/Media:ManModifiersWeightVGroupEx.blend>`__, ``TEST_1`` scene.
 
 
 Using Distance from a Target Object's Geometry
@@ -378,7 +378,7 @@ with a *Remove Threshold* of ``0.1``, to see the bottom of your valley disappear
 
 .. vimeo:: 30188564
 
-`The Blender file <http://wiki.blender.org/index.php/Media:ManModifiersWeightVGroupEx.blend>`__, ``TEST_2`` scene.
+`The Blender file <https://wiki.blender.org/index.php/Media:ManModifiersWeightVGroupEx.blend>`__, ``TEST_2`` scene.
 
 
 Using a Texture and the Mapping Curve
@@ -462,10 +462,10 @@ and above ``0.75`` : this creates great "walls" in the waves...
 
 .. vimeo:: 30188814
 
-`The Blender file <http://wiki.blender.org/index.php/Media:ManModifiersWeightVGroupEx.blend>`__, ``TEST_4`` scene.
+`The Blender file <https://wiki.blender.org/index.php/Media:ManModifiersWeightVGroupEx.blend>`__, ``TEST_4`` scene.
 
 
 See Also
 ========
 
-- The `Development page <http://wiki.blender.org/index.php/User:Mont29/WeightVGroup/Dev>`__.
+- The `Development page <https://wiki.blender.org/index.php/User:Mont29/WeightVGroup/Dev>`__.

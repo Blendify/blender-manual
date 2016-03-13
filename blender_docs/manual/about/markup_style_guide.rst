@@ -69,10 +69,10 @@ Headings
 Text Styling
 ============
 
-See the `overview on ReStructured Text <http://sphinx-doc.org/rest.html>`__
+See the `overview on ReStructured Text <https://sphinx-doc.org/rest.html>`__
 for more information on how to style the various elements of the documentation and on how to add lists, tables,
 pictures and code blocks.
-The `sphinx reference <http://sphinx-doc.org/markup/index.html>`__ provides more insight additional constructs.
+The `sphinx reference <https://sphinx-doc.org/markup/index.html>`__ provides more insight additional constructs.
 
 The following are useful markups for text styling: ::
 
@@ -176,7 +176,7 @@ Videos from YouTube and Vimeo can be embedded using:
 The ``ID`` is found in the video's URL, e.g:
 
 - The ID for ``https://www.youtube.com/watch?v=Ge2Kwy5EGE0`` is ``Ge2Kwy5EGE0``
-- The ID for ``http://vimeo.com/15837189`` is ``15837189``
+- The ID for ``https://vimeo.com/15837189`` is ``15837189``
 
 
 Usage Guides
@@ -231,7 +231,7 @@ Linking to the outside world:
 
 .. code-block:: rst
 
-   `Blender Website <http://www.blender.org>`__
+   `Blender Website <https://www.blender.org>`__
 
 
 Directory layout
@@ -286,7 +286,7 @@ Further Reading
 
 To learn more about reStructuredText, see:
 
-`Sphinx RST Primer <http://sphinx-doc.org/rest.html>`__
+`Sphinx RST Primer <https://sphinx-doc.org/rest.html>`__
    Good basic introduction.
-`Docutils reStructuredText reference <http://docutils.sourceforge.net/rst.html>`__
+`Docutils reStructuredText reference <https://docutils.sourceforge.net/rst.html>`__
    Links to reference and user documentation.
