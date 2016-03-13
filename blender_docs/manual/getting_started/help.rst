@@ -70,7 +70,7 @@ General Web-based Help
   The release notes on the Web for the current Blender version.
 - `Blender Website <http://www.blender.org/>`__ -
   The *blender.org* home page.
-- `Blender e-Shop <http://www.store.blender.org/>`__ -
+- `Blender Store <https://store.blender.org/>`__ -
   The Blender Store, where you can buy Training DVD's, books, t-shirts and other products.
 - `Developer Community <http://www.blender.org/community/get-involved/>`__ -
   The *blender.org* "Get Involved" page. This is the launch page for Blender software development,
