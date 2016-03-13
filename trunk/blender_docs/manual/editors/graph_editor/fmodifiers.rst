@@ -46,7 +46,7 @@ Change the Coefficient values to change the shape of the curve.
 
 .. seealso::
 
-   `The Wikipedia Page <http://en.wikipedia.org/wiki/Polynomial>`__
+   `The Wikipedia Page <https://en.wikipedia.org/wiki/Polynomial>`__
    for more information on polynomials.
 
 

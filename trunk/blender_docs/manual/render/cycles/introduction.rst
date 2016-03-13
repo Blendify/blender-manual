@@ -20,5 +20,5 @@ To see if and how you can use your GPU for rendering, see the documentation on
 
 .. seealso::
 
-   `Developer documentation <http://wiki.blender.org/index.php/Dev:2.6/Source/Render/Cycles>`__
+   `Developer documentation <https://wiki.blender.org/index.php/Dev:2.6/Source/Render/Cycles>`__
    is also available.

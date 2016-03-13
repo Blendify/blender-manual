@@ -47,7 +47,7 @@ Technical information
 =====================
 
 Blender's smoke simulation is based on the paper
-`Wavelet Turbulence for Fluid Simulation <http://www.cs.cornell.edu/~tedkim/wturb>`__
+`Wavelet Turbulence for Fluid Simulation <https://www.cs.cornell.edu/~tedkim/wturb>`__
 and associated sample code.
 
 It has been implemented in Blender by Daniel Genrich and Miika Hamalainen.

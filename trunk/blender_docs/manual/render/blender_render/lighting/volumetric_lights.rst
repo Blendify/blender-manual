@@ -6,7 +6,7 @@
 Volumetric Lighting
 *******************
 
-According to Wikipedia, `volumetric lighting <http://en.wikipedia.org/wiki/Volumetric_lighting>`__
+According to Wikipedia, `volumetric lighting <https://en.wikipedia.org/wiki/Volumetric_lighting>`__
    *is a technique used in 3D computer graphics to add lighting effects to a rendered scene.
    It allows the viewer to see beams of light shining through the environment;
    seeing sunbeams streaming through an open window is an example of volumetric lighting, also known as God rays.

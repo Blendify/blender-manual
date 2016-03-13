@@ -11,7 +11,7 @@ Truncated domes (front and rear), Planetariums and domes with spherical mirrors.
 The Dome camera uses a multipass texture algorithm as developed by Paul Bourke and was
 implemented by Dalai Felinto with sponsorship from **SAT -** Society for Arts and
 Technology within the **SAT** **Metalab**
-`immersion research program <http://paulbourke.net/miscellaneous/domemirror/BlenderiDome/>`__,
+`immersion research program <https://paulbourke.net/miscellaneous/domemirror/BlenderiDome/>`__,
 that involves rendering the scene 4 times and placing the subsequent images
 onto a mesh designed especially such that the result, when viewed with an
 orthographic camera, is a fisheye projection.
@@ -145,7 +145,7 @@ are the norm for flat screen displays. Examples include geometry correction for 
 displays and some new methods of projecting into planetarium domes or upright domes intended
 for VR.
 
-For more information on the mesh format see `Paul Bourke's article <http://paulbourke.net/dataformats/meshwarp/>`__.
+For more information on the mesh format see `Paul Bourke's article <https://paulbourke.net/dataformats/meshwarp/>`__.
 
 
 .. figure:: /images/Dev-GameEngine-Dome-Warped.jpg
@@ -184,17 +184,17 @@ ranges from 0 to 1, if negative don't draw that mesh node
 - Type filename in Warp Data field(ie. myDome.data).
 
 To create your own Warp Meshes an interactive tool called meshmapper is available as part of
-`Paul Bourke's Warpplayer <http://paulbourke.net/miscellaneous/domemirror/warpplayer/>`__
+`Paul Bourke's Warpplayer <https://paulbourke.net/miscellaneous/domemirror/warpplayer/>`__
 software package(requires full version).
 
 
 Example files
 -------------
 
-`Spherical Mirror Dome 4x3 <http://wiki.blender.org/uploads/8/81/Dev-GameEngine-Dome-Standard_4x3.data>`__,
-`Truncated Dome 4x3 <http://wiki.blender.org/uploads/9/9b/Dev-GameEngine-Dome-Truncated_4x3.data>`__,
-`Sample Fullscreen File 4x3 <http://wiki.blender.org/uploads/d/d4/Dev-GameEngine-Dome-Sample-FullScreen_4x3.data>`__,
-`Sample Fullbuffer File 4x3 <http://wiki.blender.org/uploads/3/3d/Dev-GameEngine-Dome-Sample-FullBuffer_4x3.data>`__.
+`Spherical Mirror Dome 4x3 <https://wiki.blender.org/uploads/8/81/Dev-GameEngine-Dome-Standard_4x3.data>`__,
+`Truncated Dome 4x3 <https://wiki.blender.org/uploads/9/9b/Dev-GameEngine-Dome-Truncated_4x3.data>`__,
+`Sample Fullscreen File 4x3 <https://wiki.blender.org/uploads/d/d4/Dev-GameEngine-Dome-Sample-FullScreen_4x3.data>`__,
+`Sample Fullbuffer File 4x3 <https://wiki.blender.org/uploads/3/3d/Dev-GameEngine-Dome-Sample-FullBuffer_4x3.data>`__.
 
 
 .. note::

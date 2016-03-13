@@ -126,16 +126,16 @@ Simulation used for obstacle avoidance in the Game Engine,
 based on the RVO (Reciprocal Velocity Obstacles) principle.
 The aim is to prevent one or more actors colliding with obstacles.
 
-See `Path finding and steering behaviors <http://wiki.blender.org/index.php/User:Nicks/Gsoc2010/Docs>`__
+See `Path finding and steering behaviors <https://wiki.blender.org/index.php/User:Nicks/Gsoc2010/Docs>`__
 for more details.
 
 Type
    None
       obstacle simulation is disabled, actors aren't able to avoid obstacles
    RVO (cells)
-      obstacle simulation is based on the `RVO method <http://gamma.cs.unc.edu/RVO>`__ with cell sampling.
+      obstacle simulation is based on the `RVO method <https://gamma.cs.unc.edu/RVO>`__ with cell sampling.
    RVO (rays)
-      obstacle simulation is based on the `RVO method <http://gamma.cs.unc.edu/RVO>`__ with ray sampling
+      obstacle simulation is based on the `RVO method <https://gamma.cs.unc.edu/RVO>`__ with ray sampling
 
 Level height
    Max difference in heights of obstacles to enable their interaction.

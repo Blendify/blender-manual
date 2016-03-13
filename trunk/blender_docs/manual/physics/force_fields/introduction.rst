@@ -5,7 +5,7 @@ Introduction
 
 Force Fields offer a way to add extra movement to dynamic systems.
 :doc:`Particles </physics/particles/index>`, :doc:`Soft Bodies </physics/soft_body/index>`,
-`Rigid Bodies <http://wiki.blender.org/index.php/User:Sergof/GSoC2012/Documentation>`__ and
+`Rigid Bodies <https://wiki.blender.org/index.php/User:Sergof/GSoC2012/Documentation>`__ and
 :doc:`Cloth objects </physics/cloth/index>` can all be affected by forces fields.
 Force Fields automatically affect everything.
 To remove a simulation or particle system from their influence,

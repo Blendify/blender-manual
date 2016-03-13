@@ -33,7 +33,7 @@ Catmull-Clark / Simple
       Maintains the current shape, and simply subdivides edges.
    Catmull-Clark
       Creates a smooth surface, usually smaller than the original, using the standard
-      `Catmull-Clark <http://en.wikipedia.org/wiki/Catmull%E2%80%93Clark_subdivision_surface>`__
+      `Catmull-Clark <https://en.wikipedia.org/wiki/Catmull%E2%80%93Clark_subdivision_surface>`__
       subdivision surface algorithm.
 
 Preview

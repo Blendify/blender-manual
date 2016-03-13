@@ -12,12 +12,12 @@ How It Works
 
 In a nutshell:
 
-- The manual is written in the `reStructuredText <http://sphinx-doc.org/rest.html>`__ markup language.
+- The manual is written in the `reStructuredText <https://sphinx-doc.org/rest.html>`__ markup language.
 - The manual sources are hosted in a central repository (at blender.org).
 
 - You download the source files from the repository and edit them using a plain text editor.
 - You convert the modified source files into HTML web pages on your local disk to see how your changes 
-  later look like on `blender.org/manual <http://blender.org/manual/>`__.
+  later look like on `blender.org/manual <https://blender.org/manual/>`__.
 - When you are satisfied with your work, commit your modified files to the central repository
   for others to work with and continue collaborating.
 - Soon after your changes are committed to the central repository,
@@ -48,7 +48,7 @@ You can now **edit** the documentation files, which are the ``.rst`` files insid
 a text editor of your choice.
 
 For instructions on using different editors,
-see the `Editor Configuration <http://wiki.blender.org/index.php/Dev:Doc/Tools/User_Reference_Manual>`__
+see the `Editor Configuration <https://wiki.blender.org/index.php/Dev:Doc/Tools/User_Reference_Manual>`__
 section of the community wiki.
 
 Be sure to check the :doc:`Writing Style Guide </about/writing_style_guide>`
@@ -100,7 +100,7 @@ In order to submit a patch, follow this process:
    (see *Documentation Team* `here <https://developer.blender.org/project/profile/53>`__) of that chapter is,
    assign them as the *Reviewer* and they'll be notified of your patch.
    If you can't find out who that is (or there is no one),
-   instead, mail the `bf-docboard <http://lists.blender.org/mailman/listinfo/bf-docboard>`__ mailing list,
+   instead, mail the `bf-docboard <https://lists.blender.org/mailman/listinfo/bf-docboard>`__ mailing list,
    or tell someone in ``#blenderwiki`` on :ref:`IRC <irc-channels>`.
 #. They will review your patch and let you know about any changes you could make,
    or commit the patch if it is accepted.

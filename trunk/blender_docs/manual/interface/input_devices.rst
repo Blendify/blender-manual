@@ -29,7 +29,7 @@ The mouse usage summarized:
    * - :kbd:`LMB`
      - to perform an action on the selection
 
-Video: `Learn more about Blender's Mouse Button usage <http://vimeo.com/76335056>`_
+Video: `Learn more about Blender's Mouse Button usage <https://vimeo.com/76335056>`_
 
 
 Exceptions from the Rule

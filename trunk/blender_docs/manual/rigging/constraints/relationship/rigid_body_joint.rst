@@ -29,7 +29,7 @@ see :doc:`Rigid Bodies </game_engine/physics/using_ge>` for more info on this to
 
 For a demo file that shows some of the different types,
 see: `BGE-Physics-RigidBodyJoints.blend
-<http://wiki.blender.org/index.php/Media:BGE-Physics-RigidBodyJoints.blend>`__.
+<https://wiki.blender.org/index.php/Media:BGE-Physics-RigidBodyJoints.blend>`__.
 
 .. note::
     In order for this constraint to work properly, both objects (so

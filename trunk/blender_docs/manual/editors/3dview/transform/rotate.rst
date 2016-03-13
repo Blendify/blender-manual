@@ -147,4 +147,4 @@ can also be set in this panel from the drop down box.
 :doc:`Read more about rotation modes </editors/3dview/transform/transform_control/transform_orientations>`
 
 `Additional detail about rotation modes
-<http://wiki.blender.org/index.php/User:Pepribal/Ref/Appendices/Rotation>`__
+<https://wiki.blender.org/index.php/User:Pepribal/Ref/Appendices/Rotation>`__

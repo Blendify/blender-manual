@@ -26,7 +26,7 @@ The game can then be executed by running the appropriate .exe file.
 Note that all appropriate libraries are automatically loaded by the add-on.
 
 If you are interested in licensing your game,
-read `Licensing <http://wiki.blender.org/index.php/User:sculptorjim/Game Engine/Licensing>`__
+read `Licensing <https://wiki.blender.org/index.php/User:sculptorjim/Game Engine/Licensing>`__
 for a discussion of the issues involved.
 
 

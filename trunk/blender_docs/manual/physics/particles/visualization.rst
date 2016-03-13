@@ -243,7 +243,7 @@ but you can choose another object that they should be aligned to.
 If you move a billboard around it's target, it always faces the center of it's target.
 The size of a billboard is set with the parameter *Size* of the particle
 (in Blender Units).
-You can use them e.g. for `Sprites <http://en.wikipedia.org/wiki/Sprite_(computer_graphics)>`__,
+You can use them e.g. for `Sprites <https://en.wikipedia.org/wiki/Sprite_(computer_graphics)>`__,
 or to replace *Halo* visualization.
 Everything that can be done with a halo can also be done with a billboard.
 But billboards are real objects, they are seen by raytracing,
@@ -274,7 +274,7 @@ you need to create at least one in the objects *Editing* context,
 for any of these to work. Moreover,
 the texture has to be set to UV coordinates in the *Map Input* panel.
 If you want to see examples for some of the animation possibilities, see the
-`Billboard Animation Tutorial <http://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Billboard_Animation>`__.
+`Billboard Animation Tutorial <https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Billboard_Animation>`__.
 
 An interesting alternative to billboards are in certain cases strands,
 because you can animate the shape of the strands.

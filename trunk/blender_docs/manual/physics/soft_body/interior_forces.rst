@@ -132,7 +132,7 @@ because it has no quads anyway.
           :width: 200px
 
           Image 5a: Frame 1 with Bending Stiffness.
-          `Blend file <http://wiki.blender.org/index.php/Media:Blender3D Quads-BE-Stiffness.blend>`__
+          `Blend file <https://wiki.blender.org/index.php/Media:Blender3D Quads-BE-Stiffness.blend>`__
 
      - .. figure:: /images/quadvstri-sb-bs-0036.jpg
           :width: 200px

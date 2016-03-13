@@ -4,7 +4,7 @@ Blender Game Physics
 ********************
 
 Blender includes advanced physics simulation in the form of the Bullet Physics Engine
-(`BulletPhysics.org <http://bulletphysics.org>`__).
+(`BulletPhysics.org <https://bulletphysics.org>`__).
 Most of your work will involve setting the right properties on the objects in your scene,
 then you can sit back and let
 the engine take over. The physics simulation can be used for Games, but also for Animation.
@@ -85,7 +85,7 @@ Your options include:
   You can add/remove them after the BGE starts by using ``bge.constraints.createConstraint()``.
   This can be good either to simply automate their setup, or to truly make them dynamic.
   A simple demo can be viewed in: `BGE-Physics-DynamicallyCreateConstraint.blend
-  <http://wiki.blender.org/index.php/Media:BGE-Physics-DynamicallyCreateConstraint.blend>`__
+  <https://wiki.blender.org/index.php/Media:BGE-Physics-DynamicallyCreateConstraint.blend>`__
 - `Python Controllers </game_engine/logic/controllers/python>`__ - As always, in the BGE,
   you can get the most power when you drop into Python and start toying with the settings directly.
   For instance, the *Copy Rotation* mentioned above is not hard --
@@ -141,7 +141,7 @@ Show Framerate and Profile
 .. figure:: /images/BGE-Physics_ProfileStats.jpg
 
    A shot of `Manual-BGE-Physics-DancingSticks.blend
-   <http://wiki.blender.org/index.php/Media:Manual-BGE-Physics-DancingSticks.blend>`__ with
+   <https://wiki.blender.org/index.php/Media:Manual-BGE-Physics-DancingSticks.blend>`__ with
    [Game --> Show Framerate and Profile] enabled
 
 
@@ -150,7 +150,7 @@ it will put some statistics in the upper-left area of the game window.
 
 These can be very informative, but also a bit cryptic.
 Moguri has elaborated on their meanings, for us:
-http://mogurijin.wordpress.com/2012/01/03/bge-profile-stats-and-what-they-mean/
+https://mogurijin.wordpress.com/2012/01/03/bge-profile-stats-and-what-they-mean/
 
 
 Mesh Deformations
@@ -193,7 +193,7 @@ To fix this, you must call ``own.reinstancePhysicsMesh()`` in some form.
 Currently this only works on *Triangle Mesh* bounds, not *Convex Hull*.
 We have prepared a demonstration file in
 `Manual-BGE-Physics-DancingSticks.blend
-<http://wiki.blender.org/index.php/Media:Manual-BGE-Physics-DancingSticks.blend>`__.
+<https://wiki.blender.org/index.php/Media:Manual-BGE-Physics-DancingSticks.blend>`__.
 Note that we had to increase the
 :menuselection:`World --> Physics --> Physics Steps --> Substeps` to make the collisions work well.
 The more basic case is the case the Shapekeyed Action, which you can see in the back area of the scene.
@@ -222,7 +222,7 @@ A third option is to create your items out of many sub-objects, connected togeth
 This can be quite a bit more work, but the results can be much more like a realistic response to collisions.
 For an Add-on that can help you out in the process, check out the
 `Blender Ragdoll Implementation Kit
-<http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Game_Engine/BRIK_ragdolls>`__.
+<https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Game_Engine/BRIK_ragdolls>`__.
 
 .. _game_engine-physics-bake-keyframes:
 
@@ -232,10 +232,10 @@ Digging Deeper
 
 Sometimes you will want to look at:
 
-- The main Bullet Physics page - http://bulletphysics.org/wordpress/
-- The Bullet Wiki - http://www.bulletphysics.org/mediawiki-1.5.8/index.php?title=Documentation
-- The Bullet API Docs - http://www.continuousphysics.com/Bullet/BulletFull/index.html
-- The Bullet Forums - http://www.bulletphysics.org/Bullet/phpBB3/
+- The main Bullet Physics page - https://bulletphysics.org/wordpress/
+- The Bullet Wiki - https://www.bulletphysics.org/mediawiki-1.5.8/index.php?title=Documentation
+- The Bullet API Docs - https://www.continuousphysics.com/Bullet/BulletFull/index.html
+- The Bullet Forums - https://www.bulletphysics.org/Bullet/phpBB3/
 
 
 Recording to Keyframes
@@ -300,4 +300,4 @@ You can snapshot the physics world at any time with the following code:
 
 This will allow importing into other Bullet-based projects. See the
 `Bullet Wiki on
-Serialization <http://bulletphysics.org/mediawiki-1.5.8/index.php/Bullet_binary_serialization>`__ for more.
+Serialization <https://bulletphysics.org/mediawiki-1.5.8/index.php/Bullet_binary_serialization>`__ for more.

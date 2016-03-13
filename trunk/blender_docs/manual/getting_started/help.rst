@@ -66,16 +66,16 @@ General Web-based Help
 
 - :doc:`This is a link for the Official Blender Manual </contents>` -
   which you are now reading.
-- `Release Log <http://wiki.blender.org/index.php/Dev:Ref/Release_Notes/>`__ -
+- `Release Log <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/>`__ -
   The release notes on the Web for the current Blender version.
-- `Blender Website <http://www.blender.org/>`__ -
+- `Blender Website <https://www.blender.org/>`__ -
   The *blender.org* home page.
 - `Blender Store <https://store.blender.org/>`__ -
   The Blender Store, where you can buy Training DVD's, books, t-shirts and other products.
-- `Developer Community <http://www.blender.org/community/get-involved/>`__ -
+- `Developer Community <https://www.blender.org/community/get-involved/>`__ -
   The *blender.org* "Get Involved" page. This is the launch page for Blender software development,
   bug tracking, patches and scripts, education and training, documentation development and functionality research.
-- `User Community <http://www.blender.org/community/user-community/>`__ -
+- `User Community <https://www.blender.org/community/user-community/>`__ -
   Lists of many different support venues.
 - `Report a Bug <https://developer.blender.org/maniphest/task/create/?project=2&type=Bug>`__
   The Blender Bug Tracker.
@@ -86,7 +86,7 @@ General Web-based Help
 Scripting Reference
 -------------------
 
-- `Python API Reference <http://www.blender.org/documentation/250PythonDoc>`__ -
+- `Python API Reference <https://www.blender.org/documentation/250PythonDoc>`__ -
   Python application programming interface (API).
 - *Operator Cheat Sheet* -
   Creates the ``OperatorList.txt`` text-block, which you can access in the *Text Editor*.

@@ -73,9 +73,9 @@ Lambert
 This is Blender's default diffuse shader, and is a good general all-around workhorse for
 materials showing low levels of specular reflection.
 
-`Johann Heinrich Lambert <http://en.wikipedia.org/wiki/Johann_Heinrich_Lambert>`__ (1728-1777)
+`Johann Heinrich Lambert <https://en.wikipedia.org/wiki/Johann_Heinrich_Lambert>`__ (1728-1777)
    was a Swiss mathematician, physicist and astronomer who published works on the reflection of light,
-   most notably the `Beer-Lambert Law <http://en.wikipedia.org/wiki/Beer%E2%80%93Lambert_law>`__
+   most notably the `Beer-Lambert Law <https://en.wikipedia.org/wiki/Beer%E2%80%93Lambert_law>`__
    which formulates the law of light absorption.
 
 This shader has only the default option, determining how much of available light is reflected.
@@ -106,9 +106,9 @@ Oren-Nayar
 
 Oren-Nayar takes a somewhat more 'physical' approach to the diffusion phenomena as it takes
 into account the amount of microscopic roughness of the surface.
-`Michael Oren <http://www.informatik.uni-trier.de/~ley/db/indices/a-tree/o/Oren:Michael.html>`__ and
-`Shree K. Nayar <http://en.wikipedia.org/wiki/Shree_K._Nayar>`__
-Their `reflectance model <http://en.wikipedia.org/wiki/Oren%E2%80%93Nayar_reflectance_model>`__,
+`Michael Oren <https://www.informatik.uni-trier.de/~ley/db/indices/a-tree/o/Oren:Michael.html>`__ and
+`Shree K. Nayar <https://en.wikipedia.org/wiki/Shree_K._Nayar>`__
+Their `reflectance model <https://en.wikipedia.org/wiki/Oren%E2%80%93Nayar_reflectance_model>`__,
 developed in the early 1990s, is a generalization of Lambert's law now widely used in computer graphics.
 
 
@@ -190,7 +190,7 @@ so if *Dark* is 1 you get exactly the Lambertian result.
 Higher darkness values will darken the center of an object
 (where it points towards the viewer).
 Lower darkness values will lighten the edges of the object, making it look somewhat velvet.
-`Marcel Minnaert <http://en.wikipedia.org/wiki/Marcel_Minnaert>`__ (1893-1970)
+`Marcel Minnaert <https://en.wikipedia.org/wiki/Marcel_Minnaert>`__ (1893-1970)
 was a Belgian astronomer interested in the effects of the atmosphere on light and images who in 1954 published a book
 entitled *The Nature of Light and Color in the Open Air*.
 
@@ -234,7 +234,7 @@ With a Fresnel shader the amount of diffuse reflected light depends on the incid
 e. from the direction of the light source.
 Areas pointing directly towards the light source appear darker;
 areas perpendicular to the incoming light become brighter.
-`Augustin-Jean Fresnel <http://en.wikipedia.org/wiki/Augustin-Jean_Fresnel>`__ (1788-1827)
+`Augustin-Jean Fresnel <https://en.wikipedia.org/wiki/Augustin-Jean_Fresnel>`__ (1788-1827)
 was a French physicist who contributed significantly to the establishment of the theory of wave optics.
 
 
@@ -269,7 +269,7 @@ Factor
    :Use the material's tangent vector instead of the normal for shading&nbsp;&mdash;
     for anisotropic shading effects (e.g. soft hair and brushed metal).
     This shading was
-    `introduced in 2.42 <http://www.blender.org/development/release-logs/blender-242/material-features/>`__;
+    `introduced in 2.42 <https://www.blender.org/development/release-logs/blender-242/material-features/>`__;
     see also settings for strand rendering in the menu further down and in the Particle System menu.
    Cubic Interpolation
    :Use cubic interpolation for diffuse values, for smoother transitions between light areas and dark areas

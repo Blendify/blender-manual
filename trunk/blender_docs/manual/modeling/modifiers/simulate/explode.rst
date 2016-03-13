@@ -15,9 +15,9 @@ Both the number of emitted particles and number of faces determine how granular 
 More faces and more particles will mean more individual pieces.
 
 Here is a
-`demo video <http://wiki.blender.org/index.php/Media:Manual - Explode Modifier - Exploding Cube - 2.5.ogg>`__
+`demo video <https://wiki.blender.org/index.php/Media:Manual - Explode Modifier - Exploding Cube - 2.5.ogg>`__
 showing a cube with a particle system and Explode Modifier.
-(`Blend file <http://wiki.blender.org/index.php/Media:Manual_-_Explode_Modifier_-_Exploding_Cube_-_2.5.blend>`__)
+(`Blend file <https://wiki.blender.org/index.php/Media:Manual_-_Explode_Modifier_-_Exploding_Cube_-_2.5.blend>`__)
 
 .. note::
 

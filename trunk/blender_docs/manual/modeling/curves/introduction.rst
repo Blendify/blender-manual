@@ -334,7 +334,7 @@ One of the major differences between Bezier Objects and NURBS Objects is that Be
 are approximations. For example, a Bezier circle is an *approximation* of a circle,
 whereas a NURBS circle is an *exact* circle.
 NURBS theory can be a *very* complicated topic. For an introduction,
-please consult the `Wikipedia page. <http://en.wikipedia.org/wiki/NURBS>`__ In practice,
+please consult the `Wikipedia page. <https://en.wikipedia.org/wiki/NURBS>`__ In practice,
 many of the Bezier curve operations discussed above apply to NURBS curves in the same manner.
 The following text will concentrate only on those aspects that are unique to NURBS curves.
 

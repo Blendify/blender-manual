@@ -14,4 +14,4 @@ these can be enabled in the user-preferences
 through the use of :doc:`Add-ons </advanced/scripting/python/add_ons>`.
 
 A list of these add-ons can be found on the
-`Blender Add-ons Catalog <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts#Import-Export_Scripts>`__
+`Blender Add-ons Catalog <https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts#Import-Export_Scripts>`__

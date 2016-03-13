@@ -427,13 +427,13 @@ Examples
           :width: 200px
 
           `Femme Front blend-file
-          <http://wiki.blender.org/index.php/Media:Apinzonf_GSOC_2012_Media_femme_front.blend>`__
+          <https://wiki.blender.org/index.php/Media:Apinzonf_GSOC_2012_Media_femme_front.blend>`__
 
      - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_t_wgroup.jpg
           :width: 200px
 
           `Cube Smooth blend-file
-          <http://wiki.blender.org/index.php/Media:Apinzonf_GSOC_2012_Media_cube_smooth.blend>`__
+          <https://wiki.blender.org/index.php/Media:Apinzonf_GSOC_2012_Media_cube_smooth.blend>`__
 
 
 See Also

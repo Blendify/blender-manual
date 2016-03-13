@@ -140,7 +140,7 @@ If you want to follow along with the above description here is the blend-file us
 
 
 `File:Parent_-_Object_(Keep_Transform)_(Demo_File).blend
-<http://wiki.blender.org/index.php/File:Parent_-_Object_(Keep_Transform)_(Demo_File).blend>`__
+<https://wiki.blender.org/index.php/File:Parent_-_Object_(Keep_Transform)_(Demo_File).blend>`__
 
 
 Armature Deform Parent

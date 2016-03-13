@@ -34,7 +34,7 @@ Tangent Shading
    Use the material's tangent vector instead of the normal for shading - for anisotropic shading effects
    (e.g. soft hair and brushed metal).
    This shading was
-   `introduced in 2.42 <http://www.blender.org/development/release-logs/blender-242/material-features/>`__,
+   `introduced in 2.42 <https://www.blender.org/development/release-logs/blender-242/material-features/>`__,
    see also settings for strand rendering in the menu further down and in the Particle System menu.
 Cubic Interpolation
    Use cubic interpolation for diffuse values. Enhances the contrast between light areas and shadowed areas

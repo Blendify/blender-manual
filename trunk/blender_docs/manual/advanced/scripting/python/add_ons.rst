@@ -22,7 +22,7 @@ or any interesting ones you find on the web.
 
 .. TODO - add here explanation on official/contrib/ testing and on search and filter usability with Shift+click
 
-The `Scripts Catalog <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts>`__ provides
+The `Scripts Catalog <https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts>`__ provides
 an index of Add-ons that are included with Blender as well as listing a number of external Add-ons.
 
 
@@ -83,5 +83,5 @@ Development guidelines
 ======================
 
 If you are a script developer, you may be interested in the
-`Add-ons development guidelines <http://wiki.blender.org/index.php/Dev:2.5/Py/Scripts/Guidelines/Addons>`__
+`Add-ons development guidelines <https://wiki.blender.org/index.php/Dev:2.5/Py/Scripts/Guidelines/Addons>`__
 

@@ -58,7 +58,7 @@ the effect, but this is the core.
 
 Photos courtesy of Becca, no rights reserved. See also some movies of this node in action,
 made by the wizard programmer himself, by following this
-`external link <http://lists.blender.org/pipermail/bf-blender-cvs/2006-December/008773.html>`__
+`external link <https://lists.blender.org/pipermail/bf-blender-cvs/2006-December/008773.html>`__
 
 
 .. figure:: /images/Compositing-Nodes-Displace_example.jpg

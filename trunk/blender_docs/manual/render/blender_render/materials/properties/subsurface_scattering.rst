@@ -218,7 +218,7 @@ Skin
 ----
 
 .. list-table::
-      Increasing SSS scale (`.blend <http://wiki.blender.org/index.php/:File:MH-SSS-head-001.blend>`__)
+      Increasing SSS scale (`.blend <https://wiki.blender.org/index.php/:File:MH-SSS-head-001.blend>`__)
 
    * - .. figure:: /images/material-sss-mh-head-1.jpg
           :width: 100px
@@ -250,6 +250,6 @@ See also
 ========
 
 - `Development Release Log: Subsurface Scattering
-  <http://www.blender.org/development/release-logs/blender-244/subsurface-scattering/>`__
+  <https://www.blender.org/development/release-logs/blender-244/subsurface-scattering/>`__
 - `Ben Simonds: Three Layer SSS in Blender Demystified
-  <http://bensimonds.com/2010/05/31/three-layer-sss-in-blender-demystified/>`__
+  <https://bensimonds.com/2010/05/31/three-layer-sss-in-blender-demystified/>`__

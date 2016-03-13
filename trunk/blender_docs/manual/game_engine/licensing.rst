@@ -29,5 +29,5 @@ That file then is not part of the binary, so you can apply any license you wish 
 More Information
 ================
 
-More information you can find in the `blender.org FAQ <http://www.blender.org/support/faq/>`__.
+More information you can find in the `blender.org FAQ <https://www.blender.org/support/faq/>`__.
 

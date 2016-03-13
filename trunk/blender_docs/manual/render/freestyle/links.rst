@@ -24,11 +24,11 @@ Video Tutorials
 
 .. youtube:: Uq1-KoZ7Uv4
 
-`Using freestyle in blender <http://www.youtube.com/watch?v=Uq1-KoZ7Uv4>`__
+`Using freestyle in blender <https://www.youtube.com/watch?v=Uq1-KoZ7Uv4>`__
 
 .. youtube:: 1T_impeCV-0
 
-`Tutorial: Blender 3D - Freestyle and Composite <http://www.youtube.com/watch?v=1T_impeCV-0>`__
+`Tutorial: Blender 3D - Freestyle and Composite <https://www.youtube.com/watch?v=1T_impeCV-0>`__
 
 .. youtube:: J3LI_MTnY7U
 
@@ -39,23 +39,23 @@ Tutorials
 =========
 
 Freestyle basics
-   http://studiollb.wordpress.com/2012/02/29/freestyle-introductory-tutorial/
-   http://jikz.net/archives/364
-   http://jikz.net/archives/329
+   https://studiollb.wordpress.com/2012/02/29/freestyle-introductory-tutorial/
+   https://jikz.net/archives/364
+   https://jikz.net/archives/329
 
 Edge types
    https://studiollb.wordpress.com/2012/09/08/freestyle-101-edge-types/
 
 Line style basic
-   http://studiollb.wordpress.com/2012/09/08/freestyle-101-line-style-basic/
+   https://studiollb.wordpress.com/2012/09/08/freestyle-101-line-style-basic/
 
 Line style modifiers
-   http://studiollb.wordpress.com/2012/09/08/freestyle-101-line-style-modifier-part-1/
-   http://studiollb.wordpress.com/2012/09/08/freestyle-101-line-style-modifier-part-2/
-   http://studiollb.wordpress.com/2012/09/15/freestyle-101-planning-and-along-stroke-line-style-modifier/
+   https://studiollb.wordpress.com/2012/09/08/freestyle-101-line-style-modifier-part-1/
+   https://studiollb.wordpress.com/2012/09/08/freestyle-101-line-style-modifier-part-2/
+   https://studiollb.wordpress.com/2012/09/15/freestyle-101-planning-and-along-stroke-line-style-modifier/
 
 Tips and tricks
-   http://studiollb.wordpress.com/2012/02/03/freestyle-tips/ (Old)
+   https://studiollb.wordpress.com/2012/02/03/freestyle-tips/ (Old)
 
 
 Misc
@@ -64,10 +64,10 @@ Misc
 
 
 - `FreeStyle Users' improvement suggestions
-  <http://docs.google.com/document/d/1LaeF1gY3PCOm54Wv4Ll56Dygf6HSLxGXYlGL-WE0w_4/edit?usp=sharing>`__.
+  <https://docs.google.com/document/d/1LaeF1gY3PCOm54Wv4Ll56Dygf6HSLxGXYlGL-WE0w_4/edit?usp=sharing>`__.
 
 
-- `FreeStyle integration into Blender blog <http://freestyleintegration.wordpress.com/>`__
+- `FreeStyle integration into Blender blog <https://freestyleintegration.wordpress.com/>`__
 
 
-- `Early documentation of FreeStyle <http://wiki.blender.org/index.php/User:Flokkievids/Freestyle>`__
+- `Early documentation of FreeStyle <https://wiki.blender.org/index.php/User:Flokkievids/Freestyle>`__

@@ -48,7 +48,7 @@ Audio Device
    Set the audio output device or no audio support:
 
    :None: No Audio support (no audio output, audio strips can be loaded normally)
-   :SDL: Uses Simple Direct Media Layer API from `libsdl.org <http://www.libsdl.org>`__
+   :SDL: Uses Simple Direct Media Layer API from `libsdl.org <https://www.libsdl.org>`__
       to render sounds directly to the sound device output. Very useful for sequencer strips editing.
    :OpenAL: Provides buffered sound rendering with 3D/spatial support.
       Used for 3D source support by *Speaker Objects* and the *Game Engine*.

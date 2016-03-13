@@ -110,7 +110,7 @@ is a basic specular shader that is most useful for creating shiny plastic surfac
 It is a slightly optimized version of Phong.
 Robert L. Cook (LucasFilm) and Kenneth E. Torrance (Cornell University) In their 1982 paper
 `A Reflectance Model for Computer Graphics
-<http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.83.7263&rep=rep1&type=pdf>`__
+<https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.83.7263&rep=rep1&type=pdf>`__
 (PDF),
 they described "a new reflectance model for rendering computer synthesized images"
 and applied it to the simulation of metal and plastic.
@@ -140,10 +140,10 @@ Phong
 
 Phong is a basic shader that's very similar to CookTorr,
 but is better for skin and organic surfaces.
-`Bui Tuong Phong <http://en.wikipedia.org/wiki/Bui_Tuong_Phong>`__ (1942-1975)
+`Bui Tuong Phong <https://en.wikipedia.org/wiki/Bui_Tuong_Phong>`__ (1942-1975)
 was a Vietnamese-born computer graphics pioneer that developed the first algorithm for
 simulating specular phenomenon.
-`His model <http://en.wikipedia.org/wiki/Phong_reflection_model>`__
+`His model <https://en.wikipedia.org/wiki/Phong_reflection_model>`__
 included components not only for specular lighting, but also diffuse and ambient lighting.
 
 Options
@@ -180,12 +180,12 @@ Blinn
 Blinn is a more 'physical' specular shader, often used with the Oren-Nayar diffuse shader.
 It can be more controllable because it adds a fourth option, an :term:`index of refraction`,
 to the aforementioned three.
-`James F. Blinn <http://en.wikipedia.org/wiki/Jim_Blinn>`__
+`James F. Blinn <https://en.wikipedia.org/wiki/Jim_Blinn>`__
 worked at NASA's Jet Propulsion Laboratory and became widely known for his work
 on Carl Sagan's TV documentary *Cosmos*.
 The model he described in his 1977 paper
 `Models of Light Reflection for Computer Synthesized Pictures
-<http://research.microsoft.com/pubs/73852/p192-blinn.pdf>`__
+<https://research.microsoft.com/pubs/73852/p192-blinn.pdf>`__
 (PDF) included changes in specular intensity with light
 direction and more accurately positioned highlights on a surface.
 
@@ -260,7 +260,7 @@ Gregory J. Ward
    His model could represent both isotropic surfaces (independent of light direction) and anisotropic surfaces
    (direction dependent). In Blender,
    the Ward specular shader is still called **Ward Isotropic** but is actually anisotropic.
-   (`PDF <http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.69.6812&rep=rep1&type=pdf>`__)
+   (`PDF <https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.69.6812&rep=rep1&type=pdf>`__)
 
 
 Options
@@ -268,7 +268,7 @@ Options
 
 Slope
    Standard deviation for of surface slope.
-   Previously known as the `root-mean-square <http://en.wikipedia.org/wiki/Root_mean_square>`__ or rms value,
+   Previously known as the `root-mean-square <https://en.wikipedia.org/wiki/Root_mean_square>`__ or rms value,
    this parameter in effect controls the size of the specular highlight,
    though using a different method to that of the other specular shaders.
    It is capable of extremely sharp highlights.

@@ -30,7 +30,7 @@ Python Access
 -------------
 
 Custom properties can be accessed in a similar way to
-`dictionaries <http://docs.python.org/3/tutorial/datastructures.html#dictionaries>`__,
+`dictionaries <https://docs.python.org/3/tutorial/datastructures.html#dictionaries>`__,
 with the constraints that keys and only be strings,
 and values can only be strings, numbers, arrays and nested properties.
 

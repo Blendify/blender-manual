@@ -107,7 +107,7 @@ Even constants like ``pi`` (3.142) or functions like ``sqrt(2)`` (square root of
 may be used.
 
 *These expressions are evaluated by Python; for all available math expressions see:*
-`math module reference <http://docs.python.org/py3k/library/math.html>`__
+`math module reference <https://docs.python.org/py3k/library/math.html>`__
 
 
 Expressions as Drivers

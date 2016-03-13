@@ -21,20 +21,20 @@ General information
 
 Links that are useful while writing scripts.
 
-- `Python.org <http://www.python.org/>`__
+- `Python.org <https://www.python.org/>`__
   - General information about Python.
-- `Blender Python API <http://www.blender.org/documentation/250PythonDoc/>`__
+- `Blender Python API <https://www.blender.org/documentation/250PythonDoc/>`__
   - Official API documentation. Use this for referencing while writing scripts.
-- `API introduction <http://www.blender.org/documentation/blender_python_api_2_72_release/info_quickstart.html>`__
+- `API introduction <https://www.blender.org/documentation/blender_python_api_2_72_release/info_quickstart.html>`__
   - A short introduction to get you started with the API. Contains examples.
-- `CookBook <http://wiki.blender.org/index.php/Dev:2.5/Py/Scripts/Cookbook>`__
+- `CookBook <https://wiki.blender.org/index.php/Dev:2.5/Py/Scripts/Cookbook>`__
   - A section of handy code snippets (yet to be written)
 
 Links that deal with distributing your scripts.
 
-- `Sharing scripts <http://wiki.blender.org/index.php/Dev:Py/Sharing>`__
+- `Sharing scripts <https://wiki.blender.org/index.php/Dev:Py/Sharing>`__
   - Information on how to share your scripts and get them included in the official Blender distribution.
-- `Creating Add-ons <http://wiki.blender.org/index.php/Dev:2.5/Py/Scripts/Guidelines/Addons>`__
+- `Creating Add-ons <https://wiki.blender.org/index.php/Dev:2.5/Py/Scripts/Guidelines/Addons>`__
   - Add-ons are used to encapsulate and distribute scripts.
 - `Extensions project <https://projects.blender.org/projects/bf-extensions/>`__
   - Project to maintain a central repository of extensions to Blender.
@@ -57,16 +57,16 @@ Getting Started - External links
 Here are external links containing a lot of good information to start learning how to write scripts for Blender.
 
 - `Introductory tutorial by Satish Goda
-  <http://sites.google.com/site/satishgoda/blender/learningblender25/introduction-to-blender-python-api>`__
+  <https://sites.google.com/site/satishgoda/blender/learningblender25/introduction-to-blender-python-api>`__
   - Takes you from the beginning and teaches how to do basic API manipulations.
-- `Ira Krakow's video tutorials <http://www.youtube.com/watch?v=vmhU_whC6zw>`__
+- `Ira Krakow's video tutorials <https://www.youtube.com/watch?v=vmhU_whC6zw>`__
   - First video in a series of video tutorials.
-- `Quickstart guide <http://en.wikibooks.org/wiki/Blender_3D:_Blending_Into_Python/2.5_quickstart>`__
+- `Quickstart guide <https://en.wikibooks.org/wiki/Blender_3D:_Blending_Into_Python/2.5_quickstart>`__
   - A quick start guide for people who already have some familiarity with Python and Blender.
-- `Examples thread <http://blenderartists.org/forum/showthread.php?t=164765>`__
+- `Examples thread <https://blenderartists.org/forum/showthread.php?t=164765>`__
   - A forum thread containing many short working script examples.
 - `Introduction to Python
-  <http://cgcookie.com/blender/2011/08/26/introduction-to-scripting-with-python-in-blender/>`__
+  <https://cgcookie.com/blender/2011/08/26/introduction-to-scripting-with-python-in-blender/>`__
   - A one-hour video tutorial introducing Python and the Blender API.
 
 
@@ -88,7 +88,7 @@ there are literally hundreds of add-ons written by many people:
   many of them work reliably and are very useful but are not ensured to be stable for release.
 
 For an overview of all add-ons is available in, see
-`Scripts Catalog <http://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts>`__ and
+`Scripts Catalog <https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts>`__ and
 `Extensions tracker <https://projects.blender.org/projects/bf-extensions/>`__.
 
 

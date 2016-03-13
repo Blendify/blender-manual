@@ -87,7 +87,7 @@ Fade to
 .. figure:: /images/material-raymirror-example.jpg
 
    Suzanne in the Fun House
-   (`.blend <http://wiki.blender.org/index.php/:File:Manual-2.5-Material-MonkeyMirror.blend>`__)
+   (`.blend <https://wiki.blender.org/index.php/:File:Manual-2.5-Material-MonkeyMirror.blend>`__)
 
 
 Gloss
@@ -114,7 +114,7 @@ Gloss
 .. figure:: /images/material-raymirror-anisotropicexample.jpg
 
    Anisotropic tangent reflecting spheres with anisotropic set to 0.0, 0.75, 1.0.
-   (`.blend <http://wiki.blender.org/index.php/:File:Manual-2.5-Material-Mirror-anisotropic-example.blend>`__)
+   (`.blend <https://wiki.blender.org/index.php/:File:Manual-2.5-Material-Mirror-anisotropic-example.blend>`__)
 
 
    Anisotropic

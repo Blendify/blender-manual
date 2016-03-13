@@ -57,5 +57,5 @@ Stamp Output
    such as an identifier for the render-node or the job-number.
 
    For details on stamping arbitrary values,
-   see: `this page <http://blender.stackexchange.com/questions/26643>`__
+   see: `this page <https://blender.stackexchange.com/questions/26643>`__
 

@@ -74,10 +74,10 @@ Examples
    Mist example
 
 
-In this example (`.blend <http://wiki.blender.org/index.php/:File:25-Manual-World-Mist-Example1.blend>`__)
+In this example (`.blend <https://wiki.blender.org/index.php/:File:25-Manual-World-Mist-Example1.blend>`__)
 the *Mist* *Height* options has been limited to create smoke covering the floor.
 
 
 This simple scene was inspired by
-`Stefan Morell's Arc Sci-Fi Corridor <http://stefan-morrell.cgsociety.org/gallery/536375/>`__.
+`Stefan Morell's Arc Sci-Fi Corridor <https://stefan-morrell.cgsociety.org/gallery/536375/>`__.
 

@@ -141,4 +141,4 @@ Here is a simple "hand writing" video created with curves converted from sketch 
 
 And the blend-file:
 `File:ManGreasePencilConvertToCurveDynamicExample.blend
-<http://wiki.blender.org/index.php/file:ManGreasePencilConvertToCurveDynamicExample.blend>`__
+<https://wiki.blender.org/index.php/file:ManGreasePencilConvertToCurveDynamicExample.blend>`__

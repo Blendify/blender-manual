@@ -354,7 +354,7 @@ will also ignore geometry outside the clipping bounds.
 Once activated with :kbd:`Alt-B`, you have to draw a rectangle with the mouse,
 in the wanted 3D view. The created clipping volume will then be:
 
-- A right-angled `parallelepiped <http://en.wikipedia.org/wiki/Parallelepiped>`__
+- A right-angled `parallelepiped <https://en.wikipedia.org/wiki/Parallelepiped>`__
   (of infinite length) if your view is orthographic.
 - A rectangular-based pyramid (of infinite height) if your view is in perspective.
 

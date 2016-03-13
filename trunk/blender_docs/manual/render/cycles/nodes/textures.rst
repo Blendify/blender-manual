@@ -10,7 +10,7 @@ Image Texture
 .. figure:: /images/cycles_nodes_tex_image.jpg
    :width: 200px
 
-   Image texture from `GoodTextures.com <http://www.goodtextures.com/>`__
+   Image texture from `GoodTextures.com <https://www.goodtextures.com/>`__
 
 
 Use an image file as a texture.
@@ -59,7 +59,7 @@ Environment Texture
 .. figure:: /images/cycles_nodes_tex_environment.jpg
    :width: 200px
 
-   HDR image from `OpenFootage.net <http://www.openfootage.net/?p=986>`__
+   HDR image from `OpenFootage.net <https://www.openfootage.net/?p=986>`__
 
 
 Environmental textures are used to light your scene using an environment map image file as a texture.

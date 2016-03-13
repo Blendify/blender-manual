@@ -36,10 +36,10 @@ Key Features
   and :doc:`Game Creation </game_engine/introduction>`.
 - Cross platform, with an OpenGL GUI that is uniform on all major platforms (and customizable with Python scripts).
 - High-quality 3D architecture enabling fast and efficient creation work-flow.
-- Excellent community support from `forums <http://BlenderArtists.org>`__ and :ref:`IRC <irc-channels>`.
+- Excellent community support from `forums <https://BlenderArtists.org>`__ and :ref:`IRC <irc-channels>`.
 - Small executable size, optionally portable.
 
-You can download the latest version of Blender `here <http://www.blender.org/download/>`__.
+You can download the latest version of Blender `here <https://www.blender.org/download/>`__.
 
 
 .. figure:: /images/introduction_intro_postprocessing.jpg
@@ -53,7 +53,7 @@ it is possible to familiarize yourself with Blender after a few hours of practic
 
 This manual is a good start though it serves more as a reference.
 There are also many online video tutorials from specialized websites, and several
-books and training DVDs available in the `Blender Store <http://www.store.blender.org>`__
+books and training DVDs available in the `Blender Store <https://www.store.blender.org>`__
 and on the `Blender Cloud <https://cloud.blender.org/>`__.
 
 Despite everything Blender can do, it remains a tool. Great artists do not create masterpieces

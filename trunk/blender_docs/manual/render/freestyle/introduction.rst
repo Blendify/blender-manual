@@ -22,8 +22,8 @@ with the introduction of line style modifiers, the sky is the limit!
 .. figure:: /images/render-freestyle-Demo-OHACartoon.jpg
    :width: 600px
 
-   A cartoon scene from `OHA Studio <http://oha-studios.com/>`__
-   (`the blend-file <http://download.blender.org/demo/test/freestyle_demo_file.blend.zip>`__).
+   A cartoon scene from `OHA Studio <https://oha-studios.com/>`__
+   (`the blend-file <https://download.blender.org/demo/test/freestyle_demo_file.blend.zip>`__).
    © Mechanimotion Entertainment.
 
 
@@ -32,13 +32,13 @@ with the introduction of line style modifiers, the sky is the limit!
 
    Blueprint render of Martin M-130 from 1935 by LightBWK. CC0. WARNING:
    HEAVY FILE! DESIGNED FOR STRESS TEST BLENDER TO THE LIMITS & MAY CRASH BLENDER.
-   (`File:M-130Blueprint.zip <http://wiki.blender.org/index.php/File:M-130Blueprint.zip>`__)
+   (`File:M-130Blueprint.zip <https://wiki.blender.org/index.php/File:M-130Blueprint.zip>`__)
 
 
 .. figure:: /images/render-freestyle-Demo-HVACPreViz.jpg
    :width: 600px
 
-   HVAC Pre-Viz by Lee Posey. CC0 (`File:HVACPreViz.zip <http://wiki.blender.org/index.php/File:HVACPreViz.zip>`__)
+   HVAC Pre-Viz by Lee Posey. CC0 (`File:HVACPreViz.zip <https://wiki.blender.org/index.php/File:HVACPreViz.zip>`__)
 
 
 .. figure:: /images/render-freestyle-Demo-KitchenSet.jpg
@@ -48,7 +48,7 @@ with the introduction of line style modifiers, the sky is the limit!
 
 
 More artwork can be found at
-http://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.67/FreeStyle#Freestyle_Artwork_Showcase
+https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.67/FreeStyle#Freestyle_Artwork_Showcase
 
 
 The Big Picture

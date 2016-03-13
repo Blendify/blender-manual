@@ -157,7 +157,7 @@ Generated Images
 ================
 
 `Using the Nodes to modify a painting in progress in the
-UV/Image window <http://wiki.blender.org/index.php/File:Manual-Compositing-Node-Image-Generagedjpg>`__
+UV/Image window <https://wiki.blender.org/index.php/File:Manual-Compositing-Node-Image-Generagedjpg>`__
 Blender features :ref:`painting_texture-index`
 which works in the UV/Image Editor, that allows you to paint on the fly, and the image is kept in memory or saved.
 If sync lock is enabled (the lock icon in the header),
