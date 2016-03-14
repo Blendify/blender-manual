@@ -50,8 +50,14 @@ however some render settings are used too.
 - Render Dimensions
 - Render Aspect
 - Anti-Aliasing, Samples & Full Sample (for slower, higher quality output).
-- Alpha.
+- Alpha Transparency Mode.
 - File Format & Output (file-path, format, compression settings... etc).
+
+.. note::
+
+   These options are only available in the *Render* properties when using Blender-Internal.
+   When using other rendering engines, access these options from:
+   :menuselection:`Render --> OpenGL Render Options`.
 
 
 Rendering
