@@ -1,3 +1,4 @@
+
 #########
   Readme
 #########
@@ -7,9 +8,9 @@ concise and up-to-date description of Blender's functioning in the current versi
 
 Complementary projects are:
 
-- `StackExcange (Q&A) <http://blender.stackexchange.com>`__.
-- `Blender Cloud (training) <http://cloud.blender.org/>`__.
-- `Python API reference <http://www.blender.org/api/blender_python_api_current>`__.
+- `StackExcange (Q&A) <https://blender.stackexchange.com>`__.
+- `Blender Cloud (training) <https://cloud.blender.org/>`__.
+- `Python API reference <https://www.blender.org/api/blender_python_api_current>`__.
 
 
 **************
@@ -28,4 +29,3 @@ Building the Manual
   page for building the manual.
 - See `/manual/about/contribute <manual/about/contribute.rst>`__
   page for an explanation on the full work-flow and other tips.
-
