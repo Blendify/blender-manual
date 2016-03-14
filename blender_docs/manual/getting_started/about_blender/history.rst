@@ -102,8 +102,7 @@ Blender goes Open Source
 
 - **13 October 2002: Blender goes Open Source, 1st Blender Conference**.
 - 2.25 - October 2002:
-  `Blender Publisher <https://download.blender.org/release/Publisher2.25/>`__ becomes freely available.
-- Tuhopuu1 - Oct 2002: The experimental tree of Blender is created, a coder's playground.
+  `Blender Publisher <https://download.blender.org/release/Publisher2.25/>`__ becomes freely available, and the experimental tree of Blender is created, a coder's playground. 
 - 2.26 - February 2003: The first truly open source Blender release.
 - 2.27 - May 2003: The second open source Blender release.
 - 2.28x - July 2003: First of the 2.28x series.
