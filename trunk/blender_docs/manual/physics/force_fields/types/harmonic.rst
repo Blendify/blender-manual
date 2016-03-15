@@ -8,7 +8,8 @@ Harmonic
 
    Harmonic force field.
 
-In a *Harmonic* force field, the source of the force field is the zero point of a harmonic oscillator (spring, pendulum).
+In a *Harmonic* force field,
+the source of the force field is the zero point of a harmonic oscillator (spring, pendulum).
 If you set the *Damping* parameter to 1,
 the movement is stopped in the moment the object is reached.
 This force field is really special if you assign it to particles.

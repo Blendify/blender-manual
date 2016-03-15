@@ -23,7 +23,9 @@ You may limit the effect on particles to a group of objects
 
 .. figure:: /images/force_field_types.jpg
 
-   Force field types from left to right: Force, Wind, Vortex, Magnetic, Harmonic, Charge, Lennard Jones, Texture, Curve Guide, Boid, Turbulence, Drag, and Smoke Flow.
+   Force field types from left to right:
+   Force, Wind, Vortex, Magnetic, Harmonic, Charge, Lennard Jones,
+   Texture, Curve Guide, Boid, Turbulence, Drag, and Smoke Flow.
 
 
 Creating a Force Field
@@ -45,7 +47,6 @@ To create a field from an existing object you have to select the object and chan
 
 The fields have many options in common,
 these common options are explained for the *Spherical* field.
-
 
 .. note::
 
