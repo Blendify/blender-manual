@@ -87,13 +87,16 @@ Strips to the Left
    Select all strips to the left of the currently selected strip.
 Strips to the Right
    Select all strips to the right of the currently selected strip.
-Select Surrounding Handles :kbd:`Alt-Ctrl-RMB`
-   Select both handles of the strip, plus the neighboring handles on the immediately adjoining strips.
+Select Linked Time :kbd:`Ctrl-RMB`
+   Selects the strip under the cursor as well as all strips with the same start/end.
+Select Surrounding Handles :kbd:`Alt-RMB`
+   Selects the strip under the cursor as well as the handles of neighboring strips.
+
    Select with this method to move a strip that is between to others without affecting the selected strip's length.
-Left Handle :kbd:`Alt-RMB`
-   Select the left handle of the currently selected strip.
-Right Handle :kbd:`Ctrl-RMB`
-   Select the right handle of the currently selected strip.
+Select Both Handles :kbd:`Alt-RMB`
+   Select the handle under the cursor as well as the handles of the adjacent strip.
+
+   Select with this method to when you want to change the timing of a cut.
 Linked
    Select all strips linked to the currently selected strip
 Select All :kbd:`A`
