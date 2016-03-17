@@ -10,4 +10,4 @@
    animations.rst
    command_line.rst
    bake.rst
-   multiview.rst
+   multiview/index.rst
