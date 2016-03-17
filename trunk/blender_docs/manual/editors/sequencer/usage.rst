@@ -92,21 +92,40 @@ Select Linked Time :kbd:`Ctrl-RMB`
 Select Surrounding Handles :kbd:`Alt-RMB`
    Selects the strip under the cursor as well as the handles of neighboring strips.
 
-   Select with this method to move a strip that is between to others without affecting the selected strip's length.
+   .. note::
+  
+      Select with this method
+      to move a strip that is between to others without affecting the selected strip's length.
 Select Both Handles :kbd:`Alt-RMB`
    Select the handle under the cursor as well as the handles of the adjacent strip.
 
-   Select with this method to when you want to change the timing of a cut.
-Linked
+   .. note::
+
+      Select with this method
+      when you want to change the timing of a cut.
+Linked :kbd:`L`
    Select all strips linked to the currently selected strip
 Select All :kbd:`A`
    Selects all the strips loaded.
-Select Inverse
+Select Inverse :kbd:`Ctrl-I`
    Inverts the current selection.
 Border Select :kbd:`B`
    Begins the *Box* mode select process.
    Click and drag a rectangular lasso around a region of strips in your Sequence workspace.
    When you release the mouse button, the additional strips will be selected.
+
+
+Frame
+======
+
+Set Preview Range
+   TODO.
+Clear Preview Range
+   TODO.
+Jump to end of strip :kbd:`Page UP`
+   Current frame will jump to end of strip.
+Jump to beginning of strip :kbd:`Page down`
+   Current frame will jump to beginning of strip.
 
 
 Moving and Modifying Strips
