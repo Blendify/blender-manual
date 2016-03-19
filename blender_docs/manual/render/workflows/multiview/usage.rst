@@ -1,8 +1,9 @@
 
-Stereo Rendering Tutorial
-**************************
+*****
+Usage
+*****
 
-For this 5-minute tutorial we will take an existing blend
+For example, we will take an existing blend
 file that was made for monoscopic rendering and transform it in stereo-3d ready.
 
 .. figure:: /images/multiview_workflow_render_anaglyph.png
