@@ -4,14 +4,19 @@ Glow
 ****
 
 
-.. figure:: /images/VSE-Glow_example.jpg
+.. figure:: /images/VSE-Glow_example.png
    :width: 300px
 
-   Example of a Glow effect applied to a picture.
-   Top left: base picture (Lofoten Islands, Norway - source: wikipedia.fr);
-   Top right: result of the effect;
-   Bottom left: effect settings;
-   Bottom right: result with the Only boost button activated.
+   Glow Effect.
+
+.. Todo, update text to match image.
+
+Example of a Glow effect applied to a picture.
+
+:Top left: Base picture (Lofoten Islands, Norway - source: wikipedia.fr);
+:Top right: Result of the effect;
+:Bottom left: Effect settings;
+:Bottom right: Result with the Only boost button activated.
 
 
 This effect makes parts of an image glow brighter by working on the luminance channel of an

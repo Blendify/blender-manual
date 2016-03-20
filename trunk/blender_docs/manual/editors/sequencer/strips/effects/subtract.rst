@@ -3,7 +3,7 @@
 Subtract Effect
 ***************
 
-.. figure:: /images/VSE-Subtract.jpg
+.. figure:: /images/VSE-Subtract.png
 
    Subtract Effect
 
