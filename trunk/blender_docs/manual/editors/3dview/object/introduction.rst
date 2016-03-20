@@ -41,7 +41,7 @@ Types of Objects
 :doc:`Empty </editors/3dview/object/types/empties>`
    Empties are null objects that are simple visual transform nodes that do not render.
    They are useful for controlling the position or movement of other objects.
-:doc:`Speaker </editors/sequencer/strips/audio>`
+:doc:`Speaker </editors/sequencer/strips/types/audio>`
    Brings to scene source of sound.
 :doc:`Cameras </editors/3dview/object/types/camera/index>`
    This is the virtual camera that is used to determine what appears in the render.

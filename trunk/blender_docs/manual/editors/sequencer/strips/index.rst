@@ -1,15 +1,12 @@
 
-##############
-  Strip Types
-##############
+#########
+  Strips
+#########
 
 .. toctree::
    :maxdepth: 2
 
    introduction.rst
-   scene.rst
-   mask.rst
-   image_movie.rst
-   effects/index.rst
-   audio.rst
+   properties/index.rst
+   types/index.rst
    meta.rst
