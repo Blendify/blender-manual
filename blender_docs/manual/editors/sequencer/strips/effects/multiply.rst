@@ -3,7 +3,7 @@
 Multiply
 ********
 
-.. figure:: /images/VSE-Multiply.jpg
+.. figure:: /images/VSE-Multiply.png
    :width: 300px
 
    Multiply Effect.

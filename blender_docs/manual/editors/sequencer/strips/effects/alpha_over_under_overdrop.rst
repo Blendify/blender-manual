@@ -3,21 +3,18 @@
 Alpha Over, Under, and Over Drop
 ********************************
 
-.. figure:: /images/VSE-Alpha.jpg
+.. figure:: /images/VSE-Alpha.png
    :width: 300px
 
-   AlphaOver Effect
+   AlphaOver Effect.
 
 
-Using the alpha (transparency channel),
-this effect composites a result based on transparent areas of the dominant image.
-If you use a Scene strip,
-the areas of the image where there isn't anything solid are transparent;
-they have an alpha value of 0. If you use a movie strip, that movie has an alpha value of 1
-(completely opaque).
+Using the alpha (transparency channel), this effect composites a
+result based on transparent areas of the dominant image.
+If you use a Scene strip, the areas of the image where there isn't anything solid are transparent;
+they have an alpha value of 0. If you use a movie strip, that movie has an alpha value of 1 (completely opaque).
 
-So, you can use the *Alpha Over* / *Alpha Under* effect to composite the CGI
-Scene on top of your movie.
+So, you can use the *Alpha Over* / *Alpha Under* effect to composite the CGI Scene on top of your movie.
 The result is your model doing whatever as if it was part of the movie.
 The Factor curve controls how much the foreground is mixed over the background,
 fading in the foreground on top of the background. The colors of transparent foreground image
@@ -39,10 +36,11 @@ Select two strips (:kbd:`Shift-RMB`):
   as with *Alpha Under*, the first strip selected will be the foreground, but as with *Alpha Over*,
   the *Fac* tor controls the transparency of this foreground.
 
+.. Todo, update text for new image.
+
 The example shows layering of AlphaOver effects. The very bottom channel is red,
 and an arrow is on top of that. Those two are AlphaOver to Channel 3.
-My favorite toucan is Channel 4,
-and Channel 5 alphaovers the toucan on top of the composited red arrow.
+My favorite toucan is Channel 4, and Channel 5 alphaovers the toucan on top of the composited red arrow.
 The last effect added is tied to Channel 0 which will be rendered.
 
 ..    Comment: Not (more) true, I think!
@@ -56,8 +54,7 @@ Use this effect when adding a foreground strip that has a variable alpha channel
 (some opaque areas, some transparent, some in between) over a strip that has a flat opaque
 (Alpha=1.0 or greater) channel. If you notice a glow around your foreground objects,
 or strange transparent areas of your foreground object when using AlphaOver,
-enable PreMultiply.
-The AlphaOver Drop effect is much like the Cross,
+enable PreMultiply. The AlphaOver Drop effect is much like the Cross,
 but puts preference to the top or second image,
 giving more of a gradual overlay effect than a blend like the Cross does. Of course,
 all of the Alpha effects respect the alpha (transparency) channel, whereas Cross does not.

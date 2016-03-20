@@ -45,7 +45,7 @@ Use :kbd:`LMB` to validate, or :kbd:`RMB` to cancel the modification.
    the auto-scaling will be disabled and you can manually re-scale by adding the Transform effect.
 
 
-.. figure:: /images/VSE-sample.jpg
+.. figure:: /images/VSE-sample.png
 
 If you scroll up the workspace, you will see an information channel
 (at vertical location channel 0) that gives you some helpful hints about the active strip.
