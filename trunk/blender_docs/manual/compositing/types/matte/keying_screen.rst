@@ -7,6 +7,6 @@ Keying Screen Node
    :align: right
    :width: 150px
 
-   Keying Screen Node
+   Keying Screen Node.
 
 TODO - see: https://developer.blender.org/T43469

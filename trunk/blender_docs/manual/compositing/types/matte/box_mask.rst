@@ -7,6 +7,6 @@ Box Mask Node
    :align: right
    :width: 150px
 
-   Box Mask Node
+   Box Mask Node.
 
 TODO - see: https://developer.blender.org/T43469

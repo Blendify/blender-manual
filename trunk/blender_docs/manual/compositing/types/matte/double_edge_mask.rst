@@ -7,6 +7,6 @@ Double Edge Mask Node
    :align: right
    :width: 150px
 
-   Double Edge Mask Node
+   Double Edge Mask Node.
 
 TODO - see: https://developer.blender.org/T43469
