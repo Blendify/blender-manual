@@ -3,16 +3,19 @@
 Introduction
 ************
 
-.. figure:: /images/VseAddMenu.jpg
+.. figure:: /images/editors_sequencer_strips_add-menu.png
+   :width: 115px
+   :align: right
 
-   The Add Menu
-
+   The Add Menu.
 
 The Add menu is the main menu you will be using to add content to the VSE. In general,
 you load up your strips, create strips of special transition effects,
 and then animate out your sequence by selecting "Do Sequence" and clicking the Anim button.
 You can use the Add menu in the header,
 or hover your mouse cursor over the Sequence workspace and press :kbd:`Shift-A`.
+
+|
 
 .. note:: Clips can be Huge
 
