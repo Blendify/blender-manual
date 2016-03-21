@@ -3,7 +3,7 @@
 Subtract Effect
 ***************
 
-.. figure:: /images/VSE-Subtract.png
+.. figure:: /images/editors_sequencer_strips_subtract.png
 
    Subtract Effect
 

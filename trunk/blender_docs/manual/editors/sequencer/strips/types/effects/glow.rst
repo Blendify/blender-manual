@@ -4,7 +4,7 @@ Glow
 ****
 
 
-.. figure:: /images/VSE-Glow_example.png
+.. figure:: /images/editors_sequencer_strips_glow.png
    :width: 300px
 
    Glow Effect.

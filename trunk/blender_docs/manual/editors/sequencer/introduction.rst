@@ -35,7 +35,7 @@ In the x direction, seconds of animation or frames of animation
 (:kbd:`Ctrl-T` to choose) are used as the measure of time (seconds 1 through 7 are shown).
 You can scale the time using the zoom keys or mouse actions (see the Reference for more info).
 
-.. figure:: /images/vse-header.jpg
+.. figure:: /images/editors_sequencer_header.jpg
 
    Video Sequence Editor in Sequence display mode
 

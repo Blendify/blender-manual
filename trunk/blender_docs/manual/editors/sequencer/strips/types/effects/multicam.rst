@@ -17,7 +17,7 @@ To edit these in the :abbr:`VSE (Video Sequence Editor)` can be easy if you do i
 
 After Completing these steps you should get something similar to the image below:
 
-.. figure:: /images/editors_vse_mulitcam.png
+.. figure:: /images/editors_sequencer_stips_mulitcam.png
 
 
 - Now select the multicam strip, if you take a look at the strip options (N-key), you will notice,

@@ -6,7 +6,7 @@ Sequence Display Modes
 By default, the VSE only displays the sequencer. Several options in the header bar allow you
 change the editor to display the sequence in real time, and in various ways.
 
-.. figure:: /images/editors_sequencer_display_header.png
+.. figure:: /images/editors_sequencer_view_header.png
 
    Sequencer Display Header
 
@@ -133,7 +133,7 @@ This mode is good for:
 .. hlist::
    :columns: 2
 
-   - .. figure:: /images/VSE-Luma_waveform_ex1.jpg
+   - .. figure:: /images/editors_sequencer_view_luma-example1.jpg
 
         'Simple' picture. The various horizontal lines in the Luma waveform
         match the uniform-color lines of the picture. Note that the 'grey 20%'
@@ -141,7 +141,7 @@ This mode is good for:
         The two lines drawing an 'X' are from the two linear tone shades (white-->black and black-->white).
         Finally, the broken line matches the complex tone shade at the bottom of the picture.
 
-   - .. figure:: /images/VSE-Luma_waveform_ex2.jpg
+   - .. figure:: /images/editors_sequencer_view_luma-example2.jpg
 
         A 'real' picture. The curves are quite visible. We found a luma of 80-100% for the sky,
         a luma around 40% for the sea, and a luma of 10-20% for the mountains, growing around 40% for the sunny part.

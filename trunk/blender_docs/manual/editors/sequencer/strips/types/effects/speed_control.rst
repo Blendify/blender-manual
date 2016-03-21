@@ -15,7 +15,7 @@ position the next strip under the original at a point where you want motion to c
 Creating a Slow-Motion Effect
 =============================
 
-.. figure:: /images/VSE-Speed-slomo-2.jpg
+.. figure:: /images/editors_sequencer_strips_speed-control.jpg
    :width: 300px
 
    50% Slow motion using Speed Control

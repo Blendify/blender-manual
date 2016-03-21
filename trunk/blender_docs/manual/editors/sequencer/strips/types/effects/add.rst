@@ -3,7 +3,7 @@
 Add Effect
 **********
 
-.. figure:: /images/VSE-Lighting-Example.gif
+.. figure:: /images/editors_sequencer_strips_add-example.gif
 
    Can you hear the thunder?
 
