@@ -7,18 +7,23 @@ Chroma Key Node
    :align: right
    :width: 150px
 
-   Chroma Key Node
+   Chroma Key Node.
 
 The *Chroma Key* node determines if a pixel is a foreground or background
 (and thereby should be transparent) based on its chroma values.
 Use this, for example, to composite images that have been shot in front of a green or blue screen.
 
-Inputs:
+Inputs
+======
 
 Image
-   that is to be keyed.
+   The image that is to be keyed.
 Key Color
-   the background color usually selected using the color picker and the original image.
+   The background color usually selected using the color picker and the original image.
+
+
+Options
+=======
 
 Control this node using:
 
@@ -32,9 +37,10 @@ Falloff
    Increase to make nearby pixels partially transparent producing a smoother blend along the edges.
 
 
-Outputs are:
+Outputs
+=======
 
 Image
-   with its alpha channel adjusted for the keyed selection
+   Image with its alpha channel adjusted for the keyed selection.
 Matte
-   a monochrome representation of the mask
+   A black and white alpha mask of the key.

@@ -7,6 +7,6 @@ Keying Node
    :align: right
    :width: 150px
 
-   Keying Node
+   Keying Node.
 
 TODO - see: https://developer.blender.org/T43469

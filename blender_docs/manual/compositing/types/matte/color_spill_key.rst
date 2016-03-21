@@ -19,10 +19,24 @@ light from the background onto the foreground objects,
 coloring them with a tinge of green or blue. To remove the green (or blue) light,
 you use this fancy node.
 
-There is one input to this node, the *Image* to be processed.
 
-The *Enhance* slider allows you to reduce the selected channel's input to the image
-greater than the color spill algorithm normally allows.
-This is useful for exceptionally high amounts of the color spill.
+Inputs
+======
+
+Image
+   The image that is to be keyed.
+
+
+Options
+=======
+
+Enhance slider
+   Allows you to reduce the selected channel's input to the image
+   greater than the color spill algorithm normally allows.
+   This is useful for exceptionally high amounts of the color spill.
+
+
+Outputs
+=======
 
 The outputs of this node are the image with the corrected channels.

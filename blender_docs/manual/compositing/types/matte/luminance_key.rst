@@ -7,27 +7,48 @@ Luminance Key Node
    :align: right
    :width: 150px
 
-   Luminance Key Node
+   Luminance Key Node.
 
 The *Luminance Key* node determines background objects from foreground objects by
 the difference in the luminance (brightness) levels.
 For example, this is useful when compositing stock footage of explosions (very bright)
 which are normally shot against a solid, dark background.
 
-There is one input to this node, the *Image* that is to be keyed.
 
-Control this node using:
+Input
+=====
 
-- The *High* value selector determines the lowest values that are considered foreground.
-  (which is supposed to be - relatively - light: from this value to 1.0).
-- The *Low* value selector determines the highest values that are considered to be background objects.
-  (which is supposed to be - relatively - dark: from 0.0 to this value).
+There is one input to this node:
 
-It is possible to have a separation between the two values to allow for a gradient of
-transparency between foreground and background objects.
+Image
+   The image that is to be keyed.
 
-The outputs of this node are the *Image* with an alpha channel adjusted for the
-keyed selection and a black and white *Matte* (i.e the alpha mask).
+
+Options
+=======
+
+High
+   Determines the lowest values that are considered foreground.
+   (which is supposed to be - relatively - light: from this value to 1.0).
+Low
+   Determines the highest values that are considered to be background objects.
+   (which is supposed to be - relatively - dark: from 0.0 to this value).
+
+.. note::
+
+   It is also possible to have a separation between the two values to allow
+   for a gradient of transparency between foreground and background objects.
+
+
+Outputs
+=======
+
+The outputs of this node are:
+
+Image
+   Image with an alpha channel adjusted for the keyed selection.
+Matte
+   A black and white alpha mask of the key.
 
 
 Example
