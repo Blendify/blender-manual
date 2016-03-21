@@ -37,7 +37,7 @@ Texture Properties
 ==================
 
 .. figure:: /images/Cycles_texture_tab_menu.jpg
-   :width: 210px
+   :width: 225px
    :align: right
 
 
@@ -48,15 +48,15 @@ lamps and materials, but also from e.g. modifiers, brushes and physics fields.
 For shading nodes, the available textures are Cycles textures. For others,
 Blender textures are still used, but this will change in the future.
 
-
-.. TODO <div style="clear:both;"></div>
+|
+|
 
 
 Painting & UV Editing
 =====================
 
 .. figure:: /images/Cycles_active_texture.jpg
-   :width: 210px
+   :width: 225px
    :align: right
 
 
@@ -67,3 +67,5 @@ and it is indicated as blue in the material properties.
 
 For UV mapping, the active UV map as specified in the mesh properties is used.
 Assigning images in the image editor also affects the active image texture node.
+
+|
