@@ -32,9 +32,11 @@ Slow Drawing
 ------------
 
 There are a couple of reasons why you may be experiencing a slow viewport.
-The first is that your hardware, mainly your graphics card, may be too slow to keep up with your model.
-The second is that your your graphics card driver may be out of date,
-you will always want to use the latest supported driver for your hardware.
+
+Old Hardware
+   Sometimes your hardware, mainly your graphics card, may be too slow to keep up with your model.
+Upgrade Graphics Driver
+   In some cases, slow selection is resolved by using updated drivers.
 
 Slow Selection
 --------------
