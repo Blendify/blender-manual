@@ -3,7 +3,7 @@
 Cross and Gamma Cross
 *********************
 
-.. figure:: /images/VSE-Cross.png
+.. figure:: /images/editors_sequencer_strips_cross.png
 
    Cross Effect.
 

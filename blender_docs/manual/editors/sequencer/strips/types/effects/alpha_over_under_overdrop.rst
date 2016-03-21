@@ -3,7 +3,7 @@
 Alpha Over, Under, and Over Drop
 ********************************
 
-.. figure:: /images/VSE-Alpha.png
+.. figure:: /images/editors_sequencer_strips_alpha.png
    :width: 300px
 
    AlphaOver Effect.

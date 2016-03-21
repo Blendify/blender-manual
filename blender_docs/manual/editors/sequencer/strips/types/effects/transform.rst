@@ -3,7 +3,7 @@
 Transform
 *********
 
-.. figure:: /images/editors_sequencer_effects_transform.png
+.. figure:: /images/editors_sequencer_strips_transform.png
    :align: right
 
 Transform is a swiss-army knife of image manipulation.

@@ -6,7 +6,7 @@ Text Effect
 The text effect strip allows you to directly displaying text in the sequence editor.
 The strip will display the text inserted in its text field on the final sequence.
 
-.. figure:: /images/editors_sequencer_effects_text.png
+.. figure:: /images/editors_sequencer_strips_text.png
 
    Text Effect
 
