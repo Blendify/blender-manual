@@ -144,8 +144,15 @@ Blend mode
       Multiplies the vertex weights with the specified weight value.
       This is somewhat like subtract, but the amount of removed weight is now dependent on the Weight value itself.
    Blur
-      tries to smooth out the weighting of adjacent vertices.
-      In this mode the Weight Value is ignored. The strength defines how effectively the blur is applied.
+      Smooths out the weighting of adjacent vertices.
+      In this mode the Weight Value is ignored.
+      The strength defines how much the smoothing is applied.
+
+      Accumulate
+         This option keeps applying smoothing on top of the previous result.
+
+         - Disable when painting individual vertices on lower poly modules.
+         - Enable for more dense geometry, or when you want to increase the blur effect.
 
 
 Normalize Options
@@ -254,15 +261,7 @@ Custom icon
 Brush presets
 -------------
 
-Blender provides several Brush presets:
-
-- **Mix, Draw, Brush** : uses the Mix Blending mode to draw the brush weight with varying strength and brush falloff
-- **Add** : uses the Add Blending mode
-- **Subtract** : uses the Subtract Blending mode
-- **Lighten** : uses the Lighten Blending mode
-- **Darken** : uses the Darken Blending mode
-- **Multiply** :uses the Multiply Blending mode
-- **Blur** : uses the Blur Blending mode
+Blender provides several Brushes, exact options listed at `Brushes`_.
 
 
 Customizing brush color space
