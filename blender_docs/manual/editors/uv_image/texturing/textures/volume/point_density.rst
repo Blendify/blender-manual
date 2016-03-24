@@ -59,18 +59,28 @@ Color Source
 
    Constant
       Constant color
-   Particle Age
-      Lifetime mapped as 0.0 - 1.0 intensity.
-   Particle Speed
-      Particle speed (absolute magnitude of velocity) mapped as 0.0-1.0 intensity.
+   Particle Color Sources
+      Particle Age
+         Lifetime mapped as 0.0 - 1.0 intensity.
+      Particle Speed
+         Particle speed (absolute magnitude of velocity) mapped as 0.0-1.0 intensity. An additional color ramp can be used to convert intensity to RGB colors.
 
-      Scale
-         Multiplier to bring particle speed within an acceptable range.
-   Particle Velocity
-      XYZ velocity mapped to RGB colors.
+         Scale
+            Multiplier to bring particle speed within an acceptable range.
+      Particle Velocity
+         XYZ velocity mapped to RGB colors.
 
-      Scale
-         Multiplier to bring particle speed within an acceptable range.
+         Scale
+            Multiplier to bring particle speed within an acceptable range.
+   Vertex Color Sources
+      Vertex Color
+         Use a vertex color layer for coloring the point density texture
+
+         .. note:: Vertex colors are defined per face corner. A single vertex can have as many different colors as faces it is part of. The actual color of the point density texture is averaged from all vertex corners.
+      Vertex Weight
+         Use a weights from a vertex group as intensity values. An additional color ramp can be used to convert intensity to RGB colors.
+      Vertex Normals
+         Use object-space vertex normals as RGB values.
 
 
 Turbulence
