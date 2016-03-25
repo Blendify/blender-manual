@@ -140,7 +140,7 @@ This is a preview of the current material mapped on to one of several objects.
 - Strands
 - Large Sphere with Sky
 
-See :doc:`Preview </render/blender_render/materials/properties/preview>`
+See :doc:`Preview </editors/properties/material/preview>`
 
 
 Diffuse

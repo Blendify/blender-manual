@@ -26,7 +26,7 @@ and the color of the surface determines the final color of the pixel.
 
 In Blender, there are three ways in which the transparency of a material can be set:
 Mask, Z-Buffer and Ray-trace. Each of these is explained in more detail below.
-The :doc:`Material Preview </render/blender_render/materials/properties/preview>` option with a sphere object
+The :doc:`Material Preview </editors/properties/material/preview>` option with a sphere object
 gives a good demonstration of the capabilities of these three options.
 
 
