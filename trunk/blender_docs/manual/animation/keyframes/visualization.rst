@@ -12,9 +12,9 @@ When the current frame is a keyframe for the current active object, the name of 
 (shown in the bottom left corner of the 3D views) turns yellow.
 
 
-.. figure:: /images/animation-keyframes-visualization.jpg
+.. figure:: /images/animation_keyframes_visualization.png
 
-   Left: Current frame at 0. Right: Current frame is a keyframe for Cube
+   Buttom: Current frame at 0. Top: Current frame is a keyframe for Cube.
 
 
 Motion Paths
