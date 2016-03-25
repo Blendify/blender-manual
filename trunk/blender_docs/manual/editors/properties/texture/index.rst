@@ -1,7 +1,7 @@
 
-################
-  Texture Panel
-################
+##############
+  Texture Tab
+##############
 
 .. toctree::
    :maxdepth: 2

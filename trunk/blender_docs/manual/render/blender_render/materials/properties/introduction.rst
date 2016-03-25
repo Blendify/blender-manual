@@ -18,7 +18,7 @@ Most properties for images rendered using Cycles can only be controlled using th
 The list below sets out the various Properties panels available in Blender Render and Game Engine,
 and brief details of their scope. Details of their controls and settings are given on the relevant pages.
 
-:doc:`Preview </render/blender_render/materials/properties/preview>`
+:doc:`Preview </editors/properties/material/preview>`
    A preview of the current material mapped on to one of several basic objects.
 :doc:`Diffuse Shaders </render/blender_render/materials/properties/diffuse_shaders>`
    The basic color of the material, together with different models for dispersion.
