@@ -16,7 +16,7 @@ Inherited animation
 In this chapter, we will cover the first two,
 but the basics given here are actually vital for understanding the following chapters as well.
 
-Animation is typically achieved with the use of :doc:`Key Frames </animation/key_frames/introduction>`.
+Animation is typically achieved with the use of :doc:`keyframes </animation/keyframes/introduction>`.
 
 
 Chapters
@@ -26,7 +26,7 @@ Chapters
 General Principles and Tools
 ----------------------------
 
-- :doc:`Key frames </animation/key_frames/introduction>`
+- :doc:`keyframes </animation/keyframes/introduction>`
 - :doc:`Using The Timeline </editors/timeline>`
 - :doc:`Markers </animation/markers>`
 
@@ -83,11 +83,11 @@ Animation Fundamentals
    Actions are used to record the animation of objects and properties.
 :doc:`Drivers </animation/drivers>`
    Drivers are used to control and animate properties.
-:doc:`Keying Sets </animation/key_frames/keying_sets>`
+:doc:`Keying Sets </animation/keyframes/keying_sets>`
    Keying Sets are used to record a set of properties at the same time.
 :doc:`Markers </animation/markers>`
    Markers are used to mark key points/events within an animation.
-:doc:`Motion Paths </animation/key_frames/visualization>`
+:doc:`Motion Paths </animation/keyframes/visualization>`
    Motion Paths are used to visualize an animation.
 :doc:`Shape Keys </animation/shape_keys>`
    Shape Keys are used to deform objects into new shapes.

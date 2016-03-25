@@ -1,6 +1,6 @@
 
 #############
-  Key Frames
+  Keyframes
 #############
 
 .. toctree::

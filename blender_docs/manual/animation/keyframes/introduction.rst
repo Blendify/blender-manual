@@ -13,8 +13,8 @@ and Blender will automatically determine the correct position of the cube for al
 depending on the chosen interpolation method (e.g. linear, bezier, quadratic, etc...).
 
 
-Adding Key Frames
-=================
+Adding Keyframes
+================
 
 There are several methods of adding new keys. Namely:
 
@@ -23,8 +23,8 @@ There are several methods of adding new keys. Namely:
 - :kbd:`RMB` a value and choose *Insert Keyframe* from the menu.
 
 
-Removing Key Frames
-===================
+Removing Keyframes
+==================
 
 There are several methods of removing keyframes
 
@@ -33,8 +33,8 @@ There are several methods of removing keyframes
 - :kbd:`RMB` a value and choose *Delete Keyframe* from the menu.
 
 
-Editing Key Frames
-==================
+Editing Keyframes
+=================
 
-For editing key frames go to the :doc:`Graph Editor </editors/graph_editor/introduction>`
+For editing keyframes go to the :doc:`Graph Editor </editors/graph_editor/introduction>`
 or to the :doc:`Dopesheet </editors/dope_sheet/dope_sheet>`
