@@ -2,9 +2,9 @@
 ..    TODO/Review: {{review|}} .
 
 
-**********************
-Keyframe Visualization
-**********************
+*************
+Visualization
+*************
 
 There are some important visualization features in the 3D views that can help animation.
 
@@ -113,5 +113,3 @@ Cache
       In the pop-up box, select the frame range to calculate.
       If a path has already been calculated, Update Paths will update the path shape to the current animation.
       To change the frame range of the calculated path, you need to delete the path and calculate it again.
-
-

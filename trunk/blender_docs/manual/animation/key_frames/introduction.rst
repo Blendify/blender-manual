@@ -1,7 +1,7 @@
 
-**********
-Key Frames
-**********
+************
+Introduction
+************
 
 A *Key Frame* is simply a marker of time which stores the value of a property.
 

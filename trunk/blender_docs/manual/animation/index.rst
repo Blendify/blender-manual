@@ -4,19 +4,14 @@
   Animation
 ############
 
-Animation fundamentals.
-
 .. toctree::
    :maxdepth: 2
 
    introduction.rst
-   key_frames.rst
-   key_frame_visualization.rst
+   key_frames/index.rst
    actions.rst
    drivers.rst
-   keying_sets.rst
    markers.rst
-   constraints.rst
    shape_keys.rst
 
 Animation techniques.
@@ -30,3 +25,4 @@ Animation techniques.
 
    camera.rst
    object_path.rst
+   constraints.rst

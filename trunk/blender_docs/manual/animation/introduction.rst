@@ -16,7 +16,7 @@ Inherited animation
 In this chapter, we will cover the first two,
 but the basics given here are actually vital for understanding the following chapters as well.
 
-Animation is typically achieved with the use of :doc:`/animation/key_frames`.
+Animation is typically achieved with the use of :doc:`Key Frames </animation/key_frames/introduction>`.
 
 
 Chapters
@@ -26,7 +26,7 @@ Chapters
 General Principles and Tools
 ----------------------------
 
-- :doc:`Key frames </animation/key_frames>`
+- :doc:`Key frames </animation/key_frames/introduction>`
 - :doc:`Using The Timeline </editors/timeline>`
 - :doc:`Markers </animation/markers>`
 
@@ -83,11 +83,11 @@ Animation Fundamentals
    Actions are used to record the animation of objects and properties.
 :doc:`Drivers </animation/drivers>`
    Drivers are used to control and animate properties.
-:doc:`Keying Sets </animation/keying_sets>`
+:doc:`Keying Sets </animation/key_frames/keying_sets>`
    Keying Sets are used to record a set of properties at the same time.
 :doc:`Markers </animation/markers>`
    Markers are used to mark key points/events within an animation.
-:doc:`Motion Paths </animation/key_frame_visualization>`
+:doc:`Motion Paths </animation/key_frames/visualization>`
    Motion Paths are used to visualize an animation.
 :doc:`Shape Keys </animation/shape_keys>`
    Shape Keys are used to deform objects into new shapes.
@@ -126,10 +126,5 @@ Categories
    Fluids, which include liquids and gasses, can be simulated, including Smoke.
    Force Fields can modify the behavior of simulations.
 :doc:`Motion Tracking </editors/movie_clip_editor/index>`
-   Motion tracking is a new technique available in Blender. It is still under development,
-   and currently supports basic operations for 2D motion tracking, 3D motion tracking, and camera solution.
-`Animation Scripts <https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts#Animation_Scripts>`__
-   Add-on scripts for animation.
-`Rigging Scripts <https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts#Rigging_Scripts>`__
-   Add-on scripts for rigging.
-
+   Motion tracking is a technique available in Blender that supports basic operations for 2D motion tracking,
+   3D motion tracking, and camera solution.
