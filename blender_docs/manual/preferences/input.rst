@@ -17,7 +17,7 @@ Managing presets
 Blender lets you define multiple *Preset* input configurations.
 Instead of deleting the default keymap to create yours,
 you can just add new *Presets* for both the mouse and keyboard. Mouse options can be
-found on the left hand side of the window and keyboard options to the right in the above
+found on the left-hand side of the window and keyboard options to the right in the above
 picture.
 
 
@@ -79,7 +79,7 @@ your computer but not in Blender.
 
 The exported keymap will only contain keymaps and categories that have been modified by the user.
 In addition, add-ons may register keymaps to their respective functions,
-however these keymaps are not exported unless changed by the user.
+however, these keymaps are not exported unless changed by the user.
 This exported file may be thought of as a *"keymap delta"* instead of a full keymap export.
 
 
@@ -89,8 +89,8 @@ Mouse
 Emulate 3 Button Mouse
    Blender can be configured to work with pointing devices which don't have a middle-mouse button
    (such as a two-button mouse, Apple single-button mouse, or laptop touch-pad).
-   The functionality of the 3 mouse buttons will then be be emulated with
-   key/mouse-button combinations as shown in the table below.
+   The functionality of the 3 mouse buttons will then be emulated with
+   key/mouse button combinations as shown in the table below.
 
    .. list-table:: Shortcuts for supported mouse hardware
       :header-rows: 1
@@ -109,8 +109,8 @@ Emulate 3 Button Mouse
         - :kbd:`RMB`
         - :kbd:`Cmd-LMB` (Command/Apple key + mouse button)
 
-   Mouse/Keyboard combinations refrenced in this manual can be expressed with the combinations shown in the table.
-   For Example.
+   Mouse/Keyboard combinations referenced in this manual can be expressed with the combinations shown in the table.
+   For example:
 
    - :kbd:`MMB` drag becomes :kbd:`Alt-LMB` drag.
    - :kbd:`Shift-Alt-RMB` becomes :kbd:`Shift-Alt-Cmd-LMB` on a single-button mouse.
@@ -127,11 +127,11 @@ Continuous Grab
 
       Cursor warping is only supported by *relative* input devices (mouse, trackball, trackpad).
 
-      Graphics tablets however, typically use *absolute* positioning,
+      Graphics tablets, however, typically use *absolute* positioning,
       this feature is disabled when a tablet is being used
 
       This is detected for each action,
-      so the presence of a tablet wont disable continuous-grab for mouse cursor input.
+      so the presence of a tablet won't disable Continuous Grab for mouse cursor input.
 Drag Threshold
    The number of pixels that a User Interface element has to be moved before it is recognized by Blender.
 Select with
@@ -148,7 +148,7 @@ Double Click
 Graphic Tablets
 ===============
 
-Graphic tablets can be used to provide a more traditional method of controlling the mouse cursor using a pen.
+Graphics tablets can be used to provide a more traditional method of controlling the mouse cursor using a pen.
 This can help to provide a more familiar experience for artists
 who are used to painting and drawing with similar tools,
 as well as provide additional controls such as pressure sensitivity.
@@ -179,7 +179,7 @@ Orbit Style
    Turntable
       Rotates the view keeping the horizon horizontal.
 
-      This behaves like a potters wheel or record player where you have two axes of rotation available,
+      This behaves like a potter's wheel or record player where you have two axes of rotation available,
       and the world seems to have a better definition of what is "Up" and "Down" in it.
 
       The drawback to using the *Turntable* style is that you lose some flexibility when working with your objects.
@@ -195,7 +195,7 @@ Zoom Style
       To zoom in, hold :kbd:`Ctrl-MMB` while dragging from the center of the screen towards the edge.
    Continue
       The *Continue* zooming option allows you to control the speed
-      (and not the value) of zooming by moving away from the initial click-point with :kbd:`Ctrl-MMB`.
+      (and not the value) of zooming by moving away from the initial click point with :kbd:`Ctrl-MMB`.
       Moving up from the initial click-point or to the right will zoom out,
       moving down or to the left will zoom in. The further away you move,
       the faster the zoom movement will be.
