@@ -151,8 +151,10 @@ Blend mode
       Accumulate
          This option keeps applying smoothing on top of the previous result.
 
-         - Disable when painting individual vertices on lower poly modules.
-         - Enable for more dense geometry, or when you want to increase the blur effect.
+         .. hint::
+
+            - Disable when painting individual vertices on lower poly modules.
+            - Enable for more dense geometry, or when you want to increase the blur effect.
 
 
 Normalize Options
