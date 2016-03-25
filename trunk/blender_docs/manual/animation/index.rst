@@ -8,7 +8,7 @@
    :maxdepth: 2
 
    introduction.rst
-   key_frames/index.rst
+   keyframes/index.rst
    actions.rst
    drivers.rst
    markers.rst
