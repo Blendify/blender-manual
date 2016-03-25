@@ -22,16 +22,16 @@ the user can easily keep the specified frequencies within acceptable limits.
 These are the available types:
 
 
-- :doc:`Blend </editors/uv_image/texturing/textures/procedural/blend>`
-- :doc:`Clouds </editors/uv_image/texturing/textures/procedural/clouds>`
-- :doc:`Distorted Noise </editors/uv_image/texturing/textures/procedural/distorted_noise>`
-- :doc:`Magic </editors/uv_image/texturing/textures/procedural/magic>`
-- :doc:`Marble </editors/uv_image/texturing/textures/procedural/marble>`
-- :doc:`Musgrave </editors/uv_image/texturing/textures/procedural/musgrave>`
-- :doc:`Noise </editors/uv_image/texturing/textures/procedural/noise>`
-- :doc:`Stucci </editors/uv_image/texturing/textures/procedural/stucci>`
-- :doc:`Voronoi </editors/uv_image/texturing/textures/procedural/voronoi>`
-- :doc:`Wood </editors/uv_image/texturing/textures/procedural/wood>`
+- :doc:`Blend </editors/properties/texture/types/procedural/blend>`
+- :doc:`Clouds </editors/properties/texture/types/procedural/clouds>`
+- :doc:`Distorted Noise </editors/properties/texture/types/procedural/distorted_noise>`
+- :doc:`Magic </editors/properties/texture/types/procedural/magic>`
+- :doc:`Marble </editors/properties/texture/types/procedural/marble>`
+- :doc:`Musgrave </editors/properties/texture/types/procedural/musgrave>`
+- :doc:`Noise </editors/properties/texture/types/procedural/noise>`
+- :doc:`Stucci </editors/properties/texture/types/procedural/stucci>`
+- :doc:`Voronoi </editors/properties/texture/types/procedural/voronoi>`
+- :doc:`Wood </editors/properties/texture/types/procedural/wood>`
 
 
 Common options

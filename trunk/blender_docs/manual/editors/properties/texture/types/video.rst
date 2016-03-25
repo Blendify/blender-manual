@@ -9,7 +9,7 @@ Video Textures
    Video texture
 
 
-**Video textures** are a some kind of :doc:`Image </editors/uv_image/texturing/textures/image>` textures and based on
+**Video textures** are a some kind of :doc:`Image </editors/properties/texture/types/image>` textures and based on
 movie file or sequence of successive numbered separate images.
 They are added in the same way that image textures are.
 
@@ -82,5 +82,5 @@ Use Alpha
 .. seealso::
 
    For sampling and mapping documentation see
-   :doc:`Image Texture </editors/uv_image/texturing/textures/image>`
+   :doc:`Image Texture </editors/properties/texture/types/image>`
 
