@@ -25,4 +25,4 @@ as well as provide additional controls such as pressure sensitivity.
 
 .. seealso::
 
-   See :doc:`Input Preference <>` for more information on configuring peripherals.
+   See :doc:`Input Preference </preferences/input>` for more information on configuring peripherals.
