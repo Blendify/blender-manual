@@ -11,8 +11,8 @@ well as define your own keymap.
    :width: 650px
 
 
-Managing presets
-================
+Presets
+=======
 
 Blender lets you define multiple *Preset* input configurations.
 Instead of deleting the default keymap to create yours,
@@ -22,7 +22,7 @@ picture.
 
 
 Adding and deleting presets
-===========================
+---------------------------
 
 .. figure:: /images/Interface-Configuration-Input-AddDeletePreset.jpg
 
@@ -34,7 +34,7 @@ select it from the list and then click the "minus" symbol.
 
 
 Selecting presets
-=================
+-----------------
 
 You can change the preset you are using by doing one of the following:
 
@@ -51,7 +51,7 @@ You can change the preset you are using by doing one of the following:
 
 
 Setting presets to default
-==========================
+--------------------------
 
 .. figure:: /images/Interface-Configuration-Input-SplashScreenInteraction.jpg
    :width: 307px
