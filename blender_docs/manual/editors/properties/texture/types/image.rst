@@ -515,7 +515,7 @@ Float Buffer
 
 
 About specific options for **movie** and **image sequence** source.
-see :doc:`here </editors/uv_image/texturing/textures/video>`
+see :doc:`here </editors/properties/texture/types/video>`
 
 
 Image Sampling

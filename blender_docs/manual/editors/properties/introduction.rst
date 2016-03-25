@@ -1,7 +1,7 @@
 
-*****************
-Properties Editor
-*****************
+************
+Introduction
+************
 
 The *Properties Editor* is used to edit data and properties for the *Active Scene* and the *Active Object*.
 
