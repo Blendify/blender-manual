@@ -1,3 +1,4 @@
+
 ***************
 Getting Blender
 ***************
@@ -59,4 +60,3 @@ Follow the steps for your operative system:
    linux.rst
    osx.rst
    windows.rst
-
