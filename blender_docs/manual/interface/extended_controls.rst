@@ -240,9 +240,10 @@ Zoom Out
    You cannot zoom out further than the clipping borders (see *Clipping* below).
 
 Tools
-   .. figure:: /images/material-color-node-curves-tools.jpg
+   .. figure:: /images/interface_controls_curve_tools.png
+      :align: right
 
-      Advanced tools for curve
+      Tools for Curves.
 
    Reset View
       Resets view of the curve.
