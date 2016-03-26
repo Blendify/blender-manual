@@ -51,32 +51,35 @@ For operations that are capable of using Alpha, another slider is added at the b
 .. hlist::
    :columns: 3
 
-   - .. figure:: /images/user_prefs-system-color_picker_sv_plus_h.jpg
+   - .. figure:: /images/interface_controls_sv-h.png
+        :width: 200px
 
         Square (SV + H), *Saturation, Value plus Hue.*
         Colors are adjusted using the a range of brightness of the
         base color chosen at the color bar in the middle of the picker.
 
-   - .. figure:: /images/user_prefs-system-color_picker_circle_hsv.png
+   - .. figure:: /images/interface_controls_hsv.png
+        :width: 200px
 
-        Circle HSV (Default).
-        A full gamut of colors ranging from center to the borders is always shown; center is a mix of the colors.
+        Circle HSV (Default), is a full gamut of colors ranging from center
+        to the borders is always shown; center is a mix of the colors.
 
-   - .. figure:: /images/user_prefs-system-color_picker_hs_plus_v.jpg
+   - .. figure:: /images/interface_controls_hs-v.png
+        :width: 200px
 
-        Square (HS + V), *Hue, Saturation plus Value.*
-        Brightness is subtracted from the
+        Square (HS + V), *Hue, Saturation plus Value.* Brightness is subtracted from the
         base color chosen on the square of the color picker moving the slider to the left.
 
-   - .. figure:: /images/user_prefs-system-color_picker_circle_hsl.png
+   - .. figure:: /images/interface_controls_hsl.png
+        :width: 200px
 
-        Circle HSL.
-        A variation of the regular circle select that uses *HSL* for mixing.
+        Circle HSL, a variation of the regular circle select that uses *HSL* for mixing.
 
-   - .. figure:: /images/user_prefs-system-color_picker_hv_plus_s.jpg
+   - .. figure:: /images/interface_controls_hv-s.png
+        :width: 200px
 
-        Square (HV + S), *Hue, Value and Saturation*.
-        Brightness is added to the base color chosen on the square of the color picker moving the slider to the left.
+        Square (HV + S), *Hue, Value and Saturation*. Brightness is added to the base color
+        chosen on the square of the color picker moving the slider to the left.
 
 
 Hexidecimal Colors
