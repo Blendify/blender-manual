@@ -3,20 +3,11 @@
 Material Preview
 ****************
 
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     All Modes
-   | Panel:    Shading/Material Context --> Preview
-
-
 The Preview panel gives a quick visualization of the active material and its properties,
-including its *Shaders*, *Ramps*,
-*Mirror Transp* properties and *Textures*.
+including its *Shaders*, *Ramps*, *Mirror Transp* properties and *Textures*.
 It provides several shapes that are very useful for designing new shaders: for some shaders
 (like those based on *Ramp* colors, or a Diffuse shader like *Minnaert*),
-one needs fairly complex or specific previewing shapes to decide if the shader being designed
-achieves its goal.
+one needs fairly complex or specific previewing shapes to decide if the shader being designed achieves its goal.
 
 
 Options
@@ -79,5 +70,3 @@ Examples
           :width: 200px
 
           Sky Sphere preview.
-
-
