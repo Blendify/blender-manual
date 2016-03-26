@@ -58,10 +58,10 @@ General Web-based Help
 
 
 .. figure:: /images/getting_started-help_menu.png
-   :width: 200px
+   :width: 165px
    :align: right
 
-   Help Menu
+   Help Menu.
 
 
 - :doc:`This is a link for the Official Blender Manual </contents>` -
@@ -88,8 +88,7 @@ Scripting Reference
 
 - `Python API Reference <https://www.blender.org/documentation/250PythonDoc>`__ -
   Python application programming interface (API).
-- *Operator Cheat Sheet* -
-  Creates the ``OperatorList.txt`` text-block, which you can access in the *Text Editor*.
+- *Operator Cheat Sheet* - Creates the ``OperatorList.txt`` text-block, which you can access in the *Text Editor*.
   You can also use Blender Search to generate the file. The lists the available Python operators.
 
   .. figure:: /images/basics-help-info-operator-cheat-sheet.jpg
@@ -130,13 +129,13 @@ Info Window Log
 ---------------
 
 This is not exactly a Help menu, but it is related.
-If you mouse-over the line between the Info window and the 3D then click and drag the Info window down a bit,
+If you mouse-over the line between the Info Editor and the 3D then click and drag the Info window down a bit,
 you can see the stream of Python calls that the UI is making when you work.
 This can be useful for creating scripts.
 
-.. figure:: /images/basics-help_info_log.jpg
+.. figure:: /images/getting_started_help_python.png
 
-   The Info Window Log after adding a Cube
+   The Info Window Log after adding a Cube.
 
 
 Splash Screen
@@ -146,14 +145,13 @@ Access this by clicking on the Blender icon in the Info Window's header.
 
 This displays the image where you can identify package and version.
 At the top-right corner, you can see the Date that Blender was compiled and the Git Hash.
-For example, in our Splash Screen below, you can see the version **2.76b** and the revision number **f337fea**.
+For example, in our Splash Screen below, you can see the version: **2.77** and the Git hash: **b0a7e77**.
 This can be useful to give to support personnel when diagnosing a problem.
 
-There is also some Internet based help options that are also present in the Blender
-*Splash Screen*.
+There is also some Internet based help options that are also present in the Blender *Splash Screen*.
 These are presented as the same links you will find in the *Help* Menu.
 
 
 .. figure:: /images/getting_started-help_splash.png
 
-   Blender Splash Screen, Blender Version 2.76b
+   Blender Splash Screen, Blender Version 2.77.
