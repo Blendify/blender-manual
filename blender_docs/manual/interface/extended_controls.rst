@@ -231,10 +231,6 @@ Above the curve graph is a row of controls. These are:
 Channel selector
    Allows to select appropriate curve channel.
 
-   .. figure:: /images/material-vector-node-curves-axes.jpg
-
-      Curve channel selector
-
 Zoom In
    Zoom into the center of the graph to show more details and provide more accurate control.
    To navigate around the curve while zoomed in, click and drag in an empty part of the graph.
