@@ -60,6 +60,3 @@ All Loose Parts
    Separates the mesh in its unconnected parts.
 By Material
    Creates separate mesh objects for each material.
-
-
-
