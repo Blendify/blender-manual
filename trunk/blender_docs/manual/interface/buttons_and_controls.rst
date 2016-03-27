@@ -63,7 +63,7 @@ Number Buttons
 .. figure:: /images/ConceptButtons3.jpg
    :align: right
 
-   Number buttons
+   Number buttons.
 
 
 Number buttons can be identified by their labels,
@@ -271,7 +271,7 @@ These menu's may show a preview and allow you to search by name since its common
 .. figure:: /images/ConceptButtons4_1.jpg
    :align: right
 
-   Data-Block’s link menu with search
+   Data-Block's link menu with search.
 
 
    - The first button (with an icon of the Data-Block type) opens up a menu to select an item
