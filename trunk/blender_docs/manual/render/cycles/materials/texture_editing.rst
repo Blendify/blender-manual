@@ -48,8 +48,9 @@ lamps and materials, but also from e.g. modifiers, brushes and physics fields.
 For shading nodes, the available textures are Cycles textures. For others,
 Blender textures are still used, but this will change in the future.
 
-|
-|
+.. raw:: html
+
+    <div style='clear:both'></div>
 
 
 Painting & UV Editing
@@ -59,7 +60,6 @@ Painting & UV Editing
    :width: 225px
    :align: right
 
-
 For texture paint mode,
 the image that is painted on is taken from the active image texture node.
 This can be selected in the node editor or the texture properties,
@@ -67,5 +67,3 @@ and it is indicated as blue in the material properties.
 
 For UV mapping, the active UV map as specified in the mesh properties is used.
 Assigning images in the image editor also affects the active image texture node.
-
-|
