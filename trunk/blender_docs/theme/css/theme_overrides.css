@@ -62,7 +62,7 @@ input[type="color"] {
     line-height: 0px;
 }
 
-/* Fix navigation buttons not clearing */
-.rst-footer-buttons {
-    clear: both;
+/* proper seal navigation buttons; jumping on resize */
+.rst-footer-buttons::before , .rst-footer-buttons::after{
+    width: 100%;
 }
