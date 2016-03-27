@@ -38,7 +38,7 @@ Toggle Drag
 -----------
 
 To change many toggle buttons at once, you can :kbd:`LMB` drag over multiple buttons,
-This works for check-boxes, toggles in the outliner and layer buttons.
+This works for checkboxes, toggles in the outliner and layer buttons.
 
   .. note::
 
@@ -113,7 +113,7 @@ may be used.
 Expressions as Drivers
 ^^^^^^^^^^^^^^^^^^^^^^
 
-You may want your expression to be re-evaluated after its entered.
+You may want your expression to be re-evaluated after it's entered.
 Blender supports this using :doc:`Drivers </animation/drivers>` (a feature of the animation system).
 
 Expression beginning with ``#``, have a special use.
@@ -225,7 +225,7 @@ Plurals of the names are recognized too, so ``meter`` and ``meters`` can both be
 Menu Buttons
 ============
 
-Blender uses a variety of different menus for accessing options, tools and selecting data-blocks.
+Blender uses a variety of different menus for accessing options, tools and selecting Data-Blocks.
 
 Menu Shortcuts
 --------------
@@ -263,21 +263,21 @@ For example, the *Add Modifier* button will produce a menu with all of the avail
 Data-Block Menus
 ----------------
 
-Menu buttons are used link data-blocks to each other.
+Menu buttons are used to link Data-Blocks to each other.
 data-blocks are items like *Meshes*, *Objects*, *Materials*, *Textures*, and so on.
 
-These menu's may show a preview and allow you to search by name since its common all items wont fit in the list.
+These menu's may show a preview and allow you to search by name since its common all items won't fit in the list.
 
 .. figure:: /images/ConceptButtons4_1.jpg
    :align: right
 
-   Data-block link menu with search
+   Data-Block’s link menu with search
 
 
-   - The first button (with an icon of the data-block type) opens up a menu to select an item
+   - The first button (with an icon of the Data-Block type) opens up a menu to select an item
      by clicking :kbd:`LMB`.
-   - The second button displays the name of the linked data-block which can be edited as a regular text field.
-   - The "+" button duplicates the current data-block and applies it.
+   - The second button displays the name of the linked Data-Block which can be edited as a regular text field.
+   - The "+" button duplicates the current Data-Block and applies it.
    - The "X" button clears the link.
 
 Sometimes there is a list of applied data-blocks
@@ -288,7 +288,7 @@ Sometimes there is a list of applied data-blocks
 
    Data-block link buttons
 
-   - To select a data-block, click :kbd:`LMB` on it.
+   - To select a Data-Block, click :kbd:`LMB` on it.
    - To add a new section (e.g. material, or particle system),
      click :kbd:`LMB` on the "+" button to the right of the list.
    - To remove a section, click :kbd:`LMB` on the "-" to the right of the list.
@@ -299,7 +299,7 @@ For details on the behavior of linking data see :doc:`data-block </data_system/d
 Common Shortcuts
 ================
 
-There are shortcuts shared between many button types.
+There are shortcuts shared among many button types.
 
 
 While Hovering
@@ -314,13 +314,13 @@ While Hovering
    - :kbd:`Minus` - negate number values (multiply by ``-1.0``).
    - :kbd:`Ctrl-Wheel` - changes the value incremental steps.
 
-     For pop-up option menus buttons this cycles the value.
+     For pop-up option menus buttons, this cycles the value.
 
    File Selector Icon:
 
    - :kbd:`LMB` - select a new file.
    - :kbd:`Shift-LMB` - open the file externally
-     *(using the systems default editor)*.
+     *(using the system's default editor)*.
    - :kbd:`Alt-LMB` - open the directory externally
      *(using the systems file manager)*.
 
@@ -331,8 +331,8 @@ While Hovering
    - :kbd:`Alt-Shift-I` - clear all keyframes (removing all F-Curves).
    - :kbd:`D` - assign a driver.
    - :kbd:`Alt-D` - clear the driver.
-   - :kbd:`K` - add a keying set.
-   - :kbd:`Alt-K` - clear the keying-set.
+   - :kbd:`K` - add a Keying Set.
+   - :kbd:`Alt-K` - clear the Keying Set.
 
    Python Scripting:
 
@@ -343,9 +343,9 @@ While Hovering
      (also available from the right-click menu).
 
      Useful when writing drivers or scripts.
-   - :kbd:`Ctrl-Alt-Shift-C` - over property buttons copies their *full* data-path for the data-block and property.
+   - :kbd:`Ctrl-Alt-Shift-C` - over property buttons copies their *full* data-path for the Data-Block and property.
 
-     Note that in most cases its best to access values based on the context, instead of by name.
+     Note that in most cases it's best to access values based on the context, instead of by name.
 
 While Dragging Numbers
    - :kbd:`Ctrl` - while dragging snap the discrete steps.
