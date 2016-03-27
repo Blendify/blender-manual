@@ -50,7 +50,7 @@ To cycle between screens use :kbd:`Ctrl-Right` and :kbd:`Ctrl-Left`.
    it was used on. Selecting a different layout will switch to the layout **and** jump to that scene.
    
    All changes to windows, as described in :doc:`Editor Types </editors/index>`, are saved within one screen.
-   Changes to one screen, wont affect others.
+   Changes to one screen, won't affect others.
 
 
 Configuring your Screens

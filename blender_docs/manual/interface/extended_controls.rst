@@ -24,7 +24,7 @@ with :kbd:`Down` and :kbd:`Up`, activate it by pressing :kbd:`Return`.
 Color Picker
 ============
 
-All of the Color picker types have the common *RGB*, *HSV* and *Hex* options to show values.
+All of the color picker types have the common *RGB*, *HSV* and *Hex* options to show values.
 
 Blender uses ``0 - 1.0`` values to express colors for *RGB* and *HSV* values.
 
@@ -55,14 +55,14 @@ For operations that are capable of using Alpha, another slider is added at the b
         :width: 200px
 
         Square (SV + H), *Saturation, Value plus Hue.*
-        Colors are adjusted using the a range of brightness of the
-        base color chosen at the color bar in the middle of the picker.
+        Colors are adjusted using the range of brightness of the
+        base color; chosen at the color bar in the middle of the picker.
 
    - .. figure:: /images/interface_controls_hsv.png
         :width: 200px
 
         Circle HSV (Default), is a full gamut of colors ranging from center
-        to the borders is always shown; center is a mix of the colors.
+        to the borders is always shown; the center is a mix of the colors.
 
    - .. figure:: /images/interface_controls_hs-v.png
         :width: 200px
@@ -79,26 +79,26 @@ For operations that are capable of using Alpha, another slider is added at the b
         :width: 200px
 
         Square (HV + S), *Hue, Value and Saturation*. Brightness is added to the base color
-        chosen on the square of the color picker moving the slider to the left.
+        chosen by the square of the color picker moving the slider to the left.
 
 
-Hexidecimal Colors
+Hexadecimal Colors
 ------------------
 
-You can optionally use hexidecimal *(Hex)* values,
+You can optionally use hexadecimal *(Hex)* values,
 expressed as (``RRGGBB``), a common way to represent colors for HTML
-and useful quicky copy/paste colors between applications.
+and useful to quickly copy/paste colors between applications.
 
 Shorthand hex colors are also supported (``RGB``),
 so dark-yellow (``ffcc00``), can be written as ``fc0``.
 
 
-Eye Dropper
------------
+Eyedropper
+----------
 
-The eye dropper allows you to sample from anywhere in the Blender window.
+The eyedropper allows you to sample from anywhere in the Blender window.
 
-The eyedropper can be use to select different kinds of data.
+The eyedropper can be used to select different kinds of data.
 
 Color
    This is the most common usage.
@@ -123,9 +123,9 @@ Color Ramp Widget
 
    Color-Ramp.
 
-*Color Ramps* enables the user to specify a range of colors based on color stops.
-Color stops are similar to a mark indicating where the exact chosen color should be.
-The interval from each of the color stops added to the ramp is a result of the color interpolation and
+*Color Ramps* enables the user to specify a range of colors based on color-stops.
+Color-stops are similar to a mark indicating where exactly the chosen color should be.
+The interval from each of the color-stops added to the ramp is a result of the color interpolation and
 chosen interpolation method. The available options for Color Ramps are:
 
 
@@ -134,7 +134,7 @@ Add (``+`` Button)
    The stops are added from the last selected stop to the next one, from left to right and
    they will be placed in the middle of both stops.
 Delete (``-`` Button)
-   Deletes the selected color stop from the list.
+   Deletes the selected color-stop from the list.
 Flip (``<->`` Button)
    Flips the color band, inverting the values of the custom weight paint range.
 Color Mode
@@ -163,7 +163,7 @@ Numeric Field
 Position
    This slider controls the positioning of the selected color stop in the range.
 Color Bar
-   Opens a color Picker for the user to specify color and Alpha for the selected color stop.
+   Opens a color picker for the user to specify color and Alpha for the selected color stop.
    When a color is using Alpha, the Color Bar is then divided in two, with the left side
    showing the base color and the right side showing the color with the alpha value.
 
@@ -206,7 +206,7 @@ Control Points
 
 Like all curves in Blender, the curve of the *Curve Widget* is controlled using *control points*.
 
-By default there are two control points: one at ``0.0, 0.0`` and one at ``1.0, 1.0``,
+By default, there are two control points: one at ``0.0, 0.0`` and one at ``1.0, 1.0``,
 meaning the input is mapped directly to the output (unchanged).
 
 To **move** a control point
@@ -225,7 +225,7 @@ Above the curve graph is a row of controls. These are:
 
 .. figure:: /images/material-vector-node-curves-controls.jpg
 
-   Node curve controls
+   Curve Controls
 
 
 Channel selector
@@ -236,7 +236,7 @@ Zoom In
    To navigate around the curve while zoomed in, click and drag in an empty part of the graph.
 
 Zoom Out
-   Zoom out of the graph to show less details and view the graph as a whole.
+   Zoom out of the graph to show fewer details and view the graph as a whole.
    You cannot zoom out further than the clipping borders (see *Clipping* below).
 
 Tools
@@ -276,11 +276,11 @@ there are controls for filtering and sorting and resizing.
 
 
 Rename
-   By pressing (:kbd:`Ctrl`, :kbd:`LMB`) over an item's name, you can edit the text-field.
+   By pressing (:kbd:`Ctrl`, :kbd:`LMB`) over an item's name, you can edit the text field.
    This can also be achieved by double clicking.
 
 Resize
-   The list view can be resized to show more or less items.
+   The list view can be resized to show more or fewer items.
    Hover the mouse over the handle then click and drag the handle to expand or shrink the list.
 
 Filter

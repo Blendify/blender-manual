@@ -28,7 +28,7 @@ This tools works for meshes, curves, surfaces, metas and armature object types.
    Materials, vertex-groups, UV and Vertex layers will be merged.
 
    Modifiers, constraints, groups and parent relationships
-   are ignored when joining and wont be applied to the active object.
+   are ignored when joining and won't be applied to the active object.
 
 
 .. _object-separate:
