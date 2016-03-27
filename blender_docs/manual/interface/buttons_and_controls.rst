@@ -27,7 +27,7 @@ Toggle Buttons
 .. figure:: /images/ConceptButtons1_1.jpg
    :align: right
 
-   Toggle buttons
+   Toggle Buttons.
 
 
 Toggle buttons are typically displayed as check boxes.
@@ -51,7 +51,7 @@ Radio Buttons
 .. figure:: /images/ConceptButtons1.jpg
    :align: right
 
-   Radio buttons
+   Radio Buttons.
 
 
 Radio buttons are used to choose from a small selection of "mutually exclusive" options.
