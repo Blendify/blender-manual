@@ -1,4 +1,7 @@
 
+.. |texture-button| image:: /images/icons_texture.png
+   :width: 25px
+
 ************
 Introduction
 ************
@@ -20,7 +23,6 @@ and even inside other textures.
 Using Texture Nodes
 ===================
 
-.. |texture-button| image:: /images/icons_texture.jpg
 
 To use texture nodes with the current texture, open a :doc:`Node Editor window </editors/node_editor/editor>`,
 set it to *Texture* mode by clicking the "Texture" icon (|texture-button|) in its header.
