@@ -3,9 +3,10 @@
 Introduction
 ************
 
-In addition to modeling and animation, Blender has a fully functional Video Sequence Editor (VSE)
-as well as an advanced :doc:`Compositor </compositing/introduction>` that also manipulates a video stream.
-The VSE within Blender is a complete video editing system that allows you to combine multiple
+In addition to modeling and animation, Blender can be used to edit video.
+There are two possible methods for this one being the :doc:`Compositor </compositing/introduction>`.
+However, this chapter is on the other, the Video Sequence Editor (VSE) and some time shorten to just Sequencer.
+The Sequencer within Blender is a complete video editing system that allows you to combine multiple
 video channels and add effects to them. You can use these effects to create powerful video edits
 (especially when you combine it with the animation power of Blender!).
 
@@ -35,9 +36,9 @@ In the x direction, seconds of animation or frames of animation
 (:kbd:`Ctrl-T` to choose) are used as the measure of time (seconds 1 through 7 are shown).
 You can scale the time using the zoom keys or mouse actions (see the Reference for more info).
 
-.. figure:: /images/editors_sequencer_header.jpg
+.. figure:: /images/editors_sequencer_header.png
 
-   Video Sequence Editor in Sequence display mode
+   Video Sequencer Header.
 
 .. note::
 
