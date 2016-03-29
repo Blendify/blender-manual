@@ -5,7 +5,7 @@ Editor
 
 By default, the header, when first displayed, is uninitialized as shown:
 
-.. figure:: /images/editors_nodeeditor_header1.png
+.. figure:: /images/editors_node_header1.png
 
    Default Node Editor Header
 
@@ -16,20 +16,20 @@ What nodes to use?
        
 - If you want to work with a material node map, click the ball in the Material/Compositing node set selector.
 
-.. figure:: /images/editors_nodeeditor_header1.png
+.. figure:: /images/editors_node_header1.png
 
    Node Editor for Materials
 
 - If you want to work with a compositing node map,
   click the overlaped pictures on the Material/Compositing node set selector.
 
-.. figure:: /images/editors_nodeeditor_header.jpg
+.. figure:: /images/editors_node_header.jpg
 
    Node Editor for Compositing
 
 - If you want to work with a texture node map, click the checker on the Material/Compositing node set selector.
 
-.. figure:: /images/editors_nodeeditor_header2.png
+.. figure:: /images/editors_node_header2.png
 
    Node Editor for Texturing
 

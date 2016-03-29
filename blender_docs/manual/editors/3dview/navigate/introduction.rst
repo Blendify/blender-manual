@@ -20,7 +20,7 @@ The header is shown at the bottom or top of the workspace, and can be hidden if 
 The header shows you a menu and the current mode, as explained below.
 
 
-.. figure:: /images/editor_3dview-header.jpg
+.. figure:: /images/editors_3dview_header.jpg
    :width: 600px
 
    3D View header.
@@ -29,7 +29,7 @@ The header shows you a menu and the current mode, as explained below.
 View Menu
 ---------
 
-.. figure:: /images/editor_3dview-view-menu.jpg
+.. figure:: /images/editors_3dview-view-menu.jpg
    :width: 300px
 
    The View menu.
@@ -120,7 +120,7 @@ it will change to the appropriate menu with editing tools.
 Mode List
 ---------
 
-.. figure:: /images/editor_3dview-mode.jpg
+.. figure:: /images/editors_3dview-mode.jpg
 
    The Mode drop-down list.
 

@@ -17,7 +17,7 @@ you use composition nodes to both assemble video clips together and enhance them
    The Compositor processes one image at a time, no matter what kind of input you provide.
 
 
-.. figure:: /images/editors_nodeeditor_introduction.png
+.. figure:: /images/editors_node_example.png
 
    An example of Composition.
 
@@ -54,7 +54,7 @@ to your heart's content (or physical memory constraints, whichever comes first).
 Options
 =======
 
-.. figure:: /images/editors_nodeeditor_header.jpg
+.. figure:: /images/editors_node_header.jpg
 
    Compositing Specific Options.
 

@@ -235,7 +235,7 @@ Header Controls
 The Timeline header controls.
 
 
-.. figure:: /images/animation_editors_timeline_header.png
+.. figure:: /images/editors_timeline_header.png
 
    Timeline header controls.
 

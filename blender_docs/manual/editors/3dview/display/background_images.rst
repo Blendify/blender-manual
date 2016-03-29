@@ -24,7 +24,7 @@ or animation (when using a video as background), etc.
 Settings
 ========
 
-.. figure:: /images/editors_3d_view_background_images.png
+.. figure:: /images/editors_3dview_background_images.png
 
 
 Axis

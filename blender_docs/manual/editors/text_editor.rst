@@ -9,7 +9,7 @@ accessible via the *Window type* menu, or the shortcut :kbd:`Shift-F11`.
 The newly opened Text window is grey and empty, with a very simple toolbar (*Text Toolbar*).
 
 
-.. figure:: /images/Extensions-Python-Text-editor-Default-Toolbar.jpg
+.. figure:: /images/editors_text_header1.jpg
 
    Text Toolbar.
 
@@ -20,7 +20,7 @@ creating new Text files. Once you click it, you will find that the Toolbar has c
 for good!
 
 
-.. figure:: /images/Extensions-Python-Text-editor-Toolbar-with-file-open.jpg
+.. figure:: /images/editors_text_header2.jpg
 
    Text Toolbar with a file open
 

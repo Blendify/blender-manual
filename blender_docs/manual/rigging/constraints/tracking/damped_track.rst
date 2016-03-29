@@ -28,7 +28,7 @@ Target (Mesh Object Type)
       a new field is displayed offering the optional choice to set a *Vertex Group* as target.
 
 
-.. figure:: /images/Properties_Editor-Object_Constraints-Damped_Track-Armature_Object_Type.jpg
+.. figure:: /images/editors_properties_constraints-damped-track-armature.jpg
    :width: 304px
 
    Damped Track for Bones

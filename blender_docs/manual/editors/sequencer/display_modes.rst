@@ -1,10 +1,16 @@
 
+.. |texture-button| image:: /images/icons_texture.png
+   :width: 25px
+
 **********************
 Sequence Display Modes
 **********************
 
-By default, the VSE only displays the sequencer. Several options in the header bar allow you
-change the editor to display the sequence in real time, and in various ways.
+By default, the VSE only displays the strips, however, there are a few ways to preview the result of your sequence.
+The first is the preview mode, this can be enable by hitting the texture button (|texture-button|).
+
+
+Several options in the header bar allow you change the editor to display the sequence in real time, and in various ways.
 
 .. figure:: /images/editors_sequencer_view_header.png
 

@@ -202,7 +202,7 @@ rendered landscape* image below shows the results of proportional editing after 
 application of textures and lighting.
 
 
-.. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-landscape-textured.jpg
+.. figure:: /images/editors_3dview_objects_transform_roportional-edit_example.jpg
    :width: 620px
 
    Final rendered landscape.
