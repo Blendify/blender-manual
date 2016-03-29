@@ -10,7 +10,7 @@ The graph editor has two modes, *F-Curve* for :doc:`Actions </animation/actions>
 and *Drivers* for :doc:`Drivers </animation/drivers>`. Both are very similar in function.
 
 
-.. figure:: /images/Graph_Editor.jpg
+.. figure:: /images/editors_graph_example.jpg
    :width: 600px
 
    The Graph Editor.

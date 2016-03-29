@@ -5,7 +5,7 @@ Introduction
 
 The *Properties Editor* is used to edit data and properties for the *Active Scene* and the *Active Object*.
 
-.. figure:: /images/properties_editor.png
+.. figure:: /images/editors_properties.png
 
    The Properties Editor with the Mesh tab selected.
 

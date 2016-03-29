@@ -5,7 +5,7 @@
 Introduction
 ============
 
-.. figure:: /images/editors_movieclip_dopesheet.png
+.. figure:: /images/editors_movie-clip_dopesheet.png
 
    Dope Sheet View
 
@@ -20,7 +20,7 @@ with one switched to the curve or dope sheet view.
 Usage
 =====
 
-.. figure:: /images/editors_movieclip_dopesheet_sort.png
+.. figure:: /images/editors_movie-clip_dopesheet_sort.png
    :align: right
 
    Sort Channels Order

@@ -20,7 +20,7 @@ isn't cluttered up with scene orientation tools when only 2D tracking can be don
 currently displayed tool category can be changed using the Mode menu which is in the editor
 header.
 
-.. figure:: /images/movie_tracking_clip_editor_mode_menu.jpg
+.. figure:: /images/editors_movie_clip_mode_menu.jpg
    :width: 300px
 
    Movie Clip Editor Mode Menu
@@ -168,7 +168,7 @@ This makes the stroke easy to notice on all kinds of movies.
 Objects Panel
 ^^^^^^^^^^^^^
 
-.. figure:: /images/movie_tracking_clip_editor_objects_panel.jpg
+.. figure:: /images/editors_movie-clip_objects_panel.jpg
    :align: right
    :width: 130px
 
@@ -198,7 +198,7 @@ refining of camera intrinsics happens when solving camera motion only.
 Track Panel
 ^^^^^^^^^^^
 
-.. figure:: /images/movie_tracking_clip_editor_track_panel.jpg
+.. figure:: /images/editors_movie-clip_track_panel.jpg
    :align: right
    :width: 130px
 
@@ -458,7 +458,7 @@ All sliders are self-explanatory.
 Tools available in reconstruction mode
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: /images/movie_tracking_clip_editor_2d_stabilization_panel.png
+.. figure:: /images/editors_movie-clip_2d_stabilization_panel.png
    :align: right
    :width: 130px
 

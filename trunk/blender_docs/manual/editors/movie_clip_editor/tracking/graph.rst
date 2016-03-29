@@ -2,7 +2,7 @@
   Graph View
 #############
 
-.. figure:: /images/editors_movieclip_graph.png
+.. figure:: /images/editors_movie-clip_graph.png
    
    Graph View
 

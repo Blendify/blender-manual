@@ -9,7 +9,7 @@ Introduction
 The Movie Clip Editor has two main purposes, it can be used for for tracking or masking movies.
 The default layout looks like the image below.
 
-.. figure:: /images/editors_movieclip.png
+.. figure:: /images/editors_movie-clip.png
 
    Movie Clip Editor interface
 
@@ -28,7 +28,7 @@ After that you will then be able to choose to options in the drop down menu for 
 
 So, when a movie clip is loaded into the clip editor, extra panels are displayed in the interface.
 
-.. figure:: /images/movie_tracking_clip_editor_clip_opened_ui.jpg
+.. figure:: /images/editors_movie-clip_example.jpg
 
    Movie Clip Editor with a Opened Clip
 

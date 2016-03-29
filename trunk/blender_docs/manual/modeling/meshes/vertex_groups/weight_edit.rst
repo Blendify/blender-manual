@@ -72,7 +72,7 @@ In that case the Vertex Weights Panel is not displayed.
 Each row in the Weight table contains 4 active elements:
 
 
-.. figure:: /images/Modeling-Meshes-vertex-weight-editor-name.jpg
+.. figure:: /images/modeling-mesh_vertex-weight-editor-name.jpg
    :width: 335px
 
    Change Active Group
@@ -115,7 +115,7 @@ available and you have direct visual control over how your Weights change when y
 weight values.
 
 
-.. figure:: /images/Modeling-Meshes-vertex-weight-editor-weight.jpg
+.. figure:: /images/modeling_mesh_vertex-weight-editor-weight.jpg
    :width: 235px
 
    Change Weight Value
@@ -130,7 +130,7 @@ drag right or left to increase/decrease the weight value. You also can use the r
 arrows displayed around the weight value to change the weight in steps.
 
 
-.. figure:: /images/Modeling-Meshes-vertex-weight-editor-paste.jpg
+.. figure:: /images/modeling_mesh_vertex-weight-editor-paste.jpg
    :width: 235px
 
    Paste weights

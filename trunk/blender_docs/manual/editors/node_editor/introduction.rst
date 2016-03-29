@@ -5,7 +5,7 @@
 Introduction
 ************
 
-.. figure:: /images/editors_nodeeditor_introduction.png
+.. figure:: /images/editors_node_example.png
 
    The node editor
 
