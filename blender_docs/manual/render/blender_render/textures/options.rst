@@ -79,7 +79,7 @@ Choose the type of texture that is used for the current texture data-block.
 - :doc:`Volume Textures </editors/properties/texture/types/volume/index>`
 - Ocean Texture
 
-These types are described in detail :doc:`in this section </editors/properties/texture/types/introduction>`.
+These types are described in detail :doc:`in this section </editors/properties/texture/types/index>`.
 
 
 Preview
