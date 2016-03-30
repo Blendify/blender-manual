@@ -31,22 +31,6 @@ The *Select* menu (3D view headers) is even simpler than for curves...
    frame[left].
 
 
-Every Nth
----------
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     *Edit* mode
-   | Menu:     :menuselection:`Select --> Every Nth`
-   | Hotkey:   None
-
-
-This is the same option as for :ref:`curve selection <modeling-curves-checker_deselect>`.
-However, the behavior of the *N*
-("selection step") parameter in the 2D of a NURBS surface "cage" seems quite difficult to understand...
-
-
 Control Point Row
 -----------------
 
@@ -246,8 +230,7 @@ surfaces can be closed (cyclic) or open. However, as surfaces are 2D,
 you can control this property independently along the U and V axes.
 
 To toggle the cyclic property of a surface along one axis,
-use :kbd:`C` and choose either *cyclic U* or *cyclic V* from the
-:doc:`Toggle pop-up menu </modeling/surfaces/introduction>`.
+use :kbd:`Alt-C` and choose either *cyclic U* or *cyclic V* from the pop-up menu.
 The corresponding surface's outer edges will join together to form a "closed" surface.
 
 
@@ -344,7 +327,6 @@ Joining or Merging Surfaces
    | Menu:     :menuselection:`Surface --> Make Segment`
    | Hotkey:   :kbd:`F`
 
-
 Just like :ref:`curves <modeling-curves-joining-segments>`,
 merging two surfaces requires that a single edge, a border row of control points,
 from two separate surfaces are selected. This means that the surfaces must be part of the same object. For example,
@@ -360,6 +342,7 @@ else Blender will try to do its best to guess what to merge with what, or the me
 (either silently, or stating that ``Resolution doesn't match`` if rows with
 different number of points are selected, or that there is ``Too few selections to merge``
 if you only selected points in one surface...).
+To select control points of different surfaces,in the same object, you must use either border select or circle select. Holding down Ctrl while LMB will not work.
 
 So to avoid problems, you should always only select border rows with the same number of
 points... Note that you can join a border U-row of one surface with a border V-row of another
@@ -392,7 +375,7 @@ Subdivision
 
    | Mode:     *Edit* mode
    | Panel:    *Curve Tools1* (*Editing* context)
-   | Menu:     :menuselection:`Surface --> Segments --> Subdivide`, :menuselection:`Specials --> Subdivide`
+   | Menu:     :menuselection:`SurfaceTools --> Modeling --> Subdivide`, :menuselection:`Specials --> Subdivide`
    | Hotkey:   :menuselection:`[W] --> [pad1]`
 
 
@@ -477,7 +460,7 @@ You have some of the same options as with meshes, or in *Object* mode.
 You can :ref:`separate <object-separate>` a given surface (:kbd:`P`),
 make other selected objects :ref:`children <object-parenting>`
 of one or three control points
-(:kbd:`Ctrl-P` - note however that parenting to three control points has a strange behavior with curves...),
+(:kbd:`Ctrl-P`),
 or :doc:`add hooks </modeling/modifiers/deform/hooks>` to control some points with other objects.
 
 The *Mirror* tool is also available, behaving exactly as with
