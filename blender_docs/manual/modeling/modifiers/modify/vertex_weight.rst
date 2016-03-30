@@ -270,30 +270,31 @@ Using Distance from a Target Object
 As a first example,
 let's dynamically control a *Wave* modifier with a modified vertex group.
 
-Add a *Grid* mesh, with many vertices (e.g. a **100×100** vertices),
-and ``10`` BU side-length. Switch to *Edit* mode (:kbd:`Tab`),
-and in the *Object Data* properties, *Vertex Groups* panel,
-add a vertex group. Assign to it all your mesh's vertices (with e.g. a ``1.0`` weight).
-Go back to *Object* mode.
+#. Add a *Grid* mesh with **100×100** x/y subdivisions and a **5** BU Radius
 
-Then, go to the *Modifiers* properties,
-and add a *Vertex Weight Proximity* modifier.
-Set the mode to *Object Distance*. Select your vertex group,
-and the target object you want (here I used the lamp).
+#. Switch to *Edit* mode (:kbd:`Tab`), and in the *Object Data* properties, *Vertex Groups* panel,
+   add a vertex group. Assign to it all your mesh's vertices with ``1.0`` weight.
 
-You will likely have to adjust the linear mapping of the weights produced by the
-*Vertex Weight Proximity* modifier. To do so, edit *Lowest Dist* and
-*Highest Dist* so that the first corresponds to the distance between your target
-object and the vertices you want to have lowest weight,
-and similarly with the second and highest weight...
+#. Go back to *Object* mode. Then, go to the *Modifiers* properties, and add a *Vertex Weight Proximity* modifier.
+   Set the Distance mode to *Object*. Select your vertex group, and the target object you want (here I used the lamp).
 
-Now add a *Wave* modifier, set it to your liking,
-and use the same vertex group to control it.
+   You will likely have to adjust the linear mapping of the weights produced by the
+   *Vertex Weight Proximity* modifier. To do so, edit *Lowest Dist* and
+   *Highest Dist* so that the first corresponds to the distance between your target
+   object and the vertices you want to have lowest weight,
+   and similarly with the second and highest weight...
 
-Animate your target object, making it move over the grid. As you can see, the waves are only
-visible around the reference object! Note that you can insert a *Vertex Weight Edit*
-modifier before the *Wave* one,
-and use its *Custom Curve* mapping to get larger/narrower "wave influence's slopes".
+#. If your lamp is at Z-hight **2** then set the settings for the weight proximity modifier to:
+   Lowest: **2** and highest:**7**(this will stop the waves under the lamp)
+   If you want waves to be only under the lamp, set the lowest to **7** and highest to **2**.
+
+#. Now add a *Wave* modifier, set it to your liking, and use the same vertex group to control it.
+   Example settings--speed: **0.10** , Height: **1.0** , Width **1.50** , Narrowness: **1.50**. 
+
+#. Animate your target object, making it move over the grid. As you can see, the waves are only
+   visible around the reference object! Note that you can insert a *Vertex Weight Edit*
+   modifier before the *Wave* one,
+   and use its *Custom Curve* mapping to get larger/narrower "wave influence's slopes".
 
 .. vimeo:: 30187079
 
@@ -372,8 +373,7 @@ and play with the *Custom Curve* mapping to get a larger/narrower "valley"...
    Vertices with a computed weight below 0.1 removed from the vertex group.
 
 
-You can also add a fifth *Mask* modifier,
-and enable *Vertex Weight Edit* 's *Group Remove* option,
+You can also add a fifth *Mask* modifier, and enable *Vertex Weight Edit* 's *Group Remove* option,
 with a *Remove Threshold* of ``0.1``, to see the bottom of your valley disappear.
 
 .. vimeo:: 30188564
@@ -393,8 +393,7 @@ but without assigning any vertex to it - we'll do this dynamically.
 
 Add a first *Vertex Weight Mix* modifier,
 set the *Vertex Group A* field with a *Default Weight A* of ``0.0``,
-and set *Default Weight B* to ``1.0``.
-Leave the *Mix Mode* to *Replace weights*,
+and set *Default Weight B* to ``1.0``. Leave the *Mix Mode* to *Replace weights*,
 and select *All vertices* as *Mix Set*. This way,
 all vertices are affected. As none are in the affected vertex group,
 they all have a default weight of ``0.0``, which is replaced by the second default weight
@@ -463,9 +462,3 @@ and above ``0.75`` : this creates great "walls" in the waves...
 .. vimeo:: 30188814
 
 `The Blender file <https://wiki.blender.org/index.php/Media:ManModifiersWeightVGroupEx.blend>`__, ``TEST_4`` scene.
-
-
-See Also
-========
-
-- The `Development page <https://wiki.blender.org/index.php/User:Mont29/WeightVGroup/Dev>`__.
