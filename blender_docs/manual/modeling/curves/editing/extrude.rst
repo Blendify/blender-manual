@@ -3,13 +3,6 @@
 Curve Extrusion
 ***************
 
-This section covers methods for extruding curves, or giving them thickness,
-and how to control the thickness along the path.
-
-
-Extrusion
-=========
-
 .. admonition:: Reference
    :class: refbox
 
@@ -17,82 +10,106 @@ Extrusion
    | Panel:    *Curve and Surface*
 
 
-Extrusion can be especially with the bevel/taper/Tilt/Radius options.
-Note that this isn't related to *Extrude* used in mesh edit-mode.
+Extrude
+   Turns a one dimensional curve into a two dimensional curve by giving it height. Note that this isn't related to *Extrude* used in mesh edit-mode. 
+   With a scale of one,
+   an *Extrusion* of **.5** will extrude the curve 0.5 BU in both directions, perpendicular to the curves normals. 
 
-We will see the different settings, depending on their scope of action:
+   If set to **0.0**, there is no extrusion
 
-Width
-   This controls the position of the extruded "border" of the curve, relative to the curve itself.
-   With closed 2D curves (see below),
-   it is quite simple to understand - with a *Width* greater than **1.0**, the extruded volume is wider,
-   with a *Width* of **1.0**, the border tightly follows the curve,
-   and with a *Width* lower than **1.0**,
-   the volume is narrower? The same principle remains for open 2D and 3D curves,
-   but the way the "outside" and "inside" of the curve is determined seems a bit odd?
+.. list-table::
 
-   It has the same effect with extruded "bevel" objects...
+   * - .. figure:: /images/Curves_Extrude_start.jpg
+          :width: 315px
+
+          Bezier Circle 0.0 extrude.
+
+     - .. figure:: /images/Curves_Extrude_by0.5.jpg
+          :width: 315px
+
+          Extruded by 0.5.
+
 Tilt
-   This setting - unfortunately, you can never see its value anywhere in Blender -
-   controls the "twisting angle" around the curve for each point - so it is only relevant with 3D curves!
-   You set it using the *Tilt* transform tool (:kbd:`T`, or :menuselection:`Curve --> Transform --> Tilt`),
-   and you can reset it to its default value (i.e. perpendicular to the original curve plane)
+   This setting controls how the normals(AKA the arrows) twist around each control point - so it is only relevant with 3D curves!
+   You set it using the *Tilt* transform tool In the (:kbd:`T`) toolbar,  the (:kbd:`N`) panel --> transform --> Mean tilt, or :menuselection:`Curve --> Transform --> Tilt`).
+
+   You can also reset it to its default value (i.e. perpendicular to the original curve plane)
    with :kbd:`Alt-T` (or :menuselection:`Curve --> Control Points --> Clear Tilt`).
    With NURBS, the tilt is always smoothly interpolated.
-   However, with Bézier, you can choose the interpolation algorithm to use in the *Tilt Interpolation*
-   drop-down list of the *Curve Tools* panel (you will find the classical *Linear*,
-   *Cardinal*, *B Spline* and *Ease* options...).
+   However, with Bézier, you can choose the interpolation algorithm between Linear, Ease, BSpline, and Cardinal, in the Properties Editor --> Object Data --> Active Spline --> Tilt
 
+   .. figure:: /images/Curves_Extrude_by0.5_30meantilt.jpg
 
-Simple Extrusion
-----------------
-
-Let's first see the "simple" extrusion of curves, without additional bevel/taper objects.
-
-Extrude
-   This controls the width (or height) of the extrusion.
-   The real size is of course dependent on the scale of the underlying object, but with a scale of one,
-   an *Extrusion* of **1.0** will extrude the curve one BU in both directions,
-   along the axis perpendicular to the curve's plane (see below for specifics of 3D curves?).
-
-   If set to **0.0**, there is no "simple" extrusion!
+      30 degree Mean Tilt of all control points
 
 Bevel Depth
    This will add a bevel to the extrusion. See below for its effects...
    Note that the bevel makes the extrusion wider and higher.
-   If set to **0.0**, there is no bevel (max value: **2.0**).
+   If set to **0.0**, there is no bevel.
 
-Bev Resol
+   .. figure:: /images/Curves_Extrude_depth_fullfill.jpg
+
+      Bevel depth of 0.25, fill set to full, zero Mean Tilt
+
+Bevel Resolution
    Controls the resolution of the bevel created by a *Bevel Depth* higher than zero.
    If set the **0** (the default), the bevel is a simple "flat" surface.
    Higher values will smooth, round off the bevel, similar to the resolution settings of the curve itself...
+
+   .. figure:: /images/Curves_Extrude_resolution.jpg
+
+      bevel resolution set to 10
+
+
+Offset
+   Moves the extrusion parallel to the curve normals. *Almost like scaling*
+
+   .. figure:: /images/Curves_Extrude_closed2D_fillboth_offset-1.jpg
+
+      -1 offset, 0.5 extrusion, 0.25 Bevel Depth, 10 Bevel resolution
+
+Radius
+   The Radius allows you to directly control the width of the extrusion along the “spinal” curve.
+   The *Radius* of the points is set using the *Shrink/Fatten Radius* transform tool :kbd:`Alt-S`,the :menuselection:`Curve --> Transform --> Shrink/Fatten Radius`, or the (:kbd:`N`) panel --> transform --> Radius
+
+   .. figure:: /images/Curves_Extrude_radius.jpg
+
+      One control point radius set to zero
+
+   .. tip::
+
+      Remember, these curves can be converted into meshes with :kbd:`Alt-C` in Object Mode
 
 We have three sub-classes of results, depending on whether the curve is open or closed or 3D:
 
 Open 2D Curve
    The extrusion will create a "wall" or "ribbon" following the curve shape. If using a *Bevel Depth*,
    the wall becomes a sort of slide or gutter.
-   Note the direction of this bevel is sometimes strange and unpredictable, often the reverse of what you would get
-   with the same curve closed? You can inverse this direction by
-   :ref:`switching the direction <curve-switch_direction>` of the curve.
+   If your normals are facing the wrong way you can switch their direction as shown
+   :ref:`here <curve-switch_direction>`
 
-   This allows you, e.g., to quickly simulate a marble rolling down a complex slide,
-   by combining an extruded beveled curve,
-   and a sphere with a *Follow Path* constraint set against this curve?
+   .. figure:: /images/Curves_Extrude_open2D_fill_none.jpg
+
+      Open 2D Curve with :kbd:`Alt-C`, fill set to none, zero offset, 0.5 extrusion, 0.25 Bevel Depth, 10 Bevel resolution
 
 Closed 2D Curve
    This is probably the most useful situation, as it will quickly create a volume, with (by default)
    two flat and parallel surfaces filling the two sides of the extruded "wall". You can remove one or both of these
-   faces by disabling the *Back* and/or *Front* toggle buttons next to the *3D* one.
+   faces by choosing the fill mode: both, front, back, or none.
 
-   The optional bevel will always be "right-oriented" here, allowing you to smooth out the "edges" of the volume.
+   The optional bevel depth will always create a 90 degree bevels here.
+
+   .. figure:: /images/Curves_Extrude_closed2D_fill_both.jpg
+
+      Closed 2D Curve, 0.5 extrude, 0.25 Bevel Depth, 10 Bevel resolution, Fill: Both
 
 3D Curve
    Here the fact that the curve is closed or not has no importance - you will never get a volume with an extruded 3D
    curve, only a wall or ribbon, like with open 2D curves.
 
    However, there is one more feature with 3D curves: the *Tilt* of the control points (see above).
-   It will make the ribbon twist around the curve ? to create a M?bius strip, for example!
+   It will make the ribbon twist around the curve to create a mobius strip, for example.
+
 
 
 Advanced Extrusion
@@ -110,41 +127,24 @@ otherwise you will get a sort of gutter or slide object...
 
 The object is extruded along the whole length of all internal curves. By default,
 the width of the extrusion is constant, but you have two ways to control it,
-the *Radius* property of control points, and the "taper" object.
+the *Radius* property of control points(see above), and the "taper" object.
 
-The *Radius* of the points is set using the *Shrink/Fatten Radius*
-transform tool (:kbd:`Alt-S`, or :menuselection:`Curve --> Transform --> Shrink/Fatten Radius`),
-or with the *Set Radius* entry in the *Specials* menu (:kbd:`W`).
-Here again,
-you unfortunately cannot visualize anywhere the *Radius* of a given control point...
-
-The *Radius* allows you to directly control the width of the extrusion along the
-"spinal" curve. As for *Tilt* (see above),
-you can choose the interpolation algorithm used for Bézier curves,
-in the *Radius Interpolation* drop-down list of the *Curve Tools* panel.
-
-But you have another, more precise option: the "taper" object. As for the "bevel" one, you set
-its name in the *TaperOb* field of the main curve - it must be an *open curve*.
 The taper curve is evaluated along *the local X axis*,
 using *the local Y axis* for width control. Note also that:
 
+- It must be an *open curve*.
 - The taper is applied independently to all curves of the extruded object.
 - Only the first curve in a *TaperOb* is evaluated, even if you have several separated segments.
 - The scaling starts at the first control-point on the left
   and moves along the curve to the last control-point on the right.
 - Negative scaling, (negative local Y on the taper curve) is possible as well.
   However, rendering artifacts may appear.
-- It scales the width of normal extrusions based on evaluating the taper curve,
-  which means sharp corners on the taper curve will not be easily visible.
-  You'll have to heavily level up the resolution (*DefResolU*) of the base curve.
+- Might need to increase the curve resolution to see more detail of the taper
 - With closed curves, the taper curve in *TaperOb* acts along the whole curve (perimeter of the object),
   not just the length of the object, and varies the extrusion depth. In these cases,
   you want the relative height of the *TaperOb*
   Taper curve at both ends to be the same, so that the cyclic point
   (the place where the endpoint of the curve connects to the beginning) is a smooth transition.
-
-Last but not least, with 3D "spinal" curves, the *Tilt* of the control points can
-control the twisting of the extruded "bevel" along the curve!
 
 
 Examples

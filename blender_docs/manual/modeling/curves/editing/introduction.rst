@@ -195,7 +195,7 @@ Subdivision
 
    | Mode:     *Edit* mode
    | Panel:    *Curve Tools* (*Editing* context)
-   | Menu:     :menuselection:`Curve --> Segments --> Subdivide`
+   | Menu:     :menuselection:`SurfaceTools --> Modeling --> Subdivide`
    | Hotkey:   :kbd:`W`
 
 
