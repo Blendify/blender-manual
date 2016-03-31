@@ -5,9 +5,6 @@
 Parenting Objects
 *****************
 
-
-.. _object-parenting:
-
 When modeling a complex object, such as a watch,
 you may choose to model the different parts as separate objects. However,
 all of the parts may be attached to each other. In these cases,
@@ -57,6 +54,8 @@ Blender supports many different types of parenting, listed below:
 - Vertex (Triangle)
 
 
+.. _object-parenting:
+
 Object Parent
 =============
 
@@ -66,7 +65,7 @@ while all other selected objects will be *Child Objects*.
 
 
 Object (Keep Transform) Parent
-==============================
+------------------------------
 
 *Object (Keep Transform) Parent* works in a very similar way to *Object Parent* the major difference is in whether
 the *Child Objects* will remember any previous transformations applied to them from the previous *Parent Object*.
