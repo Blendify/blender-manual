@@ -8,4 +8,3 @@
 
    introduction.rst
    uv_editing/index.rst
-   nodes/index.rst
