@@ -1,21 +1,5 @@
 .. only:: html
 
-   .. container:: home-header
-
-      .. image:: /images/blender_logo_light.png
-         :height: 36px
-         :width: 123px
-         :alt: Blender
-         :align: left
-         :target: https://www.blender.org
-
-      `Features <https://www.blender.org/features/>`__
-      `Download <https://www.blender.org/download/>`__
-      `Support <https://www.blender.org/support/>`__
-      `Get Involved <https://www.blender.org/getinvolved/>`__
-      `About <https://www.blender.org/about/>`__
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
   Blender Manual Contents
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -25,7 +9,7 @@ Welcome to the Blender Manual!
 
 .. only:: html
 
-   This site can be downloaded for offline use
+   This site can be downloaded for offline use:
    `Download the full manual (zipped HTML files) <blender_manual.zip>`__
 
 For other languages see:
