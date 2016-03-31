@@ -1,4 +1,3 @@
-.. only:: html
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
   Blender Manual Contents
