@@ -36,8 +36,8 @@ However moving/rotating/scaling the child/children of the parent will not result
 moving/rotating/scaling. In other words,
 the direction of influence is from parent to child and not child to parent.
 
-In general when using the :kbd:`Ctrl-P` or :menuselection:`3D View Header --> Object --> Parent`
-entires to parent objects, the *Child Objects* can only have one *Parent Object*.
+In general when using :kbd:`Ctrl-P` or :menuselection:`3D View Header --> Object --> Parent`
+to parent objects, the *Child Objects* can only have one *Parent Object*.
 If a *Child Object* already has a *Parent Object* and you give it another parent then
 Blender will automatically remove the previous parent relationship.
 
@@ -120,7 +120,7 @@ the change came about because it was the child of "EmptyA" which had its scale a
 Changing the Monkey's parent to "EmptyB" resulted in those indirect changes in scale being
 removed, because "EmptyB" has not had its scale altered.
 
-This is often the required behaviour, but it is also sometimes useful that if you change your
+This is often the required behavior, but it is also sometimes useful that if you change your
 *Parent Object* that the *Child Object* keep any previous transformations it got from the
 old *Parent Object*; If instead when changing the *Parent Object* of the Monkey from
 "EmptyA" to "EmptyB" we had chosen parenting type *Object (Keep Transform)*, the Monkey
@@ -174,9 +174,9 @@ Using the Armature Deform Parenting operator is the first step in setting up the
 between an Armature Object and it's Child Objects.
 
 To use Armature Deform Parenting you must first select all the Child Objects that will be
-influenced by the Armature and then lastly select the Armature Object itself. Once all the
+influenced by the Armature and then lastly, select the Armature Object itself. Once all the
 Child Objects and the Armature Object are selected press :kbd:`Ctrl-P` and select
-Armature Deform in the Set Parent To pop-up dialog. (See figure 6).
+Armature Deform in the Set Parent To popup dialog. (See figure 6).
 
 
 .. figure:: /images/SR-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.jpg
@@ -222,7 +222,7 @@ Armature Object and switch to Pose Mode in the :menuselection:`3D View Editor He
 .. figure:: /images/ST-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.jpg
 
    Figure 8 - :menuselection:`3D View Editor Header --> Mode Select` set to Pose Mode,
-   with Armature Bone highlighted in Cyan and effecting the Mesh Object
+   with Armature Bone highlighted in Cyan and affecting the Mesh Object
 
 
 Once in Pose Mode transforming one of the Bones of the Armature that has been associated with
@@ -241,7 +241,7 @@ empty this means they will not have any vertices assigned to those Vertex Groups
 must manually select the vertices and assign them to a particular Vertex Group of your
 choosing to have bones in the armature influence them.
 
-For example if you have an Armature Object which consists of 3 bones named BoneA,
+For example, if you have an Armature Object which consists of 3 bones named BoneA,
 BoneB and BoneC and Cube Mesh Object type called Cube. If you parent the Cube Child Object to
 the Armature Parent Object the Cube will get 3 new Vertex Groups created on it called BoneA,
 BoneB and BoneC. Notice that each Vertex Group is empty. (See figure 21).
@@ -264,30 +264,30 @@ them also transforming in a similar way. Deforming Bones are directly involved i
 the positions of vertices associated with their bones.
 
 Control Bones - Are Bones which act in a similar way to switches,
-in that they control how other bones or objects react when they are transformed.
-A Control Bone could for example act as a sliding switch control, when the bone is in one
+in that, they control how other bones or objects react when they are transformed.
+A Control Bone could for example act as a sliding switch control when the bone is in one
 position to the left it could indicate to other bones that they react in a particular way when
 transformed, when the Control Bone is positioned to the right,
 transforming other bones or objects could do something completely different.
 Control Bones are not directly used to alter the positions of vertices,
-in fact Control Bones often have no vertices directly associated with themselves.
+in fact, Control Bones often have no vertices directly associated with themselves.
 
 When using the Armature Deform With Empty Groups parenting method Vertex Groups on the Child
 Object will only be created for Armature Bones which are setup as Deforming Bone types.
 If a Bone is a Control Bone no Vertex Group will be created on the Child Object for that bone.
 
-To check weather a particular bone in an armature is a Deforming Bone simply switch to Pose or Edit Mode
+To check whether a particular bone in an armature is a Deforming Bone simply switch to Pose or Edit Mode
 on the armature and select the bone you are interested in by :kbd:`RMB` it.
-Once the bone of interest is selected navigate to :menuselection:`Properties Editor --> Bone Context --> Deform Panel`
+Once the bone of interest is selected navigate to :menuselection:`Properties Editor --> <Bone Context> --> Deform Panel`
 and check if the Deform tickable option is ticked or not. If it is the selected bone is a Deforming Bone,
-otherwise it is a Control Bone. (See figure 22).
+otherwise, it is a Control Bone. (See figure 22).
 
 
 .. figure:: /images/3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform_With_Empty_Groups-blend.jpg
 
    Figure 22 - 3 Bone Armature in Edit Mode with 2nd bone selected with 
-   :menuselection:`Properties Editor --> Bone Context --> Deform`
-   displayed an ticked, indicating the bone is a Deforming Bone.
+   :menuselection:`Properties Editor --> <Bone Context> --> Deform`
+   displayed ticked, indicating the bone is a Deforming Bone.
 
 
 Armature Deform With Automatic Weights
@@ -311,10 +311,10 @@ neither will you have to assign Influences Weights to those Vertex Groups, Blend
 To activate Armature Deform With Automatic Weights you must be in Object Mode or Pose Mode,
 then select all the Child Objects (usually Mesh Object Types) and lastly select the Armature Object;
 Once done press :kbd:`Ctrl-P` and select the Armature Deform With Automatic Weights from the
-Set Parent To pop-up dialog.
+Set Parent To popup dialog.
 
 This method of parenting is certainly easier setup but it can often lead to Armatures which do not deform Child
-Objects in ways you would want, as Blender can get a little confused when it comes to determining which Bones should
+Objects in ways you would want as Blender can get a little confused when it comes to determining which Bones should
 influence certain vertices when calculating Influence Weights for more complex armatures and Child Objects. Symptoms
 of this confusion are that when transforming the Armature Object in Pose Mode parts of the Child Objects don't deform
 as you expect; If Blender does not give you the results you require you will have to manually alter the Influence
@@ -346,7 +346,7 @@ The gray semi-transparent volume around the bone is the Bone Envelope.
 
 Any Child Object that has vertices inside the volume of the Bone Envelope will be influenced by
 the Parent Object Armature when the Armature Deform With Envelope Weights operator is used.
-Any vertices outside the Bone Evelope volume will not be influenced. (See figure 29).
+Any vertices outside the Bone Envelope volume will not be influenced. (See figure 29).
 
 
 .. figure:: /images/TO-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform_With_Envelope_Weights.jpg
@@ -365,18 +365,18 @@ See figure 30.
 
 .. figure:: /images/TP-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform_With_Envelope_Weights.jpg
 
-   Figure 30 - Single Armature Bone with various different Bone Evelope sizes.
+   Figure 30 - Single Armature Bone with various different Bone Envelope sizes.
 
 
 You can also alter the Bone Envelope volume by selecting the Bone you wish to alter and
 switching to Edit Mode or Pose Mode,
-then navigate to :menuselection:`Properties Editor --> Bone Context --> Deform --> Envelope --> Distance`
+then navigate to :menuselection:`Properties Editor --> <Bone Context> --> Deform --> Envelope --> Distance`
 then enter a new value into it. (See figure 31).
 
 
 .. figure:: /images/TQ-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform_With_Envelope_Weights.jpg
 
-   Figure 31 - :menuselection:`Properties Editor --> Bone Context --> Deform Panel --> Envelope --> Distance`.
+   Figure 31 - :menuselection:`Properties Editor --> <Bone Context> --> Deform Panel --> Envelope --> Distance`.
 
 
 Altering the Bone Envelope volume does not alter the size of the Armature Bone just the range
@@ -391,29 +391,29 @@ See figure 32.
 .. figure:: /images/TR-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform_With_Envelope_Weights.jpg
 
    Figure 32 - 4 Armature Bones all using Envelope Weight.
-   The 1st with a default radius value, the 3 others with differing Tail, Head and Body radius values.
+   The 1st with a default radius value, the 3 others with differing Tail, Head, and Body radius values.
 
 
 You can also alter the bone radius by selecting the tail or head of the bone you wish to alter and switching to Edit
-Mode, then navigate to :menuselection:`Properties Editor --> Bone Context --> Deform --> Radius Section`
+Mode, then navigate to :menuselection:`Properties Editor --> <Bone Context> --> Deform --> Radius Section`
 and entering new values for the *Tail* and *Head* fields. (See figure 33).
 
 
 .. figure:: /images/TS-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform_With_Envelope_Weights.jpg
 
-   Figure 33 - :menuselection:`Properties Editor --> Bone Context --> Deform --> Radius Section` head and tail fields highlighted.
+   Figure 33 - :menuselection:`Properties Editor --> <Bone Context> --> Deform --> Radius Section` head and tail fields highlighted.
 
 
 .. note::
 
    If you alter the Bone Envelope volume of a bone so that you can have it include/exclude
    certain vertices after you have already used Armature Deform With Envelope Weights,
-   by default the newly included/excluded vertices won't be effected by the change. When using
+   by default, the newly included/excluded vertices won't be affected by the change. When using
    Armature Deform With Envelope Weights it only calculates which vertices will be affected by
    the Bone Envelope volume at the time of parenting, at which point it creates the required
    named Vertex Groups and assigns vertices to them as required. If you want any vertices to
-   take account of the new Bone Envelope volume size you will have carry out the Armature Deform
-   With Envelope Weights parenting again; In fact all parenting used in the Set Parent To pop-up
+   take account of the new Bone Envelope volume size you will have to carry out the Armature Deform
+   With Envelope Weights parenting again; In fact, all parenting used in the Set Parent To popup
    dialog which tries to automatically assign vertices to Vertex Groups works like this.
 
 
@@ -436,7 +436,7 @@ if the specific bone it is the Child Object of moves. (See figure 34).
 To use Bone Parenting, you must first select all the Child Objects you wish to parent to a specific Armature Bone,
 then :kbd:`Shift-RMB` select the Armature Object and switch it into Pose Mode and then select the
 specific bone you wish to be the Parent Bone by :kbd:`RMB` selecting it.
-Once done press :kbd:`Ctrl-P` and select Bone from the Set Parent To pop-up dialog.
+Once done press :kbd:`Ctrl-P` and select Bone from the Set Parent To popup dialog.
 
 Now transforming that bone in Pose Mode will result in the Child Objects also transforming.
 
@@ -517,7 +517,7 @@ The nearest vertices will be used from each object which is typically what you w
 
    A) The small cubes can each be automatically parented to a triad of nearby vertices on the icosphere using the
       "Vertex (Triangle)" in the set parent context menu.
-   B) Reshaping the object in edit mode then means each of the cubes follows their vertex triad parent separately.
+   B) Reshaping the object in edit mode then means each of the cubes follows their vertex parent separately.
    C) Re-scaling the parent icosphere in object mode means the child cubes are also rescaled as expected.
 
 
