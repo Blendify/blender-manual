@@ -30,7 +30,7 @@ Key Features
   :doc:`Video Editing </editors/sequencer/index>`,
   :doc:`VFX </editors/movie_clip_editor/index>`,
   :doc:`Compositing </compositing/introduction>`,
-  :doc:`Texturing </editors/uv_image/texturing/uv_editing/overview>`,
+  :doc:`Texturing </editors/uv_image/uv_editing/overview>`,
   :doc:`Rigging </rigging/introduction>`,
   many types of :doc:`Simulations </physics/introduction>`,
   and :doc:`Game Creation </game_engine/introduction>`.
