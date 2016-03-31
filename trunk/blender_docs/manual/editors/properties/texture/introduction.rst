@@ -25,7 +25,7 @@ These are the available texture types:
    Photos and films projected onto objects.
 
 
-- :doc:`Combined Textures </editors/uv_image/texturing/nodes/introduction>`
+- :doc:`Combined Textures </render/blender_render/textures/nodes/introduction>`
 
 
 .. figure:: /images/texture-types-combined.jpg

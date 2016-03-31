@@ -27,7 +27,7 @@ Node Tree Types
 Blender has a number of different node tree types:
 
 - :doc:`Compositing Nodes </compositing/index>`
-- :doc:`Texture Nodes </editors/uv_image/texturing/nodes/introduction>`
+- :doc:`Texture Nodes </render/blender_render/textures/nodes/introduction>`
 - Material Nodes (:doc:`Blender Internal </render/blender_render/materials/nodes/index>`,
   :doc:`Cycles </render/cycles/nodes/index>`)
 

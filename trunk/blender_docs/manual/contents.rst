@@ -1,3 +1,21 @@
+.. only:: html
+
+   .. container:: home-header
+
+      .. image:: /images/blender_logo_light.png
+         :height: 36px
+         :width: 123px
+         :alt: Blender
+         :align: left
+         :target: https://www.blender.org
+
+      `Features <https://www.blender.org/features/>`__
+      `Download <https://www.blender.org/download/>`__
+      `Support <https://www.blender.org/support/>`__
+      `Get Involved <https://www.blender.org/getinvolved/>`__
+      `About <https://www.blender.org/about/>`__
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
   Blender Manual Contents
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
