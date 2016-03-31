@@ -1,7 +1,7 @@
 
-************
-Introduction
-************
+********
+Overview
+********
 
 The most flexible way of mapping a 2D texture over a 3D object is a process called "UV
 mapping". In this process, you take your three-dimensional (X,Y & Z)

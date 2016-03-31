@@ -8,6 +8,6 @@
    :maxdepth: 2
 
    introduction.rst
-   masking.rst
+   uv_editing/index.rst
    painting.rst
-   texturing/index.rst
+   masking.rst
