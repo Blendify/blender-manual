@@ -14,7 +14,9 @@
    markers.rst
    shape_keys.rst
 
-Animation techniques.
+
+Animation Techniques
+====================
 
 .. EDITORS NOTE:
    These could be re-worked, or moved into more general
