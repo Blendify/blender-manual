@@ -8,5 +8,5 @@
    :maxdepth: 2
 
    introduction.rst
-   material/index.rst
+   material.rst
    texture.rst
