@@ -16,7 +16,6 @@ in *Properties* window, *Object data* context:
 
 
 .. figure:: /images/RiggingEditingObjectDataPropertyWindow.jpg
-   :width: 267px
 
    The Object data property in the Properties window.
 
@@ -25,7 +24,6 @@ Skeleton panel (all modes)
 ==========================
 
 .. figure:: /images/RiggingEditingObjectDataPropertyCxtSkeletonPanel.jpg
-   :width: 250px
 
    The Skeleton panel.
 
@@ -37,7 +35,6 @@ Display panel (all modes)
 =========================
 
 .. figure:: /images/RiggingEditingObjectDataPropertyCxtDisplayPanel.jpg
-   :width: 250px
 
    The Display panel.
 
@@ -47,23 +44,31 @@ Display panel (all modes)
    There are several other options available which we will cover later on.
 
 
-Bone groups panel (pose mode)
+Bone Groups panel (Pose mode)
 =============================
 
-.. figure:: /images/RiggingEditingObjectDataPropertyCxtBonesGroupsPanel.jpg
-   :width: 250px
+.. figure:: /images/RiggingEditingObjectDataPropertyCxtBoneGroupsPanel.png
 
    The Bone Groups panel.
 
 
-   Lets you assign sets of bones into groups for easy manipulation and management.
+   This panel allows the creation, deletion and editing of Bone Groups.
+
+   Bone Groups are meant to be used during the rig creation to define and assign a color to a meaningful set of bones.
+   It is an usual convention to color Left parts of the rig as blue and Right parts as red, although it is not mandatory.
+   These groups can later be easily accessed with the *Select* and *Deselect* buttons.
+   The *Assign* and *Remove* buttons serve to add or remove the currently selected bones to the currently selected group.
+
+   It is important to note that a bone can only belong to one group. For bones belonging to multiple for easy selection during animation see instead `Selection Sets <https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Animation/SelectionSets>`__.
+
+   .. Tip ::
+      Use the mouse scroll wheel over the color templates to quickly skim through the available colors.
 
 
 Pose Library panel (Pose mode)
 ==============================
 
 .. figure:: /images/RiggingEditingObjectDataPropertyCxtPoseLibraryPanel.jpg
-   :width: 250px
 
    The Pose Library panel.
 
@@ -75,7 +80,6 @@ Ghost panel (all modes)
 =======================
 
 .. figure:: /images/RiggingEditingObjectDataPropertyCxtGhostPanel.jpg
-   :width: 250px
 
    The Ghost panel.
 
@@ -87,7 +91,6 @@ iTaSC parameters panel (all modes)
 ==================================
 
 .. figure:: /images/RiggingEditingObjectDataPropertyCxtiTaSCparametersPanel.jpg
-   :width: 250px
 
    The iTaSC parameters panel.
 
@@ -99,7 +102,6 @@ Motion Paths panel (Pose mode)
 ==============================
 
 .. figure:: /images/RiggingEditingObjectDataPropertyCxtMotionPathsPanel.jpg
-   :width: 250px
 
    The Motion Paths panel.
 
@@ -111,7 +113,6 @@ Custom Properties panel (all modes)
 ===================================
 
 .. figure:: /images/RiggingEditingObjectDataPropertyCxtCustomPropertiesPanel.jpg
-   :width: 250px
 
    The Custom Properties panel.
 
@@ -134,7 +135,6 @@ in *Properties* window, *Bone* context:
 
 
 .. figure:: /images/RiggingBonePrincipalsBonePropertyWindow.jpg
-   :width: 250px
 
    The Bone context.
 
@@ -143,7 +143,6 @@ Relations panel (edit mode)
 ===========================
 
 .. figure:: /images/RiggingEditingBoneCxtRelationsPanel.jpg
-   :width: 250px
 
    The Relations panel.
 
@@ -155,7 +154,6 @@ Display panel (object mode)
 ===========================
 
 .. figure:: /images/RiggingEditingBoneCxtDisplayPanel.jpg
-   :width: 250px
 
    The Display panel.
 
@@ -167,7 +165,6 @@ Deform panel (all modes)
 ========================
 
 .. figure:: /images/RiggingEditingBoneCxtDeformPanel.jpg
-   :width: 250px
 
    The Deform panel.
 
@@ -186,7 +183,6 @@ Custom Properties panel (all modes)
 ===================================
 
 .. figure:: /images/RiggingEditingObjectDataPropertyCxtCustomPropertiesPanel.jpg
-   :width: 250px
 
    The Custom Properties panel.
 
@@ -198,7 +194,6 @@ Transform panel (edit and pose mode)
 ====================================
 
 .. figure:: /images/RiggingEditingBoneCxtTransformPanel.jpg
-   :width: 250px
 
    The Transform panel(edit mode).
 
@@ -209,7 +204,6 @@ Transform panel (edit and pose mode)
 
 
 .. figure:: /images/RiggingEditingBoneCxtTransformPPanel.jpg
-   :width: 250px
 
    The Transform panel(pose mode).
 
@@ -218,7 +212,6 @@ Transform Locks panel (pose mode)
 =================================
 
 .. figure:: /images/RiggingEditingBoneCxtTranformLocksPanel.jpg
-   :width: 250px
 
    The Transform Locks panel.
 
@@ -230,7 +223,6 @@ Inverse Kinematics panel (pose mode)
 ====================================
 
 .. figure:: /images/RiggingEditingBoneCxtInverseKinematicsPanel.jpg
-   :width: 250px
 
    The Inverse Kinematics panel.
 
