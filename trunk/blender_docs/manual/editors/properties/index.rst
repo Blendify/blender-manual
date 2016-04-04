@@ -17,5 +17,7 @@ Sections
 .. toctree::
    :maxdepth: 1
 
+   armature.rst
+   bone.rst
    material.rst
    texture.rst
