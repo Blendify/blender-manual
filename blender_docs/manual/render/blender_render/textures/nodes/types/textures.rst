@@ -25,7 +25,7 @@ Voronoi
    Voronoi node
 
 
-See :doc:`Here </editors/properties/texture/types/procedural/voronoi>`
+See :doc:`Here </render/blender_render/textures/types/procedural/voronoi>`
 
 
 Blend
@@ -36,7 +36,7 @@ Blend
    Blend node
 
 
-See :doc:`Here </editors/properties/texture/types/procedural/blend>`
+See :doc:`Here </render/blender_render/textures/types/procedural/blend>`
 
 
 Magic
@@ -47,7 +47,7 @@ Magic
    Magic node
 
 
-See :doc:`Here </editors/properties/texture/types/procedural/magic>`
+See :doc:`Here </render/blender_render/textures/types/procedural/magic>`
 
 
 Marble
@@ -58,7 +58,7 @@ Marble
    Marble node
 
 
-See :doc:`Here </editors/properties/texture/types/procedural/marble>`
+See :doc:`Here </render/blender_render/textures/types/procedural/marble>`
 
 
 Clouds
@@ -69,7 +69,7 @@ Clouds
    Clouds node
 
 
-See :doc:`Here </editors/properties/texture/types/procedural/clouds>`
+See :doc:`Here </render/blender_render/textures/types/procedural/clouds>`
 
 
 Wood
@@ -80,7 +80,7 @@ Wood
    Wood node
 
 
-See :doc:`Here </editors/properties/texture/types/procedural/wood>`
+See :doc:`Here </render/blender_render/textures/types/procedural/wood>`
 
 
 Musgrave
@@ -91,7 +91,7 @@ Musgrave
    Musgrave
 
 
-See :doc:`Here </editors/properties/texture/types/procedural/musgrave>`
+See :doc:`Here </render/blender_render/textures/types/procedural/musgrave>`
 
 
 Noise
@@ -102,7 +102,7 @@ Noise
    Noise
 
 
-See :doc:`Here </editors/properties/texture/types/procedural/noise>`
+See :doc:`Here </render/blender_render/textures/types/procedural/noise>`
 
 
 Stucci
@@ -113,7 +113,7 @@ Stucci
    Stucci
 
 
-See :doc:`Here </editors/properties/texture/types/procedural/stucci>`
+See :doc:`Here </render/blender_render/textures/types/procedural/stucci>`
 
 
 Distorted Noise
@@ -124,4 +124,4 @@ Distorted Noise
    Distorted Noise node
 
 
-See :doc:`Here </editors/properties/texture/types/procedural/distorted_noise>`
+See :doc:`Here </render/blender_render/textures/types/procedural/distorted_noise>`

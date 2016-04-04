@@ -515,7 +515,7 @@ Float Buffer
 
 
 About specific options for **movie** and **image sequence** source.
-see :doc:`here </editors/properties/texture/types/video>`
+see :doc:`here </render/blender_render/textures/types/video>`
 
 
 Image Sampling

@@ -72,14 +72,14 @@ Texture Type
 Choose the type of texture that is used for the current texture data-block.
 
 
-- :doc:`Procedural Textures </editors/properties/texture/types/procedural/introduction>`
-- :doc:`Image </editors/properties/texture/types/image>` and
-  :doc:`Video </editors/properties/texture/types/video>` Textures
+- :doc:`Procedural Textures </render/blender_render/textures/types/procedural/introduction>`
+- :doc:`Image </render/blender_render/textures/types/image>` and
+  :doc:`Video </render/blender_render/textures/types/video>` Textures
 - :doc:`Environment Map </render/blender_render/textures/mapping/environment>`
-- :doc:`Volume Textures </editors/properties/texture/types/volume/index>`
+- :doc:`Volume Textures </render/blender_render/textures/types/volume/index>`
 - Ocean Texture
 
-These types are described in detail :doc:`in this section </editors/properties/texture/types/index>`.
+These types are described in detail :doc:`in this section </render/blender_render/textures/types/index>`.
 
 
 Preview
@@ -98,7 +98,7 @@ Texture, Material, or Both
    Choose to display only the texture, only the material, or both.
 Show Alpha
    Show alpha in preview.
-   If Alpha: Use is checked in the :doc:`Image Sampling </editors/properties/texture/types/image>` panel,
+   If Alpha: Use is checked in the :doc:`Image Sampling </render/blender_render/textures/types/image>` panel,
    the image's alpha channel is displayed.
    If Alpha: Use is unchecked,
    an alpha channel based on averaged rgb values is displayed like it would be used by the Alpha slider in the
