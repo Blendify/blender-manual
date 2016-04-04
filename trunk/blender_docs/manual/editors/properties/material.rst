@@ -1,7 +1,7 @@
 
-**************
-Material Panel
-**************
+********
+Material
+********
 
 Material Preview
 ================
