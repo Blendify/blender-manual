@@ -40,9 +40,9 @@ Sections
    modeling/index.rst
    painting_sculpting/index.rst
    rigging/index.rst
-   /animation/index.rst
+   animation/index.rst
    physics/index.rst
-   /render/index.rst
+   render/index.rst
    compositing/index.rst
    game_engine/index.rst
    preferences/index.rst

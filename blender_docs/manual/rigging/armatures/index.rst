@@ -10,7 +10,6 @@
    introduction.rst
    bones.rst
    editing.rst
-   panels.rst
    selecting.rst
    structure.rst
    visualization.rst
