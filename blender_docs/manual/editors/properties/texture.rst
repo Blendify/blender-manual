@@ -1,7 +1,7 @@
 
-************
-Introduction
-************
+*******
+Texture
+*******
 
 These are the available texture types:
 

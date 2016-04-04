@@ -9,4 +9,4 @@
 
    introduction.rst
    material/index.rst
-   texture/index.rst
+   texture.rst
