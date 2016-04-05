@@ -18,7 +18,11 @@ Render Options
    Set the active scene ``<name>`` for rendering
 ``-f``, ``--render-frame`` ``<frame>``
    Render frame ``<frame>`` and save it.
-   ``+<frame>`` start frame relative, ``-<frame>`` end frame relative.
+
+   * ``+<frame>`` start frame relative, ``-<frame>`` end frame relative.
+   * A comma separated list of frames can also be used (no spaces).
+   * A range of frames can be expressed using ``..`` seperator between the first and last frames (inclusive).
+
 ``-s``, ``--frame-start`` ``<frame>``
    Set start to frame ``<frame>``, supports +/- for relative frames too.
 ``-e``, ``--frame-end`` ``<frame>``
@@ -30,6 +34,7 @@ Render Options
    Use ``//`` at the start of the path to render relative to the blend-file.
 
    The ``#`` characters are replaced by the frame number, and used to define zero padding.
+
 
    * ``ani_##_test.png`` becomes ``ani_01_test.png``
    * ``test-######.png`` becomes ``test-000001.png``
@@ -56,10 +61,10 @@ Format Options
 
 ``-F``, ``--render-format`` ``<format>``
    Set the render format, Valid options are...
-      TGA IRIS JPEG MOVIE IRIZ RAWTGA
-      AVIRAW AVIJPEG PNG BMP FRAMESERVER
+      TGA RAWTGA JPEG IRIS IRIZ
+      AVIRAW AVIJPEG PNG BMP
    (formats that can be compiled into blender, not available on all systems)
-      HDR TIFF EXR MULTILAYER MPEG AVICODEC QUICKTIME CINEON DPX DDS
+      HDR TIFF EXR MULTILAYER MPEG FRAMESERVER QUICKTIME CINEON DPX DDS JP2
 ``-x``, ``--use-extension`` ``<bool>``
    Set option to add the file extension to the end of the file
 
@@ -223,13 +228,6 @@ Other Options
    Set logging verbosity level.
 
 
-Experimental features
-=====================
-
-``--enable-new-depsgraph``
-   Use new dependency graph
-
-
 Argument Parsing
 ================
 
@@ -285,3 +283,11 @@ Environment Variables
 :TMP: or $TMPDIR           Store temporary files here.
 :SDL_AUDIODRIVER:          LibSDL audio driver - alsa, esd, dma.
 :PYTHONHOME:               Path to the python directory, eg. /usr/lib/python.
+
+
+
+Experimental Features
+=====================
+
+``--enable-new-depsgraph``
+   Use new dependency graph
