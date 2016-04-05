@@ -1,5 +1,5 @@
 
-..    TODO/Review: {{review|im=examples}} .
+..    TODO/Review: {{review|im=examples}}.
 
 **********************
 Follow Path Constraint
@@ -69,7 +69,7 @@ Options
 .. figure:: /images/Constraints-Relationship-FollowPath.jpg
    :width: 305px
 
-   Follow Path panel
+   Follow Path panel.
 
 
 Target
@@ -94,5 +94,3 @@ Follow Curve
       In fact, with this option activated, the behavior of the owner shares some properties with
       the one caused by a :doc:`Locked Track constraint </rigging/constraints/tracking/locked_track>`,
       with the path as "axle", and the world Z axis as "magnet".
-
-

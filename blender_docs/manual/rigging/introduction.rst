@@ -41,4 +41,3 @@ consider putting everything together into the sophisticated character rig of you
    It should be paired with additional resources such as Nathan Vegdahl's excellent (and free!)
    introduction to the fundamental concepts of character rigging,
    `Humane Rigging <https://www.youtube.com/playlist?list=PL3wFcRXImVPOQpi-wi7uriXBkykXVUntv>`__.
-

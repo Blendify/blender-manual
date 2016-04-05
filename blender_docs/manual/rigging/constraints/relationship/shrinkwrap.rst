@@ -1,5 +1,5 @@
 
-..    TODO/Review: {{review|im= examples}} .
+..    TODO/Review: {{review|im= examples}}.
 
 
 *********************
@@ -23,7 +23,7 @@ Options
 .. figure:: /images/Constraints-Relationship-ShrinkWrap.jpg
    :width: 304px
 
-   Shrinkwrap panel
+   Shrinkwrap panel.
 
 
 Target
@@ -54,5 +54,3 @@ Shrinkwrap Type
    Nearest Vertex
       This method is very similar to the *Nearest Surface Point* one,
       except that the owner's possible shrink locations are limited to the target's vertices.
-
-

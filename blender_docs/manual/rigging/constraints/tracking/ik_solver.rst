@@ -1,5 +1,5 @@
 
-..    TODO/Review: {{review|}} .
+..    TODO/Review: {{review|}}.
 
 ********************
 IK Solver Constraint
@@ -20,7 +20,7 @@ Options
 .. figure:: /images/Constraints-Tracking-IK.jpg
    :width: 305px
 
-   Inverse Kinematics panel
+   Inverse Kinematics panel.
 
 
 Target
@@ -47,5 +47,3 @@ Target
    Disable for targetless IK
 Rotation
    Chain follows rotation of target
-
-

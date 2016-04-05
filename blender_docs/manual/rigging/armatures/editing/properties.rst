@@ -1,6 +1,5 @@
 
-..    TODO/Review: {{review|copy=X}} .
-
+..    TODO/Review: {{review|copy=X}}.
 
 ***********************
 Editing Bone Properties
@@ -133,7 +132,9 @@ the "local axes" means the object's axes, here they are the bone's own axes
 the constraint is applied along the selected bone's local axis,
 not the armature object's axis).
 
-WARNING! If you have more than one bone selected, using this tool crashes Blender!
+.. warning::
+
+   If you have more than one bone selected, using this tool crashes Blender!
 
 
 .. list-table::
@@ -565,4 +566,3 @@ AutoName Top-Bottom
    will add the ``.Top`` suffix to all bones *with a positive Z-coordinate root*,
    and the ``.Bot`` suffix to all bones *with a negative Z-coordinate root*.
    The same as with *AutoName Left-Right* goes for **0.0** Z-coordinate bones...
-

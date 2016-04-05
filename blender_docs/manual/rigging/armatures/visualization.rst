@@ -308,4 +308,3 @@ they will still be visible in *Pose* mode, and vice-versa.
 Hidden bone in *Pose* mode are also invisible in *Object* mode.
 And in *Edit* mode, the bone to hide must be fully selected,
 not just his root or tip...
-

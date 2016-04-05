@@ -1,7 +1,6 @@
 
 ..    TODO/Review: {{review|partial=X|text=Need example & img}} .
 
-
 *********
 Spline IK
 *********
@@ -17,7 +16,8 @@ Full description of the settings for the spline IK are detailed on the
 :doc:`Spline IK </rigging/constraints/tracking/spline_ik>` page.
 
 
-**Basic Setup**
+Basic Setup
+===========
 
 The Spline IK Constraint is not strictly an 'Inverse Kinematics' method (i.e. IK Constraint),
 but rather a 'Forward Kinematics' method (i.e. normal bone posing). However,
@@ -110,4 +110,3 @@ Tips for Nice Setups
   This is to avoid creating pseudo "Dependency Cycles",
   since Blender's Dependency Graph can only resolve the dependencies the control bones,
   curves, and Spline IK'ed bones on an object by object basis.
-

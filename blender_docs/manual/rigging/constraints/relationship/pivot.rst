@@ -1,10 +1,7 @@
 
-..    TODO/Review: {{review
-   |text=
-   This needs a complete rewrite,
+..    TODO/Review: {{review|text=This needs a complete rewrite,
    because we should not be using BA thread and video to exaplain something in the manual.
-   It's ok as a extra but not at the main way to describe a feature.
-   }} .
+   It's ok as a extra but not at the main way to describe a feature.}}.
 
 
 ****************
@@ -25,7 +22,7 @@ Options
 .. figure:: /images/Constraints-Relationship-Pivot.jpg
    :width: 302px
 
-   Pivot panel
+   Pivot panel.
 
 
 Target

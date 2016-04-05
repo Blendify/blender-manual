@@ -1,7 +1,6 @@
 
 ..    TODO/Review: {{review|im=examples}} .
 
-
 *************
 Visualization
 *************
@@ -27,8 +26,7 @@ following two different processes, controlled by the *Color* button
 - When it is enabled,
   bones are colored depending on which bone group they belong to (or as above if they belong to no group).
 
-You can also mix both coloring methods, see `Coloring from Bone Group`_ below
-).
+You can also mix both coloring methods, see `Coloring from Bone Group`_.
 
 
 Coloring from Bone State
@@ -283,8 +281,8 @@ Keyframe Nums
    When enabled, you'll see the numbers of the displayed keyframes -
    so this option is obviously only valid when *Show Keys* is enabled.
 
-+ Non-Grouped Keyframes
-   For bone motion paths, search whole Action for keyframes instead of in group with matching name only (is slower)
+Non-Grouped Keyframes
+   For bone motion paths, search whole Action for keyframes instead of in group with matching name only (is slower).
 
 Calculate
    Start / End
@@ -299,5 +297,3 @@ Calculate
       (remember that in Blender UI, bones' roots are called "heads"...).
       *You have to* *Calculate Paths* *again when you modify this setting*,
       to update the paths in the 3D views.
-
-

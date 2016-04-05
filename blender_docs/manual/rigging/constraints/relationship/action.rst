@@ -1,6 +1,5 @@
 
-..    TODO/Review: {{review|text=Notes section is a mess.}} .
-
+..    TODO/Review: {{review|text=Notes section is a mess.}}.
 
 *****************
 Action Constraint
@@ -58,11 +57,10 @@ Target Space
 To Action
    Select the name of the action you want to use.
 
- .. warning::
+   .. warning::
 
-   Even though it might not be in red state (UI refresh problems...), this
-   constraint is obviously not functional when this field does not contain a
-   valid action.
+      Even though it might not be in red state (UI refresh problems...),
+      this constraint is obviously not functional when this field does not contain a valid action.
 
 Object Action
    **Bones only**, when enabled,
@@ -73,9 +71,9 @@ Target Range Min / Max
    The lower and upper bounds of the driving transform property value.
    By default, both values are set to ``0.0``
 
- .. warning::
+   .. warning::
 
-    Unfortunately, here again we find the constraints limitations:
+      Unfortunately, here again we find the constraints limitations:
 
       - When using a rotation property as "driver",
         these values are "mapped back" to the ``[-180.0- , 180.0- [`` range.
@@ -83,11 +81,12 @@ Target Range Min / Max
 
 Action Range Start / End
    The starting and ending frames of the action to be mapped.
-   Note that:
+   
+   .. note::
 
-   - These values must be strictly positive.
-   - By default, both values are set to ``0`` which disables the mapping (i.e.
-     the owner just gets the properties defined at frame ``0`` of the linked action...).
+      - These values must be strictly positive.
+      - By default, both values are set to ``0`` which disables the mapping (i.e.
+        the owner just gets the properties defined at frame ``0`` of the linked action...).
 
 
 Notes
@@ -117,5 +116,3 @@ Notes
   (to affect all the keyed bones in the action at once) won't work...
 - Note also that you can use the :doc:`pose library feature </rigging/posing/pose_library>` to
   create/edit a *Pose* action data-block... just remember that in this situation, there's one pose per frame!
-
-

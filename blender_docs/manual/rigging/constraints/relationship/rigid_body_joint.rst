@@ -1,8 +1,5 @@
 
-..    TODO/Review: {{review
-   |text=
-   Complete rewrite needed. Unclear and Child object field not explained what it does.
-   }} .
+..    TODO/Review: {{review|text=Complete rewrite needed. Unclear and Child object field not explained what it does.}}.
 
 
 ***************************
@@ -27,14 +24,15 @@ you can use its results outside of the BGE, through the :menuselection:`Game -->
 see :doc:`Rigid Bodies </game_engine/physics/using_ge>` for more info on this topic).
 
 
-For a demo file that shows some of the different types,
-see: `BGE-Physics-RigidBodyJoints.blend
+For a demo file that shows some of the different types, see: `BGE-Physics-RigidBodyJoints.blend
 <https://wiki.blender.org/index.php/Media:BGE-Physics-RigidBodyJoints.blend>`__.
 
 .. note::
+
     In order for this constraint to work properly, both objects (so
     the owner and the target object) need to have "Collision Bounds"
     enabled.
+
 
 Options
 =======
@@ -42,7 +40,7 @@ Options
 .. figure:: /images/Constraints-Relationship-RigidBodyJoint.jpg
    :width: 304px
 
-   Rigid Body Joint panel
+   Rigid Body Joint panel.
 
 
 Target
@@ -91,5 +89,3 @@ Pivot
 
 Axis
    These three numeric fields allow you to rotate the pivot point, *in the owner's space*.
-
-

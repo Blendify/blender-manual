@@ -1,7 +1,6 @@
 
 ..    TODO/Review: {{review|partial=X|im=update}} .
 
-
 ******************
 Skinning to Shapes
 ******************
@@ -310,4 +309,3 @@ reaching the forearm zone - and vice versa for the forearm group weights... Of c
 this is a very raw example - skinning a realistic joint is a big job,
 as you have to carefully find good weights for each vertex,
 to have the most realistic behavior when bending - and this is not an easy thing!
-

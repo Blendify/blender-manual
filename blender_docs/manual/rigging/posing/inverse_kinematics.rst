@@ -112,4 +112,3 @@ or by using other constraints.
 `IK Arm Example. <https://wiki.blender.org/index.php/File:IK_Arm_Example.blend>`__
 
 Note that, if a *Pole Target* is used, IK locking will not work on the root boot.
-

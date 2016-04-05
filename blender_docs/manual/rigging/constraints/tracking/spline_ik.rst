@@ -1,8 +1,5 @@
 
-..    TODO/Review: {{review
-   |im= examples
-   }} .
-
+..    TODO/Review: {{review|im= examples}}.
 
 ********************
 Spline IK Constraint
@@ -59,13 +56,9 @@ Chain Scaling:
       on top of the X and Z scale mode
 
 
-See also
-********
+.. seealso::
 
-This subject is seen in depth in the :doc:`Rigging/Posing section </rigging/posing/inverse_kinematics/spline_ik>`.
+   This subject is seen in depth in the :doc:`Rigging/Posing section </rigging/posing/inverse_kinematics/spline_ik>`.
 
-
-- `Blender.org 2.56 Release Log for Spline IK
-  <https://www.blender.org/development/release-logs/blender-256-beta/spline-ik/>`__
-
-
+   - `Blender.org 2.56 Release Log for Spline IK
+     <https://www.blender.org/development/release-logs/blender-256-beta/spline-ik/>`__

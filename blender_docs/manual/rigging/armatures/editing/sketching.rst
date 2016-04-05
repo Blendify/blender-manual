@@ -1,6 +1,5 @@
 
-..    TODO/Review: {{review|im=some images need updated|text=retarget conversion method}} .
-
+..    TODO/Review: {{review|im=some images need updated|text=retarget conversion method}}.
 
 ******************
 Skeleton Sketching
@@ -223,12 +222,6 @@ something that the gesture system would never recognize!
 
           Phew! That was close, but the stroke is still in one piece.
 
-   * -
-
-     -
-
-     -
-
 
 Cut
 ---
@@ -390,10 +383,8 @@ Retarget roll mode
       Roll bone to original joint plane offset.
 
 Autoname
-   ...
+   Todo.
 Number
-   ...
+   Todo.
 Side
-   ...
-
-
+   Todo.

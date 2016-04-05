@@ -3,13 +3,10 @@
 Copy Scale Constraint
 *********************
 
-Description
-===========
-
 The *Copy Scale* constraint forces its owner to have the same scale as its target.
 
 
- .. warning::
+.. warning::
 
    Here we talk of **scale**, not of **size**! Indeed, you can have two
    objects, one much bigger than the other, and yet both of them have the same
@@ -24,7 +21,7 @@ Options
 .. figure:: /images/Constraints-Transform-CopyScale.jpg
    :width: 307px
 
-   Copy Scale panel
+   Copy Scale panel.
 
 
 Target
@@ -52,4 +49,3 @@ Offset
 
 Space
    This constraint allows you to choose in which space to evaluate its owner's and target's transform properties.
-

@@ -110,13 +110,11 @@ The ``_L`` bone behaves like the single one produced by the default extrusion -
 you can grab/rotate/scale it exactly the same way.
 The ``_R`` bone is its mirror counterpart (along the armature's local X axis), see (*Mirror extrusion example*).
 
-
 .. warning::
 
    Cancelling the extrude action causes the newly created bones to snap back to the source position,
-   *(creating zero length bones)*.
-   These will be removed when exiting editmode, however they can cause confusion and it's
-   unlikely you want to keep them.
+   *(creating zero length bones)*. These will be removed when exiting editmode,
+   however they can cause confusion and it's unlikely you want to keep them.
    If you realize the problem immediately undo the extrude action.
 
 In case you're wondering, you cannot just press :kbd:`X` to solve this as you would in mesh editing,
@@ -234,12 +232,12 @@ If you have one root and one tip selected, the new bone:
    * - .. figure:: /images/RiggingFillTailHead.jpg
           :width: 300px
 
-          Active tip on the left
+          Active tip on the left.
 
      - .. figure:: /images/RiggingFillTailHead2.jpg
           :width: 300px
 
-          Active tip on the right
+          Active tip on the right.
 
 
 If you have two tips selected, the new bone:
@@ -424,8 +422,7 @@ You can merge together several selected bones, *as long as they form a chain*.
 Each sub-chain formed by the selected bones will give one bone,
 whose root will be the root of the root bone, and whose tip will be the tip of the tip bone.
 
-Confirm by clicking on *Within Chains* in the *Merge Selected Bones*
-pop-up.
+Confirm by clicking on *Within Chains* in the *Merge Selected Bones* pop-up.
 
 If another (non-selected) chain origins from inside of the merged chain of bones,
 it will be parented to the resultant merged bone. If they were connected,
@@ -538,7 +535,7 @@ it's an easy way to spare you half of the editing work!
 
 .. seealso::
 
-   - :ref:`naming bones <armature-editing-naming_bones>`.
+   :ref:`naming bones <armature-editing-naming_bones>`.
 
 
 Separating Bones in a new Armature
@@ -548,5 +545,3 @@ You can, as with meshes, separate the selected bones in a new armature object
 (:menuselection:`Armature --> Separate`, :kbd:`Ctrl-Alt-P`) - and of course,
 in *Object* mode, you can join all selected armatures in one
 (:menuselection:`Object --> Join Objects`, :kbd:`Ctrl-J`).
-
-
