@@ -1,7 +1,7 @@
 
-****************
-Armature Editing
-****************
+************
+Introduction
+************
 
 .. admonition:: Reference
    :class: refbox
@@ -44,4 +44,3 @@ to :doc:`skin </rigging/skinning/index>` and :doc:`pose </rigging/posing/index>`
 
    Please note that some tools work on bones' ends, while others work on bones themselves.
    Be careful not to get confused.
-

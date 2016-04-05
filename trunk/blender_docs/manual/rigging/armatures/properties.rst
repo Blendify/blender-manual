@@ -1,7 +1,7 @@
 
-********
-Armature
-********
+**********
+Properties
+**********
 
 .. admonition:: Reference
    :class: refbox

@@ -133,14 +133,7 @@ Preview
 
 This is a preview of the current material mapped on to one of several objects.
 
-- Flat Plane
-- Sphere
-- Cube
-- Monkey
-- Strands
-- Large Sphere with Sky
-
-See :doc:`Preview </editors/properties/material/preview>`
+See :doc:`Material Preview </editors/properties/material>` for more information.
 
 
 Diffuse
@@ -167,7 +160,7 @@ Shading
 Emit
    Adds extra illumination, as if the material is glowing.
 Ambient
-   Sets the global amibient light the material receives
+   Sets the global ambient light the material receives
 Translucency
    Amount of shading on the back side that shows through. Use to simulate thin objects, like leaves or paper.
 Shadeless

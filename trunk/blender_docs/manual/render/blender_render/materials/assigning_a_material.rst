@@ -54,7 +54,7 @@ This action has a series of effects:
 - brings up additional buttons in the immediate panel,
 - adds the new material to the Available Materials list,
 - adds the new material to the Object Material Slots list for the active object (or its object data - see below)
-- brings up a :doc:`preview </editors/properties/material/preview>` of the new material,
+- brings up a :doc:`preview </editors/properties/material>` of the new material,
 - provides you with a range of panels allowing you to select the
   :doc:`properties </render/blender_render/materials/properties/introduction>` of the new material.
 

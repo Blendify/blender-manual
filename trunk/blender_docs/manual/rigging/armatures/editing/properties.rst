@@ -338,7 +338,7 @@ so you can't visualize the effects of these settings.
    Bone.004 has four, and Bone.005 has sixteen.
 
 
-We saw in :doc:`this page </rigging/armatures/bones>` that bones are made
+We saw in :doc:`this page </rigging/armatures/bones/index>` that bones are made
 of small rigid segments mapped to a "virtual" Bézier curve.
 The *Segm* numeric field allows you to set the number of segments inside a given bone - by default,
 it is **1**, which gives a standard rigid bone! The higher this setting (max **32**), the smoother the bone,
