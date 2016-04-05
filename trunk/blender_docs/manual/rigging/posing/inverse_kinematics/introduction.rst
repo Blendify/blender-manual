@@ -1,7 +1,7 @@
 
-******************
-Inverse Kinematics
-******************
+************
+Introduction
+************
 
 IK simplifies the animation process,
 and makes it possible to make more advanced animations with lesser effort.

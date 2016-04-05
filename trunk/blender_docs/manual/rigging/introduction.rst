@@ -3,8 +3,7 @@
 Introduction
 ************
 
-.. WARNING:
-   this page reads a bit too much like a tutorial/general advice,
+.. this page reads a bit too much like a tutorial/general advice,
    and doesn't fit reference-manual style.
 
 Rigging makes animation possible. Without a good rig animation is incredibly frustrating.
