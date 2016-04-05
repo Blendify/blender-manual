@@ -3,9 +3,6 @@
 Limit Distance Constraint
 *************************
 
-Description
-===========
-
 The *Limit Distance* constraint forces its owner to stay either further from,
 nearer to, or exactly at a given distance from its target. In other words,
 the owner's location is constrained either outside, inside,
@@ -28,7 +25,7 @@ Options
 .. figure:: /images/Constraints-Transform-LimitDist.jpg
    :width: 304px
 
-   Limit Distance panel
+   Limit Distance panel.
 
 
 Target
@@ -62,5 +59,3 @@ Clamp Region
       The owner is constrained *outside* the sphere.
    Surface
       The owner is constrained *on the surface* of the sphere.
-
-

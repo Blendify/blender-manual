@@ -110,5 +110,3 @@ Destination
 
 Space
    This constraint allows you to choose in which space to evaluate its owner's and target's transform properties.
-
-

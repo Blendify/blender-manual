@@ -39,4 +39,3 @@ In this part, we will try to focus on animation-independent posing, but this isn
 So if you know nothing about animation in Blender,
 it might be a good idea to read the :doc:`animation features and techniques </animation/index>` chapter first,
 and then come back here.
-

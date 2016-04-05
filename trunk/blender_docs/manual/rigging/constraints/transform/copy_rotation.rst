@@ -12,7 +12,7 @@ Options
 .. figure:: /images/Constraints-Transform-CopyRot.jpg
    :width: 307px
 
-   Copy Rotation panel
+   Copy Rotation panel.
 
 
 Target
@@ -41,5 +41,3 @@ Offset
 
 Space
    This constraint allows you to choose in which space to evaluate its owner's and target's transform properties.
-
-

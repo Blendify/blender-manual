@@ -1,6 +1,5 @@
 
-..    TODO/Review: {{review|im=examples}} .
-
+..    TODO/Review: {{review|im=examples}}.
 
 *******************
 Clamp To Constraint
@@ -49,7 +48,7 @@ Options
 .. figure:: /images/Constraints-Tracking-ClampTo.jpg
    :width: 306px
 
-   Clamp To panel
+   Clamp To panel.
 
 
 Target
@@ -74,5 +73,3 @@ Cyclic
    it is instantaneously moved to its other end.
    This is of course primarily designed for closed curves (circles & co),
    as this allows your owner to go around it over and over.
-
-

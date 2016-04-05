@@ -1,8 +1,5 @@
 
-..    TODO/Review: {{review
-   |im=examples
-   }} .
-
+..    TODO/Review: {{review|im=examples}}.
 
 ***********************
 Locked Track Constraint
@@ -65,9 +62,7 @@ Lock
    The locked local axis (*Z* by default), i.e. the owner's axis which cannot be re-oriented to track the target.
 
 
- .. warning::
+.. warning::
 
    If you choose the same axis for *To* and *Lock*, the constraint will no
    longer be functional (red state).
-
-

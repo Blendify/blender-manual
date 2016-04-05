@@ -3,14 +3,10 @@
 Copy Location Constraint
 ************************
 
-Description
-===========
-
-The *Copy Location* constraint forces its owner to have the same location as its
-target.
+The *Copy Location* constraint forces its owner to have the same location as its target.
 
 
- .. warning::
+.. warning::
 
    Note that if you use such a constraint on a *connected* bone, it will have
    no effect, as it is the parent's tip which controls the position of your
@@ -23,7 +19,7 @@ Options
 .. figure:: /images/Constraints-Transform-CopyLoc.jpg
    :width: 307px
 
-   Copy Location panel
+   Copy Location panel.
 
 
 Target
@@ -52,4 +48,3 @@ Offset
 
 Space
    This constraint allows you to choose in which space to evaluate its owner's and target's transform properties.
-

@@ -1,6 +1,5 @@
 
-..    TODO/Review: {{review|copy=X}} .
-
+..    TODO/Review: {{review|copy=X}}.
 
 *******************
 Armature Templating
@@ -268,4 +267,3 @@ Static text line
      Or, while you are drawing a stroke with straight segments,
      the name of the bone corresponding to the current segment
      (and ``Done`` when you have enough segments for all bones in the template chain).
-

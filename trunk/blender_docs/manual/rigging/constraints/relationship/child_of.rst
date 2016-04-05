@@ -1,6 +1,5 @@
 
-..    TODO/Review: {{review|im=update}} .
-
+..    TODO/Review: {{review|im=update}}.
 
 *******************
 Child Of Constraint
@@ -34,7 +33,7 @@ Options
 .. figure:: /images/Constraints-Relationship-ChildOf.jpg
    :width: 307px
 
-   Child Of panel
+   Child Of panel.
 
 
 Target
@@ -62,7 +61,6 @@ Clear Inverse
 
 
 Tips
-
 ----
 
 
@@ -128,4 +126,3 @@ Examples
        *Set Offset* has been clicked again.
        As you can see, it does not gives the same result as in (*Target/parent transformed*).
        As noted above, use *Set Inverse* only once, before transforming your target/parent.
-

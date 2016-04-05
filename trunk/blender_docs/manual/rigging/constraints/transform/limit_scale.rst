@@ -3,15 +3,11 @@
 Limit Scale Constraint
 **********************
 
-Description
-===========
-
 An object or bone can be scaled along the X, Y and Z axes.
 This constraint restricts the amount of allowed scalings along each axis,
 through lower and upper bounds.
 
-
- .. warning::
+.. warning::
 
    This constraint does not tolerate negative scale values (those you might
    use to mirror an object...): when you add it to an object or bone, even if
@@ -46,7 +42,7 @@ Options
 .. figure:: /images/Constraints-Transform-LimitScale.jpg
    :width: 296px
 
-   Limit Scale panel
+   Limit Scale panel.
 
 
 Minimum / Maximum X, Y, Z
@@ -57,7 +53,6 @@ Minimum / Maximum X, Y, Z
    Note that if a min value is higher than its corresponding max value,
    the constraint behaves as if it had the same value as the max one.
 
-
 For Transform
    We saw that by default, even though visually constrained, and except for the negative values,
    the owner can still have scales out of bounds (as shown by the *Transform Properties* panel). Well,
@@ -66,8 +61,5 @@ For Transform
    Note however that the constraint does not directly modify the scale values:
    you have to scale its owner one way or another for this to take effect.
 
-
 Convert
    This constraint allows you to choose in which space to evaluate its owner's transform properties.
-
-

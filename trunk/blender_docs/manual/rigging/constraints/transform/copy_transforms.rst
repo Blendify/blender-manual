@@ -3,11 +3,7 @@
 Copy Transforms Constraint
 **************************
 
-Description
-===========
-
-The *Copy Transforms* constraint forces its owner to have the same transforms as its
-target.
+The *Copy Transforms* constraint forces its owner to have the same transforms as its target.
 
 
 Options
@@ -16,7 +12,7 @@ Options
 .. figure:: /images/Constraints-Transform-CopyTransforms.jpg
    :width: 304px
 
-   Copy Transforms panel
+   Copy Transforms panel.
 
 
 Target
@@ -34,4 +30,3 @@ Target
       a new field is displayed offering the optional choice to set a *Vertex Group* as target.
 Space
    This constraint allows you to choose in which space to evaluate its owner's and target's transform properties.
-

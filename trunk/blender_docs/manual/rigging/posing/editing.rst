@@ -1,7 +1,6 @@
 
 ..    TODO/Review: {{review|im=update|text=inbetweens, pose menu tools}} .
 
-
 *************
 Editing Poses
 *************
@@ -330,5 +329,6 @@ This process is known as **forward kinematics**, or FK.
 We will see in a :doc:`later page </rigging/posing/inverse_kinematics>` that Blender features another pose method,
 called **inverse kinematics**, or IK, which allows you to pose a whole chain just by moving its tip.
 
+.. note::
 
-Note that this feature is somewhat extended/completed by the :doc:`pose library </rigging/posing/pose_library>` tool.
+   This feature is somewhat extended/completed by the :doc:`pose library </rigging/posing/pose_library>` tool.

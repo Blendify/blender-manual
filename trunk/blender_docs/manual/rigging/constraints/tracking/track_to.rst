@@ -3,9 +3,6 @@
 Track To Constraint
 *******************
 
-Description
-===========
-
 The *Track To* constraint applies rotations to its owner,
 so that it always points a given "To" axis towards its target,
 with another "Up" axis permanently maintained as much aligned with the global Z axis
@@ -59,9 +56,6 @@ Target Z
 Space
    This constraint allows you to choose in which space to evaluate its owner's and target's transform properties.
 
+.. warning::
 
- .. warning::
-
-   If you choose the same axis for *To* and *Up*, the
-   constraint will not be functional anymore (red state).
-
+   If you choose the same axis for *To* and *Up*, the constraint will not be functional anymore (red state).

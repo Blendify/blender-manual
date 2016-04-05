@@ -1,5 +1,5 @@
 
-..    TODO/Review: {{review|im=examples}} .
+..    TODO/Review: {{review|im=examples}}.
 
 ****************
 Floor Constraint
@@ -23,7 +23,7 @@ Options
 .. figure:: /images/Constraints-Relationship-Floor.jpg
    :width: 303px
 
-   Floor panel
+   Floor panel.
 
 
 Targets
@@ -60,5 +60,3 @@ Max / Min
 
 Space
    This constraint allows you to choose in which space to evaluate its owner's and target's transform properties.
-
-
