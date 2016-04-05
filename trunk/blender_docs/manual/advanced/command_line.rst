@@ -35,7 +35,6 @@ Render Options
 
    The ``#`` characters are replaced by the frame number, and used to define zero padding.
 
-
    * ``ani_##_test.png`` becomes ``ani_01_test.png``
    * ``test-######.png`` becomes ``test-000001.png``
 

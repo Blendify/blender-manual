@@ -212,13 +212,6 @@ def text_extract_help(text, args, static_strings):
         arg_text = eval(arg_text, static_strings)
         arg_text = arg_text.replace("\t", "   ")
 
-
-        # in place of more advanced formatting
-        arg_text = arg_text.replace(
-                "* 'ani_##_test.png' becomes 'ani_01_test.png'",
-                "\n   * ``ani_##_test.png`` becomes ``ani_01_test.png``"
-                )
-
         text_rst.append("``" + "``, ``".join([w for w in (arg_short, arg_long) if w is not None]) + "`` ")
         text_rst.append(arg_text + "\n")
 
