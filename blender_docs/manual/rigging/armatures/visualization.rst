@@ -180,7 +180,7 @@ Note that:
 - Even if any type of object seems to be accepted by the *OB* field (meshes, curves, even metas...),
   only meshes really work - all other types just make the bone invisible; nothing is drawn...
 - The center of the shape object will be at the *root of the bone*
-  (see the :doc:`bone page </rigging/armatures/bones>` for root/tip).
+  (see the :doc:`bone page </rigging/armatures/bones/index>` for root/tip).
 - The object properties of the shape are ignored
   (i.e. if you make a parallelepiped out of a cube by modifying its dimensions in *Object* mode,
   you'll still have a cube shaped bone...).

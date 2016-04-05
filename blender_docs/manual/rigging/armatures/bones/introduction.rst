@@ -1,7 +1,7 @@
 
-*****
-Bones
-*****
+************
+Introduction
+************
 
 .. figure:: /images/RiggingBonePrinciples3DViewEditModeOctahedron.jpg
    :width: 100px

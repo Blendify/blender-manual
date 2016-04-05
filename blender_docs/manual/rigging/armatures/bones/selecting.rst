@@ -1,7 +1,7 @@
 
-**************************
-Selecting armature's bones
-**************************
+*********
+Selecting
+*********
 
 .. admonition:: Reference
    :class: refbox

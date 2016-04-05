@@ -28,23 +28,20 @@ there are some important specificities:
 Selecting Bones
 ===============
 
-Selection in *Pose* mode is very similar to the one in :doc:`Edit mode </rigging/armatures/selecting>`,
+Selection in *Pose* mode is very similar to the one in :doc:`Edit mode </rigging/armatures/bones/selecting>`,
 with a few specificities:
 
 - You can only select *whole bones* in *Pose* mode, not roots/tips...
-
-
-.. figure:: /images/rigging-selectGrouped.jpg
-
-   The Select Grouped pop-up menu.
-
-
 - You can select bones based on their group and/or layer, through the *Select Grouped* pop-up menu (:kbd:`Shift-G`):
 
   - To select all bones belonging to the same group(s) as the selected ones,
     use the *In Same Group* entry (:kbd:`Shift-G-Numpad1`).
   - To select all bones belonging to the same layer(s) as the selected ones,
     use the *In Same Layer* entry (:kbd:`Shift-G-Numpad2`).
+
+.. figure:: /images/rigging-selectGrouped.jpg
+
+   The Select Grouped pop-up menu.
 
 
 Basic Posing
@@ -335,4 +332,3 @@ called **inverse kinematics**, or IK, which allows you to pose a whole chain jus
 
 
 Note that this feature is somewhat extended/completed by the :doc:`pose library </rigging/posing/pose_library>` tool.
-
