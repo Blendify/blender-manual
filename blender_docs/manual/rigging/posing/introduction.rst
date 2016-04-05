@@ -1,9 +1,9 @@
 
 ..    TODO/Review: {{review|partial=X}} .
 
-******
-Posing
-******
+************
+Introduction
+************
 
 Once your armature is :doc:`skinned </rigging/skinning/index>` by the needed object(s), you can start to pose it.
 Basically, by transforming its bones, you deform or transform the skin object(s).

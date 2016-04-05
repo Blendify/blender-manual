@@ -10,7 +10,6 @@
    introduction.rst
    constraints.rst
    editing.rst
-   inverse_kinematics.rst
+   inverse_kinematics/index.rst
    pose_library.rst
    visualization.rst
-   inverse_kinematics/index.rst
