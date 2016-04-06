@@ -284,7 +284,6 @@ Environment Variables
 :PYTHONHOME:               Path to the python directory, eg. /usr/lib/python.
 
 
-
 Experimental Features
 =====================
 

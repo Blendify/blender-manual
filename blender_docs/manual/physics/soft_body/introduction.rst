@@ -72,7 +72,7 @@ To activate the Soft Body simulation for an object:
 - Activate the *Soft Body* button.
 
 A lot of options appear.
-For a reference of all the settings see :doc:`this page </physics/soft_body/reference>`.
+For a reference of all the settings see :doc:`this page </physics/soft_body/settings>`.
 
 
 - You start a Soft Body simulation with :kbd:`Alt-A`.

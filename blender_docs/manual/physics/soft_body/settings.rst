@@ -1,10 +1,9 @@
 
 ..    TODO/Review: {{review|im=add}} .
 
-
-******************
-Soft Body settings
-******************
+********
+Settings
+********
 
 Soft Body
    This creates the soft body modifier on the selected object
@@ -266,5 +265,3 @@ Print Performance to Console
    Prints on the console how the solver is doing.
 Estimate Matrix
    Estimate matrix... split to COM, ROT, SCALE
-
-
