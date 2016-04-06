@@ -8,10 +8,9 @@
    :maxdepth: 2
 
    introduction.rst
-   exterior_forces.rst
-   interior_forces.rst
+   settings.rst
+   forces/index.rst
    collisions.rst
-   simple_examples.rst
+   examples.rst
    combination_with_armatures.rst
    combination_with_hair_particles.rst
-   reference.rst

@@ -1,7 +1,7 @@
 
-***************
-Exterior Forces
-***************
+********
+Exterior
+********
 
 Exterior forces are applied to the vertices (and nearly exclusively to the vertices)
 of Soft Body objects. This is done using Newtons Laws of Physics:
@@ -33,10 +33,10 @@ because every vertex moves with the same speed in the same direction.
 
 
 Settings
-********
+========
 
 Soft Body Panel
-===============
+---------------
 
 Friction
    The friction of the surrounding medium.
@@ -60,7 +60,7 @@ Speed
 
 
 Force Fields
-============
+------------
 
 To create other forces you have to use another object,
 often *Empty* objects are used for that.
@@ -81,7 +81,7 @@ approximately - a force of 10 Newton.
 
 
 Aerodynamics
-============
+------------
 
 This special exterior force is not applied to the vertices but to the connecting edges.
 Technically, a force perpendicular to the edge is applied.
@@ -99,7 +99,7 @@ Factor
 
 
 Using a Goal
-============
+------------
 
 A goal is a shape that a soft body object tries to conform to.
 
@@ -156,5 +156,3 @@ Stiffness
 
 Dampimg
    The friction of the spring. With a high value the movement will soon come to an end (little jiggle).
-
-
