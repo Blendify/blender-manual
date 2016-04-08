@@ -1,12 +1,12 @@
 
-..    TODO/Review: {{review||text=splitted mesh analysis}} .
+..    TODO/Review: {{review||text=splitted mesh analysis}}.
 
-*********
+************
+Introduction
+************
+
 Edit Mode
-*********
-
-Entering Edit Mode
-==================
+=========
 
 You can work with geometric objects in two modes.
 
@@ -47,28 +47,25 @@ Tools and modes in the 3D view header are (left to right):
 You can switch between the Object and Edit modes with the :kbd:`Tab` key. You can change
 to any mode by selecting the desired *Mode* in the menu in the 3d view header.
 
-After creating an object youd may be immediately placed in *Edit mode*
-- depending on whether the *Switch to Edit Mode* button is toggled in the
-*User Preferences* *Editing* tab.
-*Edit mode* only applies to one object at a time, the *active*,
-or most recently selected, object.
-
 
 Visualization
 =============
 
-.. figure:: /images/editmode-cubeselect-1.jpg
+.. list-table::
+   
 
-   One cube selected
+   * - .. figure:: /images/ditmode-cubeselect-1.jpg
+          :width: 200px
+
+          One cube selected.
+
+     - .. figure:: /images/editmode-cubeselect-2.jpg
+          :width: 200px
+
+          Two cubes selected before entering Edit mode.
 
 
-.. figure:: /images/editmode-cubeselect-2.jpg
-
-   Two cubes selected before entering Edit mode
-
-
-By default, Blender highlights selected geometry in orange in both *Object mode* and
-*Edit mode*.
+By default, Blender highlights selected geometry in orange in both *Object mode* and *Edit mode*.
 
 In *Object mode* with *Wireframe* shading enabled (:kbd:`Z`),
 objects are displayed in black when unselected and in orange when selected.
@@ -77,13 +74,10 @@ typically the object last selected, is displayed in a darker orange color. Simil
 in *Edit mode*, unselected geometry is drawn in black while selected faces, edges,
 or vertices are drawn in orange. The active face is highlighted in white.
 
-In *Edit mode*, only one mesh can be edited at the time. However,
-several objects can be joined into a single mesh
-(:kbd:`Ctrl-J` in *Object mode*) and then separated again
-(:kbd:`P` in *Edit mode*).
-If multiple objects are selected before entering *Edit mode*, all the selected
-objects remain highlighted in orange indicating that they are part of the active selection
-set.
+In *Edit mode*, only one mesh can be edited at the time. However, several objects can be joined into a single mesh
+(:kbd:`Ctrl-J` in *Object mode*) and then separated again (:kbd:`P` in *Edit mode*).
+If multiple objects are selected before entering *Edit mode*,
+all the selected objects remain highlighted in orange indicating that they are part of the active selection set.
 
 If two vertices joined by an edge are selected in *Vertex selection mode*,
 the edge between them is highlighted too. Similarly,
