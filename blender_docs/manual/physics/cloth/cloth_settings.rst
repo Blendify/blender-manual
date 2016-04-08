@@ -1,7 +1,10 @@
 
-***********
-Cloth Panel
-***********
+********
+Settings
+********
+
+Cloth
+=====
 
 Presets
    Contains a number of preset cloth examples, and allows you to add your own.
@@ -11,7 +14,7 @@ Quality
 
 
 Material
-========
+--------
 
 Mass
    The mass of the cloth material.
@@ -22,7 +25,7 @@ Bending
 
 
 Damping
-=======
+-------
 
 Spring
    Damping of cloth velocity. Higher = more smooth, less jiggling.
@@ -31,7 +34,7 @@ Air
 
 
 Pinning
-=======
+-------
 
 .. figure:: /images/physics-cloth-pin-example_01.png
    :width: 200px
@@ -53,7 +56,7 @@ Stiffness
 
 
 Pinning Clothing To An Armature
-===============================
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Clothing can be simulated and pinned to an armature.
 For example, a character could have a baggy tunic pinned to the character's waist with a belt.
