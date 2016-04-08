@@ -11,7 +11,7 @@ Options
 
 .. figure:: /images/modifier-solidify.jpg
 
-   Solidify modifier
+   Solidify Modifier.
 
 
 Thickness
@@ -41,7 +41,6 @@ Vertex Group
       - On ``0.5``, vertices with zero weight will be half as thick as those with full weight.
       - On ``1.0``, the weights are ignored and the *thickness* value is used for every vertex.
 
-
 Crease
    These options are intended for usage with the :doc:`Subdivision Modifier </modeling/modifiers/generate/subsurf>`.
 
@@ -50,7 +49,6 @@ Crease
       :width: 350px
 
       Rim and edges. In this example, the object was assigned a second material used to color the rim red.
-
 
    Inner
       Set a crease to the inner edges.
@@ -70,7 +68,7 @@ High Quality Normals
 Fill Rim
    Fills the gap between the inner and outer edges.
 Only Rim
-   TODO
+   Won't have an extruded surface parallel to the original but instead will only have the perpendicular rim.
 
 .. note::
 
@@ -90,7 +88,6 @@ Material Index Offset
    Rim
       Similarly, you can give another material to the rim faces.
 
-
 .. warning::
 
    The modifier thickness is calculated using local vertex coordinates. If the object has non-uniform scale,
@@ -102,7 +99,6 @@ Material Index Offset
 Known Limitations
 =================
 
-
 Even Thickness
 --------------
 
@@ -110,5 +106,5 @@ Solidify thickness is an approximation.
 While "Even Thickness" and "High Quality Normals" should yield good results,
 the final wall thickness isn't guaranteed and may vary depending on the mesh topology.
 
-In order to maintain precise wall thickness in every case, we would need to add/remove faces on the offset shell -
+In order to maintain precise wall thickness in every case, we would need to add/remove faces on the offset shell,
 something this modifier doesn't do since this would add a lot of complexity and slow down the modifier.
