@@ -1,13 +1,12 @@
 
-..    TODO/Review: {{review|partial=X}} .
-
+..    TODO/Review: {{review|partial=X}}.
 
 ***************************
 Miscellaneous Editing Tools
 ***************************
 
-Sort Elements
-=============
+Sort Mesh Elements
+==================
 
 This tool (available from the *Specials*, *Vertices*,
 *Edges* and *Faces* menus)
@@ -43,3 +42,9 @@ Randomize
 
 Reverse
    Simply reverse the order of the selected elements.
+
+
+.. note:: To enable viewing indeces:
+
+   Type "bpy.app.debug = True" into the Python Console and a checkbox will appear in the (N)
+   properties panel under :menuselection:`Mesh Display --> Edge Info --> Indeces`
