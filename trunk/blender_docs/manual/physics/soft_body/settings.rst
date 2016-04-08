@@ -100,13 +100,11 @@ Length
    The edges can shrink or been blown up. This value is given in percent, 0 disables this function.
    100% means no change, the body keeps 100% of his size.
 
-
 Stiff Quads
    For quad faces, the diagonal edges are used as springs.
    This stops quad faces to collapse completely on collisions (what they would do otherwise).
 Shear
    Stiffness of the virtual springs for quad faces.
-
 
 Aerodynamics
    Simple
@@ -125,7 +123,6 @@ Aerodynamics
    Factor
       How much aerodynamic effect to use
 
-
 Edge
    Checks for edges of the softbody mesh colliding.
 
@@ -141,7 +138,9 @@ Face
 Soft Body Self Collision
 ========================
 
-*Self Collision* is working only if you have activated *Use Edges*.
+.. note::
+
+   *Self Collision* is working only if you have activated *Use Edges*.
 
 Self Collision
    When enabled, allows you to control how Blender will prevent the Soft Body from intersecting with itself.
@@ -160,7 +159,6 @@ Minimal / Maximal
 AvMiMax
    Size = ((Min + Max)/2) × *Ball Size*.
 
-
 Size
    Default 0.49 BU or fraction of the length of attached edges.
    The edge length is computed based on the algorithm you choose.
@@ -172,7 +170,6 @@ Size
    Too high of a value will include too many vertices all the time and slow down the calculation.
    Too low of a level will let other vertices get too close and thus possibly intersect because
    there won't be enough time to slow them down.
-
 
 Stiffness
    Default 1.0. How elastic that ball of personal space is.

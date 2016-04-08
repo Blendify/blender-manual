@@ -122,7 +122,6 @@ is also important to note that this collision panel is used to tell all simulati
 object is to participate in colliding/deflecting other objects on a shared layer (particles,
 soft bodies, and cloth).
 
-
 .. warning::
 
    There are three different *Collision* panels, all found in the *Physics* sub-context.
@@ -219,7 +218,6 @@ If you encounter some problems with collision detection, there are two ways to f
 - If none of the methods help, you can easily edit the cached/baked result in *Edit mode* afterwards.
 - My Cloth is torn by the deforming mesh - he "Hulks Out": Increase its structural stiffness
   (*StructStiff* setting, *Cloth* panel), very high, like 1000.
-
 
 .. note:: *Subsurf* Modifier
 
