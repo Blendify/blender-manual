@@ -12,7 +12,6 @@ Overview
    :maxdepth: 1
 
    introduction.rst
-   input_devices.rst
 
 
 Window Controls
@@ -34,6 +33,7 @@ Interface Controls
    panels.rst
    buttons_and_controls.rst
    extended_controls.rst
+
 
 Tools
 =====
