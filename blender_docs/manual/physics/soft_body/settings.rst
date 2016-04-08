@@ -34,55 +34,9 @@ Speed
 Soft Body Cache
 ===============
 
-.. note:: Start- and Endframe
+.. note::
 
-   The *Start* and *End* settings in the *Collision* panel are not only valid for the baking,
-   but for all Soft Body simulations.
-   So if your animation lasts longer than 250 frames, you have to increase the *End* value.
-
-
-Cache
-   Select cache to use for simulation. Add, and remove caches.
-
-Cache Name
-   Specify the name of the cache.
-Start / End
-   First and last frame of the simulation. Always valid, not only for *baking*.
-Cache Step
-   Number of frames between cache steps.
-
-Disk Cache
-   Save cache files to disk. Blend file must be saved first.
-Use Lib Path
-   Use this files path when library linked into another file.
-Compression
-   Compression method to be used
-
-   No
-      No compression.
-   Light
-      Fast but not so effective compression.
-   Heavy
-      Effective but slow compression.
-
-Bake
-   Calculates the simulation and protects the cache. You need to be in *Object* mode to bake.
-Free Bake
-   Clears the cache.
-
-Calculate to Frame
-   Bake physics to current frame
-Current Cache to Bake
-   Bake from Cache.
-Bake All Dynamics
-   Bake all physics
-Free All Bakes
-   Free all baked caches of all objects in the current scene
-Update All To Frame
-   Update cache to current frame
-
-If you haven't saved the blend-file the cache is created in memory,
-so save your file first or the cache may be lost.
+   Caching and cach options are documented :doc:`Here </physics/baking>`.
 
 
 Soft Body Goal
