@@ -4,10 +4,6 @@
   Interface
 ############
 
-
-Overview
-========
-
 .. toctree::
    :maxdepth: 1
 
@@ -33,7 +29,6 @@ Interface Controls
    panels.rst
    buttons_and_controls.rst
    extended_controls.rst
-
 
 Tools
 =====
