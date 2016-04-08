@@ -14,6 +14,7 @@ remains exactly the same every time.
    the available options vary slightly between different physics systems.
 
 .. note::
+
    Most physics simulators in blender use a similar system,
    but not all have exactly the same settings available. All the settings are covered here,
    but individual physics types may not provide all these options.
@@ -51,11 +52,13 @@ End
 Cache Step
    Interval for storing simulation data.
 
-   Some physics systems (such as particles)
-   allow for positions to be stored only on every nth frame,
-   letting the positions for in-between frames be interpolated.
-   Using a cache step greater than 1 will result in a smaller cache,
-   but the result may differ from the original simulation.
+   .. note::
+
+      Some physics systems (such as particles)
+      allow for positions to be stored only on every nth frame,
+      letting the positions for in-between frames be interpolated.
+      Using a cache step greater than 1 will result in a smaller cache,
+      but the result may differ from the original simulation.
 
 .. _physics-bake:
 
@@ -110,5 +113,4 @@ Blender allows for storing and managing multiple caches at once for the same phy
    Two different caches stored simultaneously.
 
 Caches can be added and removed with the :kbd:`Plus` and :kbd:`Minus` buttons.
-Renaming a cache can be done by either double clicking or pressing :kbd:`Ctrl-LMB` on the desired
-cache.
+Renaming a cache can be done by either double clicking or pressing :kbd:`Ctrl-LMB` on the desired cache.
