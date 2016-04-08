@@ -52,16 +52,5 @@ There are three primary types of modeling - mesh modeling, curve/surface modelin
    appearing as one unified object.
 
    This can also be a quick way to get started with a rough shape which can be converted to a mesh later.
-:doc:`Text Modeling </modeling/texts/introduction>` -
-   inserting text is quite common for the creation of logos,
-   and can be seen as a special case of neither curve nor mesh modeling.
-
-   You may define the text, font, bevel, extruded width and several other parameters that control generated object.
-Scripted Modeling
-   Since Blender functionality is :ref:`extensible via Python scripting <scripting-index>`,
-   there are a number of very useful scripts that assist you in modeling.
-   They may give you new mesh primitives to work with,
-   or apply some fancy manipulation of the meshes that you are already working with.
-
-   Modeling scripts are an advanced topic,
-   while not essential automating some tasks can be a huge time saver in certain cases.
+:doc:`Text Modeling </modeling/texts/introduction>`
+   Text modeling is an easy way to create logos and to simply add text to a scene.
