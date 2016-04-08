@@ -54,7 +54,7 @@ Visualization
 .. list-table::
    
 
-   * - .. figure:: /images/ditmode-cubeselect-1.jpg
+   * - .. figure:: /images/editmode-cubeselect-1.jpg
           :width: 200px
 
           One cube selected.
