@@ -55,12 +55,12 @@ Visualization
    
 
    * - .. figure:: /images/editmode-cubeselect-1.jpg
-          :width: 200px
+          :width: 315px
 
           One cube selected.
 
      - .. figure:: /images/editmode-cubeselect-2.jpg
-          :width: 200px
+          :width: 315px
 
           Two cubes selected before entering Edit mode.
 
