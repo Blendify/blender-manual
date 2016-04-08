@@ -12,5 +12,3 @@
    forces/index.rst
    collisions.rst
    examples.rst
-   combination_with_armatures.rst
-   combination_with_hair_particles.rst
