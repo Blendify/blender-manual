@@ -129,14 +129,6 @@ Scale
    If you want to work out what scale value to use in your scene,
    just use the formula: (size in blender units)/(real world size in millimeters)=scale.
 
-
-.. figure:: /images/material-sss-swatch.jpg
-   :width: 150px
-   :align: right
-
-   The SSS Color Swatch
-
-
 Scattering Color (Albedo)
    Albedo is the probability that light will survive a scattering event.
    If you think of scattering as a filter, this is the height of the filter.
@@ -160,13 +152,13 @@ RGB Radius
    Subsurface scattering is the diffusion of light beneath the surface.
    You control how far the light spreads to achieve a specific result.
 
-Blend :
+Blend
    Color
       This controls how much the R, G, B option modulates the diffuse color and textures.
       Note that even with this option set to **0.0**, the R, G, B option still influences the scattering behavior.
    Texture
       How much the surface texture is blurred along with the shading.
-Scattering Weight :
+Scattering Weight
    Front
       Factor to increase or decrease the front scattering.
       When light enters through the front of the object, how much is absorbed or added?
@@ -246,10 +238,9 @@ Skin
           5
 
 
-See also
-========
+.. seealso::
 
-- `Development Release Log: Subsurface Scattering
-  <https://www.blender.org/development/release-logs/blender-244/subsurface-scattering/>`__
-- `Ben Simonds: Three Layer SSS in Blender Demystified
-  <https://bensimonds.com/2010/05/31/three-layer-sss-in-blender-demystified/>`__
+   - `Development Release Log: Subsurface Scattering
+     <https://www.blender.org/development/release-logs/blender-244/subsurface-scattering/>`__
+   - `Ben Simonds: Three Layer SSS in Blender Demystified
+     <https://bensimonds.com/2010/05/31/three-layer-sss-in-blender-demystified/>`__
