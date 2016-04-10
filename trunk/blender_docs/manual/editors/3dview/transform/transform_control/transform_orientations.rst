@@ -16,11 +16,6 @@ Transform Orientations
    | Hotkey:   :kbd:`Alt-Spacebar`
 
 
-.. figure:: /images/Orientations-Menu.jpg
-
-   Transform orientations selection menu.
-
-
 Orientations affect the behavior of Transformations: Location, Rotation, and Scale.
 You will see an effect on the 3D Manipulator (the widget in the center of the selection),
 as well as on transformation constraints
@@ -28,16 +23,13 @@ as well as on transformation constraints
 This means that, when you press :kbd:`G-X`, it will constrain to the *global* x-axis,
 but if you press :kbd:`G-X-X` it will constrain to your *Transform Orientation* s x-axis.
 
-
-.. figure:: /images/Alt+Space-Menu.jpg
-
-   Alt+Space Menu.
-
-
 The Orientations options can be set on the 3D View's header (or "footer",
 since it is at the bottom of the view by default),
 or with :kbd:`Alt-Spacebar` or through the *Orientation* menu in a 3D view header.
 
+.. figure:: /images/Orientations-Menu.jpg
+
+   Transform Orientations Menu.
 
 In addition to the four built-in options,
 you can define your own custom orientation (see `Custom Orientations`_ below).
@@ -85,6 +77,7 @@ Global
    press the desired axis two times. The difference between Global and Local, is more noticeable
    when you have an object in which the origin is not located at the exact center of the object,
    and doesn't match the Global coordinates.
+
 Local
    .. figure:: /images/3D_interaction-Transform_Control-Transform_Orientations-02-Local.jpg
       :align: right
@@ -101,6 +94,11 @@ Local
    world's "Forward" -- or the object's z-axis would now be the world's y-axis.
    This orientation has an effect on many parts of the interface,
    so it is important to understand the distinction.
+
+.. raw:: html
+
+    <div style='clear:both'></div>
+
 Normal
    .. figure:: /images/3D_interaction-Transform_Control-Transform_Orientations-03-Normal.jpg
       :align: right
@@ -126,6 +124,7 @@ Normal
    :kbd:`G, Z, Z` to tug it away from the mesh and shove it into the mesh.
    To make this even more useful, select a nearby vertex and press :kbd:`Shift-R` to repeat
    the same movement---except along that second vertex's normal instead.
+
 Gimbal
    .. figure:: /images/3D_interaction-Transform_Control-Transform_Orientations-04-Gimbal.jpg
       :align: right
@@ -146,6 +145,7 @@ Gimbal
    Quaternion
       Though Quaternion rotation is very different from the Euler and Axis Angle rotation modes,
       the Manipulator behaves the same as in *Local* mode.
+
 View
    .. figure:: /images/3D_interaction-Transform_Control-Transform_Orientations-05-View.jpg
       :align: right
