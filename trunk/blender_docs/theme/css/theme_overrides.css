@@ -49,6 +49,9 @@ input[type="color"] {
     color:#404040;
 }
 
+/*moves the table captions to the bottom*/ 
+table { caption-side: bottom; }
+
 /* Fix giant captions */
 .caption-text {
     font-size: 13px;
@@ -58,8 +61,10 @@ input[type="color"] {
     color:#808080;
 }
 
+/*text wrap of figure captions in tables*/
 .caption {
     line-height: 0px;
+    white-space: normal;
 }
 
 /* proper seal navigation buttons; jumping on resize */
