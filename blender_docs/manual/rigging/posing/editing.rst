@@ -7,6 +7,7 @@ Editing Poses
 
 .. figure:: /images/rigging-poseTools.jpg
    :width: 100px
+   :align: right
 
    Pose Tools
 
