@@ -54,7 +54,7 @@ to your heart's content (or physical memory constraints, whichever comes first).
 Options
 =======
 
-.. figure:: /images/editors_node_header.jpg
+.. figure:: /images/compositing_header.png
 
    Compositing Specific Options.
 

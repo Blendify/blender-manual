@@ -18,20 +18,20 @@ What nodes to use?
 
 .. figure:: /images/editors_node_header1.png
 
-   Node Editor for Materials
+   Node Editor for Materials.
 
 - If you want to work with a compositing node map,
   click the overlaped pictures on the Material/Compositing node set selector.
 
-.. figure:: /images/editors_node_header.jpg
+.. figure:: /images/compositing_header.png
 
-   Node Editor for Compositing
+   Node Editor for Compositing.
 
 - If you want to work with a texture node map, click the checker on the Material/Compositing node set selector.
 
 .. figure:: /images/editors_node_header2.png
 
-   Node Editor for Texturing
+   Node Editor for Texturing.
 
 To actually activate nodes, click the Use Nodes button.
 
