@@ -98,7 +98,7 @@ Choosing the Transform Orientation
    | Hotkey:   :kbd:`Alt-Spacebar`
 
 
-.. figure:: /images/Orientations-Menu.jpg
+.. figure:: /images/editors_3dview_orientations_menu.png
 
    Transform Orientation options.
 

@@ -9,11 +9,10 @@ While we will describe the *3D View* window,
 most of the other windows have similar functions. For example,
 it is possible to translate and zoom a *Buttons* window and its panels.
 
-
 .. tip:: Mouse Buttons and Numpad
 
    If you have a mouse with less than three buttons or a keyboard without numpad,
-   see the :doc:`Keyboard and Mouse </interface/input_devices>`
+   see the :doc:`Keyboard and Mouse </getting_started/installing_blender/hardware>`
    page of the manual to learn how to use them with Blender.
 
 
@@ -43,8 +42,8 @@ projections* image below.
 Our eye is used to perspective viewing because distant objects appear smaller.
 Orthographic projection often seems a bit odd at first,
 because objects stay the same size regardless of their distance.
-It is like viewing the scene from an infinitely distant point. Nevertheless,
-orthographic viewing is very useful
+It is like viewing the scene from an infinitely distant point.
+Nevertheless, orthographic viewing is very useful
 (it is the default in Blender and most other 3D applications),
 because it provides a more "technical" insight into the scene,
 making it easier to draw and judge proportions.
@@ -58,8 +57,8 @@ Options
    Demonstration of camera view.
 
 
-To change the projection for a 3D view,
-choose the :menuselection:`View --> Orthographic` or the :menuselection:`View --> Perspective` menu entry.
+To change the projection for a 3D view, choose the :menuselection:`View --> Orthographic`
+or the :menuselection:`View --> Perspective` menu entry.
 The :kbd:`Numpad5` shortcut toggles between the two modes.
 Changing the projection for a 3D view does not affect the way the scene will be rendered.
 Rendering is in perspective by default. If you need to create an orthographic rendering,
@@ -67,12 +66,10 @@ select the camera, go to the *Object Data* context and press the
 *Orthographic* button in the *Lens* panel.
 
 The :menuselection:`View --> Camera` menu entry sets the 3D view to camera mode (:kbd:`Numpad0`).
-The scene is then displayed as it will be rendered later
-(see *Demonstration of camera view*).
+The scene is then displayed as it will be rendered later (see *Demonstration of camera view*).
 The rendered image will contain everything within the orange dotted line.
 Zooming in and out is possible in this view, but to change the viewpoint,
 you have to move or rotate the camera.
-
 
 .. seealso::
 
@@ -127,7 +124,6 @@ To change the viewing angle in discrete steps, use :kbd:`Numpad8` and :kbd:`Nump
 or use :kbd:`Numpad4` and :kbd:`Numpad6` (or :kbd:`Ctrl-Alt-Wheel`)
 to rotate the scene around the Z global axis from your current point of view.
 
-
 .. note:: Hotkeys
 
    Remember that most hotkeys affect **the active window** (the one that has focus),
@@ -178,7 +174,6 @@ If you have a wheel mouse, you can perform all of the actions in the 3D viewport
 would do with :kbd:`NumpadPlus` and :kbd:`NumpadMinus` by rotating the :kbd:`Wheel`.
 To zoom a *Buttons* window,
 hold :kbd:`Ctrl-MMB` and move your mouse up and down.
-
 
 .. hint:: If You Get Lost
 
@@ -246,7 +241,7 @@ They are found in the *View Menu*
       Centers view to 3D-cursor
 
 View Selected
-   See above
+   See above.
 
 .. _3dview-view_all:
 
@@ -502,4 +497,3 @@ Shortcuts
 
 When you are happy with the new view, click :kbd:`LMB` to confirm.
 In case you want to go back from where you started, press :kbd:`Esc` or :kbd:`RMB`, as usual.
-
