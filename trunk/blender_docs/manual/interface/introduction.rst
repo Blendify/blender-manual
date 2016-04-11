@@ -1,7 +1,7 @@
 
-***************
-  Introduction
-***************
+************
+Introduction
+************
 
 When starting Blender, the splash screen appears.
 On the left side are links to official web pages, and on the right are your most recently opened projects.
@@ -19,8 +19,8 @@ Blender's user interface is consistent across all platforms.
 The interface can be customized to match specific tasks using Screen Layouts,
 which can then be named and saved for later use.
 
-Blender also makes heavy use of keyboard shortcuts to speed up work and allows customization of the
-:doc:`keymap </interface/input_devices>`.
+Blender also makes heavy use of keyboard shortcuts to speed up work.
+These can also be customized in the :ref:`Keymap Editor <prefs-input-keymap_editor>`.
 
 
 User Interface Principles

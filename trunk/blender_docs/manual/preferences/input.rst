@@ -201,7 +201,9 @@ NDOF device
    Set the sensitivity of a 3D mouse.
 
 
-Keymap editor
+.. _prefs-input-keymap_editor:
+
+Keymap Editor
 =============
 
 .. figure:: /images/Interface-Configuration-Input-KeymapEditor.jpg
@@ -209,7 +211,6 @@ Keymap editor
 
 
 The Keymap editor lets you change the default Hotkeys. You can change keymaps for each window.
-
 
 - Select the keymap you want to change and click on the white arrows to open up the keymap tree.
 - Select which Input will control the function

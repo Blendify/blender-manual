@@ -29,7 +29,7 @@ In this section, we will see:
 - How to :doc:`select and edit bones </rigging/posing/editing>` in this mode.
 - How to :doc:`use pose library </rigging/posing/pose_library>`.
 - How to :doc:`use constraints </rigging/posing/constraints>` to control your bones' DoF (degrees of freedom).
-- How to :doc:`use inverse kinematics features </rigging/posing/inverse_kinematics>`.
+- How to :doc:`use inverse kinematics features </rigging/posing/inverse_kinematics/index>`.
 - How to :doc:`use the Spline inverse kinematics features </rigging/posing/inverse_kinematics/spline_ik>`.
 
 Even though it might be used for completely static purposes,

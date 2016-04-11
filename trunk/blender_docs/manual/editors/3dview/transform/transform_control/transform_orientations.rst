@@ -27,7 +27,7 @@ The Orientations options can be set on the 3D View's header (or "footer",
 since it is at the bottom of the view by default),
 or with :kbd:`Alt-Spacebar` or through the *Orientation* menu in a 3D view header.
 
-.. figure:: /images/Orientations-Menu.jpg
+.. figure:: /images/editors_3dview_orientations_menu.png
 
    Transform Orientations Menu.
 

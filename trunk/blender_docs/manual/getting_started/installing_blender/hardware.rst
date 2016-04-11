@@ -9,6 +9,8 @@ Multi-Monitor Setup
 Input Devices
 =============
 
+.. Add note about emulate 3d buttom mouse and numpad.
+
 Blender supports various types of input devices:
 
 - Keyboard (recommended: keyboard with numeric keypad, english layout works best)
