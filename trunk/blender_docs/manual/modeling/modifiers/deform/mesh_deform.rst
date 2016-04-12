@@ -74,7 +74,7 @@ Dynamic
 .. warning::
 
    Significant changes to the entire change mesh *(such as rotating the cage upside down)*
-   can cause noticable artifacts.
+   can cause noticeable artifacts.
 
    These can be reduced by binding with a higher *Precision*,
    however it is a known limitation with this modifier and can't be avoided entirely.
@@ -94,6 +94,6 @@ See Also
 ========
 
 - The :doc:`Lattice modifier </modeling/modifiers/deform/lattice>`.
-- `Original paper <https://graphics.pixar.com/library/HarmonicCoordinatesB/>`__
+- `Original paper <http://graphics.pixar.com/library/HarmonicCoordinatesB/>`__
 
 
