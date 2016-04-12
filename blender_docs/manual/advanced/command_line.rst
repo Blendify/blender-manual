@@ -126,7 +126,7 @@ Python Options
    Set the exit-code in [0..255] to exit if a Python exception is raised
    (only for scripts executed from the command line), zero disables.
 ``--addons``
-   Comma separated list of addons (no spaces)
+   Comma separated list of add-ons (no spaces)
 
 
 Debug Options
@@ -282,6 +282,7 @@ Environment Variables
 :TMP: or $TMPDIR           Store temporary files here.
 :SDL_AUDIODRIVER:          LibSDL audio driver - alsa, esd, dma.
 :PYTHONHOME:               Path to the python directory, eg. /usr/lib/python.
+
 
 
 Experimental Features
