@@ -64,8 +64,8 @@ Min 2D Angle and Max 2D Angle
    Splits chains when they are longer than the given value.
 
 D1 / G1 / D2 / G2 / D3 / G3
-   Splits the chains using the given dashed pattern ("D" stands for "dash", "G" stands for "gap"; see also
-   `Dashed Line`_).
+   Splits the chains using the given dashed pattern ("D" stands for "dash",
+   "G" stands for "gap"; see also `Dashed Line`_).
 
 
 Sorting
