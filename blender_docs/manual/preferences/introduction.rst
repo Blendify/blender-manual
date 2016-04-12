@@ -67,3 +67,22 @@ then save the preferences via the *User Preferences* editor.
    See the :doc:`directory layout </getting_started/installing_blender/directorylayout>`
    section to see where your preferences are stored.
 
+
+Startup File
+============
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All modes
+   | Menu:     :menuselection:`File --> Save Startup File`
+   | Hotkey:   :kbd:`Ctrl-U`
+
+
+When you start Blender or start a new project with the menu entry :menuselection:`File --> New`,
+a new scene is created from the default scene included with Blender.
+
+This default scene can instead be your own customized setup.
+
+To change the default scene, make all of the desired changes to the current scene or current
+file and :menuselection:`File --> Save Startup File`.
