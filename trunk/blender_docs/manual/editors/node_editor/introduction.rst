@@ -7,9 +7,12 @@ Introduction
 
 .. figure:: /images/editors_node_example.png
 
-   The node editor
+   The Node Editor.
 
-The *node editor* is used to work with node-based dataflows.
+The *Node Editor* is used to work with node-based dataflows.
+Here we will only give an overview of what the *Node Editor* is,
+For example in the table below it shows a list of 
+
 
 Navigating the node editor is done with the use of both mouse movement and keyboard shortcuts.
 

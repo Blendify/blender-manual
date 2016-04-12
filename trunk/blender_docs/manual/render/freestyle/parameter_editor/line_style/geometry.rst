@@ -187,7 +187,6 @@ it is recommended to use this modifier together with one of the splitting option
 Perlin Noise 1D
 ---------------
 
-
 The *Perlin Noise 1D* modifier adds one-dimensional Perlin noise to the stroke.
 The curvilinear abscissa (value between 0 and 1 determined by a point's position
 relative to the first and last point of a stroke) is used as the input to the
@@ -248,7 +247,6 @@ Error
 Sampling
 --------
 
-
 The *Sampling* modifier changes the definition, precision of the stroke,
 for the following modifiers.
 
@@ -263,7 +261,6 @@ Sampling
 
 Sinus Displacement
 ------------------
-
 
 The *Sinus Displacement* modifier adds a sinusoidal displacement to the stroke.
 
@@ -320,7 +317,6 @@ Pure Random
 Tip Remover
 -----------
 
-
 The *Tip Remover* modifier removes a piece of the stroke at its beginning and end.
 
 .. figure:: /images/render-freestyle-Line_Style_Geometry_Tip_Remover.jpg
@@ -339,8 +335,8 @@ Simplification
    :align: center
 
 
-The *Simplification* modifier merges stroke vertices that lie close to one another, like the *Decimate* modifier for
-meshes.
+The *Simplification* modifier merges stroke vertices that lie close to one another,
+like the *Decimate* modifier for meshes.
 
 .. figure:: /images/render-freestyle_ui_geometry_simplification.png
    :width: 300px

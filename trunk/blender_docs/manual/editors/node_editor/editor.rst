@@ -7,7 +7,8 @@ By default, the header, when first displayed, is uninitialized as shown:
 
 .. figure:: /images/editors_node_header1.png
 
-   Default Node Editor Header
+   Default Node Editor Header.
+
 
 Activating Nodes
 ================

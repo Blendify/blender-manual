@@ -1,6 +1,8 @@
+
 ***********
 Using Nodes
 ***********
+
 
 Adding Nodes
 ============
@@ -9,6 +11,7 @@ Nodes are added in two ways to the node editor:
 
  - By using the toolshelf which has buttons for adding nodes, organized with tabs, or
  - By using the :menuselection:`Add` menu (:kbd:`Shift-A`, or using the node editor header)
+
 
 Arranging Nodes
 ===============
@@ -51,12 +54,14 @@ While multiple links can route out of an output socket, only a single link can b
 To reposition the outgoing links of a node, rather than adding a new one, hold :kbd:`Ctrl` while dragging from an
 output socket. This works for single as well as for multiple outgoing links.
 
+
 Disconnecting nodes
 ===================
 
 To break a link between sockets :kbd:`Ctrl-LMB`-click in an empty area, near the link you want to disconnect, and
 drag: You will see a little cutter icon appearing at your mouse pointer. Move it over the link itself, and
 release the :kbd:`LMB`.
+
 
 Duplicating a node
 ==================
@@ -69,4 +74,3 @@ duplicate of the selected node appeaing under the mouse pointer.
    When you duplicate a node, the new node will be positioned *exactly* on top of the node that was duplicated.
    If you leave it there (and it's quite easy to do so), you can **not** easily tell that there are *two* nodes there!
    When in doubt, grab a node and move it slightly to see if something's lurking underneath.
-

@@ -207,7 +207,7 @@ Crease Angle
 
 A modifier based on the Crease Angle (angle between two adjacent faces). If a stroke segment doesn't lie on a crease
 (i.e., the edge doesn't have the `Crease Angle nature
-<https://www.blender.org/api/blender_python_api_2_74_release/freestyle.types.html#freestyle.types.Nature>`__),
+<https://www.blender.org/api/blender_python_api_current/freestyle.types.html#freestyle.types.Nature>`__),
 its color values are not touched by the modifier.
 
 .. figure:: /images/render-freestyle_ui_color_crease_angle.png

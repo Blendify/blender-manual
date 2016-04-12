@@ -149,6 +149,5 @@ Hints
 Goal Weights
 ============
 
-.. TODO
-  https://www.blender.org/documentation/blender_python_api_2_62_release/
-  bpy.ops.curve.html#bpy.ops.curve.spline_weight_set
+TODO. See `Python API
+<https://www.blender.org/api/blender_python_api_current/bpy.ops.curve.html#bpy.ops.curve.spline_weight_set>`__.

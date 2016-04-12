@@ -23,9 +23,9 @@ Links that are useful while writing scripts.
 
 - `Python.org <https://www.python.org/>`__
   - General information about Python.
-- `Blender Python API <https://www.blender.org/documentation/250PythonDoc/>`__
+- `Blender Python API <https://www.blender.org/api/blender_python_api_current/>`__
   - Official API documentation. Use this for referencing while writing scripts.
-- `API introduction <https://www.blender.org/documentation/blender_python_api_2_72_release/info_quickstart.html>`__
+- `API Introduction <https://www.blender.org/api/blender_python_api_current/info_quickstart.html>`__
   - A short introduction to get you started with the API. Contains examples.
 - `CookBook <https://wiki.blender.org/index.php/Dev:2.5/Py/Scripts/Cookbook>`__
   - A section of handy code snippets (yet to be written)
@@ -87,9 +87,8 @@ there are literally hundreds of add-ons written by many people:
 - Other **Testing** add-ons are included in development builds but not official releases,
   many of them work reliably and are very useful but are not ensured to be stable for release.
 
-For an overview of all add-ons is available in, see
-`Scripts Catalog <https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts>`__ and
-`Extensions tracker <https://projects.blender.org/projects/bf-extensions/>`__.
+For an overview of all addons available see the
+`Scripts Catalog <https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts>`__.
 
 
 Scripts
@@ -122,14 +121,10 @@ Installation
 ^^^^^^^^^^^^
 
 Add-ons are conveniently installed through Blender in the *User Preferences* -->
-*Add-ons* window. Click the *Install from File...* button and select the
-``.py`` or ``.zip`` file.
+*Add-ons* window. Click the *Install from File...* button and select the ``.py`` or ``.zip`` file.
 
 To manually install scripts or add-ons place them in the ``add-ons``,
-``modules``,
-``presets`` or ``startup`` directory according to their type.
+``modules``, ``presets`` or ``startup`` directory according to their type.
 See the description above.
 
-You can also run scripts by loading them in the :doc:`text editor </editors/text_editor>` window.
-
-
+You can also run scripts by loading them in the :doc:`Text Editor </editors/text_editor>` window.
