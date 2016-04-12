@@ -98,3 +98,11 @@ Strength
    the displacement will be multiplied by the *Strength* value to give the final vertex offset.
    This is achieved by the equation ``vertex_offset = displacement * Strength``.
    A negative strength can be used to invert the effect of the modifier.
+
+Example
+=======
+
+.. figure:: /images/Modifier-Displace-Braille.jpg
+   :scale: 66%
+
+   A highly subsurfed plane with an image of the Braille alphabet used as the displacement texture.
