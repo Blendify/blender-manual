@@ -15,4 +15,3 @@
    themes.rst
    file.rst
    system.rst
-   startup_file.rst
