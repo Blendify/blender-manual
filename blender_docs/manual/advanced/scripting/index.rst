@@ -8,5 +8,5 @@
    :maxdepth: 2
 
    introduction.rst
-   python/add_ons.rst
+   python/addons.rst
    python/security.rst

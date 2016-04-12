@@ -11,7 +11,7 @@
    interface.rst
    editing.rst
    input.rst
-   add_ons.rst
+   addons.rst
    themes.rst
    file.rst
    system.rst

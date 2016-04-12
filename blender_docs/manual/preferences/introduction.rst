@@ -31,7 +31,7 @@ At the top of the window, the available options are grouped into seven tabs:
    Control how several tools will interact with your input.
 :doc:`Input </preferences/input>`
    Customize how Blender reacts to the mouse and keyboard as well as define your own keymap.
-:doc:`Add-ons </preferences/add_ons>`
+:doc:`Add-ons </preferences/addons>`
    Manage Blender's *Add-ons*, allowing you to access features
    not built-in as well as install new features.
 :doc:`Themes </preferences/themes>`
