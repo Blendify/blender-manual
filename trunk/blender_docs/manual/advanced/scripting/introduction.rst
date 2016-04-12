@@ -87,7 +87,7 @@ there are literally hundreds of add-ons written by many people:
 - Other **Testing** add-ons are included in development builds but not official releases,
   many of them work reliably and are very useful but are not ensured to be stable for release.
 
-For an overview of all addons available see the
+For an overview of all add-ons available see the
 `Scripts Catalog <https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts>`__.
 
 

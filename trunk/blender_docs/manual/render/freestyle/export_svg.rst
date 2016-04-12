@@ -3,7 +3,7 @@
 Freestyle SVG Exporter
 **********************
 
-SVG exporting for Freestyle is available through an addon.
+SVG exporting for Freestyle is available through an add-on.
 
 .. figure:: /images/render-freestyle_svg_car.png
    :width: 600px
@@ -12,10 +12,9 @@ SVG exporting for Freestyle is available through an addon.
    An example of a .svg result produced by the Freestyle SVG Exporter.
    Model by `Blendergoodies <https://www.blendswap.com/blends/view/76715>`__
 
-This addon can be enabled via *User Preferences* > *Addons* > *Render:Freestyle SVG Exporter*.
+This add-on can be enabled via :menuselction:`User Preferences --> Add-ons --> Render --> Freestyle SVG Exporter`.
 The GUI for the exporter should now be visible in the render tab of the properties window.
-The exported .svg file is written to the default
-output path (*Properties* > *Render* > *Output*).
+The exported .svg file is written to the default output path (*Properties* > *Render* > *Output*).
 
 
 Options
@@ -26,8 +25,8 @@ Options
    :align: right
 
 Mode
-   Option between Frame and Animation. Frame will render a single frame, Animation will bundle all rendered frames
-   into a single .svg file.
+   Option between Frame and Animation. Frame will render a single frame,
+   Animation will bundle all rendered frames into a single .svg file.
 Split at Invisible
    By default the exporter won't take invisible vertices into account and export them like they are visible.
    Some stroke modifiers, like Blueprint, mark vertices as invisible to achieve a certain effect. Enabling this
@@ -73,9 +72,9 @@ Exporting Fills
 ---------------
 
 Fills are colored areas extracted from a Freestyle render result. Specifically, they are defined by a combination of
-the Contour and External Contour edge type, combined with some predicates. The fill result can be unexpected, when
-the SVG renderer cannot correctly draw the path that the exporter has generated. This problem is extra apparent in
-animations.
+the Contour and External Contour edge type, combined with some predicates. The fill result can be unexpected,
+when the SVG renderer cannot correctly draw the path that the exporter has generated.
+This problem is extra apparent in animations.
 
 .. figure:: /images/render-freestyle_svg_pallet.svg
    :width: 600px
@@ -85,5 +84,5 @@ animations.
    Model by `Julien Deswaef <https://github.com/xuv>`__
 
 Fills support holes and layering. When using layers, the exporter tries to render objects with the same material as
-the patch. The exporting of fills and especially the order in which they are layered is by no means perfect. In most
-cases, these problems can be easily solved in Inkscape or a text editor.
+the patch. The exporting of fills and especially the order in which they are layered is by no means perfect.
+In most cases, these problems can be easily solved in Inkscape or a text editor.
