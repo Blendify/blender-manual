@@ -242,4 +242,4 @@ or the `Stanford Bunny <https://en.wikipedia.org/wiki/Stanford_Bunny>`__.
 
    In addition to the basic geometric primitives, Blender has a number of script
    generated meshes to offer as pre-installed add-ons. These become available when
-   enabled in the *User Preferences Addons* section (filter by *Add Mesh*).
+   enabled in the :doc:`User Preferences </preferences/addon_ons>` (filter by *Add Mesh*).

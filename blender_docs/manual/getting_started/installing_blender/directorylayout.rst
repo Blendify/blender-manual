@@ -130,7 +130,7 @@ for example.
    Search order: ``LOCAL, USER, SYSTEM``.
 
 ``./scripts/addons/*.py``
-   Python addons which may be enabled in the user preferences include import/export format support,
+   Python add-ons which may be enabled in the user preferences include import/export format support,
    render engine integration and many handy utilities.
 
 ``./scripts/addons/modules/*.py``
@@ -140,7 +140,7 @@ for example.
    Another add-ons directory which is used for community maintained add-ons (must be manually created).
 
 ``./scripts/addons_contrib/modules/*.py``
-   Modules for addons_contrib to use (added to Python's sys.path).
+   Modules for ``addons_contrib`` to use (added to Python's sys.path).
 
 ``./scripts/modules/*.py``
    Python modules containing our core API and utility functions for other scripts to import
@@ -153,7 +153,7 @@ for example.
    Presets used for storing user defined settings for cloth, render formats etc.
 
 ``./scripts/templates/*.py``
-   Example scripts which can be accessed from: Text Space's Header --> Text --> Script Templates.
+   Example scripts which can be accessed from :menuselection:`Text Editor --> Text --> Script Templates`.
 
 ``./python/ ...``
    Bundled Python distribution, only necessary when the system Python installation is absent or incompatible.

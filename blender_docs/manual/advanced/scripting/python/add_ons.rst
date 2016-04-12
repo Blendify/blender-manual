@@ -1,5 +1,5 @@
 .. TODO There is more addon related text in extensions/introduction.rst that should be merged in when this section is
-..      restructured
+   restructured
 
 *******
 Add-ons
@@ -84,4 +84,3 @@ Development guidelines
 
 If you are a script developer, you may be interested in the
 `Add-ons development guidelines <https://wiki.blender.org/index.php/Dev:2.5/Py/Scripts/Guidelines/Addons>`__
-
