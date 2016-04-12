@@ -15,7 +15,7 @@ Options
 
 .. figure:: /images/modifier-displace.jpg
 
-   Displace modifier
+   Displace Modifier.
 
 
 Texture
@@ -39,7 +39,6 @@ Texture Coordinates
    The texture coordinate system to use when retrieving values from the texture for each vertex.
    Can be one of the following:
 
-
    UV
       Take texture coordinates from face UV coordinates.
 
@@ -50,14 +49,12 @@ Texture Coordinates
          (e.g. just after adding the first UV layer to the mesh),
          it will be overwritten with the currently active UV layer.
 
-
       .. note::
 
          Since UV coordinates are specified per face, the UV texture coordinate system currently determines the UV
          coordinate for each vertex from the first face encountered which uses that vertex;
          any other faces using that vertex are ignored.
          This may lead to artifacts if the mesh has non-contiguous UV coordinates.
-
 
    Object
       Take the texture coordinates from another object's coordinate system (specified by the *Object* field).
@@ -66,16 +63,14 @@ Texture Coordinates
          The object from which to take texture coordinates.
          Moving the object will therefore alter the coordinates of the texture mapping.
 
-         Take note that moving the original object will **also** result in a texture coordinate update. As such, if
-         you need to maintain a displacement coordinate system while moving the modified object,
+         Take note that moving the original object will **also** result in a texture coordinate update.
+         As such, if you need to maintain a displacement coordinate system while moving the modified object,
          consider parenting the coordinate object to the modified object.
 
          If this field is blank, the *Local* coordinate system is used.
 
-
    Global
       Take the texture coordinates from the global coordinate system.
-
 
    Local
       Take the texture coordinates from the object's local coordinate system.
@@ -98,6 +93,7 @@ Strength
    the displacement will be multiplied by the *Strength* value to give the final vertex offset.
    This is achieved by the equation ``vertex_offset = displacement * Strength``.
    A negative strength can be used to invert the effect of the modifier.
+
 
 Example
 =======

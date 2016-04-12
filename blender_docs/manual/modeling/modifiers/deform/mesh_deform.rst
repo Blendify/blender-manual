@@ -12,7 +12,7 @@ Options
 
 .. figure:: /images/modifier-meshdeform.jpg
 
-   Mesh Deform modifier
+   Mesh Deform Modifier.
 
 
 The Mesh Deform modifier is reasonably easy to use but it can be very slow to do
@@ -62,14 +62,12 @@ Precision
 
    This setting becomes unavailable once a cage has been bound.
 
-
 Dynamic
    When activated, other mesh altering features (such as other modifiers and shape keys)
    are taken into account when binding, increasing deformation quality.
 
    It is deactivated by default to save memory and processing time when binding...
    Like with *Precision*, this setting is unavailable once a cage has been bound.
-
 
 .. warning::
 
@@ -90,10 +88,7 @@ Hints
   for example, to get extra control over eyes, two small sphere cages could be added around them.
 
 
-See Also
-========
+.. seealso::
 
-- The :doc:`Lattice modifier </modeling/modifiers/deform/lattice>`.
-- `Original paper <http://graphics.pixar.com/library/HarmonicCoordinatesB/>`__
-
-
+   - The :doc:`Lattice modifier </modeling/modifiers/deform/lattice>`.
+   - `Original paper <http://graphics.pixar.com/library/HarmonicCoordinatesB/>`__
