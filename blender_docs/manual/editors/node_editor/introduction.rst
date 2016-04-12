@@ -11,19 +11,7 @@ Introduction
 
 The *Node Editor* is used to work with node-based dataflows.
 Here we will only give an overview of what the *Node Editor* is,
-For example in the table below it shows a list of 
-
-
-Navigating the node editor is done with the use of both mouse movement and keyboard shortcuts.
-
-Pan (:kbd:`MMB`)
-   Move the view up, down, left and right
-Zoom (:kbd:`Ctrl-MMB`/:kbd:`Wheel`)
-   Move the camera forwards and backwards
-
-
-Node Tree Types
-===============
+For example, in the list below it shows a list of different types of node trees and where each is documented.
 
 .. _node-tree-types:
 
@@ -57,3 +45,13 @@ Header
 The *header* contains various menus, buttons and options, partially based on the current node tree type.
 
 .. TODO - see: https://developer.blender.org/T43570
+
+Navigating
+==========
+
+Navigating the node editor is done with the use of both mouse movement and keyboard shortcuts.
+
+Pan (:kbd:`MMB`)
+   Move the view up, down, left and right
+Zoom (:kbd:`Ctrl-MMB`/:kbd:`Wheel`)
+   Move the camera forwards and backwards
