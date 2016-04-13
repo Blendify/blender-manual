@@ -6,7 +6,7 @@ Screens
 .. figure:: /images/Scene-SR_Layout_Dropdown25.jpg
    :align: right
 
-   Layout Dropdown
+   Layout Dropdown.
 
 
 Blender's flexibility with windows lets you create customized working environments for
@@ -62,7 +62,7 @@ Adding a new Screen Type
 .. |addview-button| image:: /images/icons_add.png
    :width: 25px
 
-Click on the "Add" button(|addview-button|) and a new frame layout will be
+Click on the "Add" button (|addview-button|) and a new frame layout will be
 created based on your current layout.
 
 
@@ -124,4 +124,4 @@ Painting
 .. hint:: Reuse your Layouts
 
    If you create a new window layout and would like to use it for future blend-files,
-   you can save it for later reuse, see :doc:`/preferences/startup_file`.
+   you can save it for later reuse, see :ref:`Saving User Settings <startup-file>`
