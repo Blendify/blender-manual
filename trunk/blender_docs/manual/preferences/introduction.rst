@@ -54,6 +54,8 @@ In the *User Preferences* window, click on the *Save User Settings* button in th
 This will save all of the new preferences.
 
 
+.. _factory-settings:
+
 Load Factory Settings
 =====================
 
@@ -67,6 +69,8 @@ then save the preferences via the *User Preferences* editor.
    See the :doc:`directory layout </getting_started/installing_blender/directorylayout>`
    section to see where your preferences are stored.
 
+
+.. _startup-file:
 
 Startup File
 ============
