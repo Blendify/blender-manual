@@ -15,5 +15,5 @@
    vector/index.rst
    matte/index.rst
    distort/index.rst
-   group.rst
+   ../../editors/node_editor/node_groups.rst
    layout/index.rst
