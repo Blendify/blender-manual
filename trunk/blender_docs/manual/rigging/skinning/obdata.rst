@@ -83,15 +83,14 @@ Follow the above link to read more about this modifier's specific options.
 Note that there is a way with new *Armature* modifiers to automatically create vertex groups and weight them;
 see the `Vertex Groups`_ description below.
 
+.. warning::
 
- .. warning::
-
-    A single object can have several *Armature* modifiers
-    (with e.g. different armatures, or different settings...),
-    working on top of each other, **or** mixing their respective effects
-    (depending whether their* *MultiModifier* option is set,
-    see :ref:`their description <modifier-armature-multi_modifier>` for more details),
-    and only one "virtual old parenting" one, which will always be at the top of the stack.
+   A single object can have several *Armature* modifiers
+   (with e.g. different armatures, or different settings...),
+   working on top of each other, **or** mixing their respective effects
+   (depending whether their* *MultiModifier* option is set,
+   see :ref:`their description <modifier-armature-multi_modifier>` for more details),
+   and only one "virtual old parenting" one, which will always be at the top of the stack.
 
 Note finally that for settings that are present in both the armature's *Armature*
 *panel and in the objects'* *Armature* modifier panel (namely,
@@ -152,12 +151,9 @@ Preserve Volume (Armature modifier)
 
           180.1- rotation, Preserve Volume enabled.
 
+.. note::
 
-   * - Note that the IcoSphere is deformed using the envelopes method.
-
-     -
-
-     -
+   Note that the IcoSphere is deformed using the envelopes method.
 
 
 Bone Deform Options
