@@ -5,9 +5,17 @@
 ###################
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    introduction.rst
+
+
+Sections
+========
+
+.. toctree::
+   :maxdepth: 1
+
    interface.rst
    editing.rst
    input.rst
