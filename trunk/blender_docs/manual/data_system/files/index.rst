@@ -7,7 +7,6 @@
 .. toctree::
    :maxdepth: 1
 
-   introduction.rst
    open.rst
    save.rst
    import_export.rst
