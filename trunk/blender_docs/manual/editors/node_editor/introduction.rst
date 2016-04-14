@@ -9,20 +9,32 @@ Introduction
 
    The Node Editor.
 
-The *Node Editor* is used to work with node-based dataflows.
-Here we will only give an overview of what the *Node Editor* is,
-For example, in the list below it shows a list of different types of node trees and where each is documented.
+The *Node Editor* is used to work with node-based work flows.
+The node tree type can be changed using the buttons in the node editor header.
+However, here we will only give an overview of what the *Node Editor* is.
+In the list below it shows a list of different types of node trees and where each is documented.
 
 .. _node-tree-types:
 
-Blender has a number of different node tree types:
+.. list-table::
+   :header-rows: 1
 
-- :doc:`Compositing Nodes </compositing/index>`
-- :doc:`Texture Nodes </render/blender_render/textures/nodes/introduction>`
-- Material Nodes (:doc:`Blender Internal </render/blender_render/materials/nodes/index>`,
-  :doc:`Cycles </render/cycles/nodes/index>`)
-
-The node tree type can be changed using the buttons in the node editor header.
+   * - Icon
+     - Name
+     - Documentation
+   * - .. figure:: /images/icons_material.png
+          :width: 35px
+     - Material Nodes
+     - Because there are two different render engines documentation is split between :doc:`Blender Internal
+       </render/blender_render/materials/nodes/index>` and :doc:`Cycles </render/cycles/nodes/index>`.
+   * - .. figure:: /images/icons_render-layers.png
+          :width: 35px
+     - Composite Nodes
+     - Documentation can be found in the :doc:`Compositing </compositing/index>` section.
+   * - .. figure:: /images/icons_texture.png
+          :width: 35px
+     - Texture Nodes
+     - Texture Nodes are covered in the :doc:`Blender Internal </render/blender_render/textures/nodes/introduction>` docs.
 
 
 Regions of the Node Editor
