@@ -23,9 +23,8 @@ and even inside other textures.
 Using Texture Nodes
 ===================
 
-
-To use texture nodes with the current texture, open a :doc:`Node Editor window </editors/node_editor/editor>`,
-set it to *Texture* mode by clicking the "Texture" icon (|texture-button|) in its header.
+To use texture nodes with the current texture, open the :doc:`Node Editor </editors/node_editor/index>`
+and set it to *Texture* mode by clicking the "Texture" icon (|texture-button|) in its header.
 
 To start adding nodes, you first need to select a material.
 Now you can either click the *New* button in the Node editor,
@@ -38,7 +37,7 @@ you can create as many Outputs as you like in your node setup. (Other types of n
 as you may recall, are limited to only one Output node.) See the next section for details.
 
 For instructions on how to add, remove and manipulate the nodes in the tree,
-see the :doc:`Node Editor manual </editors/node_editor/editor>`.
+see the :doc:`Node Editor manual </editors/node_editor/nodes/usage>`.
 
 
 Using Multiple Outputs
