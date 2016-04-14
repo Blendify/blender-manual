@@ -9,6 +9,4 @@
 
    introduction.rst
    editor.rst
-   node_parts.rst
-   usage.rst
-   node_groups.rst
+   nodes/index.rst
