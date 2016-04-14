@@ -37,4 +37,4 @@ Editing Keyframes
 =================
 
 For editing keyframes go to the :doc:`Graph Editor </editors/graph_editor/introduction>`
-or to the :doc:`Dopesheet </editors/dope_sheet/dope_sheet>`
+or to the :doc:`Dopesheet </editors/dope_sheet/introduction>`

@@ -1,6 +1,4 @@
-
 ..    TODO/Review: {{review|partial=X}} .
-
 
 *************
 Action Editor
@@ -94,5 +92,3 @@ Move...
 
 Revive Disabled F-Curves
    Clears 'disabled' tag from all F-Curves to get broken F-Curves working again
-
-

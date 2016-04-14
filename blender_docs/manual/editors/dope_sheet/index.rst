@@ -7,6 +7,6 @@
 .. toctree::
    :maxdepth: 2
 
+   introduction.rst
    action.rst
-   dope_sheet.rst
    shapekey.rst

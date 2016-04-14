@@ -1,14 +1,13 @@
 ..    TODO/Review: {{review|partial=X}} .
 
-
-*************
-The Dopesheet
-*************
+************
+Introduction
+************
 
 .. figure:: /images/dopesheet-overview.jpg
    :width: 400px
 
-   The DopeSheet
+   The DopeSheet.
 
 
 Classical hand-drawn animators often made a chart, showing exactly when each drawing,
@@ -23,24 +22,23 @@ Dope Sheet Modes
 
 .. figure:: /images/dopesheet-modes.jpg
 
-   DopeSheet modes
+   Dope Sheet Modes
 
 
 There are four basic views for the Dopesheet.These all view different contexts of animation:
 
-:doc:`DopeSheet </editors/dope_sheet/dope_sheet>`
+:doc:`DopeSheet </editors/dope_sheet/introduction>`
    The dopeSheet allow you to edit multiple actions at once.
 :doc:`Action Editor </editors/dope_sheet/action>`
    *Action Editor* is the default, and most useful one. It's here you can define and control your actions.
 :doc:`Shape Key Editor </editors/dope_sheet/shapekey>`
-   *ShapeKey Editor* is dedicated to the *Shape* Ipo data-blocks.
+   *ShapeKey Editor* is dedicated to the *Shapekey* data-blocks.
    It uses/edits the same action data-block as the previous mode.
    It seems to be an old and useless thing,
    as the *Action Editor* mode handles *Shape* channels very well, and this mode adds nothing...
 :doc:`Grease Pencil </interface/grease_pencil/index>`
-   *Grease Pencil* is dedicated to the
-   :doc:`grease pencil tool's </interface/grease_pencil/layers_and_animation>` keyframes -
-   for each grease pencil layer, you have a strip along which you can grab its keys,
+   *Grease Pencil* is dedicated to the :doc:`grease pencil tool's </interface/grease_pencil/layers_and_animation>`
+   keyframes- for each grease pencil layer, you have a strip along which you can grab its keys,
    and hence easily re-time your animated sketches.
    As it is just another way to see and edit the grease pencil data,
    this mode uses no data-block (and hence has nothing to do with actions...).
@@ -110,7 +108,7 @@ View Menu
 
 .. figure:: /images/actionEditor-sliders.jpg
 
-   the action editor showing sliders
+   the action editor showing sliders.
 
 
 Realtime Updates

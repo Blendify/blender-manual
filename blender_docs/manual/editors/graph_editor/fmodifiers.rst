@@ -18,7 +18,7 @@ Click on the *Add Modifier* button and select a modifier.
 To add spin to an object or group, select the object/group and add a keyframe to
 the axis of rotation (x,y, or z)
 
-To add a modifier, go to :menuselction:`Properties --> Add Modifier`.
+To add a modifier, go to :menuselection:`Properties --> Add Modifier`.
 
 
 Types of Modifiers
