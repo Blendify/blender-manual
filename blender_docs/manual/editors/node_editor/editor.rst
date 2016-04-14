@@ -50,8 +50,7 @@ On the window header, you will see header options:
 View
    This menu changes your view of the window.
 Select
-   This menu allows you to select a node or groups of nodes,
-   and does the same as typing the hotkey to select all :kbd:`A` or start the border select :kbd:`B` process.
+   This menu allows you to select a node or groups of nodes.
 Add
    This menu allows you to add nodes.
 Node

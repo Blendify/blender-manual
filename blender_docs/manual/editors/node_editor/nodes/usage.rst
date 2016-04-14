@@ -8,8 +8,8 @@ Adding Nodes
 
 Nodes are added in two ways to the node editor:
 
- - By using the toolshelf which has buttons for adding nodes, organized with tabs, or
- - By using the :menuselection:`Add` menu (:kbd:`Shift-A`, or using the node editor header)
+- By using the toolshelf which has buttons for adding nodes, organized with tabs.
+- By using the :menuselection:`Add` menu (:kbd:`Shift-A`).
 
 
 Arranging Nodes
@@ -18,6 +18,8 @@ Arranging Nodes
 In general, try to arrange your nodes within the window such that the image flows from left to right, top to bottom.
 Move a node by clicking on a benign area and drag it around. A node can be clicked almost anywhere to start dragging.
 
+
+.. _auto-offset:
 
 Auto-offset
 -----------

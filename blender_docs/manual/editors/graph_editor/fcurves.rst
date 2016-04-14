@@ -215,6 +215,7 @@ hence:
 
           After moving the second keyframe
 
+
 Editing Tools
 =============
 
@@ -233,6 +234,7 @@ And of course you can lock the transformation along the X (time frame) or Y
 
 For precise control of the keyframe position and value,
 you can set values in the *Active Keyframe* of the Properties Region.
+
 
 Transform Snapping
 ------------------
@@ -274,7 +276,8 @@ Snap Keys :kbd:`Shift-S`
 
           After Flatten Handles.
 
-Mirror
+M
+irror
 ------
 
 Selected keyframes can be mirrored over different properties using the *Mirror Keys*
