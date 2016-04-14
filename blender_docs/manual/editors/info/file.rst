@@ -1,9 +1,7 @@
 
-************
-Introduction
-************
-
-..    Comment: <!--[[File:File_operations_1.jpg|thumb|right|250px|File Operations]]--> .
+****
+File
+****
 
 The options to manage files are:
 

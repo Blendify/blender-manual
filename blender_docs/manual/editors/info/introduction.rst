@@ -1,4 +1,4 @@
-..    TODO/Review: {{review}} .
+..    TODO/Review: {{review}}.
 
 ***********
 Info Editor
@@ -6,7 +6,7 @@ Info Editor
 
 .. figure:: /images/interface_window-system_info-window-shaded.jpg
 
-   Info Window
+   Info Editor.
 
 
 The Info Editor is found at the top of the Default Scene and has the following components:
@@ -35,5 +35,3 @@ Resource Information
    This region will tell you how much memory is being consumed based on the number of vertices,
    faces and objects in the selected scene, as well as totals of what resources are currently selected.
    This can help identify when you are reaching the limits of your hardware.
-
-
