@@ -1,6 +1,4 @@
-
 ..    TODO/Review: {{review|im=examples}} .
-
 
 *****************
 F-Curve Modifiers
@@ -20,10 +18,7 @@ Click on the *Add Modifier* button and select a modifier.
 To add spin to an object or group, select the object/group and add a keyframe to
 the axis of rotation (x,y, or z)
 
-Go to the Graph Editor.....make sure the f-curves properties panel is visible
-(View > Properties)
-
->Add Modifier > (e.g.) Generator
+To add a modifier, go to :menuselction:`Properties --> Add Modifier`.
 
 
 Types of Modifiers
@@ -167,4 +162,3 @@ Use Start Frame
    Restrict modifier to only act before its 'end' frame
 Use End Frame
    Restrict modifier to only act after its 'start' frame
-
