@@ -57,12 +57,7 @@ Add
 Node
    To do things with selected nodes, akin to vertices.
 Material, Compositing or Texture buttons
-   Nodes are grouped into two categories, based on what they operate on:
-
-- To work with Material Nodes, click on the ball,
-- To work with Compositing nodes, click on the overlaped pictures,
-- To work with Texture nodes, click on the checker.
-
+   Nodes are grouped into three categories, to see the list see :ref:`Node Tree Types <node-tree-types>`.
 Use Nodes
    Tells the render engine to use the node map in computing the material color or rendering the final image,
    or not. If not, the map is ignored and the basic render of the material tabs or scene is accomplished. 
@@ -75,18 +70,18 @@ Snap
 Snap Node Element Selector
    This selector provide the follow node elements for snap:
 
-- Grid (default) Snap to grid of the Node Editor window. 
-- Node X Snap to left/right node border. 
-- Node Y Snap to top/bottom node border. 
-- Node X/Y Snap to any node border. 
+   :Grid: (default) Snap to grid of the Node Editor window. 
+   :Node X: Snap to left/right node border. 
+   :Node Y: Snap to top/bottom node border. 
+   :Node X/Y: Snap to any node border. 
 
 Snap Target
    Which part to snap onto the target.
 
-- Closest: Snap closest point onto target. 
-- Center: Snap center onto target. 
-- Median: Snap median onto target. 
-- Active: Snap active onto target.
+   :Closest: Snap closest point onto target. 
+   :Center: Snap center onto target. 
+   :Median: Snap median onto target. 
+   :Active: Snap active onto target.
 
 Copy Nodes
    This button allows you copy selected nodes to the clipboard.
