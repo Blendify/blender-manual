@@ -3,38 +3,14 @@
 Editor
 ******
 
-By default, the header, when first displayed, is uninitialized as shown:
+By default, the node editor is configured for :doc:`Compositing </compositing/index>`.
 
 .. figure:: /images/editors_node_header1.png
 
    Default Node Editor Header.
 
-
-Activating Nodes
-================
-
-What nodes to use?
-       
-- If you want to work with a material node map, click the ball in the Material/Compositing node set selector.
-
-.. figure:: /images/editors_node_header1.png
-
-   Node Editor for Materials.
-
-- If you want to work with a compositing node map,
-  click the overlaped pictures on the Material/Compositing node set selector.
-
-.. figure:: /images/compositing_header.png
-
-   Node Editor for Compositing.
-
-- If you want to work with a texture node map, click the checker on the Material/Compositing node set selector.
-
-.. figure:: /images/editors_node_header2.png
-
-   Node Editor for Texturing.
-
-To actually activate nodes, click the Use Nodes button.
+However, the Node Editor can be configured for many other types of :ref:`work flows <node-tree-types>`.
+After choosing what node context you are you using you you can enable node with the *Use Nodes* button.
 
 
 Node Editor Window Actions
@@ -66,6 +42,10 @@ Node Editor Header
 ==================
 
 On the window header, you will see header options:
+
+.. figure:: /images/editors_node_header.png
+
+   Common Node Header Options.
 
 View
    This menu changes your view of the window.
