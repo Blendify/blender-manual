@@ -20,8 +20,7 @@ Each mode is designed to edit an aspect of the selected object. See the *Blender
 You set the current mode in the *Mode* drop-down list of *3D View* header
 (see *Mode selection example (mesh object)*).
 
-
- .. warning::
+.. warning::
 
    You can only select objects in *Object* mode. In all others,the current object selection is "locked"
    (except, to some extent, with an armature's *Pose* mode).
@@ -32,9 +31,8 @@ Modes might affect many things in Blender:
 - They can modify the behavior of whole windows, like e.g.
   the *UV/Image Editor* window (and obviously, *3D View* s!).
 - They can modify the available header tools (menus and/or menu entries, as well as other controls...).
-  For example, in the *3D View* window,
-  the *Object* menu in *Object* mode changes to a *Mesh* menu in *Edit* mode (with an active mesh object!),
-  and a *Paint* menu in *Vertex Paint* mode...
+  For example, in the *3D View* window, the *Object* menu in *Object* mode changes to a *Mesh* menu in
+  *Edit* mode (with an active mesh object!), and a *Paint* menu in *Vertex Paint* mode...
 
 .. list-table::
    Blender's Modes
@@ -102,14 +100,12 @@ Notes about modes shortcuts:
    However, the same shortcut has other, internal meanings in some modes
    (e.g. in *Sculpt* mode, it is used to select the current brush)...
 
-As you can see, using shortcuts to switch between modes can become quite tricky,
-especially with meshes...
+As you can see, using shortcuts to switch between modes can become quite tricky, especially with meshes...
 
 We won't detail further more modes' usages here.
 Most of them are tackled in the :doc:`modeling chapter </modeling/index>`, as they are mainly related to this topic.
 The *Particle* mode is discussed in the :doc:`particle section </physics/particles/mode>`,
 and the *Pose* and *Edit* modes for armatures, in the :doc:`rigging one </rigging/index>`.
-
 
 .. note::
 
