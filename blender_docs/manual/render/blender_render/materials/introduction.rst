@@ -112,13 +112,13 @@ There are several ways in which materials can be set up in Blender. Generally sp
 are not compatible - you must choose which method you are going to use for each particular
 object in your scene.
 
-   First, you can set the :doc:`Properties </render/blender_render/materials/properties/introduction>`
+#. First, you can set the :doc:`Properties </render/blender_render/materials/properties/introduction>`
    in the various Material panels.
 
-   Second, you can use :doc:`Nodes </render/blender_render/materials/nodes/index>`;
+#. Second, you can use :doc:`Nodes </render/blender_render/materials/nodes/index>`;
    a graphical nodes editor is available.
 
-   Last, you can directly set the color of object surfaces using various special effects. Strictly speaking,
+#. Last, you can directly set the color of object surfaces using various special effects. Strictly speaking,
    these are not materials at all, but they are included here because they affect the appearance of your objects.
    These include :ref:`Vertex Painting <painting_vertex-index>`,
    :doc:`Wire Rendering </render/blender_render/materials/special_effects/wire>`,
@@ -133,5 +133,3 @@ and even then the appearance of objects can be quite different. Also,
 the material properties settings can be affected by the texture method used (Single Texture,
 Multitexture or GLSL). So it is recommended to always select the appropriate system settings
 before starting the design of materials.
-
-
