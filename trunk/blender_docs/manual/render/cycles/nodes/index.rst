@@ -7,8 +7,4 @@
    :maxdepth: 2
 
    introduction.rst
-   input.rst
-   output.rst
-   shaders.rst
-   textures.rst
-   more.rst
+   types/index.rst
