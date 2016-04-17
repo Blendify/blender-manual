@@ -4,24 +4,6 @@
 More Nodes
 **********
 
-Value
-=====
-
-Input a scalar value.
-
-Value
-   Value output.
-
-
-RGB
-===
-
-Input an RGB color.
-
-Color
-   RGB color output.
-
-
 Geometry
 ========
 
@@ -80,31 +62,6 @@ Color
    RGB color output.
 
 
-Texture Coordinates
-===================
-
-Commonly used texture coordinates,
-typically used as inputs for the *Vector* input for texture nodes.
-
-Generated
-   Automatically-generated texture coordinates from the vertex positions of the mesh without deformation,
-   keeping them sticking to the surface under animation. Range from 0.0 to 1.
-   0 over the bounding box of the undeformed mesh.
-Normal
-   Object space normal, for texturing objects with the texture staying fixed on the object as it transformed.
-UV
-   UV texture coordinates from the active render UV layer.
-Object
-   Position coordinate in object space.
-Camera
-   Position coordinate in camera space.
-Window
-   Location of shading point on the screen, ranging from 0.0 to 1.
-   0 from the left to right side and bottom to top of the render.
-Reflection
-   Vector in the direction of a sharp reflection, typically used for environment maps.
-
-
 Bump
 ====
 
@@ -140,18 +97,6 @@ Vector Output
    The transformed output vector.
 
 
-Tangent
-=======
-
-Generate a tangent direction for the Anisotropic BSDF.
-
-Direction Type
-   The tangent direction can be derived from a cylindrical projection around the X, Y or Z axis (Radial),
-   or from a manually created UV Map for full control.
-Tangent Output
-   The tangent direction vector.
-
-
 Normal Map
 ==========
 
@@ -175,52 +120,6 @@ Color Input
    RGB color that encodes the normal in the specified space.
 Normal Output
    Normal that can be used as an input to BSDF nodes.
-
-
-Object Info
-===========
-
-Information about the object instance.
-This can be useful to give some variation to a single material assigned to multiple instances,
-either manually controlled through the object index, based on the object location,
-or randomized for each instance. For example a Noise texture can give random colors or a Color
-ramp can give a range of colors to be randomly picked from.
-
-Note that this node only works for material shading nodes;
-it does nothing for lamp and world shading nodes.
-
-Location
-   Location of the object in world space.
-Object Index
-   Object pass index, same as in the Object Index pass.transformed.
-Material Index
-   Material pass index, same as in the Material Index pass.
-Random
-   Random number between 0 and 1 unique to a single object instance.
-
-
-Particle Info
-=============
-
-For objects instanced from a particle system,
-this node give access to the data of the particle that spawned the instance.
-This node currently only supports parent particles,
-info from child particles is not available.
-
-Index
-   Index number of the particle (from 0 to number of particles).
-Age
-   Age of the particle in frames.
-Lifetime
-   Total lifespan of the particle in frames.
-Location
-   Location of the particle.
-Size
-   Size of the particle.
-Velocity
-   Velocity of the particle.
-Angular Velocity
-   Angular velocity of the particle.
 
 
 Attribute

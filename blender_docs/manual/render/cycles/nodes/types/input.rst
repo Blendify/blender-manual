@@ -106,6 +106,7 @@ Pointiness
    An approximation of the curvature of the mesh per-vertex.
    Lighter values indicate convex angles, darker values indicate concave angles.
 
+
 Light Path
 ==========
 
@@ -161,6 +162,12 @@ Random
    Random number unique to a single object instance.
 
 
+.. note::
+
+   Note that this node only works for material shading nodes;
+   it does nothing for lamp and world shading nodes.
+
+
 Fresnel
 =======
 
@@ -199,22 +206,22 @@ Texture Coordinate
 Commonly used texture coordinates,
 typically used as inputs for the *Vector* input for texture nodes.
 
-Generated output
+Generated
    Automatically-generated texture coordinates from the vertex positions of the mesh without deformation,
    keeping them sticking to the surface under animation. Range from 0.0 to 1.
    0 over the bounding box of the undeformed mesh.
-Normal output
+Normal
    Object space normal, for texturing objects with the texture staying fixed on the object as it transformed.
-UV output
+UV
    UV texture coordinates from the active render UV map.
-Object output
+Object
    Position coordinate in object space.
-Camera output
+Camera
    Position coordinate in camera space.
-Window output
+Window
    Location of shading point on the screen, ranging from 0.0 to 1.
    0 from the left to right side and bottom to top of the render.
-Reflection output
+Reflection
    Vector in the direction of a sharp reflection, typically used for environment maps.
 
 Object
@@ -263,6 +270,8 @@ Particle Info
 
 For objects instanced from a particle system,
 this node give access to the data of the particle that spawned the instance.
+This node currently only supports parent particles,
+info from child particles is not available.
 
 Index
    Index number of the particle (from 0 to number of particles).
