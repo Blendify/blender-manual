@@ -67,22 +67,14 @@ When SyncSelection is **Off** :
 Only selected faces are displayed in the UV editor,
 and the following selection modes are available:
 
-
-- *Vertex*
-
-      Select individual vertices
-
-- *Edge*
-
-      Select edges
-
-- *Face*
-
-      Select faces
-
-- *Island*
-
-      Select contiguous groups of Faces
+Vertex
+   Select individual vertices
+Edge
+   Select edges
+Face
+   Select faces
+Island
+   Select contiguous groups of Faces
 
    The *Sticky Selection Mode* menu is available in this mode. This controls how UVs are selected:
 
@@ -101,9 +93,9 @@ When *Sync Selection* is **On** the following can be selected:
 - *Edge*
 - *Face*
 
-   In this Mode, selection behaves differently.
-   When selecting UVs or Edges, it behave like *Shared Vertex* mode above.
-   When selecting Faces, it behaves as in *Disabled Stick Selection* above.
+In this Mode, selection behaves differently.
+When selecting UVs or Edges, it behave like *Shared Vertex* mode above.
+When selecting Faces, it behaves as in *Disabled Stick Selection* above.
 
 
 Transforming UVs
