@@ -34,7 +34,8 @@ In the list below it shows a list of different types of node trees and where eac
    * - .. figure:: /images/icons_texture.png
           :width: 35px
      - Texture Nodes
-     - Texture Nodes are covered in the :doc:`Blender Internal </render/blender_render/textures/nodes/introduction>` docs.
+     - Texture Nodes are covered in the
+       :doc:`Blender Internal </render/blender_render/textures/nodes/introduction>` docs.
 
 
 Regions of the Node Editor

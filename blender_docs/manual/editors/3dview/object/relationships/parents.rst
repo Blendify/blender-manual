@@ -278,7 +278,8 @@ If a Bone is a Control Bone no Vertex Group will be created on the Child Object 
 
 To check whether a particular bone in an armature is a Deforming Bone simply switch to Pose or Edit Mode
 on the armature and select the bone you are interested in by :kbd:`RMB` it.
-Once the bone of interest is selected navigate to :menuselection:`Properties Editor --> <Bone Context> --> Deform Panel`
+Once the bone of interest is selected navigate to
+:menuselection:`Properties Editor --> <Bone Context> --> Deform Panel`
 and check if the Deform tickable option is ticked or not. If it is the selected bone is a Deforming Bone,
 otherwise, it is a Control Bone. (See figure 22).
 
@@ -401,7 +402,8 @@ and entering new values for the *Tail* and *Head* fields. (See figure 33).
 
 .. figure:: /images/TS-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform_With_Envelope_Weights.jpg
 
-   Figure 33 - :menuselection:`Properties Editor --> <Bone Context> --> Deform --> Radius Section` head and tail fields highlighted.
+   Figure 33 - :menuselection:`Properties Editor --> <Bone Context> --> Deform --> Radius Section`
+   head and tail fields highlighted.
 
 
 .. note::
