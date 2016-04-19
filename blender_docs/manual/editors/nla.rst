@@ -1,11 +1,8 @@
 
-..    TODO/Review: {{review
-   |text=
-   Needs clarification & updates.
+..    TODO/Review: {{review|text=Needs clarification & updates.
+   |fixes=[[User:Rking/Doc:2.6/Manual/Animation/Editors/NLA|X]]}}.
 
-   |fixes=[[User:Rking/Doc:2.6/Manual/Animation/Editors/NLA|X]]
-   }} .
-
+.. |snowflake-button| image:: /images/icons_snowflake.jpg
 
 ***************************
 Non-Linear Animation Editor
@@ -21,9 +18,8 @@ Tracks
 ======
 
 Tracks are the layering system of the NLA. At its most basic level,
-it can help organize strips. But it also
-layers motion much like an image editor layers pixels - the bottom layer first, to the top,
-last.
+it can help organize strips. But it also layers motion much like an image editor layers pixels -
+the bottom layer first, to the top, last.
 
 
 .. figure:: /images/NLA_track.jpg
@@ -41,17 +37,9 @@ and Meta will group strips together as a whole.
 Creating Action Strips
 ----------------------
 
-Any action used by the NLA first must be turned into an Action strip. This is done so by clicking the
-
-.. figure:: /images/icons_snowflake.jpg
-
-
- next to the action listed in the NLA. Alternatively, you can go to
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Menu:     Add --> Action
+Any action used by the NLA first must be turned into an Action strip.
+This is done so by clicking the |snowflake-button|
+next to the action listed in the NLA. Alternatively, you can go to :menuselection:`Add --> Action`.
 
 
 .. figure:: /images/NLA_Action_Strip.jpg
@@ -271,4 +259,3 @@ Obviously there will be more to come on this.
 
 
 .. figure:: /images/modifier.jpg
-
