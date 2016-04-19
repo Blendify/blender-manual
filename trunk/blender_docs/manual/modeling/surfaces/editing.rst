@@ -342,7 +342,9 @@ else Blender will try to do its best to guess what to merge with what, or the me
 (either silently, or stating that ``Resolution doesn't match`` if rows with
 different number of points are selected, or that there is ``Too few selections to merge``
 if you only selected points in one surface...).
-To select control points of different surfaces,in the same object, you must use either border select or circle select. Holding down Ctrl while LMB will not work.
+To select control points of different surfaces,
+in the same object, you must use either border select or circle select.
+Holding down Ctrl while LMB will not work.
 
 So to avoid problems, you should always only select border rows with the same number of
 points... Note that you can join a border U-row of one surface with a border V-row of another

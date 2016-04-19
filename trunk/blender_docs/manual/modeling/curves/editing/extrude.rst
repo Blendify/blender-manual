@@ -11,7 +11,8 @@ Curve Extrusion
 
 
 Extrude
-   Turns a one dimensional curve into a two dimensional curve by giving it height. Note that this isn't related to *Extrude* used in mesh edit-mode. 
+   Turns a one dimensional curve into a two dimensional curve by giving it height.
+   Note that this isn't related to *Extrude* used in mesh edit-mode. 
    With a scale of one,
    an *Extrusion* of **.5** will extrude the curve 0.5 BU in both directions, perpendicular to the curves normals. 
 
@@ -30,13 +31,16 @@ Extrude
           Extruded by 0.5.
 
 Tilt
-   This setting controls how the normals(AKA the arrows) twist around each control point - so it is only relevant with 3D curves!
-   You set it using the *Tilt* transform tool In the (:kbd:`T`) toolbar,  the (:kbd:`N`) panel --> transform --> Mean tilt, or :menuselection:`Curve --> Transform --> Tilt`).
+   This setting controls how the normals (AKA the arrows)
+   twist around each control point - so it is only relevant with 3D curves!
+   You set it using the *Tilt* transform tool In the (:kbd:`T`) toolbar,
+   the (:kbd:`N`) panel --> transform --> Mean tilt, or :menuselection:`Curve --> Transform --> Tilt`).
 
    You can also reset it to its default value (i.e. perpendicular to the original curve plane)
    with :kbd:`Alt-T` (or :menuselection:`Curve --> Control Points --> Clear Tilt`).
    With NURBS, the tilt is always smoothly interpolated.
-   However, with Bézier, you can choose the interpolation algorithm between Linear, Ease, BSpline, and Cardinal, in the Properties Editor --> Object Data --> Active Spline --> Tilt
+   However, with Bézier, you can choose the interpolation algorithm between
+   Linear, Ease, BSpline, and Cardinal, in the Properties Editor --> Object Data --> Active Spline --> Tilt.
 
    .. figure:: /images/Curves_Extrude_by0.5_30meantilt.jpg
 
@@ -70,7 +74,9 @@ Offset
 
 Radius
    The Radius allows you to directly control the width of the extrusion along the “spinal” curve.
-   The *Radius* of the points is set using the *Shrink/Fatten Radius* transform tool :kbd:`Alt-S`,the :menuselection:`Curve --> Transform --> Shrink/Fatten Radius`, or the (:kbd:`N`) panel --> transform --> Radius
+   The *Radius* of the points is set using the *Shrink/Fatten Radius* transform tool :kbd:`Alt-S`,
+   the :menuselection:`Curve --> Transform --> Shrink/Fatten Radius`,
+   or the (:kbd:`N`) panel --> transform --> Radius
 
    .. figure:: /images/Curves_Extrude_radius.jpg
 
@@ -90,7 +96,8 @@ Open 2D Curve
 
    .. figure:: /images/Curves_Extrude_open2D_fill_none.jpg
 
-      Open 2D Curve with :kbd:`Alt-C`, fill set to none, zero offset, 0.5 extrusion, 0.25 Bevel Depth, 10 Bevel resolution
+      Open 2D Curve with :kbd:`Alt-C`,
+      fill set to none, zero offset, 0.5 extrusion, 0.25 Bevel Depth, 10 Bevel resolution
 
 Closed 2D Curve
    This is probably the most useful situation, as it will quickly create a volume, with (by default)
