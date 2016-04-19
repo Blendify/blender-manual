@@ -1,4 +1,3 @@
-.. _osl:
 
 *********************
 Open Shading Language
@@ -88,7 +87,7 @@ ensure all shaders can be importance sampled.
 
 The available closures in Cycles correspond to the shader nodes and their sockets;
 for more details on what they do and the meaning of the parameters,
-see the :doc:`shader nodes manual </render/cycles/nodes/types/shaders>`.
+see the :doc:`shader nodes manual </render/cycles/nodes/types/shaders/index>`.
 
 
 BSDF

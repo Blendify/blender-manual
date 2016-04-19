@@ -6,8 +6,11 @@
 .. toctree::
    :maxdepth: 1
 
-   input.rst
+   input/index.rst
    output.rst
-   shaders.rst
-   textures.rst
-   more.rst
+   shaders/index.rst
+   textures/index.rst
+   color/index.rst
+   vector/index.rst
+   converter/index.rst
+   script.rst
