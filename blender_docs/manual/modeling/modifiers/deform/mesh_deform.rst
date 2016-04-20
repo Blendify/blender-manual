@@ -10,7 +10,7 @@ to act as a deformation cage around another mesh.
 Options
 =======
 
-.. figure:: /images/modifier-meshdeform.jpg
+.. figure:: /images/modifier-meshdeform.png
 
    Mesh Deform Modifier.
 
@@ -20,12 +20,34 @@ the calculations needed to properly map the deform mesh cage to the deformed obj
 
 Object
    The name of the mesh object to be used as a deforming mesh cage.
+
 Vertex Group
-   An optional vertex group that will be affected by the deforming mesh cage.
+   An optional vertex group of the object's mesh to restrict the vertices that 
+   will be affected by this modifier.
    Vertices not in this group will not be deformed.
-Invert
-   Inverts the influence of the vertex group defined in the previous setting
-   (reverses the weight values of this group).
+
+Invert <->
+   Inverts the influence of the selected vertex group, meaning that the group 
+   now represents vertices that will not be deformed by the modifier.
+
+   (The setting reverses the weight values of the group).
+
+Precision
+   The *Precision* numeric slider field controls the accuracy with which the 
+   deform mesh cage alters the deformed object, when the points on the cage are moved.
+   Raising this value higher can greatly increase the time it takes the *Mesh Deform*
+   modifier to complete its binding calculations,
+   but it will get more accurate cage mapping to the deformed object.
+
+   This setting becomes unavailable once a cage has been bound.
+
+Dynamic
+   When activated, other mesh altering features (such as other modifiers and shape keys)
+   are taken into account when binding, increasing deformation quality.
+
+   The setting is deactivated by default to save memory and processing time when binding.
+   Like with *Precision*, this setting is unavailable once a cage has been bound.
+
 Bind
    Links the current vertex positions of both the modified geometry and the deformer *Object* chosen together.
    An unbound Mesh Deform modifier has no effect -
@@ -52,22 +74,6 @@ Unbind
 
    The deformed object will, however,reset back to its original shape that it had
    before it was bound to the deform mesh cage.
-
-Precision
-   The *Precision* numeric slider field controls the accuracy with which the deform mesh cage alters the
-   deformed object, when the points on the cage are moved.
-   Raising this value higher can greatly increase the time it takes the *Mesh Deform*
-   modifier to complete its binding calculations,
-   but it will get more accurate cage mapping to the deformed object.
-
-   This setting becomes unavailable once a cage has been bound.
-
-Dynamic
-   When activated, other mesh altering features (such as other modifiers and shape keys)
-   are taken into account when binding, increasing deformation quality.
-
-   It is deactivated by default to save memory and processing time when binding...
-   Like with *Precision*, this setting is unavailable once a cage has been bound.
 
 .. warning::
 
