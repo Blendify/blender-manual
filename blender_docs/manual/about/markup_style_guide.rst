@@ -286,7 +286,7 @@ Further Reading
 
 To learn more about reStructuredText, see:
 
-`Sphinx RST Primer <https://sphinx-doc.org/rest.html>`__
+`Sphinx RST Primer <http://www.sphinx-doc.org/en/stable/rest.html>`__
    Good basic introduction.
-`Docutils reStructuredText reference <https://docutils.sourceforge.net/rst.html>`__
+`Docutils reStructuredText reference <http://docutils.sourceforge.net/rst.html>`__
    Links to reference and user documentation.
