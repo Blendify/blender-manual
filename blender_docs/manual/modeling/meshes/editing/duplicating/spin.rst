@@ -1,6 +1,4 @@
-
-..    TODO/Review: {{review|text=reorganize, elaborate}} .
-
+..    TODO/Review: {{review|text=reorganize, elaborate}}.
 
 ****
 Spin
@@ -38,7 +36,7 @@ Axis
 
 
 Example
-*******
+=======
 
 .. figure:: /images/Spin1.jpg
    :width: 300px
@@ -77,31 +75,33 @@ the spin will happen immediately. (*Spun profile*) shows the result of a success
 Angle
 =====
 
-.. figure:: /images/Spin3.jpg
-   :width: 300px
+.. list-table::
 
-   Spun profile using an angle of 360
+   * - .. figure:: /images/spin3.jpg
+          :width: 300px
 
+          Spun profile using an angle of 360.
 
-.. figure:: /images/Spin4.jpg
-   :width: 300px
+     - .. figure:: /images/spin4.jpg
+          :width: 300px
 
-   Spun profile using an angle of 120
+          Spun profile using an angle of 120.
 
 
 Dupli
 =====
 
-.. figure:: /images/Spin6.jpg
-   :width: 300px
+.. list-table::
 
-   Result of spin operation
+   * - .. figure:: /images/spin6.jpg
+          :width: 300px
 
+          Result of spin operation.
 
-.. figure:: /images/Spin7.jpg
-   :width: 300px
+     - .. figure:: /images/spin7.jpg
+          :width: 300px
 
-   Result of Dupli enabled
+          Result of Dupli enabled.
 
 
 Merge Duplicates
@@ -128,15 +128,14 @@ too many vertices will have been merged.
 
 .. note:: Merging two vertices in one
 
-   To merge (weld) two vertices together, select both of them by :kbd:`Shift-RMB` clicking on them.
-   Press :kbd:`S` to start scaling and hold down :kbd:`Ctrl` while scaling to scale the points down to 0 units in the
-   X, Y and Z axis. :kbd:`LMB` to complete the scaling operation and click the *Remove Doubles* button in
-   the *Buttons* window, *Editing* context
-   (also available with :menuselection:`[W] --> Remove Doubles`).
+   To merge (weld) two vertices together, select both of them by :kbd:`Shift-RMB`
+   clicking on them. Press :kbd:`S` to start scaling and hold down :kbd:`Ctrl`
+   while scaling to scale the points down to 0 units in the X, Y and Z axis. :kbd:`LMB`
+   to complete the scaling operation and click the *Remove Doubles* button in
+   the *Buttons* window, *Editing* context (also available with :menuselection:`[W] --> Remove Doubles`).
 
 
-   Alternatively,
-   you can use :menuselection:`[W] --> Merge` from the same *Specials* menu
+   Alternatively, you can use :menuselection:`[W] --> Merge` from the same *Specials* menu
    (or :kbd:`Alt-M`). Then, in the new pop-up menu, choose whether the merged vertex will
    be at the center of the selected vertices or at the 3D cursor.
    The first choice is better in our case!
@@ -146,7 +145,4 @@ Recalculate Normals
 ===================
 
 All that remains now is to recalculate the normals to the outside by selecting all vertices,
-pressing :kbd:`Ctrl-N` and validating *Recalc Normals Outside* in the pop-up
-menu.
-
-
+pressing :kbd:`Ctrl-N` and validating *Recalc Normals Outside* in the pop-up menu.

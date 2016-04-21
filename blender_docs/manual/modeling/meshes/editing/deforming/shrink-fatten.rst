@@ -17,22 +17,19 @@ This tool translates selected vertices/edges/faces along their own normal
 
 This transform tool does not take into account the pivot point or transform orientation.
 
+.. list-table::
 
-.. figure:: /images/ShrinkFlatten1.jpg
-   :width: 200px
+   * - .. figure:: /images/ShrinkFlatten1.jpg
+          :width: 200px
 
-   mesh before shrink/flatten
+          Mesh before shrink/flatten.
 
+     - .. figure:: /images/ShrinkFlatten2.jpg
+          :width: 200px
 
-.. figure:: /images/ShrinkFlatten2.jpg
-   :width: 200px
+          Inflated using a positive value.
 
-   Inflated using a positive value
+     - .. figure:: /images/ShrinkFlatten3.jpg
+          :width: 200px
 
-
-.. figure:: /images/ShrinkFlatten3.jpg
-   :width: 200px
-
-   Shrunk using a negative value
-
-
+          Shrunk using a negative value.

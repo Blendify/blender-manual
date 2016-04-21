@@ -1,9 +1,8 @@
+..    TODO/Review: {{review|}}.
 
-..    TODO/Review: {{review|}} .
-
-*****
-Edges
-*****
+**********
+Edge Tools
+**********
 
 Make Edge/Face
 ==============
@@ -24,8 +23,7 @@ See also :doc:`/modeling/meshes/editing/basics/creating_faces_and_edges`.
 Set Edge Attributes
 ===================
 
-Edges can have several different attributes that affect how certain other tools affect the
-mesh.
+Edges can have several different attributes that affect how certain other tools affect the mesh.
 
 
 Mark Seam and Clear Seam
@@ -117,7 +115,6 @@ of edges *(i.e. the selection must define a valid loop, see below.)*
 :kbd:`RMB` or :kbd:`Esc`
    Cancels.
 
-
 Even :kbd:`E`
    Forces the edge loop to match the shape of the adjacent edge loop.
    You can flip to the opposite vertex using :kbd:`F`. Use :kbd:`Alt-Wheel` to change the control edge.
@@ -126,14 +123,11 @@ Flip :kbd:`F`
 :kbd:`Alt` or :kbd:`C`
    Toggle clamping the slide within the edge extents.
 
+This tool has a factor, which is displayed in the 3D View footer and in the *Tool Shelf*
+(after confirmation). A numerical value between ``-1`` and ``1`` can be entered for precision.
 
-This tool has a factor,
-which is displayed in the 3D View footer and in the *Tool Shelf*
-(after confirmation).
-A numerical value between ``-1`` and ``1`` can be entered for precision.
-
-In *Proportional* mode, :kbd:`Wheel`,
-or :kbd:`Left` and :kbd:`Right` changes the selected edge for calculating a proportion.
+In *Proportional* mode, :kbd:`Wheel`, or :kbd:`Left` and :kbd:`Right`
+changes the selected edge for calculating a proportion.
 Unlike *Percentage* mode, *Proportional*
 
 Holding :kbd:`Ctrl` or :kbd:`Shift` control the precision of the sliding.
@@ -152,12 +146,12 @@ between their original position and the adjacent edge loop, regardless of the ed
    * - .. figure:: /images/EdgeSlide1.jpg
           :width: 300px
 
-          Selected Edge Loop
+          Selected Edge Loop.
 
      - .. figure:: /images/EdgeSlide2.jpg
           :width: 300px
 
-          Repositioned Edge Loop
+          Repositioned Edge Loop.
 
 
 Even mode
@@ -179,12 +173,12 @@ use the :kbd:`Alt-Wheel` to scroll to a different edge.
    * - .. figure:: /images/EdgeSlide3.jpg
           :width: 300px
 
-          Even Mode Enabled
+          Even Mode Enabled.
 
      - .. figure:: /images/EdgeSlide4.jpg
           :width: 300px
 
-          Even Mode with Flip Enabled
+          Even Mode with Flip Enabled.
 
 
 Moving the mouse moves the selected edge loop towards or away from the start vertex,
@@ -239,12 +233,12 @@ or on two selected vertices or two selected faces that implicitly share an edge 
    * - .. figure:: /images/EdgeFlip1.jpg
           :width: 300px
 
-          Selected Edge
+          Selected Edge.
 
      - .. figure:: /images/EdgeFlip2.jpg
           :width: 300px
 
-          Edge, rotated CW
+          Edge, rotated CW.
 
 
 Using Face Selection
@@ -271,7 +265,6 @@ Delete Edge Loop
 *Delete Edge Loop* allows you to delete a selected edge loop if it is between two other edge loops.
 This will create one face-loop where two previously existed.
 
-
 .. note::
 
    The *Edge Loop* option is very different to the *Edges* option,
@@ -294,12 +287,12 @@ there would be an empty band of deleted faces all the way around the sphere inst
    * - .. figure:: /images/DeleteEdgeLoop1.jpg
           :width: 300px
 
-          Selected Edge Loop
+          Selected Edge Loop.
 
      - .. figure:: /images/DeleteEdgeLoop2.jpg
           :width: 300px
 
-          Edge Loop Deleted
+          Edge Loop Deleted.
 
 
 Collapse
@@ -322,12 +315,12 @@ removing the face loop it ran through.
    * - .. figure:: /images/Collapse1.jpg
           :width: 300px
 
-          Selected Edge Ring
+          Selected Edge Ring.
 
      - .. figure:: /images/Collapse2.jpg
           :width: 300px
 
-          Edge Ring Collapsed
+          Edge Ring Collapsed.
 
 
 Edge Split
@@ -349,12 +342,12 @@ a hole will be created, and the selected edges are duplicated to form the border
    * - .. figure:: /images/EdgeSplit1.jpg
           :width: 300px
 
-          Selected Edges
+          Selected Edges.
 
      - .. figure:: /images/EdgeSplit2.jpg
           :width: 300px
 
-          Adjacent face moved to reveal hole left by split
+          Adjacent face moved to reveal hole left by split.
 
 
 .. _modeling-meshes-editing-bridge_edge_loops:
@@ -378,12 +371,12 @@ Simple example showing 2 closed edge loops.
    * - .. figure:: /images/mesh_bridge_simple_before.jpg
           :width: 300px
 
-          Input
+          Input.
 
      - .. figure:: /images/mesh_bridge_simple_after.jpg
           :width: 300px
 
-          Bridge Result
+          Bridge Result.
 
 Example of bridge tool between edge loops with different numbers of vertices.
 
@@ -392,12 +385,12 @@ Example of bridge tool between edge loops with different numbers of vertices.
    * - .. figure:: /images/mesh_bridge_uneven_before.jpg
           :width: 300px
 
-          Input
+          Input.
 
      - .. figure:: /images/mesh_bridge_uneven_after.jpg
           :width: 300px
 
-          Bridge Result
+          Bridge Result.
 
 Example using the bridge tool to punch holes in face selections and connect them.
 
@@ -406,12 +399,12 @@ Example using the bridge tool to punch holes in face selections and connect them
    * - .. figure:: /images/mesh_bridge_faces_before.jpg
           :width: 300px
 
-          Input
+          Input.
 
      - .. figure:: /images/mesh_bridge_faces_after.jpg
           :width: 300px
 
-          Bridge Result
+          Bridge Result.
 
 Example showing how bridge tool can detect multiple loops and loft them in one step.
 
@@ -420,12 +413,12 @@ Example showing how bridge tool can detect multiple loops and loft them in one s
    * - .. figure:: /images/mesh_bridge_multi_before.jpg
           :width: 300px
 
-          Input
+          Input.
 
      - .. figure:: /images/mesh_bridge_multi_after.jpg
           :width: 300px
 
-          Bridge Result
+          Bridge Result.
 
 Example of the subdivision option and surface blending with UV's.
 
@@ -434,9 +427,9 @@ Example of the subdivision option and surface blending with UV's.
    * - .. figure:: /images/mesh_bridge_advanced_before.jpg
           :width: 300px
 
-          Input
+          Input.
 
      - .. figure:: /images/mesh_bridge_advanced_after.jpg
           :width: 300px
 
-          Bridge Result
+          Bridge Result.

@@ -1,5 +1,4 @@
-
-..    TODO/Review: {{review|}} .
+..    TODO/Review: {{review|}}.
 
 *******
 Extrude
@@ -35,17 +34,17 @@ once to disable the face normal Z axis limit, and once to enable the global Z ax
    * - .. figure:: /images/extrude-face-before.jpg
           :width: 200px
 
-          Selected face
+          Selected face.
 
      - .. figure:: /images/extrude-face-after.jpg
           :width: 200px
 
-          During extrude
+          During extrude.
 
      - .. figure:: /images/extrude-face-after-zAxiz.jpg
           :width: 200px
 
-          Set to Z axis
+          Set to Z axis.
 
 
 Although the process is quite intuitive,
@@ -92,17 +91,17 @@ This has several consequences: first, "internal" edges
    * - .. figure:: /images/extrude-face-multi.jpg
           :width: 200px
 
-          Selection of multiple faces
+          Selection of multiple faces.
 
      - .. figure:: /images/extrude-face-multi-region.jpg
           :width: 200px
 
-          Extruded using extrude region
+          Extruded using extrude region.
 
      - .. figure:: /images/extrude-face-multi-individual.jpg
           :width: 200px
 
-          Extruded using Extrude Individual
+          Extruded using Extrude Individual.
 
 
 Extrude Edges and Vertices Only
@@ -123,14 +122,14 @@ if edges are selected that do not form a face, they will extrude to form a face.
 .. list-table::
 
    * - .. figure:: /images/extrude-vert.jpg
-          :width: 250px
+          :width: 300px
 
-          Single vertex extruded
+          Single vertex extruded.
 
      - .. figure:: /images/extrude-edge.jpg
-          :width: 250px
+          :width: 300px
 
-          Single edge extruded
+          Single edge extruded.
 
 
 When a selection of vertices forms an edge or face,
@@ -143,21 +142,21 @@ To force a vertex or edge selection to extrude as a vertex or edge, respectively
 .. list-table::
 
    * - .. figure:: /images/extrude-verts-before.jpg
-          :width: 250px
+          :width: 300px
 
-          Vertex selected
+          Vertex selected.
 
      - .. figure:: /images/extrude-verts-after.jpg
-          :width: 250px
+          :width: 300px
 
-          Vertices Only extrude
+          Vertices Only extrude.
 
    * - .. figure:: /images/extrude-edges-before.jpg
-          :width: 250px
+          :width: 300px
    
-          Edge selected
+          Edge selected.
 
      - .. figure:: /images/extrude-edges-after.jpg
-          :width: 250px
+          :width: 300px
 
-          Edge Only extrude
+          Edge Only extrude.

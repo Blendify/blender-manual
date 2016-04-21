@@ -1,4 +1,5 @@
 
+******
 Mirror
 ******
 
@@ -42,9 +43,6 @@ To mirror a selection along a particular global axis press:
 The image *Mirroring a selection* shows the results of this action after a mesh
 element has been duplicated.
 
-
-----
-
 In Mesh mode, you can mirror the selection on the currently selected Transform Orientation by
 pressing the appropriate axis key a second time. For example,
 if the Transform Orientation is set to *Normal*, pressing:
@@ -62,9 +60,5 @@ will mirror the selection along the X-axis of the *Normal Orientation.*
 
    Interactive mirror.
 
-
-----
-
 You can alternatively hold the :kbd:`MMB` to interactively mirror the object by moving
 the mouse in the direction of the mirror axis.
-

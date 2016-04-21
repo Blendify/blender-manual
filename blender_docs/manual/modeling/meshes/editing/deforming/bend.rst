@@ -1,3 +1,4 @@
+
 ****
 Bend
 ****
@@ -11,7 +12,7 @@ Bend
 
 .. figure:: /images/modeling_meshes_editing_deforming_bend.jpg
 
-   Bend Transform with Clamp ON and OFF
+   Bend Transform with Clamp ON and OFF.
 
 This tool rotates a line of selected elements forming an arc between the mouse-cursor and the 3D-cursor.
 
@@ -53,4 +54,3 @@ Clamp
 .. hint::
 
    You can turn the bend angle through multiple rotations potentially forming a spiral shape.
-

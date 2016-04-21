@@ -1,8 +1,8 @@
 .. _modeling_meshes_editing_basics-index:
 
-############
+#########
   Basics
-############
+#########
 
 .. toctree::
    :maxdepth: 2

@@ -1,4 +1,5 @@
 
+*********
 Push/Pull
 *********
 
@@ -37,9 +38,6 @@ be further edited by pressing F6 or by going into the Toolshelf (:kbd:`T`) and a
 the Distance slider provided that no other actions take place between the
 *Push/Pull* transform confirmation and accessing the slider.
 
-
-----
-
 Note that the result of the *Push/Pull* transform is also dependant on the number
 and type of selected elements (Objects, vertices, faces etc).
 See below for the result of using *Push/Pull* on a number of different elements.
@@ -67,5 +65,3 @@ See below for the result of using *Push/Pull* on a number of different elements.
    :width: 640px
 
    Edges on separate meshes being pushed together, then pulled apart.
-
-

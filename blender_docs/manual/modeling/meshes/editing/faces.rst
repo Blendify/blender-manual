@@ -27,12 +27,12 @@ Also see :doc:`/modeling/meshes/editing/basics/creating_faces_and_edges`.
    * - .. figure:: /images/Fill1.jpg
           :width: 300px
 
-          A closed perimeter of edges
+          A closed perimeter of edges.
 
      - .. figure:: /images/Fill2.jpg
           :width: 300px
 
-          Filled using fill
+          Filled using fill.
 
 .. _modeling-meshes-editing-fill:
 
@@ -65,12 +65,12 @@ note, unlike creating n-gons, fill supports holes.
    * - .. figure:: /images/Fill1_holes.jpg
           :width: 300px
 
-          A closed perimeter of edges with holes
+          A closed perimeter of edges with holes.
 
      - .. figure:: /images/Fill2_holes.jpg
           :width: 300px
 
-          Filled using fill
+          Filled using fill.
 
 
 Beauty Fill
@@ -87,18 +87,17 @@ Beauty Fill
 *Beautify Fill* works only on selected existing faces.
 It rearrange selected triangles to obtain more "balanced" ones (i.e. less long thin triangles).
 
-
 .. list-table::
 
    * - .. figure:: /images/mesh_beauty_fill_before.jpg
           :width: 300px
 
-          Text converted to a mesh
+          Text converted to a mesh.
 
      - .. figure:: /images/mesh_beauty_fill_after.jpg
           :width: 300px
 
-          Result of Beauty Fill, :kbd:`Alt-Shift-F`
+          Result of Beauty Fill, :kbd:`Alt-Shift-F`.
 
 
 .. _modeling-meshes-editing-grid_fill:
@@ -120,12 +119,12 @@ Grid Fill
    * - .. figure:: /images/mesh_fill_grid_surface_before.jpg
           :width: 300px
 
-          Input
+          Input.
 
      - .. figure:: /images/mesh_fill_grid_surface_after.jpg
           :width: 300px
 
-          Grid Fill Result
+          Grid Fill Result.
 
 
 Convert Quads to Triangles
@@ -175,12 +174,12 @@ which means some triangles could remain.
    * - .. figure:: /images/Fill5.jpg
           :width: 300px
 
-          Before converting tris to quads
+          Before converting tris to quads.
 
      - .. figure:: /images/QuadToTris.jpg
           :width: 300px
 
-          After converting tris to quads
+          After converting tris to quads.
 
 All the menu entries and hotkey use the settings defined in the *Mesh Tools* panel:
 
@@ -232,17 +231,17 @@ Thickness
    * - .. figure:: /images/solidify-before.jpg
           :width: 200px
 
-          Mesh before solidify operation
+          Mesh before solidify operation.
 
      - .. figure:: /images/solidify-after.jpg
           :width: 200px
 
-          Solidify with a positive thickness
+          Solidify with a positive thickness.
 
      - .. figure:: /images/solidify-after2.jpg
           :width: 200px
 
-          Solidify with a negative thickness
+          Solidify with a negative thickness.
 
 
 Rotate Edges
@@ -264,15 +263,14 @@ It works on the shared edge between two faces and rotates that edge if the edge 
    * - .. figure:: /images/RotateEdgeFaceMode1.jpg
           :width: 300px
 
-          Two Faces Selected
+          Two Faces Selected.
 
      - .. figure:: /images/RotateEdgeFaceMode2.jpg
           :width: 300px
 
-          Full Render
+          Full Render.
 
-See :ref:`Rotate Edge <modeling-meshes-editing-edges_rotate>`
-for more information.
+See :ref:`Rotate Edge <modeling-meshes-editing-edges_rotate>` for more information.
 
 Normals
 -------

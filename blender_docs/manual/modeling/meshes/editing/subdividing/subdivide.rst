@@ -1,6 +1,4 @@
-
-..    TODO/Review: {{review|}} .
-
+..    TODO/Review: {{review|}}.
 
 *********
 Subdivide
@@ -308,5 +306,3 @@ Multicut
           :width: 250px
 
           Quad with two cuts
-
-

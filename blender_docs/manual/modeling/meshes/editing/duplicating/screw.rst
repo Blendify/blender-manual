@@ -21,15 +21,17 @@ with the option to offset the operation to give a screw effect.
 You can see some examples of Meshes generated with the *Screw* tool in Fig.
 1 - Wood Screw tip done with the screw tool and Fig. 2 - Spring done with the screw tool.
 
+.. list-table::
 
-.. figure:: /images/Modeling_Mesh_Screw_Screw_Example_Shell.jpg
+   * - .. figure:: /images/Modeling_Mesh_Screw_Screw_Example_Shell.jpg
+          :width: 300px
 
-   Fig. 1 - Wood Screw tip done with the screw tool
+          Fig. 1 - Wood Screw tip done with the screw tool.
 
+     - .. figure:: /images/Modeling_Mesh_Screw_Screw_Example_Spring.jpg
+          :width: 300px
 
-.. figure:: /images/Modeling_Mesh_Screw_Screw_Example_Spring.jpg
-
-   Fig. 2- Spring done with the screw tool
+          Fig. 2- Spring done with the screw tool.
 
 
 Description
@@ -273,15 +275,17 @@ changed the angular vector of the height you have given to Blender to the opposi
 (remember, **-90** to **90** = **180** degrees ?). See Fig.
 10 - Counterclockwise direction and Fig. 11 - Flipped to Clockwise direction.
 
+.. list-table::
 
-.. figure:: /images/Modeling_Mesh_Screw_Screw_Spring_Counterclockwise.jpg
+   * - .. figure:: /images/Modeling_Mesh_Screw_Screw_Spring_Counterclockwise.jpg
+          :width: 300px
 
-   Fig. 10 - Counterclockwise direction
+          Fig. 10 - Counterclockwise direction.
 
+     - .. figure:: /images/Modeling_Mesh_Screw_Screw_Spring_Clockwise.jpg
+          :width: 300px
 
-.. figure:: /images/Modeling_Mesh_Screw_Screw_Spring_Clockwise.jpg
-
-   Fig. 11 - Flipped to Clockwise direction.
+          Fig. 11 - Flipped to Clockwise direction.
 
 
 It's also important to note that this vector is related to the same height vector axis used
@@ -322,15 +326,17 @@ Below we show two bent Meshes using the Axis vectors and the Spring example. See
 12 and Fig. 13. These two Meshes generated with the *Screw* tool were created using
 the Top Ortho View.
 
+.. list-table::
 
-.. figure:: /images/Modeling_Mesh_Screw_Angular_Vector_Example_1.jpg
+   * - .. figure:: /images/Modeling_Mesh_Screw_Angular_Vector_Example_1.jpg
+          :width: 300px
 
-   Fig. 12 - Bended Mesh, Example 1 - The Axis will give the profile a starting vector angle
+          Fig. 12 - Bended Mesh, Example 1 - The Axis will give the profile a starting vector angle.
 
+     - .. figure:: /images/Modeling_Mesh_Screw_Angular_Vector_Example_2.jpg
+          :width: 300px
 
-.. figure:: /images/Modeling_Mesh_Screw_Angular_Vector_Example_2.jpg
-
-   Fig. 13 - Bended Mesh Example 2 - The vector angle is maintained along the extrusions
+          Fig. 13 - Bended Mesh Example 2 - The vector angle is maintained along the extrusions.
 
 
 Creating perfect Screw Spindles
@@ -372,31 +378,36 @@ will assembly perfectly with each other.
 - Now press Screw.
 - Change Steps and Turns as you like. Fig. 15 - Generated Mesh - Shows you an example of the results.
 
+.. list-table::
 
-.. figure:: /images/Modeling_Mesh_Screw_Screw_Perfect_Spindle_Profile.jpg
+   * - .. figure:: /images/Modeling_Mesh_Screw_Screw_Perfect_Spindle_Profile.jpg
+          :width: 300px
 
-   Fig. 14 - Profile for a perfect screw spindle.
-   The starting and ending vertices are forming a parallel line with the Blender Axis
+          Fig. 14 - Profile for a perfect screw spindle.
+          The starting and ending vertices are forming a parallel line with the Blender Axis.
 
+     - .. figure:: /images/Modeling_Mesh_Screw_Screw_Generated_Perfect_Spindle.jpg
+          :width: 300px
 
-.. figure:: /images/Modeling_Mesh_Screw_Screw_Generated_Perfect_Spindle.jpg
-
-   Fig. 15 - Generated Mesh. You can use this technique to perform normal screw modeling.
+          Fig. 15 - Generated Mesh. You can use this technique to perform normal screw modeling.
 
 
 Here, in Fig. 16 and Fig. 17, we show you an example using a different profile,
 but maintaining the beginning and ending vertices at the same position.
 The generated mesh looks like a medieval ramp!
 
+.. list-table::
 
-.. figure:: /images/Modeling_Mesh_Screw_Ramp_Like_Profile.jpg
+   * - .. figure:: /images/Modeling_Mesh_Screw_Ramp_Like_Profile.jpg
+          :width: 300px
 
-   Fig. 16 - Profile with starting and ending vertices forming a parallel line with the Blender Axis
+          Fig. 16 - Profile with starting and ending vertices forming a parallel line with the Blender Axis.
 
 
-.. figure:: /images/Modeling_Mesh_Screw_Ramp_Like_Generated.jpg
+     - .. figure:: /images/Modeling_Mesh_Screw_Ramp_Like_Generated.jpg
+          :width: 300px
 
-   Fig. 17 - Generated Mesh with the profile at the left. We have inclined the visualization a bit.
+          Fig. 17 - Generated Mesh with the profile at the left. We have inclined the visualization a bit.
 
 
 As you can see, the Screw spindles are perfectly assembled with each other,
@@ -433,19 +444,21 @@ To make this new example as short as possible, we will recycle our last example 
 - Press the shortcut :kbd:`Shift-S` and select *Cursor to Center*
 - Press Screw.
 
+.. list-table::
 
-.. figure:: /images/Modeling_Mesh_Screw_Profile_With_Vector_Angle.jpg
+   * - .. figure:: /images/Modeling_Mesh_Screw_Profile_With_Vector_Angle.jpg
+          :width: 300px
 
-   Fig. 18 - Profile With Starting Vector Angle
+          Fig. 18 - Profile With Starting Vector Angle.
 
 
-.. figure:: /images/Modeling_Mesh_Screw_Generated_With_Base_Vector_Angle.jpg
+     - .. figure:: /images/Modeling_Mesh_Screw_Generated_With_Base_Vector_Angle.jpg
+          :width: 300px
 
-   Fig. 19 - Generated Mesh with the Profile
+          Fig. 19 - Generated Mesh with the Profile.
 
 
 As you can see in Fig. 19, Blender follows the basic angular vector of the profile, and the
 profile basic angle determines whether the extruded subsequent configured turns will open or
 close the resulting mesh following this angle. The vector of the extrusion angle is determined
 by the starting and ending Vertex of the profile.
-

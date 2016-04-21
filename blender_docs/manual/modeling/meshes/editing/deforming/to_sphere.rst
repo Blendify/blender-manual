@@ -1,4 +1,5 @@
 
+*********
 To Sphere
 *********
 
@@ -46,8 +47,6 @@ that no other actions take place between the *To Sphere* transform confirmation 
 accessing the slider.
 
 
-----
-
 Note that the result of the *To Sphere* transform is also dependant on the number of
 selected mesh elements (vertices, faces etc). As can be seen in the below image, the result
 will be smoother and more spherical when there are more mesh elements available to work with.
@@ -69,5 +68,3 @@ and arrangement of elements that were selected (as shown by the below image).
    :width: 640px
 
    To Sphere applied to different selections.
-
-

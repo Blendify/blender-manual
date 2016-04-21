@@ -20,23 +20,22 @@ Number of times to smooth
 Axes
    Limit the effect to certain axes.
 
+.. list-table::
 
-.. figure:: /images/SmoothVertex1.jpg
-   :width: 200px
+   * - .. figure:: /images/SmoothVertex1.jpg
+          :width: 200px
 
-   mesh before smoothing
+          Mesh before smoothing.
 
+     - .. figure:: /images/SmoothVertex2.jpg
+          :width: 200px
 
-.. figure:: /images/SmoothVertex2.jpg
-   :width: 200px
+          Mesh after 1 smoothing iteration.
 
-   mesh after 1 smoothing iteration
+     - .. figure:: /images/SmoothVertex3.jpg
+          :width: 200px
 
-
-.. figure:: /images/SmoothVertex3.jpg
-   :width: 200px
-
-   mesh after 10 smoothing iterations
+          Mesh after 10 smoothing iterations.
 
 
 Laplacian Smooth

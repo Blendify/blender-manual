@@ -1,4 +1,5 @@
 
+****
 Warp
 ****
 
@@ -11,7 +12,7 @@ Warp
 
 .. figure:: /images/warp.jpg
 
-   warp tool options
+   Warp tool options.S
 
 
 In *Edit mode*, the *Warp* transformation takes selected elements and
@@ -82,5 +83,3 @@ Example
 
    Text wrapped around logo. This was made by creating the Blender logo and text as separate Objects.
    The text was converted to a mesh and then warped around the Blender logo.
-
-

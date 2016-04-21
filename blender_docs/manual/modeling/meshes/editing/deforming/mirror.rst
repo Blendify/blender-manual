@@ -1,5 +1,4 @@
-
-..    TODO/Review: {{review|}} .
+..    TODO/Review: {{review|}}.
 
 ******
 Mirror
@@ -51,35 +50,34 @@ On (*Mirror around the Individual Centers ...*) the pivot point default to
 This is a special case of the *Edit* mode as explained on the
 :doc:`pivot point page </editors/3dview/transform/transform_control/pivot_point/index>`.
 
+.. list-table::
 
-.. figure:: /images/MirrorTool1.jpg
-   :width: 300px
+   * - .. figure:: /images/MirrorTool1.jpg
+          :width: 300px
 
-   Mesh before mirror.
+          Mesh before mirror.
+
+     - .. figure:: /images/MirrorTool2.jpg
+          :width: 300px
+
+          Mesh after mirrored along X axis
 
 
-.. figure:: /images/MirrorTool2.jpg
-   :width: 300px
-
-   Mesh after mirrored along X axis
-
-
-On (*Mirror around the 3D Cursor ...*)
-the pivot point is the *3D Cursor*,
+On (*Mirror around the 3D Cursor ...*) the pivot point is the *3D Cursor*,
 the transformation orientation is *Local*, a.k.a. the Object space,
 and the axis of transformation is X.
 
+.. list-table::
 
-.. figure:: /images/MirrorTool3.jpg
-   :width: 300px
+   * - .. figure:: /images/MirrorTool3.jpg
+          :width: 300px
 
-   Mesh before mirror.
+          Mesh before mirror.
 
+     - .. figure:: /images/MirrorTool4.jpg
+          :width: 300px
 
-.. figure:: /images/MirrorTool4.jpg
-   :width: 300px
-
-   Mesh after mirrored along X axis using the 3d cursor as a pivot point
+          Mesh after mirrored along X axis using the 3d cursor as a pivot point.
 
 
 Transformation orientation

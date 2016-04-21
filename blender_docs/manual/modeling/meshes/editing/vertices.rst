@@ -118,7 +118,7 @@ Examples
    * - .. figure:: /images/rip-before.jpg
           :width: 300px
 
-          selected vertex
+          Selected vertex.
 
      - .. figure:: /images/rip-after.jpg
           :width: 300px
@@ -128,12 +128,12 @@ Examples
    * - .. figure:: /images/rip-edges-before.jpg
           :width: 300px
    
-          Edges selected
+          Edges selected.
 
      - .. figure:: /images/rip-edges-after.jpg
           :width: 300px
 
-          Result of rip with edge selection
+          Result of rip with edge selection.
 
    * - .. figure:: /images/rip-complexSelection-before.jpg
           :width: 300px
@@ -143,7 +143,7 @@ Examples
      - .. figure:: /images/rip-complexSelection-after.jpg
           :width: 300px
 
-          Result of rip operation
+          Result of rip operation.
 
 
 Limitations
@@ -320,17 +320,17 @@ then :kbd:`LMB` again to move the vertex.
    * - .. figure:: /images/VertexSlide1.jpg
           :width: 200px
 
-          Selected vertex
+          Selected vertex.
 
      - .. figure:: /images/VertexSlide2.jpg
           :width: 200px
 
-          Positioning vertex interactively
+          Positioning vertex interactively.
 
      - .. figure:: /images/VertexSlide3.jpg
           :width: 200px
 
-          Repositioned vertex
+          Repositioned vertex.
 
 
 Smooth
@@ -393,5 +393,3 @@ Blend From Shape, Propagate Shapes
 
 
 These are options regarding :doc:`shape keys </animation/shape_keys>`.
-
-

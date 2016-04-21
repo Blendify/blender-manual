@@ -36,15 +36,14 @@ In *Object* / *Edit* mode, your object will appear normal, but will render defor
 The deformation can be controlled by modifying the *Mapping* panel and/or the
 texture's own panel (e.g. *Clouds*, *Marble*, etc.).
 
+.. list-table::
 
-.. figure:: /images/Noise1.jpg
-   :width: 300px
+   * - .. figure:: /images/Noise1.jpg
+          :width: 300px
 
-   mesh before noise is added
+          Mesh before noise is added.
 
+     - .. figure:: /images/Noise2.jpg
+          :width: 300px
 
-.. figure:: /images/Noise2.jpg
-   :width: 300px
-
-   mesh after noise is added, using basic cloud texture
-
+          Mesh after noise is added, using basic cloud texture.
