@@ -1,12 +1,10 @@
-..    TODO/Review: {{review|text=elaborate}} .
-
+..    TODO/Review: {{review|text=elaborate}}.
 
 ******************
 Basic Mesh Editing
 ******************
 
 In this section we explain how to do basic editing on a mesh.
-
 
 - :doc:`Translation, Rotation, Scale </modeling/meshes/editing/basics/translation_rotation_scale>`
 - :doc:`Adding Elements </modeling/meshes/editing/basics/adding>`

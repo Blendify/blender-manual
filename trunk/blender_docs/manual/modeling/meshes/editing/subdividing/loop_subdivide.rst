@@ -1,6 +1,4 @@
-
-..    TODO/Review: {{review|}} .
-
+..    TODO/Review: {{review|}}.
 
 **************
 Loop Subdivide
@@ -33,23 +31,22 @@ Sliding the new edge loop
    or clicking :kbd:`RMB` forces the cut to exactly 50%.
    This step is skipped when using multiple edge loops (see below)
 
+.. list-table::
 
-.. figure:: /images/loopCut-before.jpg
-   :width: 200px
+   * - .. figure:: /images/loopCut-before.jpg
+          :width: 200px
 
-   mesh before inserting edge loop
+          Mesh before inserting edge loop.
 
+     - .. figure:: /images/loopCut-preview.jpg
+          :width: 200px
 
-.. figure:: /images/loopCut-preview.jpg
-   :width: 200px
+          Preview of edge loop location.
 
-   Preview of edge loop location
+     - .. figure:: /images/loopCut-placement.jpg
+          :width: 200px
 
-
-.. figure:: /images/loopCut-placement.jpg
-   :width: 200px
-
-   Interactive placement of edge loop between adjacent loops
+          Interactive placement of edge loop between adjacent loops.
 
 
 Options
@@ -71,17 +68,17 @@ Number of Cuts :kbd:`Wheel` or :kbd:`NumpadPlus` / :kbd:`NumpadMinus`
    Note that when creating multiple loops, these cuts are uniformly distributed in the original face loop,
    and *you will not be able to control their positions*.
 
+.. list-table::
 
-.. figure:: /images/loopCut-multicut.jpg
-   :width: 250px
+   * - .. figure:: /images/loopCut-multicut.jpg
+          :width: 250px
 
-   Preview of multiple edge loops
+          Preview of multiple edge loops.
 
+     - .. figure:: /images/loopCut-multicut-after.jpg
+          :width: 250px
 
-.. figure:: /images/loopCut-multicut-after.jpg
-   :width: 250px
-
-   Result of using multiple cuts
+          Result of using multiple cuts.
 
 
 Smoothing :kbd:`Alt-Wheel`
@@ -93,14 +90,14 @@ Smoothing :kbd:`Alt-Wheel`
    particularly when using :doc:`Subdivision Surfaces </modeling/modifiers/generate/subsurf>`.
    Smoothing can help maintain the curvature of a surface once it is subdivided.
 
+.. list-table::
 
-.. figure:: /images/loopCut-unsmooth.jpg
-   :width: 250px
+   * - .. figure:: /images/loopCut-unsmooth.jpg
+          :width: 250px
 
-   Added edge loops without smoothing
+          Added edge loops without smoothing.
 
+     - .. figure:: /images/loopCut-smooth.jpg
+          :width: 250px
 
-.. figure:: /images/loopCut-smooth.jpg
-   :width: 250px
-
-   Same edge loops, but with smoothing value
+          Same edge loops, but with smoothing value.

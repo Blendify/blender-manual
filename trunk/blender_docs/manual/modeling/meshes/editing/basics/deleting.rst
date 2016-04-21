@@ -1,6 +1,4 @@
-
-..    TODO/Review: {{review|im = examples}} .
-
+..    TODO/Review: {{review|im = examples}}.
 
 ********************
 Deleting and Merging
@@ -171,4 +169,3 @@ Merge Distance
 Unselected
    Allows vertices in a selection to be merged with unselected vertices.
    When disabled, selected vertices will only be merged with other selected ones.
-

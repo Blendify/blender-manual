@@ -1,6 +1,4 @@
-
-..    TODO/Review: {{review|}} .
-
+..    TODO/Review: {{review|}}.
 
 *****
 Bevel
@@ -15,10 +13,6 @@ Bevel
    | Menu (vertex-only):    :menuselection:`Mesh --> Vertices --> Bevel` or :menuselection:`[Ctrl][V] --> Bevel`
    | Hotkey (vertex-only):  :kbd:`Shift-Ctrl-B`
 
-.. figure:: /images/Bevel-Cubes.jpg
-
-   With bevel and without bevel.
-
 
 The bevel tool allows you to create chamfered or rounded corners to geometry.
 A bevel is an effect that smooths out edges and corners.
@@ -31,13 +25,9 @@ the blunt edges on objects catch the light and change the shading around the edg
 This gives a solid, realistic look,
 as opposed to un-beveled objects which can look too perfect.
 
+.. figure:: /images/Bevel-Cubes.jpg
 
-Bevel Modifier
-==============
-
-The :doc:`Bevel Modifier </modeling/modifiers/generate/bevel>` is a non destructive alternative to the bevel tool.
-It gives you the same options, with additional goodies, like the bevel width controlled by the vertices weight,
-and all the modifiers general enhancements (non-destructive operations, ...).
+   Cubes with and without bevel.
 
 
 Usage
@@ -55,28 +45,28 @@ Use :kbd:`Ctrl-B` or a method listed above to run the tool.
 Move the mouse to interactively specify the bevel offset,
 and scroll the :kbd:`Wheel` to increase or decrease the number of segments. (see below)
 
-.. figure:: /images/Bevel1.jpg
-   :width: 300px
+.. list-table::
 
-   Selected edge before beveling
+   * - .. figure:: /images/Bevel1.jpg
+          :width: 200px
 
+          Selected edge before beveling.
 
-.. figure:: /images/Bevel2.jpg
-   :width: 300px
+     - .. figure:: /images/Bevel2.jpg
+          :width: 200px
 
-   Result of bevel (one segment)
+          Result of bevel (one segment).
 
+     - .. figure:: /images/Bevel6.jpg
+          :width: 200px
 
-.. figure:: /images/Bevel6.jpg
-   :width: 300px
+          Result of bevel (vertex only).
 
-   Result of bevel (vertex only)
 
 .. note::
 
    Normal (edge) beveling only works on edges that have exactly two faces
-   attached to them.
-   Vertex bevel has no such restriction.
+   attached to them. Vertex bevel has no such restriction.
 
 
 Options
@@ -106,10 +96,10 @@ Segments
    Alternatively, you can manually enter a segment number value while using the tool,
    or in the Mesh Tool options panel after using the tool.
 
-.. figure:: /images/Bevel3.jpg
-   :width: 300px
+   .. figure:: /images/Bevel3.jpg
+      :width: 300px
 
-   Bevel with 4 segments
+      Bevel with 4 segments
 
 
 Profile
@@ -135,19 +125,25 @@ Material
 Examples
 ========
 
-.. figure:: /images/Bevel4.jpg
-   :width: 300px
+.. list-table::
 
-   Result of beveling multiple edges
+   * - .. figure:: /images/Bevel4.jpg
+          :width: 200px
+
+          Result of beveling multiple edges.
+
+     - .. figure:: /images/Bevel5.jpg
+          :width: 200px
+
+          Another example of beveling multiple edges.
+
+     - .. figure:: /images/Bevel7.jpg
+          :width: 200px
+
+          An example using Profile=0.150
 
 
-.. figure:: /images/Bevel5.jpg
-   :width: 300px
+.. seealso:: Bevel Modifier
 
-   Another example of beveling multiple edges
-
-
-.. figure:: /images/Bevel7.jpg
-   :width: 300px
-
-   An example using Profile=0.150
+   The :doc:`Bevel Modifier </modeling/modifiers/generate/bevel>`
+   is a non destructive alternative to the bevel tool.

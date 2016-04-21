@@ -1,4 +1,5 @@
 
+*****
 Shear
 *****
 
@@ -42,9 +43,6 @@ Pressing :kbd:`Return` will confirm the transformation. The confirmed transforma
 be further edited by pressing F6 or by going into the Toolshelf (:kbd:`T`) and altering
 the Offset slider provided that no other actions take place between the *Shear*
 transform confirmation and accessing the slider.
-
-
-----
 
 Note that the result of the *Shear* transform is also dependant on the number and
 type of selected elements (Objects, vertices, faces etc).
@@ -91,4 +89,3 @@ the *Pivot Point* is set to the 3D cursor which is located above the Objects
 below the horizontal axis. Again, note that the magnitude of the transform is proportional to
 the distance from the horizontal axis. In this case,
 the lower Objects move further than the upper ones.
-

@@ -1,6 +1,4 @@
-
-..    TODO/Review: {{review|}} .
-
+..    TODO/Review: {{review|}}.
 
 **************
 Vertex Connect
@@ -24,12 +22,12 @@ When many vertices are selected, faces will be split by their selected vertices.
    * - .. figure:: /images/bmesh_connect_verts_multi_before.jpg
           :width: 200px
 
-          Before
+          Before.
 
      - .. figure:: /images/bmesh_connect_verts_multi_after.jpg
           :width: 200px
 
-          After
+          After.
 
 
 When there are only 2 vertices selected, a cut will be made across unselected faces,
@@ -40,10 +38,9 @@ a little like the knife tool; however this is limited to straight cuts across co
    * - .. figure:: /images/bmesh_connect_verts_pair_before.jpg
           :width: 200px
 
-          Before
+          Before.
 
      - .. figure:: /images/bmesh_connect_verts_pair_after.jpg
           :width: 200px
 
-          After
-
+          After.

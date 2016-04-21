@@ -16,18 +16,17 @@ with adjustable thickness and depth. The tool is modal, such that when you activ
 you may adjust the thickness with your mouse position. You may also adjust the depth of the
 inset during the modal operation by holding :kbd:`Ctrl`.
 
-
 .. list-table::
 
    * - .. figure:: /images/mesh_tool_inset_before.jpg
           :width: 300px
 
-          Selection to inset
+          Selection to inset.
 
      - .. figure:: /images/mesh_tool_inset_after.jpg
           :width: 300px
 
-          Selection with inset
+          Selection with inset.
 
 
 Options
@@ -36,7 +35,7 @@ Options
 .. figure:: /images/mesh_tool_inset_settings.jpg
    :width: 200px
 
-   Inset Operator Settings
+   Inset Operator Settings.
 
 
 Boundary
@@ -53,4 +52,3 @@ Outset
    Create an outset rather than an inset.
 Select Outer
    Toggle which side of the inset is selected after operation.
-

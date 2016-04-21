@@ -1,9 +1,14 @@
+
 *******
 Normals
 *******
 
 Introduction
 ============
+
+Todo.
+
+.. Explain what are normals
 
 Displaying Normals
 ==================

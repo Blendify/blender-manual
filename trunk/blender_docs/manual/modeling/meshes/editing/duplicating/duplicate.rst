@@ -1,6 +1,4 @@
-
-..    TODO/Review: {{review|im=needs example}} .
-
+..    TODO/Review: {{review|im=needs example}}.
 
 *********
 Duplicate
@@ -20,9 +18,8 @@ and places the duplicate at the location of the original. Once the duplication i
 *only the new duplicated elements are selected*,
 and you are automatically placed in grab/move mode, so you can translate your copy elsewhere...
 
-In the *Tool Shelf* are settings for *Vector* offset,
-*Proportional Editing*, *Duplication Mode* (non-functional?),
-and *Axis Constraints*.
+In the *Tool Shelf* are settings for *Vector* offset, *Proportional Editing*,
+*Duplication Mode* (non-functional?), and *Axis Constraints*.
 
 Note that duplicated elements belong to the same
 :doc:`vertex groups </modeling/meshes/vertex_groups/index>` as the "original" ones.

@@ -1,6 +1,4 @@
-
-..    TODO/Review: {{review|}} .
-
+..    TODO/Review: {{review|}}.
 
 **************
 Make Edge/Face
@@ -35,12 +33,12 @@ Isolated vertices
    * - .. figure:: /images/bmesh_make_face_verts_simple_before.jpg
           :width: 200px
 
-          Before
+          Before.
 
      - .. figure:: /images/bmesh_make_face_verts_simple_after.jpg
           :width: 200px
 
-          After
+          After.
 
 Isolated edges
 --------------
@@ -50,12 +48,12 @@ Isolated edges
    * - .. figure:: /images/bmesh_make_face_edges_simple_before.jpg
           :width: 200px
 
-          Before
+          Before.
 
      - .. figure:: /images/bmesh_make_face_edges_simple_after.jpg
           :width: 200px
 
-          After
+          After.
 
 
 N-gon from edges
@@ -70,12 +68,12 @@ note that this doesn't support holes, to support holes you need to use the
    * - .. figure:: /images/bmesh_make_face_edges_ngon_before.jpg
           :width: 200px
 
-          Before
+          Before.
 
      - .. figure:: /images/bmesh_make_face_edges_ngon_simple_after.jpg
           :width: 200px
 
-          After
+          After.
 
 
 Mixed vertices/edges
@@ -88,12 +86,12 @@ Existing edges are used to make the face as well as an extra vertex.
    * - .. figure:: /images/bmesh_make_face_mix_simple_before.jpg
           :width: 200px
 
-          Before
+          Before.
 
      - .. figure:: /images/bmesh_make_face_mix_simple_after.jpg
           :width: 200px
 
-          After
+          After.
 
 
 Edge-Net
@@ -106,12 +104,12 @@ Sometimes you may have many connected edges without interior faces.
    * - .. figure:: /images/bmesh_make_face_net_before.jpg
           :width: 200px
 
-          Before
+          Before.
 
      - .. figure:: /images/bmesh_make_face_net_after.jpg
           :width: 200px
 
-          After
+          After.
 
 
 Point Cloud
@@ -125,12 +123,12 @@ Blender will calculate the edges for an n-gon.
    * - .. figure:: /images/bmesh_make_face_cloud_before.jpg
           :width: 200px
 
-          Before
+          Before.
 
      - .. figure:: /images/bmesh_make_face_cloud_after.jpg
           :width: 200px
 
-          After
+          After.
 
 
 Single Vertex Selection
@@ -143,11 +141,11 @@ Notice this tool can run multiple times to continue creating faces.
 
 .. figure:: /images/Mesh_face_create_boundary.jpg
 
-Further Reading
-^^^^^^^^^^^^^^^
 
-For other ways to create faces see:
+.. seealso::
 
-- :ref:`Fill <modeling-meshes-editing-fill>`
-- :ref:`Grid Fill <modeling-meshes-editing-grid_fill>`
-- :ref:`Bridge Edge Loops <modeling-meshes-editing-bridge_edge_loops>`
+   For other ways to create faces see:
+
+   - :ref:`Fill <modeling-meshes-editing-fill>`
+   - :ref:`Grid Fill <modeling-meshes-editing-grid_fill>`
+   - :ref:`Bridge Edge Loops <modeling-meshes-editing-bridge_edge_loops>`

@@ -24,23 +24,22 @@ Drawing the cut line
    and the header changes to display options for the tool.
    You can draw connected straight lines by clicking :kbd:`LMB`.
 
+.. list-table::
 
-.. figure:: /images/Knife1.jpg
-   :width: 200px
+   * - .. figure:: /images/Knife1.jpg
+          :width: 200px
 
-   Mesh before knife cut
+          Mesh before knife cut.
 
+     - .. figure:: /images/Knife2.jpg
+          :width: 200px
 
-.. figure:: /images/Knife2.jpg
-   :width: 200px
+          Knife cut active.
 
-   Knife cut active
+     - .. figure:: /images/Knife3.jpg
+          :width: 200px
 
-
-.. figure:: /images/Knife3.jpg
-   :width: 200px
-
-   After confirming knife cut
+          After confirming knife cut.
 
 
 Options
@@ -54,17 +53,17 @@ New cut :kbd:`E`
    Begins a new cut. This allows you to define multiple distinct cut lines.
    If multiple cuts have been defined, they are recognized as new snapping points.
 
+.. list-table::
 
-.. figure:: /images/Knife4.jpg
-   :width: 300px
+   * - .. figure:: /images/Knife4.jpg
+          :width: 300px
 
-   Creating multiple cuts
+          Creating multiple cuts.
 
+     - .. figure:: /images/Knife5.jpg
+          :width: 300px
 
-.. figure:: /images/Knife5.jpg
-   :width: 300px
-
-   Result of starting new cuts while in the tool
+          Result of starting new cuts while in the tool.
 
 
 Midpoint snap :kbd:`Ctrl`
@@ -81,16 +80,17 @@ Draw a continuous line: :kbd:`LMB` drag.
    So you can draw a freehand line over a surface,
    points will be created at edge intersections.
 
-.. figure:: /images/Knife6.jpg
-   :width: 300px
+.. list-table::
 
-   Constraining cut angle
+   * - .. figure:: /images/Knife6.jpg
+          :width: 300px
 
+          Constraining cut angle.
 
-.. figure:: /images/Knife7.jpg
-   :width: 300px
+     - .. figure:: /images/Knife7.jpg
+          :width: 300px
 
-   Result of constraining cut angle
+          Result of constraining cut angle.
 
 
 Confirming and selection
@@ -110,7 +110,7 @@ This is a limitation of the current geometry that can be modeled in Blender.
 
 
 Knife Project
-*************
+=============
 
 Knife projection is a non-interactive tool where you can use objects to cookie-cut into the
 mesh rather than hand drawing the line.
@@ -126,46 +126,43 @@ Now tab into edit mode and press "knife project".
 
 
 Examples
-========
+--------
 
-.. figure:: /images/Knife_project_text_before.jpg
-   :width: 300px
+.. list-table::
 
-   Before projecting from a text object
+   * - .. figure:: /images/Knife_project_text_before.jpg
+          :width: 300px
 
+          Before projecting from a text object.
 
-.. figure:: /images/Knife_project_text_after.jpg
-   :width: 300px
+     - .. figure:: /images/Knife_project_text_after.jpg
+          :width: 300px
 
-   Resulting knife projection
+          Resulting knife projection.
 
+   * - .. figure:: /images/Knife_project_mesh_before.jpg
+          :width: 300px
 
-.. figure:: /images/Knife_project_mesh_before.jpg
-   :width: 300px
+          Before projecting from a mesh object.
 
-   Before projecting from a mesh object
+     - .. figure:: /images/Knife_project_mesh_after.jpg
+          :width: 300px
 
+          Resulting knife projection (extruded after).
 
-.. figure:: /images/Knife_project_mesh_after.jpg
-   :width: 300px
+   * - .. figure:: /images/Knife_project_curve_before.jpg
+          :width: 300px
 
-   Resulting knife projection (extruded after)
+          Before projecting from a 3D curve object.
 
+     - .. figure:: /images/Knife_project_curve_after.jpg
+          :width: 300px
 
-.. figure:: /images/Knife_project_curve_before.jpg
-   :width: 300px
-
-   Before projecting from a 3D curve object
-
-
-.. figure:: /images/Knife_project_curve_after.jpg
-   :width: 300px
-
-   Resulting knife projection (extruded after)
+          Resulting knife projection (extruded after).
 
 
 Known Issues
-============
+------------
 
 Cutting holes into single faces may fail,
 this is the same limitation as with the regular knife tool but more noticeable for text,

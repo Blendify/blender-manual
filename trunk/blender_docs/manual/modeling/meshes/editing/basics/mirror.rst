@@ -1,5 +1,4 @@
-
-..    TODO/Review: {{review|}} .
+..    TODO/Review: {{review|}}.
 
 **************
 Mirror Editing
@@ -60,14 +59,6 @@ vertices will not be altered.
 If you then enable *Topology Mirror* and move the same vertices again,
 then *X Mirror* should still mirror the other vertice,
 even though they are not perfectly positioned.
-
-
-Mirror Modifier
-===============
-
-The conditions for X-mirror to work are quite strict, which can make it difficult to use.
-To have an exact mirrored version of a (half) mesh,
-its easier and simpler to use the :doc:`Mirror modifier </modeling/modifiers/generate/mirror>`
 
 
 Snap to Symmetry
@@ -148,3 +139,9 @@ Mirroring Geometry
 
 See :doc:`Mirror </modeling/meshes/editing/deforming/mirror>` for information on mirroring,
 which allows you to flip geometry across an axis
+
+.. seealso::
+
+   The conditions for X-mirror to work are quite strict, which can make it difficult to use.
+   To have an exact mirrored version of a (half) mesh,
+   its easier and simpler to use the :doc:`Mirror modifier </modeling/modifiers/generate/mirror>`

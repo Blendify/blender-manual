@@ -1,7 +1,7 @@
 
-**********************
-Mesh Duplicating Tools
-**********************
+************
+Introduction
+************
 
 This section covers mesh editing tools that add additional geometry by duplicating existing
 geometry in some way.
@@ -19,5 +19,3 @@ geometry in some way.
    Blender cannot guess which view you want to work in - if you have more than one opened, of course...
    As the view is often important for these tools, once you have activated one,
    your cursor turns into a sort of question mark - click with it inside the window you want to use.
-
-
