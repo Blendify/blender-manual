@@ -1,12 +1,11 @@
-
-*********************
-Features
-*********************
-
-This page offers a comparison of available features on CPU, CUDA and OpenCL.
-
 .. |tick|  unicode:: U+2714
 .. |cross| unicode:: U+2717
+
+********
+Features
+********
+
+This page offers a comparison of available features on CPU, CUDA and OpenCL.
 
 .. list-table::
    :header-rows: 1
@@ -62,7 +61,8 @@ This page offers a comparison of available features on CPU, CUDA and OpenCL.
 
 
 Experimental Features
-=======================
+=====================
+
 Experimental features are disabled / hidden by default, but can be enabled by setting *Feature Set* to
 *Experimental* in the Render properties.
 They may not work properly, crash Blender or change their behaviour in later versions.
