@@ -135,7 +135,7 @@ The examples below explain the use of edge marks.
 
 .. figure:: /images/freestyle-edge-marks-viewport.jpg
 
-   Marking Freestyle Edges in edit mode.
+   Marking Freestyle Edges in edit mode. The edge marks are highlighted in green. 
 
 .. list-table::
 
@@ -147,9 +147,6 @@ The examples below explain the use of edge marks.
 
           Render with Edge Marks enabled.
 
-
-The image on the left shows a sphere in *Edit* mode.
-The green lines are the edge marks. On the right you see a render without edge marks enabled.
 
 With edge marks enabled, the previously-marked lines are always rendered.
 You can see the black contour lines and the blue lines that are made with edge marks.
