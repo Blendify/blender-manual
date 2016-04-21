@@ -22,13 +22,13 @@ The typical use case is to select vertices and press :kbd:`F`,
 however Blender also supports creating faces from different selections to help quickly build
 up geometry.
 
+Methods
+=======
 
 The following methods are used automatically depending on the context.
 
-
-----
-
-Isolated vertices.
+Isolated vertices
+------------------
 
 .. list-table::
 
@@ -42,10 +42,8 @@ Isolated vertices.
 
           After
 
-
-----
-
 Isolated edges
+--------------
 
 .. list-table::
 
@@ -60,11 +58,12 @@ Isolated edges
           After
 
 
-----
+N-gon from edges
+----------------
 
-N-gon from edges: *When there are many edges Blender will make an ngon,
-note that this doesn't support holes, to support holes you need to use the*
-:ref:`modeling-meshes-editing-fill` *Faces tool.*
+When there are many edges Blender will make an ngon,
+note that this doesn't support holes, to support holes you need to use the
+:ref:`modeling-meshes-editing-fill` Faces tool.
 
 .. list-table::
 
@@ -79,9 +78,10 @@ note that this doesn't support holes, to support holes you need to use the*
           After
 
 
-----
+Mixed vertices/edges
+--------------------
 
-Mixed vertices/edges: *existing edges are used to make the face as well as an extra vertex.*
+Existing edges are used to make the face as well as an extra vertex.
 
 .. list-table::
 
@@ -96,9 +96,10 @@ Mixed vertices/edges: *existing edges are used to make the face as well as an ex
           After
 
 
-----
+Edge-Net
+--------
 
-Edge-Net: *sometimes you may have many connected edges without interior faces.*
+Sometimes you may have many connected edges without interior faces.
 
 .. list-table::
 
@@ -113,10 +114,11 @@ Edge-Net: *sometimes you may have many connected edges without interior faces.*
           After
 
 
-----
+Point Cloud
+------------
 
-Point Cloud: *when there are many isolated vertices,
-Blender will calculate the edges for an n-gon.*
+When there are many isolated vertices,
+Blender will calculate the edges for an n-gon.
 
 .. list-table::
 
@@ -131,10 +133,13 @@ Blender will calculate the edges for an n-gon.*
           After
 
 
-Single Vertex Selection: *with a single vertex selected on a boundary,
+Single Vertex Selection
+-----------------------
+
+With a single vertex selected on a boundary,
 the face will be created along the boundary,
 this saves manually selecting the other 2 vertices.
-Notice this tool can run multiple times to continue creating faces.''*
+Notice this tool can run multiple times to continue creating faces.
 
 .. figure:: /images/Mesh_face_create_boundary.jpg
 

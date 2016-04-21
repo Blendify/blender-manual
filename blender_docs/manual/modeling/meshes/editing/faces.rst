@@ -227,23 +227,22 @@ Thickness
    Positive values offset the surface inward relative to the normals.
    Negative values offset outward.
 
+.. list-table::
 
-.. figure:: /images/solidify-before.jpg
-   :width: 200px
+   * - .. figure:: /images/solidify-before.jpg
+          :width: 200px
 
-   Mesh before solidify operation
+          Mesh before solidify operation
 
+     - .. figure:: /images/solidify-after.jpg
+          :width: 200px
 
-.. figure:: /images/solidify-after.jpg
-   :width: 200px
+          Solidify with a positive thickness
 
-   Solidify with a positive thickness
+     - .. figure:: /images/solidify-after2.jpg
+          :width: 200px
 
-
-.. figure:: /images/solidify-after2.jpg
-   :width: 200px
-
-   Solidify with a negative thickness
+          Solidify with a negative thickness
 
 
 Rotate Edges

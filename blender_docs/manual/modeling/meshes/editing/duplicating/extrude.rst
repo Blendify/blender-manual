@@ -120,16 +120,17 @@ they will extrude as expected, forming a :term:`non-manifold` edge. Similarly,
 if edges are selected that do not form a face, they will extrude to form a face.
 
 
-.. figure:: /images/extrude-vert.jpg
-   :width: 250px
+.. list-table::
 
-   Single vertex extruded
+   * - .. figure:: /images/extrude-vert.jpg
+          :width: 250px
 
+          Single vertex extruded
 
-.. figure:: /images/extrude-edge.jpg
-   :width: 250px
+     - .. figure:: /images/extrude-edge.jpg
+          :width: 250px
 
-   Single edge extruded
+          Single edge extruded
 
 
 When a selection of vertices forms an edge or face,
@@ -139,27 +140,24 @@ To force a vertex or edge selection to extrude as a vertex or edge, respectively
 :kbd:`Alt-E` to access the Extrude *Edges Only* and *Vertices Only*.
 
 
-.. figure:: /images/extrude-verts-before.jpg
-   :width: 250px
+.. list-table::
 
-   Vertex selected
+   * - .. figure:: /images/extrude-verts-before.jpg
+          :width: 250px
 
+          Vertex selected
 
-.. figure:: /images/extrude-verts-after.jpg
-   :width: 250px
+     - .. figure:: /images/extrude-verts-after.jpg
+          :width: 250px
 
-   Vertices Only extrude
+          Vertices Only extrude
 
+   * - .. figure:: /images/extrude-edges-before.jpg
+          :width: 250px
+   
+          Edge selected
 
-.. figure:: /images/extrude-edges-before.jpg
-   :width: 250px
+     - .. figure:: /images/extrude-edges-after.jpg
+          :width: 250px
 
-   Edge selected
-
-
-.. figure:: /images/extrude-edges-after.jpg
-   :width: 250px
-
-   Edge Only extrude
-
-
+          Edge Only extrude

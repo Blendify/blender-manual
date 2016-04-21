@@ -133,13 +133,13 @@ This is done as follows:
 Edge marks are useful when you want to draw lines along particular mesh edges.
 The examples below explain the use of edge marks.
 
+.. figure:: /images/freestyle-edge-marks-viewport.jpg
+
+   Marking Freestyle Edges in edit mode.
+
 .. list-table::
 
-   * - .. figure:: /images/freestyle-edge-marks-viewport.jpg
-
-          Marking Freestyle Edges in edit mode.
-
-     - .. figure:: /images/freestyle-edge-marks-disabled.jpg
+   * - .. figure:: /images/freestyle-edge-marks-disabled.jpg
 
           Render without Edge Marks.
 

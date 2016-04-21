@@ -136,35 +136,44 @@ type the main char, press :kbd:`Alt-Backspace`,
 and then press the desired "modifier" to produce the special character.
 Some examples are given below:
 
+.. |atilde| unicode:: U+000E3
+.. |aacute| unicode:: U+000E1
+.. |agrave| unicode:: U+000E0
+.. |aring|  unicode:: U+000E5
+.. |euml|   unicode:: U+000EB
+.. |oslash| unicode:: U+000F8
 
 .. list-table::
+   :widths: 20 80
 
-   * - :kbd:`A`, :kbd:`Alt-Backspace`, :kbd:`~`
+   * -  |atilde|
 
-     - ã
+     - :kbd:`A`, :kbd:`Alt-Backspace`, :kbd:`~`
+
+   * - |aacute|
 
      - :kbd:`A`, :kbd:`Alt-Backspace`, :kbd:`'`
 
-     - á
+   * - |agrave|
 
      - :kbd:`A`, :kbd:`Alt-Backspace`, :kbd:`\``
 
-     - à
+   * - |aring|
 
-   * - :kbd:`A`, :kbd:`Alt-Backspace`, :kbd:`O`
+     - :kbd:`A`, :kbd:`Alt-Backspace`, :kbd:`O`
 
-     - å
+   * - |euml|
 
      - :kbd:`E`, :kbd:`Alt-Backspace`, :kbd:`"`
 
-     - ë
+   * - |oslash|
 
      - :kbd:`O`, :kbd:`Alt-Backspace`, :kbd:`/`
 
-     - ø
 
 
 Convert Text to Text Object
+
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: /images/ConvertTextToTextObject.jpg

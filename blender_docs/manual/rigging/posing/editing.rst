@@ -193,28 +193,37 @@ Here are important points:
 
 .. list-table::
 
-   * - Examples of pose copy/paste.
-     - .. figure:: /images/RiggingPosingCopyPoseExRestArmaOrg.jpg
+   * - .. figure:: /images/RiggingPosingCopyPoseExRestArmaOrg.jpg
 
           The rest position of our original armature.
+
      - .. figure:: /images/RiggingPosingCopyPoseExRestArmaDest.jpg
 
           The rest position of our destination armature.
+
+.. list-table::
+   Examples of pose copy/paste.
+
    * - .. figure:: /images/RiggingPosingCopyPoseExPose1ArmaOrg.jpg
 
           The first copied pose (note that only forearm and finger2_a are selected and hence copied).
+
      - .. figure:: /images/RiggingPosingCopyPoseExPastedPose1ArmaDest.jpg
 
           ...pasted on the destination armature...
+
      - .. figure:: /images/RiggingPosingCopyPoseExPastedMirrPose1ArmaDest.jpg
 
           ...and mirror-pasted on the destination armature.
+
    * - .. figure:: /images/RiggingPosingCopyPoseExPose2ArmaOrg.jpg
 
           The same pose as above is copied, but this time with all bones selected, ...
+
      - .. figure:: /images/RiggingPosingCopyPoseExPastedPose2ArmaDest.jpg
 
           ...pasted on the destination armature...
+
      - .. figure:: /images/RiggingPosingCopyPoseExPastedMirrPose2ArmaDest.jpg
 
           ...and mirror-pasted on the destination armature.

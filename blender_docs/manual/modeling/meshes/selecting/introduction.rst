@@ -117,18 +117,22 @@ for examples of the different modes.
 .. list-table::
 
    * - .. figure:: /images/EditModeVerticeModeExample.jpg
+          :width: 300px
 
           Vertices mode example.
 
      - .. figure:: /images/EditModeEdgeModeExample.jpg
+          :width: 300px
 
           Edges mode example.
 
    * - .. figure:: /images/EditModeFaceModeExample.jpg
+          :width: 300px
 
           Faces mode example.
 
      - .. figure:: /images/EditModeMixedModeExample.jpg
+          :width: 300px
 
           Mixed mode example.
 

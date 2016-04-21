@@ -113,40 +113,37 @@ borders of the faces of the other side of the rip.
 Examples
 ^^^^^^^^
 
-.. figure:: /images/rip-before.jpg
-   :width: 300px
+.. list-table::
 
-   selected vertex
+   * - .. figure:: /images/rip-before.jpg
+          :width: 300px
 
+          selected vertex
 
-.. figure:: /images/rip-after.jpg
-   :width: 300px
+     - .. figure:: /images/rip-after.jpg
+          :width: 300px
 
-   Hole created after using rip on vertex
+          Hole created after using rip on vertex
 
+   * - .. figure:: /images/rip-edges-before.jpg
+          :width: 300px
+   
+          Edges selected
 
-.. figure:: /images/rip-edges-before.jpg
-   :width: 300px
+     - .. figure:: /images/rip-edges-after.jpg
+          :width: 300px
 
-   Edges selected
+          Result of rip with edge selection
 
+   * - .. figure:: /images/rip-complexSelection-before.jpg
+          :width: 300px
 
-.. figure:: /images/rip-edges-after.jpg
-   :width: 300px
+          A complex selection of vertices
 
-   Result of rip with edge selection
+     - .. figure:: /images/rip-complexSelection-after.jpg
+          :width: 300px
 
-
-.. figure:: /images/rip-complexSelection-before.jpg
-   :width: 300px
-
-   A complex selection of vertices
-
-
-.. figure:: /images/rip-complexSelection-after.jpg
-   :width: 300px
-
-   Result of rip operation
+          Result of rip operation
 
 
 Limitations
@@ -173,17 +170,17 @@ Rip Fill
 Rip fill works the same as the Rip tool above, but instead of leaving a hole,
 it fills in the gap with geometry.
 
+.. list-table::
 
-.. figure:: /images/rip-edges-before.jpg
-   :width: 300px
+   * - .. figure:: /images/rip-edges-before.jpg
+          :width: 300px
 
-   Edges selected
+          Edges selected
 
+     - .. figure:: /images/ripFill-result.jpg
+          :width: 300px
 
-.. figure:: /images/ripFill-result.jpg
-   :width: 300px
-
-   Result of rip fill
+          Result of rip fill
 
 
 Split
@@ -318,23 +315,22 @@ then :kbd:`LMB` again to move the vertex.
 :kbd:`Alt` or :kbd:`C`
    Toggle clamping the slide within the edge extents.
 
+.. list-table::
 
-.. figure:: /images/VertexSlide1.jpg
-   :width: 200px
+   * - .. figure:: /images/VertexSlide1.jpg
+          :width: 200px
 
-   Selected vertex
+          Selected vertex
 
+     - .. figure:: /images/VertexSlide2.jpg
+          :width: 200px
 
-.. figure:: /images/VertexSlide2.jpg
-   :width: 200px
+          Positioning vertex interactively
 
-   Positioning vertex interactively
+     - .. figure:: /images/VertexSlide3.jpg
+          :width: 200px
 
-
-.. figure:: /images/VertexSlide3.jpg
-   :width: 200px
-
-   Repositioned vertex
+          Repositioned vertex
 
 
 Smooth

@@ -188,25 +188,24 @@ Fresnel
    * - .. figure:: /images/material-raytrace_transp-fresnelexampel.jpg
           :width: 320px
 
+          16 pieces of glass rotated in various directions demonstrate the angle-dependent Fresnel effect
+          with ray-traced...
+
      - .. figure:: /images/material-raytrace_transp-fresnelexampelztransp.jpg
           :width: 320px
 
-   * - 16 pieces of glass rotated in various directions demonstrate the angle-dependent Fresnel effect
-       with ray-traced (left) and alpha buffered transparency (right).
-       Note that the major difference is the lack of IOR effect in the latter case.
-       (Download `.blend <https://wiki.blender.org/index.php/:File:Manual25-Material-FresnelExample.blend>`__.)
+          ... or alpha buffered transparency.
+          Note that the major difference is the lack of IOR effect in the latter case.
+          (Download `.blend <https://wiki.blender.org/index.php/:File:Manual25-Material-FresnelExample.blend>`__.)
 
-     -
 
    * - .. figure:: /images/material-raytrace_transp-fresnelsettings.jpg
           :width: 320px
 
+          Settings for Fresnel using ray-traced (left) and Z transparency (right).
+
      - .. figure:: /images/material-raytrace_transp-fresnelsettingsztransp.jpg
           :width: 320px
-
-   * - Settings for Fresnel using ray-traced (left) and Z transparency (right).
-
-     -
 
 
 Note the specular highlight in the F4 glass tile

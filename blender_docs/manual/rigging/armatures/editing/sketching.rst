@@ -90,7 +90,7 @@ whatever convert algorithm you use (except for the* *Template* conversion method
      - .. figure:: /images/RiggingSketchingDrawingPolyStrokeEx3.jpg
           :width: 200px
 
-          Repeating these steps, we now have a four-segment polygonal stroke.
+Repeating these steps, we now have a four-segment polygonal stroke.
 
 
 Free Segments
@@ -130,7 +130,7 @@ raise this value a bit, and if you find them too jagged, lower it.
      - .. figure:: /images/RiggingSketchingDrawingFreeStrokeEx4.jpg
           :width: 300px
 
-          But if you immediately click again and drag :kbd:`LMB` you'll instead start a new free segment.
+But if you immediately click again and drag :kbd:`LMB` you'll instead start a new free segment.
 
 
 You finalize a whole stroke by clicking* :kbd:`RMB`. You can cancel the stroke you are drawing by pressing :kbd:`Esc`.
@@ -174,6 +174,7 @@ but rather create a new one, as if* *Overdraw Sketching* was disabled.
 
 
 .. list-table::
+   Adjusting stroke example.
 
    * - .. figure:: /images/boneSketch-overdraw.jpg
           :width: 350px
@@ -185,11 +186,6 @@ but rather create a new one, as if* *Overdraw Sketching* was disabled.
           :width: 350px
 
           Stroke adjusted.
-
-   * - Adjusting stroke example.
-
-     -
-
 
 Finally, note that there is no undo/redo for sketch drawing...
 
@@ -256,7 +252,7 @@ To* **delete** a stroke, draw a "V" crossing the stroke to delete twice.
 
           Result.
 
-
+		  
 Reverse
 -------
 
@@ -304,6 +300,7 @@ each free segment of the selected strokes will be uniformly divided in ``n`` par
 (set in *Num* numeric field), i.e. will give ``n`` bones.
 
 .. list-table::
+   The fixed conversion result.
 
    * - .. figure:: /images/boneSketch-convert.jpg
           :width: 300px
@@ -313,10 +310,8 @@ each free segment of the selected strokes will be uniformly divided in ``n`` par
      - .. figure:: /images/boneSketch-convert2.jpg
           :width: 300px
 
-          The Fixed conversion result.
 
-
-Adaptative
+Adaptive
 ----------
 
 With this method, each free segment of the selected strokes will create as many bones as
@@ -326,16 +321,15 @@ following more closely the segments' shape.
 So the more twisted a free segment, the more bones it will generate.
 
 .. list-table::
+   The adaptive conversion result.
 
    * - .. figure:: /images/boneSketch-convert3.jpg
           :width: 300px
 
-          The Adaptative conversion settings and its preview on selected strokes.
+          The adaptive conversion settings and its preview on selected strokes.
 
      - .. figure:: /images/boneSketch-convert4.jpg
           :width: 300px
-
-          The Adaptative conversion result.
 
 
 Length
@@ -347,6 +341,7 @@ so that none of them is longer than the *Length* numeric field value
 (in Blender Units).
 
 .. list-table::
+   The length conversion result.
 
    * - .. figure:: /images/boneSketch-convert5.jpg
           :width: 200px
@@ -360,8 +355,6 @@ so that none of them is longer than the *Length* numeric field value
 
      - .. figure:: /images/boneSketch-convert7.jpg
           :width: 200px
-
-          The Length conversion result.
 
 
 Retarget
