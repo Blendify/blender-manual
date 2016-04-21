@@ -18,6 +18,7 @@ Options
 =======
 
 .. figure:: /images/CZ_ArrayModifier_IF.jpg
+   :align: right
 
    Array modifier.
 
@@ -87,13 +88,12 @@ First Last
       *First Last* merge example.
 
       * - .. figure:: /images/Dev-ArrayModifier-FirstLastDiscontinuity01.jpg
+
+            Subsurf discontinuity caused by not merging vertices between first and last copies (*First Last* off).
+
         - .. figure:: /images/Dev-ArrayModifier-FirstLastMerge01.jpg
-      * - | Subsurf discontinuity caused by
-          | not merging vertices between first
-          | and last copies (*First Last* off).
-        - | Subsurf discontinuity eliminated
-          | by merging vertices between first
-          | and last copies (*First Last* on).
+
+            Subsurf discontinuity eliminated by merging vertices between first and last copies (*First Last* on).
 
 
 Distance
@@ -197,28 +197,18 @@ Organic
    * - .. figure:: /images/Dev_Array_Fractal_example.jpg
           :width: 300px
 
-          Fig 01
+          Subsurfed cube array with 1 object offset, 4 cubes and a high vertex merge setting to give the effect of skinning.
 
      - .. figure:: /images/Dev-ArrayModifier-Spiral01.jpg
           :width: 300px
 
-          Fig 02
+          A double spiral created with two array modifiers and one subsurf modifier applied to a cube.
+          As above, the vertex merge threshold is set very high to give the effect of skinning.
+          `Sample blend-file <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Spiral01.blend>`__
 
-   * - .. figure:: /images/Modifier-Array-Tentacle01.jpg
-          :width: 600px
+.. figure:: /images/Modifier-Array-Tentacle01.jpg
+   :width: 600px
 
-          Fig 03
-
-     -
-
-
-Fig 01
-   Subsurfed cube array with 1 object offset, 4 cubes and a high vertex merge setting to give the effect of skinning.
-Fig 02
-   A double spiral created with two array modifiers and one subsurf modifier applied to a cube.
-   As above, the vertex merge threshold is set very high to give the effect of skinning.
-   `Sample blend-file <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Spiral01.blend>`__
-Fig 03
    A tentacle created with an Array modifier followed by a Curve modifier.
    The segment in the foreground is the base mesh for the tentacle; the tentacle is capped by two
    specially-modeled objects deformed by the same Curve object as the main part of the tentacle.

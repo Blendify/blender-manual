@@ -37,6 +37,7 @@ Modes might affect many things in Blender:
 .. list-table::
    Blender's Modes
    :header-rows: 1
+   :widths: 10 25 15 50 
 
    * - Icon
      - Name
