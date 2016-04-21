@@ -72,9 +72,9 @@ but there are three strokes to map to. In this case, the same chain is copied th
 (once for each stroke) and then mapped to individual strokes.
 Note how a two-bone chain is fitted to a three-segment stroke.
 
-The newly created bones are numbered sequentially, after the original bones' names.
 
 .. list-table::
+   The newly created bones are numbered sequentially, after the original bones' names.
 
    * - .. figure:: /images/RiggingTemplatingMultiPolyStrokesConversionEx1.jpg
 
@@ -223,35 +223,33 @@ S and N text fields, "auto" button
    ``r`` for negative X values, ``l`` for positive ones).
 
 
-Naming and placeholders, using a simple leg template.
+.. list-table::
+   Naming and placeholders, using a simple leg template.
 
-   .. list-table::
+   * - .. figure:: /images/RiggingTemplatingNamePlaceholdersEx1.jpg
+          :width: 325px
 
-      * - .. figure:: /images/RiggingTemplatingNamePlaceholdersEx1.jpg
-             :width: 325px
+          Before conversion (note the &n and &s
+          placeholders in template bones' names).
 
-             Before conversion (note the &n and &s
-             placeholders in template bones' names).
+     - .. figure:: /images/RiggingTemplatingNamePlaceholdersEx2.jpg
+          :width: 205px
 
-        - .. figure:: /images/RiggingTemplatingNamePlaceholdersEx2.jpg
-             :width: 205px
-
-             After conversion: the placeholders have been replaced by the
-             content of the S and N text fields of the Bone Sketching panel.
+          After conversion: the placeholders have been replaced by the
+          content of the S and N text fields of the Bone Sketching panel.
 
 
-Auto naming and placeholders, using a simple leg template.
+.. list-table::
+   Auto naming and placeholders, using a simple leg template.
 
-   .. list-table::
+   * - .. figure:: /images/RiggingTemplatingAutoNamingEx1.jpg
+          :width: 285px
 
-      * - .. figure:: /images/RiggingTemplatingAutoNamingEx1.jpg
-             :width: 285px
+          Before conversion (note that, in the Bone Sketching panel,
+          the S and N fields are empty, and the small "auto" button is enabled).
 
-             Before conversion (note that, in the Bone Sketching panel,
-             the S and N fields are empty, and the small "auto" button is enabled).
-
-        - .. figure:: /images/RiggingTemplatingAutoNamingEx2.jpg
-             :width: 315px
+     - .. figure:: /images/RiggingTemplatingAutoNamingEx2.jpg
+          :width: 315px
 
 
 Static text line

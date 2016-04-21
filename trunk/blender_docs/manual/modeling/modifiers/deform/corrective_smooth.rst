@@ -76,9 +76,8 @@ Rest Source
 Example
 =======
 
-Here is an example of a character using a simple rig using only bone envelopes *(no weight painting)*.
-
 .. list-table::
+   An example of a rig using bone envelopes and not weight painting.
 
    * - .. figure:: /images/modifier-corrective_smooth_example_pose_before.png
           :width: 350px
