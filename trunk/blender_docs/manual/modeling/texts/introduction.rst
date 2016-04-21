@@ -1,3 +1,9 @@
+.. |atilde| unicode:: U+000E3
+.. |aacute| unicode:: U+000E1
+.. |agrave| unicode:: U+000E0
+.. |aring|  unicode:: U+000E5
+.. |euml|   unicode:: U+000EB
+.. |oslash| unicode:: U+000F8
 
 ************
 Introduction
@@ -136,13 +142,6 @@ type the main char, press :kbd:`Alt-Backspace`,
 and then press the desired "modifier" to produce the special character.
 Some examples are given below:
 
-.. |atilde| unicode:: U+000E3
-.. |aacute| unicode:: U+000E1
-.. |agrave| unicode:: U+000E0
-.. |aring|  unicode:: U+000E5
-.. |euml|   unicode:: U+000EB
-.. |oslash| unicode:: U+000F8
-
 .. list-table::
    :widths: 20 80
 
@@ -173,7 +172,6 @@ Some examples are given below:
 
 
 Convert Text to Text Object
-
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: /images/ConvertTextToTextObject.jpg
