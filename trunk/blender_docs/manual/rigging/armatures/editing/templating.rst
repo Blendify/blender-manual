@@ -63,19 +63,16 @@ are copied and the newly created copy of the chain is matched with the stroke.
 
           After conversion.
 
-   * - If you had selected both the chains (``Chain_a`` and ``Chain_b``),
-       you would have still got the same result as in the example above,
-       because the command maps to stroke only one selected chain.
+If you had selected both the chains (``Chain_a`` and ``Chain_b``),
+you would have still got the same result as in the example above,
+because the command maps to stroke only one selected chain.
 
-       In the following example also, only one chain is selected,
-       but there are three strokes to map to. In this case, the same chain is copied three times
-       (once for each stroke) and then mapped to individual strokes.
-       Note how a two-bone chain is fitted to a three-segment stroke.
+In the following example also, only one chain is selected,
+but there are three strokes to map to. In this case, the same chain is copied three times
+(once for each stroke) and then mapped to individual strokes.
+Note how a two-bone chain is fitted to a three-segment stroke.
 
-       The newly created bones are numbered sequentially, after the original bones' names.
-
-     -
-
+The newly created bones are numbered sequentially, after the original bones' names.
 
 .. list-table::
 
@@ -146,8 +143,7 @@ No, View, Joint buttons
 
 
 .. list-table::
-   Templating: bone roll example. The ``Bone.003`` -to- ``Bone.005`` chain is the mapped-to-stroke
-   version of ``Bone`` -to- ``Bone.002`` selected one, and ``Bone.001`` has a modified roll angle.
+   Templating: bone roll example. 
 
    * - .. figure:: /images/RiggingTemplatingBoneRollExNo.jpg
           :width: 200px
@@ -164,6 +160,8 @@ No, View, Joint buttons
 
           With Joint roll option.
 
+The ``Bone.003`` -to- ``Bone.005`` chain is the mapped-to-stroke
+version of ``Bone`` -to- ``Bone.002`` selected one, and ``Bone.001`` has a modified roll angle.
 
 Template drop-down list
    Here you select the armature to use as template.

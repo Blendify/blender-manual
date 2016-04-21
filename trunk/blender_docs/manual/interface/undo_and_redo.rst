@@ -45,14 +45,10 @@ the contents of the Pop-Up Window are different, because of your context (Edit M
 (See Fig:Redo Last - Scale)
 
 
-.. list-table::
+.. figure:: /images/basics-undo-redo-f6-rotation-object-edit.jpg
 
-   * - .. figure:: /images/basics-undo-redo-f6-rotation-object-edit.jpg
-          :align: center
-
-   * -     **Left Image**: Redo Last- Rotation (Object Mode, 60 degrees)
-
-   * -     **Right Right**: Redo Last- Scale (Edit Mode, Resize face)
+   **Left Image**: Redo Last- Rotation (Object Mode, 60 degrees), 
+   **Right Image**: Redo Last- Scale (Edit Mode, Resize face)
 
 
 .. tip:: Operations using Redo Last

@@ -52,10 +52,13 @@ the *Shadow* panel has the following default layout:
 
    * - .. figure:: /images/lighting-lamps-area-adap_qmc.jpg
           :width: 300px
+
+          Adaptive QMC settings
+
      - .. figure:: /images/lighting-lamps-area-cont_jitt.jpg
           :width: 300px
-   * - Adaptive QMC settings
-     - Constant Jittered settings
+
+          Constant Jittered settings
 
 
 Area Shape
@@ -63,17 +66,17 @@ Area Shape
 
 The shape of the area light can be set to *Square* or *Rectangle*.
 
+.. list-table::
 
-.. figure:: /images/lighting-lamps-area-square.jpg
-   :width: 308px
+   * - .. figure:: /images/lighting-lamps-area-square.jpg
+          :width: 308px
 
-   Square options
+          Square options
 
+     - .. figure:: /images/lighting-lamps-area-rect.jpg
+          :width: 308px
 
-.. figure:: /images/lighting-lamps-area-rect.jpg
-   :width: 308px
-
-   Rectangle options
+          Rectangle options
 
 
 Square / Rectangular

@@ -79,11 +79,13 @@ Example
 Here is an example of a character using a simple rig using only bone envelopes *(no weight painting)*.
 
 .. list-table::
-   :header-rows: 1
 
-   * - Armature Only
-     - Armature & Corrective Smooth
    * - .. figure:: /images/modifier-corrective_smooth_example_pose_before.png
-          :scale: 66%
+          :width: 350px
+
+          Armature only
+
      - .. figure:: /images/modifier-corrective_smooth_example_pose_after.png
-          :scale: 66%
+          :width: 350px
+
+          Armature & corrective smooth
