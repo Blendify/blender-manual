@@ -34,7 +34,6 @@ worth taking account of if the *ParticleInstance* modifier settings don't appear
 be giving the results expected, as it may indicate that the particle system settings may need
 altering rather than the *ParticleInstance* modifier settings.
 
-
 Object
    The *Object* field, associates this *ParticleInstance* modifier with another object (usually an
    object having a particle system...).
@@ -64,15 +63,13 @@ Particle System
    shape of a cube.
 
 
-.. figure:: /images/modifier-particle_instance_modifiers-split_plane_2.jpg
-   :width: 610px
+   .. figure:: /images/modifier-particle_instance_modifiers-split_plane_2.jpg
+      :width: 610px
 
-   Render showing a single Plain mesh object assigned to two different vertex groups
-   and each of those vertex groups is assigned a separate and independent particle system,
-   with each particle system being assigned a different ParticleInstance modifier.
-   In the case shown the ParticleInstance modifiers are a sphere and a cube.
-   `Example Blend file <https://wiki.blender.org/index.php/Media:Manual - Modifiers -
-   Particle Instance Modifiers - Split Plane.blend>`__
+      Render showing a single Plain mesh object assigned to two different vertex groups
+      and each of those vertex groups is assigned a separate and independent particle system,
+      with each particle system being assigned a different ParticleInstance modifier.
+      In the case shown the ParticleInstance modifiers are a sphere and a cube.
 
 
 Creation
@@ -141,30 +138,25 @@ Random
    :width: 500px
 
    Keyed particle following way points (showing one particle).
-   `Example Blend file <https://wiki.blender.org/index.php/Media:Manual -
-   Particle Instance Modifier - Keyed Particle Example 1.blend>`__
 
-
-   When a *ParticleInstance* modifier is added to a cylinder object
-   and then associated with the way point particle system,
-   the particle position is copied by the cylinder and placed at the particles position.
-   So the mesh object follows the location of the particle.
-   The cylinder does not alter any of its other properties when following the particle,
-   only the cylinders location gets altered, shape and rotation do not get altered.
-   See screenshot below:
+When a *ParticleInstance* modifier is added to a cylinder object
+and then associated with the way point particle system,
+the particle position is copied by the cylinder and placed at the particles position.
+So the mesh object follows the location of the particle.
+The cylinder does not alter any of its other properties when following the particle,
+only the cylinders location gets altered, shape and rotation do not get altered.
+See screenshot below:
 
 
 .. figure:: /images/Particle_Instance_Modifier-Keyed_Particle_Example_2.jpg
    :width: 500px
 
    Keyed particle following way points showing a mesh object
-   (ParticleInstance modifier) in place of the original particle.
-   `Example Blend file <https://wiki.blender.org/index.php/Media:Manual -
-   Particle Instance Modifier - Keyed Particle Example 2.blend>`__
+   (Particle Instance modifier) in place of the original particle.
 
 
-   Both of the above examples had the *ParticleInstance* modifier *Path* button deactivated.
-   When the *Path* button is activated the effect can be seen in the screenshot below:
+Both of the above examples had the *ParticleInstance* modifier *Path* button deactivated.
+When the *Path* button is activated the effect can be seen in the screenshot below:
 
 
 .. figure:: /images/Particle_Instance_Modifier-Keyed_Particle_Example_3.jpg
@@ -176,15 +168,14 @@ Random
    Particle Instance Modifier - Keyed Particle Example 3.blend>`__
 
 
-   Instead of the cylinder location just following the position of the particle (and not altering its shape),
-   the cylinder tries to fit its mesh to the shape of the path followed by the particle.
-   The mesh geometry of the object which is trying to deform can have an
-   impact on how well the deformation is carried out.
-   In the case of the cylinder, it has many loop cuts along its length so
-   that it can bend at those points to deform along the particle path.
-   For example here is the same scene with the number of loop cuts along the length of the cylinder reduced,
-   showing the effect on the deformation of the cylinder along the particle path.
-
+Instead of the cylinder location just following the position of the particle (and not altering its shape),
+the cylinder tries to fit its mesh to the shape of the path followed by the particle.
+The mesh geometry of the object which is trying to deform can have an
+impact on how well the deformation is carried out.
+In the case of the cylinder, it has many loop cuts along its length so
+that it can bend at those points to deform along the particle path.
+For example here is the same scene with the number of loop cuts along the length of the cylinder reduced,
+showing the effect on the deformation of the cylinder along the particle path.
 
    .. list-table::
 
@@ -211,23 +202,21 @@ Random
              and instead the cylinder just goes directly to the last way point 4.
 
 
-   Once all the extra edge loops around cylinder are removed so that there is only the top and bottom vertices left,
-   meaning that the cylinder doesn't have enough geometry to bend,
-   in that case it cannot follow the path of the particle,
-   so it just goes from the start way point ``1`` to the ending way point ``4``.
-   The *ParticleInstance* modifier *Path* button works for hair (strand)
-   particles as well as with keyed particles.
-   In this case the mesh of the *ParticleInstance*
-   modifier will follow the length and profile of the hair strands paths.
-   Below is a screenshot showing the effect of the *Path* button on hair:
+Once all the extra edge loops around cylinder are removed so that there is only the top and bottom vertices left,
+meaning that the cylinder doesn't have enough geometry to bend,
+in that case it cannot follow the path of the particle,
+so it just goes from the start way point ``1`` to the ending way point ``4``.
+The *ParticleInstance* modifier *Path* button works for hair (strand)
+particles as well as with keyed particles.
+In this case the mesh of the *ParticleInstance*
+modifier will follow the length and profile of the hair strands paths.
+Below is a screenshot showing the effect of the *Path* button on hair:
 
 
 .. figure:: /images/Particle_Instance_Modifier-Strand_Mesh_Deform.jpg
    :width: 500px
 
    Strand with a ParticleInstance modifier associated with it and deforming the cylinder along the hair profile.
-   `Example Blend file <https://wiki.blender.org/index.php/Media:Manual -
-   Particle Instance Modifier - Strand Mesh Deform.blend>`__
 
 
 .. note::
