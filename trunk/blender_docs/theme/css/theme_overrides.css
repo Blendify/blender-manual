@@ -72,3 +72,8 @@ table { caption-side: bottom; }
 .rst-footer-buttons::before , .rst-footer-buttons::after{
     width: 100%;
 }
+
+/*.. container:: lead , block text float around image*/
+.lead {
+	clear: both; width: 100%;
+}
