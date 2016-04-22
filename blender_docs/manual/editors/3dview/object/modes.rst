@@ -1,4 +1,3 @@
-
 .. _object-modes:
 
 ************
@@ -45,58 +44,56 @@ Modes might affect many things in Blender:
      - Details
    * - .. figure:: /images/icons_object-mode.png
           :width: 35px
-     - *Object* mode
-     - *None* :sup:`1`
+     - *Object* Mode
+     - *None* [1]_
      - The default mode, available for all object types,
        as it is dedicated to *Object* data-block editing (i.e. position/rotation/size).
    * - .. figure:: /images/icons_edit-mode.png
           :width: 35px
-     - *Edit* mode
-     - :kbd:`Tab`:sup:`1`
+     - *Edit* Mode
+     - :kbd:`Tab` [1]_
      - A mode available for all renderable object types,
        as it is dedicated to their "shape" *ObData* data-block editing
        (i.e. vertices/edges/faces for meshes, control points for curves/surfaces, etc.)
    * - .. figure:: /images/icons_sculpt-mode.png
           :width: 35px
-     - *Sculpt* mode
-     - *None* :sup:`1`
+     - *Sculpt* Mode
+     - *None* [1]_
      - A mesh-only mode, that enables Blender's mesh 3D-sculpting tool.
    * - .. figure:: /images/icons_vertex-paint.png
           :width: 35px
-     - *Vertex Paint* mode
-     - *None* :sup:`1`
+     - *Vertex Paint* Mode
+     - *None* [1]_
      - A mesh-only mode, that allows you to set your mesh's vertices colors (i.e. to "paint" them).
    * - .. figure:: /images/icons_texture-paint.png
           :width: 35px
-     - *Texture Paint* mode
-     - *None* :sup:`1`
+     - *Texture Paint* Mode
+     - *None* [1]_
      - A mesh-only mode, that allows you to paint your mesh's texture directly on the model, in the 3D views.
    * - .. figure:: /images/icons_weight-paint.png
           :width: 35px
-     - *Weight Paint* mode
-     - :kbd:`Ctrl-Tab`:sup:`2`
+     - *Weight Paint* Mode
+     - :kbd:`Ctrl-Tab` [2]_
      - A mesh-only mode, dedicated to vertex group weighting.
    * - .. figure:: /images/icons_particle-edit.png
           :width: 35px
-     - *Particle* mode
-     - *None* :sup:`1`
+     - *Particle* Mode
+     - *None* [1]_
      - A mesh-only mode, dedicated to particle systems, useful with editable systems (hair).
    * - .. figure:: /images/icons_pose-mode.png
           :width: 35px
-     - *Pose* mode
-     - :kbd:`Ctrl-Tab`:sup:`2`
+     - *Pose* Mode
+     - :kbd:`Ctrl-Tab` [2]_
      - An armature only mode, dedicated to armature posing.
    * - .. figure:: /images/icons_grease-pencil.png
           :width: 35px
-     - Edit Strokes.
+     - Edit Strokes Mode
      - :kbd:`D-Tab`.
      - A Grease Pencil only mode, dedicated to editing Grease Pencil strokes.
 
 
-Notes about modes shortcuts:
-
-#. :kbd:`Tab` toggles *Edit* mode.
-#. :kbd:`Ctrl-Tab` switches between the *Weight Paint* (meshes) / *Pose* (armatures) modes,
+.. [1] :kbd:`Tab` toggles *Edit* mode.
+.. [2] :kbd:`Ctrl-Tab` switches between the *Weight Paint* (meshes) / *Pose* (armatures) modes,
    and the other current one (by default, the *Object* mode).
    However, the same shortcut has other, internal meanings in some modes
    (e.g. in *Sculpt* mode, it is used to select the current brush)...
