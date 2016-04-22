@@ -9,4 +9,89 @@ Plane Track Deform Node
 
    Plane Track Deform Node.
 
-TODO - see: https://developer.blender.org/T43469
+The Plane Track Deform Node is used to incorporate the special "plane track" in your composite by checking areas
+which are planes, and replacing their footage with some other image.
+
+Plane Track
+===========
+
+Before using this node, plane track for the footage should be made in the *Movie Clip Editor*.
+.. TODO: add link to plane track's documentation when that is made.
+
+
+Input
+=====
+
+Image
+   Image to put in place of the plane track, and thus, override that area in the movie clip.
+
+
+Options
+=======
+
+Movie Clip
+   Used to select the movie clip whose plane track to use.
+Object
+   Used to select the object to which the plane track is linked.
+Track
+   Used to select the plane track to use.
+Motion Blur
+   Specify whether to use blur caused by motion of the plane track or not.
+
+   Samples
+      Set the number of samples to take for each frame.
+      The higher the samples, the smoother the blur effect,
+      but the longer the render, as each virtual intermediate frame has to be rendered.
+
+      .. note::
+
+         Samples are taken only from the *next* frame, not the previous one.
+         Therefore the blurred object will appear to be slightly ahead of how it would look without motion blur.
+
+   Shutter
+      Time (in frames) the shutter is open.
+      If you are rendering at 24 fps, and the Shutter is set to 0.5,
+      the time in between frames is 41.67 ms, so the
+      shutter is open for half that, 20.83 ms.
+
+
+Output
+======
+
+Image
+   The output by wrapping the image to that plane track.
+Plane
+   Produces a bw mask of the plane track.
+
+
+Examples
+========
+
+Using Image output
+------------------
+
+   This can simply be achieved by using the alpha over node.
+
+.. figure:: /images/compositing_nodes_distort_planetrackdeform_example_image_output.png
+
+   Image output.
+
+Using Plane output
+------------------
+
+   This can be achieved by mixing the movie clip and the image using the plane output as the factor.
+
+.. figure:: /images/compositing_nodes_distort_planetrackdeform_example_plane_output.png
+
+   Plane output.
+
+Using Image output vs using original image
+==========================================
+
+Using Image output scales, translates and skews the input image according to the track
+while using the original image and mixing it with the movie clip using Plane output as factor
+will display the part of the image that lies inside that mask. This image shows the difference
+
+.. figure:: /images/compositing_nodes_distort_planetrackdeform_output_comparison.png
+
+   Comaprison between image output and original image (see viewer nodes carefully).
