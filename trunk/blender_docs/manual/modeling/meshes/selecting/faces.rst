@@ -35,7 +35,7 @@ use the :kbd:`Alt-RMB` shortcut.
 .. figure:: /images/face-mode_different-loop-selections.jpg
    :width: 600px
 
-   Different Loopselect Operations on a grid in Face Select Mode
+   Different Loopselect Operations on a grid in Face Select Mode.
 
 
 - Just the selected face.
@@ -58,7 +58,7 @@ Ngons in Face Select Mode
 
 .. figure:: /images/face-mode_ngon_visual-problem.jpg
 
-   Ngon-Face having its center dot inside another face
+   Ngon-Face having its center dot inside another face.
 
 As already known, faces are marked with a little square dot in the middle of the face.
 With ngons that can lead in certain cases to a confusing display.
@@ -70,5 +70,4 @@ but the face itself.
 
 .. tip:: Face selection
 
-   *To select a face:*
-   Click the face, not the dot!
+   *To select a face:* Click the face, not the dot!

@@ -1,6 +1,4 @@
-
 ..    TODO/Review: {{review|im=examples|partial=X|text = expand basic selection tools}} .
-
 
 ***************
 Basic Selection
@@ -75,23 +73,22 @@ Use *Border Select* to select a group of objects by drawing a rectangle while ho
 In doing this you will select all objects that lie within or touch this rectangle.
 If any object that was last active appears in the group it will become selected *and* active.
 
-
 .. list-table::
 
    * - .. figure:: /images/Modeling-Meshes-Selection-Borderselect1.jpg
           :width: 200px
 
-          Start
+          Start.
 
      - .. figure:: /images/Modeling-Meshes-Selection-Borderselect2.jpg
           :width: 200px
 
-          Selecting
+          Selecting.
 
      - .. figure:: /images/Modeling-Meshes-Selection-Borderselect3.jpg
           :width: 200px
 
-          Complete
+          Complete.
 
 
 In (*Start*), *Border Select* has been activated and is indicated by showing a
@@ -99,7 +96,6 @@ dotted cross-hair cursor. In (*Selecting*),
 the *selection region* is being chosen by drawing a rectangle with the :kbd:`LMB`.
 The selection area is only covering the selection handles of three faces. Finally,
 by releasing :kbd:`LMB` the selection is complete; see (*Complete*).
-
 
 .. note::
 
@@ -111,8 +107,7 @@ by releasing :kbd:`LMB` the selection is complete; see (*Complete*).
 Circular region
 ---------------
 
-This selection tool is only available in *Edit mode* and can be activated with
-:kbd:`C`.
+This selection tool is only available in *Edit mode* and can be activated with :kbd:`C`.
 Once in this mode the cursor changes to a dashed cross-hair with a 2D circle surrounding it.
 The tool will operate on whatever the current select mode is.
 Clicking or dragging with the :kbd:`LMB`,
@@ -121,30 +116,27 @@ causing elements to be inside the circle will cause those elements to be selecte
 You can enlarge or shrink the circle region using :kbd:`NumpadPlus` and :kbd:`NumpadMinus`,
 or the :kbd:`Wheel`.
 
-
 .. list-table::
    Circle Region Select
 
    * - .. figure:: /images/Modeling-Meshes-Selection-Circularselect1.jpg
           :width: 300px
 
-          Before
+          Before.
 
      - .. figure:: /images/Modeling-Meshes-Selection-Circularselect2.jpg
           :width: 300px
 
-          After
+          After.
 
 
 (*Circle Region Select*) is an example of selecting edges while in *Edge Select Mode*.
 As soon as an edge intersects the circle the edge becomes selected.
 The tool is interactive such that edges are selected while the circle region is being dragged with the :kbd:`LMB`.
 
-If you want to deselect elements,
-hold :kbd:`MMB` and begin clicking or dragging again.
+If you want to deselect elements, hold :kbd:`MMB` and begin clicking or dragging again.
 
-For *Faces* select mode,
-the circle must intersect the face indicators usually represented by small pixel squares;
+For *Faces* select mode, the circle must intersect the face indicators usually represented by small pixel squares;
 one at the center of each face.
 
 To exit from this tool, click :kbd:`RMB`, or press the :kbd:`Esc` key.
@@ -170,17 +162,17 @@ To deselect, use :kbd:`Ctrl-Shift-LMB` while dragging.
    * - .. figure:: /images/Modeling-Meshes-Selection-Lassoselect1.jpg
           :width: 200px
 
-          Start
+          Start.
 
      - .. figure:: /images/Modeling-Meshes-Selection-Lassoselect2.jpg
           :width: 200px
 
-          Selecting
+          Selecting.
 
      - .. figure:: /images/Modeling-Meshes-Selection-Lassoselect3.jpg
           :width: 200px
 
-          Complete
+          Complete.
 
 
 (*Lasso selection*) is an example of using the *Lasso* select tool in *Vertex Select Mode*.

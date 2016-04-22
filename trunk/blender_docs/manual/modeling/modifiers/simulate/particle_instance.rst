@@ -1,6 +1,4 @@
-
-..    TODO/Review: {{Review|im=new?}} .
-
+..    TODO/Review: {{Review|im=new?}}.
 
 **************************
 Particle Instance Modifier
@@ -25,7 +23,7 @@ Options
 .. figure:: /images/particleInstanceModifier.jpg
    :width: 250px
 
-   Particle Instance Modifier
+   Particle Instance Modifier.
 
 
 Because of the co-dependant way in which the *ParticleInstance* modifier is
@@ -242,4 +240,3 @@ Random
 .. seealso::
 
    :doc:`Particles </physics/particles/index>`
-

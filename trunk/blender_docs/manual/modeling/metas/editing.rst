@@ -39,7 +39,6 @@ and depending on the *Threshold* and *Stiffness* settings,
 they most likely won't need to.
 *Stiffness* is materialized by the *green ring*
 
-
 The range is from **0.0** to **10.0**. But to be visible,
 the *Stiffness* must be slightly larger than the *Threshold* value. You
 can also visually adjust the *Stiffness* ring by using the :kbd:`RMB` to
@@ -113,7 +112,7 @@ Conversion
 .. figure:: /images/MetaConvertToMesh.jpg
    :width: 300px
 
-   the convert menu
+   Convert Menu.
 
 
 You can only convert metas to meshes,
@@ -159,7 +158,6 @@ The *base* meta is effectively the parent of
 (or perhaps a better word to use is "the owner of") the other metas in the group (i.e.
 it is as if the other metas were "included" or joined into the base one).
 
-
 .. hint::
 
    When working with multiple scenes,
@@ -191,17 +189,14 @@ for the group, and as such, also controls the polygonalization for the children 
 metas. If we transform the *base* meta, the children's polygonalization changes. However,
 if we transform the children, the polygonalization remains unchanged.
 
+.. hint::
 
-Hints
-=====
-
-This discussion of "polygonization" *doesn't* mean that the various meshes don't deform
-towards or away from each other (meta objects always influence one another in the usual way,
-whether or not they are members of the same family). Rather,
-it means that the underlying mesh structure changes only when the *base* object transforms.
-For example, if you scale the *base*, the children's mesh structure changes. In
-(*Scaling the "base"*), the *base* has been scaled down,
-which has the effect of scaling the mesh structure of each of the children. As you can see,
-the children's mesh resolution has increased, while the *base* decreased.
-*The children did not change size!*
-
+   This discussion of "polygonization" *doesn't* mean that the various meshes don't deform
+   towards or away from each other (meta objects always influence one another in the usual way,
+   whether or not they are members of the same family). Rather,
+   it means that the underlying mesh structure changes only when the *base* object transforms.
+   For example, if you scale the *base*, the children's mesh structure changes. In
+   (*Scaling the "base"*), the *base* has been scaled down,
+   which has the effect of scaling the mesh structure of each of the children. As you can see,
+   the children's mesh resolution has increased, while the *base* decreased.
+   *The children did not change size!*

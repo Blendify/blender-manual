@@ -46,7 +46,6 @@ allowing you to use all the powerful features of these types of objects on it...
 (*Text Examples*) shows some examples of various fonts in action,
 including the "blue" font that has been applied to a curve path.
 
-
 .. note::
 
    A maximum of ``50000`` characters is allowed per text object; however,
@@ -168,7 +167,6 @@ Some examples are given below:
    * - |oslash|
 
      - :kbd:`O`, :kbd:`Alt-Backspace`, :kbd:`/`
-
 
 
 Convert Text to Text Object
@@ -340,7 +338,6 @@ In (*Text on curve*) you can see a text deformed by a curve (a 2D Bézier circle
 To apply the curve modifier, the text object first has to be converted to a mesh,
 using :kbd:`Alt-C` and click mesh.
 
-
 .. note::
 
    There is also a Text on Curve feature,
@@ -363,7 +360,7 @@ Underline
 .. figure:: /images/TextFontSettings.jpg
    :width: 300px
 
-   check a character option to, for example, type bold text
+   check a character option to, for example, type bold text.
 
 
 Character
@@ -526,5 +523,3 @@ Geometry
 ========
 
 Text objects have all the :doc:`curves extrusion features </modeling/curves/editing/extrude>`.
-
-

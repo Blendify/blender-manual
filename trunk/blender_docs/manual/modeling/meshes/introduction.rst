@@ -1,4 +1,3 @@
-
 ..    TODO/Review: {{review||text=splitted mesh analysis}}.
 
 ************
@@ -112,7 +111,7 @@ Properties Shelf
 
 .. figure:: /images/editmode-properties-split.jpg
 
-   The Properties Shelf panel in edit mode (panel split in two parts for layout reasons)
+   The Properties Shelf panel in edit mode (panel split in two parts for layout reasons).
 
 
 Open/close the *Properties Shelf* using :kbd:`N`.
@@ -134,7 +133,7 @@ Mesh Display
 .. figure:: /images/modeling_meshes_display.png
    :align: right
 
-   Mesh Display Panel
+   Mesh Display Panel.
 
 This panel is available only in edit mode, when the object being edited is a mesh.
 

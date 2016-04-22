@@ -35,7 +35,7 @@ In fact, surfaces are very similar to the results you get when
 
 
 Finding Surface Tools
-*********************
+=====================
 
 .. figure:: /images/NurbsSurfaceTools.jpg
 
@@ -48,7 +48,7 @@ menus in the 3D view headers, and the *Specials* (:kbd:`W`) pop-up one.
 
 
 Visualization
-*************
+=============
 
 There is nearly no difference from NURBS curves,
 except that the ``U`` direction is indicated by yellow grid lines,
@@ -59,7 +59,7 @@ You can :ref:`hide and reveal <curves-hiding>` control points just as with curve
 
 
 Surface Structure
-*****************
+=================
 
 Many of the concepts from :doc:`curves </modeling/curves/introduction>`,
 especially :ref:`NURBS <modeling-curve-nurbs>` ones,
@@ -88,7 +88,7 @@ it's not easy to follow...).
 .. _modeling-surfaces-rows-grids:
 
 Control Points, Rows and Grid
-=============================
+-----------------------------
 
 Control points for NURBS surfaces are the same as for NURBS curves. However,
 their layout is quite constraining. The concept of "segment" disappears,
@@ -111,14 +111,13 @@ be able to "merge" different pieces of surfaces if at least one of their rows ma
 
 
 Surface Resolution
-==================
+------------------
 
 Just like :ref:`NURBS curves <modeling-curve-nurbs>`, *Resolution* controls the detail of the surface.
 The higher the *Resolution* the more detailed and smoother the surface is.
 The lower the *Resolution* the rougher the surface. However, here you have two resolution settings,
 one for each interpolation axis (U and V). Note that unlike with curves, you have only one resolution
 (the *Resol U* and *V* fields, in the *Curve Tools* panel)...
-
 
 .. list-table::
 
@@ -145,7 +144,7 @@ to not slow things down in the viewport, but still get good render results.
 
 
 Closed and Open Surfaces
-========================
+------------------------
 
 Like curves, surfaces can be closed (cyclical) or open, independently in both directions,
 allowing you to easily create a tube, donut or sphere shape,
@@ -154,7 +153,7 @@ This makes working with surfaces quite easy.
 
 
 Knots
-=====
+-----
 
 Just like with :ref:`NURBS curves <modeling-curve-knot>`, NURBS surfaces have two knot vectors,
 one for each U and V axis. Here again, they can be one of *Cyclic*, *Endpoint*,
@@ -177,7 +176,7 @@ To cause the surface to extend to all edges you would set the ``V`` 's axis to
 
 
 Order
-=====
+-----
 
 One more time, this property is the same as with :ref:`NURBS Curves <modeling-curve-order>`;
 it specifies how much the control points are taken into account for calculating the curve of the surface shape.
@@ -203,7 +202,7 @@ and higher than **6** or the number of control points on the relevant axis.
 .. _modeling-surfaces-weight:
 
 Weight
-======
+------
 
 .. figure:: /images/NurbsSurfaceWeightExample.jpg
    :width: 600px
@@ -228,7 +227,7 @@ The *Weight* of any particular control point is visible in the
 
 
 Preset Weights
---------------
+^^^^^^^^^^^^^^
 
 .. figure:: /images/NurbsSurfaceSphere.jpg
    :width: 250px

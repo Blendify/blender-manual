@@ -1,6 +1,4 @@
-
-..    TODO/Review: {{review|split=X|text=split selection and editing}} .
-
+..    TODO/Review: {{review|split=X|text=split selection and editing}}.
 
 *****************
 Surface Selection
@@ -233,11 +231,9 @@ To toggle the cyclic property of a surface along one axis,
 use :kbd:`Alt-C` and choose either *cyclic U* or *cyclic V* from the pop-up menu.
 The corresponding surface's outer edges will join together to form a "closed" surface.
 
-
 .. note:: Inner and Outer
 
-   Surfaces have an "inner" and "outer" face,
-   the first being black whereas the latter is correctly shaded -
+   Surfaces have an "inner" and "outer" face, the first being black whereas the latter is correctly shaded -
    there does not seem to be any "double sided" shading option for surfaces...).
    When you close a surface in one or two directions, you might get an entirely black object! In this case,
    just `Switch Direction`_ of your surface...
@@ -268,8 +264,10 @@ only selections forming *a single valid sub-grid* are copyable; let's see this i
   This will give you a new **U-row**, even if you selected (part of) a V-row!
 - You can copy a single whole sub-grid.
 
-Note that trying to duplicate several valid "sub-grids" (even being single points)
-at once won't work; you'll have to do it one after the other...
+.. note::
+
+   Trying to duplicate several valid "sub-grids" (even being single points)
+   at once won't work; you'll have to do it one after the other...
 
 
 Deleting Elements

@@ -23,12 +23,10 @@ to twist the "curved" object around it.
 Unfortunately, the other *Radius* property is not used (it would have been possible, for example,
 to make it control the size of the "curved" object...).
 
-
 .. tip::
 
    Try to position your object over the curve immediately after you have added it,
    before adding the curve deform. This gives the best control over how the deformation works.
-
 
 .. note:: Use modifiers!
 
@@ -130,7 +128,6 @@ Let's make a simple example:
 - Now if you select the Monkey (:kbd:`RMB`), and move it (:kbd:`G`),
   in the Y-direction (the dominant axis by default), the monkey will deform nicely along the curve.
 
-
 .. tip::
 
    If you press :kbd:`MMB` (or one of the :kbd:`X` / :kbd:`Y` / :kbd:`Z` keys)
@@ -140,7 +137,6 @@ Let's make a simple example:
 - In (*Monkey deformations*), you can see the Monkey at different positions along the curve.
   To get a cleaner view over the deformation I have activated *SubSurf* with *Subdiv* to **2**,
   and *Set Smooth* on the Monkey mesh.
-
 
 .. tip::
 
@@ -152,4 +148,3 @@ Let's make a simple example:
    :width: 650px
 
    Monkey deformations.
-

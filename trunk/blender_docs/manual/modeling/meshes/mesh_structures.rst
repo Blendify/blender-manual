@@ -12,7 +12,7 @@ Vertices
 
 .. figure:: /images/Mesh-Structures-CubeExample.jpg
 
-   Vertex example
+   Vertex example.
 
 
 A vertex is primarily a single point or position in 3D space.

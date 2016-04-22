@@ -63,5 +63,3 @@ Size
 
 Refresh
    Refresh data in the explode modifier
-
-

@@ -14,7 +14,6 @@ Fortunately modifiers can be rearranged easily by clicking the convenient up and
 For example, the image below shows :doc:`SubSurf </modeling/modifiers/generate/subsurf>` and
 :doc:`Mirror </modeling/modifiers/generate/mirror>` modifiers that have switched places.
 
-
 .. list-table::
 
    * - .. figure:: /images/modifier-stackorder-example2.jpg

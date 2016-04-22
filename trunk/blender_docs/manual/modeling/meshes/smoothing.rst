@@ -4,7 +4,7 @@ Smoothing
 *********
 
 Mesh Shading
-************
+============
 
 .. list-table::
    Example mesh rendered flat, smoothed using edge split, and using Subdivision Surface.
@@ -21,10 +21,10 @@ Mesh Shading
           :width: 200px
 
 
-As seen in the previous sections, polygons are central to Blender. Most objects are
-represented by polygons and truly curved objects are often approximated by polygon meshes.
-When rendering images, you may notice that these polygons appear as a series of small,
-flat faces.
+As seen in the previous sections, polygons are central to Blender.
+Most objects are represented by polygons and truly curved objects
+are often approximated by polygon meshes. When rendering images,
+you may notice that these polygons appear as a series of small, flat faces.
 
 Sometimes this is a desirable effect, but usually we want our objects to look nice and smooth.
 This section shows you how to visually smooth an object, and how to apply the *Auto Smooth*
@@ -34,7 +34,7 @@ The last section on this page shows possibilities for smoothing a mesh's geometr
 not only its appearance.
 
 
-Smooth shading
+Smooth Shading
 ==============
 
 .. admonition:: Reference
@@ -99,6 +99,7 @@ Auto Smooth
 
    * - .. figure:: /images/meshsmooth-example-04rrautosmooth.jpg
           :width: 180px
+
      - .. figure:: /images/meshsmooth-autosmooth.jpg
           :width: 180px
 
@@ -133,20 +134,17 @@ based on angle - those marked as sharp.
    * - .. figure:: /images/meshsmooth-example-05edgesplit.jpg
           :width: 200px
 
-          Edge Split modifier enabled, based on angle
+          Edge Split modifier enabled, based on angle.
 
      - .. figure:: /images/meshsmooth-example-07marksharp.jpg
           :width: 200px
 
-          Edges marked as sharp
+          Edges marked as sharp.
 
      - .. figure:: /images/meshsmooth-example-06marksharp.jpg
           :width: 200px
 
-          Resulting render with sharp edge weighting
-
-
-----
+          Resulting render with sharp edge weighting.
 
 
 Smoothing the mesh geometry
@@ -200,19 +198,19 @@ you can smooth the mesh non-destructively with one or several of the following m
    * - .. figure:: /images/meshsmooth-example-08subsurf.jpg
           :width: 300px
 
-          Subsurf
+          Subsurf.
 
      - .. figure:: /images/meshsmooth-example-09edgecrease.jpg
           :width: 300px
 
-          Using creased edges, and resulting subsurf artifacts
+          Using creased edges, and resulting subsurf artifacts.
 
    * - .. figure:: /images/meshsmooth-example-10edgeloops.jpg
           :width: 300px
 
-          Extra edge loops added
+          Extra edge loops added.
 
      - .. figure:: /images/meshsmooth-example-11edgeloops.jpg
           :width: 300px
 
-          3D view showing creased edges (pink) and added edges loops (yellow)
+          3D view showing creased edges (pink) and added edges loops (yellow).

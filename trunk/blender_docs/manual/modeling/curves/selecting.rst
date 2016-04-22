@@ -1,6 +1,4 @@
-
-..    TODO/Review: {{review|im = add images}} .
-
+..    TODO/Review: {{review|im = add images}}.
 
 ***************
 Curve Selection

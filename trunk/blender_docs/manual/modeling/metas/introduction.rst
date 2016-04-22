@@ -153,8 +153,7 @@ A negative meta will push away or repel the meshes of positive *Meta* objects.
 
 A *positive* influence is defined as an attraction,
 meaning the meshes will stretch towards each other as the *rings of influence* intersect.
-(*Positive*)
-shows two meta balls' *rings of influence* intersecting with a *positive* influence.
+(*Positive*) shows two meta balls' *rings of influence* intersecting with a *positive* influence.
 
 Notice how the meshes have pulled towards one another.
 The area circled in white shows the green *influence* rings intersecting.
@@ -264,4 +263,4 @@ Cube (parallelepipedal volume, tri-dimensional structure)
 .. figure:: /images/MetaPrimitives.jpg
    :width: 600px
 
-   the 5 meta primitives.
+   The 5 Meta primitives.

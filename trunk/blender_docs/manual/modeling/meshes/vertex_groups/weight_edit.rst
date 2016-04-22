@@ -1,3 +1,4 @@
+
 **************
 Weight Editing
 **************
@@ -5,7 +6,7 @@ Weight Editing
 .. figure:: /images/Modeling-Meshes-vertex-weights-panel-overview.jpg
    :width: 235px
 
-   Vertex Weights Panel
+   Vertex Weights Panel.
 
 
 As mentioned before in :doc:`Vertex Groups </modeling/meshes/vertex_groups/index>` each entry
@@ -60,7 +61,6 @@ The Weight Table shows all weights associated to the *active vertex*.
 Note that a vertex does not necessarily have to be associated to any vertex groups.
 In that case the Vertex Weights Panel is not displayed.
 
-
 .. tip:: The active Vertex
 
    That is the most recently selected vertex.
@@ -75,7 +75,7 @@ Each row in the Weight table contains 4 active elements:
 .. figure:: /images/modeling-mesh_vertex-weight-editor-name.jpg
    :width: 335px
 
-   Change Active Group
+   Change Active Group.
 
 
 Set the Active Group
@@ -88,7 +88,7 @@ the referenced Vertex Group becomes the new Active group.
 .. figure:: /images/Modeling-Meshes-vertex-weights-show.jpg
    :width: 235px
 
-   Enable display of Weights in Edit Mode
+   Enable display of Weights in Edit Mode.
 
 
 Display Weights in Edit Mode
@@ -104,7 +104,7 @@ Now you can see the weights of the active Vertex Group displayed on the mesh sur
 .. figure:: /images/Modeling-Meshes-weights-in-edit-mode.jpg
    :width: 235px
 
-   Weights in Edit Mode
+   Weights in Edit Mode.
 
 
 Edit Weights in Edit Mode
@@ -118,7 +118,7 @@ weight values.
 .. figure:: /images/modeling_mesh_vertex-weight-editor-weight.jpg
    :width: 235px
 
-   Change Weight Value
+   Change Weight Value.
 
 
 Change a weight
@@ -133,7 +133,7 @@ arrows displayed around the weight value to change the weight in steps.
 .. figure:: /images/modeling_mesh_vertex-weight-editor-paste.jpg
    :width: 235px
 
-   Paste weights
+   Paste weights.
 
 
 Paste a weight to other verts
@@ -146,7 +146,7 @@ But note that weights are only pasted to verts which already have a weight value
 .. figure:: /images/Modeling-Meshes-vertex-weight-editor-delete.jpg
    :width: 235px
 
-   Delete weights
+   Delete weights.
 
 
 Delete a weight from a Group
@@ -189,11 +189,10 @@ About locked Vertex Groups
 .. figure:: /images/Modeling-Meshes-vertex-weight-editor-locked.jpg
    :width: 235px
 
-   Vertex Weights panel Locked
+   Vertex Weights panel Locked.
 
 
 Whenever a Weight Group is locked, all data changing functions get disabled:
-
 
 - Normalize the vertex Weights.
 - Copy the Vertex weights.
@@ -206,5 +205,3 @@ Whenever a Weight Group is locked, all data changing functions get disabled:
    If you have for example all deform weight groups unlocked and all other vertex groups locked,
    then you can safely select *Deform* from the Filter row
    and use all available functions from the Weight table again.
-
-

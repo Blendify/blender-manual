@@ -1,10 +1,8 @@
-
 ..    TODO/Review: {{review|}} .
 
-
-*************************
-Selecting Mesh Components
-*************************
+************
+Introduction
+************
 
 There are many ways to select elements, and it depends on what *Mesh Select Mode*
 you are in as to what selection tools are available.
@@ -20,7 +18,7 @@ Select Mode Header Widgets
 .. figure:: /images/Modeling-Meshes-Selection-mode-buttons.jpg
    :width: 190px
 
-   Edit mode selection buttons
+   Edit mode selection buttons.
 
 
 In *Edit mode* there are three different selection modes.
@@ -179,6 +177,7 @@ Similar (:kbd:`Shift-G`)
    .. note::
 
       The items shown in the menu depend on the `Selection Mode`_.
+
 More :kbd:`Ctrl-NumpadPlus`
    Propagates selection by adding geometry that are adjacent to selected elements.
 Less :kbd:`Ctrl-NumpadMinus`
@@ -199,4 +198,3 @@ Loop Inner-Region
    Converts a closed selection of edges to the region of faces it encloses
 Boundary Loop
    Converts a selection of faces to the ring of edges enclosing it
-
