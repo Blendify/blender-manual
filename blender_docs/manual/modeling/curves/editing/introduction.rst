@@ -19,7 +19,7 @@ Display Options
 
 .. figure:: /images/Editing_Curves_curve-display-panel.jpg
 
-   Curve Display panel
+   Curve Display panel.
 
 
 When in Edit mode, the Properties Shelf (:kbd:`N`) contains options in the
@@ -124,7 +124,7 @@ Does not effect control point tangents.
 
 .. figure:: /images/modeling_curves_smoothing_example2.jpg
 
-   Entire curve smoothed over 200 times by holding :kbd:`Shift-R` to repeat last step
+   Entire curve smoothed over 200 times by holding :kbd:`Shift-R` to repeat last step.
 			
 .. figure:: /images/modeling_curves_smoothing_example3.jpg
 
@@ -243,7 +243,7 @@ The two curves are joined by a segment to become a single curve.
 .. figure:: /images/Editing_Curves_two-curves-joined.jpg
    :width: 600px
 
-   Curves before and after joining
+   Curves before and after joining.
 
 
 Additionally, you can close a curve by joining the endpoints but note that you can only join
@@ -298,12 +298,12 @@ Segment
    * - .. figure:: /images/Editing_Curves_delete-selected.jpg
           :width: 300px
 
-          Deleting Curve Selected
+          Deleting Curve Selected.
 
      - .. figure:: /images/Editing_Curves_delete-segment.jpg
           :width: 300px
 
-          Deleting Curve segments
+          Deleting Curve segments.
 
 
 .. _modeling-curves-opening-and-closing:
@@ -378,14 +378,12 @@ Converting Curve Type
 
 
 You can convert splines in a curve object between Bézier, NURBS, and Poly curves.
-Press :kbd:`T` to bring up the Toolshelf.
-Clicking on the *Set Spline Type* button will allow you to select the Spline type
-(Poly, Bézier or NURBS).
+Press :kbd:`T` to bring up the Toolshelf. Clicking on the *Set Spline Type*
+button will allow you to select the Spline type (Poly, Bézier or NURBS).
 
 Note, this is not a "smart" conversion, i.e. Blender does not try to keep the same shape,
 nor the same number of control points. For example, when converting a NURBS to a Bézier,
-each group of three NURBS control points become a unique Bézier one
-(center point and two handles).
+each group of three NURBS control points become a unique Bézier one (center point and two handles).
 
 Convert Curve to Mesh
 ---------------------
@@ -398,8 +396,7 @@ Convert Curve to Mesh
    | Hotkey:   :kbd:`Alt-C`
 
 
-There is also an "external" conversion, from curve to mesh,
-that only works in *Object* mode.
+There is also an "external" conversion, from curve to mesh, that only works in *Object* mode.
 It transforms a *Curve* object into a *Mesh* object,
 using the curve resolution to create edges and vertices.
 Note that it also keeps the faces and volumes created by closed and extruded curves.
@@ -430,17 +427,15 @@ Curve Parenting
    | Hotkey:   :kbd:`Ctrl-P`
 
 
-You can make other selected objects
-:ref:`children <object-parenting>` of one or three control points
-:kbd:`Ctrl-P`, as with mesh objects.
+You can make other selected objects :ref:`children <object-parenting>`
+of one or three control points :kbd:`Ctrl-P`, as with mesh objects.
 
 To select a mesh(that is in view) while editing a curve, :kbd:`Ctrl-P` click on it.
 Select either 1 or 3 control points,
 then :kbd:`Ctrl-RMB` the object and use :kbd:`Ctrl-P` to make a vertex parent.
 Selecting 3 control points will make the child follow
-the median point between the three vertices.
-An alternative would be to use a 
-:doc:`Child of constraint </rigging/constraints/relationship/child_of>`
+the median point between the three vertices. An alternative would be to use a 
+:doc:`Child of Constraint </rigging/constraints/relationship/child_of>`
 
 
 Hooks

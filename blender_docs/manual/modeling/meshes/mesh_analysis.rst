@@ -1,6 +1,5 @@
 ..    TODO/Review: {{review|split=X|text=splitted mesh - mesh analysis}} .
 
-
 *************
 Mesh Analysis
 *************
@@ -16,12 +15,12 @@ Currently the different modes target 3d-printing as their primary use.
 
 
 Overhang
---------
+========
 
 .. figure:: /images/editmode_mesh_statvis_overhang.jpg
    :height: 260px
 
-   Overhang
+   Overhang.
 
 
 Extrusion 3D printers have a physical limit to the overhang that can be printed,
@@ -29,12 +28,12 @@ this display mode shows the overhang with angle range and axis selection.
 
 
 Thickness
----------
+=========
 
 .. figure:: /images/editmode_mesh_statvis_thick.jpg
    :height: 260px
 
-   Thickness
+   Thickness.
 
 
 Printers have a limited *wall-thickness* where very thin areas can't be printed,
@@ -42,12 +41,12 @@ this test uses ray casting and a distance range to the thickness of the geometry
 
 
 Intersections
--------------
+=============
 
 .. figure:: /images/editmode_mesh_statvis_intersect.jpg
    :height: 260px
 
-   Intersecting faces
+   Intersecting faces.
 
 
 Another common cause of problems for printing are intersections between surfaces,
@@ -57,12 +56,12 @@ Unlike other display modes, intersections have no variance and are either on or 
 
 
 Distortion
-----------
+==========
 
 .. figure:: /images/editmode_mesh_statvis_distort.jpg
    :height: 260px
 
-   Distorted Faces
+   Distorted Faces.
 
 
 Distorted geometry can cause problems since the triangulation of a distorted ngon is undefined.
@@ -72,16 +71,15 @@ with parts of the face pointing in different directions.
 
 
 Sharp Edges
------------
+===========
 
 .. figure:: /images/editmode_mesh_statvis_sharp.jpg
    :height: 260px
 
-   Sharp edges
+   Sharp edges.
 
 
 Similar to wall-thickness, sharp edges can form shapes that are too thin to be able to print.
-
 
 .. warning::
 
@@ -89,5 +87,3 @@ Similar to wall-thickness, sharp edges can form shapes that are too thin to be a
 
    - Currently only displayed with deform modifiers.
    - For high-poly meshes is slow to use while editing the mesh.
-
-

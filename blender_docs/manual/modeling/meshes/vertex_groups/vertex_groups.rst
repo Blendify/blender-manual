@@ -93,7 +93,7 @@ Vertex Groups Panel Controls
 .. figure:: /images/Modeling-Meshes-vertex-group-panel-one.jpg
    :align: right
 
-   One Vertex Group
+   One Vertex Group.
 
 Once a new Vertex Group has been added, the new Group appears in the
 vertex Groups panel. There you find 3 clickable elements:
@@ -128,7 +128,7 @@ Deleting vertex Groups
 .. figure:: /images/Modeling-Meshes-vertex-group-panel-dg.jpg
    :align: right
 
-   Delete a Vertex Group
+   Delete a Vertex Group.
 
 You delete a Vertex Group by first making it the active group
 (select it in the panel) and then :kbd:`LMB`
@@ -144,7 +144,7 @@ Locking Vertex Groups
 .. figure:: /images/Modeling-Meshes-vertex-group-panel-lg.jpg
    :align: right
 
-   Lock a Vertex Group
+   Lock a Vertex Group.
 
 
 Right after creation of a Vertex Group,
@@ -166,16 +166,14 @@ Working with Content of Vertex Groups
 .. figure:: /images/Modeling-Meshes-vertex-group-panel-one.jpg
    :align: right
 
-   Vertex Group Panel in Edit Mode
+   Vertex Group Panel in Edit Mode.
 
 
-When you switch either to *Edit-Mode*
-or to *Weight-Paint* Vertex
+When you switch either to *Edit-Mode* or to *Weight-Paint* Vertex
 Selection Mode, then the Vertex Group panel expands and displays 2 more rows:
 
 The first row contains 4 buttons for maintaining the Assign- and
 Select- status of vertices of the active Vertex Group:
-
 
 Assign
    To assign the Selected vertices to the Group with the weight as defined in the "Weight:" input field (see below)
@@ -196,7 +194,7 @@ Assigning verts to a Group
 .. figure:: /images/Modeling-Meshes-vertex-group-panel-assign.jpg
    :align: right
 
-   Assign weights to active group
+   Assign weights to active group.
 
 
 You add vertices to a group as follows:
@@ -208,7 +206,6 @@ You add vertices to a group as follows:
 
 Note that weight Assignment is not available for locked Vertex Groups.
 The Assign button is grayed out in that case.
-
 
 .. note:: Assign is additive
 
@@ -255,7 +252,6 @@ You can quickly select all assigned vertices of a group:
 - When you :kbd:`LMB` click the *Deselect* button instead,
   then the vertices assigned to the active group will be deselected in the 3D Viewport.
 
-
 .. note:: Selecting/Deselecting is additive
 
    If you already have verts selected in the 3D View,
@@ -281,7 +277,7 @@ Keyboard Shortcuts
 .. figure:: /images/Modeling-Meshes-vertex-group-pop-up.png
    :align: right
 
-   Vertex Groups pop-up menu
+   Vertex Groups pop-up menu.
 
 
 In Edit Mode you can press :kbd:`Ctrl-G` to a shortcut Menu for adding/removing verts to/from groups.
@@ -300,7 +296,7 @@ Vertex Group Management
 .. figure:: /images/Modeling-Meshes-vertex-group-pulldown.jpg
    :align: right
 
-   Vertex groups panel's dropdown menu
+   Vertex groups panel's dropdown menu.
 
 
 Vertex Groups provide a more complex set of functions
@@ -342,7 +338,6 @@ Clear Active group (not available for locked groups):
 Delete All Groups:
    Remove all Vertex Groups from the Object.
 
-
 The following functions operate only on the lock state settings:
 
 Lock All
@@ -355,11 +350,10 @@ Lock_Invert All
    Invert Group Locks
 
 
-Hints
-=====
+.. hint::
 
-- Multiple objects sharing the same mesh data have the
-  peculiar property that the group names are stored on the object,
-  but the weights in the mesh. This allows you to name groups
-  differently on each object, but take care because removing a
-  vertex group will remove the group from all objects sharing this mesh.
+   Multiple objects sharing the same mesh data have the
+   peculiar property that the group names are stored on the object,
+   but the weights in the mesh. This allows you to name groups
+   differently on each object, but take care because removing a
+   vertex group will remove the group from all objects sharing this mesh.

@@ -15,7 +15,7 @@ Options
 .. figure:: /images/Ocean_modifier.jpg
    :width: 240px
 
-   Ocean Modifier Panel
+   Ocean Modifier Panel.
 
 
 Geometry Options
@@ -112,7 +112,7 @@ Simulation Data Generation Options
 .. figure:: /images/Ocean_foam_layer_name.jpg
    :width: 240px
 
-   Using foam vertex colors with a named data layer
+   Using foam vertex colors with a named data layer.
 
 
 By default, the simulator only generates displacement data,
@@ -212,4 +212,3 @@ Examples
    :height: 256
 
 Simulated and baked to image maps in Blender, rendered in 3Delight.
-

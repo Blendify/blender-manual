@@ -1,5 +1,4 @@
-
-..    TODO/Review: {{review|partial=X|text= expand advanced selection tools|im=examples}} .
+..    TODO/Review: {{review|partial=X|text= expand advanced selection tools|im=examples}}.
 
 ******************
 Advanced Selection
@@ -105,7 +104,6 @@ Vertex Selection Mode:
    Amount of connecting edges
       Selects all vertices that have the same number of edges connected to them.
 
-
 Edge Selection Mode:
    Length
       Selects all edges that have a similar length as those already selected.
@@ -127,7 +125,6 @@ Edge Selection Mode:
       Selects all edges that have the same *Sharp* state as those already selected.
       *Sharp* is a true/false setting (a flag) used by the
       :doc:`EdgeSplit Modifier </modeling/modifiers/generate/edge_split>`.
-
 
 Face Selection Mode:
    Material
@@ -173,7 +170,6 @@ Edge loops can also be selected based on an existing edge selection,
 using either :menuselection:`Select --> Edge Loop`,
 or the *Edge Loop Select* option of the *Edge Specials* menu
 (:kbd:`Ctrl-E`).
-
 
 .. note:: *Vertex* mode
 
@@ -250,8 +246,7 @@ but on opposite sides to each other continuing along a :doc:`face loop </modelin
 
 As with edge loops, you can also select edge rings based on current selection,
 using either :menuselection:`Select --> Edge Ring`,
-or the *Edge Ring Select* option of the *Edge Specials* menu
-(:kbd:`Ctrl-E`).
+or the *Edge Ring Select* option of the *Edge Specials* menu (:kbd:`Ctrl-E`).
 
 
 .. note:: *Vertex* mode
@@ -284,7 +279,7 @@ Path Selection
 .. figure:: /images/Select_face_path.jpg
    :width: 200px
 
-   Select a face or vertex path with :kbd:`Ctrl-RMB`
+   Select a face or vertex path with :kbd:`Ctrl-RMB`.
 
 
 Selects all geometry along the shortest path from the active vertex/edge/face to the one which
@@ -349,5 +344,4 @@ All this is much more simple to illustrates with examples:
 .. figure:: /images/Mesh-region-select1.png
    :width: 400px
 
-   Select Boundary Loop does the opposite and forces into Edge Select Mode
-
+   Select Boundary Loop does the opposite and forces into Edge Select Mode.

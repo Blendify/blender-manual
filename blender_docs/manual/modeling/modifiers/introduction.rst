@@ -1,5 +1,4 @@
-
-..    TODO/Review: {{review|text=Needs to stay updated with new modifiers being added}} .
+..    TODO/Review: {{review|text=Needs to stay updated with new modifiers being added|Romove file indexs}}. 
 
 ************
 Introduction
@@ -205,7 +204,9 @@ Apply
 Copy
    Creates a duplicate of the modifier at the bottom of the stack.
 
-.. warning:: Applying a modifier that is not first in the stack will ignore the stack order and
-             could produce undesired results.
+.. warning::
+
+   Applying a modifier that is not first in the stack will ignore the stack order and
+   could produce undesired results.
 
 Below this header, all of the options unique to each modifier will be displayed.

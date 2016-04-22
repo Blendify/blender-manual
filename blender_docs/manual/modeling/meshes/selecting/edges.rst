@@ -11,6 +11,7 @@ Edges can be selected in much the same way as vertices and faces -
 by right-clicking them while Edge Select Mode is activated.
 Pressing :kbd:`Shift` while clicking will add/subtract to the existing selection.
 
+
 .. _modeling-meshes-selecting-edge-loops:
 
 Edge Loops
@@ -37,13 +38,7 @@ for just selecting vertices, would rightclick on a vertex.
 
 .. figure:: /images/Select_edge_loop_example.jpg
 
-   An edge loop
-
-
-.. note:: :kbd:`Alt` on Linux
-
-   :kbd:`Alt` is on some Linux distros caught by the windows manager.
-   If you see the above shortcut not working, make sure that blender can properly recognize the usage of :kbd:`Alt`.
+   An edge loop.
 
 
 Edge Rings
@@ -64,7 +59,7 @@ Or use :kbd:`Alt-Ctrl-RMB` on an edge.
 
 .. figure:: /images/select_edge_ring_example.jpg
 
-   An Edge Ring
+   An Edge Ring.
 
 
 .. note:: Convert selection to whole faces
@@ -73,7 +68,6 @@ Or use :kbd:`Alt-Ctrl-RMB` on an edge.
 
    This is because none of those faces had all its (four) edges selected,
    just two of them.
-
 
    Instead of selecting the missing edges manually or by using :kbd:`Shift-Alt-RMB` twice,
    it is easier to first switch to Vertex Select Mode, which will kind of "flood" the selection.

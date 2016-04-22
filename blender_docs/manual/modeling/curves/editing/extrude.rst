@@ -44,7 +44,7 @@ Tilt
 
    .. figure:: /images/Curves_Extrude_by0.5_30meantilt.jpg
 
-      30 degree Mean Tilt of all control points
+      30 degree Mean Tilt of all control points.
 
 Bevel Depth
    This will add a bevel to the extrusion. See below for its effects...
@@ -53,7 +53,7 @@ Bevel Depth
 
    .. figure:: /images/Curves_Extrude_depth_fullfill.jpg
 
-      Bevel depth of 0.25, fill set to full, zero Mean Tilt
+      Bevel depth of 0.25, fill set to full, zero Mean Tilt.
 
 Bevel Resolution
    Controls the resolution of the bevel created by a *Bevel Depth* higher than zero.
@@ -62,15 +62,14 @@ Bevel Resolution
 
    .. figure:: /images/Curves_Extrude_resolution.jpg
 
-      bevel resolution set to 10
-
+      Bevel resolution set to 10.
 
 Offset
    Moves the extrusion parallel to the curve normals. *Almost like scaling*
 
    .. figure:: /images/Curves_Extrude_closed2D_fillboth_offset-1.jpg
 
-      -1 offset, 0.5 extrusion, 0.25 Bevel Depth, 10 Bevel resolution
+      -1 offset, 0.5 extrusion, 0.25 Bevel Depth, 10 Bevel resolution.
 
 Radius
    The Radius allows you to directly control the width of the extrusion along the “spinal” curve.
@@ -80,7 +79,7 @@ Radius
 
    .. figure:: /images/Curves_Extrude_radius.jpg
 
-      One control point radius set to zero
+      One control point radius set to zero.
 
    .. tip::
 
@@ -96,8 +95,8 @@ Open 2D Curve
 
    .. figure:: /images/Curves_Extrude_open2D_fill_none.jpg
 
-      Open 2D Curve with :kbd:`Alt-C`,
-      fill set to none, zero offset, 0.5 extrusion, 0.25 Bevel Depth, 10 Bevel resolution
+      Open 2D Curve with :kbd:`Alt-C`, fill set to none,
+      zero offset, 0.5 extrusion, 0.25 Bevel Depth, 10 Bevel resolution.
 
 Closed 2D Curve
    This is probably the most useful situation, as it will quickly create a volume, with (by default)
@@ -108,7 +107,7 @@ Closed 2D Curve
 
    .. figure:: /images/Curves_Extrude_closed2D_fill_both.jpg
 
-      Closed 2D Curve, 0.5 extrude, 0.25 Bevel Depth, 10 Bevel resolution, Fill: Both
+      Closed 2D Curve, 0.5 extrude, 0.25 Bevel Depth, 10 Bevel resolution, Fill: Both.
 
 3D Curve
    Here the fact that the curve is closed or not has no importance - you will never get a volume with an extruded 3D
@@ -116,7 +115,6 @@ Closed 2D Curve
 
    However, there is one more feature with 3D curves: the *Tilt* of the control points (see above).
    It will make the ribbon twist around the curve to create a mobius strip, for example.
-
 
 
 Advanced Extrusion
@@ -220,9 +218,7 @@ center and that gives a wider result to the curve object on the right.
    Taper example 3.
 
 
-In (*Taper example 3*),
-we see the use of a more irregular taper curve applied to a curve circle.
+In (*Taper example 3*), we see the use of a more irregular taper curve applied to a curve circle.
 
 
 TODO: add some "bevel" extrusion with *Tilt* examples.
-
