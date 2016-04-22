@@ -48,8 +48,10 @@ Warnings
 Prompt Quit
    When exiting Blender, a pop-up will ask you weather or not you really want to quit.
 
+   *Currently only available on MS-Windows.*
 
-View manipulation
+
+View Manipulation
 =================
 
 Cursor Depth
