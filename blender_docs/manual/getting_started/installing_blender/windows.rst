@@ -27,4 +27,4 @@ Administrator rights are needed to install Blender on your system.
    as they are not actually installed on the system.
 
    However, if you want a particular version to be registered with your computer the simply run ``blender -r``
-   from the :doc:`Command Line </advanced/command_line>`.
+   from the :doc:`Command Line </advanced/command_line/arguments>`.

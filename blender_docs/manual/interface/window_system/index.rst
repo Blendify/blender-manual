@@ -10,4 +10,3 @@
    introduction.rst
    arranging_areas.rst
    headers.rst
-   console_window.rst

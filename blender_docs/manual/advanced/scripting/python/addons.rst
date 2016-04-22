@@ -1,5 +1,5 @@
-.. TODO There is more addon related text in extensions/introduction.rst that should be merged in when this section is
-   restructured
+.. TODO There is more addon related text in extensions/introduction.rst
+   that should be merged in when this section is restructured
 
 *******
 Add-ons
@@ -38,14 +38,12 @@ as shown in the figure.
 
 The add-on functionality should be immediately available.
 If the Add-on does not activate when enabled,
-check the :doc:`Console window </interface/window_system/console_window>`
+check the :doc:`Console window </advanced/command_line/introduction>`
 for any errors, that may have occurred.
-
 
 You can click the arrow at the left of the add-on box to see more information, such as
 where it is located, a description and a link to the documentation.
 Here you can also find a button to report a bug specific of this add-on.
-
 
 .. tip:: Saving Add-on Preferences
 
