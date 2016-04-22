@@ -45,7 +45,7 @@ Manipulators can be accessed in the header of the *3D View* window:
 .. figure:: /images/3D_interaction-Transform_Control-Manipulators-manipulator_options.jpg
    :width: 650px
 
-   Manipulator Options
+   Manipulator Options.
 
 
 Manipulator Controls
@@ -66,10 +66,10 @@ Manipulator Controls
 
 .. seealso::
 
-   :doc:`Read more about constraining transformations </editors/3dview/transform/transform_control/precision>`.
-   :doc:`Read more about axis locking </editors/3dview/transform/transform_control/axis_locking>`.
-   :doc:`Read more about trackball rotation </editors/3dview/transform/rotate>`.
-   :ref:`Manipulator Preferences <prefs-interface-manipulator>`.
+   - :doc:`Read more about constraining transformations </editors/3dview/transform/transform_control/precision>`.
+   - :doc:`Read more about axis locking </editors/3dview/transform/transform_control/axis_locking>`.
+   - :doc:`Read more about trackball rotation </editors/3dview/transform/rotate>`.
+   - :ref:`Manipulator Preferences <prefs-interface-manipulator>`.
 
 
 Choosing the Transform Orientation
@@ -105,11 +105,11 @@ change depending on how many and which faces, edges or vertices are selected.
 
    Transform manipulator orientation options.
 
-   - A) Standard cube in default top view with *global* orientation selected
-   - B) Standard cube with view rotated and *global* orientation selected
-   - C) Randomly rotated cube with view rotated and *global* orientation selected
-   - D) Randomly rotated cube with *local* orientation selected
-   - E) Randomly rotated cube with *gimbal* orientation selected
-   - F) Randomly rotated cube with *normal* orientation selected
-   - G) Randomly rotated cube, vertices selected with *normal* orientation selected
-   - H) Randomly rotated cube with *view* orientation selected
+- A) Standard cube in default top view with *global* orientation selected
+- B) Standard cube with view rotated and *global* orientation selected
+- C) Randomly rotated cube with view rotated and *global* orientation selected
+- D) Randomly rotated cube with *local* orientation selected
+- E) Randomly rotated cube with *gimbal* orientation selected
+- F) Randomly rotated cube with *normal* orientation selected
+- G) Randomly rotated cube, vertices selected with *normal* orientation selected
+- H) Randomly rotated cube with *view* orientation selected
