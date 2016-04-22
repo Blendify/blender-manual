@@ -48,9 +48,9 @@ lamps and materials, but also from e.g. modifiers, brushes and physics fields.
 For shading nodes, the available textures are Cycles textures. For others,
 Blender textures are still used, but this will change in the future.
 
-.. raw:: html
+.. container:: lead
 
-    <div style='clear:both'></div>
+   .. clear
 
 
 Painting & UV Editing

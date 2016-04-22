@@ -95,9 +95,10 @@ Local
    This orientation has an effect on many parts of the interface,
    so it is important to understand the distinction.
 
-.. raw:: html
+.. container:: lead
 
-    <div style='clear:both'></div>
+   .. clear
+
 
 Normal
    .. figure:: /images/3D_interaction-Transform_Control-Transform_Orientations-03-Normal.jpg

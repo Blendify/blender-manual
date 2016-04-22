@@ -132,9 +132,9 @@ or only fill edges with faces if they are already connected (Fill) (See Fig. 5).
 For 4 or more vertices, it's mandatory that you have coplanar vertices.
 4 coplanar vertices will create a quad when filled, and more than 4 coplanar vertices will create a Ngon face.
 
-.. raw:: html
+.. container:: lead
 
-   <div style='clear:both'></div>
+   .. clear
 
 .. note::
 
