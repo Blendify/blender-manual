@@ -48,7 +48,7 @@ Manipulators can be accessed in the header of the *3D View* window:
    Manipulator Options
 
 
-Manipulator controls
+Manipulator Controls
 ====================
 
 - Holding down :kbd:`Ctrl` constrains the action to set increments.
@@ -64,28 +64,12 @@ Manipulator controls
   will be equivalent to pressing :kbd:`R` twice.
   This will start *trackball* rotation.
 
-:doc:`Read more about constraining transformations </editors/3dview/transform/transform_control/precision>`
-:doc:`Read more about axis locking </editors/3dview/transform/transform_control/axis_locking>`
-:doc:`Read more about trackball rotation </editors/3dview/transform/rotate>`
+.. seealso::
 
-
-Manipulator Preferences
-=======================
-
-.. figure:: /images/3D_interaction-Transform_Control-Manipulators-manipulator_preferences.jpg
-
-   Manipulator preferences.
-
-
-The settings of the manipulator (e.g. its size)
-can be found in the *Interface* section of the *User Preferences* window.
-
-Size
-   Diameter of the manipulator.
-Handle Size
-   Size of manipulator handles, as a percentage of the manipulator radius (``size / 2``).
-Hotspot
-   Hotspot size (in pixels) for clicking the manipulator handles.
+   :doc:`Read more about constraining transformations </editors/3dview/transform/transform_control/precision>`.
+   :doc:`Read more about axis locking </editors/3dview/transform/transform_control/axis_locking>`.
+   :doc:`Read more about trackball rotation </editors/3dview/transform/rotate>`.
+   :ref:`Manipulator Preferences <prefs-interface-manipulator>`.
 
 
 Choosing the Transform Orientation

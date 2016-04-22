@@ -17,6 +17,8 @@ Tooltips
    When enabled, a tooltip will appear when your mouse pointer is over a control.
    This tip explains the function of what's under the pointer,
    gives the associated hotkey (if any) and the Python function that refers to it.
+Python Tooltips
+   Displays a property's python information below the the tooltip.
 Object Info
    Display the active Object name and frame number at the bottom left of the 3D view.
 Large Cursors
@@ -31,12 +33,20 @@ Global Scene
    Forces the current scene to be displayed in all screens (a project can consist of more than one scene).
 Object Origin Size
    Diameter of 3D Object centers in the view port (value in pixels from 4 to 10).
+
 Display Mini Axis
    Show the mini axis at the bottom left of the viewport.
 Size
    Size of the mini axis.
 Brightness
    Adjust brightness of the mini axis.
+
+
+Warnings
+========
+
+Prompt Quit
+   When exiting Blender, a pop-up will ask you weather or not you really want to quit.
 
 
 View manipulation
@@ -61,9 +71,12 @@ Rotate Around Selection
 
 Global Pivot
    Lock the same rotation/scaling pivot in all 3D views.
-Auto Perspective
-   .. _prefs-interface-auto_perspective:
+Camera Parent Lock
+   When the camera is locked to the view and in fly mode, transform the parent rather than the camera.
 
+.. _prefs-interface-auto_perspective:
+
+Auto Perspective
    Automatically to perspective Top/Side/Front view after using User Orthographic.
    When disabled, Top/Side/Front views will retain Orthographic or Perspective view
    (whichever was active at the time of switching to that view).
@@ -84,13 +97,23 @@ TimeCode Style
    Format of Time Codes displayed when not displaying timing in terms of frames.
    The format uses '+' as separator for sub-second frame numbers,
    with left and right truncation of the timecode as necessary.
+Zoom To Frame Type
+   How zooming to frame focuses around current frame.
 
+   :Keep Range: Todo.
+   :Seconds: Todo.
+   :Keyframes: Todo.
+
+.. _prefs-interface-manipulator:
 
 Manipulator
-===========
-
-Permits configuration of the 3D transform manipulator which is used to drag,
-rotate and resize objects (Size, Handle size).
+   Turns manipulators on and off.
+Size
+   Diameter of the manipulator.
+Handle Size
+   Size of manipulator handles, as a percentage of the manipulator radius (``size / 2``).
+Hotspot
+   Hotspot size (in pixels) for clicking the manipulator handles.
 
 
 Menus
@@ -105,3 +128,20 @@ Top Level
 Sub Level
    Same as above for sub menus (for example: :menuselection:`File --> Open Recent`).
 
+
+Pie Menus
+=========
+
+Animation Timeout
+   Length of animation when opening Pie Menus
+Recenter Timeout
+   Pie menus will use the initial mouse position as center for this amount of time, measured in 1/100ths of a second.
+Radius
+   Size of the Pie Menu
+Threshold
+   Distance from center before a selection can be made.
+Confirm Threshold
+   Distance threshold after which selection is made (zero disables).
+
+Show Splash
+   Display the splash screen when starting Blender.
