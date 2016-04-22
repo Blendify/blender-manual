@@ -1,8 +1,6 @@
-
 ..    TODO/Review: {{review|text=we need command line options for this page,
-                     explained and some examples for rendering, opening Blender with debug flag,
-                     and how to open Blender for screencasts/screenshots}} .
-
+      explained and some examples for rendering, opening Blender with debug flag,
+      and how to open Blender for screencasts/screenshots}}.
 
 ******************
 The Console Window
@@ -11,13 +9,13 @@ The Console Window
 The *Console Window* is an operating system text window that displays messages about
 Blender operations, status, and internal errors.
 
-
 Use Cases:
 
 - If Blender exits unexpectedly, the messages may indicate the cause or error.
 - To see the output of Python scripts ``print()`` command.
 - To launch with :doc:`/advanced/command_line` options.
 - When troubleshooting, to see the output of ``--debug`` messages.
+
 
 Platform Dependant Instructions
 ===============================
@@ -72,22 +70,19 @@ the following command can be used:
 MS-Windows
 ----------
 
-.. figure:: /images/interface-window_system-console-windows.jpg
-   :align: right
-   :width: 360px
-
-   Blender's Console Window on MS-Windows.
-
-
 When Blender is started on a MS-Windows operating system,
 the *Console Window* is first created as a separate window on the desktop.
 The main Blender window will also appear and the *Console Window* will then be toggled off.
 To display the console again, go to :menuselection:`Window --> Toggle System Console`.
 
+.. figure:: /images/interface_window_system-console_windows.png
+
+   Blender’s Console Window on MS-Windows.
+
+
 The screenshot shows the Blender *Console Window* on MS-Windows
 directly after starting Blender and then a short while later after opening a file along with
 the relevant messages.
-
 
 .. tip:: Closing the Blender Console Window
 
@@ -108,7 +103,7 @@ also originate internally from within the Blender code or from external sources 
 :doc:`Python scripts </advanced/scripting/python/addons>`.
 
 
-Common messages
+Common Messages
 ---------------
 
 - found bundled python: (FOLDER)
