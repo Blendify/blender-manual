@@ -1,3 +1,4 @@
+...   Todo/review:Text=Split
 
 *********
 Grab/Move
@@ -7,8 +8,6 @@ Grab/Move
    :class: refbox
 
    | Mode:     *Object* Mode, *Edit* Mode, and *Pose* Mode for the 3D View;
-     *UV/Image Editor* Tools, *Sequence Editor*, *Dopesheet*,
-     and *Graph Editor* for other specific types of Grab/Move operation.
    | Menu:     Context Sensitive, Object Based --> *Transform* --> *Grab/Move*
    | Hotkey:   :kbd:`G` or combinations for specific Axis constraint
 
@@ -23,13 +22,10 @@ Options and other details will be discussed in their respective sections.
 
 .. figure:: /images/3D_inter_translate_value_display.jpg
 
-   Translation Display
+   Translation Display.
 
-While Grab/Move is active, the amount of change in the X,
-Y and Z co-ordinates is displayed at the bottom left corner of the 3D View window.
-
-3D View
-=======
+While Grab/Move is active, the amount of change in the X, Y,
+and Z co-ordinates is displayed at the bottom left corner of the 3D View window.
 
 There are **2** ways to Grab/Move in *3D View*:
 
@@ -38,18 +34,19 @@ There are **2** ways to Grab/Move in *3D View*:
 
 
 Transform Widget
-----------------
+================
 
 .. figure:: /images/FAQ-Transform_widget-2.jpg
 
-   Translation Widget
+   Translation Widget.
 
 
 In the default installation of Blender, this is the *Transform Widget*.
 It is active by default. You can use the widget by holding :kbd:`LMB` over it and dragging in the 3D view.
 
-Shortcuts in the 3D View
-------------------------
+
+Shortcuts
+=========
 
 A quicker way to move objects in 3D space is with the :kbd:`G` hotkey.
 Pressing :kbd:`G` activates "Grab/Move" transformation mode.
@@ -62,7 +59,7 @@ full control over your transformation.
 
 .. figure:: /images/3D_interaction_trans_basics_grab_mmb.jpg
 
-   Axis-Constraint in action
+   Axis-Constraint in action.
 
 :kbd:`MMB`
    Constrain the move to the X, Y or Z axis according to the position of the mouse pointer in the 3D View.
@@ -77,7 +74,7 @@ full control over your transformation.
 
 .. figure:: /images/basic_trans_grab_shift_xyz.jpg
 
-   Shift+X in action
+   Shift+X in action.
 
 
 :kbd:`Shift` + :kbd:`X`/:kbd:`Y`/:kbd:`Z`
@@ -98,8 +95,8 @@ To confirm the action, press :kbd:`LMB`.
    so that a single :kbd:`RMB` drag can be used to move and confirm.
 
 
-Controling Grab/Move Precision
-------------------------------
+Controling Precision
+====================
 
 In addition to the Axis constraint options listed above,
 Blender offers options to limit the amount of the transformation in small or predefined steps.
@@ -138,7 +135,7 @@ You can find out more about transform orientations
 
 .. figure:: /images/3d_interaction_trans_grab_orientation.png
 
-   Orientation choice menu
+   Orientation choice menu.
 
 
 Each mode is a co-ordinate system in which transformations can be carried out.
@@ -161,19 +158,8 @@ you can hotkey your chosen axis of orientation by hitting the relevant axis modi
 
 .. figure:: /images/3d_interaction_trans_grab_xyz_number.png
 
-   Numerical Entry Display
+   Numerical Entry Display.
 
-
-Other Editor Windows
-====================
-
-In other editors such as the UV/Image Editor, Sequence Editor, Dopesheet and Graph Editor,
-the Grab/Move Operations are used to move objects or elements -
-the difference from 3D View is that only two axes are used - usually **X** and **Y**.
-You can use many of the same Grab/Move hotkeys after :kbd:`G`
-(such as :kbd:`Shift` or :kbd:`X`)
-in other editor windows and they will work much the same way as they do in 3D View.
-Rotating and scaling also work in certain editors as well.
 
 .. tip::
 
