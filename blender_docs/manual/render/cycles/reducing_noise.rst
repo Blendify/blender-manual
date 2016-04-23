@@ -10,7 +10,7 @@ Click to enlarge the example images to see the noise differences well.
 
 
 Path Tracing
-------------
+============
 
 Cycles uses path tracing with next event estimation,
 which is not good at rendering all types of light effects, like caustics, but has the
@@ -20,8 +20,8 @@ a photon map in memory,
 and because we can keep rays relatively coherent to use an on-demand image cache,
 compared to e.g. bidirectional path tracing.
 
-
 .. figure:: /images/cycles_light_path_rays.png
+
 
 We do the inverse of what reality does,
 tracing light rays from the camera into the scene and onto lights,
@@ -37,7 +37,7 @@ For more details, see the
 
 
 Where Noise Comes From
-----------------------
+======================
 
 To understand where noise can come from, take for example this scene.
 When we trace a light ray into the specified location, this is what the diffuse shader "sees".
@@ -46,7 +46,6 @@ we need to find the average color from all these pixels.
 Note the glossy highlight on the sphere,
 and the bright spot the lamp casts on the nearby wall. These hotspots are 100x brighter than
 other parts of the image and will contribute significantly to the lighting of this pixel.
-
 
 .. list-table::
 
@@ -73,7 +72,6 @@ This will not give the same exact result,
 but often it's close enough when viewed through a diffuse or soft glossy reflection.
 Below is an example of using Filter Glossy and Smooth Light Falloff.
 
-
 .. list-table::
 
    * - .. figure:: /images/Cycles_noise_fisheye_blur_reference.jpg
@@ -87,7 +85,7 @@ Below is an example of using Filter Glossy and Smooth Light Falloff.
 
 
 Bounces
--------
+=======
 
 In reality light will bounce a huge number of times due to the speed of light being very high.
 In practice more bounces will introduce more noise, and it might be good to use something like
@@ -95,7 +93,6 @@ the Limited Global Illumination preset that uses **fewer bounces for different s
 types**. Diffuse surfaces typically can get away with fewer bounces,
 while glossy surfaces need a few more,
 and transmission shaders such as glass usually need the most.
-
 
 .. list-table::
 
@@ -119,7 +116,7 @@ surface.
 
 
 Caustics and Filter Glossy
---------------------------
+==========================
 
 Caustics are a well-known source of noise, causing fireflies.
 They happen because the renderer has difficulty finding specular highlights
@@ -127,7 +124,6 @@ viewed through a soft glossy or diffuse reflection.
 There is a :ref:`No Caustics <render-cycles-integrator-no_caustics>`
 option to disable glossy behind a diffuse reflection entirely.
 Many render engines will typically disable caustics by default.
-
 
 .. list-table::
 
@@ -151,15 +147,14 @@ The above images show default settings, no caustics, and filter glossy set to 1.
 
 
 Light Falloff
--------------
+=============
 
 In reality light in a vacuum will always fall off at a rate of 1/(distance^2).
-However as distance goes to zero,
+However, as distance goes to zero,
 this value goes to infinity and we can get very bright spots in the image.
 These are mostly a problem for indirect lighting, where the probability of hitting such a
 small but extremely bright spot is low and so happens only rarely.
 This is a typical recipe for fireflies.
-
 
 .. list-table::
 
@@ -176,7 +171,7 @@ The images above show default falloff and smooth value 1.0.
 
 
 Sample as Lamp
---------------
+==============
 
 Materials with emission shaders can be configured to be **sampled as lamp**
 (:ref:`render-cycles-integrator-material_settings`).
@@ -191,7 +186,6 @@ but often it is clear that a somewhat glowing object may be only contributing li
 while a mesh light used as a lamp would need this option enabled.
 Here is an example where the emissive spheres contribute little to the lighting,
 and the image renders with slightly less noise by disabling Sample as Lamp on them.
-
 
 .. list-table::
 
@@ -211,7 +205,7 @@ enabling this option may take samples away from more important light sources if 
 .. _render-cycles-reducing_noise-glass_and_transp_shadows:
 
 Glass and Transparent Shadows
------------------------------
+=============================
 
 With caustics disabled, glass will miss shadows,
 and with filter glossy they might be too soft.
@@ -221,10 +215,14 @@ transparent shadows to find light sources straight through surfaces,
 and will give properly-colored shadows, but without the caustics.
 The Light Path node is used to determine when to use which of the two shaders.
 
-
 .. figure:: /images/Cycles_noise_glass_setup.jpg
-   :width: 516px
 
+   Optimized glass shader.
+
+
+Above we can see the node setup used for the glass transparency trick;
+on the left the render has too much shadow due to missing caustics,
+and on the right the render with the trick.
 
 .. list-table::
 
@@ -235,13 +233,8 @@ The Light Path node is used to determine when to use which of the two shaders.
           :width: 180px
 
 
-Above we can see the node setup used for the glass transparency trick;
-on the left the render has too much shadow due to missing caustics,
-and on the right the render with the trick.
-
-
 Window Lights
--------------
+=============
 
 When rendering a daylight indoor scene where most of the light is coming in through a window
 or door opening, it is difficult for the integrator to find its way to them.
@@ -254,7 +247,6 @@ or by switching between glass and emission shaders in the material.
 
 The two renders below have the same render time,
 with the second render using a mesh light positioned in the window.
-
 
 .. list-table::
 
@@ -270,7 +262,7 @@ In newer versions, :doc:`light portals </render/cycles/world>` provide a better 
 .. _render-cycles-reducing_noise-clamp_samples:
 
 Clamp Fireflies
----------------
+===============
 
 Ideally with all the previous tricks, fireflies would be eliminated, but they could still happen. For that,
 **the intensity that any individual light ray sample will contribute to a pixel can be clamped**
@@ -280,7 +272,6 @@ If set too low this can cause missing highlights in the image,
 which might be useful to preserve for camera effects such as bloom or glare.
 To mitigate this conundrum it's often useful to clamp only indirect bounces,
 leaving highlights directly visible to the camera untouched.
-
 
 .. list-table::
 
