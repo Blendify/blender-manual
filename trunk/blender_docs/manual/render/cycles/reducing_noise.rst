@@ -215,7 +215,7 @@ transparent shadows to find light sources straight through surfaces,
 and will give properly-colored shadows, but without the caustics.
 The Light Path node is used to determine when to use which of the two shaders.
 
-.. figure:: /images/Cycles_noise_glass_setup.jpg
+.. figure:: /images/render_cycles_noise_glass_group.png
 
    Optimized glass shader.
 
