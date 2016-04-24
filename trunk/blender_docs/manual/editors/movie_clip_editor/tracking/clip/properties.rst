@@ -113,11 +113,12 @@ Image
 
 .. note:: 
    
-   This image is for viewing purposes in movie clip editor only.
-   To include it in your final render, see :doc:`Plane Track Deform node</compositing/types/distort/plane_track_deform>`.
+   This image is for viewing purposes in movie clip editor only. To include it in your final render,
+   see :doc:`Plane Track Deform node</compositing/types/distort/plane_track_deform>`.
 
 Opacity
-   Used to set the opacity of this image. Again, this is for display purposes only, and won't affect your final render.
+   Used to set the opacity of this image. Again,
+   this is for display purposes only, and won't affect your final render.
 
 
 .. todo split in to camera and lens panels
