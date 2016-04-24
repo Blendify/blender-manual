@@ -106,8 +106,13 @@ Join
    operator joins all selected tracks into one.
    Selected tracks shouldn't have common tracked or keyframed markers at the same frame.
 
+Plane Track Panel
+-----------------
 
-Solve panel
+**Create Plane Track** operator creates a new plane track.
+4 markers are needed to be selected which will form the 4 corners of the plane.
+
+Solve Panel
 -----------
 
 **Camera Motion** operator solves the motion of camera using all tracks placed
@@ -249,6 +254,37 @@ tracks so a whole group of tracks can be selected by color using the Select Grou
    and track backwards and forwards from there.
    This will provide a greater chance of the marker and point staying in the camera shot.
 
+
+Plane Track Panel
+^^^^^^^^^^^^^^^^^
+
+.. figure:: /images/editors_movie-clip_plane_track_panel.jpg
+   :align: right
+   :width: 130px
+
+   Plane Track Panel.
+
+Its properties are shown only when a plane track is selected.
+Firstly, the name of the selected plane track is shown. It can also be changed from here.
+
+Auto Keyframe
+   Toggles the auto-keyframing for corners of the plane track.
+   With this enabled, keyframes will automatically get inserted when any corner is moved.
+
+..note:: 
+   
+   Corners can be moved using :kbd:`LMB`.
+
+Image
+   Used to select an image which will be inside the plane track.
+
+..note:: 
+   
+   This image is for viewing purposes in movie clip editor only.
+   To include it in your final render, see :doc:`Plane Track Deform node</compositing/types/distort/plane_track_deform>`.
+
+Opacity
+   Used to set the opacity of this image. Again, this is for display purposes only, and won't affect your final render.
 
 Camera Data Panel
 ^^^^^^^^^^^^^^^^^
@@ -455,6 +491,8 @@ pattern and search area dimensions, and offset of anchor point from pattern cent
 All sliders are self-explanatory.
 
 
+.. _2D-stabilization:
+
 Tools available in reconstruction mode
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -462,10 +500,10 @@ Tools available in reconstruction mode
    :align: right
    :width: 130px
 
-   2D Stabilization Panel
+   2D Stabilization Panel.
 
 
-There's one extra panel which is available in reconstruction mode - 2D stabilization panel.
+There's one extra panel which is available in reconstruction mode - 2D Stabilization Panel.
 
 This panel is used to define data used for 2D stabilization of the shot.
 Several options are available in this panel.
