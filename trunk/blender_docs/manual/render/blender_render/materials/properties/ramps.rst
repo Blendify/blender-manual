@@ -83,7 +83,7 @@ Input
       Using alpha values here is most useful for tweaking a finishing touch to a material.
 
 
-.. figure:: /images/material-ramps-blendmenu.jpg
+.. figure:: /images/render_bi_material-ramps-blendmenu.jpg
 
    Blend pop-up menu
 

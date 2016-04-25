@@ -6,7 +6,7 @@ Dynamic Paint Brush
 Main Panel
 ==========
 
-.. figure:: /images/GSoC-DynamicPaint-Guide-BrushMain.jpg
+.. figure:: /images/physics_dynamic-paint_brush.jpg
 
    Brush main panel
 
