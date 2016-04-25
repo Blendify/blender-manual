@@ -71,7 +71,7 @@ print("Using Index:", master_doc)
 
 
 # General information about the project.
-project = 'Blender Reference Manual'
+project = 'Blender %s Manual' % blender_version
 copyright = ': This page is public domain as CC0'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -136,7 +136,11 @@ if sphinx_rtd_theme:
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
-#html_theme_options = {}
+if sphinx_rtd_theme:
+    html_theme_options = {
+        # included in the title
+        "display_version": False,
+        }
 
 # Add any paths that contain custom themes here, relative to this directory.
 if sphinx_rtd_theme:
@@ -151,7 +155,9 @@ html_title = "Blender Reference Manual"
 
 # The name of an image file (relative to this directory) to place at the top
 # of the sidebar.
-#html_logo = None
+#
+# Socket logo from: https://www.blender.org/about/logo
+html_logo = "../theme/sidebar_logo.png"
 
 # The name of an image file (within the static path) to use as favicon of the
 # docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
