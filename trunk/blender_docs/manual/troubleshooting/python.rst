@@ -57,7 +57,7 @@ This corresponds to either a file named ``_socket.py`` or ``_socket.pyd``.
 
 To help troubleshoot this problem,
 the following script can be pasted into the text edit and run to check for duplicate libraries in your search path.
-(output will show in :doc:`Command Line Window /advanced/command_line/introduction`).
+(output will show in :doc:`Command Line Window </advanced/command_line/introduction>`).
 
 .. code-block:: python
 
