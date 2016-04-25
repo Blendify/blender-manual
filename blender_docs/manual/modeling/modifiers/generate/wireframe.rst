@@ -3,7 +3,7 @@
 Wireframe Modifier
 ******************
 
-.. figure:: /images/Wireframe_Modifier_Panel.jpg
+.. figure:: /images/modifier_wireframe.jpg
 
    Wireframe Modifier
 
@@ -31,7 +31,7 @@ Vertex Group
       Inverts the vertex group weights.
 
 
-.. figure:: /images/Wireframe_Mod_Result.jpg
+.. figure:: /images/modifier_wireframe_result.jpg
    :width: 350px
 
    Wireframes on a displaced plane.
@@ -70,12 +70,12 @@ in the examples below.
    Original / Wireframe / Original+Wireframe
 
 
-.. figure:: /images/Wireframe_Modifier_Suzanne.jpg
+.. figure:: /images/modifier_wireframe_example.jpg
 
    VGroup weighting: One half 0 weighted, one half 1 weighted
 
 
-.. figure:: /images/Wireframe_Modifier_CreaseWeight.jpg
+.. figure:: /images/modifier_wireframe_crease-weight.jpg
 
    Cube+Subsurf with 0 / 0.5 / 1 crease weight
 

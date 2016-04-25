@@ -85,7 +85,7 @@ operation for the Boolean modifier at a time.
 Options
 =======
 
-.. figure:: /images/Modifier_Generate_Boolean_Boolean_Modifier_Options.jpg
+.. figure:: /images/modifiers_boolean.jpg
 
    Boolean Modifier Options
 
@@ -236,7 +236,7 @@ and when the modifier cannot be applied to the mesh,
 Blender will show the message ``"Modifier is disabled, Skipping Apply."``.
 In this case, you either have to remove some modifiers or apply the necessary ones.
 
-.. figure:: /images/Modifier_Generate_Boolean_Error_Message_Boolean_Operation.jpg
+.. figure:: /images/modifiers_boolean_error.jpg
 
    Boolean Modifier with error message
 
@@ -331,7 +331,7 @@ In the images below, all face normals are pointing outwards (Normal meshes).
 
           Faces with normals pointing outwards
 
-     - .. figure:: /images/Modifier_Generate_Boolean_Difference_Normals_Pointing_Outwards.jpg
+     - .. figure:: /images/modifier_boolean_difference_normals_pointing_outwards.jpg
 
           Normal Boolean modifier operation (Difference operation)
 
@@ -419,7 +419,7 @@ In the images below, is the resulting operation when using two non-closed volume
 
 .. list-table::
 
-   * - .. figure:: /images/Modifier_Generate_Boolean_Complete_Face_Shape.jpg
+   * - .. figure:: /images/modifiers_Generate_Boolean_Complete_Face_Shape.jpg
 
           Non-closed volumes forming a new topology
 
@@ -438,7 +438,7 @@ the shading (smooth/flat) doesn't affect the calculations of the modifier.
 
 .. list-table::
 
-   * - .. figure:: /images/Modifier_Generate_Boolean_Incomplete_Face_Shape.jpg
+   * - .. figure:: /images/modifiers_boolean_incomplete_face_shape.jpg
 
           Open volumes that aren't forming a new topology
 

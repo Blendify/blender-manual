@@ -6,7 +6,7 @@
 Edge (Toon) Rendering
 *********************
 
-.. figure:: /images/Toon01.jpg
+.. figure:: /images/render_bi_toon1.jpg
    :width: 240px
 
    A scene with Toon materials.
@@ -43,7 +43,7 @@ Color / R/G/B
 Examples
 ========
 
-.. figure:: /images/Toon02.jpg
+.. figure:: /images/render_bi_toon2.jpg
    :width: 400px
 
    Scene re-rendered with toon edge set.

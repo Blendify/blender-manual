@@ -397,7 +397,7 @@ Create the Material
 
 The material must be a volumetric material with a Density of 0, and a high Density Scale.
 
-.. figure:: /images/material.jpg
+.. figure:: /images/render_bi_material.jpg
    :width: 300px
 
    The Material Settings

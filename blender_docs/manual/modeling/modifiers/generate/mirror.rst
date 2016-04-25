@@ -3,7 +3,7 @@
 Mirror Modifier
 ***************
 
-.. figure:: /images/modifier-mirror-example-cube.jpg
+.. figure:: /images/modifiers_mirror_example_cube.jpg
    :width: 350px
 
    The corner of a cube mirrored across three axes to form... well... a cube.
@@ -18,7 +18,7 @@ It can also use another object as the mirror center, then use that object's loca
 Options
 =======
 
-.. figure:: /images/modifier-mirror.jpg
+.. figure:: /images/modifiers_mirror.jpg
 
    Mirror modifier
 

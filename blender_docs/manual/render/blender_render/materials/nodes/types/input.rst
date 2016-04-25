@@ -27,7 +27,7 @@ Material Node
    | Menu:     :kbd:`Shift-A` --> Input --> Material
 
 
-.. figure:: /images/material-node.jpg
+.. figure:: /images/render_bi_material-node.jpg
 
    Material node
 
@@ -101,7 +101,7 @@ Invert Normal toggle
 Using the Material Node with Specularity
 ----------------------------------------
 
-.. figure:: /images/material-node-specular.jpg
+.. figure:: /images/render_bi_material-node-specular.jpg
    :width: 250px
 
    Material Node using Specularity

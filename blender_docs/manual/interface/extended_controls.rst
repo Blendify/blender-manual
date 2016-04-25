@@ -180,7 +180,7 @@ Shortcuts
 Curve Widget
 ============
 
-.. figure:: /images/material-color-node-curves.jpg
+.. figure:: /images/render_bi_material-color-node-curves.jpg
 
    RGB Curves node
 

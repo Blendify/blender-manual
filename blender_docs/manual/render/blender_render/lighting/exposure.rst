@@ -33,7 +33,7 @@ Using an exponential correction formula, this now can be nicely corrected.
 Options
 =======
 
-.. figure:: /images/world-exposure.jpg
+.. figure:: /images/render_bi_world_exposure.jpg
 
    Exposure and Range sliders.
 

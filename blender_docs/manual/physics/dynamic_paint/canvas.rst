@@ -6,7 +6,7 @@ Dynamic Paint Canvas
 Main Panel
 ==========
 
-.. figure:: /images/GSoC-DynamicPaint-Guide-CanvasMain.jpg
+.. figure:: /images/physics_dynamic-paint_canvas_main.jpg
 
    Canvas main panel
 
@@ -44,7 +44,7 @@ Sub-steps are extra samples between frames, usually required when there is a ver
 Advanced Panel
 ==============
 
-.. figure:: /images/GSoC-DynamicPaint-Guide-CanvasAdvanced.jpg
+.. figure:: /images/dynamic-paint_canvas_advanced.jpg
 
    Canvas advanced panel
 
@@ -168,7 +168,7 @@ It outputs vertex weight groups that can be used by other Blender modifiers and 
 Output Panel
 ============
 
-.. figure:: /images/GSoC-DynamicPaint-Guide-CanvasOutput.jpg
+.. figure:: /images/physics_dynamic-paint_canvas_output.jpg
 
    Canvas output panel
 
@@ -187,7 +187,7 @@ you can define used "UV Layer" and output file saving directory, filenames and i
 Effects Panel
 =============
 
-.. figure:: /images/GSoC-DynamicPaint-Guide-CanvasEffects.jpg
+.. figure:: /images/dynamic-paint_canvas_effects.jpg
 
    Canvas effects panel
 
@@ -212,7 +212,7 @@ movement becomes slower until it stops.
 Cache Panel
 ===========
 
-.. figure:: /images/GSoC-DynamicPaint-Guide-CanvasCache.jpg
+.. figure:: /images/physics_dynamic-paint_cache.jpg
 
    Canvas cache panel
 
