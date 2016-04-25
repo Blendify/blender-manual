@@ -52,8 +52,8 @@ Display
          While alpha-images can be used, there is a known limitation with object draw order,
          where alphas won't always draw on top of other objects when unselected.
 
-Size
-   Controls the local size of the empty. This does not change its scale, but simply resizes the shape.
+   Size
+      Controls the local size of the empty. This does not change its scale, but simply resizes the shape.
 
 
 Usage and functions
@@ -61,6 +61,7 @@ Usage and functions
 
 Empties can serve as transform handles which cannot be edited and do not render.
 Empties are important and useful objects. Some examples of ways to use them include:
+
 *Parent object for a group of objects*
 
 - An Empty can be parented to any number of other objects -
@@ -77,17 +78,18 @@ Empties are important and useful objects. Some examples of ways to use them incl
 - An empty can be used to offset an array modifier,
   meaning complex deformations can be achieved by only moving a single object.
 
+.. list-table::
 
-.. figure:: /images/Emptyarray.jpg
-   :width: 200px
+   * - .. figure:: /images/Emptyarray.jpg
+          :width: 200px
 
-   An example of an empty being used to control an array
+          An example of an empty being used to control an array
 
 
-.. figure:: /images/Tracktosimple.jpg
-   :width: 200px
+     - .. figure:: /images/Tracktosimple.jpg
+          :width: 200px
 
-   An example of an empty being used to control the track to constraint
+          An example of an empty being used to control the track to constraint
 
 
 *Other common uses.*
