@@ -13,6 +13,14 @@ Only Render
    rigs, empties, lights & cameras.
 
    Useful to enable with :doc:`/render/opengl`.
+
+   .. note::
+
+      While thie option displays the regular view-port without distracting elements,
+      the objects displayed are **not** matching the final render output.
+
+      Options such as restrict-render, modifiers render option, dupli-parents and render layers
+      aren't taken into account.
 Outline Selected
    If disabled, the pink outline around your selected objects in
    *Solid* / *Shaded* / *Textured* draw types will no longer be displayed.
