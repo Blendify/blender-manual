@@ -1,4 +1,3 @@
-
 .. _grouping-objects:
 
 ****************
@@ -29,7 +28,7 @@ Creating a Group
 
 .. figure:: /images/Modeling-Objects-Grouping-ObjProp.jpg
 
-   Naming a Group
+   Naming a Group.
 
 
 Naming a Group

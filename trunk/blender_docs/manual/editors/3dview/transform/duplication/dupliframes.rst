@@ -77,9 +77,6 @@ All monkeys are now real objects, but still linked copies. To change this,
    - Dupliverts can be used to arrange objects, for example, along a circle or across a subdivided plane.
 
 
-External links
-**************
+.. seealso::
 
-- `Blender Artists: Dupliframes in 2.5 <https://blenderartists.org/forum/showthread.php?t=181911&page=1>`__
-
-
+   `Blender Artists: Dupliframes in 2.5 <https://blenderartists.org/forum/showthread.php?t=181911&page=1>`__

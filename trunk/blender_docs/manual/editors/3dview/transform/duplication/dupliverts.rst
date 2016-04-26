@@ -23,7 +23,6 @@ The second approach is to use them to model an object starting from a single par
 the spikes in a club, the thorns of a sea-urchin, the tiles in a wall,
 the petals in a flower).
 
-
 .. note:: Download example blend-file
 
    You can download a file with the examples described on this page.
@@ -163,10 +162,6 @@ To make the icosphere and the tentacle a single object,
 make sure they are all selected and go to *Object* --> *Join*
 (:kbd:`Ctrl-J`).
 
+.. seealso::
 
-See also
-========
-
-Other duplication methods are listed :doc:`here </editors/3dview/transform/duplication/introduction>`.
-
-
+   Other duplication methods are listed :doc:`here </editors/3dview/transform/duplication/introduction>`.

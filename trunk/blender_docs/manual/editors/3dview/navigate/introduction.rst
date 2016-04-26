@@ -1,7 +1,5 @@
-
 .. TODO/Review: {{review|text=wrong place In 2.4 this page is here Manual/3D interaction/Navigating/3D View Options|
    fixes=[[User:Fade/Doc:2.6/Manual/3D_interaction/Navigating/3D_View_Options|X]]}}.
-
 
 ************
 Introduction

@@ -12,4 +12,3 @@
    modes.rst
    editing.rst
    relationships/index.rst
-

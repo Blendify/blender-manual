@@ -47,7 +47,7 @@ Move Active Camera to View
    | Hotkey:   :kbd:`Ctrl-Alt-Numpad0`
 
 
-This feature allows you to position and orient the active camera to match your current view-port.
+This feature allows you to position and orient the active camera to match your current viewport.
 
 Select a camera and then move around in the 3D view to a desired position and direction for
 your camera (so that you're seeing what you want the camera to see). Now press
@@ -87,15 +87,12 @@ Horizontal Pan or Yaw
 Dolly
    To dolly the camera, press :kbd:`G` then :kbd:`MMB` (or :kbd:`Z` twice).
 Sideways Tracking
-   Press :kbd:`G` and move the mouse
-   (you can use :kbd:`X` twice or :kbd:`Y` to get pure-horizontal or pure-vertical sideways tracking).
-
+   Press :kbd:`G` and move the mouse (you can use :kbd:`X` twice or :kbd:`Y`
+   to get pure-horizontal or pure-vertical sideways tracking).
 
 .. seealso::
 
    :ref:`Fly/Walk Mode <3dview-walk_fly>`
       When you are in walk/fly mode, navigation actually moves your camera:
-   :ref:`Lock Camera to View <3dview-lock_camera_to_view>`
-      When enabled,
+   :ref:`Lock Camera to View <3dview-lock_camera_to_view>` When enabled,
       performing typical view manipulation operations will move the camera object.
-

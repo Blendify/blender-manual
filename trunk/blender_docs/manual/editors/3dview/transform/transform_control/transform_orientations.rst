@@ -1,9 +1,6 @@
-
-..
-   TODO/Review: {{review|Need to change and explain the behavior of the transform orientation.
+.. TODO/Review: {{review|Need to change and explain the behavior of the transform orientation.
    It is toggled between the chosen orientation and the
-   global orientation when transformations are made by shortcuts}} .
-
+   global orientation when transformations are made by shortcuts}}.
 
 **********************
 Transform Orientations
@@ -162,9 +159,8 @@ View
    This way you can constrain movement to one View axis with :kbd:`G-X-X`.
 
 
-..    Comment: <!--[[File:Manual-3D_interaction-Transform_Control-Transform_Orientations-06.Foozle.png|
-                    frame|right|Custom Orientations.]]
-   Custom Orientations
+.. Comment: <!--[[File:Manual-3D_interaction-Transform_Control-Transform_Orientations-06.Foozle.png|
+   frame|right|Custom Orientations.]] Custom Orientations
    :(See below, [[#Custom_Orientations|Custom Orientations]]).--> .
 
 
@@ -178,12 +174,12 @@ Custom Orientations
    | Hotkey:   :kbd:`Ctrl-Alt-Spacebar`
 
 
-..    Comment: <!--[[File:Doc26-transformOrientationPanel.png|thumb|right|200px|Transform Orientation panel]]--> .
+.. Comment: <!--[[File:Doc26-transformOrientationPanel.png|thumb|right|200px|Transform Orientation panel]]-->.
 
 
 .. figure:: /images/transformOrientationPanel-custom.jpg
 
-   custom orientation
+   Custom orientation.
 
 
 You can define custom transform orientations, using object or mesh elements. Custom transform
@@ -199,7 +195,7 @@ adding and deleting custom orientations.
 .. figure:: /images/Orientations-Custom-Name.jpg
    :width: 300px
 
-   Renaming a Custom Orientation
+   Renaming a Custom Orientation.
 
 
 The default name for these orientations comes from whatever you have selected. If an edge,

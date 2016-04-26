@@ -64,4 +64,3 @@ Position content inside the center-cut areas to make sure the most important ele
 of your composition can still be visible in these screens.
 
 Blender defaults show a ``4:3`` (square) ratio inside ``16:9`` (wide-screen).
-

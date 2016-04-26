@@ -1,4 +1,3 @@
-
 .. |lock-button| image:: /images/icons_lock.png
    :width: 25px
 .. |unlock-button| image:: /images/icons_unlock.png
@@ -53,7 +52,7 @@ Dimensions
    For multi-faceted surfaces, these fields give the dimensions of the bounding box
    (aligned with the local axes - think of a cardboard box just big enough to hold the object).
 
-..    Comment: <!-- ;{{Literal|Link Scale}}
+.. Comment: <!-- ;{{Literal|Link Scale}}
    :If this toggle-button is activated the relation (proportion) between the X, Y and Z values in the
    {{Literal|Scale}} and the {{Literal|Dim}} fields is always preserved.
    Changing one value will change all the others as well with the same multiplication-factor. --> .

@@ -16,7 +16,7 @@ By locking a transformation to a particular axis you are restricting transformat
 
 
 Usage
------
+=====
 
 A locked axis will display in a brighter color than an unlocked axis. For example in the image to the right,
 the Z axis is drawn in light blue as movement is constrained to this axis. This example, can be achieved in two ways:
