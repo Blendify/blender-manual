@@ -70,6 +70,8 @@ Particle System
       and each of those vertex groups is assigned a separate and independent particle system,
       with each particle system being assigned a different ParticleInstance modifier.
       In the case shown the ParticleInstance modifiers are a sphere and a cube.
+      `Example Blend file <https://wiki.blender.org/uploads/4/48/Manual_-_Modifiers_-_Particle_Instance_Modifiers_-_Split_Plane.blend>`__
+
 
 
 Creation
