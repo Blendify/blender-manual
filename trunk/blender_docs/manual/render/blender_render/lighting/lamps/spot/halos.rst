@@ -1,6 +1,4 @@
-
-..    TODO/Review: {{review|}} .
-
+..    TODO/Review: {{review|}}.
 
 ***********************
 Spot Volumetric Effects
@@ -9,7 +7,7 @@ Spot Volumetric Effects
 .. figure:: /images/lighting-lamps-spot-halo_options.jpg
    :width: 310px
 
-   Spot lamps's Halo options
+   Spot lamps's Halo options.
 
 
 *Spot* lights also can produce "volumetric" effects.
@@ -56,11 +54,8 @@ Step
    :doc:`Buffered Shadows </render/blender_render/lighting/lamps/spot/buffered_shadows>` for more information.
 
 
-See Also
-========
+.. seealso::
 
-- :doc:`Shadows </render/blender_render/lighting/shadows/introduction>`
-- :doc:`Spot Lamp </render/blender_render/lighting/lamps/spot/introduction>`
-- :doc:`Spot Buffered Shadows </render/blender_render/lighting/lamps/spot/buffered_shadows>`
-
-
+   - :doc:`Shadows </render/blender_render/lighting/shadows/introduction>`
+   - :doc:`Spot Lamp </render/blender_render/lighting/lamps/spot/introduction>`
+   - :doc:`Spot Buffered Shadows </render/blender_render/lighting/lamps/spot/buffered_shadows>`

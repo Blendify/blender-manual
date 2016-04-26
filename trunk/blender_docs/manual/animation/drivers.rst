@@ -21,6 +21,7 @@ The Driver Value is determined by Driver Variables or a Scripted Expression.
 Most the settings for the drivers :doc:`F-Curves </editors/graph_editor/fcurves>` are found in
 the :doc:`Graph Editor </editors/graph_editor/introduction>`.
 
+
 .. _animation_drivers_panel:
 
 Drivers Panel
@@ -435,18 +436,12 @@ the current_frame. This can lead to obvious shape glitches when the rendering of
 a jump in the frame number (either because the blend-file is currently on a different frame
 number or because you're skipping already rendered frames).
 
+.. seealso::
 
-See Also
-========
+   - :doc:`Animation </animation/index>`
+   - :doc:`Graph Editor </editors/graph_editor/introduction>`
+   - :doc:`F-Curves </editors/graph_editor/fcurves>`
+   - :ref:`Extending Blender with Python <scripting-index>`.
 
-- :doc:`Animation </animation/index>`
-- :doc:`Graph Editor </editors/graph_editor/introduction>`
-- :doc:`F-Curves </editors/graph_editor/fcurves>`
-- :ref:`Extending Blender with Python <scripting-index>`.
-
-
-Links
-=====
-
-- `Python <https://www.python.org>`__ and its `documentation <https://www.python.org/doc>`__.
-- `functions.wolfram.com <https://functions.wolfram.com/>`__
+   - `Python <https://www.python.org>`__ and its `documentation <https://www.python.org/doc>`__.
+   - `functions.wolfram.com <http://functions.wolfram.com/>`__

@@ -1,7 +1,5 @@
-
 ..    TODO/Review: {{review|text=add more examples of possible effects
-      (also some vid) and move the how-to-activate explanation in a new page}} .
-
+      (also some vid) and move the how-to-activate explanation in a new page}}.
 
 ************
 Introduction
@@ -46,12 +44,8 @@ Modifier itself has two different types:
    but can still interact with other objects in the scene.
 
 
-See also
-========
+.. seealso::
 
-- `A step-by step introduction <https://www.miikahweb.com/en/articles/blender-dynamicpaint-basics>`__
-
-
-- `A detailed guide that covers every setting with images and examples
-  <https://www.miikahweb.com/en/articles/dynamic-paint-guide>`__ (Currently not up-to-date)
-
+   - `A step-by step introduction <https://www.miikahweb.com/en/articles/blender-dynamicpaint-basics>`__
+   - `A detailed guide that covers every setting with images and examples
+     <https://www.miikahweb.com/en/articles/dynamic-paint-guide>`__ (Currently not up-to-date)
