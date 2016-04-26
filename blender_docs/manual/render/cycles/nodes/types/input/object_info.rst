@@ -3,11 +3,21 @@
 Object Info
 ***********
 
-Information about the object instance.
+.. figure:: /images/cycles_nodes_object-info.png
+   :align: right
+
+   Object Info Node.
+
+
+The *Object Info* node gives information about the object instance.
 This can be useful to give some variation to a single material assigned to multiple instances,
 either manually controlled through the object index, based on the object location,
 or randomized for each instance. For example a Noise texture can give random colors or a Color
 ramp can give a range of colors to be randomly picked from.
+
+
+Outputs
+=======
 
 Location
    Location of the object in world space.

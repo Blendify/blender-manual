@@ -3,9 +3,18 @@
 Geometry
 ********
 
-Geometric information about the current shading point.
+.. figure:: /images/cycles_nodes_geometry.png
+   :align: right
+
+   Geometry Node.
+
+The *Geometry* node gives geometric information about the current shading point.
 All vector coordinates are in *World Space*. For volume shaders,
 only the position and incoming vector are available.
+
+
+Outputs
+=======
 
 Position
    Position of the shading point.

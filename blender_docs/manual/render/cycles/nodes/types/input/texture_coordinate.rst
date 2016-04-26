@@ -3,8 +3,18 @@
 Texture Coordinate
 ******************
 
-Commonly used texture coordinates,
+.. figure:: /images/cycles_nodes_texture-coordinate.png
+   :align: right
+
+   Texture Coordinate Node.
+
+
+The *Texture Coordinate* node is commonly used for the coordinates of textures,
 typically used as inputs for the *Vector* input for texture nodes.
+
+
+Outputs
+=======
 
 Generated
    Automatically-generated texture coordinates from the vertex positions of the mesh without deformation,
@@ -23,6 +33,10 @@ Window
    0 from the left to right side and bottom to top of the render.
 Reflection
    Vector in the direction of a sharp reflection, typically used for environment maps.
+
+
+Options
+=======
 
 Object
    Specific object to use for object space coordinates.

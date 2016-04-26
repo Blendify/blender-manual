@@ -4,8 +4,9 @@ Vector Math
 ***********
 
 .. figure:: /images/material-convertor-node-vectormath.jpg
+   :align: right
 
-   Vector Math node
+   Vector Math Node.
 
 
 This node performs the selected math operation on vectors.
@@ -13,7 +14,7 @@ Select the math function by clicking the up-down selector where the "Add" select
 
 
 Inputs
-------
+======
 
 Vector
    Input vector 1 (upper). The value can be provided by another node or set manually.
@@ -21,17 +22,8 @@ Vector
    Input vector 2 (lower). The value can be provided by another node or set manually.
 
 
-Outputs
--------
-
-Vector
-   Output vector, converted by the node.
-Value
-   Output value, converted by the node.
-
-
-Controls
---------
+Options
+=======
 
 Operation
    Selector the math function for conversion.
@@ -51,3 +43,12 @@ Operation
       Result - vector.
    Normalize
       Normalizing input 1 and 2.
+
+
+Outputs
+=======
+
+Vector
+   Output vector, converted by the node.
+Value
+   Output value, converted by the node.

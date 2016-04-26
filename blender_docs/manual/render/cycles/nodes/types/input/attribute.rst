@@ -3,7 +3,13 @@
 Attribute
 *********
 
-The Attribute Node allows you to retrieve attributes attached to an object or mesh.
+.. figure:: /images/cycles_nodes_attribute.png
+   :align: right
+
+   Attribute Node.
+
+
+The *Attribute Node* allows you to retrieve attributes attached to an object or mesh.
 Currently, the following are the most important ones that you will need to know:
 
 :Vertex Color Layers: These can be retrieved this by their names.
@@ -21,11 +27,20 @@ For a full list of options see `This Tread
 <https://blender.stackexchange.com/questions/14262/what-can-you-call-from-the-attribute-node/14267#14267>`__
 on the Blender Stack Exchange.
 
+
+Option
+======
+
 Name
    Name of the attribute.
-Color output
+
+
+Outputs
+=======
+
+Color
    RGB color interpolated from the attribute.
-Vector output
+Vector
    XYZ vector interpolated from the attribute.
-Fac output
+Fac
    Scalar value interpolated from the attribute.
