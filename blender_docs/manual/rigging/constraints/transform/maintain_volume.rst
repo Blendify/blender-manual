@@ -7,13 +7,13 @@ The *Maintain Volume* constraint limits the volume of a mesh or a bone to a give
 ratio of its original volume.
 
 
-Option
-======
+Options
+=======
 
 .. figure:: /images/Constraints-Transform-MaintainVol.jpg
    :width: 303px
 
-   Maintain Volume panel
+   Maintain Volume Constraint.
 
 
 Free X / Y / Z
@@ -24,9 +24,7 @@ Space
    This constraint allows you to choose in which space to evaluate its owner's transform properties.
 
 
-See also
-========
+.. seealso::
 
-- `Harkyman on the development of the Maintain Volume constraint
-  <https://www.harkyman.com/2010/03/16/maintaining-bone-volume-a-new-constraint/>`__,
-  March 2010
+   `Harkyman on the development of the Maintain Volume constraint
+   <https://www.harkyman.com/2010/03/16/maintaining-bone-volume-a-new-constraint/>`__

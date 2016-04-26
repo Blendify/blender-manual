@@ -20,7 +20,7 @@ Options
 .. figure:: /images/Apinzonf_Diagram_Modifier_Panel.jpg
    :width: 369px
 
-   Laplacian Smooth modifier
+   Laplacian Smooth modifier.
 
 
 Repeat
@@ -410,12 +410,11 @@ Normalized
              Off, High Factor
 
 
-Hints
-=====
+.. hint::
 
-Meshes with a great number of vertices, more than ten thousand (10,000),
-may take several minutes for processing; you can use small portions of the mesh for testing
-before executing the modifier on the entire model.
+   Meshes with a great number of vertices, more than ten thousand (10,000),
+   may take several minutes for processing; you can use small portions of the mesh for testing
+   before executing the modifier on the entire model.
 
 
 Examples
@@ -436,9 +435,6 @@ Examples
           <https://wiki.blender.org/index.php/Media:Apinzonf_GSOC_2012_Media_cube_smooth.blend>`__
 
 
-See Also
-========
+.. seealso::
 
-- :doc:`Smooth Modifier </modeling/modifiers/deform/smooth>`
-
-
+   :doc:`Smooth Modifier </modeling/modifiers/deform/smooth>`

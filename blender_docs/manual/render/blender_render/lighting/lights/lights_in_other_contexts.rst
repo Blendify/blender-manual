@@ -15,7 +15,7 @@ Materials
 .. figure:: /images/lighting-light_gr-mat.jpg
    :width: 317px
 
-   Light Group options for Materials
+   Light Group options for Materials.
 
 
 By default, materials are lit by all lamps in all visible layers, but a material
@@ -35,7 +35,7 @@ Render Layers
 .. figure:: /images/lighting-light_gr-renlay.jpg
    :width: 317px
 
-   Light Group options for Render Layers
+   Light Group options for Render Layers.
 
 
 There's a similar control located in the *Layer panel* of the context
@@ -43,12 +43,8 @@ There's a similar control located in the *Layer panel* of the context
 If a light group name is selected in this *Light* field,
 the scene will be lit exclusively by lamps in the specified group.
 
+.. seealso::
 
-See Also
-========
-
-- :doc:`Lamps Introduction </render/blender_render/lighting/lamps/introduction>`
-- :doc:`Shadows </render/blender_render/lighting/shadows/introduction>`
-- :doc:`Materials Introduction </render/blender_render/materials/index>`
-
-
+   - :doc:`Lamps Introduction </render/blender_render/lighting/lamps/introduction>`
+   - :doc:`Shadows </render/blender_render/lighting/shadows/introduction>`
+   - :doc:`Materials Introduction </render/blender_render/materials/index>`

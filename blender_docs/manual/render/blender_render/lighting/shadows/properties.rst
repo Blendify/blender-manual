@@ -6,13 +6,13 @@ Common Shadowing Lamps Options
 .. figure:: /images/lighting-shadow-common-properties.jpg
    :width: 310px
 
-   Common shadowing options for lamps
+   Common shadowing options for lamps.
 
 
 All lamps able to cast shadows
 (:doc:`Lamp </render/blender_render/lighting/lamps/point/introduction>`,
 :doc:`Spot </render/blender_render/lighting/lamps/spot/introduction>`,
-:doc:`Area </render/blender_render/lighting/lamps/area/introduction>` and
+:doc:`Area </render/blender_render/lighting/lamps/area/introduction>`, and
 :doc:`Sun </render/blender_render/lighting/lamps/sun/introduction>`) share some options, described below:
 
 This Layer Only
@@ -33,31 +33,28 @@ Shadow color
       * - .. figure:: /images/Shadow_and_Spot-Red_Buffer_Shadow.jpg
              :width: 190px
 
-             Red colored shadow example
+             Red colored shadow example.
 
         - .. figure:: /images/Shadow_and_Spot-Green_Buffer_Shadow.jpg
              :width: 190px
 
-             Green colored shadow example
+             Green colored shadow example.
 
         - .. figure:: /images/Shadow_and_Spot-Blue_Buffer_Shadow.jpg
              :width: 190px
 
-             Blue colored shadow example
+             Blue colored shadow example.
 
 
    Although you can select a pure white color for a shadow color, it appears to make a shadow disappear.
 
 
-See Also
-========
+.. seealso::
 
-- :doc:`Shadows </render/blender_render/lighting/shadows/introduction>`
-- :doc:`Common Raytraced Options </render/blender_render/lighting/shadows/raytraced_properties>`
-- :doc:`Lamp Light Raytraced Shadows </render/blender_render/lighting/lamps/point/introduction>`
-- :doc:`Spot Light Raytraced Shadows </render/blender_render/lighting/lamps/spot/introduction>`
-- :doc:`Area Light Raytraced Shadows </render/blender_render/lighting/lamps/area/introduction>`
-- :doc:`Sun Light Raytraced Shadows </render/blender_render/lighting/lamps/sun/introduction>`
-- :doc:`Spot Light Buffered Shadows </render/blender_render/lighting/lamps/spot/buffered_shadows>`
-
-
+   - :doc:`Shadows </render/blender_render/lighting/shadows/introduction>`
+   - :doc:`Common Raytraced Options </render/blender_render/lighting/shadows/raytraced_properties>`
+   - :doc:`Lamp Light Raytraced Shadows </render/blender_render/lighting/lamps/point/introduction>`
+   - :doc:`Spot Light Raytraced Shadows </render/blender_render/lighting/lamps/spot/introduction>`
+   - :doc:`Area Light Raytraced Shadows </render/blender_render/lighting/lamps/area/introduction>`
+   - :doc:`Sun Light Raytraced Shadows </render/blender_render/lighting/lamps/sun/introduction>`
+   - :doc:`Spot Light Buffered Shadows </render/blender_render/lighting/lamps/spot/buffered_shadows>`

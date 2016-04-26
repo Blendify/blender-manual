@@ -128,13 +128,12 @@ of its neighbors to represent the local geometric detail of the mesh.
 .. figure:: /images/Apinzonf_Diagram_differential_coordinate.jpg
    :width: 369px
 
-   Differential Coordinate
+   Differential Coordinate.
 
 
-See Also
-========
+.. seealso::
 
-- `Laplacian Surface Editing (Original paper)
-  <https://igl.ethz.ch/projects/Laplacian-mesh-processing/Laplacian-mesh-editing/laplacian-mesh-editing.pdf>`__
-- `Differential Coordinates for Interactive Mesh Editing
-  <https://igl.ethz.ch/projects/Laplacian-mesh-processing/Laplacian-mesh-editing/diffcoords-editing.pdf>`__
+   - `Laplacian Surface Editing (Original paper)
+     <https://igl.ethz.ch/projects/Laplacian-mesh-processing/Laplacian-mesh-editing/laplacian-mesh-editing.pdf>`__
+   - `Differential Coordinates for Interactive Mesh Editing
+     <https://igl.ethz.ch/projects/Laplacian-mesh-processing/Laplacian-mesh-editing/diffcoords-editing.pdf>`__
