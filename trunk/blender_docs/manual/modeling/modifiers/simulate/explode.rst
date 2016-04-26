@@ -4,7 +4,7 @@ Explode Modifier
 ****************
 
 The Explode Modifier is used to alter the mesh geometry by moving/rotating its faces in a way that roughly
-tracks particles particles emitted by that object, making it look as if the mesh is being exploded
+tracks particles emitted by that object, making it look as if the mesh is being exploded
 (broken apart and pushed outward).
 
 For the Explode Modifier to have a visible effect, there needs to be particle system on it.
@@ -15,7 +15,7 @@ Both the number of emitted particles and number of faces determine how granular 
 More faces and more particles will mean more individual pieces.
 
 Here is a
-`demo video <https://wiki.blender.org/index.php/Media:Manual - Explode Modifier - Exploding Cube - 2.5.ogg>`__
+`demo video <https://wiki.blender.org/uploads/7/7b/Manual_-_Explode_Modifier_-_Exploding_Cube_-_2.5.ogg>`__
 showing a cube with a particle system and Explode Modifier.
 (`Blend file <https://wiki.blender.org/index.php/Media:Manual_-_Explode_Modifier_-_Exploding_Cube_-_2.5.blend>`__)
 
