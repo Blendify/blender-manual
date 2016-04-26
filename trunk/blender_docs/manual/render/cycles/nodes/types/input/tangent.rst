@@ -3,10 +3,24 @@
 Tangent
 *******
 
-Generates a tangent direction for the Anisotropic BSDF.
+.. figure:: /images/cycles_nodes_tangent.png
+   :align: right
+
+   Tangent Node.
+
+
+The *Tangent* node generates a tangent direction for the Anisotropic BSDF.
+
+Options
+=======
 
 Direction Type
-   The tangent direction can be derived from a cylindrical projection around the X, Y or Z axis (Radial),
-   or from a manually created UV Map for full control.
-Tangent Output
+   The tangent direction can be derived from a cylindrical projection around the X,
+   Y, or Z axis (Radial), or from a manually created UV Map for full control.
+
+
+Outputs
+=======
+
+Tangent
    The tangent direction vector.

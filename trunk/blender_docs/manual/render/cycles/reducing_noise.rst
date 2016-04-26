@@ -165,9 +165,9 @@ This is a typical recipe for fireflies.
           :width: 180px
 
 
-To reduce this problem, the :ref:`render-cycles-nodes-more-light_falloff` node has a **Smooth factor,
-that can be used to reduce the maximum intensity** a light can contribute to nearby surfaces.
-The images above show default falloff and smooth value 1.0.
+To reduce this problem, the :doc:`Light Falloff </render/cycles/nodes/types/color/light_falloff>`
+node has a **Smooth factor, that can be used to reduce the maximum intensity**
+a light can contribute to nearby surfaces. The images above show default falloff and smooth value 1.0.
 
 
 Sample as Lamp

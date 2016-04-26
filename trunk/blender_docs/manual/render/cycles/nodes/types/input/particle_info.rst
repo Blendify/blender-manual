@@ -3,10 +3,20 @@
 Particle Info
 *************
 
-For objects instanced from a particle system,
+.. figure:: /images/cycles_nodes_particle-info.png
+   :align: right
+
+   Particle Info Node.
+
+The *Particle Info* node is for objects instanced from a :doc:`Particle System </physics/particles/index>`,
 this node give access to the data of the particle that spawned the instance.
-This node currently only supports parent particles,
-info from child particles is not available.
+This node currently only supports parent particles, info from child particles is not available.
+
+.. is this still true? ^^
+
+
+Outputs
+=======
 
 Index
    Index number of the particle (from 0 to number of particles).
