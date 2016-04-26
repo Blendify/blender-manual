@@ -3,6 +3,12 @@
 Wave Modifier
 *************
 
+The Wave modifier adds a ripple-like motion to an object's geometry.
+
+This modifier is available for meshes, lattices, curves,
+surfaces and texts, with one restriction for non-mesh objects:
+Activating *Normals* or typing a name in *VGroup* will simply deactivate the modifier.
+
 .. list-table::
 
    * - .. figure:: /images/modifier-wave-example-circular.jpg
@@ -20,13 +26,6 @@ Wave Modifier
 
           Motion enabled for X,
           Normals enabled for Y.
-
-
-The Wave modifier adds a ripple-like motion to an object's geometry.
-
-This modifier is available for meshes, lattices, curves,
-surfaces and texts, with one restriction for non-mesh objects:
-Activating *Normals* or typing a name in *VGroup* will simply deactivate the modifier.
 
 
 Options
