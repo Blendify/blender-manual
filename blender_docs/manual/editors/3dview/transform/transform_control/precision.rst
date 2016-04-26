@@ -10,9 +10,6 @@ Precision
    | Hotkey:   :kbd:`Ctrl` and/or :kbd:`Shift`
 
 
-Description
-===========
-
 Holding :kbd:`Ctrl` during a transform operation (such as grab, rotate or scale)
 will toggle :ref:`Transform Snapping <transform-snap>`.
 When the :ref:`Snap Element <transform-snap-element>` is set to *Increment*,

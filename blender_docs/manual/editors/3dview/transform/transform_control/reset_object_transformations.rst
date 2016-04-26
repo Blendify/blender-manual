@@ -1,5 +1,4 @@
-
-..    TODO/Review: {{review|}} .
+..    TODO/Review: {{review|}}.
 
 ****************************
 Clear Object transformations

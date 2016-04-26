@@ -11,7 +11,6 @@ from it (i.e. they will move proportionally relative to the location of the sele
 Since proportional editing affects the nearby geometry,
 it is very useful when you need to smoothly deform the surface of a dense mesh.
 
-
 .. note:: Sculpting
 
    Blender also has :ref:`painting_sculping-index`
@@ -134,7 +133,6 @@ Falloff
    While you are editing, you can change the curve profile used by either using the
    :menuselection:`Mesh --> Proportional Falloff` submenu, using the toolbar icon (*Falloff menu*),
    or by pressing :kbd:`Shift-O` to toggle between the various options.
-
 
 .. list-table::
 

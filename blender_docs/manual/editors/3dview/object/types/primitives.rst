@@ -1,6 +1,4 @@
-
-..    TODO/Review: {{review|}} .
-
+..    TODO/Review: {{review|}}.
 
 ***************
 Mesh Primitives
@@ -236,7 +234,6 @@ The Monkey's name is "Suzanne" and is Blender's mascot.
 Suzanne is very useful as a standard test mesh,
 much like the `Utah Tea Pot <https://en.wikipedia.org/wiki/Utah_teapot>`__
 or the `Stanford Bunny <https://en.wikipedia.org/wiki/Stanford_Bunny>`__.
-
 
 .. note:: Add-ons
 

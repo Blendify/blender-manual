@@ -1,6 +1,4 @@
-
-..    TODO/Review: {{review|text=Options reviewed for v2.70; Video is for old version}} .
-
+..    TODO/Review: {{review|text=Options reviewed for v2.70; Video is for old version}}.
 
 ************
 Introduction
@@ -12,7 +10,6 @@ By default a scene contains one camera. However, A scene can contain more than o
 but only one of them will be used at a time.
 So you will only need to add a new camera if you are making cuts between them.
 See :doc:`Animating  Cameras </animation/camera>`.
-
 
 
 Changing the Active Camera
@@ -33,20 +30,20 @@ Changing the Active Camera
 The *active* camera is the camera that is currently being used for rendering and camera view
 (:kbd:`Numpad0`).
 
-Select the camera you would like to make active and press :kbd:`Ctrl-Numpad0` (by doing so,
-you also switch the view to camera view). In order to render,
+Select the camera you would like to make active and press :kbd:`Ctrl-Numpad0`
+(by doing so, you also switch the view to camera view). In order to render,
 each scene **must** have an active camera.
 
 The active camera can also be set in the *Scene* context of the *Properties Editor*
 
 The camera with the solid triangle on top is the active camera.
 
-
 .. warning::
 
    The active camera, as well as the layers, can be specific to a given view,
    or global (locked) to the whole scene - see
    :doc:`Local Camera </editors/3dview/display/panels>`.
+
 
 .. _camera-settings:
 
@@ -90,6 +87,7 @@ Sensor size
    it's useful to match the camera in Blender to a physical camera & lens combination,
    e.g. for :doc:`motion tracking </editors/movie_clip_editor/index>`.
 
+
 .. _render-camera-dof:
 
 Depth of Field
@@ -97,7 +95,7 @@ Depth of Field
 
 .. figure:: /images/camera_dof_panel.jpg
 
-   Camera Depth of Field Panel
+   Camera Depth of Field Panel.
 
 
 Real world cameras transmit light through a lens that bends and focuses it onto the sensor.
@@ -146,7 +144,7 @@ Display
 
 .. figure:: /images/Camera-display-panel.jpg
 
-   Camera Display panel
+   Camera Display Panel.
 
 
 Limits
@@ -222,7 +220,7 @@ Render Border
 
 .. figure:: /images/3D-interaction_Navigating_Camera-View-render-border-toggle.jpg
 
-   Render Border toggle
+   Render Border toggle.
 
 
 While in camera view, you can define a subregion to render by drawing out a rectangle within the cameras frame.

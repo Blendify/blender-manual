@@ -11,9 +11,6 @@ Scale
    | Hotkey:   :kbd:`S`
 
 
-Description
-===========
-
 Pressing :kbd:`S` will enter the *Scale* transformation mode where the
 selected element is scaled inward or outward according to the mouse pointer's location. The
 element's scale will increase as the mouse pointer is moved away from the Pivot Point and

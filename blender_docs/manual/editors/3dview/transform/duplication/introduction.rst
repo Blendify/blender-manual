@@ -186,10 +186,8 @@ Linked Library Duplication
 :doc:`Linked Libraries </data_system/linked_libraries>` :Linked Libraries are also a form of duplication.
 Any object or data-block in other blend-files can be reused in the current file.
 
-
 .. hint::
    - If you want transform properties (i.e. object data-blocks) to be "linked",
      see the page on :doc:`parenting </editors/3dview/object/relationships/parents>`.
    - Material Transparency will not display when instancing dupli-groups;
      this is a known limitation of Blender's view-port.
-

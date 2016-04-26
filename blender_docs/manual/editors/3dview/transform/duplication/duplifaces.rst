@@ -20,7 +20,7 @@ One of the best ways to explain this is through an example illustration.
    `here <https://wiki.blender.org/index.php/:File:Manual-2.5-Duplifaces-Example01.blend>`__
 
 
-Basic usage
+Basic Usage
 ===========
 
 .. figure:: /images/Dupliface-Example01-1Start.jpg
@@ -100,6 +100,6 @@ Since it is common for these faces to butt up against one another,
 your geometry will have lots of duplicate vertices.
 Use the Remove Doubles button in the Tools panel.
 
-`A short video illustrating this workflow. <https://www.youtube.com/watch?v=diI8xJ9oo_8>`__
+A short video illustrating this workflow:
 
-
+.. youtube:: diI8xJ9oo_8

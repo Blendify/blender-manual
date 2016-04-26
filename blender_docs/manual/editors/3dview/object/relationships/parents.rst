@@ -1,5 +1,4 @@
-
-..    TODO/Review: {{review|text=add group instance}} .
+..    TODO/Review: {{review|text=add group instance}}.
 
 *****************
 Parenting Objects

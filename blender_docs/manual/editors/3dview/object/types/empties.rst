@@ -1,9 +1,4 @@
-
-..    TODO/Review: {{review
-   |text= :Needs a more detailed Uses + Functions section
-
-   }} .
-
+..    TODO/Review: {{review|text=:Needs a more detailed Uses + Functions section}}.
 
 *******
 Empties
@@ -98,4 +93,3 @@ Empties are important and useful objects. Some examples of ways to use them incl
 - Rigging controls
 - DOF distances
 - Reference Images
-

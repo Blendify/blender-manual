@@ -5,6 +5,7 @@
 
 The 3D Cursor is simply a point in 3D space which can be used for a number of purposes
 
+
 Placement
 =========
 
@@ -68,7 +69,9 @@ The 3D cursor can also be positioned by entering Numeric location values into th
 panel of the *Properties* shelf (:kbd:`N`).
 
 
-.. Usage
-.. =====
+Usage
+=====
+
+Todo.
 
 .. TODO: uses (placement of objects, moving objects, modeling tools...)

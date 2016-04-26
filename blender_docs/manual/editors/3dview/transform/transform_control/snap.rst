@@ -115,7 +115,7 @@ Closest
           Median
 
 
-Additional snap options
+Additional Snap Options
 =======================
 
 .. list-table::

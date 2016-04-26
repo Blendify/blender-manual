@@ -3,7 +3,6 @@
 Transform Tools
 ***************
 
-
 Randomize Transform
 ===================
 
@@ -16,7 +15,7 @@ Randomize Transform
 
 .. figure:: /images/transform-randomize.jpg
 
-   Randomize transform options
+   Randomize transform options.
 
 
 The randomize transform tool allows you to apply random translate, rotate,

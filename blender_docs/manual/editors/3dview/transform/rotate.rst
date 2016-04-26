@@ -11,9 +11,6 @@ Rotate
    | Hotkey:   :kbd:`R`
 
 
-Description
-===========
-
 Rotation is also known as a spin, twist, orbit, pivot, revolve,
 or roll and involves changing the orientation of elements (vertices, edge, face, Object etc)
 around one or more axes or the element's Pivot Point.
