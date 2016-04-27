@@ -10,7 +10,7 @@ Use Cases:
 
 - If Blender exits unexpectedly, the messages may indicate the cause or error.
 - To see the output of Python scripts ``print()`` command.
-- To launch with :doc:`/advanced/command_line/arguments` options.
+- To launch Blender with different :doc:`Arguments </advanced/command_line/arguments>`.
 - When troubleshooting, to see the output of ``--debug`` messages.
 
 

@@ -37,9 +37,9 @@ There are three primary types of modeling - mesh modeling, curve/surface modelin
       within the various panels of the 3D View.
       Switching between modes while modeling is common.
       Some tools may be available in more than one mode while others may be unique to a particular mode.
-:doc:`Curve modeling</modeling/curves/index>`
+:doc:`Curve modeling </modeling/curves/index>`
    Uses control points to define the shape of the curve.
-:doc:`Surface modeling</modeling/surfaces/index>`
+:doc:`Surface modeling </modeling/surfaces/index>`
    Similar to curve modeling,
    but instead of being limited to simple linear paths,
    they allow the creation of three dimensional surfaces, potentially with volume.

@@ -20,7 +20,7 @@ Make Edge/Face
 
 
 This will create an edge or some faces, depending on your selection.
-Also see :doc:`/modeling/meshes/editing/basics/creating_faces_and_edges`.
+Also see :doc:`Creating Geometry </modeling/meshes/editing/basics/creating_faces_and_edges>`.
 
 .. list-table::
 
@@ -33,6 +33,7 @@ Also see :doc:`/modeling/meshes/editing/basics/creating_faces_and_edges`.
           :width: 300px
 
           Filled using fill.
+
 
 .. _modeling-meshes-editing-fill:
 

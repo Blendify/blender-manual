@@ -37,8 +37,8 @@ External
       `2` to the third, and so on.
 
 Use Lib Path
-   Share the disk cache when the physics object is :doc:`linked 
-   </data_system/linked_libraries>` into another blend-file.
+   Share the disk cache when the physics object is
+   :doc:`linked </data_system/linked_libraries>` into another blend-file.
 
    When this option is enabled, linked versions of the object will reference the same disk cache.
    When disabled, linked versions of the object will use independent caches.

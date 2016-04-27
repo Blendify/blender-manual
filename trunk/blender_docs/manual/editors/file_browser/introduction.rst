@@ -20,7 +20,7 @@ Use cases include:
 - Opening and Saving Blend files.
 - Import/Export other file formats.
 - Picking new locations for existing file-paths (images, video's, fonts... etc).
-- Browsing inside other blend-files, when using :doc:`/data_system/linked_libraries`.
+- Browsing inside other blend-files, when using :doc:`Linked Libraries </data_system/linked_libraries>`.
 
 You can also keep the file selector open, as with any other window type.
 In this case the buttons to load a files is removed.
@@ -32,11 +32,11 @@ The main purpose of this is to be able to drag media files.
 
 
 Shortcuts
----------
+=========
 
 
 Path Fields
-^^^^^^^^^^^
+-----------
 
 Increment Filename (:kbd:`Plus`, :kbd:`Minus`)
    Adds or removes a trailing number to your file name.
@@ -44,40 +44,32 @@ Increment Filename (:kbd:`Plus`, :kbd:`Minus`)
 Auto Complete (:kbd:`Tab`)
    When in the directory editor, this will auto-complete existing paths.
 
-----
-
 
 Navigation
-^^^^^^^^^^
+----------
 
 Enter Path (:kbd:`Return`)
    Enter the directory.
 Parent Directory (:kbd:`Backspace` or :kbd:`P`)
    Takes you up one directory.
 
-----
-
 
 View
-^^^^
+----
 
 Hidden Files (:kbd:`H`)
    Toggle displaying hidden files.
 
-----
-
 
 Selection
-^^^^^^^^^
+---------
 
 (De)select All (:kbd:`A`)
    Toggles selecting all files.
 
-----
-
 
 File Management
-^^^^^^^^^^^^^^^
+---------------
 
 Delete Files (:kbd:`Delete` or :kbd:`X`)
    Delete the currently selected files.
@@ -117,8 +109,7 @@ Header
 .. Editors Note:
    This has been taken from older docs,
    but is really just 'enumerating lists' which should be avoided.
-   ::
-   Some of these lists could be summerized.
+   :: Some of these lists could be summerized.
 
 
 The Header contains several tools for navigation of files. The four arrow icons allow you to:

@@ -5,8 +5,7 @@
 ###########
 
 .. For writing style guide, see: ``../about/writing_style_guide.rst``.
-
-.. If you add new entries, keep the alphabetical sorting!
+   If you add new entries, keep the alphabetical sorting!
 
 This page lists definitions for terms used in Blender and this manual.
 Also see
@@ -113,7 +112,7 @@ For other common conventions used throughout the manual.
 
    Bounce
       Refers to the reflection or transmission of a light ray upon interaction with a material.
-      See also :doc:`/render/cycles/settings/light_paths`.
+      See also :doc:`Light Paths </render/cycles/settings/light_paths>`.
 
    Bounding Box
       The box that encloses the shape of an object. The box is aligned with the local space of the object.
@@ -324,11 +323,10 @@ For other common conventions used throughout the manual.
    Lattice
       A type of object consisting of a non-renderable three-dimensional grid of vertices.
 
-      See also :doc:`/modeling/modifiers/deform/lattice`.
+      See also :doc:`Lattice Modifier </modeling/modifiers/deform/lattice>`.
 
    Layer
-      A device for organizing objects.
-      See also :doc:`Layers </editors/3dview/layers>`.
+      A device for organizing objects. See also :doc:`Layers </editors/3dview/layers>`.
 
    Local Space
       A 3D coordinate system that originates (for Objects) at the :term:`Object Center`
@@ -463,7 +461,7 @@ For other common conventions used throughout the manual.
    Pivot Point
       Reference point used by many mesh manipulation tools.
 
-      See also :doc:`/editors/3dview/transform/transform_control/pivot_point/index`.
+      See also the :doc:`Pivot Point </editors/3dview/transform/transform_control/pivot_point/index>` docs.
 
    Pixel
       The smallest unit of information in a 2D raster image,

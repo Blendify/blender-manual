@@ -41,6 +41,7 @@ Properties Panel
    - :doc:`Display & View Panels </editors/3dview/display/panels>`
    - :doc:`Background Images </editors/3dview/display/background_images>`
    - :doc:`Transform Orientations </editors/3dview/transform/transform_control/transform_orientations>`
+
 Tool Shelf
    Toggles the *Tool Shelf* (:kbd:`T`), which appears on the left side of the 3d view,
    and allows you to perform various operations, depending on the type of object selected, and the mode you are in.
@@ -55,6 +56,7 @@ Tool Shelf
    - Back (:kbd:`Ctrl-Numpad1`)
    - Right (:kbd:`Numpad3`)
    - Left (:kbd:`Ctrl-Numpad3`)
+
 :doc:`Cameras Menu </editors/3dview/navigate/camera_view>`:
    *Set Active object as camera*
    *Active camera*
@@ -73,9 +75,9 @@ Tool Shelf
    - *View Selected*
    - *Center View to cursor*
 
-:ref:`Clipping Border... <3dview-clip_border>`
+:ref:`Clipping Border <3dview-clip_border>`
    Allows you to define a clipping border to limit the 3D view display to a portion of 3D space.
-:doc:`Zoom Border... </editors/3dview/navigate/3d_view>`
+:doc:`Zoom Border </editors/3dview/navigate/3d_view>`
    Allows you to define the area you want to zoom into.
 :doc:`Show all Layers </editors/3dview/layers>`
    Makes all of the display layers visible.

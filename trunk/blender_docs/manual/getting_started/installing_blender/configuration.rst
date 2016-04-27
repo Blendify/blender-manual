@@ -26,7 +26,7 @@ If you have a compact keyboard without a separate number pad enable
 If you don't have a middle mouse button you can enable
 :menuselection:`File --> User Preferences --> Emulate 3 Button Mouse`.
 
-See :doc:`/preferences/input` for details.
+See :doc:`Input Preferences </preferences/input>` for details.
 
 
 File and Paths
@@ -49,4 +49,4 @@ This would not happen by accident,
 and most users leave this option on to automatically run scripts often used in advanced rigs
 (such as ``Rigify`` that controls the skeleton of a human rig).
 
-See :doc:`/preferences/file` for details.
+See :doc:`File Preferences </preferences/file>` for details.

@@ -83,7 +83,7 @@ They start and end at the same vertex and divide the model into two partitions.
 Loops can be a quick and powerful tool to work with specific,
 continuous regions of a mesh and are a prerequisite for organic character animation.
 For a detailed description of how to work with loops in Blender, see:
-:doc:`/modeling/meshes/selecting/advanced`.
+:doc:`Advanced Selection </modeling/meshes/selecting/advanced>`.
 
 
 .. _modeling-mesh-structure-edge_loops:

@@ -81,7 +81,9 @@ Excluded Paths
    Blend files in these folders will *not* automatically run Python scripts.
    This can be used to define where blend-files from untrusted sources are kept.
 
-.. seealso:: :doc:`/advanced/scripting/python/security`
+.. seealso::
+
+   :doc:`Python Security </advanced/scripting/python/security>`
 
 
 .. _prefs-save_load:
@@ -110,7 +112,7 @@ Load UI
 
 .. figure:: /images/Interface-Configuration-File-filefilter-25.jpg
 
-   File extension filter
+   File extension filter.
 
 
 Filter File Extensions
@@ -160,4 +162,3 @@ Timer
    The minimum is **1**, and the Maximum is **60** (Save at every one hour).
 
 :doc:`Read more about Auto Save options </troubleshooting/recover>`.
-
