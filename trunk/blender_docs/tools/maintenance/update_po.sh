@@ -29,8 +29,10 @@ make gettext
 
 
 # Update the locale dir:
-svn cleanup locale
-svn up locale
+cd ./locale
+svn cleanup .
+svn up .
+cd ../
 
 
 # Update PO files
@@ -67,5 +69,5 @@ python3 tools/rst_check_structure.py --locale
 
 # Print Commit message:
 REVISION=`svn info . | grep '^Revision:' | sed -e 's/^Revision: //'`
-echo " svn ci locale/ -m \"Update r"$REVISION\"
+echo " cd locale; svn ci . -m \"Update r"$REVISION\"; cd .." 
 
