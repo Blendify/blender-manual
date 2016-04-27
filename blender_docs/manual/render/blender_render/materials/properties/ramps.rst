@@ -34,7 +34,7 @@ Blender materials.
 
 
 Options
--------
+=======
 
 .. figure:: /images/material-rampspanel.jpg
 
@@ -114,7 +114,7 @@ as well in other places where a range of colors can be computed and displayed.
 
 
 Options
-^^^^^^^
+-------
 
 Add
    Add a new mark to the center of the colorband with the default color (neutral gray).
@@ -171,5 +171,3 @@ Interpolation
       B-Spline.
    Constant
       Constant.
-
-

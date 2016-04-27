@@ -84,11 +84,12 @@ DV, H.264, or Xvid (if installed). You must have the proper codec installed on y
 for Blender to be able to call it and use it to compress the video stream.
 
 Format
-   Video container or file type. For a list of all available options see :doc:` </data_system/files/video_formats>`.
+   Video container or file type. For a list of all available options see
+   :doc:`video formats </data_system/files/video_formats>`.
 
    Codec
       Chooses the method of compression and encoding.
-      For a list of all available options see :doc:` </data_system/files/video_formats>`.
+      For a list of all available options see :doc:`video formats </data_system/files/video_formats>`.
    Lossless Output
       Allows the ability to perfectly reconstruct compressed data from compressed data.
 
@@ -128,13 +129,14 @@ Rate
       The `decoder bitstream buffer <https://en.wikipedia.org/wiki/Video_buffering_verifier>`__ size.
 
 Audio Codec
-   Audio conainer used, For a list of all available options see :doc:` </data_system/files/video_formats>`.
+   Audio conainer used, For a list of all available options see :doc:`video formats </data_system/files/video_formats>`.
 Bitrate
    For each codec, you can control the bitrate (quality) of the sound in the movie.
    This example shows MP3 encoding at 128kbps. Higher bitrates are bigger files that stream worse but sound better.
    Stick to powers of 2 for compatibility.
 Volume
    Sets the output volume of the audio.
+
 
 Tips
 ----

@@ -1,5 +1,4 @@
 
-
 *********************
 The Constraints Stack
 *********************
@@ -17,4 +16,4 @@ Changing the order of the constraints can change the behavior of the entire stac
    and ending with the final "Transformation" constraint. 
 
 To change the order of a constraint use the up/down arrows in the
-:doc:`header</rigging/constraints/interface/header>`.
+:doc:`header </rigging/constraints/interface/header>`.

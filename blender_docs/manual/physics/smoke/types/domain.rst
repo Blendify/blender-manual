@@ -41,7 +41,6 @@ Resolution
    Since the resolution is defined in terms of *subdivisions*,
    larger domains will need more divisions to get an equivalent resolution to a small domain.
 
-
    Also see `Note on Divisions and High Resolution`_.
 
 
@@ -175,6 +174,7 @@ Noise Method
       Comparison of noise methods. *Wavelet* on the left, *FFT* on the right.
 
    .. note::
+
       *Wavelet* is an implementation of `Turbulence for Fluid Simulation
       <https://graphics.ethz.ch/research/physics_animation_fabrication/simulation/turb.php>`__.
 
@@ -201,14 +201,15 @@ Collision Group
 Smoke Cache
 ===========
 
-See :doc:`Baking</physics/smoke/baking>`.
+See :doc:`Baking </physics/smoke/baking>`.
+
 
 .. _smoke-field-weights:
 
 Smoke Field Weights
 ===================
 
-These settings determine how much gravity and :doc:`Force Fields</physics/force_fields/index>` affect the smoke.
+These settings determine how much gravity and :doc:`Force Fields </physics/force_fields/index>` affect the smoke.
 
 Effector Group
    When set, smoke can only be influenced by force fields in the specified group.

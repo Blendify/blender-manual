@@ -3,9 +3,6 @@
 Bump and Normal Maps
 ********************
 
-Description
------------
-
 *Normal Maps* and *Bump Maps* both serve the same purpose:
 they simulate the impression of a detailed 3D surface,
 by modifying the shading as if the surface had lots of small angles, rather than being completely flat.
@@ -47,7 +44,7 @@ Normal maps
 
 
 Workflow
---------
+========
 
 The steps involved in making and using Bump and Normal Maps is:
 
@@ -72,7 +69,7 @@ this may be replaced with a single plane, oriented in the same direction as the 
 modeling feature can be used to good effect here.)
 
 Mapping is the process of applying a texture to the low-poly mesh.
-Consult the :doc:`Textures Mapping section</render/blender_render/textures/mapping/index>`
+Consult the :doc:`Textures Mapping section </render/blender_render/textures/mapping/index>`
 for more information on applying a texture to a mesh's material.Special considerations for Bump and Normal Maps is:
 
 - When using a Bump map, map the texture to *Normal* and enable *No RGB*.

@@ -51,7 +51,6 @@ Visualization
 =============
 
 .. list-table::
-   
 
    * - .. figure:: /images/editmode-cubeselect-1.jpg
           :width: 315px
@@ -103,7 +102,7 @@ For each tool a context-dependent menu is opened at the bottom of the *Tool Shel
 Even more mesh editing tools can be enabled in the *User Preferences* '
 *Add-ons* section.
 
-For further information on panels see :doc:`/interface/panels`.
+For further information see :doc:`Panels </interface/panels>`.
 
 
 Properties Shelf
@@ -149,13 +148,13 @@ Faces
    :doc:`3D Viewport </editors/3dview/display/index>`.
    This affects all selection modes.
 Creases and Bevel Weight
-   Highlights edges marked with a crease weight for the :doc:`Subdivision Surface Modifier
-   </modeling/modifiers/generate/subsurf>`
+   Highlights edges marked with a crease weight for the
+   :doc:`Subdivision Surface Modifier </modeling/modifiers/generate/subsurf>`
    and/or a bevel weight for the :doc:`Bevel Modifier </modeling/modifiers/generate/bevel>`,
    respectively. In both cases, the higher the weight, the brighter the highlight.
 Seams and Sharp
-   Highlights edges marked as an UV seam for unwrapping and/or sharp edges for the :doc:`Edge Split Modifier
-   </modeling/modifiers/generate/edge_split>`
+   Highlights edges marked as an UV seam for unwrapping and/or sharp edges for the
+   :doc:`Edge Split Modifier </modeling/modifiers/generate/edge_split>`
 
 Normals Section:
 

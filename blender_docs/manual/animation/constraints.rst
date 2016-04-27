@@ -32,7 +32,7 @@ But you can also have very complex behaviors,
 like when using the :doc:`Action constraint </rigging/constraints/relationship/action>`,
 which is a sort of :doc:`Animation Driver </animation/drivers>` for actions!
 
-We should also mention the classical :doc:`Child Of constraint </rigging/constraints/relationship/child_of>`,
+We should also mention the classical :doc:`Child of Constraint </rigging/constraints/relationship/child_of>`,
 which creates parent/child relationship.
 These relationships indeed imply indirect animation (as transforming the parent affects by default all its children).
 But the *Child Of* constraint is also very important, as it allows you to parent your objects to bones,
@@ -84,7 +84,7 @@ Animating Constraints Influence
 More "classically",
 you can also animate a few properties of each constraint using animation curves.
 
-You only have two animation curves (see also: :doc:`/editors/graph_editor/index`):
+You only have two animation curves (see also: :doc:`Graph Editor </editors/graph_editor/index>`):
 
 - You can animate the *Influence* of a constraint.
   For example, in the `Example`_ above, I used it to first stick the camera to the "moon", then to the "earth",

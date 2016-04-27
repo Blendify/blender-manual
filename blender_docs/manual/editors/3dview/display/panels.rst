@@ -12,7 +12,7 @@ Only Render
    This can be is useful to preview how animations look without being distracted by
    rigs, empties, lights & cameras.
 
-   Useful to enable with :doc:`/render/opengl`.
+   Useful to enable for :doc:`OpenGL Render </render/opengl>`.
 
    .. note::
 
@@ -21,6 +21,7 @@ Only Render
 
       Options such as restrict-render, modifiers render option, dupli-parents and render layers
       aren't taken into account.
+
 Outline Selected
    If disabled, the pink outline around your selected objects in
    *Solid* / *Shaded* / *Textured* draw types will no longer be displayed.
@@ -41,6 +42,7 @@ Grid Floor
    Subdivisions
       Controls the number of sub-lines that appear in each cell of the grid when you zoom in,
       so it is a setting specific to top/front/side orthographic views.
+
 Toggle Quad View
    Toggles the four pane 3D view.
    :doc:`Read more about arranging areas</interface/window_system/arranging_areas>`

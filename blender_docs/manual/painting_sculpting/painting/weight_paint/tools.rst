@@ -389,7 +389,7 @@ Operator Parameters
 .. note::
 
    This tool now uses the generic 'data transfer' one. Please refer to the
-   :doc:`/modeling/modifiers/modify/data_transfer` for options details and explanations.
+   :doc:`Data Transfer </modeling/modifiers/modify/data_transfer>` docs for options details and explanations.
 
 
 Limit Total
@@ -407,7 +407,7 @@ Operator Parameters
 Subset
    Restrict the tool to a subset. See above (*The Subset Option*) for how subsets are defined.
 Limit
-   Maximum number of weights allowed on each vertex (default:4)
+   Maximum number of weights allowed on each vertex.
 
 
 Weight Gradient

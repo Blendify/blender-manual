@@ -1,4 +1,3 @@
-
 .. |texture-button| image:: /images/icons_texture.png
    :width: 25px
 
@@ -44,7 +43,7 @@ Scene Preview / Render
 
 OpenGL Preview
    When enabled :doc:`Scene Strips </editors/sequencer/strips/types/scene>`
-   use a quick OpenGL preview (see :doc:`/render/opengl` for more on this subject).
+   use a quick OpenGL preview (see :doc:`OpenGL render </render/opengl>` for more on this subject).
 
    Otherwise a full render is used, which can be very slow.
 

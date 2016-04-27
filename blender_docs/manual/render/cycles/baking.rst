@@ -1,8 +1,9 @@
+
 *************
 Render Baking
 *************
 
-Refer to the Blender Render page for :doc:`general baking guidelines</render/workflows/bake>`
+Refer to the Blender Render page for :doc:`general baking guidelines </render/workflows/bake>`
 
 
 Cycles uses the render settings (samples, bounces, ...) for baking.
@@ -87,6 +88,7 @@ which is a property of the surface and independent of sampling refinement.
 If color is not selected, you get the direct and/or indirect contributions in grayscale.
 
 If color and either direct or indirect is selected you get the direct and/or indirect contributions colored.
+
 
 Additional Options
 ==================

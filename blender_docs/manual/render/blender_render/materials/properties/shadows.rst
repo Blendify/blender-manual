@@ -6,7 +6,7 @@ Shadows
 The shadows that appear in a scene are affected by a combination of the layout of objects,
 the shape of the objects, the materials of the objects, and the lighting.
 In Blender, the Display Mode (Single Texture, Multitexture,or GLSL) also affects the appearance of shadows.
-See :doc:`/render/blender_render/lighting/shadows/index` for a more complete description of this subject.
+See :doc:`Shadows </render/blender_render/lighting/shadows/index>` for a more complete description of this subject.
 
 
 .. tip:: Shadows in 3D mode
@@ -74,14 +74,14 @@ Cast Only
    Material appears transparent, but it still casts shadows (Fig. 5).
 
 Casting Alpha
-   ??
+   Todo.
 
 Shadows Only
    Material appears transparent except for where it receives shadows from other objects,
    and also it retains its own transparency (Fig. 6). Note the faint image of the partly-transparent post.
 
 Shadow and Distance
-   ???
+   Todo.
 
 
 .. figure:: /images/materials_properties_shadow5.jpg
@@ -116,5 +116,3 @@ Ray Bias
 
 Cast Approximate
    Allow this material to cast shadows when using approximate ambient occlusion.
-
-

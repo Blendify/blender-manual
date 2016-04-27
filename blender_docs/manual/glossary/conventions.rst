@@ -45,7 +45,7 @@ Of special note are the arrow keys, :kbd:`Left`, :kbd:`Right` and so on.
 Get Involved
 ============
 
-If you would like to contribute to this manual, see :doc:`/about/index`,
+If you would like to contribute to this manual, see :doc:`Contributing to the Manual </about/index>`,
 check for `open tasks <https://developer.blender.org/project/profile/53>`__,
 or join the `mailing list <https://lists.blender.org/mailman/listinfo/bf-docboard>`__
 and #blenderwiki channel on :ref:`IRC <irc-channels>`.
