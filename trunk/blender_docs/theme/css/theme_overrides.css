@@ -85,4 +85,7 @@ table { caption-side: bottom; }
     white-space: nowrap;
     padding: 1px 6px;
 }
+@media screen and (max-width: 420px) { 
+    .menuselection {white-space: normal;}
+}
 
