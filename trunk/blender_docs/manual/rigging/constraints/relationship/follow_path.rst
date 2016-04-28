@@ -18,8 +18,9 @@ The owner is always evaluated in the global (world) space:
   it will be one BU away from its normal position on the curve, along the X and Y axis.
   Hence, if you want your owner *on* its target path, clear its location (:kbd:`Alt-G`)!
 - This location offset is also proportionally affected by the *scale of the target curve*.
-  Taking the same ``(1.0, 1.0, 0.0)`` offset as above, if the curve has a scale of ``(2.0, 1.0,
-  1.0)``, the owner will be offset *two* BU along the X axis (and one along the Y one)...
+  Taking the same ``(1.0, 1.0, 0.0)`` offset as above,
+  if the curve has a scale of ``(2.0, 1.0, 1.0)``,
+  the owner will be offset *two* BU along the X axis (and one along the Y one)...
 - When the *Curve Follow* option is enabled, its rotation is also offset to the one given by the curve (i.e.
   if you want the Y axis of your object to be aligned with the curve's direction,
   it must be in rest, non-constrained state, aligned with the global Y axis).
@@ -51,7 +52,6 @@ you can use a *Locked Track* and a target object to specify the up direction, as
    whereas the :doc:`Clamp To </rigging/constraints/tracking/clamp_to>` *constraint* determines the position of its
    owner along the curve using one of its location properties' values.
 
-
 .. note::
 
    Note that you also need to keyframe Evaluation Time for the Path. Select the path, go to the path properties,
@@ -59,8 +59,10 @@ you can use a *Locked Track* and a target object to specify the up direction, as
    set the value of Evaluation time to the first frame of the path (e.g. 1), right click on Evaluation time,
    select create keyframe, set the overall frame to the last frame of the path (e.g. frame 100),
    set the value of Evaluation time to the last frame of the path (e.g. 100), right click on Evaluation time,
-   select create keyframe. ..    Comment: <!-- from https://overshoot.tv/node/1123 paragraph needs cleanup but this
-   definitely needs to be in the documentation --> .
+   select create keyframe.
+
+.. from https://overshoot.tv/node/1123
+   paragraph needs cleanup but this definitely needs to be in the documentation
 
 
 Options

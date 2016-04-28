@@ -282,7 +282,7 @@ and can be used to speed up viewport performance in heavy scenes.
       Although new objects may be added while in local-view.
 
       Its also possible to send objects out of local view,
-      using :menuselection:`Object -> Move Objects out of Local View`,
+      using :menuselection:`Object --> Move Objects out of Local View`,
       which can be useful to further isolate a selection.
    Preview Renders
       Preview renders will still use lamps outside the local-view,

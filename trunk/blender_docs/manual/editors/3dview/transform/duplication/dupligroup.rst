@@ -23,7 +23,7 @@ Create a Group:
    - Create a new group :menuselection:`Object --> Group --> Create New Group`
    - Rename your group in the properties editor: *Object --> Groups*
 Create a new Group Instance:
-   - :menuselection:`Add -> Group Instance`
+   - :menuselection:`Add --> Group Instance`
 Change the Group Instance of existing objects:
    - In the properties editor: *Object --> Duplication*, enable *Group*.
    - Select the name of your newly created group.

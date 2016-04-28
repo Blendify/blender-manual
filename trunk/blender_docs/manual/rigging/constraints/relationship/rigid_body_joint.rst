@@ -72,9 +72,10 @@ Joint Type:
 
 Child Object
    normally, leave this blank. You can reset it to blank by right clicking and selecting Reset to Default Value.
-   Comment: <!-- Is this right? 2.4 just had a 'to object'. Now we have a 'target' and a 'child object'.
-   These are not documented. It seems that we recreate the behaviour of 2.4 by leaving the child object blank.
-   The target seems to be the 2.4 'to object'. What is the child object? Please explain: m.e --> .
+
+   .. Is this right? 2.4 just had a 'to object'. Now we have a 'target' and a 'child object'.
+      These are not documented. It seems that we recreate the behaviour of 2.4 by leaving the child object blank.
+      The target seems to be the 2.4 'to object'. What is the child object? Please explain!
 
 Linked Collision
    When enabled, this will disable the collision detection between the owner and the target

@@ -17,9 +17,10 @@ and it is very easy to work in one window and hop over to work in another.
 Maximizing an Area
 ==================
 
-You can maximize an area to fill the whole application window with the *View*
---> *Toggle Full Screen* menu entry. To return to normal size,
-use again *View* --> *Toggle Full Screen*.
+You can maximize an area to fill the whole application window with 
+:menuselection:`View --> Toggle Full Screen` menu entry.
+To return to normal size,
+use again :menuselection:`View --> Toggle Full Screen`.
 A quicker way to achieve this is to use :kbd:`Shift-Spacebar`,
 :kbd:`Ctrl-Down` or :kbd:`Ctrl-Up` to toggle between maximized and areas.
 NOTE: The window your mouse is currently hovering over is the one that will be maximized using
