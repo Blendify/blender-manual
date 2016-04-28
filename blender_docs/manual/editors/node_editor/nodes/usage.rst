@@ -19,8 +19,6 @@ In general, try to arrange your nodes within the window such that the image flow
 Move a node by clicking on a benign area and drag it around. A node can be clicked almost anywhere to start dragging.
 
 
-.. _auto-offset:
-
 Auto-offset
 -----------
 
