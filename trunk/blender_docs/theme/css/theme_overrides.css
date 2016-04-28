@@ -77,3 +77,12 @@ table { caption-side: bottom; }
 .lead {
 	clear: both; width: 100%;
 }
+
+/* draws a box around :menuselection: field */
+.menuselection {
+    border: solid #E1E4E5 1px;
+    background-color: rgba(255, 255, 255, 0.65);
+    white-space: nowrap;
+    padding: 1px 6px;
+}
+
