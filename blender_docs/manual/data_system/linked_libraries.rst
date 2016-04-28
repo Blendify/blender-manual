@@ -18,7 +18,7 @@ but changes in the external source file will not be reflected in the referencing
    :class: refbox
 
    | Mode:     All Modes
-   | Menu:     *File* --> *Append or Link*
+   | Menu:     :menuselection:`File --> Append or Link`
    | Hotkey:   :kbd:`Shift-F1`  or  :kbd:`Ctrl-Alt-O`
 
 In the *File Browser* window navigate to the external source blend-file

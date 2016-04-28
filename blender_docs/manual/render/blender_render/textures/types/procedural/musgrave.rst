@@ -61,27 +61,26 @@ Examples with Basis : Voronoi F1 - Dimension : 0.5 - Lacunarity : 0.15 - Octave:
           Multifractal
 
 
-..    Comment: <!-- not implemented yet?
+.. not implemented yet?
    In addition to the five noise types, Musgrave has a noise basis setting which determines the
    algorithm that generates the noise itself.
    These are the same noise basis options found in the other procedural textures.
-   --> .
 
 The main noise types have four characteristics:
 
 Dimension
    Fractal dimension controls the contrast of a layer relative to the previous layer in the texture.
    The higher the fractal dimension, the higher the contrast between each layer,
-   and thus the more detail shows in the texture. Range: 0 to 2.
+   and thus the more detail shows in the texture.
 Lacunarity
    Lacunarity controls the scaling of each layer of the Musgrave texture,
    meaning that each additional layer will have a scale that is the inverse of the value which shows on the button.
-   i.e. Lacunarity = 2 --> Scale = 1/2 original. Range: 0 to 6.
+   i.e. Lacunarity = 2 --> Scale = 1/2 original.
 Octaves
    Octave controls the number of times the original noise pattern is overlayed on itself and
-   scaled/contrasted with the fractal dimension and lacunarity settings. Range: 0 to 8.
+   scaled/contrasted with the fractal dimension and lacunarity settings.
 Intensity
-   Light intensity. Called *Offset* for *Hetero Terrain*. Range: 0 to 10.
+   Light intensity. Called *Offset* for *Hetero Terrain*.
 
 
 The *Hybrid Multifractal* and *Ridged Multifractal* types have these additional settings:
@@ -89,9 +88,8 @@ The *Hybrid Multifractal* and *Ridged Multifractal* types have these additional 
 Offset
    Both have a "Fractal Offset" button that serves as a "sea level"
    adjustment and indicates the base height of the resulting bump map.
-   Bump values below this threshold will be returned as zero. Range: 0 to 6.
+   Bump values below this threshold will be returned as zero.
 Gain
    Setting which determines the range of values created by the function.
    The higher the number, the greater the range.
    This is a fast way to bring out additional details in a texture where extremes are normally clipped off.
-   Range: 0 to 6.
