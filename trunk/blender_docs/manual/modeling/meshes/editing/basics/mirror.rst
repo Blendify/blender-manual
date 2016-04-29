@@ -48,8 +48,7 @@ then delete Blender's default cube and add a Monkey Object to the 3D Viewport.
 
 Press the TAB Key to put the Monkey Object into *Edit Mode*.
 
-With the *X Mirror* option disabled move one of the Monkey Object's vertices
-slightly.
+With the *X Mirror* option disabled move one of the Monkey Object's vertices slightly.
 
 Then Turn *X Mirror* option on again but leave *Topology Mirror* disabled
 
@@ -89,17 +88,17 @@ Factor
 Center
    Snap vertices in the center axis to zero.
 
+.. list-table::
 
-.. figure:: /images/Mesh_Snap_to_Symmetry.jpg
-   :width: 300px
+   * - .. figure:: /images/Mesh_Snap_to_Symmetry.jpg
+          :width: 300px
 
-   Before Snap to Symmetry
+          Before Snap to Symmetry.
 
+     - .. figure:: /images/Mesh_Snap_to_Symmetry_After.jpg
+          :width: 300px
 
-.. figure:: /images/Mesh_Snap_to_Symmetry_After.jpg
-   :width: 300px
-
-   After Snap to Symmetry
+          After Snap to Symmetry.
 
 
 Symmetrize Mesh
@@ -121,17 +120,17 @@ Direction
    Specify the axis and direction of the effect. Can be any of the 3 axes,
    and either positive to negative, or negative to positive.
 
+.. list-table::
 
-.. figure:: /images/Symmetrize1.jpg
-   :width: 300px
+   * - .. figure:: /images/Symmetrize1.jpg
+          :width: 300px
 
-   Mesh before Symmetrize
+          Mesh before Symmetrize.
 
+     - .. figure:: /images/Symmetrize2.jpg
+          :width: 300px
 
-.. figure:: /images/Symmetrize2.jpg
-   :width: 300px
-
-   Mesh after Symmetrize
+          Mesh after Symmetrize.
 
 
 Mirroring Geometry

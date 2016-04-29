@@ -11,8 +11,16 @@ Shear
    | Hotkey:   :kbd:`Shift-Ctrl-Alt-S`
 
 
-Description
-===========
+Shearing is a form of movement where parallel surfaces move past one another. During this transform,
+movement of the selected elements will occur along the horizontal axis of the current view.
+The axis location will be defined by the
+:doc:`Pivot Point </editors/3dview/transform/transform_control/pivot_point/index>`.
+Everything that is "above" this axis will move (Shear)
+in the same direction as your mouse pointer (but always parallel to the horizontal axis).
+Everything that is "below" the horizontal axis will move in the opposite direction.
+
+
+:doc:`Pivot Points </editors/3dview/transform/transform_control/pivot_point/index>`
 
 .. figure:: /images/3D_interaction-Transformations-Advanced-Shear_toolshelf-f6.jpg
    :width: 150px
@@ -20,19 +28,8 @@ Description
    Shear Offset Factor.
 
 
-Shearing is a form of movement where parallel surfaces move past one another.
-During this transform,
-movement of the selected elements will occur along the horizontal axis of the current view.
-The axis location will be defined by the *Pivot Point*.
-Everything that is "above" this axis will move (Shear)
-in the same direction as your mouse pointer (but always parallel to the horizontal axis).
-Everything that is "below" the horizontal axis will move in the opposite direction.
-
-:doc:`Read more about Pivot Points </editors/3dview/transform/transform_control/pivot_point/index>`
-
-
 Usage
------
+=====
 
 Select the elements you want to operate on and activate the *Shear* transform
 function. The *Shear* option can be invoked from the
@@ -56,14 +53,12 @@ See below for the result of using *Shear* on a number of different elements.
 
 
 The three frames of the image above show the effects of shearing on the selected vertices when
-the pivot point is altered. In frame B,
-the *Pivot Point* is set to *Median Point* (indicated by the yellow line)
+the pivot point is altered. In frame B, the :doc:`Pivot Point </editors/3dview/transform/transform_control/pivot_point/index>`
+is set to *Median Point* (indicated by the yellow line)
 and the mouse was moved to the left during the transform. In frame C,
 the *Pivot Point* is set to the 3D cursor which is located above the mesh
 (indicated again by the yellow line). When the mouse is moved to the left during a
-*Shear* transform the selected vertices are moved to the right as they are below the
-horizontal axis.
-
+*Shear* transform the selected vertices are moved to the right as they are below the horizontal axis.
 
 .. tip:: Shear transform magnitude
 

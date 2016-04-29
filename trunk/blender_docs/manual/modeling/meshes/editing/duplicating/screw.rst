@@ -10,13 +10,19 @@ Screw Tool
    | Panel:    *Edit Mode* --> *Mesh Tools* (shortcut :kbd:`T`) --> Add --> Screw Button
 
 
-Introduction
-============
+he *Screw* tool combines a repetitive *Spin* with a translation,
+to generate a screw-like, or spiral-shaped, object. Use this tool to create screws, springs,
+or shell-shaped structures (Sea shells, Wood Screw Tips, Special profiles, etc).
 
-The *Screw* Tool is an effective way to revolve a profile,
-giving similar results to what you would expect from a lathe,
-with the option to offset the operation to give a screw effect.
+The main difference between the Screw Tool and the :doc:`Screw Modifier </modeling/modifiers/generate/screw>`
+is that the Screw Tool can calculate the angular progressions using the basic profile angle automatically.
+Or it can adjusting the Axis angular vector without using a second modifier (for example,
+using the Screw Modifier with a Bevel Modifier, Curve Modifier, etc...),
+resulting in a much cleaner approach for vertex distribution and usage.
 
+This tool works using open or closed profiles, as well as profiles closed with faces.
+You can use profiles like an open-edge part that is a part of a complete piece,
+as well as a closed circle or a half-cut sphere, which will also close the profile end.
 
 You can see some examples of Meshes generated with the *Screw* tool in Fig.
 1 - Wood Screw tip done with the screw tool and Fig. 2 - Spring done with the screw tool.
@@ -32,24 +38,6 @@ You can see some examples of Meshes generated with the *Screw* tool in Fig.
           :width: 300px
 
           Fig. 2- Spring done with the screw tool.
-
-
-Description
-===========
-
-The *Screw* tool combines a repetitive *Spin* with a translation,
-to generate a screw-like, or spiral-shaped, object. Use this tool to create screws, springs,
-or shell-shaped structures (Sea shells, Wood Screw Tips, Special profiles, etc).
-
-The main difference between the Screw Tool and the :doc:`Screw Modifier </modeling/modifiers/generate/screw>`
-is that the Screw Tool can calculate the angular progressions using the basic profile angle automatically.
-Or it can adjusting the Axis angular vector without using a second modifier (for example,
-using the Screw Modifier with a Bevel Modifier, Curve Modifier, etc...),
-resulting in a much cleaner approach for vertex distribution and usage.
-
-This tool works using open or closed profiles, as well as profiles closed with faces.
-You can use profiles like an open-edge part that is a part of a complete piece,
-as well as a closed circle or a half-cut sphere, which will also close the profile end.
 
 
 Usage
@@ -302,7 +290,6 @@ change abruptly from negative to positive and vice versa to give the extrusion a
 and you will have to tweak the corresponding Axis accordingly to achieve the Clockwise and
 Counterclockwise effect.
 
-
 .. note:: Vectors that aren't parallel with Blender Axis
 
    The high sensibility for the vector doesn't apply to vectors that give the Screw Tool a starting angle (Ex:
@@ -351,7 +338,6 @@ beginning and ending vertices create a straight parallel line. Blender won't tak
 any of the vertices present in the middle but those two to take its angular vector,
 so the spindles of the screw (which are defined by the turns value)
 will assembly perfectly with each other.
-
 
 - Open Blender and click in *File* located at the header of the Info Window again,
   choose *Open Recent* and the file we saved for this exercise.
@@ -432,7 +418,6 @@ in a way that they follow a continuous cycle along the extruded generated profil
 In this example, you will learn how to create a simple Screw Tip
 (like the ones we use for wood; we have shown an example at the beginning of this page).
 To make this new example as short as possible, we will recycle our last example (again).
-
 
 - Open Blender and click in *File* located in the header of the Info Window again;
   choose *Open Recent* and the file we saved for this exercise.

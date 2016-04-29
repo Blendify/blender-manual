@@ -1,6 +1,4 @@
-
-..    TODO/Review: {{review|text=Empty introductory sections: World Textures, Brush Textures}} .
-
+..    TODO/Review: {{review|text=Empty introductory sections: World Textures, Brush Textures}}.
 
 ************************
 Introduction to Textures
@@ -40,7 +38,7 @@ roughness and other surface qualities of a material.
 .. figure:: /images/texture-layers.jpg
    :width: 320px
 
-   Textures Layer on base Material
+   Textures Layer on base Material.
 
 
 Textures are like additional layers on top of the base material.
@@ -99,9 +97,6 @@ Data or Modifiers Textures
 World Textures
 ==============
 
-..    TODO/Review: {{WikiTask/Inprogress|10|just started}} .
-
-
 .. admonition:: Reference
    :class: refbox
 
@@ -110,13 +105,9 @@ World Textures
    | Hotkey:
 
 
-Description
------------
-
 The world buttons let you set up the shading of your scene in general.
 It can provide ambient color, and special effects such as mist,
 but a very common use of a *World* is to shade a background color.
-
 
 .. figure:: /images/render_bi_world.jpg
    :width: 320px
@@ -150,25 +141,22 @@ Paper
    but it is clipped in the image (it stays on a horizontal plane (parallel to x-y plane):
    what ever the angle of the camera may be, the horizon is always at the middle of the image).
 
-`CRL <https://wiki.blender.org/index.php/User:Chrisryanleggett>`__ 02:31, 26 May 2014 (UTC)(Sign)
+`CRL <https://wiki.blender.org/index.php/User:Chrisryanleggett>`__
 
 
 Brush Textures
 ==============
 
-..    TODO/Review: {{WikiTask/Inprogress|10|just started}} .
-
-Image textures can be loaded into blender. These images can then be applied to a mesh model
+Image textures can be loaded into Blender. These images can then be applied to a mesh model
 that has been unwrapped and assigned an image of user defined size.
 
 
 .. figure:: /images/materials-textures-painting-brush-options.jpg
    :width: 320px
 
-   Applied Brush texture in different painting modes
+   Applied Brush texture in different painting modes.
 
 
 - Brush textures can be used to :ref:`painting_texture-index` textures.
 - Brush textures can be used to :ref:`painting_vertex-index` vertices.
 - Brush textures can also be used in :ref:`painting_sculping-index` to create topology.
-

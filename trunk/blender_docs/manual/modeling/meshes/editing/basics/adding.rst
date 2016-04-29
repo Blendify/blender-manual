@@ -1,7 +1,7 @@
 
-******
-Adding
-******
+***************
+Adding Geometry
+***************
 
 In Blender, for modeling, you have several ways of adding mesh elements.
 Some of them are basic objects that adds a starting block of data (called datablock in Blender)
@@ -20,7 +20,7 @@ or use :kbd:`Tab` with a mesh object selected.
 .. figure:: /images/modeling_mesh_add.png
    :align: right
 
-   List of Blender's mesh primitives.
+   Blender's mesh primitives.
 
 To select and add one of the primitives to work with press :KBD:`Shift-A` in Edit mode.
 Blender automatically detects the appropriate context for the object type you are editing,

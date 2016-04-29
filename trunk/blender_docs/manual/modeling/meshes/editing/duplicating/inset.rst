@@ -7,7 +7,7 @@ Inset
    :class: refbox
 
    | Mode:     *Edit* mode
-   | Menu:     :menuselection:`Mesh --> Faces --> Inset` or :menuselection:`[ctrl][F] --> Inset`
+   | Menu:     :menuselection:`Mesh --> Faces --> Inset`
    | Hotkey:   :kbd:`I`
 
 

@@ -1,6 +1,4 @@
-
-..    TODO/Review: {{review|}} .
-
+..    TODO/Review: {{review|}}.
 
 ******************
 Exposure and Range
@@ -12,9 +10,6 @@ Exposure and Range
    | Mode:     All modes
    | Panel:    *World* (*Shading* context, *World* sub-context)
 
-
-Description
-===========
 
 *Exposure* and *Range* are similar to the "Color Curves" tool in Gimp or Photoshop.
 
@@ -64,7 +59,6 @@ which is probably not what we want. *Exposure* brightens the darker pixels,
 so that the darker parts of the image won't be changed at all
 (*Range* : ``2.0``, *Exposure* : ``0.3``).
 
-
 .. list-table::
 
    * - .. figure:: /images/DenseTeapot.jpg
@@ -88,11 +82,9 @@ so that the darker parts of the image won't be changed at all
           Range: 2.0, Exposure: 0.3.
 
 
-Hints
-=====
+.. hint::
 
-Try to find the best *Range* value,
-so that overexposed parts are barely not too bright. Now turn up the *Exposure*
-value until the overall brightness of the image is satisfying.
-This is especially useful with area lamps.
-
+   Try to find the best *Range* value,
+   so that overexposed parts are barely not too bright. Now turn up the *Exposure*
+   value until the overall brightness of the image is satisfying.
+   This is especially useful with area lamps.

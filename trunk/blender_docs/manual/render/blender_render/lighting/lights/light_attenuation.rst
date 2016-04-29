@@ -3,9 +3,6 @@
 Light Attenuation
 *****************
 
-Description
-===========
-
 .. figure:: /images/lighting-falloff-hilite.jpg
    :width: 312px
 
@@ -193,7 +190,6 @@ the graph shows that the intensity of the light starts off at its maximum
 (when near the light), and linearly attenuates as it moves to the right
 (further away from the light source).
 
-
 .. list-table::
 
    * - .. figure:: /images/lighting-falloff-custom_default.jpg
@@ -209,7 +205,6 @@ the graph shows that the intensity of the light starts off at its maximum
 
 If you want to have a light attenuation profile that gets more intense as it moves away from
 the light source, you could alter the graph as below:
-
 
 .. list-table::
 
@@ -229,7 +224,6 @@ profile, you can have almost any profile you desire.
 
 Here is another example of a different *Falloff Curve* profile graph,
 along with its resultant render output:
-
 
 .. list-table::
 
@@ -341,7 +335,6 @@ option.
 
 Examples
 ========
-
 
 Distance Example
 ----------------
@@ -456,7 +449,6 @@ Note that there is no abrupt transition at the sphere:
 the light attenuation is progressive
 (for more details, see the descriptions of the `Sphere`_ and `Falloff types`_ above).
 
-
 .. list-table::
    *Sphere* enabled with the specified distances, *Inverse Linear* light falloff.
 
@@ -485,7 +477,6 @@ In (*Sphere* *with* ``40``), the clipping sphere's radius is now ``40`` units,
 which is beyond the last object. However, the light doesn't make it to the last few objects
 because the intensity has fallen to nearly ``0``.
 
-
 .. hint::
 
    If a *Lamp* light is set to not cast shadows,
@@ -496,5 +487,3 @@ because the intensity has fallen to nearly ``0``.
    value you can make your warm firelight shed only within the room,
    while illuminating outside with a cool moonlight,
    the latter achieved with a *Sun* or *Hemi* light or both.
-
-

@@ -4,12 +4,8 @@
 Selecting
 *********
 
-Introduction
-============
-
 Selection determines which elements will be the target of our actions.
-Blender has advanced selection methods.
-Both in *Object mode* and in *Edit mode*.
+Blender has advanced selection methods. Both in *Object mode* and in *Edit mode*.
 
 
 .. _object-active:
@@ -68,9 +64,6 @@ Rectangular or Border Select
    | Hotkey:   :kbd:`B`
 
 
-Description
------------
-
 With *Border Select* you draw a rectangle while holding down :kbd:`LMB`.
 Any object that lies even partially within this rectangle becomes selected.
 
@@ -98,12 +91,10 @@ Notice in the third image, the bright color of left-most selected cube.
 This means it is the "active object",
 the last selected object prior to using the *Border Select* tool.
 
+.. hint::
 
-Hints
------
-
-*Border Select* adds to the previous selection, so in order to select only the contents of the rectangle,
-deselect all with :kbd:`A` first.
+   *Border Select* adds to the previous selection, so in order to select only the contents of the rectangle,
+   deselect all with :kbd:`A` first.
 
 
 Lasso Select
@@ -116,9 +107,6 @@ Lasso Select
    | Menu:     no entry in the menu
    | Hotkey:   :kbd:`Ctrl-LMB`
 
-
-Description
------------
 
 Lasso select is used by drawing a dotted line around the pivot point of the objects,
 in *Object mode*.
@@ -150,20 +138,11 @@ Circle Select
    | Hotkey:   :kbd:`C`
 
 
-Description
------------
-
-.. figure:: /images/Object-Selection-Circle0.jpg
-   :width: 100px
-
-   Main selection menu
-
-
 *Circle Select* is used by moving with dotted circle through objects with :kbd:`LMB`.
 You can select any object by touching of circle area.
 It is possible to dynamically change the diameter of circle by scrolling :kbd:`MMB` as
 seen in pictures below. Deselection is under the same principle - :kbd:`MMB`.
-To cancel the selection use :kbd:`RMB` or key :kbd:`Esc`,
+To cancel the selection use :kbd:`RMB` or key :kbd:`Esc`.
 
 .. list-table::
 
@@ -368,7 +347,7 @@ Other Menu Options
 
 Available options on the first level of the menu are:
 
-Select Pattern...
+Select Pattern
    Selects all objects whose name matches a given pattern.
    Supported wildcards: * matches everything, ? matches any single character,
    [abc] matches characters in "abc", and [!abc] match any character not in "abc".

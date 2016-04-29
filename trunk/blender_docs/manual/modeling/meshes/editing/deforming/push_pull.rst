@@ -10,9 +10,6 @@ Push/Pull
    | Menu:     :menuselection:`Object/Mesh --> Transform --> Push Pull`
 
 
-Description
-===========
-
 .. figure:: /images/3D_interaction-Transformations-Advanced-Push_Pull_toolshelf-f6.jpg
    :width: 150px
 
@@ -26,7 +23,7 @@ This distance is controlled by moving the mouse up (Push) or down (Pull), numeri
 
 
 Usage
------
+=====
 
 Select the elements you want to operate on and activate the Push/Pull transform function. The
 Push/Pull option can be invoked from the :menuselection:`Object/Mesh --> Transform --> Push/Pull` menu option

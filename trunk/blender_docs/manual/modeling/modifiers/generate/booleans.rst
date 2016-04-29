@@ -3,8 +3,6 @@
 Boolean Modifier
 ****************
 
-Introduction
-============
 
 The Boolean modifier performs operations on meshes that are otherwise too complex
 to achieve with as few steps by editing meshes manually, meaning you can achieve results
@@ -20,27 +18,6 @@ to create a single compound object out of two mesh objects.
    The Union, Intersection and Difference between a Cube and a UV Sphere,
    with the modifier applied to the Sphere and using the cube as target.
 
-
-Description
-===========
-
-The Boolean modifier can only be used on mesh objects.
-
-It performs one of the three Boolean Operations for the faces of open or closed volumes that
-creates a complete topology in the faces it's being used. This means that this modifier will
-only work properly for the intersection of faces of the two meshes that will result in another
-closed loop of edges (filled with faces), creating a new resulting face topology.
-
-The Boolean modifier is non-destructive for the target; it uses the topology of the target to make the calculations,
-but you will still have the target in the scene. In normal conditions, using face normals pointed outside,
-when you apply the Boolean modifier operation, the modified mesh will receive changes in topology,
-and you will have to move or hide the target to see the resulting mesh.
-The only exception is when you are using inverted normals;
-in this case, depending on the calculations, you will also change the topology of the target.
-You can see one example of a target being modified in the
-:ref:`Materials <boolean_materials>` section in this page.
-
-The results of the mesh operation will only be shown in Object Mode of the 3D View.
 
 .. note::
 
@@ -211,6 +188,7 @@ And in the bottom row we show the unwrap in the Blender UV/Image Editor Window.
      - .. figure:: /images/Modifier_Generate_Boolean_UV_Map_Face_Modified_Mesh_New_Topology.jpg
 
           New topology mapped and UV faces assigned
+
 
 Other Modifiers
 ===============
