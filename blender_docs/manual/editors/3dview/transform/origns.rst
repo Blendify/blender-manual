@@ -13,7 +13,7 @@ Moving Object Centers
 =====================
 
 Object Centers can be moved to different positions through
-*3D View window --> Transform --> Origin* (press :kbd:`T` to open panel):
+:menuselection:`3D View window --> Transform --> Origin` (press :kbd:`T` to open panel):
 
 Geometry to Origin
    Move model to origin and this way origin of the object will also be at the center of the object.

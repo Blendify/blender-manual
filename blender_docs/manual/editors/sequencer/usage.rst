@@ -29,7 +29,7 @@ Use this when working arranging a lot of strips and you want to use all of your 
    :class: refbox
 
    | Mode:     Sequence
-   | Menu:     View --> Show Frames, View --> Show Seconds
+   | Menu:     :menuselection:`View --> Show Frames, View --> Show Seconds`
    | Hotkey:   :kbd:`Ctrl-T`
 
 
