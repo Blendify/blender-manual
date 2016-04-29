@@ -46,7 +46,7 @@ Type
       resulting surfaces rather than on a mathematical derivation."
    Simple
       Only subdivides the surfaces, without any smoothing
-      (the same as :kbd:`W` --> *Subdivide*, in Edit Mode).
+      (the same as :kbd:`W` :menuselection:`--> Subdivide`, in Edit Mode).
       Can be used, for example, to increase base mesh resolution when using displacement maps.
 
 Subdivisions
@@ -173,7 +173,7 @@ Until you add in additional Loops (with :kbd:`Ctrl-R`), the shape is almost unre
 
 A mesh with deliberate topology has good placement of Edge Loops,
 which allow the placement of more Loops (or removal of Loops,
-with :menuselection:`[x] --> Edge Loop`) to control the sharpness/smoothness of the resultant mesh.
+with :kbd:`x` :menuselection:`--> Edge Loop`) to control the sharpness/smoothness of the resultant mesh.
 
 
 .. _subsurf_performance:

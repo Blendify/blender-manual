@@ -59,8 +59,8 @@ Rectangular or Border Select
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object mode* and *Edit mode*
-   | Menu:     *Select* --> *Border Select*
+   | Mode:     Object mode and Edit mode
+   | Menu:     :menuselection:`Select --> Border Select`
    | Hotkey:   :kbd:`B`
 
 
@@ -103,7 +103,7 @@ Lasso Select
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object mode* and *Edit mode*
+   | Mode:     Object mode and Edit mode
    | Menu:     no entry in the menu
    | Hotkey:   :kbd:`Ctrl-LMB`
 
@@ -133,8 +133,8 @@ Circle Select
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object mode* and *Edit mode*
-   | Menu:     *Select* --> *Circle Select*
+   | Mode:     Object mode and Edit mode
+   | Menu:     :menuselection:`Select --> Circle Select`
    | Hotkey:   :kbd:`C`
 
 
@@ -172,8 +172,8 @@ Select Grouped
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object mode*
-   | Menu:     *Select* --> *Grouped*
+   | Mode:     Object mode
+   | Menu:     :menuselection:`Select --> Grouped`
    | Hotkey:   :kbd:`Shift-G`
 
 
@@ -191,7 +191,7 @@ groups.
 Options
 ^^^^^^^
 
-*Select* --> *Grouped* in *Object mode* uses the active object as a basis to select all others.
+:menuselection:`Select --> Grouped` in *Object mode* uses the active object as a basis to select all others.
 
 Available options are:
 
@@ -215,11 +215,11 @@ Object Hooks
    Every hook that belongs to the active object.
 Pass
    Select objects assigned to the same render pass.
-   Render passes are set in *Properties* --> *Object* --> *Relations* and can be used in the *Node Compositor*
-   (*Add* --> *Convertor* --> *ID Mask*.)
+   Render passes are set in :menuselection:`Properties --> Object --> Relations` and can be used in the *Node Compositor* 
+   :menuselection:`Add --> Convertor --> ID Mask`.
 Color
    Select objects with same *Object Color*.
-   Object colors are set in *Properties* --> *Object* --> *Display* --> *Object Color*.)
+   Object colors are set in :menuselection:`Properties --> Object --> Display --> Object Color`.
 Properties
    Select objects with same *Game Engine* *Properties*.
 Keying Set
@@ -236,8 +236,8 @@ Select linked
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object* mode
-   | Menu:     *Select* --> *Linked*
+   | Mode:     Object mode
+   | Menu:     :menuselection:`Select --> Linked`
    | Hotkey:   :kbd:`Shift-L`
 
 
@@ -247,7 +247,7 @@ Selects all objects which share a common data-block with the active object.
 Options
 ^^^^^^^
 
-*Select* --> *Linked* in *Object mode* uses the active object as a basis to select all others.
+:menuselection:`Select --> Linked` in *Object mode* uses the active object as a basis to select all others.
 
 Available options are:
 
@@ -275,8 +275,8 @@ Select All by Type
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object* mode
-   | Menu:     *Select* --> *Select All by Type*
+   | Mode:     Object mode
+   | Menu:     :menuselection:`Select --> Select All by Type`
    | Hotkey:   None
 
 
@@ -303,8 +303,8 @@ Select All by Layer
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object* mode
-   | Menu:     *Select* --> *Select All by Layer*
+   | Mode:     Object mode
+   | Menu:     :menuselection:`Select --> Select All by Layer`
    | Hotkey:   None
 
 
@@ -318,14 +318,14 @@ Layers are another means to regroup your objects to suit your purpose.
 This option allows the selection of every single object that belongs to a given layer,
 visible or not, in one single command.
 
-.. Comment: <!--Not implemented yet?:
-   This selection is added to anything that was already selected at that moment. --> .
+.. Comment: Not implemented yet?:
+   This selection is added to anything that was already selected at that moment.
 
 
 Options
 ^^^^^^^
 
-In the *Tool Shelf* --> *Select by Layer* the following options are available:
+In the :menuselection:`Tool Shelf --> Select by Layer` the following options are available:
 
 Match
    The match type for selection.
@@ -337,7 +337,7 @@ Layer
 
 .. tip:: Selection of Objects
 
-   Rather than using the *Select All by Layer* option,
+   Rather than using the :menuselection:`Select All by Layer` option,
    it might be more efficient to make the needed layers visible and use :kbd:`A` on them.
    This method also allows objects to be deselected.
 
@@ -358,7 +358,7 @@ Select Camera
    Select the active camera.
 
 Mirror (:kbd:`Shift-Ctrl-M`)
-   Select the Mirror objects of the selected object eg. L.sword --> R.sword.
+   Select the Mirror objects of the selected object eg. :menuselection:`L.sword --> R.sword`.
 
 Random
    Randomly selects unselected objects based on percentage probability on currently active layers.

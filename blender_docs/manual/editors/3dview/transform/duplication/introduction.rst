@@ -32,8 +32,8 @@ Duplicate
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* and *Object* modes
-   | Menu:     *Object* --> *Duplicate*
+   | Mode:     Edit and Object modes
+   | Menu:     :menuselection:`Object --> Duplicate`
    | Hotkey:   :kbd:`Shift-D`
 
 
@@ -80,8 +80,8 @@ Linked Duplicates
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object* mode
-   | Menu:     *Object* --> *Duplicate Linked*
+   | Mode:     Object mode
+   | Menu:     :menuselection:`Object --> Duplicate Linked`
    | Hotkey:   :kbd:`Alt-D`
 
 
@@ -136,8 +136,8 @@ Procedural Duplication
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object mode* and *Edit mode*
-   | Panel:    *Object settings*
+   | Mode:    Object mode and Edit mode
+   | Panel:    :menuselection:`Object settings`
 
 
 There are currently four ways in Blender to procedurally duplicate objects.
@@ -179,7 +179,7 @@ Linked Library Duplication
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     *File* --> *Link Append*
+   | Menu:     :menuselection:`File --> Link Append`
    | Hotkey:   :kbd:`Shift-F1`
 
 

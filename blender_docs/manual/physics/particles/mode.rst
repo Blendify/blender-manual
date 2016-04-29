@@ -37,7 +37,7 @@ Ways to use Particle Mode
 - Give it an initial velocity in the *Normal* direction (first check the *Advanced* box,
   then modify the *Velocity* sub-panel), or adjust the *Hair Length*.
 - Create a simulation - Place the camera at a good position
-  (:menuselection:`pop-up --> View --> Cameras --> Active Camera` ... or :kbd:`Numpad-0`
+  (:menuselection:`pop-up --> View --> Cameras --> Active Camera ...` or :kbd:`Numpad-0`
 - Check the *Hair Dynamics* box.
   Select :menuselection:`pop-up --> Render --> Render OpenGL Animation` in *Render Engine* mode.
 
@@ -97,7 +97,7 @@ Selecting Points
 - All: :kbd:`A`.
 - Linked: Move the mouse over a keypoint and press :kbd:`L`.
 - Border select: :kbd:`B`.
-- First/last: :kbd:`W` --> *Select First* / *Select Last*.
+- First/last: :kbd:`W` :menuselection:`--> Select First / Select Last`.
 
 You may also use the *Select* Menu.
 
@@ -126,8 +126,8 @@ Moving keypoints or particles
 - You can do many of the things like with vertices, including scaling,
   rotating and removing (complete particles or single keys).
 - You may not duplicate or extrude keys or particles,
-  but you can subdivide particles which adds new keypoints (:kbd:`W` --> *Subdivide* / :kbd:`Numpad2`).
-- Alternatively you can rekey a particle (:kbd:`W` --> *Rekey* / :kbd:`Numpad1`) and choose the number of keys.
+  but you can subdivide particles which adds new keypoints (:kbd:`W` :menuselection:`--> Subdivide` / :kbd:`Numpad2`).
+- Alternatively you can rekey a particle (:kbd:`W` :menuselection:`--> Rekey` / :kbd:`Numpad1`) and choose the number of keys.
 
 How smoothly the hair and particle paths are displayed depends on the *Path Steps*
 setting in the *Toolbar*. Low settings produce blocky interpolation between points,
@@ -139,7 +139,7 @@ Mirroring particles
 
 - If you want to create an X-Axis symmetrical haircut you have to do following steps:
   - Select all particles with :kbd:`A`.
-  - Mirror the particles with :kbd:`Ctrl-M`, or use the *Particle* --> *Mirror* menu.
+  - Mirror the particles with :kbd:`Ctrl-M`, or use the :menuselection:`Particle --> Mirror` menu.
   - Turn on *X-Axis Mirror Editing* in the *Particle* menu.
 
 It may happen that after mirroring two particles occupy nearly the same place.

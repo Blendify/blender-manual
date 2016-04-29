@@ -66,7 +66,7 @@ Classical
    A shadow generation which used to be the Blender default and unique method for generation of buffered shadows.
    It used an older way of generating buffered shadows,
    but it could have some problems with accuracy of the generated shadows and can be very
-   sensitive to the resolution of the shadow buffer (*Shadow Buffer* --> *Size*),
+   sensitive to the resolution of the shadow buffer :menuselection:`Shadow Buffer --> Size`,
    different *Bias* values, and all the self-shadowing issues that brings up.
 
    The *Classical* method of generating shadows is obsolete and is really only still present to
@@ -202,8 +202,8 @@ Irregular shadow method is used to generate sharp/hard shadows that are placed a
 This method offers very good performance because it can be done as a multi-threaded process.
 
 This method supports transparent shadows.
-To do so, you will first need to setup the shadow setting for the object which will receive the transparent shadow.
-(*Material* --> *Shadow* --> *Cat Buffer Shadows* and *Buffer Bias*)
+To do so, you will first need to setup the shadow setting for the object which will receive the transparent shadow 
+:menuselection:`Material --> Shadow --> Cat Buffer Shadows and Buffer Bias`.
 
 
 Deep generation method

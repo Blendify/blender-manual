@@ -59,8 +59,8 @@ Select Grouped
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object mode*
-   | Menu:     *Select* --> *Grouped*
+   | Mode:     Object mode
+   | Menu:     :menuselection:`Select --> Grouped`
    | Hotkey:   :kbd:`Shift-G`
 
 
