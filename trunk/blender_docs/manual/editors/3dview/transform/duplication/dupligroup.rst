@@ -6,8 +6,8 @@ DupliGroup
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object* mode
-   | Panel:    *Object* --> *Duplication* --> *Group*
+   | Mode:     Object mode
+   | Panel:    :menuselection:`Object --> Duplication --> Group`
 
 
 *Duplication Group* or *DupliGroup* allows you to create an instance of a group for each instance of another object.
@@ -25,7 +25,7 @@ Create a Group:
 Create a new Group Instance:
    - :menuselection:`Add --> Group Instance`
 Change the Group Instance of existing objects:
-   - In the properties editor: *Object --> Duplication*, enable *Group*.
+   - In the properties editor: :menuselection:`Object --> Duplication`, enable *Group*.
    - Select the name of your newly created group.
 
 At this point, an instance of the group will appear. You can duplicate the empty,

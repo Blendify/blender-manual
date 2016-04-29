@@ -7,8 +7,8 @@ Grab/Move
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object* Mode, *Edit* Mode, and *Pose* Mode for the 3D View;
-   | Menu:     Context Sensitive, Object Based --> *Transform* --> *Grab/Move*
+   | Mode:     Object Mode, Edit Mode, and Pose Mode for the 3D View;
+   | Menu:     Context sensitive, :menuselection:`Object Based --> Transform --> Grab/Move`
    | Hotkey:   :kbd:`G` or combinations for specific Axis constraint
 
 

@@ -17,7 +17,7 @@ Merging Vertices
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Mesh --> Vertices --> Merge...`,
      :menuselection:`Specials --> Merge` or :menuselection:`Vertex Specials --> Merge`
    | Hotkey:   :kbd:`Alt-M`
@@ -56,7 +56,7 @@ AutoMerge Editing
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Mesh --> AutoMerge Editing`
 
 
@@ -72,11 +72,11 @@ Remove Doubles
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
-   | Panel:    *Editing* context --> *Mesh Tools*
+   | Mode:     Edit mode
+   | Panel:    :menuselection:`Editing context --> Mesh Tools`
    | Menu:     :menuselection:`Mesh --> Vertices --> Remove Doubles`,
      :menuselection:`Specials --> Remove Doubles` or :menuselection:`Vertex Specials --> Remove Doubles`
-   | Hotkey:   :menuselection:`[W] --> Remove Doubles` or :menuselection:`Mesh --> Vertices --> Remove doubles`
+   | Hotkey:   :kbd:`W` :menuselection:`--> Remove Doubles` or :menuselection:`Mesh --> Vertices --> Remove doubles`
 
 
 Remove Doubles is a useful tool to simplify a mesh by merging vertices that
@@ -99,7 +99,7 @@ Rip
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Mesh --> Vertices --> Rip`
    | Hotkey:   :kbd:`V`
 
@@ -162,7 +162,7 @@ Rip Fill
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Mesh --> Vertices --> Rip Fill`
    | Hotkey:   :kbd:`Alt-V`
 
@@ -189,7 +189,7 @@ Split
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Mesh --> Vertices --> Split`
    | Hotkey:   :kbd:`Y`
 
@@ -211,7 +211,7 @@ Separate
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Mesh --> Vertices --> Separate`
    | Hotkey:   :kbd:`P`
 
@@ -226,7 +226,7 @@ Connect Vertex Path
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Mesh --> Vertices --> Connect Vertex Path`
    | Hotkey:   :kbd:`J`
 
@@ -254,7 +254,7 @@ Connect Vertices
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Mesh --> Vertices --> Connect Vertices`
 
 
@@ -290,8 +290,8 @@ Vertex Slide
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
-   | Panel:    *Editing* context --> *Mesh Tools*
+   | Mode:     Edit mode
+   | Panel:    :menuselection:`Editing context --> Mesh Tools`
    | Menu:     :menuselection:`Mesh --> Vertices --> Vertex Slide`
    | Hotkey:   :kbd:`Shift-V`
 
@@ -339,8 +339,8 @@ Smooth
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
-   | Panel:    *Editing* context --> *Mesh Tools*
+   | Mode:     Edit mode
+   | Panel:    :menuselection:`Editing context --> Mesh Tools`
    | Menu:     :menuselection:`Mesh --> Vertices --> Smooth`,
      :menuselection:`Specials --> Smooth` or :menuselection:`Vertex Specials --> Smooth`
    | Hotkey:   :menuselection:`Mesh --> Vertices --> Smooth vertex`
@@ -355,7 +355,7 @@ Make Vertex Parent
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Mesh --> Vertices --> Make Vertex Parent`
    | Hotkey:   :kbd:`Ctrl-P`
 
@@ -370,7 +370,7 @@ Add Hook
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Mesh --> Vertices --> Add Hook`
    | Hotkey:   :kbd:`Ctrl-H`
 
@@ -387,7 +387,7 @@ Blend From Shape, Propagate Shapes
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`(Vertex) Specials --> Blend From Shape` and
                :menuselection:`Mesh --> Vertices --> Shape Propagate`
 

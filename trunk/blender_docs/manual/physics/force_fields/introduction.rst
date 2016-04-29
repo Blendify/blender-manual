@@ -34,8 +34,8 @@ Creating a Force Field
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object* Mode
-   | Panel:    *Object* context --> *Physics* sub-context --> *Fields*
+   | Mode:     Object Mode
+   | Panel:    :menuselection:`Object context --> Physics sub-context --> Fields`
 
 
 To create a single Force Field,
@@ -53,7 +53,7 @@ these common options are explained for the *Spherical* field.
    After changing the fields (*Fields* panel) or deflection
    (*Collision* panel) settings, you have to recalculate the particle,
    softbody or cloth system (*Free Cache*), this is not done automatically. You can
-   clear the cache for all selected objects with :kbd:`Ctrl-B` --> *Free cache selected*.
+   clear the cache for all selected objects with :kbd:`Ctrl-B` :menuselection:`--> Free cache selected`.
 
    *Particles* react to all kind of *Force Fields*,
    *Soft Bodies* only to *Spherical* / *Wind* / *Vortex*
