@@ -1,18 +1,12 @@
-
-..    TODO/Review: {{review|partial=X|text=missing Ambient Color, Exposure and Range }} .
-
+..    TODO/Review: {{review|partial=X|text=missing Ambient Color, Exposure and Range}}.
 
 ****************
 World Background
 ****************
 
-Description
-===========
-
 The world buttons let you set up the shading of your scene in general.
 It can provide ambient color, and special effects such as mist,
 but a very common use of a *World* is to shade a background color.
-
 
 .. note:: Background Image in Render
 
@@ -27,12 +21,12 @@ but a very common use of a *World* is to shade a background color.
 
 
 Options
--------
+=======
 
 .. figure:: /images/World-WorldSkyColor.jpg
    :width: 297px
 
-   World panel
+   World panel.
 
 
 Horizon Color
@@ -70,7 +64,7 @@ or which it maps to a virtual space around the scene.
 .. figure:: /images/World-TexCoord.jpg
    :width: 207px
 
-   Texture Coordinates pop-up menu
+   Texture Coordinates pop-up menu.
 
 
 The World textures are accessible in the texture menu (just select *World* first,
@@ -96,7 +90,7 @@ Object
 .. figure:: /images/World-TexInfluence.jpg
    :width: 297px
 
-   Texture Influence panel
+   Texture Influence panel.
 
 
 The texture affects color only, but in four different ways:
@@ -113,4 +107,3 @@ Zenith Down
 If you are disappointed that your camera appears to carry the texture with it rather than
 rotate through the texture,
 you should check the Real Sky checkbox in the World tab of the Properties view.
-

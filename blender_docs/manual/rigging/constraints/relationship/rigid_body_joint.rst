@@ -1,13 +1,8 @@
-
-.. TODO/Review: {{review|text=Complete rewrite needed. Unclear and Child object field not explained what it does.}}.
-
+.. TODO/Review: {{review|text=Complete rewrite needed. Unclear and Child object field not explained what it does}}.
 
 ***************************
 Rigid Body Joint Constraint
 ***************************
-
-Description
-===========
 
 The *Rigid Body Joint* constraint is very special. Basically, it is used by the
 physical part of the Blender Game Engine to simulate a joint between its owner and its target.
@@ -23,15 +18,13 @@ you can use its results outside of the BGE, through the :menuselection:`Game -->
 (from the main menu of the *User Preferences* window,
 see :doc:`Rigid Bodies </game_engine/physics/using_ge>` for more info on this topic).
 
-
 For a demo file that shows some of the different types, see: `BGE-Physics-RigidBodyJoints.blend
 <https://wiki.blender.org/index.php/Media:BGE-Physics-RigidBodyJoints.blend>`__.
 
 .. note::
 
     In order for this constraint to work properly, both objects (so
-    the owner and the target object) need to have "Collision Bounds"
-    enabled.
+    the owner and the target object) need to have *Collision Bounds* enabled.
 
 
 Options

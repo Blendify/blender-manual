@@ -3,9 +3,6 @@
 Displacement Maps
 *****************
 
-Description
------------
-
 Displacement mapping allows a texture input to manipulate the position of vertices on rendered geometry.
 Unlike :doc:`Normal or Bump mapping </render/blender_render/textures/influence/material/bump_and_normal>`,
 where the shading is distorted to give an illusion of a bump (discussed on the previous page),
@@ -15,7 +12,7 @@ and do everything that changes in real geometry can do, but, on the other hand, 
 
 
 Options
--------
+=======
 
 In the :doc:`Influence panel </render/blender_render/textures/influence/material>`,
 the strength of the displacement is controlled by the *Displace* and *Normal* sliders.
@@ -46,7 +43,7 @@ and thus the relative depth appears smaller.
 
 
 Hints
------
+=====
 
 Displacement maps move the rendered faces, not the physical mesh faces. So,
 in 3D View the surface may appear smooth, but render bumpy. To give a detailed surface,
@@ -83,4 +80,3 @@ Closed NURBS Surfaces
    If you want more control over your displacement,
    you'll probably want to use the :doc:`Displace Modifier </modeling/modifiers/deform/displace>`.
    This feature has lots of different options so that you can customize the displacement exactly to your liking.
-

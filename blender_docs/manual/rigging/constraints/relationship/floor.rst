@@ -1,12 +1,8 @@
-
 ..    TODO/Review: {{review|im=examples}}.
 
 ****************
 Floor Constraint
 ****************
-
-Description
-===========
 
 The *Floor* constraint allows you to use its target position
 (and optionally rotation) to specify a plane with a "forbidden side",

@@ -1,11 +1,8 @@
-..    TODO/Review: {{review}} .
+..    TODO/Review: {{review}}.
 
 *************
 Fluid Control
 *************
-
-Description
-===========
 
 Using the Lattice-boltzman method, the fluid is controlled using particles which define local
 force fields and are generated automatically from either a physical simulation or a sequence
@@ -14,24 +11,6 @@ as much as possible of the natural fluid motion is preserved.
 
 
 .. youtube:: WruTNnF6Ztg
-
-
-Examples
-========
-
-In this examples,
-we use the Fluid Control option to control part of the fluid so that it has a certain shape
-(the sphere drop or the teapot drop) before it falls in the rest of the fluid:
-
-
-.. figure:: /images/physics_fluid_types_control_example1.jpg
-
-   Falling drop
-
-
-.. figure:: /images/physics_fluid_types_control_example2.jpg
-
-   "Magic Fluid Control"
 
 
 Options
@@ -57,3 +36,21 @@ Attraction force
 
 Velocity force
    If the fluid control object moves, the resulting velocity can also introduce a force to the fluid.
+
+
+Examples
+========
+
+In this examples,
+we use the Fluid Control option to control part of the fluid so that it has a certain shape
+(the sphere drop or the teapot drop) before it falls in the rest of the fluid:
+
+
+.. figure:: /images/physics_fluid_types_control_example1.jpg
+
+   Falling drop.
+
+
+.. figure:: /images/physics_fluid_types_control_example2.jpg
+
+   "Magic Fluid Control."

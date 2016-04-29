@@ -11,9 +11,6 @@ To Sphere
    | Hotkey:   :kbd:`Shift-Alt-S`
 
 
-Description
-===========
-
 The *To Sphere* transformation will give the selection spherical qualities. The
 *Suzanne with increasing sphericity* image below shows the results of applying the
 *To Sphere* transformation to the Suzanne mesh.
@@ -28,7 +25,7 @@ The *To Sphere* transformation will give the selection spherical qualities. The
 
 
 Usage
------
+=====
 
 .. figure:: /images/3D_interaction-Transformations-Advanced-To_Sphere_toolshelf-f6.jpg
    :width: 150px
