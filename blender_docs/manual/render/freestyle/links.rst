@@ -24,7 +24,7 @@ Video Tutorials
 
 .. youtube:: Uq1-KoZ7Uv4
 
-`Using freestyle in blender <https://www.youtube.com/watch?v=Uq1-KoZ7Uv4>`__
+`Using freestyle in Blender <https://www.youtube.com/watch?v=Uq1-KoZ7Uv4>`__
 
 .. youtube:: 1T_impeCV-0
 

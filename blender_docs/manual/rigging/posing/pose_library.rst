@@ -24,7 +24,7 @@ Pose Library Panel
 #. Name of the *Pose Library*.
 
 #. Set Fake User.
-   This will make blender save the *Pose Library* for if it has no users.
+   This will make Blender save the *Pose Library* for if it has no users.
 
 #. Add new *Pose Library* to the active object.
 
