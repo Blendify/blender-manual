@@ -3,7 +3,7 @@ Command Line
 ************
 
 In some situations we want to increase the render speed,
-access blender remotely to render something or build scripts that use the command line.
+access Blender remotely to render something or build scripts that use the command line.
 
 One advantage of using the command line is that we don't need the X server (in the case of Linux)
 and consequently we can render remotely by SSH or telnet.
@@ -20,7 +20,7 @@ simply run:
 
    Arguments are executed in the order they are given!
 
-   The following command won't work, since the output and extension is set after blender is told to render:
+   The following command won't work, since the output and extension is set after Blender is told to render:
 
    .. code-block:: sh
 
@@ -34,9 +34,6 @@ simply run:
 
    **Always position** ``-f`` **or** ``-a`` **as the last arguments.**
 
-.. RST / WIKI NOTE - WE HAD THE FULL OUTPUT OF ``blender --help`` here,
-   not sure theres much point in duplicating all info! - ideasman42
-
 
 Platforms
 =========
@@ -49,7 +46,7 @@ Linux
 -----
 
 Open a terminal, then go to the directory where Blender is installed,
-and run the blender command like this.
+and run Blender like this.
 
 .. code-block:: sh
 
@@ -94,7 +91,7 @@ MS-Windows
 ----------
 
 Open the Command Prompt, go to the directory where Blender is installed,
-and then run the blender command.
+and then run Blender.
 
 .. code-block:: bat
 

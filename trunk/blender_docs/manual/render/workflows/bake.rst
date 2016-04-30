@@ -202,7 +202,7 @@ Select to Active
       and then bake it's normals onto an object with a low polygon count.
       The resulting normal map can then be applied to make the low poly object look more detailed.
    Bias
-      Bias towards further away from the object (in blender units)
+      Bias towards further away from the object (in Blender units)
 
 
 .. note:: Mesh Must be Visible in Render
