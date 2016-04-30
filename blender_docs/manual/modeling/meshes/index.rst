@@ -14,4 +14,3 @@
    editing/index.rst
    vertex_groups/index.rst
    smoothing.rst
-   cleanup.rst
