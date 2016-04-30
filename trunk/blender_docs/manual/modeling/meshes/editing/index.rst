@@ -16,4 +16,5 @@
    deforming/index.rst
    duplicating/index.rst
    subdividing/index.rst
+   cleanup.rst
    misc.rst
