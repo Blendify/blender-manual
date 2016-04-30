@@ -3,11 +3,6 @@
 Hook Modifier
 *************
 
-.. figure:: /images/modifier-hook-example1.jpg
-
-   Two spheres used as Hooks to deform a subdivided cube.
-
-
 The Hook modifier is used to deform a *Mesh*, *Curve* a *Lattice* using another object
 (usually an *Empty* or a *Bone* but it can be any object).
 
@@ -18,13 +13,17 @@ You can think of it as animated
 While hooks do not give you the fine control over vertices movement that shape keys do,
 they have the advantage that you can grab vertices directly for manipulation.
 
+.. figure:: /images/modifier-hook-example1.jpg
+
+   Two spheres used as Hooks to deform a subdivided cube.
+
 
 Options
 =======
 
 .. figure:: /images/modifier-hook.jpg
 
-   Hook modifier
+   Hook modifier.
 
 
 Object
@@ -66,4 +65,3 @@ Assign
    this means that modifiers that generate geometry, like subsurf,
    should always be applied **after** the hook modifier;
    otherwise the generated geometry will be left out of the hook's influence.
-
