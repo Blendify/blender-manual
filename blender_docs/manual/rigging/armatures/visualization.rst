@@ -5,29 +5,27 @@ Armature visualization
 
 We have 4 basic bone visualization: Octahedral, Stick, B-Bone, Envelope and Wire:
 
+.. list-table::
 
-.. figure:: /images/RiggingBonePrincipalsBoneDisplayOctahedral.jpg
-   :width: 300px
+   * - .. figure:: /images/RiggingBonePrincipalsBoneDisplayOctahedral.jpg
+          :width: 300px
 
-   Octahedral bone display.
+          Octahedral bone display.
 
+     - .. figure:: /images/RiggingBonePrincipalsBoneDisplayStick.jpg
+          :width: 300px
 
-.. figure:: /images/RiggingBonePrincipalsBoneDisplayStick.jpg
-   :width: 300px
+          Stick bone display.
 
-   Stick bone display.
+   * - .. figure:: /images/RiggingBonePrincipalsBoneDisplayBBone.jpg
+          :width: 300px
 
+          B-Bone bone display.
 
-.. figure:: /images/RiggingBonePrincipalsBoneDisplayBBone.jpg
-   :width: 300px
+     - .. figure:: /images/RiggingBonePrincipalsBoneDisplayEnvelope.jpg
+          :width: 300px
 
-   B-Bone bone display.
-
-
-.. figure:: /images/RiggingBonePrincipalsBoneDisplayEnvelope.jpg
-   :width: 300px
-
-   Envelope bone display.
+          Envelope bone display.
 
 
 Display Panel
@@ -161,33 +159,34 @@ To assign a custom shape to a bone, you have to:
    The Display panel.
 
 
-.. figure:: /images/RiggingBoneShapeEx3DViewObjectMode.jpg
-   :width: 300px
+.. list-table::
 
-   The armature with shapes assigned to two bones, in Object mode.
-   Note the centers of the Cone and Cube objects.
+   * - .. figure:: /images/RiggingBoneShapeEx3DViewObjectMode.jpg
+          :width: 300px
+
+          The armature with shapes assigned to two bones, in Object mode.
+          Note the centers of the Cone and Cube objects.
+
+     - .. figure:: /images/RiggingBoneShapeEx3DViewPoseMode.jpg
+          :width: 300px
+
+          The same armature in Pose mode...
 
 
-.. figure:: /images/RiggingBoneShapeEx3DViewPoseMode.jpg
-   :width: 300px
+.. note::
 
-   The same armature in Pose mode...
-
-
-Note that:
-
-- These shapes will never be rendered - like any bone, they are only visible in 3D views.
-- Even if any type of object seems to be accepted by the *OB* field (meshes, curves, even metas...),
-  only meshes really work - all other types just make the bone invisible; nothing is drawn...
-- The center of the shape object will be at the *root of the bone*
-  (see the :doc:`bone page </rigging/armatures/bones/index>` for root/tip).
-- The object properties of the shape are ignored
-  (i.e. if you make a parallelepiped out of a cube by modifying its dimensions in *Object* mode,
-  you'll still have a cube shaped bone...).
-- The "along bone" axis is the Y one,
-  and the shape object is always scaled so that one Blender Unit stretches along the whole bone length.
-- If you need to remove the custom shape of the bone,
-  just right click in the *Custom Shape* field and select *Reset to default value* in the pop-up menu.
+   - These shapes will never be rendered - like any bone, they are only visible in 3D views.
+   - Even if any type of object seems to be accepted by the *OB* field (meshes, curves, even metas...),
+     only meshes really work - all other types just make the bone invisible; nothing is drawn...
+   - The center of the shape object will be at the *root of the bone*
+     (see the :doc:`bone page </rigging/armatures/bones/index>` for root/tip).
+   - The object properties of the shape are ignored
+     (i.e. if you make a parallelepiped out of a cube by modifying its dimensions in *Object* mode,
+     you'll still have a cube shaped bone...).
+   - The "along bone" axis is the Y one,
+     and the shape object is always scaled so that one Blender Unit stretches along the whole bone length.
+   - If you need to remove the custom shape of the bone,
+     just right click in the *Custom Shape* field and select *Reset to default value* in the pop-up menu.
 
 So to summarize all this, you should use meshes as shape objects,
 with their center at their lower-Y end, and an overall Y length of **1.0** BU.

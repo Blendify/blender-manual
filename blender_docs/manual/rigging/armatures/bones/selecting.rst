@@ -183,6 +183,8 @@ To understand this, look at *Bone deselection in a selected chain*.
      - .. figure:: /images/RiggingBoneSelectExEditModeTwoBones.jpg
           :width: 300px
 
+          Two selected bones.
+
 
 After :kbd:`Shift-RMB` -clicking ``Bone.003``:
 

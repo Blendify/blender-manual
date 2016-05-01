@@ -59,7 +59,6 @@ it will scale the radius of the selected bones's ends. (see: :doc:`skinning part
 As you control only one value (the radius), there is no axis locking here. And as usual, with connected bones,
 you scale at the same time the radius of the parent's tip and of the children's roots.
 
-
 .. list-table::
    Scaling of a bone in** *Octahedron* and *Envelope* visualizations.
 
@@ -107,7 +106,6 @@ In *Envelope* visualization, it allows you to edit the influence of the selected
 (their *Dist* property, see the :doc:`skinning part </rigging/skinning/index>`) -
 as with the "standard" scaling with this visualization (see the previous section),
 this is a one-value property, so there is no axis locking and such.
-
 
 .. list-table::
    Envelope scaling example
@@ -175,7 +173,6 @@ their root will become their tip, and vice versa).
 *Switching the direction of a bone will generally break the chain(s) it belongs to*.
 However, if you switch a whole (part of a) chain, the switched bones will still be parented/connected,
 but in "reversed order". See the *Switching example*.
-
 
 .. list-table::
    Switching example.
@@ -355,10 +352,9 @@ angle with previous/next bones in the chain, and so on.
 
 
 .. list-table::
+   **Bone** *In* / *Out* **settings example, with a materialized Bézier curve.**
 
-   * - **Bone** *In* / *Out* **settings example, with a materialized Bézier curve.**
-
-     - .. figure:: /images/RiggingBBoneInOutEx1.jpg
+   * - .. figure:: /images/RiggingBBoneInOutEx1.jpg
           :width: 300px
 
           Look at Bone.004: it has the default In and Out values (1.0).

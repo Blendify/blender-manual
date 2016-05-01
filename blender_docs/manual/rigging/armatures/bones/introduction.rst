@@ -31,29 +31,27 @@ Bones Visualization
 Bones can be visualized in various ways: *Octahedron*, *Stick*,
 *B-Bone*, *Envelope* and *Wire*. Custom shapes can be used, too!
 
+.. list-table::
 
-.. figure:: /images/RiggingBonePrincipalsBoneDisplayOctahedral.jpg
-   :width: 300px
+   * - .. figure:: /images/RiggingBonePrincipalsBoneDisplayOctahedral.jpg
+          :width: 300px
 
-   Octahedral bone display.
+          Octahedral bone display.
 
+     - .. figure:: /images/RiggingBonePrincipalsBoneDisplayStick.jpg
+          :width: 300px
 
-.. figure:: /images/RiggingBonePrincipalsBoneDisplayStick.jpg
-   :width: 300px
+          Stick bone display.
 
-   Stick bone display.
+   * - .. figure:: /images/RiggingBonePrincipalsBoneDisplayBBone.jpg
+          :width: 300px
 
+          B-Bone bone display.
 
-.. figure:: /images/RiggingBonePrincipalsBoneDisplayBBone.jpg
-   :width: 300px
+     - .. figure:: /images/RiggingBonePrincipalsBoneDisplayEnvelope.jpg
+          :width: 300px
 
-   B-Bone bone display.
-
-
-.. figure:: /images/RiggingBonePrincipalsBoneDisplayEnvelope.jpg
-   :width: 300px
-
-   Envelope bone display.
+          Envelope bone display.
 
 
 Since armatures are made of bones, you'll find more about this when we'll talk about
@@ -96,23 +94,24 @@ while in *Edit mode* bones are always drawn as rigid sticks.
 Note that in the special case of a single bone,
 you can't see these segments in *Object mode*, because they're aligned.
 
+.. list-table::
 
-.. figure:: /images/RiggingBBoneEx3DViewEditMode.jpg
-   :width: 300px
+   * - .. figure:: /images/RiggingBBoneEx3DViewEditMode.jpg
+          :width: 300px
 
-   An armature of B-Bones, in Edit mode
+          An armature of B-Bones, in Edit mode.
 
+     - .. figure:: /images/RiggingBBoneEx3DViewPrinciples.jpg
+          :width: 300px
 
-.. figure:: /images/RiggingBBoneEx3DViewPrinciples.jpg
-   :width: 300px
+          The Bézier curve superposed to the chain, with its handles placed at bones' ends.
 
-   The Bézier curve superposed to the chain, with its handles placed at bones' ends.
+   * - .. figure:: /images/RiggingBBoneEx3DViewObjectMode.jpg
+          :width: 300px
 
+          The same armature in Object mode.
 
-.. figure:: /images/RiggingBBoneEx3DViewObjectMode.jpg
-   :width: 300px
-
-   The same armature in Object mode
+     -
 
 
 When you connect bones to form a :ref:`chain <armature-bone_chain>`,

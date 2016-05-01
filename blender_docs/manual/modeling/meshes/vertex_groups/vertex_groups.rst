@@ -293,6 +293,10 @@ The pop-up menu provides the following functions with obvious functionality:
 Vertex Group Management
 =======================
 
+.. container:: lead
+
+   .. clear
+
 .. figure:: /images/Modeling-Meshes-vertex-group-pulldown.jpg
    :align: right
 
