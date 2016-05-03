@@ -252,7 +252,7 @@ To* **delete** a stroke, draw a "V" crossing the stroke to delete twice.
 
           Result.
 
-		  
+
 Reverse
 -------
 

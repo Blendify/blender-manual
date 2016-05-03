@@ -29,7 +29,7 @@ For other common conventions used throughout the manual.
 
    Actuator
       A :term:`logic brick` that acts like a muscle of a lifeform. It can move the object, or make a sound.
-	
+
    Aliasing
       Rendering artifacts in the form of jagged lines.
 

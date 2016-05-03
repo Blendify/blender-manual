@@ -125,7 +125,7 @@ Does not effect control point tangents.
 .. figure:: /images/modeling_curves_smoothing_example2.jpg
 
    Entire curve smoothed over 200 times by holding :kbd:`Shift-R` to repeat last step.
-			
+
 .. figure:: /images/modeling_curves_smoothing_example3.jpg
 
    Only three control points in the center smoothed over 200 times.

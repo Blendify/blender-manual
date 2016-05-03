@@ -129,7 +129,8 @@ Rate
       The `decoder bitstream buffer <https://en.wikipedia.org/wiki/Video_buffering_verifier>`__ size.
 
 Audio Codec
-   Audio conainer used, For a list of all available options see :doc:`video formats </data_system/files/video_formats>`.
+   Audio conainer used, For a list of all available options see
+   :doc:`video formats </data_system/files/video_formats>`.
 Bitrate
    For each codec, you can control the bitrate (quality) of the sound in the movie.
    This example shows MP3 encoding at 128kbps. Higher bitrates are bigger files that stream worse but sound better.

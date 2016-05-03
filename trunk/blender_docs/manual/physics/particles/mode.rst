@@ -126,8 +126,10 @@ Moving keypoints or particles
 - You can do many of the things like with vertices, including scaling,
   rotating and removing (complete particles or single keys).
 - You may not duplicate or extrude keys or particles,
-  but you can subdivide particles which adds new keypoints (:kbd:`W` :menuselection:`--> Subdivide` / :kbd:`Numpad2`).
-- Alternatively you can rekey a particle (:kbd:`W` :menuselection:`--> Rekey` / :kbd:`Numpad1`) and choose the number of keys.
+  but you can subdivide particles which adds new keypoints
+  (:kbd:`W` :menuselection:`--> Subdivide` / :kbd:`Numpad2`).
+- Alternatively you can rekey a particle
+  (:kbd:`W` :menuselection:`--> Rekey` / :kbd:`Numpad1`) and choose the number of keys.
 
 How smoothly the hair and particle paths are displayed depends on the *Path Steps*
 setting in the *Toolbar*. Low settings produce blocky interpolation between points,

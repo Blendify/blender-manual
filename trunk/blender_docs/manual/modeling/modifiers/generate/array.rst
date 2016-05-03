@@ -197,7 +197,8 @@ Organic
    * - .. figure:: /images/Dev_Array_Fractal_example.jpg
           :width: 300px
 
-          Subsurfed cube array with 1 object offset, 4 cubes and a high vertex merge setting to give the effect of skinning.
+          Subsurfed cube array with 1 object offset,
+          4 cubes and a high vertex merge setting to give the effect of skinning.
 
      - .. figure:: /images/Dev-ArrayModifier-Spiral01.jpg
           :width: 300px
