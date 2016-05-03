@@ -31,8 +31,10 @@ Add Marker and Move
 
 Detect Features
    Detects all possible features on the current frame and places markers at these features.
-   This operator doesn't take into account other frames, so it can place markers on features which belong to moving objects,
-   and if camera is turning away from this shot, no markers would be placed on frames after the camera moved away.
+   This operator doesn't take into account other frames,
+   so it can place markers on features which belong to moving objects,
+   and if camera is turning away from this shot,
+   no markers would be placed on frames after the camera moved away.
 
    There are several properties for this operator:
 

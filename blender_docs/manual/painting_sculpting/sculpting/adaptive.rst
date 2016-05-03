@@ -55,7 +55,7 @@ Detail Refine Method
 
 Direction
      Determines which direction the model will be symmetrized.
-		
+
 Dyntopo Symmetrize
          Uses direction orientation to symmetrize. Since Dyntopo adds details dynamical
          may happen that the model goes asymmetric, so this a good tool for that. 

@@ -9,7 +9,8 @@ Stabilize 2D
 
    Stabilize 2D Node.
 
-Stabilizes the footage according to the settings set in :menuselection:`Movie Clip Editor --> Properties --> 2D Stabilization`
+Stabilizes the footage according to the settings set in
+:menuselection:`Movie Clip Editor --> Properties --> 2D Stabilization`
 For more information, :ref:`check this out <2D-stabilization>`.
 
 Input
@@ -26,8 +27,10 @@ Movie Clip
 
 Filter
    Various methods for the stabilization.
-   Usually, the same as used in :menuselection:`Movie Clip Editor --> Properties --> 2D Stabilization --> Filter`.
-   For technical details on their difference, `see this <http://in.mathworks.com/help/vision/ug/interpolation-methods.html>`_.
+   Usually, the same as used in
+   :menuselection:`Movie Clip Editor --> Properties --> 2D Stabilization --> Filter`.
+   For technical details on their difference,
+   `see this <http://in.mathworks.com/help/vision/ug/interpolation-methods.html>`_.
    But for most purposes, default of Bilinear should suffice.
 
 Invert

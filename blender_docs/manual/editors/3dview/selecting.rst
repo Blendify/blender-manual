@@ -215,7 +215,8 @@ Object Hooks
    Every hook that belongs to the active object.
 Pass
    Select objects assigned to the same render pass.
-   Render passes are set in :menuselection:`Properties --> Object --> Relations` and can be used in the *Node Compositor* 
+   Render passes are set in :menuselection:`Properties --> Object --> Relations`
+   and can be used in the *Node Compositor* 
    :menuselection:`Add --> Convertor --> ID Mask`.
 Color
    Select objects with same *Object Color*.

@@ -53,7 +53,8 @@ See below for the result of using *Shear* on a number of different elements.
 
 
 The three frames of the image above show the effects of shearing on the selected vertices when
-the pivot point is altered. In frame B, the :doc:`Pivot Point </editors/3dview/transform/transform_control/pivot_point/index>`
+the pivot point is altered.
+In frame B, the :doc:`Pivot Point </editors/3dview/transform/transform_control/pivot_point/index>`
 is set to *Median Point* (indicated by the yellow line)
 and the mouse was moved to the left during the transform. In frame C,
 the *Pivot Point* is set to the 3D cursor which is located above the mesh

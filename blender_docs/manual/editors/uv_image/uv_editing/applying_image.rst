@@ -316,7 +316,8 @@ To modify your new Texture, you can:
 - Use external software to create an image
 
   - Using your favorite image painting program, you could use an exported UV layout to create a texture.
-    Then save your changes, and back in Blender, use the :menuselection:`Image --> Open` menu command to load it as your UV image
+    Then save your changes, and back in Blender,
+    use the :menuselection:`Image --> Open` menu command to load it as your UV image
     for the mesh in Face Select Mode for the desired (and active) UV Texture layer.
     Using the *Edit Externally* tool in the *Image* menu, Blender will open an image editor,
     as specified in the *User Preferences* and load in the image to be edited.

@@ -29,10 +29,10 @@ Options
 
 .. note::  bpy Access
 
-   	Note that most of these properties are accessible through the non-
-   	BGE scripting API via ``bpy.data.objects["ObjectName"].game``,
-   	which is of type ``bpy.types.GameObjectSetting``. This is useful so you can,
-   	for example, set a range of objects to have gradated values via a for-loop.
+   Note that most of these properties are accessible through the non-
+   BGE scripting API via ``bpy.data.objects["ObjectName"].game``,
+   which is of type ``bpy.types.GameObjectSetting``. This is useful so you can,
+   for example, set a range of objects to have gradated values via a for-loop.
 
 - Actor - Enables detection by Near and Radar Sensors.
   - Default: On.

@@ -74,7 +74,8 @@ Clip Start and Clip End
 
    .. note::
 
-      A large clipping range will allow you to see both near and far objects, but reduces the depth precision resulting in artifacts.
+      A large clipping range will allow you to see both near and far objects,
+      but reduces the depth precision resulting in artifacts.
 
       .. list-table::
 
