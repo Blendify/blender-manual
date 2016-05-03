@@ -11,7 +11,7 @@ When you start Blender you should see a screen similar to this
 .. figure:: /images/blender_default_startup.png
    :width: 640px
 
-   Initial Blender screen
+   Initial Blender screen.
 
 
 In the center of the window is the splash screen.
@@ -44,5 +44,4 @@ As an introduction we will cover a few of the basic elements.
 .. figure:: /images/interface_window-system-default_scene.jpg
    :width: 650px
 
-   Default Blender scene and Window arrangement
-
+   Default Blender scene and Window arrangement.
