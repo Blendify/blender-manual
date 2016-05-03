@@ -1,9 +1,8 @@
-..    TODO/Review: {{review}} .
+..    TODO/Review: {{review}}.
 
-
-*****************
-The Window System
-*****************
+************
+Introduction
+************
 
 When you start Blender you should see a screen similar to this
 (the splash screen in the center will change with new versions):
