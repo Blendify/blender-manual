@@ -171,4 +171,4 @@ If you want only a summary, append ``-q`` to the command above. For more options
 .. seealso::
 
    Instructions on this page are based on
-   `Sphinx Intl documentation <https://sphinx-doc.org/latest/intl.html>`__
+   `Sphinx Intl documentation <http://sphinx-doc.org/latest/intl.html>`__
