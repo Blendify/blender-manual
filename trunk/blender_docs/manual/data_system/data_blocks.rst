@@ -17,10 +17,9 @@ Some common characteristics:
   *(child/parent, object/object-data, with modifiers and constraints too).*
 - Their names are unique.
 - They can be added/removed/edited/duplicated.
-- They can be linked between files
-  *(only enabled for a limited set of data-blocks)*
+- They can be linked between files *(only enabled for a limited set of data-blocks)*
 - They can have their own animation data.
-- They can have custom properties.
+- They can have :doc:`Custom Properties </data_system/custom_properties>`.
 
 When doing more complex projects managing data-blocks becomes more important,
 especially when inter-linking blend-files.

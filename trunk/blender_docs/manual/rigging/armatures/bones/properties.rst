@@ -19,8 +19,8 @@ in *Properties* window, *Bone* context:
    The Bone context.
 
 
-Relations panel (edit mode)
-===========================
+Relations
+=========
 
 .. figure:: /images/RiggingEditingBoneCxtRelationsPanel.jpg
 
@@ -29,9 +29,13 @@ Relations panel (edit mode)
 
 In this panel you can arrange sets of bones in different layers for easier manipulation.
 
+.. note::
 
-Display panel (object mode)
-===========================
+   This mode is only available in Edit mode.
+
+
+Display
+=======
 
 .. figure:: /images/RiggingEditingBoneCxtDisplayPanel.jpg
 
@@ -40,9 +44,14 @@ Display panel (object mode)
 
 Display panel lets you customize the look of your bones taking the shape of a another existing object.
 
+.. note::
 
-Deform panel (all modes)
-========================
+   This mode is only available in Object mode.
+
+
+
+Deform
+======
 
 .. figure:: /images/RiggingEditingBoneCxtDeformPanel.jpg
 
@@ -59,19 +68,8 @@ Also it's worth noting that by turning off a bone's deform option, makes it not 
 overriding any weights that it might have been assigned before; It mutes its influence.
 
 
-Custom Properties panel (all modes)
-===================================
-
-.. figure:: /images/RiggingEditingObjectDataPropertyCxtCustomPropertiesPanel.jpg
-
-   The Custom Properties panel.
-
-
-Panel for defining custom properties, this is used when scripting.
-
-
-Transform panel (edit and pose mode)
-====================================
+Transform
+=========
 
 .. Todo, images are the same
 
@@ -89,9 +87,13 @@ When in pose mode you can only set location for the main bone, and you can now s
 
    The Transform panel(pose mode).
 
+.. note::
 
-Transform Locks panel (pose mode)
-=================================
+   This mode is only available in Edit Pose modes.
+
+
+Transform Locks
+===============
 
 .. figure:: /images/RiggingEditingBoneCxtTranformLocksPanel.jpg
 
@@ -100,9 +102,13 @@ Transform Locks panel (pose mode)
 This panel appears only in pose mode and allows you to restrict position,
 rotation and scale by axis on each bone in the armature.
 
+.. note::
 
-Inverse Kinematics panel (pose mode)
-====================================
+   This mode is only available in Pose mode.
+
+
+Inverse Kinematics
+==================
 
 .. figure:: /images/RiggingEditingBoneCxtInverseKinematicsPanel.jpg
 
@@ -110,3 +116,13 @@ Inverse Kinematics panel (pose mode)
 
 
 This panel controls the way a bone or set of bones behave when linked in an inverse kinematic chain.
+
+.. note::
+
+   This mode is only available in Pose mode.
+
+
+Custom Properties
+=================
+
+See the :doc:`Custom Properties </data_system/custom_properties>` page for more information.

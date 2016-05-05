@@ -19,8 +19,8 @@ in *Properties* window, *Object data* context:
    The Object data property in the Properties window.
 
 
-Skeleton panel (all modes)
-==========================
+Skeleton
+========
 
 .. figure:: /images/RiggingEditingObjectDataPropertyCxtSkeletonPanel.jpg
 
@@ -30,8 +30,8 @@ Skeleton panel (all modes)
 In this panel you can arrange sets of bones into different layers for easier manipulation.
 
 
-Display panel (all modes)
-=========================
+Display
+=======
 
 .. figure:: /images/RiggingEditingObjectDataPropertyCxtDisplayPanel.jpg
 
@@ -43,8 +43,8 @@ This controls the way the bones appear in 3D view; you have 4 different options 
 There are several other options available which we will cover later on.
 
 
-Bone Groups panel (Pose mode)
-=============================
+Bone Groups
+===========
 
 .. figure:: /images/RiggingEditingObjectDataPropertyCxtBoneGroupsPanel.png
 
@@ -62,13 +62,17 @@ It is important to note that a bone can only belong to one group.
 For bones belonging to multiple for easy selection during animation see instead
 `Selection Sets <https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Animation/SelectionSets>`__.
 
+.. note::
+
+   This mode is only available in Pose mode.
+
 .. Tip ::
 
    Use the mouse scroll wheel over the color templates to quickly skim through the available colors.
 
 
-Pose Library panel (Pose mode)
-==============================
+Pose Library
+============
 
 .. figure:: /images/RiggingEditingObjectDataPropertyCxtPoseLibraryPanel.jpg
 
@@ -77,9 +81,13 @@ Pose Library panel (Pose mode)
 
 Allows you to save different settings (location, rotation, scale) for selected bones for later use.
 
+.. note::
 
-Ghost panel (all modes)
-=======================
+   This mode is only available in Pose mode.
+
+
+Ghost
+=====
 
 .. figure:: /images/RiggingEditingObjectDataPropertyCxtGhostPanel.jpg
 
@@ -89,8 +97,8 @@ Ghost panel (all modes)
 Allows you to see a set of different consecutive poses, very useful when animating.
 
 
-iTaSC parameters panel (all modes)
-==================================
+iTaSC parameters
+================
 
 .. figure:: /images/RiggingEditingObjectDataPropertyCxtiTaSCparametersPanel.jpg
 
@@ -100,8 +108,8 @@ iTaSC parameters panel (all modes)
 Defines the type of IK solver used in your animation.
 
 
-Motion Paths panel (Pose mode)
-==============================
+Motion Paths
+============
 
 .. figure:: /images/RiggingEditingObjectDataPropertyCxtMotionPathsPanel.jpg
 
@@ -110,13 +118,12 @@ Motion Paths panel (Pose mode)
 
 In this panel you can enable visualization of the motion path your skeleton leaves when animated.
 
+.. note::
 
-Custom Properties panel (all modes)
-===================================
-
-.. figure:: /images/RiggingEditingObjectDataPropertyCxtCustomPropertiesPanel.jpg
-
-   The Custom Properties panel.
+   This mode is only available in Pose mode.
 
 
-Panel for defining custom properties; this is used when scripting.
+Custom Properties
+=================
+
+See the :doc:`Custom Properties </data_system/custom_properties>` page for more information.
