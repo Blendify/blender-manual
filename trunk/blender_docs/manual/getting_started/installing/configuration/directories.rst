@@ -1,7 +1,7 @@
 
-****************************
-Configuration and Data Paths
-****************************
+***********************
+Configuring Directories
+***********************
 
 There are three different directories Blender may use,
 their exact locations are operating system dependent.

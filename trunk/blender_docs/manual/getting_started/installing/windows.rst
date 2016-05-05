@@ -3,7 +3,7 @@
 Installing on MS-Windows
 ************************
 
-Check the :doc:`minimum requirements and where to get Blender </getting_started/installing_blender/installing>`,
+Check the :doc:`minimum requirements and where to get Blender </getting_started/installing/introduction>`,
 if you haven't done so yet.
 
 You will also need the

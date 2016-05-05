@@ -64,7 +64,7 @@ File locations
 ==============
 
 For information on the location of blender directories
-see: :doc:`Configuration & Data Paths </getting_started/installing_blender/directorylayout>`
+see: :doc:`Configuration & Data Paths </getting_started/installing/configuration/directories>`
 
 You can also create a personal folder containing new add-ons and configure your files' path in
 the *File* panel of the *User Preferences*.
