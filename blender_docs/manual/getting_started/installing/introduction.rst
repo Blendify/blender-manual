@@ -1,7 +1,7 @@
 
-***************
-Getting Blender
-***************
+************
+Introduction
+************
 
 Blender is available for download for Linux Mac-OSX and MS-Windows.
 
@@ -15,7 +15,7 @@ Check if your system meets the
 Always check that the graphics drivers are up to date and that OpenGL is well supported.
 
 Support for other hardware such as graphic tablets and 3D mice are covered later in
-:doc:`Supported Hardware </getting_started/installing_blender/hardware>`.
+:doc:`Supported Hardware </getting_started/installing/configuration/hardware>`.
 
 
 Download Blender

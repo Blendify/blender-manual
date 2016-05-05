@@ -101,7 +101,7 @@ Apart from add-ons, there are also scripts you can use to extend Blenders functi
 - Startup: These files are imported when starting Blender.
   They define most of Blender's UI, as well as some additional core operators.
 - Custom scripts: In contrast to add-ons they are typically intended for one-time execution via the
-  :doc:`text editor </editors/text_editor>`
+  :doc:`Text Editor </editors/text_editor>`
 
 
 Saving your own scripts
@@ -111,7 +111,7 @@ File location
 ^^^^^^^^^^^^^
 
 All scripts are loaded from the ``scripts`` folder of the
-:doc:`local, system and user paths </getting_started/installing_blender/directorylayout>`.
+:doc:`local, system and user paths </getting_started/installing/configuration/directorylayout>`.
 
 You can setup an additional search path for scripts in
 :ref:`prefs-file_paths` :menuselection:`User Preferences --> File Paths`.

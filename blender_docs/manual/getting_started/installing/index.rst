@@ -6,7 +6,5 @@
 .. toctree::
    :maxdepth: 2
 
-   installing.rst
-   hardware.rst
-   configuration.rst
-   directorylayout.rst
+   introduction.rst
+   configuration/index.rst

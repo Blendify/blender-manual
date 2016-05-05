@@ -66,7 +66,7 @@ then save the preferences via the *User Preferences* editor.
 
    It can be valuable to make a backup of your preferences the event that you lose your configuration.
 
-   See the :doc:`directory layout </getting_started/installing_blender/directorylayout>`
+   See the :doc:`directory layout </getting_started/installing/configuration/directories>`
    section to see where your preferences are stored.
 
 

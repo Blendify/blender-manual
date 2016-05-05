@@ -1,7 +1,7 @@
 
-*************
-Configuration
-*************
+************
+Introduction
+************
 
 Here are some preferences that you may wish to set initially.
 The full list and explanation of the user preferences are documented in the section

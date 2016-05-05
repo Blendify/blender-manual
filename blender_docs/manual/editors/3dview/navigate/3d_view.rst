@@ -12,7 +12,7 @@ it is possible to translate and zoom a *Buttons* window and its panels.
 .. tip:: Mouse Buttons and Numpad
 
    If you have a mouse with less than three buttons or a keyboard without numpad,
-   see the :doc:`Keyboard and Mouse </getting_started/installing_blender/hardware>`
+   see the :doc:`Keyboard and Mouse </getting_started/installing/configuration/hardware>`
    page of the manual to learn how to use them with Blender.
 
 
