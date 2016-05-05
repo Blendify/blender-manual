@@ -1,4 +1,3 @@
-..    TODO/Review: {{review|text=Needs to stay updated with new modifiers being added|Romove file indexs}}. 
 
 ************
 Introduction
@@ -14,7 +13,6 @@ and *Apply* a modifier if you wish to make its changes permanent.
 
 
 .. figure:: /images/modifiers_menu.png
-   :width: 600px
 
    Modifiers Menu.
 
@@ -23,129 +21,24 @@ There are four types of modifiers:
 
 
 Modify
-------
-
-The *Modify* group of modifiers are tools similar to the *Deform Modifiers* (see below),
-but which do not directly affect the shape of the object; rather they affect some other data, such as vertex groups.
-
-:doc:`Mesh Cache </modeling/modifiers/modify/mesh_cache>`
-   Apply animated mesh data (from external file) to a mesh.
-:doc:`UV Project </modeling/modifiers/modify/uv_project>`
-   Project UV coordinates on your mesh.
-:doc:`UV Warp </modeling/modifiers/modify/uv_warp>`
-   Dynamically edit the UV coordinates on your mesh.
-:doc:`Vertex Weight </modeling/modifiers/modify/vertex_weight>`
-   Edit a vertex group of your mesh, in various ways.
-
+   The *Modify* group of modifiers are tools similar to the *Deform Modifiers* (see below),
+   but which do not directly affect the shape of the object;
+   rather they affect some other data, such as vertex groups.
 
 Generate
---------
-
-The *Generate* group of modifiers are constructive tools that either change the
-general appearance of or automatically add new geometry to an object.
-
-:doc:`Array </modeling/modifiers/generate/array>`
-   Create an array out of your basic mesh and similar (repeating) shapes.
-:doc:`Bevel </modeling/modifiers/generate/bevel>`
-   Create a bevel on a selected mesh object.
-:doc:`Boolean </modeling/modifiers/generate/booleans>`
-   Combine/subtract/intersect your mesh with another one.
-:doc:`Build </modeling/modifiers/generate/build>`
-   Assemble your mesh step by step when animating.
-:doc:`Decimate </modeling/modifiers/generate/decimate>`
-   Reduce the polygon count of your mesh.
-:doc:`Edge Split </modeling/modifiers/generate/edge_split>`
-   Add sharp edges to your mesh.
-:doc:`Mask </modeling/modifiers/generate/mask>`
-   Allows you to hide some parts of your mesh.
-:doc:`Mirror </modeling/modifiers/generate/mirror>`
-   Mirror an object about one of its own axes, so that the resultant mesh is symmetrical.
-:doc:`Multiresolution </modeling/modifiers/generate/multiresolution>`
-   Sculpt your mesh at several levels of resolution.
-:doc:`Remesh </modeling/modifiers/generate/remesh>`
-   Can fix heavily triangulated meshes, and other issues, with careful Threshold adjustments.
-:doc:`Screw </modeling/modifiers/generate/screw>`
-   Generate geometry in a helix-pattern from a simple profile.
-   Similar to the :doc:`Screw Tool </modeling/meshes/editing/duplicating/screw>` in edit mode.
-:doc:`Skin </modeling/modifiers/generate/skin>`
-   Automatically generate topology.
-:doc:`Solidify </modeling/modifiers/generate/solidify>`
-   Give depth to mesh faces.
-:doc:`Subdivision Surface </modeling/modifiers/generate/subsurf>`
-   Subdivides your mesh using Catmull-Clark or Simple algorithms.
-:doc:`Triangulate </modeling/modifiers/generate/triangulate>`
-   Converts all faces to Triangles.
-:doc:`Wireframe </modeling/modifiers/generate/wireframe>`
-   Converts all faces into a wireframe.
-
+   The *Generate* group of modifiers are constructive tools that either change the
+   general appearance of or automatically add new geometry to an object.
 
 Deform
-------
-
-The *Deform* group of modifiers only change the shape of an object without adding new geometry,
-and are available for meshes, and often texts, curves, surfaces and/or lattices.
-
-:doc:`Armature </modeling/modifiers/deform/armature>`
-   Use bones to deform and animate your object.
-:doc:`Cast </modeling/modifiers/deform/cast>`
-   Shift the shape of a mesh, surface or lattice to a sphere, cylinder or cuboid.
-:doc:`Curve </modeling/modifiers/deform/curve>`
-   Bend your object using a curve as guide.
-:doc:`Displace </modeling/modifiers/deform/displace>`
-   Deform your object using a texture.
-:doc:`Hook </modeling/modifiers/deform/hooks>`
-   Add a hook to your vertice(s) (or control point(s)) to manipulate them from the outside.
-:doc:`Laplacian Smooth </modeling/modifiers/deform/laplacian_smooth>`
-   Allows you to reduce noise on a mesh's surface with minimal changes to its shape.
-:doc:`Laplacian Deform </modeling/modifiers/deform/laplacian_deform>`
-   allows you to pose a mesh while preserving geometric details of the surface.
-:doc:`Lattice </modeling/modifiers/deform/lattice>`
-   Use a Lattice object to deform your object.
-:doc:`Mesh Deform </modeling/modifiers/deform/mesh_deform>`
-   Allows you to deform your object by modifying the shape of another mesh,
-   used as a "Mesh Deform Cage" (like when using a lattice).
-:doc:`Shrinkwrap </modeling/modifiers/deform/shrinkwrap>`
-   Allows you to shrink/wrap your object to/around the surface of a target mesh object.
-:doc:`Simple Deform </modeling/modifiers/deform/simple_deform>`
-   Applies some advanced deformations to your object.
-:doc:`Smooth </modeling/modifiers/deform/smooth>`
-   Smooth the geometry of a mesh. Similar to the *Smooth* tool in the mesh editing context.
-:doc:`Warp </modeling/modifiers/deform/warp>`
-   Warp a mesh by specifying two points the mesh stretches between.
-:doc:`Wave </modeling/modifiers/deform/wave>`
-   Deform your object to form (animated) waves.
-
+   The *Deform* group of modifiers only change the shape of an object without adding new geometry,
+   and are available for meshes, and often texts, curves, surfaces and/or lattices.
 
 Simulate
---------
-
-The *Simulate* group of modifiers activate simulations. In most cases, these
-modifiers are automatically added to the modifiers stack whenever a *Particle System*
-or *Physics* simulation is enabled. Their only role is to define the
-place in the modifier stack used as base data by the tool they represent. Generally,
-the attributes of these modifiers are accessible in separate panels.
-
-:doc:`Cloth </physics/cloth/index>`
-   Simulates the properties of a piece of cloth.
-   It is inserted in the modifier stack when you designate a mesh as Cloth.
-:doc:`Collision </physics/collision>`
-   Simulates a collision between objects.
-:doc:`Dynamic Paint </physics/dynamic_paint/index>`
-   Makes an object or a particle system paint a material onto another object.
-:doc:`Explode </modeling/modifiers/simulate/explode>`
-   Blows up your mesh using a particle system.
-:doc:`Fluid </physics/fluid/index>`
-   The object is part of a fluid simulation... The modifier added when you designate a mesh as Fluid.
-:doc:`Particle Instance </modeling/modifiers/simulate/particle_instance>`
-   Makes an object act similar to a particle but using the mesh shape instead.
-:doc:`Particle System </physics/particles/index>`
-   Represents a particle system in the stack, so it is inserted when you add a particle system to the object.
-:doc:`Smoke </physics/smoke/index>`
-   Simulates realistic smoke.
-:doc:`Soft Body </physics/soft_body/index>`
-   The object is soft, elastic... Modifier added when you designate a mesh as Softbody.
-:doc:`Ocean </modeling/modifiers/simulate/ocean>`
-   Quickly creates a realistic, animated ocean.
+   The *Simulate* group of modifiers activate simulations. In most cases, these
+   modifiers are automatically added to the modifiers stack whenever a *Particle System*
+   or *Physics* simulation is enabled. Their only role is to define the
+   place in the modifier stack used as base data by the tool they represent. Generally,
+   the attributes of these modifiers are accessible in separate panels.
 
 
 Interface
@@ -202,3 +95,46 @@ Copy
    could produce undesired results.
 
 Below this header, all of the options unique to each modifier will be displayed.
+
+
+The Stack
+---------
+
+Modifiers are a series of non-destructive operations which can be applied on top of an objects geometry.
+They can be applied in just about any order the users chooses.
+
+This kind of functionality is often referred to as a "modifier stack"
+and is also found in several other 3D applications.
+
+In a modifier stack the order in which modifiers are applied has an effect on the result.
+Fortunately modifiers can be rearranged easily by clicking the convenient up and down arrow icons.
+For example, the image below shows :doc:`SubSurf </modeling/modifiers/generate/subsurf>` and
+:doc:`Mirror </modeling/modifiers/generate/mirror>` modifiers that have switched places.
+
+.. list-table::
+
+   * - .. figure:: /images/modifier-stackorder-example2.jpg
+          :width: 300px
+
+     - .. figure:: /images/modifier-stackorder-examp1e1.jpg
+          :width: 300px
+
+
+On the left, the *Mirror* modifier is the last item in the stack and
+the result looks like two surfaces. On the right, the *Subsurf* modifier is the last
+item in the stack and the result is a single merged surface.
+
+Modifiers are calculated from top to bottom in the stack.
+In this example, the desired result (on right) is achieved by first mirroring the object,
+and then calculating the subdivision surface.
+
+
+Example
+^^^^^^^
+
+.. figure:: /images/modifier-stackorder-example3.jpg
+
+   In this example a simple subdivided cube has been transformed into a rather complex object using
+   a stack of modifiers.
+
+`Download example file <https://wiki.blender.org/index.php/:File:25-Manual-Modifiers-example.blend>`__.

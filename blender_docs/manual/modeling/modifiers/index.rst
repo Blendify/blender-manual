@@ -8,7 +8,6 @@
    :maxdepth: 2
 
    introduction.rst
-   the_stack.rst
 
 Modify
 ======
