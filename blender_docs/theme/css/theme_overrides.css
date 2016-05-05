@@ -103,3 +103,5 @@ table { caption-side: bottom; }
     .menuselection {white-space: normal;}
 }
 
+/*remove indent on line break*/
+.rst-content .line-block {margin-left:0px}
