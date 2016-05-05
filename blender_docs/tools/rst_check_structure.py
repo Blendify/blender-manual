@@ -53,6 +53,13 @@ def warn_broken_urls(fn, data_src):
     """
     Complain about broken URLs
     """
+    try:
+        import requests
+    except ImportError:
+        print("you need requests, install using `pip install requests`")
+        import sys
+        sys.exit(1)
+
     import requests
 
     lines = data_src.split("\n")
