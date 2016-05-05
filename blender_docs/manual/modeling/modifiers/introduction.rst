@@ -4,27 +4,19 @@
 Introduction
 ************
 
-.. admonition:: Reference
-
-   Modifiers are added from the *Modifiers* context of the Properties Editor.
-
-
-Modifiers
-=========
-
 Modifiers are automatic operations that affect an object in a non-destructive way. With modifiers,
 you can perform many effects automatically that would otherwise be too tedious to do manually
 (such as subdivision surfaces) and without affecting the base geometry of your object.
 
 They work by changing how an object is displayed and rendered, but not the geometry which you can edit directly.
-You can add several modifiers to a single object to form a :doc:`Modifier Stack </modeling/modifiers/the_stack>` and
-*Apply* a modifier if you wish to make its changes permanent.
+You can add several modifiers to a single object to form a :doc:`Modifier Stack </modeling/modifiers/the_stack>`
+and *Apply* a modifier if you wish to make its changes permanent.
 
 
-.. figure:: /images/modifier-menu.jpg
+.. figure:: /images/modifiers_menu.png
    :width: 600px
 
-   Modifiers menu
+   Modifiers Menu.
 
 
 There are four types of modifiers:
