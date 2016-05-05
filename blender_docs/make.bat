@@ -6,8 +6,8 @@ if "%SPHINXBUILD%" == "" (
 	set SPHINXBUILD=sphinx-build
 )
 set BUILDDIR=build
-set ALLSPHINXOPTS=-d %BUILDDIR%/doctrees %SPHINXOPTS% source
-set I18NSPHINXOPTS=%SPHINXOPTS% source
+set ALLSPHINXOPTS=-d %BUILDDIR%/doctrees %SPHINXOPTS% manual
+set I18NSPHINXOPTS=%SPHINXOPTS% manual
 if NOT "%PAPER%" == "" (
 	set ALLSPHINXOPTS=-D latex_paper_size=%PAPER% %ALLSPHINXOPTS%
 	set I18NSPHINXOPTS=-D latex_paper_size=%PAPER% %I18NSPHINXOPTS%
@@ -18,6 +18,10 @@ if "%1" == "" goto help
 if "%1" == "help" (
 	:help
 	echo.Please use `make ^<target^>` where ^<target^> is one of
+	echo.
+	echo.Documentation
+	echo.=============
+	echo.
 	echo.  html       to make standalone HTML files
 	echo.  dirhtml    to make HTML files named index.html in directories
 	echo.  singlehtml to make a single large HTML file
@@ -40,6 +44,11 @@ if "%1" == "help" (
 	echo.  doctest    to run all doctests embedded in the documentation if enabled
 	echo.  coverage   to run coverage check of the documentation if enabled
 	echo.  dummy      to check syntax errors of document sources
+	echo.
+	echo.Checking
+	echo.========
+	echo.  check_syntax
+	echo.  check_structure
 	goto end
 )
 
@@ -277,5 +286,20 @@ if "%1" == "dummy" (
 	echo.Build finished. Dummy builder generates no files.
 	goto end
 )
+
+if "%1" == "check_syntax" (
+	python tools/rst_check_syntax.py --kbd --long > rst_check_syntax.log
+	type rst_check_syntax.log
+	DEL rst_check_syntax.log
+	goto end
+)
+
+if "%1" == "check_structure" (
+	python tools/rst_check_structure.py --image --locale > rst_check_structure.log
+	type rst_check_structure.log
+	DEL rst_check_structure.log
+	goto end
+)
+
 
 :end
