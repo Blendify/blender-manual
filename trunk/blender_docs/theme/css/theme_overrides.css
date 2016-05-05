@@ -32,17 +32,31 @@ input[type="color"] {
     background-color:#FCFCFC;
 }
 
-/* Reference admonition */
+/*boxed paragraphs*/
 .rst-content .refbox .admonition-title {
-    background: #bbb;
+   background-color: #bbb;
 }
 .rst-content .refbox {
-    -webkit-font-smoothing: antialiased;
-    padding: 12px;
-    line-height: 24px;
-    margin-bottom: 24px;
-    background: #e3e3e3;
+	-webkit-font-smoothing: antialiased;
+	padding: 12px;
+	line-height: 24px;
+	margin-bottom: 24px;
+	background-color: #e3e3e3;
 }
+.rst-content .seealso .admonition-title {
+	background-color: #7a87e6;
+}
+.rst-content .seealso {
+	background-color: #e7ebfa;
+}
+
+/* rb =, see ( > ), note ( i ), tip i , hint (+), warn / ! \ */
+.refbox .admonition-title::before {content:"\f00b"}
+.seealso .admonition-title::before{content:"\f138"}
+.note .admonition-title::before{content:"\f05a"}
+.tip .admonition-title::before{content:"\f129"; padding: 0 0.1em}
+.hint .admonition-title::before{content:"\f055"}
+.warning .admonition-title::before{content:"\f071"}
 
 /* Ugly 'red' literals */
 .rst-content tt.literal, .rst-content tt.literal, .rst-content code.literal {
