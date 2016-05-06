@@ -23,40 +23,21 @@ if "%1" == "help" (
 	echo.=============
 	echo.
 	echo.  html             to make standalone HTML files
-	echo.  dirhtml          to make HTML files named index.html in directories
 	echo.  singlehtml       to make a single large HTML file
 	echo.  readme           to create readme.html
-	echo.  pickle           to make pickle files
-	echo.  json             to make JSON files
-	echo.  htmlhelp         to make HTML files and a HTML help project
-	echo.  qthelp           to make HTML files and a qthelp project
-	echo.  devhelp          to make HTML files and a Devhelp project
-	echo.  epub             to make an epub
-	echo.  epub3            to make an epub3
-	echo.  latex            to make LaTeX files, you can set PAPER=a4 or PAPER=letter
-	echo.  text             to make text files
-	echo.  man              to make manual pages
-	echo.  texinfo          to make Texinfo files
-	echo.  gettext          to make PO message catalogs
-	echo.  changes          to make an overview over all changed/added/deprecated items
-	echo.  xml              to make Docutils-native XML files
-	echo.  pseudoxml        to make pseudoxml-XML files for display purposes
-	echo.  linkcheck        to check all external links for integrity
-	echo.  doctest          to run all doctests embedded in the documentation if enabled
-	echo.  coverage         to run coverage check of the documentation if enabled
-	echo.  dummy            to check syntax errors of document sources
+	echo.  pdf              to make LaTeX files, you can set PAPER=a4 or PAPER=letter
 	echo.
 	echo.Checking
 	echo.========
 	echo.  check_syntax     to check the syntax of all .rst files
 	echo.  check_structure  to check the structure of all .rst files
-	goto end
+	goto EOF
 )
 
 if "%1" == "clean" (
 	for /d %%i in (%BUILDDIR%\*) do rmdir /q /s %%i
 	del /q /s %BUILDDIR%\*
-	goto end
+	goto EOF
 )
 
 
@@ -89,15 +70,7 @@ if "%1" == "html" (
 	if errorlevel 1 exit /b 1
 	echo.
 	echo.Build finished. The HTML pages are in %BUILDDIR%/html.
-	goto end
-)
-
-if "%1" == "dirhtml" (
-	%SPHINXBUILD% -b dirhtml %ALLSPHINXOPTS% %BUILDDIR%/dirhtml
-	if errorlevel 1 exit /b 1
-	echo.
-	echo.Build finished. The HTML pages are in %BUILDDIR%/dirhtml.
-	goto end
+	goto EOF
 )
 
 if "%1" == "singlehtml" (
@@ -105,207 +78,46 @@ if "%1" == "singlehtml" (
 	if errorlevel 1 exit /b 1
 	echo.
 	echo.Build finished. The HTML pages are in %BUILDDIR%/singlehtml.
-	goto end
+	goto EOF
 )
 
 if "%1" == "readme" (
 	rst2html.py readme.rst > readme.html
-	goto end
+	goto EOF
 )
 
-if "%1" == "pickle" (
-	%SPHINXBUILD% -b pickle %ALLSPHINXOPTS% %BUILDDIR%/pickle
-	if errorlevel 1 exit /b 1
-	echo.
-	echo.Build finished; now you can process the pickle files.
-	goto end
-)
-
-if "%1" == "json" (
-	%SPHINXBUILD% -b json %ALLSPHINXOPTS% %BUILDDIR%/json
-	if errorlevel 1 exit /b 1
-	echo.
-	echo.Build finished; now you can process the JSON files.
-	goto end
-)
-
-if "%1" == "htmlhelp" (
-	%SPHINXBUILD% -b htmlhelp %ALLSPHINXOPTS% %BUILDDIR%/htmlhelp
-	if errorlevel 1 exit /b 1
-	echo.
-	echo.Build finished; now you can run HTML Help Workshop with the ^
-.hhp project file in %BUILDDIR%/htmlhelp.
-	goto end
-)
-
-if "%1" == "qthelp" (
-	%SPHINXBUILD% -b qthelp %ALLSPHINXOPTS% %BUILDDIR%/qthelp
-	if errorlevel 1 exit /b 1
-	echo.
-	echo.Build finished; now you can run "qcollectiongenerator" with the ^
-.qhcp project file in %BUILDDIR%/qthelp, like this:
-	echo.^> qcollectiongenerator %BUILDDIR%\qthelp\Test.qhcp
-	echo.To view the help file:
-	echo.^> assistant -collectionFile %BUILDDIR%\qthelp\Test.ghc
-	goto end
-)
-
-if "%1" == "devhelp" (
-	%SPHINXBUILD% -b devhelp %ALLSPHINXOPTS% %BUILDDIR%/devhelp
-	if errorlevel 1 exit /b 1
-	echo.
-	echo.Build finished.
-	goto end
-)
-
-if "%1" == "epub" (
-	%SPHINXBUILD% -b epub %ALLSPHINXOPTS% %BUILDDIR%/epub
-	if errorlevel 1 exit /b 1
-	echo.
-	echo.Build finished. The epub file is in %BUILDDIR%/epub.
-	goto end
-)
-
-if "%1" == "epub3" (
-	%SPHINXBUILD% -b epub3 %ALLSPHINXOPTS% %BUILDDIR%/epub3
-	if errorlevel 1 exit /b 1
-	echo.
-	echo.Build finished. The epub3 file is in %BUILDDIR%/epub3.
-	goto end
-)
-
-if "%1" == "latex" (
-	%SPHINXBUILD% -b latex %ALLSPHINXOPTS% %BUILDDIR%/latex
-	if errorlevel 1 exit /b 1
-	echo.
-	echo.Build finished; the LaTeX files are in %BUILDDIR%/latex.
-	goto end
-)
-
-if "%1" == "latexpdf" (
+if "%1" == "pdf" (
 	%SPHINXBUILD% -b latex %ALLSPHINXOPTS% %BUILDDIR%/latex
 	cd %BUILDDIR%/latex
 	make all-pdf
 	cd %~dp0
 	echo.
 	echo.Build finished; the PDF files are in %BUILDDIR%/latex.
-	goto end
+	goto EOF
 )
 
-if "%1" == "latexpdfja" (
-	%SPHINXBUILD% -b latex %ALLSPHINXOPTS% %BUILDDIR%/latex
-	cd %BUILDDIR%/latex
-	make all-pdf-ja
-	cd %~dp0
-	echo.
-	echo.Build finished; the PDF files are in %BUILDDIR%/latex.
-	goto end
-)
-
-if "%1" == "text" (
-	%SPHINXBUILD% -b text %ALLSPHINXOPTS% %BUILDDIR%/text
-	if errorlevel 1 exit /b 1
-	echo.
-	echo.Build finished. The text files are in %BUILDDIR%/text.
-	goto end
-)
-
-if "%1" == "man" (
-	%SPHINXBUILD% -b man %ALLSPHINXOPTS% %BUILDDIR%/man
-	if errorlevel 1 exit /b 1
-	echo.
-	echo.Build finished. The manual pages are in %BUILDDIR%/man.
-	goto end
-)
-
-if "%1" == "texinfo" (
-	%SPHINXBUILD% -b texinfo %ALLSPHINXOPTS% %BUILDDIR%/texinfo
-	if errorlevel 1 exit /b 1
-	echo.
-	echo.Build finished. The Texinfo files are in %BUILDDIR%/texinfo.
-	goto end
-)
 
 if "%1" == "gettext" (
 	%SPHINXBUILD% -b gettext %I18NSPHINXOPTS% %BUILDDIR%/locale
 	if errorlevel 1 exit /b 1
 	echo.
 	echo.Build finished. The message catalogs are in %BUILDDIR%/locale.
-	goto end
-)
-
-if "%1" == "changes" (
-	%SPHINXBUILD% -b changes %ALLSPHINXOPTS% %BUILDDIR%/changes
-	if errorlevel 1 exit /b 1
-	echo.
-	echo.The overview file is in %BUILDDIR%/changes.
-	goto end
-)
-
-if "%1" == "linkcheck" (
-	%SPHINXBUILD% -b linkcheck %ALLSPHINXOPTS% %BUILDDIR%/linkcheck
-	if errorlevel 1 exit /b 1
-	echo.
-	echo.Link check complete; look for any errors in the above output ^
-or in %BUILDDIR%/linkcheck/output.txt.
-	goto end
-)
-
-if "%1" == "doctest" (
-	%SPHINXBUILD% -b doctest %ALLSPHINXOPTS% %BUILDDIR%/doctest
-	if errorlevel 1 exit /b 1
-	echo.
-	echo.Testing of doctests in the sources finished, look at the ^
-results in %BUILDDIR%/doctest/output.txt.
-	goto end
-)
-
-if "%1" == "coverage" (
-	%SPHINXBUILD% -b coverage %ALLSPHINXOPTS% %BUILDDIR%/coverage
-	if errorlevel 1 exit /b 1
-	echo.
-	echo.Testing of coverage in the sources finished, look at the ^
-results in %BUILDDIR%/coverage/python.txt.
-	goto end
-)
-
-if "%1" == "xml" (
-	%SPHINXBUILD% -b xml %ALLSPHINXOPTS% %BUILDDIR%/xml
-	if errorlevel 1 exit /b 1
-	echo.
-	echo.Build finished. The XML files are in %BUILDDIR%/xml.
-	goto end
-)
-
-if "%1" == "pseudoxml" (
-	%SPHINXBUILD% -b pseudoxml %ALLSPHINXOPTS% %BUILDDIR%/pseudoxml
-	if errorlevel 1 exit /b 1
-	echo.
-	echo.Build finished. The pseudo-XML files are in %BUILDDIR%/pseudoxml.
-	goto end
-)
-
-if "%1" == "dummy" (
-	%SPHINXBUILD% -b dummy %ALLSPHINXOPTS% %BUILDDIR%/dummy
-	if errorlevel 1 exit /b 1
-	echo.
-	echo.Build finished. Dummy builder generates no files.
-	goto end
+	goto EOF
 )
 
 if "%1" == "check_syntax" (
 	python tools/rst_check_syntax.py --kbd --long > rst_check_syntax.log
 	type rst_check_syntax.log
 	DEL rst_check_syntax.log
-	goto end
+	goto EOF
 )
 
 if "%1" == "check_structure" (
 	python tools/rst_check_structure.py --image --locale > rst_check_structure.log
 	type rst_check_structure.log
 	DEL rst_check_structure.log
-	goto end
+	goto EOF
 )
 
 
-:end
+:EOF
