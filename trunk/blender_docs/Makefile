@@ -122,7 +122,7 @@ help:
 	@echo "- readme     - create 'readme.html'"
 	@echo "  ... otherwise defaults to HTML"
 	@echo ""
-	@echo "Chapters - for quickly building a single chapter"
+	@echo "Chapters     - for quickly building a single chapter"
 	@echo ""
 
 	@$(foreach ch,$(CHAPTERS),echo "- "$(ch);)
@@ -131,13 +131,13 @@ help:
 	@echo "Checking"
 	@echo "========"
 	@echo ""
-	@echo "- check_syntax       Check the syntax of all .rst files."
-	@echo "- check_structure    Check the structure of all .rst files."
+	@echo "- check_syntax       - Check the syntax of all .rst files."
+	@echo "- check_structure    - Check the structure of all .rst files."
 	@echo ""
 	@echo ""
 	@echo "Maintenance"
 	@echo "==========="
 	@echo ""
-	@echo "- update_po              Update the PO translations files from the RST source."
-	@echo "- report_po_progress     Report progress on each languages translations."
+	@echo "- update_po              - Update the PO translations files from the RST source."
+	@echo "- report_po_progress     - Report progress on each languages translations."
 FORCE:
