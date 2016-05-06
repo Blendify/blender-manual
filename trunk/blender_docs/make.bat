@@ -22,33 +22,34 @@ if "%1" == "help" (
 	echo.Documentation
 	echo.=============
 	echo.
-	echo.  html       to make standalone HTML files
-	echo.  dirhtml    to make HTML files named index.html in directories
-	echo.  singlehtml to make a single large HTML file
-	echo.  pickle     to make pickle files
-	echo.  json       to make JSON files
-	echo.  htmlhelp   to make HTML files and a HTML help project
-	echo.  qthelp     to make HTML files and a qthelp project
-	echo.  devhelp    to make HTML files and a Devhelp project
-	echo.  epub       to make an epub
-	echo.  epub3      to make an epub3
-	echo.  latex      to make LaTeX files, you can set PAPER=a4 or PAPER=letter
-	echo.  text       to make text files
-	echo.  man        to make manual pages
-	echo.  texinfo    to make Texinfo files
-	echo.  gettext    to make PO message catalogs
-	echo.  changes    to make an overview over all changed/added/deprecated items
-	echo.  xml        to make Docutils-native XML files
-	echo.  pseudoxml  to make pseudoxml-XML files for display purposes
-	echo.  linkcheck  to check all external links for integrity
-	echo.  doctest    to run all doctests embedded in the documentation if enabled
-	echo.  coverage   to run coverage check of the documentation if enabled
-	echo.  dummy      to check syntax errors of document sources
+	echo.  html             to make standalone HTML files
+	echo.  dirhtml          to make HTML files named index.html in directories
+	echo.  singlehtml       to make a single large HTML file
+	echo.  readme           to create readme.html
+	echo.  pickle           to make pickle files
+	echo.  json             to make JSON files
+	echo.  htmlhelp         to make HTML files and a HTML help project
+	echo.  qthelp           to make HTML files and a qthelp project
+	echo.  devhelp          to make HTML files and a Devhelp project
+	echo.  epub             to make an epub
+	echo.  epub3            to make an epub3
+	echo.  latex            to make LaTeX files, you can set PAPER=a4 or PAPER=letter
+	echo.  text             to make text files
+	echo.  man              to make manual pages
+	echo.  texinfo          to make Texinfo files
+	echo.  gettext          to make PO message catalogs
+	echo.  changes          to make an overview over all changed/added/deprecated items
+	echo.  xml              to make Docutils-native XML files
+	echo.  pseudoxml        to make pseudoxml-XML files for display purposes
+	echo.  linkcheck        to check all external links for integrity
+	echo.  doctest          to run all doctests embedded in the documentation if enabled
+	echo.  coverage         to run coverage check of the documentation if enabled
+	echo.  dummy            to check syntax errors of document sources
 	echo.
 	echo.Checking
 	echo.========
-	echo.  check_syntax
-	echo.  check_structure
+	echo.  check_syntax     to check the syntax of all .rst files
+	echo.  check_structure  to check the structure of all .rst files
 	goto end
 )
 
@@ -104,6 +105,11 @@ if "%1" == "singlehtml" (
 	if errorlevel 1 exit /b 1
 	echo.
 	echo.Build finished. The HTML pages are in %BUILDDIR%/singlehtml.
+	goto end
+)
+
+if "%1" == "readme" (
+	rst2html.py readme.rst > readme.html
 	goto end
 )
 
