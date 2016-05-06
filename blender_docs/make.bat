@@ -31,6 +31,7 @@ if "%1" == "help" (
 	echo.========
 	echo.  check_syntax     to check the syntax of all .rst files
 	echo.  check_structure  to check the structure of all .rst files
+	echo.  linkcheck        to check all external links for integrity
 	goto EOF
 )
 
@@ -103,6 +104,15 @@ if "%1" == "gettext" (
 	echo.
 	echo.Build finished. The message catalogs are in %BUILDDIR%/locale.
 	goto EOF
+)
+
+if "%1" == "linkcheck" (
+    %SPHINXBUILD% -b linkcheck %ALLSPHINXOPTS% %BUILDDIR%/linkcheck
+    if errorlevel 1 exit /b 1
+    echo.
+    echo.Link check complete; look for any errors in the above output ^
+or in %BUILDDIR%/linkcheck/output.txt.
+    goto end
 )
 
 if "%1" == "check_syntax" (
