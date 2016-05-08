@@ -53,7 +53,7 @@ For the active and selected objects, keyframes are displayed as a yellow line.
 
 For *Armatures*, the object keyframes and the pose bones keyframes are drawn.
 
-*Only Selected Channels* can be enabled. *Timeline > View > Only Selected Channels*.
+*Only Selected Channels* can be enabled. :menuselection:`Timeline --> View --> Only Selected Channels`.
 For *Armatures*, this will draw the object keyframes,
 and the keyframes for the active and selected pose bones.
 
@@ -366,7 +366,7 @@ Active Keying Set
 
    There are some built in keying sets, 'LocRotScale', and also custom keying sets.
 
-   Custom keying sets can be defined in the in the panels *Properties > Scene > Keying Sets + Active Keying Set*.
+   Custom keying sets can be defined in the in the panels :menuselection:`Properties --> Scene --> Keying Sets + Active Keying Set`.
 Insert Keyframes
    Insert keyframes on the current frame for the properties in the active *Keying Set*.
 Delete Keyframes
