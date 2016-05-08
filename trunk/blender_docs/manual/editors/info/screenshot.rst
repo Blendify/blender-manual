@@ -66,27 +66,21 @@ If you are unsure what video codecs your system supports, select *AVI JPEG*.
 
    You can change the frame-rate for a screen cast in the :ref:`User Preferences <prefs-system-screencast>`.
 
-When you start Blender Screencasts, the header of the *Info Window* will change,
+When you start Blender Screencasts, the header of the *Info Editor* will change,
 and it will show you a button for stopping your capture.
-
-Below, we show the normal header of the *Info Window*,
-when in normal Blender operation (See Fig: Info Window - Header - Normal Operation),
-and with the Stop button for the Screencast, when in Screencast Mode. (See Fig:
-Info Window - Header - Capture Stop Button).
-
 
 .. figure:: /images/basics-screencast-small-header-info-window-normal.jpg
 
-   Info Window - Header - Normal Operation
-
+   Info Header
 
 .. figure:: /images/basics-screencast-small-header-info-window-stop.jpg
 
-   Info Window - Header - Capture Stop Button
+   Info Header with the Capture Stop Button
+
 
 .. note:: The only way to stop the Screencast
 
-   Pressing the Stop button in the header of the Info Window is the only way to stop the Screencast capture.
+   Pressing the Stop button in the header of the Info Editor is the only way to stop the Screencast capture.
    If you press :kbd:`Esc`, the shortcut will only work for operations
    performed in the Blender *User Interface*, (it will stop animations, playbacks and so on...),
    but will not work to stop *Screencasts*.
@@ -94,7 +88,7 @@ Info Window - Header - Capture Stop Button).
 
 .. figure:: /images/basics-screencast-frame-range-sufix.jpg
 
-   Dimensions Panel - Frame Range
+   Render > Dimensions Panel > Frame Range
 
 
 The frames are stored using a suffix added to their file name,
