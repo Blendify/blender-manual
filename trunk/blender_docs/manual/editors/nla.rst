@@ -144,7 +144,7 @@ To do so, hit the 'unpin' icon, next to the strip.
    The unpinned keys return to their original frames.
 
 
-When your finished editing the strip, simply go to View > Exit Tweak Mode.
+When your finished editing the strip, simply go to :menuselection:`View --> Exit Tweak Mode`.
 Note the default key for this is Tab.
 
 

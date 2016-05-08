@@ -101,7 +101,7 @@ but this will not be added soon.
 Can I use multiple GPUs for rendering?
 --------------------------------------
 
-Yes, go to User Preferences > System > Compute Device Panel, and configure it as you desire.
+Yes, go to :menuselection:`User Preferences --> System --> Compute Device Panel`, and configure it as you desire.
 
 
 Would multiple GPUs increase available memory?
