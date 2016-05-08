@@ -26,7 +26,7 @@ The game can then be executed by running the appropriate .exe file.
 Note that all appropriate libraries are automatically loaded by the add-on.
 
 If you are interested in licensing your game,
-read `Licensing <https://wiki.blender.org/index.php/User:sculptorjim/Game Engine/Licensing>`__
+read `Licensing <https://www.blender.org/about/license/>`__
 for a discussion of the issues involved.
 
 
@@ -35,4 +35,3 @@ for a discussion of the issues involved.
    If the game is to be exported to other computers,
    make a new empty directory for the game runtime and all its ancilliary libraries etc.
    Then make sure the **whole directory** is transferred to the target computer
-

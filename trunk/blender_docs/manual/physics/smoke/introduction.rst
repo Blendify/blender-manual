@@ -43,11 +43,8 @@ A basic workflow looks like this:
    or in the :kbd:`Spacebar` search box.
 
 
-Technical information
-=====================
+.. note::
 
-Blender's smoke simulation is based on the paper
-`Wavelet Turbulence for Fluid Simulation <https://www.cs.cornell.edu/~tedkim/wturb>`__
-and associated sample code.
-
-It has been implemented in Blender by Daniel Genrich and Miika Hamalainen.
+   Blender's smoke simulation is based on the paper
+   `Wavelet Turbulence for Fluid Simulation <https://www.cs.cornell.edu/~tedkim/wturb/>`__
+   and associated sample code.

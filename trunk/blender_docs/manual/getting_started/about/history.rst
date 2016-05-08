@@ -50,7 +50,7 @@ Since restarting a company with a sufficiently large team of developers wasn't f
 Ton Roosendaal founded the non-profit organization Blender Foundation in March 2002.
 
 The Blender Foundation's primary goal was to find a way to continue developing and promoting
-Blender as a community-based `open source <https://www.opensource.org/>`__ project. In July 2002,
+Blender as a community-based `open source <http://www.opensource.org/>`__ project. In July 2002,
 Ton managed to get the NaN investors to agree to a unique Blender Foundation plan to attempt
 to release Blender as open source. The "Free Blender" campaign sought to raise €100,000 so
 that the Foundation could buy the rights to the Blender source code and intellectual property
@@ -80,7 +80,7 @@ The start!
 ----------
 
 - 1.00 - January 1994: Blender
-  `in development <https://code.blender.org/index.php/2013/12/how-blender-started-twenty-years-ago/>`__
+  `in development <https://code.blender.org/2013/12/how-blender-started-twenty-years-ago/>`__
   at animation studio NeoGeo.
 - 1.23 - January 1998: SGI version published on the web, IrisGL.
 - 1.30 - April 1998: Linux and FreeBSD version, port to OpenGL and X11.
@@ -126,37 +126,37 @@ Blender goes Open Source
 - `2.37 <https://archive.blender.org/development/release-logs/blender-237a/>`__ - June 2005:
   Transformation tools and widgets, softbodies, force fields, deflections,
   incremental subdivision surfaces, transparent shadows, and multi-threaded rendering.
-- `2.40 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.40>`__ - December 2005:
+- `2.40 <https://wiki.blender.org/index.php/Dev:Ref/Outdated/Release_Notes/2.40>`__ - December 2005:
   Full rework of armature system, shape keys, fur with particles, fluids, and rigid bodies.
-- `2.41 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.41>`__ - January 2006:
+- `2.41 <https://wiki.blender.org/index.php/Dev:Ref/Outdated/Release_Notes/2.41>`__ - January 2006:
   Lots of fixes, and some game engine features.
-- `2.42 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.42>`__ - July 2006:
+- `2.42 <https://wiki.blender.org/index.php/Dev:Ref/Outdated/Release_Notes/2.42>`__ - July 2006:
   The nodes release, array modifier, vector blur, new physics engine, rendering, lip sync, and many other features.
   This was the release following `Project Orange <https://orange.blender.org/>`__.
-- `2.43 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.43>`__ - February 2007:
+- `2.43 <https://wiki.blender.org/index.php/Dev:Ref/Outdated/Release_Notes/2.43>`__ - February 2007:
   Multi-resolution meshes, multi-layer UV textures, multi-layer images and multi-pass rendering and baking,
   sculpting, retopology, multiple additional mattes, distort and filter nodes, modeling and animation improvements,
   better painting with multiple brushes, fluid particles,
   proxy objects, sequencer rewrite, and post-production UV texturing.
-- `2.44 <https://www.blender.org/development/release-logs/blender-244>`__ - May 2007:
+- `2.44 <http://archive.blender.org/development/release-logs/blender-244/index.html>`__ - May 2007:
   The big news, in addition to two new modifiers and re-awakening the 64-bit OS support, was the addition
   of subsurface scattering, which simulates light scattering beneath the surface of organic and soft objects.
-- `2.45 <https://www.blender.org/development/release-logs/blender-245/>`__ - September 2007:
+- `2.45 <http://archive.blender.org/development/release-logs/blender-245/index.html>`__ - September 2007:
   Serious bug fixes, with some performance issues addressed.
-- `2.46 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.46>`__ - May 2008:
+- `2.46 <https://wiki.blender.org/index.php/Dev:Ref/Outdated/Release_Notes/2.46>`__ - May 2008:
   The Peach release was the result of a huge effort of over 70 developers providing enhancements to
   provide hair and fur, a new particle system, enhanced image browsing, cloth, a seamless
   and non-intrusive physics cache, rendering improvements in reflections, AO, and render baking, a mesh deform
   modifier for muscles and such, better animation support via armature tools and drawing, skinning,
   constraints and a colorful Action Editor, and much more. It was the release following
   `Project Peach <https://peach.blender.org/>`__.
-- `2.47 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.47>`__ - August 2008:
+- `2.47 <https://wiki.blender.org/index.php/Dev:Ref/Outdated/Release_Notes/2.47>`__ - August 2008:
   Bugfix release.
-- `2.48 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.48>`__ - October 2008:
+- `2.48 <http://archive.blender.org/development/release-logs/blender-248/index.html>`__ - October 2008:
   The Apricot release, cool GLSL shaders, lights and GE improvements, snap, sky simulator, shrinkwrap
   modifier, and Python editing improvements.
   This was the release following `Project Apricot <https://apricot.blender.org/>`__.
-- `2.49 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.49>`__ - June 2009:
+- `2.49 <https://wiki.blender.org/index.php/Dev:Ref/Outdated/Release_Notes/2.49>`__ - June 2009:
   Node-based textures, armature sketching (called Etch-a-Ton), boolean mesh operation improvements,
   JPEG2000 support, projection painting for direct transfer of images to models, and a significant Python
   script catalog. GE enhancements included video textures, where you can play movies in-game, upgrades
@@ -185,7 +185,7 @@ Blender 2.6x to 2.7x - Improvements & Stabalizing
   with mesh contact/approximation, the Ocean Sim modifier to simulate ocean and foam, new add-ons, bug fixes,
   and more extensions added for the Python API.
 - `2.62 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.62>`__ - February 2012:
-  The `Carve <https://carve-csg.com/>`__ library was added to improve boolean operations, support for
+  The `Carve library <http://carve-csg.com/>`__ was added to improve boolean operations, support for
   object tracking was added, the Remesh modifier was added, many improvements in the GE, matrices and
   vectors in the Python API were improved, new add-ons, and many bug fixes.
 - `2.63 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.63>`__ - April 2012:

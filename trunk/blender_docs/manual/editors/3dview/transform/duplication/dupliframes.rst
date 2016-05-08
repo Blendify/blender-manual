@@ -13,7 +13,7 @@ Examples
 .. figure:: /images/Modeling-Dupliframes-example01.jpg
    :width: 300px
 
-   Settings for the curve
+   Settings for the curve.
 
 
 :kbd:`Shift-A` to add a *Bezier Circle* and scale it up.
@@ -24,7 +24,7 @@ and set *Frames* to something more reasonable than 100 (say 16).
 .. figure:: /images/Modeling-Dupliframes-example02.jpg
    :width: 300px
 
-   Settings for the object
+   Settings for the object.
 
 
 Add a *Monkey*. In the *Object* menu under *Duplication* enable
@@ -40,7 +40,7 @@ Add a *Monkey*. In the *Object* menu under *Duplication* enable
 .. figure:: /images/Modeling-Dupliframes-example03.jpg
    :width: 300px
 
-   Parenting
+   Parenting.
 
 
 To parent the monkey to the Bezier circle, first select the monkey then the curve
@@ -51,7 +51,7 @@ Select the monkey and :kbd:`Alt-O` to reset its origin.
 .. figure:: /images/Modeling-Dupliframes-example04.jpg
    :width: 300px
 
-   Orientation tweaks
+   Orientation tweaks.
 
 
 You can now change the orientation of the monkey by either rotating it
@@ -66,7 +66,6 @@ first :kbd:`Ctrl-Shift-A` to *Make Duplicates Real*.
 All monkeys are now real objects, but still linked copies. To change this,
 :menuselection:`Object --> Make Single User --> Object&Data`` then choose *All*.
 
-
 .. note::
 
    There are many alternatives to Dupliframes. Which tool to use depends on context.
@@ -79,4 +78,4 @@ All monkeys are now real objects, but still linked copies. To change this,
 
 .. seealso::
 
-   `Blender Artists: Dupliframes in 2.5 <https://blenderartists.org/forum/showthread.php?t=181911&page=1>`__
+   `Blender Artists: Dupliframes in 2.5 <http://blenderartists.org/forum/showthread.php?181911-Dupliframes-in-2-5>`__

@@ -1,5 +1,4 @@
-
-..    TODO/Review: {{review|copy=X}} .
+..    TODO/Review: {{review|copy=X}}.
 
 *************************
 Vector (Motion) Blur Node
@@ -49,25 +48,6 @@ A value of just 3 will already clearly separate the background from foreground.
    You can make vector blur results in a little smoother by passing the Speed pass through a blur node
    (but note that this can make strange results,
    so it's only really appropriate for still images with lots of motion blur).
-
-
-Examples
-========
-
-An in-depth look at how to use the Vector Blur node
-:doc:`can be found here </compositing/types/filter/vector_blur>`.
-
-As far as we know, this node represents a
-`new approach to calculating motion blur
-<https://www.blender.org/development/release-logs/blender-242/vector-blur/>`__.
-Use vector blur in compositing with confidence instead of motion blur. In face,
-when compositing images, it is necessary to use vector blur since there isn't "real" motion.
-In this `example blend-file <https://download.blender.org/demo/test/driven_hand_blur.blend>`__,
-you will find a rigged hand reaching down to pick up a ball. Based on how the hand is moving
-(those vectors), the image is blurred in that direction. The fingers closest to the camera
-(the least Z value) are blurred more, and those farther away (the forearm)
-is blurred the least.
-
 
 .. note::
 

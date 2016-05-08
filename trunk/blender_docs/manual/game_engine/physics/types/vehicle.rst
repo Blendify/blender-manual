@@ -38,8 +38,10 @@ keeping it from hitting the ground. In effect, the vehicle chassis 'floats' alon
 The friction force is calculated for each wheel where the ray contacts the ground.
 This is applied as a sideways and forwards force.
 
-You can check Kester Maddock's approach to vehicle simulation `here <https://tinyurl.com/ydfb7lm>`__.
+You can check Kester Maddock's approach to vehicle simulation
+`here <https://docs.google.com/document/d/18edpOwtGgCwNyvakS78jxMajCuezotCU_0iezcwiFQc/edit>`__.
 It includes some common problems, workarounds and tips and tricks.
+
 
 How to use
 ==========
@@ -75,6 +77,7 @@ Python
 
 Assembling the Vehicle
 ^^^^^^^^^^^^^^^^^^^^^^
+
 The overall steps are:
 
 - create a constraint for the vehicle and save its ID for future reference
@@ -86,6 +89,7 @@ You can see an example in the file below.
 
 Controlling the Vehicle
 ^^^^^^^^^^^^^^^^^^^^^^^
+
 This is done in 2 parts and it should be modeled according to the desired behavior.
 You should think of your gameplay and research appropriate functions for the input.
 For instance, can the vehicle reverse? jump? drift?
@@ -118,5 +122,6 @@ Both should be run each frame.
 
 Example
 -------
+
 `demo_file.zip <https://dl.dropboxusercontent.com/u/3226675/blender/vehicle_controller_demo.zip>`__
 (last update 9 September 2014)

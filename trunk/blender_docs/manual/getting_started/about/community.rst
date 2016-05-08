@@ -28,7 +28,7 @@ Independent Sites
 There are `several independent websites <https://www.blender.org/support/user-community/>`__  such as forums,
 blogs, news and tutorial sites dedicated to Blender.
 
-One of the largest community forums is `Blender Artists <https://blenderartists.org/forum/>`__, where Blender users
+One of the largest community forums is `Blender Artists <http://blenderartists.org/forum/>`__, where Blender users
 gather to show off their creations, get feedback, ask and offer help and, in general, discuss Blender.
 
 
@@ -40,7 +40,7 @@ different ways to get support from other users, such as :ref:`IRC <irc-channels>
 `Stack Exchange <https://blender.stackexchange.com/>`__.
 
 There are also more official sources of support,
-such as `Certified Trainers <https://blender.org/certification/>`__ and
+such as `Certified Trainers <https://www.blender.org/certification/>`__ and
 the `Blender Cloud <https://cloud.blender.org/>`__. If you think you have found an issue with Blender,
 you can easily `report a bug <https://developer.blender.org/maniphest/task/create/?project=2&type=Bug>`__.
 

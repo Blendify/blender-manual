@@ -22,7 +22,6 @@ Animation is typically achieved with the use of :doc:`keyframes </animation/keyf
 Chapters
 ========
 
-
 General Principles and Tools
 ----------------------------
 
@@ -69,11 +68,6 @@ Drivers
 
 - :doc:`Drivers </animation/drivers>`
 - :doc:`Driven Shape Keys </animation/shape_keys>`
-
-The `Introduction to Character Animation tutorial
-<https://wiki.blender.org/index.php/Doc:Tutorials/Animation/BSoD/Character_Animation BSoD>`__
-is a good starting point for learning character animation.
-Even if you never used Blender before.
 
 
 Animation Fundamentals

@@ -20,7 +20,7 @@ Clear Options
 
 .. figure:: /images/3D-interaction_Transform-Control_Object-Transformations-clear-transformations.jpg
 
-   Clear Transformation menu
+   Clear Transformation menu.
 
 
 Clear Location :kbd:`Alt-G`
@@ -67,7 +67,7 @@ Apply Options
 
 .. figure:: /images/3D-interaction_Transform-Control_Object-Transformations-apply-transformations.jpg
 
-   Apply Transformation menu
+   Apply Transformation menu.
 
 
 Apply Location :kbd:`Ctrl-A`
@@ -91,9 +91,6 @@ Apply Rotation and Scale :kbd:`Ctrl-A`
 
 Apply Visual Transform :kbd:`Ctrl-A`
    Apply (set) the result of a constraint and apply this back to the Object's location, rotation and scale.
-   See the following post for more detailed discussion:
-   `Apply visual transform
-   <https://projects.blender.org/tracker/index.php?func=detail&group_id=9&atid=498&aid=24616>`__.
 
 Make Duplicate Real :kbd:`Shift-Ctrl-A`
    Make any duplicates attached to this Object real so that they can be edited.

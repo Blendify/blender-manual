@@ -11,7 +11,6 @@ Options
 =======
 
 .. figure:: /images/Constraints-Transform-MaintainVol.jpg
-   :width: 303px
 
    Maintain Volume Constraint.
 
@@ -27,4 +26,4 @@ Space
 .. seealso::
 
    `Harkyman on the development of the Maintain Volume constraint
-   <https://www.harkyman.com/2010/03/16/maintaining-bone-volume-a-new-constraint/>`__
+   <http://www.harkyman.com/2010/03/16/maintaining-bone-volume-a-new-constraint/>`__

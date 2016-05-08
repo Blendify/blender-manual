@@ -27,7 +27,7 @@ but some support the Alpha channel as well. Codecs that support RGBA include:
 
 - Quicktime
 - PNG TIFF Pixlet - not loss-less, and may be only available on Mac-OSX.
-- `Lagarith Lossless Video Codec <https://lags.leetcode.net/codec.html>`__
+- `Lagarith Lossless Video Codec <http://lags.leetcode.net/codec.html>`__
 
 AVI Codec
    AVI codec compression. Available codecs are operating-system dependent.
@@ -43,7 +43,7 @@ Frameserver
    Blender puts out `frames upon request
    <https://wiki.blender.org/index.php/Dev:Source/Render/Frameserver>`__
    as part of a render farm.
-   The port number is specified in the OpenGL User Preferences panel.
+   The port number is specified in the User Preferences.
 H.264
    Encodes movies with the H.264 codec.
 MPEG
@@ -114,7 +114,7 @@ None
    See `Video Formats`_.
 `MPEG-4(DivX) <https://en.wikipedia.org/wiki/MPEG-4>`__
    See `Video Formats`_.
-`HuffYUV <https://en.wikipedia.org/wiki/HuffYUV>`__
+`HuffYUV <https://en.wikipedia.org/wiki/Huffyuv>`__
    Lossless video codec created by Ben Rudiak-Gould which is
    meant to replace uncompressed YCbCr as a video capture format.
 `DV <https://en.wikipedia.org/wiki/DV>`__
@@ -168,4 +168,3 @@ Video Output Size
 
 Some codecs impose limitations on output size,
 ``H.264``, for example requires both the height and width to be divisible by 2.
-

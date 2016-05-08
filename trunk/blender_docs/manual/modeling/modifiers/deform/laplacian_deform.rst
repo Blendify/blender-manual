@@ -116,11 +116,11 @@ History
 =======
 
 `Laplacian Surface Editing
-<https://igl.ethz.ch/projects/Laplacian-mesh-processing/Laplacian-mesh-editing/laplacian-mesh-editing.pdf>`__
+<http://igl.ethz.ch/projects/Laplacian-mesh-processing/Laplacian-mesh-editing/laplacian-mesh-editing.pdf>`__
 is a method developed by Olga Sorkine and others in 2004.
 This method preserves geometric details as much as possible while the user makes editing operations.
 This method uses `differential coordinates
-<https://igl.ethz.ch/projects/Laplacian-mesh-processing/Laplacian-mesh-editing/diffcoords-editing.pdf>`__
+<http://igl.ethz.ch/projects/Laplacian-mesh-processing/Laplacian-mesh-editing/diffcoords-editing.pdf>`__
 corresponding to the difference between a vector and the weighted average
 of its neighbors to represent the local geometric detail of the mesh.
 
@@ -134,6 +134,6 @@ of its neighbors to represent the local geometric detail of the mesh.
 .. seealso::
 
    - `Laplacian Surface Editing (Original paper)
-     <https://igl.ethz.ch/projects/Laplacian-mesh-processing/Laplacian-mesh-editing/laplacian-mesh-editing.pdf>`__
+     <http://igl.ethz.ch/projects/Laplacian-mesh-processing/Laplacian-mesh-editing/laplacian-mesh-editing.pdf>`__
    - `Differential Coordinates for Interactive Mesh Editing
-     <https://igl.ethz.ch/projects/Laplacian-mesh-processing/Laplacian-mesh-editing/diffcoords-editing.pdf>`__
+     <http://igl.ethz.ch/projects/Laplacian-mesh-processing/Laplacian-mesh-editing/diffcoords-editing.pdf>`__
