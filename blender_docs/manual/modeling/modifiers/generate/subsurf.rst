@@ -12,7 +12,7 @@ This process creates virtual geometry that is generated non-destructively withou
 but it can be converted to real geometry that you could edit with the *Apply* button.
 
 Also, like the rest of the Modifiers, order of execution has an important bearing on the results.
-For this, see the documentation on :doc:`The Stack </modeling/modifiers/the_stack>`.
+For this, see the documentation on the :ref:`Modifier Stack <modifier-stack>`.
 
 Keep in mind that this is a different operation than its companion,
 :doc:`Smooth Shading </modeling/meshes/smoothing>`.
@@ -103,7 +103,7 @@ Improving Performance
 
 In order to utilize maximum performance form OpenSubdiv the following things are required:
 
-- Subsurf modifier must be last in the :doc:`modifier stack </modeling/modifiers/the_stack>`.
+- Subsurf modifier must be last in the :ref:`Modifier Stack <modifier-stack>`.
 - There should be no modifiers prior to Subsurf which changes mesh topology across the time.
 - Other objects should not use geometry of OpenSubdiv mesh
 
@@ -138,10 +138,12 @@ you can only tell how crooked they are in the "edit cage off" version. When you 
 want to see your mesh deformities in their full ugliness so that you can apply your skills until it is sheer
 prettiness.
 
+
 Control
 =======
 
 Subsurf rounds off edges, and often this is not what you want. There are several solutions.
+
 
 .. _modifiers-generate-subsurf-creases:
 
@@ -159,6 +161,7 @@ The crease weight of selected edges can be changed in the *Transform* panel of t
 (:kbd:`N`), or by using the shortcut :kbd:`Shift-E` and moving the mouse closer
 or further from the selected edges to adjust the crease weight.
 A higher value makes the edge "stronger" and more resistant to the smoothing effect of subdivision surfaces.
+
 
 Edge Loops
 ----------

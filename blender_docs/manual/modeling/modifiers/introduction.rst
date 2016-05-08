@@ -8,7 +8,7 @@ you can perform many effects automatically that would otherwise be too tedious t
 (such as subdivision surfaces) and without affecting the base geometry of your object.
 
 They work by changing how an object is displayed and rendered, but not the geometry which you can edit directly.
-You can add several modifiers to a single object to form a :doc:`Modifier Stack </modeling/modifiers/the_stack>`
+You can add several modifiers to a single object to form `The Modifier Stack`_ 
 and *Apply* a modifier if you wish to make its changes permanent.
 
 
@@ -97,8 +97,10 @@ Copy
 Below this header, all of the options unique to each modifier will be displayed.
 
 
-The Stack
----------
+.. _modifier-stack:
+
+The Modifier Stack
+------------------
 
 Modifiers are a series of non-destructive operations which can be applied on top of an objects geometry.
 They can be applied in just about any order the users chooses.
