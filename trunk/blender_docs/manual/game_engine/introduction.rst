@@ -13,13 +13,9 @@ for its retargeting and refactoring that, in the very least, will break compatib
 For further information, you should get in touch with the developers via mailing list or IRC and read the
 `development roadmap <https://code.blender.org/index.php/2013/06/blender-roadmap-2-7-2-8-and-beyond/>`__.
 
+.. code-block:: none
 
-data-conversion -->
-input
-|
-animation, physics and logic
-|
-rendering
+   data-conversion --> input | animation, physics and logic | rendering
 
 different renderer, logic is done via logic bricks or python
 press 'P' to play in preview mode in the embedded player
