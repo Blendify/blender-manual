@@ -1,4 +1,4 @@
-
+  
 ************
 Introduction
 ************
@@ -111,7 +111,7 @@ File location
 ^^^^^^^^^^^^^
 
 All scripts are loaded from the ``scripts`` folder of the
-:doc:`local, system and user paths </getting_started/installing/configuration/directorylayout>`.
+:doc:`local, system and user paths </getting_started/installing/configuration/directories>`.
 
 You can setup an additional search path for scripts in
 :ref:`prefs-file_paths` :menuselection:`User Preferences --> File Paths`.
