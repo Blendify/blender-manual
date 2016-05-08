@@ -45,19 +45,22 @@ Setting up the Build Environment
 ================================
 
 - Open a command prompt and change to the repository folder using
-  ::
 
-     cd C:\blender_docs
+   .. code-block:: sh
+
+      cd C:\blender_docs
 
 - Install the all the dependencies using Python's ``pip`` command
-  ::
 
-     pip install -r requirements.txt
+   .. code-block:: sh
+
+      pip install -r requirements.txt
 
 - If all goes well, you should see the following message when it's finished
-  ::
 
-     Successfully installed Jinja2 MarkupSafe Pygments Sphinx docutils sphinx-rtd-theme Cleaning up...
+   .. code-block:: sh
+
+      Successfully installed Jinja2 MarkupSafe Pygments Sphinx docutils sphinx-rtd-theme Cleaning up...
 
 During the setup, some warnings may be shown, but don't worry about them.
 However if any errors occur, they may cause some problems.
@@ -65,7 +68,8 @@ However if any errors occur, they may cause some problems.
 .. note::
 
    Every now and then you may want to make sure your dependencies are up to date using:
-   ::
+
+   .. code-block:: sh
 
       pip install -r requirements.txt  --upgrade
 
@@ -77,9 +81,10 @@ We are now ready to convert all those **rst** files into pretty **html**!
 
 - Open a command prompt and change to the repository with ``cd C:\blender_docs``.
 - Build using the following command
-  ::
 
-     sphinx-build -b html manual build\html
+   .. code-block:: sh
+
+      make
 
   This is the command you will always use when building the docs.
   The building process may take several minutes the first time (or after any major changes),
@@ -91,7 +96,8 @@ We are now ready to convert all those **rst** files into pretty **html**!
      you may need to install an older version of *Babel* (the Python Internationalization Library).
 
      To do this, simply run:
-     ::
+
+     .. code-block:: sh
 
         pip install sphinx "babel<2.0"
 
