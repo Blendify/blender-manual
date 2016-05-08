@@ -23,7 +23,7 @@ Installing Dependencies
 Install those packages or make sure you have them in your system.
 
 - `Python <https://www.python.org/>`__
-- `PIP <https://pip.pypa.io/en/latest/installing.html>`__
+- `PIP <https://pip.pypa.io/en/latest/installing/>`__
 - `Subversion <https://subversion.apache.org/>`__
 
 

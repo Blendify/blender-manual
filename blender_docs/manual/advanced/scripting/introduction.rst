@@ -27,16 +27,16 @@ Links that are useful while writing scripts.
   - Official API documentation. Use this for referencing while writing scripts.
 - `API Introduction <https://www.blender.org/api/blender_python_api_current/info_quickstart.html>`__
   - A short introduction to get you started with the API. Contains examples.
-- `CookBook <https://wiki.blender.org/index.php/Dev:2.5/Py/Scripts/Cookbook>`__
+- `CookBook <https://wiki.blender.org/index.php/Dev:Py/Scripts/Cookbook>`__
   - A section of handy code snippets (yet to be written)
 
 Links that deal with distributing your scripts.
 
-- `Sharing scripts <https://wiki.blender.org/index.php/Dev:Py/Sharing>`__
+- `Sharing scripts <https://wiki.blender.org/index.php/Dev:Doc/Process/Addons>`__
   - Information on how to share your scripts and get them included in the official Blender distribution.
-- `Creating Add-ons <https://wiki.blender.org/index.php/Dev:2.5/Py/Scripts/Guidelines/Addons>`__
+- `Creating Add-ons <https://wiki.blender.org/index.php/Dev:Py/Scripts/Guidelines/Addons>`__
   - Add-ons are used to encapsulate and distribute scripts.
-- `Extensions project <https://projects.blender.org/projects/bf-extensions/>`__
+- `Add-ons project <https://developer.blender.org/project/profile/3/>`__
   - Project to maintain a central repository of extensions to Blender.
 
 
@@ -63,10 +63,10 @@ Here are external links containing a lot of good information to start learning h
   - First video in a series of video tutorials.
 - `Quickstart guide <https://en.wikibooks.org/wiki/Blender_3D:_Blending_Into_Python/2.5_quickstart>`__
   - A quick start guide for people who already have some familiarity with Python and Blender.
-- `Examples thread <https://blenderartists.org/forum/showthread.php?t=164765>`__
+- `Examples thread <http://blenderartists.org/forum/showthread.php?t=164765>`__
   - A forum thread containing many short working script examples.
 - `Introduction to Python
-  <https://cgcookie.com/blender/2011/08/26/introduction-to-scripting-with-python-in-blender/>`__
+  <https://cgcookie.com/archive/introduction-to-scripting-with-python-in-blender/>`__
   - A one-hour video tutorial introducing Python and the Blender API.
 
 

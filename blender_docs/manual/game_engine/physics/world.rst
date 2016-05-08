@@ -1,6 +1,4 @@
-
-..    TODO/Review: {{Review|partial=x|im=needs images?}} .
-
+..    TODO/Review: {{Review|partial=x|im=needs images?}}.
 
 *************
 World Physics
@@ -9,7 +7,7 @@ World Physics
 .. figure:: /images/BGE_World.jpg
    :width: 292px
 
-   BGE World Panel (fully expanded)
+   BGE World Panel (fully expanded).
 
 
 World settings enable you to set some basic effects which affect all scenes throughout your
@@ -44,7 +42,6 @@ Ambient Color
 
 Mist
 ----
-
 
 Mist can greatly enhance the illusion of depth in your rendering.
 To create mist, Blender makes objects farther away more transparent (decreasing their Alpha value)
@@ -133,9 +130,9 @@ Type
    None
       obstacle simulation is disabled, actors aren't able to avoid obstacles
    RVO (cells)
-      obstacle simulation is based on the `RVO method <https://gamma.cs.unc.edu/RVO>`__ with cell sampling.
+      obstacle simulation is based on the `RVO method <http://gamma.cs.unc.edu/RVO/>`__ with cell sampling.
    RVO (rays)
-      obstacle simulation is based on the `RVO method <https://gamma.cs.unc.edu/RVO>`__ with ray sampling
+      obstacle simulation is based on the `RVO method <http://gamma.cs.unc.edu/RVO>`__ with ray sampling
 
 Level height
    Max difference in heights of obstacles to enable their interaction.

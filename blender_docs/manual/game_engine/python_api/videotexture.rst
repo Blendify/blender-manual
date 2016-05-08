@@ -343,19 +343,18 @@ identify the texture by the texture slot where it is defined, here 2
 
 .. code-block:: python
 
-
    tex=bge.texture.Texture(gameobj, matID, 2)
 
 
 Advanced demos
 ==============
 
-Here is a `demo <https://www.graphicall.org/ftp/ben2610/VideoTextureDemo2video.blend>`__
+Here is a `demo <http://www.graphicall.org/ftp/ben2610/VideoTextureDemo2video.blend>`__
 that demonstrates the use of two videos alternatively on the same texture.
 Note that it requires an additional video file which is the elephant dream teaser.
 You can replace with another other file that you want to run the demo.
 
-Here is a `demo <https://www.graphicall.org/ftp/ben2610/VideoTextureDemo2videoMix.blend>`__
+Here is a `demo <http://www.graphicall.org/ftp/ben2610/VideoTextureDemo2videoMix.blend>`__
 that demonstrates the use of the ``ImageMix`` source.
 ``ImageMix`` is a source that needs sources,
 which can be any other ``Texture`` source, like ``VideoFFmpeg``,

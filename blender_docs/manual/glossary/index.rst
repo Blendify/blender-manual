@@ -261,7 +261,7 @@ For other common conventions used throughout the manual.
       losing the ability to rotate on an axis (typically associated with :term:`euler rotation`).
 
       - See also `Gimbal lock <https://en.wikipedia.org/wiki/Gimbal_lock>`__ on Wikipedia.
-      - See also `Gimbal lock <https://blender.stackexchange.com/questions/469>`__ on Stackexchange.
+      - See also `Gimbal lock <https://blender.stackexchange.com/questions/469/could-someone-please-explain-gimbal-lock>`__ on Stackexchange.
 
    Global Illumination
       A superset of radiosity and ray tracing.

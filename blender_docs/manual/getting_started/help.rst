@@ -1,4 +1,4 @@
-
+  
 ***********
 Help System
 ***********
@@ -72,10 +72,10 @@ General Web-based Help
   The *blender.org* home page.
 - `Blender Store <https://store.blender.org/>`__ -
   The Blender Store, where you can buy Training DVD's, books, t-shirts and other products.
-- `Developer Community <https://www.blender.org/community/get-involved/>`__ -
+- `Developer Community <https://www.blender.org/get-involved/>`__ -
   The *blender.org* "Get Involved" page. This is the launch page for Blender software development,
   bug tracking, patches and scripts, education and training, documentation development and functionality research.
-- `User Community <https://www.blender.org/community/user-community/>`__ -
+- `User Community <https://www.blender.org/support/user-community/>`__ -
   Lists of many different support venues.
 - `Report a Bug <https://developer.blender.org/maniphest/task/create/?project=2&type=Bug>`__
   The Blender Bug Tracker.

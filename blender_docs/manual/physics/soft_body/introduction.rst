@@ -7,7 +7,7 @@ Introduction
    :width: 600px
 
    Image 1a: A softbody cloth uncovering a text.
-   `Animation <https://www.vimeo.com/1865528>`__ -
+   `Animation <https://vimeo.com/1865528>`__ -
    `Blend file <https://wiki.blender.org/index.php/Media:HiddenTextExample.blend>`__
 
 
@@ -37,7 +37,7 @@ Typical scenarios for using Soft Bodies
    :width: 300px
 
    Image 1b: A wind cone. The cone is a Soft Body, as the suspension.
-   `Animation <https://www.vimeo.com/1865817>`__ - `Blend file
+   `Animation <https://vimeo.com/1865817>`__ - `Blend file
    <https://wiki.blender.org/index.php/Media:WindConeExample.blend>`__
 
 
@@ -51,8 +51,10 @@ Soft Bodies are well suited for:
 - Hair (as long as you minimize collision).
 - Animation of swinging ropes, chains and the like.
 
-The following videos may give you some more ideas: https://youtube.com/watch?v=qdusMZlBbQ4,
-https://de.youtube.com/watch?v=3du8ksOm9Fo
+The following videos may give you some more ideas:
+
+- https://www.youtube.com/watch?v=qdusMZlBbQ4
+- https://www.youtube.com/watch?v=3du8ksOm9Fo&hl
 
 
 Creating a Soft Body

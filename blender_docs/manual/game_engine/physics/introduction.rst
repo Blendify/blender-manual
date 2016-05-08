@@ -4,7 +4,7 @@ Blender Game Physics
 ********************
 
 Blender includes advanced physics simulation in the form of the Bullet Physics Engine
-(`BulletPhysics.org <https://bulletphysics.org>`__).
+(`Bullet Physics <http://bulletphysics.org>`__).
 Most of your work will involve setting the right properties on the objects in your scene,
 then you can sit back and let
 the engine take over. The physics simulation can be used for Games, but also for Animation.
@@ -224,18 +224,18 @@ For an Add-on that can help you out in the process, check out the
 `Blender Ragdoll Implementation Kit
 <https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Game_Engine/BRIK_ragdolls>`__.
 
-.. _game_engine-physics-bake-keyframes:
 
+.. _game_engine-physics-bake-keyframes:
 
 Digging Deeper
 ==============
 
 Sometimes you will want to look at:
 
-- The main Bullet Physics page - https://bulletphysics.org/wordpress/
-- The Bullet Wiki - https://www.bulletphysics.org/mediawiki-1.5.8/index.php?title=Documentation
-- The Bullet API Docs - https://www.continuousphysics.com/Bullet/BulletFull/index.html
-- The Bullet Forums - https://www.bulletphysics.org/Bullet/phpBB3/
+- The main Bullet Physics page - http://bulletphysics.org/wordpress/
+- The Bullet Wiki - http://www.bulletphysics.org/mediawiki-1.5.8/index.php?title=Documentation
+- The Bullet API Docs - http://www.continuousphysics.com/Bullet/BulletFull/index.html
+- The Bullet Forums - http://www.bulletphysics.org/Bullet/phpBB3/
 
 
 Recording to Keyframes
@@ -293,11 +293,10 @@ You can snapshot the physics world at any time with the following code:
 
 ::
 
-
    import bge
    bge.constraints.exportBulletFile("test.bullet")
 
 
 This will allow importing into other Bullet-based projects. See the
 `Bullet Wiki on
-Serialization <https://bulletphysics.org/mediawiki-1.5.8/index.php/Bullet_binary_serialization>`__ for more.
+Serialization <http://bulletphysics.org/mediawiki-1.5.8/index.php/Bullet_binary_serialization>`__ for more.

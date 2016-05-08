@@ -11,7 +11,7 @@ before you start any big or serious project with the Blender Game Engine,
 you should note that it is currently not very supported and that there are plans
 for its retargeting and refactoring that, in the very least, will break compatibility.
 For further information, you should get in touch with the developers via mailing list or IRC and read the
-`development roadmap <https://code.blender.org/index.php/2013/06/blender-roadmap-2-7-2-8-and-beyond/>`__.
+`development roadmap <https://code.blender.org/2013/06/blender-roadmap-2-7-2-8-and-beyond/>`__.
 
 .. code-block:: none
 
@@ -20,7 +20,9 @@ For further information, you should get in touch with the developers via mailing
 different renderer, logic is done via logic bricks or python
 press 'P' to play in preview mode in the embedded player
 
+
 use cases and sample games
+==========================
 
 Blender has its own built in Game Engine that allows you to create interactive 3D applications
 or simulations. The major difference between Game Engine and the conventional Blender system

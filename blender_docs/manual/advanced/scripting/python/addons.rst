@@ -60,7 +60,7 @@ Alternatively, you can manually install an Add-on, which is useful when developi
 Move or link the files to ``../scripts/addons`` folder (where .. is the path to your Blender configuration folder).
 
 
-File locations
+File Locations
 ==============
 
 For information on the location of blender directories
@@ -77,8 +77,8 @@ To create a personal script folder:
 - Fill the *Scripts* entry with the path to your script folder (i.e. 'script_addon_2-7x').
 
 
-Development guidelines
+Development Guidelines
 ======================
 
 If you are a script developer, you may be interested in the
-`Add-ons development guidelines <https://wiki.blender.org/index.php/Dev:2.5/Py/Scripts/Guidelines/Addons>`__
+`Add-ons development guidelines <https://wiki.blender.org/index.php/Dev:Py/Scripts/Guidelines/Addons>`__

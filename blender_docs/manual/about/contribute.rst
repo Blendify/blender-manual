@@ -12,7 +12,7 @@ How It Works
 
 In a nutshell:
 
-- The manual is written in the `reStructuredText <https://sphinx-doc.org/rest.html>`__ markup language.
+- The manual is written in the `reStructuredText <http://www.sphinx-doc.org/en/stable/rest.html>`__ markup language.
 - The manual sources are hosted in a central repository (at blender.org).
 
 - You download the source files from the repository and edit them using a plain text editor.

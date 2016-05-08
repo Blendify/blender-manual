@@ -176,7 +176,7 @@ Noise Method
    .. note::
 
       *Wavelet* is an implementation of `Turbulence for Fluid Simulation
-      <https://graphics.ethz.ch/research/physics_animation_fabrication/simulation/turb.php>`__.
+      <http://graphics.ethz.ch/research/physics_animation_fabrication/simulation/turb.php>`__.
 
 Strength
    Strength of noise.

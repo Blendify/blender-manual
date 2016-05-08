@@ -1,4 +1,3 @@
-
 ..    TODO/Review: {{review|im= examples}}.
 
 ********************
@@ -26,9 +25,8 @@ Options
 =======
 
 .. figure:: /images/Constraints-Tracking-SplineIK.jpg
-   :width: 305px
 
-   Spline IK panel
+   Spline IK panel.
 
 
 Target

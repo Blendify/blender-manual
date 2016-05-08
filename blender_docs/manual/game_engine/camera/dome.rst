@@ -11,7 +11,7 @@ Truncated domes (front and rear), Planetariums and domes with spherical mirrors.
 The Dome camera uses a multipass texture algorithm as developed by Paul Bourke and was
 implemented by Dalai Felinto with sponsorship from **SAT -** Society for Arts and
 Technology within the **SAT** **Metalab**
-`immersion research program <https://paulbourke.net/miscellaneous/domemirror/BlenderiDome/>`__,
+`immersion research program <http://paulbourke.net/miscellaneous/domemirror/BlenderiDome/>`__,
 that involves rendering the scene 4 times and placing the subsequent images
 onto a mesh designed especially such that the result, when viewed with an
 orthographic camera, is a fisheye projection.
@@ -29,7 +29,7 @@ orthographic camera, is a fisheye projection.
 
 
 Dome Camera Settings
-********************
+====================
 
 .. figure:: /images/GameEngine-Dome-Panel.jpg
 
@@ -63,7 +63,7 @@ Tilt
 
 
 Fisheye Mode
-============
+------------
 
 An Orthogonal Fisheye view from 90º to 250º degrees.
 
@@ -77,7 +77,7 @@ An Orthogonal Fisheye view from 90º to 250º degrees.
 
 
 Front-Truncated Dome Mode
-=========================
+-------------------------
 
 Designed for truncated domes,
 this mode aligns the fisheye image with the top of the window while touching the sides.
@@ -93,7 +93,7 @@ this mode aligns the fisheye image with the top of the window while touching the
 
 
 Rear-Truncated Dome Mode
-========================
+------------------------
 
 Designed for truncated domes,
 this mode aligns the fisheye image with the bottom of the window while touching the sides.
@@ -109,7 +109,7 @@ this mode aligns the fisheye image with the bottom of the window while touching 
 
 
 Cube Map Mode
-=============
+-------------
 
 Cube Map mode can be used for pre-generate animated images for CubeMaps.
 
@@ -124,7 +124,7 @@ Cube Map mode can be used for pre-generate animated images for CubeMaps.
 
 
 Spherical Panoramic Mode
-========================
+------------------------
 
 A full spherical panoramic mode.
 
@@ -138,17 +138,17 @@ A full spherical panoramic mode.
 
 
 Warp Data Mesh
-==============
+--------------
 
 Many projection environments require images that are not simple perspective projections that
 are the norm for flat screen displays. Examples include geometry correction for cylindrical
 displays and some new methods of projecting into planetarium domes or upright domes intended
 for VR.
 
-For more information on the mesh format see `Paul Bourke's article <https://paulbourke.net/dataformats/meshwarp/>`__.
-
+For more information on the mesh format see `Paul Bourke's article <http://paulbourke.net/dataformats/meshwarp/>`__.
 
 .. figure:: /images/Dev-GameEngine-Dome-Warped.jpg
+
 
 In order to produce that images, we are using a specific file format.
 
@@ -184,18 +184,17 @@ ranges from 0 to 1, if negative don't draw that mesh node
 - Type filename in Warp Data field(ie. myDome.data).
 
 To create your own Warp Meshes an interactive tool called meshmapper is available as part of
-`Paul Bourke's Warpplayer <https://paulbourke.net/miscellaneous/domemirror/warpplayer/>`__
+`Paul Bourke's Warpplayer <http://paulbourke.net/miscellaneous/domemirror/warpplayer/>`__
 software package(requires full version).
 
 
-Example files
--------------
+Examples
+========
 
 `Spherical Mirror Dome 4x3 <https://wiki.blender.org/uploads/8/81/Dev-GameEngine-Dome-Standard_4x3.data>`__,
 `Truncated Dome 4x3 <https://wiki.blender.org/uploads/9/9b/Dev-GameEngine-Dome-Truncated_4x3.data>`__,
 `Sample Fullscreen File 4x3 <https://wiki.blender.org/uploads/d/d4/Dev-GameEngine-Dome-Sample-FullScreen_4x3.data>`__,
 `Sample Fullbuffer File 4x3 <https://wiki.blender.org/uploads/3/3d/Dev-GameEngine-Dome-Sample-FullBuffer_4x3.data>`__.
-
 
 .. note::
 
