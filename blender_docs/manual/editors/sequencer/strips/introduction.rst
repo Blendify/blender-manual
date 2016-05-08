@@ -15,7 +15,9 @@ and then animate out your sequence by selecting "Do Sequence" and clicking the A
 You can use the Add menu in the header,
 or hover your mouse cursor over the Sequence workspace and press :kbd:`Shift-A`.
 
-|
+.. container:: lead
+
+   .. clear
 
 .. note:: Clips can be Huge
 
