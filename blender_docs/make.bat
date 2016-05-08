@@ -134,6 +134,10 @@ if "%1" == "check_structure" (
 	type rst_check_structure.log
 	DEL rst_check_structure.log
 	goto EOF
+
+	) else (
+	echo.Command not found, type make help for a list of commands. Aborting...
+	goto EOF
 )
 
 
