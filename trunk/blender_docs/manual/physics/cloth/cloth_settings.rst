@@ -112,10 +112,28 @@ The spring could  pull two corners of a cloak about a character's neck.
 This could result in a more realistic simulation than pinning the cloak to
 the character's neck since the cloak would be free to slide about the character's neck and shoulders.
 
-Sewing springs are created by adding extra edges to a cloth mesh.
-These extra edges do not need to be included in faces.
+Sewing springs are created by adding extra edges to a cloth mesh that are not included in any faces.
 They should connect vertices in the mesh that should be pulled together.
-For example the corners of a cloak. The vertexes of these extra edges are added to a vertex group.
+For example the corners of a cloak.
 
-Enable the *Cloth Sewing Springs* panel and select the vertex group.
-Give the springs a non-zero force value and your cloth is ready to simulate.
+To activate the springs, enable the *Cloth Sewing Springs* panel.
+
+Sewing Force
+   Maximum force that can be applied by sewing springs. Zero means unbounded, but it is not
+   recommended to leave the field at zero in most cases, as it can cause instability due to
+   extreme forces in the initial frames where the ends of the sewing springs are far apart.
+
+The *Cloth Sewing Springs* panel also contains controls for shrinking the actual cloth faces.
+
+Shrinking Group
+   Vertex group that is used to vary the intensity of the shrinking effect over the cloth.
+
+Min
+   Fraction of the size to shrink the cloth by around vertices with weight 0 (or those not in vertex group.)
+   The value 0.01 means shrink by 1% etc.
+
+Max
+   Fraction of the size to shrink the cloth by around vertices with weight 1.
+
+Like unbounded sewing forces, immediately applying a large amount of shrink can cause
+instability, so it is advisable to keyframe these fields and ease in from 0 during draping.
