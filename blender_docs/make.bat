@@ -21,7 +21,6 @@ if "%1" == "" (
 )
 
 if "%1" == "help" (
-	:help
 	echo.Please use `make ^<target^>` where ^<target^> is one of
 	echo.
 	echo.Documentation
