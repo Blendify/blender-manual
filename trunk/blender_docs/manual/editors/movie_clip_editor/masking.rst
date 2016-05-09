@@ -59,7 +59,7 @@ control points are added to define the spline itself, and handles of different t
 This makes it possible to define a mask with few points to easily follow an object in footage.
 
    - :kbd:`Ctrl-LMB` is used to place new control points and define handle orientations
-   - :kbd:`Alt + C` to close the mask by joining the last control point to the first.
+   - :kbd:`Alt-C` to close the mask by joining the last control point to the first.
    - Existing control points can be translated, scaled and rotated with the usual G, S, R shortcuts.
    - :kbd:`X` or Delete removes control points. 
 

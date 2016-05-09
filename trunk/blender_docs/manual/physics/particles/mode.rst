@@ -1,4 +1,3 @@
-
 .. |hair-point-button| image:: /images/icons_hair-points.png
    :width: 25px
 
@@ -17,6 +16,7 @@ and paths of *Baked*
 Since working in particle mode is pretty easy and very similar to working with vertices in the
 3D window, we will show how to set up a particle system and then give a reference of the
 various functions.
+
 
 Usage
 =====
@@ -37,7 +37,7 @@ Ways to use Particle Mode
 - Give it an initial velocity in the *Normal* direction (first check the *Advanced* box,
   then modify the *Velocity* sub-panel), or adjust the *Hair Length*.
 - Create a simulation - Place the camera at a good position
-  (:menuselection:`pop-up --> View --> Cameras --> Active Camera ...` or :kbd:`Numpad-0`
+  (:menuselection:`pop-up --> View --> Cameras --> Active Camera ...` or :kbd:`Numpad0`)
 - Check the *Hair Dynamics* box.
   Select :menuselection:`pop-up --> Render --> Render OpenGL Animation` in *Render Engine* mode.
 
