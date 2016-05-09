@@ -105,6 +105,6 @@ We are now ready to convert all those **rst** files into pretty **html**!
   Try opening ``\build\html\contents.html`` in your web browser and read the manual.
 
 Now that you are able to build the manual,
-please visit the :doc:`writing </about/writing_style_guide>` and :doc:`markup </about/markup_style_guide>`
+please visit the :doc:`writing </about/style_guides/writing_guide>` and :doc:`markup </about/style_guides/markup_guide>`
 style guides for standard conventions, or the :doc:`contribution </about/contribute>`
 page to see how you can help write this Manual.
