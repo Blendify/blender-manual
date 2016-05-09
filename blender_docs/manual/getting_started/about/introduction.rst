@@ -7,7 +7,8 @@ Introduction
    :align: right
    :width: 300px
 
-   Blender 2.5 with a Big Buck Bunny scene open
+   Blender 2.5 with a Big Buck Bunny scene open.
+
 
 Welcome to Blender, the free and open source 3D animation suite.
 
@@ -41,10 +42,9 @@ Key Features
 
 You can download the latest version of Blender `here <https://www.blender.org/download/>`__.
 
-
 .. figure:: /images/introduction_intro_postprocessing.jpg
 
-   A rendered image being post-processed
+   A rendered image being post-processed.
 
 
 Blender makes it possible to perform a wide range of tasks, and it may seem daunting when first

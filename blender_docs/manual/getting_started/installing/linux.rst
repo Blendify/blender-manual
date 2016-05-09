@@ -25,11 +25,10 @@ otherwise, there is nothing wrong with the official binary on `blender.org <http
 Download from blender.org
 =========================
 
-Download the Linux version for your architecture and uncompress the file to the desired location (eg. ~/software or
-/usr/local).
+Download the Linux version for your architecture and uncompress the file to the desired location
+(eg. ~/software or /usr/local).
 
 Blender can now be launched by double-clicking the executable.
-
 
 For easy access, you can configure your system by adding a menu entry or shortcut for Blender and associate and open
 blend-files with Blender when opening from the file browser.

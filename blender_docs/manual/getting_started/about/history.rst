@@ -5,8 +5,7 @@ Blender's History
 
 In 1988, Ton Roosendaal co-founded the Dutch animation studio NeoGeo. NeoGeo quickly became
 the largest 3D animation studio in the Netherlands and one of the leading animation houses in
-Europe. NeoGeo created award-winning productions
-(European Corporate Video Awards 1993 and 1995)
+Europe. NeoGeo created award-winning productions (European Corporate Video Awards 1993 and 1995)
 for large corporate clients such as multinational electronics company Philips.
 Within NeoGeo Ton was responsible for both art direction and internal software development.
 After careful deliberation Ton decided that the current in-house 3D toolset for NeoGeo was
@@ -56,7 +55,7 @@ to release Blender as open source. The "Free Blender" campaign sought to raise â
 that the Foundation could buy the rights to the Blender source code and intellectual property
 rights from the NaN investors and subsequently release Blender to the open source community.
 With an enthusiastic group of volunteers, among them several ex-NaN employees,
-a fundraising campaign was launched to "Free Blender". 
+a fundraising campaign was launched to "Free Blender".
 To everyone's surprise and delight the campaign reached the â‚¬100,000 goal in only seven short weeks.
 On Sunday, October 13, 2002,
 Blender was released to the world under the terms of the `GNU GPL <https://www.gnu.org/copyleft/gpl>`__.
@@ -74,7 +73,6 @@ Video: From Blender 1.60 to 2.50
 
 Version/Revision Milestones
 ===========================
-
 
 The start!
 ----------
@@ -166,12 +164,12 @@ Blender goes Open Source
 Blender 2.5x - The Recode!
 --------------------------
 
-- `2.5x <https://wiki.blender.org/index.php/Dev:2.5/Source>`__ - From 2009 to August 2011:
-  This series released four `pre-version <https://archive.blender.org/development/release-logs/blender-256-beta>`__
-  (from Alpha 0 in November 2009 to Beta in July 2010) and three stable versions (from 2.57 - April 2011
-  - to 2.59 - August 2011). It is one of the most important development projects, with a total refactor of
-  the software with new functions, redesign of the internal window manager and event/tool/data handling system,
-  and new Python API. The final version of this project was Blender 2.59 in August 2011.
+`2.5x <https://wiki.blender.org/index.php/Dev:2.5/Source>`__ - From 2009 to August 2011:
+This series released four `pre-version <https://archive.blender.org/development/release-logs/blender-256-beta>`__
+(from Alpha 0 in November 2009 to Beta in July 2010) and three stable versions (from 2.57 - April 2011
+to 2.59 - August 2011). It is one of the most important development projects, with a total refactor of
+the software with new functions, redesign of the internal window manager and event/tool/data handling system,
+and new Python API. The final version of this project was Blender 2.59 in August 2011.
 
 
 Blender 2.6x to 2.7x - Improvements & Stabalizing
