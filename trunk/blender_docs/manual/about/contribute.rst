@@ -51,8 +51,8 @@ For instructions on using different editors,
 see the `Editor Configuration <https://wiki.blender.org/index.php/Dev:Doc/Tools/User_Reference_Manual>`__
 section of the community wiki.
 
-Be sure to check the :doc:`Writing Style Guide </about/writing_style_guide>`
-for conventions and :doc:`Markup Style Guide </about/markup_style_guide>`
+Be sure to check the :doc:`Writing Style Guide </about/style_guides/writing_guide>`
+for conventions and :doc:`Markup Style Guide </about/style_guides/markup_guide>`
 to learn how to write in the reStructuredText markup language.
 
 If you are going to add or overhaul a section, be sure to check carefully that it doesn't already exist.
