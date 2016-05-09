@@ -40,7 +40,6 @@ USER
 SYSTEM
    .. parsed-literal:: /usr/share/blender/|BLENDER_VERSION|/
 
-
 .. note::
    The path ./|BLENDER_VERSION|/ is relative to the Blender Executable &
    used for self-contained bundles distributed by official blender.org builds.

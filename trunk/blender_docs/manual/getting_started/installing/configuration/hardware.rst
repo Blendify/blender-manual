@@ -3,8 +3,18 @@
 Configuring Peripherals
 ***********************
 
+Displays
+========
+
+Todo.
+
+.. Include HMD for Blender 2.78
+
 Multi-Monitor Setup
-===================
+-------------------
+
+Todo.
+
 
 Input Devices
 =============
