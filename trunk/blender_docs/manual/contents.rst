@@ -20,7 +20,7 @@ For other languages see:
 
 
 Getting Started
----------------
+===============
 
 .. toctree::
    :maxdepth: 2
@@ -29,7 +29,7 @@ Getting Started
 
 
 Sections
---------
+========
 
 .. toctree::
    :maxdepth: 1
@@ -55,11 +55,11 @@ Sections
 
 
 Get Involved
-************
+============
 
 This manual is maintained largely by volunteers.
 
-Please consider to join the effort and :doc:`Contribute to this Manual </about/contribute>`
+Please consider to join the effort and :doc:`Contribute to this Manual </about/introduction>`
 
 .. just so this is included in the toc (not user visible).
 
