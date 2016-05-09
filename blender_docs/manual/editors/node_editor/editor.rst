@@ -21,7 +21,7 @@ When the cursor is in the window, several standard Blender hotkeys and mouse act
 Popup Menu
    Space - Brings up a main popup menu, allowing you to add, view, select, etc.
 Delete
-   :kbd:`X` or :kbd:`Del` - Deletes the selected node(s).
+   :kbd:`X` or :kbd:`Delete` - Deletes the selected node(s).
 Box select
    :kbd:`B` - Starts the bounding box selection process.
    Position your cursor and :kbd:`LMB` click & drag to select a set of nodes.

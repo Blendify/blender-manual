@@ -69,6 +69,7 @@ Backdrop
 Auto Render
    Re-render and composite changed layer when edits to the 3d scene are made.
 
+
 Backdrop
 --------
 
@@ -86,6 +87,7 @@ Offset
    or click the *Move* button, or shortcut :kbd:`Alt-MMB` to manually move it.
 Fit
    Automatically scales the backdrop to fit the size of the node editor.
+
 
 Performance 
 -----------
@@ -110,7 +112,7 @@ Two Pass
    Use two pass execution during editing: first calculate fast nodes, the second pass calculate all nodes.
 Viewer Border
    This allows you to set a render border for the backdrop.
-   To define the resolution of the border use :kbd:`CTRL-B`
+   To define the resolution of the border use :kbd:`Ctrl-B`
 Highlight
    Highlights the nodes that are being calculated.
 

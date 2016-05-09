@@ -1,3 +1,4 @@
+
 *****************
 Animating Cameras
 *****************
@@ -15,7 +16,7 @@ The triangle above the camera will become shaded when active.
 .. figure:: /images/animation_camera_switch.png
 
 First in the Timeline, add a set of markers used to switch cameras.
-Press :kbd:`M` to add marker, then :kbd:`Ctrl M` to rename,
+Press :kbd:`M` to add marker, then :kbd:`Ctrl-M` to rename,
 duplicated markers should retain the same name.
 
 #. In the 3D View, select the Camera the Markers will switch to.
@@ -62,4 +63,3 @@ to produce a *Dolly Zoom* camera effect, or vice versa.
 The video below demos the *Dolly Zoom* camera effect.
 
 .. vimeo:: 15837189
-
