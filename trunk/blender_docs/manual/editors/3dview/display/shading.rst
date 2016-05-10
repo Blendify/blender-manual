@@ -52,7 +52,8 @@ Keyboard Shortcuts
 Shading Panel
 =============
 
-.. figure:: /images/editors_3dview_shading_panel.jpg
+.. figure:: /images/editors_3dview_display_shading.png
+   :align: right
 
    3D Viewport Shading Panel.
 
