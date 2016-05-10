@@ -94,10 +94,9 @@ Try opening ``build/html/contents.html`` in your web browser and read the manual
 
    xdg-open build/html/contents.html
 
-Now that you are able to build the manual,
-please visit the :doc:`writing </about/style_guides/writing_guide>` and :doc:`markup </about/style_guides/markup_guide>`
-style guides for standard conventions, or the :doc:`contribution </about/contribute>`
-page to see how you can help write this manual.
+Now that you are able to build the manual, please visit the :doc:`writing </about/style_guides/writing_guide>`
+and :doc:`markup </about/style_guides/markup_guide>` style guides for standard conventions,
+or the :doc:`contribution </about/contribute>` page to see how you can help write this manual.
 
 
 Building a Single Chapter

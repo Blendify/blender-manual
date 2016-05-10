@@ -8,13 +8,13 @@ is shown by default at the bottom of the screen.
 
 .. figure:: /images/Timeline.jpg
 
-   Timeline
+   The Timeline.
 
 The *Timeline* is not much of an editor, but more of a information and control window.
 
 Here you can have an overview of the animation part of your scene
-   What is the current time frame, either in frames or in seconds, where are the keyframes of the active object,
-   the start and end frames of your animation, markers, etc...
+What is the current time frame, either in frames or in seconds, where are the keyframes of the active object,
+the start and end frames of your animation, markers, etc...
 
 The *Timeline* has *Player Controls*, to play, pause the animation,
 and to skip though parts of the scene.
@@ -366,12 +366,15 @@ Active Keying Set
 
    There are some built in keying sets, 'LocRotScale', and also custom keying sets.
 
-   Custom keying sets can be defined in the in the panels :menuselection:`Properties --> Scene --> Keying Sets + Active Keying Set`.
+   Custom keying sets can be defined in the in the panels
+   :menuselection:`Properties --> Scene --> Keying Sets + Active Keying Set`.
 Insert Keyframes
    Insert keyframes on the current frame for the properties in the active *Keying Set*.
 Delete Keyframes
    Delete keyframes on the current frame for the properties in the active *Keying Set*.
 
+
+.. remove and compare with the User Preferences docs
 
 User Preferences
 ================
