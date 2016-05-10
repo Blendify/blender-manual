@@ -15,4 +15,5 @@
    hair/index.rst
    children.rst
    vertexgroups.rst
+   texture_influence.rst
    mode.rst
