@@ -10,5 +10,3 @@
    material/blending_modes.rst
    material/bump_and_normal.rst
    material/displacement.rst
-   world.rst
-   particles.rst
