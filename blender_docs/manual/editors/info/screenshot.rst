@@ -88,7 +88,7 @@ and it will show you a button for stopping your capture.
 
 .. figure:: /images/basics-screencast-frame-range-sufix.jpg
 
-   Render > Dimensions Panel > Frame Range
+   :menuselection:`Render --> Dimensions Panel --> Frame Range`
 
 
 The frames are stored using a suffix added to their file name,

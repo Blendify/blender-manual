@@ -394,7 +394,7 @@ Scripted Expression
 
 .. figure:: /images/Drivers_Auto_Run_B.jpg
 
-   Graph Editor > Properties > Drivers.
+   :menuselection:`Graph Editor --> Properties --> Drivers`
 
 
 .. figure:: /images/Drivers_Auto_Run_A.jpg
@@ -416,7 +416,7 @@ or set *Auto Run Python Scripts* in :menuselection:`User Preferences --> File --
 
 .. figure:: /images/Drivers_Auto_Run_D.jpg
 
-   User Preference > File > Auto Execution.
+   :menuselection:`User Preference --> File --> Auto Execution`
 
 
 Rotational Properties are Radians

@@ -102,6 +102,11 @@ table { caption-side: bottom; }
 @media screen and (max-width: 420px) { 
     .menuselection {white-space: normal;}
 }
+.caption .menuselection { 
+	background-color: none;
+	border: none;
+} 
+.caption .kbd, {background-color: none}
 
 /*remove indent on line break*/
 .rst-content .line-block {margin-left:0px}
