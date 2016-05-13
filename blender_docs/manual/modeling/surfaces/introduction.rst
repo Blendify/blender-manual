@@ -249,9 +249,8 @@ you'll note that the four different weights needed for creating a sphere
 Primitives
 ==========
 
-To help get started in creating surfaces there are four preset NURBS surfaces,
-found in the :menuselection:`Add --> Surface` menu: *NURBS Surface*, *NURBS Tube*,
-*NURBS Sphere* and *NURBS Torus*.
+To help get started in creating surfaces there are four preset NURBS surfaces, found in the 
+:menuselection:`Add --> Surface --> NURBS Surface, NURBS Tube, NURBS Sphere and NURBS Torus`.
 
 
 .. figure:: /images/NurbsPrimitives.jpg

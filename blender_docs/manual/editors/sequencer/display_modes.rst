@@ -144,7 +144,7 @@ This mode is good for:
         'Simple' picture. The various horizontal lines in the Luma waveform
         match the uniform-color lines of the picture. Note that the 'grey 20%'
         one-pixel width line (inside the yellow strip) is represented in the Luma waveform by a grey line.
-        The two lines drawing an 'X' are from the two linear tone shades (white-->black and black-->white).
+        The two lines drawing an 'X' are from the two linear tone shades (white --> black and black --> white).
         Finally, the broken line matches the complex tone shade at the bottom of the picture.
 
    - .. figure:: /images/editors_sequencer_view_luma-example2.jpg
