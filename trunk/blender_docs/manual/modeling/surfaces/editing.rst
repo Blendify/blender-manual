@@ -15,7 +15,7 @@ Basic Surface Editing (translation, rotation, scale)
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Surface --> Transform --> Grab/Move, Rotate, Scale, ...`
    | Hotkey:   :kbd:`G` / :kbd:`R` / :kbd:`S`
 
@@ -24,7 +24,7 @@ Once you have a selection of one or more control points,
 you can grab/move (:kbd:`G`), rotate (:kbd:`R`) or scale (:kbd:`S`) them, like many other things in Blender,
 as described in the :doc:`Manipulation in 3D Space </editors/3dview/transform/introduction>` section.
 
-You also have in *Edit* mode an extra option when using these basic manipulations: the
+You also have in *Edit mode* an extra option when using these basic manipulations: the
 :doc:`proportional editing </editors/3dview/transform/transform_control/proportional_edit>`.
 
 
@@ -34,7 +34,7 @@ Advanced Transform Tools
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Surface --> Transform`
 
 
@@ -49,8 +49,8 @@ NURBS Control Points Settings
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
-   | Panel:    *Curve Tools* (*Editing* context), and *Transform Properties*
+   | Mode:     Edit mode
+   | Panel:     Curve Tools (Edit mode) and Transform Properties
 
 
 We saw in a :ref:`previous page <modeling-surfaces-weight>` that NURBS control points have a weight,
@@ -66,7 +66,7 @@ Adding or Extruding
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Surface --> Extrude`
    | Hotkey:   :kbd:`E` (or :kbd:`Ctrl-LMB`)
 
@@ -138,7 +138,7 @@ Opening or Closing a Surface
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Surface --> Toggle Cyclic`
    | Hotkey:   :kbd:`C`
 
@@ -165,7 +165,7 @@ Duplication
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Curve --> Duplicate`
    | Hotkey:   :kbd:`Shift-D`
 
@@ -196,7 +196,7 @@ Deleting Elements
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Curve --> Delete...`
    | Hotkey:   :kbd:`X` or :kbd:`Delete`
 
@@ -241,19 +241,19 @@ Joining or Merging Surfaces
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Surface --> Make Segment`
    | Hotkey:   :kbd:`F`
 
 Just like :ref:`curves <modeling-curves-joining-segments>`,
 merging two surfaces requires that a single edge, a border row of control points,
 from two separate surfaces are selected. This means that the surfaces must be part of the same object. For example,
-you can't join two surfaces while in *Object* mode - but you can of course, as with any objects of the same type,
+you can't join two surfaces while in *Object mode* - but you can of course, as with any objects of the same type,
 join two or more *Surface* objects
 into one object (:kbd:`Ctrl-J`) - they just won't be "linked" or merged in a single one... Yes, it's a bit confusing!
 
 This command is equivalent to creating edges or :kbd:`F` aces for meshes
-(hence its shortcut), and so it only works in *Edit* mode.
+(hence its shortcut), and so it only works in *Edit mode*.
 The selection must contains only border rows of the same resolution
 (with the same number of control points),
 else Blender will try to do its best to guess what to merge with what, or the merge will fail
@@ -262,7 +262,7 @@ different number of points are selected, or that there is ``Too few selections t
 if you only selected points in one surface...).
 To select control points of different surfaces,
 in the same object, you must use either border select or circle select.
-Holding down Ctrl while LMB will not work.
+Holding down :kbd:`Ctrl` while :kbd:`LMB` will not work.
 
 So to avoid problems, you should always only select border rows with the same number of
 points... Note that you can join a border U-row of one surface with a border V-row of another
@@ -277,7 +277,7 @@ Examples
 ^^^^^^^^
 
 (*Joining ready*) is an example of two NURBS surface curves, **not** NURBS curves,
-in *Edit* mode, ready to be joined.
+in *Edit mode*, ready to be joined.
 (*Joining complete*) is the result of joining the two curves.
 
 
@@ -293,8 +293,8 @@ Subdivision
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
-   | Panel:    *Curve Tools1* (*Editing* context)
+   | Mode:     Edit mode
+   | Panel:    Curve Tools
    | Menu:     :menuselection:`SurfaceTools --> Modeling --> Subdivide`, :menuselection:`Specials --> Subdivide`
    | Hotkey:   :menuselection:`[W] --> [pad1]`
 
@@ -316,8 +316,8 @@ Spin
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
-   | Panel:    *Curve Tools1* (*Editing* context)
+   | Mode:     Edit mode
+   | Panel:    Curve Tools
 
 
 This tool is a bit similar to its :doc:`mesh counterpart </modeling/meshes/editing/duplicating/spin>` -
@@ -336,7 +336,7 @@ Switch Direction
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Surface --> Segments --> Switch Direction`,
      :menuselection:`Specials --> Switch Direction`
    | Hotkey:   :menuselection:`[W] --> [pad2]`
@@ -353,8 +353,8 @@ Other Specials Options
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
-   | Menu:     *Specials*
+   | Mode:     Edit mode
+   | Menu:     Specials
    | Hotkey:   :kbd:`W`
 
 
@@ -368,7 +368,7 @@ Conversion
 As there are only NURBS surfaces, there is no "internal" conversion here.
 
 However, there is an "external" conversion available, from surface to mesh,
-that only works in *Object* mode.
+that only works in *Object mode*.
 It transforms a *Surface* object into a *Mesh* one,
 using the surface resolutions in both directions to create faces, edges and vertices.
 
@@ -376,7 +376,7 @@ using the surface resolutions in both directions to create faces, edges and vert
 Misc Editing
 ------------
 
-You have some of the same options as with meshes, or in *Object* mode.
+You have some of the same options as with meshes, or in *Object mode*.
 You can :ref:`separate <object-separate>` a given surface (:kbd:`P`),
 make other selected objects :ref:`children <object-parenting>`
 of one or three control points

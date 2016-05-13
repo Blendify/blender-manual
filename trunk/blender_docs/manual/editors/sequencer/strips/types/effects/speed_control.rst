@@ -23,7 +23,7 @@ Creating a Slow-Motion Effect
 
 Suppose you want to slow your strip down.
 You need to affect the speed of the video clip without affecting the overall frame rate.
-Select the clip and Add-->Effect-->Speed Control effect strip.
+Select the clip and :menuselection:`Add --> Effect --> Speed Control` effect strip.
 Click to drop it and press :kbd:`N` to get the Properties.
 Uncheck the *Stretch to input strip length* option in the Effect Strip section.
 Set the Speed factor to be the factor by which you want to adjust the speed.

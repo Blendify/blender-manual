@@ -158,7 +158,7 @@ a strip, go to
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`Edit--> Duplicate Strips`
+   | Menu:     :menuselection:`Edit --> Duplicate Strips`
 
 
 Now, when any strip is tweaked, the others will change too.
@@ -191,7 +191,7 @@ Strip properties can be accessed via the NLA header.
 .. admonition:: Reference
    :class: refbox
 
-   | Menu:     :menuselection:`View--> Properties`
+   | Menu:     :menuselection:`View --> Properties`
 
 
 Renaming Strips

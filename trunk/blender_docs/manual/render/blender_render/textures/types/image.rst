@@ -123,7 +123,7 @@ or any external image painting program.
    this is all that is required to have textures show up in Blender's Game Engine. Rendering, however,
    requires a material.
    You must have a *Face Textures* material assigned to the mesh for it to render using the UV Texture.
-   In the Material settings, ADD NEW material to a selected object and enable *Face Textures*.
+   In the Material settings, Add New material to a selected object and enable *Face Textures*.
 
 
 Examples
@@ -185,7 +185,7 @@ just create one UV Texture (map) as described in this section. Then,
 create material image textures as described in the procedural materials section.
 Instead of mapping to Original Coordinates (OrCo), map to UV.
 
-Use that map name repeatedly in the Material-->Textures-->Map Input panel by selecting UV and
+Use that map name repeatedly in the :menuselection:`Material --> Textures --> Map Input` panel by selecting :guilabel:`UV` and
 typing the name in the text field. In the example to the right,
 our UV Texture is called "Head" (you may have to expand the image to see the panel settings).
 Then, the image texture shown will be mapped using the UV coordinates.
@@ -299,7 +299,7 @@ Transparent areas of the UV Image show as black.
 
 The top right ball has had a pink vertex color applied to the vertical band of faces
 (in the 3D View window, select the faces in UV Paint mode, switch to Vertex Paint mode,
-pick a pink color, and *Paint-->Set Vertex Colors*).
+pick a pink color, and :menuselection:`Paint --> Set Vertex Colors`).
 The finger is mapped to the middle vertical band of faces,
 and VCol and Face Textures are enabled.
 The texture is mapped to Alpha black and multiplies the base material alpha value which is ``1.0``.
@@ -355,14 +355,14 @@ It provides much more flexibility, because it can be sized and offset, and the d
 it affects the color of your object can be controlled in the Map To panel. In addition,
 you can have different images for each texture channel; one for color, one for alpha,
 one for normals, one for specularity, one for reflectivity, *etc.* Procedural textures,
-like Clouds, are INCREDIBLY simple and useful for adding realism and details to an image.
+like Clouds, are incredibly simple and useful for adding realism and details to an image.
 
 
 .. list-table::
    :header-rows: 1
 
-   * - **UV Texture**
-     - **Procedural Texture**
+   * - UV Texture
+     - Procedural Texture
    * - Image maps to precise coordinates on the selected faces of the mesh
      - Pattern is generated dynamically, and is mapped to the entire mesh (or portion covered by that material)
    * - The Image maps once to a range of mesh faces specifically selected
@@ -528,10 +528,13 @@ In the *Image Sampling* panel we can control how the information is retrieved fr
 
    * - .. figure:: /images/Bahnhofstrasse.jpg
           :width: 120px
+
+          Background image
+
      - .. figure:: /images/Map_To_Eingabewerte.jpg
           :width: 100px
-   * - Background image
-     - Foreground image
+
+          Foreground image
 
 
 The two images presented here are used to demonstrate the different image options.
@@ -545,10 +548,13 @@ the horizontal bar has 50% alpha.
 
    * - .. figure:: /images/UseAlpha.jpg
           :width: 150px
+
+          Foreground image with *Use* alpha. The alpha values of the pixels are evaluated
+
      - .. figure:: /images/CalcAlpha.jpg
           :width: 150px
-   * - Foreground image with *Use* alpha. The alpha values of the pixels are evaluated
-     - Foreground image with *Calculate* alpha
+
+          Foreground image with *Calculate* alpha
 
 
 Alpha
