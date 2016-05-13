@@ -10,8 +10,8 @@ and acceleration, or, you can do it much easier and automatically by taking adva
 Blender Game Engine Physics. Blender now has a feature which allows you to record animation in
 a blender game and turn it into Blender Animation Keyframes.
 
-Animation can be recorded by going Game>Record Animation.
-The animation can them to recorded with :kbd:`Alt-A`
+Animation can be recorded by going :menuselection:`Game --> Record Animation`.
+The animation can them to recorded with :kbd:`Alt A`
 
 
 .. figure:: /images/blocks.jpg

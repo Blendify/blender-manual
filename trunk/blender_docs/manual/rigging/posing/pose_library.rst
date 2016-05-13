@@ -16,7 +16,7 @@ Pose Library Panel
 
 .. figure:: /images/Pose_Library.jpg
 
-   Properties > Armature > Pose Library.
+   :menuselection:`Properties --> Armature --> Pose Library`
 
 
 #. Browse *Action / Pose Library* to be linked.

@@ -28,7 +28,7 @@ This panel is used to add, select, manage *Absolute Keying Sets*.
 
 .. figure:: /images/Keying_Set_Panel.jpg
 
-   Properties > Scene > Keying Set Panel.
+   :menuselection:`Properties --> Scene --> Keying Set Panel`
 
 
 Keying Set Name
@@ -71,12 +71,12 @@ This panel is used to add properties to the active Keying Set.
 
 .. figure:: /images/Keying_Set_Active_Panel.jpg
 
-   Properties > Scene > Active Keying Set Panel.
+   :menuselection:`Properties --> Scene --> Active Keying Set Panel`
 
 
 .. figure:: /images/Keying_Set_Group.jpg
 
-   Properties > Graph Editor > Channels, Named Group.
+   :menuselection:`Properties --> Graph Editor --> Channels, Named Group`
 
 
 Paths
