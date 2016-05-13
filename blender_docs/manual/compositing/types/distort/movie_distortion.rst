@@ -20,8 +20,8 @@ Calculating Distortion
 
 Before using this node, one has to calculate the lens distortion of the clip. This can be done by adjusting
 K1, K2 and K3 values in :menuselection:`Movie Clip Editor --> Properties --> Lens`.
-For more information on how to edit those values, `check this out
-<http://blender.stackexchange.com/questions/15620/how-to-tweak-k1-k2-and-k3-undistortion-values-in-motion-tracking>`_.
+For more information on how to edit those values,
+`check this out <http://blender.stackexchange.com/questions/15620>`__.
 
 
 Input

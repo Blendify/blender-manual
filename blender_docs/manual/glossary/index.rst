@@ -263,9 +263,7 @@ For other common conventions used throughout the manual.
       .. seealso::
 
          - See also `Gimbal lock <https://en.wikipedia.org/wiki/Gimbal_lock>`__ on Wikipedia.
-         - See also `Gimbal lock
-           <https://blender.stackexchange.com/questions/469/could-someone-please-explain-gimbal-lock>`__
-           on Stackexchange.
+         - See also `Gimbal lock <https://blender.stackexchange.com/questions/469>`__ on Stackexchange.
 
 
    Global Illumination
