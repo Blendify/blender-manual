@@ -13,9 +13,11 @@ Welcome to the Blender Manual!
 
 For other languages see:
 (`Chinese <https://www.blender.org/manual/zh.cn/>`__,
-`German <https://www.blender.org/manual/de/>`__,
 `French <https://www.blender.org/manual/fr/>`__,
-`Russian <https://www.blender.org/manual/ru/>`__)
+`German <https://www.blender.org/manual/de/>`__,
+`Portuguese <https://www.blender.org/manual/pt/>`__,
+`Russian <https://www.blender.org/manual/ru/>`__,
+`Spanish <https://www.blender.org/manual/es/>`__)
 (work-in-progress) translations.
 
 
