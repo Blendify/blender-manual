@@ -16,7 +16,7 @@ translation or rotation constraints.
 If the damping on the springs is set to 1, then the spring forces are prevented from realigning the anchor points,
 leading to strange behavior. If your springs are acting weird, check the damping.
 
-Limits:
+Limits
    X Axis/Y Axis/Z axis
       Enables/disables limit translation on X, Y or Z axis respectively.
 
@@ -32,7 +32,7 @@ Limits:
       Upper
          Upper limit of rotation for X, Y or Z axis respectively.
 
-Springs:
+Springs
    X/Y/Z
       Enables/disables springs on X, Y or Z axis respectively.
 
