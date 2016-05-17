@@ -11,7 +11,7 @@ selection or cursor to a given point while the second type is used during transf
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object* and *Edit* modes
+   | Mode:     Object and Edit modes
    | Hotkey:   :kbd:`Shift-S`
 
 

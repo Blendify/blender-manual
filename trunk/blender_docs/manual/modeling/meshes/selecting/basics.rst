@@ -7,7 +7,7 @@ Basic Selection
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Hotkey:   :kbd:`RMB` and :kbd:`Shift-RMB`
 
 
@@ -43,7 +43,7 @@ Selecting Elements in a Region
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Hotkey:   :kbd:`B`, :kbd:`C`, and :kbd:`Ctrl-LMB` click and drag
 
 

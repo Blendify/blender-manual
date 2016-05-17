@@ -10,7 +10,7 @@ Make Edge/Face
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Mesh --> Edges --> Make Edge/Face`
    | Hotkey:   :kbd:`F`
 
@@ -32,7 +32,7 @@ Mark Seam and Clear Seam
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode (*Vertex* or *Edge* select modes)
+   | Mode:     Edit mode (Vertex or Edge select modes)
    | Menu:     :menuselection:`Mesh --> Edges --> Mark Seam/Clear Seam` (or the same options in *Edge Specials* menu)
 
 Seams are a way to create separations, "islands", in UV maps.
@@ -46,7 +46,7 @@ Mark Sharp and Clear Sharp
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode (*Vertex* or *Edge* select modes)
+   | Mode:     Edit mode (Vertex or Edge select modes)
    | Menu:     :menuselection:`Mesh --> Edges --> Mark Seam/Clear Seam` (or the same options in *Edge Specials* menu)
 
 The *Sharp* flag is used by the :doc:`EdgeSplit modifier </modeling/modifiers/generate/edge_split>`,
@@ -60,7 +60,7 @@ Adjust Bevel Weight
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode (*Vertex* or *Edge* select modes)
+   | Mode:     Edit mode (Vertex or Edge select modes)
    | Menu:     :menuselection:`Mesh --> Edges --> Edge Bevel Weight`
 
 
@@ -77,7 +77,7 @@ Crease SubSurf
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode (*Vertex* or *Edge* select modes)
+   | Mode:     Edit mode (Vertex or Edge select modes)
    | Menu:     :menuselection:`Mesh --> Edges --> Crease SubSurf`
    | Hotkey:   :kbd:`Shift-E`
 
@@ -99,7 +99,7 @@ Edge Slide
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode (*Vertex* or *Edge* select modes)
+   | Mode:     Edit mode (Vertex or Edge select modes)
    | Menu:     :menuselection:`Mesh --> Edges --> Slide Edge` (or the same option in *Edge Specials* menu)
    | Hotkey:   :kbd:`G`, :kbd:`G`
 
@@ -220,7 +220,7 @@ Rotate Edge
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode (*Vertex* or *Edge* select modes)
+   | Mode:     Edit mode (Vertex or Edge select modes)
    | Menu:     :menuselection:`Mesh --> Edges --> Rotate Edge CW / Rotate Edge CCW`
 
 
@@ -258,7 +258,7 @@ Delete Edge Loop
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode (*Vertex* or *Edge* select modes)
+   | Mode:     Edit mode (Vertex or Edge select modes)
    | Menu:     :menuselection:`Mesh --> Delete --> Edge Loop`
    | Hotkey:   :kbd:`X` or :kbd:`Delete`, :menuselection:`Edge Loop`
 
@@ -302,7 +302,7 @@ Collapse
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Mesh --> Delete --> Edge Collapse`
    | Hotkey:   :kbd:`Alt-M`, :menuselection:`Collapse`
 
@@ -330,7 +330,7 @@ Edge Split
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Mesh --> Edges --> Edge Split`
 
 
@@ -359,7 +359,7 @@ Bridge Edge Loops
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Mesh --> Edges --> Bridge Edge Loops`
 
 

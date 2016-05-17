@@ -20,7 +20,7 @@ Using Bone Sketching
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Panel:    *Bone Sketching* (*3D View* window)
    | Menu:     :menuselection:`Armature --> Bone Sketching`
    | Hotkey:   :kbd:`P`

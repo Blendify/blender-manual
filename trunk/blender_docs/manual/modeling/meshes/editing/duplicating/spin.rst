@@ -7,7 +7,7 @@ Spin
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Panel:    *Mesh Tools* (*Editing* context)
 
 

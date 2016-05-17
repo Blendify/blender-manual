@@ -7,7 +7,7 @@ Duplicate
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Mesh --> Duplicate`
    | Hotkey:   :kbd:`Shift-D`
 

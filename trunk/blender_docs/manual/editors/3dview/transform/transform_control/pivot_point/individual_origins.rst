@@ -6,7 +6,7 @@ Individual Origins
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object mode* and *Edit mode*
+   | Mode:     Object mode and Edit mode
    | Menu:     Select from the following icon in the 3D window header
 
    .. figure:: /images/Icon-library_3D-Window_header-pivot-point.jpg

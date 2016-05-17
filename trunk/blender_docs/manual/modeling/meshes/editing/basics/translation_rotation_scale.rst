@@ -7,7 +7,7 @@ Translation, Rotation, Scale
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Panel:    *Mesh Tools* (*Editing* context)
    | Menu:     :menuselection:`Mesh --> Transform --> Grab/Move, Rotate, Scale, ...`
    | Hotkey:   :kbd:`G` / :kbd:`R` / :kbd:`S`

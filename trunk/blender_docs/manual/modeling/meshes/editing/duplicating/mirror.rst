@@ -6,7 +6,7 @@ Mirror
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object* and *Edit* modes
+   | Mode:     Object and Edit modes
    | Menu:     :menuselection:`Object/Mesh --> Mirror`
    | Hotkey:   :kbd:`Ctrl-M`
 

@@ -9,7 +9,7 @@ Transform Orientations
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object* and *Edit* modes
+   | Mode:     Object and Edit modes
    | Hotkey:   :kbd:`Alt-Spacebar`
 
 
@@ -170,7 +170,7 @@ Custom Orientations
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object* and *Edit* modes
+   | Mode:     Object and Edit modes
    | Hotkey:   :kbd:`Ctrl-Alt-Spacebar`
 
 

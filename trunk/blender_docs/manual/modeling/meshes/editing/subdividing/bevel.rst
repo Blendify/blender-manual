@@ -7,7 +7,7 @@ Bevel
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Mesh --> Edges --> Bevel` or :menuselection:`[Ctrl][E] --> Bevel`
    | Hotkey:   :kbd:`Ctrl-B` or :menuselection:`[W] --> Bevel`
    | Menu (vertex-only):    :menuselection:`Mesh --> Vertices --> Bevel` or :menuselection:`[Ctrl][V] --> Bevel`

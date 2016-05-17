@@ -58,7 +58,7 @@ Basic Curve Editing (translation, rotation, scale)
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Curve --> Transform --> Grab/Move, Rotate, Scale, ...`
    | Hotkey:   :kbd:`G` / :kbd:`R` / :kbd:`S`
 
@@ -77,7 +77,7 @@ Snapping
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Panel:    *Curve Tools* (*Editing* context)
 
 
@@ -94,7 +94,7 @@ Deforming Tools
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Curve --> Transform`
 
 
@@ -109,7 +109,7 @@ Smoothing
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Hotkey:   :menuselection:`[W][] --> smooth`
 
 Curve smoothing is available through the specials menu. For Bézier curves, this smoothing
@@ -137,7 +137,7 @@ Mirror
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Curve --> Mirror`
    | Hotkey:   :kbd:`Ctrl-M`
 
@@ -152,7 +152,7 @@ Set Bézier Handle Type
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Panel:    :menuselection:`Curve Tools --> Handles`
    | Menu:     :menuselection:`Curve --> Control Points --> Set Handle Type`
    | Hotkey:   :kbd:`V`
@@ -172,7 +172,7 @@ Extending Curves
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Curve --> Extrude`
    | Hotkey:   :kbd:`Ctrl-LMB` or :kbd:`E`
 
@@ -193,7 +193,7 @@ Subdivision
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Panel:    *Curve Tools* (*Editing* context)
    | Menu:     :menuselection:`SurfaceTools --> Modeling --> Subdivide`
    | Hotkey:   :kbd:`W`
@@ -211,7 +211,7 @@ Duplication
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Curve --> Duplicate`
    | Hotkey:   :kbd:`Shift-D`
 
@@ -229,7 +229,7 @@ Joining Curve Segments
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Curve --> Make Segment`
    | Hotkey:   :kbd:`F`
 
@@ -256,7 +256,7 @@ Separating Curves
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Curve --> Separate`
    | Hotkey:   :kbd:`P`
 
@@ -273,7 +273,7 @@ Deleting Elements
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Curve --> Delete...`
    | Hotkey:   :kbd:`X` or :kbd:`Delete`
 
@@ -314,7 +314,7 @@ Opening and Closing a Curve
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Curve --> Toggle Cyclic`
    | Hotkey:   :kbd:`Alt-C`
 
@@ -347,7 +347,7 @@ Switch Direction
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Curve --> Segments --> Switch Direction`,
      :menuselection:`Specials --> Switch Direction`
    | Hotkey:   :menuselection:`[W] --> [pad2]`
@@ -367,7 +367,7 @@ Converting Curve Type
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Panel:    Curve Tools --> Set Spline type
 
 
@@ -391,7 +391,7 @@ Convert Curve to Mesh
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object* mode
+   | Mode:     Object mode
    | Menu:     :menuselection:`Object --> Convert to --> Mesh From Curve/Meta/Surface/Text`
    | Hotkey:   :kbd:`Alt-C`
 
@@ -407,7 +407,7 @@ Convert Mesh to Curve
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object* mode
+   | Mode:     Object mode
    | Menu:     :menuselection:`Object --> Convert to --> Curve From Mesh/Text`
    | Hotkey:   :kbd:`Alt-C`
 
@@ -423,7 +423,7 @@ Curve Parenting
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Hotkey:   :kbd:`Ctrl-P`
 
 
@@ -444,7 +444,7 @@ Hooks
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Curve --> control points --> hooks`
    | Hotkey:   :kbd:`Ctrl-H`
 
@@ -460,7 +460,7 @@ Set Goal Weight
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`W --> Set Goal Weight`
 
 

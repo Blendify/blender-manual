@@ -23,7 +23,7 @@ Motion Paths
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object* mode
+   | Mode:     Object mode
    | Panel:    *Object*
 
 

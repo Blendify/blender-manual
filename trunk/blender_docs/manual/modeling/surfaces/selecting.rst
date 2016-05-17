@@ -34,7 +34,7 @@ Control Point Row
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Select --> Control Point Row`
    | Hotkey:   :kbd:`Shift-R`
 
@@ -54,7 +54,7 @@ More and Less
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Select --> More/Less`
    | Hotkey:   :kbd:`Ctrl-NumpadPlus` / :kbd:`Ctrl-NumpadMinus`
 

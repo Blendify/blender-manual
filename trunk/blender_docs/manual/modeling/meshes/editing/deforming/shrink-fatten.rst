@@ -6,7 +6,7 @@ Shrink/Fatten Along Normals
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Panel:    *Mesh Tools* (*Editing* context)
    | Menu:     :menuselection:`Mesh --> Transform --> Shrink/Fatten Along Normals`
    | Hotkey:   :kbd:`Alt-S`

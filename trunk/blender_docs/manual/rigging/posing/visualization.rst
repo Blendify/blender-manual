@@ -118,7 +118,7 @@ Ghosts
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Pose* mode
+   | Mode:     Pose mode
    | Panel:    *Visualisations*
 
 
@@ -205,7 +205,7 @@ Motion Paths
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Pose* mode
+   | Mode:     Pose mode
    | Panel:    *Visualisations*
    | Menu:     :menuselection:`Pose --> Motion Paths --> ...`
    | Hotkey:   :kbd:`W-3`, :kbd:`W-4`

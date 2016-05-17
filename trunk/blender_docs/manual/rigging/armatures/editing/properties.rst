@@ -47,7 +47,7 @@ Radius and Scaling in Envelope Visualization
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit mode*, *Envelope* visualization
+   | Mode:     Edit mode, Envelope visualization
    | Menu:     :menuselection:`Armature --> Transform --> Scale`
    | Hotkey:   :kbd:`S`
 
@@ -95,7 +95,7 @@ ScaleB and Envelope
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit mode*
+   | Mode:     Edit mode
    | Hotkey:   :kbd:`Ctrl-Alt-S`
 
 
@@ -160,7 +160,7 @@ Bone Direction
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Specials --> Switch Direction`
    | Hotkey:   :kbd:`W-3`
 
@@ -208,7 +208,7 @@ Set Bone Roll
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Armature --> Bone Roll --> Set`
    | Hotkey:   :kbd:`Ctrl-R`
 
@@ -221,7 +221,7 @@ Recalculate Bone Roll
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Armature --> Bone Roll --> Recalculate`
    | Hotkey:   :kbd:`Ctrl-N`
 
@@ -251,7 +251,7 @@ Properties
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Panel:    *Armature Bones* (*Editing* context)
    | Menu:     :menuselection:`Armature --> Bone Settings --> ...`
    | Hotkey:   :kbd:`Shift-W`, :kbd:`Ctrl-Shift-W`, :kbd:`Alt-W`
@@ -311,7 +311,7 @@ Bone Rigidity
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* and *Pose* modes
+   | Mode:     Edit and Pose modes
    | Panel:    *Armature Bones* (*Editing* context)
 
 
@@ -373,7 +373,7 @@ Chain Editing
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Panel:    *Armature Bones* (*Editing* context)
    | Menu:     :menuselection:`Armature --> Parent --> ...`
    | Hotkey:   :kbd:`Ctrl-P`, :kbd:`Alt-P`
@@ -452,7 +452,7 @@ Naming Bones
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Panel:    *Armature Bones* (*Editing* context), *Transform Properties* (3D views, :kbd:`N`)
 
 
@@ -517,7 +517,7 @@ Bone name flipping
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Armature --> Flip Left & Right Names`
    | Hotkey:   :kbd:`W-4`
 
@@ -538,7 +538,7 @@ Auto bone naming
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Armature --> AutoName Left-Right`,
      :menuselection:`Armature --> AutoName Front-Back`, :menuselection:`Armature --> AutoName Top-Bottom`
    | Hotkey:   :kbd:`W-5`, :kbd:`W-6`, :kbd:`W-7`

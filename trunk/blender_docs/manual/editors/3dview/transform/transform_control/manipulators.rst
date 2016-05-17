@@ -6,7 +6,7 @@ Manipulators
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object* and *Edit* modes
+   | Mode:     Object and Edit modes
    | Hotkey:   :kbd:`Ctrl-Spacebar`
 
 
@@ -78,7 +78,7 @@ Choosing the Transform Orientation
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object* and *Edit* modes
+   | Mode:     Object and Edit modes
    | Hotkey:   :kbd:`Alt-Spacebar`
 
 
