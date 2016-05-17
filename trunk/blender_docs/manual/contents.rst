@@ -5,20 +5,20 @@
 
 Welcome to the Blender Manual!
 
+This is the manual for the 3D animation software from `Blender.org <https://www.blender.org>`__.
 
 .. only:: html
 
-   This site can be downloaded for offline use:
-   `Download the full manual (zipped HTML files) <blender_manual.zip>`__
-
-For other languages see:
-(`Chinese <https://www.blender.org/manual/zh.cn/>`__,
-`French <https://www.blender.org/manual/fr/>`__,
-`German <https://www.blender.org/manual/de/>`__,
-`Portuguese <https://www.blender.org/manual/pt/>`__,
-`Russian <https://www.blender.org/manual/ru/>`__,
-`Spanish <https://www.blender.org/manual/es/>`__)
-(work-in-progress) translations.
+   - This site can be downloaded for offline use:
+     `Download the full manual (zipped HTML files) <blender_manual.zip>`__
+   - Other languages:
+     `En <https://www.blender.org/manual/>`__ | 
+     `De <https://www.blender.org/manual/de/>`__ | 
+     `Es <https://www.blender.org/manual/es/>`__ | 
+     `Fr <https://www.blender.org/manual/fr/>`__ | 
+     `Pt <https://www.blender.org/manual/pt/>`__ | 
+     `Ru <https://www.blender.org/manual/ru/>`__ | 
+     `Zh <https://www.blender.org/manual/zh.cn/>`__
 
 
 Getting Started
