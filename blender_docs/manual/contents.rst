@@ -9,16 +9,19 @@ This is the manual for the 3D animation software from `Blender.org <https://www.
 
 .. only:: html
 
+   .. |v_sep| unicode:: U+02758
+      :trim:
+
+   - Other languages:
+     `En <https://www.blender.org/manual/>`__ |v_sep|
+     `De <https://www.blender.org/manual/de/>`__ |v_sep|
+     `Es <https://www.blender.org/manual/es/>`__ |v_sep|
+     `Fr <https://www.blender.org/manual/fr/>`__ |v_sep|
+     `Pt <https://www.blender.org/manual/pt/>`__ |v_sep|
+     `Ru <https://www.blender.org/manual/ru/>`__ |v_sep|
+     `Zh <https://www.blender.org/manual/zh.cn/>`__
    - This site can be downloaded for offline use:
      `Download the full manual (zipped HTML files) <blender_manual.zip>`__
-   - Other languages:
-     `En <https://www.blender.org/manual/>`__ | 
-     `De <https://www.blender.org/manual/de/>`__ | 
-     `Es <https://www.blender.org/manual/es/>`__ | 
-     `Fr <https://www.blender.org/manual/fr/>`__ | 
-     `Pt <https://www.blender.org/manual/pt/>`__ | 
-     `Ru <https://www.blender.org/manual/ru/>`__ | 
-     `Zh <https://www.blender.org/manual/zh.cn/>`__
 
 
 Getting Started
