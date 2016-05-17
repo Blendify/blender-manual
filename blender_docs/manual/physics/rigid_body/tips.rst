@@ -64,8 +64,8 @@ Simply click on *Collision* in the *Physics* context.
 Scaling Rigid Bodies
 ====================
 
-Rigid body objects can be scaled, also during the simulation. This work well in most cases, but can sometimes cause
-problems.
+Rigid body objects can be scaled, also during the simulation.
+This work well in most cases, but can sometimes cause problems.
 
 If dynamic scaling is not needed, rigid body objects should have the scale applied by using the *Apply Scale* command
 (:kbd:`Ctrl-A`).

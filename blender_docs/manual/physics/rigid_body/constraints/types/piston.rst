@@ -8,18 +8,18 @@ It also allows rotation around the X axis of the constraint object.
 It's like a combination of the freedoms of a slider with the freedoms of a hinge
 (neither of which is very free alone).
 
-*Limits*:
-   *X Axis*
+Limits
+   X Axis
       Enables/disables limit translation around X axis.
 
-      *Lower*
+      Lower
          Lower limit of X axis translation.
-      *Upper*
+      Upper
          Upper limit of X axis translation.
-   *X Angle*
+   X Angle
       Enables/disables limit rotation around X axis.
 
-      *Lower*
+      Lower
          Lower limit of X axis rotation.
-      *Upper*
+      Upper
          Upper limit of X axis rotation.

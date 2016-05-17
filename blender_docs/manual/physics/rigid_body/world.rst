@@ -18,29 +18,29 @@ You can be create several Rigid Body World groups and allocate there yours Rigid
 Rigid body objects and constraints are only taken into account by the simulation if they are in the groups specified
 in *Group* field of the *Rigid Body World* panel in the *Scene* context.
 
-*Rigid Body World* checkbox
+Rigid Body World
    Enable/disable evaluation of the Rigid Body simulation based on the rigid body objects
    participating in the specified group of Rigid Body World.
-*Remove Rigid Body World* button
+Remove Rigid Body World
    Remove Rigid Body simulation from the current scene.
-*Group*
+Group
    Containing rigid body objects participating in this simulation.
-*Constraints*
+Constraints
    Containing rigid body object constraints participating in the simulation.
 
 Simulation quality and timing settings:
 
-*Speed*
+Speed
    Can be used to speed up/slow down the simulation.
-*Split Impulse*
+Split Impulse
    Enable/disable reducing extra velocity that can build up when objects collide (lowers simulation stability a little
    so use only when necessary).
    Limits the force with which objects are separated on collision, generally produces nicer
    results, but makes the simulation less stable (especially when stacking many objects).
-*Steps Per Second*
+Steps Per Second
    Number of simulation steps made per second (higher values are more accurate but slower). This only influences the
    accuracy and not the speed of the simulation.
-*Solver Iterations*
+Solver Iterations
    Amount of constraint solver iterations made per simulation step (higher values are more accurate but slower).
    Increasing this makes constraints and object stacking more stable.
 
@@ -52,22 +52,23 @@ Rigid Body Cache panel.
 
 Specifies the frame range in which the simulation is active. Can be used to bake the simulation.
 
-*Start*/*End*
+Start/End
    First and last frame of the simulation.
-*Bake*
+Bake
    Calculates the simulation and protects the cache. You need to be in *Object* mode to bake.
 
-   *Free Bake*
+   Free Bake
       Active after the baking of simulation. Clears the baked cache.
-*Calculate to Frame*
+
+Calculate to Frame
    Bake physics to current frame.
-*Current Cache to Bake*
+Current Cache to Bake
    Bake from Cache.
-*Bake All Dynamics*
+Bake All Dynamics
    Bake all physics.
-*Free All Bakes*
+Free All Bakes
    Free all baked caches of all objects in the current scene.
-*Update All To Frame*
+Update All To Frame
    Update cache to current frame.
 
 If you haven’t saved the blend-file, the cache is created in memory,

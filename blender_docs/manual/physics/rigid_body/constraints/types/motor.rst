@@ -21,7 +21,7 @@ special care must be taken to align the axes.
 Without proper alignment, the motor will appear to have no effect
 (because the hinge is preventing the motion of the motor).
 
-Linear motor/Angular motor:
+Linear motor/Angular motor
    Enable
       Enable linear or angular motor respectively.
 
