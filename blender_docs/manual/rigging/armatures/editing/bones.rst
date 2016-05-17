@@ -6,7 +6,7 @@ Editing Bones
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit mode*
+   | Mode:     Edit mode
    | Hotkey:   :kbd:`Tab`
 
 
@@ -33,7 +33,7 @@ Add Menu
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit mode*
+   | Mode:     Edit mode
    | Hotkey:   :kbd:`Shift-A`
 
 
@@ -54,7 +54,7 @@ Extrusion
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit mode*
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Armature --> Extrude`
    | Hotkey:   :kbd:`E`, :kbd:`Shift-E`
 
@@ -129,7 +129,7 @@ Mouse Clicks
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit mode*
+   | Mode:     Edit mode
    | Hotkey:   :kbd:`Ctrl-LMB`
 
 
@@ -212,7 +212,7 @@ Fill between joints
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit mode*
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Armature --> Fill Between Joints`
    | Hotkey:   :kbd:`F`
 
@@ -318,7 +318,7 @@ Duplication
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit mode*
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Armature --> Duplicate`
    | Hotkey:   :kbd:`Shift-D`
 
@@ -373,7 +373,7 @@ Standard deletion
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit mode*
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Armature --> Delete`
    | Hotkey:   :kbd:`X`
 
@@ -413,7 +413,7 @@ Merge
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit mode*
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Armature --> Merge`
    | Hotkey:   :kbd:`Alt-M`
 
@@ -466,7 +466,7 @@ Subdividing Bones
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit mode*
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Armature --> Subdivide`, :menuselection:`Armature --> Subdivide Multi`
    | Hotkey:   :kbd:`W-1`, :kbd:`W-2`
 

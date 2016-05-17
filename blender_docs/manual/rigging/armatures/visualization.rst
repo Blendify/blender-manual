@@ -34,7 +34,7 @@ Display Panel
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object*, *Edit* and *Pose* modes
+   | Mode:     Object, Edit and Pose modes
    | Panel:    *Display* *Object Data* context
 
 
@@ -113,7 +113,7 @@ Shaped Bones
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object* and *Pose* modes
+   | Mode:     Object and Pose modes
    | Panel:    *Display* panel from *Bone* context.
 
 
@@ -200,7 +200,7 @@ Armature Layers
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object*, *Edit* and *Pose* modes
+   | Mode:     Object, Edit and Pose modes
    | Panel:    *Skeleton* panel, *Object data* context
 
 
@@ -248,7 +248,7 @@ Bone Layers
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object*, *Edit* and *Pose* modes
+   | Mode:     Object, Edit and Pose modes
    | Panel:    *Relations* panel *Bone* context
 
 
@@ -281,7 +281,7 @@ Hiding Bones
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* and *Pose* modes
+   | Mode:     Edit and Pose modes
    | Panel:    *Display* panel, *Bone* context
 
 

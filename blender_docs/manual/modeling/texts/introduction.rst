@@ -12,7 +12,7 @@ Introduction
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode (*Text*)
+   | Mode:     Edit mode (Text)
    | Panel:    *Curve and Surface*, *Font* and *Char* (*Editing* context)
    | Menu:     :menuselection:`Add --> Text`
 
@@ -70,7 +70,7 @@ Editing Text
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Hotkey:   see below
 
 
@@ -132,7 +132,7 @@ Special Characters
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Text --> Special Characters`
 
 If you need special characters (such as accented chars, which aren't on your keyboard)
@@ -229,7 +229,7 @@ Fonts
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Panel:    *Font* (*Editing* context)
 
 
@@ -467,7 +467,7 @@ Shape
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object* or *Edit* modes
+   | Mode:     Object or Edit modes
    | Panel:    *Curve and Surface* (*Editing* context)
 
 

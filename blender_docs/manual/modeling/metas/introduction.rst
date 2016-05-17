@@ -6,7 +6,7 @@ Introduction
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object* or *Edit* modes
+   | Mode:     Object or Edit modes
    | Menu:     :menuselection:`Add --> Meta`
    | Hotkey:   :kbd:`Shift-A`
 
@@ -129,7 +129,7 @@ Threshold (Influence)
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object* or *Edit* modes
+   | Mode:     Object or Edit modes
    | Panel:    *MetaBall* (*Editing* context)
 
 
@@ -207,7 +207,7 @@ Underlying Structure
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Panel:    *MetaBall tools* (*Editing* context), *Transform Properties*
 
 

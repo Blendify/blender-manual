@@ -47,7 +47,7 @@ Checker Deselect
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Select --> Checker Deselect`
    | Hotkey:   None
 
@@ -71,7 +71,7 @@ Select/Deselect First/Last
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Select --> Select/Deselect First`, :menuselection:`Select --> Select/Deselect Last`
    | Hotkey:   None
 
@@ -87,7 +87,7 @@ Select Next/Previous
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Select --> Select Next`, :menuselection:`Select --> Select Previous`
    | Hotkey:   None
 
@@ -103,7 +103,7 @@ Select More / Less
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Select --> More/Less`
    | Hotkey:   :kbd:`Ctrl-NumpadPlus` / :kbd:`Ctrl-NumpadMinus`
 

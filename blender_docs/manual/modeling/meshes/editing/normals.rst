@@ -33,7 +33,7 @@ Flip Direction
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Mesh --> Normals --> Flip` or :menuselection:`Specials --> Flip Normals`
    | Hotkey:   :kbd:`W`, :menuselection:`Flip Normals`
 
@@ -49,7 +49,7 @@ Recalculate Normals
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Mesh --> Normals --> Recalculate Outside` and
      :menuselection:`Mesh --> Normals --> RecalculateInside`
    | Hotkey:   :kbd:`Ctrl-N` and :kbd:`Ctrl-Shift-N`

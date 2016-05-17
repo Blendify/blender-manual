@@ -17,7 +17,7 @@ Transform Properties Panel
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* and *Object* modes
+   | Mode:     Edit and Object modes
    | Menu:     :menuselection:`Object --> Transform Properties`
    | Hotkey:   :kbd:`N`
 

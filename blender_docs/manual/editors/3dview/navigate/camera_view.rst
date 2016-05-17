@@ -43,7 +43,7 @@ Move Active Camera to View
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object* mode
+   | Mode:     Object mode
    | Hotkey:   :kbd:`Ctrl-Alt-Numpad0`
 
 

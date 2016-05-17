@@ -23,7 +23,7 @@ Object mode
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object mode*
+   | Mode:     Object mode
    | Menu:     Via the icon in the header indicated by the yellow square in the below image.
 
    .. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-proportional-edit-header-icon.jpg
@@ -52,7 +52,7 @@ Edit mode
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit mode*
+   | Mode:     Edit mode
    | Menu:     :menuselection:`Mesh --> Proportional Editing` and via the highlighted icon in the below image
 
 

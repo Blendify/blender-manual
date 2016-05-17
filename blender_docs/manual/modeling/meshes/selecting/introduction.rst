@@ -55,7 +55,7 @@ Select Mode Pop-up
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Edit* mode
+   | Mode:     Edit mode
    | Hotkey:   :kbd:`Ctrl-Tab`
 
 

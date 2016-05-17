@@ -6,7 +6,7 @@ Curve Extrusion
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object* or *Edit* mode
+   | Mode:     Object or Edit mode
    | Panel:    *Curve and Surface*
 
 

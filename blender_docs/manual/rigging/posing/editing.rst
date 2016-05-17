@@ -152,7 +152,7 @@ Copy/Paste Pose
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Pose* mode
+   | Mode:     Pose mode
    | Panel:    *3D View* header
    | Menu:     :menuselection:`Pose --> Copy Current Pose`,
      :menuselection:`Pose --> Paste Pose`, :menuselection:`Pose --> Paste Flipped Pose`

@@ -6,7 +6,7 @@ Properties
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object mode*, *Edit mode* and *Pose mode*
+   | Mode:     Object mode, Edit mode and Pose mode
    | Panel:    All in *Properties* window, *Object data* property
 
 

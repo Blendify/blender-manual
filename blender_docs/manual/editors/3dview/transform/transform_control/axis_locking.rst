@@ -34,7 +34,7 @@ Axis locking
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object* and *Edit* modes (translate, rotate, scale, extrude)
+   | Mode:     Object and Edit modes (translate, rotate, scale, extrude)
    | Hotkey:   :kbd:`X`, :kbd:`Y`, :kbd:`Z` or :kbd:`MMB` after moving the mouse in the desired direction.
 
 
@@ -49,7 +49,7 @@ Plane locking
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object* and *Edit* modes (translate, scale)
+   | Mode:     Object and Edit modes (translate, scale)
    | Hotkey:   :kbd:`Shift-X`, :kbd:`Shift-Y`, :kbd:`Shift-Z` or :kbd:`Shift-MMB`
    | after moving the mouse in the desired direction.
 

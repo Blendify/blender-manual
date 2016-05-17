@@ -8,7 +8,7 @@
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     *Object mode* and *Edit mode*
+   | Mode:     Object mode and Edit mode
    | Menu:     Droplist in the header of the 3D view
 
 
