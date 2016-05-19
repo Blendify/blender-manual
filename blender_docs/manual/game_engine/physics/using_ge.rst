@@ -11,19 +11,18 @@ Blender Game Engine Physics. Blender now has a feature which allows you to recor
 a blender game and turn it into Blender Animation Keyframes.
 
 Animation can be recorded by going :menuselection:`Game --> Record Animation`.
-The animation can them to recorded with :kbd:`Alt A`
-
+The animation can them to recorded with :kbd:`Alt-A`
 
 .. figure:: /images/blocks.jpg
    :width: 640px
 
-   Some Blocks about to fall
+   Some Blocks about to fall.
 
 
 .. figure:: /images/blocks2.jpg
    :width: 640px
 
-   A Pile
+   A Pile.
 
 
 If you just want a static pile of stuff, you can move to the last frame,

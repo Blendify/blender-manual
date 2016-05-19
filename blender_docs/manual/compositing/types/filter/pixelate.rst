@@ -16,7 +16,7 @@ node to get a pixelated (non-smoothed) image from the resultant upscaled image.
 Example
 =======
 
-In the node editor, set the node tree to compositing in the menu bar and check the 'Use Nodes' checkbox.
+In the node editor, set the node tree to compositing in the menu bar and check the *Use Nodes* checkbox.
 Add an input Image node and an output Viewer node.
 Connect the Input node to the viewer node and check the 'Backdrop' checkbox in the menu bar.
 Open an image you would like to pixelate using the open button on the image node.
@@ -29,7 +29,7 @@ Now add a Pixelate node between the two scale nodes.
 
 .. note:: 
 
-   You can use :kbd:`Alt V` and :kbd:`V` to zoom the backdrop in and out respectively.
+   You can use :kbd:`Alt-V` and :kbd:`V` to zoom the backdrop in and out respectively.
 
 
 .. figure:: /images/composite_node_filter_pixelate.png
