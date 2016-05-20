@@ -55,7 +55,7 @@ endif
 $(CHAPTERS): $(.DEFAULT_GOAL)
 
 
-html: FORCE
+html: .FORCE
 	# './' (input), './html/' (output)
 	QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
 	$(SPHINXBUILD) -b html $(SPHINXOPTS) ./manual "$(BUILDDIR)/html"
@@ -63,7 +63,7 @@ html: FORCE
 	@echo "To view, run:"
 	@echo "  "$(OPEN_CMD) $(shell pwd)"/$(BUILDDIR)/html/$(CONTENTS_HTML)"
 
-singlehtml: FORCE
+singlehtml: .FORCE
 	# './' (input), './html/' (output)
 	QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
 	$(SPHINXBUILD) -b singlehtml $(SPHINXOPTS) ./manual "$(BUILDDIR)/singlehtml"
@@ -71,22 +71,22 @@ singlehtml: FORCE
 	@echo "To view, run:"
 	@echo "  "$(OPEN_CMD) $(shell pwd)"/$(BUILDDIR)/singlehtml/$(CONTENTS_HTML)"
 
-pdf: FORCE
+pdf: .FORCE
 	QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
 	sphinx-build -b latex ./manual "$(BUILDDIR)/latex"
 	make -C "$(BUILDDIR)/latex" LATEXOPTS="-interaction nonstopmode"
 	@echo "  "$(OPEN_CMD)" $(BUILDDIR)/latex/blender_manual.pdf"
 
-readme: FORCE
+readme: .FORCE
 	rst2html readme.rst > readme.html
 
-check_syntax: FORCE
+check_syntax: .FORCE
 	- python3 tools/rst_check_syntax.py --long > rst_check_syntax.log
 	- @echo "Lines:" `cat rst_check.log  | wc -l`
 	- gvim --nofork -c "cfile rst_check_syntax.log" -c "cope" -c "clast"
 	- rm rst_check_syntax.log
 
-check_structure: FORCE
+check_structure: .FORCE
 	- python3 tools/rst_check_structure.py --image --locale
 
 #	- python3 tools/rst_check_structure.py --image > rst_check_structure.log
@@ -94,17 +94,17 @@ check_structure: FORCE
 #	- gvim --nofork -c "cfile rst_check_structure.log" -c "cope" -c "clast"
 #	- rm rst_check_structure.log
 
-clean: FORCE
+clean: .FORCE
 	rm -rf "$(BUILDDIR)/html" "$(BUILDDIR)/singlehtml" "$(BUILDDIR)/latex" "$(BUILDDIR)/locale"
 
-update_po: FORCE
+update_po: .FORCE
 	- ./tools/maintenance/update_po.sh
 
-report_po_progress: FORCE
+report_po_progress: .FORCE
 	- python3 tools/report_translation_progress.py --quiet \
 	          `find locale/ -maxdepth 1 -mindepth 1 -type d -not -iwholename '*.svn*' -printf 'locale/%f\n' | sort`
 
-gettext: FORCE
+gettext: .FORCE
 	$(SPHINXBUILD) -b gettext $(I18NSPHINXOPTS) $(BUILDDIR)/locale
 	@echo
 	@echo "Build finished. The message catalogs are in $(BUILDDIR)/locale."
@@ -145,4 +145,5 @@ help:
 	@echo ""
 	@echo "- update_po              - Update the PO translations files from the RST source."
 	@echo "- report_po_progress     - Report progress on each languages translations."
-FORCE:
+
+.FORCE:
