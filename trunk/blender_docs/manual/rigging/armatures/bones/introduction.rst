@@ -4,6 +4,7 @@ Introduction
 ************
 
 .. figure:: /images/RiggingBonePrinciples3DViewEditModeOctahedron.jpg
+   :align: right
    :width: 100px
 
    The elements of a bone.

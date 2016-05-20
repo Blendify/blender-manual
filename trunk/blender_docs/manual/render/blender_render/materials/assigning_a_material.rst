@@ -30,20 +30,18 @@ You can create a new material for the object by
 
 The Shading context window then appears. This contains the following elements:
 
-
 .. figure:: /images/materials_creating.jpg
 
-   Add new material
+   Add new material.
 
 
-   - Context - The currently-selected scene and object
-   - Object Material Slots (3) - this window shows the "slots"
-     for the material (or materials) that this object data contains.
-   - Active Material (2). Initially empty, asking for "New".
+- Context - The currently-selected scene and object
+- Object Material Slots (3) - this window shows the "slots"
+  for the material (or materials) that this object data contains.
+- Active Material (2). Initially empty, asking for "New".
 
 To add a new material, click "+" in the Active Material box.
 This action has a series of effects:
-
 
 .. figure:: /images/materials_new.jpg
 
@@ -65,8 +63,7 @@ New Material Panel Buttons
 Details of the additional buttons which appear in the Material panel for a new Active
 Material are as follows:
 
-**Active Material**
-
+.. rubric:: Active Material
 
 .. figure:: /images/icons_material-dropdown.jpg
 
@@ -94,7 +91,7 @@ X
    not its function (e.g. "Yellow Painted" rather than "Kitchen Table Color")
 
 
-**Nodes**
+.. rubric:: Nodes
 
 .. figure:: /images/icons_node.jpg
 
@@ -109,22 +106,22 @@ Data
    Link material to object or to object's data
 
 
-   The Link pop-up menu has two choices, Data and Object.
-   These two menu choices determine whether the material is linked to the object or to the data,
-   (in this case) the mesh (or curve, nurbs, etc.).
-   The Data menu item determines that this material will be linked to the mesh's
-   data-block which is linked to the object's data-block.
-   The Object menu item determines that the material will be linked to the object's data block directly.
-   This has consequences of course. For example, different objects may share the same mesh data-block.
-   Since this data-block defines the shape of the object,
-   any change in edit mode will be reflected on all of those objects.
-   Moreover, anything linked to that mesh data-block will be shared by every object that shares that mesh.
-   So, if the material is linked to the mesh, every object will share it.
-   On the other hand, if the material is linked directly to the object data-block,
-   the objects can have different materials and still share the same mesh.
-   Short explanation: If connected to the object,
-   you can have several instances of the same obData using different materials.
-   If linked to mesh data, you can't. See :doc:`Data System </data_system/introduction>` for more information.
+The Link pop-up menu has two choices, Data and Object.
+These two menu choices determine whether the material is linked to the object or to the data,
+(in this case) the mesh (or curve, nurbs, etc.).
+The Data menu item determines that this material will be linked to the mesh's
+data-block which is linked to the object's data-block.
+The Object menu item determines that the material will be linked to the object's data block directly.
+This has consequences of course. For example, different objects may share the same mesh data-block.
+Since this data-block defines the shape of the object,
+any change in edit mode will be reflected on all of those objects.
+Moreover, anything linked to that mesh data-block will be shared by every object that shares that mesh.
+So, if the material is linked to the mesh, every object will share it.
+On the other hand, if the material is linked directly to the object data-block,
+the objects can have different materials and still share the same mesh.
+Short explanation: If connected to the object,
+you can have several instances of the same obData using different materials.
+If linked to mesh data, you can't. See :doc:`Data System </data_system/introduction>` for more information.
 
 
 Object Render Format (menu)
@@ -139,24 +136,24 @@ Halos
    Material applied to halos around each object vertex.
 
 
-.. figure:: /images/materials_render_surface.jpg
+.. list-table::
 
-   Surface
+   * - .. figure:: /images/materials_render_surface.jpg
+
+          Surface.
+
+     - .. figure:: /images/materials_render_wire.jpg
+
+          Wire.
+
+   * - .. figure:: /images/materials_render_volume.jpg
+
+          Volume.
 
 
-.. figure:: /images/materials_render_wire.jpg
+     - .. figure:: /images/materials_render_halo.jpg
 
-   Wire
-
-
-.. figure:: /images/materials_render_volume.jpg
-
-   Volume
-
-
-.. figure:: /images/materials_render_halo.jpg
-
-   Halo
+          Halo.
 
 
 Reusing Existing Materials
