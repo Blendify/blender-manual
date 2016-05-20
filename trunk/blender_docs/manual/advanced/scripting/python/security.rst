@@ -46,8 +46,8 @@ but you should be aware
 that this is the case since it's not necessarily obvious.
 
 
-- Running a script in the text editor *(ok, this is obvious!)*.
-- Rendering with FreeStyle - *FreeStyle uses scripts to control line styles*
+- Running a script in the text editor.
+- Rendering with FreeStyle, because FreeStyle uses scripts to control line styles.
 - Running the Game-Engine.
 
 

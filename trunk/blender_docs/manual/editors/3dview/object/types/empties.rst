@@ -57,18 +57,18 @@ Usage and functions
 Empties can serve as transform handles which cannot be edited and do not render.
 Empties are important and useful objects. Some examples of ways to use them include:
 
-*Parent object for a group of objects*
+.. rubric:: Parent object for a group of objects
 
 - An Empty can be parented to any number of other objects -
   This gives the user the ability to control a group of objects easily, and without affecting a render.
 
-*Target for constraints*
+.. rubric:: Target for constraints
 
 - An empty can also be used as a target for normal, or bone constraints.
 - This gives the user far more control; for instance,
   a rig can easily be set up to enable a camera to point towards an empty using the **Track to** constraint
 
-*Array offset*
+.. rubric:: Array offset
 
 - An empty can be used to offset an array modifier,
   meaning complex deformations can be achieved by only moving a single object.
@@ -87,7 +87,7 @@ Empties are important and useful objects. Some examples of ways to use them incl
           An example of an empty being used to control the track to constraint
 
 
-*Other common uses.*
+.. rubric:: Other common uses.
 
 - Placeholders
 - Rigging controls

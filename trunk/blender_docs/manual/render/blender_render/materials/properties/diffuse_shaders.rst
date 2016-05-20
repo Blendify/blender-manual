@@ -7,7 +7,7 @@ Diffuse Shaders
    :class: refbox
 
    | Mode:     All Modes
-   | Panel:    Shading/Material Context --> Diffuse
+   | Panel:    :menuselection:`Shading/Material --> Diffuse`
 
 
 A diffuse shader determines, simply speaking,
@@ -41,7 +41,7 @@ surface point no matter what the *incident viewing angle* is.
 It is this quality that makes diffuse light *viewpoint independent*. Of course,
 the amount of light that strikes the surface depends on the incident light angle.
 If most of the light striking a surface is reflected diffusely, the surface will have a matte appearance
-(*Light re-irradiated in the diffusion phenomenon.*).
+(Light re-irradiated in the diffusion phenomenon).
 
 .. figure:: /images/MatGen02.jpg
 
@@ -61,7 +61,7 @@ Lambert
    :class: refbox
 
    | Mode:     All Modes
-   | Panel:    Shading/Material Context --> Shaders
+   | Panel:    :menuselection:`Shading/Material --> Shaders`
 
 
 .. figure:: /images/material-shader-lambert.jpg
@@ -95,7 +95,7 @@ Oren-Nayar
    :class: refbox
 
    | Mode:     All Modes
-   | Panel:    Shading/Material Context --> Shaders
+   | Panel:    :menuselection:`Shading/Material --> Shaders`
 
 
 .. figure:: /images/material-shader-oren-nayar.jpg
@@ -134,7 +134,7 @@ Toon
    :class: refbox
 
    | Mode:     All Modes
-   | Panel:    Shading/Material Context --> Shaders
+   | Panel:    :menuselection:`Shading/Material --> Shaders`
 
 
 .. figure:: /images/material-shader-toon.jpg
@@ -176,7 +176,7 @@ Minnaert
    :class: refbox
 
    | Mode:     All Modes
-   | Panel:    Shading/Material Context --> Shaders
+   | Panel:    :menuselection:`Shading/Material --> Shaders`
 
 
 .. figure:: /images/material-shader-lambert.jpg
@@ -192,7 +192,7 @@ Higher darkness values will darken the center of an object
 Lower darkness values will lighten the edges of the object, making it look somewhat velvet.
 `Marcel Minnaert <https://en.wikipedia.org/wiki/Marcel_Minnaert>`__ (1893-1970)
 was a Belgian astronomer interested in the effects of the atmosphere on light and images who in 1954 published a book
-entitled *The Nature of Light and Color in the Open Air*.
+entitled "The Nature of Light and Color in the Open Air".
 
 
 Options
@@ -215,7 +215,7 @@ Fresnel
    :class: refbox
 
    | Mode:     All Modes
-   | Panel:    Shading/Material Context --> Shaders
+   | Panel:    :menuselection:`Shading/Material --> Shaders`
 
 
 .. figure:: /images/material-shader-fresnel-vary.jpg

@@ -11,7 +11,6 @@ Subdivide
    | Panel:    *Mesh Tools* (*Editing* context)
    | Menu:     :menuselection:`Mesh --> Edges --> Subdivide`,
      :menuselection:`Specials --> Subdivide/Subdivide Smooth`
-   | Hotkey:   :menuselection:`[W] --> [pad1]/[pad2]`
 
 
 Subdividing splits selected edges and faces by cutting them in half or more,

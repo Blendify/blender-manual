@@ -15,7 +15,7 @@ Duplicate
 This tool simply duplicates the selected elements,
 without creating any links with the rest of the mesh (unlike extrude, for example),
 and places the duplicate at the location of the original. Once the duplication is done,
-*only the new duplicated elements are selected*,
+only the *new* duplicated elements are selected,
 and you are automatically placed in grab/move mode, so you can translate your copy elsewhere...
 
 In the *Tool Shelf* are settings for *Vector* offset, *Proportional Editing*,

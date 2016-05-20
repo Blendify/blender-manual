@@ -49,7 +49,7 @@ Fill
 
 
 The *Fill* option will create *triangular* faces from any group of selected edges
-or vertices, *as long as they form one or more complete perimeters*.
+or vertices, as long as they form one or more complete perimeters.
 
 
 
@@ -162,7 +162,7 @@ This tool can be performed on a selection of multiple triangles.
 
 This same action can be done on a selection of 2 tris,
 by selecting them and using the shortcut :kbd:`F`, to create a face, or by selecting the
-shared edge and dissolving it with the shortcut :menuselection:`[X] --> Dissolve`.
+shared edge and dissolving it with the shortcut :kbd:`X` :menuselection:`--> Dissolve`.
 
 To create a quad, this tool needs at least two adjacent triangles.
 If you have an even number of selected triangles,
@@ -214,7 +214,7 @@ Solidify
 
    | Mode:     Edit mode
    | Menu:     :menuselection:`Mesh --> Faces --> Solidify`
-   | Hotkey:   :menuselection:`[ctrl][F] --> Solidify`
+   | Hotkey:   :kbd:`Ctrl-F` :menuselection:`--> Solidify`
 
 
 This takes a selection of faces and solidifies them by extruding them

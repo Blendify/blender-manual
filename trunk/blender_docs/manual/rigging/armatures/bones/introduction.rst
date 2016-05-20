@@ -118,14 +118,14 @@ When you connect bones to form a :ref:`chain <armature-bone_chain>`,
 Blender calculates a Bezier curve passing through all the bones' ends,
 and bones' segments in the chain will bend and roll to follow this invisible curve.
 
-*You have no direct access to this curve*;
-you can only control it to some extent using bone properties,
+There is no direct access to the curve.
+It can only be controlled by some extent using bone properties,
 as explained in the :ref:`editing pages <armature-bone-rigid>`.
 
-In *An armature of B-Bones in Edit mode* we connected 3 bones,
+In Fig. An armature of B-Bones in Edit mode we connected 3 bones,
 each one made of 5 segments. These are *B-bones* but as you see,
 in *Edit mode* they are shown as rigid elements.
-Look at *The same armature in Object mode*: now, in *Object mode*,
+Look at Fig. The same armature in Object mode: now, in *Object mode*,
 we can see how the bones' segments smoothly "blend" into each other, even for roll.
 
 Of course,
@@ -138,7 +138,7 @@ the segments' orientation is not taken in account
 (details are explained in the :doc:`skinning part </rigging/skinning/index>`).
 
 When not visualized as *B-Bone* s, bones are always shown as rigid sticks,
-*even though the bone segments are still present and effective*
+even though the bone segments are still present and effective
 (see :doc:`skinning to ObData </rigging/skinning/obdata>`).
 
 This means that even in e.g. *Octahedron* visualization,

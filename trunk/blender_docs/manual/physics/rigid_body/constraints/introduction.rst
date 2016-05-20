@@ -10,7 +10,7 @@ The constraint then has fields which can be pointed at the two physics-enabled o
 constraint. The *Empty* object provides a location and axis for the constraint distinct from the two constrained
 objects. The location of the entity hosting the physics constraint marks a location and set of axes on each of the two
 constrained objects. These two anchor points are calculated at the beginning of the animation and their position and
-orientation remain fixed *in the local coordinate system of the object* for the duration of the animation. The
+orientation remain fixed in the *local* coordinate system of the object for the duration of the animation. The
 objects can move far from the constraint object, but the constraint anchor moves with the object. If this feature
 seems limiting, consider using multiple objects with a non-physics *Child-of* constraint and animate
 the relative location of the child.

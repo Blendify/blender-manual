@@ -16,8 +16,8 @@ X-Mirror
 
 The *X-mirror* option of the *Mesh Options* panel allows you edit both
 "sides" of your mesh in a single action. When you transform an element (vertex, edge or face),
-if there is its *exact X-mirrored counterpart* (in local space),
-it will be transformed accordingly, *through a symmetry along the local X axis*.
+if there is its exact X-mirrored counterpart (in local space),
+it will be transformed accordingly, through a symmetry along the local X axis.
 
 
 Topology Mirror

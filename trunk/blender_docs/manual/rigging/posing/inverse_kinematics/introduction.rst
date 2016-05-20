@@ -34,7 +34,7 @@ However, the initial chain length is 0, which effectively
 means follow the connections to parent bones as far as possible, with no length limit.
 So pressing :kbd:`Ctrl-PageUp` the first time sets the chain length to 1 (move only the selected bone),
 and pressing :kbd:`Ctrl-PageDown` at this point sets it back to 0 (unlimited) again.
-Thus, you have to press :kbd:`Ctrl-PageUp` *more than once from the initial state*
+Thus, you have to press :kbd:`Ctrl-PageUp` *more than once* from the initial state
 to set a finite chain length greater than 1.
 
 This is a more limited feature than using an IK constraint, which can be configured,

@@ -270,7 +270,7 @@ you have to select the chosen bone(s)!
   to control in which layer(s) it lays.
 - In the *3D View* window, use the menu (:menuselection:`Armature --> Move Bone To Layer` or
   :menuselection:`Pose --> Move Bone To Layer`) or press :kbd:`M` to show the usual pop-up layers dialog.
-  Note that this way, *you assign the same layers to all selected bones*.
+  Note that this way, you assign the same layers to all selected bones.
 
 
 .. _armature-bone_hide:

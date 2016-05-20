@@ -27,7 +27,7 @@ Options
 
 
 Target
-   This constraint uses one target, which *must be a mesh object*,
+   This constraint uses one target, which *must* be a mesh object,
    and is not functional (red state) when it has none.
 
 Distance

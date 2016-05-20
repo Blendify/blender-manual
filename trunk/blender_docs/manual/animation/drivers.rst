@@ -29,7 +29,7 @@ Drivers Panel
 
 .. figure:: /images/Animation_Panel_Drivers.jpg
 
-   Graph Editor > Drivers > Drivers Panel.
+   :menuselection:`Graph Editor --> Drivers --> Drivers Panel`
 
 
 This panel is located in the :doc:`Graph Editor </editors/graph_editor/introduction>` with the mode set to Drivers.

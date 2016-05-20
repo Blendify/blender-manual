@@ -5,10 +5,10 @@ Object Modes
 ************
 
 *Modes* are a Blender-level object-oriented feature,
-which means that *the whole Blender application* is always in *one and only one mode*,
+which means that whole Blender application is always in a singular mode,
 and that the available modes vary depending on the selected active object's type -
 most of them only enable the default *Object* mode (like cameras, lamps, etc.).
-Each mode is designed to edit an aspect of the selected object. See the *Blender's Modes* table below for details.
+Each mode is designed to edit an aspect of the selected object. See Tab. Blender's Modes below for details.
 
 
 .. figure:: /images/ModeSelect.jpg
@@ -17,7 +17,7 @@ Each mode is designed to edit an aspect of the selected object. See the *Blender
 
 
 You set the current mode in the *Mode* drop-down list of *3D View* header
-(see *Mode selection example (mesh object)*).
+(see Fig. Mode selection example).
 
 .. warning::
 
@@ -28,7 +28,7 @@ Modes might affect many things in Blender:
 
 - They can modify the panels and/or controls available in some *Buttons* windows' contexts.
 - They can modify the behavior of whole windows, like e.g.
-  the *UV/Image Editor* window (and obviously, *3D View* s!).
+  the *UV/Image Editor* and *3D View*.
 - They can modify the available header tools (menus and/or menu entries, as well as other controls...).
   For example, in the *3D View* window, the *Object* menu in *Object* mode changes to a *Mesh* menu in
   *Edit* mode (with an active mesh object!), and a *Paint* menu in *Vertex Paint* mode...

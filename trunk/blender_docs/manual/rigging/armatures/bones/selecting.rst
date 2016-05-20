@@ -151,7 +151,7 @@ bone belongs to by using the *linked selection* tool, :kbd:`L`.
      - .. figure:: /images/RiggingBoneSelectExEditModeWholeChain.jpg
           :width: 300px
 
-          Its whole chain selected with [L].
+          Its whole chain selected with :kbd:`L`.
 
 
 You can deselect the active bone and select its immediate parent or one of its children using
@@ -167,10 +167,9 @@ Deselecting connected bones
 There is a subtlety regarding connected bones.
 
 When you have several connected bones selected, if you deselect one bone,
-*you will in fact deselect its tip,
-but not its root if it is also the tip of another selected bone.*
+its tip will be deselected, but not its root, if it is also the tip of another selected bone.
 
-To understand this, look at *Bone deselection in a selected chain*.
+To understand this, look at Fig. Bone deselection in a selected chain.
 
 .. list-table::
    Bone deselection in a selected chain

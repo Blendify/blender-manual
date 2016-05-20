@@ -309,8 +309,7 @@ Common Shortcuts
 There are shortcuts shared among many button types.
 
 
-While Hovering
-   *When the cursor is held over a button*
+While Hovering (when the cursor is held over a button).
 
    Properties:
 
@@ -355,10 +354,12 @@ While Hovering
      Note that in most cases it's best to access values based on the context, instead of by name.
 
 While Dragging Numbers
+
    - :kbd:`Ctrl` - while dragging snap the discrete steps.
    - :kbd:`Shift` - gives finer control over the value.
 
 While Editing Text
+
    - :kbd:`Home` - go to the start.
    - :kbd:`End` - go to the end.
    - :kbd:`Left`, :kbd:`Right` - move the cursor a single character.
@@ -371,5 +372,6 @@ While Editing Text
    - :kbd:`Ctrl-A` - selects all text.
 
 All Modes
+
    - :kbd:`Esc`, :kbd:`RMB` - cancels.
    - :kbd:`Return`, :kbd:`LMB` - confirms.

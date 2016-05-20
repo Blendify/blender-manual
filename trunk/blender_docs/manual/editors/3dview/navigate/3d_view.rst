@@ -66,7 +66,7 @@ select the camera, go to the *Object Data* context and press the
 *Orthographic* button in the *Lens* panel.
 
 The :menuselection:`View --> Camera` menu entry sets the 3D view to camera mode (:kbd:`Numpad0`).
-The scene is then displayed as it will be rendered later (see *Demonstration of camera view*).
+The scene is then displayed as it will be rendered later (see Fig. Demonstration of camera view).
 The rendered image will contain everything within the orange dotted line.
 Zooming in and out is possible in this view, but to change the viewpoint,
 you have to move or rotate the camera.

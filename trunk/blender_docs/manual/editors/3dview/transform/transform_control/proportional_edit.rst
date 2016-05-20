@@ -186,7 +186,7 @@ cancel the operation and revert your mesh to the way it looked before with :kbd:
 
 You can use the proportional editing tool to produce great effects with the scaling
 (:kbd:`S`) and rotation (:kbd:`R`) tools,
-as *A landscape obtained via proportional editing* shows.
+as Fig. A landscape obtained via proportional editing shows.
 
 
 .. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-landscape.jpg

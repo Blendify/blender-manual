@@ -290,7 +290,7 @@ The direction of the normals will define the result of the three available opera
 When one of the participants has inverted normals, you're in fact multiplying the operation by ``-1``
 and inverting the calculation order. You can, at any time, select your modified mesh,
 enter Edit Mode and flip the normals to change the behavior of the Boolean modifier.
-See *Tips for Fixing Mixed Normals* below.
+See Tips: Fixing Mixed Normals below.
 
 Blender also cannot perform any optimal Boolean operation when one or more of the
 mesh Normals of the participants that are touching has outwards/inwards normals mixed.

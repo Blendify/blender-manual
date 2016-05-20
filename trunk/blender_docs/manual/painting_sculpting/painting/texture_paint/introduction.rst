@@ -1,6 +1,6 @@
-
-.. note: this is for 3d-viewport painting,
+.. this is for 3d-viewport painting,
    image editor painting belongs in the image editor section.
+
 
 ************
 Introduction
@@ -381,5 +381,5 @@ Perspective View & Low Poly
 When painting onto a face in perspective mode onto a low poly object with normals pointing away from the view,
 painting may fail; to workaround disable the **Normal** option in the paint panel.
 
-*Typically this happens when painting onto the side of a cube*
+Typically this happens when painting onto the side of a cube 
 (see `Bug report T34665 <https://developer.blender.org/T34665>`__).

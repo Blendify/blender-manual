@@ -14,8 +14,7 @@ To use this modifier effectively, it's useful to understand the basics of how it
 
 Rest State
    Used as a reference to detect highly distorted areas.
-
-   *The original vertex locations are used by default.*
+   The original vertex locations are used by default.
 Smoothing
    Many options for this modifier relate to smoothing which is used internally
    to correct the distorted regions.
@@ -41,8 +40,7 @@ Factor
    Values outside this range (above ``1.0`` or below ``0.0``) distort the mesh.
 Repeat
    The number of smoothing iterations.
-
-   *Higher values generally improve the quality of the smoothing but slow down the operation also.*
+   Higher values generally improve the quality of the smoothing, but the operation is slowed down.
 Smooth Type
    Select the smoothing method used.
 
@@ -50,9 +48,8 @@ Smooth Type
       This simply relaxes vertices to their connected edges.
    Length Weight
       Uses a method of relaxing that weights by the distance of surrounding vertices.
-
-      *Can give higher quality smoothing in some cases,
-      better preserving the shape of the original form.*
+      This option can give higher quality smoothing in some cases, by
+      better preserving the shape of the original form.
 Vertex Group
    Use to manually select regions to smooth.
 Only Smooth
@@ -64,13 +61,11 @@ Rest Source
 
    Original Coords
       Use the original input vertex positions.
-
-      *This relies on the original mesh having the same number of vertices as the original mesh*
+      This relies on the original mesh having the same number of vertices as the original mesh.
    Bind Coords
       Optionally you may bind the modifier to a specific state.
-
-      *This is required if there are constructive modifiers such as subsurf or mirror
-      being applied before this modifier in the stack.*
+      This requires that there are constructive modifiers such as subsurf or mirror
+      being applied before this modifier in the stack.
 
 
 Example

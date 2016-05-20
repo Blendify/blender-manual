@@ -24,12 +24,12 @@ Select two strips (:kbd:`Shift-RMB`):
 
 - With *Alpha Over*, the strips are layered up in the order selected; the first strip selected is the background,
   and the second one goes *over* the first one selected.
-  The *Fac* tor controls *the transparency of the foreground*, i.e. a *Fac* of **0.0**
+  The *Fac* tor controls the transparency of the *foreground*, i.e. a *Fac* of **0.0**
   will only show the background, and a *Fac* of **1.0** will completely override the background with the foreground
   (except in the transparent areas of this one, of course!)
 - With *Alpha Under*, this is the contrary: the first strip selected is the
   foreground, and the second one, the background.
-  Moreover, the *Fac* tor controls *the transparency of the background*, i.e. a *Fac* of **0.0**
+  Moreover, the *Fac* tor controls the transparency of the *background*, i.e. a *Fac* of **0.0**
   will only show the foreground (the background is completely transparent),
   and a *Fac* of **1.0** will give the same results as with *Alpha Over*.
 - *Alpha Over Drop* is between the two others:

@@ -88,22 +88,22 @@ Note how a two-bone chain is fitted to a three-segment stroke.
 OK now let us see some important ground rules:
 
 
-- This conversion method can use as reference bones either *the selected bones in the currently edited armature*,
-  or *all bones from another armature*.
+- This conversion method can use as reference bones either the selected bones in the *currently* edited armature,
+  or *all* bones from another armature.
   In general, it is a better idea to create new "templated" bones inside the "reference"
   armature, so you can precisely select which bones to use as template -
   if you want the new bones in a different armature, you can then use the *Separate*
   (:kbd:`Ctrl-Alt-P`) and optionally *Join* (:kbd:`Ctrl-J` in *Object* mode) commands...
-- This tool only considers *one chain of bones*,
+- This tool only considers *one* chain of bones,
   so it's better to select only one chain of bones inside the current armature
   (or use a single-chain armature object as template).
   Else, the chain of the template containing the first created bones will be mapped to the
-  selected strokes, and *the other chains will just be "copied" as is*, without any modification.
+  selected strokes, and the other chains will just be "copied" *as is*, without any modification.
 - This tool maps the same chain of bones on all selected strokes,
   so you can't use multiple strokes to map a multi-chains template -
   you will rather get a whole set of new bones for each selected stroke!
 - If you have strokes only made of straight segments,
-  *they must have at least as much segments as there are bones in the template chain*
+  they must have *at least* as much segments as there are bones in the template chain
   (else, the newly created chain is not mapped at all to the stroke,
   and remains an exact duplicate of its template).
   If there are more segments than necessary,
@@ -187,7 +187,7 @@ Think of them as A(ngle of bones), L(ength of bones) and D(efinition of stroke).
 
 
 .. list-table::
-   Examples of *Template* conversions for various influence weights values,
+   Examples of Template conversions for various influence weights values,
    with one stroke quite similar to the template chain's shape, and one stroke very different.
 
    * - .. figure:: /images/RiggingTemplatingInfluenceWeightsEx111.jpg
@@ -259,7 +259,7 @@ Static text line
      (i.e. bones' ends, with connected ends considered as one joint),
      either from the selected bones of the edited armature, or in the whole other template armature.
    - The second part is only present when another armature has been selected as template -
-     it gives you *the root bone's name of the chain that will be mapped to the strokes*.
+     it gives you the *root bone's name* of the chain that will be mapped to the strokes.
      Or, while you are drawing a stroke with straight segments,
      the name of the bone corresponding to the current segment
      (and ``Done`` when you have enough segments for all bones in the template chain).

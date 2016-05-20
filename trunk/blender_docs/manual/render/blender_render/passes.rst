@@ -25,22 +25,22 @@ color for the right part of the image.
 Various things that are calculated in a standard render include:
 
 
-- *Where are* **shadows** *cast?*
-- *How is* **ambient** *light in the environment blocked (* **occluded** *) by objects in the scene?*
-- *How is light* **reflected** *off mirrored surfaces?*
+- Where are shadows cast?
+- How is ambient light in the environment blocked (occluded) by objects in the scene?
+- How is light reflected off mirrored surfaces?
   Like shadows, lines are calculated, except this time they come from the camera and bounce off mirrored surfaces,
   so that when these lines hit an object, the engine calculates that this is what the camera should see.
-- *How is light bent (* **refracted** *) as is passes through transparent objects?*
-   Does it go straight through? Does it bend? If so, at what depth in the object?
-- *What designated* **objects** *are in the scene, and what is their outline?*
+- How is light bent (refracted) as is passes through transparent objects?
+  Does it go straight through? Does it bend? If so, at what depth in the object?
+- What designated objects are in the scene, and what is their outline?
   Should the object appear blurred, or should it appear in sharp focus?
-- *How fast is something moving (* **velocity** *)?*
-   Should it appear blurred given our frame rate or is it slow enough to still be focused on properly?
-- *How far away from the camera are objects' surfaces (* **Z-depth** *)?*
-   Can the object's surfaces be seen at all, or are they being blocked by another object's geometry?
-- *Does an object have a* **normal** *vector (bumpmap)?*
-   Do shadows and apparent geometry need to be calculated for any objects?
-- *Is there any* **specularity** *?* Are objects with textures such as metal shiny at all?
+- How fast is something moving (velocity)?
+  Should it appear blurred given our frame rate or is it slow enough to still be focused on properly?
+- How far away from the camera are objects' surfaces (Z-depth)?
+  Can the object's surfaces be seen at all, or are they being blocked by another object's geometry?
+- Does an object have a normal vector (bumpmap)?
+  Do shadows and apparent geometry need to be calculated for any objects?
+- Is there any specularity ? Are objects with textures such as metal shiny at all?
 
 The answer to each of the above questions is an image or map, as shown below:
 

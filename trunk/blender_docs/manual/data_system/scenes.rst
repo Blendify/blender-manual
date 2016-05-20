@@ -46,13 +46,13 @@ Link Objects
    The reverse is also true.
 Link Object Data
    Creates new, duplicate copies of all of the objects in the currently selected scene,
-   but each one of those duplicate objects will have *links to* the object-data (meshes, materials and so on)
+   but each one of those duplicate objects will have links to the object-data (meshes, materials and so on)
    of the corresponding objects in the original scene.
 
    This means that you can change the position,
    orientation and size of the objects in the new scene without affecting other scenes,
-   but any modifications to the object-data (meshes, materials *etc*) will also affect other scenes.
-   This is because a *single instance of* the "object-data" is now being shared by all of the objects
+   but any modifications to the object-data (meshes, materials, etc.) will also affect other scenes.
+   This is because a single instance of the "object-data" is now being shared by all of the objects
    in all of the scenes, that link to it.
 
    More information at the :doc:`Window Type </editors/index>` page.
@@ -101,11 +101,11 @@ Linking to a Scene
 
 You can link any object from one scene to another.
 Just open the scene where these objects are,
-from the 3d-view header access :menuselection:`Obejct --> Make Links...`
+from the 3d-view header access :menuselection:`Object --> Make Links...`
 and choose the scene where you want your objects to appear.
 The selected objects will be added to that scene but remain linked to the original objects.
 
 To make them single user (independent and unlinked) in a given scene go to that scene,
-select them, then from the 3d-view header access :menuselection:`Obejct --> Make Single User`.
+select them, then from the 3d-view header access :menuselection:`Object --> Make Single User`.
 You will be presented with a few options that allow you to free up the data-blocks (Object,
 Material, Texture...) that you want.

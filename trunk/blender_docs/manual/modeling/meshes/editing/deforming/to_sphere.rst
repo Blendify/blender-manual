@@ -12,7 +12,7 @@ To Sphere
 
 
 The *To Sphere* transformation will give the selection spherical qualities. The
-*Suzanne with increasing sphericity* image below shows the results of applying the
+Fig. Suzanne with increasing sphericity image below shows the results of applying the
 *To Sphere* transformation to the Suzanne mesh.
 
 
