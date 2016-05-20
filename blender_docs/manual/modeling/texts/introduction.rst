@@ -82,8 +82,8 @@ Editing Text
 
 Editing text is quite different from other object types in Blender, and happens mainly in two areas.
 First, the 3D view, of course, where you type your text, and have a few shortcuts, e.g. for applying
-styles (see `Character`_) - note however that most Blender hotkeys you know in *Edit*
-mode do not exist for texts! The second place is the *Button* window
+styles (see `Character`_) - note however that most Blender hotkeys you know in *Edit mode*
+do not exist for texts! The second place is the *Button* window
 (*Editing* context), especially the *Font* panel.
 
 The menu of the 3D view header has nearly no use,
@@ -154,7 +154,7 @@ Some examples are given below:
 
    * - |agrave|
 
-     - :kbd:`A`, :kbd:`Alt-Backspace`, :kbd:`\``
+     - :kbd:`A`, :kbd:`Alt-Backspace`, :kbd:`\\`
 
    * - |aring|
 
@@ -298,7 +298,7 @@ Size
 
 Shear
    Controls the inclination of the whole text.
-   Even if this seems similar to italics style, *this is not the same thing* !
+   Different to as it may seems, this is not similar to italics style.
 
 
 Objects as Fonts
@@ -307,7 +307,7 @@ Objects as Fonts
 You can also "create" your own "font" inside Blender! This is quite a complex process,
 so let's detail it:
 
-- First, you must create your chars. Each char is an object *of any type* (mesh, curve, meta...).
+- First, you must create your chars. Each char, of any type,  is an object (mesh, curve, meta...).
   They all must have a name following the schema:
   ``common prefix`` followed by the ``char name`` (e.g. ``ft.a``, ``ft.b``, etc.).
 - Then, for the *Text* object, you must enable the *Dupli Verts* button
@@ -316,7 +316,7 @@ so let's detail it:
   fill the *Ob Family* field with the *common prefix* of your "font" objects.
 
 Now, each time a char in your text matches the *suffix part* of a "font" object's name,
-this object is duplicated on this char. *The original chars remain visible*. The objects are
+this object is duplicated on this char. The original chars remain visible. The objects are
 duplicated so that their center is positioned at the *lower right corner* of the
 corresponding chars.
 
@@ -332,8 +332,7 @@ With the :doc:`curve modifier </modeling/modifiers/deform/curve>` you can let te
 
    Text on curve.
 
-
-In (*Text on curve*) you can see a text deformed by a curve (a 2D Bézier circle).
+In Fig. Text on curve you can see a text deformed by a curve (a 2D Bézier circle).
 
 To apply the curve modifier, the text object first has to be converted to a mesh,
 using :kbd:`Alt-C` and click mesh.

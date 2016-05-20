@@ -25,7 +25,7 @@ In Object mode
 
 The Origin of an Object is shown in the 3D view by a small orange circle.
 This is highlighted in the image to the right by the red arrow.
-The origin tells Blender *where that Object is in 3D space*. What you see in the 3D view
+The origin tells Blender the relative position of that Object in 3D space. What you see in the 3D view
 (vertices, edges etc) is what makes up the Object.
 
 While the Origin is equivalent to the center of the *Object*,
@@ -34,7 +34,7 @@ have its center located on one end of the mesh or even completely outside the me
 For example,
 the orange rectangle in the image has its Origin located on the far left of the mesh.
 
-Now let's examine *Rotation around the individual origins*.
+Now let's examine: Rotation around the individual origins.
 
 
 - The blue rectangle has its Origin located in the center of the mesh,

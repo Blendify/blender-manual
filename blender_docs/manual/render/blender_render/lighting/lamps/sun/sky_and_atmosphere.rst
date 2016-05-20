@@ -49,7 +49,7 @@ And the rotation around the Z axis determines the position of the sun around the
 In fact, to have a good idea of where the sun is in your world,
 relative to the camera in your 3D view, you should always try to have the dashed "light line"
 of the lamp crossing the center of the camera (its "focal" point), as shown in
-(*The dashed "light line" of the* *Sun* *lamp crossing the camera focal point*).
+(The dashed "light line" of the *Sun lamp* crossing the camera focal point).
 This way, in camera view (:kbd:`Numpad0`, center window in the example picture),
 you will see where the "virtual" sun created by this effect will be.
 

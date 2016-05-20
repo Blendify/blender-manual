@@ -110,7 +110,7 @@ Smoothing
    :class: refbox
 
    | Mode:     Edit mode
-   | Hotkey:   :menuselection:`[W][] --> smooth`
+   | Hotkey:   :kbd:`W` :menuselection:`--> smooth`
 
 Curve smoothing is available through the specials menu. For Bézier curves, this smoothing
 operation reduces the distance between the selected control point/s and
@@ -289,7 +289,7 @@ Selected
 Segment
    This option is somewhat the opposite to the preceding one, as it will cut the curve,
    without removing any control points, by erasing one selected segment.
-   This option always removes *only one segment* (the last "selected" one),
+   This option always removes *only one* segment (the last "selected" one),
    even when several are in the selection.
    So to delete all segments in your selection, you'll have to repetitively use the same erase option...
 
@@ -350,7 +350,7 @@ Switch Direction
    | Mode:     Edit mode
    | Menu:     :menuselection:`Curve --> Segments --> Switch Direction`,
      :menuselection:`Specials --> Switch Direction`
-   | Hotkey:   :menuselection:`[W] --> [pad2]`
+   | Hotkey:   :kbd:`W-Numpad2`
 
 
 This command will "reverse" the direction of any curve with at least one selected element

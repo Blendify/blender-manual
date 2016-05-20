@@ -174,7 +174,7 @@ or the *Edge Loop Select* option of the *Edge Specials* menu
 .. note:: *Vertex* mode
 
    In *Vertex* select mode, you can also select edge loops, by using the same hotkeys,
-   *and clicking on the edges* (not on the vertices).
+   and clicking on the *edges* (not on the vertices).
 
 
 .. figure:: /images/EdgeF.jpg

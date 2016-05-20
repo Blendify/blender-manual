@@ -27,7 +27,7 @@ See `Animations`_ below.
 To select an image file or generated image from the UV/Image Editor,
 click on the small arrow selector button to the left of the name and pick an existing image
 (e.g. loaded in the UV editor or elsewhere)
-or click on *LOAD NEW* to select a file from your hard disk via a file-browser.
+or click on *load new* to select a file from your hard disk via a file-browser.
 These images can be e.g. previously rendered images, matte paintings, a picture of your cat,
 whatever. Blender really doesn't care.
 
@@ -136,7 +136,7 @@ The *Frs* number button is the number of frames in the sequence that you want to
 For example, if you want to show 2 seconds of the animation, and are running 30 fps, you would put 60 here.
 
 The *SFra* number button sets the start frame of the animation; namely, at what
-point in the animation that you *are going to render* do you want this sequence to start
+point in the animation that you are going to render do you want this sequence to start
 playing. For example,
 if you want to introduce this clip ten seconds into the composite output,
 you would put 300 here (at 30 fps).

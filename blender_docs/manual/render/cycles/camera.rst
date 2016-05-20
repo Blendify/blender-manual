@@ -93,7 +93,7 @@ F-Stop
 Blades
   The number of polygonal sides to give blurred objects in the view-port.
   The minimum number of blades needed to enable the bokeh effect is 3 (triangle).
-  *Only available with High Quality*
+  (Only available with High Quality).
 
 Aperture
   Use F-Stop or Radius to set the aperture for the render, and render preview.

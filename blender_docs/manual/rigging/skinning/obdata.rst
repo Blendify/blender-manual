@@ -38,7 +38,7 @@ an object to a whole armature - as with :doc:`object skinning </rigging/skinning
 there is an "old parenting" method and a new, more flexible and powerful one,
 based on modifiers - which allows creation of very complex setups, with objects deformed by several armatures.
 
-For *meshes and lattices only*,
+For meshes and lattices *only*,
 you can use the :kbd:`Ctrl-P` parent shortcut in the 3D views
 (after having selected first the "skin" object, then the armature).
 The *Make Parent To* menu pops up, select the *Armature* entry.
@@ -61,9 +61,12 @@ With Envelope Weights
    it will also weight them according to the bones' envelope settings (i.e.
    it will assign to each groups the vertices that are inside its bone's influence area,
    weighted depending on their distance to this bone).
-   This means that if you had defined vertex groups using same names as skinned bones, their content will be
-   completely overridden! *You'll get the same behavior as if you used the envelopes skinning method,
-   but with vertex groups?*
+
+   .. warning::
+
+      This means that if you had defined vertex groups using same names as skinned bones, their content will be
+      completely overridden. You'll get the same behavior as if you used the envelopes skinning method,
+      but with vertex groups?
 Automatic Weights
    Creates, as with *Envelope Weights* option, the needed vertex groups,
    with vertices assigned and weighted using the newer "bone heat" algorithm.
@@ -75,9 +78,9 @@ Automatic Weights
    The Armature modifier.
 
 
-This "parenting" method will create an* :doc:`Armature modifier </modeling/modifiers/deform/armature>`
+This "parenting" method will create an :doc:`Armature modifier </modeling/modifiers/deform/armature>`
 in the skinning object's modifiers stack.
-And so, of course, adding an* :doc:`Armature modifier </modeling/modifiers/deform/armature>`
+And so, of course, adding an :doc:`Armature modifier </modeling/modifiers/deform/armature>`
 to an object is the second, new skinning method (which also works for curves/surfaces/texts...).
 Follow the above link to read more about this modifier's specific options.
 Note that there is a way with new *Armature* modifiers to automatically create vertex groups and weight them;
@@ -88,17 +91,16 @@ see the `Vertex Groups`_ description below.
    A single object can have several *Armature* modifiers
    (with e.g. different armatures, or different settings...),
    working on top of each other, **or** mixing their respective effects
-   (depending whether their* *MultiModifier* option is set,
+   (depending whether their *MultiModifier* option is set,
    see :ref:`their description <modifier-armature-multi_modifier>` for more details),
    and only one "virtual old parenting" one, which will always be at the top of the stack.
 
-Note finally that for settings that are present in both the armature's *Armature*
-*panel and in the objects'* *Armature* modifier panel (namely,
-*Vertex Groups* */* *VertGroups* *,* *Envelopes*,
-*Quaternion* *and* *B-Bone Rest*),
+Note finally that for settings that are present in both the armature's 
+*Armature panel* and in the objects' *Armature modifier panel* 
+(namely, *Vertex Groups* */* *VertGroups* *,* *Envelopes*, *Quaternion* *and* *B-Bone Rest*),
 the modifier ones always override the armature ones. This means that if, for example,
 you only enable the *Envelopes* deformation method of the armature,
-and then skin it with an object using an* *Armature* modifier, where only
+and then skin it with an object using an *Armature* modifier, where only
 *VertGroups* is enabled,
 the object will only be deformed based on its "bones" vertex groups,
 ignoring completely the bones' envelopes.
@@ -108,15 +110,15 @@ Common Options
 ==============
 
 There are two armature-global skinning options that are common to both envelopes and vertex
-groups methods:*
+groups methods:
 
 Preserve Volume (Armature modifier)
    This affects the way geometry is deformed, especially at bones' joints, when rotating them.
 
    Without *Preserve Volume*, rotations at joints tend to scale down the neighboring geometry,
    up to nearly zero at ``180d`` from rest position.
-   With* *Preserve Volume*, the geometry is no longer scaled down, but there is a "gap",
-   a discontinuity when reaching* ``180d`` from rest position.
+   With *Preserve Volume*, the geometry is no longer scaled down, but there is a "gap",
+   a discontinuity when reaching ``180d`` from rest position.
 
 .. list-table::
    Example of *Quaternion* option effects.
@@ -166,8 +168,8 @@ Bone Deform Options
 
 
 The bones also have some deforming options in their sub-panels
-(* *Armature Bones* *panel),
-that you can therefore define independently for each of them*
+(*Armature Bones* panel),
+that you can therefore define independently for each of them.
 
 Deform
    By disabling this setting (enabled by default),
@@ -198,13 +200,13 @@ shown in the *Envelope* visualization:
 See the* :doc:`editing pages </rigging/armatures/editing/properties>` for how to edit these properties.
 
 There is also a bone property, *Weight* (in each bone sub-panel,
-in* *Edit* *mode only, defaults to* **1.0**),
+in *Edit mode* only, defaults to **1.0**),
 that controls the global influence of the bone over the deformed object,
 when using the envelopes method.
 It is only useful for the parts of geometry that are "shared",
 influenced by more than one bone (generally, at the joints...) - a bone with a high weight will
-have more influence on the result than one with a low weight... Note that when set to* **0.0**,
-it has the same effect as disabling the* *Deform* option.
+have more influence on the result than one with a low weight... 
+Note that when set to **0.0**, it has the same effect as disabling the *Deform* option.
 
 Mult
    Short for 'Multiply'. This option controls how the two deforming methods interact when they are both enabled.
@@ -243,7 +245,7 @@ However, you have a few goodies when weight-painting a mesh already parented to 
 an armature. For these to work, you must:
 
 - Select the armature.
-- Switch to** *Pose* mode (:kbd:`Ctrl-Tab`).
+- Switch to *Pose* mode (:kbd:`Ctrl-Tab`).
 - Select the mesh to weight.
 - Hit again :kbd:`Ctrl-Tab` to switch to *Weight Paint* mode.
 
@@ -299,8 +301,8 @@ Obviously, the same vertex can belong to several groups,
 and hence be affected by several bones,
 with a fine tuning of each bone's influence using these vertex weights.
 Quite useful when you want to have a smooth joint. For example, when you skin an elbow,
-the upperarm vertex group contains the vertices of this part at full weight (** *1.0* **),
-and when reaching the elbow area, these weights decrease progressively to** *0.0'* when
+the upperarm vertex group contains the vertices of this part at full weight (*1.0*),
+and when reaching the elbow area, these weights decrease progressively to *0.0'* when
 reaching the forearm zone - and vice versa for the forearm group weights... Of course,
 this is a very raw example - skinning a realistic joint is a big job,
 as you have to carefully find good weights for each vertex,

@@ -43,7 +43,7 @@ Smooth Shading
    | Mode:     Edit and Object mode
    | Panel:    *Mesh Tools* (*Editing* context)
    | Menu:     :menuselection:`Mesh --> Faces --> Shade Smooth / Shade Flat`
-   | Hotkey:   :menuselection:`[ctrl][F] --> Shade Smooth / Shade Flat`
+   | Hotkey:   :kbd:`Ctrl-F` :menuselection:`--> Shade Smooth / Shade Flat`
 
 
 .. list-table::

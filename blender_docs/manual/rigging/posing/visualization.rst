@@ -287,7 +287,7 @@ Non-Grouped Keyframes
 Calculate
    Start / End
       These are the start/end frames of the range in which motion paths are drawn.
-      *You have to* *Calculate Paths* *again when you modify this setting*, to update the paths in the 3D views.
+      You have to *Calculate Paths* again if you modify this setting, to update the paths in the 3D views.
       Note that unlike with ghosts, the start frame is *inclusive*
       (i.e. if you set *PSta* to **1**, you'll really see the frame **1** as starting point of the paths...).
 
@@ -295,5 +295,5 @@ Calculate
       By default, you get the tips' paths.
       By changing this setting to Tails, you'll get the paths of the bone's roots
       (remember that in Blender UI, bones' roots are called "heads"...).
-      *You have to* *Calculate Paths* *again when you modify this setting*,
+      You have to *Calculate Paths* again if you modify this setting,
       to update the paths in the 3D views.

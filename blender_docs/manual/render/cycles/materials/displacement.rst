@@ -4,7 +4,9 @@
 Displacement
 ************
 
-*Implementation not finished yet, marked as an* :doc:`experimental feature </render/cycles/features>`.
+.. note::
+
+   Implementation not finished yet, marked as an :doc:`experimental feature </render/cycles/features>`.
 
 The shape of the surface and the volume inside its mesh may be altered by the displacement
 shaders. This way, textures can then be used to make the mesh surface more detailed.
@@ -37,7 +39,9 @@ Displacement + Bump
 Subdivision
 ===========
 
-*Implementation not finished yet, marked as an* :doc:`experimental feature </render/cycles/features>`.
+.. note::
+
+   Implementation not finished yet, marked as an :doc:`experimental feature </render/cycles/features>`.
 
 .. figure:: /images/cycles_manual_materials_displacementbump.jpg
 

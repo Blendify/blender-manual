@@ -5,9 +5,12 @@
 Editing Bone Properties
 ***********************
 
-In this page, you will learn how to edit and control most of the properties for Blender bones -
-For editing bones in an armature, you should read the :doc:`previous page </rigging/armatures/editing/bones>` first!
-We will see how to manage the bones' relationships (`Chain Editing`_), rename them (`Naming Bones`_), etc.
+.. tip:: 
+
+   In this page, you will learn how to edit and control most of the properties for Blender bones -
+   For editing bones in an armature,
+   you should read the :doc:`previous page </rigging/armatures/editing/bones>` first.
+   We will see how to manage the bones' relationships (`Chain Editing`_), rename them (`Naming Bones`_), etc.
 
 
 Transforming Bones
@@ -60,7 +63,7 @@ As you control only one value (the radius), there is no axis locking here. And a
 you scale at the same time the radius of the parent's tip and of the children's roots.
 
 .. list-table::
-   Scaling of a bone in** *Octahedron* and *Envelope* visualizations.
+   Scaling of a bone in *Octahedron* and *Envelope* visualizations.
 
    * - .. figure:: /images/RiggingBoneSelectExEditModeWholeBone.jpg
           :width: 300px
@@ -118,7 +121,7 @@ this is a one-value property, so there is no axis locking and such.
      - .. figure:: /images/RiggingBoneAltScalingExEditModeEnvelope.jpg
           :width: 300px
 
-          Its envelope scaled with [ctrl][alt][S].
+          Its envelope scaled with :kbd:`Ctrl-Alt-S`.
 
 
 In the other visualizations, it allows you to edit the "bone size".
@@ -146,7 +149,7 @@ not the armature object's axis).
      - .. figure:: /images/RiggingBoneAltScalingExEditModeBBone2.jpg
           :width: 200px
 
-          Its size scaled with [ctrl][alt][S].
+          Its size scaled with :kbd:`Ctrl-Alt-S`.
 
      - .. figure:: /images/RiggingBoneAltScalingExObjectModeBBone.jpg
           :width: 200px
@@ -170,9 +173,9 @@ but only from the *Specials* pop-up menu(:kbd:`W`).
 It allows you to switch the direction of the selected bones (i.e.
 their root will become their tip, and vice versa).
 
-*Switching the direction of a bone will generally break the chain(s) it belongs to*.
+Switching the direction of a bone will generally break the chain(s) it belongs to.
 However, if you switch a whole (part of a) chain, the switched bones will still be parented/connected,
-but in "reversed order". See the *Switching example*.
+but in "reversed order". See the Fig. Switching example.
 
 .. list-table::
    Switching example.
@@ -264,17 +267,15 @@ Properties
 
 
 Most bones' properties (excepted the transform ones) are regrouped in each bone's sub-panel,
-in the *Armature Bones* panel (*Editing* context`).
+in the *Armature Bones* panel (*Edit mode*).
 Let's detail them.
 
-Note that some of them are also available in the 3D views,
-through the three pop-up menus *Toggle Setting*
-(:kbd:`Shift-W` or :menuselection:`Armature --> Bone Settings --> Toggle a Setting`),
-*Enable Setting*
-(:kbd:`Ctrl-Shift-W` or :menuselection:`Armature --> Bone Settings --> Enable a Setting`),
-and *Disable Setting*
-(:kbd:`Alt-W` or :menuselection:`Armature --> Bone Settings --> Disable a Setting`)
-- all three have the same entries, their respective effect should be obvious...
+Note that some of them are also available in the 3D views, 
+through the three pop-up menus within the same entry:
+
+- *Toggle Setting*: :kbd:`Shift-W` or :menuselection:`Armature --> Bone Settings --> Toggle a Setting`
+- *Enable Setting*: :kbd:`Ctrl-Shift-W` or :menuselection:`Armature --> Bone Settings --> Enable a Setting`
+- *Disable Setting*: :kbd:`Alt-W` or :menuselection:`Armature --> Bone Settings --> Disable a Setting`
 
 BO
    The bone name field, see `Naming Bones`_.
@@ -285,17 +286,22 @@ Segm
    This setting controls the number of segments that a bone has; see
    `Bone Rigidity`_.
 Dist, Weight, Deform
-   (also :menuselection:`[shift][W] --> Deform` & co), Mult (also :menuselection:`[shift][W] --> Mult VG` & co)
+   (also :kbd:`Shift-W` :menuselection:`--> (Deform, ...)`), Mult
+   (also :kbd:`Shift-W` :menuselection:`--> (Mult VG, ...)`)
 
    These settings control how the bone influences its geometry - along with the bones' ends radius.
    This will be detailed in the :doc:`skinning part </rigging/skinning/index>`.
-Hinge (also :menuselection:`[shift][W] --> Hinge` & co), S (also :menuselection:`[shift][W] --> No Scale` & co)
+Hinge 
+   (also :kbd:`Shift-W` :menuselection:`--> (Hinge, ...)`), S
+   (also :kbd:`Shift-W` :menuselection:`--> (No Scale, ...)`)
+
    These settings affect the behavior of children bones while transforming their parent in *Pose* mode,
    so this will be detailed in the :doc:`posing part </rigging/posing/index>` !
 Hide
    This will hide the bone (same as pressing :kbd:`H` in the 3D views;
    see :ref:`this page <armature-bone_hide>`).
-Lock (also :menuselection:`[shift][W] --> Locked` & co)
+Lock 
+   (also :kbd:`Shift-W` :menuselection:`--> (Locked, ...)`)
    This will prevent all editing of the bone in *Edit* mode;
    see :doc:`previous page </rigging/armatures/editing/bones>`.
 Layers button
@@ -395,15 +401,19 @@ To parent and/or connect bones, you can:
   your only choice is to connect them, if not already done.
   If you select only one non-parented bone, you'll get the *Need selected bone(s)* error message...
 
-  *With this method, the newly-children bones won't be scaled nor rotated -
-  they will just be translated if you chose to connect them to their parent's tip.*
+  .. note:: 
+
+      With this method, the newly-children bones won't be scaled nor rotated -
+      they will just be translated if you chose to connect them to their parent's tip.
 
 - In the *Buttons* window, *Armature Bones* panel, for each selected bone,
   you can select its parent in the *Parent* drop-down list to the upper right corner of its sub-panel.
   If you want them to be connected, just enable the little *Con* button to the right of the list.
 
-  *With this method, the tip of the child bone will never be translated -
-  so if* *Con* *is enabled, the child bone will be completely transformed by the operation.*
+  .. note:: 
+
+      With this method, the tip of the child bone will never be translated -
+      so if *Con* is enabled, the child bone will be completely transformed by the operation.
 
 
 .. list-table::
@@ -418,12 +428,12 @@ To parent and/or connect bones, you can:
           :width: 300px
 
           Bone.005 re-parented to Bone.002, but not connected to it
-          (same result, using either [ctrl][P][2] in 3D view, or the Armature Bones panel settings).
+          (same result, using either :kbd:`Ctrl-P-2` in 3D view, or the Armature Bones panel settings).
 
    * - .. figure:: /images/RiggingBoneRelationshipExEditMode2.jpg
           :width: 300px
 
-          Bone.005 parented and connected to Bone.002, using [ctrl][P][1] in 3D view.
+          Bone.005 parented and connected to Bone.002, using :kbd:`Ctrl-P-1` in 3D view.
 
      - .. figure:: /images/RiggingBoneRelationshipExEditMode3.jpg
           :width: 300px
@@ -459,7 +469,7 @@ Naming Bones
 You can rename your bones, either using the *Bone* field of the *Transform Properties*
 panel in the 3D views, for the active bone (:kbd:`N`),
 or using the *BO* field in each bone sub-panel of the *Armature Bones* panel
-(*Editing* context).
+(*Edit mode*).
 
 Blender also provides you some tools that take advantage of bones named in a left/right
 symmetry fashion, and others that automatically name the bones of an armature.
@@ -507,7 +517,7 @@ This will enable you to use some tools that will probably save you time and effo
 
 - Before Blender handles an armature for mirroring or flipping,
   it first removes the number extension, if it's there (like ``.001``)
-- You can copy a bone named ``bla.L`` and flip it over using :menuselection:`[W] --> Flip Left-Right Names`.
+- You can copy a bone named ``bla.L`` and flip it over using :kbd:`W` :menuselection:`--> Flip Left-Right Names`.
   Blender will name the copy ``bla.L.001`` and flipping the name will give you ``bla.R``.
 
 
@@ -545,20 +555,20 @@ Auto bone naming
 
 
 The three *AutoName* entries of the *Armature* and *Specials*
-(:kbd:`W`) menus allows you to automatically add a suffix to all selected bones, *based
-on the position of their root relative to the armature center and its local coordinates* :
+(:kbd:`W`) menus allows you to automatically add a suffix to all selected bones, based
+on the position of their root relative to the armature center and its local coordinates :
 
 AutoName Left-Right
-   will add the ``.L`` suffix to all bones *with a positive X-coordinate root*,
-   and the ``.R`` suffix to all bones *with a negative X-coordinate root*.
+   will add the ``.L`` suffix to all bones with a *positive* X-coordinate root,
+   and the ``.R`` suffix to all bones with a *negative* X-coordinate root.
    If the root is exactly at ``0.0`` on the X-axis, the X-coordinate of the tip is used.
    If both ends are at ``0.0`` on the X-axis, the bone will just get a period suffix, with no L/R
    (as Blender cannot decide whether it is a left or right bone...).
 AutoName Front-Back
-   will add the ``.Bk`` suffix to all bones *with a positive Y-coordinate root*,
-   and the ``.Fr`` suffix to all bones *with a negative Y-coordinate root*.
+   will add the ``.Bk`` suffix to all bones with a *positive* Y-coordinate root,
+   and the ``.Fr`` suffix to all bones with a *negative* Y-coordinate root.
    The same as with *AutoName Left-Right* goes for **0.0** Y-coordinate bones...
 AutoName Top-Bottom
-   will add the ``.Top`` suffix to all bones *with a positive Z-coordinate root*,
-   and the ``.Bot`` suffix to all bones *with a negative Z-coordinate root*.
+   will add the ``.Top`` suffix to all bones with a *positive* Z-coordinate root,
+   and the ``.Bot`` suffix to all bones with a *negative* Z-coordinate root.
    The same as with *AutoName Left-Right* goes for **0.0** Z-coordinate bones...

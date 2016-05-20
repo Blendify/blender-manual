@@ -296,13 +296,12 @@ Subdivision
    | Mode:     Edit mode
    | Panel:    Curve Tools
    | Menu:     :menuselection:`SurfaceTools --> Modeling --> Subdivide`, :menuselection:`Specials --> Subdivide`
-   | Hotkey:   :menuselection:`[W] --> [pad1]`
 
 
 Surface subdivision is most simple:
 using either the *Subdivide* entry in the *Specials* menu
 (:kbd:`W`), or the *Subdivide* button of the *Curve Tools1* panel,
-you will subdivide once all *completely selected grids* by subdividing each "quad" into four
+you will subdivide once all *completely* selected grids by subdividing each "quad" into four
 smaller ones.
 
 If you apply it to a 1D surface (a "surface curve"),
@@ -339,7 +338,6 @@ Switch Direction
    | Mode:     Edit mode
    | Menu:     :menuselection:`Surface --> Segments --> Switch Direction`,
      :menuselection:`Specials --> Switch Direction`
-   | Hotkey:   :menuselection:`[W] --> [pad2]`
 
 
 This command will "reverse" the direction of any curve with at least one selected element (i.

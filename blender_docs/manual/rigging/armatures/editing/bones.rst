@@ -341,7 +341,7 @@ The duplicate of a bone which is parented to another bone will also be parented 
 bone, even if the root bone is not selected for the duplication. Be aware, though,
 that if a bone is parented **and connected** to an unselected bone,
 its copy will be parented **but not connected** to the unselected bone
-(see *Duplication example*).
+(see Fig. Duplication example).
 
 
 .. list-table::
@@ -418,17 +418,17 @@ Merge
    | Hotkey:   :kbd:`Alt-M`
 
 
-You can merge together several selected bones, *as long as they form a chain*.
+You can merge together several selected bones, as long as they form a chain.
 Each sub-chain formed by the selected bones will give one bone,
 whose root will be the root of the root bone, and whose tip will be the tip of the tip bone.
 
-Confirm by clicking on *Within Chains* in the *Merge Selected Bones* pop-up.
+Confirm by clicking on :menuselection:`Merge Selected Bones --> Within Chains`.
 
 If another (non-selected) chain origins from inside of the merged chain of bones,
 it will be parented to the resultant merged bone. If they were connected,
 it will be connected to the new bone.
 
-Here's a strange subtlety (see *Merge example*): even though connected
+Here's a strange subtlety (see Fig. Merge example): even though connected
 (the root bone of the unmerged chain has no root sphere),
 the bones are not visually connected - this will be done as soon as you edit one bone,
 differently depending in which chain is the edited bone
@@ -525,11 +525,11 @@ X-Axis Mirror Editing
 =====================
 
 Another very useful tool is the *X-Axis Mirror* editing option
-(*Tool panel* > *Armature Options*, while Armature is selected in *Edit Mode*),
+(:menuselection:`Tool panel --> Armature Options`, while Armature is selected in *Edit Mode*),
 When you have pairs of bones of the same name with just a different "side suffix"
 (e.g. ``.R`` / ``.L``, or ``_right`` / ``_left`` ...), once this option is enabled,
 each time you transform (move/rotate/scale...) a bone, its "other side" counterpart will be transformed accordingly,
-through a *symmetry along the armature local X axis*.
+through a symmetry along the armature local X axis.
 As most rigs have at least one axis of symmetry (animals, humans, ...),
 it's an easy way to spare you half of the editing work!
 
