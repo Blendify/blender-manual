@@ -7,15 +7,15 @@ Introduction
 
 Once your armature is :doc:`skinned </rigging/skinning/index>` by the needed object(s), you can start to pose it.
 Basically, by transforming its bones, you deform or transform the skin object(s).
-But you don't do that in *Edit* mode - remember that in this mode, you edit *the default, base,
-"rest" position of your armature*. You can't use the *Object* mode either,
+But you don't do that in *Edit mode* - remember that in this mode, you edit *the default, base,
+"rest" position of your armature*. You can't use the *Object mode* either,
 as here you can only transform whole objects...
 
 So, armatures in Blender have a third mode, *Pose*, dedicated to this process.
-It's a sort of "object mode for bones". In rest position (as edited in *Edit* mode),
+It's a sort of "object mode for bones". In rest position (as edited in *Edit mode*),
 each bone has its own position/rotation/scale to neutral values
 (i.e. ``0.0`` for position and rotation, and ``1.0`` for scale).
-Hence, when you edit a bone in *Pose* mode,
+Hence, when you edit a bone in *Pose mode*,
 you create an offset in its transform properties, from its rest position -
 this is quite similar to :doc:`meshes relative shape keys </animation/shape_keys>`, in fact.
 
@@ -25,7 +25,7 @@ Posing Section Overview
 
 In this section, we will see:
 
-- The :doc:`visualization features </rigging/posing/visualization>` specific to *Pose* mode.
+- The :doc:`visualization features </rigging/posing/visualization>` specific to *Pose mode*.
 - How to :doc:`select and edit bones </rigging/posing/editing>` in this mode.
 - How to :doc:`use pose library </rigging/posing/pose_library>`.
 - How to :doc:`use constraints </rigging/posing/constraints>` to control your bones' DoF (degrees of freedom).

@@ -37,7 +37,7 @@ where you can change your action back completely by typing **0** (zero)
 in the numeric field. There are other useful options, based on your action context,
 and you can not only Undo actions, but change them completely using the available options.
 
-If you are in *Edit* Mode,
+If you are in *Edit Mode*,
 the Window will also change its contents based on your last action taken.
 In our second example (at the right), the last action taken was a Vertex Move;
 we did a *Scale* on a Face, and, as you can see,
@@ -117,8 +117,8 @@ but the list contains only repeated actions. To access Repeat History, use :kbd:
 
 .. note::
 
-   Blender uses two separate Histories, one dedicated for the *Edit* Mode,
-   and one dedicated for the *Object* Mode.
+   Blender uses two separate Histories, one dedicated for the *Edit Mode*,
+   and one dedicated for the *Object Mode*.
 
 .. important::
 

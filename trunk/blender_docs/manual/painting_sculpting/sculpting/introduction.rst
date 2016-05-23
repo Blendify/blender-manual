@@ -7,7 +7,7 @@ Introduction
 Overview
 ========
 
-*Sculpt* Mode is similar to *Edit* Mode in that it is used to alter the shape of a model,
+*Sculpt Mode* is similar to *Edit Mode* in that it is used to alter the shape of a model,
 but Sculpt Mode uses a very different workflow:
 instead of dealing with individual elements (vertices, edges, and faces),
 an area of the model is altered using a brush.
@@ -46,7 +46,7 @@ Sculpt Brushes
 Brushes are brush presets. They are a combination of a 'tool', along with stroke, texture,
 and options.
 
-*Sculpt* Mode has sixteen brushes, each of which operates on the model in a unique way.
+*Sculpt Mode* has sixteen brushes, each of which operates on the model in a unique way.
 Many can be toggled to have an additive or subtractive effect.
 They can be selected in the *Tool* menu.
 
@@ -135,7 +135,7 @@ Strength
 
 If the range of strengths doesn't seem to fit the model (for example,
 if even the lowest strength setting still makes too large of a change on the model)
-then you can scale the model (in *Edit* Mode, not *Object* Mode).
+then you can scale the model (in *Edit Mode*, not *Object Mode*).
 Larger sizes will make the brush's effect smaller, and vice versa.
 You can change the brush strength interactively by pressing :kbd:`Shift-F`
 in the 3D view and then moving the brush and then left clicking.
@@ -267,7 +267,7 @@ Symmetry Panel
 Mirror
   Mirror the brush strokes across the selected local axes.
   Note that if you want to alter the directions the axes point in,
-  you must rotate the model in *Edit* Mode, not *Object* Mode
+  you must rotate the model in *Edit Mode*, not *Object Mode*
 Radial
    These settings allow for radial symmetry in the desired axes.
    The number determines how many times the stroke will be repeated within 360 degrees around the central axes.
@@ -350,8 +350,8 @@ Tool Menu
 
 Here you can select the type of brush preset to use.
 *Reset Brush* will return the settings of a brush to its defaults.
-You can also set Blender to use the current brush for *Vertex Paint* mode,
-*Weight Paint* mode, and *Texture Paint* mode using the toggle buttons.
+You can also set Blender to use the current brush for *Vertex Paint mode*,
+*Weight Paint mode*, and *Texture Paint mode* using the toggle buttons.
 
 
 Hiding and Masking Mesh

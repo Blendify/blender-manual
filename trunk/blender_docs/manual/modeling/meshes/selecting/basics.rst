@@ -21,12 +21,12 @@ Adding to a Selection
 To add to the existing selection, hold down :kbd:`Shift` while right clicking.
 Clicking again on a selected item will deselect it.
 
-As in *Object* mode, there is a unique *active* element,
+As in *Object mode*, there is a unique *active* element,
 displayed in a lighter shade (in general, the last element selected).
 Depending on the tools used, this element might be very important!
 
 Note that there is no option to choose what element to select between overlapping ones
-(like the :kbd:`Alt-RMB` click in *Object* mode). However,
+(like the :kbd:`Alt-RMB` click in *Object mode*). However,
 if you are in solid, shaded, or textured viewport shading mode
 (not bounding box or wireframe),
 you will have a fourth button in the header that looks like a cube,
@@ -50,7 +50,7 @@ Selecting Elements in a Region
 Region selection allows you to select groups of elements within a 2D region in your 3D view.
 The region can be either a circle or rectangle.
 The circular region is only available in *Edit mode*. The rectangular region,
-or *Border Select, is available in both *Edit mode* and *Object* mode.
+or *Border Select, is available in both *Edit mode* and *Object mode*.
 
 
 .. note::
@@ -68,7 +68,7 @@ or *Border Select, is available in both *Edit mode* and *Object* mode.
 Rectangular region (Border select)
 ----------------------------------
 
-*Border Select* is available in either *Edit mode* or *Object* mode. To activate the tool use the :kbd:`B`.
+*Border Select* is available in either *Edit mode* or *Object mode*. To activate the tool use the :kbd:`B`.
 Use *Border Select* to select a group of objects by drawing a rectangle while holding down :kbd:`LMB`.
 In doing this you will select all objects that lie within or touch this rectangle.
 If any object that was last active appears in the group it will become selected *and* active.

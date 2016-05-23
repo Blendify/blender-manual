@@ -11,7 +11,7 @@ Editing Bones
 
 
 You'll learn here how to add (`Adding Bones`_), delete (`Deleting Bones`_) or subdivide (`Subdividing Bones`_) bones.
-We will also see how to prevent any bone transformation (`Locking Bones`_) in *Edit* mode,
+We will also see how to prevent any bone transformation (`Locking Bones`_) in *Edit mode*,
 and the option that features an automatic mirroring (`X-Axis Mirror Editing`_) of editing actions along the X axis.
 
 
@@ -543,5 +543,5 @@ Separating Bones in a new Armature
 
 You can, as with meshes, separate the selected bones in a new armature object
 (:menuselection:`Armature --> Separate`, :kbd:`Ctrl-Alt-P`) - and of course,
-in *Object* mode, you can join all selected armatures in one
+in *Object mode*, you can join all selected armatures in one
 (:menuselection:`Object --> Join Objects`, :kbd:`Ctrl-J`).

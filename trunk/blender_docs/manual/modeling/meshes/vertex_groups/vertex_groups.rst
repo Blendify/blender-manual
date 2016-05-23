@@ -169,7 +169,7 @@ Working with Content of Vertex Groups
    Vertex Group Panel in Edit Mode.
 
 
-When you switch either to *Edit-Mode* or to *Weight-Paint* Vertex
+When you switch either to *Edit Mode* or to *Weight Paint Mode* Vertex
 Selection Mode, then the Vertex Group panel expands and displays 2 more rows:
 
 The first row contains 4 buttons for maintaining the Assign- and

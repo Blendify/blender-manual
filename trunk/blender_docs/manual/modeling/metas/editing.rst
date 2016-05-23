@@ -3,7 +3,7 @@
 Editing Metas
 *************
 
-When in *Edit* mode, the *Active Element* panel appears.
+When in *Edit mode*, the *Active Element* panel appears.
 These settings apply only to the selected meta element.
 
 
@@ -81,10 +81,10 @@ and check *negative* in the *active element* panel.
 Hiding Elements
 ===============
 
-As in *Object* mode, you can hide the selected meta(s),
+As in *Object mode*, you can hide the selected meta(s),
 and then reveal what was hidden. This is very handy for cleaning your views up a bit... Note
-that the two red and green rings always remain visible in *Edit* mode,
-as well as the select circle (in *Object* mode...).
+that the two red and green rings always remain visible in *Edit mode*,
+as well as the select circle (in *Object mode*...).
 
 To hide the current selection, use :kbd:`H`,
 the *Hide* toggle button in the *MetaBall tools*,
@@ -121,13 +121,13 @@ create a new *Mesh* one, instead of a "real" conversion...).
 Note that the resolution used for the new mesh is the *Wiresize* one,
 not the *Rendersize* one.
 
-To convert the meta, press :kbd:`Alt-C` in *Object* mode, and select *mesh*
+To convert the meta, press :kbd:`Alt-C` in *Object mode*, and select *mesh*
 
 
 Object Families
 ===============
 
-*Meta* objects have different behavior in *Object* mode than other object types -
+*Meta* objects have different behavior in *Object mode* than other object types -
 they can be "regrouped" into so-called "families".
 
 A "family" is a way to regroup several meta objects,

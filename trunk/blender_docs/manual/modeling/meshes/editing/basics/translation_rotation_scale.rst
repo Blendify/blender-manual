@@ -28,5 +28,5 @@ limit the effect to certain axes, turn proportional editing on and off, etc.
 Of course, when you move an element of a given type (e.g. an edge),
 you also modify the implicitly related elements of other kinds (e.g. vertices and faces).
 
-You also have in *Edit* mode an extra option when using these basic manipulations:
+You also have in *Edit mode* an extra option when using these basic manipulations:
 the :doc:`proportional editing </editors/3dview/transform/transform_control/proportional_edit>`.

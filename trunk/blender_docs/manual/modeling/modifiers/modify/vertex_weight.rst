@@ -90,7 +90,7 @@ Texture
 Viewing Modified Weights
 ------------------------
 
-You can view the modified weights in *Weight Paint* mode. This also implies that
+You can view the modified weights in *Weight Paint mode*. This also implies that
 you'll have to disable the Vertex Weight modifiers if you want to see the original weights of
 the vertex group you are editing.
 
@@ -272,10 +272,10 @@ let's dynamically control a *Wave* modifier with a modified vertex group.
 
 #. Add a *Grid* mesh with **100×100** x/y subdivisions and a **5** BU Radius
 
-#. Switch to *Edit* mode (:kbd:`Tab`), and in the *Object Data* properties, *Vertex Groups* panel,
+#. Switch to *Edit mode* (:kbd:`Tab`), and in the *Object Data* properties, *Vertex Groups* panel,
    add a vertex group. Assign to it all your mesh's vertices with ``1.0`` weight.
 
-#. Go back to *Object* mode. Then, go to the *Modifiers* properties, and add a *Vertex Weight Proximity* modifier.
+#. Go back to *Object mode*. Then, go to the *Modifiers* properties, and add a *Vertex Weight Proximity* modifier.
    Set the Distance mode to *Object*. Select your vertex group, and the target object you want (here I used the lamp).
 
    You will likely have to adjust the linear mapping of the weights produced by the
@@ -306,7 +306,7 @@ Using Distance from a Target Object's Geometry
 
 We're going to illustrate this with a *Displace* modifier.
 
-Add a **10×10** BU **100×100** vertices grid, and in *Edit* mode,
+Add a **10×10** BU **100×100** vertices grid, and in *Edit mode*,
 add to it a vertex group containing all of its vertices, as above.
 You can even further sub-divide it with a first *Subsurf* modifier.
 

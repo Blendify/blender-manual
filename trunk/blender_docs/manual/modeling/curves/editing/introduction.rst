@@ -37,7 +37,7 @@ Normal Size
 Hiding Elements
 ---------------
 
-When in *Edit* mode, you can hide and reveal elements from the display.
+When in *Edit mode*, you can hide and reveal elements from the display.
 This can be useful in complex models with many elements on the Screen.
 
 Hide Selected elements
@@ -66,7 +66,7 @@ Basic Curve Editing (translation, rotation, scale)
 Like other elements in Blender, Curve control points can be grabbed/moved (:kbd:`G`),
 rotated (:kbd:`R`) or scaled (:kbd:`S`)
 as described in the :doc:`Basic Transformations </editors/3dview/transform/introduction>` section.
-When in *Edit* mode, :doc:`proportional editing
+When in *Edit mode*, :doc:`proportional editing
 </editors/3dview/transform/transform_control/proportional_edit>`
 is also available for transformation actions.
 
@@ -396,7 +396,7 @@ Convert Curve to Mesh
    | Hotkey:   :kbd:`Alt-C`
 
 
-There is also an "external" conversion, from curve to mesh, that only works in *Object* mode.
+There is also an "external" conversion, from curve to mesh, that only works in *Object mode*.
 It transforms a *Curve* object into a *Mesh* object,
 using the curve resolution to create edges and vertices.
 Note that it also keeps the faces and volumes created by closed and extruded curves.

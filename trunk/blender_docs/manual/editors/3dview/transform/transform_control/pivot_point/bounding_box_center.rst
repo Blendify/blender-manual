@@ -33,7 +33,7 @@ Read more about selecting different
 In Object mode
 ==============
 
-In *Object* mode, the bounding box is wrapped around the Object and transformation
+In *Object mode*, the bounding box is wrapped around the Object and transformation
 takes place relative to the location of the Object center (indicated by the yellow circle).
 The image below shows the results of using the Bounding Box as the pivot point in a number of
 situations.

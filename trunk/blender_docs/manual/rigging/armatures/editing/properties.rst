@@ -26,7 +26,7 @@ Just keep in mind that bones' roots and tips behave more or less like meshes' ve
 and bones themselves act like edges in a mesh.
 
 As you know, bones can have two types of relationships: They can be parented,
-and in addition connected. Parented bones behave in *Edit* mode exactly as if they
+and in addition connected. Parented bones behave in *Edit mode* exactly as if they
 had no relations - you can grab, rotate, scale, etc.
 a parent bone without affecting its descendants. However,
 connected bones must always have parent's tips connected to child's roots,
@@ -198,7 +198,7 @@ but in "reversed order". See the Fig. Switching example.
 Bone Roll
 =========
 
-In *Edit* mode, you can control of the bones roll
+In *Edit mode*, you can control of the bones roll
 (i.e. the rotation around the Y axis of the bone).
 
 However, after editing the armature, or when using :term:`euler rotation`,
@@ -295,14 +295,14 @@ Hinge
    (also :kbd:`Shift-W` :menuselection:`--> (Hinge, ...)`), S
    (also :kbd:`Shift-W` :menuselection:`--> (No Scale, ...)`)
 
-   These settings affect the behavior of children bones while transforming their parent in *Pose* mode,
+   These settings affect the behavior of children bones while transforming their parent in *Pose mode*,
    so this will be detailed in the :doc:`posing part </rigging/posing/index>` !
 Hide
    This will hide the bone (same as pressing :kbd:`H` in the 3D views;
    see :ref:`this page <armature-bone_hide>`).
 Lock 
    (also :kbd:`Shift-W` :menuselection:`--> (Locked, ...)`)
-   This will prevent all editing of the bone in *Edit* mode;
+   This will prevent all editing of the bone in *Edit mode*;
    see :doc:`previous page </rigging/armatures/editing/bones>`.
 Layers button
    These small buttons allow you to control to which bone layer this bone belongs;
@@ -317,7 +317,7 @@ Bone Rigidity
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit and Pose modes
+   | Mode:     Edit and Pose mode
    | Panel:    *Armature Bones* (*Editing* context)
 
 
@@ -327,10 +327,10 @@ Bone Rigidity
    The Armature Bones panel in Pose mode.
 
 
-Even though you have the *Segm* setting available in *Edit* mode
+Even though you have the *Segm* setting available in *Edit mode*
 (bones sub-panel, in the *Armature Bones* panel),
-you should switch to the *Pose* mode (:kbd:`Ctrl-Tab`) to edit these "smooth"
-bones' properties - one explanation to this strange need is that in *Edit* mode,
+you should switch to the *Pose mode* (:kbd:`Ctrl-Tab`) to edit these "smooth"
+bones' properties - one explanation to this strange need is that in *Edit mode*,
 even in *B-Bone* visualization, bones are drawn as sticks,
 so you can't visualize the effects of these settings.
 

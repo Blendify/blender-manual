@@ -32,7 +32,7 @@ then convert it to a mesh for further modeling. Meta objects are also very effic
 
 .. note::
 
-   *Meta* objects have a slightly different behavior in *Object* mode.
+   *Meta* objects have a slightly different behavior in *Object mode*.
 
 
 Primitives
@@ -65,7 +65,7 @@ In Object mode, the calculated mesh is shown, along with a black "selection ring
    Meta Ball example.
 
 
-In *Edit* mode (*Meta Ball* *example*), a meta is drawn as a mesh (either shaded or as black wireframe,
+In *Edit mode* (*Meta Ball* *example*), a meta is drawn as a mesh (either shaded or as black wireframe,
 but without any vertex of course), with two colored circles: a red one for selection (pink when selected),
 and a green one for a direct control of the meta's stiffness (light green when active).
 Note that except for the *Scale* (:kbd:`S`) transformation,
@@ -77,7 +77,7 @@ Meta Ball Options
 
 All Meta objects in a scene interact with each other.
 The settings in the *MetaBall* section apply to all meta objects.
-In *Edit* mode,
+In *Edit mode*,
 the *Active Element* panel appears for editing individual meta elements.
 
 
@@ -139,7 +139,7 @@ The setting is global to a group of *Meta* objects.
 As the threshold increases, the influence that each meta has on each other increases.
 
 There are two types of influence: **positive** or **negative**. The type can be toggled on
-the *Active Element* panel while in *Edit* mode,
+the *Active Element* panel while in *Edit mode*,
 using the *Negative* button.
 You could think of **positive** as attraction and **negative** as repulsion of meshes.
 A negative meta will push away or repel the meshes of positive *Meta* objects.
@@ -212,7 +212,7 @@ Underlying Structure
 
 
 Blender has five types of metas, each determined by its underlying (or directing) structure.
-In *Edit* mode, you can change this structure,
+In *Edit mode*, you can change this structure,
 either using the relevant buttons in the *MetaBall tools* panel,
 or the drop-down list in the *Transform Properties* panel (:kbd:`N`).
 Depending on the structure, you might have additional parameters,

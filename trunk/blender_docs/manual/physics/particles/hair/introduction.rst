@@ -101,7 +101,7 @@ Steps
 - for the softbody animation, because the control points are animated like vertices,
   so more control points mean longer calculation times.
 - for the interactive editing, because you can only move the control points
-  (but you may recalculate the number of control points in *Particle* Mode).
+  (but you may recalculate the number of control points in *Particle Mode*).
 
    10 Segments should be sufficient even for very long hair,
    5 Segments are enough for shorter hair, and 2 or 3 segments should be enough for short fur.

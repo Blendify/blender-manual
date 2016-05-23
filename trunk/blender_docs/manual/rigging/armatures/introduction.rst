@@ -49,7 +49,7 @@ they have a specific state, called "rest position". This is the armature's defau
 the default position/rotation/scale of its bones, as set in *Edit mode*.
 
 In *Edit mode*, you will always see your armature in rest position,
-whereas in *Object* and *Pose mode*,
+whereas in *Object mode* and *Pose mode*,
 you usually get the current "pose" of the armature
 (unless you enable the *Rest Position* button of the *Armature* panel).
 
