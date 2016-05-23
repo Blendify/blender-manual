@@ -378,7 +378,7 @@ Add Hook
 Adds a :doc:`Hook Modifier </modeling/modifiers/deform/hooks>` (using either a new empty,
 or the current selected object) linked to the selection.
 Note that even if it appears in the history menu,
-this action cannot be undone in *Edit* mode - probably because it involves other objects...
+this action cannot be undone in *Edit mode* - probably because it involves other objects...
 
 
 Blend From Shape, Propagate Shapes

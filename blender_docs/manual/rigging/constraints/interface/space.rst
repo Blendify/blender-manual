@@ -61,6 +61,6 @@ Local With Parent (bones only)
 
 Pose Space (bones only)
    The bone properties are evaluated in the armature object local space
-   (i.e. independently from the armature transformations in *Object* mode).
+   (i.e. independently from the armature transformations in *Object mode*).
    Hence, if the armature object has null transformations,
    *Pose Space* will have the same effect as *World Space*.

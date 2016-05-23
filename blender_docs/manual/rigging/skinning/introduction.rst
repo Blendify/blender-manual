@@ -22,7 +22,7 @@ it should transform and/or deform is called the "skinning" process...
 In Blender, you have two main skinning types:
 
 - You can :doc:`Parent/Constrain Objects to Bones </rigging/skinning/objects>` - then,
-  when you transform the bones in *Pose* mode, their "children" objects are also transformed,
+  when you transform the bones in *Pose mode*, their "children" objects are also transformed,
   exactly as with a standard parent/children relationship...
   The "children" are **never** deformed when using this method.
 - You can :doc:`Using the Armature modifier on entire Mesh </rigging/skinning/obdata>`,

@@ -57,7 +57,7 @@ Smooth Shading
 
 
 The easiest way is to set an entire object as smooth or faceted by selecting a mesh object,
-and in *Object* mode, click *Smooth* in the *Tool Shelf*.
+and in *Object mode*, click *Smooth* in the *Tool Shelf*.
 This button does not stay pressed;
 it forces the assignment of the "smoothing" attribute to each face in the mesh,
 including when you add or delete geometry.

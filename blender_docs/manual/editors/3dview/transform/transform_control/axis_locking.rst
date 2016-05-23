@@ -9,8 +9,8 @@ Axis Locking
    Axis locking
 
 
-:doc:`Transformations (translation/scale/rotation) </editors/3dview/transform/introduction>` in *Object*
-and *Edit* mode, as well as extrusion in *Edit* mode) can be locked to particular axis relative to the current
+:doc:`Transformations (translation/scale/rotation) </editors/3dview/transform/introduction>` in *Object mode*
+and *Edit mode*, as well as extrusion in *Edit mode*) can be locked to particular axis relative to the current
 :doc:`transform orientation </editors/3dview/transform/transform_control/transform_orientations>`.
 By locking a transformation to a particular axis you are restricting transformations to a single dimension.
 

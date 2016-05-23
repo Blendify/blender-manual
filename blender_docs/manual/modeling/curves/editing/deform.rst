@@ -88,7 +88,7 @@ Let's make a simple example:
 
 - Remove default cube object from scene and add a Monkey
   (:menuselection:`Add --> Mesh --> Monkey`, *Add a Monkey!*)!
-- Press :kbd:`Tab` to exit *Edit* mode.
+- Press :kbd:`Tab` to exit *Edit mode*.
 
 
 .. figure:: /images/curvesdeform_exampleaddcurve.jpg
@@ -104,8 +104,8 @@ Let's make a simple example:
    Edit Curve.
 
 
-- While in *Edit* mode, move the control points of the curve as shown in (*Edit Curve*),
-  then exit *Edit* mode (:kbd:`Tab`).
+- While in *Edit mode*, move the control points of the curve as shown in (*Edit Curve*),
+  then exit *Edit mode* (:kbd:`Tab`).
 
 
 .. figure:: /images/curvesdeform_examplemonkeyoncurve1.jpg

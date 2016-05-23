@@ -245,11 +245,11 @@ However, you have a few goodies when weight-painting a mesh already parented to 
 an armature. For these to work, you must:
 
 - Select the armature.
-- Switch to *Pose* mode (:kbd:`Ctrl-Tab`).
+- Switch to *Pose mode* (:kbd:`Ctrl-Tab`).
 - Select the mesh to weight.
-- Hit again :kbd:`Ctrl-Tab` to switch to *Weight Paint* mode.
+- Hit again :kbd:`Ctrl-Tab` to switch to *Weight Paint mode*.
 
-Now, when you select a bone of the armature (which remained in *Pose* mode),
+Now, when you select a bone of the armature (which remained in *Pose mode*),
 you automatically activate the corresponding vertex group of the mesh - Very handy! Obviously,
 you can only select one bone at a time in this mode (so :kbd:`Shift-LMB` clicking does not work).
 

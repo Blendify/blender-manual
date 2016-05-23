@@ -48,7 +48,7 @@ First, create a mesh representing the profile of your object.
 If you are modeling a hollow object, it is a good idea to thicken the outline.
 (*Glass profile*) shows the profile for a wine glass we will model as a demonstration.
 
-Go to the *Edit* mode and select all the vertices of the Profile with :kbd:`A`.
+Go to the *Edit mode* and select all the vertices of the Profile with :kbd:`A`.
 
 We will be rotating the object around the cursor in the top view,
 so switch to the top view with :kbd:`Numpad7`.
@@ -62,7 +62,7 @@ so switch to the top view with :kbd:`Numpad7`.
 
 Place the cursor along the center of the profile by selecting one of the vertices along the
 center, and snapping the 3D cursor to that location with :menuselection:`Mesh --> Cursor --> Selection`.
-(*Glass profile, top view in* *Edit* *mode, just before spinning*)
+(Glass profile, top view in *Edit mode*, just before spinning)
 shows the wine glass profile from top view, with the cursor correctly positioned.
 
 

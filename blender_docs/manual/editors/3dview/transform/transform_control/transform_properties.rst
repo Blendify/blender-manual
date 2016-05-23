@@ -23,10 +23,10 @@ Transform Properties Panel
 
 
 The *Transform Properties* section in the *View Properties* panel allows you to view and
-manually/numerically control the position, rotation, and other properties of an object, in *Object* mode.
-In *Edit* mode, it mainly allows you to enter precise coordinates for a vertex,
+manually/numerically control the position, rotation, and other properties of an object, in *Object mode*.
+In *Edit mode*, it mainly allows you to enter precise coordinates for a vertex,
 or median position for a group of vertices (including an edge/face). As each type of object has a different set of
-options in its *Transform Properties* panel in *Edit* mode,
+options in its *Transform Properties* panel in *Edit mode*,
 see their respective descriptions in the :doc:`Modeling chapter </modeling/index>`.
 
 

@@ -292,7 +292,7 @@ one go.
 Options
 ^^^^^^^
 
-*Select All by Type* in *Object* mode offers an option for every type
+*Select All by Type* in *Object mode* offers an option for every type
 of object that can be described by the *ObData* data-block.
 
 Just take your pick.

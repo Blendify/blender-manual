@@ -78,7 +78,7 @@ However, you can have "2D" surfaces made of curves
 or, to a lesser extent, the filling of closed 2D curves. And you can have "1D" curves made of surfaces,
 like a NURBS surface with only one row (either in U or V direction) of control points produces only a curve...
 
-Visually you can tell which is which by entering *Edit* mode and looking at the 3D window's header:
+Visually you can tell which is which by entering *Edit mode* and looking at the 3D window's header:
 either the header shows *Surface* or *Curve* as one of the menu choices. Also,
 you can :doc:`extrude </modeling/curves/editing/extrude>` a whole NURBS surface curve to create a surface,
 but you can't with a simple NURBS curve (we talk here about the "standard" *Extrude* tool,
@@ -148,7 +148,7 @@ Closed and Open Surfaces
 
 Like curves, surfaces can be closed (cyclical) or open, independently in both directions,
 allowing you to easily create a tube, donut or sphere shape,
-and they can be drawn as "solids" in *Edit* mode.
+and they can be drawn as "solids" in *Edit mode*.
 This makes working with surfaces quite easy.
 
 

@@ -4,7 +4,7 @@
 Curve Selection
 ***************
 
-Curve selection in *Edit* mode is much less complex than with meshes! Mainly this is
+Curve selection in *Edit mode* is much less complex than with meshes! Mainly this is
 because you have only one selectable element type, the control points
 (no select mode needed here...). These points are a bit more complex than simple vertices,
 however, especially for Béziers, as there is the central vertex, and its two handles...
@@ -35,7 +35,7 @@ the 3D views header. Let's detail them.
 
 Border Select
    All these options have the same meaning and behavior as in :doc:`Object mode </editors/3dview/selecting>`
-   (and the specifics of *Border Select* in *Edit* mode have already been discussed
+   (and the specifics of *Border Select* in *Edit mode* have already been discussed
    :doc:`here </modeling/meshes/selecting/introduction>`).
 
 

@@ -31,7 +31,7 @@ The *Noise* function displaces vertices along the object's ±Z-Axis only.
 *Noise* permanently modifies your mesh according to the material texture.
 Each click adds onto the current mesh.
 For a temporary effect, map the texture to Displacement for a render-time effect.
-In *Object* / *Edit* mode, your object will appear normal, but will render deformed.
+In *Object mode* / *Edit mode*, your object will appear normal, but will render deformed.
 
 The deformation can be controlled by modifying the *Mapping* panel and/or the
 texture's own panel (e.g. *Clouds*, *Marble*, etc.).

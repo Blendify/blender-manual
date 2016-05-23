@@ -39,7 +39,7 @@ By default, letters are just flat filled surfaces, exactly like any closed 2D cu
 But you can of course extrude them... And texts can follow other curves.
 
 Of course, once you are happy with the shape of your text, you can convert it
-(with :kbd:`Alt-C`, in *Object* mode), either to a curve,
+(with :kbd:`Alt-C`, in *Object mode*), either to a curve,
 or directly to a mesh,
 allowing you to use all the powerful features of these types of objects on it...
 
@@ -52,7 +52,7 @@ including the "blue" font that has been applied to a curve path.
    be forewarned that the more characters a single text object has,
    the slower the object will respond interactively.
 
-   As you can see when you switch between *Object* and *Edit* modes,
+   As you can see when you switch between *Object mode* and *Edit mode*,
    the *Font* panel remains the same. This means that its settings can be applied
    equally in both modes ... and this implies that you cannot apply them to just a part of the
    mesh. So font, size, and so on, are common to all letters in a *Text* object.
@@ -95,7 +95,7 @@ full-featured and has some differences:
 
 Exit *Edit* mode
    :kbd:`Tab` doesn't insert a tab character in the text,
-   but rather enters and exits *Edit* mode, as with other object types.
+   but rather enters and exits *Edit mode*, as with other object types.
 Copy
    To copy text to the buffer, use :kbd:`Ctrl-C` or the *Copy* button in the tool shelf.
 Cut and Copy
@@ -211,7 +211,7 @@ Text Selection
    Text in Edit mode.
 
 
-In *Edit* mode, your text has a white cursor, and as in any text editor,
+In *Edit mode*, your text has a white cursor, and as in any text editor,
 it determines where new chars will be inserted! You move this cursor with the arrow keys or
 :kbd:`PageUp` / :kbd:`PageDown` and :kbd:`Home` / :kbd:`End` keys.
 
@@ -466,7 +466,7 @@ Shape
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object or Edit modes
+   | Mode:     Object or Edit mode
    | Panel:    *Curve and Surface* (*Editing* context)
 
 

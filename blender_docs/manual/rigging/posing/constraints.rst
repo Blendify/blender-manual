@@ -10,7 +10,7 @@ Applying Constraints to Bones
    The Constraints panel in Pose mode, with one Floor constraint applied to the active bone (Bone.001).
 
 
-As bones behave like objects in *Pose* mode, they can also be constrained. This is
+As bones behave like objects in *Pose mode*, they can also be constrained. This is
 why the *Constraints* panel is shown in both *Object* and
 *Editing* contexts in this mode... This panel contains the constraints *of the active
 bone* (its name is displayed at the top of the panel,

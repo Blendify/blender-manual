@@ -27,7 +27,7 @@ Weight Paint in a nutshell
    Weight Painted Vertex Group
 
 
-- You enter *Weight Paint* mode from the Mode Menu (:kbd:`Ctrl-Tab`).
+- You enter *Weight Paint mode* from the Mode Menu (:kbd:`Ctrl-Tab`).
   The selected Mesh Object is displayed slightly shaded with a rainbow color spectrum.
 - The color visualizes the weights associated to each vertex in the active Vertex Group.
   Blue means unweighted; Red means fully weighted.
@@ -299,7 +299,7 @@ The option is available from the footer menu bar of the 3D viewport
 You can choose between *Face Selection masking* (left icon)
 and *Vertex selection masking* (right icon).
 
-*Select* mode has some advantages over the default *Weight Paint* mode:
+*Select* mode has some advantages over the default *Weight Paint mode*:
 
 - The original mesh edges are drawn, even when modifiers are active.
 - You can select faces to restrict painting to the vertices of the selected faces.
@@ -485,10 +485,10 @@ To modify automatically assigned weights, jump into the middle of the process wh
 *Pick up here for modifying automatically assigned weights.*
 
 
-- Select the armature in 3D View, and bring the armature to *Pose* **mode**
+- Select the armature in 3D View, and bring the armature to *Pose mode*
   (:kbd:`Ctrl-Tab`, or the 3D View window header mode selector).
 - Select a desired bone in the armature.
-- Select your mesh (using :kbd:`RMB`) and change immediately to *Weight Paint* mode.
+- Select your mesh (using :kbd:`RMB`) and change immediately to *Weight Paint mode*.
   The mesh will be colored according to the weight (degree) that the selected bone movement affects the mesh.
   Initially, it will be all blue (no effect).
 - Weight paint to your heart's content.
@@ -496,7 +496,7 @@ To modify automatically assigned weights, jump into the middle of the process wh
   and fade out through the rainbow to blue for vertices farther away from the bone.
 
 You may select a different bone with :kbd:`RMB` while weight painting,
-provided the armature was left in *Pose* mode as described above.
+provided the armature was left in *Pose mode* as described above.
 This will activate the vertex group sharing the name with the selected bone,
 and display related weights. If the mesh skins the bones,
 you will not be able to see the bones because the mesh is painted.
