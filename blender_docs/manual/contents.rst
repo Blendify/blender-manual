@@ -9,7 +9,7 @@ This is the manual for the 3D animation software from `Blender.org <https://www.
 
 .. only:: html
 
-   .. |vertical_separator| unicode:: U+02758
+   .. |vertical_separator| unicode:: U+2004 U+02758 U+2004
       :trim:
 
    - Other languages:
