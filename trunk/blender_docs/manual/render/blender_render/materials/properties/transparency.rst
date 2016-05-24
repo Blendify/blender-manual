@@ -43,14 +43,13 @@ Fresnel
    depending on the angle between the surface normal and the viewing direction.
    Typically, the larger the angle, the more opaque a material becomes
    (this generally occurs on the outline of the object).
-Specular -
+Specular
    Controls the alpha/falloff for the specular color.
 Blend
    Controls the blending between transparent and non-transparent areas. Only used if Fresnel is greater than 0.
 
 
 Mask
-
 ----
 
 
@@ -65,7 +64,9 @@ This is useful for making textures of solid or semi-transparent objects from pho
 reference material - a mask is made with alpha opaque for pixels within the object,
 and transparent for pixels outside the object.
 
-See :doc:`Mask Transparency </render/blender_render/materials/properties/transparency>`.
+.. seealso::
+
+   :doc:`Mask Transparency </render/blender_render/materials/properties/transparency>`.
 
 
 Z Buffer
@@ -85,8 +86,10 @@ falloff, and blurring,
 and is used for simulating the refraction of light rays through a transparent material,
 like a lens.
 
-Note that the RayTrace option is only available in the Blender Render and Cycles render
-engines, but not in the Game Engine.
+.. note::
+
+   The RayTrace option is only available in the Blender Render and Cycles render
+   engines, but not in the Game Engine.
 
 A ray is sent from the camera and travels through the scene until it encounters an object.
 If the first object hit by the ray is non-transparent,
@@ -168,6 +171,8 @@ Examples
 Index of Refraction
 -------------------
 
+.. huge image
+
 .. figure:: /images/material-raytrace_transp-ior-examples.jpg
 
    Influence of the IOR of an Object on the distortion of the background:
@@ -202,15 +207,19 @@ Fresnel
    * - .. figure:: /images/material-raytrace_transp-fresnelsettings.jpg
           :width: 320px
 
-          Settings for Fresnel using ray-traced (left) and Z transparency (right).
+          Settings for Fresnel using ray-traced.
 
      - .. figure:: /images/material-raytrace_transp-fresnelsettingsztransp.jpg
           :width: 320px
 
+          Settings for Fresnel using Z transparency.
 
-Note the specular highlight in the F4 glass tile
-(which is facing midway between the light and the camera); the Fresnel effect can be seen in
-row C and column 6 where the faces are turned away from the camera.
+
+.. note::
+
+   The specular highlight in the F4 glass tile
+   (which is facing midway between the light and the camera); the Fresnel effect can be seen in
+   row C and column 6 where the faces are turned away from the camera.
 
 The amount of Fresnel effect can be controlled by either increasing the *Blend*
 value or decreasing the *Alpha* value.
@@ -245,10 +254,10 @@ transparent objects is often an interesting alternative.
 
 
 Hints
-*****
+=====
 
 Transparent shadows
-===================
+-------------------
 
 .. list-table::
 
@@ -302,7 +311,7 @@ and *Gather* panels. Alternatively, a texture can be used to control the
 
 
 IOR values for Common Materials
-===============================
+-------------------------------
 
 The following list provides some index of refraction values to use when ray-traced
 transparency is used for various liquids, solids (gems), and gases:
@@ -311,7 +320,7 @@ transparency is used for various liquids, solids (gems), and gases:
 
 
 Gasses
-------
+^^^^^^
 
 .. hlist::
    :columns: 3
@@ -321,7 +330,7 @@ Gasses
    - Oxygen ``1.000276``
 
 Common Liquids
---------------
+^^^^^^^^^^^^^^
 
 .. hlist::
    :columns: 3
@@ -339,7 +348,7 @@ Common Liquids
 
 
 Common Transparent Materials
-----------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. hlist::
    :columns: 3
@@ -350,7 +359,7 @@ Common Transparent Materials
 
 
 Common Opaque Materials
------------------------
+^^^^^^^^^^^^^^^^^^^^^^^
 
 .. hlist::
    :columns: 3
@@ -363,7 +372,7 @@ Common Opaque Materials
 
 
 Gemstones
----------
+^^^^^^^^^
 
 .. hlist::
    :columns: 3
@@ -375,7 +384,7 @@ Gemstones
 
 
 Metals
-------
+^^^^^^
 
 .. hlist::
    :columns: 3

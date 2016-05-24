@@ -53,8 +53,6 @@ Examples
 
 To better grasp the concept, let's assume that we have a cube 2 units wide,
 uniformly moving 1 unit to the right at each frame.
-
-*Image 1* shows a render of frame 1 without Motion Blur; *Image 2* shows a render of frame 2.
 The scale beneath the cube helps in appreciating the movement of 1 Blender unit.
 
 
@@ -63,23 +61,19 @@ The scale beneath the cube helps in appreciating the movement of 1 Blender unit.
    * - .. figure:: /images/render-mblur02.jpg
           :width: 320px
 
-          Image 1. Frame 1 of moving cube without Motion Blur.
+          Frame 1 of the moving cube without Motion Blur.
 
      - .. figure:: /images/render-mblur03.jpg
           :width: 320px
 
-          Image 2. Frame 2 of moving cube without Motion Blur.
+          Frame 2 of the moving cube without Motion Blur.
 
 
 .. figure:: /images/render-mblur04.jpg
    :width: 320px
 
-
-*Image 3* shows the rendering of frame 1 when Sampled Motion Blur is enabled and 8 'intermediate' frames are
-computed. *Shutter* is set to 0.5 - thus the image 8 samples are rendered between frame 1 and halfway to frame 2.
-
-*Image 4* and *Image 5* show the effect of increasing shutter values.
-A value greater than 1 is physically impossible in a real-world camera, but can be used to exaggerate the effect.
+   Frame 1 when Sampled Motion Blur is enabled and 8 'intermediate' frames are computed. 
+   Shutter is set to 0.5 - thus the image 8 samples are rendered between frame 1 and halfway to frame 2.
 
 
 .. list-table::
@@ -87,10 +81,14 @@ A value greater than 1 is physically impossible in a real-world camera, but can 
    * - .. figure:: /images/render-mblur05.jpg
           :width: 320px
 
+          The effect of a increased shutter value.
+
      - .. figure:: /images/render-mblur06.jpg
           :width: 320px
 
+          Even further increased shutter value.
 
+Values greater than 1 are physically impossible in a real-world camera, but can be used to exaggerate the effect.
 Better results than those shown can be obtained by using higher samples than 8,
 but, of course, since as many *separate* renders as samples are needed,
 a Motion Blur render takes that many times more time than a non-Motion Blur one.

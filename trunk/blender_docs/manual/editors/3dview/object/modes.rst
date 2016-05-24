@@ -44,13 +44,13 @@ Modes might affect many things in Blender:
      - Details
    * - .. figure:: /images/icons_object-mode.png
           :width: 35px
-     - *Object* Mode
+     - *Object Mode*
      - *None* [1]_
      - The default mode, available for all object types,
        as it is dedicated to *Object* data-block editing (i.e. position/rotation/size).
    * - .. figure:: /images/icons_edit-mode.png
           :width: 35px
-     - *Edit* Mode
+     - *Edit Mode*
      - :kbd:`Tab` [1]_
      - A mode available for all renderable object types,
        as it is dedicated to their "shape" *ObData* data-block editing

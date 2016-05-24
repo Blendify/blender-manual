@@ -15,7 +15,9 @@ Undo
 
 If you want to undo your last action, just press :kbd:`Ctrl-Z`
 
-See :doc:`Editing Preferences </preferences/editing>` section on undo to change defaults.
+.. seealso:: 
+
+   :doc:`Editing Preferences </preferences/editing>` section on undo to change defaults.
 
 
 Redo
@@ -31,8 +33,8 @@ Redo Last
 Hitting :kbd:`F6` after an action will present you a context-sensitive
 Pop-Up Window based on your last action taken and the *Mode* and *Window* in which Blender is being used.
 
-For example, if your last action was a rotation in *Object* Mode,
-the Window will show you the last value changed for the angle (see Fig:Redo Last - Rotation),
+For example, if your last action was a rotation in *Object Mode*,
+the Window will show you the last value changed for the angle (see Fig. Redo Last - Rotation),
 where you can change your action back completely by typing **0** (zero)
 in the numeric field. There are other useful options, based on your action context,
 and you can not only Undo actions, but change them completely using the available options.
@@ -42,7 +44,7 @@ the Window will also change its contents based on your last action taken.
 In our second example (at the right), the last action taken was a Vertex Move;
 we did a *Scale* on a Face, and, as you can see,
 the contents of the Pop-Up Window are different, because of your context (Edit Mode).
-(See Fig:Redo Last - Scale)
+(See Fig, Redo Last - Scale)
 
 
 .. figure:: /images/basics-undo-redo-f6-rotation-object-edit.jpg
@@ -114,6 +116,9 @@ and you can choose the actions you want to repeat.
 It works in the same way as the Undo History, explained above,
 but the list contains only repeated actions. To access Repeat History, use :kbd:`F3`.
 
+.. container:: lead
+
+   .. clear
 
 .. note::
 

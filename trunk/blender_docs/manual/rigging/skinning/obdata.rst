@@ -95,15 +95,17 @@ see the `Vertex Groups`_ description below.
    see :ref:`their description <modifier-armature-multi_modifier>` for more details),
    and only one "virtual old parenting" one, which will always be at the top of the stack.
 
-Note finally that for settings that are present in both the armature's 
-*Armature panel* and in the objects' *Armature modifier panel* 
-(namely, *Vertex Groups* */* *VertGroups* *,* *Envelopes*, *Quaternion* *and* *B-Bone Rest*),
-the modifier ones always override the armature ones. This means that if, for example,
-you only enable the *Envelopes* deformation method of the armature,
-and then skin it with an object using an *Armature* modifier, where only
-*VertGroups* is enabled,
-the object will only be deformed based on its "bones" vertex groups,
-ignoring completely the bones' envelopes.
+.. note::
+
+   Finally that for settings that are present in both the armature's 
+   *Armature panel* and in the objects' *Armature modifier panel* 
+   (namely, *Vertex Groups* */* *VertGroups* *,* *Envelopes*, *Quaternion* *and* *B-Bone Rest*),
+   the modifier ones always override the armature ones. This means that if, for example,
+   you only enable the *Envelopes* deformation method of the armature,
+   and then skin it with an object using an *Armature* modifier, where only
+   *VertGroups* is enabled,
+   the object will only be deformed based on its "bones" vertex groups,
+   ignoring completely the bones' envelopes.
 
 
 Common Options
@@ -121,7 +123,7 @@ Preserve Volume (Armature modifier)
    a discontinuity when reaching ``180d`` from rest position.
 
 .. list-table::
-   Example of *Quaternion* option effects.
+   Example of Quaternion option effects.
 
    * - .. figure:: /images/RiggingSkinningQuaternionOptExInitState.jpg
           :width: 200px
@@ -197,7 +199,9 @@ shown in the *Envelope* visualization:
   and controlled by the *Dist* setting. Inside this zone,
   the geometry is less and less affected by the bone as it goes away - following a quadratic decay.
 
-See the* :doc:`editing pages </rigging/armatures/editing/properties>` for how to edit these properties.
+.. seealso::
+
+   The :doc:`editing pages </rigging/armatures/editing/properties>` for how to edit these properties.
 
 There is also a bone property, *Weight* (in each bone sub-panel,
 in *Edit mode* only, defaults to **1.0**),
@@ -223,10 +227,12 @@ Radius
 Curved Bone
 -----------
 
-*Curved Bones* (previously known as B-bones) allow you make bones act like bezier curve segments,
+*Curved Bones* (previously known as B-bones) allow you make bones act like Bezier curve segments,
 which results in smoother deformations for longer bones.
 
-See the :doc:`editing pages </rigging/armatures/editing/properties>` for how to edit these properties.
+.. seealso::
+
+   The :doc:`editing pages </rigging/armatures/editing/properties>` for how to edit these properties.
 
 
 Vertex Groups

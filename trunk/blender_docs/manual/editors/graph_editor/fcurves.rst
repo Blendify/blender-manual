@@ -276,8 +276,7 @@ Snap Keys :kbd:`Shift-S`
 
           After Flatten Handles.
 
-M
-irror
+Mirror
 ------
 
 Selected keyframes can be mirrored over different properties using the *Mirror Keys*
