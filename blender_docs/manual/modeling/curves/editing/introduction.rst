@@ -22,7 +22,7 @@ Display Options
    Curve Display panel.
 
 
-When in Edit mode, the Properties Shelf (:kbd:`N`) contains options in the
+When in Edit mode, the Properties Shelf :kbd:`N` contains options in the
 *Curve Display* panel for how curves are displayed in the 3D viewport.
 
 Handles
@@ -60,11 +60,11 @@ Basic Curve Editing (translation, rotation, scale)
 
    | Mode:     Edit mode
    | Menu:     :menuselection:`Curve --> Transform --> Grab/Move, Rotate, Scale, ...`
-   | Hotkey:   :kbd:`G` / :kbd:`R` / :kbd:`S`
+   | Hotkey:   :kbd:`G`, :kbd:`R`, :kbd:`S`
 
 
-Like other elements in Blender, Curve control points can be grabbed/moved (:kbd:`G`),
-rotated (:kbd:`R`) or scaled (:kbd:`S`)
+Like other elements in Blender, Curve control points can be grabbed/moved :kbd:`G`,
+rotated :kbd:`R` or scaled :kbd:`S`
 as described in the :doc:`Basic Transformations </editors/3dview/transform/introduction>` section.
 When in *Edit mode*, :doc:`proportional editing
 </editors/3dview/transform/transform_control/proportional_edit>`
@@ -174,7 +174,7 @@ Extending Curves
 
    | Mode:     Edit mode
    | Menu:     :menuselection:`Curve --> Extrude`
-   | Hotkey:   :kbd:`Ctrl-LMB` or :kbd:`E`
+   | Hotkey:   :kbd:`Ctrl-LMB`, :kbd:`E`
 
 
 Once a curve is created you can add new segments (in fact,
@@ -275,7 +275,7 @@ Deleting Elements
 
    | Mode:     Edit mode
    | Menu:     :menuselection:`Curve --> Delete...`
-   | Hotkey:   :kbd:`X` or :kbd:`Delete`
+   | Hotkey:   :kbd:`X`, :kbd:`Del`
 
 Options for the *Erase* pop-up menu:
 
@@ -461,7 +461,7 @@ Set Goal Weight
    :class: refbox
 
    | Mode:     Edit mode
-   | Menu:     :menuselection:`W --> Set Goal Weight`
+   | Menu:     :kbd:`W` :menuselection:`--> Set Goal Weight`
 
 
 This sets the "goal weight" of selected control points,

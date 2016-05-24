@@ -17,11 +17,11 @@ Basic Surface Editing (translation, rotation, scale)
 
    | Mode:     Edit mode
    | Menu:     :menuselection:`Surface --> Transform --> Grab/Move, Rotate, Scale, ...`
-   | Hotkey:   :kbd:`G` / :kbd:`R` / :kbd:`S`
+   | Hotkey:   :kbd:`G`, :kbd:`R`, :kbd:`S`
 
 
 Once you have a selection of one or more control points,
-you can grab/move (:kbd:`G`), rotate (:kbd:`R`) or scale (:kbd:`S`) them, like many other things in Blender,
+you can grab/move :kbd:`G`, rotate :kbd:`R` or scale :kbd:`S` them, like many other things in Blender,
 as described in the :doc:`Manipulation in 3D Space </editors/3dview/transform/introduction>` section.
 
 You also have in *Edit mode* an extra option when using these basic manipulations: the
@@ -68,7 +68,7 @@ Adding or Extruding
 
    | Mode:     Edit mode
    | Menu:     :menuselection:`Surface --> Extrude`
-   | Hotkey:   :kbd:`E` (or :kbd:`Ctrl-LMB`)
+   | Hotkey:   :kbd:`E`, :kbd:`Ctrl-LMB`
 
 
 Unlike meshes or curves, you cannot generally directly add new control points to a surface
@@ -85,36 +85,37 @@ There are two things very important to understand:
 
 - Surfaces are **2D** objects - so you can't extrude anything *inside* a surface
   (e.g. "inner" row); it wouldn't make any sense!
-- The control "grid" *must remain "squarish"*,
+- The control "grid" *must* remain "squarish",
   which means that you can only extrude a whole row, not parts of rows here and there...
 
 To summarize, the *Extrude* tool will only work when one and only one whole border
 row is selected - otherwise nothing happens.
 
 As for curves, you cannot create a new surface in your object out of nowhere,
-by just :kbd:`Ctrl-LMB` -clicking with nothing selected.
+by just :kbd:`Ctrl-LMB` - clicking with nothing selected.
 However, unlike for curves, there is no "cut" option allowing you to separate a surface into several parts,
 so you only can create a new surface by copying (`Duplication`_) an existing one
-(:kbd:`Shift-D`), or adding a new one (*Add* menu...).
+:kbd:`Shift-D`, or adding a new one with the *Add* menu.
 
 
 Examples
 ^^^^^^^^
 
-Images (*Selecting control-point*) to (*Complete*)
+Images Fig. Selecting control-point to Fig. Complete
 show a typical extrusion along the side of a surface.
 
-In (*Selecting control-point*) and (:kbd:`Shift-R`),
+In *Selecting control-point* and :kbd:`Shift-R`,
 a border row of control points were highlighted by selecting a single control point,
-labeled ``C``, and then using the handy row select tool (:kbd:`Shift-R`)
+labeled ``C``, and then using the handy row select tool :kbd:`Shift-R`
 to select the rest of the control points.
 
 
 .. figure:: /images/NurbsSurfaceSelectEdge.jpg
    :width: 500px
 
+   Selecting control-point
 
-The edge is then extruded using :kbd:`E` as shown in (*Extruding*).
+The edge is then extruded using :kbd:`E` as shown in Fig. Extruding.
 Notice how the mesh has bunched up next to the highlighted edge;
 the area in question is highlighted in a light-gray circular area.
 That is because the *new* extruded surface section is bunched up there as well.
@@ -123,6 +124,7 @@ That is because the *new* extruded surface section is bunched up there as well.
 .. figure:: /images/NurbsExtrude.jpg
    :width: 500px
 
+   Compete
 
 By moving the new section away from the area, the surface begins to "unbunch".
 The direction of movement is marked with a white arrow, labeled ``E``,
@@ -175,7 +177,7 @@ the copy is selected and placed in *Grab* mode, so you can move it to another pl
 
 However, with surfaces there are some selections that can't be duplicated,
 in which case they will just be placed in *Grab* mode... In fact,
-only selections forming *a single valid sub-grid* are copyable; let's see this in practice:
+only selections forming a *single* valid sub-grid are copyable; let's see this in practice:
 
 - You can copy a single control point.
   From it, you will be able to "extrude" a "surface curve" along the U axis,
@@ -198,7 +200,7 @@ Deleting Elements
 
    | Mode:     Edit mode
    | Menu:     :menuselection:`Curve --> Delete...`
-   | Hotkey:   :kbd:`X` or :kbd:`Delete`
+   | Hotkey:   :kbd:`X`, :kbd:`Del`
 
 
 The *Erase* pop-up menu of surfaces offers you two options:
@@ -229,10 +231,10 @@ Example
    Before and after
 
 
-In (*Before*) a row of control points has been selected by initially selecting the control point labeled ``A``
+In Fig. Before a row of control points has been selected by initially selecting the control point labeled ``A``
 and using :kbd:`Shift-R` to select the remaining control points.
-Then, using the *Delete Menu* (:kbd:`X`),
-the *selected* row of control points is erased, resulting in (*After*).
+Then, using the *Delete Menu* :kbd:`X`,
+the *selected* row of control points is erased, resulting in Fig. After.
 
 
 Joining or Merging Surfaces
@@ -250,7 +252,7 @@ merging two surfaces requires that a single edge, a border row of control points
 from two separate surfaces are selected. This means that the surfaces must be part of the same object. For example,
 you can't join two surfaces while in *Object mode* - but you can of course, as with any objects of the same type,
 join two or more *Surface* objects
-into one object (:kbd:`Ctrl-J`) - they just won't be "linked" or merged in a single one... Yes, it's a bit confusing!
+into one object :kbd:`Ctrl-J` - they just won't be "linked" or merged in a single one... Yes, it's a bit confusing!
 
 This command is equivalent to creating edges or :kbd:`F` aces for meshes
 (hence its shortcut), and so it only works in *Edit mode*.
@@ -276,15 +278,15 @@ and you just have to "skin" them as described above to get a nice, smooth and ha
 Examples
 ^^^^^^^^
 
-(*Joining ready*) is an example of two NURBS surface curves, **not** NURBS curves,
+Fig. Joining ready is an example of two NURBS surface curves, **not** NURBS curves,
 in *Edit mode*, ready to be joined.
-(*Joining complete*) is the result of joining the two curves.
+Fig. Joining complete is the result of joining the two curves.
 
 
 .. figure:: /images/NurbsJoin.jpg
    :width: 350px
 
-   Joining ready.
+   Joining ready and Joining complete
 
 
 Subdivision
@@ -300,7 +302,7 @@ Subdivision
 
 Surface subdivision is most simple:
 using either the *Subdivide* entry in the *Specials* menu
-(:kbd:`W`), or the *Subdivide* button of the *Curve Tools1* panel,
+:kbd:`W`, or the *Subdivide* button of the *Curve Tools1* panel,
 you will subdivide once all *completely* selected grids by subdividing each "quad" into four
 smaller ones.
 
@@ -340,8 +342,8 @@ Switch Direction
      :menuselection:`Specials --> Switch Direction`
 
 
-This command will "reverse" the direction of any curve with at least one selected element (i.
-e. the start point will become the end one, and *vice versa*).
+This command will "reverse" the direction of any curve with at least one selected element 
+(i.e. the start point will become the end one, and *vice versa*).
 Mainly useful when using a curve as path, or the bevel and taper options...
 
 
@@ -375,10 +377,10 @@ Misc Editing
 ------------
 
 You have some of the same options as with meshes, or in *Object mode*.
-You can :ref:`separate <object-separate>` a given surface (:kbd:`P`),
+You can :ref:`separate <object-separate>` a given surface :kbd:`P`,
 make other selected objects :ref:`children <object-parenting>`
 of one or three control points
-(:kbd:`Ctrl-P`),
+:kbd:`Ctrl-P`,
 or :doc:`add hooks </modeling/modifiers/deform/hooks>` to control some points with other objects.
 
 The *Mirror* tool is also available, behaving exactly as with
