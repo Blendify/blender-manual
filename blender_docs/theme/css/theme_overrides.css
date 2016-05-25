@@ -70,6 +70,9 @@ table {caption-side: bottom}
 	color:#808080;
 }
 
+/*figure in table margin*/
+.rst-content td div.figure{margin-bottom:0px}
+
 /* proper seal navigation buttons; jumping on resize */
 .rst-footer-buttons::before , .rst-footer-buttons::after{
 	width: 100%;
