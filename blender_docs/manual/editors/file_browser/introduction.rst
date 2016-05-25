@@ -38,7 +38,7 @@ Shortcuts
 Path Fields
 -----------
 
-Increment Filename (:kbd:`Plus`, :kbd:`Minus`)
+Increment Filename :kbd:`Plus`, :kbd:`Minus`
    Adds or removes a trailing number to your file name.
    *(use to make *versions* of a file)*.
 Auto Complete :kbd:`Tab`
@@ -50,7 +50,7 @@ Navigation
 
 Enter Path :kbd:`Return`
    Enter the directory.
-Parent Directory (:kbd:`Backspace` or :kbd:`P`)
+Parent Directory :kbd:`Backspace`, :kbd:`P`
    Takes you up one directory.
 
 
@@ -71,7 +71,7 @@ Selection
 File Management
 ---------------
 
-Delete Files (:kbd:`Delete` or :kbd:`X`)
+Delete Files :kbd:`Del`, :kbd:`X`
    Delete the currently selected files.
 Rename :kbd:`Ctrl-LMB`
    Can be used on a file or directory to rename it.

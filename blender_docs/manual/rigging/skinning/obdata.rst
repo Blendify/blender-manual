@@ -244,8 +244,8 @@ each bone only affects vertices belonging to a vertex group having the same name
 So if you have e.g. a ``forearm`` bone, it will only affect the ``forearm`` vertex group of its skin object(s).
 
 The influence of one bone on a given vertex is controlled by the weight of this vertex in the relevant group.
-Thus, the :ref:`Weight Paint mode <painting_weight-index>`
-(:kbd:`Ctrl-Tab` with a mesh selected) is most useful here, to easily set/adjust the vertices' weights.
+Thus, the :ref:`Weight Paint mode <painting_weight-index>`.
+:kbd:`Ctrl-Tab`, if a mesh is selected is most useful here, to easily set/adjust the vertices' weights.
 
 However, you have a few goodies when weight-painting a mesh already parented to (skinning)
 an armature. For these to work, you must:

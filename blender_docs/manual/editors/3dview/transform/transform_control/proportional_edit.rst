@@ -58,7 +58,7 @@ Edit mode
 
    .. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-proportional-edit-header-icon-edit-mode.jpg
 
-   | Hotkey:   :kbd:`O` / :kbd:`Alt-O` / :kbd:`Shift-O`
+   | Hotkey:   :kbd:`O`, :kbd:`Alt-O`, :kbd:`Shift-O`
 
 
 When working with dense geometry, it can become difficult to make subtle adjustments to the
@@ -77,7 +77,7 @@ Influence
 ---------
 
 You can increase or decrease the radius of the proportional editing influence with the mouse
-wheel :kbd:`WheelUp` / :kbd:`WheelDown` or :kbd:`PageUp` / :kbd:`PageDown`
+wheel :kbd:`WheelUp`, :kbd:`WheelDown` or :kbd:`PageUp`, :kbd:`PageDown`
 respectively. As you change the radius,
 the points surrounding your selection will adjust their positions accordingly.
 
@@ -104,10 +104,10 @@ Options
 
 The *Proportional Editing* mode menu is on the *3D View* header.
 
-Disable (:kbd:`O` or :kbd:`Alt-O`)
+Disable :kbd:`O`, :kbd:`Alt-O`
    Proportional Editing is Off, only selected vertices will be affected.
 
-Enable (:kbd:`O` or :kbd:`Alt-O`)
+Enable :kbd:`O`, :kbd:`Alt-O`
    Vertices other than the selected vertex are affected, within a defined radius.
 
 Projected (2D)
@@ -181,8 +181,8 @@ Switch to a front view :kbd:`Numpad1` and activate the grab tool with :kbd:`G`.
 As you drag the point upwards, notice how nearby vertices are dragged along with it.
 When you are satisfied with the placement, click :kbd:`LMB` to fix the position.
 If you are not satisfied,
-cancel the operation and revert your mesh to the way it looked before with :kbd:`RMB`
-(or :kbd:`Esc`).
+cancel the operation and revert your mesh to the way it looked before with 
+:kbd:`RMB`, :kbd:`Esc`.
 
 You can use the proportional editing tool to produce great effects with the scaling
 :kbd:`S` and rotation :kbd:`R` tools,
@@ -195,8 +195,8 @@ as Fig. A landscape obtained via proportional editing shows.
    A landscape obtained via proportional editing.
 
 
-Combine these techniques with vertex painting to create fantastic landscapes. The *final
-rendered landscape* image below shows the results of proportional editing after the
+Combine these techniques with vertex painting to create fantastic landscapes. 
+The Fig. final rendered landscape image below shows the results of proportional editing after the
 application of textures and lighting.
 
 

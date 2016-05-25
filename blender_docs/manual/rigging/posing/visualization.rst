@@ -239,8 +239,8 @@ and a slightly blueish gray for selected ones.
 Each frame is materialized by a small white dot on the paths.
 
 As with ghosts, the paths are automatically updated when you edit your poses/keyframes,
-and they are also active during animation playback (:kbd:`Alt-A`,
-only useful when the *Around Current Frame* option is enabled).
+and they are also active during animation playback. :kbd:`Alt-A` is
+only useful when the *Around Current Frame* option is enabled.
 
 
 .. figure:: /images/RiggingEditingObjectDataPropertyCxtMotionPathsPanel.jpg

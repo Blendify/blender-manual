@@ -17,7 +17,7 @@ selection or cursor to a given point while the second type is used during transf
 
 The *Snap* menu
 (also available from the 3D header in both *Object mode* and *Edit mode*
-(:menuselection:`Object --> Snap` and :menuselection:`Mesh --> Snap`).
+:menuselection:`Object --> Snap` and :menuselection:`Mesh --> Snap`).
 This menu provides a number of options to move the cursor or your selection to a defined point
 (the cursor, selection or the grid).
 

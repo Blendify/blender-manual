@@ -115,7 +115,7 @@ Time
 
       If you set *Start* time to 3.0, and *End* time to 4.0, you will simulate 1 second of fluid motion.
       That one second of fluid motion will be spread across however-many frames are set in the *Anim* panel
-      (:menuselection:`Scene context --> Render sub-context --> Anim and Output` panel).
+      :menuselection:`Scene context --> Render sub-context --> Anim and Output`.
 
       This means, for example, that if you have Blender set to make 250 frames at 25 fps, the fluid
       will look like it had already been flowing for 3 seconds at the start of the simulation,

@@ -8,14 +8,15 @@ These are available through the *Mesh Tools* palette,
 the Mesh menu in the 3d view header, and context menus in the 3d view,
 as well as individual shortcut keys.
 
-Note that all the "transform precision/snap" keys (:kbd:`Ctrl` and/or :kbd:`Shift`)
-work also for all these advanced operations... However, most of them do not have
-:doc:`axis locking </editors/3dview/transform/transform_control/axis_locking>` possibilities,
-and some of them do not take into account
-:doc:`pivot point </editors/3dview/transform/transform_control/pivot_point/index>`
-and/or
-:doc:`transform orientation </editors/3dview/transform/transform_control/transform_orientations>`
-either.
+.. note::
+
+   All the "transform precision/snap" keys :kbd:`Ctrl` and/ or :kbd:`Shift`
+   work also for all these advanced operations... However, most of them do not have
+   :doc:`axis locking </editors/3dview/transform/transform_control/axis_locking>` possibilities,
+   and some of them do not take into account
+   :doc:`pivot point </editors/3dview/transform/transform_control/pivot_point/index>` and/or
+   :doc:`transform orientation </editors/3dview/transform/transform_control/transform_orientations>`
+   either.
 
 These transform tools are available in the *Transform* section of the
 *Mesh* menu in the menu bar.

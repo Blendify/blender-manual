@@ -37,7 +37,7 @@ Ways to use Particle Mode
 - Give it an initial velocity in the *Normal* direction (first check the *Advanced* box,
   then modify the *Velocity* sub-panel), or adjust the *Hair Length*.
 - Create a simulation - Place the camera at a good position
-  (:menuselection:`pop-up --> View --> Cameras --> Active Camera ...` or :kbd:`Numpad0`)
+  :menuselection:`pop-up --> View --> Cameras --> Active Camera ...`, :kbd:`Numpad0`.
 - Check the *Hair Dynamics* box.
   Select :menuselection:`pop-up --> Render --> Render OpenGL Animation` in *Render Engine* mode.
 
@@ -127,9 +127,9 @@ Moving keypoints or particles
   rotating and removing (complete particles or single keys).
 - You may not duplicate or extrude keys or particles,
   but you can subdivide particles which adds new keypoints
-  (:kbd:`W` :menuselection:`--> Subdivide` / :kbd:`Numpad2`).
+  :kbd:`W` :menuselection:`--> Subdivide`or :kbd:`Numpad2`.
 - Alternatively you can rekey a particle
-  (:kbd:`W` :menuselection:`--> Rekey` / :kbd:`Numpad1`) and choose the number of keys.
+  :kbd:`W` :menuselection:`--> Rekey` or :kbd:`Numpad1` and choose the number of keys.
 
 How smoothly the hair and particle paths are displayed depends on the *Path Steps*
 setting in the *Toolbar*. Low settings produce blocky interpolation between points,

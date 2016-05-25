@@ -11,7 +11,7 @@ You'll want to make it just large enough that the simulation will fit inside it,
 but not so large that it takes too long to compute the simulation.
 
 
-To create a domain, add a cube (:kbd:`Shift-A` :menuselection:`Add --> Mesh --> Cube`)
+To create a domain, add a cube :menuselection:`Add --> Mesh --> Cube`, :kbd:`Shift-A`
 and transform it until it encloses the area where you want smoke. Translation, rotation,
 and scaling are all allowed. To turn it into a smoke domain, click *Smoke*
 in :menuselection:`Properties --> Physics`, then select *Domain* as the *Smoke Type*.

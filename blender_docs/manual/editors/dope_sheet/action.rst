@@ -74,7 +74,7 @@ Delete :kbd:`X`
    part, it'll delete the selected channels, whereas if you use it in the main
    area, it'll delete the selected keyframes...
 
-:menuselection:`Settings --> Toogle/Enable/Disable a Setting` (:kbd:`Shift-W` / :kbd:`Ctrl-Shift-W` / :kbd:`Alt-W`)
+:menuselection:`Settings --> Toogle/Enable/Disable a Setting`, :kbd:`Shift-W` or :kbd:`Ctrl-Shift-W` or :kbd:`Alt-W`
    Enable/disable a channel's setting (selected in the menu that pops-up) - currently, "lock" and/or "mute" only.
 
 Toggle Channel Editability :kbd:`Tab`
@@ -83,12 +83,12 @@ Toggle Channel Editability :kbd:`Tab`
 Extrapolation Mode
    Change the extrapolation between selected keyframes. More options are available in the Graph Editor.
 
-Expand Channels, Collapse Channels (:kbd:`NumpadPlus`, :kbd:`NumpadMinus`)
+Expand Channels, Collapse Channels :kbd:`NumpadPlus`, :kbd:`NumpadMinus`
    Expands or collapses selected channels.
 
 Move...
-   This allows you to move top-level channels up/down (:kbd:`Shift-PageUp` / :kbd:`Shift-PageDown`),
-   or directly to the top/bottom (:kbd:`Ctrl-Shift-PageUp` / :kbd:`Ctrl-Shift-PageDown`).
+   This allows you to move top-level channels up/down :kbd:`Shift-PageUp`, :kbd:`Shift-PageDown`,
+   or directly to the top/bottom :kbd:`Ctrl-Shift-PageUp`, :kbd:`Ctrl-Shift-PageDown`.
 
 Revive Disabled F-Curves
    Clears 'disabled' tag from all F-Curves to get broken F-Curves working again

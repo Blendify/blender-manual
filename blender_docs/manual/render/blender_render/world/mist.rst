@@ -44,8 +44,8 @@ Falloff
    *Start* and of distance *Depth*.
 
    To get a better view to evaluate the *Mist* visualization,
-   :kbd:`Shift-Numpad1` with the camera selected
-   (:kbd:`Numpad5` to toggle perspective view on and off).
+   :kbd:`Shift-Numpad1` with the camera selected and
+   :kbd:`Numpad5` to toggle perspective view on and off.
    This will place the 3D view right over the camera looking down.
 
 

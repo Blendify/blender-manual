@@ -215,7 +215,7 @@ The Keymap editor lets you change the default Hotkeys. You can change keymaps fo
 - Select the keymap you want to change and click on the white arrows to open up the keymap tree.
 - Select which Input will control the function
 
-  - Keyboard: Only hotkey or combo hotkey (:kbd:`E` or :kbd:`Shift-E`).
+  - Keyboard: Only hotkey or combo hotkey :kbd:`E`, :kbd:`Shift-E`.
   - Mouse: Left/middle/right click. Can be combined with :kbd:`Alt`, :kbd:`Shift`, :kbd:`Ctrl`, :kbd:`Cmd`.
   - Tweak: Click and drag. Can also be combined with the 4 previous keys.
   - Text input: Use this function by entering a text

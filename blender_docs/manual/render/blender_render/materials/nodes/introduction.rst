@@ -84,7 +84,7 @@ tree. Most of the panels we normally find in the material menu are now gone.
 
 
 If you switch to the *Compositing* screen
-(:kbd:`Ctrl-Left` if you are on the default screen)
+with :kbd:`Ctrl-Left`, if you are on the default screen, 
 you'll find a *Node Editor* on the top half of the screen.
 When you enabled material nodes,
 a material node and an output node were automatically added to the node editor.
