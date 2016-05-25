@@ -88,7 +88,7 @@ Inverse selection
 As stated above, you have to remember that these selection tools are for bones' ends only,
 not the bones' bodies.
 
-For example, the *Inverse* selection option (:kbd:`Ctrl-I`)
+For example, the *Inverse* selection option :kbd:`Ctrl-I`
 inverts the selection of bones' ends, not of bones (see *Inverse selection*).
 
 Remember that a bone is selected only if both its ends are selected. So,

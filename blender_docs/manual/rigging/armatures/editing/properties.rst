@@ -39,7 +39,7 @@ so by transforming a bone, you will affect all its connected parent/children/sib
    The Transform Properties panel for armatures in Edit mode.
 
 
-Finally, you can edit in the *Transform Properties* panel (:kbd:`N`)
+Finally, you can edit in the *Transform Properties* panel :kbd:`N`
 the positions and radius of both ends of the active selected bone,
 as well as its :ref:`roll rotation <armature-bone_roll>`.
 
@@ -169,7 +169,7 @@ Bone Direction
 
 
 This tool is not available from the *Armature* menu,
-but only from the *Specials* pop-up menu(:kbd:`W`).
+but only from the *Specials* pop-up menu:kbd:`W`.
 It allows you to switch the direction of the selected bones (i.e.
 their root will become their tip, and vice versa).
 
@@ -329,7 +329,7 @@ Bone Rigidity
 
 Even though you have the *Segm* setting available in *Edit mode*
 (bones sub-panel, in the *Armature Bones* panel),
-you should switch to the *Pose mode* (:kbd:`Ctrl-Tab`) to edit these "smooth"
+you should switch to the *Pose mode* :kbd:`Ctrl-Tab` to edit these "smooth"
 bones' properties - one explanation to this strange need is that in *Edit mode*,
 even in *B-Bone* visualization, bones are drawn as sticks,
 so you can't visualize the effects of these settings.
@@ -467,7 +467,7 @@ Naming Bones
 
 
 You can rename your bones, either using the *Bone* field of the *Transform Properties*
-panel in the 3D views, for the active bone (:kbd:`N`),
+panel in the 3D views, for the active bone :kbd:`N`,
 or using the *BO* field in each bone sub-panel of the *Armature Bones* panel
 (*Edit mode*).
 
@@ -535,7 +535,7 @@ Bone name flipping
 
 You can flip left/right markers (see above) in selected bone names,
 using either :menuselection:`Armature --> Flip Left & Right Names`,
-or :menuselection:`Specials --> Flip Left-Right Names` (:kbd:`W-4`).
+or :menuselection:`Specials --> Flip Left-Right Names` :kbd:`W-4`.
 This can be useful if you have constructed half of a symmetrical rig
 (marked for a left or right side) and duplicated and mirrored it,
 and want to update the names for the new side.
@@ -556,7 +556,7 @@ Auto bone naming
 
 
 The three *AutoName* entries of the *Armature* and *Specials*
-(:kbd:`W`) menus allows you to automatically add a suffix to all selected bones, based
+:kbd:`W` menus allows you to automatically add a suffix to all selected bones, based
 on the position of their root relative to the armature center and its local coordinates :
 
 AutoName Left-Right

@@ -13,8 +13,8 @@ Translation, Rotation, Scale
    | Hotkey:   :kbd:`G` / :kbd:`R` / :kbd:`S`
 
 
-Once you have a selection of one or more elements, you can grab/move (:kbd:`G`),
-rotate (:kbd:`R`) or scale (:kbd:`S`) them, like many other things in Blender,
+Once you have a selection of one or more elements, you can grab/move :kbd:`G`,
+rotate :kbd:`R` or scale :kbd:`S` them, like many other things in Blender,
 as described in the :doc:`Manipulation in 3D Space </editors/3dview/transform/introduction>` section.
 
 To move, rotate and scale selected components, either use the *Translate*, *Rotate*, and *Scale* buttons,

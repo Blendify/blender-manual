@@ -28,7 +28,7 @@ Changing the Active Camera
 
 
 The *active* camera is the camera that is currently being used for rendering and camera view
-(:kbd:`Numpad0`).
+:kbd:`Numpad0`.
 
 Select the camera you would like to make active and press :kbd:`Ctrl-Numpad0`
 (by doing so, you also switch the view to camera view). In order to render,

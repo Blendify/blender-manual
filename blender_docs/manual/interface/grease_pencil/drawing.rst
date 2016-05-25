@@ -5,7 +5,7 @@
 Drawing With Grease Pencil
 **************************
 
-- Enable the *Grease Pencil* by clicking *Draw, Line, Poly or Erase* from the Toolshelf (:kbd:`T`).
+- Enable the *Grease Pencil* by clicking *Draw, Line, Poly or Erase* from the Toolshelf :kbd:`T`.
   A new layer will be automatically added for you to draw on.
 - A new layer can be added from the *Grease Pencil Properties panel*.
   This panel can also be used to customize the color, opacity and thickness of the pencil lines.
@@ -66,7 +66,7 @@ Appearance Settings
 ===================
 
 Set the color, line width and other aspects of the grease pencil's appearance in the
-*Grease Pencil Panel* of the *Properties* shelf (:kbd:`N`) shown here.
+*Grease Pencil Panel* of the *Properties* shelf :kbd:`N` shown here.
 
 .. figure:: /images/grease_pencil_drawing_properties.jpg
 
@@ -99,7 +99,7 @@ Drawing Settings
    Grease Pencil Drawing Settings.
 
 
-In the *Grease Pencil Panel* of the *Tool* shelf (:kbd:`T`)
+In the *Grease Pencil Panel* of the *Tool* shelf :kbd:`T`
 there are several choices for *Drawing Settings*.
 
 View

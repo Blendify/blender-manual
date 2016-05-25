@@ -75,7 +75,7 @@ To assign a selected bone to a given bone group you can do one of the following:
 
 
 In the 3D views, using the :menuselection:`Pose --> Bone Groups` menu entries,
-and/or the *Bone Groups* pop-up menu (:kbd:`Ctrl-G`), you can:
+and/or the *Bone Groups* pop-up menu :kbd:`Ctrl-G`, you can:
 
 Assign to New Group
    Assigns selected bones to a new bone group
@@ -189,7 +189,7 @@ On Keyframes
    to transparent for the last keyframe.
 
 
-Finally, these ghosts are also active when playing the animation (:kbd:`Alt-A`)
+Finally, these ghosts are also active when playing the animation :kbd:`Alt-A`
 - this is only useful with the *Around Current Frame* option, of course...
 
 Note also that there is no "global switch" to disable this display feature - to do so,

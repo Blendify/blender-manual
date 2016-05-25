@@ -64,7 +64,7 @@ Navigating
 
 Navigating the node editor is done with the use of both mouse movement and keyboard shortcuts.
 
-Pan (:kbd:`MMB`)
+Pan :kbd:`MMB`
    Move the view up, down, left and right
 Zoom (:kbd:`Ctrl-MMB`/:kbd:`Wheel`)
    Move the camera forwards and backwards

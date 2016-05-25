@@ -41,14 +41,14 @@ Path Fields
 Increment Filename (:kbd:`Plus`, :kbd:`Minus`)
    Adds or removes a trailing number to your file name.
    *(use to make *versions* of a file)*.
-Auto Complete (:kbd:`Tab`)
+Auto Complete :kbd:`Tab`
    When in the directory editor, this will auto-complete existing paths.
 
 
 Navigation
 ----------
 
-Enter Path (:kbd:`Return`)
+Enter Path :kbd:`Return`
    Enter the directory.
 Parent Directory (:kbd:`Backspace` or :kbd:`P`)
    Takes you up one directory.
@@ -57,14 +57,14 @@ Parent Directory (:kbd:`Backspace` or :kbd:`P`)
 View
 ----
 
-Hidden Files (:kbd:`H`)
+Hidden Files :kbd:`H`
    Toggle displaying hidden files.
 
 
 Selection
 ---------
 
-(De)select All (:kbd:`A`)
+(De)select All :kbd:`A`
    Toggles selecting all files.
 
 
@@ -73,9 +73,9 @@ File Management
 
 Delete Files (:kbd:`Delete` or :kbd:`X`)
    Delete the currently selected files.
-Rename (:kbd:`Ctrl-LMB`)
+Rename :kbd:`Ctrl-LMB`
    Can be used on a file or directory to rename it.
-Create Directory (:kbd:`I`)
+Create Directory :kbd:`I`
    Prompts you to enter the name of a newly created directory.
 
 

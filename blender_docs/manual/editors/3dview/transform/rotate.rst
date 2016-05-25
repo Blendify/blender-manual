@@ -16,9 +16,9 @@ or roll and involves changing the orientation of elements (vertices, edge, face,
 around one or more axes or the element's Pivot Point.
 There are multiple ways to rotate an element which include:
 
-- The keyboard shortcut (:kbd:`R`)
+- The keyboard shortcut :kbd:`R`
 - The 3D manipulator widget
-- The Properties menu (:kbd:`N`)
+- The Properties menu :kbd:`N`
 
 Basic rotation usage and common options are described below. For additional information, you
 may wish to read the Transform Control and Orientation pages which provide more information
@@ -133,7 +133,7 @@ Rotation with the Properties Panel
    Rotation transform properties panel.
 
 
-Rotation values can also be specified in the Properties panel (:kbd:`N`)
+Rotation values can also be specified in the Properties panel :kbd:`N`
 by altering the degree value in the rotation slider of the Transform panel.
 Rotation along particular axes can be enabled or disabled by toggling the padlock icon.
 The rotation mode (Euler, Axis Angle, Quaternion)

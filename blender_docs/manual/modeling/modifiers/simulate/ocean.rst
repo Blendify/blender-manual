@@ -41,7 +41,7 @@ Simulator Options
 
 Time
    The time at which the ocean surface is being evaluated.
-   To make an animated ocean, you will need to insert keyframes (:kbd:`RMB`) and animate this time value -
+   To make an animated ocean, you will need to insert keyframes :kbd:`RMB` and animate this time value -
    the speed that the time value is changing will determine the speed of the wave animation
 
 Depth

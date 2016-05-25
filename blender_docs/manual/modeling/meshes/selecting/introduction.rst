@@ -141,13 +141,13 @@ Selection Tools
 The select menu in edit mode contains tools for selecting components.
 These are described in more detail in the following pages.
 
-Border Select (:kbd:`B`)
+Border Select :kbd:`B`
    Enables a rectangular region for selection
-Circle Select (:kbd:`C`)
+Circle Select :kbd:`C`
    Enables a circular shaped region for selection
 (De)select All :kbd:`A`
    Select all or none of the mesh components.
-Invert Selection (:kbd:`Ctrl-I`)
+Invert Selection :kbd:`Ctrl-I`
    Selects all geometry that are not selected, and deselect currently selected components.
 Select Random
    Selects a random group of vertices, edges, or faces, based on a percentage value.
@@ -158,7 +158,7 @@ Select Sharp Edges
    which is asked you *via* a small pop-up dialog.
    The lower is this angle limit, the sharper will be the selected edges.
    At ``180``, **all** :term:`manifold` edges will be selected.
-Linked Flat Faces (:kbd:`Ctrl-Shift-Alt-F`)
+Linked Flat Faces :kbd:`Ctrl-Shift-Alt-F`
    Select connected faces based on a threshold of the angle between them.
    This is useful for selecting faces that are planar.
 Interior Faces
@@ -167,11 +167,11 @@ Side of Active
    Selects all data on the mesh in a single axis
 Select Faces by Sides
    Selects all faces that have a specified number of edges.
-Non Manifold (:kbd:`Ctrl-Shift-Alt-M`)
+Non Manifold :kbd:`Ctrl-Shift-Alt-M`
    Selects :term:`non-manifold` geometry. See :doc:`Mesh Advanced Selection </modeling/meshes/selecting/advanced>`.
 Loose
    Select all vertices or edges that do not form part of a face.
-Similar (:kbd:`Shift-G`)
+Similar :kbd:`Shift-G`
    Select geometry based on how similar certain properties are to it.
 
    .. note::
@@ -184,9 +184,9 @@ Less :kbd:`Ctrl-NumpadMinus`
    Deselects geometry that form the bounds of the current selection
 Mirror
    Select mesh items at the mirrored location.
-Pick Linked (:kbd:`L`)
+Pick Linked :kbd:`L`
    Selects all geometry connected to the geometry under the cursor.
-Linked (:kbd:`Ctrl-L`)
+Linked :kbd:`Ctrl-L`
    Selects all geometry that are connected to the current selection.
 Vertex Path
    Selects a vertex path between two selected vertices

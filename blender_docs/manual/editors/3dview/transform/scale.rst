@@ -30,9 +30,9 @@ the scale will continue in the negative direction and flip the element.
 
 There are multiple ways to scale an element which include:
 
-- The keyboard shortcut (:kbd:`S`)
+- The keyboard shortcut :kbd:`S`
 - The 3D manipulator widget
-- The Properties menu (:kbd:`N`)
+- The Properties menu :kbd:`N`
 
 Basic scale usage and common options are described below. For additional information, you may
 wish to read the Transform Control and Orientation pages which provide more information about
@@ -149,7 +149,7 @@ Scaling with the Properties Panel
    Scale transform properties panel.
 
 
-Scale values can also be specified in the Properties panel (:kbd:`N`)
+Scale values can also be specified in the Properties panel :kbd:`N`
 by altering the amount value in the scaling slider of the Transform panel.
 Scaling along particular axes can be enabled or disabled by toggling the padlock icon.
 

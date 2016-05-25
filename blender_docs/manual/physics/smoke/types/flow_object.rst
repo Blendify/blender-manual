@@ -9,7 +9,7 @@ to a :doc:`Smoke Domain </physics/smoke/types/domain>` object.
 To define any mesh object as a *Smoke Flow* object, add smoke physics by clicking *Smoke*
 in :menuselection:`Properties --> Physics`. Then select *Flow* as the *Smoke Type*.
 Now you should have a default smoke flow source object. You can test this by playing the animation
-(:kbd:`Alt-A`) from the first frame. If your source object is inside your domain, you should see smoke.
+:kbd:`Alt-A` from the first frame. If your source object is inside your domain, you should see smoke.
 
 
 Settings

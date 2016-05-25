@@ -64,7 +64,7 @@ whatever the current selected object is.
 Channel Menu
 ============
 
-Delete (:kbd:`X`)
+Delete :kbd:`X`
    Deletes the whole channel from the current action
    (i.e. unlink the underlying FCurve data-block from this action data-block).
 

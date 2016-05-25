@@ -67,7 +67,7 @@ A monkey head should be placed at every vertex of the circle.
 
 The original monkey head at the center and the parent mesh are still shown in the 3D view but
 neither will be rendered. If the placement and rotation of your monkey head is odd,
-you might need to clear its rotation (:kbd:`Alt-R`), scale :kbd:`Alt-S`,
+you might need to clear its rotation :kbd:`Alt-R`, scale :kbd:`Alt-S`,
 location :kbd:`Alt-G`, and origin :kbd:`Alt-O`.
 
 
@@ -157,9 +157,9 @@ was adapted to the vertex normals of the parent mesh
 As in the previous example, the shape and proportions of the arrangement can now be tweaked.
 
 To turn all duplicates into real objects, simply select the icosphere and 
-:menuselection:`Object --> Apply --> Make Duplicates Real` (:kbd:`Ctrl-Shift-A`).
+:menuselection:`Object --> Apply --> Make Duplicates Real` :kbd:`Ctrl-Shift-A`.
 To make the icosphere and the tentacle a single object,
-make sure they are all selected and go to :menuselection:`Object --> Join` (:kbd:`Ctrl-J`).
+make sure they are all selected and go to :menuselection:`Object --> Join` :kbd:`Ctrl-J`.
 
 .. seealso::
 

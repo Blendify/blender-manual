@@ -19,13 +19,13 @@ Select Every N Number of Vertices
 Sharp Edges
    This tool selects all edges between two faces forming an angle greater than the angle option,
    Where an increasing angle selects sharper edges.
-Linked Flat Faces (:kbd:`Ctrl-Shift-Alt-F`)
+Linked Flat Faces :kbd:`Ctrl-Shift-Alt-F`
    Select connected faces based on a threshold of the angle between them.
    This is useful for selecting faces that are planar.
 
 .. _mesh-select-non_manifold:
 
-Non Manifold (:kbd:`Ctrl-Shift-Alt-M`)
+Non Manifold :kbd:`Ctrl-Shift-Alt-M`
    Selects the :term:`non-manifold` geometry of a mesh.
    This entry is available when editing a mesh, in Vertex and Edge selection modes only.
    The *redo* panel provides several selection options:
@@ -169,7 +169,7 @@ Holding :kbd:`Alt-Shift` while clicking adds to the current selection.
 Edge loops can also be selected based on an existing edge selection,
 using either :menuselection:`Select --> Edge Loop`,
 or the *Edge Loop Select* option of the *Edge Specials* menu
-(:kbd:`Ctrl-E`).
+:kbd:`Ctrl-E`.
 
 .. note:: *Vertex* mode
 
@@ -246,7 +246,7 @@ but on opposite sides to each other continuing along a :doc:`face loop </modelin
 
 As with edge loops, you can also select edge rings based on current selection,
 using either :menuselection:`Select --> Edge Ring`,
-or the *Edge Ring Select* option of the *Edge Specials* menu (:kbd:`Ctrl-E`).
+or the *Edge Ring Select* option of the *Edge Specials* menu :kbd:`Ctrl-E`.
 
 
 .. note:: *Vertex* mode

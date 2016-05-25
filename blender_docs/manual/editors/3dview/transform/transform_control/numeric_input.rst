@@ -15,7 +15,7 @@ you can also enter numeric values. After pressing :kbd:`G`,
 type a number to indicate the magnitude of the transformation.
 
 You can see the numbers you enter in the bottom left hand corner of the 3D window header.
-Negative numbers and decimals can be entered by pressing the minus (:kbd:`Minus`) and period
+Negative numbers and decimals can be entered by pressing the minus :kbd:`Minus` and period
 (:kbd:`.`) keys respectively.
 
 
@@ -83,6 +83,6 @@ Numeric input via the Properties shelf
 
 
 It is also possible to enter numeric values for each transformation using the
-*Transform* panel found on the Properties shelf (:kbd:`N`). The
+*Transform* panel found on the Properties shelf :kbd:`N`. The
 *Transform* panel can also be used to prevent transformations along particular axes
 by clicking the lock icon.

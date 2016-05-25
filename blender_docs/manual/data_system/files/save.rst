@@ -15,7 +15,7 @@ Save (:kbd:`Ctrl-S`, :kbd:`Ctrl-W`)
    Save an existing blend-file over itself.
 Save As (:kbd:`Ctrl-Shift-S`, :kbd:`F2`)
    Choose a file to save the blend-file to.
-Save Copy (:kbd:`Ctrl-Alt-S`)
+Save Copy :kbd:`Ctrl-Alt-S`
    Choose a file to save the blend-file to, but return to editing the original file upon completion.
    This can be used to save backups of the current working state without modifying the original file.
 
