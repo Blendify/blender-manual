@@ -169,7 +169,7 @@ Bone Direction
 
 
 This tool is not available from the *Armature* menu,
-but only from the *Specials* pop-up menu:kbd:`W`.
+but only from the *Specials* pop-up menu :kbd:`W`.
 It allows you to switch the direction of the selected bones (i.e.
 their root will become their tip, and vice versa).
 
@@ -536,7 +536,7 @@ Bone name flipping
 
 You can flip left/right markers (see above) in selected bone names,
 using either :menuselection:`Armature --> Flip Left & Right Names`,
-or :menuselection:`Specials --> Flip Left-Right Names` :kbd:`W-4`.
+or :menuselection:`Specials --> Flip Left-Right Names`, :kbd:`W-4`.
 This can be useful if you have constructed half of a symmetrical rig
 (marked for a left or right side) and duplicated and mirrored it,
 and want to update the names for the new side.

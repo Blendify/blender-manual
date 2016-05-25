@@ -25,7 +25,7 @@ Grouping Nodes
 ==============
 
 To create a node group, in the node editor, select the nodes you want to include, then press :kbd:`Ctrl-G` or
-:menuselection:`Group --> Make Group` :kbd:`Shift-A`. A node group will have a green title bar. All of the
+:menuselection:`Group --> Make Group`, :kbd:`Shift-A`. A node group will have a green title bar. All of the
 selected nodes will now be contained within the group node. Default naming for the node group is
 *NodeGroup,* *NodeGroup.001* etc. There is a name field in the node group you can click into to change the name
 of the group. Change the name of the node group to something meaningful. When appending node groups from one blend
