@@ -62,7 +62,7 @@ The image is facilitated by selecting *Viewer Node* on the window's header linke
 The UV/Image Editor will display the image from the currently selected viewer node.
 
 To save the image being viewed,
-use :menuselection:`Image --> Save As Image` :kbd:`F3` to save the image in a file.
+use :menuselection:`Image --> Save As Image`, :kbd:`F3` to save the image in a file.
 
 The UV/Image Editor also has three additional options in its header to view Images with or
 without Alpha, or to view the Alpha or Z itself.

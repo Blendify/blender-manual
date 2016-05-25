@@ -223,7 +223,7 @@ Workflow For Absolute Shape Keys
 
 
 - Select the top face.
-- Extrude up :kbd:`E` :kbd:`1` :kbd:`LMB`.
+- Extrude up :kbd:`E 1` confirm with :kbd:`LMB`.
 
 
 .. figure:: /images/Absolute_SK_Workflow_3.jpg
@@ -231,7 +231,7 @@ Workflow For Absolute Shape Keys
 
 
 - Select a side face on the top half. (the one at x=1 if possible)
-- Extrude out :kbd:`E` :kbd:`1` :kbd:`LMB`.
+- Extrude out :kbd:`E 1` confirm with :kbd:`LMB`.
 - Switch back to Object Mode.
 
 
@@ -250,7 +250,7 @@ Workflow For Absolute Shape Keys
 
 
 - Select shape key Key 2 to edit the third shape key.
-- Select the extruded side face and :kbd:`G` :kbd:`Z` :kbd:`1` :kbd:`LMB`
+- Select the extruded side face and :kbd:`G Z 1` confirm with :kbd:`LMB`
 
 
 .. figure:: /images/Absolute_SK_Workflow_6.jpg
@@ -259,7 +259,7 @@ Workflow For Absolute Shape Keys
 
 - Select shape key Basis to edit the first shape key.
 - Select the extruded size face and
-  :kbd:`S` :kbd:`0`:kbd:`.`:kbd:`5` :kbd:`LMB`, then :kbd:`G` :kbd:`X` :kbd:`Minus`:kbd:`1` :kbd:`LMB`.
+  :kbd:`S 0 . 5` confirm with :kbd:`LMB`, then :kbd:`G X Minus 1` confirm with :kbd:`LMB`.
 
 
 - Switch to Object Mode.

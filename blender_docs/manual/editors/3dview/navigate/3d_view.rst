@@ -152,7 +152,7 @@ For discrete steps, use the hotkeys :kbd:`Ctrl-Numpad8`, :kbd:`Ctrl-Numpad2`,
 :kbd:`Ctrl-Numpad4` and :kbd:`Ctrl-Numpad6` as with rotating (note:
 you can replace :kbd:`Ctrl` by :kbd:`Shift`).
 For those without a middle mouse button,
-you can hold :kbd:`Shift` :kbd:`Alt` while dragging with :kbd:`LMB`.
+you can hold :kbd:`Shift-Alt` while dragging with :kbd:`LMB`.
 
 
 Zooming the View

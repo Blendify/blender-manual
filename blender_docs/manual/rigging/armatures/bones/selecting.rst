@@ -154,11 +154,13 @@ bone belongs to by using the *linked selection* tool, :kbd:`L`.
           Its whole chain selected with :kbd:`L`.
 
 
-You can deselect the active bone and select its immediate parent or one of its children using
-respectively :menuselection:`Select --> Select Parent` (:kbd:`[`) or :menuselection:`Select --> Select Child`
-(:kbd:`]`). If you prefer to keep the active bone in the selection,
-use :menuselection:`Select --> Extend Select Parent` (:kbd:`Ctrl-[`)
-or :menuselection:`Select --> Extend Select Child` (:kbd:`Ctrl-]`).
+You can deselect the active bone and select its immediate parent or 
+one of its children using respectively 
+:menuselection:`Select --> Select Parent`, :kbd:`[` or 
+:menuselection:`Select --> Select Child`, :kbd:`]`. 
+If you prefer to keep the active bone in the selection,
+use :menuselection:`Select --> Extend Select Parent`, :kbd:`Ctrl-[` or 
+:menuselection:`Select --> Extend Select Child`, :kbd:`Ctrl-]`.
 
 
 Deselecting connected bones
