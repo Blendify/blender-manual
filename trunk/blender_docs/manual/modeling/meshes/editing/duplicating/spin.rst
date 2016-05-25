@@ -46,7 +46,7 @@ Example
 
 First, create a mesh representing the profile of your object.
 If you are modeling a hollow object, it is a good idea to thicken the outline.
-(*Glass profile*) shows the profile for a wine glass we will model as a demonstration.
+Fig. Glass profile shows the profile for a wine glass we will model as a demonstration.
 
 Go to the *Edit mode* and select all the vertices of the Profile with :kbd:`A`.
 
@@ -69,7 +69,7 @@ shows the wine glass profile from top view, with the cursor correctly positioned
 Click the *Spin* button. If you have more than one 3D view open, the cursor will
 change to an arrow with a question mark and you will have to click in the window containing
 the top view before continuing. If you have only one 3D view open,
-the spin will happen immediately. (*Spun profile*) shows the result of a successful spin.
+the spin will happen immediately. Fig. Spun profile shows the result of a successful spin.
 
 
 Angle
@@ -115,13 +115,13 @@ Merge Duplicates
 
 The spin operation leaves duplicate vertices along the profile.
 You can select all vertices at the seam with Box select :kbd:`B` shown in
-(*Seam vertex selection*) and perform a *Remove Doubles* operation.
+Fig. Seam vertex selection and perform a *Remove Doubles* operation.
 
 
 Notice the selected vertex count before and after the *Remove Doubles* operation
-(*Vertex count after removing doubles*). If all goes well, the final vertex count
+``Vertex count after removing doubles``. If all goes well, the final vertex count
 (38 in this example) should match the number of the original profile noted in
-(*Mesh data - Vertex and face numbers*). If not,
+``Mesh data - Vertex and face numbers``. If not,
 some vertices were missed and you will need to weld them manually. Or, worse,
 too many vertices will have been merged.
 

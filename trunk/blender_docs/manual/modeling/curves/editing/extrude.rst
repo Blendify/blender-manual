@@ -171,7 +171,7 @@ Now return to the *Editing* context,
 and edit the first curve's *TaperOb* field in the Curve and Surface panel to reference the new taper curve
 which we called *TaperCurve*.
 When you hit enter the taper curve is applied immediately,
-with the results shown in (*Taper extruded curve*).
+with the results shown in Fig. Taper extruded curve.
 
 
 .. list-table::
@@ -197,7 +197,7 @@ Of course as an artist that may be what you are looking for!
    Taper example 1.
 
 
-In (*Taper example 1*)
+In Fig. Taper example 1
 you can clearly see the effect the left taper curve has on the right curve object. Here the
 left taper curve is closer to the object center and that results in a smaller curve object to
 the right.
@@ -208,7 +208,7 @@ the right.
    Taper example 2.
 
 
-In (*Taper example 2*) a control point in the taper curve to the left is moved away from the
+In Fig. Taper example 2 a control point in the taper curve to the left is moved away from the
 center and that gives a wider result to the curve object on the right.
 
 
@@ -217,7 +217,7 @@ center and that gives a wider result to the curve object on the right.
    Taper example 3.
 
 
-In (*Taper example 3*), we see the use of a more irregular taper curve applied to a curve circle.
+In Fig. Taper example 3 we see the use of a more irregular taper curve applied to a curve circle.
 
 
 TODO: add some "bevel" extrusion with *Tilt* examples.

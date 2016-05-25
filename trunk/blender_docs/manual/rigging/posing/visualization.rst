@@ -97,9 +97,9 @@ You can also assign a "color theme" to a group (each bone will have these colors
 Remember you have to enable the *Colors* button (*Armature* panel)
 to see these colors. Use the *Bone Color Set* drop-down list to select:
 
-- The default (gray) colors (*Default Colors*).
-- One of the twenty Blender presets (*nn - Theme Color Set*), common to all groups.
-- A custom set of colors (*Custom Set*), which is specific to each group.
+- *Default Colors*: The default (gray) colors.
+- *nn* - *Theme Color Set*: One of the twenty Blender presets, common to all groups.
+- *Custom Set*: A custom set of colors, which is specific to each group.
 
 Below this list, you have three color swatches and a button.
 

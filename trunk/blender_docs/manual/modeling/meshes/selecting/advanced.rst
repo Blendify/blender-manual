@@ -260,7 +260,7 @@ or the *Edge Ring Select* option of the *Edge Specials* menu :kbd:`Ctrl-E`.
    A selected edge loop, and a selected edge ring.
 
 
-In (*A selected edge loop, and a selected edge ring*),
+In Fig. A selected edge loop, and a selected edge ring
 the same edge was clicked on but two different "groups of edges" were selected,
 based on the different commands.
 One is based on edges during computation and the other is based on faces.

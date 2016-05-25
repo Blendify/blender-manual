@@ -15,8 +15,8 @@ Blender helps you keep everything organized by allowing you to group like object
 Group objects together without any kind of transformation relationship.
 Use groups to just logically organize your scene,
 or to facilitate one-step appending or linking between files or across scenes.
-Objects that are part of a group always shows as light green when selected; see image
-(*Grouped objects*).
+Objects that are part of a group always shows as light green when selected. 
+See Fig. Grouped objects.
 
 
 Options

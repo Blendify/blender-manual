@@ -18,7 +18,7 @@ Vertices
 A vertex is primarily a single point or position in 3D space.
 It is usually invisible in rendering and in *Object mode*.
 Don't mistake the center point of an object for a vertex. It looks similar,
-but it's bigger and you can't select it. (*Vertex example*)
+but it's bigger and you can't select it. Fig. Vertex example
 shows the center point labeled as ``A``.
 ``B`` and ``C`` are vertices.
 
@@ -70,7 +70,7 @@ Loops
 
 
 *Edge* and *Face Loops* are sets of faces or edges that form continuous "loops" as shown in
-(*Edge and Face Loops*). The top row (``1`` - ``4``) shows a solid view,
+Fig. Edge and Face Loops. The top row (``1`` - ``4``) shows a solid view,
 the bottom row (``5`` - ``8``) a wireframe view of the same loops.
 
 Note that loops ``2`` and ``4`` do not go around the whole model.
@@ -91,7 +91,7 @@ For a detailed description of how to work with loops in Blender, see:
 Edge Loops
 ==========
 
-Loops ``1`` and ``2`` in (*Edge and Face Loops*) are edge Loops. They
+Loops ``1`` and ``2`` in Fig Edge and Face Loops are edge Loops. They
 connect vertices so that each one on the loop has exactly two neighbors that are not on the
 loop and placed on both sides of the loop (except the start and end vertex in case of poles).
 
@@ -100,7 +100,7 @@ modeling and character animation. When used correctly, they allow you to build m
 relatively few vertices that look very natural when used as subdivision surfaces and deform
 very well in animation.
 
-Take (*Edge Loops in organic modeling*) as an example: the edge loops follow the natural
+Take Fig. Edge Loops in organic modeling as an example: the edge loops follow the natural
 contours and deformation lines of the skin and the underlying muscles and are more dense in
 areas that deform more when the character moves, for example at the shoulders or knees.
 
@@ -112,7 +112,7 @@ Face Loops
 ==========
 
 These are a logical extension of Edge Loops in that they consist of the faces between two Edge
-Loops, as shown in loops ``3`` and ``4`` in (*Edge and Face Loops*).
+Loops, as shown in loops ``3`` and ``4`` in Fig. Edge and Face Loops.
 Note that for non-circular loops (``4``)
 the faces containing the poles are not included in a Face Loop.
 

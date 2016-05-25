@@ -121,7 +121,7 @@ ZeR, ZeG, ZeB
    The RGB color at the zenith (overhead)
 
 These colors are interpreted differently,
-according to the Buttons in the *Preview* Panel (*Background colors*):
+according to the Buttons in the :menuselection:`Preview --> Background colors` panel:
 
 None Enabled
    If none of these three buttons is checked, your background will just be plain flat color (using the horizon one).

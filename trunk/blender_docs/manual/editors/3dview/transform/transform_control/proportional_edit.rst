@@ -131,7 +131,7 @@ Connected :kbd:`Alt-O`
 
 Falloff
    While you are editing, you can change the curve profile used by either using the
-   :menuselection:`Mesh --> Proportional Falloff` submenu, using the toolbar icon (*Falloff menu*),
+   :menuselection:`Mesh --> Proportional Falloff` submenu, using the toolbar icon *Falloff menu*,
    or by pressing :kbd:`Shift-O` to toggle between the various options.
 
 .. list-table::

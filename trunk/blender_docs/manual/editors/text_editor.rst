@@ -6,7 +6,7 @@ Text Editor
 Blender has a *Text Editor* among its windows types,
 accessible via the *Window type* menu, or the shortcut :kbd:`Shift-F11`.
 
-The newly opened Text window is grey and empty, with a very simple toolbar (*Text Toolbar*).
+The newly opened Text window is grey and empty, with a very simple toolbar Fig. Text Toolbar.
 
 
 .. figure:: /images/editors_text_header1.jpg

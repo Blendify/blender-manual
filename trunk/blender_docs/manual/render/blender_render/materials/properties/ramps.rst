@@ -48,8 +48,8 @@ The separate *Ramp* panels for the *Diffuse* shader and the
 
    button.
 
-By default the Ramp panel opens with two colors; the first stop (*0*)
-is black and transparent (Alpha=0) and the second stop (*1*) is white and opaque
+By default the Ramp panel opens with two colors; the first stop (0)
+is black and transparent (Alpha=0) and the second stop (1) is white and opaque
 (Alpha=1).
 
 The position of the color stop markers can be altered by either

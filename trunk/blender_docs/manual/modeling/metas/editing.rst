@@ -51,7 +51,7 @@ select it and activate *Scale* mode with :kbd:`S`.
    Stiffness.
 
 
-In (*Stiffness*), the meta ball labeled ``A``,
+In Fig. Stiffness, the meta ball labeled ``A``,
 has a smaller *Stiffness* value than the one labeled ``B``.
 As you can see, the *green ring* radius is different for each of them.
 
@@ -66,7 +66,7 @@ Negative Influence
 
 
 The opposite effect of a *positive* influence would be a *negative* influence:
-the objects repel each other. (*Negative*)
+the objects repel each other. Fig. Negative
 shows a meta ball and a meta plane where the first is negative and the second, positive.
 Notice how the negative meta is not visible: only the surrounding circles appear.
 This is how Blender indicates that the object is negative.
@@ -169,12 +169,12 @@ it is as if the other metas were "included" or joined into the base one).
 Examples
 ========
 
-(*Meta ball base*) shows the *base* meta labeled ``B``.
+Fig. Meta ball base shows the *base* meta labeled ``B``.
 The other two *Meta* objects are *children*. Children's selection rings are always black,
 while the group's mesh is orange.
 Because the metas are grouped,
 they form a unified mesh which can always be selected by selecting the mesh of any meta in the group.
-For example, in the example (*Meta ball base*), only the lower sphere (the parent) has been selected,
+For example, in the example Fig. Meta ball base, only the lower sphere (the parent) has been selected,
 and you see that both the parent's mesh *and* all of the children's meshes are now highlighted.
 
 
@@ -185,7 +185,7 @@ and you see that both the parent's mesh *and* all of the children's meshes are n
 
 
 The *base* *Meta* object controls the **polygonalization** (mesh structure)
-for the group, and as such, also controls the polygonalization for the children (*non-base*)
+for the group, and as such, also controls the polygonalization for the children (non-base)
 metas. If we transform the *base* meta, the children's polygonalization changes. However,
 if we transform the children, the polygonalization remains unchanged.
 

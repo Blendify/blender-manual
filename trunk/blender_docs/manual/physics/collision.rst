@@ -16,7 +16,7 @@ and :doc:`Cloth objects </physics/cloth/index>` may collide with mesh objects.
   (but you can animate them as softbodies which take deflection into account).
 
 If you change the deflection settings for an object you have to recalculate the particle,
-softbody or cloth system (*Free Cache*), this is not done automatically. You can
+softbody or cloth system by *Free Cache*, this is not done automatically. You can
 clear the cache for all selected objects with :kbd:`Ctrl-B` :menuselection:`--> Free cache selected`.
 
 
@@ -68,7 +68,7 @@ Outer
 Inner
    Size of the inner collision zone (padding distance).
 
-Outside and inside is defined by the face normal, depicted as blue arrow in (*Image 1b*).
+Outside and inside is defined by the face normal, depicted as blue arrow in Fig. Image 1b.
 
 Damping Factor
    Damping during a collision.

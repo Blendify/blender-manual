@@ -45,12 +45,12 @@ Examples
           Image 2c: Collision with CFace activated.
 
 
-A cube colliding with a plane works pretty well (*Image 2a*),
-but a plane falls right through a cube that it is supposed to collide with (*Image 2b*). Why
+A cube colliding with a plane works pretty well Fig Image 2a,
+but a plane falls right through a cube that it is supposed to collide with Fig. Image 2b. Why
 is that? Because the default method of calculation only checks to see if the four vertices of
 the plane collides with the cube as the plane is pulled down by gravity. You can activate
 *CFace* to enable collision between the face of the plane and the object instead
-(*Image 2c*), but this type of calculation takes much longer.
+Fig. Image 2c, but this type of calculation takes much longer.
 
 Let's have a closer look at the collision calculation,
 so you can get an idea of how we might optimize it.
@@ -75,16 +75,16 @@ Soft Body simulation is by default done on a per vertex basis. If the vertices o
 Body do not collide with the collision object there will be no interaction between the two
 objects.
 
-In (*Image 3a*), you can see a vertex colliding with a plane.
+In Fig. Image 3a you can see a vertex colliding with a plane.
 If a vertex penetrates the zone between *Outer* and *Inner*,
 it is repulsed by a force in the direction of the face normal.
 The position that a vertex finally ends up in is dependent on the forces that act upon it.
 In the example gravity and the repulsion force of the face balance out. The speed at which the
 vertex is pulled out of the collision zone is influenced by the *Choke* parameter
-(*Image 4*).
+Fig. Image 4.
 
 Now lets see what happens if we make vertices heavier and let them travel at a faster speed.
-In (*Image 3b*), you can see vertices traveling at different speeds.
+In Fig. Image 3b you can see vertices traveling at different speeds.
 The two on the far right (5 and 6)
 are traveling so fast that they pass right through the collision zone
 (this is because of the default solver precision - which we can fix later). You will notice
@@ -98,7 +98,7 @@ zone. The first three vertices collide OK.
 
 
 You can set up your collision so that edges and even faces are included in the collision
-calculation (*Image 3d*). The collision is then calculated differently.
+calculation Fig. Image 3d. The collision is then calculated differently.
 It is checked whether the edge or face intersects with the collision object,
 the collision zones are not used.
 

@@ -43,7 +43,7 @@ Of course, once you are happy with the shape of your text, you can convert it
 or directly to a mesh,
 allowing you to use all the powerful features of these types of objects on it...
 
-(*Text Examples*) shows some examples of various fonts in action,
+Fig. Text Examples shows some examples of various fonts in action,
 including the "blue" font that has been applied to a curve path.
 
 .. note::

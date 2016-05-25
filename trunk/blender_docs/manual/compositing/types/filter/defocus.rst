@@ -55,10 +55,9 @@ The settings for this node are:
 
 Bokeh Type menu
    Here you set the number of iris blades of the virtual camera's diaphragm.
-   It can be set to emulate a perfect circle
-   (*Disk*) or it can be set to have 3 (*Triangle*), 4 (*Square*), 5
-   (*Pentagon*), 6 (*Hexagon*), 7 (*Heptagon*) or 8 blades
-   (*Octagon*). The reason it does not go any higher than 8 is that from that point on the result tends to
+   It can be set *Disk* (to emulate a perfect circle) or *Triangle* (3 blades), *Square* (4 blades), 
+   *Pentagon* (5 blades), *Hexagon* (6 blades), *Heptagon* (7 blades) or *Octagon* (8 blades).
+   The reason it does not go any higher than 8 is that from that point on the result tends to
    be indistinguishable from a *Disk* shape anyway.
 Rotate
    This button is not visible if the *Bokeh Type* is set to *Disk*.

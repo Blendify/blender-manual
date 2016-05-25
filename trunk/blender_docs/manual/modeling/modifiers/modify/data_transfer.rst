@@ -50,12 +50,12 @@ Mix Mode
       Replaces everything in destination (note that *Mix Factor* is still used).
 
    Above Threshold
-      Only replaces destination value if it’s above given threshold (*Mix Factor*).
+      Only replaces destination value if it’s above given threshold *Mix Factor*.
       How that threshold is interpreted depends on data type,
       note that for boolean values this option fakes a logical AND.
 
    Below Threshold
-      Only replaces destination value if it’s below given threshold (*Mix Factor*).
+      Only replaces destination value if it’s below given threshold *Mix Factor*.
       How that threshold is interpreted depends on data type,
       note that for boolean values this option fakes a logical OR.
 

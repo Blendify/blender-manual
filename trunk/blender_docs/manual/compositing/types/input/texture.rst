@@ -35,7 +35,7 @@ thus affecting how the texture is applied to the image. For animation,
 note that this is a vector input socket, because the XYZ values are needed.
 
 Texture nodes can output a straight black-and-white *Value* image
-(don't mistake this for alpha) and an image (*Color*).
+(don't mistake this for alpha) and an color image through *Color*.
 
 
 Example

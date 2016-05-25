@@ -63,7 +63,7 @@ When you press the :kbd:`E` key, for each selected tip
 (either explicitly or implicitly), a new bone is created.
 This bone will be the child of "its" tip owner, and connected to it. As usual,
 once extrusion is done, only the new bones' tips are selected, and in grab mode,
-so you can place them to your liking. See (*Extrusion example*).
+so you can place them to your liking. See Fig. Extrusion example.
 
 
 .. list-table::
@@ -108,7 +108,7 @@ each extruded tip will produce *two new bones*, having the same name except for 
 (for left/right, see the :ref:`next page <armature-editing-naming_conventions>`).
 The ``_L`` bone behaves like the single one produced by the default extrusion -
 you can grab/rotate/scale it exactly the same way.
-The ``_R`` bone is its mirror counterpart (along the armature's local X axis), see (*Mirror extrusion example*).
+The ``_R`` bone is its mirror counterpart (along the armature's local X axis), see Fig. Mirror extrusion example.
 
 .. warning::
 

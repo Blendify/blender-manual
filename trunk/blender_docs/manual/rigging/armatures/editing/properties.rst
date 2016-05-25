@@ -267,7 +267,7 @@ Properties
 
 
 Most bones' properties (excepted the transform ones) are regrouped in each bone's sub-panel,
-in the *Armature Bones* panel (*Edit mode*).
+in the *Armature Bones* panel in *Edit mode*.
 Let's detail them.
 
 Note that some of them are also available in the 3D views, 
@@ -469,7 +469,7 @@ Naming Bones
 You can rename your bones, either using the *Bone* field of the *Transform Properties*
 panel in the 3D views, for the active bone :kbd:`N`,
 or using the *BO* field in each bone sub-panel of the *Armature Bones* panel
-(*Edit mode*).
+in *Edit mode*.
 
 Blender also provides you some tools that take advantage of bones named in a left/right
 symmetry fashion, and others that automatically name the bones of an armature.

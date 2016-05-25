@@ -115,16 +115,16 @@ Toggling object-level restrictions
 The three following options, in the right side of the *Outliner* window,
 are only available for objects:
 
-Visibility (*eye icon*)
+Visibility *eye icon*
    Toggles the visibility of the object in the 3D View.
    :kbd:`V` will toggle this property for any objects that are selected in the *Outliner*.
 
-Selectability (*mouse cursor icon*)
+Selectability *mouse cursor icon*
    This is useful for if you have placed something in the scene
    and don't want to accidentally select it when working on something else.
    :kbd:`S` will toggle this property for any objects that are selected in the *Outliner*.
 
-Rendering (*camera icon*)
+Rendering *camera icon*
    This will still keep the object visible in the scene, but it will be ignored by the renderer.
    :kbd:`R` will toggle this property for any objects that are selected in the *Outliner*.
 
