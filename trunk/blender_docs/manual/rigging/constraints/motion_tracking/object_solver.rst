@@ -12,5 +12,39 @@ Can be used to add a mesh to video for example.
 .. tip::
 
 	This constraint only works after you have set up a minimum of eight markers and pressed :doc:`Solve object Motion </editors/movie_clip_editor/tracking/clip/tools>`.
+	Located at:
 
-	If it says *solve camera motion* instead of * solve object motion* then go into the properties shelf --> Objects --> and switch it from the camera, to an object.
+ - Movie Clip Editor:`(t)Tool Shelf --> Solve --> Solve Camera Motion`
+
+	If it says *solve camera motion* instead of *solve object motion* then go into the
+
+ - Movie Clip Editor:`(n)Properties Shelf-->Objects --> and switch it from the camera, to an object.`
+
+Options
+=======
+
+  .. figure:: /images/motion_tracking_constraints-Object_Solver.jpg
+    :width: 315px
+  
+    Object Solver Constraint panel
+
+Active Clip
+	Recieve tracking data from the active movie clip in the movie clip editor. If unchecked, an option appears to choose from the other clips.
+
+Object
+	Select a tracked object to recieve transform data from.
+
+Camera
+	Select the camera to which the motion is parented to (if active empty scene camera is used)
+
+Set Inverse
+	Moves the origin of the object to the origin of the camera
+
+Clear Inverse 
+	Moves the origin of the object back to the spot set in the - Movie Clip Editor:(t)tool shelf-->Solve-->Orientation-->Set Origin
+
+Constraint to F-Curve
+	Applies the constraint, creating keyframes for the transforms.
+
+Influence
+	Control how much this constraint effects the owner.
