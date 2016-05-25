@@ -9,39 +9,30 @@
 
 /* kbd role */
 .kbd.docutils.literal {
-    color: #333;
-    font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
-    font-size: 1em;
+	font-family: "Lato", "proxima-nova", "Helvetica Neue", Arial, sans-serif;
+	font-size: 85%;
+	font-weight: normal;
+	color: #404040;
 }
 
 /* Ensure background of input fields is light color even when a local theme wants it to be dark */
-input[type="text"],
-input[type="password"],
-input[type="email"],
-input[type="url"],
-input[type="date"],
-input[type="month"],
-input[type="time"],
-input[type="datetime"],
-input[type="datetime-local"],
-input[type="week"],
-input[type="number"],
-input[type="search"],
-input[type="tel"],
-input[type="color"] {
-    background-color:#FCFCFC;
+input[type="text"], input[type="search"], input[type="password"],
+input[type="email"], input[type="url"],
+input[type="date"], input[type="month"], input[type="week"], input[type="time"],
+input[type="datetime"], input[type="datetime-local"],
+input[type="number"], input[type="tel"], input[type="color"] {
+	background-color:#FCFCFC;
 }
 
 /*boxed paragraphs*/
 .rst-content .refbox .admonition-title {
-   background-color: #bbb;
+	background-color: #bbb;
 }
 .rst-content .refbox {
 	-webkit-font-smoothing: antialiased;
-	padding: 12px;
-	line-height: 24px;
-	margin-bottom: 24px;
 	background-color: #e3e3e3;
+	line-height: 24px;
+	margin-bottom: 24px; padding: 12px;
 }
 .rst-content .seealso .admonition-title {
 	background-color: #7a87e6;
@@ -60,31 +51,28 @@ input[type="color"] {
 
 /* Ugly 'red' literals */
 .rst-content tt.literal, .rst-content tt.literal, .rst-content code.literal {
-    color:#404040;
+	color:#404040;
 }
 
 /* Moves the table captions to the bottom */ 
-table { caption-side: bottom; }
+table {caption-side: bottom}
 
-/* Fix giant captions */
-.caption-text {
-    font-size: 13px;
-    font-family: Lato, proxima-nova, 'Helvetica Neue', Arial, sans-serif;
-    font-weight: normal;
-    line-height: 20px;
-    color:#808080;
-}
-
-/* Text wrap of figure captions in tables,
+/* Text wrap of figure captions in tables
  * (without this images with captions in tables can cause a log of horizontal scrolling). */
-.caption {
-    line-height: 0px;
-    white-space: normal;
+.wy-table caption, .rst-content table.docutils caption, 
+.rst-content table.field-list caption.rst-content .docutils.caption,
+.rst-content div.figure p.caption {
+	font-family: Lato, proxima-nova, 'Helvetica Neue', Arial, sans-serif;
+	font-size: 90%;
+	font-weight: normal;
+	line-height: 24px;
+	white-space: normal;
+	color:#808080;
 }
 
 /* proper seal navigation buttons; jumping on resize */
 .rst-footer-buttons::before , .rst-footer-buttons::after{
-    width: 100%;
+	width: 100%;
 }
 
 /*.. container:: lead , block text float around image*/
@@ -94,19 +82,21 @@ table { caption-side: bottom; }
 
 /* draws a box around :menuselection: field */
 .menuselection {
-    border: solid #E1E4E5 1px;
-    background-color: rgba(255, 255, 255, 0.65);
-    white-space: nowrap;
-    padding: 1px 6px;
+	font-size: 90%;
+	font-weight: normal;
+	background-color: rgba(255, 255, 255, 0.65);
+	border: solid #E1E4E5 1px;
+	white-space: nowrap;
+	padding: 2px 5px;
 }
 @media screen and (max-width: 420px) { 
-    .menuselection {white-space: normal;}
+	.menuselection {white-space: normal}
 }
 .caption .menuselection { 
 	background-color: none;
 	border: none;
 } 
-.caption .kbd, {background-color: none}
+.caption .kbd {background-color: none}
 
 /*remove indent on line break*/
 .rst-content .line-block {margin-left:0px}
