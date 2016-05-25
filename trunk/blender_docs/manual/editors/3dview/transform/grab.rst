@@ -77,7 +77,7 @@ full control over your transformation.
    Shift+X in action.
 
 
-:kbd:`Shift` + :kbd:`X`/:kbd:`Y`/:kbd:`Z`
+:kbd:`Shift` + :kbd:`X`, :kbd:`Y`, :kbd:`Z`
    This modifying hotkey locks the translation axis,
    allowing the object to move freely on the two axes that aren't locked.
    For example, :kbd:`Shift` +
@@ -121,7 +121,7 @@ Blender offers options to limit the amount of the transformation in small or pre
      specification option but the object will remain constrained to the same axis.
 
    - Hitting :kbd:`/` during number entry switches the number being entered to its reciprocal, e.g.
-     :kbd:`2` and :kbd:`/` results in 0.5 (1/2); :kbd:`2` and :kbd:`/` and :kbd:`0` results in 0.05 (1/20).
+     :kbd:`2 /` results in 0.5 (1/2); :kbd:`2 / 0` results in 0.05 (1/20).
 
    - The axis of movement can be changed at any time during translation by typing :kbd:`X`, :kbd:`Y`, :kbd:`Z`.
 

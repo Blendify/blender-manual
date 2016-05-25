@@ -67,11 +67,11 @@ Select Mode Pop-up
 You can choose a selection mode with the pop-up menu:
 
 :menuselection:`Select Mode --> Vertices`
-   Press :kbd:`Ctrl-Tab` and select *Vertices* from the pop-up menu, or press :kbd:`Ctrl-Tab`:kbd:`1`.
+   Press :kbd:`Ctrl-Tab` and select *Vertices* from the pop-up menu, or press :kbd:`Ctrl-Tab 1`.
 :menuselection:`Select Mode --> Edges`
-   Press :kbd:`Ctrl-Tab` and select *Edges* from the pop-up menu, or press :kbd:`Ctrl-Tab`:kbd:`2`.
+   Press :kbd:`Ctrl-Tab` and select *Edges* from the pop-up menu, or press :kbd:`Ctrl-Tab 2`.
 :menuselection:`Select Mode --> Faces`
-   Press :kbd:`Ctrl-Tab` and select *Faces* from the pop-up menu, or press :kbd:`Ctrl-Tab`:kbd:`3`.
+   Press :kbd:`Ctrl-Tab` and select *Faces* from the pop-up menu, or press :kbd:`Ctrl-Tab 3`.
 
 
 When using this menu, you can make use of modifier keys, see: `Switching Select Mode`_.

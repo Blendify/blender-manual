@@ -23,18 +23,19 @@ By default the node output a linear transition from 0 to 1 from frame 1 to 250.
 The shape of the curve can be manipulated to vary the output over time in different ways.
 
 
-:kbd:`Plus`:Zoom in.
-:kbd:`Minus`:Zoom out
-*Tools*:
+:kbd:`Plus`: Zoom in.
+:kbd:`Minus`: Zoom out
 
-   Reset View
-      Resets curve view
-   Vector Handle
-      Breaks tangent at curve handle, making a angle.
-   Auto Handle
-      Default smooth interpolation of curve segments
-   Extend Horizontal
-      Causes the curve to stay horizontal before the first point and after the last point.
+.. rubric:: Tools
+
+Reset View
+   Resets curve view
+Vector Handle
+   Breaks tangent at curve handle, making a angle.
+Auto Handle
+   Default smooth interpolation of curve segments
+Extend Horizontal
+   Causes the curve to stay horizontal before the first point and after the last point.
 
 
 .. figure:: /images/texture-nodes-time-extendHorizontal.jpg

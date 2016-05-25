@@ -34,7 +34,7 @@ enable *Cursor Depth* in the :doc:`User Preferences </preferences/interface>`
 Using the Snap Menu
 -------------------
 
-The *Snap* menu (:kbd:`Shift-S` or :menuselection:`Object/Mesh --> Snap`)
+The *Snap* menu :menuselection:`Object/Mesh --> Snap`, :kbd:`Shift-S`
 will allow you to snap the cursor in the following ways:
 
 

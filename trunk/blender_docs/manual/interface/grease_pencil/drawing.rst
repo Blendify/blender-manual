@@ -45,8 +45,8 @@ Erase :kbd:`D-RMB`
    Erases segments of strokes that fall within the radius of the eraser "brush".
    The erasing will continue until the mouse button is released.
    If begun with *Erase*, either :kbd:`RMB` or :kbd:`LMB` will erase strokes.
-   The size of the eraser "brush" can be controlled with :kbd:`Wheel` or
-   (:kbd:`NumpadPlus`, :kbd:`NumpadMinus`) keys (while still holding :kbd:`RMB`).
+   The size of the eraser "brush" can be controlled with :kbd:`Wheel`,
+   :kbd:`NumpadPlus`or :kbd:`NumpadMinus` keys, while still holding :kbd:`RMB`.
 
 
 Sketching Sessions

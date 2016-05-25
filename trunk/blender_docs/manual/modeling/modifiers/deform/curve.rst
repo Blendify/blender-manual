@@ -39,8 +39,8 @@ Example
 Let's make a simple example:
 
 
-- Remove default cube object from scene and add a Monkey (:menuselection:`Add --> Mesh --> Monkey`)
-- Now add a curve (:menuselection:`Add --> Curve --> Bezier Curve`)
+- Remove default cube object from scene and add a Monkey with :menuselection:`Add --> Mesh --> Monkey`
+- Now add a curve with :menuselection:`Add --> Curve --> Bezier Curve`
 
 ..    Comment: <!--[[File:Manual-Part-II-curvesDeform_exampleAddMonkey.png|frame|left|Add a Monkey!]]
    [[File:Manual-Part-II-curvesDeform_exampleAddCurve.png|frame|left|Add a Curve.]]--> .
@@ -69,7 +69,7 @@ Let's make a simple example:
    Monkey on a Curve.
 
 
-- Now if you select the Monkey, and move it in the Y-direction (:kbd:`G, Y`),
+- Now if you select the Monkey, and move it in the Y-direction :kbd:`G Y`,
   the monkey will deform nicely along the curve.
 
 .. tip::

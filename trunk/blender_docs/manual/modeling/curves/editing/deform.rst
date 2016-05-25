@@ -86,8 +86,8 @@ Let's make a simple example:
    Add a Monkey!
 
 
-- Remove default cube object from scene and add a Monkey
-  (:menuselection:`Add --> Mesh --> Monkey`, *Add a Monkey!*)!
+- Remove default cube object from scene and add a Monkey with
+  :menuselection:`Add --> Mesh --> Monkey`
 - Press :kbd:`Tab` to exit *Edit mode*.
 
 
@@ -96,7 +96,7 @@ Let's make a simple example:
    Add a Curve.
 
 
-- Now add a curve (:menuselection:`Add --> Curve --> Bezier Curve`, *Add a Curve*).
+- Now add a curve with :menuselection:`Add --> Curve --> Bezier Curve`.
 
 
 .. figure:: /images/curvesdeform_exampleeditcurve.jpg

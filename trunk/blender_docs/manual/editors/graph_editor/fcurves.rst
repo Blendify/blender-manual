@@ -55,7 +55,14 @@ extension behavior, and the type of handles.
 Interpolation Mode
 ------------------
 
-You have three choices (:kbd:`T`, or :menuselection:`Curve --> Interpolation Mode`):
+.. admonition:: Reference
+   :class: refbox
+
+   | Menu:     :menuselection:`Curve --> Interpolation Mode`
+   | Hotkey:   :kbd:`T`
+
+
+You have three choices:
 
 Constant
    There is no interpolation at all. The curve holds the value of its last keyframe,
@@ -99,7 +106,12 @@ in which case they are always shown as if constant interpolated, whatever option
 Extrapolation
 -------------
 
-(:kbd:`Shift-E`, or :menuselection:`Channel --> Extrapolation Mode`)
+.. admonition:: Reference
+   :class: refbox
+
+   | Menu:     :menuselection:`Channel --> Extrapolation Mode`
+   | Hotkey:   :kbd:`Shift-E`
+
 
 Extrapolation defines the behavior of a curve before the first and after the last keyframes.
 

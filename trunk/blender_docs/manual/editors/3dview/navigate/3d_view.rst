@@ -25,7 +25,7 @@ Perspective and Orthographic Views
    :class: refbox
 
    | Mode:     All modes
-   | Menu:     :menuselection:`View --> Perspective` / :menuselection:`View --> Orthographic`
+   | Menu:     :menuselection:`View --> Perspective`, :menuselection:`View --> Orthographic`
    | Hotkey:   :kbd:`Numpad5`
 
 Each 3D viewport supports two different types of projection.
@@ -87,7 +87,8 @@ Rotating the View
 
    | Mode:     All modes
    | Menu:     :menuselection:`View --> Navigation`
-   | Hotkey:   :kbd:`MMB` / :kbd:`Numpad2` / :kbd:`Numpad4` / :kbd:`Numpad6` / :kbd:`Numpad8` / :kbd:`Ctrl-Alt-Wheel`
+   | Hotkey:   :kbd:`MMB`, :kbd:`Numpad2`, :kbd:`Numpad4`, :kbd:`Numpad6`, 
+      :kbd:`Numpad8`, :kbd:`Ctrl-Alt-Wheel`
 
 .. figure:: /images/3DView.jpg
    :width: 300px
@@ -143,9 +144,8 @@ Panning the View
 
    | Mode:     All modes
    | Menu:     :menuselection:`View --> Navigation`
-   | Hotkey:
-   | :kbd:`Shift-MMB` / :kbd:`Ctrl-Numpad2` / :kbd:`Ctrl-Numpad4` /
-   | :kbd:`Ctrl-Numpad6` / :kbd:`Ctrl-Numpad8` / :kbd:`Shift-Alt-LMB`
+   | Hotkey:   :kbd:`Shift-MMB` , :kbd:`Ctrl-Numpad2`, :kbd:`Ctrl-Numpad4`,
+      :kbd:`Ctrl-Numpad6`, :kbd:`Ctrl-Numpad8`, :kbd:`Shift-Alt-LMB`
 
 To pan the view, hold down :kbd:`Shift` and drag :kbd:`MMB` in the 3D Viewport.
 For discrete steps, use the hotkeys :kbd:`Ctrl-Numpad8`, :kbd:`Ctrl-Numpad2`,
@@ -163,7 +163,7 @@ Zooming the View
 
    | Mode:     All modes
    | Menu:     :menuselection:`View --> Navigation`
-   | Hotkey:   :kbd:`Ctrl-MMB` / :kbd:`Wheel` / :kbd:`NumpadPlus` / :kbd:`NumpadMinus`
+   | Hotkey:   :kbd:`Ctrl-MMB`, :kbd:`Wheel`, :kbd:`NumpadPlus`, :kbd:`NumpadMinus`
 
 You can zoom in and out by holding down :kbd:`Ctrl` and dragging :kbd:`MMB`.
 The hotkeys are :kbd:`NumpadPlus` and :kbd:`NumpadMinus`.
@@ -178,9 +178,9 @@ hold :kbd:`Ctrl-MMB` and move your mouse up and down.
 .. hint:: If You Get Lost
 
    If you get lost in 3D space, which is not uncommon, two hotkeys will help you:
-   :kbd:`Home` changes the view so that you can see all objects (:menuselection:`View --> View All` menu entry),
+   :kbd:`Home` changes the view so that you can see all objects :menuselection:`View --> View All`,
    while :kbd:`NumpadPeriod` zooms the view to the currently selected objects when in perspective mode
-   (:menuselection:`View --> View Selected` menu entry).
+   :menuselection:`View --> View Selected`.
 
 
 Zoom Border
@@ -423,7 +423,7 @@ On activation the mouse pointer will move at the center of the view,
 and a cross marker will appear...
 
 This navigation mode behaves similar to the first person navigation system available in most 3d world games nowadays.
-It works with a combination of keyboard keys (:kbd:`W`:kbd:`A`:kbd:`S`:kbd:`D`) and mouse movement.
+It works with a combination of keyboard keys :kbd:`W`, :kbd:`A`, :kbd:`S`, :kbd:`D` and mouse movement.
 By default the navigation is in the 'free' mode, with no gravity influence.
 You can toggle between gravity and free mode during the navigation :kbd:`Tab`. 
 
@@ -435,14 +435,14 @@ Shortcuts
 ^^^^^^^^^
 
 - Move the mouse left/right to pan the view left/right or move it up/down to tilt the view up/down.
-- Move the camera forward/backward (:kbd:`W`/:kbd:`S`).
-- Strafe left/right (:kbd:`A`/:kbd:`D`).
+- Move the camera forward/backward :kbd:`W`, :kbd:`S`.
+- Strafe left/right :kbd:`A`, :kbd:`D`.
 - Jump :kbd:`V` - only in 'gravity' mode.
-- Move up and down (:kbd:`Q`/:kbd:`E`) - only in 'free' mode.
+- Move up and down :kbd:`Q`, :kbd:`E` - only in 'free' mode.
 - Alternate between 'free' and 'gravity' modes :kbd:`Tab`.
 - Change the movement speed:
-  - :kbd:`WheelUp` or :kbd:`NumpadPlus`} to increase the movement speed for this open session
-  - :kbd:`WheelDown` or to :kbd:`NumpadMinus`} to decrease the movement speed for this open session
+  - :kbd:`WheelUp` or :kbd:`NumpadPlus` to increase the movement speed for this open session
+  - :kbd:`WheelDown` or to :kbd:`NumpadMinus` to decrease the movement speed for this open session
   - :kbd:`Shift` (hold) - to speed up the movement temporarily
   - :kbd:`Alt` (hold) - to slow down the movement temporarily
 
@@ -481,11 +481,11 @@ Shortcuts
 
 - Move the mouse left/right to pan the view left/right or move it up/down to tilt the view up/down.
 - Move the view forward/backward:
-  - :kbd:`WheelUp` or :kbd:`NumpadPlus`} to accelerate the movement forward.
-  - :kbd:`WheelDown` or to :kbd:`NumpadMinus`} to accelerate the movement backward.
+  - :kbd:`WheelUp` or :kbd:`NumpadPlus` to accelerate the movement forward.
+  - :kbd:`WheelDown` or to :kbd:`NumpadMinus` to accelerate the movement backward.
 
     So if the view is already moving forward,
-    :kbd:`WheelDown`/:kbd:`NumpadMinus`} will eventually stop it and then move it backward, etc.
+    :kbd:`WheelDown`, :kbd:`NumpadMinus` will eventually stop it and then move it backward, etc.
 - Drag the :kbd:`MMB` to dolly.
   In this case the view can move laterally on its local axis at the moment you drag the mouse – quite obviously,
   dragging left/right/up/down makes the view dolly on the left/right/up/down respectively.

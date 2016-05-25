@@ -15,7 +15,7 @@ Orbit :kbd:`MMB`
    Rotate the view around the point of interest.
 Pan :kbd:`Shift-MMB`
    Move the view up, down, left and right
-Zoom (:kbd:`Ctrl-MMB`/:kbd:`Wheel`)
+Zoom :kbd:`Ctrl-MMB`, :kbd:`Wheel`
    Move the camera forwards and backwards
 
 :doc:`Read more about navigation </editors/3dview/navigate/introduction>`.

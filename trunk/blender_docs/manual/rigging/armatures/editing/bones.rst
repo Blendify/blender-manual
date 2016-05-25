@@ -38,7 +38,7 @@ Add Menu
 
 
 In the 3D view,
-:kbd:`Shift-A`:menuselection:`pop-up --> Bone` to add a new bone to your armature.
+:kbd:`Shift-A` :menuselection:`--> Bone` to add a new bone to your armature.
 
 This bone will be:
 
@@ -477,12 +477,12 @@ the bones created from a subdivision always form a connected chain of bones.
 
 To create two bones out of each selected bone:
 
-- press :kbd:`W`:menuselection:`pop-up --> Subdivide`, same as :kbd:`W-1`, or
+- press :kbd:`W` :menuselection:`--> Subdivide`, same as :kbd:`W-1`, or
 - select :menuselection:`Armature --> Subdivide` from the header menu
 
 To create an arbitrary number of bones from each selected bone:
 
-- press :kbd:`W`:menuselection:`pop-up --> Subdivide Multi`, same as :kbd:`W-2`, or
+- press :kbd:`W` :menuselection:`--> Subdivide Multi`, same as :kbd:`W-2`, or
 - select :menuselection:`Armature --> Subdivide Multi` from the header menu, an
 
 Then specify the number of cuts you want in the pop-up. As in mesh editing,
@@ -512,7 +512,7 @@ You can prevent a bone from being transformed in *Edit mode* in several ways:
   in the *Transform Properties* panel (:kbd:`N` in a 3D view);
 - all bones can be locked clicking on the *Lock* button
   of their sub-panels in the *Armature Bones* panel;
-- press :kbd:`Shift-W`:menuselection:`pop-up --> Toggle Settings --> Locked`
+- press :kbd:`Shift-W` :menuselection:`--> Toggle Settings --> Locked`
 - select :menuselection:`Armature --> Bone Settings --> Toggle a Setting`).
 
 *If the root of a locked bone is connected to the tip of an unlocked bone,
@@ -524,8 +524,8 @@ you only really lock its tip. With unconnected bones, the locking is effective o
 X-Axis Mirror Editing
 =====================
 
-Another very useful tool is the *X-Axis Mirror* editing option
-(:menuselection:`Tool panel --> Armature Options`, while Armature is selected in *Edit Mode*),
+Another very useful tool is the *X-Axis Mirror* editing option by
+:menuselection:`Tool panel --> Armature Options`, while Armature is selected in *Edit Mode*.
 When you have pairs of bones of the same name with just a different "side suffix"
 (e.g. ``.R`` / ``.L``, or ``_right`` / ``_left`` ...), once this option is enabled,
 each time you transform (move/rotate/scale...) a bone, its "other side" counterpart will be transformed accordingly,
@@ -542,6 +542,6 @@ Separating Bones in a new Armature
 ==================================
 
 You can, as with meshes, separate the selected bones in a new armature object
-(:menuselection:`Armature --> Separate`, :kbd:`Ctrl-Alt-P`) - and of course,
+:menuselection:`Armature --> Separate`, :kbd:`Ctrl-Alt-P` and of course,
 in *Object mode*, you can join all selected armatures in one
-(:menuselection:`Object --> Join Objects`, :kbd:`Ctrl-J`).
+:menuselection:`Object --> Join Objects`, :kbd:`Ctrl-J`.

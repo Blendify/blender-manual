@@ -148,7 +148,7 @@ Custom At
 To assign a custom shape to a bone, you have to:
 
 - Switch to *Pose mode* :kbd:`Ctrl-Tab`.
-- Select the relevant bone (:kbd:`RMB` click on it).
+- Select the relevant bone by clicking on it with :kbd:`RMB`.
 - Go to the *Display* panel *Custom Shape* field and select the 3D object previously created in the scene;
   in this example we are using a cube and a cone. Tou can optionally set the *At* field to another bone.
 
@@ -226,8 +226,8 @@ Only bones in active layers will be visible/editable - but they will always be e
 - In all modes, use the row of small buttons at the top of the *Display Options* group, *Armature* panel.
   If you want to enable/disable several layers at once, as usual, hold :kbd:`Shift` while clicking...
 - In *Edit mode* and *Pose mode*, you can also do this from the *3D View*,
-  either by using the menu (:menuselection:`Armature --> Switch Armature Layers` or
-  :menuselection:`Pose --> Switch Armature Layers`), or the :kbd:`Shift-M` shortcut,
+  either by using the menu :menuselection:`Armature --> Switch Armature Layers` or
+  :menuselection:`Pose --> Switch Armature Layers`, or the :kbd:`Shift-M` shortcut,
   to display a small pop-up dialog containing the same buttons as described above
   (here again, you can use :kbd:`Shift-LMB` clicks to (de)select several layers at once).
 
@@ -268,8 +268,8 @@ you have to select the chosen bone(s)!
 
 - In the *Button* window, use the "layer buttons" of each selected bone "sub-panel" (*Armature Bones* panel)
   to control in which layer(s) it lays.
-- In the *3D View* window, use the menu (:menuselection:`Armature --> Move Bone To Layer` or
-  :menuselection:`Pose --> Move Bone To Layer`) or press :kbd:`M` to show the usual pop-up layers dialog.
+- In the *3D View* window, use the menu :menuselection:`Armature --> Move Bone To Layer` or
+  :menuselection:`Pose --> Move Bone To Layer` or press :kbd:`M` to show the usual pop-up layers dialog.
   Note that this way, you assign the same layers to all selected bones.
 
 

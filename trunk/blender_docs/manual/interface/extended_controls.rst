@@ -276,7 +276,7 @@ there are controls for filtering and sorting and resizing.
 
 
 Rename
-   By pressing (:kbd:`Ctrl`, :kbd:`LMB`) over an item's name, you can edit the text field.
+   By pressing :kbd:`Ctrl-LMB` over an item's name, you can edit the text field.
    This can also be achieved by double clicking.
 
 Resize
