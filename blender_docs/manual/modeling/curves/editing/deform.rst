@@ -104,7 +104,7 @@ Let's make a simple example:
    Edit Curve.
 
 
-- While in *Edit mode*, move the control points of the curve as shown in (*Edit Curve*),
+- While in *Edit mode*, move the control points of the curve as shown in Fig. Edit Curve,
   then exit *Edit mode* :kbd:`Tab`.
 
 
@@ -124,7 +124,7 @@ Let's make a simple example:
   - Select the Monkey :kbd:`RMB`, and then shift select the curve :kbd:`Shift-RMB`.
   - Press :kbd:`Ctrl-P` to open up the *Make Parent* menu.
   - Select *Curve Deform* (*Make Parent* *menu*).
-- The Monkey should be positioned on the curve, as in (*Monkey on a Curve*).
+- The Monkey should be positioned on the curve, as in Fig. Monkey on a Curve.
 - Now if you select the Monkey :kbd:`RMB`, and move it :kbd:`G`,
   in the Y-direction (the dominant axis by default), the monkey will deform nicely along the curve.
 
@@ -134,7 +134,7 @@ Let's make a simple example:
    while moving the Monkey you will constrain the movement to one axis only.
 
 
-- In (*Monkey deformations*), you can see the Monkey at different positions along the curve.
+- In Fig. Monkey deformations, you can see the Monkey at different positions along the curve.
   To get a cleaner view over the deformation I have activated *SubSurf* with *Subdiv* to **2**,
   and *Set Smooth* on the Monkey mesh.
 

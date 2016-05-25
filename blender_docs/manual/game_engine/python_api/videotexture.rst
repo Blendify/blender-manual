@@ -214,20 +214,20 @@ Setup the source
 The ``VideoFFmpeg`` source has several attributes to control the movie playback:
 
 ``range``
-   [start,stop] (*floats*).
+   [start,stop] (floats).
    Set the start and stop time of the video playback, expressed in seconds from beginning.
    By default the entire video.
 
 ``repeat``
-   (*integer*).
+   (integer).
    Number of video replay, -1 for infinite.
 
 ``framerate``
-   (*float*).
+   (float).
    Relative frame rate, <1.0 for slow, >1.0 for fast.
 
 ``scale``
-   (*bool*).
+   (bool).
    Set to True to activate fast nearest neighbor scaling algorithm.
    Texture width and height must be a power of 2.
    If the video picture size is not a power of 2, rescaling is required.
@@ -235,7 +235,7 @@ The ``VideoFFmpeg`` source has several attributes to control the movie playback:
    Best is to rescale the video offline so that no scaling is necessary at runtime!
 
 ``flip``
-   (*bool*).
+   (bool).
    Set to True if the image must be vertically flipped.
    FFmpeg always delivers the image upside down, so this attribute is set to True by default.
 

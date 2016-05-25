@@ -144,7 +144,7 @@ Operator Parameters
 
 
 Subset
-   Restrict the tool to a subset. See above (*The Subset Option*) about how subsets are defined.
+   Restrict the tool to a subset. See above Fig. The Subset Option about how subsets are defined.
 Add Weights
    Add verts that have no weight before inverting (these weights will all be set to 1.0)
 Remove Weights
@@ -182,7 +182,7 @@ Operator Parameters
 
 
 Subset
-   Restrict the tool to a subset. See above (*The Subset Option*) for how subsets are defined.
+   Restrict the tool to a subset. See above Fig. The Subset Option for how subsets are defined.
 Limit
    This is the minimum weight value that will be kept in the Group.
    Weights below this value will be removed from the group.
@@ -216,7 +216,7 @@ Operator Parameters
 
 
 Subset
-   Restrict the tool to a subset. See above (*The Subset Option*) for how subsets are defined.
+   Restrict the tool to a subset. See above Fig. The Subset Option for how subsets are defined.
 Offset
    A value from the range [-1.0,1.0]) to be added to all weights in the Vertex Group.
 Gain
@@ -405,7 +405,7 @@ Operator Parameters
 -------------------
 
 Subset
-   Restrict the tool to a subset. See above (*The Subset Option*) for how subsets are defined.
+   Restrict the tool to a subset. See above Fig. The Subset Option for how subsets are defined.
 Limit
    Maximum number of weights allowed on each vertex.
 

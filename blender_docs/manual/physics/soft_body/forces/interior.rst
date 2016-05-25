@@ -11,7 +11,7 @@ Interior
 
 To create a connection between the vertices of a Soft Body object there have to be forces that
 hold the vertices together. These forces are effective along the edges in a mesh,
-the connections between the vertices. The forces act like a spring. (*Image 1a*)
+the connections between the vertices. The forces act like a spring. Fig. Image 1a
 illustrates how a 3×3 grid of vertices (a mesh plane in Blender)
 are connected in a Soft Body simulation.
 
@@ -30,9 +30,9 @@ but would change your mesh topology drastically.
 
 Luckily, Blender allows us to define additional *virtual* connections.
 On one hand we can define virtual connections between the diagonal edges of a quad face
-(*Stiff Quads*, *Image 1b*), on the other hand we can define virtual connections
+(*Stiff Quads* Fig. Image 1b), on the other hand we can define virtual connections
 between a vertex and any vertices connected to it's neighbors
-(*Bending Stiffness*). In other words, the amount of bend that is allowed between a
+*Bending Stiffness*. In other words, the amount of bend that is allowed between a
 vertex and any other vertex that is separated by two edge connections.
 
 
@@ -98,7 +98,7 @@ To show the effect of the different edge settings we will use two cubes
           Image 3c: Frame 401.
 
 
-In (*Image 3*), the default settings are used (without *Stiff Quads*).
+In Fig. Image 3, the default settings are used (without *Stiff Quads*).
 The "quad only" cube will collapse completely, the cube composed of tris keeps it's shape,
 though it will deform temporarily because of the forces created during collision.
 
@@ -121,7 +121,7 @@ though it will deform temporarily because of the forces created during collision
           Image 4c: Frame 401.
 
 
-In (*Image 4*), *Stiff Quads* is activated (for both cubes).
+In Fig. Image 4, *Stiff Quads* is activated (for both cubes).
 Both cubes keep their shape, there is no difference for the red cube,
 because it has no quads anyway.
 
@@ -148,7 +148,7 @@ because it has no quads anyway.
 The second method to stop an object from collapsing is to change it's *Bending Stiffness*.
 This includes the diagonal edges (Damping also applies to these connections).
 
-In (*Image 5*), *Be* is activated with a strength setting of 1.
+In Fig. Image 5, *Be* is activated with a strength setting of 1.
 Now both cubes are more rigid.
 
 
@@ -172,7 +172,7 @@ Now both cubes are more rigid.
 
 Bending stiffness can also be used if you want to make a subdivided plane more plank like.
 Without *Be* the faces can freely rotate against each other like hinges
-(*Image 6b*).
+Fig. Image 6b.
 There would be no change in the simulation if you activated *Stiff Quads*,
 because the faces are not deformed at all in this example.
 

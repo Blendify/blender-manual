@@ -100,7 +100,7 @@ Blend
    The *Blend* slider controls the inner cone of the *Spot*.
    The *Blend* value can be between ``0.0`` and ``1.0``.
    The value is proportional and represents that amount of space that the inner cone should
-   occupy inside the outer cone (*Size*).
+   occupy inside the outer cone *Size*.
 
    The inner cone boundary line indicates the point at which light from the *Spot* will start to blur/soften;
    before this point its light will mostly be full strength.

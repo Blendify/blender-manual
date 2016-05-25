@@ -91,7 +91,7 @@ This will create a new object with **all** of its data linked to the original ob
 If you modify one of the linked objects in *Edit mode*,
 all linked copies are modified. Transform properties (object data-blocks) still remain copies,
 not links, so you still can rotate, scale, and move freely without affecting the other copy.
-Reference (*Duplicate Example*) for the discussions below.
+Reference Expl. :ref:`Duplicate Example <expl-object-link-duplicate>` for the discussions below.
 
 .. hint::
 
@@ -102,6 +102,8 @@ Reference (*Duplicate Example*) for the discussions below.
 
    .. figure:: /images/Interface-Scenes-mk_singleuser.jpg
       :align: center
+
+.. _expl-object-link-duplicate:
 
 Examples
 --------

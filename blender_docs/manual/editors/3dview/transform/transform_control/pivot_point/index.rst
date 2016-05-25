@@ -19,7 +19,7 @@
 
 The pivot point is the point in space around which all rotations,
 scalings and mirror transformations are centered. You can choose one of five *Pivot Points*
-from a drop-down list in the header of any 3D area, as seen here in (*Pivot Point modes*).
+from a drop-down list in the header of any 3D area, as seen here in Fig. Pivot Point modes.
 The pages linked below describe each *Pivot Point* mode in more detail.
 
 

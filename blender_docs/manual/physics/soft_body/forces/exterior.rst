@@ -117,7 +117,7 @@ The vertex tries to reach it's target position with a certain, adjustable intens
    Image 2b: Shock absorber description.
 
 
-Imagine the vertex is connected with it's target through a spring (*Image 2b*).
+Imagine the vertex is connected with it's target through a spring Fig. Image 2b.
 
 Default
    This parameter defines how strong the influence of this spring is. A strength of 1 means,

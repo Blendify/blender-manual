@@ -296,8 +296,8 @@ The option is available from the footer menu bar of the 3D viewport
 
 .. figure:: /images/Modeling-Meshes-weight-paint-select.jpg
 
-You can choose between *Face Selection masking* (left icon)
-and *Vertex selection masking* (right icon).
+   You can choose between *Face Selection masking* (left icon)
+   and *Vertex selection masking* (right icon).
 
 *Select* mode has some advantages over the default *Weight Paint mode*:
 
@@ -317,7 +317,7 @@ The following standard selection operations are supported:
 - :kbd:`C` - Select with brush.
 - :kbd:`L` - Pick linked (under the mouse cursor).
 - :kbd:`Ctrl-L` - Select linked.
-- :kbd:`Ctrl-I` - Invert selection (*Inverse*).
+- :kbd:`Ctrl-I` - Invert selection *Inverse*.
 
 
 .. tip:: Selecting Deform Groups

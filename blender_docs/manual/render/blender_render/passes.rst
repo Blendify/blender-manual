@@ -227,7 +227,7 @@ Compositing Ambient Occlusion
 
 AO is a geometry-based dirt shader, making corners darker.
 It is separately enabled in the World settings and computed as a separate pass. When enabled,
-it has one of three Modes (*Add, Subtract, Both*), and variable *Energy* level
+it has one of three Modes: *Add*, *Subtract* , *Both* and a variable *Energy* level
 (which changes the intensity of the shading).
 The third variable is the amount of Ambient light that the material receives.
 If it does not receive any, then ambient occlusion does not affect it.

@@ -90,7 +90,7 @@ Unborn
    Render particles before they are born.
 Died
    Render particles after they have died.
-   This is very useful if particles die in a collision (*Die on hit*), so you can cover objects with particles.
+   This is very useful if particles die in a collision *Die on hit*, so you can cover objects with particles.
 
 
 None

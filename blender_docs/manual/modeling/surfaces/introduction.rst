@@ -53,7 +53,7 @@ Visualization
 There is nearly no difference from NURBS curves,
 except that the ``U`` direction is indicated by yellow grid lines,
 and the ``V`` one is materialized by pink grid lines, as you can see in
-(*Surface*).
+Fig. Surface.
 
 You can :ref:`hide and reveal <curves-hiding>` control points just as with curves.
 
@@ -130,7 +130,7 @@ one for each interpolation axis (U and V). Note that unlike with curves, you hav
           Resolution 3x3.
 
 
-(*Resolution 1x1*) is an example of a surface resolution of 3 for both ``U`` and ``V``. (*Resolution 3x3 surface*)
+Fig. Resolution 1x1 is an example of a surface resolution of 3 for both ``U`` and ``V``. Fig. Resolution 3x3 surface
 is an example of a surface resolution of 12 for both ``U`` and ``V``.
 
 
@@ -166,7 +166,7 @@ or *Bezier*, with the same properties as for curves. And as with curves, only op
    Endpoint U.
 
 
-In (*Endpoint U*), the U interpolation axis is labeled as ``U`` and the V
+In Fig. Endpoint U the U interpolation axis is labeled as ``U`` and the V
 interpolation axis is labeled as ``V``. The ``U`` 's interpolation axis has
 been set to *Endpoint* and as such the surface now extends to the outer edges from
 ``E1`` to ``E2`` along the ``U`` interpolation axis.
@@ -180,9 +180,9 @@ Order
 
 One more time, this property is the same as with :ref:`NURBS Curves <modeling-curve-order>`;
 it specifies how much the control points are taken into account for calculating the curve of the surface shape.
-For high *Orders*, (*1*), the surface pulls away from the control points,
+For high Fig. Orders 1 the surface pulls away from the control points,
 creating a smoother surface - assuming that the
-`Surface Resolution`_ is high enough. For lowest *Orders*, (*2*), the surface follows the control points,
+`Surface Resolution`_ is high enough. For lowest Fig. Orders 2 the surface follows the control points,
 creating a surface that tends to follow the grid cage.
 
 
@@ -191,7 +191,7 @@ creating a surface that tends to follow the grid cage.
    Order 2 and order 4 surface.
 
 
-For illustration purposes, in both (*Order 4 surface*) and (*Order 2 surface*),
+For illustration purposes, in both Fig. Order 4 surface and Fig. Order 2 surface,
 the knot vectors were set to *Endpoint*, causing the surface to extend to all edges.
 
 You can set independently the order for each interpolation axis, and like curves,
@@ -213,7 +213,7 @@ Weight
 Guess what? Yes, it works exactly like :ref:`NURBS Curves <modeling-curve-weight>` ! *Weight* specifies
 how much each control point "pulls" on the curve.
 
-In (*Surface Weight 5*), a single control point, labeled ``C``,
+In Fig. Surface Weight 5 a single control point, labeled ``C``,
 has had its *Weight* set to **5.0** while all others are at their default of **1.
 0**. As you can see, that control point *pulls* the surface towards it.
 

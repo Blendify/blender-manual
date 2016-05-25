@@ -60,7 +60,7 @@ the frame's *Width* must be greater than **0.0**.
    Frame width.
 
 
-(*Frame width*) is a text object with a width of ``5.0``.
+Fig. Frame width is a text object with a width of ``5.0``.
 And because the frame width is greater than ``0.0``
 it is now visible and is drawn in the active theme color as a dashed rectangle.
 The text has overflowed because the text has reached the end of the last frame, the default frame.
@@ -95,7 +95,7 @@ it just isn't visible because its *Width* is **0.0**.
 
 Set the width to **5.0**.
 The frame is now visible and text is wrapping according to the new width, as shown in
-(*Text 2*). Notice that the text has overflowed out of the frame.
+Fig. Text 2. Notice that the text has overflowed out of the frame.
 This is because the text has reached the end of the last frame,
 which just happens to be the default/initial frame.
 
@@ -121,7 +121,7 @@ Example: Multiple columns
 To create two columns of text just create a text object and adjust the initial frame's
 *Width* and *Height* to your requirements, then insert a new frame.
 The new frame will have the same size as the initial frame. Set the *X* position to
-something greater or less than the width of the initial frame; see (*Text 5*).
+something greater or less than the width of the initial frame; see Fig. Text 5.
 
 
 Assigning Materials
@@ -147,8 +147,8 @@ on the *Assign* button in the Materials panel.
    Red Green Blue.
 
 
-For example, to create (*Red Green Blue*)
+For example, to create Fig. Red Green Blue
 you would need to create three separate materials and three separate material indices. Each
 word would be assigned a *Material index* by selecting the characters for each word
-and clicking the *Assign* button. (*Red Green Blue*)
+and clicking the *Assign* button. Fig. Red Green Blue
 is still one single *Text* object.

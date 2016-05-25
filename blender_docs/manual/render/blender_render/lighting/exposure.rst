@@ -20,7 +20,7 @@ see :doc:`Color Management and Exposure </render/post_process/cm_and_exposure>`.
 Previously Blender clipped color directly with ``1.0`` (or 255)
 when it exceeded the possible RGB space.
 This caused ugly banding and overblown highlights when light overflowed
-(*An overexposed teapot*).
+Fig. An overexposed teapot.
 
 Using an exponential correction formula, this now can be nicely corrected.
 

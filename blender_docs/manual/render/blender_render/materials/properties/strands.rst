@@ -137,7 +137,7 @@ Strands can be textured along the strand, i.e. from root to tip. To do that you 
 *Strand/Particle* in the *Coordinates* drop-down in the
 *Mapping* panel of the *Material* sub-context.
 
-Pretty much the most important setting is shown in (*Image 4*),
+Pretty much the most important setting is shown in Fig. Image 4,
 how to fade the tip of a strand to alpha to make nice, fuzzy-looking hair.
 Normally you would use a linear blend texture for this.
 

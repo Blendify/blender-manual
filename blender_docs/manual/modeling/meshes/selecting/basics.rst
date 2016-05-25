@@ -91,11 +91,11 @@ If any object that was last active appears in the group it will become selected 
           Complete.
 
 
-In (*Start*), *Border Select* has been activated and is indicated by showing a
-dotted cross-hair cursor. In (*Selecting*),
+In Fig. Start, *Border Select* has been activated and is indicated by showing a
+dotted cross-hair cursor. In Fig. Selecting
 the *selection region* is being chosen by drawing a rectangle with the :kbd:`LMB`.
 The selection area is only covering the selection handles of three faces. Finally,
-by releasing :kbd:`LMB` the selection is complete; see (*Complete*).
+by releasing :kbd:`LMB` the selection is complete; see Fig. Complete.
 
 .. note::
 
@@ -130,7 +130,7 @@ or the :kbd:`Wheel`.
           After.
 
 
-(*Circle Region Select*) is an example of selecting edges while in *Edge Select Mode*.
+Fig. Circle Region Select is an example of selecting edges while in *Edge Select Mode*.
 As soon as an edge intersects the circle the edge becomes selected.
 The tool is interactive such that edges are selected while the circle region is being dragged with the :kbd:`LMB`.
 
@@ -175,7 +175,7 @@ To deselect, use :kbd:`Ctrl-Shift-LMB` while dragging.
           Complete.
 
 
-(*Lasso selection*) is an example of using the *Lasso* select tool in *Vertex Select Mode*.
+Fig. Lasso selection is an example of using the *Lasso select tool* in *Vertex Select Mode*.
 
 
 Additional Selection Tools

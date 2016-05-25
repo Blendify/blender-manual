@@ -78,7 +78,7 @@ Ways to use Particle Mode
 
 To be able to clearly see what you are working on:
 
-- Turn on the *Particle Edit Properties* (*PEP*) panel with :kbd:`N`.
+- Turn on the *Particle Edit Properties* panel with :kbd:`N`.
 - Select *Point select mode* (|hair-point-button|) in the header of the 3D window.
   This will display key points along the particle path.
 
@@ -213,9 +213,9 @@ Add
    Keys
       How many keys to make new particles with.
 Length
-   Scales the segments, so it makes the hair longer(*Grow*) or shorter(*Shrink*).
+   Scales the segments, so it makes the hair longer with *Grow* or shorter with *Shrink*.
 Puff
-   Rotates the hair around it's first keypoint (root). So it makes the hair stand up (*Add*) or lay down (*Sub*).
+   Rotates the hair around it's first keypoint (root). So it makes the hair stand up with *Add* or lay down with *Sub*.
 
    Puff Volume
       Apply puff to unselected end-points, (helps maintain hair volume when puffing root)

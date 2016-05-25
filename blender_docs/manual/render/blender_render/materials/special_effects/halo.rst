@@ -166,7 +166,7 @@ but keep the colors for these settings
 fairly subtle. Play with the *Flares:* number and *Fl. seed:*
 settings until you arrive at something that is pleasing to the eye.
 You might need to play with *Boost:* for a stronger effect
-(*Lens Flare settings*).
+Fig. Lens Flare settings.
 
 Note that this tool does not simulate the physics of photons traveling through a glass lens;
 it's just a eye candy.
@@ -241,7 +241,7 @@ You can now animate the texture to move over the billboard,
 using the *ofsX* value in the *Texture* panel of the MaterialButtons.
 (You could use a higher resolution for the grid,
 but if you do you will have to adjust the size of the halos by shrinking them,
-or they will overlap. (*Dot Matrix display*).
+or they will overlap. Fig. Dot Matrix display.
 
 
 .. note:: Note about material indices

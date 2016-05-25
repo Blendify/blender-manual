@@ -108,8 +108,8 @@ By holding :kbd:`Ctrl` when selecting a higher selection mode,
 all elements touching the current selection will be added,
 even if the selection does not form a complete higher element.
 
-See (*Vertices* *mode example*), (*Edges* *mode example*),
-(*Faces* *mode example*) and (*Mixed mode example*)
+See Fig. Vertices mode example, Fig. Edges mode example,
+Fig. Faces mode example and Fig. Mixed mode example
 for examples of the different modes.
 
 .. list-table::

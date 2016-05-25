@@ -195,7 +195,7 @@ Invalid selections are:
 
 Loop crosses itself
    This means that the tool could not find any suitable faces that were adjacent to the selected edge(s).
-   (*Loop crosses*) is an example that shows this by selecting two edges that share the same face.
+   Fig. Loop crosses is an example that shows this by selecting two edges that share the same face.
    A face cannot be adjacent to itself.
 Multiple edge loops
    The selected edges are not in the same edge loop, which means they don't have a common edge.
@@ -245,11 +245,11 @@ or on two selected vertices or two selected faces that implicitly share an edge 
 Using Face Selection
 --------------------
 
-To rotate an edge based on faces you must select two faces, (*Adjacent selected faces*),
+To rotate an edge based on faces you must select two faces, Fig. Adjacent selected faces,
 otherwise Blender notifies you with an error message,
-*"ERROR: Could not find any select edges that can be rotated"*. Using either *Rotate Edge CW*
+``"ERROR: Could not find any select edges that can be rotated"``. Using either *Rotate Edge CW*
 or *Rotate Edge CCW* will produce exactly the same results as if you had
-selected the common edge shown in (*Selected edge rotated CW and CCW.*).
+selected the common edge shown in Fig. Selected edge rotated CW and CCW.
 
 
 Delete Edge Loop

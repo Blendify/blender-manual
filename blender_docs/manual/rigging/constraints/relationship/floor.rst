@@ -52,7 +52,7 @@ Max / Min
    As the constraint does not only define an uncrossable plane,
    but also a side of it which is forbidden to the owner,
    you can choose which side by enabling either the positive or negative normal axis...
-   E.g, by default (*Z*), the owner is stuck in the positive Z coordinates.
+   e.g. by default *Z*, the owner is stuck in the positive Z coordinates.
 
 Space
    This constraint allows you to choose in which space to evaluate its owner's and target's transform properties.
