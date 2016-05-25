@@ -93,7 +93,7 @@ Material Index Offset
    The modifier thickness is calculated using local vertex coordinates. If the object has non-uniform scale,
    the thickness will vary on different sides of the object.
 
-   To fix this, either apply (:kbd:`Ctrl-A`) or clear (:kbd:`Alt-S`) scale.
+   To fix this, either apply :kbd:`Ctrl-A` or clear :kbd:`Alt-S` scale.
 
 
 Known Limitations

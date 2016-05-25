@@ -10,7 +10,7 @@ Introduction
    | Hotkey:   :kbd:`Tab`
 
 
-As with any other object, you edit your armature in *Edit mode* (:kbd:`Tab`).
+As with any other object, you edit your armature in *Edit mode* :kbd:`Tab`.
 
 Editing an armature means two main domains of action:
 

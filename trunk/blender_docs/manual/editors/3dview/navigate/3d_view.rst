@@ -65,7 +65,7 @@ Rendering is in perspective by default. If you need to create an orthographic re
 select the camera, go to the *Object Data* context and press the
 *Orthographic* button in the *Lens* panel.
 
-The :menuselection:`View --> Camera` menu entry sets the 3D view to camera mode (:kbd:`Numpad0`).
+The :menuselection:`View --> Camera` menu entry sets the 3D view to camera mode :kbd:`Numpad0`.
 The scene is then displayed as it will be rendered later (see Fig. Demonstration of camera view).
 The rendered image will contain everything within the orange dotted line.
 Zooming in and out is possible in this view, but to change the viewpoint,
@@ -230,7 +230,7 @@ They are found in the *View Menu*
 
       Hold down :kbd:`Shift` while using the numpad to set the view axis.
 
-   Center Cursor and View All (:kbd:`Shift-C`)
+   Center Cursor and View All :kbd:`Shift-C`
       moves the cursor back to the origin **and** zooms in/out so that you can see everything in your scene.
    Align Active Camera to View, :kbd:`Ctrl-Alt-Numpad0`
       Gives your active camera the current viewpoint
@@ -425,9 +425,9 @@ and a cross marker will appear...
 This navigation mode behaves similar to the first person navigation system available in most 3d world games nowadays.
 It works with a combination of keyboard keys (:kbd:`W`:kbd:`A`:kbd:`S`:kbd:`D`) and mouse movement.
 By default the navigation is in the 'free' mode, with no gravity influence.
-You can toggle between gravity and free mode during the navigation (:kbd:`Tab`). 
+You can toggle between gravity and free mode during the navigation :kbd:`Tab`. 
 
-To move to places more quickly you can teleport (:kbd:`Spacebar`) around your scene.
+To move to places more quickly you can teleport :kbd:`Spacebar` around your scene.
 If there is an object in front of the walk cross/aim you will move in that direction until you reach the point
 (offset by the 'camera height' value set in the [Doc:2.6/Manual/Preferences|User Preferences window]]).
 
@@ -437,9 +437,9 @@ Shortcuts
 - Move the mouse left/right to pan the view left/right or move it up/down to tilt the view up/down.
 - Move the camera forward/backward (:kbd:`W`/:kbd:`S`).
 - Strafe left/right (:kbd:`A`/:kbd:`D`).
-- Jump (:kbd:`V`) - only in 'gravity' mode.
+- Jump :kbd:`V` - only in 'gravity' mode.
 - Move up and down (:kbd:`Q`/:kbd:`E`) - only in 'free' mode.
-- Alternate between 'free' and 'gravity' modes (:kbd:`Tab`).
+- Alternate between 'free' and 'gravity' modes :kbd:`Tab`.
 - Change the movement speed:
   - :kbd:`WheelUp` or :kbd:`NumpadPlus`} to increase the movement speed for this open session
   - :kbd:`WheelDown` or to :kbd:`NumpadMinus`} to decrease the movement speed for this open session

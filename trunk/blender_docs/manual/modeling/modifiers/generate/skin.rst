@@ -88,7 +88,7 @@ The skin modifier uses ordinary vertices and edges as input.
 All of the regular Edit Mode tools (such as extrude, subdivide, grab, scale, and rotate) can be used when building
 a skinned mesh.
 
-The radius of selected vertices can be adjusted in the *Transform* panel of the *Properties* region (:kbd:`N`)
+The radius of selected vertices can be adjusted in the *Transform* panel of the *Properties* region :kbd:`N`
 
 
 Examples

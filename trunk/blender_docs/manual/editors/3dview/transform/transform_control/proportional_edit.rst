@@ -120,7 +120,7 @@ Projected (2D)
    The difference between regular and Projected (2D) proportional option (right).
 
 
-Connected (:kbd:`Alt-O`)
+Connected :kbd:`Alt-O`
    Rather than using a radius only, the proportional falloff spreads via connected geometry. This means that you can
    proportionally edit the vertices in a finger of a hand without affecting the other fingers.
    While the other vertices are physically close (in 3D space),
@@ -177,7 +177,7 @@ Falloff
 Examples
 --------
 
-Switch to a front view (:kbd:`Numpad1`) and activate the grab tool with :kbd:`G`.
+Switch to a front view :kbd:`Numpad1` and activate the grab tool with :kbd:`G`.
 As you drag the point upwards, notice how nearby vertices are dragged along with it.
 When you are satisfied with the placement, click :kbd:`LMB` to fix the position.
 If you are not satisfied,
@@ -185,7 +185,7 @@ cancel the operation and revert your mesh to the way it looked before with :kbd:
 (or :kbd:`Esc`).
 
 You can use the proportional editing tool to produce great effects with the scaling
-(:kbd:`S`) and rotation (:kbd:`R`) tools,
+:kbd:`S` and rotation :kbd:`R` tools,
 as Fig. A landscape obtained via proportional editing shows.
 
 

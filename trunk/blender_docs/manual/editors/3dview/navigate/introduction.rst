@@ -43,19 +43,19 @@ Properties Panel
    - :doc:`Transform Orientations </editors/3dview/transform/transform_control/transform_orientations>`
 
 Tool Shelf
-   Toggles the *Tool Shelf* (:kbd:`T`), which appears on the left side of the 3d view,
+   Toggles the *Tool Shelf* :kbd:`T`, which appears on the left side of the 3d view,
    and allows you to perform various operations, depending on the type of object selected, and the mode you are in.
 :doc:`Camera </editors/3dview/navigate/camera_view>`
    Switches the view to the current camera view.
 :doc:`Viewing angles </editors/3dview/navigate/3d_view>`:
    These commands change the view to the default Top/Bottom, Front/Back, or Left/Right views.
 
-   - Top (:kbd:`Numpad7`)
-   - Bottom (:kbd:`Ctrl-Numpad7`)
-   - Front (:kbd:`Numpad1`)
-   - Back (:kbd:`Ctrl-Numpad1`)
-   - Right (:kbd:`Numpad3`)
-   - Left (:kbd:`Ctrl-Numpad3`)
+   - Top :kbd:`Numpad7`
+   - Bottom :kbd:`Ctrl-Numpad7`
+   - Front :kbd:`Numpad1`
+   - Back :kbd:`Ctrl-Numpad1`
+   - Right :kbd:`Numpad3`
+   - Left :kbd:`Ctrl-Numpad3`
 
 :doc:`Cameras Menu </editors/3dview/navigate/camera_view>`:
    *Set Active object as camera*

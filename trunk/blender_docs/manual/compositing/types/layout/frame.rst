@@ -30,7 +30,7 @@ At this point it is no longer possible to grab the edge of the Frame to resize i
 automatically when nodes within the Frame are rearranged.
 
 This behavior can be changed by disabling the *Shrink* option in the Properties tab of
-the Properties region (:kbd:`N`).
+the Properties region :kbd:`N`.
 
 
 Label and Color

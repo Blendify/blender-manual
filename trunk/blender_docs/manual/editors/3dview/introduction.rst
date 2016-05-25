@@ -11,9 +11,9 @@ texture painting, etc.
 
 Navigating in the 3D space is done with the use of both mouse movement and keyboard shortcuts.
 
-Orbit (:kbd:`MMB`)
+Orbit :kbd:`MMB`
    Rotate the view around the point of interest.
-Pan (:kbd:`Shift-MMB`)
+Pan :kbd:`Shift-MMB`
    Move the view up, down, left and right
 Zoom (:kbd:`Ctrl-MMB`/:kbd:`Wheel`)
    Move the camera forwards and backwards

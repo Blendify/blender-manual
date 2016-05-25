@@ -158,7 +158,7 @@ Subsurf subdivides the geometry to give the edges a smooth or sharp appearance.
    A Subsurfed Cube with Creased Edges
 
 The crease weight of selected edges can be changed in the *Transform* panel of the properties region
-(:kbd:`N`), or by using the shortcut :kbd:`Shift-E` and moving the mouse closer
+:kbd:`N`, or by using the shortcut :kbd:`Shift-E` and moving the mouse closer
 or further from the selected edges to adjust the crease weight.
 A higher value makes the edge "stronger" and more resistant to the smoothing effect of subdivision surfaces.
 

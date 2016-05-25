@@ -16,7 +16,7 @@ The owner is always evaluated in the global (world) space:
   is used as an offset from its normal position on the path. E.g.
   if you have an owner with the ``(1.0, 1.0, 0.0)`` location,
   it will be one BU away from its normal position on the curve, along the X and Y axis.
-  Hence, if you want your owner *on* its target path, clear its location (:kbd:`Alt-G`)!
+  Hence, if you want your owner *on* its target path, clear its location :kbd:`Alt-G`!
 - This location offset is also proportionally affected by the scale of the target curve.
   Taking the same ``(1.0, 1.0, 0.0)`` offset as above,
   if the curve has a scale of ``(2.0, 1.0, 1.0)``,
@@ -24,7 +24,7 @@ The owner is always evaluated in the global (world) space:
 - When the *Curve Follow* option is enabled, its rotation is also offset to the one given by the curve (i.e.
   if you want the Y axis of your object to be aligned with the curve's direction,
   it must be in rest, non-constrained state, aligned with the global Y axis).
-  Here again, clearing your owner's rotation (:kbd:`Alt-R`) might be useful...
+  Here again, clearing your owner's rotation :kbd:`Alt-R` might be useful...
 
 The movement of the owner along the target curve/path may be controlled in two different ways:
 

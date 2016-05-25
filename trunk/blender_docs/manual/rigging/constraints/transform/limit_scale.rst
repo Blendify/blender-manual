@@ -20,7 +20,7 @@ It is interesting to note that even though the constraint limits the visual and 
 of its owner, its owner's data block still allows (by default)
 the object or bone to have scale values outside the minimum and maximum ranges
 (as long as they remain positive!).
-This can be seen in its *Transform Properties* panel (:kbd:`N`).
+This can be seen in its *Transform Properties* panel :kbd:`N`.
 When an owner is scaled and attempted to be moved outside the limit boundaries,
 it will be constrained to those boundaries visually and when rendered, but internally,
 its coordinates will still be changed beyond the limits. If the constraint is removed,

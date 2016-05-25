@@ -10,7 +10,7 @@ through lower and upper bounds.
 It is interesting to note that even though the constraint limits the visual and rendered
 rotations of its owner, its owner's data block still allows (by default)
 the object or bone to have rotation values outside the minimum and maximum ranges.
-This can be seen in the *Transform Properties* panel (:kbd:`N`).
+This can be seen in the *Transform Properties* panel :kbd:`N`.
 When an owner is rotated and attempted to be rotated outside the limit boundaries,
 it will be constrained to those boundaries visually and when rendered, but internally,
 its rotation values will still be changed beyond the limits. If the constraint is removed,

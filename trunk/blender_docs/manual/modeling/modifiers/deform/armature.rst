@@ -60,4 +60,4 @@ Bind To
 .. tip::
 
    Armature modifiers can quickly be added to objects using the parenting shortcut
-   (:kbd:`Ctrl-P`) when the active object is an armature.
+   :kbd:`Ctrl-P` when the active object is an armature.

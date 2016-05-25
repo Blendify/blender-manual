@@ -114,7 +114,7 @@ Merge Duplicates
 
 
 The spin operation leaves duplicate vertices along the profile.
-You can select all vertices at the seam with Box select (:kbd:`B`) shown in
+You can select all vertices at the seam with Box select :kbd:`B` shown in
 (*Seam vertex selection*) and perform a *Remove Doubles* operation.
 
 

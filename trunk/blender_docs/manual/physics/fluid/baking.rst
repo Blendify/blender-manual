@@ -43,7 +43,7 @@ Unique domain
 Selecting a Baked Domain
    After a domain has been baked, it changes to the fluid mesh.
    To re-select the domain so that you can bake it again after you have made changes,
-   go to any frame and select (:kbd:`RMB`) the fluid mesh.
+   go to any frame and select :kbd:`RMB` the fluid mesh.
    Then you can click the *BAKE* button again to recompute the fluid flows inside that domain.
 
 Baking always starts at Frame #1

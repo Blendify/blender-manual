@@ -28,27 +28,27 @@ Selecting UVs
 Selection tools are available in the *Select Menu* and Header bar,
 and the shortcuts listed below:
 
-Border Select ; :kbd:`B`
+Border Select :kbd:`B`
    Use the box lasso to select UV coordinates.
 
-Select/Deselect All ; :kbd:`A`
+Select/Deselect All :kbd:`A`
    Selects or de-selects all UV coordinates.
    When initially unwrapping, you will want to select All UVs to rotate, scale, and move them around.
 
-Linked UVs:kbd:`Ctrl-L`
+Linked UVs :kbd:`Ctrl-L`
    This menu item selects all UVs that are part of the same UV map.
    Recall that a map is made for every submesh and seamed part of the mesh, and is analogous to a piece of cloth.
    Selecting *Linked UVs* works similarly to the command in 3D View.
    It will select all UVs that are 'connected' to currently selected UVs.
 
-Pinned UVs ; :kbd:`Shift-P`
+Pinned UVs :kbd:`Shift-P`
    You can pin UVs so they don't move between multiple unwrap operations.
    This menu item selects them all. See Pinning
 
-Border Select Pinned ; :kbd:`Shift-B`
+Border Select Pinned :kbd:`Shift-B`
    Use the box lasso to select only pinned UV coordinates.
 
-Unlink Selection ; :kbd:`Alt-L`
+Unlink Selection :kbd:`Alt-L`
    Cuts apart the selected UVs from the map.
    Only those UVs which belong to fully selected faces remain selected following this command.
    As the name implies, this is particularly useful to unlink faces and move them elsewhere.
@@ -255,7 +255,7 @@ each UV unwrap is its own linked set of coordinates.
 You can lay them on top of one another, and they will onionskin
 (the bottom one will show through the top one). To grab only one though,
 :kbd:`RMB` select one of the UV coordinates,
-and use :menuselection:`Select --> Linked UVs` (:kbd:`Ctrl-L`)
+and use :menuselection:`Select --> Linked UVs` :kbd:`Ctrl-L`
 to select connected UVs, not border select because UVs from both will be selected.
 
 

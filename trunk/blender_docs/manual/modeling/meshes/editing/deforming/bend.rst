@@ -43,7 +43,7 @@ Clamp
    tangent line beyond that (see above left).
    When the clamp is OFF, the arc continues around aligning the selected elements into a circle (right).
 
-   When OFF (:kbd:`Alt`) all selected elements follow a circle,
+   When OFF :kbd:`Alt` all selected elements follow a circle,
    even when outside the segment between the 3d cursor and the mouse.
 
 .. note::

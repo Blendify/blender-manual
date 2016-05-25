@@ -202,7 +202,7 @@ If you split a face, the original face itself will be deleted,
 but its edges and vertices remain unchanged. And so on.
 
 Note that the "copy" is left exactly at the same position as the original, so you must move it
-(:kbd:`G`) to see it clearly...
+:kbd:`G` to see it clearly...
 
 
 Separate

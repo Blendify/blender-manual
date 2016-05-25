@@ -44,7 +44,7 @@ Finding Surface Tools
 
 The panels of the *Editing* context are the same as for :doc:`curves </modeling/curves/introduction>`,
 just with fewer options... And as usual, you have the *Select* and *Surface*
-menus in the 3D view headers, and the *Specials* (:kbd:`W`) pop-up one.
+menus in the 3D view headers, and the *Specials* :kbd:`W` pop-up one.
 
 
 Visualization
@@ -223,7 +223,7 @@ from a control point.
 
 The *Weight* of any particular control point is visible in the
 :doc:`Transform Properties panel </editors/3dview/transform/transform_control/transform_properties>`
-(:kbd:`N`), *in the* *W* *field* (and not the *Weight* field...).
+:kbd:`N`, *in the* *W* *field* (and not the *Weight* field...).
 
 
 Preset Weights

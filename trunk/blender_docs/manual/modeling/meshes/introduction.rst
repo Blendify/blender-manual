@@ -65,7 +65,7 @@ Visualization
 
 By default, Blender highlights selected geometry in orange in both *Object mode* and *Edit mode*.
 
-In *Object mode* with *Wireframe* shading enabled (:kbd:`Z`),
+In *Object mode* with *Wireframe* shading enabled :kbd:`Z`,
 objects are displayed in black when unselected and in orange when selected.
 If more than one object is selected, all selected object except the active object,
 typically the object last selected, is displayed in a darker orange color. Similarly,
@@ -95,8 +95,8 @@ When entering *Edit mode*, several mesh tools become available.
 
 Most of these tools are also available as shortcuts
 (displayed in the *Tooltips* for each tool) and/or in the *Specials* menu
-(:kbd:`W`), the *Edge* menu (:kbd:`Ctrl-E`) ,and *Face* menu
-(:kbd:`Ctrl-F`).
+:kbd:`W`, the *Edge* menu :kbd:`Ctrl-E` ,and *Face* menu
+:kbd:`Ctrl-F`.
 For each tool a context-dependent menu is opened at the bottom of the *Tool Shelf*.
 
 Even more mesh editing tools can be enabled in the *User Preferences* '

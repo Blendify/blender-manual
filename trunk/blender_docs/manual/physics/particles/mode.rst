@@ -146,7 +146,7 @@ Mirroring particles
 
 It may happen that after mirroring two particles occupy nearly the same place.
 Since this would be a waste of memory and rendertime,
-you can *Remove doubles* either from the *Specials* (:kbd:`W`)
+you can *Remove doubles* either from the *Specials* :kbd:`W`
 or the *Particle* menu.
 
 

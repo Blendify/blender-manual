@@ -33,8 +33,8 @@ Extrude
 Tilt
    This setting controls how the normals (AKA the arrows)
    twist around each control point - so it is only relevant with 3D curves!
-   You set it using the *Tilt* transform tool In the (:kbd:`T`) toolbar,
-   the (:kbd:`N`) panel --> transform --> Mean tilt, or :menuselection:`Curve --> Transform --> Tilt`).
+   You set it using the *Tilt* transform tool In the :kbd:`T` toolbar,
+   the :kbd:`N` panel --> transform --> Mean tilt, or :menuselection:`Curve --> Transform --> Tilt`).
 
    You can also reset it to its default value (i.e. perpendicular to the original curve plane)
    with :kbd:`Alt-T` (or :menuselection:`Curve --> Control Points --> Clear Tilt`).
@@ -75,7 +75,7 @@ Radius
    The Radius allows you to directly control the width of the extrusion along the “spinal” curve.
    The *Radius* of the points is set using the *Shrink/Fatten Radius* transform tool :kbd:`Alt-S`,
    the :menuselection:`Curve --> Transform --> Shrink/Fatten Radius`,
-   or the (:kbd:`N`) panel --> transform --> Radius
+   or the :kbd:`N` panel --> transform --> Radius
 
    .. figure:: /images/Curves_Extrude_radius.jpg
 

@@ -100,7 +100,7 @@ Visualizing Physics
 
 Go to :menuselection:`Game --> Show Physics Visualization` to show lines representing various attributes
 of the Bullet representation of your objects.
-Note that these might be easier to see when you turn on Wireframe Mode (:kbd:`Z`)
+Note that these might be easier to see when you turn on Wireframe Mode :kbd:`Z`
 before you press :kbd:`P`.
 Also note that you can see how the Bullet triangulation is working
 (it busts all your Quads to Tris at run-time, but the BGE meshes are still quads at run-time).

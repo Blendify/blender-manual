@@ -32,12 +32,12 @@ Selection in *Pose mode* is very similar to the one in :doc:`Edit mode </rigging
 with a few specificities:
 
 - You can only select *whole bones* in *Pose mode*, not roots/tips...
-- You can select bones based on their group and/or layer, through the *Select Grouped* pop-up menu (:kbd:`Shift-G`):
+- You can select bones based on their group and/or layer, through the *Select Grouped* pop-up menu :kbd:`Shift-G`:
 
   - To select all bones belonging to the same group(s) as the selected ones,
-    use the *In Same Group* entry (:kbd:`Shift-G-Numpad1`).
+    use the *In Same Group* entry :kbd:`Shift-G-Numpad1`.
   - To select all bones belonging to the same layer(s) as the selected ones,
-    use the *In Same Layer* entry (:kbd:`Shift-G-Numpad2`).
+    use the *In Same Layer* entry :kbd:`Shift-G-Numpad2`.
 
 .. figure:: /images/rigging-selectGrouped.jpg
 
@@ -68,7 +68,7 @@ Moreover, the local space for these actions is the bone's own one
 This is especially important when using axis locking - for example,
 there is no specific "bone roll" tool in *Pose mode*,
 as you can rotate around the bone's main axis just by locking on the local Y axis
-(:kbd:`R-Y-Y`)... This also works with several bones selected;
+:kbd:`R-Y-Y`... This also works with several bones selected;
 each one is locked to its own local axis!
 
 When you pose your armature,

@@ -358,7 +358,7 @@ Select Pattern
 Select Camera
    Select the active camera.
 
-Mirror (:kbd:`Shift-Ctrl-M`)
+Mirror :kbd:`Shift-Ctrl-M`
    Select the Mirror objects of the selected object eg. :menuselection:`L.sword --> R.sword`.
 
 Random
@@ -367,9 +367,9 @@ Random
    It's important to note that the percentage represents the likelihood of an unselected object being
    selected and not the percentage amount of objects that will be selected.
 
-Inverse (:kbd:`Ctrl-I`)
+Inverse :kbd:`Ctrl-I`
    Selects all objects that were not selected while deselecting all those which were.
 
-(De)select All (:kbd:`A`)
+(De)select All :kbd:`A`
    If anything was selected it is first deselected.
    Otherwise it toggles between selecting and deselecting every visible object.

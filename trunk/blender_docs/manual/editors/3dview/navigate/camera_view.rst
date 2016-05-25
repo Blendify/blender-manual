@@ -70,7 +70,7 @@ To perform these camera moves, the camera must first be *selected*,
 so that it becomes the active object (while viewing through it,
 you can :kbd:`RMB` -click on the solid rectangular edges to select it).
 The following actions also assume that you are in camera view
-(:kbd:`Numpad0`)! Having done so, you can now manipulate the camera using the same commands
+:kbd:`Numpad0`! Having done so, you can now manipulate the camera using the same commands
 that are used to manipulate any object:
 
 Roll

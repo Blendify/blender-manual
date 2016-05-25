@@ -20,7 +20,7 @@ The Factor curve controls how much the foreground is mixed over the background,
 fading in the foreground on top of the background. The colors of transparent foreground image
 areas is ignored and does not change the color of the background.
 
-Select two strips (:kbd:`Shift-RMB`):
+Select two strips :kbd:`Shift-RMB`:
 
 - With *Alpha Over*, the strips are layered up in the order selected; the first strip selected is the background,
   and the second one goes *over* the first one selected.

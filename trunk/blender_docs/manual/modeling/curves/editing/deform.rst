@@ -45,7 +45,7 @@ Interface
    Make Parent menu.
 
 
-When parenting an object (mesh, curve, meta, ...) to a curve (:kbd:`Ctrl-P`),
+When parenting an object (mesh, curve, meta, ...) to a curve :kbd:`Ctrl-P`,
 you will be presented with a menu (*Make Parent* *menu*).
 
 By selecting *Curve Deform*, you enable the curve deform function on the mesh object.
@@ -105,7 +105,7 @@ Let's make a simple example:
 
 
 - While in *Edit mode*, move the control points of the curve as shown in (*Edit Curve*),
-  then exit *Edit mode* (:kbd:`Tab`).
+  then exit *Edit mode* :kbd:`Tab`.
 
 
 .. figure:: /images/curvesdeform_examplemonkeyoncurve1.jpg
@@ -115,17 +115,17 @@ Let's make a simple example:
 
 - Now, you can use the new, modern, modifier way of "curving" the Monkey:
 
-  - Select the Monkey (:kbd:`RMB`).
+  - Select the Monkey :kbd:`RMB`.
   - In the *Object Modifiers* properties, *Modifiers* panel, add a *Curve* modifier.
   - Type the name of the curve (should be ``Curve``) in the *Ob* field of the modifier,
     and optionally change the dominant axis to *Y*.
 - Or you can choose the old, deprecated method (note that it creates a "virtual" modifier...):
 
-  - Select the Monkey (:kbd:`RMB`), and then shift select the curve (:kbd:`Shift-RMB`).
+  - Select the Monkey :kbd:`RMB`, and then shift select the curve :kbd:`Shift-RMB`.
   - Press :kbd:`Ctrl-P` to open up the *Make Parent* menu.
   - Select *Curve Deform* (*Make Parent* *menu*).
 - The Monkey should be positioned on the curve, as in (*Monkey on a Curve*).
-- Now if you select the Monkey (:kbd:`RMB`), and move it (:kbd:`G`),
+- Now if you select the Monkey :kbd:`RMB`, and move it :kbd:`G`,
   in the Y-direction (the dominant axis by default), the monkey will deform nicely along the curve.
 
 .. tip::

@@ -289,9 +289,9 @@ Saving Images
 
 Images can be saved to external files if they were created or edited in Blender with tools in
 the *Image* menu. If images are already files, use the *Save* command
-(:kbd:`Alt-S`). You can also *Save As* (:kbd:`F3`)
+:kbd:`Alt-S`. You can also *Save As* :kbd:`F3`
 if the image was generated or you want to save as a different name.
-Using *Save as Copy*, (:kbd:`F3`) will save the file to a specified name,
+Using *Save as Copy*, :kbd:`F3` will save the file to a specified name,
 but will keep the old one open in the Image editor.
 
 .. seealso::
