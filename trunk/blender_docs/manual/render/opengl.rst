@@ -33,7 +33,7 @@ the Blender Internal engine.
 
 .. tip::
 
-   **Showing Only Rendered Objects**
+   Showing Only Rendered Objects
 
    To access this option, enable the *Only Render* in the :doc:`Display Panel </editors/3dview/display/panels>`.
 

@@ -39,5 +39,5 @@ Quadratic Sphere
    A quadratic progression with the shape of a three-dimensional ball
 Radial
    A radial progression
-   **Horizontal** / **Vertical**
+   *Horizontal* / *Vertical*
    The direction of the progression is flipped a quarter turn.

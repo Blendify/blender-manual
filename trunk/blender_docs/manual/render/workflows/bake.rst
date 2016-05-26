@@ -31,14 +31,14 @@ the UV of a similarly unwrapped low-resolution mesh.
 The low-resolution mesh will look just like the high-resolution,
 but will have much fewer faces/polygons.
 
-**Advantages**
+.. rubric:: Advantages
 
 - Can significantly reduce render times
 - Texture painting made easier
 - Reduced polygon count
 - Repeated renders are made faster, multiplying the time savings
 
-**Disadvantages**
+.. rubric:: Disadvantages
 
 - Object must be UV-unwrapped.
 - If shadows are baked, lights and object cannot move with respect to each other.

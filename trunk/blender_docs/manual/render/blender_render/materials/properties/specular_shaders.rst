@@ -259,7 +259,7 @@ Gregory J. Ward
    (BRDF) since then widely used in computer graphics because the few parameters it uses are simple to control.
    His model could represent both isotropic surfaces (independent of light direction) and anisotropic surfaces
    (direction dependent). In Blender,
-   the Ward specular shader is still called **Ward Isotropic** but is actually anisotropic.
+   the Ward specular shader is still called *Ward Isotropic* but is actually anisotropic.
    (`PDF <https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.69.6812&rep=rep1&type=pdf>`__)
 
 

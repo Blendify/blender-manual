@@ -37,8 +37,8 @@ geometry. It has two sets of independent options/effects:
 
 Start and End
    These two options add the given amount of offset to the start (or end) point of the stroke, along the (2D)
-   normal at those points. The effect is blended over the whole stroke, so if you, for example,
-   set only *Start* to **50**, the start of the stroke is offset 50 pixels along its normal,
+   normal at those points. The effect is blended over the whole stroke, if you for example,
+   set only *Start* to 50, the start of the stroke is offset 50 pixels along its normal,
    the middle of the stroke, 25 pixels along its own normal, and the end point isn't moved.
 
 X and Y
@@ -66,11 +66,15 @@ Stroke End
    The end point of the stroke.
 Stroke Point Parameter
    The *Stroke Point Parameter* factor controls where along the stroke the pivot point is
-   (``0.0`` means start point; ``1.0`` end point).
+   (start point if set to 0.0; end point if set to 1.0).
 Absolute 2D Point
    The *Pivot X* and *Pivot Y* allows you to define the position of the pivot point in the final
-   render (from the bottom left corner). **WARNING** : Currently,
-   you have to take into account the *real* render size, i.e. resolution **and** resolution percentage!
+   render (from the bottom left corner). 
+
+   .. warning::
+
+      Currently, you have to take into account the *real* render size, 
+      i.e. resolution **and** resolution percentage.
 
 Scale X and Scale Y
    The scaling factors, in their respective axes.

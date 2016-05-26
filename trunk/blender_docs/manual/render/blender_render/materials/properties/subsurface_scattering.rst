@@ -107,7 +107,7 @@ Enabling Subsurface Scattering
 
 *SubSurface Scattering* doesn't need ray tracing.
 But since it is dependent on the incident light and shadows,
-[you need proper shadow calculation (which may need ray tracing).
+you need proper shadow calculation (which may need ray tracing).
 
 
 Options
@@ -119,13 +119,13 @@ IOR
    The :term:`Index Of Refraction` value determines the falloff of incident light.
    Higher values means that light falls off faster.
    The effect is quite subtle and changes the distribution function only a little bit.
-   By the examination of many different materials, values of **1.3** to **1.5**
+   By the examination of many different materials, values of (1.3 to 1.5)
    have been found to work well for most materials.
    If you know the exact material you are trying to simulate, see :ref:`transparency_ior_common`.
 Scale
    The scale of your object, in Blender units, across which you want the scattering effect to take place.
-   Scale *1.0* means **1** Blender unit equals **1** millimeter,
-   scale **0.001** means **1** Blender unit equals **1** meter.
+   Scale of 1.0 means 1 Blender unit equals 1 millimeter,
+   scale of 0.001 means 1 Blender unit equals 1 meter.
    If you want to work out what scale value to use in your scene,
    just use the formula: (size in blender units)/(real world size in millimeters)=scale.
 
@@ -154,15 +154,15 @@ RGB Radius
 
 Blend
    Color
-      This controls how much the R, G, B option modulates the diffuse color and textures.
-      Note that even with this option set to **0.0**, the R, G, B option still influences the scattering behavior.
+      This controls how much the RGB option modulates the diffuse color and textures.
+      Note that even with this option set to 0.0, the RGB option still influences the scattering behavior.
    Texture
       How much the surface texture is blurred along with the shading.
 Scattering Weight
    Front
       Factor to increase or decrease the front scattering.
       When light enters through the front of the object, how much is absorbed or added?
-      (Normally **1.0** or **100%**).
+      (Normally 1.0 or 100%).
    Back
       Factor to increase or decrease the back scattering. Light hitting an object from behind can go all the way
       through the object and come out on the front of the object. This happens mostly on thin objects,
@@ -170,10 +170,10 @@ Scattering Weight
 
 Error
    This parameter controls how precisely the algorithm samples the surrounding points.
-   Leaving it at **0.05** should give images without artifacts. It can be set higher to speed up rendering,
+   Leaving it at 0.05 should give images without artifacts. It can be set higher to speed up rendering,
    potentially with errors.
 
-   Setting it at **1.0** is a good way to quickly get a preview of the look, with errors.
+   Setting it at 1.0 is a good way to quickly get a preview of the look, with errors.
 
 
 Developing your own SSS material

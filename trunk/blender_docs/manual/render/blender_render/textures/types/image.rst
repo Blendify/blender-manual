@@ -15,7 +15,7 @@ themselves allowing us to control most aspects of how image textures are applied
 
 
 About Image Based Texturing
-***************************
+===========================
 
 Texture images take up precious memory space,
 often being loaded into a special video memory bank that is very fast and very expensive,
@@ -393,7 +393,7 @@ Input panel.
 
 
 Settings
-********
+---------
 
 
 .. _render-blender_internal-image_settings:
@@ -514,7 +514,7 @@ Float Buffer
    Generate floating point buffer.
 
 
-About specific options for **movie** and **image sequence** source.
+About specific options for movie and image sequence source.
 see :doc:`here </render/blender_render/textures/types/video>`
 
 

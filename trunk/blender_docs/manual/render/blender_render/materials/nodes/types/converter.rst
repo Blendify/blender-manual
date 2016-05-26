@@ -340,11 +340,11 @@ Outputs
 -------
 
 R
-   Value of the red color channel, separated out by the node.
+   Value of the *red* color channel, separated out by the node.
 G
-   Value of the green color channel, separated out by the node.
+   Value of the *green* color channel, separated out by the node.
 B
-   Value of the blue color channel, separated out by the node.
+   Value of the *blue* color channel, separated out by the node.
 
 
 Combine RGB Node
@@ -362,11 +362,11 @@ Inputs
 ------
 
 R
-   Input value of red color channel. The value can be provided by another node or set manually.
+   Input value of *red* color channel. The value can be provided by another node or set manually.
 G
-   Input value of green color channel. The value can be provided by another node or set manually.
+   Input value of *green* color channel. The value can be provided by another node or set manually.
 B
-   Input value of blue color channel. The value can be provided by another node or set manually.
+   Input value of *blue* color channel. The value can be provided by another node or set manually.
 
 
 Outputs
@@ -409,14 +409,14 @@ Outputs
 -------
 
 H
-   Value of the **hue** color channel, separated out by the node (choose a color of the rainbow).
+   Value of the *hue* color channel, separated out by the node (choose a color of the rainbow).
 S
-   Value of the saturation color channel,
+   Value of the *saturation* color channel,
    separated out by the node (the *quantity* of hue in the color
    (from desaturate - shade of gray - to saturate - brighter colors)).
 V
-   Value of the value color channel,
-   separated out by the node (the **luminosity** of the color
+   Value of the *value* color channel,
+   separated out by the node (the *brightness* of the color
    (from 'no light' - black - to 'full light' - 'full' color, or white if Saturation is 0.0)).
 
 
@@ -435,11 +435,11 @@ Inputs
 ------
 
 H
-   Input value of hue color channel. The value can be provided by another node or set manually.
+   Input value of *hue* color channel. The value can be provided by another node or set manually.
 S
-   Input value of saturation color channel. The value can be provided by another node or set manually.
+   Input value of *saturation* color channel. The value can be provided by another node or set manually.
 V
-   Input value of value color channel. The value can be provided by another node or set manually.
+   Input value of *value* color channel. The value can be provided by another node or set manually.
 
 
 Outputs

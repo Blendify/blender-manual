@@ -20,17 +20,17 @@ Script Node
 ===========
 
 OSL was designed for node-based shading,
-and **each OSL shader corresponds to a node** in a node setup. To add an OSL shader,
+and *each* OSL shader corresponds to *one* node in a node setup. To add an OSL shader,
 add a script node and link it to a text data-block or an external file. Input and output
 sockets will be created from the shader parameters on clicking the update button in the node
 or the text editor.
 
-OSL shaders can be linked to the node in a few different ways. With the **Internal** mode,
+OSL shaders can be linked to the node in a few different ways. With the *Internal* mode,
 a text data-block is used to store the OSL shader,
 and the OSO bytecode is stored in the node itself.
 This is useful for distributing a blend-file with everything packed into it.
 
-The **External** mode can be used to specify a .osl file on disk,
+The *External* mode can be used to specify a .osl file on disk,
 and this will then be automatically compiled into a .oso file in the same directory.
 It is also possible to specify a path to a .oso file, which will then be used directly,
 with compilation done manually by the user.
@@ -51,7 +51,7 @@ Mac OSX
 
 .. tip::
 
-   For use in production, we suggest to **use a node group to wrap shader script nodes**,
+   For use in production, we suggest to use a node group to wrap shader script nodes,
    and link that into other blend-files.
    This makes it easier to make changes to the node afterwards as sockets are added or removed,
    without having to update the script nodes in all files.

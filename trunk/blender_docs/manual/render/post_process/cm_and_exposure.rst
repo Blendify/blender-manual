@@ -22,7 +22,7 @@ Scene Linear Color Space
 
 For correct results, different color spaces are needed for rendering,
 display and storage of images.
-Rendering and compositing is best done in **scene linear color space**,
+Rendering and compositing is best done in scene *linear* color space,
 which corresponds more closely to nature, and makes computations more physically accurate.
 
 
@@ -55,7 +55,7 @@ These settings are found in the scene context of the properties editor, under th
 Display
 -------
 
-Correct display of renders requires a **conversion to the display device color space**,
+Correct display of renders requires a conversion to the display device color space,
 which can be configured here.
 A computer monitor works differently from a digital cinema project or HDTV.
 The scene properties have these settings:
@@ -80,7 +80,7 @@ Display Device
 Render
 ------
 
-There is also an **artistic choice** to be made for renders. Partially that's
+There is also an artistic choice to be made for renders. Partially that's
 because display devices can't display the full spectrum of colors and only have limited
 brightness, so we can squeeze the colors to fit in the gamut of the device.
 Besides that it can also be useful to give the renders a particular look, e.g.
@@ -129,7 +129,7 @@ Color Space
 Image Files
 ===========
 
-The other place to keep color management in mind is when **loading and saving image files**.
+The other place to keep color management in mind is when *loading* and *saving* image files.
 File formats such as PNG or JPEG will typically store colors in a color space ready for
 display, not in a linear space. When they are, for example, used as textures in renders,
 they need to be converted to linear first, and when saving renders for display on the web,
@@ -141,7 +141,7 @@ If this is not the case,
 the color space of the image file can be configured in the image settings. A common situation
 where manual changes are needed is when working with or baking normal maps or displacement
 maps, for example. Such maps do not actually store colors, just data encoded as colors.
-In such cases they should be marked as **Non-Color Data**.
+In such cases they should be marked as *Non-Color Data*.
 
 Image data-blocks will always store float buffers in memory in the scene linear color space,
 while a byte buffer in memory and files on disk are stored in the color space specified with
