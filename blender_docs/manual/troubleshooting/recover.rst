@@ -83,7 +83,7 @@ Recover Auto Save
 .. important::
 
    When recovering an Auto Saved file, you will lose any changes made since the last *Auto Save* was
-   performed.Only **one** Auto Saved file exists for each project
+   performed. Only **one** *Auto Saved* file exists for each project
    (i.e. Blender does not keep older versions -
    hence you won't be able to go back more than a few minutes with this tool).
 

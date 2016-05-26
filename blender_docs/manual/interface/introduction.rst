@@ -142,7 +142,7 @@ This is where the buttons, menus, checkboxes, etc. are located.
 Panels are usually found in the side regions of an editor,
 but also make up most of the :doc:`Properties Editor </editors/properties/index>`'s main region.
 
-In the image on the right there are 3 panels: *Transfor**, *Edit* and *History*.
+In the image on the right there are 3 panels: *Transfor*, *Edit* and *History*.
 The edit panel is expanded and the other 2 panels are collapsed.
 Note that you can change the order of panels by clicking
 on the handle in the upper right corner of a panel's title.
@@ -159,8 +159,8 @@ Tabs
 The Toolshelf has been further structured
 into a set of context sensitive vertical tabs.
 
-In the image to the right you can see the tabs: **Tools**, **Create**, etc.
-The **Tools** tab is currently selected, showing a set of panels containing various tools.
+In the image to the right you can see the tabs: *Tools*, *Create*, etc.
+The *Tools* tab is currently selected, showing a set of panels containing various tools.
 
 
 Pinning

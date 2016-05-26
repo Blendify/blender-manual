@@ -49,7 +49,7 @@ The default behavior is to get strokes' width
 (as defined in its settings - and which might have been modulated by the pen pressure),
 to multiply it by a given constant (0.1), and to assign it directly to weights.
 Radii get the same value scaled by the *Radius Fac* factor (e.g.
-with a **10.0** factor, a stroke width of **3** will give radii of **3.0** ...).
+with a factor of 10.0, a stroke width of 3 will give radii of 3.0 ...).
 
 *Normalize Weight* (enabled by default)
 will scale weights value so that they tightly fit into the ``[0.0, 1.0]`` range.

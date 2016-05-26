@@ -19,7 +19,7 @@ that show you the types of windows you need to get the job done quickly and effi
 If you are having trouble finding a particular screen,
 you can use the search function at the bottom of the list (pictured right).
 
-**Default Screens available**
+.. rubric:: Default Screens available
 
 :3D View Full: A full screen 3D view, used to preview your scene.
 :Animation: Making actors and other objects move about, change shape or color, etc.

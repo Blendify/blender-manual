@@ -209,11 +209,11 @@ Like all curves in Blender, the curve of the *Curve Widget* is controlled using 
 By default, there are two control points: one at ``0.0, 0.0`` and one at ``1.0, 1.0``,
 meaning the input is mapped directly to the output (unchanged).
 
-To **move** a control point
+To *move* a control point
    Simply click and drag it around.
-To **add** a new control point
+To *add* a new control point
    Click anywhere on the curve where there is not already a control point.
-To **remove** a control point
+To *remove* a control point
    select it and click the |delete-button| button at the top right.
 
 

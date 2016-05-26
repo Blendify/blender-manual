@@ -104,8 +104,8 @@ Attempting to link or append data which links back to the current file will like
 Object Rigid-Body Constraints
 -----------------------------
 
-When linking objects **directly** into a blend-file,
-the *Rigid Body* settings won't be linked in
+When linking objects *directly* into a blend-file,
+the *Rigid Body* settings **won't** be linked in
 since they're associated with their scenes world.
 
 As an alternative, you could link in the entire scene and set it as a :ref:`scene-background_set`.
