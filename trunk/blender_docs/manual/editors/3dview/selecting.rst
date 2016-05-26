@@ -261,9 +261,9 @@ Material
 Texture
    Selects every object that is linked to the same texture data-block.
 Dupligroup
-   Selects all objects that use the same **Group** for duplication.
+   Selects all objects that use the same *Group* for duplication.
 Particle System
-   Selects all objects that use the same **Particle System**
+   Selects all objects that use the same *Particle System*
 Library
    Selects all objects that are in the same
    `Library <https://wiki.blender.org/index.php/Dev:2.5/Source/Data_system/LibraryBrowser>`__

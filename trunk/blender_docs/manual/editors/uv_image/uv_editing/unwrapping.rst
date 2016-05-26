@@ -256,7 +256,7 @@ Unwrapping Using Seams
 
 For many cases, using the Unwrap calculations of Cube, Cylinder, Sphere,
 or best fit will produce a good UV layout. However, for more complex meshes,
-especially those with lots of indentations, you may want to define a **seam** to limit and
+especially those with lots of indentations, you may want to define a *seam* to limit and
 guide any of the unwrapping processes discussed above.
 
 Just like in sewing, a seam is where the ends of the image/cloth are sewn together.
@@ -381,10 +381,11 @@ Use Subsurf Modifier
 Margin
    Space between UV islands
 
-**This point is crucial to understanding mapping** later on:
-a face's UV image texture only has to use *part* of the image, not the *whole* image.
-Also, portions of the same image can be shared by multiple faces.
-A face can be mapped to less and less of the total image.
+.. tip::
+
+   A face's UV image texture only has to use *part* of the image, not the *whole* image.
+   Also, portions of the same image can be shared by multiple faces.
+   A face can be mapped to less and less of the total image.
 
 
 Smart UV Project

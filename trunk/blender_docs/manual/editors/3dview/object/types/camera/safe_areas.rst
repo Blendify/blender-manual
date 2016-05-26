@@ -29,7 +29,7 @@ Main Safe Areas
 
 .. figure:: /images/camera_safe_areas.png
 
-   **Red line:** Action safe. **Green line:** Title safe
+   Red line: Action safe. Green line: Title safe.
 
 
 Title Safe
@@ -54,7 +54,7 @@ Center-Cuts
 
 .. figure:: /images/camera_safe_areas_centercuts.png
 
-   **Cyan line:** action center safe. **Blue line:** title center safe
+   Cyan line: action center safe. Blue line: title center safe.
 
 
 Center-cuts are a second set of safe areas to ensure content

@@ -52,9 +52,9 @@ Manipulator Controls
 ====================
 
 - Holding down :kbd:`Ctrl` constrains the action to set increments.
-  Holding down :kbd:`Shift` **after** you :kbd:`LMB` the manipulator handle
+  Holding down :kbd:`Shift` *after* you :kbd:`LMB` the manipulator handle
   will constrain the action to smaller increments.
-- Holding down :kbd:`Shift` **before** you :kbd:`LMB` click on one of the handles will cause the manipulator action
+- Holding down :kbd:`Shift` *before* you :kbd:`LMB` click on one of the handles will cause the manipulator action
   to be performed relative to the other two axes (you can let go of :kbd:`Shift` once you have clicked).
   For example, if you :kbd:`Shift` then :kbd:`LMB` the Z axis handle of the translate manipulator,
   movement will occur in the X and Y planes.

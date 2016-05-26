@@ -188,10 +188,10 @@ Very useful for slide shows and other cases where you want to bring in a set on 
 Editing Strips
 --------------
 
-- :kbd:`RMB` in the middle of the strip selects the **entire** strip;
+- The *entire* strip could be selected by clicking :kbd:`RMB` in the middle of the strip;
   holding it down (or pressing :kbd:`G` rab) and then moving the mouse drags a strip around.
 
-- :kbd:`RMB` on the left arrow of the strip selects the **start** frame offset for that strip;
+- The *start frame offset* for that strip could be selected by clicking :kbd:`RMB` on the left arrow of the strip;
   holding it down (or pressing :kbd:`G` rab and then moving the mouse left/right
   changes the start frame within the strip by the number of frames you move it:
 
@@ -201,7 +201,7 @@ Editing Strips
   - Dragging the left arrow left will create a lead-in (copies) of the first frame for as many frames as you drag it.
     Use this when you want some frames for transitions to the this clip.
 
-- :kbd:`RMB` on the right arrow of the strip selects the **end** frame of the strip;
+- The *end frame* of the strip could be selected by clicking :kbd:`RMB` on the right arrow of the strip;
   holding it down (or pressing :kbd:`G` rab) and then moving the mouse changes the ending frame within the strip:
 
   - Dragging the right arrow to the left shortens the clip;
@@ -235,14 +235,14 @@ cut a strip by pressing :kbd:`K` to cut. At the selected frame for the selected 
    In fact, you make a copy of the strip: the end of the original one is 'winded' to the cut point,
    as with the beginning of the new copy.
 
-   For example, imagine that you have a strip of **50** frames,
+   For example, imagine that you have a strip of 50 frames,
    and that you want to delete the first ten ones.
-   You have to go to the ``11`` :sup:`th` frame, and press :kbd:`K`;
+   You have to go to *frame 11*, and press :kbd:`K`;
    the cut 'divides' your strip in two parts. You now can select the first small part
-   (frames ``1`` to ``10``), and delete it press :kbd:`X`.
+   (frame 1 to frame 10), and delete it press :kbd:`X`.
 
-   You might think that you have really erased the frames **1** to **10**,
-   but there are still there, 'winded', as in a film reel, under your frame **11** :
+   You might think that you have really erased the frames (1 to 10),
+   but there are still there, 'winded', as in a film reel, under your *frame 11*:
    you just have deleted one of the two copies of your strip created by the 'cut'.
    And you can at any time get your 'lost' frames back
    (just :kbd:`RMB` -click on the left arrow of the strip,

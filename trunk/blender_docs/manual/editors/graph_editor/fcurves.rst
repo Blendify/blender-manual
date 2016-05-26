@@ -18,7 +18,7 @@ usually these properties ARE NOT manually modified *frame by frame*, because:
 - it would be very difficult to get smooth variations of the property
   (unless you compute mathematical functions and type a precise value for each frame, which would be crazy).
 
-This is why nearly all direct animation is done using **interpolation**.
+This is why nearly all direct animation is done using *interpolation*.
 
 The idea is simple: you define a few Key Frames, which are multiple frames apart.
 Between these keyframes, the properties' values are computed (interpolated)
@@ -33,15 +33,15 @@ by Blender and filled in. Thus, the animators' workload is significantly reduced
 
 For example, if you have:
 
-- a control point of value ``0`` at frame ``0``,
-- another one of value ``10`` at frame ``25``,
+- a control point of value 0 at *frame 0*,
+- another one of value 10 at *frame 25*,
 - and you use linear interpolation,
 
-then, at frame ``5`` we get a value of ``2``.
+then, at *frame 5* we get a value of 2.
 
 The same goes for all intermediate frames: with just two points,
-you get a smooth growth from ``0`` to ``10`` along the **25 frames**.
-Obviously, if you'd like the frame ``15`` to have a value of ``9``,
+you get a smooth growth from (0 to 10) along the 25 frames.
+Obviously, if you'd like the *frame 15* to have a value of 9,
 you'd have to add another control point (or keyframe)...
 
 
@@ -207,7 +207,7 @@ Although F-curves are very similar to :ref:`curves_bezier`,
 there are some important differences.
 
 For obvious reasons,
-**a property represented by a Curve cannot have more than one value at a given time**,
+a property represented by a Curve cannot have more than **one** value at a given time,
 hence:
 
 

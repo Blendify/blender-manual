@@ -164,7 +164,7 @@ This panel contains all settings which control things displayed in the clip edit
 
 
 R, G, B
-   and **B/W** buttons at the top of this panel are used to control color channels used
+   and *B/W* buttons at the top of this panel are used to control color channels used
    for frame preview and to
    make the whole frame gray scale. It's needed because the tracking algorithm works with gray-scale images and it's
    not always obvious to see which channels disabled will increase contrast of feature points and reduce noise.
@@ -180,7 +180,7 @@ Pyramid
    makes the highest pyramid level be visible. Pyramids are defined later in the Tracking Settings panel section, but
    basically it helps to determine how much a track is allowed to move from one frame to another.
 Track Path
-   and **Length** control displaying of the paths of tracks. The ways tracks are moving can be visible looking
+   and *Length* control displaying of the paths of tracks. The ways tracks are moving can be visible looking
    at only one frame. It helps to determine if a track jumps from its position or not.
 Disabled Tracks
    makes it possible to hide all tracks which are disabled on the current frame. This helps to make view more clear,
@@ -254,21 +254,21 @@ It works in the following way: it gets tracks from the list of tracks used for l
 stabilization and finds the median point of all these tracks on the first frame.
 On each frame, the algorithm makes this point have the same position in screen coordinates by
 moving the whole frame. In some cases it's not necessary to fully compensate camera jumps and
-**Location Influence** can be used in such cases.
+*Location Influence* can be used in such cases.
 
 The camera can also have rotated a bit, adding some tilt to the footage.
-There's the **Stabilize Rotation** option to compensate for this tilt.
+There's the *Stabilize Rotation* option to compensate for this tilt.
 A single extra track needs to be set for this, and it works in the following way.
 On first frame of the movie, this track is connected with the median point of the tracks from
 list above and angle between horizon and this segment is kept constant through the whole footage.
-The amount of rotation applied to the footage can be controlled by **Rotation Influence**.
+The amount of rotation applied to the footage can be controlled by *Rotation Influence*.
 
 If the camera jumps a lot, there'll be noticeable black areas near image boundaries.
-To get rid of these black holes, there's the **Autoscale** option,
+To get rid of these black holes, there's the *Autoscale* option,
 which finds smallest scale factor which, when applied to the footage,
 would eliminate all the black holes near the image boundaries.
-There's an option to control the maximal scale factor, (**Maximal Scale**),
-and the amount of scale applied to the footage (**Scale Influence**).
+There's an option to control the maximal scale factor *Maximal Scale*,
+and the amount of scale applied to the footage *Scale Influence*.
 
 
 Grease Pencil Panel

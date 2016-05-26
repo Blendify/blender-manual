@@ -127,7 +127,7 @@ to rotate the scene around the Z global axis from your current point of view.
 
 .. note:: Hotkeys
 
-   Remember that most hotkeys affect **the active window** (the one that has focus),
+   Remember that most hotkeys affect the **active** window (the one that has focus),
    so check that the mouse cursor is in the area you want to work in before your use the hotkeys.
 
 .. seealso::
@@ -231,7 +231,7 @@ They are found in the *View Menu*
       Hold down :kbd:`Shift` while using the numpad to set the view axis.
 
    Center Cursor and View All :kbd:`Shift-C`
-      moves the cursor back to the origin **and** zooms in/out so that you can see everything in your scene.
+      moves the cursor back to the origin and zooms in/out so that you can see everything in your scene.
    Align Active Camera to View, :kbd:`Ctrl-Alt-Numpad0`
       Gives your active camera the current viewpoint
    View selected, :kbd:`NumpadPeriod`
