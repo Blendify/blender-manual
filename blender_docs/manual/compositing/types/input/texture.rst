@@ -23,7 +23,7 @@ is selected and introduced through the value and/or color socket.
 
 .. note::
 
-   **You cannot edit the textures themselves in the node window**.
+   You can **not** edit the textures themselves in the node window
    To use this node, create and edit the texture in the normal texture buttons,
    then select the texture from the menu button on the node.
 

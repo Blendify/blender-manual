@@ -21,21 +21,21 @@ This node takes an input image and runs the color of the image
 and applies a saturation of color effect of a hue to the image:
 
 Hue:
-   The **Hue** slider specifies how much to shift the hue of the image. Hue 0.5 (in the middle)
+   The *Hue* slider specifies how much to shift the hue of the image. Hue 0.5 (in the middle)
    does not shift the hue or affect the color of the image. As Hue shifts left,
    the colors shift as more cyan is added; a blue image goes bluer, then greener, then yellow.
    A red image goes violet, then purple, blue, and finally teal. Shifting right (increasing Hue from 0.5 to 1.0)
    introduces reds and greens. A blue image goes purple, plum, red, orange, and then yellow.
    A red image goes golden, olive, green, and cyan.
 Sat:
-   **Saturation** affect the amount of pigment in the image.
+   *Saturation* affect the amount of pigment in the image.
    A saturation of 0 actually *removes* hues from the color, resulting in a black-and-white grayscale image.
    A saturation of 1.0 blends in the hue, and 2.0 doubles the amount of pigment and brings out the colors.
 Val:
-   **Value** affects the overall amount of the color in the image.
+   *Value* affects the overall amount of the color in the image.
    Increasing values make an image lighter; decreasing values shift an image darker.
 Fac:
-   **Factor** determines how much this node affects the image.
+   *Factor* determines how much this node affects the image.
    A factor of 0 means that the input image is not affected by the Hue and Saturation settings.
    A factor of 1 means they rule, with .5 being a mix.
 

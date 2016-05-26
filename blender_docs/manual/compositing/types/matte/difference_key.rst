@@ -26,7 +26,7 @@ Image 2
 Options
 =======
 
-Where pixels match the reference background to within the specified **Tolerance**, the matte is made transparent.
+Where pixels match the reference background to within the specified *Tolerance*, the matte is made transparent.
 
 Falloff
    Increase to make nearby pixels partially transparent producing a smoother blend along the edges.

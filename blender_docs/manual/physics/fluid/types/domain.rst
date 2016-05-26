@@ -8,12 +8,12 @@ The Domain Object
 =================
 
 The bounding box of the object serves as the boundary of the simulation.
-**All fluid objects must be in the domain.** Fluid objects outside the domain will not bake.
+All fluid objects **must** be in the domain. Fluid objects outside the domain will not bake.
 No tiny droplets can move outside this domain;
 it's as if the fluid is contained within the 3D space by invisible force fields.
 There can be only a single fluid simulation domain object in the scene.
 
-**The shape of the object does not matter because it will** *always* **be treated like a box**
+The shape of the object does **not** matter because it will *always* be treated like a box
 (The lengths of the bounding box sides can be different).
 So, usually there won't be any reason to use another shape than a box.
 If you need obstacles or other boundaries than a box to interfere with the fluid flow,
@@ -24,7 +24,7 @@ This object will be *replaced* by the fluid during the simulation.
 
 .. tip:: Baking is done on the Domain object
 
-   When you calculate the fluid simulation, **you bake the simulation on the domain object**.
+   When you calculate the fluid simulation, you bake the simulation on the domain object.
    For this reason all the baking options are visible only when selecting the Domain Object.
 
    For baking options, see :doc:`Baking </physics/fluid/baking>`.

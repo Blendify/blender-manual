@@ -15,10 +15,10 @@ HSV
    Three values, often considered as more intuitive than the RGB system (nearly only used on computers):
 
    Hue
-      the **Hue** of the color (in some way, choose a 'color' of the rainbow);
+      The *Hue* of the color (in some way, choose a 'color' of the rainbow);
    Saturation
-      the **quantity** of hue in the color (from desaturating - a shade of gray - to saturate - brighter colors)
-   Value: the **luminosity** of the color
+      The *quantity* of hue in the color (from desaturating - a shade of gray - to saturate - brighter colors)
+   Value: the *brightness* of the color
       (from 'no light' - black - to 'full light' - 'full' color, or white if Saturation is 0.0).
 
 YUV
