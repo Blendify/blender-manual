@@ -14,9 +14,9 @@ Bones are the base elements of armatures.
 
 They have three elements:
 
-- the "start point" named **root** or **head**,
+- the "start point" named *root* or *head*,
 - the "body" itself,
-- and the "end point" named **tip** or **tail**.
+- and the "end point" named *tip* or *tail*.
 
 With the default armature in edit-mode,
 you can select the root and the tip, and move them as you do with mesh vertices.
@@ -155,7 +155,7 @@ Bones Influence
 Basically, a bone controls a geometry when vertices "follow" the bone. This is like how the
 muscles and skin of your finger follow your finger-bone when you move a finger.
 
-To do this, you have to define **how much** a bone influences a certain vertex.
+To do this, you have to define the strength of *influences* a bone has on a certain vertex.
 
 The simplest way is to have each bone affecting those parts of the geometry that are within a
 given range from it. This is called the *envelope technique*,

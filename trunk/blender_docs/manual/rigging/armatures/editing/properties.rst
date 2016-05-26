@@ -345,7 +345,7 @@ so you can't visualize the effects of these settings.
 We saw in :doc:`this page </rigging/armatures/bones/index>` that bones are made
 of small rigid segments mapped to a "virtual" Bézier curve.
 The *Segm* numeric field allows you to set the number of segments inside a given bone - by default,
-it is **1**, which gives a standard rigid bone! The higher this setting (max **32**), the smoother the bone,
+it is set to 1, which gives a standard rigid bone. The higher this setting (max is 32), the smoother the bone,
 but the heavier the pose calculations...
 
 Each bone's ends are mapped to its "virtual" Bezier curve's
@@ -569,8 +569,8 @@ AutoName Left-Right
 AutoName Front-Back
    will add the ``.Bk`` suffix to all bones with a *positive* Y-coordinate root,
    and the ``.Fr`` suffix to all bones with a *negative* Y-coordinate root.
-   The same as with *AutoName Left-Right* goes for **0.0** Y-coordinate bones...
+   The same as with *AutoName Left-Right* goes for 0.0 Y-coordinate bones...
 AutoName Top-Bottom
    will add the ``.Top`` suffix to all bones with a *positive* Z-coordinate root,
    and the ``.Bot`` suffix to all bones with a *negative* Z-coordinate root.
-   The same as with *AutoName Left-Right* goes for **0.0** Z-coordinate bones...
+   The same as with *AutoName Left-Right* goes for 0.0 Z-coordinate bones...

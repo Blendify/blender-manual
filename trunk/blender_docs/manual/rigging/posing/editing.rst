@@ -50,7 +50,7 @@ Basic Posing
 As previously noted,
 bones' transformations are performed based on the *rest position* of the armature,
 which is its state as defined in *Edit mode*. This means that in rest position,
-in *Pose mode*, each bone has a scale of **1.0**, and null rotation and position
+in *Pose mode*, each bone has a scale of 1.0, and null rotation and position
 (as you can see it in the *Transform Properties* panel, in the 3D views,
 :kbd:`N`).
 
@@ -108,8 +108,8 @@ available through the :menuselection:`Pose --> Scale Envelope Distance` menu ent
 Conversely, you may define the current pose as the new rest position (i.e.
 "apply" current transformations to the *Edit mode*),
 using the :menuselection:`Pose --> Apply Pose as Restpose` menu entry
-(or :kbd:`Ctrl-A` and confirm the pop-up dialog). **When you do so,
-the skinned objects/geometry is also reset to its default, undeformed state**,
+(or :kbd:`Ctrl-A` and confirm the pop-up dialog). When you do so,
+the skinned objects/geometry is **also** reset to its default, undeformed state,
 which generally means you'll have to skin it again.
 
 Whereas in *Edit mode*, you always see your armature in its rest position,
@@ -171,7 +171,7 @@ directly using the three "copy/paste" buttons found at the right part of the 3D 
 :menuselection:`Pose --> Paste Pose`
    paste the buffered pose to the currently posed armature.
 :menuselection:`Pose --> Paste Flipped Pose`
-   paste the **X axis mirrored** buffered pose to the currently posed armature.
+   paste the *X axis mirrored* buffered pose to the currently posed armature.
 
 
 Here are important points:
@@ -283,7 +283,7 @@ property on in this "family", this will break the scaling propagation, i.e. this
 all its descendants* will no longer be affected when you scale one of its ancestors.
 
 .. list-table::
-   Examples of transforming parented/connected bones with** *Inherit Rotation* disabled.
+   Examples of transforming parented/connected bones with Inherit Rotation disabled.
 
    * - .. figure:: /images/RiggingPosingRelatioshipsAndTransformExHingeBone.jpg
           :width: 200px
@@ -335,10 +335,10 @@ possible ones below - but this should anyway give you a good idea of the problem
   This might be a bug, in fact, as I see no reason for this behavior...
 
 So, when posing a chain of bones, you should always edit its elements from the root bone to the tip bone.
-This process is known as **forward kinematics**, or FK.
+This process is known as *forward kinematics* (FK).
 We will see in a :doc:`later page </rigging/posing/inverse_kinematics/index>`
 that Blender features another pose method,
-called **inverse kinematics**, or IK, which allows you to pose a whole chain just by moving its tip.
+called *inverse kinematics* (IK), which allows you to pose a whole chain just by moving its tip.
 
 .. note::
 

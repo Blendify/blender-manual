@@ -69,7 +69,7 @@ click on the *Set Inverse* button after assigning the parent. As noted above,
 this cancels out any unwanted transform from the parent, so that the owner returns to the
 location/rotation/scale it was in before the constraint was applied.
 Note that you should apply *Set Inverse* with all other constraints disabled
-(their *Influence* set to **0.0**)
+(their *Influence* set to 0.0)
 for a particular *Child Of* constraint, and before transforming the target/parent
 (see example below).
 
@@ -96,33 +96,34 @@ Examples
 
    * - .. figure:: /images/ConstraintsChildOfObjectsEx01NoCst.jpg
 
-          **1. No constraint**
-          Note the position of ``Owner`` empty - ``1.0`` BU along X and Y axes.
+          1. No constraint: 
+          Note the position of Owner empty 1.0 BU along X- and Y-Axis.
 
      - .. figure:: /images/ConstraintsChildOfObjectsEx02CstAdded.jpg
 
-          **2.** *Child Of* **just added**
-          Here you can see that ``Owner`` empty is now **1.0 BU** away from ``Target_1`` empty along X and Y axes.
+          2. Child Of just added: 
+          Here you can see that Owner empty is now 1.0 BU away 
+          from Target_1 empty along X- and Y-Axis.
 
    * - .. figure:: /images/ConstraintsChildOfObjectsEx03CstSetOffset.jpg
 
-          **3. Offset set**
-          *Set Inverse* has been clicked, and ``Owner`` is back to its original position.
+          3. Offset set:
+          Set Inverse has been clicked, and Owner is back to its original position.
 
      - .. figure:: /images/ConstraintsChildOfObjectsEx04CstTargetTransformed.jpg
 
-          **4. Target/parent transformed**
-          ``Target_1`` has been translated in the XY plane, rotated around the Z axis,
-          and scaled along its *local* X axis.
+          4. Target/parent transformed
+          Target_1 has been translated in the XY plane, rotated around the Z-Axis,
+          and scaled along its local X-Axis.
 
    * - .. figure:: /images/ConstraintsChildOfObjectsEx05CstClearOffset.jpg
 
-          **5. Offset cleared**
-          *Clear Inverse* has been clicked - ``Owner`` is fully again controlled by ``Target_1``.
+          5. Offset cleared:
+          Clear Inverse has been clicked. Owner is fully again controlled by Target_1.
 
      - .. figure:: /images/ConstraintsChildOfObjectsEx06CstSetOffset.jpg
 
-          **6. Offset set again**
-          *Set Offset* has been clicked again.
-          As you can see, it does not gives the same result as in (*Target/parent transformed*).
-          As noted above, use *Set Inverse* only once, before transforming your target/parent.
+          6. Offset set again:
+          Set Offset has been clicked again.
+          As you can see, it does not gives the same result as in (Target/parent transformed).
+          As noted above, use Set Inverse only once, before transforming your target/parent.

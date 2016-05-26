@@ -63,12 +63,12 @@ Rest Length
       the distance before this constraint is applied).
 Volume Variation
    This numeric field controls the amount of "volume" variation proportionally to the stretching amount.
-   Note that the **0.0** value is not allowed, if you want to disable the volume feature,
+   Note that the 0.0 value is not allowed, if you want to disable the volume feature,
    use the *None* button (see below).
 Volume
    These buttons control which of the X and/or Z axes should be affected (scaled up/down)
    to preserve the virtual volume while stretching along the Y axis.
-   If you enable the *NONE* button, the volumetric features are disabled.
+   If you enable the *none* button, the volumetric features are disabled.
 Plane
    These buttons are equivalent to the *Up* ones of the
    :doc:`Track To constraint </rigging/constraints/tracking/track_to>`:

@@ -83,7 +83,7 @@ Curve Radius
 Fixed Position
    Object will stay locked to a single point somewhere along the length of the curve regardless of time
 Offset
-   The number of frames to offset from the "animation" defined by the path (by default, from frame **1**).
+   The number of frames to offset from the "animation" defined by the path (by default, from *frame 1*).
 Follow Curve
    If this option is not activated, the owner's rotation isn't modified by the curve; otherwise,
    it's affected depending on the following options:

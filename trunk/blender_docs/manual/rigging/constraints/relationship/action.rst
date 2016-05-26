@@ -24,12 +24,12 @@ if the action contains keyframes for other properties they are ignored, as const
 As an example, let's assume you have defined an *Object* action
 (it can be assigned to any object, or even no object at all),
 and have mapped it on your owner through an *Action* constraint,
-so that moving the target in the ``[0.0, 2.0]``
-range along its X axis maps the action content on the owner in the ``[0, 100]``
-frame range. This will mean that when the target's X property is ``0.0``
-the owner will be as if in frame ``0`` of the linked action;
-with the target's X property at ``1.0``
-the owner will be as if in frame ``50`` of the linked action, etc.
+so that moving the target in the (0.0 to 2.0)
+range along its X-Axis maps the action content on the owner in the (0 to 100)
+frame range. This will mean that when the target's *X* property is 0.0
+the owner will be as if in *frame 0* of the linked action;
+with the target's *X* property at 1.0
+the owner will be as if in *frame 50* of the linked action, etc.
 
 
 Options
@@ -63,20 +63,20 @@ To Action
       this constraint is obviously not functional when this field does not contain a valid action.
 
 Object Action
-   **Bones only**, when enabled,
+   Bones **only**, when enabled,
    this option will make the constrained bone use the "object" part of the linked action,
    instead of the "same-named pose" part. This allows you to apply the action of an object to a bone.
 
 Target Range Min / Max
    The lower and upper bounds of the driving transform property value.
-   By default, both values are set to ``0.0``
+   By default, both values are set to 0.0
 
    .. warning::
 
       Unfortunately, here again we find the constraints limitations:
 
       - When using a rotation property as "driver",
-        these values are "mapped back" to the ``[-180.0- , 180.0- [`` range.
+        these values are "mapped back" to the (-180.0 to 180.0) range.
       - When using a scale property as "driver", these values are limited to null or positive values.
 
 Action Range Start / End
@@ -85,8 +85,8 @@ Action Range Start / End
    .. note::
 
       - These values must be strictly positive.
-      - By default, both values are set to ``0`` which disables the mapping (i.e.
-        the owner just gets the properties defined at frame ``0`` of the linked action...).
+      - By default, both values are set to 0 which disables the mapping (i.e.
+        the owner just gets the properties defined at *frame 0* of the linked action...).
 
 
 Notes
