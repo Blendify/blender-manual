@@ -9,8 +9,8 @@ Introduction
 The Vehicle Controller is a special :ref:`type of physics object <game_engine-physics-types>`
 that the Physics Engine (bullet) recognizes.
 
-It is composed of a **rigid body**
-representing the chassis and a set of wheels that are set to **no collision**.
+It is composed of a *rigid body*
+representing the chassis and a set of wheels that are set to *no collision*.
 Emphasizing the distinction between a GameEngine,
 Logical or Render object and its representation for the Physics Engine is important.
 
@@ -94,7 +94,7 @@ This is done in 2 parts and it should be modeled according to the desired behavi
 You should think of your gameplay and research appropriate functions for the input.
 For instance, can the vehicle reverse? jump? drift?
 does it turn slowly? How much time does it take to brake or get to full speed?
-The first part is **response to keys**.
+The first part is *response to keys*.
 Whenever the player presses a key, you should set a value accordingly, such as increase acceleration. Example:
 
 .. code-block:: python
@@ -105,7 +105,7 @@ Whenever the player presses a key, you should set a value accordingly, such as i
         logic.car["steer"] -= 0.05
 
 
-The second part is to **compute the movement** according to your functions.
+The second part is to *compute the movement* according to your functions.
 
 .. code-block:: python
 

@@ -31,7 +31,8 @@ The column headings contain controls to set which sensors, and the level of deta
 in the sensor column. This is very useful for hiding unecessary sensors so that the necessary
 ones are visible and easier to reach. Both these can be controlled individually.
 
-**Sensors**:
+Sensors
+=======
 
 Show Objects
    Expands all objects.

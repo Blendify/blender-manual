@@ -16,8 +16,8 @@ because actions are stored in the armature.
 See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
 
 Special Options:
-**Action Playback Type**
 
+Action Playback Type
    Play
       Play ipo once from start to end when a TRUE pulse is received.
    Ping Pong

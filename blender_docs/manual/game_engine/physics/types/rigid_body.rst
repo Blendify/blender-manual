@@ -58,16 +58,17 @@ Radius
    even though it is only actually used with Sphere. Python property: ``obj.game.radius``
 
 .. list-table::
+   :header-rows: 1
 
-   * - **Basic**
+   * - Basic
 
-     - **Radius= 1.5**
+     - Radius= 1.5
 
-     - **Unapplied Scale**
+     - Unapplied Scale
 
-     - **Applied Scale**
+     - Applied Scale
 
-     - **Collision Bounds**
+     - Collision Bounds
 
    * - Rolls, radius of 1 BU
 

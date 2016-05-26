@@ -30,10 +30,11 @@ Column Heading
 
 The column headings contain controls to set which controllers appear,
 and the level of detail given, in the controller column. This is very useful for hiding
-unecessary controllers so that the necessary ones are visible and easier to reach.
+unnecessary controllers so that the necessary ones are visible and easier to reach.
 Both these can be controlled individually.
 
-**Controllers**:
+Controllers
+===========
 
 Show Objects
    Expands all objects.
@@ -71,7 +72,7 @@ controllers for every selected object appear in the list,
 but this may be modified by the column heading filters.
 
 At the head of each displayed object controller list, three entries appear:
-   **(Used States Button)** Shows which states are in use for the object.
+   *Used States Button* Shows which states are in use for the object.
    Detailed description of the marked panel is given in :doc:`States </game_engine/logic/states>`.
 Name
    The name of the object.
@@ -100,5 +101,5 @@ The controller heading is standard to every controller.
       If on, this controller will operate before all other non-preference controllers (useful for start-up scripts).
 #. Active Checkbox
       When unchecked the controller is deactivated, no pluses will be sent to the connect actuators.
-#. :kbd:`X` **Button**
+#. :kbd:`X` *Button*
       Deletes the sensor.

@@ -6,7 +6,10 @@ Property Actuator
 Using the Property actuator you can change the value of a given property once the actuator
 itself is activated.
 
-See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
+.. seealso::
+
+   :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` 
+   for common options.
 
 Special Options:
 
@@ -17,7 +20,8 @@ Special Options:
    Property actuator
 
 
-**Mode**
+Mode
+====
 
 Assign
    the *Property* target property will become equal to the set *Value* once the actuator is activated

@@ -6,7 +6,10 @@ Random Actuator
 Sets a random value into a property of the object
 
 
-See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
+.. seealso::
+
+   :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` 
+   for common options.
 
 Special Options:
 
@@ -17,10 +20,14 @@ Special Options:
    Camera Actuator
 
 
-**Seed**
+Seed
+====
+
 Starting seed for random generator (range 1 - 1000)
 
-**Distribution**
+Distribution
+============
+
 Menu of distributions from which to select the random value.
 The default entry of Boolean Constant gives either True or False,
 which is useful for test purposes.

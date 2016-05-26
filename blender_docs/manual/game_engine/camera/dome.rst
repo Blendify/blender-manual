@@ -7,23 +7,24 @@ This feature allows artists to visualize their interactive projects within an im
 environment. In order to make it an extensible tool, we are supporting Fulldome,
 Truncated domes (front and rear), Planetariums and domes with spherical mirrors.
 
+.. tip::
 
-The Dome camera uses a multipass texture algorithm as developed by Paul Bourke and was
-implemented by Dalai Felinto with sponsorship from **SAT -** Society for Arts and
-Technology within the **SAT** **Metalab**
-`immersion research program <http://paulbourke.net/miscellaneous/domemirror/BlenderiDome/>`__,
-that involves rendering the scene 4 times and placing the subsequent images
-onto a mesh designed especially such that the result, when viewed with an
-orthographic camera, is a fisheye projection.
+   The Dome camera uses a multipass texture algorithm as developed by Paul Bourke and was
+   implemented by Dalai Felinto with sponsorship from SAT - Society for Arts and
+   Technology within the SAT Metalab
+   `immersion research program <http://paulbourke.net/miscellaneous/domemirror/BlenderiDome/>`__,
+   that involves rendering the scene 4 times and placing the subsequent images
+   onto a mesh designed especially such that the result, when viewed with an
+   orthographic camera, is a fisheye projection.
 
 
 .. note::
 
-   Remember to use Blender in **fullscreen mode** to get the maximum out of your projector.
+   Remember to use Blender in 'fullscreen mode' to get the maximum out of your projector.
 
    To accomplish that launch Blender with the command-line argument -W.
    Also to get away of the top menu on Blender try to join all windows (buttons, 3dview, text,
-   ...) in a single one. Otherwise if you only maximize it (Ctrl+Up)
+   ...) in a single one. Otherwise if you only maximize it :kbd:`Ctrl-Up`)
    you can't get the whole screen free to run your game
    (the top bar menu takes about 20 pixels).
 
@@ -129,7 +130,7 @@ Spherical Panoramic Mode
 A full spherical panoramic mode.
 
 - We are using 6 cameras here.
-- The bottom and top start to get precision with **Definition** set to 5 or more.
+- The bottom and top start to get precision with *Definition* set to 5 or more.
 
 
 .. figure:: /images/Dev-GameEngine-Dome-Panoramic.jpg
@@ -165,10 +166,10 @@ File template:
 
 
 First line is the image type the mesh is support to be applied to:
-**2** = **rectangular**, **1** = **radial** Next line has the mesh dimensions in
+``2 = rectangular``, ``1 = radial`` Next line has the mesh dimensions in
 pixelsRest of the lines are the nodes of the mesh.
 
-Each line is compund of **x** **y** **u** **v** **i** (x,y)
+Each line is compound of *x* *y* *u* *v* *i* (x,y)
 are the normalised screen coordinates(u,v)
 texture coordinatesi a multiplicative intensity factor
 

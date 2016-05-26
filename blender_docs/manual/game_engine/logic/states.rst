@@ -65,7 +65,8 @@ Visible and Initial.
    State Panel Visible
 
 
-**Visible States**
+Visible States
+==============
 
 In the Visible area, each of the 30 available states is represented by a light-gray square.
 This panel shows what logic is visible for the logic brick displayed for the object.
@@ -87,7 +88,8 @@ at the head of their columns are ticked.
    State Panel Initial
 
 
-**Initial State**
+Initial State
+=============
 
 In the Initial area,
 each of the 30 available states is again represented by a light-gray square. One of these

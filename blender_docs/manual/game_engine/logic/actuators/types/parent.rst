@@ -9,7 +9,10 @@ Enables you to change the parent relationships of the current object.
 See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
 
 Special Options:
-**Scene**
+
+Scene
+=====
+
 Menu for parenting operation required.
 
 

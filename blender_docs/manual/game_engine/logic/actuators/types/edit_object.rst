@@ -89,7 +89,9 @@ Replace Mesh
    Edit Object actuator - End Object
 
 
-**End Object**
+End Object
+==========
+
 Destroy the current object (Note, debug properties will display error Zombie Object in console)
 
 
@@ -99,7 +101,8 @@ Destroy the current object (Note, debug properties will display error Zombie Obj
    Edit Object actuator - Add Object
 
 
-**Add Object**
+Add Object
+==========
 
 Adds an object at the centre of the current object.
 
