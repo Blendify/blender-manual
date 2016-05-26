@@ -139,7 +139,7 @@ Save Versions
    directory when you manually save a file.
    These files will have the extension: ``.blend1``, ``.blend2``, etc.,
    with the number increasing to the number of versions you specify. Older files will be named with a higher number.
-   e.g. With the default setting of **2**, you will have three versions of your file: ``*.blend`` (your last save),
+   e.g. With the default setting of 2, you will have three versions of your file: ``*.blend`` (your last save),
    ``*.blend1`` (your second last save) and ``*.blend2`` (your third last save).
 Recent Files
    Number of files displayed in :menuselection:`File --> Open Recent`.
@@ -158,7 +158,7 @@ Timer
    Time to wait between automatic saves.
 
    This specifies the number of minutes between each Auto Save.
-   The default value of the Blender installation is **5** (5 minutes).
-   The minimum is **1**, and the Maximum is **60** (Save at every one hour).
+   The default value of the Blender installation is 5 (5 minutes).
+   The minimum is 1, and the Maximum is 60 (Save at every one hour).
 
 :doc:`Read more about Auto Save options </troubleshooting/recover>`.

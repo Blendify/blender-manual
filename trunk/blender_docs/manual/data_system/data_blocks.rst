@@ -14,10 +14,10 @@ Some common characteristics:
 
 - They're the primary contents of the blend-file.
 - They can link to each other, for reuse and instancing.
-  *(child/parent, object/object-data, with modifiers and constraints too).*
+  (child/parent, object/object-data, with modifiers and constraints too).
 - Their names are unique.
 - They can be added/removed/edited/duplicated.
-- They can be linked between files *(only enabled for a limited set of data-blocks)*
+- They can be linked between files (only enabled for a limited set of data-blocks)
 - They can have their own animation data.
 - They can have :doc:`Custom Properties </data_system/custom_properties>`.
 
@@ -45,7 +45,7 @@ this has the advantage of not having to manually manage every single data-block.
 This works by skipping zero user data-blocks when writing blend-files.
 
 In some cases, you want to save a data-block even when it's unused
-*(typically for re-usable asset libraries).* see `Fake User`_.
+(typically for re-usable asset libraries). see `Fake User`_.
 
 Fake User
 ---------
@@ -116,8 +116,8 @@ Data-Block Types
 For reference, here is a table of data-blocks types stored in blend-files.
 
 
-:Link: Library Linking, *supports bing linked into other blend-files*.
-:Pack: File Packing, *supports file contents being packed into the blend-file*.
+:Link: Library Linking, supports bing linked into other blend-files.
+:Pack: File Packing, supports file contents being packed into the blend-file.
 
 
 .. EDITORS NOTE:

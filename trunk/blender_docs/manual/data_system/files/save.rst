@@ -28,7 +28,7 @@ the text field will turn red as a warning that the file will be overwritten.
 
 .. tip::
 
-   Use the **plus**/**minus** buttons to the right of the file name,
+   Use the *plus* or *minus* buttons to the right of the file name,
    or :kbd:`NumpadPlus`, :kbd:`NumpadMinus` to increase/decrease a number at the end of the file name
    (e.g. changing ``file_01.blend`` to ``file_02.blend``).
 

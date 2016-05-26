@@ -35,8 +35,8 @@ Pop-Up Window based on your last action taken and the *Mode* and *Window* in whi
 
 For example, if your last action was a rotation in *Object Mode*,
 the Window will show you the last value changed for the angle (see Fig. Redo Last - Rotation),
-where you can change your action back completely by typing **0** (zero)
-in the numeric field. There are other useful options, based on your action context,
+where you can change your action back completely by typing :kbd:`Numpad0`.
+There are other useful options, based on your action context,
 and you can not only Undo actions, but change them completely using the available options.
 
 If you are in *Edit Mode*,
@@ -49,8 +49,8 @@ the contents of the Pop-Up Window are different, because of your context (Edit M
 
 .. figure:: /images/basics-undo-redo-f6-rotation-object-edit.jpg
 
-   **Left Image**: Redo Last- Rotation (Object Mode, 60 degrees), 
-   **Right Image**: Redo Last- Scale (Edit Mode, Resize face)
+   Left Image: Redo Last- Rotation (Object Mode, 60 degrees), 
+   Right Image: Redo Last- Scale (Edit Mode, Resize face)
 
 
 .. tip:: Operations using Redo Last

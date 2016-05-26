@@ -60,7 +60,7 @@ Onion-skinning, also known as ghosting, helps an animator by displaying the neig
 Enable the option with the *Onion Skin* button in the grease pencil properties panel (shown above).
 
 Use *Before* and *After* to set the number of ghost frames drawn on either side of the current frame.
-When *Use Custom Colors* (Marked **A**) is enabled,
+When *Use Custom Colors* (Marked *A*) is enabled,
 you can also use the *Before* and *After* controls to change the color of the ghosted frames.
 
 
