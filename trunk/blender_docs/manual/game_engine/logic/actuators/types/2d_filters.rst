@@ -12,24 +12,25 @@ Filter 2D Actuator
    Edit Object actuator
 
 
-**Filter 2D Type**
+.. rubric:: Filter 2D Type
+
 Select the type of 2D Filter required.
 
-   *Custom Filter*
-   *Invert*
-   *Sepia*
-   *Gray Scale*
-   *Prewitt*
-   *Sobel*
-   *Laplacian*
-   *Erosion*
-   *Dilation*
-   *Sharpen*
-   *Blur*
-   *Motion Blur*
-   *Remove Filter*
-   *Disable Filter*
-   *Enable Filter*
+- Custom Filter
+- Invert
+- Sepia
+- Gray Scale
+- Prewitt
+- Sobel
+- Laplacian
+- Erosion
+- Dilation
+- Sharpen
+- Blur
+- Motion Blur
+- Remove Filter
+- Disable Filter
+- Enable Filter
 
 Only one parameter is required for all filters:
 

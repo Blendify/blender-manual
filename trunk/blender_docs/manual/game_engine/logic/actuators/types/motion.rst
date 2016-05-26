@@ -7,10 +7,17 @@ The Motion actuator sets an object into motion. There are two modes of
 operation, Simple or Servo, in which the object can either teleport &
 rotate, or dynamically move.
 
-See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>`
-for common options.
+.. seealso:: 
 
-Special Options: **Motion Type**, which determines the type of motion:
+   :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>`
+   for common options.
+
+Special Options: 
+
+Motion Type
+===========
+
+Which determines the type of motion:
 
 Simple Motion
    Applies a change in location and/or rotation directly.

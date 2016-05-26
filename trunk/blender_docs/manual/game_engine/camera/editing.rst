@@ -34,7 +34,7 @@ Embedded Player
    Game Panel
 
 
-**Start** button - Start the Game Engine. Shortcut :kbd:`P`.
+*Start* button - Start the Game Engine. Shortcut :kbd:`P`.
 
 
 Standalone Player

@@ -11,7 +11,7 @@ Save as Runtime is an add-on facility which must be pre-loaded before use.
 
 
 The following procedure will give a standalone version of a working game.
-	
+
 #. :menuselection:`File --> User Preferences --> Add-ons --> Game Engine --> Save As Game Engine Runtime`
    enable the checkbox. (You can also :guilabel:`Save User Settings`,
    in which case the add-on will always be present whenever Blender is re-loaded).
@@ -30,4 +30,4 @@ for a discussion of the issues involved.
 
    If the game is to be exported to other computers,
    make a new empty directory for the game runtime and all its ancilliary libraries etc.
-   Then make sure the **whole directory** is transferred to the target computer
+   Then make sure the **whole** directory is transferred to the target computer

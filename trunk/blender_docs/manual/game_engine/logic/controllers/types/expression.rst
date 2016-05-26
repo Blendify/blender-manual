@@ -15,7 +15,9 @@ For all other conditions the controller gives a negative (FALSE) output.
    Expression Controller
 
 
-**Expression**
+Expression
+==========
+
 The expression, which is written in the box, can consist of variables,
 constants and operators. These must follow the rules laid out below.
 
@@ -26,8 +28,8 @@ Variables
 You can use:
 
 
-- **sensors names**,
-- **properties** : assign a game property to an object and use it in a controller expression.
+- *sensors names*,
+- *properties* : assign a game property to an object and use it in a controller expression.
 
 These cannot contain blank spaces.
 

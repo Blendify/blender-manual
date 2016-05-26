@@ -8,7 +8,10 @@ Adds a constraint to the location, orientation
 See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
 
 Special Options:
-**Constraint Mode**
+
+Constraint Mode
+===============
+
 Menu specifying type of constraint required.
 
 - Force Field Constraint
@@ -81,7 +84,9 @@ Constrain the specified axis in the Game to a specified direction in the World a
    Constraint actuator - Distance
 
 
-**Distance Constraint**
+Distance Constraint
+===================
+
 Maintain the distance the Game Object has to be from a surface
 
    Direction
@@ -116,7 +121,9 @@ Maintain the distance the Game Object has to be from a surface
    Constraint actuator - Location
 
 
-**Location Constraint**
+Location Constraint
+===================
+
 Limit the position of the Game Object within one World Axis direction.
 To limit movement within an area or volume, use two or three constraints.
 

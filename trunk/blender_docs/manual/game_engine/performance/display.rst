@@ -55,4 +55,4 @@ Framing
       Stretch or Squeeze the viewport to fill the display window.
 
 Color Bar
-   This will let the game developer choose the bar colors when using the **Letterbox** Framing mode.
+   This will let the game developer choose the bar colors when using the *Letterbox* Framing mode.

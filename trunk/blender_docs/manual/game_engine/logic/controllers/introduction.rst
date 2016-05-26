@@ -5,7 +5,7 @@ Introduction
 
 The controllers are the bricks that collect data sent by the sensors,
 and also specify the state for which they operate. After performing the specified logic operations,
-they send out pusle signals to drive the actuators to which they are connected.
+they send out pulse signals to drive the actuators to which they are connected.
 
 When a sensor is activated, it sends out a positive pulse, and when it is deactivated,
 it sends out a negative pulse.
@@ -50,8 +50,8 @@ the individual controller pages for a more detailed description of each controll
 .. list-table::
    :header-rows: 1
 
-   * - **Positive sensors**
-     - **Controllers**
+   * - Positive sensors
+     - Controllers
      -
      -
      -

@@ -46,7 +46,9 @@ Alpha Blend menu:
    Opaque (default)
       All alpha values are ignored; the scene is completely non-transparent.
 
-**Face Orientation** menu:
+Face Orientation
+================
+
 Provides options regarding the orientation (i.e. rotation transformation)
 of faces to which the material is applied.
 

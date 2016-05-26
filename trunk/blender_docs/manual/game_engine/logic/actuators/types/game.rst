@@ -23,7 +23,8 @@ Special Options:
    Game
 
 
-**Game**
+Game
+====
 
 Load bge.logic.globalDict
    Load *bge.logic.globalDict* from .bgeconf.
@@ -40,8 +41,9 @@ Start Game From File
       Path to the blend-file to load.
 
 
-**Notes**
-If you use the keyboard sensor as a hook for the :kbd:`Esc` key,
-in the event that the quit game actuator fails, such as an error in a python file,
-the game will be unable to close. Data may be recovered from quit.blend
-:menuselection:`File --> Recover Last Session`
+.. note::
+
+   If you use the keyboard sensor as a hook for the :kbd:`Esc` key,
+   in the event that the quit game actuator fails, such as an error in a python file,
+   the game will be unable to close. Data may be recovered from quit.blend
+   :menuselection:`File --> Recover Last Session`
