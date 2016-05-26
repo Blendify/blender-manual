@@ -39,7 +39,7 @@ and depending on the *Threshold* and *Stiffness* settings,
 they most likely won't need to.
 *Stiffness* is materialized by the *green ring*
 
-The range is from **0.0** to **10.0**. But to be visible,
+The range is from (0.0 to 10.0). But to be visible,
 the *Stiffness* must be slightly larger than the *Threshold* value. You
 can also visually adjust the *Stiffness* ring by using the :kbd:`RMB` to
 select it and activate *Scale* mode with :kbd:`S`.
@@ -184,7 +184,7 @@ and you see that both the parent's mesh *and* all of the children's meshes are n
    Scaling the "base".
 
 
-The *base* *Meta* object controls the **polygonalization** (mesh structure)
+The *base* *Meta* object controls the *polygonalization* (mesh structure)
 for the group, and as such, also controls the polygonalization for the children (non-base)
 metas. If we transform the *base* meta, the children's polygonalization changes. However,
 if we transform the children, the polygonalization remains unchanged.

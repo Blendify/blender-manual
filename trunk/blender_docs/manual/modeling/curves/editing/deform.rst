@@ -33,7 +33,7 @@ to make it control the size of the "curved" object...).
    The *Curve Deform* relationship is now also a modifier, called :doc:`Curve </modeling/modifiers/deform/curve>`.
    The *Curve* modifier function acts the same as its counterpart,
    except that when the modifier is used, the "dominant axis" is set inside its properties -
-   and the *Track X* / *Y* / *Z* buttons no longer have an effect on it.
+   and the *Track X*, *Y*, *Z* buttons no longer have an effect on it.
    And you have some goodies, like the possibility, if "curving" a mesh, to only curve one of its vertex groups...
 
 
@@ -123,19 +123,19 @@ Let's make a simple example:
 
   - Select the Monkey :kbd:`RMB`, and then shift select the curve :kbd:`Shift-RMB`.
   - Press :kbd:`Ctrl-P` to open up the *Make Parent* menu.
-  - Select *Curve Deform* (*Make Parent* *menu*).
+  - Select :menuselection:`Make Parent --> Curve Deform`.
 - The Monkey should be positioned on the curve, as in Fig. Monkey on a Curve.
 - Now if you select the Monkey :kbd:`RMB`, and move it :kbd:`G`,
   in the Y-direction (the dominant axis by default), the monkey will deform nicely along the curve.
 
 .. tip::
 
-   If you press :kbd:`MMB` (or one of the :kbd:`X` / :kbd:`Y` / :kbd:`Z` keys)
+   If you press :kbd:`MMB` (or one of the :kbd:`X`, :kbd:`Y`, :kbd:`Z` keys)
    while moving the Monkey you will constrain the movement to one axis only.
 
 
 - In Fig. Monkey deformations, you can see the Monkey at different positions along the curve.
-  To get a cleaner view over the deformation I have activated *SubSurf* with *Subdiv* to **2**,
+  To get a cleaner view over the deformation, I have activated *SubSurf* with level set to 2,
   and *Set Smooth* on the Monkey mesh.
 
 .. tip::

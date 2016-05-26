@@ -29,9 +29,9 @@ Select Menu
 With curves, all "advanced" selection options are regrouped in the *Select* menu of
 the 3D views header. Let's detail them.
 
-*Random...*
-*Inverse*
-*Select/Deselect All*
+- *Random...*
+- *Inverse*
+- *Select/Deselect All*
 
 Border Select
    All these options have the same meaning and behavior as in :doc:`Object mode </editors/3dview/selecting>`
@@ -111,14 +111,14 @@ Select More / Less
 Their purpose, based on the currently selected control points, is to reduce or enlarge this selection.
 
 More
-   for each selected control point, select **all** its linked points (i.e. one or two...).
+   for each selected control point, select *all* its linked points (i.e. one or two...).
 Less
-   for each selected control point, if **all** points linked to this point are selected, keep this one selected.
+   for each selected control point, if *all* points linked to this point are selected, keep this one selected.
    Otherwise, de-select it.
 
 This implies two points:
 
-- First, when **all** control points of a curve are selected, nothing will happen (as for *Less*,
+- First, when *all* control points of a curve are selected, nothing will happen (as for *Less*,
   all linked points are always selected, and of course, *More* can't add any).
   Conversely, the same goes when no control points are selected.
 - Second, these tools will never "go outside" of a curve

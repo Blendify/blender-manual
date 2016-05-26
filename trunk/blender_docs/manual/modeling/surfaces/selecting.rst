@@ -9,7 +9,7 @@ The basic tools are the same as with :doc:`meshes </modeling/meshes/selecting/in
 so you can select a simple control point with a :kbd:`LMB` -click,
 add to current selection with :kbd:`Shift-LMB` -clicks, :kbd:`B` order-select, and so on.
 
-:kbd:`L` (or :kbd:`Ctrl-L`) will add to the selection the mouse cursor's nearest control point,
+:kbd:`L`, :kbd:`Ctrl-L` will add to the selection the mouse cursor's nearest control point,
 and all the linked ones, i.e. all points belonging to the same surface.
 
 

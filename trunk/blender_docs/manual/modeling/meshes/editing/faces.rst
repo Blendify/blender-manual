@@ -185,8 +185,8 @@ which means some triangles could remain.
 All the menu entries and hotkey use the settings defined in the *Mesh Tools* panel:
 
 Max Angle
-   This values (between **0** and **180**) controls the threshold for this tool to work on adjacent triangles.
-   With a threshold of **0.0**,
+   This values, between (0 to 180), controls the threshold for this tool to work on adjacent triangles.
+   With a threshold of 0.0,
    it will only join adjacent triangles that form a perfect rectangle
    (i.e. right-angled triangles sharing their hypotenuses).
    Larger values are required for triangles with a shared edge that is small,

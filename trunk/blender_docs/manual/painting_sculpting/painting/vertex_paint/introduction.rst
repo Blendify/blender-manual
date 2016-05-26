@@ -1,7 +1,7 @@
 
-*************
-Introductioin
-*************
+************
+Introduction
+************
 
 Vertex Painting is a simple way of painting color onto an object,
 by directly manipulating the color of vertices, rather than textures,
@@ -28,7 +28,7 @@ however, it will not show up in the render unless you check "Vertex Color Paint"
 
 
 Settings
-********
+========
 
 The Tools Shelf, shortcut :kbd:`T` contains most of the options for vertex painting.
 The following sections describe the controls in each of the available panels.
@@ -56,8 +56,7 @@ Strength
    Mix overlay with full strength
 
 
-**Blend** menu
-
+Blend
    Mix
       Mixes RGB values.
       When set to a strength of 1.0, it will cover the underlying "paint".
@@ -173,7 +172,7 @@ the brush. In other words, they allow you to edit the Falloff of the brush inten
 
 
 Options
-*******
+-------
 
 .. figure:: /images/materials-vertexpaint-toolshelf-options.jpg
 

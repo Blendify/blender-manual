@@ -3,7 +3,7 @@
 Data Transfer Modifier
 **********************
 
-The **Data Transfer** modifier transfers several types of data from one mesh to another.
+The *Data Transfer* modifier transfers several types of data from one mesh to another.
 Data types include vertex groups, UV layers, vertex colors, custom normals...
 
 Transfer works by generating a mapping between source mesh’s items (vertices, edges, etc.)
@@ -103,7 +103,7 @@ Islands Handling Refinement
 Usage
 =====
 
-First key thing to keep in mind when using this modifier is that **it will not create destination data layers**.
+First key thing to keep in mind when using this modifier is that it will **not** create destination data layers.
 *Generate Data Layers* button shall always be used for this purpose, once set of source data to transfer
 is selected. It should also be well understood that creating those data layers on destination mesh is **not**
 part of the modifier stack, which means e.g. that they will remain even once the modifier is deleted, or if
@@ -148,11 +148,11 @@ One-To-One Mappings
       Hence both vertex (location) and face (normal, ...) aspects are used to match them together.
 
       Nearest Corner and Best Matching Normal
-         Uses source’s corner having the most similar **split** normal with destination one,
+         Uses source’s corner having the most similar *split* normal with destination one,
          from those sharing the nearest source’s vertex.
 
       Nearest Corner and Best Matching Face Normal
-         Uses source’s corner having the most similar **face** normal with destination one,
+         Uses source’s corner having the most similar *face* normal with destination one,
          from those sharing the nearest source’s vertex.
 
       Nearest Corner of Nearest Face

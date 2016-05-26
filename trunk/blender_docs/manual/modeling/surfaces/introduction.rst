@@ -16,8 +16,8 @@ they are not the same thing; for example,
 you cannot have in the same object both curves and surfaces.
 
 As surfaces are 2D, they have two interpolation axes, U (as for curves) and V.
-It is important to understand that *you can control the interpolation rules (knot, order,
-resolution) independently for each of these two dimensions*
+It is important to understand that you can control the interpolation rules (knot, order,
+resolution) *independently* for each of these two dimensions
 (the *U* and *V* fields for all these settings, of course).
 
 You may ask yourself "but the surface appears to be 3D, why is it only 2D?".
@@ -51,8 +51,8 @@ Visualization
 =============
 
 There is nearly no difference from NURBS curves,
-except that the ``U`` direction is indicated by yellow grid lines,
-and the ``V`` one is materialized by pink grid lines, as you can see in
+except that the *U* direction is indicated by yellow grid lines,
+and the *V* one is materialized by pink grid lines, as you can see in
 Fig. Surface.
 
 You can :ref:`hide and reveal <curves-hiding>` control points just as with curves.
@@ -97,7 +97,7 @@ replaced by "rows" and the overall "grid".
 A "row" is a set of control points forming one "line" in one interpolation direction
 (a bit similar to :ref:`edge loops <modeling-mesh-structure-edge_loops>` for meshes).
 So you have "U-rows" and "V-rows" in a NURBS surface.
-The key point is that *all rows of a given type (U or V) have the same number of control points*.
+The key point is that *all* rows of a given type (U or V) have the *same* number of control points.
 Each control point belongs to exactly one U-row and one V-row.
 
 All this forms a "grid", or "cage", the shape of which controls the shape of the NURBS surface.
@@ -130,8 +130,8 @@ one for each interpolation axis (U and V). Note that unlike with curves, you hav
           Resolution 3x3.
 
 
-Fig. Resolution 1x1 is an example of a surface resolution of 3 for both ``U`` and ``V``. Fig. Resolution 3x3 surface
-is an example of a surface resolution of 12 for both ``U`` and ``V``.
+Fig. Resolution 1x1 is an example of a surface resolution of 3 for both U and V. Fig. Resolution 3x3 surface
+is an example of a surface resolution of 12 for both U and V.
 
 
 .. figure:: /images/NurbsSurfaceResoltion.jpg
@@ -166,12 +166,12 @@ or *Bezier*, with the same properties as for curves. And as with curves, only op
    Endpoint U.
 
 
-In Fig. Endpoint U the U interpolation axis is labeled as ``U`` and the V
-interpolation axis is labeled as ``V``. The ``U`` 's interpolation axis has
+In Fig. Endpoint U the U interpolation axis is labeled as *U* and the *V*
+interpolation axis is labeled as *V*. The *U* 's interpolation axis has
 been set to *Endpoint* and as such the surface now extends to the outer edges from
-``E1`` to ``E2`` along the ``U`` interpolation axis.
+E1 to E2 along the *U* interpolation axis.
 
-To cause the surface to extend to all edges you would set the ``V`` 's axis to
+To cause the surface to extend to all edges you would set the *V* 's axis to
 *Endpoint* as well.
 
 
@@ -195,8 +195,8 @@ For illustration purposes, in both Fig. Order 4 surface and Fig. Order 2 surface
 the knot vectors were set to *Endpoint*, causing the surface to extend to all edges.
 
 You can set independently the order for each interpolation axis, and like curves,
-it cannot be lower than **2**,
-and higher than **6** or the number of control points on the relevant axis.
+it **cannot** be lower than 2,
+and higher than 6 or the number of control points on the relevant axis.
 
 
 .. _modeling-surfaces-weight:
@@ -213,9 +213,9 @@ Weight
 Guess what? Yes, it works exactly like :ref:`NURBS Curves <modeling-curve-weight>` ! *Weight* specifies
 how much each control point "pulls" on the curve.
 
-In Fig. Surface Weight 5 a single control point, labeled ``C``,
-has had its *Weight* set to **5.0** while all others are at their default of **1.
-0**. As you can see, that control point *pulls* the surface towards it.
+In Fig. Surface Weight 5 a single control point, labeled "C",
+has had its *Weight* set to 5.0 while all others are at their default of 1.0. 
+As you can see, that control point *pulls* the surface towards it.
 
 If all the control points have the same *Weight* then each effectively cancels each
 other out. It is the difference in the weights that cause the surface to move towards or away
@@ -223,7 +223,7 @@ from a control point.
 
 The *Weight* of any particular control point is visible in the
 :doc:`Transform Properties panel </editors/3dview/transform/transform_control/transform_properties>`
-:kbd:`N`, *in the* *W* *field* (and not the *Weight* field...).
+:kbd:`N`, in the *W* field (and not the *Weight* field...).
 
 
 Preset Weights
@@ -243,7 +243,7 @@ This is not intuitive, and you should read more on NURBS before trying this.
 
 To create a sphere with 2D surfaces, its the same principle as with a 2D circle -
 you'll note that the four different weights needed for creating a sphere
-(**1.0**, **0.707** = ``sqrt(0.5)``, **0.354** = ``sqrt(2)/4``, and **0.25**).
+(1.0, 0.707 = sqrt(0.5), 0.354 = sqrt(2)/4, and 0.25).
 
 
 Primitives

@@ -87,7 +87,7 @@ A full complement of brushes and colors can be selected from the Properties pane
 UV/Image Editor.
 Brush changes made in either panel are immediately reflected in the other panel. However,
 the modified texture will **not** be saved automatically;
-you must explicitly do so by Image-->Save in the UV/Image Editor window.
+you must explicitly do so by :menuselection`Image --> Save` in the UV/Image Editor window.
 
 
 Texture Preview
@@ -125,10 +125,10 @@ Name your brush by clicking on the name field and entering any name you wish,
 such as "Red Air" for a red airbrush. To toss out a brush,
 click the brush delete *X* button next to its name.
 If you want to keep this brush around for the next time you run Blender,
-click the Fake user button (F) next to the brush delete (X) button.
+click the Fake user *F* button next to the brush delete *X* button.
 
 If you have a tablet pen with pressure sensitivity,
-toggle the small "P" button next to the opacity, size,
+toggle the small *P* button next to the opacity, size,
 falloff and spacing buttons to control these parameters using the pressure of the pen.
 Using your pen's eraser end will toggle on the Erase Alpha mode.
 
@@ -322,7 +322,7 @@ Saving
 ======
 
 If the header menu item Image has an asterisk next to it,
-it means that the image has been changed, but not saved. Use the *Image-->Save Image*
+it means that the image has been changed, but not saved. Use the :menuselection`Image --> Save Image`
 option to save your work with a different name or overwrite the original image.
 
 .. note:: UV Textures
@@ -335,7 +335,7 @@ The image format for saving is independent of the format for rendering.
 The format for saving a UV image is selected in the header of the Save Image window,
 and defaults to PNG (.png).
 
-If Packing is enabled in the window header, or if you manually *Image-->Pack Image*,
+If Packing is enabled in the window header, or if you manually :menuselection`Image-->Pack Image`,
 saving your images to a separate file is not necessary.
 
 
@@ -379,7 +379,7 @@ Perspective View & Low Poly
 ---------------------------
 
 When painting onto a face in perspective mode onto a low poly object with normals pointing away from the view,
-painting may fail; to workaround disable the **Normal** option in the paint panel.
+painting may fail; to workaround disable the *Normal* option in the paint panel.
 
 Typically this happens when painting onto the side of a cube 
 (see `Bug report T34665 <https://developer.blender.org/T34665>`__).
