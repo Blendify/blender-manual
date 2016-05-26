@@ -41,17 +41,17 @@ By default the first frame for a new text object, and any additional frames,
 has a size of **zero** for both *Width* and *Height*,
 which means the frame is initially not visible.
 
-Frames with a width of **0.0** are ignored completely during text flow
-(no wordwrap happens), and frames with a height of **0.0** flow forever
+Frames with a width of 0.0 are ignored completely during text flow
+(no wordwrap happens), and frames with a height of 0.0 flow forever
 (no flowing to the next text frame).
 
 In order for the frame to become visible,
-the frame's *Width* must be greater than **0.0**.
+the frame's *Width* must be greater than 0.0.
 
 
 .. note::
 
-   Technically the height is never actually **0.0** because the font itself always contributes height.
+   Technically the height is never actually 0.0, because the font itself always contributes height.
 
 
 .. figure:: /images/text-frame-default-ex.jpg
@@ -60,8 +60,8 @@ the frame's *Width* must be greater than **0.0**.
    Frame width.
 
 
-Fig. Frame width is a text object with a width of ``5.0``.
-And because the frame width is greater than ``0.0``
+Fig. Frame width is a text object with a width of 5.0.
+And because the frame width is greater than 0.0
 it is now visible and is drawn in the active theme color as a dashed rectangle.
 The text has overflowed because the text has reached the end of the last frame, the default frame.
 
@@ -88,12 +88,12 @@ Example: Text Flow
 
 
 With two or more frames you can organize text to a finer degree. For example,
-create a text object and enter ``Blender is super duper``.
+create a text object and enter "Blender is super duper".
 This text object has a frame;
-it just isn't visible because its *Width* is **0.0**.
+it just isn't visible because its *Width* is 0.0.
 
 
-Set the width to **5.0**.
+Set the width to 5.0.
 The frame is now visible and text is wrapping according to the new width, as shown in
 Fig. Text 2. Notice that the text has overflowed out of the frame.
 This is because the text has reached the end of the last frame,

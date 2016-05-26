@@ -8,7 +8,7 @@ UV Project Modifier
    Projecting the Blender logo onto Suzanne.
 
 
-The **UV Project** Modifier acts like a slide projector.
+The *UV Project* Modifier acts like a slide projector.
 It emits a UV map from the negative Z-axis of a controller object
 (such as an :doc:`empty </editors/3dview/object/types/empties>`),
 and applies it to the object as the "light" hits it. It can optionally override the objects face texture.
@@ -63,7 +63,7 @@ Perspective Cameras
 -------------------
 
 When using perspective cameras or spot lamps,
-you will likely want to enable the **UV Project** Material Option
+you will likely want to enable the *UV Project* Material Option
 (available in the materials panel),
 This uses a different UV interpolation to prevent distortion.
 

@@ -9,8 +9,8 @@ by modifying its weights and/or which vertices belong to the vertex group.
 
  .. warning::
 
-    These modifiers do implicit clamping of weight values in the standard ``[0.0, 1.0]`` range.
-    All values below ``0.0`` will be set to ``0.0``, and all values above ``1.0`` will be set to ``1.0``.
+    These modifiers do implicit clamping of weight values in the standard (0.0 to 1.0) range.
+    All values below 0.0 will be set to 0.0, and all values above 1.0 will be set to 1.0.
 
 There are currently three Vertex Weight modifiers:
 
@@ -32,12 +32,12 @@ The three Vertex Weight modifiers share a few settings, controlling their influe
 
 Global Influence
    The overall influence of the modifier
-   (``0.0`` will leave the vertex group's weights untouched, ``1.0`` is standard influence).
+   (0.0 will leave the vertex group's weights untouched, 1.0 is standard influence).
 
  .. warning::
 
    Influence only affects weights, adding/removing of vertices
-   to/from vertex group is not prevented by setting this value to ``0.0``.
+   to/from vertex group is not prevented by setting this value to 0.0.
 
 Vertex Group Mask
    An additional vertex group, the weights of which will be
@@ -68,13 +68,13 @@ Texture
       Red/Green/Blue/Alpha
          One of the color channels' values.
       Intensity
-         The average of the RGB channels (If RGB = ``1.0, 0.0, 0.0``, value is ``0.33``)
+         The average of the RGB channels (if RGB(1.0, 0.0, 0.0) value is 0.33)
       Value
-         The highest value of the RGB channels (If RGB = ``1.0, 0.0, 0.0``, value is ``1.0``)
+         The highest value of the RGB channels (if RGB(1.0, 0.0, 0.0) value is 1.0)
       Hue
          Uses the hue value from the standard color wheel (e.g. blue has a higher hue value than yellow)
       Saturation
-         Uses the saturation value (e.g. pure red's value is ``1.0``, gray is ``0.0``)
+         Uses the saturation value (e.g. pure red's value is 1.0, gray is 0.0)
 
       .. note::
 
@@ -107,9 +107,9 @@ This modifier is intended to edit the weights of one vertex group.
 
 The general process is the following, for each vertex:
 
-- [Optional] It does the mapping, either through one of the predefined functions, or a custom mapping curve.
+- (Optional) It does the mapping, either through one of the predefined functions, or a custom mapping curve.
 - It applies the influence factor, and optionally the vertex group or texture mask
-  (``0.0`` means original weight, ``1.0`` means fully mapped weight).
+  (0.0 means original weight, 1.0 means fully mapped weight).
 - It applies back the weight to the vertex, and/or it might optionally remove the vertex from the group if its
   weight is below a given threshold, or add it if it's above a given threshold.
 
@@ -135,7 +135,7 @@ Falloff Type
    Random
       Uses a random value for each vertex.
    Median Step
-      Creates binary weights (``0.0`` or ``1.0``), with ``0.5`` as cutting value.
+      Creates binary weights (0.0 or 1.0), with 0.5 as cutting value.
 
 Group Add
    Adds vertices with a final weight over *Add Threshold* to the vertex group.
@@ -250,9 +250,9 @@ Edge
 Face
    This will set each vertex's weight from its distance to the nearest face of the target object.
 Lowest
-   Distance mapping to ``0.0`` weight.
+   Distance mapping to 0.0 weight.
 Highest
-   Distance mapping to ``1.0`` weight.
+   Distance mapping to 1.0 weight.
 Falloff Type
    Some predefined mapping functions, see `Vertex Weight Edit Modifier`_.
 
@@ -270,10 +270,10 @@ Using Distance from a Target Object
 As a first example,
 let's dynamically control a *Wave* modifier with a modified vertex group.
 
-#. Add a *Grid* mesh with **100×100** x/y subdivisions and a **5** BU Radius
+#. Add a *Grid* mesh with (100×100) x/y subdivisions and a 5 BU Radius
 
 #. Switch to *Edit mode* :kbd:`Tab`, and in the *Object Data* properties, *Vertex Groups* panel,
-   add a vertex group. Assign to it all your mesh's vertices with ``1.0`` weight.
+   add a vertex group. Assign to it all your mesh's vertices with 1.0 weight.
 
 #. Go back to *Object mode*. Then, go to the *Modifiers* properties, and add a *Vertex Weight Proximity* modifier.
    Set the Distance mode to *Object*. Select your vertex group, and the target object you want (here I used the lamp).
@@ -284,12 +284,12 @@ let's dynamically control a *Wave* modifier with a modified vertex group.
    object and the vertices you want to have lowest weight,
    and similarly with the second and highest weight...
 
-#. If your lamp is at Z-hight **2** then set the settings for the weight proximity modifier to:
-   Lowest: **2** and highest:**7**(this will stop the waves under the lamp)
-   If you want waves to be only under the lamp, set the lowest to **7** and highest to **2**.
+#. If your lamp is at Z-hight of 2 then set the settings for the weight proximity modifier to:
+   Lowest: 2 and highest: 7 (this will stop the waves under the lamp)
+   If you want waves to be only under the lamp, set the lowest to 7 and highest to 2.
 
 #. Now add a *Wave* modifier, set it to your liking, and use the same vertex group to control it.
-   Example settings--speed: **0.10** , Height: **1.0** , Width **1.50** , Narrowness: **1.50**. 
+   Example settings-speed: 0.10 , Height: 1.0 , Width 1.50 , Narrowness: 1.50. 
 
 #. Animate your target object, making it move over the grid. As you can see, the waves are only
    visible around the reference object! Note that you can insert a *Vertex Weight Edit*
@@ -298,7 +298,7 @@ let's dynamically control a *Wave* modifier with a modified vertex group.
 
 .. vimeo:: 30187079
 
-`The Blender file <https://wiki.blender.org/index.php/Media:ManModifiersWeightVGroupEx.blend>`__, ``TEST_1`` scene.
+`The Blender file <https://wiki.blender.org/index.php/Media:ManModifiersWeightVGroupEx.blend>`__, TEST_1 scene.
 
 
 Using Distance from a Target Object's Geometry
@@ -306,12 +306,12 @@ Using Distance from a Target Object's Geometry
 
 We're going to illustrate this with a *Displace* modifier.
 
-Add a **10×10** BU **100×100** vertices grid, and in *Edit mode*,
+Add a (10×10 BU) 100×100 vertices grid, and in *Edit mode*,
 add to it a vertex group containing all of its vertices, as above.
 You can even further sub-divide it with a first *Subsurf* modifier.
 
-Now add a curve circle, and place it ``0.25`` BU above the grid. Scale it up a bit (e.g.
-``4.0``).
+Now add a curve circle, and place it 0.25 BU above the grid. Scale it up a bit 
+(e.g. 4.0 BU).
 
 Back to the grid object, add to it a *Vertex Weight Proximity* modifier,
 in *Geometry Distance* mode. Enable *Edge*
@@ -333,13 +333,13 @@ you would get wavy patterns, see Fig. Wavy patterns).
           Distance from vertices.
 
 
-Set the *Lowest Dist* to ``0.2``, and the *Highest Dist* to ``2.0``,
+Set the *Lowest Dist* to 0.2, and the *Highest Dist* to 2.0,
 to map back the computed distances into the regular weight range.
 
 Add a third *Displace* modifier and affect it the texture you like. Now,
 we want the vertices of the grid nearest to the curve circle to remain undisplaced.
 As they will get weights near zero,
-this means that you have to set the *Midlevel* of the displace to ``0.0``.
+this means that you have to set the *Midlevel* of the displace to 0.0.
 Make it use our affected vertex group,
 and that's it! Your nice mountains just shrink to a flat plane near the curve circle.
 
@@ -374,11 +374,11 @@ and play with the *Custom Curve* mapping to get a larger/narrower "valley"...
 
 
 You can also add a fifth *Mask* modifier, and enable *Vertex Weight Edit* 's *Group Remove* option,
-with a *Remove Threshold* of ``0.1``, to see the bottom of your valley disappear.
+with a *Remove Threshold* of 0.1, to see the bottom of your valley disappear.
 
 .. vimeo:: 30188564
 
-`The Blender file <https://wiki.blender.org/index.php/Media:ManModifiersWeightVGroupEx.blend>`__, ``TEST_2`` scene.
+`The Blender file <https://wiki.blender.org/index.php/Media:ManModifiersWeightVGroupEx.blend>`__, TEST_2 scene.
 
 
 Using a Texture and the Mapping Curve
@@ -388,20 +388,21 @@ Here we are going to create a sort of strange alien wave (yes,
 another example with the *Wave* modifier... but it's a highly visual one;
 it's easy to see the vertex group effects on it...).
 
-So as above, add a **100×100** grid. This time, add a vertex group,
+So as above, add a 100×100 grid. This time, add a vertex group,
 but without assigning any vertex to it - we'll do this dynamically.
 
 Add a first *Vertex Weight Mix* modifier,
-set the *Vertex Group A* field with a *Default Weight A* of ``0.0``,
-and set *Default Weight B* to ``1.0``. Leave the *Mix Mode* to *Replace weights*,
-and select *All vertices* as *Mix Set*. This way,
-all vertices are affected. As none are in the affected vertex group,
-they all have a default weight of ``0.0``, which is replaced by the second default weight
-(``1.0``). And all those vertices are also added to the affected vertex group.
+set the *Vertex Group A* field with a *Default Weight A* of 0.0,
+and set *Default Weight B* to 1.0.
+
+Leave the *Mix Mode* to *Replace weights*, and select *All vertices* as *Mix Set*. 
+This way, all vertices are affected. As none are in the affected vertex group,
+they all have a default weight of 0.0, which is replaced by the second default weight 
+of 1.0. And all those vertices are also added to the affected vertex group.
 
 Now, select or create a masking texture - here I chose a default *Magic* one.
-The values of this texture will control how much of the "second weight" (``1.0``)
-replaces the "first weight" (``0.0``)... In other words, they are taken as weight values!
+The values of this texture will control how much of the "second weight" of 1.0
+replaces the "first weight" of 0.0 ... In other words, they are taken as weight values!
 
 You can then select which texture coordinates and channel to use.
 Leave the mapping to the default *Local* option, and play with the various channels...
@@ -435,9 +436,9 @@ and enable its *Custom Curve* mapping.
 
 By default, it's a one-to-one linear mapping - in other words,
 it does nothing! Change it to something like in Fig. A customized mapping curve, 
-which maps ``[0.0, 0.5]`` to ``[0.0, 0.25]`` and ``[0.5,
-1.0]`` to ``[0.75, 1.0]``, thus producing nearly only weights below ``0.25``,
-and above ``0.75`` : this creates great "walls" in the waves...
+which maps (0.0, 0.5) to (0.0, 0.25) and (0.5,1.0) to (0.75, 1.0), 
+thus producing nearly only weights below 0.25,
+and above 0.75: this creates great "walls" in the waves...
 
 
 .. list-table::
@@ -461,4 +462,4 @@ and above ``0.75`` : this creates great "walls" in the waves...
 
 .. vimeo:: 30188814
 
-`The Blender file <https://wiki.blender.org/index.php/Media:ManModifiersWeightVGroupEx.blend>`__, ``TEST_4`` scene.
+`The Blender file <https://wiki.blender.org/index.php/Media:ManModifiersWeightVGroupEx.blend>`__, TEST_4 scene.

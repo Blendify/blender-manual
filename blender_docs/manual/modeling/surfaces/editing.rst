@@ -83,7 +83,7 @@ ready to drag the new extruded surface to its destination.
 
 There are two things very important to understand:
 
-- Surfaces are **2D** objects - so you can't extrude anything *inside* a surface
+- Surfaces are *2D* objects - so you can't extrude anything *inside* a surface
   (e.g. "inner" row); it wouldn't make any sense!
 - The control "grid" *must* remain "squarish",
   which means that you can only extrude a whole row, not parts of rows here and there...
@@ -183,7 +183,7 @@ only selections forming a *single* valid sub-grid are copyable; let's see this i
   From it, you will be able to "extrude" a "surface curve" along the U axis,
   and then extrude this unique U-row along the V axis to create a real new surface.
 - You can copy a single continuous part of a row (or a whole row, of course).
-  This will give you a new **U-row**, even if you selected (part of) a V-row!
+  This will give you a new *U-row*, even if you selected (part of) a V-row!
 - You can copy a single whole sub-grid.
 
 .. note::

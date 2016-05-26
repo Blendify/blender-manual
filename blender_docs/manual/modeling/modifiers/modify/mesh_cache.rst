@@ -3,7 +3,7 @@
 Mesh Cache Modifier
 *******************
 
-The **Mesh Cache** modifier is used so animated mesh data can be applied to a mesh and
+The *Mesh Cache* modifier is used so animated mesh data can be applied to a mesh and
 played back, deforming the mesh.
 
 This works in a similar way to shape-keys but is aimed at playing back external files and is
@@ -21,7 +21,7 @@ Options
 
 
 Format
-   The input file format (currently **MDD** and **PC2** are supported).
+   The input file format (currently ``.mdd`` and ``.pc2`` are supported).
 
 File Path
    Path to the cache file.

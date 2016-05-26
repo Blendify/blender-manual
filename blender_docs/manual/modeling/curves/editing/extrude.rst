@@ -14,9 +14,9 @@ Extrude
    Turns a one dimensional curve into a two dimensional curve by giving it height.
    Note that this isn't related to *Extrude* used in mesh edit-mode. 
    With a scale of one,
-   an *Extrusion* of **.5** will extrude the curve 0.5 BU in both directions, perpendicular to the curves normals. 
+   an *Extrusion* of .5 will extrude the curve 0.5 BU in both directions, perpendicular to the curves normals. 
 
-   If set to **0.0**, there is no extrusion
+   If set to 0.0, there is no extrusion
 
 .. list-table::
 
@@ -31,16 +31,16 @@ Extrude
           Extruded by 0.5.
 
 Tilt
-   This setting controls how the normals (AKA the arrows)
+   This setting controls how the normals (visualization: arrows)
    twist around each control point - so it is only relevant with 3D curves!
    You set it using the *Tilt* transform tool In the :kbd:`T` toolbar,
-   the :kbd:`N` panel --> transform --> Mean tilt, or :menuselection:`Curve --> Transform --> Tilt`).
+   the :kbd:`N` :menuselection:`--> transform --> Mean tilt`, :menuselection:`Curve --> Transform --> Tilt`.
 
    You can also reset it to its default value (i.e. perpendicular to the original curve plane)
-   with :kbd:`Alt-T` (or :menuselection:`Curve --> Control Points --> Clear Tilt`).
+   with :kbd:`Alt-T`, :menuselection:`Curve --> Control Points --> Clear Tilt`.
    With NURBS, the tilt is always smoothly interpolated.
    However, with Bézier, you can choose the interpolation algorithm between
-   Linear, Ease, BSpline, and Cardinal, in the Properties Editor --> Object Data --> Active Spline --> Tilt.
+   Linear, Ease, BSpline, and Cardinal, in the :menuselection:`Properties Editor --> Object Data --> Active Spline --> Tilt`.
 
    .. figure:: /images/Curves_Extrude_by0.5_30meantilt.jpg
 
@@ -49,7 +49,7 @@ Tilt
 Bevel Depth
    This will add a bevel to the extrusion. See below for its effects...
    Note that the bevel makes the extrusion wider and higher.
-   If set to **0.0**, there is no bevel.
+   If set to 0.0, there is no bevel.
 
    .. figure:: /images/Curves_Extrude_depth_fullfill.jpg
 
@@ -57,7 +57,7 @@ Bevel Depth
 
 Bevel Resolution
    Controls the resolution of the bevel created by a *Bevel Depth* higher than zero.
-   If set the **0** (the default), the bevel is a simple "flat" surface.
+   If set the to 0 (the default), the bevel is a simple "flat" surface.
    Higher values will smooth, round off the bevel, similar to the resolution settings of the curve itself...
 
    .. figure:: /images/Curves_Extrude_resolution.jpg
@@ -75,7 +75,7 @@ Radius
    The Radius allows you to directly control the width of the extrusion along the “spinal” curve.
    The *Radius* of the points is set using the *Shrink/Fatten Radius* transform tool :kbd:`Alt-S`,
    the :menuselection:`Curve --> Transform --> Shrink/Fatten Radius`,
-   or the :kbd:`N` panel --> transform --> Radius
+   or the :kbd:`N` :menuselection:`--> transform --> Radius`.
 
    .. figure:: /images/Curves_Extrude_radius.jpg
 
@@ -160,11 +160,11 @@ Examples
 .. TODO: add some "bevel" extrusion with *Radius* examples.
 
 Let's taper a simple curve circle extruded object using a taper curve. Add a curve,
-then exit *Edit mode*. Add another one (a closed one, like a circle); call it ``BevelCurve``,
+then exit *Edit mode*. Add another one (a closed one, like a circle); call it "BevelCurve",
 and enter its name in the *BevOb* field of the first curve
 (*Editing* context *Curve and Surface* panel).
 We now have a pipe.
-Add a third curve while in *Object mode* and call it ``TaperCurve``.
+Add a third curve while in *Object mode* and call it "TaperCurve".
 Adjust the left control-point by raising it up about 5 units.
 
 Now return to the *Editing* context,
@@ -185,7 +185,7 @@ with the results shown in Fig. Taper extruded curve.
           Taper solid mode.
 
 
-You can see the **taper curve** being applied to the **extruded object**.
+You can see the *taper curve* being applied to the *extruded object*.
 Notice how the pipe's volume shrinks to nothing as the taper curve goes from left to right.
 If the taper curve went below the local Y axis the pipe's inside would become the outside,
 which would lead to rendering artifacts.

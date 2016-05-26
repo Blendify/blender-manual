@@ -199,7 +199,7 @@ Face Loops
    | Hotkey:   :kbd:`Alt-RMB`
 
 
-In face select mode, holding :kbd:`Alt` while selecting an **edge** selects a loop of
+In face select mode, holding :kbd:`Alt` while selecting an *edge* selects a loop of
 faces that are connected in a line end to end, along their opposite edges.
 
 In vertex select mode,

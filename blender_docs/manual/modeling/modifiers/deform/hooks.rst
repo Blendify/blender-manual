@@ -31,7 +31,7 @@ Object
 Vertex Group
    Allows you to define the influence per-vertex.
 
-   *Useful when you don't something other than a spherical field of influence.*
+   Useful when you don't something other than a spherical field of influence.
 Radius
    The size of the hooks influence.
 Strength
@@ -45,7 +45,7 @@ Uniform Falloff
    This setting is useful when using hooks on scaled objects,
    especially in cases where non-uniform scale would stretch the result of the hook.
 
-   *This is especially useful for lattices, where its common to use non-uniform scaling.*
+   This is especially useful for lattices, where its common to use non-uniform scaling.
 
 The following settings are only available in Edit Mode:
 

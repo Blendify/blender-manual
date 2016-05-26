@@ -17,10 +17,10 @@ Options
 Thickness
    The depth to be solidified.
 Offset
-   A value between ``-1`` and ``1`` to locate the solidified output inside or outside the original mesh.
-   Set to ``0.0``, the solidified output will be centered on the original mesh.
+   A value between (-1 to 1) to locate the solidified output inside or outside the original mesh.
+   Set to 0.0, the solidified output will be centered on the original mesh.
 Clamp
-   A value between ``0`` and ``2`` to clamp offsets to avoid self intersection.
+   A value between (0 to 2) to clamp offsets to avoid self intersection.
 
 
    .. figure:: /images/modifier-solidify-clamp.jpg

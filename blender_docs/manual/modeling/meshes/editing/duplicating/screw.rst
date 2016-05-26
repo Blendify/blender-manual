@@ -50,7 +50,7 @@ Usage
   angular vector and to give Blender a direction.
 - The *Screw* function uses two points given by the open line to create an initial vector to calculate the height
   and basic angle of the translation vector that is added to the "Spin" for each full rotation (see examples below).
-  If the vector is created with only two vertices at the same **X**, **Y** and **Z** location
+  If the vector is created with only two vertices at the *same* (X, Y, Z) location
   (which won't give Blender a vector value for height), this will create a normal "Spin".
 - Having at least one vector line,
   you can add other closed support profiles that will follow this vector during the extrusions (See limitations).
@@ -138,7 +138,7 @@ you can press :kbd:`Ctrl-Z` at any time in *Edit Mode*.
   (See Fig. 6 - Cursor Basic Location - Transform Panel).
   Blender will copy your cursor location coordinates to the
   values present in the *Center* values of the *Screw* interactive Panel.
-  Depending on the Global View position, Blender will automatically add a value of **1** to one of the Axis Vectors,
+  Depending on the Global View position, Blender will automatically add a value of 1 to one of the Axis Vectors,
   giving the profiles a starting direction for the Screw Operation and also giving a direction for the extrusions.
   (See examples below.)
 - The position of the 3D cursor will be the starting center of the rotation.
@@ -158,7 +158,7 @@ you can press :kbd:`Ctrl-Z` at any time in *Edit Mode*.
 
 Center
    These numeric fields specify the center of the spin. When the tool is called for the first time,
-   it will copy the ``X``, ``Y`` and ``Z`` location (Global Coordinates)
+   it will copy the (X, Y, Z) location (Global Coordinates)
    of the cursor presently in the 3D View to start the operation.
    You can specify the cursor coordinates using the Transform Panel in 3D View,
    using shortcut :kbd:`T` to toggle the Panel, and typing in the 3D Cursor Location coordinates.
@@ -167,20 +167,20 @@ Center
    (See Fig. 7 - Screw Interactive Panel - Mesh Tools Panel (Edit Mode))
 
 Steps
-   This numeric field specifies how many extrusion(s) will be done for each ``360`` turn.
-   The steps are evenly distributed by dividing ``360`` by the number of steps given. The minimum value is ``3``;
-   the maximum is ``256`` (See Fig. 7)
+   This numeric field specifies how many extrusion(s) will be done for each 360 degree turn.
+   The steps are evenly distributed by dividing 360 degree by the number of steps given. The minimum value is 3;
+   the maximum is 256 (See Fig. 7)
 
 Turns:
    This numeric field specifies how many turns will be executed.
-   Blender will add a new full ``360`` turn for each incremental number specified here.
-   The minimum value is ``1``; the maximum is ``256``. (See Fig. 7)
+   Blender will add a new full 360 degree turn for each incremental number specified here.
+   The minimum value is 1; the maximum is 256. (See Fig. 7)
 
 Axis
-   These ``3`` numeric fields vary from ``-1.0`` to ``1.0`` and are clamped above those limits.
-   These values correspond to angular vectors from ``-90`` to ``90`` degrees. Depending on the position where you
+   These three numeric fields vary from (-1.0 to 1.0) and are clamped above those limits.
+   These values correspond to angular vectors from (-90 to 90) degrees. Depending on the position where you
    started your cursor location and Object operation in the viewport and its axis positions in Global View space and
-   coordinates, Blender will give the proper Axis vector a value of ``1``, giving the angular vector of the profile
+   coordinates, Blender will give the proper Axis vector a value of 1, giving the angular vector of the profile
    a starting direction and giving the extrusions a starting direction based on your view. Blender will let you
    adjust your axis angular vectors and you can tweak your object such that you can revert the direction of the screw
    operation (by reverting the angular vector of the height),
@@ -205,19 +205,19 @@ The Spring example
   You will see the X (red) and Z (blue) coordinate lines.
 - In case you have moved your cursor by clicking anywhere in the screen, again place your cursor at the Center,
   using the shortcut :kbd:`Shift-S` choosing *Cursor to Center* or the Transform Panel,
-  placing your cursor at ``(0, 0, 0)`` typing directly into the Cursor 3D Location.
+  placing your cursor at (0, 0, 0) typing directly into the Cursor 3D Location.
 - Add a circle using shortcut :kbd:`Shift-A` :menuselection:`--> Mesh --> Circle`.
-- Rotate this circle using the shortcut :kbd:`R-X` and typing ``90`` and :kbd:`Return`.
+- Rotate this circle using the shortcut :kbd:`R X 9 0` and :kbd:`Return`.
 - Apply the Rotation using :kbd:`Ctrl-A` and choosing *Rotation*
-- Grab and move this circle to the left ``3`` Blender Units on the ``X`` Axis;
+- Grab and move this circle three Blender Units on the *X-Axis* to the left;
   you can use the shortcut :kbd:`Ctrl` while grabbing with the mouse using the standard transform widgets
   (clicking on the red arrow shown with the object and grabbing while using shortcut
   :kbd:`Ctrl` until the down left info in the 3D View marks ``D. -3.0000 (3.0000) Global`` ),
-  or press the shortcut :kbd:`G-X` and typing ``-3`` and :kbd:`Return`.
+  or press the shortcut :kbd:`G X Minus 3` and :kbd:`Return`.
   You can use the Transform Panel (toggled with the shortcut :kbd:`T` ,
-  and type ``-3`` and :kbd:`Return` in the Location too.
+  and type  :kbd:`Minus 3` and :kbd:`Return` in the Location too.
   (See the Fig. 8 - Circle placed at X -3,0,0).
-- You will have to scale your circle using the shortcut :kbd:`S` and typing **.5**, then :kbd:`Return`.
+- You will have to scale your circle using the shortcut :kbd:`S . 5`, then :kbd:`Return`.
 - Now enter *Edit Mode* using shortcut :kbd:`Tab`.
 - De-select all vertices using the shortcut :kbd:`A`.
 
@@ -234,9 +234,9 @@ Now we will create a height vector for Blender:
   and, while still pressing :kbd:`Ctrl`, Left Click :kbd:`LMB` again in the grey line below the circle.
   You have created two vertices and an Edge, which Blender will use as the first height and angle vector.
 - Now, in the Transform Panel, in the median, clicking in the Global coordinates,
-  for the **X**, **Y**, and **Z** coordinates, put **(-2, 0, -1)**.
+  for the (X, Y, Z) coordinates, put (-2, 0, -1).
 - Right Click :kbd:`RMB` in the other vertex,
-  and again, type its coordinates for **X**, **Y** and **Z** to **(-2, 0, 1)**.
+  and again, type its coordinates for (X, Y, Z) to (-2, 0, 1).
   This will create a straight vertical line with 2 Blender units of Height.
 - De-select and select everything again with the shortcut :kbd:`A`.
   (See Fig. 9 - Profile and vector created)
@@ -255,12 +255,12 @@ Clockwise and Counterclockwise using the Spring Example
 -------------------------------------------------------
 
 Still in the interactive session of the *Screw Tool*,
-you will see that the **Z** Axis Value of the *Screw* Panel is set to **1.000**.
-Left click :kbd:`LMB` in the middle of the Value and set this value to **-1.000**.
+you will see that the *Z-Axis* Value of the *Screw* Panel is set to 1.000.
+Left click :kbd:`LMB` in the middle of the Value and set this value to -1.000.
 At first, the Spring was being constructed in a Counterclockwise direction,
-and you reverted the operation **180** degrees in the **Z** Axis. This is because you have
+and you reverted the operation 180 degrees in the *Z-Axis*. This is because you have
 changed the angular vector of the height you have given to Blender to the opposite direction
-(remember, **-90** to **90** = **180** degrees ?). See Fig.
+(remember, -90 to 90 = 180 degrees ?). See Fig.
 10 - Counterclockwise direction and Fig. 11 - Flipped to Clockwise direction.
 
 .. list-table::
@@ -277,7 +277,7 @@ changed the angular vector of the height you have given to Blender to the opposi
 
 
 It's also important to note that this vector is related to the same height vector axis used
-for the extrusion and we have created a parallel line with the **Z** Axis, so, the
+for the extrusion and we have created a parallel line with the *Z-Axis*, so, the
 sensibility of this vector is in practical sense reactive only to negative and positive values
 because it's aligned with the extrusion axis. Blender will clamp the positive and negative to
 its maximum values to make the extrusion follow a direction,
@@ -285,7 +285,7 @@ even if the profile starts reverted. The same rule applies to other Global axes 
 the Object for the *Screw* Tool;
 this means if you create your Object using the Top View
 (Shortcut :kbd:`Numpad7` with a straight parallel line following another axis
-(for the Top View, the **Y Axis**), the vector that gives the height for extrusion will also
+(for the Top View, the *Y-Axis*), the vector that gives the height for extrusion will also
 change abruptly from negative to positive and vice versa to give the extrusion a direction,
 and you will have to tweak the corresponding Axis accordingly to achieve the Clockwise and
 Counterclockwise effect.
@@ -352,7 +352,7 @@ will assembly perfectly with each other.
 - Press the shortcut :kbd:`A` to select the remaining vertices.
 - Press the shortcut :kbd:`W` for the *Specials Menu*, and select *Subdivide*
 - Now, click with the Right Mouse button at the middle vertex.
-- Grab this vertex using the shortcut :kbd:`G-X`, type **-1** and :kbd:`Return`.
+- Grab this vertex using the shortcut :kbd:`G X Minus 1` and :kbd:`Return`.
   See Fig. 14 - Profile for a perfect screw spindle.
 - At this point, we will save this Blender file to recycle the generated Screw for another exercise;
   click with :kbd:`LMB` in *File* --

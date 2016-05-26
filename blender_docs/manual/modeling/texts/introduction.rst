@@ -272,7 +272,7 @@ you will need to load an *Italics* font in order to make characters or words ita
 the font is loaded you can apply that font "Style" to the selected characters or the whole
 object. In all,
 you would need to load a minimum of four different types of fonts to represent each style
-(**Normal**, **Italics**, **Bold**, **Bold-Italics**).
+(Normal, Italics, Bold, Bold-Italics).
 
 It is important to understand that Blender does not care what font you load for "normal",
 "bold", etc., styles. This is how you can have up to four different fonts in use in the same
@@ -430,10 +430,10 @@ Right
    Aligns text to right of frames when using them,
    else uses the center point of the *Text* object as the ending point of the text (which grows to the left).
 Justify
-   Only flushes a line when it is **terminated** by a wordwrap (**not** by :kbd:`Return`),
+   Only flushes a line when it is terminated by a wordwrap (**not** by :kbd:`Return`),
    it uses *whitespace* instead of *character spacing* (kerning) to fill lines.
 Flush
-   **Always** flushes the line, even when it's still being entered;
+   Always flushes the line, even when it's still being entered;
    it uses character spacing (kerning) to fill lines.
 
 Both *Justify* and *Flush* only work within frames.

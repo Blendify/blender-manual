@@ -24,7 +24,7 @@ following a few rules, depending on the settings:
 
   - If the face is a triangle, a new edge is created between the two new vertices,
     subdividing the triangle in a triangle and a quad.
-  - If the face is a quad, and the edges are neighbors, we have **three** possible behaviors,
+  - If the face is a quad, and the edges are neighbors, we have *three* possible behaviors,
     depending on the setting of *Corner Cut Type* (the drop-down menu next to the *Subdivide* button,
     in *Mesh Tools* panel) See below for details.
   - If the face is a quad, and the edges are opposite,

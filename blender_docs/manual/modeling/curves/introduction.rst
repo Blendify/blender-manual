@@ -70,7 +70,7 @@ The main elements used in editing Bezier Curves are the Control Points and Handl
 (the actual Curve) is found between two Control Points. In the image below, the Control Points
 can be found in the middle of the pink line while the Handles comprise the extensions from the
 Control Point. By default the arrows on the Segment represents the direction and
-**relative** speed and direction of movement Objects will have when moving along the curve.
+*relative* speed and direction of movement Objects will have when moving along the curve.
 This can be altered by defining a custom *Speed* Ipo.
 
 
