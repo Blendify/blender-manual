@@ -204,13 +204,13 @@ shown in the *Envelope* visualization:
    The :doc:`editing pages </rigging/armatures/editing/properties>` for how to edit these properties.
 
 There is also a bone property, *Weight* (in each bone sub-panel,
-in *Edit mode* only, defaults to **1.0**),
+in *Edit mode* only, defaults is set to 1.0),
 that controls the global influence of the bone over the deformed object,
 when using the envelopes method.
 It is only useful for the parts of geometry that are "shared",
 influenced by more than one bone (generally, at the joints...) - a bone with a high weight will
 have more influence on the result than one with a low weight... 
-Note that when set to **0.0**, it has the same effect as disabling the *Deform* option.
+Note that when set to 0.0, it has the same effect as disabling the *Deform* option.
 
 Mult
    Short for 'Multiply'. This option controls how the two deforming methods interact when they are both enabled.

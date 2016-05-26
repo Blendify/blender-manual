@@ -150,11 +150,11 @@ The position of the root and the parenting of the new bone depends on the active
    Ctrl-clicking when the active element is a bone
 
 
-If the active element is a **bone**
+If the active element is a *bone*
 
 - the new bone's root is placed on the active bone's tip
 - the new bone is parented and connected to the active bone
-  (check the outliner in *Ctrl-clicking when the active element is a bone*).
+  (check the outliner in Fig. Ctrl-clicking when the active element is a bone).
 
 
 .. figure:: /images/RiggingMouseClickTail.jpg
@@ -163,11 +163,11 @@ If the active element is a **bone**
    Ctrl-clicking when the active element is a tip
 
 
-If the active element is a **tip** :
+If the active element is a *tip* :
 
 - the new bone's root is placed on the active tip
 - the new bone is parented and connected to the bone owning the active tip
-  (check the outliner in *Ctrl-clicking when the active element is a tip*).
+  (check the outliner in Fig. Ctrl-clicking when the active element is a tip).
 
 
 .. figure:: /images/RiggingMouseClickHead.jpg
@@ -176,11 +176,11 @@ If the active element is a **tip** :
    Ctrl-clicking when the active element is a disconnected root
 
 
-If the active element is a **disconnected root** :
+If the active element is a *disconnected root* :
 
 - the new bone's root is placed on the active root
-- the new bone is **NOT** parented to the bone owning the active root
-  (check the outliner in *Ctrl-clicking when the active element is a disconnected root*).
+- the new bone is **not** parented to the bone owning the active root
+  (check the outliner in Fig. Ctrl-clicking when the active element is a disconnected root).
 
 And hence the new bone will **not** be connected to any bone.
 
@@ -191,18 +191,18 @@ And hence the new bone will **not** be connected to any bone.
    Ctrl-clicking when the active element is a connected root
 
 
-If the active element is a **connected root** :
+If the active element is a *connected root* :
 
 - the new bone's root is placed on the active root
-- the new bone **IS** parented and connected to the parent of the bone owning the active root
-  (check the outliner in *Ctrl-clicking when the active element is a connected root*).
+- the new bone **is** parented and connected to the parent of the bone owning the active root
+  (check the outliner in Fig Ctrl-clicking when the active element is a connected root).
 
 This should be obvious because if the active element is a connected root then the active
 element is also the tip of the parent bone, so it is the same as the second case.
 
 
 As the tip of the new bone becomes the active element,
-you can repeat these ctrl-clicks several times,
+you can repeat these :kbd:`Ctrl-RMB` several times,
 to consecutively add several bones to the end of the same chain.
 
 
@@ -339,8 +339,8 @@ so the copied bones are interconnected exactly like the original ones.
 
 The duplicate of a bone which is parented to another bone will also be parented to the same
 bone, even if the root bone is not selected for the duplication. Be aware, though,
-that if a bone is parented **and connected** to an unselected bone,
-its copy will be parented **but not connected** to the unselected bone
+that if a bone is parented **and** connected to an unselected bone,
+its copy will be parented, but **not** connected to the unselected bone
 (see Fig. Duplication example).
 
 
@@ -388,7 +388,7 @@ To delete a bone, you can:
 - use the menu :menuselection:`Armature --> Delete` and confirm.
 
 If you delete a bone in a chain, its child(ren)
-will be automatically re-parented to its own parent, **but not connected**,
+will be automatically re-parented to its own parent, but **not** connected,
 to avoid deforming the whole armature.
 
 

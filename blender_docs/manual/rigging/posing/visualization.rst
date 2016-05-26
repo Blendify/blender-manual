@@ -35,11 +35,11 @@ Coloring from Bone State
 This is the default and oldest way - there are six different color codes,
 ordered here by precedence (i.e. the bone will be of the color of the topmost valid state):
 
-- **Orange**: A bone with a targetless Solver constraint.
-- **Yellow**: A bone with an :doc:`IK Solver constraint </rigging/constraints/tracking/ik_solver>`.
-- **Green**: A bone with any other kind of constraint.
-- **Blue**: A bone that is posed (i.e. has keyframes).
-- **Gray**: Default state.
+- Orange: A bone with a targetless Solver constraint.
+- Yellow: A bone with an :doc:`IK Solver constraint </rigging/constraints/tracking/ik_solver>`.
+- Green: A bone with any other kind of constraint.
+- Blue: A bone that is posed (i.e. has keyframes).
+- Gray: Default state.
 
 
 Coloring from Bone Group
@@ -160,10 +160,10 @@ Around Current Frame
 
    Range
       This numeric field specifies how many ghosts you'll have on both "sides"
-      (i.e. a value of **5** will give you ten ghosts, five before the current frame, and five after).
+      (i.e. a value of 5 will give you ten ghosts, five before the current frame, and five after).
    Step
       This numeric field specifies whether you have a ghost for every frame
-      (the default **1** value), or one each two frames, each three frames, etc.
+      (the default value of 1), or one each two frames, each three frames, etc.
    Selected Only
       When enabled, you will only see the ghosts of selected bones
       (otherwise, every bone in the armatures has ghosts...)
@@ -175,7 +175,7 @@ In Range
    Start
       This numeric field specifies the starting frame of the range (exclusive).
       Note that unfortunately, it cannot take a null or negative value -
-      which means you can only see ghosts starting from frame **2** included...
+      which means you can only see ghosts starting from *frame 2* included...
    End
       This numeric field specifies the ending frame of the range, and cannot take a value below *GSta* one.
    Step
@@ -192,11 +192,13 @@ On Keyframes
 Finally, these ghosts are also active when playing the animation :kbd:`Alt-A`
 - this is only useful with the *Around Current Frame* option, of course...
 
-Note also that there is no "global switch" to disable this display feature - to do so,
-you have to either set *Ghost* to **0**
-(for *Around Current Frame* option),
-or the same frame number in both *GSta* and *GEnd*
-(for the two other ghosts types).
+.. note::
+
+   There is no "global switch" to disable this display feature - to do so,
+   you have to either set *Ghost* to 0
+   (for *Around Current Frame* option),
+   or the same frame number in both *GSta* and *GEnd*
+   (for the two other ghosts types).
 
 
 Motion Paths
@@ -289,7 +291,7 @@ Calculate
       These are the start/end frames of the range in which motion paths are drawn.
       You have to *Calculate Paths* again if you modify this setting, to update the paths in the 3D views.
       Note that unlike with ghosts, the start frame is *inclusive*
-      (i.e. if you set *PSta* to **1**, you'll really see the frame **1** as starting point of the paths...).
+      (i.e. if you set *PSta* to 1, you'll really see the *frame 1* as starting point of the paths...).
 
    Bake Location
       By default, you get the tips' paths.

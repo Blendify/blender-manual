@@ -28,7 +28,7 @@ Sketching is done in two steps:
 - `Drawing Chains`_ (called "strokes"). Each stroke corresponds to a chain of bones.
 - `Converting to Bones`_, using different methods.
 
-The **point of view** is important, as it determines the future bones' roll angle:
+The *point of view* is important, as it determines the future bones' roll angle:
 the Z axis of a future bone will be aligned with the view Z axis of the 3D view in
 which you draw its "parent" stroke (unless you use the *Template* converting method...).
 Strokes are drawn in the current view plane passing through the 3D cursor,
@@ -226,7 +226,7 @@ something that the gesture system would never recognize!
 Cut
 ---
 
-To* **cut** a segment (i.e. add a new black dot inside it, making two segments out of one),
+To *cut* a segment (i.e. add a new black dot inside it, making two segments out of one),
 "draw" a straight line crossing the chosen segment where you want to split it.
 
 
@@ -244,7 +244,7 @@ To* **cut** a segment (i.e. add a new black dot inside it, making two segments o
 Delete
 ------
 
-To* **delete** a stroke, draw a "V" crossing the stroke to delete twice.
+To *delete* a stroke, draw a "V" crossing the stroke to delete twice.
 
 .. list-table::
 
@@ -260,7 +260,7 @@ To* **delete** a stroke, draw a "V" crossing the stroke to delete twice.
 Reverse
 -------
 
-To **reverse** a stroke (i.e. the future chain of bones will be reversed),
+To *reverse* a stroke (i.e. the future chain of bones will be reversed),
 draw a "C" crossing twice the stroke to reverse.
 
 .. list-table::

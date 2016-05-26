@@ -11,7 +11,7 @@ Fill in the Target field, and the Copy Location constraint will begin to use loc
 
 .. figure:: /images/rigging_constraints_interface_target.png
 
-   The **Target** field must be filled in for the constraint to function.
+   The Target field must be filled in for the constraint to function.
 
 By default, the Target will use the :term:`Object Center` as the target point.
 

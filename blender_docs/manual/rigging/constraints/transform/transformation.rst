@@ -13,10 +13,8 @@ You can also switch between axes, and use the range values not as limits,
 but rather as "markers" to define a mapping between input (target) and output (owner) values.
 
 So, e.g. you can use the position of the target along the X axis to control the rotation of
-the owner around the Z axis, stating that **1 BU** along the target X axis corresponds to
-
-``10`` around the owner Z axis. Typical uses for this include gears (see note below),
-
+the owner around the Z-Axis, stating that 1 BU along the target X-Axis corresponds 
+to10 BU around the owner Z-Axis. Typical uses for this include gears (see note below),
 and rotation based on location setups.
 
 
@@ -48,9 +46,9 @@ Extrapolate
    all values outside these ranges are clipped to them.
    When you enable this button, the *min* and *max* values are no longer strict limits,
    but rather "markers" defining a proportional (linear) mapping between input and corresponding output values.
-   Let's illustrate that with two graphs (*The* *Extrapolate* *principles*).
-   In these pictures, the input range (in abscissa) is set to [``1.0, 4.0``],
-   and its corresponding output range (in ordinate), to [``1.0, 2.0``].
+   Let's illustrate that with two graphs Fig. The Extrapolate principles.
+   In these Fig. pictures, the input range (in abscissa) is set to (1.0 to 4.0),
+   and its corresponding output range (in ordinate), to (1.0 to 2.0).
    The yellow curve represents the mapping between input and output.
 
 
@@ -60,7 +58,7 @@ Extrapolate
    * - .. figure:: /images/ConstraintsTransformationExtrapolatePrinciple1.jpg
           :width: 300px
 
-          Extrapolate disabled: the output values are bounded inside the [1.0, 2.0] range.
+          Extrapolate disabled: the output values are bounded inside the (1.0 to 2.0) range.
 
      - .. figure:: /images/ConstraintsTransformationExtrapolatePrinciple2.jpg
           :width: 300px
@@ -79,9 +77,12 @@ Extrapolate
    - Conversely, when mapping transform properties to rotation or scale,
      the owner's existing rotation or scale is overridden by the result of evaluating this constraint.
    - When using the rotation transform properties of the target as input,
-     whatever the real values are, the constraint will always "take them back" into the ``-180, 180`` range
-     (e.g. if the target has a rotation of ``420`` around its X axis,
-     the values used as X input by the constraint will be ``((420 + 180) modulo 360) - 180 = 60- ...)``.
+     whatever the real values are, the constraint will always "take them back" into the (-180 to 180) range
+     (e.g. if the target has a rotation of 420 degrees around its X-Axis,
+     the values used as *X* input by the constraint will be 
+
+     ((420 + 180) modulo 360) - 180 = 60- ...)
+
      This is why this constraint is not really suited for gears!
    - Similarly, when using the scale transform properties of the target as input,
      whatever the real values are, the constraint will always take their absolute values (i.e. invert negative ones).

@@ -196,14 +196,14 @@ Transform Driver
 This example shows you how setup a transform driver.
 First make sure you are in the Front Ortho view. :kbd:`Numpad5`, :kbd:`Numpad1`.
 
-(1) In object mode, select then duplicate the default ``Cube``. :kbd:`Shift-D`. Move ``Cube.001`` to a new location.
-(2) With ``Cube.001`` selected, add a single driver to the **Rotation Y** property.
-(3) Open the *Graph Editor*, set the *Mode* to *Drivers*.
-(4) *Show Only Selected* is useful disabled for drivers, marked green in the picture.
-(5) In the channels region, select the **Y Euler Rotation** property.
-(6) Press :kbd:`N` to open the properties region, scroll down to *Drivers* panel.
-(7) Change the *Type* to *Averaged Value*, this will return the averaged value of the driver variables.
-(8) Modify the driver variable settings.
+#. In object mode, select then duplicate the default ``Cube``. :kbd:`Shift-D`. Move ``Cube.001`` to a new location.
+#. With ``Cube.001`` selected, add a single driver to the *Rotation Y* property.
+#. Open the *Graph Editor*, set the *Mode* to *Drivers*.
+#. *Show Only Selected* is useful disabled for drivers, marked green in the picture.
+#. In the channels region, select the *Y Euler Rotation* property.
+#. Press :kbd:`N` to open the properties region, scroll down to *Drivers* panel.
+#. Change the *Type* to *Averaged Value*, this will return the averaged value of the driver variables.
+#. Modify the driver variable settings.
 
 - *Type* - *Transform Channel*
 - *Ob/Bone* - *Cube*

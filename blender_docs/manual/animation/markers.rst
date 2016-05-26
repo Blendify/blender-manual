@@ -65,7 +65,7 @@ Sequencer
    Markers in the Sequencer
 
 
-The **Video Sequence Editor** just adds a vertical dashed line to each marker
+The *Video Sequence Editor* just adds a vertical dashed line to each marker
 (gray if the marker is unselected, or white if it's selected).
 
 

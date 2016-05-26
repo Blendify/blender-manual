@@ -134,7 +134,7 @@ as we will see later.
 
 Using :kbd:`Shift-RMB`, you can add to/remove from the selection.
 
-You also have some **advanced selection** options, based on their relations.
+You also have some *advanced selection* options, based on their relations.
 
 You can select at once all the bones in the chain which the active (last selected)
 bone belongs to by using the *linked selection* tool, :kbd:`L`.

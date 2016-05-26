@@ -8,7 +8,7 @@ The interface elements of the header are explained below using a Copy Location c
 
 .. figure:: /images/rigging_constraints_interface_header.png
 
-   A **Header** sits at the top of every constraint.
+   A Header sits at the top of every constraint.
 
 Expansion Arrow (pointing down or right)
    Show or Hide the settings of the constraint.
@@ -23,8 +23,8 @@ Expansion Arrow (pointing down or right)
    Give the constraint a meaningful name in this field, something that describes its intent.
    Meaningful names help you and your team members understand what each constraint is supposed to do.
 
-   The **red** background is a warning that the constraint is not yet functional.
-   The background will turn **gray** when the constraint is functioning.
+   The *red* background is a warning that the constraint is not yet functional.
+   The background will turn *gray* when the constraint is functioning.
    When this Copy Location constraint has a valid target in the "Target Field"
    it will turn gray and begin to function.
 

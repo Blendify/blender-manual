@@ -173,7 +173,7 @@ Template drop-down list
 Think of them as A(ngle of bones), L(ength of bones) and D(efinition of stroke).
 
    These settings control how the template is mapped to the selected strokes.
-   Each one can have a value between **0.0** and **10.0**, the default being **1.0**.
+   Each one can have a value between (0.0 and 10.0), the default being 1.0.
 
    A
       controls the influence of the angle of the joints (i.e. angle between bones) - the higher this value,
