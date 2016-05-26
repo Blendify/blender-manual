@@ -32,7 +32,7 @@ simply run:
 
       blender -b file.blend -x 1 -o //render -a
 
-   **Always position** ``-f`` **or** ``-a`` **as the last arguments.**
+   **Always** position ``-f`` or ``-a`` as the last arguments.
 
 
 Platforms

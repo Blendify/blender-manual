@@ -38,14 +38,18 @@ Rendering takes all available CPU time; you should render overnight,
 when the computer is not needed, or set Blender to a low priority while rendering,
 and work on other things (be careful with the RAM space!).
 
-The **Direct Approach** - highly **not** recommended and not a standard practice - is where
+.. rubric:: Direct Approach
+
+The Direct Approach - highly **not** recommended and not a standard practice - is where
 you set your output format to an AVI or MOV format,
 and click ANIM to render your scene directly out to a movie file.
 Blender creates one file that holds all the frames of your animation. You can then use
 Blender's VSE to add an audio track to the animation and render out to an MPEG format to
 complete your movie.
 
-The **Frame Sequence** is a much more stable approach,
+.. rubric:: Frame Sequence
+
+The Frame Sequence is a much more stable approach,
 where you set your output format to a still format (such as JPG, PNG or MultiLayer),
 and click ANIM to render your scene out to a set of images,
 where each image is the frame in the sequence.

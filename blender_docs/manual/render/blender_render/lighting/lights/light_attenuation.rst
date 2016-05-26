@@ -419,7 +419,7 @@ the light's intensity has fallen so quickly that the last few objects aren't eve
 Both (*Inverse Square* *with* ``100``) and
 (*Inverse Square* *with* ``1000``) appear to be almost identical and that is
 because the *Distance* is set beyond the farthest object's distance which is at
-about **40 BU** out. Hence, all the objects get almost the full intensity of the light.
+about 40 BU out. Hence, all the objects get almost the full intensity of the light.
 
 As above, the first few objects are dimmer than farther objects because they are very close to
 the light. Remember, the brightness of an object's surface is also based on the angle between
@@ -471,7 +471,7 @@ With a linear attenuation,
 the light's intensity has fallen very low even before it gets to the first object.
 
 In (*Sphere* *with* ``20``),
-the clipping sphere's radius is now **20 BU** and some light is reaching the middle objects.
+the clipping sphere's radius is now 20 BU and some light is reaching the middle objects.
 
 In (*Sphere* *with* ``40``), the clipping sphere's radius is now ``40`` units,
 which is beyond the last object. However, the light doesn't make it to the last few objects

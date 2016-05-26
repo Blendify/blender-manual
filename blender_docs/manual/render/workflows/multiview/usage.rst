@@ -22,8 +22,8 @@ file that was made for monoscopic rendering and transform it in stereo-3d ready.
 Introduction
 ============
 
-Start opening up your project file, in this case ``turntable.blend`` from the **Creature Factory 2**
-Open Movie Workshop series from the Blender Institute by **Andy Goralczyk**.
+Start opening up your project file, in this case ``turntable.blend`` from the *Creature Factory 2*
+Open Movie Workshop series from the Blender Institute by Andy Goralczyk.
 
 .. figure:: /images/multiview_workflow_1.png
    :width: 1213px
@@ -157,7 +157,7 @@ Blender supports from high-end 3D displays to simple red-cyan glasses.
 On top of that you can set a different display mode for each window.
 
 The display mode can be changed via the Window menu
-or if you create your own shortcuts for the **wm.set_stereo_3d** operator.
+or if you create your own shortcuts for the ``wm.set_stereo_3d`` operator.
 
 .. figure:: /images/multiview_window_stereo_3d.png
    :width: 642px
@@ -270,7 +270,7 @@ Volume
    The intersection of the stereo cameras frustums helps planning the show
    by avoiding elements being visible by only one camera.
    The volume is defined by the cameras start and end clipping distances.
-   The areas that are in the frustum of one camera only are known as **retinal rivalry areas**.
+   The areas that are in the frustum of one camera only are known as *retinal rivalry areas*.
    They are tolerated in the negative space (the region from the convergence plane into the image)
    but are to be avoided at all costs in the positive space (the area from the convergence plane to the camera).
 

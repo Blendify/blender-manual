@@ -23,7 +23,7 @@ Sampling
 --------
 
 There are two integrator modes that can be used: path tracing and branched path tracing.
-The **path tracing integrator** is a pure path tracer;
+The *path tracing integrator* is a pure path tracer;
 at each hit it will bounce light in one direction and pick one light to receive lighting from.
 This makes each individual sample faster to compute,
 but will typically require more samples to clean up the noise.
@@ -34,7 +34,7 @@ Render Samples
 Preview Samples
    Number of samples for viewport rendering.
 
-The **branched path tracing integrator** is similar,
+The *branched path tracing integrator* is similar,
 but at the first hit it will split the path for different surface components and
 will take all lights into account for shading instead of just one.
 This makes each sample slower, but will reduce noise,

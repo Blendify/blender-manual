@@ -13,8 +13,8 @@ This can speed up rendering, because modern GPUs are designed to do quite a lot 
 On the other hand, they also have some limitations in rendering complex scenes, due to more limited memory,
 and issues with interactivity when using the same graphics card for display and rendering.
 
-Cycles has two GPU rendering modes: **CUDA**,
-which is the preferred method for NVIDIA graphics cards; and **OpenCL**,
+Cycles has two GPU rendering modes: *CUDA*,
+which is the preferred method for NVIDIA graphics cards; and *OpenCL*,
 which supports rendering on AMD graphics cards.
 
 
@@ -31,7 +31,7 @@ CUDA
 
 
 NVIDIA :abbr:`CUDA (Compute Unified Device Architecture)` is supported for GPU
-rendering with **NVIDIA graphics cards**.
+rendering with *NVIDIA* graphics cards.
 We support graphics cards starting from GTX 4xx (computing capability 2.0).
 
 Cycles requires recent NVIDIA drivers to be installed, on all operating systems.
@@ -44,7 +44,7 @@ OpenCL
 
 
 :abbr:`OpenCL (Open Computing Language)` is supported for GPU
-rendering with **AMD graphics cards**.
+rendering with *AMD* graphics cards.
 We only support graphics cards with :abbr:`GCN (Graphics Core Next)` architecture (HD 7xxx and above).
 Not all HD 7xxx cards are GCN cards though, you can check if your card is
 `here <https://en.wikipedia.org/wiki/List_of_AMD_graphics_processing_units>`__.

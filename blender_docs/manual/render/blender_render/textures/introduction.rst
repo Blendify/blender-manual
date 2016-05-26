@@ -46,14 +46,14 @@ Textures affect one or more aspects of the object's net coloring.
 The net color you see is a sort of layering of effects, as shown in this example image.
 The layers, if you will, are:
 
-- Your object, lit with **ambient** light based on your world settings.
-- Your base **material**, which colors the whole surface in a uniform color that reacts to light,
+- Your object, lit with *ambient* light based on your world settings.
+- Your base *material*, which colors the whole surface in a uniform color that reacts to light,
   giving different shades of the diffuse, specular,
   and mirror colors based on the way light passes through and into the surface of the object.
-- A **primary texture** layer that overlays a purple marble coloring.
-- A **second cloud texture** that makes the surface transparent
+- A *primary texture* layer that overlays a purple marble coloring.
+- A *second cloud texture* that makes the surface transparent
   in a misty/foggy sort of way by affecting the Alpha value.
-- These two textures are **mixed** with the base material to provide the net effect: a cube of purplish-brown fog.
+- These two textures are *mixed* with the base material to provide the net effect: a cube of purplish-brown fog.
 
 
 .. figure:: /images/SomeMetal.jpg

@@ -18,4 +18,4 @@ Connect the alpha channel to set/see transparency.
 .. note:: Effective Output Node
 
    The only Output node that is used for the Material in the end
-   (i.e the only non-Preview) has a little **red sphere** on the upper right.
+   (i.e the only non-Preview) has a little *red sphere* on the upper right.

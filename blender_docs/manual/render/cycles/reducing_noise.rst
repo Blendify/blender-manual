@@ -89,8 +89,8 @@ Bounces
 
 In reality light will bounce a huge number of times due to the speed of light being very high.
 In practice more bounces will introduce more noise, and it might be good to use something like
-the Limited Global Illumination preset that uses **fewer bounces for different shader
-types**. Diffuse surfaces typically can get away with fewer bounces,
+the Limited Global Illumination preset that uses *fewer* bounces for different shader
+types. Diffuse surfaces typically can get away with fewer bounces,
 while glossy surfaces need a few more,
 and transmission shaders such as glass usually need the most.
 
@@ -106,7 +106,7 @@ and transmission shaders such as glass usually need the most.
           :width: 180px
 
 
-Also important is to **use shader colors that do not have components of value 1.0** or
+Also important is to use shader colors that do **not** have components of value 1.0 or
 values near that; try to keep the maximum value to 0.8 or less and make your lights brighter.
 In reality, surfaces are rarely perfectly reflecting all light,
 but there are of course exceptions; usually glass will let most light through,
@@ -166,14 +166,14 @@ This is a typical recipe for fireflies.
 
 
 To reduce this problem, the :doc:`Light Falloff </render/cycles/nodes/types/color/light_falloff>`
-node has a **Smooth factor, that can be used to reduce the maximum intensity**
+node has a *Smooth factor*, that can be used to reduce the maximum intensity
 a light can contribute to nearby surfaces. The images above show default falloff and smooth value 1.0.
 
 
 Sample as Lamp
 ==============
 
-Materials with emission shaders can be configured to be **sampled as lamp**
+Materials with emission shaders can be configured to be *sampled as lamp*
 (:ref:`render-cycles-integrator-material_settings`).
 This means that they will get rays sent directly towards them,
 rather than ending up there based on rays randomly bouncing around.
@@ -209,8 +209,8 @@ Glass and Transparent Shadows
 
 With caustics disabled, glass will miss shadows,
 and with filter glossy they might be too soft.
-We can make a glass shader that will **use a Glass BSDF when viewed directly,
-and a Transparent BSDF when viewed indirectly**. The Transparent BSDF can be used for
+We can make a glass shader that will use a Glass BSDF when viewed *directly*,
+and a Transparent BSDF when viewed *indirectly*. The Transparent BSDF can be used for
 transparent shadows to find light sources straight through surfaces,
 and will give properly-colored shadows, but without the caustics.
 The Light Path node is used to determine when to use which of the two shaders.
@@ -265,7 +265,7 @@ Clamp Fireflies
 ===============
 
 Ideally with all the previous tricks, fireflies would be eliminated, but they could still happen. For that,
-**the intensity that any individual light ray sample will contribute to a pixel can be clamped**
+the *intensity* that any individual light ray sample will contribute to a pixel can be *clamped*
 to a maximum value with the integrator :ref:`Clamp setting <render-cycles-integrator-clamp_samples>`.
 
 If set too low this can cause missing highlights in the image,

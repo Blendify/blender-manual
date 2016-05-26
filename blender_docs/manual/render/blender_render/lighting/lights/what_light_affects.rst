@@ -13,7 +13,7 @@ Every lamp has a set of switches that control which objects receive its light,
 and how it interacts with materials.
 
 Negative
-   The light produced by the lamp is **subtracted** from the one "available" on the surfaces it hits,
+   The light produced by the lamp is *subtracted* from the one "available" on the surfaces it hits,
    which darkens these surfaces instead of brightening them.
 
 This Layer Only

@@ -145,12 +145,12 @@ Tips
 Choosing which format to use depends on what you are going to do with the image.
 
 If you are animating a movie and are not going to do any post-processing or special effects on
-it, use either **AVI-JPEG** or **AVI Codec** and choose the XviD open codec.
+it, use either ``AVI-JPEG`` or ``AVI Codec`` and choose the XviD open codec.
 If you want to output your movie with sound that you have loaded into the VSE,
-use **FFMPEG**.
+use ``FFMPEG``.
 
-If you are going to do post-processing on your movie, it is best to use a frameset rendered as **OpenEXR** images;
-if you only want one file, then choose **AVI Raw**. While AVI Raw is huge,
+If you are going to do post-processing on your movie, it is best to use a frameset rendered as ``OpenEXR`` images;
+if you only want one file, then choose *AVI Raw*. While AVI Raw is huge,
 it preserves the exact quality of output for post-processing.
 After post-processing (compositing and/or sequencing), you can compress it down.
 You don't want to post-process a compressed file because the compression artifacts might

@@ -12,9 +12,9 @@ Lighting can be very confusing, and the defaults do not give good results. Furth
 very small changes can have a dramatic effect on the mood and colors.
 
 In all the lighting rigs,
-the default camera is always positioned nearly ``15`` degrees off dead-on, about **25 BU**
-(Blender Units) back and **9 BU** to the side of the subject, at eye level,
-and uses a long lens (**80mm**). Up close, a **35mm** lens will distort the image.
+the default camera is always positioned nearly 15 degrees off dead-on, about 25 BU
+(Blender Units) back and 9 BU to the side of the subject, at eye level,
+and uses a long lens of 80mm. Up close, a 35mm lens will distort the image.
 A long lens takes in more of the scene.
 A dead-on camera angle is too dramatic and frames too wide a scene to take in.
 So now you know; next time you go to a play, sit off-center and you won't miss the action
@@ -62,8 +62,8 @@ yet effective illumination of one object or a few objects close together.
 It is a single *Spot* light, usually with a hard edge.
 Halos are enabled in this render to remind you of a smoky nightclub scene.
 It is placed above and directly in front of the subject;
-in this case **10 BU** in front and **10 BU** high, just like a stage,
-it shines down at about a ``40`` degrees angle. We use quadratic attenuation.
+in this case 10 BU in front and 10 BU high, just like a stage,
+it shines down at about a 40 degrees angle. We use quadratic attenuation.
 
 You can make the spot wider by increasing *Size Spot Shape* and softening the edge
 by increasing *Blend Spot Shape*, and parent it to the main actor,
@@ -79,8 +79,8 @@ Somewhere in the macabre spectrum is a hard spot on the floor shining upward. Fo
 grab a flashlight, head into the bathroom and close the door.
 Turn out the light and hold the flashlight under your chin, pointing up.
 Look in the mirror and turn it on. Ghoulies! Don't blame me for nightmares,
-and I hope you get the point: lighting, **even with a single light, varying the intensity,
-location and direction, changes everything** in a scene.
+and I hope you get the point: lighting, *even* with a single light, varying the intensity,
+location and direction, changes *everything* in a scene.
 
 Use this rig, with *Environment Lighting* light
 (and props receiving and being lit by ambient light in their material settings)
@@ -158,13 +158,13 @@ This rig is also used to light products from all angles,
 and the side fill lights light up the props.
 
 The key light is the *Area* light placed slightly above and to the left of the
-camera. It allows the specular to come out. It is about **30 BU** back from the subject,
+camera. It allows the specular to come out. It is about 30 BU back from the subject,
 and travels with the camera. A little specular shine lets you know there's a light there,
 and that you're not looking at a ghost. In real life, it is a spot with baffles, or blinders,
 that limit the area of the light.
 
 The two sidelights are reduced to only fill; each of them are *Hemi* lights placed
-**20 BU** to the side and **5 BU** in front of the subject, at ground level.
+20 BU to the side and 5 BU in front of the subject, at ground level.
 They don't cause a spotshine on the surface by disabling specular, and at ground level,
 light under the chin or any horizontal surfaces,
 countering the shadows caused by the key light.
@@ -218,8 +218,8 @@ Four-point Rig
 
 
 The four-point lighting rig provides a better simulation of outside lighting,
-by adding a *Sun* lamp ``30`` Blender Units above, ``10`` to the side,
-and **15 BU** behind the subject.
+by adding a *Sun* lamp 30 Blender Units above, 10 to the side,
+and 15 BU behind the subject.
 This sunlight provides backlighting and fills the top of the subject;
 even producing an intentional glare on the top of their head,
 telling you there is a sun up there. Notice it is colored yellow,

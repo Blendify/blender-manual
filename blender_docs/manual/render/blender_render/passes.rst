@@ -76,18 +76,18 @@ Selecting Render Passes
 
 Render Passes are the various distinct outputs that the renderer is able to generate.
 All of the following render outputs are normally combined into a single output known,
-appropriately enough, as the **Combined** output.
+appropriately enough, as the *Combined* output.
 But you can also select any of them to be output as a separate pass. (If you do so, in most
 cases you can choose whether to *also* continue to include it in the Combined output.)
 
 Some of these outputs must be enabled and used within your scene
-(and not just selected in the Render Layer panel) in order to show anything. For example,
-if you do not have any lights in your scene,
+(and not just selected in the Render Layer panel) in order to show anything. 
+For example, if you do not have any lights in your scene,
 or those lights have been set to not cast shadows,
 or objects in the limelight do not have materials which have been set to receive shadows,
-the **Shadow** pass will be blank; there's simply nothing to show you.
+the *Shadow* pass will be blank; there's simply nothing to show you.
 If you have not enabled *Ambient Occlusion* in your World environment settings,
-the **AO** pass will be blank, even if you select it here.
+the *AO* pass will be blank, even if you select it here.
 
 To save time and disk space, you have to tell Blender each of the passes to render in the Render Layers panel
 (which we first introduced on :doc:`the previous page </render/post_process/layers>`):
@@ -143,7 +143,7 @@ and can be used as shown in the example above.
 Excluding Render Passes
 =======================
 
-As we said, the **Combined** output is an amalgam of several outputs which are *also*
+As we said, the *Combined* output is an amalgam of several outputs which are *also*
 available separately. When you select one of these outputs,
 they will be provided separately *and also* included in the Combined pass.
 

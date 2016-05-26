@@ -10,19 +10,22 @@ These nodes output values, vectors, colors and shaders.
 :doc:`Shaders </render/cycles/nodes/types/shaders/index>`
 =========================================================
 
-An important concept to understand when building node setups is that of the **shader
-socket**. The output of all surface and volume shaders is a shader,
-describing lighting interaction at the surface or of the volume,
+An important concept to understand when building node setups is 
+that of the *shader socket*. The output of all surface and 
+volume shaders is a shader, describing lighting interaction at the surface or of the volume,
 rather than the color of the surface.
 
 There are a few types of shaders available as nodes:
 
 
-- :abbr:`BSDF (Bidirectional scattering distribution function)` shader describing light reflection,
-  refraction and absorption at an object surface.
-- **Emission** shader describing light emission at an object surface or in a volume.
-- **Volume** shader describing light scattering inside a volume.
-- **Background** shader describing light emission from the environment.
+:abbr:`BSDF (Bidirectional scattering distribution function)` shader 
+   Describe light reflection, refraction and absorption at an object surface.
+Emission shader
+   Describe light emission at an object surface or in a volume.
+Volume shader
+   Describe light scattering inside a volume.
+Background shader
+   Describe light emission from the environment.
 
 Each shader node has a color input, and outputs a shader.
 These can then be mixed and added together using Mix and Add Shader nodes.
