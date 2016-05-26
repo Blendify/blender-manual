@@ -111,7 +111,8 @@ Choke
    Calms down (reduces the exit velocity of) a vertex or edge once it penetrates a collision mesh.
 
 
-**Diagnostics**
+Diagnostics
+-----------
 
 Print Performance to Console
    Prints on the console how the solver is doing.

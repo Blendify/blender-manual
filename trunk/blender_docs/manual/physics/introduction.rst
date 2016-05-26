@@ -41,8 +41,8 @@ at ``-9.810`` in the Z axis, which is the force of gravity in the real world.
 Lowering this value would simulate a lower or higher force of gravity.
 Gravity denoted g, measurement [m×s :sup:`-2`]).
 
-Gravity is practically same around whole **Earth**.
-For rendering scenes from **Moon** use value 6 times smaller, e.g. ``1.622`` m×s :sup:`-2`.
-The most popular and probably not colonized **Mars** has ``g = 3.69``.
+Gravity is practically same around whole *Earth*.
+For rendering scenes from *Moon* use value 6 times smaller, e.g. ``1.622`` m×s :sup:`-2`.
+The most popular and probably not colonized *Mars* has ``g = 3.69``.
 
 Note that you can scale down the gravity value per physics system in the *Field Weights tab.*

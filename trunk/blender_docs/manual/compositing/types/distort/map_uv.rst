@@ -9,14 +9,8 @@ Map UV Node
 
    Map UV Node
 
-So, I think we all agree that the problem is...we just don't know what we want.
-The same is true for directors. Despite our best job texturing our models, in post-production,
-inevitably the director changes their mind. "Man, I really wish he looked more ragged.
-Who did makeup, anyway?" comes the remark.
-While you can do quite a bit of coloring in post-production, there are limits. Well, now this
-little node comes along and you have the power to **re-texture your objects** *after* **they
-have been rendered**. Yes, you read that right; it's not a typo and I'm not crazy. At least,
-not today.
+While you can do quite a bit of overall coloring in post-production, there are limits. 
+With this *Node* you can "re-texture" objects **after** they have been rendered. 
 
 Using this node (and having saved the UV map in a multilayer OpenEXR format image sequence),
 you can apply new flat image textures to all objects
@@ -32,13 +26,13 @@ Adjust alpha and the mix factor to control how much the new texture overlays the
 
 Of course, when painting the new texture,
 it helps to have the UV maps for the original objects in the scene,
-so keep those UV texture outlines around even, after all, shooting is done.
+it is recommended to  keep those UV texture outlines around even, when shooting is done.
 
 Examples
 ========
 
 In the example below,
-we have overlaid a grid pattern on top of the two Emo heads after they have been rendered.
+we have overlaid a grid pattern on top of the two 'Emo' heads after they have been rendered.
 During rendering, we enabled the UV layer in the RenderLayer tab (Buttons window,
 Render Context, RenderLayer tab). Using a mix node,
 we mix that new UV Texture over the original face.
@@ -53,12 +47,13 @@ We can use this grid texture to help in any motion tracking that we need to do.
 In the next example, we overlay a flag on top of a cubie-type thing,
 and we ensure that we Enable the Alpha pre-multiply button on the Mix node.
 The flag is used as additional UV Texture on top of the grid. Other examples include the
-possibility that we used an unauthorized product box during our initial animation,
-and we need to substitute in a different product sponsor after rendering.
+possibility that there was used an unauthorized product box during the initial animation,
+and it is needed to substitute in a different product sponsor after rendering.
 
-Of course, this node does NOT give directors the power to rush pre-production rendering under
-the guise of "we'll fix it later", so maybe you don't want to tell them about this node.
-Let's keep it to ourselves for now.
+.. hint:: 
+
+   Of course, due to limits of this node, it is not recommended rush pre-production rendering under
+   the guise of "fixing it later".
 
 .. figure:: /images/Compositing-Node-MapUV_ex02.jpg
    :width: 300px

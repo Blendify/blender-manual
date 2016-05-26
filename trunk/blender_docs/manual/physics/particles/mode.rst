@@ -30,7 +30,8 @@ Ways to use Particle Mode
    :doc:`Disk Cache </physics/particles/cache_and_bake>`.
 
 
-**Setup for Hair Particles**
+Setup for Hair Particles
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 - Create a *Hair* particle system - With your object selected,
   click the *Particle System* icon in the Properties panel. Create a new particle system by clicking the *Plus*.
@@ -53,21 +54,24 @@ Ways to use Particle Mode
    Editing a baked particle simulation's particle paths in Particle Mode
 
 
-**Setup for Particle, Cloth, and Soft Body Simulations**
+Setup for Particle, Cloth, and Soft Body Simulations
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - Use *Emitter* particles, or a cloth/soft-body simulation
 - Create a simulation - set up objects and or emitters,
   set your time range (use a small range if you are just starting out and experimenting),
   set up the simulation how you want it, using :kbd:`Alt-A` to preview it.
 
- **Bake the Simulation**
+Bake the Simulation
+^^^^^^^^^^^^^^^^^^^
 
 - Once you are happy with the general simulation,
   :doc:`bake </physics/particles/cache_and_bake>` the simulation from object mode.
   The simulation must be baked to enable editing. (remember to bake to memory,
   a disk cache will not be editable in *Particle Mode*)
 
-**Edit the Simulation**
+Edit the Simulation
+^^^^^^^^^^^^^^^^^^^
 
 - Switch to *Particle Edit* from the *Mode dropdown menu* in the bottom menu bar
   of the *3D View* to edit the particle's paths/key-frames.

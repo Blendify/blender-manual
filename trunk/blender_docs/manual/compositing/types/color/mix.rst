@@ -33,7 +33,7 @@ Alpha
    the output image will mix the colors by considering what effect the Alpha channel has of the base
    (top input socket) image. The Alpha channel of the output image is not affected.
 Fac
-   The amount of mixing of the bottom socket is selected by the Factor input field (*Fac:*).
+   The amount of mixing of the bottom socket is selected by the Factor input field *Fac:*.
    A factor of zero does not use the bottom socket, whereas a value of 1.0 makes full use.
    In Mix mode, ``0.5`` is an even mix between the two, but in Add mode,
    ``0.5`` means that only half of the second socket's influence will be applied.
@@ -76,9 +76,9 @@ Contrast Enhancement using Mix
 ------------------------------
 
 Here is a small map showing the effects of two other common uses for the RGB Curve:
-**Darken** and **Contrast Enhancement**.
+*Darken* and *Contrast Enhancement*.
 You can see the effect each curve has independently,
-and the combined effect when they are **mixed** equally.
+and the combined effect when they are *mixed* equally.
 
 
 .. figure:: /images/Compositing-RGB_Map.jpg
@@ -90,8 +90,8 @@ As you can hopefully see, our original magic monkey was overexposed by too much 
 To cure an overexposure, you must both darken the image and enhance the contrast.
 
 In the top RGB curve, *Darken*, only the right side of the curve was lowered; thus,
-any X input along the bottom results in a geometrically less Y output. The *Enhance
-Contrast* RGB 'S' curve scales the output such that middle values of X change dramatically;
+any X input along the bottom results in a geometrically less Y output. 
+The *Enhance Contrast* RGB 'S' curve scales the output such that middle values of X change dramatically;
 namely, the middle brightness scale is expanded,
 and thus, whiter whites and blacker blacks are output. To make this curve,
 simply click on the curve and a new control point is added.
