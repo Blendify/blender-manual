@@ -379,7 +379,7 @@ Delete Keyframes
 User Preferences
 ================
 
-Some related user preferences from the **Editing** tab.
+Some related user preferences from the *Editing* tab.
 
 Playback
    Allow Negative Frames

@@ -10,7 +10,7 @@ being `Duplicate`_ and `Linked Duplicates`_ which instance their object-data.
 Instancing
 ==========
 
-Each Blender object type (mesh, lamp, curve, camera *etc.*) is composed from two parts:
+Each Blender object type (mesh, lamp, curve, camera, etc.) is composed from two parts:
 an *Object* and *Object Data* (sometimes abbreviated to *ObData*):
 
 Object

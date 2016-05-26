@@ -95,13 +95,13 @@ Solve
 Plane Track Panel
 -----------------
 
-**Create Plane Track** operator creates a new plane track.
+*Create Plane Track* operator creates a new plane track.
 4 markers are needed to be selected which will form the 4 corners of the plane.
 
 Solve Panel
 -----------
 
-**Camera Motion** operator solves the motion of camera using all tracks placed
+*Camera Motion* operator solves the motion of camera using all tracks placed
 on the footage and two keyframes specified on this panel. There are some requirements:
 
 - There should be at least 8 common tracks on the both of the selected keyframes.
@@ -116,7 +116,7 @@ position of tracks. Basically, reprojection error below 0.3 means accurate repro
 Values above 3 means some tracks should be tracked more accurately,
 or that values for focal length or distortion coefficients were set incorrectly.
 
-The **Refine** option specifies which parameters should be refined during solve.
+The *Refine* option specifies which parameters should be refined during solve.
 Such refining is useful when you aren't sure about some camera intrinsics,
 and solver should try to find the best parameter for those intrinsics.
 But you still have to know approximate initial values -

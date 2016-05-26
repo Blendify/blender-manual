@@ -27,7 +27,7 @@ Options and other details will be discussed in their respective sections.
 While Grab/Move is active, the amount of change in the X, Y,
 and Z co-ordinates is displayed at the bottom left corner of the 3D View window.
 
-There are **2** ways to Grab/Move in *3D View*:
+There are two ways to Grab/Move in *3D View*:
 
 - Using shortcuts and combinations of shortcuts.
 - Using the *Transform Widget* helper. This can be toggled from the *Translation Widget* in the header of the 3DView.
@@ -144,7 +144,7 @@ and select the transformation manipulator widgets.
 
 If you have changed the orientation to something other than Global,
 you can hotkey your chosen axis of orientation by hitting the relevant axis modifying hotkey
-**twice** instead of just once. Hitting the axis modifying hotkey three times reverts back to Global orientation.
+*twice* instead of just *once*. Hitting the axis modifying hotkey three times reverts back to Global orientation.
 
 - The :kbd:`G` hotkey followed by :kbd:`X-X` or :kbd:`Y-Y` or
   :kbd:`Z-Z` allows you to translate the object in the object's Local axis by default,

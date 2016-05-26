@@ -71,15 +71,15 @@ Scaling can be constrained to a particular axis or axes through the use of
 To constrain scaling, the following shortcuts can be used:
 
 
-- :kbd:`S`, :kbd:`X`: Scale only along the **X Axis**
-- :kbd:`S`, :kbd:`Y`: Scale only along the **Y Axis**
-- :kbd:`S`, :kbd:`Z`: Scale only along the **Z Axis**
+- :kbd:`S`, :kbd:`X`: Scale only along the *X-Axis*
+- :kbd:`S`, :kbd:`Y`: Scale only along the *Y-Axis*
+- :kbd:`S`, :kbd:`Z`: Scale only along the *Z-Axis*
 
 Axis locking can also be enabled by pressing the :kbd:`MMB` after enabling scaling and
 moving the mouse in the desired direction e.g.
 
 
-- :kbd:`S`, move the mouse along the X axis, :kbd:`MMB`: Scale only along the **X Axis**
+- :kbd:`S`, move the mouse along the X axis, :kbd:`MMB`: Scale only along the *X-Axis*
 
 :doc:`Read more about Axis Locking </editors/3dview/transform/transform_control/axis_locking>`
 

@@ -57,14 +57,14 @@ Rotation can be constrained to a particular axis or axes through the use of
 To constrain rotation, the following shortcuts can be used:
 
 
-- :kbd:`R`, :kbd:`X`: Rotate only along the **X Axis**
-- :kbd:`R`, :kbd:`Y`: Rotate only along the **Y Axis**
-- :kbd:`R`, :kbd:`Z`: Rotate only along the **Z Axis**
+- :kbd:`R`, :kbd:`X`: Rotate only along the *X-Axis*
+- :kbd:`R`, :kbd:`Y`: Rotate only along the *Y-Axis*
+- :kbd:`R`, :kbd:`Z`: Rotate only along the *Z-Axis*
 
 Axis locking can also be enabled by pressing the :kbd:`MMB` after enabling rotation and
 moving the mouse in the desired direction e.g.
 
-- :kbd:`R`, move the mouse along the X axis, :kbd:`MMB`: Rotate only along the **X Axis**
+- :kbd:`R`, move the mouse along the X axis, :kbd:`MMB`: Rotate only along the *X-Axis*
 
 :doc:`Read more about Axis Locking </editors/3dview/transform/transform_control/axis_locking>`
 

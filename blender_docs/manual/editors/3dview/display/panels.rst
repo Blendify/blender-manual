@@ -16,7 +16,7 @@ Only Render
 
    .. note::
 
-      While thie option displays the regular view-port without distracting elements,
+      While the option displays the regular view-port without distracting elements,
       the objects displayed are **not** matching the final render output.
 
       Options such as restrict-render, modifiers render option, dupli-parents and render layers
@@ -24,7 +24,7 @@ Only Render
 
 Outline Selected
    If disabled, the pink outline around your selected objects in
-   *Solid* / *Shaded* / *Textured* draw types will no longer be displayed.
+   *Solid*, *Shaded*, *Textured* draw types will no longer be displayed.
 All Object Origins
    If enabled, the center dot of objects will always be visible, even for non-selected ones
    (by default, unselected centers might be hidden by geometry in solid/shaded/textured shadings).
@@ -101,7 +101,7 @@ Clip Start and Clip End
 
       When perspective is disabled only the far Clip-End is used, very high values can still give artifacts.
 
-      *This is not specific to Blender, all OpenGL/DirectX graphics applications have these same limitations.*
+      This is **not** specific to Blender, all OpenGL/ DirectX graphics applications have these same limitations.
 
 
 Local Camera

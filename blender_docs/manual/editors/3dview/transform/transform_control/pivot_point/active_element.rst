@@ -56,7 +56,7 @@ the possible transformations follow a few rules:
 
 
 - The pivot point is always at the median of the active element(s).
-- The transformations occur by transformation of the **vertices** of the selected element(s).
+- The transformations occur by transformation of the *vertices* of the selected element(s).
   If an unselected element shares one or more vertices with a selected element
   then the unselected one will get some degree of transformation also.
 

@@ -26,8 +26,8 @@ for good!
 
 
 Now you find a textbox to change name of your text file,
-followed by **+** button to create new files. To remove the text block,
-click the **X** button.
+followed by *+* button to create new files. To remove the text block,
+click the *X* button.
 
 The following three buttons toggle display of line numbers,
 word-wrap text and syntax highlighting respectively.
