@@ -34,10 +34,14 @@ Space
    Object Space
       Fit the points from the source particles/vertices
       inside the bounding box of the object with the point density texture.
-      .. TODO As far as I can tell this is how it works, but should be checked with a developer.
+
+.. TODO As far as I can tell this is how it works, but should be checked with a developer.
+
 Radius
    Radius from the shaded sample to look for points within.
-   .. TODO Same as tooltip, this does not make much sense to me.
+
+.. TODO Same as tooltip, this does not make much sense to me.
+
 Interpolation
    Texel filtering type.
 

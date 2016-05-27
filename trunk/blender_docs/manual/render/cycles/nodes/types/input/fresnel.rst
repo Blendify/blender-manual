@@ -27,8 +27,8 @@ coating layer would hit the diffuse base and be reflected off that.
 Inputs
 ======
 
-:term:`IOR`
-   Index of refraction of the material being entered.
+IOR
+   Index of refraction (term:`IOR`) of the material being entered.
 Normal
    Todo.
 

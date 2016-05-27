@@ -35,7 +35,7 @@ Lamp strength for point, spot and area lamps is specified in Watts.
 This means you typically need higher values than Blender Internal,
 as you couldn't use a 1W lamp to light a room; you need something stronger like a 100W lamp.
 
-Sun lamps are specified in Watts/m^2, which require much smaller values like 1 W/m^2.
+Sun lamps are specified in Watts/m\ :sup:`2`\, which require much smaller values like 1 W/m\ :sup:`2`\.
 This can be confusing, but specifying strength in Watts wouldn't have been convenient;
-the real sun for example has strength 384600000000000000000000000W.
-Emission shaders on meshes are also in Watts/m^2.
+the real sun for example has strength 384.6×10\ :sup:`24`\W.
+Emission shaders on meshes are also in Watts/m\ :sup:`2`\.

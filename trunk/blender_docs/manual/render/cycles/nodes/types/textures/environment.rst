@@ -20,16 +20,22 @@ Color Space
 Texture Interpolation
    Interpolation method used for the environment texture. The following interpolations are available:
 
-   :Linear: Default.
-   :Closest: No interpolation.
-   :Cubic: Only available when rendering on the CPU.
-   :Smart: Bicubic when magnifying else Bilinear is used. This is only available for :doc:`OSL </render/cycles/osl>`.
+   Linear
+      Default.
+   Closest
+      No interpolation.
+   Cubic
+      Only available when rendering on the CPU.
+   Smart
+      Bicubic when magnifying else Bilinear is used. This is only available for :doc:`OSL </render/cycles/osl>`.
 
 Projection Method
    Allows you to use different types of environmental maps. The following methods are supported: 
 
-   :Equirectangular: Projection from an Equirectangular photo.
-   :Mirror Ball: Projection from an orthographic photo or mirror ball.
+   Equirectangular
+      Projection from an Equirectangular photo.
+   Mirror Ball
+      Projection from an orthographic photo or mirror ball.
 
 Vector input
    Texture coordinate for texture lookup. If this socket is left unconnected,
