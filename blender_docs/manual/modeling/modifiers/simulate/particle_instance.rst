@@ -50,7 +50,7 @@ Particle System
    The *Particle System* field is used to select which particle system number to apply the
    *ParticleInstance* modifier to,
    when the mesh which has the particle system on it has more than one of these.
-   The *Particle System* field can have a value between ``1`` and ``10``.
+   The *Particle System* field can have a value between (1 to 10).
    It is possible to select any of the ten particle system numbers, however a check will **not** be made with the
    underlying particle emitting object specified previously in the *Object* field.
    If you select a particle system number which does not exist on the particle emitting object, then the particles on
@@ -122,8 +122,8 @@ Create Along Paths
    modifier deform its mesh shape in such a way as to try and match the path traveled by
    the particles/hair strands of the system associated with it.
    For example, below is a screen shot showing the path of a single keyed
-   particle as it travels its way through each of the different way points ``1`` to ``4`` (target particle systems),
-   when it reaches way point ``4`` the particle dies and ends its journey.
+   particle as it travels its way through each of the different way points (1 to 4) (target particle systems),
+   when it reaches way point 4 the particle dies and ends its journey.
 X,Y,X Rotation Axis
    Specify which pole axis to use for the rotation.
 Keep Shape
@@ -207,7 +207,7 @@ showing the effect on the deformation of the cylinder along the particle path.
 Once all the extra edge loops around cylinder are removed so that there is only the top and bottom vertices left,
 meaning that the cylinder doesn't have enough geometry to bend,
 in that case it cannot follow the path of the particle,
-so it just goes from the start way point ``1`` to the ending way point ``4``.
+so it just goes from the start way point 1 to the ending way point 4.
 The *ParticleInstance* modifier *Path* button works for hair (strand)
 particles as well as with keyed particles.
 In this case the mesh of the *ParticleInstance*

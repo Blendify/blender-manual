@@ -117,7 +117,7 @@ Let's make a simple example:
 
   - Select the Monkey :kbd:`RMB`.
   - In the *Object Modifiers* properties, *Modifiers* panel, add a *Curve* modifier.
-  - Type the name of the curve (should be ``Curve``) in the *Ob* field of the modifier,
+  - Type the name of the curve (should be "Curve") in the *Ob* field of the modifier,
     and optionally change the dominant axis to *Y*.
 - Or you can choose the old, deprecated method (note that it creates a "virtual" modifier...):
 

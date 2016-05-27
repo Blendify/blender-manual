@@ -201,7 +201,7 @@ To quickly add a subsurf modifier to one or more objects, select it/them and pre
 That will add a subsurf modifier with *View Subdivisions* on 1.
 
 You can use other numbers too, such as :kbd:`Ctrl-2`, :kbd:`Ctrl-3`, etc, to add a subsurf with that number of
-subdivisions. The *Render Subdivisions* will always be on ``2`` when added like this.
+subdivisions. The *Render Subdivisions* will always be on 2 when added like this.
 
 If an object already has a subsurf modifier, doing this will simply change its subdivision level instead of adding
 another modifier.

@@ -32,8 +32,8 @@ Technically they all behave the same way.
 However we can identify 2 implicit categories of Vertex Groups:
 
 
-The ``Deform Groups``
----------------------
+The Deform Groups
+-----------------
 
 These Vertex Groups are sometimes also named *Weight Groups* or *Weight Maps*.
 They are used for defining the weight tables of Armature bones.
@@ -45,8 +45,8 @@ Deform Groups should always be seen as related to each other. Hence we have prov
 that allows restricting the Vertex Weight panel to display only the Deform bones of an Object.
 
 
-The ``Other Groups``
---------------------
+The Other Groups
+----------------
 
 All other usages of Vertex Groups are summarized into the *Other* category.
 These vertex groups can be found within Shape keys, Modifiers, etc...

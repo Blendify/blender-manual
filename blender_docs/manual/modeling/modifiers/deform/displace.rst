@@ -20,7 +20,7 @@ Options
 
 Texture
    The name of the texture from which the displacement for each vertex is derived.
-   If this field is empty, the modifier defaults to ``1.0`` (white).
+   If this field is empty, the modifier defaults to 1.0 (white).
 
 Direction
    The direction along which to displace the vertices.
@@ -84,14 +84,17 @@ Midlevel
    Texture values below this value will result in negative displacement along the selected direction,
    while texture values above this value will result in positive displacement.
 
-   This is achieved by the equation ``displacement = texture_value - Midlevel``.
-   Recall that color/luminosity values are typically between ``0.0`` and ``1.0`` in Blender,
-   and not between ``0`` and ``255``.
+   *displacement* = *texture_value* - *Midlevel*
+
+   Recall that color/ luminosity values are typically between (0.0 to 1.0) in Blender,
+   and not between (0 to 255).
 
 Strength
    The strength of the displacement. After offsetting by the *Midlevel* value,
    the displacement will be multiplied by the *Strength* value to give the final vertex offset.
-   This is achieved by the equation ``vertex_offset = displacement * Strength``.
+   
+   *vertex_offset* = *displacement* \* *Strength*.
+
    A negative strength can be used to invert the effect of the modifier.
 
 

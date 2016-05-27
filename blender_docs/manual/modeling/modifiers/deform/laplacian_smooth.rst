@@ -26,9 +26,9 @@ Options
 Repeat
    Repetitions allow you to run the Laplacian smoothing multiple times.
    Each repetition causes the flow curvature of the mesh to be recalculated again,
-   and as a result it removes more noise with every new iteration using a small *Factor* < ``1.0``.
+   and as a result it removes more noise with every new iteration using a small *Factor* < 1.0 .
 
-   When on ``0``, no smoothing is done.
+   When on 0, no smoothing is done.
 
    .. note::
 
@@ -36,75 +36,75 @@ Repeat
 
 
    .. list-table::
-      (with a *factor* of ``0.5``)
+      with a factor of 0.5
 
       * - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_repeat0.jpg
              :width: 130px
 
-             Repeat: ``0``
+             Repeat: 0
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_repeat1.jpg
              :width: 130px
 
-             Repeat: ``1``
+             Repeat: 1
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_repeat5.jpg
              :width: 130px
 
-             Repeat: ``5``
+             Repeat: 5
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_repeat10.jpg
              :width: 130px
 
-             Repeat: ``10``
+             Repeat: 10
 
 
    .. list-table::
-      (with a *factor* of ``2.0``)
+      with a factor of 2.0
 
       * - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_cube_repeat0.jpg
              :width: 130px
 
-             Repeat: ``0``
+             Repeat: 0
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_cube_repeat1.jpg
              :width: 130px
 
-             Repeat: ``1``
+             Repeat: 1
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_cube_repeat5.jpg
              :width: 130px
 
-             Repeat: ``5``
+             Repeat: 5
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_cube_repeat10.jpg
              :width: 130px
 
-             Repeat: ``10``
+             Repeat: 10
 
 
    .. list-table::
-       (with a *factor* of ``-0.5``)
+       with a factor of -0.5
 
       * - .. figure:: /images/Apinzonf_Diagram_camel_repeat0.jpg
              :width: 130px
 
-             Repeat: ``0``
+             Repeat: 0
 
         - .. figure:: /images/Apinzonf_Diagram_camel_repeat1.jpg
              :width: 130px
 
-             Repeat: ``1``
+             Repeat: 1
 
         - .. figure:: /images/Apinzonf_Diagram_camel_repeat5.jpg
              :width: 130px
 
-             Repeat: ``5``
+             Repeat: 5
 
         - .. figure:: /images/Apinzonf_Diagram_camel_repeat10.jpg
              :width: 130px
 
-             Repeat: ``10``
+             Repeat: 10
 
 
 Factor
@@ -121,62 +121,62 @@ Factor
       * - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_lambda0_0.jpg
              :width: 130px
 
-             Factor: ``0.0``
+             Factor: 0.0
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_lambda0_5.jpg
              :width: 130px
 
-             Factor: ``0.5``
+             Factor: 0.5
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_lambda.jpg
              :width: 130px
 
-             Factor: ``2.5``
+             Factor: 2.5
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_lambda5_0.jpg
              :width: 130px
 
-             Factor: ``5.0``
+             Factor: 5.0
 
       * - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_cube_lambda0_0.jpg
              :width: 130px
 
-             Factor: ``0.0``
+             Factor: 0.0
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_cube_lambda1_0.jpg
              :width: 130px
 
-             Factor: ``1.0``
+             Factor: 1.0
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_cube_lambda10_0.jpg
              :width: 130px
 
-             Factor: ``10.0``
+             Factor: 10.0
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_cube_lambda50_0.jpg
              :width: 130px
 
-             Factor: ``50.0``
+             Factor: 50.0
 
       * - .. figure:: /images/Apinzonf_Diagram_camel_lambda0_0.jpg
              :width: 130px
 
-             Factor: ``0.0``
+             Factor: 0.0
 
         - .. figure:: /images/Apinzonf_Diagram_camel_lambda20_0.jpg
              :width: 130px
 
-             Factor: ``-20.0``
+             Factor: -20.0
 
         - .. figure:: /images/Apinzonf_Diagram_camel_lambda50_0.jpg
              :width: 130px
 
-             Factor: ``-50.0``
+             Factor: -50.0
 
         - .. figure:: /images/Apinzonf_Diagram_camel_lambda300_0.jpg
              :width: 130px
 
-             Factor: ``-300.0``
+             Factor: -300.0
 
 
 Border
@@ -188,7 +188,7 @@ Border
 
 
    .. list-table::
-      (with a *factor* of ``2.5``)
+      with a factor of 2.5
 
       * - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_border0_0.jpg
              :width: 130px
@@ -212,7 +212,7 @@ Border
 
 
    .. list-table::
-      (with a *factor* of ``20.0``)
+      with a factor of 20.0
 
       * - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_cube_border0_0.jpg
              :width: 130px
@@ -236,7 +236,7 @@ Border
 
 
    .. list-table::
-      (with a *factor* of ``-30.0``)
+      with a factor of -30.0
 
       * - .. figure:: /images/Apinzonf_Diagram_cup_border0_0.jpg
              :width: 130px

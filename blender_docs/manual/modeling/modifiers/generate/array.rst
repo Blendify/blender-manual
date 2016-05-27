@@ -101,8 +101,8 @@ Distance
 Start Cap / End Cap
    This allows either endpoints of the array to have a different mesh subsisted.
 
-   For the *start*: as if it was in position ``-1``, i.e. one "array step" before the first "regular" array copy.
-   For the *end*: as if it was in position ``n+1``, i.e. one "array step" after the last "regular" array copy.
+   For the *start*: as if it was in position -1, i.e. one "array step" before the first "regular" array copy.
+   For the *end*: as if it was in position *n* + 1, i.e. one "array step" after the last "regular" array copy.
 
    When *Merge* is activated, and the *cap* vertices are within the distance threshold, they will be merged.
 
@@ -120,8 +120,8 @@ Offset Calculation
 The transformation applied from one copy to the next is calculated as the sum of the three
 different components (*Relative*, *Constant* and *Object*),
 all of which can be enabled/disabled independently of the others. This allows, for example,
-a relative offset of ``1.0, 0.0, 0.0`` and a constant offset of ``0.1, 0.0, 0.0``,
-giving an array of objects neatly spaced along the X axis with a constant ``0.1``
+a relative offset of (1.0, 0.0, 0.0) and a constant offset of (0.1, 0.0, 0.0),
+giving an array of objects neatly spaced along the X axis with a constant 0.1
 units between them, whatever the original object's size.
 
 

@@ -28,7 +28,7 @@ Dupli
    When enabled, will keep the original selected elements as separated islands in the mesh
    (i.e. unlinked to the result of the spin extrusion).
 Angle
-   specifies the angle "swept" by this tool, in degrees (e.g. set it to ``180`` for half a turn).
+   specifies the angle "swept" by this tool, in degrees (e.g. set it to 180 for half a turn).
 Center
    Specifies the center of the spin. By default it uses the cursor position.
 Axis

@@ -47,10 +47,10 @@ Width
 Segments
    The number of edge loops added along the bevel's face.
 Profile
-   The shape of the bevel, from concave to convex - has no effect if *Segments* is less than ``2``.
+   The shape of the bevel, from concave to convex - has no effect if *Segments* is less than 2.
 Material
    The index of the material slot to use for the bevel.
-   When set to ``-1``, the material of the nearest original face will be used.
+   When set to -1, the material of the nearest original face will be used.
 Only Vertices
    When enabled, only the areas near vertices are beveled; the edges are left unbeveled.
 
@@ -75,11 +75,11 @@ Limit Method
       Intended to allow you to bevel only the sharp edges of an object without affecting its smooth surfaces.
    Weight
       Use each edge's bevel weight to determine the width of the bevel.
-      When the bevel weight is ``0.0``, no bevel is applied.
+      When the bevel weight is 0.0, no bevel is applied.
       See :doc:`here </modeling/meshes/editing/edges>` about adjusting bevel weights.
    Vertex Group
       Use weights from a vertex group to determine the width of the bevel.
-      When the vertex weight is ``0.0``, no bevel is applied.
+      When the vertex weight is 0.0, no bevel is applied.
       An edge is only beveled if both of its vertices are in the vertex group.
       See :doc:`here </modeling/meshes/vertex_groups/vertex_groups>` about adjusting vertex group weights.
 

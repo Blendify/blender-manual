@@ -21,7 +21,7 @@ Options
 Thickness
    The depth or size of the wireframes.
 Offset
-   A value between ``-1`` and ``1`` to change whether the wireframes are
+   A value between (-1 to 1) to change whether the wireframes are
    generated inside or outside the original mesh.
    Set to zero, *Offset* will center the wireframes around the original edges.
 Vertex Group
@@ -43,7 +43,7 @@ Crease Edges
    Enable this option to crease edges on their junctions and prevent large curved intersections.
 
    Crease Weight
-      Define how much crease (between ``0`` = no and ``1`` = full) the junctions should receive.
+      Define how much crease (0 to 1) (no to full) the junctions should receive.
 Even Thickness
    Maintain thickness by adjusting for sharp corners. Sometimes improves quality but also increases computation time.
 Relative Thickness

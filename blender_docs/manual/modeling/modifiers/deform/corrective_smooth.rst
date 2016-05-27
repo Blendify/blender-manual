@@ -37,7 +37,7 @@ Internally this modifier uses smoothing, so some of the options adjust the kind 
 Factor
    The factor to control the smoothing amount.
    Higher values will increase the effect.
-   Values outside this range (above ``1.0`` or below ``0.0``) distort the mesh.
+   Values outside this range (above 1.0 or below 0.0) distort the mesh.
 Repeat
    The number of smoothing iterations.
    Higher values generally improve the quality of the smoothing, but the operation is slowed down.

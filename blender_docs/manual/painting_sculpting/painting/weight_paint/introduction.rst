@@ -421,7 +421,7 @@ Restrict
    (even with weight 0) to the selected vertex group.
 X-mirror
    Use the X-mirror option for mirrored painting on groups that have symmetrical names,
-   like with extension ``.R`` / ``.L``, or ``_R`` / ``_L``.
+   like with extension ".R"/ ".L" or "_R" / "_L".
    If a group has no mirrored counterpart, it will paint symmetrically on the active group itself.
    You can read more about the naming convention in
    :doc:`Editing Armatures: Naming conventions </rigging/armatures/editing/properties>`.
@@ -435,7 +435,9 @@ Show Zero Weights
    - Active
    - All
 
-**Unified Settings:**
+Unified Settings
+----------------
+
 The *Size*, *Strength* and *Weight* of the brush can be set to
 be shared across different brushes, as opposed to per-brush.
 
@@ -482,7 +484,7 @@ To modify automatically assigned weights, jump into the middle of the process wh
   (located in the *Editing* context, *Modifiers* panel).
   Enter the name of the armature.
 
-*Pick up here for modifying automatically assigned weights.*
+Pick up here for modifying automatically assigned weights.
 
 
 - Select the armature in 3D View, and bring the armature to *Pose mode*

@@ -48,7 +48,7 @@ including the "blue" font that has been applied to a curve path.
 
 .. note::
 
-   A maximum of ``50000`` characters is allowed per text object; however,
+   A maximum of 50000 characters is allowed per text object; however,
    be forewarned that the more characters a single text object has,
    the slower the object will respond interactively.
 
@@ -246,7 +246,7 @@ Loading and Changing Fonts
 
 Blender comes with a *built-in* font by default and is displayed in each of the four font
 style choosers.
-The *built-in* font is always present and shows in this list as ``Bfont``.
+The *built-in* font is always present and shows in this list as "Bfont".
 The first icon contains a drop-down list displaying currently loaded fonts.
 Select one for each font style.
 
@@ -309,7 +309,7 @@ so let's detail it:
 
 - First, you must create your chars. Each char, of any type,  is an object (mesh, curve, meta...).
   They all must have a name following the schema:
-  ``common prefix`` followed by the ``char name`` (e.g. ``ft.a``, ``ft.b``, etc.).
+  *common prefix* followed by the *char name* (e.g. "ft.a", "ft.b", etc.).
 - Then, for the *Text* object, you must enable the *Dupli Verts* button
   (*Object* context - *Anim Settings* panel).
 - Back in *Editing* context, in the *Font* panel,
@@ -447,7 +447,7 @@ Character
 Word
    A factor by which whitespace between words is scaled in width.
    You can also control it by pressing :kbd:`Alt-Left` or :kbd:`Alt-Right`
-   to decrease/increase spacing by steps of ``0.1``.
+   to decrease/increase spacing by steps of 0.1 .
 Line
    A factor by which the vertical space between lines is scaled.
 
