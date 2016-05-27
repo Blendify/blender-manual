@@ -23,8 +23,8 @@ While not common practice, Python add-ons can be distributed with their own pre-
 Unlike regular Python scripts, these are not portable between different platforms.
 
 It is possible the library is incompatible with your Blender installation
-*(attempting to load a library built for a different version of Python,
-or loading a 32-bit library on a 64-bit system)*.
+(attempting to load a library built for a different version of Python,
+or loading a 32-bit library on a 64-bit system).
 
 If the add-on contains ``.pyd`` or ``.so`` files,
 check that the distribution is compatible with your operating system.

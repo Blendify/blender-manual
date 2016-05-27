@@ -43,25 +43,27 @@ General Options
    The Convert to Curve options.
 
 
-Stroke's width will be used to set the curve's control points' radii and weights
-(**not** NURBS weights, but those used e.g. as goal by the softbody simulation...).
-The default behavior is to get strokes' width
-(as defined in its settings - and which might have been modulated by the pen pressure),
-to multiply it by a given constant (0.1), and to assign it directly to weights.
-Radii get the same value scaled by the *Radius Fac* factor (e.g.
-with a factor of 10.0, a stroke width of 3 will give radii of 3.0 ...).
-
-*Normalize Weight* (enabled by default)
-will scale weights value so that they tightly fit into the ``[0.0, 1.0]`` range.
-
-All this means that with a pressure tablet,
-you can directly control the radius and weight of the created curve, which can affect e.g.
-the width of an extrusion, or the size of an object through a *Follow Path*
-constraint or *Curve* modifier!
-
-*Link Strokes* (enabled by default) will create a single spline (i.e. curve element)
-from all strokes in active grease pencil layer. This especially useful if you want to use the curve as a path.
-All the strokes are linked in the curve by "zero weights/radii" sections.
+Stroke width 
+   Will be used to set the curve's control points' radii and weights
+   (**not** NURBS weights, but those used e.g. as goal by the softbody simulation...).
+   The default behavior is to get strokes' width
+   (as defined in its settings - and which might have been modulated by the pen pressure),
+   to multiply it by a given constant (0.1), and to assign it directly to weights.
+   Radii get the same value scaled by the *Radius Fac* factor (e.g.
+   with a factor of 10.0, a stroke width of 3 will give radii of 3.0 ...).
+   
+Normalize Weight
+   Will scale weights value so that they tightly fit into the (0.0 to 1.0) range. (enabled by default)
+   
+   All this means that with a pressure tablet,
+   you can directly control the radius and weight of the created curve, which can affect e.g.
+   the width of an extrusion, or the size of an object through a *Follow Path*
+   constraint or *Curve* modifier!
+   
+Link Strokes
+   Will create a single spline, i.e. curve element. (enabled by default) 
+   from all strokes in active grease pencil layer. This especially useful if you want to use the curve as a path.
+   All the strokes are linked in the curve by "zero weights/radii" sections.
 
 
 Timing

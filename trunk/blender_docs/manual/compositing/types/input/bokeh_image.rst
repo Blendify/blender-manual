@@ -17,7 +17,7 @@ and lens distortions which have important impacts on bokeh in real cameras.
 
 The first three settings simulate the aperture of the camera. Flaps set an integer number of blades for the cameras
 iris diaphragm. Angle gives these blades an angular offset relative to the image plane and Rounding sets the curvature
-of the blades with a ``0`` being straight and ``1`` bringing them to a perfect circle.
+of the blades with  (0 to 1) from straight to bringing them to a perfect circle.
 
 Catadioptric provides a type of distortion found in mirror lenses and some telescopes.
 This can be useful to produce a 'busy' bokeh.

@@ -113,7 +113,7 @@ Manipulator
 Size
    Diameter of the manipulator.
 Handle Size
-   Size of manipulator handles, as a percentage of the manipulator radius (``size / 2``).
+   Size of manipulator handles, as a percentage of the manipulator radius (*size*/ 2).
 Hotspot
    Hotspot size (in pixels) for clicking the manipulator handles.
 
