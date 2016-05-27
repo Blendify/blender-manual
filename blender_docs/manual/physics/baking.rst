@@ -33,8 +33,8 @@ External
    Index Number
       This number specifies which cache should be used
       when the specified cache directory contains `multiple caches`_.
-      `0` refers to the top-most cache, `1` to the second from the top,
-      `2` to the third, and so on.
+      ``0`` refers to the top-most cache, ``1`` to the second from the top,
+      ``2`` to the third, and so on.
 
 Use Lib Path
    Share the disk cache when the physics object is

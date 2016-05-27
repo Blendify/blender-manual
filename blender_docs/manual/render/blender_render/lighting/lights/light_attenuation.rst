@@ -38,25 +38,25 @@ This lamp falloff type is in effect allowing the mixing of the two light attenua
 Linear
 ^^^^^^
 
-This slider input field can have a value between ``0.0`` and ``1.0``.
-A value of ``1.0`` in the *Linear* field and ``0.0`` in the
+This slider input field can have a value between (0.0 to 1.0).
+A value of 1.0 in the *Linear* field and 0.0 in the
 *Quadratic* field in effect means that the light from this source is completely
 linear. This means that at the number of Blender Units distance specified in the
 *Distance* field,
 this light source's intensity will be half the value it was originally.
 
-When the *Quadratic* slider is set to ``0.0``, the formula for working out the
+When the *Quadratic* slider is set to 0.0, the formula for working out the
 attenuation at a particular range for full linear attenuation is:
 
-``I = E × (D / (D + L × r))``
+*I* = *E* × (*D* / (*D* + *L* × *r*))
 
 Where
 
-- ``I`` is the calculated Intensity of light.
-- ``E`` is the current *Energy* slider setting.
-- ``D`` is the current setting of the *Dist* field.
-- ``L`` is the current setting of the *Linear* slider.
-- ``r`` is the distance from the lamp where the light intensity gets measured.
+- *I* is the calculated Intensity of light.
+- *E* is the current *Energy* slider setting.
+- *D* is the current setting of the *Dist* field.
+- *L* is the current setting of the *Linear* slider.
+- *r* is the distance from the lamp where the light intensity gets measured.
 
 
 Quadratic
@@ -68,8 +68,8 @@ Quadratic
    Lamp with Lin/Quad Weighted falloff default settings
 
 
-This slider input field can have a value between ``0.0`` and ``1.0``. A value of ``1.0``
-in the *Quadratic* field and ``0.0`` in the *Linear* field means that
+This slider input field can have a value between (0.0 to 1.0). A value of 1.0
+in the *Quadratic* field and 0.0 in the *Linear* field means that
 the light from this source is completely quadratic.
 
 Quadratic attenuation type lighting is considered a more accurate representation of how light
@@ -84,18 +84,18 @@ the intensity decays much slower at distances lower than the set *Distance*,
 but it attenuates much quicker after *Distance* is reached.
 
 
-When the *Linear* slider is set to ``0.0``, the formula for working out the
+When the *Linear* slider is set to 0.0, the formula for working out the
 attenuation at a particular range for full quadratic attenuation is:
 
-``I = E × (D``:sup:`2` ``/ (D``:sup:`2` ``+ Q × r``:sup:`2` ``))``
+*I* = *E* × (*D*\ :sup:`2`\ / (*D*\ :sup:`2`\ + *Q* × *r*\ :sup:`2`\))
 
 Where
 
-- ``I`` is the calculated Intensity of light.
-- ``E`` is the current *Energy* slider setting.
-- ``D`` is the current setting of the *Dist* field.
-- ``Q`` is the current setting of the *Quad* slider.
-- ``r`` is the distance from the lamp where the light intensity gets measured.
+- *I* is the calculated Intensity of light.
+- *E* is the current *Energy* slider setting.
+- *D* is the current setting of the *Dist* field.
+- *Q* is the current setting of the *Quad* slider.
+- *r* is the distance from the lamp where the light intensity gets measured.
 
 
 Mixing "Linear" and "Quad"
@@ -104,22 +104,22 @@ Mixing "Linear" and "Quad"
 If both the *Linear* and *Quad* slider fields have values greater than
 ``0.0``, then the formula used to calculate the light attenuation profile changes to this:
 
-``I = E × (D / (D + L × r)) × (D``:sup:`2` ``/ (D``:sup:`2` ``+ Q × r``:sup:`2` ``))``
+*I* = *E* × (*D* / (*D* + *L* × *r*)) × (*D*:sup:`2`/ (*D*:sup:`2` + *Q* × *r*:sup:`2`))
 
 Where
 
-- ``I`` is the calculated Intensity of light.
-- ``E`` is the current *Energy* slider setting.
-- ``D`` is the current setting of the *Dist* field.
-- ``L`` is the current setting of the *Linear* slider.
-- ``Q`` is the current setting of the *Quad* slider.
-- ``r`` is the distance from the lamp where the light intensity gets measured.
+- *I* is the calculated Intensity of light.
+- *E* is the current *Energy* slider setting.
+- *D* is the current setting of the *Dist* field.
+- *L* is the current setting of the *Linear* slider.
+- *Q* is the current setting of the *Quad* slider.
+- *r* is the distance from the lamp where the light intensity gets measured.
 
 
 Zeroing both "Linear" and "Quad"
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-If both the *Linear* and *Quadratic* sliders have ``0.0`` as their
+If both the *Linear* and *Quadratic* sliders have 0.0 as their
 values, the light intensity will not attenuate with distance.
 This does not mean that the light will not get darker - it will,
 but only because the energy the light has is spread out over a wider and wider distance.
@@ -131,7 +131,7 @@ If what you want is a light source that doesn't attenuate and gives the same amo
 intensity to each area it hits,
 you need a light with properties like the *Constant* lamp *Falloff* type.
 
-Also, when the *Linear* and *Quad* sliders are both ``0.0`` values the
+Also, when the *Linear* and *Quad* sliders are both 0.0 values the
 *Distance* field ceases to have any influence on the light attenuation,
 as shown by the equation above.
 
@@ -162,7 +162,7 @@ profile graph allows the user to alter how intense light is at a particular poin
 light's attenuation profile (i.e. at a specific distance from the light source).
 
 The *Falloff Curve* profile graph has two axes,
-the ``Distance`` axis and the ``Intensity`` axis.
+the Distance-axis and the Intensity-axis.
 
 Distance axis
    It represents the position at a particular point along a light source's attenuation path.
@@ -251,8 +251,8 @@ This lamp falloff type attenuates its intensity according to inverse square law,
 scaled by the *Distance* value. Inverse square is a sharper, realistic decay,
 useful for lighting such as desk lamps and street lights.
 This is similar to the old *Quad* option (and consequently, to the new
-*Lin/Quad Weighted* option with *Linear* to ``0.0`` and *Quad*
-to ``1.0``), with slight changes.
+*Lin/Quad Weighted* option with *Linear* to 0.0 and *Quad*
+to 1.0), with slight changes.
 
 
 Inverse Linear
@@ -267,8 +267,8 @@ Inverse Linear
 This lamp falloff type attenuates its intensity linearly,
 scaled by the *Dist* value. This is the default setting, behaving the same as the
 default in previous Blender versions without *Quad* switched on, and consequently,
-like the new *Lin/Quad Weighted* option with *Linear* to ``1.0`` and
-*Quad* to ``0.0``. This isn't physically accurate,
+like the new *Lin/Quad Weighted* option with *Linear* to 1.0 and
+*Quad* to 0.0. This isn't physically accurate,
 but can be easier to light with.
 
 
@@ -307,14 +307,14 @@ indicating the demarcation point at which this light intensity will be null.
 
 The *Sphere* option adds a term to the chosen attenuation law, whatever it is:
 
-``I' = I × (D - r) / D`` *if* ``r < D; 0`` *otherwise*
+*I'* = *I* × (*D* - *r*) / *D* if *r* < *D*; 0 otherwise
 
 Where:
 
-- ``I'`` is the required Intensity of light (with the *Sphere* option activated).
-- ``I`` is the intensity of light calculated by the chosen attenuation law (without the *Sphere* option).
-- ``D`` is the current setting of the *Dist* field.
-- ``r`` is the distance from the lamp where the light intensity gets measured.
+- *I'* is the required Intensity of light (with the *Sphere* option activated).
+- *I* is the intensity of light calculated by the chosen attenuation law (without the *Sphere* option).
+- *D* is the current setting of the *Dist* field.
+- *r* is the distance from the lamp where the light intensity gets measured.
 
 See the graphic at the end of the description of the *Lin/Quad Weighted* attenuation
 option.
@@ -370,12 +370,12 @@ light's intensity has fallen to half its strength in all directions.
 Note that the light's intensity continues to fall even after *Distance*.
 *Distance* just specifies the distance where half of the light's energy has weakened.
 
-Notice in (*Distance* *:* ``1000``) that the farthest objects are very bright.
+Notice in Fig. Distance: 1000, that the farthest objects are very bright.
 This is because the falloff has been extended far into the distance,
 which means the light is very strong when it hits the last few objects. It is not until
-``1000`` units that the light's intensity has fallen to half of its original intensity.
+1000 units that the light's intensity has fallen to half of its original intensity.
 
-Contrast this with (*Distance* *:* ``10``),
+Contrast this with Fig. Distance: 10,
 where the falloff occurs so soon that the farther objects are barely lit.
 The light's intensity has fallen by a half by time it even reaches the tenth object.
 
@@ -391,11 +391,11 @@ Inverse Square Example
 *Inverse Square* makes the light's intensity falloff with a non-linear rate, or specifically, a quadratic rate.
 The characteristic feature of using *Inverse Square* is that the light's intensity begins to
 fall off very slowly but then starts falling off very rapidly.
-We can see this in the (*Inverse Square* *selected*) images.
+We can see this in the Fig. Inverse Square selected images.
 
 
 .. list-table::
-   *Inverse Square* selected (with the specified distances).
+   Inverse Square selected (with the specified distances).
 
    * - .. figure:: /images/LampRender-Quad10.jpg
 
@@ -413,11 +413,11 @@ With *Inverse Square* selected,
 the *Distance* field specifies where the light begins to fall off faster, roughly speaking; see the light attenuation
 description in `Falloff types`_ for more info.
 
-In (*Inverse Square* *with* ``10``),
+In Fig. Inverse Square with 10,
 the light's intensity has fallen so quickly that the last few objects aren't even lit.
 
-Both (*Inverse Square* *with* ``100``) and
-(*Inverse Square* *with* ``1000``) appear to be almost identical and that is
+Both Fig. Inverse Square with 100 and
+Fig. Inverse Square with 1000 appear to be almost identical and that is
 because the *Distance* is set beyond the farthest object's distance which is at
 about 40 BU out. Hence, all the objects get almost the full intensity of the light.
 
@@ -439,7 +439,7 @@ Sphere Example
 
 *Sphere* indicates that the light's intensity is null at the *Distance* distance and beyond,
 regardless of the chosen light's falloff.
-In Fig. Clipping Sphere you can see a side view example of the setup with *Sphere* enabled and a distance of ``10``.
+In Fig. Clipping Sphere you can see a side view example of the setup with *Sphere* enabled and a distance of 10.
 
 Any objects beyond the sphere receive no light from the lamp.
 
@@ -450,7 +450,7 @@ the light attenuation is progressive
 (for more details, see the descriptions of the `Sphere`_ and `Falloff types`_ above).
 
 .. list-table::
-   *Sphere* enabled with the specified distances, *Inverse Linear* light falloff.
+   Sphere enabled with the specified distances, Inverse Linear light falloff.
 
    * - .. figure:: /images/LampRender-Sphere10.jpg
 
@@ -465,17 +465,17 @@ the light attenuation is progressive
           Sphere with 40.
 
 
-In (*Sphere* *with* ``10``), the clipping sphere's radius is ``10`` units,
-which means the light's intensity is also being controlled by ``10`` units of distance.
+In Fig. Sphere with10, the clipping sphere's radius is 10 units,
+which means the light's intensity is also being controlled by 10 units of distance.
 With a linear attenuation,
 the light's intensity has fallen very low even before it gets to the first object.
 
-In (*Sphere* *with* ``20``),
+In Fig. Sphere with 20,
 the clipping sphere's radius is now 20 BU and some light is reaching the middle objects.
 
-In (*Sphere* *with* ``40``), the clipping sphere's radius is now ``40`` units,
+In Fig. Sphere with 40, the clipping sphere's radius is now 40 units,
 which is beyond the last object. However, the light doesn't make it to the last few objects
-because the intensity has fallen to nearly ``0``.
+because the intensity has fallen to nearly 0.
 
 .. hint::
 

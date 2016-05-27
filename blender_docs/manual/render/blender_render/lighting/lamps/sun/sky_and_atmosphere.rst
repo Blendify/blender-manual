@@ -27,8 +27,8 @@ and you will see.
 To enable this effect, you have to use a *Sun* light source. If, as usual,
 the *position* of the lamp has no importance, its *rotation* is crucial:
 it determines which hour it is. As a starting point,
-you should reset rotation of your *Sun* (with :kbd:`Alt-R`, or typing ``0``
-in each of the three *Rotation* fields *X* / *Y* / *Z* in
+you should reset rotation of your *Sun* (with :kbd:`Alt-R`, or typing :kbd:`0`
+in each of the three *Rotation* fields *X*, *Y*, *Z* in
 the *Transform Properties* panel - :kbd:`N`). This way,
 you'll have a nice mid-day sun (in the tropics).
 
@@ -103,31 +103,31 @@ Color space
    - SMPTE
    - Exposure
 
-   This numeric field allows you to modify the exposure of the rendered Sky and Sun (``0.0`` for no correction).
+   This numeric field allows you to modify the exposure of the rendered Sky and Sun (0.0 for no correction).
 
 Horizon
    Brightness
-      Controls brightness of colors at the horizon. Its value should be in the range ``0.0`` to ``10.0``;
+      Controls brightness of colors at the horizon. Its value should be in the range (0.0 to 10.0);
       values near zero means no horizontal brightness,
       and large values for this parameter increase horizon brightness.
       See examples below.
    Spread
-      Controls spread of light at the horizon. Its value should be in the range ``0.0`` to ``10.0``;
+      Controls spread of light at the horizon. Its value should be in the range (0.0 to 10.0);
       values low in the range result in less spread of light at horizon,
       and values high in the range result in horizon light spread in through all the sky.
 
 Sun
    Brightness
-      Controls the sun brightness. Its value should be in the range ``0.0`` to ``10.0``;
+      Controls the sun brightness. Its value should be in the range (0.0 to 10.0);
       with low values the sky has no sun and with high values the sky only has sun.
    Size
-      Controls the size of sun. Its values should be in the range ``0.0`` to ``10.0``,
+      Controls the size of sun. Its values should be in the range (0.0 to 10.0),
       but note that low values result in large sun size, and high values result in small sun size.
       Note that the overall brightness of the sun remains constant (set by *Brightness*),
       so the larger the sun (the smaller *Size*), the more it "vanishes" in the sky, and *vice versa*.
    Back Light
       For "Back Scatter Light", result on sun's color, high values result in more light around the sun.
-      Its values range is ``-1.0`` to ``1.0``. Negative values result in less light around sun.
+      Its values range is (-1.0 to 1.0). Negative values result in less light around sun.
 
 
 Atmosphere
@@ -139,20 +139,20 @@ Atmosphere
    scattering of the sunlight in the atmosphere, its attenuation, ...
 Intensity
    Sun
-      Sets sun intensity. Its values are in range ``0.0`` to ``10.0``.
+      Sets sun intensity. Its values are in range (0.0 to 10.0).
       High values result in bluer light on far objects.
    Distance
       This factor is used to convert Blender units into an understandable unit for atmosphere effect,
-      it starts from ``0`` and high values result in more yellow light in the scene.
+      it starts from 0 and high values result in more yellow light in the scene.
 Scattering
    Inscattering
       This factor can be used to decrease the effect of light inscattered
       into atmosphere between the camera and objects in the scene.
-      This value should be ``1.0`` but can be changed to create some nice, but not realistic, images.
+      This value should be 1.0 but can be changed to create some nice, but not realistic, images.
    Extinction
       This factor can be use to decrease the effect of extinction light from objects in the scene.
-      Like *Inscattering* factor, this parameter should be ``1.0`` but you can change it;
-      low values result in less light extinction. Its value is in the range ``0.0`` to ``1.0``.
+      Like *Inscattering* factor, this parameter should be 1.0 but you can change it;
+      low values result in less light extinction. Its value is in the range (0.0 to 1.0).
 
 
 Examples
@@ -162,7 +162,7 @@ First, let's see what happens when we modify the orientation of the sun:
 
 
 .. list-table::
-   Variations in *Sun* orientation, *Sun Size* to ``5.0``, all other settings to default.
+   Variations in Sun orientation, Sun Size to 5.0, all other settings to default.
 
    * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-midday.jpg
           :width: 200px
@@ -193,7 +193,7 @@ And now, the effects of various settings (examples created with
 
 
 .. list-table::
-   Variations in *Turbidity* parameter, all other settings to default.
+   Variations in Turbidity parameter, all other settings to default.
 
    * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-backlight1_0.jpg
           :width: 200px
@@ -220,7 +220,7 @@ Sky
 ===
 
 .. list-table::
-   Variations in *Horizon Brightness* parameter, all other settings to default.
+   Variations in Horizon Brightness parameter, all other settings to default.
 
    * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-hor_bright0_0.jpg
           :width: 200px
@@ -244,7 +244,7 @@ Sky
 
 
 .. list-table::
-   Variations in *Horizon Spread* parameter, all other settings to default.
+   Variations in Horizon Spread parameter, all other settings to default.
 
    * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-hor_spread0_7.jpg
           :width: 200px
@@ -268,7 +268,7 @@ Sky
 
 
 .. list-table::
-   Variations in *Sun Brightness* parameter, all other settings to default.
+   Variations in Sun Brightness parameter, all other settings to default.
 
    * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-sun_bright0_2.jpg
           :width: 200px
@@ -292,7 +292,7 @@ Sky
 
 
 .. list-table::
-   Variations in *Sun Size* parameter, all other settings to default.
+   Variations in Sun Size parameter, all other settings to default.
 
    * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-sun_size2_0.jpg
           :width: 200px
@@ -316,7 +316,7 @@ Sky
 
 
 .. list-table::
-   Variations in *Back Light* parameter, *Sun Bright* to ``2.5``, all other settings to default.
+   Variations in Back Light parameter, Sun Bright to 2.5, all other settings to default.
 
    * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-backlight-1_0.jpg
           :width: 200px
@@ -342,12 +342,12 @@ Sky
 Atmosphere
 ==========
 
-For all renders below, *Hor.Bright* is set to ``0.2``,
-and *Sun Bright* to ``2.0``.
+For all renders below, *Hor.Bright* is set to 0.2,
+and *Sun Bright* to 2.0.
 
 
 .. list-table::
-   Variations in *Sun Intensity* parameter, all other settings to default.
+   Variations in Sun Intensity parameter, all other settings to default.
 
    * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-inscattering0_1.jpg
           :width: 200px
@@ -371,7 +371,7 @@ and *Sun Bright* to ``2.0``.
 
 
 .. list-table::
-   Variations in *Inscattering* parameter, all other settings to default.
+   Variations in Inscattering parameter, all other settings to default.
 
    * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-inscattering0_1.jpg
           :width: 200px
@@ -395,7 +395,7 @@ and *Sun Bright* to ``2.0``.
 
 
 .. list-table::
-   Variations in *Extinction* parameter, all other settings to default.
+   Variations in Extinction parameter, all other settings to default.
 
    * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-extinction0_0.jpg
           :width: 200px
@@ -419,7 +419,7 @@ and *Sun Bright* to ``2.0``.
 
 
 .. list-table::
-   Variations in *Distance* parameter, all other settings to default.
+   Variations in Distance parameter, all other settings to default.
 
    * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-distance1_0.jpg
           :width: 200px

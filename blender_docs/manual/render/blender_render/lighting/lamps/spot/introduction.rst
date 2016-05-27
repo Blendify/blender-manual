@@ -78,12 +78,11 @@ Ray Shadow
 Spot Shape
 ==========
 
-*Size*
-
+Size
    The size of the outer cone of a *Spot*,
    which largely controls the circular area a *Spot* light covers.
    This slider in fact controls the angle at the top of the lighting cone,
-   and can be between ``1.0- `` and ``180.0``.
+   and can be between (1.0 to 180.0).
 
 
    .. list-table::
@@ -98,7 +97,7 @@ Spot Shape
 
 Blend
    The *Blend* slider controls the inner cone of the *Spot*.
-   The *Blend* value can be between ``0.0`` and ``1.0``.
+   The *Blend* value can be between (0.0 to 1.0).
    The value is proportional and represents that amount of space that the inner cone should
    occupy inside the outer cone *Size*.
 
@@ -109,7 +108,7 @@ Blend
 
    To make the *Spot* have a sharper falloff rate and therefore less blurred/soft edges,
    decrease the value of *Blend*.
-   Setting *Blend* to ``0.0`` results in very sharp spotlight edges, without any transition between light and shadow.
+   Setting *Blend* to 0.0 results in very sharp spotlight edges, without any transition between light and shadow.
 
    The falloff rate of the *Spot* lamp light is a ratio between the *Blend* and *Size* values;
    the larger the circular gap between the two, the more gradual the light fades between *Blend* and *Size*.

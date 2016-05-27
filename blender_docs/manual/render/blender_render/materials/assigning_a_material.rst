@@ -72,7 +72,7 @@ Material are as follows:
 
 Name
    Like other data-blocks, Blender will automatically set the name of the new material to
-   ``Material``, ``Material.001`` and so on.
+   "Material", "Material.001" and so on.
    You can change this by over-typing with your own choice of name.
 Number of Users
    Specifies the number of meshes which use this material.

@@ -40,16 +40,16 @@ Samples
    Number of extra samples taken (samples x samples).
    This slider sets the maximum number of samples that both *Constant QMC* and *Adaptive QMC*
    will use to do their shadow calculations.
-   The maximum value is ``16`` - the real number of samples is actually the square of it,
-   so setting a sample value of ``3`` really means ``3``:sup:`2` ``=`` ``9`` samples will be taken.
+   The maximum value is 16: the real number of samples is actually the square of it,
+   so setting a sample value of 3 really means 3\ :sup:`2`\ = 9 samples will be taken.
 Soft Size
    Light size for ray shadow sampling.
    This slider determines the size of the fuzzy/diffuse/penumbra area around the edge of a shadow.
    *Soft Size* only determines the width of the soft shadow size, not how graded and smooth the shadow is.
    If you want a wide shadow which is also soft and finely graded,
-   you must also set the number of samples in the *Samples* field higher than ``1``;
+   you must also set the number of samples in the *Samples* field higher than 1;
    otherwise this field has no visible effect and the shadows generated will not have a soft edge.
-   The maximum value for *Soft Size* is ``100.0``.
+   The maximum value for *Soft Size* is 100.0.
 
 
    Below is a table of renders with different *Soft Size* and *Samples* settings showing the
@@ -116,7 +116,7 @@ Threshold
    This field is used with the *Adaptive QMC* shadow calculation method.
    The value is used to determine if the *Adaptive QMC* shadow sample
    calculation can be skipped based on a threshold of how shadowed an area is already.
-   The maximum *Threshold* value is ``1.0``.
+   The maximum *Threshold* value is 1.0.
 
 
 .. _render-blender_internal-quasi_monte_carlo:

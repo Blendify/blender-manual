@@ -216,7 +216,7 @@ Octaves
    The "level of detail" of the noise.
 
 Angle
-   In which direction the noise is applied (``0.0`` is fully horizontal).
+   In which direction the noise is applied (0.0 is fully horizontal).
 
 
 Perlin Noise 2D

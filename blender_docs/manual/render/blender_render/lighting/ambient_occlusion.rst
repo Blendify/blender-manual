@@ -32,7 +32,7 @@ You must have ray tracing enabled as a *Render* panel option in the
 You must have an ambient light color set as you desire. By default, the ambient light color
 (world) is black, simulating midnight in the basement during a power outage.
 Applying that color as ambient will actually darken all colors.
-A good outdoor mid-day color is RGB (``0.9``, ``0.9``, ``0.8``)
+A good outdoor mid-day color is RGB(0.9, 0.9, 0.8)
 which is a whitish yellow sunny kind of color on a bright-but-not-harshly-bright day.
 
 
@@ -101,9 +101,9 @@ Attenuation
    Samples
       The number of rays used to detect if an object is occluded.
       Higher numbers of samples give smoother and more accurate results, at the expense of slower render times.
-      The default value of ``5`` is usually good for previews.
+      The default value of 5 is usually good for previews.
       The actual number of rays shot out is the square of this number (i.e.
-      *Samples* at ``5`` means ``25`` rays). Rays are shot at the hemisphere according to a random pattern
+      *Samples* at 5 means 25 rays). Rays are shot at the hemisphere according to a random pattern
       (determined by the sample methods described above); this causes differences in the occlusion pattern of
       neighboring pixels unless the number of shot rays is big enough to produce good statistical data.
 
@@ -158,7 +158,7 @@ Attenuation
       Bias
          The angle (in radians) the hemisphere will be made narrower
          (i.e. the hemisphere will no longer be a real hemisphere: its section will no longer be a semicircle,
-         but an arc of a circle of ``pi - bias`` radians).
+         but an arc of a circle of: pi - *bias* radians).
 
 
          The bias setting allows you to control how smooth "smooth" faces will appear in AO rendering.
@@ -201,19 +201,19 @@ This method seems to tend to "over-occlude" the results.
 You have two complementary options to reduce this problem:
 
 Passes
-   Set the number of pre-processing passes, between ``0`` (no pre-processing) to ``10``.
+   Set the number of pre-processing passes, between (0 to 10) passes.
    Keeping the pre-processing passes high will increase render time
    but will also clear some artifacts and over-occlusions.
 Error
    This is the tolerance factor for approximation error
    (i.e. the max allowed difference between approximated result and fully computed result).
    The lower, the slower the render, but the more accurate the results...
-   Ranges between ``0.0`` and ``10.0``, defaults to ``0.250``.
+   Ranges between (0.0 to 10.0), defaults to 0.250.
 Pixel Cache
    When enabled, it will keep values of computed pixels to interpolate it with its neighbors.
    This further speeds up the render, generally without visible loss in quality...
 Correction
-   A correction factor to reduce over-occlusion. Ranges between ``0.0`` (no correction) to ``1.0``.
+   A correction factor to reduce over-occlusion. Ranges between (0.0 to 1.0) correction.
 
 
 Common Settings
@@ -222,14 +222,14 @@ Common Settings
 Falloff
    When activated, the distance to the occluding objects will influence the "depth" of the shadow.
    This means that the further away the occluding geometry is, the lighter its "shadow" will be.
-   This effect only occurs when the *Strength* factor is higher than ``0.0``.
+   This effect only occurs when the *Strength* factor is higher than 0.0.
    It mimics light dispersion in the atmosphere...
 
    Strength
       Controls the attenuation of the shadows enabled with *Use Falloff*.
       Higher values give a shorter shadow, as it falls off more quickly
       (corresponding to a more foggy/dusty atmosphere).
-      Ranges from ``0.0`` (default, no falloff) to ``10.0``.
+      Ranges from (0.0 to 10.0), default is 0.0, which means no falloff.
 
 
 Technical Details

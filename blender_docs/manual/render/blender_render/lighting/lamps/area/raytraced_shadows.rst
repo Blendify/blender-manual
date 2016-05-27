@@ -54,7 +54,7 @@ Constant Jittered
       Emphasizes the intensity of shadows in the area fully within the shadow rays.
       The light transition between fully shadowed areas and fully lit areas changes more quickly (i.e.
       a sharp shadow gradient).
-      You need *Samples* values equal to or greater than ``2`` to see any influence of this button.
+      You need *Samples* values equal to or greater than 2 to see any influence of this button.
 
    Dither
       Applies a sampling over the borders of the shadows,
@@ -80,20 +80,20 @@ Technical Details
    Principles behind the Area light
 
 
-The (*Principles behind the* *Area* *light*)
+The Fig. Principles behind the Area light
 picture helps to understand how the soft shadows are simulated.
 
-``(a)`` is the *Area* light as defined in Blender. If its shape is *Square*,
+"(a)" is the *Area* light as defined in Blender. If its shape is *Square*,
 then the softness of the shadow is defined by the number of light *Samples* in each direction of the shape.
-For example, ``(b)`` illustrates the equivalent case of an *Area* light
-(*Square* shape), with *Samples* set at ``3`` on the *Shadow and Spot* panel.
+For example, "(b)" illustrates the equivalent case of an *Area* light
+(*Square* shape), with *Samples* set at 3 on the *Shadow and Spot* panel.
 
 The *Area* lamp is then considered as a grid with a resolution of three in each
 direction, and with a light "dupliverted" at each node for a total of nine lights.
 
-In case ``(a)``, the energy (``E``) is ``E/1``, and in case
-``(b)``, the energy of each individual pseudo-light is equal to ``E/
-(Nbr of lights)``. Each pseudo-light produces a faint shadow
+In case "(a)", the energy *E* is *E*/1, and in case "(b)", 
+the energy of each individual pseudo-light is equal to 
+*E*/ (nbr. of lights). Each pseudo-light produces a faint shadow
 (proportional to its energy), and the overlay of the shadows produces the soft shadow
 (it is darker where the individual shadows overlap, and lighter everywhere else).
 
@@ -113,7 +113,7 @@ you are strongly encouraged to use the *Size* button(s) instead.
 
 If your computer isn't very fast,
 when using the *Constant Jittered* sample generator method,
-you could find it useful to set a low *Samples* value (like ``2``)
+you could find it useful to set a low *Samples* value (like 2)
 and activate *Umbra*, *Dither*,
 and/or *Jitter* in order to simulate slightly softer shadows. However,
 these results will never be better than the same lighting with high *Samples* values.

@@ -16,7 +16,7 @@ The color of an object and the lighting of your scene is affected by:
 
 - Your ability to see different colors (partial color blindness is common).
 - The medium in which you are viewing the image (e.g. an LCD panel versus printed glossy paper).
-- The quality of the image (e.g. a JPEG at ``0.4`` compression versus ``1.0``).
+- The quality of the image (e.g. a ``jpeg`` at 0.4 compression versus 1.0).
 - The environment in which you are viewing the image
   (e.g. a CRT monitor with glare versus in a dark room, or in a sunshiny blue room).
 - Your brain's perception of the color and intensity
@@ -96,11 +96,11 @@ Overriding Materials to Reset Lighting
 If you have started down the road of assigning materials,
 and are now fiddling with the lighting, we suggest that you create a default,
 generic gray material--no *Vertex Color*, no *Face Texture*,
-no *Shadeless*, just plain old middle gray with RGB of (``0.8``, ``0.8``, ``0.8``).
-Name this ``Gray``.
+no *Shadeless*, just plain old middle gray with RGB(0.8, 0.8, 0.8).
+Name this "Gray".
 
 Next go to the *Render* context. In the *Render Layers* panel,
-select your new ``Gray`` material in the *Material* field.
+select your new "Gray" material in the *Material* field.
 This will override any materials you may have set, and render everything with this color.
 Using this material, you can now go about adjusting the lighting.
 Just empty this field to get back to your original materials.

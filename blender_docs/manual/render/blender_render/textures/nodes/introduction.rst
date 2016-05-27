@@ -32,7 +32,7 @@ or the *New* button in the texture panel. Once you have a texture selected, you 
 toggle it to function as a regular texture or a node texture by clicking the *Use Nodes* option in the Node Editor.
 
 The default node setup will appear: a red-and-white checkerboard node connected to an
-*Output* named ``Default``. For *texture* nodes,
+*Output* named "Default". For *texture* nodes,
 you can create as many Outputs as you like in your node setup. (Other types of node networks,
 as you may recall, are limited to only one Output node.) See the next section for details.
 
@@ -50,13 +50,13 @@ you would:
 
 - Create two texture slots in the texture list, and set them to the same texture data-block.
 - Add two *Output* nodes to the node tree,
-  and type new names into their *Name* text-boxes: *e.g.* ``Diffuse`` for one and ``Normal`` " for the other.
+  and type new names into their *Name* text-boxes: e.g. "Diffuse" for one and "Normal" for the other.
 - Underneath the texture picker in the texture panel, you'll see a dropdown list with the names of your outputs.
   For each entry in the texture list, select the desired output by changing the menu entry
-  e.g. set on to ``Diffuse`` and the other to ``Normal``).
+  e.g. set on to *Diffuse* and the other to *Normal*).
 
 You can also use these named outputs if you've decided to define your material using Material
 Nodes. In this case, you probably won't be using Texture Channels. Instead, you'll insert
 *Texture* nodes into your Material Node tree using :menuselection:`Add* --> Input --> Texture`.
 Then, inside the texture node that you've just added, you can select which output you want to use
-*(e.g.* ``Diffuse`` or ``Normal``).
+(e.g. *Diffuse* or *Normal*).
