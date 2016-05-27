@@ -103,17 +103,16 @@ chains longer than *Min 2D Length* and/or shorter than *Max 2D Length*.
 Caps
 ----
 
+.. figure:: /images/render-freestyle-Caps_UI.jpg
+   :width: 300px
+
+   Line tip caps.
+
+
 You can choose between three types of line caps:
 
 Butt
    Flat cap, exactly at the point the line ends.
-
-
-.. figure:: /images/render-freestyle-Caps_UI.jpg
-   :width: 300px
-
-   Line tip caps
-
 
 Round
    A half circle centered on the end point of the line.
@@ -129,7 +128,7 @@ Dashed Line
 .. figure:: /images/render-freestyle-Dashes_UI.jpg
    :width: 300px
 
-   Dashes Line UI
+   Dashes Line UI.
 
 
 By enabling the *Dashed Line* check box,
@@ -142,5 +141,3 @@ then the corresponding dash is ignored even if it has a non-zero value.
 
 Dashes are treated as separate strokes, meaning that you can apply line caps,
 as well as color, alpha and thickness modifiers.
-
-..    Comment: <!--The image below shows a few examples of dashed lines on the default cube.--> .

@@ -14,6 +14,7 @@ rotate, or dynamically move.
 
 Special Options: 
 
+
 Motion Type
 ===========
 
@@ -40,11 +41,11 @@ Simple Motion
 .. figure:: /images/gameengine_actuator_motion_simple.jpg
    :width: 271px
 
-   Motion actuator for Simple Motion
+   Motion actuator for Simple Motion.
 
 
 Loc
-   The object jumps the number of blender units entered, each time a
+   The object jumps the number of Blender units entered, each time a
    pulse is received.
 
 Rot
@@ -61,7 +62,7 @@ Servo Control
 .. figure:: /images/gameengine_actuator_motion_servo.jpg
    :width: 271px
 
-   Motion actuator set to *Servo Control*
+   Motion actuator set to *Servo Control*.
 
 The Servo Control actuator influences the velocity of a game object by
 applying forces, resulting in correct behavior when colliding with

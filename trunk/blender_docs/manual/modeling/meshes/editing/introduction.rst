@@ -107,8 +107,3 @@ Some of the menus can be accessed with shortcuts:
 :kbd:`Ctrl-F` brings up the Face tool menu
 :kbd:`Ctrl-E` brings up the Edge tool menu
 :kbd:`Ctrl-V` brings up the Vertex tool menu
-
-..  Comment: <!-- ==Normals==  {{Literal|Recalculate}} ({{Shortcut|Ctrl|N}})
-   :Recalculates normals of selected faces. {{Literal|Flip Direction}}
-   ({{Menu|{{Shortcut|W}}|Flip Normals or ``8``}})
-   :Flips normals of selected faces to point in the opposite direction. -->.

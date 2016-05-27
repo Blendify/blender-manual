@@ -1,5 +1,4 @@
-
-..    TODO/Review: {{review|copy=X}} .
+..    TODO/Review: {{review|copy=X}}.
 
 ************
 Defocus Node
@@ -149,7 +148,7 @@ Examples
 
 In this `blend-file example <https://wiki.blender.org/uploads/7/79/Doftest.blend>`__, the ball
 array image is blurred as if it was taken by a camera with a f-stop of 2.8 resulting in a
-fairly narrow depth of field centered on 7.5 blender units from the camera.
+fairly narrow depth of field centered on 7.5 Blender units from the camera.
 As the balls recede into the distance, they get blurrier.
 
 
@@ -203,4 +202,3 @@ No Z-Buffer
    be VERY careful with the *No Z-Buffer* switch. If the *Z scale* value happens to be large,
    and you forget to set it back to some low value,
    the values may suddenly be interpreted as huge blur radius values that will cause processing times to explode.
-

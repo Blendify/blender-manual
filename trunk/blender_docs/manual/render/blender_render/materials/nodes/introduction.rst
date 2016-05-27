@@ -106,7 +106,7 @@ You can also split the 3D view in the default screen in two and change one into 
 
 It is important to note that you can add a new material
 (which you can edit and change like any other material in the material panel),
-add an already created material or append a material from another blender file,
+add an already created material or append a material from another blend-file,
 and also use the material that you used to create the node tree.
 
 Here, we added a new material in the *Node editor* (*Material.001*),

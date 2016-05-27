@@ -121,7 +121,7 @@ To use the keying set, first select a keying set from the *Timeline* header,
 or the *Keying Sets Panel*.
 
 Now when you press :kbd:`I` in the 3D view,
-blender will add keyframes for all the properties in the active keying set.
+Blender will add keyframes for all the properties in the active keying set.
 
 See :doc:`Keying Sets </animation/keyframes/keying_sets>` for more info.
 
@@ -187,6 +187,7 @@ Editing
    Insert Keyframes on current frame :kbd:`I`
    Delete Keyframes on current frame :kbd:`Alt-I`
 
+
 .. _animation-basics-actions-working_with_actions:
 
 Working with Actions
@@ -198,14 +199,14 @@ Working with Actions
 
 
 When you first animate an object by adding keyframes,
-blender creates an *Action* to record the data.
+Blender creates an *Action* to record the data.
 
 *Actions* can be managed with the *Action Browser* in the :doc:`DopeSheet </editors/dope_sheet/introduction>`
 *Action Editor* header, or the properties region of the :doc:`NLA Editor </editors/nla>`.
 
 If you are making multiple actions for the same object,
 press the *F* button for each action,
-this will give the actions a *Fake User* and will make blender save the unlinked actions.
+this will give the actions a *Fake User* and will make Blender save the unlinked actions.
 
 Objects can only use one *Action* at a time for editing,
 the :doc:`NLA Editor </editors/nla>` is used to blend multiple actions together.

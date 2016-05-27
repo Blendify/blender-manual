@@ -15,7 +15,7 @@ remains exactly the same every time.
 
 .. note::
 
-   Most physics simulators in blender use a similar system,
+   Most physics simulators in Blender use a similar system,
    but not all have exactly the same settings available. All the settings are covered here,
    but individual physics types may not provide all these options.
 

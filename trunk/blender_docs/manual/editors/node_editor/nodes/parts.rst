@@ -3,7 +3,7 @@
 Node Parts
 **********
 
-All nodes in blender are based off of a similar construction.
+All nodes in Blender are based off of a similar construction.
 This applies to :ref:`any type of node <node-tree-types>`.
 These parts include the Title, Sockets, Preview and more.
 

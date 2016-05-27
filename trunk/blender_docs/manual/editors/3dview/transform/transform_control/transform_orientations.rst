@@ -159,11 +159,6 @@ View
    This way you can constrain movement to one View axis with :kbd:`G-X-X`.
 
 
-.. Comment: <!--[[File:Manual-3D_interaction-Transform_Control-Transform_Orientations-06.Foozle.png|
-   frame|right|Custom Orientations.]] Custom Orientations
-   :(See below, [[#Custom_Orientations|Custom Orientations]]).--> .
-
-
 Custom Orientations
 ===================
 
@@ -172,9 +167,6 @@ Custom Orientations
 
    | Mode:     Object and Edit modes
    | Hotkey:   :kbd:`Ctrl-Alt-Spacebar`
-
-
-.. Comment: <!--[[File:Doc26-transformOrientationPanel.png|thumb|right|200px|Transform Orientation panel]]-->.
 
 
 .. figure:: /images/transformOrientationPanel-custom.jpg

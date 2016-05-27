@@ -38,13 +38,8 @@ Example
 
 Let's make a simple example:
 
-
 - Remove default cube object from scene and add a Monkey with :menuselection:`Add --> Mesh --> Monkey`
 - Now add a curve with :menuselection:`Add --> Curve --> Bezier Curve`
-
-..    Comment: <!--[[File:Manual-Part-II-curvesDeform_exampleAddMonkey.png|frame|left|Add a Monkey!]]
-   [[File:Manual-Part-II-curvesDeform_exampleAddCurve.png|frame|left|Add a Curve.]]--> .
-
 
 .. figure:: /images/curvesdeform_exampleeditcurve2.jpg
    :width: 300px
@@ -56,7 +51,6 @@ Let's make a simple example:
   then exit Edit Mode :kbd:`Tab`.
 - Select the Monkey :kbd:`RMB` in *Object mode*
 - Assign the curve to the modifier, as shown below. The Monkey should be positioned on the curve:
-
 
 .. figure:: /images/modifier-curve.jpg
 
@@ -86,5 +80,3 @@ Let's make a simple example:
 - In the image above you can see the Monkey at different positions along the curve.
   To get a cleaner view over the deformation, a :doc:`Subsurf </modeling/modifiers/generate/subsurf>` modifier with
   two subdivision levels was applied, and :doc:`smooth </modeling/meshes/smoothing>` shading was used.
-
-

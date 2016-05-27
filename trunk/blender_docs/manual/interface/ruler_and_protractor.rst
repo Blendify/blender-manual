@@ -1,5 +1,4 @@
-
-..    TODO/Review: {{review|text = blender version|fixes=move page}} .
+..    TODO/Review: {{review|text = Blender version|fixes=move page}}.
 
 ********************
 Ruler and Protractor

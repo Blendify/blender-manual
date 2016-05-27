@@ -63,7 +63,7 @@ Move or link the files to ``../scripts/addons`` folder (where .. is the path to 
 File Locations
 ==============
 
-For information on the location of blender directories
+For information on the location of Blender's directories
 see: :doc:`Configuration & Data Paths </getting_started/installing/configuration/directories>`
 
 You can also create a personal folder containing new add-ons and configure your files' path in
