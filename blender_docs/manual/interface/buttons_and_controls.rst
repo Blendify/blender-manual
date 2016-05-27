@@ -107,8 +107,10 @@ You can also enter expressions such as ``3*2`` instead of ``6``. or ``5/10+3``.
 Even constants like ``pi`` (3.142) or functions like ``sqrt(2)`` (square root of 2)
 may be used.
 
-*These expressions are evaluated by Python; for all available math expressions see:*
-`math module reference <https://docs.python.org/3/library/math.html>`__
+.. seealso:: 
+
+   These expressions are evaluated by Python; for all available math expressions see:
+   `math module reference <https://docs.python.org/3/library/math.html>`__
 
 
 Expressions as Drivers
@@ -146,8 +148,11 @@ Examples of valid units include:
    - ``3ft/0.5km``
    - ``2.2mm + 5' / 3" - 2yards``
 
-*Note that the commas are optional.
-Notice how you can mix between metric and imperial even though the display can only show one at a time.*
+.. note:: 
+
+   That the commas are optional.
+   Notice how you can mix between metric and imperial even though 
+   the display can only show one at a time.
 
 
 Unit Names
@@ -282,7 +287,7 @@ These menu's may show a preview and allow you to search by name since its common
    - The "X" button clears the link.
 
 Sometimes there is a list of applied data-blocks
-(such as a list of materials used on the object). See *data-block link buttons* above.
+(such as a list of materials used on the object). See Fig. data-block link buttons above.
 
 .. figure:: /images/ConceptButtons4.jpg
    :align: right
@@ -317,7 +322,7 @@ While Hovering (when the cursor is held over a button).
    - :kbd:`Ctrl-V` - paste the value of the button.
    - :kbd:`RMB` - open the context menu.
    - :kbd:`Backspace` - clears the value (sets to zero or clears a text field).
-   - :kbd:`Minus` - negate number values (multiply by ``-1.0``).
+   - :kbd:`Minus` - negate number values (multiply by -1.0).
    - :kbd:`Ctrl-Wheel` - changes the value incremental steps.
 
      For pop-up option menus buttons, this cycles the value.
@@ -326,9 +331,9 @@ While Hovering (when the cursor is held over a button).
 
    - :kbd:`LMB` - select a new file.
    - :kbd:`Shift-LMB` - open the file externally
-     *(using the system's default editor)*.
+     (using the system's default editor).
    - :kbd:`Alt-LMB` - open the directory externally
-     *(using the systems file manager)*.
+     (using the systems file manager).
 
    Animation:
 

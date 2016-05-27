@@ -186,7 +186,7 @@ Preview
    Blender saves the same image also as a JPEG, for quick preview or download.
 
 Compression
-   *This button is below the Image menu button, default set to "None"*
+   (This button is below the Image menu button, default set to "None")
 
    ``PIZ``
       lossless wavelet compression. Compresses images with grain well.

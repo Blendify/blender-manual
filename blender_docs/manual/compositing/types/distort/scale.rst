@@ -14,7 +14,7 @@ This node scales the size of an image. Scaling can be either absolute or relativ
 If Absolute toggle is on, you can define the size of an image by using real pixel values.
 In relative mode percents are used.
 
-For instance X: ``0.5`` and Y: ``0.5``
+For instance X: 0.5 and Y: 0.5 
 would produce an image which width and height would be half of what they used to be.
 When expanding an image greatly,
 you might want to blur it somewhat to remove the square corners that might result.

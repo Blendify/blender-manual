@@ -26,9 +26,9 @@ Color Picker
 
 All of the color picker types have the common *RGB*, *HSV* and *Hex* options to show values.
 
-Blender uses ``0 - 1.0`` values to express colors for *RGB* and *HSV* values.
+Blender uses (0 to 1.0) values to express colors for *RGB* and *HSV* values.
 
-Some colors also define an alpha value (*A*), below the color sliders.
+Some colors also define an alpha value *A*, below the color sliders.
 
 .. note:: Blender corrects Gamma by default
 
@@ -86,11 +86,11 @@ Hexadecimal Colors
 ------------------
 
 You can optionally use hexadecimal *(Hex)* values,
-expressed as (``RRGGBB``), a common way to represent colors for HTML
+expressed as (RRGGBB), a common way to represent colors for HTML
 and useful to quickly copy/paste colors between applications.
 
-Shorthand hex colors are also supported (``RGB``),
-so dark-yellow (``ffcc00``), can be written as ``fc0``.
+Shorthand hex colors are also supported RGB,
+so dark-yellow FFCC00, can be written as FC0.
 
 
 Eyedropper
