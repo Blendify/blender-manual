@@ -300,8 +300,8 @@ Fixed
 -----
 
 With this method,
-each free segment of the selected strokes will be uniformly divided in ``n`` parts
-(set in *Num* numeric field), i.e. will give ``n`` bones.
+each free segment of the selected strokes will be uniformly divided in *n* parts
+(set in *Num* numeric field), i.e. will give *n* bones.
 
 .. list-table::
    The fixed conversion result.

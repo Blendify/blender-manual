@@ -75,14 +75,14 @@ The available modes are:
 
 
 None
-   this option keeps the X and Z scaling factors as ``1.0``
+   this option keeps the X and Z scaling factors as 1.0 .
 Volume Preserve
    the X and Z scaling factors are taken as the inverse of the Y scaling factor (length of the bone),
    maintaining the 'volume' of the bone
 Bone Original
    this options just uses the X and Z scaling factors the bone would have after being evaluated in the standard way.
 
-In addition to these modes, there is an option, 'Use Curve Radius'.
+In addition to these modes, there is an option, *Use Curve Radius*.
 When this option is enabled, the average radius of the radii of the points on the curve where
 the endpoints of each bone are placed, are used to derive X and Z scaling factors.
 This allows the scaling effects, determined using the modes above,

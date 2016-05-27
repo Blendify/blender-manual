@@ -118,9 +118,9 @@ Preserve Volume (Armature modifier)
    This affects the way geometry is deformed, especially at bones' joints, when rotating them.
 
    Without *Preserve Volume*, rotations at joints tend to scale down the neighboring geometry,
-   up to nearly zero at ``180d`` from rest position.
+   up to nearly zero at 180 degrees from rest position.
    With *Preserve Volume*, the geometry is no longer scaled down, but there is a "gap",
-   a discontinuity when reaching ``180d`` from rest position.
+   a discontinuity when reaching 180 degrees from rest position.
 
 .. list-table::
    Example of Quaternion option effects.

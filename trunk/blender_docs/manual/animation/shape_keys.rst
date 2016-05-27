@@ -340,8 +340,8 @@ there is a good chance that you need to Reset Timing.
 Shape Key Operators
 ===================
 
-``3D View`` *Edit Mode* :menuselection:`Mesh --> Vertices --> Shape Propagate`
+3D View *Edit Mode* :menuselection:`Mesh --> Vertices --> Shape Propagate`
    Apply selected vertex locations to all other shape keys.
 
-``3D View`` *Edit Mode* :menuselection:`Mesh --> Vertices --> Blend From Shape`
+3D View *Edit Mode* :menuselection:`Mesh --> Vertices --> Blend From Shape`
    Blend in shape from a shape key.

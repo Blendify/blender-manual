@@ -14,7 +14,7 @@ as here you can only transform whole objects...
 So, armatures in Blender have a third mode, *Pose*, dedicated to this process.
 It's a sort of "object mode for bones". In rest position (as edited in *Edit mode*),
 each bone has its own position/rotation/scale to neutral values
-(i.e. ``0.0`` for position and rotation, and ``1.0`` for scale).
+(i.e. 0.0 for position and rotation, and 1.0 for scale).
 Hence, when you edit a bone in *Pose mode*,
 you create an offset in its transform properties, from its rest position -
 this is quite similar to :doc:`meshes relative shape keys </animation/shape_keys>`, in fact.

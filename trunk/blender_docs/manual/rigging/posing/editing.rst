@@ -321,9 +321,9 @@ possible ones below - but this should anyway give you a good idea of the problem
 
 
 - When several bones of the same "family" are selected,
-  *only the "most parent" ones are really transformed* -
+  *only* the "most parent" ones are really transformed -
   the descendants are just handled through the parent relationship process, as if they were not selected
-  (see *Scaling bones, some of them related* - the third tip bone,
+  (see Fig. Scaling bones, some of them related - the third tip bone,
   outlined in yellow, was only scaled down through the parent relationship,
   exactly as the unselected ones, even though it is selected and active.
   Otherwise, it should have been twice smaller!).
