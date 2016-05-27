@@ -1,3 +1,4 @@
+
 ************
 Command Line
 ************
@@ -8,8 +9,8 @@ access Blender remotely to render something or build scripts that use the comman
 One advantage of using the command line is that we don't need the X server (in the case of Linux)
 and consequently we can render remotely by SSH or telnet.
 
-To see a list of available flags (for example to specify which scene to render, the end frame number, etc...),
-simply run:
+To see a list of available flags (for example to specify which scene to render,
+the end frame number, etc...), simply run:
 
 .. code-block:: sh
 
@@ -103,9 +104,6 @@ You can also add the Blender folder to your system ``PATH`` so that do you do no
 
 Examples
 ========
-
-Here are some common examples of command line rendering:
-
 
 Single Image
 ------------
