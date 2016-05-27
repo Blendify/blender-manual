@@ -43,7 +43,7 @@ Proxy Storage
 
 Proxy Size
    Buttons to control how big the proxies are.
-   The available options are ``25``,``50``,``75``,``100`` percent of original strip size.
+   The available options are 25%, 50%, 75%, 100 percent of original strip size.
 Overwrite
    Saves over any existing proxies in the proxy storage directory.
 Quality

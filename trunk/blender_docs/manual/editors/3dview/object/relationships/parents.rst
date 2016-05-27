@@ -200,9 +200,9 @@ with the same name as the Bone that you want the selected vertices to be influen
 
 Once the Vertex Group has been created we then assign the selected vertices to the Vertex
 Group by clicking the Assign Button. By default when selected vertices are assigned to a
-Vertex Group they will have an Influence Weight of ``1.0``
+Vertex Group they will have an Influence Weight of 1.0
 This means that they are fully influenced when a Bone they are associated with is moved,
-if the Influence Weight had been ``0.5`` then when the bone moves the vertices would only move half as much.
+if the Influence Weight had been 0.5 then when the bone moves the vertices would only move half as much.
 See figure 7.
 
 
@@ -579,4 +579,4 @@ Hints
 There is another way to see the parent-child relationship in groups and that is to use the *Outliner* view
 of the :doc:`Outliner window </editors/outliner>`. Fig. Outliner view
 is an example of what the *Outliner* view looks like for the Fig. Parenting Example.
-Cube ``A``'s object name is ``Cube_Parent`` and cube ``B`` is ``Cube_Child``.
+Cube A's object name is "Cube_Parent" and cube B is "Cube_Child".

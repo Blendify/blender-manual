@@ -29,7 +29,7 @@ Options
 Actor
    Enables detection by Near and Radar Sensors. Python property: ``obj.game.use_actor``
 Ghost
-   Disables collisions completely, similar to `No Collision`. ``Python property: obj.game.use_ghost``
+   Disables collisions completely, similar to *No Collision*. ``Python property: obj.game.use_ghost``
 Invisible
    Does not display, the same as setting the object to unrendered (such as unchecking the "Camera"
    icon in the :doc:`Outliner </editors/outliner>`. Python property: ``obj.use_render``
@@ -43,7 +43,7 @@ Rotate From Normal
 No Sleeping
    Prevents simulation meshes from sleeping. When an object has a linear velocity or angular velocity,
    it is in motion. It will detect collisions, receive gravity, etc. Once these thresholds are close to zero,
-   it will cease these calculations---until another object interacts with it wake it up.
+   it will cease these calculations -- until another object interacts with it wake it up.
    Python property: ``obj.game.use_sleep``
 Mass
    Affects the reaction due to collision between objects -- more massive objects have more inertia.
@@ -154,21 +154,21 @@ Collision Bounds
 
 The first thing you must understand is the idea of the 3d Bounding Box.
 If you run through all the vertices of a mesh and record the lowest and highest x values,
-you have found the `x min/max` the complete boundary for all x values within the mesh.
-Do this again for y and z, then make a rectangular prism out of these values, and you have a `Bounding Box`.
+you have found the *x min/max* the complete boundary for all x values within the mesh.
+Do this again for y and z, then make a rectangular prism out of these values, and you have a *Bounding Box*.
 This box could be oriented relative globally to the world or locally to the object's rotation.
 
 .. figure:: /images/BGE-Physics-BoundingBox.png
 
    Demonstration of a Local Bounding Box (left) and a Global Bounding Box (right).
 
-The `x extent`, then, is half of the distance between the x min/max.
+The *x extent*, then, is half of the distance between the x min/max.
 
 Throughout all of this you must be cognizant of the Object Origin. For the Game engine,
 the default :kbd:`Ctrl-Alt-Shift-C`, :kbd:`3` or :menuselection:`Set Origin --> Origin to Geometry`
 is unlikely to get the desired placement of the Collision Bounds that you want.
-Instead, you should generally set the origin by looking at the :kbd:`T`-toolshelf after you do the `Set Origin`,
-and changing the `Center` from `Median Center` to `Bounds Center`.
+Instead, you should generally set the origin by looking at the :kbd:`T`-toolshelf after you do the *Set Origin*,
+and changing the *Center* from *Median Center* to *Bounds Center*.
 Blender will remember this change for future :kbd:`Ctrl-Alt-Shift-C` executions.
 
 All Collision Bounds are centered on this origin. All boxes are oriented locally, so object rotation matters.
@@ -179,12 +179,12 @@ All Collision Bounds are centered on this origin. All boxes are oriented locally
 
 A final introductory comment: When you set the Collision Bounds on an object,
 Blender will attempt to display a visualization of the bounds in the form of a dotted outline.
-Currently, there is a bug: `The 3D View`
+Currently, there is a bug: *The 3D View*
 does not display this bounds preview where it actually will be during the game.
 To see it, go to :menuselection:`Game --> Show Physics Visualization`
 and look for the white (or green, if sleeping) geometry.
 
-Now we can explain the various options for the `Collision Bounds` settings:
+Now we can explain the various options for the *Collision Bounds* settings:
 
 Default
    For Dynamic and Static objects, it is a Triangle Mesh (see below).
@@ -219,7 +219,7 @@ By Hand
    You create a second mesh, which is invisible, to be the physics representation.
    This becomes the parent for your display object. Then,
    your display object is set to ghost so it doesn't fight with the parent object.
-   This method allows you to strike a balance between the accuracy of `Triangle Mesh`
+   This method allows you to strike a balance between the accuracy of *Triangle Mesh*
    with the efficiency of some of the others. See the demo of this in the dune buggy to the right.
 
 .. figure:: /images/BGE-Physics-ManualHull.png
@@ -239,7 +239,7 @@ Margin
    You have to keep an eye on the setting, or else learn the symptoms so you can respond when it gives you trouble.
    If you're lazy/paranoid/unsure/diligent/bored,
    you can always run this on the Python Console to bump all 0.0 margins to 0.06: for
-   `obj` in ``bpy.data.objects``: ``obj.game.collision_margin = obj.game.collision_margin`` or 0.06 
+   ``obj`` in ``bpy.data.objects``: ``obj.game.collision_margin = obj.game.collision_margin`` or 0.06 
 Compound
    "Add children to form compound collision object." Basically,
    if you have a child object and do not have this enabled,

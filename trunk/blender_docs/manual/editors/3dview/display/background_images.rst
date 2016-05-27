@@ -56,7 +56,7 @@ X/Y
 
    In orthographic views, this is measured in the normal scene units.
    In the camera view, this is measured relative to the camera bounds
-   (``0.1`` will offset it by 10% of the view width/height)
+   (0.1 will offset it by 10% of the view width/height)
 Flip Horizontally
    Swap the image around, such that the left side is now on the right, and the right now on the left.
 Flip Vertically

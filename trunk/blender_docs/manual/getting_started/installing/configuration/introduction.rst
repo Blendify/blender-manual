@@ -12,7 +12,7 @@ Language
 ========
 
 At :menuselection:`File --> User Preferences --> System`, enable *International Fonts* to choose the
-``Language`` and what to translate from ``Interface``, ``Tooltips`` and ``New Data``.
+*Language* and what to translate from *Interface*, *Tooltips* and *New Data*.
 
 See :ref:`prefs-system-international` for details.
 
@@ -33,10 +33,10 @@ File and Paths
 ==============
 
 At :menuselection:`File --> User Preferences --> File`
-you can set options such as what external ``Image Editor`` to use,
+you can set options such as what external *Image Editor* to use,
 such as GIMP or Krita, and the Animation Player.
 
-The ``Temp`` directory sets where to store files such as temporary renders and auto-saves.
+The *Temp* directory sets where to store files such as temporary renders and auto-saves.
 
 .. tip::
 
@@ -47,6 +47,6 @@ If you trust the source of your blend-files, you can enable *Auto Run Python Scr
 This option is meant to protect you from malicious Python scripts that someone can include inside a Blender file.
 This would not happen by accident,
 and most users leave this option on to automatically run scripts often used in advanced rigs
-(such as ``Rigify`` that controls the skeleton of a human rig).
+(such as "Rigify" that controls the skeleton of a human rig).
 
 See :doc:`File Preferences </preferences/file>` for details.
