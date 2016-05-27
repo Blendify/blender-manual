@@ -34,14 +34,11 @@ This panel is used to add, select, manage *Absolute Keying Sets*.
 Keying Set Name
    The active Keying Set is highlighted in blue, press :kbd:`Ctrl-LMB` to rename.
 
-`+`
+\+\
    Add a new (Empty) keying set to the active Scene.
-
-`-`
+\-\
    Remove the active Keying Set.
-
-*Active Keying Set properties*
-
+Active Keying Set properties
    Description
       A short description of the keying set.
 
@@ -83,14 +80,11 @@ Paths
    A collection of *Paths* each with a *Data Path* to a property to add to the active Keying Set.
    The active *Path* is highlighted in blue.
 
-+
+\+\
    Adds a new empty path to active Keying Set.
-
--
+\-\
    Remove active path from the active Keying Set.
-
-*Active Path properties*
-
+Active Path properties
    ID-Block
       Set the *ID-Type* + *Object ID* *Data Path* for the property.
 

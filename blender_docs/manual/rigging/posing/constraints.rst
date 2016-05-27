@@ -26,7 +26,7 @@ is also mainly available through the *IK Solver* constraint - which is specific 
 For example, a human elbow can't rotate backward (unless the character has broken his hand),
 nor to the sides, and its forward and roll rotations are limited in a given range
 (for example, depending on the rest position of your elbow,
-it may be from ``0`` to ``160``, OR from ``-45`` to ``135``).
+it may be from (0 to 160) or from (-45 to 135).
 
 So you should apply a *Limit Rotation* constraint to the forearm bone
 (as the elbow movement is the result of rotating the forearm bone around its root).

@@ -104,11 +104,11 @@ Bones have an extra "mirror extruding" tool, called by pressing :kbd:`Shift-E`.
 By default, it behaves exactly like the standard extrusion.
 But once you have enabled the X-Axis mirror editing option
 (see `X-Axis Mirror Editing`_),
-each extruded tip will produce *two new bones*, having the same name except for the ``_L``/``_R`` suffix
+each extruded tip will produce *two new bones*, having the same name except for the "_L"/ "_R" suffix
 (for left/right, see the :ref:`next page <armature-editing-naming_conventions>`).
-The ``_L`` bone behaves like the single one produced by the default extrusion -
+The "_L" bone behaves like the single one produced by the default extrusion -
 you can grab/rotate/scale it exactly the same way.
-The ``_R`` bone is its mirror counterpart (along the armature's local X axis), see Fig. Mirror extrusion example.
+The "_R" bone is its mirror counterpart (along the armature's local X axis), see Fig. Mirror extrusion example.
 
 .. warning::
 
@@ -486,7 +486,7 @@ To create an arbitrary number of bones from each selected bone:
 - select :menuselection:`Armature --> Subdivide Multi` from the header menu, an
 
 Then specify the number of cuts you want in the pop-up. As in mesh editing,
-if you set ``n`` cuts, you'll get ``n+1`` bones for each selected bone.
+if you set *n* cuts, you'll get *n* + 1 bones for each selected bone.
 
 
 .. list-table::
@@ -527,7 +527,7 @@ X-Axis Mirror Editing
 Another very useful tool is the *X-Axis Mirror* editing option by
 :menuselection:`Tool panel --> Armature Options`, while Armature is selected in *Edit Mode*.
 When you have pairs of bones of the same name with just a different "side suffix"
-(e.g. ``.R`` / ``.L``, or ``_right`` / ``_left`` ...), once this option is enabled,
+(e.g. ".R"/ ".L", or "_right" / "_left" ...), once this option is enabled,
 each time you transform (move/rotate/scale...) a bone, its "other side" counterpart will be transformed accordingly,
 through a symmetry along the armature local X axis.
 As most rigs have at least one axis of symmetry (animals, humans, ...),

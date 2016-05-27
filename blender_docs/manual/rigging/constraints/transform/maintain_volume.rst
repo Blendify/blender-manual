@@ -15,10 +15,10 @@ Options
    Maintain Volume Constraint.
 
 
-Free X / Y / Z
+Free X, Y, Z
    The free-scaling axis of the object.
 Volume
-   The bone's rest volume. Default is ``1.0``.
+   The bone's rest volume. Default is 1.0 .
 Space
    This constraint allows you to choose in which space to evaluate its owner's transform properties.
 

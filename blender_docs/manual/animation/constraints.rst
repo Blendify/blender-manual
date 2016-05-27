@@ -55,14 +55,14 @@ Example
 -------
 
 Let's use the *Copy Location* constraint and its *Offset* button.
-For example, you can make your owner (let's call it ``moon``)
-describe perfect circles centered on the ``(0.0, 0.0, 0.0)`` point
+For example, you can make your owner (let's call it "moon")
+describe perfect circles centered on the (0.0, 0.0, 0.0) point
 (using e.g. pydriven *LocX* / *LocY* animation curves,
 see :doc:`this page </animation/drivers>`),
-and then make it copy the location of a target (called, I don't know... ``earth``, for example) -
+and then make it copy the location of a target (called, I don't know... "earth", for example) -
 with the *Offset* button enabled.
 Congratulation, you just modeled a satellite in a (simplified) orbit around its planet...
-Just do the same thing with its planet around its star (which you might call ``sun``, what do you think?),
+Just do the same thing with its planet around its star (which you might call "sun", what do you think?),
 and why not, for the star around its galaxy...
 
 Here is a small animation of a "solar" system created using (among a few others)
@@ -92,5 +92,5 @@ You only have two animation curves (see also: :doc:`Graph Editor </editors/graph
   and their *Influence* cross-fading together...
 - More anecdotal, you can also, for some constraints using an armature's bone as target,
   animate where along this bone (between root and tip) lays the real target point
-  (``0.0`` means "full-root", and ``1.0``, "full-tip").
+  (0.0 to 1.0) means influence from the (root or tip).
 

@@ -27,8 +27,7 @@ in the same *Curve and Surface* editing panel.
 
 One last curve property that is important for a path is its *direction*, which is,
 for three-dimensional ones, materialized by its small arrows.
-You can switch it with the :menuselection:`Curve --> Segments --> Switch Direction` menu entry
-(or :kbd:`W`, :kbd:`2`).
+You can switch it with the :menuselection:`Curve --> Segments --> Switch Direction`, :kbd:`W 2`.
 
 For more on editing path/curves, see the :doc:`modeling chapter </modeling/curves/introduction>`.
 
@@ -75,14 +74,14 @@ The Follow Path Constraint
 
 The *Follow Path* constraint implements the most "classical" technique. By default,
 the owner object will walk the whole path only once, starting at frame one,
-and over ``100`` frames. You can set a different starting frame in the *Offset*
+and over 100 frames. You can set a different starting frame in the *Offset*
 field of the constraint panel, and change the length (in frames)
 of the path using its *Frames* property (*Curve and Surface* panel).
 
 But you can have a much more precise control over your object's movement along its path by
 keyframing or defining a *Speed* animation curve for the path's *Evaluation Time* attribute.
 This curve maps the current frame to a position along the path,
-from ``0.0`` (start point) to ``1.0`` (end point).
+from (0.0 to 1.0) (start point to end point).
 
 For more details and examples,
 see the :doc:`Follow Path constraint page </rigging/constraints/relationship/follow_path>`.

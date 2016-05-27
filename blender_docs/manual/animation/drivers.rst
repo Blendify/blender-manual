@@ -114,7 +114,7 @@ Variable Type
          The ID-Block type, example, Key, Image, Object, Material.
 
       ID
-         The ID of the ID-Block type, example, ``Material.001``.
+         The ID of the ID-Block type, example, "Material.001".
 
       RNA Path
          The RNA id name of the property, example, 'ambient' from material shading.
@@ -126,7 +126,7 @@ Variable Type
          ID of the object, example, Cube, Armature, Camera.
 
       Bone
-         ID of the Armature bone, example, ``Bone``, ``Bone.002``, ``Arm.r``.
+         ID of the Armature bone, example, "Bone", "Bone.002", "Arm.r".
          This option is for armatures.
 
       Type

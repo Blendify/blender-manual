@@ -496,31 +496,31 @@ This will enable you to use some tools that will probably save you time and effo
 (like the *X-Axis Mirror* editing tool we saw above...).
 
 
-- First you should give your bones meaningful base-names, like ``leg``, ``arm``, ``finger``, ``back``, ``foot``, etc.
+- First you should give your bones meaningful base-names, like "leg", "arm", "finger", "back", "foot", etc.
 - If you have a bone that has a copy on the other side (a pair), like an arm,
   give it one of the following separators:
 
   - Left/right separators can be either the second position
-    (``L`` **_** ``calfbone``) or last-but-one (``calfbone`` **.** ``R``)
-  - If there is a lower or upper case ``L``, ``R``, ``left`` or ``right``, Blender handles the counterpart correctly.
+    "L\ **_**\ calfbone" or last-but-one "calfbone\ **.**\R"
+  - If there is a lower or upper case "L", "R", "left" or "right", Blender handles the counterpart correctly.
     See below for a list of valid separators.
     Pick one and stick to it as close as possible when rigging; it will pay off. 
    
    Examples of valid saparators:
 
-    - *(nothing)*: hand ``Left`` --> hand ``Right``
-    - ``_`` *(underscore)*: Hand ``_L`` --> Hand ``_R``
-    - ``.`` *(point)*: hand ``.l`` --> hand ``.r``
-    - ``-`` *(dash)*: Foot ``-l`` --> Foot ``-r``
-    - `` `` *(space)*: pelvis ``LEFT`` --> pelvis ``RIGHT``
+    - (nothing): handLeft --> handRight
+    - ``_`` (underscore): hand\ **_**\L --> hand\ **_**\R
+    - ``.`` (dot): hand\ **.**\l --> hand\ **.**\r
+    - ``-`` (dash): hand\ **-**\l --> hand\ **-**\r
+    - `` `` (space): hand LEFT --> hand RIGHT
 
     Note that all examples above are also valid with the left/right part placed before the name.
-    You can only use the short ``L`` / ``R`` code if you use a separator (i.e. ``handL`` / ``handR`` won't work!).
+    You can only use the short "L"/ "R" code if you use a separator (i.e. "handL"/ "handR" won't work!).
 
 - Before Blender handles an armature for mirroring or flipping,
-  it first removes the number extension, if it's there (like ``.001``)
-- You can copy a bone named ``bla.L`` and flip it over using :kbd:`W` :menuselection:`--> Flip Left-Right Names`.
-  Blender will name the copy ``bla.L.001`` and flipping the name will give you ``bla.R``.
+  it first removes the number extension, e.g. ".001".
+- You can copy a bone named "bla.L" and flip it over using :kbd:`W` :menuselection:`--> Flip Left-Right Names`.
+  Blender will name the copy "bla.L.001" and flipping the name will give you "bla.R".
 
 
 Bone name flipping
@@ -561,16 +561,16 @@ The three *AutoName* entries of the *Armature* and *Specials*
 on the position of their root relative to the armature center and its local coordinates :
 
 AutoName Left-Right
-   will add the ``.L`` suffix to all bones with a *positive* X-coordinate root,
-   and the ``.R`` suffix to all bones with a *negative* X-coordinate root.
-   If the root is exactly at ``0.0`` on the X-axis, the X-coordinate of the tip is used.
-   If both ends are at ``0.0`` on the X-axis, the bone will just get a period suffix, with no L/R
+   will add the ".L" suffix to all bones with a *positive* X-coordinate root,
+   and the ".R" suffix to all bones with a *negative* X-coordinate root.
+   If the root is exactly at 0.0 on the X-axis, the X-coordinate of the tip is used.
+   If both ends are at 0.0 on the X-axis, the bone will just get a period suffix, with no "L"/ "R"
    (as Blender cannot decide whether it is a left or right bone...).
 AutoName Front-Back
-   will add the ``.Bk`` suffix to all bones with a *positive* Y-coordinate root,
-   and the ``.Fr`` suffix to all bones with a *negative* Y-coordinate root.
+   will add the ".Bk" suffix to all bones with a *positive* Y-coordinate root,
+   and the ".Fr" suffix to all bones with a *negative* Y-coordinate root.
    The same as with *AutoName Left-Right* goes for 0.0 Y-coordinate bones...
 AutoName Top-Bottom
-   will add the ``.Top`` suffix to all bones with a *positive* Z-coordinate root,
-   and the ``.Bot`` suffix to all bones with a *negative* Z-coordinate root.
+   will add the ".Top" suffix to all bones with a *positive* Z-coordinate root,
+   and the ".Bot" suffix to all bones with a *negative* Z-coordinate root.
    The same as with *AutoName Left-Right* goes for 0.0 Z-coordinate bones...
