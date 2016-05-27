@@ -16,8 +16,10 @@ Type
 Wave Profile
    Controls the look of the wave type.
 
-   :Saw: Uses a sawtooth profile.
-   :Sine: Uses the standard sine profile.
+   Saw
+      Uses a sawtooth profile.
+   Sine
+      Uses the standard sine profile.
 
 Vector input
    Texture coordinate to sample texture at;

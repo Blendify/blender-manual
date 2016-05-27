@@ -22,7 +22,7 @@ Anisotropy input
    negative values give highlights shaped along the tangent direction.
 Rotation input
    Rotation of the anisotropic tangent direction.
-   Value 0.0 equals 0- rotation, 0.25 equals 90- and 1.0 equals 360- = 0- .
+   Value 0.0 equals 0° rotation, 0.25 equals 90° and 1.0 equals 360° = 0° .
    This can be used to texture the tangent direction.
 
 Normal input
@@ -40,4 +40,4 @@ BSDF output
 
      - .. figure:: /images/cycles_nodes_shader_anisotropic_rot025.jpg
 
-         Anisotropic rotation on 0.25 (90- )
+         Anisotropic rotation on 0.25 (90°)

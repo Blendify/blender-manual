@@ -40,9 +40,7 @@ Options
 
 Bake button
    For baking options, see :doc:`Baking </physics/fluid/baking>`.
-
 Resolution
-
    Render resolution
       The granularity at which the actual fluid simulation is performed.
       This is probably the most important setting for the simulation as it
@@ -62,7 +60,9 @@ Resolution
                 10cm mug at Resolution 200.
 
 
-      Note that the amount of required memory quickly increases: a resolution of 32 requires ca. 4MB,
+   .. note:: 
+
+      The amount of required memory quickly increases: a resolution of 32 requires ca. 4MB,
       64 requires ca. 30MB, while 128 already needs more than 230MB. Make sure to set the resolution low enough,
       depending on how much memory you have, to prevent Blender from crashing or freezing. Remember also that many
       operating systems limit the amount of memory that can be allocated by a single *process*, such as Blender,
@@ -77,7 +77,6 @@ Resolution
       (therefore, a non-cubic domain will need less memory than a cubic one, resolutions being the same).
 
    Preview resolution
-
       This is the resolution at which the preview surface meshes will be generated.
       So it does not influence the actual simulation.
       Even if "there is nothing to see" in the preview,
