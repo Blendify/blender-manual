@@ -65,8 +65,8 @@ Textures
    The *U* and *V* options allows you to mirror the UV texture coordinates across the middle
    of the image.
 
-   E.g. if you have a vertex with UV coordinates of (``0.3, 0.9``),
-   its mirror copy will have UV coordinates of (``0.7, 0.1``).
+   E.g. if you have a vertex with UV coordinates of (0.3, 0.9),
+   its mirror copy will have UV coordinates of (0.7, 0.1).
 
 Merge Limit
    The maximum distance between a vertex and its mirror copy before they are merged together.
@@ -85,7 +85,7 @@ Many modeling tasks involve creating objects that are symmetrical. However, ther
 no quick way to model both halves of an object without using one of the workarounds that have
 been discovered by clever Blender artists over the years. A common technique was to model one
 half of an object and use :kbd:`Alt-D` to create a linked duplicate which can then be
-scaled on one axis by ``-1`` to produce a perfect mirror-image copy which updates in real time as you edit.
+scaled on one axis by -1 to produce a perfect mirror-image copy which updates in real time as you edit.
 
 The Mirror modifier offers a simpler way to do this. Once your modeling is completed you can either
 click *Apply* to make a real version of your mesh or leave it as is for future editing.

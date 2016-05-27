@@ -82,7 +82,7 @@ Repeat
 Anchors Vertex Group
    A vertex group name, to define the group of vertices that the user uses to transform the model.
    The weight of each vertex does not affect the behavior of the modifier;
-   the method only takes into account vertices with weight greater than ``0``.
+   the method only takes into account vertices with weight greater than 0.
 
 Bind
    The *Bind* button is what tells the Laplacian Deform modifier to actually capture the geometry details

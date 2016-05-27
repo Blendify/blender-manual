@@ -35,7 +35,7 @@ Vertex Group
 Radius
    The size of the hooks influence.
 Strength
-   Adjust this hooks influance on the vertices, were ``0.0`` makes no change and ``1.0`` follows the hook.
+   Adjust this hooks influance on the vertices, were (0.0 to 1.0) (no change to fully follows the hook).
 
    Since multiple hooks can work on the same vertices, you can weight the influence of a hook using this property.
 Falloff Type

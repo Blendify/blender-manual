@@ -51,4 +51,4 @@ Flip
 Iterations
    Number of revolutions.
 Stretch U/V
-   Stretch the UV coordinates from ``0.0`` to ``1.0`` when UVs are present.
+   Stretch the UV coordinates from (0.0 to 1.0) when UVs are present.

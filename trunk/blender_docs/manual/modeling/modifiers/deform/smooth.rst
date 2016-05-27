@@ -13,7 +13,7 @@ just like :menuselection:`Specials --> Smooth` in Edit Mode.
 It smooths without subdividing the mesh - the number of vertices remains the same.
 
 This modifier is not limited to smoothing, though.
-Its control factor can be configured outside the ``0.0 - 1.0`` range
+Its control factor can be configured outside the (0.0 to 1.0) range
 (including negative values), which can result in interesting deformations.
 
 
@@ -25,7 +25,7 @@ X, Y, Z
 Factor
    The factor to control the smoothing amount.
    Higher values will increase the effect.
-   Values outside this range (above ``1.0`` or below ``0.0``) distort the mesh.
+   Values outside this range (above 1.0 or below 0.0) distort the mesh.
 Repeat
    The number of smoothing iterations,
    equivalent to executing the smooth tool multiple times.

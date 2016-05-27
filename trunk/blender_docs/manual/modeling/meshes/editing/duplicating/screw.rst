@@ -71,7 +71,7 @@ a simple edge, a half circle, etc...).
 You need only to ensure that at least one reference line has two "free" ends.
 If two open Lines are given, Blender won't determine which of them is the vector,
 and will then show you an error message,
-*"You have to select a string of connected vertices too"*.
+``"You have to select a string of connected vertices too"``.
 You need to select all of the profile vertices that will participate in the *Screw*
 Tool operation; if they are not properly selected,
 Blender will also show you the same message.
@@ -82,7 +82,7 @@ you will have to delete it after the tool completion (use linked-selection,
 
 If there is any problem with the selection or profiles,
 the tool will warn you with the error message:
-*"You have to select a string of connected vertices too"* as seen in Fig. 3 and 4,
+``"You have to select a string of connected vertices too"`` as seen in Fig. 3 and 4,
 both in the info Window and at the place where you clicked to start performing the operation
 (when you click the Screw Button).
 

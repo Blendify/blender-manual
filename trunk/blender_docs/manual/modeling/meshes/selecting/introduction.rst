@@ -157,7 +157,7 @@ Select Sharp Edges
    This option will select all edges that are between two faces forming an angle less than a given value,
    which is asked you *via* a small pop-up dialog.
    The lower is this angle limit, the sharper will be the selected edges.
-   At ``180``, **all** :term:`manifold` edges will be selected.
+   At 180, **all** :term:`manifold` edges will be selected.
 Linked Flat Faces :kbd:`Ctrl-Shift-Alt-F`
    Select connected faces based on a threshold of the angle between them.
    This is useful for selecting faces that are planar.

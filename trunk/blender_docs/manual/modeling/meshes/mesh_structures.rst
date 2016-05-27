@@ -19,16 +19,16 @@ A vertex is primarily a single point or position in 3D space.
 It is usually invisible in rendering and in *Object mode*.
 Don't mistake the center point of an object for a vertex. It looks similar,
 but it's bigger and you can't select it. Fig. Vertex example
-shows the center point labeled as ``A``.
-``B`` and ``C`` are vertices.
+shows the center point labeled as 
+"A", "B" and "C" are vertices.
 
 A simple way to create a new vertex is to click :kbd:`Ctrl-LMB` in *Edit mode*.
 Of course, as a computer screen is two-dimensional,
 Blender can't determine all three vertex coordinates from a single mouse click,
 so the new vertex is placed at the depth of the 3D cursor. Using the method described above,
 any vertices selected previously are automatically connected to the new ones by an edge.
-In the image above, the vertex labeled *C* is a new vertex added to the cube with a
-new edge added between in *B* and *C*.
+In the image above, the vertex labeled "C" is a new vertex added to the cube with a
+new edge added between in "B" and "C".
 
 
 Edges
@@ -70,15 +70,15 @@ Loops
 
 
 *Edge* and *Face Loops* are sets of faces or edges that form continuous "loops" as shown in
-Fig. Edge and Face Loops. The top row (``1`` - ``4``) shows a solid view,
-the bottom row (``5`` - ``8``) a wireframe view of the same loops.
+Fig. Edge and Face Loops. The top row (1. - 4.) shows a solid view,
+the bottom row (5. - 8.) a wireframe view of the same loops.
 
-Note that loops ``2`` and ``4`` do not go around the whole model.
+Note that loops (2. and 4.) do not go around the whole model.
 Loops stop at so called poles because there is no unique way to continue a loop from a pole.
 Poles are vertices that are connected to either three, five, or more edges. Accordingly,
 vertices connected to exactly one, two or four edges are not poles.
 
-In the image above, loops that do not end in poles are cyclic (``1`` and ``3``).
+In the image above, loops that do not end in poles are cyclic (1. and 3.).
 They start and end at the same vertex and divide the model into two partitions.
 Loops can be a quick and powerful tool to work with specific,
 continuous regions of a mesh and are a prerequisite for organic character animation.
@@ -91,7 +91,7 @@ For a detailed description of how to work with loops in Blender, see:
 Edge Loops
 ==========
 
-Loops ``1`` and ``2`` in Fig Edge and Face Loops are edge Loops. They
+Loops (1. and 2.) in Fig Edge and Face Loops are edge Loops. They
 connect vertices so that each one on the loop has exactly two neighbors that are not on the
 loop and placed on both sides of the loop (except the start and end vertex in case of poles).
 
@@ -112,8 +112,8 @@ Face Loops
 ==========
 
 These are a logical extension of Edge Loops in that they consist of the faces between two Edge
-Loops, as shown in loops ``3`` and ``4`` in Fig. Edge and Face Loops.
-Note that for non-circular loops (``4``)
+Loops, as shown in loops (3. and 4.) in Fig. Edge and Face Loops.
+Note that for non-circular loops (4.)
 the faces containing the poles are not included in a Face Loop.
 
 Further details on working with Face Loops can be found in

@@ -104,15 +104,15 @@ Height
 Width
    Half of the width, in BU, between the tops of two subsequent ripples (if *Cyclic* is enabled).
    This has an indirect effect on the ripple amplitude - if the pulses are too near to each other,
-   the wave may not reach the ``0`` Z-position, so in this case Blender actually lowers the whole wave
+   the wave may not reach the zero Z-position, so in this case Blender actually lowers the whole wave
    so that the minimum is zero and, consequently, the maximum is lower than the expected amplitude.
    See :ref:`modifier-wave-detailhint` below.
 
 Narrowness
    The actual width of each pulse: the higher the value the narrower the pulse.
-   The actual width of the area in which the single pulse is apparent is given by ``4/Narrowness``.
-   That is, if *Narrowness* is ``1`` the pulse is ``4`` units wide, and if *Narrowness*
-   is ``4`` the pulse is ``1`` unit wide.
+   The actual width of the area in which the single pulse is apparent is given by 4/ *Narrowness*.
+   That is, if *Narrowness* is 1 the *pulse* is 4 units wide, and if *Narrowness*
+   is 4 the *pulse* is 1 unit wide.
 
 
 .. warning::
@@ -136,7 +136,7 @@ The relationship of the above values is described here:
 
 To obtain a nice wave effect similar to sea waves and close to a sinusoidal wave,
 make the distance between following ripples and the ripple width equal; that is,
-the *Narrowness* value must be equal to ``2/Width``. E.g.
-for *Width* = ``1``, set *Narrow* to ``2``.
+the *Narrowness* value must be equal to 2/ *Width*. 
+E.g. for *Width* to be 1, set *Narrow* to 2.
 
 

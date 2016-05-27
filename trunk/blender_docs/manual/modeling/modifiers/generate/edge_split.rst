@@ -32,7 +32,7 @@ Edge Angle
    two adjacent faces is greater than the *Split Angle*.
 
    Split Angle
-      On ``0``, all edges are split. On ``180``, no edges are split.
+      On 0: all edges are split. On 180: no edges are split.
 
 Sharp Edges
    When enabled, edges will be split if they were marked as sharp using :menuselection:`Edge Specials --> Mark Sharp`

@@ -277,7 +277,7 @@ then we see different results for each of the selected verts:
 - The middle vertex:
 
   is connected to one unselected vert with ``weight = 1``.
-  So the average weight is ``1.0`` in this case, thus the selected vert color has changed to red.
+  So the average weight is 1.0 in this case, thus the selected vert color has changed to red.
 
 - The right vert:
 

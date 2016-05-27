@@ -104,9 +104,9 @@ Examples
 Images Fig. Selecting control-point to Fig. Complete
 show a typical extrusion along the side of a surface.
 
-In *Selecting control-point* and :kbd:`Shift-R`,
+In Fig. Selecting control-point and :kbd:`Shift-R`,
 a border row of control points were highlighted by selecting a single control point,
-labeled ``C``, and then using the handy row select tool :kbd:`Shift-R`
+labeled "C", and then using the handy row select tool :kbd:`Shift-R`
 to select the rest of the control points.
 
 
@@ -127,8 +127,8 @@ That is because the *new* extruded surface section is bunched up there as well.
    Compete
 
 By moving the new section away from the area, the surface begins to "unbunch".
-The direction of movement is marked with a white arrow, labeled ``E``,
-and the new section is labeled ``S``.
+The direction of movement is marked with a white arrow, labeled "E",
+and the new section is labeled "S".
 
 You can continue this process of extruding - or adding - new surface sections until you have
 reached the final shape for your model.
@@ -231,7 +231,7 @@ Example
    Before and after
 
 
-In Fig. Before a row of control points has been selected by initially selecting the control point labeled ``A``
+In Fig. Before a row of control points has been selected by initially selecting the control point labeled "A"
 and using :kbd:`Shift-R` to select the remaining control points.
 Then, using the *Delete Menu* :kbd:`X`,
 the *selected* row of control points is erased, resulting in Fig. After.

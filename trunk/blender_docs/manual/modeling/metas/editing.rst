@@ -51,8 +51,8 @@ select it and activate *Scale* mode with :kbd:`S`.
    Stiffness.
 
 
-In Fig. Stiffness, the meta ball labeled ``A``,
-has a smaller *Stiffness* value than the one labeled ``B``.
+In Fig. Stiffness, the meta ball labeled "A",
+has a smaller *Stiffness* value than the one labeled "B".
 As you can see, the *green ring* radius is different for each of them.
 
 
@@ -169,7 +169,7 @@ it is as if the other metas were "included" or joined into the base one).
 Examples
 ========
 
-Fig. Meta ball base shows the *base* meta labeled ``B``.
+Fig. Meta ball base shows the *base* meta labeled "B".
 The other two *Meta* objects are *children*. Children's selection rings are always black,
 while the group's mesh is orange.
 Because the metas are grouped,
