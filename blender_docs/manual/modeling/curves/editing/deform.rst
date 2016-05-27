@@ -135,8 +135,6 @@ Let's make a simple example:
 
 
 - In Fig. Monkey deformations, you can see the Monkey at different positions along the curve.
-  To get a cleaner view over the deformation, I have activated *SubSurf* with level set to 2,
-  and *Set Smooth* on the Monkey mesh.
 
 .. tip::
 
