@@ -11,10 +11,10 @@ Strip Input Panel
 The Strip Input panel is used to controls the duration of the strip along with some basic transforms.
 
 Image Offset
-   Used to transform the strip by moving it in the ``X`` and ``Y`` direction.
+   Used to transform the strip by moving it in the X and Y direction.
 Image Crop
-   Used to crop the strip by stretching the image, use ``Top``, ``Left``,
-   ``Bottom``, and ``Right`` to control which part of the image is cropped.
+   Used to crop the strip by stretching the image, use *Top*, *Left*,
+   *Bottom*, and *Right* to control which part of the image is cropped.
 Trim Duration (hard)
    Controls at what frame the source of the strip starts and ends at.
 Trim Duration (soft)

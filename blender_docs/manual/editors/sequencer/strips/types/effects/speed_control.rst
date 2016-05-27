@@ -27,7 +27,7 @@ Select the clip and :menuselection:`Add --> Effect --> Speed Control` effect str
 Click to drop it and press :kbd:`N` to get the Properties.
 Uncheck the *Stretch to input strip length* option in the Effect Strip section.
 Set the Speed factor to be the factor by which you want to adjust the speed.
-To cut the displayed speed by 50%, enter ``0.5``.
+To cut the displayed speed by 50%, enter 0.5 .
 Now, a 275-frame clip will play at half speed, and thus display only the first 137 frames.
 
 If you want the remaining frames to show in slo-mo after the first set is displayed,
@@ -72,10 +72,10 @@ If you are rendering your video to a sequence set,
 you can effectively increase or decrease the number of individual image files created,
 by using a Global Speed value less than or greater than one, respectively. For example,
 if you captured a five-minute video at 30 fps and wanted to transfer that to film,
-which runs at 24 fps, you would enter a Global Speed of ``30/24``, or ``1.25``
+which runs at 24 fps, you would enter a Global Speed of 30/24, or 1.25
 (and Enable Frame Blending to give that film blur feel).
 Instead of producing ``5*60*30=9000`` frames, Blender would produce ``9000/1.25=7200=5*60*24`` frames.
-In this case, you set a ``start=1`` and ``end=7200``, set your Format output to Jpeg, 30fps,
+In this case, you set a *start* = 1 and *end* = 7200, set your Format output to ``jpeg`` 30fps,
 and image files ``0001.jpg`` through ``7200.jpg`` would be rendered out,
 but those images 'cover' the entire 9000 frames.
 The image file ``7200.jpg`` is the same a frame 9000.

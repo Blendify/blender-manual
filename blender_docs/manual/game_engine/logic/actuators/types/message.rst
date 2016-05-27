@@ -29,7 +29,7 @@ Subject
    Subject of message. Useful if sending certain types of message, such as "end-game",
    to a message sensor listening for "end game" ``and`` Quit Game actuator.
 Body
-   Body of message sent (only read by Python*).
+   Body of message sent (only read by Python).
 Text
    User specified text in body.
 Property

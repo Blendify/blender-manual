@@ -18,8 +18,8 @@ Properties Panel
    The Properties Panel contains options for the way the preview is displayed.
 View all Sequences :kbd:`Home`
    Zooms the display to show all strips.
-Show Preview ``1:1`` :kbd:`Numpad1`
-   Resizes preview to a ``1:1`` scale (actual size).
+Show Preview 1:1 :kbd:`Numpad1`
+   Resizes preview to a 1:1 scale (actual size).
 View Selected :kbd:`NumpadPeriod`
    Zooms in the display to fit only the selected strips
 
