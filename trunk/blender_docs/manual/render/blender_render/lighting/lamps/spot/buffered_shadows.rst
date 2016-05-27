@@ -87,11 +87,11 @@ Classic-Halfway
 Here are now the options specific to these generation methods:
 
 Size
-   The *Size* numeric field can have a value from ``512`` to ``10240``.
+   The *Size* numeric field can have a value from (512 to 10240).
    *Size* represents the resolution used to create a shadow map.
    This shadow map is then used to determine where shadows lay within a scene.
 
-   As an example, if you have a *Size* with a value of ``1024``,
+   As an example, if you have a *Size* with a value of 1024,
    you are indicating that the shadow data will be written to a buffer which will have a square
    resolution of **1024×1024** pixels/samples from the selected spotlight.
 
@@ -127,7 +127,7 @@ Filter Type
    anti-alias the buffered shadows.
 
    They are closely related to the *Samples* numeric field,
-   as when this setting is set to ``1``, shadow filtering is disabled,
+   as when this setting is set to 1, shadow filtering is disabled,
    so none of these buttons will have any effect what soever.
 
    Box
@@ -153,7 +153,7 @@ Filter Type
    more information on the various filtering/distribution methods and their uses.
 
 Samples
-   The *Samples* numeric field can have a value between ``1`` and ``16``.
+   The *Samples* numeric field can have a value between (1 and 16).
    It controls the number of samples taken per pixel when calculating shadow maps.
 
    The higher this value, the more filtered,
@@ -162,16 +162,16 @@ Samples
    The anti-aliasing method used is determined by having one of the *Box*,
    *Tent* or *Gauss* buttons activated (see above).
 
-   Having a *Samples* value of ``1`` is similar to turning off anti-aliasing for buffered shadows.
+   Having a *Samples* value of 1 is similar to turning off anti-aliasing for buffered shadows.
 
 Soft
-   The *Soft* numeric field can have a value between ``1.0`` and ``100.0``.
+   The *Soft* numeric field can have a value between (1.0 to 100.0).
    It indicates how wide an area is sampled when doing anti-aliasing on buffered shadows.
    The larger the *Soft* value,
    the more graduated/soft the area that is anti-aliased/softened on the edge of generated shadows.
 
 Sample Buffers
-   The *Sample Buffers* setting can be set to values ``1``, ``4`` or ``9``,
+   The *Sample Buffers* setting can be set to values (1, 4 or 9),
    and represents the number of shadow buffers that will be used when doing anti-aliasing on buffered shadows.
 
    This option is used in special cases,
@@ -182,10 +182,10 @@ Sample Buffers
    So this option allows you to have a sort of extra sample pass, done above the regular one
    (the one controlled by the *Box* / *Tent* / *Gauss*, *Samples* and *Soft* settings).
 
-   The default ``1`` value will disable this option.
+   The default 1 value will disable this option.
 
    Higher values will produce a smoother anti-aliasing -
-   but be careful: using a *Sample Buffers* of ``4`` will require four times as much memory and process time,
+   but be careful: using a *Sample Buffers* of 4 will require four times as much memory and process time,
    and so on, as Blender will have to compute that number of sample buffers.
 
 
@@ -227,7 +227,7 @@ Common options
 The following settings are common to all buffered shadow generation method.
 
 Bias
-   The *Bias* numeric field can have a value between ``0.001`` and ``5.0``.
+   The *Bias* numeric field can have a value between (0.001 to 5.0).
    *Bias* is used to add a slight offset distance between an object and the shadows cast by it.
    This is sometimes required because of inaccuracies in the calculation which determines
    weather an area of an object is in shadow or not.
@@ -258,7 +258,7 @@ Bias
    using the *Bias* slider (*Material* menu, *Shadow* panel).
    This value is a factor by which the *Bias* value of each *Spot* buffered shadows lamp is multiplied,
    each time its light hits an object using this material.
-   The ``0.0`` and ``1.0`` values are equivalent - they do not alter the lamp's *Bias* original value.
+   The (0.0 and 1.0) values are equivalent - they do not alter the lamp's *Bias* original value.
 
 
 Clip Start & Clip End
@@ -267,8 +267,8 @@ Clip Start & Clip End
 
    The start point of the line represents *Clip Start* 's value and the end of the line
    represents *Clip End* 's value.
-   *Clip Start* can have a value between ``0.1`` and ``1000.0``, and *Clip End*,
-   between ``1.0`` and ``5000.0``. Both values are represented in Blender Units.
+   *Clip Start* can have a value between (0.1 to 1000.0), and *Clip End*,
+   between (1.0 to 5000.0). Both values are represented in Blender Units.
 
    *Clip Start* indicates the point after which buffered shadows can be present within the *Spot* light area.
    Any shadow which could be present before this point is ignored and no shadow will be generated.

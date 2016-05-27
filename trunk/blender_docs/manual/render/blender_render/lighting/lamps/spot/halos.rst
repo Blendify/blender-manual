@@ -26,16 +26,16 @@ Intensity
    the less visible the volumetric effect is,
    while higher *Intensity* values give a much more noticeable and dense volumetric effect.
 Step
-   This field can have a value between ``0`` and ``12``.
+   This field can have a value between (0 to 12).
    It is used to determine whether this *Spot* will cast volumetric shadows,
    and what quality those volumetric shadows will have.
-   If *Step* is set to a value of ``0``, then no volumetric shadow will be generated.
+   If *Step* is set to a value of 0, then no volumetric shadow will be generated.
    Unlike most other controls, as the *Step* value increases,
    the quality of volumetric shadows decreases (but take less time to render), and *vice versa*.
 
-.. tip:: *Step* values
+.. tip:: Step values
 
-   A value of ``8`` for *Halo Step* is usually a good compromise between speed and accuracy.
+   A value of 8 for *Halo Step* is usually a good compromise between speed and accuracy.
 
 
    Blender only simulates volumetric lighting in *Spot* lamps when using its internal renderer.

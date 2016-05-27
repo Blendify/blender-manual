@@ -144,7 +144,7 @@ Pos
 .. note:: Reordering colors
 
    If the position of the color marks are reordered,
-   they will be automatically renumbered so that they always start with ``0``
+   they will be automatically renumbered so that they always start with 0
    from the left and increment to the right.
 
 

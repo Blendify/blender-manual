@@ -34,9 +34,7 @@ A quick preview of the light settings.
 
 
 Lamp
-
 ----
-
 
 Distance
    The *Dist* field indicates the number of Blender Units (BU)
@@ -47,12 +45,11 @@ Distance
    meaning that it will not always react the same;
    see the page about :doc:`light falloff </render/blender_render/lighting/lights/light_attenuation>`.
 
-
-- The *Sun* and *Hemi* Lamps are another class of Lamps which uses a constant falloff.
-  Those lamps don't have a *Dist* field, and are often called "Base Lighting Lamps".
+   - The *Sun* and *Hemi* Lamps are another class of Lamps which uses a constant falloff.
+     Those lamps don't have a *Dist* field, and are often called "Base Lighting Lamps".
 
 Energy
-   The intensity of the light source's illumination (from ``0.0`` to ``10.0``).
+   The intensity of the light source's illumination from (0.0 to 10.0).
 Color
    The color of the light source's illumination. Opens a color swatch.
 Negative
@@ -63,5 +60,4 @@ Specular
    The Lamp creates specular highlights.
 Diffuse
    The Lamp does diffuse shading.
-
 

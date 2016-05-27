@@ -154,17 +154,17 @@ Viscosity
    from the Frenchman Jean-Louis Poiseuille, who discovered the laws on "the laminar flow of viscous fluids"),
    and commonly centiPoise units (cP, equal to 0.001 Pa.s, *sentipwaz*).
    Blender, on the other hand, uses the kinematic viscosity
-   (which is dynamic viscosity in Pa.s, divided by the density in kg.m :sup:`-3`, unit ``m``:sup:`2` ``.s``:sup:`-1`).
+   (which is dynamic viscosity in Pa.s, divided by the density in kg.m\ :sup:`-3`\, unit m\ :sup:`2`\.s\ :sup:`-1`\).
    The table below gives some examples of fluids together with their dynamic and kinematic viscosities.
 
    Manual entries are specified by a floating point number and an exponent.
    These floating point and exponent entry fields (scientific notation)
    simplify entering very small or large numbers. The viscosity of water at room temperature is 1.002 cP,
-   ou 0.001002 Pa.s; the density of water is about 1000 kg.m :sup:`-3`, which gives us a kinematic viscosity of
-   0.000001002 m :sup:`2`.s :sup:`-1` - so the entry would be 1.002 times 10 to the minus six
-   (``1.002?10``:sup:`-6` in scientific notation). Hot Glass and melting iron is a fluid, but very thick;
-   you should enter something like ``1.0?10``:sup:`0` (= 1.0) as its kinematic viscosity
-   (indicating a value of ``1.0?10``:sup:`6` cP).
+   ou 0.001002 Pa.s; the density of water is about 1000 kg.m\ :sup:`-3`\, which gives us a kinematic viscosity of
+   0.000001002 m\ :sup:`2`\.s\ :sup:`-1`\ - so the entry would be 1.002 times 10 to the minus six
+   (1.002×10\ :sup:`-6`\ in scientific notation). Hot Glass and melting iron is a fluid, but very thick;
+   you should enter something like 1.0×10\ :sup:`0`\ (= 1.0) as its kinematic viscosity
+   (indicating a value of 1.0×10\ :sup:`6`\ cP).
 
    Note that the simulator is not suitable for non-fluids, such as materials that do not "flow".
    Simply setting the viscosity to very large values will not result in rigid body behavior,
@@ -220,25 +220,25 @@ Viscosity
 
    * - Fluid
      - dynamic viscosity (in cP)
-     - kinematic viscosity (Blender, in m :sup:`2`.s :sup:`-1`)
+     - kinematic viscosity (Blender, in m\ :sup:`2`\.s\ :sup:`-1`\)
    * - Water (20- C)
-     - 1.002×10 :sup:`0` (1.002)
-     - 1.002×10 :sup:`-6` (0.000001002)
+     - 1.002×10\ :sup:`0`\ (1.002)
+     - 1.002×10\ :sup:`-6`\ (0.000001002)
    * - Oil SAE 50
-     - 5.0×10 :sup:`2` (500)
-     - 5.0×10 :sup:`-5` (0.00005)
+     - 5.0×10\ :sup:`2`\ (500)
+     - 5.0×10\ :sup:`-5`\ (0.00005)
    * - Honey (20- C)
-     - 1.0×10 :sup:`4` (10,000)
-     - 2.0×10 :sup:`-3` (0.002)
+     - 1.0×10\ :sup:`4`\ (10,000)
+     - 2.0×10\ :sup:`-3`\ (0.002)
    * - Chocolate Syrup
-     - 3.0×10 :sup:`4` (30,000)
-     - 3.0×10 :sup:`-3` (0.003)
+     - 3.0×10\ :sup:`4`\ (30,000)
+     - 3.0×10\ :sup:`-3`\ (0.003)
    * - Ketchup
-     - 1.0×10 :sup:`5` (100,000)
-     - 1.0×10 :sup:`-1` (0.1)
+     - 1.0×10\ :sup:`5`\ (100,000)
+     - 1.0×10\ :sup:`-1`\ (0.1)
    * - Melting Glass
-     - 1.0×10 :sup:`15`
-     - 1.0×10 :sup:`0` (1.0)
+     - 1.0×10\ :sup:`15`\
+     - 1.0×10\ :sup:`0`\ (1.0)
 
 
 Realworld-size
@@ -247,7 +247,6 @@ Realworld-size
    The size set here is for the longest side of the domain bounding box.
 
 Optimization
-
    Gridlevel
       How many adaptive grid levels to be used during simulation -
       setting this to -1 will perform automatic selection.
@@ -279,8 +278,7 @@ Free Slip
 Part Slip
    It is a two intermediate. It is almost Noslip, 1 in the Free exactly the same in 0.
 
-*Surface*
-
+Surface
    Surface Smoothing
       Amount of smoothing to be applied to the fluid surface.
       1.0 is standard, 0 is off, while larger values increase the amount of smoothing.
@@ -293,7 +291,7 @@ Part Slip
       Be careful in combination with large smoothing values -
       this can lead to long computation times due to the surface mesh generation.
 
-   *Hide fluid surface*
+   Hide fluid surface
 
 
 Domain Particles

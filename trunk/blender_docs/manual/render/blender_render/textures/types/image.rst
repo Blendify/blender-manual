@@ -302,10 +302,10 @@ The top right ball has had a pink vertex color applied to the vertical band of f
 pick a pink color, and :menuselection:`Paint --> Set Vertex Colors`).
 The finger is mapped to the middle vertical band of faces,
 and VCol and Face Textures are enabled.
-The texture is mapped to Alpha black and multiplies the base material alpha value which is ``1.0``.
-Thus, white areas of the texture are ``1.0``, and ``1.0`` times ``1.0`` is ``1.0``
+The texture is mapped to Alpha black and multiplies the base material alpha value which is 1.0.
+Thus, white areas of the texture are 1.0, and 1.0 times 1.0 is 1.0
 (last time I checked, at least),
-so that area is opaque and shows. Black areas of the procedural texture, ``0.0``,
+so that area is opaque and shows. Black areas of the procedural texture, 0.0,
 multiply the base material to be transparent. As you can see, the unmapped faces
 (left and right sides of the ball) show the vertex paint (none, which is gray)
 and the painted ones show pink, and the middle stripe that is both painted and mapped change

@@ -108,8 +108,8 @@ Z Direction
 
 Power (Power)
    How the power of the force field changes with the distance from the force field.
-   If ``r`` is the distance from the center of the object, the force changes with ``1/r``:sup:`Power`.
-   A *Fall-off* of 2 changes the force field with ``1/r``:sup:`2`,
+   If *r* is the distance from the center of the object, the force changes with 1/ *r* :sup:`power`.
+   A *Fall-off* of 2 changes the force field with 1/ *r* :sup:`2`,
    which is the falloff of gravitational pull.
 
 Max Distance

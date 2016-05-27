@@ -20,11 +20,11 @@ Emission output
 
    * - .. figure:: /images/cycles_nodes_shader_emission.jpg
 
-         Emission shader, with strength at ``1.0``
+         Emission shader, with strength at 1.0 .
 
      - .. figure:: /images/cycles_nodes_shader_emission_bright.jpg
 
-         Emission shader, with strength at ``3.0``
+         Emission shader, with strength at 3.0 .
 
 
 Cycles uses a physically correct light falloff by default,
