@@ -1,3 +1,4 @@
+
 ***************
 Timeline Editor
 ***************
@@ -335,7 +336,7 @@ Auto Keyframe
    then move an object in the 3d view, or set a new value for a property in the UI.
 
    When you set a new value for the properties,
-   blender will add keyframes on the current frame for the transform properties.
+   Blender will add keyframes on the current frame for the transform properties.
 
    *Auto Keying Set* - Optional if Auto Keyframe enabled.
    *Auto Keyframe* will insert new keyframes for the properties in the active *Keying Set*.
@@ -362,7 +363,7 @@ Active Keying Set
    They are made so the user can record multiple properties at the same time.
 
    With a keying set selected, when you insert a keyframe,
-   blender will add keyframes for the properties in the active *Keying Set*.
+   Blender will add keyframes for the properties in the active *Keying Set*.
 
    There are some built in keying sets, 'LocRotScale', and also custom keying sets.
 
@@ -374,7 +375,7 @@ Delete Keyframes
    Delete keyframes on the current frame for the properties in the active *Keying Set*.
 
 
-.. remove and compare with the User Preferences docs
+.. TODO remove and compare with the User Preferences docs
 
 User Preferences
 ================

@@ -276,7 +276,7 @@ let's dynamically control a *Wave* modifier with a modified vertex group.
    add a vertex group. Assign to it all your mesh's vertices with 1.0 weight.
 
 #. Go back to *Object mode*. Then, go to the *Modifiers* properties, and add a *Vertex Weight Proximity* modifier.
-   Set the Distance mode to *Object*. Select your vertex group, and the target object you want (here I used the lamp).
+   Set the Distance mode to *Object*. Select your vertex group, and the target object you want.
 
    You will likely have to adjust the linear mapping of the weights produced by the
    *Vertex Weight Proximity* modifier. To do so, edit *Lowest Dist* and
@@ -400,13 +400,12 @@ This way, all vertices are affected. As none are in the affected vertex group,
 they all have a default weight of 0.0, which is replaced by the second default weight 
 of 1.0. And all those vertices are also added to the affected vertex group.
 
-Now, select or create a masking texture - here I chose a default *Magic* one.
+Now, select or create a masking texture.
 The values of this texture will control how much of the "second weight" of 1.0
 replaces the "first weight" of 0.0 ... In other words, they are taken as weight values!
 
 You can then select which texture coordinates and channel to use.
 Leave the mapping to the default *Local* option, and play with the various channels...
-
 
 .. list-table::
    Texture channel variations.
@@ -439,7 +438,6 @@ it does nothing! Change it to something like in Fig. A customized mapping curve,
 which maps (0.0, 0.5) to (0.0, 0.25) and (0.5,1.0) to (0.75, 1.0), 
 thus producing nearly only weights below 0.25,
 and above 0.75: this creates great "walls" in the waves...
-
 
 .. list-table::
    Custom mapping curve.

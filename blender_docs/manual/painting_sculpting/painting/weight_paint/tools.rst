@@ -166,7 +166,7 @@ Clean
 Removes weights below a given threshold.
 This tool is useful for clearing your weight groups of very low (or zero-) weights.
 
-In the example shown, I used a cutoff value of 0.139 (see operator options below)
+In the example shown, a cutoff value of 0.139 is used (see operator options below)
 so all blue parts (left side) are cleaned out (right side).
 
 Note, the images use the *Show Zero weights* =Active option so that unreferenced
@@ -285,16 +285,14 @@ then we see different results for each of the selected verts:
   So the average weight is 0, thus the selected vert color has not changed at all
   (it was already blue before blend was applied).
 
-
 .. figure:: /images/Modeling-Meshes-wp-tools-blend3.jpg
 
-   Blending
+   Blending.
 
 
 Finally let's look at a practical example (and explain why this tool is named Blend).
-In this example I have selected the middle edge loop.
-And I want to use this edge loop for blending the left side to the right side of the area.
-
+In this example, the middle edge loop has been selected
+and it will be used for blending the left side to the right side of the area.
 
 - All selected vertices have 2 unselected adjacent verts.
 - The average weight of the unselected verts is (1 + 0) / 2 = 0.5

@@ -6,30 +6,29 @@ Near Sensor
 .. figure:: /images/BGE_Sensor_Near.jpg
    :width: 300px
 
-   Near sensor
+   Near sensor.
 
 
 A *Near* sensor detects objects that move to within a specific distance of
 themselves. It can filter objects with properties, like the *Collision* sensor.
 
 
-See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
+Options
+=======
 
-Special Options:
+See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
 
 Property
    This field can be used to limit the sensor to look for only those objects with this property.
-
 Distance
-   The number of blender units it will detect objects within.
-
+   The number of Blender units it will detect objects within.
 Reset
    The distance the object needs to be to reset the sensor (send a FALSE pulse).
 
-Notes:
-1) The Near sensor can detect objects "through" other objects (walls etc).
-2) Objects must have "Actor" enabled to be detected.
+.. note::
 
+   #. The Near sensor can detect objects "through" other objects (walls etc).
+   #. Objects must have "Actor" enabled to be detected.
 
 .. note:: Note about soft bodies
 

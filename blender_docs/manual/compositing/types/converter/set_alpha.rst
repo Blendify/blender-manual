@@ -7,7 +7,7 @@ Set Alpha Node
    :align: right
    :width: 150px
 
-   Set Alpha Node
+   Set Alpha Node.
 
 This node adds an alpha channel to a picture. Some image formats, such as JPEG,
 do not support an alpha channel. In order to overlay a JPEG image on top of a background,
@@ -39,10 +39,9 @@ the scene fades to a black screen. You can also "fade to white' or whatever colo
 but black is a good neutral color that is easy on the eyes and intellectually "resets" the
 viewer's mind. The node map below shows how to do this using the Set Alpha node.
 
-
 .. figure:: /images/Compositing-SetAlpha_fadetoblack.jpg
 
-   Fade To Black
+   Fade To Black.
 
 
 In the example above, the alpha channel of the swirl image is ignored.
@@ -59,11 +58,10 @@ to produce the composite image. The SetAlpha node will thus, depending on the fr
 produce a black image that has some degree of transparency.
 Setup and Animate, and you have an image sequence that fades to black over a 2-second period.
 
-
 .. note:: No Scene information used
 
    This example node map does not use the RenderLayer.
-   To produce this 2-second animation, no blender scene information was used.
+   To produce this 2-second animation, no Blender scene information was used.
    This is an example of using Blender's powerful compositing abilities
    separate from its modeling and animation capabilities.
    (A Render Layer could be substituted for the Image layer,
@@ -78,10 +76,9 @@ you will want to present the title of your animation over a background.
 You can have the title fly in, or fade it in. To fade it in,
 use the SetAlpha node with the Time node as shown below.
 
-
 .. figure:: /images/Compositing-SetAlpha_FadeInTitle.jpg
 
-   Using Set Alpha to Fade in a Title
+   Using Set Alpha to Fade in a Title.
 
 
 In the above example, a Time curve provides the Alpha value to the input socket.
@@ -92,12 +89,14 @@ Notice the *ConvertPre* -Multiply button is NOT enabled; this produces a composi
 where the title lets the background image show through where even the background image is
 transparent, allowing you to layer images on top of one another.
 
+
 Using SetAlpha to Colorize a BW Image
 =====================================
 
 .. figure:: /images/Compositing-SetAlpha_Colorize.jpg
 
-   Using Set Alpha to Colorize an Image
+   Using Set Alpha to Colorize an Image.
+
 
 In the example above, notice how the blue tinge of the render input colors the swirl.
 You can use the Set Alpha node's color swatch with this kind of node map to add a consistent color to a BW image.

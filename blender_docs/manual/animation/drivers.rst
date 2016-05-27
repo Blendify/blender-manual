@@ -402,12 +402,11 @@ Scripted Expression
    Info Header.
 
 
-By default blender will not autorun python scripts.
+By default Blender will not autorun python scripts.
 
 If using a *Scripted Expression* Driver Type,
 you will have to open the file as *Trusted Source*,
 or set *Auto Run Python Scripts* in :menuselection:`User Preferences --> File --> Auto Execution`.
-
 
 .. figure:: /images/Drivers_Auto_Run_C.jpg
 

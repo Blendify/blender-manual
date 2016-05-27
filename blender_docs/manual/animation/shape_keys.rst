@@ -283,9 +283,8 @@ starts misbehaving.
 The number displayed to the right of the key name is the value and is used in relative shape
 keys. It has no effect on absolute shape keys, so ignore it.
 
-When you reset the timings blender iterates through the shape keys
+When you reset the timings Blender iterates through the shape keys
 assigning them frame values incrementing by 0.1 from key to key.
-
 
 .. list-table::
    :header-rows: 1
@@ -310,7 +309,6 @@ assigning them frame values incrementing by 0.1 from key to key.
 If you delete a shape key this does not automatically alter the frame values
 assigned to remaining shape keys.
 
-
 .. list-table::
    :header-rows: 1
 
@@ -327,14 +325,17 @@ assigned to remaining shape keys.
      - 0.4
      - 40
 
+
 The Evaluation Time is how you choose which shape key is active, and how active it is.
 The interesting values range from 10 .. (n*10) where n is the number of shape keys.
 (assuming you have not deleted or added any keys since the last Reset Timing).
 If you are using shape keys for animation,
 99% of the time you will be putting keyframes on this Evaluation Time field.
 
-Remember: if you are having problems with your absolute shape keys,
-there is a good chance that you need to Reset Timing.
+.. note::
+
+   if you are having problems with your absolute shape keys,
+   there is a good chance that you need to Reset Timing.
 
 
 Shape Key Operators

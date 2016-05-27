@@ -25,7 +25,7 @@ Basic Usage
 
 .. figure:: /images/Dupliface-Example01-1Start.jpg
 
-   A cube and a sphere
+   A cube and a sphere.
 
 
 In this example we will use a UV sphere with an extruded "north pole" as our base object and
@@ -33,15 +33,13 @@ cube as our parent mesh. To parent the sphere to the cube, in *Object mode*,
 first :kbd:`RMB` select the sphere, then :kbd:`Shift-RMB` select the cube
 (order is very important here), and finally :kbd:`Ctrl-P` to parent.
 
-
 .. figure:: /images/Dupliface-Example01-2DuplifaceEnabled.jpg
 
-   Duplication Faces applied to the cube
+   Duplication Faces applied to the cube.
 
 
 Next, in the *Object mode* *Duplication* panel,
 enable *Faces*. The sphere is duplicated one for each face of the cube.
-
 
 .. note:: Inherited properties
 
@@ -59,12 +57,12 @@ Scale
 
 .. figure:: /images/Dupliface-Example01-3ScaleEnabled.jpg
 
-   Scale enabled
+   Scale enabled.
 
 
 .. figure:: /images/Dupliface-Example01-4ScaleChanged.jpg
 
-   Top face of cube scaled down
+   Top face of cube scaled down.
 
 
 By enabling *Scale* for the parent object,
@@ -84,7 +82,7 @@ the duplicates.
 One workaround is to move the origin of the duplicator mesh off of the plane of the faces.
 
 If the geometry of the children is not symmetrical then the orientation of the face
-(as determined by the order of its vertices) could matter. As of 2.70 blender does not have
+(as determined by the order of its vertices) could matter. As of 2.70 Blender does not have
 tools which allow you to adjust the ordering of the vertices on a face.
 
 However, there is a workflow that lets you control for this. Make a single square and enable

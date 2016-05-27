@@ -3,15 +3,6 @@
 Subsurface Scattering
 *********************
 
-..    Comment: <!--
-   {{Table| valign="top"
-   |[[Image:Blender3D Chihuahua Marmor WithSSS.jpg|thumb|300px|
-      '''Image 1a:''' Marble Dog with SSS. Watch especially the ears and the paws.]]
-   |[[Image:Blender3D Chihuahua Marmor.jpg|thumb|300px|
-      '''Image 1b:''' And the same without SSS.]]
-   }}
-   --> .
-
 Many organic and inorganic materials are not totally opaque right at the surface,
 so light does not just bounce off the top surface. Instead,
 some light also penetrates the skin surface deeply, and scatters around inside,
@@ -46,7 +37,6 @@ Blender calculates SSS in two steps:
   but don't bother too much with the math behind it.
 
 Instead let's see what SSS does to a distinct light point.
-
 
 .. list-table::
 
@@ -127,7 +117,7 @@ Scale
    Scale of 1.0 means 1 Blender unit equals 1 millimeter,
    scale of 0.001 means 1 Blender unit equals 1 meter.
    If you want to work out what scale value to use in your scene,
-   just use the formula: (size in blender units)/(real world size in millimeters)=scale.
+   just use the formula: (size in Blender units)/(real world size in millimeters)=scale.
 
 Scattering Color (Albedo)
    Albedo is the probability that light will survive a scattering event.

@@ -6,13 +6,14 @@ Camera Solver Constraint
 The *Camera Solver* constraint gives the owner of this constraint,
 the location and rotation of the "solved camera motion".
 
-The "solved camera motion" is where blender thinks the physical, real world camera was,
+The "solved camera motion" is where Blender thinks the physical, real world camera was,
 when it filmed the video footage, relative to the thing being tracked.
 
 .. note::
 
    This constraint only works after you have set up a minimum of eight markers and pressed
    :doc:`Solve Camera Motion </editors/movie_clip_editor/tracking/clip/tools>`.
+
 
 Movie Clip Editor: :menuselection:`Tool Shelf --> Solve --> Solve Camera Motion`
 

@@ -252,38 +252,22 @@ Factor
 
    The Fresnel diffuse shader settings.
 
+Emit
+   Amount of light to emit
+Ambient
+   Amount of global ambient color the material receives
+Translucency
+   Amount of diffuse shading on the back side
+Shadeless
+   Make this material insensitive to light or shadow
+Tangent Shading
+   Use the material's tangent vector instead of the normal for shading&nbsp;&mdash;
+   for anisotropic shading effects (e.g. soft hair and brushed metal).
+   
+   .. seealso::
 
-..    Comment: <!--
-   = Other Options =
-   [[File:Manual-2.5-Material-ShadingMenu.png|thumb|Shading menu, default settings]]
-   In the separate {{literal|Shading}} tab six more options are available:
-   Emit
-   :Amount of light to emit
-   Ambient
-   :Amount of global ambient color the material receives
-   Translucency
-   :Amount of diffuse shading on the back side
-   Shadeless
-   :Make this material insensitive to light or shadow
-   Tangent Shading
-   :Use the material's tangent vector instead of the normal for shading&nbsp;&mdash;
-    for anisotropic shading effects (e.g. soft hair and brushed metal).
-    This shading was
-    `introduced in 2.42 <https://www.blender.org/development/release-logs/blender-242/material-features/>`__;
-    see also settings for strand rendering in the menu further down and in the Particle System menu.
-   Cubic Interpolation
-   :Use cubic interpolation for diffuse values, for smoother transitions between light areas and dark areas
-   --> .
+      Settings for strand rendering in the menu further down and in the Particle System menu.
 
-..    Comment: <!--
-   {{Table|
-   |-
-   | valign="top" | [[Image:Manual - Light - Lamps - Sphere Non-Cubic Shadow.png|thumb|right|200px|
-     Without Cubic enabled.]]
-   | valign="top" | [[Image:Manual - Light - Lamps - Sphere Cubic Shadow.png|thumb|right|200px|
-     With Cubic enabled.]]
-   | valign="top" | [[Image:Manual - Light - Lamps - Sphere Cubic Shadow Animated.png|thumb|right|200px|
-     Animation switching between Non-Cubic and Cubic shadowing.
-     You will need a modern, standards compliant, browser to see the animation. Click to View Animation.]]
-   }}
-   --> .
+
+Cubic Interpolation
+   Use cubic interpolation for diffuse values, for smoother transitions between light areas and dark areas.

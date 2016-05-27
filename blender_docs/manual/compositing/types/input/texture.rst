@@ -18,7 +18,7 @@ is selected and introduced through the value and/or color socket.
 
 .. note::
 
-   Please read up on the Blender Library system for help on importing and linking to textures in other blender files.
+   Please read up on the Blender Library system for help on importing and linking to textures in other blend-files.
 
 
 .. note::

@@ -78,12 +78,11 @@ However, you can have "2D" surfaces made of curves
 or, to a lesser extent, the filling of closed 2D curves. And you can have "1D" curves made of surfaces,
 like a NURBS surface with only one row (either in U or V direction) of control points produces only a curve...
 
-Visually you can tell which is which by entering *Edit mode* and looking at the 3D window's header:
+Visually you can tell which is which by entering *Edit mode* and looking at the 3D View header:
 either the header shows *Surface* or *Curve* as one of the menu choices. Also,
 you can :doc:`extrude </modeling/curves/editing/extrude>` a whole NURBS surface curve to create a surface,
-but you can't with a simple NURBS curve (we talk here about the "standard" *Extrude* tool,
-the one activated with the *E* shortcut, not the quite-specific curve extrusion tools - yes, I know,
-it's not easy to follow...).
+but you can't with a simple NURBS curve.
+
 
 .. _modeling-surfaces-rows-grids:
 
@@ -133,7 +132,6 @@ one for each interpolation axis (U and V). Note that unlike with curves, you hav
 Fig. Resolution 1x1 is an example of a surface resolution of 3 for both U and V. Fig. Resolution 3x3 surface
 is an example of a surface resolution of 12 for both U and V.
 
-
 .. figure:: /images/NurbsSurfaceResoltion.jpg
 
    Resolution panel.
@@ -160,7 +158,6 @@ one for each U and V axis. Here again, they can be one of *Cyclic*, *Endpoint*,
 or *Bezier*, with the same properties as for curves. And as with curves, only open surfaces
 (in the relevant direction) are affected by this setting...
 
-
 .. figure:: /images/Surfaces-Endpoint-U-Ex.jpg
 
    Endpoint U.
@@ -184,7 +181,6 @@ For high Fig. Orders 1 the surface pulls away from the control points,
 creating a smoother surface - assuming that the
 `Surface Resolution`_ is high enough. For lowest Fig. Orders 2 the surface follows the control points,
 creating a surface that tends to follow the grid cage.
-
 
 .. figure:: /images/NurbsSurfaceOrderExample.jpg
 
@@ -252,7 +248,6 @@ Primitives
 To help get started in creating surfaces there are four preset NURBS surfaces, found in the 
 :menuselection:`Add --> Surface --> NURBS Surface, NURBS Tube, NURBS Sphere and NURBS Torus`.
 
-
 .. figure:: /images/NurbsPrimitives.jpg
 
    NURBS surface primitives.
@@ -261,9 +256,9 @@ To help get started in creating surfaces there are four preset NURBS surfaces, f
 There are also two preset NURBS surface curves (with only one control point on each V-row):
 *NURBS Curve* and *NURBS Circle*.
 
-
 .. figure:: /images/NurbsCurvePrimitives.jpg
 
    NURBS curve primitives.
+
 
 Note how a circle NURBS surface is never filled, unlike its "real" curve counterpart...

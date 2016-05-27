@@ -45,17 +45,16 @@ Rotation
 Scale
    The object's scale, relative to its center, in local coordinates
    (i.e. the *Scale X* value represents the scale along the local X-axis).
-   Each object (cube, sphere, etc.), when created, has a scale of one blender unit in each local direction.
+   Each object (cube, sphere, etc.), when created, has a scale of one Blender unit in each local direction.
    To make the object bigger or smaller, you scale it in the desired dimension.
 Dimensions
-   The object's basic dimensions (in blender units) from one outside edge to another, as if measured with a ruler.
+   The object's basic dimensions (in Blender units) from one outside edge to another, as if measured with a ruler.
    For multi-faceted surfaces, these fields give the dimensions of the bounding box
    (aligned with the local axes - think of a cardboard box just big enough to hold the object).
 
-.. Comment: <!-- ;{{Literal|Link Scale}}
-   :If this toggle-button is activated the relation (proportion) between the X, Y and Z values in the
-   {{Literal|Scale}} and the {{Literal|Dim}} fields is always preserved.
-   Changing one value will change all the others as well with the same multiplication-factor. --> .
+.. If this toggle-button is activated the relation (proportion) between the X, Y and Z values in the
+   *Scale* and the *Dim* fields is always preserved.
+   Changing one value will change all the others as well with the same multiplication-factor.
 
 Use this panel to either edit or display the object's transform properties such as position,
 rotation and/or scaling. These fields change the object's center and then affects the aspect

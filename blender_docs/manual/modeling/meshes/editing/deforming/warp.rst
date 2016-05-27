@@ -36,9 +36,6 @@ Usage
    In this example, a plane is warped around the 3D cursor by the indicated number of degrees.
 
 
-..    Comment: <!--[[File:3D-interaction_Transformation_Advanced_Warp_warp-toolshelf-f6.png|thumb|
-                    right|300px|{{Literal|Warp}} Angle Slider.]]--> .
-
 Select the elements you want to operate on and activate the *Warp* transform
 function. The *Warp* option can be invoked from the
 :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Warp` menu option.
