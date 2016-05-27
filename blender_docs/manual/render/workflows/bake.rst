@@ -5,18 +5,16 @@ Render Baking
 
 Baking, in general, is the act of pre-computing something in order to speed up some other
 process later down the line.
-Rendering from scratch takes a lot of time depending on the options you choose. Therefore,
-Blender allows you to "bake" some parts of the render ahead of time, for select objects. Then,
-when you press Render, the entire scene is rendered much faster,
+Rendering from scratch takes a lot of time depending on the options you choose.
+Therefore, Blender allows you to "bake" some parts of the render ahead of time, for select objects.
+Then, when you press Render, the entire scene is rendered much faster,
 since the colors of those objects do not have to be recomputed.
 
 Render baking creates 2D bitmap images of a mesh object's rendered surface.
 These images can be re-mapped onto the object using the object's UV coordinates.
-Baking is done for each individual mesh,
-and can only be done if that mesh has been UV-unwrapped.
-While it takes time to set up and perform, it saves render time.
-If you are rendering a long animation, the time spent baking can be much less than time spent
-rendering out each frame of a long animation.
+Baking is done for each individual mesh, and can only be done if that mesh has been UV-unwrapped.
+While it takes time to set up and perform, it saves render time. If you are rendering a long animation,
+the time spent baking can be much less than time spent rendering out each frame of a long animation.
 
 Use Render Bake in intensive light/shadow solutions,
 such as AO or soft shadows from area lights. If you bake AO for the main objects,
@@ -50,9 +48,8 @@ Options
 =======
 
 .. figure:: /images/render-bake-ao.jpg
-   :width: 329px
 
-   Ambient Occlusion
+   Ambient Occlusion.
 
 
 Bake Mode
@@ -62,7 +59,6 @@ Full Render
 ^^^^^^^^^^^
 
 Bakes all materials, textures, and lighting except specularity and SSS.
-
 
 Ambient Occlusion
 ^^^^^^^^^^^^^^^^^
@@ -79,15 +75,13 @@ Bakes shadows and lighting.
 
 
 .. figure:: /images/render-bake-norm.jpg
-   :width: 330px
 
-   Normals
+   Normals.
 
 
 .. figure:: /images/render-bake-normspace.jpg
-   :width: 217px
 
-   Normal Space
+   Normal Space.
 
 
 Normals
@@ -120,7 +114,6 @@ Bakes colors of materials and textures only, without shading.
 
 
 .. figure:: /images/render-bake-disp.jpg
-   :width: 329px
 
    Displacement
 
@@ -171,9 +164,8 @@ Bakes specular color or specular intensity values.
 
 
 .. figure:: /images/render-bake-fullrender.jpg
-   :width: 328px
 
-   Full Render
+   Full Render.
 
 
 Additional Options
