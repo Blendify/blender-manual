@@ -373,29 +373,3 @@ Insert Keyframes
    Insert keyframes on the current frame for the properties in the active *Keying Set*.
 Delete Keyframes
    Delete keyframes on the current frame for the properties in the active *Keying Set*.
-
-
-.. TODO remove and compare with the User Preferences docs
-
-User Preferences
-================
-
-Some related user preferences from the *Editing* tab.
-
-Playback
-   Allow Negative Frames
-      Time Cursor can be set to negative frames with mouse or keyboard.
-      When using *Use Preview Range*, this also allows playback.
-Keyframing
-   Visual Keying
-      When an object is using constraints, the objects property value doesnt actually change.
-      *Visual Keying* will add keyframes to the object property,
-      with a value based on the visual transformation from the constraint.
-   Only Insert Needed
-      This will only insert keyframes if the value of the propery is different.
-   Auto Keyframing
-      Enable *Auto Keyframe* by default for new scenes.
-   Show Auto Keying Warning
-      Displays a warning at the top right of the *3D View*, when moving objects, if *Auto Keyframe* is on.
-   Only Insert Available
-      With *Auto Keyframe* enabled, this will only add keyframes to channel F-Curves that already exist.
