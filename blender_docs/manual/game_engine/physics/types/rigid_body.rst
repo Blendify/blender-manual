@@ -29,7 +29,7 @@ Options
 Actor
    Enables detection by Near and Radar Sensors. Python property: ``obj.game.use_actor``
 Ghost
-   Disables collisions completely, similar to :doc:`No collision</game_engine/physics/types/no_collision>`. ``Python property: obj.game.use_ghost``
+   Disables collisions completely, similar to :doc:`No collision </game_engine/physics/types/no_collision>`.
 Invisible
    Does not display, the same as setting the object to unrendered (such as unchecking the "Camera"
    icon in the :doc:`Outliner </editors/outliner>`. Python property: ``obj.use_render``
