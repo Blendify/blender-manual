@@ -53,7 +53,7 @@ Surface Response
    Friction
       Resistence of object to movement. Specifies how much velocity is lost when objects collide with each other.
    Bounciness
-      Tendency of object to bounce after colliding with another ("0" - stays still, "1" - perfectly elastic).
+      Tendency of object to bounce after colliding with another (0 to 1) (rigid to perfectly elastic).
       Specifies how much objects can bounce after collisions.
 
 Collision Groups

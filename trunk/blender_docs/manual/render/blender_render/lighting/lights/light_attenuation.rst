@@ -87,7 +87,7 @@ but it attenuates much quicker after *Distance* is reached.
 When the *Linear* slider is set to 0.0, the formula for working out the
 attenuation at a particular range for full quadratic attenuation is:
 
-*I* = *E* × (*D*\ :sup:`2`\ / (*D*\ :sup:`2`\ + *Q* × *r*\ :sup:`2`\))
+*I* = *E* × (*D*\ :sup:`2` / (*D*\ :sup:`2` + *Q* × *r*\ :sup:`2`\))
 
 Where
 
@@ -102,9 +102,9 @@ Mixing "Linear" and "Quad"
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 If both the *Linear* and *Quad* slider fields have values greater than
-``0.0``, then the formula used to calculate the light attenuation profile changes to this:
+0.0, then the formula used to calculate the light attenuation profile changes to this:
 
-*I* = *E* × (*D* / (*D* + *L* × *r*)) × (*D*:sup:`2`/ (*D*:sup:`2` + *Q* × *r*:sup:`2`))
+*I* = *E* × (*D* / (*D* + *L* × *r*)) × (*D*\ :sup:`2` / (*D*\ :sup:`2` + *Q* × *r*\ :sup:`2`\))
 
 Where
 

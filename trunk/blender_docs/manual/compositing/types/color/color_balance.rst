@@ -17,8 +17,10 @@ calculations to adjust an image.
 - *Gamma* will adjust midtones. 
 - *Gain* adjusts highlights.
 
-The *Offset, Power, Slope* formula uses *Offset*, *Power*,
-and *Slope*: *out* = (*i* \* *s* + *o*)\ :sup:`p`\
+The *Offset, Power, Slope* formula uses 
+*Offset*, *Power*, and *Slope*: 
+
+*out* = (*i* × *s* + *o*)\ :sup:`p`
 
 where:
 

@@ -39,14 +39,15 @@ Construction of the YCrCb values from the RGB ones takes two steps
 
 First, the Gamma correction (*g* varies: 2.2 for NTSC, 2.8 for PAL):
 
-- R' = R :sup:`1/g` :\*G' = G :sup:`1/g`
-- B' = B :sup:`1/g`
+- R' = R\ :sup:`1/g`
+- G' = G\ :sup:`1/g`
+- B' = B\ :sup:`1/g`
 
 Then, the conversion itself:
 
 - Y = 0.299R' + 0.587G' + 0.114B'
-- Cr = *a* :sub:`1` (R' - Y) + *b* :sub:`1` (B' - Y)
-- Cb = *a* :sub:`2` (R' - Y) + *b* :sub:`2` (B' - Y)
+- Cr = *a*\ :sub:`1`\ (R' - Y) + *b*\ :sub:`1`\ (B' - Y)
+- Cb = *a*\ :sub:`2`\ (R' - Y) + *b*\ :sub:`2`\ (B' - Y)
 
 Whereas a standard 24 bit RGB picture has 8 bits for each channel, to keep bandwidth down,
 and considering that the human eye is more sensitive to luminance than to chrominance,

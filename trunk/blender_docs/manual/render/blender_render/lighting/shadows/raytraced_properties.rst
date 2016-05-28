@@ -41,7 +41,7 @@ Samples
    This slider sets the maximum number of samples that both *Constant QMC* and *Adaptive QMC*
    will use to do their shadow calculations.
    The maximum value is 16: the real number of samples is actually the square of it,
-   so setting a sample value of 3 really means 3\ :sup:`2`\ = 9 samples will be taken.
+   so setting a sample value of 3 really means 3\ :sup:`2` = 9 samples will be taken.
 Soft Size
    Light size for ray shadow sampling.
    This slider determines the size of the fuzzy/diffuse/penumbra area around the edge of a shadow.

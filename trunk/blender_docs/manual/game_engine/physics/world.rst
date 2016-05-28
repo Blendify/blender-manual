@@ -82,7 +82,7 @@ Physics Engine
       No physics in use. Things are not affected by gravity and can fly about in a virtual space.
       Objects in motion stay in that motion.
 Gravity
-   The gravitational acceleration, m.s\ :sup:`-2`\ (in units of meters per squared second),
+   The gravitational acceleration, m.s\ :sup:`-2` (in units of meters per squared second),
    of this world. Each object that is an actor has a mass and size slider.
    In conjunction with the frame rate (see :doc:`Render </render/index>` section),
    Blender uses this info to calculate how fast the object should accelerate downward.
