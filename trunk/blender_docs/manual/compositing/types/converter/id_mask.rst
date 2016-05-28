@@ -41,21 +41,19 @@ Example
 .. figure:: /images/Compositing-Node-IDMask_ex.jpg
    :width: 300px
 
-   Example
+   Example.
 
 
-In this example, the left rear red cube is assigned PassIndex 1,
-and the right cube PassIndex 2. Where the two cubes intersect,
-there is going to be noticeable pixelation (jaggies)
-because they come together at a sharp angle and are different colors.
-Using the mask from object 1, which is smoothed (antialiased) at the edges,
-we use a Mix Node set on Multiply to multiply the smoothed edges of the image,
-thus removing those nasty (Mick) Jaggies. Thus, being smoothed out,
-the Rolling Stones gather no moss. (I really hope you get that obscure reference :)
+In this example, the left rear red cube is assigned PassIndex 1, and the right cube PassIndex 2.
+Where the two cubes intersect, there is going to be noticeable pixelation because they come together
+at a sharp angle and are different colors. Using the mask from object 1,
+which is smoothed (antialiased) at the edges, we use a *Mix Node* set on *Multiply*
+to multiply the smoothed edges of the image, thus removing those nasty lines, thus, being smoothed out.
 
-Note that the mask returns white where the object is fully visible to the camera
-(not behind anything else) and black for the part of the object that is partially or totally
-obscured by a fully or partially opaque object in front of it.
-If something else is in front of it,
-even if that thing is partially transparent and you can see the object in a render,
-the mask will not reflect that partially obscured part.
+.. note::
+
+   Note that the mask returns white where the object is fully visible to the camera
+   (not behind anything else) and black for the part of the object that is partially or totally
+   obscured by a fully or partially opaque object in front of it. If something else is in front of it,
+   even if that thing is partially transparent and you can see the object in a render,
+   the mask will not reflect that partially obscured part.

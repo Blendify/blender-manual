@@ -49,27 +49,31 @@ Below are samples of common mix modes and uses, mixing a color or checker with a
 
 Some explanation of the mixing methods above might help you use the Mix node effectively:
 
-- *Add* - adding blue to blue keeps it blue, but adding blue to red makes purple.
-  White already has a full amount of blue, so it stays white.
-  Use this to shift a color of an image. Adding a blue tinge makes the image feel colder.
-- *Subtract* : Taking Blue away from white leaves Red and Green,
-  which combined make Yellow (and you never thought you'd need a color wheel again, eh?).
-  Taking Blue away from Purple leaves Red.
-  Use this to desaturate an image. Taking away yellow makes an image bluer and more depressing.
-- *Multiply* : Black (0.00) times anything leaves black.
-  Anything times White (1.00) is itself. Use this to mask out garbage, or to colorize a black-and-white image.
-- *Hue* : Shows you how much of a color is in an image,
-  ignoring all colors except what is selected: makes a monochrome picture (style 'Black & Hue').
-- *Mix* : Combines the two images, averaging the two.
-- *Lighten* : Like bleach makes your whites whiter. Use with a mask to lighten up a little.
-- *Difference* : Kinda cute in that it takes out a color.
-  The color needed to turn Yellow into White is Blue.
-  Use this to compare two verrry similar images to see what had been done to one to make it the other;
-  sorta like a change log for images.
-  You can use this to see a watermark (see `Using Mix to Watermark images`_)
-  you have placed in an image for theft detection.
-- *Darken*, with the colors set here, is like looking at the world through rose-colored glasses
-  (sorry, I just couldn't resist).
+Add
+   adding blue to blue keeps it blue, but adding blue to red makes purple.
+   White already has a full amount of blue, so it stays white.
+   Use this to shift a color of an image. Adding a blue tinge makes the image feel colder.
+Subtract
+   Taking Blue away from white leaves Red and Green, which combined make Yellow.
+   Taking Blue away from Purple leaves Red. Use this to desaturate an image.
+   Taking away yellow makes an image bluer and more depressing.
+Multiply
+   Black (0.00) times anything leaves black. Anything times White (1.00) is itself.
+   Use this to mask out garbage, or to colorize a black-and-white image.
+Hue
+   Shows you how much of a color is in an image,
+   ignoring all colors except what is selected: makes a monochrome picture (style 'Black & Hue').
+Mix
+   Combines the two images, averaging the two.
+Lighten
+   Like bleach makes your whites whiter. Use with a mask to lighten up a little.
+Difference
+   Kinda cute in that it takes out a color. The color needed to turn Yellow into White is Blue.
+   Use this to compare two verrry similar images to see what had been done to one to make it the other;
+   sorta like a change log for images. You can use this to see a watermark (see `Using Mix to Watermark images`_)
+   you have placed in an image for theft detection.
+Darken
+   with the colors set here, is like looking at the world through rose-colored glasses.
 
 
 Contrast Enhancement using Mix
@@ -164,19 +168,3 @@ having the encoding map in one scene, and the decoding map in another.
 Use them while changing Blender's image format settings,
 reloading the watermarked image after saving, to get an acceptable result.
 In the example above, the mark was clearly visible all the way up to JPEG compression of 50%.
-
-
-Using Dodge and Burn (History Lesson)
--------------------------------------
-
-Use the dodge and burn mix methods in combination with a mask to affect only certain areas of
-the image. In the old darkroom days, when, yes,
-I actually spent hours in a small stinky room bathed in soft red light,
-I used a circle cutout taped to a straw to dodge areas of the photo as the exposure was made,
-casting a shadow on the plate and thus limiting the light to a certain area.
-
-To do the opposite, I would burn in an image by holding a mask over the image.
-The mask had a hole in it,
-letting light through and thus 'burning' in the image onto the paper. The same equivalent can
-be used here by mixing an alpha mask image with your image using a dodge mixer to lighten an
-area of your photo. Remember that black is zero (no) effect, and white is one (full) effect.

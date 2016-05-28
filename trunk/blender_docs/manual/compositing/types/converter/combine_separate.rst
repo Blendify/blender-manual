@@ -144,7 +144,3 @@ then splits each channel out to its own output so that they can be manipulated i
    :width: 150px
 
    Combine YCbCrA Node
-
-So, I kinda think you get the idea,
-and I was trying to think of some other creative way to write down the same thing,
-but I can't. So, you'll have to figure this node out on your own.

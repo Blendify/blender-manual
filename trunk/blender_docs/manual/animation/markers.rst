@@ -1,5 +1,4 @@
-
-..    TODO/Review: {{review|copy=X}} .
+..    TODO/Review: {{review|copy=X}}.
 
 *******
 Markers
@@ -15,7 +14,6 @@ set a marker at frame 2\ **.**\5.
 Markers can be created and edited in all of the following editors
 (including their different modes):
 
-
 - The :doc:`Graph Editor Window </editors/graph_editor/introduction>`.
 - The :doc:`Action Editor window </animation/actions>`.
 - The :doc:`The Dope Sheet </editors/dope_sheet/introduction>`.
@@ -23,11 +21,9 @@ Markers can be created and edited in all of the following editors
 - The :doc:`Video Sequence Editor window </editors/sequencer/index>`.
 - The :doc:`Timeline window </editors/timeline>`.When you create
 
-A marker created in one of these windows will also appear in all others that support them,
-including:
+.. note::
 
-
-- The :doc:`3D View window </editors/3dview/navigate/index>`.
+   A marker created in one of these windows will also appear in all others that support them
 
 
 Pose markers
@@ -86,11 +82,6 @@ near the active object's name, when you are at their frame
 Creating and Editing Markers
 ============================
 
-Unfortunately, there is no common shortcuts and menu for marker's editing, across the
-different window types that support them... So in the refboxes of each action described below,
-I put the most common shortcut and menu entry, with the known exceptions between brackets.
-
-
 Creating Markers
 ----------------
 
@@ -98,17 +89,15 @@ Creating Markers
    :class: refbox
 
    | Mode:     all modes
-   | Menu:     :menuselection:`Marker --> Add Marker` or 
-      :menuselection:`Frame --> Add Marker` in the Timeline Editor
+   | Menu:     :menuselection:`Marker --> Add Marker`
    | Hotkey:   :kbd:`M` or :kbd:`Ctrl-Alt-M` in the VSE Editor
 
 
 The simplest way to add a marker is to move to the frame where you would like it to appear,
-and press :kbd:`M` (or :kbd:`Ctrl-Alt-M` in a video sequence editor).
+and press :kbd:`M`.
 
-Alternatively, you can press :kbd:`Alt-A`
-(or the "playback" button of the *Timeline* window) to make the animation play,
-and then press :kbd:`M` (or :kbd:`Ctrl-Alt-M` in VSE Editor) at the appropriate points.
+Alternatively, you can press :kbd:`Alt-A` (or the "playback" button of the *Timeline* editor)
+to make the animation play, and then press :kbd:`M` at the appropriate points.
 This can be especially useful to mark the beats in some music.
 
 
@@ -119,7 +108,7 @@ Selecting Markers
    :class: refbox
 
    | Mode:     all modes
-   | Hotkey:   :kbd:`RMB`, :kbd:`Shift-RMB`, :kbd:`A` / :kbd:`Ctrl-A`, :kbd:`B` / :kbd:`Ctrl-B`
+   | Hotkey:   :kbd:`RMB`
 
 
 Click :kbd:`RMB` on the marker's triangle to select it. Use :kbd:`Shift-RMB` to
@@ -142,8 +131,7 @@ Naming Markers
    :class: refbox
 
    | Mode:     all modes
-   | Menu:     :menuselection:`Marker --> (Re)Name Marker` or
-      :menuselection:`Frame --> Name Marker` in the Timeline Editor
+   | Menu:     :menuselection:`Marker --> Rename Marker`
    | Hotkey:   :kbd:`Ctrl-M`
 
 
@@ -159,15 +147,14 @@ Moving Markers
    :class: refbox
 
    | Mode:     all modes
-   | Menu:     :menuselection:`Marker --> Grab/Move Marker` or
-      :menuselection:`Frame --> Grab/Move Marker` in the Timeline Editor
+   | Menu:     :menuselection:`Marker --> Grab/Move Marker`
    | Hotkey:   :kbd:`Ctrl-G` or :kbd:`G` in the Timeline Editor or sound strip
 
 
 Once you have one or more markers selected, press :kbd:`Ctrl-G`
-(or :kbd:`G` in Timeline or Audio windows) to move them,
-and confirm the move with :kbd:`LMB` or :kbd:`Return` (as usual,
-cancel the move with :kbd:`RMB`, or :kbd:`Esc`).
+(or :kbd:`G` in Timeline or Audio windows)
+to move them, and confirm the move with :kbd:`LMB` or :kbd:`Return`
+(as usual, cancel the move with :kbd:`RMB`, or :kbd:`Esc`).
 
 By default, you grab the markers in one-frame steps, but if you hold :kbd:`Ctrl`,
 the markers will move in steps corresponding to one second (according to the scenes *FPS*).
@@ -181,7 +168,6 @@ Duplicating Markers
 
    | Mode:     all modes
    | Menu:     :menuselection:`Marker --> Duplicate Marker`
-      :menuselection:`Frame --> Duplicate Marker` in the Timeline Editor
    | Hotkey:   :kbd:`Ctrl-Shift-D` or :kbd:`Shift-D` in the Timeline Editor or sound strip
 
 
@@ -202,8 +188,7 @@ Deleting Markers
    :class: refbox
 
    | Mode:     all modes
-   | Menu:    :menuselection:`Marker --> Delete Marker` or
-      :menuselection:`Frame --> Delete Marker` in the Timeline Editor
+   | Menu:    :menuselection:`Marker --> Delete Marker`
    | Hotkey:   :kbd:`Shift-X` or :kbd:`X` in the Timeline Editor or sound strip
 
 
