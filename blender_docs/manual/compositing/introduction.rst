@@ -131,7 +131,6 @@ You can change the mood of an image:
 - To make an image 'feel' colder, a blue tinge is added.
 - To convey a flashback or memory, the image may be softened.
 - To convey hatred and frustration, add a red tinge or enhance the red.
-  The film 'Sin City' is the most extreme example of this I have ever seen.
 - A startling event may be sharpened and contrast-enhanced.
 - A happy feeling - you guessed it - add yellow (equal parts red and green, no blue) for bright and sunny.
 - Dust and airborne dirt are often added as a cloud texture over the image to give a little more realism.

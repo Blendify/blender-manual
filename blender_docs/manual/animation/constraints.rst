@@ -54,16 +54,13 @@ you can have two different behaviors of this constraint:
 Example
 -------
 
-Let's use the *Copy Location* constraint and its *Offset* button.
-For example, you can make your owner (let's call it "moon")
-describe perfect circles centered on the (0.0, 0.0, 0.0) point
-(using e.g. pydriven *LocX* / *LocY* animation curves,
-see :doc:`this page </animation/drivers>`),
-and then make it copy the location of a target (called, I don't know... "earth", for example) -
-with the *Offset* button enabled.
-Congratulation, you just modeled a satellite in a (simplified) orbit around its planet...
+Let's use the *Copy Location* constraint and its *Offset* button. For example,
+you can make your owner (let's call it "moon") describe perfect circles centered on the (0.0, 0.0, 0.0)
+point (using e.g. pydriven *LocX* / *LocY* animation curves, see :doc:`this page </animation/drivers>`),
+and then make it copy the location of a target (called it "earth", for example) with the *Offset* button enabled.
+Congratulation, you just modeled a satellite in a (simplified) orbit around its planet.
 Just do the same thing with its planet around its star (which you might call "sun", what do you think?),
-and why not, for the star around its galaxy...
+and why not, for the star around its galaxy.
 
 Here is a small animation of a "solar" system created using (among a few others)
 the technique described above:
@@ -77,20 +74,15 @@ You can download the blend-file
 (`download here <https://wiki.blender.org/index.php/File:ManAnimationTechsUsingConstraintsExSolarSys.blend>`__)
 used to create this animation.
 
+  
+.. note:: Animating Constraints Influence
 
-Animating Constraints Influence
-===============================
+   More "classically", you can also animate a few properties of each constraint using animation curves.
 
-More "classically",
-you can also animate a few properties of each constraint using animation curves.
-
-You only have two animation curves (see also: :doc:`Graph Editor </editors/graph_editor/index>`):
-
-- You can animate the *Influence* of a constraint.
-  For example, in the `Example`_ above, I used it to first stick the camera to the "moon", then to the "earth",
-  and finally to nothing, using two *Copy Location* constraints with *Offset* set,
-  and their *Influence* cross-fading together...
-- More anecdotal, you can also, for some constraints using an armature's bone as target,
-  animate where along this bone (between root and tip) lays the real target point
-  (0.0 to 1.0) means influence from the (root or tip).
-
+   - You can animate the *Influence* of a constraint.
+     For example, in the `Example`_ above, it is used to first stick the camera to the "moon", then to the "earth",
+     and finally to nothing, using two *Copy Location* constraints with *Offset* set,
+     and their *Influence* cross-fading together.
+   - More anecdotal, you can also, for some constraints using an armature's bone as target,
+     animate where along this bone (between root and tip) lays the real target point
+     (0.0 to 1.0) means influence from the (root or tip).
