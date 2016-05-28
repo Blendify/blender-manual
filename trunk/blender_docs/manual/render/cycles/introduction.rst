@@ -21,3 +21,8 @@ here you can either choose to render a still image or an :doc:`Animation </rende
 Cycles may be able to use your :abbr:`GPU (Graphics Processing Unit, or Graphics Card)` to render.
 To see if and how you can use your GPU for rendering, see the documentation on
 :doc:`GPU Rendering </render/cycles/gpu_rendering>`.
+
+.. seealso::
+
+   `Developer documentation <https://wiki.blender.org/index.php/Dev:2.6/Source/Render/Cycles>`__ 
+   is available as well.
