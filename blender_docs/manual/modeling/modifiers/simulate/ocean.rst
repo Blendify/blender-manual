@@ -1,12 +1,14 @@
 
-****************
-Ocean Simulation
-****************
+**************
+Ocean Modifier
+**************
 
-Blender's ocean simulation tools take the form of a modifier, to simulate and generate a deforming ocean surface,
+The *Ocean Modifier* is a ocean simulation tool to simulate and generate a deforming ocean surface,
 and associated texture, used to render the simulation data.
 
-Ported from the open source Houdini Ocean Toolkit, it is intended to simulate deep ocean waves and foam.
+.. note::
+
+   The *Ocean Modifier* is ported from the open source Houdini Ocean Toolkit and is intended to simulate deep ocean waves and foam.
 
 
 Options
@@ -15,11 +17,11 @@ Options
 .. figure:: /images/Ocean_modifier.jpg
    :width: 240px
 
-   Ocean Modifier Panel.
+   Ocean Modifier.
 
 
-Geometry Options
-----------------
+Geometry
+--------
 
 Geometry
    Generate
@@ -34,10 +36,6 @@ Geometry
 Repeat X, Repeat Y
    When generating a mesh surface, controls the number of times the grid is tiled in X and Y directions.
    UVs for these tiled mesh areas continue outside of the (0.0 to 1.0) UV space.
-
-
-Simulator Options
------------------
 
 Time
    The time at which the ocean surface is being evaluated.
@@ -75,8 +73,8 @@ Spatial Size
    Of course you can scale the object with ocean modifier in object mode to tweak the apparent size in your scene.
 
 
-Wave Options
-------------
+Wave
+----
 
 Choppiness
    The choppiness of the wave peaks.
