@@ -93,7 +93,8 @@ Playback
 ========
 
 Allow Negative Frame
-   If set, negative framenumbers might be used.
+   Time Cursor can be set to negative frames with mouse or keyboard.
+   When using *Use Preview Range*, this also allows playback.
 
 
 Keyframing
@@ -103,15 +104,22 @@ In many situations, animation is controlled by keyframes. The state of a value (
 is recorded in a keyframe and the animation between two keyframes is interpolated by Blender.
 
 Visual Keying
-   Use Visual keying automatically for constrained objects.
+   When an object is using constraints, the objects property value doesnt actually change.
+   *Visual Keying* will add keyframes to the object property,
+   with a value based on the visual transformation from the constraint.
 Only Insert Needed
-   When enabled, new keyframes will be created only when needed.
+   This will only insert keyframes if the value of the propery is different.
 Auto Keyframing
-   Automatic keyframe insertion for Objects and Bones. Auto Keyframe is not enabled by default.
+   Enables *Auto Keyframe* by default for new scenes.
+Show Auto Keying Warning
+   Displays a warning at the top right of the *3D View*, when moving objects, if *Auto Keyframe* is on.
+Only Insert Available
+   This will only add keyframes to channel F-Curves that already exist.
 
-   Only Insert Available
-      Automatic keyframe insertion in available curves.
+
 New F-Curve Defaults
+====================
+
    Interpolation
       This controls how the state between two keyframes is computed.
       Default interpolation for new keyframes is Bezier which provides
