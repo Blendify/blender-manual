@@ -70,12 +70,12 @@ They are explained in the :doc:`Display Modes Page </editors/sequencer/display_m
 Refresh View
 ------------
 
-Certain operations, like moving an object in 3D View, may not force the `Sequencer`
+Certain operations, like moving an object in 3D View, may not force the *Sequencer*
 to call for a refresh of the rendered image (since the movement may not affect the rendered image).
 If an image or video, used as a strip, is changed by some application outside of Blender,
 Blender has no real way of being notified from your operating system.
 To force Blender to re-read in files, and to force a re-render of the 3D View,
-click the `Refresh` button to force Blender to clear all cached images and compute the current frame.
+click the *Refresh* button to force Blender to clear all cached images and compute the current frame.
 
 
 Selecting Strips
