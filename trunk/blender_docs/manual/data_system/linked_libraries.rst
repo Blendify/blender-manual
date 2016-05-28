@@ -81,7 +81,7 @@ Proxy Objects
 Used with rigged models, proxy objects, allow specified bone layers to be linked back to the source file
 while the remainder of the object and its skeleton are edited locally.
 
-:kbd:`Ctrl-Alt-P` makes the active linked object into a local proxy, appending `_proxy` to its name.
+:kbd:`Ctrl-Alt-P` makes the active linked object into a local proxy, appending "_proxy" to its name.
 
 Set the *Protected Layers* in the source file using the Skeleton panel of the Armatures tab.
 See :ref:`Armature Layers <armature-layers>`.
