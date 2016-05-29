@@ -55,7 +55,7 @@ down menu next to the add button in the Levels of Detail panel.
 
 
 Set By Name
-===========
+-----------
 
 Searches the scene for specifically named objects and attempts to set them up as levels of
 detail on the currently selected object. The selected object must be the base level of detail
@@ -71,7 +71,7 @@ Below are some example names that the tool will recognize.
 
 
 Generate
-========
+--------
 
 .. figure:: /images/Level-of-Detail-Generation.jpg
 
@@ -96,6 +96,6 @@ Package into Group
 
 
 Clear All
-=========
+---------
 
 Clears the level of detail settings from the current object.

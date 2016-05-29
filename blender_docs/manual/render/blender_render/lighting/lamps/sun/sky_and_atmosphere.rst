@@ -1,9 +1,4 @@
-
-..    TODO/Review: {{review
-   |im=
-   The second image is from 2.4
-   }} .
-
+..    TODO/Review: {{review|im=The second image is from 2.4}}.
 
 *********************
 Sun: Sky & Atmosphere
@@ -69,7 +64,7 @@ Options
 
 
 Sky
-===
+---
 
 Sky
    This button enables the sky settings: it will create a "sky", with a "sun" if visible,
@@ -131,7 +126,7 @@ Sun
 
 
 Atmosphere
-==========
+----------
 
 Atmosphere
    This button enables the atmosphere settings.
@@ -464,4 +459,3 @@ to fill in the *Sun* shadows.
 
 Atmosphere shading currently works incorrectly in reflections and refractions and is only
 supported for solid shaded surfaces. This will be addressed in a later release.
-
