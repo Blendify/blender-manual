@@ -11,7 +11,7 @@ Some of the options will be rendered as shown in the 3D window.
 
 
 Viewport Display
-****************
+================
 
 The Display Panel controls how particles are displayed in the 3d viewport.
 This does not necessarily determine how they will appear when rendered.
@@ -50,7 +50,7 @@ Number
 
 
 Color
-=====
+-----
 
 The Color Menu allows you to draw particles according to certain particle properties.
 
@@ -68,7 +68,7 @@ Acceleration
 
 
 Render Settings
-***************
+===============
 
 The Render Panel controls how particles appear when they are rendered.
 
@@ -94,14 +94,14 @@ Died
 
 
 None
-====
+----
 
 When set to *None* particles are not rendered.
 This is useful if you are using the particles to duplicate objects.
 
 
 Halo
-====
+----
 
 Halo particles are rendered as :doc:`Halo Type Materials </render/blender_render/materials/special_effects/halo>`.
 
@@ -116,7 +116,7 @@ Random
 
 
 Line
-====
+----
 
 The Line visualization mode creates (more or less thin)
 polygon lines with the strand renderer in the direction of particles velocities. The thickness
@@ -135,7 +135,7 @@ Trail Count
 
 
 Path
-====
+----
 
 .. figure:: /images/VisualisationPanelPath.jpg
 
@@ -170,7 +170,7 @@ Steps
    This means 0 steps give 1 subdivision, 1 give 2 subdivisions, 2 --> 4, 3 --> 8, 4 --> 16, ... *n* --> *n*\ :sup:`2`\.
 
 Timing Options
-==============
+^^^^^^^^^^^^^^
 
 Absolute Path Time
    Path timing is in absolute frames.
@@ -186,7 +186,7 @@ Please see also the manual page about
 
 
 Object
-======
+------
 
 In the Object visualization mode the specified object (*Dupli Object:* field)
 is duplicated in place of each particle.
@@ -202,7 +202,7 @@ Random Size
 
 
 Group
-=====
+-----
 
 In the Group visualization mode, the objects that belong to the group (*GR:* field)
 are duplicated sequentially in the place of the particles.
@@ -230,7 +230,7 @@ Random Size
 
 
 Billboard
-=========
+---------
 
 .. figure:: /images/VisualisationPanelBillboard.jpg
 

@@ -6,7 +6,7 @@ Volume Rendering
 .. figure:: /images/materials-volumerender-activate.jpg
    :width: 300px
 
-   Activation volume rendering
+   Activation volume rendering.
 
 
 Volume rendering is a method for rendering light as it passes through participating media,
@@ -15,7 +15,7 @@ which represents the various interactions of light in a volume relatively realis
 
 .. figure:: /images/Volumerendering-volume_eq.jpg
 
-   Volume rendering
+   Volume rendering.
 
 Rendering a volume is different then :doc:`Solid Render
 </render/blender_render/materials/properties/diffuse_shaders>`.
@@ -33,7 +33,7 @@ process since it has to check a lot of points in space and evaluate the density 
 
 
 Options
-*******
+=======
 
 Density
 -------
@@ -74,7 +74,7 @@ light beams as they travel though a volume and are scattered towards the eye.
 
 .. figure:: /images/materials-volumerender-options-shading.jpg
 
-   Shading options
+   Shading options.
 
 
 Scattering
@@ -116,7 +116,7 @@ Asymmetry
 .. figure:: /images/Volumerendering-phase_diagram.jpg
    :width: 300px
 
-   Isotropic and Anisotropic scattering
+   Isotropic and Anisotropic scattering.
 
 
 The default method for scattering light in a volume is for the light to be deflected evenly in
@@ -297,7 +297,7 @@ Lighting
 
 .. figure:: /images/materials-volumerender-options-lighting.jpg
 
-   Lighting options
+   Lighting options.
 
 
 Several shading modes are available,
@@ -350,7 +350,7 @@ Integration
 
 .. figure:: /images/materials-volumerender-options-integration.jpg
 
-   Integration options
+   Integration options.
 
 
 Step Calculation Method
@@ -374,7 +374,7 @@ Options
 
 .. figure:: /images/materials-volumerender-options.jpg
 
-   Material volume options
+   Material volume options.
 
 
 Traceable
@@ -400,7 +400,7 @@ The material must be a volumetric material with a Density of 0, and a high Densi
 .. figure:: /images/render_bi_material.jpg
    :width: 300px
 
-   The Material Settings
+   The Material Settings.
 
 Smoke requires a complex material to render correctly. Select the big cube and go to the material tab.
 There change the material to 'Volume' and set the density to 0.
@@ -435,8 +435,8 @@ by turning *Emission Color* back on.
 
    Under the world tab, chose a very dark color for the horizon.
 
-Extending the Smoke Simulator: Fire!
-------------------------------------
+Smoke Simulator with fire texture
+---------------------------------
 
 You can also turn your smoke into fire with another texture! To make fire,
 turn up the Emission Value in the Materials panel.

@@ -15,7 +15,7 @@ close and from a distance.
 
 
 Settings
-********
+========
 
 .. note:: Modifiers on Level of Detail Objects
 
@@ -48,7 +48,7 @@ Use Material
 
 
 Tools
-*****
+=====
 
 Some tools for making levels of detail easier to manage and create can be found from the drop
 down menu next to the add button in the Levels of Detail panel.

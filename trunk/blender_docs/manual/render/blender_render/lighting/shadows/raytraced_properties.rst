@@ -24,7 +24,7 @@ Shadow sample generator type
    Method for generating shadow samples: Adaptive QMC is fastest, Constant QMC is less noisy but slower.
    This allows you to choose which algorithm is to be used to generate the samples that will
    serve to compute the ray-traced shadows (for now, mainly two variants of Quasi-Monte Carlo, see
-   `What is Quasi-Monte Carlo?`_):
+   `Quasi-Monte Carlo method`_):
 
    Constant QMC
       The *Constant QMC* method is used to calculate shadow values in a very uniform, evenly distributed way.
@@ -121,8 +121,8 @@ Threshold
 
 .. _render-blender_internal-quasi_monte_carlo:
 
-What is Quasi-Monte Carlo?
-**************************
+Quasi-Monte Carlo method
+========================
 
 The Monte Carlo method is a method of taking a series of samples/readings of values
 (any kind of values, such as light values, color values, reflective states)
