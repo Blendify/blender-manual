@@ -199,19 +199,4 @@ Please consider to join the effort and :doc:`Contribute to this Manual </about/i
 .. toctree::
    :hidden:
 
-   interface/index.rst
-   editors/index.rst
-   data_system/index.rst
-   modeling/index.rst
-   painting_sculpting/index.rst
-   rigging/index.rst
-   animation/index.rst
-   physics/index.rst
-   render/index.rst
-   compositing/index.rst
-   game_engine/index.rst
-   preferences/index.rst
-   advanced/index.rst
-   troubleshooting/index.rst
-   glossary/index.rst
    about/index.rst
