@@ -47,32 +47,32 @@ Distance Metric
    * - .. figure:: /images/VoronoyMinkovsky0_5.jpg
           :width: 200px
 
-          Minkovsky Exponent: 0.5 (Minkovsky 1/2)
+          Minkovsky Exponent: 0.5 (Minkovsky 1/2).
 
      - .. figure:: /images/VoronoyMinkovsky1.jpg
           :width: 200px
 
-          Minkovsky Exponent: 1 (Manhattan)
+          Minkovsky Exponent: 1 (Manhattan).
 
      - .. figure:: /images/VoronoiMinkovsky2.jpg
           :width: 200px
 
-          Minkovsky Exponent: 2 (Actual Distance)
+          Minkovsky Exponent: 2 (Actual Distance).
 
    * - .. figure:: /images/VoronoyMinkovsky4.jpg
           :width: 200px
 
-          Minkovsky Exponent: 4 (Minkovsky 4)
+          Minkovsky Exponent: 4 (Minkovsky 4).
 
      - .. figure:: /images/VoronoyMinkovsky10.jpg
           :width: 200px
 
-          Minkovsky Exponent: 10 (Chebychev)
+          Minkovsky Exponent: 10 (Chebychev).
 
      - .. figure:: /images/VoronoyDistanceSquared.jpg
           :width: 200px
 
-          Distance Squared (More contrast than ActualDistance)
+          Distance Squared (More contrast than ActualDistance).
 
 
 Feature Weights

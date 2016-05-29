@@ -108,12 +108,12 @@ setting up area lamps as :doc:`light portals </render/cycles/lamps>`.
    * - .. figure:: /images/cycles_light_portals_off.jpg
           :width: 300px
 
-          Without Light Portals
+          Without Light Portals.
 
      - .. figure:: /images/cycles_light_portals_on.jpg
           :width: 300px
 
-          With Light Portals
+          With Light Portals.
 
 Ray Visibility
 ==============
@@ -138,5 +138,5 @@ will also be visible in reflections.
 .. figure:: /images/Cycles-Env-Trick-Nodes.jpg
    :width: 500px
 
-   Nodes for the trick above
+   Nodes for the trick above.
 

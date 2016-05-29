@@ -12,7 +12,7 @@ Sun: Sky & Atmosphere
 .. figure:: /images/lighting-lamps-sun-sky_atmosphere_panel.jpg
    :width: 304px
 
-   Sky & Atmosphere panel
+   Sky & Atmosphere panel.
 
 
 This panel allows you to enable an effect that simulates various properties of real sky and

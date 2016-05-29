@@ -205,27 +205,27 @@ Skin
    * - .. figure:: /images/material-sss-mh-head-1.jpg
           :width: 100px
 
-          1
+          1.
 
      - .. figure:: /images/material-sss-mh-head-2.jpg
           :width: 100px
 
-          2
+          2.
 
      - .. figure:: /images/material-sss-mh-head-3.jpg
           :width: 100px
 
-          3
+          3.
 
      - .. figure:: /images/material-sss-mh-head-4.jpg
           :width: 100px
 
-          4
+          4.
 
      - .. figure:: /images/material-sss-mh-head-5.jpg
           :width: 100px
 
-          5
+          5.
 
 
 .. seealso::

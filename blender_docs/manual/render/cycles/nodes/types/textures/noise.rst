@@ -6,7 +6,7 @@ Noise Texture
 .. figure:: /images/cycles_nodes_tex_noise.jpg
    :width: 200px
 
-   Noise Texture with high detail
+   Noise Texture with high detail.
 
 
 Procedural Perlin noise texture, similar to the Clouds texture in Blender Internal.

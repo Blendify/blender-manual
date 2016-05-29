@@ -59,7 +59,7 @@ The layers, if you will, are:
 .. figure:: /images/SomeMetal.jpg
    :width: 320px
 
-   Some Metal Textures
+   Some Metal Textures.
 
 
 This notion of using *more than one* texture, to achieve a combined effect,
@@ -112,7 +112,7 @@ but a very common use of a *World* is to shade a background color.
 .. figure:: /images/render_bi_world.jpg
    :width: 320px
 
-   Textures Layer on base Material
+   Textures Layer on base Material.
 
 
 HoR, HoG, HoB

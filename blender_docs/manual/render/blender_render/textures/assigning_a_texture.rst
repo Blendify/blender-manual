@@ -13,7 +13,7 @@ Choosing the Texture context
 .. figure:: /images/texture-top-panel.jpg
    :width: 300px
 
-   Texture panel
+   Texture panel.
 
 
 In the Properties editor, choose the Texture context: this will show the Texture panel.
@@ -25,7 +25,7 @@ Choosing the Texture data type
 .. figure:: /images/texture-panel.jpg
    :width: 311px
 
-   Texture panel with buttons for Material, World, and Brush textures highlighted
+   Texture panel with buttons for Material, World, and Brush textures highlighted.
 
 
 The three buttons *Material*, *World*,
@@ -36,7 +36,7 @@ the kind of texture that is being edited.
 .. figure:: /images/texture-lamp-panel.jpg
    :width: 300px
 
-   Texture panel with button for Lamp textures highlighted
+   Texture panel with button for Lamp textures highlighted.
 
 
 Textures Slots
@@ -45,7 +45,7 @@ Textures Slots
 .. figure:: /images/texture-top-panel.jpg
    :width: 300px
 
-   Texture panel
+   Texture panel.
 
 
 The list below these buttons represent the *Stack* of textures that we can manage.

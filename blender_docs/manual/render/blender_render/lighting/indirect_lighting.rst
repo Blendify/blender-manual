@@ -20,19 +20,19 @@ Direct+Indirect Lighting:
 .. figure:: /images/lighting-inderect_lighting-02.jpg
    :width: 400px
 
-   Direct Lighting Render
+   Direct Lighting Render.
 
 
 .. figure:: /images/lighting-inderect_lighting-03.jpg
    :width: 400px
 
-   Direct+Indirect Lighting Schematic
+   Direct+Indirect Lighting Schematic.
 
 
 .. figure:: /images/lighting-inderect_lighting-04.jpg
    :width: 400px
 
-   Direct+Indirect Lighting Render
+   Direct+Indirect Lighting Render.
 
 
 Images courtesy of `rastermon.com <https://web.archive.org/web/20050204031559/https://rastermon.com/GI1.htm>`__

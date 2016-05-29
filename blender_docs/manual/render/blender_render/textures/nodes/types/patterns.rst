@@ -12,7 +12,7 @@ Checker
 .. figure:: /images/texture-nodes_checker.jpg
    :width: 200px
 
-   Checker node
+   Checker node.
 
 
 The checker node creates a checkerboard pattern
@@ -29,7 +29,7 @@ Bricks
 .. figure:: /images/texture-nodes_bricks.jpg
    :width: 200px
 
-   Bricks node
+   Bricks node.
 
 
 The Bricks node creates a brick like pattern

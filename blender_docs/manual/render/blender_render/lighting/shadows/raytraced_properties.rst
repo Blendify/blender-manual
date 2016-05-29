@@ -6,7 +6,7 @@ Lamps Raytraced Shadows
 .. figure:: /images/lighting-shadow-ray.jpg
    :width: 310px
 
-   Ray shadowing options for lamps
+   Ray shadowing options for lamps.
 
 
 Most lamp types (:doc:`Lamp </render/blender_render/lighting/lamps/point/introduction>`,

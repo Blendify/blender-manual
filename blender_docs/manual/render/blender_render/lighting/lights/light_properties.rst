@@ -9,7 +9,7 @@ Lights Common Options
 .. figure:: /images/lighting-lights-properties.jpg
    :width: 312px
 
-   Lamp Properties panels
+   Lamp Properties panels.
 
 
 There are five types of lamps in Blender. They share all or some of the options listed here:

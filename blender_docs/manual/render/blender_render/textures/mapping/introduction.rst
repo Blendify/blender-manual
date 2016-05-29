@@ -18,7 +18,7 @@ Coordinates
 .. figure:: /images/texture-mapping-coord.jpg
    :width: 207px
 
-   Mapping Coordinate menu
+   Mapping Coordinate menu.
 
 
 Coordinates

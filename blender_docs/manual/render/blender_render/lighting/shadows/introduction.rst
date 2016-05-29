@@ -55,7 +55,7 @@ Lamps: Ray-traced Shadows
 .. figure:: /images/lighting-shadow-ray.jpg
    :width: 310px
 
-   Ray Shadow enabled for a lamp
+   Ray Shadow enabled for a lamp.
 
 
 Ray-traced shadows produce very precise shadows with very low memory use,
@@ -100,13 +100,13 @@ Lamps: Buffered Shadows
 .. figure:: /images/lighting-shadow-spot_buf_shad.jpg
    :width: 310px
 
-   Buffer Shadow enabled for a Spot lamp
+   Buffer Shadow enabled for a Spot lamp.
 
 
 .. figure:: /images/lighting-shadow-mat_buf_shad.jpg
    :width: 310px
 
-   Cast Buffer Shadows enabled for a material
+   Cast Buffer Shadows enabled for a material.
 
 
 *Buffered* shadows provide fast-rendered shadows at the expense of precision and/or quality.

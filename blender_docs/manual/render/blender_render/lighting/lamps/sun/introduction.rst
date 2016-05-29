@@ -21,7 +21,7 @@ the location of a *Sun* lamp does not affect the rendered result (unless you use
 .. figure:: /images/lighting-lamps-sun-lamp_panel.jpg
    :width: 304px
 
-   Sun lamp panel
+   Sun lamp panel.
 
 
 Lamp options
@@ -44,7 +44,7 @@ Sky & Atmosphere
 .. figure:: /images/lighting-lamps-sun-sky_atmosphere_panel.jpg
    :width: 304px
 
-   Sky & Atmosphere panel
+   Sky & Atmosphere panel.
 
 
 Various settings for the appearance of the sun in the sky,
@@ -58,7 +58,7 @@ Shadow
 .. figure:: /images/lighting-lamps-sun-shade_panel.jpg
    :width: 304px
 
-   Shadow panel
+   Shadow panel.
 
 
 The *Sun* light source can only cast ray-traced shadows.

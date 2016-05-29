@@ -18,7 +18,7 @@ Surface and Wire materials
 .. figure:: /images/texture-influence-surface.jpg
    :width: 308px
 
-   Texture Influence panel for a Surface material
+   Texture Influence panel for a Surface material.
 
 
 Diffuse
@@ -123,7 +123,7 @@ Volume materials
 .. figure:: /images/texture-influence-volume.jpg
    :width: 308px
 
-   Texture Influence panel for Volume material
+   Texture Influence panel for Volume material.
 
 
 Special texture options for *Volume* materials
@@ -150,7 +150,7 @@ Halo materials
 .. figure:: /images/texture-influence-halo.jpg
    :width: 308px
 
-   Texture Influence panel for a Halo material
+   Texture Influence panel for a Halo material.
 
 
 Special texture options for *Halo* materials

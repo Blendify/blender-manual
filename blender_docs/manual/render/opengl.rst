@@ -24,12 +24,12 @@ the Blender Internal engine.
    * - .. figure:: /images/OpenGL_rendered.jpg
           :width: 300px
 
-          OpenGL Render
+          OpenGL Render.
 
      - .. figure:: /images/Full_render.jpg
           :width: 300px
 
-          Full Render
+          Full Render.
 
 .. tip::
 

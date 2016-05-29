@@ -15,7 +15,7 @@ Option
 .. figure:: /images/World-MistPanel.jpg
    :width: 305px
 
-   Mist panel
+   Mist panel.
 
 
 Mist check box

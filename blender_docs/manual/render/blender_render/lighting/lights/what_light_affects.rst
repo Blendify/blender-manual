@@ -6,7 +6,7 @@ What the Light Affects
 .. figure:: /images/lighting-lamps-affects.jpg
    :width: 308px
 
-   Lamp panel with the light affecting options highlighted
+   Lamp panel with the light affecting options highlighted.
 
 
 Every lamp has a set of switches that control which objects receive its light,

@@ -24,7 +24,7 @@ Lin/Quad Weighted
 .. figure:: /images/lighting-falloff-linquad.jpg
    :width: 308px
 
-   Lamp panel with Lin/Quad Weighted Falloff options highlighted
+   Lamp panel with Lin/Quad Weighted Falloff options highlighted.
 
 
 When this setting is chosen, two sliders are shown,
@@ -65,7 +65,7 @@ Quadratic
 .. figure:: /images/Light-Example-Default_Lin-Quad_Weighted.jpg
    :width: 250px
 
-   Lamp with Lin/Quad Weighted falloff default settings
+   Lamp with Lin/Quad Weighted falloff default settings.
 
 
 This slider input field can have a value between (0.0 to 1.0). A value of 1.0

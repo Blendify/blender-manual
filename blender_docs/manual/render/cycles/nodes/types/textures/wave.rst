@@ -6,7 +6,7 @@ Wave Texture
 .. figure:: /images/cycles_nodes_tex_wave.jpg
    :width: 200px
 
-   Default wave texture
+   Default wave texture.
 
 
 Procedural bands or rings texture with noise distortion.

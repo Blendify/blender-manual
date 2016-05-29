@@ -152,41 +152,41 @@ Examples
 .. figure:: /images/osa8_box.jpg
    :width: 630px
 
-   AA 8, Box filter
+   AA 8, Box filter.
 
 
 .. figure:: /images/osa8_tent.jpg
    :width: 630px
 
-   AA 8, Tent filter
+   AA 8, Tent filter.
 
 
 .. figure:: /images/osa8_quad.jpg
    :width: 630px
 
-   AA 8, Quadratic filter
+   AA 8, Quadratic filter.
 
 
 .. figure:: /images/osa8_cubic.jpg
    :width: 630px
 
-   AA 8, Cubic filter
+   AA 8, Cubic filter.
 
 
 .. figure:: /images/osa8_gauss.jpg
    :width: 630px
 
-   AA 8, Gaussian filter
+   AA 8, Gaussian filter.
 
 
 .. figure:: /images/osa8_catrom.jpg
    :width: 630px
 
-   AA 8, Catmull-Rom filter
+   AA 8, Catmull-Rom filter.
 
 
 .. figure:: /images/osa8_mitch.jpg
    :width: 630px
 
-   AA 8, Mitchell-Netravali filter
+   AA 8, Mitchell-Netravali filter.
 

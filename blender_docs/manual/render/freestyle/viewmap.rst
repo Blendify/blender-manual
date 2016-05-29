@@ -16,7 +16,7 @@ Face Smoothness
 .. figure:: /images/render-freestyle-Parameter_Editor_Mode.jpg
    :width: 200px
 
-   Parameter Editor Mode UI
+   Parameter Editor Mode UI.
 
 
 Crease Angle
@@ -35,7 +35,7 @@ Advanced Options
 .. figure:: /images/render-freestyle-Advanced_Options.jpg
    :width: 200px
 
-   Advanced Options
+   Advanced Options.
 
 
 *Sphere Radius*

@@ -11,12 +11,12 @@ Advanced procedural noise texture. Note that it often needs some adjustments
    * - .. figure:: /images/cycles_nodes_tex_musgrave_nodes.jpg
           :width: 200px
 
-          Nodes for the image to the right
+          Nodes for the image to the right.
 
      - .. figure:: /images/cycles_nodes_tex_musgrave.jpg
           :width: 200px
 
-          Remapped Musgrave texture such that most values are visible
+          Remapped Musgrave texture such that most values are visible.
 
 
 Type

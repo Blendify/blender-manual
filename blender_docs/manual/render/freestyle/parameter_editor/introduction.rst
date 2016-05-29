@@ -6,7 +6,7 @@ Introduction to Parameter Editor
 .. figure:: /images/render-freestyle-Parameter_Editor_Mode_UI.jpg
    :width: 200px
 
-   Parameter Editor
+   Parameter Editor.
 
 
 The Freestyle *Parameter Editor* is a user-friendly interface to define and control line sets and line styles.

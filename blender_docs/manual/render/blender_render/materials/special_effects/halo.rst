@@ -107,7 +107,7 @@ which include Flare, Rings, Lines, Star, Texture, Extreme Alpha, and Shaded.
 .. figure:: /images/Halo02.jpg
    :width: 630px
 
-   Halo Variations
+   Halo Variations.
 
 
 The halo size, hardness and alpha can be adjusted with the pertinent sliders.
@@ -179,7 +179,7 @@ and disappears when another object occludes the flare mesh.
 .. figure:: /images/Halo04.jpg
    :width: 630px
 
-   Lens Flare
+   Lens Flare.
 
 
 Halo Texturing

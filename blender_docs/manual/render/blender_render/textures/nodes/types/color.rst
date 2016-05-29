@@ -50,7 +50,7 @@ RGB Curves
 .. figure:: /images/texture-nodes-color-rgbCurves.jpg
    :width: 250px
 
-   RGB Curves node
+   RGB Curves node.
 
 
 For each color component channel (RGB) or the composite (C),
@@ -80,7 +80,7 @@ Hue Saturation Value
 .. figure:: /images/texture-nodes-color-hsv.jpg
    :width: 300px
 
-   Hue Saturation Value node
+   Hue Saturation Value node.
 
 
 Use this node to adjust the Hue, Saturation, and Value of an input.
@@ -92,7 +92,7 @@ Combine and Separate RGB
 .. figure:: /images/texture-nodes-color-combineRgb.jpg
    :width: 250px
 
-   Combine RGB node
+   Combine RGB node.
 
 
 These two nodes allow you to convert between float values and color values.
@@ -105,7 +105,7 @@ and the node will combine them into a color value.
 .. figure:: /images/texture-nodes-color-separateRgb.jpg
    :width: 250px
 
-   Separate RGB node
+   Separate RGB node.
 
 
 With Separate RGB, you can specify a color value, and get each channel value out of it.

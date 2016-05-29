@@ -9,7 +9,7 @@ Introduction
 .. figure:: /images/lighting-lamps-point.jpg
    :width: 200px
 
-   Point lamp
+   Point lamp.
 
 
 The *Point* lamp is an omni-directional point of light, that is,
@@ -45,13 +45,13 @@ Shadows
 .. figure:: /images/lighting-lamps-point_panel-noshad.jpg
    :width: 307px
 
-   Without ray shadows
+   Without ray shadows.
 
 
 .. figure:: /images/lighting-lamps-point_panel-rayshad.jpg
    :width: 307px
 
-   Point lamp with ray shadows and Adaptive QMC sample generator enabled
+   Point lamp with ray shadows and Adaptive QMC sample generator enabled.
 
 
 The *Point* light source can only cast ray-traced shadows.

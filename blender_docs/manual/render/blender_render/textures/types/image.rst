@@ -164,13 +164,13 @@ Layering UV Textures
 .. figure:: /images/UV-Layer_One.jpg
    :width: 300px
 
-   Base UV Texture
+   Base UV Texture.
 
 
 .. figure:: /images/UV-Layer-Two.jpg
    :width: 300px
 
-   Layered UV Texture
+   Layered UV Texture.
 
 
 Great textures are formed by layering images on top of one another.
@@ -273,7 +273,7 @@ Using Alpha Transparency
 .. figure:: /images/UV-Alpha.jpg
    :width: 200px
 
-   Alpha UV Textures
+   Alpha UV Textures.
 
 
 Alpha 0.0 (transparent) areas of a UV Image render as black.
@@ -404,7 +404,7 @@ Image Settings
 .. figure:: /images/texture-image-panel.jpg
    :width: 306px
 
-   Image panel
+   Image panel.
 
 
 In the *Image Sampling* panel we tell Blender which source file to use.
@@ -493,7 +493,7 @@ Fields
 .. figure:: /images/texture-image-panel-generated.jpg
    :width: 306px
 
-   Image panel for Generated source of Image texture
+   Image panel for Generated source of Image texture.
 
 
 For *Generated* source there are the specific options:
@@ -529,12 +529,12 @@ In the *Image Sampling* panel we can control how the information is retrieved fr
    * - .. figure:: /images/Bahnhofstrasse.jpg
           :width: 120px
 
-          Background image
+          Background image.
 
      - .. figure:: /images/Map_To_Eingabewerte.jpg
           :width: 100px
 
-          Foreground image
+          Foreground image.
 
 
 The two images presented here are used to demonstrate the different image options.
@@ -549,12 +549,12 @@ the horizontal bar has 50% alpha.
    * - .. figure:: /images/UseAlpha.jpg
           :width: 150px
 
-          Foreground image with *Use* alpha. The alpha values of the pixels are evaluated
+          Foreground image with *Use* alpha. The alpha values of the pixels are evaluated.
 
      - .. figure:: /images/CalcAlpha.jpg
           :width: 150px
 
-          Foreground image with *Calculate* alpha
+          Foreground image with *Calculate* alpha.
 
 
 Alpha
@@ -581,7 +581,7 @@ Flip X/Y Axis
 .. figure:: /images/texture-imagesampling-panel.jpg
    :width: 306px
 
-   Image Sampling panel
+   Image Sampling panel.
 
 
 Normal Map
@@ -687,7 +687,7 @@ Image Mapping
 .. figure:: /images/texture-imagemapping-panel.jpg
    :width: 306px
 
-   Image Mapping panel
+   Image Mapping panel.
 
 
 In the *Image Mapping* panel,

@@ -9,7 +9,7 @@ Spot Buffered Shadows
 .. figure:: /images/lighting-shadow-spot_buf_shad.jpg
    :width: 310px
 
-   Buffer Shadow enabled for a Spot lamp
+   Buffer Shadow enabled for a Spot lamp.
 
 
 Spotlights can use either
@@ -59,7 +59,7 @@ For more information on the different shadow generation methods see these links:
 .. figure:: /images/lighting-shadow-spot_buf_shad.jpg
    :width: 310px
 
-   Buffer Shadowset to Classic-Halfway
+   Buffer Shadowset to Classic-Halfway.
 
 
 Classical
@@ -195,7 +195,7 @@ Sample Buffers
 .. figure:: /images/lighting-lamps-spot-buf-irregular.jpg
    :width: 313px
 
-   Buffer Shadow set to Irregular
+   Buffer Shadow set to Irregular.
 
 
 Irregular shadow method is used to generate sharp/hard shadows that are placed as accurately as raytraced shadows.
@@ -212,7 +212,7 @@ Deep generation method
 .. figure:: /images/lighting-lamps-spot-buf-deep.jpg
    :width: 313px
 
-   Buffer Shadow set to Deep
+   Buffer Shadow set to Deep.
 
    Deep Shadow buffer supports transparency and better filtering,
    at the cost of more memory usage and processing time

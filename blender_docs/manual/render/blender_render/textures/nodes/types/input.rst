@@ -41,7 +41,7 @@ Extend Horizontal
 .. figure:: /images/texture-nodes-time-extendHorizontal.jpg
    :width: 150px
 
-   Extend Horizontal
+   Extend Horizontal.
 
 
    Extend Extrapolated
@@ -52,7 +52,7 @@ Extend Horizontal
 .. figure:: /images/texture-nodes-time-extendExtrapolate.jpg
    :width: 150px
 
-   Extend Extrapolate
+   Extend Extrapolate.
 
 
    Reset Curve

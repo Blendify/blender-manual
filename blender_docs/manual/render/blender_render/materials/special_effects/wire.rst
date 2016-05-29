@@ -6,7 +6,7 @@ Wire Render
 .. figure:: /images/materials_render_wire0.jpg
    :width: 320px
 
-   Wire Render
+   Wire Render.
 
 
 The Wire Render option in the Materials section provides a way of showing a rendered image of
@@ -19,6 +19,6 @@ provided by the Surface rendered image.
 .. figure:: /images/materials_demo_wire.jpg
    :width: 320px
 
-   Wire Render
+   Wire Render.
 
 

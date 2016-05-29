@@ -6,7 +6,7 @@ Magic Texture
 .. figure:: /images/cycles_nodes_tex_magic.jpg
    :width: 200px
 
-   Magic texture: Depth 10, Distortion 2.0
+   Magic texture: Depth 10, Distortion 2.0.
 
 
 Psychedelic color texture.
