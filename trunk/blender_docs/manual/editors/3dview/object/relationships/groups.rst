@@ -6,7 +6,7 @@ Grouping objects
 
 .. figure:: /images/Modeling-Objects-Parenting-Exampel-GroupedObj.jpg
 
-   Grouped objects
+   Grouped objects.
 
 There can be many objects in a scene: A typical stage scene consists of furniture, props,
 lights, and backdrops.

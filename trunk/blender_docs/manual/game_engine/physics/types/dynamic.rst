@@ -211,7 +211,7 @@ Convex Hull
 
 .. figure:: /images/BGE-Physics-ConvexHull.png
 
-   A convex hull sketch
+   A convex hull sketch.
 
 Triangle mesh
    Most expensive, but most precise. Collision will happen with all of triangulated polygons,

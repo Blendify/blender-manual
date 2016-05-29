@@ -271,7 +271,7 @@ Keyframe Clean-up
 
 .. figure:: /images/BGE-Physics-DopeSheetFull.jpg
 
-   Resulting recorded animation
+   Resulting recorded animation.
 
 *Record Animation* keys redundant data (data that was did not change relative to the last frame).
 Pressing :kbd:`O` while in the *DopeSheet* will remove all superfluous keyframes.
@@ -280,7 +280,7 @@ Unwanted channels can also be removed.
 
 .. figure:: /images/BGE-Physics-DopeSheetCleaned.jpg
 
-   Cleaned up recording
+   Cleaned up recording.
 
 
 Exporting

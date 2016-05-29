@@ -70,7 +70,7 @@ Set the color, line width and other aspects of the grease pencil's appearance in
 
 .. figure:: /images/grease_pencil_drawing_properties.jpg
 
-   Grease pencil properties
+   Grease pencil properties.
 
 There are separate settings for each layer with those of the active layer shown in the panel.
 All the strokes on a layer (not just those made after a particular change)

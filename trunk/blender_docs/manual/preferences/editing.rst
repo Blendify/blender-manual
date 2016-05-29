@@ -15,7 +15,7 @@ Link Materials To
 
 .. figure:: /images/Structure-object-data.jpg
 
-   Example for a Mesh
+   Example for a Mesh.
 
 
 To understand this option properly, you need to understand how Blender works with Objects.

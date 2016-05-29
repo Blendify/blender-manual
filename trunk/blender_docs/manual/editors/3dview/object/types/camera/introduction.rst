@@ -136,7 +136,7 @@ Blades
 
 .. figure:: /images/camera_dof_bokeh.jpg
 
-   The viewport bokeh effect with the blades set to 3
+   The viewport bokeh effect with the blades set to 3.
 
 
 Display
@@ -158,7 +158,7 @@ Mist
 
 .. figure:: /images/Camera-camera-view.jpg
 
-   Camera view displaying safe areas, sensor and name
+   Camera view displaying safe areas, sensor and name.
 
 
 Sensor

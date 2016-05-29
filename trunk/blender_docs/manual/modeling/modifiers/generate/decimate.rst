@@ -25,7 +25,7 @@ Options
 
 .. figure:: /images/modifier-decimate.jpg
 
-   decimate modifier
+   decimate modifier.
 
 
 Decimate Type

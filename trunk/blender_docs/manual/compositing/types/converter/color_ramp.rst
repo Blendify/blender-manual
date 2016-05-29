@@ -11,7 +11,7 @@ and outputting a color value and an alpha value from the output sockets.
 
 .. figure:: /images/compositing_nodes_colorramp.png
 
-   Color Ramp Node
+   Color Ramp Node.
 
 By default,
 the ColorRamp is added to the node map with two colors at opposite ends of the spectrum.
@@ -33,7 +33,7 @@ The example map below shows how to use the Color Ramp node to do this:
 
 .. figure:: /images/Compositing-ColorRamp_alpha.jpg
 
-   Using the ColorRamp node to create an alpha mask
+   Using the ColorRamp node to create an alpha mask.
 
 
 In the map above, a black and white swirl image, which is lacking an alpha channel,

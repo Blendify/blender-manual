@@ -115,7 +115,7 @@ Figures should be used to place images:
 
    .. figure:: /images/editors_menu.png
 
-      Image Caption
+      Image Caption.
 
 
 Files

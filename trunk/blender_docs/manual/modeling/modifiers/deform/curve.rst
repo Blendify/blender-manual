@@ -19,7 +19,7 @@ Options
 
 .. figure:: /images/modifier-curve.jpg
 
-   Curve modifier
+   Curve modifier.
 
 
 Object

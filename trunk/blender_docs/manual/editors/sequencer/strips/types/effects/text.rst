@@ -8,7 +8,7 @@ The strip will display the text inserted in its text field on the final sequence
 
 .. figure:: /images/editors_sequencer_strips_text.png
 
-   Text Effect
+   Text Effect.
 
 
 Options

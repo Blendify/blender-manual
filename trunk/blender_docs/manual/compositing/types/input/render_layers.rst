@@ -64,7 +64,7 @@ You can see this map by mapping it to a blue screen:
 
 .. figure:: /images/Compositing-See_Alpha.jpg
 
-   Viewing the Alpha values
+   Viewing the Alpha values.
 
 
 In the little node map above,
@@ -134,7 +134,7 @@ You can see this map by translating it into colors, or shades of gray:
 
 .. figure:: /images/Compositing-See_Z.jpg
 
-   Viewing the Z values
+   Viewing the Z values.
 
 
 In the little node map above,

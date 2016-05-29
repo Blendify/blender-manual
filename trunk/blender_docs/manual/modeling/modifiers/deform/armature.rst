@@ -20,7 +20,7 @@ Options
 
 .. figure:: /images/modifier-armature.jpg
 
-   Armature modifier
+   Armature modifier.
 
 Object
    The name of the armature object used by this modifier.

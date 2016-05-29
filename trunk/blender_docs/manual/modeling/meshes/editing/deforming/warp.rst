@@ -12,7 +12,7 @@ Warp
 
 .. figure:: /images/modeling_warp.jpg
 
-   Warp tool options.S
+   Warp tool options.S.
 
 
 In *Edit mode*, the *Warp* transformation takes selected elements and

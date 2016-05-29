@@ -33,7 +33,7 @@ Modifier Settings
 
 .. figure:: /images/modifier-subsurf.jpg
 
-   Modifier's Panel
+   Modifier's Panel.
 
 
 Type
@@ -74,7 +74,7 @@ Options:
       
    .. figure:: /images/modifier-generate-subsurf-subdivideuvs.jpg
 
-      Subdivide UVs on and off
+      Subdivide UVs on and off.
 
    Optimal Display
       When drawing the wireframe of this object, the wires of the new subdivided edges will be skipped
@@ -155,7 +155,7 @@ Subsurf subdivides the geometry to give the edges a smooth or sharp appearance.
 
 .. figure:: /images/SubsurfWithCrease.jpg
 
-   A Subsurfed Cube with Creased Edges
+   A Subsurfed Cube with Creased Edges.
 
 The crease weight of selected edges can be changed in the *Transform* panel of the properties region
 :kbd:`N`, or by using the shortcut :kbd:`Shift-E` and moving the mouse closer
@@ -168,7 +168,7 @@ Edge Loops
 
 .. figure:: /images/CubeWithEdgeLoops.jpg
 
-   A Subsurf Level 2 Cube, the same with an extra Edge Loop, and the same with six extra Edge Loops
+   A Subsurf Level 2 Cube, the same with an extra Edge Loop, and the same with six extra Edge Loops.
 
 The Subsurf modifier demonstrates why good, clean topology is so important.
 As you can see in the figure, the Subsurf modifier has a drastic effect on a default Cube.

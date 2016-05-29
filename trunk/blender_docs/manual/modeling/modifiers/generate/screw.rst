@@ -21,7 +21,7 @@ Options
 
 .. figure:: /images/modifier-screw.jpg
 
-   Screw modifier
+   Screw modifier.
 
 
 Axis

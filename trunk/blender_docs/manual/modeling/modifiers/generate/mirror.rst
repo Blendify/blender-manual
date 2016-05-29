@@ -20,7 +20,7 @@ Options
 
 .. figure:: /images/modifiers_mirror.jpg
 
-   Mirror modifier
+   Mirror modifier.
 
 
 Axis

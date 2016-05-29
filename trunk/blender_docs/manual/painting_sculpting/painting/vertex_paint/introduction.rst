@@ -19,12 +19,12 @@ however, it will not show up in the render unless you check "Vertex Color Paint"
 
 .. figure:: /images/materials_vertexpaint0.jpg
 
-   Vertex Painting Mode
+   Vertex Painting Mode.
 
 
 .. figure:: /images/vertexpaintmat.jpg
 
-   Check this box
+   Check this box.
 
 
 Settings
@@ -36,7 +36,7 @@ The following sections describe the controls in each of the available panels.
 
 .. figure:: /images/materials-vertexpaint-toolshelf-tools.jpg
 
-   Settings for vertex painting
+   Settings for vertex painting.
 
 
 Brush
@@ -53,7 +53,7 @@ Strength
 
 .. figure:: /images/mix.jpg
 
-   Mix overlay with full strength
+   Mix overlay with full strength.
 
 
 Blend
@@ -75,7 +75,7 @@ Blend
 
 .. figure:: /images/sub.jpg
 
-   Subtract with full strength
+   Subtract with full strength.
 
 
    Darken
@@ -176,7 +176,7 @@ Options
 
 .. figure:: /images/materials-vertexpaint-toolshelf-options.jpg
 
-   Options for vertex painting
+   Options for vertex painting.
 
 
 Overlay

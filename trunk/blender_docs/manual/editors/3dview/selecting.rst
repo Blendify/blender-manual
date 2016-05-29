@@ -18,7 +18,7 @@ Blender distinguishes between two different states of selection:
 
 .. figure:: /images/Object-Selection-001.jpg
 
-   Unselected object in black, selected object in orange, and active object in yellow
+   Unselected object in black, selected object in orange, and active object in yellow.
 
 
 - In *Object mode* the last (de)selected item is called the "Active Object"
@@ -179,7 +179,7 @@ Select Grouped
 
 .. figure:: /images/Object-Selection-Grouped.jpg
 
-   Select Grouped menu
+   Select Grouped menu.
 
 
 There are two ways to organize the objects in relation to one another.
@@ -311,7 +311,7 @@ Select All by Layer
 
 .. figure:: /images/Object-Selection-AllByLayer.jpg
 
-   All by Layer selection menu
+   All by Layer selection menu.
 
 
 Layers are another means to regroup your objects to suit your purpose.

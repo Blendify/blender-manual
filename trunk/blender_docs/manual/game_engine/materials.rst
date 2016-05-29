@@ -9,7 +9,7 @@ Game Settings
 
 .. figure:: /images/materials_properties_game_settings.jpg
 
-   Game Settings Panel
+   Game Settings Panel.
 
 This panel contains properties that control how the object surfaces that use the
 material are rendered in real time by the Blender Game Engine.
@@ -70,7 +70,7 @@ Material Physics
 
 .. figure:: /images/materials-properties-game-physics-settings.jpg
 
-   Panel Physics in Material context
+   Panel Physics in Material context.
 
 
 This panel contains physical properties that control how the object surfaces that use the

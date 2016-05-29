@@ -15,7 +15,7 @@ Options
 
 .. figure:: /images/modifier-simpledeform.jpg
 
-   Simple Deform
+   Simple Deform.
 
 
 Mode

@@ -39,7 +39,7 @@ Setup
 
 .. figure:: /images/Dupliverts-Example01-1start.jpg
 
-   A monkey head and a circle
+   A monkey head and a circle.
 
 
 All you need is a base object (e.g. the *tree* or the *column*)
@@ -51,7 +51,7 @@ our parent mesh.
 
 .. figure:: /images/Dupliverts-Example01-2dupliverted.jpg
 
-   Dupliverted monkeys
+   Dupliverted monkeys.
 
 
 First, in *Object mode*,
@@ -89,7 +89,7 @@ Orientation
 
 .. figure:: /images/Dupliverts-Example01-3Orientation.jpg
 
-   Orientation enabled, orientation +Y
+   Orientation enabled, orientation +Y.
 
 
 The orientation of the base objects can be controlled by enabling *Rotation* in the
@@ -105,17 +105,17 @@ Output of various orientations:
 
 .. figure:: /images/Dupliverts-Example01-4negY.jpg
 
-   Negative Y
+   Negative Y.
 
 
 .. figure:: /images/Dupliverts-Example01-5posX.jpg
 
-   Positive X
+   Positive X.
 
 
 .. figure:: /images/Dupliverts-Example01-6posZ.jpg
 
-   Positive Z, up X
+   Positive Z, up X.
 
 
 .. note::
@@ -141,17 +141,17 @@ was adapted to the vertex normals of the parent mesh
 
 .. figure:: /images/Dupliverts-Example02-1Tentacle.jpg
 
-   A simple tentacle set to smooth
+   A simple tentacle set to smooth.
 
 
 .. figure:: /images/Dupliverts-Example02-2NoRot.jpg
 
-   Tentacle dupliverted onto the parent mesh
+   Tentacle dupliverted onto the parent mesh.
 
 
 .. figure:: /images/Dupliverts-Example02-3Rot.jpg
 
-   Rotation enabled to align duplicates
+   Rotation enabled to align duplicates.
 
 
 As in the previous example, the shape and proportions of the arrangement can now be tweaked.

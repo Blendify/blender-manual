@@ -30,7 +30,7 @@ Options
 
 .. figure:: /images/explodeModifier.jpg
 
-   Explode Modifier panel with Particle System Modifier above it
+   Explode Modifier panel with Particle System Modifier above it.
 
 
 Vertex group

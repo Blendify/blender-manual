@@ -22,7 +22,7 @@ for good!
 
 .. figure:: /images/editors_text_header2.jpg
 
-   Text Toolbar with a file open
+   Text Toolbar with a file open.
 
 
 Now you find a textbox to change name of your text file,

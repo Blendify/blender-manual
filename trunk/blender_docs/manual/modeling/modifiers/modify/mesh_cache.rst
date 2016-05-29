@@ -17,7 +17,7 @@ Options
 
 .. figure:: /images/modifiers_mesh_cache.jpg
 
-   Mesh Cache modifier
+   Mesh Cache modifier.
 
 
 Format

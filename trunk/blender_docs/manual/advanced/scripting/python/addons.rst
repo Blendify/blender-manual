@@ -18,7 +18,7 @@ or any interesting ones you find on the web.
 
 .. figure:: /images/user_prefs-addons_tab.png
 
-   Add-ons tab in the User Preferences
+   Add-ons tab in the User Preferences.
 
 .. TODO - add here explanation on official/contrib/ testing and on search and filter usability with Shift+click
 
@@ -34,7 +34,7 @@ as shown in the figure.
 
 .. figure:: /images/Extensions-Python-Addons-EnabledAddOn.jpg
 
-   Enabling an Add-on
+   Enabling an Add-on.
 
 The add-on functionality should be immediately available.
 If the Add-on does not activate when enabled,

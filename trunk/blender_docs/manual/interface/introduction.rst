@@ -77,7 +77,7 @@ The image below shows the 3D View as an example of an editor.
 
 .. figure:: /images/getting_started-basics_interface_introduction_04.png
 
-   The 3D View
+   The 3D View.
 
 Editors are consistently organized into following parts:
 

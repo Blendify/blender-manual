@@ -33,7 +33,7 @@ Options
 
 .. figure:: /images/modifier-wave.jpg
 
-   Wave modifier
+   Wave modifier.
 
 
 Motion

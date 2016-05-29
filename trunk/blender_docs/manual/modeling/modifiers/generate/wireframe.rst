@@ -5,7 +5,7 @@ Wireframe Modifier
 
 .. figure:: /images/modifier_wireframe.jpg
 
-   Wireframe Modifier
+   Wireframe Modifier.
 
 
 The Wireframe modifier transforms a mesh into a wireframe by iterating over its
@@ -67,17 +67,17 @@ in the examples below.
 
 .. figure:: /images/CubeWireframes.jpg
 
-   Original / Wireframe / Original+Wireframe
+   Original / Wireframe / Original+Wireframe.
 
 
 .. figure:: /images/modifier_wireframe_example.jpg
 
-   VGroup weighting: One half 0 weighted, one half 1 weighted
+   VGroup weighting: One half 0 weighted, one half 1 weighted.
 
 
 .. figure:: /images/modifier_wireframe_crease-weight.jpg
 
-   Cube+Subsurf with 0 / 0.5 / 1 crease weight
+   Cube+Subsurf with 0 / 0.5 / 1 crease weight.
 
 
 .. warning::

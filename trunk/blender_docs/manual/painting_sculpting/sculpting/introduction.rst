@@ -53,7 +53,7 @@ They can be selected in the *Tool* menu.
 
 .. figure:: /images/sculpt_brushes.png
 
-   Sculpt brushes
+   Sculpt brushes.
 
 
 Blob

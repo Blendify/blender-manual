@@ -30,7 +30,7 @@ Options
 
 .. figure:: /images/modifier-cast.jpg
 
-   Cast Modifier
+   Cast Modifier.
 
 
 Cast Type

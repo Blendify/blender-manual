@@ -19,11 +19,11 @@ UVs Explained
 
    * - .. figure:: /images/UV-boxprecut.jpg
 
-          Box being inspected
+          Box being inspected.
 
      - .. figure:: /images/UV-boxcutup.jpg
 
-          Box mapped flat
+          Box mapped flat.
 
 
 The best analogy to understanding UV mapping is cutting up a cardboard box.

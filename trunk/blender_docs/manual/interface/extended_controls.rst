@@ -182,7 +182,7 @@ Curve Widget
 
 .. figure:: /images/render_bi_material-color-node-curves.jpg
 
-   RGB Curves node
+   RGB Curves node.
 
 
 The *Curve Widget* is found in several places throughout Blender, such as:
@@ -225,7 +225,7 @@ Above the curve graph is a row of controls. These are:
 
 .. figure:: /images/material-vector-node-curves-controls.jpg
 
-   Curve Controls
+   Curve Controls.
 
 
 Channel selector

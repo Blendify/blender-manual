@@ -19,7 +19,7 @@ Layers are managed in the
 
 .. figure:: /images/grease_pencil_layers_list.jpg
 
-   Grease Pencil Panel
+   Grease Pencil Panel.
 
 Use the adjacent controls to Add, Remove or adjust the position of a layer in the list.
 Each layer has a visibility icon, and a lock icon to protect it from further changes.
@@ -54,7 +54,7 @@ Onion Skinning
 
 .. figure:: /images/grease_pencil_layers_onion.jpg
 
-   Grease Pencil Onion Skinning
+   Grease Pencil Onion Skinning.
 
 Onion-skinning, also known as ghosting, helps an animator by displaying the neighboring frames as a faded trail.
 Enable the option with the *Onion Skin* button in the grease pencil properties panel (shown above).

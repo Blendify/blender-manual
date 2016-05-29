@@ -5,7 +5,7 @@ Selecting Faces
 
 .. figure:: /images/selection-mode_buttons_face-activated.jpg
 
-   Activated the Face Select Mode
+   Activated the Face Select Mode.
 
 To select parts of a mesh face-wise, you have to switch to Face Select Mode.
 Do this by clicking the button shown above, or press :kbd:`Ctrl-Tab` to spawn a menu.
