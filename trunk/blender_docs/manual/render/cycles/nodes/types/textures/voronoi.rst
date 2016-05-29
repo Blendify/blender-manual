@@ -8,12 +8,12 @@ Voronoi Texture
    * - .. figure:: /images/cycles_nodes_tex_voronoi_intensity.jpg
           :width: 200px
 
-          Voronoi texture, type: Intensity
+          Voronoi texture, type: Intensity.
 
      - .. figure:: /images/cycles_nodes_tex_voronoi_cells.jpg
           :width: 200px
 
-          Voronoi texture, type: Cells
+          Voronoi texture, type: Cells.
 
 
 Procedural texture producing Voronoi cells.

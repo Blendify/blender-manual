@@ -9,7 +9,7 @@ Raytraced Shadows
 .. figure:: /images/lighting-lamps-sun-shade_panel.jpg
    :width: 304px
 
-   Shadow panel
+   Shadow panel.
 
 
 The *Sun* light source can only cast raytraced shadows.

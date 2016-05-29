@@ -38,13 +38,13 @@ with the introduction of line style modifiers, the sky is the limit!
 .. figure:: /images/render-freestyle-Demo-HVACPreViz.jpg
    :width: 600px
 
-   HVAC Pre-Viz by Lee Posey. CC0 (`File:HVACPreViz.zip <https://wiki.blender.org/index.php/File:HVACPreViz.zip>`__)
+   HVAC Pre-Viz by Lee Posey. CC0 (`File:HVACPreViz.zip <https://wiki.blender.org/index.php/File:HVACPreViz.zip>`__).
 
 
 .. figure:: /images/render-freestyle-Demo-KitchenSet.jpg
    :width: 600px
 
-   Kitchen by Vicente Carro. © AnigoAnimation
+   Kitchen by Vicente Carro. © AnigoAnimation.
 
 
 More artwork can be found at
@@ -70,7 +70,7 @@ The Big Picture
 .. figure:: /images/FreeStyle_Block_Diagram.jpg
    :width: 400px
 
-   block diagram of Freestyle view map and processes
+   block diagram of Freestyle view map and processes.
 
 
 Known Limitations

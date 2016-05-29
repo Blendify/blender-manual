@@ -6,7 +6,7 @@ Gradient Texture
 .. figure:: /images/cycles_nodes_tex_gradient.jpg
    :width: 200px
 
-   Gradient texture using object coordinates
+   Gradient texture using object coordinates.
 
 
 A gradient texture.

@@ -41,14 +41,14 @@ the Blender Python API reference manual for the full detail of style module cons
    * - .. figure:: /images/render-freestyle-Demo-Turning_Pages.jpg
           :width: 300px
 
-          By T.K. using the Python Scripting mode
+          By T.K. using the Python Scripting mode.
 
           (`File:Turning_Pages.zip <https://wiki.blender.org/index.php/File:Turning_Pages.zip>`__, CC0)
 
      - .. figure:: /images/Sketchy_Broken_Topology.jpg
           :width: 300px
 
-          By T.K. using the Python Scripting mode
+          By T.K. using the Python Scripting mode.
 
           (`File:Lily_Broken_Topology.zip <https://wiki.blender.org/index.php/File:Lily_Broken_Topology.zip>`__, CC0)
 

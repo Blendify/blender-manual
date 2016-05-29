@@ -12,7 +12,7 @@ Textures Stack
 .. figure:: /images/texture-stack.jpg
    :width: 300px
 
-   Textures Stack
+   Textures Stack.
 
 
 The list below these buttons represents the *Stack* of textures that we can manage.
@@ -33,7 +33,7 @@ Texture Data-Block
 .. figure:: /images/texture-datablock.jpg
    :width: 300px
 
-   Active Texture Data-Block
+   Active Texture Data-Block.
 
 
 Select a slot in the Textures Stack to see its settings.
@@ -66,7 +66,7 @@ Texture Type
 .. figure:: /images/texture-types.jpg
    :width: 300px
 
-   Texture Types
+   Texture Types.
 
 
 Choose the type of texture that is used for the current texture data-block.
@@ -88,7 +88,7 @@ Preview
 .. figure:: /images/texture-preview-panel.jpg
    :width: 300px
 
-   Preview panel
+   Preview panel.
 
 
 The texture preview panel provides a quick pre-visualisation of how the texture looks on its
@@ -111,7 +111,7 @@ Colors
 .. figure:: /images/texture-color-panel.jpg
    :width: 300px
 
-   Colors panel
+   Colors panel.
 
 
 The *Ramp* button activates a color ramp which allows you to remap the colors of a texture to new ones.

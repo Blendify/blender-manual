@@ -104,7 +104,7 @@ Using the Material Node with Specularity
 .. figure:: /images/render_bi_material-node-specular.jpg
    :width: 250px
 
-   Material Node using Specularity
+   Material Node using Specularity.
 
 
 To make a material node actually generate a color,
@@ -131,7 +131,7 @@ Extended Material Node
 .. figure:: /images/Extended-Material-Node.jpg
    :width: 200px
 
-   Extended Material node
+   Extended Material node.
 
 
 Adds additional input and output channels to the material node.
@@ -193,7 +193,7 @@ Lamp Data Node
 .. figure:: /images/Lamp-Data-Node.jpg
    :width: 180px
 
-   Lamp Data node
+   Lamp Data node.
 
 
 The Lamp Data node is used to obtain information related to a specified lamp object.
@@ -262,7 +262,7 @@ is selected and introduced through the value and/or color socket.
 .. figure:: /images/texture-node-example.jpg
    :width: 500px
 
-   Example of the applying Texture node
+   Example of the applying Texture node.
 
 
 Input

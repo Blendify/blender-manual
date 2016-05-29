@@ -8,7 +8,7 @@ Area Raytraced Shadows
 .. figure:: /images/lighting-lamps-area-adap_qmc.jpg
    :width: 300px
 
-   Adaptive QMC settings
+   Adaptive QMC settings.
 
 
 The *Area* light source can only cast ray-traced shadows.
@@ -39,7 +39,7 @@ Adaptive QMC / Constant QMC
 .. figure:: /images/lighting-lamps-area-cont_jitt.jpg
    :width: 300px
 
-   Constant Jittered settings
+   Constant Jittered settings.
 
 
 Constant Jittered
@@ -77,7 +77,7 @@ Technical Details
 .. figure:: /images/AreaLightConcept.jpg
    :width: 250px
 
-   Principles behind the Area light
+   Principles behind the Area light.
 
 
 The Fig. Principles behind the Area light

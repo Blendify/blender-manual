@@ -90,7 +90,7 @@ Overriding Materials to Reset Lighting
 .. figure:: /images/lighting-mat_field.jpg
    :width: 310px
 
-   Material field in the Render Layers panel
+   Material field in the Render Layers panel.
 
 
 If you have started down the road of assigning materials,

@@ -92,22 +92,22 @@ the more easily it penetrates throughout the volume and to the shadow.
    * - .. figure:: /images/volume-rendering-scatter-Sc0_5.jpg
           :width: 150px
 
-          Scattering: 0.5
+          Scattering: 0.5.
 
      - .. figure:: /images/volume-rendering-scatter-Sc1_0.jpg
           :width: 150px
 
-          Scattering: 1.0
+          Scattering: 1.0.
 
      - .. figure:: /images/volume-rendering-scatter-Sc2_0.jpg
           :width: 150px
 
-          Scattering: 2.0
+          Scattering: 2.0.
 
      - .. figure:: /images/volume-rendering-scatter-Sc5_0.jpg
           :width: 150px
 
-          Scattering: 5.0
+          Scattering: 5.0.
 
 
 Asymmetry
@@ -156,22 +156,22 @@ there is less available to be transmitted through.
    * - .. figure:: /images/volume-rendering-tr_y-sc0_5.jpg
           :width: 150px
 
-          Transmission color: Yellow, Scattering: 0.5
+          Transmission color: Yellow, Scattering: 0.5.
 
      - .. figure:: /images/volume-rendering-tr_y-sc1_0.jpg
           :width: 150px
 
-          Transmission color: Yellow, Scattering: 1.0
+          Transmission color: Yellow, Scattering: 1.0.
 
      - .. figure:: /images/volume-rendering-tr_y-sc2_0.jpg
           :width: 150px
 
-          Transmission color: Yellow, Scattering: 2.0
+          Transmission color: Yellow, Scattering: 2.0.
 
      - .. figure:: /images/volume-rendering-tr_y-sc5_0.jpg
           :width: 150px
 
-          Transmission color: Yellow, Scattering: 5.0
+          Transmission color: Yellow, Scattering: 5.0.
 
 
 Emission
@@ -195,22 +195,22 @@ Emission
    * - .. figure:: /images/volume-rendering-emission-0_25-sc0_5.jpg
           :width: 150px
 
-          Emission 0.25, Scattering: 0.5
+          Emission 0.25, Scattering: 0.5.
 
      - .. figure:: /images/volume-rendering-emission-0_25-sc1_0.jpg
           :width: 150px
 
-          Emission 0.25, Scattering: 1.0
+          Emission 0.25, Scattering: 1.0.
 
      - .. figure:: /images/volume-rendering-emission-0_25-sc2_0.jpg
           :width: 150px
 
-          Emission 0.25, Scattering: 2.0
+          Emission 0.25, Scattering: 2.0.
 
      - .. figure:: /images/volume-rendering-emission-0_25-sc5_0.jpg
           :width: 150px
 
-          Emission 0.25, Scattering: 5.0
+          Emission 0.25, Scattering: 5.0.
 
 
 Reflection
@@ -251,22 +251,22 @@ Of course you can always break the rules too!
    * - .. figure:: /images/volume-rendering-reflection-sc0_5.jpg
           :width: 150px
 
-          Reflection: Green, Scattering: 0.5
+          Reflection: Green, Scattering: 0.5.
 
      - .. figure:: /images/volume-rendering-reflection-sc1_0.jpg
           :width: 150px
 
-          Reflection: Green, Scattering: 1.0
+          Reflection: Green, Scattering: 1.0.
 
      - .. figure:: /images/volume-rendering-reflection-sc2_0.jpg
           :width: 150px
 
-          Reflection: Green, Scattering: 2.0
+          Reflection: Green, Scattering: 2.0.
 
      - .. figure:: /images/volume-rendering-reflection-sc5_0.jpg
           :width: 150px
 
-          Reflection: Green, Scattering: 5.0
+          Reflection: Green, Scattering: 5.0.
 
 
 .. list-table::
@@ -274,22 +274,22 @@ Of course you can always break the rules too!
    * - .. figure:: /images/volume-rendering-refl_g-tr_y-sc0_5.jpg
           :width: 150px
 
-          Reflection: Green, Transmission: Yellow, Scattering: 0.5
+          Reflection: Green, Transmission: Yellow, Scattering: 0.5.
 
      - .. figure:: /images/volume-rendering-refl_g-tr_y-sc1_0.jpg
           :width: 150px
 
-          Reflection: Green, Transmission: Yellow, Scattering: 1.0
+          Reflection: Green, Transmission: Yellow, Scattering: 1.0.
 
      - .. figure:: /images/volume-rendering-refl_g-tr_y-sc2_0.jpg
           :width: 150px
 
-          Reflection: Green, Transmission: Yellow, Scattering: 2.0
+          Reflection: Green, Transmission: Yellow, Scattering: 2.0.
 
      - .. figure:: /images/volume-rendering-refl_g-tr_y-sc5_0.jpg
           :width: 150px
 
-          Reflection: Green, Transmission: Yellow, Scattering: 5.0
+          Reflection: Green, Transmission: Yellow, Scattering: 5.0.
 
 
 Lighting

@@ -6,7 +6,7 @@ Stroke
 .. figure:: /images/render-freestyle-Stroke_UI.jpg
    :width: 300px
 
-   Stroke Line Style
+   Stroke Line Style.
 
 
 Strokes are the final rendered lines. Yet you can tweaks them, for example,
@@ -39,7 +39,7 @@ which can be useful for line styles which depend on accurate representation of t
 .. figure:: /images/render-freestyle-Chaining_UI.jpg
    :width: 300px
 
-   Chaining
+   Chaining.
 
 
 Splitting
@@ -57,7 +57,7 @@ Min 2D Angle and Max 2D Angle
 .. figure:: /images/render-freestyle-Splitting_UI.jpg
    :width: 300px
 
-   Splitting
+   Splitting.
 
 
 2D Length
@@ -93,7 +93,7 @@ Selection
 .. figure:: /images/render-freestyle-Selection_Length_UI.jpg
    :width: 300px
 
-   Selection
+   Selection.
 
 
 You can also choose to only select (i.e. render)

@@ -14,7 +14,7 @@ This is in direct contrast to point-like artificial lights which produce sharp b
 .. figure:: /images/lighting-lamps-area-com_options.jpg
    :width: 308px
 
-   Commons Options
+   Commons Options.
 
 
 Lamp options
@@ -53,12 +53,12 @@ the *Shadow* panel has the following default layout:
    * - .. figure:: /images/lighting-lamps-area-adap_qmc.jpg
           :width: 300px
 
-          Adaptive QMC settings
+          Adaptive QMC settings.
 
      - .. figure:: /images/lighting-lamps-area-cont_jitt.jpg
           :width: 300px
 
-          Constant Jittered settings
+          Constant Jittered settings.
 
 
 Area Shape
@@ -71,12 +71,12 @@ The shape of the area light can be set to *Square* or *Rectangle*.
    * - .. figure:: /images/lighting-lamps-area-square.jpg
           :width: 308px
 
-          Square options
+          Square options.
 
      - .. figure:: /images/lighting-lamps-area-rect.jpg
           :width: 308px
 
-          Rectangle options
+          Rectangle options.
 
 
 Square / Rectangular

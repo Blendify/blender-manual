@@ -6,7 +6,7 @@ Introduction
 .. figure:: /images/texture-procedural-menu.jpg
    :width: 240px
 
-   The Texture Type list in the Texture panel of the Texture Buttons. (Non procedural textures darkened out.)
+   The Texture Type list in the Texture panel of the Texture Buttons. (Non procedural textures darkened out.).
 
 
 Procedural textures are textures that are defined mathematically.
@@ -54,52 +54,52 @@ The *Noise Basis* governs the structural appearance of the texture :
    * - .. figure:: /images/NoiseBasisBlenderOriginal.jpg
           :width: 160px
 
-          Blender Original
+          Blender Original.
 
      - .. figure:: /images/NoiseBasisVoronoiF1.jpg
           :width: 160px
 
-          Voronoi F1
+          Voronoi F1.
 
      - .. figure:: /images/NoiseBasisVoronoiF2-F1.jpg
           :width: 160px
 
-          Voronoi F2-F1
+          Voronoi F2-F1.
 
    * - .. figure:: /images/NoiseBasisOriginalPerlin.jpg
           :width: 160px
 
-          Original Perlin
+          Original Perlin.
 
      - .. figure:: /images/NoiseBasisVoronoiF2.jpg
           :width: 160px
 
-          Voronoi F2
+          Voronoi F2.
 
      - .. figure:: /images/NoiseBasisVoronoiCrackle.jpg
           :width: 160px
 
-          Voronoi Crackle
+          Voronoi Crackle.
 
    * - .. figure:: /images/NoiseBasisImprovedPerlin.jpg
           :width: 160px
 
-          Improved Perlin
+          Improved Perlin.
 
      - .. figure:: /images/NoiseBasisVoronoiF3.jpg
           :width: 160px
 
-          Voronoi F3
+          Voronoi F3.
 
      - .. figure:: /images/NoiseBasisCellNoise.jpg
           :width: 160px
 
-          Cell Noise
+          Cell Noise.
 
    * - .. figure:: /images/NoiseBasisVoronoiF4.jpg
           :width: 160px
 
-          Voronoi F4
+          Voronoi F4.
 
      -
 

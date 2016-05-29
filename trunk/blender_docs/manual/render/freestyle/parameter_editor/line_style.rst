@@ -6,7 +6,7 @@ Line Style & Modifiers
 .. figure:: /images/render-freestyle-Line_Style_UI.jpg
    :width: 300px
 
-   Line Style UI
+   Line Style UI.
 
 
 In Freestyle, the line style settings define the appearance of a line set using five main aspects:
@@ -33,5 +33,5 @@ sets by selecting it from the dropdown menu next to its name.
 .. figure:: /images/render-freestyle-Line_Style_Demo.jpg
    :width: 800px
 
-   Line Style demo `File:LineStyles.zip <https://wiki.blender.org/index.php/File:LineStyles.zip>`__
+   Line Style demo `File:LineStyles.zip <https://wiki.blender.org/index.php/File:LineStyles.zip>`__.
 

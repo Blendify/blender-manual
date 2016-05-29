@@ -57,5 +57,5 @@ Displacement can also be done manually by use of the Displacement Modifier.
 .. figure:: /images/Cycles-Displacement-Dicing.jpg
    :width: 567px
 
-   Subdivision Off - On, Dicing Rate 1.0 - 0.3 - 0.05 (Monkeys look identical in viewport, no modifiers)
+   Subdivision Off - On, Dicing Rate 1.0 - 0.3 - 0.05 (Monkeys look identical in viewport, no modifiers).
 

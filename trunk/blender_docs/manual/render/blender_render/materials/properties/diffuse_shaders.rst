@@ -67,7 +67,7 @@ Lambert
 .. figure:: /images/material-shader-lambert.jpg
    :width: 320px
 
-   Lambert Shader
+   Lambert Shader.
 
 
 This is Blender's default diffuse shader, and is a good general all-around workhorse for
@@ -101,7 +101,7 @@ Oren-Nayar
 .. figure:: /images/material-shader-oren-nayar.jpg
    :width: 320px
 
-   Oren-Nayar Shader
+   Oren-Nayar Shader.
 
 
 Oren-Nayar takes a somewhat more 'physical' approach to the diffusion phenomena as it takes
@@ -140,13 +140,13 @@ Toon
 .. figure:: /images/material-shader-toon.jpg
    :width: 320px
 
-   Toon Shader, Different Spec
+   Toon Shader, Different Spec.
 
 
 .. figure:: /images/material-shader-toon-vary.jpg
    :width: 320px
 
-   Toon Shader Variations
+   Toon Shader Variations.
 
 
 The Toon shader is a very 'un-physical' shader in that it is not meant to fake reality but to
@@ -182,7 +182,7 @@ Minnaert
 .. figure:: /images/material-shader-lambert.jpg
    :width: 320px
 
-   Minnaert Shader
+   Minnaert Shader.
 
 
 Minnaert works by darkening parts of the standard Lambertian shader,
@@ -221,13 +221,13 @@ Fresnel
 .. figure:: /images/material-shader-fresnel-vary.jpg
    :width: 320px
 
-   Various settings for the Fresnel shader, Cook-Torr Specular shader kept at Intensity 0.5, Hardness: 50
+   Various settings for the Fresnel shader, Cook-Torr Specular shader kept at Intensity 0.5, Hardness: 50.
 
 
 .. figure:: /images/material-shader-fresnel.jpg
    :width: 320px
 
-   Fresnel Shader, Different Spec
+   Fresnel Shader, Different Spec.
 
 
 With a Fresnel shader the amount of diffuse reflected light depends on the incidence angle, i.

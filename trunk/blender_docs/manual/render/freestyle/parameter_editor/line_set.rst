@@ -91,7 +91,7 @@ External Contour
 .. figure:: /images/render-freestyle-ContourVsExternalContour.jpg
    :width: 600px
 
-   Left pair: Contour; Right pair: External Contour
+   Left pair: Contour; Right pair: External Contour.
 
 
 Suggestive Contour

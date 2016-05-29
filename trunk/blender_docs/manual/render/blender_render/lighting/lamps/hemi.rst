@@ -6,7 +6,7 @@ Hemi Lamp
 .. figure:: /images/HemiScheme.jpg
    :width: 250px
 
-   Hemi light conceptual scheme
+   Hemi light conceptual scheme.
 
 
 The *Hemi* lamp provides light from the direction of a 180- hemisphere,
@@ -30,7 +30,7 @@ Options
 .. figure:: /images/lighting-lamps-hemi.jpg
    :width: 307px
 
-   Hemi lamp's panel
+   Hemi lamp's panel.
 
 
 Energy and Color

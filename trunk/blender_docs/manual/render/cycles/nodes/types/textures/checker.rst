@@ -6,7 +6,7 @@ Checker Texture
 .. figure:: /images/cycles_nodes_tex_checker.jpg
    :width: 200px
 
-   Default Checker texture
+   Default Checker texture.
 
 
 Checkerboard texture.

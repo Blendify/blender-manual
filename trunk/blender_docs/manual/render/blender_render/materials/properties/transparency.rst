@@ -264,32 +264,32 @@ Transparent shadows
    * - .. figure:: /images/material-transp_shadow-example-notrasha.jpg
           :width: 320px
 
-          No transparent shadows
+          No transparent shadows.
 
      - .. figure:: /images/material-transp_shadow-example-envlight.jpg
           :width: 320px
 
-          No transparent shadows, environment lighting enabled
+          No transparent shadows, environment lighting enabled.
 
    * - .. figure:: /images/material-transp_shadow-example-trasha.jpg
           :width: 320px
 
-          Transparent shadows enabled, alpha set to 0.0
+          Transparent shadows enabled, alpha set to 0.0.
 
      - .. figure:: /images/material-transp_shadow-example-trasha2.jpg
           :width: 320px
 
-          As previous, alpha set to 0.25
+          As previous, alpha set to 0.25.
 
    * - .. figure:: /images/material-transp_shadow-example-trasha-ao1.jpg
           :width: 320px
 
-          Transparent shadows with ambient occlusion set to multiply, distance 1 (radius of sphere)
+          Transparent shadows with ambient occlusion set to multiply, distance 1 (radius of sphere).
 
      - .. figure:: /images/material-transp_shadow-example-trasha-ao2.jpg
           :width: 320px
 
-          As previous, distance increased to 2 (diameter of sphere)
+          As previous, distance increased to 2 (diameter of sphere).
 
 
 By default, the shadows of transparent objects are rendered solid black,

@@ -25,7 +25,7 @@ Lamp options
 .. figure:: /images/lighting-lamps-spot-lamp_options.jpg
    :width: 307px
 
-   Common Lamp options of a Spot
+   Common Lamp options of a Spot.
 
 
 Distance, Energy and Color
@@ -41,7 +41,7 @@ Light Falloff and Sphere
    .. figure:: /images/lighting-lamps-spot-terms.jpg
       :width: 610px
 
-      Changing the Spot options also changes the appearance of the spotlight as displayed in the 3D View
+      Changing the Spot options also changes the appearance of the spotlight as displayed in the 3D View.
 
 
 Shadows
@@ -50,7 +50,7 @@ Shadows
 .. figure:: /images/lighting-lamps-spot-ray_panel.jpg
    :width: 306px
 
-   Shadow panel set to Ray Shadow
+   Shadow panel set to Ray Shadow.
 
 
 Spotlights can use either ray-traced shadows or buffered shadows.
@@ -120,7 +120,7 @@ Blend
    .. figure:: /images/Shadow_&_Spot-Spotlight-Render-Sharp_Shadow.jpg
       :width: 400px
 
-      Render showing the soft edge spotlighted area and the sharp/hard object shadow
+      Render showing the soft edge spotlighted area and the sharp/hard object shadow.
 
 
    Notice in the picture above that the object's shadow is sharp as a result of the ray tracing,

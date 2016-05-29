@@ -6,7 +6,7 @@ Video Textures
 .. figure:: /images/texture-video-example.jpg
    :width: 700px
 
-   Video texture
+   Video texture.
 
 
 *Video textures* are a some kind of :doc:`Image </render/blender_render/textures/types/image>` textures and based on
@@ -23,7 +23,7 @@ Image
 .. figure:: /images/texture-video-imagepanel.jpg
    :width: 400px
 
-   Image panel for video texture
+   Image panel for video texture.
 
 
 Source

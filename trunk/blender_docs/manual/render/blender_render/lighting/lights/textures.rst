@@ -6,7 +6,7 @@ Lamps Textures
 .. figure:: /images/lighting-lights-texture-panels.jpg
    :width: 307px
 
-   Lamp Texture panels
+   Lamp Texture panels.
 
 
 When a new lamp is added, it produces light in a uniform, flat color.

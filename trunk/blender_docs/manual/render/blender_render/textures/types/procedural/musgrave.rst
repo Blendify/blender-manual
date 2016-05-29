@@ -38,27 +38,27 @@ Examples with Basis : Voronoi F1 - Dimension : 0.5 - Lacunarity : 0.15 - Octave:
    * - .. figure:: /images/Musgrave_HeteroTerrain.jpg
           :width: 120px
 
-          Hetero Terrain
+          Hetero Terrain.
 
      - .. figure:: /images/Musgrave_fBM.jpg
           :width: 120px
 
-          fBM
+          fBM.
 
      - .. figure:: /images/Musgrave_HybridMultifractal.jpg
           :width: 120px
 
-          Hybrid Multifrct
+          Hybrid Multifrct.
 
      - .. figure:: /images/Musgrave_RidgedMultifractal.jpg
           :width: 120px
 
-          Ridged Multifrct
+          Ridged Multifrct.
 
      - .. figure:: /images/Musgrave_Multifractal.jpg
           :width: 120px
 
-          Multifractal
+          Multifractal.
 
 
 .. not implemented yet?

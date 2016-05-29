@@ -6,7 +6,7 @@ Geometry
 .. figure:: /images/render-freestyle-Line_Style_Geometry_UI.jpg
    :width: 300px
 
-   Line Style Geometry Overall UI
+   Line Style Geometry Overall UI.
 
 
 In this tab you control the geometry of your strokes.
