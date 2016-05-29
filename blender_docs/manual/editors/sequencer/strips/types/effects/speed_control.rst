@@ -18,7 +18,7 @@ Creating a Slow-Motion Effect
 .. figure:: /images/editors_sequencer_strips_speed-control.jpg
    :width: 300px
 
-   50% Slow motion using Speed Control
+   50% Slow motion using Speed Control.
 
 
 Suppose you want to slow your strip down.

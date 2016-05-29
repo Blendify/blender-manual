@@ -38,7 +38,7 @@ Options
 .. figure:: /images/Constraints-Relationship-Action.jpg
    :width: 293px
 
-   Action panel
+   Action panel.
 
 
 Target

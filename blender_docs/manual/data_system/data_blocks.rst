@@ -28,7 +28,7 @@ especially when inter-linking blend-files.
 .. figure:: /images/datablocks.jpg
    :width: 400px
 
-   Data-blocks view
+   Data-blocks view.
 
 
 Users (Garbage Collection)

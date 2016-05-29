@@ -304,7 +304,7 @@ Quad View
 .. figure:: /images/3D_Interaction-Navigating-3D_view-Quad_View.jpg
    :width: 340px
 
-   Quad View
+   Quad View.
 
 
 Toggling Quad View will split the 3D window into 4 views: 3 *Ortho* views and a *Camera* / *User View*.

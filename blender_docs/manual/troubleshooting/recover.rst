@@ -39,7 +39,7 @@ Save and Auto Save
 .. figure:: /images/basics-undo-and-redo-autosaveoptions.jpg
    :align: right
 
-   Auto Save options
+   Auto Save options.
 
 
 Computer crashes,

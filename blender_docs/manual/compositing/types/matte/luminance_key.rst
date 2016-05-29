@@ -57,7 +57,7 @@ Example
 .. figure:: /images/Composting-LumaKey_ex.jpg
    :width: 300px
 
-   Using Luma Key...with a twist
+   Using Luma Key...with a twist.
 
 
 For this example, let's throw you a ringer. Here,

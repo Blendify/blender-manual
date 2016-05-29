@@ -20,7 +20,7 @@ header.
 .. figure:: /images/editors_movie_clip_mode_menu.jpg
    :width: 300px
 
-   Movie Clip Editor Mode Menu
+   Movie Clip Editor Mode Menu.
 
 But almost all operators can be called from menus, so it's not necessary to change the mode
 every time you want to use a tool which is associated with a different editor mode.

@@ -14,7 +14,7 @@ Operation Buttons
 .. figure:: /images/ConceptButtons2.jpg
    :align: right
 
-   Operation button
+   Operation button.
 
 
 These are buttons that perform an operation when clicked with :kbd:`LMB`.
@@ -91,7 +91,7 @@ Multi-Value Editing
 .. figure:: /images/ui_multi_value_edit.png
    :align: right
 
-   Multi-value-editing
+   Multi-value-editing.
 
 It's often useful to edit multiple values at once (object scale or render resolution for example).
 
@@ -263,7 +263,7 @@ For example, the *Add Modifier* button will produce a menu with all of the avail
 .. figure:: /images/ConceptButtons4_menue.jpg
    :align: center
 
-   Modifier options
+   Modifier options.
 
 
 Data-Block Menus
@@ -292,7 +292,7 @@ Sometimes there is a list of applied data-blocks
 .. figure:: /images/ConceptButtons4.jpg
    :align: right
 
-   Data-block link buttons
+   Data-block link buttons.
 
    - To select a Data-Block, click :kbd:`LMB` on it.
    - To add a new section (e.g. material, or particle system),

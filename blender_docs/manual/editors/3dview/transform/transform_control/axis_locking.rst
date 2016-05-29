@@ -6,7 +6,7 @@ Axis Locking
 .. figure:: /images/3D_interaction-Transform_Control-Axis_locking-axis-locking.jpg
    :width: 150px
 
-   Axis locking
+   Axis locking.
 
 
 :doc:`Transformations (translation/scale/rotation) </editors/3dview/transform/introduction>` in *Object mode*
@@ -57,7 +57,7 @@ Plane locking
 .. figure:: /images/3D_interaction-Transform_Control-Axis_locking-plane-locking.jpg
    :width: 150px
 
-   Plane locking
+   Plane locking.
 
 
 Plane locking locks the transformation to *two* axes
@@ -76,7 +76,7 @@ Axis locking modes
 .. figure:: /images/3D_interaction-Transform_Control-Axis_locking-locking-modes.jpg
    :width: 340px
 
-   Axis locking modes
+   Axis locking modes.
 
 
 A single key press constrains movement to the corresponding *Global* axis. A second

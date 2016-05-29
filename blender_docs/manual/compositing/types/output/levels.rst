@@ -6,7 +6,7 @@ Levels Node
 .. figure:: /images/compositing_nodes_levels.png
    :align: right
 
-   Levels Node
+   Levels Node.
 
 The Levels Node takes an image as an input,
 and can output a 1D value based on the levels of an image.

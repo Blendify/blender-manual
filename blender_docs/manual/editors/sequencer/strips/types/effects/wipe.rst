@@ -6,7 +6,7 @@ Wipe
 .. figure:: /images/editors_sequencer_strips_wipe.png
    :align: right
 
-   Wipe Effect Settings
+   Wipe Effect Settings.
 
 The wipe effect is a type of transition strip. It can be used to transition from one strip to the next.
 The wipe will have no effect if created from a single strip instead of two strips.

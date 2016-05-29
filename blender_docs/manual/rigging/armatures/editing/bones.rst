@@ -147,7 +147,7 @@ The position of the root and the parenting of the new bone depends on the active
 .. figure:: /images/RiggingMouseClickBone.jpg
    :width: 300px
 
-   Ctrl-clicking when the active element is a bone
+   Ctrl-clicking when the active element is a bone.
 
 
 If the active element is a *bone*
@@ -160,7 +160,7 @@ If the active element is a *bone*
 .. figure:: /images/RiggingMouseClickTail.jpg
    :width: 300px
 
-   Ctrl-clicking when the active element is a tip
+   Ctrl-clicking when the active element is a tip.
 
 
 If the active element is a *tip* :
@@ -173,7 +173,7 @@ If the active element is a *tip* :
 .. figure:: /images/RiggingMouseClickHead.jpg
    :width: 300px
 
-   Ctrl-clicking when the active element is a disconnected root
+   Ctrl-clicking when the active element is a disconnected root.
 
 
 If the active element is a *disconnected root* :
@@ -188,7 +188,7 @@ And hence the new bone will **not** be connected to any bone.
 .. figure:: /images/RiggingMouseClickHeadConnected.jpg
    :width: 300px
 
-   Ctrl-clicking when the active element is a connected root
+   Ctrl-clicking when the active element is a connected root.
 
 
 If the active element is a *connected root* :
@@ -253,12 +253,12 @@ If you have two tips selected, the new bone:
    * - .. figure:: /images/RiggingFillTailTailLeft.jpg
           :width: 300px
 
-          3D cursor on the left
+          3D cursor on the left.
 
      - .. figure:: /images/RiggingFillTailTailRight.jpg
           :width: 300px
 
-          3D cursor on the right
+          3D cursor on the right.
 
 
 If you have two roots selected, you will face a small problem due to the event system in
@@ -280,12 +280,12 @@ new bone's root moves to the tip of the parent bone.
    * - .. figure:: /images/RiggingFillHeadHead.jpg
           :width: 300px
 
-          Before UI update (3D cursor on the left)
+          Before UI update (3D cursor on the left).
 
      - .. figure:: /images/RiggingFillHeadHeadCorrect.jpg
           :width: 300px
 
-          After UI update, correct visualization
+          After UI update, correct visualization.
 
 
 Clicking :kbd:`F` with only one bone end selected will create a bone from the selected
@@ -298,12 +298,12 @@ end to the 3D cursor position, and it won't parent it to any bone in the armatur
    * - .. figure:: /images/RiggingFillTail.jpg
           :width: 300px
 
-          Fill with only one tip selected
+          Fill with only one tip selected.
 
      - .. figure:: /images/RiggingFillHead.jpg
           :width: 300px
 
-          Fill with only one root selected
+          Fill with only one root selected.
 
 
 You will get an error when:

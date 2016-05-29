@@ -104,7 +104,7 @@ Rotation with the 3D Transform Manipulator
 .. figure:: /images/Icon-library_3D-Window_3D-transform-rotate-manipulator.jpg
    :width: 100px
 
-   Rotation Transform Manipulator
+   Rotation Transform Manipulator.
 
 
 In the 3D View header, ensure that the Transform Manipulator is enabled (the red, green,

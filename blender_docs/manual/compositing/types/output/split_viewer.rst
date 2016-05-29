@@ -6,7 +6,7 @@ Split Viewer Node
 .. figure:: /images/compositing_nodes_splitviewer.png
    :align: right
 
-   Split Viewer Node
+   Split Viewer Node.
 
 The *SplitViewer* node takes two images and displays one-half of each on each side
 (top socket on the right half, bottom socket input on the left).

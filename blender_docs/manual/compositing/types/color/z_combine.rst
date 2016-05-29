@@ -45,7 +45,7 @@ Examples
 .. figure:: /images/Compositing-Z-Offset-example.jpg
    :width: 300px
 
-   Choosing closest pixels
+   Choosing closest pixels.
 
 
 In the example to the right, render output from two scenes are mixed using the Z-Offset node,
@@ -72,7 +72,7 @@ moves to the right created the illusion of depth as Bambi moved through the fore
 .. figure:: /images/Compositing-Z-Offset-ex_images.jpg
    :width: 300px
 
-   Mix and Match Images
+   Mix and Match Images.
 
 
 You can use Z-Combine to merge two images as well,
@@ -84,7 +84,7 @@ yields the example to the right.
 .. figure:: /images/Node-ZCombine_example.jpg
    :width: 300px
 
-   Z-Combine in action
+   Z-Combine in action.
 
 
 In this noodle

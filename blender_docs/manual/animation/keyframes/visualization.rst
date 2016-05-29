@@ -34,13 +34,13 @@ over a series of frames.
 .. figure:: /images/animation-keyframes-visualization-motionPath.jpg
    :width: 400px
 
-   An animated cube with its motion path displayed
+   An animated cube with its motion path displayed.
 
 
 .. figure:: /images/animation-keyframes-visualization-motionPath-panel3.jpg
    :width: 250px
 
-   Motion paths panel
+   Motion paths panel.
 
 
 Before we look at its options (all regrouped in the same *Visualisations* panel,

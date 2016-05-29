@@ -51,7 +51,7 @@ Getting Started
 .. figure:: /images/uvunwrapping-screenlayout.jpg
    :width: 320px
 
-   UV Editing screen layout
+   UV Editing screen layout.
 
 
 By default, meshes are not created with UVs. First you must map the faces, then
@@ -173,7 +173,7 @@ Cylinder and Sphere
 .. figure:: /images/texture-uv-sphereProjection.jpg
    :width: 250px
 
-   Using a Mercator image with a Sphere Projection
+   Using a Mercator image with a Sphere Projection.
 
 
 Cylindrical and Spherical mappings have the same settings. The difference is that a
@@ -251,7 +251,7 @@ Unwrapping Using Seams
 .. figure:: /images/texture-uv-unwrap-seam-simple.jpg
    :width: 300px
 
-   Simple Seam on a Cylinder
+   Simple Seam on a Cylinder.
 
 
 For many cases, using the Unwrap calculations of Cube, Cylinder, Sphere,
@@ -289,7 +289,7 @@ Marking Seams
 .. figure:: /images/texture-uv-unwrap-seams.jpg
    :width: 250px
 
-   Seamed Suzanne
+   Seamed Suzanne.
 
 
 To add an edge to a seam,
@@ -343,7 +343,7 @@ Unwrap
 .. figure:: /images/texture-uv-unwrap-unwrap.jpg
    :width: 300px
 
-   Result of unwrapping Suzanne
+   Result of unwrapping Suzanne.
 
 
 Begin by selecting all faces to be unwrapped in the 3D View. With our faces selected,
@@ -394,7 +394,7 @@ Smart UV Project
 .. figure:: /images/texture-uv-unwrap-smartProject.jpg
    :width: 250px
 
-   Smart UV project on a cube
+   Smart UV project on a cube.
 
 
 Smart UV Project, (previously called the Archimapper)

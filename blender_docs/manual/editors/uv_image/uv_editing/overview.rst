@@ -63,17 +63,17 @@ We 'fill in' spaces toward the poles, or change the outline of the map in any of
    * - .. figure:: /images/UV-projection-mercator.jpg
           :width: 190px
 
-          Mercator Projection
+          Mercator Projection.
 
      - .. figure:: /images/UV-projection-mollweide.jpg
           :width: 190px
 
-          Mollweide Projection
+          Mollweide Projection.
 
      - .. figure:: /images/UV-projection-albers.jpg
           :width: 190px
 
-          Albers-equal Projection
+          Albers-equal Projection.
 
 
 Each of these is an example of a way to UV map a sphere.
@@ -94,7 +94,7 @@ Half-Sphere Example
 .. figure:: /images/UV-3D_Space_vs_UV_Space.jpg
    :width: 600px
 
-   3D Space (XYZ) versus UV Space (click to enlarge)
+   3D Space (XYZ) versus UV Space (click to enlarge).
 
 
 In this image you can easily see that the shape and size of the marked face in 3D space is

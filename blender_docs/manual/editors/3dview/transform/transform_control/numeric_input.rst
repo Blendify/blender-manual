@@ -6,7 +6,7 @@ Numeric Input
 .. figure:: /images/3D_interaction-Transform_Control-Numeric_Input_numeric-input-header.jpg
    :width: 300px
 
-   Numeric input in the 3D window header
+   Numeric input in the 3D window header.
 
 
 Using the mouse for transformations is convenient, 

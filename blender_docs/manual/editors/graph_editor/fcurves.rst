@@ -125,7 +125,7 @@ Constant
 .. figure:: /images/fcurve-extrapolate1.jpg
    :width: 300px
 
-   Constant extrapolation
+   Constant extrapolation.
 
 
 Linear
@@ -136,7 +136,7 @@ Linear
 .. figure:: /images/fcurve-extrapolate2.jpg
    :width: 300px
 
-   Linear extrapolation
+   Linear extrapolation.
 
 
 Additional extrapolation tools (e.g. the "Cycles" F-Modifier)
@@ -156,7 +156,7 @@ Automatic
 .. figure:: /images/fcurve-auto.jpg
    :width: 400px
 
-   Auto handles
+   Auto handles.
 
 
 Vector
@@ -167,7 +167,7 @@ Vector
 .. figure:: /images/fcurve-vector.jpg
    :width: 400px
 
-   Vector handles
+   Vector handles.
 
 
 Aligned
@@ -177,7 +177,7 @@ Aligned
 .. figure:: /images/fcurve-aligned.jpg
    :width: 400px
 
-   Aligned handles
+   Aligned handles.
 
 
 Free
@@ -187,7 +187,7 @@ Free
 .. figure:: /images/fcurve-free.jpg
    :width: 400px
 
-   Free handles
+   Free handles.
 
 
 Auto Clamped
@@ -197,7 +197,7 @@ Auto Clamped
 .. figure:: /images/fcurve-autoClamped.jpg
    :width: 400px
 
-   Auto clamped handles
+   Auto clamped handles.
 
 
 Direction of time
@@ -318,12 +318,12 @@ Clean Keyframes
    * - .. figure:: /images/fcurve-clean1.jpg
           :width: 300px
 
-          FCurve before cleaning
+          FCurve before cleaning.
 
      - .. figure:: /images/fcurve-clean2.jpg
           :width: 300px
 
-          FCurve after cleaning
+          FCurve after cleaning.
 
 
 Smoothing
@@ -340,12 +340,12 @@ seem to be never modified by this tool.
    * - .. figure:: /images/fcurve-clean1.jpg
           :width: 300px
 
-          FCurve before smoothing
+          FCurve before smoothing.
 
      - .. figure:: /images/fcurve-smooth.jpg
           :width: 300px
 
-          FCurve after smoothing
+          FCurve after smoothing.
 
 
 Sampling and Baking Keyframes
@@ -359,12 +359,12 @@ Sample Keyframes :kbd:`Shift-O`
    * - .. figure:: /images/fcurve-sample.jpg
           :width: 300px
 
-          FCurve before sampling
+          FCurve before sampling.
 
      - .. figure:: /images/fcurve-sample2.jpg
           :width: 300px
 
-          FCurve after sampling
+          FCurve after sampling.
 
 Bake Curves :kbd:`Alt-C`
    Baking a curve replaces it with a set of sampled points, and removes the ability to edit the curve.

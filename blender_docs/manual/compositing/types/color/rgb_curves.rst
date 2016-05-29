@@ -58,7 +58,7 @@ Color correction using Curves
 .. figure:: /images/Compo-Color-RGB.jpg
    :width: 320px
 
-   Color correction with curves
+   Color correction with curves.
 
 
 In this example, the image has way too much red in it,
@@ -75,7 +75,7 @@ Color correction using Black/White Levels
 .. figure:: /images/Nodes-Curves-example-colorcorrection-levels.jpg
    :width: 320px
 
-   Color correction with Black/White Levels
+   Color correction with Black/White Levels.
 
 
 Manually adjusting the RGB curves for color correction can be difficult.
@@ -100,7 +100,7 @@ Effects
 .. figure:: /images/Nodes-RGBCurve-Ex.jpg
    :width: 320px
 
-   Changing colors
+   Changing colors.
 
 
 Curves and Black/White Levels can also be used to completely change the colors of an image.

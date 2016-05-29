@@ -42,7 +42,7 @@ To cycle between screens use :kbd:`Ctrl-Right` and :kbd:`Ctrl-Left`.
 .. figure:: /images/ConceptScreens25.jpg
    :align: center
 
-   Screen and Scene selectors
+   Screen and Scene selectors.
 
 .. hint::
 

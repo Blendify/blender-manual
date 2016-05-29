@@ -27,7 +27,7 @@ Examples
 .. figure:: /images/Compositing-AlphaOver-example.jpg
    :width: 300px
 
-   Assembling a composite Image using AlphaOver
+   Assembling a composite Image using AlphaOver.
 
 
 In this example, an image of a Toucan is superimposed on a wooden background. Use the
@@ -39,7 +39,7 @@ The resulting image is a composite of the two source images.
 .. figure:: /images/Compositing-AlphaOver-seethru.jpg
    :width: 300px
 
-   Animated See-Through/Sheer SFX using AlphaOver - Frame 11
+   Animated See-Through/Sheer SFX using AlphaOver - Frame 11.
 
 
 In this example, we use the Factor control to make a sheer cloth or onion-skin effect.

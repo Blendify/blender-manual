@@ -79,7 +79,7 @@ Example
 .. figure:: /images/Object-Selection-Border.jpg
    :width: 610px
 
-   Border selecting in three steps
+   Border selecting in three steps.
 
 
 *Border Select* has been activated in the first image and is indicated by showing a dotted cross-hair cursor.
@@ -124,7 +124,7 @@ Lasso select adds to the previous selection. For deselection, use :kbd:`Ctrl-Shi
 .. figure:: /images/Object-Selection-Lasso.jpg
    :width: 610px
 
-   Lasso selection example
+   Lasso selection example.
 
 
 Circle Select
@@ -149,12 +149,12 @@ To cancel the selection use :kbd:`RMB` or key :kbd:`Esc`.
    * - .. figure:: /images/Object-Selection-Circle1.jpg
           :width: 300px
 
-          Circle selection
+          Circle selection.
 
      - .. figure:: /images/Object-Selection-Circle2.jpg
           :width: 320px
 
-          ...with huge circle
+          ...with huge circle.
 
 
 Menu Selection

@@ -24,7 +24,7 @@ Options
 .. figure:: /images/Constraints-Transform-Transformation.jpg
    :width: 305px
 
-   Transformation panel
+   Transformation panel.
 
 
 Target
