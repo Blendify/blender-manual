@@ -33,7 +33,7 @@ Multiple UV Maps
 .. figure:: /images/UV-Fashion.jpg
    :width: 300px
 
-   Mesh with Multiple UV Textures
+   Mesh with Multiple UV Textures.
 
 
 You are not limited to one UV Map per mesh.

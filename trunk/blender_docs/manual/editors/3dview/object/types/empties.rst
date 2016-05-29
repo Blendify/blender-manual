@@ -78,13 +78,13 @@ Empties are important and useful objects. Some examples of ways to use them incl
    * - .. figure:: /images/Emptyarray.jpg
           :width: 200px
 
-          An example of an empty being used to control an array
+          An example of an empty being used to control an array.
 
 
      - .. figure:: /images/Tracktosimple.jpg
           :width: 200px
 
-          An example of an empty being used to control the track to constraint
+          An example of an empty being used to control the track to constraint.
 
 
 .. rubric:: Other common uses.

@@ -90,7 +90,7 @@ The main *Timeline* area displays the animation frames over time.
 .. figure:: /images/Timeline_Main.jpg
    :width: 700px
 
-   Timeline Main Area
+   Timeline Main Area.
 
 
 The *Timeline* can be panned by holding :kbd:`MMB`,

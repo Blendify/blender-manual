@@ -166,7 +166,7 @@ Bone Deform Options
 .. figure:: /images/RiggingEditingBoneCxtDeformPanel.jpg
    :width: 250px
 
-   Bone Deform Options
+   Bone Deform Options.
 
 
 The bones also have some deforming options in their sub-panels

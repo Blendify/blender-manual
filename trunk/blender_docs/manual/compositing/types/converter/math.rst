@@ -27,7 +27,7 @@ Manual Z-Mask
 .. figure:: /images/Compositing-Node-Math_MinMax.jpg
    :width: 300px
 
-   Example
+   Example.
 
 
 This example has one scene input by the top RenderLayer node,

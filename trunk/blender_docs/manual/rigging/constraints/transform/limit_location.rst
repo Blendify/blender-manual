@@ -34,7 +34,7 @@ Options
 .. figure:: /images/Constraints-Transform-LimitLoc.jpg
    :width: 302px
 
-   Limit Location panel
+   Limit Location panel.
 
 
 Minimum X, Minimum Y, Minimum Z

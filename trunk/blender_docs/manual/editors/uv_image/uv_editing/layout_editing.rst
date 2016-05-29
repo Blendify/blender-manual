@@ -265,7 +265,7 @@ Combining UV Maps
 .. figure:: /images/UV-Unwrap-Bad.jpg
    :width: 300px
 
-   Bad Unwrap-Note Ear and Neck
+   Bad Unwrap-Note Ear and Neck.
 
 
 Very often you will unwrap an object, such as the face example we have been using,
@@ -278,7 +278,7 @@ and the neck, it is stretched and folded under. Too much work to clean up.
 .. figure:: /images/UV-Unwrap-Face.jpg
    :width: 300px
 
-   Unwrap Face Only, without Ear or Neck
+   Unwrap Face Only, without Ear or Neck.
 
 
 We can tell that the ear would unwrap nicely with just a straightforward projection from the
@@ -293,7 +293,7 @@ rotate them somewhat to fit logically within the image area of the UV/Image Edit
 .. figure:: /images/UV-Unwrap-Ear.jpg
    :width: 300px
 
-   Unwrap Projection: Ear
+   Unwrap Projection: Ear.
 
 
 Once we're satisfied with the face, it's time to turn our attention to the ear. First,
@@ -319,7 +319,7 @@ painting of that piece.
 .. figure:: /images/UV-Unwrap-All.jpg
    :width: 300px
 
-   UV Maps together
+   UV Maps together.
 
 
 When all of the pieces of the mesh have been unwrapped using the various calculations,
@@ -333,7 +333,7 @@ to construct the entire UV Map as a single map.
 .. figure:: /images/UV-Unwrap-Combo.jpg
    :width: 300px
 
-   UV Maps Arranged and Stitched
+   UV Maps Arranged and Stitched.
 
 
 When you have completed arranging and stitching, you will end up with a consolidated UV Map,

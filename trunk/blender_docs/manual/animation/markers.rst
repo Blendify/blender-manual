@@ -58,7 +58,7 @@ Sequencer
 .. figure:: /images/Sequencer-markers.jpg
    :width: 186px
 
-   Markers in the Sequencer
+   Markers in the Sequencer.
 
 
 The *Video Sequence Editor* just adds a vertical dashed line to each marker

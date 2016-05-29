@@ -41,7 +41,7 @@ We can use this grid texture to help in any motion tracking that we need to do.
 .. figure:: /images/Compositing-Node-MapUV_ex.jpg
    :width: 300px
 
-   Adding a Grid UV Textures for Motion Tracking
+   Adding a Grid UV Textures for Motion Tracking.
 
 
 In the next example, we overlay a flag on top of a cubie-type thing,

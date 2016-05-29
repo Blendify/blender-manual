@@ -48,7 +48,7 @@ Options
 .. figure:: /images/Constraints-Tracking-LockedTrack.jpg
    :width: 304px
 
-   Locked track panel
+   Locked track panel.
 
 
 Target

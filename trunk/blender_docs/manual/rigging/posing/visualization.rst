@@ -248,7 +248,7 @@ only useful when the *Around Current Frame* option is enabled.
 .. figure:: /images/RiggingEditingObjectDataPropertyCxtMotionPathsPanel.jpg
    :width: 250px
 
-   The Motion Paths Panel showing options for the different modes
+   The Motion Paths Panel showing options for the different modes.
 
 
 And now, the paths options:

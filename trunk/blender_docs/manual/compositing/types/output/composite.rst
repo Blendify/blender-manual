@@ -6,7 +6,7 @@ Composite Node
 .. figure:: /images/compositing_nodes_composite.png
    :align: right
 
-   Composite Node
+   Composite Node.
 
 
 The Composite node is where the actual output from the compositor is connected to the

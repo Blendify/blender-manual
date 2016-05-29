@@ -16,7 +16,7 @@ You can select and create scenes with the *Scene selector* in the Info window he
 .. figure:: /images/ConceptScreens25.jpg
    :align: center
 
-   Screen and Scene selectors
+   Screen and Scene selectors.
 
 
 Adding a Scene

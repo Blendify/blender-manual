@@ -23,7 +23,7 @@ Usage
 .. figure:: /images/editors_movie-clip_dopesheet_sort.png
    :align: right
 
-   Sort Channels Order
+   Sort Channels Order.
 
 Currently the dope sheet view is for visualization and does not have any tools to actually edit data.
 It displays channels for selected tracks and each channel visualizes tracked

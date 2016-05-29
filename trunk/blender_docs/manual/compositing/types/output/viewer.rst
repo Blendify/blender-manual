@@ -6,7 +6,7 @@ Viewer Node
 .. figure:: /images/compositing_nodes_viewer.png
    :align: right
 
-   Viewer Node
+   Viewer Node.
 
 The *Viewer* node is a temporary, in-process viewer.
 Plug it in wherever you would like to see an image or value-map in your node-tree.

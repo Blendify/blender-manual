@@ -36,7 +36,7 @@ Separate/Combine RGBA Node
 .. figure:: /images/compositing_nodes_separatergba.png
    :width: 150px
 
-   Separate RGBA Node
+   Separate RGBA Node.
 
 
 This node separates an image into its red, green, blue and alpha channels.
@@ -45,7 +45,7 @@ There's a socket for each channel on the right.
 .. figure:: /images/compositing_nodes_combinergba.png
    :width: 150px
 
-   Combine RGBA Node
+   Combine RGBA Node.
 
 This node combines separate input images as each color and alpha channel,
 producing a composite image.
@@ -80,7 +80,7 @@ Separate/Combine HSVA Nodes
 .. figure:: /images/compositing_nodes_separatehsva.png
    :width: 150px
 
-   Separate HSVA Node
+   Separate HSVA Node.
 
 This node separates an image into image maps for the hue, saturation, value and alpha channels.
 
@@ -96,7 +96,7 @@ You could isolate a specific range of colors
 .. figure:: /images/compositing_nodes_combinehsva.png
    :width: 150px
 
-   Separate HSVA Node
+   Separate HSVA Node.
 
 Separate/Combine YUVA Node
 ==========================
@@ -104,7 +104,7 @@ Separate/Combine YUVA Node
 .. figure:: /images/compositing_nodes_separateyuva.png
    :width: 150px
 
-   Separate YUVA Node
+   Separate YUVA Node.
 
 This node converts an RGBA image to YUVA color space,
 then splits each channel out to its own output so that they can be manipulated independently.
@@ -113,7 +113,7 @@ Note that U and V values range from -0.5 to +0.5.
 .. figure:: /images/compositing_nodes_combineyuva.png
    :width: 150px
 
-   Combine YUVA Node
+   Combine YUVA Node.
 
 Combines the channels back into a composite image. If you do not connect any input socket, you
 can set a default value for the whole image for that channel using the numeric controls shown.
@@ -125,7 +125,7 @@ Separate/Combine YCbCrA Node
 .. figure:: /images/compositing_nodes_separateycbcra.png
    :width: 150px
 
-   Separate YCbCrA Node
+   Separate YCbCrA Node.
 
 This node converts an RGBA image to YCbCrA color space,
 then splits each channel out to its own output so that they can be manipulated independently:

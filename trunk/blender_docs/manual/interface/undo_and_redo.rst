@@ -65,7 +65,7 @@ Undo History
 .. figure:: /images/basics-undo-redo-ctrl+alt+z_menu.jpg
    :align: right
 
-   The Undo History Menu
+   The Undo History Menu.
 
 
 There is also a Undo History of your actions, recorded by Blender.
@@ -109,7 +109,7 @@ Repeat History
 .. figure:: /images/basics-undo-redo-f3_menu.jpg
    :align: right
 
-   The Repeat Menu
+   The Repeat Menu.
 
 The *Repeat History* feature will present you a list of the last repeated actions,
 and you can choose the actions you want to repeat.

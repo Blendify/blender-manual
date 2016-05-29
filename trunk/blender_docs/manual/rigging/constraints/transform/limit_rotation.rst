@@ -35,7 +35,7 @@ Options
 .. figure:: /images/Constraints-Transform-LimitRot.jpg
    :width: 304px
 
-   Limit Rotation panel
+   Limit Rotation panel.
 
 
 Limit X, LimitY, LimitZ
