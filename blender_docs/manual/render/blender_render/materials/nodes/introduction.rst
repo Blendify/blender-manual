@@ -63,11 +63,11 @@ Enabling Node Materials in the Material Buttons
 
    * - .. figure:: /images/materials-nodes-start_panel.jpg
 
-          Material's menu with Nodes enabled
+          Material's menu with Nodes enabled.
 
      - .. figure:: /images/materials-nodes-defaultstart-node.jpg
 
-          Default nodes
+          Default nodes.
 
 
 Let's take the base material and hit the Nodes button next to the material name in the
@@ -80,7 +80,7 @@ tree. Most of the panels we normally find in the material menu are now gone.
 
 .. figure:: /images/materials-nodes-compositing_screen.jpg
 
-   Accessing the Compositing screen
+   Accessing the Compositing screen.
 
 
 If you switch to the *Compositing* screen
@@ -97,11 +97,11 @@ You can also split the 3D view in the default screen in two and change one into 
 
    * - .. figure:: /images/materials-nodes-startwith_material.jpg
 
-          Material's menu with a first material added to the Node Editor
+          Material's menu with a first material added to the Node Editor.
 
      - .. figure:: /images/materials-nodes-firstmat.jpg
 
-          A first material added to the noodle
+          A first material added to the noodle.
 
 
 It is important to note that you can add a new material

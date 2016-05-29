@@ -8,7 +8,7 @@ Main Panel
 
 .. figure:: /images/physics_dynamic-paint_brush.jpg
 
-   Brush main panel
+   Brush main panel.
 
 
 From the first brush panel you can define how brush affects canvas color surfaces.
@@ -42,7 +42,7 @@ Source Panel
 
 .. figure:: /images/DynamicPaint-Guide-Brush_Source.jpg
 
-   Brush source panel
+   Brush source panel.
 
 
 Brush "Source" setting lets you define how brush influence/intersection is defined.
@@ -54,7 +54,7 @@ each having individual settings for further tweaking:
 
 .. figure:: /images/DynamicPaint-Guide-Brush_Volume.jpg
 
-   Brush Source - Volume
+   Brush Source - Volume.
 
 
 Mesh Volume
@@ -65,11 +65,11 @@ Mesh Volume
 
    * - .. figure:: /images/DynamicPaint-Guide-Brush_Proximity.jpg
 
-          Brush Source - Proximity. Brush affects all canvas pixels around it
+          Brush Source - Proximity. Brush affects all canvas pixels around it.
 
      - .. figure:: /images/DynamicPaint-Brush-Proximity-Project.jpg
 
-          "Project" setting enabled. See how brush only affects canvas in normal direction
+          "Project" setting enabled. See how brush only affects canvas in normal direction.
 
 
 Proximity
@@ -87,19 +87,19 @@ Project
 
    * - .. figure:: /images/DynamicPaint-Guide-Brush_Volume_Proximity.jpg
 
-          "Volume + Proximity" brush with no additional settings
+          "Volume + Proximity" brush with no additional settings.
 
      - .. figure:: /images/DynamicPaint-Guide-Brush_Volume_Proximity_Inner.jpg
 
-          Inner Proximity. Proximity falloff is now visible inside the volume
+          Inner Proximity. Proximity falloff is now visible inside the volume.
 
    * - .. figure:: /images/DynamicPaint-Brush-Negate-Volume.jpg
 
-          Negate Volume. Inner side of the volume has become completely transparent
+          Negate Volume. Inner side of the volume has become completely transparent.
 
      - .. figure:: /images/DynamicPaint-Brush-Negate-Volume-And-Inner.jpg
 
-          Inner Proximity and Negate Volume enabled together
+          Inner Proximity and Negate Volume enabled together.
 
 
 Mesh Volume + Proximity
@@ -115,7 +115,7 @@ Negate Volume
 
 .. figure:: /images/DynamicPaint-Guide-Brush_ObjectCenter.jpg
 
-   Brush Source - Object Center
+   Brush Source - Object Center.
 
 
 Object Center
@@ -125,7 +125,7 @@ Object Center
 
 .. figure:: /images/DynamicPaint-Guide-Brush_ParticleSystem.jpg
 
-   Brush Source - Particle System
+   Brush Source - Particle System.
 
 
 Particle System
@@ -137,7 +137,7 @@ Velocity Panel
 
 .. figure:: /images/DynamicPaint-Guide-Brush-Velocity.jpg
 
-   Velocity panel
+   Velocity panel.
 
 
 This panel shows brush options that are based on object velocity.
@@ -173,7 +173,7 @@ Waves Panel
 
 .. figure:: /images/DynamicPaint-Guide-Brush-Waves.jpg
 
-   Brush Waves panel
+   Brush Waves panel.
 
 
 This panel is used to adjust brush influence to "Wave" surfaces.

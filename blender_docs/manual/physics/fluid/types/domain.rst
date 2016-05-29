@@ -35,7 +35,7 @@ Options
 
 .. figure:: /images/physics_fluid_types_domain.jpg
 
-   The fluid simulation options with Domain selected
+   The fluid simulation options with Domain selected.
 
 
 Bake button
@@ -298,7 +298,7 @@ Domain Particles
 
 .. figure:: /images/physics_fluid_domain_particles.png
 
-   The Domain Particles Panel
+   The Domain Particles Panel.
 
 
 Here you can add particles to the fluid simulated, to enhance the visual effect.

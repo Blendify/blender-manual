@@ -32,7 +32,7 @@ Options
 
 .. figure:: /images/physics_collision.png
 
-   Collision Panel
+   Collision Panel.
 
 
 Permeability
@@ -92,7 +92,7 @@ Examples
 
 .. figure:: /images/UM_PART_XIII_KST_PI10.jpg
 
-   Deflected Particles
+   Deflected Particles.
 
 
 Here is a *Meta* object, dupliverted to a particle system emitting downwards, and deflected by a mesh cube:

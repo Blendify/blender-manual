@@ -10,7 +10,7 @@ See :doc:`Baking </physics/baking>` for more information.
 
 .. figure:: /images/smoke_baking_interface.png
 
-   *Smoke Cache* options
+   *Smoke Cache* options.
 
 .. note::
 

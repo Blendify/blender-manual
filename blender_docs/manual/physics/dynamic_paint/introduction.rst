@@ -16,7 +16,7 @@ This guide explains the very basics of Dynamic Paint user interface and general 
 
 .. figure:: /images/DynamicPaint-Guide-HowTo.jpg
 
-   How to activate the Dynamic Paint
+   How to activate the Dynamic Paint.
 
 
 Activating the modifier

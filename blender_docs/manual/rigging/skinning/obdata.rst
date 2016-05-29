@@ -49,7 +49,7 @@ with the following options - all regarding the "vertex groups" skinning method:
 
 .. figure:: /images/rigging-armature-parent.jpg
 
-   Set Parent menu
+   Set Parent menu.
 
 
 With Empty Groups

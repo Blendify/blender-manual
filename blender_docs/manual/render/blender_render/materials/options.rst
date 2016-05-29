@@ -16,7 +16,7 @@ Context
 
 .. figure:: /images/material-matmenu-matadded-objectmode.jpg
 
-   Material panel
+   Material panel.
 
 
 At the top of the material menu a list of icons explains the context in which the material is being edited.
@@ -60,7 +60,7 @@ Material naming and linking
 
 .. figure:: /images/material-matmenu-linkobjdata.jpg
 
-   Link material to object or to object's data
+   Link material to object or to object's data.
 
 Material's name field
    click into this field to rename your material

@@ -21,7 +21,7 @@ BSDF output
 
    * - .. figure:: /images/cycles_nodes_shader_diffuse_behavior.png
 
-          Diffuse behavior
+          Diffuse behavior.
 
      -
 

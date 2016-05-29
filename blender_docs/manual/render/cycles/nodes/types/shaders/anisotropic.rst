@@ -36,7 +36,7 @@ BSDF output
 
    * - .. figure:: /images/cycles_nodes_shader_anisotropic_rot0.jpg
 
-         Anisotropic rotation on 0
+         Anisotropic rotation on 0.
 
      - .. figure:: /images/cycles_nodes_shader_anisotropic_rot025.jpg
 

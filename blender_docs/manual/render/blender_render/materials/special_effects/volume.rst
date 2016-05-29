@@ -40,7 +40,7 @@ Density
 
 .. figure:: /images/Volumerendering-density.jpg
 
-   Constant density vs textured density
+   Constant density vs textured density.
 
 
 Many things can happen to the light as it passes through the volume,
@@ -63,7 +63,7 @@ Shading
 
 .. figure:: /images/Volumerendering-scattering1.jpg
 
-   Spot lamp scattering in a constant volume
+   Spot lamp scattering in a constant volume.
 
 
 When light enters a volume from an external source, it doesn't just pass straight through.
@@ -429,7 +429,7 @@ by turning *Emission Color* back on.
 
 .. figure:: /images/Smoke_render.jpg
 
-   Finished Result
+   Finished Result.
 
 .. tip:: To see the smoke more clearly
 
@@ -463,4 +463,3 @@ and change the influence to emission and emission color. Change the blend to Mul
    :width: 640px
 
    The fire render.
-   

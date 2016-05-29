@@ -10,7 +10,7 @@ both in a movie frame and in a photograph from a real-world camera.
 
 .. figure:: /images/render-cycles_settings_motion_blur_example.jpg
 
-   Cycles Motion Blur Example
+   Cycles Motion Blur Example.
 
 .. note::
 

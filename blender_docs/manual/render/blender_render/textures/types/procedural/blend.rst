@@ -5,7 +5,7 @@ Blend
 
 .. figure:: /images/texture-procedural-blend.jpg
 
-   Blend Texture Panels
+   Blend Texture Panels.
 
 
 Often used for

@@ -51,7 +51,7 @@ Setup for Hair Particles
 
 .. figure:: /images/Animated_editing_particles_in_particle_mode.gif
 
-   Editing a baked particle simulation's particle paths in Particle Mode
+   Editing a baked particle simulation's particle paths in Particle Mode.
 
 
 Setup for Particle, Cloth, and Soft Body Simulations

@@ -234,6 +234,6 @@ the surrounding objects look artificially far away.
 
 .. figure:: /images/envmap-offset.jpg
 
-   Inaccurate spherical reflection, the colored objects are artificially offset
+   Inaccurate spherical reflection, the colored objects are artificially offset.
 
 

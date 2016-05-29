@@ -5,7 +5,7 @@ Voronoi
 
 .. figure:: /images/texture-procedural-voronoi.jpg
 
-   Voronoi Texture Panels
+   Voronoi Texture Panels.
 
 
 Often used for

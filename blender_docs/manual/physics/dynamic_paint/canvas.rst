@@ -8,7 +8,7 @@ Main Panel
 
 .. figure:: /images/physics_dynamic-paint_canvas_main.jpg
 
-   Canvas main panel
+   Canvas main panel.
 
 
 The first panel of canvas contains the list of Dynamic Paint surfaces.
@@ -46,7 +46,7 @@ Advanced Panel
 
 .. figure:: /images/dynamic-paint_canvas_advanced.jpg
 
-   Canvas advanced panel
+   Canvas advanced panel.
 
 
 From "Advanced" panel you can adjust surface type and related settings.
@@ -170,7 +170,7 @@ Output Panel
 
 .. figure:: /images/physics_dynamic-paint_canvas_output.jpg
 
-   Canvas output panel
+   Canvas output panel.
 
 
 From "Output" panel you can adjust how surface outputs its results.
@@ -189,7 +189,7 @@ Effects Panel
 
 .. figure:: /images/dynamic-paint_canvas_effects.jpg
 
-   Canvas effects panel
+   Canvas effects panel.
 
 
 This is a special feature for "Paint" type surface.
@@ -214,7 +214,7 @@ Cache Panel
 
 .. figure:: /images/physics_dynamic-paint_cache.jpg
 
-   Canvas cache panel
+   Canvas cache panel.
 
 
 This panel is currently only visible for "vertex" format surfaces.

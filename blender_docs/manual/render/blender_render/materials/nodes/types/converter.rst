@@ -11,7 +11,7 @@ ColorRamp Node
 
 .. figure:: /images/material-convertor-node-color_ramp.jpg
 
-   ColorRamp node
+   ColorRamp node.
 
 
 The ColorRamp Node is used for mapping values to colors with the use of a gradient.
@@ -71,7 +71,7 @@ Controls
 
 .. figure:: /images/material-convertor-node-color_ramp-interpolation.jpg
 
-   Modes of interpolation between marker's values color ramp
+   Modes of interpolation between marker's values color ramp.
 
 
 Interpolation
@@ -91,7 +91,7 @@ Interpolation
 
 .. figure:: /images/material-convertor-node-colorband.jpg
 
-   Colorband
+   Colorband.
 
 
 Colorband
@@ -112,7 +112,7 @@ Colorband
 
 .. figure:: /images/material-convertor-node-colorswatch.jpg
 
-   Color swatch to color selection for a mark
+   Color swatch to color selection for a mark.
 
 
 Color *Selector*
@@ -127,7 +127,7 @@ RGB to BW Node
 
 .. figure:: /images/material-convertor-node-rgb-to-bw.jpg
 
-   RGB to BW node
+   RGB to BW node.
 
 
 This node converts a color image to black-and-white.
@@ -152,7 +152,7 @@ Math Node
 
 .. figure:: /images/material-convertor-node-math.jpg
 
-   Math node
+   Math node.
 
 
 This node performs the selected math operation on an image or buffer.
@@ -231,7 +231,7 @@ Vector Math Node
 
 .. figure:: /images/material-convertor-node-vectormath.jpg
 
-   Vector Math node
+   Vector Math node.
 
 
 This node performs the selected math operation on vectors.
@@ -284,7 +284,7 @@ Squeeze Value Node
 
 .. figure:: /images/material-convertor-node-squeezevalue.jpg
 
-   Squeeze Value node
+   Squeeze Value node.
 
 
 This node is used primarily in conjunction with the Camera Data node used.
@@ -320,7 +320,7 @@ Separate RGB Node
 
 .. figure:: /images/material-convertor-node-separatergb.jpg
 
-   Separate RGB node
+   Separate RGB node.
 
 This node separates an image into its red, green and blue channels.
 The colors are then converted to intensity, which returns a greyscale to the output.
@@ -352,7 +352,7 @@ Combine RGB Node
 
 .. figure:: /images/material-convertor-node-combinergb.jpg
 
-   Combine RGB node
+   Combine RGB node.
 
 
 This node combines a color (image) from separated red, green, blue channels.
@@ -381,7 +381,7 @@ Separate HSV Node
 
 .. figure:: /images/material-convertor-node-separatehsv.jpg
 
-   Separate HSV node
+   Separate HSV node.
 
 
 This node separates an image into image maps for the hue, saturation, value channels.
@@ -425,7 +425,7 @@ Combine HSV Node
 
 .. figure:: /images/material-convertor-node-combinehsv.jpg
 
-   Combine HSV node
+   Combine HSV node.
 
 
 This node combines a color from separated hue, saturation, value color channels.

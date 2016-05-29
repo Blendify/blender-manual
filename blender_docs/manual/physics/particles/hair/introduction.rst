@@ -59,7 +59,7 @@ Options
 
 .. figure:: /images/particlesystem_hairsettings.jpg
 
-   Hair particle system settings
+   Hair particle system settings.
 
 
 Regrow

@@ -11,7 +11,7 @@ Mix
 
 .. figure:: /images/texture-nodes-color-mix.jpg
 
-   mix node
+   mix node.
 
 
 This node mixes a base color or image (threaded to the top socket)
@@ -68,7 +68,7 @@ Invert
 
 .. figure:: /images/texture-nodes-color-invert.jpg
 
-   invert node
+   invert node.
 
 
 This node simply inverts the input values and colors.

@@ -16,7 +16,7 @@ Normal Node
 
 .. figure:: /images/material-vector-node-normal.jpg
 
-   Normal node
+   Normal node.
 
 
 The Normal node generates a normal vector and a dot product.
@@ -70,7 +70,7 @@ Controls
 
 .. figure:: /images/material-vector-node-normal-preview.jpg
 
-   Interactive Normal node preview
+   Interactive Normal node preview.
 
 
 Interactive node preview
@@ -82,7 +82,7 @@ Mapping Node
 
 .. figure:: /images/material-vector-node-mapping.jpg
 
-   Mapping node
+   Mapping node.
 
 
 Essentially mapping node allows the user to modify a mapping of system of 3D-coordinates.
@@ -115,7 +115,7 @@ If you want to use the clamping options, try enabling Min and Max.
 
 .. figure:: /images/material-vector-node-mapping-controls-vectortype.jpg
 
-   Mapping Node Vector Types controls
+   Mapping Node Vector Types controls.
 
 
 Vector type selector
@@ -133,7 +133,7 @@ Vector type selector
 
 .. figure:: /images/material-vector-node-mapping-controls-transforms.jpg
 
-   Mapping Node Transforms controls
+   Mapping Node Transforms controls.
 
 
    Location
@@ -146,7 +146,7 @@ Vector type selector
 
 .. figure:: /images/material-vector-node-mapping-controls-clipping.jpg
 
-   Mapping Node Clipping controls
+   Mapping Node Clipping controls.
 
 
    Min
@@ -160,7 +160,7 @@ Vector Curves
 
 .. figure:: /images/material-vector-node-curves.jpg
 
-   Vector Curves node
+   Vector Curves node.
 
 
 The Vector Curves node maps an input vector X, Y, and Z components to a diagonal curve.

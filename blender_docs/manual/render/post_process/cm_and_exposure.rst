@@ -28,7 +28,7 @@ which corresponds more closely to nature, and makes computations more physically
 
 .. figure:: /images/color_mgt_example_workflow.jpg
 
-   Example linear workflow
+   Example linear workflow.
 
 
 If the colors are linear, it means that if in reality we double the amount of photons,
@@ -47,7 +47,7 @@ Settings
 
 .. figure:: /images/color_mgt_settings.jpg
 
-   Scene settings for color management
+   Scene settings for color management.
 
 
 These settings are found in the scene context of the properties editor, under the *Color Management* panel.
@@ -74,7 +74,7 @@ Display Device
 
 .. figure:: /images/color_mgt_display.jpg
 
-   Conversion from linear to display device space
+   Conversion from linear to display device space.
 
 
 Render
@@ -157,7 +157,7 @@ Color Space
 
 .. figure:: /images/color_mgt_image_settings.jpg
 
-   Image settings for color management
+   Image settings for color management.
 
 
 By default only renders are displayed and saved with the render view transformations applied.

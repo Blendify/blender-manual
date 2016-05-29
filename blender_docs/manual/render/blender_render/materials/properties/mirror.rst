@@ -38,7 +38,7 @@ Options
 
 .. figure:: /images/material-mirrorpanel.jpg
 
-   The Mirror Panel
+   The Mirror Panel.
 
 
 Enable ray-traced reflections
@@ -50,7 +50,7 @@ Reflectivity
 
 .. figure:: /images/material-mirrorcolor.jpg
 
-   Picking a mirror color
+   Picking a mirror color.
 
 
 Color swatch
@@ -137,7 +137,7 @@ Fresnel
 
 .. figure:: /images/material-mirrorfresnel-example.jpg
 
-   Demonstration of Fresnel effect with values equal to (from top to bottom) 0.0, 2.5 and 5.0
+   Demonstration of Fresnel effect with values equal to (from top to bottom) 0.0, 2.5 and 5.0.
 
 
 Let's undertake a small experiment in order to understand what Fresnel is really about.

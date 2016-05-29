@@ -13,7 +13,7 @@ Then select *Collision* as the *Smoke Type*.
 
 .. figure:: /images/smoke_collision_settings.png
 
-   *Smoke Collision* settings
+   *Smoke Collision* settings.
 
 
 .. TODO, can't figure out what the differences between the collision types are :/

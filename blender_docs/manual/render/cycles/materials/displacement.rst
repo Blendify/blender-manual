@@ -45,7 +45,7 @@ Subdivision
 
 .. figure:: /images/cycles_manual_materials_displacementbump.jpg
 
-   Bump Mapped Displacement
+   Bump Mapped Displacement.
 
 When using *True Displacement* or *Displacement + Bump* and enabling *Use Subdivision*
 you can reduce the *Dicing Rate* to subdivide the mesh.

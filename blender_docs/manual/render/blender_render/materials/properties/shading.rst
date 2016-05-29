@@ -8,7 +8,7 @@ In the separate *Shading* tab six more options are available:
 
 .. figure:: /images/material-shadingmenu.jpg
 
-   Shading menu, default settings
+   Shading menu, default settings.
 
 
 Emit

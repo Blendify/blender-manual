@@ -14,7 +14,7 @@ Math
 
 .. figure:: /images/texture-nodes_math.jpg
 
-   math node
+   math node.
 
 
 The math node performs one of several math functions on one or two inputs
@@ -63,7 +63,7 @@ ColorRamp Node
 
 .. figure:: /images/texture-nodes-colorRamp.jpg
 
-   ColorRamp Node
+   ColorRamp Node.
 
 
 The ColorRamp Node is used for mapping values to colors with the use of a gradient.
@@ -86,7 +86,7 @@ RGB to BW Node
 
 .. figure:: /images/texture-nodes-rgbToBw.jpg
 
-   RGB to BW Node
+   RGB to BW Node.
 
 
 This node converts a color image to black-and-white by computing the luminance of the rgb
@@ -98,7 +98,7 @@ Value to Normal
 
 .. figure:: /images/texture-nodes-valueToNormal.jpg
 
-   Value to Normal node
+   Value to Normal node.
 
 
 Computes a normal map based on greyscale values of an input
@@ -115,7 +115,7 @@ Distance
 
 .. figure:: /images/texture-nodes-distance.jpg
 
-   Distance node. Coordinate 2 dropdown is displayed
+   Distance node. Coordinate 2 dropdown is displayed.
 
 
 Computes the distance between two 3d coordinates.

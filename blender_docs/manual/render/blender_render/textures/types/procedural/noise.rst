@@ -5,7 +5,7 @@ Noise
 
 .. figure:: /images/texture-procedural-noise.jpg
 
-   Noise Texture Panel
+   Noise Texture Panel.
 
 
 Although this looks great, it is not Perlin Noise! This is a true, randomly generated Noise.

@@ -45,7 +45,7 @@ This action has a series of effects:
 
 .. figure:: /images/materials_new.jpg
 
-   Materials Panel with New Entry
+   Materials Panel with New Entry.
 
 
 - opens the new material in the Active Material box,
@@ -103,7 +103,7 @@ Data
 
 .. figure:: /images/material-matmenu-linkobjdata.jpg
 
-   Link material to object or to object's data
+   Link material to object or to object's data.
 
 
 The Link pop-up menu has two choices, Data and Object.
@@ -176,7 +176,7 @@ There are several ways to do this using the Available Materials menu:
 
 .. figure:: /images/material-matmenu-searchlist.jpg
 
-   List of available materials
+   List of available materials.
 
 
 .. tip:: Searching for Materials
