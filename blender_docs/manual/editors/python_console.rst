@@ -261,7 +261,7 @@ We create a reference to the operator that is used for creating a cube mesh prim
 
 
 Now in a for loop, we create the five objects like this (In the screenshot above,
-I used another method)
+another method is used)
 Press :kbd:`Return` twice after entering the command at the shell prompt.
 
 .. code-block:: python

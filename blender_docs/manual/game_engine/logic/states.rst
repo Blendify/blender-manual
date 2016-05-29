@@ -1,3 +1,5 @@
+.. |info-button| image:: /images/icons_info.png
+   :width: 1.1em
 
 ******
 States
@@ -31,9 +33,8 @@ States are set up and edited in the object's Controller settings (for details se
 
 One of the actuators, the State actuator, can set or unset the object's State bits,
 and so allow the object's reaction to a sensor signal to depend on its current state. So,
-in the above example,
-the actor will have a number of controllers connected to the "loud bang" sensor,
-for each of the "awake", "asleep" or "dead" states.
+in the above example, the actor will have a number of controllers connected to the "loud bang"
+sensor, for each of the "awake", "asleep" or "dead" states.
 These will operate different actuators depending on the current state of the actor,
 and some of these actuators may switch the actor's state under appropriate conditions.
 
@@ -44,8 +45,7 @@ Editing States
 .. figure:: /images/BGE_Controller_State_Panel.jpg
    :width: 292px
 
-   State Panel Button
-
+   State Panel Button.
 
 States are set up and edited using the Controller (center) column of the Game Logic Panel.
 To see the State panel, click on the State Panel Button shown.
@@ -58,11 +58,10 @@ is carried out using the State Panel for the object,
 which is switched on and off using the button shown. The panel is divided into two halves,
 Visible and Initial.
 
-
 .. figure:: /images/BGE_Controller_State_Panel1.jpg
    :width: 292px
 
-   State Panel Visible
+   State Panel Visible.
 
 
 Visible States
@@ -85,16 +84,16 @@ at the head of their columns are ticked.
 .. figure:: /images/BGE_Controller_State_Panel2.jpg
    :width: 292px
 
-   State Panel Initial
+   State Panel Initial.
 
 
 Initial State
 =============
 
-In the Initial area,
-each of the 30 available states is again represented by a light-gray square. One of these
-states may be clicked as the state in which the object starts when the game is run.
+In the Initial area, each of the 30 available states is again represented by a light-gray square.
+One of these states may be clicked as the state in which the object starts when the game is run.
 
-At the right is the I (Information) button; if clicked, and the (Game)
-Show Debug Properties menu entry is clicked, the current state of the object is shown in the
+At the right is the |info-button| button; if clicked,
+and the :menuselection:`Game --> Show Debug Properties`
+is clicked, the current state of the object is shown in the
 top left-hand corner of the display while the game is running.

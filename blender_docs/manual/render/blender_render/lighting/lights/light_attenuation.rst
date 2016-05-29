@@ -6,7 +6,7 @@ Light Attenuation
 .. figure:: /images/lighting-falloff-hilite.jpg
    :width: 312px
 
-   Lamp panel, falloff options highlighted
+   Lamp panel, falloff options highlighted.
 
 
 There are two main controls for light falloff for *Point* and *Spot* lamps.
@@ -168,7 +168,6 @@ Distance axis
    It represents the position at a particular point along a light source's attenuation path.
    The far left is at the position of the light source and the far right is the place where the
    light source's influence would normally be completely attenuated.
-   I say "normally would" because the *Falloff Curve* can be altered to do the exact opposite if required.
 Intensity axis
    It represents the intensity at a particular point along a light source's attenuation path.
    Higher intensity is represented by being higher up the intensity axis,

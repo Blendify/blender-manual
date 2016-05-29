@@ -6,7 +6,7 @@ Halo Rendering
 .. figure:: /images/materials-helorender-activate.jpg
    :width: 300px
 
-   Activating helo rendering
+   Activating helo rendering.
 
 
 Blender provides a set of materials which do not obey the face-shader paradigm and which are
@@ -25,7 +25,7 @@ Options
 .. figure:: /images/materials-halos.jpg
    :width: 309px
 
-   Halo panels
+   Halo panels.
 
 
 To enable *Halos*,
@@ -198,21 +198,19 @@ a lamp will make it brighter and affect its diffuse color and intensity.
 
 
 Examples
-********
+========
 
 Dotmatrix display
-=================
+-----------------
 
 Let's use a halo material to create a dotmatrix display.
-
 
 - To begin, add a grid with the dimensions 32x16.
   Then add a camera and adjust your scene so that you have a nice view of the billboard.
 - Use a 2D image program to create some red text on a black background,
-  using a simple and bold font (if you are a lazy lizard [I hope this not offensive, I just like how it sounds!],
+  using a simple and bold font,
   you can just save the picture below on your hard drive...).
   *Dot matrix image texture.* shows an image 512 pixels wide by 64 pixels high, with some black space at both sides.
-
 
 .. figure:: /images/DotMatrix2.jpg
 
@@ -231,7 +229,6 @@ Let's use a halo material to create a dotmatrix display.
   (take care not to move them!).
   Then adjust the brightness with the *Add* value in the MaterialButtons.
 
-
 .. figure:: /images/DotMatrix.jpg
 
    Dot Matrix display.
@@ -243,10 +240,7 @@ using the *ofsX* value in the *Texture* panel of the MaterialButtons.
 but if you do you will have to adjust the size of the halos by shrinking them,
 or they will overlap. Fig. Dot Matrix display.
 
-
 .. note:: Note about material indices
 
    Halo materials only work when applied using the first material index.
    Any material(s) in a subsequent material index will not be rendered.
-
-

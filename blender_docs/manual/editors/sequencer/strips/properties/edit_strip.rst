@@ -24,14 +24,20 @@ Channel
    Changes the channel number, or row, of the strip.
 Start Frame
    Changes the starting frame number of the strip, which is the same as grabbing and moving the strip.
-   Tip when you add a strip, I like to just drop it and then use this field to place it at the frame I want,
-   rather that trying to drag and drop in exactly the right place.
+
+   .. tip::
+
+      When you add a strip, just drop the strip and then use *Start Frame* to place it at the desired frame.
+      This helpful when it is hard to drag and drop in exactly the right place.
+
 Length
    Specify the number of frames to use for the strip.
 
+.. TODO/Review
+
 Use the Convert to Premul button if a strip has an Alpha (transparency) channel.
 Use FilterY if the strip is from broadcast video and has even or odd interlacing
-fields. Enhance the color saturation through the Mul tiply field.
+fields. Enhance the color saturation through the Multiply field.
 Play a strip backwards by enabling Reverse Frames.
 Tell Blender to display every nth frame by entering a Strobe value. Finally,
 when using MPEG video (VCD, DVD, XVid, DivX, ...),
