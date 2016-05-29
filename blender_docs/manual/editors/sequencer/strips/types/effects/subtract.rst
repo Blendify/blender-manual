@@ -5,7 +5,7 @@ Subtract Effect
 
 .. figure:: /images/editors_sequencer_strips_subtract.png
 
-   Subtract Effect
+   Subtract Effect.
 
 
 This effect takes away one strip's color from the second.

@@ -45,7 +45,7 @@ Keyframing the Speed Control
 
 .. figure:: /images/Speed-Control-keyframe-Frame-number.jpg
 
-   keyframing the Frame number
+   keyframing the Frame number.
 
 
 To get even finer control over your clip timing, you can use curves!

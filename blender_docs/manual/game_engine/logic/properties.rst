@@ -42,7 +42,7 @@ Panel. The top menu provides a list of the available property types.
 
 .. figure:: /images/BGE_Game_Logic_Properties.jpg
 
-   Properties Panel of the Logic Editor
+   Properties Panel of the Logic Editor.
 
 
 Add Game Property button

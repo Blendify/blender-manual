@@ -5,7 +5,7 @@ Smooth Modifier
 
 .. figure:: /images/modifier-mesh-smooth-example01.jpg
 
-   Smooth modifier applied to a subdivided cube
+   Smooth modifier applied to a subdivided cube.
 
 
 This modifier smooths a mesh by flattening the angles between adjacent faces in it,

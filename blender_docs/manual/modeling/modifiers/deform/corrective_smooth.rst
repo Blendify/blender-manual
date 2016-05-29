@@ -25,7 +25,7 @@ Options
 
 .. figure:: /images/modifier-corrective_smooth_ui.png
 
-   Corrective smooth modifier
+   Corrective smooth modifier.
 
 
 The modifier also uses a *Rest* state, to use as a reference

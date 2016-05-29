@@ -5,7 +5,7 @@ Selecting Edges
 
 .. figure:: /images/selection-mode_buttons_edge-activated.jpg
 
-   Buttons for the selection modes
+   Buttons for the selection modes.
 
 Edges can be selected in much the same way as vertices and faces -
 by right-clicking them while Edge Select Mode is activated.

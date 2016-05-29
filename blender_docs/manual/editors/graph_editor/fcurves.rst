@@ -221,11 +221,11 @@ hence:
 
    * - .. figure:: /images/Animation-F-Curves-Moving-1.jpg
 
-          Before moving the second keyframe
+          Before moving the second keyframe.
 
      - .. figure:: /images/Animation-F-Curves-Moving-2.jpg
 
-          After moving the second keyframe
+          After moving the second keyframe.
 
 
 Editing Tools

@@ -13,7 +13,7 @@ with options for using a curve falloff, texture and vertex group.
 
 .. figure:: /images/modifier-warp-example02.jpg
 
-   Warp modifier applied to a grid
+   Warp modifier applied to a grid.
 
 
 The Warp Modifier is a bit tricky at first, but it helps to understand how it works.
@@ -29,7 +29,7 @@ Options
 
 .. figure:: /images/modifier-warp-example01.jpg
 
-   Warp modifier
+   Warp modifier.
 
 
 From:

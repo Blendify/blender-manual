@@ -14,7 +14,7 @@ Options
 
 .. figure:: /images/Game_Engine_Performance_System_System_Tab_BGE_Render_Context.jpg
 
-   System tab at the Render Context
+   System tab at the Render Context.
 
 
 Use Frame Rate

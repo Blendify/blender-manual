@@ -10,7 +10,7 @@ and mix them using an F-Curve as a volume control.
 
 .. figure:: /images/editors_sequencer_audio_editing.png
 
-   Example of Sound Editing
+   Example of Sound Editing.
 
 
 Options

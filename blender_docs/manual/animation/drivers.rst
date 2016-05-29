@@ -88,11 +88,11 @@ Add Variable
 
    * - .. figure:: /images/Animation_Driver_Transform_Channel2.jpg
 
-          Transform Channel Setup
+          Transform Channel Setup.
 
      - .. figure:: /images/Animation_Driver_Distance.jpg
 
-          Distance Setup
+          Distance Setup.
 
 
 Driver Variables
@@ -333,7 +333,7 @@ relationships between your shape keys.
 
 .. figure:: /images/Driver_For_Multiple_Shape_Keys_Key1.jpg
 
-   Key1 must handle conflicting values from the two bones
+   Key1 must handle conflicting values from the two bones.
 
 
 .. figure:: /images/Driver_For_Multiple_Shape_Keys_Key2A.jpg

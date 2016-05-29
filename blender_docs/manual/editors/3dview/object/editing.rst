@@ -52,7 +52,7 @@ though there are several different ways to do this.
 
 .. figure:: /images/Modeling-Objects-Parenting-Exampel-SuzDissect.jpg
 
-   Suzanne dissected neatly
+   Suzanne dissected neatly.
 
 Selected
    This option separates the selection to a new object.

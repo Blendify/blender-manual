@@ -60,7 +60,7 @@ The amount of scaling will be displayed in the bottom left hand corner of the 3D
 
 .. figure:: /images/3D_interaction-Transformations-Basic-Scale-scale_value_header.jpg
 
-   Scale values
+   Scale values.
 
 
 Constraining the scaling axis (axis locking)

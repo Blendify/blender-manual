@@ -22,7 +22,7 @@ Dope Sheet Modes
 
 .. figure:: /images/dopesheet-modes.jpg
 
-   Dope Sheet Modes
+   Dope Sheet Modes.
 
 
 There are four basic views for the Dopesheet.These all view different contexts of animation:

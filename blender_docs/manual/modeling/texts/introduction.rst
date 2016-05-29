@@ -509,7 +509,7 @@ Textures
 
 .. figure:: /images/TextTextureSettings.jpg
 
-   Texture Settings
+   Texture Settings.
 
 
 Use UV for Mapping

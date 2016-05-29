@@ -19,7 +19,7 @@ You can also change the height of the axis that points the direction of the norm
 
 .. figure:: /images/modeling_meshes_editing_normals_display.png
 
-   Normal Display Options
+   Normal Display Options.
 
 
 .. _modeling-meshes-editing-normals_editing:

@@ -11,7 +11,7 @@ The default layout looks like the image below.
 
 .. figure:: /images/editors_movie-clip.png
 
-   Movie Clip Editor interface
+   Movie Clip Editor interface.
 
 In order to get to either the masking or the tracking tools you must first add a movie file.
 There are several ways to to this:
@@ -30,7 +30,7 @@ So, when a movie clip is loaded into the clip editor, extra panels are displayed
 
 .. figure:: /images/editors_movie-clip_example.jpg
 
-   Movie Clip Editor with a Opened Clip
+   Movie Clip Editor with a Opened Clip.
 
 - :doc:`Motion Tracking </editors/movie_clip_editor/tracking/index>`
 - :doc:`Masking </editors/movie_clip_editor/masking>`

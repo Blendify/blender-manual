@@ -133,7 +133,7 @@ make the ones containing the mark ever-so-slightly brighter.
 
 .. figure:: /images/Compositing-Mix-watermark-encode.jpg
 
-   Embedding your mark in an Image using a Mark and Specific Position
+   Embedding your mark in an Image using a Mark and Specific Position.
 
 
 Of course, if you *want* people to notice your mark, don't scale it so much,
@@ -159,7 +159,7 @@ and you can see how the original mark stands out, clear as a bell:
 
 .. figure:: /images/Compositing-Mix-watermark-decode.jpg
 
-   Checking an image for your watermark
+   Checking an image for your watermark.
 
 
 Various image compression algorithms lose some of the original; the difference shows as noise.

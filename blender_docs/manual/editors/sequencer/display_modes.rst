@@ -14,7 +14,7 @@ to display the sequence in real time, and in various ways.
 
 .. figure:: /images/editors_sequencer_view_header.png
 
-   Sequencer Display Header
+   Sequencer Display Header.
 
 The second button will change the editor to display only the preview,
 and the third button displays both the sequencer and the preview.

@@ -573,7 +573,7 @@ Hints
 
 .. figure:: /images/Modeling-Objects-Parenting-Exampel2-Outliner.jpg
 
-   Outliner view
+   Outliner view.
 
 
 There is another way to see the parent-child relationship in groups and that is to use the *Outliner* view

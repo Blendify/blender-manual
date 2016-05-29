@@ -23,7 +23,7 @@ This post-process function fills in the jaggies with interpolated values.
 
 .. figure:: /images/Compositing-Node-IDMask_panel.jpg
 
-   Setting an Object Index
+   Setting an Object Index.
 
 
 You can specify, for any of the objects in your scene, an Object Index as shown the right

@@ -8,7 +8,7 @@ correction formulas.
 
 .. figure:: /images/compositing_nodes_colorbalance.png
 
-   Bright/Contrast Node
+   Bright/Contrast Node.
 
 The *Lift, Gamma, Gain* formula uses *Lift*, *Gamma*, and *Gain* 
 calculations to adjust an image. 

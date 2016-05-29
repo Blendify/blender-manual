@@ -16,7 +16,7 @@ Screenshots
 
 .. figure:: /images/basics-screenshot-small-save-full-screen.jpg
 
-   Save Screenshot Option
+   Save Screenshot Option.
 
 
 :kbd:`Ctrl-F3` will take a screenshot of your Blender window and then open the Blender *File Browser* window,
@@ -71,11 +71,11 @@ and it will show you a button for stopping your capture.
 
 .. figure:: /images/basics-screencast-small-header-info-window-normal.jpg
 
-   Info Header
+   Info Header.
 
 .. figure:: /images/basics-screencast-small-header-info-window-stop.jpg
 
-   Info Header with the Capture Stop Button
+   Info Header with the Capture Stop Button.
 
 
 .. note:: The only way to stop the Screencast

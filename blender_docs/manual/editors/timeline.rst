@@ -31,7 +31,7 @@ Time Cursor
 
 .. figure:: /images/Timeline_Cursor.jpg
 
-   Time Cursor
+   Time Cursor.
 
 
 The *Time Cursor* is the green line, its used to set and display the current time frame.
@@ -69,7 +69,7 @@ Markers are usually used to identify key parts of the animation.
 
 .. figure:: /images/Timeline_Markers.jpg
 
-   Markers
+   Markers.
 
 
 Markers can be selected by pressing :kbd:`RMB` or :kbd:`Shift-RMB` to select more.
@@ -131,7 +131,7 @@ Cache
 
 .. figure:: /images/Timeline_Cache.jpg
 
-   Timline Cache
+   Timline Cache.
 
 
 Show Cache

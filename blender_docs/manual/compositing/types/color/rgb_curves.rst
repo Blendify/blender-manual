@@ -22,7 +22,7 @@ Here are some common curves you can use to achieve desired effects:
 
 .. figure:: /images/Compositing-Common_RGB_Node_Uses.jpg
 
-   Identifiers: A) Lighten B) Negative C) Decrease Contrast D) Posterize
+   Identifiers: A) Lighten B) Negative C) Decrease Contrast D) Posterize.
 
 
 Options

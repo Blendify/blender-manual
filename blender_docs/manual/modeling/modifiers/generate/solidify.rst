@@ -25,7 +25,7 @@ Clamp
 
    .. figure:: /images/modifier-solidify-clamp.jpg
 
-      Clamp Offset
+      Clamp Offset.
 
 
 Vertex Group

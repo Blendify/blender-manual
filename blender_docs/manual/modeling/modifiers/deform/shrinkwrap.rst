@@ -15,7 +15,7 @@ Options
 
 .. figure:: /images/modifier-shrinkwrapnsp.jpg
 
-   Nearest Surface Point
+   Nearest Surface Point.
 
 
 Target

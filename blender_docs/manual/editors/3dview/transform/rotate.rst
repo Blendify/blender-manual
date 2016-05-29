@@ -46,7 +46,7 @@ The amount of rotation will be displayed in the bottom left hand corner of the 3
 
 .. figure:: /images/3D_interaction-Transformations-Basic-Rotate-rotate_value_header.jpg
 
-   Rotation values
+   Rotation values.
 
 
 Constraining the rotation axis (axis locking)

@@ -12,7 +12,7 @@ Options
 
 .. figure:: /images/bge_actuator_steering-steering_panel.jpg
 
-   Steering Actuator Panel
+   Steering Actuator Panel.
 
 
 Behavior:

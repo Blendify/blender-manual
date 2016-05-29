@@ -24,7 +24,7 @@ Weight Paint in a nutshell
 
 .. figure:: /images/Modeling-Meshes-weight-paint-example.jpg
 
-   Weight Painted Vertex Group
+   Weight Painted Vertex Group.
 
 
 - You enter *Weight Paint mode* from the Mode Menu :kbd:`Ctrl-Tab`.
@@ -83,7 +83,7 @@ Brushes
 
 .. figure:: /images/Modeling-Meshes-Weight-Paint-Brush.jpg
 
-   The Brush panel in the Tool Shelf
+   The Brush panel in the Tool Shelf.
 
 
 Painting needs paint brushes and Blender provides a Brush Panel within the Tool Shelf when it
@@ -271,7 +271,7 @@ Customizing brush color space
 
 .. figure:: /images/Modeling-Meshes-weight-paint-custom-colorband.jpg
 
-   Customizing the Color Band
+   Customizing the Color Band.
 
 
 Blender allows customization of the color range used for the Weight Paint colors.
@@ -332,7 +332,7 @@ Vertex Selection Masking
 
 .. figure:: /images/Modeling-Meshes-weight-paint-vertex-select.jpg
 
-   Vertex Selection masking
+   Vertex Selection masking.
 
 
 In this mode you can select one or more vertices and then paint only on the selection.
@@ -348,12 +348,12 @@ Face Selection Masking
 
 .. figure:: /images/Modeling-Meshes-weight-paint-face-select.jpg
 
-   Face Selection masking
+   Face Selection masking.
 
 
 .. figure:: /images/Modeling-Meshes-weight-paint-face-select-hidden.jpg
 
-   hidden faces
+   hidden faces.
 
 
 The *Face Selection masking* allows you to select faces and limit the weight paint
@@ -393,7 +393,7 @@ The rest of the 3D window gets hidden.
 
 .. figure:: /images/Modeling-Meshes-weight-paint-border-select.jpg
 
-   The Clipping Border is used to select interesting parts for local painting
+   The Clipping Border is used to select interesting parts for local painting.
 
 
 You make the entire mesh visible again by pressing :kbd:`Alt-B` a second time.
@@ -407,7 +407,7 @@ Weight Paint Options
 
 .. figure:: /images/Modeling-Meshes-weight-paint-options.jpg
 
-   Weight Paint Options
+   Weight Paint Options.
 
 
 The Weight Paint Options modify the overall brush behavior:
@@ -455,7 +455,7 @@ Weight Paint Tools
 
 .. figure:: /images/Modeling-Meshes-weight-paint-tools.jpg
 
-   Weight Paint Tools
+   Weight Paint Tools.
 
 
 Blender provides a set of helper tools for Weight Painting.

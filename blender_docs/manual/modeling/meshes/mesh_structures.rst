@@ -66,7 +66,7 @@ Loops
 
 .. figure:: /images/mesh-structures-edge-and-face-loops.jpg
 
-   Edge and Face Loops
+   Edge and Face Loops.
 
 
 *Edge* and *Face Loops* are sets of faces or edges that form continuous "loops" as shown in

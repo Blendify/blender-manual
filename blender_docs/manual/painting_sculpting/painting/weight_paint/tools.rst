@@ -5,7 +5,7 @@ Weight Tools
 
 .. figure:: /images/Modeling-Meshes-weight-paint-tools.jpg
 
-   Weight Paint Tools
+   Weight Paint Tools.
 
 
 Blender provides a set of helper tools for Weight Painting.
@@ -49,7 +49,7 @@ Operator Parameters
 
 .. figure:: /images/Modeling-Meshes-wp-tools-normalize-all.jpg
 
-   Normalize All Options
+   Normalize All Options.
 
 
 Lock Active
@@ -66,7 +66,7 @@ Normalize
 
 .. figure:: /images/Modeling-Meshes-wp-tools-normalize.jpg
 
-   Normalize All Options
+   Normalize All Options.
 
 This tool only works on the active Vertex Group.
 All vertices keep their relative weights,
@@ -78,7 +78,7 @@ Mirror
 
 .. figure:: /images/Modeling-Meshes-wp-tools-mirror.jpg
 
-   Normalize All Options
+   Normalize All Options.
 
 
 This tool mirrors the weights from one side of the mesh to the opposite side
@@ -92,7 +92,7 @@ Operator Parameters
 
 .. figure:: /images/Modeling-Meshes-wp-tools-mirror-options.jpg
 
-   Mirror Options
+   Mirror Options.
 
 
 Mirror Weights
@@ -122,7 +122,7 @@ Invert
 
 .. figure:: /images/Modeling-Meshes-wp-tools-invert.jpg
 
-   Invert
+   Invert.
 
 
 Replaces each Weight of the selected weight group by 1.0 - weight.
@@ -140,7 +140,7 @@ Operator Parameters
 
 .. figure:: /images/Modeling-Meshes-wp-tools-invert-operator.jpg
 
-   Mirror Options
+   Mirror Options.
 
 
 Subset
@@ -160,7 +160,7 @@ Clean
 
 .. figure:: /images/Modeling-Meshes-wp-tools-clean.jpg
 
-   Invert
+   Invert.
 
 
 Removes weights below a given threshold.
@@ -178,7 +178,7 @@ Operator Parameters
 
 .. figure:: /images/Modeling-Meshes-wp-tools-clean-operator.jpg
 
-   Mirror Options
+   Mirror Options.
 
 
 Subset
@@ -196,7 +196,7 @@ Levels
 ======
 .. figure:: /images/Modeling-Meshes-wp-tools-levels.jpg
 
-   Invert
+   Invert.
 
 
 Adds an offset and a scale to all weights of the selected Weight Groups.
@@ -212,7 +212,7 @@ Operator Parameters
 
 .. figure:: /images/Modeling-Meshes-wp-tools-levels-operator.jpg
 
-   Mirror Options
+   Mirror Options.
 
 
 Subset
@@ -240,7 +240,7 @@ This tool only works in vertex select mode.
 
 .. figure:: /images/Modeling-Meshes-wp-tools-blend1.jpg
 
-   Blending
+   Blending.
 
 
 To understand what the tool really does, let's take a look at a simple example.
@@ -260,7 +260,7 @@ This value is multiplied by the factor given in the Operator parameters (see bel
 
 .. figure:: /images/Modeling-Meshes-wp-tools-blend2.jpg
 
-   Blending
+   Blending.
 
 
 Now let's see what happens when we select all but one of the neighbors of the selected vert as
@@ -305,7 +305,7 @@ Operator Parameters
 
 .. figure:: /images/Modeling-Meshes-wp-tools-blend-operator.jpg
 
-   Blend Options
+   Blend Options.
 
 
 Factor
@@ -331,11 +331,11 @@ Prepare the Copy
 
    * - .. figure:: /images/Modeling-Meshes-wp-tools-transfer-wrong.jpg
 
-          Blending
+          Blending.
 
      - .. figure:: /images/Modeling-Meshes-wp-tools-transfer-ok.jpg
 
-          Blending
+          Blending.
 
 
 You first select all source objects, and finally the target object

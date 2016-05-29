@@ -6,7 +6,7 @@
 
 .. figure:: /images/editors_file_editor.png
 
-   File Browser
+   File Browser.
 
 Usage
 =====

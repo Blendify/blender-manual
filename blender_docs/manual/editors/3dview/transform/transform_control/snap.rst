@@ -58,7 +58,7 @@ Snap Element
 
 .. figure:: /images/3D-interaction_Transform-Control_Snap-snap-element.jpg
 
-   Snap Element menu
+   Snap Element menu.
 
 
 Volume
@@ -104,15 +104,15 @@ Closest
 
    * - .. figure:: /images/3D-interaction_Transform-Control_Snap-snap-closest.jpg
 
-          Closest
+          Closest.
 
      - .. figure:: /images/3D-interaction_Transform-Control_Snap-snap-active.jpg
 
-          Active
+          Active.
 
      - .. figure:: /images/3D-interaction_Transform-Control_Snap-snap-median.jpg
 
-          Median
+          Median.
 
 
 Additional Snap Options
@@ -122,11 +122,11 @@ Additional Snap Options
 
    * - .. figure:: /images/3D-interaction_Transform-Control_Snap-snap-options-object-mode.jpg
 
-          Object mode
+          Object mode.
 
      - .. figure:: /images/3D-interaction_Transform-Control_Snap-snap-options-edit-mode.jpg
 
-          Edit mode
+          Edit mode.
 
 
 As seen by the red highlighted areas in the image above,

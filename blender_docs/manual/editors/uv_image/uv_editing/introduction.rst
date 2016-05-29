@@ -20,7 +20,7 @@ Header Region
 
 .. figure:: /images/editors_image_texturing-header.png
 
-   UV/Image Editor Header
+   UV/Image Editor Header.
 
 The header bar contains several menus and options for working with UVs
 
@@ -68,7 +68,7 @@ Properties Panel
 .. figure:: /images/editors_image_properties.png
    :align: right
 
-   Image Editor Properties Panel
+   Image Editor Properties Panel.
 
 UV Vertex
    Transform Properties :doc:`Selecting UV's </editors/uv_image/uv_editing/layout_editing>`.

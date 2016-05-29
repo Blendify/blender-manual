@@ -74,7 +74,7 @@ An Orthogonal Fisheye view from 90º to 250º degrees.
 
 .. figure:: /images/Dev-GameEngine-Dome-Fisheye.jpg
 
-   Fisheye Mode
+   Fisheye Mode.
 
 
 Front-Truncated Dome Mode
@@ -90,7 +90,7 @@ this mode aligns the fisheye image with the top of the window while touching the
 
 .. figure:: /images/Dev-GameEngine-Dome-Front-Truncated.jpg
 
-   Front Truncated Dome Mode
+   Front Truncated Dome Mode.
 
 
 Rear-Truncated Dome Mode
@@ -106,7 +106,7 @@ this mode aligns the fisheye image with the bottom of the window while touching 
 
 .. figure:: /images/Dev-GameEngine-Dome-Rear-Truncated.jpg
 
-   Rear Truncated Dome Mode
+   Rear Truncated Dome Mode.
 
 
 Cube Map Mode
@@ -121,7 +121,7 @@ Cube Map mode can be used for pre-generate animated images for CubeMaps.
 
 .. figure:: /images/Dev-GameEngine-Dome-EnvMap.jpg
 
-   Environment Map Mode
+   Environment Map Mode.
 
 
 Spherical Panoramic Mode
@@ -135,7 +135,7 @@ A full spherical panoramic mode.
 
 .. figure:: /images/Dev-GameEngine-Dome-Panoramic.jpg
 
-   Full Spherical Panoramic Mode
+   Full Spherical Panoramic Mode.
 
 
 Warp Data Mesh

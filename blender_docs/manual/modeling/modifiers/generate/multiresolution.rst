@@ -8,7 +8,7 @@ Multiresolution Modifier
 
 .. figure:: /images/Multires_modifier_image.jpg
 
-   Multires modifier
+   Multires modifier.
 
 
 The Multiresolution modifier (often shortened to *Multires*) gives you the ability to subdivide a mesh similarly

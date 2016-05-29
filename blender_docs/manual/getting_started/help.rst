@@ -93,7 +93,7 @@ Scripting Reference
 
   .. figure:: /images/basics-help-info-operator-cheat-sheet.jpg
 
-     Info Window - Operator Cheat Sheet
+     Info Window - Operator Cheat Sheet.
 
 
 .. _help-system_info:

@@ -29,7 +29,7 @@ Activating the tool brings up the File Browser Window with options for saving th
 
 .. figure:: /images/texture-uv-layout-export.jpg
 
-   Export Options
+   Export Options.
 
 
 All UVs
@@ -60,12 +60,12 @@ For using images as textures, see the page on :doc:`Image Textures </render/blen
    * - .. figure:: /images/texture-uv-layout.jpg
           :width: 250px
 
-          A UV Layout in the UV Editor          
+          A UV Layout in the UV Editor.
 
      - .. figure:: /images/texture-uv-layout2.jpg
           :width: 250px
 
-          A UV Layout in the Image Editor
+          A UV Layout in the Image Editor.
 
 
 .. _face_textures:
@@ -101,7 +101,7 @@ Use UV Coordinates
 
 .. figure:: /images/texture-uv-coords.jpg
 
-   A texture setup to map using its UV coordinates
+   A texture setup to map using its UV coordinates.
 
 
 In the Texture channel panel,
@@ -178,7 +178,7 @@ New Images
 .. figure:: /images/texture-uv-layout-testGrid.jpg
    :width: 200px
 
-   The new Image dialogue
+   The new Image dialogue.
 
 
 When you select *New Image* you are presented with several options. This
@@ -220,12 +220,12 @@ look like cloth, you do NOT want any stretching (unless you want the cloth to lo
    * - .. figure:: /images/texture-uv-layout-testGrid2.jpg
           :width: 250px
 
-          The test grid applied to the UVs          
+          The test grid applied to the UV's.
 
      - .. figure:: /images/texture-uv-layout-testGrid3.jpg
           :width: 250px
 
-          A preview of the texture on the geometry
+          A preview of the texture on the geometry.
 
 
 When you render, the mesh will have the test grid as its colors,

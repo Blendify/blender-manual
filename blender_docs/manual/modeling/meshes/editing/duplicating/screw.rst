@@ -89,12 +89,12 @@ both in the info Window and at the place where you clicked to start performing t
 
 .. figure:: /images/Modeling_Mesh_Screw_Error_Message_Info_Window.jpg
 
-   Fig. 3 - Screw Error message in the Header of the Info Window
+   Fig. 3 - Screw Error message in the Header of the Info Window.
 
 
 .. figure:: /images/Modeling_Mesh_Screw_Error_Message_Screw_Tool.jpg
 
-   Fig. 4 - Error message when clicking in the Screw Tool with an incorrect or bad selection
+   Fig. 4 - Error message when clicking in the Screw Tool with an incorrect or bad selection.
 
 
 You may have as many profiles as you like (like circles, squares, and so on)
@@ -148,7 +148,7 @@ you can press :kbd:`Ctrl-Z` at any time in *Edit Mode*.
 
 .. figure:: /images/Modeling_Mesh_Screw_Cursor_Basic_Location.jpg
 
-   Fig. 6 - Cursor Basic Location - Transform Panel
+   Fig. 6 - Cursor Basic Location - Transform Panel.
 
 
 .. figure:: /images/Modeling_Mesh_Screw_Screw_Interactive_Panel.jpg
@@ -196,7 +196,7 @@ The Spring example
 
 .. figure:: /images/Modeling_Mesh_Screw_Screw_Circle_Moved_X_-3BU.jpg
 
-   Fig. 8 - Circle placed at X -3,0,0
+   Fig. 8 - Circle placed at X -3,0,0.
 
 
 - Open Blender and delete the default Cube.
@@ -226,7 +226,7 @@ Now we will create a height vector for Blender:
 
 .. figure:: /images/Modeling_Mesh_Screw_Spring_Profile_Ready.jpg
 
-   Fig. 9 - Profile and vector created
+   Fig. 9 - Profile and vector created.
 
 
 - Press :kbd:`Ctrl` and Left click :kbd:`LMB` near the circle,

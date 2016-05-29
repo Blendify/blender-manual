@@ -21,7 +21,7 @@ together with the appropriate options for game setup/debug/running
 
 .. figure:: /images/BGE_Game_Logic_Screen_Layout4.jpg
 
-   Game Logic Menu
+   Game Logic Menu.
 
 
 **1) Game Logic**
@@ -32,7 +32,7 @@ Properties but also a new Logic Editor panel concerned solely with the BGE.
 
 .. figure:: /images/BGE_Game_Logic_Screen_Layout2.jpg
 
-   Render Engine Menu
+   Render Engine Menu.
 
 
 **2) Blender Game**
@@ -44,7 +44,7 @@ and a range of Properties for the BGE renderer properties (see below)
 
 .. figure:: /images/BGE_Game_Logic_Screen_Layout3.jpg
 
-   Game Options
+   Game Options.
 
 
 **3) Game**

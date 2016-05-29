@@ -7,7 +7,7 @@ Introduction
 
 .. figure:: /images/editors_movie-clip_dopesheet.png
 
-   Dope Sheet View
+   Dope Sheet View.
 
 The dope sheet view is used to visualize motion tracking data,
 it implemented as separate view of the movie clip editor just like the
