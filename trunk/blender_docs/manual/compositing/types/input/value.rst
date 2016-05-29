@@ -7,7 +7,7 @@ Value Node
    :align: right
    :width: 150px
 
-   Value Node
+   Value Node.
 
 The Value node has no inputs; it just outputs a numerical value
 (floating point spanning 0.00 to 1.00)

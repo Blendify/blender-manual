@@ -7,7 +7,7 @@ Mix Node
    :align: right
    :width: 150px
 
-   Mix Node
+   Mix Node.
 
 This node mixes a base image (threaded to the top socket) together with a second image
 (bottom socket)

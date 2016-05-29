@@ -7,7 +7,7 @@ Invert Node
    :align: right
    :width: 150px
 
-   Invert Node
+   Invert Node.
 
 This handy node inverts the colors in the input image, producing a negative.
 

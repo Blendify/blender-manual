@@ -7,7 +7,7 @@ Render Layers Node
    :align: right
    :width: 150px
 
-   Render Layers Node
+   Render Layers Node.
 
 This node is the starting place for getting a picture of your scene into the compositing node
 map.

@@ -7,6 +7,6 @@ Track Position
    :align: right
    :width: 150px
 
-   Render Layers Node
+   Render Layers Node.
 
 TODO - see: https://developer.blender.org/T43469

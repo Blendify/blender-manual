@@ -7,7 +7,7 @@ Map Value Node
    :align: right
    :width: 150px
 
-   Map Value Node
+   Map Value Node.
 
 Map Value node is used to scale, offset and clamp values
 (value refers to each vector in the set). The formula for how this node works is:

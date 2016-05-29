@@ -311,7 +311,7 @@ In the images below, all face normals are pointing outwards (Normal meshes).
 
      - .. figure:: /images/modifier_boolean_difference_normals_pointing_outwards.jpg
 
-          Normal Boolean modifier operation (Difference operation)
+          Normal Boolean modifier operation (Difference operation).
 
 In the images below, all  face normals are inverted and using the intersection operation 
 

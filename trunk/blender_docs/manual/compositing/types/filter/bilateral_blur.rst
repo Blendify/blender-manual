@@ -54,14 +54,14 @@ Examples
    :width: 250px
    :figwidth: 250px
 
-   Bilateral smoothed buffered shadow
+   Bilateral smoothed buffered shadow.
 
 
 .. figure:: /images/Compositing_Nodes-BilateralBlur_ex1.jpg
    :width: 250px
    :figwidth: 250px
 
-   Bilateral smoothed AO
+   Bilateral smoothed AO.
 
 
 .. figure:: /images/Compositing_Nodes-BilateralBlur_ex2.jpg

@@ -7,7 +7,7 @@ Map UV Node
    :align: right
    :width: 150px
 
-   Map UV Node
+   Map UV Node.
 
 While you can do quite a bit of overall coloring in post-production, there are limits. 
 With this *Node* you can "re-texture" objects **after** they have been rendered. 

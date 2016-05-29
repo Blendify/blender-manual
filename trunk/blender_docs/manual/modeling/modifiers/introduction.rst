@@ -46,7 +46,7 @@ Interface
 
 .. figure:: /images/modifier-subsurf.jpg
 
-   Panel Layout (Subsurf as an example)
+   Panel Layout (Subsurf as an example).
 
 
 Each modifier has been brought in from a different part of Blender,

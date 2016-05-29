@@ -6,7 +6,7 @@ Switch Node
    :align: right
    :width: 150px
 
-   Switch Node
+   Switch Node.
 
 Switch between two images using a checkbox. When the checkbox is checked, the 'On' input is output.
 When it is unchecked the 'Off' input is output instead.

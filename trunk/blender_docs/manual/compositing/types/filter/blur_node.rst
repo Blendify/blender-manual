@@ -32,7 +32,7 @@ makes the Blur node gamma-correct the image before blurring it.
    :width: 650px
    :figwidth: 650px
 
-   Blur node blur modes using 20% of image size as XY, no Bokeh/Gamma
+   Blur node blur modes using 20% of image size as XY, no Bokeh/Gamma.
 
 
 The difference between them is how they handle sharp edges and smooth gradients and preserve

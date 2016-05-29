@@ -7,7 +7,7 @@ Image Node
    :align: right
    :width: 150px
 
-   Image Node
+   Image Node.
 
 
 The *Image* node injects any image :doc:`format that is supported by Blender </render/output/output>`.

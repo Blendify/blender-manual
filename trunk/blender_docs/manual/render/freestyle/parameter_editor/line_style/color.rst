@@ -7,7 +7,7 @@ Color
    :width: 300px
    :align: right
 
-   Line Style Color UI
+   Line Style Color UI.
 
 
 In this tab you control the color of your strokes.

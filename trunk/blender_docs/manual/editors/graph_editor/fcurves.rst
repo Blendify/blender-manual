@@ -29,7 +29,7 @@ by Blender and filled in. Thus, the animators' workload is significantly reduced
    :align: right
    :width: 200px
 
-   Example of interpolation
+   Example of interpolation.
 
 For example, if you have:
 

@@ -7,7 +7,7 @@ Hue Saturation Node
    :align: right
    :width: 150px
 
-   Hue Saturation Node
+   Hue Saturation Node.
 
 As an alternative to RGB editing, color can be thought of as a mix of Hues,
 namely a normalized value along the visible spectrum from infra-red to ultraviolet

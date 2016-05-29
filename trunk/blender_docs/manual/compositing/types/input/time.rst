@@ -7,7 +7,7 @@ Time Node
    :align: right
    :width: 150px
 
-   Time Node
+   Time Node.
 
 The Time node generates a *fac* tor value (from 0.00 to 1.00)
 (that changes according to the curve was drawn) as time progresses through your movie (frames).

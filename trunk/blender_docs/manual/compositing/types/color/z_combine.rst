@@ -7,7 +7,7 @@ Z-Combine Node
    :align: right
    :width: 150px
 
-   Z Combine Node
+   Z Combine Node.
 
 
 The Z-Combine node takes two images and two Z-value sets as input. It overlays the images

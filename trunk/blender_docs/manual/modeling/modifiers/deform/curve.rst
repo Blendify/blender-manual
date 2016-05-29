@@ -54,7 +54,7 @@ Let's make a simple example:
 
 .. figure:: /images/modifier-curve.jpg
 
-   Assign the Bezier curve to the Curve modifier (for Monkey)
+   Assign the Bezier curve to the Curve modifier (for Monkey).
 
 
 .. figure:: /images/curvesdeform_examplemonkeyoncurve3.jpg

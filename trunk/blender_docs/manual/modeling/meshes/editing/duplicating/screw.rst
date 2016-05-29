@@ -153,7 +153,7 @@ you can press :kbd:`Ctrl-Z` at any time in *Edit Mode*.
 
 .. figure:: /images/Modeling_Mesh_Screw_Screw_Interactive_Panel.jpg
 
-   Fig. 7 - Screw Interactive Panel - Mesh Tools Panel (Edit Mode)
+   Fig. 7 - Screw Interactive Panel - Mesh Tools Panel (Edit Mode).
 
 
 Center

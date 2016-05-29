@@ -7,7 +7,7 @@ Displace Node
    :align: right
    :width: 150px
 
-   Displace Node
+   Displace Node.
 
 Ever look down the road on a hot summer day? See how the image is distorted by the hot air?
 That's because the light is being bent by the air; the air itself is acting like a lens.

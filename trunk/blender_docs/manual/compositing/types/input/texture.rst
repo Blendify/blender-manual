@@ -7,7 +7,7 @@ Texture Node
    :align: right
    :width: 150px
 
-   Texture Node
+   Texture Node.
 
 The *Texture* node makes 3D textures available to the compositor.
 

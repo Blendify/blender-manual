@@ -7,7 +7,7 @@ Scale Node
    :align: right
    :width: 150px
 
-   Scale Node
+   Scale Node.
 
 
 This node scales the size of an image. Scaling can be either absolute or relative.
