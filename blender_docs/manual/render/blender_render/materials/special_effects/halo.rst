@@ -20,7 +20,7 @@ or when creating a viewable light or fog/atmospherics around an actual light.
 
 
 Options
-*******
+=======
 
 .. figure:: /images/materials-halos.jpg
    :width: 309px
@@ -183,7 +183,7 @@ and disappears when another object occludes the flare mesh.
 
 
 Halo Texturing
-**************
+==============
 
 By default, textures are applied to objects with Object coordinates and reflects on the halos
 by affecting their color, as a whole,

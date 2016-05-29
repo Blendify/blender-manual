@@ -59,9 +59,9 @@ The position just might help you in your scene design.
 
 
 Options
-*******
+=======
 
-*Sun & Sky Presets*:
+.. rubric:: Sun & Sky Presets
 
 - Classic
 - Desert
@@ -156,7 +156,7 @@ Scattering
 
 
 Examples
-********
+========
 
 First, let's see what happens when we modify the orientation of the sun:
 
@@ -217,7 +217,7 @@ And now, the effects of various settings (examples created with
 
 
 Sky
-===
+---
 
 .. list-table::
    Variations in Horizon Brightness parameter, all other settings to default.
@@ -340,7 +340,7 @@ Sky
 
 
 Atmosphere
-==========
+----------
 
 For all renders below, *Hor.Bright* is set to 0.2,
 and *Sun Bright* to 2.0.
@@ -443,7 +443,7 @@ and *Sun Bright* to 2.0.
 
 
 Hints and limitations
-*********************
+=====================
 
 To always have the *Sun* pointing at the camera center,
 you can use a :doc:`TrackTo constraint </rigging/constraints/tracking/track_to>` on the sun object,

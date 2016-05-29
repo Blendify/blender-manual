@@ -27,7 +27,7 @@ only the settings for a *Hair* particle system.
 
 
 Settings
-********
+========
 
 Simple
    Children are emitted from the parent hairs.
@@ -105,7 +105,7 @@ Kink
 
 
 With *Kink* you can rotate the children around the parent.
-See above picture for the different types of *Kink*.
+See Fig. above picture for the different types of *Kink*.
 
 Curl
    Children grow in a spiral around the parent hairs.

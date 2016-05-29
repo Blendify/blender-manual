@@ -11,7 +11,7 @@ but you may also render these kind of particles as objects
 
 
 Options
-*******
+=======
 
 .. figure:: /images/particle_emission_settings.png
 
