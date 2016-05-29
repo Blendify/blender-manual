@@ -58,7 +58,7 @@ Interpolated Mode
 
 
 Effects
-=======
+-------
 
 .. figure:: /images/ChildParticleRoundClump.jpg
 
@@ -83,7 +83,7 @@ Seed
 
 
 Roughness
-=========
+---------
 
 Uniform, Size
    It is based on children location so it varies the paths in a similar way when the children are near.
@@ -97,7 +97,7 @@ Random, Size, Threshold
 
 
 Kink
-====
+----
 
 .. figure:: /images/ChildParticleKink.jpg
 

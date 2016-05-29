@@ -345,6 +345,7 @@ For volume rendering you only have:
 - Z Transparency
 - Raytrace
 
+
 Integration
 ===========
 
@@ -388,6 +389,7 @@ Light Group
    Limit lighting of this material to lamps in this group.
 Exclusive
    Material uses this group exclusively. Lamps are excluded from other scene lighting.
+
 
 Smoke and Fire
 ==============

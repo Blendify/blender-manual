@@ -40,7 +40,7 @@ Random
 
 
 Emission Location
-=================
+-----------------
 
 *Emit From* parameters define how and where the particles are emitted,
 giving precise control over their distribution. You may use vertex groups to confine the emission,
@@ -55,7 +55,7 @@ Volume
 
 
 Distribution Settings
-=====================
+---------------------
 
 These settings control how the emissions of particles are distributed throughout the emission
 locations
@@ -102,5 +102,7 @@ Use Modifier Stack
    Take any :doc:`Modifiers </modeling/modifiers/introduction>` above the particle modifier in the
    :ref:`Modifier Stack <modifier-stack>` into account when emitting particles.
 
-   Note that particles may differ in the final render if these modifiers generate different geometry between
-   the viewport and render.
+   .. note::
+
+      Note that particles may differ in the final render if these modifiers
+      generate different geometry between the viewport and render.

@@ -42,7 +42,7 @@ we now see panels relative to the *Halo* characteristics:
 
 
 Halo Panel
-==========
+----------
 
 Alpha
    The transparency
@@ -129,7 +129,7 @@ Rings and lines are randomly placed and oriented, to change their pattern you ca
 
 
 Flare Panel
-===========
+-----------
 
 Enabling Flare Renders the halo as a lens flare
 
@@ -146,7 +146,7 @@ Subsize
 
 
 Lens Flares
------------
+^^^^^^^^^^^
 
 Our eyes have been trained to believe that an image is real if it shows
 artifacts that result from the mechanical process of photography.
