@@ -6,7 +6,7 @@ Joystick Sensor
 .. figure:: /images/BGE_Sensor_Joystick1.jpg
    :width: 200px
 
-   Joystick sensor
+   Joystick sensor.
 
 
 The *Joystick* sensor triggers whenever the joystick moves.
@@ -30,7 +30,7 @@ All Events
 .. figure:: /images/BGE_Sensor_Joystick_Event.jpg
    :width: 200px
 
-   Joystick Events
+   Joystick Events.
 
 
 Event Type
@@ -43,7 +43,7 @@ Event Type
 .. figure:: /images/BGE_Sensor_Joystick_SingAxis.jpg
    :width: 200px
 
-   Joystick Single Axis
+   Joystick Single Axis.
 
 
 Single Axis
@@ -64,7 +64,7 @@ Single Axis
 .. figure:: /images/BGE_Sensor_Joystick_Hat.jpg
    :width: 200px
 
-   Joystick Hat
+   Joystick Hat.
 
 
 Hat
@@ -82,7 +82,7 @@ Hat
 .. figure:: /images/BGE_Sensor_Joystick_Axis.jpg
    :width: 200px
 
-   Joystick Axis
+   Joystick Axis.
 
 
 Axis
@@ -104,7 +104,7 @@ Axis
 .. figure:: /images/BGE_Sensor_Joystick1.jpg
    :width: 200px
 
-   Joystick Button
+   Joystick Button.
 
 
 Button

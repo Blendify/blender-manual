@@ -6,7 +6,7 @@ Camera Editing
 .. figure:: /images/BGE_Camera_Properties.jpg
    :width: 300px
 
-   Camera Properties
+   Camera Properties.
 
 
 The camera (or cameras) used in a Blender game have a wide-ranging effect on the way in which
@@ -31,7 +31,7 @@ Embedded Player
 .. figure:: /images/BGE_Camera_Properties_Game.jpg
    :width: 300px
 
-   Game Panel
+   Game Panel.
 
 
 *Start* button - Start the Game Engine. Shortcut :kbd:`P`.
@@ -43,7 +43,7 @@ Standalone Player
 .. figure:: /images/BGE_Camera_Properties_Standalone.jpg
    :width: 300px
 
-   Standalone Panel
+   Standalone Panel.
 
 
 This panel provides information for the Standalone Game Player which allows games to be run without Blender.
@@ -86,7 +86,7 @@ Stereo
 .. figure:: /images/BGE_Camera_Properties_Stereo.jpg
    :width: 300px
 
-   Stereo Panel
+   Stereo Panel.
 
 
 Select a stereo mode that will be used to capture stereo images of the game (and also,
@@ -108,7 +108,7 @@ Shading
 .. figure:: /images/BGE_Camera_Properties_Shading.jpg
    :width: 300px
 
-   Shading Panel
+   Shading Panel.
 
 
 Specifies the shading mode to be used in rendering the game.
@@ -131,7 +131,7 @@ Performance
 .. figure:: /images/BGE_Camera_Properties_Performance.jpg
    :width: 300px
 
-   Performance Panel
+   Performance Panel.
 
 
 Use Frame Rate
@@ -149,7 +149,7 @@ Display
 .. figure:: /images/BGE_Camera_Properties_Display.jpg
    :width: 300px
 
-   Display Panel
+   Display Panel.
 
 
 Gives various display options when running the Game Engine. Under the...

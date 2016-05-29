@@ -6,7 +6,7 @@ Keyboard Sensor
 .. figure:: /images/BGE_Sensor_Keyboard.jpg
    :width: 300px
 
-   Keyboard sensor
+   Keyboard sensor.
 
 
 The *Keyboard* sensor is for detecting keyboard input.

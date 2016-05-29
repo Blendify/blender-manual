@@ -6,7 +6,7 @@ Collision Sensor
 .. figure:: /images/BGE_Sensor_Collision.jpg
    :width: 300px
 
-   Collision sensor
+   Collision sensor.
 
 
 A *Collision* sensor works like a *Touch* sensor but can also filter by

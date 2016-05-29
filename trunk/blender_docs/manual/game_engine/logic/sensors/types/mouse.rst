@@ -6,7 +6,7 @@ Mouse Sensor
 .. figure:: /images/BGE_Sensor_Mouse1.jpg
    :width: 300px
 
-   Mouse sensor
+   Mouse sensor.
 
 
 The *Mouse* sensor is for detecting mouse events.

@@ -14,7 +14,7 @@ Options:
 .. figure:: /images/BGE_Controller_Xnor.jpg
    :width: 292px
 
-   XNOR Controller
+   XNOR Controller.
 
 
 See :ref:`standard controller parts <standard-controller-parts>` for descriptions of the remaining options.

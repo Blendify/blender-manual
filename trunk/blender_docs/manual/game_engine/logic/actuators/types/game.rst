@@ -14,13 +14,13 @@ Special Options:
 .. figure:: /images/bge_actuator_game.jpg
    :width: 271px
 
-   Game actuator
+   Game actuator.
 
 
 .. figure:: /images/bge_actuator_game_options.jpg
    :width: 271px
 
-   Game
+   Game.
 
 
 Game

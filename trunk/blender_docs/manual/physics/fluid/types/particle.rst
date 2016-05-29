@@ -7,7 +7,7 @@ Fluid Particle
 .. figure:: /images/physics_fluid_types_partical.jpg
    :width: 300px
 
-   Fluid particle settings
+   Fluid particle settings.
 
 
 This type can be used to display particles created during the simulation.

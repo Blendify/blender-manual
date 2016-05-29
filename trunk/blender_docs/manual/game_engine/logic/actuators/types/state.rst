@@ -18,13 +18,13 @@ Special Options:
 .. figure:: /images/bge_actuator_state.jpg
    :width: 271px
 
-   State actuator
+   State actuator.
 
 
 .. figure:: /images/bge_actuator_state_options.jpg
    :width: 271px
 
-   State actuator options
+   State actuator options.
 
 
 Operation

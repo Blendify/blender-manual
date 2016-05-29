@@ -14,7 +14,7 @@ Options:
 .. figure:: /images/BGE_Controller_Or.jpg
    :width: 292px
 
-   OR Controller
+   OR Controller.
 
 
 See :ref:`standard controller parts <standard-controller-parts>` for descriptions of the remaining options.

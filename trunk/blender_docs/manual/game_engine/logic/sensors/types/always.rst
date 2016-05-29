@@ -6,7 +6,7 @@ Always Sensor
 .. figure:: /images/BGE_Sensor_Always.jpg
    :width: 300px
 
-   Always sensor
+   Always sensor.
 
 
 The *Always* sensor is used for things that need to be done every logic tick,

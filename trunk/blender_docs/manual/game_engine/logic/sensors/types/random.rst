@@ -6,7 +6,7 @@ Random Sensor
 .. figure:: /images/BGE_Sensor_Random.jpg
    :width: 300px
 
-   Random sensor
+   Random sensor.
 
 
 The *Random* sensor generates random pulses.

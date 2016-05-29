@@ -6,7 +6,7 @@ Property Sensor
 .. figure:: /images/BGE_Sensor_Property1.jpg
    :width: 300px
 
-   Property sensor
+   Property sensor.
 
 
 The *Property* sensor detects changes in the properties of its owner object.
@@ -19,7 +19,7 @@ Special Options:
 .. figure:: /images/Property_evaluation_types.jpg
    :width: 300px
 
-   Property Evaluation
+   Property Evaluation.
 
 
 Evaluation Type

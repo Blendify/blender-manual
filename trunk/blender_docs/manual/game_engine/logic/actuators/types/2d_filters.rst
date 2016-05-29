@@ -9,7 +9,7 @@ Filter 2D Actuator
 .. figure:: /images/BGE_Actuator_Filter_2D.jpg
    :width: 271px
 
-   Edit Object actuator
+   Edit Object actuator.
 
 
 .. rubric:: Filter 2D Type

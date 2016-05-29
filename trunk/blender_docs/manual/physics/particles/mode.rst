@@ -46,7 +46,7 @@ Setup for Hair Particles
 .. figure:: /images/particle_mode.jpg
    :width: 120px
 
-   Editing hair strands in Particle Mode
+   Editing hair strands in Particle Mode.
 
 
 .. figure:: /images/Animated_editing_particles_in_particle_mode.gif

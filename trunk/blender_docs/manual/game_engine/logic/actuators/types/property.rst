@@ -17,7 +17,7 @@ Special Options:
 .. figure:: /images/bge_actuator_property.jpg
    :width: 271px
 
-   Property actuator
+   Property actuator.
 
 
 Mode

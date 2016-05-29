@@ -13,7 +13,7 @@ Special Options:
 .. figure:: /images/bge_actuator_edit_object.jpg
    :width: 271px
 
-   Edit Object actuator
+   Edit Object actuator.
 
 
 Edit Object
@@ -29,7 +29,7 @@ Edit Object
 .. figure:: /images/BGE_Actuator_Edit_Object_Dynamics.jpg
    :width: 271px
 
-   Edit Object actuator - Dynamics
+   Edit Object actuator - Dynamics.
 
 
 Dynamics
@@ -50,7 +50,7 @@ Dynamics
 .. figure:: /images/BGE_Actuator_Edit_Object_Track_to.jpg
    :width: 271px
 
-   Edit Object actuator - Track to
+   Edit Object actuator - Track to.
 
 
 Track To
@@ -68,7 +68,7 @@ Track To
 .. figure:: /images/BGE_Actuator_Edit_Object_Replace_Mesh.jpg
    :width: 271px
 
-   Edit Object actuator - Replace Mesh
+   Edit Object actuator - Replace Mesh.
 
 
 Replace Mesh
@@ -86,7 +86,7 @@ Replace Mesh
 .. figure:: /images/BGE_Actuator_Edit_Object_End_Object.jpg
    :width: 271px
 
-   Edit Object actuator - End Object
+   Edit Object actuator - End Object.
 
 
 End Object
@@ -98,7 +98,7 @@ Destroy the current object (Note, debug properties will display error Zombie Obj
 .. figure:: /images/BGE_Actuator_Edit_Object_Add_Object.jpg
    :width: 271px
 
-   Edit Object actuator - Add Object
+   Edit Object actuator - Add Object.
 
 
 Add Object

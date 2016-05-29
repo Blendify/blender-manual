@@ -6,7 +6,7 @@ Radar Sensor
 .. figure:: /images/BGE_Sensor_Radar.jpg
    :width: 300px
 
-   Radar sensor
+   Radar sensor.
 
 
 The *Radar* sensor works much like a *Near* sensor,

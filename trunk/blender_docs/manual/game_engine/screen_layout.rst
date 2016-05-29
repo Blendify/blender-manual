@@ -16,7 +16,7 @@ together with the appropriate options for game setup/debug/running
 .. figure:: /images/BGE_Game_Logic_Screen_Layout1.jpg
    :width: 640px
 
-   Game Logic Screen Layout
+   Game Logic Screen Layout.
 
 
 .. figure:: /images/BGE_Game_Logic_Screen_Layout4.jpg

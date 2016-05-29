@@ -13,7 +13,7 @@ Options:
 .. figure:: /images/BGE_Controller_Xor.jpg
    :width: 292px
 
-   XOR Controller
+   XOR Controller.
 
 
 See :ref:`standard controller parts <standard-controller-parts>` for descriptions of the remaining options.

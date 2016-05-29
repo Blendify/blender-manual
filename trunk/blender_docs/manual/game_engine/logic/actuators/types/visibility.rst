@@ -9,7 +9,7 @@ The Visibility actuator allows the user to change the visibility of objects duri
 .. figure:: /images/bge_actuator_visibility.jpg
    :width: 271px
 
-   Visibility actuator
+   Visibility actuator.
 
 
 See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.

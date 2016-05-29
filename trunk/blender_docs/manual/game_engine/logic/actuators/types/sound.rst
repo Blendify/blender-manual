@@ -11,7 +11,7 @@ Select a sound file from the list or make a new one.
 .. figure:: /images/BGE_Actuator_Sound.jpg
    :width: 271px
 
-   Sound Actuator
+   Sound Actuator.
 
 
 See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
