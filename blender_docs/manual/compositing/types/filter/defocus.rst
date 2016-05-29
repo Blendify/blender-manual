@@ -8,7 +8,7 @@ Defocus Node
    :align: right
    :width: 150px
 
-   Defocus Node
+   Defocus Node.
 
 This single node can be used to emulate depth of field using a postprocessing method.
 It can also be used to blur the image in other ways,

@@ -7,7 +7,7 @@ Sun Beams
    :align: right
    :width: 150px
 
-   Sun Beams Node
+   Sun Beams Node.
 
 Sun Beams is a 2D effect for simulating the effect of bright light getting scattered in a medium
 `(Crepuscular Rays) <https://en.wikipedia.org/wiki/Crepuscular_rays>`__.

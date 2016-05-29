@@ -9,7 +9,7 @@ Editing Poses
    :width: 100px
    :align: right
 
-   Pose Tools
+   Pose Tools.
 
 
 In *Pose mode*, bones behave like objects. So the transform actions

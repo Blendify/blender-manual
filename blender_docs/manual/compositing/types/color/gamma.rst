@@ -7,7 +7,7 @@ Gamma Node
    :align: right
    :width: 150px
 
-   Gamma Node
+   Gamma Node.
 
 A reason for applying gamma correction to the final render is to correct lighting issues.
 Lighting issues that can be corrected by a gamma correction node are light attenuation with

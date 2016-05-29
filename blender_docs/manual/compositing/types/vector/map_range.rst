@@ -7,6 +7,6 @@ Map Range Node
    :align: right
    :width: 150px
 
-   Map Range Node
+   Map Range Node.
 
 TODO - see: https://developer.blender.org/T43469

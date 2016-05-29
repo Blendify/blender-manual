@@ -10,7 +10,7 @@ file that was made for monoscopic rendering and transform it in stereo-3d ready.
    :width: 700px
    :figwidth: 700px
 
-   Creature Factory 2 by Andy Goralczyk Rendered in Stereo 3D (anaglyph)
+   Creature Factory 2 by Andy Goralczyk Rendered in Stereo 3D (anaglyph).
 
 .. note::
 
@@ -29,7 +29,7 @@ Open Movie Workshop series from the Blender Institute by Andy Goralczyk.
    :width: 1213px
    :figwidth: 700px
 
-   Turn Table Creature Factory 2
+   Turn Table Creature Factory 2.
 
 
 Views Setup
@@ -43,7 +43,7 @@ Go to the Render Layers panel and enable *Views* for this scene.
    :width: 270px
    :figwidth: 270px
 
-   Scene Render Views
+   Scene Render Views.
 
 .. note::
 
@@ -54,7 +54,7 @@ Go to the Render Layers panel and enable *Views* for this scene.
    :width: 1213px
    :figwidth: 700px
 
-   Viewport with 3D visualization
+   Viewport with 3D visualization.
 
 
 Camera
@@ -69,7 +69,7 @@ The viewport will respond in real-time to those changes allowing you to preview 
    :width: 468px
    :figwidth: 247px
 
-   Stereo Convergence Distance
+   Stereo Convergence Distance.
 
 
 Viewport
@@ -87,7 +87,7 @@ In the following image the cameras frustum volumes are also visible.
    :width: 1036px
    :figwidth: 700px
 
-   Viewport Plane and Volume Stereo Preview
+   Viewport Plane and Volume Stereo Preview.
 
 
 Stereo 3D Display
@@ -101,7 +101,7 @@ Be aware that some modes require a fullscreen editor to work.
    :width: 642px
    :figwidth: 642px
 
-   Window Menu, Stereo 3D Operator
+   Window Menu, Stereo 3D Operator.
 
 
 OpenGL Preview
@@ -112,7 +112,7 @@ OpenGL Preview
    :figwidth: 300px
    :align: right
 
-   Turn Table OpenGL Rendering Preview
+   Turn Table OpenGL Rendering Preview.
 
 Before rendering your scene you can save an OpenGL preview of the animation for testing in the final display.
 In the Render Output panel you can chose the output *Views Format*.
@@ -138,7 +138,7 @@ In this example we saved as cross-eyed side-by-side stereo 3d.
    :width: 700px
    :figwidth: 700px
 
-   Side by Side Cross-Eye Format
+   Side by Side Cross-Eye Format.
 
 
 Final Considerations
@@ -163,7 +163,7 @@ or if you create your own shortcuts for the ``wm.set_stereo_3d`` operator.
    :width: 642px
    :figwidth: 642px
 
-   Window Menu, Stereo 3D Operator
+   Window Menu, Stereo 3D Operator.
 
 
 Display Mode
@@ -210,7 +210,7 @@ The stereo pair, however, is offsetted, and can have unique rotation and shift b
    :width: 473px
    :figwidth: 300px
 
-   Stereo 3D Camera Settings
+   Stereo 3D Camera Settings.
 
 Interocular Distance
    Set the distance between the camera pair.
@@ -254,7 +254,7 @@ It also allow you to see the Cameras, the Plane and the Volume of the stereo cam
    :width: 407px
    :figwidth: 250px
 
-   Viewport Stereo 3D Settings
+   Viewport Stereo 3D Settings.
 
 
 Cameras
@@ -278,7 +278,7 @@ Volume
       :width: 538px
       :figwidth: 402px
 
-      Viewport 3D: Convergence Plane and Volume Display
+      Viewport 3D: Convergence Plane and Volume Display.
 
 
 Multi-View and Stereo 3D Image I/O
@@ -326,7 +326,7 @@ View Menu
       :width: 1225px
       :figwidth: 700px
 
-      Stereo 3D and View menu
+      Stereo 3D and View menu.
 
 Views Format
    When you drag and drop an image into the Image Editor, Blender will open it as a individual images at first.
@@ -338,7 +338,7 @@ Views Format
       :width: 494px
       :figwidth: 300px
 
-      Views Formats and Stereo 3D
+      Views Formats and Stereo 3D.
 
 
 Compositor
@@ -353,7 +353,7 @@ Movies or Image Sequences in any of the supported Multi-View formats.
    :width: 1717px
    :figwidth: 700px
 
-   Compositor, Backdrop and Split Viewer Node
+   Compositor, Backdrop and Split Viewer Node.
 
 The views to render are defined in the current scene views,
 in a similar way as you define the composite output resolution in the current scene render panel,
@@ -372,7 +372,7 @@ Switch View Node
       :width: 320px
       :figwidth: 200px
 
-      Switch View Node
+      Switch View Node.
 
 Performance
    By default when compositing and rendering from the user interface all views are rendered and then composited.

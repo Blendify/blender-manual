@@ -26,7 +26,7 @@ Options
    :width: 175px
    :align: right
 
-   Cycles Motion Blur Settings
+   Cycles Motion Blur Settings.
 
 Position
    Controls at what point the shutter opens in relation to the frame.

@@ -7,7 +7,7 @@ Alpha Over Node
    :align: right
    :width: 150px
 
-   Alpha Over Node
+   Alpha Over Node.
 
 
 Use this node to layer images on top of one another. This node takes two images as input,

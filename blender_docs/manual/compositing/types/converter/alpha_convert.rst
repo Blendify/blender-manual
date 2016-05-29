@@ -7,7 +7,7 @@ Alpha Convert Node
    :align: right
    :width: 150px
 
-   Alpha Convert Node
+   Alpha Convert Node.
 
 This node converts the alpha channel interpretation of an image
 from pre-multiplied to straight or the reverse.

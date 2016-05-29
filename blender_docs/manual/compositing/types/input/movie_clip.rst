@@ -7,6 +7,6 @@ Movie Clip
    :align: right
    :width: 150px
 
-   Mask Node
+   Mask Node.
 
 TODO - see: https://developer.blender.org/T43469

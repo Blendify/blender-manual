@@ -7,7 +7,7 @@ Bright/Contrast Node
    :align: right
    :width: 150px
 
-   Bright/Contrast Node
+   Bright/Contrast Node.
 
 Bright
    A multiplier-type factor by which to increase the overall brightness

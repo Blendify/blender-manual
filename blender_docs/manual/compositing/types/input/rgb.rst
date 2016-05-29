@@ -7,7 +7,7 @@ RGB Node
    :align: right
    :width: 150px
 
-   RGB Node
+   RGB Node.
 
 The RGB node has no inputs.
 It just outputs the Color currently selected in its controls section;

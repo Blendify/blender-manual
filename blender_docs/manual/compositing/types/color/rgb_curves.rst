@@ -7,7 +7,7 @@ RGB Curves Node
    :align: right
    :width: 150px
 
-   RGB Curves Node
+   RGB Curves Node.
 
 For each color component channel (RGB) or the composite (C),
 this node allows you to define a bezier curve that varies the input (x-axis) to produce an output value (y-axis).

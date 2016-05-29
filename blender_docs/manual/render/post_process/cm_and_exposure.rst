@@ -10,7 +10,7 @@ Color Management
    :width: 250px
    :align: right
 
-   Different views and exposures of the same render
+   Different views and exposures of the same render.
 
 
 `OpenColorIO <https://opencolorio.org/>`__ is integrated into Blender,

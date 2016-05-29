@@ -28,7 +28,7 @@ BSDF output
 
    * - .. figure:: /images/cycles_nodes_shader_transparent.jpg
 
-          Transparent Shader (pure white)
+          Transparent Shader (pure white).
 
      - .. figure:: /images/cycles_nodes_shader_transparentdark.jpg
 

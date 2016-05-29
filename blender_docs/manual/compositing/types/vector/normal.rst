@@ -7,7 +7,7 @@ Normal Node
    :align: right
    :width: 150px
 
-   Normal Node
+   Normal Node.
 
 The Normal node generates a normal vector and a dot product.
 Click and Drag on the sphere to set the direction of the normal.

@@ -7,7 +7,7 @@ Bokeh Image
    :align: right
    :width: 150px
 
-   Bokeh Image Node
+   Bokeh Image Node.
 
 Bokeh Image generates a special input image for use with the
 :doc:`Bokeh Blur </compositing/types/filter/bokeh_blur>` filter node.

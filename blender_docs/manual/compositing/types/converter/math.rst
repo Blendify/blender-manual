@@ -7,7 +7,7 @@ Math Node
    :align: right
    :width: 150px
 
-   Math Node
+   Math Node.
 
 This node performs the selected math operation on an image or buffer.
 All common math functions are supported. If only an image is fed to one Value socket, the math

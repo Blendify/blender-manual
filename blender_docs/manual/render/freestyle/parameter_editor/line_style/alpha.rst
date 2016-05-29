@@ -7,7 +7,7 @@ Alpha
    :width: 300px
    :align: right
 
-   Line Style Alpha UI
+   Line Style Alpha UI.
 
 
 In this tab you control the alpha (transparency) of your strokes.

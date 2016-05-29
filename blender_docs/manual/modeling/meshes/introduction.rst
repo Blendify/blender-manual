@@ -87,7 +87,7 @@ Tool Shelf
 
 .. figure:: /images/editmode-meshtools-split.jpg
 
-   The Tool Shelf panel in edit mode (panel split in two parts for layout reasons)
+   The Tool Shelf panel in edit mode (panel split in two parts for layout reasons).
 
 
 Open/close the *Mesh Tools* panel using :kbd:`T`.
