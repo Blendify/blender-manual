@@ -13,7 +13,7 @@ Special Options:
 .. figure:: /images/BGE_Actuator_Camera.jpg
    :width: 271px
 
-   Camera Actuator
+   Camera Actuator.
 
 
 Camera Object

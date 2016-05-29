@@ -78,7 +78,7 @@ Paint
 .. figure:: /images/DynamicPaint-Guide-PaintSurface.jpg
    :width: 360px
 
-   Paint Surface
+   Paint Surface.
 
 
 "Paint" is the basic surface type that outputs color and wetness values.
@@ -95,7 +95,7 @@ Displace
 .. figure:: /images/DynamicPaint-Guide-DisplaceSurface.jpg
    :width: 360px
 
-   Displace Surface
+   Displace Surface.
 
 
 This type of surface outputs intersection depth from brush objects.
@@ -113,7 +113,7 @@ Waves
 .. figure:: /images/DynamicPaint-Guide-WavesSurface.jpg
    :width: 360px
 
-   Waves Surface
+   Waves Surface.
 
 
 This surface type produces simulated wave motion. Like displace,
@@ -152,7 +152,7 @@ Weight
 .. figure:: /images/DynamicPaint-Guide-WeightSurface.jpg
    :width: 360px
 
-   Weight Surface
+   Weight Surface.
 
 
 This is a special surface type only available for vertex format.

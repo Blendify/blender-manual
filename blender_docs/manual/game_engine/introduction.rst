@@ -35,7 +35,7 @@ and incorporates facilities for user interaction during the rendering process.
 .. figure:: /images/BGE_Introduction_ScreenShot.jpg
    :width: 512px
 
-   Screenshot from "Yo Frankie", produced with Blender Game Engine
+   Screenshot from "Yo Frankie", produced with Blender Game Engine.
 
 
 The Blender Game Engine oversees a game loop, which processes logic, sound,

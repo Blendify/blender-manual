@@ -6,7 +6,7 @@ Actuator Sensor
 .. figure:: /images/BGE_Sensor_Actuator.jpg
    :width: 300px
 
-   Actuator sensor
+   Actuator sensor.
 
 
 The Actuator sensor detects when a particular actuator receives an activation pulse.

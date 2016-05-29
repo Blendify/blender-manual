@@ -6,7 +6,7 @@ Controller Editing
 .. figure:: /images/BGE_Controller_Column.jpg
    :width: 292px
 
-   Controller Column with Typical Sensor
+   Controller Column with Typical Sensor.
 
 
 Blender controllers can be set up and edited in the central column of the Logic Panel.
@@ -25,7 +25,7 @@ Column Heading
 .. figure:: /images/BGE_Controller_Column1.jpg
    :width: 292px
 
-   Controller Column Headings
+   Controller Column Headings.
 
 
 The column headings contain controls to set which controllers appear,

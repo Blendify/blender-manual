@@ -6,7 +6,7 @@ Sensor Editing
 .. figure:: /images/BGE_Sensor_Column.jpg
    :width: 292px
 
-   Sensor Column with Typical Sensor
+   Sensor Column with Typical Sensor.
 
 
 Blender sensors can be set up and edited in the left-hand column of the Logic Panel.
@@ -24,7 +24,7 @@ Column Heading
 .. figure:: /images/BGE_Sensor_Column1.jpg
    :width: 292px
 
-   Sensor Column Heading
+   Sensor Column Heading.
 
 
 The column headings contain controls to set which sensors, and the level of detail given,
@@ -62,7 +62,7 @@ Object Heading
 .. figure:: /images/BGE_Sensor_Column2.jpg
    :width: 292px
 
-   Sensor Object Heading
+   Sensor Object Heading.
 
 
 In the column list, sensors are grouped by object. By default,

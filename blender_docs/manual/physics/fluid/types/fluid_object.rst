@@ -6,7 +6,7 @@ Fluid Object
 .. figure:: /images/physics_fluid_types_fluid.jpg
    :width: 300px
 
-   Fluid object settings
+   Fluid object settings.
 
 
 All regions of this object that are inside the domain bounding box will be used as actual

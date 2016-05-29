@@ -10,13 +10,13 @@ and between scenes themselves.
 .. figure:: /images/bge_actuator_message.jpg
    :width: 271px
 
-   Message actuator
+   Message actuator.
 
 
 .. figure:: /images/bge_actuator_message_options.jpg
    :width: 271px
 
-   Message actuator Options
+   Message actuator Options.
 
 
 See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.

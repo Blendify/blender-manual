@@ -6,7 +6,7 @@ Actuator Common Options
 .. figure:: /images/BGE_Actuator_Column3.jpg
    :width: 292px
 
-   Common Actuator Options
+   Common Actuator Options.
 
 
 All actuators have a set of common buttons, fields and menus. They are organized as follows:

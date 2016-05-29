@@ -14,7 +14,7 @@ Options:
 .. figure:: /images/BGE_Controller_And.jpg
    :width: 292px
 
-   AND Controller
+   AND Controller.
 
 
 See :ref:`standard controller parts <standard-controller-parts>` for descriptions of the remaining options.

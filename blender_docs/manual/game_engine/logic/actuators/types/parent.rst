@@ -19,7 +19,7 @@ Menu for parenting operation required.
 .. figure:: /images/BGE_Actuator_Parent.jpg
    :width: 271px
 
-   Parent Actuator
+   Parent Actuator.
 
 
 Set Parent

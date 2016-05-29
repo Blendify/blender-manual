@@ -6,7 +6,7 @@ Ray Sensor
 .. figure:: /images/BGE_Sensor_Ray.jpg
    :width: 300px
 
-   Ray sensor
+   Ray sensor.
 
 
 The *Ray* sensor shoots a ray in the direction of an axis and sends a positive pulse

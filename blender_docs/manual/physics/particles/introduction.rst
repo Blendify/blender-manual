@@ -19,7 +19,7 @@ but all settings are done in the *Particle tab*.
 .. figure:: /images/fur_example.jpg
    :width: 300px
 
-   Some fur made from particles
+   Some fur made from particles.
 
 
 Particles generally flow out from their mesh into space.

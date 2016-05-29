@@ -6,7 +6,7 @@ Action Actuator
 .. figure:: /images/BGE_Actuator_Action.jpg
    :width: 292px
 
-   Action Actuator
+   Action Actuator.
 
 
 Actuates armature actions, and sets the playback method.

@@ -12,7 +12,7 @@ For all other conditions the controller gives a negative (FALSE) output.
 .. figure:: /images/BGE_Controller_Expression.jpg
    :width: 292px
 
-   Expression Controller
+   Expression Controller.
 
 
 Expression

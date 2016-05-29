@@ -17,7 +17,7 @@ Special Options:
 .. figure:: /images/BGE_Actuator_Random_Bool_Constant.jpg
    :width: 271px
 
-   Camera Actuator
+   Camera Actuator.
 
 
 Seed
@@ -51,7 +51,7 @@ Float Neg. Exp.
 .. figure:: /images/BGE_Actuator_Random_Float_Normal.jpg
    :width: 271px
 
-   Float Normal
+   Float Normal.
 
 
 Float normal
@@ -68,7 +68,7 @@ Float normal
 .. figure:: /images/BGE_Actuator_Random_Float_Uniform.jpg
    :width: 271px
 
-   Float Uniform
+   Float Uniform.
 
 
 Float uniform
@@ -85,7 +85,7 @@ Float uniform
 .. figure:: /images/BGE_Actuator_Random_Float_Constant.jpg
    :width: 271px
 
-   Float Constant
+   Float Constant.
 
 
 Float constant
@@ -100,7 +100,7 @@ Float constant
 .. figure:: /images/BGE_Actuator_Random_Int_Poisson.jpg
    :width: 271px
 
-   Random Integer Poisson
+   Random Integer Poisson.
 
 
 Int Poisson
@@ -115,7 +115,7 @@ Int Poisson
 .. figure:: /images/BGE_Actuator_Random_Int_Uniform.jpg
    :width: 271px
 
-   Random Integer Uniform
+   Random Integer Uniform.
 
 
 Int uniform
@@ -132,7 +132,7 @@ Int uniform
 .. figure:: /images/BGE_Actuator_Random_Int_Constant.jpg
    :width: 271px
 
-   Random Integer Constant
+   Random Integer Constant.
 
 
 Int constant
@@ -147,7 +147,7 @@ Int constant
 .. figure:: /images/BGE_Actuator_Random_Bool_Bernoulli.jpg
    :width: 271px
 
-   Random Bool Bernoulli
+   Random Bool Bernoulli.
 
 
 Bool Bernoulli
@@ -162,7 +162,7 @@ Bool Bernoulli
 .. figure:: /images/BGE_Actuator_Random_Bool_Uniform.jpg
    :width: 271px
 
-   Random Bool Uniform
+   Random Bool Uniform.
 
 
 Bool uniform
@@ -175,7 +175,7 @@ Bool uniform
 .. figure:: /images/BGE_Actuator_Random_Bool_Constant.jpg
    :width: 271px
 
-   Random Bool Constant
+   Random Bool Constant.
 
 
 Bool constant

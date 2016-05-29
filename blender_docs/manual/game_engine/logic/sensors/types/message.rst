@@ -6,7 +6,7 @@ Message Sensor
 .. figure:: /images/BGE_Sensor_Message.jpg
    :width: 300px
 
-   Message Sensor
+   Message Sensor.
 
 
 The *Message* sensor can be used to detect either text messages or property values.

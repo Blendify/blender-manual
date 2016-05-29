@@ -6,7 +6,7 @@ Actuator Editing
 .. figure:: /images/BGE_Actuator_Column.jpg
    :width: 292px
 
-   Actuator Column with Typical Actuator
+   Actuator Column with Typical Actuator.
 
 
 Blender actuators can be set up and edited in the right-hand column of the Logic Panel.
@@ -24,7 +24,7 @@ Column Heading
 .. figure:: /images/BGE_Actuator_Column1.jpg
    :width: 292px
 
-   Actuator Column Heading
+   Actuator Column Heading.
 
 
 The column headings contain controls to set which actuators, and the level of detail given,
@@ -61,7 +61,7 @@ Object Heading
 .. figure:: /images/BGE_Actuator_Column2.jpg
    :width: 292px
 
-   Actuator Object Heading
+   Actuator Object Heading.
 
 
 In the column list, actuators are grouped by object. By default,

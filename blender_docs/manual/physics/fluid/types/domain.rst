@@ -261,7 +261,7 @@ Domain Boundary
 .. figure:: /images/fluids_domain_boundary.jpg
    :width: 300px
 
-   The Domain Boundary panel
+   The Domain Boundary panel.
 
 This box has all the slip and surface options.
 

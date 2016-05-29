@@ -18,7 +18,7 @@ First, change your start and end frames to 1 and 150.
 .. figure:: /images/softbody-examples-timeline.jpg
    :width: 600px
 
-   The timeline
+   The timeline.
 
 
 Then, add a plane, and scale it 5 times. Next, go to the physics tab, and add a collision.
@@ -34,7 +34,7 @@ When finished, your scene should look like this:
 .. figure:: /images/softbody-examples-scene-ready.jpg
    :width: 400px
 
-   The scene, ready for softbody physics
+   The scene, ready for softbody physics.
 
 
 Everything is ready to add the softbody physics. Go to :menuselection:`Properties --> Physics` and choose *Softbody*.

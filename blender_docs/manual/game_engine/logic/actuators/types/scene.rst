@@ -6,7 +6,7 @@ Scene Actuator
 .. figure:: /images/bge_actuator_scene.jpg
    :width: 257px
 
-   Scene actuator
+   Scene actuator.
 
 
 The *Scene* actuator manages the scenes in your blend-file,
@@ -22,7 +22,7 @@ The actuator has eight modes:
 .. figure:: /images/bge_actuator_scene_options.jpg
    :width: 257px
 
-   Scene actuator options
+   Scene actuator options.
 
 
 Restart

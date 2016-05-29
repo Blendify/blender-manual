@@ -6,7 +6,7 @@ Delay Sensor
 .. figure:: /images/BGE_Sensor_Delay.jpg
    :width: 300px
 
-   Delay sensor
+   Delay sensor.
 
 
 The *Delay* sensor is designed for delaying reactions a number of logic ticks.
