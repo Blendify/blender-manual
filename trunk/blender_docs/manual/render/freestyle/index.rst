@@ -13,4 +13,3 @@
    parameter_editor/index.rst
    python.rst
    export_svg.rst
-   links.rst
