@@ -110,7 +110,7 @@ Merge Duplicates
 .. figure:: /images/Spin8.jpg
    :width: 300px
 
-   Duplicate vertices
+   Duplicate vertices.
 
 
 The spin operation leaves duplicate vertices along the profile.

@@ -206,7 +206,7 @@ The Brush stroke definition
 .. figure:: /images/Modeling-Meshes-weight-paint-stroke.jpg
    :width: 235px
 
-   Stroke Panel
+   Stroke Panel.
 
 
 Stroke Method
@@ -236,7 +236,7 @@ The brush Falloff curve
 .. figure:: /images/Modeling-Meshes-weight-paint-curve.jpg
    :width: 235px
 
-   Curve Panel
+   Curve Panel.
 
 
 The brush falloff editor allows you to specify the characteristics of your brushes to a large extent.
@@ -249,7 +249,7 @@ The brush appearance
 .. figure:: /images/Modeling-Meshes-weight-paint-appearance.jpg
    :width: 235px
 
-   Brush appearance
+   Brush appearance.
 
 
 Show Brush

@@ -119,12 +119,12 @@ This lets you grab the vertices as they lie in their new smoothed locations, rat
    * - .. figure:: /images/SubsurfEditCageOff.jpg
           :width: 300px
 
-          Edit Cage Off (Default)
+          Edit Cage Off (Default).
 
      - .. figure:: /images/SubsurfEditCageOn.jpg
           :width: 300px
 
-          Edit Cage On
+          Edit Cage On.
 
 
 With the edit cage off, some vertices are buried under the subsurfed mesh. With dense vertex configurations,
@@ -222,12 +222,12 @@ shares the overall normal orientation of that original face.
    * - .. figure:: /images/SubSurf05b.jpg
           :width: 300px
 
-          Comparison of good normals and bad normals
+          Comparison of good normals and bad normals.
 
      - .. figure:: /images/SubSurf05a.jpg
           :width: 300px
 
-          Side view of image on left
+          Side view of image on left.
 
 Abrupt normal changes can produce ugly black gouges even though
 these flipped normals are not an issue for the shape itself.

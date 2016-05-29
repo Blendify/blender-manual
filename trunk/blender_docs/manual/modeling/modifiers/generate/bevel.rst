@@ -15,12 +15,12 @@ The Bevel modifier is a non-destructive alternative to the
    * - .. figure:: /images/Unbevelled_Square.jpg
           :width: 150px
 
-          Unbeveled
+          Unbeveled.
 
      - .. figure:: /images/Bevelled_Square.jpg
           :width: 150px
 
-          Beveled
+          Beveled.
 
 
 The images above show the side views of a plain (unbeveled) cube and a beveled one.

@@ -368,7 +368,7 @@ With the mask brush we can paint a part of the mesh and hide it.
 .. figure:: /images/sculpt_hide_mask.png
    :width: 610px
 
-   Black part is masked, down in the picture mask/hide menu
+   Black part is masked, down in the picture mask/hide menu.
 
 
 Keyboard Shortcuts

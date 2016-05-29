@@ -101,7 +101,7 @@ the order in which the modifiers are placed is important.
 .. figure:: /images/modifier-mirror-subsurf2.jpg
    :width: 300px
 
-   Subsurf modifier before Mirror modifier
+   Subsurf modifier before Mirror modifier.
 
 
 The above image shows the subsurf modifier placed before the Mirror one; as you
@@ -113,7 +113,7 @@ This is because the subsurf calculation moves vertices away from the mirror plan
 .. figure:: /images/modifier-mirror-subsurf1.jpg
    :width: 300px
 
-   Mirror modifier before Subsurf modifier
+   Mirror modifier before Subsurf modifier.
 
 
 The above image shows the Mirror modifier placed before the subsurf modifier.

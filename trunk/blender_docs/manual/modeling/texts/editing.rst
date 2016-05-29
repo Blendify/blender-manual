@@ -84,7 +84,7 @@ Example: Text Flow
 .. figure:: /images/text-frame-working-ex2.jpg
    :width: 300px
 
-   wrapping
+   wrapping.
 
 
 With two or more frames you can organize text to a finer degree. For example,
@@ -103,7 +103,7 @@ which just happens to be the default/initial frame.
 .. figure:: /images/text-frame-working-ex4.jpg
    :width: 300px
 
-   text flowing from box 1 to box 2
+   text flowing from box 1 to box 2.
 
 
 When we add another frame and set its width and height, the text will flow into the new frame.

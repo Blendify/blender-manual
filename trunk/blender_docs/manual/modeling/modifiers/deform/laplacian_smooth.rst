@@ -41,22 +41,22 @@ Repeat
       * - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_repeat0.jpg
              :width: 130px
 
-             Repeat: 0
+             Repeat: 0.
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_repeat1.jpg
              :width: 130px
 
-             Repeat: 1
+             Repeat: 1.
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_repeat5.jpg
              :width: 130px
 
-             Repeat: 5
+             Repeat: 5.
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_repeat10.jpg
              :width: 130px
 
-             Repeat: 10
+             Repeat: 10.
 
 
    .. list-table::
@@ -65,22 +65,22 @@ Repeat
       * - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_cube_repeat0.jpg
              :width: 130px
 
-             Repeat: 0
+             Repeat: 0.
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_cube_repeat1.jpg
              :width: 130px
 
-             Repeat: 1
+             Repeat: 1.
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_cube_repeat5.jpg
              :width: 130px
 
-             Repeat: 5
+             Repeat: 5.
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_cube_repeat10.jpg
              :width: 130px
 
-             Repeat: 10
+             Repeat: 10.
 
 
    .. list-table::
@@ -89,22 +89,22 @@ Repeat
       * - .. figure:: /images/Apinzonf_Diagram_camel_repeat0.jpg
              :width: 130px
 
-             Repeat: 0
+             Repeat: 0.
 
         - .. figure:: /images/Apinzonf_Diagram_camel_repeat1.jpg
              :width: 130px
 
-             Repeat: 1
+             Repeat: 1.
 
         - .. figure:: /images/Apinzonf_Diagram_camel_repeat5.jpg
              :width: 130px
 
-             Repeat: 5
+             Repeat: 5.
 
         - .. figure:: /images/Apinzonf_Diagram_camel_repeat10.jpg
              :width: 130px
 
-             Repeat: 10
+             Repeat: 10.
 
 
 Factor
@@ -121,62 +121,62 @@ Factor
       * - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_lambda0_0.jpg
              :width: 130px
 
-             Factor: 0.0
+             Factor: 0.0.
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_lambda0_5.jpg
              :width: 130px
 
-             Factor: 0.5
+             Factor: 0.5.
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_lambda.jpg
              :width: 130px
 
-             Factor: 2.5
+             Factor: 2.5.
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_lambda5_0.jpg
              :width: 130px
 
-             Factor: 5.0
+             Factor: 5.0.
 
       * - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_cube_lambda0_0.jpg
              :width: 130px
 
-             Factor: 0.0
+             Factor: 0.0.
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_cube_lambda1_0.jpg
              :width: 130px
 
-             Factor: 1.0
+             Factor: 1.0.
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_cube_lambda10_0.jpg
              :width: 130px
 
-             Factor: 10.0
+             Factor: 10.0.
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_cube_lambda50_0.jpg
              :width: 130px
 
-             Factor: 50.0
+             Factor: 50.0.
 
       * - .. figure:: /images/Apinzonf_Diagram_camel_lambda0_0.jpg
              :width: 130px
 
-             Factor: 0.0
+             Factor: 0.0.
 
         - .. figure:: /images/Apinzonf_Diagram_camel_lambda20_0.jpg
              :width: 130px
 
-             Factor: -20.0
+             Factor: -20.0.
 
         - .. figure:: /images/Apinzonf_Diagram_camel_lambda50_0.jpg
              :width: 130px
 
-             Factor: -50.0
+             Factor: -50.0.
 
         - .. figure:: /images/Apinzonf_Diagram_camel_lambda300_0.jpg
              :width: 130px
 
-             Factor: -300.0
+             Factor: -300.0.
 
 
 Border
@@ -193,22 +193,22 @@ Border
       * - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_border0_0.jpg
              :width: 130px
 
-             Border: 0.0
+             Border: 0.0.
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_border1_0.jpg
              :width: 130px
 
-             Border: 1.0
+             Border: 1.0.
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_border.jpg
              :width: 130px
 
-             Border: 2.5
+             Border: 2.5.
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_border10_0.jpg
              :width: 130px
 
-             Border: 10.0
+             Border: 10.0.
 
 
    .. list-table::
@@ -217,22 +217,22 @@ Border
       * - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_cube_border0_0.jpg
              :width: 130px
 
-             Border: 0.0
+             Border: 0.0.
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_cube_border1_0.jpg
              :width: 130px
 
-             Border: 1.0
+             Border: 1.0.
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_cube_border5_0.jpg
              :width: 130px
 
-             Border: 5.0
+             Border: 5.0.
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_cube_border20_0.jpg
              :width: 130px
 
-             Border: 20.0
+             Border: 20.0.
 
 
    .. list-table::
@@ -241,22 +241,22 @@ Border
       * - .. figure:: /images/Apinzonf_Diagram_cup_border0_0.jpg
              :width: 130px
 
-             Border: 0.0
+             Border: 0.0.
 
         - .. figure:: /images/Apinzonf_Diagram_cup_border20_0.jpg
              :width: 130px
 
-             Border: -20.0
+             Border: -20.0.
 
         - .. figure:: /images/Apinzonf_Diagram_cup_border50_0.jpg
              :width: 130px
 
-             Border: -50.0
+             Border: -50.0.
 
         - .. figure:: /images/Apinzonf_Diagram_cup_border200_0.jpg
              :width: 130px
 
-             Border: -200.0
+             Border: -200.0.
 
 
 X, Y, Z
@@ -268,42 +268,42 @@ X, Y, Z
       * - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_cube_axis.jpg
              :width: 130px
 
-             X, Y, Z: Unselected
+             X, Y, Z: Unselected.
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_cube_axis_xyz.jpg
              :width: 130px
 
-             X, Y, Z: Selected
+             X, Y, Z: Selected.
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_cube_axis_xy.jpg
              :width: 130px
 
-             X, Y: Selected
+             X, Y: Selected.
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_cube_axis_x.jpg
              :width: 130px
 
-             X: Selected
+             X: Selected.
 
       * - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_t_axis.jpg
              :width: 130px
 
-             X, Y, Z: Unselected
+             X, Y, Z: Unselected.
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_t_axis_xyz.jpg
              :width: 130px
 
-             X, Y, Z: Selected
+             X, Y, Z: Selected.
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_t_axis_xy.jpg
              :width: 130px
 
-             X, Y: Selected
+             X, Y: Selected.
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_t_axis_x.jpg
              :width: 130px
 
-             X: Selected
+             X: Selected.
 
 
 Preserve Volume
@@ -316,22 +316,22 @@ Preserve Volume
       * - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_cube_volumeFalse.jpg
              :width: 130px
 
-             Off
+             Off.
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_cube_volumeTrue.jpg
              :width: 130px
 
-             On
+             On.
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_cube_volume2False.jpg
              :width: 130px
 
-             Off
+             Off.
 
         - .. figure:: /images/Apinzonf_GSOC_2012_Diagram_cube_volume2True.jpg
              :width: 130px
 
-             On
+             On.
 
 
 Vertex Group
@@ -392,22 +392,22 @@ Normalized
       * - .. figure:: /images/Apinzonf_Diagram_monkey_normalized0.jpg
              :width: 130px
 
-             Original Geometry
+             Original Geometry.
 
         - .. figure:: /images/Apinzonf_Diagram_monkey_normalized1.jpg
              :width: 130px
 
-             On
+             On.
 
         - .. figure:: /images/Apinzonf_Diagram_monkey_normalized2.jpg
              :width: 130px
 
-             Off
+             Off.
 
         - .. figure:: /images/Apinzonf_Diagram_monkey_normalized3.jpg
              :width: 130px
 
-             Off, High Factor
+             Off, High Factor.
 
 
 .. hint::

@@ -58,7 +58,7 @@ Limited Dissolve
 .. figure:: /images/Bmesh_dissolve_face_split.png
    :width: 500px
 
-   Dissolve Face Split option. Left - the input, middle - regular dissolve, right - Face Split enabled
+   Dissolve Face Split option. Left - the input, middle - regular dissolve, right - Face Split enabled.
 
 
 Convert Triangles to Quads

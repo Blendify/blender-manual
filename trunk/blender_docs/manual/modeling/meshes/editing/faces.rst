@@ -56,7 +56,7 @@ or vertices, as long as they form one or more complete perimeters.
 .. figure:: /images/Fill3.jpg
    :width: 300px
 
-   Filled using fill
+   Filled using fill.
 
 
 note, unlike creating n-gons, fill supports holes.

@@ -123,7 +123,7 @@ Examples
      - .. figure:: /images/rip-after.jpg
           :width: 300px
 
-          Hole created after using rip on vertex
+          Hole created after using rip on vertex.
 
    * - .. figure:: /images/rip-edges-before.jpg
           :width: 300px
@@ -138,7 +138,7 @@ Examples
    * - .. figure:: /images/rip-complexSelection-before.jpg
           :width: 300px
 
-          A complex selection of vertices
+          A complex selection of vertices.
 
      - .. figure:: /images/rip-complexSelection-after.jpg
           :width: 300px
@@ -175,12 +175,12 @@ it fills in the gap with geometry.
    * - .. figure:: /images/rip-edges-before.jpg
           :width: 300px
 
-          Edges selected
+          Edges selected.
 
      - .. figure:: /images/ripFill-result.jpg
           :width: 300px
 
-          Result of rip fill
+          Result of rip fill.
 
 
 Split

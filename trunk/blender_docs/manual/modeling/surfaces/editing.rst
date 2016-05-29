@@ -113,7 +113,7 @@ to select the rest of the control points.
 .. figure:: /images/NurbsSurfaceSelectEdge.jpg
    :width: 500px
 
-   Selecting control-point
+   Selecting control-point.
 
 The edge is then extruded using :kbd:`E` as shown in Fig. Extruding.
 Notice how the mesh has bunched up next to the highlighted edge;
@@ -124,7 +124,7 @@ That is because the *new* extruded surface section is bunched up there as well.
 .. figure:: /images/NurbsExtrude.jpg
    :width: 500px
 
-   Compete
+   Compete.
 
 By moving the new section away from the area, the surface begins to "unbunch".
 The direction of movement is marked with a white arrow, labeled "E",
@@ -228,7 +228,7 @@ Example
 .. figure:: /images/NurbsDeletingSegments.jpg
    :width: 600px
 
-   Before and after
+   Before and after.
 
 
 In Fig. Before a row of control points has been selected by initially selecting the control point labeled "A"
@@ -286,7 +286,7 @@ Fig. Joining complete is the result of joining the two curves.
 .. figure:: /images/NurbsJoin.jpg
    :width: 350px
 
-   Joining ready and Joining complete
+   Joining ready and Joining complete.
 
 
 Subdivision

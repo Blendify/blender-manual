@@ -11,12 +11,12 @@ This modifier does the exact same function as the triangulate function :kbd:`Ctr
    * - .. figure:: /images/Triangulate-before.jpg
           :width: 300px
 
-          Mesh before Triangulate Modifier
+          Mesh before Triangulate Modifier.
 
      - .. figure:: /images/Triangulate-after.jpg
           :width: 300px
 
-          Mesh after Triangulate Modifier
+          Mesh after Triangulate Modifier.
 
 
 Options

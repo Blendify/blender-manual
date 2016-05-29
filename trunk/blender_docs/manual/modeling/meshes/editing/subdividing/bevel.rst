@@ -99,7 +99,7 @@ Segments
    .. figure:: /images/Bevel3.jpg
       :width: 300px
 
-      Bevel with 4 segments
+      Bevel with 4 segments.
 
 
 Profile
@@ -140,7 +140,7 @@ Examples
      - .. figure:: /images/Bevel7.jpg
           :width: 200px
 
-          An example using Profile=0.150
+          An example using Profile=0.150.
 
 
 .. seealso:: Bevel Modifier
