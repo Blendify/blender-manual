@@ -413,7 +413,7 @@ The *Paragraph* Panel has settings for the alignment and spacing of text.
 .. figure:: /images/TextParagraphSettings.jpg
    :width: 300px
 
-   the paragraph tab
+   the paragraph tab.
 
 
 Align
@@ -482,7 +482,7 @@ Preview, Render resolution. See :ref:`curve resolution <curve-resolution>`.
 .. figure:: /images/TextShapeSettings.jpg
    :width: 300px
 
-   the shape settings
+   the shape settings.
 
 
 Fast Editing

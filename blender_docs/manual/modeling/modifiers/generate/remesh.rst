@@ -40,7 +40,7 @@ Mode
 .. figure:: /images/modifier-remesh-depth-cone-example.jpg
    :width: 600px
 
-   Input mesh, and the low to high resolution output meshes
+   Input mesh, and the low to high resolution output meshes.
 
 
 Octree Depth
@@ -86,7 +86,7 @@ Examples
 .. figure:: /images/modifier-remesh-text-00.jpg
    :width: 640px
 
-   Remesh modifier applied to text to improve topology
+   Remesh modifier applied to text to improve topology.
 
 
 .. youtube:: Mh-gUnS2c0Y

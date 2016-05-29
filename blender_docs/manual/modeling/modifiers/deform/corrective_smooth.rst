@@ -77,7 +77,7 @@ Example
    * - .. figure:: /images/modifier-corrective_smooth_example_pose_before.png
           :width: 350px
 
-          Armature only
+          Armature only.
 
      - .. figure:: /images/modifier-corrective_smooth_example_pose_after.png
           :width: 350px

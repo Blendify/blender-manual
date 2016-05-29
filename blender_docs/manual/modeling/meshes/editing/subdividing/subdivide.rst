@@ -56,17 +56,17 @@ Smoothness
    * - .. figure:: /images/subdivide-smooth-before.jpg
           :width: 200px
 
-          Mesh before subdividing
+          Mesh before subdividing.
 
      - .. figure:: /images/subdivide-smooth-none.jpg
           :width: 200px
 
-          Subdivided with no smoothing
+          Subdivided with no smoothing.
 
      - .. figure:: /images/subdivide-smooth-after.jpg
           :width: 200px
 
-          Subdivided with smoothing of 1
+          Subdivided with smoothing of 1.
 
 
 Quad/Tri Mode
@@ -96,17 +96,17 @@ Corner Cut Type
    * - .. figure:: /images/subdivide-twoEdgesQuad-fan2.jpg
           :width: 200px
 
-          Fan cut type
+          Fan cut type.
 
      - .. figure:: /images/subdivide-twoEdgesQuad-innervert.jpg
           :width: 200px
 
-          Innervert cut type
+          Innervert cut type.
 
      - .. figure:: /images/subdivide-twoEdgesQuad-path.jpg
           :width: 200px
 
-          Path cut type
+          Path cut type.
 
 
 Fractal
@@ -117,17 +117,17 @@ Fractal
    * - .. figure:: /images/subdivide-fractal-before.jpg
           :width: 200px
 
-          Plane before subdivision
+          Plane before subdivision.
 
      - .. figure:: /images/subdivide-fractal-none.jpg
           :width: 200px
 
-          Regular subdivision
+          Regular subdivision.
 
      - .. figure:: /images/subdivide-fractal-after1.jpg
           :width: 200px
 
-          Same mesh with fractal added
+          Same mesh with fractal added.
 
 
 Along Normal
@@ -137,7 +137,7 @@ Along Normal
 .. figure:: /images/subdivide-fractal-alongNormal.jpg
    :width: 200px
 
-   Along normal set to 1
+   Along normal set to 1.
 
 
 Random Seed
@@ -147,7 +147,7 @@ Random Seed
 .. figure:: /images/subdivide-fractal-after2.jpg
    :width: 200px
 
-   Same mesh with a different seed value
+   Same mesh with a different seed value.
 
 
 Examples
@@ -171,12 +171,12 @@ One Edge
    * - .. figure:: /images/subdivide-oneEdge.jpg
           :width: 250px
 
-          One Edges
+          One Edges.
 
      - .. figure:: /images/subdivide-oneEdge-tri.jpg
           :width: 250px
 
-          Quad/Tri Mode
+          Quad/Tri Mode.
 
 
 Two Tri Edges
@@ -190,7 +190,7 @@ Two Tri Edges
      - .. figure:: /images/subdivide-twoEdgesTri-tri.jpg
           :width: 250px
 
-          Quad/Tri Mode
+          Quad/Tri Mode.
 
 
 Two Opposite Quad Edges
@@ -204,7 +204,7 @@ Two Opposite Quad Edges
      - .. figure:: /images/subdivide-twoEdgesOpposite-tri.jpg
           :width: 250px
 
-          Quad/Tri Mode
+          Quad/Tri Mode.
 
 
 Two Adjacent Quad Edges
@@ -215,12 +215,12 @@ Two Adjacent Quad Edges
    * - .. figure:: /images/subdivide-twoEdgesQuad-fan2.jpg
           :width: 250px
 
-          Fan cut type
+          Fan cut type.
 
      - .. figure:: /images/subdivide-twoEdgesQuad-fan.jpg
           :width: 250px
 
-          Quad/Tri Mode
+          Quad/Tri Mode.
 
 
 .. list-table::
@@ -228,12 +228,12 @@ Two Adjacent Quad Edges
    * - .. figure:: /images/subdivide-twoEdgesQuad-innervert.jpg
           :width: 250px
 
-          Innervert cut type
+          Innervert cut type.
 
      - .. figure:: /images/subdivide-twoEdgesQuad-innervert-tri.jpg
           :width: 250px
 
-          Quad/Tri Mode
+          Quad/Tri Mode.
 
 
 .. list-table::
@@ -241,12 +241,12 @@ Two Adjacent Quad Edges
    * - .. figure:: /images/subdivide-twoEdgesQuad-path.jpg
           :width: 250px
 
-          Path cut type
+          Path cut type.
 
      - .. figure:: /images/subdivide-twoEdgesQuad-path-tri.jpg
           :width: 250px
 
-          Quad/Tri Mode
+          Quad/Tri Mode.
 
 
 Three Edges
@@ -260,7 +260,7 @@ Three Edges
      - .. figure:: /images/subdivide-threeEdges-tri.jpg
           :width: 250px
 
-          Quad/Tri Mode
+          Quad/Tri Mode.
 
 
 Tri
@@ -274,7 +274,7 @@ Tri
      - .. figure:: /images/subdivide-threeEdgesTri-tri.jpg
           :width: 250px
 
-          Quad/Tri Mode
+          Quad/Tri Mode.
 
 
 Quad/Four Edges
@@ -288,7 +288,7 @@ Quad/Four Edges
      - .. figure:: /images/subdivide-fourEdges-tri.jpg
           :width: 250px
 
-          Quad/Tri Mode
+          Quad/Tri Mode.
 
 
 Multicut
@@ -299,7 +299,7 @@ Multicut
    * - .. figure:: /images/subdivide-tri-multi.jpg
           :width: 250px
 
-          Tri with two cuts
+          Tri with two cuts.
 
      - .. figure:: /images/subdivide-quad-multi.jpg
           :width: 250px

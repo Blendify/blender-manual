@@ -30,7 +30,7 @@ GIMP is a full-featured image manipulation program that is also open-source.
 .. figure:: /images/texture-painting.jpg
    :width: 400px
 
-   Texture painting in Blender
+   Texture painting in Blender.
 
 
 Since a mesh can have layers of UV Textures, there may be many images that color the mesh.
@@ -58,7 +58,7 @@ you can modify the image using the Texture Paint mode:
 .. figure:: /images/texture-painting-paintMode.jpg
    :width: 250px
 
-   Enabling paint mode
+   Enabling paint mode.
 
 
 - In the 3D View window, select Texture Paint mode from the mode selector in the window header,
@@ -142,7 +142,7 @@ Brush
 .. figure:: /images/texture-painting-brush.jpg
    :width: 200px
 
-   Brush Settings
+   Brush Settings.
 
 
 Brush presets
@@ -205,7 +205,7 @@ Texture
 .. figure:: /images/texture-painting-brushTexture.jpg
    :width: 250px
 
-   Texture options and example
+   Texture options and example.
 
 
 Use the texture selector at the bottom of the paint panel to select a pre-loaded image or

@@ -60,7 +60,7 @@ This is a special case of the *Edit mode* as explained on the
      - .. figure:: /images/MirrorTool2.jpg
           :width: 300px
 
-          Mesh after mirrored along X axis
+          Mesh after mirrored along X axis.
 
 
 On Fig. Mirror around the 3D Cursor ... the pivot point is the *3D Cursor*,

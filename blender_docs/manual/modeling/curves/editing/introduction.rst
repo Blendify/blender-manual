@@ -374,7 +374,7 @@ Converting Curve Type
 .. figure:: /images/Editing_Curves_set-spline-type.jpg
    :width: 150px
 
-   Set Spline Type button
+   Set Spline Type button.
 
 
 You can convert splines in a curve object between Bézier, NURBS, and Poly curves.

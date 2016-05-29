@@ -203,7 +203,7 @@ Weight
 .. figure:: /images/NurbsSurfaceWeightExample.jpg
    :width: 600px
 
-   One control point with a weight of 100
+   One control point with a weight of 100.
 
 
 Guess what? Yes, it works exactly like :ref:`NURBS Curves <modeling-curve-weight>` ! *Weight* specifies

@@ -14,12 +14,12 @@ Activating *Normals* or typing a name in *VGroup* will simply deactivate the mod
    * - .. figure:: /images/modifier-wave-example-circular.jpg
           :width: 180px
 
-          Circular wave front
+          Circular wave front.
 
      - .. figure:: /images/modifier-wave-example-linear.jpg
           :width: 180px
 
-          Linear wave front
+          Linear wave front.
 
      - .. figure:: /images/modifier-wave-example-normals.jpg
           :width: 180px

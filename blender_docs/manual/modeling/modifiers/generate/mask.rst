@@ -17,7 +17,7 @@ Mode
       .. figure:: /images/modifier-mask-vg.jpg
          :width: 350px
 
-         Vertex Group
+         Vertex Group.
 
 
       When the *Vertex Group* option is selected,
@@ -28,7 +28,7 @@ Mode
       .. figure:: /images/modifier-mask-a.jpg
          :width: 350px
 
-         Armature
+         Armature.
 
 
       When in Pose Mode,

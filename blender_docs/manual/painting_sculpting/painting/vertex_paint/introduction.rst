@@ -161,7 +161,7 @@ Input Samples
 .. figure:: /images/brushcurves.jpg
    :width: 200px
 
-   Various brush curves
+   Various brush curves.
 
 
 Curve

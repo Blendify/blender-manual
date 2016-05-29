@@ -62,7 +62,7 @@ Select Mode Pop-up
 .. figure:: /images/Modeling-Meshes-Selection-mode.jpg
    :align: right
 
-   Mesh Select Mode menu
+   Mesh Select Mode menu.
 
 You can choose a selection mode with the pop-up menu:
 
