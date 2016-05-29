@@ -5,7 +5,7 @@ Distorted Noise
 
 .. figure:: /images/texture-procedural-distnoise.jpg
 
-   Distorted Noise Texture Panels
+   Distorted Noise Texture Panels.
 
 
 *Distortion Noise* takes the option that you pick from *Noise Basis* and filters it, to create hybrid pattern.

@@ -5,7 +5,7 @@ Clouds
 
 .. figure:: /images/texture-procedural-clouds.jpg
 
-   Clouds Texture Panels
+   Clouds Texture Panels.
 
 
 Clouds represent Perlin noise. In addition, each noise-based Blender texture

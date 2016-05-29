@@ -6,7 +6,7 @@ Baking
 
 .. figure:: /images/physics_fluid_baking.png
 
-   The fluid simulation options with Domain selected
+   The fluid simulation options with Domain selected.
 
 
 Bake Button

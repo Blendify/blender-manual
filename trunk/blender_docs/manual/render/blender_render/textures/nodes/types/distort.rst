@@ -13,7 +13,7 @@ Rotate
 
 .. figure:: /images/texture-nodes-rotate.jpg
 
-   Rotate node
+   Rotate node.
 
 
 Rotate the texture coordinates of an image or texture.
@@ -29,7 +29,7 @@ Translate
 
 .. figure:: /images/texture-nodes-translate.jpg
 
-   Translate node
+   Translate node.
 
 
 Translate the texture coordinates of an image or texture.
@@ -43,7 +43,7 @@ Scale
 
 .. figure:: /images/texture-nodes-scale.jpg
 
-   Scale node
+   Scale node.
 
 
 Scale the texture coordinates of an image or texture.
@@ -57,7 +57,7 @@ At
 
 .. figure:: /images/texture-nodes-at.jpg
 
-   At node
+   At node.
 
 
 Returns the color of a texture at the specified coordinates.

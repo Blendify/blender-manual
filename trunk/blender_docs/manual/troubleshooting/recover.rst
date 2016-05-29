@@ -63,7 +63,7 @@ Recover Last Session
 
 .. figure:: /images/basics-undo-display_file_date.jpg
 
-   Blender File Browser
+   Blender File Browser.
 
 
 .. tip::

@@ -60,7 +60,7 @@ Hardness
 
 .. figure:: /images/materials-haloadd.jpg
 
-   Effect of Add
+   Effect of Add.
 
 
 Add

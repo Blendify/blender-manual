@@ -5,7 +5,7 @@ Options
 
 .. figure:: /images/materials_properties_options.jpg
 
-   Material Options Panel
+   Material Options Panel.
 
 
 This panel provides a series of control options concerning how objects using this material

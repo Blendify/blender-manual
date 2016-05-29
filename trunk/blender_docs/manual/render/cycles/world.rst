@@ -5,7 +5,7 @@ World
 
 .. figure:: /images/Cycles-Environment-Lighting.jpg
 
-   Lighting with an HDR image
+   Lighting with an HDR image.
 
 
 The world environment can emit light, ranging from a single solid color, physical sky model,
@@ -93,11 +93,11 @@ Below is a comparison between Multiple Importance Sample Off and On - both image
 
    * - .. figure:: /images/Cycles-MIS-Off.jpg
 
-          Multiple Importance Sample Off
+          Multiple Importance Sample Off.
 
      - .. figure:: /images/Cycles-MIS-On.jpg
 
-          Multiple Importance Sample On
+          Multiple Importance Sample On.
 
 
 For interior scenes, noise can be significantly reduce by

@@ -8,7 +8,7 @@ MixRGB
 
 .. figure:: /images/material-color-node-mix.jpg
 
-   MixRGB node
+   MixRGB node.
 
 
 This node mixes a base color or image (threaded to the top socket)
@@ -61,7 +61,7 @@ RGB Curves
 
 .. figure:: /images/render_bi_material-color-node-curves.jpg
 
-   RGB Curves node
+   RGB Curves node.
 
 
 For each color component channel (RGB) or the composite (C),
@@ -79,7 +79,7 @@ Invert
 
 .. figure:: /images/material-color-node-invert.jpg
 
-   Invert node
+   Invert node.
 
 
 This node simply inverts the input values and colors.
@@ -107,7 +107,7 @@ Hue Saturation Value
 
 .. figure:: /images/material-color-node-hsv.jpg
 
-   Hue Saturation Value node
+   Hue Saturation Value node.
 
 
 Use this node to adjust the Hue, Saturation, and Value of an input.

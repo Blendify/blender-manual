@@ -37,7 +37,7 @@ that model particular effects as light passes through the volume and interacts w
 
 .. figure:: /images/cycles_manual_materials_volume.jpg
 
-   Volume Shader: Absorption / Absorption + Scatter / Emission
+   Volume Shader: Absorption / Absorption + Scatter / Emission.
 
 
 Density
@@ -112,7 +112,7 @@ the image below shows a good setup on how to do this.
 
 .. figure:: /images/cycles_materials_smoke.png
 
-   Smoke and Fire Material
+   Smoke and Fire Material.
 
 
 Scattering Bounces

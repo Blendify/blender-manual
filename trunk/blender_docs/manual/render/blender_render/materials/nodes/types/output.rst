@@ -5,7 +5,7 @@ Output Node
 
 .. figure:: /images/render_bi_material-output-node.jpg
 
-   Output material node
+   Output material node.
 
 
 At any point, you may want to see the work in progress,

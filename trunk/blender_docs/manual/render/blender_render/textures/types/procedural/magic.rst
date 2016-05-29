@@ -5,7 +5,7 @@ Magic
 
 .. figure:: /images/texture-procedural-magic.jpg
 
-   Magic Texture Panels
+   Magic Texture Panels.
 
 
 Often used for

@@ -115,7 +115,7 @@ Bakes colors of materials and textures only, without shading.
 
 .. figure:: /images/render-bake-disp.jpg
 
-   Displacement
+   Displacement.
 
 
 Displacement

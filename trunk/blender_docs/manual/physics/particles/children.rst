@@ -62,7 +62,7 @@ Effects
 
 .. figure:: /images/ChildParticleRoundClump.jpg
 
-   From left to right: Round: 0.0, Round: 1.0, Clump: 1.0, Clump: -1.0, Shape: -0.99
+   From left to right: Round: 0.0, Round: 1.0, Clump: 1.0, Clump: -1.0, Shape: -0.99.
 
 
 Clump
@@ -101,7 +101,7 @@ Kink
 
 .. figure:: /images/ChildParticleKink.jpg
 
-   Child particles with Kink. From left to right: Curl, Radial, Wave, Braid, Roll
+   Child particles with Kink. From left to right: Curl, Radial, Wave, Braid, Roll.
 
 
 With *Kink* you can rotate the children around the parent.

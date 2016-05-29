@@ -9,7 +9,7 @@ Introduction
 
 .. figure:: /images/render-internal_world_panel.png
 
-   World Panel
+   World Panel.
 
 
 Blender provides a number of very interesting settings to complete your renderings by adding a

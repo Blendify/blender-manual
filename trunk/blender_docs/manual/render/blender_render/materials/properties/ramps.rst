@@ -38,7 +38,7 @@ Options
 
 .. figure:: /images/material-rampspanel.jpg
 
-   Ramps Panel
+   Ramps Panel.
 
 
 The separate *Ramp* panels for the *Diffuse* shader and the
@@ -85,7 +85,7 @@ Input
 
 .. figure:: /images/render_bi_material-ramps-blendmenu.jpg
 
-   Blend pop-up menu
+   Blend pop-up menu.
 
 
 Blend
@@ -155,7 +155,7 @@ active mark. :kbd:`LMB` click it to display a color picker in which values for c
 
 .. figure:: /images/material-ramps-interpolationmenu.jpg
 
-   Interpolation pop-up menu
+   Interpolation pop-up menu.
 
 
 Interpolation

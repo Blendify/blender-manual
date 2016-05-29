@@ -29,7 +29,7 @@ Material Node
 
 .. figure:: /images/render_bi_material-node.jpg
 
-   Material node
+   Material node.
 
 
 The Material node is used to add a material to the node program.
@@ -176,7 +176,7 @@ Camera Data Node
 
 .. figure:: /images/Camera-Data-Node.jpg
 
-   Camera Data node
+   Camera Data node.
 
 
 View Vector
@@ -225,7 +225,7 @@ Value Node
 
 .. figure:: /images/Value-Node.jpg
 
-   Value node
+   Value node.
 
 
 The Value node has no inputs; it just outputs a numerical value
@@ -240,7 +240,7 @@ RGB Node
 
 .. figure:: /images/RGB-Node.jpg
 
-   RGB node
+   RGB node.
 
 
 The RGB node has no inputs.
@@ -252,7 +252,7 @@ Texture Node
 
 .. figure:: /images/texture-node.jpg
 
-   Texture node
+   Texture node.
 
 
 A texture, from the list of textures available in the current blend-file,
@@ -294,7 +294,7 @@ Geometry Node
 
 .. figure:: /images/Geometry-Node.jpg
 
-   Geometry node
+   Geometry node.
 
 
 The geometry node is used to specify how light reflects off the surface.

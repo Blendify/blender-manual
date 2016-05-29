@@ -68,7 +68,7 @@ Examples
 
 .. figure:: /images/World-Mist-Example1.jpg
 
-   Mist example
+   Mist example.
 
 
 In this example (`.blend <https://wiki.blender.org/index.php/:File:25-Manual-World-Mist-Example1.blend>`__)

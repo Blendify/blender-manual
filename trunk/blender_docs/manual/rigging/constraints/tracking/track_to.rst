@@ -29,7 +29,7 @@ Options
 
 .. figure:: /images/Constraints-Tracking-TrackTo.jpg
 
-   Track To panel
+   Track To panel.
 
 
 Targets

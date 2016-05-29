@@ -42,7 +42,7 @@ and another that has three maps.
 
 .. figure:: /images/UV-Overview.jpg
 
-   How all the parts of UV Texturing work together
+   How all the parts of UV Texturing work together.
 
 
 When using file textures, it is very important that you have

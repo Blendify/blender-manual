@@ -101,7 +101,7 @@ Coordinate Offset, Scaling and Transformation
 
 .. figure:: /images/texture-mapping-offset.jpg
 
-   Offset panel
+   Offset panel.
 
 
 Offset
@@ -111,7 +111,7 @@ Offset
 
 .. figure:: /images/texture-mapping-size.jpg
 
-   Size panel
+   Size panel.
 
 
 Size

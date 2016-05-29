@@ -21,7 +21,7 @@ and the color of the surface determines the final color of the pixel.
 
 .. figure:: /images/materials_properties_transparency.jpg
 
-   Transparency Panel
+   Transparency Panel.
 
 
 In Blender, there are three ways in which the transparency of a material can be set:

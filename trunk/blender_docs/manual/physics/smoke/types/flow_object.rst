@@ -17,7 +17,7 @@ Settings
 
 .. figure:: /images/smoke_flow_settings.png
 
-   *Smoke Flow* settings
+   *Smoke Flow* settings.
 
 
 Flow Type

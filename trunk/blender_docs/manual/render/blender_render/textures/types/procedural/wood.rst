@@ -5,7 +5,7 @@ Wood
 
 .. figure:: /images/texture-procedural-wood.jpg
 
-   Wood Texture Panels
+   Wood Texture Panels.
 
 
 Often used for

@@ -22,7 +22,7 @@ Voronoi
 
 .. figure:: /images/texture-nodes-voronoi.jpg
 
-   Voronoi node
+   Voronoi node.
 
 
 See :doc:`Here </render/blender_render/textures/types/procedural/voronoi>`
@@ -33,7 +33,7 @@ Blend
 
 .. figure:: /images/texture-nodes-blend.jpg
 
-   Blend node
+   Blend node.
 
 
 See :doc:`Here </render/blender_render/textures/types/procedural/blend>`
@@ -44,7 +44,7 @@ Magic
 
 .. figure:: /images/texture-nodes-magic.jpg
 
-   Magic node
+   Magic node.
 
 
 See :doc:`Here </render/blender_render/textures/types/procedural/magic>`
@@ -55,7 +55,7 @@ Marble
 
 .. figure:: /images/texture-nodes-marble.jpg
 
-   Marble node
+   Marble node.
 
 
 See :doc:`Here </render/blender_render/textures/types/procedural/marble>`
@@ -66,7 +66,7 @@ Clouds
 
 .. figure:: /images/texture-nodes-cloud.jpg
 
-   Clouds node
+   Clouds node.
 
 
 See :doc:`Here </render/blender_render/textures/types/procedural/clouds>`
@@ -77,7 +77,7 @@ Wood
 
 .. figure:: /images/texture-nodes-wood.jpg
 
-   Wood node
+   Wood node.
 
 
 See :doc:`Here </render/blender_render/textures/types/procedural/wood>`
@@ -88,7 +88,7 @@ Musgrave
 
 .. figure:: /images/texture-nodes-musgrave.jpg
 
-   Musgrave
+   Musgrave.
 
 
 See :doc:`Here </render/blender_render/textures/types/procedural/musgrave>`
@@ -99,7 +99,7 @@ Noise
 
 .. figure:: /images/texture-nodes-noise.jpg
 
-   Noise
+   Noise.
 
 
 See :doc:`Here </render/blender_render/textures/types/procedural/noise>`
@@ -110,7 +110,7 @@ Stucci
 
 .. figure:: /images/texture-nodes-stucci.jpg
 
-   Stucci
+   Stucci.
 
 
 See :doc:`Here </render/blender_render/textures/types/procedural/stucci>`
@@ -121,7 +121,7 @@ Distorted Noise
 
 .. figure:: /images/texture-nodes-distortedNoise.jpg
 
-   Distorted Noise node
+   Distorted Noise node.
 
 
 See :doc:`Here </render/blender_render/textures/types/procedural/distorted_noise>`

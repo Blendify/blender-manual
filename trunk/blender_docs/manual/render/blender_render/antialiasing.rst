@@ -43,19 +43,19 @@ Note that each pixel has an identical pattern.
 
    * - .. figure:: /images/oversampling-pattern-5.jpg
 
-          5 samples
+          5 samples.
 
      - .. figure:: /images/oversampling-pattern-8.jpg
 
-          8 samples
+          8 samples.
 
      - .. figure:: /images/oversampling-pattern-11.jpg
 
-          11 samples
+          11 samples.
 
      - .. figure:: /images/oversampling-pattern-16.jpg
 
-          16 samples
+          16 samples.
 
 
 Full Sample
@@ -104,31 +104,31 @@ Mitchell-Netravali
 
    * - .. figure:: /images/oversampling-graph-box.jpg
 
-          Box
+          Box.
 
      - .. figure:: /images/oversampling-graph-tent.jpg
 
-          Tent
+          Tent.
 
      - .. figure:: /images/oversampling-graph-quadratic.jpg
 
-          Quadratic
+          Quadratic.
 
      - .. figure:: /images/oversampling-graph-cubic.jpg
 
-          Cubic
+          Cubic.
 
    * - .. figure:: /images/oversampling-graph-gaussian.jpg
 
-          Gaussian
+          Gaussian.
 
      - .. figure:: /images/oversampling-graph-catmullrom.jpg
 
-          Catmull-Rom
+          Catmull-Rom.
 
      - .. figure:: /images/oversampling-graph-mitchell-netravali.jpg
 
-          Mitchell-Netravali
+          Mitchell-Netravali.
 
      -
 

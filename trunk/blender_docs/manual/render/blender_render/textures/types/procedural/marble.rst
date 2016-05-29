@@ -5,7 +5,7 @@ Marble
 
 .. figure:: /images/texture-procedural-marble.jpg
 
-   Marble Texture Panels
+   Marble Texture Panels.
 
 
 Often used for
