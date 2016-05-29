@@ -285,9 +285,9 @@ otherwise, it is a Control Bone. (See figure 22).
 
 .. figure:: /images/3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform_With_Empty_Groups-blend.jpg
 
-   Figure 22 - 3 Bone Armature in Edit Mode with 2nd bone selected with 
+   Figure 22 - 3 Bone Armature in *Pose* Mode with 1st bone selected with 
    :menuselection:`Properties Editor --> <Bone Context> --> Deform`
-   displayed ticked, indicating the bone is a Deforming Bone.
+   displayed unticked, indicating the bone is not a Deforming Bone.
 
 
 Armature Deform With Automatic Weights
