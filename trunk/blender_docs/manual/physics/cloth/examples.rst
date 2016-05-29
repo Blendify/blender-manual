@@ -4,11 +4,9 @@ Examples
 ********
 
 To start with cloth, the first thing you need, of course, is some fabric. So,
-let's delete the default cube and add a plane. I scaled mine up along the Y axis,
-but you don't have to do this. In order to get some good floppy and flexible fabric,
-you'll need to subdivide it several times. I did it 8 times for this example.
-So :kbd:`Tab` into *Edit mode*,
-and press :kbd:`W` :menuselection:`--> Subdivide multi`, and set it to 8.
+let's delete the default cube and add a plane. In order to get some good floppy and flexible fabric,
+you'll need to subdivide it several times, about 8 is a good number.
+So :kbd:`Tab` into *Edit mode*, and press :kbd:`W` :menuselection:`--> Subdivide multi`, and set it to 8.
 
 Now, we'll make this cloth by going to the :menuselection:`Object context --> Physics` sub-context.
 Scroll down until you see the *Cloth* panel, and press the *Cloth* button.

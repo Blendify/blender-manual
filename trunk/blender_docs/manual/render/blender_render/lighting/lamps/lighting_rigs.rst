@@ -78,8 +78,8 @@ placed really up close to the subject, dramatizing the fearful "lost in the dark
 Somewhere in the macabre spectrum is a hard spot on the floor shining upward. For fun,
 grab a flashlight, head into the bathroom and close the door.
 Turn out the light and hold the flashlight under your chin, pointing up.
-Look in the mirror and turn it on. Ghoulies! Don't blame me for nightmares,
-and I hope you get the point: lighting, *even* with a single light, varying the intensity,
+Look in the mirror and turn it on. From this you can see that lighting,
+*even* with a single light, varying the intensity,
 location and direction, changes *everything* in a scene.
 
 Use this rig, with *Environment Lighting* light
@@ -249,31 +249,28 @@ Troubleshooting
 
 If you run into a problem with your render, where there are really bright areas,
 or really dark ones, or strange shadows, or lines on your objects,
-here is what I suggest you do:
+here are some good steps to debugging what is wring.
 
-
-- First, try deactivating all materials
-  (create a default, gray one, and enter its name in the *Mat* field, *Layer* panel,
-  *Render Layers* context - to get back all your normal materials, just erase this text field!).
-  See if you get those problems with just grayness objects. If you don't have the problem anymore,
-  that should tell you that you've got a materials-interacting-with-light problem.
-  Check the material settings, especially ambient,
-  reflection and all those little buttons and sliders in the *Material* context.
-  You can set some lights to affect only certain materials,
-  so if there's an issue with only a few objects being really bright, start with those.
-- Then start "killing" lights (e.g. moving them to an unused layer);
-  regress all the way back to one light, make sure it's smooth,
-  then add them in one by one. As they add together, reduce power in the tested ones so they merge cleanly,
-  or consider not adding it at all, or, especially, reduce the energy of the lamp you just introduced.
-- You can also set lights to only light objects on a layer, so again, if some of the gray spheres have weirdness,
-  check for that as well. Again, you may have done some of this accidentally,
-  so sometimes deleting the light and re-adding it with defaults helps you reset to a known-good situation.
-- Negative lights can be very tricky, and make your model blotchy,
-  so pay special attention to your use of those special lights.
-  Shadow-only lights can throw off the look of the scene as well.
-  Overly textured lights can make your scene have random weird colors.
-  Don't go too far off a slight tinge of blue or yellow or shades of white,
-  or your material may show blue in the *Material* context but render green, and you will be very confused.
-- Look at your environment settings
-  *World* context: *Horizon*, *Zenith*, and *Environment Lighting*.
-
+#. First, try deactivating all materials
+   (create a default, gray one, and enter its name in the *Mat* field, *Layer* panel,
+   *Render Layers* context - to get back all your normal materials, just erase this text field!).
+   See if you get those problems with just grayness objects. If you don't have the problem anymore,
+   that should tell you that you've got a materials-interacting-with-light problem.
+   Check the material settings, especially ambient,
+   reflection and all those little buttons and sliders in the *Material* context.
+   You can set some lights to affect only certain materials,
+   so if there's an issue with only a few objects being really bright, start with those.
+#. Then start "killing" lights (e.g. moving them to an unused layer);
+   regress all the way back to one light, make sure it's smooth,
+   then add them in one by one. As they add together, reduce power in the tested ones so they merge cleanly,
+   or consider not adding it at all, or, especially, reduce the energy of the lamp you just introduced.
+#. You can also set lights to only light objects on a layer, so again, if some of the gray spheres have weirdness,
+   check for that as well. Again, you may have done some of this accidentally,
+   so sometimes deleting the light and re-adding it with defaults helps you reset to a known-good situation.
+#. Negative lights can be very tricky, and make your model blotchy,
+   so pay special attention to your use of those special lights.
+   Shadow-only lights can throw off the look of the scene as well.
+   Overly textured lights can make your scene have random weird colors.
+   Don't go too far off a slight tinge of blue or yellow or shades of white,
+   or your material may show blue in the *Material* context but render green, and you will be very confused.
+#. Look at your environment settings *World* context: *Horizon*, *Zenith*, and *Environment Lighting*.
