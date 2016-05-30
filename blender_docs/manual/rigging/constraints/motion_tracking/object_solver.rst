@@ -3,9 +3,11 @@
 Object Solver Constraint
 ************************
 
-The *Object Solver* constraint gives the owner of this constraint, the location and rotation of the "solved object motion".
+The *Object Solver* constraint gives the owner of this constraint,
+the location and rotation of the "solved object motion".
 
-The "solved object motion" is where Blender thinks the physical, real world (tracked)object was, relative to the camera that filmed it.
+The "solved object motion" is where Blender thinks the physical,
+real world (tracked) object was, relative to the camera that filmed it.
 
 Can be used to add a mesh to video for example.
 
@@ -15,11 +17,11 @@ Can be used to add a mesh to video for example.
    :doc:`Solve object Motion </editors/movie_clip_editor/tracking/clip/tools>`.
    Located at:
 
-   - Movie Clip Editor:`(t)Tool Shelf --> Solve --> Solve Camera Motion`
+   - Movie Clip Editor: (t)Tool Shelf --> Solve --> Solve Camera Motion
 
      If it says *Solve Camera Motion* instead of *Solve Object Motion* then go into the
 
-   - Movie Clip Editor :menuselection:`Properties Shelf --> Objects` and switch it from the camera, to an object.`
+   - Movie Clip Editor :menuselection:`Properties Shelf --> Objects` and switch it from the camera, to an object.
 
 
 Options
@@ -32,7 +34,8 @@ Options
 
 
 Active Clip
-   Recieve tracking data from the active movie clip in the movie clip editor. If unchecked, an option appears to choose from the other clips.
+   Recieve tracking data from the active movie clip in the movie clip editor.
+   If unchecked, an option appears to choose from the other clips.
 Object
    Select a tracked object to recieve transform data from.
 Camera
@@ -40,7 +43,8 @@ Camera
 Set Inverse
    Moves the origin of the object to the origin of the camera
 Clear Inverse 
-   Moves the origin of the object back to the spot set in the - Movie Clip Editor:(t)tool shelf-->Solve-->Orientation-->Set Origin
+   Moves the origin of the object back to the spot set in the -
+   Movie Clip Editor:(t)tool shelf-->Solve-->Orientation-->Set Origin.
 Constraint to F-Curve
    Applies the constraint, creating keyframes for the transforms.
 Influence
