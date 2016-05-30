@@ -42,11 +42,11 @@ Running from the terminal
 To run Blender from the terminal without needing to be in the executable directory,
 add the extracted folder to the environment ``PATH``.
 
-Add the following command to ``~/.bash_rc`` or ``~/.bash_profile`` with Blender's binary:
+Add the following command to ``~/.bashrc`` or ``~/.profile`` pointing to the directory with Blender's binary:
 
 .. code:: bash
 
-   export PATH=/path/to/blender-VERSION-linux-glibcVERSION-ARCH:$PATH
+   export PATH=/path/to/blender/directory:$PATH
 
 
 .. tip::
