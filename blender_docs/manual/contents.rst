@@ -56,7 +56,7 @@ Sections
             :target: editors/index.html
 
          :doc:`/editors/index`
-            Overview over the editor describing the interface and functionality of each one.
+            Overview of the editors describing the interface and functionality of each one.
 
       .. container:: descr
 
@@ -64,7 +64,7 @@ Sections
             :target: data_system/index.html
 
          :doc:`/data_system/index`
-            Blenders data management of scene data and the structure of .blend files.
+            Blender's data management of scene data and the structure of blend-files.
   
       .. container:: descr
   
@@ -72,7 +72,7 @@ Sections
             :target: modeling/index.html
 
          :doc:`/modeling/index`
-            The various supported geometry types and geometry modifiers.
+            The various supported geometry types, modeling tools, and modifiers.
 
       .. container:: descr
 
@@ -88,7 +88,7 @@ Sections
             :target: rigging/index.html
 
          :doc:`/rigging/index`
-            The armature modifier, pose mode and constraints.
+            Overview of armatures, pose mode and constraints.
 
       .. container:: descr
   
@@ -96,7 +96,7 @@ Sections
             :target: animation/index.html
 
          :doc:`/animation/index`
-            Keyframe animation, graph interpolation, drivers and shape keys.
+            Keyframe animation, graph interpolation, drivers, and shape keys.
 
       .. container:: descr
 
@@ -112,7 +112,7 @@ Sections
             :target: render/index.html
   
          :doc:`/render/index`
-            Render engines (Internal, Cycles, OpenGL), shading, postprocessing and Freestyle (NPR).
+            Render engines (Internal, Cycles, OpenGL), shading, post-processing, and Freestyle (NPR).
 
       .. container:: descr
   
@@ -120,7 +120,7 @@ Sections
             :target: compositing/index.html
 
          :doc:`/compositing/index`
-            Postprocessing with the Compositor.
+            Post-processing with the Compositor.
 
       .. container:: descr
 
@@ -128,7 +128,7 @@ Sections
             :target: game_engine/index.html
   
          :doc:`/game_engine/index`
-            Game scripting, physics and optimization.
+            Blender's Game engine, including scripting, logic and physics.
 
       .. container:: descr
   
@@ -136,7 +136,7 @@ Sections
             :target: preferences/index.html
 
          :doc:`/preferences/index`
-            Blender settings.
+            Blender's settings.
 
       .. container:: descr
 
@@ -157,12 +157,12 @@ Sections
       .. container:: descr
 
          :doc:`Glossary </glossary/index>`
-            A lists of terms and definitions used in Blender and this manual.
+            A list of terms and definitions used in Blender and this manual.
 
       .. container:: descr
 
          :ref:`Manual Index <genindex>`
-            A lists of terms linked to the Glossary.
+            A list of terms linked to the Glossary.
 
 
 .. only:: latex and epub
