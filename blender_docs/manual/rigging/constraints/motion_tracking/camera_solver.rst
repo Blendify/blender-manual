@@ -13,9 +13,7 @@ when it filmed the video footage, relative to the thing being tracked.
 
    This constraint only works after you have set up a minimum of eight markers and pressed
    :doc:`Solve Camera Motion </editors/movie_clip_editor/tracking/clip/tools>`.
-
-
-Movie Clip Editor: :menuselection:`Tool Shelf --> Solve --> Solve Camera Motion`
+   (:menuselection:`Movie Clip Editor --> Tool Shelf --> Solve --> Solve Camera Motion`)
 
 
 Options
