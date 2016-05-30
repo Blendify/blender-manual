@@ -1,4 +1,3 @@
-..    TODO/Review: {{review|copy=X}}.
 
 *******
 Markers
@@ -7,31 +6,25 @@ Markers
 Markers are used to denote frames at which something significant happens - it could be that a
 character's animation starts, the camera changes position, or a door opens, for example.
 Markers can be given names to make them more meaningful at a quick glance.
-They are available in many of Blender's windows, under different forms. Unlike the keyframes,
-markers are always placed at a whole frame number, you cannot e.g.
-set a marker at frame 2\ **.**\5.
-
-Markers can be created and edited in all of the following editors
-(including their different modes):
-
-- The :doc:`Graph Editor Window </editors/graph_editor/introduction>`.
-- The :doc:`Action Editor window </animation/actions>`.
-- The :doc:`The Dope Sheet </editors/dope_sheet/introduction>`.
-- The :doc:`NLA Editor window </editors/nla>`.
-- The :doc:`Video Sequence Editor window </editors/sequencer/index>`.
-- The :doc:`Timeline window </editors/timeline>`.When you create
+They are available in many of Blender's editors.
 
 .. note::
 
-   A marker created in one of these windows will also appear in all others that support them
+   Unlike the keyframes, markers are always placed at a whole frame number, you cannot set a marker at frame 2.5.
 
 
-Pose markers
-============
+Markers can be created and edited in all of the following editors:
 
-There is another type of markers, called "pose markers",
-which are specific to the armatures and the Action Editor window.
-They are related to the pose libraries, and are discussed in detail :doc:`here </rigging/posing/pose_library>`.
+- The :doc:`Graph Editor </editors/graph_editor/introduction>`.
+- The :doc:`Action Editor </animation/actions>`.
+- The :doc:`The Dope Sheet </editors/dope_sheet/introduction>`.
+- The :doc:`NLA Editor </editors/nla>`.
+- The :doc:`Video Sequence Editor </editors/sequencer/index>`.
+- The :doc:`The Timeline </editors/timeline>`.
+
+.. note::
+
+   A marker created in one of these editors will also appear in all others that support them.
 
 
 Visualization
@@ -45,11 +38,10 @@ Standard
    Markers: small but useful.
 
 
-Most of the window types visualize markers the same way: as small triangles at their bottom,
+Most of the editors visualize markers the same way: as small triangles at their bottom,
 white if unselected or yellow if selected.
 
-If they have a name, this is shown to their right, in white when the marker is selected. See
-(Markers: small but useful).
+If they have a name, this is shown to their right, in white when the marker is selected.
 
 
 Sequencer
@@ -96,7 +88,7 @@ Creating Markers
 The simplest way to add a marker is to move to the frame where you would like it to appear,
 and press :kbd:`M`.
 
-Alternatively, you can press :kbd:`Alt-A` (or the "playback" button of the *Timeline* editor)
+Alternatively, you can press :kbd:`Alt-A` (or the "playback" button of the Timeline)
 to make the animation play, and then press :kbd:`M` at the appropriate points.
 This can be especially useful to mark the beats in some music.
 
@@ -111,17 +103,15 @@ Selecting Markers
    | Hotkey:   :kbd:`RMB`
 
 
-Click :kbd:`RMB` on the marker's triangle to select it. Use :kbd:`Shift-RMB` to
-(de)select multiple markers.
+Click :kbd:`RMB` on the marker's triangle to select it.
+Use :kbd:`Shift-RMB` to select multiple markers.
 
-In the Ipo Curve Editor, Action Editor, NLA Editor, and Video Sequence Editor windows,
-you can also (de)select all markers with :kbd:`Ctrl-A`,
-and border-select them with :kbd:`Ctrl-B` (as usual, :kbd:`LMB` to select,
-:kbd:`RMB` to deselect).
-The corresponding options are found in the Select menu of these windows.
+In the Graph Editor, Dope Sheet, NLA Editor, and Video Sequence Editor,
+you can also select all markers with :kbd:`Ctrl-A`, and border-select them with :kbd:`Ctrl-B`
+(as usual, :kbd:`LMB` to select, :kbd:`RMB` to deselect).
+The corresponding options are found in the Select menu of these editors.
 
-In the Timeline and Audio windows, you can (de)select all markers with :kbd:`A` ,
-and border (de)select them with :kbd:`B` ...
+In the Timeline, you can select all markers with :kbd:`A`, and border select with :kbd:`B`.
 
 
 Naming Markers
@@ -148,11 +138,10 @@ Moving Markers
 
    | Mode:     all modes
    | Menu:     :menuselection:`Marker --> Grab/Move Marker`
-   | Hotkey:   :kbd:`Ctrl-G` or :kbd:`G` in the Timeline Editor or sound strip
+   | Hotkey:   :kbd:`Ctrl-G`
 
 
-Once you have one or more markers selected, press :kbd:`Ctrl-G`
-(or :kbd:`G` in Timeline or Audio windows)
+Once you have one or more markers selected, press :kbd:`G`
 to move them, and confirm the move with :kbd:`LMB` or :kbd:`Return`
 (as usual, cancel the move with :kbd:`RMB`, or :kbd:`Esc`).
 
@@ -168,17 +157,17 @@ Duplicating Markers
 
    | Mode:     all modes
    | Menu:     :menuselection:`Marker --> Duplicate Marker`
-   | Hotkey:   :kbd:`Ctrl-Shift-D` or :kbd:`Shift-D` in the Timeline Editor or sound strip
+   | Hotkey:   :kbd:`Shift-D`
 
 
-You can duplicate the selected markers by pressing :kbd:`Ctrl-Shift-D`
-(or :kbd:`Shift-D` in a Timeline or Audio window). Once duplicated,
-the new ones are automatically placed in grab mode, so you can move them where
-(or rather when) you want.
+You can duplicate the selected markers by pressing :kbd:`Shift-D`. Once duplicated,
+the new ones are automatically placed in grab mode, so you can move them to the desired location.
 
-Note that unlike most other duplications in Blender,
-the names of the duplicated markers are not altered at all
-(no ``.001`` numeric counter append...).
+.. note::
+
+   Note that unlike most other duplications in Blender,
+   the names of the duplicated markers are not altered at all
+   (no ``.001`` numeric counter append).
 
 
 Deleting Markers
@@ -188,10 +177,15 @@ Deleting Markers
    :class: refbox
 
    | Mode:     all modes
-   | Menu:    :menuselection:`Marker --> Delete Marker`
-   | Hotkey:   :kbd:`Shift-X` or :kbd:`X` in the Timeline Editor or sound strip
+   | Menu:     :menuselection:`Marker --> Delete Marker`
+   | Hotkey:   :kbd:`X`
 
 
-To delete the selected marker(s) simply press :kbd:`Shift-X`
-(or :kbd:`X` in a Timeline or Audio'' window),
+To delete the selected markers simply press :kbd:`X`,
 and confirm the pop-up message with :kbd:`LMB`.
+
+
+.. seealso::
+
+   There is another type of markers, called "pose markers", which are specific to armatures.
+   They are related to the pose libraries, and are discussed in detail :doc:`here </rigging/posing/pose_library>`.
