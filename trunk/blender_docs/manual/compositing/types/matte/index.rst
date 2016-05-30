@@ -1,7 +1,7 @@
 .. _composite_nodes_matte-index:
 
-..    TODO/Review: {{review|text=needs verification that it's up to date with 2.6|
-                     fixes=[[User:bob_holcomb/Doc:2.6/Manual/Composite Nodes/Types/Matte|X]]}} .
+..    TODO/Review: {{review|text=needs verification that it is up to date with 2.6|
+      fixes=[[User:bob_holcomb/Doc:2.6/Manual/Composite Nodes/Types/Matte|X]]}}.
 
 ##############
   Matte Nodes
@@ -15,7 +15,7 @@ In general, hook up these nodes to a viewer, set your UV/Image Editor to show th
 and play with the sliders in real-time using a sample image from the footage,
 to get the settings right. In some cases,
 small adjustments can eliminate artifacts or foreground image degradation. For example,
-taking out too much green can result in foreground actors looking 'flat' or blueish/purplish.
+taking out too much green can result in foreground actors looking flat or blueish/purplish.
 
 You can and should chain these nodes together,
 refining your color correction in successive refinements,

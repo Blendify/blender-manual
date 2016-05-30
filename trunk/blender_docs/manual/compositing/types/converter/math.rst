@@ -114,7 +114,7 @@ Theory
 `Two Approaches to Quantizing to 6 values
 <https://wiki.blender.org/index.php/File:Manual-Compositing-Node-Math_ColorBand>`__
 
-To accomplish this quantization of an image to 256 possible values, let's use the set {6, 6, 7}.
+To accomplish this quantization of an image to 256 possible values, let us use the set {6, 6, 7}.
 To split up a continuous range of values between 0 and 1 (the full Red spectrum)
 into 6 values, we need to construct an algorithm or function that takes any input value but
 only puts out 6 possible values, as illustrated by the image to the right.
@@ -154,7 +154,7 @@ you get the function
 f(*x*, *n*) = round(*x* × *n* - 0.5)/ (*n* - 1)
 
 where n is the number of possible output values, and *x* is the input pixel color and f(*x*, *n*)
-is the output value. There's only one slight problem,
+is the output value. There is only one slight problem,
 and that is for the value exactly equal to 1, the formula result is 1.2,
 which is an invalid value. This is because the round function is actually a roundup function,
 and exactly 5.5 is rounded up to 6. So, by subtracting 0.501, we compensate and thus 5.

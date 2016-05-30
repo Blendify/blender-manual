@@ -20,7 +20,7 @@ iris diaphragm. Angle gives these blades an angular offset relative to the image
 of the blades with  (0 to 1) from straight to bringing them to a perfect circle.
 
 Catadioptric provides a type of distortion found in mirror lenses and some telescopes.
-This can be useful to produce a 'busy' bokeh.
+This can be useful to produce a busy bokeh.
 
 Lens Shift introduces chromatic aberration into the blur such as would be caused by a tilt-shift lens.
 

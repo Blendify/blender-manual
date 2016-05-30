@@ -32,7 +32,7 @@ Examples
 ========
 
 In the example below,
-we have overlaid a grid pattern on top of the two 'Emo' heads after they have been rendered.
+we have overlaid a grid pattern on top of the two "Emo" heads after they have been rendered.
 During rendering, we enabled the UV layer in the RenderLayer tab (Buttons window,
 Render Context, RenderLayer tab). Using a mix node,
 we mix that new UV Texture over the original face.

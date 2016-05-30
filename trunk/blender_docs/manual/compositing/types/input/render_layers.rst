@@ -53,7 +53,7 @@ another and letting a background image "show through" the image in front of it.
 
 In a Blender scene, your objects are floating out there in virtual space.
 While some objects are in front of one another (Z depth), there is no ultimate background.
-Your world settings can give you the illusion of a horizon, but it's just that: an illusion.
+Your world settings can give you the illusion of a horizon, but it is just that: an illusion.
 Further, some objects are semi-transparent; this is called having an Alpha value.
 A semi-transparent object allows light (and any background image)
 to pass through it to the camera. When you render an image, Blender puts out,
