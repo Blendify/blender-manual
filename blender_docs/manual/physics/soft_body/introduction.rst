@@ -117,7 +117,7 @@ Diagnostics
 Print Performance to Console
    Prints on the console how the solver is doing.
 Estimate Matrix
-   Estimate matrix. Split to COM , ROT ,SCALE
+   Estimate matrix. Split to ``COM``, ``ROT``, ``SCALE``
 
 
 Cache and Bake

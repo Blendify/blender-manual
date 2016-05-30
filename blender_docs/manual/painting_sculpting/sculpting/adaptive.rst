@@ -6,7 +6,7 @@ Adaptive Sculpting
 Dynamic Topology
 ================
 
-Dynamic topology (AKA dyntopo) is a dynamic tessellation sculpting method, adds and 
+Dynamic topology (aka dyntopo) is a dynamic tessellation sculpting method, adds and 
 removes details on the fly. Dyntopo is quick, just get a brush and start to sculpt.
 Dyntopo will add details base upon your brush size, detail type and strength.
 

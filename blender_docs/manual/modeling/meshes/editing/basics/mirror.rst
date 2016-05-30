@@ -46,7 +46,7 @@ example the *Topology Mirror* option will often not work.
 For an example of how to use *Topology Mirror* open up a new Blender scene,
 then delete Blender's default cube and add a Monkey Object to the 3D Viewport.
 
-Press the TAB Key to put the Monkey Object into *Edit Mode*.
+Press the kbd:`tab` Key to put the Monkey Object into *Edit Mode*.
 
 With the *X Mirror* option disabled move one of the Monkey Object's vertices slightly.
 

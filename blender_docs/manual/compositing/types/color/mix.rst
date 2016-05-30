@@ -167,4 +167,4 @@ Experiment with different compression settings and marks to see which works best
 having the encoding map in one scene, and the decoding map in another.
 Use them while changing Blender's image format settings,
 reloading the watermarked image after saving, to get an acceptable result.
-In the example above, the mark was clearly visible all the way up to JPEG compression of 50%.
+In the example above, the mark was clearly visible all the way up to ``JPEG`` compression of 50%.

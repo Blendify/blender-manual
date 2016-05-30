@@ -24,7 +24,7 @@ incident light angle (with regard to the surface's normal), which makes the view
    phenomenon discussed here is not the reflection we would see in a mirror,
    but rather the light highlights we would see on a glossy surface.
    To obtain true mirror-like reflections you would need to use the internal raytracer.
-   Please refer to section :doc:`RENDERING </render/index>` of this manual.
+   Please refer to section :doc:`rendering </render/index>` of this manual.
 
 
 Common Options

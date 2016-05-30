@@ -12,7 +12,7 @@ Bend
 
 .. figure:: /images/modeling_meshes_editing_deforming_bend.jpg
 
-   Bend Transform with Clamp ON and OFF.
+   Bend Transform with Clamp on and off.
 
 This tool rotates a line of selected elements forming an arc between the mouse-cursor and the 3D-cursor.
 
@@ -41,9 +41,9 @@ Radius
 Clamp
    Normally the arc turns through a clamped rotation angle with the selected elements extended along a
    tangent line beyond that (see above left).
-   When the clamp is OFF, the arc continues around aligning the selected elements into a circle (right).
+   When the clamp is deactivated, the arc continues around aligning the selected elements into a circle (right).
 
-   When OFF :kbd:`Alt` all selected elements follow a circle,
+   When off :kbd:`Alt` all selected elements follow a circle,
    even when outside the segment between the 3d cursor and the mouse.
 
 .. note::

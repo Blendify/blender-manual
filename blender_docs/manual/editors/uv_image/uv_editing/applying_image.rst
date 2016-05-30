@@ -21,7 +21,7 @@ Exporting UV Layout Image
 As a way of communicating to an artist who is painting your UV Texture for you,
 Blender has a tool called *Save UV Face Layout*
 (located in the UV/Image Editor Window, :menuselection:`UVs --> Save UV Face Layout`)
-that saves an image as a Targa (.tga), EPS, or an SVG format for the object you have selected.
+that saves an image as a ``Targa`` (``.tga``), ``EPS``, or an ``SVG`` format for the object you have selected.
 
 The image is an outline of the UV face mapping.
 Activating the tool brings up the File Browser Window with options for saving the layout:
@@ -37,7 +37,7 @@ All UVs
 Modified
    Export UVs from the modified mesh.
 Format
-   Select the type of image file to save (.png, .eps, .svg)
+   Select the type of image file to save (``.png``, ``.eps``, ``.svg``)
 Size
    select the size of the image in pixels. The image be square.
 Fill Opacity
@@ -136,7 +136,7 @@ Face Textures
 
 An alternate way is to set up a Face Textures Material as shown. To do so,
 with the buttons window displayed, press :kbd:`F5` to display the Shader Buttons.
-In the Buttons window, Material settings, click *ADD NEW* material.
+In the Buttons window, Material settings, click *Add New* material.
 
 On the Options panel, enable *Face Textures*. This way is quick,
 but bypasses the normal rendering system for fast results,
@@ -169,7 +169,7 @@ Replacing the active Image
 Recall that each face gets coordinates and a link to an image.
 To map a face to a different image, simply select that face (or faces) and use the UV/Image
 Editor window Image}} menu to *Replace* the current image with an existing file
-(such as a JPG or PNG file).
+(such as a ``JPG`` or ``PNG`` file).
 
 
 New Images
@@ -213,7 +213,7 @@ Using the Test Grid
 
 Use the UV Test Grid option to check for undue stretching or distortion of faces. If your
 image is a base uniform pattern and you want the application of that image to your model to
-look like cloth, you do NOT want any stretching (unless you want the cloth to look like spandex).
+look like cloth, you do **not** want any stretching (unless you want the cloth to look like spandex).
 
 .. list-table::
 
@@ -330,7 +330,7 @@ replace the image with an image that they create.
 Texture paint and external software can be used to add or enhance the image.
 Regardless of which method you use, ultimately you must either
 
-- save your texture in a separate image file (for example JPG for colors, PNG with RGBA for alpha),
+- save your texture in a separate image file (for example ``JPG`` for colors, ``PNG`` with RGBA for alpha),
 - pack the image inside the blend-file (UV/Image Editor :menuselection:`Image --> Pack as PNG`),
 - or do both.
 

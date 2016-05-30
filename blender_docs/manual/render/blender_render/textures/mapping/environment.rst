@@ -165,7 +165,6 @@ Filter
          Maximum number of samples (higher gives less blur at distant/oblique angles, but is also slower)
 
    Area
-
       Eccentricity
          Maximum eccentricity (higher gives less blur at distant/oblique angles, but is also slower)
 

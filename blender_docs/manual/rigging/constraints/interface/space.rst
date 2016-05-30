@@ -31,7 +31,7 @@ or the space of the owner.
 
 Some constraints don't use Target or Owner space, so there won't be a drop-down box.
 Some constraints use only Target or only Owner space, so there will only be one drop-down box.
-Some constraints (like the Copy Location constraint above) use both Target AND Owner space,
+Some constraints (like the Copy Location constraint above) use both Target **and** Owner space,
 so there will be two drop-down boxes.
 
 When a constraint uses both Target and Owner space,
@@ -52,7 +52,7 @@ Local Space
    Location is relative to the parent object origin.
    Rotation and Scale are oriented to the parent object axes.
    Only transformations to the object istelf are taken into account. Transformations to the object's parent and
-   any other constraints higher up in the constraint stack are NOT taken into account.
+   any other constraints higher up in the constraint stack are **not** taken into account.
 
 Local With Parent (bones only)
    The bone properties are evaluated in its own local space,

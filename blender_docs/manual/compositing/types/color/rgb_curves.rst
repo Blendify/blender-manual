@@ -38,7 +38,7 @@ White Level
 The levels work exactly like the ones in the image viewer.
 Input colors are scaled linearly to match black/white levels.
 
-To define the levels, either use LMB on the color patch to bring up the color selection widget
+To define the levels, either use :kbd:`LMB` on the color patch to bring up the color selection widget
 or connect some RGBA input to the sockets.
 
 To only affect the value/contrast (not hue) of the output, set the levels to shades of gray.

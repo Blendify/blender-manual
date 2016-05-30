@@ -23,8 +23,11 @@ To return to normal size,
 use again :menuselection:`View --> Toggle Full Screen`.
 A quicker way to achieve this is to use :kbd:`Shift-Spacebar`,
 :kbd:`Ctrl-Down` or :kbd:`Ctrl-Up` to toggle between maximized and areas.
-NOTE: The window your mouse is currently hovering over is the one that will be maximized using
-the keyboard shortcuts.
+
+..note::
+
+   The window your mouse is currently hovering over is the one that will be maximized using
+   the keyboard shortcuts.
 
 
 Splitting an Area

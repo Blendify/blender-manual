@@ -30,8 +30,8 @@ with the introduction of line style modifiers, the sky is the limit!
 .. figure:: /images/render-freestyle-Demo-BluePrint.jpg
    :width: 600px
 
-   Blueprint render of Martin M-130 from 1935 by LightBWK. CC0. WARNING:
-   HEAVY FILE! DESIGNED FOR STRESS TEST BLENDER TO THE LIMITS & MAY CRASH BLENDER.
+   Blueprint render of Martin M-130 from 1935 by LightBWK. CC0. Warning:
+   heavy file! designed for stress test Blender to the limits and may crash Blender.
    (`File:M-130Blueprint.zip <https://wiki.blender.org/index.php/File:M-130Blueprint.zip>`__)
 
 
