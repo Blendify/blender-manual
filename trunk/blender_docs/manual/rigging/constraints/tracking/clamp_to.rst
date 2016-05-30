@@ -1,4 +1,3 @@
-
 ..    TODO/Review: {{review|im=examples}}.
 
 *******************
@@ -24,9 +23,9 @@ so in cases like this it's usually a lot handier to fire up a *Clamp To*,
 and get the bits of rotation you do need some other way.
 
 The mapping from the object's original position to its position on the curve is not perfect,
-but uses the following simplified algorithm (note,
-I am not the original code author so this may not be 100% accurate):
+but uses the following simplified algorithm:
 
+.. Note, this may not be 100% accurate
 
 - A "main axis" is chosen, either by the user, or as the longest axis of the curve's bounding box (the default).
 - The position of the object is compared to the bounding box of the curve in the direction of the main axis.
@@ -39,7 +38,7 @@ This algorithm does not produce exactly the desired result because curve time do
 exactly to the main axis position. For example an object directly in the centre of a curve
 will be clamped to a curve time of 0.5 regardless of the shape of the curve,
 because it is halfway along the curve's bounding box.
-However the 0.5 curve time position can actually be anywhere within the bounding box!
+However, the 0.5 curve time position can actually be anywhere within the bounding box!
 
 
 Options

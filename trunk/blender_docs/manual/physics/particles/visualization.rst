@@ -317,7 +317,7 @@ Billboard Normal UV
    Coordinates are the same for every billboard, and just place the image straight on the square.
 Billboard Time-Index (X-Y)
    Coordinates actually define single points in the texture plane with the x-axis as time and y-axis as the particle
-   index. For example using a horizontal blend texture mapped to color from white to black will give us particles
+   index. For example using a horizontal blend texture mapped to color from white to black will give particles
    that start off as white and gradually change to black during their lifetime. On the other hand a vertical blend
    texture mapped to color from white to black will make the first particle to be white and the last particle to be
    black with the particles in between a shade of gray.

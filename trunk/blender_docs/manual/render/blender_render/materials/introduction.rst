@@ -49,7 +49,7 @@ backwards through that point on the viewing plane and the focal point
 (the location of the camera) until it hits a renderable surface in the scene,
 at which point we can determine what light would strike that point.
 
-The surface properties and incident light angle tell us how much of that light would be
+The surface properties and incident light angle tells how much of that light would be
 reflected back along the incident viewing angle *(Rendering engine basic principle)*.
 
 

@@ -10,7 +10,7 @@ As with other types of textures, this information can be used in a number of way
 not only as a simple "decal".
 
 When the Texture Type *Image or Movie* is selected, three new panels present
-themselves allowing us to control most aspects of how image textures are applied:
+themselves allowing to control most aspects of how image textures are applied:
 *Image*, *Image Sampling*, and *Image Mapping*.
 
 
@@ -304,7 +304,6 @@ The finger is mapped to the middle vertical band of faces,
 and VCol and Face Textures are enabled.
 The texture is mapped to Alpha black and multiplies the base material alpha value which is 1.0.
 Thus, white areas of the texture are 1.0, and 1.0 times 1.0 is 1.0
-(last time I checked, at least),
 so that area is opaque and shows. Black areas of the procedural texture, 0.0,
 multiply the base material to be transparent. As you can see, the unmapped faces
 (left and right sides of the ball) show the vertex paint (none, which is gray)

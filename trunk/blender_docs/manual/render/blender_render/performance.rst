@@ -1,5 +1,4 @@
-..
-   This page includes some overly detailed & spesific infomration should be simplified.
+.. This page includes some overly detailed & spesific infomration should be simplified.
    - ideasman42
 
 
@@ -23,6 +22,7 @@ tried to get more physical memory for Blender but came back empty-handed.
 This means that you do not have enough memory available to render the scene,
 and Blender cannot continue.
 You will need to do one or more of the following tasks on this page in order to render.
+
 
 Hardware Improvements
 =====================
@@ -177,34 +177,30 @@ For instance:
 - Tricky lighting situations can be avoided by handling the objects separately,
   then combining the individually-rendered clips and "tweaking" the result.
 
-This is a very familiar idea. Modern sound recordings, for example,
-always use a "multi-track" approach.
-Individual components of the song are captured separately and in isolation,
-then the components are "mixed" together.
+This is a very familiar idea. Modern sound recordings, for example, always use a "multi-track" approach.
+Individual components of the song are captured separately and in isolation, then the components are "mixed" together.
 The "final mix" then goes through additional processing stages, called *mastering*,
 to produce the finished product(s). (In fact, the features and design of modern
 sound-processing software are directly comparable to that of Blender's node-based compositor.)
 
 There are compelling advantages to this approach:
 
-- You have options. If something is "not quite right," you don't necessarily have to start over from scratch.
+- If something is "not quite right," you don't necessarily have to start over from scratch.
 - In practice, the deadline-killer is *re-* rendering, which ordinarily must be done (in its entirety)
   just because "'one little thing' about the shot is wrong." Compositing helps to avoid this, because (ideally...)
   only the specific parts that are found to be in error must be repeated. (Or, maybe,
   the error can be blocked out with a "garbage matte" and a corrected version can be inserted in its place.
-  No one will ever know!)
-- It's also possible that you find yourself saying, "okay, that's *almost* what I wanted, but now I'd like to *add*
+- Sometimes you might find that it is *almost* what you wanted, but now you would like to *add*
   this and maybe *take away* that." A compositing-based approach enables you to do just that, and furthermore,
   to do so *non-destructively.* In other words, having generated the "addition" (or the "mask")
-  as a separate channel of information, you can now fine-tune its influence in the overall "mix,
-  " or even change your mind and remove it altogether, all without permanently altering anything.
-- By and large, these stages work *two-* dimensionally, manipulating what is by that time "a raster bitmap with R, G,
-  B, Alpha *(transparency...)* and Z-Depth information," so they're consistently fast.
+  as a separate channel of information, you can now fine-tune its influence in the overall "mix",
+  or even change your mind and remove it altogether, all without permanently altering anything.
+- By and large, these stages work *two-* dimensionally, manipulating what is by that time "a raster bitmap with R,G,B,
+  Alpha and Z-Depth information," so they're consistently fast.
 - Since each discrete rendering task has been simplified, the computer can carry them out using much fewer resources.
-- The tasks can be distributed among several different computers ... even less-powerful ones
-- "After all, the scene doesn't actually have to be *physically perfect,* to be *convincing.* "
-  A compositing-based approach lets you take full advantage of this.
-  You can focus your attention (and Blender's)
+- The tasks can be distributed among several different computers.
+- "After all, the scene doesn't actually have to be *physically perfect,* to be *convincing*".
+  A compositing-based approach lets you take full advantage of this. You can focus your attention (and Blender's)
   upon those specific aspects of the scene which will actually make a noticeable difference.
   It is possible to save a considerable amount of time by consciously choosing to exclude
   less-important aspects which (although "technically correct") probably won't be noticed.
@@ -218,4 +214,3 @@ You need to have a very clear notion, *in advance*,
 of exactly what the finished shot must consist of and what the task breakdown must be.
 You must be a scrupulous note-taker and record-keeper. But sometimes this is the best way,
 if not the *only* way, to accomplish a substantial production.
-

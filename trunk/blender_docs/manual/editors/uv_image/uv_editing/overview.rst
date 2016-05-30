@@ -78,7 +78,7 @@ We 'fill in' spaces toward the poles, or change the outline of the map in any of
 
 Each of these is an example of a way to UV map a sphere.
 Each of the hundred or so commonly accepted projections has its advantages and disadvantages.
-Blender allows us to do the same thing any way we want to, on the computer.
+Blender allows the same thing anyway we want to, on the computer.
 
 On more complex models (like seen in the earth map above)
 there pops up an issue where the faces can't be 'cut',

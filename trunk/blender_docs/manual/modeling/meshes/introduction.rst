@@ -161,7 +161,7 @@ Normals Section:
 We can choose to show or not the normals of faces and/or vertices using the Face and Vertex tick boxes,
 under the Normals section. In addition, we can define the size of these with Normal Size.
 
-The Numerics section lets us see some numerical measures of the selected elements on screen:
+The *Numerics* section allows users to see some numerical measures of the selected elements on screen:
 
 Edge Length
    shows the lenghts, in Blender units, of the selected edges.

@@ -85,7 +85,7 @@ Note how a two-bone chain is fitted to a three-segment stroke.
           After conversion.
 
 
-OK now let us see some important ground rules:
+OK now, here are some important ground rules:
 
 
 - This conversion method can use as reference bones either the selected bones in the *currently* edited armature,
@@ -127,7 +127,7 @@ OK now let us see some important ground rules:
           With another armature as template.
 
 
-Now, let us see the settings of this conversion method:
+Now, here are the settings of this conversion method:
 
 No, View, Joint buttons
    These three toggle buttons (mutually exclusive) control how the roll angle of newly created bones is affected:
