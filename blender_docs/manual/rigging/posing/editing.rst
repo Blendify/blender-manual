@@ -1,5 +1,4 @@
-
-..    TODO/Review: {{review|im=update|text=inbetweens, pose menu tools}} .
+..    TODO/Review: {{review|im=update|text=inbetweens, pose menu tools}}.
 
 *************
 Editing Poses
@@ -303,13 +302,13 @@ all its descendants* will no longer be affected when you scale one of its ancest
 
 Connected bones have another specificity: they cannot be translated. Indeed,
 as their root must be at their parent's tip, if you don't move the parent,
-you cannot move the child's root, but only its tip - which leads us to a child rotation.
+you cannot move the child's root, but only its tip - which leads to a child rotation.
 This is exactly what happens - when you press :kbd:`G` with a connected bone selected,
 Blender automatically switches to rotation operation.
 
 Bones relationships also have important consequences on how selections of multiple bones
-behave when transformed. There are many different situations, so I'm not sure I list all
-possible ones below - but this should anyway give you a good idea of the problem:
+behave when transformed. There are many different situations which may not be included on this list,
+however, this should give a good idea of the problem:
 
 - Non-related selected bones are transformed independently, as usual.
 
@@ -332,7 +331,6 @@ possible ones below - but this should anyway give you a good idea of the problem
 - When a child connected hinge bone is in the selection,
   and the "most parent" selected one is connected, when you press :kbd:`G`,
   nothing happens - Blender remains in grab operation, which of course has no effect on a connected bone.
-  This might be a bug, in fact, as I see no reason for this behavior...
 
 So, when posing a chain of bones, you should always edit its elements from the root bone to the tip bone.
 This process is known as *forward kinematics* (FK).

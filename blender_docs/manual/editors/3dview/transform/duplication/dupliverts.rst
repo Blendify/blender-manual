@@ -16,7 +16,7 @@ an instance of the base object is placed on every vertex of the mesh.
 
 There are actually two approaches to modeling using *DupliVerts*.
 They can be used as an arranging tool,
-allowing us to model geometrical arrangements of objects (e.g. the columns of a Greek temple,
+allowing to model geometrical arrangements of objects (e.g. the columns of a Greek temple,
 the trees in a garden, an army of robot soldiers, the desks in a classroom).
 The object can be of any object type which Blender supports.
 The second approach is to use them to model an object starting from a single part of it (e.g.
@@ -47,7 +47,6 @@ and a pattern mesh with its vertices following the pattern you have in mind. In 
 we will use a simple scene for the following part. We'll be using a monkey head located at
 the origin of the coordinate system as our base object and a circle at the same location as
 our parent mesh.
-
 
 .. figure:: /images/Dupliverts-Example01-2dupliverted.jpg
 

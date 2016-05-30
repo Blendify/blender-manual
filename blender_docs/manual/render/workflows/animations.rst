@@ -89,8 +89,7 @@ Frame Sequence Workflow
 #. In the *Dimensions* panel, choose the render size, Pixel Aspect Ratio, and the Range of Frames to use,
    as well as the frame rate, which should already be set.
 #. In the Output panel set up your animation to be rendered out as images,
-   generally using a format that does not compromise any quality
-   (I prefer PNG or MultiLayer because of their loss-less nature).
+   generally using a format that does not compromise any quality.
 #. Choose the output path and file type in the Output panel as well, for example ``//render/my-anim-``.
 #. Confirm the range of your animation frame Start and End.
 #. Save your blend-file.

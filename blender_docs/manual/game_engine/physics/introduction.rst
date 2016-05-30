@@ -61,8 +61,9 @@ Physics Type
 
 Material Physics
 ================
-Physics can be associated with a material on the material properties tab. These are settings that one would normally
-associate with a material,
+
+Physics can be associated with a material on the material properties tab.
+These are settings that one would normally associate with a material,
 such has it's friction and they are meant to be used in conjunction with the object physics
 settings, not replace it.
 
@@ -182,9 +183,8 @@ But at that point, your mesh will lose its physics responsivenes, and only hang 
 To somewhat fix this you can then parent the Armature to a collision mesh
 (perhaps a simple box or otherwise very-low-poly mesh).
 This "Deformation Mesh" will be the physics representative, being type: Dynamic or Rigid Body,
-but it will be set to Invisible. Then "Display Mesh" will be the opposite set to type:
-No Collision, but visible.
-This still leaves us with the problem mentioned in the previous paragraph.
+but it will be set to Invisible. Then "Display Mesh" will be the opposite set to *No Collision*,
+but visible. This still leaves the problem mentioned in the previous paragraph.
 
 When you deform a display mesh, it does not update the corresponding physics mesh.
 You can view this evidently when you
@@ -202,8 +202,8 @@ and it will do the right thing.
 
 The more complicated case is the :menuselection:`Collision Mesh --> Armature --> Display Mesh` cluster,
 which you can see in the front of the scene.
-What it does in the .blend is call ``reinstancePhysicsMesh(viz)``, that is,
-passing in a reference to the visual mesh.
+What it does in the blend-file is call ``reinstancePhysicsMesh(viz)``,
+that is, passing in a reference to the visual mesh.
 If we tried to establish this relationship without the use of Python,
 we would find that Blender's dependency check system would reject it as a cyclic setup.
 This is an example of where Blender's checking is too coarsely-grained,

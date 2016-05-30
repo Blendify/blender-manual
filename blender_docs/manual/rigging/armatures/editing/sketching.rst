@@ -1,4 +1,3 @@
-
 ..    TODO/Review: {{review|im=some images need updated|text=retarget conversion method}}.
 
 ******************
@@ -212,15 +211,15 @@ something that the gesture system would never recognize!
 
    * - .. figure:: /images/RiggingSketchingCancelingGestureEx1.jpg
 
-          Damn! I didn't want to cut this stroke here!
+          A unwanted cut stroke.
 
      - .. figure:: /images/RiggingSketchingCancelingGestureEx2.jpg
 
-          Let's doodle a bit...
+          Some random drawing.
 
      - .. figure:: /images/RiggingSketchingCancelingGestureEx3.jpg
 
-          Phew! That was close, but the stroke is still in one piece.
+          The stroke is still in one piece.
 
 
 Cut

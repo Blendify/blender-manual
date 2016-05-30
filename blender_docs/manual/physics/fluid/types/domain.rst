@@ -1,4 +1,4 @@
-..    TODO/Review: {{review|text=todo: review the viscosity table commented text}} .
+..    TODO/Review: {{review|text=todo: review the viscosity table commented text}}.
 
 ************
 Fluid Domain
@@ -159,7 +159,7 @@ Viscosity
    Manual entries are specified by a floating point number and an exponent.
    These floating point and exponent entry fields (scientific notation)
    simplify entering very small or large numbers. The viscosity of water at room temperature is 1.002 cP,
-   ou 0.001002 Pa.s; the density of water is about 1000 kg.m\ :sup:`-3`\, which gives us a kinematic viscosity of
+   ou 0.001002 Pa.s; the density of water is about 1000 kg.m\ :sup:`-3`\, which gives a kinematic viscosity of
    0.000001002 m\ :sup:`2`\.s\ :sup:`-1` -- so the entry would be 1.002 times 10 to the minus six
    (1.002×10\ :sup:`-6` in scientific notation). Hot Glass and melting iron is a fluid, but very thick;
    you should enter something like 1.0×10\ :sup:`0` (= 1.0) as its kinematic viscosity

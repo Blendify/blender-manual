@@ -95,8 +95,8 @@ We do intend to add a system to support scenes bigger than GPU memory,
 but this will not be added soon.
 
 
-Can I use multiple GPUs for rendering?
---------------------------------------
+Can multiple GPUs be used for rendering?
+----------------------------------------
 
 Yes, go to :menuselection:`User Preferences --> System --> Compute Device Panel`, and configure it as you desire.
 

@@ -1,5 +1,4 @@
-
-..    TODO/Review: {{review|partial=X|im=update}} .
+..    TODO/Review: {{review|partial=X|im=update}}.
 
 ******************
 Skinning to Shapes
@@ -264,8 +263,8 @@ methods as available when doing an "old-parenting" to armature :kbd:`Ctrl-P`:
 
 - Select the bone (and hence the vertex group) you want.
 - Hit :kbd:`W`, and in the *Specials* menu that pops up,
-  choose either *Apply Bone Envelopes to Vertex Groups* or
-  *Apply Bone Heat Weights to Vertex Groups* (names are self explanatory, I think).
+  choose either *Apply Bone Envelopes to Vertex Groups*
+  or *Apply Bone Heat Weights to Vertex Groups*.
   Once again, even though these names are plural,
   you can only affect *one* vertex group's weights at a time with these options.
 

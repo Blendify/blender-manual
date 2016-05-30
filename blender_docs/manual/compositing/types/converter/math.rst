@@ -118,7 +118,7 @@ into 6 values, we need to construct an algorithm or function that takes any inpu
 only puts out 6 possible values, as illustrated by the image to the right.
 We want to include 0 as true black, with five other colors in between.
 The approach shown produces {0,.2,.4,.6,.8,1}. Dividing 1.0 by 5 equals .2,
-which tells us how far apart each quantified value is from the other.
+which tells how far apart each quantified value is from the other.
 
 So, to get good even shading,
 we want to take values that are 0.16 or less and map them to 0.0;
@@ -136,7 +136,7 @@ and so on up to values between 0.83 and 1.0 get mapped to 1.0.
 
 
 The theory behind this function is scaled truncation.
-Let us suppose we want a math function that takes in a range of values between 0 and 1,
+Suppose we want a math function that takes in a range of values between 0 and 1,
 such as .552, but only outputs a value of 0.0, 0.2, 0.4, etc. We can imagine then that we need
 to get that range 0 to 1 powered up to something 0 to 6 so that we can chop off and make it a
 whole number. So, with six divisions,

@@ -28,7 +28,7 @@ but would change your mesh topology drastically.
    Image 1b: Additional forces with Stiff Quads enabled.
 
 
-Luckily, Blender allows us to define additional *virtual* connections.
+Luckily, Blender allows to define additional *virtual* connections.
 On one hand we can define virtual connections between the diagonal edges of a quad face
 (*Stiff Quads* Fig. Image 1b), on the other hand we can define virtual connections
 between a vertex and any vertices connected to it's neighbors

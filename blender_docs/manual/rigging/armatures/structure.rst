@@ -56,9 +56,8 @@ their relationships have no effect on bone transformations in this mode
 Editing Bones Relationships
 ---------------------------
 
-This is detailed in the :ref:`editing pages <armature-bone_chain_edit>`,
-but let us have a quick look at this important feature.
-
+This is expressed in detail in the :ref:`editing pages <armature-bone_chain_edit>`,
+but here is a quick look at this important feature.
 
 .. figure:: /images/RiggingEditingBoneCxtRelationsPanel.jpg
    :width: 250px
@@ -66,8 +65,7 @@ but let us have a quick look at this important feature.
    The Armature Bones panel with two bones selected, and their Child of settings highlighted.
 
 
-The easiest way to manage bones relationships is to use the *Relations* panel
-*Bone* context:
+The easiest way to manage bones relationships is to use the *Relations* panel *Bone* context:
 
 - First, :doc:`select </rigging/armatures/bones/selecting>` the bones you want to edit
   (selection order does not matter here).

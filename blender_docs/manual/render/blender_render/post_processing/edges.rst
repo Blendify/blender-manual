@@ -1,10 +1,8 @@
+..    TODO/Review: {{review|copy=X}}.
 
-..    TODO/Review: {{review|copy=X}} .
-
-
-*********************
-Edge (Toon) Rendering
-*********************
+**************
+Edge Rendering
+**************
 
 .. figure:: /images/render_bi_toon1.jpg
    :width: 240px
@@ -52,12 +50,11 @@ Examples
 It is possible to separate out the edge layer using a render layer dedicated to that purpose.
 The alpha channel is 0 where there is no edge, and 1 where the edge is.
 By separating out the edge layer, you can blur it, change its color, mask it, etc.
-The image to the right shows how to do this.
-I created an Edge render layer that only has the Sky and Edge layers
-(I included sky so that we get the world color later on in the composite output).
+The image above shows how to do this.
+In this example, an Edge render layer is created that only has the Sky and Edge layers
 The other render layer omits the Edge layer, so it returns just the normal image.
-On the output panel I enabled Edge with a width of 10 in black.
-I run that layer through a blur node. Using the Alphaover node,
-I then composite the cube on top of the blurred edge.
+On the output panel *Edge* is enabled with a width of 10 in black.
+Then that layer goes through a blur node. Using the Alphaover node,
+then the cube is composited on top of the blurred edge.
 The result gives a soft-shadow kind of effect.
 Note that Premultiply is set because the Edge image already has an alpha of 1.0 set.
