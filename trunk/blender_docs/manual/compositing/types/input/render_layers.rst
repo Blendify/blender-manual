@@ -83,7 +83,7 @@ Optional Sockets
 ================
 
 For any of the optional sockets to appear on the node,
-you MUST have the corresponding pass enabled.
+you **must** have the corresponding pass enabled.
 In order for the output socket on the RenderLayer node to show,
 that pass must be enabled in the RenderLayer panel in the Buttons window. For example,
 in order to be able to have the Shadow socket show up on the RenderLayer input node,

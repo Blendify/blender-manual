@@ -69,14 +69,14 @@ you can modify the image using the Texture Paint mode:
 .. note:: Square Power of 2
 
    Texture paint is very fast and responsive when working in the 3D window and when your image is sized as a
-   square where the side lengths are a power of two, e.g. 256x256, 512x512, 1024x1024, etc.
+   square where the side lengths are a power of two, e.g. 256×256, 512×512, 1024×1024, etc.
 
 
 Once you enable Texture Painting, your mouse becomes a brush. To work with the UV layout
 (for example, to move coordinates) you must go back to "View" mode.
 
 As soon as you enable Texture Painting or switch to Texture Paint mode,
-brush settings become available in the Toolbar Panel (T-key).
+brush settings become available in the Toolbar Panel :kbd:`T`.
 
 In the UV/Image Editor window,
 you paint on a flat canvas that is wrapped around the mesh using UV coordinates.
@@ -287,7 +287,7 @@ Smooth stroke
 Input Samples
    Average multiple input samples together to smooth the brush stroke.
 Wrap
-   wraps your paint to the other side of the image as your brush moves off the OTHER side of the canvas
+   wraps your paint to the other side of the image as your brush moves off the **other** side of the canvas
    (any side, top/bottom, left/right). Very handy for making seamless textures.
 
 
@@ -333,7 +333,7 @@ option to save your work with a different name or overwrite the original image.
 
 The image format for saving is independent of the format for rendering.
 The format for saving a UV image is selected in the header of the Save Image window,
-and defaults to PNG (.png).
+and defaults to ``PNG`` (``.png``).
 
 If Packing is enabled in the window header, or if you manually :menuselection`Image-->Pack Image`,
 saving your images to a separate file is not necessary.
@@ -345,7 +345,7 @@ Using an External Image Editor
 If you use an external program to edit your UV Texture, you must:
 
 
-- run that paint program (GIMP, Photoshop, etc.)
+- run that paint program (GIMP, Photoshop®, etc.)
 - load the image or create a new one
 - change the image, and
 - re-save it within that program.

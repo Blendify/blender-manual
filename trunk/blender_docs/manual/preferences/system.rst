@@ -21,8 +21,10 @@ Virtual Pixel Mode
    Allows you to select global scaling. While the DPI only scales the interface,
    this will scale line width, vertex-size. This is intended for hi-dpi monitors.
 
-   :Native: The normal pixel size.
-   :Double: Double of the native pixel size.
+   Native
+      The normal pixel size.
+   Double
+      Double of the native pixel size.
 
    .. note::
 
@@ -44,16 +46,20 @@ Sound
 =====
 
 Audio Device
-
    Set the audio output device or no audio support:
 
-   :None: No Audio support (no audio output, audio strips can be loaded normally)
-   :SDL: Uses Simple Direct Media Layer API from `libsdl.org <https://www.libsdl.org>`__
+   None
+        No Audio support (no audio output, audio strips can be loaded normally)
+   SDL
+      Uses Simple Direct Media Layer API from `libsdl.org <https://www.libsdl.org>`__
       to render sounds directly to the sound device output. Very useful for sequencer strips editing.
-   :OpenAL: Provides buffered sound rendering with 3D/spatial support.
+   OpenAL
+      Provides buffered sound rendering with 3D/spatial support.
       Used for 3D source support by *Speaker Objects* and the *Game Engine*.
 
-*'Specific sound options'* (With *SDL* or *OpenAL* enabled)
+.. rubric:: Sound options
+
+Specific to *SDL* or *OpenAL* enabled
 
 Channels
    Set the audio channel count. Available options are: *Stereo*, *4 Channels* , *5.1 Surround* , *7.1 Surround*
@@ -141,9 +147,12 @@ GPU MipMap Generation
 Selection
    Selection method to use for selecting.
 
-   :Automatic: Automatically choses the best setting depending on your OS, GPU, and drivers.
-   :OpenGL Select: Legacy OpenGL selection method for legacy hardware.
-   :OpenGL Occlusion Queries: More optimized OpenGL selection method.
+   Automatic
+      Automatically choses the best setting depending on your OS, GPU, and drivers.
+   OpenGL Select
+      Legacy OpenGL selection method for legacy hardware.
+   OpenGL Occlusion Queries
+      More optimized OpenGL selection method.
       Use this method if you are using an `OpenSubdiv Compute`_ compute device.
 
 Anisotropic Filtering
@@ -219,9 +228,12 @@ Collection Rate
 Image Draw Method
    Method to draw images as the following options are supported:
    
-   :2D Texture: Uses CPU for display transform and draws images as a 2D texture.
-   :GLSL: Fastest method using GLSL for display transform and draws images as a 2D texture.
-   :Draw Pixels: Uses CPU for display transform and draws images as a 2D texture.
+   2D Texture
+      Uses CPU for display transform and draws images as a 2D texture.
+   GLSL
+      Fastest method using GLSL for display transform and draws images as a 2D texture.
+   Draw Pixels
+      Uses CPU for display transform and draws images as a 2D texture.
 
 
 Sequencer/Clip Editor

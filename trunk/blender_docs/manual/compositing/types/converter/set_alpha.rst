@@ -9,8 +9,8 @@ Set Alpha Node
 
    Set Alpha Node.
 
-This node adds an alpha channel to a picture. Some image formats, such as JPEG,
-do not support an alpha channel. In order to overlay a JPEG image on top of a background,
+This node adds an alpha channel to a picture. Some image formats, such as ``JPEG``,
+do not support an alpha channel. In order to overlay a ``JPEG`` image on top of a background,
 you must add an alpha channel to it using this node.
 
 The *Image* input socket is optional. If an input image is not supplied,
@@ -85,7 +85,7 @@ In the above example, a Time curve provides the Alpha value to the input socket.
 The current RenderLayer, which has the title in view, provides the image. As before,
 the trusty AlphaOver node mixes (using the alpha values)
 the background swirl and the alpha title to produce the composite image.
-Notice the *ConvertPre* -Multiply button is NOT enabled; this produces a composite
+Notice the *ConvertPre* -Multiply button is **not** enabled; this produces a composite
 where the title lets the background image show through where even the background image is
 transparent, allowing you to layer images on top of one another.
 

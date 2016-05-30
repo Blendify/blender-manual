@@ -15,9 +15,9 @@ Besides inputting the actual image, this node can also input *Alpha* and *Z-Dept
 if the image has them. If the image is a MultiLayer format,
 all saved render passes are input. Use this node to input:
 
-- A single image from a file (such as a JPG picture)
+- A single image from a file (such as a ``JPG`` picture)
 - Part or all of an animation sequence (such as the 30th to 60th frame)
-- Part or all of a movie clip (such as an AVI file)
+- Part or all of a movie clip (such as an ``AVI`` file)
 - the image that is currently in the UV/Image Editor (and possibly being painted)
 - an image that was loaded in the UV/Image Editor
 
@@ -48,13 +48,13 @@ default values are supplied (1.0 for A, 0.0 for Z).
 
 Alpha/Transparency Channel
   - If a transparency channel is detected, the *Alpha* output socket will supply it.
-  - If it does not have an Alpha channel (e.g. JPG images),
+  - If it does not have an Alpha channel (e.g. ``JPG`` images),
     Blender will supply one, setting the whole image to completely opaque
     (an Alpha of 1.00, which will show in a *Viewer*
     node as white - if connected to the *Image* input socket).
 Z/depth Channel
   - If a Z (depth) channel is detected, the *Z* output socket will supply it.
-  - If it does not have a Z channel (e.g. JPG or PNG images),
+  - If it does not have a Z channel (e.g. ``JPG`` or ``PNG`` images),
     Blender will supply one, setting the whole image to be at the camera (a depth of 0.00).
     To view the Z-depth channel, use the Map Value to ColorRamp noodle given above in the Render Layer input node
     (see :ref:`render_layers-z_socket_usage` ).
@@ -80,7 +80,7 @@ To create a MultiLayer image set when initially rendering, simply disable Do Com
 set your Format to MultiLayer,
 enable the Render Layer passes you wish to save over the desired frame range and Animate.
 Then, in Blender, enable Compositing Nodes and Do Composite,
-and use the Image input node to read in the EXR file. When you do, you will see each of the
+and use the Image input node to read in the ``EXR`` file. When you do, you will see each of the
 saved passes available as sockets for you to use in your compositing noodle.
 
 

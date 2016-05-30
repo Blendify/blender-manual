@@ -62,7 +62,7 @@ Changing the effect over time
 .. note:: Tinge
 
    This HSV node simply shifts hues that are already there.
-   To colorize a gray image, or to ADD color to an image,
+   To colorize a gray image, or to add a tint to an image,
    use a mix node to add in a static color from an RGB input node with your image.
 
 

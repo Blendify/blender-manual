@@ -26,7 +26,7 @@ Box select
    :kbd:`B` - Starts the bounding box selection process.
    Position your cursor and :kbd:`LMB` click & drag to select a set of nodes.
 Cut connections (lasso)
-   :kbd:`Ctrl-Alt-LMB` click & drag - Starts a lasso selection, BUT when you let up the mouse button,
+   :kbd:`Ctrl-Alt-LMB` click & drag - Starts a lasso selection, **but** when you let up the mouse button,
    all threads (connections) within the lasso are broken.
 Undo
    :kbd:`Ctrl-Z` 

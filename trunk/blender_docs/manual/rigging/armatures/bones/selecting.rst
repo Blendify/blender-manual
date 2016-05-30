@@ -58,7 +58,7 @@ To select bones' ends you have the standard selection methods.
      - :kbd:`Ctrl-I`
      - :menuselection:`Select --> Inverse`
      -
-   * - Box selection tool ON
+   * - Box selection tool activated
      - :kbd:`B`
      - :menuselection:`Select --> Border Select`
      -
@@ -69,7 +69,7 @@ To select bones' ends you have the standard selection methods.
        | press :kbd:`Esc` or click :kbd:`RMB` to cancel
      -
      -
-   * - Box selection tool OFF
+   * - Box selection tool deactivated
      - :kbd:`B` or :kbd:`Esc`
      -
      - :kbd:`RMB`

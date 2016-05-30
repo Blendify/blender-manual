@@ -23,7 +23,3 @@ Example
 =======
 
 .. figure:: /images/Compositing-Input-RGB.jpg
-
-In this example, our corporate color is teal, but the bozo who made the presentation forgot.
-So, we multiply his lame black and white image with our corporate color to save him from
-embarrassment in front of the boss when he gives his boring presentation.

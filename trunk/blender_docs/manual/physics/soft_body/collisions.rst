@@ -89,7 +89,7 @@ The two on the far right (5 and 6)
 are traveling so fast that they pass right through the collision zone
 (this is because of the default solver precision - which we can fix later). You will notice
 that the fourth vertex also travels quite fast and because it is heavier it breaches the inner
-zone. The first three vertices collide OK.
+zone. The first three vertices collide correctly.
 
 
 .. figure:: /images/softbodycollidingedges.png

@@ -189,7 +189,7 @@ Higher levels of subdivisions mean more vertices, and more vertices means more m
 Blender could potentially crash or hang if you do not have enough memory.
 
 When using high levels of subdivision with a graphics card that has a low total amount
-of Vram, some parts of the geometry will disappear visually. Your mesh will actually be OK,
+of Vram, some parts of the geometry will disappear visually. Your mesh will actually be intact,
 because the render is generated using your Object Data,
 (even though it cannot be shown by your graphics card).
 

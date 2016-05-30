@@ -8,7 +8,7 @@ Input nodes produce information from some source.
 For instance, an input could be:
 
 - Taken directly from the active camera in a selected scene,
-- from a JPG, PNG, etc. file as a static picture,
+- from a ``JPG``, ``PNG``, etc. file as a static picture,
 - a movie clip (such as an image sequence or video), or
 - just a color or value.
 

@@ -125,7 +125,7 @@ Render Settings
   - Turn off or lower oversampling/aliasing *OSA*.
   - Turn off or lower *Motion Blur*.
 
-  - Render in Parts. This will also allow you to render HUGE images on a weak PC.
+  - Render in Parts. This will also allow you to render **huge** images on a weak PC.
     On a multi-core PC, it will assign a thread to each part as well.
   - Increase the octree resolution.
   - Render at a percentage size of your final resolution (like 25%).
@@ -147,8 +147,8 @@ Render Settings
   - Render at a lower resolution. Smaller pictures take less time to render.
   - Choose a faster CODEC or CODEC settings.
   - Render in black and white (*BW* button).
-  - If using FFMPEG, do not activate *Multiplex audio*.
-  - If using FFMPEG, *Autosplit Output* (*Video* panel button).
+  - If using ``FFMPEG``, do not activate *Multiplex audio*.
+  - If using ``FFMPEG``, *Autosplit Output* (*Video* panel button).
 
   - Render only RGB if you just need color; the A channel (*RGBA* button)
     takes more memory and is unused when saving a movie file.

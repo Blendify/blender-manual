@@ -22,7 +22,7 @@ or use :kbd:`Tab` with a mesh object selected.
 
    Blender's mesh primitives.
 
-To select and add one of the primitives to work with press :KBD:`Shift-A` in Edit mode.
+To select and add one of the primitives to work with press :kbd:`Shift-A` in Edit mode.
 Blender automatically detects the appropriate context for the object type you are editing,
 and will show a list of compatible, combining elements. If you are editing Mesh types,
 Blender will show a list of primitive meshes to add to your object.

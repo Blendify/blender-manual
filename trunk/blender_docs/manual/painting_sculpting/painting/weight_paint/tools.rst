@@ -58,7 +58,7 @@ Lock Active
 
 .. note::
 
-   Currently this tool normalizes ALL vertex groups except the locked vertex groups.
+   Currently this tool normalizes **all** vertex groups except the locked vertex groups.
 
 
 Normalize

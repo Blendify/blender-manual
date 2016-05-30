@@ -20,7 +20,7 @@ Digital cameras gamma correct their photos, so you do the same thing. The gamma 
 indeed, 0.45, not 2.2.
 
 But reverse gamma correction on textures and colors have another very important consequence
-when you are using rendering techniques such as radiosity or GI.
+when you are using rendering techniques such as radiosity or global illumination (GI).
 When doing the GI calculations, all textures and colors are taken to mean reflectance.
 If you do not reverse gamma correct your textures and colors, then the GI render will look way
 too bright because the reflected colors are all way too high and thus a lot more light is
