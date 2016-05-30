@@ -3,7 +3,6 @@
 Writing Style Guide
 *******************
 
-
 Primary Goals
 =============
 
@@ -14,8 +13,8 @@ User Focused
    this manual shall be kept understandable by non-technical users.
 Complete
    So there is a canonical source of truth for each of Blender's key areas.
-   This doesn't mean we have to document every small detail,
-   but users shouldn't have to rely on searching elsewhere to find the purpose of key features.
+   This does not mean we have to document every small detail,
+   but users should not have to rely on searching elsewhere to find the purpose of key features.
 Concise
    Computer graphics is an incredibly interesting field,
    there are many rules, exceptions to the rules and interesting details.
@@ -23,7 +22,7 @@ Concise
    so keep the text concise and relevant to the topic at hand.
 Maintainable
    Keep in mind that Blender has frequent releases,
-   so try to write content that won't have to be redone
+   so try to write content that will not have to be redone
    the moment some small change is made.
    This also helps a small documentor community to maintain the manual.
 
@@ -49,20 +48,20 @@ To be avoided:
 - Avoid `weasel words <https://en.wikipedia.org/wiki/Weasel_word>`__ and being unnecessarily vague, eg:
 
   | *"Reloading the file will probably fix the problem"*
-  | *"Most people don't use this option because ..."*
+  | *"Most people do not use this option because ..."*
 - Avoid including specific details such as:
 
   | *Blender has 23 different kinds of modifiers.*
   | *Enabling previews adds 65536 bytes to the size of each Blend file
-    (unless it's compressed).*
+    (unless it is compressed).*
 
-  These details aren't useful for users to memorize and they become quickly outdated.
+  These details are not useful for users to memorize and they become quickly outdated.
 - Avoid documenting bugs.
 
-  Blender has often has 100's of bugs fixed between releases, so it's not realistic to reference
+  Blender has often has 100's of bugs fixed between releases, so it is not realistic to reference
   even a fraction of them from the manual, while keeping this list up to date.
 
-  Issues which are known to the developers and aren't going to be resolved before the next release
+  Issues which are known to the developers and aren not going to be resolved before the next release
   can be documented as **Known Limitations**,
   in some cases, it may be best to include them the in the :doc:`troubleshooting </troubleshooting/index>` section.
 - Avoid *Product Placement* - unnecessarily promoting software or hardware brands.
@@ -81,7 +80,7 @@ To be avoided:
 
   *Such lists are only showing what is already obvious in the interface
   and end up being a lot of text to read & maintain.*
-- Avoid documenting changes in Blender between releases, that's what the release notes are for.
+- Avoid documenting changes in Blender between releases, that is what the release notes are for.
   We only need to document the current state of Blender.
 - Unless the unit a value is measured in is obscure and unpredictable, there is no need to mention it.
 - Do not simply copy the tool-tips from Blender.
@@ -164,10 +163,10 @@ This entry:
 .. code-block:: rst
 
    Curve
-      It’s a class of objects.
+      It is a class of objects.
       In Blender there are Bézier curves and NURBS curves.
 
-Would be written more like this, avoiding the *"it's"*:
+Would be written more like this, avoiding the *"it iss"*:
 
 .. code-block:: rst
 

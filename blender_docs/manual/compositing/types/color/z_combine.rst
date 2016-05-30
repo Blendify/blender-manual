@@ -22,7 +22,7 @@ You can think of a negative Z value as being behind the camera.
 When choosing between two negative Z-values, Z-Combine will use whichever is more negative.
 
 Alpha values carry over from the input images. Not only is the image pixel chosen,
-but also, it's alpha channel value. So, if a pixel is partially or totally transparent,
+but also, it is alpha channel value. So, if a pixel is partially or totally transparent,
 the result of the Z-Combine will also be partially transparent;
 in which case the background image will show through the foreground (chosen) pixel.
 Where there are sharp edges or contrast,
@@ -53,7 +53,7 @@ one from a sphere of size 1.30, and the other a cube of size 1.00.
 The sphere and square are located at the same place. The cube is tipped forward,
 so the corner in the center is closer to the camera than the sphere surface;
 so Z-Offset chooses to use the cube's pixels. But the sphere is slightly larger
-(a size of 1.30 versus 1.00), so it does not fit totally 'inside' the cube. At some point,
+(a size of 1.30 versus 1.00), so it does not fit totally inside the cube. At some point,
 as the cube's sides recede back away from the camera, the sphere's sides are closer.
 When this happens, Z-offset uses the sphere's pixels to form the resulting picture.
 

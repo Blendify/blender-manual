@@ -3,7 +3,7 @@
 Contribute
 **********
 
-Whether you'd like to fix a tiny spelling mistake or rewrite an entire chapter,
+Whether you like to fix a tiny spelling mistake or rewrite an entire chapter,
 your help with the Blender manual is most welcome!
 
 
@@ -55,7 +55,7 @@ Be sure to check the :doc:`Writing Style Guide </about/style_guides/writing_guid
 for conventions and :doc:`Markup Style Guide </about/style_guides/markup_guide>`
 to learn how to write in the reStructuredText markup language.
 
-If you are going to add or overhaul a section, be sure to check carefully that it doesn't already exist.
+If you are going to add or overhaul a section, be sure to check carefully that it does not already exist.
 In some places, the docs are so disorganized that sections may be duplicated or in a strange location.
 In the case that you find a duplicate or out of place section,
 `create a task <https://developer.blender.org/maniphest/task/create/?project=53>`__
@@ -75,9 +75,9 @@ Submit Patches
 ==============
 
 The first few times you make changes to the manual,
-you'll need to submit them as patches for the section owner to review.
+you will need to submit them as patches for the section owner to review.
 This is just to make sure that we maintain a quality user manual,
-and that you don't accidentally break anything vital before you get used to the system.
+and that you do not accidentally break anything vital before you get used to the system.
 
 In order to submit a patch, follow this process:
 
@@ -93,13 +93,13 @@ In order to submit a patch, follow this process:
    If you have created or deleted files, you will need to run ``svn add /path/to/file``
    or ``svn rm /path/to/file`` before creating the diff. To see a list of affected files, run ``svn status``.
 #. `Upload the diff file here <https://developer.blender.org/differential/diff/create/>`__.
-   If you don't have an account already, you can `register for one <https://developer.blender.org/auth/register/>`__.
-#. After submitting the diff, you'll be asked to "Create a new Revision"
+   If you do not have an account already, you can `register for one <https://developer.blender.org/auth/register/>`__.
+#. After submitting the diff, you will be asked to "Create a new Revision"
    before you can add a title and description of your changes.
 #. If you know who the Section Owner
    (see `Documentation Team <https://developer.blender.org/project/profile/53>`__) of that chapter is,
-   assign them as the *Reviewer* and they'll be notified of your patch.
-   If you can't find out who that is (or there is no one),
+   assign them as the *Reviewer* and they will be notified of your patch.
+   If you cannot find out who that is (or there is no one),
    instead, mail the `bf-docboard <https://lists.blender.org/mailman/listinfo/bf-docboard>`__ mailing list,
    or tell someone in ``#blenderwiki`` on :ref:`IRC <irc-channels>`.
 #. They will review your patch and let you know about any changes you could make,
@@ -107,7 +107,7 @@ In order to submit a patch, follow this process:
 
 .. note::
 
-   If your patch includes changes to or additional images, simply attach them when you're creating the revision.
+   If your patch includes changes to or additional images, simply attach them when you are creating the revision.
 
 Once you have had a few patches accepted, we cut out the middle man and give you direct access to edit the manual!
 
@@ -123,8 +123,8 @@ All you need to do now is run:
 
    svn commit -m "This is what I did"
 
-If you leave out ``-m "message"``, you'll be prompted to type the message in a text editor.
+If you leave out ``-m "message"``, you will be prompted to type the message in a text editor.
 
 Do not forget to always run ``svn update`` before committing.
 
-Then you'll be asked for your username (from ``developer.blender.org``) and password before the change is committed.
+Then you will be asked for your username (from ``developer.blender.org``) and password before the change is committed.

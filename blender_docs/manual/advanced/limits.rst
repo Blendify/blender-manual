@@ -14,7 +14,7 @@ Working Limits
 Space
 =====
 
-While object positions, vertex locations aren't clamped, larger values become increasingly imprecise.
+While object positions, vertex locations are not clamped, larger values become increasingly imprecise.
 
 To get an idea of the precision you can work with using different scales.
 
@@ -72,7 +72,7 @@ The maximum frame for each scene is currently 500,000, and allows for continuous
 .. note::
 
    In practice, a finished work is typically composted of output from many scenes.
-   So this limit doesn't prevent you from creating longer works.
+   So this limit does not prevent you from creating longer works.
 
 
 Text Fields

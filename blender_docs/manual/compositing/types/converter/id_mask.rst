@@ -12,7 +12,7 @@ ID Mask Node
 
 This node will use the Object Index pass (see RenderLayers)
 to produce an anti-aliased alpha mask for the object index specified.
-The mask is opaque where the object is, and transparent where the object isn't.
+The mask is opaque where the object is, and transparent where the object is not.
 If the object is partially transparent, the alpha mask matches the object's transparency.
 This post-process function fills in the jaggies with interpolated values.
 

@@ -31,13 +31,13 @@ However, this is not included with Sphinx and needs to be installed.
 Downloading the Repository
 ==========================
 
-First of all, it's assumed that you have the manual already building.
+First of all, it is assumed that you have the manual already building.
 
 From the directory containing your checkout of the manual run the following command.
 
 .. note::
 
-   Be sure to change the ``/fr`` suffixes to the language you're translating!
+   Be sure to change the ``/fr`` suffixes to the language you are translating!
 
    You can remove the suffix to check out all languages too, however, this will be a much larger download.
 
@@ -67,7 +67,7 @@ Building with Translations
    https://www.blender.org/manual/fr/
 
    This is quite involved,
-   so it's not be expected that translators should be doing their own builds locally.
+   so it is not be expected that translators should be doing their own builds locally.
 
 ----
 
@@ -83,7 +83,7 @@ Now you can build the manual with the translation applied.
 
    make -e SPHINXOPTS="-D language='fr'"
 
-If you're on ms-windows and don't have ``make``, run:
+If you are on MS-Windows and do not have ``make``, run:
 
 .. code-block:: sh
 

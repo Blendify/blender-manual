@@ -4,7 +4,7 @@ Combine/Separate Nodes
 **********************
 
 All of these nodes do essentially the same thing: they split out an image into
-(or recombine an image from) it's composite color channels. Each format supports the Alpha
+(or recombine an image from) it is composite color channels. Each format supports the Alpha
 (transparency) channel.
 The standard way of representing color in an image is called a *color space*.
 There are several color spaces supported:
@@ -15,11 +15,12 @@ HSV
    Three values, often considered as more intuitive than the RGB system (nearly only used on computers):
 
    Hue
-      The *Hue* of the color (in some way, choose a 'color' of the rainbow);
+      The *Hue* of the color.
    Saturation
       The *quantity* of hue in the color (from desaturating - a shade of gray - to saturate - brighter colors)
-   Value: the *brightness* of the color
-      (from 'no light' - black - to 'full light' - 'full' color, or white if Saturation is 0.0).
+   Value
+      The *brightness* of the color (from 'no light' - black - to 'full light' - 'full' color,
+      or white if Saturation is 0.0).
 
 YUV
    Luminance-Chrominance standard used in broadcasting analog PAL (European) video.
@@ -40,7 +41,7 @@ Separate/Combine RGBA Node
 
 
 This node separates an image into its red, green, blue and alpha channels.
-There's a socket for each channel on the right.
+There is a socket for each channel on the right.
 
 .. figure:: /images/compositing_nodes_combinergba.png
    :width: 150px

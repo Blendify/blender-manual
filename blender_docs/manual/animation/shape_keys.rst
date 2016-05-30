@@ -69,22 +69,22 @@ Specials
    A menu with some operators.
 
    Transfer Shape Key
-      Transfer the active 'Shape Key' from a different object.
+      Transfer the active *Shape Key* from a different object.
       Select two objects, the active Shape Key is copied to the active object.
 
    Join as Shapes
-      Transfer the 'Current Shape' from a different object.
+      Transfer the *Current Shape* from a different object.
       Select two objects, the Shape is copied to the active object.
 
    Mirror Shape Key
       If your mesh is nice and symmetrical, in *Object Mode*, you can mirror the shape keys on the X axis.
-      This won't work unless the mesh vertices are perfectly symmetrical.
+      This will nott work unless the mesh vertices are perfectly symmetrical.
       Use the :menuselection:`Mesh --> Symmetrize` function in *Edit Mode*.
 
    Mirror Shape Key (Topology)
       This is the same as *Mirror Shape Key* though it detects
       the mirrored vertices based on the topology of the mesh.
-      The mesh vertices don't have to be perfectly symmetrical for this one to work.
+      The mesh vertices do not have to be perfectly symmetrical for this one to work.
 
    New Shape From Mix
       Add a new shape key with the current deformed shape of the object.
@@ -275,8 +275,8 @@ More Details On Absolute Shape Keys
 The thing to remember about absolute shape keys is that they are
 incomplete until you click the Reset Timing button. When you create a
 shape key its "frame" property is zero (https://developer.blender.org/T39897),
-which is a completely useless
-value. This frame value is not displayed on the UI so you can't
+which is a completely useless value.
+This frame value is not displayed on the UI so you cannot
 easily tell if something is wrong or screwy until your animation
 starts misbehaving.
 

@@ -11,7 +11,7 @@ Markup Style Guide
    - word-ordering in filenames.
    - how text is wrapped.
    - the number of spaces between lines.
-   - when it is/isn't okay to add in Unicode characters.
+   - when it is/is not okay to add in Unicode characters.
    - should comments on a page be above or below titles :)
    ::
    Having a lot of detailed text on this page is off-putting to new contributors,
@@ -155,8 +155,8 @@ Usage Guides
 
   .. note::
 
-     It's important that the manual can be maintained long term,
-     UI and tool options change so try to avoid having a lot of images (when they aren't especially necessary).
+     It is important that the manual can be maintained long term,
+     UI and tool options change so try to avoid having a lot of images (when they are not especially necessary).
      Otherwise, this becomes too much of a maintenance burden.
 
 .. Editors Note:

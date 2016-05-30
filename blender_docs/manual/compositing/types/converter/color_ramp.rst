@@ -44,7 +44,7 @@ this works just as well since we are using a BW image as input.)
 We have set the ColorRamp node to a purely transparent color on the left end of the spectrum,
 and a fully Red color on the right. As seen in the viewer,
 the ColorRamp node puts out a mask that is fully transparent where the image is black.
-Black is zero, so ColorRamp uses the 'color' at the left end of the spectrum,
+Black is zero, so ColorRamp uses the color at the left end of the spectrum,
 which we have set to transparent.
 The ColorRamp image is fully red and opaque where the image is white (1.00).
 

@@ -7,8 +7,8 @@ To make objects move along a path is a very common animation need.
 Think of a complex camera traveling,
 a train on his rails - and most other vehicles can also use "invisible" tracks! -,
 the links of a bicycle chain, etc.
-All these movements could obviously be done with standard Ipo curves, but this would be a
-nightmare! It's much easier and intuitive to define a path materializing the desired
+All these movements could obviously be done with standard F-Curves, but this would be a nightmare!
+It is much easier and intuitive to define a path materializing the desired
 movement, and make your object(s) follow it.
 
 Blender features you two different constraints to make an object follow a path,
@@ -16,12 +16,12 @@ which have different ways to determine/animate the position of their owner along
 
 In Blender, any :doc:`curve object </modeling/curves/introduction>` can become a path.
 A curve becomes a path when its *Path Animation* button is enabled in the *Curve* data panel,
-but you don't even have to bother about this: once a curve is selected as the target for a "path" constraint,
+but you do not even have to bother about this: once a curve is selected as the target for a "path" constraint,
 it automatically is enabled.
 
 You can also directly add a "path" from the :menuselection:`Add --> Curve --> Path` menu entry (in a 3D view).
 This will insert in your scene a *three-dimensional* NURBS curve.
-This is an important point: by default, Blender's curve are *2D* and won't move on the Z axis.
+This is an important point: by default, Blender's curve are *2D* and will not move on the Z axis.
 To turn a standard curve three-dimensional, enable its *3D* button,
 in the same *Curve and Surface* editing panel.
 
@@ -31,8 +31,7 @@ You can switch it with the :menuselection:`Curve --> Segments --> Switch Directi
 
 For more on editing path/curves, see the :doc:`modeling chapter </modeling/curves/introduction>`.
 
-.. note::
-   Shapes on Curves
+.. note:: Shapes on Curves
 
    If you would rather like to have your object's *shape* follow a path (like e.g.
    a sheet of paper inside a printer),
@@ -95,11 +94,9 @@ which implements a more advanced technique.
 To determine where along the path should lay its owner,
 its uses the *location of this owner* along a given axis.
 So to animate the movement of your owner along its target path, you have to animate some way
-(Ipo curves or other indirect animation) it's location.
+(F-Curves or other indirect animation) its location.
 
 This implies that here, the length of the path have no more any effect - and that by default,
 the object is static somewhere on the path!
 
 For more details and examples, see the :doc:`Clamp To constraint page </rigging/constraints/tracking/clamp_to>`.
-
-

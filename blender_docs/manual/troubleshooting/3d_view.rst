@@ -54,7 +54,7 @@ OpenGL Occlusion Queries (User Preference)
    since there is a significant performance difference under some configurations.
 Upgrade Graphics Driver
    In some cases, slow selection is resolved by using updated drivers.
-   *It's generally good to use recent drivers when using 3D software.*
+   *It is generally good to use recent drivers when using 3D software.*
 Select Centers (Workaround)
    In *Object Mode*, holding :kbd:`Ctrl` while selecting uses the object center point.
    While this can be useful on its own, its has the side-effect of not relying on OpenGL selection.
@@ -63,8 +63,8 @@ Change Draw Modes (Workaround)
 
 .. note::
 
-   Obviously, the workarounds listed here aren't long term solutions,
-   but it's handy to know if you're stuck using a system with poor OpenGL support.
+   Obviously, the workarounds listed here are not long term solutions,
+   but it is handy to know if you are stuck using a system with poor OpenGL support.
 
    Ultimately, if none of these options work out it may be worth upgrading your hardware.
 
