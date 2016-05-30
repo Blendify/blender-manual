@@ -66,7 +66,6 @@ Blender's Manual is free and published under
 `Creative Commons Zero <https://creativecommons.org/publicdomain/zero/1.0/>`__.
 
 This means that anyone is free to download, edit and share the manual.
-It also means that when contributing to the manual you don't hold exclusive copyright to your text.
+It also means that when contributing to the manual you do not hold exclusive copyright to your text.
 You are, of course, acknowledged and appreciated for your contribution.
 However, others can change and improve your text in order to keep the manual consistent and up to date.
-

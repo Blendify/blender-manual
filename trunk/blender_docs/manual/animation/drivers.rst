@@ -374,7 +374,7 @@ The value of Key2B is bound to the position of ``Bone.R``. Its generator
 parameters are similar to Key2A so that the top of the right stack
 will move with bone.R (mostly).
 
-Since it's quite easy for bone.L and bone.R to be in positions that
+Since it is quite easy for bone.L and bone.R to be in positions that
 indicate conflicting values for Key1 there will be times when the
 bones do not line up with the tops of their respective stacks. If the
 driver for Key1 was to use Average or Minimum instead of Maximum to
@@ -433,7 +433,7 @@ with drivers on bones that refer to another bone in the same armature. Their val
 incorrectly calculated based on the position of the other bone as it was *before* you adjust
 the current_frame. This can lead to obvious shape glitches when the rendering of frames has
 a jump in the frame number (either because the blend-file is currently on a different frame
-number or because you're skipping already rendered frames).
+number or because you are skipping already rendered frames).
 
 .. seealso::
 

@@ -32,7 +32,7 @@ Both methods have some
 Parenting to Whole Armatures
 ============================
 
-But before diving into this, let's talk about the different ways to skin (parent)
+But before diving into this, let us talk about the different ways to skin (parent)
 an object to a whole armature - as with :doc:`object skinning </rigging/skinning/objects>`,
 there is an "old parenting" method and a new, more flexible and powerful one,
 based on modifiers - which allows creation of very complex setups, with objects deformed by several armatures.
@@ -41,7 +41,7 @@ For meshes and lattices *only*,
 you can use the :kbd:`Ctrl-P` parent shortcut in the 3D views
 (after having selected first the "skin" object, then the armature).
 The *Make Parent To* menu pops up, select the *Armature* entry.
-If the skinning object is a lattice, you're done; no more options are available.
+If the skinning object is a lattice, you are done; no more options are available.
 But with a child mesh, another *Create Vertex Groups?* menu appears,
 with the following options - all regarding the "vertex groups" skinning method:
 
@@ -52,7 +52,7 @@ with the following options - all regarding the "vertex groups" skinning method:
 
 
 With Empty Groups
-   will create, if they don't already exist, empty groups, one for each bone in the skinned armature,
+   will create, if they do not already exist, empty groups, one for each bone in the skinned armature,
    with these bones' names.
    Choose this option if you have already created (and weighted) all the vertex groups the mesh requires.
 With Envelope Weights
@@ -64,7 +64,7 @@ With Envelope Weights
    .. warning::
 
       This means that if you had defined vertex groups using same names as skinned bones, their content will be
-      completely overridden. You'll get the same behavior as if you used the envelopes skinning method,
+      completely overridden. You will get the same behavior as if you used the envelopes skinning method,
       but with vertex groups?
 Automatic Weights
    Creates, as with *Envelope Weights* option, the needed vertex groups,
@@ -271,7 +271,7 @@ methods as available when doing an "old-parenting" to armature :kbd:`Ctrl-P`:
 To automatically weight multiple bones, you can simply
 
 - :kbd:`Ctrl-Tab` out of Weight Paint Mode
-- Select the Armature. It should be in Pose mode. If it isn't, go :kbd:`Ctrl-Tab`
+- Select the Armature. It should be in Pose mode. If it is not, go :kbd:`Ctrl-Tab`
 - Select multiple bones :kbd:`Shift-LMB` or press :kbd:`A` (once or twice).
 - Select Mesh again
 - If not in weight paint already, toggle back into :kbd:`Ctrl-Tab`

@@ -54,7 +54,7 @@ Sequencer
 
 
 The *Video Sequence Editor* just adds a vertical dashed line to each marker
-(gray if the marker is unselected, or white if it's selected).
+(gray if the marker is unselected, or white if it is selected).
 
 
 3D View
@@ -125,7 +125,7 @@ Naming Markers
    | Hotkey:   :kbd:`Ctrl-M`
 
 
-Having dozens of markers scattered throughout your scene's time won't help you much unless you
+Having dozens of markers scattered throughout your scene's time will not help you much unless you
 know what they stand for. You can name a marker by selecting it, pressing :kbd:`Ctrl-M`,
 typing the name, and pressing the OK button.
 

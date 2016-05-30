@@ -51,7 +51,7 @@ Active Keying Set properties
       Note, the same settings in *User Preferences* override these settings if enabled.
 
       Only Needed
-         Only insert keyframes where they're needed in the relevant F-Curves.
+         Only insert keyframes where they are needed in the relevant F-Curves.
 
       Visual Keying
          Insert keyframes based on the visual transformation.
@@ -102,7 +102,7 @@ Active Path properties
       These options control individual properties in the Keying Set.
 
       Only Needed
-         Only insert keyframes where they're needed in the relevant F-Curves.
+         Only insert keyframes where they are needed in the relevant F-Curves.
 
       Visual Keying
          Insert keyframes based on the visual transformation.
@@ -119,5 +119,4 @@ Some ways to add properties to keying sets.
 :kbd:`RMB` the property in the *User Interface*, then select *Add Single to Keying Set* or *Add All to Keying Set*.
 This will add the properties to the active keying set, or to a new keying set if none exist.
 
-Hover the mouse over the properties, then press :kbd:`K`,
-to add *Add All to Keying Set*.
+Hover the mouse over the properties, then press :kbd:`K`, to add *Add All to Keying Set*.

@@ -19,11 +19,11 @@ Unfortunately, in this situation, you may have to do some of your own tests to f
 here are some common causes and possible solutions.
 
 Upgrade your OpenGL Driver
-   If you're experiencing any strange graphics problems with Blender,
-   it's always good to double check you're using the latest drivers.
+   If you are experiencing any strange graphics problems with Blender,
+   it is always good to double check if you are using the latest drivers.
 Disable Anti-Aliasing :term:`FSAA, Multi-Sampling<FSAA>`
    See :ref:`Invalid Selection, Disable Anti-Aliasing <troubleshooting-3dview-invalid_selection>`.
 Change the *Window Draw Method*
    This is set in the :ref:`system preferences <prefs-system-window_draw>`.
-   It's selected automatically, however when experiencing problems its worth
+   It is selected automatically, however when experiencing problems its worth
    checking if changing this resolves interface drawing problems.

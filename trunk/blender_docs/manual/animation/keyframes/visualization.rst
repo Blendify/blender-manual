@@ -1,6 +1,4 @@
-
-..    TODO/Review: {{review|}} .
-
+..    TODO/Review: {{review|}}.
 
 *************
 Visualization
@@ -44,7 +42,7 @@ over a series of frames.
 
 
 Before we look at its options (all regrouped in the same *Visualisations* panel,
-in the *Editing* context, let's first see how to display/hide these paths. You have
+in the *Editing* context, let us first see how to display/hide these paths. You have
 to do it manually - and you have to first select the objects you want to show/hide the motion
 paths. Then,
 
@@ -101,7 +99,7 @@ Keyframes
    materializing the keyframes of their bones
    (i.e. only the paths of keyed bones at a given frame get a yellow dot at this frame).
 Keyframe Numbers
-   When enabled, you'll see the numbers of the displayed keyframes -
+   When enabled, you will see the numbers of the displayed keyframes -
    so this option is obviously only valid when *Show Keys* is enabled.
 
 Cache

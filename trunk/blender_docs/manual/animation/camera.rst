@@ -9,7 +9,7 @@ These are some basic tools and properties animators may use for the camera.
 Switching Cameras
 =================
 
-Switching cameras can be done with the Timeline operator 'Bind Camera to Markers'.
+Switching cameras can be done with the *Timeline* operator *Bind Camera to Markers*.
 
 The triangle above the camera will become shaded when active.
 
@@ -30,7 +30,7 @@ Moving Cameras
 Move Along a Path
 -----------------
 
-Sometimes it's easier to move objects on path,
+Sometimes it is easier to move objects on path,
 see :doc:`Moving Objects on a Path </animation/object_path>` for more info.
 
 

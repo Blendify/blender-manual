@@ -16,7 +16,7 @@ Connect the Background image to the top input, and the foreground image to the l
 Where the foreground image pixels have an alpha greater than 0 (namely, have some visibility),
 the background image will be overlaid.
 
-Use the *Factor* slider to 'merge' the two pictures.
+Use the *Factor* slider to merge the two pictures.
 A factor less than 1.00 will make the foreground more transparent,
 allowing the background to bleed through.
 
@@ -43,7 +43,7 @@ The resulting image is a composite of the two source images.
 
 
 In this example, we use the Factor control to make a sheer cloth or onion-skin effect.
-You can animate this effect, allowing the observer to 'see-through' walls
+You can animate this effect, allowing the observer to "see-through" walls
 (or any foreground object) by hooking up a Time node to feed the Factor socket as shown below.
 In this example, over the course of 30 frames, the Time node makes the AlphaOver node produce
 a picture that starts with the background wood image, and slowly bleeds through the Toucan.
@@ -71,14 +71,14 @@ You then add the resultant images and get the final composite.
 
 A pre-multiplied alpha is when the image (RGB)
 pixels are already multiplied by the alpha channel,
-therefore, the above compositing op doesn't work too well,
-and you have to hit 'convert pre-mult'. This is only an issue in semi-transparent area,
+therefore, the above compositing op does not work too well,
+and you have to hit *convert pre-mult*. This is only an issue in semi-transparent area,
 and edges usually. The issue normally occurs in Nodes when you have combined, with alpha,
 two images, and then wish to combine that image with yet another image.
 The previously combined image was previously multiplied (pre-mult)
 and needs to be converted as such (hence, *Convert PreMul*).
 
-If you don't pay attention and multiply twice,
+If you do not pay attention and multiply twice,
 you will get a white or clear halo around your image where they meet,
 since your alpha value is being squared or cubed.
 It also depends on whether or not you have rendered your image as a pre-mult,

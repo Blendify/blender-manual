@@ -1,5 +1,4 @@
-
-..    TODO/Review: {{review|im=examples}} .
+..    TODO/Review: {{review|im=examples}}.
 
 *************
 Visualization
@@ -159,7 +158,7 @@ Around Current Frame
    It has three options:
 
    Range
-      This numeric field specifies how many ghosts you'll have on both "sides"
+      This numeric field specifies how many ghosts you will have on both "sides"
       (i.e. a value of 5 will give you ten ghosts, five before the current frame, and five after).
    Step
       This numeric field specifies whether you have a ghost for every frame
@@ -223,7 +222,7 @@ This feature allows you to visualize as curves the paths of bones' ends (either 
 by default, or their roots).
 
 Before we look at its options (all regrouped in the same *Visualisations* panel,
-in the *Editing* context), let's first see how to display/hide these paths.
+in the *Editing* context), let us first see how to display/hide these paths.
 Unlike `Ghosts`_, you have to do it manually -
 and you have to first select the bones you want to show/hide the motion paths. Then,
 
@@ -280,7 +279,7 @@ Keyframes
    (i.e. only the paths of keyed bones at a given frame get a yellow dot at this frame).
 
 Keyframe Nums
-   When enabled, you'll see the numbers of the displayed keyframes -
+   When enabled, you will see the numbers of the displayed keyframes -
    so this option is obviously only valid when *Show Keys* is enabled.
 
 Non-Grouped Keyframes
@@ -291,11 +290,11 @@ Calculate
       These are the start/end frames of the range in which motion paths are drawn.
       You have to *Calculate Paths* again if you modify this setting, to update the paths in the 3D views.
       Note that unlike with ghosts, the start frame is *inclusive*
-      (i.e. if you set *PSta* to 1, you'll really see the *frame 1* as starting point of the paths...).
+      (i.e. if you set *PSta* to 1, you will really see the *frame 1* as starting point of the paths...).
 
    Bake Location
       By default, you get the tips' paths.
-      By changing this setting to Tails, you'll get the paths of the bone's roots
+      By changing this setting to Tails, you will get the paths of the bone's roots
       (remember that in Blender UI, bones' roots are called "heads"...).
       You have to *Calculate Paths* again if you modify this setting,
       to update the paths in the 3D views.

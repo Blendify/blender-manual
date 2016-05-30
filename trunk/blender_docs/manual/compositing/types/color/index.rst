@@ -4,8 +4,6 @@
   Color Nodes
 ##############
 
-..    TODO/Review: {{review|text=The Gamma Node explanation is a mess |copy=X}} .
-
 These nodes adjust the image's colors, for example increasing the contrast, making it warmer,
 overlaying another image, etc.
 

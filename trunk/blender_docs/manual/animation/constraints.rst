@@ -41,7 +41,7 @@ and hence use :doc:`Armatures </rigging/armatures/index>` to animate them!
 Back to our simple *Copy Location* example,
 you can have two different behaviors of this constraint:
 
-- When it's *Offset* button is disabled (the default), the location of the owner is "absolutely"
+- When it is *Offset* button is disabled (the default), the location of the owner is "absolutely"
   controlled by the constraint's target, which means nothing (except other constraints below in the stack...)
   will be able to control the owner's position. Not even the object's animation curves.
 - However, when the *Offset* button is enabled,
@@ -54,8 +54,8 @@ you can have two different behaviors of this constraint:
 Example
 -------
 
-Let's use the *Copy Location* constraint and its *Offset* button. For example,
-you can make your owner (let's call it "moon") describe perfect circles centered on the (0.0, 0.0, 0.0)
+Let us use the *Copy Location* constraint and its *Offset* button. For example,
+you can make your owner (let us call it "moon") describe perfect circles centered on the (0.0, 0.0, 0.0)
 point (using e.g. pydriven *LocX* / *LocY* animation curves, see :doc:`this page </animation/drivers>`),
 and then make it copy the location of a target (called it "earth", for example) with the *Offset* button enabled.
 Congratulation, you just modeled a satellite in a (simplified) orbit around its planet.

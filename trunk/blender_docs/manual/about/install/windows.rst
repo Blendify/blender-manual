@@ -26,14 +26,14 @@ Installing Python
 Installing SVN and Downloading the Repository
 =============================================
 
-In this guide, we'll use TortoiseSVN though any Subversion client will do.
+In this guide, we will use TortoiseSVN though any Subversion client will do.
 
 #. Download TortoiseSVN for MS-Windows from `here <https://tortoisesvn.net/downloads.html>`__
 #. Install TortoiseSVN with the installation wizard. When choosing which features will be installed,
    it is recommended that you enable *command line client tools* to give you access to SVN from the command line
    (there is no harm in doing this, and it may be helpful if you ever run into any trouble).
 #. Once the installation has finished, create a new folder that will contain everything related to the Blender Manual.
-   In this guide, we'll use ``C:\blender_docs``.
+   In this guide, we will use ``C:\blender_docs``.
 #. Open the new folder, right click and choose *SVN Checkout...* from the context menu.
 #. In the *URL of repository* field, enter: ``https://svn.blender.org/svnroot/bf-manual/trunk/blender_docs``.
 #. In the *Checkout directory* field, enter: ``C:\blender_docs``.
@@ -56,13 +56,13 @@ Setting up the Build Environment
 
       pip install -r requirements.txt
 
-- If all goes well, you should see the following message when it's finished
+- If all goes well, you should see the following message when it is finished
 
    .. code-block:: sh
 
       Successfully installed Jinja2 MarkupSafe Pygments Sphinx docutils sphinx-rtd-theme Cleaning up...
 
-During the setup, some warnings may be shown, but don't worry about them.
+During the setup, some warnings may be shown, but do not worry about them.
 However if any errors occur, they may cause some problems.
 
 .. note::

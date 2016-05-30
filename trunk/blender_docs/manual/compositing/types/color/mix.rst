@@ -95,7 +95,7 @@ To cure an overexposure, you must both darken the image and enhance the contrast
 
 In the top RGB curve, *Darken*, only the right side of the curve was lowered; thus,
 any X input along the bottom results in a geometrically less Y output. 
-The *Enhance Contrast* RGB 'S' curve scales the output such that middle values of X change dramatically;
+The *Enhance Contrast* RGB (*S*) curve scales the output such that middle values of X change dramatically;
 namely, the middle brightness scale is expanded,
 and thus, whiter whites and blacker blacks are output. To make this curve,
 simply click on the curve and a new control point is added.
@@ -122,8 +122,8 @@ First, construct your own personal watermark. You can use your name, a word,
 or a shape or image not easily replicated.
 While neutral gray works best using the encoding method suggested,
 you are free to use other colors or patterns. It can be a single pixel or a whole gradient;
-it's up to you. In the example below,
-we are encoding the watermark in a specific location in the image using the Translate node;
+it is up to you. In the example below,
+we are encoding the watermark in a specific location in the image using the *Translate* node;
 this helps later because we only have to look at a specific location for the mark. We then use
 the RGB to BW node to convert the image to numbers that the Map Value node can use to make the
 image subliminal. In this case, it reduces the mark to one-tenth of its original intensity.
@@ -136,7 +136,7 @@ make the ones containing the mark ever-so-slightly brighter.
    Embedding your mark in an Image using a Mark and Specific Position.
 
 
-Of course, if you *want* people to notice your mark, don't scale it so much,
+Of course, if you *want* people to notice your mark, do not scale it so much,
 or make it a contrasting color. There are also many other ways,
 using other mix settings and fancier rigs. Feel free to experiment!
 
