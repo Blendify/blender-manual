@@ -19,7 +19,7 @@ Save Copy :kbd:`Ctrl-Alt-S`
    Choose a file to save the blend-file to, but return to editing the original file upon completion.
    This can be used to save backups of the current working state without modifying the original file.
 
-If the file name doesn't end with ``.blend``, the extension is automatically appended.
+If the file name does not end with ``.blend``, the extension is automatically appended.
 If a file with the same given name already exists,
 the text field will turn red as a warning that the file will be overwritten.
 
