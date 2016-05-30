@@ -53,11 +53,10 @@ Look in the Outliner, with display mode set to *Blender File*, to see all your l
    If you want to modify the object locally you can either:
 
    Use :doc:`Dupli-Groups </editors/3dview/transform/duplication/dupligroup>`
-      Instead of linking to *Objects* directly,
-      it's often more useful to link in *Groups*, which can be assigned to empties and moved,
-      while maintaining the link to the original file.
+      Instead of linking to *Objects* directly, it is often more useful to link in *Groups*,
+      which can be assigned to empties and moved, while maintaining the link to the original file.
 
-      It's also useful to be able to add/remove objects from the group
+      It is also useful to be able to add/remove objects from the group
       without having to manage linking in multiple objects.
    Make Objects Local
       Use :menuselection:`Object --> Make Local --> Selected Objects` to make the position editable.
@@ -92,12 +91,12 @@ when the referencing file is reloaded.
 Known Limitations
 =================
 
-For the most part linking data will work as expected, however, there are some corner-cases which aren't supported.
+For the most part linking data will work as expected, however, there are some corner-cases which are not supported.
 
 Circular Dependencies
 ---------------------
 
-In general, dependencies shouldn't go in both directions.
+In general, dependencies should not go in both directions.
 
 Attempting to link or append data which links back to the current file will likely result in missing links.
 
@@ -105,7 +104,7 @@ Object Rigid-Body Constraints
 -----------------------------
 
 When linking objects *directly* into a blend-file,
-the *Rigid Body* settings **won't** be linked in
-since they're associated with their scenes world.
+the *Rigid Body* settings **will not** be linked in
+since they are associated with their scenes world.
 
 As an alternative, you could link in the entire scene and set it as a :ref:`scene-background_set`.

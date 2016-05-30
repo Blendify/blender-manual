@@ -83,7 +83,7 @@ This is the list of image file formats supported internally by Blender:
 
 .. hint::
 
-   If you aren't interested in technical details,
+   If you are not interested in technical details,
    a good rule of thumb for selecting output formats for your project is:
 
    Use OpenEXR

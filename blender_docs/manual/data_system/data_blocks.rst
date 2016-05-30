@@ -12,7 +12,7 @@ they belong to armature, scene and mesh types respectively.
 
 Some common characteristics:
 
-- They're the primary contents of the blend-file.
+- They are the primary contents of the blend-file.
 - They can link to each other, for reuse and instancing.
   (child/parent, object/object-data, with modifiers and constraints too).
 - Their names are unique.
@@ -34,7 +34,7 @@ especially when inter-linking blend-files.
 Users (Garbage Collection)
 ==========================
 
-It's good to be aware of how Blender,
+It is good to be aware of how Blender,
 handles data-blocks lifetime, when they are freed and why.
 
 Blender follows the general rule where unused data is eventually removed.
@@ -44,23 +44,23 @@ this has the advantage of not having to manually manage every single data-block.
 
 This works by skipping zero user data-blocks when writing blend-files.
 
-In some cases, you want to save a data-block even when it's unused
+In some cases, you want to save a data-block even when it is unused
 (typically for re-usable asset libraries). see `Fake User`_.
 
 Fake User
 ---------
 
-Since zero user data-blocks aren't saved.
+Since zero user data-blocks are not saved.
 There are times when you want to force the data to be kept irrespective of its users.
 
-If you're building a blend-file to serve as a library of things that you intend to link to and from *other* files,
-you'll need to make sure that they don't accidentally get deleted from the library file.
+If you are building a blend-file to serve as a library of things that you intend to link to and from other files,
+you will need to make sure that they do not accidentally get deleted from the library file.
 
 Do this by giving the data-blocks a *Fake User*,
 by pressing the *F* button next to the name of the data-block.
 This prevents the user count from ever becoming zero: therefore,
-the data-block won't be deleted.
-(since Blender doesn't keep track of how many other files link to this one.)
+the data-block will not be deleted.
+(since Blender does not keep track of how many other files link to this one.)
 
 
 Users (Sharing)
@@ -83,7 +83,7 @@ You can also share data-blocks between files, see.
 Removing Data-Blocks
 ====================
 
-As covered in `Users (Garbage Collection)`_, data-blocks are typically removed when they're no longer used.
+As covered in `Users (Garbage Collection)`_, data-blocks are typically removed when they are no longer used.
 
 There are some exceptions to this, however.
 
@@ -108,7 +108,7 @@ Data-Block Types
 
 .. EDITORS NOTE:
    Mostly we want to avoid long lists of data - but in this case,
-   it's the only comprehensive list of data-blocks, and something which you can't
+   it is the only comprehensive list of data-blocks, and something which you cannot
    find directly just through looking at the interface.
    ::
    TODO, add links to related docs for each type.
@@ -195,7 +195,7 @@ For reference, here is a table of data-blocks types stored in blend-files.
      - |cross|
      - |tick|
      - | References to external blend-files.
-       | Access from the outliner's *Blendfile* view.
+       | Access from the outliner's blend-file view.
    * - LineStyle
      - |tick|
      - |cross|
