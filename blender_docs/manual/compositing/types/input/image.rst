@@ -28,8 +28,6 @@ To select an image file or generated image from the UV/Image Editor,
 click on the small arrow selector button to the left of the name and pick an existing image
 (e.g. loaded in the UV editor or elsewhere)
 or click on *load new* to select a file from your hard disk via a file-browser.
-These images can be e.g. previously rendered images, matte paintings, a picture of your cat,
-whatever. Blender really doesn't care.
 
 If the image is part of a sequence,
 manually click the Image Type selector to the right of the name, and select *Sequence*.
@@ -143,7 +141,7 @@ you would put 300 here (at 30 fps).
 
 The *First* number button sets the first number in the animated sequence name.
 For example, if your images were called "credits-0001.png", "credits-0002.png" through
-"credits-0300.png" and you wanted to start picking up with frame 20, you'd put 20 here.
+"credits-0300.png" and you wanted to start picking up with frame 20, you would put 20 here.
 
 To have the movie/sequence start over and repeat when it is done,
 press the *Cyclic* button. For example, if you were compositing a fan into a room,

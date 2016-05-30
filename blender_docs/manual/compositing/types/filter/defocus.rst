@@ -12,8 +12,8 @@ Defocus Node
 
 This single node can be used to emulate depth of field using a postprocessing method.
 It can also be used to blur the image in other ways,
-not necessarily based on 'depth' by connecting something other than a Z-buffer. In essence,
-this node blurs areas of an image based on the input z-buffer map/mask.
+not necessarily based on depth by connecting something other than a Z-buffer.
+In essence, this node blurs areas of an image based on the input z-buffer map/mask.
 
 
 Camera Settings
@@ -69,7 +69,7 @@ Gamma Correct
 
 f-Stop
    This is the most important parameter to control the amount of focal blur:
-   it simulates the aperture *f* of a real lens(' iris) - without modifying the luminosity of the picture,
+   it simulates the aperture *f* of a real len's iris, without modifying the luminosity of the picture,
    however! As in a real camera, the *smaller* this number is, the more open the lens iris is,
    and the *shallower* the depth-of-field will be. The default value 128 is assumed to be infinity:
    everything is in perfect focus. Half the value will double the amount of blur.
@@ -91,16 +91,17 @@ BThreshold
    The worst-case scenario is an object in-focus against the very distant world background:
    the differences in distance are very large and the result can look quite bad.
    The node tries to prevent this from occurring by testing that the blur difference between pixels is not too large,
-   the value set here controls how large that blur difference may be to consider it 'safe.' This is all probably
-   quite confusing, and fortunately, in general, there is no need to change the default setting of 1.
+   the value set here controls how large that blur difference may be to consider it safe.
+   This is all probably    quite confusing, and fortunately, in general,
+   there is no need to change the default setting of 1.
    Only try changing it if you experience problems with any in-focus object.
 
 
 Preview
-   As already mentioned, processing can take a long time. So to help make editing parameters somewhat 'interactive',
+   As already mentioned, processing can take a long time. So to help make editing parameters somewhat interactive,
    there is a preview mode which you can enable with this button.
    Preview mode will render the result using a limited amount of (quasi)random samples,
-   which is a *lot* faster than the 'perfect' mode used otherwise. The sampling mode also tends to produce grainy,
+   which is a *lot* faster than the perfect mode used otherwise. The sampling mode also tends to produce grainy,
    noisy pictures (though the more samples you use, the less noisy the result). This option is on by default.
    Play around with the other parameters until you are happy with the results,
    and only then disable the preview mode for the final render.
@@ -122,11 +123,13 @@ No Z-buffer
    where the time value controls the maximum blur for that frame.
    It may also be used to obtain a possibly slightly better DoF blur,
    by using a fake depth shaded image instead of a Z-buffer. (A typical method to create the fake depth shaded image
-   is by using a linear blend texture for all objects in the scene or by using the 'fog/mist' fake depth shading
-   method.) This also has the advantage that the fake depth image can have anti-aliasing,
-   which is not possible with a real Z-buffer.
-   *No Z-buffer* will be enabled automatically whenever you connect a node that is not image based
-   (e.g. time node/value node/etc).
+   is by using a linear blend texture for all objects in the scene or by using the "fog/mist" fake depth shading method).
+   This also has the advantage that the fake depth image can have anti-aliasing, which is not possible with a real Z-buffer.
+   
+   .. note::
+
+      *No Z-buffer* will be enabled automatically whenever you connect a node that is not image based
+      (e.g. time node/value node/etc).
 
 Z Scale
    Only visible when *No Z-buffer* enabled. When *No Z-buffer* is used,
@@ -164,17 +167,17 @@ Edge Artifacts
    For minimum artifacts, try to setup your scene such that differences in distances between two objects that may
    visibly overlap at some point are not too large.
 "Focus Pull"
-   Keep in mind that this is not 'real' DoF, only a post-processing simulation.
+   Keep in mind that this is not real DoF, only a post-processing simulation.
    Some things cannot be done which would be no problem for real DoF at all.
    A typical example is a scene with some object very close to the camera,
    and the camera focusing on some point far behind it. In the real world, using shallow depth of field,
    it is not impossible for nearby objects to become completely invisible,
-   in effect allowing the camera to see 'behind' it.
+   in effect allowing the camera to see behind it.
    Hollywood cinematographers use this visual characteristic to
    to achieve the popular "focus pull" effect,
    where the focus shifts from a nearby to a distant object, such that the "other" object all but disappears.
    Well, this is simply not possible to do with the current post-processing method in a single pass.
-   If you really want to achieve this effect, quite satisfactorily, here's how:
+   If you really want to achieve this effect, quite satisfactorily, here is how:
 
    - Split up your scene into "nearby" and "far" objects, and render them in two passes.
    - Now, combine the two the two results, each with their own "defocus" nodes driven by the same Time node,

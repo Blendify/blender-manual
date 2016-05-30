@@ -15,7 +15,6 @@ The Texture node makes 3D textures available to the compositor. A texture,
 from the list of textures available in the current blend-file,
 is selected and introduced through the value and/or color socket.
 
-
 .. note::
 
    Please read up on the Blender Library system for help on importing and linking to textures in other blend-files.
@@ -35,7 +34,7 @@ thus affecting how the texture is applied to the image. For animation,
 note that this is a vector input socket, because the XYZ values are needed.
 
 Texture nodes can output a straight black-and-white *Value* image
-(don't mistake this for alpha) and an color image through *Color*.
+(do not mistake this for alpha) and an color image through *Color*.
 
 
 Example

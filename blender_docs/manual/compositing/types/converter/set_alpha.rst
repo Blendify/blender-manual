@@ -24,10 +24,10 @@ the Alpha factor can be set by feeding its socket.
 .. note::
 
    This is not, and is not intended to be,
-   a general-purpose solution to the problem of compositing an image that doesn't contain Alpha information.
+   a general-purpose solution to the problem of compositing an image that does not contain Alpha information.
    You might wish to use "Chroma Keying" or "Difference Keying" (as discussed elsewhere) if you can.
    This node is most often used (with a suitable input being provided by means of the socket)
-   in those troublesome cases when you *can't,* for some reason, use those techniques directly.
+   in those troublesome cases when you *cannot*, for some reason, use those techniques directly.
 
 
 Using SetAlpha to Fade to Black
@@ -35,7 +35,7 @@ Using SetAlpha to Fade to Black
 
 To transition the audience from one scene or shot to another,
 a common technique is to "fade to black". As its name implies,
-the scene fades to a black screen. You can also "fade to white' or whatever color you wish,
+the scene fades to a black screen. You can also "fade to white" or whatever color you wish,
 but black is a good neutral color that is easy on the eyes and intellectually "resets" the
 viewer's mind. The node map below shows how to do this using the Set Alpha node.
 

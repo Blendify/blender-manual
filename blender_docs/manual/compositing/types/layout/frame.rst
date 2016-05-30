@@ -52,5 +52,4 @@ Text Display
 
 When you need to display more comprehensive text, frame nodes can display the contents of a text-block.
 
-This is read-only, so you'll need to use the text editor to modify the contents.
-
+This is read-only, so you will need to use the *Text Editor* to modify the contents.
