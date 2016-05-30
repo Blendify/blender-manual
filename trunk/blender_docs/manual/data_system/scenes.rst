@@ -8,7 +8,7 @@ Each blend-file can contain multiple scenes which share other data such as objec
 
 Scene management and library appending/linking are based on Blender's
 :doc:`Library and Data System </data_system/index>`,
-so it is a good idea to read that manual page first if you're not familiar with the basics of that system.
+so it is a good idea to read that manual page first if you are not familiar with the basics of that system.
 
 You can select and create scenes with the *Scene selector* in the Info window header
 (the bar at the top of most Blender layouts, see *Screen and Scene selectors*).
@@ -65,7 +65,7 @@ Full Copy
 .. note::
 
    To choose between these options,
-   it's useful to understand the difference between *Objects* and *Object Data*.
+   it is useful to understand the difference between *Objects* and *Object Data*.
    See :doc:`Duplication </editors/3dview/transform/duplication/introduction>`.
 
    The choices for adding a scene, therefore, determine just how much of this information will be

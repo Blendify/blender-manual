@@ -5,7 +5,7 @@ Relative Paths
 
 Many blend-files reference external images or other linked blend-files.
 A path tells Blender where to look for these files.
-If the external files are moved, the blend-file that references them won't look right.
+If the external files are moved, the blend-file that references them will not look right.
 
 When you specify one of these external files, the default option is to make the path relative.
 Blender stores a partial path evaluated relative to the directory location of the referencing blend-file.
@@ -25,11 +25,11 @@ of the User Preferences Editor.
 
 .. note::
 
-   You can't enter relative paths into a new *untitled* blend-file.
+   You cannot enter relative paths into a new *untitled* blend-file.
    Save it before linking to external files.
 
 .. hint::
 
-   If it's necessary to relocate a blend-file relative to its linked resources,
+   If it is necessary to relocate a blend-file relative to its linked resources,
    use Blender's File :doc:`Save As </data_system/files/save>`
    function which has an option to *Remap Relative* file links.
