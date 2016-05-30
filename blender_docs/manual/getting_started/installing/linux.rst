@@ -13,10 +13,11 @@ Specific packages for distributions
 Some Linux distributions may have on their repositories a specific package for Blender.
 
 Installing Blender via the distribution's native mechanisms ensures consistency with other packages on the system
-and may provide other features (given by the package manager), such as listing of packages, update notifications and
-automatic menu configuration.
-Be aware, though, that the package may be outdated comparing to the latest official release, or not include some
-features of Blender. For example, some distributions do not build Blender with CUDA support for licensing reasons.
+and may provide other features (given by the package manager),
+such as listing of packages, update notifications and automatic menu configuration.
+Be aware, though, that the package may be outdated comparing to the latest official release,
+or not include some features of Blender.
+For example, some distributions do not build Blender with CUDA support for licensing reasons.
 
 If there is a specific package for your distribution, you may choose what is preferable and most convenient,
 otherwise, there is nothing wrong with the official binary on `blender.org <https://www.blender.org/download/>`__.
@@ -26,7 +27,7 @@ Download from blender.org
 =========================
 
 Download the Linux version for your architecture and uncompress the file to the desired location
-(eg. ~/software or /usr/local).
+(eg. ``~/software`` or ``/usr/local``).
 
 Blender can now be launched by double-clicking the executable.
 
@@ -38,14 +39,14 @@ These settings typically belong to the Window Manager (KDE, Gnome, Unity).
 Running from the terminal
 =========================
 
-To run Blender from the terminal without needing to be in the executable directory, add the extracted folder to the
-environment PATH.
+To run Blender from the terminal without needing to be in the executable directory,
+add the extracted folder to the environment ``PATH``.
 
-Add the following command to .bash_rc or .bash_profile with Blender's binary:
+Add the following command to ``~/.bash_rc`` or ``~/.bash_profile`` with Blender's binary:
 
 .. code:: bash
 
-   export PATH=$/path/to/blender-VERSION-linux-glibcVERSION-ARCH:$PATH
+   export PATH=/path/to/blender-VERSION-linux-glibcVERSION-ARCH:$PATH
 
 
 .. tip::
