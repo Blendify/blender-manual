@@ -119,7 +119,7 @@ You can always adjust the range you want to continue from where you left off.
 
 You can edit the frames afterwards and post-process them.
 You can add neat effects in the sequence editor.
-You can render the same sequence into different resolutions (640x480, 320x240, etc)
+You can render the same sequence into different resolutions (640×480, 320×240, etc)
 and use different codecs (to get different file sizes and quality)
 with almost no effort whatsoever.
 

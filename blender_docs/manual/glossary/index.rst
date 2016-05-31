@@ -44,7 +44,7 @@ For other common conventions used throughout the manual.
          So, image textures or output for the web are usually straight alpha.
 
       Premultiplied Alpha
-         Method where ``RGBA`` channels are stored as ``(R*A, G*A, B*A, A)``,
+         Method where ``RGBA`` channels are stored as ``(R × A, G × A, B × A, A)``,
          with the alpha multiplied into the RGB channel.
 
          This is the natural output of render engines,

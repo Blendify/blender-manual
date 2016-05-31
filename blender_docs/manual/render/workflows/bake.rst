@@ -40,7 +40,7 @@ but will have much fewer faces/polygons.
 
 - Object must be UV-unwrapped.
 - If shadows are baked, lights and object cannot move with respect to each other.
-- Large textures (eg 4096x4096) can be memory intensive, and be just as slow as the rendered solution.
+- Large textures (e.g. 4096×4096) can be memory intensive, and be just as slow as the rendered solution.
 - Human (labor) time must be spent unwrapping and baking and saving files and applying the textures to a channel.
 
 

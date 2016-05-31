@@ -120,4 +120,4 @@ SAD will tend to jump off track from one feature to another.
 *Correlation* defines the threshold value for correlation between two patterns which is still
 considered successful tracking. 0 means there is no correlation at all, 1 means correlation is full.
 
-There is one limitation currently, it works for features of size 16x16 pixels only.
+There is one limitation currently, it works for features of size 16×16 pixels only.

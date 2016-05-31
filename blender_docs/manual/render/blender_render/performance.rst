@@ -88,7 +88,7 @@ Scene and Specific Objects
 - Decrease the Clip distance for the camera.
 - Turn off world AO.
 - Turn off Material SSS.
-- Use smaller image textures. A 256x256 image takes only 1% of the memory that a 2k image does,
+- Use smaller image textures. A 256×256 image takes only 1% of the memory that a 2k image does,
   often with no loss of quality in the ultimate render.
 - Reduce Subsurf. Each level quadruples (4x) the number of faces from the previous level.
 - Reduce Multires.

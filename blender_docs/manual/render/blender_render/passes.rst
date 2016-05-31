@@ -199,7 +199,7 @@ the image in the left viewer is transparent.
 We have used the Shadow to cut out parts of the image.
 
 We then take the shadow through an RGB Curve, which is set to magnify just the Blue by 75%;
-so a gray shadow of (R:40, G:40, B:40) becomes (R:40, G:40, B:40x1.75=70).
+so a gray shadow of RGB(40, 40, 40) becomes RGB(40, 40, 40×1.75=70).
 That blue-tinged shadow is shown in the bottom viewer. Now we have two options:
 AlphaOver and Mix. For either option:
 
@@ -239,7 +239,7 @@ To configure your noodle, consider the example image above.
 
 
 - First, depending on the AO mode do one of the following: If AO mode is Add: directly use the AO pass.
-  If AO mode is Sub: Calculate AO - 1, or if AO mode is Both: Calculate 2*AO - 1.
+  If AO mode is Sub: Calculate AO - 1, or if AO mode is Both: Calculate 2 × AO - 1.
 - Multiply the output of Step 1 with the AO energy level.
 - Multiply the output of Step 2 with the material's ambience value.
   If you have materials which receive different ambience light levels (0.5 is the default),
