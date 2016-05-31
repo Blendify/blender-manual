@@ -143,8 +143,8 @@ Sensor Width
    is the width of the CCD sensor in the camera. This value can be found in camera specifications.
 Pixel Aspect Ratio
    is the pixel aspect of the CCD sensor. This value can be found in camera specifications,
-   but can also be guessed. For example, you know that the footage should be 1920x1080,
-   but the images themselves are 1280x1080. In this case, the pixel aspect is: 1920 / 1280 = 1.5 .
+   but can also be guessed. For example, you know that the footage should be 1920×1080,
+   but the images themselves are 1280×1080. In this case, the pixel aspect is: 1920 / 1280 = 1.5 .
 Optical Center
    is the optical center of the lens used in the camera. In most cases it is equal to the image center,
    but it can be different in some special cases. Check camera/lens specifications in such cases.

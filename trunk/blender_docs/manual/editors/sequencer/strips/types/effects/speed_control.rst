@@ -4,7 +4,7 @@ Speed Control
 *************
 
 Speed Control time-warps the strip, making it play faster or slower than it normally would.
-A Global Speed less than 1.0 makes the strip play slower; greater than 1.
+A *Global Speed* less than 1.0 makes the strip play slower; greater than 1.
 0 makes it play faster. Playing faster means that some frames are skipped,
 and the strip will run out of frames before the end frame.
 When the strip runs out of frames to display, it will just keep repeating the last one;
@@ -74,7 +74,8 @@ by using a Global Speed value less than or greater than one, respectively. For e
 if you captured a five-minute video at 30 fps and wanted to transfer that to film,
 which runs at 24 fps, you would enter a Global Speed of 30/24, or 1.25
 (and Enable Frame Blending to give that film blur feel).
-Instead of producing ``5*60*30=9000`` frames, Blender would produce ``9000/1.25=7200=5*60*24`` frames.
+Instead of producing ``5 × 60 × 30 = 9000`` frames, 
+Blender would produce ``9000/ 1.25 = 7200 = 5 × 60 × 24`` frames.
 In this case, you set a *start* = 1 and *end* = 7200, set your Format output to ``jpeg`` 30fps,
 and image files ``0001.jpg`` through ``7200.jpg`` would be rendered out,
 but those images cover the entire 9000 frames.

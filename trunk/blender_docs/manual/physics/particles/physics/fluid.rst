@@ -45,7 +45,7 @@ Repulsion Factor
 Stiff Viscosity
    Creates viscosity for expanding fluid. Check box sets this to be a factor of normal viscosity.
 Interaction Radius
-   Fluid's interaction radius. Check box sets this to be a factor of 4*particle size.
+   Fluid's interaction radius. Check box sets this to be a factor of 4 × *particle size*.
 Rest Density
    Density of fluid when at rest. Check box sets this to be a factor of default density.
 
@@ -55,7 +55,7 @@ Springs
 Force
    Spring force
 Rest Length
-   Rest length of springs. Factor of particle radius. Check box sets this to be a factor of 2*particle size.
+   Rest length of springs. Factor of particle radius. Check box sets this to be a factor of 2 × *particle size*.
 
 Viscoelastic Springs
    Use viscoelastic springs instead of Hooke's springs.

@@ -205,7 +205,7 @@ Dotmatrix display
 
 Let's use a halo material to create a dotmatrix display.
 
-- To begin, add a grid with the dimensions 32x16.
+- To begin, add a grid with the dimensions 32×16.
   Then add a camera and adjust your scene so that you have a nice view of the billboard.
 - Use a 2D image program to create some red text on a black background,
   using a simple and bold font,

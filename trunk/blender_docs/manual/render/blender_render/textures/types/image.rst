@@ -20,7 +20,7 @@ About Image Based Texturing
 Texture images take up precious memory space,
 often being loaded into a special video memory bank that is very fast and very expensive,
 so it is often very small. So, keep the images as small as possible.
-A 64x64 image takes up only one fourth the memory of a 128x128 image.
+A 64×64 image takes up only one fourth the memory of a 128×128 image.
 
 For photo-realistic rendering of objects in animations, often larger image textures are used,
 because the object might be zoomed in on in camera moves. In general, you want to use a
@@ -29,8 +29,8 @@ Ultimately, you only have a certain amount of physical RAM to hold an image text
 model and to provide work space when rendering your image.
 
 For the most efficient memory usage, image textures should be square,
-with dimensions as powers of 2, such as 32x32, 64x64, 128x128, 256x256, 1024x1024, 2048x2048,
-and 4096x4096.
+with dimensions as powers of 2, such as 32×32, 64×64, 128×128, 256×256, 1024×1024, 2048×2048,
+and 4096×4096.
 
 If you can re-use images across different meshes, this greatly reduces memory requirements.
 You can re-use images if you map those areas of the meshes that "look alike" to a layout that
@@ -627,10 +627,10 @@ MIP Map
 Interpolation
    This option interpolates the pixels of an image.
    This becomes visible when you enlarge the picture. By default, this option is on.
-   Turn this option OFF to keep the individual pixels visible and if they are correctly anti-aliased.
+   Turn this option off to keep the individual pixels visible and if they are correctly anti-aliased.
    This last feature is useful for regular patterns, such as lines and tiles;
    they remain 'sharp' even when enlarged considerably.
-   When you enlarge this 10x10 pixel Image
+   When you enlarge this 10×10 pixel Image
 
 .. figure:: /images/Linien.jpg
 

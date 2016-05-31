@@ -215,7 +215,7 @@ Textures
 Limit Size
    Limit the maximum resolution for pictures used in textured display to save memory.
    The limit options are specified in a square of pixels,
-   (e.g.: the option 256 means a texture of 256x256 pixels) This is useful for game engineers,
+   (e.g.: the option 256 means a texture of 256×256 pixels) This is useful for game engineers,
    whereas the texture limit matches paging blocks of the textures in the target graphic card memory.
    Available Options are: *Off* (No limit), *128*, *256*, *512*, *1024*, *2048*, *4096*, and *8192*.
 Time Out

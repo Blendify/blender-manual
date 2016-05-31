@@ -36,7 +36,7 @@ Getting Started
 Sections
 ========
 
-.. image ratio: width: 350px; height: 350/4 + (2*5) ~= 98px
+.. image ratio: width: 350px; height: 350/4 + (2x5) ~= 98px
 
 .. only:: html
 

@@ -154,7 +154,7 @@ Reset Timing
       Basis 0.1
       Key_1 0.2
       Key_2 0.3
-   Evaluation Time will show this as frame*100.
+   Evaluation Time will show this as frame 100.
       Basis 10.0
       Key_1 20.0
       Key_2 30.0
@@ -196,11 +196,11 @@ This example shows you how to make a cube mesh transform into a sphere.
 
 
 - In *Object Mode* add two shape keys via the *Shape Key Panel*.
--    *Basis* is the rest shape. *Key 1* will be the new shape.
+-    *Basis* is the rest shape. "Key 1" will be the new shape.
 - With *Key 1* selected, switch to *Edit Mode*.
 - Press :kbd:`Shift-Alt-S` *To Sphere*, move the mouse right, then :kbd:`LMB`.
 - Switch to *Object Mode*.
-- Set the *Value* for *Key 1* to see the transformation between the shape keys.
+- Set the *Value* for "Key 1" to see the transformation between the shape keys.
 
 
 .. figure:: /images/Shape_Keys_Workflow_2.jpg
@@ -327,7 +327,7 @@ assigned to remaining shape keys.
 
 
 The Evaluation Time is how you choose which shape key is active, and how active it is.
-The interesting values range from 10 .. (n*10) where n is the number of shape keys.
+The interesting values range from 10 ... (*n* × 10) where *n* is the number of shape keys.
 (assuming you have not deleted or added any keys since the last Reset Timing).
 If you are using shape keys for animation,
 99% of the time you will be putting keyframes on this Evaluation Time field.

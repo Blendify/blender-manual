@@ -122,14 +122,14 @@ one for each interpolation axis (U and V). Note that unlike with curves, you hav
 
    * - .. figure:: /images/NurbsSurface1Resolution.jpg
 
-          Resolution 1x1.
+          Resolution 1×1.
 
      - .. figure:: /images/NurbsSurface3Resolution.jpg
 
-          Resolution 3x3.
+          Resolution 3×3.
 
 
-Fig. Resolution 1x1 is an example of a surface resolution of 3 for both U and V. Fig. Resolution 3x3 surface
+Fig. Resolution 1×1 is an example of a surface resolution of 3 for both U and V. Fig. Resolution 3×3 surface
 is an example of a surface resolution of 12 for both U and V.
 
 .. figure:: /images/NurbsSurfaceResoltion.jpg
