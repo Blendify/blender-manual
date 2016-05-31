@@ -3,7 +3,6 @@
 Introduction
 ************
 
-
 Common Options
 ==============
 
@@ -12,9 +11,8 @@ Common Options
 Animated Mesh/Export
 --------------------
   
-Click this button if the network is animated (eg . Deformed by an armature ,
-shape keys (shape keys) or lattice).
-It can become very slow and is not necessary if the network is animated IPO position and rotation
+Click this button if the network is animated (eg . Deformed by an armature, shape keys, or lattice).
+It can become very slow and is not necessary if the network's position and rotation are animated.
 (ie only object transformations).
 
 .. _fluid-initialization:

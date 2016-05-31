@@ -42,7 +42,7 @@ The copy is created at the same position as the original object and you are auto
 See the example below.
 
 This copy is a new object, which shares some data-blocks with the original object
-(by default, all the Materials, Textures, and Ipos), but which has copied others,
+(by default, all the Materials, Textures, and F-Curves), but which has copied others,
 like the mesh, for example.
 This is why this form of duplication is sometimes called "shallow link",
 because not all data-blocks are shared; some of them are "hard copied"!
