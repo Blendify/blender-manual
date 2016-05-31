@@ -9,17 +9,38 @@ Time Node
 
    Time Node.
 
-The Time node generates a *fac* tor value (from 0.00 to 1.00)
-(that changes according to the curve was drawn) as time progresses through your movie (frames).
+Input
+=====
 
-The *Start* and *End* NumButtons specify the range of time the values
-should be output along, and this range becomes the X-axis of the graph.
-The curve defines the Y-value and hence the factor that is output.
-In the example to the right,
-since the time span is 250 frames and the line is straight from corner to corner,
-0.50 would be output at frame 125, and 0.75 will be output at frame 187.
+None.
 
-.. note:: Note on output values
+Options
+=======
+
+Curve
+   The Y-value defined by the curve is the factor output. 
+   For the curve controls see: :ref:`Curve widget <ui-color_ramp_widget>`.
+
+   .. tip::
+
+      Flipping the curve around reverses the time input, but
+      doing so is easily overlooked in the node setup.
+
+Start, End
+   Start frame and End frame of the range of time specifying the values
+   the output should last. This range becomes the X-axis of the graph.
+   The time input could be reversed by specifying a start frame greater than the end frame.
+
+Output
+======
+
+Fac
+   A speed of time factor (from 0.00 to 1.00) relative to the frame rate 
+   defined in the :ref:`Render Dimensions Panel <render_output-dimensions>`. 
+   The factor changes according to the defined curve.
+
+
+.. hint:: Output values
 
    The :doc:`Map Value </compositing/types/vector/map_value>`
    node can be used to map the output to a more appropriate value.
@@ -27,60 +48,10 @@ since the time span is 250 frames and the line is straight from corner to corner
    To be safe, use the Min/Max clamping function of the Map Value node to limit output.
 
 
-You can reverse time (unfortunately, only in Blender and not in the real world)
-by specifying a Start frame greater than the End frame.
-The net effect of doing so is to flip the curve around. Warning:
-doing so is easily overlooked in your node map and can be very confusing
-(like meeting your mother when she was/is your age in "Back to the Future").
-
-
-.. note:: Time is Relative
-
-   In Blender, time is measured in frames.
-   The actual duration of a time span depends on how fast those frames whiz by (frame rate).
-   You set the frame rate in your animation settings (:ref:`Render Dimensions Panel <render_output-dimensions>`).
-   Common settings range from 5 seconds per frame for slideshows (0.2 fps), to 30 fps for US movies.
-
-
-Time Node Examples
-==================
-
-In the picture below, over the course of a second of time (30 frames),
-the following time controls are made:
-
+Examples
+========
 
 .. figure:: /images/Compositing-Time.jpg
 
-   See:
+   Time controls from left to right: no effect, slow down, freeze, accelerate, reverse
 
-   A) No Effect
-   B) Slow Down
-   C) Freeze
-   D) Accelerate
-   E) Reverse
-
-
-Common uses for this include a
-:doc:`"fade to black" </compositing/types/converter/set_alpha>`,
-wherein the accelerate time curve (typically exponentially-shaped)
-feeds a mix value that mixes a constant black color in,
-so that the blackness accelerates and eventually darkens the image to total black.
-Other good uses include an increasing soften (blur-out or -in) effect,
-or :doc:`fade-in </compositing/types/converter/set_alpha>` a background or foreground,
-instead of just jumping things into or out of the scene.
-
-
-You can even imagine hooking up one blur to a background render layer,
-another inverted blur to a foreground render layer, and time feeding both.
-This node group would simulate someone focusing the camera lens.
-
-
-Usage
-=====
-
-As your imagination runs wild, consider a few ideas that came to me just now on my couch:
-mixing a clouds texture with a time input to fog up a piece of glass or show spray paint
-building up on a wall. Consider mixing red and the soften with time (decreasing output)
-to show what someone sees when waking up from a hard hit on the head.
-Mix HSV input with a starfield image with time (decreasing output)
-to show what we might see someday as we accelerate our starship and experience red-shift.

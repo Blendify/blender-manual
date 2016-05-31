@@ -12,6 +12,10 @@ Mask
 The Mask input node can be used to select a :doc:`Mask Datablock </editors/movie_clip_editor/masking>`.
 This node can be used with other nodes, for example to Invert, Multiply or Mix, or use as a factor input.
 
+Input
+=====
+
+None.
 
 Options
 =======
