@@ -7,6 +7,47 @@ Movie Clip
    :align: right
    :width: 150px
 
-   Mask Node.
+   Movie clip node.
 
-TODO - see: https://developer.blender.org/T43469
+This node is a special node that uses some of the values taken from
+ footage cameras and links them to the output.
+It is possible to load image sequences, but only Image and Alfa values 
+will be available, because  the other outputs won't have any values 
+associated with them.
+There are no controls to start and end frames.
+
+Input
+=====
+
+None.
+
+Options
+=======
+
+- a preloaded footage could be loaded by clicking on image file icon to the left and 
+  selecting it from the list.
+- or by clicking the *Open* button to select a file/s via the :doc:`file-browser </editors/file_browser/introduction>`.
+
+
+Output
+======
+
+The first two sockets are the minimum output.
+
+Image
+      Outputs the entire image at the specified color space.
+
+Alfa
+      The alfa value taken from the movie or image
+
+Offset X
+      The X offset value from the footage camera
+
+Offset Y
+      The Y offset value from the footage camera
+
+Scale
+      The scale of the image taken from the footage camera
+
+Angle 
+      The lens angle taken from the footage camera
