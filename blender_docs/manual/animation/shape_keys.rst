@@ -100,7 +100,7 @@ Show Active
    *Show Active* is enabled while the object is in *Edit Mode*, unless the setting below is enabled.
 
 Edit Mode
-   Modify the shape key settings while the object is in *Edit mode*.
+   Modify the shape key settings while the object is in *Edit Mode*.
 
 
 Relative Shape Keys

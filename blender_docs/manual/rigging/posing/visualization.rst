@@ -7,7 +7,7 @@ Visualization
 We talk in :doc:`this page </rigging/armatures/visualization>`
 about the armature visualization options available in all modes (the visualization types, the bones' shapes, etc.).
 
-In *Pose mode*, you have extra features,
+In *Pose Mode*, you have extra features,
 `Colors`_ to help you visually categorize your bones,
 `Ghosts`_ and
 `Motion Paths`_ to help you visualize armatures' animations.
@@ -16,7 +16,7 @@ In *Pose mode*, you have extra features,
 Colors
 ======
 
-In *Pose mode*, the bones can have different colors,
+In *Pose Mode*, the bones can have different colors,
 following two different processes, controlled by the *Color* button
 (*Armature* panel, *Editing* context):
 
@@ -117,7 +117,7 @@ Ghosts
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Pose mode
+   | Mode:     Pose Mode
    | Panel:    *Visualisations*
 
 
@@ -136,7 +136,7 @@ you might know that drawing artists use tracing paper heavily,
 to see several frames preceding the one they are working on.
 This allows them to visualize the overall movement of their character,
 without having to play it back... Well,
-Blender features something very similar for armatures in *Pose mode*: the "ghosts".
+Blender features something very similar for armatures in *Pose Mode*: the "ghosts".
 
 
 .. figure:: /images/RiggingEditingObjectDataPropertyCxtGhostPanel.jpg
@@ -149,7 +149,7 @@ The ghosts are simply black drawings (more or less opaque)
 of the bones' outlines as they are at certain frames.
 
 The ghosts settings are found in the *Visualisations* panel
-(*Editing* context), only available in *Pose mode*.
+(*Editing* context), only available in *Pose Mode*.
 You have three different types of ghosts, sharing more or less the same options:
 
 Around Current Frame
@@ -206,7 +206,7 @@ Motion Paths
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Pose mode
+   | Mode:     Pose Mode
    | Panel:    *Visualisations*
    | Menu:     :menuselection:`Pose --> Motion Paths --> ...`
    | Hotkey:   :kbd:`W-3`, :kbd:`W-4`

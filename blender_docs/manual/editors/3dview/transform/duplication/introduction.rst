@@ -32,7 +32,7 @@ Duplicate
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit and Object modes
+   | Mode:     Edit and Object Modes
    | Menu:     :menuselection:`Object --> Duplicate`
    | Hotkey:   :kbd:`Shift-D`
 
@@ -80,7 +80,7 @@ Linked Duplicates
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object mode
+   | Mode:     Object Mode
    | Menu:     :menuselection:`Object --> Duplicate Linked`
    | Hotkey:   :kbd:`Alt-D`
 
@@ -88,7 +88,7 @@ Linked Duplicates
 You also have the choice of creating a *Linked Duplicate* rather than a *Duplicate*;
 this is called a deep link.
 This will create a new object with **all** of its data linked to the original object.
-If you modify one of the linked objects in *Edit mode*,
+If you modify one of the linked objects in *Edit Mode*,
 all linked copies are modified. Transform properties (object data-blocks) still remain copies,
 not links, so you still can rotate, scale, and move freely without affecting the other copy.
 Reference Expl. :ref:`Duplicate Example <expl-object-link-duplicate>` for the discussions below.
@@ -118,7 +118,7 @@ Examples
 
 The left cone is a *Linked Duplicate* of the middle cone (using :kbd:`Alt-D`).
 
-- As a vertex is moved in *Edit mode* in one object, the same vertex is moved in the original cone as well.
+- As a vertex is moved in *Edit Mode* in one object, the same vertex is moved in the original cone as well.
   The mesh data are links, not copies.
 - In contrast, if one of these two cones is rotated or rescaled in object mode, the other remains unchanged.
   The transform properties are copied, not linked.
@@ -138,7 +138,7 @@ Procedural Duplication
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:    Object mode and Edit mode
+   | Mode:    Object Mode and Edit Mode
    | Panel:    :menuselection:`Object settings`
 
 

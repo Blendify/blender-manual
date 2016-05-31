@@ -7,7 +7,7 @@ Basic Selection
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Hotkey:   :kbd:`RMB` and :kbd:`Shift-RMB`
 
 
@@ -21,12 +21,12 @@ Adding to a Selection
 To add to the existing selection, hold down :kbd:`Shift` while right clicking.
 Clicking again on a selected item will deselect it.
 
-As in *Object mode*, there is a unique *active* element,
+As in *Object Mode*, there is a unique *active* element,
 displayed in a lighter shade (in general, the last element selected).
 Depending on the tools used, this element might be very important!
 
 Note that there is no option to choose what element to select between overlapping ones
-(like the :kbd:`Alt-RMB` click in *Object mode*). However,
+(like the :kbd:`Alt-RMB` click in *Object Mode*). However,
 if you are in solid, shaded, or textured viewport shading mode
 (not bounding box or wireframe),
 you will have a fourth button in the header that looks like a cube,
@@ -43,14 +43,14 @@ Selecting Elements in a Region
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Hotkey:   :kbd:`B`, :kbd:`C`, and :kbd:`Ctrl-LMB` click and drag
 
 
 Region selection allows you to select groups of elements within a 2D region in your 3D view.
 The region can be either a circle or rectangle.
-The circular region is only available in *Edit mode*. The rectangular region,
-or *Border Select, is available in both *Edit mode* and *Object mode*.
+The circular region is only available in *Edit Mode*. The rectangular region,
+or *Border Select, is available in both *Edit Mode* and *Object Mode*.
 
 
 .. note::
@@ -68,7 +68,7 @@ or *Border Select, is available in both *Edit mode* and *Object mode*.
 Rectangular region (Border select)
 ----------------------------------
 
-*Border Select* is available in either *Edit mode* or *Object mode*. To activate the tool use the :kbd:`B`.
+*Border Select* is available in either *Edit Mode* or *Object Mode*. To activate the tool use the :kbd:`B`.
 Use *Border Select* to select a group of objects by drawing a rectangle while holding down :kbd:`LMB`.
 In doing this you will select all objects that lie within or touch this rectangle.
 If any object that was last active appears in the group it will become selected *and* active.
@@ -107,7 +107,7 @@ by releasing :kbd:`LMB` the selection is complete; see Fig. Complete.
 Circular region
 ---------------
 
-This selection tool is only available in *Edit mode* and can be activated with :kbd:`C`.
+This selection tool is only available in *Edit Mode* and can be activated with :kbd:`C`.
 Once in this mode the cursor changes to a dashed cross-hair with a 2D circle surrounding it.
 The tool will operate on whatever the current select mode is.
 Clicking or dragging with the :kbd:`LMB`,
@@ -150,7 +150,7 @@ except *Lasso* is a hand-drawn region that generally forms a circular/round-shap
 
 *Lasso* is available in either *Edit Mode* or *Object Mode*.
 To activate the tool use the :kbd:`Ctrl-LMB` while dragging.
-The one difference between *Lasso* and *Border* select is that in *Object mode*,
+The one difference between *Lasso* and *Border* select is that in *Object Mode*,
 *Lasso* only selects objects where the lasso region intersects the objects' center.
 
 To deselect, use :kbd:`Ctrl-Shift-LMB` while dragging.

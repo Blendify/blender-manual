@@ -163,5 +163,5 @@ you can hotkey your chosen axis of orientation by hitting the relevant axis modi
 
 .. tip::
 
-   Moving an object in Object mode changes the object's origin.
+   Moving an object in Object Mode changes the object's origin.
    Moving the object's vertices/edges/faces in Edit Mode does not change the object's origin.

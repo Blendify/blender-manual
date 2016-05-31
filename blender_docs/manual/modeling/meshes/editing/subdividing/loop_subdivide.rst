@@ -7,7 +7,7 @@ Loop Subdivide
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Panel:    :menuselection:`Editing context --> Mesh Tools`
    | Hotkey:   :kbd:`Ctrl-R`
 

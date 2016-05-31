@@ -6,7 +6,7 @@ Scale
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object and Edit modes
+   | Mode:     Object and Edit Modes
    | Menu:     :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Scale`
    | Hotkey:   :kbd:`S`
 

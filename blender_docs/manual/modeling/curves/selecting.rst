@@ -4,7 +4,7 @@
 Curve Selection
 ***************
 
-Curve selection in *Edit mode* is much less complex than with meshes! Mainly this is
+Curve selection in *Edit Mode* is much less complex than with meshes! Mainly this is
 because you have only one selectable element type, the control points
 (no select mode needed here...). These points are a bit more complex than simple vertices,
 however, especially for Béziers, as there is the central vertex, and its two handles...
@@ -34,8 +34,8 @@ the 3D views header. Let's detail them.
 - *Select/Deselect All*
 
 Border Select
-   All these options have the same meaning and behavior as in :doc:`Object mode </editors/3dview/selecting>`
-   (and the specifics of *Border Select* in *Edit mode* have already been discussed
+   All these options have the same meaning and behavior as in :doc:`Object Mode </editors/3dview/selecting>`
+   (and the specifics of *Border Select* in *Edit Mode* have already been discussed
    :doc:`here </modeling/meshes/selecting/introduction>`).
 
 
@@ -47,7 +47,7 @@ Checker Deselect
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Select --> Checker Deselect`
    | Hotkey:   None
 
@@ -71,7 +71,7 @@ Select/Deselect First/Last
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Select --> Select/Deselect First`, :menuselection:`Select --> Select/Deselect Last`
    | Hotkey:   None
 
@@ -87,7 +87,7 @@ Select Next/Previous
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Select --> Select Next`, :menuselection:`Select --> Select Previous`
    | Hotkey:   None
 
@@ -103,7 +103,7 @@ Select More / Less
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Select --> More/Less`
    | Hotkey:   :kbd:`Ctrl-NumpadPlus` / :kbd:`Ctrl-NumpadMinus`
 

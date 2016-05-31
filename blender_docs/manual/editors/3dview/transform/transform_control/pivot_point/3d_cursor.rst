@@ -6,7 +6,7 @@
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object mode and Edit mode
+   | Mode:     Object Mode and Edit Mode
    | Hotkey:   :kbd:`.`
 
 

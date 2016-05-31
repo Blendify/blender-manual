@@ -7,7 +7,7 @@ Make Edge/Face
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Faces --> Make Face/Edge`
    | Hotkey:   :kbd:`F`
 

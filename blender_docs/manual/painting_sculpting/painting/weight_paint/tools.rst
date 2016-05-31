@@ -9,7 +9,7 @@ Weight Tools
 
 
 Blender provides a set of helper tools for Weight Painting.
-The tools are accessible from the Tool Shelf in Weight Paint mode.
+The tools are accessible from the Tool Shelf in Weight Paint Mode.
 And they are located in the weight tools panel.
 
 
@@ -346,7 +346,7 @@ If they are placed side by side, then the weight transfer won't work.
 You can place the objects on different layers,
 but you have to ensure that all objects are visible when you call the tool.
 
-Now ensure that the Target Object is in Weight Paint mode.
+Now ensure that the Target Object is in Weight Paint Mode.
 
 
 Call the Tool

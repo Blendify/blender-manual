@@ -10,7 +10,7 @@ X-Mirror
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Panel:    :menuselection:`Mesh Options --> X-mirror`
 
 
@@ -66,7 +66,7 @@ Snap to Symmetry
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Snap to Symmetry`
 
 
@@ -107,7 +107,7 @@ Symmetrize Mesh
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Symmetrize`
 
 

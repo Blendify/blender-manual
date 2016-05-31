@@ -18,10 +18,10 @@ Select Mode Header Widgets
 .. figure:: /images/Modeling-Meshes-Selection-mode-buttons.jpg
    :width: 190px
 
-   Edit mode selection buttons.
+   Edit Mode selection buttons.
 
 
-In *Edit mode* there are three different selection modes.
+In *Edit Mode* there are three different selection modes.
 You can enter the different modes by selecting one of the three buttons in the toolbar.
 
 Vertices
@@ -55,7 +55,7 @@ Select Mode Pop-up
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Hotkey:   :kbd:`Ctrl-Tab`
 
 

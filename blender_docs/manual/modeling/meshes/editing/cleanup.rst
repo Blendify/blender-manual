@@ -12,7 +12,7 @@ Fill Holes
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Clean up --> Fill Holes`
 
 
@@ -32,7 +32,7 @@ Split Non-Planar Faces
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Clean up --> Split Non-Planar Faces`
 
 
@@ -46,7 +46,7 @@ Delete Loose Geometry
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Clean up --> Delete Loose`
 
 
@@ -59,7 +59,7 @@ Degenerate Dissolve
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Clean up --> Degenerate Dissolve`
 
 

@@ -39,17 +39,17 @@ The armature object
 As you can see, an armature is like any other object type in Blender:
 
 - It has a center, a position, a rotation and a scale factor.
-- It has an ObData data-block, that can be edited in *Edit mode*.
+- It has an ObData data-block, that can be edited in *Edit Mode*.
 - It can be linked to other scenes, and the same armature data can be reused on multiple objects.
-- All animation you do in *Object mode* is only working on the whole object,
-  not the armature's bones (use the *Pose mode* to do this).
+- All animation you do in *Object Mode* is only working on the whole object,
+  not the armature's bones (use the *Pose Mode* to do this).
 
 As armatures are designed to be posed, either for a static or animated scene,
 they have a specific state, called "rest position". This is the armature's default "shape",
-the default position/rotation/scale of its bones, as set in *Edit mode*.
+the default position/rotation/scale of its bones, as set in *Edit Mode*.
 
-In *Edit mode*, you will always see your armature in rest position,
-whereas in *Object mode* and *Pose mode*,
+In *Edit Mode*, you will always see your armature in rest position,
+whereas in *Object Mode* and *Pose Mode*,
 you usually get the current "pose" of the armature
 (unless you enable the *Rest Position* button of the *Armature* panel).
 

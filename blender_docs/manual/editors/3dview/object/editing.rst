@@ -13,7 +13,7 @@ Join
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object mode
+   | Mode:     Object Mode
    | Menu:     :menuselection:`Object --> Join`
    | Hotkey:   :kbd:`Ctrl-J`
 
@@ -39,7 +39,7 @@ Separate
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Vertices --> Separate`
    | Hotkey:   :kbd:`P`
 

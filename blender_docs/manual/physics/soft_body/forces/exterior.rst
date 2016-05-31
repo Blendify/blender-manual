@@ -130,12 +130,12 @@ Default
 
    Often :ref:`painting_weight-index` is used to adjust the weight comfortably.
    For non-mesh objects the *Weight* parameter of their vertices/controlpoints is used instead
-   (:kbd:`W` in *Edit mode*) or use the *Transform Properties* panel.
+   (:kbd:`W` in *Edit Mode*) or use the *Transform Properties* panel.
    The weight of *Hair* particles can also be painted in :doc:`Particle Mode </physics/particles/mode>`.
 
 
 Minimum / Maximum
-   When you paint the values in vertex-groups (using *WeightPaint mode*),
+   When you paint the values in vertex-groups (using *WeightPaint Mode*),
    you can use the *G Min* and *G Max* to fine-tune (clamp) the weight values.
    The lowest vertex-weight (blue) will become *G Min*, the highest value
    (red) becomes *G Max* (please note that the blue-red color scale may be altered by User Preferences).

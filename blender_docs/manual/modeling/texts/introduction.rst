@@ -12,7 +12,7 @@ Introduction
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode (Text)
+   | Mode:     Edit Mode (Text)
    | Panel:    *Curve and Surface*, *Font* and *Char* (*Editing* context)
    | Menu:     :menuselection:`Add --> Text`
 
@@ -39,7 +39,7 @@ By default, letters are just flat filled surfaces, exactly like any closed 2D cu
 But you can of course extrude them... And texts can follow other curves.
 
 Of course, once you are happy with the shape of your text, you can convert it
-(with :kbd:`Alt-C`, in *Object mode*), either to a curve,
+(with :kbd:`Alt-C`, in *Object Mode*), either to a curve,
 or directly to a mesh,
 allowing you to use all the powerful features of these types of objects on it...
 
@@ -52,7 +52,7 @@ including the "blue" font that has been applied to a curve path.
    be forewarned that the more characters a single text object has,
    the slower the object will respond interactively.
 
-   As you can see when you switch between *Object mode* and *Edit mode*,
+   As you can see when you switch between *Object Mode* and *Edit Mode*,
    the *Font* panel remains the same. This means that its settings can be applied
    equally in both modes ... and this implies that you cannot apply them to just a part of the
    mesh. So font, size, and so on, are common to all letters in a *Text* object.
@@ -70,19 +70,19 @@ Editing Text
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Hotkey:   see below
 
 
 .. figure:: /images/modelling-text-create-ex.jpg
    :width: 300px
 
-   Text in Edit mode.
+   Text in Edit Mode.
 
 
 Editing text is quite different from other object types in Blender, and happens mainly in two areas.
 First, the 3D view, of course, where you type your text, and have a few shortcuts, e.g. for applying
-styles (see `Character`_) - note however that most Blender hotkeys you know in *Edit mode*
+styles (see `Character`_) - note however that most Blender hotkeys you know in *Edit Mode*
 do not exist for texts! The second place is the *Button* window
 (*Editing* context), especially the *Font* panel.
 
@@ -93,9 +93,9 @@ However, you can apply to texts the same modifiers as for curves.
 Editing *Text* is similar to using a standard text editor but is not as
 full-featured and has some differences:
 
-Exit *Edit* mode
+Exit *Edit Mode*
    :kbd:`Tab` doesn't insert a tab character in the text,
-   but rather enters and exits *Edit mode*, as with other object types.
+   but rather enters and exits *Edit Mode*, as with other object types.
 Copy
    To copy text to the buffer, use :kbd:`Ctrl-C` or the *Copy* button in the tool shelf.
 Cut and Copy
@@ -132,7 +132,7 @@ Special Characters
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Text --> Special Characters`
 
 If you need special characters (such as accented chars, which aren't on your keyboard)
@@ -208,10 +208,10 @@ Text Selection
 .. figure:: /images/modelling-text-create-ex.jpg
    :width: 200px
 
-   Text in Edit mode.
+   Text in Edit Mode.
 
 
-In *Edit mode*, your text has a white cursor, and as in any text editor,
+In *Edit Mode*, your text has a white cursor, and as in any text editor,
 it determines where new chars will be inserted! You move this cursor with the arrow keys or
 :kbd:`PageUp` / :kbd:`PageDown` and :kbd:`Home` / :kbd:`End` keys.
 
@@ -229,7 +229,7 @@ Fonts
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Panel:    *Font* (*Editing* context)
 
 
@@ -466,7 +466,7 @@ Shape
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object or Edit mode
+   | Mode:     Object or Edit Mode
    | Panel:    *Curve and Surface* (*Editing* context)
 
 

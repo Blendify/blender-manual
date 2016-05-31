@@ -6,7 +6,7 @@ Curve Extrusion
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object or Edit mode
+   | Mode:     Object or Edit Mode
    | Panel:    *Curve and Surface*
 
 
@@ -160,11 +160,11 @@ Examples
 .. TODO: add some "bevel" extrusion with *Radius* examples.
 
 Let's taper a simple curve circle extruded object using a taper curve. Add a curve,
-then exit *Edit mode*. Add another one (a closed one, like a circle); call it "BevelCurve",
+then exit *Edit Mode*. Add another one (a closed one, like a circle); call it "BevelCurve",
 and enter its name in the *BevOb* field of the first curve
 (*Editing* context *Curve and Surface* panel).
 We now have a pipe.
-Add a third curve while in *Object mode* and call it "TaperCurve".
+Add a third curve while in *Object Mode* and call it "TaperCurve".
 Adjust the left control-point by raising it up about 5 units.
 
 Now return to the *Editing* context,

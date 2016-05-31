@@ -6,7 +6,7 @@ Bounding Box Center
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object mode and Edit mode
+   | Mode:     Object Mode and Edit Mode
    | Menu:     Select from the following icon in the 3D window header
 
    .. figure:: /images/Icon-library_3D-Window_header-pivot-point.jpg
@@ -30,10 +30,10 @@ Read more about selecting different
    Relationship between an Object and its Bounding Box.
 
 
-In Object mode
+In Object Mode
 ==============
 
-In *Object mode*, the bounding box is wrapped around the Object and transformation
+In *Object Mode*, the bounding box is wrapped around the Object and transformation
 takes place relative to the location of the Object center (indicated by the yellow circle).
 The image below shows the results of using the Bounding Box as the pivot point in a number of
 situations.
@@ -53,11 +53,11 @@ the pivot point is calculated based on the Bounding Box of all the selected Obje
    The pivot point is shown by a yellow circle.
 
 
-In Edit mode
+In Edit Mode
 ============
 
 This time it is the ObData that is enclosed in the bounding box.
-The bounding box in *Edit mode* takes no account of the Object(s) centers,
+The bounding box in *Edit Mode* takes no account of the Object(s) centers,
 only the center of the selected vertices.
 
 

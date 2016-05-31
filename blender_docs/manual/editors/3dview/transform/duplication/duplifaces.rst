@@ -6,7 +6,7 @@ DupliFaces
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object mode
+   | Mode:     Object Mode
    | Panel:    :menuselection:`Object --> Duplication`
 
 
@@ -29,7 +29,7 @@ Basic Usage
 
 
 In this example we will use a UV sphere with an extruded "north pole" as our base object and
-cube as our parent mesh. To parent the sphere to the cube, in *Object mode*,
+cube as our parent mesh. To parent the sphere to the cube, in *Object Mode*,
 first :kbd:`RMB` select the sphere, then :kbd:`Shift-RMB` select the cube
 (order is very important here), and finally :kbd:`Ctrl-P` to parent.
 
@@ -38,7 +38,7 @@ first :kbd:`RMB` select the sphere, then :kbd:`Shift-RMB` select the cube
    Duplication Faces applied to the cube.
 
 
-Next, in the *Object mode* *Duplication* panel,
+Next, in the *Object Mode* *Duplication* panel,
 enable *Faces*. The sphere is duplicated one for each face of the cube.
 
 .. note:: Inherited properties
@@ -88,7 +88,7 @@ tools which allow you to adjust the ordering of the vertices on a face.
 However, there is a workflow that lets you control for this. Make a single square and enable
 the Duplication / Faces so you can see the duplicated geometry in your editor window.
 If the orientation is not what you want, rotate the face until it is how you want.
-Typically you want to do the rotation in Edit mode, not Object mode,
+Typically you want to do the rotation in Edit Mode, not Object Mode,
 but this is not a hard rule.
 
 Once you have the orientation correct,

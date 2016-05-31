@@ -81,7 +81,7 @@ Grab
    *Grab* is used to drag a group of points around.
    Unlike the other brushes, *Grab* does not modify different points as the brush is dragged across the model.
    Instead, *Grab* selects a group of vertices on mousedown, and pulls them to follow the mouse.
-   The effect is similar to moving a group of vertices in *Edit mode* with proportional-editing enabled,
+   The effect is similar to moving a group of vertices in *Edit Mode* with proportional-editing enabled,
    except that *Grab* can make use of other Sculpt Mode options (like textures and symmetry).
 Inflate
    Similar to *Draw*, except that vertices in *Inflate* mode are displaced in the direction of their own normals.
@@ -350,8 +350,8 @@ Tool Menu
 
 Here you can select the type of brush preset to use.
 *Reset Brush* will return the settings of a brush to its defaults.
-You can also set Blender to use the current brush for *Vertex Paint mode*,
-*Weight Paint mode*, and *Texture Paint mode* using the toggle buttons.
+You can also set Blender to use the current brush for *Vertex Paint Mode*,
+*Weight Paint Mode*, and *Texture Paint Mode* using the toggle buttons.
 
 
 Hiding and Masking Mesh

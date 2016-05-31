@@ -10,7 +10,7 @@ The objects location and rotation values return to 0, and the scale returns to 1
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object mode
+   | Mode:     Object Mode
    | Menu:     :menuselection:`Object --> Clear --> Clear Location/Clear Scale/Clear Rotation/Clear Origin`
    | Hotkey:   :kbd:`Alt-G`, :kbd:`Alt-S`, :kbd:`Alt-R`, :kbd:`Alt-O`
 
@@ -46,7 +46,7 @@ Apply Object transformations
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object mode
+   | Mode:     Object Mode
    | Menu:     :menuselection:`Object --> Apply -->`
    | Hotkey:   :kbd:`Ctrl-A`
 

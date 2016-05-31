@@ -54,11 +54,11 @@ Parent to Vertex
 ================
 
 The easiest way to accomplish this is to select your object and :kbd:`Tab` to
-*Edit mode*.
-Now select the vertex and :kbd:`Tab` back to *Object mode*.
+*Edit Mode*.
+Now select the vertex and :kbd:`Tab` back to *Object Mode*.
 
 Next, without any objects selected, select the camera and, holding the :kbd:`Shift` key,
-select the object. :kbd:`Tab` into *Edit mode*,
+select the object. :kbd:`Tab` into *Edit Mode*,
 and :kbd:`Ctrl-P` and choose *Make vertex parent*.
 
 Now the camera will follow the object and it will maintain its rotation,
@@ -71,7 +71,7 @@ Object as a Camera
 Any object may also become a camera with whatever properties are set for the object.
 
 To make an object the camera,
-in *Object mode* select the object and press :kbd:`Ctrl-Numpad0` on the numpad.
+in *Object Mode* select the object and press :kbd:`Ctrl-Numpad0` on the numpad.
 
 To reverse it, just select the camera and :kbd:`Ctrl-Numpad0` again.
 

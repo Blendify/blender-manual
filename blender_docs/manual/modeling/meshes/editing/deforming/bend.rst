@@ -6,7 +6,7 @@ Bend
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object and Edit modes
+   | Mode:     Object and Edit Modes
    | Menu:     :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Bend`
    | Hotkey:   :kbd:`Shift-W`
 

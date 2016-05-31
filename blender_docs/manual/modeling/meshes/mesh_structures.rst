@@ -16,13 +16,13 @@ Vertices
 
 
 A vertex is primarily a single point or position in 3D space.
-It is usually invisible in rendering and in *Object mode*.
+It is usually invisible in rendering and in *Object Mode*.
 Don't mistake the center point of an object for a vertex. It looks similar,
 but it's bigger and you can't select it. Fig. Vertex example
 shows the center point labeled as 
 "A", "B" and "C" are vertices.
 
-A simple way to create a new vertex is to click :kbd:`Ctrl-LMB` in *Edit mode*.
+A simple way to create a new vertex is to click :kbd:`Ctrl-LMB` in *Edit Mode*.
 Of course, as a computer screen is two-dimensional,
 Blender can't determine all three vertex coordinates from a single mouse click,
 so the new vertex is placed at the depth of the 3D cursor. Using the method described above,
@@ -58,7 +58,7 @@ On the other hand,
 quadrangles "deform well" and are therefore preferred for subdivision modeling.
 
 While you could build a cube with triangular faces,
-it would just look more confusing in *Edit mode*.
+it would just look more confusing in *Edit Mode*.
 
 
 Loops

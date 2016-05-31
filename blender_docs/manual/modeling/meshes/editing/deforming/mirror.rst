@@ -7,15 +7,15 @@ Mirror
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Mirror --> Desired Axis`
    | Hotkey:   :kbd:`Ctrl-M`
 
 
 The mirror tool mirrors a selection across a selected axis.
 
-The mirror tool in *Edit mode* is similar to
-:doc:`Mirroring in Object mode </modeling/meshes/editing/duplicating/mirror>`.
+The mirror tool in *Edit Mode* is similar to
+:doc:`Mirroring in Object Mode </modeling/meshes/editing/duplicating/mirror>`.
 It is exactly equivalent to scaling by -1 vertices,
 edges or faces around one chosen pivot point and in the direction of one chosen axis, only it is faster/handier.
 
@@ -46,8 +46,8 @@ If the widget is turned on it will always show where the pivot point is.
 
 
 On Fig. Mirror around the Individual Centers ... the pivot point default to
-median point of the selection of vertices in *Edit mode*.
-This is a special case of the *Edit mode* as explained on the
+median point of the selection of vertices in *Edit Mode*.
+This is a special case of the *Edit Mode* as explained on the
 :doc:`pivot point page </editors/3dview/transform/transform_control/pivot_point/index>`.
 
 .. list-table::

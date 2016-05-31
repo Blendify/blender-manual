@@ -3,7 +3,7 @@
 Selecting
 *********
 
-Surface selection in *Edit mode* is very similar to
+Surface selection in *Edit Mode* is very similar to
 :doc:`NURBS curve selection </modeling/curves/editing/introduction>`.
 The basic tools are the same as with :doc:`meshes </modeling/meshes/selecting/introduction>`,
 so you can select a simple control point with a :kbd:`LMB` -click,
@@ -18,8 +18,8 @@ Select Menu
 
 The *Select* menu (3D view headers) is even simpler than for curves...
 
-   All these options have the same meaning and behavior as in :doc:`Object mode </editors/3dview/selecting>`
-   (and the specificities of *Border Select* in *Edit mode* have already been discussed
+   All these options have the same meaning and behavior as in :doc:`Object Mode </editors/3dview/selecting>`
+   (and the specificities of *Border Select* in *Edit Mode* have already been discussed
    :doc:`here </modeling/meshes/selecting/introduction>`).
 
 
@@ -34,7 +34,7 @@ Control Point Row
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Select --> Control Point Row`
    | Hotkey:   :kbd:`Shift-R`
 
@@ -54,7 +54,7 @@ More and Less
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Select --> More/Less`
    | Hotkey:   :kbd:`Ctrl-NumpadPlus` / :kbd:`Ctrl-NumpadMinus`
 

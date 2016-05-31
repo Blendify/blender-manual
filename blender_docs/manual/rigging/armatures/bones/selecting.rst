@@ -6,17 +6,17 @@ Selecting
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Panel:    :menuselection:`Bone` panel
 
 
-You can select and edit bones of armatures in *Edit mode* and in *Pose mode*.
-Here, we will see how to select bones in *Edit mode*.
-Selecting bones in *Pose mode* is similar to selecting in *Edit mode*
+You can select and edit bones of armatures in *Edit Mode* and in *Pose Mode*.
+Here, we will see how to select bones in *Edit Mode*.
+Selecting bones in *Pose Mode* is similar to selecting in *Edit Mode*
 with a few specific differences that will be detailed in the :doc:`posing part </rigging/posing/editing>`.
 
 Similar to :doc:`vertices/edges selection </modeling/meshes/selecting/introduction>` in meshes,
-there are two ways to select whole bones in *Edit mode*:
+there are two ways to select whole bones in *Edit Mode*:
 
 - directly, by selecting the bone's body
 - selecting both of its end points (root and tip)

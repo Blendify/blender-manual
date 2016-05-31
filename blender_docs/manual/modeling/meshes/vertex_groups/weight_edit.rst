@@ -16,7 +16,7 @@ information about the weight values of each Vertex of a mesh.
 That is: to which Vertex Groups the vertex is assigned with which weight value.
 
 The Vertex Weights panel can be found in the right property sidebar of the 3D Viewport.
-It is available in Edit mode and in Weight Paint mode
+It is available in Edit Mode and in Weight Paint Mode
 (when Vertex Selection masking is enabled as well). The panel is separated into the sections
 
 - Vertex Group Categories (1)
@@ -110,7 +110,7 @@ Now you can see the weights of the active Vertex Group displayed on the mesh sur
 Edit Weights in Edit Mode
 =========================
 
-It is now very easy to work with Vertex Groups in Edit mode. All edit options of the mesh are
+It is now very easy to work with Vertex Groups in Edit Mode. All edit options of the mesh are
 available and you have direct visual control over how your Weights change when you edit the
 weight values.
 

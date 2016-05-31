@@ -11,12 +11,12 @@ selection or cursor to a given point while the second type is used during transf
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object and Edit mode
+   | Mode:     Object and Edit Mode
    | Hotkey:   :kbd:`Shift-S`
 
 
 The *Snap* menu
-(also available from the 3D header in both *Object mode* and *Edit mode*
+(also available from the 3D header in both *Object Mode* and *Edit Mode*
 :menuselection:`Object --> Snap` and :menuselection:`Mesh --> Snap`).
 This menu provides a number of options to move the cursor or your selection to a defined point
 (the cursor, selection or the grid).
@@ -91,7 +91,7 @@ Snap target options become active when either *Vertex*, *Edge*,
 These determine what part of the selection snaps to the target objects.
 
 Active
-   Moves the active element (vertex in Edit mode, object in Object mode) to the target.
+   Moves the active element (vertex in Edit Mode, object in Object Mode) to the target.
 Median
    Moves the median of the selection to the target.
 Center
@@ -122,11 +122,11 @@ Additional Snap Options
 
    * - .. figure:: /images/3D-interaction_Transform-Control_Snap-snap-options-object-mode.jpg
 
-          Object mode.
+          Object Mode.
 
      - .. figure:: /images/3D-interaction_Transform-Control_Snap-snap-options-edit-mode.jpg
 
-          Edit mode.
+          Edit Mode.
 
 
 As seen by the red highlighted areas in the image above,

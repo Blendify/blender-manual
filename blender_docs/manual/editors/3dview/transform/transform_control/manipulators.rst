@@ -6,7 +6,7 @@ Manipulators
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object and Edit modes
+   | Mode:     Object and Edit Modes
    | Hotkey:   :kbd:`Ctrl-Spacebar`
 
 
@@ -78,7 +78,7 @@ Choosing the Transform Orientation
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object and Edit modes
+   | Mode:     Object and Edit Modes
    | Hotkey:   :kbd:`Alt-Spacebar`
 
 
@@ -94,9 +94,9 @@ The image below shows a cube with the rotation manipulator active in multiple tr
 Notice how the manipulator changes depending on the orientation selected (compare A with F).
 
 Similarly, notice how when normal orientation (F and G)
-is selected the manipulator changes between *Object mode* and *Edit mode*.
+is selected the manipulator changes between *Object Mode* and *Edit Mode*.
 The normal orientation manipulator will also change depending on what is selected in
-*Edit mode* i.e. the orientation is based on the normal of the selection which will
+*Edit Mode* i.e. the orientation is based on the normal of the selection which will
 change depending on how many and which faces, edges or vertices are selected.
 
 

@@ -487,8 +487,8 @@ like a mosquito on a pulsing artery.
 Vertex Parent from Edit Mode
 ----------------------------
 
-In *Object mode*, select the child/children and then the parent object.
-:kbd:`Tab` into *Edit mode* and on the parent object select either one vertex
+In *Object Mode*, select the child/children and then the parent object.
+:kbd:`Tab` into *Edit Mode* and on the parent object select either one vertex
 that defines a single point, or select three vertices that define an area
 (the three vertices do not have to form a complete face;
 they can be any three vertices of the parent object),

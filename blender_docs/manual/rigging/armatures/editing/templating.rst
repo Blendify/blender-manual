@@ -20,7 +20,7 @@ Using Bone Sketching
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Panel:    *Bone Sketching* (*3D View* window)
    | Menu:     :menuselection:`Armature --> Bone Sketching`
    | Hotkey:   :kbd:`P`
@@ -93,7 +93,7 @@ OK now, here are some important ground rules:
   In general, it is a better idea to create new "templated" bones inside the "reference"
   armature, so you can precisely select which bones to use as template -
   if you want the new bones in a different armature, you can then use the *Separate*
-  :kbd:`Ctrl-Alt-P` and optionally *Join* (:kbd:`Ctrl-J` in *Object mode*) commands...
+  :kbd:`Ctrl-Alt-P` and optionally *Join* (:kbd:`Ctrl-J` in *Object Mode*) commands...
 - This tool only considers *one* chain of bones,
   so it's better to select only one chain of bones inside the current armature
   (or use a single-chain armature object as template).

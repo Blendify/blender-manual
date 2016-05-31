@@ -37,7 +37,7 @@ Since a mesh can have layers of UV Textures, there may be many images that color
 However, each UV Texture only has one image.
 
 Texture Paint works in both a 3D window and the UV/Image Editor window.
-In the 3D window in Texture Paint mode, you paint directly on the mesh by
+In the 3D window in Texture Paint Mode, you paint directly on the mesh by
 :ref:`projecting onto the UVs <painting_texture-index>`.
 
 
@@ -46,13 +46,13 @@ Getting Started
 
 Once you have unwrapped your model to a UV Map (as explained in previous pages),
 you can begin the texturing process.
-You cannot paint on a mesh in Texture Paint mode without **first** unwrapping your mesh,
+You cannot paint on a mesh in Texture Paint Mode without **first** unwrapping your mesh,
 **and** doing one of the following steps. Either:
 
 See: :doc:`Applyin Image </editors/uv_image/uv_editing/applying_image>`.
 
 After you have done one of these two things,
-you can modify the image using the Texture Paint mode:
+you can modify the image using the Texture Paint Mode:
 
 
 .. figure:: /images/texture-painting-paintMode.jpg
@@ -61,7 +61,7 @@ you can modify the image using the Texture Paint mode:
    Enabling paint mode.
 
 
-- In the 3D View window, select Texture Paint mode from the mode selector in the window header,
+- In the 3D View window, select Texture Paint Mode from the mode selector in the window header,
   and you can paint directly onto the mesh.
 - In the UV/Image Editor window, switch the editing context from View to Paint (shown to the right).
 
@@ -75,7 +75,7 @@ you can modify the image using the Texture Paint mode:
 Once you enable Texture Painting, your mouse becomes a brush. To work with the UV layout
 (for example, to move coordinates) you must go back to "View" mode.
 
-As soon as you enable Texture Painting or switch to Texture Paint mode,
+As soon as you enable Texture Painting or switch to Texture Paint Mode,
 brush settings become available in the Toolbar Panel :kbd:`T`.
 
 In the UV/Image Editor window,

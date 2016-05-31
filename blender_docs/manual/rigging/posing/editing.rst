@@ -11,7 +11,7 @@ Editing Poses
    Pose Tools.
 
 
-In *Pose mode*, bones behave like objects. So the transform actions
+In *Pose Mode*, bones behave like objects. So the transform actions
 (grab/rotate/scale, etc.) are very similar to the same ones in *Object* mode
 (all available ones are regrouped in the :menuselection:`Pose --> Transform` sub-menu). However,
 there are some important specificities:
@@ -27,10 +27,10 @@ there are some important specificities:
 Selecting Bones
 ===============
 
-Selection in *Pose mode* is very similar to the one in :doc:`Edit mode </rigging/armatures/bones/selecting>`,
+Selection in *Pose Mode* is very similar to the one in :doc:`Edit Mode </rigging/armatures/bones/selecting>`,
 with a few specificities:
 
-- You can only select *whole bones* in *Pose mode*, not roots/tips...
+- You can only select *whole bones* in *Pose Mode*, not roots/tips...
 - You can select bones based on their group and/or layer, through the *Select Grouped* pop-up menu :kbd:`Shift-G`:
 
   - To select all bones belonging to the same group(s) as the selected ones,
@@ -48,8 +48,8 @@ Basic Posing
 
 As previously noted,
 bones' transformations are performed based on the *rest position* of the armature,
-which is its state as defined in *Edit mode*. This means that in rest position,
-in *Pose mode*, each bone has a scale of 1.0, and null rotation and position
+which is its state as defined in *Edit Mode*. This means that in rest position,
+in *Pose Mode*, each bone has a scale of 1.0, and null rotation and position
 (as you can see it in the *Transform Properties* panel, in the 3D views,
 :kbd:`N`).
 
@@ -65,14 +65,14 @@ in *Pose mode*, each bone has a scale of 1.0, and null rotation and position
 Moreover, the local space for these actions is the bone's own one
 (visible when you enable the *Axes* option of the *Armature* panel).
 This is especially important when using axis locking - for example,
-there is no specific "bone roll" tool in *Pose mode*,
+there is no specific "bone roll" tool in *Pose Mode*,
 as you can rotate around the bone's main axis just by locking on the local Y axis
 :kbd:`R-Y-Y`... This also works with several bones selected;
 each one is locked to its own local axis!
 
 When you pose your armature,
 you are supposed to have one or more objects skinned on it! And obviously,
-when you transform a bone in *Pose mode*,
+when you transform a bone in *Pose Mode*,
 its related objects or object's shape is moved/deformed accordingly, in real time.
 Unfortunately, if you have a complex rig set-up and/or a heavy skin object,
 this might produce lag, and make interactive editing very painful.
@@ -105,16 +105,16 @@ available through the :menuselection:`Pose --> Scale Envelope Distance` menu ent
 *Envelope* visualization, even though it is always available...).
 
 Conversely, you may define the current pose as the new rest position (i.e.
-"apply" current transformations to the *Edit mode*),
+"apply" current transformations to the *Edit Mode*),
 using the :menuselection:`Pose --> Apply Pose as Restpose` menu entry
 (or :kbd:`Ctrl-A` and confirm the pop-up dialog). When you do so,
 the skinned objects/geometry is **also** reset to its default, undeformed state,
 which generally means you'll have to skin it again.
 
-Whereas in *Edit mode*, you always see your armature in its rest position,
-in *Object mode* and *Pose mode*
+Whereas in *Edit Mode*, you always see your armature in its rest position,
+in *Object Mode* and *Pose Mode*
 you see it by default in its *pose position* (i.e.
-as it was transformed in the *Pose mode*).
+as it was transformed in the *Pose Mode*).
 If you want to see it in the rest position in all modes,
 enable the *Rest Position* button in the *Armature* panel
 (*Editing* context).
@@ -139,7 +139,7 @@ Breakdowner :menuselection:`Pose --> In-Betweens --> Pose Breakdowner`, :kbd:`Sh
    Creates a suitable breakdown pose on the current frame
 
 
-There are also in *Pose mode* a bunch of armature-specific editing options/tools,
+There are also in *Pose Mode* a bunch of armature-specific editing options/tools,
 like :ref:`auto-bones naming <armature-editing-naming_bones>`,
 :ref:`properties switching/enabling/disabling <armature-bone_properties>`, etc.,
 that we already described in the armature editing pages - follow the links above...
@@ -151,7 +151,7 @@ Copy/Paste Pose
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Pose mode
+   | Mode:     Pose Mode
    | Panel:    *3D View* header
    | Menu:     :menuselection:`Pose --> Copy Current Pose`,
      :menuselection:`Pose --> Paste Pose`, :menuselection:`Pose --> Paste Flipped Pose`
@@ -159,7 +159,7 @@ Copy/Paste Pose
 
 .. figure:: /images/rigging-copyPastePose.jpg
 
-   Copy and paste pose buttons in the 3D View header in Pose mode.
+   Copy and paste pose buttons in the 3D View header in Pose Mode.
 
 
 Blender allows you to copy and paste a pose, either through the *Pose* menu, or
@@ -231,7 +231,7 @@ Here are important points:
 Effects of Bones Relationships
 ==============================
 
-Bones relationships are crucial in *Pose mode* - they have important effects on
+Bones relationships are crucial in *Pose Mode* - they have important effects on
 transformations behavior.
 
 By default, children bones inherit:
@@ -266,7 +266,7 @@ using their sub-panels in the *Armature Bones* panel:
 .. figure:: /images/RiggingEditingBoneCxtRelationsPanel.jpg
    :width: 200px
 
-   The Armature Bones panel in Pose mode.
+   The Armature Bones panel in Pose Mode.
 
 
 Inherit Rotation

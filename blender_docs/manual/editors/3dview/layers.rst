@@ -6,7 +6,7 @@ Layers
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object mode
+   | Mode:     Object Mode
    | Panel:    *Relations* (*Object* context)
    | Menu:     :menuselection:`Object --> Move to Layer...`
    | Hotkey:   :kbd:`M`
