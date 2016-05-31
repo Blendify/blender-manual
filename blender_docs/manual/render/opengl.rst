@@ -1,6 +1,5 @@
-
 .. |render-button| image:: /images/icons_render.png
-   :width: 50px
+   :width: 2.2em
 
 *************
 OpenGL Render

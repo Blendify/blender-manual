@@ -1,7 +1,7 @@
 .. |lock-button| image:: /images/icons_lock.png
-   :width: 25px
+   :width: 1.1em
 .. |unlock-button| image:: /images/icons_unlock.png
-   :width: 25px
+   :width: 1.1em
 
 ********************
 Transform Properties
@@ -67,7 +67,7 @@ Transform Properties Locking
 The locking feature of the Location, Rotation and Scale fields allows you to control a
 transform property solely from the properties panel.
 Once a lock has been activated any other methods used for transformation are blocked.
-For example, if you locked the *Location X* field then you can't use the mouse to
+For example, if you locked the *Location X* field then you cannot use the mouse to
 translate the object along the global X axis.
 However, you can still translate it using the *Location X* edit field.
 Consider the locking feature as a rigid constraint only changeable from the panel.

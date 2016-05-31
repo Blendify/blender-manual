@@ -1,4 +1,3 @@
-
 ..    TODO/Review: {{review|im=old screenshot: Need to update}}.
 
 ***********
@@ -9,11 +8,11 @@ After unwrap, you will likely need to arrange the UV maps into something that ca
 textured or painted. Your goals for editing are:
 
 
-- Stitch some pieces (UV maps) back together
-- Minimize wasted space in the image
-- Enlarge the 'faces' where you want more detail
-- Re-size/enlarge the 'faces' that are stretched
-- Shrink the 'faces' that are too grainy and have too much detail
+- Stitch some pieces (UV maps) back together.
+- Minimize wasted space in the image.
+- Enlarge the faces where you want more detail.
+- Re-size/enlarge the faces that are stretched.
+- Shrink the faces that are too grainy and have too much detail.
 
 With a minimum of dead space,
 the most pixels can be dedicated to giving the maximum detail and fineness to the UV Texture.
@@ -39,10 +38,10 @@ Linked UVs :kbd:`Ctrl-L`
    This menu item selects all UVs that are part of the same UV map.
    Recall that a map is made for every submesh and seamed part of the mesh, and is analogous to a piece of cloth.
    Selecting *Linked UVs* works similarly to the command in 3D View.
-   It will select all UVs that are 'connected' to currently selected UVs.
+   It will select all UVs that are connected to currently selected UVs.
 
 Pinned UVs :kbd:`Shift-P`
-   You can pin UVs so they don't move between multiple unwrap operations.
+   You can pin UVs so they do not move between multiple unwrap operations.
    This menu item selects them all. See Pinning
 
 Border Select Pinned :kbd:`Shift-B`
@@ -208,7 +207,7 @@ use :menuselection:`Face --> Rotate UVs` (in the 3D window in Face Select mode)
 menu to rotate the UVs per face in 90-degree turns.
 
 The :menuselection:`Face --> Mirror UVs` to flips the image over like a pankcake in a pan,
-mirroring the UVs per face and showing you the image 'reversed'.
+mirroring the UVs per face and showing you the image reversed.
 
 
 Pinning
@@ -217,10 +216,8 @@ Pinning
 When Unwrapping a model it is sometimes useful to "Lock" certain UVs,
 so that parts of a UV layout stay the same shape, and/or in the same place.
 
-Pinning is done selecting a UV,
-then by selecting *Pin* from the *UVs* menu,
-or the shortcut :kbd:`P`.
-You can *Unpin a UV* with the shorctut :kbd:`Alt-P`
+Pinning is done selecting a UV, then by selecting *Pin* from the *UVs* menu,
+or the shortcut :kbd:`P`. You can *Unpin a UV* with the shorctut :kbd:`Alt-P`
 
 Pinning is most effective when using the Unwrap method of UV mapping, for organic objects.
 An example is when you are modeling a symmetrical object using the
@@ -269,7 +266,7 @@ Combining UV Maps
 
 
 Very often you will unwrap an object, such as the face example we have been using,
-and get it 'mostly right' but with parts of the mesh that did not unwrap properly,
+and get it "mostly right" but with parts of the mesh that did not unwrap properly,
 or are horribly confusing. The picture to the right shows an initial unwrap of the face using
 the Unwrap from sphere option. The issues are with the ear; it is just a mush of UVs,
 and the neck, it is stretched and folded under. Too much work to clean up.
@@ -285,7 +282,7 @@ We can tell that the ear would unwrap nicely with just a straightforward project
 side view, and the neck with a tubular unwrap. So,
 our general approach will be to unwrap different parts of the object (face, ears, and so on)
 using different unwrap calculations,
-selecting each calculation according to whatever works best for that piece. So let's begin:
+selecting each calculation according to whatever works best for that piece. So let us begin:
 We select only the "face" faces, unwrap them using the *Sphere* calculation, and scale and
 rotate them somewhat to fit logically within the image area of the UV/Image Editor window pan.
 
@@ -296,7 +293,7 @@ rotate them somewhat to fit logically within the image area of the UV/Image Edit
    Unwrap Projection: Ear.
 
 
-Once we're satisfied with the face, it's time to turn our attention to the ear. First,
+Once we are satisfied with the face, it is time to turn our attention to the ear. First,
 unselect the faces you were working with. Their
 UVs will disappear from the UV/Image Editor, but they are still there, just not shown.
 (To verify this,
@@ -380,7 +377,7 @@ Turning on *Constrain to Image Bounds* will prevent UVs from being moved outside
 Iteration and Refinement
 ------------------------
 
-At least for common people, we just don't "get it right the first time." It takes building on
+At least for common people, we just do not "get it right the first time." It takes building on
 an idea and iterating our creative process until we reach that magical milestone called
 "Done." In software development, this is called the Spiral Methodology.
 
@@ -398,7 +395,7 @@ Refinement comes into play when we finally look at our character,
 and realize that we need more detail in a particular spot. For example,
 areas around the eyes might need crow's feet, or we need to add a logo to the vest.
 As you start to edit the image,
-you realize that there just aren't enough pixels available to paint the detail that you want.
+you realize that there just are not enough pixels available to paint the detail that you want.
 
 Your only choice is to expand the size (scale out) that UV face.
 Using the minimize stretch or scale commands,
@@ -413,7 +410,7 @@ Reusing Textures
 
 Another consideration is the need to conserve resources. Each image file is loaded in memory.
 If you can re-use the same image on different meshes, it saves memory. So, for example,
-you might want to have a generic 'face' painting, and use that on different characters,
+you might want to have a generic face painting, and use that on different characters,
 but alter the UV map and shape and props (sunglasses) to differentiate.
 
 You might want to have a "faded blue jeans" texture,

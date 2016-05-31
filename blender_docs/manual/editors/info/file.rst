@@ -29,7 +29,7 @@ New
 :ref:`Load Factory Settings <factory-settings>`
    Restore the default scene to the factory settings.
 :doc:`Link or Append </data_system/linked_libraries>`
-   You don't have to load a complete file, you can load in only selected parts from another file if you wish.
+   You do not have to load a complete file, you can load in only selected parts from another file if you wish.
 :doc:`Import </data_system/files/import_export>`
    Blender can use information stored in a variety of other format files which are created by
    other graphics programs.

@@ -58,7 +58,7 @@ Camera Settings
    | Context:  Object Data
 
 
-Cameras are invisible in renders, so they don't have any material or texture settings.
+Cameras are invisible in renders, so they do not have any material or texture settings.
 However, they do have *Object* and *Editing* setting panels available
 which are displayed when a camera is the selected (active!) object.
 
@@ -84,7 +84,7 @@ Camera
 
 Sensor size
    This setting is an alternative way to control the focal-length,
-   it's useful to match the camera in Blender to a physical camera & lens combination,
+   it is useful to match the camera in Blender to a physical camera & lens combination,
    e.g. for :doc:`motion tracking </editors/movie_clip_editor/index>`.
 
 

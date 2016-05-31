@@ -95,7 +95,7 @@ Rings
 
 .. note::
 
-   If you specify a six segment, six ring UVsphere you'll get something which, in top view,
+   If you specify a six segment, six ring UV sphere you will get something which, in top view,
    is a hexagon (six segments), with five rings plus two points at the poles.
    Thus, one ring fewer than expected, or one more, if you count the poles as rings of radius 0.
 

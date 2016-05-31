@@ -49,7 +49,7 @@ mainly to allow you to organize your scene.
 
 When rendering, Blender only renders the selected layers.
 If all your lights are on a layer that is *not selected*,
-you won't see anything in your render except for objects lit by ambient lighting.
+you will not see anything in your render except for objects lit by ambient lighting.
 
 :doc:`Groups </editors/3dview/object/relationships/groups>` and
 :doc:`Parents </editors/3dview/object/relationships/parents>`

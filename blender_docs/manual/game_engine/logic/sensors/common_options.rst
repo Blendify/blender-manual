@@ -1,12 +1,11 @@
+.. |true-button| image:: /images/icons_sensor-true.png
+   :width: 1.1em
+.. |false-button| image:: /images/icons_sensor-false.png
+   :width: 1.1em
 
 *********************
 Sensor Common Options
 *********************
-
-.. |true-button| image:: /images/icons_sensor-true.png
-   :width: 25px
-.. |false-button| image:: /images/icons_sensor-false.png
-   :width: 25px
 
 .. figure:: /images/BGE_Sensor_Column3.jpg
    :width: 292px

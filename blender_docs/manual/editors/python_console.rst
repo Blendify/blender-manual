@@ -72,8 +72,8 @@ Lets list all the contents of bpy.app module.
 
 Notice the green output above the prompt where you enabled auto-completion.
 What you see is the result of auto completion listing.
-In the above listing all are module attribute names, but if you see any name end with '(',
-then that is a function.
+In the above listing all are module attribute names,
+but if you see any name end with ``(``, then that is a function.
 
 We will make use of this a lot to help our learning the API faster.
 Now that you got a hang of this, lets proceed to investigate some of modules in bpy.
@@ -195,7 +195,7 @@ Blender file.
 You can access following data in the current Blender file:
 objects, meshes, materials, textures, scenes, screens, sounds, scripts, ... etc.
 
-That's a lot of data.
+That is a lot of data.
 
 
 Try it out!

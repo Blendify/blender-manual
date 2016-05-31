@@ -1,4 +1,4 @@
-...   Todo/review:Text=Split
+..    Todo/review:Text=Split
 
 *********
 Grab/Move
@@ -79,7 +79,7 @@ full control over your transformation.
 
 :kbd:`Shift` + :kbd:`X`, :kbd:`Y`, :kbd:`Z`
    This modifying hotkey locks the translation axis,
-   allowing the object to move freely on the two axes that aren't locked.
+   allowing the object to move freely on the two axes that are not locked.
    For example, :kbd:`Shift` +
    :kbd:`X` means the object will translate on the Y and Z axes while remaining at the same point on the X axis.
 
@@ -164,4 +164,4 @@ you can hotkey your chosen axis of orientation by hitting the relevant axis modi
 .. tip::
 
    Moving an object in Object mode changes the object's origin.
-   Moving the object's vertices/edges/faces in Edit Mode doesn't change the object's origin.
+   Moving the object's vertices/edges/faces in Edit Mode does not change the object's origin.

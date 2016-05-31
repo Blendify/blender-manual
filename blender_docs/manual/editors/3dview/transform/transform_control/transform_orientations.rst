@@ -73,7 +73,7 @@ Global
    press :kbd:`G` and the desired axis. To constrain to a local axis,
    press the desired axis two times. The difference between Global and Local, is more noticeable
    when you have an object in which the origin is not located at the exact center of the object,
-   and doesn't match the Global coordinates.
+   and does not match the Global coordinates.
 
 Local
    .. figure:: /images/3D_interaction-Transform_Control-Transform_Orientations-02-Local.jpg

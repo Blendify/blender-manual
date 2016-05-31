@@ -46,7 +46,7 @@ where U means position across spline segment, and V means distance between main 
 
 This allows for deforming the main spline in almost any way,
 and the feather will be updated automatically to reflect that change.
-For example if there's just rotation of the spline,
+For example if there is just rotation of the spline,
 feather would stay completely unchanged. If one point's feather is moved,
 the other feathers will be automatically stretched uniformly along that segment
 and the overall shape will be almost the same as artists would want it to be.
@@ -87,7 +87,7 @@ Curve Handles
 Feather
 -------
 
-It's possible to control feather of mask, including a way to define non-linear feather.
+It is possible to control feather of mask, including a way to define non-linear feather.
 Linear feather is controlled by a slider,
 non-linear feather is controlled in the same curve-based way to define feather falloff.
 

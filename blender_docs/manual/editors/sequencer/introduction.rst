@@ -31,7 +31,7 @@ a horizontal channel. Each channel is numbered on the left-hand side, starting f
    This is because it is used by the :doc:`Sequencer Display </editors/sequencer/display_modes>`
    to show a composite of all strips above channel 0.
 
-Stripes toward the bottom are more dominant, which we'll get to in a minute.
+Stripes toward the bottom are more dominant, which we will get to in a minute.
 In the x direction, seconds of animation or frames of animation
 , :kbd:`Ctrl-T` to choose, are used as the measure of time (seconds 1 through 7 are shown).
 You can scale the time using the zoom keys or mouse actions (see the Reference for more info).

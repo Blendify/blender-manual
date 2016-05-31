@@ -46,7 +46,7 @@ Action Safe
    Each country sets a legal standard for broadcasting.
    These include, among other things, specific values for safe areas.
    Blender defaults for safe areas follow the EBU (European Union) standard.
-   Make sure you're using the correct values when working for broadcast to avoid any trouble.
+   Make sure you are using the correct values when working for broadcast to avoid any trouble.
 
 
 Center-Cuts

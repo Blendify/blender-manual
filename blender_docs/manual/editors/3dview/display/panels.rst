@@ -19,8 +19,8 @@ Only Render
       While the option displays the regular view-port without distracting elements,
       the objects displayed are **not** matching the final render output.
 
-      Options such as restrict-render, modifiers render option, dupli-parents and render layers
-      aren't taken into account.
+      Options such as restrict-render, modifiers render option,
+      dupli-parents and render layers are not taken into account.
 
 Outline Selected
    If disabled, the pink outline around your selected objects in

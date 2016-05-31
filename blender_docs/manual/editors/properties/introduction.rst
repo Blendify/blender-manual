@@ -93,7 +93,7 @@ though some tools are added to different sections.
 - :doc:`Scenes </data_system/scenes>`
 - :doc:`Keying Sets </animation/keyframes/keying_sets>`
 
-The Object features are usually documented in the 'Objects' part of the 3D Viewport Section.
+The Object features are usually documented in the *Objects* part of the 3D Viewport Section.
 
 - :doc:`Modeling </editors/3dview/transform/introduction>`
 

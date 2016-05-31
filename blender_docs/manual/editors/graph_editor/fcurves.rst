@@ -1,4 +1,4 @@
-..    TODO/Review: {{review|text= move direction of time?}} .
+..    TODO/Review: {{review|text= move direction of time?}}.
 
 ********
 F-Curves
@@ -41,8 +41,8 @@ then, at *frame 5* we get a value of 2.
 
 The same goes for all intermediate frames: with just two points,
 you get a smooth growth from (0 to 10) along the 25 frames.
-Obviously, if you'd like the *frame 15* to have a value of 9,
-you'd have to add another control point (or keyframe)...
+Obviously, if you would like the *frame 15* to have a value of 9,
+you would have to add another control point (or keyframe)...
 
 
 Settings
@@ -213,11 +213,11 @@ hence:
 
 - when you move a control point ahead of a control point that was previously ahead of the point that you are moving,
   the two control points switch their order in the edited curve, to avoid that the curve goes back in time
-- for the above reason, it's impossible to have a closed Ipo curve
+- for the above reason, it is impossible to have a closed F-Curve
 
 
 .. list-table::
-   Two control points switching: the curve can't go back in time!
+   Two control points switching: the curve cannot go back in time!
 
    * - .. figure:: /images/Animation-F-Curves-Moving-1.jpg
 

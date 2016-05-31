@@ -1,3 +1,5 @@
+.. |delete-button| image:: /images/icons_delete.jpg
+   :width: 1.1em
 
 *****************
 Extended Controls
@@ -201,8 +203,6 @@ The input values are mapped to the X-axis of the graph, and the Y-axis is mapped
 
 Control Points
 --------------
-
-.. |delete-button| image:: /images/icons_delete.jpg
 
 Like all curves in Blender, the curve of the *Curve Widget* is controlled using *control points*.
 

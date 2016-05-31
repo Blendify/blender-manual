@@ -35,22 +35,22 @@ Navigation
 
 As with most windows, you can:
 
-*Pan* :kbd:`MMB`
-   Pan the view vertically (values) or horizontally (time) with click and drag.
+Pan
+   Pan the view vertically (values) or horizontally (time) with click and drag (:kbd:`MMB`).
 
-*Zoom* :kbd:`Wheel`
-   Zoom in and out with the mouse wheel.
+Zoom
+   Zoom in and out with the mouse wheel (:kbd:`Wheel`).
 
-*Scale View* :kbd:`Ctrl-MMB`
-   Scale the view vertically or horizontally.
+Scale View
+   Scale the view vertically or horizontally (:kbd:`Ctrl-MMB`).
 
 These are some other useful tools.
 
-*View All* :kbd:`Home`
-   Reset viewable area to show all keyframes.
+View All
+   Reset viewable area to show all keyframes (:kbd:`Home`).
 
-*View Selected* :kbd:`NumpadPeriod`
-   Reset viewable area to show selected keyframes.
+View Selected
+   Reset viewable area to show selected keyframes (:kbd:`NumpadPeriod`).
 
 
 2D Cursor
@@ -107,13 +107,13 @@ See :doc:`Markers </animation/markers>` for more info.
 Header
 ======
 
-Here you'll find.
-
+Here you will find:
 
 - The menus.
 - Graph Editor mode.
 - View controls.
 - Curve controls.
+
 
 Header Controls
 ---------------
@@ -165,10 +165,10 @@ Curve controls
    Auto Snap
       Auto snap the keyframes for transformations.
 
-      *No Auto-Snap*
-      *Time Step*
-      *Nearest Frame*
-      *Nearest Marker*
+      - *No Auto-Snap*
+      - *Time Step*
+      - *Nearest Frame*
+      - *Nearest Marker*
 
    Pivot Point
       Pivot point for rotation.
@@ -182,11 +182,11 @@ Curve controls
       Individual Centers
          Rotate the selected keyframe *Bezier* handles.
 
-   *Copy Keyframes* :kbd:`Ctrl-C`
-      Copy the selected keyframes to memory.
+   Copy Keyframes
+      Copy the selected keyframes to memory (:kbd:`Ctrl-C`).
 
-   *Paste Keyframes* :kbd:`Ctrl-V`
-      Paste keyframes from memory to the current frame for selected curves.
+   Paste Keyframes
+      Paste keyframes from memory to the current frame for selected curves (:kbd:`Ctrl-V`).
 
    Create Snapshot
       Creates a picture with the current shape of the curves.
@@ -281,8 +281,8 @@ Active F-Curve Panel
 
 This panel displays properties for the active *F-Curve*.
 
-*Channel Name* (X Location)
-   *ID Type* + Channel name.
+Channel Name
+   *ID Type* + Channel name (X Location).
 
 RNA Path
    *RNA Path* to property + Array index.

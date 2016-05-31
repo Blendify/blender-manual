@@ -34,8 +34,7 @@ have its center located on one end of the mesh or even completely outside the me
 For example,
 the orange rectangle in the image has its Origin located on the far left of the mesh.
 
-Now let's examine: Rotation around the individual origins.
-
+Now let us examine: Rotation around the individual origins.
 
 - The blue rectangle has its Origin located in the center of the mesh,
   while the orange rectangle has its Origin located on the left hand side.
@@ -51,7 +50,6 @@ In Edit mode, setting the Pivot Point to Individual Origins produces different r
 the selection mode is set to Vertex, Edge or Face. For example, Vertex mode produces results
 similar to setting the pivot point to median and Edge mode often produces distorted results.
 Using Individual Origins in Face mode produces the most predictable results.
-
 
 .. list-table::
 
@@ -69,7 +67,6 @@ Using Individual Origins in Face mode produces the most predictable results.
 As can be seen in the images above, faces that touch each other will deform when rotated when
 the pivot point is set to Individual Origins.
 Faces that do not touch will rotate around their Individual Origins (their center).
-
 
 .. list-table::
 

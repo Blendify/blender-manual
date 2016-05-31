@@ -50,7 +50,7 @@ Move Active Camera to View
 This feature allows you to position and orient the active camera to match your current viewport.
 
 Select a camera and then move around in the 3D view to a desired position and direction for
-your camera (so that you're seeing what you want the camera to see). Now press
+your camera (so that you are seeing what you want the camera to see). Now press
 :kbd:`Ctrl-Alt-Numpad0` and your selected camera positions itself to match the view,
 and switches to camera view.
 
@@ -82,8 +82,8 @@ Vertical Pan or Pitch
    this works with any axis;
    see the :doc:`axis locking page </editors/3dview/transform/transform_control/axis_locking>`).
 Horizontal Pan or Yaw
-   This corresponds to a rotation around the camera's local Y axis... Yes, that's it, press :kbd:`R`,
-   and then :kbd:`Y` twice!
+   This corresponds to a rotation around the camera's local Y axis... Yes, that is it,
+   press :kbd:`R`, and then :kbd:`Y` twice!
 Dolly
    To dolly the camera, press :kbd:`G` then :kbd:`MMB` (or :kbd:`Z` twice).
 Sideways Tracking

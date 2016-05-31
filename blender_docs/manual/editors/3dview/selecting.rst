@@ -48,7 +48,7 @@ If you want *to add to a selection* this way then the shortcut becomes
 To *activate an object* that is already selected, click :kbd:`Shift-RMB` on it.
 
 To *deselect* an active object,
-click :kbd:`Shift-RMB` one time - and hence two clicks if the object isn't active.
+click :kbd:`Shift-RMB` one time - and hence two clicks if the object is not active.
 Note that this only works if there are no other objects under the mouse.
 Otherwise it just adds those to the selection. There appears to be no workaround for this bug.
 
@@ -364,7 +364,7 @@ Mirror :kbd:`Shift-Ctrl-M`
 Random
    Randomly selects unselected objects based on percentage probability on currently active layers.
    On selecting the command a numerical selection box becomes available in the *Tool Shelf*.
-   It's important to note that the percentage represents the likelihood of an unselected object being
+   It is important to note that the percentage represents the likelihood of an unselected object being
    selected and not the percentage amount of objects that will be selected.
 
 Inverse :kbd:`Ctrl-I`

@@ -27,7 +27,7 @@ You can also use the grease pencil for this - just draw a line which should be s
 line brush and adjust the distortion values to make the grease pencil match lines on the footage.
 
 To calibrate your camera more accurately, use the grid calibration tool from OpenCV.
-OpenCV is using the same distortion model, so it shouldn't be a problem.
+OpenCV is using the same distortion model, so it should not be a problem.
 
 
 Camera and Object Motion Solving

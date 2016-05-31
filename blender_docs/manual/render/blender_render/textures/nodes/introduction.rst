@@ -1,6 +1,5 @@
-
 .. |texture-button| image:: /images/icons_texture.png
-   :width: 25px
+   :width: 1.1em
 
 ************
 Introduction

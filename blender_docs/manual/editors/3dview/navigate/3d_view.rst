@@ -272,7 +272,7 @@ and can be used to speed up viewport performance in heavy scenes.
 
 .. note::
 
-   These notes cover changes in local-view which aren't immediately obvious.
+   These notes cover changes in local-view which are not immediately obvious.
 
    3D Cursor
       In local-view the 3D cursor is not locked to the scene.
@@ -340,10 +340,10 @@ View Clipping Border
 
 
 To assist in the process of working with complex models and scenes,
-you can set the view clipping to visually isolate what you're working on.
+you can set the view clipping to visually isolate what you are working on.
 
-Once clipping is used, you will only see whats inside a volume you've defined.
-Tools such as paint, sculpt, selection, transform-snapping etc.
+Once clipping is used, you will only see whats inside a volume you have defined.
+Tools such as paint, sculpt, selection, transform-snapping, etc.
 will also ignore geometry outside the clipping bounds.
 
 Once activated with :kbd:`Alt-B`, you have to draw a rectangle with the mouse,
@@ -381,7 +381,7 @@ Walk/Fly Mode
 When you have to place the view, normally you do as described above.
 
 However, there are cases in which you really prefer to just navigate your model,
-especially if it's very large, like environments or some architectural model.
+especially if it is very large, like environments or some architectural model.
 In these cases viewing the model in perspective mode has limitations,
 for example after zooming a lot of panning is extremely uncomfortable and difficult,
 or you apparently cannot move the camera any nearer. As an example,
@@ -405,7 +405,7 @@ Alternatively you can call the individual modes from the View Navigation menu.
 
    This mode actually *moves* the camera used by the view.
    This means that when you are in camera view,
-   it moves the active camera'', which is another way to place and aim it.
+   it moves the active camera, which is another way to place and aim it.
 
 
 Walk Mode
@@ -424,12 +424,12 @@ and a cross marker will appear...
 
 This navigation mode behaves similar to the first person navigation system available in most 3d world games nowadays.
 It works with a combination of keyboard keys :kbd:`W`, :kbd:`A`, :kbd:`S`, :kbd:`D` and mouse movement.
-By default the navigation is in the 'free' mode, with no gravity influence.
+By default the navigation is in the "free" mode, with no gravity influence.
 You can toggle between gravity and free mode during the navigation :kbd:`Tab`. 
 
 To move to places more quickly you can teleport :kbd:`Spacebar` around your scene.
 If there is an object in front of the walk cross/aim you will move in that direction until you reach the point
-(offset by the 'camera height' value set in the [Doc:2.6/Manual/Preferences|User Preferences window]]).
+(offset by the *camera height* value set in the :doc:`User Preferences </preferences/index>`).
 
 Shortcuts
 ^^^^^^^^^
@@ -437,9 +437,9 @@ Shortcuts
 - Move the mouse left/right to pan the view left/right or move it up/down to tilt the view up/down.
 - Move the camera forward/backward :kbd:`W`, :kbd:`S`.
 - Strafe left/right :kbd:`A`, :kbd:`D`.
-- Jump :kbd:`V` - only in 'gravity' mode.
-- Move up and down :kbd:`Q`, :kbd:`E` - only in 'free' mode.
-- Alternate between 'free' and 'gravity' modes :kbd:`Tab`.
+- Jump :kbd:`V` - only in *gravity* mode.
+- Move up and down :kbd:`Q`, :kbd:`E` - only in *free* mode.
+- Alternate between *free* and *gravity* modes :kbd:`Tab`.
 - Change the movement speed:
   - :kbd:`WheelUp` or :kbd:`NumpadPlus` to increase the movement speed for this open session
   - :kbd:`WheelDown` or to :kbd:`NumpadMinus` to decrease the movement speed for this open session
@@ -451,7 +451,7 @@ When you are happy with the new view, click :kbd:`LMB` to confirm.
 In case you want to go back from where you started, press :kbd:`Esc` or :kbd:`RMB`, as usual.
 
 If the defaults values (speed, mouse sensitivity, ...) need adjustments for your project,
-in the [[Doc:2.6/Manual/Preferences|User Preferences window]] you can select a few options for the navigation system:
+in the :doc:`User Preferences </preferences/index>` you can select a few options for the navigation system:
 
 
 Fly Mode

@@ -28,7 +28,7 @@ This tools works for meshes, curves, surfaces, metas and armature object types.
    Materials, vertex-groups, UV and Vertex layers will be merged.
 
    Modifiers, constraints, groups and parent relationships
-   are ignored when joining and won't be applied to the active object.
+   are ignored when joining and will not be applied to the active object.
 
 
 .. _object-separate:
@@ -43,9 +43,7 @@ Separate
    | Menu:     :menuselection:`Mesh --> Vertices --> Separate`
    | Hotkey:   :kbd:`P`
 
-At some point,
-you'll come to a time when you need to cut parts away from a mesh to be separate.
-Well, the operation is easy.
+At some point, you will come to a time when you need to cut parts away from a mesh to be separate.
 
 To separate an object, the vertices (or faces) must be selected and then separated,
 though there are several different ways to do this.

@@ -22,7 +22,7 @@ These three transforms are the three big ones however more, advanced transformat
 For making other changes to the geometry of editable objects,
 you should use *Edit Mode*.
 
-Once you've added a basic object, you remain in *Object Mode*.
+Once you have added a basic object, you remain in *Object Mode*.
 
 You can switch between *Object Mode* and *Edit Mode* by pressing :kbd:`Tab`.
 
