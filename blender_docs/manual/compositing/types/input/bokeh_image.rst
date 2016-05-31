@@ -12,18 +12,34 @@ Bokeh Image
 Bokeh Image generates a special input image for use with the
 :doc:`Bokeh Blur </compositing/types/filter/bokeh_blur>` filter node.
 
-Bokeh Image is designed to create a reference image which simulates optical parameters such as aperture shape
-and lens distortions which have important impacts on bokeh in real cameras.
+Bokeh Image is designed to create a reference image which simulates optical parameters 
+such as aperture shape and lens distortions which have important impacts on bokeh in real cameras.
 
-The first three settings simulate the aperture of the camera. Flaps set an integer number of blades for the cameras
-iris diaphragm. Angle gives these blades an angular offset relative to the image plane and Rounding sets the curvature
-of the blades with  (0 to 1) from straight to bringing them to a perfect circle.
+Input
+=====
 
-Catadioptric provides a type of distortion found in mirror lenses and some telescopes.
-This can be useful to produce a busy bokeh.
+None.
 
-Lens Shift introduces chromatic aberration into the blur such as would be caused by a tilt-shift lens.
+Options
+=======
 
-.. figure:: /images/composite_node_input_bokeh_image.jpg
+The first three settings simulate the aperture of the camera.
 
-   An example of a bokeh image with 5 flaps.
+Flaps
+   Sets an integer number of blades for the cameras iris diaphragm. 
+Angle
+   Gives these blades an angular offset relative to the image plane 
+Rounding
+   Sets the curvature of the blades with (0 to 1) from straight to bringing them to a perfect circle.
+
+Catadioptric
+   Provides a type of distortion found in mirror lenses and some telescopes.
+   This can be useful to produce a visual complex bokeh.
+Lens Shift
+   Introduces chromatic aberration into the blur such as would be caused by a tilt-shift lens.
+
+Output
+======
+
+Color
+   The generated bukeh image. 
