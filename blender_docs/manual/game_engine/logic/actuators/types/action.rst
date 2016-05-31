@@ -19,17 +19,17 @@ Special Options:
 
 Action Playback Type
    Play
-      Play ipo once from start to end when a TRUE pulse is received.
+      Play F-Curve once from start to end when a TRUE pulse is received.
    Ping Pong
-      Play ipo once from start to end when a TRUE pulse is received.
-      When the end is reached play ipo once from end to start when a TRUE pulse is received.
+      Play F-Curve once from start to end when a TRUE pulse is received.
+      When the end is reached play F-Curve once from end to start when a TRUE pulse is received.
    Flipper
-      Play ipo once from start to end when a TRUE pulse is received.
+      Play F-Curve once from start to end when a TRUE pulse is received.
       (Plays backwards when a FALSE pulse is received).
    Loop End
-      Play ipo continuously from end to start when a TRUE pulse is received.
+      Play F-Curve continuously from end to start when a TRUE pulse is received.
    Loop Start
-      Play ipo continuously from start to end when a TRUE pulse is received.
+      Play F-Curve continuously from start to end when a TRUE pulse is received.
    Property
       Uses a property to define what frame is displayed.
 

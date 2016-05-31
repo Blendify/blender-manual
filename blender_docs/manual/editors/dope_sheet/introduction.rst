@@ -73,9 +73,8 @@ The main area
    The Y-axis has no mean in itself, unlike with the *Graph Editor*, it is just a sort of "stack" of action channels -
    each one being shown as an horizontal colored strip (of a darker shade "during" the animated/keyed period).
    On these channel strips lay the keyframes, materialized as light-gray (unselected) or yellow (selected) diamonds.
-   One of the key feature of this window is that it allow you to visualize immediately which channel (i.e.
-   Ipo curve) is *really* affected.
-   When the value of a given channel does not change at all between two neighboring keyframes,
+   One of the key feature of this window is that it allow you to visualize immediately which channel (i.e. F-Curve)
+   is *really* affected. When the value of a given channel does not change at all between two neighboring keyframes,
    a gray (unselected) or yellow (selected) line is drawn between them.
 
 The left "list-tree"
@@ -83,11 +82,11 @@ The left "list-tree"
 
    - "Top-level" channels, which represent whole FCurve data-blocks
      (so there is one for *Object* one, one for *Shape* one, etc.).
-     They gather *all* keyframes defined in their underlying FCurve data-block.
+     They gather *all* keyframes defined in their underlying F-Curve data-block.
    - "Mid-level" channels, which seem currently to have no use
-     (there iss one per top-level channel, they are all named *FCurves*, and have no option at all).
-   - "Low-level" channels, which represent individual FCurve ,
-     with their own keyframes (fortunately, only keyed Ipos are shown!).
+     (there iss one per top-level channel, they are all named *F-Curves*, and have no option at all).
+   - "Low-level" channels, which represent individual F-Curve,
+     with their own keyframes (fortunately, only keyed frames are shown!).
 
    Each level can be expended/collapsed by the small arrow to the left of its "parent" channel.
    To the right of the channel's headers, there are some channel's setting controls:
