@@ -19,14 +19,10 @@ None.
 Options
 =======
 
-- a preloaded image could be loaded by clicking on image file icon to the left and 
-  selecting it from the list.
-- or by clicking the *Open* button to select a file/s via the :doc:`file-browser </editors/file_browser/introduction>`.
-
-After a source is loaded additional options are shown:
-
-Select
-   Options for each type of footage.
+Source
+   - a preloaded image could be loaded by clicking on image file icon to the left and 
+     selecting it from the list.
+   - or by clicking the *Open* button to select a file/s via the :doc:`file-browser </editors/file_browser/introduction>`.
 
    Single Image
       Still image or a single frame.
@@ -53,6 +49,10 @@ Select
    Generated
       Images generated in Blender or preloaded.
 
+.. note::
+
+   More options could be set in the properties panel.
+
 Output
 ======
 
@@ -63,7 +63,7 @@ Color
 Alpha
    Separate Alpha value. Default values is 1.0.
 Z
-   Z depth layer. Default values is 0.0.
+   Z-depth layer. Default values is 0.0.
 
 .. rubric:: MultiLayer format
 
