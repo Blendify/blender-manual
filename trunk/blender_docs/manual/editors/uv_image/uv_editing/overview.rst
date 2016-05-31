@@ -42,11 +42,11 @@ location on the box.
 This is what the computer does with a 2D image in wrapping it around a 3D object.
 
 During the UV unwrapping process, you tell Blender exactly how to map the faces of your object
-(in this case, a box) to a flat image in the UV/Image Editor window.
+(in this case, a box) to a flat image in the UV/Image Editor.
 You have complete freedom in how to do this. (Continuing our previous example, imagine that,
 having initially laid the box flat on the tabletop, you now cut it into smaller pieces,
 somehow stretch and/or shrink those pieces,
-and then arrange them in some way upon a photograph that's also lying on that tabletop ...)
+and then arrange them in some way upon a photograph that is also lying on that tabletop).
 
 
 Cartography Example
@@ -56,7 +56,7 @@ Cartographers (map makers) have been dealing with this problem for millennia. A 
 (map-making) example is creating a projection map of the whole world. In cartography,
 we take the surface of the earth (a sphere)
 and make a flat map that can be folded up into the glove compartment aboard the space shuttle.
-We 'fill in' spaces toward the poles, or change the outline of the map in any of several ways:
+We "fill in" spaces toward the poles, or change the outline of the map in any of several ways:
 
 .. list-table::
 
@@ -81,7 +81,7 @@ Each of the hundred or so commonly accepted projections has its advantages and d
 Blender allows the same thing anyway we want to, on the computer.
 
 On more complex models (like seen in the earth map above)
-there pops up an issue where the faces can't be 'cut',
+there pops up an issue where the faces cannot be cut,
 but instead they are stretched in order to make them flat. This helps making easier UV maps,
 but sometimes adds distortion to the final mapped texture. (Countries and states that are
 closer to the North or the South Pole look smaller on a flat map than do ones which are close
@@ -100,7 +100,7 @@ Half-Sphere Example
 In this image you can easily see that the shape and size of the marked face in 3D space is
 different in UV space.
 
-This difference is caused by the 'stretching' (technically called mapping) of the 3D part
+This difference is caused by the "stretching" (technically called mapping) of the 3D part
 (XYZ) onto a 2D plane (i.e the UV map).
 
 If a 3D object has a UV map, then, in addition to the 3D-coordinates X, Y, and Z,

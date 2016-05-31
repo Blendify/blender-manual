@@ -1,4 +1,4 @@
-..    TODO/Review: {{review|partial=X}} .
+..    TODO/Review: {{review|partial=X}}.
 
 ************
 Introduction
@@ -11,10 +11,10 @@ Introduction
 
 
 Classical hand-drawn animators often made a chart, showing exactly when each drawing,
-sound and camera move would occur, and for how long. They nicknamed this the 'dopesheet'.
+sound and camera move would occur, and for how long. They nicknamed this the "dopesheet".
 While CG foundations dramatically differ from classical hand-drawn animation,
-Blender's Dopesheet inherits a similar directive.
-It gives the animator a 'birds-eye-view' of every thing occurring within a scene.
+Blender's *Dopesheet* inherits a similar directive.
+It gives the animator a "birds-eye-view" of every thing occurring within a scene.
 
 
 Dope Sheet Modes
@@ -30,7 +30,7 @@ There are four basic views for the Dopesheet.These all view different contexts o
 :doc:`DopeSheet </editors/dope_sheet/introduction>`
    The dopeSheet allow you to edit multiple actions at once.
 :doc:`Action Editor </editors/dope_sheet/action>`
-   *Action Editor* is the default, and most useful one. It's here you can define and control your actions.
+   *Action Editor* is the default, and most useful one. It is here that you can define and control your actions.
 :doc:`Shape Key Editor </editors/dope_sheet/shapekey>`
    *ShapeKey Editor* is dedicated to the *Shapekey* data-blocks.
    It uses/edits the same action data-block as the previous mode.
@@ -41,15 +41,18 @@ There are four basic views for the Dopesheet.These all view different contexts o
    keyframes- for each grease pencil layer, you have a strip along which you can grab its keys,
    and hence easily re-time your animated sketches.
    As it is just another way to see and edit the grease pencil data,
-   this mode uses no data-block (and hence has nothing to do with actions...).
-   Note that you'll have as much top-level grease pencil channels as you have sketched windows
-   (3D views, *UV/Image Editor*, etc.)
+   this mode uses no data-block (and hence has nothing to do with actions).
+
+   .. note::
+
+      Note that you will have as much top-level grease pencil channels as you have sketched windows
+      (3D views, *UV/Image Editor*, etc.)
 
 
 Interface
 =========
 
-The *Action Editor* interface is somewhat similar to the *FCurve Editor*
+The *Action Editor* interface is somewhat similar to the *Graph Editor*
 one, it is divided in three areas:
 
 
@@ -67,7 +70,7 @@ The header bar
 The main area
    It contains the keyframes for all visible action channels.
    As with the other "time" windows, the X-axis materializes the time.
-   The Y-axis has no mean in itself, unlike with the FCurve editor, it's just a sort of "stack" of action channels -
+   The Y-axis has no mean in itself, unlike with the *Graph Editor*, it is just a sort of "stack" of action channels -
    each one being shown as an horizontal colored strip (of a darker shade "during" the animated/keyed period).
    On these channel strips lay the keyframes, materialized as light-gray (unselected) or yellow (selected) diamonds.
    One of the key feature of this window is that it allow you to visualize immediately which channel (i.e.
@@ -79,10 +82,10 @@ The left "list-tree"
    This part shows the action's channel "headers" and their hierarchy. Basically, there are:
 
    - "Top-level" channels, which represent whole FCurve data-blocks
-     (so there's one for *Object* one, one for *Shape* one, etc.).
+     (so there is one for *Object* one, one for *Shape* one, etc.).
      They gather *all* keyframes defined in their underlying FCurve data-block.
    - "Mid-level" channels, which seem currently to have no use
-     (there's one per top-level channel, they are all named *FCurves*, and have no option at all...).
+     (there iss one per top-level channel, they are all named *FCurves*, and have no option at all).
    - "Low-level" channels, which represent individual FCurve ,
      with their own keyframes (fortunately, only keyed Ipos are shown!).
 
@@ -91,8 +94,11 @@ The left "list-tree"
 
    - Clicking on the small "eye" will allow you to mute that channel (and all its "children" channels, if any!).
    - Clicking on the small "lock" will allow you to prevent this channel and its children to be edited
-     (note that this is also working inside the NLA,
-     but that it doesn't prevent edition of the underlying FCurve ...).
+     
+     .. note::
+
+        note that this is also working inside the NLA,
+        but that it does not prevent edition of the underlying F-Curve).
 
    A channel can be selected (text in white, strip in gray-blue color) or not
    (text in black, strip in pink-brown color.), use :kbd:`LMB` clicks to toggle this state.

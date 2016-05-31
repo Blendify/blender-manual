@@ -1,8 +1,8 @@
-
 ..    TODO/Review: {{review|text=Needs clarification & updates.
-   |fixes=[[User:Rking/Doc:2.6/Manual/Animation/Editors/NLA|X]]}}.
+      |fixes=[[User:Rking/Doc:2.6/Manual/Animation/Editors/NLA|X]]}}.
 
 .. |snowflake-button| image:: /images/icons_snowflake.jpg
+   :width: 1.1em
 
 ***************************
 Non-Linear Animation Editor
@@ -10,7 +10,7 @@ Non-Linear Animation Editor
 
 The NLA editor can manipulate and repurpose actions, without the tedium of keyframe handling.
 Its often used to make broad, significant changes to a scene's animation, with relative ease.
-It can also repurpose, and 'layer' actions, which make it easier to organize,
+It can also repurpose, and "layer" actions, which make it easier to organize,
 and version-control your animation.
 
 
@@ -28,7 +28,7 @@ the bottom layer first, to the top, last.
 Strips
 ======
 
-There's three kinds of strips - Action, Transition, and Meta.
+There are three kinds of strips - Action, Transition, and Meta.
 Actions contain the actual keyframe data,
 Transitions will perform calculations between Actions,
 and Meta will group strips together as a whole.
@@ -101,8 +101,7 @@ A meta strip still contains the underlying strips. You can ungroup a Meta strip.
 Editing Strips
 ==============
 
-The contents of Action strips can be edited, but you must be in 'Tweak Mode' to do so.
-
+The contents of Action strips can be edited, but you must be in *Tweak Mode* to do so.
 
 .. admonition:: Reference
    :class: refbox
@@ -125,9 +124,9 @@ The contents of Action strips can be edited, but you must be in 'Tweak Mode' to 
 
 
 If you try moving the strip, while in edit mode,
-you'll notice that the keys will go along with it. On occasion,
-you'll prefer the keys to remain on their original frames, regardless of where the strip is.
-To do so, hit the 'unpin' icon, next to the strip.
+you will notice that the keys will go along with it. On occasion,
+you will prefer the keys to remain on their original frames, regardless of where the strip is.
+To do so, hit the *unpin* icon, next to the strip.
 
 .. figure:: /images/nla_pinned_01.jpg
 
@@ -151,15 +150,8 @@ Note the default key for this is Tab.
 Re-Instancing Strips
 ====================
 
-The contents' of one Action strip can be instanced multiple times. To instance another strip,
-select
-a strip, go to
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Menu:     :menuselection:`Edit --> Duplicate Strips`
-
+The contents of one Action strip can be instanced multiple times. To instance another strip,
+select a strip, go to :menuselection:`Edit --> Duplicate Strips`
 
 Now, when any strip is tweaked, the others will change too.
 If a strip other than the original is tweaked,
@@ -216,11 +208,13 @@ Active Strip
 ------------
 
 Elements of the strip itself. An Action Strip can be either an Action Clip,
-or a Transition Clip. Note that the 'Strip Extents' fields determine strictly the strip,
-and not the action.
-Also, the "Hold" value in the Extrapolation section means hold both beginning, and after.
-This can cause
-previous clips to not work, if checked.
+or a Transition Clip.
+
+.. note::
+
+   Note that the 'Strip Extents' fields determine strictly the strip, and not the action.
+   Also, the "Hold" value in the Extrapolation section means hold both beginning, and after.
+   This can cause previous clips to not work, if checked.
 
 
 .. figure:: /images/ActiveStrip.jpg
@@ -244,7 +238,7 @@ This determines the degree of influence the strip has, and over what time.
 .. figure:: /images/Evaluation.jpg
 
 
-If influence isn't animated, the strips will fade linearly, during the overlap.
+If influence is not animated, the strips will fade linearly, during the overlap.
 
 
 .. figure:: /images/NLA_influence_strip.jpg

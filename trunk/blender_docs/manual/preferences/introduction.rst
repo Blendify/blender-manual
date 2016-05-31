@@ -11,9 +11,7 @@ The Blender *User Preferences* editor contains settings to to control how Blende
 Open User Preferences
 =====================
 
-.. |user-preferences-icon| image:: /images/icons_user-preferences.jpg
-
-To open a Blender *User Preferences* editor go to :menuselection:`File --> User Preferences`.
+To open the *User Preferences* editor and go to :menuselection:`File --> User Preferences`.
 
 .. figure:: /images/user_prefs-interface_tab.png
    :width: 650px

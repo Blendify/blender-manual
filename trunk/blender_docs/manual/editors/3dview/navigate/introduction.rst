@@ -84,7 +84,7 @@ Tool Shelf
 :ref:`Global View/Local View <3dview-local_view>`
    Global view shows all of the 3D objects in the scene. Local view only displays the selected objects.
    This helps if there are many objects in the scene, that may be in the way.
-   Accidentally pressing :kbd:`NumpadSlash` can happen rather often if you're new to Blender,
+   Accidentally pressing :kbd:`NumpadSlash` can happen rather often if you are new to Blender,
    so if a bunch of the objects in your scene seem to have mysteriously vanished, try turning off local view.
 :doc:`View Selected </editors/3dview/navigate/3d_view>`
    Zooms the 3D view to encompass all the *selected* objects.
@@ -205,9 +205,8 @@ This means that in this view, the active layers and camera are those of the whol
 active layers and camera - when you change them in one view,
 all locked others will immediately reflect these changes.
 
-But if you disable this "lock" button,
-you then can specify different active layers and camera, specific to this view.
-This might be useful if you don't want to have your working areas (views)
+But if you disable this "lock" button, you then can specify different active layers and camera,
+specific to this view. This might be useful if you do not want to have your working areas (views)
 cluttered with the whole scene, and still have an ancillary complete view
 (which is unlocked with e.g. all layers shown).
 Or to have several views with different active cameras. Remember that you can use
@@ -232,7 +231,7 @@ The Render Buttons render an OpenGL version of the 3D view.
 
 The first button renders a still image of the Objects in the 3D view without displaying the
 grid, axes, etc. It uses the same *Draw* mode as the 3D view,
-so it's rather useful if someone asks to see the wireframe of an Object you're working on.
+so it is rather useful if someone asks to see the wireframe of an Object you are working on.
 
 The second button will render an animation of the 3D View,
 making it useful for making preview renders of animations. The animation will be saved in the

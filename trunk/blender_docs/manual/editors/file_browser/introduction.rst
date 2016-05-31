@@ -108,7 +108,7 @@ Header
 
 .. Editors Note:
    This has been taken from older docs,
-   but is really just 'enumerating lists' which should be avoided.
+   but is really just enumerating lists which should be avoided.
    :: Some of these lists could be summerized.
 
 

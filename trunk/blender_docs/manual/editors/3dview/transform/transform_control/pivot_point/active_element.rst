@@ -60,7 +60,7 @@ the possible transformations follow a few rules:
   If an unselected element shares one or more vertices with a selected element
   then the unselected one will get some degree of transformation also.
 
-Let's examine the following examples: in each case we will see that the two rules apply.
+Let us examine the following examples: in each case we will see that the two rules apply.
 
 
 Single selection
@@ -71,18 +71,17 @@ you can see that when it is transformed its vertices move, with the consequence 
 adjacent element which shares one or more vertices with the active element is also
 transformed.
 
-
 .. figure:: /images/3D_interaction-Transform_control-Pivot_point-Active_single-element-selection.jpg
    :width: 640px
 
    Edit mode and only one element selected.
 
 
-Let's review each case:
+Let us review each case:
 
 - *Faces* have their pivot point where their selection dot appears, which is where the median of their vertices is.
 - *Edges* have their pivot point on their middle since this is always where the median of an edge is.
-- A single *Vertex* has no dimensions at all so it can't show any transformation
+- A single *Vertex* has no dimensions at all so it cannot show any transformation
   (except translation, which is not affected by the pivot point).
 
 
@@ -90,7 +89,7 @@ Multiple selection
 ------------------
 
 When multiple elements are selected they all transform.
-The pivot points stay in the same place as what we've seen above,
+The pivot points stay in the same place as what we have seen above,
 with only one exception for Fgons. In the image below,
 the selected elements have been rotated.
 

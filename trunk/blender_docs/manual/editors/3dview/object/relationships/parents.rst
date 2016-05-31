@@ -130,7 +130,7 @@ to the new parent "EmptyB"; See Figure 4.
 .. figure:: /images/Parent-Object_Keep_Transform-D.jpg
 
    Figure 4 - Scene with Monkey object having its a parent changed
-   from "EmptyA" to "EmptyB" using 'Object (Keep Transform)' parent method.
+   from "EmptyA" to "EmptyB" using *Object (Keep Transform)* parent method.
 
 
 If you want to follow along with the above description here is the blend-file used to describe
@@ -170,7 +170,7 @@ most of them can automate several of the steps involved,
 but all of them ultimately do all the steps we describe for Armature Deform Parenting.
 
 Using the Armature Deform Parenting operator is the first step in setting up the relationship
-between an Armature Object and it's Child Objects.
+between an Armature Object and its Child Objects.
 
 To use Armature Deform Parenting you must first select all the Child Objects that will be
 influenced by the Armature and then lastly, select the Armature Object itself. Once all the
@@ -190,7 +190,7 @@ Bones.
 
 At this point however all Blender knows is that the Bones of the Armature could be used to
 alter the Child Objects,
-we haven't yet told Blender which Bones can alter which Child Objects or by how much.
+we have not yet told Blender which Bones can alter which Child Objects or by how much.
 
 To do that we must individually select each Child Object individually and toggle into Edit
 Mode on that Child Object. Once in Edit Mode we can then select the vertices we want to be
@@ -305,7 +305,7 @@ Automatic Weights parenting command was carried out.
 
 If all went well it should be possible to select the Armature Object switch it into Pose Mode and transform the bones
 of the Armature and the Child Object should deform in response.
-Unlike Armature Deform parenting you won't have to create Vertex Groups on the Child Object,
+Unlike Armature Deform parenting you will not have to create Vertex Groups on the Child Object,
 neither will you have to assign Influences Weights to those Vertex Groups, Blender will try to do it for you.
 
 To activate Armature Deform With Automatic Weights you must be in Object Mode or Pose Mode,
@@ -316,7 +316,7 @@ Set Parent To popup dialog.
 This method of parenting is certainly easier setup but it can often lead to Armatures which do not deform Child
 Objects in ways you would want as Blender can get a little confused when it comes to determining which Bones should
 influence certain vertices when calculating Influence Weights for more complex armatures and Child Objects. Symptoms
-of this confusion are that when transforming the Armature Object in Pose Mode parts of the Child Objects don't deform
+of this confusion are that when transforming the Armature Object in Pose Mode parts of the Child Objects do not deform
 as you expect; If Blender does not give you the results you require you will have to manually alter the Influence
 Weights of vertices in relation to the Vertex Groups they belong to and have influence in.
 
@@ -409,7 +409,7 @@ and entering new values for the *Tail* and *Head* fields. (See figure 33).
 
    If you alter the Bone Envelope volume of a bone so that you can have it include/exclude
    certain vertices after you have already used Armature Deform With Envelope Weights,
-   by default, the newly included/excluded vertices won't be affected by the change. When using
+   by default, the newly included/excluded vertices will not be affected by the change. When using
    Armature Deform With Envelope Weights it only calculates which vertices will be affected by
    the Bone Envelope volume at the time of parenting, at which point it creates the required
    named Vertex Groups and assigns vertices to them as required. If you want any vertices to
@@ -540,7 +540,7 @@ Move child
 ----------
 
 You can *move* a child object to its parent by clearing its origin.
-The relationship between the parent and child isn't affected.
+The relationship between the parent and child is not affected.
 Select the child object and press :kbd:`Alt-O`.
 By confirming the dialog the child object will snap to the parent's location.
 Use the *Outliner* view to verify that the child object is still parented.

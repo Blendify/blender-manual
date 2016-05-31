@@ -3,7 +3,7 @@
 Proxy / Timecode Panel
 **********************
 
-Once you've chosen the Proxy/Timecode parameters,
+Once you have chosen the Proxy/Timecode parameters,
 you need to use :menuselection:`Clip --> Proxy --> Rebuild Proxy and Timecode indices`
 to generate the proxy clip and it will be available after Blender makes it.
 
@@ -37,16 +37,16 @@ Timecode
 Proxy Render Size
    defines which proxy image resolution is used for display.
    If *Render Undistorted* is set, then images created from undistorted frames are used.
-   If there's no generated proxies, render size is set to "No proxy, full render",
+   If there is no generated proxies, render size is set to "No proxy, full render",
    and render undistorted is enabled, undistortion will happen automatically on frame draw.
 
 
 Timecode
 ========
 
-When you're working with footage directly copied from a camera without pre-processing it,
+When you are working with footage directly copied from a camera without pre-processing it,
 there might be bunch of artifacts, mostly due to seeking a given frame in sequence.
-This happens because such footage usually doesn't have correct frame rate values in their headers. So,
+This happens because such footage usually does not have correct frame rate values in their headers. So,
 for Blender to calculate the position of a needed frame in the stream works inaccurately and can give errant result.
 There are two possible ways to avoid this:
 
@@ -70,4 +70,4 @@ The following timecodes are supported:
 .. note::
 
    Record Run is the timecode which usually is best to use, but if the clip's file is totally damaged,
-   'Record Run No Gaps' will be the only chance of getting acceptable result. 
+   *Record Run No Gaps* will be the only chance of getting acceptable result. 

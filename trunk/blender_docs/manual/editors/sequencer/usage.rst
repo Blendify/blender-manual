@@ -137,7 +137,7 @@ Move vertically (up/down) to change channels.
 
 
 - To snap while dragging hold :kbd:`Ctrl`
-- To 'ripple edit' (Make room for strips you drag) hold :kbd:`Alt` when placing a strip.
+- To "ripple edit" (Make room for strips you drag) hold :kbd:`Alt` when placing a strip.
 
 If you have added a strip by mistake or no longer want it,
 delete it by pressing *X* or using this menu option.
@@ -214,7 +214,7 @@ Editing Strips
   .. note:: Multiple selection
 
      You can select several (handles of) strips by :kbd:`Shift-RMB` clicking: when you press :kbd:`G`,
-     everything that's selected will move with your mouse- this means that,
+     everything that is selected will move with your mouse- this means that,
      for example, you can at the same time move a strip, shorten two others, and extend a forth one.
 
 - Strip Extend
@@ -229,36 +229,34 @@ While splicing two strips happens just by placing them finish-to-start,
 cut a strip by pressing :kbd:`K` to cut. At the selected frame for the selected strips,
 :kbd:`K` cuts them in two. Use Cut to trim off roll-ups or lead-ins, or roll-downs or extra film shot.
 
-.. note:: Note on the 'cut'
+.. note:: Note on the *Cut*
 
-   When you 'cut' a strip, you don't really make a cut like it was with the 'old editing' on real film.
-   In fact, you make a copy of the strip: the end of the original one is 'winded' to the cut point,
+   When you cut a strip, you do not really make a cut like it cutting a real of film.
+   In fact, you make a copy of the strip: the end of the original one is "winded" to the cut point,
    as with the beginning of the new copy.
 
    For example, imagine that you have a strip of 50 frames,
    and that you want to delete the first ten ones.
    You have to go to *frame 11*, and press :kbd:`K`;
-   the cut 'divides' your strip in two parts. You now can select the first small part
+   the cut divides your strip in two parts. You now can select the first small part
    (frame 1 to frame 10), and delete it press :kbd:`X`.
 
    You might think that you have really erased the frames (1 to 10),
-   but there are still there, 'winded', as in a film reel, under your *frame 11*:
-   you just have deleted one of the two copies of your strip created by the 'cut'.
-   And you can at any time get your 'lost' frames back
+   but there are still there, winded, as in a film reel, under your *frame 11*:
+   you just have deleted one of the two copies of your strip created by the cut.
+   And you can at any time get your lost frames back
    (just :kbd:`RMB` -click on the left arrow of the strip,
    then :kbd:`G` grab it to the left to display the desired number of frames again (or to
-   the right to 'hide' more frames - this is another way to remove frames at the beginning/end of
-   a strip!).
+   the right to hid more frames - this is another way to remove frames at the beginning/end of a strip!).
 
-   This is at the heart of nearly every editor solution, and that's quite handy!
+   This is at the heart of nearly every editor solution, and that is quite handy!
 
 .. note:: Action Stops
 
    When extending the start beyond the beginning or end after the ending,
    keep in mind that only the last image copies, so when viewed, action will stop on that frame.
    Start your transition (fade, cross) a little early while action is
-   still happening so that the stop action is not that noticeable
-   (unless, of course, you want it to be, like the 80's drama sitcoms).
+   still happening so that the stop action is not that noticeable.
 
 Change the length of an effect strip by changing the start/end frame of the origin strips.
 

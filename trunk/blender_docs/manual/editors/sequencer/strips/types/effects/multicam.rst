@@ -19,16 +19,18 @@ After Completing these steps you should get something similar to the image below
 
 .. figure:: /images/editors_sequencer_stips_mulitcam.png
 
+   Multi camera editing setup.
+
 
 - Now select the multicam strip, if you take a look at the strip options (N-key), you will notice,
-  that multicam is a rather simple effect strip: it just takes a selected channel as it's input.
-  That's all. The magic comes with the convenient keyboard layout.
+  that multicam is a rather simple effect strip: it just takes a selected channel as its input.
+  That is all. The magic comes with the convenient keyboard layout.
 - When you select the multicam strip, the keys 1-9 are mapped to a python handler,
-  that does a cut on the multicam and changes it's input.
+  that does a cut on the multicam and changes its input.
 - So: you select the multicam strip,
   you start playback and press the keys for the correct input while watching your show.
-- You'll end up with a small multicam selector strip for every cut.
+- You will end up with a small multicam selector strip for every cut.
 
-In reality, it boils down to: watch a few seconds to see, what's coming,
+In reality, it boils down to: watch a few seconds to see, what iss coming,
 watch it again and do a rough cut using the number keys,
 do some fine tuning by selecting the outer handles of two neighboring multicam for A/B rolling.

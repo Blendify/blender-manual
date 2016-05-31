@@ -1,6 +1,4 @@
-
-..    TODO/Review: {{review|}} .
-
+..    TODO/Review: {{review|}}.
 
 *****************
 Applying Textures
@@ -82,7 +80,7 @@ and vice versa.
 You can edit and load images,
 and even play a game in the Blender Game Engine with UV textures for characters and object,
 without a material, and still see them in the 3D window.
-This is because no 'real' rendering is taking place; it is all just viewport shading.
+This is because no real rendering is taking place; it is all just viewport shading.
 If you were to apply an image to UVs then render, the texture would not show up by default
 
 To render an image however, you must

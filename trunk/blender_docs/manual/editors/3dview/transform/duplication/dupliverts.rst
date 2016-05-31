@@ -44,7 +44,7 @@ Setup
 
 All you need is a base object (e.g. the *tree* or the *column*)
 and a pattern mesh with its vertices following the pattern you have in mind. In this section,
-we will use a simple scene for the following part. We'll be using a monkey head located at
+we will use a simple scene for the following part. We will be using a monkey head located at
 the origin of the coordinate system as our base object and a circle at the same location as
 our parent mesh.
 

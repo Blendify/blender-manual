@@ -45,7 +45,7 @@ Display
       .. note::
 
          While alpha-images can be used, there is a known limitation with object draw order,
-         where alphas won't always draw on top of other objects when unselected.
+         where alphas will not always draw on top of other objects when unselected.
 
    Size
       Controls the local size of the empty. This does not change its scale, but simply resizes the shape.

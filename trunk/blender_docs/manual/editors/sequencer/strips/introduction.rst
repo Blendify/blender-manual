@@ -23,9 +23,9 @@ or hover your mouse cursor over the Sequence workspace and press :kbd:`Shift-A`.
 
    A three minute quicktime .mov file can be 140Megs.
    Loading it, even over a high-speed LAN can take some time.
-   Don't assume your computer or Blender has locked up if nothing happens for awhile.
+   Do not assume your computer or Blender has locked up if nothing happens for awhile.
 
-First, let's add a clip:
+First, let us add a clip:
 
 - A movie clip in the Audio-Video Interleaved format (``*.avi`` file)
 - A movie clip in the Apple QuickTime format (``*.mov``)

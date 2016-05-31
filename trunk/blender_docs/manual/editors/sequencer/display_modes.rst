@@ -1,5 +1,5 @@
 .. |texture-button| image:: /images/icons_texture.png
-   :width: 25px
+   :width: 1.1em
 
 **********************
 Sequence Display Modes
@@ -141,15 +141,15 @@ This mode is good for:
 
    - .. figure:: /images/editors_sequencer_view_luma-example1.jpg
 
-        'Simple' picture. The various horizontal lines in the Luma waveform
+        The various horizontal lines in the Luma waveform
         match the uniform-color lines of the picture. Note that the 'grey 20%'
         one-pixel width line (inside the yellow strip) is represented in the Luma waveform by a grey line.
-        The two lines drawing an 'X' are from the two linear tone shades (white --> black and black --> white).
+        The two lines drawing an "X" are from the two linear tone shades (white --> black and black --> white).
         Finally, the broken line matches the complex tone shade at the bottom of the picture.
 
    - .. figure:: /images/editors_sequencer_view_luma-example2.jpg
 
-        A 'real' picture. The curves are quite visible. We found a luma of 80-100% for the sky,
+        The curves are quite visible. We found a luma of 80-100% for the sky,
         a luma around 40% for the sea, and a luma of 10-20% for the mountains, growing around 40% for the sunny part.
 
 .. Note::
@@ -158,7 +158,7 @@ This mode is good for:
    to limit the number of curves displayed in the *Luma waveform* 
 
 Use this display to check for appropriate contrast and luminosity across all frames in the channel.
-When spots in the film that should have even illumination don't,
+When spots in the film that should have even illumination do not,
 it looks like a flashbulb went off or an extra light was suddenly turned on. This can happen
 if two strips were rendered or shot under different lighting conditions but are supposed to be contiguous.
 

@@ -11,7 +11,7 @@ Clip Panel
 
 This panel currently contains the single operator *Set as background* which sets the
 clip currently being edited as the camera background for all visible 3D viewports.
-If there's no visible 3D viewports or the clip editor is open in full screen,
+If there is no visible 3D viewports or the Clip Editor is open in full screen,
 nothing will happen.
 
 Marker panel
@@ -19,19 +19,19 @@ Marker panel
 
 Add Marker and Move
    Places a new marker at the position of the mouse
-   (which is under the button in this case, not ideal but it's just how things work)
-   and then it can be moved to the needed location. When it's moved to the desired position,
+   (which is under the button in this case, not ideal but it is just how things work)
+   and then it can be moved to the needed location. When it is moved to the desired position,
    :kbd:`LMB` can be used to finish placing the new marker.
    Also, :kbd:`Return` and :kbd:`Spacebar` can be used to finish placing the marker.
-   But it's faster to use :kbd:`Ctrl-LMB` to place markers directly on the footage.
-   This shortcut will place the marker in the place you've clicked.
-   One more feature here: until you've released the mouse button,
+   But it is faster to use :kbd:`Ctrl-LMB` to place markers directly on the footage.
+   This shortcut will place the marker in the place you have clicked.
+   One more feature here: until you have released the mouse button,
    you can adjust the marker position by moving the mouse and using
    the track preview widget to control how accurately the marker is placed.
 
 Detect Features
    Detects all possible features on the current frame and places markers at these features.
-   This operator doesn't take into account other frames,
+   This operator does not take into account other frames,
    so it can place markers on features which belong to moving objects,
    and if camera is turning away from this shot,
    no markers would be placed on frames after the camera moved away.
@@ -39,21 +39,21 @@ Detect Features
    There are several properties for this operator:
 
    Placement
-      Used to control where to place markers. By default, they'll be added through the whole frame, but you can
+      Used to control where to place markers. By default, they will be added through the whole frame, but you can
       also outline some areas with interesting features with grease pencil and place markers only inside the
-      outlined area. That's how the "Inside Grease Pencil" placement variant works. You can also outline areas of
-      no interest (like trees, humans and so) and place markers outside of these areas. That's how the "Outside
+      outlined area. That is how the "Inside Grease Pencil" placement variant works. You can also outline areas of
+      no interest (like trees, humans and so) and place markers outside of these areas. That is how the "Outside
       Grease Pencil" placement variant works.
    Margin
       controls the distance from the image boundary for created markers. If markers are placed too close to the
-      image boundary, they'll fail to track really quickly and they should be deleted manually. To reduce the
+      image boundary, they will fail to track really quickly and they should be deleted manually. To reduce the
       amount of manual clean-up, this parameter can be used.
    Trackability
       Limits minimal trackability for placing markers. This value comes from the feature detection algorithm and
       basically it means: low values means most probably this feature would fail to track very soon, high value
-      means it's not much such track. Amount of markers to be added can be controlled with this value.
+      means it is not much such track. Amount of markers to be added can be controlled with this value.
    Distance
-      Defines the minimal distance between placed markers. It's needed to prevent markers from being placed too
+      Defines the minimal distance between placed markers. It is needed to prevent markers from being placed too
       close to each other (such placement can confuse the camera solver).
 
 Delete Track
@@ -74,7 +74,7 @@ Tracking can happen (in order of buttons):
 
 This operator depends on settings from the Tracking Settings panel, which will be described later.
 If during sequence tracking the algorithm fails to track some markers,
-they'll be disabled and tracking will continue for the rest of the markers.
+they will be disabled and tracking will continue for the rest of the markers.
 If the algorithm fails when tracking frame-by-frame, the marker is not disabled,
 and the most likely position of the feature on the next frame is used.
 
@@ -86,7 +86,7 @@ Clear
    clears all markers except the current one from all selected tracks.
 Join
    operator joins all selected tracks into one.
-   Selected tracks shouldn't have common tracked or keyframed markers at the same frame.
+   Selected tracks should not have common tracked or keyframed markers at the same frame.
 
 
 Solve
@@ -117,16 +117,16 @@ Values above 3 means some tracks should be tracked more accurately,
 or that values for focal length or distortion coefficients were set incorrectly.
 
 The *Refine* option specifies which parameters should be refined during solve.
-Such refining is useful when you aren't sure about some camera intrinsics,
+Such refining is useful when you are not sure about some camera intrinsics,
 and solver should try to find the best parameter for those intrinsics.
 But you still have to know approximate initial values -
-it'll fail to find correct values if they were set completely incorrectly initially.
+it will fail to find correct values if they were set completely incorrectly initially.
 
 Cleanup Panel
 -------------
 
 This panel contains a single operator and its settings. This operator cleans up bad tracks:
-tracks which aren't tracked long enough or which failed to reconstruct accurately.
+tracks which are not tracked long enough or which failed to reconstruct accurately.
 Threshold values can be specified from sliders below the button. Also,
 several actions can be performed for bad tracks:
 

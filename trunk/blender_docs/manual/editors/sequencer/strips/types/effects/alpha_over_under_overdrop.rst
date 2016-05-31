@@ -11,7 +11,7 @@ Alpha Over, Under, and Over Drop
 
 Using the alpha (transparency channel), this effect composites a
 result based on transparent areas of the dominant image.
-If you use a Scene strip, the areas of the image where there isn't anything solid are transparent;
+If you use a Scene strip, the areas of the image where there is not anything solid are transparent;
 they have an alpha value of 0. If you use a movie strip, that movie has an alpha value of 1 (completely opaque).
 
 So, you can use the *Alpha Over* / *Alpha Under* effect to composite the CGI Scene on top of your movie.

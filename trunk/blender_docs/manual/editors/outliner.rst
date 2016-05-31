@@ -29,14 +29,14 @@ Each row in the *Outliner* shows a data-block. You can click the plus-sign to th
 left of a name to expand the current data-block and see what other data-blocks it contains.
 
 You can select data-blocks in the *Outliner*,
-but this won't necessarily select the data-block in the scene.
+but this will not necessarily select the data-block in the scene.
 To select the data-block in the scene, you have to activate it.
 
 
 Selecting and Activating
 ========================
 
-Single selection doesn't require any pre-selection: just work directly with :kbd:`LMB`
+Single selection does not require any pre-selection: just work directly with :kbd:`LMB`
 (and/or :kbd:`RMB` - contextual menu, see below) *inside* the name/icon area.
 
 When you select an object in the list this way,
@@ -115,16 +115,16 @@ Toggling object-level restrictions
 The three following options, in the right side of the *Outliner* window,
 are only available for objects:
 
-Visibility *eye icon*
+Visibility (eye icon)
    Toggles the visibility of the object in the 3D View.
    :kbd:`V` will toggle this property for any objects that are selected in the *Outliner*.
 
-Selectability *mouse cursor icon*
+Selectability (mouse cursor icon)
    This is useful for if you have placed something in the scene
-   and don't want to accidentally select it when working on something else.
+   and do not want to accidentally select it when working on something else.
    :kbd:`S` will toggle this property for any objects that are selected in the *Outliner*.
 
-Rendering *camera icon*
+Rendering (camera icon)
    This will still keep the object visible in the scene, but it will be ignored by the renderer.
    :kbd:`R` will toggle this property for any objects that are selected in the *Outliner*.
 

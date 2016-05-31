@@ -26,6 +26,6 @@ With the *Glow* strip properties, you control this *Threshold:*,
 the maximum luminosity that can be added (*Clamp:*),
 a *Boost factor:* for it, the size of the blur (*Blur distance:*),
 and its *Quality:*. The *Only boost* button allows you to only show/use
-the 'modified' version of the image, without the base one. To "animate" the glow effect,
+the "modified" version of the image, without the base one. To "animate" the glow effect,
 mix it with the base image using the Gamma Cross effect,
 crossing from the base image to the glowing one.

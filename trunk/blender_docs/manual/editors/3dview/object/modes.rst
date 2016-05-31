@@ -100,8 +100,10 @@ Modes might affect many things in Blender:
 
 As you can see, using shortcuts to switch between modes can become quite tricky, especially with meshes...
 
-We won't detail further more modes' usages here.
-Most of them are tackled in the :doc:`modeling chapter </modeling/index>`, as they are mainly related to this topic.
+.. Todo add to chart
+
+We will not go into any more detail on modes usages here, However,
+most of them are tackled in the :doc:`modeling chapter </modeling/index>`, as they are mainly related to this topic.
 The *Particle mode* is discussed in the :doc:`particle section </physics/particles/mode>`,
 and the *Pose mode* and *Edit mode* for armatures, in the :doc:`rigging one </rigging/index>`.
 

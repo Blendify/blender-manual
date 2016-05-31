@@ -155,7 +155,7 @@ These options are located in the *Object* menu.
    or can get a :ref:`Proxy <object-proxy>`.
 :doc:`Frames </editors/3dview/transform/duplication/dupliframes>`
    For animated objects, this creates an instance on every frame.
-   As you'll see on this topic's subpage,
+   As you will see on this topic's subpage,
    this is also a *very* powerful technique for arranging objects and for modeling them.
 
 
@@ -169,7 +169,7 @@ This is possible by first selecting objects you want to link and then using:
 This makes the same object exist in 2 different scenes at once, including its position and animation data.
 You can tell this is a *multi-user* object by the blue color of its center-circle
 
-If you don't want the objects to be shared between the scenes, you can make them *Single-User* by using:
+If you do not want the objects to be shared between the scenes, you can make them *Single-User* by using:
 :menuselection:`Object --> Make Single User --> Object`.
 
 Further information on working with scenes can be found :doc:`here </data_system/scenes>`.
@@ -192,4 +192,4 @@ Any object or data-block in other blend-files can be reused in the current file.
    - If you want transform properties (i.e. object data-blocks) to be "linked",
      see the page on :doc:`parenting </editors/3dview/object/relationships/parents>`.
    - Material Transparency will not display when instancing dupli-groups;
-     this is a known limitation of Blender's view-port.
+     this is a known limitation of Blender's viewport.

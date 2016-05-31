@@ -1,6 +1,4 @@
-
-..    TODO/Review: {{review|im=additional examples|split=X}} .
-
+..    TODO/Review: {{review|im=additional examples|split=X}}.
 
 *****************
 UV Mapping a Mesh
@@ -30,7 +28,7 @@ Each face of a mesh can have many UV Textures.
 Each UV Texture can have an individual image assigned to it.
 When you unwrap a face to a UV Texture in the UV/Image Editor, each face of the mesh is
 automatically assigned *four UV coordinates:* These coordinates define the way an image or a
-texture is mapped onto the face. These are 2D coordinates, which is why they're called UV,
+texture is mapped onto the face. These are 2D coordinates, which is why they are called UV,
 to distinguish them from XYZ coordinates.
 These coordinates can be used for rendering or for real-time OpenGL display as well.
 
@@ -182,7 +180,7 @@ while a spherical map takes into account the sphere's curvature,
 and each latitude line becomes evenly spaced.
 
 Normally, to unwrap a cylinder (tube) as if you slit it lengthwise and folded it flat,
-Blender wants the view to be vertical, with the tube standing 'up'.
+Blender wants the view to be vertical, with the tube standing "up".
 Different views will project the tube onto the UV map differently, skewing the image if used.
 However you can set the axis on which the calculation is done manually.
 This same idea works for the sphere mapping:
@@ -268,7 +266,7 @@ applying some amount of stretching. These cuts are the same as seams.
 When using this method, you need to be aware of how much stretching there is.
 The more seams there are, the less stretching there is,
 but this is often an issue for the texturing process.
-It's a good idea to have as few seams as possible while having the least amount of stretching.
+It is a good idea to have as few seams as possible while having the least amount of stretching.
 Try to hide seams where they will not be seen. In productions where 3d Paint is used,
 this becomes less of an issue, as projection painting can easily deal with seams,
 as opposed to 2d texturing, where it is difficult to match the edges of different UV islands.
@@ -319,7 +317,7 @@ A seam runs along the back of her head vertically,
 so that each side of her head is flattened out.
 
 Another use for seams is to limit the faces unwrapped. For example, when texturing a head, you
-don't really need to texture the scalp on the top and back of the head since it will be
+do not really need to texture the scalp on the top and back of the head since it will be
 covered in hair. So define a seam at the hairline. Then, when you select a frontal face,
 and then select linked faces before unwrapping,
 the select will only go up to the hairline seam, and the scalp will not be unwrapped.
@@ -331,10 +329,13 @@ you will be able to overlay both halves onto the same texture space,
 so that the image pixels for the right hand will be shared with the left;
 the right side of the face will match the left, etc.
 
-Finally, remember that you *don't* have to come up with "one unwrapping that works perfectly
-for everything everywhere." As we'll discuss later,
-you can easily have multiple UV unwrappings,
-using different approaches in different areas of your mesh.
+
+.. note::
+
+   You **do not** have to come up with "one unwrapping that works perfectly
+   for everything everywhere." As we will discuss later,
+   you can easily have multiple UV unwrappings,
+   using different approaches in different areas of your mesh.
 
 
 Unwrap
@@ -356,7 +357,7 @@ This method will unwrap all of the faces and reset previous work. The
 UVs menu will appear in the UV/Image Editor window after unwrapping has been performed once.
 
 This tool unwraps the faces of the object to provide the
-'best fit' scenario based on how the faces are connected and will fit within the image,
+"best fit" scenario based on how the faces are connected and will fit within the image,
 and takes into account any seams within the selected faces.
 If possible, each selected face gets its own different area of the image and is not overlapping any other faces UV's.
 If all faces of an object are selected, then each face is mapped to some portion of the image.

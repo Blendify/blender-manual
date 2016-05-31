@@ -32,7 +32,7 @@ There is a name field in the node group you can click into to change the name of
 Change the name of the node group to something meaningful. 
 When appending node groups from one blend file to another, 
 Blender does not make a distinction between material node groups or composite node groups, 
-so it's recommended some naming convention, that will allow you to easily distinguish between the two types.
+so it is recommended some naming convention, that will allow you to easily distinguish between the two types.
 
 .. note::
 
@@ -43,11 +43,11 @@ so it's recommended some naming convention, that will allow you to easily distin
 
    Input nodes
        if you include a source node in your group,
-       you'll end up having the source node appearing *twice*: once inside the group,
+       you will end up having the source node appearing *twice*: once inside the group,
        and once outside the group in the new material node-network.
 
    Output node
-        if you include an output node in the group, there won't be an output socket available *from* the group!
+        if you include an output node in the group, there will not be an output socket available *from* the group!
 
 
 Editing Node Groups
