@@ -64,7 +64,7 @@ Cull out and duplicate parts of a mesh
    of a base and a stud (the bump to connect the bricks together).
    To create a four-stud block, you would want to be able to
    easily select the stud vertices, and, still in
-   *Edit mode*, duplicate them and position them
+   *Edit Mode*, duplicate them and position them
    where you want them.
 
 

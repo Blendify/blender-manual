@@ -6,7 +6,7 @@ Mesh Bisect
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Bisect`
 
 

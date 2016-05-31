@@ -6,7 +6,7 @@ DupliVerts
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object mode
+   | Mode:     Object Mode
    | Panel:    :menuselection:`Object --> Duplication`
 
 
@@ -53,7 +53,7 @@ our parent mesh.
    Dupliverted monkeys.
 
 
-First, in *Object mode*,
+First, in *Object Mode*,
 select the base object and :kbd:`Shift-RMB` to add the circle to the selection
 (order is very important here),
 and :kbd:`Ctrl-P` to parent the base object to the circle.

@@ -34,7 +34,7 @@ Display Panel
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object, Edit and Pose mode
+   | Mode:     Object, Edit and Pose Mode
    | Panel:    *Display* *Object Data* context
 
 
@@ -91,9 +91,9 @@ Draw Options
 Names
    When enabled, the name of each bone is drawn.
 Colors
-   This is only relevant for *Pose mode*, and is described in detail :doc:`there </rigging/posing/visualization>`.
+   This is only relevant for *Pose Mode*, and is described in detail :doc:`there </rigging/posing/visualization>`.
 Axes
-   When enabled, the (local) axes of each bone are drawn (only relevant for *Edit mode* and *Pose mode*).
+   When enabled, the (local) axes of each bone are drawn (only relevant for *Edit Mode* and *Pose Mode*).
 X-Ray
    When enabled, the bones of the armature will always be drawn on top of the solid objects
    (meshes, surfaces, ...) - i.e. they will always be visible and selectable
@@ -101,7 +101,7 @@ X-Ray
    Very useful when not in *Wireframe* mode.
 Shapes
    When enabled, the default standard bone shape is replaced,
-   in *Object mode* and *Pose mode*,
+   in *Object Mode* and *Pose Mode*,
    by the shape of a chosen object (see `Shaped Bones`_ for details).
 Delay Refresh
    When enabled, the bone doesn't deform its children when manipulating the bone in pose mode.
@@ -113,12 +113,12 @@ Shaped Bones
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object and Pose mode
+   | Mode:     Object and Pose Mode
    | Panel:    *Display* panel from *Bone* context.
 
 
 Blender allows you to give to each bone of an armature a specific shape
-(in *Object mode* and *Pose mode*), using another object as "template".
+(in *Object Mode* and *Pose Mode*), using another object as "template".
 First of all, you have to enable the *Shapes* button (*Armature* panel).
 
 
@@ -136,7 +136,7 @@ Wireframe
    Useful for non-obstructive custom bone chains.
 
 Hide
-   Bone is not visible when not in *Edit mode*.
+   Bone is not visible when not in *Edit Mode*.
 
 Custom Shape
    Object that defines the custom shape of the selected bone.
@@ -147,7 +147,7 @@ Custom At
 
 To assign a custom shape to a bone, you have to:
 
-- Switch to *Pose mode* :kbd:`Ctrl-Tab`.
+- Switch to *Pose Mode* :kbd:`Ctrl-Tab`.
 - Select the relevant bone by clicking on it with :kbd:`RMB`.
 - Go to the *Display* panel *Custom Shape* field and select the 3D object previously created in the scene;
   in this example we are using a cube and a cone. Tou can optionally set the *At* field to another bone.
@@ -164,13 +164,13 @@ To assign a custom shape to a bone, you have to:
    * - .. figure:: /images/RiggingBoneShapeEx3DViewObjectMode.jpg
           :width: 300px
 
-          The armature with shapes assigned to two bones, in Object mode.
+          The armature with shapes assigned to two bones, in Object Mode.
           Note the centers of the Cone and Cube objects.
 
      - .. figure:: /images/RiggingBoneShapeEx3DViewPoseMode.jpg
           :width: 300px
 
-          The same armature in Pose mode...
+          The same armature in Pose Mode...
 
 
 .. note::
@@ -181,7 +181,7 @@ To assign a custom shape to a bone, you have to:
    - The center of the shape object will be at the *root of the bone*
      (see the :doc:`bone page </rigging/armatures/bones/index>` for root/tip).
    - The object properties of the shape are ignored
-     (i.e. if you make a parallelepiped out of a cube by modifying its dimensions in *Object mode*,
+     (i.e. if you make a parallelepiped out of a cube by modifying its dimensions in *Object Mode*,
      you'll still have a cube shaped bone...).
    - The "along bone" axis is the Y one,
      and the shape object is always scaled so that one Blender Unit stretches along the whole bone length.
@@ -200,7 +200,7 @@ Armature Layers
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object, Edit and Pose mode
+   | Mode:     Object, Edit and Pose Mode
    | Panel:    *Skeleton* panel, *Object data* context
 
 
@@ -225,7 +225,7 @@ Only bones in active layers will be visible/editable - but they will always be e
 
 - In all modes, use the row of small buttons at the top of the *Display Options* group, *Armature* panel.
   If you want to enable/disable several layers at once, as usual, hold :kbd:`Shift` while clicking...
-- In *Edit mode* and *Pose mode*, you can also do this from the *3D View*,
+- In *Edit Mode* and *Pose Mode*, you can also do this from the *3D View*,
   either by using the menu :menuselection:`Armature --> Switch Armature Layers` or
   :menuselection:`Pose --> Switch Armature Layers`, or the :kbd:`Shift-M` shortcut,
   to display a small pop-up dialog containing the same buttons as described above
@@ -248,7 +248,7 @@ Bone Layers
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object, Edit and Pose mode
+   | Mode:     Object, Edit and Pose Mode
    | Panel:    *Relations* panel *Bone* context
 
 
@@ -261,7 +261,7 @@ Bone Layers
 Moving bones between layers
 ---------------------------
 
-Obviously, you have to be in *Edit mode* or *Pose mode* to move bones between
+Obviously, you have to be in *Edit Mode* or *Pose Mode* to move bones between
 layers - note that as with objects, bones can lay in several layers at once,
 just use the usual :kbd:`Shift-LMB` clicks... First of all,
 you have to select the chosen bone(s)!
@@ -281,7 +281,7 @@ Hiding Bones
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit and Pose mode
+   | Mode:     Edit and Pose Mode
    | Panel:    *Display* panel, *Bone* context
 
 
@@ -302,8 +302,8 @@ You can also use the *Hide* check button of the *Display* panel,
 *Bone* context).
 
 Note that hidden bones are specific to a mode - i.e.
-you can hide some bones in *Edit mode*,
-they will still be visible in *Pose mode*, and vice-versa.
-Hidden bone in *Pose mode* are also invisible in *Object mode*.
-And in *Edit mode*, the bone to hide must be fully selected,
+you can hide some bones in *Edit Mode*,
+they will still be visible in *Pose Mode*, and vice-versa.
+Hidden bone in *Pose Mode* are also invisible in *Object Mode*.
+And in *Edit Mode*, the bone to hide must be fully selected,
 not just his root or tip...

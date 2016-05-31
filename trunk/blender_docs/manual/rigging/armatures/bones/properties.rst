@@ -6,7 +6,7 @@ Bones
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object mode, Edit mode and Pose mode
+   | Mode:     Object Mode, Edit Mode and Pose Mode
    | Panel:    All in *Properties* window, *Bone* property
 
 
@@ -31,7 +31,7 @@ In this panel you can arrange sets of bones in different layers for easier manip
 
 .. note::
 
-   This mode is only available in Edit mode.
+   This mode is only available in Edit Mode.
 
 
 Display
@@ -46,7 +46,7 @@ Display panel lets you customize the look of your bones taking the shape of a an
 
 .. note::
 
-   This mode is only available in Object mode.
+   This mode is only available in Object Mode.
 
 
 
@@ -89,7 +89,7 @@ When in pose mode you can only set location for the main bone, and you can now s
 
 .. note::
 
-   This mode is only available in Edit Pose modes.
+   This mode is only available in Edit Pose Modes.
 
 
 Transform Locks
@@ -104,7 +104,7 @@ rotation and scale by axis on each bone in the armature.
 
 .. note::
 
-   This mode is only available in Pose mode.
+   This mode is only available in Pose Mode.
 
 
 Inverse Kinematics
@@ -119,7 +119,7 @@ This panel controls the way a bone or set of bones behave when linked in an inve
 
 .. note::
 
-   This mode is only available in Pose mode.
+   This mode is only available in Pose Mode.
 
 
 Custom Properties

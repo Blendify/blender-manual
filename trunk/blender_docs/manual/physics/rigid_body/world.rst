@@ -55,7 +55,7 @@ Specifies the frame range in which the simulation is active. Can be used to bake
 Start/End
    First and last frame of the simulation.
 Bake
-   Calculates the simulation and protects the cache. You need to be in *Object mode* to bake.
+   Calculates the simulation and protects the cache. You need to be in *Object Mode* to bake.
 
    Free Bake
       Active after the baking of simulation. Clears the baked cache.

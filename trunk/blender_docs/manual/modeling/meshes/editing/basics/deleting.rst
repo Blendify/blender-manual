@@ -78,7 +78,7 @@ Unsubdivide
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Edges --> Unsubdivide`
 
 
@@ -100,7 +100,7 @@ Merging Vertices
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Vertices --> Merge...`,
                :menuselection:`Specials --> Merge` or :menuselection:`Vertex Specials --> Merge`
    | Hotkey:   :kbd:`Alt-M`
@@ -137,7 +137,7 @@ AutoMerge Editing
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> AutoMerge Editing`
 
 
@@ -153,7 +153,7 @@ Remove Doubles
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Panel:    :menuselection:`Editing context --> Mesh Tools`
    | Menu:     :menuselection:`Mesh --> Vertices --> Remove Doubles`,
                :menuselection:`Specials --> Remove Doubles` or :menuselection:`Vertex Specials --> Remove Doubles`

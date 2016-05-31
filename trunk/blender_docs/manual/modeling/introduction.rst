@@ -30,7 +30,7 @@ There are three primary types of modeling - mesh modeling, curve/surface modelin
 
       Creation of a mesh primitive typically starts by adding a mesh object in *Object Mode*.
       Limited types of editing such as size, location, and orientation can be accomplished in *Object Mode*.
-      *Object mode* also provides the means to Join and Group multiple mesh primitives.
+      *Object Mode* also provides the means to Join and Group multiple mesh primitives.
 
       More detailed editing of the mesh model shape is done in *Edit Mode*, and *Sculpt Mode*.
       The nature of these three modes determines the tools that are available

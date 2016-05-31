@@ -6,7 +6,7 @@ Precision
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object and Edit modes
+   | Mode:     Object and Edit Modes
    | Hotkey:   :kbd:`Ctrl` and/or :kbd:`Shift`
 
 

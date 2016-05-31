@@ -45,7 +45,7 @@ Curve Primitives
    Add Curve menu.
 
 
-In Object mode, the *Add Curve* menu,
+In Object Mode, the *Add Curve* menu,
 Blender provides five different curve primitives:
 
 Bezier Curve
@@ -76,7 +76,7 @@ This can be altered by defining a custom F-Curve.
 
 .. figure:: /images/Modeling_Curves_control-points-handles.jpg
 
-   Bezier Curve in Edit mode.
+   Bezier Curve in Edit Mode.
 
 
 Editing Bezier Curves
@@ -85,7 +85,7 @@ Editing Bezier Curves
 A Bezier curve can be edited by moving the locations of the Control Points and Handles.
 
 - Add a Curve by :kbd:`Shift-A` to bring up the *Add* menu, followed by :menuselection:`Curve --> Bezier`.
-- Press :kbd:`Tab` to enter *Edit mode*.
+- Press :kbd:`Tab` to enter *Edit Mode*.
 - Select one of the Control Points and move it around.
   Use :kbd:`LMB` to confirm the new location of the Control Point, or use :kbd:`RMB` to cancel.
 - Now select one of the Handles and move it around. Notice how this changes the curvature of the curve.
@@ -96,7 +96,7 @@ To add more Control Points
 - Press :kbd:`W` and select *Subdivide*.
 - Optionally, you can press :kbd:`F6` immediately after the subdivision to modify the number of subdivisions.
 
-Note that while in *Edit mode* you cannot directly select a Segment. To do so,
+Note that while in *Edit Mode* you cannot directly select a Segment. To do so,
 select all of the Control Points that make up the Segment you want to move.
 
 There are four Bezier curve handle types.
@@ -300,7 +300,7 @@ Active Spline
    Curves Active Spline panel.
 
 
-The *Active Spline* panel becomes available during *Edit mode*.
+The *Active Spline* panel becomes available during *Edit Mode*.
 
 Cyclic
    Closes the Curve.
@@ -336,7 +336,7 @@ Editing NURBS Curves
 A NURBS Curve is edited by moving the location of the Control Points.
 
 - Place a Curve by :kbd:`Shift-A` to bring up the Add menu, followed by :menuselection:`Curve --> NURBS curve`.
-- Press :kbd:`Tab` to enter *Edit mode*.
+- Press :kbd:`Tab` to enter *Edit Mode*.
 - Select one of the Control Points and move it around.
   Use :kbd:`LMB` to confirm the new location of the Control Point, or use :kbd:`RMB` to cancel.
 - If you want to add additional Control Points, select both of them, press :kbd:`W` and select *Subdivide*.

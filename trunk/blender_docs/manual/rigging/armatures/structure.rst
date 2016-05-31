@@ -48,7 +48,7 @@ and the last bone of a chain is the *tip bone*
 
 Chains of bones are a particularly important topic in :doc:`posing </rigging/posing/index>`
 (especially with the standard *forward kinematics* versus "automatic" *inverse kinematics* posing techniques).
-You create/edit them in *Edit mode*, but except in case of connected bones,
+You create/edit them in *Edit Mode*, but except in case of connected bones,
 their relationships have no effect on bone transformations in this mode
 (i.e. transforming a parent bone won't affect its children).
 

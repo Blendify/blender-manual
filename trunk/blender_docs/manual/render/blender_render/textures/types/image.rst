@@ -298,7 +298,7 @@ there is nothing to modulate the UV Texture colors, so the finger shows as white
 Transparent areas of the UV Image show as black.
 
 The top right ball has had a pink vertex color applied to the vertical band of faces
-(in the 3D View window, select the faces in UV Paint mode, switch to Vertex Paint mode,
+(in the 3D View window, select the faces in UV Paint Mode, switch to Vertex Paint Mode,
 pick a pink color, and :menuselection:`Paint --> Set Vertex Colors`).
 The finger is mapped to the middle vertical band of faces,
 and VCol and Face Textures are enabled.

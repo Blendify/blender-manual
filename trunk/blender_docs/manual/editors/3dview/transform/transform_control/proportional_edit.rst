@@ -17,13 +17,13 @@ it is very useful when you need to smoothly deform the surface of a dense mesh.
    that contains brushes and tools for proportionally editing a mesh without seeing the individual vertices.
 
 
-Object mode
+Object Mode
 ===========
 
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object mode
+   | Mode:     Object Mode
    | Menu:     Via the icon in the header indicated by the yellow square in the below image.
 
    .. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-proportional-edit-header-icon.jpg
@@ -31,8 +31,8 @@ Object mode
    | Hotkey:   :kbd:`O`
 
 
-Proportional editing is typically used in *Edit mode*, however,
-it can also be used in *Object mode*. In *Object mode* the tool works on
+Proportional editing is typically used in *Edit Mode*, however,
+it can also be used in *Object Mode*. In *Object Mode* the tool works on
 entire objects rather than individual mesh components. In the image below,
 the green cube is the active Object, while the red and blue cubes are located within the
 proportional edit tool's radius of influence. When the green cube is moved to the right,
@@ -41,18 +41,18 @@ the other two cubes follow the movement.
 
 .. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-object-mode.jpg
 
-   Proportional editing in Object mode.
+   Proportional editing in Object Mode.
 
 
 .. Todo move to modeling section
 
-Edit mode
+Edit Mode
 =========
 
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Proportional Editing` and via the highlighted icon in the below image
 
 
@@ -70,7 +70,7 @@ This is done by the tool's automatic modification of unselected vertices within 
 
 .. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-edit-mode.jpg
 
-   Proportional editing in Edit mode.
+   Proportional editing in Edit Mode.
 
 
 Influence
@@ -126,7 +126,7 @@ Connected :kbd:`Alt-O`
    While the other vertices are physically close (in 3D space),
    they are far away following the topological edge connections of the mesh.
    The icon will have a grey center when *Connected* is active.
-   This mode is only available in *Edit mode*.
+   This mode is only available in *Edit Mode*.
 
 
 Falloff

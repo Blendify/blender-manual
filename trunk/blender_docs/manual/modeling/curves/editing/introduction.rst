@@ -22,7 +22,7 @@ Display Options
    Curve Display panel.
 
 
-When in Edit mode, the Properties Shelf :kbd:`N` contains options in the
+When in Edit Mode, the Properties Shelf :kbd:`N` contains options in the
 *Curve Display* panel for how curves are displayed in the 3D viewport.
 
 Handles
@@ -37,7 +37,7 @@ Normal Size
 Hiding Elements
 ---------------
 
-When in *Edit mode*, you can hide and reveal elements from the display.
+When in *Edit Mode*, you can hide and reveal elements from the display.
 This can be useful in complex models with many elements on the Screen.
 
 Hide Selected elements
@@ -58,7 +58,7 @@ Basic Curve Editing (translation, rotation, scale)
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Curve --> Transform --> Grab/Move, Rotate, Scale, ...`
    | Hotkey:   :kbd:`G`, :kbd:`R`, :kbd:`S`
 
@@ -66,7 +66,7 @@ Basic Curve Editing (translation, rotation, scale)
 Like other elements in Blender, Curve control points can be grabbed/moved :kbd:`G`,
 rotated :kbd:`R` or scaled :kbd:`S`
 as described in the :doc:`Basic Transformations </editors/3dview/transform/introduction>` section.
-When in *Edit mode*, :doc:`proportional editing
+When in *Edit Mode*, :doc:`proportional editing
 </editors/3dview/transform/transform_control/proportional_edit>`
 is also available for transformation actions.
 
@@ -77,7 +77,7 @@ Snapping
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Panel:    *Curve Tools* (*Editing* context)
 
 
@@ -94,7 +94,7 @@ Deforming Tools
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Curve --> Transform`
 
 
@@ -109,7 +109,7 @@ Smoothing
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Hotkey:   :kbd:`W` :menuselection:`--> smooth`
 
 Curve smoothing is available through the specials menu. For Bézier curves, this smoothing
@@ -137,7 +137,7 @@ Mirror
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Curve --> Mirror`
    | Hotkey:   :kbd:`Ctrl-M`
 
@@ -152,7 +152,7 @@ Set Bézier Handle Type
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Panel:    :menuselection:`Curve Tools --> Handles`
    | Menu:     :menuselection:`Curve --> Control Points --> Set Handle Type`
    | Hotkey:   :kbd:`V`
@@ -172,7 +172,7 @@ Extending Curves
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Curve --> Extrude`
    | Hotkey:   :kbd:`Ctrl-LMB`, :kbd:`E`
 
@@ -193,7 +193,7 @@ Subdivision
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Panel:    *Curve Tools* (*Editing* context)
    | Menu:     :menuselection:`SurfaceTools --> Modeling --> Subdivide`
    | Hotkey:   :kbd:`W`
@@ -211,7 +211,7 @@ Duplication
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Curve --> Duplicate`
    | Hotkey:   :kbd:`Shift-D`
 
@@ -229,7 +229,7 @@ Joining Curve Segments
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Curve --> Make Segment`
    | Hotkey:   :kbd:`F`
 
@@ -256,7 +256,7 @@ Separating Curves
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Curve --> Separate`
    | Hotkey:   :kbd:`P`
 
@@ -273,7 +273,7 @@ Deleting Elements
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Curve --> Delete...`
    | Hotkey:   :kbd:`X`, :kbd:`Del`
 
@@ -314,7 +314,7 @@ Opening and Closing a Curve
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Curve --> Toggle Cyclic`
    | Hotkey:   :kbd:`Alt-C`
 
@@ -347,7 +347,7 @@ Switch Direction
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Curve --> Segments --> Switch Direction`,
      :menuselection:`Specials --> Switch Direction`
    | Hotkey:   :kbd:`W-Numpad2`
@@ -367,7 +367,7 @@ Converting Curve Type
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Panel:    Curve Tools --> Set Spline type
 
 
@@ -391,12 +391,12 @@ Convert Curve to Mesh
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object mode
+   | Mode:     Object Mode
    | Menu:     :menuselection:`Object --> Convert to --> Mesh From Curve/Meta/Surface/Text`
    | Hotkey:   :kbd:`Alt-C`
 
 
-There is also an "external" conversion, from curve to mesh, that only works in *Object mode*.
+There is also an "external" conversion, from curve to mesh, that only works in *Object Mode*.
 It transforms a *Curve* object into a *Mesh* object,
 using the curve resolution to create edges and vertices.
 Note that it also keeps the faces and volumes created by closed and extruded curves.
@@ -407,7 +407,7 @@ Convert Mesh to Curve
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object mode
+   | Mode:     Object Mode
    | Menu:     :menuselection:`Object --> Convert to --> Curve From Mesh/Text`
    | Hotkey:   :kbd:`Alt-C`
 
@@ -423,7 +423,7 @@ Curve Parenting
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Hotkey:   :kbd:`Ctrl-P`
 
 
@@ -444,7 +444,7 @@ Hooks
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Curve --> control points --> hooks`
    | Hotkey:   :kbd:`Ctrl-H`
 
@@ -460,7 +460,7 @@ Set Goal Weight
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :kbd:`W` :menuselection:`--> Set Goal Weight`
 
 

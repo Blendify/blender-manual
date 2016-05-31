@@ -72,7 +72,7 @@ oriented from root to tip. So, this is the "roll" axis of the bones.
 Bones properties
 ================
 
-When bones are selected (hence in *Edit mode* and *Pose mode*), their
+When bones are selected (hence in *Edit Mode* and *Pose Mode*), their
 properties are shown in the *Bone* button context of the *Properties*
 window.
 
@@ -89,18 +89,18 @@ rigid linked elements that can rotate between each other. By default,
 each new bone has only one segment and as such it cannot "bend" along its length.
 It is a rigid bone.
 
-You can see these segments in *Object mode* and in *Pose mode*,
+You can see these segments in *Object Mode* and in *Pose Mode*,
 and only if bones are visualized as *B-bones*;
-while in *Edit mode* bones are always drawn as rigid sticks.
+while in *Edit Mode* bones are always drawn as rigid sticks.
 Note that in the special case of a single bone,
-you can't see these segments in *Object mode*, because they're aligned.
+you can't see these segments in *Object Mode*, because they're aligned.
 
 .. list-table::
 
    * - .. figure:: /images/RiggingBBoneEx3DViewEditMode.jpg
           :width: 300px
 
-          An armature of B-Bones, in Edit mode.
+          An armature of B-Bones, in Edit Mode.
 
      - .. figure:: /images/RiggingBBoneEx3DViewPrinciples.jpg
           :width: 300px
@@ -110,7 +110,7 @@ you can't see these segments in *Object mode*, because they're aligned.
    * - .. figure:: /images/RiggingBBoneEx3DViewObjectMode.jpg
           :width: 300px
 
-          The same armature in Object mode.
+          The same armature in Object Mode.
 
      -
 
@@ -123,10 +123,10 @@ There is no direct access to the curve.
 It can only be controlled by some extent using bone properties,
 as explained in the :ref:`editing pages <armature-bone-rigid>`.
 
-In Fig. An armature of B-Bones in Edit mode we connected 3 bones,
+In Fig. An armature of B-Bones in Edit Mode we connected 3 bones,
 each one made of 5 segments. These are *B-bones* but as you see,
-in *Edit mode* they are shown as rigid elements.
-Look at Fig. The same armature in Object mode: now, in *Object mode*,
+in *Edit Mode* they are shown as rigid elements.
+Look at Fig. The same armature in Object Mode: now, in *Object Mode*,
 we can see how the bones' segments smoothly "blend" into each other, even for roll.
 
 Of course,
@@ -165,11 +165,11 @@ because each bone can control only the geometry "enveloped" by its own influence
 .. figure:: /images/RiggingEnvelopePrinciples3DViewEditMode.jpg
    :width: 250px
 
-   A bone in Envelope visualization, in Edit mode.
+   A bone in Envelope visualization, in Edit Mode.
 
 
 If a bone is visualized as *Envelope*,
-in *Edit mode* and in *Pose mode* you can see the area of influence,
+in *Edit Mode* and in *Pose Mode* you can see the area of influence,
 which depends on:
 
 - the *distance* property
@@ -179,7 +179,7 @@ which depends on:
 .. figure:: /images/RiggingEnvelopeEx3DViewPoseMode.jpg
    :width: 300px
 
-   Our armature in Envelope visualization, in Pose mode.
+   Our armature in Envelope visualization, in Pose Mode.
 
 
 All these influence parameters are further detailed in the :doc:`skinning pages </rigging/skinning/index>`.

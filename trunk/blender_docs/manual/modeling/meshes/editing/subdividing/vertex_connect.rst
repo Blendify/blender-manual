@@ -7,7 +7,7 @@ Vertex Connect
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     Mesh --> Vertices --> Connect
    | Hotkey:   :kbd:`J`
 

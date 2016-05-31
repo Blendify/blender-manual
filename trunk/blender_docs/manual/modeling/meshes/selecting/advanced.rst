@@ -60,7 +60,7 @@ Select Linked
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Select --> Linked`
    | Hotkey:   :kbd:`Ctrl-L`
 
@@ -85,7 +85,7 @@ Select Similar
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Select --> Similar...`
    | Hotkey:   :kbd:`Shift-G`
 
@@ -157,7 +157,7 @@ Edge Loops and Vertex Loops
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode --> Vertex or Edge select mode
+   | Mode:     Edit Mode --> Vertex or Edge select mode
    | Menu:     :menuselection:`Select --> Edge Loop` or :menuselection:`Mesh --> Edges --> Edge Loop`
    | Hotkey:   :kbd:`Alt-RMB` or :kbd:`Ctrl-E` :menuselection:`--> Edge Loop`
 
@@ -195,7 +195,7 @@ Face Loops
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode --> Face or Vertex select modes
+   | Mode:     Edit Mode --> Face or Vertex select modes
    | Hotkey:   :kbd:`Alt-RMB`
 
 
@@ -235,7 +235,7 @@ Edge Ring
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode --> Edge select mode
+   | Mode:     Edit Mode --> Edge select mode
    | Menu:     :menuselection:`Select --> Edge Ring` or :menuselection:`Mesh --> Edges --> Edge Ring`
    | Hotkey:   :kbd:`Ctrl-Alt-RMB` or :kbd:`Ctrl-E` :menuselection:`--> Select --> Edge Ring`
 
@@ -272,7 +272,7 @@ Path Selection
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Hotkey:   :kbd:`Ctrl-RMB` and the menu item :menuselection:`Select --> Shortest Path`
 
 
@@ -292,7 +292,7 @@ Loop Inner-Region
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode --> Edge select mode
+   | Mode:     Edit Mode --> Edge select mode
    | Menu:     :menuselection:`Select --> Select Loop Inner-Region` or
      :menuselection:`Mesh --> Edges --> Select Loop Inner-Region`
    | Hotkey:   :kbd:`Ctrl-E` :menuselection:`--> Select Loop Inner-Region`
@@ -328,7 +328,7 @@ Boundary Loop
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode --> Edge select mode
+   | Mode:     Edit Mode --> Edge select mode
    | Menu:     :menuselection:`Select --> Select Boundary Loop` or
      :menuselection:`Mesh --> Edges --> Select Boundary Loop`
    | Hotkey:   :kbd:`Ctrl-E` :menuselection:`--> Select Boundary Loop`

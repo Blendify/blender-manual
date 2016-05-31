@@ -5,7 +5,7 @@ Selecting
 *********
 
 Selection determines which elements will be the target of our actions.
-Blender has advanced selection methods. Both in *Object mode* and in *Edit mode*.
+Blender has advanced selection methods. Both in *Object Mode* and in *Edit Mode*.
 
 
 .. _object-active:
@@ -21,7 +21,7 @@ Blender distinguishes between two different states of selection:
    Unselected object in black, selected object in orange, and active object in yellow.
 
 
-- In *Object mode* the last (de)selected item is called the "Active Object"
+- In *Object Mode* the last (de)selected item is called the "Active Object"
   and is outlined in yellow (the others are orange).
   There is exactly one active object at any time (even when nothing is selected).
 
@@ -59,7 +59,7 @@ Rectangular or Border Select
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object mode and Edit mode
+   | Mode:     Object Mode and Edit Mode
    | Menu:     :menuselection:`Select --> Border Select`
    | Hotkey:   :kbd:`B`
 
@@ -103,13 +103,13 @@ Lasso Select
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object mode and Edit mode
+   | Mode:     Object Mode and Edit Mode
    | Menu:     no entry in the menu
    | Hotkey:   :kbd:`Ctrl-LMB`
 
 
 Lasso select is used by drawing a dotted line around the pivot point of the objects,
-in *Object mode*.
+in *Object Mode*.
 
 
 Usage
@@ -133,7 +133,7 @@ Circle Select
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object mode and Edit mode
+   | Mode:     Object Mode and Edit Mode
    | Menu:     :menuselection:`Select --> Circle Select`
    | Hotkey:   :kbd:`C`
 
@@ -172,7 +172,7 @@ Select Grouped
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object mode
+   | Mode:     Object Mode
    | Menu:     :menuselection:`Select --> Grouped`
    | Hotkey:   :kbd:`Shift-G`
 
@@ -191,7 +191,7 @@ groups.
 Options
 ^^^^^^^
 
-:menuselection:`Select --> Grouped` in *Object mode* uses the active object as a basis to select all others.
+:menuselection:`Select --> Grouped` in *Object Mode* uses the active object as a basis to select all others.
 
 Available options are:
 
@@ -237,7 +237,7 @@ Select linked
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object mode
+   | Mode:     Object Mode
    | Menu:     :menuselection:`Select --> Linked`
    | Hotkey:   :kbd:`Shift-L`
 
@@ -248,7 +248,7 @@ Selects all objects which share a common data-block with the active object.
 Options
 ^^^^^^^
 
-:menuselection:`Select --> Linked` in *Object mode* uses the active object as a basis to select all others.
+:menuselection:`Select --> Linked` in *Object Mode* uses the active object as a basis to select all others.
 
 Available options are:
 
@@ -276,7 +276,7 @@ Select All by Type
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object mode
+   | Mode:     Object Mode
    | Menu:     :menuselection:`Select --> Select All by Type`
    | Hotkey:   None
 
@@ -292,7 +292,7 @@ one go.
 Options
 ^^^^^^^
 
-*Select All by Type* in *Object mode* offers an option for every type
+*Select All by Type* in *Object Mode* offers an option for every type
 of object that can be described by the *ObData* data-block.
 
 Just take your pick.
@@ -304,7 +304,7 @@ Select All by Layer
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object mode
+   | Mode:     Object Mode
    | Menu:     :menuselection:`Select --> Select All by Layer`
    | Hotkey:   None
 

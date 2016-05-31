@@ -27,7 +27,7 @@ The workflow for applying a second material to some faces of an object covered b
 material is as follows:
 
 
-- In Object mode, apply the base material to the whole object
+- In Object Mode, apply the base material to the whole object
   (as shown in :doc:`Assigning a material </render/blender_render/materials/assigning_a_material>`)
 - Create/select the second material (the whole object will change to this new material).
 - In the Active Material box (2), re-select the base material.

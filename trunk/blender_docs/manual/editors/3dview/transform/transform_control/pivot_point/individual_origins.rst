@@ -6,7 +6,7 @@ Individual Origins
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object mode and Edit mode
+   | Mode:     Object Mode and Edit Mode
    | Menu:     Select from the following icon in the 3D window header
 
    .. figure:: /images/Icon-library_3D-Window_header-pivot-point.jpg
@@ -14,7 +14,7 @@ Individual Origins
    | Hotkey:   :kbd:`Ctrl-.`
 
 
-In Object mode
+In Object Mode
 ==============
 
 .. figure:: /images/3D-Interaction_Transform-Control_Pivot-Point_Individual-Origins-rotation-around-center.jpg
@@ -43,10 +43,10 @@ Now let us examine: Rotation around the individual origins.
   remains in place while the Object rotates around it in the path shown by the black arrow.
 
 
-In Edit mode
+In Edit Mode
 ============
 
-In Edit mode, setting the Pivot Point to Individual Origins produces different results when
+In Edit Mode, setting the Pivot Point to Individual Origins produces different results when
 the selection mode is set to Vertex, Edge or Face. For example, Vertex mode produces results
 similar to setting the pivot point to median and Edge mode often produces distorted results.
 Using Individual Origins in Face mode produces the most predictable results.

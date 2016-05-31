@@ -47,15 +47,15 @@ then zoom to them with :menuselection:`View --> Show Active` or :kbd:`NumpadPeri
 
 .. figure:: /images/Outliner-Activate-Datablock.jpg
 
-   Click :kbd:`LMB` on the mesh data of the cube to activate Edit mode.
+   Click :kbd:`LMB` on the mesh data of the cube to activate Edit Mode.
 
 
 Activating a data-block
    *Activate* the data-block with :kbd:`LMB` on the *icon* of the data-block.
    Activating the data-block will automatically switch to the relevant mode.
    For example, activating the mesh data of the cube will select the cube
-   and enter *Edit mode* while activating the object data of the
-   cube will select the cube and enter *Object mode* (see right).
+   and enter *Edit Mode* while activating the object data of the
+   cube will select the cube and enter *Object Mode* (see right).
 
 
 .. figure:: /images/Outliner-Window-Column-Icons.jpg

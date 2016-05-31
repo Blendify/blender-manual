@@ -6,7 +6,7 @@ DupliGroup
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object mode
+   | Mode:     Object Mode
    | Panel:    :menuselection:`Object --> Duplication --> Group`
 
 

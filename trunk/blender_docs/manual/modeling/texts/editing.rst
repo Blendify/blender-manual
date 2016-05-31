@@ -10,7 +10,7 @@ Text Boxes
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object or Edit modes
+   | Mode:     Object or Edit Modes
    | Panel:    *Font* (*Editing* context)
 
 
@@ -130,7 +130,7 @@ Assigning Materials
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Panel:    *Link and Materials* (*Editing* context)
 
 

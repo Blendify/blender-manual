@@ -6,7 +6,7 @@ Properties
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object mode, Edit mode and Pose mode
+   | Mode:     Object Mode, Edit Mode and Pose Mode
    | Panel:    All in *Properties* window, *Object data* property
 
 
@@ -64,7 +64,7 @@ For bones belonging to multiple for easy selection during animation see instead
 
 .. note::
 
-   This mode is only available in Pose mode.
+   This mode is only available in Pose Mode.
 
 .. Tip ::
 
@@ -83,7 +83,7 @@ Allows you to save different settings (location, rotation, scale) for selected b
 
 .. note::
 
-   This mode is only available in Pose mode.
+   This mode is only available in Pose Mode.
 
 
 Ghost
@@ -120,7 +120,7 @@ In this panel you can enable visualization of the motion path your skeleton leav
 
 .. note::
 
-   This mode is only available in Pose mode.
+   This mode is only available in Pose Mode.
 
 
 Custom Properties

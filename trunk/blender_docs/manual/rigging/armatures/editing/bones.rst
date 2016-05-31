@@ -6,12 +6,12 @@ Editing Bones
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Hotkey:   :kbd:`Tab`
 
 
 You'll learn here how to add (`Adding Bones`_), delete (`Deleting Bones`_) or subdivide (`Subdividing Bones`_) bones.
-We will also see how to prevent any bone transformation (`Locking Bones`_) in *Edit mode*,
+We will also see how to prevent any bone transformation (`Locking Bones`_) in *Edit Mode*,
 and the option that features an automatic mirroring (`X-Axis Mirror Editing`_) of editing actions along the X axis.
 
 
@@ -33,7 +33,7 @@ Add Menu
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Hotkey:   :kbd:`Shift-A`
 
 
@@ -54,7 +54,7 @@ Extrusion
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Armature --> Extrude`
    | Hotkey:   :kbd:`E`, :kbd:`Shift-E`
 
@@ -129,7 +129,7 @@ Mouse Clicks
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Hotkey:   :kbd:`Ctrl-LMB`
 
 
@@ -212,7 +212,7 @@ Fill between joints
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Armature --> Fill Between Joints`
    | Hotkey:   :kbd:`F`
 
@@ -318,7 +318,7 @@ Duplication
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Armature --> Duplicate`
    | Hotkey:   :kbd:`Shift-D`
 
@@ -373,7 +373,7 @@ Standard deletion
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Armature --> Delete`
    | Hotkey:   :kbd:`X`
 
@@ -413,7 +413,7 @@ Merge
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Armature --> Merge`
    | Hotkey:   :kbd:`Alt-M`
 
@@ -466,7 +466,7 @@ Subdividing Bones
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Armature --> Subdivide`, :menuselection:`Armature --> Subdivide Multi`
    | Hotkey:   :kbd:`W-1`, :kbd:`W-2`
 
@@ -506,7 +506,7 @@ if you set *n* cuts, you'll get *n* + 1 bones for each selected bone.
 Locking Bones
 =============
 
-You can prevent a bone from being transformed in *Edit mode* in several ways:
+You can prevent a bone from being transformed in *Edit Mode* in several ways:
 
 - The active bone can be locked clicking on *Lock*
   in the *Transform Properties* panel (:kbd:`N` in a 3D view);
@@ -543,5 +543,5 @@ Separating Bones in a new Armature
 
 You can, as with meshes, separate the selected bones in a new armature object
 :menuselection:`Armature --> Separate`, :kbd:`Ctrl-Alt-P` and of course,
-in *Object mode*, you can join all selected armatures in one
+in *Object Mode*, you can join all selected armatures in one
 :menuselection:`Object --> Join Objects`, :kbd:`Ctrl-J`.

@@ -203,7 +203,7 @@ shown in the *Envelope* visualization:
    The :doc:`editing pages </rigging/armatures/editing/properties>` for how to edit these properties.
 
 There is also a bone property, *Weight* (in each bone sub-panel,
-in *Edit mode* only, defaults is set to 1.0),
+in *Edit Mode* only, defaults is set to 1.0),
 that controls the global influence of the bone over the deformed object,
 when using the envelopes method.
 It is only useful for the parts of geometry that are "shared",
@@ -243,18 +243,18 @@ each bone only affects vertices belonging to a vertex group having the same name
 So if you have e.g. a ``forearm`` bone, it will only affect the ``forearm`` vertex group of its skin object(s).
 
 The influence of one bone on a given vertex is controlled by the weight of this vertex in the relevant group.
-Thus, the :ref:`Weight Paint mode <painting_weight-index>`.
+Thus, the :ref:`Weight Paint Mode <painting_weight-index>`.
 :kbd:`Ctrl-Tab`, if a mesh is selected is most useful here, to easily set/adjust the vertices' weights.
 
 However, you have a few goodies when weight-painting a mesh already parented to (skinning)
 an armature. For these to work, you must:
 
 - Select the armature.
-- Switch to *Pose mode* :kbd:`Ctrl-Tab`.
+- Switch to *Pose Mode* :kbd:`Ctrl-Tab`.
 - Select the mesh to weight.
-- Hit again :kbd:`Ctrl-Tab` to switch to *Weight Paint mode*.
+- Hit again :kbd:`Ctrl-Tab` to switch to *Weight Paint Mode*.
 
-Now, when you select a bone of the armature (which remained in *Pose mode*),
+Now, when you select a bone of the armature (which remained in *Pose Mode*),
 you automatically activate the corresponding vertex group of the mesh - Very handy! Obviously,
 you can only select one bone at a time in this mode (so :kbd:`Shift-LMB` clicking does not work).
 
@@ -271,7 +271,7 @@ methods as available when doing an "old-parenting" to armature :kbd:`Ctrl-P`:
 To automatically weight multiple bones, you can simply
 
 - :kbd:`Ctrl-Tab` out of Weight Paint Mode
-- Select the Armature. It should be in Pose mode. If it is not, go :kbd:`Ctrl-Tab`
+- Select the Armature. It should be in Pose Mode. If it is not, go :kbd:`Ctrl-Tab`
 - Select multiple bones :kbd:`Shift-LMB` or press :kbd:`A` (once or twice).
 - Select Mesh again
 - If not in weight paint already, toggle back into :kbd:`Ctrl-Tab`

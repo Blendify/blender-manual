@@ -18,7 +18,7 @@ Changing the Active Camera
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object mode
+   | Mode:     Object Mode
    | Hotkey:   :kbd:`Ctrl-Numpad0`
 
 
@@ -53,7 +53,7 @@ Camera Settings
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object mode
+   | Mode:     Object Mode
    | Editor:   Properties
    | Context:  Object Data
 

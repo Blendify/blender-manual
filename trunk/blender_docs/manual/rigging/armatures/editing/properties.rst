@@ -26,7 +26,7 @@ Just keep in mind that bones' roots and tips behave more or less like meshes' ve
 and bones themselves act like edges in a mesh.
 
 As you know, bones can have two types of relationships: They can be parented,
-and in addition connected. Parented bones behave in *Edit mode* exactly as if they
+and in addition connected. Parented bones behave in *Edit Mode* exactly as if they
 had no relations - you can grab, rotate, scale, etc.
 a parent bone without affecting its descendants. However,
 connected bones must always have parent's tips connected to child's roots,
@@ -36,7 +36,7 @@ so by transforming a bone, you will affect all its connected parent/children/sib
 .. figure:: /images/RiggingTransformPropertiesPanelEditMode.jpg
    :width: 200px
 
-   The Transform Properties panel for armatures in Edit mode.
+   The Transform Properties panel for armatures in Edit Mode.
 
 
 Finally, you can edit in the *Transform Properties* panel :kbd:`N`
@@ -50,7 +50,7 @@ Radius and Scaling in Envelope Visualization
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode, Envelope visualization
+   | Mode:     Edit Mode, Envelope visualization
    | Menu:     :menuselection:`Armature --> Transform --> Scale`
    | Hotkey:   :kbd:`S`
 
@@ -98,7 +98,7 @@ ScaleB and Envelope
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Hotkey:   :kbd:`Ctrl-Alt-S`
 
 
@@ -154,7 +154,7 @@ not the armature object's axis).
      - .. figure:: /images/RiggingBoneAltScalingExObjectModeBBone.jpg
           :width: 200px
 
-          The same armature in Object mode and B-Bone visualization, with Bone.004's size scaled up.
+          The same armature in Object Mode and B-Bone visualization, with Bone.004's size scaled up.
 
 
 Bone Direction
@@ -163,7 +163,7 @@ Bone Direction
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Specials --> Switch Direction`
    | Hotkey:   :kbd:`W-3`
 
@@ -198,7 +198,7 @@ but in "reversed order". See the Fig. Switching example.
 Bone Roll
 =========
 
-In *Edit mode*, you can control of the bones roll
+In *Edit Mode*, you can control of the bones roll
 (i.e. the rotation around the Y axis of the bone).
 
 However, after editing the armature, or when using :term:`euler rotation`,
@@ -211,7 +211,7 @@ Set Bone Roll
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Armature --> Bone Roll --> Set`
    | Hotkey:   :kbd:`Ctrl-R`
 
@@ -224,7 +224,7 @@ Recalculate Bone Roll
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Armature --> Bone Roll --> Recalculate`
    | Hotkey:   :kbd:`Ctrl-N`
 
@@ -254,7 +254,7 @@ Properties
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Panel:    *Armature Bones* (*Editing* context)
    | Menu:     :menuselection:`Armature --> Bone Settings --> ...`
    | Hotkey:   :kbd:`Shift-W`, :kbd:`Ctrl-Shift-W`, :kbd:`Alt-W`
@@ -263,11 +263,11 @@ Properties
 .. figure:: /images/RiggingEditingCxtArmatureBonesPanelEditMode.jpg
    :width: 200px
 
-   The Armature Bones panel in Edit mode.
+   The Armature Bones panel in Edit Mode.
 
 
 Most bones' properties (excepted the transform ones) are regrouped in each bone's sub-panel,
-in the *Armature Bones* panel in *Edit mode*.
+in the *Armature Bones* panel in *Edit Mode*.
 Let's detail them.
 
 Note that some of them are also available in the 3D views, 
@@ -295,14 +295,14 @@ Hinge
    (also :kbd:`Shift-W` :menuselection:`--> (Hinge, ...)`), S
    (also :kbd:`Shift-W` :menuselection:`--> (No Scale, ...)`)
 
-   These settings affect the behavior of children bones while transforming their parent in *Pose mode*,
+   These settings affect the behavior of children bones while transforming their parent in *Pose Mode*,
    so this will be detailed in the :doc:`posing part </rigging/posing/index>` !
 Hide
    This will hide the bone (same as pressing :kbd:`H` in the 3D views;
    see :ref:`this page <armature-bone_hide>`).
 Lock 
    (also :kbd:`Shift-W` :menuselection:`--> (Locked, ...)`)
-   This will prevent all editing of the bone in *Edit mode*;
+   This will prevent all editing of the bone in *Edit Mode*;
    see :doc:`previous page </rigging/armatures/editing/bones>`.
 Layers button
    These small buttons allow you to control to which bone layer this bone belongs;
@@ -317,20 +317,20 @@ Bone Rigidity
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit and Pose mode
+   | Mode:     Edit and Pose Mode
    | Panel:    *Armature Bones* (*Editing* context)
 
 
 .. figure:: /images/RiggingEditingCxtArmatureBonesPanelPoseMode.jpg
    :width: 200px
 
-   The Armature Bones panel in Pose mode.
+   The Armature Bones panel in Pose Mode.
 
 
-Even though you have the *Segm* setting available in *Edit mode*
+Even though you have the *Segm* setting available in *Edit Mode*
 (bones sub-panel, in the *Armature Bones* panel),
-you should switch to the *Pose mode* :kbd:`Ctrl-Tab` to edit these "smooth"
-bones' properties - one explanation to this strange need is that in *Edit mode*,
+you should switch to the *Pose Mode* :kbd:`Ctrl-Tab` to edit these "smooth"
+bones' properties - one explanation to this strange need is that in *Edit Mode*,
 even in *B-Bone* visualization, bones are drawn as sticks,
 so you can't visualize the effects of these settings.
 
@@ -338,7 +338,7 @@ so you can't visualize the effects of these settings.
 .. figure:: /images/RiggingBBoneSegmentExPoseMode.jpg
    :width: 200px
 
-   An armature in Pose mode, B-Bone visualization: Bone.003 has one segment,
+   An armature in Pose Mode, B-Bone visualization: Bone.003 has one segment,
    Bone.004 has four, and Bone.005 has sixteen.
 
 
@@ -379,7 +379,7 @@ Chain Editing
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Panel:    *Armature Bones* (*Editing* context)
    | Menu:     :menuselection:`Armature --> Parent --> ...`
    | Hotkey:   :kbd:`Ctrl-P`, :kbd:`Alt-P`
@@ -462,14 +462,14 @@ Naming Bones
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Panel:    *Armature Bones* (*Editing* context), *Transform Properties* (3D views, :kbd:`N`)
 
 
 You can rename your bones, either using the *Bone* field of the *Transform Properties*
 panel in the 3D views, for the active bone :kbd:`N`,
 or using the *BO* field in each bone sub-panel of the *Armature Bones* panel
-in *Edit mode*.
+in *Edit Mode*.
 
 Blender also provides you some tools that take advantage of bones named in a left/right
 symmetry fashion, and others that automatically name the bones of an armature.
@@ -529,7 +529,7 @@ Bone name flipping
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Armature --> Flip Left & Right Names`
    | Hotkey:   :kbd:`W-4`
 
@@ -550,7 +550,7 @@ Auto bone naming
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Armature --> AutoName Left-Right`,
      :menuselection:`Armature --> AutoName Front-Back`, :menuselection:`Armature --> AutoName Top-Bottom`
    | Hotkey:   :kbd:`W-5`, :kbd:`W-6`, :kbd:`W-7`

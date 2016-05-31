@@ -7,7 +7,7 @@ Mesh Primitives
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object mode
+   | Mode:     Object Mode
    | Menu:     :menuselection:`Add --> Mesh`
    | Hotkey:   :kbd:`Shift-A`
 
@@ -214,7 +214,7 @@ the object is created; the higher the resolution, the more vertices are created.
 Example objects that can be created out of grids include landscapes
 (with the proportional editing tool or *Displace* modifier)
 and other organic surfaces. You can also obtain a grid when you create a plane and then use a
-subdivide modifier in *Edit mode*. However,
+subdivide modifier in *Edit Mode*. However,
 there is a *Landscape* add-on available in the *User Preferences*.
 
 X Subdivisions

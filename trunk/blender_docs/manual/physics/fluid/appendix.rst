@@ -51,7 +51,7 @@ Limitations & Workarounds
 =========================
 
 - If the setup seems to go wrong, make sure all the normals are correct (hence,
-  enter *Edit mode*, select all, and recalculate normals once in a while).
+  enter *Edit Mode*, select all, and recalculate normals once in a while).
 
 
 - Currently there's a problem with zero gravity simulation - simply select a very small gravity until this is fixed.

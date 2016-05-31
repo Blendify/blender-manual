@@ -225,7 +225,7 @@ These options allow you to align and orient the view in different ways.
 They are found in the *View Menu*
 
    Align View to Selected menu
-      These options align your view with specified local axes of the selected object, bone or in *Edit mode*,
+      These options align your view with specified local axes of the selected object, bone or in *Edit Mode*,
       with the normal of the selected face.
 
       Hold down :kbd:`Shift` while using the numpad to set the view axis.

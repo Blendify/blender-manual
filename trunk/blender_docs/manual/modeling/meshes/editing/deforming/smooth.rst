@@ -6,7 +6,7 @@ Smooth
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Panel:    *Mesh Tools* (*Editing* context)
    | Menu:     :menuselection:`Mesh --> Vertices --> Smooth vertex`
    | Hotkey:   :kbd:`Ctrl-V` :menuselection:`--> Smooth vertex`
@@ -44,7 +44,7 @@ Laplacian Smooth
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Hotkey:   :kbd:`W` :menuselection:`--> Laplacian Smooth`
 
 

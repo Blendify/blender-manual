@@ -85,7 +85,7 @@ simulations only interact with objects on a shared layer. In this example,
 both objects share layer 2.
 
 To view/change an object's layers,
-:kbd:`RMB` click to select the object in *Object mode* in the 3D view.
+:kbd:`RMB` click to select the object in *Object Mode* in the 3D view.
 :kbd:`M` to bring up the "Move Layers" pop-up,
 which shows you all the layers that the object is on. To put the object on a single layer,
 :kbd:`LMB` click the layer button. To put the object on multiple layers,
@@ -184,7 +184,7 @@ Editing the cached simulation
 
 The cache contains the shape of the mesh at each frame. You can edit the cached simulation,
 after you've baked the simulation and pressed the *Bake Editing* button.
-Just go to the frame you want to fix and :kbd:`Tab` into *Edit mode*.
+Just go to the frame you want to fix and :kbd:`Tab` into *Edit Mode*.
 There you can move your vertices using all of Blender's mesh shaping tools. When you exit,
 the shape of the mesh will be recorded for that frame of the animation.
 If you want Blender to resume the simulation using the new shape going forward,
@@ -198,7 +198,7 @@ If you add, delete, extrude, or remove vertices in the mesh, Blender will take t
 the starting shape of the mesh back to the *first frame* of the animation,
 replacing the original shape you started with,
 up to the frame you were on when you edited the mesh. Therefore,
-if you change the content of a mesh, when you :kbd:`Tab` out of *Edit mode*,
+if you change the content of a mesh, when you :kbd:`Tab` out of *Edit Mode*,
 you should unprotect and clear the cache so that Blender will make a consistent simulation.
 
 
@@ -215,7 +215,7 @@ If you encounter some problems with collision detection, there are two ways to f
   This results in smaller steps for the simulator and
   therefore to a higher probability that fast-moving collisions get caught.
   You can also increase the *Collision Quality* to perform more iterations to get collisions solved.
-- If none of the methods help, you can easily edit the cached/baked result in *Edit mode* afterwards.
+- If none of the methods help, you can easily edit the cached/baked result in *Edit Mode* afterwards.
 - My Cloth is torn by the deforming mesh - he "Hulks Out": Increase its structural stiffness
   (*StructStiff* setting, *Cloth* panel), very high, like 1000.
 

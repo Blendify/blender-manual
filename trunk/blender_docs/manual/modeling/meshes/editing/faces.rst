@@ -14,7 +14,7 @@ Make Edge/Face
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Faces --> Make Edge/Face`
    | Hotkey:   :kbd:`F`
 
@@ -43,7 +43,7 @@ Fill
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Faces --> Fill/Beautify Fill`
    | Hotkey:   :kbd:`Alt-F`
 
@@ -80,7 +80,7 @@ Beauty Fill
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Faces --> Fill/Beautify Fill`
    | Hotkey:   :kbd:`Alt-Shift-F`
 
@@ -109,7 +109,7 @@ Grid Fill
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Faces --> Fill/Grid Fill`
 
 
@@ -134,7 +134,7 @@ Convert Quads to Triangles
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Faces --> Convert Quads to Triangles` or
      :menuselection:`Face Specials --> Triangulate`
    | Hotkey:   :kbd:`Ctrl-T`
@@ -150,7 +150,7 @@ Convert Triangles to Quads
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Panel:    *Mesh Tools* (*Editing* context)
    | Menu:     :menuselection:`Mesh --> Faces --> Convert Triangles to Quads`
    | Hotkey:   :kbd:`Alt-J`
@@ -212,7 +212,7 @@ Solidify
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Faces --> Solidify`
    | Hotkey:   :kbd:`Ctrl-F` :menuselection:`--> Solidify`
 
@@ -251,7 +251,7 @@ Rotate Edges
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit mode
+   | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Faces --> Rotate Edge CW`
 
 

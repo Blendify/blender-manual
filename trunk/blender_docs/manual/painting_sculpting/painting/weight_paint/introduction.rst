@@ -27,7 +27,7 @@ Weight Paint in a nutshell
    Weight Painted Vertex Group.
 
 
-- You enter *Weight Paint mode* from the Mode Menu :kbd:`Ctrl-Tab`.
+- You enter *Weight Paint Mode* from the Mode Menu :kbd:`Ctrl-Tab`.
   The selected Mesh Object is displayed slightly shaded with a rainbow color spectrum.
 - The color visualizes the weights associated to each vertex in the active Vertex Group.
   Blue means unweighted; Red means fully weighted.
@@ -180,7 +180,7 @@ Multi-Paint
 
    This option is only useful in the context of Armatures, where you can select multiple Vertex Groups
    by selecting multiple Pose bones. Once at least two Vertex Groups are selected, viewport colors and
-   paint logic switch to Multi-Paint mode, using the sum of the selected groups' weights if Auto Normalize
+   paint logic switch to Multi-Paint Mode, using the sum of the selected groups' weights if Auto Normalize
    is enabled, and the average otherwise. Any paint operations aimed at this collective weight are applied
    to individual Vertex Group weights in such way that their ratio stays the same.
 
@@ -193,7 +193,7 @@ Multi-Paint
    
       While Multi-Paint can't directly paint on zero-weight vertices,
       it is possible to use the *Smooth Weight* tool to copy a reasonable non-zero weight
-      distribution from adjacent vertices without leaving Multi-Paint mode or changing bone selection.
+      distribution from adjacent vertices without leaving Multi-Paint Mode or changing bone selection.
 
       To do that, enable vertex selection, select target vertices,
       and apply one iteration of the tool using vertex groups from *Selected Pose Bones* with low Factor.
@@ -286,7 +286,7 @@ Selection Masking
 =================
 
 If you have a complex mesh,
-it is sometimes not easy to paint on all vertices in Weight Paint mode.
+it is sometimes not easy to paint on all vertices in Weight Paint Mode.
 Suppose you only want to paint on a small area of the Mesh and keep the rest untouched.
 This is where *selection masking* comes into play. When this mode is enabled,
 a brush will only paint on the selected verts or faces.
@@ -299,7 +299,7 @@ The option is available from the footer menu bar of the 3D viewport
    You can choose between *Face Selection masking* (left icon)
    and *Vertex selection masking* (right icon).
 
-*Select* mode has some advantages over the default *Weight Paint mode*:
+*Select* mode has some advantages over the default *Weight Paint Mode*:
 
 - The original mesh edges are drawn, even when modifiers are active.
 - You can select faces to restrict painting to the vertices of the selected faces.
@@ -487,10 +487,10 @@ To modify automatically assigned weights, jump into the middle of the process wh
 Pick up here for modifying automatically assigned weights.
 
 
-- Select the armature in 3D View, and bring the armature to *Pose mode*
+- Select the armature in 3D View, and bring the armature to *Pose Mode*
   with :kbd:`Ctrl-Tab`, or the 3D View window header mode selector.
 - Select a desired bone in the armature.
-- Select your mesh with :kbd:`RMB` and change immediately to *Weight Paint mode*.
+- Select your mesh with :kbd:`RMB` and change immediately to *Weight Paint Mode*.
   The mesh will be colored according to the weight (degree) that the selected bone movement affects the mesh.
   Initially, it will be all blue (no effect).
 - Weight paint to your heart's content.
@@ -498,7 +498,7 @@ Pick up here for modifying automatically assigned weights.
   and fade out through the rainbow to blue for vertices farther away from the bone.
 
 You may select a different bone with :kbd:`RMB` while weight painting,
-provided the armature was left in *Pose mode* as described above.
+provided the armature was left in *Pose Mode* as described above.
 This will activate the vertex group sharing the name with the selected bone,
 and display related weights. If the mesh skins the bones,
 you will not be able to see the bones because the mesh is painted.

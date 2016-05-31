@@ -19,8 +19,8 @@ You can work with geometric objects in two modes.
    Object Mode Header.
 
 
-Edit mode
-   Operations in *Edit mode* affect only the geometry of an object,
+Edit Mode
+   Operations in *Edit Mode* affect only the geometry of an object,
    but not global properties such as location or rotation.
    *Edit Mode* has the following header in the 3D view:
 
@@ -43,7 +43,7 @@ Tools and modes in the 3D view header are (left to right):
 - Snap
 - OpenGL render
 
-You can switch between the Object and Edit modes with the :kbd:`Tab` key. You can change
+You can switch between the Object and Edit Modes with the :kbd:`Tab` key. You can change
 to any mode by selecting the desired *Mode* in the menu in the 3d view header.
 
 
@@ -60,21 +60,21 @@ Visualization
      - .. figure:: /images/editmode-cubeselect-2.jpg
           :width: 315px
 
-          Two cubes selected before entering Edit mode.
+          Two cubes selected before entering Edit Mode.
 
 
-By default, Blender highlights selected geometry in orange in both *Object mode* and *Edit mode*.
+By default, Blender highlights selected geometry in orange in both *Object Mode* and *Edit Mode*.
 
-In *Object mode* with *Wireframe* shading enabled :kbd:`Z`,
+In *Object Mode* with *Wireframe* shading enabled :kbd:`Z`,
 objects are displayed in black when unselected and in orange when selected.
 If more than one object is selected, all selected object except the active object,
 typically the object last selected, is displayed in a darker orange color. Similarly,
-in *Edit mode*, unselected geometry is drawn in black while selected faces, edges,
+in *Edit Mode*, unselected geometry is drawn in black while selected faces, edges,
 or vertices are drawn in orange. The active face is highlighted in white.
 
-In *Edit mode*, only one mesh can be edited at the time. However, several objects can be joined into a single mesh
-(:kbd:`Ctrl-J` in *Object mode*) and then separated again (:kbd:`P` in *Edit mode*).
-If multiple objects are selected before entering *Edit mode*,
+In *Edit Mode*, only one mesh can be edited at the time. However, several objects can be joined into a single mesh
+(:kbd:`Ctrl-J` in *Object Mode*) and then separated again (:kbd:`P` in *Edit Mode*).
+If multiple objects are selected before entering *Edit Mode*,
 all the selected objects remain highlighted in orange indicating that they are part of the active selection set.
 
 If two vertices joined by an edge are selected in *Vertex selection mode*,
@@ -91,7 +91,7 @@ Tool Shelf
 
 
 Open/close the *Mesh Tools* panel using :kbd:`T`.
-When entering *Edit mode*, several mesh tools become available.
+When entering *Edit Mode*, several mesh tools become available.
 
 Most of these tools are also available as shortcuts
 (displayed in the *Tooltips* for each tool) and/or in the *Specials* menu

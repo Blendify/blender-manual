@@ -6,7 +6,7 @@ Active Element
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Object mode and Edit mode
+   | Mode:     Object Mode and Edit Mode
    | Menu:     Select from the following icon in the 3D window header
 
    .. figure:: /images/Icon-library_3D-Window_header-pivot-point.jpg
@@ -15,8 +15,8 @@ Active Element
 
 
 The *active* element can be an Object, vertex, edge or a face. The active element is the
-last one to be selected and will be shown in a lighter orange color when in *Object mode*
-and white when in *Edit mode*.
+last one to be selected and will be shown in a lighter orange color when in *Object Mode*
+and white when in *Edit Mode*.
 With *Active element as Pivot* set to active,
 all transformations will occur relative to the active element.
 
@@ -27,15 +27,15 @@ Read more about selecting different
 .. figure:: /images/3D_interaction-Transform_control-Pivot_point-Active_element-selected-active-element.jpg
    :width: 640px
 
-   Display of active elements in Object mode is shown on the left of the
+   Display of active elements in Object Mode is shown on the left of the
    image where the active element (cube) is a lighter orange.
-   Active elements for vertices, edges and faces in Edit mode are displayed in white and are shown on the right.
+   Active elements for vertices, edges and faces in Edit Mode are displayed in white and are shown on the right.
 
 
-In Object mode
+In Object Mode
 ==============
 
-When in *Object mode*,
+When in *Object Mode*,
 rotation and scaling happen around the active Object's center.
 This is shown by the figure to the below where the active Object (the cube)
 remains in the same location (note its position relative to the 3D cursor)
@@ -48,10 +48,10 @@ while the other Objects rotate and scale in relation to the active element.
    Rotation and scaling with the cube as the active element.
 
 
-In Edit mode
+In Edit Mode
 ============
 
-Using the active element as a pivot point in *Edit mode* may seem complex but all
+Using the active element as a pivot point in *Edit Mode* may seem complex but all
 the possible transformations follow a few rules:
 
 
@@ -74,7 +74,7 @@ transformed.
 .. figure:: /images/3D_interaction-Transform_control-Pivot_point-Active_single-element-selection.jpg
    :width: 640px
 
-   Edit mode and only one element selected.
+   Edit Mode and only one element selected.
 
 
 Let us review each case:
@@ -97,7 +97,7 @@ the selected elements have been rotated.
 .. figure:: /images/3D_interaction-Transform_control-Pivot_point-Active_multiple-element-selection.jpg
    :width: 640px
 
-   Edit mode and multiple selections.
+   Edit Mode and multiple selections.
 
 
 - For *Faces* the transformation occurs around the selection dot of the active face.

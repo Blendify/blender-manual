@@ -40,7 +40,7 @@ Smooth Shading
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit and Object mode
+   | Mode:     Edit and Object Mode
    | Panel:    *Mesh Tools* (*Editing* context)
    | Menu:     :menuselection:`Mesh --> Faces --> Shade Smooth / Shade Flat`
    | Hotkey:   :kbd:`Ctrl-F` :menuselection:`--> Shade Smooth / Shade Flat`
@@ -57,7 +57,7 @@ Smooth Shading
 
 
 The easiest way is to set an entire object as smooth or faceted by selecting a mesh object,
-and in *Object mode*, click *Smooth* in the *Tool Shelf*.
+and in *Object Mode*, click *Smooth* in the *Tool Shelf*.
 This button does not stay pressed;
 it forces the assignment of the "smoothing" attribute to each face in the mesh,
 including when you add or delete geometry.
@@ -73,11 +73,11 @@ the first image above.
 Smoothing parts of a mesh
 -------------------------
 
-Alternatively, you can choose which edges to smooth by entering *Edit mode*,
+Alternatively, you can choose which edges to smooth by entering *Edit Mode*,
 then selecting some faces and clicking the *Smooth* button.
 The selected edges are marked in yellow.
 
-When the mesh is in *Edit mode*,
+When the mesh is in *Edit Mode*,
 only the selected edges will receive the "smoothing" attribute. You can set edges as flat
 (removing the "smoothing" attribute)
 in the same way by selecting edges and clicking the *Flat* button.
@@ -158,7 +158,7 @@ you can also physically smooth the geometry of the mesh with these tools:
 Mesh editing tools
 ------------------
 
-You can apply one of the following in *Edit mode*:
+You can apply one of the following in *Edit Mode*:
 
 :doc:`Smooth </modeling/meshes/editing/deforming/smooth>`
    This relaxes selected components, resulting in a smoother mesh.
@@ -178,13 +178,13 @@ Alternatively,
 you can smooth the mesh non-destructively with one or several of the following modifiers:
 
 :doc:`Smooth Modifier </modeling/modifiers/deform/smooth>`
-   Works like the *Smooth* tool in *Edit mode*;
+   Works like the *Smooth* tool in *Edit Mode*;
    can be applied to specific parts of the mesh using vertex groups.
 :doc:`Laplactian Smooth Modifier </modeling/modifiers/deform/laplacian_smooth>`
-   Works like the *Laplacian Smooth* tool in *Edit mode*;
+   Works like the *Laplacian Smooth* tool in *Edit Mode*;
    can be applied to specific parts of the mesh using vertex groups.
 :doc:`Bevel Modifier </modeling/modifiers/generate/bevel>`
-   Works like the *Bevel* tool in *Edit mode*;
+   Works like the *Bevel* tool in *Edit Mode*;
    Bevel can be set to work on an angle threshold, or on edge weight values.
 :doc:`Subdivision Surface Modifier </modeling/modifiers/generate/subsurf>`
    Catmull-Clark subdivision produces smooth results. Sharp edges can be defined with
