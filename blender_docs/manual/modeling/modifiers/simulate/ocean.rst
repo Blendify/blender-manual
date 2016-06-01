@@ -8,7 +8,8 @@ and associated texture, used to render the simulation data.
 
 .. note::
 
-   The *Ocean Modifier* is ported from the open source Houdini Ocean Toolkit and is intended to simulate deep ocean waves and foam.
+   The *Ocean Modifier* is ported from the open source Houdini Ocean Toolkit
+   and is intended to simulate deep ocean waves and foam.
 
 
 Options

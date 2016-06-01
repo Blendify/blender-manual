@@ -117,14 +117,16 @@ No Z-buffer
    you may want to only blur one object while leaving everything else alone (or the other way around),
    or you want to blur the whole image uniformly all at once.
    The node, therefore, allows you to use something other than an actual Z-buffer as the *Z* input.
-   For instance, you could connect an image node and use a grayscale image where the color designates how much to
-   blur the image at that point, where white is the maximum blur and black is no blur. Or,
-   you could use a Time node to uniformly blur the image,
+   For instance, you could connect an image node and use a grayscale image where the color designates
+   how much to blur the image at that point, where white is the maximum blur and black is no blur.
+   Or, you could use a Time node to uniformly blur the image,
    where the time value controls the maximum blur for that frame.
    It may also be used to obtain a possibly slightly better DoF blur,
-   by using a fake depth shaded image instead of a Z-buffer. (A typical method to create the fake depth shaded image
-   is by using a linear blend texture for all objects in the scene or by using the "fog/mist" fake depth shading method).
-   This also has the advantage that the fake depth image can have anti-aliasing, which is not possible with a real Z-buffer.
+   by using a fake depth shaded image instead of a Z-buffer.
+   (A typical method to create the fake depth shaded image is by using a linear blend texture
+   for all objects in the scene or by using the "fog/mist" fake depth shading method).
+   This also has the advantage that the fake depth image can have anti-aliasing,
+   which is not possible with a real Z-buffer.
    
    .. note::
 

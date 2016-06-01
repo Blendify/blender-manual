@@ -136,9 +136,9 @@ camera presets are used.
 
 Focal Length
    is self-explanatory; it is the focal length with which the movie was shot.
-   It can be set in millimeters or pixels. In most cases focal length is given in millimeters, but sometimes (for
-   example in some tutorials on the Internet) it is given in pixels. In such cases it is possible to set it directly in
-   the known unit.
+   It can be set in millimeters or pixels. In most cases focal length is given in millimeters,
+   but sometimes (for example in some tutorials on the Internet) it is given in pixels.
+   In such cases it is possible to set it directly in the known unit.
 Sensor Width
    is the width of the CCD sensor in the camera. This value can be found in camera specifications.
 Pixel Aspect Ratio
