@@ -219,7 +219,8 @@ Add
 Length
    Scales the segments, so it makes the hair longer with *Grow* or shorter with *Shrink*.
 Puff
-   Rotates the hair around it's first keypoint (root). So it makes the hair stand up with *Add* or lay down with *Sub*.
+   Rotates the hair around it's first keypoint (root).
+   So it makes the hair stand up with *Add* or lay down with *Sub*.
 
    Puff Volume
       Apply puff to unselected end-points, (helps maintain hair volume when puffing root)

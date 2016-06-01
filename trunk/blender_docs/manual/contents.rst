@@ -65,9 +65,9 @@ Sections
 
          :doc:`/data_system/index`
             Blender's data management of scene data and the structure of blend-files.
-  
+
       .. container:: descr
-  
+
          .. figure:: /images/contents_modeling.jpg
             :target: modeling/index.html
 
@@ -91,7 +91,7 @@ Sections
             Overview of armatures, pose mode and constraints.
 
       .. container:: descr
-  
+
          .. figure:: /images/contents_animation.jpg
             :target: animation/index.html
 
@@ -110,12 +110,12 @@ Sections
 
          .. figure:: /images/contents_render.jpg
             :target: render/index.html
-  
+
          :doc:`/render/index`
             Render engines (Internal, Cycles, OpenGL), shading, post-processing, and Freestyle (NPR).
 
       .. container:: descr
-  
+
          .. figure:: /images/contents_compositing.jpg
             :target: compositing/index.html
 
@@ -126,12 +126,12 @@ Sections
 
          .. figure:: /images/contents_game.jpg
             :target: game_engine/index.html
-  
+
          :doc:`/game_engine/index`
             Blender's Game engine, including scripting, logic and physics.
 
       .. container:: descr
-  
+
          .. figure:: /images/contents_preferences.jpg
             :target: preferences/index.html
 
@@ -152,8 +152,9 @@ Sections
             :target: troubleshooting/index.html
 
          :doc:`/troubleshooting/index`
-            Compatibility errors related to other software (graphics drivers, Python), how to write a bug report and recover data.
-   
+            Compatibility errors related to other software (graphics drivers, Python),
+            how to write a bug report and recover data.
+
       .. container:: descr
 
          :doc:`Glossary </glossary/index>`

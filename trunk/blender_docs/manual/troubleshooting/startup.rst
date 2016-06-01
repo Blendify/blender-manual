@@ -27,5 +27,6 @@ you may have set your systems ``PYTHONPATH`` environment variable.
 In this case, Blender's bundled Python will attempt to use the ``PYTHONPATH``.
 If the Python version is different from the version used by Blender, this will crash Blender on startup.
 
-To solve the problem, either clear the ``PYTHONPATH`` before starting Blender (can also be done with a launcher script),
+To solve the problem, either clear the ``PYTHONPATH`` before starting Blender
+(can also be done with a launcher script),
 or set it to a compatible Python version.

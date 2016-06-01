@@ -12,9 +12,9 @@ Curve Extrusion
 
 Extrude
    Turns a one dimensional curve into a two dimensional curve by giving it height.
-   Note that this isn't related to *Extrude* used in mesh edit-mode. 
+   Note that this isn't related to *Extrude* used in mesh edit-mode.
    With a scale of one,
-   an *Extrusion* of .5 will extrude the curve 0.5 BU in both directions, perpendicular to the curves normals. 
+   an *Extrusion* of .5 will extrude the curve 0.5 BU in both directions, perpendicular to the curves normals.
 
    If set to 0.0, there is no extrusion
 
@@ -40,7 +40,8 @@ Tilt
    with :kbd:`Alt-T`, :menuselection:`Curve --> Control Points --> Clear Tilt`.
    With NURBS, the tilt is always smoothly interpolated.
    However, with Bézier, you can choose the interpolation algorithm between
-   Linear, Ease, BSpline, and Cardinal, in the :menuselection:`Properties Editor --> Object Data --> Active Spline --> Tilt`.
+   Linear, Ease, BSpline, and Cardinal, in the
+   :menuselection:`Properties Editor --> Object Data --> Active Spline --> Tilt`.
 
    .. figure:: /images/Curves_Extrude_by0.5_30meantilt.jpg
 

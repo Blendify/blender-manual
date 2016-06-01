@@ -11,10 +11,12 @@ Image Node
 
 The *Image* node injects any image :doc:`format that is supported by Blender </render/output/output>`.
 
+
 Input
 =====
 
 None.
+
 
 Options
 =======
@@ -22,7 +24,8 @@ Options
 Source
    - a preloaded image could be loaded by clicking on image file icon to the left and 
      selecting it from the list.
-   - or by clicking the *Open* button to select a file/s via the :doc:`file-browser </editors/file_browser/introduction>`.
+   - or by clicking the *Open* button to select a file/s via the
+     :doc:`file-browser </editors/file_browser/introduction>`.
 
    Single Image
       Still image or a single frame.
@@ -52,6 +55,7 @@ Source
 .. note::
 
    More options could be set in the properties panel.
+
 
 Output
 ======
