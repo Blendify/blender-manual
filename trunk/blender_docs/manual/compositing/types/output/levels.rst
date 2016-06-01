@@ -8,10 +8,39 @@ Levels Node
 
    Levels Node.
 
-The Levels Node takes an image as an input,
-and can output a 1D value based on the levels of an image.
-It can read the input's *Combined RGB*, *Red*, *Green*,
-*Blue*, or *Luminance* channels.
+The Levels Node read the inputs color channels 
+and outputs analytical values.
 
-It can output a *Mean* value or average of values,
-or a *Standard deviation*, which measures the diversity of values.
+
+Input
+=====
+
+Image
+   Standard image input.
+
+Options
+=======
+
+Channel
+   C
+      Combined RGB
+   R
+      Red
+   G
+      Green
+   B
+      Blue
+   L
+      Luminance
+
+Output
+======
+
+1D values based on the levels of an image.
+
+Mean
+   The average of values.
+Standard deviation
+   Measures the diversity of values.
+
+

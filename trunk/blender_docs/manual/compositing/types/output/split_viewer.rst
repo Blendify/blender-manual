@@ -8,9 +8,32 @@ Split Viewer Node
 
    Split Viewer Node.
 
-The *SplitViewer* node takes two images and displays one-half of each on each side
-(top socket on the right half, bottom socket input on the left).
-Use this node for making side-by-side comparisons of two renderings/images,
-perhaps from different render layers or from different scenes.
-When transitioning between scenes, you want to be sure the stop action is seamless; use this
-node to compare the end of one scene with the beginning of another to ensure they align.
+The *SplitViewer* node takes two images and displays these side-by-side 
+as backdrop or as a Viewer Node output.
+
+
+Input
+=====
+
+Image
+   Shown on the right or top half set by the axis.
+Image
+   And respectively the left or bottom half. 
+
+Options
+=======
+
+Axis
+   X or Y used as the split axis.
+Factor
+    Percentage factor setting the space distribution between the two images.
+
+Output
+======
+
+None.
+
+.. hint::
+
+   This node could be used to plan scene transitions by comparison of the end frame of one scene 
+   with the start frame of another to make sure that they align.
