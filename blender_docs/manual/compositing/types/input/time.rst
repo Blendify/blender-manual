@@ -9,8 +9,13 @@ Time Node
 
    Time Node.
 
-Input
-=====
+
+The *Time node* generates a factor value (from 0.00 to 1.00)
+that changes according to the curve was drawn as time progresses through the *Timeline*.
+
+
+Inputs
+======
 
 This node has no input sockets.
 
@@ -31,8 +36,8 @@ Start, End
    the output should last. This range becomes the X-axis of the graph.
    The time input could be reversed by specifying a start frame greater than the end frame.
 
-Output
-======
+Outputs
+=======
 
 Fac
    A speed of time factor (from 0.00 to 1.00) relative to the frame rate 
@@ -48,10 +53,9 @@ Fac
    To be safe, use the Min/Max clamping function of the Map Value node to limit output.
 
 
-Examples
-========
+Example
+=======
 
 .. figure:: /images/Compositing-Time.jpg
 
    Time controls from left to right: no effect, slow down, freeze, accelerate, reverse
-
