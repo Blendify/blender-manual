@@ -69,8 +69,8 @@ Alpha
 Z
    Z-depth layer. Default values is 0.0.
 
-.. rubric:: MultiLayer format
 
-When a MultiLayer file format, like ``EXR``, is loaded, each 
-layer is made available as a socket.
+.. note:: MultiLayer format:
 
+   When a MultiLayer file format, like ``EXR``, is loaded, each 
+   layer is made available as a socket.
