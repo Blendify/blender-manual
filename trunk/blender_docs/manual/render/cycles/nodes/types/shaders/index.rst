@@ -7,22 +7,22 @@
 .. toctree::
    :maxdepth: 1
 
-   mix.rst
    add.rst
+   anisotropic.rst
+   ao.rst
    background.rst
    diffuse.rst
-   glossy.rst
-   transparent.rst
-   refraction.rst
-   glass.rst
-   translucent.rst
-   anisotropic.rst
-   velvet.rst
-   toon.rst
-   sss.rst
    emission.rst
+   glass.rst
+   glossy.rst
    hair.rst
-   ao.rst
    holdout.rst
+   mix.rst
+   refraction.rst
+   sss.rst
+   toon.rst
+   translucent.rst
+   transparent.rst
+   velvet.rst
    volume_absorption.rst
    volume_scatter.rst

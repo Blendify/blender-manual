@@ -18,13 +18,13 @@ As such, they have no input-connectors; only outputs.
 .. toctree::
    :maxdepth: 1
 
-   render_layers.rst
-   image.rst
-   movie_clip.rst
-   mask.rst
-   rgb.rst
-   value.rst
-   texture.rst
    bokeh_image.rst
+   image.rst
+   mask.rst
+   movie_clip.rst
+   render_layers.rst
+   rgb.rst
+   texture.rst
    time.rst
    track_position.rst
+   value.rst

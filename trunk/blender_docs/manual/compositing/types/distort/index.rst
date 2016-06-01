@@ -10,16 +10,16 @@ or by using a mask to vary the effect over the image.
 .. toctree::
    :maxdepth: 1
 
-   scale.rst
-   lens.rst
-   movie_distortion.rst
-   translate.rst
-   rotate.rst
-   flip.rst
+   corner_pin.rst
    crop.rst
    displace.rst
+   flip.rst
+   lens.rst
    map_uv.rst
-   transform.rst
-   stabilize_2d.rst
+   movie_distortion.rst
    plane_track_deform.rst
-   corner_pin.rst
+   rotate.rst
+   scale.rst
+   stabilize_2d.rst
+   transform.rst
+   translate.rst
