@@ -19,8 +19,8 @@ Offset
 Scale
    A vector (XYZ) to scale the texture.
 
-Options
-=======
+Properties
+==========
 
 Texture
    The texture could be selected from a list of textures available in the current blend-file or link in textures.

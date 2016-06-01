@@ -18,10 +18,10 @@ such as aperture shape and lens distortions which have important impacts on boke
 Input
 =====
 
-None.
+This node has no input sockets.
 
-Options
-=======
+Properties
+==========
 
 The first three settings simulate the aperture of the camera.
 

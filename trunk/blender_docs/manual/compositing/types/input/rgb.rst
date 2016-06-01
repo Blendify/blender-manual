@@ -13,10 +13,10 @@ RGB Node
 Input
 =====
 
-None.
+This node has no input sockets.
 
-Options
-=======
+Properties
+==========
 
 The RGB node uses the :ref:`color picker widget <ui-color-picker>`.
 

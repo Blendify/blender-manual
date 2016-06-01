@@ -15,10 +15,10 @@ This node can be used with other nodes, for example to Invert, Multiply or Mix, 
 Input
 =====
 
-None.
+This node has no input sockets.
 
-Options
-=======
+Properties
+==========
 
 Anti-Alias
     Create smooth mask edges rather than hard ones. 

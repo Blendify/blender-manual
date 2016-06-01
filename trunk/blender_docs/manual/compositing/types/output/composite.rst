@@ -28,8 +28,8 @@ Alpha
 Z
    Z-depth
 
-Options
-=======
+Properties
+==========
 
 Use Alpha
    Premultiplied or straight.
@@ -37,7 +37,7 @@ Use Alpha
 Output
 ======
 
-None.
+This node has no output sockets.
 
 .. note::
 

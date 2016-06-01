@@ -27,8 +27,8 @@ Image
    To support subsequent arrangement and layering of images, the node can supply a Z-depth map.
    However, please note that only the OpenEXR image formats save the Z information.
 
-Options
-=======
+Properties
+==========
 
 Base Path
    Unlike the render output filepath, this node uses a base directory and an image name,
@@ -48,7 +48,7 @@ File Format label
 Output
 ======
 
-None.
+This node has no output sockets.
 
 
 

@@ -20,8 +20,8 @@ Image
 Image
    And respectively the left or bottom half. 
 
-Options
-=======
+Properties
+==========
 
 Axis
    X or Y used as the split axis.
@@ -31,7 +31,7 @@ Factor
 Output
 ======
 
-None.
+This node has no output sockets.
 
 .. hint::
 
