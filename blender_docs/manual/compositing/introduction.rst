@@ -111,8 +111,10 @@ Buffer Groups
 Two Pass
    Use two pass execution during editing: first calculate fast nodes, the second pass calculate all nodes.
 Viewer Border
-   This allows you to set a render border for the backdrop.
-   To define the resolution of the border use :kbd:`Ctrl-B`
+   This allows to set an area of interest for the backdrop and preview.
+   The border is started by :kbd:`Ctrl-B` and finished by selection of a rectangular area.
+   :kbd:`Ctrl-Alt-B` discards the border back to a full preview.
+   This is only a preview option, final compositing during a render ignores this border.
 Highlight
    Highlights the nodes that are being calculated.
 
@@ -156,3 +158,19 @@ as defined by the *Scene buttons* (Format Panel).
 The *Viewer* node always shows the size from its input, but when not linked
 (or linked to a value) it shows a small 320×256 pixel image.
 
+Saving your Composite Image
+===========================
+
+The *Render* button renders a single frame or image.
+Save your image using :menuselection:`File --> Save Image` or :kbd:`F3`.
+The image will be saved using the image format settings on the Render panel.
+
+To save a sequence of images, for example,
+if you input a movie clip or used a Time node with each frame in its own file,
+use the *Animation* button and its settings. If you might want to later overlay them,
+be sure to use an image format that supports an Alpha channel (such as ``PNG``).
+If you might want to later arrange them front to back or create a depth of field effect,
+use a format that supports a Z-depth channel (such as ``EXR``).
+
+To save a composition as a movie clip (all frames in a single file),
+use an ``AVI`` or ``Quicktime`` format, and use the *Animation* button and its settings.
