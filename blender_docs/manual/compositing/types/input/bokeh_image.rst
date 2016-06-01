@@ -9,16 +9,18 @@ Bokeh Image
 
    Bokeh Image Node.
 
-Bokeh Image generates a special input image for use with the
+The *Bokeh Image* node generates a special input image for use with the
 :doc:`Bokeh Blur </compositing/types/filter/bokeh_blur>` filter node.
 
-Bokeh Image is designed to create a reference image which simulates optical parameters 
+The *Bokeh Image* node is designed to create a reference image which simulates optical parameters 
 such as aperture shape and lens distortions which have important impacts on bokeh in real cameras.
+
 
 Input
 =====
 
 This node has no input sockets.
+
 
 Properties
 ==========
@@ -38,8 +40,20 @@ Catadioptric
 Lens Shift
    Introduces chromatic aberration into the blur such as would be caused by a tilt-shift lens.
 
+
 Output
 ======
 
 Color
-   The generated bukeh image. 
+   The generated bokeh image. 
+
+
+Example
+=======
+
+In the example below the *Bokeh Image* is used to define the shape of the bokeh for the
+:doc:`Bokeh Blur </compositing/types/filter/bokeh_blur>` node.
+
+.. figure:: /images/compositing_nodes_bokeh_image_example.png
+
+   Example of *Bokeh Image node.
