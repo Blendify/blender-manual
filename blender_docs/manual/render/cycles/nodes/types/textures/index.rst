@@ -7,15 +7,15 @@
 .. toctree::
    :maxdepth: 1
 
-   image.rst
-   environment.rst
-   sky.rst
-   noise.rst
-   wave.rst
-   voronoi.rst
-   musgrave.rst
-   gradient.rst
-   magic.rst
-   checker.rst
    brick.rst
+   checker.rst
+   environment.rst
+   gradient.rst
+   image.rst
+   magic.rst
+   musgrave.rst
+   noise.rst
    point_density.rst
+   sky.rst
+   voronoi.rst
+   wave.rst

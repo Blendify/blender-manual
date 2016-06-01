@@ -10,16 +10,16 @@ post-processing effect on the image.
 .. toctree::
    :maxdepth: 1
 
-   blur_node.rst
    bilateral_blur.rst
-   dilate_erode.rst
-   despeckle.rst
-   filter_node.rst
+   blur_node.rst
    bokeh_blur.rst
-   vector_blur.rst
    defocus.rst
+   despeckle.rst
+   dilate_erode.rst
+   directional_blur.rst
+   filter_node.rst
    glare.rst
    inpaint.rst
-   directional_blur.rst
    pixelate.rst
    sun_beams.rst
+   vector_blur.rst

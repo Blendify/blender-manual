@@ -6,10 +6,10 @@
 .. toctree::
    :maxdepth: 1
 
-   math.rst
+   blackbody.rst
    color_ramp.rst
+   combine_separate.rst
+   math.rst
    rgb_to_bw.rst
    vector_math.rst
-   combine_separate.rst
-   blackbody.rst
    wavelength.rst

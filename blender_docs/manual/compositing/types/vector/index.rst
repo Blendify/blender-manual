@@ -9,8 +9,8 @@ These nodes can be used to manipulate various types of vectors, such as surface 
 .. toctree::
    :maxdepth: 1
 
-   normal.rst
-   map_value.rst
    map_range.rst
+   map_value.rst
+   normal.rst
    normalize.rst
    vector_curves.rst

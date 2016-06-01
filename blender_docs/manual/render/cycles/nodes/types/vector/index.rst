@@ -6,9 +6,9 @@
 .. toctree::
    :maxdepth: 1
 
-   mapping.rst
    bump.rst
-   normal_map.rst
-   normal.rst
    curves.rst
+   mapping.rst
+   normal.rst
+   normal_map.rst
    transform.rst
