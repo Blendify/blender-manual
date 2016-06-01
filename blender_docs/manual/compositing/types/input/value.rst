@@ -39,7 +39,8 @@ this make the node a useful organizational tool.
 
 .. figure:: /images/composite_node_value_example.png
 
-   Example of the *Value Node*
+   Example of the *Value Node*.
+
 
 .. tip::
 
