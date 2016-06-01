@@ -9,13 +9,15 @@ Mask
 
    Mask Node.
 
-The Mask input node can be used to select a :doc:`Mask Datablock </editors/movie_clip_editor/masking>`.
+The Mask node can be used to select a :doc:`Mask Datablock </editors/movie_clip_editor/masking>`.
 This node can be used with other nodes, for example to Invert, Multiply or Mix, or use as a factor input.
 
-Input
-=====
+
+Inputs
+======
 
 This node has no input sockets.
+
 
 Properties
 ==========
@@ -38,3 +40,14 @@ Outputs
 
 Mask
    The black and white output of the mask.
+
+
+Example
+=======
+
+In the example below the *Mask node* is used to define a rough outline of the island,
+where areas out side of the the island are dark, drawing the eye to the island.
+
+.. figure:: /images/compositing_nodes_mask_example.png
+
+   Example of the Mask Node.
