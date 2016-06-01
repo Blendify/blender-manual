@@ -16,8 +16,8 @@ The *Bokeh Image* node is designed to create a reference image which simulates o
 such as aperture shape and lens distortions which have important impacts on bokeh in real cameras.
 
 
-Input
-=====
+Inputs
+======
 
 This node has no input sockets.
 
@@ -41,8 +41,8 @@ Lens Shift
    Introduces chromatic aberration into the blur such as would be caused by a tilt-shift lens.
 
 
-Output
-======
+Outputs
+=======
 
 Color
    The generated bokeh image. 
