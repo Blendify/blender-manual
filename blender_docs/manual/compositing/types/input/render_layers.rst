@@ -15,10 +15,10 @@ map.
 Input
 =====
 
-None.
+This node has no input sockets.
 
-Options
-=======
+Properties
+==========
 
 Scene
    Select the within your blend-file. The scene information taken is the raw footage

@@ -20,8 +20,8 @@ Input
 
 see :doc:`Composite Node </compositing/types/output/composite>`.
 
-Options
-=======
+Properties
+==========
 
 Tile order
    The tile order can be defined for the backdrop image, using the *Tile order* field in the properties of the
@@ -39,7 +39,7 @@ Tile order
 Output
 ======
 
-None.
+This node has no output sockets.
 
 
 .. note::

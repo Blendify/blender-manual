@@ -22,11 +22,11 @@ start and end frames will be defined at the movie clip editor.
 Input
 =====
 
-None.
+This node has no input sockets.
 
 
-Options
-=======
+Properties
+==========
 
 - a preloaded footage could be loaded by clicking on image file icon to the left and 
   selecting it from the list.

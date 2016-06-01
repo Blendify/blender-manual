@@ -12,10 +12,10 @@ Time Node
 Input
 =====
 
-None.
+This node has no input sockets.
 
-Options
-=======
+Properties
+==========
 
 Curve
    The Y-value defined by the curve is the factor output. 

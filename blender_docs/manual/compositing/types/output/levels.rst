@@ -18,8 +18,8 @@ Input
 Image
    Standard image input.
 
-Options
-=======
+Properties
+==========
 
 Channel
    C

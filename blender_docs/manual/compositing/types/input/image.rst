@@ -15,11 +15,11 @@ The *Image* node injects any image :doc:`format that is supported by Blender </r
 Input
 =====
 
-None.
+This node has no output sockets.
 
 
-Options
-=======
+Properties
+==========
 
 Source
    - a preloaded image could be loaded by clicking on image file icon to the left and 

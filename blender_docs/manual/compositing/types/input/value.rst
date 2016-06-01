@@ -12,9 +12,14 @@ Value Node
 
 The *Value Node* is a simple node to input numerical values to other nodes in the tree.
 
+Input
+=====
 
-Options
-=======
+This node has no output sockets.
+
+
+Properties
+==========
 
 Single numerical value (floating point).
 
