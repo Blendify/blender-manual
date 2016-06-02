@@ -68,11 +68,6 @@ Dot
 Controls
 --------
 
-.. figure:: /images/material-vector-node-normal-preview.jpg
-
-   Interactive Normal node preview.
-
-
 Interactive node preview
    Allows click and drag on the sphere in node center to set the direction of the normal.
 
@@ -112,12 +107,6 @@ Controls
 The controls of the node have been ordered in X, Y, Z order.
 If you want to use the clamping options, try enabling Min and Max.
 
-
-.. figure:: /images/material-vector-node-mapping-controls-vectortype.jpg
-
-   Mapping Node Vector Types controls.
-
-
 Vector type selector
    Type of vector that the mapping transforms.
 
@@ -130,29 +119,17 @@ Vector type selector
    Normal
       Transform a normal vector with unit length.
 
+Location
+   Transform position vector.
+Rotation
+   Transform rotation vector.
+Scale
+   Transform scale vector.
 
-.. figure:: /images/material-vector-node-mapping-controls-transforms.jpg
-
-   Mapping Node Transforms controls.
-
-
-   Location
-      Transform position vector.
-   Rotation
-      Transform rotation vector.
-   Scale
-      Transform scale vector.
-
-
-.. figure:: /images/material-vector-node-mapping-controls-clipping.jpg
-
-   Mapping Node Clipping controls.
-
-
-   Min
-      Minimum clipping value.
-   Max
-      Maximum clipping value.
+Min
+   Minimum clipping value.
+Max
+   Maximum clipping value.
 
 
 Vector Curves
@@ -187,4 +164,3 @@ Outputs
 
 Vector
    The output vector, combined by the node.
-
