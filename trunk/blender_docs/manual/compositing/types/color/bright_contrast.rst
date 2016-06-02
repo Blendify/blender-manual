@@ -9,12 +9,29 @@ Bright/Contrast Node
 
    Bright/Contrast Node.
 
+
+Input
+=====
+
+Image
+   Standard image input. 
 Bright
    A multiplier-type factor by which to increase the overall brightness
    of the image. Use a negative number to darken an image.
 Contrast
-   A scaling type factor by which to make brighter pixels brighter but keeping the darker pixels dark.
+   A scaling type factor by which to make brighter pixels brighter, but keeping the darker pixels dark.
    Higher values make details stand out. Use a negative number to decrease the overall contrast in the image.
+
+Properties
+==========
+
+This node has no properties.
+
+Output
+======
+
+Image
+   Standard image input. 
 
 
 Notes

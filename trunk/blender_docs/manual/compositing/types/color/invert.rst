@@ -9,21 +9,29 @@ Invert Node
 
    Invert Node.
 
-This handy node inverts the colors in the input image, producing a negative.
+This node inverts the colors in the input image, producing a negative.
 
+Input
+=====
 
-Options
-=======
-
-Factor
+Fac
    Controls the amount of influence the node exerts on the output image
 Color
-   The input image. In this case, a red sphere on a black transparent background
+   Standard image input. 
+
+
+Properties
+==========
+
 RGB
-   Invert the colors from white. In this example, red inverted is cyan (teal).
-A
-   Invert the alpha (transparency) channel as well. Handy for masking.
+   De/activation of the color channel inversion.
+Alpha
+   De/activation of the alpha channel inversion.
 
 
-.. figure:: /images/Nodes-Invert.jpg
-   :width: 320px
+Output
+======
+
+Color
+   Standard image output.
+
