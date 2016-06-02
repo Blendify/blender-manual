@@ -228,15 +228,6 @@ Controls
 
 Above the curve graph is a row of controls. These are:
 
-
-.. figure:: /images/material-vector-node-curves-controls.jpg
-
-   Curve Controls.
-
-
-Channel selector
-   Allows to select appropriate curve channel.
-
 Zoom In
    Zoom into the center of the graph to show more details and provide more accurate control.
    To navigate around the curve while zoomed in, click and drag in an empty part of the graph.
