@@ -1,5 +1,3 @@
-.. |delete-button| image:: /images/icons_delete.jpg
-   :width: 1.1em
 
 *****************
 Extended Controls
@@ -189,9 +187,10 @@ Shortcuts
 Curve Widget
 ============
 
-.. figure:: /images/render_bi_material-color-node-curves.jpg
+.. figure:: /images/widget_curve.png
+   :align: right
 
-   RGB Curves node.
+   Curve Widget.
 
 
 The *Curve Widget* is found in several places throughout Blender, such as:
@@ -216,12 +215,12 @@ Like all curves in Blender, the curve of the *Curve Widget* is controlled using 
 By default, there are two control points: one at ``0.0, 0.0`` and one at ``1.0, 1.0``,
 meaning the input is mapped directly to the output (unchanged).
 
-To *move* a control point
+To move a control point
    Simply click and drag it around.
-To *add* a new control point
+To add a new control point
    Click anywhere on the curve where there is not already a control point.
-To *remove* a control point
-   select it and click the |delete-button| button at the top right.
+To remove a control point
+   select it and click the ``X`` button at the top right.
 
 
 Controls
