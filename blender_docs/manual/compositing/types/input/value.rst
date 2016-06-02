@@ -15,7 +15,7 @@ The *Value Node* is a simple node to input numerical values to other nodes in th
 Input
 =====
 
-This node has no output sockets.
+This node has no input sockets.
 
 
 Properties

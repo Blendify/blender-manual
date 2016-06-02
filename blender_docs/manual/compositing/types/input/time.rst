@@ -24,7 +24,7 @@ Properties
 
 Curve
    The Y-value defined by the curve is the factor output. 
-   For the curve controls see: :ref:`Curve widget <ui-color_ramp_widget>`.
+   For the curve controls see: :ref:`Curve widget <ui-curve_widget>`.
 
    .. tip::
 

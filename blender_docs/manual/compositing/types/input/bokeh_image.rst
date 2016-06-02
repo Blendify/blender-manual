@@ -44,7 +44,7 @@ Lens Shift
 Outputs
 =======
 
-Color
+Image
    The generated bokeh image. 
 
 

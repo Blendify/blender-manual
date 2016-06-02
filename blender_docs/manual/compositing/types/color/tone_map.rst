@@ -18,22 +18,38 @@ tone mapping addresses the problem of strong contrast reduction from the scene v
 (radiance) to the displayable range while preserving the image details and color appearance
 important to appreciate the original scene content.
 
-The Tone Map node has two methods of calculation:
 
-Rh Simple
-   Key
-      The value the average luminance is mapped to.
-   Offset
-      Normally always 1, but can be used as an extra control to alter the brightness curve
-   Gamma
-      If not used, set to 1
+Input
+=====
 
-R/D Photoreceptor
-   Intensity
-      If less than zero, darkens image; otherwise, makes it brighter
-   Contrast
-      Set to 0 to use estimate from input image
-   Adaptation
-      If 0, global; if 1, based on pixel intensity
-   Color Correction
-      If 0, same for all channels; if 1, each independent
+Image
+   HDR image. 
+
+Properties
+==========
+
+Type
+   Rh Simple
+      Key
+         The value the average luminance is mapped to.
+      Offset
+         Normally always 1, but can be used as an extra control to alter the brightness curve
+      Gamma
+         If not used, set to 1
+   
+   R/D Photoreceptor
+      Intensity
+         If less than zero, darkens image; otherwise, makes it brighter
+      Contrast
+         Set to 0 to use estimate from input image
+      Adaptation
+         If 0, global; if 1, based on pixel intensity
+      Color Correction
+         If 0, same for all channels; if 1, each independent
+
+Output
+======
+
+Image
+   LDR image. 
+

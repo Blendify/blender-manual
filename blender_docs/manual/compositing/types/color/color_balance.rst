@@ -3,22 +3,54 @@
 Color Balance
 *************
 
-The Color Balance node can adjust the color and values of an image using two different
-correction formulas.
+The Color Balance node can adjust the color and values of an image.
 
 .. figure:: /images/compositing_nodes_colorbalance.png
 
    Bright/Contrast Node.
 
-The *Lift, Gamma, Gain* formula uses *Lift*, *Gamma*, and *Gain* 
-calculations to adjust an image. 
+Input
+=====
 
-- *Lift* increases the value of dark colors.
-- *Gamma* will adjust midtones. 
-- *Gain* adjusts highlights.
+Fac
+   Controls the amount of influence the node exerts on the output image
+Color
+   Standard image input. 
 
-The *Offset, Power, Slope* formula uses 
-*Offset*, *Power*, and *Slope*: 
+
+Properties
+==========
+
+Two different correction formulas could be selected.
+
+Lift/Gamma/Gain
+   Lift
+      Increases the value of dark colors.
+   Gamma
+      Will adjust midtones.
+   Gain
+      Adjusts highlights.
+
+Offset/Power/Slope (ASC-CDL)
+   Offset
+      Summand.
+   Power
+      Over all exponent.
+   Slope
+      Multiplier.
+
+
+Output
+======
+
+Color
+   Standard output image.
+
+Advanced
+========
+
+The Offset/Power/Slope formula
+------------------------------
 
 *out* = (*i* × *s* + *o*)\ :sup:`p`
 
@@ -30,5 +62,3 @@ where:
 - *o*: Offset (any number, the nominal value is 0).
 - *p*: Power (any number greater than 0, nominal value is 1.0).
 
-Factor
-   Controls the amount of influence the node exerts on the output image

@@ -15,7 +15,7 @@ The *Image* node injects any image :doc:`format that is supported by Blender </r
 Input
 =====
 
-This node has no output sockets.
+This node has no input sockets.
 
 
 Properties
