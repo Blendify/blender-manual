@@ -9,35 +9,42 @@ Hue Saturation Node
 
    Hue Saturation Node.
 
-As an alternative to RGB editing, color can be thought of as a mix of Hues,
-namely a normalized value along the visible spectrum from infra-red to ultraviolet
-(the rainbow, remember "Roy G. Biv").
-The amount of the color added depends on the saturation of that color;
-the higher the saturation, the more of that pigment is added.
-Use the saturation slider of this node to "bring out" the colors of a washed-out image.
+This node applies a color transformation in the HSV color space. 
 
-This node takes an input image and runs the color of the image
-(and the light it reflects and radiates) through a factor (0.0-1.0)
-and applies a saturation of color effect of a hue to the image:
+Input
+=====
+
+Fac
+   Controls the amount of influence the node exerts on the output image.
+Image
+   Standard image input.
+
+Properties
+==========
+
+The transformation are relative shifts.
 
 Hue
-   The *Hue* slider specifies how much to shift the hue of the image. Hue 0.5 (in the middle)
-   does not shift the hue or affect the color of the image. As Hue shifts left,
-   the colors shift as more cyan is added; a blue image goes bluer, then greener, then yellow.
-   A red image goes violet, then purple, blue, and finally teal. Shifting right (increasing Hue from 0.5 to 1.0)
-   introduces reds and greens. A blue image goes purple, plum, red, orange, and then yellow.
-   A red image goes golden, olive, green, and cyan.
-Sat
-   *Saturation* affect the amount of pigment in the image.
-   A saturation of 0 actually *removes* hues from the color, resulting in a black-and-white grayscale image.
-   A saturation of 1.0 blends in the hue, and 2.0 doubles the amount of pigment and brings out the colors.
-Val
-   *Value* affects the overall amount of the color in the image.
-   Increasing values make an image lighter; decreasing values shift an image darker.
-Fac
-   *Factor* determines how much this node affects the image.
-   A factor of 0 means that the input image is not affected by the Hue and Saturation settings.
-   A factor of 1 means they rule, with .5 being a mix.
+   The Hue slider specifies how the hue rotation of the image. 
+   360° are mapped to (0 to 1). The hue shift of 0 (-180°) and 1 (+180°) have the same result.
+   The default of 0.5 leaves the input image unchanged.
+Saturation
+   Ranges from (0 to 2).
+   A saturation of 0 removes hues from the image, resulting in a grayscale image.
+   A shift greater 1.0 increases saturation.
+   The default of 1.0 leaves the input image unchanged.
+Value
+   Ranges from (0 to 2).
+   Value is the overall brightness of the image.
+   De/Increasing values shift an image darker/ lighter.
+   The default of 1.0 leaves the input image unchanged.
+
+Output
+======
+
+Image
+   Standard image output
+
 
 
 Hue/Saturation tips
