@@ -17,7 +17,7 @@ Input
 =====
 
 Fac
-   Controls the amount of influence the node exerts on the output image
+   Controls the amount of influence the node exerts on the output image.
 Image
    The base image. The image size and resolution sets the dimensions of the output image.
 Image
