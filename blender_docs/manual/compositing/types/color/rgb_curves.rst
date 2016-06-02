@@ -9,48 +9,62 @@ RGB Curves Node
 
    RGB Curves Node.
 
-For each color component channel (RGB) or the composite (C),
-this node allows you to define a bezier curve that varies the input (x-axis) to produce an output value (y-axis).
-Clicking on one of the *C R G B* components displays the curve for that channel.
+This node allows levels adjustments and color corrections for each color channel.
 
-.. seealso::
+Input
+=====
 
-   - Read more about using the :ref:`ui-curve_widget`.
+Fac
+   Controls the amount of influence the node exerts on the output image.
+Image
+   Standard image input. 
+Black Level
+   Defines the input color that is (linear) mapped to black. The default is black, which does not change the image.
+White Level
+   Defines the input color that is (linear) mapped to white. The default is white, which does not change the image.
+
+.. tip::
+
+   To define the levels, use the :ref:`eye dropper <ui-eye_dropper>` to select a color sample of a displayed image.
+
+Properties
+==========
+
+Channel
+   Clicking on one of the channels displays the curve for each.
+
+   C
+      Combined RGB
+   R
+      Red
+   G
+      Green
+   B
+      Blue
+   L
+      Luminance
+
+Curve
+   A Bézier curve that varies the input levels (x-axis) to produce an output level (y-axis).
+   For the curve controls see: :ref:`Curve widget <ui-curve_widget>`.
+
+Output
+======
+
+Image
+   Standard image output
+
+
+Examples
+========
 
 Here are some common curves you can use to achieve desired effects:
 
 
 .. figure:: /images/Compositing-Common_RGB_Node_Uses.jpg
 
-   Identifiers: A) Lighten B) Negative C) Decrease Contrast D) Posterize.
+   From left to right: 1. Lighten 2. Negative 3. Decrease Contrast 4. Posterize.
 
-
-Options
-=======
-
-Fac
-   How much the node should factor in its settings and affect the output.
-Black Level
-   Defines the input color that is mapped to black. The default is black, which does not change the image.
-White Level
-   Defines the input color that is mapped to white. The default is white, which does not change the image.
-
-The levels work exactly like the ones in the image viewer.
-Input colors are scaled linearly to match black/white levels.
-
-To define the levels, either use :kbd:`LMB` on the color patch to bring up the color selection widget
-or connect some RGBA input to the sockets.
-
-To only affect the value/contrast (not hue) of the output, set the levels to shades of gray.
-This is equivalent to setting a linear curve for C.
-
-If you set any level to a color with a saturation greater than 0,
-the output colors will change accordingly, allowing for basic color correction or effects.
-This is equivalent to setting linear curves for R, G and B.
-
-
-Examples
-========
 
 Color correction using Curves
 -----------------------------

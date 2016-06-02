@@ -94,6 +94,7 @@ and useful to quickly copy/paste colors between applications.
 Shorthand hex colors are also supported RGB,
 so dark-yellow FFCC00, can be written as FC0.
 
+.. _ui-eye_dropper:
 
 Eyedropper
 ----------
