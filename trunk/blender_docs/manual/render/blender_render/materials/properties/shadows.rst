@@ -53,15 +53,15 @@ Receive Transparent
    Allows this material to receive shadows whose intensity is modified by the transparency
    and color of the shadow-casting object (Fig. 4).
 
+.. list-table::
 
-.. figure:: /images/materials_properties_shadow3.jpg
+   * - .. figure:: /images/materials_properties_shadow3.jpg
 
-   Fig. 3: Plane - Receive.
+          Fig. 3: Plane - Receive.
 
+     - .. figure:: /images/materials_properties_shadow4.jpg
 
-.. figure:: /images/materials_properties_shadow4.jpg
-
-   Fig. 4: Plane - Receive + Receive Transparency.
+          Fig. 4: Plane - Receive + Receive Transparency.
 
 
 Shadow Casting Object Material
@@ -84,14 +84,15 @@ Shadow and Distance
    Todo.
 
 
-.. figure:: /images/materials_properties_shadow5.jpg
+.. list-table::
 
-   Fig. 5: Posts - Cast Only.
+   * - .. figure:: /images/materials_properties_shadow5.jpg
 
+          Fig. 5: Posts - Cast Only.
 
-.. figure:: /images/materials_properties_shadow6.jpg
+     - .. figure:: /images/materials_properties_shadow6.jpg
 
-   Fig. 6: Posts - Shadows Only.
+          Fig. 6: Posts - Shadows Only.
 
 
 Buffered Shadow Options
