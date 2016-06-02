@@ -10,10 +10,37 @@ with an input curve.
 
    Color Balance Node.
 
-By default, the curve is a straight line, meaning there is no change.
-The spectrum allows you to raise or lower HSV levels for each range of pixel colors.
-To change a H, S, or V level, move the curve points up or down. Pixels with hue values each
-point in the horizontal position of the graph will be changed depending on the shape of the
-curve.
+Input
+=====
+
+Fac
+   Controls the amount of influence the node exerts on the output image
+Image
+   Standard image input. 
+
+
+Properties
+==========
+
+Level
+   H
+      Hue
+   S
+      Saturation
+   V
+      Value
+Curve
+   For the curve controls see: :ref:`Curve widget <ui-curve_widget>`.
+   By default, the curve is a straight line, meaning there is no change.
+   The spectrum allows you to raise or lower HSV levels for each range of pixel colors.
+   To change a H, S, or V level, move the curve points up or down. Pixels with hue values each
+   point in the horizontal position of the graph will be changed depending on the shape of the
+   curve.
+
+Output
+======
+
+Image
+   Standard output image.
 
 .. TODO explain all options
