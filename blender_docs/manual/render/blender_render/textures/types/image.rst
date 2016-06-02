@@ -107,7 +107,6 @@ you have to first create a :doc:`New Blank </editors/uv_image/uv_editing/applyin
 Image with a uniform color or test grid.
 After that, you can color the image using the:
 
-
 - Vertex colors as the basis for an image
 - Render Bake image based on how the mesh looks in the scene
 
@@ -143,14 +142,14 @@ As another example, the face is the subject of many questions and tutorials. In 
 you will want to create a Material that has the basic skin color, appropriate shaders,
 and sub-surface scattering. Then you will want to layer on additional UV Textures for:
 
-- Freckle map for Color and Normal aspects
-- Subdermal veins and tendons for Displacement
-- Creases and Wrinkles and skin cell stratification for Normal
-- Makeup images for Color
-- Oily maps for Specularity
-- For a zombie, Alpha transparency where the flesh has rotted away *(ewwww....)*
-- Under chin and inside nostrils that receive less Ambient light
-- Thin skin is more translucent, so a map is needed for that
+- Freckle map for Color and Normal aspects.
+- Subdermal veins and tendons for Displacement.
+- Creases and Wrinkles and skin cell stratification for Normal.
+- Makeup images for Color.
+- Oily maps for Specularity.
+- For a zombie, Alpha transparency where the flesh has rotted away.
+- Under chin and inside nostrils that receive less Ambient light.
+- Thin skin is more translucent, so a map is needed for that.
 
 Each image is mapped by using another Texture Channel.
 Each of these maps are images which are applied to the different aspects (Color, Normal,
@@ -161,16 +160,17 @@ denser pattern by using the Texture controls for repeat or size.
 Layering UV Textures
 --------------------
 
-.. figure:: /images/UV-Layer_One.jpg
-   :width: 300px
+.. list-table::
 
-   Base UV Texture.
+   * - .. figure:: /images/UV-Layer_One.jpg
+          :width: 300px
 
+          Base UV Texture.
 
-.. figure:: /images/UV-Layer-Two.jpg
-   :width: 300px
+     - .. figure:: /images/UV-Layer-Two.jpg
+          :width: 300px
 
-   Layered UV Texture.
+          Layered UV Texture.
 
 
 Great textures are formed by layering images on top of one another.
@@ -393,7 +393,6 @@ Input panel.
 
 Settings
 ---------
-
 
 .. _render-blender_internal-image_settings:
 
@@ -620,6 +619,7 @@ MIP Map
 
    * - .. figure:: /images/ImageTextur-Linien.jpg
           :width: 160px
+
      - .. figure:: /images/ImageTexturInterPol-Linien.jpg
           :width: 160px
 
@@ -725,4 +725,3 @@ Crop Minimum / Crop Maximum
    The offset and the size of the texture in relation to the texture space.
    Pixels outside this space are ignored.
    Use these to crop, or choose a portion of a larger image to use as the texture.
-
