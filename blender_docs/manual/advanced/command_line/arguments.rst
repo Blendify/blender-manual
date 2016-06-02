@@ -74,7 +74,7 @@ Animation Playback Options
 ``-a`` ``<options>`` ``<file(s)>``
    Playback ``<file(s)>``, only operates this way when not running in background.
       -p ``<sx>`` ``<sy>``   Open with lower left corner at ``<sx>``, ``<sy>``
-      -m      Read from disk (Don't buffer)
+      -m      Read from disk (Do not buffer)
       -f ``<fps>`` ``<fps-base>``      Specify FPS to start with
       -j ``<frame>``   Set frame step to ``<frame>``
       -s ``<frame>``   Play from ``<frame>``
@@ -201,9 +201,9 @@ Misc Options
 ``-h``, ``--help``
    Print this help text and exit
 ``-R``
-   Register .blend extension, then exit (Windows only)
+   Register blend-file extension, then exit (Windows only)
 ``-r``
-   Silently register .blend extension, then exit (Windows only)
+   Silently register blend-file extension, then exit (Windows only)
 ``-v``, ``--version``
    Print Blender version and exit
 ``--``
@@ -225,6 +225,13 @@ Other Options
    Use new dependency graph
 ``--verbose`` ``<verbose>``
    Set logging verbosity level.
+
+
+Experimental Features
+=====================
+
+``--enable-new-depsgraph``
+   Use new dependency graph
 
 
 Argument Parsing
@@ -282,11 +289,3 @@ Environment Variables
 :TMP: or $TMPDIR           Store temporary files here.
 :SDL_AUDIODRIVER:          LibSDL audio driver - alsa, esd, dma.
 :PYTHONHOME:               Path to the python directory, eg. /usr/lib/python.
-
-
-
-Experimental Features
-=====================
-
-``--enable-new-depsgraph``
-   Use new dependency graph
