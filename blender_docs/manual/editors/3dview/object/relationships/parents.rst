@@ -283,7 +283,7 @@ and check if the Deform tickable option is ticked or not. If it is the selected 
 otherwise, it is a Control Bone. (See figure 22).
 
 
-.. figure:: /images/3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform_With_Empty_Groups-blend.jpg
+.. figure:: /images/editors_3dview_parenting_bone-check.png
 
    Figure 22 - 3 Bone Armature in *Pose* Mode with 1st bone selected with 
    :menuselection:`Properties Editor --> <Bone Context> --> Deform`
