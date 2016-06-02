@@ -9,34 +9,44 @@ Mix Node
 
    Mix Node.
 
-This node mixes a base image (threaded to the top socket) together with a second image
-(bottom socket)
-by working on the individual and corresponding pixels in the two images or surfaces.
-The way the output image is produced is selected in the drop-down menu. The size
-(output resolution) of the image produced by the Mix Node is the size of the base image.
-The alpha and Z channels are mixed as well.
-
-.. seealso::
-
-   :term:`Color Blend Modes` for details on each blending mode.
-
-.. note:: Color Channels
-
-   There are two ways to express the channels that are combined to result in a color: RGB or HSV.
-   RGB stands for the Red/Green/Blue pixel format, and HSV stands for the Hue/Saturation/Value pixel format.
+This node mixes images by working on the individual and corresponding pixels 
+of the two input images.
 
 
-Alpha
-   Click the *Alpha* button to make the mix node use the Alpha (transparency) values of the second (bottom)
-   node. If enabled, the resulting image will have an Alpha channel that reflects both images' channels. Otherwise,
-   (when not enabled, light green)
-   the output image will mix the colors by considering what effect the Alpha channel has of the base
-   (top input socket) image. The Alpha channel of the output image is not affected.
+Input
+=====
+
 Fac
-   The amount of mixing of the bottom socket is selected by the Factor input field *Fac:*.
-   A factor of zero does not use the bottom socket, whereas a value of 1.0 makes full use.
-   In Mix mode, 0.5 is an even mix between the two, but in Add mode,
-   0.5 means that only half of the second socket's influence will be applied.
+   Controls the amount of influence the node exerts on the output image
+Image
+   The base image. The image size and resolution sets the dimensions of the output image.
+Image
+   The second image
+
+
+Properties
+==========
+
+Mix
+   The Blend types could be selected in the drop-down menu.
+
+   Add, Subtract, Multiply, Screen, Divide, Difference, Darken, Lighten, Overlay, Dodge, Burn, Hue, Saturation, Value, Color, Soft Light, Linear Light
+      See :term:`Color Blend Modes` for details on each blending mode.
+
+Use Alpha
+   If activated, by clicking on the *Color and Alpha* icon,
+   the Alpha channel of the second image is used for mixing. 
+   When deactivated, the default, the icon background is a light gray.
+   The alpha channel of the base image is always used.
+Clamp
+   Limit the highest color value to not exceed 1. 
+
+
+Output
+======
+
+Image
+   Standard image output.
 
 
 Examples
