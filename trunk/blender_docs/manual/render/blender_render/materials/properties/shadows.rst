@@ -109,7 +109,7 @@ Cast Buffer Shadow
 Buffer Bias
    Multiplication factor for Buffer shadows (0 = ignore)
 
-Auto Ray Bias -
+Auto Ray Bias
    Prevent raytraced shadow errors on surfaces with smooth shaded normals.
 
 Ray Bias
