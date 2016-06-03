@@ -41,6 +41,6 @@ Output
 ======
 
 Image
-   Standard output image.
+   Standard image output.
 
 .. TODO explain all options
