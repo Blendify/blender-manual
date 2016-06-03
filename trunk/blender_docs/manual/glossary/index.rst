@@ -135,9 +135,31 @@ For other common conventions used throughout the manual.
       See also `Blend Modes <https://en.wikipedia.org/wiki/Blend_modes>`__ on Wikipedia.
 
    Color Space
-      TODO.
+      A coordinate system in which a vector represent a color value.
 
-      See also `Color Spaces <https://en.wikipedia.org/wiki/Color_space>`__ on Wikipedia.
+      RGB
+         Red-Green-Blue traditional primary colors also broadcast directly to most computer monitors.
+      HSV
+         Three values, often considered as more intuitive (human perception) than the RGB system.
+
+         Hue
+            The Hue of the color.
+         Saturation
+            The quantity of hue in the color (from desaturating - a shade of gray - to saturate - brighter colors).
+         Value
+            The brightness of the color (dark to light).
+      HSL
+         Hue, Saturation
+            See HSV
+         Luminance
+            TODO
+      YUV
+         Luminance-Chrominance standard used in broadcasting analog PAL (European) video.
+      YCbCr
+         Luminance-ChannelBlue-ChannelRed Component video for digital broadcast use,
+         whose standards have been updated for HDTV and commonly referred to as the HDMI format for component video.
+      \+A
+         The color space holds an additional :term:`Alpha Channel`.
 
    Concave face
       Face in which one vert is inside a triangle formed by other vertices of the face.

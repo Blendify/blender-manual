@@ -97,7 +97,7 @@ so dark-yellow FFCC00, can be written as FC0.
 .. _ui-eye_dropper:
 
 Eyedropper
-----------
+==========
 
 The eyedropper allows you to sample from anywhere in the Blender window.
 
@@ -141,7 +141,7 @@ Delete (``-`` Button)
 Flip (``<->`` Button)
    Flips the color band, inverting the values of the custom weight paint range.
 Color Mode
-   Allows you to control how colors are mixed when blending.
+   Selection of the :term:`color space` used for interpolation.
 
    RGB
       Blends color by mixing each color channel and combining.
