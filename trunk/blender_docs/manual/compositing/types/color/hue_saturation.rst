@@ -22,7 +22,7 @@ Image
 Properties
 ==========
 
-The transformation are relative shifts.
+The transformations are relative shifts.
 
 Hue
    The Hue slider specifies how the hue rotation of the image. 

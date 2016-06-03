@@ -9,6 +9,25 @@ RGB to BW Node
 
    RGB to BW Node.
 
-This node converts an RGB input and outputs a greyscale image.
+This node linear maps a RGB color image to a grayscale.
+
+Input
+=====
+
+Image
+   Color image input.
+
+
+Properties
+==========
+
+This node has no properties.
+
+
+Output
+======
+
+Val
+   Grayscale value output.
 
 .. TODO add examples of why this might be useful

@@ -10,7 +10,7 @@ Gamma Node
 
    Gamma Node.
 
-Use this node to apply gamma correction.
+Use this node to apply a gamma correction.
 
 Input
 =====
