@@ -9,24 +9,72 @@ Blur Node
 
    Blur Node.
 
-The Blur node blurs an image, using one of seven blur modes (set using the upper-left pop-up button),
-and a radius defined by the X and Y number buttons. By default, these are set to zero,
-so to enable the node you must set one or both to a value greater than 0.
-You can optionally connect a value image to the Size input node,
-to control the blur radius with a mask. The values must be mapped between (0 to 1) for best effect,
-as they will be multiplied with the X and Y number button values.
+The Blur node blurs an image, providing several blur modes.
 
 
-Options
+Input
+=====
+
+Image
+   Standard image input.
+Size
+   The optional Size input will be multiplied with the X and Y blur radius values.
+   It accepts also a value image, to control the blur radius with a mask.
+   The values should be mapped between (0 to 1) for an optimal effect.
+
+Properties
+==========
+
+Type
+   The difference between the types is in the way they handle sharp edges, smooth gradients and 
+   preserve the highs and the lows.
+
+   Flat
+      Simply blurs everything uniformly.
+   Tent
+      Preserves the high and the lows better by making a linear falloff.
+   Quadratic
+      TODO
+   Cubic
+      Preserve the highs, but give an almost out-of-focus blur while smoothing sharp edges.
+   Gaussian
+      TODO
+   Fast Gaussian
+      An approximation of the Gaussian.
+   CatRom
+      CatRom keeps sharp contrast edges crisp.
+   Mitch
+      Preserve the highs, but give an almost out-of-focus blur while smoothing sharp edges.
+
+Variable Size
+   Allows a variable blur radius, if the size input is an image.
+
+   Bokeh
+      The Bokeh button will force the blur node to use a circular blur filter. 
+      This gives higher quality results, but is slower than using a normal filter.
+Gamma
+   The Gamma button applies a gamma correction on the image before blurring it.
+Relative
+   Percentage Value of the blur radius relative to the image size.
+
+   Aspect Correction
+      None, Y, X
+X, Y
+   Values set the ellipsoid radius in numbers of pixels over which to spread the blur effect.
+   With a default of 0.
+Extend Bounds
+   Allows the image, that is being blurred, to extend past its original dimension.
+
+
+Output
+======
+
+Image
+   Standard image output.
+
+
+Example
 =======
-
-The X and Y values are the numbers of pixels over which to spread the blur effect.
-
-The Bokeh button (only visible as Bok or Bo on some screen setups)
-will force the blur node to use a circular blur filter. This gives higher quality results,
-but is slower than using a normal filter. The Gam button (for "gamma")
-makes the Blur node gamma-correct the image before blurring it.
-
 
 .. figure:: /images/Tutorials-NTR-ComBlurIllustration.jpg
    :width: 650px
@@ -34,26 +82,6 @@ makes the Blur node gamma-correct the image before blurring it.
 
    Blur node blur modes using 20% of image size as XY, no Bokeh/Gamma.
 
-
-The difference between them is how they handle sharp edges and smooth gradients and preserve
-the highs and the lows.
-In particular, (and you may have to closely examine the full-resolution picture to see this):
-
-Flat
-   Simply blurs everything uniformly.
-Tent
-   Preserves the high and the lows better making a linear falloff.
-Quadratic
-   CatRom keeps sharp contrast edges crisp.
-Cubic / Mitch
-   Preserve the highs but give an almost out-of-focus blur while smoothing sharp edges.
-
-Extend Bounds
-   Allows the image that is being blurred to extend past its original dimension.
-
-
-Example
-=======
 
 An example blend-file, in fact, the one used to create the image above,
 `is available here. <https://wiki.blender.org/index.php/Media:Manual-Node-Blur.blend>`__.

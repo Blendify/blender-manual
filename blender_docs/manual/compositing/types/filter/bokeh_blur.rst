@@ -18,12 +18,11 @@ Several performance optimizations are also available such as OpenCL support,
 calculation area restriction and masking.
 
 
-Sockets
-=======
+Input
+=====
 
-Max blur
-   Max blur is intended to act as an optimization tool by
-   limiting the number of pixels across which the blur is calculated.
+Image
+   Standard image input.
 Bokeh
    This is an input for the :doc:`Bokeh Image </compositing/types/input/bokeh_image>` node.
 Size
@@ -36,6 +35,24 @@ Bounding Box
    input node to restrict the area of the image the blur is applied to. This could be helpful, for example,
    when developing a node system by allowing only a small area of the image to be filtered
    thus saving composite time each time adjustments are made.
+
+
+Properties
+==========
+
+Variable Size
+   Allows a variable blur radius, if the Size input is an image.
+Max blur
+   Max blur is intended to act as an optimization tool by
+   limiting the number of pixels across which the blur is calculated.
+
+
+Output
+======
+
+Image
+   Standard image output.
+
 
 
 Examples
