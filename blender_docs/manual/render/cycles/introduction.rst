@@ -20,10 +20,10 @@ To see if and how you can use your GPU for rendering, see the documentation on
 
 .. note:: Cycles Outside of Blender
 
-   Since its release as permissive open-source (Apache 2.0),
+   Since its release under a permissive open-source (Apache 2.0) license,
    it’s also in use by other 3D tools, such as Poser and Rhino.
    Cycles can be used as part of Blender and as stand-alone,
-   making it a perfect solution for massive rendering on clusters or at cloud providers.
+   making it a flexible solution for ray-traced rendering.
 
 .. seealso::
 
