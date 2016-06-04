@@ -9,17 +9,30 @@ Set Alpha Node
 
    Set Alpha Node.
 
-This node adds an alpha channel to a picture. Some image formats, such as ``JPEG``,
-do not support an alpha channel. In order to overlay a ``JPEG`` image on top of a background,
-you must add an alpha channel to it using this node.
+This node adds an alpha channel to an image.
 
-The *Image* input socket is optional. If an input image is not supplied,
-the base color shown in the swatch will be used. To change the color, :kbd:`LMB` click
-the swatch and use the color-picker control to choose or specify a color you want.
+Input
+=====
 
-The amount of *Alpha* (1.00 being totally opaque and 0.00 being totally transparent)
-can be set for the whole picture using the input field. Additionally,
-the Alpha factor can be set by feeding its socket.
+Image
+   Standard image input.
+Alpha
+   The amount of Alpha can be set for the whole image by using the input field or
+   per pixel by connecting to the socket. (0 to 1) with a default of 1.
+
+
+Properties
+==========
+
+This node has no properties.
+
+
+Output
+======
+
+Image
+   Standard image output.
+
 
 .. note::
 
@@ -27,11 +40,14 @@ the Alpha factor can be set by feeding its socket.
    a general-purpose solution to the problem of compositing an image that does not contain Alpha information.
    You might wish to use "Chroma Keying" or "Difference Keying" (as discussed elsewhere) if you can.
    This node is most often used (with a suitable input being provided by means of the socket)
-   in those troublesome cases when you *cannot*, for some reason, use those techniques directly.
+   in those troublesome cases when you *can not*, for some reason, use those techniques directly.
 
+
+Example
+=======
 
 Using SetAlpha to Fade to Black
-===============================
+-------------------------------
 
 To transition the audience from one scene or shot to another,
 a common technique is to "fade to black". As its name implies,
@@ -69,7 +85,7 @@ Setup and Animate, and you have an image sequence that fades to black over a 2-s
 
 
 Using SetAlpha to Fade In a Title
-=================================
+---------------------------------
 
 To introduce your animation,
 you will want to present the title of your animation over a background.
@@ -91,7 +107,7 @@ transparent, allowing you to layer images on top of one another.
 
 
 Using SetAlpha to Colorize a BW Image
-=====================================
+-------------------------------------
 
 .. figure:: /images/Compositing-SetAlpha_Colorize.jpg
 
