@@ -48,6 +48,3 @@ Offset
 
 Space
    This constraint allows you to choose in which space to evaluate its owner's and target's transform properties.
-
-.. figure:: /images/Copy_Location_Constraint_animated.gif
-   :width: 650px
