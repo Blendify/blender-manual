@@ -75,12 +75,3 @@ in *Object Mode* select the object and press :kbd:`Ctrl-Numpad0` on the numpad.
 
 To reverse it, just select the camera and :kbd:`Ctrl-Numpad0` again.
 
-
-Camera Lens Shift
-=================
-
-In the Blender interface,
-there is an option to shift the camera view on the x/y plane of the view. It is comparable to
-lens shift in video projectors that usually shift the image up along the Y axis.
-So for example,
-when you put the beamer on a table it does not project half of the image on the table.
