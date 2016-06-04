@@ -12,14 +12,31 @@ Dilate/Erode Node
    Dilate/Erode Node.
 
 
-This node blurs individual color channels. The color channel (or a black and white image)
-is connected to the *Mask* input socket,
-and the *Distance* is set manually (by clicking on the arrows or the value)
-or automatically from a value node or a time-and-map-value noodle. A positive value of
-*Distance* expands the influence of a pixel on its surrounding pixels,
-thus blurring that color outward. A negative value erodes its influence,
-thus increases the contrast of that pixel relative to its surrounding pixels,
-thus sharpening it relative to surrounding pixels of the same color.
+This node provides a morphology (mathematical shape analysis) filter.
+
+Input
+=====
+
+Mask
+   Single color channel (or a black and white image) input.
+
+
+Properties
+==========
+
+Mode
+   Step, Threshold, Distance, Feather
+Distance
+   The Distance is the filter radius.
+   A *positive* value of Distance dilate (expands) the influence of a pixel on its surrounding pixels.
+   A *negative* value erodes (shrinks) its influence. (-100 to 100) with a default of 0.
+
+
+Output
+======
+
+Mask
+   The filtered mask output.
 
 
 Example
