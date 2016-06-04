@@ -9,13 +9,35 @@ Math Node
 
    Math node.
 
-This node performs the selected math operation on an image or buffer.
-All common math functions are supported. If only an image is fed to one Value socket, the math
-function will apply the other Value consistently to every pixel in producing the output value.
-Select the math function by clicking the up-down selector where the "Add" selection is shown.
+This node performs math operations.
 
-The trig functions of sine, cosine, tangent use only the top socket and accept values in
-radians between 0 and 2 × pi for one complete cycle.
+Input
+=====
+
+Value
+   First numerical value. The trigonometric functions accept values in radians. 
+
+Value
+   Second numerical value. 
+   This value is **not** used in functions that accept only one parameter
+   like the trigonometric functions, Round and Absolute.
+
+Properties
+==========
+
+Operation
+   Add, Subtract, Multiply, Divide,
+   Sine, Cosine, Tangent, Arcsine, Arccosine, Arctangent,
+   Power, Logarithm, Minimum, Maximum, Round, Less Than, Greater Than, Modulo, Absolute
+Clamp
+   Limits the output to the range (0 to 1).
+
+
+Output
+======
+
+Value
+   Numerical value output.
 
 
 Examples

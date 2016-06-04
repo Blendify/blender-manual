@@ -40,7 +40,7 @@ Image
    a general-purpose solution to the problem of compositing an image that does not contain Alpha information.
    You might wish to use "Chroma Keying" or "Difference Keying" (as discussed elsewhere) if you can.
    This node is most often used (with a suitable input being provided by means of the socket)
-   in those troublesome cases when you *can not*, for some reason, use those techniques directly.
+   in those troublesome cases when you *cannot*, for some reason, use those techniques directly.
 
 
 Example
