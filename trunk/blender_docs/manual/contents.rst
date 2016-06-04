@@ -38,7 +38,7 @@ Sections
 
 .. image ratio: width: 350px; height: 350/4 + (2x5) ~= 98px
 
-.. only:: html
+.. only:: html and (not singlehtml)
 
    .. container:: tocdescr
 
@@ -166,7 +166,7 @@ Sections
             A list of terms linked to the Glossary.
 
 
-.. only:: latex and epub
+.. only:: latex or epub or singlehtml
 
    .. toctree::
       :maxdepth: 1
