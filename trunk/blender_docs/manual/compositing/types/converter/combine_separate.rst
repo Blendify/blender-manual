@@ -60,8 +60,6 @@ Examples
 .. figure:: /images/Compositing-Covert-CombineRGBA.jpg
    :width: 200px
 
-   Separate RGBA Node.
-
 
 In this first example, we take the Alpha channel and blur it,
 and then combine it back with the colors. When placed in a scene,
@@ -73,6 +71,7 @@ as an "out-of-phase" time-traveling sync effect.
 
 .. figure:: /images/Compositing-Covert-CombineRGBA2.jpg
    :width: 200px
+
 
 In this node set up, we make all the reds become green,
 and all the green both Red and Blue, and remove Blue from the image completely.
@@ -137,13 +136,13 @@ Input/ Output
 Image
    Standard image in/output.
 Y
-   Red (0 to 1). Default of 0.
+   Luminance (0 to 1). Default of 0.
 U
-   Green (0 to 1). Default of 0.
+   U chrominance (0 to 1). Default of 0.
 V
-   Blue ( 0 to 1). Default of 0.
+   V chrominance ( 0 to 1). Default of 0.
 A
-   Alpha (0 to 1). Default of 0.
+   Alpha (0 to 1). Default of 1.
 
 
 Properties
