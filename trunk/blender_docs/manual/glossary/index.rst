@@ -129,6 +129,11 @@ For other common conventions used throughout the manual.
    Child
       An :term:`Object` that is affected by its :term:`Parent`.
 
+   Clamp
+   Clamping
+      Limits a variable to a range. The value over or under the range are set to the constant values 
+      of the ranges minimum or maximum.
+
    Color Blend Modes
       Methods for blending two colors together.
 

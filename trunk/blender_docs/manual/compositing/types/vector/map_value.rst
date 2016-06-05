@@ -9,32 +9,53 @@ Map Value Node
 
    Map Value Node.
 
-Map Value node is used to scale, offset and clamp values
-(value refers to each vector in the set). The formula for how this node works is:
+Map Value node is used to scale, offset and clamp values.
 
-Offs
-   will add a number to the input value
+
+Input
+=====
+
+Value
+   Standard Value input. (value refers to each vector in the set).
+
+
+Properties
+==========
+
+Offset
+   Factor added to the input value.
 Size
-   will scale (multiply) that value by a number
-Min/Max
-   you can set the minimum and maximum numbers to clamp (cut off) the value too.
-   *Min* and *Max* must be individually enabled by :kbd:`LMB` clicking on the label for them to clamp.
-   :kbd:`Shift-LMB` on the value to change it.
+   Scales (multiply) the input value.
+Use Minimum, Maximum
+   Enable this to activate their related operation.
+Min, Max 
+   Defines a range between minimum and maximum to :term:`clamp` the input value to.
 
-   - If *Min* is enabled and the value is less than *Min*, set the output value to *Min*.
-   - If *Max* is enabled and the input value is greater than *Max*, set the output value to *Max*.
+
+Output
+======
+
+Value
+   Standard value output.
+
+
+Example
+=======
+
+Z Depth map
+-----------
 
 This is particularly useful in achieving a depth-of-field effect,
-where you can use the Map Value node to map a Z value
-(which can be 20 or 30 or even 500 depending on the scene) to range between 0-1,
+where the Map Value node is used to map a Z value
+(which can be 20 or 30 or even 500 depending on the scene) to the range between 0-1,
 suitable for connecting to a Blur node.
 
 
 Using Map Value to Multiply values
-==================================
+----------------------------------
 
-You can also use the map value node to multiply values to achieve an output number that you
-desire. In the mini-map to the right, the Time node outputs a value between 0.0 and 1.
+This node can also be used the map value node to multiply values to achieve a desired output value. 
+In the mini-map to the right, the Time node outputs a value between 0.0 and 1.
 00 evenly scaled over 30 frames. The *first* Map Value node multiplies the input by 2,
 resulting in an output value that scales from 0.0 to 2.0 over 30 frames.
 The *second* Map Value node subtracts 1 from the input,
