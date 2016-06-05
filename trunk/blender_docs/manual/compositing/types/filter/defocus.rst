@@ -51,7 +51,6 @@ Max Blur
 Threshold
    Some artifacts, like edge bleed, may occur, if the blur difference between pixels is large.
    This value controls how large that blur difference considered to be safe.
-   The default is 1.
 
    .. tip::
 
@@ -60,7 +59,6 @@ Threshold
 Preview
    If enabled a limited amount of (quasi-)random samples are used to render the preview.
    This way of sampling introduces additional noise, which will not show up in the final render.
-   This option is on by default.
 Scene
    To select the linked scene.
 No Z-buffer

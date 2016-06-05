@@ -29,9 +29,11 @@ Properties
 
 Mix
    The Blend types could be selected in the drop-down menu.
+   See :term:`Color Blend Modes` for details on each blending mode.
 
-   Add, Subtract, Multiply, Screen, Divide, Difference, Darken, Lighten, Overlay, Dodge, Burn, Hue, Saturation, Value, Color, Soft Light, Linear Light
-      See :term:`Color Blend Modes` for details on each blending mode.
+   Add, Subtract, Multiply, Screen, Divide, Difference, 
+   Darken, Lighten, Overlay, Dodge, Burn, 
+   Hue, Saturation, Value, Color, Soft Light, Linear Light
 
 Use Alpha
    If activated, by clicking on the *Color and Alpha* icon,
