@@ -10,14 +10,114 @@ Defocus Node
 
    Defocus Node.
 
-This single node can be used to emulate depth of field using a postprocessing method.
-It can also be used to blur the image in other ways,
-not necessarily based on depth by connecting something other than a Z-buffer.
-In essence, this node blurs areas of an image based on the input z-buffer map/mask.
+This node blurs areas of an image based on a map/mask input.
+
+It could be used to emulate depth of field using a postprocessing method with a Z-buffer input.
+But also allows to blur images not based on Z depth.
+
+Input
+=====
+
+Image
+   Standard image input.
+Z
+   Z-buffer input, but could also be a (grayscale) image used as a mask, or a single value input.
+
+
+Properties
+==========
+
+Bokeh Type 
+   The number of iris blades of the virtual camera's diaphragm.
+
+   Disk (to emulate a perfect circle) or Triangle (3 blades), Square (4 blades), 
+   Pentagon (5 blades), Hexagon (6 blades), Heptagon (7 blades) or Octagon (8 blades).
+Angle
+   This button is deactivated, if the Bokeh Type is set to Disk.
+   It can be used to add a rotation offset to the Bokeh shape.
+   The value is the angle in degrees.
+Gamma Correction
+   Applies a gamma correction on the image before and after blurring it.
+F-Stop
+   This option controls the amount of focal blur in the same way as a real camera.
+   It simulates the aperture *f* of a real len's iris, without modifying the luminosity of the picture.
+   The default value 128 is assumed to be infinity:
+   everything is in perfect focus. Half the value will double the amount of blur.
+   This button is deactivated, if *No Z-buffer* is enabled.
+Max Blur
+   This value limits the amount of blur by setting a maximum blur radius.
+   Could be used to optimize the performance.
+   The default value of 0 means no limit.
+Threshold
+   Some artifacts, like edge bleed, may occur, if the blur difference between pixels is large.
+   This value controls how large that blur difference considered to be safe.
+   The default is 1.
+
+   .. tip::
+
+      Only change this value,  if there is an occurring problem with an in-focus object.
+
+Preview
+   If enabled a limited amount of (quasi-)random samples are used to render the preview.
+   This way of sampling introduces additional noise, which will not show up in the final render.
+   This option is on by default.
+Scene
+   To select the linked scene.
+No Z-buffer
+   Should be activate for a non Z-buffer in the Z input.
+   No Z-buffer will be enabled automatically 
+   whenever a node that is not image based is connected to the Z input.
+Z Scale
+   Only active when *No Z-buffer* is enabled. When *No Z-buffer* is used,
+   the input is used directly to control the blur radius (similar to *f-Stop* when using the Z-buffer).
+   This parameter can be used to scale the range of the Z input.
+
+
+Output
+======
+
+Image
+   Standard image output.
+
+
+Examples
+========
+
+.. figure:: /images/Node-Defocus-example.jpg
+   :width: 200px
+   :figwidth: 200px
+
+
+In this `blend-file example <https://wiki.blender.org/uploads/7/79/Doftest.blend>`__, the ball
+array image is blurred as if it was taken by a camera with a f-stop of 2.8 resulting in a
+fairly narrow depth of field centered on 7.5 Blender units from the camera.
+As the balls recede into the distance, they get blurrier.
+This node has no properties.
+
+No Z-Buffer examples
+--------------------
+
+Sometimes might want to have more control to blur the image. For instance,
+you may want to only blur one object while leaving everything else alone (or the other way around),
+or you want to blur the whole image uniformly all at once.
+The node, therefore, allows you to use something other than an actual Z-buffer as the *Z* input.
+For instance, you could connect an image node and use a grayscale image where the color designates
+how much to blur the image at that point, where white is the maximum blur and black is no blur.
+Or, you could use a Time node to uniformly blur the image,
+where the time value controls the maximum blur for that frame.
+It may also be used to obtain a possibly slightly better DoF blur,
+by using a fake depth shaded image instead of a Z-buffer.
+(A typical method to create the fake depth shaded image is by using a linear blend texture
+for all objects in the scene or by using the "fog/mist" fake depth shading method).
+This also has the advantage that the fake depth image can have anti-aliasing,
+which is not possible with a real Z-buffer.
+
+The parameter *No Z-buffer*, becomes then the main blur control.
+The input has to be scaled, because usually the value of a texture is only in the numeric range 0.0 to 1.0.
 
 
 Camera Settings
-===============
+---------------
 
 .. figure:: /images/Compositing-Node-Defocus_Camera_settings.jpg
 
@@ -38,127 +138,8 @@ To make the focal point visible, enable the camera *Limits* option,
 the focal point is then visible as a yellow cross along the view direction of the camera.
 
 
-Node Inputs
-===========
-
-The node requires two inputs: an image, and a Z-buffer,
-the latter does not need to be an actual Z-buffer, but can also be another (grayscale)
-image used as a mask, or a single value input, for instance, from a time node,
-to vary the effect over time.
-
-
-Node Setting
-============
-
-The settings for this node are:
-
-Bokeh Type menu
-   Here you set the number of iris blades of the virtual camera's diaphragm.
-   It can be set *Disk* (to emulate a perfect circle) or *Triangle* (3 blades), *Square* (4 blades), 
-   *Pentagon* (5 blades), *Hexagon* (6 blades), *Heptagon* (7 blades) or *Octagon* (8 blades).
-   The reason it does not go any higher than 8 is that from that point on the result tends to
-   be indistinguishable from a *Disk* shape anyway.
-Rotate
-   This button is not visible if the *Bokeh Type* is set to *Disk*.
-   It can be used to add an additional rotation offset to the Bokeh shape. The value is the angle in degrees.
-
-Gamma Correct
-   Exactly the same as the *Gamma* option in Blender's general *Blur* node
-   (see :doc:`Blur Node </compositing/types/filter/blur_node>`).
-   It can be useful to further brighten out of focus parts in the image, accentuating the Bokeh effect.
-
-f-Stop
-   This is the most important parameter to control the amount of focal blur:
-   it simulates the aperture *f* of a real len's iris, without modifying the luminosity of the picture,
-   however! As in a real camera, the *smaller* this number is, the more open the lens iris is,
-   and the *shallower* the depth-of-field will be. The default value 128 is assumed to be infinity:
-   everything is in perfect focus. Half the value will double the amount of blur.
-   This button is not available if *No Z-buffer* is enabled.
-
-Maxblur
-   Use this to limit the amount of blur of the most out of focus parts of the image.
-   The value is the maximum blur radius allowed.
-   This can be useful since the actual blur process can sometimes be very slow. (The more blur, the slower it gets.)
-   So, setting this value can help bring down processing times,
-   like for instance when the world background is visible, which in general tends to be the point of maximum blur
-   (not always true, objects very close to the lens might be blurred even more).
-   The default value of 0 means there is no limit to the maximum blur amount.
-
-BThreshold
-   The defocus node is not perfect: some artifacts may occur.
-   One such example is in-focus objects against a blurred background,
-   which have a tendency to bleed into the edges of the sharp object.
-   The worst-case scenario is an object in-focus against the very distant world background:
-   the differences in distance are very large and the result can look quite bad.
-   The node tries to prevent this from occurring by testing that the blur difference between pixels is not too large,
-   the value set here controls how large that blur difference may be to consider it safe.
-   This is all probably    quite confusing, and fortunately, in general,
-   there is no need to change the default setting of 1.
-   Only try changing it if you experience problems with any in-focus object.
-
-
-Preview
-   As already mentioned, processing can take a long time. So to help make editing parameters somewhat interactive,
-   there is a preview mode which you can enable with this button.
-   Preview mode will render the result using a limited amount of (quasi)random samples,
-   which is a *lot* faster than the perfect mode used otherwise. The sampling mode also tends to produce grainy,
-   noisy pictures (though the more samples you use, the less noisy the result). This option is on by default.
-   Play around with the other parameters until you are happy with the results,
-   and only then disable the preview mode for the final render.
-
-
-Samples
-   Only visible when *Preview* is set. Sets a number of samples to use to sample the image. The higher,
-   the smoother the image, but also the longer the processing time. For preview,
-   the default of 16 samples should be sufficient and is also the fastest.
-
-No Z-buffer
-   Sometimes you might want to have more control to blur the image. For instance,
-   you may want to only blur one object while leaving everything else alone (or the other way around),
-   or you want to blur the whole image uniformly all at once.
-   The node, therefore, allows you to use something other than an actual Z-buffer as the *Z* input.
-   For instance, you could connect an image node and use a grayscale image where the color designates
-   how much to blur the image at that point, where white is the maximum blur and black is no blur.
-   Or, you could use a Time node to uniformly blur the image,
-   where the time value controls the maximum blur for that frame.
-   It may also be used to obtain a possibly slightly better DoF blur,
-   by using a fake depth shaded image instead of a Z-buffer.
-   (A typical method to create the fake depth shaded image is by using a linear blend texture
-   for all objects in the scene or by using the "fog/mist" fake depth shading method).
-   This also has the advantage that the fake depth image can have anti-aliasing,
-   which is not possible with a real Z-buffer.
-   
-   .. note::
-
-      *No Z-buffer* will be enabled automatically whenever you connect a node that is not image based
-      (e.g. time node/value node/etc).
-
-Z Scale
-   Only visible when *No Z-buffer* enabled. When *No Z-buffer* is used,
-   the input is used directly to control the blur radius.
-   And since usually the value of a texture is only in the numeric range 0.0 to 1.0,
-   its range is too narrow to control the blur properly. This parameter can be used to expand the range of the input
-   (or for that matter, narrow it as well, by setting it to a value less than one). So for *No Z-buffer*,
-   this parameter therefore then becomes the main blur control
-   (similar to *f-Stop* when you *do* use a Z-buffer).
-
-
-Examples
-========
-
-.. figure:: /images/Node-Defocus-example.jpg
-   :width: 200px
-   :figwidth: 200px
-
-
-In this `blend-file example <https://wiki.blender.org/uploads/7/79/Doftest.blend>`__, the ball
-array image is blurred as if it was taken by a camera with a f-stop of 2.8 resulting in a
-fairly narrow depth of field centered on 7.5 Blender units from the camera.
-As the balls recede into the distance, they get blurrier.
-
-
 Hints
-=====
+-----
 
 Preview
    In general, use preview mode, change parameters to your liking,
