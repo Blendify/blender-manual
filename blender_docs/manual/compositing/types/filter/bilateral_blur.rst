@@ -39,12 +39,11 @@ Properties
 
 Iterations
    Defines how many times the filter should perform the operation on the image.
-   It practically defines the radius of blur. (1 to 128). With a default of 1.
+   It practically defines the radius of blur.
 Color Sigma
    Defines the threshold for which color differences in the image should be taken as edges.
-   (0.010 to 3). With a default of 0.010.
 Space Sigma
-   A fine-tuning variable for blur radius. (0.010 to 30). With a default of 5.
+   A fine-tuning variable for blur radius.
 
 
 Output

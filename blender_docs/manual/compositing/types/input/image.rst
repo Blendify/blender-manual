@@ -65,9 +65,9 @@ The first two sockets are the minimum.
 Color
    Image
 Alpha
-   Separate Alpha value. Default values is 1.0.
+   Separate Alpha value.
 Z
-   Z-depth layer. Default values is 0.0.
+   Z-depth layer.
 
 
 .. note:: MultiLayer format:

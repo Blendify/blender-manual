@@ -29,7 +29,7 @@ Mode
 Distance
    The Distance is the filter radius.
    A *positive* value of Distance dilate (expands) the influence of a pixel on its surrounding pixels.
-   A *negative* value erodes (shrinks) its influence. (-100 to 100) with a default of 0.
+   A *negative* value erodes (shrinks) its influence.
 
 
 Output

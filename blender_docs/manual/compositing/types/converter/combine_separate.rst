@@ -38,14 +38,11 @@ Input/ Output
 
 Image
    Standard image in/output.
-R
-   Red (0 to 1). Default of 0.
-G
-   Green (0 to 1). Default of 0.
-B
-   Blue (0 to 1). Default of 0.
-A
-   Alpha (0 to 1). Default of 1.
+
+- R (Red)
+- G (Green)
+- B (Blue)
+- A (Alpha)
 
 
 Properties
@@ -98,14 +95,11 @@ Input/ Output
 
 Image
    Standard image in/output.
-H
-   Hue (0 to 1). Default of 0.
-S
-   Saturation (0 to 1). Default of 0.
-V
-   Value (0 to 1). Default of 0.
-A
-   Alpha (0 to 1). Default of 1.
+
+- H (Hue)
+- S (Saturation)
+- V (Value)
+- A (Alpha)
 
 
 Properties
@@ -135,14 +129,11 @@ Input/ Output
 
 Image
    Standard image in/output.
-Y
-   Luminance (0 to 1). Default of 0.
-U
-   U chrominance (0 to 1). Default of 0.
-V
-   V chrominance ( 0 to 1). Default of 0.
-A
-   Alpha (0 to 1). Default of 1.
+
+- Y (Luminance)
+- U (U chrominance)
+- V (V chrominance)
+- A (Alpha)
 
 
 Properties
@@ -172,22 +163,19 @@ Input/ Output
 
 Image
    Standard image in/output.
-Mode
-   ITU 601, ITU 709, Jpeg
-Y
-   Luminance (0 to 1) (black to white). Default of 0.
-Cb
-   Chrominance Blue (0 to 1) (blue to yellow). Default of 0.
-Cr
-   Chrominance Red (0 to 1) (red to yellow). Default of 0.
-A
-   Alpha (0 to 1). Default of 1.
+
+- Y (Luminance)
+- Cb (Chrominance Blue)
+- Cr (Chrominance Red)
+- A (Alpha)
 
 
 Properties
 ----------
 
-This node has no properties.
+Mode
+   ITU 601, ITU 709, Jpeg
+
 
 .. tip::
 

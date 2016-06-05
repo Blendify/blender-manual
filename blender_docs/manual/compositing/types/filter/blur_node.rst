@@ -61,7 +61,6 @@ Relative
       None, Y, X
 X, Y
    Values set the ellipsoid radius in numbers of pixels over which to spread the blur effect.
-   With a default of 0.
 Extend Bounds
    Allows the image, that is being blurred, to extend past its original dimension.
 

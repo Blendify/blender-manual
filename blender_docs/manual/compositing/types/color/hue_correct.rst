@@ -23,12 +23,7 @@ Properties
 ==========
 
 Level
-   H
-      Hue
-   S
-      Saturation
-   V
-      Value
+   H (Hue), S (Saturation), V (Value)
 Curve
    For the curve controls see: :ref:`Curve widget <ui-curve_widget>`.
    By default, the curve is a straight line, meaning there is no change.

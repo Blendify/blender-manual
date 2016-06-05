@@ -19,9 +19,9 @@ Fac
 Image
    Standard image input. 
 Black Level
-   Defines the input color that is (linear) mapped to black. The default is black, which does not change the image.
+   Defines the input color that is (linear) mapped to black.
 White Level
-   Defines the input color that is (linear) mapped to white. The default is white, which does not change the image.
+   Defines the input color that is (linear) mapped to white.
 
 .. tip::
 
@@ -33,17 +33,7 @@ Properties
 Channel
    Clicking on one of the channels displays the curve for each.
 
-   C
-      Combined RGB
-   R
-      Red
-   G
-      Green
-   B
-      Blue
-   L
-      Luminance
-
+   C (Combined RGB), R (Red), G (Green), B (Blue), L (Luminance)
 Curve
    A Bézier curve that varies the input levels (x-axis) to produce an output level (y-axis).
    For the curve controls see: :ref:`Curve widget <ui-curve_widget>`.

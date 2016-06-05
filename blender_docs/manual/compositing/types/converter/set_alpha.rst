@@ -18,7 +18,7 @@ Image
    Standard image input.
 Alpha
    The amount of Alpha can be set for the whole image by using the input field or
-   per pixel by connecting to the socket. (0 to 1) with a default of 1.
+   per pixel by connecting to the socket.
 
 
 Properties
