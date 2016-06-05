@@ -16,6 +16,7 @@ Plane Track
 ===========
 
 Before using this node, plane track for the footage should be made in the *Movie Clip Editor*.
+
 .. TODO: add link to plane track's documentation when that is made.
 
 
@@ -26,11 +27,17 @@ Image
    Image to put in place of the plane track, and thus, override that area in the movie clip.
 
 
-Options
-=======
+Properties
+==========
 
 Movie Clip
    Used to select the movie clip whose plane track to use.
+
+   - a preloaded image could be loaded by clicking on image file icon to the left and 
+     selecting it from the list.
+   - or by clicking the *Open* button to select a file/s via the
+     :doc:`file-browser </editors/file_browser/introduction>`.
+
 Object
    Used to select the object to which the plane track is linked.
 Track
@@ -94,4 +101,4 @@ will display the part of the image that lies inside that mask. This image shows 
 
 .. figure:: /images/compositing_nodes_distort_planetrackdeform_output_comparison.png
 
-   Comaprison between image output and original image (see viewer nodes carefully).
+   Comparison between image output and original image (see viewer nodes carefully).

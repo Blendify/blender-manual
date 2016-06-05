@@ -9,17 +9,33 @@ Translate Node
 
    Transform Node.
 
-The translate node translates (moves)
-an image by the specified amounts in the X and Y directions. X and Y are in pixels,
-and can be positive or negative. To shift an image up and to the left, for example,
-you would specify a negative X offset and a positive Y.
+The translate node translates (moves) an image.
 
+Could also be used to add a 2D Camera shake.
 
-Usage
+Input
 =====
 
-This node can be used for:
+Image
+   Standard image input.
+X, Y
+   Used to move the input image horizontally and vertically.
 
-- Movie credits.
-- Moving a matte.
-- Camera shake.
+
+Properties
+==========
+
+Relative
+   Percentage translation values relative to the input image size.
+Wrapping
+   Repeat image.
+
+   None, X Axis, Y Axis, Both Axis
+
+
+Output
+======
+
+Image
+   Standard image output.
+
