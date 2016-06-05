@@ -9,24 +9,47 @@ Map UV Node
 
    Map UV Node.
 
-While you can do quite a bit of overall coloring in post-production, there are limits. 
-With this *Node* you can "re-texture" objects **after** they have been rendered. 
+With this node objects can be "re-textured" after they have been rendered. 
 
-Using this node (and having saved the UV map in a multilayer OpenEXR format image sequence),
-you can apply new flat image textures to all objects
-(or individual objects if you used the very cool
-:doc:`ID Mask Node </compositing/types/converter/id_mask>` to enumerate your objects) in the scene.
+To apply a texture to individual enumerated objects the 
+:doc:`ID Mask Node </compositing/types/converter/id_mask>` could be used.
 
-Thread the new UV Texture to the Image socket,
-and the UV Map from the rendered scene to the UV input socket.
-The resulting image is the input image texture distorted to match the UV coordinates. That
-image can then be overlay mixed with the original image to paint the texture on top of the
-original.
-Adjust alpha and the mix factor to control how much the new texture overlays the old.
+Input
+=====
 
-Of course, when painting the new texture,
-it helps to have the UV maps for the original objects in the scene,
-it is recommended to  keep those UV texture outlines around even, when shooting is done.
+Image
+   The new 2D Texture.
+UV
+   The input for UV render pass. 
+   See :doc:`Cycles render passes </render/cycles/settings/passes>` or
+   :doc:`Blender internal render passes </render/blender_render/passes>`.
+
+.. hint::
+
+   To store the UV pass a multilayer OpenEXR format could be used.
+
+Properties
+==========
+
+Alpha
+   Alpha control how much the new texture overlays the old.
+
+
+Output
+======
+
+Image
+   The resulting image is the input image texture distorted to match the UV coordinates.
+   That image can then be overlay mixed with the original image to paint 
+   the texture on top of the original.
+
+
+.. hint::
+
+   When painting the new texture,
+   it helps to have the UV maps for the original objects in the scene,
+   it is recommended to keep those UV texture outlines around even, when shooting is done.
+
 
 Examples
 ========
@@ -52,7 +75,7 @@ and it is needed to substitute in a different product sponsor after rendering.
 
 .. hint:: 
 
-   Of course, due to limits of this node, it is not recommended rush pre-production rendering under
+   Due to limits of this node, it is not recommended rush pre-production rendering under
    the guise of "fixing it later".
 
 .. figure:: /images/Compositing-Node-MapUV_ex02.jpg

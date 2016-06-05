@@ -12,6 +12,7 @@ Movie Distortion Node
 In real life, all camera lenses produce some or the other sort of lens distortion.
 But, whatever we render has got no distortion. So, this node helps in removing distortion from movies
 or adding distortion to render to make our render blend in with the movie clip.
+
 Usually, it is used while motion tracking.
 
 
@@ -28,25 +29,33 @@ Input
 =====
 
 Image
-   Used to receive the input for your movie clip or render.
+   Standard image input.
 
 
-Options
-=======
+Properties
+==========
 
 Movie Clip
    Used to select the movie clip whose distortion is to be used.
    This can be useful if more than 1 movie clips are present, each having a different distortion setting.
+
+   - a preloaded image could be loaded by clicking on image file icon to the left and 
+     selecting it from the list.
+   - or by clicking the *Open* button to select a file/s via the
+     :doc:`file-browser </editors/file_browser/introduction>`.
+
 Distortion Method
-   :Undistort: Used to undistort the image received, and is usually used for the raw distorted movie clip.
-   :Distort: Used to distort the image received, and is usually used for rendered images.
+   Undistort
+      Used to undistort the image received, and is usually used for the raw distorted movie clip.
+   Distort
+      Used to distort the image received, and is usually used for rendered images.
 
 
 Output
 ======
 
 Image
-   Produces the final image after distorting/undistorting.
+   The image after distorting/undistorting.
 
 
 Distortion vs Undistortion

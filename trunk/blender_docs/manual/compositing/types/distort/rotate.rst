@@ -11,6 +11,31 @@ Rotate Node
 
 
 This node rotates an image.
-Positive values rotate clockwise and negative ones counterclockwise.
 
 .. TODO: document interpolation methods (bicubic, bilinear, nearest)
+
+
+Input
+=====
+
+Image
+   Standard image input.
+Degr
+   Rotation angle in degree. Positive values rotate clockwise and negative ones counterclockwise.
+
+
+Properties
+==========
+
+Filter
+   Interpolation Methods.
+
+   Bilinear, Bicubic, Nearest
+
+
+Output
+======
+
+Image
+   Standard image output.
+
