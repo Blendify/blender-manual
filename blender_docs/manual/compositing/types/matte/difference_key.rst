@@ -12,31 +12,29 @@ Difference Key Node
 This node produces a matte that isolates foreground content by comparing it with a reference background image.
 
 
-Inputs
-======
+Input
+=====
 
-There are two inputs:
-
-Image 1
+Image
    Contains foreground content against the background that is to be removed.
-Image 2
+Image
    The reference background image.
 
 
-Options
-=======
+Properties
+==========
 
-Where pixels match the reference background to within the specified *Tolerance*, the matte is made transparent.
-
+Tolerance
+   Where pixels match the reference background to within the specified threshold, the matte is made transparent.
 Falloff
    Increase to make nearby pixels partially transparent producing a smoother blend along the edges.
 
-Outputs
-=======
 
-Outputs are:
+Output
+======
 
 Image
    Image with its alpha channel adjusted for the keyed selection.
 Matte
    A black and white alpha mask of the key.
+
