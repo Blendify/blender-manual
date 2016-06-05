@@ -8,7 +8,32 @@ Switch Node
 
    Switch Node.
 
-Switch between two images using a checkbox. When the checkbox is checked, the *On* input is output.
-When it is unchecked the *Off* input is output instead.
-Switch state may be animated by adding a :doc:`keyframe </animation/keyframes/introduction>`
-This makes the Switch node useful for bypassing nodes which are not wanted during part of a sequence.
+Switch between two images using a checkbox. 
+
+Input
+=====
+
+Image
+   First image input.
+Image
+   Second image input.
+
+
+Properties
+==========
+
+Switch
+   - When it is unchecked, the first input labeled "Off" is passed to the output.
+   - When checked, the second input labeled "On" is passed to the output.
+
+
+Output
+======
+
+Image
+   Standard image output.
+
+.. tip
+
+   Switch state may be animated by adding a :doc:`keyframe </animation/keyframes/introduction>`
+   This makes the Switch node useful for bypassing nodes which are not wanted during part of a sequence.
