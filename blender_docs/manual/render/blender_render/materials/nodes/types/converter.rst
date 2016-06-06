@@ -9,9 +9,10 @@ As the name implies, these nodes convert the colors in the material in some way.
 ColorRamp Node
 ==============
 
-.. figure:: /images/material-convertor-node-color_ramp.jpg
+.. figure:: /images/compositing_nodes_colorramp.png
+   :align: right
 
-   ColorRamp node.
+   Color Ramp Node.
 
 
 The ColorRamp Node is used for mapping values to colors with the use of a gradient.
@@ -35,91 +36,24 @@ Alpha setting, and interpolation type.
 Inputs
 ------
 
-Fac:
-   Factor. The degree of node's influence in node tree. The value can be provided by another node or set manually.
+Fac
+   The Factor input is used as an index for the color ramp.
+
+
+Properties
+----------
+
+Color Ramp
+   For controls see :ref:`ui-color_ramp_widget`.
 
 
 Outputs
 -------
 
-Color
-   Value of the color, combined by the node.
+Image
+   Standard image output.
 Alpha
-   Value of the alpha, combined by the node.
-
-
-Controls
---------
-
-.. figure:: /images/icons_add.png
-   :width: 25px
-
-   Add a new mark to the center of the colorband with the default color (neutral gray).
-
-
-.. figure:: /images/icons_minus.png
-   :width: 25px
-
-   Remove the currently selected mark from the colorband.
-
-
-.. figure:: /images/icons_reverse.png
-   :width: 25px
-
-   Flip the colorband.
-
-
-.. figure:: /images/material-convertor-node-color_ramp-interpolation.jpg
-
-   Modes of interpolation between marker's values color ramp.
-
-
-Interpolation
-   Various modes of interpolation between marker's values can be chosen in the Interpolation menu:
-
-   Ease
-      Ease by quadratic equation.
-   Cardinal
-      Cardinal.
-   Linear
-      Linear (default). A smooth, consistent transition between colors.
-   B-Spline
-      B-Spline.
-   Constant
-      Constant.
-
-
-.. figure:: /images/material-convertor-node-colorband.jpg
-
-   Colorband.
-
-
-Colorband
-   Contain a gradient through a sequence of many colors (with alpha),
-   each color acting across a certain position in the spectrum.
-
-
-.. figure:: /images/material-convertor-node-color_ramp-numberpoint-buticon.jpg
-
-   The number of the active mark.
-
-
-.. figure:: /images/material-convertor-node-color_ramp-pospoint-buticon.jpg
-
-   *Pos*. The position of the active color mark in the colorband (range 0.0–1.0).
-   The position of the color marks can also be changed by :kbd:`LMB` dragging them in the colorband.
-
-
-.. figure:: /images/material-convertor-node-colorswatch.jpg
-
-   Color swatch to color selection for a mark.
-
-
-Color *Selector*
-   Allows set color and alpha values for each marker.
-
-
-See more details about node controls' functions :doc:`here </render/blender_render/materials/properties/ramps>`.
+   Standard alpha output.
 
 
 RGB to BW Node
