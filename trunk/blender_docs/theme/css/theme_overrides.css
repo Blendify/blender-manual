@@ -86,7 +86,7 @@ table {caption-side: bottom}
 /* mark external links*/
 a.external {color:#656AE0;}
 /*white list blender.org and wiki.blender.org as internal*/
-.external[href^="https://blender.org"], .external[href^="https://wiki.blender.org"] {
+.external[href^="https://www.blender.org"], .external[href^="https://wiki.blender.org"] {
 	color:#2980B9;
 }
 
