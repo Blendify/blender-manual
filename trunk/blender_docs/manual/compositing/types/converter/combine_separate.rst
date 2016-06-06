@@ -1,3 +1,4 @@
+.. Editors Note: This page gets copied into render/cycles/nodes/types/converter/combine_separate
 
 **********************
 Combine/Separate Nodes
@@ -182,4 +183,3 @@ Mode
    If running these channels through a ColorRamp to adjust value,
    use the Cardinal scale for accurate representation.
    Using the Exponential scale on the luminance channel gives high-contrast effect.
-

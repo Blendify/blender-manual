@@ -12,17 +12,28 @@ The *Blackbody* node converts a blackbody temperature to RGB value.
 This can be useful for materials that emit light at natural occurring frequencies.
 
 
-Input
-=====
+Inputs
+======
 
 Temperature
    The temperature in Kelvin.
 
-Output
-======
+
+Properties
+==========
+
+This node has no properties.
+
+
+Outputs
+=======
 
 Color
    RGB color output.
+
+
+Examples
+========
 
 .. figure:: /images/cycles_nodes_blackbody_example.jpg
 
