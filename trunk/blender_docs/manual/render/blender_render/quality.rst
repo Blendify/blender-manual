@@ -16,8 +16,8 @@ In some cases it is necessary to render effects straight out of the renderer,
 rather than creating them in "post."
 
 
-:doc:`Color Management and Exposure </render/post_process/cm_and_exposure>`
-===========================================================================
+Color Management and Exposure
+=============================
 
 One important aspect of 3D rendering that is often overlooked is color management.
 Without color management, or more commonly, linear rendering,
@@ -25,17 +25,27 @@ render engines interpret scene lighting correctly,
 but display them incorrectly on your monitor. Blender simplifies this workflow,
 but it is important to know how the color space of a rendered image factors into your pipeline.
 
+.. seealso::
 
-:doc:`Anti-Aliasing </render/blender_render/antialiasing>`
-==========================================================
+   :doc:`Color Management and Exposure </render/post_process/cm_and_exposure>`.
+
+
+
+Anti-Aliasing
+=============
 
 Anti-Aliasing removes jagged edges that appear in contrasting areas of color.
 This is a very important aspect of render quality. Without this render setting,
 images usually appear particularly CG and amateur.
 
+.. seealso::
 
-:doc:`Exposure (Lighting) </render/blender_render/lighting/exposure>`
-=====================================================================
+   :doc:`Anti-Aliasing </render/blender_render/antialiasing>`.
+
+
+
+Exposure (Lighting)
+===================
 
 Exposure is, in physical terms, the length of time a camera's film or sensor is exposed to light.
 Longer exposure times create a brighter image.
@@ -43,12 +53,22 @@ In CG, the recorded light values are offset to simulate longer or shorter exposu
 This can be achieved through lighting settings, or better, through
 :doc:`Color Management settings </render/post_process/cm_and_exposure>`
 
+.. seealso::
 
-:doc:`Motion Blur </render/blender_render/motion_blur>`
-=======================================================
+   :doc:`Exposure (Lighting) </render/blender_render/lighting/exposure>`.
+
+
+Motion Blur
+===========
 
 Cameras have a certain shutter speed, or the length of time the film is exposed to the image.
 Things that are in motion while the picture is taken will have some degree of blurring.
 Faster-moving objects will appear more blurred than slower objects.
 This is an important effect in CG because it is an artifact that we expect to see,
 and when it is missing, an image may not be believable.
+
+.. seealso::
+
+   :doc:`Motion Blur </render/blender_render/motion_blur>`.
+
+
