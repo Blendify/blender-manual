@@ -3,6 +3,12 @@
 Add
 ***
 
+.. figure:: /images/cycles_nodes_shader_add.png
+   :align: right
+   :width: 150px
+
+   Add Node.
+
 The *Add* node is uses to add to *Shaders* together.
 
 

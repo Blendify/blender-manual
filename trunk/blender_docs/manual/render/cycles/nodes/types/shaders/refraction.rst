@@ -3,6 +3,13 @@
 Refraction
 **********
 
+.. figure:: /images/cycles_nodes_shader_refraction.png
+   :align: right
+   :width: 150px
+
+   Refraction Node.
+
+
 Glossy refraction with sharp or microfacet distribution,
 used for materials that transmit light. For best results this node should be considered as a
 building block and not be used on its own,

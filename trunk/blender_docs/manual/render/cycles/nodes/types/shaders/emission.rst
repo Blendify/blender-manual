@@ -3,6 +3,12 @@
 Emission
 ********
 
+.. figure:: /images/cycles_nodes_shader_emission.png
+   :align: right
+   :width: 150px
+
+   Emission Node.
+
 Lambertian emission, to be used for material and lamp surface outputs.
 
 Cycles uses a physically correct light falloff by default,

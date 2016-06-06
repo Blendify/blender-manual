@@ -3,6 +3,12 @@
 Velvet
 ******
 
+.. figure:: /images/cycles_nodes_shader_velvet.png
+   :align: right
+   :width: 150px
+
+   Velvet Node.
+
 Velvet reflection shader for materials such as cloth.
 It is meant to be used together with other shaders (such as a *Diffuse Shader*)
 and isn't particularly useful on it's own.

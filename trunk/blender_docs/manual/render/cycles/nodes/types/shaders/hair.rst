@@ -3,6 +3,13 @@
 Hair
 ****
 
+.. figure:: /images/cycles_nodes_shader_hair.png
+   :align: right
+   :width: 150px
+
+   Hair Node.
+
+
 Used to add shading for :doc:`Hair </physics/particles/hair/index>`.
 
 

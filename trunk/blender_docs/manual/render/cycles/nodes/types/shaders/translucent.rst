@@ -3,6 +3,12 @@
 Translucent
 ***********
 
+.. figure:: /images/cycles_nodes_shader_translucent.png
+   :align: right
+   :width: 150px
+
+   Translucent Node.
+
 Lambertian diffuse transmission.
 
 

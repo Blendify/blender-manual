@@ -3,6 +3,12 @@
 Glass
 *****
 
+.. figure:: /images/cycles_nodes_shader_glass.png
+   :align: right
+   :width: 150px
+
+   Glass Node.
+
 Glass-like shader mixing refraction and reflection at grazing angles. Like the transparent shader,
 only pure white will make it transparent. The glass shader tends to cause noise due to caustics.
 Since the Cycles path tracing integrator is not very good at rendering caustics,

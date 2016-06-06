@@ -3,6 +3,12 @@
 Background
 **********
 
+.. figure:: /images/cycles_nodes_shader_background.png
+   :align: right
+   :width: 150px
+
+   Background Node.
+
 Background light emission. This node should only be used for the world surface output;
 it is ignored in other cases.
 
