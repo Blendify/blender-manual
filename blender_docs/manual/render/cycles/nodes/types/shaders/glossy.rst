@@ -3,6 +3,12 @@
 Glossy
 ******
 
+.. figure:: /images/cycles_nodes_shader_glossy.png
+   :align: right
+   :width: 150px
+
+   Glossy Node.
+
 Glossy reflection with microfacet distribution, used for materials such as metal or mirrors.
 
 Inputs

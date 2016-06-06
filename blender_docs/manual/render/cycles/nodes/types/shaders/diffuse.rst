@@ -3,6 +3,13 @@
 Diffuse
 *******
 
+.. figure:: /images/cycles_nodes_shader_diffuse.png
+   :align: right
+   :width: 150px
+
+   Diffuse Node.
+
+
 Lambertian and Oren-Nayar diffuse reflection.
 
 

@@ -1,6 +1,13 @@
+
 ****
 Toon
 ****
+
+.. figure:: /images/cycles_nodes_shader_toon.png
+   :align: right
+   :width: 150px
+
+   Toon Node.
 
 Diffuse and Glossy Toon :abbr:`BSDF (Bidirectional scattering distribution function)` for
 creating cartoon light effects.

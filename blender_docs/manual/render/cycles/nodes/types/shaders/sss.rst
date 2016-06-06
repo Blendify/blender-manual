@@ -3,6 +3,12 @@
 Subsurface Scattering
 *********************
 
+.. figure:: /images/cycles_nodes_shader_sss.png
+   :align: right
+   :width: 150px
+
+   Subsurface Scattering Node.
+
 Simple subsurface multiple scattering, for materials such as skin, wax, marble,
 milk and others. For these materials,
 rather than light being reflect directly off the surface, it will penetrate the surface and

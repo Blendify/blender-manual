@@ -3,6 +3,13 @@
 Holdout
 *******
 
+.. figure:: /images/cycles_nodes_shader_holdout.png
+   :align: right
+   :width: 150px
+
+   Holdout Node.
+
+
 The holdout shader creates a "hole" in the image with zero alpha
 transparency, which is useful for compositing (see :term:`alpha channel`).
 
