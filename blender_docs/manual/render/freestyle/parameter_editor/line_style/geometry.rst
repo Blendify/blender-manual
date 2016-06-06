@@ -83,7 +83,7 @@ Rotation Angle
    The rotation angle.
 
 
-.. figure:: /images/2D_Transform.jpg
+.. figure:: /images/freestyle_2d-transform.jpg
    :width: 400px
    :align: center
 
