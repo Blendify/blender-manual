@@ -1,3 +1,4 @@
+.. Editors Note: This page gets copied into render/cycles/nodes/types/color/rgb_curves
 
 ***************
 RGB Curves Node
@@ -10,6 +11,7 @@ RGB Curves Node
    RGB Curves Node.
 
 This node allows levels adjustments and color corrections for each color channel.
+
 
 Input
 =====
@@ -27,6 +29,7 @@ White Level
 
    To define the levels, use the :ref:`eye dropper <ui-eye_dropper>` to select a color sample of a displayed image.
 
+
 Properties
 ==========
 
@@ -37,6 +40,7 @@ Channel
 Curve
    A Bézier curve that varies the input levels (x-axis) to produce an output level (y-axis).
    For the curve controls see: :ref:`Curve widget <ui-curve_widget>`.
+
 
 Output
 ======

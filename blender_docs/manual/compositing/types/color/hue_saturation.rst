@@ -1,3 +1,4 @@
+.. Editors Note: This page gets copied into render/cycles/nodes/types/color/hue_saturation
 
 *******************
 Hue Saturation Node

@@ -26,6 +26,12 @@ Smooth
    The maximum light strength will be strength/smooth.
 
 
+Properties
+==========
+
+This node has no properties.
+
+
 Outputs
 =======
 
@@ -35,3 +41,9 @@ Linear
    Linear light falloff, giving a slower decrease in intensity over distance.
 Constant
    Constant light falloff, where the distance to the light has no influence on its intensity.
+
+
+Examples
+========
+
+Todo.
