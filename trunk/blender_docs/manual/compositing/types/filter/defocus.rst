@@ -12,8 +12,8 @@ Defocus Node
 
 This node blurs areas of an image based on a map/mask input.
 
-It could be used to emulate depth of field using a postprocessing method with a Z-buffer input.
-But also allows to blur images not based on Z depth.
+It is typically used to emulate depth of field (:term:`DOF`) using a post-processing method with a Z-buffer input.
+But also allows to blur images that are not based on Z depth too.
 
 Input
 =====
