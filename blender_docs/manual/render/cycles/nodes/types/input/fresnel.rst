@@ -33,6 +33,12 @@ Normal
    Todo.
 
 
+Properties
+==========
+
+This node has no properties.
+
+
 Output
 ======
 

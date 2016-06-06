@@ -14,8 +14,14 @@ The *UV Map* node is used to retrieve specific UV maps. Unlike the :doc:`Texture
 this node can retrieve any UV map belonging to the object using the material.
 
 
-Options
-=======
+Inputs
+======
+
+This node has no inputs.
+
+
+Properties
+==========
 
 From Dupli
    See the :ref:`From Dupli <cycles-nodes-input-texture-coordinate-from-dupli>`
@@ -25,8 +31,8 @@ UV Map
    UV map to use.
 
 
-Output
-======
+Outputs
+=======
 
 UV
    UV mapping coordinates from the specified UV layer.

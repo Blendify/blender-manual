@@ -16,6 +16,18 @@ or randomized for each instance. For example a Noise texture can give random col
 ramp can give a range of colors to be randomly picked from.
 
 
+Inputs
+======
+
+This node has no inputs.
+
+
+Properties
+==========
+
+This node has no properties.
+
+
 Outputs
 =======
 

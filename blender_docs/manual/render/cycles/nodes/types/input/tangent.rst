@@ -11,8 +11,15 @@ Tangent
 
 The *Tangent* node generates a tangent direction for the Anisotropic BSDF.
 
-Options
-=======
+
+Inputs
+======
+
+This node has no inputs.
+
+
+Properties
+==========
 
 Direction Type
    The tangent direction can be derived from a cylindrical projection around the X,

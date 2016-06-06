@@ -13,6 +13,18 @@ All vector coordinates are in *World Space*. For volume shaders,
 only the position and incoming vector are available.
 
 
+Inputs
+======
+
+This node has no inputs.
+
+
+Properties
+==========
+
+This node has no properties.
+
+
 Outputs
 =======
 

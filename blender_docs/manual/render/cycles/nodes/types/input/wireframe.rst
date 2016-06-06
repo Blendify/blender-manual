@@ -13,8 +13,14 @@ As meshes are triangulated before being processed by cycles,
 topology will always appear triangulated when viewed with the *Wireframe node*.
 
 
-Options
-=======
+Inputs
+======
+
+This node has no inputs.
+
+
+Properties
+==========
 
 Pixel Size
    When enabled, the size of edge lines are set in screen space.
@@ -22,8 +28,14 @@ Size
    Thickness of the edge lines.
 
 
-Output
-======
+Outputs
+=======
 
 Fac
    Black and white mask showing white lines representing edges according to the object's :term:`topology`.
+
+
+Examples
+========
+
+Todo.
