@@ -1,4 +1,3 @@
-.. _cycles_shader_volume_scatter:
 
 **************
 Volume Scatter
