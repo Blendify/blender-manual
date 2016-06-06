@@ -75,7 +75,7 @@ Empties are important and useful objects. Some examples of ways to use them incl
 
 .. list-table::
 
-   * - .. figure:: /images/Emptyarray.jpg
+   * - .. figure:: /images/Array_Multi_Dimension.jpg
           :width: 200px
 
           An example of an empty being used to control an array.
