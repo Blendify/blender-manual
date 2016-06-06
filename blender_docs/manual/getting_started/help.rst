@@ -91,10 +91,6 @@ Scripting Reference
 - *Operator Cheat Sheet* - Creates the ``OperatorList.txt`` text-block, which you can access in the *Text Editor*.
   You can also use Blender Search to generate the file. The lists the available Python operators.
 
-  .. figure:: /images/basics-help-info-operator-cheat-sheet.jpg
-
-     Info Window - Operator Cheat Sheet.
-
 
 .. _help-system_info:
 
