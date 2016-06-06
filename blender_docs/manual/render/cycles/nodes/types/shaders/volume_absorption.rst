@@ -1,7 +1,5 @@
 .. Todo add links to settings that control these:
 
-.. _cycles_shader_volume_absorption:
-
 *****************
 Volume Absorption
 *****************

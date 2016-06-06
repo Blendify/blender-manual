@@ -10,8 +10,9 @@ Surface
    The appearance of the environment,
    usually preceded by a :doc:`Background </render/cycles/nodes/types/shaders/background.html>` shader.
 Volume
-   Used to add volumetric effects to the world. See the :ref:`Volume Absorption <cycles_shader_volume_absorption>`
-   and :ref:`Volume Scatter <cycles_shader_volume_scatter>` for more information.
+   Used to add volumetric effects to the world.
+   See the :doc:`Volume Absorption </render/cycles/nodes/types/shaders/volume_absorption>`
+   and :doc:`Volume Scatter </render/cycles/nodes/types/shaders/volume_scatter>` for more information.
 
    .. note::
 
