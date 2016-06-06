@@ -83,6 +83,13 @@ table {caption-side: bottom}
 	clear: both; width: 100%;
 }
 
+/* mark external links*/
+a.external {color:#656AE0;}
+/*white list blender.org and wiki.blender.org as internal*/
+.external[href^="https://blender.org"], .external[href^="https://wiki.blender.org"] {
+	color:#2980B9;
+}
+
 /* draws a box around :menuselection: field */
 .menuselection {
 	font-size: 90%;
