@@ -1,4 +1,3 @@
-.. _cycles_shader_diffuse:
 
 *******
 Diffuse
@@ -6,16 +5,34 @@ Diffuse
 
 Lambertian and Oren-Nayar diffuse reflection.
 
-Color input
+
+Inputs
+======
+
+Color
    Color of the surface, or physically speaking,
    the probability that light is reflected or transmitted for each wavelength.
-Roughness input
+Roughness
    Surface roughness; 0.0 gives standard Lambertian reflection, higher values activate the Oren-Nayar BSDF.
-Normal input
+Normal
    Normal used for shading; if nothing is connected the default shading normal is used.
-BSDF output
-   Diffuse :abbr:`BSDF (Bidirectional scattering distribution function)` shader.
 
+
+Properties
+==========
+
+This node has no properties
+
+
+Outputs
+=======
+
+BSDF
+   Standard shader output.
+
+
+Examples
+========
 
 .. list-table::
 

@@ -1,4 +1,3 @@
-.. _cycles_shader_transparent:
 
 ***********
 Transparent
@@ -10,12 +9,30 @@ This shader :ref:`affects light paths somewhat differently <render-cycles-light_
 than other :abbr:`BSDF (Bidirectional scattering distribution function)` s.
 Note that only pure white transparent shaders are completely transparent.
 
-Color input
+
+Inputs
+======
+
+Color
    Color of the surface, or physically speaking,
    the probability for each wavelength that light is blocked or passes straight through the surface.
-BSDF output
-   Transparent :abbr:`BSDF (Bidirectional scattering distribution function)` shader.
 
+
+Properties
+==========
+
+This node has no properties.
+
+
+Outputs
+=======
+
+BSDF
+   Standard shader output.
+
+
+Examples
+========
 
 .. list-table::
 
