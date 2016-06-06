@@ -22,8 +22,8 @@ Vector
    Input vector 2 (lower). The value can be provided by another node or set manually.
 
 
-Options
-=======
+Properties
+==========
 
 Operation
    Selector the math function for conversion.
@@ -52,3 +52,9 @@ Vector
    Output vector, converted by the node.
 Value
    Output value, converted by the node.
+
+
+Example
+=======
+
+Todo.

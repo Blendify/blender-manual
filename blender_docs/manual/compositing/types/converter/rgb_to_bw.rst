@@ -1,3 +1,4 @@
+.. Editors Note: This page gets copied into render/cycles/nodes/types/converter/rgb_to_bw
 
 **************
 RGB to BW Node
