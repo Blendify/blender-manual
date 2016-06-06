@@ -25,7 +25,7 @@ the Blender Internal engine.
 
           OpenGL Render.
 
-     - .. figure:: /images/Full_render.jpg
+     - .. figure:: /images/render_opengl_example_final.jpg
           :width: 300px
 
           Full Render.

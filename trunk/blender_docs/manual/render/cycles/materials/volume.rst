@@ -35,7 +35,7 @@ that model particular effects as light passes through the volume and interacts w
 - Emission will emit light from the volume. This can be used to shade fire for example.
 
 
-.. figure:: /images/cycles_manual_materials_volume.jpg
+.. figure:: /images/cycles_materials_volume.jpg
 
    Volume Shader: Absorption / Absorption + Scatter / Emission.
 

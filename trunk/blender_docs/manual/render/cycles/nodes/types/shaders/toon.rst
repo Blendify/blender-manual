@@ -41,6 +41,6 @@ BSDF
 Examples
 ========
 
-.. figure:: /images/cycles_nodes_shader_toon.jpg
+.. figure:: /images/cycles_nodes_shader_toon_example.jpg
 
    Toon Shader

@@ -46,7 +46,7 @@ Examples
    :align: center
 
 
-.. figure:: /images/cycles_nodes_shader_velvet.jpg
+.. figure:: /images/cycles_nodes_shader_velvet_example.jpg
    :align: center
 
    The Velvet Shader.

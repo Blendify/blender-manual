@@ -58,7 +58,7 @@ Constant Offset, X, Y, Z
    X, Y and Z constant components can be specified.
 
 Relative Offset, X, Y, Z
-   .. figure:: /images/Dev-Array-Scale_eg.jpg
+   .. figure:: /images/Array-Scale_eg.jpg
 
       Relative offset example.
 
@@ -67,7 +67,7 @@ Relative Offset, X, Y, Z
 
 
 Object Offset
-   .. figure:: /images/Dev_Array_offset_eg.jpg
+   .. figure:: /images/Array_offset_eg.jpg
 
       Object offset example.
 
@@ -87,11 +87,11 @@ First Last
    .. list-table::
       *First Last* merge example.
 
-      * - .. figure:: /images/Dev-ArrayModifier-FirstLastDiscontinuity01.jpg
+      * - .. figure:: /images/ArrayModifier-FirstLastDiscontinuity01.jpg
 
             Subsurf discontinuity caused by not merging vertices between first and last copies (*First Last* off).
 
-        - .. figure:: /images/Dev-ArrayModifier-FirstLastMerge01.jpg
+        - .. figure:: /images/ArrayModifier-FirstLastMerge01.jpg
 
             Subsurf discontinuity eliminated by merging vertices between first and last copies (*First Last* on).
 
@@ -138,25 +138,25 @@ Mechanical
 
           A bridge made from a tileable mesh.
 
-     - .. figure:: /images/Dev-ArrayModifier-track01.jpg
+     - .. figure:: /images/ArrayModifier-track01.jpg
           :width: 300px
 
           A track.
           `Sample blend-file <https://wiki.blender.org/index.php/Media:Tracktest.blend>`__
 
-   * - .. figure:: /images/Dev-ArrayModifier-Cog01.jpg
+   * - .. figure:: /images/ArrayModifier-Cog01.jpg
           :width: 300px
 
           A cog created from a single segment.
           `Blend <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Cog01.blend>`__
 
-     - .. figure:: /images/Dev-ArrayModifier-Crankshaft01.jpg
+     - .. figure:: /images/ArrayModifier-Crankshaft01.jpg
           :width: 300px
 
           A crankshaft.
           `Sample blend-file <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Crankshaft01.blend>`__
 
-   * - .. figure:: /images/Dev-ArrayModifier-Chain01.jpg
+   * - .. figure:: /images/ArrayModifier-Chain01.jpg
           :width: 300px
 
           A chain created from a single link.
@@ -170,18 +170,18 @@ Fractal
 
 .. list-table::
 
-   * - .. figure:: /images/Dev_Array_Multi_Dimension.jpg
+   * - .. figure:: /images/Array_Multi_Dimension.jpg
           :width: 300px
 
           Multi-level array animated with motion blur.
 
-     - .. figure:: /images/Dev-ArrayModifier-Fractal01.jpg
+     - .. figure:: /images/ArrayModifier-Fractal01.jpg
           :width: 300px
 
           Fractal created with multiple arrays.
           `Blend <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Fractal01.blend>`__
 
-   * - .. figure:: /images/Dev-ArrayModifier_Fractal_11.jpg
+   * - .. figure:: /images/ArrayModifier_Fractal_11.jpg
           :width: 300px
 
           A fractal fern image created with 2 array modifiers and 1 mirror applied to a cube.
@@ -194,13 +194,13 @@ Organic
 
 .. list-table::
 
-   * - .. figure:: /images/Dev_Array_Fractal_example.jpg
+   * - .. figure:: /images/Array_Fractal_example.jpg
           :width: 300px
 
           Subsurfed cube array with 1 object offset,
           4 cubes and a high vertex merge setting to give the effect of skinning.
 
-     - .. figure:: /images/Dev-ArrayModifier-Spiral01.jpg
+     - .. figure:: /images/ArrayModifier-Spiral01.jpg
           :width: 300px
 
           A double spiral created with two array modifiers and one subsurf modifier applied to a cube.

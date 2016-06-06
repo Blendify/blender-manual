@@ -49,10 +49,10 @@ Examples
 
      -
 
-   * - .. figure:: /images/cycles_nodes_shader_transparent.jpg
+   * - .. figure:: /images/cycles_nodes_shader_transparent_example.jpg
 
           Transparent Shader (pure white).
 
-     - .. figure:: /images/cycles_nodes_shader_transparentdark.jpg
+     - .. figure:: /images/cycles_nodes_shader_transparent_example_dark.jpg
 
           Transparent Shader (gray)

@@ -32,6 +32,6 @@ AO
 Example
 =======
 
-.. figure:: /images/cycles_nodes_shader_ao.jpg
+.. figure:: /images/cycles_nodes_shader_ao_example.jpg
 
    White AO shader.

@@ -34,6 +34,6 @@ Shader
 Example
 =======
 
-.. figure:: /images/cycles_nodes_shader_mix.jpg
+.. figure:: /images/cycles_nodes_shader_mix_example.jpg
 
    A mix of a glossy and a diffuse shader makes a nice ceramic material.
