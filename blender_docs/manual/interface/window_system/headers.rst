@@ -91,15 +91,14 @@ Sometimes its helpful to gain some extra horizontal space in the header by colla
 this can be accessed from the header context menu,
 simply right click on the header and enable set it to collapsed.
 
+.. list-table::
 
-.. figure:: /images/Header_menu_expand.jpg
-   :width: 359px
+   * - .. figure:: /images/Header_menu_expand.jpg
+          :width: 320px
 
-   Right-click on any of the header menus :menuselection:`Header --> Collapse Menus`.
+          Right-click on any of the header menus.
 
+     - .. figure:: /images/Header_menu_collapsed.jpg
+          :width: 320px
 
-.. figure:: /images/Header_menu_collapsed.jpg
-   :width: 359px
-
-   Access the menu from the collapsed icon.
-
+          Access the menu from the collapsed icon.
