@@ -1,8 +1,3 @@
-.. |addview-button| image:: /images/icons_add.png
-   :width: 1.1em
-.. |deleteview-button| image:: /images/icons_delete.jpg
-   :width: 1.1em
-
 
 *******
 Screens
@@ -64,15 +59,15 @@ Configuring your Screens
 Adding a new Screen Type
 ------------------------
 
-Click on the "Add" button (|addview-button|) and a new frame layout will be
+Click on the "Add" button (``+``) and a new frame layout will be
 created based on your current layout.
 
 
 Deleting a Screen
 -----------------
 
-You can delete a screen by using the *Delete Data-Block* button
-(|deleteview-button|). See *Screen and Scene selectors* above.
+You can delete a screen by using the *Delete Data-Block* button (``X``).
+See *Screen and Scene selectors* above.
 
 
 Rearranging a Screen
