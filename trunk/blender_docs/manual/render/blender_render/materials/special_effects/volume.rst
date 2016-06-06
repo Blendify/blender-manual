@@ -455,7 +455,7 @@ Give it a fiery color ramp- which colors based on the alpha,
 and change the influence to emission and emission color. Change the blend to Multiply.
 
 
-.. figure:: /images/f.jpg
+.. figure:: /images/render_bi_fire_setteings.jpg
    :width: 300px
 
    The fire texture settings.

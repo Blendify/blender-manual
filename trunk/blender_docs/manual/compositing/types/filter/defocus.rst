@@ -81,7 +81,7 @@ Image
 Examples
 ========
 
-.. figure:: /images/Node-Defocus-example.jpg
+.. figure:: /images/compositing_nodes_defocus_example.jpg
    :width: 200px
    :figwidth: 200px
 
