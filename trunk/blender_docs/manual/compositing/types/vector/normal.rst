@@ -1,3 +1,4 @@
+.. Editors Note: This page gets copied into render/cycles/nodes/types/vector/normal
 
 ***********
 Normal Node
@@ -31,4 +32,3 @@ Normal
    Normal vector output.
 Dot
    Dot product output.
-
