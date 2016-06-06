@@ -1,3 +1,4 @@
+.. Editors Note: This page gets copied into render/cycles/nodes/types/input/value
 
 ********
 RGB Node
@@ -25,4 +26,3 @@ Output
 
 RGBA
    A single RGBA color value.
-

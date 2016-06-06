@@ -21,6 +21,12 @@ Normal
    Input meant for plugging in bump or normal maps which will affect the output.
 
 
+Properties
+==========
+
+This node has no properties.
+
+
 Outputs
 =======
 

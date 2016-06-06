@@ -15,6 +15,19 @@ the camera is view in order to achieve different effects.
 .. todo more explanation of what it is and how it works.
    http://blender.stackexchange.com/questions/27764
 
+
+Inputs
+======
+
+This node has no inputs.
+
+
+Properties
+==========
+
+This node has no properties.
+
+
 Outputs
 =======
 

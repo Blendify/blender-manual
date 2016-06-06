@@ -13,30 +13,14 @@ The *Texture Coordinate* node is commonly used for the coordinates of textures,
 typically used as inputs for the *Vector* input for texture nodes.
 
 
-Outputs
-=======
+Inputs
+======
 
-Generated
-   Automatically-generated texture coordinates from the vertex positions of the mesh without deformation,
-   keeping them sticking to the surface under animation. Range from 0.0 to 1.
-   0 over the bounding box of the undeformed mesh.
-Normal
-   Object space normal, for texturing objects with the texture staying fixed on the object as it transformed.
-UV
-   UV texture coordinates from the active render UV map.
-Object
-   Position coordinate in object space.
-Camera
-   Position coordinate in camera space.
-Window
-   Location of shading point on the screen, ranging from 0.0 to 1.
-   0 from the left to right side and bottom to top of the render.
-Reflection
-   Vector in the direction of a sharp reflection, typically used for environment maps.
+This node has no inputs.
 
 
-Options
-=======
+Properties
+==========
 
 Object
    Specific object to use for object space coordinates.
@@ -60,3 +44,25 @@ From Dupli
       *From Dupli* only works with the UV output when the dupli object is instanced from faces,
       either with :doc:`particles </physics/particles/introduction>` or
       :doc:`duplifaces </editors/3dview/transform/duplication/duplifaces>`.
+
+
+Outputs
+=======
+
+Generated
+   Automatically-generated texture coordinates from the vertex positions of the mesh without deformation,
+   keeping them sticking to the surface under animation. Range from 0.0 to 1.
+   0 over the bounding box of the undeformed mesh.
+Normal
+   Object space normal, for texturing objects with the texture staying fixed on the object as it transformed.
+UV
+   UV texture coordinates from the active render UV map.
+Object
+   Position coordinate in object space.
+Camera
+   Position coordinate in camera space.
+Window
+   Location of shading point on the screen, ranging from 0.0 to 1.
+   0 from the left to right side and bottom to top of the render.
+Reflection
+   Vector in the direction of a sharp reflection, typically used for environment maps.

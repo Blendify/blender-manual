@@ -13,6 +13,18 @@ particularly useful for non-physically based tricks. More information about the 
 is in the :doc:`Light Paths </render/cycles/settings/light_paths>` documentation.
 
 
+Inputs
+======
+
+This node has no inputs.
+
+
+Properties
+==========
+
+This node has no properties.
+
+
 Outputs
 =======
 
