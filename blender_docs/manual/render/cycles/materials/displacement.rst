@@ -43,7 +43,7 @@ Subdivision
 
    Implementation not finished yet, marked as an :doc:`experimental feature </render/cycles/features>`.
 
-.. figure:: /images/cycles_manual_materials_displacementbump.jpg
+.. figure:: /images/cycles_materials_displacement_bump.jpg
 
    Bump Mapped Displacement.
 

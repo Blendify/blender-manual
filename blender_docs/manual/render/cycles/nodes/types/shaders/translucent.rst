@@ -41,7 +41,7 @@ Examples
    :align: center
 
 
-.. figure:: /images/cycles_nodes_shader_translucent.jpg
+.. figure:: /images/cycles_nodes_shader_translucent_example.jpg
    :align: center
 
    Translucent Shader

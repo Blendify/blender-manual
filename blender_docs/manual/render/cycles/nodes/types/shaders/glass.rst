@@ -57,5 +57,5 @@ Examples
      - Rough Glass
    * - .. figure:: /images/cycles_nodes_shader_glass_sharp_behavior.png
      - .. figure:: /images/cycles_nodes_shader_glass_behavior.png
-   * - .. figure:: /images/cycles_nodes_shader_glass.jpg
-     - .. figure:: /images/cycles_nodes_shader_glassrough.jpg
+   * - .. figure:: /images/cycles_nodes_shader_glass_example.jpg
+     - .. figure:: /images/cycles_nodes_shader_glass_example_rough.jpg

@@ -46,6 +46,6 @@ BSDF
 Examples
 ========
 
-.. figure:: /images/cycles_nodes_shader_refraction.jpg
+.. figure:: /images/cycles_nodes_shader_refraction_example.jpg
 
    Refraction Shader.

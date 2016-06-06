@@ -49,7 +49,7 @@ Fac
 Examples
 ========
 
-.. figure:: /images/cycles_nodes_tex_brick.jpg
+.. figure:: /images/cycles_nodes_tex_brick_example.jpg
    :width: 200px
 
    Brick texture: Colors changed, Squash 0.62, Squash Frequency 3.

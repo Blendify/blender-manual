@@ -49,6 +49,6 @@ Examples
 
      -
 
-   * - .. figure:: /images/cycles_nodes_shader_diffuse.jpg
+   * - .. figure:: /images/cycles_nodes_shader_diffuse_example.jpg
 
-     - .. figure:: /images/cycles_nodes_shader_oren-nayar.jpg
+     - .. figure:: /images/cycles_nodes_shader_diffuse_example_oren-nayar.jpg

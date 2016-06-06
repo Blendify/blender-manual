@@ -72,7 +72,7 @@ An Orthogonal Fisheye view from 90º to 250º degrees.
 - From 181º to 250º we are using 5 renders.
 
 
-.. figure:: /images/Dev-GameEngine-Dome-Fisheye.jpg
+.. figure:: /images/bge_Dome-Fisheye.jpg
 
    Fisheye Mode.
 
@@ -88,7 +88,7 @@ this mode aligns the fisheye image with the top of the window while touching the
 - From 181º to 250º we are using 5 renders.
 
 
-.. figure:: /images/Dev-GameEngine-Dome-Front-Truncated.jpg
+.. figure:: /images/bge_Dome-Front-Truncated.jpg
 
    Front Truncated Dome Mode.
 
@@ -104,7 +104,7 @@ this mode aligns the fisheye image with the bottom of the window while touching 
 - From 181º to 250º we are using 5 renders.
 
 
-.. figure:: /images/Dev-GameEngine-Dome-Rear-Truncated.jpg
+.. figure:: /images/bge_Dome-Rear-Truncated.jpg
 
    Rear Truncated Dome Mode.
 
@@ -119,7 +119,7 @@ Cube Map mode can be used for pre-generate animated images for CubeMaps.
   - second line: bottom, top, front
 
 
-.. figure:: /images/Dev-GameEngine-Dome-EnvMap.jpg
+.. figure:: /images/bge_Dome-EnvMap.jpg
 
    Environment Map Mode.
 
@@ -133,7 +133,7 @@ A full spherical panoramic mode.
 - The bottom and top start to get precision with *Definition* set to 5 or more.
 
 
-.. figure:: /images/Dev-GameEngine-Dome-Panoramic.jpg
+.. figure:: /images/bge_Dome-Panoramic.jpg
 
    Full Spherical Panoramic Mode.
 
@@ -148,7 +148,7 @@ for VR.
 
 For more information on the mesh format see `Paul Bourke's article <http://paulbourke.net/dataformats/meshwarp/>`__.
 
-.. figure:: /images/Dev-GameEngine-Dome-Warped.jpg
+.. figure:: /images/bge_Dome-Warped.jpg
 
 
 In order to produce that images, we are using a specific file format.

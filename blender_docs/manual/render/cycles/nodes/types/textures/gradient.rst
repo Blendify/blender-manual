@@ -34,7 +34,7 @@ Fac
 Examples
 ========
 
-.. figure:: /images/cycles_nodes_tex_gradient.jpg
+.. figure:: /images/cycles_nodes_tex_gradient_example.jpg
    :width: 200px
 
    Gradient texture using object coordinates.

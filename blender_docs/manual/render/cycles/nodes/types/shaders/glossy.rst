@@ -45,7 +45,7 @@ Examples
 
    * - Sharp Glossy
      - Rough Glossy
-   * - .. figure:: /images/cycles_nodes_shader_glossy_sharp_behavior.png
+   * - .. figure:: /images/cycles_nodes_shader_glossy_behavior_sharp.png
      - .. figure:: /images/cycles_nodes_shader_glossy_behavior.png
-   * - .. figure:: /images/cycles_nodes_shader_glossy.jpg
+   * - .. figure:: /images/cycles_nodes_shader_glossy_example.jpg
      - .. figure:: /images/cycles_nodes_shader_glossyrough.jpg
