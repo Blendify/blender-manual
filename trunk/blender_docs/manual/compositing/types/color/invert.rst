@@ -1,3 +1,4 @@
+.. Editors Note: This page gets copied into render/cycles/nodes/types/color/invert
 
 ***********
 Invert Node
@@ -10,6 +11,7 @@ Invert Node
    Invert Node.
 
 This node inverts the colors in the input image, producing a negative.
+
 
 Input
 =====
@@ -34,4 +36,3 @@ Output
 
 Color
    Standard image output.
-

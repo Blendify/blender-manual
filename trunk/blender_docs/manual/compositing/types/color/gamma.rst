@@ -1,4 +1,4 @@
-..    TODO/Review: {{review|text=The Gamma Node explanation is a mess |copy=X}}.
+.. Editors Note: This page gets copied into render/cycles/nodes/types/color/gamma
 
 **********
 Gamma Node
