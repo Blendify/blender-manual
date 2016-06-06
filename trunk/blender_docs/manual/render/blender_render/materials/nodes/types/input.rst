@@ -238,7 +238,7 @@ Use this node to supply a constant, fixed value to other nodes' value or factor 
 RGB Node
 ========
 
-.. figure:: /images/RGB-Node.jpg
+.. figure:: /images/compositing_nodes_rgb.png
 
    RGB node.
 
