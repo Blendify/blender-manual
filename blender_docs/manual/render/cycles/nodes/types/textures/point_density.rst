@@ -3,17 +3,19 @@
 Point Density
 *************
 
-.. figure:: /images/cycles_nodes_tex_point_density.jpg
-   :width: 200px
-
-   Domain object with Point Density texture using vertices from ball as points.
-
-
 Used to add volumetric points for each particle or vertex of another object.
 
 
-Options
--------
+Inputs
+======
+
+Vector
+   Texture coordinate to sample texture at;
+   defaults to global position (Position output of Geometry node) if the socket is left unconnected.
+
+
+Properties
+==========
 
 Point Data
    Where to get points from.
@@ -79,14 +81,19 @@ Color Source
          Use object-space vertex normals as RGB values.
 
 
-Sockets
--------
+Outputs
+=======
 
-Vector
-   Texture coordinate to sample texture at;
-   defaults to global position (Position output of Geometry node) if the socket is left unconnected.
-
-Color output
+Color
    Texture color output.
-Density output
+Density
    Density of volume.
+
+
+Examples
+========
+
+.. figure:: /images/cycles_nodes_tex_point_density.jpg
+   :width: 200px
+
+   Domain object with Point Density texture using vertices from ball as points.

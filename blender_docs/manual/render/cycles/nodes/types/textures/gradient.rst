@@ -3,21 +3,38 @@
 Gradient Texture
 ****************
 
-.. figure:: /images/cycles_nodes_tex_gradient.jpg
-   :width: 200px
-
-   Gradient texture using object coordinates.
-
-
 A gradient texture.
+
+
+Inputs
+======
+
+Vector
+   Texture coordinate to sample texture at;
+   defaults to Generated texture coordinates if the socket is left unconnected.
+
+
+Properties
+==========
 
 Type
    The gradient can be *Linear*, *Quadratic*, *Easing*, *Diagonal*,
    *Spherical*, *Quadratic Sphere* or *Radial*.
-Vector input
-   Texture coordinate to sample texture at;
-   defaults to Generated texture coordinates if the socket is left unconnected.
-Color output
+
+
+Outputs
+=======
+
+Color
    Texture color output.
-Fac output
+Fac
    Texture intensity output.
+
+
+Examples
+========
+
+.. figure:: /images/cycles_nodes_tex_gradient.jpg
+   :width: 200px
+
+   Gradient texture using object coordinates.

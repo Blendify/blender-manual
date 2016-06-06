@@ -3,13 +3,19 @@
 Image Texture
 *************
 
-.. figure:: /images/cycles_nodes_tex_image.jpg
-   :width: 200px
-
-   Image texture from `GoodTextures.com <https://www.goodtextures.com/>`__.
-
-
 Use an image file as a texture.
+
+
+Inputs
+======
+
+Vector
+   Texture coordinate for texture lookup. If this socket is left unconnected,
+   UV coordinates from the active UV render layer are used.
+
+
+Properties
+==========
 
 Image Data-Block
    Image data-block used as the image source. Currently not all images supported by Blender can be used by Cycles.
@@ -39,11 +45,21 @@ Extension Type
    - *Extend* will extend the image by repeating pixels on it's edges.
    - *Clip* will set all the extended pixels values to transparent black.
 
-Vector input
-   Texture coordinate for texture lookup. If this socket is left unconnected,
-   UV coordinates from the active UV render layer are used.
-Color output
+
+Outputs
+=======
+
+Color
    RGB color from image. If the image has alpha, the color is premultiplied with alpha if the Alpha output is used,
    and unpremultiplied or straight if the Alpha output is not used.
-Alpha output
+Alpha
    Alpha channel from image.
+
+
+Examples
+========
+
+.. figure:: /images/cycles_nodes_tex_image.jpg
+   :width: 200px
+
+   Image texture from `GoodTextures.com <https://www.goodtextures.com/>`__.

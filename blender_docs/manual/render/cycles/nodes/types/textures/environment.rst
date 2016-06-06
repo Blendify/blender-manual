@@ -3,13 +3,19 @@
 Environment Texture
 *******************
 
-.. figure:: /images/cycles_nodes_tex_environment.jpg
-   :width: 200px
-
-   HDR image from `OpenFootage.net <https://www.openfootage.net/?p=986>`__.
-
-
 Environmental textures are used to light your scene using an environment map image file as a texture.
+
+
+Inputs
+======
+
+Vector
+   Texture coordinate for texture lookup. If this socket is left unconnected,
+   the image is mapped as environment with the Z axis as up.
+
+
+Properties
+==========
 
 Image Data-Block
    Image data-block used as the image source.
@@ -37,8 +43,18 @@ Projection Method
    Mirror Ball
       Projection from an orthographic photo or mirror ball.
 
-Vector input
-   Texture coordinate for texture lookup. If this socket is left unconnected,
-   the image is mapped as environment with the Z axis as up.
-Color output
+
+Outputs
+=======
+
+Color
    RGB color from the image.
+
+
+Examples
+========
+
+.. figure:: /images/cycles_nodes_tex_environment.jpg
+   :width: 200px
+
+   HDR image from `OpenFootage.net <https://www.openfootage.net/?p=986>`__.

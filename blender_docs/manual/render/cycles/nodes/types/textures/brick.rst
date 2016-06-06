@@ -3,30 +3,11 @@
 Brick Texture
 *************
 
-.. figure:: /images/cycles_nodes_tex_brick.jpg
-   :width: 200px
-
-   Brick texture: Colors changed, Squash 0.62, Squash Frequency 3.
-
-
 Procedural texture producing Bricks.
 
 
-Options
--------
-
-Offset
-   Determines the brick offset of the various rows.
-Frequency
-   Determines the offset frequency. A value of 2 gives a even/uneven pattern of rows.
-Squash
-   Amount of brick squashing.
-Frequency
-   Brick squashing frequency.
-
-
-Sockets
--------
+Inputs
+======
 
 Color 1/2 and Mortar
    Color of the bricks and mortar.
@@ -42,7 +23,33 @@ Brick Width
 Row Height
    The height of the brick rows.
 
-Color output
+
+Properties
+==========
+
+Offset
+   Determines the brick offset of the various rows.
+Frequency
+   Determines the offset frequency. A value of 2 gives a even/uneven pattern of rows.
+Squash
+   Amount of brick squashing.
+Frequency
+   Brick squashing frequency.
+
+
+Outputs
+=======
+
+Color
    Texture color output.
-Fac output
+Fac
    Mortar mask (1 = mortar).
+
+
+Examples
+========
+
+.. figure:: /images/cycles_nodes_tex_brick.jpg
+   :width: 200px
+
+   Brick texture: Colors changed, Squash 0.62, Squash Frequency 3.
