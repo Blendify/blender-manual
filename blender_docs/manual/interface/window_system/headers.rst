@@ -34,17 +34,11 @@ Showing a header
 A hidden header leaves a little plus sign (see picture). By :kbd:`LMB` this,
 the header will reappear.
 
-Note 1: In the 3D window, there are up to two more of these little plus signs
-(to the top left and right of the window). Those will open panels with several tools,
-not a second header.
+.. note::
 
-
-.. figure:: /images/interface-window_system-headers-show_01.jpg
-
-Note 2: In some windows, the mentioned plus sign can be hard to find,
-because it might look like a part of other icons. One example is the Outliner,
-in which there are other such plus signs,
-thus giving the one to get the header back good camouflage.
+   In the 3D window, there are up to two more of these little plus signs
+   (to the top left and right of the window). Those will open panels with several tools,
+   not a second header.
 
 
 Header position
