@@ -10,14 +10,19 @@ the volume inside the mesh, and displacement of the surface of the mesh.
 
 .. figure:: /images/cycles_material_shaders.png
 
-:doc:`Surface Shader </render/cycles/materials/surface>`
-========================================================
+
+Surface Shader
+==============
 
 The surface shader defines the light interaction at the surface of the mesh.
 
+.. seealso::
 
-:doc:`Volume Shader </render/cycles/materials/volume>`
-======================================================
+   :doc:`Surface Shader </render/cycles/materials/surface>`.
+
+
+Volume Shader
+=============
 
 When the surface shader does not reflect or absorb light, it enters into the volume.
 If no volume shader is specified, it will pass straight through to the other side of the mesh.
@@ -31,9 +36,13 @@ Using both may be useful for materials such as glass, water or ice,
 where you want some of the light to be absorbed as it passes through the surface,
 combined with e.g. a glass or glossy shader at the surface.
 
+.. seealso::
 
-:doc:`Displacement </render/cycles/materials/displacement>`
-===========================================================
+   :doc:`Volume Shader </render/cycles/materials/volume>`.
+
+
+Displacement
+============
 
 The shape of the surface and the volume inside it may be altered by displacement shaders.
 This way, textures can then be used to make the mesh surface more detailed.
@@ -41,6 +50,10 @@ This way, textures can then be used to make the mesh surface more detailed.
 Depending on the settings, the displacement may be virtual,
 only modifying the surface normals to give the impression of displacement,
 which is known as bump mapping, or a combination of real and virtual displacement.
+
+.. seealso::
+
+   :doc:`Displacement </render/cycles/materials/displacement>`.
 
 
 Energy Conservation

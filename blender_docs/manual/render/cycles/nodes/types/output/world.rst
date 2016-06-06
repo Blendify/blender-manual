@@ -8,7 +8,7 @@ Inputs
 
 Surface
    The appearance of the environment,
-   usually preceded by a :doc:`Background </render/cycles/nodes/types/shaders/background.html>` shader.
+   usually preceded by a :doc:`Background </render/cycles/nodes/types/shaders/background>` shader.
 Volume
    Used to add volumetric effects to the world.
    See the :doc:`Volume Absorption </render/cycles/nodes/types/shaders/volume_absorption>`
