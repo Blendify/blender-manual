@@ -1,4 +1,3 @@
-.. _cycles_shader_hair:
 
 ****
 Hair
@@ -6,14 +5,10 @@ Hair
 
 Used to add shading for :doc:`Hair </physics/particles/hair/index>`.
 
-Component
-   There are two components that can be used to control the look of the hair.
-   Usually you are going to want each of these and use a :doc:`Mix Node </render/cycles/nodes/types/shaders/mix>`.
 
-   Reflection
-      The light that bounces off the surface of the hair.
-   Transmission
-      The light that passes through the hair and comes out the other side.
+Inputs
+======
+
 Color
    Color of the hair.
 Offset
@@ -22,3 +17,27 @@ Roughness U/V
    Controls the roughness in the direction light is skewed, and perpendicular to it.
 Tangent
    Input tangent.
+
+
+Properties
+==========
+Component
+   There are two components that can be used to control the look of the hair.
+   Usually you are going to want each of these and use a :doc:`Mix Node </render/cycles/nodes/types/shaders/mix>`.
+
+   Reflection
+      The light that bounces off the surface of the hair.
+   Transmission
+      The light that passes through the hair and comes out the other side.
+
+Outputs
+=======
+
+BSDF
+   Standard shader output.
+
+
+Examples
+========
+
+Todo.

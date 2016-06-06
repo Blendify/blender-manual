@@ -9,20 +9,40 @@ Since the Cycles path tracing integrator is not very good at rendering caustics,
 it helps to combine this with a transparent shader for shadows;
 for :ref:`more details see here <render-cycles-reducing_noise-glass_and_transp_shadows>`
 
+Inputs
+======
+
 Distribution
    Microfacet distribution to use. *Sharp* results in perfectly sharp refractions like clear glass,
    while *Beckmann* and *GGX* can use the *Roughness* input for rough glass.
-Color input
+Color
    Color of the surface, or physically speaking, the probability that light is transmitted for each wavelength.
-Roughness input
+Roughness
    Influences sharpness of the refraction; perfectly sharp at 0.0 and smoother with higher values.
-IOR input
+IOR
    Index of refraction (:term:`IOR`) defining how much the ray changes direction. At 1.
    0 rays pass straight through like transparent; higher values give more refraction.
-Normal input
+Normal
    Normal used for shading; if nothing is connected the default shading normal is used.
-BSDF output
-   Glass :abbr:`BSDF (Bidirectional scattering distribution function)` shader.
+
+
+Properties
+==========
+
+Distribution
+   Microfacet distribution to use. *Sharp* results in perfectly sharp refractions like clear glass,
+   while *Beckmann* and *GGX* can use the *Roughness* input for rough glass.
+
+
+Outputs
+=======
+
+BSDF
+   Standard shader output.
+
+
+Examples
+========
 
 .. list-table::
    :header-rows: 1

@@ -1,4 +1,3 @@
-.. _cycles_shader_ao:
 
 *****************
 Ambient Occlusion
@@ -9,11 +8,23 @@ When AO is enabled in the world, it affects all diffuse BSDFs in the scene.
 With this option it's possible to let only some materials be affected by AO,
 or to let it influence some materials more or less than others.
 
-Color input
-   surface reflection color.
-AO output
-   Ambient Occlusion shader.
 
+Inputs
+======
+
+Color
+   surface reflection color.
+
+
+Outputs
+=======
+
+AO
+   Standard shader output.
+
+
+Example
+=======
 
 .. figure:: /images/cycles_nodes_shader_ao.jpg
 

@@ -7,7 +7,7 @@
    :maxdepth: 1
 
    input/index.rst
-   output.rst
+   output/index.rst
    shaders/index.rst
    textures/index.rst
    color/index.rst

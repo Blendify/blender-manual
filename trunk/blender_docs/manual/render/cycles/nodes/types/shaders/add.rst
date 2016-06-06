@@ -3,17 +3,30 @@
 Add
 ***
 
-Mix or add shaders together. Mixing can be used for material layering,
-where the *Fac* input may, for example, be connected to a Blend Weight node.
+The *Add* node is uses to add to *Shaders* together.
 
-Shader inputs
-   Shaders to mix, such that incoming rays hit either with the specified probability in the *Fac* socket.
-Fac input
-   Blend weight to use for mixing two shaders;
-   at zero it uses the first shader entirely and at one the second shader.
-Shader output
-   Mixed shader.
 
+Inputs
+======
+
+Shaders
+   Standard shader inputs.
+
+Properties
+==========
+
+This node has no properties.
+
+
+Outputs
+=======
+
+Shader
+   Standard shader output.
+
+
+Example
+=======
 
 .. figure:: /images/cycles_nodes_shader_mix.jpg
 
