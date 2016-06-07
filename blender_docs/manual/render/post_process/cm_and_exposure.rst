@@ -1,6 +1,4 @@
-
-..    TODO/Review: {{review|partial=X|im=needs images}} .
-
+..    TODO/Review: {{review|partial=X|im=needs images}}.
 
 ****************
 Color Management
@@ -13,7 +11,7 @@ Color Management
    Different views and exposures of the same render.
 
 
-`OpenColorIO <https://opencolorio.org/>`__ is integrated into Blender,
+`OpenColorIO <http://opencolorio.org/>`__ is integrated into Blender,
 meaning many color spaces are supported with fine control over which color transformations are used.
 
 
@@ -186,11 +184,11 @@ The reference linear color space used is the linear color space with Rec.
 709 chromaticities and D65 white point.
 
 However OpenColorIO was also designed to give a consistent user experience across
-`multiple applications <https://opencolorio.org/CompatibleSoftware.html>`__,
+`multiple applications <http://opencolorio.org/CompatibleSoftware.html>`__,
 and for this a single shared configuration file can be used. Blender will use the standard
 OCIO environment variable to read an OpenColorIO configuration other than the default Blender
 one. More information about how to set up such a workflow can be found on the
-`OpenColorIO website <https://opencolorio.org/>`__.
+`OpenColorIO website <http://opencolorio.org/>`__.
 
 We currently use the following color space roles:
 
@@ -204,21 +202,12 @@ default_float
    default color space for float precision images and files, *scene_linear* if not specified.
 
 The standard Blender configuration also includes some support for
-`ACES <https://www.oscars.org/science-technology/council/projects/aces.html>`__
+`ACES < https://www.oscars.org/science-technology/sci-tech-projects/aces>`__
 (`code and documentation <https://github.com/ampas/aces-dev>`__),
 even though we have a different linear color space.
 It's possible to load and save EXR files with the Linear ACES color space,
 and the RRT view transform can be used to view images with their standard display transform.
 However the ACES gamut is larger than the Rec. 709 gamut,
 so for best results an ACES specific configuration file should be used.
-OpenColorIO provides an `ACES configuration <https://opencolorio.org/configurations/index.html>`__,
+OpenColorIO provides an `ACES configuration <http://opencolorio.org/configurations/index.html>`__,
 though it may need a few more tweaks to be usable in production.
-
-
-Compatibility
-=============
-
-Compatibility with existing files should mostly be preserved.
-Files that had color management enabled should be entirely compatible, while older files with
-the color management option disabled are mostly compatible but different for vertex colors and
-viewport colors.
