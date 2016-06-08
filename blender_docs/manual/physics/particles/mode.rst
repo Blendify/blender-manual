@@ -49,7 +49,7 @@ Setup for Hair Particles
    Editing hair strands in Particle Mode.
 
 
-.. figure:: /images/Animated_editing_particles_in_particle_mode.gif
+.. figure:: /images/physics_particle_mode_example.gif
 
    Editing a baked particle simulation's particle paths in Particle Mode.
 

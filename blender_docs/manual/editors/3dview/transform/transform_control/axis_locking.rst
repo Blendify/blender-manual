@@ -3,7 +3,7 @@
 Axis Locking
 ************
 
-.. figure:: /images/3D_interaction-Transform_Control-Axis_locking-axis-locking.jpg
+.. figure:: /images/editors_3dview_Transform_Control-Axis_locking-axis-locking.jpg
    :width: 150px
 
    Axis locking.
@@ -54,7 +54,7 @@ Plane locking
    | after moving the mouse in the desired direction.
 
 
-.. figure:: /images/3D_interaction-Transform_Control-Axis_locking-plane-locking.jpg
+.. figure:: /images/editors_3dview_Transform_Control-Axis_locking-plane-locking.jpg
    :width: 150px
 
    Plane locking.
@@ -73,7 +73,7 @@ always constrained around one axis.
 Axis locking modes
 ------------------
 
-.. figure:: /images/3D_interaction-Transform_Control-Axis_locking-locking-modes.jpg
+.. figure:: /images/editors_3dview_Transform_Control-Axis_locking-locking-modes.jpg
    :width: 340px
 
    Axis locking modes.

@@ -90,7 +90,7 @@ Rotating the View
    | Hotkey:   :kbd:`MMB`, :kbd:`Numpad2`, :kbd:`Numpad4`, :kbd:`Numpad6`, 
       :kbd:`Numpad8`, :kbd:`Ctrl-Alt-Wheel`
 
-.. figure:: /images/3DView.jpg
+.. figure:: /images/editors_3dview_nav_views.jpg
    :width: 300px
 
    A 3D viewport's View menu.
@@ -254,7 +254,7 @@ View All :kbd:`Home`
 Local View
 ==========
 
-.. figure:: /images/3Dinteraction-Navigating-Global-Local-global-local.jpg
+.. figure:: /images/editors_3dview_Navigating-Global-Local-global-local.jpg
 
    With/Without *Local View*.
 
@@ -301,7 +301,7 @@ Quad View
    | Hotkey:   :kbd:`Ctrl-Alt-Q`
 
 
-.. figure:: /images/3D_Interaction-Navigating-3D_view-Quad_View.jpg
+.. figure:: /images/editors_3dview_Navigating-3D_view-Quad_View.jpg
    :width: 340px
 
    Quad View.
@@ -333,7 +333,7 @@ View Clipping Border
    | Menu:     :menuselection:`View --> Set Clipping Border`
    | Hotkey:   :kbd:`Alt-B`
 
-.. figure:: /images/3D_Interaction-Navigating-3D_view-Region_Clipping.jpg
+.. figure:: /images/editors_3dview_Navigating-3D_view-Region_Clipping.jpg
    :width: 340px
 
    Region/Volume clipping.
@@ -391,7 +391,7 @@ try to navigate to a very distant object in the view with traditional methods
 With walk/fly modes you move, pan, tilt, and dolly the camera around without any of those limitations.
 
 
-.. figure:: /images/3D_Interaction-Navigating-3D_view-Navigation_Mode.jpg
+.. figure:: /images/editors_3dview_Navigating-3D_view-Navigation_Mode.jpg
    :width: 173px
 
    View Navigation.

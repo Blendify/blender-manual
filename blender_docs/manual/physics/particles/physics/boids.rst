@@ -3,7 +3,7 @@
 Boids
 *****
 
-.. figure:: /images/Boids.jpg
+.. figure:: /images/physics_Boids.jpg
 
    Boid Physics Settings.
 

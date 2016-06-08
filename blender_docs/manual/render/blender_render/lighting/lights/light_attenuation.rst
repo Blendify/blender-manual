@@ -348,15 +348,15 @@ more and more objects become progressively brighter.
 .. list-table::
    Various *Distance* settings (shadows disabled).
 
-   * - .. figure:: /images/LampRender-Distance10.jpg
+   * - .. figure:: /images/bi_LampRender-Distance10.jpg
 
           Distance: 10.
 
-     - .. figure:: /images/LampRender-Distance100.jpg
+     - .. figure:: /images/bi_LampRender-Distance100.jpg
 
           Distance: 100.
 
-     - .. figure:: /images/LampRender-Distance1000.jpg
+     - .. figure:: /images/bi_LampRender-Distance1000.jpg
 
           Distance: 1000.
 
@@ -396,15 +396,15 @@ We can see this in the Fig. Inverse Square selected images.
 .. list-table::
    Inverse Square selected (with the specified distances).
 
-   * - .. figure:: /images/LampRender-Quad10.jpg
+   * - .. figure:: /images/bi_LampRender-Quad10.jpg
 
           Inverse Square with 10.
 
-     - .. figure:: /images/LampRender-Quad100.jpg
+     - .. figure:: /images/bi_LampRender-Quad100.jpg
 
           Inverse Square with 100.
 
-     - .. figure:: /images/LampRender-Quad1000.jpg
+     - .. figure:: /images/bi_LampRender-Quad1000.jpg
 
           Inverse Square with 1000.
 
@@ -451,15 +451,15 @@ the light attenuation is progressive
 .. list-table::
    Sphere enabled with the specified distances, Inverse Linear light falloff.
 
-   * - .. figure:: /images/LampRender-Sphere10.jpg
+   * - .. figure:: /images/bi_LampRender-Sphere10.jpg
 
           Sphere with 10.
 
-     - .. figure:: /images/LampRender-Sphere20.jpg
+     - .. figure:: /images/bi_LampRender-Sphere20.jpg
 
           Sphere with 20.
 
-     - .. figure:: /images/LampRender-Sphere40.jpg
+     - .. figure:: /images/bi_LampRender-Sphere40.jpg
 
           Sphere with 40.
 

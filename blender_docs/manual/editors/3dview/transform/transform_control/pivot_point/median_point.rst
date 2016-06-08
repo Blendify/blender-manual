@@ -29,7 +29,7 @@ you can see that the median point is between the Object centers and can be nowhe
 Objects' mesh.
 
 
-.. figure:: /images/3D_interaction-Transform_control-Pivot_point-Median_point-median-point-objects.jpg
+.. figure:: /images/editors_3dview_Transform_control-Pivot_point-Median_point-median-point-objects.jpg
    :width: 640px
 
    Median points in Object Mode. The Median point is indicated by the yellow dot.
@@ -47,7 +47,7 @@ if we subdivide one cube multiple times so that it has many more vertices,
 you can see that the median point has shifted to the region with the most vertices.
 
 
-.. figure:: /images/3D_interaction-Transform_control-Pivot_point-Median_point-median-point-vertices.jpg
+.. figure:: /images/editors_3dview_Transform_control-Pivot_point-Median_point-median-point-vertices.jpg
    :width: 640px
 
    Median points in Edit Mode. The Median point is indicated by the yellow dot.

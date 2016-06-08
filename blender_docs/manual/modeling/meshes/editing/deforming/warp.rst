@@ -30,7 +30,7 @@ the Pivot Point is not taken into account and the results are view dependent.
 Usage
 =====
 
-.. figure:: /images/3D-interaction_Transformation_Advanced_Warp_warp-mesh.jpg
+.. figure:: /images/editors_3dview_Transformation_Advanced_Warp_warp-mesh.jpg
    :width: 350px
 
    In this example, a plane is warped around the 3D cursor by the indicated number of degrees.
@@ -60,7 +60,7 @@ example in this section shows the results of a 180 degree *Warp* transform appli
 to the same Suzanne mesh when in different views. A 3D render is also provided for comparison.
 
 
-.. figure:: /images/3D-interaction_Transformation_Advanced_Warp_warp-cursor-view.jpg
+.. figure:: /images/editors_3dview_Transformation_Advanced_Warp_warp-cursor-view.jpg
    :width: 500px
 
    The left side of this image shows how the Warp transform is influenced by the location of the cursor.
@@ -76,7 +76,7 @@ to the same Suzanne mesh when in different views. A 3D render is also provided f
 Example
 =======
 
-.. figure:: /images/3D-interaction_Transformation_Advanced_Warp_warp-text.jpg
+.. figure:: /images/editors_3dview_Transformation_Advanced_Warp_warp-text.jpg
 
    Text wrapped around logo. This was made by creating the Blender logo and text as separate Objects.
    The text was converted to a mesh and then warped around the Blender logo.

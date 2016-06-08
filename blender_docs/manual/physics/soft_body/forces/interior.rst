@@ -3,7 +3,7 @@
 Interior
 ********
 
-.. figure:: /images/Bsod-softbody-theory1.jpg
+.. figure:: /images/physics_Bsod-softbody-theory1.jpg
    :width: 200px
 
    Image 1a: Vertices and forces along their connection edges.
@@ -22,7 +22,7 @@ additional edges between the vertices. This works pretty well,
 but would change your mesh topology drastically.
 
 
-.. figure:: /images/Bsod-softbody-theory2.jpg
+.. figure:: /images/physics_Bsod-softbody-theory2.jpg
    :width: 200px
 
    Image 1b: Additional forces with Stiff Quads enabled.

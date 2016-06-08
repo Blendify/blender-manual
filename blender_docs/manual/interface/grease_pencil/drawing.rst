@@ -94,7 +94,7 @@ Volumetric Strokes
 Drawing Settings
 ================
 
-.. figure:: /images/3D-interaction_Sketching_Drawing_grease-pencil-drawing-settings-panel.jpg
+.. figure:: /images/editors_3dview_Sketching_Drawing_grease-pencil-drawing-settings-panel.jpg
 
    Grease Pencil Drawing Settings.
 
@@ -120,7 +120,7 @@ endpoints of the stroke. The part of the stroke between the endpoints is adjuste
 plane passing through the endpoints.
 
 
-.. figure:: /images/3D-interaction_Sketching_Drawing_grease-pencil-drawing-settings.jpg
+.. figure:: /images/editors_3dview_Sketching_Drawing_grease-pencil-drawing-settings.jpg
    :width: 500px
 
    The effect of different Drawing Settings on Grease Pencil strokes.

@@ -46,7 +46,7 @@ transformation is available by toggling the magnet icon (which will turn red)
 in the 3D view's header buttons.
 
 
-.. figure:: /images/3D-interaction_Transform-Control_Snap-magnet-header.jpg
+.. figure:: /images/editors_3dview_Transform-Control_Snap-magnet-header.jpg
 
    Magnet icon in the 3D view header (red when enabled).
 
@@ -56,7 +56,7 @@ in the 3D view's header buttons.
 Snap Element
 ============
 
-.. figure:: /images/3D-interaction_Transform-Control_Snap-snap-element.jpg
+.. figure:: /images/editors_3dview_Transform-Control_Snap-snap-element.jpg
 
    Snap Element menu.
 
@@ -102,15 +102,15 @@ Closest
 
 .. list-table::
 
-   * - .. figure:: /images/3D-interaction_Transform-Control_Snap-snap-closest.jpg
+   * - .. figure:: /images/editors_3dview_Transform-Control_Snap-snap-closest.jpg
 
           Closest.
 
-     - .. figure:: /images/3D-interaction_Transform-Control_Snap-snap-active.jpg
+     - .. figure:: /images/editors_3dview_Transform-Control_Snap-snap-active.jpg
 
           Active.
 
-     - .. figure:: /images/3D-interaction_Transform-Control_Snap-snap-median.jpg
+     - .. figure:: /images/editors_3dview_Transform-Control_Snap-snap-median.jpg
 
           Median.
 
@@ -120,11 +120,11 @@ Additional Snap Options
 
 .. list-table::
 
-   * - .. figure:: /images/3D-interaction_Transform-Control_Snap-snap-options-object-mode.jpg
+   * - .. figure:: /images/editors_3dview_Transform-Control_Snap-snap-options-object-mode.jpg
 
           Object Mode.
 
-     - .. figure:: /images/3D-interaction_Transform-Control_Snap-snap-options-edit-mode.jpg
+     - .. figure:: /images/editors_3dview_Transform-Control_Snap-snap-options-edit-mode.jpg
 
           Edit Mode.
 
@@ -153,7 +153,7 @@ additional controls are available to alter snap behaviour. These options vary be
 Multiple Snap Targets
 ---------------------
 
-.. figure:: /images/3D-interaction_Transform-Control_Snap_Multiple_Snap_Target.jpg
+.. figure:: /images/editors_3dview_Transform-Control_Snap_Multiple_Snap_Target.jpg
 
    Multiple snapping targets.
 
