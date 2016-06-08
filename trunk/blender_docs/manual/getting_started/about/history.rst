@@ -63,14 +63,6 @@ Blender development continues to this day driven by a team of dedicated voluntee
 world led by Blender's original creator, Ton Roosendaal.
 
 
-Video: From Blender 1.60 to 2.50
-================================
-
-.. vimeo:: 8567074
-   :width: 640
-   :height: 360
-
-
 Version/Revision Milestones
 ===========================
 
@@ -170,6 +162,12 @@ This series released four `pre-version <https://archive.blender.org/development/
 to 2.59 - August 2011). It is one of the most important development projects, with a total refactor of
 the software with new functions, redesign of the internal window manager and event/tool/data handling system,
 and new Python API. The final version of this project was Blender 2.59 in August 2011.
+
+.. rubric:: Video: From Blender 1.60 to 2.50
+
+.. vimeo:: 8567074
+   :width: 640
+   :height: 360
 
 
 Blender 2.6x to 2.7x - Improvements & Stabalizing
