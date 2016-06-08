@@ -57,4 +57,4 @@ Examples
 .. figure:: /images/cycles_nodes_tex_environment_example.jpg
    :width: 200px
 
-   HDR image from `OpenFootage.net <https://www.openfootage.net/?p=986>`__.
+   HDR image from `OpenFootage.net <http://www.openfootage.net/?p=986>`__.

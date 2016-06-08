@@ -112,7 +112,7 @@ Autosplit Output
    A higher number generally leads to a smaller file but needs a higher-powered device to replay it.
 
 Mux
-   `Multiplexing <https://www.afterdawn.com/glossary/term.cfm/multiplexing>`__ settings.
+   `Multiplexing <http://www.afterdawn.com/glossary/term.cfm/multiplexing>`__ settings.
 
    Rate
       Maximum bit rate of the multiplexed stream.

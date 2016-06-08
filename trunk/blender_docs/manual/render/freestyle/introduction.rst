@@ -22,7 +22,7 @@ with the introduction of line style modifiers, the sky is the limit!
 .. figure:: /images/render-freestyle-Demo-OHACartoon.jpg
    :width: 600px
 
-   A cartoon scene from `OHA Studio <https://oha-studios.com/>`__
+   A cartoon scene from `OHA Studio <http://oha-studios.com/>`__
    (`the blend-file <https://download.blender.org/demo/test/freestyle_demo_file.blend.zip>`__).
    © Mechanimotion Entertainment.
 
