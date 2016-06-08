@@ -81,7 +81,7 @@ default_float
    default color space for float precision images and files, *scene_linear* if not specified.
 
 The standard Blender configuration also includes some support for
-`ACES < https://www.oscars.org/science-technology/sci-tech-projects/aces>`__
+`ACES <https://www.oscars.org/science-technology/sci-tech-projects/aces>`__
 (`code and documentation <https://github.com/ampas/aces-dev>`__),
 even though we have a different linear color space.
 It's possible to load and save EXR files with the Linear ACES color space,
