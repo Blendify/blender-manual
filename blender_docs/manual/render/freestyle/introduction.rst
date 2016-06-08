@@ -67,7 +67,7 @@ The Big Picture
   thickness and other aspects.
 
 
-.. figure:: /images/Freestyle_Block_Diagram.jpg
+.. figure:: /images/freestyle_diagram.jpg
    :width: 400px
 
    block diagram of Freestyle view map and processes.
