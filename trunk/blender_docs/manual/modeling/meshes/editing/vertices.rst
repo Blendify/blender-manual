@@ -265,17 +265,17 @@ This tool can be used on many faces at once.
 
 .. list-table::
 
-   * - .. figure:: /images/vertexConnect-before.jpg
+   * - .. figure:: /images/modeling_vertexConnect-before.jpg
           :width: 180px
 
           Vertices before connecting.
 
-     - .. figure:: /images/vertexConnect-after.jpg
+     - .. figure:: /images/modeling_vertexConnect-after.jpg
           :width: 180px
 
           After connecting vertices.
 
-     - .. figure:: /images/vertexConnect-after-faces.jpg
+     - .. figure:: /images/modeling_vertexConnect-after-faces.jpg
           :width: 180px
 
           Resulting face pair.
@@ -317,17 +317,17 @@ then :kbd:`LMB` again to move the vertex.
 
 .. list-table::
 
-   * - .. figure:: /images/VertexSlide1.jpg
+   * - .. figure:: /images/modeling_VertexSlide1.jpg
           :width: 200px
 
           Selected vertex.
 
-     - .. figure:: /images/VertexSlide2.jpg
+     - .. figure:: /images/modeling_VertexSlide2.jpg
           :width: 200px
 
           Positioning vertex interactively.
 
-     - .. figure:: /images/VertexSlide3.jpg
+     - .. figure:: /images/modeling_VertexSlide3.jpg
           :width: 200px
 
           Repositioned vertex.

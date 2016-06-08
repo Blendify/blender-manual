@@ -13,7 +13,7 @@ Volume rendering is a method for rendering light as it passes through participat
 within a 3d region. The implementation in Blender a physically based model,
 which represents the various interactions of light in a volume relatively realistically.
 
-.. figure:: /images/Volumerendering-volume_eq.jpg
+.. figure:: /images/bi_Volumerendering-volume_eq.jpg
 
    Volume rendering.
 
@@ -38,7 +38,7 @@ Options
 Density
 -------
 
-.. figure:: /images/Volumerendering-density.jpg
+.. figure:: /images/bi_Volumerendering-density.jpg
 
    Constant density vs textured density.
 
@@ -61,7 +61,7 @@ Density Scale
 Shading
 -------
 
-.. figure:: /images/Volumerendering-scattering1.jpg
+.. figure:: /images/bi_Volumerendering-scattering1.jpg
 
    Spot lamp scattering in a constant volume.
 
@@ -89,22 +89,22 @@ the more easily it penetrates throughout the volume and to the shadow.
 
 .. list-table::
 
-   * - .. figure:: /images/volume-rendering-scatter-Sc0_5.jpg
+   * - .. figure:: /images/bi_volume-rendering-scatter-Sc0_5.jpg
           :width: 150px
 
           Scattering: 0.5.
 
-     - .. figure:: /images/volume-rendering-scatter-Sc1_0.jpg
+     - .. figure:: /images/bi_volume-rendering-scatter-Sc1_0.jpg
           :width: 150px
 
           Scattering: 1.0.
 
-     - .. figure:: /images/volume-rendering-scatter-Sc2_0.jpg
+     - .. figure:: /images/bi_volume-rendering-scatter-Sc2_0.jpg
           :width: 150px
 
           Scattering: 2.0.
 
-     - .. figure:: /images/volume-rendering-scatter-Sc5_0.jpg
+     - .. figure:: /images/bi_volume-rendering-scatter-Sc5_0.jpg
           :width: 150px
 
           Scattering: 5.0.
@@ -113,7 +113,7 @@ the more easily it penetrates throughout the volume and to the shadow.
 Asymmetry
 ---------
 
-.. figure:: /images/Volumerendering-phase_diagram.jpg
+.. figure:: /images/bi_Volumerendering-phase_diagram.jpg
    :width: 300px
 
    Isotropic and Anisotropic scattering.
@@ -153,22 +153,22 @@ there is less available to be transmitted through.
 
 .. list-table::
 
-   * - .. figure:: /images/volume-rendering-tr_y-sc0_5.jpg
+   * - .. figure:: /images/bi_volume-rendering-tr_y-sc0_5.jpg
           :width: 150px
 
           Transmission color: Yellow, Scattering: 0.5.
 
-     - .. figure:: /images/volume-rendering-tr_y-sc1_0.jpg
+     - .. figure:: /images/bi_volume-rendering-tr_y-sc1_0.jpg
           :width: 150px
 
           Transmission color: Yellow, Scattering: 1.0.
 
-     - .. figure:: /images/volume-rendering-tr_y-sc2_0.jpg
+     - .. figure:: /images/bi_volume-rendering-tr_y-sc2_0.jpg
           :width: 150px
 
           Transmission color: Yellow, Scattering: 2.0.
 
-     - .. figure:: /images/volume-rendering-tr_y-sc5_0.jpg
+     - .. figure:: /images/bi_volume-rendering-tr_y-sc5_0.jpg
           :width: 150px
 
           Transmission color: Yellow, Scattering: 5.0.
@@ -192,22 +192,22 @@ Emission
 
 .. list-table::
 
-   * - .. figure:: /images/volume-rendering-emission-0_25-sc0_5.jpg
+   * - .. figure:: /images/bi_volume-rendering-emission-0_25-sc0_5.jpg
           :width: 150px
 
           Emission 0.25, Scattering: 0.5.
 
-     - .. figure:: /images/volume-rendering-emission-0_25-sc1_0.jpg
+     - .. figure:: /images/bi_volume-rendering-emission-0_25-sc1_0.jpg
           :width: 150px
 
           Emission 0.25, Scattering: 1.0.
 
-     - .. figure:: /images/volume-rendering-emission-0_25-sc2_0.jpg
+     - .. figure:: /images/bi_volume-rendering-emission-0_25-sc2_0.jpg
           :width: 150px
 
           Emission 0.25, Scattering: 2.0.
 
-     - .. figure:: /images/volume-rendering-emission-0_25-sc5_0.jpg
+     - .. figure:: /images/bi_volume-rendering-emission-0_25-sc5_0.jpg
           :width: 150px
 
           Emission 0.25, Scattering: 5.0.
@@ -248,22 +248,22 @@ Of course you can always break the rules too!
 
 .. list-table::
 
-   * - .. figure:: /images/volume-rendering-reflection-sc0_5.jpg
+   * - .. figure:: /images/bi_volume-rendering-reflection-sc0_5.jpg
           :width: 150px
 
           Reflection: Green, Scattering: 0.5.
 
-     - .. figure:: /images/volume-rendering-reflection-sc1_0.jpg
+     - .. figure:: /images/bi_volume-rendering-reflection-sc1_0.jpg
           :width: 150px
 
           Reflection: Green, Scattering: 1.0.
 
-     - .. figure:: /images/volume-rendering-reflection-sc2_0.jpg
+     - .. figure:: /images/bi_volume-rendering-reflection-sc2_0.jpg
           :width: 150px
 
           Reflection: Green, Scattering: 2.0.
 
-     - .. figure:: /images/volume-rendering-reflection-sc5_0.jpg
+     - .. figure:: /images/bi_volume-rendering-reflection-sc5_0.jpg
           :width: 150px
 
           Reflection: Green, Scattering: 5.0.
@@ -271,22 +271,22 @@ Of course you can always break the rules too!
 
 .. list-table::
 
-   * - .. figure:: /images/volume-rendering-refl_g-tr_y-sc0_5.jpg
+   * - .. figure:: /images/bi_volume-rendering-refl_g-tr_y-sc0_5.jpg
           :width: 150px
 
           Reflection: Green, Transmission: Yellow, Scattering: 0.5.
 
-     - .. figure:: /images/volume-rendering-refl_g-tr_y-sc1_0.jpg
+     - .. figure:: /images/bi_volume-rendering-refl_g-tr_y-sc1_0.jpg
           :width: 150px
 
           Reflection: Green, Transmission: Yellow, Scattering: 1.0.
 
-     - .. figure:: /images/volume-rendering-refl_g-tr_y-sc2_0.jpg
+     - .. figure:: /images/bi_volume-rendering-refl_g-tr_y-sc2_0.jpg
           :width: 150px
 
           Reflection: Green, Transmission: Yellow, Scattering: 2.0.
 
-     - .. figure:: /images/volume-rendering-refl_g-tr_y-sc5_0.jpg
+     - .. figure:: /images/bi_volume-rendering-refl_g-tr_y-sc5_0.jpg
           :width: 150px
 
           Reflection: Green, Transmission: Yellow, Scattering: 5.0.
@@ -417,7 +417,7 @@ In addition, Smoke requires its own texture,
 you can use a volumetric texture known as :doc:`Voxel Data </render/blender_render/textures/types/volume/index>`.
 You must remember to set the domain object and change the influence.
 
-.. figure:: /images/render-bi-fire.jpg
+.. figure:: /images/bi_fire.jpg
 
    The texture settings.
 

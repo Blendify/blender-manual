@@ -8,13 +8,13 @@ The ruler can be accessed from the toolshelf,
 once activated you can use the ruler to measure lengths and angles in the scene.
 
 
-.. figure:: /images/View3d_ruler_example.jpg
+.. figure:: /images/editors_3dview_ruler_example.jpg
    :width: 500px
 
    Example of the ruler and protractor.
 
 
-.. figure:: /images/View3d_ruler_thickness.jpg
+.. figure:: /images/editors_3dview_ruler_thickness.jpg
    :width: 592px
 
    Example using the ruler to measure thickness.
@@ -23,7 +23,7 @@ once activated you can use the ruler to measure lengths and angles in the scene.
 Usage
 =====
 
-.. figure:: /images/View3d_ruler_basic.jpg
+.. figure:: /images/editors_3dview_ruler_basic.jpg
 
 Here are common steps for using the ruler.
 

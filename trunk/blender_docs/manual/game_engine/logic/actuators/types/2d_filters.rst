@@ -47,7 +47,7 @@ Motion Blur
 Below you can see *Motion Blur* filter in Blender window, along with its logic bricks:
 
 
-.. figure:: /images/Motionblur_render-full.jpg
+.. figure:: /images/bge_Motionblur_render-full.jpg
 
    2D Filters: Motion Blur.
 
@@ -74,7 +74,7 @@ all built-in filters use fragment shader to produce final render view,
 so your hardware must support shaders.
 
 
-.. figure:: /images/Motionblur_render-full.jpg
+.. figure:: /images/bge_Motionblur_render-full.jpg
    :width: 200px
 
    2D Filters: Motion Blur.
@@ -86,7 +86,7 @@ so your hardware must support shaders.
    2D Filters: Sepia.
 
 
-.. figure:: /images/Sobel_render-full.jpg
+.. figure:: /images/bge_Sobel_render-full.jpg
    :width: 200px
 
    2D Filters: Sobel.
