@@ -1,4 +1,5 @@
 .. Editors Note: This page gets copied into render/cycles/nodes/types/input/value
+.. Editors Note: This page gets copied into render/blender_render/materials/nodes/input/value
 
 **********
 Value Node
