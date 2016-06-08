@@ -49,7 +49,7 @@ Since restarting a company with a sufficiently large team of developers wasn't f
 Ton Roosendaal founded the non-profit organization Blender Foundation in March 2002.
 
 The Blender Foundation's primary goal was to find a way to continue developing and promoting
-Blender as a community-based `open source <http://www.opensource.org/>`__ project. In July 2002,
+Blender as a community-based `open source <https://opensource.org/>`__ project. In July 2002,
 Ton managed to get the NaN investors to agree to a unique Blender Foundation plan to attempt
 to release Blender as open source. The "Free Blender" campaign sought to raise €100,000 so
 that the Foundation could buy the rights to the Blender source code and intellectual property

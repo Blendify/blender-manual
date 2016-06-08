@@ -666,7 +666,7 @@ Filter
             Number of probes to use. An integer between 1 and 256.
             Further reading: McCormack, J; Farkas, KI; Perry, R; Jouppi, NP (1999)
             `Simple and Table Feline: Fast Elliptical Lines for Anisotropic Texture Mapping
-            <https://www.hpl.hp.com/techreports/Compaq-DEC/WRL-99-1.pdf>`__,
+            <http://www.hpl.hp.com/techreports/Compaq-DEC/WRL-99-1.pdf>`__,
             WRL
       Area
          Area filter to use for image sampling
