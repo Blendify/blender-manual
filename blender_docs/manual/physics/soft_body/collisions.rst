@@ -61,11 +61,11 @@ Calculating Collisions
 
 .. list-table::
 
-   * - .. figure:: /images/VertexPlaneCollision.gif
+   * - .. figure:: /images/physics_VertexPlaneCollision.gif
 
           Image 3a: Visualization of the collision of a Soft Body vertex with a plane.
 
-     - .. figure:: /images/VertexPlaneCollision2.gif
+     - .. figure:: /images/physics_VertexPlaneCollision2.gif
 
           Image 3b: Six Soft Body vertices with different speed.
           `Blend file <https://wiki.blender.org/index.php/Media:CollidingVertices.blend>`__

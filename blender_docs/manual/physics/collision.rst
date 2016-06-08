@@ -55,7 +55,7 @@ Random friction
    Random variation of friction.
 
 
-.. figure:: /images/VertexPlaneCollision.gif
+.. figure:: /images/physics_VertexPlaneCollision.gif
 
    Image 1b: A softbody vertex colliding with a plane.
 

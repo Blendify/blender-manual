@@ -56,7 +56,7 @@ Blender textures are still used, but this will change in the future.
 Painting & UV Editing
 =====================
 
-.. figure:: /images/Cycles_active_texture.jpg
+.. figure:: /images/cycles_texture_active.jpg
    :width: 225px
    :align: right
 
