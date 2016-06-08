@@ -62,4 +62,4 @@ Examples
 .. figure:: /images/cycles_nodes_tex_image_example.jpg
    :width: 200px
 
-   Image texture from `GoodTextures.com <https://www.goodtextures.com/>`__.
+   Image texture from `GoodTextures.com <http://www.goodtextures.com/>`__.

@@ -257,8 +257,7 @@ Crease Angle
    <https://wiki.blender.org/uploads/b/b4/Render_freestyle_modifier_crease_angle.blend>`__
 
 A modifier based on the Crease Angle (angle between two adjacent faces).
-If a stroke segment doesn't lie on a crease (i.e., the edge doesn't have the `Crease Angle nature
-<https://www.blender.org/api/blender_python_api_current/freestyle.types.html#freestyle.types.Nature>`__),
+If a stroke segment doesn't lie on a crease (i.e., the edge doesn't have the *Crease Angle nature*,
 its thickness value is not touched by this modifier.
 
 .. figure:: /images/render-freestyle_ui_thickness_crease_angle.png

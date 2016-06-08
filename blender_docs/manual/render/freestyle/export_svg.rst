@@ -1,3 +1,4 @@
+.. todo move to wiki?
 
 **********************
 Freestyle SVG Exporter
@@ -10,7 +11,7 @@ SVG exporting for Freestyle is available through an add-on.
    :align: center
 
    An example of a .svg result produced by the Freestyle SVG Exporter.
-   Model by `Blendergoodies <https://www.blendswap.com/blends/view/76715>`__
+   Model by `Blendergoodies <http://www.blendswap.com/blends/view/76715>`__
 
 This add-on can be enabled via :menuselection:`User Preferences --> Add-ons --> Render --> Freestyle SVG Exporter`.
 The GUI for the exporter should now be visible in the render tab of the properties window.
