@@ -10,3 +10,4 @@
    display.rst
    output.rst
    video.rst
+   metadata.rst
