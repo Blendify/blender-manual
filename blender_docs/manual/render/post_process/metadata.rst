@@ -5,32 +5,6 @@ Metadata
 
 The *Metadata* panel includes options for writing meta-data into render output.
 
-Stamping can include the following data:
-
-Time
-   Include the current scene time and render frame as ``HH:MM:SS.FF``
-Date
-   Include the current date and time.
-RenderTime
-   Include the render time in the stamp image.
-Frame
-   Include the frame number.
-Scene
-   Include the name of the active scene.
-Camera
-   Include the name of the active camera.
-Lens
-   Include the name of the active camera's lens value.
-Filename
-   Include the filename of the blend-file.
-Marker
-   Include the name of the last marker.
-Seq. Strip
-   Include the name of the foreground sequence strip.
-Note
-   Include a custom note.
-
-
 .. note::
 
    Only some image formats support metadata:
@@ -38,8 +12,7 @@ Note
 
 
 Stamp Output
-   You can optionally stamp this into the image its self (adding text over the rendered image)
-   which can be useful for test renders and animation previews.
+   Add metadata has text to the render.
 
    Stamp Text Color
       Set the color and alpha of the stamp text.
@@ -49,13 +22,47 @@ Stamp Output
       Set the size of the text.
 
 
-.. hint::
+Stamping can include the following data:
 
-   It can be useful to use the *Note* field if you're setting up a render-farm.
+Time
+   Includes the current scene time and render frame as ``HH:MM:SS.FF``
+Date
+   Includes the current date and time.
+RenderTime
+   Includes the render time.
+Frame
+   Includes the frame number.
+Scene
+   Includes the name of the active scene.
+Memory
+   Includes the peak memory usage.
+Note
+   Includes a custom note.
 
-   Since you can script any information you like into it,
-   such as an identifier for the render-node or the job-number.
+   .. hint::
 
-   For details on stamping arbitrary values,
-   see: `this page <https://blender.stackexchange.com/questions/26643>`__
+      It can be useful to use the *Note* field if you're setting up a render-farm.
 
+      Since you can script any information you like into it,
+      such as an identifier for the render-node or the job-number.
+
+      For details on stamping arbitrary values,
+      see: `this page <https://blender.stackexchange.com/questions/26643>`__
+
+
+Camera
+   Includes the name of the active camera.
+Lens
+   Includes the name of the active camera's lens value.
+Filename
+   Includes the filename of the blend-file.
+Marker
+   Includes the name of the last marker.
+Seq. Strip
+   Includes the name of the foreground sequence strip.
+
+
+.. rubric:: Sequencer
+
+Strip Metadata
+   Use metadata from the strips in the sequencer.
