@@ -1,4 +1,5 @@
 .. Editors Note: This page gets copied into render/cycles/nodes/types/color/invert
+.. Editors Note: This page gets copied into /blender_render/materials/nodes/types/color/invert
 
 ***********
 Invert Node
@@ -24,6 +25,8 @@ Color
 
 Properties
 ==========
+
+In the compositing context this node has following properties.
 
 RGB
    De/activation of the color channel inversion.

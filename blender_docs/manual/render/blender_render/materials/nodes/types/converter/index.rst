@@ -11,7 +11,7 @@ As the name implies, these nodes convert the colors in the material in some way.
    color_ramp.rst
    combine_separate.rst
    math.rst
-   rgb_bw.rst
+   rgb_to_bw.rst
    sqeeze_value.rst
    vector_math.rst
 

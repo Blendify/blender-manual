@@ -1,4 +1,5 @@
 .. Editors Note: This page gets copied into render/cycles/nodes/types/color/gamma
+.. Editors Note: This page gets copied into render/blender_render/materials/nodes/types/color/gamma
 
 **********
 Gamma Node

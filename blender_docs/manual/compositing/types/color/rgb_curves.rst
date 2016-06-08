@@ -1,4 +1,5 @@
 .. Editors Note: This page gets copied into render/cycles/nodes/types/color/rgb_curves
+.. Editors Note: This page gets copied into /blender_render/materials/nodes/types/color/rgb_curves
 
 ***************
 RGB Curves Node
@@ -10,7 +11,7 @@ RGB Curves Node
 
    RGB Curves Node.
 
-This node allows levels adjustments and color corrections for each color channel.
+This node allows color corrections for each color channel and levels adjustments in the compositing context.
 
 
 Input

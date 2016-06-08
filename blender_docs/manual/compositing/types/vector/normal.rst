@@ -1,4 +1,5 @@
 .. Editors Note: This page gets copied into render/cycles/nodes/types/vector/normal
+.. Editors Note: This page gets copied into render//blender_render/materials/nodes/types/vector/normal
 
 ***********
 Normal Node
@@ -23,6 +24,7 @@ Properties
 ==========
 
 Normal Direction
+   To manually set a fixed normal direction vector.
    :kbd:`RMB` click and drag on the sphere to set the direction of the normal.
 
 Output
@@ -31,4 +33,8 @@ Output
 Normal
    Normal vector output.
 Dot
-   Dot product output.
+   Dot product output. The dot product is a scalar value.
+
+   - If two normals are pointing in the same direction the dot product is 1.
+   - If they are perpendicular the dot product is zero (0).
+   - If they are antiparallel (facing directly away from each other) the dot product is -1.
