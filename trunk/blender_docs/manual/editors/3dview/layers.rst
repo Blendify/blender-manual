@@ -65,7 +65,7 @@ click the appropriate button with :kbd:`LMB`; to select more than one,
 use :kbd:`Shift-LMB` - doing this on an already active layer will deselect it.
 
 
-.. figure:: /images/3Dinteraction-Navigating-Layers-layer-buttons.jpg
+.. figure:: /images/editors_3dview_Navigating-Layers-layer-buttons.jpg
    :width: 600px
 
    3D Viewport layer buttons.
@@ -100,7 +100,7 @@ especially lights and particles.
 Moving objects between layers
 -----------------------------
 
-.. figure:: /images/3Dinteraction-Navigating-Layers-layer-selection.jpg
+.. figure:: /images/editors_3dview_Navigating-Layers-layer-selection.jpg
 
    Layer selection.
 
@@ -111,7 +111,7 @@ Objects can also be on more than one layer at a time. To have an object on multi
 hold :kbd:`Shift` while clicking.
 
 
-.. figure:: /images/3Dinteraction-Navigating-Layers-object-context.jpg
+.. figure:: /images/editors_3dview_Navigating-Layers-object-context.jpg
 
    Object context selection.
 
@@ -120,7 +120,7 @@ Another way to view or change a selected object layer is via the *Relations* pan
 in the *Object* context.
 
 
-.. figure:: /images/3Dinteraction-Navigating-Layers-relations.jpg
+.. figure:: /images/editors_3dview_Navigating-Layers-relations.jpg
 
    Layers in Object context, Relations panel.
 

@@ -17,7 +17,7 @@ Pressing :kbd:`Numpad0` will show the scene as viewed from the currently active 
 In this view you can also set the *Render Border* which defines the portion of the camera view to be rendered.
 
 
-.. figure:: /images/3D-interaction_Navigating_Camera-View-perspective-camera-render.jpg
+.. figure:: /images/editors_3dview_Navigating_Camera-View-perspective-camera-render.jpg
    :width: 640px
 
    Camera view provides a preview for the final rendered image.

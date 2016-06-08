@@ -16,7 +16,7 @@ Fig. Suzanne with increasing sphericity image below shows the results of applyin
 *To Sphere* transformation to the Suzanne mesh.
 
 
-.. figure:: /images/3D_interaction-Transformations-Advanced-To_Sphere_suzanne-spherical.jpg
+.. figure:: /images/editors_3dview_Transformations-Advanced-To_Sphere_suzanne-spherical.jpg
    :width: 640px
 
    Suzanne with increasing sphericity.
@@ -27,7 +27,7 @@ Fig. Suzanne with increasing sphericity image below shows the results of applyin
 Usage
 =====
 
-.. figure:: /images/3D_interaction-Transformations-Advanced-To_Sphere_toolshelf-f6.jpg
+.. figure:: /images/editors_3dview_Transformations-Advanced-To_Sphere_toolshelf-f6.jpg
    :width: 150px
 
    To Sphere Factor.
@@ -49,7 +49,7 @@ selected mesh elements (vertices, faces etc). As can be seen in the below image,
 will be smoother and more spherical when there are more mesh elements available to work with.
 
 
-.. figure:: /images/3D_interaction-Transformations-Advanced-To_Sphere_cubes-spherical.jpg
+.. figure:: /images/editors_3dview_Transformations-Advanced-To_Sphere_cubes-spherical.jpg
    :width: 640px
 
    To Sphere applied to cubes with different subdivision levels.
@@ -61,7 +61,7 @@ The *To Sphere* transform will generate different results depending on the numbe
 and arrangement of elements that were selected (as shown by the below image).
 
 
-.. figure:: /images/3D_interaction-Transformations-Advanced-To_Sphere_other-spherical.jpg
+.. figure:: /images/editors_3dview_Transformations-Advanced-To_Sphere_other-spherical.jpg
    :width: 640px
 
    To Sphere applied to different selections.

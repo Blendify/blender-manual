@@ -145,7 +145,7 @@ this will give an extra sharpening result.
 Examples
 ========
 
-.. figure:: /images/AA02.jpg
+.. figure:: /images/bi_AA02.jpg
    :width: 630px
 
 

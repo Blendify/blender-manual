@@ -218,7 +218,7 @@ Render Border
    | Menu:     :menuselection:`View --> Render Border`
    | Hotkey:   :kbd:`Ctrl-B`
 
-.. figure:: /images/3D-interaction_Navigating_Camera-View-render-border-toggle.jpg
+.. figure:: /images/editors_3dview_Navigating_Camera-View-render-border-toggle.jpg
 
    Render Border toggle.
 
@@ -239,7 +239,7 @@ context or by activating the option again and selecting *Render Border* larger t
    :doc:`Read more about Motion Blur </render/blender_render/motion_blur>`
 
 
-.. figure:: /images/3D-interaction_Navigating_Camera-View-render-border.jpg
+.. figure:: /images/editors_3dview_Navigating_Camera-View-render-border.jpg
    :width: 640px
 
    Render border and associated render.

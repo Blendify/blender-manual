@@ -20,7 +20,7 @@ in the Node Editor, Graph Editor, UV Editor, Sequencer, etc.
 Options and other details will be discussed in their respective sections.
 
 
-.. figure:: /images/3D_inter_translate_value_display.jpg
+.. figure:: /images/editors_3dview_translate_value_display.jpg
 
    Translation Display.
 
@@ -57,7 +57,7 @@ full control over your transformation.
 :kbd:`LMB`
    Confirm the move, and leave the object or data at its current location on the screen.
 
-.. figure:: /images/3D_interaction_trans_basics_grab_mmb.jpg
+.. figure:: /images/editors_3dview_trans_basics_grab_mmb.jpg
 
    Axis-Constraint in action.
 
@@ -133,7 +133,7 @@ There are 5 standard orientation references for all transformations.
 You can find out more about transform orientations
 :doc:`here </editors/3dview/transform/transform_control/transform_orientations>`.
 
-.. figure:: /images/3d_interaction_trans_grab_orientation.png
+.. figure:: /images/editors_3dview_trans_grab_orientation.png
 
    Orientation choice menu.
 
@@ -156,7 +156,7 @@ you can hotkey your chosen axis of orientation by hitting the relevant axis modi
   or on an axis of the selected orientation if the transform orientation is not set to Global.
   Locking one axis means the selected object moves freely on the other two axes.
 
-.. figure:: /images/3d_interaction_trans_grab_xyz_number.png
+.. figure:: /images/editors_3dview_trans_grab_xyz_number.png
 
    Numerical Entry Display.
 

@@ -22,7 +22,7 @@ mirror transform to create a reversed version to complete the model.
 
    Mirrored duplicates can also be created with a :doc:`Mirror Modifier </modeling/modifiers/generate/mirror>`.
 
-.. figure:: /images/3D-interaction_Transformations_Advanced_Mirror_mirror-example.jpg
+.. figure:: /images/editors_3dview_Transformations_Advanced_Mirror_mirror-example.jpg
 
    Mirroring a selection.
 
@@ -43,7 +43,7 @@ if the Transform Orientation is set to *Normal*, pressing:
 will mirror the selection along the X-axis of the *Normal Orientation.*
 
 
-.. figure:: /images/3D-interaction_Transformations_Advanced_Mirror_interactive-mirror.jpg
+.. figure:: /images/editors_3dview_Transformations_Advanced_Mirror_interactive-mirror.jpg
 
    Interactive mirror.
 

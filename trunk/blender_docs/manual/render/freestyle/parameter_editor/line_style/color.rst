@@ -109,7 +109,7 @@ If used with the *Split by Material* option in the *Stroke* tab,
 the result will not be blurred between materials along the strokes.
 
 
-.. figure:: /images/Lilies_Color_Material.jpg
+.. figure:: /images/freestyle_Lilies_Color_Material.jpg
    :width: 400px
    :align: center
 

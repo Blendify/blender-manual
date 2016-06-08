@@ -23,7 +23,7 @@ Read more about selecting different
 :doc:`Pivot Points </editors/3dview/transform/transform_control/pivot_point/index>`
 
 
-.. figure:: /images/3D_interaction_Transform-Control_Pivot-Point_3D-cursor_median-cursor-example.jpg
+.. figure:: /images/editors_3dview_Transform-Control_Pivot-Point_3D-cursor_median-cursor-example.jpg
    :width: 640px
 
    Rotation around the 3D cursor compared to the median point.

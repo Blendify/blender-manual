@@ -40,7 +40,7 @@ Examples
 
           Image 2b: A Soft Body plane colliding with a cube - no interaction at all.
 
-     - .. figure:: /images/CollidingPlane_CFace.gif
+     - .. figure:: /images/physics_CollidingPlane_CFace.gif
 
           Image 2c: Collision with CFace activated.
 

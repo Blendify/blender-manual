@@ -632,7 +632,7 @@ Interpolation
    they remain 'sharp' even when enlarged considerably.
    When you enlarge this 10×10 pixel Image
 
-.. figure:: /images/Linien.jpg
+.. figure:: /images/bi_textures_image_Linien.jpg
 
 the difference with and without *Interpolation* is clearly visible.
 Turn this image off if you are using digital photos to preserve crispness.

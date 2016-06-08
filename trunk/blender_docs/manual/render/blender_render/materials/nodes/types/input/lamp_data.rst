@@ -3,7 +3,7 @@
 Lamp Data Node
 **************
 
-.. figure:: /images/Lamp-Data-Node.jpg
+.. figure:: /images/bi_nodes_lamp-data.jpg
    :width: 180px
 
    Lamp Data node.

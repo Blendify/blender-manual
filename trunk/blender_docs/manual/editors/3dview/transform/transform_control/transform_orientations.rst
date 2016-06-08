@@ -59,7 +59,7 @@ Orientations
 ============
 
 Global
-   .. figure:: /images/3D_interaction-Transform_Control-Transform_Orientations-01-Global.jpg
+   .. figure:: /images/editors_3dview_Transform_Control-Transform_Orientations-01-Global.jpg
       :align: right
 
       Global.
@@ -76,7 +76,7 @@ Global
    and does not match the Global coordinates.
 
 Local
-   .. figure:: /images/3D_interaction-Transform_Control-Transform_Orientations-02-Local.jpg
+   .. figure:: /images/editors_3dview_Transform_Control-Transform_Orientations-02-Local.jpg
       :align: right
 
       Local.
@@ -98,7 +98,7 @@ Local
 
 
 Normal
-   .. figure:: /images/3D_interaction-Transform_Control-Transform_Orientations-03-Normal.jpg
+   .. figure:: /images/editors_3dview_Transform_Control-Transform_Orientations-03-Normal.jpg
       :align: right
 
       Normal.
@@ -124,7 +124,7 @@ Normal
    the same movement---except along that second vertex's normal instead.
 
 Gimbal
-   .. figure:: /images/3D_interaction-Transform_Control-Transform_Orientations-04-Gimbal.jpg
+   .. figure:: /images/editors_3dview_Transform_Control-Transform_Orientations-04-Gimbal.jpg
       :align: right
 
       Gimbal.
@@ -145,7 +145,7 @@ Gimbal
       the Manipulator behaves the same as in *Local* mode.
 
 View
-   .. figure:: /images/3D_interaction-Transform_Control-Transform_Orientations-05-View.jpg
+   .. figure:: /images/editors_3dview_Transform_Control-Transform_Orientations-05-View.jpg
       :align: right
 
       View.

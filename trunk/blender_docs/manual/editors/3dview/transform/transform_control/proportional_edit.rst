@@ -26,7 +26,7 @@ Object Mode
    | Mode:     Object Mode
    | Menu:     Via the icon in the header indicated by the yellow square in the below image.
 
-   .. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-proportional-edit-header-icon.jpg
+   .. figure:: /images/editors_3dview_Transform-Control_Proportional-Edit-proportional-edit-header-icon.jpg
 
    | Hotkey:   :kbd:`O`
 
@@ -39,7 +39,7 @@ proportional edit tool's radius of influence. When the green cube is moved to th
 the other two cubes follow the movement.
 
 
-.. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-object-mode.jpg
+.. figure:: /images/editors_3dview_Transform-Control_Proportional-Edit-object-mode.jpg
 
    Proportional editing in Object Mode.
 
@@ -56,7 +56,7 @@ Edit Mode
    | Menu:     :menuselection:`Mesh --> Proportional Editing` and via the highlighted icon in the below image
 
 
-   .. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-proportional-edit-header-icon-edit-mode.jpg
+   .. figure:: /images/editors_3dview_Transform-Control_Proportional-Edit-proportional-edit-header-icon-edit-mode.jpg
 
    | Hotkey:   :kbd:`O`, :kbd:`Alt-O`, :kbd:`Shift-O`
 
@@ -68,7 +68,7 @@ of the model.
 This is done by the tool's automatic modification of unselected vertices within a given range.
 
 
-.. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-edit-mode.jpg
+.. figure:: /images/editors_3dview_Transform-Control_Proportional-Edit-edit-mode.jpg
 
    Proportional editing in Edit Mode.
 
@@ -82,7 +82,7 @@ respectively. As you change the radius,
 the points surrounding your selection will adjust their positions accordingly.
 
 
-.. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-influence.jpg
+.. figure:: /images/editors_3dview_Transform-Control_Proportional-Edit-influence.jpg
 
    Influence circle.
 
@@ -90,13 +90,13 @@ the points surrounding your selection will adjust their positions accordingly.
 Options
 -------
 
-.. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-proportional-edit-tool.jpg
+.. figure:: /images/editors_3dview_Transform-Control_Proportional-Edit-proportional-edit-tool.jpg
    :width: 200px
 
    Proportional Editing tool.
 
 
-.. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-proportional-edit-falloff-options.jpg
+.. figure:: /images/editors_3dview_Transform-Control_Proportional-Edit-proportional-edit-falloff-options.jpg
    :width: 200px
 
    Falloff menu.
@@ -114,7 +114,7 @@ Projected (2D)
    Depth along the view is ignored when applying the radius.
 
 
-.. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-2D_Compare.jpg
+.. figure:: /images/editors_3dview_Transform-Control_Proportional-Edit-2D_Compare.jpg
    :width: 300px
 
    The difference between regular and Projected (2D) proportional option (right).
@@ -136,37 +136,37 @@ Falloff
 
 .. list-table::
 
-   * - .. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-falloff-constant.jpg
+   * - .. figure:: /images/editors_3dview_Transform-Control_Proportional-Edit-falloff-constant.jpg
           :width: 300px
 
           Constant, No Falloff.
 
-     - .. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-falloff-random.jpg
+     - .. figure:: /images/editors_3dview_Transform-Control_Proportional-Edit-falloff-random.jpg
           :width: 300px
 
           Random Falloff.
 
-   * - .. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-falloff-linear.jpg
+   * - .. figure:: /images/editors_3dview_Transform-Control_Proportional-Edit-falloff-linear.jpg
           :width: 300px
 
           Linear Falloff.
 
-     - .. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-falloff-sharp.jpg
+     - .. figure:: /images/editors_3dview_Transform-Control_Proportional-Edit-falloff-sharp.jpg
           :width: 300px
 
           Sharp Falloff.
 
-   * - .. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-falloff-root.jpg
+   * - .. figure:: /images/editors_3dview_Transform-Control_Proportional-Edit-falloff-root.jpg
           :width: 300px
 
           Root Falloff.
 
-     - .. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-falloff-sphere.jpg
+     - .. figure:: /images/editors_3dview_Transform-Control_Proportional-Edit-falloff-sphere.jpg
           :width: 300px
 
           Sphere Falloff.
 
-   * - .. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-falloff-smooth.jpg
+   * - .. figure:: /images/editors_3dview_Transform-Control_Proportional-Edit-falloff-smooth.jpg
           :width: 300px
 
           Smooth Falloff.
@@ -189,7 +189,7 @@ You can use the proportional editing tool to produce great effects with the scal
 as Fig. A landscape obtained via proportional editing shows.
 
 
-.. figure:: /images/3D-interaction_Transform-Control_Proportional-Edit-landscape.jpg
+.. figure:: /images/editors_3dview_Transform-Control_Proportional-Edit-landscape.jpg
    :width: 640px
 
    A landscape obtained via proportional editing.

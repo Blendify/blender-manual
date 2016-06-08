@@ -42,7 +42,7 @@ Manipulators can be accessed in the header of the *3D View* window:
 - Transform Orientation menu: choice of the transformation orientation.
 
 
-.. figure:: /images/3D_interaction-Transform_Control-Manipulators-manipulator_options.jpg
+.. figure:: /images/editors_3dview_Transform_Control-Manipulators-manipulator_options.jpg
    :width: 650px
 
    Manipulator Options.
@@ -100,7 +100,7 @@ The normal orientation manipulator will also change depending on what is selecte
 change depending on how many and which faces, edges or vertices are selected.
 
 
-.. figure:: /images/3D_interaction-Transform_Control-Manipulators-manipulator_orientation_options.jpg
+.. figure:: /images/editors_3dview_Transform_Control-Manipulators-manipulator_orientation_options.jpg
    :width: 640px
 
    Transform manipulator orientation options.

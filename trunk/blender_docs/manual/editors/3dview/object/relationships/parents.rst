@@ -246,7 +246,7 @@ the Armature Parent Object the Cube will get 3 new Vertex Groups created on it c
 BoneB and BoneC. Notice that each Vertex Group is empty. (See figure 21).
 
 
-.. figure:: /images/3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform_With_Empty_Groups-blend.jpg
+.. figure:: /images/editors_3dview_Header-ObjectMenu-Parent-Armature_Deform_With_Empty_Groups-blend.jpg
 
    Figure 21 - Cube in Edit Mode showing the 3 created Vertex Groups after it was parented
    using Armature Deform With Empty Groups to an Armature with 3 Bones named BoneA,

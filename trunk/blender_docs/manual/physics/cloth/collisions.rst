@@ -23,7 +23,7 @@ there are several items that have to be set up and working together:
 Collision Settings
 ==================
 
-.. figure:: /images/Cloth_collisionpanel.png
+.. figure:: /images/physics_Cloth_collisionpanel.png
    :width: 200px
 
    Cloth Collisions panel.

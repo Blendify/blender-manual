@@ -71,7 +71,7 @@ UNSUPPORTED: Starting with a goal of 0 and increasing it, but still having the v
 Using Cloth for Softbodies
 ==========================
 
-.. figure:: /images/Cloth-Sb1.jpg
+.. figure:: /images/physics_Cloth-Sb1.jpg
    :width: 200px
 
    Using cloth for softbodies.
@@ -89,7 +89,7 @@ Blend file for the example image:
 Cloth with Wind
 ===============
 
-.. figure:: /images/Cloth-flag2.jpg
+.. figure:: /images/physics_Cloth-flag2.jpg
    :width: 200px
 
    Flag with wind applied.
