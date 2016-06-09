@@ -333,7 +333,7 @@ Auto Keyframe
    It will add and/or replace existing keyframes for the active object when you transform it in the 3D view.
 
    For example, when enabled, first set the *Time Cursor* to the desired frame,
-   then move an object in the 3d view, or set a new value for a property in the UI.
+   then move an object in the 3D View, or set a new value for a property in the UI.
 
    When you set a new value for the properties,
    Blender will add keyframes on the current frame for the transform properties.

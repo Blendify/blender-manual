@@ -43,7 +43,7 @@ Properties Panel
    - :doc:`Transform Orientations </editors/3dview/transform/transform_control/transform_orientations>`
 
 Tool Shelf
-   Toggles the *Tool Shelf* :kbd:`T`, which appears on the left side of the 3d view,
+   Toggles the *Tool Shelf* :kbd:`T`, which appears on the left side of the 3D View,
    and allows you to perform various operations, depending on the type of object selected, and the mode you are in.
 :doc:`Camera </editors/3dview/navigate/camera_view>`
    Switches the view to the current camera view.

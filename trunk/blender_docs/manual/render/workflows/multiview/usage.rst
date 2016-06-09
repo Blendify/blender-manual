@@ -4,7 +4,7 @@ Usage
 *****
 
 For example, we will take an existing blend
-file that was made for monoscopic rendering and transform it in stereo-3d ready.
+file that was made for monoscopic rendering and transform it to be stereo 3D ready.
 
 .. figure:: /images/multiview_workflow_render_anaglyph.png
    :width: 700px
@@ -47,7 +47,7 @@ Go to the Render Layers panel and enable *Views* for this scene.
 
 .. note::
 
-   When you turn on *Views* in the scene you get 3d preview in the viewport,
+   When you turn on *Views* in the scene you get 3D preview in the viewport,
    as well as multiple panels that are now accessible all over the user interface.
 
 .. figure:: /images/multiview_workflow_3.png
@@ -60,7 +60,7 @@ Go to the Render Layers panel and enable *Views* for this scene.
 Camera
 ======
 
-To tweak the stereo 3d parameters select the camera in the Outliner.
+To tweak the stereo 3D parameters select the camera in the Outliner.
 In the Camera panel go to the Stereoscopy tab and change the *Convergence Distance*.
 
 The viewport will respond in real-time to those changes allowing you to preview the current depth value of the scene.
@@ -93,7 +93,7 @@ In the following image the cameras frustum volumes are also visible.
 Stereo 3D Display
 =================
 
-If you have a real 3d display at some point you can change the 3D display mode in the Window menu,
+If you have a real 3D display at some point you can change the 3D display mode in the Window menu,
 by calling the Stereo 3D operator.
 Be aware that some modes require a fullscreen editor to work.
 
@@ -144,7 +144,7 @@ In this example we saved as cross-eyed side-by-side stereo 3d.
 Final Considerations
 ====================
 
-As this guide showed, there is more to stereo 3d rendering than just generate two images.
+As this guide showed, there is more to stereo 3D rendering than just generate two images.
 The earlier the stereo pipeline is considered the smoother it will get.
 The following sections are a more in-depth view of the individual components we visited in the workflow.
 
@@ -247,7 +247,7 @@ Viewport Stereo 3D
 ==================
 
 When you enable 'Views' in the Render Layer panel a new are is available in the 3D Viewport properties panel.
-In this panel you can pick whether to see the stereo 3d in the viewport, or which camera to see.
+In this panel you can pick whether to see the stereo 3D in the viewport, or which camera to see.
 It also allow you to see the Cameras, the Plane and the Volume of the stereo cameras.
 
 .. figure:: /images/multiview_viewport_settings.png
@@ -287,8 +287,8 @@ Multi-View and Stereo 3D Image I/O
 Multi-View and Stereo 3D
    Multi-View images can be saved in special formats according to the production requirements.
    By default the system saves each view as an individual file, thus generating as many files as views to be rendered.
-   In stereo 3d productions, for the final deployment or even
-   intermediary previews it's convenient to save stereo 3d images,
+   In stereo 3D productions, for the final deployment or even
+   intermediary previews it's convenient to save stereo 3D images,
    that are ready to use with 3D displays or simple anaglyph glasses.
    The formats supported match the display modes available for the window.
 Lossy-Formats
@@ -298,7 +298,7 @@ Lossy-Formats
    The Interlace will mash your data considerably.
    Once you export in those formats, you can still import the image
    back in Blender, for it to be treated as Stereo 3D.
-   You will need to match the window stereo 3d display mode to the image stereo 3d format though.
+   You will need to match the window stereo 3D display mode to the image stereo 3D format though.
 Lossless Formats
    Some formats will preserve the original data,
    leading to no problems on exporting and importing the files back in Blender.
@@ -319,7 +319,7 @@ Image Editor
 
 View Menu
    After you render your scene with Stereo 3D you will be able to see
-   the rendered result in the combined stereo 3d or to inspect the individual views.
+   the rendered result in the combined stereo 3D or to inspect the individual views.
    This works for Viewer nodes, render results or opened images.
 
    .. figure:: /images/multiview_image_editor_header.png
@@ -378,4 +378,3 @@ Performance
    By default when compositing and rendering from the user interface all views are rendered and then composited.
    During test iterations you can disable all but one view from the Scene Views panel,
    and re-enable it after you get the final look.
-

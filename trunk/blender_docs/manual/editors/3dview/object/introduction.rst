@@ -50,4 +50,4 @@ Types of Objects
 :doc:`Force Fields </physics/force_fields/index>`
    Force fields are used in physical simulations.
    They give simulations external forces, creating movement,
-   and are represented in 3d editor by small control objects.
+   and are represented in the 3D View editor as small control objects.

@@ -88,7 +88,7 @@ Mapping Types
 =============
 
 Blender offers several ways of mapping UVs.
-The simpler projection methods use formulas that map 3d space onto 2d space,
+The simpler projection methods use formulas that map 3D space onto 2D space,
 by interpolating the position of points toward a point/axis/plane through a surface.
 The more advanced methods can be used with more complex models, and have more specific uses.
 
@@ -267,9 +267,9 @@ When using this method, you need to be aware of how much stretching there is.
 The more seams there are, the less stretching there is,
 but this is often an issue for the texturing process.
 It is a good idea to have as few seams as possible while having the least amount of stretching.
-Try to hide seams where they will not be seen. In productions where 3d Paint is used,
+Try to hide seams where they will not be seen. In productions where 3D paint is used,
 this becomes less of an issue, as projection painting can easily deal with seams,
-as opposed to 2d texturing, where it is difficult to match the edges of different UV islands.
+as opposed to 2D texturing, where it is difficult to match the edges of different UV islands.
 
 
 The workflow is the following:
@@ -366,7 +366,7 @@ Blender has two ways of calculating the unwrapping.
 They can be selected in the tool setting in the tool panel in the 3D View.
 
 Angle Based
-   This method gives a good 2d representation of a mesh.
+   This method gives a good 2D representation of a mesh.
 Conformal
    Uses LSCM (Least Squared Conformal Mapping). This usually gives a less accurate UV mapping than Angle Based,
    but works better for simpler objects.
@@ -484,5 +484,5 @@ Length
    Average space UV's edge length of each loop.
 
 Please note that it is the shape of the active quad in UV space that is being followed,
-not its shape in 3d space. To get a clean 90-degree unwrap make sure the active quad is a
+not its shape in 3D space. To get a clean 90-degree unwrap make sure the active quad is a
 rectangle in UV space before using "Follow active quad".

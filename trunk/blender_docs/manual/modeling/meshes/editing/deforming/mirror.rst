@@ -77,7 +77,7 @@ and the axis of transformation is X.
      - .. figure:: /images/MirrorTool4.jpg
           :width: 300px
 
-          Mesh after mirrored along X axis using the 3d cursor as a pivot point.
+          Mesh after mirrored along X axis using the 3D cursor as a pivot point.
 
 
 Transformation orientation

@@ -8,7 +8,7 @@ glasses. This is achieved by rendering two separate images from cameras that are
 distance apart from each other, simulating how our own eyes see. When viewing a stereo image,
 one eye is limited to seeing one of the images, and the other eye sees the second image.
 Our brain is able to merge these together,
-making it appear that we are looking at a 3d object rather than a flat image.
+making it appear that we are looking at a 3D object rather than a flat image.
 See `Stereoscopy <https://en.wikipedia.org/wiki/Stereoscopy>`__
 for more information on different stereoscopic viewing methods.
 

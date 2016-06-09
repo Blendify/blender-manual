@@ -187,7 +187,7 @@ Zoom Border
 -----------
 
 The *Zoom Border* tool allows you to specify a rectangular region and zoom in so
-that the region fills the 3d view.
+that the region fills the 3D View.
 
 You can access this through the *View* menu, or the shortcut :kbd:`Shift-B`,
 then :kbd:`LMB` click and drag a rectangle to zoom into.
@@ -422,7 +422,7 @@ Walk Mode
 On activation the mouse pointer will move at the center of the view,
 and a cross marker will appear...
 
-This navigation mode behaves similar to the first person navigation system available in most 3d world games nowadays.
+This navigation mode behaves similar to the first person navigation system available in most 3D world games nowadays.
 It works with a combination of keyboard keys :kbd:`W`, :kbd:`A`, :kbd:`S`, :kbd:`D` and mouse movement.
 By default the navigation is in the "free" mode, with no gravity influence.
 You can toggle between gravity and free mode during the navigation :kbd:`Tab`. 

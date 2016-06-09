@@ -170,7 +170,7 @@ Selected
 Active
    Lists only the active (often last selected) object.
 Same Types
-   Lists only those objects in the current scene that are of the same types as those selected in the 3d window.
+   Lists only those objects in the current scene that are of the same types as those selected in the 3D View.
 Groups
    Lists only :doc:`Groups </editors/3dview/object/relationships/groups>` and their members.
 Libraries

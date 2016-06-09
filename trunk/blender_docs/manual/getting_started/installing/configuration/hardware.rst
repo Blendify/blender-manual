@@ -19,7 +19,7 @@ Todo.
 Input Devices
 =============
 
-.. Add note about emulate 3d buttom mouse and numpad.
+.. Add note about emulate 3D buttom mouse and numpad.
 
 Blender supports various types of input devices:
 

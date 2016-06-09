@@ -1,3 +1,4 @@
+
 *****************
 Particle Emission
 *****************
@@ -81,7 +82,7 @@ Random
    Particles are emitted from random locations in the emitter's elements.
 
 Grid
-   Particles are set in a 3d grid and particles near/in the elements are kept.
+   Particles are set in a 3D grid and particles near/in the elements are kept.
 
    Invert Grid
       Invert what is considered the object and what is not.

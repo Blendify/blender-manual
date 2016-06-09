@@ -44,7 +44,7 @@ Tools and modes in the 3D view header are (left to right):
 - OpenGL render
 
 You can switch between the Object and Edit Modes with the :kbd:`Tab` key. You can change
-to any mode by selecting the desired *Mode* in the menu in the 3d view header.
+to any mode by selecting the desired *Mode* in the menu in the 3D View header.
 
 
 Visualization
