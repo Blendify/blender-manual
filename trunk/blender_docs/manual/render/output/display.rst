@@ -7,7 +7,7 @@ Rendering still images is fairly simple.
 :doc:`Rendering Animations </render/workflows/animations>` is a bit more complex and is covered in the next sections.
 
 To render an image from the active camera, in the Render Panel, press the *Render* button.
-By default the 3D view is replaced with the UV/Image Editor and the render appears.
+By default the 3D View is replaced with the UV/Image Editor and the render appears.
 
 
 Displaying Renders
