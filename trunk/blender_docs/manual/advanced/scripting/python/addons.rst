@@ -6,7 +6,7 @@ Add-ons
 *******
 
 *Add-on* is the general term for a script that extends Blender's functionality.
-They are found in the *Add-ons* tab of the *User Preferences* window.
+They are found in the *Add-ons* tab of the :doc:`User Preferences </preferences/addons>`.
 This tab allows to search, install, enable and disable Add-ons.
 
 

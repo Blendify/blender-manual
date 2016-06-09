@@ -46,7 +46,7 @@ Computer crashes,
 power outages or simply forgetting to save can result in the loss or corruption of your work.
 To reduce the chance of losing files when those events occur,
 Blender can use an *Autosave* function. The *File* tab of the
-*User Preferences* window allows you to configure the two ways that Blender provides
+*User Preferences* allows you to configure the two ways that Blender provides
 for you to regress to a previous version of your work.
 
 See :ref:`prefs-auto_save` for details.
