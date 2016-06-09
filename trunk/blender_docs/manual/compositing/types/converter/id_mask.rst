@@ -17,8 +17,8 @@ Input
 
 ID value
    Input for the Object index "IndexOb"  or material index "IndexMa" pass. 
-   Which is an output of the `RenderLayers node </compositing/types/input/render_layers>`_ or 
-   the `Image node </compositing/types/input/render_layers>`_ with a multilayer format.
+   Which is an output of the :doc:`RenderLayers node </compositing/types/input/render_layers>` or 
+   the :doc:`Image node </compositing/types/input/render_layers>` with a multilayer format.
 
 
 Properties
