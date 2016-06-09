@@ -160,7 +160,7 @@ View Manipulation
 .. _prefs-input-orbit_style:
 
 Orbit Style
-   Select how Blender works when you rotate the 3D view by default when holding :kbd:`MMB`.
+   Select how Blender works when you rotate the 3D View by default when holding :kbd:`MMB`.
 
    Turntable
       Rotates the view keeping the horizon horizontal.

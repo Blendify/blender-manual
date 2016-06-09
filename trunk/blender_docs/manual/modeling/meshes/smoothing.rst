@@ -213,4 +213,4 @@ you can smooth the mesh non-destructively with one or several of the following m
      - .. figure:: /images/meshsmooth-example-11edgeloops.jpg
           :width: 300px
 
-          3D view showing creased edges (pink) and added edges loops (yellow).
+          3D View showing creased edges (pink) and added edges loops (yellow).

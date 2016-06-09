@@ -28,7 +28,7 @@ Default Camera
 ==============
 
 The default camera view is taken from the latest 3D viewport view,
-at a distance equivalent to the viewer. This means that if the normal 3D view is active the
+at a distance equivalent to the viewer. This means that if the normal 3D View is active the
 scene does not change when the Game Engine is started.
 
 

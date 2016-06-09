@@ -8,7 +8,7 @@ Introduction
 Cycles is Blender’s ray-trace based production render engine.
 
 To use Cycles, it must be set as the active render engine in the top header. Once that is done,
-interactive rendering can be started by setting a 3D view editor to draw mode Rendered using :kbd:`Shift-Z`.
+interactive rendering can be started by setting a 3D View editor to draw mode Rendered using :kbd:`Shift-Z`.
 The render will keep updating as modifications are done,
 such as changing a material color, changing a lamp's intensity or moving objects around.
 To perform a full render go to :menuselection:`Properties --> Render`

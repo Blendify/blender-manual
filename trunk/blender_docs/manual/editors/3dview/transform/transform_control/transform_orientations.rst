@@ -22,7 +22,7 @@ but if you press :kbd:`G-X-X` it will constrain to your *Transform Orientation* 
 
 The Orientations options can be set on the 3D View's header (or "footer",
 since it is at the bottom of the view by default),
-or with :kbd:`Alt-Spacebar` or through the *Orientation* menu in a 3D view header.
+or with :kbd:`Alt-Spacebar` or through the *Orientation* menu in a 3D View header.
 
 .. figure:: /images/editors_3dview_orientations_menu.png
 

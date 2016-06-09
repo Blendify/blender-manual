@@ -49,7 +49,7 @@ Move Active Camera to View
 
 This feature allows you to position and orient the active camera to match your current viewport.
 
-Select a camera and then move around in the 3D view to a desired position and direction for
+Select a camera and then move around in the 3D View to a desired position and direction for
 your camera (so that you are seeing what you want the camera to see). Now press
 :kbd:`Ctrl-Alt-Numpad0` and your selected camera positions itself to match the view,
 and switches to camera view.

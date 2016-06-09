@@ -58,7 +58,7 @@ Shading Panel
    3D Viewport Shading Panel.
 
 
-The shading panel in the Properties Region provides additional control over the way objects in the 3D view appear.
+The shading panel in the Properties Region provides additional control over the way objects in the 3D View appear.
 
 Textured Solid
    Display assigned :ref:`face textures <face_textures>` in the *Solid* shading mode.

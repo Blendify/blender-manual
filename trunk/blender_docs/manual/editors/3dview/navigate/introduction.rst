@@ -34,7 +34,7 @@ View Menu
 
 
 Properties Panel
-   Toggles the *Properties* side panel, which allows you to tweak many 3D view settings:
+   Toggles the *Properties* side panel, which allows you to tweak many 3D View settings:
 
    - :doc:`Transform </editors/3dview/transform/introduction>`
    - :doc:`Grease Pencil </interface/grease_pencil/introduction>`
@@ -67,7 +67,7 @@ Tool Shelf
    Using these commands through the menu is not that efficient. However, like all Blender menus,
    the much more convenient keyboard shortcuts are listed next to the commands.
 :doc:`Align View </editors/3dview/navigate/3d_view>`
-   This submenu allows you to align the 3D view in certain ways.
+   This submenu allows you to align the 3D View in certain ways.
 
    - *Align to selected*
    - *Center cursor and view all*
@@ -76,7 +76,7 @@ Tool Shelf
    - *Center View to cursor*
 
 :ref:`Clipping Border <3dview-clip_border>`
-   Allows you to define a clipping border to limit the 3D view display to a portion of 3D space.
+   Allows you to define a clipping border to limit the 3D View display to a portion of 3D space.
 :doc:`Zoom Border </editors/3dview/navigate/3d_view>`
    Allows you to define the area you want to zoom into.
 :doc:`Show all Layers </editors/3dview/layers>`
@@ -87,13 +87,13 @@ Tool Shelf
    Accidentally pressing :kbd:`NumpadSlash` can happen rather often if you are new to Blender,
    so if a bunch of the objects in your scene seem to have mysteriously vanished, try turning off local view.
 :doc:`View Selected </editors/3dview/navigate/3d_view>`
-   Zooms the 3D view to encompass all the *selected* objects.
+   Zooms the 3D View to encompass all the *selected* objects.
 :ref:`View All <3dview-view_all>`
-   Zooms the 3D view to encompass *all* the objects in the current scene.
+   Zooms the 3D View to encompass *all* the objects in the current scene.
 :doc:`Play Back Animation </animation/index>`
    Plays back the animation from the current frame.
 :doc:`Duplicate area in new window </interface/window_system/arranging_areas>`
-   Clones the current 3D view in a new window
+   Clones the current 3D View in a new window
 :doc:`Quad View </interface/window_system/arranging_areas>`
    Toggles a four pane 3D view, each showing a different angle of the scene.
 :doc:`Toggle Full Screen </interface/window_system/arranging_areas>`
@@ -154,7 +154,7 @@ Allows you to change the way 3D objects are displayed in the viewport.
 - Material
 - Rendered
 
-:doc:`Read more about 3D view options </editors/3dview/display/shading>`
+:doc:`Read more about 3D View options </editors/3dview/display/shading>`
 
 
 Pivot Point Selector
@@ -229,7 +229,7 @@ Render Buttons
 
 The Render Buttons render an OpenGL version of the 3D view.
 
-The first button renders a still image of the Objects in the 3D view without displaying the
+The first button renders a still image of the Objects in the 3D View without displaying the
 grid, axes, etc. It uses the same *Draw* mode as the 3D view,
 so it is rather useful if someone asks to see the wireframe of an Object you are working on.
 

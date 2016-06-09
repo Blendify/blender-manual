@@ -86,7 +86,7 @@ styles (see `Character`_) - note however that most Blender hotkeys you know in *
 do not exist for texts! The second place is the *Button* window
 (*Editing* context), especially the *Font* panel.
 
-The menu of the 3D view header has nearly no use,
+The menu of the 3D View header has nearly no use,
 and there is no *Specials* menu... You have no transform nor mirror tools, and so on.
 However, you can apply to texts the same modifiers as for curves.
 

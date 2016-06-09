@@ -64,7 +64,7 @@ With only the circle selected, enable *Duplication vertices* in the
 :menuselection:`Object panel --> Duplication --> Verts`.
 A monkey head should be placed at every vertex of the circle.
 
-The original monkey head at the center and the parent mesh are still shown in the 3D view but
+The original monkey head at the center and the parent mesh are still shown in the 3D View but
 neither will be rendered. If the placement and rotation of your monkey head is odd,
 you might need to clear its rotation :kbd:`Alt-R`, scale :kbd:`Alt-S`,
 location :kbd:`Alt-G`, and origin :kbd:`Alt-O`.

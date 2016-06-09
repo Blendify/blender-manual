@@ -60,12 +60,12 @@ Options
 To change the projection for a 3D view, choose the :menuselection:`View --> Orthographic`
 or the :menuselection:`View --> Perspective` menu entry.
 The :kbd:`Numpad5` shortcut toggles between the two modes.
-Changing the projection for a 3D view does not affect the way the scene will be rendered.
+Changing the projection for a 3D View does not affect the way the scene will be rendered.
 Rendering is in perspective by default. If you need to create an orthographic rendering,
 select the camera, go to the *Object Data* context and press the
 *Orthographic* button in the *Lens* panel.
 
-The :menuselection:`View --> Camera` menu entry sets the 3D view to camera mode :kbd:`Numpad0`.
+The :menuselection:`View --> Camera` menu entry sets the 3D View to camera mode :kbd:`Numpad0`.
 The scene is then displayed as it will be rendered later (see Fig. Demonstration of camera view).
 The rendered image will contain everything within the orange dotted line.
 Zooming in and out is possible in this view, but to change the viewpoint,

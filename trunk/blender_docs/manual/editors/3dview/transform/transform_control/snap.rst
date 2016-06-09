@@ -48,7 +48,7 @@ in the 3D view's header buttons.
 
 .. figure:: /images/editors_3dview_Transform-Control_Snap-magnet-header.jpg
 
-   Magnet icon in the 3D view header (red when enabled).
+   Magnet icon in the 3D View header (red when enabled).
 
 
 .. _transform-snap-element:
