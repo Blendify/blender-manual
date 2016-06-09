@@ -46,10 +46,9 @@ Alpha
 Setup
 =====
 
-.. figure:: /images/materials_properties_options.jpg
+.. figure:: /images/editors_3dview_Navigating-Layers-relations.jpg
 
-   Setting an Material Pass Index.
-
+   Object Pass Index.
 
 An index can be specify for any object or material in the scene.
 The Object Index can be set in Properties Editor :menuselection:`Object --> Relations --> Pass Index` and
