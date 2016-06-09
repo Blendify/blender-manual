@@ -82,7 +82,6 @@ they can be enabled from the user preferences.
 Outside of the Blender executable,
 there are literally hundreds of add-ons written by many people:
 
-
 - Officially supported add-ons are bundled with Blender.
 - Other **Testing** add-ons are included in development builds but not official releases,
   many of them work reliably and are very useful but are not ensured to be stable for release.
@@ -120,11 +119,11 @@ You can setup an additional search path for scripts in
 Installation
 ^^^^^^^^^^^^
 
-Add-ons are conveniently installed through Blender in the :menuselection:`User Preferences --> Add-ons` window. 
+Add-ons are conveniently installed through Blender in the :doc:`User Preferences </preferences/addons>`. 
 Click the :menuselection:`Install from File...` button and select the ``.py`` or ``.zip`` file.
 
 To manually install scripts or add-ons place them in the ``add-ons``,
 ``modules``, ``presets`` or ``startup`` directory according to their type.
 See the description above.
 
-You can also run scripts by loading them in the :doc:`Text Editor </editors/text_editor>` window.
+You can also run scripts by loading them in the :doc:`Text Editor </editors/text_editor>`.

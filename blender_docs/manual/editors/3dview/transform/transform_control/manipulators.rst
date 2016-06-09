@@ -20,20 +20,20 @@ the face's normal. In instances like this, *Transform Manipulators* may be usefu
 
 .. figure:: /images/Icon-library_3D-Window_3D-transform-manipulator-options.jpg
 
-   Manipulator options in the Window Header.
+   Manipulator options in the Header.
 
 
 Transform manipulators provide a visual representation of the transform options and allow
 movement, rotation and scaling along any axis, mode and orientation of the 3D view. The
 manipulator can be enabled by clicking on the axis icon from the manipulator options portion
-of the window header or via the shortcut key :kbd:`Ctrl-Spacebar`.
+of the header or via the shortcut key :kbd:`Ctrl-Spacebar`.
 
 There is a separate manipulator for each Transform Command.
 Each manipulator can be used separately or in combination with the others.
 Clicking with :kbd:`Shift-LMB` on multiple manipulator icons (arrow, arc, box)
 will combine manipulator options.
 
-Manipulators can be accessed in the header of the *3D View* window:
+Manipulators can be accessed in the header of the *3D View*:
 
 - Axis: Enable/disable the manipulators.
 - Arrow: Translation.

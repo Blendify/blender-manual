@@ -55,7 +55,7 @@ Scaling using the keyboard shortcut
 - Scale the elements by moving the mouse.
 - :kbd:`LMB` click to accept changes.
 
-The amount of scaling will be displayed in the bottom left hand corner of the 3D window.
+The amount of scaling will be displayed in the bottom left hand corner of the 3D View editor.
 
 
 .. figure:: /images/editors_3dview_Transformations-Basic-Scale-scale_value_header.jpg

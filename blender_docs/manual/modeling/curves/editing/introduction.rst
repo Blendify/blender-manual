@@ -41,15 +41,15 @@ When in *Edit Mode*, you can hide and reveal elements from the display.
 This can be useful in complex models with many elements on the Screen.
 
 Hide Selected elements
-   Use :kbd:`H`, or the :menuselection:`Curve --> Show/Hide --> Hide Selected` menu option from the 3D window header.
+   Use :kbd:`H`, or the :menuselection:`Curve --> Show/Hide --> Hide Selected` menu option from the 3D View header.
 
 Show Hidden elements
    Use :kbd:`Alt-H`, or the
-   :menuselection:`Curve --> Show/Hide --> Show Hidden` menu option from the 3D window header.
+   :menuselection:`Curve --> Show/Hide --> Show Hidden` menu option from the 3D View header.
 
 Hide Unselected elements
    Use :kbd:`Shift-H`,
-   or the :menuselection:`Curve --> Show/Hide --> Hide Unselected` menu option from the 3D window header.
+   or the :menuselection:`Curve --> Show/Hide --> Hide Unselected` menu option from the 3D View header.
 
 
 Basic Curve Editing (translation, rotation, scale)

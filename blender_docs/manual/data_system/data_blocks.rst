@@ -285,8 +285,6 @@ For reference, here is a table of data-blocks types stored in blend-files.
      - |tick|
      - |cross|
      - | Used by scenes for render environment settings.
-
-..
    * - WindowManager
      - |cross|
      - |cross|

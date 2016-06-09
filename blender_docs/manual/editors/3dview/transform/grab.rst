@@ -25,7 +25,7 @@ Options and other details will be discussed in their respective sections.
    Translation Display.
 
 While Grab/Move is active, the amount of change in the X, Y,
-and Z co-ordinates is displayed at the bottom left corner of the 3D View window.
+and Z co-ordinates is displayed at the bottom left corner of the 3D View editor.
 
 There are two ways to Grab/Move in *3D View*:
 
@@ -115,7 +115,7 @@ Blender offers options to limit the amount of the transformation in small or pre
 :kbd:`X`/:kbd:`Y`/:kbd:`Z` + decimal number
    This option limits the transformation to the specified axis and the decimal number specified
    will be the magnitude of the translation along that axis.
-   This decimal number is displayed at the bottom left corner of the 3D view window as it is entered.
+   This decimal number is displayed at the bottom left corner of the 3D View editor as it is entered.
 
    - Hitting :kbd:`Backspace` during number entry and deleting the number removes the numerical
      specification option but the object will remain constrained to the same axis.

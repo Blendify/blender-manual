@@ -21,8 +21,8 @@ but changes in the external source file will not be reflected in the referencing
    | Menu:     :menuselection:`File --> Append or Link`
    | Hotkey:   :kbd:`Shift-F1`  or  :kbd:`Ctrl-Alt-O`
 
-In the *File Browser* window navigate to the external source blend-file
-and select the data-block you want to reuse.
+In the :doc:`File Browser </editors/file_browser/introduction>`
+navigate to the external source blend-file and select the data-block you want to reuse.
 
 Options:
 

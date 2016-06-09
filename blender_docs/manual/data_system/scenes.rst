@@ -10,7 +10,7 @@ Scene management and library appending/linking are based on Blender's
 :doc:`Library and Data System </data_system/index>`,
 so it is a good idea to read that manual page first if you are not familiar with the basics of that system.
 
-You can select and create scenes with the *Scene selector* in the Info window header
+You can select and create scenes with the *Scene selector* in the *Info* editor header
 (the bar at the top of most Blender layouts, see *Screen and Scene selectors*).
 
 .. figure:: /images/ConceptScreens25.jpg
@@ -54,8 +54,6 @@ Link Object Data
    but any modifications to the object-data (meshes, materials, etc.) will also affect other scenes.
    This is because a single instance of the "object-data" is now being shared by all of the objects
    in all of the scenes, that link to it.
-
-   More information at the :doc:`Window Type </editors/index>` page.
    This has the effect of making a new independent copy of the object-data.
 Full Copy
    Using this option, nothing is shared.

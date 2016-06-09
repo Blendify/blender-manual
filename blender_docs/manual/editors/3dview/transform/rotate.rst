@@ -41,7 +41,7 @@ Rotation using the keyboard shortcut
   The closer the mouse is to the elements's center, the higher the rotation influence.
 - :kbd:`LMB` click to accept changes.
 
-The amount of rotation will be displayed in the bottom left hand corner of the 3D window.
+The amount of rotation will be displayed in the bottom left hand corner of the 3D View editor.
 
 
 .. figure:: /images/editors_3dview_Transformations-Basic-Rotate-rotate_value_header.jpg

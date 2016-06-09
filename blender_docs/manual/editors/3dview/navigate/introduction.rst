@@ -10,10 +10,10 @@ Blender has a wide array of tools and options to support you in efficiently work
 mouse, keyboard and numpad.
 
 
-3D Window Header
-================
+3D View Header
+==============
 
-The *3D View* window is comprised of a workspace and a header.
+The *3D View* editor is comprised of a workspace and a header.
 The header is shown at the bottom or top of the workspace, and can be hidden if desired.
 The header shows you a menu and the current mode, as explained below.
 
