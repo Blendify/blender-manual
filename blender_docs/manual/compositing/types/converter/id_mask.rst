@@ -10,29 +10,52 @@ ID Mask Node
    ID Mask Node.
 
 
-This node will use the Object Index pass (see RenderLayers)
-to produce an anti-aliased alpha mask for the object index specified.
-The mask is opaque where the object is, and transparent where the object is not.
-If the object is partially transparent, the alpha mask matches the object's transparency.
-This post-process function fills in the jaggies with interpolated values.
+This node can be used to access an alpha mask per object or per material.
 
-.. note:: Object Index
+Input
+=====
 
-   Object indices are only output from a RenderLayers node or stored in a multilayer OpenEXR format image.
-
-
-.. figure:: /images/Compositing-Node-IDMask_panel.jpg
-
-   Setting an Object Index.
+ID value
+   Input for the Object index "IndexOb"  or material index "IndexMa" pass. 
+   Which is an output of the `RenderLayers node </compositing/types/input/render_layers>`_ or 
+   the `Image node </compositing/types/input/render_layers>`_ with a multilayer format.
 
 
-You can specify, for any of the objects in your scene, an Object Index as shown the right
-(the currently select object has an index of 2). When rendered,
-if Object Index passes are enabled, its index will be 2,
-and setting the ID Mask node to 2 will show where that object is in the scene.
+Properties
+==========
 
-This node is extremely well suited to removing the aliases shown as output from the Defocus
-node or DOF noodles caused by some objects being close to camera against objects far away.
+Index
+   Selection of the preciously specified index. 
+Anti-Aliased
+   This post-process function refines the mask. See :term:`anti-aliasing`.
+
+
+Output
+======
+
+Alpha
+   The mask is white where the object is and black where it is not.
+   If the object is transparent, the alpha mask represent that with gray values.
+
+.. note::
+
+   In Blender Internal if a transparent object in front of another,
+   the mask will not reflect partial visibility of the object behind.
+
+
+Setup
+=====
+
+.. figure:: /images/materials_properties_options.jpg
+
+   Setting an Material Pass Index.
+
+
+An index can be specify for any object or material in the scene.
+The Object Index can be set in Properties Editor :menuselection:`Object --> Relations --> Pass Index` and
+:menuselection:`Material --> Options --> Pass Index` for the Material Index.
+To be accessible after rendering, the Object Index "IndexOb"  or 
+Material Index "IndexMa" render pass has to be enabled.
 
 
 Example
@@ -43,17 +66,9 @@ Example
 
    Example.
 
-
 In this example, the left rear red cube is assigned PassIndex 1, and the right cube PassIndex 2.
 Where the two cubes intersect, there is going to be noticeable pixelation because they come together
 at a sharp angle and are different colors. Using the mask from object 1,
 which is smoothed (antialiased) at the edges, we use a *Mix Node* set on *Multiply*
 to multiply the smoothed edges of the image, thus removing those nasty lines, thus, being smoothed out.
 
-.. note::
-
-   Note that the mask returns white where the object is fully visible to the camera
-   (not behind anything else) and black for the part of the object that is partially or totally
-   obscured by a fully or partially opaque object in front of it. If something else is in front of it,
-   even if that thing is partially transparent and you can see the object in a render,
-   the mask will not reflect that partially obscured part.
