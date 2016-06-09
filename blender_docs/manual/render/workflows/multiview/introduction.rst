@@ -12,6 +12,6 @@ rendering engines and it also supports many different stereo 3D visualization ty
 
 .. note::
 
-   If you have a real 3d display at some point you can change the 3D display mode in the Window menu, 
+   If you have a real 3D display at some point you can change the 3D display mode in the Window menu, 
    by calling the Stereo 3D operator. 
    Be aware that some modes require a fullscreen editor to work, and this can be taxing on your CPU.

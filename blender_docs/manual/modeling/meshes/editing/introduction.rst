@@ -5,7 +5,7 @@ Introduction
 
 Blender provides a variety of tools for editing meshes.
 These are available through the *Mesh Tools* palette,
-the Mesh menu in the 3d view header, and context menus in the 3d view,
+the Mesh menu in the 3D View header, and context menus in the 3D View,
 as well as individual shortcut keys.
 
 .. note::

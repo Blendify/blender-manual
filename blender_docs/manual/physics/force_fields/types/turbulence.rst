@@ -8,7 +8,7 @@ Turbulence
 
    Turbulence force field.
 
-A *Turbulence* force field creates a random & chaotic 3d noise effect,
+A *Turbulence* force field creates a random & chaotic 3D noise effect,
 similar to jets of water or geysers under the ocean.
 
 .. figure:: /images/force_field_panel_turbulence.jpg

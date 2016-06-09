@@ -3,7 +3,6 @@
 Introduction
 ************
 
-
 Overview
 ========
 
@@ -22,7 +21,7 @@ Sculpt mode is selected from the mode menu of the *3D View* header.
 Once sculpt mode is activated the *Toolbar* of the *3D View* will change
 to sculpt mode specific panels. The panels in the toolbar will be *Brush*,
 *Texture*, *Tool*, *Symmetry*, *Stroke*, *Curve*, *Appearance*, and *Options*.
-Also a red circle will appear that follows the location of the cursor in the 3d view.
+Also a red circle will appear that follows the location of the cursor in the 3D View.
 
 .. note::
 

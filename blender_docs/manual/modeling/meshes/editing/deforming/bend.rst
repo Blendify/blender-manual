@@ -44,7 +44,7 @@ Clamp
    When the clamp is deactivated, the arc continues around aligning the selected elements into a circle (right).
 
    When off :kbd:`Alt` all selected elements follow a circle,
-   even when outside the segment between the 3d cursor and the mouse.
+   even when outside the segment between the 3D cursor and the mouse.
 
 .. note::
 

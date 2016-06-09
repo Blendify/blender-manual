@@ -52,7 +52,7 @@ Sliding the new edge loop
 Options
 =======
 
-Options are only available while the tool is in use, and are displayed in the 3d view header
+Options are only available while the tool is in use, and are displayed in the 3D View header
 
 Even :kbd:`E`
    Only available for single edge loops.

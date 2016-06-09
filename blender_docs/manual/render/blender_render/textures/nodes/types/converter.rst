@@ -118,4 +118,4 @@ Distance
    Distance node. Coordinate 2 dropdown is displayed.
 
 
-Computes the distance between two 3d coordinates.
+Computes the distance between two 3D coordinates.

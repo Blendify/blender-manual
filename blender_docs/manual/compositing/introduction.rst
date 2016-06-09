@@ -67,7 +67,7 @@ Backdrop
    Backdrop Channels
       See below.
 Auto Render
-   Re-render and composite changed layer when edits to the 3d scene are made.
+   Re-render and composite changed layer when edits to the 3D scene are made.
 
 
 Backdrop

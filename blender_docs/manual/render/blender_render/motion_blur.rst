@@ -45,7 +45,7 @@ is faster but sometimes has unwanted side-effects which are sometimes difficult 
 
 Vector blur is a process done in compositing (post-render time), by rendering the
 scene without any blur, plus a pass that has movement information for each pixel.
-This information is a vector map which describes a 2d or 3d direction and magnitude.
+This information is a vector map which describes a 2D or 3D direction and magnitude.
 The compositor uses that data to blur each pixel in the given direction.
 
 Examples

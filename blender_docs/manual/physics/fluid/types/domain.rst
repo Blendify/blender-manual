@@ -83,7 +83,7 @@ Resolution
       there might be a thin fluid surface that cannot be resolved in the preview.
 
 Display quality
-   How to display a baked simulation in the 3d view (menu *Viewport Display*)
+   How to display a baked simulation in the 3D View (menu *Viewport Display*)
    and for rendering (menu *Render Display*):
 
    Geometry

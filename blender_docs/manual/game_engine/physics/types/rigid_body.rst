@@ -152,7 +152,7 @@ Lock Rotation
 Collision Bounds
 ================
 
-The first thing you must understand is the idea of the 3d Bounding Box.
+The first thing you must understand is the idea of the 3D Bounding Box.
 If you run through all the vertices of a mesh and record the lowest and highest x values,
 you have found the *x min/max* the complete boundary for all x values within the mesh.
 Do this again for y and z, then make a rectangular prism out of these values, and you have a *Bounding Box*.
