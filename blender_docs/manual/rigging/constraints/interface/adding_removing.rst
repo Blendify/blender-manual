@@ -14,7 +14,7 @@ To add a constraint in the 3D view:
    If the chosen constraint needs a target, Blender will add an empty automatically
    as the target and position it at the center of the constrained object.
 
-To add a constraint in the 3D view and simultaneously give it a target:
+To add a constraint in the 3D View and simultaneously give it a target:
    Select the target first and then shift-select the object you would like to constrain.
    Press :kbd:`Ctrl-Shift-C` and choose a constraint from the pop-up menu.
 

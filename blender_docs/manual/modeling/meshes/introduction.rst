@@ -30,7 +30,7 @@ Edit Mode
    Edit Mode Header.
 
 
-Tools and modes in the 3D view header are (left to right):
+Tools and modes in the 3D View header are (left to right):
 
 - View, Select, and Mesh menus
 - Blender Mode

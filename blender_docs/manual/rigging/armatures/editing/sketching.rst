@@ -28,7 +28,7 @@ Sketching is done in two steps:
 - `Converting to Bones`_, using different methods.
 
 The *point of view* is important, as it determines the future bones' roll angle:
-the Z axis of a future bone will be aligned with the view Z axis of the 3D view in
+the Z axis of a future bone will be aligned with the view Z axis of the 3D View in
 which you draw its "parent" stroke (unless you use the *Template* converting method...).
 Strokes are drawn in the current view plane passing through the 3D cursor,
 but you can create somewhat "3D" strokes using the *Adjust* drawing option in different views (see below).
@@ -292,7 +292,7 @@ and that the future bones' ends are shown as green dots on selected free segment
 
 Remember also that the roll rotation of the created bones has been set during their "parent" stroke drawing
 (except for the *Template* conversion method) - their Z axis will be aligned with the view
-Z axis of the active 3D view at draw time.
+Z axis of the active 3D View at draw time.
 
 
 Fixed

@@ -210,7 +210,7 @@ Workflow
 - In a 3D View window, select a mesh and enter UV/Face Select mode
 - :ref:`Unwrap the mesh object <editors-uv_image-index>`
 - In a UV/Image Editor window, either create a new image or open an existing one.
-  If your 3D view is in textured display mode, you should now see the image mapped to your mesh.
+  If your 3D View is in textured display mode, you should now see the image mapped to your mesh.
   Ensure that all faces are selected.
 - In the Bake panel at the bottom of the *Render menu*, bake your desired type of image
   (*Full Render* etcetera.)

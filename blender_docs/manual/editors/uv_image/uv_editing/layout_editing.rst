@@ -58,7 +58,7 @@ Selection Modes
 ---------------
 
 Turning on the *Sync Selection* button in the header causes selection of components
-in the 3D view to sync with their corresponding elements in the UV editor.
+in the 3D View to sync with their corresponding elements in the UV editor.
 This is off by default.
 These two modes have very different results when transforming components in the UV editor.
 
@@ -297,7 +297,7 @@ Once we are satisfied with the face, it is time to turn our attention to the ear
 unselect the faces you were working with. Their
 UVs will disappear from the UV/Image Editor, but they are still there, just not shown.
 (To verify this,
-you can select a few faces in 3D view and it will show up in the UV/Image Editor.)
+you can select a few faces in 3D View and it will show up in the UV/Image Editor.)
 
 To work on the ear, in the 3D View, we now select only the "ear" faces.
 You can use Vertex Groups to select the ear faces. Selecting sub-meshes is easy too,

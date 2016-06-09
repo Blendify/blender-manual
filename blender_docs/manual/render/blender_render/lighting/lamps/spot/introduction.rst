@@ -130,7 +130,7 @@ Blend
 Square
    The *Square* button makes a *Spot* light cast a square light area, rather than the default circular one.
 Show Cone
-   Draw a transparent cone in 3D view to visualize which objects are contained in it.
+   Draw a transparent cone in 3D View to visualize which objects are contained in it.
 Halo
    Adds a volumetric effects to the spot lamp.
    See :doc:`Spot Halos </render/blender_render/lighting/lamps/spot/halos>`.

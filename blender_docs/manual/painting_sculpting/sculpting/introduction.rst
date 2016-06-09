@@ -121,7 +121,7 @@ Brush Panel
 
 Radius
    This option controls the radius of the brush, measured in pixels.
-   :kbd:`F` in the 3D view allows you to change the brush size interactively by
+   :kbd:`F` in the 3D View allows you to change the brush size interactively by
    dragging the mouse and then left clicking (the texture of the brush should be visible inside the circle).
    Typing a number then enter while in :kbd:`F` sizing allows you to enter the size numerically.
    Brush size can be affected by enabling the pressure sensitivity icon, if a supported tablet is being used.
@@ -137,7 +137,7 @@ if even the lowest strength setting still makes too large of a change on the mod
 then you can scale the model (in *Edit Mode*, not *Object Mode*).
 Larger sizes will make the brush's effect smaller, and vice versa.
 You can change the brush strength interactively by pressing :kbd:`Shift-F`
-in the 3D view and then moving the brush and then left clicking.
+in the 3D View and then moving the brush and then left clicking.
 You can enter the size numerically also while in :kbd:`Shift-F` sizing.
 Brush strength can be affected by enabling the pressure sensitivity icon,
 if a supported tablet is being used.

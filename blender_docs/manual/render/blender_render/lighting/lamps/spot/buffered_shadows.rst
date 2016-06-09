@@ -263,7 +263,7 @@ Bias
 
 Clip Start & Clip End
    When a *Spot* light with buffered shadows is added to a scene,
-   an extra line appears on the *Spot* 3D view representation.
+   an extra line appears on the *Spot* 3D View representation.
 
    The start point of the line represents *Clip Start* 's value and the end of the line
    represents *Clip End* 's value.

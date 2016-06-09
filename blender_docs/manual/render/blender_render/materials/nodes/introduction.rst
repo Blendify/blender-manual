@@ -89,7 +89,7 @@ you'll find a *Node Editor* on the top half of the screen.
 When you enabled material nodes,
 a material node and an output node were automatically added to the node editor.
 
-You can also split the 3D view in the default screen in two and change one into a
+You can also split the 3D View in the default screen in two and change one into a
 *Node Editor*.
 
 

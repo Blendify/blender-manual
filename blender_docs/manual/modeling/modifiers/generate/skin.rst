@@ -81,7 +81,7 @@ Symmetry Axes
 Usage
 =====
 
-Add the Skin modifier to a mesh. Disable *Limit selection to visible* in the 3D view so that you can see
+Add the Skin modifier to a mesh. Disable *Limit selection to visible* in the 3D View so that you can see
 the vertices inside the new geometry.
 
 The skin modifier uses ordinary vertices and edges as input.
