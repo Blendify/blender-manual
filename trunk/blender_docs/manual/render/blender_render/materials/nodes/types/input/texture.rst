@@ -4,19 +4,11 @@ Texture Node
 ************
 
 .. figure:: /images/texture-node.jpg
+   :align: right
 
    Texture node.
 
-
-A texture, from the list of textures available in the current blend-file,
-is selected and introduced through the value and/or color socket.
-
-
-.. figure:: /images/texture-node-example.jpg
-   :width: 500px
-
-   Example of the applying Texture node.
-
+Can be used to input image or procedural textures.
 
 Input
 =====
@@ -24,20 +16,33 @@ Input
 Vector
    Uses for map the texture to a specific geometric space.
 
+Properties
+==========
 
-Outputs
-=======
+Texture
+   The texture could be selected from a list of textures available in the current blend-file or link in textures.
+   The textures themselves could not be edited in this note, but in the Texture panel.
+
+
+Output
+======
 
 Value
-   Straight black-and-white value of the texture, combined by the node.
+   Straight black-and-white value of the texture.
 Color
-   Texture color output, combined by the node.
+   Texture color output.
 Normal
-   Direction of normal texture, combined by the node.
+   The of normal map.
+
+
+Example
+=======
+
+.. figure:: /images/texture-node-example.jpg
+   :width: 500px
+
+   Example of the applying Texture node
 
 In the example to the right, a cloud texture, as it would appear to a viewer,
 is added to a base purple material, giving a velvet effect.
-
-Note that you can have multiple texture input nodes. With nodes,
-you simply add the textures to the map and plug them into the map.
 
