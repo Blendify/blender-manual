@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# Project Name documentation build configuration file, created by
+# Blender Manual documentation build configuration file, created by
 # sphinx-quickstart on Fri Jun 10 12:33:27 2016.
 #
 # This file is execfile()d with the current directory set to its
