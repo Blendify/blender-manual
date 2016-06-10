@@ -1,6 +1,6 @@
 
 ###################
-  Convertor Nodes
+  Converter Nodes
 ###################
 
 As the name implies, these nodes convert the colors in the material in some way.
