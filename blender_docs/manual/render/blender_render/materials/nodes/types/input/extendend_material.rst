@@ -4,44 +4,47 @@ Extended Material Node
 **********************
 
 .. figure:: /images/Extended-Material-Node.jpg
+   :align: right
    :width: 200px
 
    Extended Material node.
 
 
-Adds additional input and output channels to the material node.
-
+Adds additional input and output channels 
+to the :doc:`/render/blender_render/materials/nodes/types/input/material`.
+Only the additional sockets are listed. 
 
 Input
 =====
 
-Color
-   Includes a color swatch, allowing you to select the color directly on the node.
-Mirror Color
+Mirror
    Color of mirrored reflection.
 Ambient
    Amount of global ambient color the material receives.
 Emit
-   Amount of light to emit.
+   The emissivity, which is the amount of light to emit.
 SpecTra
-   Alpha for the specular color.
-Ray Mirror
-   Amount of reflectiveness of the object.
+   Specular Transparency, which is the alpha for the specular color.
+Reflectivity
+   The degree to which the material reflects light.
 Alpha
    Transparency of the material by setting all pixels in the alpha channel to the given value.
 Translucency
    Amount of diffuse shading on the back side
 
+Properties
+==========
+
+This node has no additional properties.
+
 
 Output
 ======
 
-Materials can additionaly output the followings:
-
 Diffuse
-   value of the diffuse color, combined by the node.
+   Value of the diffuse color.
 Spec
-   value of the specular color, combined by the node.
+   Value of the specular color.
 AO
-   value of the Ambient Occlusion, combined by the node.
+   Value of the Ambient Occlusion.
 
