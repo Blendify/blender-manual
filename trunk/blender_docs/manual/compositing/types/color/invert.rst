@@ -26,7 +26,7 @@ Color
 Properties
 ==========
 
-In the compositing context this node has following properties.
+In the compositing context this node has the following properties.
 
 RGB
    De/activation of the color channel inversion.

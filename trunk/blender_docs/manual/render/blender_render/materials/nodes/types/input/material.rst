@@ -77,7 +77,7 @@ is connected from an RGB color generator node to the *Color* input socket.
 The specular color, yellow, is connected to the *Spec* input.
 Under *Normal* lighting conditions on a flat surface,
 this material will produce a deep blue color and,
-as the point of view approach a spot perpendicular to the light,
+as the point of view approaches a spot perpendicular to the light,
 the yellow specular color mix in becomes visible.
 
 .. note:: Enable Spec
