@@ -15,7 +15,7 @@ Select a lamp object listed in the Lamp field, then the following outputs will b
 Color
    Lamp color multiplied by the lamp energy.
 Light Vector
-   An unit vector in the direction from the shading point to the lamp.
+   An unit vector in the direction from the lamp to the shading point.
 Distance
    Distance from the shading point to the lamp.
 Shadow
@@ -31,4 +31,3 @@ The light textures and the shadow textures affect the Color and Shadow outputs, 
    If multiple materials use a Lamp Data node linking to the same lamp object,
    including the Lamp Data node into a node group is recommended.
    Otherwise, when the mesh objects are imported to the other scene, all the materials may need to be modified.
-
