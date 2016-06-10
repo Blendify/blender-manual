@@ -27,6 +27,7 @@ Normal Direction
    To manually set a fixed normal direction vector.
    :kbd:`RMB` click and drag on the sphere to set the direction of the normal.
 
+
 Output
 ======
 
