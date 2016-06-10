@@ -243,7 +243,7 @@ latex_documents = [
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-#latex_logo = None
+latex_logo = "../theme/sidebar_logo.png"
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
@@ -282,8 +282,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('contents', 'Blender Reference Manual', 'Blender Manual Documentation',
-   'Campbell Barton', 'Blender Reference Manual', 'One line description of project.',
-   'Miscellaneous'),
+   'Campbell Barton', 'Blender Reference Manual'),
 ]
 
 # Documents to append as an appendix to all manuals.
@@ -296,6 +295,6 @@ texinfo_documents = [
 #texinfo_show_urls = 'footnote'
 
 # translations
-locale_dirs = ['../locale/']   # path is example but recommended.
+locale_dirs = ['../locale/']   # Path to locale
 gettext_compact = False     # optional.
 
