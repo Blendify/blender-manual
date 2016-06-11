@@ -1,5 +1,3 @@
-.. TODO There is more addon related text in extensions/introduction.rst
-   that should be merged in when this section is restructured
 
 *******
 Add-ons
@@ -47,7 +45,8 @@ Here you can also find a button to report a bug specific of this add-on.
 
 .. tip:: Saving Add-on Preferences
 
-   If you want an Add-on to be enabled every time you start Blender, you will need to *Save User Settings*.
+   If you want an Add-on to be enabled every time you start Blender,
+   you will need to *Save User Settings*.
 
 
 Installation of a 3rd party Add-on
@@ -64,7 +63,7 @@ Enable the add-on by turning on the check-box.
 
    You can manually install an add-on, which is useful when developing your own add-ons.
    
-   For information on the location of Blender's add-on directories on each platform, see:
+   For information on the location of Blender's add-on directories on each platform,
    see: :doc:`Configuration & Data Paths </getting_started/installing/configuration/directories>`
 
 
