@@ -54,27 +54,32 @@ Installation of a 3rd party Add-on
 ==================================
 
 For add-ons that you found on the web or your own to show on the list, you have to install them first
-by clicking *Install from File...* and providing a .zip or .py file.
+by clicking *Install from File...* and providing a ``.zip`` or ``.py`` file.
 
 Alternatively, you can manually install an Add-on, which is useful when developing your own add-ons.
-Move or link the files to ``../scripts/addons`` folder (where .. is the path to your Blender configuration folder).
 
-
-File Locations
-==============
-
-For information on the location of Blender's directories
+For information on the location of Blender's add-on directories on each platform, see:
 see: :doc:`Configuration & Data Paths </getting_started/installing/configuration/directories>`
 
-You can also create a personal folder containing new add-ons and configure your files' path in
+
+User Defined Add-on Path
+========================
+
+You can also create a personal folder containing new add-ons and configure your files path in
 the *File* panel of the *User Preferences*.
 To create a personal script folder:
 
-- Create an empty folder (i.e. 'script_addon_2-7x')
-- Add one folder named 'addons'. It must have this name for Blender to recognize it.
-- Put your new add-ons in this 'addons' folder.
+- Create an empty folder (i.e. ``my_scripts``)
+- Add one folder named ``addons``. It must have this name for Blender to recognize it.
+- Put your new add-ons in this ``addons`` folder.
 - open the *File* panel of the *User Preferences*.
-- Fill the *Scripts* entry with the path to your script folder (i.e. 'script_addon_2-7x').
+- Set the *Scripts* in the user-preferences to point to your script folder (i.e. ``my_scripts``).
+- Save the user-preferences and restart Blender for it to recognize the new add-ons location.
+
+.. tip::
+
+   Now when you install add-ons you can select the *Target Path* option to *User Pref*
+   (from the file selector options panel).
 
 
 Development Guidelines
