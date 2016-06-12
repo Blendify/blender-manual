@@ -1,5 +1,6 @@
 .. Editors Note: This page gets copied into render/cycles/nodes/types/color/hue_saturation
 .. Editors Note: This page gets copied into render/blender_render/materials/nodes/types/color/hue_saturation
+.. Editors Note: This page gets copied into render/blender_render/textures/nodes/types/color/hue_saturation
 
 *******************
 Hue Saturation Node
@@ -11,8 +12,10 @@ Hue Saturation Node
 
    Hue Saturation Node.
 
+
 This node applies a color transformation in the HSV color space. 
-Called "Hue Saturation Value" in shader context.
+Called "Hue Saturation Value" in shader and texture context.
+
 
 Input
 =====
@@ -27,7 +30,7 @@ Properties
 ==========
 
 The transformations are relative shifts.
-In the shader context the following properties are available as input sockets.
+In the shader and texture context the following properties are available as input sockets.
 
 Hue
    The Hue slider specifies how the hue rotation of the image. 

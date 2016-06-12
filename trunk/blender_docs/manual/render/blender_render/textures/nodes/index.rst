@@ -4,7 +4,7 @@
 ################
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    introduction.rst
    types/index.rst

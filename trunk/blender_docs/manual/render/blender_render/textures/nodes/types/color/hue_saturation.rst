@@ -1,13 +1,2 @@
-
-********************
-Hue Saturation Value
-********************
-
-.. figure:: /images/texture-nodes-color-hsv.jpg
-   :width: 300px
-
-   Hue Saturation Value node.
-
-
-Use this node to adjust the Hue, Saturation, and Value of an input.
-
+.. DO NOT EDIT FILE. This is simply a stub which copies every thing from the link below.
+.. include:: ../../../../../../compositing/types/color/hue_saturation.rst

@@ -1,12 +1,2 @@
-
-******
-Invert
-******
-
-.. figure:: /images/texture-nodes-color-invert.jpg
-
-   invert node.
-
-
-This node simply inverts the input values and colors.
-
+.. DO NOT EDIT FILE. This is simply a stub which copies every thing from the link below.
+.. include:: ../../../../../../compositing/types/color/invert.rst

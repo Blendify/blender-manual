@@ -1,5 +1,6 @@
 .. Editors Note: This page gets copied into render/cycles/nodes/types/converter/combine_separate
 .. Editors Note: This page gets copied into render/blender_render/materials/nodes/types/converter/combine_separate
+.. Editors Note: This page gets copied into render/blender_render/textures/nodes/types/converter/combine_separate
 
 .. TODO Cycles vector (XYZ) nodes
 
@@ -15,10 +16,10 @@ All of these nodes do essentially the same thing:
 This nodes could be use this to manipulate on each color channel independently.
 Each type is differentiate in the applied :term:`color space`.
 
-In compositing context each node supports the Alpha channel.
-In the shading context of the Blender internal render engine
-the RGB and HSV color spaces are available.
-The Cycles render context offers a additional pair of nodes to combine/separate a vector (XYZ).
+In compositing and texture context each node supports the Alpha channel.
+In the texture context only RGB color space is available. 
+In the shading context of the Blender internal adds HSV and
+the Cycles shading context offers a additional pair of nodes to combine/separate a vector (XYZ).
 
 The Combine nodes could also be used to input single color values.
 For RGBA and HSVA color spaces it is recommended to use the :doc:`/compositing/types/input/rgb`.
