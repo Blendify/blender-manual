@@ -6,12 +6,12 @@ Introduction
 ************
 
 As an alternative to using the :doc:`Texture Stack </render/blender_render/textures/options>`,
-Blender includes a node-based texture generation system which enables you to create textures by combining colors,
-patterns and other textures in much the same way that you combine
+Blender includes a node-based texture generation system, which enables textures creation by combining colors,
+patterns and other textures in the same way as shader writing with
 :doc:`Material Nodes </render/blender_render/materials/nodes/index>`.
 
-You can use these textures wherever you can use regular textures:
-you can place them in texture channels, in material nodes, in particle systems,
+These textures can be use in the same places as regular textures:
+They can be placed in texture channels, in material nodes, in particle systems,
 and even inside other textures.
 
 .. note::
@@ -25,15 +25,15 @@ Using Texture Nodes
 To use texture nodes with the current texture, open the :doc:`Node Editor </editors/node_editor/index>`
 and set it to *Texture* mode by clicking the "Texture" icon (|texture-button|) in its header.
 
-To start adding nodes, you first need to select a material.
-Now you can either click the *New* button in the Node editor,
-or the *New* button in the texture panel. Once you have a texture selected, you can
-toggle it to function as a regular texture or a node texture by clicking the *Use Nodes* option in the Node Editor.
+To start adding nodes, a material has to be to selected.
+A new texture can be created by either clicking the *New* button in the Node editor,
+or the *New* button in the texture panel. Once a texture is selected, it can be 
+toggled to a function as a regular texture or a node texture by clicking the *Use Nodes* option in the Node Editor.
 
 The default node setup will appear: a red-and-white checkerboard node connected to an
-*Output* named "Default". For *texture* nodes,
-you can create as many Outputs as you like in your node setup. (Other types of node networks,
-as you may recall, are limited to only one Output node.) See the next section for details.
+*Output* named "Default". For *texture* nodes, multiple Outputs
+can exist in the node setup. Compare to other types of node contexts, which are limited to one active Output node.
+See the next section for details.
 
 For instructions on how to add, remove and manipulate the nodes in the tree,
 see the :doc:`Node Editor manual </editors/node_editor/nodes/usage>`.
@@ -42,20 +42,19 @@ see the :doc:`Node Editor manual </editors/node_editor/nodes/usage>`.
 Using Multiple Outputs
 ======================
 
-Each texture that you define with Texture Nodes can have several outputs,
-which you can then use for different things. For example,
-you might want your texture to define both a diffuse (color) map and a normal map. To do this,
-you would:
+Each texture defined with Texture Nodes can have several outputs,
+which can then be used for different things. For example,
+a texture that defines both a diffuse (color) map and a normal map. 
+This can be done by:
 
 - Create two texture slots in the texture list, and set them to the same texture data-block.
 - Add two *Output* nodes to the node tree,
   and type new names into their *Name* text-boxes: e.g. "Diffuse" for one and "Normal" for the other.
-- Underneath the texture picker in the texture panel, you'll see a dropdown list with the names of your outputs.
+- Underneath the texture picker in the texture panel, a dropdown list with the names of the outputs are shown.
   For each entry in the texture list, select the desired output by changing the menu entry
   e.g. set on to *Diffuse* and the other to *Normal*).
 
-You can also use these named outputs if you've decided to define your material using Material
-Nodes. In this case, you probably won't be using Texture Channels. Instead, you'll insert
-*Texture* nodes into your Material Node tree using :menuselection:`Add* --> Input --> Texture`.
-Then, inside the texture node that you've just added, you can select which output you want to use
-(e.g. *Diffuse* or *Normal*).
+These named outputs could be used, when the material is defined with Material Nodes.
+In this case, Texture Channels are probably not used. Instead, insert the
+*Texture* nodes into the Material Node tree by using :menuselection:`Add --> Input --> Texture`.
+Inside the just added texture node the output to use can then be selected (e.g. *Diffuse* or *Normal*).
