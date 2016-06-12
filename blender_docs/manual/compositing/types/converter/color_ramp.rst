@@ -1,5 +1,6 @@
 .. Editors Note: This page gets copied into render/cycles/nodes/types/converter/color_ramp
 .. Editors Note: This page gets copied into render/blender_render/materials/nodes/types/converter/color_ramp
+.. Editors Note: This page gets copied into render/blender_render/textures/nodes/types/converter/color_ramp
 
 **************
 ColorRamp Node
