@@ -6,10 +6,10 @@
 .. toctree::
    :maxdepth: 1
 
-   input.rst
-   output.rst
-   color.rst
-   patterns.rst
-   textures.rst
-   converter.rst
-   distort.rst
+   color/index.rst
+   converter/index.rst
+   distort/index.rst
+   input/index.rst
+   output/index.rst
+   patterns/index.rst
+   textures/index.rst

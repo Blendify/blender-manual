@@ -10,7 +10,7 @@ Blender includes a node-based texture generation system, which enables textures 
 patterns and other textures in the same way as shader writing with
 :doc:`Material Nodes </render/blender_render/materials/nodes/index>`.
 
-These textures can be use in the same places as regular textures:
+These textures can be used in the same places as regular textures:
 They can be placed in texture channels, in material nodes, in particle systems,
 and even inside other textures.
 
