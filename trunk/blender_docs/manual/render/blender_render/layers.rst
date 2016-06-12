@@ -11,22 +11,23 @@ Light Override
 
    Examples of where this might be used:
 
-   - Using multiple Render Layers with different light group overrides can
-     allow you to tweak light intensity and color in the compositor (avoiding re-renders).
+   - Using multiple Render Layers with different light group overrides 
+     adds the possibility to tweak light intensity and color
+     in the compositor to avoid re-renders.
    - Speed up a draft render by using only a few lights instead of all of them.
 
 
 Include Options
 ===============
 
-Each render layer has its own set of features which can be enabled/disabled to save time and
-give you control when working with passes:
+Each render layer has its own set of features which can be  enabled/disabled for the whole layer.
+This could be used to save render time and gives control over the passes:
 
 Zmask
-   Only render what's in front of the solid Z values.
+   Actives masking with the selected Mask Layers. Only render what is in *front* of the solid Z values.
 
    Negate
-      Only render what's Behind the solid Z values.
+      Only render what is *behind* the solid Z values.
 All Z
    Z-values are computed for everything in view, not just those things that are rendered. When disabled,
    objects not included in the render have no ("infinite") z value.
@@ -36,7 +37,7 @@ Halo
    Halo materials are rendered.
 ZTransp
    Transparency may be Z-based or Ray-traced. If Z-based,
-   enabling *Ztra* renders transparent areas with the z-value of what is behind the transparent area.
+   enabling *Ztransp* renders transparent areas with the z-value of what is behind the transparent area.
 Sky
    Turning on Sky renders the sky, as defined in your material world settings. Otherwise,
    a black alpha transparent background is rendered.
