@@ -244,22 +244,40 @@ Tools
       Tools for Curves.
 
    Reset View
-      Resets view of the curve.
+      Resets the view of the curve.
    Vector Handle
       Vector type of curve point's handle.
+      Breaks the tangent at the curve handle, making it an angle.
    Auto Handle
       Automatic type of curve point's handle.
    Extend Horizontal
-      Extends the curve horizontal.
-   Extend Extrapolated
-      Extends the curve extrapolated.
-   Reset Curve
-      Resets the curve in default (removes all added curve's points).
-Clipping
-   Enable/disable clipping and set the values to clip to.
+      Causes the curve to stay horizontal before the first point and after the last point.
 
+      .. figure:: /images/ui-curve-extendHorizontal.jpg
+         :width: 150px
+      
+         Extend Horizontal.
+
+   Extend Extrapolated
+      Causes the curve to extrapolate before the first point and after the last point,
+      based on the shape of the curve.
+
+      .. figure:: /images/ui-curve-extendExtrapolate.jpg
+         :width: 150px
+      
+         Extend Extrapolate.
+
+   Reset Curve
+      Resets the curve in default (removes all points added to the curve).
+Clipping
+   Use Clipping
+      Forces curve points to stay between specified values.
+   Min X/Y and Max X/Y
+      Set the minimum and maximum bounds of the curve points.
 Delete
-   Remove the selected control point.
+   Remove the selected control point. The first and last points cannot be deleted.
+X, Y
+  The coordinates of the selected control point.
 
 
 List View
