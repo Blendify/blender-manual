@@ -1,3 +1,4 @@
+.. Editors Note: This page gets copied into render/blender_render/textures/nodes/types/input/time
 
 *********
 Time Node
