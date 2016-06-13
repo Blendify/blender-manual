@@ -10,6 +10,29 @@ Texture Node
 
 The texture node can be used to load a another node based or non-node based texture.
 
-Color 1 and Color 2
-   These can be used to remap a greyscale texture using two colors.
+
+Input
+=====
+
+These two colors can be used to remap a greyscale texture.
+ 
+Color 1
+   White Level.
+Color 2
+   Black Level.
+
+
+Properties
+==========
+
+Texture
+   The texture could be selected from a list of textures available in the current blend-file or link in textures.
+   The textures themselves could not be edited in this note, but in the Texture panel.
+
+
+Output
+======
+
+Color
+   Standard color output.
 
