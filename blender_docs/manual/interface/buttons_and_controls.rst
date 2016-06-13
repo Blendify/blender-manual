@@ -265,14 +265,14 @@ For example, the *Add Modifier* button will produce a menu with all of the avail
 
    Modifier options.
 
+.. _ui-data_block:
 
 Data-Block Menus
 ----------------
 
 Menu buttons are used to link Data-Blocks to each other.
-data-blocks are items like *Meshes*, *Objects*, *Materials*, *Textures*, and so on.
+Data-blocks are items like meshes, objects, materials, textures, and so on.
 
-These menu's may show a preview and allow you to search by name since its common all items won't fit in the list.
 
 .. figure:: /images/ConceptButtons4_1.jpg
    :align: right
@@ -280,11 +280,24 @@ These menu's may show a preview and allow you to search by name since its common
    Data-Block's link menu with search.
 
 
-   - The first button (with an icon of the Data-Block type) opens up a menu to select an item
-     by clicking :kbd:`LMB`.
-   - The second button displays the name of the linked Data-Block which can be edited as a regular text field.
-   - The "+" button duplicates the current Data-Block and applies it.
-   - The "X" button clears the link.
+Data-Block type
+   Shows a icon. Opens up the following popup menu.
+
+   List
+      A list of data-block available in the current blend-file or link in to select an item from.
+      The menu may show a preview besides the items and 
+      a search box to search the items in the list by name.
+Data-block name
+   Displays the name of the linked Data-Block, which can be edited as a regular text field.
+Fake User "F"
+   Saves this data-block data-block, even if it has no users.
+New
+   Plus "+"
+      Duplicates the current data-block and applies it.
+   Open file
+      Opens the file browser.
+Unlink data-block "X"
+   Clears the link.
 
 Sometimes there is a list of applied data-blocks
 (such as a list of materials used on the object). See Fig. data-block link buttons above.
