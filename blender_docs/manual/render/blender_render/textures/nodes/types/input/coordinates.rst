@@ -4,14 +4,30 @@ Coordinates
 ***********
 
 .. figure:: /images/texture-nodes-coordinate2.jpg
+   :align: right
 
    Coordinates node.
 
+Input
+=====
 
-The Coordinates node outputs the geometry local coordinates,
-relative to its bounding box as RGB colors:
+This node has no inputs.
 
-- Red channel corresponds to X value.
-- Green channel corresponds to Y value.
-- Green channel corresponds to Z value.
+
+Properties
+==========
+
+This node has no properties.
+
+
+Output
+======
+
+Coordinates
+   The Coordinates node outputs the geometry local coordinates,
+   relative to its bounding box as RGB colors:
+
+   - Red channel corresponds to X value.
+   - Green channel corresponds to Y value.
+   - Green channel corresponds to Z value.
 
