@@ -4,6 +4,7 @@ Texture Node
 ************
 
 .. figure:: /images/texture-nodes-texture.jpg
+   :align: right
 
    Texture node.
 

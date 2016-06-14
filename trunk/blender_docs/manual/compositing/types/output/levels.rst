@@ -18,20 +18,13 @@ Input
 Image
    Standard image input.
 
+
 Properties
 ==========
 
 Channel
-   C
-      Combined RGB
-   R
-      Red
-   G
-      Green
-   B
-      Blue
-   L
-      Luminance
+   C (Combined RGB), R (Red), G (Green), B (Blue), L (Luminance)
+
 
 Output
 ======

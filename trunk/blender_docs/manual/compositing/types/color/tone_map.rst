@@ -15,8 +15,8 @@ medium that has a more limited dynamic range.
 
 Essentially,
 tone mapping addresses the problem of strong contrast reduction from the scene values
-(radiance) to the displayable range while preserving the image details and color appearance
-important to appreciate the original scene content.
+(radiance) to the displayable range, while preserving the image details and color appearance.
+This is important to appreciate the original scene content.
 
 
 Input
