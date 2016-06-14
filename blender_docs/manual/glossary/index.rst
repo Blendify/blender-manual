@@ -670,3 +670,8 @@ For other common conventions used throughout the manual.
    World Space
       A 3D coordinate system that originates at a point at the origin of the world.
       Compare to :term:`Local Space`.
+
+   Z-buffer
+      Raster-based storage of the distance measurement between the camera and the surface points.
+      Surface points which are in front of the camera have a positive Z value and
+      points behind have negative values. The Z-Depth map can be visualized as a greyscale image.
