@@ -19,7 +19,13 @@ Inputs
 ======
 
 Color
-   surface reflection color.
+   Surface reflection color.
+
+
+Properties
+==========
+
+This node has no properties.
 
 
 Outputs

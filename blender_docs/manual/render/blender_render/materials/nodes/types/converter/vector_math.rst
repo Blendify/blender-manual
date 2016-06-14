@@ -8,33 +8,23 @@ Vector Math Node
    Vector Math node.
 
 
-This node performs the selected math operation on vectors.
-Select the math function by clicking the up-down selector where the "Add" selection is shown.
+This node performs vector math operation.
 
 
 Inputs
 ======
 
 Vector
-   Input vector 1 (upper). The value can be provided by another node or set manually.
+   First vector input.
 Vector
-   Input vector 2 (lower). The value can be provided by another node or set manually.
+   Second vector input.
 
 
-Outputs
-=======
-
-Vector
-   Output vector, converted by the node.
-Value
-   Output value, converted by the node.
-
-
-Controls
-========
+Properties
+==========
 
 Operation
-   Selector the math function for conversion.
+   Selector of the math function.
 
    Add
       Adding input 1 and 2.
@@ -43,12 +33,21 @@ Operation
    Average
       Averaging input 1 and 2.
    Dot Product
-      Algebraic operation that takes two equal-length sequences of vectors 1 and 2 and returns a single number.
-      Result - scalar.
+      Algebraic operation that takes two equal-length sequences of input vectors.
+      The result is a scalar value.
    Cross Product
-      Geometric binary operation on two vectors 1 and 2 in three-dimensional space.
+      Geometric binary operation on the two vectors inputs in three-dimensional space.
       It results in a vector which is perpendicular to both and therefore normal to the plane containing them.
-      Result - vector.
    Normalize
       Normalizing input 1 and 2.
+
+
+Outputs
+=======
+
+Vector
+   Standard vector output.
+Value
+   Standard value output.
+
 
