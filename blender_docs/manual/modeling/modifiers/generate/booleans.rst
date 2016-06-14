@@ -171,7 +171,7 @@ Blender will also use the same image mapped to the target faces in the modified 
 
 Below we have four Images, a UV sphere mapped with a test grid tinted blue and the other face tinted in purple,
 one face of the cube tinted in a light orange and the other faces using the normal test grid.
-The firat image shows the operation at the start (difference), and on to the right of that shows the resulting mesh.
+The first image shows the operation at the start (difference), and on to the right of that shows the resulting mesh.
 And in the bottom row we show the unwrap in the Blender UV/Image Editor Window.
 
 .. list-table::
