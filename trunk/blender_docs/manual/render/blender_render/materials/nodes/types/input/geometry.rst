@@ -15,6 +15,24 @@ Use this node to feed the Normal vector input on the Material node,
 to see how the material will look (i.e. shine, or reflect light)
 under different lighting conditions. Your choices are:
 
+Inputs
+======
+
+This node has no inputs.
+
+
+Properties
+==========
+
+UV layer
+   To select a listed UV map.
+Color layer
+   To select a listed vertex color data (Vertex Paint, Weight Paint).
+
+
+Outputs
+=======
+
 Global
    Global position of the surface.
 Local

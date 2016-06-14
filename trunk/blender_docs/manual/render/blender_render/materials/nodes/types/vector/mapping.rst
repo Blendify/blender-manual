@@ -9,31 +9,23 @@ Mapping Node
 
 
 Essentially mapping node allows the user to modify a mapping of system of 3D-coordinates.
-Typically used for modifying texture coordinates.
-
 Mapping can be rotated and clamped if desired.
+
+Typically used for modifying texture coordinates.
 
 
 Inputs
-------
+======
 
 Vector
-   The input vector (3D-direction in relation to the camera) of some the coordinates' mapping.
-   The value can be provided by another node or set manually.
+   Standard vector input.
 
 
-Outputs
-=======
-
-Vector
-   The output vector, combined by the node.
-
-
-Controls
-========
+Properties
+==========
 
 The controls of the node have been ordered in X, Y, Z order.
-If you want to use the clamping options, try enabling Min and Max.
+Clamping can be enabled by Min and Max.
 
 Vector type selector
    Type of vector that the mapping transforms.
@@ -58,4 +50,11 @@ Min
    Minimum clipping value.
 Max
    Maximum clipping value.
+
+
+Outputs
+=======
+
+Vector
+   Standard vector output.
 
