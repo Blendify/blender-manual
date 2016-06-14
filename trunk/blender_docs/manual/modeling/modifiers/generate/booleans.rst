@@ -48,14 +48,17 @@ The Boolean modifier. Then, click on the *Add Modifier*
 Button and Blender will show you a list of all of the available Modifiers.
 The Boolean modifier is located on the third row in the *Generate* Column.
 
-You can also click on the *Add Modifier* Button and use :kbd:`N` to add the
+You can also click on the *Add Modifier* Button and use :kbd:`B` to add the
 Boolean modifier, or use Blender search with the shortcut :kbd:`Spacebar` and type "Add Modifier",
-click on *Add Modifier* and press :kbd:`N`.
+click on *Add Modifier* and press :kbd:`B`.
 
-When you add the Boolean modifier for an Object, Blender will need a second Object to perform the operation.
-You can use open or closed Meshes, as long as they have faces for calculations.
+When you add the Boolean modifier for an object, Blender will need a second object to 
+be the target of the operation.
 
-You can add one or more modifiers of this type for an Object but you can only apply one
+You can use open or closed meshes, as long as they have available face normals for the 
+calculations to take effect.
+
+You can add one or more modifiers of this type for an Object but you can only apply one 
 operation for the Boolean modifier at a time.
 
 
