@@ -21,12 +21,9 @@ This node has no input sockets.
 Properties
 ==========
 
+Image
+   Selection of different type of media. See source below. For controls see :ref:`ui-data_block`.
 Source
-   - a preloaded image could be loaded by clicking on image file icon to the left and 
-     selecting it from the list.
-   - or by clicking the *Open* button to select a file/s via the
-     :doc:`file-browser </editors/file_browser/introduction>`.
-
    Single Image
       Still image or a single frame.
    Image Sequence
@@ -34,10 +31,10 @@ Source
 
       Frame
          A label showing the current frame.
-      options
+      further options
          see: Movie below 
    Movie
-      Frames packed into a container
+      Frames packed into a container.
 
       Frames
          The range of frames to be shown.

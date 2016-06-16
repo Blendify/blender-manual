@@ -32,12 +32,7 @@ Properties
 
 Movie Clip
    Used to select the movie clip whose plane track to use.
-
-   - a preloaded image could be loaded by clicking on image file icon to the left and 
-     selecting it from the list.
-   - or by clicking the *Open* button to select a file/s via the
-     :doc:`file-browser </editors/file_browser/introduction>`.
-
+   For controls see :ref:`ui-data_block`.
 Object
    Used to select the object to which the plane track is linked.
 Track

@@ -28,10 +28,8 @@ This node has no input sockets.
 Properties
 ==========
 
-- a preloaded footage could be loaded by clicking on image file icon to the left and 
-  selecting it from the list.
-- or by clicking the *Open* button to select a file/s via the
-  :doc:`file-browser </editors/file_browser/introduction>`.
+Movie Clip
+   Used to select the movie clip. For controls see :ref:`ui-data_block`.
 
 
 Outputs
