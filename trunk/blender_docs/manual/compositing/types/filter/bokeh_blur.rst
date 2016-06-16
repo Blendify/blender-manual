@@ -18,8 +18,8 @@ Several performance optimizations are also available such as OpenCL support,
 calculation area restriction and masking.
 
 
-Input
-=====
+Inputs
+======
 
 Image
    Standard image input.
@@ -47,8 +47,8 @@ Max blur
    limiting the number of pixels across which the blur is calculated.
 
 
-Output
-======
+Outputs
+=======
 
 Image
    Standard image output.

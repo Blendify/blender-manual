@@ -12,8 +12,8 @@ Map Value Node
 Map Value node is used to scale, offset and clamp values.
 
 
-Input
-=====
+Inputs
+======
 
 Value
    Standard Value input. (value refers to each vector in the set).
@@ -32,8 +32,8 @@ Min, Max
    Defines a range between minimum and maximum to :term:`clamp` the input value to.
 
 
-Output
-======
+Outputs
+=======
 
 Value
    Standard value output.

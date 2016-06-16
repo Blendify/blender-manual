@@ -11,8 +11,8 @@ Crop Node
 
 The Crop Node takes an input image and crops it to a selected region.
 
-Input
-=====
+Inputs
+======
 
 Image
    Standard image input.
@@ -33,8 +33,8 @@ Crop Region Values
    lower, upper, left, right
 
 
-Output
-======
+Outputs
+=======
 
 Image
    Standard image output.

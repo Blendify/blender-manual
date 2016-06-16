@@ -11,8 +11,8 @@ Color Key Node
 
 The color key node creates a matte based on a specified color of the input image.
 
-Input
-=====
+Inputs
+======
 
 Image
    Standard image input.
@@ -29,8 +29,8 @@ Color
    Hue, Saturation, Value
 
 
-Output
-======
+Outputs
+=======
 
 Image
    Image with its alpha channel adjusted for the keyed selection.

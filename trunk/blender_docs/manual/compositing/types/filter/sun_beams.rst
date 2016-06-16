@@ -17,8 +17,8 @@ Sun Beams is a 2D effect for simulating the effect of bright light getting scatt
 This phenomenon can be created by renderers, but full volumetric lighting is
 a rather arduous approach and takes a lot of render time.
 
-Input
-=====
+Inputs
+======
 
 Image
    Standard image input.
@@ -33,8 +33,8 @@ Ray length
    Length of the rays as a factor of the image size.
 
 
-Output
-======
+Outputs
+=======
 
 Image
    Standard image output.

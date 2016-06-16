@@ -13,8 +13,8 @@ Normal Node
 
 The Normal node generates a normal vector and a dot product.
 
-Input
-=====
+Inputs
+======
 
 Normal
    Normal vector input.
@@ -28,8 +28,8 @@ Normal Direction
    :kbd:`RMB` click and drag on the sphere to set the direction of the normal.
 
 
-Output
-======
+Outputs
+=======
 
 Normal
    Normal vector output.

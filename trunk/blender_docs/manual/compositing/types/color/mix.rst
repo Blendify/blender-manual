@@ -16,8 +16,8 @@ This node mixes images by working on the individual and corresponding pixels
 of the two input images.
 Called "MixRGB" in the shader and texture context.
 
-Input
-=====
+Inputs
+======
 
 Fac
    Controls the amount of influence the node exerts on the output image.
@@ -47,8 +47,8 @@ Clamp
    Limit the highest color value to not exceed 1. 
 
 
-Output
-======
+Outputs
+=======
 
 Image
    Standard image output.

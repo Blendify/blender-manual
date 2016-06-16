@@ -14,8 +14,8 @@ This node displaces the pixel position based on an input vector.
 This node could be used to model phenomena, like hot air distortion, 
 refractions of uneven glass or for surreal video effects.
 
-Input
-=====
+Inputs
+======
 
 Image
    Standard image input.
@@ -37,8 +37,8 @@ Properties
 
 This node has no properties.
 
-Output
-======
+Outputs
+=======
 
 Image
    Standard image output.

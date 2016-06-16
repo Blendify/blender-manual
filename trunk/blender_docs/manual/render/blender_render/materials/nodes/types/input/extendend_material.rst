@@ -14,8 +14,8 @@ Adds additional input and output sockets
 to the :doc:`/render/blender_render/materials/nodes/types/input/material`.
 Only the additional sockets are listed. 
 
-Input
-=====
+Inputs
+======
 
 Mirror
    Color of mirrored reflection.
@@ -38,8 +38,8 @@ Properties
 This node has no additional properties.
 
 
-Output
-======
+Outputs
+=======
 
 Diffuse
    Value of the diffuse color.

@@ -12,8 +12,8 @@ Render Layers Node
 This node is the starting place for getting a picture of your scene into the compositing node
 map.
 
-Input
-=====
+Inputs
+======
 
 This node has no input sockets.
 
@@ -32,8 +32,8 @@ Render layer
    A list of available :doc:`RenderLayer </render/post_process/layers>`.
    The render button is a short hand to re-render the active scene.
 
-Output
-======
+Outputs
+=======
 
 Image
    Rendered image

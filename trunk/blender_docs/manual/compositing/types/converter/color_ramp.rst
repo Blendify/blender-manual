@@ -15,8 +15,8 @@ ColorRamp Node
 The ColorRamp Node is used for mapping values to colors with the use of a gradient.
 
 
-Input
-=====
+Inputs
+======
 
 Fac
    The Factor input is used as an index for the color ramp.
@@ -29,8 +29,8 @@ Color Ramp
    For controls see :ref:`ui-color_ramp_widget`.
 
 
-Output
-======
+Outputs
+=======
 
 Image
    Standard image output.

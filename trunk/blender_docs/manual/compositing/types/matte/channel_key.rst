@@ -16,8 +16,8 @@ For example in YUV color space,
 this is useful when compositing stock footage of explosions (very bright)
 which are normally shot against a solid, dark background.
 
-Input
-=====
+Inputs
+======
 
 Image
    Standard image input.
@@ -47,8 +47,8 @@ Limit
       (which is supposed to be - relatively - low values: from 0.0 to this value).
 
 
-Output
-======
+Outputs
+=======
 
 Image
    Image with an alpha channel adjusted for the keyed selection.

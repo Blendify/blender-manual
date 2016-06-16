@@ -11,8 +11,8 @@ Set Alpha Node
 
 This node adds an alpha channel to an image.
 
-Input
-=====
+Inputs
+======
 
 Image
    Standard image input.
@@ -27,8 +27,8 @@ Properties
 This node has no properties.
 
 
-Output
-======
+Outputs
+=======
 
 Image
    Standard image output.

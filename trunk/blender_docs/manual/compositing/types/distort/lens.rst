@@ -11,8 +11,8 @@ Lens Distortion Node
 
 Use this node to simulate distortions that real camera lenses produce.
 
-Input
-=====
+Inputs
+======
 
 Image
    Standard image input.
@@ -35,8 +35,8 @@ Fit
    Scales image so black areas are not visible. Only works for positive distortion.
 
 
-Output
-======
+Outputs
+=======
 
 Image
    Standard image output.

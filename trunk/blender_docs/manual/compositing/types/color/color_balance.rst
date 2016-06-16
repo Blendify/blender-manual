@@ -9,8 +9,8 @@ The Color Balance node can adjust the color and values of an image.
 
    Bright/Contrast Node.
 
-Input
-=====
+Inputs
+======
 
 Fac
    Controls the amount of influence the node exerts on the output image
@@ -40,8 +40,8 @@ Offset/Power/Slope (ASC-CDL)
       Multiplier.
 
 
-Output
-======
+Outputs
+=======
 
 Color
    Standard output image.

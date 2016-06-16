@@ -12,8 +12,8 @@ Image Node
 The *Image* node injects any image :doc:`format that is supported by Blender </render/output/output>`.
 
 
-Input
-=====
+Inputs
+======
 
 This node has no input sockets.
 
@@ -57,8 +57,8 @@ Source
    More options could be set in the properties panel.
 
 
-Output
-======
+Outputs
+=======
 
 The first two sockets are the minimum.
 

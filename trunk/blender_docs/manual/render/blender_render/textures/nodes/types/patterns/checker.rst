@@ -12,8 +12,8 @@ Checker
 
 The checker node creates a checkerboard pattern.
 
-Input
-=====
+Inputs
+======
 
 color 1, color 2
    Image inputs setting the color of the squares.
@@ -27,8 +27,8 @@ Properties
 This node has no properties.
 
 
-Output
-======
+Outputs
+=======
 
 Color
    Standard image output.

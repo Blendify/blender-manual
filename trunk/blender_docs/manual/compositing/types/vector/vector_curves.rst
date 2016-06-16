@@ -15,8 +15,8 @@ The Vector Curves node maps an input vector components to a curve.
 
 Use this curve node to slow things down or speed them up from the original scene.
 
-Input
-=====
+Inputs
+======
 
 In the shader context the node also has an additional Factor property.
 
@@ -34,8 +34,8 @@ Channel
 Curve
    For the curve controls see: :ref:`Curve widget <ui-curve_widget>`.
 
-Output
-======
+Outputs
+=======
 
 Vector
    Standard vector output.

@@ -12,8 +12,8 @@ At
 Returns the color of a texture at the specified coordinates.
 
 
-Input
-=====
+Inputs
+======
 
 Texture
    Standard image input.
@@ -28,8 +28,8 @@ Properties
 This node has no properties.
 
 
-Output
-======
+Outputs
+=======
 
 Texture
    Standard image output.

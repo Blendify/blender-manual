@@ -14,8 +14,8 @@ Alpha Over Node
 Use this node to layer images on top of one another.
 AlphaOver does not work on the colors of an image. 
 
-Input
-=====
+Inputs
+======
 
 Fac
    Controls the amount of influence the node exerts on the output image.
@@ -35,8 +35,8 @@ PreMul
    Mix Factor. See :term:`Alpha Channel`.
 
 
-Output
-======
+Outputs
+=======
 
 Image
    Standard image output.

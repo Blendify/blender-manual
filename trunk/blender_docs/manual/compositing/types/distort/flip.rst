@@ -14,8 +14,8 @@ This node flips an image at defined axis .
 You can use this node to just flip or use it as a part of mirror setting.
 Mix half of the image to be mirrored with its flipped version to produce mirrored image.
 
-Input
-=====
+Inputs
+======
 
 Image
    Standard image input.
@@ -30,8 +30,8 @@ Axis
    Flip X, Flip X, Flip X & Y
 
 
-Output
-======
+Outputs
+=======
 
 Image
    Standard image output.

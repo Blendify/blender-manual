@@ -15,8 +15,8 @@ RGB Curves Node
 This node allows color corrections for each color channel and levels adjustments in the compositing context.
 
 
-Input
-=====
+Inputs
+======
 
 Fac
    Controls the amount of influence the node exerts on the output image.
@@ -44,8 +44,8 @@ Curve
    For the curve controls see: :ref:`Curve widget <ui-curve_widget>`.
 
 
-Output
-======
+Outputs
+=======
 
 Image
    Standard image output

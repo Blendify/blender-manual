@@ -14,8 +14,8 @@ This node combines the functionality of three other nodes: :doc:`Scale </composi
 :doc:`translate </compositing/types/distort/translate>`,
 and :doc:`rotate </compositing/types/distort/rotate>` nodes.
 
-Input
-=====
+Inputs
+======
 
 Image
    Standard image input.
@@ -38,8 +38,8 @@ Filter
    Nearest, Bilinear, Bicubic
 
 
-Output
-======
+Outputs
+=======
 
 Image
    Standard image output.

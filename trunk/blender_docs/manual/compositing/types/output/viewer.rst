@@ -15,8 +15,8 @@ Select a view node with :kbd:`LMB` to switch between multiple view nodes.
 It is possible to automatically plug a Viewer node to any other node 
 by pressing :kbd:`Shift-Ctrl-LMB` on it.
 
-Input
-=====
+Inputs
+======
 
 see :doc:`Composite Node </compositing/types/output/composite>`.
 
@@ -36,8 +36,8 @@ Tile order
    Center
       Calculates the tiles around a specific center, defined by *X* and *Y* fields.
 
-Output
-======
+Outputs
+=======
 
 This node has no output sockets.
 

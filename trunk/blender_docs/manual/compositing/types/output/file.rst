@@ -15,8 +15,8 @@ This node can be used as a way to automatically save the image after a render;
 In addition, since this node can be hooked in anywhere in the node tree,
 it can also save intermediate images automatically.
 
-Input
-=====
+Inputs
+======
 
 Image
    The image(s) will be saved on rendering, writing to the current frame.
@@ -45,8 +45,8 @@ File Format label
    More options could be set in the properties panel.
 
 
-Output
-======
+Outputs
+=======
 
 This node has no output sockets.
 

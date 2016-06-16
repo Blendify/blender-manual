@@ -12,8 +12,8 @@ The *SplitViewer* node takes two images and displays these side-by-side
 as backdrop or as a Viewer Node output.
 
 
-Input
-=====
+Inputs
+======
 
 Image
    Shown on the right or top half set by the axis.
@@ -28,8 +28,8 @@ Axis
 Factor
     Percentage factor setting the space distribution between the two images.
 
-Output
-======
+Outputs
+=======
 
 This node has no output sockets.
 

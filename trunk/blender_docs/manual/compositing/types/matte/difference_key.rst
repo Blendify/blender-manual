@@ -12,8 +12,8 @@ Difference Key Node
 This node produces a matte that isolates foreground content by comparing it with a reference background image.
 
 
-Input
-=====
+Inputs
+======
 
 Image
    Contains foreground content against the background that is to be removed.
@@ -30,8 +30,8 @@ Falloff
    Increase to make nearby pixels partially transparent producing a smoother blend along the edges.
 
 
-Output
-======
+Outputs
+=======
 
 Image
    Image with its alpha channel adjusted for the keyed selection.

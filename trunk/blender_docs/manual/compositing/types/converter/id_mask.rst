@@ -12,8 +12,8 @@ ID Mask Node
 
 This node can be used to access an alpha mask per object or per material.
 
-Input
-=====
+Inputs
+======
 
 ID value
    Input for the Object index "IndexOb"  or material index "IndexMa" pass. 
@@ -30,8 +30,8 @@ Anti-Aliased
    This post-process function refines the mask. See :term:`anti-aliasing`.
 
 
-Output
-======
+Outputs
+=======
 
 Alpha
    The mask is white where the object is and black where it is not.

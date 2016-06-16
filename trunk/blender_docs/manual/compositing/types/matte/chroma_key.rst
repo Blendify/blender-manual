@@ -14,8 +14,8 @@ The *Chroma Key* node determines if a pixel is a foreground or background
 
 Use this, for example, to composite images that have been shot in front of a green or blue screen.
 
-Input
-=====
+Inputs
+======
 
 Image
    Standard image input.
@@ -36,8 +36,8 @@ Falloff
    Increase to make nearby pixels partially transparent producing a smoother blend along the edges.
 
 
-Output
-======
+Outputs
+=======
 
 Image
    Image with its alpha channel adjusted for the keyed selection.

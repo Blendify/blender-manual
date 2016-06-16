@@ -15,8 +15,8 @@ This node rotates an image.
 .. TODO: document interpolation methods (bicubic, bilinear, nearest)
 
 
-Input
-=====
+Inputs
+======
 
 Image
    Standard image input.
@@ -33,8 +33,8 @@ Filter
    Bilinear, Bicubic, Nearest
 
 
-Output
-======
+Outputs
+=======
 
 Image
    Standard image output.

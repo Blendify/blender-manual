@@ -13,8 +13,8 @@ The translate node translates (moves) an image.
 
 Could also be used to add a 2D Camera shake.
 
-Input
-=====
+Inputs
+======
 
 Image
    Standard image input.
@@ -33,8 +33,8 @@ Wrapping
    None, X Axis, Y Axis, Both Axis
 
 
-Output
-======
+Outputs
+=======
 
 Image
    Standard image output.

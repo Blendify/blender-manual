@@ -11,8 +11,8 @@ Image Node
 
 The image node can be used to load an external image.
 
-Input
-=====
+Inputs
+======
 
 This node has no inputs.
 
@@ -24,8 +24,8 @@ Image
    See :ref:`ui-data_block`.
 
 
-Output
-======
+Outputs
+=======
 
 Color
    Standard color output.

@@ -13,8 +13,8 @@ Directional Blur Node
 
 Blurs an image in a specified direction and magnitude. Can be used to fake motion blur.
 
-Input
-=====
+Inputs
+======
 
 Image
    Standard image input.
@@ -44,8 +44,8 @@ Zoom
    Scales the image each iteration, creating the effect of a zoom.
 
 
-Output
-======
+Outputs
+=======
 
 Image
    Standard image output.

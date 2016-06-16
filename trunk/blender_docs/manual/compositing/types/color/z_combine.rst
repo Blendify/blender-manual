@@ -15,8 +15,8 @@ It overlays the images using the provided Z values to
 detect which parts of one image are in front of the other.
 
 
-Input
-=====
+Inputs
+======
 
 Image
    The background image.
@@ -40,8 +40,8 @@ Anti-Alias Z
    Applies :term:`Anti-Aliasing` to avoid artifacts at sharp edges or areas with a high contrast.
 
 
-Output
-======
+Outputs
+=======
 
 Image
    If both Z values are equal, it uses the foreground image.

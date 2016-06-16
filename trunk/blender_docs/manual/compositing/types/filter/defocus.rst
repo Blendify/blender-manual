@@ -15,8 +15,8 @@ This node blurs areas of an image based on a map/mask input.
 It is typically used to emulate depth of field (:term:`DOF`) using a post-processing method with a Z-buffer input.
 But also allows to blur images that are not based on Z depth too.
 
-Input
-=====
+Inputs
+======
 
 Image
    Standard image input.
@@ -71,8 +71,8 @@ Z Scale
    This parameter can be used to scale the range of the Z input.
 
 
-Output
-======
+Outputs
+=======
 
 Image
    Standard image output.

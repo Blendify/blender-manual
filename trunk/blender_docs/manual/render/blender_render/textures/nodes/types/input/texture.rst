@@ -12,8 +12,8 @@ Texture Node
 The texture node can be used to load a another node based or non-node based texture.
 
 
-Input
-=====
+Inputs
+======
 
 These two colors can be used to remap a greyscale texture.
  
@@ -31,8 +31,8 @@ Texture
    The textures themselves could not be edited in this note, but in the Texture panel.
 
 
-Output
-======
+Outputs
+=======
 
 Color
    Standard color output.

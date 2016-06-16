@@ -20,8 +20,8 @@ to fake some performance-heavy processes, like blurry refractions/reflections, s
 to make non-photorealistic compositing effects.
 
 
-Input
-=====
+Inputs
+======
 
 Image
    Standard image input.
@@ -46,8 +46,8 @@ Space Sigma
    A fine-tuning variable for blur radius.
 
 
-Output
-======
+Outputs
+=======
 
 Image
    Standard image output.

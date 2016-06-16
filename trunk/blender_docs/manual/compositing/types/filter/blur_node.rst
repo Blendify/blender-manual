@@ -12,8 +12,8 @@ Blur Node
 The Blur node blurs an image, providing several blur modes.
 
 
-Input
-=====
+Inputs
+======
 
 Image
    Standard image input.
@@ -65,8 +65,8 @@ Extend Bounds
    Allows the image, that is being blurred, to extend past its original dimension.
 
 
-Output
-======
+Outputs
+=======
 
 Image
    Standard image output.

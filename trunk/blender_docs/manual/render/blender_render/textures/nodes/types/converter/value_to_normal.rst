@@ -12,8 +12,8 @@ Value to Normal
 Computes a normal map.
 
 
-Input
-=====
+Inputs
+======
 
 Val
    The height map to compute the normal map from.
@@ -27,8 +27,8 @@ Properties
 This node has no properties.
 
 
-Output
-======
+Outputs
+=======
 
 Normal
    Standard normal output.

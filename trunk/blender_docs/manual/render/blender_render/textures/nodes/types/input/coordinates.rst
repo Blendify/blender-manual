@@ -8,8 +8,8 @@ Coordinates
 
    Coordinates node.
 
-Input
-=====
+Inputs
+======
 
 This node has no inputs.
 
@@ -20,8 +20,8 @@ Properties
 This node has no properties.
 
 
-Output
-======
+Outputs
+=======
 
 Coordinates
    The Coordinates node outputs the geometry local coordinates,
