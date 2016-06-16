@@ -37,13 +37,8 @@ Properties
 
 Movie Clip
    Used to select the movie clip whose distortion is to be used.
-   This can be useful if more than 1 movie clips are present, each having a different distortion setting.
-
-   - a preloaded image could be loaded by clicking on image file icon to the left and 
-     selecting it from the list.
-   - or by clicking the *Open* button to select a file/s via the
-     :doc:`file-browser </editors/file_browser/introduction>`.
-
+   This can be useful if more than one movie clips are present, each having a different distortion setting.
+   For controls see :ref:`ui-data_block`.
 Distortion Method
    Undistort
       Used to undistort the image received, and is usually used for the raw distorted movie clip.
