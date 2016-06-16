@@ -17,8 +17,8 @@ This node applies a color transformation in the HSV color space.
 Called "Hue Saturation Value" in shader and texture context.
 
 
-Input
-=====
+Inputs
+======
 
 Fac
    Controls the amount of influence the node exerts on the output image.
@@ -43,8 +43,8 @@ Value
    De/Increasing values shift an image darker/ lighter.
 
 
-Output
-======
+Outputs
+=======
 
 Image
    Standard image output

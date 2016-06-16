@@ -14,8 +14,8 @@ Dilate/Erode Node
 
 This node provides a morphology (mathematical shape analysis) filter.
 
-Input
-=====
+Inputs
+======
 
 Mask
    Single color channel (or a black and white image) input.
@@ -32,8 +32,8 @@ Distance
    A *negative* value erodes (shrinks) its influence.
 
 
-Output
-======
+Outputs
+=======
 
 Mask
    The filtered mask output.

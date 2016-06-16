@@ -14,8 +14,8 @@ Stabilizes the footage according to the settings set in
 For more information, :ref:`check this out <2D-stabilization>`.
 
 
-Input
-=====
+Inputs
+======
 
 Image
    Standard image input.
@@ -40,8 +40,8 @@ Invert
    this will move the movie clip down by 5 units.
 
 
-Output
-======
+Outputs
+=======
 
 Image
    Standard image input.

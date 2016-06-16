@@ -39,8 +39,8 @@ Properties
 This node has no properties.
 
 
-Output
-======
+Outputs
+=======
 
 Fresnel
    Fresnel weight, indicating the probability with which light

@@ -13,8 +13,8 @@ Gamma Node
 
 Use this node to apply a gamma correction.
 
-Input
-=====
+Inputs
+======
 
 Image
    Standard image input. 
@@ -28,8 +28,8 @@ Properties
 This node has no properties.
 
 
-Output
-======
+Outputs
+=======
 
 Image
    Standard image output

@@ -25,8 +25,8 @@ For more information on how to edit those values,
 `check this out <http://blender.stackexchange.com/questions/15620>`__.
 
 
-Input
-=====
+Inputs
+======
 
 Image
    Standard image input.
@@ -51,8 +51,8 @@ Distortion Method
       Used to distort the image received, and is usually used for rendered images.
 
 
-Output
-======
+Outputs
+=======
 
 Image
    The image after distorting/undistorting.

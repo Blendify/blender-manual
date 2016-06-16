@@ -19,8 +19,8 @@ tone mapping addresses the problem of strong contrast reduction from the scene v
 This is important to appreciate the original scene content.
 
 
-Input
-=====
+Inputs
+======
 
 Image
    HDR image. 
@@ -47,8 +47,8 @@ Type
       Color Correction
          If 0, same for all channels; if 1, each independent
 
-Output
-======
+Outputs
+=======
 
 Image
    LDR image. 

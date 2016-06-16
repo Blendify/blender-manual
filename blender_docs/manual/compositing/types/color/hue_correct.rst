@@ -10,8 +10,8 @@ with an input curve.
 
    Color Balance Node.
 
-Input
-=====
+Inputs
+======
 
 Fac
    Controls the amount of influence the node exerts on the output image
@@ -32,8 +32,8 @@ Curve
    point in the horizontal position of the graph will be changed depending on the shape of the
    curve.
 
-Output
-======
+Outputs
+=======
 
 Image
    Standard image output.

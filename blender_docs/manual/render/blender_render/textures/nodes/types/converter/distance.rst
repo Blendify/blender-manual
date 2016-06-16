@@ -11,8 +11,8 @@ Distance
 
 Computes the distance between two 3D coordinates.
 
-Input
-=====
+Inputs
+======
 
 Coordinate 1
    First coordinate point.
@@ -25,8 +25,8 @@ Properties
 This node has no properties.
 
 
-Output
-======
+Outputs
+=======
 
 Value
    Calculated distance.

@@ -13,8 +13,8 @@ Scale Node
 This node scales the size of an image.
 
 
-Input
-=====
+Inputs
+======
 
 Image
    Standard image input.
@@ -42,8 +42,8 @@ Space
       X, Y
 
 
-Output
-======
+Outputs
+=======
 
 Image
    Standard image output.

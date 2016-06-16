@@ -10,8 +10,8 @@ Switch Node
 
 Switch between two images using a checkbox. 
 
-Input
-=====
+Inputs
+======
 
 Image
    First image input.
@@ -27,8 +27,8 @@ Switch
    - When checked, the second input labeled "On" is passed to the output.
 
 
-Output
-======
+Outputs
+=======
 
 Image
    Standard image output.

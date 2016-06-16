@@ -20,8 +20,8 @@ Before using this node, plane track for the footage should be made in the *Movie
 .. TODO: add link to plane track's documentation when that is made.
 
 
-Input
-=====
+Inputs
+======
 
 Image
    Image to put in place of the plane track, and thus, override that area in the movie clip.
@@ -62,8 +62,8 @@ Motion Blur
       shutter is open for half that, 20.83 ms.
 
 
-Output
-======
+Outputs
+=======
 
 Image
    The output by wrapping the image to that plane track.

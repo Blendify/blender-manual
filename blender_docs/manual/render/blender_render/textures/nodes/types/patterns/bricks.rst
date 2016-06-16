@@ -13,8 +13,8 @@ Bricks
 The Bricks node creates a brick like pattern.
 
 
-Input
-=====
+Inputs
+======
 
 Bricks 1, Bricks 2
    Sets the color range of the bricks. Brick colors are chosen randomly between these two colors.
@@ -44,8 +44,8 @@ Frequency
    Squash every N rows.
 
 
-Output
-======
+Outputs
+=======
 
 Color
    Standard color output.

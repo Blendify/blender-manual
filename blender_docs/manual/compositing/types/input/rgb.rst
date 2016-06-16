@@ -12,8 +12,8 @@ RGB Node
    RGB Node.
 
 
-Input
-=====
+Inputs
+======
 
 This node has no input sockets.
 
@@ -22,8 +22,8 @@ Properties
 
 The RGB node uses the :ref:`color picker widget <ui-color-picker>`.
 
-Output
-======
+Outputs
+=======
 
 RGBA
    A single RGBA color value.

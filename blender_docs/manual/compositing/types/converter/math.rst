@@ -14,8 +14,8 @@ Math Node
 
 This node performs math operations.
 
-Input
-=====
+Inputs
+======
 
 Value
    First numerical value. The trigonometric functions accept values in radians. 
@@ -36,8 +36,8 @@ Clamp
    Limits the output to the range (0 to 1). See :term:`clamp`.
 
 
-Output
-======
+Outputs
+=======
 
 Value
    Numerical value output.

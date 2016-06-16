@@ -15,8 +15,8 @@ Invert Node
 This node inverts the colors in the input image, producing a negative.
 
 
-Input
-=====
+Inputs
+======
 
 Fac
    Controls the amount of influence the node exerts on the output image.
@@ -35,8 +35,8 @@ Alpha
    De/activation of the alpha channel inversion.
 
 
-Output
-======
+Outputs
+=======
 
 Color
    Standard image output.

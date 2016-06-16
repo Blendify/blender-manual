@@ -14,8 +14,8 @@ With this node objects can be "re-textured" after they have been rendered.
 To apply a texture to individual enumerated objects the 
 :doc:`ID Mask Node </compositing/types/converter/id_mask>` could be used.
 
-Input
-=====
+Inputs
+======
 
 Image
    The new 2D Texture.
@@ -35,8 +35,8 @@ Alpha
    Alpha control how much the new texture overlays the old.
 
 
-Output
-======
+Outputs
+=======
 
 Image
    The resulting image is the input image texture distorted to match the UV coordinates.

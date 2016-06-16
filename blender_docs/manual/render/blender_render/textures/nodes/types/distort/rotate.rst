@@ -12,8 +12,8 @@ Rotate
 Rotate the texture coordinates of an image or texture.
 
 
-Input
-=====
+Inputs
+======
 
 Color
    Standard image input.
@@ -29,8 +29,8 @@ Properties
 This node has no properties.
 
 
-Output
-======
+Outputs
+=======
 
 Color
    Standard image output.

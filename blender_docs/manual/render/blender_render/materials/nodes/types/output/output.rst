@@ -11,8 +11,8 @@ Output Node
 
 The preview could also be used for a non shader color input.
 
-Input
-=====
+Inputs
+======
 
 Color
    Color applied to the geometry.
@@ -25,8 +25,8 @@ Properties
 This node has no properties.
 
 
-Output
-======
+Outputs
+=======
 
 This node has no outputs.
 

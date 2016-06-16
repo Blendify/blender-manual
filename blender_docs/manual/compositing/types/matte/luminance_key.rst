@@ -16,8 +16,8 @@ For example, this is useful when compositing stock footage of explosions (very b
 which are normally shot against a solid, dark background.
 
 
-Input
-=====
+Inputs
+======
 
 Image
    Standard image input.
@@ -40,8 +40,8 @@ Limit
    for a gradient of transparency between foreground and background objects.
 
 
-Output
-======
+Outputs
+=======
 
 Image
    Image with an alpha channel adjusted for the keyed selection.

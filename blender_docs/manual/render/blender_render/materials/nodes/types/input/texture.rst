@@ -10,8 +10,8 @@ Texture Node
 
 Can be used to input image or procedural textures.
 
-Input
-=====
+Inputs
+======
 
 Vector
    Uses for map the texture to a specific geometric space.
@@ -24,8 +24,8 @@ Texture
    The textures themselves could not be edited in this note, but in the Texture panel.
 
 
-Output
-======
+Outputs
+=======
 
 Value
    Straight black-and-white value of the texture.

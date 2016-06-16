@@ -11,8 +11,8 @@ Bright/Contrast Node
    Bright/Contrast Node.
 
 
-Input
-=====
+Inputs
+======
 
 Image
    Standard image input. 
@@ -28,8 +28,8 @@ Properties
 
 This node has no properties.
 
-Output
-======
+Outputs
+=======
 
 Image
    Standard image input. 

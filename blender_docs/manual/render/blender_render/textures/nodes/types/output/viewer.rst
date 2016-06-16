@@ -6,8 +6,8 @@ Viewer
 The viewer node can be used to preview the results of a node.
 
 
-Input
-=====
+Inputs
+======
 
 Color
    Standard image input.
@@ -19,8 +19,8 @@ Properties
 This node has no inputs.
 
 
-Output
-======
+Outputs
+=======
 
 This node has no outputs.
 

@@ -11,8 +11,8 @@ Texture Node
 
 The Texture node makes 3D textures available to the compositor.
 
-Input
-=====
+Inputs
+======
 
 Offset
    A vector (XYZ) transforming the origin of the texture.
@@ -26,8 +26,8 @@ Texture
    The texture could be selected from a list of textures available in the current blend-file or link in textures.
    The textures themselves could not be edited in this note, but in the Texture panel.
 
-Output
-======
+Outputs
+=======
 
 Value
    Gray scale color values.

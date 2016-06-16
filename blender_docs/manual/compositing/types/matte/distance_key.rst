@@ -15,8 +15,8 @@ distance between the image pixel color and the key color in a 3D color space.
 This key works well when trying to single out a specific color in a background
 (not necessarily green). 
 
-Input
-=====
+Inputs
+======
 
 Image
    Standard image input.
@@ -45,8 +45,8 @@ Color Space
    RGB, YCC
 
 
-Output
-======
+Outputs
+=======
 
 Image
    The image with an alpha channel adjusted for the keyed selection

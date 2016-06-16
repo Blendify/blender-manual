@@ -14,8 +14,8 @@ Multiple output nodes can exist in a node texture, however only one of them is a
 The active one is set in the Texture Panel in the *Output* drop down.
 
 
-Input
-=====
+Inputs
+======
 
 Color
    The color data that the texture renders.
@@ -30,8 +30,8 @@ File path
    Output ID.
 
 
-Output
-======
+Outputs
+=======
 
 This node has no outputs.
 

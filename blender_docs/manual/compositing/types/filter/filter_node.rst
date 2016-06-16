@@ -13,8 +13,8 @@ Filter Node
 
 The Filter node implements various common image enhancement filters.
 
-Input
-=====
+Inputs
+======
 
 Fac
    Controls the amount of influence the node exerts on the output image.
@@ -45,8 +45,8 @@ Type
       Performs a relief emboss/ bumpmap effect, darkening outside edges.
 
 
-Output
-======
+Outputs
+=======
 
 Image
    Standard image output.

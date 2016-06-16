@@ -12,8 +12,8 @@ Pixelate Node
 Add this node in front of a :doc:`scale node </compositing/types/distort/scale>`
 to get a pixelated (non-smoothed) image from the resultant upscaled image.
 
-Input
-=====
+Inputs
+======
 
 Image
    Standard image input.
@@ -25,8 +25,8 @@ Properties
 This node has no properties.
 
 
-Output
-======
+Outputs
+=======
 
 Image
    Standard image output.

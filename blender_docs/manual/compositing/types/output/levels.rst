@@ -12,8 +12,8 @@ The Levels Node read the inputs color channels
 and outputs analytical values.
 
 
-Input
-=====
+Inputs
+======
 
 Image
    Standard image input.
@@ -26,8 +26,8 @@ Channel
    C (Combined RGB), R (Red), G (Green), B (Blue), L (Luminance)
 
 
-Output
-======
+Outputs
+=======
 
 1D values based on the levels of an image.
 

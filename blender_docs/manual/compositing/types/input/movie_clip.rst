@@ -19,8 +19,8 @@ internal values taken from the tracking. So the controls for
 start and end frames will be defined at the movie clip editor.
 
 
-Input
-=====
+Inputs
+======
 
 This node has no input sockets.
 
@@ -34,8 +34,8 @@ Properties
   :doc:`file-browser </editors/file_browser/introduction>`.
 
 
-Output
-======
+Outputs
+=======
 
 The first two sockets are the minimum output.
 

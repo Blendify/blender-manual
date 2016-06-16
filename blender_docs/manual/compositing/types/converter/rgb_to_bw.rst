@@ -16,8 +16,8 @@ This node linear maps a RGB color image to a grayscale.
 
 .. by computing the luminance ?
 
-Input
-=====
+Inputs
+======
 
 Image
    Color image input.
@@ -29,8 +29,8 @@ Properties
 This node has no properties.
 
 
-Output
-======
+Outputs
+=======
 
 Val
    Grayscale value output.

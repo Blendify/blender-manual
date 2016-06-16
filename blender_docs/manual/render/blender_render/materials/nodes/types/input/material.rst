@@ -11,8 +11,8 @@ Material Node
 
 The Material node is used for shading.
 
-Input
-=====
+Inputs
+======
 
 Color
    The diffuse color or texture.
@@ -45,8 +45,8 @@ Invert Normal
    (which, is a combination of the 3D normal given to it by the 3D object plus the normal input point).
 
 
-Output
-======
+Outputs
+=======
 
 Color
    Shaded color value.

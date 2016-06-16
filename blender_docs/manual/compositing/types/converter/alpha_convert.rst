@@ -11,8 +11,8 @@ Alpha Convert Node
 
 This node converts the alpha channel interpretation of an image.
 
-Input
-=====
+Inputs
+======
 
 Image
    Standard image input.
@@ -27,8 +27,8 @@ Mapping
       For details on the difference between both way to store alpha values see :term:`Alpha Channel`.
 
 
-Output
-======
+Outputs
+=======
 
 Image
    Standard image output.

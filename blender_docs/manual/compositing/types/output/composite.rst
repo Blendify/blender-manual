@@ -15,8 +15,8 @@ This node is updated after each render, but also reflects changes in the node-tr
 (provided at least one finished input node is connected).
 
 
-Input
-=====
+Inputs
+======
 
 Connecting a node to the Composite node will output the result of the prior
 tree of that node to the Compositor.
@@ -34,8 +34,8 @@ Properties
 Use Alpha
    Premultiplied or straight.
 
-Output
-======
+Outputs
+=======
 
 This node has no output sockets.
 
