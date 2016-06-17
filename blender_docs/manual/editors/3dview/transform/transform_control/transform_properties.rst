@@ -52,10 +52,6 @@ Dimensions
    For multi-faceted surfaces, these fields give the dimensions of the bounding box
    (aligned with the local axes - think of a cardboard box just big enough to hold the object).
 
-.. If this toggle-button is activated the relation (proportion) between the X, Y and Z values in the
-   *Scale* and the *Dim* fields is always preserved.
-   Changing one value will change all the others as well with the same multiplication-factor.
-
 Use this panel to either edit or display the object's transform properties such as position,
 rotation and/or scaling. These fields change the object's center and then affects the aspect
 of all of its *vertices* and faces.
