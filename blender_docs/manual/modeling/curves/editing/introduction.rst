@@ -6,7 +6,6 @@ Curve Editing
 This page covers the basics of curve editing. Curve basics,
 selecting and advanced editing are covered in the following pages:
 
-
 - :doc:`Curve basics </modeling/curves/introduction>`
 - :doc:`Curve Selecting </modeling/curves/selecting>`
 
@@ -52,8 +51,8 @@ Hide Unselected elements
    or the :menuselection:`Curve --> Show/Hide --> Hide Unselected` menu option from the 3D View header.
 
 
-Basic Curve Editing (translation, rotation, scale)
-==================================================
+Translation, Rotation, Scale
+============================
 
 .. admonition:: Reference
    :class: refbox
