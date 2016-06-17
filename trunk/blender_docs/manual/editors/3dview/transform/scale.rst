@@ -14,12 +14,9 @@ Scale
 Pressing :kbd:`S` will enter the *Scale* transformation mode where the
 selected element is scaled inward or outward according to the mouse pointer's location. The
 element's scale will increase as the mouse pointer is moved away from the Pivot Point and
-decrease as the pointer is moved towards it.
-If the mouse pointer crosses from the original side of the Pivot Point to the opposite side,
+decrease as the pointer is moved towards it. If the mouse pointer crosses from the original side of the
+:doc:`Pivot Point </editors/3dview/transform/transform_control/pivot_point/index>` to the opposite side,
 the scale will continue in the negative direction and flip the element.
-
-:doc:`Read more about Pivot Points </editors/3dview/transform/transform_control/pivot_point/index>`
-
 
 .. figure:: /images/editors_3dview_Transformations-Basic-Scale-scale_basic_usage.jpg
    :width: 640px
@@ -35,13 +32,10 @@ There are multiple ways to scale an element which include:
 - The Properties menu :kbd:`N`
 
 Basic scale usage and common options are described below. For additional information, you may
-wish to read the Transform Control and Orientation pages which provide more information about
-options such as Precision, Axis Locking, Numeric Input,
+wish to read the :doc:`Transform Control </editors/3dview/transform/transform_control/index>`
+and :doc:`Transform Orientations </editors/3dview/transform/transform_control/transform_orientations>`
+pages which provide more information about options such as Precision, Axis Locking, Numeric Input,
 Snapping and the different types of Pivot Point.
-
-:doc:`Read more about Transform Control </editors/3dview/transform/transform_control/index>`
-
-:doc:`Read more about Transform Orientations </editors/3dview/transform/transform_control/transform_orientations>`
 
 
 Usage
@@ -70,7 +64,6 @@ Scaling can be constrained to a particular axis or axes through the use of
 :doc:`Axis Locking </editors/3dview/transform/transform_control/axis_locking>`.
 To constrain scaling, the following shortcuts can be used:
 
-
 - :kbd:`S`, :kbd:`X`: Scale only along the *X-Axis*
 - :kbd:`S`, :kbd:`Y`: Scale only along the *Y-Axis*
 - :kbd:`S`, :kbd:`Z`: Scale only along the *Z-Axis*
@@ -78,10 +71,7 @@ To constrain scaling, the following shortcuts can be used:
 Axis locking can also be enabled by pressing the :kbd:`MMB` after enabling scaling and
 moving the mouse in the desired direction e.g.
 
-
 - :kbd:`S`, move the mouse along the X axis, :kbd:`MMB`: Scale only along the *X-Axis*
-
-:doc:`Read more about Axis Locking </editors/3dview/transform/transform_control/axis_locking>`
 
 
 Fine Tuning The Scaling
@@ -92,7 +82,6 @@ can be had over scaling through the use of the :kbd:`Shift` and :kbd:`Ctrl`
 keys to limit scaling to discrete amounts.
 You can also enter a :doc:`numerical value </editors/3dview/transform/transform_control/numeric_input>`
 in Blender Units (BU) to specify the amount of scaling after after initiating a scale transformation.
-
 
 - Hold :kbd:`Ctrl` down while scaling to scale the selected element in degree 0.1 BU increments.
 - Hold :kbd:`Shift` down while scaling to scale the selected element in very fine increments.
@@ -107,11 +96,11 @@ in Blender Units (BU) to specify the amount of scaling after after initiating a 
    :kbd:`S`, :kbd:`X`, :kbd:`X` will by default set scaling to occur around the local orientation.
 
 
-:doc:`Read more about Precision Control </editors/3dview/transform/transform_control/precision>`
+.. seealso::
 
-:doc:`Read more about Numerical Transformations </editors/3dview/transform/transform_control/numeric_input>`
-
-:doc:`Read more about Transform Orientations </editors/3dview/transform/transform_control/transform_orientations>`
+   - :doc:`Read more about Precision Control </editors/3dview/transform/transform_control/precision>`
+   - :doc:`Read more about Numerical Transformations </editors/3dview/transform/transform_control/numeric_input>`
+   - :doc:`Read more about Transform Orientations </editors/3dview/transform/transform_control/transform_orientations>`
 
 
 Scaling with the 3D Transform Manipulator
@@ -127,8 +116,10 @@ In the 3D View header, ensure that the Transform Manipulator is enabled (the red
 and blue triad is selected). Set the manipulator type to scale
 (the highlighted square icon shown below).
 
-
 .. figure:: /images/editors_3dview_Transformations-Basic-Scale-scale_manipulator_header.jpg
+
+   Todo.
+
 
 - Select your element with :kbd:`RMB`.
 - Use :kbd:`LMB` and drag any of the three colored axes on the scaling manipulator to scale
@@ -153,6 +144,7 @@ Scale values can also be specified in the Properties panel :kbd:`N`
 by altering the amount value in the scaling slider of the Transform panel.
 Scaling along particular axes can be enabled or disabled by toggling the padlock icon.
 
-:doc:`Read more about Panels </interface/panels>`
+.. seealso::
 
-:doc:`Read more about scaling modes </editors/3dview/transform/transform_control/transform_orientations>`
+   - :doc:`Read more about Panels </interface/panels>`
+   - :doc:`Read more about scaling modes </editors/3dview/transform/transform_control/transform_orientations>`
