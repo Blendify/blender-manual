@@ -9,8 +9,8 @@ common points with it... So this page covers (or tries to cover) all the subject
 from the basics of surface editing to more advanced topics, like retopology.
 
 
-Basic Surface Editing (translation, rotation, scale)
-----------------------------------------------------
+Translation, Rotation, Scale
+----------------------------
 
 .. admonition:: Reference
    :class: refbox
