@@ -21,12 +21,10 @@ There are multiple ways to rotate an element which include:
 - The Properties menu :kbd:`N`
 
 Basic rotation usage and common options are described below. For additional information, you
-may wish to read the Transform Control and Orientation pages which provide more information
-about options such as Precision, Axis Locking, Numeric Input,
+may wish to read the :doc:`Transform Control </editors/3dview/transform/transform_control/index>`
+and :doc:`Read more about Transform Orientations </editors/3dview/transform/transform_control/transform_orientations>`
+pages which provide more information about options such as Precision, Axis Locking, Numeric Input,
 Snapping and the different types of Pivot Point.
-
-:doc:`Read more about Transform Control </editors/3dview/transform/transform_control/index>`
-:doc:`Read more about Transform Orientations </editors/3dview/transform/transform_control/transform_orientations>`
 
 
 Usage
@@ -66,8 +64,6 @@ moving the mouse in the desired direction e.g.
 
 - :kbd:`R`, move the mouse along the X axis, :kbd:`MMB`: Rotate only along the *X-Axis*
 
-:doc:`Read more about Axis Locking </editors/3dview/transform/transform_control/axis_locking>`
-
 
 Fine Tuning The Rotation
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -76,7 +72,6 @@ Fine Tuning The Rotation
 through the use of the :kbd:`Shift` and :kbd:`Ctrl` keys to limit rotation to discrete amounts.
 You can also enter a :doc:`numerical value </editors/3dview/transform/transform_control/numeric_input>`
 in degrees to specify the amount of rotation after after initiating a rotation transformation.
-
 
 - Hold :kbd:`Ctrl` down while performing a rotation to rotate the selected element in 5 degree increments.
 - Hold :kbd:`Shift` down while performing a rotation to rotate the selected element in 0.01 degree increments.
@@ -93,9 +88,11 @@ in degrees to specify the amount of rotation after after initiating a rotation t
    :kbd:`X` will by default set rotation to occur around the local orientation.
 
 
-:doc:`Read more about Precision Control </editors/3dview/transform/transform_control/precision>`
-:doc:`Read more about Numerical Transformations </editors/3dview/transform/transform_control/numeric_input>`
-:doc:`Read more about Transform Orientations </editors/3dview/transform/transform_control/transform_orientations>`
+.. seealso::
+
+   - :doc:`Read more about Precision Control </editors/3dview/transform/transform_control/precision>`
+   - :doc:`Read more about Numerical Transformations </editors/3dview/transform/transform_control/numeric_input>`
+   - :doc:`Read more about Transform Orientations </editors/3dview/transform/transform_control/transform_orientations>`
 
 
 Rotation with the 3D Transform Manipulator
@@ -121,7 +118,10 @@ and blue triad is selected). Set the manipulator type to rotation
 - Your changes will be applied when you release :kbd:`LMB` or press :kbd:`Spacebar` or
   :kbd:`Return`. Your changes will be cancelled if you press :kbd:`RMB` or :kbd:`Esc`.
 
-:doc:`Read more about the 3D Transform Manipulator </editors/3dview/transform/transform_control/manipulators>`
+
+.. seealso::
+
+   :doc:`Read more about the 3D Transform Manipulator </editors/3dview/transform/transform_control/manipulators>`
 
 
 Rotation with the Properties Panel
@@ -139,9 +139,9 @@ Rotation along particular axes can be enabled or disabled by toggling the padloc
 The rotation mode (Euler, Axis Angle, Quaternion)
 can also be set in this panel from the drop down box.
 
-:doc:`Read more about Panels </interface/panels>`
+.. seealso::
 
-:doc:`Read more about rotation modes </editors/3dview/transform/transform_control/transform_orientations>`
-
-`Additional detail about rotation modes
-<https://wiki.blender.org/index.php/User:Pepribal/Ref/Appendices/Rotation>`__
+   - :doc:`Read more about Panels </interface/panels>`
+   - :doc:`Read more about rotation modes </editors/3dview/transform/transform_control/transform_orientations>`
+   - `Additional detail about rotation modes
+     <https://wiki.blender.org/index.php/User:Pepribal/Ref/Appendices/Rotation>`__
