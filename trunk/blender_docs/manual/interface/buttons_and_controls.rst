@@ -320,7 +320,49 @@ For details on the behavior of linking data see :doc:`data-block </data_system/d
 Pie Menus
 ---------
 
-Todo.
+A pie menu is a menu, whose items are spread radially around the mouse.
+Pie menus has to be activated in the User Preferences through :menuselection:`Add-ons --> UI --> Pie Menus Official`. 
+
+
+Interaction
+^^^^^^^^^^^
+
+The pie menu is spawned by a key press.
+
+.. rubric:: 3D-View
+
+- :kbd:`Tab` Interaction Mode
+- :kbd:`Z` Shade and solid or smooth shading
+- :kbd:`Q` View directions and perspective or ortho. and camera
+- :kbd:`Tab-Shift-Ctrl` Snapping
+- :kbd:`.` Pivot
+- :kbd:`Ctrl-Space` Manipulator
+
+.. rubric:: Movie Clip Editor 
+ 
+- :kbd:`W` Clip Setup
+- :kbd:`Q` Marker Setup
+- :kbd:`E` Tracking
+- :kbd:`Shift-S` Solving
+- :kbd:`Shift-W` Scene Reconstruction
+- :kbd:`OS-A` Playback Operators
+
+Releasing the key without moving the mouse will keep the menu open and 
+the user can then move the mouse pointer towards the direction of a pie menu item and select it by clicking. 
+Releasing the key after moving the mouse towards a pie menu item will cause the menu to close and 
+the selected menu item to activate. 
+
+An open disc widget at the center of the pie menu shows the
+current direction of the pie menu. The selected item is also highlighted. 
+A pie menu will only have a valid direction for item selection,
+if the mouse is touching or extending beyond the disc widget at the center of the menu. 
+
+Pie menu items support key accelerators, which are the letters underlined on each menu item.
+Also number keys can be used to select the items.
+
+If there are sub-pies, available it is indicated by a plus icon. 
+
+See :ref:`Pie menu settings <prefs-pie-menu>`.
 
 
 Common Shortcuts
