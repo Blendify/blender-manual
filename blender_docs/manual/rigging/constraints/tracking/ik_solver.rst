@@ -47,3 +47,5 @@ Target
    Disable for targetless IK
 Rotation
    Chain follows rotation of target
+
+.. vimeo:: 171279647

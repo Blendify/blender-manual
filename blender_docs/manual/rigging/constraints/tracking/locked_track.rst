@@ -66,3 +66,5 @@ Lock
 
    If you choose the same axis for *To* and *Lock*, the constraint will no
    longer be functional (red state).
+
+.. vimeo:: 171280773

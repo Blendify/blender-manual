@@ -72,3 +72,5 @@ Cyclic
    it is instantaneously moved to its other end.
    This is of course primarily designed for closed curves (circles & co),
    as this allows your owner to go around it over and over.
+
+.. vimeo:: 171276763

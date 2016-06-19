@@ -59,3 +59,5 @@ Space
 .. warning::
 
    If you choose the same axis for *To* and *Up*, the constraint will not be functional anymore (red state).
+
+.. vimeo:: 171283522

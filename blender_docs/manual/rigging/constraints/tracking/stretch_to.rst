@@ -74,3 +74,5 @@ Plane
    :doc:`Track To constraint </rigging/constraints/tracking/track_to>`:
    they control which of the X or Z axes should be maintained (as much as possible) aligned with the global Z axis,
    while tracking the target with the Y axis.
+
+.. vimeo:: 171283118
