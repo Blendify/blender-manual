@@ -57,3 +57,5 @@ Chain Scaling:
 .. seealso::
 
    This subject is seen in depth in the :doc:`Rigging/Posing section </rigging/posing/inverse_kinematics/spline_ik>`.
+
+.. vimeo:: 171282278
