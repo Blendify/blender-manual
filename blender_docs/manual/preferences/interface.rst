@@ -46,9 +46,8 @@ Warnings
 ========
 
 Prompt Quit
-   When exiting Blender, a pop-up will ask you weather or not you really want to quit.
-
-   *Currently only available on MS-Windows.*
+   When exiting Blender, a pop-up will ask you weather or not you really want to quit
+   (currently only available on MS-Windows).
 
 
 View Manipulation
@@ -131,19 +130,26 @@ Sub Level
    Same as above for sub menus (for example: :menuselection:`File --> Open Recent`).
 
 
+.. _prefs-pie-menu:
+
 Pie Menus
 =========
 
 Animation Timeout
-   Length of animation when opening Pie Menus
+   Length of animation when opening Pie Menus.
 Recenter Timeout
+   The window system tries to keep the pie menu within the window borders. 
    Pie menus will use the initial mouse position as center for this amount of time, measured in 1/100ths of a second.
+   This allows for fast dragged selections.
 Radius
-   Size of the Pie Menu
+   Size of the Pie Menu.
 Threshold
    Distance from center before a selection can be made.
 Confirm Threshold
    Distance threshold after which selection is made (zero disables).
+
+Splash
+======
 
 Show Splash
    Display the splash screen when starting Blender.
