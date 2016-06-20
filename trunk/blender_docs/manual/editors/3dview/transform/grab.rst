@@ -19,10 +19,10 @@ in the Node Editor, Graph Editor, UV Editor, Sequencer, etc.
 
 Options and other details will be discussed in their respective sections.
 
-
 .. figure:: /images/editors_3dview_translate_value_display.jpg
 
    Translation Display.
+
 
 While Grab/Move is active, the amount of change in the X, Y,
 and Z co-ordinates is displayed at the bottom left corner of the 3D View editor.
@@ -57,10 +57,6 @@ full control over your transformation.
 :kbd:`LMB`
    Confirm the move, and leave the object or data at its current location on the screen.
 
-.. figure:: /images/editors_3dview_trans_basics_grab_mmb.jpg
-
-   Axis-Constraint in action.
-
 :kbd:`MMB`
    Constrain the move to the X, Y or Z axis according to the position of the mouse pointer in the 3D View.
    After pressing the :kbd:`G` key, if the :kbd:`MMB` is pressed,
@@ -69,22 +65,28 @@ full control over your transformation.
    will depend on the axis about which the :kbd:`MMB` is released. At any point during the operation,
    the chosen axis can be changed by pressing :kbd:`X`, :kbd:`Y`, :kbd:`Z` on the keyboard.
 
+   .. figure:: /images/editors_3dview_trans_basics_grab_mmb.jpg
+
+      Axis-Constraint in action.
+
+
 :kbd:`RMB` or :kbd:`Esc`
    Cancel the move, and return the object or data to its original location.
-
-.. figure:: /images/basic_trans_grab_shift_xyz.jpg
-
-   Shift+X in action.
-
 
 :kbd:`Shift` + :kbd:`X`, :kbd:`Y`, :kbd:`Z`
    This modifying hotkey locks the translation axis,
    allowing the object to move freely on the two axes that are not locked.
-   For example, :kbd:`Shift` +
-   :kbd:`X` means the object will translate on the Y and Z axes while remaining at the same point on the X axis.
+   For example, :kbd:`Shift` + :kbd:`X` means the object will translate
+   on the Y and Z axes while remaining at the same point on the X axis.
 
-:kbd:`Alt` + :kbd:`G` clears any previous transformation on the object and sets its origin back to the center.
-This only works in Object Mode.
+   .. figure:: /images/basic_trans_grab_shift_xyz.jpg
+
+      Shift+X in action.
+
+
+:kbd:`Alt` + :kbd:`G`
+   clears any previous transformation on the object and sets its origin back to the center.
+   This only works in Object Mode.
 
 You can also move an object by clicking and holding :kbd:`RMB` on the object to move it.
 To confirm the action, press :kbd:`LMB`.
@@ -159,7 +161,6 @@ you can hotkey your chosen axis of orientation by hitting the relevant axis modi
 .. figure:: /images/editors_3dview_trans_grab_xyz_number.png
 
    Numerical Entry Display.
-
 
 .. tip::
 
