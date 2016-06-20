@@ -44,7 +44,7 @@ Particles may be rendered as:
 - :doc:`Strands </render/blender_render/materials/properties/strands>`
   (for :doc:`Hair, Fur, Grass </physics/particles/hair/index>`);
   the complete way of a particle will be shown as a strand.
-  These strands can be manipulated in the 3D window (combing, adding, cutting, moving, etc).
+  These strands can be manipulated in the 3D View (combing, adding, cutting, moving, etc).
 
 Every object may carry many particle systems. Each particle system may contain up to 100.
 000 particles. Certain particle types (*Hair* and *Keyed*)
@@ -108,7 +108,7 @@ Emitter
 
 :doc:`Hair </physics/particles/hair/index>`
    This system type is rendered as strands and has some very special properties:
-   it may be edited in the 3D window in realtime and you can also animate
+   it may be edited in the 3D View in realtime and you can also animate
    the strands with :doc:`Cloth Simulation </physics/cloth/index>`.
 
 The settings in the *Particle System* panel are partially different for each system

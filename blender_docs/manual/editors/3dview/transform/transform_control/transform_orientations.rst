@@ -12,6 +12,11 @@ Transform Orientations
    | Mode:     Object and Edit Modes
    | Hotkey:   :kbd:`Alt-Spacebar`
 
+.. figure:: /images/editors_3dview_orientations_menu.png
+   :align: right
+
+   Transform Orientations Menu.
+
 
 Orientations affect the behavior of Transformations: Location, Rotation, and Scale.
 You will see an effect on the 3D Manipulator (the widget in the center of the selection),
@@ -23,10 +28,6 @@ but if you press :kbd:`G-X-X` it will constrain to your *Transform Orientation* 
 The Orientations options can be set on the 3D View's header (or "footer",
 since it is at the bottom of the view by default),
 or with :kbd:`Alt-Spacebar` or through the *Orientation* menu in a 3D View header.
-
-.. figure:: /images/editors_3dview_orientations_menu.png
-
-   Transform Orientations Menu.
 
 In addition to the four built-in options,
 you can define your own custom orientation (see `Custom Orientations`_ below).
@@ -168,7 +169,6 @@ Custom Orientations
    | Mode:     Object and Edit Modes
    | Hotkey:   :kbd:`Ctrl-Alt-Spacebar`
 
-
 .. figure:: /images/transformOrientationPanel-custom.jpg
 
    Custom orientation.
@@ -183,7 +183,6 @@ The *Transform Orientations* panel, found in the Properties Panel,
 can be used to manage transform orientations: selecting the active orientation,
 adding and deleting custom orientations.
 
-
 .. figure:: /images/Orientations-Custom-Name.jpg
    :width: 300px
 
@@ -194,7 +193,6 @@ The default name for these orientations comes from whatever you have selected. I
 it will be titled, "Edge," if an object, it will take that object's name, etc. The Toolshelf
 (:kbd:`T` in the 3D View)
 allows you to rename the custom orientation after you press :kbd:`Ctrl-Alt-Spacebar`.
-
 
 .. figure:: /images/Orientations-Custom-Extrusion.jpg
 

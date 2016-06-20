@@ -5,6 +5,7 @@ Axis Locking
 
 .. figure:: /images/editors_3dview_Transform_Control-Axis_locking-axis-locking.jpg
    :width: 150px
+   :align: right
 
    Axis locking.
 
@@ -53,9 +54,9 @@ Plane locking
    | Hotkey:   :kbd:`Shift-X`, :kbd:`Shift-Y`, :kbd:`Shift-Z` or :kbd:`Shift-MMB`
    | after moving the mouse in the desired direction.
 
-
 .. figure:: /images/editors_3dview_Transform_Control-Axis_locking-plane-locking.jpg
    :width: 150px
+   :align: right
 
    Plane locking.
 

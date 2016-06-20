@@ -26,7 +26,7 @@ Strand Primitives:
      For good performance,
      the render steps button should be lowered (e.g. 2 should be good enough fur),
      since the result will be a smoothed curve anyway.
-     You need 1 to 2 render steps less than steps in the 3D window.
+     You need 1 to 2 render steps less than steps in the 3D View.
      Also, using more render parts helps to reduce memory usage.
    - Have a distance of vision reduction
      (in the *Render* panel under *Child Simplification*) for children from faces.

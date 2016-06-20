@@ -7,7 +7,7 @@ Median Point
    :class: refbox
 
    | Mode:     Object Mode and Edit Mode
-   | Menu:     Select from the following icon in the 3D window header
+   | Menu:     Select from the following icon in the 3D View header
 
    .. figure:: /images/Icon-library_3D-Window_header-pivot-point.jpg
 
@@ -28,7 +28,6 @@ This can lead to some counterintuitive results. In the Fig. Object Mode median p
 you can see that the median point is between the Object centers and can be nowhere near the
 Objects' mesh.
 
-
 .. figure:: /images/editors_3dview_Transform_control-Pivot_point-Median_point-median-point-objects.jpg
    :width: 640px
 
@@ -45,7 +44,6 @@ when there are two cubes with an equal number of vertices,
 the median point lies directly between the two cubes. However,
 if we subdivide one cube multiple times so that it has many more vertices,
 you can see that the median point has shifted to the region with the most vertices.
-
 
 .. figure:: /images/editors_3dview_Transform_control-Pivot_point-Median_point-median-point-vertices.jpg
    :width: 640px

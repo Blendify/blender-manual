@@ -7,23 +7,17 @@ Bounding Box Center
    :class: refbox
 
    | Mode:     Object Mode and Edit Mode
-   | Menu:     Select from the following icon in the 3D window header
+   | Menu:     Select from the following icon in the 3D View header
 
    .. figure:: /images/Icon-library_3D-Window_header-pivot-point.jpg
 
    | Hotkey:   :kbd:`,`
 
 
-The bounding box is a rectangular box that is wrapped as tightly as possible around the
-selection. It is oriented parallel to the world axes.
-In this mode the pivot point lies at the center of the bounding box. You can set the pivot
-point to bounding box with the :kbd:`,` hotkey or via the menu in the *Window Header*.
-The image below shows how the Object's Bounding Box size is determined by the size
-of the Object.
-
-Read more about selecting different
-:doc:`Pivot Points </editors/3dview/transform/transform_control/pivot_point/index>`
-
+The bounding box is a rectangular box that is wrapped as tightly as possible around the selection.
+It is oriented parallel to the world axes. In this mode the pivot point lies at the center of the bounding box.
+You can set the pivot point to bounding box with the :kbd:`,` hotkey or via the menu in the *Window Header*.
+The image below shows how the Object's Bounding Box size is determined by the size of the Object.
 
 .. figure:: /images/editors_3dview_Transform_Control-Pivot_Point-Bounding_Box_Center-bounding-box-demo.jpg
 
@@ -44,7 +38,6 @@ and B show rotation when the Object center is in its default position, while ima
 Image E shows that when multiple Objects are selected,
 the pivot point is calculated based on the Bounding Box of all the selected Objects.
 
-
 .. figure:: /images/editors_3dview_Transform_Control-Pivot_Point-Bounding_Box_Center-object-rotation.jpg
 
    The grid of four images on the left (ABCD) shows the results of Object rotation
@@ -59,7 +52,6 @@ In Edit Mode
 This time it is the ObData that is enclosed in the bounding box.
 The bounding box in *Edit Mode* takes no account of the Object(s) centers,
 only the center of the selected vertices.
-
 
 .. figure:: /images/editors_3dview_Transform_Control-Pivot_Point-Bounding_Box_Center-edit-mode-rotation.jpg
 

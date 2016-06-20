@@ -83,12 +83,13 @@ Choosing the Transform Orientation
 
 
 .. figure:: /images/editors_3dview_orientations_menu.png
+   :align: right
 
    Transform Orientation options.
 
 
-You can also change the
-:doc:`orientation of the Transform Manipulator </editors/3dview/transform/transform_control/transform_orientations>`
+You can also change the orientation of the
+:doc:`Transform Manipulator </editors/3dview/transform/transform_control/transform_orientations>`
 to global, local, gimbal, normal or view from the Transform options menu.
 The image below shows a cube with the rotation manipulator active in multiple transform orientations.
 Notice how the manipulator changes depending on the orientation selected (compare A with F).
@@ -98,7 +99,6 @@ is selected the manipulator changes between *Object Mode* and *Edit Mode*.
 The normal orientation manipulator will also change depending on what is selected in
 *Edit Mode* i.e. the orientation is based on the normal of the selection which will
 change depending on how many and which faces, edges or vertices are selected.
-
 
 .. figure:: /images/editors_3dview_Transform_Control-Manipulators-manipulator_orientation_options.jpg
    :width: 640px

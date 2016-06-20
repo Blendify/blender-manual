@@ -36,8 +36,8 @@ GIMP is a full-featured image manipulation program that is also open-source.
 Since a mesh can have layers of UV Textures, there may be many images that color the mesh.
 However, each UV Texture only has one image.
 
-Texture Paint works in both a 3D window and the UV/Image Editor window.
-In the 3D window in Texture Paint Mode, you paint directly on the mesh by
+Texture Paint works in both a 3D View and the UV/Image Editor window.
+In the 3D View in Texture Paint Mode, you paint directly on the mesh by
 :ref:`projecting onto the UVs <painting_texture-index>`.
 
 
@@ -68,7 +68,7 @@ you can modify the image using the Texture Paint Mode:
 
 .. note:: Square Power of 2
 
-   Texture paint is very fast and responsive when working in the 3D window and when your image is sized as a
+   Texture paint is very fast and responsive when working in the 3D View and when your image is sized as a
    square where the side lengths are a power of two, e.g. 256×256, 512×512, 1024×1024, etc.
 
 
@@ -80,7 +80,7 @@ brush settings become available in the Toolbar Panel :kbd:`T`.
 
 In the UV/Image Editor window,
 you paint on a flat canvas that is wrapped around the mesh using UV coordinates.
-Any changes made in the UV/Image Editor window show up immediately in the 3D window,
+Any changes made in the UV/Image Editor window show up immediately in the 3D View,
 and vice versa.
 
 A full complement of brushes and colors can be selected from the Properties panel in the

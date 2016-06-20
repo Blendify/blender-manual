@@ -38,7 +38,7 @@ Interpolated
    Some of the children can become virtual parents, which are influencing other particles nearby.
 
 Display
-   The number of children in the 3D window.
+   The number of children in the 3D View.
 Render
    The number of children to be rendered (up to 10.000).
 

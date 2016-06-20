@@ -307,11 +307,11 @@ Quad View
    Quad View.
 
 
-Toggling Quad View will split the 3D window into 4 views: 3 *Ortho* views and a *Camera* / *User View*.
+Toggling Quad View will split the 3D View into 4 views: 3 *Ortho* views and a *Camera* / *User View*.
 This view will allow you to instantly see your model from a number of view points.
 In this arrangement, you can zoom and pan each view independently but you cannot rotate the view.
 Note that this is different from splitting the windows and aligning the view manually.
-In Quad View, the four views are still part of a single 3D window.
+In Quad View, the four views are still part of a single 3D View.
 So they share the same draw options and layers.
 
 If you want to be able to rotate each view, you can un-check the *Locked* option.
