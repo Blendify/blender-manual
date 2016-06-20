@@ -4,7 +4,7 @@
 Baking
 ******
 
-.. figure:: /images/physics_fluid_baking.png
+.. figure:: /images/physics_fluid_baking.jpg
 
    The fluid simulation options with Domain selected.
 
