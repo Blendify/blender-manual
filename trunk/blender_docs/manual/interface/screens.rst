@@ -39,7 +39,7 @@ however it is simply a window showing only its *header*.
 To cycle between screens use :kbd:`Ctrl-Right` and :kbd:`Ctrl-Left`.
 
 
-.. figure:: /images/ConceptScreens25.jpg
+.. figure:: /images/interface_screen-scene-selector.jpg
    :align: center
 
    Screen and Scene selectors.
