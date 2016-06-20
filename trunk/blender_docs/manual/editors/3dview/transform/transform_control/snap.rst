@@ -7,7 +7,6 @@ There are two types of snap operations that you can use in Blender. The first ty
 selection or cursor to a given point while the second type is used during transformations
 (translate, rotate, scale) and snaps your selection to elements within the scene.
 
-
 .. admonition:: Reference
    :class: refbox
 
@@ -15,12 +14,10 @@ selection or cursor to a given point while the second type is used during transf
    | Hotkey:   :kbd:`Shift-S`
 
 
-The *Snap* menu
-(also available from the 3D header in both *Object Mode* and *Edit Mode*
+The *Snap* menu (also available from the 3D header in both *Object Mode* and *Edit Mode*
 :menuselection:`Object --> Snap` and :menuselection:`Mesh --> Snap`).
 This menu provides a number of options to move the cursor or your selection to a defined point
 (the cursor, selection or the grid).
-
 
 Selection to Grid
    Snaps the currently selected object(s) to the nearest grid point.
@@ -45,7 +42,6 @@ The ability to snap Objects and Mesh element to various types of scene elements 
 transformation is available by toggling the magnet icon (which will turn red)
 in the 3D view's header buttons.
 
-
 .. figure:: /images/editors_3dview_Transform-Control_Snap-magnet-header.jpg
 
    Magnet icon in the 3D View header (red when enabled).
@@ -57,6 +53,7 @@ Snap Element
 ============
 
 .. figure:: /images/editors_3dview_Transform-Control_Snap-snap-element.jpg
+   :align: right
 
    Snap Element menu.
 
@@ -99,7 +96,6 @@ Center
 Closest
    Moves the closest point of the selection to the target.
 
-
 .. list-table::
 
    * - .. figure:: /images/editors_3dview_Transform-Control_Snap-snap-closest.jpg
@@ -133,21 +129,24 @@ As seen by the red highlighted areas in the image above,
 additional controls are available to alter snap behaviour. These options vary between mode
 (Object and Edit) as well as Snap Element. The four options available are:
 
-- .. figure:: /images/icons_snap-rotation.jpg
+.. list-table::
+   :header-rows: 1
+   :widths: 10 90
 
-   Align rotation with the snapping target.
-
-- .. figure:: /images/icons_snap-project.jpg
-
-   Project individual elements on the surface of other objects.
-
-- .. figure:: /images/icons_snap-self.jpg
-
-   Snaps elements to its own mesh.
-
-- .. figure:: /images/icons_snap-whole.jpg
-
-   Consider Objects as whole when finding volume center.
+   * - Icon
+     - Details
+   * - .. figure:: /images/icons_snap-rotation.jpg
+          :width: 35px
+     - Align rotation with the snapping target.
+   * - .. figure:: /images/icons_snap-project.jpg
+          :width: 35px
+     - Project individual elements on the surface of other objects.
+   * - .. figure:: /images/icons_snap-self.jpg
+          :width: 35px
+     - Snaps elements to its own mesh.
+   * - .. figure:: /images/icons_snap-whole.jpg
+          :width: 35px
+     - Consider Objects as whole when finding volume center.
 
 
 Multiple Snap Targets

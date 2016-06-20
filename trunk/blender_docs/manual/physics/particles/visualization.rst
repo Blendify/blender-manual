@@ -5,9 +5,9 @@ Particle Visualization
 
 With the items in the *Display* and *Render* panel you can set the way the particles will be
 rendered or depicted in the view ports in various ways.
-Some option are valid only for the 3D window, the particles then are rendered always as
+Some option are valid only for the 3D View, the particles then are rendered always as
 :doc:`Halos </render/blender_render/materials/special_effects/halo>`.
-Some of the options will be rendered as shown in the 3D window.
+Some of the options will be rendered as shown in the 3D View.
 
 
 Viewport Display
@@ -17,7 +17,7 @@ The Display Panel controls how particles are displayed in the 3D viewport.
 This does not necessarily determine how they will appear when rendered.
 
 None
-   The particles are not shown in the 3D window and are not rendered. The emitter may be rendered though.
+   The particles are not shown in the 3D View and are not rendered. The emitter may be rendered though.
 Point
    Particles are displayed as square points. Their size is independent of the distance from the camera.
 Circle

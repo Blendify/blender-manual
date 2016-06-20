@@ -76,7 +76,7 @@ The process consists of the following steps.
   :doc:`UV Layouts </editors/uv_image/uv_editing/layout_management>`.
 - Create one or more Materials for the Mesh.
 - Create one or more images for each UV Layout and aspect of the texture. Either
-  - paint directly on the mesh using Texture Paint in the 3D window,
+  - paint directly on the mesh using Texture Paint in the 3D View,
   - load and/or edit an image in the UV Editor window, or
   - Bake the existing materials into an image for the UV Editor window.
 - Apply those images as UV Textures to the mesh to affect one or more aspects of the mesh.

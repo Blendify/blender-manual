@@ -100,18 +100,18 @@ As you become more experienced with Blender, consider adding some other screen l
 your workflow as this will help increase your productivity. Some examples could include:
 
 Modeling
-   Four 3D windows (top, front, side and perspective), Properties window for Editing
+   Four 3D Views (top, front, side and perspective), Properties window for Editing
 Lighting
-   3D windows for moving lights, UV/Image Window for displaying Render Result,
+   3D Views for moving lights, UV/Image Window for displaying Render Result,
    Properties window for rendering and lamp properties and controls
 Materials
-   Properties window for Material settings, 3D window for selecting objects, Outliner,
+   Properties window for Material settings, 3D View for selecting objects, Outliner,
    Library script (if used), Node Editor
    (if using :doc:`Node based materials </render/blender_render/materials/nodes/index>`)
 Painting
    UV/Image Editor for texture painting image,
-   3D window for painting directly on object in UV Face Select mode,
-   three mini-3D windows down the side that have background
+   3D View for painting directly on object in UV Face Select mode,
+   three mini-3D Views down the side that have background
    reference pictures set to full strength, Properties window
 
 

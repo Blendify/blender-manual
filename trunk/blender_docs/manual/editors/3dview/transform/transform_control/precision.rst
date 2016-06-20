@@ -18,17 +18,14 @@ this allows the transformation to be performed in fixed amounts.
 Holding :kbd:`Shift` during a transform operation will transform the object at 1/10th the speed,
 allowing much finer control.
 
-The magnitude of the transformation can be viewed in the 3D window
-header in the bottom left hand corner. Releasing :kbd:`Ctrl` or :kbd:`Shift`
-during the transformation will cause the movement to revert back to its normal mode of
-operation.
+The magnitude of the transformation can be viewed in the 3D View header in the bottom left hand corner.
+Releasing :kbd:`Ctrl` or :kbd:`Shift` during the transformation will cause the movement
+to revert back to its normal mode of operation.
 
 .. note::
 
    The snapping behaviors described on this page **only** apply when :ref:`Increment Snap <transform-snap-element>`
    is selected.
-
-:doc:`Read more about Window Headers </interface/window_system/headers>`
 
 
 Usage
@@ -44,13 +41,14 @@ Press :kbd:`G`, :kbd:`R` or :kbd:`S` and then hold either :kbd:`Ctrl`,
 With the Transform Manipulator
 ------------------------------
 
-Hold :kbd:`Ctrl`,
-:kbd:`Shift` or :kbd:`Ctrl-Shift` and click on the appropriate manipulator handle.
+Hold :kbd:`Ctrl`, :kbd:`Shift` or :kbd:`Ctrl-Shift` and click on the appropriate manipulator handle.
 Then move the mouse in the desired direction. The reverse action will also work i.e.
 clicking the manipulator handle and then holding the shortcut key for precision control.
 
-:doc:`Read more about the Transform Manipulator </editors/3dview/transform/transform_control/manipulators>`
 
+.. sealso::
+
+   :doc:`Read more about the Transform Manipulator </editors/3dview/transform/transform_control/manipulators>`
 
 .. tip:: Combining with other controls
 
@@ -67,8 +65,9 @@ Grab/move transformations
 -------------------------
 
 .. figure:: /images/interaction-Transform_Control_Precision_blender-units.jpg
+   :align: right
 
-   1 Blender Unit - shown at the default zoom level.
+   1 Blender Unit (default zoom level).
 
 
 For grab/move operations at the default zoom level,
@@ -80,7 +79,9 @@ BU and so on until the zoom limit is reached.
 Zooming out will have the opposite effect and cause movement to happen by increments of 10,
 100 etc BU.
 
-:doc:`Read more about Zooming </editors/3dview/navigate/introduction>`
+.. sealso::
+
+   :doc:`Read more about Zooming </editors/3dview/navigate/introduction>`
 
 
 Rotation transformations

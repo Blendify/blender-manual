@@ -38,7 +38,6 @@ the green cube is the active Object, while the red and blue cubes are located wi
 proportional edit tool's radius of influence. When the green cube is moved to the right,
 the other two cubes follow the movement.
 
-
 .. figure:: /images/editors_3dview_Transform-Control_Proportional-Edit-object-mode.jpg
 
    Proportional editing in Object Mode.
@@ -55,7 +54,6 @@ Edit Mode
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Mesh --> Proportional Editing` and via the highlighted icon in the below image
 
-
    .. figure:: /images/editors_3dview_Transform-Control_Proportional-Edit-proportional-edit-header-icon-edit-mode.jpg
 
    | Hotkey:   :kbd:`O`, :kbd:`Alt-O`, :kbd:`Shift-O`
@@ -66,7 +64,6 @@ vertices without causing visible lumps and creases in the model's surface. When 
 situations like this the proportional editing tool can be used to smoothly deform the surface
 of the model.
 This is done by the tool's automatic modification of unselected vertices within a given range.
-
 
 .. figure:: /images/editors_3dview_Transform-Control_Proportional-Edit-edit-mode.jpg
 
@@ -81,7 +78,6 @@ wheel :kbd:`WheelUp`, :kbd:`WheelDown` or :kbd:`PageUp`, :kbd:`PageDown`
 respectively. As you change the radius,
 the points surrounding your selection will adjust their positions accordingly.
 
-
 .. figure:: /images/editors_3dview_Transform-Control_Proportional-Edit-influence.jpg
 
    Influence circle.
@@ -94,7 +90,6 @@ Options
    :width: 200px
 
    Proportional Editing tool.
-
 
 .. figure:: /images/editors_3dview_Transform-Control_Proportional-Edit-proportional-edit-falloff-options.jpg
    :width: 200px
@@ -112,7 +107,6 @@ Enable :kbd:`O`, :kbd:`Alt-O`
 
 Projected (2D)
    Depth along the view is ignored when applying the radius.
-
 
 .. figure:: /images/editors_3dview_Transform-Control_Proportional-Edit-2D_Compare.jpg
    :width: 300px
@@ -188,7 +182,6 @@ You can use the proportional editing tool to produce great effects with the scal
 :kbd:`S` and rotation :kbd:`R` tools,
 as Fig. A landscape obtained via proportional editing shows.
 
-
 .. figure:: /images/editors_3dview_Transform-Control_Proportional-Edit-landscape.jpg
    :width: 640px
 
@@ -198,7 +191,6 @@ as Fig. A landscape obtained via proportional editing shows.
 Combine these techniques with vertex painting to create fantastic landscapes. 
 The Fig. final rendered landscape image below shows the results of proportional editing after the
 application of textures and lighting.
-
 
 .. figure:: /images/editors_3dview_objects_transform_roportional-edit_example.jpg
    :width: 620px

@@ -34,7 +34,7 @@ These coordinates can be used for rendering or for real-time OpenGL display as w
 
 Every face in Blender can have a link to a different image.
 The UV coordinates define how this image is mapped onto the face.
-This image then can be rendered or displayed in real time. A 3D window has to be in "Face
+This image then can be rendered or displayed in real time. A 3D View has to be in "Face
 Select" mode to be able to assign Images or change UV coordinates of the active Mesh Object.
 This allows a face to participate in many UV Textures.
 A face at the hairline of a character might participate in the facial UV Texture,
@@ -60,7 +60,7 @@ This process creates one or more UV Islands in the :ref:`UV/Image Editor window 
 To begin, choose the *UV Editing* :doc:`screen layout </interface/screens>`
 from the selection list at the top of your screen in the User Preferences
 window header. This sets one of the panes to show you the UV/Image Editor
-window :kbd:`Shift-F10`, and the other pane to the 3D window :kbd:`Shift-F5`.
+window :kbd:`Shift-F10`, and the other pane to the 3D View :kbd:`Shift-F5`.
 
 Enter edit mode, as all unwrapping is done in Edit Mode. You can be in vertex,
 face, or edge selection mode.
@@ -135,7 +135,7 @@ Basic Mapping
 Based on the fundamental geometry of the object, and how it is being viewed,
 the :menuselection:`Mesh --> UV Unwrap --> Cube, Cylinder and Sphere` 
 UV Calculations attempt to unfold the faces for you as an initial best fit.
-Here, the view from the 3D window is especially important.
+Here, the view from the 3D View is especially important.
 Also, the settings for cube size or cylinder radius (Editing buttons, UV Calculation panel)
 should be set (in Blender units) to encompass the object.
 
@@ -217,8 +217,8 @@ Radius
 Project From View
 -----------------
 
-In the 3D window, the :menuselection:`Face --> Unwrap UVs --> Project from View` option maps the face as
-seen through the view of the 3D window it was selected from.
+In the 3D View, the :menuselection:`Face --> Unwrap UVs --> Project from View` option maps the face as
+seen through the view of the 3D View it was selected from.
 It is almost like you had x-ray vision or squashed the mesh flat as a pancake onto the UV map.
 Use this option if you are using a picture of a real object as a UV Texture for an object that
 you have modeled. You will get some stretching in areas where the model recedes away from you.
@@ -231,7 +231,7 @@ but scales the UVs to the bounds of the UV space.
 Resetting UVs
 -------------
 
-In the 3D window, :menuselection:`Face --> Unwrap --> Reset` 
+In the 3D View, :menuselection:`Face --> Unwrap --> Reset` 
 maps each selected face to the same area of the image,
 as previously discussed. To map all the faces of an object (a cube, for example)
 to the same image, select all the faces of the cube,

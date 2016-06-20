@@ -10,8 +10,8 @@
    | Mode:     Object Mode and Edit Mode
    | Menu:     Droplist in the header of the 3D view
 
-
 .. figure:: /images/PivotSelection.jpg
+   :align: right
 
    Pivot Point modes.
 
@@ -29,7 +29,6 @@ Using this selector, you can change the pivot point to the location of the:
 Each of these can be chosen from the drop-down list in the header of any 3D area,
 as seen here in Fig. Pivot Point modes.
 The pages linked below describe each *Pivot Point* mode in more detail.
-
 
 .. toctree::
    :maxdepth: 2

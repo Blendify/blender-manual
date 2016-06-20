@@ -163,9 +163,9 @@ Current Scene
 Visible Layers
    Shows everything on the visible (currently selected) layers in the current scene.
    Use the :doc:`layer </editors/3dview/layers>` buttons
-   to make objects on a layer visible in the 3D window.
+   to make objects on a layer visible in the 3D View.
 Selected
-   Lists only the object(s) currently selected in the 3D window.
+   Lists only the object(s) currently selected in the 3D View.
    You can select multiple objects by :kbd:`Shift-RMB` -clicking.
 Active
    Lists only the active (often last selected) object.

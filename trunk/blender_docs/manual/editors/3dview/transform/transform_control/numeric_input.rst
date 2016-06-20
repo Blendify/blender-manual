@@ -6,7 +6,7 @@ Numeric Input
 .. figure:: /images/editors_3dview_Transform_Control-Numeric_Input_numeric-input-header.jpg
    :width: 300px
 
-   Numeric input in the 3D window header.
+   Numeric input in the 3D View header.
 
 
 Using the mouse for transformations is convenient, 
@@ -14,7 +14,7 @@ but if you require more precise control, you can also enter numeric values.
 After pressing :kbd:`G`, :kbd:`R`, :kbd:`S`
 type a number to indicate the magnitude of the transformation.
 
-You can see the numbers you enter in the bottom left hand corner of the 3D window header.
+You can see the numbers you enter in the bottom left hand corner of the 3D View header.
 Negative numbers and decimals can be entered by 
 pressing the minus :kbd:`Minus` and period :kbd:`.` keys respectively.
 
@@ -37,20 +37,14 @@ e.g. To move an Object, one (1) Blender unit on all three axes press:
 This will move the element one unit along the X-axis,
 followed by the Y-axis and then the Z-axis.
 
-You can also combine numeric input with axis locking to limit movement to a particular axis.
-To do so, press :kbd:`G` 
-followed by :kbd:`X`, :kbd:`Y`, :kbd:`Z` to indicate the axis. 
-Then type in the transform amount using
-(:kbd:`0` - :kbd:`9`) followed by :kbd:`Return` to confirm.
-Pressing :kbd:`X`, :kbd:`Y`, :kbd:`Z` 
-will initially constrain movement to the *Global* axis. 
-Pressing :kbd:`X`, :kbd:`Y`, :kbd:`Z` again
-will constrain movement to the orientation set 
-in the *Transform Orientation* setting of the 3D window header.
-
-:doc:`Read more about Transform Orientations </editors/3dview/transform/transform_control/transform_orientations>`
-
-:doc:`Read more about Axis Locking </editors/3dview/transform/transform_control/axis_locking>`
+You can also combine numeric input with :doc:`Axis Locking </editors/3dview/transform/transform_control/axis_locking>`
+to limit movement to a particular axis. To do so, press :kbd:`G` followed by :kbd:`X`,
+:kbd:`Y`, :kbd:`Z` to indicate the axis.  Then type in the transform amount using (:kbd:`0` - :kbd:`9`)
+followed by :kbd:`Return` to confirm. Pressing :kbd:`X`, :kbd:`Y`,
+:kbd:`Z` will initially constrain movement to the *Global* axis. 
+Pressing :kbd:`X`, :kbd:`Y`, :kbd:`Z` again will constrain movement to the orientation set 
+in the :doc:`Transform Orientation </editors/3dview/transform/transform_control/transform_orientations>`
+setting of the 3D View header.
 
 
 Rotation

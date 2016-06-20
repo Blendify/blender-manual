@@ -51,7 +51,7 @@ Weight Paint in a nutshell
    Create radial gradient
       :kbd:`Alt-Ctrl-LMB` then drag
    Draw a *Clipping Border*
-      :kbd:`Alt-B` then drag the clipping border to select the part of the 3D window which shall be kept visible.
+      :kbd:`Alt-B` then drag the clipping border to select the part of the 3D View which shall be kept visible.
       You can then draw only in this part. Press :kbd:`Alt-B` again to remove the *clipping border*.
 
 
@@ -388,7 +388,7 @@ The Clipping Border
 To constrain the paint area further you can use the *Clipping Border*.
 Press :kbd:`Alt-B` and :kbd:`LMB` -drag a rectangular area.
 The selected area will be "cut out" as the area of interest.
-The rest of the 3D window gets hidden.
+The rest of the 3D View gets hidden.
 
 
 .. figure:: /images/Modeling-Meshes-weight-paint-border-select.jpg

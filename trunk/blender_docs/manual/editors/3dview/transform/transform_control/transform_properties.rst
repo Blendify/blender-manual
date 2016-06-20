@@ -34,6 +34,7 @@ Options in Object Mode
 ----------------------
 
 .. figure:: /images/Transform-properties-panel.jpg
+   :align: right
 
    Transform Properties panel in Object Mode.
 
