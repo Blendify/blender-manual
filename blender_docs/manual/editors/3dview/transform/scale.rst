@@ -51,7 +51,6 @@ Scaling using the keyboard shortcut
 
 The amount of scaling will be displayed in the bottom left hand corner of the 3D View editor.
 
-
 .. figure:: /images/editors_3dview_Transformations-Basic-Scale-scale_value_header.jpg
 
    Scale values.
@@ -88,13 +87,11 @@ in Blender Units (BU) to specify the amount of scaling after after initiating a 
 - Hold :kbd:`Shift-Ctrl` down while scaling to scale the selected element in 0.01 BU increments.
 - Press :kbd:`S`, type in a number and press :kbd:`Return` to confirm.
 
-
 .. tip:: Orientation dependent scaling
 
    By default, all scaling happens around a Global Orientation.
    You can change the scaling orientation by pressing the axis key twice. For example, pressing
    :kbd:`S`, :kbd:`X`, :kbd:`X` will by default set scaling to occur around the local orientation.
-
 
 .. seealso::
 

@@ -41,7 +41,6 @@ Rotation using the keyboard shortcut
 
 The amount of rotation will be displayed in the bottom left hand corner of the 3D View editor.
 
-
 .. figure:: /images/editors_3dview_Transformations-Basic-Rotate-rotate_value_header.jpg
 
    Rotation values.
@@ -53,7 +52,6 @@ Constraining the rotation axis (axis locking)
 Rotation can be constrained to a particular axis or axes through the use of
 :doc:`Axis Locking </editors/3dview/transform/transform_control/axis_locking>`.
 To constrain rotation, the following shortcuts can be used:
-
 
 - :kbd:`R`, :kbd:`X`: Rotate only along the *X-Axis*
 - :kbd:`R`, :kbd:`Y`: Rotate only along the *Y-Axis*
@@ -79,14 +77,12 @@ in degrees to specify the amount of rotation after after initiating a rotation t
 - Press :kbd:`R`, type in a number and press :kbd:`Return` to confirm.
 - Press :kbd:`R`, :kbd:`R` to enable Trackball rotation.
 
-
 .. tip:: Orientation dependant rotations
 
    By default, all rotations happen around a Global Orientation.
    You can change the rotation orientation by pressing the axis key twice.
    For example, pressing :kbd:`R`, :kbd:`X`,
    :kbd:`X` will by default set rotation to occur around the local orientation.
-
 
 .. seealso::
 
@@ -108,8 +104,8 @@ In the 3D View header, ensure that the Transform Manipulator is enabled (the red
 and blue triad is selected). Set the manipulator type to rotation
 (the highlighted arc icon shown below).
 
-
 .. figure:: /images/editors_3dview_Transformations-Basic-Rotate-rotate_manipulator_header.jpg
+
 
 - Select your element with :kbd:`RMB`.
 - Use :kbd:`LMB` and drag any of the three colored axes on the rotation manipulator to rotate
@@ -117,7 +113,6 @@ and blue triad is selected). Set the manipulator type to rotation
   You can also use :kbd:`Shift`, :kbd:`Ctrl` or numeric input with the 3D manipulator widget for further control.
 - Your changes will be applied when you release :kbd:`LMB` or press :kbd:`Spacebar` or
   :kbd:`Return`. Your changes will be cancelled if you press :kbd:`RMB` or :kbd:`Esc`.
-
 
 .. seealso::
 
