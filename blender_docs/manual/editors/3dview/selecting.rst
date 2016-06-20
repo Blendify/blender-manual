@@ -16,7 +16,7 @@ Selections and the Active Object
 Blender distinguishes between two different states of selection:
 
 
-.. figure:: /images/Object-Selection-001.jpg
+.. figure:: /images/editors_3dview_selecting_color.png
 
    Unselected object in black, selected object in orange, and active object in yellow.
 
