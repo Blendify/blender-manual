@@ -260,8 +260,8 @@ Pop-Up Menus
 
    The Viewport Shading popup menu.
 
-Pop-up menus are overlay menus used to display selectable options. 
-They are spawned by menu buttons and buttons showing a up and down triangles on the right or
+Pop-up menus are overlay menus used to display options. 
+They are spawned by menu buttons and buttons showing up and down triangles on the right or
 after a key input at the mouse position.
 
 For example, the *Viewport Shading* button will produce a pop-up menu 
@@ -328,16 +328,16 @@ Pie Menus
 A pie menu is a menu, whose items are spread radially around the mouse.
 Pie menus has to be activated in the User Preferences through :menuselection:`Add-ons --> UI --> Pie Menus Official`. 
 
+.. figure:: /images/interface_pie-menu.jpg
+   :width: 400px
+
+   The shade pie menu.
+
 
 Interaction
 ^^^^^^^^^^^
 
 The pie menu is spawned by a key press.
-
-.. figure:: /images/interface_pie-menu.jpg
-   :width: 400px
-
-   The shade pie menu.
 
 .. rubric:: 3D-View
 
