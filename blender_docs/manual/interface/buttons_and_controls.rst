@@ -3,9 +3,8 @@
 Buttons and Controls
 ********************
 
-Buttons and other controls can be found in almost every
-:doc:`Window </editors/index>` of the Blender
-interface. The different types of controls are described below.
+Buttons and other controls can be found in every Editor of the Blender interface. 
+The different types of controls are described below.
 
 
 Operation Buttons
@@ -38,7 +37,7 @@ Toggle Drag
 -----------
 
 To change many toggle buttons at once, you can :kbd:`LMB` drag over multiple buttons,
-This works for checkboxes, toggles in the outliner and layer buttons.
+This works for checkboxes, toggles in the Outliner and layer buttons.
 
   .. note::
 
@@ -159,7 +158,7 @@ Unit Names
 ^^^^^^^^^^
 
 .. note to authors, normally we would avoid documenting long lists of values
-   however, this isn't displayed anywhere else.
+   however, this is not displayed anywhere else.
 
 Unit names have can be used with both long and short forms,
 here are listed recognized unit names you can use.
@@ -293,11 +292,10 @@ User count
    Displays the number of users of the data. Clicking on it to make it a single-user copy.
 Fake User "F"
    Saves this data-block data-block, even if it has no users.
-New
-   Plus "+"
-      Duplicates the current data-block and applies it.
-   Open file
-      Opens the :doc:`file-browser </editors/file_browser/introduction>`.
+New "+"
+   Duplicates the current data-block and applies it.
+Open file
+   Opens the :doc:`file-browser </editors/file_browser/introduction>`.
 Unlink data-block "X"
    Clears the link.
 
@@ -347,6 +345,11 @@ The pie menu is spawned by a key press.
 - :kbd:`Shift-W` Scene Reconstruction
 - :kbd:`OS-A` Playback Operators
 
+.. rubric:: Grease Pencil
+ 
+- :kbd:`D-Q` Main tools menu (context sensitive)
+- :kbd:`D-W` Quick Settings
+
 Releasing the key without moving the mouse will keep the menu open and 
 the user can then move the mouse pointer towards the direction of a pie menu item and select it by clicking. 
 Releasing the key after moving the mouse towards a pie menu item will cause the menu to close and 
@@ -360,7 +363,7 @@ if the mouse is touching or extending beyond the disc widget at the center of th
 Pie menu items support key accelerators, which are the letters underlined on each menu item.
 Also number keys can be used to select the items.
 
-If there are sub-pies, available it is indicated by a plus icon. 
+If there are sub-pies available, it is indicated by a plus icon. 
 
 See :ref:`Pie menu settings <prefs-pie-menu>`.
 
