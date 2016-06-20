@@ -10,7 +10,7 @@ The different types of controls are described below.
 Operation Buttons
 =================
 
-.. figure:: /images/ConceptButtons2.jpg
+.. figure:: /images/interface_button.jpg
    :align: right
 
    Operation button.
@@ -23,7 +23,7 @@ They can be identified by their gray color in the default color scheme.
 Toggle Buttons
 ==============
 
-.. figure:: /images/ConceptButtons1_1.jpg
+.. figure:: /images/interface_checkbox.jpg
    :align: right
 
    Toggle Buttons.
@@ -48,7 +48,7 @@ This works for checkboxes, toggles in the Outliner and layer buttons.
 Radio Buttons
 =============
 
-.. figure:: /images/ConceptButtons1.jpg
+.. figure:: /images/interface_radioButton.jpg
    :align: right
 
    Radio Buttons.
@@ -60,7 +60,7 @@ Radio buttons are used to choose from a small selection of "mutually exclusive" 
 Number Buttons
 ==============
 
-.. figure:: /images/ConceptButtons3.jpg
+.. figure:: /images/interface_numberButton.jpg
    :align: right
 
    Number buttons.
@@ -255,14 +255,21 @@ See :doc:`Headers </interface/window_system/headers>` for header options.
 Pop-Up Menus
 ------------
 
-Pop-up menus are displayed as regular buttons, showing a range of options.
-For example, the *Add Modifier* button will produce a menu with all of the available modifiers.
+.. figure:: /images/interface_popup-menu.jpg
+   :align: right
 
+   The Viewport Shading popup menu.
 
-.. figure:: /images/ConceptButtons4_menue.jpg
-   :align: center
+Pop-up menus are overlay menus used to display selectable options. 
+They are spawned by menu buttons and buttons showing a up and down triangles on the right or
+after a key input at the mouse position.
 
-   Modifier options.
+For example, the *Viewport Shading* button will produce a pop-up menu 
+with the available shading options.
+
+.. container:: lead
+
+   .. clear
 
 .. _ui-data_block:
 
@@ -273,10 +280,10 @@ Menu buttons are used to link Data-Blocks to each other.
 Data-blocks are items like meshes, objects, materials, textures, and so on.
 
 
-.. figure:: /images/ConceptButtons4_1.jpg
+.. figure:: /images/interface_data-block.jpg
    :align: right
 
-   Data-Block's link menu with search.
+   The Data-Block link menu with a search input.
 
 
 Data-Block type
@@ -293,7 +300,7 @@ User count
 Fake User "F"
    Saves this data-block data-block, even if it has no users.
 New "+"
-   Duplicates the current data-block and applies it.
+   Creates a new data-block or duplicates the current data-block and applies it.
 Open file
    Opens the :doc:`file-browser </editors/file_browser/introduction>`.
 Unlink data-block "X"
@@ -302,7 +309,7 @@ Unlink data-block "X"
 Sometimes there is a list of applied data-blocks
 (such as a list of materials used on the object). See Fig. data-block link buttons above.
 
-.. figure:: /images/ConceptButtons4.jpg
+.. figure:: /images/interface_list-controls.jpg
    :align: right
 
    Data-block link buttons.
@@ -326,6 +333,11 @@ Interaction
 ^^^^^^^^^^^
 
 The pie menu is spawned by a key press.
+
+.. figure:: /images/interface_pie-menu.jpg
+   :width: 400px
+
+   The shade pie menu.
 
 .. rubric:: 3D-View
 

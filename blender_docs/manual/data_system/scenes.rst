@@ -13,7 +13,7 @@ so it is a good idea to read that manual page first if you are not familiar with
 You can select and create scenes with the *Scene selector* in the *Info* editor header
 (the bar at the top of most Blender layouts, see *Screen and Scene selectors*).
 
-.. figure:: /images/ConceptScreens25.jpg
+.. figure:: /images/interface_screen-scene-selector.jpg
    :align: center
 
    Screen and Scene selectors.
