@@ -12,9 +12,9 @@ For example, scaling a camera has no effect on the render dimensions.
 
 Basic transformations include:
 
-- :doc:`Grabbing (moving) </editors/3dview/transform/grab>`
-- :doc:`Rotating </editors/3dview/transform/rotate>`
-- :doc:`Scaling </editors/3dview/transform/scale>`
+- :doc:`Grabbing (moving) </editors/3dview/transform/basics/grab>`
+- :doc:`Rotating </editors/3dview/transform/basics/rotate>`
+- :doc:`Scaling </editors/3dview/transform/basics/scale>`
 
 These three transforms are the three big ones however more, advanced transformations can be found in the
 :doc:`Advanced Transformations </editors/3dview/transform/index>` section.

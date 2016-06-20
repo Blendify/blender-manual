@@ -7,9 +7,7 @@
    :maxdepth: 2
 
    introduction.rst
-   grab.rst
-   rotate.rst
-   scale.rst
+   basics/index.rst
    duplication/index.rst
    origns.rst
    transform_control/index.rst

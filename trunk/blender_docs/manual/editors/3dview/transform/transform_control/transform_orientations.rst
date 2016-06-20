@@ -129,7 +129,7 @@ Gimbal
 
       Gimbal.
 
-   Gimbal's behavior highly depends on the current :doc:`Rotation Mode </editors/3dview/transform/rotate>`
+   Gimbal's behavior highly depends on the current :doc:`Rotation Mode </editors/3dview/transform/basics/rotate>`
    (accessible in the :kbd:`N` Properties Panel in the *3D View*, in top section, *Transform*).
 
    XYZ Euler
