@@ -177,7 +177,7 @@ Select Grouped
    | Hotkey:   :kbd:`Shift-G`
 
 
-.. figure:: /images/Object-Selection-Grouped.jpg
+.. figure:: /images/editors_3dview_selecting_grouped.png
    :align: right
 
    Select Grouped menu.
@@ -298,7 +298,8 @@ Select All by Layer
    | Hotkey:   None
 
 
-.. figure:: /images/Object-Selection-AllByLayer.jpg
+.. figure:: /images/editors_3dview_select_allbylayer.png
+   :align: right
 
    All by Layer selection menu.
 
