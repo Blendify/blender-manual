@@ -90,7 +90,7 @@ tracks so a whole group of tracks can be selected by color using the Select Grou
 Plane Track Panel
 =================
 
-.. figure:: /images/editors_movie-clip_plane_track_panel.jpg
+.. figure:: /images/editors_movie-clip_plane_track_panel.png
    :align: right
    :width: 130px
 
