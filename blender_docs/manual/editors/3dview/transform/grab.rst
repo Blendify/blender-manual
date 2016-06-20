@@ -136,6 +136,7 @@ You can find out more about transform orientations
 :doc:`here </editors/3dview/transform/transform_control/transform_orientations>`.
 
 .. figure:: /images/editors_3dview_trans_grab_orientation.png
+   :align: right
 
    Orientation choice menu.
 
