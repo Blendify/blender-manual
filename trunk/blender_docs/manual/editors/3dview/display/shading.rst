@@ -6,9 +6,10 @@ Shading
 Shading Modes
 =============
 
-.. figure:: /images/Viewport-shading-menu.jpg
+.. figure:: /images/interface_popup-menu.jpg
+   :align: right
 
-   3D viewport shade button.
+   The Viewport Shading menu.
 
 Shading refers to the way objects are drawn and lit in the 3D View.
 
@@ -36,7 +37,7 @@ Instead they use a simple default lighting adjusted by the
 The viewport shading controls the appearance of all objects in a scene,
 but this can be overridden for individual objects using the Display panel in their Object Properties.
 
-Keyboard Shortcuts
+.. rubric:: Keyboard Shortcuts
 
 .. list-table::
    :stub-columns: 1
