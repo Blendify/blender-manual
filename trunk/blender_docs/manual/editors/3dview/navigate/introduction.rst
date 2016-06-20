@@ -10,8 +10,8 @@ Blender has a wide array of tools and options to support you in efficiently work
 mouse, keyboard and numpad.
 
 
-3D View Header
-==============
+Menus
+=====
 
 The *3D View* editor is comprised of a workspace and a header.
 The header is shown at the bottom or top of the workspace, and can be hidden if desired.
@@ -108,6 +108,13 @@ This menu contains tools for selecting objects.
 :doc:`Read more about Selecting </editors/3dview/selecting>`
 
 
+Add Menu
+--------
+
+This menu gives a list of different objects that can be added to a scene.
+See :doc:`here </editors/3dview/object/types/index>` for a information on all the object types.
+
+
 Object Menu
 -----------
 
@@ -117,122 +124,54 @@ it will change to the appropriate menu with editing tools.
 :doc:`Read more about Objects </editors/3dview/transform/introduction>`
 
 
+.. rubric:: General Options
+
 Mode List
----------
+   The Viewport has several modes of operation,
+   for a full list modes see :doc:`here </editors/3dview/object/modes.html>`
 
-.. figure:: /images/editors_3dview-mode.jpg
+Viewport Shading
+   Allows you to change the way 3D objects are displayed in the viewport.
 
-   The Mode drop-down list.
-
-
-Blender has several modes of operation.
-
-
-Object Mode
-   mode allows you to work with objects as a whole.
-Edit Mode
-   Allows you to modify the shape of the object.
-:ref:`Sculpt Mode <painting_sculping-index>`
-   In this mode your cursor becomes a tool to shape the object
-
-The cursor becomes a brush in:
-
-- :ref:`painting_vertex-index` mode
-- :ref:`painting_weight-index` mode
-- :ref:`painting_texture-index` mode.
-
-
-ViewPort Shading List
----------------------
-
-Allows you to change the way 3D objects are displayed in the viewport.
-
-- Bounding Box
-- Wireframe
-- Solid
-- Texture
-- Material
-- Rendered
-
-:doc:`Read more about 3D View options </editors/3dview/display/shading>`
-
+   :doc:`Read more about the different shading modes </editors/3dview/display/shading>`
 
 Pivot Point Selector
---------------------
+   Used to change the reference point (or :term:`pivot point`) used by many mesh manipulation tools.
 
-.. figure:: /images/PivotSelection.jpg
+   :doc:`Read more about Pivot Points </editors/3dview/transform/transform_control/pivot_point/index>`
 
-   Pivot point selector.
+Manipulator Selector
+   These handy selectors allow you to rotate or move objects by grabbing
+   (clicking with your mouse) their controls and moving your mouse in the axis.
 
-
-When rotating or scaling an object or group of vertices/edges/faces,
-you may want to shift the pivot point (the transformation center) in 3D space.
-Using this selector, you can change the pivot point to the location of the:
-
-- Active Element
-- Median Point *the average center spot of the selected items*
-- Individual Origins
-- 3D Cursor
-- Bounding Box Center
-
-Use the *Object Center* to switch between transforming the entire objects,
-or just the position of the objects
-
-:doc:`Read more about Pivot Points </editors/3dview/transform/transform_control/pivot_point/index>`
-
-
-Transform (Manipulator) Selectors
----------------------------------
-
-These handy selectors allow you to rotate or move objects by grabbing
-(clicking with your mouse) their controls and moving your mouse in the axis.
-
-:doc:`Read more about Transform Manipulators </editors/3dview/transform/transform_control/manipulators>`
-
+   :doc:`Read more about Transform Manipulators </editors/3dview/transform/transform_control/manipulators>`
 
 Layer Selector
---------------
-
-Layers are well documented in the :doc:`Layers page </editors/3dview/layers>`.
+   Layers are well documented in the :doc:`Layers page </editors/3dview/layers>`.
 
 
 Lock to Scene
--------------
+   By default, the "lock" button to the right of the layer buttons is enabled.
+   This means that in this view, the active layers and camera are those of the whole scene
+   (and those used at render time). Hence, all 3D views locked this way will share the same
+   active layers and camera - when you change them in one view,
+   all locked others will immediately reflect these changes.
 
-By default, the "lock" button to the right of the layer buttons is enabled.
-This means that in this view, the active layers and camera are those of the whole scene
-(and those used at render time). Hence, all 3D views locked this way will share the same
-active layers and camera - when you change them in one view,
-all locked others will immediately reflect these changes.
+   But if you disable this "lock" button, you then can specify different active layers and camera,
+   specific to this view. This might be useful if you do not want to have your working areas (views)
+   cluttered with the whole scene, and still have an ancillary complete view
+   (which is unlocked with e.g. all layers shown).
+   Or to have several views with different active cameras. Remember that you can use
+   :kbd:`Ctrl-Numpad0` to make the active object the active camera.
 
-But if you disable this "lock" button, you then can specify different active layers and camera,
-specific to this view. This might be useful if you do not want to have your working areas (views)
-cluttered with the whole scene, and still have an ancillary complete view
-(which is unlocked with e.g. all layers shown).
-Or to have several views with different active cameras. Remember that you can use
-:kbd:`Ctrl-Numpad0` to make the active object the active camera.
-
-:doc:`Read more about Scenes </data_system/scenes>`
+   :doc:`Read more about Scenes </data_system/scenes>`
 
 
 Snap to Mesh
-------------
+   Controls the snapping tools that help with transforming and modeling objects.
 
-This "magnet" button controls the snapping tools that help with transforming and modeling
-objects.
-
-:doc:`Read more about Snapping </editors/3dview/transform/transform_control/snap>`
-
+   :doc:`Read more about Snapping </editors/3dview/transform/transform_control/snap>`
 
 Render Buttons
---------------
-
-The Render Buttons render an OpenGL version of the 3D view.
-
-The first button renders a still image of the Objects in the 3D View without displaying the
-grid, axes, etc. It uses the same *Draw* mode as the 3D view,
-so it is rather useful if someone asks to see the wireframe of an Object you are working on.
-
-The second button will render an animation of the 3D View,
-making it useful for making preview renders of animations. The animation will be saved in the
-folder and format specified in the *Output* panel of the *Render* context.
+   The Render Buttons render an OpenGL version of the 3D view.
+   See the :doc:`OpenGL Rendering </render/opengl>` page for more information.

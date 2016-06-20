@@ -10,10 +10,10 @@ and that the available modes vary depending on the selected active object's type
 most of them only enable the default *Object Mode* (like cameras, lamps, etc.).
 Each mode is designed to edit an aspect of the selected object. See Tab. Blender's Modes below for details.
 
+.. figure:: /images/editors_3dview-mode.jpg
+   :align: right
 
-.. figure:: /images/ModeSelect.jpg
-
-   Mode selection example (mesh object).
+   The Mode drop-down list.
 
 
 You set the current mode in the *Mode* drop-down list of *3D View* header
@@ -23,6 +23,7 @@ You set the current mode in the *Mode* drop-down list of *3D View* header
 
    You can only select objects in *Object Mode*. In all others,the current object selection is "locked"
    (except, to some extent, with an armature's *Pose Mode*).
+
 
 Modes might affect many things in Blender:
 
@@ -98,7 +99,15 @@ Modes might affect many things in Blender:
    However, the same shortcut has other, internal meanings in some modes
    (e.g. in *Sculpt Mode*, it is used to select the current brush)...
 
-As you can see, using shortcuts to switch between modes can become quite tricky, especially with meshes...
+As you can see, using shortcuts to switch between modes can become quite tricky, especially with meshes.
+
+.. note::
+
+   The cursor becomes a brush in:
+
+   - :ref:`painting_vertex-index` mode
+   - :ref:`painting_weight-index` mode
+   - :ref:`painting_texture-index` mode.
 
 .. Todo add to chart
 

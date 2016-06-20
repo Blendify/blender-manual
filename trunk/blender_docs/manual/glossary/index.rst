@@ -486,7 +486,8 @@ For other common conventions used throughout the manual.
       ambient is a global constant.
 
    Pivot Point
-      Reference point used by many mesh manipulation tools.
+      The pivot point is the point in space around which all rotations,
+      scalings and mirror transformations are centered..
 
       See also the :doc:`Pivot Point </editors/3dview/transform/transform_control/pivot_point/index>` docs.
 
