@@ -178,22 +178,19 @@ Select Grouped
 
 
 .. figure:: /images/Object-Selection-Grouped.jpg
+   :align: right
 
    Select Grouped menu.
 
 
 There are two ways to organize the objects in relation to one another.
 The first one is *parenting*, and the second is simple *grouping*.
-We can use these relationships to our advantage by selecting members of respective families or
-groups.
+These relationships to an artist's advantage by selecting members of respective families or groups.
+*Select Grouped* uses the active object as a basis to select all others.
 
 
 Options
 ^^^^^^^
-
-:menuselection:`Select --> Grouped` in *Object Mode* uses the active object as a basis to select all others.
-
-Available options are:
 
 Children
    Selects all children of the active object recursively.
@@ -243,14 +240,11 @@ Select linked
 
 
 Selects all objects which share a common data-block with the active object.
+*Select linked* uses the active object as a basis to select all others.
 
 
 Options
 ^^^^^^^
-
-:menuselection:`Select --> Linked` in *Object Mode* uses the active object as a basis to select all others.
-
-Available options are:
 
 Object Data
    Selects every object that is linked to the same Object Data, i.e.
@@ -281,21 +275,16 @@ Select All by Type
    | Hotkey:   None
 
 
-The types are *Mesh*, *Curve*, *Surface*, *Meta*,
-*Font*, *Armature*, *Lattice*, *Empty*,
-*Camera*, *Lamp*, *Speaker*.
-
-With this tool it becomes possible to select every **visible** object of a certain type in
-one go.
+With this tool it becomes possible to select every **visible**
+object of a certain type in one go.
 
 
 Options
 ^^^^^^^
 
-*Select All by Type* in *Object Mode* offers an option for every type
-of object that can be described by the *ObData* data-block.
-
-Just take your pick.
+The types are *Mesh*, *Curve*, *Surface*, *Meta*,
+*Font*, *Armature*, *Lattice*, *Empty*,
+*Camera*, *Lamp*, *Speaker*.
 
 
 Select All by Layer
@@ -325,8 +314,6 @@ visible or not, in one single command.
 
 Options
 ^^^^^^^
-
-In the :menuselection:`Tool Shelf --> Select by Layer` the following options are available:
 
 Match
    The match type for selection.
