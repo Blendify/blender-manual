@@ -10,5 +10,4 @@
    introduction.rst
    types/index.rst
    modes.rst
-   editing.rst
    relationships/index.rst
