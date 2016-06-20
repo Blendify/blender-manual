@@ -128,7 +128,7 @@ it will change to the appropriate menu with editing tools.
 
 Mode List
    The Viewport has several modes of operation,
-   for a full list modes see :doc:`here </editors/3dview/object/modes.html>`
+   for a full list modes see :doc:`here </editors/3dview/object/modes>`
 
 Viewport Shading
    Allows you to change the way 3D objects are displayed in the viewport.
