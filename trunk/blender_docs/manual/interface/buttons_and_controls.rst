@@ -329,7 +329,7 @@ A pie menu is a menu, whose items are spread radially around the mouse.
 Pie menus has to be activated in the User Preferences through :menuselection:`Add-ons --> UI --> Pie Menus Official`. 
 
 .. figure:: /images/interface_pie-menu.jpg
-   :width: 400px
+   :width: 350px
 
    The shade pie menu.
 
