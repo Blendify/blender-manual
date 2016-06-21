@@ -78,6 +78,12 @@ table {caption-side: bottom}
 	width: 100%;
 }
 
+/*video center*/
+iframe {
+	display: block;
+	margin: 0 auto 24px auto;
+}
+
 /*.. container:: lead , block text float around image*/
 .lead {
 	clear: both; width: 100%;
