@@ -7,12 +7,12 @@ Introduction
 
    File Browser.
 
+
 Usage
 =====
 
 The file browser has multiple uses, while its often used for save/load,
 it can be kept open for other uses too.
-
 
 Use cases include:
 
@@ -86,10 +86,8 @@ Create Directory :kbd:`I`
 Interface
 =========
 
-
 Toolbar
 -------
-
 
 The left sidebar displays different ways to find files and several options.
 
