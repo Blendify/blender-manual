@@ -195,9 +195,9 @@ Multi-Sampling
       see: :ref:`troubleshooting-3dview-invalid_selection`.
 
 Region Overlap
-   This checkbox will enable Blender to draw regions overlapping the 3D Window.
+   This checkbox will enable Blender to draw regions overlapping the 3D-View.
    It means that the *Object Tools* and *Transform Properties* regions,
-   which are opened by using the shortcuts :kbd:`T` and :kbd:`N` will be drawn overlapping the 3D View Window.
+   which are opened by using the shortcuts :kbd:`T` and :kbd:`N` will be drawn overlapping the 3D-View editor.
 
    If you have a capable graphics card and drivers with *Triple Buffer* support,
    clicking the checkbox will enable the overlapping regions to be drawn using the *Triple Buffer* method,
@@ -256,7 +256,7 @@ Memory Cache Limit
 Solid OpenGL lights
 ===================
 
-*Solid OpenGL Lights* are used to light the 3D Window,
+*Solid OpenGL Lights* are used to light the 3D-View,
 mostly during *Solid view*. Lighting is constant and position "world" based.
 There are three virtual light sources, also called OpenGL auxiliary lamps,
 used to illuminate 3D View scenes, which will not display in renders.

@@ -173,7 +173,7 @@ To un-hide all hidden particles press Alt+H.
 Select Modes
 ^^^^^^^^^^^^
 
-.. figure:: /images/Icon-library_3D-Window_ParticleSelectAndDisplayMode.jpg
+.. figure:: /images/particle_select-display-mode.jpg
    :width: 640px
 
 

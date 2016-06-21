@@ -106,7 +106,7 @@ in Blender Units (BU) to specify the amount of scaling after after initiating a 
 Scaling with the 3D Transform Manipulator
 -----------------------------------------
 
-.. figure:: /images/Icon-library_3D-Window_3D-transform-scale-manipulator.jpg
+.. figure:: /images/widget3d-transform-scale.jpg
    :width: 100px
 
    Scaling Transform Manipulator.

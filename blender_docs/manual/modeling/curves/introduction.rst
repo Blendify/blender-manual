@@ -144,7 +144,7 @@ Curve Properties
 Curve Properties can be set from the *Object Data* option in the
 *Properties Header* (shown below in blue).
 
-.. figure:: /images/Icon-library_Properties_header-curve.jpg
+.. figure:: /images/properties_header-curve.jpg
 
 
 Shape
