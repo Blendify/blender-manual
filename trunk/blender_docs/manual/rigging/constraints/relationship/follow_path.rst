@@ -96,3 +96,5 @@ Follow Curve
       In fact, with this option activated, the behavior of the owner shares some properties with
       the one caused by a :doc:`Locked Track constraint </rigging/constraints/tracking/locked_track>`,
       with the path as "axle", and the world Z axis as "magnet".
+
+.. vimeo:: 171554266

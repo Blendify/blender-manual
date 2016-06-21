@@ -127,3 +127,5 @@ Examples
           Set Offset has been clicked again.
           As you can see, it does not gives the same result as in (Target/parent transformed).
           As noted above, use Set Inverse only once, before transforming your target/parent.
+
+.. vimeo:: 171554131

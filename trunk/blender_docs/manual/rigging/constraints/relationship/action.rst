@@ -116,3 +116,5 @@ Notes
   (to affect all the keyed bones in the action at once) won't work...
 - Note also that you can use the :doc:`pose library feature </rigging/posing/pose_library>` to
   create/edit a *Pose* action data-block... just remember that in this situation, there's one pose per frame!
+
+.. vimeo:: 171554048
