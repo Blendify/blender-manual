@@ -111,7 +111,7 @@ Header
 .. Editors Note:
    This has been taken from older docs,
    but is really just enumerating lists which should be avoided.
-   :: Some of these lists could be summerized.
+   :: Some of these lists could be summarized.
 
 
 The Header contains several tools for navigation of files. The four arrow icons allow you to:
@@ -128,11 +128,6 @@ The other icons allow you to control what files are visible and how they are dis
 - *Display files as a short list*
 - *Display files as a detailed list*
 - *Display files as thumbnails*
-
-  .. hint::
-
-     Along with all supported image & video formats,
-     thumbnails for fonts and blend-files are displayed too.
 
 You can sort files:
 

@@ -8,6 +8,7 @@ The File Browser supports many types of previews these include:
 - Image and video formats
 - Blend-files
 - Internal :doc:`DataBlocks </data_system/data_blocks>`
+- Fonts
 
 
 DataBlocks
