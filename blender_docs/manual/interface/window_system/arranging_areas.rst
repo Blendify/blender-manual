@@ -24,7 +24,7 @@ use again :menuselection:`View --> Toggle Full Screen`.
 A quicker way to achieve this is to use :kbd:`Shift-Spacebar`,
 :kbd:`Ctrl-Down` or :kbd:`Ctrl-Up` to toggle between maximized and areas.
 
-..note::
+.. note::
 
    The window your mouse is currently hovering over is the one that will be maximized using
    the keyboard shortcuts.
@@ -34,6 +34,7 @@ Splitting an Area
 =================
 
 .. figure:: /images/interface-window_system-arranging_areas-split_widget.jpg
+
 
 In the upper right and lower left corners of a window are the window splitter widgets,
 and they look like a little ridged thumb grip. It both splits and combines window panes.
@@ -55,7 +56,6 @@ The same rule holds for joining two areas that are stacked on top of one another
 they must both have the same width. If the one above is split vertically,
 you must first merge those two, and then join the bottom one up to the upper one.
 
-
 .. figure:: /images/interface-window_system-arranging_areas-join_areas.jpg
    :width: 250px
 
@@ -69,7 +69,6 @@ This indicates that the lower (current) area will "take over" that darkened area
 Let go of the :kbd:`LMB` to merge. If you want the reverse to occur,
 move your mouse cursor back into the original (lower) area,
 and it will instead get the arrow overlay.
-
 
 In the same way, windows may be merged left to right or vice versa.
 
@@ -111,4 +110,3 @@ Once you have that new window, you can move it to the other monitor
 (or leave it in the current one); you can resize it (or keep it unchanged);
 you can also arrange its contents in the same way discussed so far
 (split and resize areas, and tune them as needed), and so on.
-

@@ -7,7 +7,6 @@ Introduction
 When you start Blender you should see a screen similar to this
 (the splash screen in the center will change with new versions):
 
-
 .. figure:: /images/blender_default_startup.png
    :width: 640px
 
@@ -39,7 +38,6 @@ The five areas are:
 - A Properties editor at the bottom right (shaded blue).
 
 As an introduction we will cover a few of the basic elements.
-
 
 .. figure:: /images/interface_window-system-default_scene.jpg
    :width: 650px

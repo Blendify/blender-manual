@@ -8,8 +8,8 @@ The header may be at the top (as with the *Properties Window*)
 or the bottom (as with the 3D View) of a window's area. 
 The picture below shows the header of the 3D View:
 
-
 .. figure:: /images/interface-window_system-headers-header_example.jpg
+
 
 If you move the mouse over a window, its header changes to a slightly lighter shade of gray.
 This means that it is "focused".
@@ -21,6 +21,7 @@ Hiding a header
 
 .. figure:: /images/interface-window_system-headers-hide.jpg
 
+
 To hide a header, move your mouse over the thin line between a window and its header,
 until the pointer takes the form of an up/down arrow. Then click,
 hold and drag with :kbd:`LMB` from the window over the header to hide the latter.
@@ -30,6 +31,7 @@ Showing a header
 ================
 
 .. figure:: /images/interface-window_system-headers-show_02.jpg
+
 
 A hidden header leaves a little plus sign (see picture). By :kbd:`LMB` this,
 the header will reappear.
@@ -48,7 +50,6 @@ To move a header from top to bottom or the other way round,
 simply :kbd:`RMB` on it and select the appropriate item from the pop-up menu.
 If the header is at the top, the item text will read "Flip to Bottom",
 and if the header is at the bottom the item text will read "Flip to Top".
-
 
 .. tip:: Theme colors
 
