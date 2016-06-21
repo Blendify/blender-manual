@@ -1,8 +1,7 @@
-.. _editors-file_browser:
 
-###############
-  File Browser
-###############
+************
+Introduction
+************
 
 .. figure:: /images/editors_file_editor.png
 
@@ -39,7 +38,6 @@ by the confirm with the *Open image* button or :kbd:`Return`.
 
 Shortcuts
 =========
-
 
 Path Fields
 -----------
