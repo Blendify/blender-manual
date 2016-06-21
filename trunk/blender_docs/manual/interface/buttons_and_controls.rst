@@ -339,7 +339,7 @@ Interaction
 
 The pie menu is spawned by a key press.
 
-.. rubric:: 3D-View
+.. rubric:: 3D View
 
 - :kbd:`Tab` Interaction Mode
 - :kbd:`Z` Shade and solid or smooth shading

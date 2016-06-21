@@ -171,7 +171,7 @@ For reference, here is a table of data-blocks types stored in blend-files.
      - |cross|
      - | 2D/3D sketch data.
        | Used as overlay *helper* info, by the
-       | 3D-View, Image, Sequencer & MovieClip editors.
+       | 3D View, Image, Sequencer & MovieClip editors.
    * - Group
      - |tick|
      - |cross|
