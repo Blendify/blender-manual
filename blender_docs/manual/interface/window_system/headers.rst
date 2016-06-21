@@ -5,8 +5,8 @@ Window Headers
 
 All editors have a header (the strip with a lighter gray background containing icon buttons).
 The header may be at the top (as with the *Properties Window*) 
-or the bottom (as with the 3D-View) of a window's area. 
-The picture below shows the header of the 3D-View:
+or the bottom (as with the 3D View) of a window's area. 
+The picture below shows the header of the 3D View:
 
 
 .. figure:: /images/interface-window_system-headers-header_example.jpg
