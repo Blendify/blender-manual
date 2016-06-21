@@ -410,14 +410,14 @@ Paragraph
 The *Paragraph* Panel has settings for the alignment and spacing of text.
 
 
-.. figure:: /images/TextParagraphSettings.jpg
+.. figure:: /images/TextParagraphSettings.png
    :width: 300px
 
    the paragraph tab.
 
 
-Align
-^^^^^
+Horizontal Alignment
+^^^^^^^^^^^^^^^^^^^^
 
 Left
    Aligns text to left of frames when using them,
@@ -437,6 +437,26 @@ Flush
    it uses character spacing (kerning) to fill lines.
 
 Both *Justify* and *Flush* only work within frames.
+
+
+Vertical Alignment
+^^^^^^^^^^^^^^^^^^
+
+Top Base-Line
+   Aligns the text base-line to top of frames when using them,
+   else uses the center point of the *Text* object as the starting point of the text (which grows to the bottom).
+Top
+   Aligns top of text to the center point of the *Text* object (which grows to the bottom).
+   It behaves as *Top Base-Line* when using frames.
+Center
+   Centers text in the frames when using them,
+   else uses the center point of the *Text* object as the mid-point of the text
+   (which grows equally to the top and bottom).
+Bottom
+   Aligns text to bottom of frames when using them,
+   else uses the center point of the *Text* object as the ending point of the text (which grows to the top).
+
+*Top* only works without frames.
 
 
 Spacing
