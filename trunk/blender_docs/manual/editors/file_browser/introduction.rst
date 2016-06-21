@@ -99,8 +99,8 @@ Rename :kbd:`Ctrl-LMB`
 Interface
 =========
 
-Toolbar
--------
+Tool Shelf
+----------
 
 The left sidebar displays different ways to find files and several options.
 

@@ -414,13 +414,13 @@ Weight Gradient
 .. figure:: /images/WeightGradient.jpg
    :width: 200px
 
-   example of the gradient tool being used with selected vertices.
+   Example of the gradient tool being used with selected vertices.
 
 
 This is an interactive tool for applying a linear/radial weight gradient;
 this is useful at times when painting gradual changes in weight becomes difficult.
 
-The gradient tool can be accessed from the Toolbar as a key shortcut:
+The gradient tool can be accessed from the Tool Shelf or as a key shortcut:
 
 - Linear: :kbd:`Alt-LMB` and drag
 - Radial: :kbd:`Alt-Ctrl-LMB` and drag

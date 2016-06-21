@@ -33,7 +33,7 @@ Extrude
 Tilt
    This setting controls how the normals (visualization: arrows)
    twist around each control point - so it is only relevant with 3D curves!
-   You set it using the *Tilt* transform tool In the :kbd:`T` toolbar,
+   You set it using the *Tilt* transform tool in the :kbd:`T` tool shelf,
    the :kbd:`N` :menuselection:`--> transform --> Mean tilt`, :menuselection:`Curve --> Transform --> Tilt`.
 
    You can also reset it to its default value (i.e. perpendicular to the original curve plane)
