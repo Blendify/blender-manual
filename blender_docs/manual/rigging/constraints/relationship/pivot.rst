@@ -39,4 +39,4 @@ Pivot When
 Example
 =======
 
-.. youtube:: sncFstaycIo
+.. vimeo:: 171554353
