@@ -46,7 +46,7 @@ Then move the mouse in the desired direction. The reverse action will also work 
 clicking the manipulator handle and then holding the shortcut key for precision control.
 
 
-.. seelso::
+.. seealso::
 
    :doc:`Read more about the Transform Manipulator </editors/3dview/transform/transform_control/manipulators>`
 
@@ -79,7 +79,7 @@ BU and so on until the zoom limit is reached.
 Zooming out will have the opposite effect and cause movement to happen by increments of 10,
 100 etc BU.
 
-.. seelso::
+.. seealso::
 
    :doc:`Read more about Zooming </editors/3dview/navigate/introduction>`
 
