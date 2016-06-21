@@ -12,8 +12,8 @@ Randomize Transform
    | Mode:     Object Mode
    | Menu:     :menuselection:`Object --> Transform --> Randomize Transform`
 
-
 .. figure:: /images/transform-randomize.jpg
+   :align: right
 
    Randomize transform options.
 
@@ -66,6 +66,7 @@ Align Objects
    | Mode:     Object Mode
    | Menu:     :menuselection:`Object --> Transform --> Align Objects`
 
+
 TODO.
 
 
@@ -77,5 +78,6 @@ Animated Transform to Deltas
 
    | Mode:     Object Mode
    | Menu:     :menuselection:`Object --> Transform --> Animated Transform to Deltas`
+
 
 TODO.
