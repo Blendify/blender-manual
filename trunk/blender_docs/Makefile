@@ -3,11 +3,6 @@ PAPER         =
 SPHINXBUILD   = sphinx-build
 BUILDDIR      = build
 
-# User-friendly check for sphinx-build
-ifeq ($(shell which $(SPHINXBUILD) >/dev/null 2>&1; echo $$?), 1)
-	$(error The '$(SPHINXBUILD)' command was not found. Make sure you have Sphinx installed, then set the SPHINXBUILD environment variable to point to the full path of the '$(SPHINXBUILD)' executable. Alternatively you can add the directory with the executable to your PATH. If you don\'t have Sphinx installed, grab it from http://sphinx-doc.org/)
-endif
-
 # Internal variables.
 PAPEROPT_a4     = -D latex_paper_size=a4
 PAPEROPT_letter = -D latex_paper_size=letter
@@ -55,7 +50,25 @@ endif
 $(CHAPTERS): $(.DEFAULT_GOAL)
 
 
-html: .FORCE
+# --------------------
+# Check commands exist
+
+.SPHINXBUILD_EXISTS:
+	@if ! which $(SPHINXBUILD) > /dev/null 2>&1; then \
+		echo -e >&2 \
+			"The '$(SPHINXBUILD)' command was not found.\n"\
+			"Make sure you have Sphinx installed, then set the SPHINXBUILD environment variable to\n"\
+			"point to the full path of the '$(SPHINXBUILD)' executable.\n"\
+			"Alternatively you can add the directory with the executable to your PATH.\n"\
+			"If you don't have Sphinx installed, grab it from http://sphinx-doc.org)\n"; \
+		false; \
+	fi
+
+# End command checking
+# --------------------
+
+
+html: .FORCE .SPHINXBUILD_EXISTS
 	# './' (input), './html/' (output)
 	QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
 	$(SPHINXBUILD) -b html $(SPHINXOPTS) ./manual "$(BUILDDIR)/html"
@@ -63,7 +76,7 @@ html: .FORCE
 	@echo "To view, run:"
 	@echo "  "$(OPEN_CMD) $(shell pwd)"/$(BUILDDIR)/html/$(CONTENTS_HTML)"
 
-singlehtml: .FORCE
+singlehtml: .FORCE .SPHINXBUILD_EXISTS
 	# './' (input), './html/' (output)
 	QUICKY_CHAPTERS=$(QUICKY_CHAPTERS) \
 	$(SPHINXBUILD) -b singlehtml $(SPHINXOPTS) ./manual "$(BUILDDIR)/singlehtml"
@@ -104,7 +117,7 @@ report_po_progress: .FORCE
 	- python3 tools/report_translation_progress.py --quiet \
 	          `find locale/ -maxdepth 1 -mindepth 1 -type d -not -iwholename '*.svn*' -printf 'locale/%f\n' | sort`
 
-gettext: .FORCE
+gettext: .FORCE .SPHINXBUILD_EXISTS
 	$(SPHINXBUILD) -b gettext $(I18NSPHINXOPTS) $(BUILDDIR)/locale
 	@echo
 	@echo "Build finished. The message catalogs are in $(BUILDDIR)/locale."
