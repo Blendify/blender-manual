@@ -8,7 +8,7 @@ concise and up-to-date description of Blender's functioning in the current versi
 
 Complementary projects are:
 
-- `StackExcange (Q&A) <https://blender.stackexchange.com>`__.
+- `StackExchange (Q&A) <https://blender.stackexchange.com>`__.
 - `Blender Cloud (training) <https://cloud.blender.org/>`__.
 - `Python API reference <https://www.blender.org/api/blender_python_api_current>`__.
 
