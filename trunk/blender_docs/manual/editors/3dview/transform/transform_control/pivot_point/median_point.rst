@@ -9,7 +9,7 @@ Median Point
    | Mode:     Object Mode and Edit Mode
    | Menu:     Select from the following icon in the 3D View header
 
-   .. figure:: /images/Icon-library_3D-Window_header-pivot-point.jpg
+   .. figure:: /images/editors_3dview_header-pivot-point.jpg
 
    | Hotkey:   :kbd:`Ctrl-,`
 

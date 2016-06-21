@@ -18,7 +18,7 @@ For example, when you want to translate a single face on a randomly rotated obje
 the face's normal. In instances like this, *Transform Manipulators* may be useful.
 
 
-.. figure:: /images/Icon-library_3D-Window_3D-transform-manipulator-options.jpg
+.. figure:: /images/editors_3dview_header-transform-manipulator.jpg
 
    Manipulator options in the Header.
 

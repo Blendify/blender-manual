@@ -97,7 +97,7 @@ in degrees to specify the amount of rotation after after initiating a rotation t
 Rotation with the 3D Transform Manipulator
 ------------------------------------------
 
-.. figure:: /images/Icon-library_3D-Window_3D-transform-rotate-manipulator.jpg
+.. figure:: /images/widget3d-transform-rotate.jpg
    :width: 100px
 
    Rotation Transform Manipulator.
