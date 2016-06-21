@@ -3,6 +3,11 @@
 Data Previews
 *************
 
+.. figure:: /images/editors_file_previews.png
+
+   File Browser Previews.
+
+
 The File Browser supports many types of previews these include:
 
 - Image and video formats
