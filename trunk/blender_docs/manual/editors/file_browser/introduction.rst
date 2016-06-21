@@ -94,8 +94,6 @@ Delete Files :kbd:`Del`, :kbd:`X`
    Delete the currently selected files.
 Rename :kbd:`Ctrl-LMB`
    Can be used on a file or directory to rename it.
-Create Directory :kbd:`I`
-   Prompts you to enter the name of a newly created directory.
 
 
 Interface
@@ -109,6 +107,8 @@ The left sidebar displays different ways to find files and several options.
 System
    The system menu contains a list of drives that are available to navigate through to find
    files. Click on one to jump to that drive.
+System Bookmarks
+   Bookmarks that are common for a particular operating system.
 Bookmarks
    These are folders that you want to be able to access often without having to navigate to them
    in the file browser. To add a directory to the bookmark menu, navigate to that folder,
@@ -123,41 +123,58 @@ Recent
 Header
 ------
 
-.. Editors Note:
-   This has been taken from older docs,
-   but is really just enumerating lists which should be avoided.
-   :: Some of these lists could be summarized.
+Navigation buttons
+   Tools for navigation of files. The four arrow icons allow you to:
 
+   - Move to previous folder
+   - Move to next folder
+   - Move up to parent directory
+   - Refresh current folder
 
-The Header contains several tools for navigation of files. The four arrow icons allow you to:
+Create Directory
+   Prompts you to enter the name of a newly created directory (:kbd:`I`).
 
-- *Move to previous folder*
-- *Move to next folder*
-- *Move up to parent directory*
-- *Refresh current folder*
+Recursion
+   The number of directory levels to show at once. The available options are:
 
-Create a new folder inside the current one by clicking the *Create New Directory* button.
+   - None (only the current directory)
+   - One level
+   - Two Levels
+   - Three levels
 
-The other icons allow you to control what files are visible and how they are displayed. You can:
+Display type
+   Controls how files are displayed. The available options are:
 
-- *Display files as a short list*
-- *Display files as a detailed list*
-- *Display files as thumbnails*
+   - Display files as a short list
+   - Display files as a detailed list
+   - Display files as thumbnails (show :doc:`previews </editors/file_browser/previews>`)
 
-You can sort files:
+Display size
+   The size of thumbnails or the width of columns.
 
-- *Alphabetically*
-- *By file type*
-- *By Date of last edit*
-- *By file size*
+Sorting
+   Sorts files by on of the following methods:
 
-Click the funnel icon to toggle which file types are shown:
+   - Alphabetically
+   - By file type
+   - By Date of last edit
+   - By file size
 
-- *Folders*
-- *Blend files*
-- *Images*
-- *Movie files*
-- *Scripts*
-- *Font files*
-- *Music files*
-- *Text files*
+Show hidden
+   Shows files that start with ``.``
+
+File filtering
+   Filters files by type. The available options are:
+
+   - Folders
+   - Blend-files
+   - Backup blend-files
+   - Images
+   - Movie files
+   - Scripts
+   - Font files
+   - Music files
+   - Text files
+
+   Search box
+      Filter files by name.
