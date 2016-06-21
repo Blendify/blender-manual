@@ -95,9 +95,12 @@ in Blender Units (BU) to specify the amount of scaling after after initiating a 
 
 .. seealso::
 
-   - :doc:`Read more about Precision Control </editors/3dview/transform/transform_control/precision>`
-   - :doc:`Read more about Numerical Transformations </editors/3dview/transform/transform_control/numeric_input>`
-   - :doc:`Read more about Transform Orientations </editors/3dview/transform/transform_control/transform_orientations>`
+   - :doc:`Read more about Precision Control
+     </editors/3dview/transform/transform_control/precision>`
+   - :doc:`Read more about Numerical Transformations
+     </editors/3dview/transform/transform_control/numeric_input>`
+   - :doc:`Read more about Transform Orientations
+     </editors/3dview/transform/transform_control/transform_orientations>`
 
 
 Scaling with the 3D Transform Manipulator

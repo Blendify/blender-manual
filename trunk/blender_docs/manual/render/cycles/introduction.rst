@@ -5,7 +5,7 @@ Introduction
 
 .. figure:: /images/cycles_introduction.jpg
 
-Cycles is Blender’s ray-trace based production render engine.
+Cycles is Blender’s ray-tracing production render engine.
 
 To use Cycles, it must be set as the active render engine in the top header. Once that is done,
 interactive rendering can be started by setting a 3D View editor to draw mode Rendered using :kbd:`Shift-Z`.
@@ -27,6 +27,7 @@ To see if and how you can use your GPU for rendering, see the documentation on
 
 .. seealso::
 
-   - Blender.org's `Cycles Gallery <https://www.blender.org/features/cycles>`__ showing examples of what Cycles can render.
+   - Blender.org's `Cycles Gallery <https://www.blender.org/features/cycles>`__
+     showing examples of what Cycles can render.
    - `Developer documentation <https://wiki.blender.org/index.php/Dev:Source/Render/Cycles>`__ 
      is available as well.
