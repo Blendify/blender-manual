@@ -76,7 +76,7 @@ Once you enable Texture Painting, your mouse becomes a brush. To work with the U
 (for example, to move coordinates) you must go back to "View" mode.
 
 As soon as you enable Texture Painting or switch to Texture Paint Mode,
-brush settings become available in the Toolbar Panel :kbd:`T`.
+brush settings become available in the Tool Shelf :kbd:`T`.
 
 In the UV/Image Editor window,
 you paint on a flat canvas that is wrapped around the mesh using UV coordinates.
@@ -111,7 +111,7 @@ See Texture Mapping Output for more information on bump mapping.
 Brushes Settings
 ================
 
-Press :kbd:`T` in the UV/Image Editor to show the Toolbar panel. With this panel,
+Press :kbd:`T` in the UV/Image Editor to show the Tool Shelf. With this panel,
 you can create many brushes, each with unique settings (such as color and width).
 Use the Brush selector to switch between brushes, or to create a new brush.
 When you add a brush, the new brush is a clone of the current one.

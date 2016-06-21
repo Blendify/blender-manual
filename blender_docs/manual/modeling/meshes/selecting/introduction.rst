@@ -22,7 +22,7 @@ Select Mode Header Widgets
 
 
 In *Edit Mode* there are three different selection modes.
-You can enter the different modes by selecting one of the three buttons in the toolbar.
+You can enter the different modes by selecting one of the three buttons in the header.
 
 Vertices
    In this mode vertices are drawn as points.

@@ -6,23 +6,23 @@ Text Editor
 Blender has a *Text Editor* among its windows types,
 accessible via the *Window type* menu, or the shortcut :kbd:`Shift-F11`.
 
-The newly opened Text window is grey and empty, with a very simple toolbar Fig. Text Toolbar.
+The newly opened Text window is grey and empty, with a very simple header Fig. Text header.
 
 
 .. figure:: /images/editors_text_header1.jpg
 
-   Text Toolbar.
+   Text header.
 
 
 From left to right there are the standard *Window type* selection button and the
 window menus. Then there is the Text ID Block browse button followed by the New button for
-creating new Text files. Once you click it, you will find that the Toolbar has changed..
+creating new Text files. Once you click it, you will find that the header has changed..
 for good!
 
 
 .. figure:: /images/editors_text_header2.jpg
 
-   Text Toolbar with a file open.
+   Text header with a file open.
 
 
 Now you find a textbox to change name of your text file,

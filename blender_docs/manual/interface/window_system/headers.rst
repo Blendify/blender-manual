@@ -3,10 +3,10 @@
 Window Headers
 **************
 
-All windows have a header (the strip with a lighter gray background containing icon buttons).
-We will also refer to the header as the window *ToolBar*. The header may be at the top
-(as with the *Properties Window*) or the bottom (as with the *3D Window*)
-of a window's area. The picture below shows the header of the 3D View:
+All editors have a header (the strip with a lighter gray background containing icon buttons).
+The header may be at the top (as with the *Properties Window*) 
+or the bottom (as with the *3D Window*) of a window's area. 
+The picture below shows the header of the 3D View:
 
 
 .. figure:: /images/interface-window_system-headers-header_example.jpg
