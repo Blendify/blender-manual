@@ -50,7 +50,6 @@ you will be presented with a menu (*Make Parent* *menu*).
 
 By selecting *Curve Deform*, you enable the curve deform function on the mesh object.
 
-
 .. figure:: /images/curvesdeform_animpanel.jpg
 
    Animation settings panel.
@@ -71,6 +70,7 @@ its "children" will only follow the first one.
 
    Curve Shape Panel.
 
+
 The *Stretch* curve option allows you to let the mesh object stretch, or squeeze, over the entire curve.
 This option is in *Object Data* properties.
 
@@ -80,20 +80,9 @@ Example
 
 Let's make a simple example:
 
-.. figure:: /images/curvesdeform_exampleaddmonkey.jpg
-
-   Add a Monkey.
-
-
 - Remove default cube object from scene and add a Monkey with
   :menuselection:`Add --> Mesh --> Monkey`
 - Press :kbd:`Tab` to exit *Edit Mode*.
-
-.. figure:: /images/curvesdeform_exampleaddcurve.jpg
-
-   Add a Curve.
-
-
 - Now add a curve with :menuselection:`Add --> Curve --> Bezier Curve`.
 
 .. figure:: /images/curvesdeform_exampleeditcurve.jpg
