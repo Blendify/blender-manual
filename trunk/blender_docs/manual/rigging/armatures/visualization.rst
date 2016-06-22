@@ -41,7 +41,6 @@ Display Panel
 But let's first see some general visualization properties of armatures,
 found in the *Display* panel of the *Object data* context.
 
-
 .. figure:: /images/RiggingEditingObjectDataPropertyCxtDisplayPanel.jpg
    :width: 250px
 
@@ -62,6 +61,7 @@ Octahedral bone
       :width: 250px
 
       Note the 40- rolled Bone.001 bone.
+
 Stick bone
    This is the simplest and most non-intrusive visualization.
    It just materializes bones by sticks of constant (and small) thickness,
@@ -71,12 +71,14 @@ Stick bone
       :width: 250px
 
       Note that Bone.001 roll angle is not visible (except by its XZ axes).
+
 B-Bone bone
    This visualization shows the curves of "smooth" multi-segmented bones;
    see the :ref:`bone page <armature-bone-rigid>` for details.
 
    .. figure:: /images/RiggingBBoneEx3DViewEditMode.jpg
       :width: 250px
+
 Envelope bone
    This visualization materializes the bone deformation influence.
    More on this in the :ref:`bone page <armature-bone-influence>`.
@@ -121,7 +123,6 @@ Blender allows you to give to each bone of an armature a specific shape
 (in *Object Mode* and *Pose Mode*), using another object as "template".
 First of all, you have to enable the *Shapes* button (*Armature* panel).
 
-
 .. figure:: /images/RiggingEditingBoneCxtDisplayPanel.jpg
    :width: 250px
 
@@ -144,7 +145,6 @@ Custom Shape
 Custom At
    Bone that defines the display transform of this shape bone
 
-
 To assign a custom shape to a bone, you have to:
 
 - Switch to *Pose Mode* :kbd:`Ctrl-Tab`.
@@ -152,12 +152,10 @@ To assign a custom shape to a bone, you have to:
 - Go to the *Display* panel *Custom Shape* field and select the 3D object previously created in the scene;
   in this example we are using a cube and a cone. Tou can optionally set the *At* field to another bone.
 
-
 .. figure:: /images/RiggingEditingBoneCxtDisplayPanel2.jpg
    :width: 250px
 
    The Display panel.
-
 
 .. list-table::
 
@@ -171,7 +169,6 @@ To assign a custom shape to a bone, you have to:
           :width: 300px
 
           The same armature in Pose Mode...
-
 
 .. note::
 
@@ -188,6 +185,7 @@ To assign a custom shape to a bone, you have to:
    - If you need to remove the custom shape of the bone,
      just right click in the *Custom Shape* field and select *Reset to default value* in the pop-up menu.
 
+
 So to summarize all this, you should use meshes as shape objects,
 with their center at their lower-Y end, and an overall Y length of 1.0 BU.
 
@@ -202,7 +200,6 @@ Armature Layers
 
    | Mode:     Object, Edit and Pose Mode
    | Panel:    *Skeleton* panel, *Object data* context
-
 
 .. figure:: /images/RiggingEditingObjectDataPropertyCxtSkeletonPanel.jpg
    :width: 250px
@@ -251,7 +248,6 @@ Bone Layers
    | Mode:     Object, Edit and Pose Mode
    | Panel:    *Relations* panel *Bone* context
 
-
 .. figure:: /images/RiggingEditingBoneCxtRelationsPanel.jpg
    :width: 250px
 
@@ -284,7 +280,6 @@ Hiding Bones
    | Mode:     Edit and Pose Mode
    | Panel:    *Display* panel, *Bone* context
 
-
 .. figure:: /images/RiggingEditingBoneCxtDisplayPanel.jpg
    :width: 250px
 
@@ -292,7 +287,7 @@ Hiding Bones
 
 
 You do not have to use bone layers to show/hide some bones. As with objects,
-vertices or control points, you can use the :kbd:`H` key:
+vertices or control points, you can use :kbd:`H`:
 
 - :kbd:`H` will hide the selected bone(s).
 - :kbd:`Shift-H` will hide all bones *but the selected one(s)*.
@@ -306,4 +301,4 @@ you can hide some bones in *Edit Mode*,
 they will still be visible in *Pose Mode*, and vice-versa.
 Hidden bone in *Pose Mode* are also invisible in *Object Mode*.
 And in *Edit Mode*, the bone to hide must be fully selected,
-not just his root or tip...
+not just his root or tip.

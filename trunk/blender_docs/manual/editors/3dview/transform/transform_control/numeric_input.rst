@@ -15,8 +15,7 @@ After pressing :kbd:`G`, :kbd:`R`, :kbd:`S`
 type a number to indicate the magnitude of the transformation.
 
 You can see the numbers you enter in the bottom left hand corner of the 3D View header.
-Negative numbers and decimals can be entered by 
-pressing the minus :kbd:`Minus` and period :kbd:`.` keys respectively.
+Negative numbers and decimals can be entered by pressing :kbd:`Minus` and :kbd:`.` respectively.
 
 
 Translation
@@ -30,8 +29,7 @@ To cancel the movement, press :kbd:`Esc` or :kbd:`RMB`.
 If you mistype the value, press :kbd:`Backspace` to cancel the current entry and 
 retype a new value.
 
-To enter numeric values for multiple axes,
-use the :kbd:`Tab` key after entering a value for the axis. 
+To enter numeric values for multiple axes, use :kbd:`Tab` after entering a value for the axis. 
 e.g. To move an Object, one (1) Blender unit on all three axes press: 
 :kbd:`G 1` and :kbd:`Tab 1` and :kbd:`Tab 1`.
 This will move the element one unit along the X-axis,

@@ -181,7 +181,7 @@ and you will be able to drag it to a new position.
 If when you click on the graph you are not near a handle,
 one will be created at the point that you clicked, which you can then drag where you wish.
 You can also create handles at specific parts of the graph,
-clicking with :kbd:`LMB` while holding :kbd:`Ctrl` key;
+clicking with :kbd:`LMB` while holding :kbd:`Ctrl`;
 it will create a new handle at the point you have clicked.
 
 In the example below (the default for the *Falloff Curve* Profile Graph),
@@ -303,7 +303,6 @@ When the *Sphere* option is active,
 a dotted sphere will appear around the light source,
 indicating the demarcation point at which this light intensity will be null.
 
-
 The *Sphere* option adds a term to the chosen attenuation law, whatever it is:
 
 *I'* = *I* × (*D* - *r*) / *D* if *r* < *D*; 0 otherwise
@@ -315,9 +314,7 @@ Where:
 - *D* is the current setting of the *Dist* field.
 - *r* is the distance from the lamp where the light intensity gets measured.
 
-See the graphic at the end of the description of the *Lin/Quad Weighted* attenuation
-option.
-
+See the graphic at the end of the description of the *Lin/Quad Weighted* attenuation option.
 
 .. list-table::
 
@@ -392,7 +389,6 @@ The characteristic feature of using *Inverse Square* is that the light's intensi
 fall off very slowly but then starts falling off very rapidly.
 We can see this in the Fig. Inverse Square selected images.
 
-
 .. list-table::
    Inverse Square selected (with the specified distances).
 
@@ -408,9 +404,9 @@ We can see this in the Fig. Inverse Square selected images.
 
           Inverse Square with 1000.
 
-With *Inverse Square* selected,
-the *Distance* field specifies where the light begins to fall off faster, roughly speaking; see the light attenuation
-description in `Falloff types`_ for more info.
+
+With *Inverse Square* selected, the *Distance* field specifies where the light begins to fall off faster,
+roughly speaking; see the light attenuation description in `Falloff types`_ for more info.
 
 In Fig. Inverse Square with 10,
 the light's intensity has fallen so quickly that the last few objects aren't even lit.

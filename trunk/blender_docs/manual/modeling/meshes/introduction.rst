@@ -38,13 +38,13 @@ Tools and modes in the 3D View header are (left to right):
 - Pivot center
 - 3D manipulator widget
 - Selection mode
-- Depth buffer clipping (hide
+- Depth buffer clipping (hide)
 - Proportional editing
 - Snap
 - OpenGL render
 
-You can switch between the Object and Edit Modes with the :kbd:`Tab` key. You can change
-to any mode by selecting the desired *Mode* in the menu in the 3D View header.
+You can switch between the Object and Edit Modes with :kbd:`Tab`.
+You can change to any mode by selecting the desired *Mode* in the menu in the 3D View header.
 
 
 Visualization
@@ -133,6 +133,7 @@ Mesh Display
    :align: right
 
    Mesh Display Panel.
+
 
 This panel is available only in edit mode, when the object being edited is a mesh.
 

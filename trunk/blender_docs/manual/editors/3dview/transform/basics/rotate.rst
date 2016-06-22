@@ -67,7 +67,7 @@ Fine Tuning The Rotation
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 :doc:`Precise control </editors/3dview/transform/transform_control/precision>` can be had over rotation
-through the use of the :kbd:`Shift` and :kbd:`Ctrl` keys to limit rotation to discrete amounts.
+through :kbd:`Shift` and :kbd:`Ctrl` to limit rotation to discrete amounts.
 You can also enter a :doc:`numerical value </editors/3dview/transform/transform_control/numeric_input>`
 in degrees to specify the amount of rotation after after initiating a rotation transformation.
 

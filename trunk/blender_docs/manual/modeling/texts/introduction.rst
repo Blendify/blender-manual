@@ -213,7 +213,7 @@ Text Selection
 
 In *Edit Mode*, your text has a white cursor, and as in any text editor,
 it determines where new chars will be inserted! You move this cursor with the arrow keys or
-:kbd:`PageUp` / :kbd:`PageDown` and :kbd:`Home` / :kbd:`End` keys.
+:kbd:`PageUp` / :kbd:`PageDown` and :kbd:`Home` / :kbd:`End`.
 
 Hold :kbd:`Shift` while using the arrow keys to select a part of the text.
 You can use it to specify different materials, the normal/bold/italic state,
@@ -288,7 +288,6 @@ Size
    Controls the size of the whole text (no way to control each char size independently).
    Note however that chars with different fonts (different styles, see below) might have different visible sizes.
 
-
 .. figure:: /images/TextShear.jpg
    :width: 300px
 
@@ -326,11 +325,11 @@ Text on Curve
 
 With the :doc:`curve modifier </modeling/modifiers/deform/curve>` you can let text follow a curve.
 
-
 .. figure:: /images/text-curved-lowres-ex.jpg
    :width: 200px
 
    Text on curve.
+
 
 In Fig. Text on curve you can see a text deformed by a curve (a 2D Bézier circle).
 
@@ -354,7 +353,6 @@ Underline
       This allows you to shift vertically the position of the underline.
    Thickness
       This controls the thickness of the underline.
-
 
 .. figure:: /images/TextFontSettings.jpg
    :width: 300px
@@ -382,7 +380,6 @@ Underline
 Small Caps
    type small capital text.
 
-
 Blender's *Bold* and *Italic* buttons don't work the same way as other applications,
 as they also serve as placeholders for you to load up other fonts manually,
 which get applied when you define the corresponding style; see `Fonts`_.
@@ -408,7 +405,6 @@ Paragraph
 ---------
 
 The *Paragraph* Panel has settings for the alignment and spacing of text.
-
 
 .. figure:: /images/TextParagraphSettings.png
    :width: 300px
@@ -511,7 +507,6 @@ Fast Editing
 
 Fill
 ----
-
 
 The fill options control how the text curves are filled in when text is *Extruded*
 or *Beveled* in the *Geometry* Panel.
