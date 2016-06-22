@@ -20,8 +20,8 @@ Batch
 All
    Press :kbd:`A` to select/deselect All files in the directory.
 
-When you click the *Select <whatever>* button,
-the window pane will switch back to VSE, and the strip will be rubber-banded to your mouse.
+When you click the *Select ...* button,
+the window will switch back to VSE, and the strip will be rubber-banded to your mouse.
 You cannot load multiple movies at the same time by right-clicking them;
 no movies load if you right click them. Right-clicking only works for images.
 

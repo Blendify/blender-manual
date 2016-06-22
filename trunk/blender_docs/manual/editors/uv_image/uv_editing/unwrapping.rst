@@ -60,9 +60,9 @@ This process creates one or more UV Islands in the :ref:`UV/Image Editor <editor
 To begin, choose the *UV Editing* :doc:`screen layout </interface/screens>`
 from the selection list at the top of your screen in the User Preferences header. 
 This sets one of the panes to show you the UV/Image Editor
-:kbd:`Shift-F10`, and the other pane to the 3D View :kbd:`Shift-F5`.
+:kbd:`Shift-F10`, and the other window to the 3D View :kbd:`Shift-F5`.
 
-Enter edit mode, as all unwrapping is done in Edit Mode. You can be in vertex,
+Enter *Edit Mode*, as all unwrapping is done in Edit Mode. You can be in vertex,
 face, or edge selection mode.
 
 

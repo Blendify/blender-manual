@@ -206,7 +206,7 @@ you might find that, for example, the image is upside down or laying on its side
 use :menuselection:`Face --> Rotate UVs` (in the 3D View in Face Select mode)
 menu to rotate the UVs per face in 90-degree turns.
 
-The :menuselection:`Face --> Mirror UVs` to flips the image over like a pankcake in a pan,
+The :menuselection:`Face --> Mirror UVs` to flips the image over,
 mirroring the UVs per face and showing you the image reversed.
 
 
@@ -284,7 +284,7 @@ our general approach will be to unwrap different parts of the object (face, ears
 using different unwrap calculations,
 selecting each calculation according to whatever works best for that piece. So let us begin:
 We select only the "face" faces, unwrap them using the *Sphere* calculation, and scale and
-rotate them somewhat to fit logically within the image area of the UV/Image Editor pan.
+rotate them somewhat to fit logically within the image area of the UV/Image Editor.
 
 
 .. figure:: /images/UV-Unwrap-Ear.jpg
