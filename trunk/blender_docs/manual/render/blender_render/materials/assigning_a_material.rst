@@ -1,14 +1,13 @@
+.. |material-icon| image:: /images/icons_material.png
+   :width: 1.1em
 
 ********************
 Assigning a Material
 ********************
 
-Materials available in the currently-open Blender file can be investigated by clicking on the Materials button
-
-.. figure:: /images/icons_material.png
-
-   in the Properties editor Header.
-   In this section we look at how to assign or remove a material to/from the Active Object in Blender, either by:
+Materials available in the currently-open Blender file can be investigated by clicking 
+on the Materials icon |material-icon| in the Properties editor Header. 
+In this section we look at how to assign or remove a material to/from the Active Object in Blender, either by:
 
 - creating a new material,
 - re-using an existing material, or
