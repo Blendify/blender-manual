@@ -157,7 +157,7 @@ Multiple Snap Targets
    Multiple snapping targets.
 
 
-Once transforming a selection with Snapping on (not just with the :kbd:`Ctrl` key held),
+Once transforming a selection with Snapping on (not just when holding :kbd:`Ctrl`),
 you can press :kbd:`A` to mark the current snapping point, then proceed to mark as many other
 snapping points as you wish and the selection will be snapped to the average location of all
 the marked points.

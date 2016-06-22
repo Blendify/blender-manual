@@ -59,7 +59,7 @@ full control over your transformation.
 
 :kbd:`MMB`
    Constrain the move to the X, Y or Z axis according to the position of the mouse pointer in the 3D View.
-   After pressing the :kbd:`G` key, if the :kbd:`MMB` is pressed,
+   After pressing :kbd:`G`, if the :kbd:`MMB` is pressed,
    a visual option to constrain the translation will be available,
    showing the three axes in the 3D View space. The axis of choice to confirm the operation
    will depend on the axis about which the :kbd:`MMB` is released. At any point during the operation,

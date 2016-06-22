@@ -10,12 +10,10 @@ See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>`
 
 Special Options:
 
-
 .. figure:: /images/bge_actuator_game.jpg
    :width: 271px
 
    Game actuator.
-
 
 .. figure:: /images/bge_actuator_game_options.jpg
    :width: 271px
@@ -40,10 +38,9 @@ Start Game From File
    File
       Path to the blend-file to load.
 
-
 .. note::
 
-   If you use the keyboard sensor as a hook for the :kbd:`Esc` key,
+   If you use the keyboard sensor as a hook for :kbd:`Esc`,
    in the event that the quit game actuator fails, such as an error in a python file,
-   the game will be unable to close. Data may be recovered from quit.blend
+   the game will be unable to close. Data may be recovered from ``quit.blend``
    :menuselection:`File --> Recover Last Session`

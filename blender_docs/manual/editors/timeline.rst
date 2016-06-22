@@ -86,7 +86,6 @@ Timeline Area
 
 The main *Timeline* area displays the animation frames over time.
 
-
 .. figure:: /images/Timeline_Main.jpg
    :width: 700px
 
@@ -97,12 +96,11 @@ The *Timeline* can be panned by holding :kbd:`MMB`,
 then dragging the area left or right.
 
 You can zoom the *Timeline* by using :kbd:`Ctrl-MMB`, the mouse :kbd:`Wheel`,
-or pressing the :kbd:`Minus` and :kbd:`Plus` keys on the numpad.
+or pressing :kbd:`Minus` and :kbd:`Plus` on the numpad.
 
 By default, the *Playback/Rendering Range* (Frame Start 1 to Frame End 200)
-is a lighter shade of gray.
-The start and end frame can be set to the *Time Cursor* by pressing :kbd:`S` or
-:kbd:`E`.
+is a lighter shade of gray. The start and end frame can be set to the *Time Cursor*
+by pressing :kbd:`S` or :kbd:`E`.
 The *Playback Range* can also be set by pressing :kbd:`P` then drawing a box.
 
 

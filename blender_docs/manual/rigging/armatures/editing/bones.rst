@@ -37,8 +37,7 @@ Add Menu
    | Hotkey:   :kbd:`Shift-A`
 
 
-In the 3D view,
-:kbd:`Shift-A` :menuselection:`--> Bone` to add a new bone to your armature.
+In the 3D view, :kbd:`Shift-A` :menuselection:`--> Bone` to add a new bone to your armature.
 
 This bone will be:
 
@@ -59,12 +58,11 @@ Extrusion
    | Hotkey:   :kbd:`E`, :kbd:`Shift-E`
 
 
-When you press the :kbd:`E` key, for each selected tip
+When you press :kbd:`E`, for each selected tip
 (either explicitly or implicitly), a new bone is created.
 This bone will be the child of "its" tip owner, and connected to it. As usual,
 once extrusion is done, only the new bones' tips are selected, and in grab mode,
 so you can place them to your liking. See Fig. Extrusion example.
-
 
 .. list-table::
    Extrusion example
@@ -84,7 +82,6 @@ You also can use the rotating/scaling extrusions,
 as with meshes, by pressing respectively :kbd:`E-R` and :kbd:`E-S` -
 as well as :doc:`locked </editors/3dview/transform/transform_control/axis_locking>`
 extrusion along a global or local axis.
-
 
 .. list-table::
    Mirror extrusion example
@@ -117,6 +114,7 @@ The "_R" bone is its mirror counterpart (along the armature's local X axis), see
    however they can cause confusion and it's unlikely you want to keep them.
    If you realize the problem immediately undo the extrude action.
 
+
 In case you're wondering, you cannot just press :kbd:`X` to solve this as you would in mesh editing,
 because extrusion selects the newly created tips, and as explained below the delete command ignores bones' ends.
 To get rid of these extruded bones without undoing, you would have to move the tips,
@@ -143,7 +141,6 @@ About the new bone's tip:
 
 The position of the root and the parenting of the new bone depends on the active element:
 
-
 .. figure:: /images/RiggingMouseClickBone.jpg
    :width: 300px
 
@@ -156,7 +153,6 @@ If the active element is a *bone*
 - the new bone is parented and connected to the active bone
   (check the outliner in Fig. Ctrl-clicking when the active element is a bone).
 
-
 .. figure:: /images/RiggingMouseClickTail.jpg
    :width: 300px
 
@@ -168,7 +164,6 @@ If the active element is a *tip* :
 - the new bone's root is placed on the active tip
 - the new bone is parented and connected to the bone owning the active tip
   (check the outliner in Fig. Ctrl-clicking when the active element is a tip).
-
 
 .. figure:: /images/RiggingMouseClickHead.jpg
    :width: 300px
@@ -183,7 +178,6 @@ If the active element is a *disconnected root* :
   (check the outliner in Fig. Ctrl-clicking when the active element is a disconnected root).
 
 And hence the new bone will **not** be connected to any bone.
-
 
 .. figure:: /images/RiggingMouseClickHeadConnected.jpg
    :width: 300px
@@ -246,7 +240,6 @@ If you have two tips selected, the new bone:
 - will have the tip placed on the other selected tip
 - will be parented and connected to the bone owning the tip used as the new bone's root
 
-
 .. list-table::
    Fill between tips
 
@@ -273,7 +266,6 @@ When clicking :kbd:`F`, similar to the previous case, you will see a new bone:
 If you try to move the new bone, Blender will update the interface and you will see that the
 new bone's root moves to the tip of the parent bone.
 
-
 .. list-table::
    Fill between roots
 
@@ -290,7 +282,6 @@ new bone's root moves to the tip of the parent bone.
 
 Clicking :kbd:`F` with only one bone end selected will create a bone from the selected
 end to the 3D cursor position, and it won't parent it to any bone in the armature.
-
 
 .. list-table::
    Fill with only one bone end selected
@@ -321,7 +312,6 @@ Duplication
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Armature --> Duplicate`
    | Hotkey:   :kbd:`Shift-D`
-
 
 .. note::
 
@@ -384,16 +374,15 @@ Standard deletion
 
 To delete a bone, you can:
 
-- press the standard :kbd:`X` key and confirm, or
+- press :kbd:`X` and confirm, or
 - use the menu :menuselection:`Armature --> Delete` and confirm.
 
 If you delete a bone in a chain, its child(ren)
 will be automatically re-parented to its own parent, but **not** connected,
 to avoid deforming the whole armature.
 
-
 .. list-table::
-   Deletion example
+   Deletion example.
 
    * - .. figure:: /images/RiggingBoneDeleteExEditMode1.jpg
           :width: 300px
@@ -433,7 +422,6 @@ Here's a strange subtlety (see Fig. Merge example): even though connected
 the bones are not visually connected - this will be done as soon as you edit one bone,
 differently depending in which chain is the edited bone
 (compare the bottom two images of the example to understand this better).
-
 
 .. list-table::
    Merge example
@@ -487,7 +475,6 @@ To create an arbitrary number of bones from each selected bone:
 
 Then specify the number of cuts you want in the pop-up. As in mesh editing,
 if you set *n* cuts, you'll get *n* + 1 bones for each selected bone.
-
 
 .. list-table::
    Subdivision example

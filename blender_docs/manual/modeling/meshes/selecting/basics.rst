@@ -1,4 +1,4 @@
-..    TODO/Review: {{review|im=examples|partial=X|text = expand basic selection tools}} .
+..    TODO/Review: {{review|im=examples|partial=X|text = expand basic selection tools}}.
 
 ***************
 Basic Selection
@@ -139,7 +139,7 @@ If you want to deselect elements, hold :kbd:`MMB` and begin clicking or dragging
 For *Faces* select mode, the circle must intersect the face indicators usually represented by small pixel squares;
 one at the center of each face.
 
-To exit from this tool, click :kbd:`RMB`, or press the :kbd:`Esc` key.
+To exit from this tool, click :kbd:`RMB`, or press :kbd:`Esc`.
 
 
 Lasso region

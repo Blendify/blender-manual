@@ -57,7 +57,7 @@ The easiest way to accomplish this is to select your object and :kbd:`Tab` to
 *Edit Mode*.
 Now select the vertex and :kbd:`Tab` back to *Object Mode*.
 
-Next, without any objects selected, select the camera and, holding the :kbd:`Shift` key,
+Next, without any objects selected, select the camera and, holding :kbd:`Shift`,
 select the object. :kbd:`Tab` into *Edit Mode*,
 and :kbd:`Ctrl-P` and choose *Make vertex parent*.
 

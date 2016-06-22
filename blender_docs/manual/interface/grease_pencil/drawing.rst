@@ -1,5 +1,4 @@
-﻿
-..    TODO/Review: {{review|fixes = merge?}} .
+﻿..    TODO/Review: {{review|fixes = merge?}}.
 
 **************************
 Drawing With Grease Pencil
@@ -10,7 +9,6 @@ Drawing With Grease Pencil
 - A new layer can be added from the *Grease Pencil Properties panel*.
   This panel can also be used to customize the color, opacity and thickness of the pencil lines.
   Changes to these settings will affect all strokes on the current layer.
-
 
 .. figure:: /images/SketchingGreasePencil.jpg
    :width: 500px
@@ -45,8 +43,8 @@ Erase :kbd:`D-RMB`
    Erases segments of strokes that fall within the radius of the eraser "brush".
    The erasing will continue until the mouse button is released.
    If begun with *Erase*, either :kbd:`RMB` or :kbd:`LMB` will erase strokes.
-   The size of the eraser "brush" can be controlled with :kbd:`Wheel`,
-   :kbd:`NumpadPlus`or :kbd:`NumpadMinus` keys, while still holding :kbd:`RMB`.
+   The size of the eraser "brush" can be controlled with :kbd:`Wheel`, or with
+   :kbd:`NumpadPlus` and :kbd:`NumpadMinus`, while still holding :kbd:`RMB`.
 
 
 Sketching Sessions

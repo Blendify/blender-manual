@@ -80,16 +80,14 @@ Example
 
 Let's make a simple example:
 
-
 .. figure:: /images/curvesdeform_exampleaddmonkey.jpg
 
-   Add a Monkey!
+   Add a Monkey.
 
 
 - Remove default cube object from scene and add a Monkey with
   :menuselection:`Add --> Mesh --> Monkey`
 - Press :kbd:`Tab` to exit *Edit Mode*.
-
 
 .. figure:: /images/curvesdeform_exampleaddcurve.jpg
 
@@ -98,7 +96,6 @@ Let's make a simple example:
 
 - Now add a curve with :menuselection:`Add --> Curve --> Bezier Curve`.
 
-
 .. figure:: /images/curvesdeform_exampleeditcurve.jpg
 
    Edit Curve.
@@ -106,7 +103,6 @@ Let's make a simple example:
 
 - While in *Edit Mode*, move the control points of the curve as shown in Fig. Edit Curve,
   then exit *Edit Mode* :kbd:`Tab`.
-
 
 .. figure:: /images/curvesdeform_examplemonkeyoncurve1.jpg
 
@@ -130,7 +126,7 @@ Let's make a simple example:
 
 .. tip::
 
-   If you press :kbd:`MMB` (or one of the :kbd:`X`, :kbd:`Y`, :kbd:`Z` keys)
+   If you press :kbd:`MMB` (or one of :kbd:`X`, :kbd:`Y`, :kbd:`Z`)
    while moving the Monkey you will constrain the movement to one axis only.
 
 
@@ -140,7 +136,6 @@ Let's make a simple example:
 
    Moving the Monkey in directions other than the dominant axis will create some odd deformations.
    Sometimes this is what you want to achieve, so you'll need to experiment and try it out!
-
 
 .. figure:: /images/curvesdeform_examplemonkeyoncurve2.jpg
    :width: 650px

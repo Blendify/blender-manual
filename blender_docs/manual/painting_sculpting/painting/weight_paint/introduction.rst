@@ -113,7 +113,8 @@ Radius
       You can also change the Brush radius with a keyboard shortcut while painting.
       Just press :kbd:`F` at any time, then drag the mouse to increase/reduce the brush radius.
       Finally click :kbd:`LMB` to use the new setting.
-      Or press the :kbd:`Esc` key at any time to return to the current settings.
+      Or press :kbd:`Esc` at any time to return to the current settings.
+
 Blend mode
    The brush Blending mode defines in which way the weight value is applied to the Vertex Group while painting.
 
@@ -293,11 +294,11 @@ a brush will only paint on the selected verts or faces.
 The option is available from the footer menu bar of the 3D viewport
 (see icons surrounded by the yellow frame):
 
-
 .. figure:: /images/Modeling-Meshes-weight-paint-select.jpg
 
    You can choose between *Face Selection masking* (left icon)
    and *Vertex selection masking* (right icon).
+
 
 *Select* mode has some advantages over the default *Weight Paint Mode*:
 
@@ -340,7 +341,7 @@ All unselected vertices are protected from unintentional changes.
 
 .. note::
 
-   This option can also be toggled with the :kbd:`V` key:
+   This option can also be toggled with :kbd:`V`.
 
 
 Face Selection Masking
@@ -349,7 +350,6 @@ Face Selection Masking
 .. figure:: /images/Modeling-Meshes-weight-paint-face-select.jpg
 
    Face Selection masking.
-
 
 .. figure:: /images/Modeling-Meshes-weight-paint-face-select-hidden.jpg
 
@@ -374,7 +374,6 @@ Hide/Unhide Vertices
 You cannot directly hide selected faces in vertex mask selection mode.
 However you can use a trick:
 
-
 - First go to Face selection mask mode
 - Select the areas you want to hide and then hide the faces (as explained above)
 - Switch back to Vertex Selection mask mode
@@ -389,7 +388,6 @@ To constrain the paint area further you can use the *Clipping Border*.
 Press :kbd:`Alt-B` and :kbd:`LMB` -drag a rectangular area.
 The selected area will be "cut out" as the area of interest.
 The rest of the 3D View gets hidden.
-
 
 .. figure:: /images/Modeling-Meshes-weight-paint-border-select.jpg
 
@@ -486,7 +484,6 @@ To modify automatically assigned weights, jump into the middle of the process wh
 
 Pick up here for modifying automatically assigned weights.
 
-
 - Select the armature in 3D View, and bring the armature to *Pose Mode*
   with :kbd:`Ctrl-Tab`, or the 3D View window header mode selector.
 - Select a desired bone in the armature.
@@ -528,4 +525,3 @@ so that the proper weights are achieved while using the actual number of particl
 Use this to make portions of your mesh hairier than others by weight painting a vertex group,
 and then calling out the name of the vertex group in the *VGroup:* field
 (*Particles* panel, *Object* context).
-
