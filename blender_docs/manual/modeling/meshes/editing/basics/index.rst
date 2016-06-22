@@ -7,7 +7,6 @@
 .. toctree::
    :maxdepth: 2
 
-   introduction.rst
    translation_rotation_scale.rst
    adding.rst
    deleting.rst
