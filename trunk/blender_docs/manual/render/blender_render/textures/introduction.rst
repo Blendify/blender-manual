@@ -101,7 +101,7 @@ World Textures
    :class: refbox
 
    | Mode:     All Modes
-   | Panel:    Shading/World Context --> Preview
+   | Panel:    :menuselection:`World --> Preview`
    | Hotkey:
 
 

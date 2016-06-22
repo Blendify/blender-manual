@@ -8,7 +8,7 @@ Subdivide
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    *Mesh Tools* (*Editing* context)
+   | Panel:    Mesh Tools
    | Menu:     :menuselection:`Mesh --> Edges --> Subdivide`,
      :menuselection:`Specials --> Subdivide/Subdivide Smooth`
 

@@ -22,7 +22,7 @@ this parameter sets the maximum number of bounces allowed for a single ray.
 .. note::
 
    You need to enable ray tracing in your scene settings if you want to use ray-traced
-   reflections. This is done in the Scene/Render context --> Render Panel.
+   reflections. This is done in the :menuselection:`Render --> Shading` panel.
 
 
 The *Color Swatch* in the mirror panel is the color of the light reflected back. Usually,

@@ -72,7 +72,7 @@ Menus and buttons
 =================
 
 Most headers exhibit a set of menus, located immediately next 
- to this first *Editor Type* Menu button, which can be hidden - again with a little minus sign.
+to this first *Editor Type* Menu button, which can be hidden - again with a little minus sign.
 So if you cannot find a menu that was mentioned somewhere, try looking for a little plus sign
 (once again) next to the *Editor Type* button. By clicking :kbd:`LMB` on it,
 the menu will come back.

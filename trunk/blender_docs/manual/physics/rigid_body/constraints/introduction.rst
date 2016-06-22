@@ -20,13 +20,13 @@ The quickest way to constrain two objects is to select both and click the *Conne
 pointing at the two selected objects.
 
 Also you can create *Rigid Body Constaint* on of the two constrained objects with
-*Rigid Body Constaint* button of the *Physics* context in the Properties editor.
+*Rigid Body Constaint* button of the *Physics* tab in the Properties editor.
 This constraint is dependent on the object location and rotation on which it was created.
 This way, there are no *Empty* object created for the constraint.
 The role of the *Empty* object is put on this object.
 The constrained object can be then set as *Passive* type for better driving the constrain.
 
-Additional parameters appear in the *Rigid Body Constaint* panel of the *Physics* context in the Properties editor
+Additional parameters appear in the *Rigid Body Constaint* panel of the *Physics* tab in the Properties editor
 for the selected *Empty* object or the one of the two constrained objects with the created constraint.
 
 

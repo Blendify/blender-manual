@@ -38,8 +38,8 @@ Render Layers
    Light Group options for Render Layers.
 
 
-There's a similar control located in the *Layer panel* of the context
-:doc:`Render Layers </render/post_process/layers>`.
+There's a similar control located in the *Layer panel* of the 
+:doc:`Render Layers </render/post_process/layers>` tab.
 If a light group name is selected in this *Light* field,
 the scene will be lit exclusively by lamps in the specified group.
 

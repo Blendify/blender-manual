@@ -31,7 +31,7 @@ Environment or Ambient Only
    Environment (Ambient) lighting only.
 
 
-In the *World* context, there is a panel *Environment Lighting*,
+In the *World* tab, there is a panel *Environment Lighting*,
 where you enable environment or ambient lighting of your scene. Ambient light is the scattered
 light that comes from sunlight being reflected off every surface it hits, hitting your object,
 and traveling to camera.
@@ -253,11 +253,11 @@ here are some good steps to debugging what is wring.
 
 #. First, try deactivating all materials
    (create a default, gray one, and enter its name in the *Mat* field, *Layer* panel,
-   *Render Layers* context - to get back all your normal materials, just erase this text field!).
+   *Render Layer* tab - to get back all your normal materials, just erase this text field!).
    See if you get those problems with just grayness objects. If you don't have the problem anymore,
    that should tell you that you've got a materials-interacting-with-light problem.
    Check the material settings, especially ambient,
-   reflection and all those little buttons and sliders in the *Material* context.
+   reflection and all those little buttons and sliders in the *Material* tab.
    You can set some lights to affect only certain materials,
    so if there's an issue with only a few objects being really bright, start with those.
 #. Then start "killing" lights (e.g. moving them to an unused layer);
@@ -272,5 +272,5 @@ here are some good steps to debugging what is wring.
    Shadow-only lights can throw off the look of the scene as well.
    Overly textured lights can make your scene have random weird colors.
    Don't go too far off a slight tinge of blue or yellow or shades of white,
-   or your material may show blue in the *Material* context but render green, and you will be very confused.
-#. Look at your environment settings *World* context: *Horizon*, *Zenith*, and *Environment Lighting*.
+   or your material may show blue in the *Material* tab but render green, and you will be very confused.
+#. Look at your environment settings *World* tab: *Horizon*, *Zenith*, and *Environment Lighting*.

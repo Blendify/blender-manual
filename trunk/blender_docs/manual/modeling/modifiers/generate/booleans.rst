@@ -33,7 +33,7 @@ to create a single compound object out of two mesh objects.
 .. tip:: This is a dynamic real-time modifier!
 
    If you have marked your Objects to show the Edges
-   (in Properties Editor, Object context, Display panel, enable *Wire*),
+   (in :menuselection:`Properties Editor --> Object --> Display`, enable *Wire*),
    you will see the Edge creation process while you're moving your Objects. Depending on your mesh topology,
    you can also enable X-Ray and Transparency and see the topology being created in real time.
 
@@ -43,7 +43,7 @@ Usage
 
 Using the default Blender install, with the desired mesh Object selected,
 go to the *Properties Editor* which is located at the right of your Blender Screen,
-below the Outliner. Click on the Modifiers Context, which is represented by a wrench -
+below the Outliner. Click on the Modifiers tab, which is represented by a wrench -
 The Boolean modifier. Then, click on the *Add Modifier*
 Button and Blender will show you a list of all of the available Modifiers.
 The Boolean modifier is located on the third row in the *Generate* Column.

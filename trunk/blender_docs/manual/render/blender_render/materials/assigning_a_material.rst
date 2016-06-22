@@ -28,7 +28,7 @@ You can create a new material for the object by
 - Click on the Materials button in the Properties editor header (1)
 
 
-The Shading context panel then appears. This contains the following elements:
+The Shading panel then appears. This contains the following elements:
 
 .. figure:: /images/materials_creating.jpg
 

@@ -34,7 +34,7 @@ Select the camera you would like to make active and press :kbd:`Ctrl-Numpad0`
 (by doing so, you also switch the view to camera view). In order to render,
 each scene **must** have an active camera.
 
-The active camera can also be set in the *Scene* context of the *Properties Editor*
+The active camera can also be set in the *Scene* tab of the *Properties Editor*
 
 The camera with the solid triangle on top is the active camera.
 
@@ -54,8 +54,7 @@ Camera Settings
    :class: refbox
 
    | Mode:     Object Mode
-   | Editor:   Properties
-   | Context:  Object Data
+   | Editor:   :menuselection:`Properties -->  Camera`
 
 
 Cameras are invisible in renders, so they do not have any material or texture settings.
@@ -227,8 +226,9 @@ While in camera view, you can define a subregion to render by drawing out a rect
 Your renders will now be limited to the part of scene visible within the render border.
 This can be very useful for reducing render times for quick previews on an area of interest.
 
-The border can be disabled by disabling the *Border* option in the *Dimensions* panel of the *Render*
-context or by activating the option again and selecting *Render Border* larger than the camera view.
+The border can be disabled by disabling the *Border* option in the *Dimensions* panel 
+in the *Render* tab or by activating the option again and 
+selecting *Render Border* larger than the camera view.
 
 .. note:: Anti-Aliasing and blur options with borders
 

@@ -24,7 +24,7 @@ clear the cache for all selected objects with :kbd:`Ctrl-B` :menuselection:`--> 
    :class: refbox
 
    | Mode:     Object Mode
-   | Panel:    :menuselection:`Object context --> Physics sub-context --> Collision`
+   | Panel:    :menuselection:`Physics --> Collision`
 
 
 Options

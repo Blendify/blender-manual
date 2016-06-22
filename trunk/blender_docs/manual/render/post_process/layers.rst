@@ -6,8 +6,7 @@ Render Layers
 .. admonition:: Reference
    :class: refbox
 
-   | Editor:    *Properties*
-   | Context:   *Render Layers*
+   | Editor:    Properties
 
 
 Render layers allow you to render your scene in separate layers,

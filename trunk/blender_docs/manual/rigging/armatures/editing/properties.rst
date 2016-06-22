@@ -255,7 +255,7 @@ Properties
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    *Armature Bones* (*Editing* context)
+   | Panel:    Armature
    | Menu:     :menuselection:`Armature --> Bone Settings --> ...`
    | Hotkey:   :kbd:`Shift-W`, :kbd:`Ctrl-Shift-W`, :kbd:`Alt-W`
 
@@ -318,7 +318,7 @@ Bone Rigidity
    :class: refbox
 
    | Mode:     Edit and Pose Mode
-   | Panel:    *Armature Bones* (*Editing* context)
+   | Panel:    Armature
 
 
 .. figure:: /images/RiggingEditingCxtArmatureBonesPanelPoseMode.jpg
@@ -380,7 +380,7 @@ Chain Editing
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    *Armature Bones* (*Editing* context)
+   | Panel:    Armature
    | Menu:     :menuselection:`Armature --> Parent --> ...`
    | Hotkey:   :kbd:`Ctrl-P`, :kbd:`Alt-P`
 
@@ -463,7 +463,7 @@ Naming Bones
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    *Armature Bones* (*Editing* context), *Transform Properties* (3D view, :kbd:`N`)
+   | Panel:    Armature, Transform Properties (3D view, :kbd:`N`)
 
 
 You can rename your bones, either using the *Bone* field of the *Transform Properties*

@@ -65,7 +65,7 @@ but here is a quick look at this important feature.
    The Armature Bones panel with two bones selected, and their Child of settings highlighted.
 
 
-The easiest way to manage bones relationships is to use the *Relations* panel *Bone* context:
+The easiest way to manage bones relationships is to use the *Relations* panel *Bone* tab:
 
 - First, :doc:`select </rigging/armatures/bones/selecting>` the bones you want to edit
   (selection order does not matter here).

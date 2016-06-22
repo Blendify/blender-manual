@@ -77,7 +77,7 @@ Snapping
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    *Curve Tools* (*Editing* context)
+   | Panel:    Curve Tools
 
 
 :doc:`Mesh snapping </editors/3dview/transform/transform_control/snap>`
@@ -193,7 +193,7 @@ Subdivision
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    *Curve Tools* (*Editing* context)
+   | Panel:    Curve Tools
    | Menu:     :menuselection:`SurfaceTools --> Modeling --> Subdivide`
    | Hotkey:   :kbd:`W`
 

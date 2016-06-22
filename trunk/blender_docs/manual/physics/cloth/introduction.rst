@@ -32,7 +32,7 @@ all of which is under your control.
 
 
 A piece of cloth is any mesh, open or enclosed, that has been designated as cloth.
-The *Cloth* panels are located in the *Physics* sub-context and consist of three panels of options.
+The *Cloth* panels are located in the *Physics* tab and consist of three panels of options.
 Cloth is either an open or closed mesh and is mass-less, in that all cloth is assumed to have the same density,
 or mass per square unit.
 

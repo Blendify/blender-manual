@@ -3,7 +3,7 @@
 Display
 *******
 
-The *Display* tab at the *Render* context of the *Properties* editor, 
+The *Display* panel in the *Render* tab of the *Properties* editor, 
 let the game developer specify the maximum frame rate of the animations shown during
 the game execution, whether to see informations like framerate and profile, debug properties,
 physics geometry visualization, warnings,
@@ -14,9 +14,9 @@ style of the game to fit the window with the specified resolution.
 Options
 =======
 
-.. figure:: /images/Game_Engine_Performance_Display_Display_Tab_BGE_Render_Context.jpg
+.. figure:: /images/gameEngine_performance_render_display.jpg
 
-   Display Tab at the Render Context.
+   Display panel at the Render tab.
 
 
 Animation Frame Rate

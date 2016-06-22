@@ -53,14 +53,14 @@ By selecting *Curve Deform*, you enable the curve deform function on the mesh ob
 
 .. figure:: /images/curvesdeform_animpanel.jpg
 
-   Anim settings panel.
+   Animation settings panel.
 
 
 The dominant axis setting is set on the mesh object.
-By default the dominant axis in Blender is *Y*.
+By default the dominant axis in Blender is the Y Axis.
 This can be changed by selecting one of the *Track X*,
-*Y* or *Z* buttons in the *Anim* Panel,
-(*Anim settings* *panel*), in *Object* context.
+*Y* or *Z* buttons in the *Animation* Panel,
+(*Animation settings panel*), in Object tab.
 
 Cyclic (or closed)
 curves work as expected where the object deformations traverse along the path in cycles.

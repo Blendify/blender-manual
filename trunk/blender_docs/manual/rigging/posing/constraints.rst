@@ -11,8 +11,8 @@ Applying Constraints to Bones
 
 
 As bones behave like objects in *Pose Mode*, they can also be constrained. This is
-why the *Constraints* panel is shown in both *Object* and
-*Editing* contexts in this mode... This panel contains the constraints *of the active
+why the *Constraints* tab is shown in both *Object Mode* and
+*Edit Mode*. This panel contains the constraints *of the active
 bone* (its name is displayed at the top of the panel,
 in the *To Bone:...* static text field).
 

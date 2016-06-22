@@ -3,7 +3,7 @@
 Textures common options
 ***********************
 
-In the Properties editor, choose the Texture context: this will show the Texture panel.
+In the Properties editor, choose the Texture tab: this will show the Texture panel.
 
 
 Textures Stack

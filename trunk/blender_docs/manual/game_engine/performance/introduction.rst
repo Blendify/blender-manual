@@ -14,12 +14,12 @@ Blender Game Engine also comes with some visual tools to fine tune the games bei
 so the game developers could test the best usage scenario and minimum software and hardware
 requirements to run the game.
 
-In Blender, those tools are available at the *System* and *Display* tab
-of *Render* Context in the *Properties editor*.
+In Blender, those tools are available at the *System* and *Display* panel
+of *Render* tab in the *Properties editor*.
 There are options for specific performance adjusts and measurements,
 ways to control the frame rate or the way the contents are rendered in Blender window
 (game viewport) while the game runs,
-as well as controls for maintainnig geometry allocated in graphic cards memory.
+as well as controls for maintaining geometry allocated in graphic cards memory.
 
 Blender Game Engine rendering system controls:
    :doc:`System </game_engine/performance/system>` -

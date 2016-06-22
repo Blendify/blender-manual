@@ -42,7 +42,7 @@ Finding Surface Tools
    Surface Tools.
 
 
-The panels of the *Editing* context are the same as for :doc:`curves </modeling/curves/introduction>`,
+The panels of the *Curve and Surface* tab are the same as for :doc:`curves </modeling/curves/introduction>`,
 just with fewer options... And as usual, you have the *Select* and *Surface*
 menus in the 3D View headers, and the *Specials* :kbd:`W` pop-up one.
 

@@ -55,7 +55,7 @@ This is a quick way to make screen-casts from within Blender.
 
 Screencasts will record your actions over time either as a video or sequence of image files.
 The type and location of the output is determined by the settings in the
-:doc:`Output panel </render/output/output>` of the Properties :ref:`Render tab <properties-context-render>`.
+:doc:`Output panel </render/output/output>` of the Properties :ref:`Render tab <properties-render-tab>`.
 The default settings will generate a screencast consisting of a series of ``PNG`` images captured
 every 50 ms and stored in the ``/tmp`` folder. If you want to record a video, set the
 *Output* to one of the *Movie File Formats* supported by your system
@@ -94,7 +94,7 @@ and it will show you a button for stopping your capture.
 The frames are stored using a suffix added to their file name,
 where the suffix is composed of the numbers present in the fields for *start* and *end frames*,
 defined in the Frame Range of the Dimensions panel,
-:ref:`Render context <properties-context-render>`.
+:ref:`Render tab <properties-render-tab>`.
 (See Fig: Dimensions Panel - Frame Range - highlighted in yellow)
 
 .. note::

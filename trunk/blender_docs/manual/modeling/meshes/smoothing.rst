@@ -41,7 +41,7 @@ Smooth Shading
    :class: refbox
 
    | Mode:     Edit and Object Mode
-   | Panel:    *Mesh Tools* (*Editing* context)
+   | Panel:    Mesh Tools
    | Menu:     :menuselection:`Mesh --> Faces --> Shade Smooth / Shade Flat`
    | Hotkey:   :kbd:`Ctrl-F` :menuselection:`--> Shade Smooth / Shade Flat`
 
@@ -91,7 +91,7 @@ Auto Smooth
 .. admonition:: Reference
    :class: refbox
 
-   | Panel:    *Properties* (*Object Data* context)
+   | Panel:    :menuselection:`Properties editor --> Object Data`
 
 
 .. list-table::

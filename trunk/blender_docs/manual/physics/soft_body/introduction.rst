@@ -180,7 +180,7 @@ e.g. by moving collision objects or shake a Soft Body object.
 
 
 You can than select the Soft Body object while running the simulation and *Apply*
-the modifier in the *Modifiers* panel of the *Editing* context.
+the modifier in the *Modifiers* tab of the Properties editor.
 This makes the deformation permanent.
 
 

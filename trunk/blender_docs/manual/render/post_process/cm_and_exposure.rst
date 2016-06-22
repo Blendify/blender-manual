@@ -48,7 +48,7 @@ Settings
    Scene settings for color management.
 
 
-These settings are found in the scene context of the properties editor, under the *Color Management* panel.
+These settings are found in the Scene tab of the properties editor, under the *Color Management* panel.
 
 Display
 -------

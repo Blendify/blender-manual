@@ -11,7 +11,7 @@ Properties
 
 
 Let's first have a general overview of the various panels gathering the armature settings,
-in Properties editor, *Object data* context:
+in Properties editor, *Object data* tab:
 
 
 .. figure:: /images/RiggingEditingObjectDataPropertiesEditor.jpg

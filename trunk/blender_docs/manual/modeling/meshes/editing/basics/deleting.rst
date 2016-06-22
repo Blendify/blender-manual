@@ -154,7 +154,7 @@ Remove Doubles
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    :menuselection:`Editing context --> Mesh Tools`
+   | Panel:    Mesh Tools
    | Menu:     :menuselection:`Mesh --> Vertices --> Remove Doubles`,
                :menuselection:`Specials --> Remove Doubles` or :menuselection:`Vertex Specials --> Remove Doubles`
    | Hotkey:   :kbd:`W`, :menuselection:`Remove Doubles`

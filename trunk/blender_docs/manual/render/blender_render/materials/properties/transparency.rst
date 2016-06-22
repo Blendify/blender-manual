@@ -7,7 +7,7 @@ Transparency
    :class: refbox
 
    | Mode:     All Modes
-   | Panel:    :menuselection:`Shading/Material Context --> Transparency`
+   | Panel:    :menuselection:`Material --> Transparency`
 
 
 Materials in Blender can be set to be transparent,
@@ -114,7 +114,7 @@ this is all because of the Index of Refraction of glass.
    To get ray-traced transparency, you need to:
 
    - enable ray tracing in your Render settings.
-     This is done in the :menuselection:`Render context --> Shading Panel`. Ray tracing is enabled by default.
+     This is done in the :menuselection:`Render --> Shading` panel. Ray tracing is enabled by default.
    - set your Alpha value to something other than 1.0.
    - in order for the background material to receive light passing through your transparent object,
      *Receive Transparent* must be turned on for that material in the :menuselection:`Material --> Shadow` panel.
@@ -299,16 +299,15 @@ the more transparent an object is, the lighter its shadow will be.
 In Blender, transparent shadows are set on the materials that receive the shadows from the
 transparent object.
 This is enabled and disabled with the *Receive Transparent* button,
-in the :menuselection:`Material context --> Shadow` panel. The shadow's brightness is
+in the :menuselection:`Material --> Shadow` panel. The shadow's brightness is
 dependent on the *Alpha* value of the shadow casting material.
 
-Alternatives to transparent ray-traced shadows can be found in the *World* context,
+Alternatives to transparent ray-traced shadows can be found in the *World* tab,
 namely the *Ambient Occlusion*, *Environment Lighting*,
 and *Gather* panels. Alternatively, a texture can be used to control the
 *Intensity* value of the shadow-receiving material.
 
 .. _transparency_ior_common:
-
 
 IOR values for Common Materials
 -------------------------------

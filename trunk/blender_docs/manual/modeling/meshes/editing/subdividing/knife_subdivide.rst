@@ -7,7 +7,7 @@ Knife Tool
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    *Mesh Tools* (*Editing* context)
+   | Panel:    Mesh Tools
    | Hotkey:   :kbd:`K` or :kbd:`Shift-K`
 
 

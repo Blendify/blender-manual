@@ -195,7 +195,7 @@ we have not yet told Blender which Bones can alter which Child Objects or by how
 To do that we must individually select each Child Object individually and toggle into Edit
 Mode on that Child Object. Once in Edit Mode we can then select the vertices we want to be
 influenced by the Bones in the Armature. Then with the vertices still selected navigate to
-:menuselection:`Properties Editor --> Object Data Context --> Vertex Groups` and create a new Vertex Group
+:menuselection:`Properties Editor --> Object Data --> Vertex Groups` and create a new Vertex Group
 with the same name as the Bone that you want the selected vertices to be influenced by.
 
 Once the Vertex Group has been created we then assign the selected vertices to the Vertex
@@ -278,7 +278,7 @@ If a Bone is a Control Bone no Vertex Group will be created on the Child Object 
 To check whether a particular bone in an armature is a Deforming Bone simply switch to Pose or Edit Mode
 on the armature and select the bone you are interested in by :kbd:`RMB` it.
 Once the bone of interest is selected navigate to
-:menuselection:`Properties Editor --> <Bone Context> --> Deform Panel`
+:menuselection:`Properties Editor --> Bone --> Deform Panel`
 and check if the Deform tickable option is ticked or not. If it is the selected bone is a Deforming Bone,
 otherwise, it is a Control Bone. (See figure 22).
 
@@ -286,7 +286,7 @@ otherwise, it is a Control Bone. (See figure 22).
 .. figure:: /images/editors_3dview_parenting_bone-check.png
 
    Figure 22 - 3 Bone Armature in *Pose* Mode with 1st bone selected with 
-   :menuselection:`Properties Editor --> <Bone Context> --> Deform`
+   :menuselection:`Properties Editor --> Bone --> Deform`
    displayed unticked, indicating the bone is not a Deforming Bone.
 
 
@@ -370,13 +370,13 @@ See figure 30.
 
 You can also alter the Bone Envelope volume by selecting the Bone you wish to alter and
 switching to Edit Mode or Pose Mode,
-then navigate to :menuselection:`Properties Editor --> <Bone Context> --> Deform --> Envelope --> Distance`
+then navigate to :menuselection:`Properties Editor --> Bone --> Deform --> Envelope --> Distance`
 then enter a new value into it. (See figure 31).
 
 
 .. figure:: /images/TQ-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform_With_Envelope_Weights.jpg
 
-   Figure 31 - :menuselection:`Properties Editor --> <Bone Context> --> Deform Panel --> Envelope --> Distance`.
+   Figure 31 - :menuselection:`Properties Editor --> Bone --> Deform Panel --> Envelope --> Distance`.
 
 
 Altering the Bone Envelope volume does not alter the size of the Armature Bone just the range
@@ -395,13 +395,13 @@ See figure 32.
 
 
 You can also alter the bone radius by selecting the tail or head of the bone you wish to alter and switching to Edit
-Mode, then navigate to :menuselection:`Properties Editor --> <Bone Context> --> Deform --> Radius Section`
+Mode, then navigate to :menuselection:`Properties Editor --> Bone --> Deform --> Radius Section`
 and entering new values for the *Tail* and *Head* fields. (See figure 33).
 
 
 .. figure:: /images/TS-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform_With_Envelope_Weights.jpg
 
-   Figure 33 - :menuselection:`Properties Editor --> <Bone Context> --> Deform --> Radius Section`
+   Figure 33 - :menuselection:`Properties Editor --> Bone --> Deform --> Radius Section`
    head and tail fields highlighted.
 
 

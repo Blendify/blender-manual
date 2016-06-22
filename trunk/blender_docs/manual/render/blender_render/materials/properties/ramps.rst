@@ -7,7 +7,7 @@ Color Ramps
    :class: refbox
 
    | Mode:     All Modes
-   | Panel:    :menuselection:`Context Shading --> sub-context Material --> Ramps`
+   | Panel:    :menuselection:`Material --> Ramps`
 
 
 In many real life situations - like skin or metals -
