@@ -56,8 +56,8 @@ Examples
 
 In the example below,
 we have overlaid a grid pattern on top of the two "Emo" heads after they have been rendered.
-During rendering, we enabled the UV layer in the RenderLayer tab (Properties editor,
-Render Context, RenderLayer tab). Using a mix node,
+During rendering, we enabled the UV layer in the Properties editor
+:menuselection:`Scene --> Pass`. Using a mix node,
 we mix that new UV Texture over the original face.
 We can use this grid texture to help in any motion tracking that we need to do.
 

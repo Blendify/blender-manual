@@ -66,15 +66,14 @@ oriented from root to tip. So, this is the "roll" axis of the bones.
 .. figure:: /images/RiggingBonePrincipalsBonePropertiesEditor.jpg
    :width: 250px
 
-   The Bone context.
+   The Bone tab.
 
 
 Bones properties
 ================
 
 When bones are selected (hence in *Edit Mode* and *Pose Mode*), their
-properties are shown in the *Bone* button context 
-of the Properties editor.
+properties are shown in the *Bone* tab of the Properties editor.
 
 This shows different panels used to control features of each selected bone;
 the panels change depending on which mode you're working in.

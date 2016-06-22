@@ -35,11 +35,11 @@ Display Panel
    :class: refbox
 
    | Mode:     Object, Edit and Pose Mode
-   | Panel:    *Display* *Object Data* context
+   | Panel:    :menuselection:`Object Data --> Display`
 
 
 But let's first see some general visualization properties of armatures,
-found in the *Display* panel of the *Object data* context.
+found in the *Display* panel of the *Object data* tab.
 
 .. figure:: /images/RiggingEditingObjectDataPropertyCxtDisplayPanel.jpg
    :width: 250px
@@ -99,7 +99,7 @@ Axes
 X-Ray
    When enabled, the bones of the armature will always be drawn on top of the solid objects
    (meshes, surfaces, ...) - i.e. they will always be visible and selectable
-   (this is the same option as the one found in the *Display* panel of the *Object data* context.
+   (this is the same option as the one found in the *Display* panel of the *Object data* tab.
    Very useful when not in *Wireframe* mode.
 Shapes
    When enabled, the default standard bone shape is replaced,
@@ -116,7 +116,7 @@ Shaped Bones
    :class: refbox
 
    | Mode:     Object and Pose Mode
-   | Panel:    *Display* panel from *Bone* context.
+   | Panel:    :menuselection:`Bone --> Display`
 
 
 Blender allows you to give to each bone of an armature a specific shape
@@ -199,7 +199,7 @@ Armature Layers
    :class: refbox
 
    | Mode:     Object, Edit and Pose Mode
-   | Panel:    *Skeleton* panel, *Object data* context
+   | Panel:    :menuselection:`Object data --> Skeleton`
 
 .. figure:: /images/RiggingEditingObjectDataPropertyCxtSkeletonPanel.jpg
    :width: 250px
@@ -246,7 +246,7 @@ Bone Layers
    :class: refbox
 
    | Mode:     Object, Edit and Pose Mode
-   | Panel:    *Relations* panel *Bone* context
+   | Panel:    :menuselection:`Bone --> Relations`
 
 .. figure:: /images/RiggingEditingBoneCxtRelationsPanel.jpg
    :width: 250px
@@ -278,7 +278,7 @@ Hiding Bones
    :class: refbox
 
    | Mode:     Edit and Pose Mode
-   | Panel:    *Display* panel, *Bone* context
+   | Panel:    :menuselection:`Bone --> Display`
 
 .. figure:: /images/RiggingEditingBoneCxtDisplayPanel.jpg
    :width: 250px
@@ -294,7 +294,7 @@ vertices or control points, you can use :kbd:`H`:
 - :kbd:`Alt-H` will show all hidden bones.
 
 You can also use the *Hide* check button of the *Display* panel,
-*Bone* context).
+*Bone* tab).
 
 Note that hidden bones are specific to a mode - i.e.
 you can hide some bones in *Edit Mode*,

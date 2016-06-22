@@ -14,7 +14,7 @@ Introduction
 
 Blender provides a number of very interesting settings to complete your renderings by adding a
 nice background, and some interesting 'depth' effects.
-These are accessible via the *World* context.
+These are accessible via the *World* tab.
 By default a very plain uniform world is present. You can edit it or add a new World.
 
 You have:

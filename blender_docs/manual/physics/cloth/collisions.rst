@@ -116,15 +116,15 @@ the object must be enabled as an object that collides with the cloth object.
 To enable Cloth - Object collisions, you have to enable deflections on the collision object
 (not on the cloth object).
 
-In the Properties editor, *Object* context,
-*Physics* sub-context, locate the *Collision* panel shown to the right. It
+In the Properties editor, *Object* tab and
+*Physics* tab, locate the *Collision* panel shown to the right. It
 is also important to note that this collision panel is used to tell all simulations that this
 object is to participate in colliding/deflecting other objects on a shared layer (particles,
 soft bodies, and cloth).
 
 .. warning::
 
-   There are three different *Collision* panels, all found in the *Physics* sub-context.
+   There are three different *Collision* panels, all found in the *Physics* tab.
    The first (by default), a tab beside the *Fields* panel, is the one needed here. The second panel,
    a tab in the *Soft Body* group, concern softbodies (and so has nothing to do with cloth).
    And we have already seen the last one, by default a tab beside the *Cloth* panel.
@@ -166,8 +166,8 @@ Bake Collision
 After you have set up the deflection mesh for the frame range you intend to run the simulation
 (including animating that mesh *via* armatures),
 you can now tell the cloth simulation to compute (and avoid) collisions.
-Select the cloth object and in the *Object* context,
-*Physics* sub-context, set the *Start* and *End* settings for
+Select the cloth object and in the *Object* tab,
+*Physics* tab, set the *Start* and *End* settings for
 the simulation frames you wish to compute, and click the *Bake* button.
 
 You cannot change *Start* or *End* without clearing the bake simulation.

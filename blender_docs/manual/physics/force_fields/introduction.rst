@@ -35,7 +35,7 @@ Creating a Force Field
    :class: refbox
 
    | Mode:     Object Mode
-   | Panel:    :menuselection:`Object context --> Physics sub-context --> Fields`
+   | Panel:    :menuselection:`Physics --> Fields`
 
 
 To create a single Force Field,
@@ -43,7 +43,7 @@ you can select :menuselection:`Add --> Force Field` and select the desired force
 This method creates an Empty with the force field attached.
 
 To create a field from an existing object you have to select the object and change to the
-*Physics* sub-context. Select the field type in the *Fields* menu.
+*Physics* tab. Select the field type in the *Fields* menu.
 
 The fields have many options in common,
 these common options are explained for the *Spherical* field.
@@ -55,8 +55,8 @@ these common options are explained for the *Spherical* field.
    softbody or cloth system by *Free Cache*, this is not done automatically. You can
    clear the cache for all selected objects with :kbd:`Ctrl-B` :menuselection:`--> Free cache selected`.
 
-   *Particles* react to all kind of *Force Fields*,
-   *Soft Bodies* only to *Spherical* / *Wind* / *Vortex*
+   Particles react to all kind of *Force Fields*,
+   Soft Bodies only to *Spherical*, *Wind*, *Vortex*
    (they react on *Harmonic* fields but not in a useful way).
 
 
@@ -68,7 +68,7 @@ Settings unique to a field type are described below.
 Curve Guide and Texture Fields have very different options.
 
 Shape
-   The field is either a *Point*, with omnidirectional influence, or a *Plane*,
+   The field is either a *Point*, with omni-directional influence, or a *Plane*,
    constant in the XY-plane, changes only in Z direction.
 Strength
    The strength of the field effect.

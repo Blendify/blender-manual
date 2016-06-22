@@ -64,7 +64,7 @@ you can modify the image using the Texture Paint Mode:
 
 - In the 3D View, select Texture Paint Mode from the mode selector in the header,
   and you can paint directly onto the mesh.
-- In the UV/Image Editor, switch the editing context from View to Paint (shown to the right).
+- In the UV/Image Editor, switch the mode from View to Paint (shown to the right).
 
 
 .. note:: Square Power of 2

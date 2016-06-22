@@ -43,7 +43,7 @@ If you are in *Edit Mode*,
 Blender will also change its contents based on your last action taken.
 In our second example (at the right), the last action taken was a Vertex Move;
 we did a *Scale* on a Face, and, as you can see,
-the contents of the Pop-Up menu are different, because of your context (Edit Mode).
+the contents of the Pop-Up menu are different, because of your mode (Edit Mode).
 (See Fig, Redo Last - Scale)
 
 

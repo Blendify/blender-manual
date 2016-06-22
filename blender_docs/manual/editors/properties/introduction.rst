@@ -10,10 +10,10 @@ The *Properties Editor* is used to edit data and properties for the *Active Scen
    The Properties Editor with the Mesh tab selected.
 
 
-Contexts
-========
+Tabs
+====
 
-The Properties editor shows several *Contexts*,
+The Properties editor shows several tabs,
 which can be chosen via the icon row in the header.
 
 
@@ -27,7 +27,7 @@ These tabs are used to add features, and to change properties for the Active Sce
 
    Scene / Render tabs.
 
-.. _properties-context-render:
+.. _properties-render-tab:
 
 Render
    Everything related to render output (dimensions, anti-aliasing, performance etc).

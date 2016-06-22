@@ -85,7 +85,7 @@ depends on many inter-related settings:
 
 - World (Ambient color, Radiosity, Ambient Occlusion)
 - Lights
-- Material settings (including ambient, emission, and every other setting on every panel in that context)
+- Material settings (including ambient, emission, and every other setting on every panel in that tab)
 - Texture(s) and how they are mixed
 - Material Nodes
 - Camera

@@ -129,7 +129,7 @@ Threshold (Influence)
    :class: refbox
 
    | Mode:     Object or Edit Modes
-   | Panel:    *MetaBall* (*Editing* context)
+   | Panel:    MetaBall
 
 
 *Threshold* defines how much a meta's surface "influences" other metas.
@@ -207,7 +207,7 @@ Underlying Structure
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    *MetaBall tools* (*Editing* context), *Transform Properties*
+   | Panel:    :menuselection:`MetaBall tools --> Transform Properties`
 
 
 Blender has five types of metas, each determined by its underlying (or directing) structure.

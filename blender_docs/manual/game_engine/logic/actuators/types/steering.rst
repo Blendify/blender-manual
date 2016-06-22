@@ -31,11 +31,11 @@ Navigation Mesh Object:
 
    You can create your own mesh to use for navigation and make it a Navigation Mesh in:
 
-   :menuselection:`Properties editor --> Physics context --> Physics panel --> choosing Physics Type: Navigation Mesh`
+   :menuselection:`Properties editor --> Physics --> Physics panel --> choosing Physics Type: Navigation Mesh`
 
    Or you can let Blender create a Navigation Mesh, then select a mesh.  (Floor or ground or etc.)
 
-   :menuselection:`Properties editor --> Scene context --> Navigation mesh object panel --> Build navigation mesh`
+   :menuselection:`Properties editor --> Scene --> Navigation mesh object panel --> Build navigation mesh`
 
 
 Dist
@@ -65,4 +65,4 @@ Enabled
     Won't follow even if the Target Object moves further away than the maximum distance.
 Visualize
     This checkbox let the user specify whether to show or not the debug informations of the actuator.
-    It is also necessary to enable Debug Properties in the Display menu of the render context.
+    It is also necessary to enable Debug Properties in the Display menu of the *Render* tab.

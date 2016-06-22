@@ -49,7 +49,7 @@ Appending or Linking Groups
    consult :doc:`this page </data_system/linked_libraries>`.
    In summary, :menuselection:`File --> Link / Append Link` Select a blend-file and, and then the group.
 Removing Groups
-   To remove a object from a group, under the object context button, open the "Groups" pane.
+   To remove a object from a group, in  the *Object Data* tab, open the "Groups" panel.
    Find the name of the group from which you wish to remove the object,
    and click the x to the right of the group name.
 

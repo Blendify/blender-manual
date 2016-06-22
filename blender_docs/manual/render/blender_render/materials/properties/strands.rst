@@ -3,15 +3,14 @@
 Strands
 *******
 
-The Strand section of the Material editor is specific to the rendering of Hair particles.
+The Strand section of the Material tab is specific to the rendering of Hair particles.
 There are two different strand methods available:
 
 
 Polygon strands
    This is the default (old) method.
    The strands are rendered as flat polygons.
-   The number of polygons depend on the *Steps* settings in the *Render* panel of the *Object* context,
-   *Particles* sub-context.
+   The number of polygons depend on the *Steps* settings in the *Particles system* tab.
 Strand Primitive
    You activate Strand Primitive with the button *Strand render* in the *Render* panel of the particle system.
    The hair curves are not stored as polygons; only the key points are stored,
@@ -62,7 +61,7 @@ Additionally strands can be shaded along the strand (from root to tip)
 with a mono-dimensional texture; only polygon strands can carry a two-dimensional UV-Texture.
 
 The options for strand shading are in the *Strands* section of the
-*Material* context.
+*Material* tab.
 
 
 Root
@@ -104,8 +103,7 @@ Width Fade
 UV Layer
    You can texture polygon strands with a UV-Texture.
    Fill in the name of the UV-Set (not the texture) here.
-   You also have to load the texture in the *Shading* context,
-   *Texture* and *Material* sub-contexts
+   You also have to load the texture in the *Texture* tab and *Material* tab
    (*Mapping*: *UV*; you may use every *Influence* setting you like -
    especially the alpha value; see *Image 3*).
 
@@ -135,7 +133,7 @@ Texturing along the Strand
 
 Strands can be textured along the strand, i.e. from root to tip. To do that you have to select
 *Strand/Particle* in the *Coordinates* drop-down in the
-*Mapping* panel of the *Material* sub-context.
+*Mapping* panel of the *Material* tab.
 
 Pretty much the most important setting is shown in Fig. Image 4,
 how to fade the tip of a strand to alpha to make nice, fuzzy-looking hair.

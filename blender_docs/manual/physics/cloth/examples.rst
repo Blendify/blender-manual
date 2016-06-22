@@ -8,7 +8,7 @@ let's delete the default cube and add a plane. In order to get some good floppy 
 you'll need to subdivide it several times, about 8 is a good number.
 So :kbd:`Tab` into *Edit Mode*, and press :kbd:`W` :menuselection:`--> Subdivide multi`, and set it to 8.
 
-Now, we'll make this cloth by going to the :menuselection:`Object context --> Physics` sub-context.
+Now, we'll make this cloth by going to the Physics tab.
 Scroll down until you see the *Cloth* panel, and press the *Cloth* button.
 Now, a lot of settings will appear, most of which we'll ignore for now.
 
@@ -37,7 +37,7 @@ Smoothing of Cloth
 
 Now, if you followed this from the previous section, your cloth is probably looking a little blocky.
 In order to make it look nice and smooth like the picture you need to apply a *Smooth* and/or *Subsurf*
-modifier in the *Modifiers* panel under the *Editing* context. Then, in the same context,
+modifier in the *Modifiers* tab. Then, in the same editor,
 find the *Links and Materials* panel (the same one you used for vertex groups) and press *Set Smooth*.
 
 Now, if you press :kbd:`Alt-A`, things are starting to look pretty nice, don't you think?

@@ -27,7 +27,7 @@ You set the current mode in the *Mode* drop-down list of *3D View* header
 
 Modes might affect many things in Blender:
 
-- They can modify the panels and/or controls available in some Properties editor contexts.
+- They can modify the panels and/or controls available in some Properties editor tabs.
 - They can modify the behavior of the whole editor, like e.g.
   the *UV/Image Editor* and *3D View*.
 - They can modify the available header tools (menus and/or menu entries, as well as other controls...).

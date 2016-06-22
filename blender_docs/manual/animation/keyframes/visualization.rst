@@ -42,7 +42,7 @@ over a series of frames.
 
 
 Before we look at its options (all regrouped in the same *Visualisations* panel,
-in the *Editing* context, let us first see how to display/hide these paths. You have
+in the Properties editor), let us first see how to display/hide these paths. You have
 to do it manually - and you have to first select the objects you want to show/hide the motion
 paths. Then,
 

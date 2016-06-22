@@ -9,7 +9,7 @@ Core Options
    Freestyle core options.
 
 
-Activating Freestyle in the *Render* context of the Properties Editor will
+Activating Freestyle in the *Render* tab of the Properties Editor will
 give you the following options:
 
 Line Thickness

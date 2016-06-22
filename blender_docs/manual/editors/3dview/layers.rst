@@ -7,7 +7,7 @@ Layers
    :class: refbox
 
    | Mode:     Object Mode
-   | Panel:    *Relations* (*Object* context)
+   | Panel:    Relations
    | Menu:     :menuselection:`Object --> Move to Layer...`
    | Hotkey:   :kbd:`M`
 
@@ -111,18 +111,18 @@ Objects can also be on more than one layer at a time. To have an object on multi
 hold :kbd:`Shift` while clicking.
 
 
-.. figure:: /images/editors_3dview_Navigating-Layers-object-context.jpg
+.. figure:: /images/editors_3dview_Navigating-Layers-object-tab.jpg
 
-   Object context selection.
+   Selection in Object tab.
 
 
 Another way to view or change a selected object layer is via the *Relations* panel,
-in the *Object* context.
+in the *Object* tab.
 
 
 .. figure:: /images/editors_3dview_Navigating-Layers-relations.jpg
 
-   Layers in Object context, Relations panel.
+   Layers in Object tab, Relations panel.
 
 
 You will then see the layer buttons in the *Relations* panel - as before the object

@@ -12,8 +12,8 @@ Introduction
 .. admonition:: Reference
    :class: refbox
 
-   | Mode:     Edit Mode (Text)
-   | Panel:    *Curve and Surface*, *Font* and *Char* (*Editing* context)
+   | Mode:     Edit Mode
+   | Panel:    Curve and Surface, Font and Char
    | Menu:     :menuselection:`Add --> Text`
 
 
@@ -57,7 +57,7 @@ including the "blue" font that has been applied to a curve path.
    equally in both modes ... and this implies that you cannot apply them to just a part of the
    mesh. So font, size, and so on, are common to all letters in a *Text* object.
    There is just one exception:
-   the *Bold* / *Italic* buttons control properties specific to each letter
+   the *Bold* or *Italic* buttons control properties specific to each letter
    (this is a way to use up to four different fonts in a text).
 
    For optimum resource usage, only characters that are being used consume memory
@@ -83,8 +83,7 @@ Editing Text
 Editing text is quite different from other object types in Blender, and happens mainly in two areas.
 First, the 3D view, of course, where you type your text, and have a few shortcuts, e.g. for applying
 styles (see `Character`_) - note however that most Blender hotkeys you know in *Edit Mode*
-do not exist for texts! The second place is the Properties Editor
-(*Editing* context), especially the *Font* panel.
+do not exist for texts! The second place is the Properties Editor, especially the *Font* tab.
 
 The menu of the 3D View header has nearly no use,
 and there is no *Specials* menu... You have no transform nor mirror tools, and so on.
@@ -230,7 +229,7 @@ Fonts
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    *Font* (*Editing* context)
+   | Panel:    Font
 
 
 The *Font* panel has several options for changing the look of characters.
@@ -310,8 +309,8 @@ so let's detail it:
   They all must have a name following the schema:
   *common prefix* followed by the *char name* (e.g. "ft.a", "ft.b", etc.).
 - Then, for the *Text* object, you must enable the *Dupli Verts* button
-  (*Object* context - *Anim Settings* panel).
-- Back in *Editing* context, in the *Font* panel,
+  (*Object Mode* - *Animation Settings* panel).
+- Back in *Edit Mode*, in the *Font* panel,
   fill the *Ob Family* field with the *common prefix* of your "font" objects.
 
 Now, each time a char in your text matches the *suffix part* of a "font" object's name,
@@ -483,7 +482,7 @@ Shape
    :class: refbox
 
    | Mode:     Object or Edit Mode
-   | Panel:    *Curve and Surface* (*Editing* context)
+   | Panel:    Curve and Surface
 
 
 As you can see in the *Curve and Surface* panel,

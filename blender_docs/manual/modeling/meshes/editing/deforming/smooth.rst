@@ -7,7 +7,7 @@ Smooth
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    *Mesh Tools* (*Editing* context)
+   | Panel:    Mesh Tools
    | Menu:     :menuselection:`Mesh --> Vertices --> Smooth vertex`
    | Hotkey:   :kbd:`Ctrl-V` :menuselection:`--> Smooth vertex`
 

@@ -11,12 +11,12 @@ Bones
 
 
 Let's first have a general grasp of the various panels gathering the bone settings,
-in Properties editor, *Bone* context:
+in Properties editor, *Bone* tab:
 
 
 .. figure:: /images/RiggingBonePrincipalsBonePropertiesEditor.jpg
 
-   The Bone context.
+   The Bone tab.
 
 
 Relations

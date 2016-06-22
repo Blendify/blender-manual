@@ -97,7 +97,7 @@ Most of these tools are also available as shortcuts
 (displayed in the *Tooltips* for each tool) and/or in the *Specials* menu
 :kbd:`W`, the *Edge* menu :kbd:`Ctrl-E` ,and *Face* menu
 :kbd:`Ctrl-F`.
-For each tool a context-dependent menu is opened at the bottom of the *Tool Shelf*.
+For each tool a context-sensitive menu is opened at the bottom of the *Tool Shelf*.
 
 Even more mesh editing tools can be enabled in the *User Preferences* '
 *Add-ons* section.
@@ -122,7 +122,7 @@ where for example normals and numeric values for distances, angles,
 and areas can be turned on.
 
 Other useful tools are found in the *Properties Editor* under the
-*Object* 's and *Object Data* 's *Context buttons*,
+*Object* and *Object Data* tabs,
 including display options and *Vertex groups*.
 
 

@@ -179,7 +179,7 @@ Multi-Paint
    This can be useful when tweaking weights in an area that is affected by more than 3 bones at once,
    e.g. certain areas on a character's face.
 
-   This option is only useful in the context of Armatures, where you can select multiple Vertex Groups
+   This option is only useful in the Armature tab, where you can select multiple Vertex Groups
    by selecting multiple Pose bones. Once at least two Vertex Groups are selected, viewport colors and
    paint logic switch to Multi-Paint Mode, using the sum of the selected groups' weights if Auto Normalize
    is enabled, and the average otherwise. Any paint operations aimed at this collective weight are applied
@@ -479,7 +479,7 @@ To modify automatically assigned weights, jump into the middle of the process wh
 - Create an armature.
 - Create a mesh that will be deformed when the armature's bone(s) move.
 - With the mesh selected, create an *Armature* modifier for your mesh
-  (located in the *Editing* context, *Modifiers* panel).
+  (located in the Properties editor, *Modifiers* tab).
   Enter the name of the armature.
 
 Pick up here for modifying automatically assigned weights.
@@ -499,7 +499,7 @@ provided the armature was left in *Pose Mode* as described above.
 This will activate the vertex group sharing the name with the selected bone,
 and display related weights. If the mesh skins the bones,
 you will not be able to see the bones because the mesh is painted.
-If so, turn on *X-Ray* view (Properties Editor, *Editing* context, *Armature* panel).
+If so, turn on *X-Ray* view (Properties Editor, *Armature* tab).
 
 If you paint on the mesh, a vertex group is created for the bone.
 If you paint on vertices outside the group,
@@ -524,4 +524,4 @@ This option "conserves" the total indicated number of particles, adjusting the d
 so that the proper weights are achieved while using the actual number of particles called for.
 Use this to make portions of your mesh hairier than others by weight painting a vertex group,
 and then calling out the name of the vertex group in the *VGroup:* field
-(*Particles* panel, *Object* context).
+(*Particles* panel, *Object* tab).

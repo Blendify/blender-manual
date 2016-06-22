@@ -151,7 +151,7 @@ Convert Triangles to Quads
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    *Mesh Tools* (*Editing* context)
+   | Panel:    Mesh Tools
    | Menu:     :menuselection:`Mesh --> Faces --> Convert Triangles to Quads`
    | Hotkey:   :kbd:`Alt-J`
 
@@ -160,7 +160,7 @@ This tool converts the selected triangles into quads by taking adjacent tris and
 shared edge to create a quad, based on a threshold.
 This tool can be performed on a selection of multiple triangles.
 
-This same action can be done on a selection of 2 tris,
+This same action can be done on a selection of two tris,
 by selecting them and using the shortcut :kbd:`F`, to create a face, or by selecting the
 shared edge and dissolving it with the shortcut :kbd:`X` :menuselection:`--> Dissolve`.
 

@@ -12,7 +12,7 @@ Make Edge/Face
    | Hotkey:   :kbd:`F`
 
 
-This is a context sensitive tool which creates geometry by filling in the selection.
+This is a context-sensitive tool which creates geometry by filling in the selection.
 When only 2 vertices are selected it will create an edge, otherwise it will create faces.
 
 

@@ -4,7 +4,7 @@ Tips
 ****
 
 As with all physics-enabled objects, pay close attention to the *Animated* check box in the *Rigid Body* panel of the
-*Physics* context in the Properties editor. A common mistake is to use keyframe animation on a *Passive* physics
+*Physics* tab in the Properties editor. A common mistake is to use keyframe animation on a *Passive* physics
 object without checking the *Animated* box. The object will move, but the physics engine will behave as if the
 *Passive* is still in its starting place, leading to disappointment.
 
@@ -58,7 +58,7 @@ Since the rigid body simulation is part of the animation system, it can influenc
 animation system can.
 
 In order for this to work, the rigid body object needs to have a collision modifier.
-Simply click on *Collision* in the *Physics* context.
+Simply click on *Collision* in the *Physics* tab.
 
 
 Scaling Rigid Bodies

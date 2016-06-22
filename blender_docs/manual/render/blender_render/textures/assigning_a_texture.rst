@@ -7,8 +7,8 @@ This page just shows how to add a texture to a slot.
 The textures' commons options are explained :doc:`here </render/blender_render/textures/options>`.
 
 
-Choosing the Texture context
-============================
+Choosing the Texture tab
+========================
 
 .. figure:: /images/texture-top-panel.jpg
    :width: 300px
@@ -16,7 +16,7 @@ Choosing the Texture context
    Texture panel.
 
 
-In the Properties editor, choose the Texture context: this will show the Texture panel.
+In the Properties editor, choose the Texture tab: this will show the Texture panels.
 
 
 Choosing the Texture data type

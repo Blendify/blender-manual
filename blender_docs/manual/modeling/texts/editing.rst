@@ -11,7 +11,7 @@ Text Boxes
    :class: refbox
 
    | Mode:     Object or Edit Modes
-   | Panel:    *Font* (*Editing* context)
+   | Panel:    Font
 
 
 .. figure:: /images/text-frame-upperpanel-area.jpg
@@ -131,7 +131,7 @@ Assigning Materials
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    *Link and Materials* (*Editing* context)
+   | Panel:    Link and Materials
 
 
 Each character can have a different *Material index* in order to have different

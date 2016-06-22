@@ -121,7 +121,7 @@ Line
 The Line visualization mode creates (more or less thin)
 polygon lines with the strand renderer in the direction of particles velocities. The thickness
 of the line is set with the parameter *Start* of the *Strands* shader
-(*Material* sub-context, *Links and Pipeline* panel).
+(*Material* tab, *Links and Pipeline* panel).
 
 Back
    Set the length of the particle's tail.
@@ -271,7 +271,7 @@ Since you use normal materials for the billboard you have all freedoms in mixing
 your liking. The material itself is animated in absolute time.
 
 The main thing to understand is that if the object doesn't have any *UV Layers*,
-you need to create at least one in the objects *Editing* context,
+you need to create at least one in the *Objects Data* tab,
 for any of these to work. Moreover,
 the texture has to be set to UV coordinates in the *Map Input* panel.
 If you want to see examples for some of the animation possibilities, see the
@@ -338,7 +338,7 @@ Split UV's
 Billboard Split UV
    Set the name of the *UV layer* to use with billboards
    (you can use a different one for each *UV Channel*). By default, it is the active UV layer
-   (check the *Mesh* panel in the *Editing* context.
+   (check the *Object Data* tab in the Properties editor).
 Animate
    Dropdown menu, indicating how the split UVs could be animated (changing from particle to particle with time):
 

@@ -18,7 +18,7 @@ Colors
 
 In *Pose Mode*, the bones can have different colors,
 following two different processes, controlled by the *Color* button
-(*Armature* panel, *Editing* context):
+(*Armature* tab, *Edit Mode*):
 
 - When it is disabled,
   bones are colored based on their "state" (i.e. if they use constraints, if they are posed, etc.).
@@ -118,7 +118,7 @@ Ghosts
    :class: refbox
 
    | Mode:     Pose Mode
-   | Panel:    *Visualisations*
+   | Panel:    Visualisations
 
 
 .. list-table::
@@ -148,8 +148,7 @@ Blender features something very similar for armatures in *Pose Mode*: the "ghost
 The ghosts are simply black drawings (more or less opaque)
 of the bones' outlines as they are at certain frames.
 
-The ghosts settings are found in the *Visualisations* panel
-(*Editing* context), only available in *Pose Mode*.
+The ghosts settings are found in the *Visualisations* panel, only available in *Pose Mode*.
 You have three different types of ghosts, sharing more or less the same options:
 
 Around Current Frame
@@ -207,7 +206,7 @@ Motion Paths
    :class: refbox
 
    | Mode:     Pose Mode
-   | Panel:    *Visualisations*
+   | Panel:    Visualisations
    | Menu:     :menuselection:`Pose --> Motion Paths --> ...`
    | Hotkey:   :kbd:`W-3`, :kbd:`W-4`
 
@@ -221,8 +220,8 @@ Motion Paths
 This feature allows you to visualize as curves the paths of bones' ends (either their tips,
 by default, or their roots).
 
-Before we look at its options (all regrouped in the same *Visualisations* panel,
-in the *Editing* context), let us first see how to display/hide these paths.
+Before we look at its options (all regrouped in the same *Visualisations* panel),
+let us first see how to display/hide these paths.
 Unlike `Ghosts`_, you have to do it manually -
 and you have to first select the bones you want to show/hide the motion paths. Then,
 

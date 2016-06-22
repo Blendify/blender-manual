@@ -116,8 +116,8 @@ in *Object Mode* and *Pose Mode*
 you see it by default in its *pose position* (i.e.
 as it was transformed in the *Pose Mode*).
 If you want to see it in the rest position in all modes,
-enable the *Rest Position* button in the *Armature* panel
-(*Editing* context).
+enable the *Rest Position* button in the *Armature* tab
+(*Edit Mode*).
 
 
 In-Betweens

@@ -6,13 +6,13 @@ Options
 Materials
 =========
 
-Materials can be linked to objects and Object's data in the materials panel, of the Shading/Material context.
+Materials can be linked to objects and Object's data in the materials tab.
 Here is where you can manage how materials are linked to objects, meshes, etc.
 and activate a material for editing in the rest of the panels.
 
 
-Context
-=======
+Tab
+===
 
 .. figure:: /images/material-matmenu-matadded-objectmode.jpg
 

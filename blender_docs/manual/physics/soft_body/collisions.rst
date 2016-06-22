@@ -21,7 +21,7 @@ For a *Soft Body* to collide with another object there are a few prerequisites:
 
 - Both objects have to share a layer, but the layer does not necessarily have to be visible.
 - The collision object has to be a mesh object.
-- You have to activate the option *Collision* in the *Collision* panel of the *Physics* sub-context
+- You have to activate the option *Collision* in the *Collision* panel of the *Physics* tab
   for the collision object. The collision object may also be a Soft Body.
 - If you use modifiers such as *Array* and *Mirror* you have to activate *EV.M.Stack* to ensure
   that collision calculation is based on the modified object. The sequence of *Modifiers* is not important.
