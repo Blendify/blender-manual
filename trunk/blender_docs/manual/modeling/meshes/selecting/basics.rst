@@ -61,7 +61,7 @@ or *Border Select, is available in both *Edit Mode* and *Object Mode*.
    For example,
 
    - in solid shading mode and face selection mode, all faces *within* the selection area will be selected;
-   - whilst in the wireframe shading mode and face selection mode,
+   - while in the wireframe shading mode and face selection mode,
      only faces whose handle are within the selection area will be selected.
 
 
