@@ -89,7 +89,7 @@ For a detailed description of how to work with loops in Blender, see:
 .. _modeling-mesh-structure-edge_loops:
 
 Edge Loops
-==========
+----------
 
 Loops (1. and 2.) in Fig Edge and Face Loops are edge Loops. They
 connect vertices so that each one on the loop has exactly two neighbors that are not on the
@@ -109,7 +109,7 @@ Further details on working with Edge Loops can be found in
 
 
 Face Loops
-==========
+----------
 
 These are a logical extension of Edge Loops in that they consist of the faces between two Edge
 Loops, as shown in loops (3. and 4.) in Fig. Edge and Face Loops.
