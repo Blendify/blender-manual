@@ -1,8 +1,8 @@
 ..    TODO/Review: {{review|im = add images}}.
 
-***************
-Curve Selection
-***************
+*********
+Selecting
+*********
 
 Curve selection in *Edit Mode* is much less complex than with meshes! Mainly this is
 because you have only one selectable element type, the control points
