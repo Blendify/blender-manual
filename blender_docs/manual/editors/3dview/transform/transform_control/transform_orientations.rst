@@ -22,8 +22,8 @@ Orientations affect the behavior of Transformations: Location, Rotation, and Sca
 You will see an effect on the 3D Manipulator (the widget in the center of the selection),
 as well as on transformation constraints
 (like :doc:`axis locking </editors/3dview/transform/transform_control/axis_locking>`).
-This means that, when you press :kbd:`G-X`, it will constrain to the *global* x-axis,
-but if you press :kbd:`G-X-X` it will constrain to your *Transform Orientation* s x-axis.
+This means that, when you press :kbd:`G-X`, it will constrain to the *global* X-axis,
+but if you press :kbd:`G-X-X` it will constrain to your *Transform Orientation* s X-axis.
 
 The Orientations options can be set on the 3D View's header (or "footer",
 since it is at the bottom of the view by default),
@@ -39,12 +39,12 @@ Our Demo Cube
 .. figure:: /images/Orientations-BasicSetup.jpg
 
    To demonstrate the various behaviors, we add some colors to the default cube,
-   rotate it ?15? along its local Z- and X Axes, and we scale its "y" face down.
+   rotate it −15° along its local Z- and X Axes, and we scale its "y" face down.
 
 
 Please note two things:
 
-- The "Mini-axis" in the lower-left corner, which represents the Global x/y/z orientation.
+- The "Mini-axis" in the lower-left corner, which represents the Global X, Y, Z orientation.
 - The :doc:`"Object Manipulator" </editors/3dview/transform/transform_control/manipulators>`
   widget emanating from the selection, which represents the current Transform Orientation.
 
@@ -86,9 +86,9 @@ Local
 
    Notice that, here, the Manipulator is at a slight tilt
    (it is most visible on the object's Y-axis, the green arrow).
-   This is due to our 15? rotation of the object.
+   This is due to our 15° rotation of the object.
    This demonstrates the difference between local coordinates and global coordinates.
-   If we had rotated the object 90? along its X-axis, we would see that the object's "Up" is the
+   If we had rotated the object 90° along its X-axis, we would see that the object's "Up" is the
    world's "Forward" -- or the object's Z-axis would now be the world's Y-axis.
    This orientation has an effect on many parts of the interface,
    so it is important to understand the distinction.
