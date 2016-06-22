@@ -39,10 +39,13 @@ Mode
       This is only meaningful when *Offset* is not null.
 
    Projection
-      .. figure:: /images/modifier-shrinkwrapp.jpg
 
       This will project vertices along a chosen axis until they touch the shrink target.
       Vertices that never touch the shrink target are left in their original position.
+
+      .. figure:: /images/modifier-shrinkwrapp.jpg
+
+         Projection options.
 
       Subsurf Levels
          This applies a (temporary) *Catmull-Clark* subsurf to the modified object,
@@ -66,10 +69,11 @@ Mode
          An additional object to project over.
 
    Nearest Vertex
-      .. figure:: /images/modifier-shrinkwrapnv.jpg
-
       This will snap vertices to the nearest vertex of the shrink target. It adds no extra options.
 
+      .. figure:: /images/modifier-shrinkwrapnv.jpg
+
+      Nearest Vertex options.
 
 .. seealso::
 

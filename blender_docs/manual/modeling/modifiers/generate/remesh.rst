@@ -36,16 +36,15 @@ Mode
       In the above image, the circular bottom of the cone and the top
       point of the cone are more accurately reproduced in Sharp mode.
 
-
-.. figure:: /images/modifier-remesh-depth-cone-example.jpg
-   :width: 600px
-
-   Input mesh, and the low to high resolution output meshes.
-
-
 Octree Depth
    The Octree Depth sets the resolution of the output. Low values will generate larger faces relative to the input,
    higher values will generate a denser output.
+
+   .. figure:: /images/modifier-remesh-depth-cone-example.jpg
+      :width: 600px
+
+      Input mesh, and the low to high resolution output meshes.
+
 Scale
    The result can be tweaked further by setting the Scale;
    lower values effectively decrease the output resolution.
@@ -62,7 +61,6 @@ Remove Disconnected Pieces
 
    Threshold
       Use this to control how small a disconnected component must be to be removed.
-
 
    .. figure:: /images/modifier-remesh-remove-disconnected-example.jpg
       :width: 600px
@@ -87,7 +85,6 @@ Examples
    :width: 640px
 
    Remesh modifier applied to text to improve topology.
-
 
 .. youtube:: Mh-gUnS2c0Y
    :width: 640

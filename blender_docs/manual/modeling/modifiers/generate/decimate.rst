@@ -80,12 +80,3 @@ Decimate Type
 
 Face Count
    This field shows the number of remaining faces as a result of applying the Decimate modifier.
-
-
-Known Limitations
-=================
-
-N-Gons
-   N-Gons are currently not supported when collapsing edges,
-   the operation will still succeed, but edges attached aren't considered for reduction.
-

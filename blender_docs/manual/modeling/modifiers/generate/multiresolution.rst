@@ -1,15 +1,8 @@
-
-..    TODO/Review: {{review|im=needs examples}} .
-
+..    TODO/Review: {{review|im=needs examples}}.
 
 ************************
 Multiresolution Modifier
 ************************
-
-.. figure:: /images/Multires_modifier_image.jpg
-
-   Multires modifier.
-
 
 The Multiresolution modifier (often shortened to *Multires*) gives you the ability to subdivide a mesh similarly
 to the :doc:`Subsurf Modifier </modeling/modifiers/generate/subsurf>`,
@@ -25,6 +18,11 @@ but also allows you to edit the new subdivision levels in sculpt mode.
 
 Options
 =======
+
+.. figure:: /images/Multires_modifier_image.jpg
+
+   Multires modifier.
+
 
 Catmull-Clark / Simple
    Set the type of subdivision.
