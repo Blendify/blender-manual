@@ -26,7 +26,10 @@ Topology Mirror
 The *Topology Mirror* option is available in the
 :menuselection:`3D View Editor --> Toolshelf Region --> Mesh Options Panel` while in *Edit Mode*
 
-For *Topology Mirror* to work the *X Mirror* option must be enabled.
+.. note::
+
+   For *Topology Mirror* to work the *X Mirror* option must be enabled.
+
 
 When using the *X Mirror* option to work on mirrored Mesh Geometry the vertices that
 are mirrored must be perfectly placed. If they are not exactly positioned in their mirror
@@ -39,25 +42,27 @@ It looks at the overall Mesh Geometry topology to determine if particular vertic
 The effect of this is that mirrored vertices can be non-symetrical and yet still be treated as mirrored when
 *X Mirror* and *Topology Mirror* are both active.
 
-Note that *Topology Mirror* functionality will work more reliably on Mesh Geometry
-which is more detailed. If you use very simple Mesh Geometry such as a Cube or UV Sphere for
-example the *Topology Mirror* option will often not work.
+.. note::
+
+   The *Topology Mirror* functionality will work more reliably on Mesh Geometry
+   which is more detailed. If you use very simple Mesh Geometry such as a Cube or UV Sphere for
+   example the *Topology Mirror* option will often not work.
+
+
+Example
+-------
 
 For an example of how to use *Topology Mirror* open up a new Blender scene,
 then delete Blender's default cube and add a Monkey Object to the 3D Viewport.
 
-Press :kbd:`Tab` to put the Monkey Object into *Edit Mode*.
-
-With the *X Mirror* option disabled move one of the Monkey Object's vertices slightly.
-
-Then Turn *X Mirror* option on again but leave *Topology Mirror* disabled
-
-If you now move that vertice again *X Mirror* will not work and the mirrored
-vertices will not be altered.
-
-If you then enable *Topology Mirror* and move the same vertices again,
-then *X Mirror* should still mirror the other vertice,
-even though they are not perfectly positioned.
+#. Press :kbd:`Tab` to put the Monkey Object into *Edit Mode*.
+#. With the *X Mirror* option disabled move one of the Monkey Object's vertices slightly.
+#. Then Turn *X Mirror* option on again but leave *Topology Mirror* disabled
+#. If you now move that vertice again *X Mirror* will not work and the mirrored
+   vertices will not be altered.
+#. If you then enable *Topology Mirror* and move the same vertices again,
+   then *X Mirror* should still mirror the other vertice,
+   even though they are not perfectly positioned.
 
 
 Snap to Symmetry
