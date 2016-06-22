@@ -24,7 +24,7 @@ Topology Mirror
 ===============
 
 The *Topology Mirror* option is available in the
-:menuselection:`3D View Editor --> Toolshelf Region --> Mesh Options Panel` whilst in *Edit Mode*
+:menuselection:`3D View Editor --> Toolshelf Region --> Mesh Options Panel` while in *Edit Mode*
 
 For *Topology Mirror* to work the *X Mirror* option must be enabled.
 

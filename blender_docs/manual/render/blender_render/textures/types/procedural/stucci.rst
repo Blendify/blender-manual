@@ -20,7 +20,7 @@ Options
 =======
 
 Plastic / Wall In / Wall out
-   Plastic is the standard Stucci, whilst the "walls" is where Stucci gets it name.
+   Plastic is the standard Stucci, while the "walls" is where Stucci gets it name.
    This is a typical wall structure with holes or bumps.
 Soft / Hard
    There are two methods available for working with Noise
