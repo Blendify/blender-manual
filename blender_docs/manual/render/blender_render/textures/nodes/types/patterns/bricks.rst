@@ -24,7 +24,7 @@ Thickness
    Sets the thickness of the mortar.
 Bias
    The bias of randomly chosen colors,
-   between -1 and 1. -1 Makes all bricks Color 1, and a value of 1 makes them all Color 2.
+   between (−1 to 1). −1 Makes all bricks Color 1, and a value of 1 makes them all Color 2.
 Brick Width
    Sets the horizontal size of all the bricks.
 Row Height

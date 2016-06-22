@@ -36,7 +36,7 @@ Force Field Constraint
    Rot Fh
       Make game object axis parallel to the normal of trigger object.
    Direction
-      Axis in which to create force field (can be + or -, or None)
+      Axis in which to create force field (can be + or −, or None)
    Force
       Force value to be used.
    N
@@ -44,7 +44,7 @@ Force Field Constraint
    M/P
       Trigger on another Object will be either Material (M) or Property (P)
    Property
-      Property/Material that triggers the Force Field constraint (blank for ALL Properties/Materials)
+      Property/Material that triggers the Force Field constraint (blank for **all** Properties/Materials)
    Per
       Persistence button
       When on, force field constraint always looks at Property/Material;
@@ -61,7 +61,8 @@ Force Field Constraint
    Constraint Actuator - Orientation.
 
 
-**Orientation Constraint**
+.. rubric:: Orientation Constraint
+
 Constrain the specified axis in the Game to a specified direction in the World axis.
 
    Direction
@@ -90,7 +91,7 @@ Distance Constraint
 Maintain the distance the Game Object has to be from a surface
 
    Direction
-      Axis Direction (X, Y, Z, -X, -Y, -Z, or None)
+      Axis Direction (X, Y, Z, −X, −Y, −Z, or None)
    L
       If on, use local axis (otherwise use World axis)
    N
@@ -99,13 +100,13 @@ Maintain the distance the Game Object has to be from a surface
       Maximum length of ray used to check for Material/Property on another game object (0 - 2000 Blender Units)
    Force Distance
       Distance to be maintained between object and the Material/Property that triggers the
-      Distance Constraint(-2000 to +2000 Blender Units).
+      Distance Constraint(−2000 to +2000 Blender Units).
    Damping
       Delay (frames) of the constraint response (0 - 100)
    M/P
       Trigger on another Object will be either Material (M) or Property (P)
    Property
-      Property/Material that triggers the Force Field constraint (blank for ALL Properties/Materials)
+      Property/Material that triggers the Force Field constraint (blank for **all** Properties/Materials)
    Per
       Persistence button: When on, force field constraint always looks at Property/Material;
       when off, turns itself off if it can't find the Property/Material.

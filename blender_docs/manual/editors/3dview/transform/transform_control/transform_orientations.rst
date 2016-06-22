@@ -39,7 +39,7 @@ Our Demo Cube
 .. figure:: /images/Orientations-BasicSetup.jpg
 
    To demonstrate the various behaviors, we add some colors to the default cube,
-   rotate it -15º along its local z- and x-axes, and we scale its "y" face down.
+   rotate it ?15? along its local Z- and X Axes, and we scale its "y" face down.
 
 
 Please note two things:
@@ -85,11 +85,11 @@ Local
    The manipulator matches the object axis.
 
    Notice that, here, the Manipulator is at a slight tilt
-   (it is most visible on the object's y-axis, the green arrow).
-   This is due to our 15º rotation of the object.
+   (it is most visible on the object's Y-axis, the green arrow).
+   This is due to our 15? rotation of the object.
    This demonstrates the difference between local coordinates and global coordinates.
-   If we had rotated the object 90º along its x-axis, we would see that the object's "Up" is the
-   world's "Forward" -- or the object's z-axis would now be the world's y-axis.
+   If we had rotated the object 90? along its X-axis, we would see that the object's "Up" is the
+   world's "Forward" -- or the object's Z-axis would now be the world's Y-axis.
    This orientation has an effect on many parts of the interface,
    so it is important to understand the distinction.
 
@@ -104,7 +104,7 @@ Normal
 
       Normal.
 
-   The z-axis of the manipulator will match the normal vector of the selection.
+   The Z-axis of the manipulator will match the normal vector of the selection.
 
    In Object Mode, this is equivalent to Local Orientation, in Edit Mode,
    it becomes more interesting.
@@ -113,16 +113,16 @@ Normal
    and the darker blue lines indicate the vertex normals (these were turned on in the
    :kbd:`N` Properties Panel under :menuselection:`Mesh Display --> Normals --> Face` and
    *Vertex*).
-   Selecting any given face will cause our Manipulator's z-axis to align with that normal.
+   Selecting any given face will cause our Manipulator's Z-axis to align with that normal.
    The same goes for Vertex Select Mode.
-   Edge Select is different--A selected Edge has the z-axis aligned with it
-   (so you will have to look at the Manipulator widget to determine the direction of x and y).
+   Edge Select is different -- A selected Edge has the Z-axis aligned with it
+   (so you will have to look at the Manipulator widget to determine the direction of X and Y).
    If you select several elements, it will orient towards the average of those normals.
 
    A great example of how this is useful is in Vertex Select Mode: Pick a vertex and then do
    :kbd:`G, Z, Z` to tug it away from the mesh and shove it into the mesh.
    To make this even more useful, select a nearby vertex and press :kbd:`Shift-R` to repeat
-   the same movement---except along that second vertex's normal instead.
+   the same movement -- except along that second vertex's normal instead.
 
 Gimbal
    .. figure:: /images/editors_3dview_Transform_Control-Transform_Orientations-04-Gimbal.jpg
@@ -138,9 +138,9 @@ Gimbal
       allowing you to see the discreet XYZ axis underlying the euler rotation,
       as well as possible :term:`gimbal lock`.
    Axis Angle
-      The x, y, and z coordinates define a point relative to the object origin
+      The X, Y, and Z coordinates define a point relative to the object origin
       through which an imaginary "skewer" passes.
-      The w value is the rotation of this skewer. Here, the Manipulator's z-axis stays aligned with this skewer.
+      The *w* value is the rotation of this skewer. Here, the Manipulator's Z-axis stays aligned with this skewer.
    Quaternion
       Though Quaternion rotation is very different from the Euler and Axis Angle rotation modes,
       the Manipulator behaves the same as in *Local* mode.

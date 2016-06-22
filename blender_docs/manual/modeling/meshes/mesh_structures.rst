@@ -70,10 +70,10 @@ Loops
 
 
 *Edge* and *Face Loops* are sets of faces or edges that form continuous "loops" as shown in
-Fig. Edge and Face Loops. The top row (1. - 4.) shows a solid view,
-the bottom row (5. - 8.) a wireframe view of the same loops.
+Fig. Edge and Face Loops. The top row (1.0 - 4.0) shows a solid view,
+the bottom row (5.0 - 8.0) a wireframe view of the same loops.
 
-Note that loops (2. and 4.) do not go around the whole model.
+Note that loops (2.0 and 4.0) do not go around the whole model.
 Loops stop at so called poles because there is no unique way to continue a loop from a pole.
 Poles are vertices that are connected to either three, five, or more edges. Accordingly,
 vertices connected to exactly one, two or four edges are not poles.

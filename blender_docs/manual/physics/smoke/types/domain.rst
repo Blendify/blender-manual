@@ -95,7 +95,7 @@ Vorticity
    .. figure:: /images/smoke_domain_vorticity.jpg
 
       Comparison of different amounts of vorticity. The domain on the left has a vorticity of 3,
-      while the domain on the right has a vorticity of .01.
+      while the domain on the right has a vorticity of 0.01.
 
 Dissolve
    Allow smoke to dissipate over time.

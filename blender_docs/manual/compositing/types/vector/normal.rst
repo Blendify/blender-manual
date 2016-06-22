@@ -38,4 +38,4 @@ Dot
 
    - If two normals are pointing in the same direction the dot product is 1.
    - If they are perpendicular the dot product is zero (0).
-   - If they are antiparallel (facing directly away from each other) the dot product is -1.
+   - If they are antiparallel (facing directly away from each other) the dot product is −1.

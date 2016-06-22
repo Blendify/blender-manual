@@ -45,7 +45,7 @@ Float Neg. Exp.
    Property
       Float property to receive value
    Half-Life Time
-      Half-life time (Range 0.00 -10000.00)
+      Half-life time (Range 0.00 - 10000.00)
 
 
 .. figure:: /images/BGE_Actuator_Random_Float_Normal.jpg
@@ -60,7 +60,7 @@ Float normal
    Property
       Float property to receive value
    Mean
-      Mean of normal distribution (Range -10000.00 to +10000.00)
+      Mean of normal distribution (Range −10000.00 to +10000.00)
    SD
       Standard deviation of normal distribution (Range 0.00 to +10000.00)
 
@@ -77,9 +77,9 @@ Float uniform
    Property
       Float property to receive value
    Min
-      Minimum value (Range -10000.00 to +10000.00)
+      Minimum value (Range −10000.00 to +10000.00)
    Max
-      Maximum value (Range -10000.00 to +10000.00)
+      Maximum value (Range −10000.00 to +10000.00)
 
 
 .. figure:: /images/BGE_Actuator_Random_Float_Constant.jpg
@@ -124,9 +124,9 @@ Int uniform
    Property
       Integer property to receive value
    Min
-      Minimum value (Range -1000 to +1000)
+      Minimum value (Range −1000 to +1000)
    Max
-      Maximum value (Range -1000 to +1000)
+      Maximum value (Range −1000 to +1000)
 
 
 .. figure:: /images/BGE_Actuator_Random_Int_Constant.jpg

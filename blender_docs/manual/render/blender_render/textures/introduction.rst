@@ -134,11 +134,11 @@ Real
    If this option is added,
    the gradient produced has two transitions, from nadir (same color as zenith) to horizon to zenith;
    the blending is also dependent on the camera orientation, which makes it more realistic.
-   The horizon color is exactly at the horizon (on the x-y plane),
+   The horizon color is exactly at the horizon (on the XY plane),
    and the zenith color is used for points vertically above and below the camera.
 Paper
    If this option is added, the gradient keeps its characteristics,
-   but it is clipped in the image (it stays on a horizontal plane (parallel to x-y plane):
+   but it is clipped in the image (it stays on a horizontal plane (parallel to XY plane):
    what ever the angle of the camera may be, the horizon is always at the middle of the image).
 
 `CRL <https://wiki.blender.org/index.php/User:Chrisryanleggett>`__

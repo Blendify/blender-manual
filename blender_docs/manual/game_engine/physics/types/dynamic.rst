@@ -120,7 +120,9 @@ Anisotropic Friction
    Here you can vary the coefficients for the three axes individually, or disable friction entirely.
    Python properties: ``obj.game.use_anisotropic_friction``
    (boolean) and ``obj.game.friction_coefficients`` (a 3-element array).
-Velocity- Limit the speed of an object 0 - 1000.
+Velocity
+   Limit the speed of an object 0 - 1000.
+
    Minimum
       The object is allowed to be at complete rest,
       but as soon as it accelerates it will immediately jump to the minimum speed.
@@ -129,7 +131,7 @@ Velocity- Limit the speed of an object 0 - 1000.
       Top speed of the object.  Python property: ``obj.game.velocity_max``
 Damping- Increase the "sluggishness" of the object.
    Translation
-      Resist movement 0-1. At "1" the object is completely immobile. Python property: ``obj.game.damping``
+      Resist movement 0 - 1. At "1" the object is completely immobile. Python property: ``obj.game.damping``
    Rotation
       Resist rotation, but not the kind of rotation that comes from a collision. For example,
       if a Motion Controller applies Torque to an object, this damping will be a factor.

@@ -122,7 +122,7 @@ Generate Foam
    and enables generating foam map image sequences when baking.
 Coverage
    Tweaks the amount of foam covering the waves, negative values will reduce the amount of foam
-   (leaving only the topmost peaks), positive values will add it. Typically ranges from (-1.0 to 1.0)
+   (leaving only the topmost peaks), positive values will add it. Typically ranges from (−1.0 to 1.0)
 Foam Data Layer Name
    Optional name for the vertex data layer,
    used by the Ocean modifier to store foam maps as vertex colors.

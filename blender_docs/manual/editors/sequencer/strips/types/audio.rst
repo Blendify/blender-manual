@@ -27,7 +27,7 @@ Volume
 Pitch
    Changes the frequency of the audio.
 Pan
-   Used to pan the audio from left an right channels -2 being hard left, 2 being hard right.
+   Used to pan the audio from left an right channels −2 being hard left, 2 being hard right.
 
 
 Working with Audio Tracks

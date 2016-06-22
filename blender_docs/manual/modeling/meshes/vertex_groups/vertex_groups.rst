@@ -43,7 +43,7 @@ Skinning an armature
    define an armature which consists of a bunch of bones.
    Vertex Groups are used to associate parts of the Mesh
    to Bones of the Armature, where you can specify an influence
-   *weight* in the range [0.0 ... 1.0] for each vertex
+   *weight* in the range (0.0 - 1.0) for each vertex
    in the Vertex Group.
 
 Working with Modifiers

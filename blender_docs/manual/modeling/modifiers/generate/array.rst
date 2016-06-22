@@ -101,7 +101,7 @@ Distance
 Start Cap / End Cap
    This allows either endpoints of the array to have a different mesh subsisted.
 
-   For the *start*: as if it was in position -1, i.e. one "array step" before the first "regular" array copy.
+   For the *start*: as if it was in position −1, i.e. one "array step" before the first "regular" array copy.
    For the *end*: as if it was in position *n* + 1, i.e. one "array step" after the last "regular" array copy.
 
    When *Merge* is activated, and the *cap* vertices are within the distance threshold, they will be merged.

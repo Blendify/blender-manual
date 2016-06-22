@@ -127,7 +127,7 @@ Back-scattering means that light is scattered more towards the incoming light di
 forward-scattering means it's scattered along the same direction as the light is traveling.
 
 Asymmetry
-   Asymmetry controls the range between back-scattering (-1.0) and forward-scattering (1.0).
+   Asymmetry controls the range between back-scattering (−1.0) and forward-scattering (1.0).
    The default value of 0.0 gives Isotropic scattering (even in all directions).
 
 

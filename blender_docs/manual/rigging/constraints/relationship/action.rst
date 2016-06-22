@@ -69,14 +69,13 @@ Object Action
 
 Target Range Min / Max
    The lower and upper bounds of the driving transform property value.
-   By default, both values are set to 0.0
 
    .. warning::
 
       Unfortunately, here again we find the constraints limitations:
 
       - When using a rotation property as "driver",
-        these values are "mapped back" to the (-180.0 to 180.0) range.
+        these values are "mapped back" to the (−180.0 to 180.0) range.
       - When using a scale property as "driver", these values are limited to null or positive values.
 
 Action Range Start / End

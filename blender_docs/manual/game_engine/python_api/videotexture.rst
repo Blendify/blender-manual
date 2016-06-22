@@ -220,7 +220,7 @@ The ``VideoFFmpeg`` source has several attributes to control the movie playback:
 
 ``repeat``
    (integer).
-   Number of video replay, -1 for infinite.
+   Number of video replay, −1 for infinite.
 
 ``framerate``
    (float).
