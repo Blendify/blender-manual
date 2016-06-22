@@ -46,7 +46,7 @@ example the *Topology Mirror* option will often not work.
 For an example of how to use *Topology Mirror* open up a new Blender scene,
 then delete Blender's default cube and add a Monkey Object to the 3D Viewport.
 
-Press the kbd:`tab` Key to put the Monkey Object into *Edit Mode*.
+Press :kbd:`Tab` to put the Monkey Object into *Edit Mode*.
 
 With the *X Mirror* option disabled move one of the Monkey Object's vertices slightly.
 
@@ -76,7 +76,6 @@ vertices which have been moved enough that Blender does not detect then as mirro
 
 This can be caused by accident when editing without x-mirror enabled. Sometimes models
 imported from other applications are asymmetrical enough that mirror fails too.
-
 
 Direction
    Specify the axis and direction to snap. Can be any of the 3 axes,
@@ -137,7 +136,7 @@ Mirroring Geometry
 ==================
 
 See :doc:`Mirror </modeling/meshes/editing/deforming/mirror>` for information on mirroring,
-which allows you to flip geometry across an axis
+which allows you to flip geometry across an axis.
 
 .. seealso::
 
