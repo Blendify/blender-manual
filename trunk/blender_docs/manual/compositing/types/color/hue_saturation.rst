@@ -59,7 +59,7 @@ Hues are vice versa
    A blue image, with a Hue setting at either end of the spectrum (0 or 1), is output as yellow (recall that white,
    minus blue, equals yellow). A yellow image, with a Hue setting at 0 or 1, is blue.
 Hue and Saturation work together.
-   So, a Hue of .5 keeps the blues the same shade of blue,
+   So, a Hue of 0.5 keeps the blues the same shade of blue,
    but the saturation slider can deepen or lighten the intensity of that color.
 Gray & White are neutral hues
    A gray image, where the RGB values are equal, has no hue. Therefore,

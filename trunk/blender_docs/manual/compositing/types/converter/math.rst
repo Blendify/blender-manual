@@ -84,12 +84,12 @@ since we all know that
 
 sin(2 × pi/ 4) = sin(pi/ 2) = +1.0.
 
-Since the sine function can put out values between (-1.0 to 1.0),
-the *Map Value node* scales that to 0.0 to 1.0 by taking the input (-1 to 1), adding 1
+Since the sine function can put out values between (−1.0 to 1.0),
+the *Map Value node* scales that to 0.0 to 1.0 by taking the input (−1 to 1), adding 1
 (making 0 to 2), and multiplying the result by one-half
 (thus scaling the output between 0 to 1).
 The default *ColorRamp* converts those values to a grayscale. Thus,
-medium gray corresponds to a 0.0 output by the sine, black to -1.0, and white to 1.0.
+medium gray corresponds to a 0.0 output by the sine, black to −1.0, and white to 1.0.
 As you can see, sin(pi/ 2) = 1.0. Like having your own visual color calculator! Animating this
 noodle provides a smooth cyclic sequence through the range of grays.
 
@@ -176,7 +176,7 @@ function then makes that range 0 to 5. We then divide by 5 to get back a range o
 between 0 and 1 which can then be combined back with the other color channels. Thus,
 you get the function
 
-f(*x*, *n*) = round(*x* × *n* - 0.5)/ (*n* - 1)
+f(*x*, *n*) = round(*x* × *n* − 0.5)/ (*n* − 1)
 
 where n is the number of possible output values, and *x* is the input pixel color and f(*x*, *n*)
 is the output value. There is only one slight problem,
@@ -205,7 +205,7 @@ feed the image to the Separate RGB node. For the Red channel,
 we string the math nodes into a function that takes each red color, multiplies (scales)
 it up by the desired number of divisions (6), offsets it by 0.5,
 rounds the value to the nearest whole number, and then divides the image pixel color by 5. So,
-the transformation is {0..1} becomes {0..6}, subtracting centers the medians to {-0.5...5.5}
+the transformation is {0 to 1} becomes {0 to 6}, subtracting centers the medians to {−0.5 to 5.5}
 and the rounding to the nearest whole number produces {0, 1, 2, 3, 4, 5} 
 since the function rounds down,
 and then dividing by five results in six values {0.0, 0.2, 0.4, 0.6, 0.8, 1.0}.
@@ -232,7 +232,7 @@ each color can only be one of 256 possible values.
 
 While this example uses the Separate/Combine RGB to create distinct colors,
 other Separate/Combine nodes can be used as well. If using the YUV values,
-remember that U and V vary between -0.5 and +0.5,
+remember that U and V vary between (−0.5 to +0.5),
 so you will have to first add on a half to bring the range between 0 and 1,
 and then after dividing, subtract a half to bring in back into standard range.
 

@@ -14,7 +14,7 @@ Extrude
    Turns a one dimensional curve into a two dimensional curve by giving it height.
    Note that this isn't related to *Extrude* used in mesh edit-mode.
    With a scale of one,
-   an *Extrusion* of .5 will extrude the curve 0.5 BU in both directions, perpendicular to the curves normals.
+   an *Extrusion* of 0.5 will extrude the curve 0.5 BU in both directions, perpendicular to the curves normals.
 
    If set to 0.0, there is no extrusion
 
@@ -70,7 +70,7 @@ Offset
 
    .. figure:: /images/Curves_Extrude_closed2D_fillboth_offset-1.jpg
 
-      -1 offset, 0.5 extrusion, 0.25 Bevel Depth, 10 Bevel resolution.
+      −1 offset, 0.5 extrusion, 0.25 Bevel Depth, 10 Bevel resolution.
 
 Radius
    The Radius allows you to directly control the width of the extrusion along the “spinal” curve.

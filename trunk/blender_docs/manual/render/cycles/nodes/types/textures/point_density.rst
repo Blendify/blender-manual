@@ -60,9 +60,9 @@ Color Source
 
    Particle Color Sources
       Particle Age
-         Lifetime mapped as 0.0 - 1.0 intensity.
+         Lifetime mapped as (0.0 - 1.0) intensity.
       Particle Speed
-         Particle speed (absolute magnitude of velocity) mapped as 0.0-1.0 intensity.
+         Particle speed (absolute magnitude of velocity) mapped as (0.0 - 1.0) intensity.
       Particle Velocity
          XYZ velocity mapped to RGB colors.
    Vertex Color Sources

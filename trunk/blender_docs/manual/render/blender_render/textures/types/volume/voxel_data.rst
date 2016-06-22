@@ -47,7 +47,7 @@ Source
    Flame
       Use flame temperature as texture data.
    Heat
-      Use smoke heat as texture data. Values from -2.0 to 2.0 are used.
+      Use smoke heat as texture data. Values from −2.0 to 2.0 are used.
    Velocity
       Use smoke velocity as texture data.
 

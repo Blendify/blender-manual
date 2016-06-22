@@ -50,7 +50,7 @@ to determine when he has taken enough damage to die. hp is an int with the start
 You set up two *Collision* sensors, one for enemy bullets,
 and one for picking up more health. The first one is connected
 (through an *AND* controller)
-to an *Add Property* actuator with the property hp and the value -10.
+to an *Add Property* actuator with the property hp and the value −10.
 Every time the player is hit by an enemy bullet he loses 10 hp. The other sensor is connected
 (through an *AND* controller) to an other *Add Property* actuator,
 this one with the value 50.

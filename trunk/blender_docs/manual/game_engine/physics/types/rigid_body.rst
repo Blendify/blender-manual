@@ -130,7 +130,7 @@ Velocity- Limit the speed of an object 0 - 1000.
       Top speed of the object.  Python property: ``obj.game.velocity_max``
 Damping- Increase the "sluggishness" of the object.
    Translation
-      Resist movement 0-1. At "1" the object is completely immobile. Python property: ``obj.game.damping``
+      Resist movement 0 - 1. At "1" the object is completely immobile. Python property: ``obj.game.damping``
    Rotation
       Resist rotation, but not the kind of rotation that comes from a collision. For example,
       if a Motion Controller applies Torque to an object, this damping will be a factor.

@@ -59,7 +59,7 @@ Time Mapping:
          Evaluates time in seconds,
          taking into account timing information from the file (offset and frame-times).
       Factor
-         Evaluates the entire animation as a value from [0 - 1].
+         Evaluates the entire animation as a value from (0 - 1).
 
    Play Mode
       Select how playback operates.

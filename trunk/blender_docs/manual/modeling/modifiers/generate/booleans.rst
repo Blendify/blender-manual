@@ -275,7 +275,7 @@ Face Normals
 When using the Boolean modifier,
 Blender will use the face normal directions to calculate the three Boolean operations.
 The direction of the normals will define the result of the three available operations.
-When one of the participants has inverted normals, you're in fact multiplying the operation by -1
+When one of the participants has inverted normals, you're in fact multiplying the operation by −1
 and inverting the calculation order. You can, at any time, select your modified mesh,
 enter Edit Mode and flip the normals to change the behavior of the Boolean modifier.
 See Tips: Fixing Mixed Normals below.

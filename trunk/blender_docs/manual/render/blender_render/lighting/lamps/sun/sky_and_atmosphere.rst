@@ -122,7 +122,7 @@ Sun
       so the larger the sun (the smaller *Size*), the more it "vanishes" in the sky, and *vice versa*.
    Back Light
       For "Back Scatter Light", result on sun's color, high values result in more light around the sun.
-      Its values range is (-1.0 to 1.0). Negative values result in less light around sun.
+      Its values range is (−1.0 to 1.0). Negative values result in less light around sun.
 
 
 Atmosphere
@@ -316,12 +316,12 @@ Sky
    * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-backlight-1_0.jpg
           :width: 200px
 
-          Back Light: -1.0.
+          Back Light: −1.0.
 
      - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-backlight-0_33.jpg
           :width: 200px
 
-          Back Light: -0.33.
+          Back Light: −0.33.
 
    * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-backlight0_33.jpg
           :width: 200px

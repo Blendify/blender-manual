@@ -63,7 +63,7 @@ Color Source
       Particle Age
          Lifetime mapped as 0.0 - 1.0 intensity.
       Particle Speed
-         Particle speed (absolute magnitude of velocity) mapped as 0.0-1.0 intensity.
+         Particle speed (absolute magnitude of velocity) mapped as 0.0 - 1.0 intensity.
          An additional color ramp can be used to convert intensity to RGB colors.
 
          Scale

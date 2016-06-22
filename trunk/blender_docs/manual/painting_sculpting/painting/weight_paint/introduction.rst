@@ -444,7 +444,7 @@ be shared across different brushes, as opposed to per-brush.
 - Restrict: to only paint on vertices which already are weighted in the active weight group.
   (No new weights are created; only existing weights are modified.)
 - x-mirror: to draw symmetrically.
-  Note the this only works when the character symmetry plane is z-y (character looks into y direction).
+  Note the this only works when the character symmetry plane is ZY (character looks into Y direction).
 - Show Zero weights: To display unreferenced and zero weighted areas in black (by default).
 
 
@@ -469,7 +469,7 @@ Weight Painting for Bones
 This is one of the main uses of weight painting.
 When a bone moves, vertices around the joint should move as well,
 but just a little, to mimic the stretching of the skin around the joint.
-Use a "light" weight (10-40%)
+Use a "light" weight (10 - 40%)
 paint on the vertices around the joint so that they move a little when the bone rotates.
 While there are ways to automatically assign weights to an armature
 (see the :doc:`Armature section </rigging/index>`),

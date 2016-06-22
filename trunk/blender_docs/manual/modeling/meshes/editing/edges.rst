@@ -88,7 +88,7 @@ to control the sharpness of the edges in the subdivided mesh.
 This command enters an interactive mode (a bit like transform tools),
 where by moving the mouse (or typing a value with the keyboard) you can set the (average)
 crease value of selected edges.
-To clear the crease edge property, enter a value of -1.
+To clear the crease edge property, enter a value of −1.
 
 
 .. _modeling-meshes-editing-edge_slide:
@@ -125,7 +125,7 @@ Flip :kbd:`F`
    Toggle clamping the slide within the edge extents.
 
 This tool has a factor, which is displayed in the 3D View footer and in the *Tool Shelf*
-(after confirmation). A numerical value between (-1 to 1) can be entered for precision.
+(after confirmation). A numerical value between (−1 to 1) can be entered for precision.
 
 In *Proportional* mode, :kbd:`Wheel`, or :kbd:`Left` and :kbd:`Right`
 changes the selected edge for calculating a proportion.

@@ -125,7 +125,7 @@ Invert
    Invert.
 
 
-Replaces each Weight of the selected weight group by 1.0 - weight.
+Replaces each Weight of the selected weight group by × −1.0 weight.
 
 Examples:
 
@@ -218,16 +218,16 @@ Operator Parameters
 Subset
    Restrict the tool to a subset. See above Fig. The Subset Option for how subsets are defined.
 Offset
-   A value from the range [-1.0,1.0]) to be added to all weights in the Vertex Group.
+   A value from the range (−1.0 - 1.0) to be added to all weights in the Vertex Group.
 Gain
    All weights in the Subset are multiplied with the gain.
-   The drag sliders of this value allow only a range of [-10.0, 10.0].
+   The drag sliders of this value allow only a range of (−10.0 - 10.0).
    However, you can enter any factor you like here by typing from the keyboard.
 
 .. note::
 
    Whichever Gain and Offset you choose,
-   in all cases the final value of each weight will be clamped to the range [0.0, 1.0].
+   in all cases the final value of each weight will be clamped to the range (0.0 - 1.0).
    So you will never get negative weights or overheated areas (weight > 1.0) with this tool.
 
 
@@ -309,7 +309,7 @@ Operator Parameters
 
 
 Factor
-   The effective amount of blending (range [0.0, 1.0]).
+   The effective amount of blending (range [0.0 - 1.0]).
    When Factor is set to 0.0 then the Blend tool does not do anything.
    For Factor > 0 the weights of the affected vertices gradually shift from their original value
    towards the average weight of all connected **and** unselected verts (see examples above).
