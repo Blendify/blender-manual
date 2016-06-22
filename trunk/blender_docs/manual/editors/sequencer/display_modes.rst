@@ -98,7 +98,7 @@ You can also reset the view with :kbd:`Home`.
 Image Preview
 -------------
 
-In the upper window pane of the Sequence screen layout is another VSE window,
+In the upper window pane of the Sequence screen layout is another VSE editor,
 this one set to Image Preview mode. It shows you what the resulting video will look like when saved.
 This is the main working mode for adding strips and moving them around,
 cutting, grouping (making meta) and splicing them through special effects.

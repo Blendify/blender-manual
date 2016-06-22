@@ -6,7 +6,7 @@ Arranging Areas
 Blender uses a novel screen-splitting approach to arrange areas.
 The application window is always a rectangle on your desktop.
 It divides it up into a number of re-sizable areas.
-An area contains the workspace for a particular type of window, like a 3D View window,
+An area contains the workspace for a particular type of window, like a 3D View editor,
 or an Outliner.
 The idea is that you split up that big application window into any number of smaller
 (but still rectangular) non-overlapping area. That way,
@@ -61,7 +61,7 @@ you must first merge those two, and then join the bottom one up to the upper one
 
 
 To merge the current window with the one above it
-(in the picture the properties window is being merged "over" the Outliner),
+(in the picture the properties editor is being merged "over" the Outliner),
 hover the mouse pointer over the window splitter. When the pointer changes to a cross,
 :kbd:`LMB` click and drag up to begin the process of combining.
 The upper window will get a little darker, overlaid with an arrow pointing up.

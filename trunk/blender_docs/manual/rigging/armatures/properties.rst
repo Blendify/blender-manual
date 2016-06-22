@@ -7,16 +7,16 @@ Properties
    :class: refbox
 
    | Mode:     Object Mode, Edit Mode and Pose Mode
-   | Panel:    All in *Properties* window, *Object data* property
+   | Panel:    All in Properties editor, *Object data* property
 
 
 Let's first have a general overview of the various panels gathering the armature settings,
-in *Properties* window, *Object data* context:
+in Properties editor, *Object data* context:
 
 
-.. figure:: /images/RiggingEditingObjectDataPropertyWindow.jpg
+.. figure:: /images/RiggingEditingObjectDataPropertiesEditor.jpg
 
-   The Object data property in the Properties window.
+   The Object data property in the Properties editor.
 
 
 Skeleton

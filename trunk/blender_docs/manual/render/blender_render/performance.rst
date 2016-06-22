@@ -58,7 +58,7 @@ Blender Settings
   Each shot will be of a smaller area and thus take in fewer polygons/faces.
   Be sure that when you position your camera that you snap overlapping shots, so that you can then match them up.
   If you don't want to use GIMP, you can use compositing nodes and the Translate node to match them up in Blender.
-- Minimize the render window (and Blender if rendering to an internal window).
+- Minimize the render window (and the Blender window, if the UV/image editor is used).
   ATI users report dramatic speedup on a per frame basis, which adds up over the frame range.
 - Use the Big Render script to render sub-sections of the overall image, and then paste them together.
 
@@ -106,7 +106,7 @@ Render Settings
   - Disable *Edge* rendering.
   - *Save Buffers*.
 
-  - Render to an :ref:`Image Editor <editors-uv_image-index>` window,
+  - Render to an :ref:`UV/ Editor <editors-uv_image-index>`,
     not a pop-up. :doc:`Render Window </render/output/display>`.
   - Use multiple *Threads* on a multi-core CPU (with multiple *Parts*).
 - :doc:`Render Layers Panel </render/post_process/layers>`

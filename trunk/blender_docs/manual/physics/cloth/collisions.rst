@@ -116,7 +116,7 @@ the object must be enabled as an object that collides with the cloth object.
 To enable Cloth - Object collisions, you have to enable deflections on the collision object
 (not on the cloth object).
 
-In the *Buttons* window, *Object* context,
+In the Properties editor, *Object* context,
 *Physics* sub-context, locate the *Collision* panel shown to the right. It
 is also important to note that this collision panel is used to tell all simulations that this
 object is to participate in colliding/deflecting other objects on a shared layer (particles,

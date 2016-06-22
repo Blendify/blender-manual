@@ -77,7 +77,7 @@ Creating Vertex Groups
    Empty Vertex Group Panel.
 
 
-Vertex Groups are maintained within the *Object Data Properties* window (1),
+Vertex Groups are maintained within the *Object Data* Properties Editor (1),
 and there in the *Vertex Groups* panel.
 As long as no Vertex groups are defined (the default for new Mesh Objects),
 the Panel is empty (2).

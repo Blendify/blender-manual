@@ -31,7 +31,7 @@ The default scene is separated into five windows and is loaded each time you sta
 The five areas are:
 
 - The Info Space (shaded red) at the top.
-  *(The Info window used mainly for its header)*.
+  (The Info editor used mainly for its header).
 - A large 3D View (shaded green).
 - A Timeline at the bottom (shaded purple).
 - An Outliner at the top right (shaded yellow).

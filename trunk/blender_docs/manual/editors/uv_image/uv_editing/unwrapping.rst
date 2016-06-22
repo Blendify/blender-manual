@@ -54,13 +54,13 @@ Getting Started
 
 By default, meshes are not created with UVs. First you must map the faces, then
 you can :doc:`edit them </editors/uv_image/uv_editing/layout_editing>`.
-The process of unwrapping your model is done within Edit Mode in the 3D View window.
-This process creates one or more UV Islands in the :ref:`UV/Image Editor window <editors-uv_image-index>`.
+The process of unwrapping your model is done within Edit Mode in the 3D View editor.
+This process creates one or more UV Islands in the :ref:`UV/Image Editor <editors-uv_image-index>`.
 
 To begin, choose the *UV Editing* :doc:`screen layout </interface/screens>`
-from the selection list at the top of your screen in the User Preferences
-window header. This sets one of the panes to show you the UV/Image Editor
-window :kbd:`Shift-F10`, and the other pane to the 3D View :kbd:`Shift-F5`.
+from the selection list at the top of your screen in the User Preferences header. 
+This sets one of the panes to show you the UV/Image Editor
+:kbd:`Shift-F10`, and the other pane to the 3D View :kbd:`Shift-F5`.
 
 Enter edit mode, as all unwrapping is done in Edit Mode. You can be in vertex,
 face, or edge selection mode.
@@ -296,7 +296,7 @@ To take an edge out of a seam, select it, :kbd:`Ctrl-E` and *Clear Seam*.
 
 In the example to the right, the back-most edge of the cylinder was selected as the seam
 (to hide the seam), and the default unwrap calculation was used.
-In the UV/Image Editor window, you can see that all the faces are nicely unwrapped,
+In the UV/Image Editor, you can see that all the faces are nicely unwrapped,
 just as if you cut the seam with a scissors and spread out the fabric.
 
 
@@ -352,9 +352,9 @@ it is now time to unwrap them.
 In the 3D View, select :menuselection:`Mesh --> UV Unwrap --> Unwrap` or
 :kbd:`U` and select Unwrap.
 
-You can also do this from the UV/Image Editor window with command :menuselection:`UVs --> Unwrap` or :kbd:`E`.
+You can also do this from the UV/Image Editor with :menuselection:`UVs --> Unwrap` or :kbd:`E`.
 This method will unwrap all of the faces and reset previous work. The
-UVs menu will appear in the UV/Image Editor window after unwrapping has been performed once.
+UVs menu will appear in the UV/Image Editor after unwrapping has been performed once.
 
 This tool unwraps the faces of the object to provide the
 "best fit" scenario based on how the faces are connected and will fit within the image,

@@ -125,5 +125,5 @@ the clip bounds will be visible as two yellow connected dots on the camera line 
 
 .. note::
 
-   The *3D View* window contains settings similar to the camera,
+   The *3D View* editor contains settings similar to the camera,
    see the :doc:`3D View options page </editors/3dview/display/panels>` for more details.

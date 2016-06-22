@@ -15,7 +15,7 @@ so the game developers could test the best usage scenario and minimum software a
 requirements to run the game.
 
 In Blender, those tools are available at the *System* and *Display* tab
-of *Render* Context in the *Properties Window*.
+of *Render* Context in the *Properties editor*.
 There are options for specific performance adjusts and measurements,
 ways to control the frame rate or the way the contents are rendered in Blender window
 (game viewport) while the game runs,

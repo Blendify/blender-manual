@@ -23,7 +23,7 @@ Creating the Rigid Body.
 
 Right now only mesh objects can participate in the rigid body simulation.
 To create rigid bodies, either click on *Rigid Body* button in the *Physics* context of the
-*Properties* window or use the *Add Active*/*AddPassive* buttons in the *Physics* tab of the *Tool Shelf*.
+Properties editor or use the *Add Active*/*AddPassive* buttons in the *Physics* tab of the *Tool Shelf*.
 
 There are two types of rigid body: active and passive. *Active* bodies are dynamically simulated, while *passive*
 bodies remain static. Both types can be driven by the animation system when using the *Animated* option.

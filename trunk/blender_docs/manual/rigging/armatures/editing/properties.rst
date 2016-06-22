@@ -386,7 +386,7 @@ Chain Editing
 
 
 You can edit the relationships between bones (and hence create/modify the chains of bones)
-both from the 3D views and the *Buttons* window. Whatever method you prefer,
+both from the 3D views and the Properties editor. Whatever method you prefer,
 it's always a matter of deciding, for each bone, if it has to be parented to another one,
 and if so, if it should be connected to it.
 
@@ -406,7 +406,7 @@ To parent and/or connect bones, you can:
       With this method, the newly-children bones won't be scaled nor rotated -
       they will just be translated if you chose to connect them to their parent's tip.
 
-- In the *Buttons* window, *Armature Bones* panel, for each selected bone,
+- In the Properties editor, *Armature Bones* panel, for each selected bone,
   you can select its parent in the *Parent* drop-down list to the upper right corner of its sub-panel.
   If you want them to be connected, just enable the little *Con* button to the right of the list.
 
@@ -447,7 +447,7 @@ To disconnect and/or free bones, you can:
   (or :menuselection:`Armature --> Parent --> Clear Parent...`).
   In the small *Clear Parent* menu that pops up, choose *Clear Parent* to completely free all selected bones,
   or *Disconnect Bone* if you just want to break their connections.
-- In the *Buttons* window, *Armature Bones* panel, for each selected bone, you can select no parent in the
+- In the Properties editor, *Armature Bones* panel, for each selected bone, you can select no parent in the
   *Parent* drop-down list of its sub-panel, to free it completely.
   If you just want to disconnect it from its parent, disable the *Con* button.
 
@@ -463,7 +463,7 @@ Naming Bones
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    *Armature Bones* (*Editing* context), *Transform Properties* (3D views, :kbd:`N`)
+   | Panel:    *Armature Bones* (*Editing* context), *Transform Properties* (3D view, :kbd:`N`)
 
 
 You can rename your bones, either using the *Bone* field of the *Transform Properties*

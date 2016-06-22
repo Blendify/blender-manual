@@ -32,7 +32,7 @@ Bounding Box
 Except for *Rendered*, these shading modes are not dependent on light sources in the scene.
 Instead they use a simple default lighting adjusted by the
 *Solid OpenGL Lights* controls on the *System* tab of the
-:doc:`User Preferences </preferences/system>` window.
+:doc:`User Preferences </preferences/system>` editor.
 
 The viewport shading controls the appearance of all objects in a scene,
 but this can be overridden for individual objects using the Display panel in their Object Properties.

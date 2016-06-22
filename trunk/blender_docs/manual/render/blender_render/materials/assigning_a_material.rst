@@ -7,7 +7,7 @@ Materials available in the currently-open Blender file can be investigated by cl
 
 .. figure:: /images/icons_material.png
 
-   in the Properties Window Header.
+   in the Properties editor Header.
    In this section we look at how to assign or remove a material to/from the Active Object in Blender, either by:
 
 - creating a new material,
@@ -24,11 +24,11 @@ Every time a new Object is created it has no material linked to it.
 You can create a new material for the object by
 
 - Selecting the object
-- In the Properties window, click on the object button
-- Click on the Materials button in the Properties Panel Header (1)
+- In the Properties editor, click on the object button
+- Click on the Materials button in the Properties editor header (1)
 
 
-The Shading context window then appears. This contains the following elements:
+The Shading context panel then appears. This contains the following elements:
 
 .. figure:: /images/materials_creating.jpg
 
@@ -36,7 +36,7 @@ The Shading context window then appears. This contains the following elements:
 
 
 - Context - The currently-selected scene and object
-- Object Material Slots (3) - this window shows the "slots"
+- Object Material Slots (3) - this panel shows the "slots"
   for the material (or materials) that this object data contains.
 - Active Material (2). Initially empty, asking for "New".
 

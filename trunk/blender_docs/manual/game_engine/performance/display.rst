@@ -3,8 +3,8 @@
 Display
 *******
 
-The *Display* tab at the *Render* context of the *Properties*
-Window, let the game developer specify the maximum frame rate of the animations shown during
+The *Display* tab at the *Render* context of the *Properties* editor, 
+let the game developer specify the maximum frame rate of the animations shown during
 the game execution, whether to see informations like framerate and profile, debug properties,
 physics geometry visualization, warnings,
 if the mouse cursor is shown during the game execution, and options to specify the framing

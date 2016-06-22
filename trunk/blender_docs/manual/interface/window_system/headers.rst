@@ -1,19 +1,19 @@
 
-**************
-Window Headers
-**************
+*******
+Headers
+*******
 
 All editors have a header (the strip with a lighter gray background containing icon buttons).
-The header may be at the top (as with the *Properties Window*) 
+The header may be at the top (as with the *Properties Editor*) 
 or the bottom (as with the 3D View) of a window's area. 
 The picture below shows the header of the 3D View:
 
 .. figure:: /images/interface-window_system-headers-header_example.jpg
 
 
-If you move the mouse over a window, its header changes to a slightly lighter shade of gray.
+If you move the mouse over a window, the header of its editor changes to a slightly lighter shade of gray.
 This means that it is "focused".
-All hotkeys you press will now affect the contents of this window.
+All hotkeys you press will now affect the contents of this editor.
 
 
 Hiding a header
@@ -22,9 +22,9 @@ Hiding a header
 .. figure:: /images/interface-window_system-headers-hide.jpg
 
 
-To hide a header, move your mouse over the thin line between a window and its header,
+To hide a header, move your mouse over border of the header,
 until the pointer takes the form of an up/down arrow. Then click,
-hold and drag with :kbd:`LMB` from the window over the header to hide the latter.
+hold and drag with :kbd:`LMB`  to scale down the header to zero.
 
 
 Showing a header
@@ -57,31 +57,31 @@ and if the header is at the bottom the item text will read "Flip to Top".
    If you find that the colors you see on screen do not match those mentioned
    in the Manual then it could be that your default theme has been altered.
    Creating a new theme or selecting/altering a pre-existing one can be done by selecting the
-   :doc:`User Preferences </preferences/index>` window and clicking on the *Themes* tab of the window.
+   :doc:`User Preferences </preferences/index>` editor and clicking on the *Themes* tab.
 
 
-Window type button
+Editor type button
 ==================
 
-:kbd:`LMB` clicking on the first icon at the left side of a header allows changing the window type.
-Every window frame in Blender may contain any type of window,
+:kbd:`LMB` clicking on the first icon at the left side of a header allows changing the Editor type.
+Every window frame in Blender may contain any type of editor,
 allowing you to customize your window layout to your own work flows.
 
 
 Menus and buttons
 =================
 
-Most Window Headers, located immediately next to this first "Window Type" Menu button,
-exhibit a set of menus which can be hidden - again with a little minus sign.
+Most headers exhibit a set of menus, located immediately next 
+ to this first *Editor Type* Menu button, which can be hidden - again with a little minus sign.
 So if you cannot find a menu that was mentioned somewhere, try looking for a little plus sign
-(once again) next to the "Window Type" button. By clicking :kbd:`LMB` on it,
+(once again) next to the *Editor Type* button. By clicking :kbd:`LMB` on it,
 the menu will come back.
 
 Menus allow you to directly access many features and commands,
 so just look through them to see what's there.
 All Menu entries show the relevant shortcut keys, if any.
 
-Menus and buttons will change with *Window Type* and the selected object and mode.
+Menus and buttons will change with *Editor Type* and the selected object and mode.
 They only show the actions that can be performed.
 
 

@@ -3,10 +3,10 @@
 Text Editor
 ***********
 
-Blender has a *Text Editor* among its windows types,
-accessible via the *Window type* menu, or the shortcut :kbd:`Shift-F11`.
+Blender has a *Text Editor* among its editor types,
+accessible via the *Editor type* menu, or the shortcut :kbd:`Shift-F11`.
 
-The newly opened Text window is grey and empty, with a very simple header Fig. Text header.
+The newly opened Text editor is grey and empty, with a very simple header Fig. Text header.
 
 
 .. figure:: /images/editors_text_header1.jpg
@@ -14,8 +14,8 @@ The newly opened Text window is grey and empty, with a very simple header Fig. T
    Text header.
 
 
-From left to right there are the standard *Window type* selection button and the
-window menus. Then there is the Text ID Block browse button followed by the New button for
+From left to right there are the standard *Editor type* selection button and the
+editors menus. Then there is the Text ID Block browse button followed by the New button for
 creating new Text files. Once you click it, you will find that the header has changed..
 for good!
 
@@ -39,13 +39,13 @@ The following keyboard commands apply:
 
 - :kbd:`Ctrl-C` - Copies the marked text into the text clipboard.
 - :kbd:`Ctrl-X` - Cuts out the marked text into the text clipboard.
-- :kbd:`Ctrl-V` - Pastes the text from the clipboard at the cursor location in the Text window.
+- :kbd:`Ctrl-V` - Pastes the text from the clipboard at the cursor location in the Text editor.
 - :kbd:`Ctrl-D` - Duplicate the current line.
 - :kbd:`Tab` - Indent the selection.
 - :kbd:`Shift-Tab` - Un-indent the selection.
-- :kbd:`Shift-Ctrl-Alt-S` - Saves unsaved text as a text file, a *File Browser* window appears.
+- :kbd:`Shift-Ctrl-Alt-S` - Saves unsaved text as a text file, a *File Browser* editor appears.
 - :kbd:`Alt-S` - Saves an already open file.
-- :kbd:`Alt-O` - Loads a text, a *File Browser* window appears.
+- :kbd:`Alt-O` - Loads a text, a *File Browser* editor appears.
 - :kbd:`Alt-P` - Executes the text as a Python script.
 - :kbd:`Ctrl-Z` - Undo.
 - :kbd:`Ctrl-Shift-Z` - Redo.
@@ -64,8 +64,8 @@ The *Text Editor* has now also some dedicated Python scripts,
 which add some useful writing tools, like a class/function/variable browser, completion... You
 can access them through the :menuselection:`Text --> Text Plugins` menu entry.
 
-.. tip:: Usages for the Text window
+.. tip:: Usages for the Text editor
 
-   The text window is handy also when you want to share your blend-files with others.
-   A *Text* window can be used to write in a ``README`` text explaining the contents of your blend-file.
+   The text editor is handy also when you want to share your blend-files with others.
+   A *Text* editor can be used to write in a ``README`` text explaining the contents of your blend-file.
    Be sure to keep it visible when saving!

@@ -485,7 +485,7 @@ To modify automatically assigned weights, jump into the middle of the process wh
 Pick up here for modifying automatically assigned weights.
 
 - Select the armature in 3D View, and bring the armature to *Pose Mode*
-  with :kbd:`Ctrl-Tab`, or the 3D View window header mode selector.
+  with :kbd:`Ctrl-Tab`, or the 3D View header mode selector.
 - Select a desired bone in the armature.
 - Select your mesh with :kbd:`RMB` and change immediately to *Weight Paint Mode*.
   The mesh will be colored according to the weight (degree) that the selected bone movement affects the mesh.
@@ -499,7 +499,7 @@ provided the armature was left in *Pose Mode* as described above.
 This will activate the vertex group sharing the name with the selected bone,
 and display related weights. If the mesh skins the bones,
 you will not be able to see the bones because the mesh is painted.
-If so, turn on *X-Ray* view (*Buttons* window, *Editing* context, *Armature* panel).
+If so, turn on *X-Ray* view (Properties Editor, *Editing* context, *Armature* panel).
 
 If you paint on the mesh, a vertex group is created for the bone.
 If you paint on vertices outside the group,

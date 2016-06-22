@@ -3,7 +3,7 @@
 Timeline Editor
 ***************
 
-The *Timeline* window, identified by a clock icon,
+The *Timeline* editor, identified by a clock icon,
 is shown by default at the bottom of the screen.
 
 
@@ -37,7 +37,7 @@ Time Cursor
 The *Time Cursor* is the green line, its used to set and display the current time frame.
 
 The *Time Cursor* can be set or moved to a new position by pressing or holding
-:kbd:`LMB` in the Timeline window.
+:kbd:`LMB` in the Timeline editor.
 
 The current frame or second can be displayed on the *Time Cursor*,
 check the View menu for settings.
@@ -113,10 +113,10 @@ View Menu
 The *View Menu* controls what you see, and what it looks like.
 
 Toggle Full Screen
-   Maximize or minimize the *Timeline* window. :kbd:`Ctrl-Up` or :kbd:`Ctrl-Down`
+   Maximize or minimize the *Timeline* editor. :kbd:`Ctrl-Up` or :kbd:`Ctrl-Down`
 
 Duplicate Area into New Window
-   This creates a new OS window, and sets the editor window to the *Timeline*.
+   This creates a new OS window, and sets the window to the *Timeline* editor.
 
 Bind Camera to Markers
    This is used switch cameras during animation.
@@ -340,7 +340,7 @@ Auto Keyframe
    *Auto Keyframe* will insert new keyframes for the properties in the active *Keying Set*.
 
    Note that *Auto Keyframe* only works for transform properties (objects and bones),
-   in the 3D views (i.e. you cant use it e.g. to animate the colors of a material in the Properties window...).
+   in the 3D views (i.e. you cant use it e.g. to animate the colors of a material in the Properties editor...).
 
 Layered
    Optional while playback. TODO.

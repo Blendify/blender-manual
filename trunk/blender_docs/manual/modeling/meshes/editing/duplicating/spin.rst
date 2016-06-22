@@ -132,7 +132,7 @@ too many vertices will have been merged.
    clicking on them. Press :kbd:`S` to start scaling and hold down :kbd:`Ctrl`
    while scaling to scale the points down to 0 units in the X, Y and Z axis. :kbd:`LMB`
    to complete the scaling operation and click the *Remove Doubles* button in
-   the *Buttons* window, *Editing* context (also available with :kbd:`W` :menuselection:`--> Remove Doubles`).
+   the Properties Editor, *Editing* context (also available with :kbd:`W` :menuselection:`--> Remove Doubles`).
 
 
    Alternatively, you can use :kbd:`W` :menuselection:`--> Merge` from the same *Specials* menu

@@ -43,6 +43,6 @@ They all become a color-coded strip in the VSE:
 - Green is an Audio track
 
 When you choose to add one of these,
-the VSE window will switch to a file browser for you to select what you want to add.
+the VSE editor will switch to a file browser for you to select what you want to add.
 Supported files have a little rectangle next to their name (blue for images, green for clips)
 as a visual cue that you can pick them successfully:

@@ -38,7 +38,7 @@ You are not limited to one UV Map per mesh.
 You can have multiple UV maps for parts of the mesh by creating new UV Textures.
 The first UV Texture is created for you when you select a face in UV Face Select mode. You can
 manually create more UV Textures by clicking the *New* button next to "UV Texture"
-on the Mesh panel in the Buttons Window, Editing Context)
+on the Mesh panel in the Properties Editor, Editing Context)
 and unwrapping a different part of the mesh. Those faces will then go with that UV Texture,
 while the previously unwrapped faces will still go with the previous UV Texture.
 Note that if you unwrap the same face twice or more times
@@ -48,7 +48,7 @@ the coloring for that face will be the alpha combination of the layers of those 
 In the example to the right, we have a mesh for a blouse.
 The mesh has been seamed as a normal blouse would, shown in the middle in UV Face Select mode.
 Wishing to make a cut pattern, the front of the blouse was unwrapped and basic rotation and
-scaling was done to center it in the UV/Image Editor window.
+scaling was done to center it in the UV/Image Editor.
 It was then moved off to the side, while the left and right sleeves were unwrapped,
 each rotated and scaled. Then, select a sample face from each cloth piece,
 in the 3D View :menuselection:`Select --> Linked Faces`, and the UV/Image Editor will show all those pieces
@@ -76,7 +76,7 @@ Deleting a UV Map for the mesh destroys all work done in all unwrapping associat
 
 Each map has a selector button. Click the camera icon to enable that UV texture for rendering.
 You can change the name by selecting one and changing the text in the *Name* box.
-The selected map is displayed in the UV/Image Editor window.
+The selected map is displayed in the UV/Image Editor.
 The example shows a few UV maps created for a character, and the map for Clothes is selected.
 
 Note that each texture can be mapped to a specific UV texture.

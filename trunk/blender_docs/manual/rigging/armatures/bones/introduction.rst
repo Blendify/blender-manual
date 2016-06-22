@@ -63,7 +63,7 @@ will show local axes for each bone's tip. The Y axis is always aligned along the
 oriented from root to tip. So, this is the "roll" axis of the bones.
 
 
-.. figure:: /images/RiggingBonePrincipalsBonePropertyWindow.jpg
+.. figure:: /images/RiggingBonePrincipalsBonePropertiesEditor.jpg
    :width: 250px
 
    The Bone context.
@@ -73,8 +73,8 @@ Bones properties
 ================
 
 When bones are selected (hence in *Edit Mode* and *Pose Mode*), their
-properties are shown in the *Bone* button context of the *Properties*
-window.
+properties are shown in the *Bone* button context 
+of the Properties editor.
 
 This shows different panels used to control features of each selected bone;
 the panels change depending on which mode you're working in.

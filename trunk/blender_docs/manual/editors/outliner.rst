@@ -3,9 +3,9 @@
 Outliner
 ********
 
-.. figure:: /images/Outliner-Window.jpg
+.. figure:: /images/Outliner-editor.jpg
 
-   The Outliner window.
+   The Outliner editor.
 
 
 The *Outliner* is a list that organizes data in your scene.
@@ -58,7 +58,7 @@ Activating a data-block
    cube will select the cube and enter *Object Mode* (see right).
 
 
-.. figure:: /images/Outliner-Window-Column-Icons.jpg
+.. figure:: /images/Outliner-editor-column-icons.jpg
 
    Toggling pre-selection of a data-block.
 
@@ -112,7 +112,7 @@ Expanding/collapsing everything
 Toggling object-level restrictions
 ==================================
 
-The three following options, in the right side of the *Outliner* window,
+The three following options, in the right side of the *Outliner* editor,
 are only available for objects:
 
 Visibility (eye icon)
@@ -153,7 +153,7 @@ Filtering the display
    Outliner Display dropdown.
 
 
-The window header has a field to let you select what the outliner should show to help you narrow the
+The editors header has a field to let you select what the outliner should show to help you narrow the
 list of objects so that you can find things quickly and easily.
 
 All Scenes

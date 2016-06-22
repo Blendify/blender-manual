@@ -107,7 +107,7 @@ represented by small green dots for each one of those segments, for the selected
 
 The free segment drawing uses the same *Manhattan Dist*
 setting as the :doc:`grease pencil tool </interface/grease_pencil/introduction>`
-(*User Preferences* *window,* *Edit Methods* "panel", *Grease Pencil* group)
+(*User Preferences*, *Edit Methods* "panel", *Grease Pencil* group)
 to control where and when to add a new point to the segment - so if you feel your free segments are too detailed,
 raise this value a bit, and if you find them too jagged, lower it.
 

@@ -18,11 +18,11 @@ Exporting UV Layout Image
 
 As a way of communicating to an artist who is painting your UV Texture for you,
 Blender has a tool called *Save UV Face Layout*
-(located in the UV/Image Editor Window, :menuselection:`UVs --> Save UV Face Layout`)
+(located in the UV/Image Editor, :menuselection:`UVs --> Save UV Face Layout`)
 that saves an image as a ``Targa`` (``.tga``), ``EPS``, or an ``SVG`` format for the object you have selected.
 
 The image is an outline of the UV face mapping.
-Activating the tool brings up the File Browser Window with options for saving the layout:
+Activating the tool brings up the File Browser with options for saving the layout:
 
 
 .. figure:: /images/texture-uv-layout-export.jpg
@@ -72,9 +72,9 @@ Applying Textures to UVs
 ========================
 
 The UV/Image Editor allows you to map textures directly to the mesh faces.
-The 3D View window shows you the object being textured.
-If you set this window into Textured viewport shading,
-you will immediately see any changes made in the UV/Image Editor window in this window,
+The 3D View editor shows you the object being textured.
+If you set this editor into Textured viewport shading,
+you will immediately see any changes made in the UV/Image and this editor,
 and vice versa.
 
 You can edit and load images,
@@ -133,8 +133,8 @@ Face Textures
 
 
 An alternate way is to set up a Face Textures Material as shown. To do so,
-with the buttons window displayed, press :kbd:`F5` to display the Shader Buttons.
-In the Buttons window, Material settings, click *Add New* material.
+with the Properties editor displayed, press :kbd:`F5` to display the Shader Buttons.
+In the Properties editor, Material settings, click *Add New* material.
 
 On the Options panel, enable *Face Textures*. This way is quick,
 but bypasses the normal rendering system for fast results,
@@ -166,7 +166,7 @@ Replacing the active Image
 
 Recall that each face gets coordinates and a link to an image.
 To map a face to a different image, simply select that face (or faces) and use the UV/Image
-Editor window Image}} menu to *Replace* the current image with an existing file
+Editor Image menu to *Replace* the current image with an existing file
 (such as a ``JPG`` or ``PNG`` file).
 
 

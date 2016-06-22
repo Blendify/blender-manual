@@ -292,7 +292,7 @@ Sphere
 .. figure:: /images/lighting-falloff-point_sphere.jpg
    :width: 300px
 
-   Screenshot of the 3D View window, showing the Sphere light clipping circle.
+   Screenshot of the 3D View editor, showing the Sphere light clipping circle.
 
 
 The *Sphere* option restricts the light illumination range of a *Lamp* or

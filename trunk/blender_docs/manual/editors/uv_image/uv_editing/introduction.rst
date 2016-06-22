@@ -12,7 +12,7 @@ This is an overview of the tools found there. Using the UV editor is explained m
 
 .. figure:: /images/editors_uv-image-main.jpg
 
-   UV/Image Editor window for texturing.
+   UV/Image Editor for texturing.
 
 
 Header Region

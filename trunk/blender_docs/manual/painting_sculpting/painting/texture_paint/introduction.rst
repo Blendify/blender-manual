@@ -21,8 +21,9 @@ There are three ways to establish the image used by the UV Texture:
   Blender will then use that texture's UV map to transfer the colors to the faces of the mesh
 
 Blender features a built-in paint mode called Texture Paint which is designed specifically to
-help you edit your UV Textures and images quickly and easily in either the UV/Image Editor
-window or the 3D View window. Since a UV Texture is just a special-purpose image,
+help you edit your UV Textures and images quickly and 
+easily in either the UV/Image or the 3D View Editor. 
+Since a UV Texture is just a special-purpose image,
 you can also use any external paint program. For example,
 GIMP is a full-featured image manipulation program that is also open-source.
 
@@ -36,7 +37,7 @@ GIMP is a full-featured image manipulation program that is also open-source.
 Since a mesh can have layers of UV Textures, there may be many images that color the mesh.
 However, each UV Texture only has one image.
 
-Texture Paint works in both a 3D View and the UV/Image Editor window.
+Texture Paint works in both a 3D View and the UV/Image Editor.
 In the 3D View in Texture Paint Mode, you paint directly on the mesh by
 :ref:`projecting onto the UVs <painting_texture-index>`.
 
@@ -61,9 +62,9 @@ you can modify the image using the Texture Paint Mode:
    Enabling paint mode.
 
 
-- In the 3D View window, select Texture Paint Mode from the mode selector in the window header,
+- In the 3D View, select Texture Paint Mode from the mode selector in the header,
   and you can paint directly onto the mesh.
-- In the UV/Image Editor window, switch the editing context from View to Paint (shown to the right).
+- In the UV/Image Editor, switch the editing context from View to Paint (shown to the right).
 
 
 .. note:: Square Power of 2
@@ -78,16 +79,16 @@ Once you enable Texture Painting, your mouse becomes a brush. To work with the U
 As soon as you enable Texture Painting or switch to Texture Paint Mode,
 brush settings become available in the Tool Shelf :kbd:`T`.
 
-In the UV/Image Editor window,
+In the UV/Image Editor,
 you paint on a flat canvas that is wrapped around the mesh using UV coordinates.
-Any changes made in the UV/Image Editor window show up immediately in the 3D View,
+Any changes made in the UV/Image Editor show up immediately in the 3D View,
 and vice versa.
 
-A full complement of brushes and colors can be selected from the Properties panel in the
-UV/Image Editor.
+A full complement of brushes and colors can be selected from 
+the Properties panel in the UV/Image Editor.
 Brush changes made in either panel are immediately reflected in the other panel. However,
 the modified texture will **not** be saved automatically;
-you must explicitly do so by :menuselection`Image --> Save` in the UV/Image Editor window.
+you must explicitly do so by :menuselection`Image --> Save` in the UV/Image Editor.
 
 
 Texture Preview
@@ -98,10 +99,9 @@ a surface of a model in your scene (in other techie words,
 is mapped to some aspect of a texture via a texture channel using UV as a map input),
 you can see the effects of your painting in the context of your scene as you paint.
 
-To do this, set up side-by-side windows, one window in 3D View set to Textured display mode,
-and the second UV/Image Editor window loaded with your image.
+To do this, set up side-by-side windows, one window in 3D View set to *Texture* shading option,
+and in the second window the UV/Image Editor loaded with your image.
 Position the 3D View to show the object that is UV mapped to the loaded image.
-Open a Preview window (see 3D View Options for more info) and position it over the object.
 In the image to the right, the texture being painted is mapped to the "Normal" attribute,
 and is called "bump mapping",
 where the gray-scale image is used to make the flat surface appear bumpy.
@@ -249,7 +249,7 @@ Angle
       Angle is randomized.
 
 Offset
-   Offset the texture in x, y, and z.
+   Offset the texture in X, Y, and Z.
 
 Size
    Set the scale of the texture in each axis.
@@ -322,7 +322,8 @@ Saving
 ======
 
 If the header menu item Image has an asterisk next to it,
-it means that the image has been changed, but not saved. Use the :menuselection`Image --> Save Image`
+it means that the image has been changed, but not saved. 
+Use the :menuselection`Image --> Save Image`
 option to save your work with a different name or overwrite the original image.
 
 .. note:: UV Textures
@@ -332,10 +333,11 @@ option to save your work with a different name or overwrite the original image.
 
 
 The image format for saving is independent of the format for rendering.
-The format for saving a UV image is selected in the header of the Save Image window,
+The format for saving a UV image is selected in the header of the File browser,
 and defaults to ``PNG`` (``.png``).
 
-If Packing is enabled in the window header, or if you manually :menuselection`Image-->Pack Image`,
+If Packing is enabled in the File browsers header, 
+or if you manually :menuselection`Image --> Pack Image`,
 saving your images to a separate file is not necessary.
 
 
@@ -345,11 +347,11 @@ Using an External Image Editor
 If you use an external program to edit your UV Texture, you must:
 
 
-- run that paint program (GIMP, Photoshop®, etc.)
+- run that paint program (GIMP, Photoshop\ :sup:`®` \, etc.)
 - load the image or create a new one
 - change the image, and
 - re-save it within that program.
-- Back in Blender, you reload the image in the UV/Image Editor window.
+- Back in Blender, you reload the image in the UV/Image Editor.
 
 You want to use an external program if you have teams of people using different programs that
 are developing the UV textures,

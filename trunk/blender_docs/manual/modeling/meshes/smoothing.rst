@@ -109,7 +109,7 @@ techniques alone. Though there are workarounds
 (such as splitting off sets of faces by selecting them and pressing :kbd:`Y`),
 there is an easier way to combine smooth and solid faces, by using *Auto Smooth*.
 
-Auto smoothing can be enabled in the mesh's panel in the *Properties* window. Angles
+Auto smoothing can be enabled in the mesh's panel in the Properties Editor. Angles
 on the model that are smaller than the angle specified in the *Angle* button will be
 smoothed during rendering (i.e. not in the 3D view)
 when that part of the mesh is set to smooth. Higher values will produce smoother faces,

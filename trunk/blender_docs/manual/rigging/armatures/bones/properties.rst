@@ -7,14 +7,14 @@ Bones
    :class: refbox
 
    | Mode:     Object Mode, Edit Mode and Pose Mode
-   | Panel:    All in *Properties* window, *Bone* property
+   | Panel:    All in Properties editor, *Bone* property
 
 
 Let's first have a general grasp of the various panels gathering the bone settings,
-in *Properties* window, *Bone* context:
+in Properties editor, *Bone* context:
 
 
-.. figure:: /images/RiggingBonePrincipalsBonePropertyWindow.jpg
+.. figure:: /images/RiggingBonePrincipalsBonePropertiesEditor.jpg
 
    The Bone context.
 

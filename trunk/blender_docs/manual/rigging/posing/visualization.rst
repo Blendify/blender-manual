@@ -50,9 +50,9 @@ Coloring from Bone Group
    The Bone Groups panel with a bone group (default colors).
 
 
-The bone groups panel is available in the Object data editor for an armature.
+The bone groups panel is available in the Armature tab of the Properties editor.
 Bone groups facilitate the coloring (theming) of multiple bones.
-Bone groups are managed mostly in the *Buttons* window, *Editing* context.
+Bone groups are managed mostly in the Properties editor, *Edit Mode*.
 
 To create a new bone group,
 click on the *Add Group* button in the *Bone Groups:* buttons set

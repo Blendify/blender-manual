@@ -77,8 +77,8 @@ The process consists of the following steps.
 - Create one or more Materials for the Mesh.
 - Create one or more images for each UV Layout and aspect of the texture. Either
   - paint directly on the mesh using Texture Paint in the 3D View,
-  - load and/or edit an image in the UV Editor window, or
-  - Bake the existing materials into an image for the UV Editor window.
+  - load and/or edit an image in the UV/Image Editor, or
+  - Bake the existing materials into an image for the UV/Image Editor.
 - Apply those images as UV Textures to the mesh to affect one or more aspects of the mesh.
   This is done by using one or more of the numerous Map To options. For example,
   - map to Color to affect the diffuse coloring of the mesh,
@@ -241,7 +241,7 @@ You can also assign :doc:`multiple materials </render/blender_render/materials/m
 to the mesh based on which faces you want to be procedural and which you want to be texture-mapped.
 Just don't UV map the faces you want to be procedural.
 
-You can use UV Textures and VertexPaint (:kbd:`V` in the 3D View window) simultaneously,
+You can use UV Textures and VertexPaint (:kbd:`V` in the 3D View) simultaneously,
 if both are enabled in the Material settings.
 The vertex colors are used to modulate the brightness or color of the UV image texture:
 
@@ -298,7 +298,7 @@ there is nothing to modulate the UV Texture colors, so the finger shows as white
 Transparent areas of the UV Image show as black.
 
 The top right ball has had a pink vertex color applied to the vertical band of faces
-(in the 3D View window, select the faces in UV Paint Mode, switch to Vertex Paint Mode,
+(in the 3D View editor, select the faces in UV Paint Mode, switch to Vertex Paint Mode,
 pick a pink color, and :menuselection:`Paint --> Set Vertex Colors`).
 The finger is mapped to the middle vertical band of faces,
 and VCol and Face Textures are enabled.

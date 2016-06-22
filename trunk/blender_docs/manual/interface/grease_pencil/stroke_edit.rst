@@ -99,7 +99,7 @@ Sensitivity When Drawing
 
 The default settings for the sensitivity of mouse/stylus movement when drawing have been set
 to reduce jitter while still allowing fine movement. However, if these are not appropriate
-they can be altered in :menuselection:`User Preferences window --> Editing --> Grease Pencil`.
+they can be altered in :menuselection:`User Preferences --> Editing --> Grease Pencil`.
 
 Manhattan Distance
    The minimum number of pixels the mouse should have moved either

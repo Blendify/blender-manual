@@ -107,12 +107,12 @@ Frame Sequence Workflow
    You can add other strips, like an audio strip.
 #. Scrub through the animation, checking that you have included all the frames.
 #. In the Scene Render buttons, in the Post Processing panel, activate *Sequencer*.
-#. In the Format panel, choose the container and codec you want (e.g. MPEG H.264) and configure it.
+#. In the Format panel, choose the container and codec you want (e.g.  ``MPEG H.264``) and configure it.
    The video codecs are described on the previous page: :doc:`Output Options </render/output/output>`.
-#. Click the ANIMATION render button and Blender will render out the sequence editor output into your movie.
+#. Click the *Animation* render button and Blender will render out the sequence editor output into your movie.
 
 Why go through all this hassle? Well, first of all, if you render out single frames you can
-stop the render at any time by pressing :kbd:`Esc` in the render window.
+stop the render at any time by pressing :kbd:`Esc` in the render window or UV/image editor.
 You will not lose the frames you have already rendered,
 since they have been written out to individual files.
 You can always adjust the range you want to continue from where you left off.
@@ -143,7 +143,7 @@ Hints
 You accidentally turned off you're PC right in the middle of rendering my movie!
    Unless your animation renders in a few minutes,
    it's best to render the animation as separate image files.
-   Instead of rendering directly to a compressed movie file, use a loss-less format (PNG for example).
+   Instead of rendering directly to a compressed movie file, use a loss-less format (i.e. ``PNG``).
 
    This allows you an easy recovery if there is a problem and you have to re-start the rendering,
    since the frames you have already rendered will still be in the output directory.

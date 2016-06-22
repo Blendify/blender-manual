@@ -284,7 +284,7 @@ our general approach will be to unwrap different parts of the object (face, ears
 using different unwrap calculations,
 selecting each calculation according to whatever works best for that piece. So let us begin:
 We select only the "face" faces, unwrap them using the *Sphere* calculation, and scale and
-rotate them somewhat to fit logically within the image area of the UV/Image Editor window pan.
+rotate them somewhat to fit logically within the image area of the UV/Image Editor pan.
 
 
 .. figure:: /images/UV-Unwrap-Ear.jpg

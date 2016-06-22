@@ -24,7 +24,8 @@ together with the appropriate options for game setup/debug/running
    Game Logic Menu.
 
 
-**1) Game Logic**
+.. rubric:: 1) Game Logic
+
 Selected from the list of screen layouts for various applications.
 This includes many already-familiar panels Information, 3D view,
 Properties but also a new Logic Editor panel concerned solely with the BGE.
@@ -35,7 +36,8 @@ Properties but also a new Logic Editor panel concerned solely with the BGE.
    Render Engine Menu.
 
 
-**2) Blender Game**
+.. rubric:: 2) Blender Game
+
 Selected from the render engine menu.
 This specifies that all output will be output by the real-time Blender Game Engine renderer.
 It also opens various other menu options such as the Game options (see below)
@@ -47,12 +49,13 @@ and a range of Properties for the BGE renderer properties (see below)
    Game Options.
 
 
-**3) Game**
+.. rubric:: 3) Game
+
 This menu gives various options for conditions for running the Game Engine.
 Note that this menu is only available when the render engine is set to Blender Game.
 
 Start Game
-   Run game in Game Engine (shortcut p or :kbd:`Shift-P` when the mouse cursor is over the 3D View window).
+   Run game in Game Engine (:kbd:`p` or :kbd:`Shift-P` when the mouse cursor is over the 3D View editor).
 Show Debug Properties
    Show properties marked for debugging while game runs
 Show framerate and profile
@@ -67,7 +70,8 @@ Auto Start
    Automatically start game at load time
 
 
-**4) Logic Editor panel**
+.. rubric::  4) Logic Editor panel
+
 The :doc:`Logic Editor </editors/logic_editor>` is where the
 :doc:`logic, properties and states </game_engine/logic/index>` are set up to control the behaviour of
 the objects in the game.
@@ -75,7 +79,7 @@ the objects in the game.
 by pressing :kbd:`Shift-F2`, or by pressing :kbd:`Ctrl-Right`).
 
 
-**5) Properties**
+.. rubric::  5) Properties
 
 .. tip:: Two Meanings for the Same Word
 

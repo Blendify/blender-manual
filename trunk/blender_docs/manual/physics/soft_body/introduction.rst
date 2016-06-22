@@ -69,7 +69,7 @@ Soft Body simulation works for all objects that have vertices or control points:
 
 To activate the Soft Body simulation for an object:
 
-- In the *Properties* window, go to the *Physics* tab
+- In the Properties editor, go to the *Physics* tab
   (it is all the way on the right, and looks like a bouncing ball).
 - Activate the *Soft Body* button.
 
@@ -167,17 +167,16 @@ and then copy the blendcache to the renderfarm as well.
 Interaction in real time
 ========================
 
-To work with a Soft Body simulation you will find it handy to use the *Timeline*
-window.
-You can change between frames and the simulation will always be shown in the actual state. The
-option *Continue Physics* in the *Playback* menu of the
-*Timeline* window lets you interact in real time with the simulation, e.g.
-by moving collision objects or shake a Soft Body object. And this is real fun!
+To work with a Soft Body simulation you will find it handy to use the Timeline editor.
+You can change between frames and the simulation will always be shown in the actual state. 
+The option *Continue Physics* in the *Playback* menu 
+of the *Timeline* editor lets you interact in real time with the simulation,
+e.g. by moving collision objects or shake a Soft Body object.
 
 
 .. tip:: *Continue Physics* does not work while playing the animation with :kbd:`Alt-A`
 
-   Right. This works only if you start the animation with the *Play* button of the *Timeline* window.
+   Right. This works only if you start the animation with the *Play* button of the Timeline editor.
 
 
 You can than select the Soft Body object while running the simulation and *Apply*
