@@ -309,8 +309,8 @@ so let's detail it:
   They all must have a name following the schema:
   *common prefix* followed by the *char name* (e.g. "ft.a", "ft.b", etc.).
 - Then, for the *Text* object, you must enable the *Dupli Verts* button
-  (*Object Mode* - *Animation Settings* panel).
-- Back in *Edit Mode*, in the *Font* panel,
+  (:menuselection:`Object  -->  Animation Settings` panel).
+- Back in the *Font* tap,
   fill the *Ob Family* field with the *common prefix* of your "font" objects.
 
 Now, each time a char in your text matches the *suffix part* of a "font" object's name,

@@ -7,7 +7,7 @@ Layers
    :class: refbox
 
    | Mode:     Object Mode
-   | Panel:    Relations
+   | Panel:    :menuselection:`Object --> Relations`
    | Menu:     :menuselection:`Object --> Move to Layer...`
    | Hotkey:   :kbd:`M`
 
@@ -113,7 +113,7 @@ hold :kbd:`Shift` while clicking.
 
 .. figure:: /images/editors_3dview_Navigating-Layers-object-tab.jpg
 
-   Selection in Object tab.
+   Selection in the Object tab.
 
 
 Another way to view or change a selected object layer is via the *Relations* panel,

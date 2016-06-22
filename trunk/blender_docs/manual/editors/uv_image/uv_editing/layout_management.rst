@@ -37,8 +37,8 @@ Multiple UV Maps
 You are not limited to one UV Map per mesh.
 You can have multiple UV maps for parts of the mesh by creating new UV Textures.
 The first UV Texture is created for you when you select a face in UV Face Select mode. You can
-manually create more UV Textures by clicking the *New* button next to "UV Texture"
-on the Mesh panel in the Properties Editor, *Edit Mode*)
+manually create more UV Textures by clicking the *New* button next to "UV map" list
+in *Object Data* tab in the Properties Editor)
 and unwrapping a different part of the mesh. Those faces will then go with that UV Texture,
 while the previously unwrapped faces will still go with the previous UV Texture.
 Note that if you unwrap the same face twice or more times
