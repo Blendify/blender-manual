@@ -3,21 +3,20 @@
 Boolean Modifier
 ****************
 
-
 The Boolean modifier performs operations on meshes that are otherwise too complex
-to achieve with as few steps by editing meshes manually, meaning you can achieve results
-with little effort to make mesh operations like Unions, Differences and Intersections.
+to achieve with as few steps by editing meshes manually. The Boolean modifier
+uses one of three Boolean operations that can be used to create a single mesh out of two mesh objects:
 
-The Boolean modifier uses one of three Boolean operations (*Difference*
-(negation), *Union* (conjunction), and *Intersect* (disjunction))
-to create a single compound object out of two mesh objects.
+:Difference: Negation
+:Union: Conjunction
+:Intersect: Disjunction
+
 
 .. TODO: Update image with 'Show all Edges' enabled
 .. figure:: /images/Modifier_Generate_Boolean_Union_Intersect_Difference_Examples.jpg
 
    The Union, Intersection and Difference between a Cube and a UV Sphere,
    with the modifier applied to the Sphere and using the cube as target.
-
 
 .. note::
 
@@ -28,7 +27,6 @@ to create a single compound object out of two mesh objects.
    - Whether faces are marked for smooth or flat for shading doesn't affect the calculations of this modifier.
    - The line at which this modifier is calculated is delimited by the first tangential contact
      between faces of the modified mesh and target.
-
 
 .. tip:: This is a dynamic real-time modifier!
 
@@ -41,23 +39,10 @@ to create a single compound object out of two mesh objects.
 Usage
 =====
 
-Using the default Blender install, with the desired mesh Object selected,
-go to the *Properties Editor* which is located at the right of your Blender Screen,
-below the Outliner. Click on the Modifiers tab, which is represented by a wrench -
-The Boolean modifier. Then, click on the *Add Modifier*
-Button and Blender will show you a list of all of the available Modifiers.
-The Boolean modifier is located on the third row in the *Generate* Column.
-
-You can also click on the *Add Modifier* Button and use :kbd:`B` to add the
-Boolean modifier, or use Blender search with the shortcut :kbd:`Spacebar` and type "Add Modifier",
-click on *Add Modifier* and press :kbd:`B`.
-
+To use the *Boolean Modifier* select the desired mesh Object then add a *Boolean modifier*.
 When you add the Boolean modifier for an object, Blender will need a second object to 
-be the target of the operation.
-
-You can use open or closed meshes, as long as they have available face normals for the 
-calculations to take effect.
-
+be the target of the operation. You can use open or closed meshes,
+as long as they have available face normals for the calculations to take effect.
 You can add one or more modifiers of this type for an Object but you can only apply one 
 operation for the Boolean modifier at a time.
 
@@ -137,6 +122,7 @@ and the Cube being the modified mesh.
 
           Intersect: The resulting Mesh was copied and rotated 180.
 
+
 The only exception is the difference operation when the normals of the target and modified
 mesh are inverted. In this case, Blender will project the textures in an
 inverted direction over the target using the center contact of the meshes as a pivot and the
@@ -169,6 +155,7 @@ Blender will also use the same image mapped to the target faces in the modified 
    Depending on the way you have assigned textures to the faces during the UV unwrap,
    and the complexity of your meshes, the boolean operation may generate imperfect UVs for the new faces.
 
+
 Below we have four Images, a UV sphere mapped with a test grid tinted blue and the other face tinted in purple,
 one face of the cube tinted in a light orange and the other faces using the normal test grid.
 The first image shows the operation at the start (difference), and on to the right of that shows the resulting mesh.
@@ -198,7 +185,7 @@ Other Modifiers
 
 The Boolean modifier calculation is performed using the target modified mesh
 topology and dimensions. Other modifiers added to the modified mesh are bypassed.
-It means that if a target is using another modifier, like subsurf,
+This means that if a target is using another modifier, like subsurf,
 the resulting topology for the modified mesh will take into account the subsurf of the target;
 but for the modified mesh, the basic topology is used anyway (see examples).
 
@@ -209,10 +196,8 @@ If you want to have a subsurf added to the modified mesh, you have to apply the 
 Boolean modified mesh before applying the Boolean operation.
 
 The Boolean modifier can be added together with other modifiers in the modified mesh,
-but depending on the modifier,
-the calculations can't be done and/or the modifier cannot execute.
-When the modifier cannot execute,
-it will show the message ``"Cannot execute boolean operation"``,
+but depending on the modifier, the calculations can't be done and/or the modifier cannot execute.
+When the modifier cannot execute, it will show the message ``"Cannot execute boolean operation"``,
 and when the modifier cannot be applied to the mesh,
 Blender will show the message ``"Modifier is disabled, Skipping Apply."``.
 In this case, you either have to remove some modifiers or apply the necessary ones.
@@ -220,6 +205,7 @@ In this case, you either have to remove some modifiers or apply the necessary on
 .. figure:: /images/modifiers_boolean_error.jpg
 
    Boolean Modifier with error message.
+
 
 The most common case is when you add or copy a Boolean modifier to use the
 modified mesh in conjunction with another target later; Blender will place the warning in the
@@ -235,8 +221,7 @@ results may not be as expected"``. The best usage scenario for this modifier is 
 prepare your modified mesh and target to work with the Boolean modifier.
 
 When the Boolean modifier is the first of the stack and is applied, the other Modifiers will
-act over the resulting meshes using the resulting topology and will remain in the modifiers
-stack.
+act over the resulting meshes using the resulting topology and will remain in the modifiers stack.
 
 Below are two images: one with the subsurf added to the target, and another with the resulting topology.
 
@@ -250,9 +235,9 @@ Below are two images: one with the subsurf added to the target, and another with
 
           The Resulting Topology.
 
+
 As you can see, the added (not applied) subsurf to the target was taken into consideration.
 The topology of the Icosphere with subsurf (Level 2) was completely transferred to the modified mesh.
-
 
 .. tip:: The target topology determines the resulting topology
 
@@ -316,6 +301,7 @@ In the images below, all face normals are pointing outwards (Normal meshes).
 
           Normal Boolean modifier operation (Difference operation).
 
+
 In the images below, all  face normals are inverted and using the intersection operation 
 
 .. list-table::
@@ -327,6 +313,7 @@ In the images below, all  face normals are inverted and using the intersection o
      - .. figure:: /images/Modifier_Generate_Boolean_Intersection_Normals_Pointing_Inwards.jpg
 
           Normal Boolean modifier operation.
+
 
 Now, let's see what happens when the normal directions are mixed for one of the
 participants in the Boolean modifier operation. The images below show face normals mixed,
@@ -343,11 +330,11 @@ you can see that the modifier has bad effects when applied, leaving faces opened
 
           Resulting operation leaves  faces opened.
 
+
 As you can see, the normal directions can be pointing to any of the Mesh sides,
 but can't be mixed in opposite directions for the faces of the participants.
 The Library can't determine properly what's positive and negative for the operation, so the
-results will be bad or you will have no effect when using the Boolean modifier
-operation.
+results will be bad or you will have no effect when using the Boolean modifier operation.
 
 A quick way to fix this is to use Blender's
 :doc:`Recalculate Normals </modeling/meshes/editing/normals>` operation in Edit Mode.
@@ -389,12 +376,10 @@ but Blender connected a copy of the icosphere to the Cube mesh, trying to apply 
 Open Volumes
 ============
 
-The Boolean Modifier permits you to use open meshes or non-closed volumes
-(not open faces).
+The Boolean Modifier permits you to use open meshes or non-closed volumes (not open faces).
 
 When using open meshes or non-closed volumes, the Boolean modifier won't perform
-any operation in faces that don't create a new topology filled with faces using the faces of
-the target.
+any operation in faces that don't create a new topology filled with faces using the faces of the target.
 
 In the images below, is the resulting operation when using two non-closed volumes with faces forming a new topology.
 
@@ -407,6 +392,7 @@ In the images below, is the resulting operation when using two non-closed volume
      - .. figure:: /images/Modifier_Generate_Boolean_Resulting_Complete_Face_Shape.jpg
 
           Resulting operation using two open volumes.
+
 
 Now, let's see what happens when we use meshes that are partially open,
 incomplete, or meshes that aren't forming a new topology.
