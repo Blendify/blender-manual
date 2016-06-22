@@ -33,7 +33,7 @@ See :doc:`F-Curves </editors/graph_editor/fcurves>` for more info.
 Navigation
 ----------
 
-As with most windows, you can:
+As with most editors, you can:
 
 Pan
    Pan the view vertically (values) or horizontally (time) with click and drag (:kbd:`MMB`).

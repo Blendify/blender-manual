@@ -73,18 +73,18 @@ Render a Still Image
    Click on the small button showing a *camera* in the header of the 3D View.
 
    Or from the menu: :menuselection:`Render --> OpenGL Render Image`
-   from the header of the *Info Window*
+   from the header of the *Info Editor*
 Render an Animation
    Click on the small button showing a *slate* in the header of the 3D View.
 
    Or from the menu: :menuselection:`Render --> OpenGL Render Animation`
-   from the header of the *Info Window*
+   from the header of the *Info Editor*
 Render from the Sequencer
    Click on the small button showing a *slate* in the header of *Sequencer* preview window.
 
    Using scene strips in the sequencer you can edit together scenes to quickly render an entire sequence of shots.
 
-   This can be activated using the render icons in the sequencer's playback window header.
+   This can be activated using the render icons in the sequencer's playback header.
 
 
 Known Limitations

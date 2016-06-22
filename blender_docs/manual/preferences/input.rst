@@ -17,7 +17,7 @@ Presets
 Blender lets you define multiple *Preset* input configurations.
 Instead of deleting the default keymap to create yours,
 you can just add new *Presets* for both the mouse and keyboard. Mouse options can be
-found on the left-hand side of the window and keyboard options to the right in the above
+found on the left-hand side of the editor and keyboard options to the right in the above
 picture.
 
 
@@ -41,7 +41,7 @@ You can change the preset you are using by doing one of the following:
 
 - Selecting the configuration from the *Interaction* menu of the splash screen at startup or by selecting
   :menuselection:`Help --> Splash Screen`.
-- Selecting the configuration from the *User Preferences Input* window.
+- Selecting the configuration from the *User Preferences* Input tab.
 
 
 .. note::
@@ -63,7 +63,7 @@ you can make this the default configuration by:
 
 - Opening the *User Preferences Input* editor and select your presets from the preset list or,
 - Selecting your preset configuration from the splash screen.
-- Saving your configuration using the *Save As Default* option from a *User Preferences* window or by pressing
+- Saving your configuration using the *Save As Default* option from a *User Preferences* editor or by pressing
   :kbd:`Ctrl-U`.
 
 
@@ -210,7 +210,7 @@ Keymap Editor
    :width: 320px
 
 
-The Keymap editor lets you change the default Hotkeys. You can change keymaps for each window.
+The Keymap editor lets you change the default Hotkeys. You can change keymaps for each of Blenders editors.
 
 - Select the keymap you want to change and click on the white arrows to open up the keymap tree.
 - Select which Input will control the function

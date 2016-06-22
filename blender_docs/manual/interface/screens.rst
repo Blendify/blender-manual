@@ -24,7 +24,7 @@ you can use the search function at the bottom of the list (pictured right).
 :3D View Full: A full screen 3D view, used to preview your scene.
 :Animation: Making actors and other objects move about, change shape or color, etc.
 :Compositing: Combining different parts of a scene
-   (e.g. background, actors, special effects) and filter them (e.g. color correction).
+  (e.g. background, actors, special effects) and filter them (e.g. color correction).
 :Default: The default layout used by Blender for new files. Useful for modeling new objects.
 :Game Logic: Planning and programming of games within Blender.
 :Motion Tracking: Used for motion tracking with the movie clip editor.
@@ -32,7 +32,7 @@ you can use the search function at the bottom of the list (pictured right).
 :UV Editing: Flattening a projection of an object mesh in 2D to control how a texture maps to the surface.
 :Video Editing: Cutting and editing of animation sequences.
 
-Screens can be selected in the *Info Window* header that is at the top of the
+Screens can be selected in the *Info Editor* header that is at the top of the
 layout for preset screens. This is often confused for a menu bar by those new to Blender;
 however it is simply a window showing only its *header*.
 
@@ -67,7 +67,7 @@ Deleting a Screen
 -----------------
 
 You can delete a screen by using the *Delete Data-Block* button (``X``).
-See *Screen and Scene selectors* above.
+See Fig. Screen and Scene selectors above.
 
 
 Rearranging a Screen
@@ -79,7 +79,7 @@ When you have a layout that you like, press :kbd:`Ctrl-U` to update your User de
 Be aware that all of the current scenes become part of those defaults,
 so consider customizing your layouts with only a single, simple scene.
 
-The properties window has a special option: pressing :kbd:`RMB` on its background will
+The Properties editor has a special option: pressing :kbd:`RMB` on its background will
 allow you to arrange its panels horizontally or vertically. Of the two,
 vertically-arranged panels have greater support.
 
@@ -100,19 +100,19 @@ As you become more experienced with Blender, consider adding some other screen l
 your workflow as this will help increase your productivity. Some examples could include:
 
 Modeling
-   Four 3D Views (top, front, side and perspective), Properties window for Editing
+   Four 3D Views (top, front, side and perspective), Properties editor for Editing
 Lighting
-   3D Views for moving lights, UV/Image Window for displaying Render Result,
-   Properties window for rendering and lamp properties and controls
+   3D Views for moving lights, UV/Image editor for displaying Render Result,
+   Properties editor for rendering and lamp properties and controls
 Materials
-   Properties window for Material settings, 3D View for selecting objects, Outliner,
+   Properties editor for Material settings, 3D View for selecting objects, Outliner,
    Library script (if used), Node Editor
    (if using :doc:`Node based materials </render/blender_render/materials/nodes/index>`)
 Painting
    UV/Image Editor for texture painting image,
    3D View for painting directly on object in UV Face Select mode,
    three mini-3D Views down the side that have background
-   reference pictures set to full strength, Properties window
+   reference pictures set to full strength, Properties editor
 
 
 .. hint:: Reuse your Layouts

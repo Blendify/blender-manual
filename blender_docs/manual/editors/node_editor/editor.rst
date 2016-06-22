@@ -41,7 +41,7 @@ Grab/Move
 Node Editor Header
 ==================
 
-On the window header, you will see header options:
+On the editors header, you will see header options:
 
 .. figure:: /images/editors_node_header.png
 

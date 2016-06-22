@@ -8,7 +8,7 @@ Tooltips
 
 .. figure:: /images/ui_tooltip_example.png
 
-   The Mouse pointer was Stopped for a while over the Render Engines List in the Info Window.
+   The Mouse pointer was Stopped for a while over the Render Engines List in the Info Editor.
 
 When hovering your cursor over a button or setting,
 it will show you the *Tooltip*, and related details depending on the button type,
@@ -115,29 +115,29 @@ Python
 Directories
    Paths used for scripts, data-files, presets and temporary files.
 
-   Those directories are configured using the :doc:`User Preferences </preferences/file>` Editor Window.
+   Those directories are configured using the :doc:`User Preferences </preferences/file>` Editor.
 OpenGL
    This section shows the OpenGL version, the name of the manufacturer,
    and lists the capabilities of your hardware & driver.
 
 
-Info Window Log
+Info Editor Log
 ---------------
 
 This is not exactly a Help menu, but it is related.
-If you mouse-over the line between the Info Editor and the 3D then click and drag the Info window down a bit,
+If you mouse-over the line between the Info Editor and the 3D then click and drag the Info Editor down a bit,
 you can see the stream of Python calls that the UI is making when you work.
 This can be useful for creating scripts.
 
 .. figure:: /images/getting_started_help_python.png
 
-   The Info Window Log after adding a Cube.
+   The Info Editor Log after adding a Cube.
 
 
 Splash Screen
 -------------
 
-Access this by clicking on the Blender icon in the Info Window's header.
+Access this by clicking on the Blender icon in the Info Editor's header.
 
 This displays the image where you can identify package and version.
 At the top-right corner, you can see the Date that Blender was compiled and the Git Hash.

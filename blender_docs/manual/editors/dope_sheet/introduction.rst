@@ -59,7 +59,7 @@ one, it is divided in three areas:
 .. figure:: /images/actionEditor.jpg
    :width: 600px
 
-   The Action Editor window, Action Editor mode, with an Object and Shape channels.
+   The Action Editor, Action Editor mode, with an Object and Shape channels.
 
 
 The header bar
@@ -69,11 +69,11 @@ The header bar
 
 The main area
    It contains the keyframes for all visible action channels.
-   As with the other "time" windows, the X-axis materializes the time.
+   As with the other "time" editor, the X-axis represents time.
    The Y-axis has no mean in itself, unlike with the *Graph Editor*, it is just a sort of "stack" of action channels -
    each one being shown as an horizontal colored strip (of a darker shade "during" the animated/keyed period).
-   On these channel strips lay the keyframes, materialized as light-gray (unselected) or yellow (selected) diamonds.
-   One of the key feature of this window is that it allow you to visualize immediately which channel (i.e. F-Curve)
+   On these channel strips lay the keyframes, visualized as light-gray (unselected) or yellow (selected) diamonds.
+   One of the key feature of this editor is that it allow you to visualize immediately which channel (i.e. F-Curve)
    is *really* affected. When the value of a given channel does not change at all between two neighboring keyframes,
    a gray (unselected) or yellow (selected) line is drawn between them.
 
@@ -122,7 +122,7 @@ Show Frame Number Indicator
    Show frame number beside the current frame indicator line
 Show Sliders
    A toggle option that shows the value sliders for the channels.
-   See the *The* *Action Editor* *window,* *Action Editor* *mode, with a group and sliders* picture above).
+   See the Fig. The Action Editor, Action Editor mode, with a group and sliders picture above).
 Use Group Colors
    Draw groups and channels with colors matching their corresponding groups.
 AutoMerge Keyframes
@@ -136,7 +136,7 @@ Set Preview Range :kbd:`P`
    Interactively define frame range used for playback.
    Allow you to define a temporary preview range to use for the :kbd:`Alt-A` realtime playback
    (this is the same thing as the *Playback Range* option of the
-   :ref:`timeline window header <animation-editors-timeline-headercontrols>`).
+   :ref:`Tmeline editor header <animation-editors-timeline-headercontrols>`).
 Clear Preview Range :kbd:`Alt-P`
    Clears the preview range
 Auto-Set Preview Range

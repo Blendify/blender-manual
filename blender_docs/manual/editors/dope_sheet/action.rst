@@ -11,19 +11,19 @@ the animation will work. For example, an action modifying *X location* and *Y lo
 properties can be shared across multiple objects,
 since both objects have *X location* and *Y location* properties beneath them.
 
-The *Action Editor* window enables you to see and edit the FCurve data-blocks you defined as actions in the
-*FCurve Editor* window. So it takes place somewhere in-between the low-level
+The *Action Editor* enables you to see and edit the FCurve data-blocks you defined as actions in the
+*FCurve Editor*. So it takes place somewhere in-between the low-level
 :doc:`FCurves </editors/graph_editor/introduction>`, and the high-level :doc:`NLA editor </editors/nla>`.
 Hence, you do not have to use them for simple F-Curve animations - and they have not much interest in themselves,
-so you will mostly use this window when you do :doc:`NLA animation </editors/nla>`
+so you will mostly use this editor when you do :doc:`NLA animation </editors/nla>`
 (they do have a few specific usages on their own,
 though, like e.g. with the :doc:`Action constraint </rigging/constraints/relationship/action>`,
 or the :doc:`pose libraries </rigging/posing/pose_library>`).
 
-This is not a mandatory window, as you do can edit the actions used by the NLA directly in the
-*Graph Editor* window (or even the *NLA Editor* one).
+This is not a mandatory editor, as you do can edit the actions used by the NLA directly in the
+*Graph Editor* (or even the *NLA Editor* one).
 However, it gives you a slightly simplified view of your FCurve data-blocks
-(somewhat similar to the "key" mode of the FCurve window,
+(somewhat similar to the "key" mode of the FCurve,
 even though more powerful in some ways) - and, more interesting,
 it can show you all "action" F-Curve data-blocks of a same object at once.
 
@@ -53,10 +53,10 @@ But as you have to assign an action to an object to be able to edit it
 (and an object can only have one action data-block at a time), to have "fake users" guaranties
 you that you will not lose your precious previously-edited actions when you start working on a new one!
 
-This window shows, by default, the action data-block linked to the current active object.
+This editor shows, by default, the action data-block linked to the current active object.
 However, as with FCurvs, you can pin an *Action Editor* to a given action with the
 small "pin" button to the left of the data-block controls, in the header.
-This will force the window to always display this data-block,
+This will force the editor to always display this data-block,
 whatever the current selected object is.
 
 

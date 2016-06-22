@@ -83,7 +83,7 @@ Editing Text
 Editing text is quite different from other object types in Blender, and happens mainly in two areas.
 First, the 3D view, of course, where you type your text, and have a few shortcuts, e.g. for applying
 styles (see `Character`_) - note however that most Blender hotkeys you know in *Edit Mode*
-do not exist for texts! The second place is the *Button* window
+do not exist for texts! The second place is the Properties Editor
 (*Editing* context), especially the *Font* panel.
 
 The menu of the 3D View header has nearly no use,
@@ -121,7 +121,7 @@ You can insert text in two ways: from the internal text buffer
 (`Editing Text`_), or from a text file.
 
 To load text from a text file, use the :menuselection:`Text --> Paste File` tool.
-This will bring up a *File Browser* window for navigating to a valid UTF-8 file.
+This will bring up a *File Browser* editor for navigating to a valid UTF-8 file.
 As usual, be careful that the file doesn't have too many characters,
 as interactive response will slow down.
 
@@ -252,7 +252,7 @@ Select one for each font style.
 
 To load a different *Font*, click one of the *Load* buttons in the
 *Font* panel and navigate to a *valid* font.
-The *File Browser* window will give all valid fonts a capital F icon,
+The *File Browser* editor will give all valid fonts a capital F icon,
 as seen in *Loading a Type 1 font file.*
 
 

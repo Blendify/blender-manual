@@ -33,7 +33,7 @@ to create a single compound object out of two mesh objects.
 .. tip:: This is a dynamic real-time modifier!
 
    If you have marked your Objects to show the Edges
-   (in Properties Window, Object context, Display panel, enable *Wire*),
+   (in Properties Editor, Object context, Display panel, enable *Wire*),
    you will see the Edge creation process while you're moving your Objects. Depending on your mesh topology,
    you can also enable X-Ray and Transparency and see the topology being created in real time.
 
@@ -42,7 +42,7 @@ Usage
 =====
 
 Using the default Blender install, with the desired mesh Object selected,
-go to the *Properties Window* which is located at the right of your Blender Screen,
+go to the *Properties Editor* which is located at the right of your Blender Screen,
 below the Outliner. Click on the Modifiers Context, which is represented by a wrench -
 The Boolean modifier. Then, click on the *Add Modifier*
 Button and Blender will show you a list of all of the available Modifiers.
@@ -172,7 +172,7 @@ Blender will also use the same image mapped to the target faces in the modified 
 Below we have four Images, a UV sphere mapped with a test grid tinted blue and the other face tinted in purple,
 one face of the cube tinted in a light orange and the other faces using the normal test grid.
 The first image shows the operation at the start (difference), and on to the right of that shows the resulting mesh.
-And in the bottom row we show the unwrap in the Blender UV/Image Editor Window.
+And in the bottom row we show the unwrap in the Blender UV/Image Editor.
 
 .. list-table::
 

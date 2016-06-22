@@ -31,11 +31,11 @@ Navigation Mesh Object:
 
    You can create your own mesh to use for navigation and make it a Navigation Mesh in:
 
-   * Properties Window → Physics context → Physics panel → choosing Physics Type: Navigation Mesh
+   :menuselection:`Properties editor --> Physics context --> Physics panel --> choosing Physics Type: Navigation Mesh`
 
    Or you can let Blender create a Navigation Mesh, then select a mesh.  (Floor or ground or etc.)
 
-   * Properties Window → Scene context → Navigation mesh object panel → Build navigation mesh
+   :menuselection:`Properties editor --> Scene context --> Navigation mesh object panel --> Build navigation mesh`
 
 
 Dist
@@ -50,7 +50,7 @@ Facing:
     Set a game object axis that always faces the Target Object.
 Axis
     The game object axis that always faces the Target Object.
-    Options are: Positive (X, Y, Z) and Negative (- X, - Y, -Z).
+    Options are: Positive (X, Y, Z) and Negative (-X, -Y, -Z).
 Axis N
     Use the Normal of the Navigation Mesh to align the up vector of the game object.
 

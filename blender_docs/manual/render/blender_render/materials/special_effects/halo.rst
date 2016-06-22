@@ -36,7 +36,7 @@ Instead just the vertex is rendered, since that is where each halo will originat
 Halos can be hard to find in a crowded scene, so name it well for easy location in
 :doc:`the outliner </editors/outliner>`.
 
-In the properties window, where we normally find the *Diffuse*,
+In the Properties editors, where we normally find the *Diffuse*,
 *Specular*, and *Shading* panels,
 we now see panels relative to the *Halo* characteristics:
 

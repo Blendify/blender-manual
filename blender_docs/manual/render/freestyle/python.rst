@@ -19,7 +19,7 @@ the chains are transformed into stylized strokes by the stroke creation operator
 which takes a list of user-defined stroke shaders.
 
 Python style modules are stored within blend-files as text data-blocks.
-External style module files first need to be loaded in the Text Editor window. Then the
+External style module files first need to be loaded in the Text Editor. Then the
 pull-down menu within an entry of the style module stack allows you to select a module from
 the list of loaded style modules.
 
@@ -27,7 +27,7 @@ the list of loaded style modules.
 .. figure:: /images/Freestyle_python_scripting_mode.jpg
    :width: 600px
 
-   A screen capture of a style module (cartoon.py) loaded in the Text Editor window (left),
+   A screen capture of a style module (cartoon.py) loaded in the Text Editor (left),
    as well as Freestyle options in the Python Scripting mode in the Render Layers buttons (right)
 
 

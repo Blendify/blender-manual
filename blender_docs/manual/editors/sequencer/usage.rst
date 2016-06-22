@@ -43,10 +43,10 @@ Transform Markers
 Scrubbing
 ---------
 
-To move back and forth through your movie, use the Timeline window.
-:kbd:`LMB` click and drag left/right in the timeline window,
+To move back and forth through your movie, use the Timeline editor.
+:kbd:`LMB` click and drag left/right in the Timeline editor,
 moving the vertical bar which indicates the current frame. As you do,
-the image for that frame is displayed in the VSE window.
+the image for that frame is displayed in the VSE editor.
 
 When you :kbd:`LMB` directly on a sequence strip, this will show the strip *solo*,
 (temporarily disregarding effects and other strips, showing only this strips output).

@@ -41,11 +41,11 @@ tightly or add more complexity? Here is where nodes come in.
 
 
 Making this node map is accomplished by working in a
-:doc:`Node Editor window </editors/node_editor/editor>`.
+:doc:`Node Editor </editors/node_editor/editor>`.
 This section covers:
 
 - Enabling Material Nodes.
-- The Node Editor window, its basic controls, and working with nodes.
+- The Node Editor, its basic controls, and working with nodes.
 - The specific types of nodes available for materials.
 
 Accessing The Node Editor

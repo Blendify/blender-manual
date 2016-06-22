@@ -273,11 +273,11 @@ Direction
    The direction of the lamp will be the same as shown at the sphere surface.
 Diffuse
    This is the constant color of the lamp.
-   Clicking on the color widget, opens the color picker mini window and
+   Clicking on the color widget, opens the color picker pop-up and
    allows the user to change colors using the color picker.
 Specular
    This is the highlight color of the lamp
-   Clicking on the color widget, opens the color picker mini window and
+   Clicking on the color widget, opens the color picker pop-up and
    allows the user to change colors using the color picker.
 
 

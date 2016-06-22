@@ -13,7 +13,7 @@ The *Properties Editor* is used to edit data and properties for the *Active Scen
 Contexts
 ========
 
-The Properties (or Buttons) Window shows several *Contexts*,
+The Properties editor shows several *Contexts*,
 which can be chosen via the icon row in the header.
 
 

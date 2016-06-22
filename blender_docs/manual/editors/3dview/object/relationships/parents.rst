@@ -577,6 +577,6 @@ Hints
 
 
 There is another way to see the parent-child relationship in groups and that is to use the *Outliner* view
-of the :doc:`Outliner window </editors/outliner>`. Fig. Outliner view
+of the :doc:`Outliner editor </editors/outliner>`. Fig. Outliner view
 is an example of what the *Outliner* view looks like for the Fig. Parenting Example.
 Cube A's object name is "Cube_Parent" and cube B is "Cube_Child".

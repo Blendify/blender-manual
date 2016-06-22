@@ -72,7 +72,7 @@ editing of the timings of the drawings.
 This is especially useful for animators blocking out shots,
 where the ability to re-time blocking is one of the main purposes of the whole exercise.
 
-- In an *Dope Sheet* window, change the mode selector (found beside the menus) to *Grease Pencil*
+- In an *Dope Sheet* editor, change the mode selector (found beside the menus) to *Grease Pencil*
   (by default, it should be set to *DopeSheet*).
 - At this point, the *DopeSheet* should now display a few "channels" with some "keyframes" on them.
   These "channels" are the layers, and the "keyframes" are the frames at which the layer has a sketch defined.
@@ -85,8 +85,8 @@ where the ability to re-time blocking is one of the main purposes of the whole e
 
 All the available Grease-Pencil blocks for the current screen layout will be shown.
 The Area/Grease-Pencil data-blocks are drawn as green channels,
-and are named with relevant info from the views. They are also labeled with the area (i.e.
-window) index (which is currently not shown anywhere else though).
+and are named with relevant info from the views. They are also labeled with the area 
+(i.e. "window") index (which is currently not shown anywhere else though).
 
 
 Copying Sketches

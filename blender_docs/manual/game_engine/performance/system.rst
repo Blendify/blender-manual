@@ -3,7 +3,7 @@
 System
 ******
 
-The *System* tab at the Render context of the Properties Window, let the game
+The *System* tab at the Render context of the Properties editor, let the game
 developer specify options about the system performance regarding to frame discards and
 restrictions about frame renderings, the key to stop the Blender Game Engine,
 and whether to maintain geometry in the internal memory of the Graphic card.
@@ -19,7 +19,7 @@ Options
 
 Use Frame Rate
    When checked, this will inform Blender whether to run freely without frame rate restrictions or not.
-   The frame rate is specified at the *Display* tab of the *Render* Context of the Properties Window.
+   The frame rate is specified at the *Display* tab of the *Render* Context of the Properties editor.
    For more information about frame rates, see the :doc:`Display </game_engine/performance/display>` page.
 Display Lists
    When checked, this will tell Blender to maintain the lists of the meshes geometry allocated at the GPU memory.

@@ -35,7 +35,7 @@ Naming a Group
    All groups that an object has been assigned to are listed in the
    :menuselection:`Object Properties Panel --> Relations panel`.
    To rename a group, simply click in the groups name field.
-   To name groups in the *Outliner* window, select *Groups* as the outliner display from the header combo box,
+   To name groups in the *Outliner* editor, select *Groups* as the outliner display from the header combo box,
    and :kbd:`Ctrl-LMB` click on the group name.
    The name will change to an editable field; make your changes and press :kbd:`Return`.
 Restricting Group Contents via Layers

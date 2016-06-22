@@ -70,10 +70,10 @@ The typical workflow for pinning:
 - Add vertexes to be pinned to this vertex group and give these vertices non-zero weights
   (you probably want weight = 1).
   For example the belt area of the tunic would be in the vertex group and have weight one.
-- Designate the clothing objects as "cloth" in the Physics tab of the Properties window.
+- Designate the clothing objects as "cloth" in the Physics tab of the Properties editor.
   Make sure the *Cloth* modifier is below the *Armature* modifier in the modifier stack.
 - press the *Pinning of Cloth* button in the *Cloth* panel and select the vertex group.
-- Designate the character's mesh as "collision" object in the Physics tab of the Properties window.
+- Designate the character's mesh as "collision" object in the Physics tab of the Properties editor.
 - The clothing is now ready. Non-pinned vertices will be under control of the Cloth modifier.
   Pinned vertices will be under control of the Armature modifier.
 
@@ -92,7 +92,7 @@ The typical workflow for pinning:
    This is jumping ahead and not clear and not true at this point.
    --[[User:Roger|Roger]] 18:42, 27 April 2008 (UTC)
 
-   Finally, use the Timeline window Play button,
+   Finally, use the Timeline editor Play button,
    or press {{Shortcut|alt|A}} in the 3D View to run the simulation.
    Your cloth will fall and interact with Deflection objects as it would in the real world.
 

@@ -24,7 +24,7 @@ If a file with the same given name already exists,
 the text field will turn red as a warning that the file will be overwritten.
 
 
-.. figure:: /images/File-savewindow.jpg
+.. figure:: /images/file-browser_save.jpg
 
 .. tip::
 

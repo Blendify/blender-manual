@@ -83,16 +83,16 @@ you will have to delete it after the tool completion (use linked-selection,
 If there is any problem with the selection or profiles,
 the tool will warn you with the error message:
 ``"You have to select a string of connected vertices too"`` as seen in Fig. 3 and 4,
-both in the info Window and at the place where you clicked to start performing the operation
+both in the Info Editor and at the place where you clicked to start performing the operation
 (when you click the Screw Button).
 
 
-.. figure:: /images/Modeling_Mesh_Screw_Error_Message_Info_Window.jpg
+.. figure:: /images/Modeling_Mesh_Screw_Error_msg_Info_Editor.jpg
 
-   Fig. 3 - Screw Error message in the Header of the Info Window.
+   Fig. 3 - Screw Error message in the Header of the Info editor.
 
 
-.. figure:: /images/Modeling_Mesh_Screw_Error_Message_Screw_Tool.jpg
+.. figure:: /images/Modeling_Mesh_Screw_Error_msg_Screw_Tool.jpg
 
    Fig. 4 - Error message when clicking in the Screw Tool with an incorrect or bad selection.
 
@@ -123,7 +123,7 @@ Once you click in the *Screw* tool in the Mesh Tools Panel,
 Blender will enter in the *Screw* interactive mode, and the Operator Panel at the
 end of the Mesh Tools Panel will be replaced so you can adjust the values explained below.
 To show the Mesh Tools Panel,
-use the shortcut :kbd:`T` in the Edit Mode of the 3D View Window.
+use the shortcut :kbd:`T` in the Edit Mode of the 3D View editor.
 
 Once you perform any other operation,
 Blender leaves the interactive mode and accepts all of the values. Because it's modal, you
@@ -243,10 +243,10 @@ Now we will create a height vector for Blender:
 - Place again your cursor at the center. (Repeat step 2)
 - At this point, we will save this Blender file to recycle the
   Spring for another exercise; click with :kbd:`LMB` in *File*,
-  it is placed at the header of the Info Window, (At the top left side), and choose *Save as*.
+  it is placed at the header of the Info editor, (At the top left side), and choose *Save as*.
   Our suggestion is to name it *Screw Spring Example.blend* and click in *Save as Blender file*.
   You can also use the shortcut :kbd:`Shift-Ctrl-S`
-  to open the File Browser Window in order to save your Blender file.
+  to open the File Browser editor in order to save your Blender file.
 - Click Screw and adjust the Steps and Turns as you like and we have a nice spring,
   but now here comes the interesting part!
 
@@ -339,7 +339,7 @@ any of the vertices present in the middle but those two to take its angular vect
 so the spindles of the screw (which are defined by the turns value)
 will assembly perfectly with each other.
 
-- Open Blender and click in *File* located at the header of the Info Window again,
+- Open Blender and click in *File* located at the header of the Info editor again,
   choose *Open Recent* and the file we saved for this exercise.
   All of the things will be placed exactly the way you saved before.
   Choose the last saved Blender file; in the last exercise,
@@ -356,10 +356,10 @@ will assembly perfectly with each other.
   See Fig. 14 - Profile for a perfect screw spindle.
 - At this point, we will save this Blender file to recycle the generated Screw for another exercise;
   click with :kbd:`LMB` in *File* --
-  it is in the header of the Info Window (at the top left side), and choose *Save as*.
+  it is in the header of the Info editor (at the top left side), and choose *Save as*.
   Our suggestion is to name it *Screw Hardware Example.blend* and click in *Save as Blender file*.
   You can also use the shortcut :kbd:`Shift-Ctrl-S` to open the
-  File Browser Window in order to save your Blender file.
+  File Browser editor in order to save your Blender file.
 - Press shortcut :kbd:`A` twice to de-select and select all vertices again.
 - Now press Screw.
 - Change Steps and Turns as you like. Fig. 15 - Generated Mesh - Shows you an example of the results.
@@ -419,7 +419,7 @@ In this example, you will learn how to create a simple Screw Tip
 (like the ones we use for wood; we have shown an example at the beginning of this page).
 To make this new example as short as possible, we will recycle our last example (again).
 
-- Open Blender and click in *File* located in the header of the Info Window again;
+- Open Blender and click in *File* located in the header of the Info editor again;
   choose *Open Recent* and the file we saved for this exercise.
   All of the things will be placed exactly the way you saved before.
   Choose the last saved Blender file; in the last exercise, we gave it the name *Screw Hardware Example.blend*.

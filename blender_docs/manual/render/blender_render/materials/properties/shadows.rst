@@ -20,7 +20,7 @@ See :doc:`Shadows </render/blender_render/lighting/shadows/index>` for a more co
    Fig. 1: Shadow Panel.
 
 
-The Shadow panel in the Materials Properties window (Fig. 1)
+The Shadow panel in the Materials Properties editor (see Fig. 1)
 controls the effects that the material can have on the shadows that appear in the scene.
 The various properties are described in the sections below.
 

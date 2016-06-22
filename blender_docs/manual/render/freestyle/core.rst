@@ -9,7 +9,7 @@ Core Options
    Freestyle core options.
 
 
-Activating Freestyle in the *Render* context of the *Buttons* window will
+Activating Freestyle in the *Render* context of the Properties Editor will
 give you the following options:
 
 Line Thickness

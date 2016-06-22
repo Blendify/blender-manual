@@ -97,7 +97,7 @@ Types of Particle systems
 
 
 After you have created a particle system,
-the *Property* window fills with many panels and buttons.
+the Properties editor fills with many panels and buttons.
 But don't panic! There are two different types of particle systems,
 and you can change between these two with the *Type* drop-down list:
 

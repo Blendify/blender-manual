@@ -19,11 +19,11 @@ Screenshots
    Save Screenshot Option.
 
 
-:kbd:`Ctrl-F3` will take a screenshot of your Blender window and then open the Blender *File Browser* window,
+:kbd:`Ctrl-F3` will take a screenshot of your Blender window and then open Blenders *File Browser*,
 allowing you to specify the name and location of the screenshot.
-In the example image at the right, the PNG format will be the output of the screenshot taken
+In the example image at the right, the ``PNG`` format will be the output of the screenshot taken
 (settings are the same as the ones available to save render results).
-When the Blender *File Browser* window opens for you, at the left, there is a tab
+When the *File Browser* editor opens, on the left, there is a tab
 called *Save Screenshot* where you can find format settings and a checkbox with the option
 *Full Screen*.
 
@@ -55,12 +55,12 @@ This is a quick way to make screen-casts from within Blender.
 
 Screencasts will record your actions over time either as a video or sequence of image files.
 The type and location of the output is determined by the settings in the
-:doc:`Output panel </render/output/output>` of the :ref:`Render context <properties-context-render>` window.
-The default settings will generate a screencast consisting of a series of PNG images captured
-every 50 ms and stored in the */tmp* folder. If you want to record a video, set the
+:doc:`Output panel </render/output/output>` of the Properties :ref:`Render tab <properties-context-render>`.
+The default settings will generate a screencast consisting of a series of ``PNG`` images captured
+every 50 ms and stored in the ``/tmp`` folder. If you want to record a video, set the
 *Output* to one of the *Movie File Formats* supported by your system
 listed in the *Output panel* format menu.
-If you are unsure what video codecs your system supports, select *AVI JPEG*.
+If you are unsure what video codecs your system supports, select ``AVI JPEG``.
 
 .. note::
 

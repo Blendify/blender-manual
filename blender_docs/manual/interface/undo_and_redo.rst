@@ -31,19 +31,19 @@ Redo Last
 
 *Redo Last* is short for *Redo(ing your) Last (Action)*.
 Hitting :kbd:`F6` after an action will present you a context-sensitive
-Pop-Up Window based on your last action taken and the *Mode* and *Window* in which Blender is being used.
+Pop-Up menu based on your last action taken and the Mode and Editor in which Blender is being used.
 
 For example, if your last action was a rotation in *Object Mode*,
-the Window will show you the last value changed for the angle (see Fig. Redo Last - Rotation),
+Blender will show you the last value changed for the angle (see Fig. Redo Last - Rotation),
 where you can change your action back completely by typing :kbd:`Numpad0`.
 There are other useful options, based on your action context,
 and you can not only Undo actions, but change them completely using the available options.
 
 If you are in *Edit Mode*,
-the Window will also change its contents based on your last action taken.
+Blender will also change its contents based on your last action taken.
 In our second example (at the right), the last action taken was a Vertex Move;
 we did a *Scale* on a Face, and, as you can see,
-the contents of the Pop-Up Window are different, because of your context (Edit Mode).
+the contents of the Pop-Up menu are different, because of your context (Edit Mode).
 (See Fig, Redo Last - Scale)
 
 

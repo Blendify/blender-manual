@@ -21,7 +21,7 @@ Configure
 =========
 
 Now that you have opened the User Preferences editor, you can configure Blender to your liking.
-At the top of the window, the available options are grouped into seven tabs:
+At the top of the editor, the available options are grouped into seven tabs:
 
 :doc:`Interface </preferences/interface>`
    Change how UI elements are displayed and how they react.
@@ -48,7 +48,7 @@ otherwise the new configuration will be lost after a restart.
 Blender saves its preferences to *userpref.blend* in your user folder
 (see next section, "Load Factory Settings", for details).
 
-In the *User Preferences* window, click on the *Save User Settings* button in the bottom left.
+In the *User Preferences* editor, click on the *Save User Settings* button in the bottom left.
 This will save all of the new preferences.
 
 

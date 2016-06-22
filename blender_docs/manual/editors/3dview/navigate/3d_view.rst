@@ -5,9 +5,9 @@
 
 To be able to work in the three dimensional space that Blender uses,
 you must be able to change your viewpoint as well as the viewing direction of the scene.
-While we will describe the *3D View* window,
+While we will describe the *3D View* editor,
 most of the other windows have similar functions. For example,
-it is possible to translate and zoom a *Buttons* window and its panels.
+it is possible to translate and zoom a Properties editor and its panels.
 
 .. tip:: Mouse Buttons and Numpad
 
@@ -172,7 +172,7 @@ Refer to the 3D viewport's *View* menu image above for more information.
 
 If you have a wheel mouse, you can perform all of the actions in the 3D viewport that you
 would do with :kbd:`NumpadPlus` and :kbd:`NumpadMinus` by rotating the :kbd:`Wheel`.
-To zoom a *Buttons* window,
+To zoom a Properties editor,
 hold :kbd:`Ctrl-MMB` and move your mouse up and down.
 
 .. hint:: If You Get Lost
@@ -397,7 +397,7 @@ With walk/fly modes you move, pan, tilt, and dolly the camera around without any
    View Navigation.
 
 
-In the :doc:`User Preferences window </preferences/index>`
+In the :doc:`User Preferences editor </preferences/index>`
 select the navigation mode you want to use as default when invoking the View Navigation operator.
 Alternatively you can call the individual modes from the View Navigation menu.
 

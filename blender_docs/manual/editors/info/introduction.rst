@@ -15,7 +15,7 @@ The Info Editor is found at the top of the Default Scene and has the following c
 Editor Type Selector
    The red shaded area allows you to change the
    :doc:`Editor Type </editors/index>`.
-   This region is found on every Window.
+   This region is found on every editor.
 Menu options
    The dark blue shaded area provides access to the main menu options.
 Current Screen (default is Default)
