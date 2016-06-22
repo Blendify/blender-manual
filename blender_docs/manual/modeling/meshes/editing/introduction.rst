@@ -31,7 +31,7 @@ The mesh tools are found in various places, and available through shortcuts as w
 
 .. list-table::
 
-   * - :doc:`Transform and Deform tools </modeling/meshes/editing/basics/introduction>`:
+   * - :doc:`Transform and Deform tools </modeling/meshes/editing/basics/index>`:
 
        - Translate
        - Rotate
