@@ -17,6 +17,7 @@ Display Options
 ---------------
 
 .. figure:: /images/Editing_Curves_curve-display-panel.jpg
+   :align: right
 
    Curve Display panel.
 
@@ -30,6 +31,7 @@ Normals
    Toggles the display of Curve Normals.
 Normal Size
    Sets the display scale of curve normals.
+
 
 .. _curves-hiding:
 
@@ -102,6 +104,7 @@ The *To Sphere*, *Shear*, *Warp* and *Push/Pull* transform tools are described i
 The two other tools, *Tilt* and *Shrink/Fatten Radius* are related to
 :doc:`Curve Extrusion </modeling/curves/editing/extrude>`.
 
+
 Smoothing
 ---------
 
@@ -111,11 +114,11 @@ Smoothing
    | Mode:     Edit Mode
    | Hotkey:   :kbd:`W` :menuselection:`--> smooth`
 
+
 Curve smoothing is available through the specials menu. For Bézier curves, this smoothing
 operation reduces the distance between the selected control point/s and
 their neighbors, while keeping the neighbors anchored. 
 Does not effect control point tangents.
-
 
 .. figure:: /images/modeling_curves_smoothing_example1.jpg
 
@@ -238,7 +241,6 @@ To join two separated curves,
 select one end control point from each curve then press :kbd:`F`.
 The two curves are joined by a segment to become a single curve.
 
-
 .. figure:: /images/Editing_Curves_two-curves-joined.jpg
    :width: 600px
 
@@ -331,7 +333,6 @@ it still operates only on the starting and last control-points. This means that
 :kbd:`Alt-C` may actually join two curves instead of closing a single curve! Remember
 that when a 2D curve is closed, it creates a renderable flat face.
 
-
 .. figure:: /images/Editing_Curves_open-closed-cyclic.jpg
    :width: 400px
 
@@ -369,7 +370,6 @@ Converting Curve Type
    | Mode:     Edit Mode
    | Panel:    Curve Tools --> Set Spline type
 
-
 .. figure:: /images/Editing_Curves_set-spline-type.jpg
    :width: 150px
 
@@ -383,6 +383,7 @@ button will allow you to select the Spline type (Poly, Bézier or NURBS).
 Note, this is not a "smart" conversion, i.e. Blender does not try to keep the same shape,
 nor the same number of control points. For example, when converting a NURBS to a Bézier,
 each group of three NURBS control points become a unique Bézier one (center point and two handles).
+
 
 Convert Curve to Mesh
 ---------------------
@@ -399,6 +400,7 @@ There is also an "external" conversion, from curve to mesh, that only works in *
 It transforms a *Curve* object into a *Mesh* object,
 using the curve resolution to create edges and vertices.
 Note that it also keeps the faces and volumes created by closed and extruded curves.
+
 
 Convert Mesh to Curve
 ---------------------
