@@ -372,6 +372,7 @@ Converting Curve Type
 
 .. figure:: /images/Editing_Curves_set-spline-type.jpg
    :width: 150px
+   :align: right
 
    Set Spline Type button.
 
