@@ -95,7 +95,7 @@ Tool Shelf
 :doc:`Duplicate area in new window </interface/window_system/arranging_areas>`
    Clones the current 3D View in a new window.
 :doc:`Quad View </interface/window_system/arranging_areas>`
-   Toggles a four pane 3D view, each showing a different angle of the scene.
+   Toggles a four window 3D view, each showing a different angle of the scene.
 :doc:`Toggle Full Screen </interface/window_system/arranging_areas>`
    Maximizes the *3D View* editor to fill the full screen area.
 
