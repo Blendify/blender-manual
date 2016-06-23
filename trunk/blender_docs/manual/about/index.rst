@@ -8,6 +8,7 @@
    :maxdepth: 2
 
    introduction.rst
+   license.rst
    contribute.rst
    install/index.rst
    style_guides/index.rst

@@ -76,7 +76,7 @@ print("Using Index:", master_doc)
 
 # General information about the project.
 project = 'Blender %s Manual' % blender_version
-copyright = ': This page is public domain as CC0'
+copyright = ': This page is licensed under a CC-BY-SA 4.0 Intl. License'
 author = 'Blender Documentation Team'
 
 # The version info for the project you're documenting, acts as replacement for
