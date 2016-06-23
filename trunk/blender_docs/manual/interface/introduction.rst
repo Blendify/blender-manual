@@ -10,7 +10,7 @@ Slash Screen
 
 When starting Blender, the splash screen appears in the center of the window.
 
-.. figure:: /images/getting_started-help_splash.png
+.. figure:: /images/splash-screen_current.png
    :align: center
    :width: 450px
 
