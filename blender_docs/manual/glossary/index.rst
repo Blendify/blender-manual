@@ -56,7 +56,7 @@ For other common conventions used throughout the manual.
 
       Conversion (Straight/Premultiplied) Alpha
          Conversion between the two alpha types is not a simple operation and can involve data loss,
-         as both alpha types can represent data that the other can not though it is often subtle.
+         as both alpha types can represent data that the other cannot though it is often subtle.
 
          Straight alpha can be considered to be an RGB color image with a separate alpha mask.
          In areas where this mask is fully transparent, there can still be colors in the RGB channels.

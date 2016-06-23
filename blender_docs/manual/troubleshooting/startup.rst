@@ -6,7 +6,7 @@ Startup
 Blender
 =======
 
-There are some common causes for problems when using Blender. If you can not find a solution to your problem here,
+There are some common causes for problems when using Blender. If you cannot find a solution to your problem here,
 try asking the `community <introduction/community>`__ for help.
 
 If Blender crashes on startup there are a few things to check for:

@@ -92,7 +92,7 @@ Stencil
    The active texture is used as a mask for all following textures.
    This is useful for semitransparent textures and "Dirt Maps".
    Black sets the pixel to "untexturable". The *Stencil* mode works similar to a layer mask in a 2D program.
-   The effect of a stencil texture can not be overridden, only extended. You need an intensity map as input.
+   The effect of a stencil texture cannot be overridden, only extended. You need an intensity map as input.
 DVar
    Destination Value (not for RGB).
    The value with which the Intensity texture blends with the current value. Two examples:

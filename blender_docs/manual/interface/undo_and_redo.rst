@@ -37,7 +37,7 @@ For example, if your last action was a rotation in *Object Mode*,
 Blender will show you the last value changed for the angle (see Fig. Redo Last - Rotation),
 where you can change your action back completely by typing :kbd:`Numpad0`.
 There are other useful options, based on your action context,
-and you can not only Undo actions, but change them completely using the available options.
+and you cannot only Undo actions, but change them completely using the available options.
 
 If you are in *Edit Mode*,
 Blender will also change its contents based on your last action taken.

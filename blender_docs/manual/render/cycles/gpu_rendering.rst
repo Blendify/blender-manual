@@ -71,7 +71,7 @@ Frequently Asked Questions
 Why is Blender unresponsive during rendering?
 ---------------------------------------------
 
-While a graphics card is rendering, it can not redraw the user interface,
+While a graphics card is rendering, it cannot redraw the user interface,
 which makes Blender unresponsive. We attempt to avoid this problem by giving back control over
 the GPU as often as possible,
 but a completely smooth interaction can't be guaranteed, especially on heavy scenes.

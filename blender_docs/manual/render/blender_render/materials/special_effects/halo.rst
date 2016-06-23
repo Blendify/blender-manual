@@ -98,7 +98,7 @@ Lines
 Star tips
    Gives the halo a star shape.
 
-You can not use color ramps. Lines,
+You cannot use color ramps. Lines,
 Rings and an assortment of special effects are available with the relevant toggle buttons,
 which include Flare, Rings, Lines, Star, Texture, Extreme Alpha, and Shaded.
 *Halo Variations* shows the result of applying a halo material to a single vertex mesh.
