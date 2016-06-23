@@ -8,7 +8,6 @@ When you start Blender you should see a screen similar to this
 (the splash screen in the center will change with new versions):
 
 .. figure:: /images/blender_default_startup.png
-   :width: 640px
 
    Initial Blender screen.
 
@@ -30,16 +29,15 @@ The default scene
 The default scene is separated into five windows and is loaded each time you start Blender or a new file.
 The five areas are:
 
-- The Info Space (shaded red) at the top.
+- The Info Editor (shaded red) at the top.
   (The Info editor used mainly for its header).
 - A large 3D View (shaded green).
 - A Timeline at the bottom (shaded purple).
 - An Outliner at the top right (shaded yellow).
-- A Properties editor at the bottom right (shaded blue).
+- A Properties Editor at the bottom right (shaded blue).
 
 As an introduction we will cover a few of the basic elements.
 
 .. figure:: /images/interface_window-system-default_scene.jpg
-   :width: 650px
 
    Default Blender scene and Window arrangement.
