@@ -179,14 +179,14 @@ Mirror
 Components can be mirrored on the Y axis or the X axis. You can select *Mirror X*
 and *Mirror Y* from the *Snap* sub menu in the *UV* menu.
 
-You can also use the hotkey :kbd:`Ctrl-M` then enter :kbd:`X` or :kbd:`Y`,
+You can also use the hotkey :kbd:`Ctrl-M`, then enter :kbd:`X` or :kbd:`Y`,
 or hold the :kbd:`MMB` and drag in the mirror direction.
 
 
 Stitch
 ------
 
-*Stitch*, :kbd:`V`, will join selected UVs that share Vertices.
+*Stitch*, :kbd:`V`, will join selected UVs that share vertices.
 You set the tool to limit stitching by distance in the Tool Settings,
 by activating *Use Limit* and adjusting the *Limit Distance*
 
@@ -194,19 +194,19 @@ by activating *Use Limit* and adjusting the *Limit Distance*
 Minimize Stretch
 -----------------
 
-the *Minimize Stretch* tool,
-:kbd:`Ctrl-V` Reduces UV stretch by minimizing angles. This essentially relaxes the UVs
+The *Minimize Stretch* tool, :kbd:`Ctrl-V`,
+reduces UV stretch by minimizing angles. This essentially relaxes the UVs.
 
 
 Face Mirror and Rotate UVs
 --------------------------
 
-Recall how the orientation of the UV Texture is relative to each face? Well,
-you might find that, for example, the image is upside down or laying on its side. If so,
-use :menuselection:`Face --> Rotate UVs` (in the 3D View in Face Select mode)
+The orientation of the UV Texture is defined by each face. 
+If the image is, for example, upside down or laying on its side,
+use the :menuselection:`Face --> Rotate UVs` (in the 3D View in Face Select mode)
 menu to rotate the UVs per face in 90-degree turns.
 
-The :menuselection:`Face --> Mirror UVs` to flips the image over,
+The :menuselection:`Face --> Mirror UVs` tool flips the image over,
 mirroring the UVs per face and showing you the image reversed.
 
 
