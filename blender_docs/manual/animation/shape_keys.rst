@@ -33,7 +33,7 @@ Shape Keys Panel
    :class: refbox
 
    | Mode:     All modes
-   | Panel:    *Properties*, *Object Data*, *Shape Keys*
+   | Panel:    :menuselection:`Properties editor --> Object Data --> Shape Keys`
 
 
 .. figure:: /images/Shape_Keys3.jpg
@@ -219,7 +219,7 @@ Workflow For Absolute Shape Keys
 .. figure:: /images/Absolute_SK_Workflow_1.jpg
 
 .. figure:: /images/Absolute_SK_Workflow_2.jpg
-   :width: 50px
+   :width: 150px
 
 
 - Select the top face.
@@ -227,7 +227,7 @@ Workflow For Absolute Shape Keys
 
 
 .. figure:: /images/Absolute_SK_Workflow_3.jpg
-   :width: 50px
+   :width: 150px
 
 
 - Select a side face on the top half. (the one at x=1 if possible)
@@ -236,7 +236,7 @@ Workflow For Absolute Shape Keys
 
 
 .. figure:: /images/Absolute_SK_Workflow_4.jpg
-   :width: 50px
+   :width: 300px
 
 
 - Add a basis shape keys and two more via the + button on the Shape Key Panel.
@@ -246,7 +246,7 @@ Workflow For Absolute Shape Keys
 
 
 .. figure:: /images/Absolute_SK_Workflow5.jpg
-   :width: 50px
+   :width: 500px
 
 
 - Select shape key Key 2 to edit the third shape key.
@@ -254,7 +254,7 @@ Workflow For Absolute Shape Keys
 
 
 .. figure:: /images/Absolute_SK_Workflow_6.jpg
-   :width: 50px
+   :width: 500px
 
 
 - Select shape key Basis to edit the first shape key.
