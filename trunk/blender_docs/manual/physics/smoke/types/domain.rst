@@ -24,6 +24,7 @@ in :menuselection:`Properties --> Physics`, then select *Domain* as the *Smoke T
 
 
 .. figure:: /images/smoke_domain_settings.png
+   :align: right
 
    *Smoke Domain* settings.
 
@@ -93,6 +94,7 @@ Vorticity
    while lower values make smoother shapes.
 
    .. figure:: /images/smoke_domain_vorticity.jpg
+      :width: 400px
 
       Comparison of different amounts of vorticity. The domain on the left has a vorticity of 3,
       while the domain on the right has a vorticity of 0.01.
@@ -170,6 +172,7 @@ Noise Method
    The two options, *Wavelet* and *FFT*, are very similar.
 
    .. figure:: /images/smoke_domain_high_resolution_method.jpg
+      :width: 400px
 
       Comparison of noise methods. *Wavelet* on the left, *FFT* on the right.
 
@@ -182,6 +185,7 @@ Strength
    Strength of noise.
 
    .. figure:: /images/smoke_domain_high_resolution_strength.jpg
+      :width: 400px
 
       From left to right, the domains' high resolution strengths are set to 0, 2, and 6.
 
@@ -223,6 +227,7 @@ All
 The other settings determine how much influence individual force field types have.
 
 .. figure:: /images/smoke_domain_force_field_demo.jpg
+   :width: 500px
 
    Smoke with a wind force field.
 
@@ -235,6 +240,7 @@ and :ref:`Domain Subdivisions <smoke-resolution>` are not equivalent.
 By using different combinations of these resolution settings you can obtain a variety of different styles of smoke.
 
 .. figure:: /images/smoke_domain_high_resolution_comparison.jpg
+   :align: center
 
    Comparison between a domain with 24 divisions and 4 *High Resolution* divisions (left),
    and a domain with 100 divisions and 1 *High Resolution* division (right).
@@ -244,5 +250,7 @@ divisions generally appear smaller in real-world scale
 (larger flames etc.) and can be used to achieve pyroclastic plumes such as this:
 
 .. figure:: /images/smoke_domain_note_on_resolution.jpg
+   :align: center
+   :width: 550px
 
 High *Domain Division* simulations tend to appear larger in real-world scale, with many smaller details.
