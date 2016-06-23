@@ -10,14 +10,15 @@
    introduction.rst
 
 
-Window Controls
+Editor Controls
 ===============
 
 .. toctree::
    :maxdepth: 1
 
-   window_system/index.rst
+   editors/index.rst
    screens.rst
+   panels.rst
 
 
 Interface Controls
@@ -26,7 +27,6 @@ Interface Controls
 .. toctree::
    :maxdepth: 1
 
-   panels.rst
    buttons_and_controls.rst
    extended_controls.rst
 

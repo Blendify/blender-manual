@@ -249,7 +249,7 @@ Header Menus
 
 Header menus are used to configure the editor and access tools.
 
-See :doc:`Headers </interface/window_system/headers>` for header options.
+See :doc:`Headers </interface/editors/headers>` for header options.
 
 
 Pop-Up Menus

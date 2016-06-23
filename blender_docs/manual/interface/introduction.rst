@@ -126,7 +126,7 @@ The 3D View above the header is marked with a purple frame.
    * - :kbd:`F5`
      - Move Header from Top to Bottom (mouse pointer must be over it)
 
-See: :doc:`Headers </interface/window_system/headers>` for details.
+See: :doc:`Headers </interface/editors/headers>` for details.
 
 
 Panels
