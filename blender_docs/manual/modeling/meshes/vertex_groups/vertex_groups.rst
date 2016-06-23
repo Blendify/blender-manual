@@ -304,7 +304,7 @@ Vertex Group Management
 
 
 Vertex Groups provide a more complex set of functions
-inside a Pull down menu. This menu is accessible
+inside a pop-up menu. This menu is accessible
 from the Vertex Group Panel by clicking on the
 dark gray *arrow down* icon on the right panel border.
 

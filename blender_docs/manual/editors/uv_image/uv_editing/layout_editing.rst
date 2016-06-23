@@ -206,8 +206,8 @@ If the image is, for example, upside down or laying on its side,
 use the :menuselection:`Face --> Rotate UVs` (in the 3D View in Face Select mode)
 menu to rotate the UVs per face in 90-degree turns.
 
-The :menuselection:`Face --> Mirror UVs` tool flips the image over,
-mirroring the UVs per face and showing you the image reversed.
+The :menuselection:`Face --> Mirror UVs` tool mirrors the UVs per face, 
+which flips the image over, showing you the image reversed.
 
 
 Pinning
