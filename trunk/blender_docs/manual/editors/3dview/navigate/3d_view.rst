@@ -318,7 +318,7 @@ If you want to be able to rotate each view, you can un-check the *Locked* option
 
 However in sometimes its preferable to split the view, so each can have its own configuration.
 
-:doc:`Read more about splitting areas </interface/window_system/arranging_areas>`
+:doc:`Read more about splitting areas </interface/editors/arranging_areas>`
 
 
 .. _3dview-clip_border:

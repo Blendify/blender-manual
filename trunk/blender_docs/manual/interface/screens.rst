@@ -73,7 +73,7 @@ See Fig. Screen and Scene selectors above.
 Rearranging a Screen
 --------------------
 
-Use the :doc:`window controls </interface/window_system/arranging_areas>`
+Use the :doc:`window controls </interface/editors/arranging_areas>`
 to move frame borders, split and consolidate windows.
 When you have a layout that you like, press :kbd:`Ctrl-U` to update your User defaults.
 Be aware that all of the current scenes become part of those defaults,
