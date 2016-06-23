@@ -204,7 +204,7 @@ Multiple edge loops
    This will decrease the possibility of getting looping errors.
 Border Edge
    When a single edge was selected in a single sided object.
-   An edge loop can not be found because there is only one face.
+   An edge loop cannot be found because there is only one face.
    Remember, edge loops are loops that span two or more faces.
 
 A general rule of thumb is that if multiple edges are selected they should be connected end to

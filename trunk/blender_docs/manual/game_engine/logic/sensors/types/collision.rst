@@ -26,5 +26,5 @@ M/P button
 
 .. note:: Note about soft bodies
 
-   The *Collision* sensor can not detect collisions with soft bodies.
+   The *Collision* sensor cannot detect collisions with soft bodies.
    This is a limitation in Bullet, the physics library used by the Game Engine.

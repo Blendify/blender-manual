@@ -32,7 +32,7 @@ on manually created (user-defined) Vertex Groups.
 
 .. note:: Vertex groups only apply to Mesh and Lattice Objects
 
-   Any other Object type has no vertices, hence it can not have Vertex Groups.
+   Any other Object type has no vertices, hence it cannot have Vertex Groups.
 
 
 Typical usage scenarios for Vertex groups
