@@ -21,7 +21,7 @@ or hover your mouse cursor over the Sequence workspace and press :kbd:`Shift-A`.
 
 .. note:: Clips can be Huge
 
-   A three minute quicktime .mov file can be 140Megs.
+   A three minute quicktime ``.mov`` file can be 140Megs.
    Loading it, even over a high-speed LAN can take some time.
    Do not assume your computer or Blender has locked up if nothing happens for awhile.
 

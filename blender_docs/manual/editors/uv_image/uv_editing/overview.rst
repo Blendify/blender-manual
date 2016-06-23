@@ -33,9 +33,9 @@ If you were to take a pair of scissors and cut a seam or fold of the box,
 you would be able to lay it flat on a tabletop.
 As you are looking down at the box on the table,
 we could say that U is the left-right direction, is V is the up-down direction.
-This image is thus in two dimensions (2D). We use *U* and *V* to refer to these
-"texture-space coordinates" instead of the normal *X* and *Y*, which are always used
-(along with *Z*) to refer to the three dimensional space (3D).
+This image is thus in two dimensions (2D). We use U and V to refer to these
+"texture-space coordinates" instead of the normal X and Y, which are always used
+(along with Z) to refer to the three dimensional space (3D).
 
 When the box is reassembled, a certain UV location on the paper is transferred to an (X, Y, Z)
 location on the box.

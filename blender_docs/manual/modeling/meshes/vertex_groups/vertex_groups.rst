@@ -268,7 +268,7 @@ Finding ungrouped verts
 You can find ungrouped vertices as follows:
 
 - Press :kbd:`A` once or twice to unselect all vertices.
-- In the footer of the 3D Viewport: Navigate to Select --> Ungrouped verts
+- In the footer of the 3D Viewport: :menuselection:`Navigate to Select --> Ungrouped verts`
 
 
 Keyboard Shortcuts
@@ -297,10 +297,10 @@ Vertex Group Management
 
    .. clear
 
-.. figure:: /images/Modeling-Meshes-vertex-group-pulldown.jpg
+.. figure:: /images/Modeling-Meshes-vertex-group-list-popup.jpg
    :align: right
 
-   Vertex groups panel's dropdown menu.
+   Vertex groups panel's pop-up menu.
 
 
 Vertex Groups provide a more complex set of functions
@@ -308,7 +308,7 @@ inside a pop-up menu. This menu is accessible
 from the Vertex Group Panel by clicking on the
 dark gray *arrow down* icon on the right panel border.
 
-The following functions of the Pulldown Menu operate on the assigned vertices:
+The following functions of the pop-up menu operate on the assigned vertices:
 
 Sort Vertex Groups:
    Sorts Vertex Groups Alphabetically

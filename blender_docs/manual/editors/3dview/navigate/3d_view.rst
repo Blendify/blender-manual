@@ -29,8 +29,8 @@ Perspective and Orthographic Views
    | Hotkey:   :kbd:`Numpad5`
 
 Each 3D viewport supports two different types of projection.
-These are demonstrated in the *Orthographic (left) and perspective (right)
-projections* image below.
+These are demonstrated in the 
+Fig. Orthographic (left) and perspective (right) projections image below.
 
 
 .. figure:: /images/3DPerspective.jpg

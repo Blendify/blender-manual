@@ -25,7 +25,7 @@ This page covers the conventions for writing and use of the reStructuredText (RS
 Conventions
 ===========
 
-- 3 space indentation.
+- Three space indentation.
 - Lines should be less than 120 characters long.
 - Use italics for button/menu names.
 
@@ -33,7 +33,7 @@ Other loose conventions:
 
 - Avoid Unicode characters.
 - Avoid heavily wrapped text
-  *(sentences can have their own lines for eg.)*.
+  (i.e. sentences can have their own lines).
 
 
 Headings

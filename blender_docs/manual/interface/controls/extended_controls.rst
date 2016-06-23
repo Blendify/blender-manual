@@ -26,11 +26,11 @@ with :kbd:`Down` and :kbd:`Up`, activate it by pressing :kbd:`Return`.
 Color Picker
 ============
 
-All of the color picker types have the common *RGB*, *HSV* and *Hex* options to show values.
+All of the color picker types have the common RGB, HSV and Hex options to show values.
 
-Blender uses (0 to 1.0) values to express colors for *RGB* and *HSV* values.
+Blender uses (0 to 1.0) values to express colors for RGB and HSV values.
 
-Some colors also define an alpha value *A*, below the color sliders.
+Some colors also define an alpha value A, below the color sliders.
 
 .. note:: Blender corrects Gamma by default
 
@@ -56,7 +56,7 @@ For operations that are capable of using Alpha, another slider is added at the b
    - .. figure:: /images/interface_controls_sv-h.png
         :width: 200px
 
-        Square (SV + H), *Saturation, Value plus Hue.*
+        Square (SV + H), Saturation, Value plus Hue.
         Colors are adjusted using the range of brightness of the
         base color; chosen at the color bar in the middle of the picker.
 
@@ -69,25 +69,25 @@ For operations that are capable of using Alpha, another slider is added at the b
    - .. figure:: /images/interface_controls_hs-v.png
         :width: 200px
 
-        Square (HS + V), *Hue, Saturation plus Value.* Brightness is subtracted from the
+        Square (HS + V), Hue, Saturation plus Value. Brightness is subtracted from the
         base color chosen on the square of the color picker moving the slider to the left.
 
    - .. figure:: /images/interface_controls_hsl.png
         :width: 200px
 
-        Circle HSL, a variation of the regular circle select that uses *HSL* for mixing.
+        Circle HSL, a variation of the regular circle select that uses HSL for mixing.
 
    - .. figure:: /images/interface_controls_hv-s.png
         :width: 200px
 
-        Square (HV + S), *Hue, Value and Saturation*. Brightness is added to the base color
+        Square (HV + S), Hue, Value and Saturation. Brightness is added to the base color
         chosen by the square of the color picker moving the slider to the left.
 
 
 Hexadecimal Colors
 ------------------
 
-You can optionally use hexadecimal *(Hex)* values,
+You can optionally use hexadecimal (Hex) values,
 expressed as (RRGGBB), a common way to represent colors for HTML
 and useful to quickly copy/paste colors between applications.
 
@@ -213,7 +213,7 @@ Control Points
 
 Like all curves in Blender, the curve of the *Curve Widget* is controlled using *control points*.
 
-By default, there are two control points: one at ``0.0, 0.0`` and one at ``1.0, 1.0``,
+By default, there are two control points: one at (0.0, 0.0) and one at (1.0, 1.0),
 meaning the input is mapped directly to the output (unchanged).
 
 To move a control point
