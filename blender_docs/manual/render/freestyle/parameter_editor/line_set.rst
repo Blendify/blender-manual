@@ -7,7 +7,6 @@ A line set selects, among the lines (edges) detected by Freestyle,
 which ones will be rendered using its attached :doc:`line style </render/freestyle/parameter_editor/line_style>`,
 through various methods.
 
-
 .. figure:: /images/render-freestyle-BasicEdgeTypeSelectionEx.jpg
    :width: 600px
 
@@ -31,7 +30,7 @@ Hidden
    :width: 600px
 
    Proof of concept of visible and hidden edges by LightBWK
-   (`Sample .blend <https://wiki.blender.org/index.php/File:HiddenCreaseEdgeMark.zip>`__)
+   (`Sample blend-file <https://wiki.blender.org/index.php/File:HiddenCreaseEdgeMark.zip>`__)
 
 
 QI Range
@@ -45,7 +44,7 @@ Start and End
    :width: 600px
 
    QI Range proof of concept demo, Start: 3, End: 7, by LightBWK
-   (`Sample .blend <https://wiki.blender.org/index.php/File:QI-Range.zip>`__)
+   (`Sample blend-fiel <https://wiki.blender.org/index.php/File:QI-Range.zip>`__)
 
 
 Selection by Edge Types

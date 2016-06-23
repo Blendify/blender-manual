@@ -201,7 +201,7 @@ Fresnel
 
           ... or alpha buffered transparency.
           Note that the major difference is the lack of IOR effect in the latter case.
-          (Download `.blend <https://wiki.blender.org/index.php/:File:Manual25-Material-FresnelExample.blend>`__.)
+          (Download `blend-file <https://wiki.blender.org/index.php/:File:Manual25-Material-FresnelExample.blend>`__.)
 
 
    * - .. figure:: /images/material-raytrace_transp-fresnelsettings.jpg
@@ -233,7 +233,7 @@ Depth
 
    A simple scene with three glasses on a surface, and three lamps.
    Depth was set to 4, 8, 12, and 14, resulting in render times of 24 sec, 34 sec, 6 min, and 11 min respectively.
-   (Download `.blend <https://wiki.blender.org/index.php/:File:Manual25-Material-3GlassesExample.blend>`__.)
+   (Download `blend-file <https://wiki.blender.org/index.php/:File:Manual25-Material-3GlassesExample.blend>`__.)
 
 
 Increasing *Depth* also considerably increases render time.

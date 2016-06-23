@@ -200,7 +200,7 @@ Skin
 ----
 
 .. list-table::
-      Increasing SSS scale (`.blend <https://wiki.blender.org/index.php/:File:MH-SSS-head-001.blend>`__)
+      Increasing SSS scale (`blend-file <https://wiki.blender.org/index.php/:File:MH-SSS-head-001.blend>`__)
 
    * - .. figure:: /images/material-sss-mh-head-1.jpg
           :width: 100px
@@ -226,7 +226,6 @@ Skin
           :width: 100px
 
           scale: 5.
-
 
 .. seealso::
 

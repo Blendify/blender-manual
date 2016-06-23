@@ -32,7 +32,6 @@ At the :ref:`System Level <troubleshooting-file_recovery>` (Relating to *Files*)
 Options for Files (System Level)
 ================================
 
-
 Save and Auto Save
 ------------------
 
@@ -65,12 +64,11 @@ Recover Last Session
 
    Blender File Browser.
 
-
 .. tip::
 
    When recovering files, you will navigate to your temporary folder.
    It is important, when browsing, to enable the detailed list view.
-   Otherwise, you will not be able to figure out the dates of the auto-saved .blends.
+   Otherwise, you will not be able to figure out the dates of the auto-saved blend-files.
    (See Figure: Blender File Browser)
 
 
@@ -78,7 +76,6 @@ Recover Auto Save
    :menuselection:`File --> Recover Auto Save...` allows you to open the Auto Saved file.
    After loading the Auto Saved version,
    you may save it over the current file in your working directory as a normal blend-file.
-
 
 .. important::
 
