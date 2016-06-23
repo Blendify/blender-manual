@@ -147,7 +147,7 @@ The edit panel is expanded and the other 2 panels are collapsed.
 Note that you can change the order of panels by clicking
 on the handle in the upper right corner of a panel's title.
 
-See: :doc:`panels </interface/panels>` for details.
+See: :doc:`panels </interface/editors/panels>` for details.
 
 
 Tabs

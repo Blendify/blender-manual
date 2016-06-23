@@ -146,5 +146,5 @@ Scaling along particular axes can be enabled or disabled by toggling the padlock
 
 .. seealso::
 
-   - :doc:`Read more about Panels </interface/panels>`
+   - :doc:`Read more about Panels </interface/editors/panels>`
    - :doc:`Read more about scaling modes </editors/3dview/transform/transform_control/transform_orientations>`

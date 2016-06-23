@@ -19,7 +19,7 @@ Editor Type Selector
 Menu options
    The dark blue shaded area provides access to the main menu options.
 Current Screen (default is Default)
-   The green shaded area allows you to select different :doc:`Screens </interface/screens>`.
+   The green shaded area allows you to select different :doc:`Screens </interface/editors/screens>`.
    By default, Blender comes with several pre-configured *Screen* s for you to choose from.
    If you need custom screen layouts, you can create and name them.
 Current Scene
