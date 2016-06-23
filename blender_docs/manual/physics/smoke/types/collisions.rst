@@ -12,6 +12,7 @@ Then select *Collision* as the *Smoke Type*.
 
 
 .. figure:: /images/smoke_collision_settings.png
+   :align: right
 
    *Smoke Collision* settings.
 

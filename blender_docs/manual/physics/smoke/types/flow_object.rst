@@ -16,8 +16,9 @@ Settings
 ========
 
 .. figure:: /images/smoke_flow_settings.png
+   :align: right
 
-   *Smoke Flow* settings.
+   Smoke Flow settings.
 
 
 Flow Type
@@ -125,6 +126,7 @@ Smoke Flow Advanced
 -------------------
 
 .. figure:: /images/smoke_flow_advanced.png
+   :align: right
 
 When using a mesh as the *Flow Source*, you can use these settings to control where on the
 mesh smoke can be emitted from. These settings have no effect on outflow objects.
@@ -136,6 +138,16 @@ Vertex Group
    When set, use the specified :doc:`Vertex Group </modeling/meshes/vertex_groups/vertex_groups>`
    to control where smoke is emitted.
 
+.. container:: lead
+
+   .. clear
+
+Example
+=======
+
 These settings are useful for effects like this:
 
 .. figure:: /images/smoke_flow_texture_usecase.jpg
+   :align: center
+   :width: 500px
+

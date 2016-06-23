@@ -444,7 +444,7 @@ You can also turn your smoke into fire with another texture! To make fire,
 turn up the Emission Value in the Materials panel.
 
 
-.. figure:: /images/e.jpg
+.. figure:: /images/bi_material-fire.jpg
    :width: 300px
 
    The Fire material.
