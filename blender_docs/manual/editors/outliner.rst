@@ -44,7 +44,6 @@ it is selected and becomes the active object in all other 3D Views.
 Use this feature to find objects in your 3D View, select them in the *Outliner*,
 then zoom to them with :menuselection:`View --> Show Active` or :kbd:`NumpadPeriod`.
 
-
 .. figure:: /images/Outliner-Activate-Datablock.jpg
 
    Click :kbd:`LMB` on the mesh data of the cube to activate Edit Mode.
@@ -56,7 +55,6 @@ Activating a data-block
    For example, activating the mesh data of the cube will select the cube
    and enter *Edit Mode* while activating the object data of the
    cube will select the cube and enter *Object Mode* (see right).
-
 
 .. figure:: /images/Outliner-editor-column-icons.jpg
 
@@ -74,7 +72,6 @@ Toggle pre-selection of a group of data-blocks
    all *outside* the name/icon area. Those pre-selected have their line in a lighter color.
    You then can (de)select them with a :kbd:`RMB` *on* the name/icon area,
    which brings on a context menu (see bellow).
-
 
 .. figure:: /images/Outliner-Object-Operation.jpg
 
@@ -149,6 +146,7 @@ Filtering the display
 =====================
 
 .. figure:: /images/Outliner-Display-Mode.jpg
+   :align: right
 
    Outliner Display dropdown.
 
