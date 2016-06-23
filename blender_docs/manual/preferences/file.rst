@@ -105,7 +105,7 @@ Compress File
    Using this option traces processor time for file-size.
 Load UI
    Default setting is to load the Window layout
-   (the :doc:`Screens </interface/screens>`) of the saved file.
+   (the :doc:`Screens </interface/editors/screens>`) of the saved file.
    This can be changed individually when loading a file from the
    *Open Blender File* panel of the *File Browser*.
 

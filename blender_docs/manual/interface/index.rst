@@ -17,8 +17,8 @@ Editor Controls
    :maxdepth: 1
 
    editors/index.rst
-   screens.rst
-   panels.rst
+   editors/screens.rst
+   editors/panels.rst
 
 
 Interface Controls
@@ -27,8 +27,8 @@ Interface Controls
 .. toctree::
    :maxdepth: 1
 
-   buttons_and_controls.rst
-   extended_controls.rst
+   controls/buttons_and_controls.rst
+   controls/extended_controls.rst
 
 Tools
 =====

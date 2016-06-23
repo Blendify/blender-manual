@@ -57,7 +57,7 @@ you can :doc:`edit them </editors/uv_image/uv_editing/layout_editing>`.
 The process of unwrapping your model is done within Edit Mode in the 3D View editor.
 This process creates one or more UV Islands in the :ref:`UV/Image Editor <editors-uv_image-index>`.
 
-To begin, choose the *UV Editing* :doc:`screen layout </interface/screens>`
+To begin, choose the *UV Editing* :doc:`screen layout </interface/editors/screens>`
 from the selection list at the top of your screen in the User Preferences header. 
 This sets one of the panes to show you the UV/Image Editor
 :kbd:`Shift-F10`, and the other window to the 3D View :kbd:`Shift-F5`.

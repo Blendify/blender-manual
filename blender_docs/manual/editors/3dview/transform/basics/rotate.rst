@@ -139,7 +139,7 @@ can also be set in this panel from the drop down box.
 
 .. seealso::
 
-   - :doc:`Read more about Panels </interface/panels>`
+   - :doc:`Read more about Panels </interface/editors/panels>`
    - :doc:`Read more about rotation modes </editors/3dview/transform/transform_control/transform_orientations>`
    - `Additional detail about rotation modes
      <https://wiki.blender.org/index.php/User:Pepribal/Ref/Appendices/Rotation>`__
