@@ -3,11 +3,50 @@
 Introduction
 ************
 
-When starting Blender, the splash screen appears.
-On the left side are links to official web pages, and on the right are your most recently opened projects.
+.. _splash:
 
-To close the splash screen start a new project, you can press :kbd:`Esc` or click anywhere
-inside the Blender Window (except on the splash screen).
+Slash Screen
+============
+
+When starting Blender, the splash screen appears in the center of the window.
+
+.. figure:: /images/getting_started-help_splash.png
+   :align: center
+   :width: 450px
+
+   Blender Splash Screen.
+
+To close the splash screen start a new project, 
+click anywhere outside the splash screen (but inside Blender Window) or press :kbd:`Esc`.
+The splash screen will disappear revealing the startup scene.
+
+To reopen the splash click on the Blender icon in the Info Editor header or
+select :menuselection:`Help --> Splash Screen` also in the Info Editor.
+
+Titel
+   Besides the Blender icon and text, it shows the Blender version. i.e. the current version is |BLENDER_VERSION|.
+Image
+   An image where you can identify package and version.
+Date
+   At the top-right corner, you can see the date on that Blender version was compiled.
+Hash
+   The Git Hash. This can be useful to give to support personnel, when diagnosing a problem.
+Branch
+   Optional branch id.
+
+Interaction
+   Key configuration the same as :menuselection:`User preferences --> Input`.
+Links
+   Links official web pages, the same could be found in the *Help* Menu of the Info Editor.
+   See :ref:`help-menu`.
+Recent
+   Your most recently opened Blender files. This gives quick and easy access to your recent projects.
+Recover Last Session
+   Blender will try to recover the last session based on temporary files. See :doc:`/troubleshooting/recover`.
+
+
+Screens
+=======
 
 .. figure:: /images/blender_default_startup.png
    :align: center
@@ -21,28 +60,6 @@ which can then be named and saved for later use.
 
 Blender also makes heavy use of keyboard shortcuts to speed up work.
 These can also be customized in the :ref:`Keymap Editor <prefs-input-keymap_editor>`.
-
-
-User Interface Principles
-=========================
-
-.. figure:: /images/getting_started-basics_interface_introduction_03.jpg
-
-   This is an example of Blender's multiple window support.
-
-Non Overlapping
-   The UI is designed to allow you to view all relevant options and tools at a glance
-   without pushing or dragging editors around.
-
-Non Blocking
-   Tools and interface options do not block the user from any other parts of Blender.
-   Blender typically doesn't use pop-up boxes
-   (requiring users to fill in data before running an operation).
-
-Non Modal Tools
-   Tools can be accessed efficiently without taking time to select between different tools.
-   Many tools use consistent and predictable,
-   mouse and keyboard actions for interaction.
 
 
 Screen Elements
@@ -59,11 +76,11 @@ buttons, controls and widgets placed within them.
 
 The composition of various Areas with predefined Editors in them is
 called a *Screen Layout*. By default Blender starts up with a layout of
-5 Editors as shown in the image below.
+five Editors as shown in the image below.
 
 .. figure:: /images/getting_started-basics_interface_introduction_02.png
 
-   Blender's default Screen Layout with 5 Editors: Info (1), 3D View
+   Blender's default Screen Layout with five Editors: Info (1), 3D View
    (2), Outliner (3), Properties (4) and Timeline (5)
 
 
@@ -142,8 +159,8 @@ This is where the buttons, menus, checkboxes, etc. are located.
 Panels are usually found in the side regions of an editor,
 but also make up most of the :doc:`Properties Editor </editors/properties/index>`'s main region.
 
-In the image on the right there are 3 panels: *Transfor*, *Edit* and *History*.
-The edit panel is expanded and the other 2 panels are collapsed.
+In the image on the right there are three panels: *Transform*, *Edit* and *History*.
+The edit panel is expanded and the other two panels are collapsed.
 Note that you can change the order of panels by clicking
 on the handle in the upper right corner of a panel's title.
 
