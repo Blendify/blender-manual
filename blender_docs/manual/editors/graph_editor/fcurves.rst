@@ -69,11 +69,10 @@ Constant
    giving a discrete (stairway) "curve".
    Usually only used during the initial "blocking" stage in pose-to-pose animation workflows.
 
+   .. figure:: /images/fcurve-constant.jpg
+      :width: 300px
 
-.. figure:: /images/fcurve-constant.jpg
-   :width: 300px
-
-   Constant.
+      Constant.
 
 
 Linear
@@ -81,22 +80,20 @@ Linear
    It can be useful when using only two keyframes and the *Extrapolation* extend mode,
    to easily get an infinite straight line (i.e. a linear curve).
 
+   .. figure:: /images/fcurve-linear.jpg
+      :width: 300px
 
-.. figure:: /images/fcurve-linear.jpg
-   :width: 300px
-
-   Linear.
+      Linear.
 
 
 Bezier
    The more powerful and useful interpolation, and the default one.
    It gives nicely smoothed curves, i.e. smooth animations!
 
+   .. figure:: /images/fcurve-clean1.jpg
+      :width: 300px
 
-.. figure:: /images/fcurve-clean1.jpg
-   :width: 300px
-
-   Bézier.
+      Bézier.
 
 
 Remember that some FCurves can only take discrete values,
@@ -121,22 +118,20 @@ Constant
    The default one, curves before their first keyframe and after their last one have a constant value
    (the one of these first and last keyframes).
 
+   .. figure:: /images/fcurve-extrapolate1.jpg
+      :width: 300px
 
-.. figure:: /images/fcurve-extrapolate1.jpg
-   :width: 300px
-
-   Constant extrapolation.
+      Constant extrapolation.
 
 
 Linear
    Curves ends are straight lines (linear), as defined by their first two keyframes
    (respectively their last two keyframes).
 
+   .. figure:: /images/fcurve-extrapolate2.jpg
+      :width: 300px
 
-.. figure:: /images/fcurve-extrapolate2.jpg
-   :width: 300px
-
-   Linear extrapolation.
+      Linear extrapolation.
 
 
 Additional extrapolation tools (e.g. the "Cycles" F-Modifier)
@@ -152,52 +147,47 @@ You can set the type of handle to use for the curve points :kbd:`V`
 Automatic
    Keyframes are automatically interpolated
 
+   .. figure:: /images/fcurve-auto.jpg
+      :width: 400px
 
-.. figure:: /images/fcurve-auto.jpg
-   :width: 400px
-
-   Auto handles.
+      Auto handles.
 
 
 Vector
    Creates linear interpolation between keyframes.
    The linear segments remain if keyframe centers are moved. If handles are moved, the handle becomes Free.
 
+   .. figure:: /images/fcurve-vector.jpg
+      :width: 400px
 
-.. figure:: /images/fcurve-vector.jpg
-   :width: 400px
-
-   Vector handles.
+      Vector handles.
 
 
 Aligned
    Handle maintain rotation when moved, and curve tangent is maintained
 
+   .. figure:: /images/fcurve-aligned.jpg
+      :width: 400px
 
-.. figure:: /images/fcurve-aligned.jpg
-   :width: 400px
-
-   Aligned handles.
+      Aligned handles.
 
 
 Free
    Breaks handles tangents
 
+   .. figure:: /images/fcurve-free.jpg
+      :width: 400px
 
-.. figure:: /images/fcurve-free.jpg
-   :width: 400px
-
-   Free handles.
+      Free handles.
 
 
 Auto Clamped
    Auto handles clamped to not overshoot
 
+   .. figure:: /images/fcurve-autoClamped.jpg
+      :width: 400px
 
-.. figure:: /images/fcurve-autoClamped.jpg
-   :width: 400px
-
-   Auto clamped handles.
+      Auto clamped handles.
 
 
 Direction of time
@@ -206,15 +196,12 @@ Direction of time
 Although F-curves are very similar to :ref:`curves_bezier`,
 there are some important differences.
 
-For obvious reasons,
-a property represented by a Curve cannot have more than **one** value at a given time,
-hence:
-
+For obvious reasons, a property represented by a Curve
+cannot have more than **one** value at a given time, hence:
 
 - when you move a control point ahead of a control point that was previously ahead of the point that you are moving,
   the two control points switch their order in the edited curve, to avoid that the curve goes back in time
 - for the above reason, it is impossible to have a closed F-Curve
-
 
 .. list-table::
    Two control points switching: the curve cannot go back in time!
@@ -236,10 +223,10 @@ Selected channels can be locked by pressing :kbd:`Tab`.
 
 Many of the hotkeys are the same as the viewport ones, for example:
 
-* :kbd:`G` to grab
-* :kbd:`R` to rotate
-* :kbd:`S` to scale
-* :kbd:`B` for border select/deselect
+- :kbd:`G` to grab
+- :kbd:`R` to rotate
+- :kbd:`S` to scale
+- :kbd:`B` for border select/deselect
 
 And of course you can lock the transformation along the X (time frame) or Y
 (value) axises by pressing :kbd:`X` or :kbd:`Y` during transformation.
@@ -274,19 +261,19 @@ Snap Keys :kbd:`Shift-S`
    Flatten Handles
       Flatten the *Bezier* handles for the selected keyframes.
 
+      .. list-table::
+         Flatten Handles snapping example.
 
-.. list-table::
-   Flatten Handles snapping example.
+         * - .. figure:: /images/Animation-F-Curves-Flatten-Handles-1.jpg
+                :width: 200px
 
-   * - .. figure:: /images/Animation-F-Curves-Flatten-Handles-1.jpg
-          :width: 200px
+                Before Flatten Handles.
 
-          Before Flatten Handles.
+           - .. figure:: /images/Animation-F-Curves-Flatten-Handles-2.jpg
+                :width: 200px
 
-     - .. figure:: /images/Animation-F-Curves-Flatten-Handles-2.jpg
-          :width: 200px
+                After Flatten Handles.
 
-          After Flatten Handles.
 
 Mirror
 ------
@@ -310,8 +297,8 @@ Mirror Keys :kbd:`Shift-M`
 Clean Keyframes
 ---------------
 
-*Clean Keyframes* resets the keyframe tangents to their auto-clamped shape, if they have been modified.
-*Clean Keyframes* :kbd:`O`
+*Clean Keyframes* resets the keyframe tangents to their auto-clamped shape,
+if they have been modified. *Clean Keyframes* :kbd:`O`
 
 .. list-table::
 
@@ -329,7 +316,13 @@ Clean Keyframes
 Smoothing
 ---------
 
-(:kbd:`Alt-O` or :menuselection:`Key --> Smooth Keys`)
+.. admonition:: Reference
+   :class: refbox
+
+   | Menu:     :menuselection:`Key --> Smooth Keys`
+   | Hotkey:   :kbd:`Alt-O`
+
+
 There is also an option to smooth the selected curves , but beware: its algorithm seems to be
 to divide by two the distance between each keyframe and the average linear value of the curve,
 without any setting, which gives quite a strong smoothing! Note that the first and last keys
@@ -354,17 +347,18 @@ Sampling and Baking Keyframes
 Sample Keyframes :kbd:`Shift-O`
    Sampling a set a keyframes replaces interpolated values with a new keyframe for each frame.
 
-.. list-table::
+   .. list-table::
 
-   * - .. figure:: /images/fcurve-sample.jpg
-          :width: 300px
+      * - .. figure:: /images/fcurve-sample.jpg
+             :width: 300px
 
-          FCurve before sampling.
+             FCurve before sampling.
 
-     - .. figure:: /images/fcurve-sample2.jpg
-          :width: 300px
+        - .. figure:: /images/fcurve-sample2.jpg
+             :width: 300px
 
-          FCurve after sampling.
+             FCurve after sampling.
+
 
 Bake Curves :kbd:`Alt-C`
    Baking a curve replaces it with a set of sampled points, and removes the ability to edit the curve.
