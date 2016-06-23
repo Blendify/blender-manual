@@ -1,7 +1,7 @@
 
-************************************
-Recovering from mistakes or problems
-************************************
+***************
+Recovering data
+***************
 
 Blender provides a number of ways for the user to recover from mistakes,
 and reduce the chance of losing their work in the event of operation errors,

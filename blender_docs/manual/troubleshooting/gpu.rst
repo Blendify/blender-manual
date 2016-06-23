@@ -1,7 +1,7 @@
 
-*********************************
-Troubleshooting Graphics Hardware
-*********************************
+*****************
+Graphics Hardware
+*****************
 
 Blender makes use of OpenGL, which is typically hardware accelerated.
 
