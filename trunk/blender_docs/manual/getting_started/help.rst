@@ -3,6 +3,8 @@
 Help System
 ***********
 
+Blender has a range of built-in and web-based help options.
+
 Tooltips
 ========
 
@@ -40,15 +42,14 @@ This opens a webpage relating to the button under the cursor, supporting both to
 
    Other times buttons may link to more general sections of the documentation.
 
+.. _help-menu:
 
 Help Menu
 =========
 
-Blender has a range of built-in and web-based Help options.
+In the Info Editor headers *Help* menu is a group of web links.
+The same links can also be found in the :ref:`splash`.
 
-
-General Web-based Help
-----------------------
 
 .. tip:: Browser and Internet Connection
 
@@ -133,21 +134,3 @@ This can be useful for creating scripts.
 
    The Info Editor Log after adding a Cube.
 
-
-Splash Screen
--------------
-
-Access this by clicking on the Blender icon in the Info Editor's header.
-
-This displays the image where you can identify package and version.
-At the top-right corner, you can see the Date that Blender was compiled and the Git Hash.
-For example, in our Splash Screen below, you can see the version: ``2.77`` and the Git hash: ``b0a7e77``.
-This can be useful to give to support personnel when diagnosing a problem.
-
-There is also some Internet based help options that are also present in the Blender *Splash Screen*.
-These are presented as the same links you will find in the *Help* Menu.
-
-
-.. figure:: /images/getting_started-help_splash.png
-
-   Blender Splash Screen, Blender Version 2.77.
