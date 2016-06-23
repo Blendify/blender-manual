@@ -79,7 +79,7 @@ Your options include:
 - :doc:`Parenting </editors/3dview/object/relationships/parents>` - But not Vertex Parenting.
 - :doc:`Rigid Body Joint </rigging/constraints/relationship/rigid_body_joint>` -
   This is the one Constraint that you can set up through the UI that works in the BGE.
-  It has several options, and can be very powerful - see ITS page for a detailed description and demo .blend.
+  It has several options, and can be very powerful - see ITS page for a detailed description and demo blend-file.
   Don't forget that you can loop through objects using ``bpy`` instead of clicking thousands of
   times to set up chains of these Constraints.
 - Rigid Body Joints on the Fly -
@@ -122,7 +122,6 @@ Also note that you can see how the Bullet triangulation is working
 
 If you want finer-grained control over the display options,
 you can add this as a Python Controller and uncomment whichever pieces you want to see:
-
 
 .. code-block:: python
 

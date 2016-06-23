@@ -6,14 +6,14 @@ File
 The options to manage files are:
 
 New
-   Clears the current scene and loads startup.blend
+   Clears the current scene and loads startup.blend.
 :doc:`Open </data_system/files/open>`
-   Open a blend-file
+   Open a blend-file.
 :ref:`Open Recent <other-file-open-options>`
-   Displays a list of recently saved blend-files to open
+   Displays a list of recently saved blend-files to open.
 :ref:`Recover last session <other-file-open-options>`
    This will load the ``quit.blend`` file Blender automatically saves just before exiting.
-   So this option enables you to recover your last work session, e.g. if you closed Blender by accident
+   So this option enables you to recover your last work session, e.g. if you closed Blender by accident.
 :ref:`Recover Auto Save <other-file-open-options>`
    This will open an automatically saved file to recover it.
 :doc:`Save </data_system/files/save>`
@@ -38,14 +38,14 @@ New
    but you can export some or all of your work to a format that can be processed by other graphics programs.
 :ref:`External Data <pack-unpack-data>`
    Pack into .blend
-      Pack all used external files into the .blend
+      Pack all used external files into the blend-file.
    Unpack into Files
-      Unpack all files packed into this .blend to external ones
+      Unpack all files packed into this blend-file to external ones.
    Make all paths Relative
-      Make all paths to external files relative to current .blend
+      Make all paths to external files relative to current blend-file.
    Make all paths Absolute
-      Make all paths to external files absolute
+      Make all paths to external files absolute.
    Report Missing Files
-      Report all missing external files
+      Report all missing external files.
    Find Missing Files
-      Try to find missing external files
+      Try to find missing external files.
