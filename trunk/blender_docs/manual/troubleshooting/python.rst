@@ -1,7 +1,7 @@
 
-*******************************
-Troubleshooting Python Problems
-*******************************
+*************
+Python Errors
+*************
 
 PYTHONPATH
 ==========

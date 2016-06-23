@@ -1,6 +1,7 @@
-***********************
-Troubleshooting Crashes
-***********************
+
+*******
+Crashes
+*******
 
 The most common causes of Blender crashes.
 

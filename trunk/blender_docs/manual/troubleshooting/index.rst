@@ -7,12 +7,12 @@
 .. toctree::
    :maxdepth: 1
 
-   Startup <startup.rst>
-   3D Viewport <3d_view.rst>
-   Graphics Hardware <gpu.rst>
-   Crashes <crash.rst>
-   Python Errors <python.rst>
-   Recovering Lost Work <recover.rst>
+   startup.rst
+   3d_view.rst
+   gpu.rst
+   crash.rst
+   python.rst
+   recover.rst
 
 
 Compatibility

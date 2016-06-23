@@ -1,7 +1,7 @@
 
-***************************
-Troubleshooting the 3D View
-***************************
+***********
+3D Viewport
+***********
 
 .. admonition:: TODO
    :class: error
