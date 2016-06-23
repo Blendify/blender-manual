@@ -17,8 +17,6 @@ Editor Controls
    :maxdepth: 1
 
    editors/index.rst
-   editors/screens.rst
-   editors/panels.rst
 
 
 Interface Controls
@@ -29,6 +27,7 @@ Interface Controls
 
    controls/buttons_and_controls.rst
    controls/extended_controls.rst
+
 
 Tools
 =====

@@ -8,5 +8,7 @@
    :maxdepth: 1
 
    introduction.rst
-   arranging_areas.rst
    headers.rst
+   screens.rst
+   panels.rst
+   arranging_areas.rst
