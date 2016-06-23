@@ -40,7 +40,7 @@ needs_sphinx = '1.3'
 extensions = ['youtube', 'vimeo']
 
 # Add any paths that contain templates here, relative to this directory.
-templates_path = ['_templates']
+templates_path = ['../resources/templates']
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -173,17 +173,17 @@ html_title = "Blender Reference Manual"
 # of the sidebar.
 #
 # Socket logo from: https://www.blender.org/about/logo
-html_logo = "../theme/sidebar_logo.png"
+html_logo = "../resources/theme/sidebar_logo.png"
 
 # The name of an image file (relative to this directory) to use as a favicon of
 # the docs.  This file should be a Windows icon file (.ico) being 16x16 or 32x32
 # pixels large.
-html_favicon = "../theme/favicon.ico"
+html_favicon = "../resources/theme/favicon.ico"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-html_static_path = ["../theme"]
+html_static_path = ["../resources/theme"]
 
 def setup(app):
     app.add_stylesheet("css/theme_overrides.css")
@@ -283,7 +283,7 @@ latex_documents = [
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-latex_logo = "../theme/sidebar_logo.png"
+latex_logo = "../resources/theme/sidebar_logo.png"
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
