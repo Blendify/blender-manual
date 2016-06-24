@@ -1,6 +1,4 @@
-
-..    TODO/Review: {{review|copy=X}} .
-
+..    TODO/Review: {{review|copy=X}}.
 
 *************
 Render Passes
@@ -23,7 +21,6 @@ such as calculating shadows.
 In a render, every pixel has been calculated several times to make sure it will show the right
 color for the right part of the image.
 Various things that are calculated in a standard render include:
-
 
 - Where are shadows cast?
 - How is ambient light in the environment blocked (occluded) by objects in the scene?
@@ -74,6 +71,7 @@ Selecting Render Passes
 
 .. figure:: /images/RenderLayer-Panel.png
 
+
 Render Passes are the various distinct outputs that the renderer is able to generate.
 All of the following render outputs are normally combined into a single output known,
 appropriately enough, as the *Combined* output.
@@ -91,7 +89,6 @@ the *AO* pass will be blank, even if you select it here.
 
 To save time and disk space, you have to tell Blender each of the passes to render in the Render Layers panel
 (which we first introduced on :doc:`the previous page </render/post_process/layers>`):
-
 
 Combined
    This renders everything in the image, even if it's not necessary.
@@ -179,9 +176,9 @@ Recoloring Shadows
    :width: 300px
 
 
-Let's run the Shadow buffer through a colorization noodle, then recombine it;
+let us run the Shadow buffer through a colorization noodle, then recombine it;
 all your shadows will be artificially colored.
-Lots of threads in this noodle are shown to the right, so let's walk through it.
+Lots of threads in this noodle are shown to the right, so let us walk through it.
 On the left is the Render Layer input node:
 it refers to one of the Render Layers that we have defined for our scene. In the scene,
 we have a reflective ball on a pedestal standing in front of a backdrop. Everything
@@ -236,7 +233,6 @@ If you call it out as a separate pass and wish to composite it back into your im
 you will need to enable the Color and Diffuse pass as well.
 
 To configure your noodle, consider the example image above.
-
 
 - First, depending on the AO mode do one of the following: If AO mode is Add: directly use the AO pass.
   If AO mode is Sub: Calculate AO − 1, or if AO mode is Both: Calculate 2 × AO − 1.

@@ -10,7 +10,7 @@ Properties
    | Panel:    All in Properties editor, *Object data* property
 
 
-Let's first have a general overview of the various panels gathering the armature settings,
+let us first have a general overview of the various panels gathering the armature settings,
 in Properties editor, *Object data* tab:
 
 

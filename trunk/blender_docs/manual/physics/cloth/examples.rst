@@ -4,7 +4,7 @@ Examples
 ********
 
 To start with cloth, the first thing you need, of course, is some fabric. So,
-let's delete the default cube and add a plane. In order to get some good floppy and flexible fabric,
+let us delete the default cube and add a plane. In order to get some good floppy and flexible fabric,
 you'll need to subdivide it several times, about 8 is a good number.
 So :kbd:`Tab` into *Edit Mode*, and press :kbd:`W` :menuselection:`--> Subdivide multi`, and set it to 8.
 

@@ -15,9 +15,8 @@ atmosphere: the scattering of sunlight as it crosses the kilometers of air overh
 For example, when the Sun is high, the sky is blue (and the horizon, somewhat whitish).
 When the Sun is near the horizon, the sky is dark blue/purple, and the horizon turns orange.
 The dispersion of the atmosphere is also more visible when it is a bit foggy:
-the farther away an object is,
-the more "faded" in light gray it is... Go out into the countryside on a nice hot day,
-and you will see.
+the farther away an object is, the more "faded" in light gray it is...
+Go out into the countryside on a nice hot day, and you will see.
 
 To enable this effect, you have to use a *Sun* light source. If, as usual,
 the *position* of the lamp has no importance, its *rotation* is crucial:
@@ -33,7 +32,6 @@ which determines the "hour" of the day (as you might expect,
 the default rotation - straight down - is "mid-day",
 a light pointing straight up is "midnight", and so on...).
 And the rotation around the Z axis determines the position of the sun around the camera.
-
 
 .. figure:: /images/lighting-lamps-sun-position_for_sky_atmosphere.jpg
    :width: 610px
@@ -153,7 +151,7 @@ Scattering
 Examples
 ========
 
-First, let's see what happens when we modify the orientation of the sun:
+First, let us see what happens when we modify the orientation of the sun:
 
 
 .. list-table::
@@ -185,7 +183,6 @@ First, let's see what happens when we modify the orientation of the sun:
 And now, the effects of various settings (examples created with
 `this 2.4 blend-file
 <https://wiki.blender.org/index.php/Media:Manual-Lighting-Lamps-Sun-SkyAtmosphere-Examples-Settings.blend>`__):
-
 
 .. list-table::
    Variations in Turbidity parameter, all other settings to default.
@@ -237,7 +234,6 @@ Sky
 
           Horizon Brightness: 1.13.
 
-
 .. list-table::
    Variations in Horizon Spread parameter, all other settings to default.
 
@@ -260,7 +256,6 @@ Sky
           :width: 200px
 
           Horizon Spread: 5.0.
-
 
 .. list-table::
    Variations in Sun Brightness parameter, all other settings to default.
@@ -285,7 +280,6 @@ Sky
 
           Sun Brightness: 1.0.
 
-
 .. list-table::
    Variations in Sun Size parameter, all other settings to default.
 
@@ -308,7 +302,6 @@ Sky
           :width: 200px
 
           Sun Size: 10.0.
-
 
 .. list-table::
    Variations in Back Light parameter, Sun Bright to 2.5, all other settings to default.
@@ -337,9 +330,7 @@ Sky
 Atmosphere
 ----------
 
-For all renders below, *Hor.Bright* is set to 0.2,
-and *Sun Bright* to 2.0.
-
+For all renders below, *Hor.Bright* is set to 0.2, and *Sun Bright* to 2.0.
 
 .. list-table::
    Variations in Sun Intensity parameter, all other settings to default.
@@ -364,7 +355,6 @@ and *Sun Bright* to 2.0.
 
           Sun Intensity: 10.0.
 
-
 .. list-table::
    Variations in Inscattering parameter, all other settings to default.
 
@@ -388,7 +378,6 @@ and *Sun Bright* to 2.0.
 
           Inscattering: 1.0.
 
-
 .. list-table::
    Variations in Extinction parameter, all other settings to default.
 
@@ -411,7 +400,6 @@ and *Sun Bright* to 2.0.
           :width: 200px
 
           Extinction: 1.0.
-
 
 .. list-table::
    Variations in Distance parameter, all other settings to default.
@@ -442,8 +430,7 @@ Hints and limitations
 
 To always have the *Sun* pointing at the camera center,
 you can use a :doc:`TrackTo constraint </rigging/constraints/tracking/track_to>` on the sun object,
-with the camera as target, and *-Z* as the "To" axis
-(use either *X* or *Y* as "Up" axis).
+with the camera as target, and *-Z* as the "To" axis (use either *X* or *Y* as "Up" axis).
 This way, to modify height/position of the sun in the rendered picture,
 you just have to move it; orientation is automatically handled by the constraint.
 Of course, if your camera itself is moving, you should also add e.g.
@@ -454,8 +441,8 @@ This way, the sun light won't change as the camera moves around.
 If you use the default *Add* mixing type,
 you should use a very dark-blue world color, to get correct "nights"...
 
-This effect works quite well with a *Hemi* lamp, or some ambient occlusion,
-to fill in the *Sun* shadows.
+This effect works quite well with a *Hemi* lamp,
+or some ambient occlusion, to fill in the *Sun* shadows.
 
 Atmosphere shading currently works incorrectly in reflections and refractions and is only
 supported for solid shaded surfaces. This will be addressed in a later release.

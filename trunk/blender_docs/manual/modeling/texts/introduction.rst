@@ -303,7 +303,7 @@ Objects as Fonts
 ^^^^^^^^^^^^^^^^
 
 You can also "create" your own "font" inside Blender! This is quite a complex process,
-so let's detail it:
+so let us detail it:
 
 - First, you must create your chars. Each char, of any type,  is an object (mesh, curve, meta...).
   They all must have a name following the schema:

@@ -38,7 +38,7 @@ Display Panel
    | Panel:    :menuselection:`Object Data --> Display`
 
 
-But let's first see some general visualization properties of armatures,
+But let us first see some general visualization properties of armatures,
 found in the *Display* panel of the *Object data* tab.
 
 .. figure:: /images/RiggingEditingObjectDataPropertyCxtDisplayPanel.jpg

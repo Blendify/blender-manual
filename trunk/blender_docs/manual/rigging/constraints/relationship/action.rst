@@ -21,7 +21,7 @@ and not meshes' shapes.
 Also note that only the object transformation (location, rotation, scale) is affected by the action,
 if the action contains keyframes for other properties they are ignored, as constraints do not influence those.
 
-As an example, let's assume you have defined an *Object* action
+As an example, let us assume you have defined an *Object* action
 (it can be assigned to any object, or even no object at all),
 and have mapped it on your owner through an *Action* constraint,
 so that moving the target in the (0.0 to 2.0)

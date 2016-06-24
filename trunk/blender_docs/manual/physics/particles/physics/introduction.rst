@@ -18,7 +18,6 @@ None (`No Physics`_)
 :doc:`Fluid </physics/particles/physics/fluid>`
    Movement according to fluid laws (based on Smoothed Particle Hydrodynamics technique).
 
-
 Additional ways of moving particles:
 
 - By softbody animation (only for Hair particle systems).
@@ -100,7 +99,7 @@ Initial Rotation Mode
       Randomizes rotation.
 
 Dynamic
-   If enabled, only initializes particles to the wanted rotation and angular velocity and let's
+   If enabled, only initializes particles to the wanted rotation and angular velocity and let us
    physics handle the rest.
    Particles then change their angular velocity if they collide with other objects
    (like in the real world due to friction between the colliding surfaces).

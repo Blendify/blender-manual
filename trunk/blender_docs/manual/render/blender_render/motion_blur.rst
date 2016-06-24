@@ -51,7 +51,7 @@ The compositor uses that data to blur each pixel in the given direction.
 Examples
 ========
 
-To better grasp the concept, let's assume that we have a cube 2 units wide,
+To better grasp the concept, let us assume that we have a cube 2 units wide,
 uniformly moving 1 unit to the right at each frame.
 The scale beneath the cube helps in appreciating the movement of 1 Blender unit.
 

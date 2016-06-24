@@ -177,7 +177,7 @@ the copy is selected and placed in *Grab* mode, so you can move it to another pl
 
 However, with surfaces there are some selections that can't be duplicated,
 in which case they will just be placed in *Grab* mode... In fact,
-only selections forming a *single* valid sub-grid are copyable; let's see this in practice:
+only selections forming a *single* valid sub-grid are copyable; let us see this in practice:
 
 - You can copy a single control point.
   From it, you will be able to "extrude" a "surface curve" along the U axis,

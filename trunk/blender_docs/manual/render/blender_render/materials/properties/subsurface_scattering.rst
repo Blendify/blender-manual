@@ -36,7 +36,7 @@ Blender calculates SSS in two steps:
   and it's a bit more complicated than simply calculating the average,
   but don't bother too much with the math behind it.
 
-Instead let's see what SSS does to a distinct light point.
+Instead let us see what SSS does to a distinct light point.
 
 .. list-table::
 
@@ -68,7 +68,6 @@ you may choose different radius values for each of the RGB colors.
 
 If you use a very large radius value for a color,
 its light is evenly distributed over the whole object.
-
 
 .. note:: Note about scatter radius
 

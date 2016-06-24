@@ -268,7 +268,7 @@ Using Distance from a Target Object
 -----------------------------------
 
 As a first example,
-let's dynamically control a *Wave* modifier with a modified vertex group.
+let us dynamically control a *Wave* modifier with a modified vertex group.
 
 #. Add a *Grid* mesh with (100×100) x/y subdivisions and a 5 BU Radius
 

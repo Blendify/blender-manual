@@ -1,6 +1,4 @@
-
-..    TODO/Review: {{review|copy=X|text=partialy}} .
-
+..    TODO/Review: {{review|copy=X|text=partialy}}.
 
 **********
 Collisions
@@ -52,7 +50,7 @@ the plane collides with the cube as the plane is pulled down by gravity. You can
 *CFace* to enable collision between the face of the plane and the object instead
 Fig. Image 2c, but this type of calculation takes much longer.
 
-Let's have a closer look at the collision calculation,
+let us have a closer look at the collision calculation,
 so you can get an idea of how we might optimize it.
 
 
@@ -91,7 +89,6 @@ are traveling so fast that they pass right through the collision zone
 that the fourth vertex also travels quite fast and because it is heavier it breaches the inner
 zone. The first three vertices collide correctly.
 
-
 .. figure:: /images/softbodycollidingedges.png
 
    Image 3d: Also Edges and Faces can be used for the collision calculation.
@@ -112,7 +109,6 @@ Good collisions
 
 
 If the collision you have set up is not behaving properly, you can try the following:
-
 
 .. tip:: The best way
 

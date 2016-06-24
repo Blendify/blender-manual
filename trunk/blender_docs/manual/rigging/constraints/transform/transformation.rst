@@ -1,5 +1,4 @@
-
-..    TODO/Review: {{review|im=examples}} .
+..    TODO/Review: {{review|im=examples}}.
 
 *************************
 Transformation Constraint
@@ -46,11 +45,10 @@ Extrapolate
    all values outside these ranges are clipped to them.
    When you enable this button, the *min* and *max* values are no longer strict limits,
    but rather "markers" defining a proportional (linear) mapping between input and corresponding output values.
-   Let's illustrate that with two graphs Fig. The Extrapolate principles.
+   let us illustrate that with two graphs Fig. The Extrapolate principles.
    In these Fig. pictures, the input range (in abscissa) is set to (1.0 to 4.0),
    and its corresponding output range (in ordinate), to (1.0 to 2.0).
    The yellow curve represents the mapping between input and output.
-
 
 .. list-table::
    The *Extrapolate* principles.
@@ -64,7 +62,6 @@ Extrapolate
           :width: 300px
 
           Extrapolate enabled: the output values are "free" to proportionally follow the input ones.
-
 
 .. warning::
 
@@ -88,6 +85,7 @@ Extrapolate
      whatever the real values are, the constraint will always take their absolute values (i.e. invert negative ones).
    - When a *min* value is higher than its corresponding *max* one,
      both are considered equal to the *max* one. This implies you cannot create "reversed" mappings...
+
 
 Source
    It contains the input (from target) settings.

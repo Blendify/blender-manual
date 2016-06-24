@@ -31,14 +31,13 @@ You can connect the nodes to one another in many different ways, and you can adj
 This gives you a tremendous amount of creative control. And,
 it will very quickly become intuitive.
 
-Having said all that, let's begin with a normal material.
+Having said all that, let us begin with a normal material.
 
 Here we have the standard material we have added to a cube mesh. We could,
 as we have in the past,
-add color and other settings to this material and it would certainly look nice. But let's say
+add color and other settings to this material and it would certainly look nice. But let us say
 we are just not getting what we are looking for? What if we want to control the creation more
 tightly or add more complexity? Here is where nodes come in.
-
 
 Making this node map is accomplished by working in a
 :doc:`Node Editor </editors/node_editor/editor>`.
@@ -47,6 +46,7 @@ This section covers:
 - Enabling Material Nodes.
 - The Node Editor, its basic controls, and working with nodes.
 - The specific types of nodes available for materials.
+
 
 Accessing The Node Editor
 =========================
@@ -70,13 +70,11 @@ Enabling Node Materials in the Material Buttons
           Default nodes.
 
 
-Let's take the base material and hit the Nodes button next to the material name in the
+let us take the base material and hit the Nodes button next to the material name in the
 material panel or the node editor. You will see a change in the material panel.
-
 
 What you have just done is told Blender to make the material you were on to become the node
 tree. Most of the panels we normally find in the material menu are now gone.
-
 
 .. figure:: /images/materials-nodes-compositing_screen.jpg
 
@@ -91,7 +89,6 @@ a material node and an output node were automatically added to the node editor.
 
 You can also split the 3D View in the default screen in two and change one into a
 *Node Editor*.
-
 
 .. list-table::
 
@@ -111,4 +108,3 @@ and also use the material that you used to create the node tree.
 
 Here, we added a new material in the *Node editor* (*Material.001*),
 and as we did, we can access the properties of this material in the material's menu.
-
