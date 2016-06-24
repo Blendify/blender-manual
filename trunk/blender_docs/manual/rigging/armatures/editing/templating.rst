@@ -1,4 +1,3 @@
-
 ..    TODO/Review: {{review|copy=X}}.
 
 *******************
@@ -100,7 +99,7 @@ OK now, here are some important ground rules:
   Else, the chain of the template containing the first created bones will be mapped to the
   selected strokes, and the other chains will just be "copied" *as is*, without any modification.
 - This tool maps the same chain of bones on all selected strokes,
-  so you can't use multiple strokes to map a multi-chains template -
+  so you cannot use multiple strokes to map a multi-chains template -
   you will rather get a whole set of new bones for each selected stroke!
 - If you have strokes only made of straight segments,
   they must have *at least* as much segments as there are bones in the template chain

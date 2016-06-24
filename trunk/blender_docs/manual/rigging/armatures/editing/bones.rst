@@ -10,7 +10,7 @@ Editing Bones
    | Hotkey:   :kbd:`Tab`
 
 
-You'll learn here how to add (`Adding Bones`_), delete (`Deleting Bones`_) or subdivide (`Subdividing Bones`_) bones.
+You will learn here how to add (`Adding Bones`_), delete (`Deleting Bones`_) or subdivide (`Subdividing Bones`_) bones.
 We will also see how to prevent any bone transformation (`Locking Bones`_) in *Edit Mode*,
 and the option that features an automatic mirroring (`X-Axis Mirror Editing`_) of editing actions along the X axis.
 
@@ -324,7 +324,7 @@ As in mesh editing, by pressing :kbd:`Shift-D`:
 - the duplicates become the selected elements and they are placed in grab mode,
   so you can move them wherever you like.
 
-If you select part of a chain, by duplicating it you'll get a copy of the selected chain,
+If you select part of a chain, by duplicating it you will get a copy of the selected chain,
 so the copied bones are interconnected exactly like the original ones.
 
 The duplicate of a bone which is parented to another bone will also be parented to the same
@@ -435,7 +435,7 @@ differently depending in which chain is the edited bone
           :width: 300px
 
           Bones Bone, Bone.001 and Bone.002 have been merged in Bone.006,
-          whereas Bone.005 wasn't modified. Note Bone.003, connected to Bone.006 but not yet "really" connected.
+          whereas Bone.005 was not modified. Note Bone.003, connected to Bone.006 but not yet "really" connected.
 
    * - .. figure:: /images/RiggingBoneMergeExEditMode3.jpg
           :width: 300px
@@ -474,7 +474,7 @@ To create an arbitrary number of bones from each selected bone:
 - select :menuselection:`Armature --> Subdivide Multi` from the header menu, an
 
 Then specify the number of cuts you want in the pop-up. As in mesh editing,
-if you set *n* cuts, you'll get *n* + 1 bones for each selected bone.
+if you set *n* cuts, you will get *n* + 1 bones for each selected bone.
 
 .. list-table::
    Subdivision example

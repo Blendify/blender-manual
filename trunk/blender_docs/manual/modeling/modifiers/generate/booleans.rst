@@ -196,7 +196,7 @@ If you want to have a subsurf added to the modified mesh, you have to apply the 
 Boolean modified mesh before applying the Boolean operation.
 
 The Boolean modifier can be added together with other modifiers in the modified mesh,
-but depending on the modifier, the calculations can't be done and/or the modifier cannot execute.
+but depending on the modifier, the calculations cannot be done and/or the modifier cannot execute.
 When the modifier cannot execute, it will show the message ``"Cannot execute boolean operation"``,
 and when the modifier cannot be applied to the mesh,
 Blender will show the message ``"Modifier is disabled, Skipping Apply."``.
@@ -332,8 +332,8 @@ you can see that the modifier has bad effects when applied, leaving faces opened
 
 
 As you can see, the normal directions can be pointing to any of the Mesh sides,
-but can't be mixed in opposite directions for the faces of the participants.
-The Library can't determine properly what's positive and negative for the operation, so the
+but cannot be mixed in opposite directions for the faces of the participants.
+The Library cannot determine properly what's positive and negative for the operation, so the
 results will be bad or you will have no effect when using the Boolean modifier operation.
 
 A quick way to fix this is to use Blender's
@@ -379,7 +379,7 @@ Open Volumes
 The Boolean Modifier permits you to use open meshes or non-closed volumes (not open faces).
 
 When using open meshes or non-closed volumes, the Boolean modifier won't perform
-any operation in faces that don't create a new topology filled with faces using the faces of the target.
+any operation in faces that do not create a new topology filled with faces using the faces of the target.
 
 In the images below, is the resulting operation when using two non-closed volumes with faces forming a new topology.
 
@@ -395,7 +395,7 @@ In the images below, is the resulting operation when using two non-closed volume
 
 
 Now, let us see what happens when we use meshes that are partially open,
-incomplete, or meshes that aren't forming a new topology.
+incomplete, or meshes that are not forming a new topology.
 
 As you can see in the images below the faces of one participant in the Boolean operation
 gives incomplete information to the modifier. The resulting edges get messy and there is
@@ -407,7 +407,7 @@ the shading (smooth/flat) doesn't affect the calculations of the modifier.
 
    * - .. figure:: /images/modifiers_boolean_incomplete_face_shape.jpg
 
-          Open volumes that aren't forming a new topology.
+          Open volumes that are not forming a new topology.
 
      - .. figure:: /images/Modifier_Generate_Boolean_Resulting_Incomplete_Face_Shape.jpg
 

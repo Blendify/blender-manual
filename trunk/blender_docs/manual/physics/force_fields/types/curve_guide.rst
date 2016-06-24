@@ -21,7 +21,7 @@ Since you can animate curves as Softbody or any other usual way,
 you may build very complex animations while keeping great control and keeping the simulation time to a minimum.
 
 The option *Curve Follow* does not work for particles. Instead you have to set *Angular Velocity*
-(*Particle system* tab) to *Spin* and leave the rotation constant (i.e. don't turn on *Dynamic*).
+(*Particle system* tab) to *Spin* and leave the rotation constant (i.e. do not turn on *Dynamic*).
 
 *Curve Guide* s affect all particles on the same layer, independently from their distance to the curve.
 If you have several guides in a layer,

@@ -40,8 +40,8 @@ This opens a webpage relating to the button under the cursor, supporting both to
 
 .. note::
 
-   We don't currently have 100% coverage,
-   you may see an alert in the info header if some tools don't have a link to the manual.
+   We do not currently have 100% coverage,
+   you may see an alert in the info header if some tools do not have a link to the manual.
 
    Other times buttons may link to more general sections of the documentation.
 

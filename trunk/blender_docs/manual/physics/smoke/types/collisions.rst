@@ -17,7 +17,7 @@ Then select *Collision* as the *Smoke Type*.
    *Smoke Collision* settings.
 
 
-.. TODO, can't figure out what the differences between the collision types are :/
+.. TODO, cannot figure out what the differences between the collision types are :/
 .. Wild speculation on SE: https://blender.stackexchange.com/q/1723/599
 
 .. Lukas Toenne investigated this (https://developer.blender.org/T45842#329325) and it appears that rigid and static

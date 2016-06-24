@@ -28,7 +28,7 @@ Material Textures
 =================
 
 The material settings that we've seen so far produce smooth, *uniform* objects,
-but such objects aren't particularly true to reality,
+but such objects are not particularly true to reality,
 where uniformity tends to be uncommon and out of place.
 In order to deal with this unrealistic uniformity,
 Blender allows the user to apply *textures* which can modify the reflectivity, specularity,

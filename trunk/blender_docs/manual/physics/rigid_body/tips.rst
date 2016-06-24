@@ -46,7 +46,7 @@ If it's still necessary, setting the collision margin to 0,
 while generally not recommended, can help making small object behave more naturally.
 
 When objects are small and/or move very fast, they can pass through each other. Besides what's mentioned above it's
-also good to avoid using mesh shapes in this case. Mesh shapes consist of individual triangles and therefore don't
+also good to avoid using mesh shapes in this case. Mesh shapes consist of individual triangles and therefore do not
 really have any thickness, so objects can pass through more easily. You can give them some thickness by increasing the
 collision margin.
 

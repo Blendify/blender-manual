@@ -108,7 +108,7 @@ Start Cap / End Cap
 
    .. note::
 
-      The start/end cap objects currently don't support the *First Last* option.
+      The start/end cap objects currently do not support the *First Last* option.
 
 
 Hints

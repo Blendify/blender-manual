@@ -44,7 +44,7 @@ and hence be part of several chains at the same time.
 
 The bone at the beginning of a chain is called its *root bone*,
 and the last bone of a chain is the *tip bone*
-(don't confuse them with similar names of bones' ends!).
+(do not confuse them with similar names of bones' ends!).
 
 Chains of bones are a particularly important topic in :doc:`posing </rigging/posing/index>`
 (especially with the standard *forward kinematics* versus "automatic" *inverse kinematics* posing techniques).

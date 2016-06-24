@@ -44,7 +44,7 @@ Chain Scaling
       Stretch the Y axis of the bones to fit the curve
    XZ Scale Mode:
       None
-         Don't scale the X and X axes (default)
+         Do not scale the X and X axes (default)
       Bone Original
          Use the original scaling of the bones
       Volume Preservation

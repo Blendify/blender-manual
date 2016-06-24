@@ -14,7 +14,7 @@ you will need them. Blender supports the following kinds of shadows:
 - :doc:`Ambient occlusion </render/blender_render/lighting/ambient_occlusion>`
 - :doc:`Indirect lighting </render/blender_render/lighting/indirect_lighting>`
 
-Ambient occlusion really isn't a shadow based on light *per se*, but based on geometry.
+Ambient occlusion really is not a shadow based on light *per se*, but based on geometry.
 However, it does mimic an effect where light is prevented from fully and uniformly
 illuminating an object, so it is mentioned here. Also,
 it is important to mention ambient lighting,
@@ -112,7 +112,7 @@ Lamps: Buffered Shadows
 *Buffered* shadows provide fast-rendered shadows at the expense of precision and/or quality.
 Buffered shadows also require more memory resources as compared to ray tracing.
 Using buffered shadows depends on your requirements.
-If you are rendering animations or can't wait hours to render a complex scene with soft shadows,
+If you are rendering animations or cannot wait hours to render a complex scene with soft shadows,
 buffer shadows are a good choice.
 
 For a scanline renderer - and Blender's built-in engine *is*, among other things,

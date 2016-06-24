@@ -49,7 +49,7 @@ When using file textures, it is very important that you have
 :doc:`Mapped the UVs </editors/uv_image/uv_editing/unwrapping>`
 of the mesh, and they are laid out appropriately.
 
-You don't have to UV map the *entire* mesh.
+You do not have to UV map the *entire* mesh.
 The sphere above on the left has some faces mapped,
 but other faces use procedural materials and textures.
 Only use UV Textures for those portions of your mesh where you want very graphic,
@@ -214,8 +214,8 @@ you would paint a grey-scale image with black where you want the texture transpa
 map input to UV, and map it to Alpha (not color). To make portions of a mesh,
 like a piece of hot metal, appear to glow, you would use a grey-scale image mapped to Emit.
 
-Believe it or not, this is only "the tip of the iceberg!" If everything that's been described
-here just isn't enough for you, the *texture nodes* feature,
+Believe it or not, this is only "the tip of the iceberg!" If everything that is been described
+here just is not enough for you, the *texture nodes* feature,
 introduced in recent versions of Blender,
 enables you to layer and combine textures in almost any way you can imagine.
 
@@ -239,7 +239,7 @@ you should now be able to recreate this image.
 
 You can also assign :doc:`multiple materials </render/blender_render/materials/multiple_materials>`
 to the mesh based on which faces you want to be procedural and which you want to be texture-mapped.
-Just don't UV map the faces you want to be procedural.
+Just do not UV map the faces you want to be procedural.
 
 You can use UV Textures and VertexPaint (:kbd:`V` in the 3D View) simultaneously,
 if both are enabled in the Material settings.
@@ -264,7 +264,7 @@ a face can therefore only have one UV Texture image,
 and the UV coordinates for that face must fit entirely on the image.
 If you want a face to have multiple images, split the face into parts,
 and assign each part its own image. *(Or* you can get fancy with Nodes,
-but that's another story ...)
+but that is another story ...)
 
 
 Using Alpha Transparency

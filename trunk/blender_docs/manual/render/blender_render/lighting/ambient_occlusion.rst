@@ -18,12 +18,12 @@ and shades the pixel accordingly.
 
 It's got nothing to do with light at all; it's purely a rendering trick that tends to look
 nice because generally in real life surfaces that are close together (like small cracks)
-will be darker than surfaces that don't have anything in front of them, because of shadows,
+will be darker than surfaces that do not have anything in front of them, because of shadows,
 dirt, etc.
 
 The AO process, though, approximates this result;
 it's not simulating light bouncing around or going through things.
-That's why AO still works when you don't have any lights in the scene,
+That is why AO still works when you do not have any lights in the scene,
 and it's why just switching on AO alone is a very bad way of "lighting" a scene.
 
 You must have ray tracing enabled as a *Render* panel option in the

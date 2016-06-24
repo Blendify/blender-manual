@@ -275,7 +275,7 @@ Conclusion
 ==========
 
 Render Passes can be manipulated to give you almost complete control over your final image.
-Causing objects to cast shadows that aren't really their shadows,
+Causing objects to cast shadows that are not really their shadows,
 making objects appear out of focus or sharply in focus like a real camera, manipulating colors
 just for final post-processing or just reconfiguring your render passes to save render time,
 are all things which you might wish to manipulate the render engine for.

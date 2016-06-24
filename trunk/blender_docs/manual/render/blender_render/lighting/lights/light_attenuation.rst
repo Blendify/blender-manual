@@ -267,7 +267,7 @@ This lamp falloff type attenuates its intensity linearly,
 scaled by the *Dist* value. This is the default setting, behaving the same as the
 default in previous Blender versions without *Quad* switched on, and consequently,
 like the new *Lin/Quad Weighted* option with *Linear* to 1.0 and
-*Quad* to 0.0. This isn't physically accurate,
+*Quad* to 0.0. This is not physically accurate,
 but can be easier to light with.
 
 
@@ -282,7 +282,7 @@ Constant
 
 This lamp falloff type does not attenuate its intensity with distance.
 This is useful for distant light sources like the sun or sky,
-which are so far away that their falloff isn't noticeable.
+which are so far away that their falloff is not noticeable.
 *Sun* and *Hemi* lamps always have constant falloff.
 
 
@@ -409,7 +409,7 @@ With *Inverse Square* selected, the *Distance* field specifies where the light b
 roughly speaking; see the light attenuation description in `Falloff types`_ for more info.
 
 In Fig. Inverse Square with 10,
-the light's intensity has fallen so quickly that the last few objects aren't even lit.
+the light's intensity has fallen so quickly that the last few objects are not even lit.
 
 Both Fig. Inverse Square with 100 and
 Fig. Inverse Square with 1000 appear to be almost identical and that is

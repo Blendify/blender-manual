@@ -124,7 +124,7 @@ Let us make a simple example:
 .. tip::
 
    Moving the Monkey in directions other than the dominant axis will create some odd deformations.
-   Sometimes this is what you want to achieve, so you'll need to experiment and try it out!
+   Sometimes this is what you want to achieve, so you will need to experiment and try it out!
 
 .. figure:: /images/curvesdeform_examplemonkeyoncurve2.jpg
    :width: 650px

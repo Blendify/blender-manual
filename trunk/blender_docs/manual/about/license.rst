@@ -37,7 +37,7 @@ For example:
 See `Best practices for attribution <https://wiki.creativecommons.org/wiki/Marking/Users>`__ for further explanation.
 
 
-It means, that when contributing to the manual you don't hold exclusive copyright to your text.
+It means, that when contributing to the manual you do not hold exclusive copyright to your text.
 You are, of course, acknowledged and appreciated for your contribution.
 However, others can change and improve your text in order to keep the manual consistent and up to date.
 

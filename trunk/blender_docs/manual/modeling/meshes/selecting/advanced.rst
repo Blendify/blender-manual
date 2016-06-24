@@ -33,7 +33,7 @@ Non Manifold :kbd:`Ctrl-Shift-Alt-M`
    Extend
       Lets you extend the current selection.
    Wire
-      Selects all the edges that don't belong to any face.
+      Selects all the edges that do not belong to any face.
    Boundaries
       Selects edges in boundaries and holes.
    Multiple Faces

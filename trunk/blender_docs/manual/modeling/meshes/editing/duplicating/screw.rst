@@ -127,7 +127,7 @@ use the shortcut :kbd:`T` in the Edit Mode of the 3D View editor.
 
 Once you perform any other operation,
 Blender leaves the interactive mode and accepts all of the values. Because it's modal, you
-can't return to the interactive mode after completing/leaving the operation or changing from
+cannot return to the interactive mode after completing/leaving the operation or changing from
 *Edit Mode* to *Object Mode*.
 If you want to restart the operation from its beginning,
 you can press :kbd:`Ctrl-Z` at any time in *Edit Mode*.
@@ -290,7 +290,7 @@ change abruptly from negative to positive and vice versa to give the extrusion a
 and you will have to tweak the corresponding Axis accordingly to achieve the Clockwise and
 Counterclockwise effect.
 
-.. note:: Vectors that aren't parallel with Blender Axis
+.. note:: Vectors that are not parallel with Blender Axis
 
    The high sensibility for the vector doesn't apply to vectors that give the Screw Tool a starting angle (Ex:
    any non-parallel vector),
@@ -303,7 +303,7 @@ Counterclockwise effect.
 Bending the Profiles using the Spring Example
 ---------------------------------------------
 
-Still using the Spring Example, we can change the remaining vector for the angles that aren't
+Still using the Spring Example, we can change the remaining vector for the angles that are not
 related to the extrusion Axis of our Spring, thus bending our spring with the remaining
 vectors and creating a profile that will also open and/or close because of the change in
 starting angular vector values. What we are really doing is changing the starting angle of the

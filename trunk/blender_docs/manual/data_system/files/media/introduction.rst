@@ -41,7 +41,7 @@ By default only renders are displayed and saved with the render view transformat
 These are the Render Result and Viewer image data-blocks,
 and the files saved directly to disk with the Render Animation operator.
 However when loading a render saved to an intermediate OpenEXR file,
-Blender can't detect automatically that this is a render (it could be e.g.
+Blender cannot detect automatically that this is a render (it could be e.g.
 an image texture or displacement map).
 We need to specify that this is a render and that we want the transformations applied,
 with these two settings:

@@ -94,7 +94,7 @@ the newly-created edge and the last two edges, performing a smooth angle between
 this angle using the last positive and negative position of the last X and Y coordinates
 and the last connected unselected edge. If this angle exceeds a negative limit (following a quadrant rule)
 between the recently created edge and the last two, Blender will wrap the faces.
-But if you don't want Blender rotating and smoothing edges automatically when extruding from :kbd:`Ctrl-LMB`,
+But if you do not want Blender rotating and smoothing edges automatically when extruding from :kbd:`Ctrl-LMB`,
 you can also inhibit Blender from rotating sources using the shortcut :kbd:`Ctrl-Shift-LMB`.
 In this case, Blender won't rotate the source dividing the angle between those edges when creating a face.
 

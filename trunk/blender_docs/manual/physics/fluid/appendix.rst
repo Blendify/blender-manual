@@ -11,10 +11,10 @@ Hints
 Some useful hints about fluid simulation in Blender:
 
 
-- Don't be surprised, but you'll get whole bunch of mesh (.bobj.gz) files after a simulation.
+- Do not be surprised, but you will get whole bunch of mesh (.bobj.gz) files after a simulation.
   One set for preview, and another for final.
   Each set has a .gz file for each frame of the animation.
-  Each file contains the simulation result - so you'll need them.
+  Each file contains the simulation result - so you will need them.
 
 
 - Currently these files will not be automatically deleted, so it is a good idea to e.g.
@@ -35,7 +35,7 @@ Some useful hints about fluid simulation in Blender:
   if the chosen resolution is too coarse to resolve them (increasing it might solve this problem).
 
 
-- Don't try to do a complicated scene all at once.
+- Do not try to do a complicated scene all at once.
   Blender has a powerful compositor that you can use to combine multiple animations.
 
    For example, to produce an animation showing two separate fluid flows while keeping your domain small,
@@ -43,7 +43,7 @@ Some useful hints about fluid simulation in Blender:
    Then move the domain and render another .avi with the other flow using an alpha channel (in a separate B&W .avi?).
    Then, composite both .avi's using the compositor's add function.
    A third ``.avi`` is usually the smoke and mist and it is laid on top of everything as well.
-   Add a rain sheet on top of the mist and spray and you'll have quite a storm brewing! And then lightning flashes,
+   Add a rain sheet on top of the mist and spray and you will have quite a storm brewing! And then lightning flashes,
    trash blowing around, all as separate animations, compositing the total for a truly spectacular result.
 
 
@@ -86,7 +86,7 @@ Limitations & Workarounds
 
 - Note that first frame may well take only a few hundred MBs of RAM memory,
   but latter ones go over one GB, which may be why your bake fails after awhile.
-  If so, try to bake one frame at the middle or end at full res so you'll see if it works.
+  If so, try to bake one frame at the middle or end at full res so you will see if it works.
 
 
 - Memory used doubles when you set surface subdivision from 1 to 2.

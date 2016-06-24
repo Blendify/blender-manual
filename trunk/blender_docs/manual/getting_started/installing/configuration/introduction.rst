@@ -23,7 +23,7 @@ Input
 If you have a compact keyboard without a separate number pad enable
 :menuselection:`File --> User Preferences --> Emulate Numpad`.
 
-If you don't have a middle mouse button you can enable
+If you do not have a middle mouse button you can enable
 :menuselection:`File --> User Preferences --> Emulate 3 Button Mouse`.
 
 See :doc:`Input Preferences </preferences/input>` for details.

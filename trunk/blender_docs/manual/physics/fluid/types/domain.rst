@@ -179,7 +179,7 @@ Viscosity
    Glass at room temperature is basically a solid, but glass at 1500 degrees Celsius flows (nearly) like water.
 
 ..
-   There's still some things that aren't correct in this table, I think.
+   There's still some things that are not correct in this table, I think.
    Let me put as clear as I can:
    *The dynamic viscosity international unit is the Pascal-seconds (Pa.s).
    There are also Poise (P = 0.1 Pa.s), and centiPoise (cP = 0.001 Pa.s).
@@ -208,7 +208,7 @@ Viscosity
    or the law to pass from dynamic viscosity to kinematic viscosity is just a "trick",
    an approximation, only working with fluids around water viscosity...
 ..
-   Don't know, I'm not a physicist, but there definitively something wrong here,
+   Do not know, I am not a physicist, but there definitively something wrong here,
    so if someone who knows better about this matter could check and correct it, it would be nice!
    --Mont29, 2009/08
 

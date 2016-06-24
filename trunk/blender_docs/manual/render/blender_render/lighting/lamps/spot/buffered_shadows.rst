@@ -176,7 +176,7 @@ Sample Buffers
 
    This option is used in special cases,
    like very small objects which move and need to generate really small shadows (such as strands).
-   It appears that normally, pixel width shadows don't anti-alias properly,
+   It appears that normally, pixel width shadows do not anti-alias properly,
    and that increasing *Buffer Size* doesn't help much.
 
    So this option allows you to have a sort of extra sample pass, done above the regular one

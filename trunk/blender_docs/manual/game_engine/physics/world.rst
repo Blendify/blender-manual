@@ -128,7 +128,7 @@ for more details.
 
 Type
    None
-      obstacle simulation is disabled, actors aren't able to avoid obstacles
+      obstacle simulation is disabled, actors are not able to avoid obstacles
    RVO (cells)
       obstacle simulation is based on the `RVO method <http://gamma.cs.unc.edu/RVO/>`__ with cell sampling.
    RVO (rays)

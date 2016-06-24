@@ -25,7 +25,7 @@ text object.
 
 Text flows continuously from the lowest-numbered frame to the highest-numbered frame with text
 inside each frame word-wrapped.
-Text flows between frames when a lower-numbered frame can't fit any more text.
+Text flows between frames when a lower-numbered frame cannot fit any more text.
 If the last frame is reached, text overflows out of it.
 
 Text frames are very similar to the concept of *frames* from a desktop publishing
@@ -90,7 +90,7 @@ Example: Text Flow
 With two or more frames you can organize text to a finer degree. For example,
 create a text object and enter "Blender is super duper".
 This text object has a frame;
-it just isn't visible because its *Width* is 0.0.
+it just is not visible because its *Width* is 0.0.
 
 
 Set the width to 5.0.

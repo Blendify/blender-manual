@@ -28,7 +28,7 @@ View Name
    For example: *User Persp* or *Top Ortho*.
 Playback FPS
    Show the frames per second screen refresh rate while an animation is played back.
-   It appears in the viewport corner, displaying red if the frame rate set can't be reached.
+   It appears in the viewport corner, displaying red if the frame rate set cannot be reached.
 Global Scene
    Forces the current scene to be displayed in all screens (a project can consist of more than one scene).
 Object Origin Size
@@ -75,7 +75,7 @@ Rotate Around Selection
 
       This may seem ideal behavior,
       however it can become problematic with larger objects such as a terrain-mesh,
-      where the center isn't necessarily your point of interest.
+      where the center is not necessarily your point of interest.
 
 Global Pivot
    Lock the same rotation/scaling pivot in all 3D Views.

@@ -122,7 +122,7 @@ Angular Velocity
 
 If you use a Curve Guide and want the particles to follow the curve,
 you have to set Angular Velocity to Spin and leave the rotation on Constant (i.e.
-don't turn on Dynamic). Curve Follow does not work for particles.
+do not turn on Dynamic). Curve Follow does not work for particles.
 
 
 Common Physics Settings

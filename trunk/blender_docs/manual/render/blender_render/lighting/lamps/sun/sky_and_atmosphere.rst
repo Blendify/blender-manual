@@ -24,7 +24,7 @@ it determines which hour it is. As a starting point,
 you should reset rotation of your *Sun* (with :kbd:`Alt-R`, or typing :kbd:`0`
 in each of the three *Rotation* fields X, Y, Z in
 the *Transform Properties* panel - :kbd:`N`). This way,
-you'll have a nice mid-day sun (in the tropics).
+you will have a nice mid-day sun (in the tropics).
 
 Now, there are two important angles for the *Sky/Atmosphere* effect:
 the "incidence" angle (between the light direction and the X-Y plane),

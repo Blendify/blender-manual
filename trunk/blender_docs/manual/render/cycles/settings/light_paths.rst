@@ -59,7 +59,7 @@ The ray type does not change when passing through a transparent BSDF.
 Alpha pass output is also different for the transparent :abbr:`BSDF (Bidirectional scattering
 distribution function)`. Other transmission :abbr:`BSDF (Bidirectional scattering distribution
 function)` s are considered opaque, because they change the light direction.
-As such they can't be used for alpha-over compositing, while this is possible with the
+As such they cannot be used for alpha-over compositing, while this is possible with the
 transparent :abbr:`BSDF (Bidirectional scattering distribution function)`.
 
 The maximum number of transparent bounces is controlled separately from other bounces.

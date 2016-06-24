@@ -58,7 +58,7 @@ Edge types can also be excluded from calculation by pressing the *X* next to the
 
 Silhouette
    Draws silhouettes around your closed objects; it is often good for organic objects (like Suzanne & Sphere),
-   and bad for sharp edges, like a box. It can't render open mesh objects like open cylinders and flat planes.
+   and bad for sharp edges, like a box. It cannot render open mesh objects like open cylinders and flat planes.
    The output is affected by the *Kr Derivative Epsilon* viewmap setting.
 
 Crease
@@ -151,7 +151,7 @@ You can see the black contour lines and the blue lines that are made with edge m
 
 What are edge marks good for?
 
-- When you need to render marks on an almost-flat plane, when other edge types can't detect any line.
+- When you need to render marks on an almost-flat plane, when other edge types cannot detect any line.
 - When you want full control of edge rendering. Often used for edges of squarish shapes.
 - Mark the whole base mesh to be rendered for base mesh preview.
 

@@ -29,7 +29,7 @@ The space used to evaluate the constrained object (the object that owns the cons
 Hover over the space drop-down box (or boxes) to learn whether it affects the space of the target
 or the space of the owner.
 
-Some constraints don't use Target or Owner space, so there won't be a drop-down box.
+Some constraints do not use Target or Owner space, so there won't be a drop-down box.
 Some constraints use only Target or only Owner space, so there will only be one drop-down box.
 Some constraints (like the Copy Location constraint above) use both Target **and** Owner space,
 so there will be two drop-down boxes.

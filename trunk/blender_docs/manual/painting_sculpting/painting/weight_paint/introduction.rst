@@ -185,14 +185,14 @@ Multi-Paint
    is enabled, and the average otherwise. Any paint operations aimed at this collective weight are applied
    to individual Vertex Group weights in such way that their ratio stays the same.
 
-   Since the ratio is undefined if all weights are zero, Multi-Paint can't operate on vertices that don't
+   Since the ratio is undefined if all weights are zero, Multi-Paint cannot operate on vertices that do not
    have any weight assigned to the relevant Vertex Groups. For this reason it also doesn't allow reducing
    the weight all the way to zero. When used with X-Mirror, it only guarantees completely symmetrical
    result if weights are initially symmetrical.
 
    .. tip::
    
-      While Multi-Paint can't directly paint on zero-weight vertices,
+      While Multi-Paint cannot directly paint on zero-weight vertices,
       it is possible to use the *Smooth Weight* tool to copy a reasonable non-zero weight
       distribution from adjacent vertices without leaving Multi-Paint Mode or changing bone selection.
 

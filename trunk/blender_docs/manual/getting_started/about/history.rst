@@ -45,7 +45,7 @@ such as a complex internal software architecture,
 unfinished features and a non-standard way of providing the GUI, the enthusiastic support from
 the user community and customers who had purchased Blender Publisher in the past meant that
 Ton couldn't justify leaving Blender to fade into insignificance.
-Since restarting a company with a sufficiently large team of developers wasn't feasible,
+Since restarting a company with a sufficiently large team of developers was not feasible,
 Ton Roosendaal founded the non-profit organization Blender Foundation in March 2002.
 
 The Blender Foundation's primary goal was to find a way to continue developing and promoting

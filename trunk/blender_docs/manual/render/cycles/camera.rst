@@ -31,7 +31,7 @@ Panoramic
 =========
 
 Cycles supports Equirectangular and Fisheye panoramic cameras.
-Note that these can't be displayed with OpenGL rendering in the view-port;
+Note that these cannot be displayed with OpenGL rendering in the view-port;
 they will only work for rendering.
 
 

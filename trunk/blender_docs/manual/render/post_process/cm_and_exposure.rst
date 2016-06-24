@@ -78,8 +78,8 @@ Display Device
 Render
 ------
 
-There is also an artistic choice to be made for renders. Partially that's
-because display devices can't display the full spectrum of colors and only have limited
+There is also an artistic choice to be made for renders. Partially that is
+because display devices cannot display the full spectrum of colors and only have limited
 brightness, so we can squeeze the colors to fit in the gamut of the device.
 Besides that it can also be useful to give the renders a particular look, e.g.
 as if they have been printed on real film.

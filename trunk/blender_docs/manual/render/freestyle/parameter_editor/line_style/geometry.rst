@@ -39,7 +39,7 @@ Start and End
    These two options add the given amount of offset to the start (or end) point of the stroke, along the (2D)
    normal at those points. The effect is blended over the whole stroke, if you for example,
    set only *Start* to 50, the start of the stroke is offset 50 pixels along its normal,
-   the middle of the stroke, 25 pixels along its own normal, and the end point isn't moved.
+   the middle of the stroke, 25 pixels along its own normal, and the end point is not moved.
 
 X and Y
    These two options simply add a constant horizontal and/or vertical offset to the whole stroke.

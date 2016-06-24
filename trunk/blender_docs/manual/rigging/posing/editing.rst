@@ -109,7 +109,7 @@ Conversely, you may define the current pose as the new rest position (i.e.
 using the :menuselection:`Pose --> Apply Pose as Restpose` menu entry
 (or :kbd:`Ctrl-A` and confirm the pop-up dialog). When you do so,
 the skinned objects/geometry is **also** reset to its default, undeformed state,
-which generally means you'll have to skin it again.
+which generally means you will have to skin it again.
 
 Whereas in *Edit Mode*, you always see your armature in its rest position,
 in *Object Mode* and *Pose Mode*
@@ -301,7 +301,7 @@ all its descendants* will no longer be affected when you scale one of its ancest
 
 
 Connected bones have another specificity: they cannot be translated. Indeed,
-as their root must be at their parent's tip, if you don't move the parent,
+as their root must be at their parent's tip, if you do not move the parent,
 you cannot move the child's root, but only its tip - which leads to a child rotation.
 This is exactly what happens - when you press :kbd:`G` with a connected bone selected,
 Blender automatically switches to rotation operation.

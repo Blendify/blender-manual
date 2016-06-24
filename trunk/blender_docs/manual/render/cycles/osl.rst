@@ -209,7 +209,7 @@ The "shade" parameter is not supported currently,
 but attributes can be retrieved from the object that was hit using the ``getmessage("trace", ..)`` function.
 See the OSL specification for details on how to use this.
 
-This function can't be used instead of lighting;
+This function cannot be used instead of lighting;
 the main purpose is to allow shaders to "probe" nearby geometry,
 for example to apply a projected texture that can be blocked by geometry,
 apply more "wear" to exposed geometry, or make other ambient occlusion-like effects.

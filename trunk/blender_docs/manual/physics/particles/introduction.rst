@@ -98,7 +98,7 @@ Types of Particle systems
 
 After you have created a particle system,
 the Properties editor fills with many panels and buttons.
-But don't panic! There are two different types of particle systems,
+But do not panic! There are two different types of particle systems,
 and you can change between these two with the *Type* drop-down list:
 
 Emitter

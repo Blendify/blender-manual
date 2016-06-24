@@ -46,7 +46,7 @@ Distance
    see the page about :doc:`light falloff </render/blender_render/lighting/lights/light_attenuation>`.
 
    - The *Sun* and *Hemi* Lamps are another class of Lamps which uses a constant falloff.
-     Those lamps don't have a *Dist* field, and are often called "Base Lighting Lamps".
+     Those lamps do not have a *Dist* field, and are often called "Base Lighting Lamps".
 
 Energy
    The intensity of the light source's illumination from (0.0 to 10.0).

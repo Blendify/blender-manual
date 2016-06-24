@@ -134,7 +134,7 @@ Special Characters
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Text --> Special Characters`
 
-If you need special characters (such as accented chars, which aren't on your keyboard)
+If you need special characters (such as accented chars, which are not on your keyboard)
 you can produce many of them using a combination of two other characters. To do so,
 type the main char, press :kbd:`Alt-Backspace`,
 and then press the desired "modifier" to produce the special character.
@@ -262,7 +262,7 @@ as seen in *Loading a Type 1 font file.*
    such as ``/usr/share/local`` or ``/usr/local/share``, and possibly related sub-trees.
 
 
-If you select a font that Blender can't understand,
+If you select a font that Blender cannot understand,
 you will get the error ``Not a valid font``.
 
 Remember the same font will be applied to all chars with same style in a text,
@@ -379,7 +379,7 @@ Underline
 Small Caps
    type small capital text.
 
-Blender's *Bold* and *Italic* buttons don't work the same way as other applications,
+Blender's *Bold* and *Italic* buttons do not work the same way as other applications,
 as they also serve as placeholders for you to load up other fonts manually,
 which get applied when you define the corresponding style; see `Fonts`_.
 

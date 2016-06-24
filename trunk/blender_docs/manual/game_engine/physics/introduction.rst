@@ -71,7 +71,7 @@ settings, not replace it.
 Constraints
 ===========
 
-It is imperative to understand that the Blender Constraints generally don't work inside the BGE.
+It is imperative to understand that the Blender Constraints generally do not work inside the BGE.
 This means interesting effects such as *Copy Rotation* are unavailable directly.
 
 Your options include:
@@ -80,7 +80,7 @@ Your options include:
 - :doc:`Rigid Body Joint </rigging/constraints/relationship/rigid_body_joint>` -
   This is the one Constraint that you can set up through the UI that works in the BGE.
   It has several options, and can be very powerful - see ITS page for a detailed description and demo blend-file.
-  Don't forget that you can loop through objects using ``bpy`` instead of clicking thousands of
+  Do not forget that you can loop through objects using ``bpy`` instead of clicking thousands of
   times to set up chains of these Constraints.
 - Rigid Body Joints on the Fly -
   You can add/remove them after the BGE starts by using ``bge.constraints.createConstraint()``.

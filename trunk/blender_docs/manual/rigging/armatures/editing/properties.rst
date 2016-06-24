@@ -330,7 +330,7 @@ Even though you have the *Segm* setting available in *Edit Mode*
 you should switch to the *Pose Mode* :kbd:`Ctrl-Tab` to edit these "smooth"
 bones' properties - one explanation to this strange need is that in *Edit Mode*,
 even in *B-Bone* visualization, bones are drawn as sticks,
-so you can't visualize the effects of these settings.
+so you cannot visualize the effects of these settings.
 
 
 .. figure:: /images/RiggingBBoneSegmentExPoseMode.jpg
@@ -348,7 +348,7 @@ but the heavier the pose calculations...
 
 Each bone's ends are mapped to its "virtual" Bezier curve's
 :ref:`"auto" <curve-handle_type-auto>`
-handle. Therefore, you can't control their direction,
+handle. Therefore, you cannot control their direction,
 but you can change their "length" using the *In* and *Out* numeric fields,
 to control the "root handle" and "tip handle" of the bone, respectively.
 These values are proportional to the default length, which of course automatically varies depending on bone length,
@@ -397,7 +397,7 @@ To parent and/or connect bones, you can:
   If you have selected more than two bones, they will all be parented to the last selected one.
   If you only select one already-parented bone, or all selected bones are already parented to the last selected one,
   your only choice is to connect them, if not already done.
-  If you select only one non-parented bone, you'll get the *Need selected bone(s)* error message...
+  If you select only one non-parented bone, you will get the *Need selected bone(s)* error message...
 
   .. note:: 
 

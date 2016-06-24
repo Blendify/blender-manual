@@ -4,7 +4,7 @@ Installing on Linux
 *******************
 
 Check the :doc:`minimum requirements and where to get Blender </getting_started/installing/introduction>`,
-if you haven't done so yet.
+if you have not done so yet.
 
 
 Specific packages for distributions

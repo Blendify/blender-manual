@@ -57,7 +57,7 @@ Blender Settings
   then move the camera to look at a different area of the scene, and render that shot.
   Each shot will be of a smaller area and thus take in fewer polygons/faces.
   Be sure that when you position your camera that you snap overlapping shots, so that you can then match them up.
-  If you don't want to use GIMP, you can use compositing nodes and the Translate node to match them up in Blender.
+  If you do not want to use GIMP, you can use compositing nodes and the Translate node to match them up in Blender.
 - Minimize the render window (and the Blender window, if the UV/image editor is used).
   ATI users report dramatic speedup on a per frame basis, which adds up over the frame range.
 - Use the Big Render script to render sub-sections of the overall image, and then paste them together.
@@ -78,7 +78,7 @@ Scene and Specific Objects
 - Delete backsides of meshes (removing unseen geometry).
 - Render just a few objects at a time; in the beginning of your project,
   render the background objects and sets that will not change and will always be in the background.
-- Put the buildings on another layer, and through render layers, don't render them.
+- Put the buildings on another layer, and through render layers, do not render them.
   Then composite them back in later.
 - Make the camera static so that you can better accomplish the above two ideas.
 - Avoid use of Area lights.
@@ -162,7 +162,7 @@ you break down each shot into components that can be rendered separately,
 then you combine those separately-rendered elements to achieve the finished clip.
 For instance:
 
-- If the camera isn't moving, then neither is the background: only a single frame is needed.
+- If the camera is not moving, then neither is the background: only a single frame is needed.
   (The same is true of any non-moving object within the frame.) These individual elements,
   having been generated *once,* can be re-used as many times as necessary over as many frames as necessary.
 - Both shadows and highlights can be captured separately from the objects that are being illuminated or shadowed,
@@ -183,7 +183,7 @@ sound-processing software are directly comparable to that of Blender's node-base
 
 There are compelling advantages to this approach:
 
-- If something is "not quite right," you don't necessarily have to start over from scratch.
+- If something is "not quite right," you do not necessarily have to start over from scratch.
 - In practice, the deadline-killer is *re-* rendering, which ordinarily must be done (in its entirety)
   just because "'one little thing' about the shot is wrong." Compositing helps to avoid this, because (ideally...)
   only the specific parts that are found to be in error must be repeated. (Or, maybe,

@@ -20,7 +20,7 @@ A very distinct visual characteristic of metas is that they are fluid *mercurial
 or *clay-like* forms that have a "rounded" shape. Furthermore,
 when two meta objects get close to one another, they begin to interact with one another.
 They "blend" or "merge", as water droplets do, especially in zero-g (which, by the way, makes
-them very handy for modeling streams of water when you don't want to do a fluid simulation).
+them very handy for modeling streams of water when you do not want to do a fluid simulation).
 If they subsequently move away from one another, they restore their original shape.
 
 Each of these is defined by its own underlying mathematical structure

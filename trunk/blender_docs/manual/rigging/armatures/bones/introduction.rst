@@ -55,7 +55,7 @@ Bones can be visualized in various ways: *Octahedron*, *Stick*,
           Envelope bone display.
 
 
-Since armatures are made of bones, you'll find more about this when we'll talk about
+Since armatures are made of bones, you will find more about this when we'll talk about
 :doc:`Armatures Visualization </rigging/armatures/visualization>`.
 
 Activating *Axes* checkmark on the *Armature* / *Display* panel,
@@ -92,7 +92,7 @@ You can see these segments in *Object Mode* and in *Pose Mode*,
 and only if bones are visualized as *B-bones*;
 while in *Edit Mode* bones are always drawn as rigid sticks.
 Note that in the special case of a single bone,
-you can't see these segments in *Object Mode*, because they're aligned.
+you cannot see these segments in *Object Mode*, because they're aligned.
 
 .. list-table::
 
