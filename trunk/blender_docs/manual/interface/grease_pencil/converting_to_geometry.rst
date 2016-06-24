@@ -3,11 +3,10 @@
 Converting Sketches to Objects
 ******************************
 
-.. figure:: /images/GreasePencilPanel3DView.jpg
+.. figure:: /images/GreasePencilConvertToCurvePanel.jpg
    :align: right
 
-   Grease Pencil panel in 3D View.
-
+   The Convert to Curve options.
 
 In the 3D View, sketches on the active layer can be converted to geometry,
 based on the current view settings, by transforming the points recorded when drawing
@@ -16,6 +15,10 @@ so it may be necessary to simplify or subdivide parts of the created geometry fo
 
 Sketches can currently be converted into curves,
 as proposed by the *Convert Grease Pencil* menu popped-up by the *Convert* button in the grease pencil properties
+
+
+Options
+=======
 
 Path
    Create NURBS 3D curves of order 2 (i.e. behaving like polylines).
@@ -34,12 +37,7 @@ Bezier Curve
 
 
 General Options
-===============
-
-.. figure:: /images/GreasePencilConvertToCurvePanel.jpg
-
-   The Convert to Curve options.
-
+---------------
 
 Stroke width 
    Will be used to set the curve's control points' radii and weights
