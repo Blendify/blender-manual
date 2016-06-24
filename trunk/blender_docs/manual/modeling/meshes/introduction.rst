@@ -11,7 +11,7 @@ You can work with geometric objects in two modes.
 
 :doc:`Object Mode </editors/3dview/transform/introduction>`
    Operations in *Object Mode* affect the whole object.
-   *Object Mode* has the following header in the 3D view:
+   *Object Mode* has the following header in the 3D View:
 
 
 .. figure:: /images/modeling_meshes_modes_object.png
@@ -22,7 +22,7 @@ You can work with geometric objects in two modes.
 Edit Mode
    Operations in *Edit Mode* affect only the geometry of an object,
    but not global properties such as location or rotation.
-   *Edit Mode* has the following header in the 3D view:
+   *Edit Mode* has the following header in the 3D View:
 
 
 .. figure:: /images/modeling_meshes_modes_edit.png
@@ -34,7 +34,7 @@ Tools and modes in the 3D View header are (left to right):
 
 - View, Select, and Mesh menus
 - Blender Mode
-- Display method for 3D view
+- Display method for 3D View
 - Pivot center
 - 3D manipulator widget
 - Selection mode

@@ -37,7 +37,7 @@ Add Menu
    | Hotkey:   :kbd:`Shift-A`
 
 
-In the 3D view, :kbd:`Shift-A` :menuselection:`--> Bone` to add a new bone to your armature.
+In the 3D View, :kbd:`Shift-A` :menuselection:`--> Bone` to add a new bone to your armature.
 
 This bone will be:
 
@@ -496,7 +496,7 @@ Locking Bones
 You can prevent a bone from being transformed in *Edit Mode* in several ways:
 
 - The active bone can be locked clicking on *Lock*
-  in the *Transform Properties* panel (:kbd:`N` in a 3D view);
+  in the *Transform Properties* panel (:kbd:`N` in a 3D View);
 - all bones can be locked clicking on the *Lock* button
   of their sub-panels in the *Armature Bones* panel;
 - press :kbd:`Shift-W` :menuselection:`--> Toggle Settings --> Locked`

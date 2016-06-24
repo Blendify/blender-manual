@@ -27,7 +27,7 @@ Select Menu
 ===========
 
 With curves, all "advanced" selection options are regrouped in the *Select* menu of
-the 3D views header. Let us detail them.
+the 3D Views header. Let us detail them.
 
 - *Random...*
 - *Inverse*

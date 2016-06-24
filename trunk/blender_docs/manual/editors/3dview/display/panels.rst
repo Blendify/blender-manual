@@ -44,14 +44,14 @@ Grid Floor
       so it is a setting specific to top/front/side orthographic views.
 
 Toggle Quad View
-   Toggles the four window 3D view.
+   Toggles the four window 3D View.
    :doc:`Read more about arranging areas </interface/editors/arranging_areas>`
 
 
 View Panel
 ==========
 
-The *View Properties* panel lets you set other settings regarding the 3D view.
+The *View Properties* panel lets you set other settings regarding the 3D View.
 You can show it with the :menuselection:`View --> View Properties...` menu entry.
 
 Lens

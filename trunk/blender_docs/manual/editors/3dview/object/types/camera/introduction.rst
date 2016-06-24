@@ -124,7 +124,7 @@ High Quality
 
 Viewport F-stop
    Controls the real-time focal blur effect used during sequencer or OpenGL rendering and,
-   when enabled, camera views in the 3D viewport.
+   when enabled, camera views in the 3D Viewport.
    The amount of blur depends on this setting, along with Focal Length and Sensor Size.
    Smaller Viewport F-stop values result in more blur.
 
@@ -165,7 +165,7 @@ Sensor
 Name
    Toggle name display on and off in camera view.
 Size
-   Size of the camera icon in the 3D view. This setting has no effect on the render output of a camera,
+   Size of the camera icon in the 3D View. This setting has no effect on the render output of a camera,
    and is only a cosmetic setting.
    The camera icon can also be scaled using the standard Scale :kbd:`S` transform key.
 Passepartout, Alpha

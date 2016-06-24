@@ -141,7 +141,7 @@ The Pivot Point can be changed to:
 Proportional Editing
 --------------------
 
-Proportional Editing is available in UV editing. The controls are the same as in the 3D view.
+Proportional Editing is available in UV editing. The controls are the same as in the 3D View.
 See :doc:`Proportional Editing in 3D </editors/3dview/transform/transform_control/proportional_edit>`
 for full reference.
 

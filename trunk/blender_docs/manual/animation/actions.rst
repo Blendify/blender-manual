@@ -120,7 +120,7 @@ There are some built-in keying sets, 'LocRotScale', and also, custom keying sets
 To use the keying set, first select a keying set from the *Timeline* header,
 or the *Keying Sets Panel*.
 
-Now when you press :kbd:`I` in the 3D view,
+Now when you press :kbd:`I` in the 3D View,
 Blender will add keyframes for all the properties in the active keying set.
 
 See :doc:`Keying Sets </animation/keyframes/keying_sets>` for more info.

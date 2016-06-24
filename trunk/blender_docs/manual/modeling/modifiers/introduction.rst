@@ -67,7 +67,7 @@ Name
 Camera
    Toggles visibility of the modifier effect in the render.
 Eye
-   Toggles visibility of the modifier effect in the 3D view.
+   Toggles visibility of the modifier effect in the 3D View.
 Box
    Displays the modified geometry in edit mode, as well as the original geometry which you can edit.
 Triangle

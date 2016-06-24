@@ -51,7 +51,7 @@ Value
    Current Value of the Shape Key (0.0 to 1.0).
 
 Mute
-   This visually disables the shape key in the 3D view.
+   This visually disables the shape key in the 3D View.
 
 Add
    Add a new shape key to the list.

@@ -151,7 +151,7 @@ View
 
       View.
 
-   The manipulator will match the 3D view:
+   The manipulator will match the 3D View:
 
    :Y: Up/Down
    :X: Left/Right,

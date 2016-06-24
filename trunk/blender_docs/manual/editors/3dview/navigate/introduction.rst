@@ -61,7 +61,7 @@ Tool Shelf
    *Set Active object as camera*
    *Active camera*
 :ref:`Perspective/Orthographic View <3dview-projections>`
-   These commands change the projection of the 3D view
+   These commands change the projection of the 3D View
 :doc:`Navigation Menu </editors/3dview/navigate/3d_view>`
    This sub-menu contains commands for rotating and panning the view.
    Using these commands through the menu is not that efficient. However, like all Blender menus,
@@ -95,7 +95,7 @@ Tool Shelf
 :doc:`Duplicate area in new window </interface/editors/arranging_areas>`
    Clones the current 3D View in a new window.
 :doc:`Quad View </interface/editors/arranging_areas>`
-   Toggles a four window 3D view, each showing a different angle of the scene.
+   Toggles a four window 3D View, each showing a different angle of the scene.
 :doc:`Toggle Full Screen </interface/editors/arranging_areas>`
    Maximizes the *3D View* editor to fill the full screen area.
 
@@ -153,7 +153,7 @@ Layer Selector
 Lock to Scene
    By default, the "lock" button to the right of the layer buttons is enabled.
    This means that in this view, the active layers and camera are those of the whole scene
-   (and those used at render time). Hence, all 3D views locked this way will share the same
+   (and those used at render time). Hence, all 3D Views locked this way will share the same
    active layers and camera - when you change them in one view,
    all locked others will immediately reflect these changes.
 
@@ -173,5 +173,5 @@ Snap to Mesh
    :doc:`Read more about Snapping </editors/3dview/transform/transform_control/snap>`
 
 Render Buttons
-   The Render Buttons render an OpenGL version of the 3D view.
+   The Render Buttons render an OpenGL version of the 3D View.
    See the :doc:`OpenGL Rendering </render/opengl>` page for more information.

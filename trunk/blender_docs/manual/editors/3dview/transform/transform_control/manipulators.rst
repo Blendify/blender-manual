@@ -24,7 +24,7 @@ the face's normal. In instances like this, *Transform Manipulators* may be usefu
 
 
 Transform manipulators provide a visual representation of the transform options and allow
-movement, rotation and scaling along any axis, mode and orientation of the 3D view. The
+movement, rotation and scaling along any axis, mode and orientation of the 3D View. The
 manipulator can be enabled by clicking on the axis icon from the manipulator options portion
 of the header or via the shortcut key :kbd:`Ctrl-Spacebar`.
 

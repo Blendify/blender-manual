@@ -73,7 +73,7 @@ To assign a selected bone to a given bone group you can do one of the following:
 - In the Relations section of the *Bones* panel), use the *Bone Group* drop-down list to select the chosen one.
 
 
-In the 3D views, using the :menuselection:`Pose --> Bone Groups` menu entries,
+In the 3D Views, using the :menuselection:`Pose --> Bone Groups` menu entries,
 and/or the *Bone Groups* pop-up menu :kbd:`Ctrl-G`, you can:
 
 Assign to New Group
@@ -227,10 +227,10 @@ and you have to first select the bones you want to show/hide the motion paths. T
 
 - To show the paths (or update them, if needed),
   click on the *Calculate Path* button of the *Visualisations* panel, or,
-  in the 3D views, select the :menuselection:`Pose --> Motion Paths --> Calculate Paths` menu entry
+  in the 3D Views, select the :menuselection:`Pose --> Motion Paths --> Calculate Paths` menu entry
   (or use the *Specials* pop-up menu, :kbd:`W-3`).
 - To hide the paths, click on the *Clear Paths* button, or,
-  in the 3D views, do :menuselection:`Pose --> Motion Paths --> Clear All Paths`, or :kbd:`W-4`.
+  in the 3D Views, do :menuselection:`Pose --> Motion Paths --> Clear All Paths`, or :kbd:`W-4`.
 
 Remember: only selected bones and their paths are affected by these actions!
 
@@ -268,7 +268,7 @@ Display Range
    Step
       This is the same as the *GStep* for ghosts -
       it allows you to only display on the path one frame for each *n* ones.
-      Mostly useful when you enable the frame number display (see below), to avoid cluttering the 3D views.
+      Mostly useful when you enable the frame number display (see below), to avoid cluttering the 3D Views.
 
 Frame Numbers
    When enabled, a small number appears next to each frame dot on the path,
@@ -287,7 +287,7 @@ Non-Grouped Keyframes
 Calculate
    Start / End
       These are the start/end frames of the range in which motion paths are drawn.
-      You have to *Calculate Paths* again if you modify this setting, to update the paths in the 3D views.
+      You have to *Calculate Paths* again if you modify this setting, to update the paths in the 3D Views.
       Note that unlike with ghosts, the start frame is *inclusive*
       (i.e. if you set *PSta* to 1, you will really see the *frame 1* as starting point of the paths...).
 
@@ -296,4 +296,4 @@ Calculate
       By changing this setting to Tails, you will get the paths of the bone's roots
       (remember that in Blender UI, bones' roots are called "heads"...).
       You have to *Calculate Paths* again if you modify this setting,
-      to update the paths in the 3D views.
+      to update the paths in the 3D Views.

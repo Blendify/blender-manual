@@ -38,7 +38,7 @@ Display
    The Display panel.
 
 
-This controls the way the bones appear in 3D view; you have four different options you can select.
+This controls the way the bones appear in 3D View; you have four different options you can select.
 
 There are several other options available which we will cover later on.
 

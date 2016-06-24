@@ -99,11 +99,11 @@ Linking to a Scene
 
 You can link any object from one scene to another.
 Just open the scene where these objects are,
-from the 3D view header access :menuselection:`Object --> Make Links...`
+from the 3D View header access :menuselection:`Object --> Make Links...`
 and choose the scene where you want your objects to appear.
 The selected objects will be added to that scene but remain linked to the original objects.
 
 To make them single user (independent and unlinked) in a given scene go to that scene,
-select them, then from the 3D view header access :menuselection:`Object --> Make Single User`.
+select them, then from the 3D View header access :menuselection:`Object --> Make Single User`.
 You will be presented with a few options that allow you to free up the data-blocks (Object,
 Material, Texture...) that you want.

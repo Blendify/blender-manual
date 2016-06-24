@@ -107,7 +107,7 @@ Color
    This is the most common usage.
 Objects / Object-Data
    This is used with object buttons such as parent, constraints or modifiers to
-   select an object from the 3D view.
+   select an object from the 3D View.
 Camera Depth
    Number buttons effecting distance can also use the eye-dropper,
    this is most useful for camera depth of field.

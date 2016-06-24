@@ -268,7 +268,7 @@ Properties
 Most bones' properties (excepted the transform ones) are regrouped in each bone's sub-panel,
 in the *Armature Bones* panel in *Edit Mode*. Let us detail them.
 
-Note that some of them are also available in the 3D views, 
+Note that some of them are also available in the 3D Views, 
 through the three pop-up menus within the same entry:
 
 - *Toggle Setting*: :kbd:`Shift-W` or :menuselection:`Armature --> Bone Settings --> Toggle a Setting`
@@ -296,7 +296,7 @@ Hinge
    These settings affect the behavior of children bones while transforming their parent in *Pose Mode*,
    so this will be detailed in the :doc:`posing part </rigging/posing/index>` !
 Hide
-   This will hide the bone (same as pressing :kbd:`H` in the 3D views;
+   This will hide the bone (same as pressing :kbd:`H` in the 3D Views;
    see :ref:`this page <armature-bone_hide>`).
 Lock 
    (also :kbd:`Shift-W` :menuselection:`--> (Locked, ...)`)
@@ -384,13 +384,13 @@ Chain Editing
 
 
 You can edit the relationships between bones (and hence create/modify the chains of bones)
-both from the 3D views and the Properties editor. Whatever method you prefer,
+both from the 3D Views and the Properties editor. Whatever method you prefer,
 it's always a matter of deciding, for each bone, if it has to be parented to another one,
 and if so, if it should be connected to it.
 
 To parent and/or connect bones, you can:
 
-- In a 3D view, select the bone and *then* its future parent, and press :kbd:`Ctrl-P`
+- In a 3D View, select the bone and *then* its future parent, and press :kbd:`Ctrl-P`
   (or :menuselection:`Armature --> Parent --> Make Parent...`).
   In the small *Make Parent* menu that pops up, choose *Connected*
   if you want the child to be connected to its parent, else click on *Keep Offset*.
@@ -426,12 +426,12 @@ To parent and/or connect bones, you can:
           :width: 300px
 
           Bone.005 re-parented to Bone.002, but not connected to it
-          (same result, using either :kbd:`Ctrl-P-2` in 3D view, or the Armature Bones panel settings).
+          (same result, using either :kbd:`Ctrl-P-2` in 3D View, or the Armature Bones panel settings).
 
    * - .. figure:: /images/RiggingBoneRelationshipExEditMode2.jpg
           :width: 300px
 
-          Bone.005 parented and connected to Bone.002, using :kbd:`Ctrl-P-1` in 3D view.
+          Bone.005 parented and connected to Bone.002, using :kbd:`Ctrl-P-1` in 3D View.
 
      - .. figure:: /images/RiggingBoneRelationshipExEditMode3.jpg
           :width: 300px
@@ -441,7 +441,7 @@ To parent and/or connect bones, you can:
 
 To disconnect and/or free bones, you can:
 
-- In a 3D view, select the desired bones, and press :kbd:`Alt-P`
+- In a 3D View, select the desired bones, and press :kbd:`Alt-P`
   (or :menuselection:`Armature --> Parent --> Clear Parent...`).
   In the small *Clear Parent* menu that pops up, choose *Clear Parent* to completely free all selected bones,
   or *Disconnect Bone* if you just want to break their connections.
@@ -461,11 +461,11 @@ Naming Bones
    :class: refbox
 
    | Mode:     Edit Mode
-   | Panel:    Armature, Transform Properties (3D view, :kbd:`N`)
+   | Panel:    Armature, Transform Properties (3D View, :kbd:`N`)
 
 
 You can rename your bones, either using the *Bone* field of the *Transform Properties*
-panel in the 3D views, for the active bone :kbd:`N`,
+panel in the 3D Views, for the active bone :kbd:`N`,
 or using the *BO* field in each bone sub-panel of the *Armature Bones* panel
 in *Edit Mode*.
 

@@ -134,7 +134,7 @@ OpenGL
 ======
 
 Clip Alpha
-   Clip alpha below this threshold in the 3D viewport.
+   Clip alpha below this threshold in the 3D Viewport.
    Note that the default is set to a low value to prevent issues on some GPU's.
 Mipmaps
    Scale textures for 3D View using Mipmap filtering. This increases display quality, but uses more memory.

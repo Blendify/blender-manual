@@ -19,7 +19,7 @@ A curve becomes a path when its *Path Animation* button is enabled in the *Curve
 but you do not even have to bother about this: once a curve is selected as the target for a "path" constraint,
 it automatically is enabled.
 
-You can also directly add a "path" from the :menuselection:`Add --> Curve --> Path` menu entry (in a 3D view).
+You can also directly add a "path" from the :menuselection:`Add --> Curve --> Path` menu entry (in a 3D View).
 This will insert in your scene a *three-dimensional* NURBS curve.
 This is an important point: by default, Blender's curve are *2D* and will not move on the Z axis.
 To turn a standard curve three-dimensional, enable its *3D* button,

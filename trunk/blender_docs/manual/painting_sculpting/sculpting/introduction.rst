@@ -113,7 +113,7 @@ Thumb
 Sculpt Properties Panel
 =======================
 
-This panel appears in the tool palette on the left side of the 3D viewport.
+This panel appears in the tool palette on the left side of the 3D Viewport.
 
 
 Brush Panel
@@ -242,7 +242,7 @@ Brush Mapping
 
 Angle
    This is the rotation angle of the texture brush.
-   It can be changed interactively via :kbd:`Ctrl-F` in the 3D view.
+   It can be changed interactively via :kbd:`Ctrl-F` in the 3D View.
    While in the interactive rotation you can enter a value numerically as well. Can be set to:
 
    User

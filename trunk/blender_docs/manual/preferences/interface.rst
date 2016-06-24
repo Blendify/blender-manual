@@ -20,7 +20,7 @@ Tooltips
 Python Tooltips
    Displays a property's python information below the the tooltip.
 Object Info
-   Display the active Object name and frame number at the bottom left of the 3D view.
+   Display the active Object name and frame number at the bottom left of the 3D View.
 Large Cursors
    Use large mouse cursors when available.
 View Name
@@ -71,7 +71,7 @@ Rotate Around Selection
       where the center isn't necessarily your point of interest.
 
 Global Pivot
-   Lock the same rotation/scaling pivot in all 3D views.
+   Lock the same rotation/scaling pivot in all 3D Views.
 Camera Parent Lock
    When the camera is locked to the view and in fly mode, transform the parent rather than the camera.
 
@@ -86,7 +86,7 @@ Smooth View
    (Top/Side/Front/Camera...). Reduce to zero to remove the animation.
 Rotation Angle
    Rotation step size in degrees, when :kbd:`Numpad4`, :kbd:`Numpad6`, :kbd:`Numpad8`,
-   or :kbd:`Numpad2` are used to rotate the 3D view.
+   or :kbd:`Numpad2` are used to rotate the 3D View.
 
 
 2D Viewports

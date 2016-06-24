@@ -28,7 +28,7 @@ Perspective and Orthographic Views
    | Menu:     :menuselection:`View --> Perspective`, :menuselection:`View --> Orthographic`
    | Hotkey:   :kbd:`Numpad5`
 
-Each 3D viewport supports two different types of projection.
+Each 3D Viewport supports two different types of projection.
 These are demonstrated in the 
 Fig. Orthographic (left) and perspective (right) projections image below.
 
@@ -57,7 +57,7 @@ Options
    Demonstration of camera view.
 
 
-To change the projection for a 3D view, choose the :menuselection:`View --> Orthographic`
+To change the projection for a 3D View, choose the :menuselection:`View --> Orthographic`
 or the :menuselection:`View --> Perspective` menu entry.
 The :kbd:`Numpad5` shortcut toggles between the two modes.
 Changing the projection for a 3D View does not affect the way the scene will be rendered.
@@ -93,7 +93,7 @@ Rotating the View
 .. figure:: /images/editors_3dview_nav_views.jpg
    :width: 300px
 
-   A 3D viewport's View menu.
+   A 3D Viewport's View menu.
 
 
 Blender provides four default viewing directions: *Side*, *Front*,
@@ -107,7 +107,7 @@ The *Camera* view shows the current scene as seen from the camera view point.
 Options
 -------
 
-You can select the viewing direction for a 3D viewport with the *View* menu entries,
+You can select the viewing direction for a 3D Viewport with the *View* menu entries,
 or by pressing the hotkeys :kbd:`Numpad3` for "side", :kbd:`Numpad1` for "front",
 :kbd:`Numpad7` for "top". You can select the opposite directions if you hold
 :kbd:`Ctrl` while using the same numpad shortcuts.
@@ -168,9 +168,9 @@ Zooming the View
 You can zoom in and out by holding down :kbd:`Ctrl` and dragging :kbd:`MMB`.
 The hotkeys are :kbd:`NumpadPlus` and :kbd:`NumpadMinus`.
 The :menuselection:`View --> Navigation` sub-menu holds these functions too as well.
-Refer to the 3D viewport's *View* menu image above for more information.
+Refer to the 3D Viewport's *View* menu image above for more information.
 
-If you have a wheel mouse, you can perform all of the actions in the 3D viewport that you
+If you have a wheel mouse, you can perform all of the actions in the 3D Viewport that you
 would do with :kbd:`NumpadPlus` and :kbd:`NumpadMinus` by rotating the :kbd:`Wheel`.
 To zoom a Properties editor,
 hold :kbd:`Ctrl-MMB` and move your mouse up and down.
@@ -347,7 +347,7 @@ Tools such as paint, sculpt, selection, transform-snapping, etc.
 will also ignore geometry outside the clipping bounds.
 
 Once activated with :kbd:`Alt-B`, you have to draw a rectangle with the mouse,
-in the wanted 3D view. The created clipping volume will then be:
+in the wanted 3D View. The created clipping volume will then be:
 
 - A right-angled `parallelepiped <https://en.wikipedia.org/wiki/Parallelepiped>`__
   (of infinite length) if your view is orthographic.

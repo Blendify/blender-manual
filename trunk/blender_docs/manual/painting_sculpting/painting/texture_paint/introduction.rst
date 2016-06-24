@@ -1,6 +1,4 @@
-.. this is for 3D-viewport painting,
-   image editor painting belongs in the image editor section.
-
+.. This is for 3D View painting, image editor painting belongs in the image editor section.
 
 ************
 Introduction
@@ -238,7 +236,7 @@ Brush Mapping
 
 Angle
    This is the rotation angle of the texture brush.
-   It can be changed interactively via :kbd:`Ctrl-F` in the 3D view.
+   It can be changed interactively via :kbd:`Ctrl-F` in the 3D View.
    While in the interactive rotation you can enter a value numerically as well. Can be set to:
 
    User

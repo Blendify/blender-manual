@@ -109,7 +109,7 @@ there is an easier way to combine smooth and solid faces, by using *Auto Smooth*
 
 Auto smoothing can be enabled in the mesh's panel in the Properties Editor. Angles
 on the model that are smaller than the angle specified in the *Angle* button will be
-smoothed during rendering (i.e. not in the 3D view)
+smoothed during rendering (i.e. not in the 3D View)
 when that part of the mesh is set to smooth. Higher values will produce smoother faces,
 while the lowest setting will look identical to a mesh that has been set completely solid.
 

@@ -108,7 +108,7 @@ Brush Mapping Mode
 
 Angle
    This is the rotation angle of the texture brush.
-   It can be changed interactively via :kbd:`Ctrl-F` in the 3D view.
+   It can be changed interactively via :kbd:`Ctrl-F` in the 3D View.
    While in the interactive rotation you can enter a value numerically as well. Can be set to:
 
    User

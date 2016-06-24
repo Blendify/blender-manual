@@ -68,7 +68,7 @@ The *Video Sequence Editor* just adds a vertical dashed line to each marker
 The View does not allow you to create/edit/remove markers,
 they just show their name between ``<>`` at their bottom left corner,
 near the active object's name, when you are at their frame
-(see Marker in a 3D view).
+(see Marker in a 3D View).
 
 
 Creating and Editing Markers

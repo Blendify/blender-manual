@@ -40,7 +40,7 @@ Transform Snapping
 
 The ability to snap Objects and Mesh element to various types of scene elements during a
 transformation is available by toggling the magnet icon (which will turn red)
-in the 3D view's header buttons.
+in the 3D View's header buttons.
 
 .. figure:: /images/editors_3dview_Transform-Control_Snap-magnet-header.jpg
 

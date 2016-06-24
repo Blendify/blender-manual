@@ -78,7 +78,7 @@ Linked Collision
    (in the physical engine of the BGE).
 
 Display Pivot
-   When enabled, this will draw the pivot of the joint in the 3D views.
+   When enabled, this will draw the pivot of the joint in the 3D Views.
    Most useful, especially with the *Generic 6DOF* joint type!
 
 Pivot
