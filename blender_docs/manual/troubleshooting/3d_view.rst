@@ -1,21 +1,47 @@
+.. Todo add GL texture limit.
 
 *******
 3D View
 *******
 
-.. admonition:: TODO
-   :class: error
-
-   See: https://developer.blender.org/T43810
-
-
 Drawing
 =======
+
+.. _troubleshooting-depth:
 
 Depth Buffer Glitches
 ---------------------
 
-TODO, see: https://blender.stackexchange.com/questions/1385
+Sometimes when setting a large :ref:`clipping range <3dview-view_clip>`
+will allow you to see both near and far objects,
+but reduces the depth precision resulting in artifacts.
+
+.. list-table::
+
+   * - .. figure:: /images/Graphics_z_fighting_none.jpg
+          :width: 180px
+
+          Model with no clipping artifacts.
+
+     - .. figure:: /images/Graphics_z_fighting_example.jpg
+          :width: 180px
+
+          Model with clipping artifacts.
+
+     - .. figure:: /images/Graphics_z_fighting_example_editmode.jpg
+          :width: 180px
+
+          Mesh with artifacts in Edit Mode.
+
+To avoid this:
+
+- Increase the near clipping when working on large scenes.
+- Decrease the far clipping when objects are not viewed at a distance.
+
+When perspective is disabled only the far Clip-End is used, very high values can still give artifacts.
+
+This is **not** specific to Blender, all OpenGL/ DirectX graphics applications have these same limitations.
+
 
 
 Objects Invisible in Camera View
