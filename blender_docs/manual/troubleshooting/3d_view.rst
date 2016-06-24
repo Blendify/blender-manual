@@ -88,7 +88,27 @@ and find yourself with a blank viewport. There are two ways to fixes this:
 Invisible Limit Zooming In
 --------------------------
 
-TODO, see: https://blender.stackexchange.com/questions/644
+Sometimes when navigating you may be trying to zoom in but it seems that you have hit a limit to how far you can zoom.
+This is because Blender uses a central point to orbit around.
+
+In practice this is good for modeling an object which you rotate about a lot to see from all sides (think of a potter using a wheel).
+However, this makes it awkward to explore a scene or model an object from the 'inside', for example.
+
+
+Solutions
+^^^^^^^^^
+
+- Use :ref:`View Dolly <3dview-nav-zoom_dolly>`
+- Use :ref:`Walk/Fly modes <3dview-walk_fly>`.
+- Use :ref:`Auto Depth <prefs-auto_depth> and :ref:`Zoom to Mouse Position <prefs-zoom_mouse_pos>.
+  These will make sure the distance is always the value under the mouse cursor,
+- Use :ref:`Border Zoom <3dview-nav-zoom_border>` as it also resets the center-point when zooming.
+- Center the view around the mouse cursor :kbd:`Alt-F`.
+  This will take the position under the cursor and make it your viewpoint center.
+- Center the view around the 3D cursor :kbd:`Alt-Home`.
+- Use a :abbr:`NDOF (N-Degrees of Freedom) ` , also known as a 3D mouse.
+  See :doc:`configuring peripherals <getting_started/installing/configuration/hardware>`
+  for more information.
 
 
 Tools

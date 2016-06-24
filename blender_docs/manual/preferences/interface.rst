@@ -55,8 +55,15 @@ View Manipulation
 
 Cursor Depth
    Use the depth under the mouse when placing the cursor.
+
+.. _prefs-auto_depth:
+
 Auto Depth
    Use the depth under the mouse to improve view pan, rotate, zoom functionality.
+   Useful in combination with *Zoom To Mouse Position*.
+
+.. _prefs-zoom_mouse_pos:
+
 Zoom to Mouse Position
    When enabled, the mouse pointer position becomes the focus point of zooming instead of the 2D window center.
    Helpful to avoid panning if you are frequently zooming in and out.
@@ -148,8 +155,9 @@ Threshold
 Confirm Threshold
    Distance threshold after which selection is made (zero disables).
 
+
 Splash
 ======
 
 Show Splash
-   Display the splash screen when starting Blender.
+   Display the :ref:`splash` when starting Blender.
