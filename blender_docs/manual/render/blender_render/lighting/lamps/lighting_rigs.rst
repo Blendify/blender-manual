@@ -14,7 +14,7 @@ very small changes can have a dramatic effect on the mood and colors.
 In all the lighting rigs,
 the default camera is always positioned nearly 15 degrees off dead-on, about 25 BU
 (Blender Units) back and 9 BU to the side of the subject, at eye level,
-and uses a long lens of 80mm. Up close, a 35mm lens will distort the image.
+and uses a long lens of 80 mm. Up close, a 35 mm lens will distort the image.
 A long lens takes in more of the scene.
 A dead-on camera angle is too dramatic and frames too wide a scene to take in.
 So now you know; next time you go to a play, sit off-center and you won't miss the action

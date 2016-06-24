@@ -122,8 +122,8 @@ There is no direct access to the curve.
 It can only be controlled by some extent using bone properties,
 as explained in the :ref:`editing pages <armature-bone-rigid>`.
 
-In Fig. An armature of B-Bones in Edit Mode we connected 3 bones,
-each one made of 5 segments. These are *B-bones* but as you see,
+In Fig. An armature of B-Bones in Edit Mode we connected three bones,
+each one made of five segments. These are *B-bones* but as you see,
 in *Edit Mode* they are shown as rigid elements.
 Look at Fig. The same armature in Object Mode: now, in *Object Mode*,
 we can see how the bones' segments smoothly "blend" into each other, even for roll.

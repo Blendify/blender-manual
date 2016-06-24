@@ -57,7 +57,7 @@ Cache Step
       Some physics systems (such as particles)
       allow for positions to be stored only on every nth frame,
       letting the positions for in-between frames be interpolated.
-      Using a cache step greater than 1 will result in a smaller cache,
+      Using a cache step greater than one will result in a smaller cache,
       but the result may differ from the original simulation.
 
 .. _physics-bake:

@@ -162,7 +162,7 @@ Linked Flat Faces :kbd:`Ctrl-Shift-Alt-F`
    Select connected faces based on a threshold of the angle between them.
    This is useful for selecting faces that are planar.
 Interior Faces
-   Select faces where all edges have more than 2 faces.
+   Select faces where all edges have more than two faces.
 Side of Active
    Selects all data on the mesh in a single axis
 Select Faces by Sides

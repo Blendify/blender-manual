@@ -99,7 +99,7 @@ Segments
    .. figure:: /images/Bevel3.jpg
       :width: 300px
 
-      Bevel with 4 segments.
+      Bevel with four segments.
 
 
 Profile

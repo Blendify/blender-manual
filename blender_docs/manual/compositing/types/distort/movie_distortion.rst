@@ -57,9 +57,9 @@ Distortion vs Undistortion
 ==========================
 
 Although, both, distortion of render and undistortion of movie clip are possible, and produce similar results,
-there is a difference between these 2 methods.
+there is a difference between these two methods.
 
-There are 2 kinds of lens distortion possible and, in simple terms, they can be said as
+There are two kinds of lens distortion possible and, in simple terms, they can be said as
 
 #. When the movie clip is bulging out
 #. When the movie clip is bulging in

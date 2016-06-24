@@ -30,12 +30,12 @@ Axes
      - .. figure:: /images/SmoothVertex2.jpg
           :width: 200px
 
-          Mesh after 1 smoothing iteration.
+          Mesh after one smoothing iteration.
 
      - .. figure:: /images/SmoothVertex3.jpg
           :width: 200px
 
-          Mesh after 10 smoothing iterations.
+          Mesh after ten smoothing iterations.
 
 
 Laplacian Smooth

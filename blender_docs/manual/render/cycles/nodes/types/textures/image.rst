@@ -24,7 +24,7 @@ Projection
    Projection to use for mapping the textures.
 
    - *Flat* will use the XY coordinates for mapping.
-   - *Box* will map the image to the 6 sides of a virtual box, based on the normal,
+   - *Box* will map the image to the six sides of a virtual box, based on the normal,
      using XY, YZ and XYZ coordinates depending on the side.
    - *Sphere* will map the image to the sphere using Z axis as central.
    - *Tube* will map the tube to the sphere using Z axis as central.

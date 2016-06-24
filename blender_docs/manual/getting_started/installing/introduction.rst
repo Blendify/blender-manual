@@ -21,11 +21,11 @@ Support for other hardware such as graphic tablets and 3D mice are covered later
 Download Blender
 ================
 
-The Blender Foundation distributes Blender in 3 different ways that you can choose from, to better suit your needs.
+The Blender Foundation distributes Blender in three different ways that you can choose from, to better suit your needs.
 
 The options comprise binary packages for all the supported platforms and the source code. Within the binary packages,
 you can choose from a stable release or a daily build. The first has the benefit of being more reliable, the latter
-provides the newest features, as they are developed. Blender is released approximately every 3 months.
+provides the newest features, as they are developed. Blender is released approximately every three months.
 You can keep up to date with the newest changes
 through the `release notes <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/>`__.
 

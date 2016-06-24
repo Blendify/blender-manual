@@ -11,7 +11,7 @@ or where thin lines are present, and it is particularly evident for oblique line
 
 To overcome this problem, which is known as *Aliasing*,
 it is possible to resort to an Anti-Aliasing technique. Basically,
-each pixel is 'oversampled', by rendering it as if it were 5 pixels or more,
+each pixel is 'oversampled', by rendering it as if it were five pixels or more,
 and assigning an 'average' color to the rendered pixel.
 
 The buttons to control Anti-Aliasing, or OverSampling (OSA),
@@ -24,7 +24,7 @@ Options
 Anti-Aliasing (check box)
    Enables oversampling
 
-5 / 8 / 11 / 16
+5, 8, 11, 16
    The number of samples to use. The values 5, 8, 11, 16 are preset numbers in specific sample patterns;
    a higher value produces better edges, but slows down the rendering.
 

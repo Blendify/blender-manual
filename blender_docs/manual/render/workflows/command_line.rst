@@ -126,7 +126,7 @@ Single Image
    blender -b file.blend -o /project/renders/frame_##### -F EXR -f -2
 
 ``-o /project/renders/frame_#####``
-   Path of where to save the rendered image, using 5 padded zeros for the frame number.
+   Path of where to save the rendered image, using five padded zeros for the frame number.
 ``-F EXR``
    Override the image format specified in the blend-file and save to an OpenEXR image.
 ``-f -2``

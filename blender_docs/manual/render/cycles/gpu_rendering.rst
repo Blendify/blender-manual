@@ -59,9 +59,9 @@ For an overview of supported features, check the comparison in the
 :doc:`Features </render/cycles/features>`.
 
 CUDA limitations:
-   The maximum amount of individual textures is limited to 88 byte-image textures (PNG, JPEG, ..)
-   and 5 float-image textures (OpenEXR, 16 bit TIFF, ..) on GTX 4xx/5xx cards.
-   Newer cards don't have this limit.
+   The maximum amount of individual textures is limited to 88 byte-image textures (``PNG``, ``JPEG``, ..)
+   and 5 float-image textures (``OpenEXR``, 16 bit ``TIFF``, ..) on GTX 4xx/5xx cards.
+   Newer cards do not have this limit.
 
 
 Frequently Asked Questions

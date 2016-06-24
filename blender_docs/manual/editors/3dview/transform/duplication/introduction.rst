@@ -166,7 +166,7 @@ Sometimes you may want to link or copy objects between scenes.
 This is possible by first selecting objects you want to link and then using:
 :menuselection:`Object --> Make Links --> Object to Scene`.
 
-This makes the same object exist in 2 different scenes at once, including its position and animation data.
+This makes the same object exist in two different scenes at once, including its position and animation data.
 You can tell this is a *multi-user* object by the blue color of its center-circle
 
 If you do not want the objects to be shared between the scenes, you can make them *Single-User* by using:

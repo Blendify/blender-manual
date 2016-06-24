@@ -18,7 +18,7 @@ Inputs
 Color
    Standard image input.
 Offset
-   The amount to offset the coordinates in each of the 3 axes.
+   The amount to offset the coordinates in each of the three axes.
 
 
 Properties

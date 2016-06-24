@@ -68,9 +68,9 @@ and will continuously connect them creating vertices if you continue repeating t
 Creating Edges
 --------------
 
-In addition to automatically creating edges from vertices, if you have 2 vertices selected,
+In addition to automatically creating edges from vertices, if you have two vertices selected,
 you can connect them with and edge using the shortcut :kbd:`F` (Fill).
-If you have more than 2 vertices selected, this will automatically create face(s).
+If you have more than two vertices selected, this will automatically create face(s).
 
 
 Creating Faces
@@ -84,7 +84,7 @@ Creating Faces with the Mouse
 
    Fig. 4 - Quad from an Edge with :kbd:`Ctrl-LMB`.
 
-If you have 2 vertices selected and already connected with an edge, left-click while pressing :kbd:`Ctrl-LMB`
+If you have two vertices selected and already connected with an edge, left-click while pressing :kbd:`Ctrl-LMB`
 will create a planar face, also known as a quad. Blender will follow your mouse cursor
 and will use the planar view from your viewport to create those quads.
 
@@ -106,7 +106,7 @@ it will be automatically unchecked. Examples:
 - Creating Faces with shortcut :kbd:`Ctrl-LMB`, (see Fig. - Faces created with source automatically rotated)
 - Creating Faces with shortcut :kbd:`Ctrl-Shift-LMB`, (see Fig. Faces created with no source rotation) 
 
-If you have 3 or more vertices selected, and left click with mouse while pressing :kbd:`Ctrl-LMB`,
+If you have three or more vertices selected, and left click with mouse while pressing :kbd:`Ctrl-LMB`,
 you will also create planar faces, but along the vertices selected, following the direction of the cursor.
 This operation is similar to an extrude operation,
 which is explained in the :doc:`Extrude </modeling/meshes/editing/duplicating/extrude>` page.
@@ -127,10 +127,10 @@ Filling Faces
 
    Fig. 5 - Filling a triangle with F.
 
-You can also create faces with at least 3 vertices selected, using :kbd:`F` to fill them with edges and faces,
+You can also create faces with at least three vertices selected, using :kbd:`F` to fill them with edges and faces,
 or only fill edges with faces if they are already connected (Fill) (See Fig. 5).
-For 4 or more vertices, it's mandatory that you have coplanar vertices.
-4 coplanar vertices will create a quad when filled, and more than 4 coplanar vertices will create a Ngon face.
+For four or more vertices, it's mandatory that you have coplanar vertices.
+four coplanar vertices will create a quad when filled, and more than four coplanar vertices will create a Ngon face.
 
 .. container:: lead
 

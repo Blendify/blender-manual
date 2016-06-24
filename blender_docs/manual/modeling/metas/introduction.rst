@@ -262,4 +262,4 @@ Cube (parallelepipedal volume, tri-dimensional structure)
 .. figure:: /images/MetaPrimitives.jpg
    :width: 600px
 
-   The 5 Meta primitives.
+   The five Meta primitives.

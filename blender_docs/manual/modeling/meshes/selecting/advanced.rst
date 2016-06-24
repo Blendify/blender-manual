@@ -37,15 +37,15 @@ Non Manifold :kbd:`Ctrl-Shift-Alt-M`
    Boundaries
       Selects edges in boundaries and holes.
    Multiple Faces
-      Selects edges that belong to 3 or more faces.
+      Selects edges that belong to three or more faces.
    Non Contiguous
-      Selects edges that belong to exactly 2 faces with opposite normals.
+      Selects edges that belong to exactly two faces with opposite normals.
    Vertices
       Selects vertices that belong to *wire* and *multiple face* edges, isolated vertices,
       and vertices that belong to non adjoining faces.
 
 Interior Faces
-   Select faces where all edges have more than 2 faces.
+   Select faces where all edges have more than two faces.
 Side of Active
    Selects all data on the mesh in a single axis
 Select Faces by Sides

@@ -22,4 +22,4 @@ Uniform Scale
 Scale
    Scale the image on the X and Y axis
 Rotation
-   Rotates the input 2 dimensionally along the Z axis.
+   Rotates the input two-dimensionally along the Z axis.

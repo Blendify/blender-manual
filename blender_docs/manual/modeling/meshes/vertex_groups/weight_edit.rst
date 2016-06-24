@@ -29,7 +29,7 @@ Vertex Group Categories
 
 Actually we do not have any strict categories of Vertex Groups in Blender.
 Technically they all behave the same way.
-However we can identify 2 implicit categories of Vertex Groups:
+However we can identify two implicit categories of Vertex Groups:
 
 
 The Deform Groups
@@ -69,7 +69,7 @@ In that case the Vertex Weights Panel is not displayed.
    then the Vertex Weights Panel disappears.
 
 
-Each row in the Weight table contains 4 active elements:
+Each row in the Weight table contains four active elements:
 
 
 .. figure:: /images/modeling-mesh_vertex-weight-editor-name.jpg
@@ -165,7 +165,7 @@ The Function bar
    Vertex Weights panel.
 
 
-The function bar contains 2 functions:
+The function bar contains two functions:
 
 Normalize
    Normalizes the weights of the active Vertex.

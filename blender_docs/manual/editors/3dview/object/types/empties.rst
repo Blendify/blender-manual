@@ -31,7 +31,7 @@ Display
    Cube
       Draws as a cube, initially aligned to the XYZ axes.
    Sphere
-      Draws as an implied sphere defined by 3 circles.
+      Draws as an implied sphere defined by three circles.
       Initially, the circles are aligned, one each, to the X, Y, and Z axes.
    Cone
       Draws as a cone, initially pointing in the +Y axis direction.

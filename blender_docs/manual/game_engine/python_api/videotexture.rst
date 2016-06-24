@@ -173,7 +173,7 @@ any source. We must create a source object from one of the possible sources avai
    Render of a non active camera.
 
 ``ImageMix``
-   A mix of 2 or more of the above sources.
+   A mix of two or more of the above sources.
 
 In this example we use a simple video file as source.
 The ``VideoFFmpeg`` constructor takes a file name as argument.
@@ -330,7 +330,7 @@ Here are some possible advanced work flow:
    GameLogic.video.source.refresh()
 
 
-- If you have more than 1 material on the mesh and you want to modify a texture of one particular material,
+- If you have more than one material on the mesh and you want to modify a texture of one particular material,
   get its ID
 
 .. code-block:: python
@@ -338,7 +338,7 @@ Here are some possible advanced work flow:
    matID = bge.texture.materialID(gameobj, "MAmat.001")
 
 
-GLSL material can have more than 1 texture channel,
+GLSL material can have more than one texture channel,
 identify the texture by the texture slot where it is defined, here 2
 
 .. code-block:: python
@@ -364,5 +364,5 @@ Pay attention that the weight is a short number between 0 and 255,
 and that the sum of all weights should be 255.
 ``ImageMix`` makes a mix of all the sources according to their weights.
 The sources must all have the same image size
-(after reduction to the nearest power of 2 dimension). If they don't,
+(after reduction to the nearest power of two dimension). If they don't,
 you get a Python error on the console.

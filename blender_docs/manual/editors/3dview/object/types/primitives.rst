@@ -64,7 +64,7 @@ Vertices
    The number of vertices that define the circle.
    The more vertices the circle contains, the smoother its contour will be;
    see (*"Circles" obtained with various settings*).
-   In contrast, a circle with only 3 vertices is actually a triangle -
+   In contrast, a circle with only three vertices is actually a triangle -
    the circle is actually the standard way of adding polygons such as triangles, pentagons, et cetera.
 Radius
    Sets the radius of the circle.

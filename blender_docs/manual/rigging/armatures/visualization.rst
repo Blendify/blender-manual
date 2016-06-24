@@ -3,7 +3,7 @@
 Armature visualization
 **********************
 
-We have 4 basic bone visualization: Octahedral, Stick, B-Bone, Envelope and Wire:
+We have four basic bone visualization: Octahedral, Stick, B-Bone, Envelope and Wire:
 
 .. list-table::
 
