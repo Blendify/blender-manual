@@ -1,3 +1,4 @@
+.. |pivot-icon| image:: /images/editors_3dview_header-pivot-point.jpg
 
 ************
 Median Point
@@ -7,10 +8,7 @@ Median Point
    :class: refbox
 
    | Mode:     Object Mode and Edit Mode
-   | Menu:     Select from the following icon in the 3D View header
-
-   .. figure:: /images/editors_3dview_header-pivot-point.jpg
-
+   | Menu:     Select from the following |pivot-icon| icon in the 3D View header
    | Hotkey:   :kbd:`Ctrl-,`
 
 
