@@ -42,25 +42,19 @@ Single selection does not require any pre-selection: just work directly with :kb
 
 When you select an object in the list this way,
 it is selected and becomes the active object in all other 3D Views.
-Use this feature to find objects in your 3D View, select them in the *Outliner*,
-then zoom to them with :menuselection:`View --> Show Active` or :kbd:`NumpadPeriod`.
 
-.. figure:: /images/Outliner-Activate-Datablock.jpg
+.. tip::
 
-   Click :kbd:`LMB` on the mesh data of the cube to activate Edit Mode.
+   Use this feature to find objects in your 3D View, select them in the *Outliner*,
+   then zoom to them with :menuselection:`View --> Show Active` or :kbd:`NumpadPeriod`.
 
 
 Activating a data-block
-   *Activate* the data-block with :kbd:`LMB` on the *icon* of the data-block.
+   To "activate" the data-block with :kbd:`LMB` on the *icon* of the data-block.
    Activating the data-block will automatically switch to the relevant mode.
    For example, activating the mesh data of the cube will select the cube
    and enter *Edit Mode* while activating the object data of the
    cube will select the cube and enter *Object Mode* (see right).
-
-.. figure:: /images/Outliner-editor-column-icons.jpg
-
-   Toggling pre-selection of a data-block.
-
 
 Toggle pre-selection of a group of data-blocks
    Useful when you want to select/deselect a whole bunch of data-blocks.
@@ -74,9 +68,9 @@ Toggle pre-selection of a group of data-blocks
    You then can (de)select them with a :kbd:`RMB` *on* the name/icon area,
    which brings on a context menu (see bellow).
 
-.. figure:: /images/Outliner-Object-Operation.jpg
+   .. figure:: /images/Outliner-editor-column-icons.jpg
 
-   Context menu for the Cube object.
+      Toggling pre-selection of a data-block.
 
 
 Context menu
@@ -93,6 +87,9 @@ Context menu
 
       Some data-block types will not have a context menu at all!
 
+   .. figure:: /images/Outliner-Object-Operation.jpg
+
+      Context menu for the Cube object.
 
 Deleting a data-block
    Use :kbd:`X` to delete the selected data-block(s).
