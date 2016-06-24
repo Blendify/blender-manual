@@ -25,7 +25,6 @@ Visible
 Hidden
    Lines occluded by at least one surface are rendered.
 
-
 .. figure:: /images/render-freestyle-Hidden_Edges.jpg
    :width: 600px
 
@@ -36,15 +35,14 @@ Hidden
 QI Range
    QI stands for *Quantitative Invisibility*. Lines occluded by a number of surfaces in the given range are rendered.
 
-Start and End
-   Only with *QI Range*, min/max number of occluding surfaces for a line to be rendered.
+   Start and End
+      Min/max number of occluding surfaces for a line to be rendered.
 
+   .. figure:: /images/render-freestyle-QI_Range.jpg
+      :width: 600px
 
-.. figure:: /images/render-freestyle-QI_Range.jpg
-   :width: 600px
-
-   QI Range proof of concept demo, Start: 3, End: 7, by LightBWK
-   (`Sample blend-file <https://wiki.blender.org/index.php/File:QI-Range.zip>`__)
+      QI Range proof of concept demo, Start: 3, End: 7, by LightBWK
+     (`Sample blend-file <https://wiki.blender.org/index.php/File:QI-Range.zip>`__)
 
 
 Selection by Edge Types
@@ -63,12 +61,11 @@ Silhouette
 Crease
    Shows only edges whose adjacent faces form an angle greater than the defined viewmap's *Crease Angle*.
 
+   .. figure:: /images/render-freestyle-CreaseConcept.jpg
+      :width: 600px
 
-.. figure:: /images/render-freestyle-CreaseConcept.jpg
-   :width: 600px
-
-   Crease Angle proof of concept for 121º by LightBWK
-   ( `the blend-file <https://wiki.blender.org/index.php/File:CreaseAngle.zip>`__)
+      Crease Angle proof of concept for 121º by LightBWK
+      ( `the blend-file <https://wiki.blender.org/index.php/File:CreaseAngle.zip>`__)
 
 
 Border
@@ -112,7 +109,6 @@ Edge Marks
 .. figure:: /images/freestyle-mark-freestyle-edge.jpg
 
    Select and mark Freestyle edges.
-
 
 .. figure:: /images/freestyle-edge-mark.jpg
 
@@ -190,7 +186,6 @@ On the right is a render without face marks activated.
 
           Render Output.
 
-
 .. figure:: /images/freestyle-face-mark.jpg
 
    Face mark options.
@@ -218,7 +213,6 @@ The image below shows the resulting combinations.
      - .. figure:: /images/freestyle-face-mark-inclusive-both.jpg
 
           Inclusive, Both Faces.
-
 
 .. list-table::
 
