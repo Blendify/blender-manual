@@ -1,3 +1,5 @@
+.. |prop-edit-icon| image:: /images/editors_3dview_Transform-Control_Proportional-Edit-header-icon.jpg
+.. |prop-edit-edit-mode-icon| image:: /images/editors_3dview_Transform-Control_Proportional-Edit-header-icon-edit-mode.jpg
 
 *****************
 Proportional Edit
@@ -24,10 +26,7 @@ Object Mode
    :class: refbox
 
    | Mode:     Object Mode
-   | Menu:     Via the icon in the header indicated by the yellow square in the below image.
-
-   .. figure:: /images/editors_3dview_Transform-Control_Proportional-Edit-proportional-edit-header-icon.jpg
-
+   | Menu:     Via the |prop-edit-icon| icon in the header indicated by the yellow square in the below image.
    | Hotkey:   :kbd:`O`
 
 
@@ -52,10 +51,7 @@ Edit Mode
    :class: refbox
 
    | Mode:     Edit Mode
-   | Menu:     :menuselection:`Mesh --> Proportional Editing` and via the highlighted icon in the below image
-
-   .. figure:: /images/editors_3dview_Transform-Control_Proportional-Edit-proportional-edit-header-icon-edit-mode.jpg
-
+   | Menu:     :menuselection:`Mesh --> Proportional Editing` and via the |prop-edit-edit-mode-icon| highlighted icon
    | Hotkey:   :kbd:`O`, :kbd:`Alt-O`, :kbd:`Shift-O`
 
 
@@ -86,33 +82,32 @@ the points surrounding your selection will adjust their positions accordingly.
 Options
 -------
 
-.. figure:: /images/editors_3dview_Transform-Control_Proportional-Edit-proportional-edit-tool.jpg
-   :width: 200px
+.. list-table::
 
-   Proportional Editing tool.
+   * - .. figure:: /images/editors_3dview_Transform-Control_Proportional-Edit-tool.jpg
+         :width: 200px
 
-.. figure:: /images/editors_3dview_Transform-Control_Proportional-Edit-proportional-edit-falloff-options.jpg
-   :width: 200px
+         Proportional Editing tool.
 
-   Falloff menu.
+     - .. figure:: /images/editors_3dview_Transform-Control_Proportional-Edit-falloff-options.jpg
+         :width: 200px
+
+         Falloff menu.
 
 
 The *Proportional Editing* mode menu is on the *3D View* header.
 
 Disable :kbd:`O`, :kbd:`Alt-O`
    Proportional Editing is Off, only selected vertices will be affected.
-
 Enable :kbd:`O`, :kbd:`Alt-O`
    Vertices other than the selected vertex are affected, within a defined radius.
-
 Projected (2D)
    Depth along the view is ignored when applying the radius.
 
-.. figure:: /images/editors_3dview_Transform-Control_Proportional-Edit-2D_Compare.jpg
-   :width: 300px
-
-   The difference between regular and Projected (2D) proportional option (right).
-
+   .. figure:: /images/editors_3dview_Transform-Control_Proportional-Edit-2D_Compare.jpg
+      :width: 400px
+   
+      The difference between regular and Projected (2D) proportional option (right).
 
 Connected :kbd:`Alt-O`
    Rather than using a radius only, the proportional falloff spreads via connected geometry. This means that you can
