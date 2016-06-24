@@ -95,7 +95,7 @@ Texture Preview
 ===============
 
 If your texture is already used to color, bump map, displace, alpha-transparent, etc.,
-a surface of a model in your scene (in other techie words,
+a surface of a model in your scene (in other technical words,
 is mapped to some aspect of a texture via a texture channel using UV as a map input),
 you can see the effects of your painting in the context of your scene as you paint.
 
