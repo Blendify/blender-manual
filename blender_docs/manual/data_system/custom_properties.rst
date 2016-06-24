@@ -43,12 +43,12 @@ Min
 Max
    The maximum value the custom property can take.
 Use Soft Limits
-   Todo.
+   Enables limits that the *Property Value* slider can be adjusted to without having having to input the value numerically.
 
    Soft Min
-      Todo.
+      The minimum value for the soft limit.
    Soft Max
-      Todo.
+      The maximum value for the soft limit.
 
 Tooltip
    Allows you to write a custom :doc:`Tooltip </getting_started/help>` for your property.
