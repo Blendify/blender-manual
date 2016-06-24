@@ -80,7 +80,7 @@ Lost in Space
 When navigating your scene, you may accidentally navigate away from your scene
 and find yourself with a blank viewport. There are two ways to fixes this:
 
-- Select an object in the :doc:`Outliner <editors/outliner>`,
+- Select an object in the :doc:`Outliner </editors/outliner>`,
   then zoom to that object with :menuselection:`View --> Show Active` or :kbd:`NumpadPeriod`.
 - Use :kbd:`Home` to fit all objects into the 3D View.
 
@@ -100,8 +100,8 @@ Solutions
 
 - Use :ref:`View Dolly <3dview-nav-zoom_dolly>`
 - Use :ref:`Walk/Fly modes <3dview-walk_fly>`.
-- Use :ref:`Auto Depth <prefs-auto_depth> and :ref:`Zoom to Mouse Position <prefs-zoom_mouse_pos>.
-  These will make sure the distance is always the value under the mouse cursor,
+- Use :ref:`Auto Depth <prefs-auto_depth>` and :ref:`Zoom to Mouse Position <prefs-zoom_mouse_pos>`.
+  These tool will make sure the distance is always the value under the mouse cursor,
 - Use :ref:`Border Zoom <3dview-nav-zoom_border>` as it also resets the center-point when zooming.
 - Center the view around the mouse cursor :kbd:`Alt-F`.
   This will take the position under the cursor and make it your viewpoint center.
