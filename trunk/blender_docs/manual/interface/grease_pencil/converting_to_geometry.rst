@@ -20,33 +20,21 @@ as proposed by the *Convert Grease Pencil* menu popped-up by the *Convert* butto
 Options
 =======
 
-Path
-   Create NURBS 3D curves of order 2 (i.e. behaving like polylines).
-Bezier Curve
-   Create Bezier curves, with free "aligned" handles (i.e. also behaving like polylines).
+Type
+   The type of object to convert to.
 
-.. note:: Why "polyline-like" curves?
+   Path
+      Create NURBS 3D curves of order 2 (i.e. behaving like polylines).
+   Bezier Curve
+      Create Bezier curves, with free "aligned" handles (i.e. also behaving like polylines).
+   Polygon Curve
+      Bezier Curve with strait line segments (auto handles)
 
-   To get by default curves following exactly the grease pencil strokes.
-   If you want a smoothed curve, just edit it to get auto handles (for Bezier), or raise its order (for NURBS).
+   .. note:: Converting to Mesh
 
-.. note:: Converting to Mesh
+      If you want to convert your sketch to a mesh,
+      simply choose first *NURBS*, and then convert the created curve to a mesh.
 
-   If you want to convert your sketch to a mesh,
-   simply choose first *NURBS*, and then convert the created curve to a mesh.
-
-
-General Options
----------------
-
-Stroke width 
-   Will be used to set the curve's control points' radii and weights
-   (**not** NURBS weights, but those used e.g. as goal by the softbody simulation...).
-   The default behavior is to get strokes' width
-   (as defined in its settings - and which might have been modulated by the pen pressure),
-   to multiply it by a given constant (0.1), and to assign it directly to weights.
-   Radii get the same value scaled by the *Radius Fac* factor (e.g.
-   with a factor of 10.0, a stroke width of 3 will give radii of 3.0 ...).
    
 Normalize Weight
    Will scale weights value so that they tightly fit into the (0.0 to 1.0) range. (enabled by default)
@@ -65,9 +53,9 @@ Link Strokes
 Timing
 ------
 
-Grease pencil now stores "dynamic" data, i.e. how fast they were drawn.
+Grease pencil stores "dynamic" data, i.e. how fast strokes are drawn.
 When converting to curve,
-those data can be used to create an *Evaluate Time* F-Curve (in other words,
+this data can be used to create an *Evaluate Time* F-Curve (in other words,
 a path animation), that can be used e.g. to control another object's position along that curve
 (*Follow Path* constraint, or, trough a driver, *Curve* modifier).
 So this allows you to reproduce your drawing movements.
@@ -77,19 +65,12 @@ So this allows you to reproduce your drawing movements.
    All those "timing" options need *Link Stroke* to be enabled - else
    they would not make much sense!
 
-.. warning::
-
-   Please note that if you use this tool with older grease pencil's strokes
-   (i.e. some without any timing data), you will only have a subset of those
-   options available (namely, only linear progression along the curve over a
-   specified range of frames).
-
 
 Timing Mode
    This control let you choose how timing data are used.
 
    No Timing
-      Just create the curve, without any animation data (hence all following options will be hidden)...
+      Just create the curve, without any animation data (hence all following options will be hidden).
    Linear
       The path animation will be a linear one.
    Original
@@ -117,15 +98,6 @@ Gap Duration
    *Custom Gaps* only. The average duration (in frames) of each gap between actual strokes.
    Please note that the value entered here will only be exact if *Realtime* is enabled,
    else it will be scaled, exactly as the actual strokes' timing is!
-
-Gap Randomness
-   Only when *Gap Duration* is non-null. The number of frames actual gap duration can vary of.
-   This allows the creation of gaps having an average well defined duration,
-   yet keeping some random variations to avoid an "always the same" effect.
-
-Random Seed
-   The seed fed to the random generator managing gaps duration variations.
-   Change it to get another set of gaps duration in the path animation.
 
 
 Example
