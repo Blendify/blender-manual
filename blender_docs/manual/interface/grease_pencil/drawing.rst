@@ -18,7 +18,6 @@ Drawing With Grease Pencil
 
 *Grease Pencil* sketches can be converted to editable geometry and used to aid the animation process.
 
-
 - :doc:`Read more about Layers and Animation </interface/grease_pencil/layers_and_animation>`
 - :doc:`Read more about Converting sketches to geometry </interface/grease_pencil/converting_to_geometry>`
 
@@ -70,6 +69,7 @@ Set the color, line width and other aspects of the grease pencil's appearance in
 
    Grease pencil properties.
 
+
 There are separate settings for each layer with those of the active layer shown in the panel.
 All the strokes on a layer (not just those made after a particular change)
 are affected by that layer's grease pencil properties.
@@ -93,6 +93,7 @@ Drawing Settings
 ================
 
 .. figure:: /images/editors_3dview_Sketching_Drawing_grease-pencil-drawing-settings-panel.jpg
+   :align: right
 
    Grease Pencil Drawing Settings.
 
