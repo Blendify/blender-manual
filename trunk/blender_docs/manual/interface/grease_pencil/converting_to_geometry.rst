@@ -3,16 +3,16 @@
 Converting Sketches to Objects
 ******************************
 
+.. figure:: /images/GreasePencilPanel3DView.jpg
+   :align: right
+
+   Grease Pencil panel in 3D View.
+
+
 In the 3D View, sketches on the active layer can be converted to geometry,
 based on the current view settings, by transforming the points recorded when drawing
 (which make up the strokes) into 3D-space. Currently, all points will be used,
 so it may be necessary to simplify or subdivide parts of the created geometry for standard use.
-
-
-.. figure:: /images/GreasePencilPanel3DView.jpg
-
-   Grease Pencil panel in 3D View.
-
 
 Sketches can currently be converted into curves,
 as proposed by the *Convert Grease Pencil* menu popped-up by the *Convert* button in the grease pencil properties
@@ -22,12 +22,10 @@ Path
 Bezier Curve
    Create Bezier curves, with free "aligned" handles (i.e. also behaving like polylines).
 
-
 .. note:: Why "polyline-like" curves?
 
    To get by default curves following exactly the grease pencil strokes.
    If you want a smoothed curve, just edit it to get auto handles (for Bezier), or raise its order (for NURBS).
-
 
 .. note:: Converting to Mesh
 
@@ -76,12 +74,10 @@ a path animation), that can be used e.g. to control another object's position al
 (*Follow Path* constraint, or, trough a driver, *Curve* modifier).
 So this allows you to reproduce your drawing movements.
 
-
 .. warning::
 
    All those "timing" options need *Link Stroke* to be enabled - else
    they would not make much sense!
-
 
 .. warning::
 
@@ -141,6 +137,5 @@ Here is a simple "hand writing" video created with curves converted from sketch 
 
 .. youtube:: VwWEXrnQAFI
 
-And the blend-file:
-`File:ManGreasePencilConvertToCurveDynamicExample.blend
-<https://wiki.blender.org/index.php/file:ManGreasePencilConvertToCurveDynamicExample.blend>`__
+The blend-file from the above example can be found
+`here <https://wiki.blender.org/index.php/file:ManGreasePencilConvertToCurveDynamicExample.blend>`__
