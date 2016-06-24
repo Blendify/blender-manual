@@ -62,7 +62,7 @@ Options:
         It must also be completely empty (no vertices assigned to it).
 
 Textures
-   The *U* and *V* options allows you to mirror the UV texture coordinates across the middle
+   The U and V options allows you to mirror the UV texture coordinates across the middle
    of the image.
 
    E.g. if you have a vertex with UV coordinates of (0.3, 0.9),

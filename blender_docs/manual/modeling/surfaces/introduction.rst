@@ -18,7 +18,7 @@ you cannot have in the same object both curves and surfaces.
 As surfaces are 2D, they have two interpolation axes, U (as for curves) and V.
 It is important to understand that you can control the interpolation rules (knot, order,
 resolution) *independently* for each of these two dimensions
-(the *U* and *V* fields for all these settings, of course).
+(the U and V fields for all these settings, of course).
 
 You may ask yourself "but the surface appears to be 3D, why is it only 2D?".
 In order to be 3D, the object needs to have "Volume," and a surface, even when it is closed,
@@ -51,8 +51,8 @@ Visualization
 =============
 
 There is nearly no difference from NURBS curves,
-except that the *U* direction is indicated by yellow grid lines,
-and the *V* one is materialized by pink grid lines, as you can see in
+except that the U direction is indicated by yellow grid lines,
+and the V one is materialized by pink grid lines, as you can see in
 Fig. Surface.
 
 You can :ref:`hide and reveal <curves-hiding>` control points just as with curves.
@@ -116,7 +116,7 @@ Just like :ref:`NURBS curves <modeling-curve-nurbs>`, *Resolution* controls the 
 The higher the *Resolution* the more detailed and smoother the surface is.
 The lower the *Resolution* the rougher the surface. However, here you have two resolution settings,
 one for each interpolation axis (U and V). Note that unlike with curves, you have only one resolution
-(the *Resol U* and *V* fields, in the *Curve Tools* panel)...
+(the *Resol* U and V fields, in the *Curve Tools* panel)...
 
 .. list-table::
 
@@ -163,12 +163,12 @@ or *Bezier*, with the same properties as for curves. And as with curves, only op
    Endpoint U.
 
 
-In Fig. Endpoint U the U interpolation axis is labeled as *U* and the *V*
-interpolation axis is labeled as *V*. The *U* 's interpolation axis has
+In Fig. Endpoint U the U interpolation axis is labeled as "U" and the V
+interpolation axis is labeled as "V". The U's interpolation axis has
 been set to *Endpoint* and as such the surface now extends to the outer edges from
-E1 to E2 along the *U* interpolation axis.
+E1 to E2 along the U interpolation axis.
 
-To cause the surface to extend to all edges you would set the *V* 's axis to
+To cause the surface to extend to all edges you would set the V's axis to
 *Endpoint* as well.
 
 
