@@ -45,7 +45,7 @@ Extrapolate
    all values outside these ranges are clipped to them.
    When you enable this button, the *min* and *max* values are no longer strict limits,
    but rather "markers" defining a proportional (linear) mapping between input and corresponding output values.
-   let us illustrate that with two graphs Fig. The Extrapolate principles.
+   Let us illustrate that with two graphs Fig. The Extrapolate principles.
    In these Fig. pictures, the input range (in abscissa) is set to (1.0 to 4.0),
    and its corresponding output range (in ordinate), to (1.0 to 2.0).
    The yellow curve represents the mapping between input and output.

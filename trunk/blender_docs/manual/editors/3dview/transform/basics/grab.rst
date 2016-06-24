@@ -48,7 +48,7 @@ It is active by default. You can use the widget by holding :kbd:`LMB` over it an
 Shortcuts
 =========
 
-A quicker way to move objects in 3D space is with the :kbd:`G` hotkey.
+A quicker way to move objects in 3D space is with :kbd:`G`.
 Pressing :kbd:`G` activates "Grab/Move" transformation mode.
 The selected object or data then moves freely according to the mouse pointer's location and camera.
 Using this shortcut in combination with specific shortcuts which specify a chosen axis gives you
@@ -149,12 +149,12 @@ If you have changed the orientation to something other than Global,
 you can hotkey your chosen axis of orientation by hitting the relevant axis modifying hotkey
 *twice* instead of just *once*. Hitting the axis modifying hotkey three times reverts back to Global orientation.
 
-- The :kbd:`G` hotkey followed by :kbd:`X-X` or :kbd:`Y-Y` or
+- :kbd:`G` followed by :kbd:`X-X` or :kbd:`Y-Y` or
   :kbd:`Z-Z` allows you to translate the object in the object's Local axis by default,
   or on an axis of the selected orientation if the transform orientation is not set to Global.
   This modifying hotkey combination can be followed with numbers as described in the previous section.
 
-- The :kbd:`G` hotkey followed by :kbd:`Shift` and :kbd:`X-X` or :kbd:`Y-Y` or
+- The :kbd:`G` followed by :kbd:`Shift` and :kbd:`X-X` or :kbd:`Y-Y` or
   :kbd:`Z-Z` will lock the object's translation on a single Local axis by default,
   or on an axis of the selected orientation if the transform orientation is not set to Global.
   Locking one axis means the selected object moves freely on the other two axes.
