@@ -136,7 +136,7 @@ Fresnel
    Demonstration of Fresnel effect with values equal to (from top to bottom) 0.0, 2.5 and 5.0.
 
 
-let us undertake a small experiment in order to understand what Fresnel is really about.
+Let us undertake a small experiment in order to understand what Fresnel is really about.
 After a rainy day, go out and stand over a puddle of water.
 You can see the ground through the puddle. If you kneel just in front of the puddle,
 your face close to the ground, and look again at a distant point on the puddle of water,

@@ -157,14 +157,12 @@ Examples
 ========
 
 .. TODO: add some "simple" extrusion examples.
+   TODO: add some "bevel" extrusion with *Radius* examples.
 
-.. TODO: add some "bevel" extrusion with *Radius* examples.
-
-let us taper a simple curve circle extruded object using a taper curve. Add a curve,
+Let us taper a simple curve circle extruded object using a taper curve. Add a curve,
 then exit *Edit Mode*. Add another one (a closed one, like a circle); call it "BevelCurve",
 and enter its name in the *BevOb* field of the first curve
-(*Curve and Surface* tab).
-We now have a pipe.
+(*Curve and Surface* tab). We now have a pipe.
 Add a third curve while in *Object Mode* and call it "TaperCurve".
 Adjust the left control-point by raising it up about 5 units.
 
@@ -173,7 +171,6 @@ and edit the first curve's *TaperOb* field in the Curve and Surface panel to ref
 which we called *TaperCurve*.
 When you hit enter the taper curve is applied immediately,
 with the results shown in Fig. Taper extruded curve.
-
 
 .. list-table::
 
@@ -192,7 +189,6 @@ If the taper curve went below the local Y axis the pipe's inside would become th
 which would lead to rendering artifacts.
 Of course as an artist that may be what you are looking for!
 
-
 .. figure:: /images/curvesTaper02.jpg
 
    Taper example 1.
@@ -203,7 +199,6 @@ you can clearly see the effect the left taper curve has on the right curve objec
 left taper curve is closer to the object center and that results in a smaller curve object to
 the right.
 
-
 .. figure:: /images/curvesTaper03.jpg
 
    Taper example 2.
@@ -211,7 +206,6 @@ the right.
 
 In Fig. Taper example 2 a control point in the taper curve to the left is moved away from the
 center and that gives a wider result to the curve object on the right.
-
 
 .. figure:: /images/curvesTaper04.jpg
 

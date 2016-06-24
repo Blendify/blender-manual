@@ -176,7 +176,7 @@ Recoloring Shadows
    :width: 300px
 
 
-let us run the Shadow buffer through a colorization noodle, then recombine it;
+Let us run the Shadow buffer through a colorization noodle, then recombine it;
 all your shadows will be artificially colored.
 Lots of threads in this noodle are shown to the right, so let us walk through it.
 On the left is the Render Layer input node:

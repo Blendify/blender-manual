@@ -1,4 +1,3 @@
-
 ..    TODO/Review: {{review|im=examples}}.
 
 ***********************
@@ -12,7 +11,7 @@ the owner can only track its target by rotating around this axis,
 and unless the target is in the plane perpendicular to the locked axis, and crossing the owner,
 this owner cannot really point at its target.
 
-let us take the best real world equivalent: a compass.
+Let us take the best real world equivalent: a compass.
 It can rotate to point in the general direction of its target (the magnetic North,
 or a neighbor magnet), but it can't point *directly at it*,
 because it spins like a wheel on an axle.
@@ -60,7 +59,6 @@ To
 
 Lock
    The locked local axis (*Z* by default), i.e. the owner's axis which cannot be re-oriented to track the target.
-
 
 .. warning::
 
