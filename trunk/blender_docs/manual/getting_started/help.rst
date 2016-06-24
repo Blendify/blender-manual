@@ -5,12 +5,14 @@ Help System
 
 Blender has a range of built-in and web-based help options.
 
+
 Tooltips
 ========
 
 .. figure:: /images/ui_tooltip_example.png
 
    The Mouse pointer was Stopped for a while over the Render Engines List in the Info Editor.
+
 
 When hovering your cursor over a button or setting,
 it will show you the *Tooltip*, and related details depending on the button type,
@@ -30,6 +32,7 @@ Context Sensitive Manual Access
    | Menu:     :kbd:`RMB`, :menuselection:`Online Manual`
    | Hotkey:   :kbd:`Alt-F1`
 
+
 You may want to access help for a tool or area from within Blender.
 
 Use the key-shortcut, or right-click menu to visit pages from this reference manual within Blender.
@@ -42,6 +45,7 @@ This opens a webpage relating to the button under the cursor, supporting both to
 
    Other times buttons may link to more general sections of the documentation.
 
+
 .. _help-menu:
 
 Help Menu
@@ -50,13 +54,11 @@ Help Menu
 In the Info Editor headers *Help* menu is a group of web links.
 The same links can also be found in the :ref:`splash`.
 
-
 .. tip:: Browser and Internet Connection
 
    Some forms of Help start up your web browser and access the Blender Foundation's web servers.
    In order to do this, you must have configured a default web browser for your Operating System,
    and have a connection to the Internet.
-
 
 .. figure:: /images/getting_started-help_menu.png
    :width: 165px
@@ -133,4 +135,3 @@ This can be useful for creating scripts.
 .. figure:: /images/getting_started_help_python.png
 
    The Info Editor Log after adding a Cube.
-

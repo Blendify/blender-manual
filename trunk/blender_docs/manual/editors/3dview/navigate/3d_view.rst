@@ -183,8 +183,18 @@ hold :kbd:`Ctrl-MMB` and move your mouse up and down.
    :menuselection:`View --> View Selected`.
 
 
+.. _3dview-nav-zoom_border:
+
 Zoom Border
 -----------
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     All modes
+   | Menu:     :menuselection:`View --> Zoom Border`
+   | Hotkey:   :kbd:`Shift-B`
+
 
 The *Zoom Border* tool allows you to specify a rectangular region and zoom in so
 that the region fills the 3D View.
@@ -195,6 +205,8 @@ then :kbd:`LMB` click and drag a rectangle to zoom into.
 Alternatively you can zoom out using the :kbd:`MMB`.
 
 
+.. _3dview-nav-zoom_dolly:
+
 Dolly the View
 ==============
 
@@ -203,6 +215,7 @@ Dolly the View
 
    | Mode:     All modes
    | Hotkey:   :kbd:`Ctrl-Shift-MMB`
+
 
 In most cases its sufficient to zoom the view to get a closer look at something,
 however you may notice that at a certain point you cannot zoom any closer.

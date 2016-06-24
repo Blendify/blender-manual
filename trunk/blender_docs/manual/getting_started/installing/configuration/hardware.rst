@@ -10,6 +10,7 @@ Todo.
 
 .. Include HMD for Blender 2.78
 
+
 Multi-Monitor Setup
 -------------------
 
@@ -29,8 +30,11 @@ Blender supports various types of input devices:
 - Graphic Tablets
 
 
+Mice
+----
+
 Usage of Mouse Buttons
-----------------------
+^^^^^^^^^^^^^^^^^^^^^^
 
 In Blender the :kbd:`RMB` (Right Mouse Button) is generally used for Selection
 and the :kbd:`LMB` (Left Mouse Button) initiates or confirms actions.
@@ -55,8 +59,11 @@ Video: `Learn more about Blender's Mouse Button usage <https://vimeo.com/7633505
    For example, the :doc:`File Browser </editors/file_browser/introduction>`.
 
 
+Keyboards
+---------
+
 Non English Keyboards
----------------------
+^^^^^^^^^^^^^^^^^^^^^
 
 If you use a keyboard with a non-english keyboard layout, you still may benefit from switching
 your computer to the UK or US layout as long as you work with Blender.
@@ -84,6 +91,12 @@ as well as provide additional controls such as pressure sensitivity.
 
 3D Mice
 -------
+
+3D Mice or :abbr:`NDOF (N-Degrees of Freedom) ` is hardware that you can use to navigate a scene in Blender,
+Currenly only devices made by 3dconnexion are supported.
+These devices are supprted in Blender's 3D View, allowing you to explore a scene,
+as well as :ref:`Walk/Fly modes <3dview-walk_fly>`.
+
 
 .. seealso::
 
