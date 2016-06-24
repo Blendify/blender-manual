@@ -1,37 +1,53 @@
 ..    TODO/Review: {{review}}.
 
-***********
-Info Editor
-***********
+************
+Introduction
+************
+
+
+The Info Editor is found at the top of the Default Screen and has the following components.
+
+Header
+======
 
 .. figure:: /images/interface_window-system_info-window-shaded.jpg
 
-   Info Editor.
-
-
-The Info Editor is found at the top of the Default Scene and has the following components:
-
+   Info Editor header: Editor Type Selector(red), Menus (blue), 
+   Screen Selector (green), Scene Selector (orange), Engine Selector (purple),
+   Resource Information (aqua).
 
 Editor Type Selector
-   The red shaded area allows you to change the
-   :doc:`Editor Type </editors/index>`.
-   This region is found on every editor.
-Menu options
-   The dark blue shaded area provides access to the main menu options.
-Current Screen (default is Default)
-   The green shaded area allows you to select different :doc:`Screens </interface/editors/screens>`.
-   By default, Blender comes with several pre-configured *Screen* s for you to choose from.
-   If you need custom screen layouts, you can create and name them.
-Current Scene
-   The yellow shaded area allows you to select different :doc:`Scenes </data_system/scenes>`.
+   Allows you to change the :doc:`Editor Type </editors/index>`.
+Menus
+   Provides access to the main menu options.
+Screen Selector
+   Used to select and edit window layouts. See :doc:`Screens </interface/editors/screens>`.
+Scene Selector
+   Allows you to select different :doc:`Scenes </data_system/scenes>`.
    Having multiple Scenes allows you to work with separate virtual environments,
    with completely separate data, or with objects and/or mesh data linked between them.
-   (In some 3D packages, each file contains one scene,
-   while in Blender, one blend-file may contain several scenes.)
-Current Engine
-   The purple shaded area gives a list of available rendering and game engines.
+Engine Selector
+   Gives a list of available render and game engines.
+Render progress
+   A progressbar and a chancel button is shown while rendering.
+Capture Stop 
+   A button shown while screen casting to stop the recording. See :ref:`info-screencast`.
+Blender Icon
+   Clicking on the Blender logo opens the :ref:`splash`. 
+Blender version
+   This label displays the Blender version.
 Resource Information
-   The aqua shaded area gives you information about Blender and system resources in use.
-   This region will tell you how much memory is being consumed based on the number of vertices,
-   faces and objects in the selected scene, as well as totals of what resources are currently selected.
-   This can help identify when you are reaching the limits of your hardware.
+   Scene
+      Displays information about the current loaded scene. The number of vertices,
+      faces and triangles. As well as the selected objects or lambs with their total count in the scene.
+   Memory
+      The "Mem" label shows the calculated memory consumption by Blender. 
+      This can help to identify, when you are reaching the limits of your hardware.
+   Active Object
+      The object type of the current selected active object.
+
+
+Console
+=======
+
+When the Info Editors window is scaled up it reveals the Blender console, where a log is displayed. 
