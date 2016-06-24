@@ -120,7 +120,6 @@ object you want to select with :kbd:`LMB`.
 
 Lasso select adds to the previous selection. For deselection, use :kbd:`Ctrl-Shift-LMB`.
 
-
 .. figure:: /images/Object-Selection-Lasso.jpg
    :width: 610px
 
@@ -259,9 +258,10 @@ Dupligroup
 Particle System
    Selects all objects that use the same *Particle System*
 Library
-   Selects all objects that are in the same
-   `Library <https://wiki.blender.org/index.php/Dev:2.5/Source/Data_system/LibraryBrowser>`__
-   `Library (Object Data)`
+   Selects all objects that are in the same :doc:`Library </data_system/linked_libraries>`
+Library (Object Data)
+   Selects all objects that are in the same :doc:`Library </data_system/linked_libraries>`
+   and limited to *object data*.
 
 
 Select All by Type
@@ -322,7 +322,6 @@ Extend
    Enable to add objects to current selection rather than replacing the current selection.
 Layer
    The layer on which the objects are.
-
 
 .. tip:: Selection of Objects
 
