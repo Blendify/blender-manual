@@ -164,8 +164,8 @@ Visible Layers
    Use the :doc:`layer </editors/3dview/layers>` buttons
    to make objects on a layer visible in the 3D View.
 Selected
-   Lists only the object(s) currently selected in the 3D View.
-   You can select multiple objects by :kbd:`Shift-RMB` -clicking.
+   Lists the object(s) that are currently selected in the 3D View.
+   See :doc:`selecting in the 3D View </editors/3dview/selecting>` for more information.
 Active
    Lists only the active (often last selected) object.
 Same Types
