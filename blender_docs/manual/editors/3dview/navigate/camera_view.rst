@@ -59,7 +59,7 @@ Camera View Positioning
 -----------------------
 
 By enabling :ref:`Lock Camera to View <3dview-lock_camera_to_view>` in the View menu of the View Properties panel,
-while in camera view, you can navigate the 3D Viewport as usual,
+while in camera view, you can navigate the 3D View as usual,
 while remaining in camera view. Controls are exactly the same as when normally moving in 3D.
 
 

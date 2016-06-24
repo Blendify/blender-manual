@@ -82,7 +82,7 @@ Now that you got a hang of this, lets proceed to investigate some of modules in 
 Before tinkering with the modules..
 -----------------------------------
 
-If you look at the 3D Viewport in the default Blender scene, you will notice three objects: Cube,
+If you look at the 3D View in the default Blender scene, you will notice three objects: Cube,
 Lamp and Camera.
 
 
@@ -237,7 +237,7 @@ Operators are typically executed from buttons or menus but can also be be called
 See the `bpy.ops <https://www.blender.org/api/blender_python_api_current/bpy.ops.html>`__ API documentation
 for a list of all operators.
 
-Lets create a set of five Cubes in the 3D Viewport. First,
+Lets create a set of five Cubes in the 3D View. First,
 delete the existing Cube object by selecting it and pressing :kbd:`X`
 
 

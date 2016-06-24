@@ -56,7 +56,7 @@ or *Border Select, is available in both *Edit Mode* and *Object Mode*.
 .. note::
 
    What is selected using both these tools is affected by the *Limit Selection to visible* feature
-   (available under the 3D Viewport) in *Solid Viewport Shading Mode*.
+   (available under the 3D View) in *Solid Viewport Shading Mode*.
 
    For example,
 

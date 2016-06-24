@@ -113,7 +113,7 @@ Thumb
 Sculpt Properties Panel
 =======================
 
-This panel appears in the tool palette on the left side of the 3D Viewport.
+This panel appears in the tool palette on the left side of the 3D View.
 
 
 Brush Panel

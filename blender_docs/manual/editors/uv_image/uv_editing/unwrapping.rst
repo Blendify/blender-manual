@@ -104,7 +104,7 @@ Basic:
      Projects UVs onto a cylindrical surface.
 
    `Project from View`_
-     Takes the current view in the 3D Viewport and flattens it as it appears.
+     Takes the current view in the 3D View and flattens it as it appears.
 
 Advanced:
 

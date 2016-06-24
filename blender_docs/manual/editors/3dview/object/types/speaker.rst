@@ -8,7 +8,7 @@ Speaker
 
    Speaker Object.
 
-The speaker object is used to give sound in the 3D Viewport.
+The speaker object is used to give sound in the 3D View.
 After adding the object the various settings can be changed in the properties editor.
 
 

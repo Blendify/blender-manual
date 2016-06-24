@@ -200,7 +200,7 @@ Assigning verts to a Group
 You add vertices to a group as follows:
 
 - Select the group from the group list, thus make it the Active Group (1).
-- From the 3D Viewport select :kbd:`Shift-RMB` all vertices that you want to add to the group.
+- From the 3D View select :kbd:`Shift-RMB` all vertices that you want to add to the group.
 - Set the weight value that shall be assigned to all selected verts (2).
 - :kbd:`LMB` the *Assign* button to assign the selected verts to the active group using the given weight (3).
 
@@ -248,9 +248,9 @@ You can quickly select all assigned vertices of a group:
 - (optionally) press :kbd:`A` once or twice to unselect all vertices.
 - Select the group from the group list (make it the active group).
 - When you now :kbd:`LMB` click the *Select* button,
-  then the vertices assigned to the active group will be selected and highlighted in the 3D Viewport.
+  then the vertices assigned to the active group will be selected and highlighted in the 3D View.
 - When you :kbd:`LMB` click the *Deselect* button instead,
-  then the vertices assigned to the active group will be deselected in the 3D Viewport.
+  then the vertices assigned to the active group will be deselected in the 3D View.
 
 .. note:: Selecting/Deselecting is additive
 
@@ -268,7 +268,7 @@ Finding ungrouped verts
 You can find ungrouped vertices as follows:
 
 - Press :kbd:`A` once or twice to unselect all vertices.
-- In the footer of the 3D Viewport: :menuselection:`Navigate to Select --> Ungrouped verts`
+- In the footer of the 3D View: :menuselection:`Navigate to Select --> Ungrouped verts`
 
 
 Keyboard Shortcuts

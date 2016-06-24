@@ -15,7 +15,7 @@ Blender provides a *Vertex Weights* panel from where you can get (and edit)
 information about the weight values of each Vertex of a mesh.
 That is: to which Vertex Groups the vertex is assigned with which weight value.
 
-The Vertex Weights panel can be found in the right property sidebar of the 3D Viewport.
+The Vertex Weights panel can be found in the right property sidebar of the 3D View.
 It is available in Edit Mode and in Weight Paint Mode
 (when Vertex Selection masking is enabled as well). The panel is separated into the sections
 

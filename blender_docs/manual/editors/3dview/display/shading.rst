@@ -56,7 +56,7 @@ Shading Panel
 .. figure:: /images/editors_3dview_display_shading.png
    :align: right
 
-   3D Viewport Shading Panel.
+   3D View Shading Panel.
 
 
 The shading panel in the Properties Region provides additional control over the way objects in the 3D View appear.
@@ -72,7 +72,7 @@ Backface Culling
    Only show the front side of faces. Use this to find faces flipped the wrong way,
    especially when exporting to programs that use single sided drawing.
 Depth of Field
-   Simulates a camera's focal blur effect in the 3D Viewport. This is only visible in a camera view.
+   Simulates a camera's focal blur effect in the 3D View. This is only visible in a camera view.
    Control the effect using these options in the :ref:`Properties Tab <camera-settings>`
    of the active camera: Focal Length, Sensor Size, Focus Object or Focus Distance, and Viewport F-stop.
 Ambient Occlusion

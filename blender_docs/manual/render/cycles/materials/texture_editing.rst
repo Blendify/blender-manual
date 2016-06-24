@@ -3,13 +3,13 @@
 Texture Editing
 ***************
 
-3D Viewport draw types, UV mapping,
+3D View draw types, UV mapping,
 and texture painting work somewhat differently when Cycles is enabled.
 UV Maps no longer get image textures assigned themselves;
 rather they must always be assigned by adding an image texture node to a material.
 
 
-3D Viewport Draw Types
+3D View Draw Types
 ======================
 
 The Texture draw types used for Blender Internal have been replaced by three others in Cycles:

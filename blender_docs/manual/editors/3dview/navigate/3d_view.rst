@@ -28,7 +28,7 @@ Perspective and Orthographic Views
    | Menu:     :menuselection:`View --> Perspective`, :menuselection:`View --> Orthographic`
    | Hotkey:   :kbd:`Numpad5`
 
-Each 3D Viewport supports two different types of projection.
+Each 3D View supports two different types of projection.
 These are demonstrated in the 
 Fig. Orthographic (left) and perspective (right) projections image below.
 
@@ -93,7 +93,7 @@ Rotating the View
 .. figure:: /images/editors_3dview_nav_views.jpg
    :width: 300px
 
-   A 3D Viewport's View menu.
+   A 3D View's View menu.
 
 
 Blender provides four default viewing directions: *Side*, *Front*,
@@ -107,7 +107,7 @@ The *Camera* view shows the current scene as seen from the camera view point.
 Options
 -------
 
-You can select the viewing direction for a 3D Viewport with the *View* menu entries,
+You can select the viewing direction for a 3D View with the *View* menu entries,
 or by pressing the hotkeys :kbd:`Numpad3` for "side", :kbd:`Numpad1` for "front",
 :kbd:`Numpad7` for "top". You can select the opposite directions if you hold
 :kbd:`Ctrl` while using the same numpad shortcuts.
@@ -147,7 +147,7 @@ Panning the View
    | Hotkey:   :kbd:`Shift-MMB` , :kbd:`Ctrl-Numpad2`, :kbd:`Ctrl-Numpad4`,
       :kbd:`Ctrl-Numpad6`, :kbd:`Ctrl-Numpad8`, :kbd:`Shift-Alt-LMB`
 
-To pan the view, hold down :kbd:`Shift` and drag :kbd:`MMB` in the 3D Viewport.
+To pan the view, hold down :kbd:`Shift` and drag :kbd:`MMB` in the 3D View.
 For discrete steps, use the hotkeys :kbd:`Ctrl-Numpad8`, :kbd:`Ctrl-Numpad2`,
 :kbd:`Ctrl-Numpad4` and :kbd:`Ctrl-Numpad6` as with rotating (note:
 you can replace :kbd:`Ctrl` by :kbd:`Shift`).
@@ -168,9 +168,9 @@ Zooming the View
 You can zoom in and out by holding down :kbd:`Ctrl` and dragging :kbd:`MMB`.
 The hotkeys are :kbd:`NumpadPlus` and :kbd:`NumpadMinus`.
 The :menuselection:`View --> Navigation` sub-menu holds these functions too as well.
-Refer to the 3D Viewport's *View* menu image above for more information.
+Refer to the 3D View's *View* menu image above for more information.
 
-If you have a wheel mouse, you can perform all of the actions in the 3D Viewport that you
+If you have a wheel mouse, you can perform all of the actions in the 3D View that you
 would do with :kbd:`NumpadPlus` and :kbd:`NumpadMinus` by rotating the :kbd:`Wheel`.
 To zoom a Properties editor,
 hold :kbd:`Ctrl-MMB` and move your mouse up and down.
