@@ -69,6 +69,9 @@ Lock to Cursor
 
 Lock Camera to View
    When in camera view, use this option to move the camera in 3D space, while continuing to remain in camera view.
+
+.. _3dview-view_clip:
+
 Clip Start and Clip End
    Adjust the minimum and maximum distances to be visible for the view-port.
 
@@ -77,31 +80,7 @@ Clip Start and Clip End
       A large clipping range will allow you to see both near and far objects,
       but reduces the depth precision resulting in artifacts.
 
-      .. list-table::
-
-         * - .. figure:: /images/Graphics_z_fighting_none.jpg
-                :width: 180px
-
-                Model with no clipping artifacts.
-
-           - .. figure:: /images/Graphics_z_fighting_example.jpg
-                :width: 180px
-
-                Model with clipping artifacts.
-
-           - .. figure:: /images/Graphics_z_fighting_example_editmode.jpg
-                :width: 180px
-
-                Mesh with artifacts in Edit Mode.
-
-      To avoid this:
-
-      - Increase the near clipping when working on large scenes.
-      - Decrease the far clipping when objects are not viewed at a distance.
-
-      When perspective is disabled only the far Clip-End is used, very high values can still give artifacts.
-
-      This is **not** specific to Blender, all OpenGL/ DirectX graphics applications have these same limitations.
+      See :ref:`Troubleshooting Depth Buffer Glitches <troubleshooting-depth>` for more information.
 
 
 Local Camera
