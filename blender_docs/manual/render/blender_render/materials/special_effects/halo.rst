@@ -28,8 +28,7 @@ Options
    Halo panels.
 
 
-To enable *Halos*,
-press the *Halo* button in the *Material* menu's top panel.
+To enable *Halos*, press the *Halo* button in the *Material* menu's top panel.
 
 As you will see in the 3D View, the mesh faces are no longer rendered.
 Instead just the vertex is rendered, since that is where each halo will originate.
@@ -57,7 +56,6 @@ Size
 Hardness
    Sets the hardness of the halo. Similar to specular hardness
 
-
 .. figure:: /images/materials-haloadd.jpg
 
    Effect of Add.
@@ -82,8 +80,9 @@ Extreme Alpha
 Shaded
    Lets halo receive light and shadows from external objects
 
-      When shaded is enabled, the Halo will be affected by local light;
-      a lamp will make it brighter and affect its diffuse color and intensity.
+   When shaded is enabled, the Halo will be affected by local light;
+   a lamp will make it brighter and affect its diffuse color and intensity.
+
 Soft
    Softens the edges of the halos at intersections with other geometry
 
@@ -103,7 +102,6 @@ Rings and an assortment of special effects are available with the relevant toggl
 which include Flare, Rings, Lines, Star, Texture, Extreme Alpha, and Shaded.
 *Halo Variations* shows the result of applying a halo material to a single vertex mesh.
 
-
 .. figure:: /images/Halo02.jpg
    :width: 630px
 
@@ -113,8 +111,8 @@ which include Flare, Rings, Lines, Star, Texture, Extreme Alpha, and Shaded.
 The halo size, hardness and alpha can be adjusted with the pertinent sliders.
 These are very similar to traditional material settings
 
-
 .. figure:: /images/materials-haloadd.jpg
+
 
 The *Add* slider determine how much the halo colors are 'added to',
 rather than mixed with, the colors of the objects behind and together with other halos.
@@ -150,12 +148,10 @@ Lens Flares
 
 Our eyes have been trained to believe that an image is real if it shows
 artifacts that result from the mechanical process of photography.
-*Motion blur*,
-*Depth of Field*, and *lens flares*
-are just three
-examples of these artifacts. The first two are discussed in the
-*chapter_rendering*; the latter can be produced with
-special halos.
+*Motion blur*, *Depth of Field*, and *lens flares*
+are just three examples of these artifacts.
+The first two are discussed in the *chapter_rendering*;
+the latter can be produced with special halos.
 A simulated lens flare tells the viewer that the image was created with a
 camera, which makes the viewer think that it is authentic.
 
@@ -168,13 +164,12 @@ settings until you arrive at something that is pleasing to the eye.
 You might need to play with *Boost:* for a stronger effect
 Fig. Lens Flare settings.
 
-Note that this tool does not simulate the physics of photons traveling through a glass lens;
-it's just a eye candy.
+Note that this tool does not simulate the physics of photons
+traveling through a glass lens; it's just a eye candy.
 
 
 Blender's lens flare looks nice in motion,
 and disappears when another object occludes the flare mesh.
-
 
 .. figure:: /images/Halo04.jpg
    :width: 630px
@@ -203,7 +198,7 @@ Examples
 Dotmatrix display
 -----------------
 
-Let's use a halo material to create a dotmatrix display.
+let us use a halo material to create a dotmatrix display.
 
 - To begin, add a grid with the dimensions 32×16.
   Then add a camera and adjust your scene so that you have a nice view of the billboard.

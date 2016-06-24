@@ -61,7 +61,7 @@ etc.
 First example
 =============
 
-Let's assume that we have a game object with one or more faces assigned to a material/image on
+let us assume that we have a game object with one or more faces assigned to a material/image on
 which we want to display a video.
 
 The first step is to create a ``Texture`` object.

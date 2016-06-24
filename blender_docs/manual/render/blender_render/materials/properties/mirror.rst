@@ -47,7 +47,6 @@ Reflectivity
    Sets the amount of reflectiveness of the object.
    Use a value of 1.0 if you need a perfect mirror, or set it to 0.0 if you don't want any reflection.
 
-
 .. figure:: /images/material-mirrorcolor.jpg
 
    Picking a mirror color.
@@ -82,11 +81,10 @@ Fade to
    *Material* color can be best for indoor scenes, *Sky* color (World settings)
    for outdoor scenes.
 
-
 .. figure:: /images/material-raymirror-example.jpg
 
    Suzanne in the Fun House
-   (`.blend <https://wiki.blender.org/index.php/:File:Manual-2.5-Material-MonkeyMirror.blend>`__)
+   (`blend-file <https://wiki.blender.org/index.php/:File:Manual-2.5-Material-MonkeyMirror.blend>`__)
 
 
 Gloss
@@ -109,7 +107,6 @@ Gloss
       Number of cone samples averaged for blurry reflection.
       More samples will give a smoother result, but will also increase render time.
 
-
 .. figure:: /images/material-raymirror-anisotropicexample.jpg
 
    Anisotropic tangent reflecting spheres with anisotropic set to 0.0, 0.75, 1.0.
@@ -131,7 +128,6 @@ Gloss
 Examples
 --------
 
-
 Fresnel
 ^^^^^^^
 
@@ -140,7 +136,7 @@ Fresnel
    Demonstration of Fresnel effect with values equal to (from top to bottom) 0.0, 2.5 and 5.0.
 
 
-Let's undertake a small experiment in order to understand what Fresnel is really about.
+let us undertake a small experiment in order to understand what Fresnel is really about.
 After a rainy day, go out and stand over a puddle of water.
 You can see the ground through the puddle. If you kneel just in front of the puddle,
 your face close to the ground, and look again at a distant point on the puddle of water,
@@ -159,4 +155,3 @@ Fresnel 0.0 stands for a perfect mirror Material, while Fresnel 5.
 the Material is perfectly reflective around the edges.
 
 The smoothness of the Fresnel limit can be further controlled using the *Blend* slider.
-

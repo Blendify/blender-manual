@@ -6,7 +6,6 @@ System Preferences
 The *System* tab allows you to set resolution, scripting console preferences, sound, graphics cards,
 and internationalization.
 
-
 .. figure:: /images/preferences_system.png
 
 
@@ -269,7 +268,7 @@ You can control the direction of the lamps, as well as their diffuse and specula
 
 Direction
    Clicking with :kbd:`LMB` in the sphere and dragging the mouse cursor
-   let's the user change the direction of the lamp by rotating the sphere.
+   let us the user change the direction of the lamp by rotating the sphere.
    The direction of the lamp will be the same as shown at the sphere surface.
 Diffuse
    This is the constant color of the lamp.

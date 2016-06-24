@@ -160,7 +160,7 @@ Examples
 
 .. TODO: add some "bevel" extrusion with *Radius* examples.
 
-Let's taper a simple curve circle extruded object using a taper curve. Add a curve,
+let us taper a simple curve circle extruded object using a taper curve. Add a curve,
 then exit *Edit Mode*. Add another one (a closed one, like a circle); call it "BevelCurve",
 and enter its name in the *BevOb* field of the first curve
 (*Curve and Surface* tab).

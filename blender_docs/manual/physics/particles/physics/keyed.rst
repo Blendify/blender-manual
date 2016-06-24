@@ -21,8 +21,7 @@ To setup Keyed particles you need at least two particle systems.
 The first system has keyed physics, and it needs the option First activated.
 This will be the system thats is visible.
 
-- The second system may be another keyed system but without the option First,
-
+The second system may be another keyed system but without the option First,
 or a normal particle system. This second system is the target of the keyed system.
 
 Loops
@@ -52,7 +51,7 @@ Use Timing
    The Time slider allows to define a fraction of particle lifetime for particle movement.
 
 An example:
-let's assume that you have two keyed systems in a chain and a third system as target.
+let us assume that you have two keyed systems in a chain and a third system as target.
 The particle lifetime of the first system shall be 50 keys.
 The particles will travel in 25 frames from the first keyed system to the second,
 and in further 25 frames from the second system to the target.

@@ -243,7 +243,7 @@ This tool only works in vertex select mode.
    Blending.
 
 
-To understand what the tool really does, let's take a look at a simple example.
+To understand what the tool really does, let us take a look at a simple example.
 The selected vertex is connected to 4 adjacent vertices
 (marked with a gray circle in the image). All adjacent vertices are unselected.
 Now the tool calculates the average weight of all connected **and** unselected verts.
@@ -263,7 +263,7 @@ This value is multiplied by the factor given in the Operator parameters (see bel
    Blending.
 
 
-Now let's see what happens when we select all but one of the neighbors of the selected vert as
+Now let us see what happens when we select all but one of the neighbors of the selected vert as
 well. Again all connected and unselected verts are marked with a gray circle.
 When we call the Blend tool now and set the Factor to 1.0,
 then we see different results for each of the selected verts:
@@ -290,7 +290,7 @@ then we see different results for each of the selected verts:
    Blending.
 
 
-Finally let's look at a practical example (and explain why this tool is named Blend).
+Finally let us look at a practical example (and explain why this tool is named Blend).
 In this example, the middle edge loop has been selected
 and it will be used for blending the left side to the right side of the area.
 

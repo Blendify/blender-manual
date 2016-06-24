@@ -36,7 +36,7 @@ Deformation Axis
 Example
 =======
 
-Let's make a simple example:
+let us make a simple example:
 
 - Remove default cube object from scene and add a Monkey with :menuselection:`Add --> Mesh --> Monkey`
 - Now add a curve with :menuselection:`Add --> Curve --> Bezier Curve`

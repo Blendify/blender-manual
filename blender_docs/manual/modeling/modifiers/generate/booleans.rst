@@ -315,7 +315,7 @@ In the images below, all  face normals are inverted and using the intersection o
           Normal Boolean modifier operation.
 
 
-Now, let's see what happens when the normal directions are mixed for one of the
+Now, let us see what happens when the normal directions are mixed for one of the
 participants in the Boolean modifier operation. The images below show face normals mixed,
 pointed to different directions and the resulting operation,
 you can see that the modifier has bad effects when applied, leaving faces opened:
@@ -394,7 +394,7 @@ In the images below, is the resulting operation when using two non-closed volume
           Resulting operation using two open volumes.
 
 
-Now, let's see what happens when we use meshes that are partially open,
+Now, let us see what happens when we use meshes that are partially open,
 incomplete, or meshes that aren't forming a new topology.
 
 As you can see in the images below the faces of one participant in the Boolean operation

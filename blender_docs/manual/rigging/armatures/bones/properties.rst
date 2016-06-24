@@ -10,9 +10,8 @@ Bones
    | Panel:    All in Properties editor, *Bone* property
 
 
-Let's first have a general grasp of the various panels gathering the bone settings,
+let us first have a general grasp of the various panels gathering the bone settings,
 in Properties editor, *Bone* tab:
-
 
 .. figure:: /images/RiggingBonePrincipalsBonePropertiesEditor.jpg
 
@@ -82,7 +81,6 @@ When in edit mode you can use this panel to control position and roll of individ
 
 When in pose mode you can only set location for the main bone, and you can now set rotation and scale.
 
-
 .. figure:: /images/RiggingEditingBoneCxtTransformPPanel.jpg
 
    The Transform panel(pose mode).
@@ -98,6 +96,7 @@ Transform Locks
 .. figure:: /images/RiggingEditingBoneCxtTranformLocksPanel.jpg
 
    The Transform Locks panel.
+
 
 This panel appears only in pose mode and allows you to restrict position,
 rotation and scale by axis on each bone in the armature.
