@@ -27,7 +27,7 @@ Output
       Output foam (wave overlap) amount in single channel.
    Eigenvalues
       Positive Eigenvalues
-   Eigenvector (-)
+   Eigenvector (−)
       Negative Eigenvectors
    Eigenvector (+)
       Positive Eigenvectors

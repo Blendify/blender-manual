@@ -28,7 +28,7 @@ Property
 
 Axis
    This menu determines the direction of the ray.
-   The ± signs is whether it is on the axis direction (+), or the opposite (-).
+   The ± signs is whether it is on the axis direction (+), or the opposite (−).
 
 Range
    Determines the length of the ray. (Blender units).

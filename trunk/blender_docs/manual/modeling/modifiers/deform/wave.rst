@@ -40,9 +40,9 @@ Motion
    X, Y
       The wave effect deforms vertices/control points in the Z direction,
       originating from the given starting point and propagating along the object with circular wave fronts
-      (if both *X* and *Y* are enabled),
+      (if both X and Y are enabled),
       or with rectilinear wave fronts (if only one axis is enabled),
-      then parallel to the axis corresponding to the *X* or *Y* button activated.
+      then parallel to the axis corresponding to the X or Y button activated.
    Cyclic
       Repeats the waves cyclically, rather than a single pulse.
 

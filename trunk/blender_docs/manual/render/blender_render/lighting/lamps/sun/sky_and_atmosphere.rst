@@ -22,7 +22,7 @@ To enable this effect, you have to use a *Sun* light source. If, as usual,
 the *position* of the lamp has no importance, its *rotation* is crucial:
 it determines which hour it is. As a starting point,
 you should reset rotation of your *Sun* (with :kbd:`Alt-R`, or typing :kbd:`0`
-in each of the three *Rotation* fields *X*, *Y*, *Z* in
+in each of the three *Rotation* fields X, Y, Z in
 the *Transform Properties* panel - :kbd:`N`). This way,
 you'll have a nice mid-day sun (in the tropics).
 
@@ -430,7 +430,7 @@ Hints and limitations
 
 To always have the *Sun* pointing at the camera center,
 you can use a :doc:`TrackTo constraint </rigging/constraints/tracking/track_to>` on the sun object,
-with the camera as target, and *-Z* as the "To" axis (use either *X* or *Y* as "Up" axis).
+with the camera as target, and −Z as the "To" axis (use either X or Y as "Up" axis).
 This way, to modify height/position of the sun in the rendered picture,
 you just have to move it; orientation is automatically handled by the constraint.
 Of course, if your camera itself is moving, you should also add e.g.

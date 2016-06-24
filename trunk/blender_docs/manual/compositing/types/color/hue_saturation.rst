@@ -34,7 +34,7 @@ In the shader and texture context the following properties are available as inpu
 
 Hue
    The Hue slider specifies how the hue rotation of the image. 
-   360° are mapped to (0 to 1). The hue shift of 0 (-180°) and 1 (+180°) have the same result.
+   360° are mapped to (0 to 1). The hue shift of 0 (−180°) and 1 (+180°) have the same result.
 Saturation
    A saturation of 0 removes hues from the image, resulting in a grayscale image.
    A shift greater 1.0 increases saturation.

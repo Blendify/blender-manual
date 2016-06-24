@@ -43,10 +43,10 @@ Targets
       When *Target* is a mesh, a new field is display where a vertex group can be selected.
 
 To
-   The tracking local axis (*Y* by default), i.e. the owner's axis to point at the target.
+   The tracking local axis, i.e. the owner's axis to point at the target.
    The negative options force the relevant axis to point away from the target.
 Up
-   The "upward-most" local axis (*Z* by default), i.e. the owner's axis to be aligned (as much as possible)
+   The "upward-most" local axis, i.e. the owner's axis to be aligned (as much as possible)
    with the global Z axis (or target Z axis, when the *Target* button is enabled).
 Target Z
    By default, the owner's *Up* axis is (as much as possible) aligned with the global Z axis,

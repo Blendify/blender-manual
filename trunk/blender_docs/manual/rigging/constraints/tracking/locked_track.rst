@@ -54,11 +54,11 @@ Target
    This constraint uses one target, and is not functional (red state) when it has none.
 
 To
-   The tracking local axis (*Y* by default), i.e. the owner's axis to point at the target.
+   The tracking local axis, i.e. the owner's axis to point at the target.
    The negative options force the relevant axis to point away from the target.
 
 Lock
-   The locked local axis (*Z* by default), i.e. the owner's axis which cannot be re-oriented to track the target.
+   The locked local axis, i.e. the owner's axis which cannot be re-oriented to track the target.
 
 .. warning::
 

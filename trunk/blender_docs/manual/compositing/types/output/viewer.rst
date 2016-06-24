@@ -34,7 +34,9 @@ Tile order
    Random
       Calculates tiles in a non-specific order.
    Center
-      Calculates the tiles around a specific center, defined by *X* and *Y* fields.
+      Calculates the tiles around a specific center, defined by X and Y fields.
+
+      X, Y
 
 Outputs
 =======

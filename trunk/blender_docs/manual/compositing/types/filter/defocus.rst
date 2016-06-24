@@ -98,7 +98,7 @@ No Z-Buffer examples
 Sometimes might want to have more control to blur the image. For instance,
 you may want to only blur one object while leaving everything else alone (or the other way around),
 or you want to blur the whole image uniformly all at once.
-The node, therefore, allows you to use something other than an actual Z-buffer as the *Z* input.
+The node, therefore, allows you to use something other than an actual Z-buffer as the Z input.
 For instance, you could connect an image node and use a grayscale image where the color designates
 how much to blur the image at that point, where white is the maximum blur and black is no blur.
 Or, you could use a Time node to uniformly blur the image,
