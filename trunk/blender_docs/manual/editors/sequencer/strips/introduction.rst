@@ -30,7 +30,7 @@ First, let us add a clip:
 - A movie clip in the Audio-Video Interleaved format (``*.avi`` file)
 - A movie clip in the Apple QuickTime format (``*.mov``)
 - A single still image to be repeated for a number of frames (``*.jpg``, ``*.png``, etc.)
-- A numbered sequence of images (``*−0001.jpg``, ``*−0002.jpg``, ``*−0003.jpg``, etc, of any image format)
+- A numbered sequence of images (``*-0001.jpg``, ``*-0002.jpg``, ``*-0003.jpg``, etc, of any image format)
 - One or more images from a directory
 - A Scene in your blend-file.
 
