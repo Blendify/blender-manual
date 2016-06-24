@@ -4,7 +4,7 @@ Line Set
 ********
 
 A line set selects, among the lines (edges) detected by Freestyle,
-which ones will be rendered using its attached :doc:`line style </render/freestyle/parameter_editor/line_style>`,
+which ones will be rendered using its attached :doc:`line style </render/freestyle/parameter_editor/line_style/introduction>`,
 through various methods.
 
 .. figure:: /images/render-freestyle-BasicEdgeTypeSelectionEx.jpg
@@ -45,7 +45,7 @@ QI Range
       :width: 600px
 
       QI Range proof of concept demo, Start: 3, End: 7, by LightBWK
-     (`Sample blend-file <https://wiki.blender.org/index.php/File:QI-Range.zip>`__)
+      (`Sample blend-file <https://wiki.blender.org/index.php/File:QI-Range.zip>`__)
 
 
 Edge Types

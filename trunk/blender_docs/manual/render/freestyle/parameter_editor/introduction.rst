@@ -13,7 +13,7 @@ The Freestyle *Parameter Editor* is a user-friendly interface to define and cont
 
 :doc:`Line Sets </render/freestyle/parameter_editor/line_set>`
    control which of the edges detected by Freestyle will actually be used (rendered).
-:doc:`Line Styles </render/freestyle/parameter_editor/line_style>`
+:doc:`Line Styles </render/freestyle/parameter_editor/line_style/introduction>`
    control how the selected edges are rendered.
 
 A view map (hence a render layer) can have multiple line sets,
