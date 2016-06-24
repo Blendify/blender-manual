@@ -26,7 +26,7 @@ with a gradual transition between both sides.
 This may take a little getting used to, the basics are listed below controls are noted here.
 
 - The initial position of the cursors define the axis to bend on.
-- The distance of the mouse-cursor to the 3d-cursor controls how sharp the bend will be.
+- The distance of the mouse-cursor to the 3D-cursor controls how sharp the bend will be.
 - The relative angle of the mouse-cursor to the initial axis defines the bend angle.
 
 If this seems overly complicated, its probably best to try the tool where it becomes quickly apparent
@@ -48,7 +48,7 @@ Clamp
 
 .. note::
 
-   Unlike most other transform modes *Bend* isn't effected by *Pivot Point* or *Transform Orientation*,
+   Unlike most other transform modes *Bend* is not effected by *Pivot Point* or *Transform Orientation*,
    always using the View Plane instead.
 
 .. hint::

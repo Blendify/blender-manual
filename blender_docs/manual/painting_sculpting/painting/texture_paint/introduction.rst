@@ -1,4 +1,4 @@
-.. this is for 3d-viewport painting,
+.. this is for 3D-viewport painting,
    image editor painting belongs in the image editor section.
 
 

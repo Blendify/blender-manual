@@ -183,9 +183,9 @@ the *Face Smoothness* option has to be turned on and the object needs to have *S
    :align: right
 
 Mapping
-   Either a linear progression (from ``0.0`` to ``1.0``, which may be inverted with the *Invert* option),
+   Either a linear progression (from 0.0 to 1.0, which may be inverted with the *Invert* option),
    or a custom mapping curve. Note the linear non-inverted option is equivalent to "do nothing",
-   as original values from materials are already in the ``[0.0, 1.0]`` range.
+   as original values from materials are already in the (0.0 to 1.0) range.
 
 Min Curvature and Max Curvature
    The limits of the mapping.
@@ -214,9 +214,9 @@ its alpha value is not touched by this modifier.
    :align: right
 
 Mapping
-   Either a linear progression (from ``0.0`` to ``1.0``, which may be inverted with the *Invert* option),
+   Either a linear progression (from 0.0 to 1.0, which may be inverted with the *Invert* option),
    or a custom mapping curve. Note the linear non-inverted option is equivalent to "do nothing",
-   as original values from materials are already in the ``[0.0, 1.0]`` range.
+   as original values from materials are already in the (0.0 to 1.0) range.
 
 Min Angle and Max Angle
    The range of input values to the mapping. Out-of-range input values will be clamped by the Min and Max angles
