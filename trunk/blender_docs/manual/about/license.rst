@@ -14,9 +14,9 @@ More info
 
 Except where otherwise noted,
 the content of the Blender Manual is available under a 
-`Creative Commons Attribution-ShareAlike 4.0 International License <http://creativecommons.org/licenses/by-sa/4.0/>`__
-or any later version.
-Excluded from the CC-BY-SA are also the used logos, trademarks, icons, source code and python scripts.
+`Creative Commons Attribution-ShareAlike 4.0 International License <https://creativecommons.org/licenses/by-sa/4.0/>`__
+or any later version. Excluded from the CC-BY-SA are also the used logos,
+trademarks, icons, source code and python scripts.
 
 
 Please attribute the "Blender Documentation Team" and 
@@ -31,8 +31,8 @@ For example:
 
 .. |BvM| replace:: Blender |version| Manual  
 .. _BvM: https://www.blender.org/manual/
-.. |license|  replace:: CC-BY-SA |nbsp| v4.0 
-.. _license: http://creativecommons.org/licenses/by-sa/4.0/
+.. |license| replace:: CC-BY-SA |nbsp| v4.0 
+.. _license: https://creativecommons.org/licenses/by-sa/4.0/
 
 See `Best practices for attribution <https://wiki.creativecommons.org/wiki/Marking/Users>`__ for further explanation.
 
