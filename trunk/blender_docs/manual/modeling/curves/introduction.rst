@@ -164,9 +164,9 @@ Shape
 Resolution
    The *resolution* property defines the number of points that are computed between every pair of Control Points.
    Curves can be made more or less smooth by increasing and decreasing the resolution respectively.
-   The *Preview U* setting determines the resolution in the 3D Viewport while the *Render U* setting
+   The *Preview U* setting determines the resolution in the 3D View while the *Render U* setting
    determines the Curve's render resolution. If *Render U* is set to zero (0),
-   then the *Preview U* setting is used for both the 3D Viewport and render resolution.
+   then the *Preview U* setting is used for both the 3D View and render resolution.
 
 
    .. figure:: /images/Modeling_Curves_shape-resolution.jpg

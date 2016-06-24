@@ -10,8 +10,8 @@ Clip Panel
 ----------
 
 This panel currently contains the single operator *Set as background* which sets the
-clip currently being edited as the camera background for all visible 3D Viewports.
-If there is no visible 3D Viewports or the Clip Editor is open in full screen,
+clip currently being edited as the camera background for all visible 3D Views.
+If there is no visible 3D Views or the Clip Editor is open in full screen,
 nothing will happen.
 
 Marker panel

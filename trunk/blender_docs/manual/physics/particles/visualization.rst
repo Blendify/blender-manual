@@ -13,7 +13,7 @@ Some of the options will be rendered as shown in the 3D View.
 Viewport Display
 ================
 
-The Display Panel controls how particles are displayed in the 3D Viewport.
+The Display Panel controls how particles are displayed in the 3D View.
 This does not necessarily determine how they will appear when rendered.
 
 None

@@ -124,7 +124,7 @@ High Quality
 
 Viewport F-stop
    Controls the real-time focal blur effect used during sequencer or OpenGL rendering and,
-   when enabled, camera views in the 3D Viewport.
+   when enabled, camera views in the 3D View.
    The amount of blur depends on this setting, along with Focal Length and Sensor Size.
    Smaller Viewport F-stop values result in more blur.
 

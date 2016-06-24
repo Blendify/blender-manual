@@ -220,7 +220,7 @@ Interocular Distance
 Convergence Plane Distance
    The converge point for the stereo cameras.
    This is often the distance between a projector and the projection screen.
-   You can visualize this in the 3D Viewport.
+   You can visualize this in the 3D View.
 
 
 Convergence Mode
@@ -246,7 +246,7 @@ Pivot
 Viewport Stereo 3D
 ==================
 
-When you enable 'Views' in the Render Layer panel a new are is available in the 3D Viewport properties panel.
+When you enable 'Views' in the Render Layer panel a new are is available in the 3D View properties panel.
 In this panel you can pick whether to see the stereo 3D in the viewport, or which camera to see.
 It also allow you to see the Cameras, the Plane and the Volume of the stereo cameras.
 
@@ -264,7 +264,7 @@ Cameras
    (when available) or the current selected camera.
 Plane
    The convergence plane represents the screen as it is perceived by the audience.
-   Visualizing it in the 3D Viewport allows you to layout your scene
+   Visualizing it in the 3D View allows you to layout your scene
    based on your depth script outside the camera view.
 Volume
    The intersection of the stereo cameras frustums helps planning the show

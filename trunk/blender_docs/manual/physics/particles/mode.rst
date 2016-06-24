@@ -75,7 +75,7 @@ Edit the Simulation
 
 - Switch to *Particle Edit* from the *Mode dropdown menu* in the bottom menu bar
   of the *3D View* to edit the particle's paths/key-frames.
-  You may need to press :kbd:`T` from within the 3D Viewport to see the *Particle Edit* panel.
+  You may need to press :kbd:`T` from within the 3D View to see the *Particle Edit* panel.
   Move to the frame you want to edit and use the various *Particle Edit* tools to edit your simulation.
   Work slowly, previewing your changes with :kbd:`Alt-A`, and save often so that you can go back to the previous
   version should something happen, or that you do not like the latest changes you have made.

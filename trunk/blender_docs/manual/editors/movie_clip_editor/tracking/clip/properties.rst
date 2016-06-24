@@ -74,7 +74,7 @@ so a high contrast between the feature and its background yields more accurate t
 In such cases disabling some color channels can help.
 
 The last thing is custom color, and the preset for it.
-This setting overrides the default marker color used in the clip editor and 3D Viewport,
+This setting overrides the default marker color used in the clip editor and 3D View,
 and it helps to distinguish different type of features (for example,
 features in the background vs. foreground and so on). Color also can be used for "grouping"
 tracks so a whole group of tracks can be selected by color using the Select Grouped operator.

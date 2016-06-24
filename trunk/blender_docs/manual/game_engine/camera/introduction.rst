@@ -27,7 +27,7 @@ you must select the camera and press :kbd:`Numpad0` before starting the Game Eng
 Default Camera
 ==============
 
-The default camera view is taken from the latest 3D Viewport view,
+The default camera view is taken from the latest 3D View view,
 at a distance equivalent to the viewer. This means that if the normal 3D View is active the
 scene does not change when the Game Engine is started.
 

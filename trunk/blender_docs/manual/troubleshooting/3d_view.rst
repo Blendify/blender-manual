@@ -1,7 +1,7 @@
 
-***********
-3D Viewport
-***********
+*******
+3D View
+*******
 
 .. admonition:: TODO
    :class: error
@@ -16,6 +16,7 @@ Depth Buffer Glitches
 ---------------------
 
 TODO, see: https://blender.stackexchange.com/questions/1385
+
 
 Objects Invisible in Camera View
 --------------------------------
@@ -37,6 +38,7 @@ Old Hardware
    Sometimes your hardware, mainly your graphics card, may be too slow to keep up with your model.
 Upgrade Graphics Driver
    In some cases, slow selection is resolved by using updated drivers.
+
 
 Slow Selection
 --------------
@@ -76,9 +78,10 @@ Lost in Space
 -------------
 
 When navigating your scene, you may accidentally navigate away from your scene
-and find yourself with a blank viewport
+and find yourself with a blank viewport.
 
 TODO.
+
 
 Invisible Limit Zooming In
 --------------------------
