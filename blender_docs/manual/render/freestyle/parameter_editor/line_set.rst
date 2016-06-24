@@ -14,8 +14,11 @@ through various methods.
    (`File:EdgeType.zip <https://wiki.blender.org/index.php/File:EdgeType.zip>`__)
 
 
-Selection by Visibility
-=======================
+Selection By
+============
+
+Visibility
+----------
 
 There are three choices for selecting edges by visibility.
 
@@ -45,8 +48,8 @@ QI Range
      (`Sample blend-file <https://wiki.blender.org/index.php/File:QI-Range.zip>`__)
 
 
-Selection by Edge Types
-=======================
+Edge Types
+----------
 
 Edge types are basic algorithms for the selection of lines from geometry. When using the
 parameter editor you have to choose at least one edge type in order to get a render output,
@@ -104,7 +107,7 @@ Ridge & Valley
 
 
 Edge Marks
-----------
+^^^^^^^^^^
 
 .. figure:: /images/freestyle-mark-freestyle-edge.jpg
 
@@ -157,8 +160,8 @@ What are edge marks not good for?
 - Round outer edges (use instead *Contour* / *External Contour* / *Silhouette*).
 
 
-Selection by Face Marks
-=======================
+Face Marks
+----------
 
 .. figure:: /images/freestyle-mark-freestyle-face.jpg
 
@@ -198,7 +201,6 @@ Inclusive / Exclusive
 
 One Face
    (De)select all edges which have one or both neighbor faces marked.
-
 Both Faces
    (De)select all edges which have both of their neighbor faces marked.
 
@@ -225,8 +227,8 @@ The image below shows the resulting combinations.
           Exclusive, Both Faces.
 
 
-Selection by Group
-==================
+Group
+-----
 
 You can include or exclude objects for line calculation, based on their belonging to a group.
 
@@ -237,8 +239,8 @@ Inclusive / Exclusive
    Whether to include or exclude lines from those objects in this line set.
 
 
-Selection by Image Border
-=========================
+Image Border
+------------
 
 If enabled,
 Freestyle only takes geometry within the image border into consideration for line calculation.
