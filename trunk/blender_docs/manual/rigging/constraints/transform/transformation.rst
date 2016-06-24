@@ -50,18 +50,18 @@ Extrapolate
    and its corresponding output range (in ordinate), to (1.0 to 2.0).
    The yellow curve represents the mapping between input and output.
 
-.. list-table::
-   The *Extrapolate* principles.
+   .. list-table::
+      The *Extrapolate* principles.
 
-   * - .. figure:: /images/ConstraintsTransformationExtrapolatePrinciple1.jpg
-          :width: 300px
+      * - .. figure:: /images/ConstraintsTransformationExtrapolatePrinciple1.jpg
+             :width: 300px
 
-          Extrapolate disabled: the output values are bounded inside the (1.0 to 2.0) range.
+             Extrapolate disabled: the output values are bounded inside the (1.0 to 2.0) range.
 
-     - .. figure:: /images/ConstraintsTransformationExtrapolatePrinciple2.jpg
-          :width: 300px
+        - .. figure:: /images/ConstraintsTransformationExtrapolatePrinciple2.jpg
+             :width: 300px
 
-          Extrapolate enabled: the output values are "free" to proportionally follow the input ones.
+             Extrapolate enabled: the output values are "free" to proportionally follow the input ones.
 
 .. warning::
 

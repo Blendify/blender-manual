@@ -11,7 +11,6 @@ or at the surface of a sphere centered on its target.
 When you specify a (new) target, the *Distance* value is automatically set to
 correspond to the distance between the owner and this target.
 
-
  .. warning::
 
    Note that if you use such a constraint on a *connected* bone, it will have

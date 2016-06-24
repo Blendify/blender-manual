@@ -1,6 +1,4 @@
-..    TODO/Review: {{review|text=This needs a complete rewrite,
-   because we should not be using BA thread and video to exaplain something in the manual.
-   It's ok as a extra but not at the main way to describe a feature}}.
+..    TODO/Review: {{review|text=This needs a complete rewrite}}.
 
 ****************
 Pivot Constraint
@@ -21,7 +19,7 @@ Options
 
 
 Target
-   The object to be used as a pivot point
+   The object to be used as a pivot point.
 
    Bone
       When *Target* is an armature, a new field for a bone is displayed.
@@ -31,7 +29,7 @@ Target
       When *Target* is a mesh, a new field is display where a vertex group can be selected.
 
 Pivot Offset
-   Offset of pivot from target
+   Offset of pivot from target.
 Pivot When
    Always, Z Rot, Y Rot...
 

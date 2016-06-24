@@ -1,4 +1,3 @@
-
 ..    TODO/Review: {{review|im=update}}.
 
 *******************
@@ -16,7 +15,6 @@ compared to the traditional method:
 - As with any constraint, you can key (i.e. animate) its Influence setting.
   This allows the object which has a Child Of constraint upon it to change over time which
   target object will be considered the parent, and therefore have influence over the Child Of constrained object.
-
 
  .. warning::
 
@@ -63,15 +61,13 @@ Clear Inverse
 Tips
 ----
 
-
 When creating a new parent relationship using this constraint, it is usually necessary to
 click on the *Set Inverse* button after assigning the parent. As noted above,
 this cancels out any unwanted transform from the parent, so that the owner returns to the
 location/rotation/scale it was in before the constraint was applied.
 Note that you should apply *Set Inverse* with all other constraints disabled
-(their *Influence* set to 0.0)
-for a particular *Child Of* constraint, and before transforming the target/parent
-(see example below).
+(their *Influence* set to 0.0) for a particular *Child Of* constraint,
+and before transforming the target/parent (see example below).
 
 About the toggle buttons that control which target's (i.e. parent's)
 individual transform properties affect the owner,

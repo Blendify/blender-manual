@@ -1,4 +1,3 @@
-
 ..    TODO/Review: {{review|im=examples}}.
 
 **********************
@@ -42,7 +41,6 @@ The movement of the owner along the target curve/path may be controlled in two d
 :doc:`Locked Track one </rigging/constraints/tracking/locked_track>`.
 One example is a flying camera on a path. To control the camera's roll angle,
 you can use a *Locked Track* and a target object to specify the up direction, as the camera flies along the path.
-
 
 .. note:: *Follow Path* and *Clamp To*
 

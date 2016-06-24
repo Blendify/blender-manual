@@ -5,7 +5,6 @@ Copy Location Constraint
 
 The *Copy Location* constraint forces its owner to have the same location as its target.
 
-
 .. warning::
 
    Note that if you use such a constraint on a *connected* bone, it will have
