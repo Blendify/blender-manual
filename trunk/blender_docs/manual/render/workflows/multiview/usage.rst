@@ -132,7 +132,7 @@ Image Formats
 =============
 
 Your final animation can be saved in more robust formats than the ones used by the OpenGL render preview.
-In this example we saved as cross-eyed side-by-side stereo 3d.
+In this example we saved as cross-eyed side-by-side stereo 3D.
 
 .. figure:: /images/multiview_workflow_render_sidebyside.png
    :width: 700px

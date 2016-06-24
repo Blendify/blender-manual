@@ -104,7 +104,7 @@ Steps
   (but you may recalculate the number of control points in *Particle Mode*).
 
    Ten Segments should be sufficient even for very long hair,
-   Five Segments are enough for shorter hair, and two or three segments should be enough for short fur.
+   five Segments are enough for shorter hair, and two or three segments should be enough for short fur.
 
 
 Children

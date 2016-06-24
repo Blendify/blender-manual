@@ -11,7 +11,7 @@ The mesh analysis works in editmode and shows areas with a high value in red,
 and areas with a low value in blue.
 Geometry outside the range is displayed grey.
 
-Currently the different modes target 3d-printing as their primary use.
+Currently the different modes target 3D-printing as their primary use.
 
 
 Overhang

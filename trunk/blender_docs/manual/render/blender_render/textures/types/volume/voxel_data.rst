@@ -6,11 +6,11 @@
 Voxel Data
 **********
 
-Voxel data renders a voxel source, working very similarly to an image texture, but in 3d.
+Voxel data renders a voxel source, working very similarly to an image texture, but in 3D.
 Various input data source types are available (such as smoke voxel data, or external files),
 as well as various interpolation methods.
 
-The voxels are stored in a flat z/y/x grid of floats.
+The voxels are stored in a flat ZYX grid of floats.
 Functions for sampling this based on location within the (0,1) bounds are available in:
 
 - source/blender/blenlib/intern/voxel.c

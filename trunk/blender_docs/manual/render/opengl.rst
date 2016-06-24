@@ -11,7 +11,7 @@ This allows you to inspect your animatic
 (for object movements, alternate angles, etc.).
 
 This can also be used to preview your animations -
-in the event your scene is too complex for your system to play back in real-time in the 3d-view.
+in the event your scene is too complex for your system to play back in real-time in the 3D view.
 
 You can use OpenGL to render both images and animations.
 
