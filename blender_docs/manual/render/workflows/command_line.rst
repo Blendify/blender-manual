@@ -6,7 +6,7 @@ Command Line
 In some situations we want to increase the render speed,
 access Blender remotely to render something or build scripts that use the command line.
 
-One advantage of using the command line is that we don't need the X server (in the case of Linux)
+One advantage of using the command line is that we do not need the X server (in the case of Linux)
 and consequently we can render remotely by SSH or telnet.
 
 To see a list of available flags (for example to specify which scene to render,

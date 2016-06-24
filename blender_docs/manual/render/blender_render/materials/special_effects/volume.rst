@@ -216,11 +216,11 @@ Emission
 Reflection
 ----------
 
-The 'reflection' parameters can be used to tint or scale the light that's scattered out of the
+The 'reflection' parameters can be used to tint or scale the light that is scattered out of the
 volume. This only affects light that has come from lamps and been scattered out,
 it doesn't affect the color of transmitted or emitted light and is.
 
-These settings are not physically correct because they don't conserve energy - the light
+These settings are not physically correct because they do not conserve energy - the light
 scattering out doesn't affect the remaining light that is transmitted throughout the rest of
 the volume. For example, physically speaking,
 if the orange components of the light are scattered out of the volume towards the camera,

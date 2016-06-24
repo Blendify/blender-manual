@@ -65,7 +65,7 @@ Collision shapes
 The *Shape* option determines the collision shape of the object. The following Collision Shapes are available:
 
 Primitive shapes
-   these are best in terms of memory/performance but don't
+   these are best in terms of memory/performance but do not
    necessarily reflect the actual shape of the object.
    They're calculated based on the object's bounding box.
    The center of gravity is always in the middle for now.

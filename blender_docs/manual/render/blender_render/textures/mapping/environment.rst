@@ -202,7 +202,7 @@ onto which it is being mapped.
 
 The following images show the effect of the *Depth*.
 The first render has depth set to 0. This means the environment map on the plane has rendered
-before the environment map of the sphere, so the sphere's reflection isn't shown.
+before the environment map of the sphere, so the sphere's reflection is not shown.
 By raising the *Depth*, the environment map is rendered recursively,
 in order to get reflections of reflections.
 

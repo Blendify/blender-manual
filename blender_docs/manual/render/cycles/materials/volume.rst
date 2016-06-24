@@ -1,11 +1,10 @@
-.. _volume:
 
 ******
 Volume
 ******
 
 Volume rendering can be used to render effects like fire, smoke, mist, absorption in glass,
-and many other effects that can't be represented by surface meshes alone.
+and many other effects that cannot be represented by surface meshes alone.
 
 To set up a volume, you create a mesh that defines the bounds within which the volume exists.
 In the material you typically remove the surface nodes and instead connect volume nodes to

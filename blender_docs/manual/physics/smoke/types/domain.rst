@@ -7,7 +7,7 @@ The domain object contains the entire simulation. Smoke and fire cannot leave th
 it will either collide with the edge or disappear, depending on the domain's settings.
 
 Keep in mind that large domains require higher resolutions and longer bake times.
-You'll want to make it just large enough that the simulation will fit inside it,
+You will want to make it just large enough that the simulation will fit inside it,
 but not so large that it takes too long to compute the simulation.
 
 

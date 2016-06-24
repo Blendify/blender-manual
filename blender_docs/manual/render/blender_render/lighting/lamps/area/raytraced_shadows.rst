@@ -1,5 +1,4 @@
-
-..    TODO/Review: {{review|}} .
+..    TODO/Review: {{review|}}.
 
 **********************
 Area Raytraced Shadows
@@ -35,17 +34,16 @@ Adaptive QMC / Constant QMC
    These common setting are described in
    :doc:`Shadow Properties </render/blender_render/lighting/shadows/properties>`.
 
-
-.. figure:: /images/lighting-lamps-area-cont_jitt.jpg
-   :width: 300px
-
-   Constant Jittered settings.
-
-
 Constant Jittered
    The *Area* lamp has a third sample generator method, *Constant Jittered*,
    which is more like simulating an array of lights.
    It has the same options as the old one: *Umbra*, *Dither* and *Jitter*.
+
+   .. figure:: /images/lighting-lamps-area-cont_jitt.jpg
+      :width: 300px
+
+      Constant Jittered settings.
+
 
    The following three parameters are only available when using the *Constant Jittered* sample generator method,
    and are intended to artificially boost the "soft" shadow effect, with possible loss in quality:
@@ -62,7 +60,6 @@ Constant Jittered
       It artificially softens the borders of shadows; when *Samples* is set very low,
       you can expect poor results, so *Dither* is better used with medium *Samples* values.
       It is not useful at all with high *Samples* values, as the borders will already appear soft.
-
 
    Jitter
       Adds noise to break up the edges of solid shadow samples,
@@ -111,7 +108,7 @@ If you only want to change the dimensions of your *Area* lamp,
 without messing with its lighting intensity,
 you are strongly encouraged to use the *Size* button(s) instead.
 
-If your computer isn't very fast,
+If your computer is not very fast,
 when using the *Constant Jittered* sample generator method,
 you could find it useful to set a low *Samples* value (like 2)
 and activate *Umbra*, *Dither*,

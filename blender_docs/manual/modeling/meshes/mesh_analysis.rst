@@ -36,7 +36,7 @@ Thickness
    Thickness.
 
 
-Printers have a limited *wall-thickness* where very thin areas can't be printed,
+Printers have a limited *wall-thickness* where very thin areas cannot be printed,
 this test uses ray casting and a distance range to the thickness of the geometry.
 
 
@@ -50,7 +50,7 @@ Intersections
 
 
 Another common cause of problems for printing are intersections between surfaces,
-where the inside/outside of a model can't be reliably detected.
+where the inside/outside of a model cannot be reliably detected.
 
 Unlike other display modes, intersections have no variance and are either on or off.
 

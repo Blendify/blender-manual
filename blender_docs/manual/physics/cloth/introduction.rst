@@ -66,7 +66,7 @@ and depending on the power of your PC and the complexity of the simulation,
 the amount of CPU needed to compute the mesh varies, as does the lag you might notice.
 
 
-.. note:: Don't jump ahead
+.. note:: Do not jump ahead
 
    If you set up a cloth simulation but Blender has not computed the shapes for the duration of the simulation,
    and if you jump ahead a lot of frames forward in your animation,

@@ -45,7 +45,7 @@ Enable ray-traced reflections
    Enable or disable ray-traced reflections
 Reflectivity
    Sets the amount of reflectiveness of the object.
-   Use a value of 1.0 if you need a perfect mirror, or set it to 0.0 if you don't want any reflection.
+   Use a value of 1.0 if you need a perfect mirror, or set it to 0.0 if you do not want any reflection.
 
 .. figure:: /images/material-mirrorcolor.jpg
 

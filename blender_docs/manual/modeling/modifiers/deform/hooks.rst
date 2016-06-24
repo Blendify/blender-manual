@@ -31,7 +31,7 @@ Object
 Vertex Group
    Allows you to define the influence per-vertex.
 
-   Useful when you don't something other than a spherical field of influence.
+   Useful when you do not something other than a spherical field of influence.
 Radius
    The size of the hooks influence.
 Strength

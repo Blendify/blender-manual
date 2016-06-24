@@ -39,7 +39,7 @@ it is immediately converted to bones (using the current active method) and delet
 This option makes bone sketching quick and efficient, but you lose all the advanced stroke editing possibilities.
 
 Sketches are **not** saved into Blender files,
-so you can't interrupt a sketching session without losing all your work!
+so you cannot interrupt a sketching session without losing all your work!
 Note also that the sketching is common to the whole Blender session, i.e.
 there is only one set of strokes (one sketch) in Blender, and not one per armature, or even per file...
 
@@ -127,12 +127,12 @@ raise this value a bit, and if you find them too jagged, lower it.
    * - .. figure:: /images/RiggingSketchingDrawingFreeStrokeEx3.jpg
           :width: 300px
 
-          If you now move the mouse without pressing :kbd:`LMB` again, you'll create a straight segment...
+          If you now move the mouse without pressing :kbd:`LMB` again, you will create a straight segment...
 
      - .. figure:: /images/RiggingSketchingDrawingFreeStrokeEx4.jpg
           :width: 300px
 
-But if you immediately click again and drag :kbd:`LMB` you'll instead start a new free segment.
+But if you immediately click again and drag :kbd:`LMB` you will instead start a new free segment.
 
 
 You finalize a whole stroke by clicking :kbd:`RMB`. You can cancel the stroke you are drawing by pressing :kbd:`Esc`.
@@ -372,7 +372,7 @@ Template
 
 Retarget roll mode
    None
-      Don't adjust roll.
+      Do not adjust roll.
    View
       Roll bones to face the view.
    Joint

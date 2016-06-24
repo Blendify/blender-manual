@@ -1,5 +1,4 @@
-
-..    TODO/Review: {{review|}} .
+..    TODO/Review: {{review|}}.
 
 *****************************
 Applying Constraints to Bones
@@ -23,7 +22,7 @@ You can also use constraints to make a bone track another object/bone
 And the :doc:`inverse kinematics feature </rigging/posing/inverse_kinematics/index>`
 is also mainly available through the *IK Solver* constraint - which is specific to bones.
 
-For example, a human elbow can't rotate backward (unless the character has broken his hand),
+For example, a human elbow cannot rotate backward (unless the character has broken his hand),
 nor to the sides, and its forward and roll rotations are limited in a given range
 (for example, depending on the rest position of your elbow,
 it may be from (0 to 160) or from (−45 to 135).

@@ -34,7 +34,7 @@ Blender calculates SSS in two steps:
   The brightness of a surface point is the calculated "Average" of the brightness of its surrounding points.
   Depending on your settings the whole surface may be taken into account,
   and it's a bit more complicated than simply calculating the average,
-  but don't bother too much with the math behind it.
+  but do not bother too much with the math behind it.
 
 Instead let us see what SSS does to a distinct light point.
 
@@ -176,7 +176,7 @@ This is a simplified version of the layering approach.
 See the external links for more information:
 
 - Set the SSS color on a value of your choice, normally the predominant color of the object.
-  If you want to use different radii for the colors, don't make it too dark.
+  If you want to use different radii for the colors, do not make it too dark.
 - Set the scale factor. If you want to see much translucency you need small objects or large scale values.
 - Set the radius values.
 - Adjust the brightness with the *Front* and *Back* values.

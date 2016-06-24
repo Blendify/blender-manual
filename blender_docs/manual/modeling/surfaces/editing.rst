@@ -83,7 +83,7 @@ ready to drag the new extruded surface to its destination.
 
 There are two things very important to understand:
 
-- Surfaces are *2D* objects - so you can't extrude anything *inside* a surface
+- Surfaces are *2D* objects - so you cannot extrude anything *inside* a surface
   (e.g. "inner" row); it wouldn't make any sense!
 - The control "grid" *must* remain "squarish",
   which means that you can only extrude a whole row, not parts of rows here and there...
@@ -175,7 +175,7 @@ Duplication
 Well, as with meshes and curves, this command just duplicates the selection. As usual,
 the copy is selected and placed in *Grab* mode, so you can move it to another place.
 
-However, with surfaces there are some selections that can't be duplicated,
+However, with surfaces there are some selections that cannot be duplicated,
 in which case they will just be placed in *Grab* mode... In fact,
 only selections forming a *single* valid sub-grid are copyable; let us see this in practice:
 
@@ -189,7 +189,7 @@ only selections forming a *single* valid sub-grid are copyable; let us see this 
 .. note::
 
    Trying to duplicate several valid "sub-grids" (even being single points)
-   at once won't work; you'll have to do it one after the other...
+   at once won't work; you will have to do it one after the other...
 
 
 Deleting Elements
@@ -211,7 +211,7 @@ Selected
    The selection must abide by the following rules:
 
    - Whole rows, and only whole rows must be selected.
-   - Only rows along the same axis must be selected (i.e. you can't delete both U- and V-rows at the same time).
+   - Only rows along the same axis must be selected (i.e. you cannot delete both U- and V-rows at the same time).
 
    Also remember that NURBS order cannot be higher than its number of control points in a given axis,
    so it might decrease when you delete some control points...
@@ -250,7 +250,7 @@ Joining or Merging Surfaces
 Just like :ref:`curves <modeling-curves-joining-segments>`,
 merging two surfaces requires that a single edge, a border row of control points,
 from two separate surfaces are selected. This means that the surfaces must be part of the same object. For example,
-you can't join two surfaces while in *Object Mode* - but you can of course, as with any objects of the same type,
+you cannot join two surfaces while in *Object Mode* - but you can of course, as with any objects of the same type,
 join two or more *Surface* objects
 into one object :kbd:`Ctrl-J` - they just won't be "linked" or merged in a single one... Yes, it's a bit confusing!
 

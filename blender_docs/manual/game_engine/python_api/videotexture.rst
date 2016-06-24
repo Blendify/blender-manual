@@ -150,7 +150,7 @@ same time. ``GameLogic`` module object is a handy place to store persistent obje
 Create a source
 ---------------
 
-Now we have a ``Texture`` object but it can't do anything because it does not have
+Now we have a ``Texture`` object but it cannot do anything because it does not have
 any source. We must create a source object from one of the possible sources available in
 ``bge.texture``:
 
@@ -320,7 +320,7 @@ Here are some possible advanced work flow:
 
 
 - Load image from source for Python processing without download to GPU:
-- note that we don't even call refresh on the Texture
+- note that we do not even call refresh on the Texture
 - we could also just create a source object without a Texture object
 
 .. code-block:: python
@@ -364,5 +364,5 @@ Pay attention that the weight is a short number between 0 and 255,
 and that the sum of all weights should be 255.
 ``ImageMix`` makes a mix of all the sources according to their weights.
 The sources must all have the same image size
-(after reduction to the nearest power of two dimension). If they don't,
+(after reduction to the nearest power of two dimension). If they do not,
 you get a Python error on the console.

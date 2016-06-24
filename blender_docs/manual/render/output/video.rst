@@ -8,7 +8,7 @@ Preparing your work for video
 
 Once you have mastered the trick of animation you will surely start to produce wonderful
 animations, encoded with your favorite codecs,
-and possibly you'll share them on the Internet with the rest of the community.
+and possibly you will share them on the Internet with the rest of the community.
 
 Sooner or later you will be struck with the desire to build an animation for television,
 or maybe burn your own DVDs. To spare you some disappointment,
@@ -154,7 +154,7 @@ If you are going to do post-processing on your movie, it is best to use a frames
 if you only want one file, then choose *AVI Raw*. While AVI Raw is huge,
 it preserves the exact quality of output for post-processing.
 After post-processing (compositing and/or sequencing), you can compress it down.
-You don't want to post-process a compressed file because the compression artifacts might
+You do not want to post-process a compressed file because the compression artifacts might
 throw off what you are trying to accomplish with the post-processing.
 
 Note that you might not want to render directly to a video format.

@@ -162,7 +162,7 @@ Select one or more keypoints of the particle you want to hide and press :kbd:`H`
 The particle in fact doesn't vanish, only the key points.
 
 Hidden particles (i.e. particles whose keypoints are hidden)
-don't react on the various brushes. But:
+do not react on the various brushes. But:
 
 If you use *Mirror Editing* even particles with hidden keypoints may be moved,
 if their mirrored counterpart is moved.
@@ -241,13 +241,13 @@ Options
 ^^^^^^^
 
 Deflect Emitter, Dist
-   Don't move keypoints through the emitting mesh. *Dist* is the distance to keep from the Emitter.
+   Do not move keypoints through the emitting mesh. *Dist* is the distance to keep from the Emitter.
 Keep
    Length
       Keep the length of the segments between the keypoints when combing or smoothing the hair.
       This is done by moving all the other keypoints.
    Root
-      Keep first key unmodified, so you can't transplant hair.
+      Keep first key unmodified, so you cannot transplant hair.
 X Mirror
    Enable mirror editing across the local x axis.
 

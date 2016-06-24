@@ -48,7 +48,7 @@ Force Field Constraint
    Per
       Persistence button
       When on, force field constraint always looks at Property/Material;
-      when off, turns itself off if it can't find the Property/Material.
+      when off, turns itself off if it cannot find the Property/Material.
    Time
       Number of frames for which constraint remains active
    RotDamp
@@ -109,7 +109,7 @@ Maintain the distance the Game Object has to be from a surface
       Property/Material that triggers the Force Field constraint (blank for **all** Properties/Materials)
    Per
       Persistence button: When on, force field constraint always looks at Property/Material;
-      when off, turns itself off if it can't find the Property/Material.
+      when off, turns itself off if it cannot find the Property/Material.
    Time
       Number of frames for which constraint remains active
    RotDamp

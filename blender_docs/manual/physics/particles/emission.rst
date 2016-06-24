@@ -36,7 +36,7 @@ Random
    Values above 1.0 are not allowed.
    For example with the default *Lifetime* value of 50 a *Random* setting of 0.5
    will give you particles with lives ranging from 50 frames to ``50 × (1.0 − 0.5)`` = 25 frames, and with a
-   *Random* setting of 0.75 you'll get particles with lives ranging from 50 frames to
+   *Random* setting of 0.75 you will get particles with lives ranging from 50 frames to
    ``50 × (1.0 − 0.75)`` = 12.5 frames.
 
 

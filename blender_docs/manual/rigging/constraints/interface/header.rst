@@ -13,7 +13,7 @@ The interface elements of the header are explained below using a Copy Location c
 Expansion Arrow (pointing down or right)
    Show or Hide the settings of the constraint.
    Tidy up the :doc:`constraint stack </rigging/constraints/interface/the_stack>`
-   by hiding constraints that don't currently need attention.
+   by hiding constraints that do not currently need attention.
    Constraints will continue to affect the scene even when hidden.
 
 "Copy Location" (first occurrence)

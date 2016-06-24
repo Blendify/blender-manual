@@ -63,7 +63,7 @@ Manually ( *Edit Mode* ) :doc:`subdivided </modeling/meshes/editing/subdividing/
 :doc:`Meta Objects </modeling/metas/introduction>`
    Control render faces with render wiresize. Small wire == more faces.
 
-The following are available, but currently don't work well.
+The following are available, but currently do not work well.
 It is recommended that you convert these to meshes before rendering.
 
 Open :doc:`NURBS Surfaces </modeling/surfaces/introduction>`
@@ -78,5 +78,5 @@ Closed NURBS Surfaces
 .. note:: Displace Modifier
 
    If you want more control over your displacement,
-   you'll probably want to use the :doc:`Displace Modifier </modeling/modifiers/deform/displace>`.
+   you will probably want to use the :doc:`Displace Modifier </modeling/modifiers/deform/displace>`.
    This feature has lots of different options so that you can customize the displacement exactly to your liking.

@@ -30,9 +30,9 @@ Axis
    This useful if you want to see the orientation and rotation of particles in the view port.
    Increase the *Draw Size* until you can clearly distinguish the axis.
 
-Particles visualized like Point, Circle, Cross and Axis don't have any special options,
+Particles visualized like Point, Circle, Cross and Axis do not have any special options,
 but can be very useful when you have multiple particle systems at play,
-if you don't want to confuse particles of one system from another (e.g.
+if you do not want to confuse particles of one system from another (e.g.
 in simulations using *Boids* physics).
 
 Display

@@ -25,7 +25,7 @@ Truncated domes (front and rear), Planetariums and domes with spherical mirrors.
    To accomplish that launch Blender with the command-line argument -W.
    Also to get away of the top menu on Blender try to join all windows (buttons, 3D View, text,
    ...) in a single one. Otherwise if you only maximize it :kbd:`Ctrl-Up`)
-   you can't get the whole screen free to run your game
+   you cannot get the whole screen free to run your game
    (the top bar menu takes about 20 pixels).
 
 
@@ -174,7 +174,7 @@ are the normalized screen coordinates(u,v)
 texture coordinates *i* a multiplicative intensity factor
 
 *x* varies from −screen aspect to screen aspect varies from −1 to 1 *u* and *v* vary from 0 to 1*i*
-ranges from 0 to 1, if negative don't draw that mesh node
+ranges from 0 to 1, if negative do not draw that mesh node
 
 
 - You need to create the file and add it to the Text Editor in order to select it as your Warp Mesh data file.

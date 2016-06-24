@@ -80,13 +80,13 @@ Recommendations
 
 Occlusion culling is most useful when the occluders are large objects (buildings, mountains...)
 that hide many complex objects in an unpredictable way. However,
-don't be too concerned about performance: even if you use it inappropriately,
+do not be too concerned about performance: even if you use it inappropriately,
 the performance decrease will be limited due to the structure of the algorithm.
 
 There are situations where occlusion culling will not bring any benefit:
 
 
-- If the occluders are small and don't hide many objects.
+- If the occluders are small and do not hide many objects.
 
   - In that case, occlusion culling is just dragging your CPU down).
 

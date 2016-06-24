@@ -93,7 +93,7 @@ Data-block links
    different materials and still share the same mesh.
 
    Short explanation: If connected to the object, you can have several instances of the same obData using
-   different materials. If linked to mesh data, you can't.
+   different materials. If linked to mesh data, you cannot.
 
 
 Material type

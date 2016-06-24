@@ -42,7 +42,6 @@ Cycles requires recent NVIDIA drivers to be installed, on all operating systems.
 OpenCL
 ------
 
-
 :abbr:`OpenCL (Open Computing Language)` is supported for GPU
 rendering with *AMD* graphics cards.
 We only support graphics cards with :abbr:`GCN (Graphics Core Next)` architecture (HD 7xxx and above).
@@ -74,7 +73,7 @@ Why is Blender unresponsive during rendering?
 While a graphics card is rendering, it cannot redraw the user interface,
 which makes Blender unresponsive. We attempt to avoid this problem by giving back control over
 the GPU as often as possible,
-but a completely smooth interaction can't be guaranteed, especially on heavy scenes.
+but a completely smooth interaction cannot be guaranteed, especially on heavy scenes.
 This is a limitation of graphics cards for which no true solution exists,
 though we might be able to improve this somewhat in the future.
 
@@ -111,7 +110,7 @@ What renders faster, NVIDIA or AMD, CUDA or OpenCL?
 ---------------------------------------------------
 
 Currently NVIDIA with CUDA is rendering faster. There is no fundamental reason why this should
-be so - we don't use any CUDA - specific features - but the compiler appears to be more mature,
+be so - we do not use any CUDA - specific features - but the compiler appears to be more mature,
 and can better support big kernels.
 OpenCL support is still in an early stage and has not been optimized as much.
 

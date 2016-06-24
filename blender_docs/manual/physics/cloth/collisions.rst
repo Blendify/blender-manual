@@ -174,7 +174,7 @@ You cannot change *Start* or *End* without clearing the bake simulation.
 When the simulation has finished, you will notice you have the option to free the bake,
 edit the bake and re-bake:
 
-There's a few things you'll probably notice right away. First,
+There's a few things you will probably notice right away. First,
 it will bake significantly slower than before,
 and it will probably clip through the box pretty badly as in the picture on the right.
 

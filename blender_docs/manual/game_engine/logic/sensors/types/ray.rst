@@ -34,5 +34,5 @@ Range
    Determines the length of the ray. (Blender units).
 
 X-Ray Mode button
-   Makes it x-ray, so that it sees through objects that don't
+   Makes it x-ray, so that it sees through objects that do not
    have the property or material specified in the filter field.

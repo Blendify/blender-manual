@@ -250,7 +250,7 @@ For other common conventions used throughout the manual.
 
    Face Loop
       Chain of consecutive :term:`quads <quad>`.
-      A face loop stops at a :term:`triangle` or :term:`Ngon` (which don't belong to the loop), or at a boundary.
+      A face loop stops at a :term:`triangle` or :term:`Ngon` (which do not belong to the loop), or at a boundary.
       Otherwise, it's cyclic.
 
    Face Normal
@@ -633,7 +633,7 @@ For other common conventions used throughout the manual.
 
    Title Safe
      Area of the screen visible on all devices.
-     Place text and graphics inside this area to make sure they don't get cut off.
+     Place text and graphics inside this area to make sure they do not get cut off.
 
    Topology
       The arrangement of *Vertices*, *Edges*, and *Faces* which define the shape of a mesh.

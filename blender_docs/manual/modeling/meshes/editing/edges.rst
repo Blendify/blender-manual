@@ -198,7 +198,7 @@ Loop crosses itself
    Fig. Loop crosses is an example that shows this by selecting two edges that share the same face.
    A face cannot be adjacent to itself.
 Multiple edge loops
-   The selected edges are not in the same edge loop, which means they don't have a common edge.
+   The selected edges are not in the same edge loop, which means they do not have a common edge.
    You can minimize this error by always selecting edges end to end or in a "Chain".
    If you select multiple edges just make sure they are connected.
    This will decrease the possibility of getting looping errors.

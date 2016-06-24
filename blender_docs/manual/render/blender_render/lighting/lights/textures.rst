@@ -27,7 +27,7 @@ Here we will only talk about the few things that differ from object material tex
 see the :doc:`Materials </render/blender_render/materials/index>` and
 :doc:`Textures </render/blender_render/textures/index>` chapters for details about the standard options.
 
-The texture-specific and the *Mapping* panels remain the same. However, you'll note
+The texture-specific and the *Mapping* panels remain the same. However, you will note
 there are much fewer *Mapping* options - you can only choose between
 *Global*,
 *View* or another *Object* 's texture *coordinates*

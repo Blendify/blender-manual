@@ -53,7 +53,7 @@ Angle/Factor
 
 Limits
    These settings allow you to set the lower and upper limits of the deformation.
-   The upper limit can't be lower than lower limit.
+   The upper limit cannot be lower than lower limit.
 
 Lock X Axis / Lock Y Axis (Taper and Stretch modes only)
    These controls whether the X and/or Y coordinates are allowed to change or not.

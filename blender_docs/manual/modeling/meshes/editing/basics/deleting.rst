@@ -39,7 +39,7 @@ dissolve will remove the geometry and fill in the surrounding geometry.
 Dissolve
    Removes selected geometry, but keeps surface closed, effectively turning the selection into a single n-gon.
    Dissolve works slightly different based on if you have edges, faces or vertices selected.
-   You can add detail where you need it, or quickly remove it where you don't.
+   You can add detail where you need it, or quickly remove it where you do not.
 Limited Dissolve
    Limited Dissolve reduces detail on planar faces and linear edges with an adjustable angle threshold.
 

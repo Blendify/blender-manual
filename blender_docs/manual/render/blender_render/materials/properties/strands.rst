@@ -110,7 +110,7 @@ UV Layer
 Surface Diffuse
    Computes the strand normal, taking the normal at the surface into account.
    This eases the coloring and lighting of hair a lot, especially for Strand Primitives.
-   Essentially hair reacts similar to ordinary surfaces and don't show
+   Essentially hair reacts similar to ordinary surfaces and do not show
    exaggerated strong and large specular highlights.
 
    Distance

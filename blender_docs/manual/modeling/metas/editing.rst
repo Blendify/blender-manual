@@ -34,7 +34,7 @@ With a low stiffness, the meta will begin to deform from further away.
 A higher value means the meta needs to be close to another one to begin merging.
 
 When a *Meta* object comes within "range" of another meta,
-the two will begin to interact with each other. They don't necessarily need to intersect,
+the two will begin to interact with each other. They do not necessarily need to intersect,
 and depending on the *Threshold* and *Stiffness* settings,
 they most likely won't need to.
 *Stiffness* is materialized by the *green ring*
@@ -191,7 +191,7 @@ if we transform the children, the polygonalization remains unchanged.
 
 .. hint::
 
-   This discussion of "polygonization" *doesn't* mean that the various meshes don't deform
+   This discussion of "polygonization" *doesn't* mean that the various meshes do not deform
    towards or away from each other (meta objects always influence one another in the usual way,
    whether or not they are members of the same family). Rather,
    it means that the underlying mesh structure changes only when the *base* object transforms.

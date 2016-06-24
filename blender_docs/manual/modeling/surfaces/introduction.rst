@@ -81,7 +81,7 @@ like a NURBS surface with only one row (either in U or V direction) of control p
 Visually you can tell which is which by entering *Edit Mode* and looking at the 3D View header:
 either the header shows *Surface* or *Curve* as one of the menu choices. Also,
 you can :doc:`extrude </modeling/curves/editing/extrude>` a whole NURBS surface curve to create a surface,
-but you can't with a simple NURBS curve.
+but you cannot with a simple NURBS curve.
 
 
 .. _modeling-surfaces-rows-grids:
@@ -238,7 +238,7 @@ which are provided as presets in the *Curve Tools* panel (lower right corner).
 This is not intuitive, and you should read more on NURBS before trying this.
 
 To create a sphere with 2D surfaces, its the same principle as with a 2D circle -
-you'll note that the four different weights needed for creating a sphere
+you will note that the four different weights needed for creating a sphere
 (1.0, 0.707 = sqrt(0.5), 0.354 = sqrt(2)/4, and 0.25).
 
 

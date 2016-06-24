@@ -108,9 +108,9 @@ soft light by being *Hemi*. In real life,
 these lights bounce light off the inside of a silver umbrella.
 
 Notice how we use low *Energy* to bring out the dimensionality of the sphere;
-I can't stress that enough. Hard, bright lights actually flatten it and make you squint.
+I cannot stress that enough. Hard, bright lights actually flatten it and make you squint.
 Soft lights allow your eye to focus. We disable specular for right *Hemi*,
-so we don't get that shiny forehead or nose.
+so we do not get that shiny forehead or nose.
 
 The lamp on the left however, lets it be known that it is there by enabling specular;
 specular flare is that bright spot that is off center above midline on the sphere.
@@ -165,7 +165,7 @@ that limit the area of the light.
 
 The two sidelights are reduced to only fill; each of them are *Hemi* lights placed
 20 BU to the side and 5 BU in front of the subject, at ground level.
-They don't cause a spotshine on the surface by disabling specular, and at ground level,
+They do not cause a spotshine on the surface by disabling specular, and at ground level,
 light under the chin or any horizontal surfaces,
 countering the shadows caused by the key light.
 
@@ -254,7 +254,7 @@ here are some good steps to debugging what is wring.
 #. First, try deactivating all materials
    (create a default, gray one, and enter its name in the *Mat* field, *Layer* panel,
    *Render Layer* tab - to get back all your normal materials, just erase this text field!).
-   See if you get those problems with just grayness objects. If you don't have the problem anymore,
+   See if you get those problems with just grayness objects. If you do not have the problem anymore,
    that should tell you that you've got a materials-interacting-with-light problem.
    Check the material settings, especially ambient,
    reflection and all those little buttons and sliders in the *Material* tab.
@@ -271,6 +271,6 @@ here are some good steps to debugging what is wring.
    so pay special attention to your use of those special lights.
    Shadow-only lights can throw off the look of the scene as well.
    Overly textured lights can make your scene have random weird colors.
-   Don't go too far off a slight tinge of blue or yellow or shades of white,
+   Do not go too far off a slight tinge of blue or yellow or shades of white,
    or your material may show blue in the *Material* tab but render green, and you will be very confused.
 #. Look at your environment settings *World* tab: *Horizon*, *Zenith*, and *Environment Lighting*.

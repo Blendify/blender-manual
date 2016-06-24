@@ -363,7 +363,7 @@ Known Limitations
 UV Overlap
 ----------
 
-In general overlapping UVs aren't supported (as with texture baking).
+In general overlapping UVs are not supported (as with texture baking).
 
 However this is only a problem when a single brush stroke paints onto multiple faces that share a texture.
 
@@ -371,7 +371,7 @@ However this is only a problem when a single brush stroke paints onto multiple f
 Perspective View & Faces Behind the View
 ----------------------------------------
 
-When painting onto a face which is partially behind the view (in perspective mode), the face can't be painted on.
+When painting onto a face which is partially behind the view (in perspective mode), the face cannot be painted on.
 To avoid, this zoom out or use an Ortho mode viewport.
 
 

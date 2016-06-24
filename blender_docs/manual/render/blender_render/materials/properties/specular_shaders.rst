@@ -138,7 +138,7 @@ Phong
    Phong Shader (Lambert 0.8).
 
 
-Phong is a basic shader that's very similar to CookTorr,
+Phong is a basic shader that is very similar to CookTorr,
 but is better for skin and organic surfaces.
 `Bui Tuong Phong <https://en.wikipedia.org/wiki/Bui_Tuong_Phong>`__ (1942-1975)
 was a Vietnamese-born computer graphics pioneer that developed the first algorithm for

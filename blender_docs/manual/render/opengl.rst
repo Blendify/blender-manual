@@ -94,7 +94,7 @@ Known Limitations
 OpenGL Anti-Aliasing Support
 ----------------------------
 
-Some graphics cards don't support this feature
+Some graphics cards do not support this feature
 (known as the frame-buffer multi-sample OpenGL extensions).
 
 In this case rendering works but no anti-aliasing is performed.

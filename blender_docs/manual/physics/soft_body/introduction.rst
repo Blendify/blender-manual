@@ -136,7 +136,7 @@ that will make a recalculating necessary.
 .. tip:: Beware of the *Start* and *End* settings
 
    The simulation is only calculated for the frames in-between the *Start* and *End* frames
-   (*Bake* panel), even if you don't actually bake the simulation!
+   (*Bake* panel), even if you do not actually bake the simulation!
    So if you want a simulation longer than the default setting of 250 frames you have the change the *End* frame.
 
 

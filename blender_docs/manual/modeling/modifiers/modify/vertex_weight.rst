@@ -91,7 +91,7 @@ Viewing Modified Weights
 ------------------------
 
 You can view the modified weights in *Weight Paint Mode*. This also implies that
-you'll have to disable the Vertex Weight modifiers if you want to see the original weights of
+you will have to disable the Vertex Weight modifiers if you want to see the original weights of
 the vertex group you are editing.
 
 
@@ -341,7 +341,7 @@ we want the vertices of the grid nearest to the curve circle to remain undisplac
 As they will get weights near zero,
 this means that you have to set the *Midlevel* of the displace to 0.0.
 Make it use our affected vertex group,
-and that's it! Your nice mountains just shrink to a flat plane near the curve circle.
+and that is it! Your nice mountains just shrink to a flat plane near the curve circle.
 
 As in the previous example,
 you can insert a *Vertex Weight Edit* modifier before the *Displace* one,
@@ -426,7 +426,7 @@ Leave the mapping to the default *Local* option, and play with the various chann
           Using Saturation.
 
 
-Don't forget to add a *Wave* modifier, and select your vertex group in it!
+Do not forget to add a *Wave* modifier, and select your vertex group in it!
 
 You can use the weights created this way directly,
 but if you want to play with the curve mapping,

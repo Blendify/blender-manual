@@ -81,7 +81,7 @@ Unbind
    can cause noticeable artifacts.
 
    These can be reduced by binding with a higher *Precision*,
-   however it is a known limitation with this modifier and can't be avoided entirely.
+   however it is a known limitation with this modifier and cannot be avoided entirely.
 
 
 Hints

@@ -18,7 +18,7 @@ animation over and over.
 
 A downside is that unlike in the :doc:`Follow Path constraint </rigging/constraints/relationship/follow_path>`,
 *Clamp To* doesn't have any option to track your owner's rotation (pitch, roll, yaw)
-to the banking of the targeted curve, but you don't always need rotation on,
+to the banking of the targeted curve, but you do not always need rotation on,
 so in cases like this it's usually a lot handier to fire up a *Clamp To*,
 and get the bits of rotation you do need some other way.
 
