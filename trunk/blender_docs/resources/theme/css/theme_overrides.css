@@ -84,12 +84,15 @@ iframe {
 	margin: 0 auto 24px auto;
 }
 
+/*copyright font scale down*/
+footer p{ font-size: smaller}
+
 /*.. container:: lead , block text float around image*/
 .lead {
 	clear: both; width: 100%;
 }
 
-/* mark external links*/
+/*mark external links*/
 a.external {color:#656AE0;}
 /*white list blender.org and wiki.blender.org as internal*/
 .external[href^="https://www.blender.org"], .external[href^="https://wiki.blender.org"] {
