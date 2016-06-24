@@ -10,7 +10,7 @@ Bones
    | Panel:    All in Properties editor, *Bone* property
 
 
-let us first have a general grasp of the various panels gathering the bone settings,
+Let us first have a general grasp of the various panels gathering the bone settings,
 in Properties editor, *Bone* tab:
 
 .. figure:: /images/RiggingBonePrincipalsBonePropertiesEditor.jpg

@@ -10,8 +10,8 @@ This means that when you move your mesh in the dominant direction (by default, t
 the mesh will traverse along the curve. Moving the mesh perpendicularly to this axis,
 the object will move closer or further away from the curve.
 
-When you move the object beyond the curve endings the object will continue to deform based on the direction vector of
-the curve endings.
+When you move the object beyond the curve endings the object will continue
+to deform based on the direction vector of the curve endings.
 
 
 Options
@@ -36,7 +36,7 @@ Deformation Axis
 Example
 =======
 
-let us make a simple example:
+Let us make a simple example:
 
 - Remove default cube object from scene and add a Monkey with :menuselection:`Add --> Mesh --> Monkey`
 - Now add a curve with :menuselection:`Add --> Curve --> Bezier Curve`
@@ -56,7 +56,6 @@ let us make a simple example:
 
    Assign the Bezier curve to the Curve modifier (for Monkey).
 
-
 .. figure:: /images/curvesdeform_examplemonkeyoncurve3.jpg
    :width: 200px
 
@@ -69,7 +68,6 @@ let us make a simple example:
 .. tip::
 
    If you press :kbd:`MMB` while moving the Monkey you will constrain the movement to one axis only.
-
 
 .. figure:: /images/curvesdeform_examplemonkeyoncurve2.jpg
    :width: 250px

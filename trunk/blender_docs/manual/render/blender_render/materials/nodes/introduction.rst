@@ -70,7 +70,7 @@ Enabling Node Materials in the Material Buttons
           Default nodes.
 
 
-let us take the base material and hit the Nodes button next to the material name in the
+Let us take the base material and hit the Nodes button next to the material name in the
 material panel or the node editor. You will see a change in the material panel.
 
 What you have just done is told Blender to make the material you were on to become the node

@@ -78,7 +78,7 @@ This option is in *Object Data* properties.
 Example
 =======
 
-let us make a simple example:
+Let us make a simple example:
 
 - Remove default cube object from scene and add a Monkey with
   :menuselection:`Add --> Mesh --> Monkey`

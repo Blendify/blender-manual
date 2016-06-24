@@ -50,7 +50,7 @@ the plane collides with the cube as the plane is pulled down by gravity. You can
 *CFace* to enable collision between the face of the plane and the object instead
 Fig. Image 2c, but this type of calculation takes much longer.
 
-let us have a closer look at the collision calculation,
+Let us have a closer look at the collision calculation,
 so you can get an idea of how we might optimize it.
 
 

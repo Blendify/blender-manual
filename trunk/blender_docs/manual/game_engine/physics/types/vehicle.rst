@@ -26,7 +26,7 @@ suspension force, damping and compression.
 How it works
 ============
 
-Bullet us approach to a vehicle controller is called a "Raycast Vehicle".
+Bullet's approach to a vehicle controller is called a "Raycast Vehicle".
 Collision detection for the wheels is approximated
 by ray casts and the tire friction is an anisotropic friction model.
 

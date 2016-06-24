@@ -198,7 +198,7 @@ Examples
 Dotmatrix display
 -----------------
 
-let us use a halo material to create a dotmatrix display.
+Let us use a halo material to create a dotmatrix display.
 
 - To begin, add a grid with the dimensions 32×16.
   Then add a camera and adjust your scene so that you have a nice view of the billboard.
