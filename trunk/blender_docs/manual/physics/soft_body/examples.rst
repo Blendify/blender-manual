@@ -21,7 +21,7 @@ First, change your start and end frames to 1 and 150.
    The timeline.
 
 
-Then, add a plane, and scale it 5 times. Next, go to the physics tab, and add a collision.
+Then, add a plane, and scale it five times. Next, go to the physics tab, and add a collision.
 The default settings are fine for this example.
 
 Now add a cube, or use the default cube. Tab into edit mode and subdivide it three times. 

@@ -90,7 +90,7 @@ You can see an example in the file below.
 Controlling the Vehicle
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-This is done in 2 parts and it should be modeled according to the desired behavior.
+This is done in two parts and it should be modeled according to the desired behavior.
 You should think of your gameplay and research appropriate functions for the input.
 For instance, can the vehicle reverse? jump? drift?
 does it turn slowly? How much time does it take to brake or get to full speed?

@@ -123,7 +123,7 @@ There are as many curves as scanlines in the frame:
 each one of this curves represents the luminosity of the pixels of one line. Moreover, the
 color of a pixel in this mode represents the number of pixels from the matching column of the
 frame sharing the same luminosity - i.e. the number of curves that cross at this point
-(black/transparent, for no pixel, white/opaque for at least 3 pixels).
+(black/transparent, for no pixel, white/opaque for at least three pixels).
 
 Separate Colors
    Separates RGB channels into separate graphs.

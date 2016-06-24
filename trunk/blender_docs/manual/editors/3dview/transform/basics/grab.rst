@@ -114,7 +114,7 @@ Blender offers options to limit the amount of the transformation in small or pre
 :kbd:`Ctrl-Shift`
    Precise snap. This option will move the object with high precision along with the snapping constraint.
 
-:kbd:`X`/:kbd:`Y`/:kbd:`Z` + decimal number
+:kbd:`X`, :kbd:`Y`, :kbd:`Z` + decimal number
    This option limits the transformation to the specified axis and the decimal number specified
    will be the magnitude of the translation along that axis.
    This decimal number is displayed at the bottom left corner of the 3D View editor as it is entered.
@@ -131,7 +131,7 @@ Blender offers options to limit the amount of the transformation in small or pre
 Orientations
 ============
 
-There are 5 standard orientation references for all transformations.
+There are five standard orientation references for all transformations.
 You can find out more about transform orientations
 :doc:`here </editors/3dview/transform/transform_control/transform_orientations>`.
 

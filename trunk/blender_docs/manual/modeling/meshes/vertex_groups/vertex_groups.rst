@@ -54,7 +54,7 @@ Working with Modifiers
 
 Quickly select/edit/hide parts of a mesh
    By defining mesh regions with Vertex Groups you can easily
-   select entire parts of your mesh with 3 clicks and work
+   select entire parts of your mesh with three clicks and work
    on them in isolation without having to create separate objects.
    With the hide function you can even remove a vertex
    group from the view (for later unhide).
@@ -96,7 +96,7 @@ Vertex Groups Panel Controls
    One Vertex Group.
 
 Once a new Vertex Group has been added, the new Group appears in the
-vertex Groups panel. There you find 3 clickable elements:
+vertex Groups panel. There you find three clickable elements:
 
 
 Group Name
@@ -170,9 +170,9 @@ Working with Content of Vertex Groups
 
 
 When you switch either to *Edit Mode* or to *Weight Paint Mode* Vertex
-Selection Mode, then the Vertex Group panel expands and displays 2 more rows:
+Selection Mode, then the Vertex Group panel expands and displays two more rows:
 
-The first row contains 4 buttons for maintaining the Assign- and
+The first row contains four buttons for maintaining the Assign- and
 Select- status of vertices of the active Vertex Group:
 
 Assign

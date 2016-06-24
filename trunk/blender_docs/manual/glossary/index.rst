@@ -246,7 +246,7 @@ For other common conventions used throughout the manual.
       TODO.
 
    Face
-      Mesh element that defines a piece of surface. It consists of 3 or more :term:`edges <edge>`.
+      Mesh element that defines a piece of surface. It consists of three or more :term:`edges <edge>`.
 
    Face Loop
       Chain of consecutive :term:`quads <quad>`.
@@ -415,7 +415,7 @@ For other common conventions used throughout the manual.
 
       - Some borders and holes (edges with only a single connected face), as faces have no thickness.
       - Edges and vertices not belonging to any face (wire).
-      - Edges connected to 3 or more faces (interior faces).
+      - Edges connected to three or more faces (interior faces).
       - Vertices belonging to faces that are not adjoining (e.g. 2 cones sharing the vertex at the apex).
 
       See also: :ref:`Select Non-Manifold <mesh-select-non_manifold>` tool.
@@ -429,7 +429,7 @@ For other common conventions used throughout the manual.
    Normal mapping
       Is similar to :term:`Bump mapping`, but instead of the image being a greyscale heightmap,
       the colors define in which direction the normal should be shifted,
-      the 3 color channels being mapped to the 3 directions X, Y and Z.
+      the three color channels being mapped to the three directions X, Y and Z.
       This allows more detail and control over the effect.
 
    NURBS

@@ -83,7 +83,7 @@ This can be caused by accident when editing without x-mirror enabled. Sometimes 
 imported from other applications are asymmetrical enough that mirror fails too.
 
 Direction
-   Specify the axis and direction to snap. Can be any of the 3 axes,
+   Specify the axis and direction to snap. Can be any of the three axes,
    and either positive to negative, or negative to positive.
 Threshold
    Specify the search radius to use when finding matching vertices.
@@ -121,7 +121,7 @@ and mirroring over the geometry in the specified axis, and merges the two halves
 (if they are connected)
 
 Direction
-   Specify the axis and direction of the effect. Can be any of the 3 axes,
+   Specify the axis and direction of the effect. Can be any of the three axes,
    and either positive to negative, or negative to positive.
 
 .. list-table::

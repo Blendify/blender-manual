@@ -93,7 +93,7 @@ Max
 Cycles
 ------
 
-Cycles allows you add cyclic motion to a curve that has 2 or more control points.
+Cycles allows you add cyclic motion to a curve that has two or more control points.
 The options can be set for before and after the curve.
 
 Cycle Mode

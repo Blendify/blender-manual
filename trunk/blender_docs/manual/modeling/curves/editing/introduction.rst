@@ -433,9 +433,9 @@ You can make other selected objects :ref:`children <object-parenting>`
 of one or three control points :kbd:`Ctrl-P`, as with mesh objects.
 
 To select a mesh(that is in view) while editing a curve, :kbd:`Ctrl-P` click on it.
-Select either 1 or 3 control points,
+Select either one or three control points,
 then :kbd:`Ctrl-RMB` the object and use :kbd:`Ctrl-P` to make a vertex parent.
-Selecting 3 control points will make the child follow
+Selecting three control points will make the child follow
 the median point between the three vertices. An alternative would be to use a 
 :doc:`Child of Constraint </rigging/constraints/relationship/child_of>`
 

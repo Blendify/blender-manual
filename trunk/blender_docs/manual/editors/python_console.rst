@@ -82,7 +82,7 @@ Now that you got a hang of this, lets proceed to investigate some of modules in 
 Before tinkering with the modules..
 -----------------------------------
 
-If you look at the 3D Viewport in the default Blender scene, you will notice 3 objects: Cube,
+If you look at the 3D Viewport in the default Blender scene, you will notice three objects: Cube,
 Lamp and Camera.
 
 

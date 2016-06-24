@@ -178,6 +178,6 @@ Self Effect
 Amount
    Set how many of the particles act as force fields. 0 means all of them are effectors.
 
-You can give particle systems up to 2 force fields. By default they do not have any.
+You can give particle systems up to two force fields. By default they do not have any.
 Choose an effector type from the dropdowns to enable them.
 Settings are described on the :doc:`Force Field Page </physics/force_fields/index>`.

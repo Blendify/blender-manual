@@ -30,7 +30,7 @@ When many vertices are selected, faces will be split by their selected vertices.
           After.
 
 
-When there are only 2 vertices selected, a cut will be made across unselected faces,
+When there are only two vertices selected, a cut will be made across unselected faces,
 a little like the knife tool; however this is limited to straight cuts across connected faces.
 
 .. list-table::

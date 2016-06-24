@@ -13,7 +13,7 @@ Truncated domes (front and rear), Planetariums and domes with spherical mirrors.
    implemented by Dalai Felinto with sponsorship from SAT - Society for Arts and
    Technology within the SAT Metalab
    `immersion research program <http://paulbourke.net/miscellaneous/domemirror/BlenderiDome/>`__,
-   that involves rendering the scene 4 times and placing the subsequent images
+   that involves rendering the scene four times and placing the subsequent images
    onto a mesh designed especially such that the result, when viewed with an
    orthographic camera, is a fisheye projection.
 
@@ -68,8 +68,8 @@ Fisheye Mode
 
 An Orthogonal Fisheye view from 90º to 250º degrees.
 
-- From 90º to 180º we are using 4 renders.
-- From 181º to 250º we are using 5 renders.
+- From 90º to 180º we are using four renders.
+- From 181º to 250º we are using five renders.
 
 
 .. figure:: /images/bge_Dome-Fisheye.jpg
@@ -84,8 +84,8 @@ Designed for truncated domes,
 this mode aligns the fisheye image with the top of the window while touching the sides.
 
 - The Field of view goes from 90º to 250º degrees.
-- From 90º to 180º we are using 4 renders.
-- From 181º to 250º we are using 5 renders.
+- From 90º to 180º we are using four renders.
+- From 181º to 250º we are using five renders.
 
 
 .. figure:: /images/bge_Dome-Front-Truncated.jpg
@@ -100,8 +100,8 @@ Designed for truncated domes,
 this mode aligns the fisheye image with the bottom of the window while touching the sides.
 
 - The Field of view goes from 90º to 250º degrees.
-- From 90º to 180º we are using 4 renders.
-- From 181º to 250º we are using 5 renders.
+- From 90º to 180º we are using four renders.
+- From 181º to 250º we are using five renders.
 
 
 .. figure:: /images/bge_Dome-Rear-Truncated.jpg
@@ -114,7 +114,7 @@ Cube Map Mode
 
 Cube Map mode can be used for pre-generate animated images for CubeMaps.
 
-- We are using 6 renders for that. The order of the images follows Blender internal EnvMap file format:
+- We are using six renders for that. The order of the images follows Blender internal EnvMap file format:
   - first line: right, back, left
   - second line: bottom, top, front
 
@@ -129,7 +129,7 @@ Spherical Panoramic Mode
 
 A full spherical panoramic mode.
 
-- We are using 6 cameras here.
+- We are using six cameras here.
 - The bottom and top start to get precision with *Definition* set to 5 or more.
 
 

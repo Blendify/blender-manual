@@ -96,7 +96,7 @@ Plane Track Panel
 -----------------
 
 *Create Plane Track* operator creates a new plane track.
-4 markers are needed to be selected which will form the 4 corners of the plane.
+4 markers are needed to be selected which will form the four corners of the plane.
 
 Solve Panel
 -----------
@@ -104,7 +104,7 @@ Solve Panel
 *Camera Motion* operator solves the motion of camera using all tracks placed
 on the footage and two keyframes specified on this panel. There are some requirements:
 
-- There should be at least 8 common tracks on the both of the selected keyframes.
+- There should be at least eight common tracks on the both of the selected keyframes.
 - There should be noticeable parallax effects between these two keyframes.
 
 
@@ -112,7 +112,7 @@ If everything goes smoothly during the solve, the average reprojection error is 
 the information space and to the clip editor header. Reprojeciton error means the average
 distance between reconstructed 3D position of tracks projected back to footage and original
 position of tracks. Basically, reprojection error below 0.3 means accurate reprojection,
-0.3-3.0 means quite nice solving which still can be used.
+(0.3 - 3.0) means quite nice solving which still can be used.
 Values above 3 means some tracks should be tracked more accurately,
 or that values for focal length or distortion coefficients were set incorrectly.
 

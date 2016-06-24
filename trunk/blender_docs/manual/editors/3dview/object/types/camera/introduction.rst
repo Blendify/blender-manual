@@ -176,7 +176,7 @@ Composition Guides
 ^^^^^^^^^^^^^^^^^^
 
 *Composition Guides* are available from the drop-down menu, which can help when framing a shot.
-There are 8 types of guides available:
+There are eight types of guides available:
 
 
 Center

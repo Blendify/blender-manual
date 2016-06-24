@@ -21,7 +21,7 @@ you may want to shift the :term:`pivot point` to make it easier to manipulate an
 Using this selector, you can change the pivot point to the location of the:
 
 - Active Element
-- Median Point (*the average center spot of the selected items*)
+- Median Point (the average center spot of the selected items)
 - Individual Origins
 - 3D Cursor
 - Bounding Box Center

@@ -122,7 +122,7 @@ of any pixel to be one of a certain value, such that when they are combined,
 will not result in more than 256 possible values. The number of possible values of an output
 is the number of channel values multiplied by each other, or Q = R × G × B.
 
-Since there are 3 channels and 256 values,
+Since there are three channels and 256 values,
 we have some flexibility how to quantize each channel,
 since there are a lot of combinations of R × G × B that would equal 256. For example,
 if {R, G, B} = {4, 4, 16}, then 4 × 4 × 16 = 256. Also, {6, 6, 7} would give 252 possible values.
@@ -136,14 +136,14 @@ give possible values to the predominant colors in the image.
 Theory
 ======
 
-`Two Approaches to Quantizing to 6 values
+`Two Approaches to Quantizing to six values
 <https://wiki.blender.org/index.php/File:Manual-Compositing-Node-Math_ColorBand>`__
 
 To accomplish this quantization of an image to 256 possible values, let us use the set {6, 6, 7}.
 To split up a continuous range of values between 0 and 1 (the full Red spectrum)
-into 6 values, we need to construct an algorithm or function that takes any input value but
-only puts out 6 possible values, as illustrated by the image to the right.
-We want to include 0 as true black, with five other colors in between.
+into six values, we need to construct an algorithm or function that takes any input value but
+only puts out six possible values, as illustrated by the image to the right.
+We want to include zero as true black, with five other colors in between.
 The approach shown produces {0, 0.2, 0.4, 0.6, 0.8, 1}. Dividing 1.0 by 5 equals 0.2,
 which tells how far apart each quantified value is from the other.
 

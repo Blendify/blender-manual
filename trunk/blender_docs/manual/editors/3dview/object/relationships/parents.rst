@@ -72,8 +72,8 @@ the *Child Objects* will remember any previous transformations applied to them f
 Since explaining this in an easy to understand technical way is hard,
 lets instead use an example to demonstrate.
 
-Assume that we have a scene consisting of 3 objects,
-those being 2 Empty Objects named "EmptyA" and "EmptyB", and a Monkey object. (See figure 1).
+Assume that we have a scene consisting of three objects,
+those being two Empty Objects named "EmptyA" and "EmptyB", and a Monkey object. (See figure 1).
 
 
 .. figure:: /images/Parent-Object_Keep_Transform-A.jpg
@@ -81,7 +81,7 @@ those being 2 Empty Objects named "EmptyA" and "EmptyB", and a Monkey object. (S
    Figure 1 - Scene with two Empties and a Monkey, no parenting currently active.
 
 
-Figure 1 shows the 3 objects with no parenting relationships active on them.
+Figure 1 shows the three objects with no parenting relationships active on them.
 
 If you select the Monkey object by :kbd:`RMB` click and then :kbd:`Shift-RMB`
 click "EmptyA" object and press :kbd:`Ctrl-P` and then select *Object* from the *Set
@@ -240,20 +240,20 @@ empty this means they will not have any vertices assigned to those Vertex Groups
 must manually select the vertices and assign them to a particular Vertex Group of your
 choosing to have bones in the armature influence them.
 
-For example, if you have an Armature Object which consists of 3 bones named BoneA,
-BoneB and BoneC and Cube Mesh Object type called Cube. If you parent the Cube Child Object to
-the Armature Parent Object the Cube will get 3 new Vertex Groups created on it called BoneA,
-BoneB and BoneC. Notice that each Vertex Group is empty. (See figure 21).
+For example, if you have an Armature Object which consists of three bones named "BoneA",
+"BoneB" and "BoneC" and Cube Mesh Object type called "Cube". If you parent the Cube Child Object to
+the Armature Parent Object the Cube will get three new Vertex Groups created on it called "BoneA",
+"BoneB" and "BoneC". Notice that each Vertex Group is empty. (See figure 21).
 
 
 .. figure:: /images/editors_3dview_Header-ObjectMenu-Parent-Armature_Deform_With_Empty_Groups-blend.jpg
 
-   Figure 21 - Cube in Edit Mode showing the 3 created Vertex Groups after it was parented
-   using Armature Deform With Empty Groups to an Armature with 3 Bones named BoneA,
+   Figure 21 - Cube in Edit Mode showing the three created Vertex Groups after it was parented
+   using Armature Deform With Empty Groups to an Armature with three Bones named BoneA,
    BoneB and BoneC with the Vertex Group Panel shown. All the Vertex Groups are empty.
 
 
-Bones in an Armature can be generally classified into 2 different types:
+Bones in an Armature can be generally classified into two different types:
 
 - Deforming Bones
 - Control Bones
@@ -351,7 +351,7 @@ Any vertices outside the Bone Envelope volume will not be influenced. (See figur
 
 .. figure:: /images/TO-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform_With_Envelope_Weights.jpg
 
-   Figure 29 - 2 sets of Armatures each with 3 bones,
+   Figure 29 - two sets of Armatures each with three bones,
    the first set has all vertices inside the Bone Envelope, the second did not.
    When the bones are transformed in Pose Mode the results are very different.
 
@@ -390,8 +390,8 @@ See figure 32.
 
 .. figure:: /images/TR-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform_With_Envelope_Weights.jpg
 
-   Figure 32 - 4 Armature Bones all using Envelope Weight.
-   The 1st with a default radius value, the 3 others with differing Tail, Head, and Body radius values.
+   Figure 32 - four Armature Bones all using Envelope Weight.
+   The 1st with a default radius value, the three others with differing Tail, Head, and Body radius values.
 
 
 You can also alter the bone radius by selecting the tail or head of the bone you wish to alter and switching to Edit
@@ -428,7 +428,7 @@ if the specific bone it is the Child Object of moves. (See figure 34).
 
 .. figure:: /images/TU-3DViewEditorHeader-ObjectMenu-Parent-BoneParenting.jpg
 
-   Figure 34 - 3 pictures of Armatures with 4 Bones,
+   Figure 34 - three pictures of Armatures with four Bones,
    with the 2nd bone being the Bone Parent of the Child Object Cube.
    The Cube is only transformed if the 1st or 2nd bones are.
    Notice altering the 3rd and 4th bones has no effect on the Cone.

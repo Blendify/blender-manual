@@ -13,7 +13,7 @@ Make Edge/Face
 
 
 This is a context-sensitive tool which creates geometry by filling in the selection.
-When only 2 vertices are selected it will create an edge, otherwise it will create faces.
+When only two vertices are selected it will create an edge, otherwise it will create faces.
 
 
 The typical use case is to select vertices and press :kbd:`F`,
@@ -136,7 +136,7 @@ Single Vertex Selection
 
 With a single vertex selected on a boundary,
 the face will be created along the boundary,
-this saves manually selecting the other 2 vertices.
+this saves manually selecting the other two vertices.
 Notice this tool can run multiple times to continue creating faces.
 
 .. figure:: /images/Mesh_face_create_boundary.jpg

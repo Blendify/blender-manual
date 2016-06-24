@@ -365,7 +365,7 @@ Bridge Edge Loops
 
 *Bridge Edge Loops* connects multiple edge loops with faces.
 
-Simple example showing 2 closed edge loops.
+Simple example showing two closed edge loops.
 
 .. list-table::
 

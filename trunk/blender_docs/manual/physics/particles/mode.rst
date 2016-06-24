@@ -229,7 +229,7 @@ Cut
 
 Weight
    This is especially useful for softbody animations, because the weight defines the softbody *Goal*.
-   A keypoint with a weight of 1 won't move at all,
+   A keypoint with a weight of 1 will not move at all,
    a keypoint with a weight of 0 subjects fully to softbody animation.
    This value is scaled by the *GMin* - *GMax* range of softbody goals...
 

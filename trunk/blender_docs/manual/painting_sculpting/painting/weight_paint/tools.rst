@@ -244,7 +244,7 @@ This tool only works in vertex select mode.
 
 
 To understand what the tool really does, let us take a look at a simple example.
-The selected vertex is connected to 4 adjacent vertices
+The selected vertex is connected to four adjacent vertices
 (marked with a gray circle in the image). All adjacent vertices are unselected.
 Now the tool calculates the average weight of all connected **and** unselected verts.
 In the example this is:
@@ -271,7 +271,7 @@ then we see different results for each of the selected verts:
 
 - The topmost and bottommost selected verts:
 
-  are surrounded by 3 unselected verts, with an average weight of ``(1 + 0 + 0) / 3 = 0.333``
+  are surrounded by three unselected verts, with an average weight of ``(1 + 0 + 0) / 3 = 0.333``
   So their color has changed to light green.
 
 - The middle vertex:
@@ -281,7 +281,7 @@ then we see different results for each of the selected verts:
 
 - The right vert:
 
-  is surrounded by 3 unselected verts with average weight = ``(0 + 0 + 0) / 3 = 0.0``
+  is surrounded by three unselected verts with average weight = ``(0 + 0 + 0) / 3 = 0.0``
   So the average weight is 0, thus the selected vert color has not changed at all
   (it was already blue before blend was applied).
 
@@ -294,7 +294,7 @@ Finally let us look at a practical example (and explain why this tool is named B
 In this example, the middle edge loop has been selected
 and it will be used for blending the left side to the right side of the area.
 
-- All selected vertices have 2 unselected adjacent verts.
+- All selected vertices have two unselected adjacent verts.
 - The average weight of the unselected verts is (1 + 0) / 2 = 0.5
 - Thus when the Blend Factor is set to 1.0 then the edge loop turns to
   green and finally does blend the cold side (right) to the hot side (left).

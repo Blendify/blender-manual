@@ -23,7 +23,7 @@ and works in one of several view modes. The Marker menu allows you to add marker
 Markers are shared across animation editors. See :doc:`Markers </animation/markers>`
 
 The sequencer workspace is horizontally striped into channels and each video strip will go in
-a horizontal channel. Each channel is numbered on the left-hand side, starting from 0 and going up.
+a horizontal channel. Each channel is numbered on the left-hand side, starting from zero and going up.
 
 .. note::
 

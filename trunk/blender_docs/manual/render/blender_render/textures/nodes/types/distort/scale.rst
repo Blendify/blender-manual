@@ -18,7 +18,7 @@ Inputs
 Color
    Standard image input.
 Scale
-   The amount to scale the coordinates in each of the 3 axes.
+   The amount to scale the coordinates in each of the three axes.
 
 
 Properties

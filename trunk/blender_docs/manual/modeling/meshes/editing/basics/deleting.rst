@@ -68,7 +68,7 @@ Convert Triangles to Quads
 This takes adjacent tris and removes the shared edge to create a quad.
 This tool can be performed on a selection of multiple triangles.
 
-This same action can be done on a selection of just 2 tris,
+This same action can be done on a selection of just two tris,
 by selecting them and using the shortcut :kbd:`F`, to create a face.
 
 

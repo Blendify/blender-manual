@@ -162,9 +162,9 @@ Other attributes are listed below:
 ``geom:trianglevertices``
    3 vertex coordinates of the triangle
 ``geom:numpolyvertices``
-   Number of vertices in the polygon (always returns 3 currently)
+   Number of vertices in the polygon (always returns three currently)
 ``geom:polyvertices``
-   Vertex coordinates array of the polygon (always 3 vertices currently)
+   Vertex coordinates array of the polygon (always three vertices currently)
 ``geom:name``
    Name of the object
 ``geom:is_curve``

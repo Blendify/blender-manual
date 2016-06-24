@@ -28,7 +28,7 @@ Tile order
    viewer node (*Properties* panel in *Properties* sidebar, with the viewer node selected):
 
    Rule of thirds
-      Calculates tiles around each of the 9 zones defined by the *rule of thirds* .
+      Calculates tiles around each of the nine zones defined by the *rule of thirds* .
    Bottom up
       Tiles are calculated from the bottom up.
    Random

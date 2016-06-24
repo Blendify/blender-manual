@@ -89,7 +89,7 @@ Mouse
 Emulate 3 Button Mouse
    Blender can be configured to work with pointing devices which don't have a middle-mouse button
    (such as a two-button mouse, Apple single-button mouse, or laptop touch-pad).
-   The functionality of the 3 mouse buttons will then be emulated with
+   The functionality of the three mouse buttons will then be emulated with
    key/mouse button combinations as shown in the table below.
 
    .. list-table:: Shortcuts for supported mouse hardware
@@ -217,7 +217,7 @@ The Keymap editor lets you change the default Hotkeys. You can change keymaps fo
 
   - Keyboard: Only hotkey or combo hotkey :kbd:`E`, :kbd:`Shift-E`.
   - Mouse: Left/middle/right click. Can be combined with :kbd:`Alt`, :kbd:`Shift`, :kbd:`Ctrl`, :kbd:`Cmd`.
-  - Tweak: Click and drag. Can also be combined with the 4 previous keys.
+  - Tweak: Click and drag. Can also be combined with the four previous keys.
   - Text input: Use this function by entering a text
   - Timer: Used to control actions based on a time period.
     e.g. By default, Animation Step uses Timer 0, Smooth view uses Timer 1.

@@ -22,7 +22,7 @@ Properties
 ==========
 
 Space
-   The input RGB color can be in one of 3 spaces: Tangent, Object and World space.
+   The input RGB color can be in one of three spaces: Tangent, Object and World space.
    Tangent space normal maps are the most common, as they support object transformation and mesh deformations.
    Object space normal maps keep sticking to the surface under object transformations,
    while World normal maps do not.

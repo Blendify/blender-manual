@@ -12,7 +12,7 @@ Changing the order of the constraints can change the behavior of the entire stac
 
 .. figure:: /images/rigging_constraints_intro_stack.png
 
-   The 7 constraints in this example stack are evaluated from top to bottom starting with the "Action" constraint
+   The seven constraints in this example stack are evaluated from top to bottom starting with the "Action" constraint
    and ending with the final "Transformation" constraint. 
 
 To change the order of a constraint use the up/down arrows in the

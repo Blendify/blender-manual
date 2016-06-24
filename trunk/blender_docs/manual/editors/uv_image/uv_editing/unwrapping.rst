@@ -146,17 +146,17 @@ Correct Aspect
    If an image has already been mapped to the texture space that is non-square,
    the projection will take this into account and distort the mapping to appear correct.
 Clip to Bounds
-   Any UVs that lie outside the 0 to 1 range will be clipped to that range
+   Any UVs that lie outside the (0 to 1) range will be clipped to that range
    by being moved to the UV space border it is closest to.
 Scale to Bounds
-   If the UV map is larger than the 0 to 1 range, the entire map will be scaled to fit inside.
+   If the UV map is larger than the (0 to 1) range, the entire map will be scaled to fit inside.
 
 
 Cube
 ----
 
 
-Cube mapping projects s mesh onto six separate planes, creating 6 UV islands.
+Cube mapping projects s mesh onto six separate planes, creating six UV islands.
 In the UV editor, these will appear overlapped, but can be moved.
 See :doc:`Editing UVs </editors/uv_image/uv_editing/layout_editing>`.
 
@@ -409,7 +409,7 @@ the faces selected and their relation to one another,
 and creates a UV map based on this information and settings that you supply.
 
 In the example to the right,
-the Smart Mapper mapped all of the faces of a cube to a neat arrangement of 3 sides on top,
+the Smart Mapper mapped all of the faces of a cube to a neat arrangement of three sides on top,
 3 sides on the bottom, for all six sides of the cube to fit squarely,
 just like the faces of the cube.
 
