@@ -3,7 +3,7 @@
 Converting Sketches to Objects
 ******************************
 
-.. figure:: /images/GreasePencilConvertToCurvePanel.jpg
+.. figure:: /images/interface_gp_convert.png
    :align: right
 
    The Convert to Curve options.
