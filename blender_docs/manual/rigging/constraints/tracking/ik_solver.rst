@@ -1,4 +1,3 @@
-
 ..    TODO/Review: {{review|}}.
 
 ********************
@@ -38,7 +37,7 @@ Chain Length
       Include bone's tail as last element in chain
    Stretch
       Enable IK stretching
-Weight:
+Weight
    Position
       For Tree-IK: Weight of position control for this target
    Rotation

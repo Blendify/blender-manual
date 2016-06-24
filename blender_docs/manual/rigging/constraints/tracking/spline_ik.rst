@@ -39,7 +39,7 @@ Spline Fitting:
    Chain Offset
       Offset the entire chain relative to the root joint
 
-Chain Scaling:
+Chain Scaling
    Y stretch
       Stretch the Y axis of the bones to fit the curve
    XZ Scale Mode:

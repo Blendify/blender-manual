@@ -1,5 +1,4 @@
-
-..    TODO/Review: {{review|im=examples}} .
+..    TODO/Review: {{review|im=examples}}.
 
 *********************
 Stretch To Constraint
@@ -25,27 +24,25 @@ With bones, the "volumetric" variation scales them along their own local axes
 Options
 =======
 
-.. figure:: /images/Constraints-Tracking-StretchTo.jpg
-   :width: 250px
-
-   Stretch To panel for a Mesh Object.
-
-
 Target (Mesh Object Type)
    This constraint uses one target, and is not functional (red state) when it has none.
+
+   .. figure:: /images/Constraints-Tracking-StretchTo.jpg
+      :width: 250px
+
+      Stretch To panel for a Mesh Object.
 
    Vertex Group
       When *Target* is a mesh, a new field is display where a vertex group can be selected.
 
-
-.. figure:: /images/Constraints-Tracking-StretchTo-Armature.jpg
-   :width: 250px
-
-   Stretch To panel for a Armature Object.
-
-
 Target (Armature Object Type)
    This constraint uses one target, and is not functional (red state) when it has none.
+
+   .. figure:: /images/Constraints-Tracking-StretchTo-Armature.jpg
+      :width: 250px
+
+      Stretch To panel for a Armature Object.
+
 
    Bone
       When *Target* is an armature, a new field for a bone is displayed.

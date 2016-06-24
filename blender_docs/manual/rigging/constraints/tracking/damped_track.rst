@@ -1,4 +1,3 @@
-
 ..    TODO/Review: {{review|im=examples}}.
 
 ***********************
@@ -25,14 +24,7 @@ Target (Mesh Object Type)
       If *Target* is a *Mesh*,
       a new field is displayed offering the optional choice to set a *Vertex Group* as target.
 
-
-.. figure:: /images/editors_properties_constraints-damped-track-armature.jpg
-   :width: 304px
-
-   Damped Track for Bones.
-
-
-Target (Armature Object Type):
+Target (Armature Object Type)
    Bone
       If *Target* is an *Armature*,
       a new field is displayed offering the optional choice to set an individual bone as *Target*.
@@ -43,6 +35,12 @@ Target (Armature Object Type):
       It is a slider value field which can have a value between 0 and 1.
       A value of 0 will point the Target at the Head/Root of a Bone while a value of 1 will
       point the Target at the Tail/Tip of a Bone.
+
+   .. figure:: /images/editors_properties_constraints-damped-track-armature.jpg
+      :width: 304px
+
+      Damped Track for Bones.
+
 
 To
    Once the owner object has had a Damped Track constraint applied to it,
