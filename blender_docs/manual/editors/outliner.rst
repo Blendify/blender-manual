@@ -43,12 +43,6 @@ Single selection does not require any pre-selection: just work directly with :kb
 When you select an object in the list this way,
 it is selected and becomes the active object in all other 3D Views.
 
-.. tip::
-
-   Use this feature to find objects in your 3D View, select them in the *Outliner*,
-   then zoom to them with :menuselection:`View --> Show Active` or :kbd:`NumpadPeriod`.
-
-
 Activating a data-block
    To "activate" the data-block with :kbd:`LMB` on the *icon* of the data-block.
    Activating the data-block will automatically switch to the relevant mode.
