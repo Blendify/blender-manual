@@ -50,7 +50,7 @@ Facing:
     Set a game object axis that always faces the Target Object.
 Axis
     The game object axis that always faces the Target Object.
-    Options are: Positive (X, Y, Z) and Negative (-X, -Y, -Z).
+    Options are: Positive (X, Y, Z) and Negative (−X, −Y, −Z).
 Axis N
     Use the Normal of the Navigation Mesh to align the up vector of the game object.
 

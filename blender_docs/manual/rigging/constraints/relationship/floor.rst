@@ -46,13 +46,13 @@ Offset
 
 Max / Min
    This set of (mutually exclusive) buttons controls which plane will be the "floor".
-   The buttons' names correspond indeed to the *normal* to this plane (e.g. enabling *Z* means "XY plane", etc.)
+   The buttons' names correspond indeed to the *normal* to this plane (e.g. enabling Z means "XY plane", etc.)
    By default, these normals are aligned with the *global* axes.
    However, if you enable *Use Rotation* (see above), they will be aligned with the *local target's axes*.
    As the constraint does not only define an uncrossable plane,
    but also a side of it which is forbidden to the owner,
    you can choose which side by enabling either the positive or negative normal axis...
-   e.g. by default *Z*, the owner is stuck in the positive Z coordinates.
+   e.g. by default Z, the owner is stuck in the positive Z coordinates.
 
 Space
    This constraint allows you to choose in which space to evaluate its owner's and target's transform properties.

@@ -132,7 +132,7 @@ Deleting vertex Groups
 
 You delete a Vertex Group by first making it the active group
 (select it in the panel) and then :kbd:`LMB`
-the *-* button at the right Panel border.
+the *−* button at the right Panel border.
 
 Deleting a Vertex Group only deletes the vertex assignments to the Group.
 The vertices themselves are not deleted.

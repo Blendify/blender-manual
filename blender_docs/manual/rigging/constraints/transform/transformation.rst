@@ -74,7 +74,7 @@ Extrapolate
    - Conversely, when mapping transform properties to rotation or scale,
      the owner's existing rotation or scale is overridden by the result of evaluating this constraint.
    - When using the rotation transform properties of the target as input,
-     whatever the real values are, the constraint will always "take them back" into the (-180 to 180) range
+     whatever the real values are, the constraint will always "take them back" into the (−180 to 180) range
      (e.g. if the target has a rotation of 420 degrees around its X-Axis,
      the values used as *X* input by the constraint will be 
 
@@ -91,7 +91,7 @@ Source
    It contains the input (from target) settings.
    The three *Loc*, *Rot* and *Scale* toggle buttons, mutually exclusive,
    allow you to select which type of property to use.
-   The *X:*, *Y:* and *Z:* *min* and *max* numeric fields control the lower and upper bounds of
+   The *X*, *Y* and *Z* *min* and *max* numeric fields control the lower and upper bounds of
    the input value range, independently for each axis.
    Note that if a min value is higher than its corresponding max value,
    the constraint behaves as if it had the same value as the max one.

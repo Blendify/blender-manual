@@ -33,7 +33,7 @@ to make it control the size of the "curved" object...).
    The *Curve Deform* relationship is now also a modifier, called :doc:`Curve </modeling/modifiers/deform/curve>`.
    The *Curve* modifier function acts the same as its counterpart,
    except that when the modifier is used, the "dominant axis" is set inside its properties -
-   and the *Track X*, *Y*, *Z* buttons no longer have an effect on it.
+   and the *Track* X, Y, Z buttons no longer have an effect on it.
    And you have some goodies, like the possibility, if "curving" a mesh, to only curve one of its vertex groups...
 
 
@@ -57,8 +57,8 @@ By selecting *Curve Deform*, you enable the curve deform function on the mesh ob
 
 The dominant axis setting is set on the mesh object.
 By default the dominant axis in Blender is the Y Axis.
-This can be changed by selecting one of the *Track X*,
-*Y* or *Z* buttons in the *Animation* Panel,
+This can be changed by selecting one of the 
+*Track* X, Y or Z buttons in the *Animation* Panel,
 (*Animation settings panel*), in Object tab.
 
 Cyclic (or closed)
@@ -103,7 +103,7 @@ Let us make a simple example:
   - Select the Monkey :kbd:`RMB`.
   - In the *Object Modifiers* properties, *Modifiers* panel, add a *Curve* modifier.
   - Type the name of the curve (should be "Curve") in the *Ob* field of the modifier,
-    and optionally change the dominant axis to *Y*.
+    and optionally change the dominant axis to Y.
 - Or you can choose the old, deprecated method (note that it creates a "virtual" modifier...):
 
   - Select the Monkey :kbd:`RMB`, and then shift select the curve :kbd:`Shift-RMB`.

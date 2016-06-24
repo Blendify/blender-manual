@@ -29,8 +29,9 @@ Vertex Group
    A vertex group name within the deformed object. The modifier will only affect vertices assigned to this group.
 
 Deformation Axis
-   *X*, *Y*, *Z*, *-X*, *-Y*, *-Z*:
    This is the axis that the curve deforms along.
+
+   X, Y, Z, −X, −Y, −Z
 
 
 Example

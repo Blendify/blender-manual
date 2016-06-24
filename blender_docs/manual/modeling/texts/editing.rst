@@ -71,8 +71,8 @@ Adding/Deleting a Frame
 
 To add a frame click the *Add Textbox* button on the *Text Boxes* panel.
 A new frame is inserted just after (in text flow order) the current one, with its attributes
-(position and size). Be sure to modify the offset for the new frame in the *X*
-and/or *Y* fields. Just an *X* modification will create a new column.
+(position and size). Be sure to modify the offset for the new frame in the X
+and/or Y fields. Just an X modification will create a new column.
 
 To delete the current frame, click the :kbd:`Delete` button.
 Any text in higher frames will be re-flowed downward into lower frames.
@@ -120,7 +120,7 @@ Example: Multiple columns
 
 To create two columns of text just create a text object and adjust the initial frame's
 *Width* and *Height* to your requirements, then insert a new frame.
-The new frame will have the same size as the initial frame. Set the *X* position to
+The new frame will have the same size as the initial frame. Set the X position to
 something greater or less than the width of the initial frame; see Fig. Text 5.
 
 
