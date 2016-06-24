@@ -3,7 +3,8 @@
 Outliner
 ********
 
-.. figure:: /images/Outliner-editor.jpg
+.. figure:: /images/editors_outliner_example.png
+   :align: right
 
    The Outliner editor.
 
@@ -155,7 +156,7 @@ The editors header has a field to let you select what the outliner should show t
 list of objects so that you can find things quickly and easily.
 
 All Scenes
-   Shows *everything* the outliner can display (in all scenes, all layers, etc.)
+   Shows *everything* the *Outliner* can display (in all scenes, all layers, etc.)
 Current Scene
    Shows everything in the current scene.
 Visible Layers
@@ -171,13 +172,16 @@ Same Types
    Lists only those objects in the current scene that are of the same types as those selected in the 3D View.
 Groups
    Lists only :doc:`Groups </editors/3dview/object/relationships/groups>` and their members.
-Libraries
-   TODO
 Sequence
-   TODO
-Data Blocks
-   TODO
+   Lists :doc:`data-block </data_system/data_blocks>`
+   that are used by the :doc:`Sequencer </editors/sequencer/index>`.
+Blender File
+   Lists all data in the current blend-file.
+Data-Blocks
+   Lists every :doc:`data-block </data_system/data_blocks>` along with any properties that they might have.
 User Preferences
-   TODO
-Key Maps
-   TODO
+   Lists options that can be found in the :doc:`User Preferences </preferences/index>`
+   along with some other settings.
+Orphan Data
+   Lists :doc:`data-blocks </data_system/data_blocks>`
+   which are unused and/or will be lost when the file is reloaded.
