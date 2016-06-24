@@ -291,7 +291,7 @@ it is sometimes not easy to paint on all vertices in Weight Paint Mode.
 Suppose you only want to paint on a small area of the Mesh and keep the rest untouched.
 This is where *selection masking* comes into play. When this mode is enabled,
 a brush will only paint on the selected verts or faces.
-The option is available from the footer menu bar of the 3D viewport
+The option is available from the footer menu bar of the 3D Viewport
 (see icons surrounded by the yellow frame):
 
 .. figure:: /images/Modeling-Meshes-weight-paint-select.jpg

@@ -46,7 +46,7 @@ There are four basic views for the Dopesheet.These all view different contexts o
    .. note::
 
       Note that you will have as much top-level grease pencil channels as you have sketched windows
-      (3D views, *UV/Image Editor*, etc.)
+      (3D Views, *UV/Image Editor*, etc.)
 
 
 Interface

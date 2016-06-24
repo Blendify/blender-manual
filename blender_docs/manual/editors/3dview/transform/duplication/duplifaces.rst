@@ -48,7 +48,7 @@ enable *Faces*. The sphere is duplicated one for each face of the cube.
    If the cube is subdivided (in *Edit Mode* :kbd:`W`), every child will be duplicated for each face on the cube.
 
 
-Both the parent object and original are displayed as editable "templates" in 3D view,
+Both the parent object and original are displayed as editable "templates" in 3D View,
 but neither is rendered.
 
 

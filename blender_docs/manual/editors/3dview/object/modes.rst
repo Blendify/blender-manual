@@ -70,7 +70,7 @@ Modes might affect many things in Blender:
           :width: 35px
      - *Texture Paint Mode*
      - *None* [1]_
-     - A mesh-only mode, that allows you to paint your mesh's texture directly on the model, in the 3D views.
+     - A mesh-only mode, that allows you to paint your mesh's texture directly on the model, in the 3D Views.
    * - .. figure:: /images/icons_weight-paint.png
           :width: 35px
      - *Weight Paint Mode*

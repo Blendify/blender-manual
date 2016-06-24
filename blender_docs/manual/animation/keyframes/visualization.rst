@@ -4,10 +4,10 @@
 Visualization
 *************
 
-There are some important visualization features in the 3D views that can help animation.
+There are some important visualization features in the 3D Views that can help animation.
 
 When the current frame is a keyframe for the current active object, the name of this object
-(shown in the bottom left corner of the 3D views) turns yellow.
+(shown in the bottom left corner of the 3D Views) turns yellow.
 
 
 .. figure:: /images/animation_keyframes_visualization.png
@@ -89,7 +89,7 @@ Display Range
    Step
       This is the same thing as the *GStep* for ghosts -
       it allows you the only materialize on the path one frame each *n* ones.
-      Mostly useful when you enable the frame number display (see below), to avoid cluttering the 3D views.
+      Mostly useful when you enable the frame number display (see below), to avoid cluttering the 3D Views.
 
 Frame Numbers
    When enabled, a small number appears next to each frame dot on the path,

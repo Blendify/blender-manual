@@ -11,7 +11,7 @@ Navigating
 Panning can be done by clicking the :kbd:`MMB` and dragging.
 
 Zooming can be done by scrolling :kbd:`MMB` up or down.
-Also, as in the 3D view, you can use :kbd:`NumpadPlus` or :kbd:`NumpadMinus` to zoom.
+Also, as in the 3D View, you can use :kbd:`NumpadPlus` or :kbd:`NumpadMinus` to zoom.
 
 The following shortcuts are available, and through the *View Menu*:
 

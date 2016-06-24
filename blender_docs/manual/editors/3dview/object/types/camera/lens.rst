@@ -70,7 +70,7 @@ Orthographic Scale
 
    Note that this is effectively the only setting which applies to orthographic perspective.
    Since parallel lines do not converge in orthographic mode (no vanishing points),
-   the lens shift settings are equivalent to translating the camera in the 3D view.
+   the lens shift settings are equivalent to translating the camera in the 3D View.
 
 
 Panoramic

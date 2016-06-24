@@ -81,7 +81,7 @@ Editing Text
 
 
 Editing text is quite different from other object types in Blender, and happens mainly in two areas.
-First, the 3D view, of course, where you type your text, and have a few shortcuts, e.g. for applying
+First, the 3D View, of course, where you type your text, and have a few shortcuts, e.g. for applying
 styles (see `Character`_) - note however that most Blender hotkeys you know in *Edit Mode*
 do not exist for texts! The second place is the Properties Editor, especially the *Font* tab.
 

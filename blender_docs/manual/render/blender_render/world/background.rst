@@ -15,7 +15,7 @@ but a very common use of a *World* is to shade a background color.
 
 .. note:: Background Image in 3D
 
-   To use an image as a background image in your 3D view,
+   To use an image as a background image in your 3D View,
    for example as a reference when doing a model,
    see :doc:`using a Background Image </editors/3dview/display/background_images>`
 

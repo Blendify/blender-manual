@@ -21,7 +21,7 @@ you can use the search function at the bottom of the list (pictured right).
 
 .. rubric:: Default Screens available
 
-:3D View Full: A full screen 3D view, used to preview your scene.
+:3D View Full: A full screen 3D View, used to preview your scene.
 :Animation: Making actors and other objects move about, change shape or color, etc.
 :Compositing: Combining different parts of a scene
   (e.g. background, actors, special effects) and filter them (e.g. color correction).

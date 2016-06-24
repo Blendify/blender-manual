@@ -161,7 +161,7 @@ Menu Selection
 ==============
 
 The selection methods described above are the most common.
-There are also many more options accessible through the *Select* menu of the 3D view.
+There are also many more options accessible through the *Select* menu of the 3D View.
 
 Each is more adapted to certain operations.
 

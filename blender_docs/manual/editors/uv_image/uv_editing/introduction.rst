@@ -40,7 +40,7 @@ Image Selector Menu
 Pin Image
    Displays current image regardless of selected object.
 Pivot Point Selector
-   Similar to working with Pivot Points in the 3D view.
+   Similar to working with Pivot Points in the 3D View.
 Sync Selection
    Keeps UV and Mesh component selections in sync.
 Selection Modes:

@@ -85,7 +85,7 @@ simulations only interact with objects on a shared layer. In this example,
 both objects share layer 2.
 
 To view/change an object's layers,
-:kbd:`RMB` click to select the object in *Object Mode* in the 3D view.
+:kbd:`RMB` click to select the object in *Object Mode* in the 3D View.
 :kbd:`M` to bring up the "Move Layers" pop-up,
 which shows you all the layers that the object is on. To put the object on a single layer,
 :kbd:`LMB` click the layer button. To put the object on multiple layers,

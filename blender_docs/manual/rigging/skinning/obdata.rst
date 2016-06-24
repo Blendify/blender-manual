@@ -38,7 +38,7 @@ there is an "old parenting" method and a new, more flexible and powerful one,
 based on modifiers - which allows creation of very complex setups, with objects deformed by several armatures.
 
 For meshes and lattices *only*,
-you can use the :kbd:`Ctrl-P` parent shortcut in the 3D views
+you can use the :kbd:`Ctrl-P` parent shortcut in the 3D Views
 (after having selected first the "skin" object, then the armature).
 The *Make Parent To* menu pops up, select the *Armature* entry.
 If the skinning object is a lattice, you are done; no more options are available.

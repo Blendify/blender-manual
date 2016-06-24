@@ -50,7 +50,7 @@ As previously noted,
 bones' transformations are performed based on the *rest position* of the armature,
 which is its state as defined in *Edit Mode*. This means that in rest position,
 in *Pose Mode*, each bone has a scale of 1.0, and null rotation and position
-(as you can see it in the *Transform Properties* panel, in the 3D views,
+(as you can see it in the *Transform Properties* panel, in the 3D Views,
 :kbd:`N`).
 
 
@@ -163,7 +163,7 @@ Copy/Paste Pose
 
 
 Blender allows you to copy and paste a pose, either through the *Pose* menu, or
-directly using the three "copy/paste" buttons found at the right part of the 3D views header:
+directly using the three "copy/paste" buttons found at the right part of the 3D Views header:
 
 :menuselection:`Pose --> Copy Current Pose`
    to copy the current pose of selected bones into the pose buffer.

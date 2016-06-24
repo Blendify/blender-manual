@@ -27,7 +27,7 @@ together with the appropriate options for game setup/debug/running
 .. rubric:: 1) Game Logic
 
 Selected from the list of screen layouts for various applications.
-This includes many already-familiar panels Information, 3D view,
+This includes many already-familiar panels Information, 3D View,
 Properties but also a new Logic Editor panel concerned solely with the BGE.
 
 

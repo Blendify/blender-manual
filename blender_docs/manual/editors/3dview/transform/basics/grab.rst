@@ -13,7 +13,7 @@ Grab/Move
 
 
 In Object Mode, the grab/move option lets you translate (move) objects.
-It also lets you translate any elements that make up the object within the 3D space of the active 3D viewport.
+It also lets you translate any elements that make up the object within the 3D space of the active 3D Viewport.
 Grab/Move works similarly here as it does
 in the Node Editor, Graph Editor, UV Editor, Sequencer, etc.
 
@@ -42,7 +42,7 @@ Transform Widget
 
 
 In the default installation of Blender, this is the *Transform Widget*.
-It is active by default. You can use the widget by holding :kbd:`LMB` over it and dragging in the 3D view.
+It is active by default. You can use the widget by holding :kbd:`LMB` over it and dragging in the 3D View.
 
 
 Shortcuts

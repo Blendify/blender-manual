@@ -47,7 +47,7 @@ Selecting Elements in a Region
    | Hotkey:   :kbd:`B`, :kbd:`C`, and :kbd:`Ctrl-LMB` click and drag
 
 
-Region selection allows you to select groups of elements within a 2D region in your 3D view.
+Region selection allows you to select groups of elements within a 2D region in your 3D View.
 The region can be either a circle or rectangle.
 The circular region is only available in *Edit Mode*. The rectangular region,
 or *Border Select, is available in both *Edit Mode* and *Object Mode*.
@@ -56,7 +56,7 @@ or *Border Select, is available in both *Edit Mode* and *Object Mode*.
 .. note::
 
    What is selected using both these tools is affected by the *Limit Selection to visible* feature
-   (available under the 3D viewport) in *Solid Viewport Shading Mode*.
+   (available under the 3D Viewport) in *Solid Viewport Shading Mode*.
 
    For example,
 

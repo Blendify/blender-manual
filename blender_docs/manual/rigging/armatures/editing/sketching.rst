@@ -14,7 +14,7 @@ some Blender developers had the same feeling, and created the Skeleton Sketching
 formerly the Etch-a-ton tool, which basically allows you to "draw" (sketch)
 whole chains of bones at once.
 
-Skeleton Sketching is obviously only available in *Edit Mode*, in the 3D views. 
+Skeleton Sketching is obviously only available in *Edit Mode*, in the 3D Views. 
 You control it through its *Skeleton Sketching* panel 
 in the *Transform panel*, which you can open with :kbd:`N`. 
 Use the mouse :kbd:`LMB` to draw strokes, and :kbd:`RMB` for gestures. 

@@ -15,7 +15,7 @@ The first panel of canvas contains the list of Dynamic Paint surfaces.
 These surfaces are basically layers of paint, that work independently from each other.
 You can define individual settings for them and bake them separately.
 
-If surface type/format allows previewing results in 3D-viewport,
+If surface type/format allows previewing results in 3D View,
 an eye icon is visible to toggle preview.
 
 The checkbox toggles whether surface is active at all. If not selected,
@@ -23,12 +23,10 @@ no calculations or previews are done.
 
 You can also give each surface an unique name to easily identify them.
 
-
 Below you can set surface type and adjust quality and timing settings.
 
 Each surface has a certain format and type.
 Format determines how data is stored and outputted. Currently there are two formats available:
-
 
 - Image Sequences. Dynamic Paint generates UV wrapped image files of defined resolution as output.
 - Vertex. Dynamic Paint operates directly on mesh vertex data.
@@ -100,7 +98,6 @@ Displace
 
 This type of surface outputs intersection depth from brush objects.
 
-
 .. tip::
 
    If the displace output seems too rough it usually helps to add a "Smooth"
@@ -139,7 +136,6 @@ Damping
 Spring
    Adjusts the force that pulls water back to "zero level".
 
-
 .. tip::
 
    In some cases the wave motion gets very unstable around brush.
@@ -157,7 +153,6 @@ Weight
 
 This is a special surface type only available for vertex format.
 It outputs vertex weight groups that can be used by other Blender modifiers and tools.
-
 
 .. tip::
 
@@ -219,4 +214,3 @@ Cache Panel
 
 This panel is currently only visible for "vertex" format surfaces.
 You can use it to adjust and bake point cache.
-

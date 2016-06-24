@@ -23,7 +23,7 @@ In Object Mode
 
 The Origin of an object is shown in the 3D View by a small orange circle.
 This is highlighted in the image to the right by the red arrow.
-The origin tells Blender the relative position of that object in 3D space. What you see in the 3D view
+The origin tells Blender the relative position of that object in 3D space. What you see in the 3D View
 (vertices, edges etc) is what makes up the object.
 
 While the Origin is equivalent to the center of the object,

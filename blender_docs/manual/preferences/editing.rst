@@ -77,7 +77,7 @@ Memory Limit
 Grease Pencil
 =============
 
-:doc:`Grease Pencil </interface/grease_pencil/index>` permits you to draw in the 3D viewport with a pencil-like tool.
+:doc:`Grease Pencil </interface/grease_pencil/index>` permits you to draw in the 3D Viewport with a pencil-like tool.
 
 Manhattan Distance
    The minimum number of pixels the mouse has to move horizontally or vertically before the movement is recorded.

@@ -105,7 +105,7 @@ bpy.context
 -----------
 
 Note
-   For the commands below to show the proper output, make sure you have selected object(s) in the 3D view.
+   For the commands below to show the proper output, make sure you have selected object(s) in the 3D View.
 
 
 .. figure:: /images/Extensions-Python-Console-Example-bpy-context.jpg
