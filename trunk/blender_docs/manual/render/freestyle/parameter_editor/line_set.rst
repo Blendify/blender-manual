@@ -44,7 +44,7 @@ Start and End
    :width: 600px
 
    QI Range proof of concept demo, Start: 3, End: 7, by LightBWK
-   (`Sample blend-fiel <https://wiki.blender.org/index.php/File:QI-Range.zip>`__)
+   (`Sample blend-file <https://wiki.blender.org/index.php/File:QI-Range.zip>`__)
 
 
 Selection by Edge Types
