@@ -115,7 +115,7 @@ you cannot see these segments in *Object Mode*, because they're aligned.
 
 
 When you connect bones to form a :ref:`chain <armature-bone_chain>`,
-Blender calculates a Bezier curve passing through all the bones' ends,
+Blender calculates a Bézier curve passing through all the bones' ends,
 and bones' segments in the chain will bend and roll to follow this invisible curve.
 
 There is no direct access to the curve.
@@ -129,7 +129,7 @@ Look at Fig. The same armature in Object Mode: now, in *Object Mode*,
 we can see how the bones' segments smoothly "blend" into each other, even for roll.
 
 Of course,
-a geometry influenced by the chain is smoothly deformed according to the Bezier curve!
+a geometry influenced by the chain is smoothly deformed according to the Bézier curve!
 In fact,
 smooth bones are an easy way to replace long chains of many small rigid bones posed using IK...
 

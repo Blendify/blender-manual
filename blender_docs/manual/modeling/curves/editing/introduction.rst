@@ -26,7 +26,7 @@ When in Edit Mode, the Properties Shelf :kbd:`N` contains options in the
 *Curve Display* panel for how curves are displayed in the 3D View.
 
 Handles
-   Toggles the display of Bezier handles while in edit mode. This does not affect the appearance of the curve itself.
+   Toggles the display of Bézier handles while in edit mode. This does not affect the appearance of the curve itself.
 Normals
    Toggles the display of Curve Normals.
 Normal Size

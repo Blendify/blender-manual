@@ -56,7 +56,7 @@ Uncheck *Stretch to input strip length* and uncheck *Use as speed*.
 You now have a Frame number field which you can keyframe.
 If you want the strip to animate **at all** you will have to insert some keyframes,
 otherwise it will look like a still. In most cases you will want to use the Graph editor view
-to set the curve interpolation to Linear since the default Bezier will rarely be what you
+to set the curve interpolation to Linear since the default Bézier will rarely be what you
 want.
 
 If you do choose to keyframe the Speed factor instead, remember to click the Refresh Sequencer

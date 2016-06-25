@@ -32,7 +32,7 @@ which will then keep updating the compositing result while editing.
 S-Curves
 --------
 
-The curve type used for creating mask splines is almost a Bezier curve, but with some differences.
+The curve type used for creating mask splines is almost a Bézier curve, but with some differences.
 The curve needed to support feathering in a way that stuck to the curve as you edited it,
 for ease of editing an animation. These are called S-Curves.
 
@@ -54,7 +54,7 @@ and the overall shape will be almost the same as artists would want it to be.
 Control Points
 --------------
 
-Editing of mask splines happens in a way similar to editing bezier curves or paths in GIMP or other curve editors:
+Editing of mask splines happens in a way similar to editing Bézier curves or paths in GIMP or other curve editors:
 control points are added to define the spline itself, and handles of different types are used to create smooth bends.
 This makes it possible to define a mask with few points to easily follow an object in footage.
 

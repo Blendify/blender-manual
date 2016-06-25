@@ -5,19 +5,19 @@ Introduction
 
 .. figure:: /images/LogoFinal.jpg
 
-   Bird logo made from Bezier curves.
+   Bird logo made from Bézier curves.
 
 
 Curves and :doc:`Surfaces </modeling/surfaces/introduction>` are particular types of Blender Objects.
 They are expressed by mathematical functions rather than a series of points.
 
 Blender offers both `Bezier Curves`_ and `Non-Uniform Rational B-Splines (NURBS)`_.
-Both Bezier curves and NURBS curves and surfaces are defined in terms of a set of "control points"
+Both Bézier curves and NURBS curves and surfaces are defined in terms of a set of "control points"
 (or "control vertices") which define a "control polygon".
 
-Both bezier and NURBs curves are named after their mathematical definitions, and choosing between them
+Both Bézier and NURBs curves are named after their mathematical definitions, and choosing between them
 is often more a matter of how they are computed behind the scenes than how they appear from a modeler's
-perspective. Bezier curves are generally more intuitive because they start and end at the
+perspective. Bézier curves are generally more intuitive because they start and end at the
 control points that you set,
 but NURBs curves are more efficient for the computer to calculate when there are many twists and turns in a curve.
 
@@ -31,7 +31,7 @@ are possible only using curves. On the other hand, when using curves,
 vertex-level control is more difficult and if fine control is necessary,
 :doc:`mesh editing </modeling/meshes/editing/introduction>` may be a better modeling option.
 
-Bezier curves are the most commonly used curves for designing letters or logos.
+Bézier curves are the most commonly used curves for designing letters or logos.
 They are also widely used in animation, both as :doc:`paths </animation/object_path>`
 for objects to move along and as :doc:`F-curves </editors/graph_editor/fcurves>`
 to change the properties of objects as a function of time.
@@ -48,10 +48,10 @@ Curve Primitives
 In Object Mode, the *Add Curve* menu,
 Blender provides five different curve primitives:
 
-Bezier Curve
-   Adds an open 2D Bezier curve with two control points.
-Bezier Circle
-   Adds a closed, circle-shaped 2D Bezier curve (made of four control points).
+Bézier Curve
+   Adds an open 2D Bézier curve with two control points.
+Bézier Circle
+   Adds a closed, circle-shaped 2D Bézier curve (made of four control points).
 NURBS Curve
    Adds an open 2D NURBS curve, with four control points, with *Uniform* knots.
 NURBS Circle
@@ -63,10 +63,10 @@ Path
 
 .. _curves_bezier:
 
-Bezier Curves
+Bézier Curves
 =============
 
-The main elements used in editing Bezier Curves are the Control Points and Handles. A Segment
+The main elements used in editing Bézier Curves are the Control Points and Handles. A Segment
 (the actual Curve) is found between two Control Points. In the image below, the Control Points
 can be found in the middle of the pink line while the Handles comprise the extensions from the
 Control Point. By default the arrows on the Segment represents the direction and
@@ -76,15 +76,15 @@ This can be altered by defining a custom F-Curve.
 
 .. figure:: /images/Modeling_Curves_control-points-handles.jpg
 
-   Bezier Curve in Edit Mode.
+   Bézier Curve in Edit Mode.
 
 
-Editing Bezier Curves
+Editing Bézier Curves
 ---------------------
 
-A Bezier curve can be edited by moving the locations of the Control Points and Handles.
+A Bézier curve can be edited by moving the locations of the Control Points and Handles.
 
-- Add a Curve by :kbd:`Shift-A` to bring up the *Add* menu, followed by :menuselection:`Curve --> Bezier`.
+- Add a Curve by :kbd:`Shift-A` to bring up the *Add* menu, followed by :menuselection:`Curve --> Bézier`.
 - Press :kbd:`Tab` to enter *Edit Mode*.
 - Select one of the Control Points and move it around.
   Use :kbd:`LMB` to confirm the new location of the Control Point, or use :kbd:`RMB` to cancel.
@@ -99,13 +99,13 @@ To add more Control Points
 Note that while in *Edit Mode* you cannot directly select a Segment. To do so,
 select all of the Control Points that make up the Segment you want to move.
 
-There are four Bezier curve handle types.
+There are four Bézier curve handle types.
 They can be accessed by pressing :kbd:`V` and selecting from the list that appears,
 or by pressing the appropriate hotkey combination. Handles can be rotated, moved,
 scaled and shrunk/fattened like any vertex in a mesh.
 
 
-Bezier Curve Handle Types
+Bézier Curve Handle Types
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. _curve-handle_type-auto:
@@ -246,18 +246,18 @@ Taper Object
 
    .. figure:: /images/Modeling_Curves_geometry-taper.jpg
 
-      A Curve before (left) and after (right) a Bezier Curve Taper Object was applied.
+      A Curve before (left) and after (right) a Bézier Curve Taper Object was applied.
 
 Bevel Object
-   Beveling a Bezier Curve with a Bezier Curve as the Bevel Object generally gives it the appearance of a plane,
-   while using a Bezier Circle as the Bevel Object will give it the appearance of a cylinder.
+   Beveling a Bézier Curve with a Bézier Curve as the Bevel Object generally gives it the appearance of a plane,
+   while using a Bézier Circle as the Bevel Object will give it the appearance of a cylinder.
    The Bevel Object can only be another Curve.
    Editing the Handles and Control Points of the Bevel Object will cause the original Object to change shape.
    Given the options available, it is best to experiment and see the results of this operation.
 
    .. figure:: /images/Modeling_Curves_geometry-bevel.jpg
 
-      A Curve with the Bevel Object as a Bezier Curve (left) and as a Bezier Circle (right).
+      A Curve with the Bevel Object as a Bézier Curve (left) and as a Bézier Circle (right).
 
 Fill Caps
    Seals the ends of a beveled Curve.
@@ -321,12 +321,12 @@ Interpolation
 Non-Uniform Rational B-Splines (NURBS)
 ======================================
 
-One of the major differences between Bezier Objects and NURBS Objects is that Bezier Curves
-are approximations. For example, a Bezier circle is an *approximation* of a circle,
+One of the major differences between Bézier Objects and NURBS Objects is that Bézier Curves
+are approximations. For example, a Bézier circle is an *approximation* of a circle,
 whereas a NURBS circle is an *exact* circle.
 NURBS theory can be a *very* complicated topic. For an introduction,
 please consult the `Wikipedia page. <https://en.wikipedia.org/wiki/NURBS>`__ In practice,
-many of the Bezier curve operations discussed above apply to NURBS curves in the same manner.
+many of the Bézier curve operations discussed above apply to NURBS curves in the same manner.
 The following text will concentrate only on those aspects that are unique to NURBS curves.
 
 
@@ -356,8 +356,8 @@ Knots
    One of the characteristics of a NURBS object is the *knot vector*. This is a sequence of
    numbers used to determine the influence of the control points on the curve.
    While you cannot edit the knot vectors directly, you can influence them through the
-   *Endpoint* and *Bezier* options in the Active Spline panel. Note that the
-   *Endpoint* and *Bezier* settings only apply to open NURBS curves.
+   *Endpoint* and *Bézier* options in the Active Spline panel. Note that the
+   *Endpoint* and *Bézier* settings only apply to open NURBS curves.
 
    Cyclic
       Makes the NURBS curve cyclic.
@@ -366,8 +366,8 @@ Knots
 
          A NURBS curve with Cyclic applied.
 
-   Bezier
-      Makes the NURBS curve act like a Bezier curve.
+   Bézier
+      Makes the NURBS curve act like a Bézier curve.
    Endpoint
       Makes the curve contact the end control points. Cyclic must be disabled for this option to work.
 

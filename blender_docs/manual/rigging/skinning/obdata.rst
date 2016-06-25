@@ -226,7 +226,7 @@ Radius
 Curved Bone
 -----------
 
-*Curved Bones* (previously known as B-bones) allow you make bones act like Bezier curve segments,
+*Curved Bones* (previously known as B-bones) allow you make bones act like Bézier curve segments,
 which results in smoother deformations for longer bones.
 
 .. seealso::
