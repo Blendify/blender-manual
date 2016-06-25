@@ -105,24 +105,24 @@ Backbone Length
    Length to add to the strokes' ends.
 
 
-Bezier Curve
+Bézier Curve
 ------------
 
 .. figure:: /images/render-freestyle-Line_Style_Geometry_Bezier_Curve.jpg
    :width: 300px
    :align: right
 
-The *Bezier Curve* modifier replaces the stroke by a Bezier approximation of it.
+The *Bézier Curve* modifier replaces the stroke by a Bézier approximation of it.
 
 Error
-   The maximum distance allowed between the new Bezier curve and the original stroke.
+   The maximum distance allowed between the new Bézier curve and the original stroke.
 
 
 .. figure:: /images/toycar_bezier.jpg
    :width: 400px
    :align: center
 
-   Bezier Curve modifier demo by T.K.
+   Bézier Curve modifier demo by T.K.
    `File:toycar_bezier.zip <https://wiki.blender.org/index.php/File:toycar_bezier.zip>`__
 
 

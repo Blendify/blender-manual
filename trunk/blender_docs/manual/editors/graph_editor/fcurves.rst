@@ -86,7 +86,7 @@ Linear
       Linear.
 
 
-Bezier
+Bézier
    The more powerful and useful interpolation, and the default one.
    It gives nicely smoothed curves, i.e. smooth animations!
 
@@ -259,7 +259,7 @@ Snap Keys :kbd:`Shift-S`
    Nearest Marker
       Snap the selected keyframes to their nearest marker individually.
    Flatten Handles
-      Flatten the *Bezier* handles for the selected keyframes.
+      Flatten the *Bézier* handles for the selected keyframes.
 
       .. list-table::
          Flatten Handles snapping example.

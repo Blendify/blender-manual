@@ -16,7 +16,7 @@ Examples
    Settings for the curve.
 
 
-:kbd:`Shift-A` to add a *Bezier Circle* and scale it up.
+:kbd:`Shift-A` to add a *Bézier Circle* and scale it up.
 In the *Curve* menu under *Path Animation* enable *Follow*
 and set *Frames* to something more reasonable than 100 (say 16).
 
@@ -43,7 +43,7 @@ Add a *Monkey*. In the *Object* menu under *Duplication* enable
    Parenting.
 
 
-To parent the monkey to the Bezier circle, first select the monkey then the curve
+To parent the monkey to the Bézier circle, first select the monkey then the curve
 (so that the curve is the active object) and :kbd:`Ctrl-P`.
 Select the monkey and :kbd:`Alt-O` to reset its origin.
 

@@ -122,7 +122,7 @@ New F-Curve Defaults
 
    Interpolation
       This controls how the state between two keyframes is computed.
-      Default interpolation for new keyframes is Bezier which provides
+      Default interpolation for new keyframes is Bézier which provides
       smooth acceleration and de-acceleration whereas Linear or Constant is more abrupt.
    XYZ to RGB
       Color for X, Y or Z animation curves (location, scale or rotation)

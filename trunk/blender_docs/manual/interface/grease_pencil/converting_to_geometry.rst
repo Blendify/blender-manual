@@ -25,10 +25,10 @@ Type
 
    Path
       Create NURBS 3D curves of order 2 (i.e. behaving like polylines).
-   Bezier Curve
-      Create Bezier curves, with free "aligned" handles (i.e. also behaving like polylines).
+   Bézier Curve
+      Create Bézier curves, with free "aligned" handles (i.e. also behaving like polylines).
    Polygon Curve
-      Bezier Curve with strait line segments (auto handles)
+      Bézier Curve with strait line segments (auto handles)
 
    .. note:: Converting to Mesh
 

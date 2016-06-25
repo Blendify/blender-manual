@@ -180,7 +180,7 @@ Curve controls
          Center of the *2D Cursor*. *Time Cursor* + *Cursor*.
 
       Individual Centers
-         Rotate the selected keyframe *Bezier* handles.
+         Rotate the selected keyframe *Bézier* handles.
 
    Copy Keyframes
       Copy the selected keyframes to memory (:kbd:`Ctrl-C`).
@@ -317,8 +317,8 @@ Interpolation
    Linear
       The difference between the next keyframe.
 
-   Bezier
-      Bezier interpolation to the next keyframe.
+   Bézier
+      Bézier interpolation to the next keyframe.
 
 Key
    Frame

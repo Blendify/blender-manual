@@ -9,7 +9,7 @@ Introduction
 
 
 Curves are 2D objects, and surfaces are their 3D extension. Note however that in Blender,
-you only have NURBS surfaces, no Bézier (you have the *Bezier* knot type, though;
+you only have NURBS surfaces, no Bézier (you have the *Bézier* knot type, though;
 see below), nor polygonal (but for these, you have meshes!).
 Even though curves and surfaces share the same object type (with texts also...),
 they are not the same thing; for example,
@@ -155,7 +155,7 @@ Knots
 
 Just like with :ref:`NURBS curves <modeling-curve-knot>`, NURBS surfaces have two knot vectors,
 one for each U and V axis. Here again, they can be one of *Cyclic*, *Endpoint*,
-or *Bezier*, with the same properties as for curves. And as with curves, only open surfaces
+or *Bézier*, with the same properties as for curves. And as with curves, only open surfaces
 (in the relevant direction) are affected by this setting...
 
 .. figure:: /images/Surfaces-Endpoint-U-Ex.jpg

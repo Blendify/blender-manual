@@ -30,7 +30,7 @@ will complicate matters and mandate lower falloff values.
 .. note::
 
    Garbage matte is not a node,
-   but a technique where the foreground is outlined using a closed curve (bezier or NURBS).
+   but a technique where the foreground is outlined using a closed curve (Bézier or NURBS).
    Only the area within the curve is processed using these matte nodes;
    everything else is garbage and thus discarded.
 

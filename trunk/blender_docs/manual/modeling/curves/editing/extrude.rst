@@ -23,7 +23,7 @@ Extrude
    * - .. figure:: /images/Curves_Extrude_start.jpg
           :width: 315px
 
-          Bezier Circle 0.0 extrude.
+          Bézier Circle 0.0 extrude.
 
      - .. figure:: /images/Curves_Extrude_by0.5.jpg
           :width: 315px

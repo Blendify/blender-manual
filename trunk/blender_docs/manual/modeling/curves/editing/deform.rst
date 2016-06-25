@@ -83,7 +83,7 @@ Let us make a simple example:
 - Remove default cube object from scene and add a Monkey with
   :menuselection:`Add --> Mesh --> Monkey`
 - Press :kbd:`Tab` to exit *Edit Mode*.
-- Now add a curve with :menuselection:`Add --> Curve --> Bezier Curve`.
+- Now add a curve with :menuselection:`Add --> Curve --> Bézier Curve`.
 
 .. figure:: /images/curvesdeform_exampleeditcurve.jpg
 

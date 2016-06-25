@@ -40,7 +40,7 @@ Example
 Let us make a simple example:
 
 - Remove default cube object from scene and add a Monkey with :menuselection:`Add --> Mesh --> Monkey`
-- Now add a curve with :menuselection:`Add --> Curve --> Bezier Curve`
+- Now add a curve with :menuselection:`Add --> Curve --> Bézier Curve`
 
 .. figure:: /images/curvesdeform_exampleeditcurve2.jpg
    :width: 300px
@@ -55,7 +55,7 @@ Let us make a simple example:
 
 .. figure:: /images/modifier-curve.jpg
 
-   Assign the Bezier curve to the Curve modifier (for Monkey).
+   Assign the Bézier curve to the Curve modifier (for Monkey).
 
 .. figure:: /images/curvesdeform_examplemonkeyoncurve3.jpg
    :width: 200px
