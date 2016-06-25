@@ -11,7 +11,7 @@ Introduction
 Curves and :doc:`Surfaces </modeling/surfaces/introduction>` are particular types of Blender Objects.
 They are expressed by mathematical functions rather than a series of points.
 
-Blender offers both `Bezier Curves`_ and `Non-Uniform Rational B-Splines (NURBS)`_.
+Blender offers both `curves_bezier`_ and `Non-Uniform Rational B-Splines (NURBS)`_.
 Both Bézier curves and NURBS curves and surfaces are defined in terms of a set of "control points"
 (or "control vertices") which define a "control polygon".
 
