@@ -22,9 +22,6 @@ This page lists definitions for terms used in Blender and this manual.
    Actuator
       A :term:`logic brick` that acts like a muscle of a lifeform. It can move the object, or make a sound.
 
-   Aliasing
-      Rendering artifacts in the form of jagged lines.
-
    Alpha Channel
       Additional channel in an image for transparency.
 
@@ -61,19 +58,8 @@ This page lists definitions for terms used in Blender and this manual.
          but also letting through all light from objects behind it.
          On converting to straight alpha, this effect is lost.
 
-   Ambient Light
-      The light that comes from the surrounding environment as a whole.
-
-   Ambient Occlusion
-      A ratio of how much :term:`ambient light` a surface point would be likely to receive.
-      If a surface point is under a foot or table,
-      it will end up much darker than the top of someone's head or the tabletop.
-
    Animation
       Simulation of motion.
-
-   Anti-aliasing
-      See :term:`oversampling`.
 
    Armature
       An :term:`Object` consisting of :term:`bones <bone>`. Used to :term:`rig` characters, props, etc.
@@ -237,14 +223,6 @@ This page lists definitions for terms used in Blender and this manual.
    FCurve
       A curve that holds the animation values of a specific property.
 
-   FSAA
-   Full-Screen Anti-Aliasing
-      A method of :term:`Anti-aliasing` on the graphics card, so the entire image is displayed smooth.
-      Also known as *Multi-Sampling*.
-
-      This can be enabled in the :ref:`user preferences <prefs-system-multi_sampling>`.
-      On many graphics cards, this can also be enabled in the driver options.
-
    Gamma
       An operation used to adjust the brightness of an image.
 
@@ -259,13 +237,6 @@ This page lists definitions for terms used in Blender and this manual.
 
       - See also `Gimbal lock <https://en.wikipedia.org/wiki/Gimbal_lock>`__ on Wikipedia.
       - See also `Gimbal lock <https://blender.stackexchange.com/questions/469>`__ on Stackexchange.
-
-   Global Illumination
-      A superset of radiosity and ray tracing.
-      The goal is to compute all possible light interactions in a given scene,
-      and thus, obtain a truly photo-realistic image.
-      All combinations of diffuse and specular reflections and transmissions must be accounted for.
-      Effects such as color bleeding and caustics must be included in a global illumination simulation.
 
    Global Space
       See :term:`World Space`.
@@ -342,9 +313,6 @@ This page lists definitions for terms used in Blender and this manual.
    Mesh
       Type of object consisting of :term:`vertices <vertex>`, :term:`edges <edge>` and :term:`faces <face>`.
 
-   Multi-sampling
-      See :term:`FSAA`
-
    Ngon
       A :term:`face` that contains more than four :term:`vertices <vertex>`.
 
@@ -402,12 +370,6 @@ This page lists definitions for terms used in Blender and this manual.
       for drawing 3D graphics, often taking advantage of hardware acceleration.
 
       See also `OpenGL <https://en.wikipedia.org/wiki/OpenGL>`__ on Wikipedia.
-
-   Oversampling
-      Is the technique of minimizing :term:`aliasing` when representing a high-resolution
-      signal at a lower resolution.
-
-      Also called **Anti-Aliasing**.
 
    Overscan
       The term used to describe the situation
@@ -493,28 +455,11 @@ This page lists definitions for terms used in Blender and this manual.
    Quadrangle
       :term:`Face` that contains exactly four :term:`vertices <vertex>`.
 
-   Radiosity
-      A global lighting method
-      that calculates patterns of light and shadow for rendering graphics images from three-dimensional models.
-      One of the many different tools which can simulate diffuse lighting in Blender.
-
-      See also
-      `Radiosity (computer graphics) <https://en.wikipedia.org/wiki/Radiosity_%28computer_graphics%29>`__
-      on Wikipedia.
-
-   Raytracing
-      Rendering technique that works by tracing the path taken by a ray of light through the scene,
-      and calculating reflection, refraction, or absorption of the ray whenever it intersects an object in the world.
-      More accurate than :term:`scanline`, but much slower.
-
    Refraction
       The change in direction of a wave due to a change in velocity.
       It happens when waves travel from a medium with a given :term:`index of refraction` to a medium with another.
       At the boundary between the media, the wave changes direction;
       its wavelength increases or decreases but frequency remains constant.
-
-   Render
-      The process of computationally generating a 2D image from 3D geometry.
 
    Rig
       A system of relationships that determine how something moves. The act of building of such a system.
@@ -523,10 +468,6 @@ This page lists definitions for terms used in Blender and this manual.
    Roll Angle
       The orientation of the local X and Z axes of a :term:`Bone`.
       Has no effect on the local Y axis as local Y is determined by the location of the :term:`Head` and :term:`Tail`.
-
-   Scanline
-      Rendering technique. Much faster than :term:`raytracing`,
-      but allows fewer effects, such as reflections, refractions, motion blur and focal blur.
 
    Sensor
       A :term:`logic brick` that acts like a sense of a lifeform. It reacts to touch, vision, collision etc.
