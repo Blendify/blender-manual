@@ -9,7 +9,8 @@ This is the manual for the 3D animation software from `Blender.org <https://www.
 
 .. only:: html
 
-   .. |vertical_separator| unicode:: U+02758
+   .. |vertical_separator| unicode:: U+2004 U+02758 U+2004
+      :trim:
 
    - Other languages:
      `En <https://www.blender.org/manual/>`__ |vertical_separator|
@@ -156,16 +157,13 @@ Sections
 
       .. container:: descr
 
-         .. figure:: /images/contents_encyclopedia.jpg
-            :target: encyclopedia/index.html
-
-         :doc:`Encyclopedia </encyclopedia/index>`
+         :doc:`Glossary </glossary/index>`
             A list of terms and definitions used in Blender and this manual.
 
       .. container:: descr
 
          :ref:`Manual Index <genindex>`
-            A list of terms linked to the Encyclopedia.
+            A list of terms linked to the Glossary.
 
 
 .. only:: latex or epub or singlehtml
@@ -187,7 +185,7 @@ Sections
       preferences/index.rst
       advanced/index.rst
       troubleshooting/index.rst
-      encyclopedia/index.rst
+      glossary/index.rst
 
 
 Get Involved
