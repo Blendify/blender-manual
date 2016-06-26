@@ -20,7 +20,7 @@ Models
 .. glossary::
 
    Model
-      A model is an idealization of a phenomenon or a group of phenomena. 
+      A model is an idealization of a :term:`phenomenon` or a group of phenomena. 
       Idealization is the simplification by negligibility, isolation to exclude parts outside
       of the tackled system and deliberate distortion [Frig12]_.
       Models can be physical or abstract entities.
