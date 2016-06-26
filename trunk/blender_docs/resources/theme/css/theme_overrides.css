@@ -178,27 +178,3 @@ a.external {color:#656AE0;}
 .descr .figure img{box-shadow: 2px 2px 3px rgba(0,0,0,0.5)}
 .descr .figure img:hover{box-shadow: none}
 /*x section description*/
-
-.cit-ref div{margin-bottom: 0}
-.cit-ref{margin-bottom: 5px}
-.rst-content table.docutils.citation td{padding-bottom: 2px; padding-top: 2px}
-table.docutils.citation {margin-bottom:0px; transition: color .1s ease-in-out;}
-table.docutils.citation:last-child {margin-bottom:10px}
-table.docutils.citation:hover {color: #444}
-table.docutils.citation:target, a.internal:target {
-	background-color: rgba(225, 137, 48, 0.15);
-	color: #000;
-}
-
-.rst-content .glossary dt{
-	display: inline;
-	font-style: italic;
-	font-weight: normal;
-}
-.rst-content .glossary dd{margin-top: 0.25em;}
-.glossary dt + dt::before{content:", "}
-blockquote div p{
-	margin-bottom: 0;
-}
-.attribution { text-align: right}
-
