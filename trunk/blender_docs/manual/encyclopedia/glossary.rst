@@ -180,15 +180,6 @@ This page lists definitions for terms used in Blender and this manual.
       A type of object defined in terms of a line interpolated between Control Vertices.
       Available types of curves include :term:`Bézier` and :term:`NURBS`.
 
-   DOF
-   Depth Of Field
-      The distance in front of and behind the subject which appears to be in focus.
-      For any given lens setting, there is only one distance at which a subject is precisely in focus,
-      but focus falls off gradually on either side of that distance,
-      so there is a region in which the blurring is tolerable.
-      This region is greater behind the point of focus than it is in front,
-      as the angle of the light rays change more rapidly; they approach being parallel with increasing distance.
-
    Diffuse Light
       Even, directed light coming off a surface.
       For most things, diffuse light is the main lighting we see.
@@ -246,13 +237,6 @@ This page lists definitions for terms used in Blender and this manual.
    FCurve
       A curve that holds the animation values of a specific property.
 
-   Field of View
-      The area in which objects are visible to the camera. Also see :term:`Focal Length <focal length>`
-
-   Focal Length
-      The distance required by a lens to focus collimated light.
-      Defines the magnification power of a lens. Also see :term:`Field of View <field of view>`
-
    FSAA
    Full-Screen Anti-Aliasing
       A method of :term:`Anti-aliasing` on the graphics card, so the entire image is displayed smooth.
@@ -304,13 +288,6 @@ This page lists definitions for terms used in Blender and this manual.
       ranging from direct sunlight to the deepest shadows.
 
       See also `HDRI <https://en.wikipedia.org/wiki/HDRI>`__ on Wikipedia.
-
-   IOR
-   Index Of Refraction
-      A property of transparent materials.
-      When a light ray travels through the same volume it follows a straight path.
-      However if it passes from one transparent volume to another, it bends.
-      The angle by which the ray is bent can be determined by the IOR of the materials of both volumes.
 
    Inverse Kinematics
       The process of determining the movement of interconnected segments of a body or model.
@@ -364,11 +341,6 @@ This page lists definitions for terms used in Blender and this manual.
 
    Mesh
       Type of object consisting of :term:`vertices <vertex>`, :term:`edges <edge>` and :term:`faces <face>`.
-
-   Motion Blur
-      The phenomenon that occurs when we perceive a rapidly moving object.
-      The object appears to be blurred because of our persistence of vision.
-      Simulating motion blur makes computer animation appear more realistic.
 
    Multi-sampling
       See :term:`FSAA`

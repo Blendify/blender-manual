@@ -12,6 +12,8 @@ Some terms can still be found in the glossary.
 
    sciphil/simulation_models.rst
    math/mathematics.rst
+   physics/index.rst
+
 
 Glossary
 ========
