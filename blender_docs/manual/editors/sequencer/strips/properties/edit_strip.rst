@@ -3,17 +3,15 @@
 Edit Strip Panel
 ****************
 
+The *Edit Strip* panel is used to control placement and properties of strips.
+
 Name
    You can name or rename your strips here.
 Type
    Displays the type of strip selected.
 Blend Mode
-   By default, a strip Replaces the output image of any lower-level strips. However,
-   many other blending modes are available based on the strip type. For example,
-   Alpha-Over automatically overlays the image on top of a lower level strip.
-   Autoblending modes remove the need for separate effect strips.
-   Blend percent controls how much of an effect the strip exerts, even over time.
-
+   Controls how the strip affects other strips.
+   See :term:`Color Blend Modes` for details on each blending mode.
 Opacity
    Set the opacity of the strip.
 Mute
@@ -32,15 +30,3 @@ Start Frame
 
 Length
    Specify the number of frames to use for the strip.
-
-.. TODO/Review
-
-Use the Convert to Premul button if a strip has an Alpha (transparency) channel.
-Use FilterY if the strip is from broadcast video and has even or odd interlacing
-fields. Enhance the color saturation through the Multiply field.
-Play a strip backwards by enabling Reverse Frames.
-Tell Blender to display every nth frame by entering a Strobe value. Finally,
-when using MPEG video (VCD, DVD, XVid, DivX, ...),
-an image is built up over the course of a few frames; use the Preseek field to
-tell Blender to look backward and compose the image based on the n previous frames (e.g.
-15 for Mpeg2 DVD).
