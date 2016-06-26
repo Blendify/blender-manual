@@ -11,6 +11,7 @@ Some terms can still be found in the glossary.
    :maxdepth: 1
 
    sciphil/simulation_models.rst
+   math/mathematics.rst
 
 Glossary
 ========

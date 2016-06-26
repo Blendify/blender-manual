@@ -78,9 +78,6 @@ This page lists definitions for terms used in Blender and this manual.
    Armature
       An :term:`Object` consisting of :term:`bones <bone>`. Used to :term:`rig` characters, props, etc.
 
-   Axis
-      A reference line which defines coordinates along one cardinal direction in n-D space.
-
    Baking
       The process of computing and storing the result of a potentially time-consuming calculation
       so as to avoid needing to calculate it again.
@@ -234,9 +231,6 @@ This page lists definitions for terms used in Blender and this manual.
       It involves rendering images at strategic positions and applying them as textures to the mirror.
       Now in most cases obsoleted by Raytracing, which though slower is easier to use and more accurate.
 
-   Euler Rotation
-      TODO.
-
    Face
       Mesh element that defines a piece of surface. It consists of three or more :term:`edges <edge>`.
 
@@ -317,9 +311,6 @@ This page lists definitions for terms used in Blender and this manual.
       When a light ray travels through the same volume it follows a straight path.
       However if it passes from one transparent volume to another, it bends.
       The angle by which the ray is bent can be determined by the IOR of the materials of both volumes.
-
-   Interpolation
-      Method of calculating new data between points of known value, like :term:`keyframes <keyframe>`.
 
    Inverse Kinematics
       The process of determining the movement of interconnected segments of a body or model.
@@ -412,11 +403,6 @@ This page lists definitions for terms used in Blender and this manual.
 
       See also: :ref:`Select Non-Manifold <mesh-select-non_manifold>` tool.
 
-   Normal
-      The normalized vector perpendicular to a surface.
-
-      Normals can be assigned to vertices,
-      faces and modulated across a surface using :term:`normal mapping`.
 
    Normal mapping
       Is similar to :term:`Bump mapping`, but instead of the image being a greyscale heightmap,
