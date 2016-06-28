@@ -36,7 +36,7 @@ At :menuselection:`File --> User Preferences --> File`
 you can set options such as what external *Image Editor* to use,
 such as GIMP or Krita, and the Animation Player.
 
-The *Temp* directory sets where to store files such as temporary renders and auto-saves.
+The :ref:`temp-dir` sets where to store files such as temporary renders and auto-saves.
 
 .. tip::
 

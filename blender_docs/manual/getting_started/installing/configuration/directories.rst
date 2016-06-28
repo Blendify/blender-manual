@@ -158,3 +158,19 @@ for example.
    Bundled Python distribution, only necessary when the system Python installation is absent or incompatible.
 
    Search order: ``LOCAL, SYSTEM``.
+
+
+.. _temp-dir:
+
+Temporary Directory
+===================
+
+The temporary directory is used to store various files at runtime
+(including render layers, physics cache, copy-paste buffer and crash logs).
+
+The temporary directory is selected based on the following priority.
+
+- User Preference (see :ref:`prefs-file_paths`).
+- Environment variables (``TEMP`` on MS-Windows, ``TMP`` & ``TMP_DIR`` on other platforms).
+- The ``/tmp/`` directory.
+
