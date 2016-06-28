@@ -1,6 +1,6 @@
 
 ***************
-Recovering data
+Recovering Data
 ***************
 
 Blender provides a number of ways for the user to recover from mistakes,
@@ -57,29 +57,28 @@ Recovering Auto Saves
 Recover Last Session
    :menuselection:`File --> Recover Last Session` will open the ``quit.blend``
    that is saved into the *Temp* directory when you exit Blender.
-   Note that files in your *Temp* directory are deleted when you reboot.
+   Note that files in your *Temp* directory may be deleted when you reboot
+   (depending on your system configuration).
 
-
-.. figure:: /images/basics-undo-display_file_date.jpg
-
-   Blender File Browser.
-
-.. tip::
-
-   When recovering files, you will navigate to your temporary folder.
-   It is important, when browsing, to enable the detailed list view.
-   Otherwise, you will not be able to figure out the dates of the auto-saved blend-files.
-   (See Figure: Blender File Browser)
-
+   .. figure:: /images/basics-undo-display_file_date.jpg
+   
+      Blender File Browser.
+   
+   .. tip::
+   
+      When recovering files, you will navigate to your temporary folder.
+      It is important, when browsing, to enable the detailed list view.
+      Otherwise, you will not be able to figure out the dates of the auto-saved blend-files.
+      (See Figure: Blender File Browser)
 
 Recover Auto Save
    :menuselection:`File --> Recover Auto Save...` allows you to open the Auto Saved file.
    After loading the Auto Saved version,
    you may save it over the current file in your working directory as a normal blend-file.
 
-.. important::
-
-   When recovering an Auto Saved file, you will lose any changes made since the last *Auto Save* was
-   performed. Only **one** *Auto Saved* file exists for each project
-   (i.e. Blender does not keep older versions -
-   hence you will not be able to go back more than a few minutes with this tool).
+   .. important::
+   
+      When recovering an Auto Saved file, you will lose any changes made since the last *Auto Save* was
+      performed. Only **one** *Auto Saved* file exists for each project
+      (i.e. Blender does not keep older versions -
+      hence you will not be able to go back more than a few minutes with this tool).
