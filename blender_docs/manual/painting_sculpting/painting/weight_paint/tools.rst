@@ -125,7 +125,7 @@ Invert
    Invert.
 
 
-Replaces each Weight of the selected weight group by × −1.0 weight.
+Replaces each Weight of the selected weight group by × -1.0 weight.
 
 Examples:
 
@@ -218,10 +218,10 @@ Operator Parameters
 Subset
    Restrict the tool to a subset. See above Fig. The Subset Option for how subsets are defined.
 Offset
-   A value from the range (−1.0 - 1.0) to be added to all weights in the Vertex Group.
+   A value from the range (-1.0 - 1.0) to be added to all weights in the Vertex Group.
 Gain
    All weights in the Subset are multiplied with the gain.
-   The drag sliders of this value allow only a range of (−10.0 - 10.0).
+   The drag sliders of this value allow only a range of (-10.0 - 10.0).
    However, you can enter any factor you like here by typing from the keyboard.
 
 .. note::

@@ -67,11 +67,11 @@ Maximum Distance / Use Max
 The other settings govern the form of the force field along the curve.
 
 Clumping Amount
-   The particles come together at the end of the curve (1) or they drift apart (−1).
+   The particles come together at the end of the curve (1) or they drift apart (-1).
 Shape
    Defines the form in which the particles come together.
    +0.99: the particles meet at the end of the curve.
-   0: linear progression along the curve. −0.99: the particles meet at the beginning of the curve.
+   0: linear progression along the curve. -0.99: the particles meet at the beginning of the curve.
 
 Kink
    Changes the shape that the particles can take:

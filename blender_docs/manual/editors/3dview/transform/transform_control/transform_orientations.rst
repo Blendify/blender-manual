@@ -39,7 +39,7 @@ Our Demo Cube
 .. figure:: /images/Orientations-BasicSetup.jpg
 
    To demonstrate the various behaviors, we add some colors to the default cube,
-   rotate it −15° along its local Z- and X Axes, and we scale its "y" face down.
+   rotate it -15° along its local Z- and X Axes, and we scale its "y" face down.
 
 
 Please note two things:

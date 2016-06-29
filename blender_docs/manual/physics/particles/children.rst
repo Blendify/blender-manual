@@ -62,13 +62,13 @@ Effects
 
 .. figure:: /images/physics_ChildParticleRoundClump.jpg
 
-   From left to right: Round: 0.0, Round: 1.0, Clump: 1.0, Clump: −1.0, Shape: −0.99.
+   From left to right: Round: 0.0, Round: 1.0, Clump: 1.0, Clump: -1.0, Shape: -0.99.
 
 
 Clump
-   Clumping. The children may meet at their tip (1.0) or start together at their root (−1.0).
+   Clumping. The children may meet at their tip (1.0) or start together at their root (-1.0).
 Shape
-   Form of *Clump*. Either inverse parabolic (0.99) or exponentially (−0.99).
+   Form of *Clump*. Either inverse parabolic (0.99) or exponentially (-0.99).
 Length
    Length of child paths
 Threshold

@@ -59,8 +59,8 @@ In the mini-map to the right, the Time node outputs a value between 0.0 and 1.
 00 evenly scaled over 30 frames. The *first* Map Value node multiplies the input by 2,
 resulting in an output value that scales from 0.0 to 2.0 over 30 frames.
 The *second* Map Value node subtracts 1 from the input,
-giving working values between (−1.00 to 1.0), and multiplies that by 150,
-resulting in an output value between (−150 to 150) over a 30-frame sequence.
+giving working values between (-1.00 to 1.0), and multiplies that by 150,
+resulting in an output value between (-150 to 150) over a 30-frame sequence.
 
 
 .. figure:: /images/Compositing-Map_multiply.jpg

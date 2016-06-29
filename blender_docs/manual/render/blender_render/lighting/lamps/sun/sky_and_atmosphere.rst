@@ -120,7 +120,7 @@ Sun
       so the larger the sun (the smaller *Size*), the more it "vanishes" in the sky, and *vice versa*.
    Back Light
       For "Back Scatter Light", result on sun's color, high values result in more light around the sun.
-      Its values range is (−1.0 to 1.0). Negative values result in less light around sun.
+      Its values range is (-1.0 to 1.0). Negative values result in less light around sun.
 
 
 Atmosphere
@@ -309,12 +309,12 @@ Sky
    * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-backlight-1_0.jpg
           :width: 200px
 
-          Back Light: −1.0.
+          Back Light: -1.0.
 
      - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-backlight-0_33.jpg
           :width: 200px
 
-          Back Light: −0.33.
+          Back Light: -0.33.
 
    * - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-sky-backlight0_33.jpg
           :width: 200px
@@ -430,7 +430,7 @@ Hints and limitations
 
 To always have the *Sun* pointing at the camera center,
 you can use a :doc:`TrackTo constraint </rigging/constraints/tracking/track_to>` on the sun object,
-with the camera as target, and −Z as the "To" axis (use either X or Y as "Up" axis).
+with the camera as target, and -Z as the "To" axis (use either X or Y as "Up" axis).
 This way, to modify height/position of the sun in the rendered picture,
 you just have to move it; orientation is automatically handled by the constraint.
 Of course, if your camera itself is moving, you should also add e.g.

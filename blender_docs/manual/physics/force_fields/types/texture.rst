@@ -12,7 +12,7 @@ You can use a *Texture* force field to create an arbitrarily complicated force f
 which force in the three directions is color coded. Red is coding for the X-axis,
 green for the Y-axis and blue for the Z-axis
 (like the color of the coordinate axes in the 3D View). A value of 0.5 means no force,
-a value larger than 0.5 acceleration in negative axis direction (like −Z),
+a value larger than 0.5 acceleration in negative axis direction (like -Z),
 a value smaller than 0.5 acceleration in positive axis direction (like +Z).
 
 .. figure:: /images/force_field_panel_texture.jpg

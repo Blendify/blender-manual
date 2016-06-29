@@ -17,7 +17,7 @@ Options
 Thickness
    The depth to be solidified.
 Offset
-   A value between (−1 to 1) to locate the solidified output inside or outside the original mesh.
+   A value between (-1 to 1) to locate the solidified output inside or outside the original mesh.
    Set to 0.0, the solidified output will be centered on the original mesh.
 Clamp
    A value between (0 to 2) to clamp offsets to avoid self intersection.
@@ -81,7 +81,7 @@ Material Index Offset
 
    - A value of 0 means it will use the same material.
    - A value of 1 means it will use the material immediately below the original material.
-   - A value of −2 means the material two positions above the original material will be used.
+   - A value of -2 means the material two positions above the original material will be used.
 
    These are clamped to the top-most and bottom-most material slots.
 

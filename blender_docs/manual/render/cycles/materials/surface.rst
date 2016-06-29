@@ -43,4 +43,4 @@ For glossy :abbr:`BSDF (Bidirectional scattering distribution function)` s,
 to 1.0 (very soft). Compared to *hardness* or *exponent* parameters,
 it has the advantage of being in the range 0.0..1.0,
 and as a result gives more linear control and is more easily textureable.
-The relation is roughly: *roughness* = 1 − 1/*hardness*
+The relation is roughly: *roughness* = 1 - 1/*hardness*

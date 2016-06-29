@@ -53,7 +53,7 @@ press :kbd:`R`, (:kbd:`0` - :kbd:`9`), then :kbd:`Return` to confirm.
 To specify counter-clockwise rotation 
 press :kbd:`R`, :kbd:`Minus`, (kbd:`0` - :kbd:`9`), then :kbd:`Return` to confirm. 
 Note that 270 degrees of clockwise rotation is 
-equivalent to −90 degrees of counter-clockwise rotation.
+equivalent to -90 degrees of counter-clockwise rotation.
 
 
 Scaling

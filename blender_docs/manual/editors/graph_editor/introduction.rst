@@ -150,7 +150,7 @@ View controls
       Filter curves by property type.
 
    Normalize
-      Normalize curves so the maximum or minimum point equals 1.0 or −1.0.
+      Normalize curves so the maximum or minimum point equals 1.0 or -1.0.
 
    Auto
       Automatically recalculate curve normalization on every curve edit.

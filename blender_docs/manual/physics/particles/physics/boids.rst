@@ -128,7 +128,7 @@ You can also activate Die on hit (Extras panel) so that a prey particle simply d
 "attacked" by a predator particle which reaches it. To make this work,
 the predator particles have to have a spherical field with negative force,
 it is not sufficient just to set a positive goal for the prey particles
-(but you may set the predators force strength to −0.01).
+(but you may set the predators force strength to -0.01).
 The size of the predators and the prey can be set with the Size button in the Extras panel.
 
 

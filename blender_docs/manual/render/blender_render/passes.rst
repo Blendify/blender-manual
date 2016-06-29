@@ -235,7 +235,7 @@ you will need to enable the Color and Diffuse pass as well.
 To configure your noodle, consider the example image above.
 
 - First, depending on the AO mode do one of the following: If AO mode is Add: directly use the AO pass.
-  If AO mode is Sub: Calculate AO − 1, or if AO mode is Both: Calculate 2 × AO − 1.
+  If AO mode is Sub: Calculate AO - 1, or if AO mode is Both: Calculate 2 × AO - 1.
 - Multiply the output of Step 1 with the AO energy level.
 - Multiply the output of Step 2 with the material's ambience value.
   If you have materials which receive different ambience light levels (0.5 is the default),

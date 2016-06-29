@@ -118,7 +118,7 @@ Clamp Overlap
 
 Material
     The *Material* number specifies which material should be assigned to the new faces created by the *Bevel* tool.
-    With the default, −1, the material is inherited from the closest existing face ("closest" can be a bit ambiguous).
+    With the default, -1, the material is inherited from the closest existing face ("closest" can be a bit ambiguous).
     Otherwise, the number is the slot index of the material to use for all newly created faces.
 
 
