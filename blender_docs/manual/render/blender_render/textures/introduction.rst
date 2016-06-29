@@ -71,7 +71,7 @@ These characteristics might be more (or less) strongly apparent at different ang
 under different lighting conditions, and so forth.
 Blender allows you to achieve this in many ways.
 You can use "a stack of texture layers" as described in :doc:`this section </render/blender_render/textures/options>`,
-or you can also use arbitrarily-complex networks ("noodles"...) of "texture nodes"
+or you can also use arbitrarily-complex networks of "texture nodes"
 as discussed :doc:`here </render/blender_render/textures/nodes/introduction>`; the choice is yours.
 
 

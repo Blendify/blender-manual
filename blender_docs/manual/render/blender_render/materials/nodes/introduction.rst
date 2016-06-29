@@ -21,8 +21,8 @@ Many features and material settings are still only accessible through the materi
 Ray Mirror). However with the advent of nodes,
 more complex and fantastic materials can be created since we now have greater control.
 
-Just in case you're not (yet) familiar with the concepts: when you create a system of nodes
-(otherwise known as a "noodle"), you're describing a data-processing pipeline of sorts,
+Just in case you're not (yet) familiar with the concepts: when you create a system of nodes,
+you're describing a data-processing pipeline of sorts,
 where data "flows from" nodes which describe various *sources,*
 "flows through" nodes which represent various processing and filtering stages,
 and finally "flows into" nodes which represent outputs or destinations.
@@ -98,7 +98,7 @@ You can also split the 3D View in the default screen in two and change one into 
 
      - .. figure:: /images/materials-nodes-firstmat.jpg
 
-          A first material added to the noodle.
+          A first material added to the node setup.
 
 
 It is important to note that you can add a new material
@@ -106,5 +106,5 @@ It is important to note that you can add a new material
 add an already created material or append a material from another blend-file,
 and also use the material that you used to create the node tree.
 
-Here, we added a new material in the *Node editor* (*Material.001*),
+Here, we added a new material in the *Node editor* "Material.001",
 and as we did, we can access the properties of this material in the material's menu.

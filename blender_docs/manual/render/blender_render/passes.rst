@@ -176,9 +176,9 @@ Recoloring Shadows
    :width: 300px
 
 
-Let us run the Shadow buffer through a colorization noodle, then recombine it;
+Let us run the Shadow buffer through a colorization node setup, then recombine it;
 all your shadows will be artificially colored.
-Lots of threads in this noodle are shown to the right, so let us walk through it.
+Lots of threads in this node setup are shown to the right, so let us walk through it.
 On the left is the Render Layer input node:
 it refers to one of the Render Layers that we have defined for our scene. In the scene,
 we have a reflective ball on a pedestal standing in front of a backdrop. Everything
@@ -232,7 +232,7 @@ Based on these variables, Blender computes an AO pass.
 If you call it out as a separate pass and wish to composite it back into your image,
 you will need to enable the Color and Diffuse pass as well.
 
-To configure your noodle, consider the example image above.
+To configure your setup, consider the example image above.
 
 - First, depending on the AO mode do one of the following: If AO mode is Add: directly use the AO pass.
   If AO mode is Sub: Calculate AO - 1, or if AO mode is Both: Calculate 2 × AO - 1.
