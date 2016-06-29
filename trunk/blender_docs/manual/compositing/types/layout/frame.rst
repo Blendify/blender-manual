@@ -44,7 +44,7 @@ Frame Node colors can be applied from the properties panel which can be used to 
 Once a satisfactory color is found it may be saved as a preset for re-use in other Frame nodes.
 To do this press the *+* button next to the Color Presets
 drop down in the properties panel and add a name for the preset.
-To delete a preset first choose that preset for the active Frame and press the *−* button in the properties panel.
+To delete a preset first choose that preset for the active Frame and press the *-* button in the properties panel.
 
 
 Text Display

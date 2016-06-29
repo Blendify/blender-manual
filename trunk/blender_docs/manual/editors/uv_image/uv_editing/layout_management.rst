@@ -71,7 +71,7 @@ UV Textures List
 The Mesh panel lists the UV Texture maps created for this mesh,
 and allows you to create New ones as placeholders for future unwrapping operations.
 
-Click the *+* button to add a new UV texture, and the *−* to delete an existing one.
+Click the *+* button to add a new UV texture, and the *-* to delete an existing one.
 Deleting a UV Map for the mesh destroys all work done in all unwrapping associated the mesh.
 
 Each map has a selector button. Click the camera icon to enable that UV texture for rendering.

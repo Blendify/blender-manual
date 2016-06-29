@@ -36,7 +36,7 @@ Force Field Constraint
    Rot Fh
       Make game object axis parallel to the normal of trigger object.
    Direction
-      Axis in which to create force field (can be + or −, or None)
+      Axis in which to create force field (can be + or -, or None)
    Force
       Force value to be used.
    N
@@ -91,7 +91,7 @@ Distance Constraint
 Maintain the distance the Game Object has to be from a surface
 
    Direction
-      Axis Direction (X, Y, Z, −X, −Y, −Z, or None)
+      Axis Direction (X, Y, Z, -X, -Y, -Z, or None)
    L
       If on, use local axis (otherwise use World axis)
    N
@@ -100,7 +100,7 @@ Maintain the distance the Game Object has to be from a surface
       Maximum length of ray used to check for Material/Property on another game object (0 - 2000 Blender Units)
    Force Distance
       Distance to be maintained between object and the Material/Property that triggers the
-      Distance Constraint(−2000 to +2000 Blender Units).
+      Distance Constraint(-2000 to +2000 Blender Units).
    Damping
       Delay (frames) of the constraint response (0 - 100)
    M/P

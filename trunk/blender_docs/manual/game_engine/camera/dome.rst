@@ -173,7 +173,7 @@ Each line is compound of *x* *y* *u* *v* *i* (x,y)
 are the normalized screen coordinates(u,v)
 texture coordinates *i* a multiplicative intensity factor
 
-*x* varies from −screen aspect to screen aspect varies from −1 to 1 *u* and *v* vary from 0 to 1*i*
+*x* varies from -screen aspect to screen aspect varies from -1 to 1 *u* and *v* vary from 0 to 1*i*
 ranges from 0 to 1, if negative do not draw that mesh node
 
 

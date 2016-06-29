@@ -70,7 +70,7 @@ Offset
 
    .. figure:: /images/Curves_Extrude_closed2D_fillboth_offset-1.jpg
 
-      −1 offset, 0.5 extrusion, 0.25 Bevel Depth, 10 Bevel resolution.
+      -1 offset, 0.5 extrusion, 0.25 Bevel Depth, 10 Bevel resolution.
 
 Radius
    The Radius allows you to directly control the width of the extrusion along the “spinal” curve.

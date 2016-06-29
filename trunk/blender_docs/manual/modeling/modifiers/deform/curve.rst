@@ -31,7 +31,7 @@ Vertex Group
 Deformation Axis
    This is the axis that the curve deforms along.
 
-   X, Y, Z, −X, −Y, −Z
+   X, Y, Z, -X, -Y, -Z
 
 
 Example

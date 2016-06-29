@@ -314,7 +314,7 @@ The bone rotation mode is set to XYZ Euler.
 
 The Driver F-Curve is mapped like so
    Bone Z Rotation 0.0(0.0): Shape Key value 0.0
-   Bone Z Rotation −2.09(−120.0): Shape Key value 1.0
+   Bone Z Rotation -2.09(-120.0): Shape Key value 1.0
 
 This kind of driver can also be setup with the Variable Type Rotational Difference.
 

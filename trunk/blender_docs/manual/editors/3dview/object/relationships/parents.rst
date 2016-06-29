@@ -563,7 +563,7 @@ Clear Parent Inverse
    Places the children with respect to the parent as if they were placed in the Global reference.
    This effectively clears the parent's transformation from the children. For example,
    if the parent is moved 10 units along the X axis and *Clear Parent Inverse* is invoked,
-   any selected children are freed and moved −10 units back along the X axis.
+   any selected children are freed and moved -10 units back along the X axis.
    The "Inverse" only uses the last transformation; if the parent moved twice,
    10 units each time for a total of 20 units, then the "Inverse" will only move the child back 10 units, not 20.
 

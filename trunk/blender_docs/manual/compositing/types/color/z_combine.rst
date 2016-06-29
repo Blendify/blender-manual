@@ -61,7 +61,7 @@ Examples
 
 This can be obtained by making an AlphaOver of two Z-Combine, one normal,
 the other having inverted (reversed?) Z-values as inputs, obtained using for each of them a
-*MapValue* node with a *Size* field set to −1.0:
+*MapValue* node with a *Size* field set to -1.0:
 
 
 .. figure:: /images/Compositing-Z-Offset-example.jpg

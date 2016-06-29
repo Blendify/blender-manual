@@ -18,9 +18,9 @@ Timer
    Starts at the property value and counts upwards as long as the object exists.
    It can for example be used if you want to know how long time it takes the player to complete a level.
 Float
-   Uses decimal numbers as values, can range from −10000.000 to 10000.000. It is useful for precision values.
+   Uses decimal numbers as values, can range from -10000.000 to 10000.000. It is useful for precision values.
 Integer
-   Uses integers (whole numbers) as values, between −10000 and 10000.
+   Uses integers (whole numbers) as values, between -10000 and 10000.
    Useful for counting things such as ammunition, where decimals are unnecessary.
 String
    Takes text as value. Can store 128 characters.

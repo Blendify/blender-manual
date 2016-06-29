@@ -66,7 +66,7 @@ Game Physics
 
 The Game Physics located in the World panel determine the type of physical rules that govern the game engine scene,
 and the gravity value to be used. Based on the physics engine selected, in physics simulations in the game engine,
-Blender will automatically move *Actors* in the downward (−Z) direction.
+Blender will automatically move *Actors* in the downward (-Z) direction.
 After you arrange the actors and they move as you wish, you can then bake this computed motion into keyframes
 (see :ref:`game_engine-physics-bake-keyframes` for more info).
 
@@ -82,7 +82,7 @@ Physics Engine
       No physics in use. Things are not affected by gravity and can fly about in a virtual space.
       Objects in motion stay in that motion.
 Gravity
-   The gravitational acceleration, m.s\ :sup:`−2` (in units of meters per squared second),
+   The gravitational acceleration, m.s\ :sup:`-2` (in units of meters per squared second),
    of this world. Each object that is an actor has a mass and size slider.
    In conjunction with the frame rate (see :doc:`Render </render/index>` section),
    Blender uses this info to calculate how fast the object should accelerate downward.

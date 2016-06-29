@@ -177,8 +177,8 @@ Turns:
    The minimum value is 1; the maximum is 256. (See Fig. 7)
 
 Axis
-   These three numeric fields vary from (−1.0 to 1.0) and are clamped above those limits.
-   These values correspond to angular vectors from (−90 to 90) degrees. Depending on the position where you
+   These three numeric fields vary from (-1.0 to 1.0) and are clamped above those limits.
+   These values correspond to angular vectors from (-90 to 90) degrees. Depending on the position where you
    started your cursor location and Object operation in the viewport and its axis positions in Global View space and
    coordinates, Blender will give the proper Axis vector a value of 1, giving the angular vector of the profile
    a starting direction and giving the extrusions a starting direction based on your view. Blender will let you
@@ -196,7 +196,7 @@ The Spring example
 
 .. figure:: /images/Modeling_Mesh_Screw_Screw_Circle_Moved_X_-3BU.jpg
 
-   Fig. 8 - Circle placed at X −3,0,0.
+   Fig. 8 - Circle placed at X -3,0,0.
 
 
 - Open Blender and delete the default Cube.
@@ -212,11 +212,11 @@ The Spring example
 - Grab and move this circle three Blender Units on the *X-Axis* to the left;
   you can use the shortcut :kbd:`Ctrl` while grabbing with the mouse using the standard transform widgets
   (clicking on the red arrow shown with the object and grabbing while using shortcut
-  :kbd:`Ctrl` until the down left info in the 3D View marks ``D. −3.0000 (3.0000) Global`` ),
+  :kbd:`Ctrl` until the down left info in the 3D View marks ``D. -3.0000 (3.0000) Global`` ),
   or press the shortcut :kbd:`G X Minus 3` and :kbd:`Return`.
   You can use the Transform Panel (toggled with the shortcut :kbd:`T` ,
   and type  :kbd:`Minus 3` and :kbd:`Return` in the Location too.
-  (See the Fig. 8 - Circle placed at X −3,0,0).
+  (See the Fig. 8 - Circle placed at X -3,0,0).
 - You will have to scale your circle using the shortcut :kbd:`S . 5`, then :kbd:`Return`.
 - Now enter *Edit Mode* using shortcut :kbd:`Tab`.
 - De-select all vertices using the shortcut :kbd:`A`.
@@ -234,9 +234,9 @@ Now we will create a height vector for Blender:
   and, while still pressing :kbd:`Ctrl`, Left Click :kbd:`LMB` again in the grey line below the circle.
   You have created two vertices and an Edge, which Blender will use as the first height and angle vector.
 - Now, in the Transform Panel, in the median, clicking in the Global coordinates,
-  for the (X, Y, Z) coordinates, put (−2, 0, −1).
+  for the (X, Y, Z) coordinates, put (-2, 0, -1).
 - Right Click :kbd:`RMB` in the other vertex,
-  and again, type its coordinates for (X, Y, Z) to (−2, 0, 1).
+  and again, type its coordinates for (X, Y, Z) to (-2, 0, 1).
   This will create a straight vertical line with 2 Blender units of Height.
 - De-select and select everything again with the shortcut :kbd:`A`.
   (See Fig. 9 - Profile and vector created)
@@ -256,11 +256,11 @@ Clockwise and Counterclockwise using the Spring Example
 
 Still in the interactive session of the *Screw Tool*,
 you will see that the *Z-Axis* Value of the *Screw* Panel is set to 1.000.
-Left click :kbd:`LMB` in the middle of the Value and set this value to −1.000.
+Left click :kbd:`LMB` in the middle of the Value and set this value to -1.000.
 At first, the Spring was being constructed in a Counterclockwise direction,
 and you reverted the operation 180 degrees in the *Z-Axis*. This is because you have
 changed the angular vector of the height you have given to Blender to the opposite direction
-(remember, −90 to 90 = 180 degrees ?). See Fig.
+(remember, -90 to 90 = 180 degrees ?). See Fig.
 10 - Counterclockwise direction and Fig. 11 - Flipped to Clockwise direction.
 
 .. list-table::

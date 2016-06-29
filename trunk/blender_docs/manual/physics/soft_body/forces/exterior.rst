@@ -76,7 +76,7 @@ So if you use a *Harmonic* field for particles move the Soft body to another lay
 
 See the section :doc:`Force Fields </physics/force_fields/index>` for details.
 The force fields are quite strong,
-a *Spherical* field with a strength of −1.0 has the same effect that gravity has -
+a *Spherical* field with a strength of -1.0 has the same effect that gravity has -
 approximately - a force of 10 Newton.
 
 

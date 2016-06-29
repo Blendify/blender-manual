@@ -57,7 +57,7 @@ Falloff
       Gives a smoother falloff following a normal distribution,
       which is particularly useful for more advanced materials that use measured
       data that was fitted to one or more such Gaussian functions.
-      The function is e\ :sup:`−8x^2/ radius^2`\,
+      The function is e\ :sup:`-8x^2/ radius^2`\,
       such that the radius roughly matches the maximum falloff distance.
       To match a given measured variance *v*, set *radius* = sqrt(16 × *v*).
    Christensen-Burley

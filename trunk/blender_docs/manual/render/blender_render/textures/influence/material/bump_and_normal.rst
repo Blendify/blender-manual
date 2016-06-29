@@ -34,8 +34,8 @@ Normal maps
 
    Normal maps in Blender store a normal as follows:
 
-   - Red maps from (0 - 255) to X (−1.0 - 1.0)
-   - Green maps from (0 - 255) to Y (−1.0 - 1.0)
+   - Red maps from (0 - 255) to X (-1.0 - 1.0)
+   - Green maps from (0 - 255) to Y (-1.0 - 1.0)
    - Blue maps from (0 - 255) to Z (0.0 - 1.0)
 
    Since normals all point towards a viewer, negative Z-values are not stored (they would be invisible anyway).

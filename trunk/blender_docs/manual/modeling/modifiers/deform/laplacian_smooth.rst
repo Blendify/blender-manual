@@ -84,7 +84,7 @@ Repeat
 
 
    .. list-table::
-       with a factor of −0.5
+       with a factor of -0.5
 
       * - .. figure:: /images/Apinzonf_Diagram_camel_repeat0.jpg
              :width: 130px
@@ -166,17 +166,17 @@ Factor
         - .. figure:: /images/Apinzonf_Diagram_camel_lambda20_0.jpg
              :width: 130px
 
-             Factor: −20.0.
+             Factor: -20.0.
 
         - .. figure:: /images/Apinzonf_Diagram_camel_lambda50_0.jpg
              :width: 130px
 
-             Factor: −50.0.
+             Factor: -50.0.
 
         - .. figure:: /images/Apinzonf_Diagram_camel_lambda300_0.jpg
              :width: 130px
 
-             Factor: −300.0.
+             Factor: -300.0.
 
 
 Border
@@ -236,7 +236,7 @@ Border
 
 
    .. list-table::
-      with a factor of −30.0
+      with a factor of -30.0
 
       * - .. figure:: /images/modifier_laplacian-smooth_example_cup0_0.jpg
              :width: 130px
@@ -246,17 +246,17 @@ Border
         - .. figure:: /images/modifier_laplacian-smooth_example_cup20_0.jpg
              :width: 130px
 
-             Border: −20.0.
+             Border: -20.0.
 
         - .. figure:: /images/modifier_laplacian-smooth_example_cup50_0.jpg
              :width: 130px
 
-             Border: −50.0.
+             Border: -50.0.
 
         - .. figure:: /images/modifier_laplacian-smooth_example_cup200_0.jpg
              :width: 130px
 
-             Border: −200.0.
+             Border: -200.0.
 
 
 X, Y, Z
