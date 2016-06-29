@@ -44,7 +44,7 @@ Example Video:
 Connecting nodes
 ================
 
-:kbd:`LMB`-click on a socket and drag. You will see a line coming out of it: This is called a *link* or *noodle*.
+:kbd:`LMB`-click on a socket and drag. You will see a line coming out of it: This is called a *link*.
 
 Keep dragging and connect the link to an input socket of another node, then release the :kbd:`LMB`.
 

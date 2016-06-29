@@ -76,7 +76,7 @@ Plus sign
 X sign
    Remove link to this material.
 Nodes
-   Designates this material to be a material node noodle, and not from the Material/Ramps/Shaders settings.
+   Designates this material to be a material node setup, and not from the Material/Ramps/Shaders settings.
 Data-block links
    The Link pop-up menu has two choices, Data and Object.
    These two menu choices determine whether the material is linked to the object or to the data,

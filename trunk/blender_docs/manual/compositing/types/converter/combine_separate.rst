@@ -71,7 +71,7 @@ In this first example, we take the Alpha channel and blur it,
 and then combine it back with the colors. When placed in a scene,
 the edges of it will blend in, instead of having a hard edge.
 This is almost like anti-aliasing but in a three-dimensional sense.
-Use this noodle when adding CG elements to live action to remove any hard edges.
+Use this node setup, when adding CG elements to live action to remove any hard edges.
 Animating this effect on a broader scale will make the object appear to "phase" in and out,
 as an "out-of-phase" time-traveling sync effect.
 

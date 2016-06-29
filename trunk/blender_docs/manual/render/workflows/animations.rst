@@ -133,7 +133,7 @@ Post Processing Panel
       If the sequence contains scene strips, these will also be rendered as part of the pipeline.
       If Do Composite is also enabled, the Scene strip will be the output of the Compositor.
    Compositing
-      Renders the output from the Compositing noodle, and then pumps all images through the Composite node map,
+      Renders the output from the compositing node setup, and then pumps all images through the Composite node map,
       displaying the image fed to the Composite Output node.
 
 

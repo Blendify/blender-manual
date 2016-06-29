@@ -91,7 +91,7 @@ the *Map Value node* scales that to 0.0 to 1.0 by taking the input (-1 to 1), ad
 The default *ColorRamp* converts those values to a grayscale. Thus,
 medium gray corresponds to a 0.0 output by the sine, black to -1.0, and white to 1.0.
 As you can see, sin(pi/ 2) = 1.0. Like having your own visual color calculator! Animating this
-noodle provides a smooth cyclic sequence through the range of grays.
+node setup provides a smooth cyclic sequence through the range of grays.
 
 Use this function to vary, for example,
 the alpha channel of an image to produce a fading in/out effect.
@@ -200,7 +200,7 @@ Reality
    :width: 650px
 
 
-To implement this function in Blender, consider the noodle above. First,
+To implement this function in Blender, consider the node setup above. First,
 feed the image to the Separate RGB node. For the Red channel,
 we string the math nodes into a function that takes each red color, multiplies (scales)
 it up by the desired number of divisions (6), offsets it by 0.5,
@@ -211,8 +211,8 @@ since the function rounds down,
 and then dividing by five results in six values {0.0, 0.2, 0.4, 0.6, 0.8, 1.0}.
 
 The result is that the output value can only be one of a certain set of values,
-stair-stepped because of the rounding function of the math node noodle.
-Copying this one channel to operate on Green and Blue gives the noodle below.
+stair-stepped, because of the rounding function of the math node node setup.
+Copying this one channel to operate on Green and Blue gives the node setup below.
 To get the 6:6:7, we set the three Multiply Nodes to {6, 6, 7} and the divide nodes to {5, 5, 6}.
 
 If you make this into a node group, you can easily re-use this setup from project to project.
@@ -225,7 +225,7 @@ Summary
 
 Normally, an output render consists of 32- or 24-bit color depth,
 and each pixel can be one of the millions of possible colors.
-This noodle example takes each of the Red,
+This node setup example takes each of the Red,
 Green and Blue channels and normalizes them to one of a few values.
 When all three channels are combined back together,
 each color can only be one of 256 possible values.
@@ -247,4 +247,4 @@ you could reduce Red to 2 values, Green to 4, and let the blue take on 256/(2 ×
 If using the HSV, you could reduce the Saturation and Value to 2 values (0 or 1.0)
 by Multiply by 2 and Divide by 2, and restrict the Hue to 64 possible values.
 
-You can use this noodle to quantize any channel; alpha, speed (vector), z-values, and so forth.
+You can use this node setup to quantize any channel; alpha, speed (vector), z-values, and so forth.

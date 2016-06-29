@@ -4,7 +4,7 @@ Node Groups
 ***********
 
 Both material and composite nodes can be grouped. Grouping nodes can simplify the node network layout in the node
-editor, making your material or composite 'noodle' (node network) easier to work with. Grouping nodes also creates
+editor, making your material or composite node setup easier to work with. Grouping nodes also creates
 what are called NodeGroups (inside a blend-file) or NodeTrees (when appending).
 
 Conceptually, "grouping" allows you to specify a *set* of nodes that you can treat as though it were "just one node".
