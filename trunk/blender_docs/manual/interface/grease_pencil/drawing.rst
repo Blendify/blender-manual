@@ -1,4 +1,4 @@
-﻿..    TODO/Review: {{review|fixes = merge?}}.
+..    TODO/Review: {{review|fixes = merge?}}.
 
 **************************
 Drawing With Grease Pencil
