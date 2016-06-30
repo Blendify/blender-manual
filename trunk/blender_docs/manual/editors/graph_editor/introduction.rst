@@ -1,6 +1,6 @@
 
 ************
-Graph Editor
+Introduction
 ************
 
 The graph editor is the main animation editor.
