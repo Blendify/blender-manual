@@ -1,10 +1,8 @@
 
-####################
-  Movie Clip Editor
-####################
+************
+Intruduction
+************
 
-Introduction
-============
 
 The Movie Clip Editor has two main purposes, it can be used for for tracking or masking movies.
 The default layout looks like the image below.
