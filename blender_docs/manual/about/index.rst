@@ -13,4 +13,3 @@
    install/index.rst
    style_guides/index.rst
    translations/index.rst
-   migration.rst
