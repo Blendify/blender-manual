@@ -7,20 +7,17 @@ The Blender Manual is a community driven effort to which anyone can contribute.
 Either if you found a typo or if you want to improve the general quality of the documentation,
 there are several options for helping out. You can:
 
-#. Fix problems, improve the documentation and write new sections - see how to :doc:`contribute </about/contribute>`.
+#. Fix problems, improve the documentation and write new sections - see how to :doc:`contribute </about/contribute/index>`.
 #. `Report problems <https://developer.blender.org/maniphest/task/create/?project=53>`__ in the documentation.
 #. Get involved in discussions through the `mailing list <https://lists.blender.org/mailman/listinfo/bf-docboard>`__
    and ``#blenderwiki`` :ref:`IRC channel <irc-channels>`.
 
 
-Organization and Process
-========================
+Community
+=========
 
-The Blender manual maintainers are divided into administrators, section owners, section members and contributors.
-Before you can edit the documentation directly, you need to submit patches for review,
-similarly to how Blender's own development process works.
-Straight-forward patches are bound to be accepted very quickly and
-once you get accustomed to making changes and no longer need feedback, you will gain commit access.
+The Blender manual maintainers are divided into 
+administrators, section owners, section members and contributors.
 
 Administrators are responsible for managing the whole project and infrastructures (such as this website).
 Section Owners are responsible for a given section, reviewing patches for it, giving feedback and
