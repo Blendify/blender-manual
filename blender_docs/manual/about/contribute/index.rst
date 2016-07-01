@@ -16,7 +16,7 @@ In a nutshell:
 - The manual sources are hosted in a central repository (at blender.org).
 
 - You download the source files from the repository and edit them using a plain text editor.
-- You convert the modified source files into HTML web pages on your local disk to see how your changes 
+- You convert (build) the modified source files into HTML web pages on your local disk to see how your changes 
   later look like on `blender.org/manual <https://blender.org/manual/>`__.
 - When you are satisfied with your work, commit your modified files to the central repository
   for others to work with and continue collaborating.
@@ -30,7 +30,8 @@ Steps
 .. toctree::
    :maxdepth: 1
 
-   Install & Build <install/index.rst>
+   Install <install/index.rst>
+   Build <build/index.rst>
    Editing <editing.rst>
    Patch & Commit <patch_commit.rst>
 
