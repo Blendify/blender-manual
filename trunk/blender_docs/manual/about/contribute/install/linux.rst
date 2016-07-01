@@ -8,7 +8,6 @@ This guide covers the following topics:
 #. `Installing Dependencies`_
 #. `Downloading the Repository`_
 #. `Setting up the Build Environment`_
-#. `Building the HTML Files`_
 
 
 Installing Dependencies
@@ -72,47 +71,6 @@ To install these dependencies, we can use the ``pip`` command:
       sudo pip install -r requirements.txt  --upgrade
 
 
-Building the HTML Files
-=======================
-
-We are now ready to convert all those **rst** files into pretty **html**!
-
-Open a terminal to the folder ``~/blender_docs`` and simply run:
-
-.. code-block:: sh
-
-   make
-
-This is the command you will always use when building the docs.
-The building process may take several minutes the first time (or after any major changes),
-but the next time you build it should only take a few seconds.
-
-Once the docs have been built, all the html files can be found inside ``~/blender_docs/build/html``.
-Try opening ``build/html/contents.html`` in your web browser and read the manual.
-
-.. code-block:: sh
-
-   xdg-open build/html/contents.html
-
-Now that you are able to build the manual, please visit the :doc:`writing </about/style_guides/writing_guide>`
-and :doc:`markup </about/style_guides/markup_guide>` style guides for standard conventions,
-or the :doc:`contribution </about/contribute>` page to see how you can help write this manual.
-
-
-Building a Single Chapter
--------------------------
-
-If you are working on a specific chapter of the manual, you can build it quickly using:
-
-.. code-block:: sh
-
-   make <chapter name>
-
-For example, to build only the documentation for the modifiers, use ``make modifiers``.
-You can then view this quick build by opening ``build/html/contents_quicky.html``.
-
-This will build very quickly, but it will mean your next complete build of all the chapters will be slow.
-
 ------------------------
 
-Continue with the next step: :doc:`Editing </about/contribute/editing>`
+Continue with the next step: :doc:`Building </about/contribute/build/linux>`

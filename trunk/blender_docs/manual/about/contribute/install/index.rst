@@ -1,11 +1,11 @@
 .. _about-install-index:
 
-###################
-  Install & Build
-###################
+###########
+  Install
+###########
 
 This section documents how to install the software used to generate the manual.
-The installation and building process is different for each operating system, instructions have been written for:
+The installation is different for each operating system, instructions have been written for:
 
 
 .. toctree::
