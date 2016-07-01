@@ -1,4 +1,4 @@
-.. _about-install-index:
+.. _about-build-index:
 
 #########
   Build
