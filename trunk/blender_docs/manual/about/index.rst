@@ -9,7 +9,4 @@
 
    introduction.rst
    license.rst
-   contribute.rst
-   install/index.rst
-   style_guides/index.rst
-   translations/index.rst
+   contribute/index.rst
