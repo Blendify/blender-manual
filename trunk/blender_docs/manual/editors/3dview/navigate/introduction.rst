@@ -144,7 +144,7 @@ Manipulator Selector
    These handy selectors allow you to rotate or move objects by grabbing
    (clicking with your mouse) their controls and moving your mouse in the axis.
 
-   :doc:`Read more about Transform Manipulators </editors/3dview/transform/transform_control/manipulators>`
+   :doc:`Read more about Transform Manipulators </editors/3dview/transform/transform_control/precision/manipulators>`
 
 Layer Selector
    Layers are well documented in the :doc:`Layers page </editors/3dview/layers>`.
@@ -170,7 +170,7 @@ Lock to Scene
 Snap to Mesh
    Controls the snapping tools that help with transforming and modeling objects.
 
-   :doc:`Read more about Snapping </editors/3dview/transform/transform_control/snap>`
+   :doc:`Read more about Snapping </editors/3dview/transform/transform_control/precision/snap>`
 
 Render Buttons
    The Render Buttons render an OpenGL version of the 3D View.

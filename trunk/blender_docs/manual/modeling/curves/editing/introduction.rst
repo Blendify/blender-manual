@@ -82,7 +82,7 @@ Snapping
    | Panel:    Curve Tools
 
 
-:doc:`Mesh snapping </editors/3dview/transform/transform_control/snap>`
+:doc:`Mesh snapping </editors/3dview/transform/transform_control/precision/snap>`
 also works with curve components.
 Both control points and their handles will be affected by snapping,
 except for within itself (other components of the active curve).

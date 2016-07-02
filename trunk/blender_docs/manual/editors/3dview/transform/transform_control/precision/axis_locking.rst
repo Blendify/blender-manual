@@ -100,4 +100,4 @@ C and D show the same situation with face selection,
 E and F with edge selection and G and H with vertex selection.
 
 Note that using a locked axis does not prevent you from using the keyboard to enter
-:doc:`numeric transformation </editors/3dview/transform/transform_control/numeric_input>` values.
+:doc:`numeric transformation </editors/3dview/transform/transform_control/precision/numeric_input>` values.

@@ -50,7 +50,7 @@ Constraining the rotation axis (axis locking)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Rotation can be constrained to a particular axis or axes through the use of
-:doc:`Axis Locking </editors/3dview/transform/transform_control/axis_locking>`.
+:doc:`Axis Locking </editors/3dview/transform/transform_control/precision/axis_locking>`.
 To constrain rotation, the following shortcuts can be used:
 
 - :kbd:`R`, :kbd:`X`: Rotate only along the *X-Axis*
@@ -66,9 +66,9 @@ moving the mouse in the desired direction e.g.
 Fine Tuning The Rotation
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-:doc:`Precise control </editors/3dview/transform/transform_control/precision>` can be had over rotation
+:doc:`Precise control </editors/3dview/transform/transform_control/precision/introduction>` can be had over rotation
 through :kbd:`Shift` and :kbd:`Ctrl` to limit rotation to discrete amounts.
-You can also enter a :doc:`numerical value </editors/3dview/transform/transform_control/numeric_input>`
+You can also enter a :doc:`numerical value </editors/3dview/transform/transform_control/precision/numeric_input>`
 in degrees to specify the amount of rotation after after initiating a rotation transformation.
 
 - Hold :kbd:`Ctrl` down while performing a rotation to rotate the selected element in 5 degree increments.
@@ -87,9 +87,9 @@ in degrees to specify the amount of rotation after after initiating a rotation t
 .. seealso::
 
    - :doc:`Read more about Precision Control
-     </editors/3dview/transform/transform_control/precision>`
+     </editors/3dview/transform/transform_control/precision/introduction>`
    - :doc:`Read more about Numerical Transformations
-     </editors/3dview/transform/transform_control/numeric_input>`
+     </editors/3dview/transform/transform_control/precision/numeric_input>`
    - :doc:`Read more about Transform Orientations
      </editors/3dview/transform/transform_control/transform_orientations>`
 
@@ -119,7 +119,7 @@ and blue triad is selected). Set the manipulator type to rotation
 
 .. seealso::
 
-   :doc:`Read more about the 3D Transform Manipulator </editors/3dview/transform/transform_control/manipulators>`
+   :doc:`Read more about the 3D Transform Manipulator </editors/3dview/transform/transform_control/precision/manipulators>`
 
 
 Rotation with the Properties Panel
