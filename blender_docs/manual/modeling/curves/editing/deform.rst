@@ -85,13 +85,17 @@ Let us make a simple example:
 - Press :kbd:`Tab` to exit *Edit Mode*.
 - Now add a curve with :menuselection:`Add --> Curve --> Bézier Curve`.
 
+.. _fig-curves-deform-edit:
+
 .. figure:: /images/curvesdeform_exampleeditcurve.jpg
 
    Edit Curve.
 
 
-- While in *Edit Mode*, move the control points of the curve as shown in Fig. Edit Curve,
-  then exit *Edit Mode* :kbd:`Tab`.
+- While in *Edit Mode*, move the control points of the curve 
+  as shown in Fig. :ref:`fig-curves-deform-edit`, then exit *Edit Mode* :kbd:`Tab`.
+
+.. _fig-curves-deform-monkey-curve:
 
 .. figure:: /images/curvesdeform_examplemonkeyoncurve1.jpg
 
@@ -109,7 +113,7 @@ Let us make a simple example:
   - Select the Monkey :kbd:`RMB`, and then shift select the curve :kbd:`Shift-RMB`.
   - Press :kbd:`Ctrl-P` to open up the *Make Parent* menu.
   - Select :menuselection:`Make Parent --> Curve Deform`.
-- The Monkey should be positioned on the curve, as in Fig. Monkey on a Curve.
+- The Monkey should be positioned on the curve, as in Fig. :ref:`fig-curves-deform-monkey-curve`.
 - Now if you select the Monkey :kbd:`RMB`, and move it :kbd:`G`,
   in the Y-direction (the dominant axis by default), the monkey will deform nicely along the curve.
 
@@ -119,12 +123,14 @@ Let us make a simple example:
    while moving the Monkey you will constrain the movement to one axis only.
 
 
-- In Fig. Monkey deformations, you can see the Monkey at different positions along the curve.
+- In Fig. :ref:`fig-curves-deform-monkey-deform`, you can see the Monkey at different positions along the curve.
 
 .. tip::
 
    Moving the Monkey in directions other than the dominant axis will create some odd deformations.
    Sometimes this is what you want to achieve, so you will need to experiment and try it out!
+
+.. _fig-curves-deform-monkey-deform:
 
 .. figure:: /images/curvesdeform_examplemonkeyoncurve2.jpg
    :width: 650px

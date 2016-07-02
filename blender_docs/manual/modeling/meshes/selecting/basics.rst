@@ -116,8 +116,9 @@ causing elements to be inside the circle will cause those elements to be selecte
 You can enlarge or shrink the circle region using :kbd:`NumpadPlus` and :kbd:`NumpadMinus`,
 or the :kbd:`Wheel`.
 
-.. list-table::
-   Circle Region Select
+.. _fig-mesh-select-basic-circle:
+
+.. list-table:: Circle Region Select.
 
    * - .. figure:: /images/Modeling-Meshes-Selection-Circularselect1.jpg
           :width: 300px
@@ -130,7 +131,7 @@ or the :kbd:`Wheel`.
           After.
 
 
-Fig. Circle Region Select is an example of selecting edges while in *Edge Select Mode*.
+Fig. :ref:`fig-mesh-select-basic-circle` is an example of selecting edges while in *Edge Select Mode*.
 As soon as an edge intersects the circle the edge becomes selected.
 The tool is interactive such that edges are selected while the circle region is being dragged with the :kbd:`LMB`.
 
@@ -155,9 +156,9 @@ The one difference between *Lasso* and *Border* select is that in *Object Mode*,
 
 To deselect, use :kbd:`Ctrl-Shift-LMB` while dragging.
 
+.. _fig-mesh-select-basic-lasso:
 
-.. list-table::
-   Lasso selection
+.. list-table:: Lasso selection.
 
    * - .. figure:: /images/Modeling-Meshes-Selection-Lassoselect1.jpg
           :width: 200px
@@ -175,7 +176,7 @@ To deselect, use :kbd:`Ctrl-Shift-LMB` while dragging.
           Complete.
 
 
-Fig. Lasso selection is an example of using the *Lasso select tool* in *Vertex Select Mode*.
+Fig. :ref:`fig-mesh-select-basic-lasso` is an example of using the *Lasso select tool* in *Vertex Select Mode*.
 
 
 Additional Selection Tools

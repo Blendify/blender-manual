@@ -170,7 +170,9 @@ There is a subtlety regarding connected bones.
 When you have several connected bones selected, if you deselect one bone,
 its tip will be deselected, but not its root, if it is also the tip of another selected bone.
 
-To understand this, look at Fig. Bone deselection in a selected chain.
+To understand this, look at Fig. :ref`fig-rig-bone-select-deselect`.
+
+.. _fig-rig-bone-select-deselect:
 
 .. list-table::
    Bone deselection in a selected chain
@@ -186,8 +188,8 @@ To understand this, look at Fig. Bone deselection in a selected chain.
           Two selected bones.
 
 
-After :kbd:`Shift-RMB` -clicking ``Bone.003``:
+After :kbd:`Shift-RMB` -clicking "Bone.003":
 
-- ``Bone.003`` 's tip (which is same as ``Bone.004`` 's root) is deselected
-- ``Bone`` is ``Bone.003`` 's parent. Therefore ``Bone.003`` 's root is same as the tip of ``Bone``.
-  Since ``Bone`` is still selected, its tip is selected. Thus the root of ``Bone.003`` remains selected.
+- "Bone.003" 's tip (which is same as "Bone.004" 's root) is deselected
+- "Bone" is "Bone.003" 's parent. Therefore "Bone.003" 's root is same as the tip of "Bone".
+  Since "Bone" is still selected, its tip is selected. Thus the root of "Bone.003" remains selected.

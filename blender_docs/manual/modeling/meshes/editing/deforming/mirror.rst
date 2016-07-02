@@ -45,12 +45,14 @@ Pivot points will become the center of symmetry.
 If the widget is turned on it will always show where the pivot point is.
 
 
-On Fig. Mirror around the Individual Centers ... the pivot point default to
+In Fig. :ref:`fig-mesh-deform-mirror-center` the pivot point default to
 median point of the selection of vertices in *Edit Mode*.
 This is a special case of the *Edit Mode* as explained on the
 :doc:`pivot point page </editors/3dview/transform/transform_control/pivot_point/index>`.
 
-.. list-table::
+.. _fig-mesh-deform-mirror-center:
+
+.. list-table:: Mirror around the Individual Centers
 
    * - .. figure:: /images/MirrorTool1.jpg
           :width: 300px
@@ -63,11 +65,13 @@ This is a special case of the *Edit Mode* as explained on the
           Mesh after mirrored along X axis.
 
 
-On Fig. Mirror around the 3D Cursor ... the pivot point is the *3D Cursor*,
+In Fig. :ref:`fig-mesh-deform-mirror-cursor` the pivot point is the *3D Cursor*,
 the transformation orientation is *Local*, a.k.a. the Object space,
 and the axis of transformation is X.
 
-.. list-table::
+.. _fig-mesh-deform-mirror-cursor:
+
+.. list-table:: Mirror around the 3D Cursor
 
    * - .. figure:: /images/MirrorTool3.jpg
           :width: 300px

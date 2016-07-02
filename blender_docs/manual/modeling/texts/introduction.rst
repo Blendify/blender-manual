@@ -16,6 +16,7 @@ Introduction
    | Panel:    Curve and Surface, Font and Char
    | Menu:     :menuselection:`Add --> Text`
 
+.. _fig-texts-intro-example:
 
 .. figure:: /images/TextSamples.jpg
    :width: 400px
@@ -43,7 +44,7 @@ Of course, once you are happy with the shape of your text, you can convert it
 or directly to a mesh,
 allowing you to use all the powerful features of these types of objects on it...
 
-Fig. Text Examples shows some examples of various fonts in action,
+Fig. :ref:`fig-texts-intro-example` shows some examples of various fonts in action,
 including the "blue" font that has been applied to a curve path.
 
 .. note::
@@ -324,13 +325,15 @@ Text on Curve
 
 With the :doc:`curve modifier </modeling/modifiers/deform/curve>` you can let text follow a curve.
 
+.. _fig-texts-intro-on-curve:
+
 .. figure:: /images/text-curved-lowres-ex.jpg
    :width: 200px
 
    Text on curve.
 
 
-In Fig. Text on curve you can see a text deformed by a curve (a 2D Bézier circle).
+In Fig. :ref:`fig-texts-intro-on-curve` you can see a text deformed by a curve (a 2D Bézier circle).
 
 To apply the curve modifier, the text object first has to be converted to a mesh,
 using :kbd:`Alt-C` and click mesh.

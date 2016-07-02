@@ -54,10 +54,11 @@ Friction Factor
 Random friction
    Random variation of friction.
 
+.. _fig-collision-soft-plane:
 
 .. figure:: /images/physics_VertexPlaneCollision.gif
 
-   Image 1b: A softbody vertex colliding with a plane.
+   A softbody vertex colliding with a plane.
 
 
 Soft Body and Cloth Interaction
@@ -68,7 +69,7 @@ Outer
 Inner
    Size of the inner collision zone (padding distance).
 
-Outside and inside is defined by the face normal, depicted as blue arrow in Fig. Image 1b.
+Outside and inside is defined by the face normal, depicted as blue arrow in Fig. :ref:`fig-collision-soft-plane`.
 
 Damping Factor
    Damping during a collision.

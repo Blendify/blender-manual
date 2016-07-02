@@ -62,7 +62,9 @@ When you press :kbd:`E`, for each selected tip
 (either explicitly or implicitly), a new bone is created.
 This bone will be the child of "its" tip owner, and connected to it. As usual,
 once extrusion is done, only the new bones' tips are selected, and in grab mode,
-so you can place them to your liking. See Fig. Extrusion example.
+so you can place them to your liking. See Fig. :ref:`fig-rig-bones-extrusion`.
+
+.. _fig-rig-bones-extrusion:
 
 .. list-table::
    Extrusion example
@@ -82,6 +84,8 @@ You also can use the rotating/scaling extrusions,
 as with meshes, by pressing respectively :kbd:`E-R` and :kbd:`E-S` -
 as well as :doc:`locked </editors/3dview/transform/transform_control/axis_locking>`
 extrusion along a global or local axis.
+
+.. _fig-rig-bone-mirror:
 
 .. list-table::
    Mirror extrusion example
@@ -105,12 +109,12 @@ each extruded tip will produce *two new bones*, having the same name except for 
 (for left/right, see the :ref:`next page <armature-editing-naming_conventions>`).
 The "_L" bone behaves like the single one produced by the default extrusion -
 you can grab/rotate/scale it exactly the same way.
-The "_R" bone is its mirror counterpart (along the armature's local X axis), see Fig. Mirror extrusion example.
+The "_R" bone is its mirror counterpart (along the armature's local X axis), see Fig. :ref:`fig-rig-bone-mirror`.
 
 .. warning::
 
    Cancelling the extrude action causes the newly created bones to snap back to the source position,
-   *(creating zero length bones)*. These will be removed when exiting editmode,
+   (creating zero length bones). These will be removed when exiting Edit Mode,
    however they can cause confusion and it's unlikely you want to keep them.
    If you realize the problem immediately undo the extrude action.
 
@@ -151,7 +155,9 @@ If the active element is a *bone*
 
 - the new bone's root is placed on the active bone's tip
 - the new bone is parented and connected to the active bone
-  (check the outliner in Fig. Ctrl-clicking when the active element is a bone).
+  (check the outliner in Fig. :ref:`fig-rig-bone-active-tip`).
+
+.. _fig-rig-bone-active-tip:
 
 .. figure:: /images/RiggingMouseClickTail.jpg
    :width: 300px
@@ -163,7 +169,9 @@ If the active element is a *tip* :
 
 - the new bone's root is placed on the active tip
 - the new bone is parented and connected to the bone owning the active tip
-  (check the outliner in Fig. Ctrl-clicking when the active element is a tip).
+  (check the outliner in Fig. :ref:`fig-rig-bone-active-tip`).
+
+.. _fig-rig-bone-disconnected-tip:
 
 .. figure:: /images/RiggingMouseClickHead.jpg
    :width: 300px
@@ -175,9 +183,11 @@ If the active element is a *disconnected root* :
 
 - the new bone's root is placed on the active root
 - the new bone is **not** parented to the bone owning the active root
-  (check the outliner in Fig. Ctrl-clicking when the active element is a disconnected root).
+  (check the outliner in Fig. :ref:`fig-rig-bone-disconnected-tip`).
 
 And hence the new bone will **not** be connected to any bone.
+
+.. _fig-rig-bone-connected-root:
 
 .. figure:: /images/RiggingMouseClickHeadConnected.jpg
    :width: 300px
@@ -189,7 +199,7 @@ If the active element is a *connected root* :
 
 - the new bone's root is placed on the active root
 - the new bone **is** parented and connected to the parent of the bone owning the active root
-  (check the outliner in Fig Ctrl-clicking when the active element is a connected root).
+  (check the outliner in Fig. :ref:`fig-rig-bone-connected-root`).
 
 This should be obvious because if the active element is a connected root then the active
 element is also the tip of the parent bone, so it is the same as the second case.
@@ -331,8 +341,9 @@ The duplicate of a bone which is parented to another bone will also be parented 
 bone, even if the root bone is not selected for the duplication. Be aware, though,
 that if a bone is parented **and** connected to an unselected bone,
 its copy will be parented, but **not** connected to the unselected bone
-(see Fig. Duplication example).
+(see Fig. :ref:`fig-rig-bone-duplication`).
 
+.. _fig-rig-bone-duplication:
 
 .. list-table::
    Duplication example
@@ -417,11 +428,13 @@ If another (non-selected) chain origins from inside of the merged chain of bones
 it will be parented to the resultant merged bone. If they were connected,
 it will be connected to the new bone.
 
-Here's a strange subtlety (see Fig. Merge example): even though connected
+Here's a strange subtlety (see Fig. :ref:`fig-rig-bone-merge`): even though connected
 (the root bone of the unmerged chain has no root sphere),
 the bones are not visually connected - this will be done as soon as you edit one bone,
 differently depending in which chain is the edited bone
 (compare the bottom two images of the example to understand this better).
+
+.. _fig-rig-bone-merge:
 
 .. list-table::
    Merge example

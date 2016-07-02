@@ -3,6 +3,8 @@
 Introduction
 ************
 
+.. _fig-surface-intro-surface:
+
 .. figure:: /images/NurbsSurface.jpg
 
    Surface.
@@ -53,7 +55,7 @@ Visualization
 There is nearly no difference from NURBS curves,
 except that the U direction is indicated by yellow grid lines,
 and the V one is materialized by pink grid lines, as you can see in
-Fig. Surface.
+Fig. :ref:`fig-surface-intro-surface`.
 
 You can :ref:`hide and reveal <curves-hiding>` control points just as with curves.
 
@@ -158,12 +160,14 @@ one for each U and V axis. Here again, they can be one of *Cyclic*, *Endpoint*,
 or *Bézier*, with the same properties as for curves. And as with curves, only open surfaces
 (in the relevant direction) are affected by this setting...
 
+.. _fig-surface-intro-endpoint:
+
 .. figure:: /images/Surfaces-Endpoint-U-Ex.jpg
 
    Endpoint U.
 
 
-In Fig. Endpoint U the U interpolation axis is labeled as "U" and the V
+In Fig. :ref:`fig-surface-intro-endpoint` the U interpolation axis is labeled as "U" and the V
 interpolation axis is labeled as "V". The U's interpolation axis has
 been set to *Endpoint* and as such the surface now extends to the outer edges from
 E1 to E2 along the U interpolation axis.

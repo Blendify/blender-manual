@@ -42,13 +42,15 @@ Let us make a simple example:
 - Remove default cube object from scene and add a Monkey with :menuselection:`Add --> Mesh --> Monkey`
 - Now add a curve with :menuselection:`Add --> Curve --> Bézier Curve`
 
+.. _fig-modifier-curve-edit:
+
 .. figure:: /images/curvesdeform_exampleeditcurve2.jpg
    :width: 300px
 
    Edit Curve.
 
 
-- While in Edit Mode, move the control points of the curve as shown in Fig. Edit Curve,
+- While in Edit Mode, move the control points of the curve as shown in Fig. :ref:`fig-modifier-curve-edit`,
   then exit Edit Mode :kbd:`Tab`.
 - Select the Monkey :kbd:`RMB` in *Object Mode*
 - Assign the curve to the modifier, as shown below. The Monkey should be positioned on the curve:

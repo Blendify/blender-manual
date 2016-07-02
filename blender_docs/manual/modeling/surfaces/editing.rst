@@ -101,14 +101,15 @@ so you only can create a new surface by copying (`Duplication`_) an existing one
 Examples
 ^^^^^^^^
 
-Images Fig. Selecting control-point to Fig. Complete
+Images Fig. :ref:`fig-surface-edit-select-control` to Fig. :ref:`fig-surface-edit-select-complete`
 show a typical extrusion along the side of a surface.
 
-In Fig. Selecting control-point and :kbd:`Shift-R`,
+In Fig. :ref:`fig-surface-edit-select-control` and :kbd:`Shift-R`,
 a border row of control points were highlighted by selecting a single control point,
 labeled "C", and then using the handy row select tool :kbd:`Shift-R`
 to select the rest of the control points.
 
+.. _fig-surface-edit-select-control:
 
 .. figure:: /images/NurbsSurfaceSelectEdge.jpg
    :width: 500px
@@ -120,6 +121,7 @@ Notice how the mesh has bunched up next to the highlighted edge;
 the area in question is highlighted in a light-gray circular area.
 That is because the *new* extruded surface section is bunched up there as well.
 
+.. _fig-surface-edit-select-complete:
 
 .. figure:: /images/NurbsExtrude.jpg
    :width: 500px

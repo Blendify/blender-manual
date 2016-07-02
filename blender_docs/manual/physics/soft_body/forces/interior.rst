@@ -3,15 +3,17 @@
 Interior
 ********
 
+.. _fig-softbody-force-interior-connection:
+
 .. figure:: /images/physics_Bsod-softbody-theory1.jpg
    :width: 200px
 
-   Image 1a: Vertices and forces along their connection edges.
+   Vertices and forces along their connection edges.
 
 
 To create a connection between the vertices of a Soft Body object there have to be forces that
 hold the vertices together. These forces are effective along the edges in a mesh,
-the connections between the vertices. The forces act like a spring. Fig. Image 1a
+the connections between the vertices. The forces act like a spring. Fig. :ref:`fig-softbody-force-interior-connection`
 illustrates how a 3×3 grid of vertices (a mesh plane in Blender)
 are connected in a Soft Body simulation.
 
@@ -21,16 +23,17 @@ it will not be stable. The logical method to keep a body from collapsing would b
 additional edges between the vertices. This works pretty well,
 but would change your mesh topology drastically.
 
+.. _fig-softbody-force-interior-stiff:
 
 .. figure:: /images/physics_Bsod-softbody-theory2.jpg
    :width: 200px
 
-   Image 1b: Additional forces with Stiff Quads enabled.
+   Additional forces with Stiff Quads enabled.
 
 
 Luckily, Blender allows to define additional *virtual* connections.
 On one hand we can define virtual connections between the diagonal edges of a quad face
-(*Stiff Quads* Fig. Image 1b), on the other hand we can define virtual connections
+(*Stiff Quads* Fig. :ref:`fig-softbody-force-interior-stiff`), on the other hand we can define virtual connections
 between a vertex and any vertices connected to it's neighbors
 *Bending Stiffness*. In other words, the amount of bend that is allowed between a
 vertex and any other vertex that is separated by two edge connections.

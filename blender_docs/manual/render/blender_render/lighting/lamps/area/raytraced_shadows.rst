@@ -71,13 +71,15 @@ Constant Jittered
 Technical Details
 =================
 
+.. _fig-bi-light-rayshadow-area:
+
 .. figure:: /images/AreaLightConcept.jpg
    :width: 250px
 
    Principles behind the Area light.
 
 
-The Fig. Principles behind the Area light
+The Fig. :ref:`fig-bi-light-rayshadow-area`
 picture helps to understand how the soft shadows are simulated.
 
 "(a)" is the *Area* light as defined in Blender. If its shape is *Square*,

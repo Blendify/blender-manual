@@ -44,6 +44,7 @@ the *Stiffness* must be slightly larger than the *Threshold* value. You
 can also visually adjust the *Stiffness* ring by using the :kbd:`RMB` to
 select it and activate *Scale* mode with :kbd:`S`.
 
+.. _fig-meta-edit-stiffness:
 
 .. figure:: /images/MetaStiffness.jpg
    :width: 630px
@@ -51,13 +52,15 @@ select it and activate *Scale* mode with :kbd:`S`.
    Stiffness.
 
 
-In Fig. Stiffness, the meta ball labeled "A",
+In Fig. :ref:`fig-meta-edit-stiffness`, the meta ball labeled "A",
 has a smaller *Stiffness* value than the one labeled "B".
 As you can see, the *green ring* radius is different for each of them.
 
 
 Negative Influence
 ==================
+
+.. _fig-meta-ball-negative:
 
 .. figure:: /images/metaobject-metaball-negative-ex.jpg
    :width: 630px
@@ -66,7 +69,7 @@ Negative Influence
 
 
 The opposite effect of a *positive* influence would be a *negative* influence:
-the objects repel each other. Fig. Negative
+the objects repel each other. Fig. :ref:`fig-meta-ball-negative`
 shows a meta ball and a meta plane where the first is negative and the second, positive.
 Notice how the negative meta is not visible: only the surrounding circles appear.
 This is how Blender indicates that the object is negative.
@@ -136,9 +139,10 @@ producing something very similar to having several metas inside the same object.
 A family is defined by the left part of an object's name (the one before the dot). Remember,
 an object's name is the one in the *OB* field, in most panels,
 **not** the *MB* field, which is the meta data-block's name... For example,
-the *family* part of ``MetaPlane.001`` is ``MetaPlane``.
+the *family* part of "MetaPlane.001" is ``MetaPlane``.
 Each meta object in the same "family" is associated with one another as discussed below.
 
+.. _fig-meta-ball-base:
 
 .. figure:: /images/metaobject-base-ex.jpg
    :width: 300px
@@ -148,9 +152,9 @@ Each meta object in the same "family" is associated with one another as discusse
 
 Families of metas are controlled by a *base* *Meta* object which is identified by
 an *Object* name **without** a right part. For example,
-if we have five metas called ``MetaThing`` ", ``MetaThing.001``,
-``MetaThing.002``, ``MetaThing.003`` and ``MetaThing.004``,
-the *base* *Meta* object would be ``MetaThing``.
+if we have five metas called "MetaThing", "MetaThing.001",
+"MetaThing.002", "MetaThing.003" and "MetaThing.004",
+the *base* *Meta* object would be "MetaThing".
 
 The *base* *Meta* object determines the basis, the resolution, the threshold,
 *and* the transformations. It also has the material and texture area.
@@ -169,12 +173,12 @@ it is as if the other metas were "included" or joined into the base one).
 Examples
 ========
 
-Fig. Meta ball base shows the *base* meta labeled "B".
+Fig. :ref:`fig-meta-ball-base` shows the *base* meta labeled "B".
 The other two *Meta* objects are *children*. Children's selection rings are always black,
 while the group's mesh is orange.
 Because the metas are grouped,
 they form a unified mesh which can always be selected by selecting the mesh of any meta in the group.
-For example, in the example Fig. Meta ball base, only the lower sphere (the parent) has been selected,
+For example, in the example Fig. :ref:`fig-meta-ball-base`, only the lower sphere (the parent) has been selected,
 and you see that both the parent's mesh *and* all of the children's meshes are now highlighted.
 
 

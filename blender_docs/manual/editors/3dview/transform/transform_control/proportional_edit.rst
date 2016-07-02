@@ -175,7 +175,9 @@ cancel the operation and revert your mesh to the way it looked before with
 
 You can use the proportional editing tool to produce great effects with the scaling
 :kbd:`S` and rotation :kbd:`R` tools,
-as Fig. A landscape obtained via proportional editing shows.
+as Fig. :ref:`fig-view3d-transform-landscape` shows.
+
+.. _fig-view3d-transform-landscape:
 
 .. figure:: /images/editors_3dview_Transform-Control_Proportional-Edit-landscape.jpg
    :width: 640px
@@ -184,8 +186,10 @@ as Fig. A landscape obtained via proportional editing shows.
 
 
 Combine these techniques with vertex painting to create fantastic landscapes. 
-The Fig. final rendered landscape image below shows the results of proportional editing after the
+The Fig. :ref:`fig-view3d-transform-landscape-rendered` below shows the results of proportional editing after the
 application of textures and lighting.
+
+.. _fig-view3d-transform-landscape-rendered:
 
 .. figure:: /images/editors_3dview_objects_transform_roportional-edit_example.jpg
    :width: 620px

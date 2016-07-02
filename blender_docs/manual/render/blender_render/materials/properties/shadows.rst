@@ -14,29 +14,33 @@ See :doc:`Shadows </render/blender_render/lighting/shadows/index>` for a more co
    To see shadows in 3D (textured) mode, you must have switched to GLSL mode before making any materials.
    In MultiTexture mode, shadows only appear in the rendered image: none of these can be seen in the preview image.
 
+.. _fig-bi-material-shadow-panel:
 
 .. figure:: /images/materials_properties_shadow.jpg
 
-   Fig. 1: Shadow Panel.
+   Shadow Panel.
 
 
-The Shadow panel in the Materials Properties editor (see Fig. 1)
+The Shadow panel in the Materials Properties editor (see Fig. :ref:`fig-bi-material-shadow-panel`)
 controls the effects that the material can have on the shadows that appear in the scene.
 The various properties are described in the sections below.
 
 
+.. _fig-bi-material-shadow-scene:
+
 .. figure:: /images/materials_properties_shadow2.jpg
 
-   Fig. 2: Scene- all shadow properties off.
+   Scene with all shadow properties off.
 
 
 Options
 =======
 
 The following properties can be set for each individual material with which objects in the
-scene are shaded. The effects are illustrated with rendered images for a simple scene (Fig. 2)
-consisting of two "posts", one with a red (totally non-transparent) material; one green
-(partially transparent) material, set up on a light blue plane to receive the shadows.
+scene are shaded. The effects are illustrated with rendered images for a simple scene 
+(Fig. :ref:`fig-bi-material-shadow-scene`) consisting of two "posts", one with 
+a red (totally non-transparent) material; one green (partially transparent) material, 
+set up on a light blue plane to receive the shadows.
 The illustrations were all taken in Blender Render engine, with Multitexture mode.
 
 

@@ -460,7 +460,7 @@ the light attenuation is progressive
           Sphere with 40.
 
 
-In Fig. Sphere with10, the clipping sphere's radius is 10 units,
+In Fig. Sphere with 10, the clipping sphere's radius is 10 units,
 which means the light's intensity is also being controlled by 10 units of distance.
 With a linear attenuation,
 the light's intensity has fallen very low even before it gets to the first object.

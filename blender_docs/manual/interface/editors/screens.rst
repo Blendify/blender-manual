@@ -38,6 +38,7 @@ however it is simply a window showing only its *header*.
 
 To cycle between screens use :kbd:`Ctrl-Right` and :kbd:`Ctrl-Left`.
 
+.. _fig-ui-screen-scene:
 
 .. figure:: /images/interface_screen-scene-selector.jpg
    :align: center
@@ -67,7 +68,7 @@ Deleting a Screen
 -----------------
 
 You can delete a screen by using the *Delete Data-Block* button (``X``).
-See Fig. Screen and Scene selectors above.
+See Fig. :ref`fig-ui-screen-scene` above.
 
 
 Rearranging a Screen

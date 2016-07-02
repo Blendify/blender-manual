@@ -45,13 +45,14 @@ Extrapolate
    all values outside these ranges are clipped to them.
    When you enable this button, the *min* and *max* values are no longer strict limits,
    but rather "markers" defining a proportional (linear) mapping between input and corresponding output values.
-   Let us illustrate that with two graphs Fig. The Extrapolate principles.
-   In these Fig. pictures, the input range (in abscissa) is set to (1.0 to 4.0),
+   Let us illustrate that with two graphs Fig. :ref:`The Extrapolate principles <fig-constraints-transformation-extrapolate>`.
+   In these pictures, the input range (in abscissa) is set to (1.0 to 4.0),
    and its corresponding output range (in ordinate), to (1.0 to 2.0).
    The yellow curve represents the mapping between input and output.
 
-   .. list-table::
-      The *Extrapolate* principles.
+.. _fig-constraints-transformation-extrapolate:
+
+   .. list-table:: The Extrapolate principles.
 
       * - .. figure:: /images/ConstraintsTransformationExtrapolatePrinciple1.jpg
              :width: 300px

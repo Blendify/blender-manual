@@ -20,7 +20,7 @@ see :doc:`Color Management and Exposure </render/post_process/cm_and_exposure>`.
 Previously Blender clipped color directly with 1.0 (or 255)
 when it exceeded the possible RGB space.
 This caused ugly banding and overblown highlights when light overflowed
-Fig. An overexposed teapot.
+Fig. :ref:`fig-bi-light-exposure-teapot`.
 
 Using an exponential correction formula, this now can be nicely corrected.
 
@@ -59,7 +59,9 @@ which is probably not what we want. *Exposure* brightens the darker pixels,
 so that the darker parts of the image won't be changed at all
 (*Range* : 2.0, *Exposure* : 0.3).
 
-.. list-table::
+.. _fig-bi-light-exposure-teapot:
+
+.. list-table:: Teapot
 
    * - .. figure:: /images/DenseTeapot.jpg
           :width: 320px

@@ -162,7 +162,7 @@ but keep the colors for these settings
 fairly subtle. Play with the *Flares:* number and *Fl. seed:*
 settings until you arrive at something that is pleasing to the eye.
 You might need to play with *Boost:* for a stronger effect
-Fig. Lens Flare settings.
+Fig. :ref:`fig-bi-material-halo-flare` settings.
 
 Note that this tool does not simulate the physics of photons
 traveling through a glass lens; it's just a eye candy.
@@ -170,6 +170,8 @@ traveling through a glass lens; it's just a eye candy.
 
 Blender's lens flare looks nice in motion,
 and disappears when another object occludes the flare mesh.
+
+.. _fig-bi-material-halo-flare:
 
 .. figure:: /images/Halo04.jpg
    :width: 630px
@@ -224,6 +226,8 @@ Let us use a halo material to create a dotmatrix display.
   (take care not to move them!).
   Then adjust the brightness with the *Add* value in the MaterialButtons.
 
+.. _fig-bi-material-halo-dotmatrix:
+
 .. figure:: /images/DotMatrix.jpg
 
    Dot Matrix display.
@@ -233,7 +237,7 @@ You can now animate the texture to move over the billboard,
 using the *ofsX* value in the *Texture* panel of the MaterialButtons.
 (You could use a higher resolution for the grid,
 but if you do you will have to adjust the size of the halos by shrinking them,
-or they will overlap. Fig. Dot Matrix display.
+or they will overlap. Fig. :ref:`fig-bi-material-halo-dotmatrix`.
 
 .. note:: Note about material indices
 

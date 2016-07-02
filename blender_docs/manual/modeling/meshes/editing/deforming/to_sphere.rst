@@ -12,16 +12,17 @@ To Sphere
 
 
 The *To Sphere* transformation will give the selection spherical qualities. The
-Fig. Suzanne with increasing sphericity image below shows the results of applying the
-*To Sphere* transformation to the Suzanne mesh.
+Fig. :ref:`fig-mesh-deform-to-sphere-monkey` below shows the results of applying the
+*To Sphere* transformation to the monkey mesh.
 
+.. _fig-mesh-deform-to-sphere-monkey:
 
 .. figure:: /images/editors_3dview_Transformations-Advanced-To_Sphere_suzanne-spherical.jpg
    :width: 640px
 
-   Suzanne with increasing sphericity.
+   Monkey with increasing sphericity.
 
-   The sequence above shows a Suzanne mesh with a 0, 0.25 (25%), 0.5 (50%) and 1 (100%) To Sphere transform applied.
+   The sequence above shows a monkey mesh with a 0, 0.25 (25%), 0.5 (50%) and 1 (100%) To Sphere transform applied.
 
 
 Usage

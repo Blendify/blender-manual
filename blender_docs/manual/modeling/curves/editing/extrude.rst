@@ -189,30 +189,36 @@ If the taper curve went below the local Y axis the pipe's inside would become th
 which would lead to rendering artifacts.
 Of course as an artist that may be what you are looking for!
 
+.. _fig-curves-extrude-taber1:
+
 .. figure:: /images/curvesTaper02.jpg
 
    Taper example 1.
 
 
-In Fig. Taper example 1
+In Fig. :ref:`fig-curves-extrude-taber1`
 you can clearly see the effect the left taper curve has on the right curve object. Here the
 left taper curve is closer to the object center and that results in a smaller curve object to
 the right.
+
+.. _fig-curves-extrude-taber2:
 
 .. figure:: /images/curvesTaper03.jpg
 
    Taper example 2.
 
 
-In Fig. Taper example 2 a control point in the taper curve to the left is moved away from the
+In Fig. :ref:`fig-curves-extrude-taber2` a control point in the taper curve to the left is moved away from the
 center and that gives a wider result to the curve object on the right.
+
+.. _fig-curves-extrude-taber3:
 
 .. figure:: /images/curvesTaper04.jpg
 
    Taper example 3.
 
 
-In Fig. Taper example 3 we see the use of a more irregular taper curve applied to a curve circle.
+In Fig. :ref:`fig-curves-extrude-taber3` we see the use of a more irregular taper curve applied to a curve circle.
 
 
 TODO: add some "bevel" extrusion with *Tilt* examples.

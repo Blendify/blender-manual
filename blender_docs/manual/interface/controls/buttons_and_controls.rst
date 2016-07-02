@@ -279,6 +279,7 @@ Data-Block Menus
 Menu buttons are used to link Data-Blocks to each other.
 Data-blocks are items like meshes, objects, materials, textures, and so on.
 
+.. _fig-ui-data-block:
 
 .. figure:: /images/interface_data-block.jpg
    :align: right
@@ -307,7 +308,7 @@ Unlink data-block "X"
    Clears the link.
 
 Sometimes there is a list of applied data-blocks
-(such as a list of materials used on the object). See Fig. data-block link buttons above.
+(such as a list of materials used on the object). See Fig. :ref:`fig-ui-data-block` above.
 
 .. figure:: /images/interface_list-controls.jpg
    :align: right
