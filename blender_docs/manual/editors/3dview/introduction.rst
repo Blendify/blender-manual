@@ -82,7 +82,7 @@ Contains various menus, buttons and options based on the current :ref:`mode <obj
 
 - :doc:`Shading mode </editors/3dview/display/shading>`
 - :doc:`Pivot options </editors/3dview/transform/transform_control/pivot_point/index>`
-- :doc:`Transform manipulator </editors/3dview/transform/transform_control/manipulators>`
+- :doc:`Transform manipulator </editors/3dview/transform/transform_control/precision/manipulators>`
 - :doc:`Proportional Edit </editors/3dview/transform/transform_control/proportional_edit>`
-- :doc:`Snapping </editors/3dview/transform/transform_control/snap>`
+- :doc:`Snapping </editors/3dview/transform/transform_control/precision/snap>`
 - :doc:`OpenGL render </render/opengl>`

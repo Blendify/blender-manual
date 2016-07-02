@@ -150,7 +150,7 @@ Snapping
 --------
 
 Snapping in UV is also similar to
-:doc:`Snapping in 3D </editors/3dview/transform/transform_control/snap>`,
+:doc:`Snapping in 3D </editors/3dview/transform/transform_control/precision/snap>`,
 but only snapping to UVs works, however,
 the *Snap to Pixels* option in the *UVs Menu* will force the UVs to snap to the pixels of an image if loaded.
 

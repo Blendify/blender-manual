@@ -60,7 +60,7 @@ Constraining the scaling axis (axis locking)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Scaling can be constrained to a particular axis or axes through the use of
-:doc:`Axis Locking </editors/3dview/transform/transform_control/axis_locking>`.
+:doc:`Axis Locking </editors/3dview/transform/transform_control/precision/axis_locking>`.
 To constrain scaling, the following shortcuts can be used:
 
 - :kbd:`S`, :kbd:`X`: Scale only along the *X-Axis*
@@ -76,10 +76,10 @@ moving the mouse in the desired direction e.g.
 Fine Tuning The Scaling
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-:doc:`Precise control </editors/3dview/transform/transform_control/precision>`
+:doc:`Precise control </editors/3dview/transform/transform_control/precision/introduction>`
 can be had over scaling through the use of the :kbd:`Shift` and :kbd:`Ctrl`
 keys to limit scaling to discrete amounts.
-You can also enter a :doc:`numerical value </editors/3dview/transform/transform_control/numeric_input>`
+You can also enter a :doc:`numerical value </editors/3dview/transform/transform_control/precision/numeric_input>`
 in Blender Units (BU) to specify the amount of scaling after after initiating a scale transformation.
 
 - Hold :kbd:`Ctrl` down while scaling to scale the selected element in degree 0.1 BU increments.
@@ -96,9 +96,9 @@ in Blender Units (BU) to specify the amount of scaling after after initiating a 
 .. seealso::
 
    - :doc:`Read more about Precision Control
-     </editors/3dview/transform/transform_control/precision>`
+     </editors/3dview/transform/transform_control/precision/introduction>`
    - :doc:`Read more about Numerical Transformations
-     </editors/3dview/transform/transform_control/numeric_input>`
+     </editors/3dview/transform/transform_control/precision/numeric_input>`
    - :doc:`Read more about Transform Orientations
      </editors/3dview/transform/transform_control/transform_orientations>`
 
@@ -128,7 +128,7 @@ and blue triad is selected). Set the manipulator type to scale
 - Your changes will be applied when you release :kbd:`LMB` or press :kbd:`Spacebar` or
   :kbd:`Return`. Your changes will be cancelled if you press :kbd:`RMB` or :kbd:`Esc`.
 
-:doc:`Read more about the 3D Transform Manipulator </editors/3dview/transform/transform_control/manipulators>`
+:doc:`Read more about the 3D Transform Manipulator </editors/3dview/transform/transform_control/precision/manipulators>`
 
 
 Scaling with the Properties Panel

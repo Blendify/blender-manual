@@ -1,7 +1,7 @@
 
-*********
-Precision
-*********
+************
+Introduction
+************
 
 .. admonition:: Reference
    :class: refbox
@@ -45,15 +45,14 @@ Hold :kbd:`Ctrl`, :kbd:`Shift` or :kbd:`Ctrl-Shift` and click on the appropriate
 Then move the mouse in the desired direction. The reverse action will also work i.e.
 clicking the manipulator handle and then holding the shortcut key for precision control.
 
-
 .. seealso::
 
-   :doc:`Read more about the Transform Manipulator </editors/3dview/transform/transform_control/manipulators>`
+   :doc:`Read more about the Transform Manipulator </editors/3dview/transform/transform_control/precision/manipulators>`
 
 .. tip:: Combining with other controls
 
    All of the precision controls detailed on the page can be combined with the
-   :doc:`Axis Locking </editors/3dview/transform/transform_control/axis_locking>`
+   :doc:`Axis Locking </editors/3dview/transform/transform_control/precision/axis_locking>`
    controls and used with the different
    :doc:`Pivot Points </editors/3dview/transform/transform_control/pivot_point/index>`.
 
@@ -95,14 +94,13 @@ Scale transformations
 
 Holding :kbd:`Ctrl` will cause size changes in increments of 0.1 BU.
 
-
 .. note:: Snapping modes
 
    Note that if you have a
    :ref:`Snap Element <transform-snap-element>` option enabled,
    holding :kbd:`Ctrl` will cause the selection to snap to the nearest element.
 
-   :doc:`Read more about Snapping </editors/3dview/transform/transform_control/snap>`
+   :doc:`Read more about Snapping </editors/3dview/transform/transform_control/precision/snap>`
 
 
 Holding SHIFT
