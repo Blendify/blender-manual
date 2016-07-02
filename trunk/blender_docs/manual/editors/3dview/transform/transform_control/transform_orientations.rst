@@ -202,10 +202,10 @@ allows you to rename the custom orientation after you press :kbd:`Ctrl-Alt-Space
 The technique of creating custom orientations can become important in creating precise meshes.
 In *Figure 1*, to achieve this effect:
 
-- Select the object's sloping top edge
-- Create a Custom Orientation with :kbd:`Ctrl-Alt-Spacebar` and rename it "Top Edge".
-- Select the objects's bottom, right edge.
-- Extrude with :kbd:`E`.
-- Cancel the extrusion's default movement by pressing :kbd:`RMB` or :kbd:`Esc`.
-- Hit :kbd:`G` to reinitiate movement.
-- Hit :kbd:`Z-Z` to constrain to the "Top Edge" orientation.
+#. Select the object's sloping top edge
+#. Create a Custom Orientation with :kbd:`Ctrl-Alt-Spacebar` and rename it "Top Edge".
+#. Select the objects's bottom, right edge.
+#. Extrude with :kbd:`E`.
+#. Cancel the extrusion's default movement by pressing :kbd:`RMB` or :kbd:`Esc`.
+#. Hit :kbd:`G` to reinitiate movement.
+#. Hit :kbd:`Z-Z` to constrain to the "Top Edge" orientation.
