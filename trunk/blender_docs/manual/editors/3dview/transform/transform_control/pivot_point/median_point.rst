@@ -22,14 +22,18 @@ In Object Mode
 ==============
 
 In Object Mode, Blender only considers the Object centers when determining the median point.
-This can lead to some counterintuitive results. In the Fig. Object Mode median points image below,
+This can lead to some counterintuitive results. In the Fig. :ref:`fig-view3d-median-point-object-mode` below,
 you can see that the median point is between the Object centers and can be nowhere near the
 Objects' mesh.
+
+.. _fig-view3d-median-point-object-mode:
 
 .. figure:: /images/editors_3dview_Transform_control-Pivot_point-Median_point-median-point-objects.jpg
    :width: 640px
 
-   Median points in Object Mode. The Median point is indicated by the yellow dot.
+   Median points in Object Mode. 
+
+   The Median point is indicated by the yellow dot.
 
 
 In Edit Mode
@@ -37,13 +41,17 @@ In Edit Mode
 
 In Edit Mode,
 the median point is determined via the part of the selection that has the most elements.
-For example, in the Fig. Median points in Edit Mode,
+For example, in the Fig. :ref:`fig-view3d-median-point-edit-mode`,
 when there are two cubes with an equal number of vertices,
 the median point lies directly between the two cubes. However,
 if we subdivide one cube multiple times so that it has many more vertices,
 you can see that the median point has shifted to the region with the most vertices.
 
+.. _fig-view3d-median-point-edit-mode:
+
 .. figure:: /images/editors_3dview_Transform_control-Pivot_point-Median_point-median-point-vertices.jpg
    :width: 640px
 
-   Median points in Edit Mode. The Median point is indicated by the yellow dot.
+   Median points in Edit Mode.
+
+   The Median point is indicated by the yellow dot.

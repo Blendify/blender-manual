@@ -73,6 +73,13 @@ table {caption-side: bottom}
 /*figure in table margin*/
 .rst-content td div.figure{margin-bottom:0px}
 
+/*figure legend*/
+.legend {
+	font-size: 90%;
+	color: #808080;
+	margin-top: -20px;
+}
+
 /* proper seal navigation buttons; jumping on resize */
 .rst-footer-buttons::before , .rst-footer-buttons::after{
 	width: 100%;
