@@ -10,6 +10,8 @@ and that the available modes vary depending on the selected active object's type
 most of them only enable the default *Object Mode* (like cameras, lamps, etc.).
 Each mode is designed to edit an aspect of the selected object. See Tab. Blender's Modes below for details.
 
+.. _fig-view3d-mode-select:
+
 .. figure:: /images/editors_3dview-mode.jpg
    :align: right
 
@@ -17,7 +19,7 @@ Each mode is designed to edit an aspect of the selected object. See Tab. Blender
 
 
 You set the current mode in the *Mode* drop-down list of *3D View* header
-(see Fig. Mode selection example).
+(see Fig. :ref:`fig-view3d-mode-select`).
 
 .. warning::
 

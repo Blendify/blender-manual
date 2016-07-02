@@ -34,7 +34,7 @@ Hitting :kbd:`F6` after an action will present you a context-sensitive
 Pop-Up menu based on your last action taken and the Mode and Editor in which Blender is being used.
 
 For example, if your last action was a rotation in *Object Mode*,
-Blender will show you the last value changed for the angle (see Fig. Redo Last - Rotation),
+Blender will show you the last value changed for the angle (see Fig. :ref:`fig-interface-redo-last` left),
 where you can change your action back completely by typing :kbd:`Numpad0`.
 There are other useful options, based on your action context,
 and you cannot only Undo actions, but change them completely using the available options.
@@ -44,10 +44,13 @@ Blender will also change its contents based on your last action taken.
 In our second example (at the right), the last action taken was a Vertex Move;
 we did a *Scale* on a Face, and, as you can see,
 the contents of the Pop-Up menu are different, because of your mode (Edit Mode).
-(See Fig, Redo Last - Scale)
+(See Fig. :ref:`fig-interface-redo-last` right)
 
+.. _fig-interface-redo-last:
 
 .. figure:: /images/basics-undo-redo-f6-rotation-object-edit.jpg
+
+   Redo last.
 
    Left Image: Redo Last- Rotation (Object Mode, 60 degrees), 
    Right Image: Redo Last- Scale (Edit Mode, Resize face)

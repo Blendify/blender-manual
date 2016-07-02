@@ -93,8 +93,11 @@ Shape
    Default (0.0) is a linear interpolation between *Root* and *Tip*.
    A negative value will make the strand narrower (spiky), a positive value will make it fatter.
 
+.. _fig-bi-material-shadow-shapes:
 
 .. figure:: /images/StrandShapes.jpg
+
+   Strand Shapes
 
 Width Fade
    To fade out along the width of the strand.
@@ -105,7 +108,7 @@ UV Layer
    Fill in the name of the UV-Set (not the texture) here.
    You also have to load the texture in the *Texture* tab and *Material* tab
    (*Mapping*: *UV*; you may use every *Influence* setting you like -
-   especially the alpha value; see *Image 3*).
+   especially the alpha value; see Fig. :ref:`fig-bi-material-shadow-shapes`).
 
 Surface Diffuse
    Computes the strand normal, taking the normal at the surface into account.
@@ -121,21 +124,23 @@ Surface Diffuse
 Texturing along the Strand
 ==========================
 
+.. _fig-bi-material-strands-alpha:
+
 .. figure:: /images/materials_texture_mapping.jpg
 
-   Image 4: Fading a strand to alpha...
+   Fading a strand to alpha...
 
 
 .. figure:: /images/StrandRenderFade.jpg
 
-   Image 5: ...And the render result.
+   ... And the render result.
 
 
 Strands can be textured along the strand, i.e. from root to tip. To do that you have to select
 *Strand/Particle* in the *Coordinates* drop-down in the
 *Mapping* panel of the *Material* tab.
 
-Pretty much the most important setting is shown in Fig. Image 4,
+Pretty much the most important setting is shown in Fig. :ref:`fig-bi-material-strands-alpha`,
 how to fade the tip of a strand to alpha to make nice, fuzzy-looking hair.
 Normally you would use a linear blend texture for this.
 

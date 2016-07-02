@@ -316,11 +316,11 @@ Now add a curve circle, and place it 0.25 BU above the grid. Scale it up a bit
 Back to the grid object, add to it a *Vertex Weight Proximity* modifier,
 in *Geometry Distance* mode. Enable *Edge*
 (if you use *Vertex* only, and your curve has a low U definition,
-you would get wavy patterns, see Fig. Wavy patterns).
+you would get wavy patterns, see Fig. :ref:`fig-modifier-vertex-weight-wavy`).
 
+.. _fig-modifier-vertex-weight-wavy:
 
-.. list-table::
-   Wavy patterns.
+.. list-table:: Wavy patterns.
 
    * - .. figure:: /images/ModifiersWeightVGroupGeometryEX1-0PF.jpg
           :width: 300px
@@ -434,13 +434,14 @@ you must add the famous *Vertex Weight Edit* modifier,
 and enable its *Custom Curve* mapping.
 
 By default, it's a one-to-one linear mapping - in other words,
-it does nothing! Change it to something like in Fig. A customized mapping curve, 
+it does nothing! Change it to something like in Fig. :ref:`fig-modifier-vertex-weight-custom`, 
 which maps (0.0, 0.5) to (0.0, 0.25) and (0.5,1.0) to (0.75, 1.0), 
 thus producing nearly only weights below 0.25,
 and above 0.75: this creates great "walls" in the waves...
 
-.. list-table::
-   Custom mapping curve.
+.. _fig-modifier-vertex-weight-custom:
+
+.. list-table:: Custom mapping curve.
 
    * - .. figure:: /images/ModifiersWeightVGroupTexExCMapCurve.jpg
           :width: 200px

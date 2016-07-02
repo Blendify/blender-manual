@@ -73,15 +73,15 @@ Since explaining this in an easy to understand technical way is hard,
 lets instead use an example to demonstrate.
 
 Assume that we have a scene consisting of three objects,
-those being two Empty Objects named "EmptyA" and "EmptyB", and a Monkey object. (See figure 1).
+those being two Empty Objects named "EmptyA" and "EmptyB", and a Monkey object. 
+Fig. :ref:`fig-view3d-parent-scene-no` shows the three objects with no parenting relationships active on them.
 
+.. _fig-view3d-parent-scene-no:
 
 .. figure:: /images/Parent-Object_Keep_Transform-A.jpg
 
-   Figure 1 - Scene with two Empties and a Monkey, no parenting currently active.
+   Scene with no parenting.
 
-
-Figure 1 shows the three objects with no parenting relationships active on them.
 
 If you select the Monkey object by :kbd:`RMB` click and then :kbd:`Shift-RMB`
 click "EmptyA" object and press :kbd:`Ctrl-P` and then select *Object* from the *Set
@@ -91,13 +91,10 @@ only "EmptyA" selected rotating/scaling/moving it will result in the Monkey obje
 altered respectively.
 
 Scale the "EmptyA" object, so that the Monkey becomes smaller and moves to the left a little.
-See figure 2.
-
 
 .. figure:: /images/Parent-Object_Keep_Transform-B.jpg
 
-   Figure 2 - Scene with Monkey object being the Child Object of "EmptyA".
-   "EmptyA" has been scaled resulting in the Monkey also being scaled and moved to the left.
+   The monkey is the child object of "EmptyA".
 
 
 If you select only the Monkey object by :kbd:`RMB` click and then :kbd:`Shift-RMB`
@@ -105,13 +102,10 @@ click "EmptyB" object and press :kbd:`Ctrl-P` and select *Object* from the *Set
 Parent To* pop-up dialog box.
 This will result in "EmptyB" object being the *Parent Object* of the Monkey object.
 Notice that when you change the parent of the Monkey the scale of the Monkey changed.
-See figure 3.
-
 
 .. figure:: /images/Parent-Object_Keep_Transform-C.jpg
 
-   Figure 3 - Scene with Monkey object having its a parent changed
-   from "EmptyA" to "EmptyB" and the resulting change in scale.
+   The monkey is the child object of "EmptyB".
 
 
 This happens because the Monkey object never had its scale altered directly,
@@ -124,13 +118,11 @@ This is often the required behavior, but it is also sometimes useful that if you
 old *Parent Object*; If instead when changing the *Parent Object* of the Monkey from
 "EmptyA" to "EmptyB" we had chosen parenting type *Object (Keep Transform)*, the Monkey
 would keep its scale information it obtained from the old parent "EmptyA" when it is assigned
-to the new parent "EmptyB"; See Figure 4.
-
+to the new parent "EmptyB";
 
 .. figure:: /images/Parent-Object_Keep_Transform-D.jpg
 
-   Figure 4 - Scene with Monkey object having its a parent changed
-   from "EmptyA" to "EmptyB" using *Object (Keep Transform)* parent method.
+   The Object (Keep Transform) parent method.
 
 
 If you want to follow along with the above description here is the blend-file used to describe
@@ -151,12 +143,11 @@ similar way.
 
 In Blender Armature Object Types are usually used to associate certain bones of an Armature to
 certain parts of a Mesh Object Types Mesh Geometry.
-You are then able to move the Armature Bones and the Mesh Object will deform. (See figure 5).
-
+You are then able to move the Armature Bones and the Mesh Object will deform.
 
 .. figure:: /images/SQ-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.jpg
 
-   Figure 5 - Armature Object Bone associated with another Mesh Object, as the bone move the Mesh deforms similarly.
+   Bone associated with Mesh Object.
 
 
 Armature Deform Parenting is one of the most flexible ways of associating Bones in an Armature
@@ -175,12 +166,11 @@ between an Armature Object and its Child Objects.
 To use Armature Deform Parenting you must first select all the Child Objects that will be
 influenced by the Armature and then lastly, select the Armature Object itself. Once all the
 Child Objects and the Armature Object are selected press :kbd:`Ctrl-P` and select
-Armature Deform in the Set Parent To popup dialog. (See figure 6).
-
+Armature Deform in the Set Parent To popup menu. 
 
 .. figure:: /images/SR-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.jpg
 
-   Figure 6 - Set Parent To dialog with Armature Deform Parenting option highlighted.
+   Set Parent To menu with Armature Deform Parenting option highlighted.
 
 
 Once this is done the Armature Object will be the Parent Object of all the other Child
@@ -203,25 +193,21 @@ Group by clicking the Assign Button. By default when selected vertices are assig
 Vertex Group they will have an Influence Weight of 1.0
 This means that they are fully influenced when a Bone they are associated with is moved,
 if the Influence Weight had been 0.5 then when the bone moves the vertices would only move half as much.
-See figure 7.
-
 
 .. figure:: /images/SS-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.jpg
 
-   Figure 7 - :menuselection:`Properties Editor --> Object Data --> Vertex Groups`
-   with *Assign* Button and influence *Weight Slider* highlighted.
+   Vertex groups panel with Assign Button and influence Weight Slider highlighted.
 
 
 Once all these steps have been carried out, the Bones of the Armature Object should be
 associated with the Vertex Groups with the same names as the Bones. You can then select the
-Armature Object and switch to Pose Mode in the :menuselection:`3D View Editor Header --> Mode Select Button`.
-(See figure 8).
-
+Armature Object and switch to Pose Mode in the :menuselection:`3D View Editor Header --> Mode Select` menu.
 
 .. figure:: /images/ST-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.jpg
 
-   Figure 8 - :menuselection:`3D View Editor Header --> Mode Select` set to Pose Mode,
-   with Armature Bone highlighted in Cyan and affecting the Mesh Object
+   Armature Bone in Pose Mode affecting the Mesh Object.
+
+   The bone is highlighted in Cyan.
 
 
 Once in Pose Mode transforming one of the Bones of the Armature that has been associated with
@@ -243,14 +229,11 @@ choosing to have bones in the armature influence them.
 For example, if you have an Armature Object which consists of three bones named "BoneA",
 "BoneB" and "BoneC" and Cube Mesh Object type called "Cube". If you parent the Cube Child Object to
 the Armature Parent Object the Cube will get three new Vertex Groups created on it called "BoneA",
-"BoneB" and "BoneC". Notice that each Vertex Group is empty. (See figure 21).
-
+"BoneB" and "BoneC". Notice that each Vertex Group is empty. 
 
 .. figure:: /images/editors_3dview_Header-ObjectMenu-Parent-Armature_Deform_With_Empty_Groups-blend.jpg
 
-   Figure 21 - Cube in Edit Mode showing the three created Vertex Groups after it was parented
-   using Armature Deform With Empty Groups to an Armature with three Bones named BoneA,
-   BoneB and BoneC with the Vertex Group Panel shown. All the Vertex Groups are empty.
+   Cube in Edit Mode using Armature Deform with empty groups.
 
 
 Bones in an Armature can be generally classified into two different types:
@@ -280,14 +263,11 @@ on the armature and select the bone you are interested in by :kbd:`RMB` it.
 Once the bone of interest is selected navigate to
 :menuselection:`Properties Editor --> Bone --> Deform Panel`
 and check if the Deform tickable option is ticked or not. If it is the selected bone is a Deforming Bone,
-otherwise, it is a Control Bone. (See figure 22).
-
+otherwise, it is a Control Bone. 
 
 .. figure:: /images/editors_3dview_parenting_bone-check.png
 
-   Figure 22 - 3 Bone Armature in *Pose* Mode with 1st bone selected with 
-   :menuselection:`Properties Editor --> Bone --> Deform`
-   displayed unticked, indicating the bone is not a Deforming Bone.
+   Three Bone Armature in *Pose* Mode with 1st bone selected. 
 
 
 Armature Deform With Automatic Weights
@@ -332,51 +312,51 @@ The created Vertex Groups will then be assigned Influence Weights.
 The major difference is in the way those Influence Weights are calculated.
 
 Influence Weights that are calculated when using Armature Deform With Envelope Weights
-parenting are calculated entirely visually using Bone Envelopes. (See figure 28).
+parenting are calculated entirely visually using Bone Envelopes. 
 
+.. _fig-view3d-parent-envelope:
 
 .. figure:: /images/TN-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform_With_Envelope_Weights.jpg
 
-   Figure 28 - Single Armature Bone in Edit Mode with Envelope Weight display enabled.
+   Single Armature Bone in Edit Mode with Envelope Weight display enabled.
+
    The gray volume around the bone is the Bone Envelope.
 
 
-Figure 28 shows a single Armature Bone in Edit Mode with Envelope Weight activated.
+Fig. :ref:`fig-view3d-parent-envelope` shows a single Armature Bone in Edit Mode with Envelope Weight activated.
 The gray semi-transparent volume around the bone is the Bone Envelope.
 
 Any Child Object that has vertices inside the volume of the Bone Envelope will be influenced by
 the Parent Object Armature when the Armature Deform With Envelope Weights operator is used.
-Any vertices outside the Bone Envelope volume will not be influenced. (See figure 29).
+Any vertices outside the Bone Envelope volume will not be influenced. 
+When the bones are transformed in Pose Mode the results are very different. 
 
 
 .. figure:: /images/TO-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform_With_Envelope_Weights.jpg
 
-   Figure 29 - two sets of Armatures each with three bones,
-   the first set has all vertices inside the Bone Envelope, the second did not.
-   When the bones are transformed in Pose Mode the results are very different.
+   Two sets of Armatures each with three bones. 
 
 
 The default size of the Bone Envelope volume does not extend very far from the surface of a bone;
 You can alter the size of the Bone Envelope volume by clicking on the body of the bone you want to alter,
 switch to Edit Mode or Pose Mode and then pressing
 :kbd:`Ctrl-Alt-S` then drag your mouse left or right and the Bone Envelope volume will alter accordingly.
-See figure 30.
 
 
 .. figure:: /images/TP-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform_With_Envelope_Weights.jpg
 
-   Figure 30 - Single Armature Bone with various different Bone Envelope sizes.
+   Single Armature Bone with various different Bone Envelope sizes.
 
 
 You can also alter the Bone Envelope volume by selecting the Bone you wish to alter and
 switching to Edit Mode or Pose Mode,
 then navigate to :menuselection:`Properties Editor --> Bone --> Deform --> Envelope --> Distance`
-then enter a new value into it. (See figure 31).
+then enter a new value into it. 
 
 
 .. figure:: /images/TQ-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform_With_Envelope_Weights.jpg
 
-   Figure 31 - :menuselection:`Properties Editor --> Bone --> Deform Panel --> Envelope --> Distance`.
+   Envelope distance.
 
 
 Altering the Bone Envelope volume does not alter the size of the Armature Bone just the range
@@ -385,24 +365,25 @@ within which it can influence vertices of Child Objects.
 You can alter the radius that a bone has by selecting the head, body or tail parts of a bone while in Edit Mode,
 and then press :kbd:`Alt-S` and move the mouse left or right.
 This will make the selected bone fatter or thinner without altering the thickness of the Bone Envelope volume.
-See figure 32.
 
 
 .. figure:: /images/TR-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform_With_Envelope_Weights.jpg
 
-   Figure 32 - four Armature Bones all using Envelope Weight.
+   Four Armature Bones all using Envelope Weight.
+
    The 1st with a default radius value, the three others with differing Tail, Head, and Body radius values.
 
 
 You can also alter the bone radius by selecting the tail or head of the bone you wish to alter and switching to Edit
 Mode, then navigate to :menuselection:`Properties Editor --> Bone --> Deform --> Radius Section`
-and entering new values for the *Tail* and *Head* fields. (See figure 33).
+and entering new values for the *Tail* and *Head* fields.
 
 
 .. figure:: /images/TS-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform_With_Envelope_Weights.jpg
 
-   Figure 33 - :menuselection:`Properties Editor --> Bone --> Deform --> Radius Section`
-   head and tail fields highlighted.
+   Deform Radius Section
+
+   Head and tail fields highlighted.
 
 
 .. note::
@@ -423,16 +404,17 @@ Bone Parent
 
 Bone parenting allows you to make a certain bone in an armature the Parent Object of another object.
 This means that when transforming an armature the Child Object will only move
-if the specific bone it is the Child Object of moves. (See figure 34).
+if the specific bone it is the Child Object of moves.
 
+.. _fig-view3d-parent-bone-parent:
 
 .. figure:: /images/TU-3DViewEditorHeader-ObjectMenu-Parent-BoneParenting.jpg
 
-   Figure 34 - three pictures of Armatures with four Bones,
-   with the 2nd bone being the Bone Parent of the Child Object Cube.
-   The Cube is only transformed if the 1st or 2nd bones are.
-   Notice altering the 3rd and 4th bones has no effect on the Cone.
+   Three pictures of Armatures with four Bones.
 
+In Fig. :ref:`fig-view3d-parent-bone-parent` with the 2nd bone being the Bone Parent of the Child Object Cube.
+The Cube is only transformed if the 1st or 2nd bones are.
+Notice altering the 3rd and 4th bones has no effect on the Cone.
 
 To use Bone Parenting, you must first select all the Child Objects you wish to parent to a specific Armature Bone,
 then :kbd:`Shift-RMB` select the Armature Object and switch it into Pose Mode and then select the
@@ -452,28 +434,32 @@ With Bone parenting if you have parented a bone to some Child Objects and
 you select that bone and switch it into Edit Mode and then translate that bone;
 When you switch back into Pose Mode on that bone,
 the Child Object which is parented to that bone will snap back to the location of the bone in Pose Mode.
-See figure 37.
 
+.. _fig-view3d-parent-bone-parent-child:
 
 .. figure:: /images/TX-3DViewEditorHeader-ObjectMenu-Parent-BoneParenting.jpg
 
-   Figure 37 - Single Armature Bone which has a Child Object cube parented to it using Bone parenting.
-   1st picture shows the position of the cube and armature before the bone is moved in Edit Mode.
-   2nd picture shows the position of the cube and armature after the bone was selected in Edit Mode,
-   moved and switched back into Pose Mode. Notice that the Child Object moves to the new location of the Pose Bone.
+   Single Armature Bone which has a Child Object cube parented to it using Bone parenting.
+
+In Fig. :ref:`fig-view3d-parent-bone-parent-child` the 1st picture shows the position of the cube and
+armature before the bone is moved in Edit Mode.
+2nd picture shows the position of the cube and armature after the bone was selected in Edit Mode,
+moved and switched back into Pose Mode. Notice that the Child Object moves to the new location of the Pose Bone.
 
 Bone Relative parenting works differently;
 If you move a Parent Bone in Edit Mode, when you switch back to Pose Mode,
-the Child Objects will not move to the new location of the Pose Bone. (See figure 38).
+the Child Objects will not move to the new location of the Pose Bone.
 
+.. _fig-view3d-parent-bone-parent-relative:
 
 .. figure:: /images/TY-3DViewEditorHeader-ObjectMenu-Parent-BoneRelativeParenting.jpg
 
    Figure 38 - Single Armature Bone which has a Child Object cube parented to it using Bone Relative parenting.
-   1st picture shows the position of the cube and armature before the bone is moved in Edit Mode.
-   2nd picture shows the position of the cube and armature after the bone was selected in Edit Mode,
-   moved and switched back into Pose Mode.
-   Notice that the Child Object does not move to the new location of the Pose Bone.
+
+In Fig. :ref:`fig-view3d-parent-bone-parent-relative` the 1st picture shows the position of the cube and armature before the bone is moved in Edit Mode.
+2nd picture shows the position of the cube and armature after the bone was selected in Edit Mode,
+moved and switched back into Pose Mode.
+Notice that the Child Object does not move to the new location of the Pose Bone.
 
 
 Vertex Parent
@@ -514,7 +500,7 @@ The nearest vertices will be used from each object which is typically what you w
 
 .. figure:: /images/parent_vertex_object_mode_example.jpg
 
-   See:
+   Vertex Parent example.
 
    A) The small cubes can each be automatically parented to a triad of nearby vertices on the icosphere using the
       "Vertex (Triangle)" in the set parent context menu.
@@ -571,12 +557,14 @@ Clear Parent Inverse
 Hints
 =====
 
+.. _fig-view3d-parent-outliner:
+
 .. figure:: /images/Modeling-Objects-Parenting-Exampel2-Outliner.jpg
 
    Outliner view.
 
 
 There is another way to see the parent-child relationship in groups and that is to use the *Outliner* view
-of the :doc:`Outliner editor </editors/outliner>`. Fig. Outliner view
-is an example of what the *Outliner* view looks like for the Fig. Parenting Example.
+of the :doc:`Outliner editor </editors/outliner>`. Fig. :ref:`fig-view3d-parent-outliner`
+is an example of what the *Outliner* view looks like for the figurers in the :ref:`object-parenting` example.
 Cube A's object name is "Cube_Parent" and cube B is "Cube_Child".

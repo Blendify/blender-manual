@@ -4,6 +4,8 @@
 Grouping objects
 ****************
 
+.. _fig-view3d-grouped-objects:
+
 .. figure:: /images/Modeling-Objects-Parenting-Exampel-GroupedObj.jpg
 
    Grouped objects.
@@ -16,7 +18,7 @@ Group objects together without any kind of transformation relationship.
 Use groups to just logically organize your scene,
 or to facilitate one-step appending or linking between files or across scenes.
 Objects that are part of a group always shows as light green when selected. 
-See Fig. Grouped objects.
+See Fig. :ref:`fig-view3d-grouped-objects`.
 
 
 Options

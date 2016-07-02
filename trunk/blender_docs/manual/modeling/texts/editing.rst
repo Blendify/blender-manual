@@ -53,6 +53,7 @@ the frame's *Width* must be greater than 0.0.
 
    Technically the height is never actually 0.0, because the font itself always contributes height.
 
+.. _fig-texts-edit-frame:
 
 .. figure:: /images/text-frame-default-ex.jpg
    :width: 250px
@@ -60,7 +61,7 @@ the frame's *Width* must be greater than 0.0.
    Frame width.
 
 
-Fig. Frame width is a text object with a width of 5.0.
+Fig. :ref:`fig-texts-edit-frame` is a text object with a width of 5.0.
 And because the frame width is greater than 0.0
 it is now visible and is drawn in the active theme color as a dashed rectangle.
 The text has overflowed because the text has reached the end of the last frame, the default frame.
@@ -81,10 +82,12 @@ Any text in higher frames will be re-flowed downward into lower frames.
 Example: Text Flow
 ------------------
 
+.. _fig-texts-edit-wrap:
+
 .. figure:: /images/text-frame-working-ex2.jpg
    :width: 300px
 
-   wrapping.
+   Wrapping.
 
 
 With two or more frames you can organize text to a finer degree. For example,
@@ -95,7 +98,7 @@ it just is not visible because its *Width* is 0.0.
 
 Set the width to 5.0.
 The frame is now visible and text is wrapping according to the new width, as shown in
-Fig. Text 2. Notice that the text has overflowed out of the frame.
+Fig. :ref:`fig-texts-edit-wrap`. Notice that the text has overflowed out of the frame.
 This is because the text has reached the end of the last frame,
 which just happens to be the default/initial frame.
 
@@ -103,7 +106,7 @@ which just happens to be the default/initial frame.
 .. figure:: /images/text-frame-working-ex4.jpg
    :width: 300px
 
-   text flowing from box 1 to box 2.
+   Text flowing from box 1 to box 2.
 
 
 When we add another frame and set its width and height, the text will flow into the new frame.
@@ -111,6 +114,8 @@ When we add another frame and set its width and height, the text will flow into 
 
 Example: Multiple columns
 -------------------------
+
+.. _fig-texts-edit-text5:
 
 .. figure:: /images/text-frame-working-ex5.jpg
    :width: 400px
@@ -121,7 +126,7 @@ Example: Multiple columns
 To create two columns of text just create a text object and adjust the initial frame's
 *Width* and *Height* to your requirements, then insert a new frame.
 The new frame will have the same size as the initial frame. Set the X position to
-something greater or less than the width of the initial frame; see Fig. Text 5.
+something greater or less than the width of the initial frame; see Fig. :ref:`fig-texts-edit-text5`.
 
 
 Assigning Materials
@@ -140,6 +145,7 @@ materials on different characters.
 You can assign indices either as you type, or after by selecting blocks of text and clicking
 on the *Assign* button in the Materials panel.
 
+.. _fig-texts-edit-rgb:
 
 .. figure:: /images/text-materialindex-ex.jpg
    :width: 300px
@@ -147,8 +153,8 @@ on the *Assign* button in the Materials panel.
    Red Green Blue.
 
 
-For example, to create Fig. Red Green Blue
+For example, to create Fig. :ref:`fig-texts-edit-rgb`
 you would need to create three separate materials and three separate material indices. Each
 word would be assigned a *Material index* by selecting the characters for each word
-and clicking the *Assign* button. Fig. Red Green Blue
+and clicking the *Assign* button. Fig. :ref:`fig-texts-edit-rgb`
 is still one single *Text* object.

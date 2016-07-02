@@ -10,6 +10,8 @@ With meshes, everything is built from three basic structures:
 Vertices
 ========
 
+.. _fig-mesh-topo-vector:
+
 .. figure:: /images/Mesh-Structures-CubeExample.jpg
 
    Vertex example.
@@ -18,7 +20,7 @@ Vertices
 A vertex is primarily a single point or position in 3D space.
 It is usually invisible in rendering and in *Object Mode*.
 Do not mistake the center point of an object for a vertex. It looks similar,
-but it's bigger and you cannot select it. Fig. Vertex example
+but it's bigger and you cannot select it. Fig. :ref:`fig-mesh-topo-vector`
 shows the center point labeled as 
 "A", "B" and "C" are vertices.
 
@@ -64,13 +66,15 @@ it would just look more confusing in *Edit Mode*.
 Loops
 =====
 
+.. _fig-mesh-topo-loop:
+
 .. figure:: /images/mesh-structures-edge-and-face-loops.jpg
 
    Edge and Face Loops.
 
 
 *Edge* and *Face Loops* are sets of faces or edges that form continuous "loops" as shown in
-Fig. Edge and Face Loops. The top row (1.0 - 4.0) shows a solid view,
+Fig. :ref:`fig-mesh-topo-loop`. The top row (1.0 - 4.0) shows a solid view,
 the bottom row (5.0 - 8.0) a wireframe view of the same loops.
 
 Note that loops (2.0 and 4.0) do not go around the whole model.
@@ -100,7 +104,7 @@ modeling and character animation. When used correctly, they allow you to build m
 relatively few vertices that look very natural when used as subdivision surfaces and deform
 very well in animation.
 
-Take Fig. Edge Loops in organic modeling as an example: the edge loops follow the natural
+Take Fig. :ref:`fig-mesh-topo-loop` in organic modeling as an example: the edge loops follow the natural
 contours and deformation lines of the skin and the underlying muscles and are more dense in
 areas that deform more when the character moves, for example at the shoulders or knees.
 

@@ -110,14 +110,15 @@ from the "normal" animation of an object including *Shape Keys*,
 *Hooks* and *Armatures*.
 The vertex tries to reach it's target position with a certain, adjustable intensity.
 
+.. _fig-softbody-force-exterior-shock:
 
 .. figure:: /images/Shockabs.gif
    :width: 300px
 
-   Image 2b: Shock absorber description.
+   Shock absorber description.
 
 
-Imagine the vertex is connected with it's target through a spring Fig. Image 2b.
+Imagine the vertex is connected with it's target through a spring Fig. :ref:`fig-softbody-force-exterior-shock`.
 
 Default
    This parameter defines how strong the influence of this spring is. A strength of 1 means,

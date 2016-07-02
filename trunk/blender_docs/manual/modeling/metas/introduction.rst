@@ -109,13 +109,16 @@ Render
 
 One way to see the underlying mathematical structure is to lower the *Resolution*,
 increase the *Threshold* and set the *Stiffness* (see below)
-a fraction above the *Threshold*. Fig. Underlying structure is a *Meta cube*
+a fraction above the *Threshold*. Fig. :ref:`fig-meta-intro-underlying` is a *Meta cube*
 with the above mentioned configuration applied as follows:
 *Resolution* of 0.410, *Threshold* of 5.0 and *Stiffness* a fraction above at 5.01.
 
+.. _fig-meta-intro-underlying:
 
 .. figure:: /images/MetaUnderlyingStructure.jpg
    :width: 600px
+
+   Underlying.
 
    Left: Underlying structure, Right: the shape.
 
@@ -143,6 +146,7 @@ using the *Negative* button.
 You could think of *positive* as attraction and *negative* as repulsion of meshes.
 A negative meta will push away or repel the meshes of positive *Meta* objects.
 
+.. _fig-meta-intro-positive:
 
 .. figure:: /images/MetaIntersection.jpg
    :width: 400px
@@ -152,7 +156,7 @@ A negative meta will push away or repel the meshes of positive *Meta* objects.
 
 A *positive* influence is defined as an attraction,
 meaning the meshes will stretch towards each other as the *rings of influence* intersect.
-Fig. Positive shows two meta balls' *rings of influence* intersecting with a *positive* influence.
+Fig. :ref:`fig-meta-intro-positive` shows two meta balls' *rings of influence* intersecting with a *positive* influence.
 
 Notice how the meshes have pulled towards one another.
 The area circled in white shows the green *influence* rings intersecting.

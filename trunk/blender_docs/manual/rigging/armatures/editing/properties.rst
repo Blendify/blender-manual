@@ -174,7 +174,9 @@ their root will become their tip, and vice versa).
 
 Switching the direction of a bone will generally break the chain(s) it belongs to.
 However, if you switch a whole (part of a) chain, the switched bones will still be parented/connected,
-but in "reversed order". See the Fig. Switching example.
+but in "reversed order". See the Fig. :ref:`fig-rig-properties-switch`.
+
+.. _fig-rig-properties-switch:
 
 .. list-table::
    Switching example.

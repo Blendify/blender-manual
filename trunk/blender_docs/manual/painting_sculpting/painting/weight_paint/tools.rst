@@ -194,6 +194,7 @@ Keep Single
 
 Levels
 ======
+
 .. figure:: /images/Modeling-Meshes-wp-tools-levels.jpg
 
    Invert.

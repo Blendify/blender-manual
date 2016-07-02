@@ -99,13 +99,15 @@ Random, Size, Threshold
 Kink
 ----
 
+.. _fig-particle-child-kink:
+
 .. figure:: /images/physics_ChildParticleKink.jpg
 
    Child particles with Kink. From left to right: Curl, Radial, Wave, Braid, Roll.
 
 
 With *Kink* you can rotate the children around the parent.
-See Fig. above picture for the different types of *Kink*.
+See Fig. :ref:`fig-particle-child-kink` above picture for the different types of *Kink*.
 
 Curl
    Children grow in a spiral around the parent hairs.

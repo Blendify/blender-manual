@@ -55,6 +55,7 @@ Interface
 The *Action Editor* interface is somewhat similar to the *Graph Editor*
 one, it is divided in three areas:
 
+.. _fig-dope-sheet-action:
 
 .. figure:: /images/actionEditor.jpg
    :width: 600px
@@ -122,7 +123,7 @@ Show Frame Number Indicator
    Show frame number beside the current frame indicator line
 Show Sliders
    A toggle option that shows the value sliders for the channels.
-   See the Fig. The Action Editor, Action Editor mode, with a group and sliders picture above).
+   See the Fig. :ref:`fig-dope-sheet-action`.
 Use Group Colors
    Draw groups and channels with colors matching their corresponding groups.
 AutoMerge Keyframes

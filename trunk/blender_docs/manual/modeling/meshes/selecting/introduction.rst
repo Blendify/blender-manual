@@ -108,11 +108,11 @@ By holding :kbd:`Ctrl` when selecting a higher selection mode,
 all elements touching the current selection will be added,
 even if the selection does not form a complete higher element.
 
-See Fig. Vertices mode example, Fig. Edges mode example,
-Fig. Faces mode example and Fig. Mixed mode example
-for examples of the different modes.
+See Fig. :ref:`fig-mesh-select-intro-selection-modes` for examples of the different modes.
 
-.. list-table::
+.. _fig-mesh-select-intro-selection-modes:
+
+.. list-table:: Selection Modes.
 
    * - .. figure:: /images/EditModeVerticeModeExample.jpg
           :width: 300px

@@ -94,14 +94,16 @@ The radius of selected vertices can be adjusted in the *Transform* panel of the 
 Examples
 ========
 
+.. _fig-modifier-skin-creature:
+
 .. figure:: /images/Skin-header-00.jpg
 
-   Fig1: Simple creature, made with only the Skin modifier.
+   Simple creature, made with only the Skin modifier.
 
 
 - In the modifiers menu, add a *Skin* modifier.
 - :kbd:`Tab` into edit mode and start extruding.
-- Try to sketch results similar to *Fig. 1*, through extruding the vertices of the object.
+- Try to sketch results similar to Fig. :ref:`fig-modifier-skin-creature`, through extruding the vertices of the object.
 - Use :kbd:`Ctrl-A` to change the size of the different regions within the creature.
 - Use *Mark Loose* at regions like the neck, to merge these faces more together.
 - To get smoother results, activate *Smooth Shading* and add a :doc:`subsurf </modeling/modifiers/generate/subsurf>`
