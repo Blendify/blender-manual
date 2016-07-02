@@ -21,8 +21,7 @@ A vertex is primarily a single point or position in 3D space.
 It is usually invisible in rendering and in *Object Mode*.
 Do not mistake the center point of an object for a vertex. It looks similar,
 but it's bigger and you cannot select it. Fig. :ref:`fig-mesh-topo-vector`
-shows the center point labeled as 
-"A", "B" and "C" are vertices.
+shows the center point labeled as "A", "B" and "C" are vertices.
 
 A simple way to create a new vertex is to click :kbd:`Ctrl-LMB` in *Edit Mode*.
 Of course, as a computer screen is two-dimensional,
@@ -52,11 +51,9 @@ it will simply be transparent or non-existent in the rendered image. To create a
 select three or more suitable vertices and press :kbd:`F`.
 
 A face is defined as the area between either three (triangles), four (quadrangles) or more (ngons) vertices,
-with an edge on every side.
-These are often abbreviated to *tris, quads & ngons*.
+with an edge on every side. These are often abbreviated to *tris, quads & ngons*.
 
-Triangles are always flat and therefore easy to calculate.
-On the other hand,
+Triangles are always flat and therefore easy to calculate. On the other hand,
 quadrangles "deform well" and are therefore preferred for subdivision modeling.
 
 While you could build a cube with triangular faces,
@@ -68,21 +65,24 @@ Loops
 
 .. _fig-mesh-topo-loop:
 
-.. figure:: /images/mesh-structures-edge-and-face-loops.jpg
+.. figure:: /images/mesh-structures-edge-and-face-loops.png
 
    Edge and Face Loops.
 
 
 *Edge* and *Face Loops* are sets of faces or edges that form continuous "loops" as shown in
-Fig. :ref:`fig-mesh-topo-loop`. The top row (1.0 - 4.0) shows a solid view,
-the bottom row (5.0 - 8.0) a wireframe view of the same loops.
+Fig. :ref:`fig-mesh-topo-loop`. The top row (1 - 4) shows a solid view,
+the bottom row (5 - 8) a wireframe view of the same loops.
 
-Note that loops (2.0 and 4.0) do not go around the whole model.
-Loops stop at so called poles because there is no unique way to continue a loop from a pole.
-Poles are vertices that are connected to either three, five, or more edges. Accordingly,
-vertices connected to exactly one, two or four edges are not poles.
+.. note::
 
-In the image above, loops that do not end in poles are cyclic (1. and 3.).
+   Note that loops (2 and 4) do not go around the whole model.
+   Loops stop at so called poles because there is no unique way to continue a loop from a pole.
+   Poles are vertices that are connected to either three, five, or more edges. Accordingly,
+   vertices connected to exactly one, two or four edges are not poles.
+
+
+In the image above, loops that do not end in poles are cyclic (1 and 3).
 They start and end at the same vertex and divide the model into two partitions.
 Loops can be a quick and powerful tool to work with specific,
 continuous regions of a mesh and are a prerequisite for organic character animation.
@@ -95,8 +95,8 @@ For a detailed description of how to work with loops in Blender, see:
 Edge Loops
 ----------
 
-Loops (1. and 2.) in Fig Edge and Face Loops are edge Loops. They
-connect vertices so that each one on the loop has exactly two neighbors that are not on the
+Loops (1 and 2) in Fig Edge and Face Loops are edge Loops.
+They connect vertices so that each one on the loop has exactly two neighbors that are not on the
 loop and placed on both sides of the loop (except the start and end vertex in case of poles).
 
 Edge Loops are an important concept especially in organic (subsurface)
@@ -116,8 +116,8 @@ Face Loops
 ----------
 
 These are a logical extension of Edge Loops in that they consist of the faces between two Edge
-Loops, as shown in loops (3. and 4.) in Fig. Edge and Face Loops.
-Note that for non-circular loops (4.)
+Loops, as shown in loops (3 and 4) in Fig. Edge and Face Loops.
+Note that for non-circular loops (4)
 the faces containing the poles are not included in a Face Loop.
 
 Further details on working with Face Loops can be found in
