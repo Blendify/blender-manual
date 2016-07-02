@@ -119,7 +119,7 @@ and blue triad is selected). Set the manipulator type to rotation
 
 .. seealso::
 
-   :doc:`Read more about the 3D Transform Manipulator </editors/3dview/transform/transform_control/precision/manipulators>`
+   :doc:`Read more about the 3D Transform Manipulator </editors/3dview/transform/transform_control/manipulators>`
 
 
 Rotation with the Properties Panel

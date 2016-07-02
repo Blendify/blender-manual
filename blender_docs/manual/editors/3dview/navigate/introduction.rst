@@ -144,7 +144,7 @@ Manipulator Selector
    These handy selectors allow you to rotate or move objects by grabbing
    (clicking with your mouse) their controls and moving your mouse in the axis.
 
-   :doc:`Read more about Transform Manipulators </editors/3dview/transform/transform_control/precision/manipulators>`
+   :doc:`Read more about Transform Manipulators </editors/3dview/transform/transform_control/manipulators>`
 
 Layer Selector
    Layers are well documented in the :doc:`Layers page </editors/3dview/layers>`.

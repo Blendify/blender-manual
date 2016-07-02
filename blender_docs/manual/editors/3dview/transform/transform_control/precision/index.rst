@@ -8,6 +8,5 @@
 
    introduction.rst
    numeric_input.rst
-   manipulators.rst
    axis_locking.rst
    snap.rst
