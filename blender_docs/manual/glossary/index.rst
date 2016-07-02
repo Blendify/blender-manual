@@ -4,19 +4,10 @@
   Glossary
 ###########
 
-.. For writing style guide, see: ``../about/writing_style_guide.rst``.
+.. For writing style guide, see: ../about/contribute/style_guides/writing_guide.rst
    If you add new entries, keep the alphabetical sorting!
 
 This page lists definitions for terms used in Blender and this manual.
-Also see
-
-.. toctree::
-   :maxdepth: 1
-
-   conventions.rst
-
-For other common conventions used throughout the manual.
-
 
 .. glossary::
 

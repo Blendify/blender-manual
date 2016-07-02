@@ -33,34 +33,41 @@ Blender supports various types of input devices:
 Mice
 ----
 
-Usage of Mouse Buttons
+Mouse Button Emulation
 ^^^^^^^^^^^^^^^^^^^^^^
 
-In Blender the :kbd:`RMB` (Right Mouse Button) is generally used for Selection
-and the :kbd:`LMB` (Left Mouse Button) initiates or confirms actions.
+If you do not have a 3 button mouse, you'll need to emulate it by checking the option in the :doc:`User Preferences </preferences/index>`.
 
-The mouse usage summarized:
+The following table shows the combinations used:
 
-.. list-table::
-   :widths: 15 85
+.. list-table:: Metric Units
+   :header-rows: 1
+   :stub-columns: 1
 
-   * - :kbd:`RMB`
-     - To select an item
-   * - :kbd:`Shift-RMB`
-     - To add more items to the selection
-   * - :kbd:`LMB`
-     - to perform an action on the selection
-
-Video: `Learn more about Blender's Mouse Button usage <https://vimeo.com/76335056>`_
-
-.. note::
-
-   There are a few corner cases where :kbd:`LMB` is used for selection.
-   For example, the :doc:`File Browser </editors/file_browser/introduction>`.
+   * - 3-button Mouse
+     - :kbd:`LMB`
+     - :kbd:`MMB`
+     - :kbd:`RMB`
+   * - 2-button Mouse
+     - :kbd:`LMB`
+     - :kbd:`Alt-LMB`
+     - :kbd:`RMB`
 
 
 Keyboards
 ---------
+
+NumPad Emulation
+^^^^^^^^^^^^^^^^
+
+If you do not have a Numeric Numpad on the side of your keyboard,
+you may want to emulate one (uses the numbers at the top of the keyboard instead,
+however removes quick access to layer visibility).
+
+.. seealso::
+
+   Read more about *NumPad Emulation* in the :doc:`User Preferences </preferences/index>`
+
 
 Non English Keyboards
 ^^^^^^^^^^^^^^^^^^^^^
