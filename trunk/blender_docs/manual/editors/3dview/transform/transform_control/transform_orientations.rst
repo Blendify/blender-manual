@@ -45,7 +45,7 @@ Our Demo Cube
 Please note two things:
 
 - The "Mini-axis" in the lower-left corner, which represents the Global X, Y, Z orientation.
-- The :doc:`"Object Manipulator" </editors/3dview/transform/transform_control/precision/manipulators>`
+- The :doc:`"Object Manipulator" </editors/3dview/transform/transform_control/manipulators>`
   widget emanating from the selection, which represents the current Transform Orientation.
 
   - If you click on one of the axes of the Manipulator with :kbd:`LMB`,

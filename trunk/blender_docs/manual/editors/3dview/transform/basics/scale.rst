@@ -128,7 +128,7 @@ and blue triad is selected). Set the manipulator type to scale
 - Your changes will be applied when you release :kbd:`LMB` or press :kbd:`Spacebar` or
   :kbd:`Return`. Your changes will be cancelled if you press :kbd:`RMB` or :kbd:`Esc`.
 
-:doc:`Read more about the 3D Transform Manipulator </editors/3dview/transform/transform_control/precision/manipulators>`
+:doc:`Read more about the 3D Transform Manipulator </editors/3dview/transform/transform_control/manipulators>`
 
 
 Scaling with the Properties Panel

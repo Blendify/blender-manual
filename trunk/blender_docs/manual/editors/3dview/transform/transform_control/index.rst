@@ -11,6 +11,7 @@ The following pages detail the available control options:
    :maxdepth: 2
 
    precision/index.rst
+   manipulators.rst
    transform_properties.rst
    reset_object_transformations.rst
    proportional_edit.rst
