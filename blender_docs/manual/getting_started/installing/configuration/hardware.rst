@@ -40,8 +40,7 @@ If you do not have a 3 button mouse, you'll need to emulate it by checking the o
 
 The following table shows the combinations used:
 
-.. list-table:: Metric Units
-   :header-rows: 1
+.. list-table::
    :stub-columns: 1
 
    * - 3-button Mouse
