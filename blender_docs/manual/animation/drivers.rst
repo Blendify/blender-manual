@@ -28,6 +28,7 @@ Drivers Panel
 =============
 
 .. figure:: /images/Animation_Panel_Drivers.jpg
+   :align: right
 
    :menuselection:`Graph Editor --> Drivers --> Drivers Panel`
 
