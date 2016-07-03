@@ -1,4 +1,3 @@
-.. _editors-properties-index:
 
 ####################
   Properties Editor

@@ -1,4 +1,3 @@
-.. _window-system-index:
 
 #################
   Window System

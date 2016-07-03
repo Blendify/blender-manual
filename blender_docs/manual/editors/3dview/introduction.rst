@@ -55,14 +55,14 @@ For more information on specific tools available, see:
 - :doc:`Creating Objects </modeling/meshes/editing/basics/adding>`
 - :doc:`Parents </editors/3dview/object/relationships/parents>`
 - :doc:`Groups </editors/3dview/object/relationships/groups>`
-- :ref:`animation-index`
-- :ref:`rigid_body-index`
-- :ref:`grease_pencil-index`
-- :ref:`modeling-index`
-- :ref:`painting_sculping-index`
-- :ref:`painting_vertex-index`
-- :ref:`painting_weight-index`
-- :ref:`painting_texture-index`
+- :doc:`/animation/index`
+- :doc:`/physics/rigid_body/index`
+- :doc:`/interface/grease_pencil/index`
+- :doc:`/modeling/index`
+- :doc:`/painting_sculpting/sculpting/index`
+- :doc:`/painting_sculpting/painting/vertex_paint/index`
+- :doc:`/painting_sculpting/painting/weight_paint/index`
+- :doc:`/painting_sculpting/painting/texture_paint/index`
 
 
 Properties Region

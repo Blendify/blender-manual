@@ -1,4 +1,3 @@
-.. _smoke-index:
 
 ###################
   Smoke Simulation

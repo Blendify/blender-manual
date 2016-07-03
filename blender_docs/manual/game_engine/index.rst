@@ -1,4 +1,3 @@
-.. _game_engine-index:
 
 ##############
   Game Engine

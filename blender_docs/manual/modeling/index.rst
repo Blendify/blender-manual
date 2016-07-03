@@ -1,4 +1,3 @@
-.. _modeling-index:
 
 ###########
   Modeling

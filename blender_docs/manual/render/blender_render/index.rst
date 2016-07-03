@@ -1,4 +1,3 @@
-.. _blender-render-index:
 
 ########################
   Blender Render Engine

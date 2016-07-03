@@ -1,4 +1,3 @@
-.. _soft_body-index:
 
 ############
   Soft Body

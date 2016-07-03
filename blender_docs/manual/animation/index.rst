@@ -1,4 +1,3 @@
-.. _animation-index:
 
 ############
   Animation

@@ -1,4 +1,3 @@
-.. _physics-index:
 
 ##########
   Physics

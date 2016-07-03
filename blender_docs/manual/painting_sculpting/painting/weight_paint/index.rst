@@ -1,4 +1,3 @@
-.. _painting_weight-index:
 
 ###############
   Weight Paint

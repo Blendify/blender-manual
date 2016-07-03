@@ -1,4 +1,3 @@
-.. _editors-sequencer-index:
 
 ########################
   Video Sequence Editor

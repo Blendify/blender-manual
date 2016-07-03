@@ -1,4 +1,3 @@
-.. _skinning-index:
 
 ###########
   Skinning

@@ -1,4 +1,3 @@
-.. _constraints-index:
 
 ##############
   Constraints

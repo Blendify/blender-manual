@@ -1,4 +1,3 @@
-.. _modeling_metas-index:
 
 ########
   Metas

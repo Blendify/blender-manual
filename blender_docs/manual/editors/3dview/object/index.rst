@@ -1,4 +1,3 @@
-.. _objects-index:
 
 ##########
   Objects
