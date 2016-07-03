@@ -1,4 +1,3 @@
-.. _surface:
 
 *******
 Surface

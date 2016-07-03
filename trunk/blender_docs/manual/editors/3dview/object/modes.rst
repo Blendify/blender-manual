@@ -1,4 +1,3 @@
-.. _object-modes:
 
 ************
 Object Modes

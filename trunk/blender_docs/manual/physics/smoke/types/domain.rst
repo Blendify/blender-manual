@@ -194,11 +194,11 @@ Smoke Groups
 ============
 
 Flow Group
-   If set, only objects in the specified :ref:`Group <grouping-objects>`
+   If set, only objects in the specified :doc:`Group </editors/3dview/object/relationships/groups>`
    will be allowed to act as flow objects in this domain.
 
 Collision Group
-   If set, only objects in the specified :ref:`Group <grouping-objects>`
+   If set, only objects in the specified :doc:`Group </editors/3dview/object/relationships/groups>`
    will be allowed to act as collision objects in this domain.
 
 
