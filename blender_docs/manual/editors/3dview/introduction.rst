@@ -1,4 +1,3 @@
-.. _3dview-editor:
 
 ************
 Introduction
@@ -78,7 +77,8 @@ and :doc:`Background Images </editors/3dview/display/background_images>`).
 Header
 ------
 
-Contains various menus, buttons and options based on the current :ref:`mode <object-modes>`, such as:
+Contains various menus, buttons and options based 
+on the current :doc:`mode </editors/3dview/object/modes>`, such as:
 
 - :doc:`Shading mode </editors/3dview/display/shading>`
 - :doc:`Pivot options </editors/3dview/transform/transform_control/pivot_point/index>`

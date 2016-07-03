@@ -1,4 +1,3 @@
-.. _grouping-objects:
 
 ****************
 Grouping objects

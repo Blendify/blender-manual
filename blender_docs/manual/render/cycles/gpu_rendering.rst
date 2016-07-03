@@ -1,4 +1,3 @@
-.. _render-cycles-gpu_rendering:
 
 *************
 GPU Rendering
