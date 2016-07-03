@@ -122,17 +122,21 @@ one for each interpolation axis (U and V). Note that unlike with curves, you hav
 
 .. list-table::
 
-   * - .. figure:: /images/NurbsSurface1Resolution.jpg
+   * - .. _fig-surface-intro-resolution1:
+
+       .. figure:: /images/NurbsSurface1Resolution.jpg
 
           Resolution 1×1.
 
-     - .. figure:: /images/NurbsSurface3Resolution.jpg
+     - .. _fig-surface-intro-resolution2:
+
+       .. figure:: /images/NurbsSurface3Resolution.jpg
 
           Resolution 3×3.
 
 
-Fig. Resolution 1×1 is an example of a surface resolution of 3 for both U and V. Fig. Resolution 3×3 surface
-is an example of a surface resolution of 12 for both U and V.
+Fig. :ref:`fig-surface-intro-resolution1` is an example of a surface resolution of 3 for both U and V.
+Fig. :ref:`fig-surface-intro-resolution2` surface is an example of a surface resolution of 12 for both U and V.
 
 .. figure:: /images/NurbsSurfaceResoltion.jpg
 
@@ -181,17 +185,19 @@ Order
 
 One more time, this property is the same as with :ref:`NURBS Curves <modeling-curve-order>`;
 it specifies how much the control points are taken into account for calculating the curve of the surface shape.
-For high Fig. Orders 1 the surface pulls away from the control points,
+For high Orders 1 the surface pulls away from the control points,
 creating a smoother surface - assuming that the
-`Surface Resolution`_ is high enough. For lowest Fig. Orders 2 the surface follows the control points,
+`Surface Resolution`_ is high enough. For lowest Orders 2 the surface follows the control points,
 creating a surface that tends to follow the grid cage.
+
+.. _fig-surface-intro-order:
 
 .. figure:: /images/NurbsSurfaceOrderExample.jpg
 
    Order 2 and order 4 surface.
 
 
-For illustration purposes, in both Fig. Order 4 surface and Fig. Order 2 surface,
+For illustration purposes, in both Fig. :ref:`fig-surface-intro-order`,
 the knot vectors were set to *Endpoint*, causing the surface to extend to all edges.
 
 You can set independently the order for each interpolation axis, and like curves,
@@ -204,16 +210,18 @@ and higher than 6 or the number of control points on the relevant axis.
 Weight
 ------
 
+.. _fig-surface-intro-weight:
+
 .. figure:: /images/NurbsSurfaceWeightExample.jpg
    :width: 600px
 
-   One control point with a weight of 100.
+   One control point with a weight of 5.
 
 
 Guess what? Yes, it works exactly like :ref:`NURBS Curves <modeling-curve-weight>` ! *Weight* specifies
 how much each control point "pulls" on the curve.
 
-In Fig. Surface Weight 5 a single control point, labeled "C",
+In Fig. :ref:`fig-surface-intro-weight` a single control point, labeled "C",
 has had its *Weight* set to 5.0 while all others are at their default of 1.0. 
 As you can see, that control point *pulls* the surface towards it.
 

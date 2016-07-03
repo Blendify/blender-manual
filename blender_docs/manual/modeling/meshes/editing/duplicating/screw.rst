@@ -24,20 +24,24 @@ This tool works using open or closed profiles, as well as profiles closed with f
 You can use profiles like an open-edge part that is a part of a complete piece,
 as well as a closed circle or a half-cut sphere, which will also close the profile end.
 
-You can see some examples of Meshes generated with the *Screw* tool in Fig.
-1 - Wood Screw tip done with the screw tool and Fig. 2 - Spring done with the screw tool.
+You can see some examples of Meshes generated with the *Screw* tool 
+in Fig. :ref:`fig-mesh-screw-wood` and Fig. :ref:`Spring done with the screw tool <fig-mesh-screw-spring>`.
 
 .. list-table::
 
-   * - .. figure:: /images/Modeling_Mesh_Screw_Screw_Example_Shell.jpg
+   * - .. _fig-mesh-screw-wood:
+
+       .. figure:: /images/Modeling_Mesh_Screw_Screw_Example_Shell.jpg
           :width: 300px
 
-          Fig. 1 - Wood Screw tip done with the screw tool.
+          Wood Screw tip done with the screw tool.
+
+       .. _fig-mesh-screw-spring:
 
      - .. figure:: /images/Modeling_Mesh_Screw_Screw_Example_Spring.jpg
           :width: 300px
 
-          Fig. 2- Spring done with the screw tool.
+          Spring done with the screw tool.
 
 
 Usage
@@ -82,19 +86,22 @@ you will have to delete it after the tool completion (use linked-selection,
 
 If there is any problem with the selection or profiles,
 the tool will warn you with the error message:
-``"You have to select a string of connected vertices too"`` as seen in Fig. 3 and 4,
+``"You have to select a string of connected vertices too"`` as seen 
+in Fig. :ref:`fig-mesh-screw-error-info` and Fig. :ref:`fig-mesh-screw-error-popup`,
 both in the Info Editor and at the place where you clicked to start performing the operation
 (when you click the Screw Button).
 
+.. _fig-mesh-screw-error-info:
 
 .. figure:: /images/Modeling_Mesh_Screw_Error_msg_Info_Editor.jpg
 
-   Fig. 3 - Screw Error message in the Header of the Info editor.
+   Screw Error message in the Header of the Info editor.
 
+.. _fig-mesh-screw-error-popup:
 
 .. figure:: /images/Modeling_Mesh_Screw_Error_msg_Screw_Tool.jpg
 
-   Fig. 4 - Error message when clicking in the Screw Tool with an incorrect or bad selection.
+   Error message when clicking in the Screw Tool with an incorrect or bad selection.
 
 
 You may have as many profiles as you like (like circles, squares, and so on)
@@ -135,7 +142,7 @@ you can press :kbd:`Ctrl-Z` at any time in *Edit Mode*.
 
 - The basic location of the cursor at the point of view (using Global coordinates)
   will determine around which axis the selection is extruded and spun at first
-  (See Fig. 6 - Cursor Basic Location - Transform Panel).
+  (See Fig. :ref:`fig-mesh-screw-transform-panel`).
   Blender will copy your cursor location coordinates to the
   values present in the *Center* values of the *Screw* interactive Panel.
   Depending on the Global View position, Blender will automatically add a value of 1 to one of the Axis Vectors,
@@ -145,15 +152,17 @@ you can press :kbd:`Ctrl-Z` at any time in *Edit Mode*.
   Subsequent operations (e.g. pressing the Screw button again), will start from the last selected element.
   Continuous operations without changing the selection will repeat the operation continuously from the last point.
 
+.. _fig-mesh-screw-transform-panel:
 
 .. figure:: /images/Modeling_Mesh_Screw_Cursor_Basic_Location.jpg
 
-   Fig. 6 - Cursor Basic Location - Transform Panel.
+   Cursor Basic Location - Transform Panel.
 
+.. _fig-mesh-screw-interactive-panel:
 
 .. figure:: /images/Modeling_Mesh_Screw_Screw_Interactive_Panel.jpg
 
-   Fig. 7 - Screw Interactive Panel - Mesh Tools Panel (Edit Mode).
+   Screw Interactive Panel - Mesh Tools Panel (Edit Mode).
 
 
 Center
@@ -164,17 +173,17 @@ Center
    using shortcut :kbd:`T` to toggle the Panel, and typing in the 3D Cursor Location coordinates.
    You can adjust these coordinates interactively and
    specify another place for the spin center during the interactive session.
-   (See Fig. 7 - Screw Interactive Panel - Mesh Tools Panel (Edit Mode))
+   (See Fig. :ref:`fig-mesh-screw-interactive-panel`)
 
 Steps
    This numeric field specifies how many extrusion(s) will be done for each 360 degree turn.
    The steps are evenly distributed by dividing 360 degree by the number of steps given. The minimum value is 3;
-   the maximum is 256 (See Fig. 7)
+   the maximum is 256 (See Fig. :ref:`fig-mesh-screw-interactive-panel`)
 
 Turns:
    This numeric field specifies how many turns will be executed.
    Blender will add a new full 360 degree turn for each incremental number specified here.
-   The minimum value is 1; the maximum is 256. (See Fig. 7)
+   The minimum value is 1; the maximum is 256. (See Fig. :ref:`fig-mesh-screw-interactive-panel`)
 
 Axis
    These three numeric fields vary from (-1.0 to 1.0) and are clamped above those limits.
@@ -185,7 +194,7 @@ Axis
    adjust your axis angular vectors and you can tweak your object such that you can revert the direction of the screw
    operation (by reverting the angular vector of the height),
    meaning you can revert the clockwise and counterclockwise direction of some operations,
-   and also adjust the angular vectors of your profile, bending it accordingly. (See Fig. 7)
+   and also adjust the angular vectors of your profile, bending it accordingly. (See Fig. :ref:`fig-mesh-screw-interactive-panel`)
 
 
 Examples
@@ -194,9 +203,11 @@ Examples
 The Spring example
 ------------------
 
+.. _fig-mesh-screw-circle:
+
 .. figure:: /images/Modeling_Mesh_Screw_Screw_Circle_Moved_X_-3BU.jpg
 
-   Fig. 8 - Circle placed at X -3,0,0.
+   Circle placed at X -3,0,0.
 
 
 - Open Blender and delete the default Cube.
@@ -216,17 +227,18 @@ The Spring example
   or press the shortcut :kbd:`G X Minus 3` and :kbd:`Return`.
   You can use the Transform Panel (toggled with the shortcut :kbd:`T` ,
   and type  :kbd:`Minus 3` and :kbd:`Return` in the Location too.
-  (See the Fig. 8 - Circle placed at X -3,0,0).
+  (See the Fig. :ref:`fig-mesh-screw-circle`).
 - You will have to scale your circle using the shortcut :kbd:`S . 5`, then :kbd:`Return`.
 - Now enter *Edit Mode* using shortcut :kbd:`Tab`.
 - De-select all vertices using the shortcut :kbd:`A`.
 
 Now we will create a height vector for Blender:
 
+.. _fig-mesh-screw-profile:
 
 .. figure:: /images/Modeling_Mesh_Screw_Spring_Profile_Ready.jpg
 
-   Fig. 9 - Profile and vector created.
+   Profile and vector created.
 
 
 - Press :kbd:`Ctrl` and Left click :kbd:`LMB` near the circle,
@@ -239,7 +251,7 @@ Now we will create a height vector for Blender:
   and again, type its coordinates for (X, Y, Z) to (-2, 0, 1).
   This will create a straight vertical line with 2 Blender units of Height.
 - De-select and select everything again with the shortcut :kbd:`A`.
-  (See Fig. 9 - Profile and vector created)
+  (See Fig. :ref:`fig-mesh-screw-profile`)
 - Place again your cursor at the center. (Repeat step 2)
 - At this point, we will save this Blender file to recycle the
   Spring for another exercise; click with :kbd:`LMB` in *File*,
@@ -260,20 +272,21 @@ Left click :kbd:`LMB` in the middle of the Value and set this value to -1.000.
 At first, the Spring was being constructed in a Counterclockwise direction,
 and you reverted the operation 180 degrees in the *Z-Axis*. This is because you have
 changed the angular vector of the height you have given to Blender to the opposite direction
-(remember, -90 to 90 = 180 degrees ?). See Fig.
-10 - Counterclockwise direction and Fig. 11 - Flipped to Clockwise direction.
+(remember, -90 to 90 = 180 degrees ?). See Fig. :ref:`fig-mesh-screw-clock`.
 
-.. list-table::
+.. _fig-mesh-screw-clock:
+
+.. list-table:: Spring direction.
 
    * - .. figure:: /images/Modeling_Mesh_Screw_Screw_Spring_Counterclockwise.jpg
           :width: 300px
 
-          Fig. 10 - Counterclockwise direction.
+          Counterclockwise direction.
 
      - .. figure:: /images/Modeling_Mesh_Screw_Screw_Spring_Clockwise.jpg
           :width: 300px
 
-          Fig. 11 - Flipped to Clockwise direction.
+          Flipped to Clockwise direction.
 
 
 It's also important to note that this vector is related to the same height vector axis used
@@ -309,21 +322,23 @@ vectors and creating a profile that will also open and/or close because of the c
 starting angular vector values. What we are really doing is changing the starting angle of the
 profile prior to the extrusions. It means that Blender will connect each of the circles
 inclined with the vector you have given.
-Below we show two bent Meshes using the Axis vectors and the Spring example. See Fig.
-12 and Fig. 13. These two Meshes generated with the *Screw* tool were created using
-the Top Ortho View.
+Below we show two bent Meshes using the Axis vectors and the Spring example. 
+See Fig. :ref:`fig-mesh-screw-angle`. These two Meshes generated 
+with the *Screw* tool were created using the Top Ortho View.
 
-.. list-table::
+.. _fig-mesh-screw-angle:
+
+.. list-table:: Bended Mesh.
 
    * - .. figure:: /images/Modeling_Mesh_Screw_Angular_Vector_Example_1.jpg
           :width: 300px
 
-          Fig. 12 - Bended Mesh, Example 1 - The Axis will give the profile a starting vector angle.
+          Example 1 - The Axis will give the profile a starting vector angle.
 
      - .. figure:: /images/Modeling_Mesh_Screw_Angular_Vector_Example_2.jpg
           :width: 300px
 
-          Fig. 13 - Bended Mesh Example 2 - The vector angle is maintained along the extrusions.
+          Example 2 - The vector angle is maintained along the extrusions.
 
 
 Creating perfect Screw Spindles
@@ -353,7 +368,7 @@ will assembly perfectly with each other.
 - Press the shortcut :kbd:`W` for the *Specials Menu*, and select *Subdivide*
 - Now, click with the Right Mouse button at the middle vertex.
 - Grab this vertex using the shortcut :kbd:`G X Minus 1` and :kbd:`Return`.
-  See Fig. 14 - Profile for a perfect screw spindle.
+  See Fig. :ref:`fig-mesh-screw-spindle`.
 - At this point, we will save this Blender file to recycle the generated Screw for another exercise;
   click with :kbd:`LMB` in *File* --
   it is in the header of the Info editor (at the top left side), and choose *Save as*.
@@ -362,38 +377,47 @@ will assembly perfectly with each other.
   File Browser editor in order to save your Blender file.
 - Press shortcut :kbd:`A` twice to de-select and select all vertices again.
 - Now press Screw.
-- Change Steps and Turns as you like. Fig. 15 - Generated Mesh - Shows you an example of the results.
+- Change Steps and Turns as you like. Fig. :ref:`fig-mesh-screw-generated-mesh` - Shows you an example of the results.
 
 .. list-table::
 
-   * - .. figure:: /images/Modeling_Mesh_Screw_Screw_Perfect_Spindle_Profile.jpg
+   * - .. _fig-mesh-screw-spindle:
+
+       .. figure:: /images/Modeling_Mesh_Screw_Screw_Perfect_Spindle_Profile.jpg
           :width: 300px
 
-          Fig. 14 - Profile for a perfect screw spindle.
+          Profile for a perfect screw spindle.
+
           The starting and ending vertices are forming a parallel line with the Blender Axis.
 
-     - .. figure:: /images/Modeling_Mesh_Screw_Screw_Generated_Perfect_Spindle.jpg
+     - .. _fig-mesh-screw-generated-mesh:
+
+       .. figure:: /images/Modeling_Mesh_Screw_Screw_Generated_Perfect_Spindle.jpg
           :width: 300px
 
-          Fig. 15 - Generated Mesh. You can use this technique to perform normal screw modeling.
+          Generated Mesh. 
+
+          You can use this technique to perform normal screw modeling.
 
 
-Here, in Fig. 16 and Fig. 17, we show you an example using a different profile,
+Here, in Fig. :ref:`fig-mesh-screw-ramp`, we show you an example using a different profile,
 but maintaining the beginning and ending vertices at the same position.
 The generated mesh looks like a medieval ramp!
 
-.. list-table::
+.. _fig-mesh-screw-ramp:
+
+.. list-table:: Ramp.
 
    * - .. figure:: /images/Modeling_Mesh_Screw_Ramp_Like_Profile.jpg
           :width: 300px
 
-          Fig. 16 - Profile with starting and ending vertices forming a parallel line with the Blender Axis.
+          Profile with starting and ending vertices forming a parallel line with the Blender Axis.
 
 
      - .. figure:: /images/Modeling_Mesh_Screw_Ramp_Like_Generated.jpg
           :width: 300px
 
-          Fig. 17 - Generated Mesh with the profile at the left. We have inclined the visualization a bit.
+          Generated Mesh with the profile at the left. We have inclined the visualization a bit.
 
 
 As you can see, the Screw spindles are perfectly assembled with each other,
@@ -424,26 +448,30 @@ To make this new example as short as possible, we will recycle our last example 
   All of the things will be placed exactly the way you saved before.
   Choose the last saved Blender file; in the last exercise, we gave it the name *Screw Hardware Example.blend*.
 - Grab the upper vertex and move a bit to the left, but no more than you have moved your last vertex.
-  (See Fig. 18 - Profile With Starting Vector Angle)
+  (See Fig. :ref:`fig-mesh-screw-start`)
 - Press the shortcut :kbd:`A` twice to de-select and select all.
 - Press the shortcut :kbd:`Shift-S` and select *Cursor to Center*
 - Press Screw.
 
 .. list-table::
 
-   * - .. figure:: /images/Modeling_Mesh_Screw_Profile_With_Vector_Angle.jpg
+   * - .. _fig-mesh-screw-start:
+
+       .. figure:: /images/Modeling_Mesh_Screw_Profile_With_Vector_Angle.jpg
           :width: 300px
 
-          Fig. 18 - Profile With Starting Vector Angle.
+          Profile With Starting Vector Angle.
 
 
-     - .. figure:: /images/Modeling_Mesh_Screw_Generated_With_Base_Vector_Angle.jpg
+     - .. _fig-mesh-screw-start-mesh:
+ 
+       .. figure:: /images/Modeling_Mesh_Screw_Generated_With_Base_Vector_Angle.jpg
           :width: 300px
 
-          Fig. 19 - Generated Mesh with the Profile.
+          Generated Mesh with the Profile.
 
 
-As you can see in Fig. 19, Blender follows the basic angular vector of the profile, and the
+As you can see in Fig. :ref:`fig-mesh-screw-start-mesh`, Blender follows the basic angular vector of the profile, and the
 profile basic angle determines whether the extruded subsequent configured turns will open or
 close the resulting mesh following this angle. The vector of the extrusion angle is determined
 by the starting and ending Vertex of the profile.

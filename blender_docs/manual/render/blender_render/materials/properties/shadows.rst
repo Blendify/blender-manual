@@ -51,21 +51,25 @@ The following options affect the material that receives shadows:
 
 
 Receive
-   Allows this material to receive full-intensity shadows (Fig. 3).
+   Allows this material to receive full-intensity shadows (Fig. :ref:`fig-bi-material-shadow-receive`).
 
 Receive Transparent
    Allows this material to receive shadows whose intensity is modified by the transparency
-   and color of the shadow-casting object (Fig. 4).
+   and color of the shadow-casting object (Fig. :ref:`fig-bi-material-shadow-receive-trans`).
 
 .. list-table::
 
-   * - .. figure:: /images/materials_properties_shadow3.jpg
+   * - .. _fig-bi-material-shadow-receive:
 
-          Fig. 3: Plane - Receive.
+       .. figure:: /images/materials_properties_shadow3.jpg
 
-     - .. figure:: /images/materials_properties_shadow4.jpg
+          Plane - Receive.
 
-          Fig. 4: Plane - Receive + Receive Transparency.
+     - .. _fig-bi-material-shadow-receive-trans:
+
+       .. figure:: /images/materials_properties_shadow4.jpg
+
+          Plane - Receive + Receive Transparency.
 
 
 Shadow Casting Object Material
@@ -75,14 +79,16 @@ The following options affect the material that casts shadows:
 
 
 Cast Only
-   Material appears transparent, but it still casts shadows (Fig. 5).
+   Material appears transparent, but it still casts shadows 
+   (Fig. :ref:`fig-bi-material-shadow-cast`).
 
 Casting Alpha
    Todo.
 
 Shadows Only
    Material appears transparent except for where it receives shadows from other objects,
-   and also it retains its own transparency (Fig. 6). Note the faint image of the partly-transparent post.
+   and also it retains its own transparency (Fig. :ref:`fig-bi-material-shadow-only`). 
+   Note the faint image of the partly-transparent post.
 
 Shadow and Distance
    Todo.
@@ -90,13 +96,17 @@ Shadow and Distance
 
 .. list-table::
 
-   * - .. figure:: /images/materials_properties_shadow5.jpg
+   * - .. _fig-bi-material-shadow-cast:
 
-          Fig. 5: Posts - Cast Only.
+       .. figure:: /images/materials_properties_shadow5.jpg
 
-     - .. figure:: /images/materials_properties_shadow6.jpg
+          Posts - Cast Only.
 
-          Fig. 6: Posts - Shadows Only.
+     - .. _fig-bi-material-shadow-only:
+
+       .. figure:: /images/materials_properties_shadow6.jpg
+
+          Posts - Shadows Only.
 
 
 Buffered Shadow Options

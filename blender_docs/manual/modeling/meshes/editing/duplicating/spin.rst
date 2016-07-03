@@ -38,6 +38,8 @@ Axis
 Example
 =======
 
+.. _fig-mesh-spin-glass:
+
 .. figure:: /images/Spin1.jpg
    :width: 300px
 
@@ -46,13 +48,14 @@ Example
 
 First, create a mesh representing the profile of your object.
 If you are modeling a hollow object, it is a good idea to thicken the outline.
-Fig. Glass profile shows the profile for a wine glass we will model as a demonstration.
+Fig. :ref:`fig-mesh-spin-glass` shows the profile for a wine glass we will model as a demonstration.
 
 Go to the *Edit Mode* and select all the vertices of the Profile with :kbd:`A`.
 
 We will be rotating the object around the cursor in the top view,
 so switch to the top view with :kbd:`Numpad7`.
 
+.. _fig-mesh-spin-glass-top:
 
 .. figure:: /images/Spin2.jpg
    :width: 300px
@@ -62,20 +65,22 @@ so switch to the top view with :kbd:`Numpad7`.
 
 Place the cursor along the center of the profile by selecting one of the vertices along the
 center, and snapping the 3D cursor to that location with :menuselection:`Mesh --> Cursor --> Selection`.
-(Glass profile, top view in *Edit Mode*, just before spinning)
+(Fig. :ref:`fig-mesh-spin-glass-top`)
 shows the wine glass profile from top view, with the cursor correctly positioned.
 
 
 Click the *Spin* button. If you have more than one 3D View open, the cursor will
 change to an arrow with a question mark and you will have to click in the window containing
 the top view before continuing. If you have only one 3D View open,
-the spin will happen immediately. Fig. Spun profile shows the result of a successful spin.
+the spin will happen immediately. Fig. :ref:`fig-mesh-spin-profile` shows the result of a successful spin.
 
 
 Angle
 =====
 
-.. list-table::
+.. _fig-mesh-spin-profile:
+
+.. list-table:: Spun profile
 
    * - .. figure:: /images/Spin3.jpg
           :width: 300px
@@ -107,6 +112,8 @@ Dupli
 Merge Duplicates
 ================
 
+.. _fig-mesh-screw-duplicate:
+
 .. figure:: /images/Spin8.jpg
    :width: 300px
 
@@ -115,7 +122,8 @@ Merge Duplicates
 
 The spin operation leaves duplicate vertices along the profile.
 You can select all vertices at the seam with Box select :kbd:`B` shown in
-Fig. Seam vertex selection and perform a *Remove Doubles* operation.
+Fig. :ref:`fig-mesh-screw-duplicate` Seam vertex selection and 
+perform a *Remove Doubles* operation.
 
 
 Notice the selected vertex count before and after the *Remove Doubles* operation

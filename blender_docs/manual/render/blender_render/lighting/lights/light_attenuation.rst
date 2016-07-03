@@ -349,11 +349,15 @@ more and more objects become progressively brighter.
 
           Distance: 10.
 
-     - .. figure:: /images/bi_LampRender-Distance100.jpg
+     - .. _fig-bi-light-attenuation-distance100:
+
+       .. figure:: /images/bi_LampRender-Distance100.jpg
 
           Distance: 100.
 
-     - .. figure:: /images/bi_LampRender-Distance1000.jpg
+     - .. _fig-bi-light-attenuation-distance1000:
+
+       .. figure:: /images/bi_LampRender-Distance1000.jpg
 
           Distance: 1000.
 
@@ -366,12 +370,12 @@ light's intensity has fallen to half its strength in all directions.
 Note that the light's intensity continues to fall even after *Distance*.
 *Distance* just specifies the distance where half of the light's energy has weakened.
 
-Notice in Fig. Distance: 1000, that the farthest objects are very bright.
+Notice in Fig. :ref:`fig-bi-light-attenuation-distance1000`, that the farthest objects are very bright.
 This is because the falloff has been extended far into the distance,
 which means the light is very strong when it hits the last few objects. It is not until
 1000 units that the light's intensity has fallen to half of its original intensity.
 
-Contrast this with Fig. Distance: 10,
+Contrast this with Fig. :ref:`fig-bi-light-attenuation-distance100`,
 where the falloff occurs so soon that the farther objects are barely lit.
 The light's intensity has fallen by a half by time it even reaches the tenth object.
 
@@ -387,20 +391,29 @@ Inverse Square Example
 *Inverse Square* makes the light's intensity falloff with a non-linear rate, or specifically, a quadratic rate.
 The characteristic feature of using *Inverse Square* is that the light's intensity begins to
 fall off very slowly but then starts falling off very rapidly.
-We can see this in the Fig. Inverse Square selected images.
+We can see this in the Fig. :ref:`fig-bi-light-attenuation-inverse-square` images.
 
-.. list-table::
-   Inverse Square selected (with the specified distances).
+.. _fig-bi-light-attenuation-inverse-square:
 
-   * - .. figure:: /images/bi_LampRender-Quad10.jpg
+.. list-table:: 
+   Inverse Square selected.
+   (with the specified distances).
+
+   * - .. _fig-bi-light-attenuation-inverse-square10:
+
+       .. figure:: /images/bi_LampRender-Quad10.jpg
 
           Inverse Square with 10.
 
-     - .. figure:: /images/bi_LampRender-Quad100.jpg
+     - .. _fig-bi-light-attenuation-inverse-square100:
+
+       .. figure:: /images/bi_LampRender-Quad100.jpg
 
           Inverse Square with 100.
 
-     - .. figure:: /images/bi_LampRender-Quad1000.jpg
+     - .. _fig-bi-light-attenuation-inverse-square1000:
+
+       .. figure:: /images/bi_LampRender-Quad1000.jpg
 
           Inverse Square with 1000.
 
@@ -408,11 +421,11 @@ We can see this in the Fig. Inverse Square selected images.
 With *Inverse Square* selected, the *Distance* field specifies where the light begins to fall off faster,
 roughly speaking; see the light attenuation description in `Falloff types`_ for more info.
 
-In Fig. Inverse Square with 10,
+In Fig. :ref:`fig-bi-light-attenuation-inverse-square10`,
 the light's intensity has fallen so quickly that the last few objects are not even lit.
 
-Both Fig. Inverse Square with 100 and
-Fig. Inverse Square with 1000 appear to be almost identical and that is
+Both Fig. :ref:`fig-bi-light-attenuation-inverse-square100` and
+Fig. :ref:`fig-bi-light-attenuation-inverse-square1000` appear to be almost identical and that is
 because the *Distance* is set beyond the farthest object's distance which is at
 about 40 BU out. Hence, all the objects get almost the full intensity of the light.
 
@@ -427,6 +440,8 @@ intensity and the angle between the light source and the surface's normal.
 Sphere Example
 --------------
 
+.. _fig-bi-light-attenuation-clip:
+
 .. figure:: /images/LampRender-SphereView.jpg
 
    Clipping Sphere.
@@ -434,7 +449,7 @@ Sphere Example
 
 *Sphere* indicates that the light's intensity is null at the *Distance* distance and beyond,
 regardless of the chosen light's falloff.
-In Fig. Clipping Sphere you can see a side view example of the setup with *Sphere* enabled and a distance of 10.
+In Fig. :ref:`fig-bi-light-attenuation-clip` you can see a side view example of the setup with *Sphere* enabled and a distance of 10.
 
 Any objects beyond the sphere receive no light from the lamp.
 
@@ -447,28 +462,34 @@ the light attenuation is progressive
 .. list-table::
    Sphere enabled with the specified distances, Inverse Linear light falloff.
 
-   * - .. figure:: /images/bi_LampRender-Sphere10.jpg
+   * - .. _fig-bi-light-attenuation-sphere10:
+
+       .. figure:: /images/bi_LampRender-Sphere10.jpg
 
           Sphere with 10.
 
-     - .. figure:: /images/bi_LampRender-Sphere20.jpg
+     - .. _fig-bi-light-attenuation-sphere20:
+
+       .. figure:: /images/bi_LampRender-Sphere20.jpg
 
           Sphere with 20.
 
-     - .. figure:: /images/bi_LampRender-Sphere40.jpg
+     - .. _fig-bi-light-attenuation-sphere40:
+
+       .. figure:: /images/bi_LampRender-Sphere40.jpg
 
           Sphere with 40.
 
 
-In Fig. Sphere with 10, the clipping sphere's radius is 10 units,
+In Fig. :ref:`fig-bi-light-attenuation-sphere10`, the clipping sphere's radius is 10 units,
 which means the light's intensity is also being controlled by 10 units of distance.
 With a linear attenuation,
 the light's intensity has fallen very low even before it gets to the first object.
 
-In Fig. Sphere with 20,
+In Fig. :ref:`fig-bi-light-attenuation-sphere20`,
 the clipping sphere's radius is now 20 BU and some light is reaching the middle objects.
 
-In Fig. Sphere with 40, the clipping sphere's radius is now 40 units,
+In Fig. :ref:`fig-bi-light-attenuation-sphere40`, the clipping sphere's radius is now 40 units,
 which is beyond the last object. However, the light doesn't make it to the last few objects
 because the intensity has fallen to nearly 0.
 

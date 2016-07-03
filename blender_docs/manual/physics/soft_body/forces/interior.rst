@@ -82,76 +82,80 @@ To show the effect of the different edge settings we will use two cubes
 (blue: only quads, red: only tris) and let them fall without any goal onto a plane
 (how to set up collision is shown on the page :doc:`Collisions </physics/soft_body/collisions>`).
 
+.. _fig-softbody-force-interior-without:
 
-.. list-table::
+.. list-table:: Without Stiff Quads.
 
    * - .. figure:: /images/physics_quadvstri-sb-0001.jpg
           :width: 200px
 
-          Image 3a: Frame 1 without Stiff Quads.
+          Frame 1.
 
      - .. figure:: /images/physics_quadvstri-sb-0036.jpg
           :width: 200px
 
-          Image 3b: Frame 36.
+          Frame 36.
 
      - .. figure:: /images/physics_quadvstri-sb-0401.jpg
           :width: 200px
 
-          Image 3c: Frame 401.
+          Frame 401.
 
 
-In Fig. Image 3, the default settings are used (without *Stiff Quads*).
+In Fig. :ref:`fig-softbody-force-interior-without`, the default settings are used (without *Stiff Quads*).
 The "quad only" cube will collapse completely, the cube composed of tris keeps it's shape,
 though it will deform temporarily because of the forces created during collision.
 
 
-.. list-table::
+.. _fig-softbody-force-interior-with:
+
+.. list-table:: With Stiff Quads.
 
    * - .. figure:: /images/physics_quadvstri-sb-0001.jpg
           :width: 200px
 
-          Image 4a: Frame 1 with Stiff Quads.
+          Frame 1.
 
      - .. figure:: /images/physics_quadvstri-sb-sq-0036.jpg
           :width: 200px
 
-          Image 4b: Frame 36.
+          Frame 36.
 
      - .. figure:: /images/physics_quadvstri-sb-sq-0401.jpg
           :width: 200px
 
-          Image 4c: Frame 401.
+          Frame 401.
 
 
-In Fig. Image 4, *Stiff Quads* is activated (for both cubes).
+In Fig. :ref:`fig-softbody-force-interior-with`, *Stiff Quads* is activated (for both cubes).
 Both cubes keep their shape, there is no difference for the red cube,
 because it has no quads anyway.
 
+.. _fig-softbody-force-interior-bending:
 
-.. list-table::
+.. list-table:: Bending Stiffness.
+   `Blend file <https://wiki.blender.org/index.php/Media:Blender3D Quads-BE-Stiffness.blend>`__
 
    * - .. figure:: /images/physics_quadvstri-sb-0001.jpg
           :width: 200px
 
-          Image 5a: Frame 1 with Bending Stiffness.
-          `Blend file <https://wiki.blender.org/index.php/Media:Blender3D Quads-BE-Stiffness.blend>`__
+          Frame 1.
 
      - .. figure:: /images/physics_quadvstri-sb-bs-0036.jpg
           :width: 200px
 
-          Image 5b: Frame 36.
+          Frame 36.
 
      - .. figure:: /images/physics_quadvstri-sb-bs-0401.jpg
           :width: 200px
 
-          Image 5c: Frame 401.
+          Frame 401.
 
 
 The second method to stop an object from collapsing is to change it's *Bending Stiffness*.
 This includes the diagonal edges (Damping also applies to these connections).
 
-In Fig. Image 5, *Be* is activated with a strength setting of 1.
+In Fig. :ref:`fig-softbody-force-interior-bending`, *Be* is activated with a strength setting of 1.
 Now both cubes are more rigid.
 
 
@@ -160,22 +164,24 @@ Now both cubes are more rigid.
    * - .. figure:: /images/physics_quadvstri-bending-001.jpg
           :width: 200px
 
-          Image 6a: Two planes going to collide.
+          Two planes going to collide.
 
-     - .. figure:: /images/physics_quadvstri-bending-101.jpg
+     - .. _fig-softbody-force-interior-no-bending:
+
+       .. figure:: /images/physics_quadvstri-bending-101.jpg
           :width: 200px
 
-          Image 6b: No bending stiffness, Frame 101.
+          No bending stiffness, Frame 101.
 
      - .. figure:: /images/physics_quadvstri-bending-high-101.jpg
           :width: 200px
 
-          Image 6c: High bending stiffness (10), Frame 101.
+          High bending stiffness (10), Frame 101.
 
 
 Bending stiffness can also be used if you want to make a subdivided plane more plank like.
 Without *Be* the faces can freely rotate against each other like hinges
-Fig. Image 6b.
+Fig. :ref:`fig-softbody-force-interior-no-bending`.
 There would be no change in the simulation if you activated *Stiff Quads*,
 because the faces are not deformed at all in this example.
 

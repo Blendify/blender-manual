@@ -96,7 +96,9 @@ you cannot see these segments in *Object Mode*, because they're aligned.
 
 .. list-table::
 
-   * - .. figure:: /images/RiggingBBoneEx3DViewEditMode.jpg
+   * - .. _fig-rig-bone-intro-bbone:
+
+       .. figure:: /images/RiggingBBoneEx3DViewEditMode.jpg
           :width: 300px
 
           An armature of B-Bones, in Edit Mode.
@@ -106,12 +108,14 @@ you cannot see these segments in *Object Mode*, because they're aligned.
 
           The Bézier curve superposed to the chain, with its handles placed at bones' ends.
 
-   * - .. figure:: /images/RiggingBBoneEx3DViewObjectMode.jpg
+   * - .. _fig-rig-bone-intro-same:
+
+       .. figure:: /images/RiggingBBoneEx3DViewObjectMode.jpg
           :width: 300px
 
           The same armature in Object Mode.
 
-     -
+     - ..
 
 
 When you connect bones to form a :ref:`chain <armature-bone_chain>`,
@@ -122,10 +126,10 @@ There is no direct access to the curve.
 It can only be controlled by some extent using bone properties,
 as explained in the :ref:`editing pages <armature-bone-rigid>`.
 
-In Fig. An armature of B-Bones in Edit Mode we connected three bones,
+In Fig. :ref:`fig-rig-bone-intro-bbone` we connected three bones,
 each one made of five segments. These are *B-bones* but as you see,
 in *Edit Mode* they are shown as rigid elements.
-Look at Fig. The same armature in Object Mode: now, in *Object Mode*,
+Look at Fig. :ref:`fig-rig-bone-intro-same`,
 we can see how the bones' segments smoothly "blend" into each other, even for roll.
 
 Of course,

@@ -17,6 +17,8 @@ to your primitives, including the addition of other primitives and basic element
 To enter Edit you can select Edit from the modes menu as explained in the Interface overview,
 or use :kbd:`Tab` with a mesh object selected.
 
+.. _fig-mesh-basics-b-primitives:
+
 .. figure:: /images/modeling_mesh_add.png
    :align: right
 
@@ -27,7 +29,7 @@ Blender automatically detects the appropriate context for the object type you ar
 and will show a list of compatible, combining elements. If you are editing Mesh types,
 Blender will show a list of primitive meshes to add to your object.
 Other contexts are also automatically detected for the correct element additions.
-(See Fig. 2 - List of Blender mesh primitives, you can add primitives to already existing objects, in Edit Mode)
+(See Fig. :ref:`fig-mesh-basics-b-primitives`, you can add primitives to already existing objects, in Edit Mode)
 
 A dropdown menu opens from which you can select the primitive you wish to add to the object.
 
@@ -56,13 +58,15 @@ when no other vertices are selected, or :kbd:`Ctrl-LMB`.
 To create interconnected vertices, you can add a vertex and continuously make subsequent :kbd:`Ctrl-LMB`
 operations with the last one vertex selected.
 This will link the last selected vertex with the vertex created at the mouse position with an edge
-(See Fig. 4 - Adding vertices, one by one with :kbd:`Ctrl-LMB`,
+(See Fig. :ref:`fig-mesh-basics-add-one`,
 and will continuously connect them creating vertices if you continue repeating this operation.
 (see Fig. 3 - Creating simple connected vertices with :kbd:`Ctrl-LMB`.
 
+.. _fig-mesh-basics-add-one:
+
 .. figure:: /images/modeling_meshes_editing_basics_adding_vertex.png
 
-   Adding vertices, one by one with :kbd:`Ctrl-LMB`.
+   Adding vertices one by one.
 
 
 Creating Edges
@@ -82,7 +86,7 @@ Creating Faces with the Mouse
 .. figure:: /images/modeling_meshes_editing_basics_adding_quad.png
    :align: right
 
-   Fig. 4 - Quad from an Edge with :kbd:`Ctrl-LMB`.
+   Quad from an Edge with source automatically rotated.
 
 If you have two vertices selected and already connected with an edge, left-click while pressing :kbd:`Ctrl-LMB`
 will create a planar face, also known as a quad. Blender will follow your mouse cursor
@@ -122,13 +126,15 @@ which is explained in the :doc:`Extrude </modeling/meshes/editing/duplicating/ex
 Filling Faces
 ^^^^^^^^^^^^^
 
+.. _fig-mesh-basics-fill-tri:
+
 .. figure:: /images/modeling_meshes_editing_basics_adding_triangle.png
    :align: right
 
-   Fig. 5 - Filling a triangle with F.
+   Filling a triangle.
 
 You can also create faces with at least three vertices selected, using :kbd:`F` to fill them with edges and faces,
-or only fill edges with faces if they are already connected (Fill) (See Fig. 5).
+or only fill edges with faces if they are already connected (Fill) (See Fig. :ref:`fig-mesh-basics-fill-tri`).
 For four or more vertices, it's mandatory that you have coplanar vertices.
 four coplanar vertices will create a quad when filled, and more than four coplanar vertices will create a Ngon face.
 
