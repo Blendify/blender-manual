@@ -58,12 +58,12 @@ Selection Modes
 ---------------
 
 Turning on the *Sync Selection* button in the header causes selection of components
-in the 3D View to sync with their corresponding elements in the UV editor.
+in the 3D View to sync with their corresponding elements in the UV/Image editor.
 This is off by default.
-These two modes have very different results when transforming components in the UV editor.
+These two modes have very different results when transforming components in the UV/Image editor.
 
 When SyncSelection is **Off** :
-Only selected faces are displayed in the UV editor,
+Only selected faces are displayed in the UV/Image editor,
 and the following selection modes are available:
 
 Vertex
@@ -121,8 +121,8 @@ holding the :kbd:`MMB` will constrain movement to the X or Y axis.
 Pivot Points
 ------------
 
-The UV editor has a 2D cursor.
-Its position can be changed by :kbd:`LMB` clicking in the UV editor.
+The UV/Image editor has a 2D cursor.
+Its position can be changed by :kbd:`LMB` clicking in the UV/Image editor.
 You can also manually adjust its position in the Properties Panel.
 The range by default is from 0 to 256 starting from the lower left corner.
 By enabling *Normalized* under *Coordinates*,
