@@ -161,7 +161,6 @@ If you want only a summary, append ``-q`` to the command above. For more options
 
    python3 tools/report_translation_progress.py --help
 
-----
 
 .. note::
 

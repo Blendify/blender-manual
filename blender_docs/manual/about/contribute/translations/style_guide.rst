@@ -8,7 +8,7 @@ This page covers conventions concerning the translations.
 .. note::
 
    - We expect our readers to use the English version of Blender, not a translated one.
-   - The license of the translations is CC0 (public domain) as is the original.
+   - The translations are licensed under the same :doc:`/about/license` as the original version.
 
 
 Should I translate \.\. ?
@@ -83,7 +83,7 @@ Keeping Pages Up To Date
 
 When the manual is updated, those translations which are outdated will be marked as fuzzy.
 To keep track with that, you can use a tool we created for that task,
-see :ref:`how to install it <translations-fuzzy-strings>`.
+see :ref:`How to install it <translations-fuzzy-strings>`.
 
 .. seealso:: https://wiki.blender.org/index.php/Meta:Guides/Translation_Guide
 
