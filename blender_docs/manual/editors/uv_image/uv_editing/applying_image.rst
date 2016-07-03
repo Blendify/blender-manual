@@ -8,7 +8,7 @@ Sooner or later, you may want to use an image texture on your model.
 If you are using an external application, you need to know where on the mesh you are painting.
 You may also need to test your UV mapping with a test image.
 This section covers how to export an outline of your UV map,
-and how to load images into the UV editor.
+and how to load images into the UV/Image editor.
 
 
 .. _uv_image-export_layout:
@@ -58,12 +58,12 @@ For using images as textures, see the page on :doc:`Image Textures </render/blen
    * - .. figure:: /images/texture-uv-layout.jpg
           :width: 250px
 
-          A UV Layout in the UV Editor.
+          A UV Layout in the UV/Image Editor.
 
      - .. figure:: /images/texture-uv-layout2.jpg
           :width: 250px
 
-          A UV Layout in the Image Editor.
+          A UV Layout in an Image Editor.
 
 
 .. _face_textures:
@@ -144,7 +144,7 @@ but results which do not respect transparency and proper shading.
 Loading and Saving Images
 =========================
 
-In the UV editor, you can assign certain faces certain textures. To do so,
+In the UV/Image editor, you can assign certain faces certain textures. To do so,
 first you need an image to work with.
 In the *Image Menu* you can open an image file with the *File Browser*.
 If you have images in the file already, that you want to use,
@@ -234,7 +234,7 @@ You can save the UV image using the :menuselection:`Image --> Save` menu.
 Image Settings
 --------------
 
-When an image has been loaded or created in the UV editor,
+When an image has been loaded or created in the UV/Image editor,
 an additional section appears in the *Properties Panel*.
 The first row of buttons allow you to:
 

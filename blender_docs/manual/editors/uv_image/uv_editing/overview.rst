@@ -108,8 +108,8 @@ each point on the object will have corresponding U and V coordinates. (*P* in th
 image above is an example of how a point on a 3D object might be mapped onto a 2D image.)
 
 
-The UV Editor
-=============
+The UV/Image Editor
+===================
 
 About functionalities for mapping UV see
 :ref:`UV/Image Editor <editors-uv_image-index>` section for details.

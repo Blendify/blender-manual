@@ -80,7 +80,7 @@ The process is:
 - Adjust the unwrap settings
 - Add a test image to see if there will be any distortion.
   See :doc:`Applying Images to UVs </editors/uv_image/uv_editing/applying_image>`
-- Adjust UVs in the UV editor.
+- Adjust UVs in the UV/Image editor.
   See :doc:`Editing UVs </editors/uv_image/uv_editing/layout_editing>`
 
 
@@ -157,7 +157,7 @@ Cube
 
 
 Cube mapping projects s mesh onto six separate planes, creating six UV islands.
-In the UV editor, these will appear overlapped, but can be moved.
+In the UV/Image editor, these will appear overlapped, but can be moved.
 See :doc:`Editing UVs </editors/uv_image/uv_editing/layout_editing>`.
 
 Cube Size
