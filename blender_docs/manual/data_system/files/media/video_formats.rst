@@ -107,7 +107,7 @@ Video Codecs
 ------------
 
 None
-   *For audio-only encoding.*
+   For audio-only encoding.
 `MPEG-1 <https://en.wikipedia.org/wiki/MPEG-1>`__
    See `Video Formats`_.
 `MPEG-2 <https://en.wikipedia.org/wiki/MPEG-2>`__
