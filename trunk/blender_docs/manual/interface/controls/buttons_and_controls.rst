@@ -258,7 +258,7 @@ Pop-Up Menus
 .. figure:: /images/interface_popup-menu.jpg
    :align: right
 
-   The Viewport Shading popup menu.
+   The Viewport Shading pop-up menu.
 
 Pop-up menus are overlay menus used to display options. 
 They are spawned by menu buttons and buttons showing up and down triangles on the right or
@@ -288,7 +288,7 @@ Data-blocks are items like meshes, objects, materials, textures, and so on.
 
 
 Data-Block type
-   Shows a icon. Opens up the following popup menu.
+   Shows a icon. Opens up the following pop-up menu.
 
    List
       A list of data-block available in the current blend-file or link in to select an item from.

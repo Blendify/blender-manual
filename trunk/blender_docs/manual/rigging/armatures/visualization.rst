@@ -225,7 +225,7 @@ Only bones in active layers will be visible/editable - but they will always be e
 - In *Edit Mode* and *Pose Mode*, you can also do this from the *3D View*,
   either by using the menu :menuselection:`Armature --> Switch Armature Layers` or
   :menuselection:`Pose --> Switch Armature Layers`, or the :kbd:`Shift-M` shortcut,
-  to display a small pop-up dialog containing the same buttons as described above
+  to display a small pop-up menu containing the same buttons as described above
   (here again, you can use :kbd:`Shift-LMB` clicks to (de)select several layers at once).
 
 
@@ -265,7 +265,7 @@ you have to select the chosen bone(s)!
 - In the Properties editor, use the "layer buttons" of each selected bone "sub-panel" (*Armature Bones* panel)
   to control in which layer(s) it lays.
 - In the *3D View* editor, use the menu :menuselection:`Armature --> Move Bone To Layer` or
-  :menuselection:`Pose --> Move Bone To Layer` or press :kbd:`M` to show the usual pop-up layers dialog.
+  :menuselection:`Pose --> Move Bone To Layer` or press :kbd:`M` to show the usual pop-up layers menu.
   Note that this way, you assign the same layers to all selected bones.
 
 

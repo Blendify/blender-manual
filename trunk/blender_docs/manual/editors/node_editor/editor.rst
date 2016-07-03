@@ -19,7 +19,7 @@ Node Editor Window Actions
 When the cursor is in the window, several standard Blender hotkeys and mouse actions are available, including:
 
 Popup Menu
-   Space - Brings up a main popup menu, allowing you to add, view, select, etc.
+   Space - Brings up a main pop-up menu, allowing you to add, view, select, etc.
 Delete
    :kbd:`X` or :kbd:`Delete` - Deletes the selected node(s).
 Box select
