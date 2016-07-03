@@ -1,6 +1,4 @@
 
-.. _composite_nodes_layout-index:
-
 ###############
   Layout Nodes
 ###############

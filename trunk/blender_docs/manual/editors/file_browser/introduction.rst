@@ -26,8 +26,8 @@ In this case the buttons to load a files is removed.
 
 The main purpose of this is to be able to drag media files.
 
-- Images into the :ref:`editors-sequencer-index` (to set background or apply as material textures).
-- Media files into the :ref:`editors-sequencer-index`.
+- Images into the :doc:`/editors/sequencer/index` (to set background or apply as material textures).
+- Media files into the :doc:`/editors/sequencer/index`.
 
 .. rubric:: Opening a Image Sequence
 

@@ -1,4 +1,3 @@
-.. _composite_nodes_input-index:
 
 ##############
   Input Nodes

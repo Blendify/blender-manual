@@ -1,4 +1,3 @@
-.. _sensors-index:
 
 ##########
   Sensors

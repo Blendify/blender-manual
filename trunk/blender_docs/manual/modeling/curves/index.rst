@@ -1,4 +1,3 @@
-.. _modeling_curves-index:
 
 #########
   Curves

@@ -1,4 +1,3 @@
-.. _armatures-index:
 
 ############
   Armatures

@@ -1,4 +1,3 @@
-.. _introduction-index:
 
 ################
   About Blender

@@ -1,4 +1,3 @@
-.. _composite_nodes-index:
 
 ##############
   Compositing

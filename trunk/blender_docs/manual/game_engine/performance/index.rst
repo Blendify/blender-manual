@@ -1,4 +1,3 @@
-.. _game_engine-performance-index:
 
 ###############
   Performance

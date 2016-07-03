@@ -22,7 +22,7 @@ Bones can affect the object's shape in two ways:
 - The `Vertex Groups`_ method is (obviously) reserved to meshes and lattices -
   one bone only affect the vertices in the
   :doc:`group </modeling/meshes/vertex_groups/index>` having the same name,
-  using vertices' :ref:`weights <painting_weight-index>` as influence value.
+  using vertices' :doc:`weights </painting_sculpting/painting/weight_paint/index>` as influence value.
   A much more precise method, but also generally longer to set up.
 
 Both methods have some
@@ -243,7 +243,7 @@ each bone only affects vertices belonging to a vertex group having the same name
 So if you have e.g. a ``forearm`` bone, it will only affect the ``forearm`` vertex group of its skin object(s).
 
 The influence of one bone on a given vertex is controlled by the weight of this vertex in the relevant group.
-Thus, the :ref:`Weight Paint Mode <painting_weight-index>`.
+Thus, the :doc:`Weight Paint Mode </painting_sculpting/painting/weight_paint/index>`.
 :kbd:`Ctrl-Tab`, if a mesh is selected is most useful here, to easily set/adjust the vertices' weights.
 
 However, you have a few goodies when weight-painting a mesh already parented to (skinning)

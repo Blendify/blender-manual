@@ -112,7 +112,7 @@ The UV/Image Editor
 ===================
 
 About functionalities for mapping UV see
-:ref:`UV/Image Editor <editors-uv_image-index>` section for details.
+:doc:`/editors/uv_image/index` section for details.
 
 
 Advantages of UVs
@@ -144,7 +144,7 @@ is usually not sufficient. For even and accurate projection,
 use seams to guide the UV mapping.
 This can be used to apply textures to arbitrary and complex shapes,
 like human heads or animals. Often these textures are painted images,
-created in applications like the Gimp, Photoshop, or your favorite painting application.
+created in applications like the Gimp, Photoshop\ :sup:`®`\ , or your favorite painting application.
 
 
 .. note:: Games

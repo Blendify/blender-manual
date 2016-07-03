@@ -120,7 +120,7 @@ Edge Selection Mode:
       Selects all edges that have the same *Bevel Weight* as those already selected.
    Seam
       Selects all edges that have the same *Seam* state as those already selected.
-      *Seam* is a true/false setting used in :ref:`UV-texturing <editors-uv_image-index>`.
+      *Seam* is a true/false setting used in :doc:`UV-texturing </editors/uv_image/index>`.
    Sharpness
       Selects all edges that have the same *Sharp* state as those already selected.
       *Sharp* is a true/false setting (a flag) used by the
@@ -131,7 +131,7 @@ Face Selection Mode:
       Selects all faces that use the same material as those already selected.
    Image
       Selects all faces that use the same UV-texture as those already selected
-      (see :ref:`UV-texturing <editors-uv_image-index>` pages).
+      (see :doc:`UV-texturing </editors/uv_image/index>` pages).
    Area
       Selects all faces that have a similar area as those already selected.
    Polygon Sides

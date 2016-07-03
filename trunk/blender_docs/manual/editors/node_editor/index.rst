@@ -1,4 +1,3 @@
-.. _editors-node-index:
 
 ##############
   Node Editor

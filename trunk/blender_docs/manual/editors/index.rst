@@ -1,4 +1,3 @@
-.. _editors-index:
 
 ##########
   Editors

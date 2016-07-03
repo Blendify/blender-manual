@@ -1,4 +1,3 @@
-.. _modifiers-index:
 
 ############
   Modifiers

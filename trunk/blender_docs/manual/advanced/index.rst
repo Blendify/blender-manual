@@ -1,4 +1,3 @@
-.. _advanced-index:
 
 ###########
   Advanced

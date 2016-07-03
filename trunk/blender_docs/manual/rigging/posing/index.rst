@@ -1,4 +1,3 @@
-.. _posing-index:
 
 #########
   Posing

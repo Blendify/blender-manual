@@ -1,4 +1,3 @@
-.. _composite_nodes_output-index:
 
 ###############
   Output Nodes

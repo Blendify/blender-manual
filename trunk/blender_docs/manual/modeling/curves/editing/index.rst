@@ -1,4 +1,3 @@
-.. _modeling_curves_editing-index:
 
 ##########
   Editing

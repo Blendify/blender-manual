@@ -1,4 +1,3 @@
-.. _interface-index:
 
 ############
   Interface

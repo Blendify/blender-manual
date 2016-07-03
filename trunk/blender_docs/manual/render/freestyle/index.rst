@@ -1,4 +1,3 @@
-.. _render-freestyle:
 
 ############
   Freestyle

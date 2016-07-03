@@ -1,4 +1,3 @@
-.. _textures:
 
 ################
   Texture Nodes

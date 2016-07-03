@@ -1,4 +1,3 @@
-.. _painting_vertex-index:
 
 ###############
   Vertex Paint

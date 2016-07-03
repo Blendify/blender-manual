@@ -1,4 +1,3 @@
-.. _about-index:
 
 ####################
   About this Manual

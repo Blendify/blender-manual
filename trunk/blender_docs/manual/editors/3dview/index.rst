@@ -1,4 +1,3 @@
-.. _editors-3dview-index:
 
 ##########
   3D View

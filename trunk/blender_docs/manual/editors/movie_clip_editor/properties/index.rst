@@ -1,4 +1,3 @@
-.. _movieclip-properties-index:
 
 ########################
   Movie Clip Properties

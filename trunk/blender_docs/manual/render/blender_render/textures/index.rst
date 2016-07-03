@@ -1,4 +1,3 @@
-.. _textures-index:
 
 ###########
   Textures

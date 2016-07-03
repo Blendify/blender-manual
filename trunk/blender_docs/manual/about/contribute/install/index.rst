@@ -1,4 +1,3 @@
-.. _about-install-index:
 
 ###########
   Install

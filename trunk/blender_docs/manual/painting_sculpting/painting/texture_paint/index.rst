@@ -1,4 +1,3 @@
-.. _painting_texture-index:
 
 ################
   Texture Paint
