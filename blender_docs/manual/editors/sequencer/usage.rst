@@ -237,12 +237,12 @@ cut a strip by pressing :kbd:`K` to cut. At the selected frame for the selected 
 
    For example, imagine that you have a strip of 50 frames,
    and that you want to delete the first ten ones.
-   You have to go to *frame 11*, and press :kbd:`K`;
+   You have to go to frame 11, and press :kbd:`K`;
    the cut divides your strip in two parts. You now can select the first small part
    (frame 1 to frame 10), and delete it press :kbd:`X`.
 
    You might think that you have really erased the frames (1 to 10),
-   but there are still there, winded, as in a film reel, under your *frame 11*:
+   but there are still there, winded, as in a film reel, under your frame 11:
    you just have deleted one of the two copies of your strip created by the cut.
    And you can at any time get your lost frames back
    (just :kbd:`RMB` -click on the left arrow of the strip,

@@ -106,7 +106,7 @@ Moving objects between layers
 
 
 To move selected objects to a different layer,
-press :kbd:`M` and then select the layer you want from the pop-up dialog.
+press :kbd:`M` and then select the layer you want from the pop-up menu.
 Objects can also be on more than one layer at a time. To have an object on multiple layers,
 hold :kbd:`Shift` while clicking.
 

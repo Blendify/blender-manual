@@ -173,7 +173,7 @@ In Range
    Start
       This numeric field specifies the starting frame of the range (exclusive).
       Note that unfortunately, it cannot take a null or negative value -
-      which means you can only see ghosts starting from *frame 2* included...
+      which means you can only see ghosts starting from frame 2 included...
    End
       This numeric field specifies the ending frame of the range, and cannot take a value below *GSta* one.
    Step
@@ -289,7 +289,7 @@ Calculate
       These are the start/end frames of the range in which motion paths are drawn.
       You have to *Calculate Paths* again if you modify this setting, to update the paths in the 3D Views.
       Note that unlike with ghosts, the start frame is *inclusive*
-      (i.e. if you set *PSta* to 1, you will really see the *frame 1* as starting point of the paths...).
+      (i.e. if you set *PSta* to 1, you will really see the frame 1 as starting point of the paths...).
 
    Bake Location
       By default, you get the tips' paths.
