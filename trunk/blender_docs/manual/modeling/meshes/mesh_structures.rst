@@ -116,7 +116,7 @@ Face Loops
 ----------
 
 These are a logical extension of Edge Loops in that they consist of the faces between two Edge
-Loops, as shown in loops (3 and 4) in Fig. Edge and Face Loops.
+Loops, as shown in loops (3 and 4) in Fig. :ref:`fig-mesh-topo-loop`.
 Note that for non-circular loops (4)
 the faces containing the poles are not included in a Face Loop.
 

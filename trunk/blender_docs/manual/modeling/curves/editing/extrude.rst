@@ -170,11 +170,13 @@ Now return to the Object tab,
 and edit the first curve's *TaperOb* field in the Curve and Surface panel to reference the new taper curve
 which we called *TaperCurve*.
 When you hit enter the taper curve is applied immediately,
-with the results shown in Fig. Taper extruded curve.
+with the results shown in Fig. :ref:`fig-curves-extrude-taber-curve`.
 
 .. list-table::
 
-   * - .. figure:: /images/Curves-Simple-Taper-Ex.jpg
+   * - .. _fig-curves-extrude-taber-curve:
+
+       .. figure:: /images/Curves-Simple-Taper-Ex.jpg
 
           Taper extruded curve.
 

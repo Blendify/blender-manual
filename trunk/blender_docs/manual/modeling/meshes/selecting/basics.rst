@@ -75,27 +75,33 @@ If any object that was last active appears in the group it will become selected 
 
 .. list-table::
 
-   * - .. figure:: /images/Modeling-Meshes-Selection-Borderselect1.jpg
+   * - .. _fig-mesh-select-basics-start:
+
+       .. figure:: /images/Modeling-Meshes-Selection-Borderselect1.jpg
           :width: 200px
 
           Start.
 
-     - .. figure:: /images/Modeling-Meshes-Selection-Borderselect2.jpg
+     - .. _fig-mesh-select-basics-selecting:
+
+       .. figure:: /images/Modeling-Meshes-Selection-Borderselect2.jpg
           :width: 200px
 
           Selecting.
 
-     - .. figure:: /images/Modeling-Meshes-Selection-Borderselect3.jpg
+     - .. _fig-mesh-select-basics-complete:
+
+       .. figure:: /images/Modeling-Meshes-Selection-Borderselect3.jpg
           :width: 200px
 
           Complete.
 
 
-In Fig. Start, *Border Select* has been activated and is indicated by showing a
-dotted cross-hair cursor. In Fig. Selecting
+In Fig. :ref:`fig-mesh-select-basics-start`, *Border Select* has been activated and is indicated by showing a
+dotted cross-hair cursor. In Fig. :ref:`fig-mesh-select-basics-selecting`
 the *selection region* is being chosen by drawing a rectangle with the :kbd:`LMB`.
 The selection area is only covering the selection handles of three faces. Finally,
-by releasing :kbd:`LMB` the selection is complete; see Fig. Complete.
+by releasing :kbd:`LMB` the selection is complete; see Fig. :ref:`fig-mesh-select-basics-complete`.
 
 .. note::
 
