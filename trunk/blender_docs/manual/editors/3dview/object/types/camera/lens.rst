@@ -3,7 +3,7 @@
 Camera Lens
 ***********
 
-.. figure:: /images/CameraPanel.png
+.. figure:: /images/camerapanel.png
    :width: 270px
 
    Camera Lens panel.

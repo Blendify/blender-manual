@@ -89,7 +89,7 @@ Kink
 
 It is not so easy to describe the resulting shapes, so have a look at the example below.
 
-.. figure:: /images/CurveGuideKink.jpg
+.. figure:: /images/curveguidekink.jpg
    :width: 400px
 
    Kink options of a curve guide. From left to right: Radial, Wave, Braid, Roll.

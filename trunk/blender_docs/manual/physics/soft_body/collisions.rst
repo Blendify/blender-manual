@@ -32,19 +32,19 @@ Examples
 
    * - .. _fig-softbody-collision-plane1:
 
-       .. figure:: /images/CubePlaneCollision2.gif
+       .. figure:: /images/cubeplanecollision2.gif
 
           A Soft Body cube colliding with a plane.
 
      - .. _fig-softbody-collision-plane2:
 
-       .. figure:: /images/CubePlaneCollision3.gif
+       .. figure:: /images/cubeplanecollision3.gif
 
           A Soft Body plane colliding with a cube - no interaction at all.
 
      - .. _fig-softbody-collision-plane3:
 
-       .. figure:: /images/physics_CollidingPlane_CFace.gif
+       .. figure:: /images/physics_collidingplane_cface.gif
 
           Collision with CFace activated.
 
@@ -67,13 +67,13 @@ Calculating Collisions
 
    * - .. _fig-softbody-collision-vertex:
 
-       .. figure:: /images/physics_VertexPlaneCollision.gif
+       .. figure:: /images/physics_vertexplanecollision.gif
 
           Visualization of the collision of a Soft Body vertex with a plane.
 
      - .. _fig-softbody-collision-vertex2:
 
-       .. figure:: /images/physics_VertexPlaneCollision2.gif
+       .. figure:: /images/physics_vertexplanecollision2.gif
 
           Six Soft Body vertices with different speed.
 

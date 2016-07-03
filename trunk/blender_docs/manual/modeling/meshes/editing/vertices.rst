@@ -135,12 +135,12 @@ Examples
 
           Result of rip with edge selection.
 
-   * - .. figure:: /images/rip-complexSelection-before.jpg
+   * - .. figure:: /images/rip-complexselection-before.jpg
           :width: 300px
 
           A complex selection of vertices.
 
-     - .. figure:: /images/rip-complexSelection-after.jpg
+     - .. figure:: /images/rip-complexselection-after.jpg
           :width: 300px
 
           Result of rip operation.
@@ -177,7 +177,7 @@ it fills in the gap with geometry.
 
           Edges selected.
 
-     - .. figure:: /images/ripFill-result.jpg
+     - .. figure:: /images/ripfill-result.jpg
           :width: 300px
 
           Result of rip fill.
@@ -265,17 +265,17 @@ This tool can be used on many faces at once.
 
 .. list-table::
 
-   * - .. figure:: /images/modeling_vertexConnect-before.jpg
+   * - .. figure:: /images/modeling_vertexconnect-before.jpg
           :width: 180px
 
           Vertices before connecting.
 
-     - .. figure:: /images/modeling_vertexConnect-after.jpg
+     - .. figure:: /images/modeling_vertexconnect-after.jpg
           :width: 180px
 
           After connecting vertices.
 
-     - .. figure:: /images/modeling_vertexConnect-after-faces.jpg
+     - .. figure:: /images/modeling_vertexconnect-after-faces.jpg
           :width: 180px
 
           Resulting face pair.
@@ -317,17 +317,17 @@ then :kbd:`LMB` again to move the vertex.
 
 .. list-table::
 
-   * - .. figure:: /images/modeling_VertexSlide1.jpg
+   * - .. figure:: /images/modeling_vertexslide1.jpg
           :width: 200px
 
           Selected vertex.
 
-     - .. figure:: /images/modeling_VertexSlide2.jpg
+     - .. figure:: /images/modeling_vertexslide2.jpg
           :width: 200px
 
           Positioning vertex interactively.
 
-     - .. figure:: /images/modeling_VertexSlide3.jpg
+     - .. figure:: /images/modeling_vertexslide3.jpg
           :width: 200px
 
           Repositioned vertex.

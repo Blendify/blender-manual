@@ -26,7 +26,7 @@ Edit Object
    *Add Object*
 
 
-.. figure:: /images/BGE_Actuator_Edit_Object_Dynamics.jpg
+.. figure:: /images/bge_actuator_edit_object_dynamics.jpg
    :width: 271px
 
    Edit Object actuator - Dynamics.
@@ -47,7 +47,7 @@ Dynamics
       Resumes the object dynamics (object velocity).
 
 
-.. figure:: /images/BGE_Actuator_Edit_Object_Track_to.jpg
+.. figure:: /images/bge_actuator_edit_object_track_to.jpg
    :width: 271px
 
    Edit Object actuator - Track to.
@@ -65,7 +65,7 @@ Track To
       Enable 2D (X,Y) or 3D (X,Y,Z) tracking.
 
 
-.. figure:: /images/BGE_Actuator_Edit_Object_Replace_Mesh.jpg
+.. figure:: /images/bge_actuator_edit_object_replace_mesh.jpg
    :width: 271px
 
    Edit Object actuator - Replace Mesh.
@@ -83,7 +83,7 @@ Replace Mesh
       replace physics mesh (not compound shapes)
 
 
-.. figure:: /images/BGE_Actuator_Edit_Object_End_Object.jpg
+.. figure:: /images/bge_actuator_edit_object_end_object.jpg
    :width: 271px
 
    Edit Object actuator - End Object.
@@ -95,7 +95,7 @@ End Object
 Destroy the current object (Note, debug properties will display error Zombie Object in console)
 
 
-.. figure:: /images/BGE_Actuator_Edit_Object_Add_Object.jpg
+.. figure:: /images/bge_actuator_edit_object_add_object.jpg
    :width: 271px
 
    Edit Object actuator - Add Object.

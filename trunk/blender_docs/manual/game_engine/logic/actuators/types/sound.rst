@@ -8,7 +8,7 @@ Sound Actuator
 Select a sound file from the list or make a new one.
 
 
-.. figure:: /images/BGE_Actuator_Sound.jpg
+.. figure:: /images/bge_actuator_sound.jpg
    :width: 271px
 
    Sound Actuator.

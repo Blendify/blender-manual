@@ -253,7 +253,7 @@ Tools
    Extend Horizontal
       Causes the curve to stay horizontal before the first point and after the last point.
 
-      .. figure:: /images/ui-curve-extendHorizontal.jpg
+      .. figure:: /images/ui-curve-extendhorizontal.jpg
          :width: 150px
       
          Extend Horizontal.
@@ -262,7 +262,7 @@ Tools
       Causes the curve to extrapolate before the first point and after the last point,
       based on the shape of the curve.
 
-      .. figure:: /images/ui-curve-extendExtrapolate.jpg
+      .. figure:: /images/ui-curve-extendextrapolate.jpg
          :width: 150px
       
          Extend Extrapolate.

@@ -42,12 +42,12 @@ Cubic Interpolation
 
 .. list-table::
 
-   * - .. figure:: /images/Light-Lamps-Sphere_Non-Cubic_Shadow.jpg
+   * - .. figure:: /images/light-lamps-sphere_non-cubic_shadow.jpg
           :width: 200px
 
           Without Cubic enabled.
 
-     - .. figure:: /images/Light-Lamps-Sphere_Cubic_Shadow.jpg
+     - .. figure:: /images/light-lamps-sphere_cubic_shadow.jpg
           :width: 200px
 
           With Cubic enabled.

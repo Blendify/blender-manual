@@ -111,7 +111,7 @@ to select the rest of the control points.
 
 .. _fig-surface-edit-select-control:
 
-.. figure:: /images/NurbsSurfaceSelectEdge.jpg
+.. figure:: /images/nurbssurfaceselectedge.jpg
    :width: 500px
 
    Selecting control-point.
@@ -123,7 +123,7 @@ That is because the *new* extruded surface section is bunched up there as well.
 
 .. _fig-surface-edit-select-complete:
 
-.. figure:: /images/NurbsExtrude.jpg
+.. figure:: /images/nurbsextrude.jpg
    :width: 500px
 
    Compete.
@@ -227,7 +227,7 @@ All
 Example
 ^^^^^^^
 
-.. figure:: /images/NurbsDeletingSegments.jpg
+.. figure:: /images/nurbsdeletingsegments.jpg
    :width: 600px
 
    Before and after.
@@ -285,7 +285,7 @@ in *Edit Mode*, ready to be joined.
 Fig. Joining complete is the result of joining the two curves.
 
 
-.. figure:: /images/NurbsJoin.jpg
+.. figure:: /images/nurbsjoin.jpg
    :width: 350px
 
    Joining ready and Joining complete.

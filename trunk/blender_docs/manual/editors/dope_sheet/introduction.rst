@@ -57,7 +57,7 @@ one, it is divided in three areas:
 
 .. _fig-dope-sheet-action:
 
-.. figure:: /images/actionEditor.jpg
+.. figure:: /images/actioneditor.jpg
    :width: 600px
 
    The Action Editor, Action Editor mode, with an Object and Shape channels.
@@ -112,7 +112,7 @@ The left "list-tree"
 View Menu
 ---------
 
-.. figure:: /images/actionEditor-sliders.jpg
+.. figure:: /images/actioneditor-sliders.jpg
 
    the action editor showing sliders.
 

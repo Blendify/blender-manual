@@ -20,12 +20,12 @@ Extrude
 
 .. list-table::
 
-   * - .. figure:: /images/Curves_Extrude_start.jpg
+   * - .. figure:: /images/curves_extrude_start.jpg
           :width: 315px
 
           Bézier Circle 0.0 extrude.
 
-     - .. figure:: /images/Curves_Extrude_by0.5.jpg
+     - .. figure:: /images/curves_extrude_by0.5.jpg
           :width: 315px
 
           Extruded by 0.5.
@@ -43,7 +43,7 @@ Tilt
    Linear, Ease, BSpline, and Cardinal, in the
    :menuselection:`Properties Editor --> Object Data --> Active Spline --> Tilt`.
 
-   .. figure:: /images/Curves_Extrude_by0.5_30meantilt.jpg
+   .. figure:: /images/curves_extrude_by0.5_30meantilt.jpg
 
       30 degree Mean Tilt of all control points.
 
@@ -52,7 +52,7 @@ Bevel Depth
    Note that the bevel makes the extrusion wider and higher.
    If set to 0.0, there is no bevel.
 
-   .. figure:: /images/Curves_Extrude_depth_fullfill.jpg
+   .. figure:: /images/curves_extrude_depth_fullfill.jpg
 
       Bevel depth of 0.25, fill set to full, zero Mean Tilt.
 
@@ -61,14 +61,14 @@ Bevel Resolution
    If set the to 0 (the default), the bevel is a simple "flat" surface.
    Higher values will smooth, round off the bevel, similar to the resolution settings of the curve itself...
 
-   .. figure:: /images/Curves_Extrude_resolution.jpg
+   .. figure:: /images/curves_extrude_resolution.jpg
 
       Bevel resolution set to 10.
 
 Offset
    Moves the extrusion parallel to the curve normals. *Almost like scaling*
 
-   .. figure:: /images/Curves_Extrude_closed2D_fillboth_offset-1.jpg
+   .. figure:: /images/curves_extrude_closed2d_fillboth_offset-1.jpg
 
       -1 offset, 0.5 extrusion, 0.25 Bevel Depth, 10 Bevel resolution.
 
@@ -78,7 +78,7 @@ Radius
    the :menuselection:`Curve --> Transform --> Shrink/Fatten Radius`,
    or the :kbd:`N` :menuselection:`--> transform --> Radius`.
 
-   .. figure:: /images/Curves_Extrude_radius.jpg
+   .. figure:: /images/curves_extrude_radius.jpg
 
       One control point radius set to zero.
 
@@ -94,7 +94,7 @@ Open 2D Curve
    If your normals are facing the wrong way you can switch their direction as shown
    :ref:`here <curve-switch_direction>`
 
-   .. figure:: /images/Curves_Extrude_open2D_fill_none.jpg
+   .. figure:: /images/curves_extrude_open2d_fill_none.jpg
 
       Open 2D Curve with :kbd:`Alt-C`, fill set to none,
       zero offset, 0.5 extrusion, 0.25 Bevel Depth, 10 Bevel resolution.
@@ -106,7 +106,7 @@ Closed 2D Curve
 
    The optional bevel depth will always create a 90 degree bevels here.
 
-   .. figure:: /images/Curves_Extrude_closed2D_fill_both.jpg
+   .. figure:: /images/curves_extrude_closed2d_fill_both.jpg
 
       Closed 2D Curve, 0.5 extrude, 0.25 Bevel Depth, 10 Bevel resolution, Fill: Both.
 
@@ -176,11 +176,11 @@ with the results shown in Fig. :ref:`fig-curves-extrude-taber-curve`.
 
    * - .. _fig-curves-extrude-taber-curve:
 
-       .. figure:: /images/Curves-Simple-Taper-Ex.jpg
+       .. figure:: /images/curves-simple-taper-ex.jpg
 
           Taper extruded curve.
 
-     - .. figure:: /images/Curves-Simple-Taper-Ex-Solid.jpg
+     - .. figure:: /images/curves-simple-taper-ex-solid.jpg
 
           Taper solid mode.
 
@@ -193,7 +193,7 @@ Of course as an artist that may be what you are looking for!
 
 .. _fig-curves-extrude-taber1:
 
-.. figure:: /images/curvesTaper02.jpg
+.. figure:: /images/curvestaper02.jpg
 
    Taper example 1.
 
@@ -205,7 +205,7 @@ the right.
 
 .. _fig-curves-extrude-taber2:
 
-.. figure:: /images/curvesTaper03.jpg
+.. figure:: /images/curvestaper03.jpg
 
    Taper example 2.
 
@@ -215,7 +215,7 @@ center and that gives a wider result to the curve object on the right.
 
 .. _fig-curves-extrude-taber3:
 
-.. figure:: /images/curvesTaper04.jpg
+.. figure:: /images/curvestaper04.jpg
 
    Taper example 3.
 

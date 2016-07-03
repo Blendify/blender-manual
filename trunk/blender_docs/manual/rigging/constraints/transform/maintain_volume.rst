@@ -10,7 +10,7 @@ ratio of its original volume.
 Options
 =======
 
-.. figure:: /images/Constraints-Transform-MaintainVol.jpg
+.. figure:: /images/constraints-transform-maintainvol.jpg
 
    Maintain Volume Constraint.
 

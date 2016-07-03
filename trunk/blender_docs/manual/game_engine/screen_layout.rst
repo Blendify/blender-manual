@@ -13,13 +13,13 @@ together with the appropriate options for game setup/debug/running
 (these should be set up in the order shown).
 
 
-.. figure:: /images/BGE_Game_Logic_Screen_Layout1.jpg
+.. figure:: /images/bge_game_logic_screen_layout1.jpg
    :width: 640px
 
    Game Logic Screen Layout.
 
 
-.. figure:: /images/BGE_Game_Logic_Screen_Layout4.jpg
+.. figure:: /images/bge_game_logic_screen_layout4.jpg
 
    Game Logic Menu.
 
@@ -31,7 +31,7 @@ This includes many already-familiar panels Information, 3D View,
 Properties but also a new Logic Editor panel concerned solely with the BGE.
 
 
-.. figure:: /images/BGE_Game_Logic_Screen_Layout2.jpg
+.. figure:: /images/bge_game_logic_screen_layout2.jpg
 
    Render Engine Menu.
 
@@ -44,7 +44,7 @@ It also opens various other menu options such as the Game options (see below)
 and a range of Properties for the BGE renderer properties (see below)
 
 
-.. figure:: /images/BGE_Game_Logic_Screen_Layout3.jpg
+.. figure:: /images/bge_game_logic_screen_layout3.jpg
 
    Game Options.
 

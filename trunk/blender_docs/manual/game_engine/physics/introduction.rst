@@ -30,7 +30,7 @@ which include the Gravity constant and some important engine performance tweaks.
 Object Physics
 ==============
 
-.. figure:: /images/BGE-Physics-PropertiesTabs.jpg
+.. figure:: /images/bge-physics-propertiestabs.jpg
 
 .. _game_engine-physics-types:
 
@@ -97,7 +97,7 @@ Your options include:
 Visualizing Physics
 ===================
 
-.. figure:: /images/BGE-Physics-Visualization.jpg
+.. figure:: /images/bge-physics-visualization.jpg
 
 Go to :menuselection:`Game --> Show Physics Visualization` to show lines representing various attributes
 of the Bullet representation of your objects.
@@ -138,7 +138,7 @@ For all debug modes, API docs for ``bge.constraints``.
 Show Framerate and Profile
 --------------------------
 
-.. figure:: /images/BGE-Physics_ProfileStats.jpg
+.. figure:: /images/bge-physics_profilestats.jpg
 
    A shot of `Manual-BGE-Physics-DancingSticks.blend
    <https://wiki.blender.org/index.php/Media:Manual-BGE-Physics-DancingSticks.blend>`__ with
@@ -252,7 +252,7 @@ This means that the result is completely deterministic
 new objects that are added to the physics simulation after it was recorded.
 This may, or not, be desired according to the situation.
 
-.. figure:: /images/BGE-Physics-RecordAnimation.jpg
+.. figure:: /images/bge-physics-recordanimation.jpg
 
    Menu to record Keyframes to the Dopesheet.
 
@@ -268,7 +268,7 @@ Note that you can also use Game Logic Bricks and scripting. Everything will be r
 Keyframe Clean-up
 -----------------
 
-.. figure:: /images/BGE-Physics-DopeSheetFull.jpg
+.. figure:: /images/bge-physics-dopesheetfull.jpg
 
    Resulting recorded animation.
 
@@ -277,7 +277,7 @@ Pressing :kbd:`O` while in the *DopeSheet* will remove all superfluous keyframes
 Unwanted channels can also be removed.
 
 
-.. figure:: /images/BGE-Physics-DopeSheetCleaned.jpg
+.. figure:: /images/bge-physics-dopesheetcleaned.jpg
 
    Cleaned up recording.
 

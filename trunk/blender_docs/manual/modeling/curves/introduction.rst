@@ -3,7 +3,7 @@
 Introduction
 ************
 
-.. figure:: /images/LogoFinal.jpg
+.. figure:: /images/logofinal.jpg
 
    Bird logo made from Bézier curves.
 
@@ -40,7 +40,7 @@ to change the properties of objects as a function of time.
 Curve Primitives
 ================
 
-.. figure:: /images/Modeling_Curves_add-curve-menu.jpg
+.. figure:: /images/modeling_curves_add-curve-menu.jpg
 
    Add Curve menu.
 
@@ -74,7 +74,7 @@ Control Point. By default the arrows on the Segment represents the direction and
 This can be altered by defining a custom F-Curve.
 
 
-.. figure:: /images/Modeling_Curves_control-points-handles.jpg
+.. figure:: /images/modeling_curves_control-points-handles.jpg
 
    Bézier Curve in Edit Mode.
 
@@ -115,24 +115,24 @@ Automatic :kbd:`V-A`
    ensure the smoothest result.
    These handles convert to *Aligned* handles when moved.
 
-   .. figure:: /images/Modeling_Curves_automatic-handles.jpg
+   .. figure:: /images/modeling_curves_automatic-handles.jpg
 
 Vector :kbd:`V-V`
    Both parts of a handle always point to the previous handle or the next handle which allows
    you to create curves or sections thereof made of straight lines or with sharp corners.
    Vector handles convert to *Free* handles when moved.
 
-   .. figure:: /images/Modeling_Curves_vector-handles.jpg
+   .. figure:: /images/modeling_curves_vector-handles.jpg
 
 Aligned :kbd:`V-L`
    These handles always lie in a straight line, and give a continuous curve without sharp angles.
 
-   .. figure:: /images/Modeling_Curves_aligned-handles.jpg
+   .. figure:: /images/modeling_curves_aligned-handles.jpg
 
 Free :kbd:`V-F`
    The handles are independent of each other.
 
-   .. figure:: /images/Modeling_Curves_free-handles.jpg
+   .. figure:: /images/modeling_curves_free-handles.jpg
 
 
 Additionally, the :kbd:`V-T` shortcut can be used to toggle between Free and Aligned handle types.
@@ -150,7 +150,7 @@ Curve Properties can be set from the *Object Data* option in the
 Shape
 -----
 
-.. figure:: /images/Modeling_Curves_shape-panel.jpg
+.. figure:: /images/modeling_curves_shape-panel.jpg
 
    Curves Shape panel.
 
@@ -169,7 +169,7 @@ Resolution
    then the *Preview U* setting is used for both the 3D View and render resolution.
 
 
-   .. figure:: /images/Modeling_Curves_shape-resolution.jpg
+   .. figure:: /images/modeling_curves_shape-resolution.jpg
 
       Curves with a resolution of 3 (left) and 12 (right).
 
@@ -181,7 +181,7 @@ Twisting
    Tangent* and *Z-Up* options from the drop-down menu.
 
 
-   .. figure:: /images/Modeling_Curves_shape-twist.jpg
+   .. figure:: /images/modeling_curves_shape-twist.jpg
 
       Curves with a twist of minimum (left) and tangent (right).
 
@@ -193,7 +193,7 @@ Fill
    (default) applying any Shape Keys or Modifiers.
 
 
-   .. figure:: /images/Modeling_Curves_shape-fill.jpg
+   .. figure:: /images/modeling_curves_shape-fill.jpg
 
       Curves with a fill of half (left) and full (right).
 
@@ -212,7 +212,7 @@ Path/Curve-Deform
 Geometry
 --------
 
-.. figure:: /images/Modeling_Curves_geometry-panel.jpg
+.. figure:: /images/modeling_curves_geometry-panel.jpg
 
    Curves Geometry panel.
 
@@ -226,14 +226,14 @@ Bevel
    Depth
       Changes the size of the bevel
 
-      .. figure:: /images/Modeling_Curves_geometry-bevel-depth.jpg
+      .. figure:: /images/modeling_curves_geometry-bevel-depth.jpg
 
          A Curve with different Bevel depths applied.
 
    Resolution
       Alters the smoothness of the bevel
 
-      .. figure:: /images/Modeling_Curves_geometry-bevel-resolution.jpg
+      .. figure:: /images/modeling_curves_geometry-bevel-resolution.jpg
 
          A Curve with different resolutions applied.
 
@@ -244,7 +244,7 @@ Taper Object
    The Taper Object can only be another Curve.
    Editing the Handles and Control Points of the Taper Object will cause the original Object to change shape.
 
-   .. figure:: /images/Modeling_Curves_geometry-taper.jpg
+   .. figure:: /images/modeling_curves_geometry-taper.jpg
 
       A Curve before (left) and after (right) a Bézier Curve Taper Object was applied.
 
@@ -255,7 +255,7 @@ Bevel Object
    Editing the Handles and Control Points of the Bevel Object will cause the original Object to change shape.
    Given the options available, it is best to experiment and see the results of this operation.
 
-   .. figure:: /images/Modeling_Curves_geometry-bevel.jpg
+   .. figure:: /images/modeling_curves_geometry-bevel.jpg
 
       A Curve with the Bevel Object as a Bézier Curve (left) and as a Bézier Circle (right).
 
@@ -265,7 +265,7 @@ Map Taper
    For Curves using a Taper Object and with modifications to the *Start/End Bevel Factor*
    the *Map Taper* option will apply the taper to the beveled part of the Curve (not the whole Curve).
 
-   .. figure:: /images/Modeling_Curves_geometry-map-taper.jpg
+   .. figure:: /images/modeling_curves_geometry-map-taper.jpg
 
       A Curve without (left) and with (right) Map Taper applied.
 
@@ -277,7 +277,7 @@ Start Bevel Factor and End Bevel Factor
    Decreasing the *End Bevel Factor* by 0.25 will start beveling the Curve 25% of the distance from the end
    of the Curve (again, shortening the Curve).
 
-   .. figure:: /images/Modeling_Curves_geometry-bevel-start-end-factor.jpg
+   .. figure:: /images/modeling_curves_geometry-bevel-start-end-factor.jpg
 
       A Curve with no Bevel factor applied (left),
       with a 50% Start Bevel Factor (middle) and with a 25% End Bevel Factor (right).
@@ -295,7 +295,7 @@ See the link below for further information.
 Active Spline
 -------------
 
-.. figure:: /images/Modeling_Curves_active-spline-panel.jpg
+.. figure:: /images/modeling_curves_active-spline-panel.jpg
 
    Curves Active Spline panel.
 
@@ -346,7 +346,7 @@ A NURBS Curve is edited by moving the location of the Control Points.
 Active Spline
 -------------
 
-.. figure:: /images/Modeling_Curves_nurbs-active-spline-panel.jpg
+.. figure:: /images/modeling_curves_nurbs-active-spline-panel.jpg
 
    NURBS Active Spline panel.
 
@@ -362,7 +362,7 @@ Knots
    Cyclic
       Makes the NURBS curve cyclic.
 
-      .. figure:: /images/Modeling_Curves_nurbs-cyclic.jpg
+      .. figure:: /images/modeling_curves_nurbs-cyclic.jpg
 
          A NURBS curve with Cyclic applied.
 
@@ -371,7 +371,7 @@ Knots
    Endpoint
       Makes the curve contact the end control points. Cyclic must be disabled for this option to work.
 
-      .. figure:: /images/Modeling_Curves_nurbs-endpoint.jpg
+      .. figure:: /images/modeling_curves_nurbs-endpoint.jpg
          :width: 511px
 
          A NURBS curve with Endpoint enabled.
@@ -384,7 +384,7 @@ Order
    influence over a greater relative proportion of the curve.
    The valid range of *Order* values is 2-6 depending on the number of control points present in the curve.
 
-   .. figure:: /images/Modeling_Curves_nurbs-order.jpg
+   .. figure:: /images/modeling_curves_nurbs-order.jpg
       :width: 511px
 
       NURBS curves with orders of 2 (left), 4 (middle) and 6 (right).

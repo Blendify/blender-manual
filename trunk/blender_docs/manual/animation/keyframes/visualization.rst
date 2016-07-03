@@ -29,13 +29,13 @@ This feature allows you to visualize the animation of objects by displaying thei
 over a series of frames.
 
 
-.. figure:: /images/animation-keyframes-visualization-motionPath.jpg
+.. figure:: /images/animation-keyframes-visualization-motionpath.jpg
    :width: 400px
 
    An animated cube with its motion path displayed.
 
 
-.. figure:: /images/animation-keyframes-visualization-motionPath-panel3.jpg
+.. figure:: /images/animation-keyframes-visualization-motionpath-panel3.jpg
    :width: 250px
 
    Motion paths panel.
@@ -58,7 +58,7 @@ and a blue glow around the current frame.
 Options
 -------
 
-.. figure:: /images/animation-keyframes-visualization-motionPath-panel.jpg
+.. figure:: /images/animation-keyframes-visualization-motionpath-panel.jpg
    :width: 200px
 
    The Motion Paths Panel set to "Around Frame"
@@ -70,7 +70,7 @@ Around Frame
    for a given number of frames before and after the current one (again, as with ghosts).
 
 
-.. figure:: /images/animation-keyframes-visualization-motionPath-panel2.jpg
+.. figure:: /images/animation-keyframes-visualization-motionpath-panel2.jpg
    :width: 200px
 
    The Motion Paths Panel set to "In Range"

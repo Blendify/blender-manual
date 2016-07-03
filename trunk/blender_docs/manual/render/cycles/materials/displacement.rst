@@ -14,7 +14,7 @@ shaders. This way, textures can then be used to make the mesh surface more detai
 Type
 ====
 
-.. figure:: /images/Selection_017.jpg
+.. figure:: /images/selection_017.jpg
    :align: right
 
 Depending on the settings, the displacement may be virtual,
@@ -53,7 +53,7 @@ This only affects the render and does not show in the viewport
 Displacement can also be done manually by use of the Displacement Modifier.
 
 
-.. figure:: /images/Cycles-Displacement-Dicing.jpg
+.. figure:: /images/cycles-displacement-dicing.jpg
    :width: 567px
 
    Subdivision Off - On, Dicing Rate 1.0 - 0.3 - 0.05 (Monkeys look identical in viewport, no modifiers).

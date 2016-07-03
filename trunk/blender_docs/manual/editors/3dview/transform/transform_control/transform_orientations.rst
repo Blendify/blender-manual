@@ -36,7 +36,7 @@ you can define your own custom orientation (see `Custom Orientations`_ below).
 Our Demo Cube
 =============
 
-.. figure:: /images/Orientations-BasicSetup.jpg
+.. figure:: /images/orientations-basicsetup.jpg
 
    To demonstrate the various behaviors, we add some colors to the default cube,
    rotate it -15° along its local Z- and X Axes, and we scale its "y" face down.
@@ -60,7 +60,7 @@ Orientations
 ============
 
 Global
-   .. figure:: /images/editors_3dview_Transform_Control-Transform_Orientations-01-Global.jpg
+   .. figure:: /images/editors_3dview_transform_control-transform_orientations-01-global.jpg
       :align: right
 
       Global.
@@ -77,7 +77,7 @@ Global
    and does not match the Global coordinates.
 
 Local
-   .. figure:: /images/editors_3dview_Transform_Control-Transform_Orientations-02-Local.jpg
+   .. figure:: /images/editors_3dview_transform_control-transform_orientations-02-local.jpg
       :align: right
 
       Local.
@@ -99,7 +99,7 @@ Local
 
 
 Normal
-   .. figure:: /images/editors_3dview_Transform_Control-Transform_Orientations-03-Normal.jpg
+   .. figure:: /images/editors_3dview_transform_control-transform_orientations-03-normal.jpg
       :align: right
 
       Normal.
@@ -125,7 +125,7 @@ Normal
    the same movement -- except along that second vertex's normal instead.
 
 Gimbal
-   .. figure:: /images/editors_3dview_Transform_Control-Transform_Orientations-04-Gimbal.jpg
+   .. figure:: /images/editors_3dview_transform_control-transform_orientations-04-gimbal.jpg
       :align: right
 
       Gimbal.
@@ -146,7 +146,7 @@ Gimbal
       the Manipulator behaves the same as in *Local* mode.
 
 View
-   .. figure:: /images/editors_3dview_Transform_Control-Transform_Orientations-05-View.jpg
+   .. figure:: /images/editors_3dview_transform_control-transform_orientations-05-view.jpg
       :align: right
 
       View.
@@ -169,7 +169,7 @@ Custom Orientations
    | Mode:     Object and Edit Modes
    | Hotkey:   :kbd:`Ctrl-Alt-Spacebar`
 
-.. figure:: /images/transformOrientationPanel-custom.jpg
+.. figure:: /images/transformorientationpanel-custom.jpg
 
    Custom orientation.
 
@@ -183,7 +183,7 @@ The *Transform Orientations* panel, found in the Properties Panel,
 can be used to manage transform orientations: selecting the active orientation,
 adding and deleting custom orientations.
 
-.. figure:: /images/Orientations-Custom-Name.jpg
+.. figure:: /images/orientations-custom-name.jpg
    :width: 300px
 
    Renaming a Custom Orientation.
@@ -196,7 +196,7 @@ allows you to rename the custom orientation after you press :kbd:`Ctrl-Alt-Space
 
 .. _fig-view3d-transform-orientation-extrusion:
 
-.. figure:: /images/Orientations-Custom-Extrusion.jpg
+.. figure:: /images/orientations-custom-extrusion.jpg
 
    Custom Extrusion.
 

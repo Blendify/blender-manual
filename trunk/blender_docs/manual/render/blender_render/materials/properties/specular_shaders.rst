@@ -51,7 +51,7 @@ metals tend to have colored highlights).
 Technical Details
 -----------------
 
-.. figure:: /images/MatGen03.jpg
+.. figure:: /images/matgen03.jpg
 
    Specular Reflection.
 

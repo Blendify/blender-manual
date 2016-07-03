@@ -15,7 +15,7 @@ Individual Origins
 In Object Mode
 ==============
 
-.. figure:: /images/editors_3dview_Transform-Control_Pivot-Point_Individual-Origins-rotation-around-center.jpg
+.. figure:: /images/editors_3dview_transform-control_pivot-point_individual-origins-rotation-around-center.jpg
    :width: 300px
 
    Rotation around individual origins.
@@ -56,7 +56,7 @@ Using Individual Origins in Face mode produces the most predictable results.
 
           Rotation of individual faces with the pivot point indicated by the image text.
 
-     - .. figure:: /images/editors_3dview_Transform-Control_Pivot-Point_Individual-Origins-rotation-grouped-faces.jpg
+     - .. figure:: /images/editors_3dview_transform-control_pivot-point_individual-origins-rotation-grouped-faces.jpg
           :width: 320px
 
           Rotation of grouped faces with the pivot point indicated by the image text.
@@ -68,12 +68,12 @@ Faces that do not touch will rotate around their Individual Origins (their cente
 
 .. list-table::
 
-   * - .. figure:: /images/editors_3dview_Transform-Control_Pivot-Point_Individual-Origins-scale-individual-faces.jpg
+   * - .. figure:: /images/editors_3dview_transform-control_pivot-point_individual-origins-scale-individual-faces.jpg
           :width: 320px
 
           Scaling with non-touching faces.
 
-     - .. figure:: /images/editors_3dview_Transform-Control_Pivot-Point_Individual-Origins-scale-group-fgon-faces.jpg
+     - .. figure:: /images/editors_3dview_transform-control_pivot-point_individual-origins-scale-group-fgon-faces.jpg
           :width: 320px
 
           Scaling with touching faces.
@@ -83,7 +83,7 @@ Groups of faces and Fgons can be scaled without their outside perimeter being de
 However, the individual faces inside will not be scaled uniformly.
 
 
-.. figure:: /images/editors_3dview_Transform-Control_Pivot-Point_Individual-Origins-anemone-example.jpg
+.. figure:: /images/editors_3dview_transform-control_pivot-point_individual-origins-anemone-example.jpg
    :width: 300px
 
    Modeling with faces and individual origins as the pivot point.

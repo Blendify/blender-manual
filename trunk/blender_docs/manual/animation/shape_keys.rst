@@ -7,7 +7,7 @@ Shape Keys
 They are used to deform the object vertices into a new shape.
 
 
-.. figure:: /images/Shape_Keys_Visual.jpg
+.. figure:: /images/shape_keys_visual.jpg
 
    A mesh with different shape keys applied.
 
@@ -36,7 +36,7 @@ Shape Keys Panel
    | Panel:    :menuselection:`Properties editor --> Object Data --> Shape Keys`
 
 
-.. figure:: /images/Shape_Keys3.jpg
+.. figure:: /images/shape_keys3.jpg
 
    Shape Keys. Options.
 
@@ -60,7 +60,7 @@ Remove
    Remove a shape key from the list.
 
 
-.. figure:: /images/Shape_Key_Specials2.jpg
+.. figure:: /images/shape_key_specials2.jpg
 
    Shape Keys Specials.
 
@@ -110,7 +110,7 @@ Relative shape keys deform from a selected shape key.
 By default, all relative shape keys deform from the first shape key called the Basis shape key.
 
 
-.. figure:: /images/Shape_Keys_Relative3.jpg
+.. figure:: /images/shape_keys_relative3.jpg
 
    Relative Shape Keys. Options.
 
@@ -141,7 +141,7 @@ Absolute shape keys deform from the previous and to the next shape key.
 They are mainly used to deform the object into different shapes over time.
 
 
-.. figure:: /images/Shape_Keys_Absolute2.jpg
+.. figure:: /images/shape_keys_absolute2.jpg
 
    Absolute Shape Keys. Options.
 
@@ -166,7 +166,7 @@ Interpolation
    This controls the interpolation between shape keys.
 
 
-.. figure:: /images/Shape_Keys_Interpolation.jpg
+.. figure:: /images/shape_keys_interpolation.jpg
 
    Different types of interpolation.
 
@@ -183,7 +183,7 @@ Evaluation Time
    Here keyframes have been used to control Evaluation Time for animation.
 
 
-.. figure:: /images/Shape_Keys_Evaluation.jpg
+.. figure:: /images/shape_keys_evaluation.jpg
    :width: 600px
 
    Animation with Evaluation Time.
@@ -203,7 +203,7 @@ This example shows you how to make a cube mesh transform into a sphere.
 - Set the *Value* for "Key 1" to see the transformation between the shape keys.
 
 
-.. figure:: /images/Shape_Keys_Workflow_2.jpg
+.. figure:: /images/shape_keys_workflow_2.jpg
 
    Shape Key workflow.
 
@@ -216,9 +216,9 @@ Workflow For Absolute Shape Keys
 - Switch to Face Select mode (if you are not already in it)
 
 
-.. figure:: /images/Absolute_SK_Workflow_1.jpg
+.. figure:: /images/absolute_sk_workflow_1.jpg
 
-.. figure:: /images/Absolute_SK_Workflow_2.jpg
+.. figure:: /images/absolute_sk_workflow_2.jpg
    :width: 150px
 
 
@@ -226,7 +226,7 @@ Workflow For Absolute Shape Keys
 - Extrude up :kbd:`E 1` confirm with :kbd:`LMB`.
 
 
-.. figure:: /images/Absolute_SK_Workflow_3.jpg
+.. figure:: /images/absolute_sk_workflow_3.jpg
    :width: 150px
 
 
@@ -235,7 +235,7 @@ Workflow For Absolute Shape Keys
 - Switch back to Object Mode.
 
 
-.. figure:: /images/Absolute_SK_Workflow_4.jpg
+.. figure:: /images/absolute_sk_workflow_4.jpg
    :width: 300px
 
 
@@ -245,7 +245,7 @@ Workflow For Absolute Shape Keys
 - Switch to Edit Mode.
 
 
-.. figure:: /images/Absolute_SK_Workflow5.jpg
+.. figure:: /images/absolute_sk_workflow5.jpg
    :width: 500px
 
 
@@ -253,7 +253,7 @@ Workflow For Absolute Shape Keys
 - Select the extruded side face and :kbd:`G Z 1` confirm with :kbd:`LMB`
 
 
-.. figure:: /images/Absolute_SK_Workflow_6.jpg
+.. figure:: /images/absolute_sk_workflow_6.jpg
    :width: 500px
 
 
@@ -266,7 +266,7 @@ Workflow For Absolute Shape Keys
 - Drag the Evaluation Time slider to make its value vary from 10 to 30.
 
 
-.. figure:: /images/Absolute_SK_Workflow_7.gif
+.. figure:: /images/absolute_sk_workflow_7.gif
 
 
 More Details On Absolute Shape Keys

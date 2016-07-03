@@ -11,7 +11,7 @@ In other 3D software you can find it with the name "Look at" constraint.
 Options
 =======
 
-.. figure:: /images/Constraints-Tracking-DampedTrack.jpg
+.. figure:: /images/constraints-tracking-dampedtrack.jpg
    :width: 304px
 
    Damped Track panel.

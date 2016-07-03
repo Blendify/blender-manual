@@ -49,7 +49,7 @@ Examples
 Manual Z-Mask
 -------------
 
-.. figure:: /images/Compositing-Node-Math_MinMax.jpg
+.. figure:: /images/compositing-node-math_minmax.jpg
    :width: 300px
 
    Example.
@@ -75,7 +75,7 @@ so they are chosen for the left side, but the plane (FlyCam) Render layers Z are
 Using Sine Function to Pulsate
 ------------------------------
 
-.. figure:: /images/Compositing-Node-Math_Sine.jpg
+.. figure:: /images/compositing-node-math_sine.jpg
 
 This example has a *Time node* putting out a linear sequence from 0 to 1 over the course of 101
 frames. The green vertical line in the curve widget shows that frame 25 is being put out,
@@ -102,7 +102,7 @@ Alter a color channel value to make a color "pulse".
 Brightening/Scaling a Channel
 -----------------------------
 
-.. figure:: /images/Compositing-Node-Math_Multiply.jpg
+.. figure:: /images/compositing-node-math_multiply.jpg
 
 This example has a *Multiply node* increasing the luminance channel (Y)
 of the image to make it brighter. Note that you should use a *Map Value node* 
@@ -196,7 +196,7 @@ You can see that this same 8-bit value is output for a range of input values.
 Reality
 -------
 
-.. figure:: /images/Compositing-Node-Math_Quantize-Red.jpg
+.. figure:: /images/compositing-node-math_quantize-red.jpg
    :width: 650px
 
 

@@ -10,7 +10,7 @@ For all other conditions the controller gives a negative (FALSE) output.
 
 Options:
 
-.. figure:: /images/BGE_Controller_Xor.jpg
+.. figure:: /images/bge_controller_xor.jpg
    :width: 292px
 
    XOR Controller.

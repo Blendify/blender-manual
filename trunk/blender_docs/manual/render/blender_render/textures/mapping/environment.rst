@@ -53,7 +53,7 @@ Options
    (reflection co-ordinates) in the Map Input panel of the Material tab.
 
 
-.. figure:: /images/texture-envMap-panel.jpg
+.. figure:: /images/texture-envmap-panel.jpg
 
    Reflecting plane EnvMap settings.
 
@@ -189,12 +189,12 @@ onto which it is being mapped.
 
 .. list-table::
 
-   * - .. figure:: /images/EnvMap01.jpg
+   * - .. figure:: /images/envmap01.jpg
           :width: 300px
 
           Planar reflection example. 1: Camera, 2: Empty, 3: Reflecting Plane.
 
-     - .. figure:: /images/EnvMap04.jpg
+     - .. figure:: /images/envmap04.jpg
           :width: 200px
 
           Sphere on a reflecting surface.
@@ -208,12 +208,12 @@ in order to get reflections of reflections.
 
 .. list-table::
 
-   * - .. figure:: /images/EnvMap05.jpg
+   * - .. figure:: /images/envmap05.jpg
           :width: 200px
 
           Reflecting sphere on a reflecting surface.
 
-     - .. figure:: /images/EnvMap06.jpg
+     - .. figure:: /images/envmap06.jpg
           :width: 200px
 
           Reflecting sphere on a reflecting surface with multiple

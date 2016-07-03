@@ -3,7 +3,7 @@
 Property Sensor
 ***************
 
-.. figure:: /images/BGE_Sensor_Property1.jpg
+.. figure:: /images/bge_sensor_property1.jpg
    :width: 300px
 
    Property sensor.
@@ -16,7 +16,7 @@ See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for
 Special Options:
 
 
-.. figure:: /images/Property_evaluation_types.jpg
+.. figure:: /images/property_evaluation_types.jpg
    :width: 300px
 
    Property Evaluation.

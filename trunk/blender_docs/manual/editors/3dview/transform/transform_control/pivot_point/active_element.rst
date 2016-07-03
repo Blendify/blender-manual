@@ -17,7 +17,7 @@ last one to be selected and will be shown in a lighter orange color when in *Obj
 and white when in *Edit Mode*. With *Active element as Pivot* set to active,
 all transformations will occur relative to the active element.
 
-.. figure:: /images/editors_3dview_Transform_control-Pivot_point-Active_element-selected-active-element.jpg
+.. figure:: /images/editors_3dview_transform_control-pivot_point-active_element-selected-active-element.jpg
    :width: 640px
 
    Display of active elements in Object Mode is shown on the left of the
@@ -34,7 +34,7 @@ This is shown by the figure to the below where the active Object (the cube)
 remains in the same location (note its position relative to the 3D cursor)
 while the other Objects rotate and scale in relation to the active element.
 
-.. figure:: /images/editors_3dview_Transform_control-Pivot_point-Active_element-active-object-rotation.jpg
+.. figure:: /images/editors_3dview_transform_control-pivot_point-active_element-active-object-rotation.jpg
    :width: 640px
 
    Rotation and scaling with the cube as the active element.
@@ -63,7 +63,7 @@ you can see that when it is transformed its vertices move, with the consequence 
 adjacent element which shares one or more vertices with the active element is also
 transformed.
 
-.. figure:: /images/editors_3dview_Transform_control-Pivot_point-Active_single-element-selection.jpg
+.. figure:: /images/editors_3dview_transform_control-pivot_point-active_single-element-selection.jpg
    :width: 640px
 
    Edit Mode and only one element selected.
@@ -85,7 +85,7 @@ The pivot points stay in the same place as what we have seen above,
 with only one exception for Fgons. In the image below,
 the selected elements have been rotated.
 
-.. figure:: /images/editors_3dview_Transform_control-Pivot_point-Active_multiple-element-selection.jpg
+.. figure:: /images/editors_3dview_transform_control-pivot_point-active_multiple-element-selection.jpg
    :width: 640px
 
    Edit Mode and multiple selections.

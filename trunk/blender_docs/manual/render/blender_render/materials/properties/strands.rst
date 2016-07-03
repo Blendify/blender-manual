@@ -95,7 +95,7 @@ Shape
 
 .. _fig-bi-material-shadow-shapes:
 
-.. figure:: /images/StrandShapes.jpg
+.. figure:: /images/strandshapes.jpg
 
    Strand Shapes
 
@@ -131,7 +131,7 @@ Texturing along the Strand
    Fading a strand to alpha...
 
 
-.. figure:: /images/StrandRenderFade.jpg
+.. figure:: /images/strandrenderfade.jpg
 
    ... And the render result.
 
@@ -151,7 +151,7 @@ hairs tend to get too shiny.
 Strand render Simplification
 ============================
 
-.. figure:: /images/StrandRenderSimplification.jpg
+.. figure:: /images/strandrendersimplification.jpg
 
    Strand render child simplification.
 

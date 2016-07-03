@@ -13,7 +13,7 @@ Settings
 
 .. _object-empty-display:
 
-.. figure:: /images/EmptyDrawTypes.jpg
+.. figure:: /images/emptydrawtypes.jpg
    :width: 300px
    :align: right
 
@@ -75,13 +75,13 @@ Empties are important and useful objects. Some examples of ways to use them incl
 
 .. list-table::
 
-   * - .. figure:: /images/Array_Multi_Dimension.jpg
+   * - .. figure:: /images/array_multi_dimension.jpg
           :width: 200px
 
           An example of an empty being used to control an array.
 
 
-     - .. figure:: /images/Tracktosimple.jpg
+     - .. figure:: /images/tracktosimple.jpg
           :width: 200px
 
           An example of an empty being used to control the track to constraint.

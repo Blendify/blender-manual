@@ -22,7 +22,7 @@ There are currently three Vertex Weight modifiers:
 Common Settings
 ===============
 
-.. figure:: /images/ModifiersWeightVG_mask.jpg
+.. figure:: /images/modifiersweightvg_mask.jpg
    :width: 300px
 
    The influence/masking part of Vertex Weight modifiers.
@@ -98,7 +98,7 @@ the vertex group you are editing.
 Vertex Weight Edit Modifier
 ===========================
 
-.. figure:: /images/ModifiersWeightVGEdit.jpg
+.. figure:: /images/modifiersweightvgedit.jpg
    :width: 300px
 
    The Vertex Weight Edit modifier panel.
@@ -147,7 +147,7 @@ Group Remove
 Vertex Weight Mix Modifier
 ==========================
 
-.. figure:: /images/ModifiersWeightVGMix.jpg
+.. figure:: /images/modifiersweightvgmix.jpg
    :width: 300px
 
    The Vertex Weight Mix modifier panel.
@@ -213,7 +213,7 @@ Mix Set
 Vertex Weight Proximity Modifier
 ================================
 
-.. figure:: /images/ModifiersWeightVGProximity.jpg
+.. figure:: /images/modifiersweightvgproximity.jpg
    :width: 300px
 
    The Vertex Weight Proximity modifier panel.
@@ -322,12 +322,12 @@ you would get wavy patterns, see Fig. :ref:`fig-modifier-vertex-weight-wavy`).
 
 .. list-table:: Wavy patterns.
 
-   * - .. figure:: /images/ModifiersWeightVGroupGeometryEX1-0PF.jpg
+   * - .. figure:: /images/modifiersweightvgroupgeometryex1-0pf.jpg
           :width: 300px
 
           Distance from edges.
 
-     - .. figure:: /images/ModifiersWeightVGroupGeometryEX1-0PFWavyWeights.jpg
+     - .. figure:: /images/modifiersweightvgroupgeometryex1-0pfwavyweights.jpg
           :width: 300px
 
           Distance from vertices.
@@ -351,23 +351,23 @@ and play with the *Custom Curve* mapping to get a larger/narrower "valley"...
 .. list-table::
    *Curve Map* variations.
 
-   * - .. figure:: /images/ModifiersWeightVGroupGeometryEX-5-0PF.jpg
+   * - .. figure:: /images/modifiersweightvgroupgeometryex-5-0pf.jpg
           :width: 200px
 
           Concave-type mapping curve.
 
-     - .. figure:: /images/ModifiersWeightVGroupGeometryEX1-0PF.jpg
+     - .. figure:: /images/modifiersweightvgroupgeometryex1-0pf.jpg
           :width: 200px
 
           No mapping curve (linear).
 
-     - .. figure:: /images/ModifiersWeightVGroupGeometryEX5-0PF.jpg
+     - .. figure:: /images/modifiersweightvgroupgeometryex5-0pf.jpg
           :width: 200px
 
           Convex-type mapping curve.
 
 
-.. figure:: /images/ModifiersWeightVGroupGeometryEXRemVerts.jpg
+.. figure:: /images/modifiersweightvgroupgeometryexremverts.jpg
    :width: 200px
 
    Vertices with a computed weight below 0.1 removed from the vertex group.
@@ -410,17 +410,17 @@ Leave the mapping to the default *Local* option, and play with the various chann
 .. list-table::
    Texture channel variations.
 
-   * - .. figure:: /images/ModifiersWeightVGroupTexExIntensity.jpg
+   * - .. figure:: /images/modifiersweightvgrouptexexintensity.jpg
           :width: 200px
 
           Using intensity.
 
-     - .. figure:: /images/ModifiersWeightVGroupTexExRed.jpg
+     - .. figure:: /images/modifiersweightvgrouptexexred.jpg
           :width: 200px
 
           Using Red.
 
-     - .. figure:: /images/ModifiersWeightVGroupTexExSaturation.jpg
+     - .. figure:: /images/modifiersweightvgrouptexexsaturation.jpg
           :width: 200px
 
           Using Saturation.
@@ -443,17 +443,17 @@ and above 0.75: this creates great "walls" in the waves...
 
 .. list-table:: Custom mapping curve.
 
-   * - .. figure:: /images/ModifiersWeightVGroupTexExCMapCurve.jpg
+   * - .. figure:: /images/modifiersweightvgrouptexexcmapcurve.jpg
           :width: 200px
 
           A customized mapping curve.
 
-     - .. figure:: /images/ModifiersWeightVGroupTexExRed.jpg
+     - .. figure:: /images/modifiersweightvgrouptexexred.jpg
           :width: 200px
 
           Custom Mapping disabled.
 
-     - .. figure:: /images/ModifiersWeightVGroupTexExRedCMap.jpg
+     - .. figure:: /images/modifiersweightvgrouptexexredcmap.jpg
           :width: 200px
 
           Custom Mapping enabled.

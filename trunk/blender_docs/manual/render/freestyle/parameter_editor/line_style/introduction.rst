@@ -3,7 +3,7 @@
 Introduction
 ************
 
-.. figure:: /images/render-freestyle-Line_Style_UI.jpg
+.. figure:: /images/render-freestyle-line_style_ui.jpg
    :width: 300px
 
    Line Style UI.
@@ -28,6 +28,6 @@ sets by selecting it from the dropdown menu next to its name.
    Unless otherwise specified, all lengths in line style settings are in pixels (either relative or absolute,
    as specified in the :doc:`core options </render/freestyle/core>`).
 
-.. figure:: /images/render-freestyle-Line_Style_Demo.jpg
+.. figure:: /images/render-freestyle-line_style_demo.jpg
 
    Line Style demo `File:LineStyles.zip <https://wiki.blender.org/index.php/File:LineStyles.zip>`__.

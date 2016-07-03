@@ -25,7 +25,7 @@ Between these keyframes, the properties' values are computed (interpolated)
 by Blender and filled in. Thus, the animators' workload is significantly reduced.
 
 
-.. figure:: /images/Animation-F-Curves-Concept.jpg
+.. figure:: /images/animation-f-curves-concept.jpg
    :align: right
    :width: 200px
 
@@ -184,7 +184,7 @@ Free
 Auto Clamped
    Auto handles clamped to not overshoot
 
-   .. figure:: /images/fcurve-autoClamped.jpg
+   .. figure:: /images/fcurve-autoclamped.jpg
       :width: 400px
 
       Auto clamped handles.
@@ -206,11 +206,11 @@ cannot have more than **one** value at a given time, hence:
 .. list-table::
    Two control points switching: the curve cannot go back in time!
 
-   * - .. figure:: /images/Animation-F-Curves-Moving-1.jpg
+   * - .. figure:: /images/animation-f-curves-moving-1.jpg
 
           Before moving the second keyframe.
 
-     - .. figure:: /images/Animation-F-Curves-Moving-2.jpg
+     - .. figure:: /images/animation-f-curves-moving-2.jpg
 
           After moving the second keyframe.
 
@@ -264,12 +264,12 @@ Snap Keys :kbd:`Shift-S`
       .. list-table::
          Flatten Handles snapping example.
 
-         * - .. figure:: /images/Animation-F-Curves-Flatten-Handles-1.jpg
+         * - .. figure:: /images/animation-f-curves-flatten-handles-1.jpg
                 :width: 200px
 
                 Before Flatten Handles.
 
-           - .. figure:: /images/Animation-F-Curves-Flatten-Handles-2.jpg
+           - .. figure:: /images/animation-f-curves-flatten-handles-2.jpg
                 :width: 200px
 
                 After Flatten Handles.

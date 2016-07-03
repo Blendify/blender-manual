@@ -15,7 +15,7 @@ and associated texture, used to render the simulation data.
 Options
 =======
 
-.. figure:: /images/Ocean_modifier.jpg
+.. figure:: /images/ocean_modifier.jpg
    :width: 240px
 
    Ocean Modifier.
@@ -102,7 +102,7 @@ Wind Velocity
 Simulation Data Generation Options
 ----------------------------------
 
-.. figure:: /images/Ocean_foam_layer_name.jpg
+.. figure:: /images/ocean_foam_layer_name.jpg
    :width: 240px
 
    Using foam vertex colors with a named data layer.

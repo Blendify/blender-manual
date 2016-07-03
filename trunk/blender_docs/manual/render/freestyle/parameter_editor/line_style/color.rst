@@ -3,7 +3,7 @@
 Color
 *****
 
-.. figure:: /images/render-freestyle-Line_Style_Color.jpg
+.. figure:: /images/render-freestyle-line_style_color.jpg
    :width: 300px
    :align: right
 
@@ -30,7 +30,7 @@ Influence
 Along Stroke
 ------------
 
-.. figure:: /images/render-freestyle-Color_Along_Stroke.jpg
+.. figure:: /images/render-freestyle-color_along_stroke.jpg
    :width: 300px
    :align: right
 
@@ -48,7 +48,7 @@ Distance from Camera
 The *Distance from Camera* color modifier alters the base color with a new one from
 a given color ramp, using the distance to the active camera as the parameter.
 
-.. figure:: /images/render-freestyle-Color_Distance_From_Camera.jpg
+.. figure:: /images/render-freestyle-color_distance_from_camera.jpg
    :width: 300px
    :align: right
 
@@ -71,7 +71,7 @@ Distance from Object
 The *Distance from Object* color modifier alters the base color with a new one from
 a given color ramp, using the distance to a given object as the parameter.
 
-.. figure:: /images/render-freestyle-Color_Distance_From_Object.jpg
+.. figure:: /images/render-freestyle-color_distance_from_object.jpg
    :width: 300px
    :align: right
 
@@ -97,7 +97,7 @@ Material
 The *Material* color modifier alters the base color with a new one taken from the
 current material under the stroke.
 
-.. figure:: /images/render-freestyle-Color_Material.jpg
+.. figure:: /images/render-freestyle-color_material.jpg
    :width: 300px
    :align: right
 
@@ -109,7 +109,7 @@ If used with the *Split by Material* option in the *Stroke* tab,
 the result will not be blurred between materials along the strokes.
 
 
-.. figure:: /images/freestyle_Lilies_Color_Material.jpg
+.. figure:: /images/freestyle_lilies_color_material.jpg
    :width: 400px
    :align: center
 

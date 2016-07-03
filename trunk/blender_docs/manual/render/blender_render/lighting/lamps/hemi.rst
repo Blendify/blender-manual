@@ -3,7 +3,7 @@
 Hemi Lamp
 *********
 
-.. figure:: /images/HemiScheme.jpg
+.. figure:: /images/hemischeme.jpg
    :width: 250px
 
    Hemi light conceptual scheme.

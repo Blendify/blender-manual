@@ -3,7 +3,7 @@
 Always Sensor
 *************
 
-.. figure:: /images/BGE_Sensor_Always.jpg
+.. figure:: /images/bge_sensor_always.jpg
    :width: 300px
 
    Always sensor.

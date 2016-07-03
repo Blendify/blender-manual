@@ -17,7 +17,7 @@ Multiple array modifiers may be active for an object at the same time
 Options
 =======
 
-.. figure:: /images/CZ_ArrayModifier_IF.jpg
+.. figure:: /images/cz_arraymodifier_if.jpg
    :align: right
 
    Array modifier.
@@ -58,7 +58,7 @@ Constant Offset, X, Y, Z
    X, Y and Z constant components can be specified.
 
 Relative Offset, X, Y, Z
-   .. figure:: /images/Array-Scale_eg.jpg
+   .. figure:: /images/array-scale_eg.jpg
 
       Relative offset example.
 
@@ -67,7 +67,7 @@ Relative Offset, X, Y, Z
 
 
 Object Offset
-   .. figure:: /images/Array_offset_eg.jpg
+   .. figure:: /images/array_offset_eg.jpg
 
       Object offset example.
 
@@ -87,11 +87,11 @@ First Last
    .. list-table::
       *First Last* merge example.
 
-      * - .. figure:: /images/ArrayModifier-FirstLastDiscontinuity01.jpg
+      * - .. figure:: /images/arraymodifier-firstlastdiscontinuity01.jpg
 
             Subsurf discontinuity caused by not merging vertices between first and last copies (*First Last* off).
 
-        - .. figure:: /images/ArrayModifier-FirstLastMerge01.jpg
+        - .. figure:: /images/arraymodifier-firstlastmerge01.jpg
 
             Subsurf discontinuity eliminated by merging vertices between first and last copies (*First Last* on).
 
@@ -133,30 +133,30 @@ Mechanical
 
 .. list-table::
 
-   * - .. figure:: /images/Array_Bridge.jpg
+   * - .. figure:: /images/array_bridge.jpg
           :width: 300px
 
           A bridge made from a tileable mesh.
 
-     - .. figure:: /images/ArrayModifier-track01.jpg
+     - .. figure:: /images/arraymodifier-track01.jpg
           :width: 300px
 
           A track.
           `Sample blend-file <https://wiki.blender.org/index.php/Media:Tracktest.blend>`__
 
-   * - .. figure:: /images/ArrayModifier-Cog01.jpg
+   * - .. figure:: /images/arraymodifier-cog01.jpg
           :width: 300px
 
           A cog created from a single segment.
           `Blend <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Cog01.blend>`__
 
-     - .. figure:: /images/ArrayModifier-Crankshaft01.jpg
+     - .. figure:: /images/arraymodifier-crankshaft01.jpg
           :width: 300px
 
           A crankshaft.
           `Sample blend-file <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Crankshaft01.blend>`__
 
-   * - .. figure:: /images/ArrayModifier-Chain01.jpg
+   * - .. figure:: /images/arraymodifier-chain01.jpg
           :width: 300px
 
           A chain created from a single link.
@@ -170,18 +170,18 @@ Fractal
 
 .. list-table::
 
-   * - .. figure:: /images/Array_Multi_Dimension.jpg
+   * - .. figure:: /images/array_multi_dimension.jpg
           :width: 300px
 
           Multi-level array animated with motion blur.
 
-     - .. figure:: /images/ArrayModifier-Fractal01.jpg
+     - .. figure:: /images/arraymodifier-fractal01.jpg
           :width: 300px
 
           Fractal created with multiple arrays.
           `Blend <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Fractal01.blend>`__
 
-   * - .. figure:: /images/ArrayModifier_Fractal_11.jpg
+   * - .. figure:: /images/arraymodifier_fractal_11.jpg
           :width: 300px
 
           A fractal fern image created with two array modifiers and one mirror applied to a cube.
@@ -194,20 +194,20 @@ Organic
 
 .. list-table::
 
-   * - .. figure:: /images/Array_Fractal_example.jpg
+   * - .. figure:: /images/array_fractal_example.jpg
           :width: 300px
 
           Subsurfed cube array with one object offset,
           four cubes and a high vertex merge setting to give the effect of skinning.
 
-     - .. figure:: /images/ArrayModifier-Spiral01.jpg
+     - .. figure:: /images/arraymodifier-spiral01.jpg
           :width: 300px
 
           A double spiral created with two array modifiers and one subsurf modifier applied to a cube.
           As above, the vertex merge threshold is set very high to give the effect of skinning.
           `Sample blend-file <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Spiral01.blend>`__
 
-.. figure:: /images/Modifier-Array-Tentacle01.jpg
+.. figure:: /images/modifier-array-tentacle01.jpg
    :width: 600px
 
    A tentacle created with an Array modifier followed by a Curve modifier.

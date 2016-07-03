@@ -3,7 +3,7 @@
 Geometry
 ********
 
-.. figure:: /images/render-freestyle-Line_Style_Geometry_UI.jpg
+.. figure:: /images/render-freestyle-line_style_geometry_ui.jpg
    :width: 300px
 
    Line Style Geometry Overall UI.
@@ -31,7 +31,7 @@ The *2D Offset* modifier adds some two-dimensional offsets to the stroke backbon
 geometry. It has two sets of independent options/effects:
 
 
-.. figure:: /images/render-freestyle-Line_Style_Geometry_2D_Offset.jpg
+.. figure:: /images/render-freestyle-line_style_geometry_2d_offset.jpg
    :width: 300px
    :align: right
 
@@ -54,7 +54,7 @@ stroke backbone geometry. Scale is applied before rotation.
 
 The center (pivot point) of these 2D transformations can be:
 
-.. figure:: /images/render-freestyle-Line_Style_Geometry_2D_Transform.jpg
+.. figure:: /images/render-freestyle-line_style_geometry_2d_transform.jpg
    :width: 300px
    :align: right
 
@@ -94,7 +94,7 @@ Rotation Angle
 Backbone Stretcher
 ------------------
 
-.. figure:: /images/render-freestyle-Line_Style_Geometry_Backbone_Stretcher.jpg
+.. figure:: /images/render-freestyle-line_style_geometry_backbone_stretcher.jpg
    :width: 300px
    :align: right
 
@@ -108,7 +108,7 @@ Backbone Length
 Bézier Curve
 ------------
 
-.. figure:: /images/render-freestyle-Line_Style_Geometry_Bezier_Curve.jpg
+.. figure:: /images/render-freestyle-line_style_geometry_bezier_curve.jpg
    :width: 300px
    :align: right
 
@@ -135,7 +135,7 @@ elliptical, or square contours. A blueprint here refers to those lines drawn at 
 of free-hand drawing to capture the silhouette of objects with a simple shape such as circles,
 ellipses and squares.
 
-.. figure:: /images/render-freestyle-Line_Style_Geometry_Blueprint.jpg
+.. figure:: /images/render-freestyle-line_style_geometry_blueprint.jpg
    :width: 300px
    :align: right
 
@@ -167,7 +167,7 @@ Guiding Lines
 The *Guiding Lines* modifier replaces a stroke by a straight line connecting both of
 its ends.
 
-.. figure:: /images/render-freestyle-Line_Style_Geometry_Guiding_Lines.jpg
+.. figure:: /images/render-freestyle-line_style_geometry_guiding_lines.jpg
    :width: 300px
    :align: right
 
@@ -180,7 +180,7 @@ it is recommended to use this modifier together with one of the splitting option
 (by 2D angle or by 2D length) from the *Strokes* panel.
 
 
-.. figure:: /images/Toycar_Guiding_Line.jpg
+.. figure:: /images/toycar_guiding_line.jpg
    :width: 400px
    :align: center
 
@@ -199,7 +199,7 @@ noise function to generate noisy displacements.
 This means that this modifier will give an identical result for two strokes with the same length and sampling
 interval.
 
-.. figure:: /images/render-freestyle-Line_Style_Geometry_Perlin_Noise_1D.jpg
+.. figure:: /images/render-freestyle-line_style_geometry_perlin_noise_1d.jpg
    :width: 300px
    :align: right
 
@@ -222,7 +222,7 @@ Angle
 Perlin Noise 2D
 ---------------
 
-.. figure:: /images/render-freestyle-Line_Style_Geometry_Perlin_Noise_2D.jpg
+.. figure:: /images/render-freestyle-line_style_geometry_perlin_noise_2d.jpg
    :width: 300px
    :align: right
 
@@ -235,7 +235,7 @@ Its settings are exactly the same as the *Perlin Noise 1D* modifier.
 Polygonization
 --------------
 
-.. figure:: /images/render-freestyle-Line_Style_Geometry_Polygonization.jpg
+.. figure:: /images/render-freestyle-line_style_geometry_polygonization.jpg
    :width: 300px
    :align: right
 
@@ -254,7 +254,7 @@ Sampling
 The *Sampling* modifier changes the definition, precision of the stroke,
 for the following modifiers.
 
-.. figure:: /images/render-freestyle-Line_Style_Geometry_Sampling.jpg
+.. figure:: /images/render-freestyle-line_style_geometry_sampling.jpg
    :width: 300px
    :align: right
 
@@ -268,7 +268,7 @@ Sinus Displacement
 
 The *Sinus Displacement* modifier adds a sinusoidal displacement to the stroke.
 
-.. figure:: /images/render-freestyle-Line_Style_Geometry_Sinus_Displacement.jpg
+.. figure:: /images/render-freestyle-line_style_geometry_sinus_displacement.jpg
    :width: 300px
    :align: right
 
@@ -282,7 +282,7 @@ Phase
    Allows "offsetting" ("moving") the undulations along the stroke.
 
 
-.. figure:: /images/Toycar_Sinus_Displacement.jpg
+.. figure:: /images/toycar_sinus_displacement.jpg
    :width: 300px
    :align: center
 
@@ -297,7 +297,7 @@ The *Spatial Noise* modifier adds some spatial noise to the stroke.
 Spatial noise displacements are added in the normal direction
 (i.e., the direction perpendicular to the tangent line) evaluated at each stroke vertex.
 
-.. figure:: /images/render-freestyle-Line_Style_Geometry_Spatial_Noise.jpg
+.. figure:: /images/render-freestyle-line_style_geometry_spatial_noise.jpg
    :width: 300px
    :align: right
 
@@ -323,7 +323,7 @@ Tip Remover
 
 The *Tip Remover* modifier removes a piece of the stroke at its beginning and end.
 
-.. figure:: /images/render-freestyle-Line_Style_Geometry_Tip_Remover.jpg
+.. figure:: /images/render-freestyle-line_style_geometry_tip_remover.jpg
    :width: 300px
    :align: right
 

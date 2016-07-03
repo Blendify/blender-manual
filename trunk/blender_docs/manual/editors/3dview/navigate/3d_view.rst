@@ -34,7 +34,7 @@ Fig. :ref:`fig-view3d-projection` below.
 
 .. _fig-view3d-projection:
 
-.. figure:: /images/3DPerspective.jpg
+.. figure:: /images/3dperspective.jpg
    :width: 630px
 
    Orthographic (left) and perspective (right) projections.
@@ -55,7 +55,7 @@ Options
 
 .. _fig-view3d-camera-view:
 
-.. figure:: /images/3DCameraView.jpg
+.. figure:: /images/3dcameraview.jpg
 
    Demonstration of camera view.
 
@@ -270,7 +270,7 @@ View All :kbd:`Home`
 Local View
 ==========
 
-.. figure:: /images/editors_3dview_Navigating-Global-Local-global-local.jpg
+.. figure:: /images/editors_3dview_navigating-global-local-global-local.jpg
 
    With/Without *Local View*.
 
@@ -317,7 +317,7 @@ Quad View
    | Hotkey:   :kbd:`Ctrl-Alt-Q`
 
 
-.. figure:: /images/editors_3dview_Navigating-3D_view-Quad_View.jpg
+.. figure:: /images/editors_3dview_navigating-3d_view-quad_view.jpg
    :width: 340px
 
    Quad View.
@@ -349,7 +349,7 @@ View Clipping Border
    | Menu:     :menuselection:`View --> Set Clipping Border`
    | Hotkey:   :kbd:`Alt-B`
 
-.. figure:: /images/editors_3dview_Navigating-3D_view-Region_Clipping.jpg
+.. figure:: /images/editors_3dview_navigating-3d_view-region_clipping.jpg
    :width: 340px
 
    Region/Volume clipping.
@@ -407,7 +407,7 @@ try to navigate to a very distant object in the view with traditional methods
 With walk/fly modes you move, pan, tilt, and dolly the camera around without any of those limitations.
 
 
-.. figure:: /images/editors_3dview_Navigating-3D_view-Navigation_Mode.jpg
+.. figure:: /images/editors_3dview_navigating-3d_view-navigation_mode.jpg
    :width: 173px
 
    View Navigation.

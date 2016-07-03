@@ -46,7 +46,7 @@ Alpha
 Setup
 =====
 
-.. figure:: /images/editors_3dview_Navigating-Layers-relations.jpg
+.. figure:: /images/editors_3dview_navigating-layers-relations.jpg
 
    Object Pass Index.
 
@@ -60,7 +60,7 @@ Material Index "IndexMa" render pass has to be enabled.
 Example
 =======
 
-.. figure:: /images/Compositing-Node-IDMask_ex.jpg
+.. figure:: /images/compositing-node-idmask_ex.jpg
    :width: 300px
 
    Example.

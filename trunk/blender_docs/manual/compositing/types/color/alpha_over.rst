@@ -78,7 +78,7 @@ or as a straight RGBA image.
 Examples
 ========
 
-.. figure:: /images/Compositing-AlphaOver-example.jpg
+.. figure:: /images/compositing-alphaover-example.jpg
    :width: 300px
 
    Assembling a composite Image using AlphaOver.
@@ -90,7 +90,7 @@ a combined Alpha thatis greater than 1.00; otherwise, you will see an unwanted h
 The resulting image is a composite of the two source images.
 
 
-.. figure:: /images/Compositing-AlphaOver-seethru.jpg
+.. figure:: /images/compositing-alphaover-seethru.jpg
    :width: 300px
 
    Animated See-Through/Sheer SFX using AlphaOver - Frame 11.

@@ -41,7 +41,7 @@ once to disable the face normal Z axis limit, and once to enable the global Z ax
 
           During extrude.
 
-     - .. figure:: /images/extrude-face-after-zAxiz.jpg
+     - .. figure:: /images/extrude-face-after-zaxiz.jpg
           :width: 200px
 
           Set to Z axis.

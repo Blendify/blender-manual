@@ -36,7 +36,7 @@ you still have to perform the shortcut on an edge - while you,
 for just selecting vertices, would rightclick on a vertex.
 
 
-.. figure:: /images/Select_edge_loop_example.jpg
+.. figure:: /images/select_edge_loop_example.jpg
 
    An edge loop.
 

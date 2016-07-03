@@ -56,7 +56,7 @@ Random friction
 
 .. _fig-collision-soft-plane:
 
-.. figure:: /images/physics_VertexPlaneCollision.gif
+.. figure:: /images/physics_vertexplanecollision.gif
 
    A softbody vertex colliding with a plane.
 
@@ -91,7 +91,7 @@ Absorption
 Examples
 ========
 
-.. figure:: /images/UM_PART_XIII_KST_PI10.jpg
+.. figure:: /images/um_part_xiii_kst_pi10.jpg
 
    Deflected Particles.
 

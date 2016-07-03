@@ -12,7 +12,7 @@ Vertices
 
 .. _fig-mesh-topo-vector:
 
-.. figure:: /images/Mesh-Structures-CubeExample.jpg
+.. figure:: /images/mesh-structures-cubeexample.jpg
 
    Vertex example.
 

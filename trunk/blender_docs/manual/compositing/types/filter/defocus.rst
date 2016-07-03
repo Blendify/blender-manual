@@ -117,7 +117,7 @@ The input has to be scaled, because usually the value of a texture is only in th
 Camera Settings
 ---------------
 
-.. figure:: /images/Compositing-Node-Defocus_Camera_settings.jpg
+.. figure:: /images/compositing-node-defocus_camera_settings.jpg
 
    DofDist setting for the camera.
 

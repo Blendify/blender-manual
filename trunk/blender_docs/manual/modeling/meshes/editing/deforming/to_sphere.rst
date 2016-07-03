@@ -17,7 +17,7 @@ Fig. :ref:`fig-mesh-deform-to-sphere-monkey` below shows the results of applying
 
 .. _fig-mesh-deform-to-sphere-monkey:
 
-.. figure:: /images/editors_3dview_Transformations-Advanced-To_Sphere_suzanne-spherical.jpg
+.. figure:: /images/editors_3dview_transformations-advanced-to_sphere_suzanne-spherical.jpg
    :width: 640px
 
    Monkey with increasing sphericity.
@@ -28,7 +28,7 @@ Fig. :ref:`fig-mesh-deform-to-sphere-monkey` below shows the results of applying
 Usage
 =====
 
-.. figure:: /images/editors_3dview_Transformations-Advanced-To_Sphere_toolshelf-f6.jpg
+.. figure:: /images/editors_3dview_transformations-advanced-to_sphere_toolshelf-f6.jpg
    :width: 150px
 
    To Sphere Factor.
@@ -50,7 +50,7 @@ selected mesh elements (vertices, faces etc). As can be seen in the below image,
 will be smoother and more spherical when there are more mesh elements available to work with.
 
 
-.. figure:: /images/editors_3dview_Transformations-Advanced-To_Sphere_cubes-spherical.jpg
+.. figure:: /images/editors_3dview_transformations-advanced-to_sphere_cubes-spherical.jpg
    :width: 640px
 
    To Sphere applied to cubes with different subdivision levels.
@@ -62,7 +62,7 @@ The *To Sphere* transform will generate different results depending on the numbe
 and arrangement of elements that were selected (as shown by the below image).
 
 
-.. figure:: /images/editors_3dview_Transformations-Advanced-To_Sphere_other-spherical.jpg
+.. figure:: /images/editors_3dview_transformations-advanced-to_sphere_other-spherical.jpg
    :width: 640px
 
    To Sphere applied to different selections.

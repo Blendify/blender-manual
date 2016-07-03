@@ -20,7 +20,7 @@ This way after the baking is done you can automatically preview the baked result
 Options
 =======
 
-.. figure:: /images/Cycles-Bake-AO.png
+.. figure:: /images/cycles-bake-ao.png
 
    Ambient Occlusion Pass.
 
@@ -30,7 +30,7 @@ Bake Mode
 Combined
    Bakes all materials, textures, and lighting except specularity.
 
-.. figure:: /images/Cycles-Bake-Combined.png
+.. figure:: /images/cycles-bake-combined.png
 
    Combined Pass Options.
 
@@ -45,7 +45,7 @@ Shadow
 Normals
    Bakes normals to an RGB image.
 
-.. .. figure:: /images/Cycles-Bake-Normal.png
+.. .. figure:: /images/cycles-bake-normal.png
 
 ..   Normal Pass Options.
 
@@ -78,7 +78,7 @@ Environment
 Diffuse / Glossy / Transmission / Subsurface
    Bakes the diffuse, glossiness, transmission of subsurface pass of a material.
 
-.. figure:: /images/Cycles-Bake-Diffuse.png
+.. figure:: /images/cycles-bake-diffuse.png
 
    Diffuse Pass Options.
 

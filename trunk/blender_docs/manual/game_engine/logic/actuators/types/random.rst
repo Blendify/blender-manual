@@ -14,7 +14,7 @@ Sets a random value into a property of the object
 Special Options:
 
 
-.. figure:: /images/BGE_Actuator_Random_Bool_Constant.jpg
+.. figure:: /images/bge_actuator_random_bool_constant.jpg
    :width: 271px
 
    Camera Actuator.
@@ -33,7 +33,7 @@ The default entry of Boolean Constant gives either True or False,
 which is useful for test purposes.
 
 
-.. figure:: /images/BGE_Actuator_Random_Float_Neg_Exp.jpg
+.. figure:: /images/bge_actuator_random_float_neg_exp.jpg
    :width: 271px
 
    Float Neg. Exp.
@@ -48,7 +48,7 @@ Float Neg. Exp.
       Half-life time (Range 0.00 - 10000.00)
 
 
-.. figure:: /images/BGE_Actuator_Random_Float_Normal.jpg
+.. figure:: /images/bge_actuator_random_float_normal.jpg
    :width: 271px
 
    Float Normal.
@@ -65,7 +65,7 @@ Float normal
       Standard deviation of normal distribution (Range 0.00 to +10000.00)
 
 
-.. figure:: /images/BGE_Actuator_Random_Float_Uniform.jpg
+.. figure:: /images/bge_actuator_random_float_uniform.jpg
    :width: 271px
 
    Float Uniform.
@@ -82,7 +82,7 @@ Float uniform
       Maximum value (Range -10000.00 to +10000.00)
 
 
-.. figure:: /images/BGE_Actuator_Random_Float_Constant.jpg
+.. figure:: /images/bge_actuator_random_float_constant.jpg
    :width: 271px
 
    Float Constant.
@@ -97,7 +97,7 @@ Float constant
       Value (Range 0.00 to +1.00)
 
 
-.. figure:: /images/BGE_Actuator_Random_Int_Poisson.jpg
+.. figure:: /images/bge_actuator_random_int_poisson.jpg
    :width: 271px
 
    Random Integer Poisson.
@@ -112,7 +112,7 @@ Int Poisson
       Mean of Poisson distribution (Range 0.01 to +100.00)
 
 
-.. figure:: /images/BGE_Actuator_Random_Int_Uniform.jpg
+.. figure:: /images/bge_actuator_random_int_uniform.jpg
    :width: 271px
 
    Random Integer Uniform.
@@ -129,7 +129,7 @@ Int uniform
       Maximum value (Range -1000 to +1000)
 
 
-.. figure:: /images/BGE_Actuator_Random_Int_Constant.jpg
+.. figure:: /images/bge_actuator_random_int_constant.jpg
    :width: 271px
 
    Random Integer Constant.
@@ -144,7 +144,7 @@ Int constant
       Value (Range 0.00 to +1.00)
 
 
-.. figure:: /images/BGE_Actuator_Random_Bool_Bernoulli.jpg
+.. figure:: /images/bge_actuator_random_bool_bernoulli.jpg
    :width: 271px
 
    Random Bool Bernoulli.
@@ -159,7 +159,7 @@ Bool Bernoulli
       Proportion of TRUE responses required.
 
 
-.. figure:: /images/BGE_Actuator_Random_Bool_Uniform.jpg
+.. figure:: /images/bge_actuator_random_bool_uniform.jpg
    :width: 271px
 
    Random Bool Uniform.
@@ -172,7 +172,7 @@ Bool uniform
       Boolean property to receive value
 
 
-.. figure:: /images/BGE_Actuator_Random_Bool_Constant.jpg
+.. figure:: /images/bge_actuator_random_bool_constant.jpg
    :width: 271px
 
    Random Bool Constant.

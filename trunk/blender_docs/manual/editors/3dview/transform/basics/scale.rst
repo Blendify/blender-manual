@@ -18,7 +18,7 @@ decrease as the pointer is moved towards it. If the mouse pointer crosses from t
 :doc:`Pivot Point </editors/3dview/transform/transform_control/pivot_point/index>` to the opposite side,
 the scale will continue in the negative direction and flip the element.
 
-.. figure:: /images/editors_3dview_Transformations-Basic-Scale-scale_basic_usage.jpg
+.. figure:: /images/editors_3dview_transformations-basic-scale-scale_basic_usage.jpg
    :width: 640px
 
    Basic scale usage. From left to right, the panels show: the original Object,
@@ -51,7 +51,7 @@ Scaling using the keyboard shortcut
 
 The amount of scaling will be displayed in the bottom left hand corner of the 3D View editor.
 
-.. figure:: /images/editors_3dview_Transformations-Basic-Scale-scale_value_header.jpg
+.. figure:: /images/editors_3dview_transformations-basic-scale-scale_value_header.jpg
 
    Scale values.
 
@@ -116,7 +116,7 @@ In the 3D View header, ensure that the Transform Manipulator is enabled (the red
 and blue triad is selected). Set the manipulator type to scale
 (the highlighted square icon shown below).
 
-.. figure:: /images/editors_3dview_Transformations-Basic-Scale-scale_manipulator_header.jpg
+.. figure:: /images/editors_3dview_transformations-basic-scale-scale_manipulator_header.jpg
 
    Todo.
 
@@ -134,7 +134,7 @@ and blue triad is selected). Set the manipulator type to scale
 Scaling with the Properties Panel
 ---------------------------------
 
-.. figure:: /images/editors_3dview_Transformations-Basic-Scale-scale_properties_panel.jpg
+.. figure:: /images/editors_3dview_transformations-basic-scale-scale_properties_panel.jpg
    :width: 180px
 
    Scale transform properties panel.

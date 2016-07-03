@@ -3,7 +3,7 @@
 Delay Sensor
 ************
 
-.. figure:: /images/BGE_Sensor_Delay.jpg
+.. figure:: /images/bge_sensor_delay.jpg
    :width: 300px
 
    Delay sensor.

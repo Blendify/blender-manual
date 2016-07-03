@@ -26,17 +26,17 @@ Drawing the cut line
 
 .. list-table::
 
-   * - .. figure:: /images/Knife1.jpg
+   * - .. figure:: /images/knife1.jpg
           :width: 200px
 
           Mesh before knife cut.
 
-     - .. figure:: /images/Knife2.jpg
+     - .. figure:: /images/knife2.jpg
           :width: 200px
 
           Knife cut active.
 
-     - .. figure:: /images/Knife3.jpg
+     - .. figure:: /images/knife3.jpg
           :width: 200px
 
           After confirming knife cut.
@@ -55,12 +55,12 @@ New cut :kbd:`E`
 
 .. list-table::
 
-   * - .. figure:: /images/Knife4.jpg
+   * - .. figure:: /images/knife4.jpg
           :width: 300px
 
           Creating multiple cuts.
 
-     - .. figure:: /images/Knife5.jpg
+     - .. figure:: /images/knife5.jpg
           :width: 300px
 
           Result of starting new cuts while in the tool.
@@ -82,12 +82,12 @@ Draw a continuous line: :kbd:`LMB` drag.
 
 .. list-table::
 
-   * - .. figure:: /images/Knife6.jpg
+   * - .. figure:: /images/knife6.jpg
           :width: 300px
 
           Constraining cut angle.
 
-     - .. figure:: /images/Knife7.jpg
+     - .. figure:: /images/knife7.jpg
           :width: 300px
 
           Result of constraining cut angle.
@@ -130,32 +130,32 @@ Examples
 
 .. list-table::
 
-   * - .. figure:: /images/Knife_project_text_before.jpg
+   * - .. figure:: /images/knife_project_text_before.jpg
           :width: 300px
 
           Before projecting from a text object.
 
-     - .. figure:: /images/Knife_project_text_after.jpg
+     - .. figure:: /images/knife_project_text_after.jpg
           :width: 300px
 
           Resulting knife projection.
 
-   * - .. figure:: /images/Knife_project_mesh_before.jpg
+   * - .. figure:: /images/knife_project_mesh_before.jpg
           :width: 300px
 
           Before projecting from a mesh object.
 
-     - .. figure:: /images/Knife_project_mesh_after.jpg
+     - .. figure:: /images/knife_project_mesh_after.jpg
           :width: 300px
 
           Resulting knife projection (extruded after).
 
-   * - .. figure:: /images/Knife_project_curve_before.jpg
+   * - .. figure:: /images/knife_project_curve_before.jpg
           :width: 300px
 
           Before projecting from a 3D curve object.
 
-     - .. figure:: /images/Knife_project_curve_after.jpg
+     - .. figure:: /images/knife_project_curve_after.jpg
           :width: 300px
 
           Resulting knife projection (extruded after).

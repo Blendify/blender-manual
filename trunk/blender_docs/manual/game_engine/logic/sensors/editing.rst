@@ -3,7 +3,7 @@
 Sensor Editing
 **************
 
-.. figure:: /images/BGE_Sensor_Column.jpg
+.. figure:: /images/bge_sensor_column.jpg
    :width: 292px
 
    Sensor Column with Typical Sensor.
@@ -21,7 +21,7 @@ all the sensors in the current Game Logic are displayed.
 Column Heading
 ==============
 
-.. figure:: /images/BGE_Sensor_Column1.jpg
+.. figure:: /images/bge_sensor_column1.jpg
    :width: 292px
 
    Sensor Column Heading.
@@ -59,7 +59,7 @@ State
 Object Heading
 ==============
 
-.. figure:: /images/BGE_Sensor_Column2.jpg
+.. figure:: /images/bge_sensor_column2.jpg
    :width: 292px
 
    Sensor Object Heading.

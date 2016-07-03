@@ -3,7 +3,7 @@
 Collision Sensor
 ****************
 
-.. figure:: /images/BGE_Sensor_Collision.jpg
+.. figure:: /images/bge_sensor_collision.jpg
    :width: 300px
 
    Collision sensor.

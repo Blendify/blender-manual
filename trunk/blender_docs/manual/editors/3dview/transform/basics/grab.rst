@@ -36,7 +36,7 @@ There are two ways to Grab/Move in *3D View*:
 Transform Widget
 ================
 
-.. figure:: /images/FAQ-Transform_widget-2.jpg
+.. figure:: /images/faq-transform_widget-2.jpg
 
    Translation Widget.
 

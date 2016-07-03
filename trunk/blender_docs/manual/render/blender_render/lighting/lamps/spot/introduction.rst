@@ -117,7 +117,7 @@ Blend
    ("radial" falloff); they do not control the shadow's softness as shown below.
 
 
-   .. figure:: /images/Shadow_&_Spot-Spotlight-Render-Sharp_Shadow.jpg
+   .. figure:: /images/shadow_&_spot-spotlight-render-sharp_shadow.jpg
       :width: 400px
 
       Render showing the soft edge spotlighted area and the sharp/hard object shadow.

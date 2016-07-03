@@ -27,7 +27,7 @@ This constraint shares a close relationship to the
 Options
 =======
 
-.. figure:: /images/Constraints-Tracking-TrackTo.jpg
+.. figure:: /images/constraints-tracking-trackto.jpg
 
    Track To panel.
 

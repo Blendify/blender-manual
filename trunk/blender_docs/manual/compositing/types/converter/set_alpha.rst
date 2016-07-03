@@ -55,7 +55,7 @@ the scene fades to a black screen. You can also "fade to white" or whatever colo
 but black is a good neutral color that is easy on the eyes and intellectually "resets" the
 viewer's mind. The node map below shows how to do this using the Set Alpha node.
 
-.. figure:: /images/Compositing-SetAlpha_fadetoblack.jpg
+.. figure:: /images/compositing-setalpha_fadetoblack.jpg
 
    Fade To Black.
 
@@ -92,7 +92,7 @@ you will want to present the title of your animation over a background.
 You can have the title fly in, or fade it in. To fade it in,
 use the SetAlpha node with the Time node as shown below.
 
-.. figure:: /images/Compositing-SetAlpha_FadeInTitle.jpg
+.. figure:: /images/compositing-setalpha_fadeintitle.jpg
 
    Using Set Alpha to Fade in a Title.
 
@@ -109,7 +109,7 @@ transparent, allowing you to layer images on top of one another.
 Using SetAlpha to Colorize a BW Image
 -------------------------------------
 
-.. figure:: /images/Compositing-SetAlpha_Colorize.jpg
+.. figure:: /images/compositing-setalpha_colorize.jpg
 
    Using Set Alpha to Colorize an Image.
 

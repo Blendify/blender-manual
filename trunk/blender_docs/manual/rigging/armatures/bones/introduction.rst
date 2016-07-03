@@ -3,7 +3,7 @@
 Introduction
 ************
 
-.. figure:: /images/RiggingBonePrinciples3DViewEditModeOctahedron.jpg
+.. figure:: /images/riggingboneprinciples3dvieweditmodeoctahedron.jpg
    :align: right
    :width: 100px
 
@@ -34,22 +34,22 @@ Bones can be visualized in various ways: *Octahedron*, *Stick*,
 
 .. list-table::
 
-   * - .. figure:: /images/RiggingBonePrincipalsBoneDisplayOctahedral.jpg
+   * - .. figure:: /images/riggingboneprincipalsbonedisplayoctahedral.jpg
           :width: 300px
 
           Octahedral bone display.
 
-     - .. figure:: /images/RiggingBonePrincipalsBoneDisplayStick.jpg
+     - .. figure:: /images/riggingboneprincipalsbonedisplaystick.jpg
           :width: 300px
 
           Stick bone display.
 
-   * - .. figure:: /images/RiggingBonePrincipalsBoneDisplayBBone.jpg
+   * - .. figure:: /images/riggingboneprincipalsbonedisplaybbone.jpg
           :width: 300px
 
           B-Bone bone display.
 
-     - .. figure:: /images/RiggingBonePrincipalsBoneDisplayEnvelope.jpg
+     - .. figure:: /images/riggingboneprincipalsbonedisplayenvelope.jpg
           :width: 300px
 
           Envelope bone display.
@@ -63,7 +63,7 @@ will show local axes for each bone's tip. The Y axis is always aligned along the
 oriented from root to tip. So, this is the "roll" axis of the bones.
 
 
-.. figure:: /images/RiggingBonePrincipalsBonePropertiesEditor.jpg
+.. figure:: /images/riggingboneprincipalsbonepropertieseditor.jpg
    :width: 250px
 
    The Bone tab.
@@ -98,19 +98,19 @@ you cannot see these segments in *Object Mode*, because they're aligned.
 
    * - .. _fig-rig-bone-intro-bbone:
 
-       .. figure:: /images/RiggingBBoneEx3DViewEditMode.jpg
+       .. figure:: /images/riggingbboneex3dvieweditmode.jpg
           :width: 300px
 
           An armature of B-Bones, in Edit Mode.
 
-     - .. figure:: /images/RiggingBBoneEx3DViewPrinciples.jpg
+     - .. figure:: /images/riggingbboneex3dviewprinciples.jpg
           :width: 300px
 
           The Bézier curve superposed to the chain, with its handles placed at bones' ends.
 
    * - .. _fig-rig-bone-intro-same:
 
-       .. figure:: /images/RiggingBBoneEx3DViewObjectMode.jpg
+       .. figure:: /images/riggingbboneex3dviewobjectmode.jpg
           :width: 300px
 
           The same armature in Object Mode.
@@ -165,7 +165,7 @@ given range from it. This is called the *envelope technique*,
 because each bone can control only the geometry "enveloped" by its own influence area.
 
 
-.. figure:: /images/RiggingEnvelopePrinciples3DViewEditMode.jpg
+.. figure:: /images/riggingenvelopeprinciples3dvieweditmode.jpg
    :width: 250px
 
    A bone in Envelope visualization, in Edit Mode.
@@ -179,7 +179,7 @@ which depends on:
 - the root's radius and the tip's radius.
 
 
-.. figure:: /images/RiggingEnvelopeEx3DViewPoseMode.jpg
+.. figure:: /images/riggingenvelopeex3dviewposemode.jpg
    :width: 300px
 
    Our armature in Envelope visualization, in Pose Mode.

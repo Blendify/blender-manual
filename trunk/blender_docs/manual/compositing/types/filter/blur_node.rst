@@ -75,7 +75,7 @@ Image
 Example
 =======
 
-.. figure:: /images/Tutorials-NTR-ComBlurIllustration.jpg
+.. figure:: /images/tutorials-ntr-comblurillustration.jpg
    :width: 650px
    :figwidth: 650px
 

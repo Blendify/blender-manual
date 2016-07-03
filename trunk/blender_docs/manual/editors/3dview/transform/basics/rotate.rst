@@ -41,7 +41,7 @@ Rotation using the keyboard shortcut
 
 The amount of rotation will be displayed in the bottom left hand corner of the 3D View editor.
 
-.. figure:: /images/editors_3dview_Transformations-Basic-Rotate-rotate_value_header.jpg
+.. figure:: /images/editors_3dview_transformations-basic-rotate-rotate_value_header.jpg
 
    Rotation values.
 
@@ -107,7 +107,7 @@ In the 3D View header, ensure that the Transform Manipulator is enabled (the red
 and blue triad is selected). Set the manipulator type to rotation
 (the highlighted arc icon shown below).
 
-.. figure:: /images/editors_3dview_Transformations-Basic-Rotate-rotate_manipulator_header.jpg
+.. figure:: /images/editors_3dview_transformations-basic-rotate-rotate_manipulator_header.jpg
 
 
 - Select your element with :kbd:`RMB`.
@@ -125,7 +125,7 @@ and blue triad is selected). Set the manipulator type to rotation
 Rotation with the Properties Panel
 ----------------------------------
 
-.. figure:: /images/editors_3dview_Transformations-Basic-Rotate-rotate_properties_panel.jpg
+.. figure:: /images/editors_3dview_transformations-basic-rotate-rotate_properties_panel.jpg
    :width: 180px
 
    Rotation transform properties panel.

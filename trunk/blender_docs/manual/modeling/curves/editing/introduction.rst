@@ -16,7 +16,7 @@ Curve Display
 Display Options
 ---------------
 
-.. figure:: /images/Editing_Curves_curve-display-panel.jpg
+.. figure:: /images/editing_curves_curve-display-panel.jpg
    :align: right
 
    Curve Display panel.
@@ -241,7 +241,7 @@ To join two separated curves,
 select one end control point from each curve then press :kbd:`F`.
 The two curves are joined by a segment to become a single curve.
 
-.. figure:: /images/Editing_Curves_two-curves-joined.jpg
+.. figure:: /images/editing_curves_two-curves-joined.jpg
    :width: 600px
 
    Curves before and after joining.
@@ -296,12 +296,12 @@ Segment
 
 .. list-table::
 
-   * - .. figure:: /images/Editing_Curves_delete-selected.jpg
+   * - .. figure:: /images/editing_curves_delete-selected.jpg
           :width: 300px
 
           Deleting Curve Selected.
 
-     - .. figure:: /images/Editing_Curves_delete-segment.jpg
+     - .. figure:: /images/editing_curves_delete-segment.jpg
           :width: 300px
 
           Deleting Curve segments.
@@ -335,7 +335,7 @@ that when a 2D curve is closed, it creates a renderable flat face.
 
 .. _fig-curves-editing-open-close:
 
-.. figure:: /images/Editing_Curves_open-closed-cyclic.jpg
+.. figure:: /images/editing_curves_open-closed-cyclic.jpg
    :width: 400px
 
    Open and Closed curves.
@@ -372,7 +372,7 @@ Converting Curve Type
    | Mode:     Edit Mode
    | Panel:    Curve Tools --> Set Spline type
 
-.. figure:: /images/Editing_Curves_set-spline-type.jpg
+.. figure:: /images/editing_curves_set-spline-type.jpg
    :width: 150px
    :align: right
 

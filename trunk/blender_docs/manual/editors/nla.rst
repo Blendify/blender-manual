@@ -22,7 +22,7 @@ it can help organize strips. But it also layers motion much like an image editor
 the bottom layer first, to the top, last.
 
 
-.. figure:: /images/NLA_track.jpg
+.. figure:: /images/nla_track.jpg
 
 
 Strips
@@ -42,7 +42,7 @@ This is done so by clicking the |snowflake-button|
 next to the action listed in the NLA. Alternatively, you can go to :menuselection:`Add --> Action`.
 
 
-.. figure:: /images/NLA_Action_Strip.jpg
+.. figure:: /images/nla_action_strip.jpg
 
    Action Strip.
 
@@ -58,7 +58,7 @@ Select two or more strips on the same track, and go to
    | Menu:     :menuselection:`Add --> Transition`
 
 
-.. figure:: /images/NLA-Basics_Transition.jpg
+.. figure:: /images/nla-basics_transition.jpg
 
    Transition Strip.
 
@@ -78,12 +78,12 @@ A meta strip can be moved and duplicated like a normal strip.
 
 .. list-table::
 
-   * - .. figure:: /images/NLA_meta_strips_01.jpg
+   * - .. figure:: /images/nla_meta_strips_01.jpg
           :width: 200px
 
           Shift-select two or more strips..
 
-     - .. figure:: /images/NLA_meta_strips_02.jpg
+     - .. figure:: /images/nla_meta_strips_02.jpg
           :width: 200px
 
           Combine them into a meta strip.
@@ -112,12 +112,12 @@ The contents of Action strips can be edited, but you must be in *Tweak Mode* to 
 
 .. list-table::
 
-   * - .. figure:: /images/NLA_strip_NLA_Mode.jpg
+   * - .. figure:: /images/nla_strip_nla_mode.jpg
           :width: 200px
 
           Strip in NLA mode..
 
-     - .. figure:: /images/NLA_strip_EditMode.jpg
+     - .. figure:: /images/nla_strip_editmode.jpg
           :width: 200px
 
           Strip in Tweak mode.
@@ -159,17 +159,17 @@ the original will turn to red.
 
 .. list-table::
 
-   * - .. figure:: /images/NLA_original_strip.jpg
+   * - .. figure:: /images/nla_original_strip.jpg
           :width: 190px
 
           Original strip.
 
-     - .. figure:: /images/NLA_linked_duplicate.jpg
+     - .. figure:: /images/nla_linked_duplicate.jpg
           :width: 190px
 
           Duplicated strip.
 
-     - .. figure:: /images/NLA_linked_duplicate_edited.jpg
+     - .. figure:: /images/nla_linked_duplicate_edited.jpg
           :width: 190px
 
           Duplicated strip being edited.
@@ -192,7 +192,7 @@ Renaming Strips
 All strips can be renamed, in the "Active Track" section in the Strip Properties.
 
 
-.. figure:: /images/NLA_StripRename.jpg
+.. figure:: /images/nla_striprename.jpg
 
 
 Active Track
@@ -201,7 +201,7 @@ Active Track
 This is which track the strip currently belongs to.
 
 
-.. figure:: /images/ActiveTrack.jpg
+.. figure:: /images/activetrack.jpg
 
 
 Active Strip
@@ -217,7 +217,7 @@ or a Transition Clip.
    This can cause previous clips to not work, if checked.
 
 
-.. figure:: /images/ActiveStrip.jpg
+.. figure:: /images/activestrip.jpg
 
 
 Active Action
@@ -226,7 +226,7 @@ Active Action
 This represents the 'object data' of the strip. Much like the transform values of an object.
 
 
-.. figure:: /images/ActionClip.jpg
+.. figure:: /images/actionclip.jpg
 
 
 Evaluation
@@ -235,13 +235,13 @@ Evaluation
 This determines the degree of influence the strip has, and over what time.
 
 
-.. figure:: /images/Evaluation.jpg
+.. figure:: /images/evaluation.jpg
 
 
 If influence is not animated, the strips will fade linearly, during the overlap.
 
 
-.. figure:: /images/NLA_influence_strip.jpg
+.. figure:: /images/nla_influence_strip.jpg
 
 
 Strip Modifiers

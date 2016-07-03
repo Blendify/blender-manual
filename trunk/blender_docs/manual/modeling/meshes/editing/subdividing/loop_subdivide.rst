@@ -33,17 +33,17 @@ Sliding the new edge loop
 
 .. list-table::
 
-   * - .. figure:: /images/loopCut-before.jpg
+   * - .. figure:: /images/loopcut-before.jpg
           :width: 200px
 
           Mesh before inserting edge loop.
 
-     - .. figure:: /images/loopCut-preview.jpg
+     - .. figure:: /images/loopcut-preview.jpg
           :width: 200px
 
           Preview of edge loop location.
 
-     - .. figure:: /images/loopCut-placement.jpg
+     - .. figure:: /images/loopcut-placement.jpg
           :width: 200px
 
           Interactive placement of edge loop between adjacent loops.
@@ -73,12 +73,12 @@ Number of Cuts :kbd:`Wheel` or :kbd:`NumpadPlus` / :kbd:`NumpadMinus`
 
 .. list-table::
 
-   * - .. figure:: /images/loopCut-multicut.jpg
+   * - .. figure:: /images/loopcut-multicut.jpg
           :width: 250px
 
           Preview of multiple edge loops.
 
-     - .. figure:: /images/loopCut-multicut-after.jpg
+     - .. figure:: /images/loopcut-multicut-after.jpg
           :width: 250px
 
           Result of using multiple cuts.
@@ -95,12 +95,12 @@ Smoothing :kbd:`Alt-Wheel`
 
 .. list-table::
 
-   * - .. figure:: /images/loopCut-unsmooth.jpg
+   * - .. figure:: /images/loopcut-unsmooth.jpg
           :width: 250px
 
           Added edge loops without smoothing.
 
-     - .. figure:: /images/loopCut-smooth.jpg
+     - .. figure:: /images/loopcut-smooth.jpg
           :width: 250px
 
           Same edge loops, but with smoothing value.

@@ -3,7 +3,7 @@
 Armature Structure
 ******************
 
-.. figure:: /images/Quick51.jpg
+.. figure:: /images/quick51.jpg
    :width: 250px
 
    Example of a very basic armature.
@@ -21,7 +21,7 @@ which create some sort of "limbs" in your armature, as detailed in `Chains of Bo
 Chains of Bones
 ===============
 
-.. figure:: /images/RiggingChainEx3DViewEditMode.jpg
+.. figure:: /images/riggingchainex3dvieweditmode.jpg
    :width: 250px
 
    An armature with two chains of bones.
@@ -59,7 +59,7 @@ Editing Bones Relationships
 This is expressed in detail in the :ref:`editing pages <armature-bone_chain_edit>`,
 but here is a quick look at this important feature.
 
-.. figure:: /images/RiggingEditingBoneCxtRelationsPanel.jpg
+.. figure:: /images/riggingeditingbonecxtrelationspanel.jpg
    :width: 250px
 
    The Armature Bones panel with two bones selected, and their Child of settings highlighted.

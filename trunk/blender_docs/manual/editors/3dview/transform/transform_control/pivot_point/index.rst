@@ -11,7 +11,7 @@
 
 .. _fig-view3d-pivot-point:
 
-.. figure:: /images/PivotSelection.jpg
+.. figure:: /images/pivotselection.jpg
    :align: right
 
    Pivot Point modes.

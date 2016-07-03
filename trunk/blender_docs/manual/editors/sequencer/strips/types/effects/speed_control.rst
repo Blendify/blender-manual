@@ -43,7 +43,7 @@ That is it, set your render to animate (in this example) all 550 frames.
 Keyframing the Speed Control
 ============================
 
-.. figure:: /images/Speed-Control-keyframe-Frame-number.jpg
+.. figure:: /images/speed-control-keyframe-frame-number.jpg
 
    keyframing the Frame number.
 

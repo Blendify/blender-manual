@@ -9,7 +9,7 @@ The object is in the designated State.
 For all other conditions the controller gives a negative (FALSE) output.
 
 
-.. figure:: /images/BGE_Controller_Expression.jpg
+.. figure:: /images/bge_controller_expression.jpg
    :width: 292px
 
    Expression Controller.

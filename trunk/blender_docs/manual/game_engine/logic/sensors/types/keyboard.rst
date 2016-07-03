@@ -3,7 +3,7 @@
 Keyboard Sensor
 ***************
 
-.. figure:: /images/BGE_Sensor_Keyboard.jpg
+.. figure:: /images/bge_sensor_keyboard.jpg
    :width: 300px
 
    Keyboard sensor.

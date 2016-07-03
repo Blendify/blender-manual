@@ -22,17 +22,17 @@ Axes
 
 .. list-table::
 
-   * - .. figure:: /images/SmoothVertex1.jpg
+   * - .. figure:: /images/smoothvertex1.jpg
           :width: 200px
 
           Mesh before smoothing.
 
-     - .. figure:: /images/SmoothVertex2.jpg
+     - .. figure:: /images/smoothvertex2.jpg
           :width: 200px
 
           Mesh after one smoothing iteration.
 
-     - .. figure:: /images/SmoothVertex3.jpg
+     - .. figure:: /images/smoothvertex3.jpg
           :width: 200px
 
           Mesh after ten smoothing iterations.

@@ -73,7 +73,7 @@ Brush Group
 Paint
 -----
 
-.. figure:: /images/DynamicPaint-Guide-PaintSurface.jpg
+.. figure:: /images/dynamicpaint-guide-paintsurface.jpg
    :width: 360px
 
    Paint Surface.
@@ -90,7 +90,7 @@ Some "paint effects" affect wet paint only.
 Displace
 --------
 
-.. figure:: /images/DynamicPaint-Guide-DisplaceSurface.jpg
+.. figure:: /images/dynamicpaint-guide-displacesurface.jpg
    :width: 360px
 
    Displace Surface.
@@ -107,7 +107,7 @@ This type of surface outputs intersection depth from brush objects.
 Waves
 -----
 
-.. figure:: /images/DynamicPaint-Guide-WavesSurface.jpg
+.. figure:: /images/dynamicpaint-guide-wavessurface.jpg
    :width: 360px
 
    Waves Surface.
@@ -145,7 +145,7 @@ Spring
 Weight
 ------
 
-.. figure:: /images/DynamicPaint-Guide-WeightSurface.jpg
+.. figure:: /images/dynamicpaint-guide-weightsurface.jpg
    :width: 360px
 
    Weight Surface.

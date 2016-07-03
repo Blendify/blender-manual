@@ -51,52 +51,52 @@ The *Noise Basis* governs the structural appearance of the texture :
 
 .. list-table::
 
-   * - .. figure:: /images/NoiseBasisBlenderOriginal.jpg
+   * - .. figure:: /images/noisebasisblenderoriginal.jpg
           :width: 160px
 
           Blender Original.
 
-     - .. figure:: /images/NoiseBasisVoronoiF1.jpg
+     - .. figure:: /images/noisebasisvoronoif1.jpg
           :width: 160px
 
           Voronoi F1.
 
-     - .. figure:: /images/NoiseBasisVoronoiF2-F1.jpg
+     - .. figure:: /images/noisebasisvoronoif2-f1.jpg
           :width: 160px
 
           Voronoi F2-F1.
 
-   * - .. figure:: /images/NoiseBasisOriginalPerlin.jpg
+   * - .. figure:: /images/noisebasisoriginalperlin.jpg
           :width: 160px
 
           Original Perlin.
 
-     - .. figure:: /images/NoiseBasisVoronoiF2.jpg
+     - .. figure:: /images/noisebasisvoronoif2.jpg
           :width: 160px
 
           Voronoi F2.
 
-     - .. figure:: /images/NoiseBasisVoronoiCrackle.jpg
+     - .. figure:: /images/noisebasisvoronoicrackle.jpg
           :width: 160px
 
           Voronoi Crackle.
 
-   * - .. figure:: /images/NoiseBasisImprovedPerlin.jpg
+   * - .. figure:: /images/noisebasisimprovedperlin.jpg
           :width: 160px
 
           Improved Perlin.
 
-     - .. figure:: /images/NoiseBasisVoronoiF3.jpg
+     - .. figure:: /images/noisebasisvoronoif3.jpg
           :width: 160px
 
           Voronoi F3.
 
-     - .. figure:: /images/NoiseBasisCellNoise.jpg
+     - .. figure:: /images/noisebasiscellnoise.jpg
           :width: 160px
 
           Cell Noise.
 
-   * - .. figure:: /images/NoiseBasisVoronoiF4.jpg
+   * - .. figure:: /images/noisebasisvoronoif4.jpg
           :width: 160px
 
           Voronoi F4.

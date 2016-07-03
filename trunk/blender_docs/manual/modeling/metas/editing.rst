@@ -7,7 +7,7 @@ When in *Edit Mode*, the *Active Element* panel appears.
 These settings apply only to the selected meta element.
 
 
-.. figure:: /images/MetaPropertiesEditMode.jpg
+.. figure:: /images/metapropertieseditmode.jpg
    :width: 300px
 
    the active element panel.
@@ -46,7 +46,7 @@ select it and activate *Scale* mode with :kbd:`S`.
 
 .. _fig-meta-edit-stiffness:
 
-.. figure:: /images/MetaStiffness.jpg
+.. figure:: /images/metastiffness.jpg
    :width: 630px
 
    Stiffness.
@@ -112,7 +112,7 @@ Clear and simple!
 Conversion
 ==========
 
-.. figure:: /images/MetaConvertToMesh.jpg
+.. figure:: /images/metaconverttomesh.jpg
    :width: 300px
 
    Convert Menu.

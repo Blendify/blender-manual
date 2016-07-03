@@ -16,7 +16,7 @@ When a blend-file tries to execute a script and is not allowed, a message will a
 header with the option to **Reload Trusted** or **Ignore** the message.
 
 
-.. figure:: /images/Python_Script_AutoExec_Header.jpg
+.. figure:: /images/python_script_autoexec_header.jpg
    :width: 800px
 
 
@@ -77,7 +77,7 @@ Once enabled you have the option to exclude certain directories,
 a typical configuration would be to trust all paths except for the download directory.
 
 
-.. figure:: /images/Python_Script_AutoExec_Configure.jpg
+.. figure:: /images/python_script_autoexec_configure.jpg
    :width: 600px
 
 

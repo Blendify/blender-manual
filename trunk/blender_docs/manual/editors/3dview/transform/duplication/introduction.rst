@@ -54,7 +54,7 @@ in the :ref:`User Preferences, Editing Page <prefs-editing-duplicate_data>`.
 Examples
 --------
 
-.. figure:: /images/Modeling-Duplicate-Example.jpg
+.. figure:: /images/modeling-duplicate-example.jpg
    :width: 620px
 
    The mesh ``Cone.006`` of object ``Cone.002`` is being edited.
@@ -100,7 +100,7 @@ Reference Expl. :ref:`Duplicate Example <expl-object-link-duplicate>` for the di
    :kbd:`LMB` the number in the *Object Data* panel of the Properties editor.
 
 
-   .. figure:: /images/Interface-Scenes-mk_singleuser.jpg
+   .. figure:: /images/interface-scenes-mk_singleuser.jpg
       :align: center
 
 .. _expl-object-link-duplicate:
@@ -108,7 +108,7 @@ Reference Expl. :ref:`Duplicate Example <expl-object-link-duplicate>` for the di
 Examples
 --------
 
-.. figure:: /images/Modelling-Duplicate-Linked-Example.jpg
+.. figure:: /images/modelling-duplicate-linked-example.jpg
    :width: 620px
 
    The object ``Cone.001`` was linked duplicated.

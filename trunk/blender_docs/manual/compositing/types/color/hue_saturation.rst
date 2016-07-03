@@ -79,7 +79,7 @@ Changing the effect over time
 HSV Example
 ===========
 
-.. figure:: /images/Node-HSV_example.jpg
+.. figure:: /images/node-hsv_example.jpg
 
 Here, the image was taken by a cheap digital camera in poor lighting at night using a flash
 (can we do it any worse, eh?) is adjusted by decreasing the Hue

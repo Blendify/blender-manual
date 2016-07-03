@@ -63,22 +63,22 @@ so that the darker parts of the image won't be changed at all
 
 .. list-table:: Teapot
 
-   * - .. figure:: /images/DenseTeapot.jpg
+   * - .. figure:: /images/denseteapot.jpg
           :width: 320px
 
           An overexposed teapot.
 
-     - .. figure:: /images/DenseTeapot-Range2.jpg
+     - .. figure:: /images/denseteapot-range2.jpg
           :width: 320px
 
           Range: 2.0.
 
-   * - .. figure:: /images/DenseTeapot-Range0_5.jpg
+   * - .. figure:: /images/denseteapot-range0_5.jpg
           :width: 320px
 
           Range: 0.5.
 
-     - .. figure:: /images/DenseTeapot-Range2_0-Exposure0_3.jpg
+     - .. figure:: /images/denseteapot-range2_0-exposure0_3.jpg
           :width: 320px
 
           Range: 2.0, Exposure: 0.3.

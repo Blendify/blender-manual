@@ -173,7 +173,7 @@ Editor Image menu to *Replace* the current image with an existing file
 New Images
 ----------
 
-.. figure:: /images/texture-uv-layout-testGrid.jpg
+.. figure:: /images/texture-uv-layout-testgrid.jpg
    :width: 200px
 
    The new Image pop-up menu.
@@ -215,12 +215,12 @@ look like cloth, you do **not** want any stretching (unless you want the cloth t
 
 .. list-table::
 
-   * - .. figure:: /images/texture-uv-layout-testGrid2.jpg
+   * - .. figure:: /images/texture-uv-layout-testgrid2.jpg
           :width: 250px
 
           The test grid applied to the UV's.
 
-     - .. figure:: /images/texture-uv-layout-testGrid3.jpg
+     - .. figure:: /images/texture-uv-layout-testgrid3.jpg
           :width: 250px
 
           A preview of the texture on the geometry.

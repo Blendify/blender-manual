@@ -31,7 +31,7 @@ the settings in the Physics panel.
 Velocity
 ========
 
-.. figure:: /images/Initial_velocity.jpg
+.. figure:: /images/initial_velocity.jpg
 
    Initial velocity.
 
@@ -68,7 +68,7 @@ Random
 Rotation
 ========
 
-.. figure:: /images/Rotation.jpg
+.. figure:: /images/rotation.jpg
 
    Particles rotation settings.
 

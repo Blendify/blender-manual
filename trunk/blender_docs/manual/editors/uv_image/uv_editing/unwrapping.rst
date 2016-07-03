@@ -168,7 +168,7 @@ Cube Size
 Cylinder and Sphere
 -------------------
 
-.. figure:: /images/texture-uv-sphereProjection.jpg
+.. figure:: /images/texture-uv-sphereprojection.jpg
    :width: 250px
 
    Using a Mercator image with a Sphere Projection.
@@ -392,7 +392,7 @@ Margin
 Smart UV Project
 ----------------
 
-.. figure:: /images/texture-uv-unwrap-smartProject.jpg
+.. figure:: /images/texture-uv-unwrap-smartproject.jpg
    :width: 250px
 
    Smart UV project on a cube.

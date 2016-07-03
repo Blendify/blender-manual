@@ -3,7 +3,7 @@
 Keyed Particles
 ***************
 
-.. figure:: /images/Keyed.jpg
+.. figure:: /images/keyed.jpg
 
    Keyed Physics Settings.
 

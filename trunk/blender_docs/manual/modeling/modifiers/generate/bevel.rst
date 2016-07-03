@@ -12,12 +12,12 @@ The Bevel modifier is a non-destructive alternative to the
 
 .. list-table::
 
-   * - .. figure:: /images/Unbevelled_Square.jpg
+   * - .. figure:: /images/unbevelled_square.jpg
           :width: 150px
 
           Unbeveled.
 
-     - .. figure:: /images/Bevelled_Square.jpg
+     - .. figure:: /images/bevelled_square.jpg
           :width: 150px
 
           Beveled.
@@ -29,7 +29,7 @@ The images above show the side views of a plain (unbeveled) cube and a beveled o
 Options
 =======
 
-.. figure:: /images/CZ_BevelModifier_None_IF.jpg
+.. figure:: /images/cz_bevelmodifier_none_if.jpg
 
    Bevel modifier panel.
 
@@ -38,7 +38,7 @@ Width
    The size of the bevel affect. See *Width Method* below.
 
 
-   .. figure:: /images/Bevel_Modifier-3_Beveled_Cubes.jpg
+   .. figure:: /images/bevel_modifier-3_beveled_cubes.jpg
       :width: 610px
 
       Three Cubes with 0.1, 0.3 and 0.5 bevel Widths.
@@ -55,7 +55,7 @@ Only Vertices
    When enabled, only the areas near vertices are beveled; the edges are left unbeveled.
 
 
-   .. figure:: /images/3_Beveled_Cubes_Vertices_Only.jpg
+   .. figure:: /images/3_beveled_cubes_vertices_only.jpg
       :width: 610px
 
       Three cubes with 0.1, 0.3 and 0.5' bevel Widths, with Only Vertices option enabled.

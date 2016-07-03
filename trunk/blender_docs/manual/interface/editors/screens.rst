@@ -3,7 +3,7 @@
 Screens
 *******
 
-.. figure:: /images/Scene-SR_Layout_Dropdown25.jpg
+.. figure:: /images/scene-sr_layout_dropdown25.jpg
    :align: right
 
    Layout Dropdown.

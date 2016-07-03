@@ -5,7 +5,7 @@ Introduction
 
 .. _fig-surface-intro-surface:
 
-.. figure:: /images/NurbsSurface.jpg
+.. figure:: /images/nurbssurface.jpg
 
    Surface.
 
@@ -39,7 +39,7 @@ In fact, surfaces are very similar to the results you get when
 Finding Surface Tools
 =====================
 
-.. figure:: /images/NurbsSurfaceTools.jpg
+.. figure:: /images/nurbssurfacetools.jpg
 
    Surface Tools.
 
@@ -124,13 +124,13 @@ one for each interpolation axis (U and V). Note that unlike with curves, you hav
 
    * - .. _fig-surface-intro-resolution1:
 
-       .. figure:: /images/NurbsSurface1Resolution.jpg
+       .. figure:: /images/nurbssurface1resolution.jpg
 
           Resolution 1×1.
 
      - .. _fig-surface-intro-resolution2:
 
-       .. figure:: /images/NurbsSurface3Resolution.jpg
+       .. figure:: /images/nurbssurface3resolution.jpg
 
           Resolution 3×3.
 
@@ -138,7 +138,7 @@ one for each interpolation axis (U and V). Note that unlike with curves, you hav
 Fig. :ref:`fig-surface-intro-resolution1` is an example of a surface resolution of 3 for both U and V.
 Fig. :ref:`fig-surface-intro-resolution2` surface is an example of a surface resolution of 12 for both U and V.
 
-.. figure:: /images/NurbsSurfaceResoltion.jpg
+.. figure:: /images/nurbssurfaceresoltion.jpg
 
    Resolution panel.
 
@@ -166,7 +166,7 @@ or *Bézier*, with the same properties as for curves. And as with curves, only o
 
 .. _fig-surface-intro-endpoint:
 
-.. figure:: /images/Surfaces-Endpoint-U-Ex.jpg
+.. figure:: /images/surfaces-endpoint-u-ex.jpg
 
    Endpoint U.
 
@@ -192,7 +192,7 @@ creating a surface that tends to follow the grid cage.
 
 .. _fig-surface-intro-order:
 
-.. figure:: /images/NurbsSurfaceOrderExample.jpg
+.. figure:: /images/nurbssurfaceorderexample.jpg
 
    Order 2 and order 4 surface.
 
@@ -212,7 +212,7 @@ Weight
 
 .. _fig-surface-intro-weight:
 
-.. figure:: /images/NurbsSurfaceWeightExample.jpg
+.. figure:: /images/nurbssurfaceweightexample.jpg
    :width: 600px
 
    One control point with a weight of 5.
@@ -237,7 +237,7 @@ The *Weight* of any particular control point is visible in the
 Preset Weights
 ^^^^^^^^^^^^^^
 
-.. figure:: /images/NurbsSurfaceSphere.jpg
+.. figure:: /images/nurbssurfacesphere.jpg
    :width: 250px
 
    A sphere surface.
@@ -260,7 +260,7 @@ Primitives
 To help get started in creating surfaces there are four preset NURBS surfaces, found in the 
 :menuselection:`Add --> Surface --> NURBS Surface, NURBS Tube, NURBS Sphere and NURBS Torus`.
 
-.. figure:: /images/NurbsPrimitives.jpg
+.. figure:: /images/nurbsprimitives.jpg
 
    NURBS surface primitives.
 
@@ -268,7 +268,7 @@ To help get started in creating surfaces there are four preset NURBS surfaces, f
 There are also two preset NURBS surface curves (with only one control point on each V-row):
 *NURBS Curve* and *NURBS Circle*.
 
-.. figure:: /images/NurbsCurvePrimitives.jpg
+.. figure:: /images/nurbscurveprimitives.jpg
 
    NURBS curve primitives.
 

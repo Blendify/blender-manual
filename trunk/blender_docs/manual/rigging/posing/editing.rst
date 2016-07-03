@@ -4,7 +4,7 @@
 Editing Poses
 *************
 
-.. figure:: /images/rigging-poseTools.jpg
+.. figure:: /images/rigging-posetools.jpg
    :width: 100px
    :align: right
 
@@ -38,7 +38,7 @@ with a few specificities:
   - To select all bones belonging to the same layer(s) as the selected ones,
     use the *In Same Layer* entry :kbd:`Shift-G-Numpad2`.
 
-.. figure:: /images/rigging-selectGrouped.jpg
+.. figure:: /images/rigging-selectgrouped.jpg
 
    The Select Grouped pop-up menu.
 
@@ -54,7 +54,7 @@ in *Pose Mode*, each bone has a scale of 1.0, and null rotation and position
 :kbd:`N`).
 
 
-.. figure:: /images/rigging-pose-localRotate.jpg
+.. figure:: /images/rigging-pose-localrotate.jpg
    :width: 250px
 
    An example of locally-Y-axis locked rotation, with two bones selected.
@@ -157,7 +157,7 @@ Copy/Paste Pose
      :menuselection:`Pose --> Paste Pose`, :menuselection:`Pose --> Paste Flipped Pose`
 
 
-.. figure:: /images/rigging-copyPastePose.jpg
+.. figure:: /images/rigging-copypastepose.jpg
 
    Copy and paste pose buttons in the 3D View header in Pose Mode.
 
@@ -192,38 +192,38 @@ Here are important points:
 
 .. list-table::
 
-   * - .. figure:: /images/RiggingPosingCopyPoseExRestArmaOrg.jpg
+   * - .. figure:: /images/riggingposingcopyposeexrestarmaorg.jpg
 
           The rest position of our original armature.
 
-     - .. figure:: /images/RiggingPosingCopyPoseExRestArmaDest.jpg
+     - .. figure:: /images/riggingposingcopyposeexrestarmadest.jpg
 
           The rest position of our destination armature.
 
 .. list-table::
    Examples of pose copy/paste.
 
-   * - .. figure:: /images/RiggingPosingCopyPoseExPose1ArmaOrg.jpg
+   * - .. figure:: /images/riggingposingcopyposeexpose1armaorg.jpg
 
           The first copied pose (note that only forearm and finger2_a are selected and hence copied).
 
-     - .. figure:: /images/RiggingPosingCopyPoseExPastedPose1ArmaDest.jpg
+     - .. figure:: /images/riggingposingcopyposeexpastedpose1armadest.jpg
 
           ...pasted on the destination armature...
 
-     - .. figure:: /images/RiggingPosingCopyPoseExPastedMirrPose1ArmaDest.jpg
+     - .. figure:: /images/riggingposingcopyposeexpastedmirrpose1armadest.jpg
 
           ...and mirror-pasted on the destination armature.
 
-   * - .. figure:: /images/RiggingPosingCopyPoseExPose2ArmaOrg.jpg
+   * - .. figure:: /images/riggingposingcopyposeexpose2armaorg.jpg
 
           The same pose as above is copied, but this time with all bones selected, ...
 
-     - .. figure:: /images/RiggingPosingCopyPoseExPastedPose2ArmaDest.jpg
+     - .. figure:: /images/riggingposingcopyposeexpastedpose2armadest.jpg
 
           ...pasted on the destination armature...
 
-     - .. figure:: /images/RiggingPosingCopyPoseExPastedMirrPose2ArmaDest.jpg
+     - .. figure:: /images/riggingposingcopyposeexpastedmirrpose2armadest.jpg
 
           ...and mirror-pasted on the destination armature.
 
@@ -243,17 +243,17 @@ By default, children bones inherit:
 .. list-table::
    Examples of transforming parented/connected bones.
 
-   * - .. figure:: /images/RiggingPosingRelatioshipsAndTransformExBasis.jpg
+   * - .. figure:: /images/riggingposingrelatioshipsandtransformexbasis.jpg
           :width: 200px
 
           The armature in its rest position.
 
-     - .. figure:: /images/RiggingPosingRelatioshipsAndTransformExMonoRotation.jpg
+     - .. figure:: /images/riggingposingrelatioshipsandtransformexmonorotation.jpg
           :width: 200px
 
           Rotation of a root bone.
 
-     - .. figure:: /images/RiggingPosingRelatioshipsAndTransformExScalingChains.jpg
+     - .. figure:: /images/riggingposingrelatioshipsandtransformexscalingchains.jpg
           :width: 200px
 
           Scaling of a root bone.
@@ -263,7 +263,7 @@ Exactly like standard children objects. You can modify this behavior on a per-bo
 using their sub-panels in the *Armature Bones* panel:
 
 
-.. figure:: /images/RiggingEditingBoneCxtRelationsPanel.jpg
+.. figure:: /images/riggingeditingbonecxtrelationspanel.jpg
    :width: 200px
 
    The Armature Bones panel in Pose Mode.
@@ -284,17 +284,17 @@ all its descendants* will no longer be affected when you scale one of its ancest
 .. list-table::
    Examples of transforming parented/connected bones with Inherit Rotation disabled.
 
-   * - .. figure:: /images/RiggingPosingRelatioshipsAndTransformExHingeBone.jpg
+   * - .. figure:: /images/riggingposingrelatioshipsandtransformexhingebone.jpg
           :width: 200px
 
           The yellow outlined Inherit Rotation disabled bone in the armature.
 
-     - .. figure:: /images/RiggingPosingRelatioshipsAndTransformExHingeBoneInRotation.jpg
+     - .. figure:: /images/riggingposingrelatioshipsandtransformexhingeboneinrotation.jpg
           :width: 200px
 
           Rotation of a bone with a Inherit Rotation disabled bone among its descendants.
 
-     - .. figure:: /images/RiggingPosingRelatioshipsAndTransformExHingeBoneInScaling.jpg
+     - .. figure:: /images/riggingposingrelatioshipsandtransformexhingeboneinscaling.jpg
           :width: 200px
 
           Scaling of a bone with a Inherit Rotation disabled bone among its descendants.
@@ -314,7 +314,7 @@ however, this should give a good idea of the problem:
 
 .. _fig-rig-pose-edit-scale:
 
-.. figure:: /images/RiggingPosingRelatioshipsAndTransformExMultiScaling.jpg
+.. figure:: /images/riggingposingrelatioshipsandtransformexmultiscaling.jpg
    :width: 200px
 
    Scaling bones, some of them related.

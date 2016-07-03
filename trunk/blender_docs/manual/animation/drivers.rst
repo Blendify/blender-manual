@@ -3,7 +3,7 @@
 Drivers
 *******
 
-.. figure:: /images/Animation_Driver_FCurve.jpg
+.. figure:: /images/animation_driver_fcurve.jpg
 
    Graph Editor: Driver example.
 
@@ -27,7 +27,7 @@ the :doc:`Graph Editor </editors/graph_editor/introduction>`.
 Drivers Panel
 =============
 
-.. figure:: /images/Animation_Panel_Drivers.jpg
+.. figure:: /images/animation_panel_drivers.jpg
    :align: right
 
    :menuselection:`Graph Editor --> Drivers --> Drivers Panel`
@@ -81,17 +81,17 @@ Add Variable
    Adds a new Driver Variable.
 
 
-.. figure:: /images/Animation_Driver_Single_Property.jpg
+.. figure:: /images/animation_driver_single_property.jpg
 
    Setup of a Single Property.
 
 .. list-table::
 
-   * - .. figure:: /images/Animation_Driver_Transform_Channel2.jpg
+   * - .. figure:: /images/animation_driver_transform_channel2.jpg
 
           Transform Channel Setup.
 
-     - .. figure:: /images/Animation_Driver_Distance.jpg
+     - .. figure:: /images/animation_driver_distance.jpg
 
           Distance Setup.
 
@@ -165,7 +165,7 @@ Add Drivers
 Add Single Driver
     This will add a single driver to the selected property.
 
-.. figure:: /images/Add_Driver2.jpg
+.. figure:: /images/add_driver2.jpg
 
 Drivers can also be added by pressing :kbd:`D` with the mouse over the property set.
 
@@ -228,7 +228,7 @@ Driver Expression
 Here are some examples using the scripted expression Expr to set the Driver Value.
 
 
-.. figure:: /images/Animation_Driver_Object_Rotation.jpg
+.. figure:: /images/animation_driver_object_rotation.jpg
 
    Object Rotation.
 
@@ -304,7 +304,7 @@ Shape Key Driver
 This example is a Shape Key Driver. The driver was added to the shape key Value.
 
 
-.. figure:: /images/Animation_Driver_Shape_Key.jpg
+.. figure:: /images/animation_driver_shape_key.jpg
    :width: 400px
 
    Shape Key Driver. Click to enlarge.
@@ -332,27 +332,27 @@ an absolute shape key, it allows you to have more complex
 relationships between your shape keys.
 
 
-.. figure:: /images/Driver_For_Multiple_Shape_Keys_Key1.jpg
+.. figure:: /images/driver_for_multiple_shape_keys_key1.jpg
 
    Key1 must handle conflicting values from the two bones.
 
 
-.. figure:: /images/Driver_For_Multiple_Shape_Keys_Key2A.jpg
+.. figure:: /images/driver_for_multiple_shape_keys_key2a.jpg
 
    Key2A has different generator coefficients so it is activated in a different range of the bone's position.
 
 
-.. figure:: /images/Driver_For_Multiple_Shape_Keys_Key2B.jpg
+.. figure:: /images/driver_for_multiple_shape_keys_key2b.jpg
 
    Key2B is the same as Key2A, but is controlled by the second bone.
 
 
-.. figure:: /images/Driver_For_Multiple_Shape_Keys_Retracted.jpg
+.. figure:: /images/driver_for_multiple_shape_keys_retracted.jpg
 
    when both bones are low, Key2B and Key2A are deactivated and Key1 is at low influence.
 
 
-.. figure:: /images/Driver_For_Multiple_Shape_Keys_Extended.jpg
+.. figure:: /images/driver_for_multiple_shape_keys_extended.jpg
 
 The Basis shape key has the stacks fully retracted. Key1 has the base
 fully extended. Key2A has the left stack fully extended. Key2B has
@@ -393,12 +393,12 @@ Some common problems people may run into when using drivers.
 Scripted Expression
 -------------------
 
-.. figure:: /images/Drivers_Auto_Run_B.jpg
+.. figure:: /images/drivers_auto_run_b.jpg
 
    :menuselection:`Graph Editor --> Properties --> Drivers`
 
 
-.. figure:: /images/Drivers_Auto_Run_A.jpg
+.. figure:: /images/drivers_auto_run_a.jpg
 
    Info Header.
 
@@ -409,12 +409,12 @@ If using a *Scripted Expression* Driver Type,
 you will have to open the file as *Trusted Source*,
 or set *Auto Run Python Scripts* in :menuselection:`User Preferences --> File --> Auto Execution`.
 
-.. figure:: /images/Drivers_Auto_Run_C.jpg
+.. figure:: /images/drivers_auto_run_c.jpg
 
    File Browser.
 
 
-.. figure:: /images/Drivers_Auto_Run_D.jpg
+.. figure:: /images/drivers_auto_run_d.jpg
 
    :menuselection:`User Preference --> File --> Auto Execution`
 

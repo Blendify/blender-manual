@@ -124,32 +124,32 @@ Preserve Volume (Armature modifier)
 .. list-table::
    Example of Quaternion option effects.
 
-   * - .. figure:: /images/RiggingSkinningQuaternionOptExInitState.jpg
+   * - .. figure:: /images/riggingskinningquaternionoptexinitstate.jpg
           :width: 200px
 
           Initial state.
 
-     - .. figure:: /images/RiggingSkinningQuaternionOptExNoQuat100Deg.jpg
+     - .. figure:: /images/riggingskinningquaternionoptexnoquat100deg.jpg
           :width: 200px
 
           100- rotation, Preserve Volume disabled.
 
-     - .. figure:: /images/RiggingSkinningQuaternionOptExNoQuat180Deg.jpg
+     - .. figure:: /images/riggingskinningquaternionoptexnoquat180deg.jpg
           :width: 200px
 
           180- rotation, Preserve Volume disabled.
 
-   * - .. figure:: /images/RiggingSkinningQuaternionOptExQuat100Deg.jpg
+   * - .. figure:: /images/riggingskinningquaternionoptexquat100deg.jpg
           :width: 200px
 
           100- rotation, Preserve Volume enabled.
 
-     - .. figure:: /images/RiggingSkinningQuaternionOptExQuat1799Deg.jpg
+     - .. figure:: /images/riggingskinningquaternionoptexquat1799deg.jpg
           :width: 200px
 
           179.9- rotation, Preserve Volume enabled.
 
-     - .. figure:: /images/RiggingSkinningQuaternionOptExQuat1801Deg.jpg
+     - .. figure:: /images/riggingskinningquaternionoptexquat1801deg.jpg
           :width: 200px
 
           180.1- rotation, Preserve Volume enabled.
@@ -162,7 +162,7 @@ Preserve Volume (Armature modifier)
 Bone Deform Options
 ===================
 
-.. figure:: /images/RiggingEditingBoneCxtDeformPanel.jpg
+.. figure:: /images/riggingeditingbonecxtdeformpanel.jpg
    :width: 250px
 
    Bone Deform Options.
@@ -180,7 +180,7 @@ Deform
 Envelope
 --------
 
-.. figure:: /images/RiggingEnvelopePrinciples3DViewEditMode.jpg
+.. figure:: /images/riggingenvelopeprinciples3dvieweditmode.jpg
    :width: 200px
 
    Bone influence areas for envelopes method.
@@ -281,22 +281,22 @@ To automatically weight multiple bones, you can simply
 .. list-table::
    Example of vertex groups skinning method.
 
-   * - .. figure:: /images/RiggingSkinningVertexGroupsExArmWeights.jpg
+   * - .. figure:: /images/riggingskinningvertexgroupsexarmweights.jpg
           :width: 150px
 
           The weights of the arm vertex group.
 
-     - .. figure:: /images/RiggingSkinningVertexGroupsExForearmWeights.jpg
+     - .. figure:: /images/riggingskinningvertexgroupsexforearmweights.jpg
           :width: 150px
 
           The weights of the forearm vertex group.
 
-   * - .. figure:: /images/RiggingSkinningVertexGroupsExResult.jpg
+   * - .. figure:: /images/riggingskinningvertexgroupsexresult.jpg
           :width: 150px
 
           The result when posing the armature.
 
-     - .. figure:: /images/RiggingSkinningVertexGroupsExEnvelopesResult.jpg
+     - .. figure:: /images/riggingskinningvertexgroupsexenvelopesresult.jpg
           :width: 150px
 
           The same pose, but using envelopes method rather that vertex groups.

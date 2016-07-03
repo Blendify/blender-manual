@@ -112,7 +112,7 @@ The vertex tries to reach it's target position with a certain, adjustable intens
 
 .. _fig-softbody-force-exterior-shock:
 
-.. figure:: /images/Shockabs.gif
+.. figure:: /images/shockabs.gif
    :width: 300px
 
    Shock absorber description.

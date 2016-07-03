@@ -3,7 +3,7 @@
 Introduction to Parameter Editor
 ********************************
 
-.. figure:: /images/render-freestyle-Parameter_Editor_Mode_UI.jpg
+.. figure:: /images/render-freestyle-parameter_editor_mode_ui.jpg
    :width: 200px
 
    Parameter Editor.

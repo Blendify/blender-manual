@@ -13,7 +13,7 @@ Volume rendering is a method for rendering light as it passes through participat
 within a 3D region. The implementation in Blender a physically based model,
 which represents the various interactions of light in a volume relatively realistically.
 
-.. figure:: /images/bi_Volumerendering-volume_eq.jpg
+.. figure:: /images/bi_volumerendering-volume_eq.jpg
 
    Volume rendering.
 
@@ -38,7 +38,7 @@ Options
 Density
 -------
 
-.. figure:: /images/bi_Volumerendering-density.jpg
+.. figure:: /images/bi_volumerendering-density.jpg
 
    Constant density vs textured density.
 
@@ -61,7 +61,7 @@ Density Scale
 Shading
 -------
 
-.. figure:: /images/bi_Volumerendering-scattering1.jpg
+.. figure:: /images/bi_volumerendering-scattering1.jpg
 
    Spot lamp scattering in a constant volume.
 
@@ -89,22 +89,22 @@ the more easily it penetrates throughout the volume and to the shadow.
 
 .. list-table::
 
-   * - .. figure:: /images/bi_volume-rendering-scatter-Sc0_5.jpg
+   * - .. figure:: /images/bi_volume-rendering-scatter-sc0_5.jpg
           :width: 150px
 
           Scattering: 0.5.
 
-     - .. figure:: /images/bi_volume-rendering-scatter-Sc1_0.jpg
+     - .. figure:: /images/bi_volume-rendering-scatter-sc1_0.jpg
           :width: 150px
 
           Scattering: 1.0.
 
-     - .. figure:: /images/bi_volume-rendering-scatter-Sc2_0.jpg
+     - .. figure:: /images/bi_volume-rendering-scatter-sc2_0.jpg
           :width: 150px
 
           Scattering: 2.0.
 
-     - .. figure:: /images/bi_volume-rendering-scatter-Sc5_0.jpg
+     - .. figure:: /images/bi_volume-rendering-scatter-sc5_0.jpg
           :width: 150px
 
           Scattering: 5.0.
@@ -113,7 +113,7 @@ the more easily it penetrates throughout the volume and to the shadow.
 Asymmetry
 ---------
 
-.. figure:: /images/bi_Volumerendering-phase_diagram.jpg
+.. figure:: /images/bi_volumerendering-phase_diagram.jpg
    :width: 300px
 
    Isotropic and Anisotropic scattering.
@@ -429,7 +429,7 @@ Under Influence check 'Density' and leave it at 1.000
 Now you should be able to render single frames. You can choose to color your smoke as well,
 by turning *Emission Color* back on.
 
-.. figure:: /images/Smoke_render.jpg
+.. figure:: /images/smoke_render.jpg
 
    Finished Result.
 

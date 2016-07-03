@@ -3,7 +3,7 @@
 Action Actuator
 ***************
 
-.. figure:: /images/BGE_Actuator_Action.jpg
+.. figure:: /images/bge_actuator_action.jpg
    :width: 292px
 
    Action Actuator.
