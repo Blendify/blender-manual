@@ -26,9 +26,9 @@ and have mapped it on your owner through an *Action* constraint,
 so that moving the target in the (0.0 to 2.0)
 range along its X-Axis maps the action content on the owner in the (0 to 100)
 frame range. This will mean that when the target's *X* property is 0.0
-the owner will be as if in *frame 0* of the linked action;
+the owner will be as if in frame 0 of the linked action;
 with the target's *X* property at 1.0
-the owner will be as if in *frame 50* of the linked action, etc.
+the owner will be as if in frame 50 of the linked action, etc.
 
 
 Options
@@ -84,7 +84,7 @@ Action Range Start / End
 
       - These values must be strictly positive.
       - By default, both values are set to 0 which disables the mapping (i.e.
-        the owner just gets the properties defined at *frame 0* of the linked action...).
+        the owner just gets the properties defined at frame 0 of the linked action...).
 
 
 Notes
