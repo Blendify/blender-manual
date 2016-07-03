@@ -94,7 +94,7 @@ depends on many inter-related settings:
 - Shadows from other opaque/transparent objects
 - Render settings
 - Object dimensions (SS settings are relevant to dimensions)
-- Object shape (refractions, fresnel effects)
+- Object shape (refractions, Fresnel effects)
 
 
 Using Materials
