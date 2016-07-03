@@ -454,7 +454,7 @@ the Child Objects will not move to the new location of the Pose Bone.
 
 .. figure:: /images/TY-3DViewEditorHeader-ObjectMenu-Parent-BoneRelativeParenting.jpg
 
-   Figure 38 - Single Armature Bone which has a Child Object cube parented to it using Bone Relative parenting.
+   Single Bone with Bone Relative parent to a cube.
 
 In Fig. :ref:`fig-view3d-parent-bone-parent-relative` the 1st picture shows the position of the cube and armature before the bone is moved in Edit Mode.
 2nd picture shows the position of the cube and armature after the bone was selected in Edit Mode,

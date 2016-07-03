@@ -43,22 +43,22 @@ Instead let us see what SSS does to a distinct light point.
    * - .. figure:: /images/materials-sss.jpg
           :width: 300px
 
-          Image 3a: No SSS.
+          No SSS.
 
      - .. figure:: /images/materials-sss1.jpg
           :width: 300px
 
-          Image 3b: Small SSS radius.
+          Small SSS radius.
 
    * - .. figure:: /images/materials-sss2.jpg
           :width: 300px
 
-          Image 3c: SSS radius enlarged.
+          SSS radius enlarged.
 
      - .. figure:: /images/materials-sss3.jpg
           :width: 300px
 
-          Image 3d: SSS with very large red radius value.
+          SSS with very large red radius value.
 
 
 If you turn on SSS, the light is distributed over a larger area.
@@ -84,7 +84,7 @@ Enabling Subsurface Scattering
 
 .. figure:: /images/material-sss-panel.jpg
 
-   Image 4: The SSS Panel. SSS is already enabled.
+   The SSS Panel. SSS is already enabled.
 
 
 - Enable SSS by clicking on the *Subsurface Scattering* button.
@@ -199,32 +199,32 @@ Skin
 ----
 
 .. list-table::
-      Increasing SSS scale (`blend-file <https://wiki.blender.org/index.php/:File:MH-SSS-head-001.blend>`__)
+      Increasing SSS scale (`blend-file <https://wiki.blender.org/index.php/:File:MH-SSS-head-001.blend>`__).
 
    * - .. figure:: /images/material-sss-mh-head-1.jpg
           :width: 100px
 
-          scale: 1.
+          Scale: 1.
 
      - .. figure:: /images/material-sss-mh-head-2.jpg
           :width: 100px
 
-          scale: 2.
+          Scale: 2.
 
      - .. figure:: /images/material-sss-mh-head-3.jpg
           :width: 100px
 
-          scale: 3.
+          Scale: 3.
 
      - .. figure:: /images/material-sss-mh-head-4.jpg
           :width: 100px
 
-          scale: 4.
+          Scale: 4.
 
      - .. figure:: /images/material-sss-mh-head-5.jpg
           :width: 100px
 
-          scale: 5.
+          Scale: 5.
 
 .. seealso::
 

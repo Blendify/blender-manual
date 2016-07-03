@@ -30,25 +30,31 @@ Examples
 
 .. list-table::
 
-   * - .. figure:: /images/CubePlaneCollision2.gif
+   * - .. _fig-softbody-collision-plane1:
 
-          Image 2a: A Soft Body cube colliding with a plane.
+       .. figure:: /images/CubePlaneCollision2.gif
 
-     - .. figure:: /images/CubePlaneCollision3.gif
+          A Soft Body cube colliding with a plane.
 
-          Image 2b: A Soft Body plane colliding with a cube - no interaction at all.
+     - .. _fig-softbody-collision-plane2:
 
-     - .. figure:: /images/physics_CollidingPlane_CFace.gif
+       .. figure:: /images/CubePlaneCollision3.gif
 
-          Image 2c: Collision with CFace activated.
+          A Soft Body plane colliding with a cube - no interaction at all.
+
+     - .. _fig-softbody-collision-plane3:
+
+       .. figure:: /images/physics_CollidingPlane_CFace.gif
+
+          Collision with CFace activated.
 
 
-A cube colliding with a plane works pretty well Fig Image 2a,
-but a plane falls right through a cube that it is supposed to collide with Fig. Image 2b. Why
-is that? Because the default method of calculation only checks to see if the four vertices of
+A cube colliding with a plane works pretty well Fig. :ref:`fig-softbody-collision-plane1`,
+but a plane falls right through a cube that it is supposed to collide with Fig. :ref:`fig-softbody-collision-plane2`.
+Why is that? Because the default method of calculation only checks to see if the four vertices of
 the plane collides with the cube as the plane is pulled down by gravity. You can activate
 *CFace* to enable collision between the face of the plane and the object instead
-Fig. Image 2c, but this type of calculation takes much longer.
+Fig. :ref:`fig-softbody-collision-plane3`, but this type of calculation takes much longer.
 
 Let us have a closer look at the collision calculation,
 so you can get an idea of how we might optimize it.
@@ -59,13 +65,18 @@ Calculating Collisions
 
 .. list-table::
 
-   * - .. figure:: /images/physics_VertexPlaneCollision.gif
+   * - .. _fig-softbody-collision-vertex:
 
-          Image 3a: Visualization of the collision of a Soft Body vertex with a plane.
+       .. figure:: /images/physics_VertexPlaneCollision.gif
 
-     - .. figure:: /images/physics_VertexPlaneCollision2.gif
+          Visualization of the collision of a Soft Body vertex with a plane.
 
-          Image 3b: Six Soft Body vertices with different speed.
+     - .. _fig-softbody-collision-vertex2:
+
+       .. figure:: /images/physics_VertexPlaneCollision2.gif
+
+          Six Soft Body vertices with different speed.
+
           `Blend file <https://wiki.blender.org/index.php/Media:CollidingVertices.blend>`__
 
 
@@ -73,29 +84,31 @@ Soft Body simulation is by default done on a per vertex basis. If the vertices o
 Body do not collide with the collision object there will be no interaction between the two
 objects.
 
-In Fig. Image 3a you can see a vertex colliding with a plane.
+In Fig. :ref:`fig-softbody-collision-vertex` you can see a vertex colliding with a plane.
 If a vertex penetrates the zone between *Outer* and *Inner*,
 it is repulsed by a force in the direction of the face normal.
 The position that a vertex finally ends up in is dependent on the forces that act upon it.
 In the example gravity and the repulsion force of the face balance out. The speed at which the
 vertex is pulled out of the collision zone is influenced by the *Choke* parameter
-Fig. Image 4.
+Fig. :ref:`fig-softbody-collision-parameter`.
 
 Now lets see what happens if we make vertices heavier and let them travel at a faster speed.
-In Fig. Image 3b you can see vertices traveling at different speeds.
+In Fig. :ref:`fig-softbody-collision-vertex2` you can see vertices traveling at different speeds.
 The two on the far right (5 and 6)
 are traveling so fast that they pass right through the collision zone
 (this is because of the default solver precision - which we can fix later). You will notice
 that the fourth vertex also travels quite fast and because it is heavier it breaches the inner
 zone. The first three vertices collide correctly.
 
+.. _fig-softbody-collision-vertex3:
+
 .. figure:: /images/softbodycollidingedges.png
 
-   Image 3d: Also Edges and Faces can be used for the collision calculation.
+   Also Edges and Faces can be used for the collision calculation.
 
 
 You can set up your collision so that edges and even faces are included in the collision
-calculation Fig. Image 3d. The collision is then calculated differently.
+calculation Fig. :ref:`fig-softbody-collision-vertex3`. The collision is then calculated differently.
 It is checked whether the edge or face intersects with the collision object,
 the collision zones are not used.
 
@@ -103,9 +116,11 @@ the collision zones are not used.
 Good collisions
 ---------------
 
+.. _fig-softbody-collision-parameter:
+
 .. figure:: /images/softbodysolverparameters.png
 
-   Image 4: Parameters for Soft Body calculation.
+   Parameters for Soft Body calculation.
 
 
 If the collision you have set up is not behaving properly, you can try the following:

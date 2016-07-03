@@ -194,13 +194,15 @@ it will be titled, "Edge," if an object, it will take that object's name, etc. T
 (:kbd:`T` in the 3D View)
 allows you to rename the custom orientation after you press :kbd:`Ctrl-Alt-Spacebar`.
 
+.. _fig-view3d-transform-orientation-extrusion:
+
 .. figure:: /images/Orientations-Custom-Extrusion.jpg
 
-   Figure 1.
+   Custom Extrusion.
 
 
 The technique of creating custom orientations can become important in creating precise meshes.
-In *Figure 1*, to achieve this effect:
+In Fig. :ref:`fig-view3d-transform-orientation-extrusion`, to achieve this effect:
 
 #. Select the object's sloping top edge
 #. Create a Custom Orientation with :kbd:`Ctrl-Alt-Spacebar` and rename it "Top Edge".

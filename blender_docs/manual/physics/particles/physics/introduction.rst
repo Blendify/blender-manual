@@ -33,7 +33,7 @@ Velocity
 
 .. figure:: /images/Initial_velocity.jpg
 
-   Image 3: Initial velocity.
+   Initial velocity.
 
 
 The initial velocity of particles can be set through different parameters,

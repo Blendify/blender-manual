@@ -3,10 +3,13 @@
 Introduction
 ************
 
+.. _fig-softbody-intro-cloth:
+
 .. figure:: /images/HiddenTextSoftbody.jpg
    :width: 600px
 
-   Image 1a: A softbody cloth uncovering a text.
+   A softbody cloth uncovering a text.
+
    `Animation <https://vimeo.com/1865528>`__ -
    `Blend file <https://wiki.blender.org/index.php/Media:HiddenTextExample.blend>`__
 
@@ -33,10 +36,13 @@ edit intermediate results and run the simulation from there.
 Typical scenarios for using Soft Bodies
 =======================================
 
+.. _fig-softbody-intro-cone:
+
 .. figure:: /images/WindConeSoftbody.jpg
    :width: 300px
 
-   Image 1b: A wind cone. The cone is a Soft Body, as the suspension.
+   A wind cone. The cone is a Soft Body, as the suspension.
+
    `Animation <https://vimeo.com/1865817>`__ - `Blend file
    <https://wiki.blender.org/index.php/Media:WindConeExample.blend>`__
 
@@ -190,10 +196,10 @@ Tips
 
 - Soft Bodies work especially well if the objects have an even vertex distribution.
   You need enough vertices for good collisions. You change the deformation
-  (the stiffness) if you add more vertices in a certain region (see the animation of *Image 1b*).
+  (the stiffness) if you add more vertices in a certain region (see the animation of Fig. :ref:`fig-softbody-intro-cone`).
 - The calculation of collisions may take a long time. If something is not visible, why calculate it?
 - To speed up the collision calculation it is often useful to collide with an additional,
-  simpler, invisible, somewhat larger object (see the example to *Image 1a*).
+  simpler, invisible, somewhat larger object (see the example to Fig. :ref:`fig-softbody-intro-cloth`).
 - Use Soft Bodies only where it makes sense.
   If you try to cover a body mesh with a tight piece of cloth and animate solely with Soft Body,
   you will have no success. Self collision of Soft Body hair may be activated,
