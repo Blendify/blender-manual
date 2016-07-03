@@ -411,7 +411,7 @@ The *Paragraph* Panel has settings for the alignment and spacing of text.
 .. figure:: /images/TextParagraphSettings.png
    :width: 300px
 
-   the paragraph tab.
+   The paragraph tab.
 
 
 Horizontal Alignment

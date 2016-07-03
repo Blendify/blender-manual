@@ -17,7 +17,7 @@ Notice that changes appear in real-time on your screen. In addition, details suc
 size in the *3D View* or the *Graph Editor* can also be changed.
 
 Themes use blender's preset system.
-To save a theme, click the `+` button next to the preset selection drop-down and enter a name.
+To save a theme, click the ``+`` button next to the preset selection drop-down and enter a name.
 This will save the theme to an XML file in the ``./scripts/presets/interface_theme/`` subdirectory of one of the
 :doc:`configuration directories </getting_started/installing/configuration/directories>`.
 
