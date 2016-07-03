@@ -23,7 +23,7 @@ New
 :doc:`Save Copy </data_system/files/save>`
    Saves a copy of the current file.
 :doc:`User Preferences </preferences/introduction>`
-   Opens the user preferences dialog.
+   Opens the user Preferences Editor.
 :ref:`Save User Settings <startup-file>`
    Saves the current scene and preferences to startup.blend.
 :ref:`Load Factory Settings <factory-settings>`

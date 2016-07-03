@@ -217,7 +217,7 @@ Blender 2.6x to 2.7x - Improvements & Stabalizing
   Cycles gets basic volumetric support on the CPU, more improvements to the motion tracker, two new modeling
   modifiers, some UI consistency improvements, and more than 560 bug fixes.
 - `2.71 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.71>`__ - June 2014:
-  Deformation motion blur and fire/smoke support is added to Cycles, UI popups are now draggable,
+  Deformation motion blur and fire/smoke support is added to Cycles, UI pop-ups are now draggable,
   performance optimizations for sculpting mode, new interpolation types for animation, many improvements
   to the GE, and over 400 bug fixes.
 - `2.72 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.72>`__ - October 2014:

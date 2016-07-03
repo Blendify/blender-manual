@@ -176,7 +176,7 @@ New Images
 .. figure:: /images/texture-uv-layout-testGrid.jpg
    :width: 200px
 
-   The new Image dialogue.
+   The new Image pop-up menu.
 
 
 When you select *New Image* you are presented with several options. This

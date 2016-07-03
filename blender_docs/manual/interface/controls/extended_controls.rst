@@ -12,7 +12,7 @@ Operator Search Menu
 .. figure:: /images/ui-controls-operator_search.png
    :align: right
 
-   The operator search popup.
+   The operator search pop-up.
 
 
 A menu with access to all *Blender* commands is available by pressing

@@ -155,7 +155,7 @@ Checker Deselect
    Deselect alternating faces, to create a checker like pattern.
 Select Sharp Edges
    This option will select all edges that are between two faces forming an angle less than a given value,
-   which is asked you *via* a small pop-up dialog.
+   which is asked you *via* a small pop-up menu.
    The lower is this angle limit, the sharper will be the selected edges.
    At 180, **all** :term:`manifold` edges will be selected.
 Linked Flat Faces :kbd:`Ctrl-Shift-Alt-F`

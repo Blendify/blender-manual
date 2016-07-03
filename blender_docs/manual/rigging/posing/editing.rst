@@ -107,7 +107,7 @@ available through the :menuselection:`Pose --> Scale Envelope Distance` menu ent
 Conversely, you may define the current pose as the new rest position (i.e.
 "apply" current transformations to the *Edit Mode*),
 using the :menuselection:`Pose --> Apply Pose as Restpose` menu entry
-(or :kbd:`Ctrl-A` and confirm the pop-up dialog). When you do so,
+(or :kbd:`Ctrl-A` and confirm the pop-up menu). When you do so,
 the skinned objects/geometry is **also** reset to its default, undeformed state,
 which generally means you will have to skin it again.
 

@@ -107,7 +107,7 @@ Below this list, you have three color swatches and a button.
 - The third swatch is the outline color of the active bone.
 
 As soon as you click on a swatch (to change the color,
-through the standard color editing dialog),
+through the standard color pop-up menu),
 you are automatically switched to the *Custom Set* option.
 
 

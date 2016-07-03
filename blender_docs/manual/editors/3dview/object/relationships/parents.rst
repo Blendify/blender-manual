@@ -12,7 +12,7 @@ rotation or scaling of the parent also affects the children.
 
 To parent objects, select at least two objects (select the *Child Objects* first,
 and select the *Parent Object* last), and press :kbd:`Ctrl-P`. The *Set Parent To*
-dialog will pop up allowing you to select from one of several possible different
+menu will pop up allowing you to select from one of several possible different
 parenting types. Selecting one of the entries in *Set Parent To* confirms,
 and the child/children to parent relationship is created.
 
@@ -22,7 +22,7 @@ If you selected multiple objects before selecting the parent,
 they will all be children of the parent and will be at the same level of the hierarchy
 (they are "siblings").
 
-The *Set Parent To* pop-up dialog is context sensitive, which means the number of entries it
+The *Set Parent To* pop-up menu is context sensitive, which means the number of entries it
 displays can change depending on what objects are selected when the :kbd:`Ctrl-P`
 shortcut is used.
 
@@ -85,7 +85,7 @@ Fig. :ref:`fig-view3d-parent-scene-no` shows the three objects with no parenting
 
 If you select the Monkey object by :kbd:`RMB` click and then :kbd:`Shift-RMB`
 click "EmptyA" object and press :kbd:`Ctrl-P` and then select *Object* from the *Set
-Parent To* pop-up dialog box.
+Parent To* pop-up menu.
 This will result in "EmptyA" object being the *Parent Object* of the Monkey object. With
 only "EmptyA" selected rotating/scaling/moving it will result in the Monkey object being
 altered respectively.
@@ -99,7 +99,7 @@ Scale the "EmptyA" object, so that the Monkey becomes smaller and moves to the l
 
 If you select only the Monkey object by :kbd:`RMB` click and then :kbd:`Shift-RMB`
 click "EmptyB" object and press :kbd:`Ctrl-P` and select *Object* from the *Set
-Parent To* pop-up dialog box.
+Parent To* pop-up menu.
 This will result in "EmptyB" object being the *Parent Object* of the Monkey object.
 Notice that when you change the parent of the Monkey the scale of the Monkey changed.
 
@@ -166,7 +166,7 @@ between an Armature Object and its Child Objects.
 To use Armature Deform Parenting you must first select all the Child Objects that will be
 influenced by the Armature and then lastly, select the Armature Object itself. Once all the
 Child Objects and the Armature Object are selected press :kbd:`Ctrl-P` and select
-Armature Deform in the Set Parent To popup menu. 
+Armature Deform in the Set Parent To pop-up menu. 
 
 .. figure:: /images/SR-3DViewEditorHeader-ObjectMenu-Parent-Armature_Deform.jpg
 
@@ -291,7 +291,7 @@ neither will you have to assign Influences Weights to those Vertex Groups, Blend
 To activate Armature Deform With Automatic Weights you must be in Object Mode or Pose Mode,
 then select all the Child Objects (usually Mesh Object Types) and lastly select the Armature Object;
 Once done press :kbd:`Ctrl-P` and select the Armature Deform With Automatic Weights from the
-Set Parent To popup dialog.
+Set Parent To pop-up menu.
 
 This method of parenting is certainly easier setup but it can often lead to Armatures which do not deform Child
 Objects in ways you would want as Blender can get a little confused when it comes to determining which Bones should
@@ -395,8 +395,8 @@ and entering new values for the *Tail* and *Head* fields.
    the Bone Envelope volume at the time of parenting, at which point it creates the required
    named Vertex Groups and assigns vertices to them as required. If you want any vertices to
    take account of the new Bone Envelope volume size you will have to carry out the Armature Deform
-   With Envelope Weights parenting again; In fact, all parenting used in the Set Parent To popup
-   dialog which tries to automatically assign vertices to Vertex Groups works like this.
+   With Envelope Weights parenting again; In fact, all parenting used in the Set Parent To pop-up
+   menu which tries to automatically assign vertices to Vertex Groups works like this.
 
 
 Bone Parent
@@ -419,7 +419,7 @@ Notice altering the 3rd and 4th bones has no effect on the Cone.
 To use Bone Parenting, you must first select all the Child Objects you wish to parent to a specific Armature Bone,
 then :kbd:`Shift-RMB` select the Armature Object and switch it into Pose Mode and then select the
 specific bone you wish to be the Parent Bone by :kbd:`RMB` selecting it.
-Once done press :kbd:`Ctrl-P` and select Bone from the Set Parent To popup dialog.
+Once done press :kbd:`Ctrl-P` and select Bone from the Set Parent To pop-up menu.
 
 Now transforming that bone in Pose Mode will result in the Child Objects also transforming.
 
@@ -528,7 +528,7 @@ Move child
 You can *move* a child object to its parent by clearing its origin.
 The relationship between the parent and child is not affected.
 Select the child object and press :kbd:`Alt-O`.
-By confirming the dialog the child object will snap to the parent's location.
+By confirming the child object will snap to the parent's location.
 Use the *Outliner* view to verify that the child object is still parented.
 
 
