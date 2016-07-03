@@ -31,7 +31,7 @@ Outputs
 =======
 
 Fresnel
-   Dielectric fresnel weight, useful for example for layering diffuse and
+   Dielectric Fresnel weight, useful for example for layering diffuse and
    glossy shaders to create a plastic material. This is like the Fresnel node,
    except that the input of this node is in the often more-convenient 0.0 to 1.0 range.
 Facing

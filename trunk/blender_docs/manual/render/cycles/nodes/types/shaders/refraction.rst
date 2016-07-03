@@ -13,7 +13,7 @@ Refraction
 Glossy refraction with sharp or microfacet distribution,
 used for materials that transmit light. For best results this node should be considered as a
 building block and not be used on its own,
-but rather mixed with a glossy node using a fresnel factor.
+but rather mixed with a glossy node using a Fresnel factor.
 Otherwise it will give quite dark results at the edges for glossy refraction.
 
 
