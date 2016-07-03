@@ -68,7 +68,7 @@ green, yellow, orange, red)
 .. figure:: /images/Weight_Spec.jpg
    :width: 610px
 
-   Image 3: The color spectrum and their respective weights.
+   The color spectrum and their respective weights.
 
 
 In addition to the above described color code, Blender has added (as an option)

@@ -91,6 +91,8 @@ even when using the same settings.
 Types of Particle systems
 -------------------------
 
+.. _fig-particle-intro-system-type:
+
 .. figure:: /images/particlesystem_selecttype.jpg
 
    Particle System Types.
@@ -112,7 +114,7 @@ Emitter
    the strands with :doc:`Cloth Simulation </physics/cloth/index>`.
 
 The settings in the *Particle System* panel are partially different for each system
-type. For example, in *Image 3* they are shown for only system type *Emitter*.
+type. For example, in :ref:`fig-particle-intro-system-type` they are shown for only system type *Emitter*.
 
 
 Common Options

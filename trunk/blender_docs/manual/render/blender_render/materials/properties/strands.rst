@@ -49,7 +49,7 @@ Strands Shading
 
 .. figure:: /images/materials_properties_strands.jpg
 
-   Image 1: Strands Panel.
+   Strands Panel.
 
 
 Strands are rendered with the material of the underlying face/vertex,
@@ -153,7 +153,7 @@ Strand render Simplification
 
 .. figure:: /images/StrandRenderSimplification.jpg
 
-   Image 5: Strand render child simplification.
+   Strand render child simplification.
 
 
 If you use Strand Primitives (*Strand render* button)

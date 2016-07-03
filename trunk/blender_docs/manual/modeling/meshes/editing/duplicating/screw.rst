@@ -25,7 +25,7 @@ You can use profiles like an open-edge part that is a part of a complete piece,
 as well as a closed circle or a half-cut sphere, which will also close the profile end.
 
 You can see some examples of Meshes generated with the *Screw* tool 
-in Fig. :ref:`fig-mesh-screw-wood` and Fig. :ref:`Spring done with the screw tool <fig-mesh-screw-spring>`.
+in Fig. :ref:`fig-mesh-screw-wood` and Fig. :ref:`fig-mesh-screw-spring`.
 
 .. list-table::
 
@@ -36,9 +36,9 @@ in Fig. :ref:`fig-mesh-screw-wood` and Fig. :ref:`Spring done with the screw too
 
           Wood Screw tip done with the screw tool.
 
-       .. _fig-mesh-screw-spring:
+     - .. _fig-mesh-screw-spring:
 
-     - .. figure:: /images/Modeling_Mesh_Screw_Screw_Example_Spring.jpg
+       .. figure:: /images/Modeling_Mesh_Screw_Screw_Example_Spring.jpg
           :width: 300px
 
           Spring done with the screw tool.
