@@ -8,7 +8,8 @@ Object Modes
 which means that whole Blender application is always in a singular mode,
 and that the available modes vary depending on the selected active object's type -
 most of them only enable the default *Object Mode* (like cameras, lamps, etc.).
-Each mode is designed to edit an aspect of the selected object. See Tab. Blender's Modes below for details.
+Each mode is designed to edit an aspect of the selected object. 
+See Tab. :ref:`tab-view3d-modes` below for details.
 
 .. _fig-view3d-mode-select:
 
@@ -35,6 +36,8 @@ Modes might affect many things in Blender:
 - They can modify the available header tools (menus and/or menu entries, as well as other controls...).
   For example, in the *3D View* editor, the *Object* menu in *Object Mode* changes to a *Mesh* menu in
   *Edit Mode* (with an active mesh object!), and a *Paint* menu in *Vertex Paint Mode*...
+
+.. _tab-view3d-modes:
 
 .. list-table::
    Blender's Modes
