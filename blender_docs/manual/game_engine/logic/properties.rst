@@ -40,7 +40,7 @@ Logic Properties are created and edited using the panel on the left of the Logic
 Panel. The top menu provides a list of the available property types.
 
 
-.. figure:: /images/BGE_Game_Logic_Properties.jpg
+.. figure:: /images/bge_game_logic_properties.jpg
 
    Properties Panel of the Logic Editor.
 

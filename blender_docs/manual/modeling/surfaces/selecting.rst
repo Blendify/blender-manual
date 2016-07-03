@@ -23,7 +23,7 @@ The *Select* menu (3D View headers) is even simpler than for curves...
    :doc:`here </modeling/meshes/selecting/introduction>`).
 
 
-.. figure:: /images/NurbsSelectMenu.jpg
+.. figure:: /images/nurbsselectmenu.jpg
 
    frame[left].
 

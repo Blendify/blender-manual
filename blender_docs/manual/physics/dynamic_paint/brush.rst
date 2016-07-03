@@ -40,7 +40,7 @@ Alpha
 Source Panel
 ============
 
-.. figure:: /images/DynamicPaint-Guide-Brush_Source.jpg
+.. figure:: /images/dynamicpaint-guide-brush_source.jpg
 
    Brush source panel.
 
@@ -52,7 +52,7 @@ There are currently five brush behavior types to choose from,
 each having individual settings for further tweaking:
 
 
-.. figure:: /images/DynamicPaint-Guide-Brush_Volume.jpg
+.. figure:: /images/dynamicpaint-guide-brush_volume.jpg
 
    Brush Source - Volume.
 
@@ -63,11 +63,11 @@ Mesh Volume
 
 .. list-table::
 
-   * - .. figure:: /images/DynamicPaint-Guide-Brush_Proximity.jpg
+   * - .. figure:: /images/dynamicpaint-guide-brush_proximity.jpg
 
           Brush Source - Proximity. Brush affects all canvas pixels around it.
 
-     - .. figure:: /images/DynamicPaint-Brush-Proximity-Project.jpg
+     - .. figure:: /images/dynamicpaint-brush-proximity-project.jpg
 
           "Project" setting enabled. See how brush only affects canvas in normal direction.
 
@@ -85,19 +85,19 @@ Project
 
 .. list-table::
 
-   * - .. figure:: /images/DynamicPaint-Guide-Brush_Volume_Proximity.jpg
+   * - .. figure:: /images/dynamicpaint-guide-brush_volume_proximity.jpg
 
           "Volume + Proximity" brush with no additional settings.
 
-     - .. figure:: /images/DynamicPaint-Guide-Brush_Volume_Proximity_Inner.jpg
+     - .. figure:: /images/dynamicpaint-guide-brush_volume_proximity_inner.jpg
 
           Inner Proximity. Proximity falloff is now visible inside the volume.
 
-   * - .. figure:: /images/DynamicPaint-Brush-Negate-Volume.jpg
+   * - .. figure:: /images/dynamicpaint-brush-negate-volume.jpg
 
           Negate Volume. Inner side of the volume has become completely transparent.
 
-     - .. figure:: /images/DynamicPaint-Brush-Negate-Volume-And-Inner.jpg
+     - .. figure:: /images/dynamicpaint-brush-negate-volume-and-inner.jpg
 
           Inner Proximity and Negate Volume enabled together.
 
@@ -113,7 +113,7 @@ Negate Volume
    Negates brush alpha within mesh volume.
 
 
-.. figure:: /images/DynamicPaint-Guide-Brush_ObjectCenter.jpg
+.. figure:: /images/dynamicpaint-guide-brush_objectcenter.jpg
 
    Brush Source - Object Center.
 
@@ -123,7 +123,7 @@ Object Center
    only distance to only center is calculated. This is much faster and often good enough.
 
 
-.. figure:: /images/DynamicPaint-Guide-Brush_ParticleSystem.jpg
+.. figure:: /images/dynamicpaint-guide-brush_particlesystem.jpg
 
    Brush Source - Particle System.
 
@@ -135,7 +135,7 @@ Particle System
 Velocity Panel
 ==============
 
-.. figure:: /images/DynamicPaint-Guide-Brush-Velocity.jpg
+.. figure:: /images/dynamicpaint-guide-brush-velocity.jpg
 
    Velocity panel.
 
@@ -171,7 +171,7 @@ Smudge settings
 Waves Panel
 ===========
 
-.. figure:: /images/DynamicPaint-Guide-Brush-Waves.jpg
+.. figure:: /images/dynamicpaint-guide-brush-waves.jpg
 
    Brush Waves panel.
 

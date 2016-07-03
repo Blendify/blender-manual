@@ -12,7 +12,7 @@ and whether to maintain geometry in the internal memory of the Graphic card.
 Options
 =======
 
-.. figure:: /images/gameEngine_performance_render_system.jpg
+.. figure:: /images/gameengine_performance_render_system.jpg
 
    System panel in the Render tab.
 

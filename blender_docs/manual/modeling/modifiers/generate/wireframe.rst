@@ -65,7 +65,7 @@ When you got more Faces that meet at one point they are forming a star like patt
 in the examples below.
 
 
-.. figure:: /images/CubeWireframes.jpg
+.. figure:: /images/cubewireframes.jpg
 
    Original / Wireframe / Original+Wireframe.
 

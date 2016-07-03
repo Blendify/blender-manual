@@ -32,7 +32,7 @@ Conversely, the Blender Game Engine renders scenes continuously in real-time,
 and incorporates facilities for user interaction during the rendering process.
 
 
-.. figure:: /images/BGE_Introduction_ScreenShot.jpg
+.. figure:: /images/bge_introduction_screenshot.jpg
    :width: 512px
 
    Screenshot from "Yo Frankie", produced with Blender Game Engine.

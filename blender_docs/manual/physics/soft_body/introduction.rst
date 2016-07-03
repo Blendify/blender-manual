@@ -5,7 +5,7 @@ Introduction
 
 .. _fig-softbody-intro-cloth:
 
-.. figure:: /images/HiddenTextSoftbody.jpg
+.. figure:: /images/hiddentextsoftbody.jpg
    :width: 600px
 
    A softbody cloth uncovering a text.
@@ -38,7 +38,7 @@ Typical scenarios for using Soft Bodies
 
 .. _fig-softbody-intro-cone:
 
-.. figure:: /images/WindConeSoftbody.jpg
+.. figure:: /images/windconesoftbody.jpg
    :width: 300px
 
    A wind cone. The cone is a Soft Body, as the suspension.

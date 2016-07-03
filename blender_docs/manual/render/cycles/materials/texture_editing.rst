@@ -29,14 +29,14 @@ Rendered
    Unlike offline rendering, objects still use the viewport rather than render resolution and visibility.
 
 
-.. figure:: /images/Cycles_texture_draw_modes.jpg
+.. figure:: /images/cycles_texture_draw_modes.jpg
    :width: 600px
 
 
 Texture Properties
 ==================
 
-.. figure:: /images/Cycles_texture_tab_menu.jpg
+.. figure:: /images/cycles_texture_tab_menu.jpg
    :width: 225px
    :align: right
 

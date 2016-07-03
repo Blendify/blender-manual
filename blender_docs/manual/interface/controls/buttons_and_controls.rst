@@ -48,7 +48,7 @@ This works for checkboxes, toggles in the Outliner and layer buttons.
 Radio Buttons
 =============
 
-.. figure:: /images/interface_radioButton.jpg
+.. figure:: /images/interface_radiobutton.jpg
    :align: right
 
    Radio Buttons.
@@ -60,7 +60,7 @@ Radio buttons are used to choose from a small selection of "mutually exclusive" 
 Number Buttons
 ==============
 
-.. figure:: /images/interface_numberButton.jpg
+.. figure:: /images/interface_numberbutton.jpg
    :align: right
 
    Number buttons.

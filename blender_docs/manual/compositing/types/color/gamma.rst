@@ -38,5 +38,5 @@ Image
 Examples
 ========
 
-.. figure:: /images/Nodes-Gamma.jpg
+.. figure:: /images/nodes-gamma.jpg
    :width: 320px

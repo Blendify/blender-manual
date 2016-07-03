@@ -18,7 +18,7 @@ Introduction
 
 .. _fig-texts-intro-example:
 
-.. figure:: /images/TextSamples.jpg
+.. figure:: /images/textsamples.jpg
    :width: 400px
 
    Text Examples.
@@ -172,7 +172,7 @@ Some examples are given below:
 Convert Text to Text Object
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: /images/ConvertTextToTextObject.jpg
+.. figure:: /images/converttexttotextobject.jpg
    :width: 250px
 
 
@@ -196,7 +196,7 @@ They are usually a bit messy, so it may be useful to use a *Limited Dissolve* de
 :doc:`Modifier </modeling/modifiers/index>` at a low threshold to clean up your mesh.
 
 
-.. figure:: /images/TextObjectFromText.jpg
+.. figure:: /images/textobjectfromtext.jpg
    :width: 500px
 
    left normal text, right the made text object.
@@ -288,7 +288,7 @@ Size
    Controls the size of the whole text (no way to control each char size independently).
    Note however that chars with different fonts (different styles, see below) might have different visible sizes.
 
-.. figure:: /images/TextShear.jpg
+.. figure:: /images/textshear.jpg
    :width: 300px
 
    shear: 'blender' has a shear value of 1,
@@ -356,7 +356,7 @@ Underline
    Thickness
       This controls the thickness of the underline.
 
-.. figure:: /images/TextFontSettings.jpg
+.. figure:: /images/textfontsettings.jpg
    :width: 300px
 
    check a character option to, for example, type bold text.
@@ -408,7 +408,7 @@ Paragraph
 
 The *Paragraph* Panel has settings for the alignment and spacing of text.
 
-.. figure:: /images/TextParagraphSettings.png
+.. figure:: /images/textparagraphsettings.png
    :width: 300px
 
    The paragraph tab.
@@ -497,7 +497,7 @@ Resolution
 
 Preview, Render resolution. See :ref:`curve resolution <curve-resolution>`.
 
-.. figure:: /images/TextShapeSettings.jpg
+.. figure:: /images/textshapesettings.jpg
    :width: 300px
 
    the shape settings.
@@ -524,7 +524,7 @@ Fill Deformed
 Textures
 --------
 
-.. figure:: /images/TextTextureSettings.jpg
+.. figure:: /images/texttexturesettings.jpg
 
    Texture Settings.
 

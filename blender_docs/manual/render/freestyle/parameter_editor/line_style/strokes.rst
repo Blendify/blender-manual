@@ -3,7 +3,7 @@
 Stroke
 ******
 
-.. figure:: /images/render-freestyle-Stroke_UI.jpg
+.. figure:: /images/render-freestyle-stroke_ui.jpg
    :width: 300px
 
    Stroke Line Style.
@@ -36,7 +36,7 @@ Chaining can also be turned off to render each line separately,
 which can be useful for line styles which depend on accurate representation of the line set.
 
 
-.. figure:: /images/render-freestyle-Chaining_UI.jpg
+.. figure:: /images/render-freestyle-chaining_ui.jpg
    :width: 300px
 
    Chaining.
@@ -54,7 +54,7 @@ Min 2D Angle and Max 2D Angle
    Splits chains of feature edges when they make a 2D angle above (or below) a minimum (or maximum) threshold.
 
 
-.. figure:: /images/render-freestyle-Splitting_UI.jpg
+.. figure:: /images/render-freestyle-splitting_ui.jpg
    :width: 300px
 
    Splitting.
@@ -71,7 +71,7 @@ D1 / G1 / D2 / G2 / D3 / G3
 Sorting
 =======
 
-.. figure:: /images/render-freestyle-Sorting_UI.jpg
+.. figure:: /images/render-freestyle-sorting_ui.jpg
    :width: 300px
 
 
@@ -90,7 +90,7 @@ Sort Order
 Selection
 =========
 
-.. figure:: /images/render-freestyle-Selection_Length_UI.jpg
+.. figure:: /images/render-freestyle-selection_length_ui.jpg
    :width: 300px
 
    Selection.
@@ -103,7 +103,7 @@ chains longer than *Min 2D Length* and/or shorter than *Max 2D Length*.
 Caps
 ----
 
-.. figure:: /images/render-freestyle-Caps_UI.jpg
+.. figure:: /images/render-freestyle-caps_ui.jpg
    :width: 300px
 
    Line tip caps.
@@ -125,7 +125,7 @@ Square
 Dashed Line
 ===========
 
-.. figure:: /images/render-freestyle-Dashes_UI.jpg
+.. figure:: /images/render-freestyle-dashes_ui.jpg
    :width: 300px
 
    Dashes Line UI.

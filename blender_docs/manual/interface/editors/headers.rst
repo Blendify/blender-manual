@@ -94,12 +94,12 @@ simply right click on the header and enable set it to collapsed.
 
 .. list-table::
 
-   * - .. figure:: /images/Header_menu_expand.jpg
+   * - .. figure:: /images/header_menu_expand.jpg
           :width: 320px
 
           Right-click on any of the header menus.
 
-     - .. figure:: /images/Header_menu_collapsed.jpg
+     - .. figure:: /images/header_menu_collapsed.jpg
           :width: 320px
 
           Access the menu from the collapsed icon.

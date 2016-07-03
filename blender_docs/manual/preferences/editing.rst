@@ -13,7 +13,7 @@ These preferences control how several tools will interact with your input.
 Link Materials To
 =================
 
-.. figure:: /images/Structure-object-data.jpg
+.. figure:: /images/structure-object-data.jpg
 
    Example for a Mesh.
 
@@ -28,7 +28,7 @@ the Object data-block contains information about the Object's location while the
 A material may be linked in two different ways:
 
 
-.. figure:: /images/Structure-object-material-connection.jpg
+.. figure:: /images/structure-object-material-connection.jpg
 
    A material linked to ObData (left) and Object (right).
 

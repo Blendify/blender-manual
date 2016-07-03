@@ -3,7 +3,7 @@
 Camera Editing
 **************
 
-.. figure:: /images/BGE_Camera_Properties.jpg
+.. figure:: /images/bge_camera_properties.jpg
    :width: 300px
 
    Camera Properties.
@@ -28,7 +28,7 @@ The features in each panel will be described in detail below.
 Embedded Player
 ===============
 
-.. figure:: /images/BGE_Camera_Properties_Game.jpg
+.. figure:: /images/bge_camera_properties_game.jpg
    :width: 300px
 
    Game Panel.
@@ -40,7 +40,7 @@ Embedded Player
 Standalone Player
 =================
 
-.. figure:: /images/BGE_Camera_Properties_Standalone.jpg
+.. figure:: /images/bge_camera_properties_standalone.jpg
    :width: 300px
 
    Standalone Panel.
@@ -83,7 +83,7 @@ Bar Color
 Stereo
 ======
 
-.. figure:: /images/BGE_Camera_Properties_Stereo.jpg
+.. figure:: /images/bge_camera_properties_stereo.jpg
    :width: 300px
 
    Stereo Panel.
@@ -105,7 +105,7 @@ Dome
 Shading
 =======
 
-.. figure:: /images/BGE_Camera_Properties_Shading.jpg
+.. figure:: /images/bge_camera_properties_shading.jpg
    :width: 300px
 
    Shading Panel.
@@ -128,7 +128,7 @@ GLSL
 Performance
 ===========
 
-.. figure:: /images/BGE_Camera_Properties_Performance.jpg
+.. figure:: /images/bge_camera_properties_performance.jpg
    :width: 300px
 
    Performance Panel.
@@ -146,7 +146,7 @@ Restrict Animation Updates
 Display
 =======
 
-.. figure:: /images/BGE_Camera_Properties_Display.jpg
+.. figure:: /images/bge_camera_properties_display.jpg
    :width: 300px
 
    Display Panel.

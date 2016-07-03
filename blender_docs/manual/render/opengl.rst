@@ -20,7 +20,7 @@ the Blender Internal engine.
 
 .. list-table::
 
-   * - .. figure:: /images/OpenGL_rendered.jpg
+   * - .. figure:: /images/opengl_rendered.jpg
           :width: 300px
 
           OpenGL Render.

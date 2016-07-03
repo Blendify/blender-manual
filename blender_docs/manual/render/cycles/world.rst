@@ -3,7 +3,7 @@
 World
 *****
 
-.. figure:: /images/Cycles-Environment-Lighting.jpg
+.. figure:: /images/cycles-environment-lighting.jpg
 
    Lighting with an HDR image.
 
@@ -91,11 +91,11 @@ Below is a comparison between Multiple Importance Sample Off and On - both image
 
 .. list-table::
 
-   * - .. figure:: /images/Cycles-MIS-Off.jpg
+   * - .. figure:: /images/cycles-mis-off.jpg
 
           Multiple Importance Sample Off.
 
-     - .. figure:: /images/Cycles-MIS-On.jpg
+     - .. figure:: /images/cycles-mis-on.jpg
 
           Multiple Importance Sample On.
 
@@ -135,7 +135,7 @@ Similarly, adding the *Is Camera* and *Is Glossy* rays will mean that the high-r
 will also be visible in reflections.
 
 
-.. figure:: /images/Cycles-Env-Trick-Nodes.jpg
+.. figure:: /images/cycles-env-trick-nodes.jpg
    :width: 500px
 
    Nodes for the trick above.

@@ -24,7 +24,7 @@ pull-down menu within an entry of the style module stack allows you to select a 
 the list of loaded style modules.
 
 
-.. figure:: /images/Freestyle_python_scripting_mode.jpg
+.. figure:: /images/freestyle_python_scripting_mode.jpg
    :width: 600px
 
    A screen capture of a style module (cartoon.py) loaded in the Text Editor (left),
@@ -38,14 +38,14 @@ the Blender Python API reference manual for the full detail of style module cons
 
 .. list-table::
 
-   * - .. figure:: /images/render-freestyle-Demo-Turning_Pages.jpg
+   * - .. figure:: /images/render-freestyle-demo-turning_pages.jpg
           :width: 300px
 
           By T.K. using the Python Scripting mode.
 
           (`File:Turning_Pages.zip <https://wiki.blender.org/index.php/File:Turning_Pages.zip>`__, CC0)
 
-     - .. figure:: /images/Sketchy_Broken_Topology.jpg
+     - .. figure:: /images/sketchy_broken_topology.jpg
           :width: 300px
 
           By T.K. using the Python Scripting mode.

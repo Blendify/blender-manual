@@ -3,7 +3,7 @@
 UV Project Modifier
 *******************
 
-.. figure:: /images/Uvproject.jpg
+.. figure:: /images/uvproject.jpg
 
    Projecting the Blender logo onto Suzanne.
 
@@ -19,7 +19,7 @@ and applies it to the object as the "light" hits it. It can optionally override 
 Options
 =======
 
-.. figure:: /images/Uvproject_ui.jpg
+.. figure:: /images/uvproject_ui.jpg
 
 UV layer
    Which UV layer to modify. Defaults to the active rendering layer.

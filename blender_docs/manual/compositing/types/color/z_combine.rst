@@ -54,7 +54,7 @@ Z
 Examples
 ========
 
-.. figure:: /images/Node-ZCombine_ex_alpha.jpg
+.. figure:: /images/node-zcombine_ex_alpha.jpg
    :width: 300px
 
    Alpha and Z-Combine node.
@@ -64,7 +64,7 @@ the other having inverted (reversed?) Z-values as inputs, obtained using for eac
 *MapValue* node with a *Size* field set to -1.0:
 
 
-.. figure:: /images/Compositing-Z-Offset-example.jpg
+.. figure:: /images/compositing-z-offset-example.jpg
    :width: 300px
 
    Choosing closest pixels.
@@ -91,7 +91,7 @@ moves to the right created the illusion of depth as Bambi moved through the fore
    Image Input Sockets will not accept a color since it does not have UV coordinates.
 
 
-.. figure:: /images/Compositing-Z-Offset-ex_images.jpg
+.. figure:: /images/compositing-z-offset-ex_images.jpg
    :width: 300px
 
    Mix and Match Images.
@@ -103,7 +103,7 @@ Using the Z-values from the sphere and cube scenes above, but threading differen
 yields the example to the right.
 
 
-.. figure:: /images/Node-ZCombine_example.jpg
+.. figure:: /images/node-zcombine_example.jpg
    :width: 300px
 
    Z-Combine in action.

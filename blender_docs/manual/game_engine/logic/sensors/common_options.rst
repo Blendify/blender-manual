@@ -7,7 +7,7 @@
 Sensor Common Options
 *********************
 
-.. figure:: /images/BGE_Sensor_Column3.jpg
+.. figure:: /images/bge_sensor_column3.jpg
    :width: 292px
 
    Common Sensor Options.

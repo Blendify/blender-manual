@@ -15,7 +15,7 @@ There are a few methods to position the 3D cursor.
 Direct Placement with the Mouse
 -------------------------------
 
-.. figure:: /images/editors_3dview_Transform-Control_Pivot-Point_3D-cursor_two-view-positioning.jpg
+.. figure:: /images/editors_3dview_transform-control_pivot-point_3d-cursor_two-view-positioning.jpg
    :align: center
 
    Positioning the 3D cursor with two orthogonal views.
@@ -61,7 +61,7 @@ The *Cursor to Selected* option is also affected by the current
 Numeric Input
 -------------
 
-.. figure:: /images/editors_3dview_Transform-Control_Pivot-Point_3D-cursor_view-properties.jpg
+.. figure:: /images/editors_3dview_transform-control_pivot-point_3d-cursor_view-properties.jpg
 
    The 3D Cursor panel of the Properties shelf.
 

@@ -55,7 +55,7 @@ Image
 Example
 =======
 
-.. figure:: /images/Tutorials-NTR-ComFilterNodeIllustration.jpg
+.. figure:: /images/tutorials-ntr-comfilternodeillustration.jpg
    :width: 500px
    :figwidth: 500px
 

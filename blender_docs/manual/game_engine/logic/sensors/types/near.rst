@@ -3,7 +3,7 @@
 Near Sensor
 ***********
 
-.. figure:: /images/BGE_Sensor_Near.jpg
+.. figure:: /images/bge_sensor_near.jpg
    :width: 300px
 
    Near sensor.

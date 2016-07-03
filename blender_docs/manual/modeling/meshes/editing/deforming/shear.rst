@@ -22,7 +22,7 @@ Everything that is "below" the horizontal axis will move in the opposite directi
 
 :doc:`Pivot Points </editors/3dview/transform/transform_control/pivot_point/index>`
 
-.. figure:: /images/editors_3dview_Transformations-Advanced-Shear_toolshelf-f6.jpg
+.. figure:: /images/editors_3dview_transformations-advanced-shear_toolshelf-f6.jpg
    :width: 150px
 
    Shear Offset Factor.
@@ -46,7 +46,7 @@ type of selected elements (Objects, vertices, faces etc).
 See below for the result of using *Shear* on a number of different elements.
 
 
-.. figure:: /images/editors_3dview_Transformations-Advanced-Shear_mesh.jpg
+.. figure:: /images/editors_3dview_transformations-advanced-shear_mesh.jpg
    :width: 640px
 
    The effects of a Shear transform with different Pivot Points. See the text below for additional information.
@@ -68,7 +68,7 @@ the *Pivot Point* is set to the 3D cursor which is located above the mesh
    i.e. the further from the axis, the greater the movement.
 
 
-.. figure:: /images/editors_3dview_Transformations-Advanced-Shear_objects.jpg
+.. figure:: /images/editors_3dview_transformations-advanced-shear_objects.jpg
    :width: 640px
 
    The effects of a Shear transform on Objects with different Pivot Points.

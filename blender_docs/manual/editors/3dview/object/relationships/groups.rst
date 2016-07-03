@@ -5,7 +5,7 @@ Grouping objects
 
 .. _fig-view3d-grouped-objects:
 
-.. figure:: /images/Modeling-Objects-Parenting-Exampel-GroupedObj.jpg
+.. figure:: /images/modeling-objects-parenting-exampel-groupedobj.jpg
 
    Grouped objects.
 
@@ -27,7 +27,7 @@ Creating a Group
    :kbd:`Ctrl-G` creates a new group and adds the selected object(s) to it.
 
 
-.. figure:: /images/Modeling-Objects-Grouping-ObjProp.jpg
+.. figure:: /images/modeling-objects-grouping-objprop.jpg
 
    Naming a Group.
 

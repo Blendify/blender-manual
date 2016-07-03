@@ -26,7 +26,7 @@ Open a default scene, then:
 - press :kbd:`NumpadDelete` to see the armature at maximum zoom
 
 
-.. figure:: /images/RiggingDefaultArmature.jpg
+.. figure:: /images/riggingdefaultarmature.jpg
    :width: 500px
 
    The default armature

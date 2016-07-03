@@ -12,7 +12,7 @@ It was originally intended for foot rigs.
 Options
 =======
 
-.. figure:: /images/Constraints-Relationship-Pivot.jpg
+.. figure:: /images/constraints-relationship-pivot.jpg
    :width: 302px
 
    Pivot panel.

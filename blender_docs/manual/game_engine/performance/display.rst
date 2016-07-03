@@ -14,7 +14,7 @@ style of the game to fit the window with the specified resolution.
 Options
 =======
 
-.. figure:: /images/gameEngine_performance_render_display.jpg
+.. figure:: /images/gameengine_performance_render_display.jpg
 
    Display panel at the Render tab.
 

@@ -57,47 +57,47 @@ Soft Size
 
    .. list-table::
 
-      * - .. figure:: /images/Light-Ray_Shadow-Soft_Size_1-Samples_2-Cube.jpg
+      * - .. figure:: /images/light-ray_shadow-soft_size_1-samples_2-cube.jpg
              :width: 190px
 
              Soft Size: 1.0, Samples: 2.
 
-        - .. figure:: /images/Light-Ray_Shadow-Soft_Size_1-Samples_4-Cube.jpg
+        - .. figure:: /images/light-ray_shadow-soft_size_1-samples_4-cube.jpg
              :width: 190px
 
              Soft Size: 1.0, Samples: 4.
 
-        - .. figure:: /images/Light-Ray_Shadow-Soft_Size_1-Samples_6-Cube.jpg
+        - .. figure:: /images/light-ray_shadow-soft_size_1-samples_6-cube.jpg
              :width: 190px
 
              Soft Size: 1.0, Samples: 6.
 
-      * - .. figure:: /images/Light-Ray_Shadow-Soft_Size_2-Samples_2-Cube.jpg
+      * - .. figure:: /images/light-ray_shadow-soft_size_2-samples_2-cube.jpg
              :width: 190px
 
              Soft Size: 2.0, Samples: 2.
 
-        - .. figure:: /images/Light-Ray_Shadow-Soft_Size_2-Samples_4-Cube.jpg
+        - .. figure:: /images/light-ray_shadow-soft_size_2-samples_4-cube.jpg
              :width: 190px
 
              Soft Size: 2.0, Samples: 4.
 
-        - .. figure:: /images/Light-Ray_Shadow-Soft_Size_2-Samples_6-Cube.jpg
+        - .. figure:: /images/light-ray_shadow-soft_size_2-samples_6-cube.jpg
              :width: 190px
 
              Soft Size: 2.0, Samples: 6.
 
-      * - .. figure:: /images/Light-Ray_Shadow-Soft_Size_3-Samples_2-Cube.jpg
+      * - .. figure:: /images/light-ray_shadow-soft_size_3-samples_2-cube.jpg
              :width: 190px
 
              Soft Size: 3.0, Samples: 2.
 
-        - .. figure:: /images/Light-Ray_Shadow-Soft_Size_3-Samples_4-Cube.jpg
+        - .. figure:: /images/light-ray_shadow-soft_size_3-samples_4-cube.jpg
              :width: 190px
 
              Soft Size: 3.0, Samples: 4.
 
-        - .. figure:: /images/Light-Ray_Shadow-Soft_Size_3-Samples_6-Cube.jpg
+        - .. figure:: /images/light-ray_shadow-soft_size_3-samples_6-cube.jpg
              :width: 190px
 
              Soft Size: 3.0, Samples: 6.
@@ -105,7 +105,7 @@ Soft Size
 
    Below is an animated version of the above table of images showing the effects:
 
-   .. figure:: /images/Light-Ray_Shadow-Soft_Size_Samples-Cube_Animated.gif
+   .. figure:: /images/light-ray_shadow-soft_size_samples-cube_animated.gif
 
       Animated version renders with different Soft Size and Samples settings
       showing the effect of various values on the softness of shadow edges.

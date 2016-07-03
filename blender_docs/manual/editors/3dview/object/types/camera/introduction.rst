@@ -22,7 +22,7 @@ Changing the Active Camera
    | Hotkey:   :kbd:`Ctrl-Numpad0`
 
 
-.. figure:: /images/CameraView-ActiveCamera.jpg
+.. figure:: /images/cameraview-activecamera.jpg
 
    Active camera (left one).
 
@@ -72,7 +72,7 @@ See :doc:`Camera Lens </editors/3dview/object/types/camera/lens>` for details.
 Camera
 ------
 
-.. figure:: /images/Camera-presets-panel.jpg
+.. figure:: /images/camera-presets-panel.jpg
 
    Camera Presets panel.
 
@@ -141,7 +141,7 @@ Blades
 Display
 -------
 
-.. figure:: /images/Camera-display-panel.jpg
+.. figure:: /images/camera-display-panel.jpg
 
    Camera Display Panel.
 
@@ -155,7 +155,7 @@ Mist
    in the :doc:`Mist section </render/blender_render/world/mist>`.
 
 
-.. figure:: /images/Camera-camera-view.jpg
+.. figure:: /images/camera-camera-view.jpg
 
    Camera view displaying safe areas, sensor and name.
 
@@ -217,7 +217,7 @@ Render Border
    | Menu:     :menuselection:`View --> Render Border`
    | Hotkey:   :kbd:`Ctrl-B`
 
-.. figure:: /images/editors_3dview_Navigating_Camera-View-render-border-toggle.jpg
+.. figure:: /images/editors_3dview_navigating_camera-view-render-border-toggle.jpg
 
    Render Border toggle.
 
@@ -239,7 +239,7 @@ selecting *Render Border* larger than the camera view.
    :doc:`Read more about Motion Blur </render/blender_render/motion_blur>`
 
 
-.. figure:: /images/editors_3dview_Navigating_Camera-View-render-border.jpg
+.. figure:: /images/editors_3dview_navigating_camera-view-render-border.jpg
    :width: 640px
 
    Render border and associated render.

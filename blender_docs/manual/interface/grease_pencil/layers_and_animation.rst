@@ -79,7 +79,7 @@ where the ability to re-time blocking is one of the main purposes of the whole e
   They can be manipulated like any other data in the *DopeSheet* can be.
 
 
-.. figure:: /images/DopeSheetGreasePencil.jpg
+.. figure:: /images/dopesheetgreasepencil.jpg
    :width: 598px
 
 

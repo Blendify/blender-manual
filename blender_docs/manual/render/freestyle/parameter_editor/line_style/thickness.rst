@@ -5,7 +5,7 @@ Thickness
 
 In this tab you control the thickness of your strokes.
 
-.. figure:: /images/render-freestyle-Line_Style_Thickness.jpg
+.. figure:: /images/render-freestyle-line_style_thickness.jpg
    :width: 300px
    :align: right
 
@@ -51,7 +51,7 @@ The *Along Stroke* modifier alters the base thickness with a new one from either
 linear progression or a custom curve, mapped along each stroke's length. In other words,
 it applies the selected progression along each stroke.
 
-.. figure:: /images/render-freestyle-Line_Style_Thickness_Along_Stroke.jpg
+.. figure:: /images/render-freestyle-line_style_thickness_along_stroke.jpg
    :width: 300px
    :align: center
 
@@ -66,7 +66,7 @@ Calligraphy
 The *Calligraphy* modifier mimics some broad and flat pens for calligraphy.
 It generates different thickness based on the orientation of the stroke.
 
-.. figure:: /images/render-freestyle-Line_Style_Thickness_Calligraphy.jpg
+.. figure:: /images/render-freestyle-line_style_thickness_calligraphy.jpg
    :width: 300px
    :align: right
 
@@ -81,7 +81,7 @@ Min Thickness and Max Thickness
    when aligned with it).
 
 
-.. figure:: /images/Toycar_Calligraphy.jpg
+.. figure:: /images/toycar_calligraphy.jpg
    :width: 400px
 
    Calligraphy modifier demo by T.K.
@@ -95,7 +95,7 @@ The *Distance from Camera* modifier alters the base thickness with a new one fro
 either a linear progression or a custom curve,
 using the distance to the active camera as the parameter.
 
-.. figure:: /images/render-freestyle-Line_Style_Thickness_Distance_From_Camera.jpg
+.. figure:: /images/render-freestyle-line_style_thickness_distance_from_camera.jpg
    :width: 300px
    :align: right
 
@@ -122,7 +122,7 @@ The *Distance from Object* modifier alters the base thickness with a new one fro
 either a linear progression or a custom curve,
 using the distance to a given object as parameter.
 
-.. figure:: /images/render-freestyle-Line_Style_Thickness_Distance_From_Object.jpg
+.. figure:: /images/render-freestyle-line_style_thickness_distance_from_object.jpg
    :width: 300px
    :align: right
 
@@ -153,7 +153,7 @@ current material under the stroke.
 You can use various properties of the materials, among which some are multi-components (i.e.
 give RGB results). In that case, the mean value will be used.
 
-.. figure:: /images/render-freestyle-Line_Style_Thickness_Material.jpg
+.. figure:: /images/render-freestyle-line_style_thickness_material.jpg
    :width: 300px
    :align: right
 

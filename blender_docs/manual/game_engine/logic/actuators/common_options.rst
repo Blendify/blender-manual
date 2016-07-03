@@ -3,7 +3,7 @@
 Actuator Common Options
 ***********************
 
-.. figure:: /images/BGE_Actuator_Column3.jpg
+.. figure:: /images/bge_actuator_column3.jpg
    :width: 292px
 
    Common Actuator Options.

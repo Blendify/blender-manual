@@ -63,7 +63,7 @@ This node has no properties.
 Examples
 --------
 
-.. figure:: /images/Compositing-Covert-CombineRGBA.jpg
+.. figure:: /images/compositing-covert-combinergba.jpg
    :width: 200px
 
 
@@ -75,7 +75,7 @@ Use this node setup, when adding CG elements to live action to remove any hard e
 Animating this effect on a broader scale will make the object appear to "phase" in and out,
 as an "out-of-phase" time-traveling sync effect.
 
-.. figure:: /images/Compositing-Covert-CombineRGBA2.jpg
+.. figure:: /images/compositing-covert-combinergba2.jpg
    :width: 200px
 
 

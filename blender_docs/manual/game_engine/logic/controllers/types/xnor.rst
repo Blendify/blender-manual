@@ -11,7 +11,7 @@ For all other conditions the controller gives a negative (FALSE) output.
 Options:
 
 
-.. figure:: /images/BGE_Controller_Xnor.jpg
+.. figure:: /images/bge_controller_xnor.jpg
    :width: 292px
 
    XNOR Controller.

@@ -59,7 +59,7 @@ Visualization
 In Object Mode, the calculated mesh is shown, along with a black "selection ring" (becoming pink when selected).
 
 
-.. figure:: /images/MetaInfluenceAndSelection.jpg
+.. figure:: /images/metainfluenceandselection.jpg
    :width: 350px
 
    Meta Ball example.
@@ -83,12 +83,12 @@ the *Active Element* panel appears for editing individual meta elements.
 
 .. list-table::
 
-   * - .. figure:: /images/MetaPropertiesObjectMode.jpg
+   * - .. figure:: /images/metapropertiesobjectmode.jpg
           :width: 300px
 
           global meta properties.
 
-     - .. figure:: /images/MetaPropertiesEditMode.jpg
+     - .. figure:: /images/metapropertieseditmode.jpg
           :width: 300px
 
           individual meta properties.
@@ -115,7 +115,7 @@ with the above mentioned configuration applied as follows:
 
 .. _fig-meta-intro-underlying:
 
-.. figure:: /images/MetaUnderlyingStructure.jpg
+.. figure:: /images/metaunderlyingstructure.jpg
    :width: 600px
 
    Underlying.
@@ -148,7 +148,7 @@ A negative meta will push away or repel the meshes of positive *Meta* objects.
 
 .. _fig-meta-intro-positive:
 
-.. figure:: /images/MetaIntersection.jpg
+.. figure:: /images/metaintersection.jpg
    :width: 400px
 
    Positive.
@@ -263,7 +263,7 @@ Cube (parallelepipedal volume, tri-dimensional structure)
    Note that by default, the volume is a cube.
 
 
-.. figure:: /images/MetaPrimitives.jpg
+.. figure:: /images/metaprimitives.jpg
    :width: 600px
 
    The five Meta primitives.

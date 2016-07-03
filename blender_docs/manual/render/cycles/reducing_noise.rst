@@ -49,13 +49,13 @@ other parts of the image and will contribute significantly to the lighting of th
 
 .. list-table::
 
-   * - .. figure:: /images/Cycles_noise_fisheye_reference.jpg
+   * - .. figure:: /images/cycles_noise_fisheye_reference.jpg
           :width: 180px
 
-     - .. figure:: /images/Cycles_noise_fisheye.jpg
+     - .. figure:: /images/cycles_noise_fisheye.jpg
           :width: 180px
 
-     - .. figure:: /images/Cycles_noise_fisheye_hotspot.jpg
+     - .. figure:: /images/cycles_noise_fisheye_hotspot.jpg
           :width: 180px
 
 
@@ -74,13 +74,13 @@ Below is an example of using Filter Glossy and Smooth Light Falloff.
 
 .. list-table::
 
-   * - .. figure:: /images/Cycles_noise_fisheye_blur_reference.jpg
+   * - .. figure:: /images/cycles_noise_fisheye_blur_reference.jpg
           :width: 180px
 
-     - .. figure:: /images/Cycles_noise_fisheye_blur.jpg
+     - .. figure:: /images/cycles_noise_fisheye_blur.jpg
           :width: 180px
 
-     - .. figure:: /images/Cycles_noise_fisheye_blur_hotspot.jpg
+     - .. figure:: /images/cycles_noise_fisheye_blur_hotspot.jpg
           :width: 180px
 
 
@@ -96,13 +96,13 @@ and transmission shaders such as glass usually need the most.
 
 .. list-table::
 
-   * - .. figure:: /images/Cycles_noise_0bounce.jpg
+   * - .. figure:: /images/cycles_noise_0bounce.jpg
           :width: 180px
 
-     - .. figure:: /images/Cycles_noise_2bounce.jpg
+     - .. figure:: /images/cycles_noise_2bounce.jpg
           :width: 180px
 
-     - .. figure:: /images/Cycles_noise_4bounce.jpg
+     - .. figure:: /images/cycles_noise_4bounce.jpg
           :width: 180px
 
 
@@ -127,13 +127,13 @@ Many render engines will typically disable caustics by default.
 
 .. list-table::
 
-   * - .. figure:: /images/Cycles_noise_reference.jpg
+   * - .. figure:: /images/cycles_noise_reference.jpg
           :width: 180px
 
-     - .. figure:: /images/Cycles_noise_no_caustics.jpg
+     - .. figure:: /images/cycles_noise_no_caustics.jpg
           :width: 180px
 
-     - .. figure:: /images/Cycles_noise_filter_glossy.jpg
+     - .. figure:: /images/cycles_noise_filter_glossy.jpg
           :width: 180px
 
 
@@ -158,10 +158,10 @@ This is a typical recipe for fireflies.
 
 .. list-table::
 
-   * - .. figure:: /images/Cycles_noise_falloff_hard.jpg
+   * - .. figure:: /images/cycles_noise_falloff_hard.jpg
           :width: 180px
 
-     - .. figure:: /images/Cycles_noise_falloff_soft.jpg
+     - .. figure:: /images/cycles_noise_falloff_soft.jpg
           :width: 180px
 
 
@@ -189,10 +189,10 @@ and the image renders with slightly less noise by disabling Sample as Lamp on th
 
 .. list-table::
 
-   * - .. figure:: /images/Cycles_noise_sample_lamp.jpg
+   * - .. figure:: /images/cycles_noise_sample_lamp.jpg
           :width: 180px
 
-     - .. figure:: /images/Cycles_noise_no_sample_lamp.jpg
+     - .. figure:: /images/cycles_noise_no_sample_lamp.jpg
           :width: 180px
 
 
@@ -226,10 +226,10 @@ and on the right the render with the trick.
 
 .. list-table::
 
-   * - .. figure:: /images/Cycles_noise_glass_too_much_shadow.jpg
+   * - .. figure:: /images/cycles_noise_glass_too_much_shadow.jpg
           :width: 180px
 
-     - .. figure:: /images/Cycles_noise_glass_trick.jpg
+     - .. figure:: /images/cycles_noise_glass_trick.jpg
           :width: 180px
 
 
@@ -250,10 +250,10 @@ with the second render using a mesh light positioned in the window.
 
 .. list-table::
 
-   * - .. figure:: /images/Cycles_noise_window_no_trick.jpg
+   * - .. figure:: /images/cycles_noise_window_no_trick.jpg
           :width: 180px
 
-     - .. figure:: /images/Cycles_noise_window_trick.jpg
+     - .. figure:: /images/cycles_noise_window_trick.jpg
           :width: 180px
 
 
@@ -275,7 +275,7 @@ leaving highlights directly visible to the camera untouched.
 
 .. list-table::
 
-   * - .. figure:: /images/Cycles_noise_noclamp.jpg
+   * - .. figure:: /images/cycles_noise_noclamp.jpg
           :width: 180px
 
      - .. figure:: /images/cycles_noise_clamp_4.jpg

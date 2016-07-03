@@ -139,7 +139,7 @@ the face will be created along the boundary,
 this saves manually selecting the other two vertices.
 Notice this tool can run multiple times to continue creating faces.
 
-.. figure:: /images/Mesh_face_create_boundary.jpg
+.. figure:: /images/mesh_face_create_boundary.jpg
 
 
 .. seealso::

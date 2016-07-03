@@ -62,7 +62,7 @@ Where
 Quadratic
 ^^^^^^^^^
 
-.. figure:: /images/Light-Example-Default_Lin-Quad_Weighted.jpg
+.. figure:: /images/light-example-default_lin-quad_weighted.jpg
    :width: 250px
 
    Lamp with Lin/Quad Weighted falloff default settings.
@@ -143,7 +143,7 @@ Below is a graph summarizing the lin/quad attenuation type,
 showing attenuation with or without the *Sphere* option (described later).
 
 
-.. figure:: /images/DistanceGraph.jpg
+.. figure:: /images/distancegraph.jpg
    :width: 610px
 
 
@@ -196,7 +196,7 @@ the graph shows that the intensity of the light starts off at its maximum
 
           Default Falloff Curve panel graph.
 
-     - .. figure:: /images/Light-Example-Default_Custom_Curve.jpg
+     - .. figure:: /images/light-example-default_custom_curve.jpg
           :width: 250px
 
           Render showing the Custom Curve lamp falloff type effect with default settings.
@@ -212,7 +212,7 @@ the light source, you could alter the graph as below:
 
           Falloff Curve for reversed attenuation.
 
-     - .. figure:: /images/Lights-Lamps-Falloff_Curve_Reverse_Render.jpg
+     - .. figure:: /images/lights-lamps-falloff_curve_reverse_render.jpg
           :width: 250px
 
           Falloff Curve for reversed attenuation rendered.
@@ -231,7 +231,7 @@ along with its resultant render output:
 
           Oscillating attenuation profile.
 
-     - .. figure:: /images/Lights-Lamps-Falloff_Curve_Render.jpg
+     - .. figure:: /images/lights-lamps-falloff_curve_render.jpg
           :width: 250px
 
           Render showing the effects of a "wavelet" profile graph on the light attenuation.
@@ -240,7 +240,7 @@ along with its resultant render output:
 Inverse Square
 --------------
 
-.. figure:: /images/Light-Example-Inverse_Square.jpg
+.. figure:: /images/light-example-inverse_square.jpg
    :width: 300px
 
    Render showing the Inverse Square lamp falloff type effect with default settings.
@@ -257,7 +257,7 @@ to 1.0), with slight changes.
 Inverse Linear
 --------------
 
-.. figure:: /images/Light-Example-Inverse_Linear.jpg
+.. figure:: /images/light-example-inverse_linear.jpg
    :width: 300px
 
    Render showing the Inverse Linear lamp falloff type effect with default settings.
@@ -274,7 +274,7 @@ but can be easier to light with.
 Constant
 --------
 
-.. figure:: /images/Light-Example-Constant.jpg
+.. figure:: /images/light-example-constant.jpg
    :width: 300px
 
    Render showing the Constant lamp falloff type effect with default settings.
@@ -318,12 +318,12 @@ See the graphic at the end of the description of the *Lin/Quad Weighted* attenua
 
 .. list-table::
 
-   * - .. figure:: /images/Light-Constant_Falloff-Sphere_Active-Lighted_Plane.jpg
+   * - .. figure:: /images/light-constant_falloff-sphere_active-lighted_plane.jpg
           :width: 300px
 
           Render showing the light attenuation of a Constant falloff light type with the Sphere option active.
 
-     - .. figure:: /images/Light-Constant_Falloff-Sphere_Deactivated-Lighted_Plane.jpg
+     - .. figure:: /images/light-constant_falloff-sphere_deactivated-lighted_plane.jpg
           :width: 300px
 
           Render showing the light attenuation of a Constant falloff light type with the Sphere option deactivated.
@@ -345,19 +345,19 @@ more and more objects become progressively brighter.
 .. list-table::
    Various *Distance* settings (shadows disabled).
 
-   * - .. figure:: /images/bi_LampRender-Distance10.jpg
+   * - .. figure:: /images/bi_lamprender-distance10.jpg
 
           Distance: 10.
 
      - .. _fig-bi-light-attenuation-distance100:
 
-       .. figure:: /images/bi_LampRender-Distance100.jpg
+       .. figure:: /images/bi_lamprender-distance100.jpg
 
           Distance: 100.
 
      - .. _fig-bi-light-attenuation-distance1000:
 
-       .. figure:: /images/bi_LampRender-Distance1000.jpg
+       .. figure:: /images/bi_lamprender-distance1000.jpg
 
           Distance: 1000.
 
@@ -401,19 +401,19 @@ We can see this in the Fig. :ref:`fig-bi-light-attenuation-inverse-square` image
 
    * - .. _fig-bi-light-attenuation-inverse-square10:
 
-       .. figure:: /images/bi_LampRender-Quad10.jpg
+       .. figure:: /images/bi_lamprender-quad10.jpg
 
           Inverse Square with 10.
 
      - .. _fig-bi-light-attenuation-inverse-square100:
 
-       .. figure:: /images/bi_LampRender-Quad100.jpg
+       .. figure:: /images/bi_lamprender-quad100.jpg
 
           Inverse Square with 100.
 
      - .. _fig-bi-light-attenuation-inverse-square1000:
 
-       .. figure:: /images/bi_LampRender-Quad1000.jpg
+       .. figure:: /images/bi_lamprender-quad1000.jpg
 
           Inverse Square with 1000.
 
@@ -442,7 +442,7 @@ Sphere Example
 
 .. _fig-bi-light-attenuation-clip:
 
-.. figure:: /images/LampRender-SphereView.jpg
+.. figure:: /images/lamprender-sphereview.jpg
 
    Clipping Sphere.
 
@@ -464,19 +464,19 @@ the light attenuation is progressive
 
    * - .. _fig-bi-light-attenuation-sphere10:
 
-       .. figure:: /images/bi_LampRender-Sphere10.jpg
+       .. figure:: /images/bi_lamprender-sphere10.jpg
 
           Sphere with 10.
 
      - .. _fig-bi-light-attenuation-sphere20:
 
-       .. figure:: /images/bi_LampRender-Sphere20.jpg
+       .. figure:: /images/bi_lamprender-sphere20.jpg
 
           Sphere with 20.
 
      - .. _fig-bi-light-attenuation-sphere40:
 
-       .. figure:: /images/bi_LampRender-Sphere40.jpg
+       .. figure:: /images/bi_lamprender-sphere40.jpg
 
           Sphere with 40.
 

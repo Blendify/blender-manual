@@ -65,7 +65,7 @@ Note that these settings also apply to Environment Lighting and Ambient Occlusio
 Approximate
 -----------
 
-.. figure:: /images/lighting-ambientOcclusion-gather2.jpg
+.. figure:: /images/lighting-ambientocclusion-gather2.jpg
 
    The Indirect Lighting panel, Approximate method.
 

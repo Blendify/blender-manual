@@ -38,12 +38,12 @@ texture's own panel (e.g. *Clouds*, *Marble*, etc.).
 
 .. list-table::
 
-   * - .. figure:: /images/Noise1.jpg
+   * - .. figure:: /images/noise1.jpg
           :width: 300px
 
           Mesh before noise is added.
 
-     - .. figure:: /images/Noise2.jpg
+     - .. figure:: /images/noise2.jpg
           :width: 300px
 
           Mesh after noise is added, using basic cloud texture.

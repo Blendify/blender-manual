@@ -102,7 +102,7 @@ Rings and an assortment of special effects are available with the relevant toggl
 which include Flare, Rings, Lines, Star, Texture, Extreme Alpha, and Shaded.
 *Halo Variations* shows the result of applying a halo material to a single vertex mesh.
 
-.. figure:: /images/Halo02.jpg
+.. figure:: /images/halo02.jpg
    :width: 630px
 
    Halo Variations.
@@ -173,7 +173,7 @@ and disappears when another object occludes the flare mesh.
 
 .. _fig-bi-material-halo-flare:
 
-.. figure:: /images/Halo04.jpg
+.. figure:: /images/halo04.jpg
    :width: 630px
 
    Lens Flare.
@@ -209,7 +209,7 @@ Let us use a halo material to create a dotmatrix display.
   you can just save the picture below on your hard drive...).
   *Dot matrix image texture.* shows an image 512 pixels wide by 64 pixels high, with some black space at both sides.
 
-.. figure:: /images/DotMatrix2.jpg
+.. figure:: /images/dotmatrix2.jpg
 
    Dot matrix image texture.
 
@@ -228,7 +228,7 @@ Let us use a halo material to create a dotmatrix display.
 
 .. _fig-bi-material-halo-dotmatrix:
 
-.. figure:: /images/DotMatrix.jpg
+.. figure:: /images/dotmatrix.jpg
 
    Dot Matrix display.
 

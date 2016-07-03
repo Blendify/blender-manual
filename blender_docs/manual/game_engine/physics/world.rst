@@ -4,7 +4,7 @@
 World Physics
 *************
 
-.. figure:: /images/BGE_World.jpg
+.. figure:: /images/bge_world.jpg
    :width: 292px
 
    BGE World Panel (fully expanded).

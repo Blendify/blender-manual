@@ -116,12 +116,12 @@ This lets you grab the vertices as they lie in their new smoothed locations, rat
 
 .. list-table::
 
-   * - .. figure:: /images/SubsurfEditCageOff.jpg
+   * - .. figure:: /images/subsurfeditcageoff.jpg
           :width: 300px
 
           Edit Cage Off (Default).
 
-     - .. figure:: /images/SubsurfEditCageOn.jpg
+     - .. figure:: /images/subsurfeditcageon.jpg
           :width: 300px
 
           Edit Cage On.
@@ -153,7 +153,7 @@ Weighted Edge Creases
 Weighted edge creases for subdivision surfaces allows you to change the way
 Subsurf subdivides the geometry to give the edges a smooth or sharp appearance.
 
-.. figure:: /images/SubsurfWithCrease.jpg
+.. figure:: /images/subsurfwithcrease.jpg
 
    A Subsurfed Cube with Creased Edges.
 
@@ -166,7 +166,7 @@ A higher value makes the edge "stronger" and more resistant to the smoothing eff
 Edge Loops
 ----------
 
-.. figure:: /images/CubeWithEdgeLoops.jpg
+.. figure:: /images/cubewithedgeloops.jpg
 
    A Subsurf Level 2 Cube, the same with an extra Edge Loop, and the same with six extra Edge Loops.
 
@@ -219,12 +219,12 @@ shares the overall normal orientation of that original face.
 
 .. list-table::
 
-   * - .. figure:: /images/SubSurf05b.jpg
+   * - .. figure:: /images/subsurf05b.jpg
           :width: 300px
 
           Comparison of good normals and bad normals.
 
-     - .. figure:: /images/SubSurf05a.jpg
+     - .. figure:: /images/subsurf05a.jpg
           :width: 300px
 
           Side view of image on left.

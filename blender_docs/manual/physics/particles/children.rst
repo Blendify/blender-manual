@@ -60,7 +60,7 @@ Interpolated Mode
 Effects
 -------
 
-.. figure:: /images/physics_ChildParticleRoundClump.jpg
+.. figure:: /images/physics_childparticleroundclump.jpg
 
    From left to right: Round: 0.0, Round: 1.0, Clump: 1.0, Clump: -1.0, Shape: -0.99.
 
@@ -101,7 +101,7 @@ Kink
 
 .. _fig-particle-child-kink:
 
-.. figure:: /images/physics_ChildParticleKink.jpg
+.. figure:: /images/physics_childparticlekink.jpg
 
    Child particles with Kink. From left to right: Curl, Radial, Wave, Braid, Roll.
 

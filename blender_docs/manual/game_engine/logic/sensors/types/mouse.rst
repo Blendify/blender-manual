@@ -3,7 +3,7 @@
 Mouse Sensor
 ************
 
-.. figure:: /images/BGE_Sensor_Mouse1.jpg
+.. figure:: /images/bge_sensor_mouse1.jpg
    :width: 300px
 
    Mouse sensor.

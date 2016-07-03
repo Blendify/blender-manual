@@ -3,7 +3,7 @@
 Geometry Node
 *************
 
-.. figure:: /images/Geometry-Node.jpg
+.. figure:: /images/geometry-node.jpg
 
    Geometry node.
 
@@ -66,7 +66,7 @@ Front/Back
 Geometry Node Example using a UV image
 ======================================
 
-.. figure:: /images/Geometry-Node-Example.jpg
+.. figure:: /images/geometry-node-example.jpg
    :width: 500px
 
    Setup to render an UV-Mapped Image Texture.

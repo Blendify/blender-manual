@@ -69,7 +69,7 @@ run the map back through that node to re-scale it back to the original before sa
 Selecting Render Passes
 =======================
 
-.. figure:: /images/RenderLayer-Panel.png
+.. figure:: /images/renderlayer-panel.png
 
 
 Render Passes are the various distinct outputs that the renderer is able to generate.
@@ -250,7 +250,7 @@ they have to be added to the diffuse pass before adding the converted AO pass.
 Vector Blurring Shadows
 -----------------------
 
-.. figure:: /images/Nodes-VectorBlur-Shadow.jpg
+.. figure:: /images/nodes-vectorblur-shadow.jpg
    :width: 600px
 
 

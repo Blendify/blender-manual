@@ -56,7 +56,7 @@ The layers, if you will, are:
 - These two textures are *mixed* with the base material to provide the net effect: a cube of purplish-brown fog.
 
 
-.. figure:: /images/SomeMetal.jpg
+.. figure:: /images/somemetal.jpg
    :width: 320px
 
    Some Metal Textures.

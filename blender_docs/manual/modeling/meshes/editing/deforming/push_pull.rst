@@ -10,7 +10,7 @@ Push/Pull
    | Menu:     :menuselection:`Object/Mesh --> Transform --> Push Pull`
 
 
-.. figure:: /images/editors_3dview_Transformations-Advanced-Push_Pull_toolshelf-f6.jpg
+.. figure:: /images/editors_3dview_transformations-advanced-push_pull_toolshelf-f6.jpg
    :width: 150px
 
    Push/Pull distance.
@@ -40,25 +40,25 @@ and type of selected elements (Objects, vertices, faces etc).
 See below for the result of using *Push/Pull* on a number of different elements.
 
 
-.. figure:: /images/editors_3dview_Transformations-Advanced-Push_Pull_equidistant_objects.jpg
+.. figure:: /images/editors_3dview_transformations-advanced-push_pull_equidistant_objects.jpg
    :width: 640px
 
    Equidistant Objects being pushed together.
 
 
-.. figure:: /images/editors_3dview_Transformations-Advanced-Push_Pull_random_objects.jpg
+.. figure:: /images/editors_3dview_transformations-advanced-push_pull_random_objects.jpg
    :width: 640px
 
    Random Objects being pushed together.
 
 
-.. figure:: /images/editors_3dview_Transformations-Advanced-Push_Pull_vertices-push-pull.jpg
+.. figure:: /images/editors_3dview_transformations-advanced-push_pull_vertices-push-pull.jpg
    :width: 640px
 
    Vertices being pushed together, then pulled apart.
 
 
-.. figure:: /images/editors_3dview_Transformations-Advanced-Push_Pull_edges-push-pull.jpg
+.. figure:: /images/editors_3dview_transformations-advanced-push_pull_edges-push-pull.jpg
    :width: 640px
 
    Edges on separate meshes being pushed together, then pulled apart.

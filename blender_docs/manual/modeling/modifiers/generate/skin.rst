@@ -96,7 +96,7 @@ Examples
 
 .. _fig-modifier-skin-creature:
 
-.. figure:: /images/Skin-header-00.jpg
+.. figure:: /images/skin-header-00.jpg
 
    Simple creature, made with only the Skin modifier.
 

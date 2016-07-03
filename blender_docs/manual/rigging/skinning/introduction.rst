@@ -12,7 +12,7 @@ Surprisingly, "linking" an armature to the object(s)
 it should transform and/or deform is called the "skinning" process...
 
 
-.. figure:: /images/Quick62.png
+.. figure:: /images/quick62.png
    :width: 600px
 
    The ginebread mesh skinned on its armature.

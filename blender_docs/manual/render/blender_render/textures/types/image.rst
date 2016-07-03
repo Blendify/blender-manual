@@ -40,7 +40,7 @@ The monkey uses two layouts, one which has one UV map of a few faces,
 and another that has three maps.
 
 
-.. figure:: /images/UV-Overview.jpg
+.. figure:: /images/uv-overview.jpg
 
    How all the parts of UV Texturing work together.
 
@@ -162,12 +162,12 @@ Layering UV Textures
 
 .. list-table::
 
-   * - .. figure:: /images/UV-Layer_One.jpg
+   * - .. figure:: /images/uv-layer_one.jpg
           :width: 300px
 
           Base UV Texture.
 
-     - .. figure:: /images/UV-Layer-Two.jpg
+     - .. figure:: /images/uv-layer-two.jpg
           :width: 300px
 
           Layered UV Texture.
@@ -223,7 +223,7 @@ enables you to layer and combine textures in almost any way you can imagine.
 Mix and Match Materials
 -----------------------
 
-.. figure:: /images/UV-MixMat.jpg
+.. figure:: /images/uv-mixmat.jpg
 
 You can mix and match procedural materials and textures, vertex paint,
 and UV textures onto the same mesh.
@@ -270,7 +270,7 @@ but that is another story ...)
 Using Alpha Transparency
 ------------------------
 
-.. figure:: /images/UV-Alpha.jpg
+.. figure:: /images/uv-alpha.jpg
    :width: 200px
 
    Alpha UV Textures.
@@ -524,12 +524,12 @@ In the *Image Sampling* panel we can control how the information is retrieved fr
 
 .. list-table::
 
-   * - .. figure:: /images/Bahnhofstrasse.jpg
+   * - .. figure:: /images/bahnhofstrasse.jpg
           :width: 120px
 
           Background image.
 
-     - .. figure:: /images/Map_To_Eingabewerte.jpg
+     - .. figure:: /images/map_to_eingabewerte.jpg
           :width: 100px
 
           Foreground image.
@@ -544,12 +544,12 @@ the horizontal bar has 50% alpha.
 
 .. list-table::
 
-   * - .. figure:: /images/UseAlpha.jpg
+   * - .. figure:: /images/usealpha.jpg
           :width: 150px
 
           Foreground image with *Use* alpha. The alpha values of the pixels are evaluated.
 
-     - .. figure:: /images/CalcAlpha.jpg
+     - .. figure:: /images/calcalpha.jpg
           :width: 150px
 
           Foreground image with *Calculate* alpha.
@@ -617,10 +617,10 @@ MIP Map
 .. list-table::
    Enlarged Image texture without and with *Interpolation*
 
-   * - .. figure:: /images/ImageTextur-Linien.jpg
+   * - .. figure:: /images/imagetextur-linien.jpg
           :width: 160px
 
-     - .. figure:: /images/ImageTexturInterPol-Linien.jpg
+     - .. figure:: /images/imagetexturinterpol-linien.jpg
           :width: 160px
 
 
@@ -632,7 +632,7 @@ Interpolation
    they remain 'sharp' even when enlarged considerably.
    When you enlarge this 10×10 pixel Image
 
-.. figure:: /images/bi_textures_image_Linien.jpg
+.. figure:: /images/bi_textures_image_linien.jpg
 
 the difference with and without *Interpolation* is clearly visible.
 Turn this image off if you are using digital photos to preserve crispness.

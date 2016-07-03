@@ -24,7 +24,7 @@ picture.
 Adding and deleting presets
 ---------------------------
 
-.. figure:: /images/Interface-Configuration-Input-AddDeletePreset.jpg
+.. figure:: /images/interface-configuration-input-adddeletepreset.jpg
 
 Before changing anything in the default configuration,
 click on the "plus" symbol shown in the picture to add a new *Preset*. Blender will
@@ -53,7 +53,7 @@ You can change the preset you are using by doing one of the following:
 Setting presets to default
 --------------------------
 
-.. figure:: /images/Interface-Configuration-Input-SplashScreenInteraction.jpg
+.. figure:: /images/interface-configuration-input-splashscreeninteraction.jpg
    :width: 307px
 
 
@@ -206,7 +206,7 @@ NDOF device
 Keymap Editor
 =============
 
-.. figure:: /images/Interface-Configuration-Input-KeymapEditor.jpg
+.. figure:: /images/interface-configuration-input-keymapeditor.jpg
    :width: 320px
 
 

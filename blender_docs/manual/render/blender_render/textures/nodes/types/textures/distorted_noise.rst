@@ -3,7 +3,7 @@
 Distorted Noise
 ***************
 
-.. figure:: /images/texture-nodes-distortedNoise.jpg
+.. figure:: /images/texture-nodes-distortednoise.jpg
 
    Distorted Noise node.
 

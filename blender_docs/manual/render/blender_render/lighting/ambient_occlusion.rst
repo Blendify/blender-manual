@@ -39,7 +39,7 @@ which is a whitish yellow sunny kind of color on a bright-but-not-harshly-bright
 Options
 =======
 
-.. figure:: /images/lighting-ambientOcclusion.jpg
+.. figure:: /images/lighting-ambientocclusion.jpg
 
    The World panel with ambient color sliders highlighted.
 
@@ -80,7 +80,7 @@ Gather
 Raytrace
 ^^^^^^^^
 
-.. figure:: /images/lighting-ambientOcclusion-gather.jpg
+.. figure:: /images/lighting-ambientocclusion-gather.jpg
 
    The Amb Occ panel, Raytrace method.
 
@@ -110,17 +110,17 @@ Attenuation
 
    .. list-table::
 
-      * - .. figure:: /images/AmbientOcclusion-3Samples.jpg
+      * - .. figure:: /images/ambientocclusion-3samples.jpg
              :width: 200px
 
              Ambient Occlusion with 3 Samples.
 
-        - .. figure:: /images/AmbientOcclusion-6Samples.jpg
+        - .. figure:: /images/ambientocclusion-6samples.jpg
              :width: 200px
 
              Ambient Occlusion with 6 Samples.
 
-        - .. figure:: /images/AmbientOcclusion-12Samples.jpg
+        - .. figure:: /images/ambientocclusion-12samples.jpg
              :width: 200px
 
              Ambient Occlusion with 12 Samples.
@@ -172,13 +172,13 @@ Attenuation
 
 .. list-table::
 
-   * - .. figure:: /images/bi_AmbientOcclusion-Bias0-05.jpg
+   * - .. figure:: /images/bi_ambientocclusion-bias0-05.jpg
           :width: 200px
 
           24×24 UV Sphere with Bias: 0.05 (default).
           Note the facets on the sphere's surface even though it is set to smooth.
 
-     - .. figure:: /images/bi_AmbientOcclusion-Bias0-15.jpg
+     - .. figure:: /images/bi_ambientocclusion-bias0-15.jpg
           :width: 200px
 
           Raising the Bias to 0.15 removes the faceted artifacts.
@@ -187,7 +187,7 @@ Attenuation
 Approximate
 ^^^^^^^^^^^
 
-.. figure:: /images/lighting-ambientOcclusion-gather2.jpg
+.. figure:: /images/lighting-ambientocclusion-gather2.jpg
 
    The Amb Occ panel, Approximate method.
 

@@ -7,7 +7,7 @@ A line set selects, among the lines (edges) detected by Freestyle,
 which ones will be rendered using its attached :doc:`line style </render/freestyle/parameter_editor/line_style/introduction>`,
 through various methods.
 
-.. figure:: /images/render-freestyle-BasicEdgeTypeSelectionEx.jpg
+.. figure:: /images/render-freestyle-basicedgetypeselectionex.jpg
    :width: 600px
 
    Examples of some basic edge types by LightBWK
@@ -28,7 +28,7 @@ Visible
 Hidden
    Lines occluded by at least one surface are rendered.
 
-.. figure:: /images/render-freestyle-Hidden_Edges.jpg
+.. figure:: /images/render-freestyle-hidden_edges.jpg
    :width: 600px
 
    Proof of concept of visible and hidden edges by LightBWK
@@ -41,7 +41,7 @@ QI Range
    Start and End
       Min/max number of occluding surfaces for a line to be rendered.
 
-   .. figure:: /images/render-freestyle-QI_Range.jpg
+   .. figure:: /images/render-freestyle-qi_range.jpg
       :width: 600px
 
       QI Range proof of concept demo, Start: 3, End: 7, by LightBWK
@@ -64,7 +64,7 @@ Silhouette
 Crease
    Shows only edges whose adjacent faces form an angle greater than the defined viewmap's *Crease Angle*.
 
-   .. figure:: /images/render-freestyle-CreaseConcept.jpg
+   .. figure:: /images/render-freestyle-creaseconcept.jpg
       :width: 600px
 
       Crease Angle proof of concept for 121º by LightBWK
@@ -87,7 +87,7 @@ External Contour
    Draws the contour lines, but only on the outer edges.
 
 
-.. figure:: /images/render-freestyle-ContourVsExternalContour.jpg
+.. figure:: /images/render-freestyle-contourvsexternalcontour.jpg
    :width: 600px
 
    Left pair: Contour; Right pair: External Contour.

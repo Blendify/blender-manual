@@ -42,7 +42,7 @@ and some of these actuators may switch the actor's state under appropriate condi
 Editing States
 ==============
 
-.. figure:: /images/BGE_Controller_State_Panel.jpg
+.. figure:: /images/bge_controller_state_panel.jpg
    :width: 292px
 
    State Panel Button.
@@ -58,7 +58,7 @@ is carried out using the State Panel for the object,
 which is switched on and off using the button shown. The panel is divided into two halves,
 Visible and Initial.
 
-.. figure:: /images/BGE_Controller_State_Panel1.jpg
+.. figure:: /images/bge_controller_state_panel1.jpg
    :width: 292px
 
    State Panel Visible.
@@ -81,7 +81,7 @@ display of their connected sensors and actuators can also be controlled if the S
 at the head of their columns are ticked.
 
 
-.. figure:: /images/BGE_Controller_State_Panel2.jpg
+.. figure:: /images/bge_controller_state_panel2.jpg
    :width: 292px
 
    State Panel Initial.

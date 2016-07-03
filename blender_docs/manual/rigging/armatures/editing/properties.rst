@@ -32,7 +32,7 @@ connected bones must always have parent's tips connected to child's roots,
 so by transforming a bone, you will affect all its connected parent/children/siblings.
 
 
-.. figure:: /images/RiggingTransformPropertiesPanelEditMode.jpg
+.. figure:: /images/riggingtransformpropertiespaneleditmode.jpg
    :width: 200px
 
    The Transform Properties panel for armatures in Edit Mode.
@@ -64,22 +64,22 @@ you scale at the same time the radius of the parent's tip and of the children's 
 .. list-table::
    Scaling of a bone in *Octahedron* and *Envelope* visualizations.
 
-   * - .. figure:: /images/RiggingBoneSelectExEditModeWholeBone.jpg
+   * - .. figure:: /images/riggingboneselectexeditmodewholebone.jpg
           :width: 300px
 
           A single selected bone...
 
-     - .. figure:: /images/RiggingBoneScalingExEditModeOctahedron.jpg
+     - .. figure:: /images/riggingbonescalingexeditmodeoctahedron.jpg
           :width: 300px
 
           ...Scaled in Octahedron visualization.
 
-   * - .. figure:: /images/RiggingBoneScalingExEditModeEnvelope1.jpg
+   * - .. figure:: /images/riggingbonescalingexeditmodeenvelope1.jpg
           :width: 300px
 
           A single selected bone...
 
-     - .. figure:: /images/RiggingBoneScalingExEditModeEnvelope2.jpg
+     - .. figure:: /images/riggingbonescalingexeditmodeenvelope2.jpg
           :width: 300px
 
           ...Scaled in Envelope visualization - its length remains the same, but its ends' radius are bigger.
@@ -112,12 +112,12 @@ this is a one-value property, so there is no axis locking and such.
 .. list-table::
    Envelope scaling example
 
-   * - .. figure:: /images/RiggingBoneScalingExEditModeEnvelope1.jpg
+   * - .. figure:: /images/riggingbonescalingexeditmodeenvelope1.jpg
           :width: 300px
 
           A single bone selected in Envelope visualization.
 
-     - .. figure:: /images/RiggingBoneAltScalingExEditModeEnvelope.jpg
+     - .. figure:: /images/riggingbonealtscalingexeditmodeenvelope.jpg
           :width: 300px
 
           Its envelope scaled with :kbd:`Ctrl-Alt-S`.
@@ -140,17 +140,17 @@ not the armature object's axis).
 .. list-table::
    "Bone size" scaling example
 
-   * - .. figure:: /images/RiggingBoneAltScalingExEditModeBBone1.jpg
+   * - .. figure:: /images/riggingbonealtscalingexeditmodebbone1.jpg
           :width: 200px
 
           A single "default size" bone selected in B-Bone visualization.
 
-     - .. figure:: /images/RiggingBoneAltScalingExEditModeBBone2.jpg
+     - .. figure:: /images/riggingbonealtscalingexeditmodebbone2.jpg
           :width: 200px
 
           Its size scaled with :kbd:`Ctrl-Alt-S`.
 
-     - .. figure:: /images/RiggingBoneAltScalingExObjectModeBBone.jpg
+     - .. figure:: /images/riggingbonealtscalingexobjectmodebbone.jpg
           :width: 200px
 
           The same armature in Object Mode and B-Bone visualization, with Bone.004's size scaled up.
@@ -181,12 +181,12 @@ but in "reversed order". See the Fig. :ref:`fig-rig-properties-switch`.
 .. list-table::
    Switching example.
 
-   * - .. figure:: /images/RiggingBoneSwitchExEditMode1.jpg
+   * - .. figure:: /images/riggingboneswitchexeditmode1.jpg
           :width: 300px
 
           An armature with one selected bone, and one selected chain of three bones, just before switching.
 
-     - .. figure:: /images/RiggingBoneSwitchExEditMode2.jpg
+     - .. figure:: /images/riggingboneswitchexeditmode2.jpg
           :width: 300px
 
           The selected bones have been switched. Bone.005 is no more connected nor parented to anything.
@@ -261,7 +261,7 @@ Properties
    | Hotkey:   :kbd:`Shift-W`, :kbd:`Ctrl-Shift-W`, :kbd:`Alt-W`
 
 
-.. figure:: /images/RiggingEditingCxtArmatureBonesPanelEditMode.jpg
+.. figure:: /images/riggingeditingcxtarmaturebonespaneleditmode.jpg
    :width: 200px
 
    The Armature Bones panel in Edit Mode.
@@ -321,7 +321,7 @@ Bone Rigidity
    | Panel:    Armature
 
 
-.. figure:: /images/RiggingEditingCxtArmatureBonesPanelPoseMode.jpg
+.. figure:: /images/riggingeditingcxtarmaturebonespanelposemode.jpg
    :width: 200px
 
    The Armature Bones panel in Pose Mode.
@@ -335,7 +335,7 @@ even in *B-Bone* visualization, bones are drawn as sticks,
 so you cannot visualize the effects of these settings.
 
 
-.. figure:: /images/RiggingBBoneSegmentExPoseMode.jpg
+.. figure:: /images/riggingbbonesegmentexposemode.jpg
    :width: 200px
 
    An armature in Pose Mode, B-Bone visualization: Bone.003 has one segment,
@@ -360,12 +360,12 @@ angle with previous/next bones in the chain, and so on.
 .. list-table::
    Bone In / Out settings example, with a materialized Bézier curve.
 
-   * - .. figure:: /images/RiggingBBoneInOutEx1.jpg
+   * - .. figure:: /images/riggingbboneinoutex1.jpg
           :width: 300px
 
           Look at Bone.004: it has the default In and Out values (1.0).
 
-     - .. figure:: /images/RiggingBBoneInOutEx2.jpg
+     - .. figure:: /images/riggingbboneinoutex2.jpg
           :width: 300px
 
           Bone.004 with In at 2.0, and Out at 0.0.
@@ -419,23 +419,23 @@ To parent and/or connect bones, you can:
 .. list-table::
    Parenting example.
 
-   * - .. figure:: /images/RiggingBoneRelationshipExEditMode1.jpg
+   * - .. figure:: /images/riggingbonerelationshipexeditmode1.jpg
           :width: 300px
 
           The starting armature, with Bone.005 parented and connected to Bone.004.
 
-     - .. figure:: /images/RiggingBoneRelationshipExEditMode4.jpg
+     - .. figure:: /images/riggingbonerelationshipexeditmode4.jpg
           :width: 300px
 
           Bone.005 re-parented to Bone.002, but not connected to it
           (same result, using either :kbd:`Ctrl-P-2` in 3D View, or the Armature Bones panel settings).
 
-   * - .. figure:: /images/RiggingBoneRelationshipExEditMode2.jpg
+   * - .. figure:: /images/riggingbonerelationshipexeditmode2.jpg
           :width: 300px
 
           Bone.005 parented and connected to Bone.002, using :kbd:`Ctrl-P-1` in 3D View.
 
-     - .. figure:: /images/RiggingBoneRelationshipExEditMode3.jpg
+     - .. figure:: /images/riggingbonerelationshipexeditmode3.jpg
           :width: 300px
 
           Bone.005 parented and connected to Bone.002, using the Parent drop-down list of Bone.005 sub-panel.
@@ -481,7 +481,7 @@ Let us look at this in detail.
 Naming Conventions
 ------------------
 
-.. figure:: /images/Ie_bonesname.jpg
+.. figure:: /images/ie_bonesname.jpg
    :width: 440px
 
    An example of left/right bone naming in a simple rig.

@@ -14,7 +14,7 @@ Let us first have a general overview of the various panels gathering the armatur
 in Properties editor, *Object data* tab:
 
 
-.. figure:: /images/RiggingEditingObjectDataPropertiesEditor.jpg
+.. figure:: /images/riggingeditingobjectdatapropertieseditor.jpg
 
    The Object data property in the Properties editor.
 
@@ -22,7 +22,7 @@ in Properties editor, *Object data* tab:
 Skeleton
 ========
 
-.. figure:: /images/RiggingEditingObjectDataPropertyCxtSkeletonPanel.jpg
+.. figure:: /images/riggingeditingobjectdatapropertycxtskeletonpanel.jpg
 
    The Skeleton panel.
 
@@ -33,7 +33,7 @@ In this panel you can arrange sets of bones into different layers for easier man
 Display
 =======
 
-.. figure:: /images/RiggingEditingObjectDataPropertyCxtDisplayPanel.jpg
+.. figure:: /images/riggingeditingobjectdatapropertycxtdisplaypanel.jpg
 
    The Display panel.
 
@@ -46,7 +46,7 @@ There are several other options available which we will cover later on.
 Bone Groups
 ===========
 
-.. figure:: /images/RiggingEditingObjectDataPropertyCxtBoneGroupsPanel.png
+.. figure:: /images/riggingeditingobjectdatapropertycxtbonegroupspanel.png
 
    The Bone Groups panel.
 
@@ -74,7 +74,7 @@ For bones belonging to multiple for easy selection during animation see instead
 Pose Library
 ============
 
-.. figure:: /images/RiggingEditingObjectDataPropertyCxtPoseLibraryPanel.jpg
+.. figure:: /images/riggingeditingobjectdatapropertycxtposelibrarypanel.jpg
 
    The Pose Library panel.
 
@@ -89,7 +89,7 @@ Allows you to save different settings (location, rotation, scale) for selected b
 Ghost
 =====
 
-.. figure:: /images/RiggingEditingObjectDataPropertyCxtGhostPanel.jpg
+.. figure:: /images/riggingeditingobjectdatapropertycxtghostpanel.jpg
 
    The Ghost panel.
 
@@ -100,7 +100,7 @@ Allows you to see a set of different consecutive poses, very useful when animati
 iTaSC parameters
 ================
 
-.. figure:: /images/RiggingEditingObjectDataPropertyCxtiTaSCparametersPanel.jpg
+.. figure:: /images/riggingeditingobjectdatapropertycxtitascparameterspanel.jpg
 
    The iTaSC parameters panel.
 
@@ -111,7 +111,7 @@ Defines the type of IK solver used in your animation.
 Motion Paths
 ============
 
-.. figure:: /images/RiggingEditingObjectDataPropertyCxtMotionPathsPanel.jpg
+.. figure:: /images/riggingeditingobjectdatapropertycxtmotionpathspanel.jpg
 
    The Motion Paths panel.
 

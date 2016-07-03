@@ -7,7 +7,7 @@ The *Timeline* editor, identified by a clock icon,
 is shown by default at the bottom of the screen.
 
 
-.. figure:: /images/Timeline.jpg
+.. figure:: /images/timeline.jpg
 
    The Timeline.
 
@@ -29,7 +29,7 @@ Timeline Elements
 Time Cursor
 -----------
 
-.. figure:: /images/Timeline_Cursor.jpg
+.. figure:: /images/timeline_cursor.jpg
 
    Time Cursor.
 
@@ -67,7 +67,7 @@ Markers are the small triangles, with their name near them.
 Markers are usually used to identify key parts of the animation.
 
 
-.. figure:: /images/Timeline_Markers.jpg
+.. figure:: /images/timeline_markers.jpg
 
    Markers.
 
@@ -86,7 +86,7 @@ Timeline Area
 
 The main *Timeline* area displays the animation frames over time.
 
-.. figure:: /images/Timeline_Main.jpg
+.. figure:: /images/timeline_main.jpg
    :width: 700px
 
    Timeline Main Area.
@@ -127,7 +127,7 @@ Cache
    This will display the baked *Cache Steps* for the active object.
 
 
-.. figure:: /images/Timeline_Cache.jpg
+.. figure:: /images/timeline_cache.jpg
 
    Timline Cache.
 
@@ -270,7 +270,7 @@ The Timeline header controls.
    These button are used to set, play, rewind, the *Time Cursor*.
 
 
-.. figure:: /images/Timeline_Player_Controls.jpg
+.. figure:: /images/timeline_player_controls.jpg
 
    Player Controls.
 
@@ -295,7 +295,7 @@ Pause
 4. Synchronize Playback
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: /images/Animation_Red_FPS.jpg
+.. figure:: /images/animation_red_fps.jpg
 
    3D View Red FPS.
    60:54.75
@@ -321,7 +321,7 @@ AV-sync
 5. Keyframe Control
 ^^^^^^^^^^^^^^^^^^^
 
-.. figure:: /images/kia_Cube03.jpg
+.. figure:: /images/kia_cube03.jpg
 
    Timeline Auto Keyframe.
 
@@ -345,12 +345,12 @@ Auto Keyframe
 Layered
    Optional while playback. TODO.
 
-.. figure:: /images/Animation_Timeline_Layered.jpg
+.. figure:: /images/animation_timeline_layered.jpg
 
    Timeline Layered.
 
 
-.. figure:: /images/kia_Cube02.jpg
+.. figure:: /images/kia_cube02.jpg
 
    Timeline Keying Sets.
 

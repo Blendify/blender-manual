@@ -5,7 +5,7 @@ Interior
 
 .. _fig-softbody-force-interior-connection:
 
-.. figure:: /images/physics_Bsod-softbody-theory1.jpg
+.. figure:: /images/physics_bsod-softbody-theory1.jpg
    :width: 200px
 
    Vertices and forces along their connection edges.
@@ -25,7 +25,7 @@ but would change your mesh topology drastically.
 
 .. _fig-softbody-force-interior-stiff:
 
-.. figure:: /images/physics_Bsod-softbody-theory2.jpg
+.. figure:: /images/physics_bsod-softbody-theory2.jpg
    :width: 200px
 
    Additional forces with Stiff Quads enabled.

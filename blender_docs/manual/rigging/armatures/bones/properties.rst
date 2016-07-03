@@ -13,7 +13,7 @@ Bones
 Let us first have a general grasp of the various panels gathering the bone settings,
 in Properties editor, *Bone* tab:
 
-.. figure:: /images/RiggingBonePrincipalsBonePropertiesEditor.jpg
+.. figure:: /images/riggingboneprincipalsbonepropertieseditor.jpg
 
    The Bone tab.
 
@@ -21,7 +21,7 @@ in Properties editor, *Bone* tab:
 Relations
 =========
 
-.. figure:: /images/RiggingEditingBoneCxtRelationsPanel.jpg
+.. figure:: /images/riggingeditingbonecxtrelationspanel.jpg
 
    The Relations panel.
 
@@ -36,7 +36,7 @@ In this panel you can arrange sets of bones in different layers for easier manip
 Display
 =======
 
-.. figure:: /images/RiggingEditingBoneCxtDisplayPanel.jpg
+.. figure:: /images/riggingeditingbonecxtdisplaypanel.jpg
 
    The Display panel.
 
@@ -52,7 +52,7 @@ Display panel lets you customize the look of your bones taking the shape of a an
 Deform
 ======
 
-.. figure:: /images/RiggingEditingBoneCxtDeformPanel.jpg
+.. figure:: /images/riggingeditingbonecxtdeformpanel.jpg
 
    The Deform panel.
 
@@ -72,7 +72,7 @@ Transform
 
 .. Todo, images are the same
 
-.. figure:: /images/RiggingEditingBoneCxtTransformPanel.jpg
+.. figure:: /images/riggingeditingbonecxttransformpanel.jpg
 
    The Transform panel(edit mode).
 
@@ -81,7 +81,7 @@ When in edit mode you can use this panel to control position and roll of individ
 
 When in pose mode you can only set location for the main bone, and you can now set rotation and scale.
 
-.. figure:: /images/RiggingEditingBoneCxtTransformPPanel.jpg
+.. figure:: /images/riggingeditingbonecxttransformppanel.jpg
 
    The Transform panel(pose mode).
 
@@ -93,7 +93,7 @@ When in pose mode you can only set location for the main bone, and you can now s
 Transform Locks
 ===============
 
-.. figure:: /images/RiggingEditingBoneCxtTranformLocksPanel.jpg
+.. figure:: /images/riggingeditingbonecxttranformlockspanel.jpg
 
    The Transform Locks panel.
 
@@ -109,7 +109,7 @@ rotation and scale by axis on each bone in the armature.
 Inverse Kinematics
 ==================
 
-.. figure:: /images/RiggingEditingBoneCxtInverseKinematicsPanel.jpg
+.. figure:: /images/riggingeditingbonecxtinversekinematicspanel.jpg
 
    The Inverse Kinematics panel.
 

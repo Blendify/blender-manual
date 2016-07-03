@@ -3,7 +3,7 @@
 Controller Editing
 ******************
 
-.. figure:: /images/BGE_Controller_Column.jpg
+.. figure:: /images/bge_controller_column.jpg
    :width: 292px
 
    Controller Column with Typical Sensor.
@@ -22,7 +22,7 @@ and buttons to control which of all the controllers in the current Game Logic ar
 Column Heading
 ==============
 
-.. figure:: /images/BGE_Controller_Column1.jpg
+.. figure:: /images/bge_controller_column1.jpg
    :width: 292px
 
    Controller Column Headings.
@@ -59,11 +59,11 @@ Link
 Object Heading
 ==============
 
-.. figure:: /images/BGE_Controller_Column2.jpg
+.. figure:: /images/bge_controller_column2.jpg
    :width: 292px
 
 
-.. figure:: /images/BGE_Controller_Column4.jpg
+.. figure:: /images/bge_controller_column4.jpg
    :width: 292px
 
 

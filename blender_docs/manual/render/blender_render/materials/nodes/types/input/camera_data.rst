@@ -3,7 +3,7 @@
 Camera Data Node
 ****************
 
-.. figure:: /images/Camera-Data-Node.jpg
+.. figure:: /images/camera-data-node.jpg
 
    Camera Data node.
 

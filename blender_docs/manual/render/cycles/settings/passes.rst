@@ -60,7 +60,7 @@ Combining
 All these lighting passes can be combined to produce the final image as follows:
 
 
-.. figure:: /images/Cycles_passes_combine.png
+.. figure:: /images/cycles_passes_combine.png
 
 
 Data Passes

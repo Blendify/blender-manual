@@ -144,12 +144,12 @@ between their original position and the adjacent edge loop, regardless of the ed
 
 .. list-table::
 
-   * - .. figure:: /images/EdgeSlide1.jpg
+   * - .. figure:: /images/edgeslide1.jpg
           :width: 300px
 
           Selected Edge Loop.
 
-     - .. figure:: /images/EdgeSlide2.jpg
+     - .. figure:: /images/edgeslide2.jpg
           :width: 300px
 
           Repositioned Edge Loop.
@@ -171,12 +171,12 @@ use the :kbd:`Alt-Wheel` to scroll to a different edge.
 
 .. list-table::
 
-   * - .. figure:: /images/EdgeSlide3.jpg
+   * - .. figure:: /images/edgeslide3.jpg
           :width: 300px
 
           Even Mode Enabled.
 
-     - .. figure:: /images/EdgeSlide4.jpg
+     - .. figure:: /images/edgeslide4.jpg
           :width: 300px
 
           Even Mode with Flip Enabled.
@@ -231,12 +231,12 @@ or on two selected vertices or two selected faces that implicitly share an edge 
 
 .. list-table::
 
-   * - .. figure:: /images/EdgeFlip1.jpg
+   * - .. figure:: /images/edgeflip1.jpg
           :width: 300px
 
           Selected Edge.
 
-     - .. figure:: /images/EdgeFlip2.jpg
+     - .. figure:: /images/edgeflip2.jpg
           :width: 300px
 
           Edge, rotated CW.
@@ -285,12 +285,12 @@ there would be an empty band of deleted faces all the way around the sphere inst
 
 .. list-table::
 
-   * - .. figure:: /images/DeleteEdgeLoop1.jpg
+   * - .. figure:: /images/deleteedgeloop1.jpg
           :width: 300px
 
           Selected Edge Loop.
 
-     - .. figure:: /images/DeleteEdgeLoop2.jpg
+     - .. figure:: /images/deleteedgeloop2.jpg
           :width: 300px
 
           Edge Loop Deleted.
@@ -313,12 +313,12 @@ removing the face loop it ran through.
 
 .. list-table::
 
-   * - .. figure:: /images/Collapse1.jpg
+   * - .. figure:: /images/collapse1.jpg
           :width: 300px
 
           Selected Edge Ring.
 
-     - .. figure:: /images/Collapse2.jpg
+     - .. figure:: /images/collapse2.jpg
           :width: 300px
 
           Edge Ring Collapsed.
@@ -340,12 +340,12 @@ a hole will be created, and the selected edges are duplicated to form the border
 
 .. list-table::
 
-   * - .. figure:: /images/EdgeSplit1.jpg
+   * - .. figure:: /images/edgesplit1.jpg
           :width: 300px
 
           Selected Edges.
 
-     - .. figure:: /images/EdgeSplit2.jpg
+     - .. figure:: /images/edgesplit2.jpg
           :width: 300px
 
           Adjacent face moved to reveal hole left by split.

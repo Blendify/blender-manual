@@ -7,22 +7,22 @@ We have four basic bone visualization: Octahedral, Stick, B-Bone, Envelope and W
 
 .. list-table::
 
-   * - .. figure:: /images/RiggingBonePrincipalsBoneDisplayOctahedral.jpg
+   * - .. figure:: /images/riggingboneprincipalsbonedisplayoctahedral.jpg
           :width: 300px
 
           Octahedral bone display.
 
-     - .. figure:: /images/RiggingBonePrincipalsBoneDisplayStick.jpg
+     - .. figure:: /images/riggingboneprincipalsbonedisplaystick.jpg
           :width: 300px
 
           Stick bone display.
 
-   * - .. figure:: /images/RiggingBonePrincipalsBoneDisplayBBone.jpg
+   * - .. figure:: /images/riggingboneprincipalsbonedisplaybbone.jpg
           :width: 300px
 
           B-Bone bone display.
 
-     - .. figure:: /images/RiggingBonePrincipalsBoneDisplayEnvelope.jpg
+     - .. figure:: /images/riggingboneprincipalsbonedisplayenvelope.jpg
           :width: 300px
 
           Envelope bone display.
@@ -41,7 +41,7 @@ Display Panel
 But let us first see some general visualization properties of armatures,
 found in the *Display* panel of the *Object data* tab.
 
-.. figure:: /images/RiggingEditingObjectDataPropertyCxtDisplayPanel.jpg
+.. figure:: /images/riggingeditingobjectdatapropertycxtdisplaypanel.jpg
    :width: 250px
 
    The Display panel.
@@ -57,7 +57,7 @@ Octahedral bone
    - The bone "size" (its thickness is proportional to its length).
    - The bone roll (as it has a square section).
 
-   .. figure:: /images/RiggingOctahedronEx3DViewEditMode.jpg
+   .. figure:: /images/riggingoctahedronex3dvieweditmode.jpg
       :width: 250px
 
       Note the 40- rolled Bone.001 bone.
@@ -67,7 +67,7 @@ Stick bone
    It just materializes bones by sticks of constant (and small) thickness,
    so it gives you no information about root and tip, nor bone size or roll angle.
 
-   .. figure:: /images/RiggingStickEx3DViewPoseMode.jpg
+   .. figure:: /images/riggingstickex3dviewposemode.jpg
       :width: 250px
 
       Note that Bone.001 roll angle is not visible (except by its XZ axes).
@@ -76,14 +76,14 @@ B-Bone bone
    This visualization shows the curves of "smooth" multi-segmented bones;
    see the :ref:`bone page <armature-bone-rigid>` for details.
 
-   .. figure:: /images/RiggingBBoneEx3DViewEditMode.jpg
+   .. figure:: /images/riggingbboneex3dvieweditmode.jpg
       :width: 250px
 
 Envelope bone
    This visualization materializes the bone deformation influence.
    More on this in the :ref:`bone page <armature-bone-influence>`.
 
-   .. figure:: /images/RiggingEnvelopeEx3DViewPoseMode.jpg
+   .. figure:: /images/riggingenvelopeex3dviewposemode.jpg
       :width: 250px
 
 
@@ -123,7 +123,7 @@ Blender allows you to give to each bone of an armature a specific shape
 (in *Object Mode* and *Pose Mode*), using another object as "template".
 First of all, you have to enable the *Shapes* button (*Armature* panel).
 
-.. figure:: /images/RiggingEditingBoneCxtDisplayPanel.jpg
+.. figure:: /images/riggingeditingbonecxtdisplaypanel.jpg
    :width: 250px
 
    The Display panel.
@@ -152,20 +152,20 @@ To assign a custom shape to a bone, you have to:
 - Go to the *Display* panel *Custom Shape* field and select the 3D object previously created in the scene;
   in this example we are using a cube and a cone. Tou can optionally set the *At* field to another bone.
 
-.. figure:: /images/RiggingEditingBoneCxtDisplayPanel2.jpg
+.. figure:: /images/riggingeditingbonecxtdisplaypanel2.jpg
    :width: 250px
 
    The Display panel.
 
 .. list-table::
 
-   * - .. figure:: /images/RiggingBoneShapeEx3DViewObjectMode.jpg
+   * - .. figure:: /images/riggingboneshapeex3dviewobjectmode.jpg
           :width: 300px
 
           The armature with shapes assigned to two bones, in Object Mode.
           Note the centers of the Cone and Cube objects.
 
-     - .. figure:: /images/RiggingBoneShapeEx3DViewPoseMode.jpg
+     - .. figure:: /images/riggingboneshapeex3dviewposemode.jpg
           :width: 300px
 
           The same armature in Pose Mode...
@@ -201,7 +201,7 @@ Armature Layers
    | Mode:     Object, Edit and Pose Mode
    | Panel:    :menuselection:`Object data --> Skeleton`
 
-.. figure:: /images/RiggingEditingObjectDataPropertyCxtSkeletonPanel.jpg
+.. figure:: /images/riggingeditingobjectdatapropertycxtskeletonpanel.jpg
    :width: 250px
 
    The Skeleton panel.
@@ -248,7 +248,7 @@ Bone Layers
    | Mode:     Object, Edit and Pose Mode
    | Panel:    :menuselection:`Bone --> Relations`
 
-.. figure:: /images/RiggingEditingBoneCxtRelationsPanel.jpg
+.. figure:: /images/riggingeditingbonecxtrelationspanel.jpg
    :width: 250px
 
    The Relations panel.
@@ -280,7 +280,7 @@ Hiding Bones
    | Mode:     Edit and Pose Mode
    | Panel:    :menuselection:`Bone --> Display`
 
-.. figure:: /images/RiggingEditingBoneCxtDisplayPanel.jpg
+.. figure:: /images/riggingeditingbonecxtdisplaypanel.jpg
    :width: 250px
 
    The Display panel.

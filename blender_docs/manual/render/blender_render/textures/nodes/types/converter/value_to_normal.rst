@@ -3,7 +3,7 @@
 Value to Normal
 ***************
 
-.. figure:: /images/texture-nodes-valueToNormal.jpg
+.. figure:: /images/texture-nodes-valuetonormal.jpg
    :align: right
 
    Value to Normal node.

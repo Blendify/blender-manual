@@ -24,12 +24,12 @@ Also see :doc:`Creating Geometry </modeling/meshes/editing/basics/creating_faces
 
 .. list-table::
 
-   * - .. figure:: /images/Fill1.jpg
+   * - .. figure:: /images/fill1.jpg
           :width: 300px
 
           A closed perimeter of edges.
 
-     - .. figure:: /images/Fill2.jpg
+     - .. figure:: /images/fill2.jpg
           :width: 300px
 
           Filled using fill.
@@ -53,7 +53,7 @@ or vertices, as long as they form one or more complete perimeters.
 
 
 
-.. figure:: /images/Fill3.jpg
+.. figure:: /images/fill3.jpg
    :width: 300px
 
    Filled using fill.
@@ -63,12 +63,12 @@ note, unlike creating n-gons, fill supports holes.
 
 .. list-table::
 
-   * - .. figure:: /images/Fill1_holes.jpg
+   * - .. figure:: /images/fill1_holes.jpg
           :width: 300px
 
           A closed perimeter of edges with holes.
 
-     - .. figure:: /images/Fill2_holes.jpg
+     - .. figure:: /images/fill2_holes.jpg
           :width: 300px
 
           Filled using fill.
@@ -172,12 +172,12 @@ which means some triangles could remain.
 
 .. list-table::
 
-   * - .. figure:: /images/Fill5.jpg
+   * - .. figure:: /images/fill5.jpg
           :width: 300px
 
           Before converting tris to quads.
 
-     - .. figure:: /images/QuadToTris.jpg
+     - .. figure:: /images/quadtotris.jpg
           :width: 300px
 
           After converting tris to quads.
@@ -261,12 +261,12 @@ It works on the shared edge between two faces and rotates that edge if the edge 
 
 .. list-table::
 
-   * - .. figure:: /images/RotateEdgeFaceMode1.jpg
+   * - .. figure:: /images/rotateedgefacemode1.jpg
           :width: 300px
 
           Two Faces Selected.
 
-     - .. figure:: /images/RotateEdgeFaceMode2.jpg
+     - .. figure:: /images/rotateedgefacemode2.jpg
           :width: 300px
 
           Full Render.

@@ -44,7 +44,7 @@ ordered here by precedence (i.e. the bone will be of the color of the topmost va
 Coloring from Bone Group
 ------------------------
 
-.. figure:: /images/rigging-boneGroups.jpg
+.. figure:: /images/rigging-bonegroups.jpg
    :width: 250px
 
    The Bone Groups panel with a bone group (default colors).
@@ -61,7 +61,7 @@ you can use the top row of controls to select another group in the drop-down lis
 ("arrows" button), rename the current group (text field), or delete it ("X" button).
 
 
-.. figure:: /images/rigging-boneGroups-assign.jpg
+.. figure:: /images/rigging-bonegroups-assign.jpg
    :width: 250px
 
    The Bone Group drop-down list of a bone sub-panel.
@@ -86,7 +86,7 @@ Remove Bone Group
    Removes the active bone group
 
 
-.. figure:: /images/rigging-boneGroups-colors.jpg
+.. figure:: /images/rigging-bonegroups-colors.jpg
    :width: 300px
 
    The Bone Color Set list of the bone group, and the color swatch of the chosen color theme.
@@ -124,7 +124,7 @@ Ghosts
 .. list-table::
    Ghosts examples.
 
-   * - .. figure:: /images/Armature_ghost_arround_current.jpg
+   * - .. figure:: /images/armature_ghost_arround_current.jpg
           :width: 200px
 
      - .. figure:: /images/ie_ghost.jpg
@@ -139,7 +139,7 @@ without having to play it back... Well,
 Blender features something very similar for armatures in *Pose Mode*: the "ghosts".
 
 
-.. figure:: /images/RiggingEditingObjectDataPropertyCxtGhostPanel.jpg
+.. figure:: /images/riggingeditingobjectdatapropertycxtghostpanel.jpg
    :width: 250px
 
    The Ghost panel showing the different options associated with different modes.
@@ -211,7 +211,7 @@ Motion Paths
    | Hotkey:   :kbd:`W-3`, :kbd:`W-4`
 
 
-.. figure:: /images/RiggingPosingMotionPathsEx.jpg
+.. figure:: /images/riggingposingmotionpathsex.jpg
    :width: 250px
 
    A motion paths example.
@@ -243,7 +243,7 @@ and they are also active during animation playback. :kbd:`Alt-A` is
 only useful when the *Around Current Frame* option is enabled.
 
 
-.. figure:: /images/RiggingEditingObjectDataPropertyCxtMotionPathsPanel.jpg
+.. figure:: /images/riggingeditingobjectdatapropertycxtmotionpathspanel.jpg
    :width: 250px
 
    The Motion Paths Panel showing options for the different modes.

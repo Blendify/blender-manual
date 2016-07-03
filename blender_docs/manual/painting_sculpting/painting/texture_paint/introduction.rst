@@ -54,7 +54,7 @@ After you have done one of these two things,
 you can modify the image using the Texture Paint Mode:
 
 
-.. figure:: /images/texture-painting-paintMode.jpg
+.. figure:: /images/texture-painting-paintmode.jpg
    :width: 250px
 
    Enabling paint mode.
@@ -200,7 +200,7 @@ Alpha
 Texture
 -------
 
-.. figure:: /images/texture-painting-brushTexture.jpg
+.. figure:: /images/texture-painting-brushtexture.jpg
    :width: 250px
 
    Texture options and example.

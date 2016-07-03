@@ -56,21 +56,21 @@ Image
 Examples
 ========
 
-.. figure:: /images/Compositing_Nodes-BilateralBlur_ex3.jpg
+.. figure:: /images/compositing_nodes-bilateralblur_ex3.jpg
    :width: 250px
    :figwidth: 250px
 
    Bilateral smoothed buffered shadow.
 
 
-.. figure:: /images/Compositing_Nodes-BilateralBlur_ex1.jpg
+.. figure:: /images/compositing_nodes-bilateralblur_ex1.jpg
    :width: 250px
    :figwidth: 250px
 
    Bilateral smoothed AO.
 
 
-.. figure:: /images/Compositing_Nodes-BilateralBlur_ex2.jpg
+.. figure:: /images/compositing_nodes-bilateralblur_ex2.jpg
    :width: 250px
    :figwidth: 250px
 

@@ -3,7 +3,7 @@
 Random Sensor
 *************
 
-.. figure:: /images/BGE_Sensor_Random.jpg
+.. figure:: /images/bge_sensor_random.jpg
    :width: 300px
 
    Random sensor.

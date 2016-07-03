@@ -93,17 +93,17 @@ Corner Cut Type
 
 .. list-table::
 
-   * - .. figure:: /images/subdivide-twoEdgesQuad-fan2.jpg
+   * - .. figure:: /images/subdivide-twoedgesquad-fan2.jpg
           :width: 200px
 
           Fan cut type.
 
-     - .. figure:: /images/subdivide-twoEdgesQuad-innervert.jpg
+     - .. figure:: /images/subdivide-twoedgesquad-innervert.jpg
           :width: 200px
 
           Innervert cut type.
 
-     - .. figure:: /images/subdivide-twoEdgesQuad-path.jpg
+     - .. figure:: /images/subdivide-twoedgesquad-path.jpg
           :width: 200px
 
           Path cut type.
@@ -134,7 +134,7 @@ Along Normal
    Causes the vertices to move along the their normals, instead of random directions
 
 
-.. figure:: /images/subdivide-fractal-alongNormal.jpg
+.. figure:: /images/subdivide-fractal-alongnormal.jpg
    :width: 200px
 
    Along normal set to 1.
@@ -168,12 +168,12 @@ One Edge
 
 .. list-table::
 
-   * - .. figure:: /images/subdivide-oneEdge.jpg
+   * - .. figure:: /images/subdivide-oneedge.jpg
           :width: 250px
 
           One Edges.
 
-     - .. figure:: /images/subdivide-oneEdge-tri.jpg
+     - .. figure:: /images/subdivide-oneedge-tri.jpg
           :width: 250px
 
           Quad/Tri Mode.
@@ -184,10 +184,10 @@ Two Tri Edges
 
 .. list-table::
 
-   * - .. figure:: /images/subdivide-twoEdgesTri.jpg
+   * - .. figure:: /images/subdivide-twoedgestri.jpg
           :width: 250px
 
-     - .. figure:: /images/subdivide-twoEdgesTri-tri.jpg
+     - .. figure:: /images/subdivide-twoedgestri-tri.jpg
           :width: 250px
 
           Quad/Tri Mode.
@@ -198,10 +198,10 @@ Two Opposite Quad Edges
 
 .. list-table::
 
-   * - .. figure:: /images/subdivide-twoEdgesOpposite.jpg
+   * - .. figure:: /images/subdivide-twoedgesopposite.jpg
           :width: 250px
 
-     - .. figure:: /images/subdivide-twoEdgesOpposite-tri.jpg
+     - .. figure:: /images/subdivide-twoedgesopposite-tri.jpg
           :width: 250px
 
           Quad/Tri Mode.
@@ -212,12 +212,12 @@ Two Adjacent Quad Edges
 
 .. list-table::
 
-   * - .. figure:: /images/subdivide-twoEdgesQuad-fan2.jpg
+   * - .. figure:: /images/subdivide-twoedgesquad-fan2.jpg
           :width: 250px
 
           Fan cut type.
 
-     - .. figure:: /images/subdivide-twoEdgesQuad-fan.jpg
+     - .. figure:: /images/subdivide-twoedgesquad-fan.jpg
           :width: 250px
 
           Quad/Tri Mode.
@@ -225,12 +225,12 @@ Two Adjacent Quad Edges
 
 .. list-table::
 
-   * - .. figure:: /images/subdivide-twoEdgesQuad-innervert.jpg
+   * - .. figure:: /images/subdivide-twoedgesquad-innervert.jpg
           :width: 250px
 
           Innervert cut type.
 
-     - .. figure:: /images/subdivide-twoEdgesQuad-innervert-tri.jpg
+     - .. figure:: /images/subdivide-twoedgesquad-innervert-tri.jpg
           :width: 250px
 
           Quad/Tri Mode.
@@ -238,12 +238,12 @@ Two Adjacent Quad Edges
 
 .. list-table::
 
-   * - .. figure:: /images/subdivide-twoEdgesQuad-path.jpg
+   * - .. figure:: /images/subdivide-twoedgesquad-path.jpg
           :width: 250px
 
           Path cut type.
 
-     - .. figure:: /images/subdivide-twoEdgesQuad-path-tri.jpg
+     - .. figure:: /images/subdivide-twoedgesquad-path-tri.jpg
           :width: 250px
 
           Quad/Tri Mode.
@@ -254,10 +254,10 @@ Three Edges
 
 .. list-table::
 
-   * - .. figure:: /images/subdivide-threeEdges.jpg
+   * - .. figure:: /images/subdivide-threeedges.jpg
           :width: 250px
 
-     - .. figure:: /images/subdivide-threeEdges-tri.jpg
+     - .. figure:: /images/subdivide-threeedges-tri.jpg
           :width: 250px
 
           Quad/Tri Mode.
@@ -268,10 +268,10 @@ Tri
 
 .. list-table::
 
-   * - .. figure:: /images/subdivide-threeEdgesTri.jpg
+   * - .. figure:: /images/subdivide-threeedgestri.jpg
           :width: 250px
 
-     - .. figure:: /images/subdivide-threeEdgesTri-tri.jpg
+     - .. figure:: /images/subdivide-threeedgestri-tri.jpg
           :width: 250px
 
           Quad/Tri Mode.
@@ -282,10 +282,10 @@ Quad/Four Edges
 
 .. list-table::
 
-   * - .. figure:: /images/subdivide-fourEdges.jpg
+   * - .. figure:: /images/subdivide-fouredges.jpg
           :width: 250px
 
-     - .. figure:: /images/subdivide-fourEdges-tri.jpg
+     - .. figure:: /images/subdivide-fouredges-tri.jpg
           :width: 250px
 
           Quad/Tri Mode.

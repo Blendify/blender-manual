@@ -19,7 +19,7 @@ Blender can add this feature as a post-processing operation.
 Options
 =======
 
-.. figure:: /images/Render07.png
+.. figure:: /images/render07.png
 
    Toon edge buttons.
 

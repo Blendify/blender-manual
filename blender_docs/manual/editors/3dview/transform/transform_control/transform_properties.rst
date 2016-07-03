@@ -33,7 +33,7 @@ see their respective descriptions in the :doc:`Modeling chapter </modeling/index
 Options in Object Mode
 ----------------------
 
-.. figure:: /images/Transform-properties-panel.jpg
+.. figure:: /images/transform-properties-panel.jpg
    :align: right
 
    Transform Properties panel in Object Mode.

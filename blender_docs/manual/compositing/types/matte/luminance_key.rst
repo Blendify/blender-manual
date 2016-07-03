@@ -52,7 +52,7 @@ Matte
 Example
 =======
 
-.. figure:: /images/Composting-LumaKey_ex.jpg
+.. figure:: /images/composting-lumakey_ex.jpg
    :width: 300px
 
    Using Luma Key with a twist.

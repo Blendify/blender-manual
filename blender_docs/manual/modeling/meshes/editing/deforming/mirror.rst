@@ -54,12 +54,12 @@ This is a special case of the *Edit Mode* as explained on the
 
 .. list-table:: Mirror around the Individual Centers
 
-   * - .. figure:: /images/MirrorTool1.jpg
+   * - .. figure:: /images/mirrortool1.jpg
           :width: 300px
 
           Mesh before mirror.
 
-     - .. figure:: /images/MirrorTool2.jpg
+     - .. figure:: /images/mirrortool2.jpg
           :width: 300px
 
           Mesh after mirrored along X axis.
@@ -73,12 +73,12 @@ and the axis of transformation is X.
 
 .. list-table:: Mirror around the 3D Cursor
 
-   * - .. figure:: /images/MirrorTool3.jpg
+   * - .. figure:: /images/mirrortool3.jpg
           :width: 300px
 
           Mesh before mirror.
 
-     - .. figure:: /images/MirrorTool4.jpg
+     - .. figure:: /images/mirrortool4.jpg
           :width: 300px
 
           Mesh after mirrored along X axis using the 3D cursor as a pivot point.

@@ -110,7 +110,7 @@ Load UI
    *Open Blender File* panel of the *File Browser*.
 
 
-.. figure:: /images/Interface-Configuration-File-filefilter-25.jpg
+.. figure:: /images/interface-configuration-file-filefilter-25.jpg
 
    File extension filter.
 

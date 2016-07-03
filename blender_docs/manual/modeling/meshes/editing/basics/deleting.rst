@@ -44,7 +44,7 @@ Limited Dissolve
    Limited Dissolve reduces detail on planar faces and linear edges with an adjustable angle threshold.
 
 
-.. figure:: /images/Bmesh_limited-dissolve.jpg
+.. figure:: /images/bmesh_limited-dissolve.jpg
    :width: 400px
 
    Example showing the how Limited Dissolve can be used.
@@ -55,7 +55,7 @@ Limited Dissolve
       The face split option limits dissolve to only use the corners of the faces connected to the vertex.
 
 
-.. figure:: /images/Bmesh_dissolve_face_split.png
+.. figure:: /images/bmesh_dissolve_face_split.png
    :width: 500px
 
    Dissolve Face Split option. Left - the input, middle - regular dissolve, right - Face Split enabled.

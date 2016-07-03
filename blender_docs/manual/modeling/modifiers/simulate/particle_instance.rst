@@ -20,7 +20,7 @@ otherwise the *ParticleInstance* modifier will appear to do nothing.
 Options
 =======
 
-.. figure:: /images/particleInstanceModifier.jpg
+.. figure:: /images/particleinstancemodifier.jpg
    :width: 250px
 
    Particle Instance Modifier.
@@ -136,7 +136,7 @@ Random
    Scales the position value of each instance a random value.
 
 
-.. figure:: /images/Particle_Instance_Modifier-Keyed_Particle_Example_1.jpg
+.. figure:: /images/particle_instance_modifier-keyed_particle_example_1.jpg
    :width: 500px
 
    Keyed particle following way points (showing one particle).
@@ -150,7 +150,7 @@ only the cylinders location gets altered, shape and rotation do not get altered.
 See screenshot below:
 
 
-.. figure:: /images/Particle_Instance_Modifier-Keyed_Particle_Example_2.jpg
+.. figure:: /images/particle_instance_modifier-keyed_particle_example_2.jpg
    :width: 500px
 
    Keyed particle following way points showing a mesh object
@@ -161,7 +161,7 @@ Both of the above examples had the *ParticleInstance* modifier *Path* button dea
 When the *Path* button is activated the effect can be seen in the screenshot below:
 
 
-.. figure:: /images/Particle_Instance_Modifier-Keyed_Particle_Example_3.jpg
+.. figure:: /images/particle_instance_modifier-keyed_particle_example_3.jpg
    :width: 500px
 
    Keyed particle following way points showing a mesh object (ParticleInstance modifier)
@@ -181,23 +181,23 @@ showing the effect on the deformation of the cylinder along the particle path.
 
    .. list-table::
 
-      * - .. figure:: /images/Particle_Instance_Modifier-Keyed_Particle_Example_4.jpg
+      * - .. figure:: /images/particle_instance_modifier-keyed_particle_example_4.jpg
              :width: 300px
 
              The cylinder has most of its edge loops so most of the path deform is very regular
              apart from at the very end of the curve.
 
-        - .. figure:: /images/Particle_Instance_Modifier-Keyed_Particle_Example_5.jpg
+        - .. figure:: /images/particle_instance_modifier-keyed_particle_example_5.jpg
              :width: 300px
 
              The cylinder has some of its edge loops removed so the path of the deform starts to become less regular.
 
-      * - .. figure:: /images/Particle_Instance_Modifier-Keyed_Particle_Example_6.jpg
+      * - .. figure:: /images/particle_instance_modifier-keyed_particle_example_6.jpg
              :width: 300px
 
              Now the deform path is very rough.
 
-        - .. figure:: /images/Particle_Instance_Modifier-Keyed_Particle_Example_7.jpg
+        - .. figure:: /images/particle_instance_modifier-keyed_particle_example_7.jpg
              :width: 300px
 
              At this point there are not any vertices to bend the cylinder to follow the path,
@@ -215,7 +215,7 @@ modifier will follow the length and profile of the hair strands paths.
 Below is a screenshot showing the effect of the *Path* button on hair:
 
 
-.. figure:: /images/Particle_Instance_Modifier-Strand_Mesh_Deform.jpg
+.. figure:: /images/particle_instance_modifier-strand_mesh_deform.jpg
    :width: 500px
 
    Strand with a ParticleInstance modifier associated with it and deforming the cylinder along the hair profile.

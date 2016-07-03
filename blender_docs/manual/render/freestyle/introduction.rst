@@ -19,7 +19,7 @@ features such as dotted lines and easy setup of multiple line types and edge def
 with the introduction of line style modifiers, the sky is the limit!
 
 
-.. figure:: /images/render-freestyle-Demo-OHACartoon.jpg
+.. figure:: /images/render-freestyle-demo-ohacartoon.jpg
    :width: 600px
 
    A cartoon scene from `OHA Studio <http://oha-studios.com/>`__
@@ -27,7 +27,7 @@ with the introduction of line style modifiers, the sky is the limit!
    © Mechanimotion Entertainment.
 
 
-.. figure:: /images/render-freestyle-Demo-BluePrint.jpg
+.. figure:: /images/render-freestyle-demo-blueprint.jpg
    :width: 600px
 
    Blueprint render of Martin M-130 from 1935 by LightBWK. CC0. Warning:
@@ -35,13 +35,13 @@ with the introduction of line style modifiers, the sky is the limit!
    (`File:M-130Blueprint.zip <https://wiki.blender.org/index.php/File:M-130Blueprint.zip>`__)
 
 
-.. figure:: /images/render-freestyle-Demo-HVACPreViz.jpg
+.. figure:: /images/render-freestyle-demo-hvacpreviz.jpg
    :width: 600px
 
    HVAC Pre-Viz by Lee Posey. CC0 (`File:HVACPreViz.zip <https://wiki.blender.org/index.php/File:HVACPreViz.zip>`__).
 
 
-.. figure:: /images/render-freestyle-Demo-KitchenSet.jpg
+.. figure:: /images/render-freestyle-demo-kitchenset.jpg
    :width: 600px
 
    Kitchen by Vicente Carro. © AnigoAnimation.

@@ -61,7 +61,7 @@ During rendering, we enabled the UV layer in the Properties editor
 we mix that new UV Texture over the original face.
 We can use this grid texture to help in any motion tracking that we need to do.
 
-.. figure:: /images/Compositing-Node-MapUV_ex.jpg
+.. figure:: /images/compositing-node-mapuv_ex.jpg
    :width: 300px
 
    Adding a Grid UV Textures for Motion Tracking.
@@ -78,7 +78,7 @@ and it is needed to substitute in a different product sponsor after rendering.
    Due to limits of this node, it is not recommended rush pre-production rendering under
    the guise of "fixing it later".
 
-.. figure:: /images/Compositing-Node-MapUV_ex02.jpg
+.. figure:: /images/compositing-node-mapuv_ex02.jpg
    :width: 300px
 
    Adding UV Textures in Post-Production

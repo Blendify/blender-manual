@@ -44,7 +44,7 @@ This constraints also works very well for 2D billboarding.
 Options
 =======
 
-.. figure:: /images/Constraints-Tracking-LockedTrack.jpg
+.. figure:: /images/constraints-tracking-lockedtrack.jpg
    :width: 304px
 
    Locked track panel.

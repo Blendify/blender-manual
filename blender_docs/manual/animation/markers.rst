@@ -33,7 +33,7 @@ Visualization
 Standard
 --------
 
-.. figure:: /images/Animation-Timeline-Markers.jpg
+.. figure:: /images/animation-timeline-markers.jpg
 
    Markers: small but useful.
 
@@ -47,7 +47,7 @@ If they have a name, this is shown to their right, in white when the marker is s
 Sequencer
 ---------
 
-.. figure:: /images/Sequencer-markers.jpg
+.. figure:: /images/sequencer-markers.jpg
    :width: 186px
 
    Markers in the Sequencer.
@@ -60,7 +60,7 @@ The *Video Sequence Editor* just adds a vertical dashed line to each marker
 3D View
 -------
 
-.. figure:: /images/AnimationMarkers3DViewEx.jpg
+.. figure:: /images/animationmarkers3dviewex.jpg
 
    Marker in a 3D View.
 
