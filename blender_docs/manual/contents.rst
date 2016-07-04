@@ -1,7 +1,7 @@
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  Blender Reference Manual Contents
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  Blender Reference Manual
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Welcome to the Blender Manual!
 
