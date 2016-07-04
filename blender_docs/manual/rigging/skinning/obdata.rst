@@ -32,6 +32,12 @@ Both methods have some
 Parenting to Whole Armatures
 ============================
 
+.. figure:: /images/rigging-armature-parent.jpg
+   :align: right
+
+   Set Parent menu.
+
+
 But before diving into this, let us talk about the different ways to skin (parent)
 an object to a whole armature - as with :doc:`object skinning </rigging/skinning/objects>`,
 there is an "old parenting" method and a new, more flexible and powerful one,
@@ -44,12 +50,6 @@ The *Make Parent To* menu pops up, select the *Armature* entry.
 If the skinning object is a lattice, you are done; no more options are available.
 But with a child mesh, another *Create Vertex Groups?* menu appears,
 with the following options - all regarding the "vertex groups" skinning method:
-
-
-.. figure:: /images/rigging-armature-parent.jpg
-
-   Set Parent menu.
-
 
 With Empty Groups
    will create, if they do not already exist, empty groups, one for each bone in the skinned armature,
@@ -66,16 +66,10 @@ With Envelope Weights
       This means that if you had defined vertex groups using same names as skinned bones, their content will be
       completely overridden. You will get the same behavior as if you used the envelopes skinning method,
       but with vertex groups?
-Automatic Weights
+
+With Automatic Weights
    Creates, as with *Envelope Weights* option, the needed vertex groups,
    with vertices assigned and weighted using the newer "bone heat" algorithm.
-
-
-.. figure:: /images/rigging-armature-modifier.jpg
-   :width: 250px
-
-   The Armature modifier.
-
 
 This "parenting" method will create an :doc:`Armature modifier </modeling/modifiers/deform/armature>`
 in the skinning object's modifiers stack.
@@ -202,6 +196,7 @@ shown in the *Envelope* visualization:
 
    The :doc:`editing pages </rigging/armatures/editing/properties>` for how to edit these properties.
 
+
 There is also a bone property, *Weight* (in each bone sub-panel,
 in *Edit Mode* only, defaults is set to 1.0),
 that controls the global influence of the bone over the deformed object,
@@ -276,7 +271,6 @@ To automatically weight multiple bones, you can simply
 - Select Mesh again
 - If not in weight paint already, toggle back into :kbd:`Ctrl-Tab`
 - Use the :kbd:`W` menu to automatic weight. This will weight all the bones you selected in Pose Mode.
-
 
 .. list-table::
    Example of vertex groups skinning method.
