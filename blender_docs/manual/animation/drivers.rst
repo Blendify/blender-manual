@@ -383,6 +383,7 @@ determine the value of the shape key then "conflicts" between bone.L
 and bone.R would be resolved differently. You will choose according to
 the needs of your animation.
 
+.. vimeo:: 173408647
 
 Troubleshooting
 ===============
