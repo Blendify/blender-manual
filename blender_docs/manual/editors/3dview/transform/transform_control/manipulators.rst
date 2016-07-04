@@ -1,3 +1,4 @@
+.. |manip-menu| image:: /images/editors_3dview_header-transform-manipulator.jpg
 
 ************
 Manipulators
@@ -7,6 +8,7 @@ Manipulators
    :class: refbox
 
    | Mode:     Object and Edit Modes
+   | Menu:     |mani-menu|
    | Hotkey:   :kbd:`Ctrl-Spacebar`
 
 
@@ -16,12 +18,6 @@ can be used to manipulate objects along any axis.
 However, there may be times when these options are not adequate.
 For example, when you want to translate a single face on a randomly rotated object in a direction perpendicular to
 the face's normal. In instances like this, *Transform Manipulators* may be useful.
-
-
-.. figure:: /images/editors_3dview_header-transform-manipulator.jpg
-
-   Manipulator options in the Header.
-
 
 Transform manipulators provide a visual representation of the transform options and allow
 movement, rotation and scaling along any axis, mode and orientation of the 3D View. The
@@ -40,7 +36,6 @@ Manipulators can be accessed in the header of the *3D View*:
 - Arc: Rotation.
 - Box: Scale.
 - Transform Orientation menu: choice of the transformation orientation.
-
 
 .. figure:: /images/editors_3dview_transform_control-manipulators-manipulator_options.jpg
    :width: 650px
@@ -80,7 +75,6 @@ Choosing the Transform Orientation
 
    | Mode:     Object and Edit Modes
    | Hotkey:   :kbd:`Alt-Spacebar`
-
 
 .. figure:: /images/editors_3dview_orientations_menu.png
    :align: right
