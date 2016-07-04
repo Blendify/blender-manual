@@ -7,7 +7,6 @@
    :maxdepth: 1
 
    introduction.rst
-   hardware.rst
 
 
 Editor Controls
@@ -27,6 +26,7 @@ Interface Controls
 
    controls/buttons_and_controls.rst
    controls/extended_controls.rst
+   common_shortcuts.rst
 
 
 Tools

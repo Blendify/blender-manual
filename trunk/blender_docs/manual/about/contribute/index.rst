@@ -6,6 +6,11 @@
 Whether you like to fix a tiny spelling mistake or rewrite an entire chapter,
 your help with the Blender manual is most welcome!
 
+.. toctree::
+   :maxdepth: 1
+
+   community.rst
+
 
 How It Works
 ============
@@ -26,6 +31,8 @@ In a nutshell:
 
 Steps
 =====
+
+The following guides lead you through the process.
 
 .. toctree::
    :maxdepth: 1
