@@ -8,7 +8,7 @@ Manipulators
    :class: refbox
 
    | Mode:     Object and Edit Modes
-   | Menu:     |mani-menu|
+   | Menu:     |manip-menu|
    | Hotkey:   :kbd:`Ctrl-Spacebar`
 
 
