@@ -175,7 +175,8 @@ Envelope
 --------
 
 .. figure:: /images/riggingenvelopeprinciples3dvieweditmode.jpg
-   :width: 200px
+   :align: right
+   :width: 150px
 
    Bone influence areas for envelopes method.
 
