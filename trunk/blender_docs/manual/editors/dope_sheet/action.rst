@@ -13,7 +13,7 @@ since both objects have *X location* and *Y location* properties beneath them.
 
 The *Action Editor* enables you to see and edit the FCurve data-blocks you defined as actions in the
 *FCurve Editor*. So it takes place somewhere in-between the low-level
-:doc:`FCurves </editors/graph_editor/introduction>`, and the high-level :doc:`NLA editor </editors/nla>`.
+:doc:`F-Curves </editors/graph_editor/introduction>`, and the high-level :doc:`NLA editor </editors/nla>`.
 Hence, you do not have to use them for simple F-Curve animations - and they have not much interest in themselves,
 so you will mostly use this editor when you do :doc:`NLA animation </editors/nla>`
 (they do have a few specific usages on their own,

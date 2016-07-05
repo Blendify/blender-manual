@@ -95,7 +95,7 @@ Bézier
       Bézier.
 
 
-Remember that some FCurves can only take discrete values,
+Remember that some F-Curves can only take discrete values,
 in which case they are always shown as if constant interpolated, whatever option you chose.
 
 

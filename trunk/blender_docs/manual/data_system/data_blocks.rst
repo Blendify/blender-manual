@@ -141,7 +141,7 @@ For reference, here is a table of data-blocks types stored in blend-files.
    * - Action
      - |tick|
      - |cross|
-     - | Stores animation FCurves.
+     - | Stores animation F-Curves.
        | Used as data-block animation data,
        | and the Non-Linear-Editor.
    * - Armature
