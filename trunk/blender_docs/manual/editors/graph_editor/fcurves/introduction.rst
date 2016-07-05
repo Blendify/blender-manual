@@ -47,7 +47,7 @@ you would have to add another control point (or keyframe)...
 Settings
 ========
 
-F-curves have three additional properties, which control the interpolation between points,
+F-Curves have three additional properties, which control the interpolation between points,
 extension behavior, and the type of handles.
 
 
@@ -192,7 +192,7 @@ Auto Clamped
 Direction of time
 =================
 
-Although F-curves are very similar to :ref:`curves_bezier`,
+Although F-Curves are very similar to :ref:`curves_bezier`,
 there are some important differences.
 
 For obvious reasons, a property represented by a Curve

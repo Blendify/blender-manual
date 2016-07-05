@@ -29,7 +29,7 @@ Lin/Quad Weighted
 
 When this setting is chosen, two sliders are shown,
 *Linear* and *Quadratic*,
-which control respectively the "linearness" and "quadraticness" of the falloff curve.
+which control respectively the "linearness" and "quadraticness" of the fallofF-Curve.
 
 This lamp falloff type is in effect allowing the mixing of the two light attenuation profiles
 (linear and quadratic attenuation types).

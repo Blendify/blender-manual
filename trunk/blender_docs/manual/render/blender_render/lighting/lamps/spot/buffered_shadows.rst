@@ -1,6 +1,4 @@
-
-..    TODO/Review: {{review|text=simplify?}} .
-
+..    TODO/Review: {{review|text=simplify?}}.
 
 *********************
 Spot Buffered Shadows
@@ -242,7 +240,7 @@ Bias
    Buffer Size* or using a different buffer shadow calculation method such as *Classic-Halfway* or *Irregular*.
 
    Self shadowing interference tends to affect curved surfaces more than flat ones,
-   meaning that if your scene has a lot of curved surfaces it may be necessary to increase the
+   meaning that if your scene has a lot oF-Curved surfaces it may be necessary to increase the
    *Bias* value or *Shadow Buffer Size* value.
 
    Having overly large *Bias* values not only places shadows further away from their casting objects,
