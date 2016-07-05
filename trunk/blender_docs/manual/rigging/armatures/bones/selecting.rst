@@ -94,7 +94,6 @@ inverts the selection of bones' ends, not of bones (see *Inverse selection*).
 Remember that a bone is selected only if both its ends are selected. So,
 when the selection status of bones' ends is inverted, a new set of bones is selected.
 
-
 .. list-table::
    Inverse selection
 

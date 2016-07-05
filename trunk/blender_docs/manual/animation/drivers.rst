@@ -4,6 +4,7 @@ Drivers
 *******
 
 .. figure:: /images/animation_driver_fcurve.jpg
+   :align: right
 
    Graph Editor: Driver example.
 
@@ -30,7 +31,7 @@ Drivers Panel
 .. figure:: /images/animation_panel_drivers.jpg
    :align: right
 
-   :menuselection:`Graph Editor --> Drivers --> Drivers Panel`
+   Drivers Panel.
 
 
 This panel is located in the :doc:`Graph Editor </editors/graph_editor/introduction>` with the mode set to Drivers.
@@ -410,14 +411,15 @@ If using a *Scripted Expression* Driver Type,
 you will have to open the file as *Trusted Source*,
 or set *Auto Run Python Scripts* in :menuselection:`User Preferences --> File --> Auto Execution`.
 
-.. figure:: /images/drivers_auto_run_c.jpg
+.. list-table::
 
-   File Browser.
+   * - .. figure:: /images/drivers_auto_run_c.jpg
 
+          File Browser.
 
-.. figure:: /images/drivers_auto_run_d.jpg
+     - .. figure:: /images/drivers_auto_run_d.jpg
 
-   :menuselection:`User Preference --> File --> Auto Execution`
+          :menuselection:`User Preference --> File --> Auto Execution`
 
 
 Rotational Properties are Radians
