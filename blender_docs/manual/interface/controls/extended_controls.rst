@@ -246,10 +246,10 @@ Tools
    Reset View
       Resets the view of the curve.
    Vector Handle
-      Vector type of curve point's handle.
+      Vector type oF-Curve point's handle.
       Breaks the tangent at the curve handle, making it an angle.
    Auto Handle
-      Automatic type of curve point's handle.
+      Automatic type oF-Curve point's handle.
    Extend Horizontal
       Causes the curve to stay horizontal before the first point and after the last point.
 

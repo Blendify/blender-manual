@@ -179,7 +179,7 @@ This page lists definitions for terms used in Blender and this manual.
 
    Curve
       A type of object defined in terms of a line interpolated between Control Vertices.
-      Available types of curves include :term:`Bézier` and :term:`NURBS`.
+      Available types oF-Curves include :term:`Bézier` and :term:`NURBS`.
 
    DOF
    Depth Of Field

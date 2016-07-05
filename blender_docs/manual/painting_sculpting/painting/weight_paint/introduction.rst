@@ -231,7 +231,7 @@ Factor
    Higher values give a smoother stroke
 
 
-The brush Falloff curve
+The brush FallofF-Curve
 -----------------------
 
 .. figure:: /images/modeling-meshes-weight-paint-curve.jpg

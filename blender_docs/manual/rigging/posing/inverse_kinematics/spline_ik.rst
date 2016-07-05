@@ -1,4 +1,3 @@
-
 ..    TODO/Review: {{review|partial=X|text=Need example & img}} .
 
 *********
@@ -101,7 +100,7 @@ Tips for Nice Setups
   are used to control the control-verts of the curve, with one hook per control-vert.
   In general, only a few control-verts should be needed for the curve
   (i.e. 1 for every 3-5 bones offers decent control).
-- The type of curve used does not really matter,
+- The type oF-Curve used does not really matter,
   as long as a path can be extracted from it that could also be used by the Follow Path Constraint.
   This really depends on the level of control required from the hooks.
 - When setting up the rigs, it is currently necessary to have the control bones

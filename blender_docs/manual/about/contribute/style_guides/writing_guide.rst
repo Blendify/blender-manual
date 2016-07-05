@@ -172,4 +172,4 @@ Would be written more like this, avoiding the *"it iss"*:
 
    Curve
       A type of object defined in terms of a line interpolated between Control Vertices.
-      *Available types of curves include Bézier and NURBS.*
+      *Available types oF-Curves include Bézier and NURBS.*

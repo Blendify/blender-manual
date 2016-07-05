@@ -26,7 +26,7 @@ Introduction
 
 *Text* objects are exactly what they sound like: they contain some text.
 They share the same object type as curves and surfaces,
-as modern fonts (OpenType, TrueType, etc.) are vectorial, made of curves (generally Béziers).
+as modern fonts (OpenType, TrueType, etc.) are vectorial, made oF-Curves (generally Béziers).
 
 Blender uses a "Font System" to manage mapping "letter codes --> objects representing them in 3D
 views". This implies that not only does the font system have its own *built-in* font,
