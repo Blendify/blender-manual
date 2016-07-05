@@ -1,16 +1,14 @@
 
-*************************
-Introduction to Materials
-*************************
+************
+Introduction
+************
 
 A material defines the artistic qualities of the substance that an object is made of.
 In its simplest form, you can use materials to show the substance an object is made of,
 or to "paint" the object with different colors. Usually,
 the substance is represented by its surface qualities (color, shininess, reflectance, etc.)
 but it can also exhibit more complicated effects such as transparency,
-diffraction and sub-surface scattering. Typical materials might be brass, skin, glass,
-or linen.
-
+diffraction and sub-surface scattering. Typical materials might be brass, skin, glass, or linen.
 
 .. figure:: /images/materials_demo.jpg
    :width: 320px
@@ -19,13 +17,14 @@ or linen.
 
 
 The basic (un-textured) Blender material is uniform across each face of an object
-(although the various pixels of each face of the object may appear differently because of lighting effects). However,
-different faces of the object may use different materials
+(although the various pixels of each face of the object may appear differently because of lighting effects).
+However, different faces of the object may use different materials
 (see :doc:`Multiple Materials </render/blender_render/materials/multiple_materials>`).
 
-In Blender, materials can (optionally) have associated textures. Textures *describe* the substance: e.g.
-*polished* brass, *dirty* glass or *embroidered* linen.
-The :doc:`Textures </render/blender_render/textures/index>` chapter describes how to add textures to materials.
+In Blender, materials can (optionally) have associated textures.
+Textures *describe* the substance: e.g. *polished* brass,
+*dirty* glass or *embroidered* linen. The :doc:`Textures </render/blender_render/textures/index>`
+chapter describes how to add textures to materials.
 
 
 How Materials Work
@@ -52,7 +51,6 @@ at which point we can determine what light would strike that point.
 The surface properties and incident light angle tells how much of that light would be
 reflected back along the incident viewing angle *(Rendering engine basic principle)*.
 
-
 .. figure:: /images/matgen01.jpg
 
    Rendering engine basic principle.
@@ -63,8 +61,7 @@ diffusion and specular reflection. Diffusion and specular reflection are disting
 each other mainly by the relationship between the incident light angle and the reflected light
 angle.
 
-The shading (or coloring)
-of the object during render will then take into account the base color
+The shading (or coloring) of the object during render will then take into account the base color
 (as modified by the diffusion and specular reflection phenomenon) and the light intensity.
 
 Using the internal ray tracer, other (more advanced) phenomena could occur.
@@ -81,7 +78,6 @@ which will distort the viewing angle.
 Of course, shading of the object hit by a light ray will be about mixing all these phenomena
 at the same time during the rendering. The appearance of the object, when rendered,
 depends on many inter-related settings:
-
 
 - World (Ambient color, Radiosity, Ambient Occlusion)
 - Lights
