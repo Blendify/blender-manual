@@ -33,9 +33,9 @@ General Principles and Tools
 The Graph Editor
 ----------------
 
-- :doc:`F-Curves </editors/graph_editor/fcurves>`
-- :doc:`F-Curve Editing </editors/graph_editor/fcurves>`
-- :doc:`F-Curve Modifiers </editors/graph_editor/fmodifiers>`
+- :doc:`F-Curves </editors/graph_editor/fcurves/introduction>`
+- :doc:`F-Curve Editing </editors/graph_editor/fcurves/introduction>`
+- :doc:`F-Curve Modifiers </editors/graph_editor/fcurves/fmodifiers>`
 
 
 The Action Editor

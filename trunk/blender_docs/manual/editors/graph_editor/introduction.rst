@@ -4,7 +4,7 @@ Introduction
 ************
 
 The graph editor is the main animation editor.
-It allows you to modify the animation for any properties using :doc:`F-Curves </editors/graph_editor/fcurves>`.
+It allows you to modify the animation for any properties using :doc:`F-Curves </editors/graph_editor/fcurves/introduction>`.
 
 The graph editor has two modes, *F-Curve* for :doc:`Actions </animation/actions>`,
 and *Drivers* for :doc:`Drivers </animation/drivers>`. Both are very similar in function.
@@ -27,7 +27,7 @@ Here you can see and edit the curves and keyframes.
    A curve with different types of interpolation.
 
 
-See :doc:`F-Curves </editors/graph_editor/fcurves>` for more info.
+See :doc:`F-Curves </editors/graph_editor/fcurves/introduction>` for more info.
 
 
 Navigation
@@ -353,12 +353,12 @@ Modifiers Panel
    Modifiers Panel.
 
 
-See :doc:`F-Modifiers </editors/graph_editor/fmodifiers>` for more info.
+See :doc:`F-Modifiers </editors/graph_editor/fcurves/fmodifiers>` for more info.
 
 
 .. seealso::
 
-   - :doc:`Graph Editor - F-Curves </editors/graph_editor/fcurves>`
-   - :doc:`Graph Editor - F-Modifiers </editors/graph_editor/fmodifiers>`
+   - :doc:`Graph Editor - F-Curves </editors/graph_editor/fcurves/introduction>`
+   - :doc:`Graph Editor - F-Modifiers </editors/graph_editor/fcurves/fmodifiers>`
    - :doc:`Actions </animation/actions>`
    - :doc:`Drivers </animation/drivers>`
