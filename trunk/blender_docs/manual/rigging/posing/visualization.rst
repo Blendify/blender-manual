@@ -60,7 +60,6 @@ click on the *Add Group* button in the *Bone Groups:* buttons set
 you can use the top row of controls to select another group in the drop-down list
 ("arrows" button), rename the current group (text field), or delete it ("X" button).
 
-
 .. figure:: /images/rigging-bonegroups-assign.jpg
    :width: 250px
 
@@ -84,7 +83,6 @@ Remove Selected from Bone Groups
    Removes selected bones from all bone groups
 Remove Bone Group
    Removes the active bone group
-
 
 .. figure:: /images/rigging-bonegroups-colors.jpg
    :width: 300px
@@ -120,7 +118,6 @@ Ghosts
    | Mode:     Pose Mode
    | Panel:    Visualisations
 
-
 .. list-table::
    Ghosts examples.
 
@@ -137,7 +134,6 @@ to see several frames preceding the one they are working on.
 This allows them to visualize the overall movement of their character,
 without having to play it back... Well,
 Blender features something very similar for armatures in *Pose Mode*: the "ghosts".
-
 
 .. figure:: /images/riggingeditingobjectdatapropertycxtghostpanel.jpg
    :width: 250px
@@ -210,7 +206,6 @@ Motion Paths
    | Menu:     :menuselection:`Pose --> Motion Paths --> ...`
    | Hotkey:   :kbd:`W-3`, :kbd:`W-4`
 
-
 .. figure:: /images/riggingposingmotionpathsex.jpg
    :width: 250px
 
@@ -232,7 +227,10 @@ and you have to first select the bones you want to show/hide the motion paths. T
 - To hide the paths, click on the *Clear Paths* button, or,
   in the 3D Views, do :menuselection:`Pose --> Motion Paths --> Clear All Paths`, or :kbd:`W-4`.
 
-Remember: only selected bones and their paths are affected by these actions!
+.. warning::
+
+   Remember that only selected bones and their paths are affected by these actions!
+
 
 The paths are drawn in a light shade of gray for unselected bones,
 and a slightly blueish gray for selected ones.
@@ -241,7 +239,6 @@ Each frame is materialized by a small white dot on the paths.
 As with ghosts, the paths are automatically updated when you edit your poses/keyframes,
 and they are also active during animation playback. :kbd:`Alt-A` is
 only useful when the *Around Current Frame* option is enabled.
-
 
 .. figure:: /images/riggingeditingobjectdatapropertycxtmotionpathspanel.jpg
    :width: 250px
