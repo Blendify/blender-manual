@@ -135,9 +135,6 @@ Depth
    Adjusts how detailed the noise function is.
 
 
-Python
-------
-
 Limits
 ------
 
@@ -149,8 +146,8 @@ Minimum/Maximum Y
    Truncates the curve values to a range.
 
 
-Stepped
--------
+Stepped Interpolation
+---------------------
 
 Gives the curve a stepped appearance by rounding values down within a certain range of frames.
 
