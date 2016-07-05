@@ -19,7 +19,7 @@ So from this example, if the Driver Value is 2.0 the property will be 0.5.
 
 The Driver Value is determined by Driver Variables or a Scripted Expression.
 
-Most the settings for the drivers :doc:`F-Curves </editors/graph_editor/fcurves>` are found in
+Most the settings for the drivers :doc:`F-Curves </editors/graph_editor/fcurves/introduction>` are found in
 the :doc:`Graph Editor </editors/graph_editor/introduction>`.
 
 
@@ -443,7 +443,7 @@ number or because you are skipping already rendered frames).
 
    - :doc:`Animation </animation/index>`
    - :doc:`Graph Editor </editors/graph_editor/introduction>`
-   - :doc:`F-Curves </editors/graph_editor/fcurves>`
+   - :doc:`F-Curves </editors/graph_editor/fcurves/introduction>`
    - :doc:`Extending Blender with Python </advanced/scripting/index>`.
 
    - `Python <https://www.python.org>`__ and its `documentation <https://www.python.org/doc>`__.

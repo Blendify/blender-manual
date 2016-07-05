@@ -1,8 +1,8 @@
 ..    TODO/Review: {{review|text= move direction of time?}}.
 
-********
-F-Curves
-********
+************
+Introduction
+************
 
 After animating some property in Blender using keyframes you can edit their corresponding curves.
 When something is "animated," it changes over time. This curve in shown as something called an F-Curve.
@@ -14,8 +14,8 @@ which usually lasts just a fraction of a second, depending on the *frame rate* o
 As animation is composed of incremental changes spanning multiple frames,
 usually these properties are **not** manually modified *frame by frame*, because:
 
-- it would take ages!
-- it would be very difficult to get smooth variations of the property
+- It would take ages!
+- It would be very difficult to get smooth variations of the property
   (unless you compute mathematical functions and type a precise value for each frame, which would be crazy).
 
 This is why nearly all direct animation is done using *interpolation*.
@@ -23,7 +23,6 @@ This is why nearly all direct animation is done using *interpolation*.
 The idea is simple: you define a few Key Frames, which are multiple frames apart.
 Between these keyframes, the properties' values are computed (interpolated)
 by Blender and filled in. Thus, the animators' workload is significantly reduced.
-
 
 .. figure:: /images/animation-f-curves-concept.jpg
    :align: right
@@ -135,7 +134,7 @@ Linear
 
 
 Additional extrapolation tools (e.g. the "Cycles" F-Modifier)
-are located in the :doc:`F-Curve Modifiers </editors/graph_editor/fmodifiers>`
+are located in the :doc:`F-Curve Modifiers </editors/graph_editor/fcurves/fmodifiers>`
 
 
 Handle Types

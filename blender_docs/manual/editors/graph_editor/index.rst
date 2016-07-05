@@ -7,6 +7,4 @@
    :maxdepth: 2
 
    introduction.rst
-   fcurves.rst
-   fmodifiers.rst
-
+   fcurves/index.rst

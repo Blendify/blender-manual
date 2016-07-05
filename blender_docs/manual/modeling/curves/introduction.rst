@@ -33,7 +33,7 @@ vertex-level control is more difficult and if fine control is necessary,
 
 Bézier curves are the most commonly used curves for designing letters or logos.
 They are also widely used in animation, both as :doc:`paths </animation/object_path>`
-for objects to move along and as :doc:`F-curves </editors/graph_editor/fcurves>`
+for objects to move along and as :doc:`F-curves </editors/graph_editor/fcurves/introduction>`
 to change the properties of objects as a function of time.
 
 
