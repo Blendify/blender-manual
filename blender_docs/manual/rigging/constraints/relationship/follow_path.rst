@@ -34,7 +34,7 @@ The movement of the owner along the target curve/path may be controlled in two d
 - The second way, much more precise and powerful,
   is to define a *Evaluation Time* interpolation curve for the *Target* path
   (in the *Graph Editor*. See the :doc:`animation chapter </animation/index>` to learn more about F-Curves.
-- If you do not want your owner to move along the path, you can give to the target curve a flat *Speed* FCurve
+- If you do not want your owner to move along the path, you can give to the target curve a flat *Speed* F-Curve
   (its value will control the position of the owner along the path).
 
 *Follow Path* is another constraint that works well with the
