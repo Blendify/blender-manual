@@ -81,7 +81,7 @@ The main area
 The left "list-tree"
    This part shows the action's channel "headers" and their hierarchy. Basically, there are:
 
-   - "Top-level" channels, which represent whole FCurve data-blocks
+   - "Top-level" channels, which represent whole F-Curve data-blocks
      (so there is one for *Object* one, one for *Shape* one, etc.).
      They gather *all* keyframes defined in their underlying F-Curve data-block.
    - "Mid-level" channels, which seem currently to have no use
@@ -105,7 +105,7 @@ The left "list-tree"
    You can access some channel's properties by clicking :kbd:`Ctrl-LMB` on its header.
    Finally, you can have another column with value-sliders,
    allowing you to change the value of current keyframes, or to add new ones.
-   These are obviously only available for low-level channels (i.e. individual FCurve ).
+   These are obviously only available for low-level channels (i.e. individual F-Curve ).
    See `View Menu`_ below for how to show these sliders.
 
 

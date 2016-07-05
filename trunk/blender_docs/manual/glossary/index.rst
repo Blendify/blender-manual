@@ -247,7 +247,7 @@ This page lists definitions for terms used in Blender and this manual.
       The normalized vector perpendicular to the plane that a :term:`face` lies in.
       Each face has its own normal.
 
-   FCurve
+   F-Curve
       A curve that holds the animation values of a specific property.
 
    Field of View

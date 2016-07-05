@@ -11,8 +11,8 @@ the animation will work. For example, an action modifying *X location* and *Y lo
 properties can be shared across multiple objects,
 since both objects have *X location* and *Y location* properties beneath them.
 
-The *Action Editor* enables you to see and edit the FCurve data-blocks you defined as actions in the
-*FCurve Editor*. So it takes place somewhere in-between the low-level
+The *Action Editor* enables you to see and edit the F-Curve data-blocks you defined as actions in the
+*F-Curve Editor*. So it takes place somewhere in-between the low-level
 :doc:`F-Curves </editors/graph_editor/introduction>`, and the high-level :doc:`NLA editor </editors/nla>`.
 Hence, you do not have to use them for simple F-Curve animations - and they have not much interest in themselves,
 so you will mostly use this editor when you do :doc:`NLA animation </editors/nla>`
@@ -22,25 +22,25 @@ or the :doc:`pose libraries </rigging/posing/pose_library>`).
 
 This is not a mandatory editor, as you do can edit the actions used by the NLA directly in the
 *Graph Editor* (or even the *NLA Editor* one).
-However, it gives you a slightly simplified view of your FCurve data-blocks
-(somewhat similar to the "key" mode of the FCurve,
+However, it gives you a slightly simplified view of your F-Curve data-blocks
+(somewhat similar to the "key" mode of the F-Curve,
 even though more powerful in some ways) - and, more interesting,
 it can show you all "action" F-Curve data-blocks of a same object at once.
 
 Additionally, it also allows you to affect timing of the different keys of the layers created with the
 :doc:`grease pencil tool </interface/grease_pencil/introduction>`.
 
-Each "action" FCurve data-block forms a top-level channel (see below).
+Each "action" F-Curve data-block forms a top-level channel (see below).
 Note that an object can have several *Constraint* (one per animated constraint)
-and *Pose* (for armatures, one per animated bone) FCurve data-blocks,
+and *Pose* (for armatures, one per animated bone) F-Curve data-blocks,
 and hence an action can have several of these channels.
 
 
 Action Data-Blocks
 ==================
 
-As everything else in Blender, actions are data-blocks. Unlike FCurve ones,
-there is only one type of action, which can regroup all FCurve of a given object.
+As everything else in Blender, actions are data-blocks. Unlike F-Curve ones,
+there is only one type of action, which can regroup all F-Curve of a given object.
 You will find its usual data-block controls in the *Action Editor* header.
 
 However, there is one specificity with action data-blocks: they have by default a "fake user",
@@ -48,7 +48,7 @@ i.e. once created, they are always kept in Blender file, even if no object uses 
 This is due to the fact that actions are designed to be used in the NLA,
 where you can affect several different actions to a same object! Yes,
 this is the only way to use different actions (and hence,
-different FCurve data-blocks of the same kind) to animate a same object.
+different F-Curve data-blocks of the same kind) to animate a same object.
 But as you have to assign an action to an object to be able to edit it
 (and an object can only have one action data-block at a time), to have "fake users" guaranties
 you that you will not lose your precious previously-edited actions when you start working on a new one!
@@ -65,7 +65,7 @@ Channel Menu
 
 Delete :kbd:`X`
    Deletes the whole channel from the current action
-   (i.e. unlink the underlying FCurve data-block from this action data-block).
+   (i.e. unlink the underlying F-Curve data-block from this action data-block).
 
  .. warning::
 
