@@ -116,8 +116,10 @@ Selecting connected bones' ends
 Another example is: when you select the root of a bone connected to its parent,
 you also implicitly select the tip of its parent (and vice versa).
 
-Remember: when selecting bones' ends,
-the tip of the parent bone is the "same thing" as the root of its children bones.
+.. note::
+
+   Remember that when selecting bones' ends,
+   the tip of the parent bone is the "same thing" as the root of its children bones.
 
 
 Selecting Bones
@@ -137,7 +139,6 @@ You also have some *advanced selection* options, based on their relations.
 
 You can select at once all the bones in the chain which the active (last selected)
 bone belongs to by using the *linked selection* tool, :kbd:`L`.
-
 
 .. list-table::
    Linked bones selection
