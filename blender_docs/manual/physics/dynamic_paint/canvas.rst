@@ -3,10 +3,8 @@
 Dynamic Paint Canvas
 ********************
 
-Main Panel
-==========
-
 .. figure:: /images/physics_dynamic-paint_canvas_main.jpg
+   :align: right
 
    Canvas main panel.
 
@@ -43,6 +41,7 @@ Advanced Panel
 ==============
 
 .. figure:: /images/dynamic-paint_canvas_advanced.jpg
+   :align: right
 
    Canvas advanced panel.
 
@@ -57,7 +56,7 @@ Each surface has a "type" that defines what surface is used for. Available types
 - Weight
 
 
-Common options
+Common Options
 --------------
 
 For each surface type there are special settings to adjust.

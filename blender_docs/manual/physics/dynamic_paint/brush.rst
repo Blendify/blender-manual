@@ -3,9 +3,6 @@
 Dynamic Paint Brush
 *******************
 
-Main Panel
-==========
-
 .. figure:: /images/physics_dynamic-paint_brush.jpg
 
    Brush main panel.
@@ -51,26 +48,12 @@ Brush "Source" setting lets you define how brush influence/intersection is defin
 There are currently five brush behavior types to choose from,
 each having individual settings for further tweaking:
 
-
-.. figure:: /images/dynamicpaint-guide-brush_volume.jpg
-
-   Brush Source - Volume.
-
-
 Mesh Volume
    This the default option. Brush affects all surface point inside the mesh volume.
 
+   .. figure:: /images/dynamicpaint-guide-brush_volume.jpg
 
-.. list-table::
-
-   * - .. figure:: /images/dynamicpaint-guide-brush_proximity.jpg
-
-          Brush Source - Proximity. Brush affects all canvas pixels around it.
-
-     - .. figure:: /images/dynamicpaint-brush-proximity-project.jpg
-
-          "Project" setting enabled. See how brush only affects canvas in normal direction.
-
+      Source: Mesh Volume
 
 Proximity
    Only uses defined distance to the closest point on brush mesh surface.
@@ -78,58 +61,60 @@ Proximity
 
    Proximity falloff type can be "Smooth", "Sharp" or tweaked with a color ramp.
 
+   .. figure:: /images/dynamicpaint-guide-brush_proximity.jpg
+
+      Source: Proximity. Brush affects all canvas pixels around it.
+
 Project
    Projects brush to the canvas from a defined direction.
    Basically this can be considered as "direction aligned" proximity.
 
+   .. figure:: /images/dynamicpaint-brush-proximity-project.jpg
 
-.. list-table::
-
-   * - .. figure:: /images/dynamicpaint-guide-brush_volume_proximity.jpg
-
-          "Volume + Proximity" brush with no additional settings.
-
-     - .. figure:: /images/dynamicpaint-guide-brush_volume_proximity_inner.jpg
-
-          Inner Proximity. Proximity falloff is now visible inside the volume.
-
-   * - .. figure:: /images/dynamicpaint-brush-negate-volume.jpg
-
-          Negate Volume. Inner side of the volume has become completely transparent.
-
-     - .. figure:: /images/dynamicpaint-brush-negate-volume-and-inner.jpg
-
-          Inner Proximity and Negate Volume enabled together.
-
+      "Project" setting enabled. See how brush only affects canvas in normal direction.
 
 Mesh Volume + Proximity
    Same as volume type, but also has influence over defined distance.
    Same falloff types as for "Proximity" type are available.
 
-Inner Proximity
-   Applies proximity inside the mesh volume.
+   Inner Proximity
+      Applies proximity inside the mesh volume.
 
-Negate Volume
-   Negates brush alpha within mesh volume.
+   Negate Volume
+      Negates brush alpha within mesh volume.
 
+   .. list-table::
 
-.. figure:: /images/dynamicpaint-guide-brush_objectcenter.jpg
+      * - .. figure:: /images/dynamicpaint-guide-brush_volume_proximity.jpg
 
-   Brush Source - Object Center.
+             "Volume + Proximity" brush with no additional settings.
 
+        - .. figure:: /images/dynamicpaint-guide-brush_volume_proximity_inner.jpg
+
+             Inner Proximity. Proximity falloff is now visible inside the volume.
+
+      * - .. figure:: /images/dynamicpaint-brush-negate-volume.jpg
+
+             Negate Volume. Inner side of the volume has become completely transparent.
+
+        - .. figure:: /images/dynamicpaint-brush-negate-volume-and-inner.jpg
+
+             Inner Proximity and Negate Volume enabled together.
 
 Object Center
    Instead of calculating proximity to the brush object mesh, which can be quite slow in some cases,
    only distance to only center is calculated. This is much faster and often good enough.
 
+   .. figure:: /images/dynamicpaint-guide-brush_objectcenter.jpg
 
-.. figure:: /images/dynamicpaint-guide-brush_particlesystem.jpg
-
-   Brush Source - Particle System.
-
+      Brush Source - Object Center.
 
 Particle System
    Brush influence is defined by particles from a selected particle system.
+
+   .. figure:: /images/dynamicpaint-guide-brush_particlesystem.jpg
+
+      Brush Source - Particle System.
 
 
 Velocity Panel
@@ -153,7 +138,7 @@ Multiply Alpha
    Uses color ramp's alpha value depending on current velocity and multiplies brush alpha with it.
 
 Replace Color
-   Replaces the brush color with the ramp color.
+   Replaces the brush color with the values from the :ref:`ui-color_ramp_widget`.
 
 Multiply Depth
    Multiplies brushes "depth intersection" effect.
@@ -178,8 +163,27 @@ Waves Panel
 
 This panel is used to adjust brush influence to "Wave" surfaces.
 
-You can use "Wave Type" menu to select what effect this brush has on the wave simulation.
-Below are two settings for further adjustments.
+Wave Type
+   Select what effect the brush has on the wave simulation.
+
+   Depth Change
+      This option makes brush create waves when the intersection depth with the surface is *changed* on that point.
+      If the brush remains still it won't have influence.
+
+      Using a negative "Factor" with this type can create a nice looking "wake" for moving objects like ships.
+
+   Obstacle
+      Constantly affects surface whenever intersecting.
+      Waves are also reflected off this brush type.
+      However, due the nature of wave simulation algorithm this type creates
+      an unnatural "dent" in the surface if brush remains still.
+
+   Force
+      Directly affects the velocity of wave motion.
+      Therefore the effect is not one to one with brush intersection depth, yet the force strength depends on it.
+
+   Reflect Only
+      This type has no visible effect on the surface alone but reflects waves that are already on the surface.
 
 Factor
    Adjusts how strongly brush "depth" affects the simulation.
@@ -188,25 +192,3 @@ Factor
 Clamp Waves
    In some cases the brush goes very deep inside the surface messing whole simulation up.
    You can use this setting to "limit" influence to only certain depth.
-
-There are four "Wave Type" options available:
-
-Depth Change
-   This option makes brush create waves when the intersection depth with the surface is *changed* on that point.
-   If the brush remains still it won't have influence.
-
-   Using a negative "Factor" with this type can create a nice looking "wake" for moving objects like ships.
-
-Obstacle
-   Constantly affects surface whenever intersecting.
-   Waves are also reflected off this brush type.
-   However, due the nature of wave simulation algorithm this type creates
-   an unnatural "dent" in the surface if brush remains still.
-
-Force
-   Directly affects the velocity of wave motion.
-   Therefore the effect is not one to one with brush intersection depth, yet the force strength depends on it.
-
-Reflect Only
-   This type has no visible effect on the surface alone but reflects waves that are already on the surface.
-
