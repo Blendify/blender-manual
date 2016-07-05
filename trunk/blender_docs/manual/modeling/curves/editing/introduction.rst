@@ -3,7 +3,7 @@
 Curve Editing
 *************
 
-This page covers the basics oF-Curve editing. Curve basics,
+This page covers the basics of curve editing. Curve basics,
 selecting and advanced editing are covered in the following pages:
 
 - :doc:`Curve basics </modeling/curves/introduction>`
@@ -30,7 +30,7 @@ Handles
 Normals
    Toggles the display of Curve Normals.
 Normal Size
-   Sets the display scale oF-Curve normals.
+   Sets the display scale of curve normals.
 
 
 .. _curves-hiding:

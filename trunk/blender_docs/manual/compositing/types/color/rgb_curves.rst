@@ -75,7 +75,7 @@ In this example, the image has way too much red in it,
 so we run it through an RGB node and reduce the Red channel by about half.
 
 We added a middle dot so we could make the line into a sideways exponential curve.
-This kind oF-Curve evens out the amount of a color in an image as it reaches saturation. Also,
+This kind of curve evens out the amount of a color in an image as it reaches saturation. Also,
 read on for examples of the Darken and Contrast Enhancement curves.
 
 
