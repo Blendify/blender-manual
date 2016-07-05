@@ -37,12 +37,12 @@ Poly Order
    Specify the order of the polynomial, or the highest power of ``X`` for this polynomial.
    (number of coefficients - 1).
 
-Change the Coefficient values to change the shape of the curve.
+   Change the Coefficient values to change the shape of the curve.
 
-.. seealso::
+   .. seealso::
 
-   `The Wikipedia Page <https://en.wikipedia.org/wiki/Polynomial>`__
-   for more information on polynomials.
+      `The Wikipedia Page <https://en.wikipedia.org/wiki/Polynomial>`__
+      for more information on polynomials.
 
 
 Built-in Function
