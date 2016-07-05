@@ -75,7 +75,7 @@ Blender internally treats NURBS surfaces and NURBS curves completely differently
 several attributes that separate them but the most important is that a NURBS curve has a
 single interpolation axis (U) and a NURBS surface has two interpolation axes (U and V).
 
-However, you can have "2D" surfaces made oF-Curves
+However, you can have "2D" surfaces made of curves
 (using the :doc:`extrusion tools </modeling/curves/editing/extrude>`,
 or, to a lesser extent, the filling of closed 2D curves. And you can have "1D" curves made of surfaces,
 like a NURBS surface with only one row (either in U or V direction) of control points produces only a curve...

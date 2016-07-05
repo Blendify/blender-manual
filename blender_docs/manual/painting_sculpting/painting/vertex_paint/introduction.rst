@@ -182,7 +182,7 @@ Options
 Overlay
 =======
 
-Allows you to customize the display oF-Curve and texture that applied to the brush.
+Allows you to customize the display of curve and texture that applied to the brush.
 
 
 Appearance

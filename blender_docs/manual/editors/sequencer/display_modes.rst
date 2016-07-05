@@ -122,7 +122,7 @@ the horizontal axis is a mapping from the horizontal axis of the frame.
 There are as many curves as scanlines in the frame:
 each one of this curves represents the luminosity of the pixels of one line. Moreover, the
 color of a pixel in this mode represents the number of pixels from the matching column of the
-frame sharing the same luminosity - i.e. the number oF-Curves that cross at this point
+frame sharing the same luminosity - i.e. the number of curves that cross at this point
 (black/transparent, for no pixel, white/opaque for at least three pixels).
 
 Separate Colors
@@ -155,7 +155,7 @@ This mode is good for:
 .. Note::
 
    Note that the pictures (first green frame, at the top) are only 50px high,
-   to limit the number oF-Curves displayed in the *Luma waveform* 
+   to limit the number of curves displayed in the *Luma waveform* 
 
 Use this display to check for appropriate contrast and luminosity across all frames in the channel.
 When spots in the film that should have even illumination do not,
