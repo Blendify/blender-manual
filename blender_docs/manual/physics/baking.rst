@@ -23,9 +23,13 @@ Compression
    Compression level for cache files. Some physics caches can be very large (such as smoke).
    Blender can compress these caches in order to save space.
 
-   *Light* compression optimizes speed of compressing/decompressing operations over file size.
-   *Heavy* compression will result in smaller cache files more than *Light*,
-   however requires more CPU time to compress/decompress.
+   None
+      Do not compress the cache.
+   Light
+      Compression optimizes speed of compressing/decompressing operations over file size.
+   Heavy
+      Compression will result in smaller cache files more than *Light*,
+      however requires more CPU time to compress/decompress.
 
 External
    Read and write the cache to disk using a user-specified file path.
