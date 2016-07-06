@@ -28,7 +28,7 @@ Damping
 -------
 
 Spring
-   Damping of cloth velocity. Higher = more smooth, less jiggling.
+   Damping of cloth velocity. Higher values give a more smooth result (less jiggling).
 Air
    Air normally has some thickness which slows falling things down.
 Velocity

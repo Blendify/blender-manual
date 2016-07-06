@@ -38,7 +38,7 @@ in simulations using *Boids* physics).
 Display
    Specifies the percentage of all particles to show in the viewport (all particles are still rendered).
 Draw Size
-   Specifies how large (in pixels) the particles are drawn in the viewport (0 = default).
+   Specifies how large (in pixels) the particles are drawn in the viewport.
 
 Size
    Draw the size of the particles with a circle.

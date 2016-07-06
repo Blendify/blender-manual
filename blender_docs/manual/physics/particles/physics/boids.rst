@@ -67,7 +67,7 @@ Land Stick Force
    How strong a force must be to start effecting a boid on land.
 
 Banking
-   Amount of rotation around velocity vector on turns. Banking of (1.0 == natural banking).
+   Amount of rotation around velocity vector on turns. Banking of 1.0 gives a natural banking effect.
 Pitch
    Amount of rotation around side vector.
 Height
