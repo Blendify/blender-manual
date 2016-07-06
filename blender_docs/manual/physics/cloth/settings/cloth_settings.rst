@@ -31,21 +31,22 @@ Spring
    Damping of cloth velocity. Higher = more smooth, less jiggling.
 Air
    Air normally has some thickness which slows falling things down.
+Velocity
+   Damps the velocity to help the cloth reach the final resting position faster.
 
 
 Pinning
 -------
 
-.. figure:: /images/physics-cloth-pin-example_01.png
-   :width: 200px
-
-   Cloth in action.
-
-
 The first thing you need when pinning cloth is a :doc:`Vertex Group </modeling/meshes/vertex_groups/index>`.
 There are several ways of doing this including using the Weight Paint tool to paint the areas you want to pin
-(see the :ref:`painting_weight-index` section of the manual).
+(see the :doc:`/painting_sculpting/painting/weight_paint/index` section of the manual).
 The weight of each vertex in the group controls how strongly it is pinned.
+
+.. figure:: /images/physics-cloth-pin-example_01.png
+
+   Cloth Pinning.
+
 
 Once you have a vertex group set, things are pretty straightforward; all you have to do is
 press the *Pinning of cloth* button in the *Cloth* panel and select which
