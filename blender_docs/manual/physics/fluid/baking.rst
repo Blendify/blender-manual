@@ -1,3 +1,4 @@
+.. _fluid-baking:
 
 ******
 Baking

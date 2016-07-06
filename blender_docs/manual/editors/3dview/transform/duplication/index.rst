@@ -1,3 +1,4 @@
+.. _modeling_objects_duplication-index:
 
 ##############
   Duplication

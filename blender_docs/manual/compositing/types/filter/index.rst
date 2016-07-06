@@ -1,3 +1,4 @@
+.. _composite_nodes_filter-index:
 
 ###############
   Filter Nodes

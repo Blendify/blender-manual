@@ -1,4 +1,6 @@
 
+.. _fluid_simulation-types-index:
+
 ##############
   Fluid Types
 ##############

@@ -1,3 +1,4 @@
+.. _rigid_body_constraints_types-index:
 
 ########
   Types

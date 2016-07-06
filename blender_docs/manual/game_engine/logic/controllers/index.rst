@@ -1,3 +1,4 @@
+.. _controllers-index:
 
 ##############
   Controllers

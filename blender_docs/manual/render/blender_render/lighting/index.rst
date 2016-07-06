@@ -1,3 +1,4 @@
+.. _lighting-index:
 
 ###########
   Lighting

@@ -1,3 +1,4 @@
+.. _objects-types-index:
 
 ################
   Objects Types

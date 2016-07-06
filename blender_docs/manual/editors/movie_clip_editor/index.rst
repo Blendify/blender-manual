@@ -1,3 +1,4 @@
+.. _editors-movieclip-index:
 
 ####################
   Movie Clip Editor

@@ -1,3 +1,4 @@
+.. _physics-force_fields-index:
 
 ###############
   Force Fields

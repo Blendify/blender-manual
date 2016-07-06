@@ -1,3 +1,4 @@
+.. _game_engine-physics-index:
 
 ###########
   Physics

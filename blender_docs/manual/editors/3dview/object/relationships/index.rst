@@ -1,3 +1,4 @@
+.. _3dview-relationships-index:
 
 #######################
   Object Relationships

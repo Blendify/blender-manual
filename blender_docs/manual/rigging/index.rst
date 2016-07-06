@@ -1,3 +1,4 @@
+.. _rigging-index:
 
 ##########
   Rigging

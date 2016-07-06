@@ -13,7 +13,7 @@ There are three ways to establish the image used by the UV Texture:
 - Paint a flat image in the UV/Image Editor onto the currently selected UV Texture,
   using its UV map to transfer the colors to the faces of the mesh.
 - Paint the mesh in the 3D View, and let Blender use the currently selected UV map to update the UV Texture
-  (see :doc:`Projection Painting </painting_sculpting/painting/texture_paint/index>`).
+  (see :ref:`Projection Painting <painting_texture-index>`).
 - Use any image-editing (paint) program to create an image.
   In the UV/Image Editor, select the UV Texture and load the image.
   Blender will then use that texture's UV map to transfer the colors to the faces of the mesh
@@ -37,7 +37,7 @@ However, each UV Texture only has one image.
 
 Texture Paint works in both a 3D View and the UV/Image Editor.
 In the 3D View in Texture Paint Mode, you paint directly on the mesh by
-:doc:`projecting onto the UVs </painting_sculpting/painting/texture_paint/index>`.
+:ref:`projecting onto the UVs <painting_texture-index>`.
 
 
 Getting Started
@@ -48,7 +48,7 @@ you can begin the texturing process.
 You cannot paint on a mesh in Texture Paint Mode without **first** unwrapping your mesh,
 **and** doing one of the following steps. Either:
 
-See: :doc:`Applying Image </editors/uv_image/uv_editing/applying_image>`.
+See: :doc:`Applyin Image </editors/uv_image/uv_editing/applying_image>`.
 
 After you have done one of these two things,
 you can modify the image using the Texture Paint Mode:
@@ -279,7 +279,7 @@ Smooth stroke
    Brush lags behind mouse and follows a smoother path. When enabled, the following become active:
 
    Radius
-      Sets the minimum distance from the last point before stroke continues.
+      Sets the minimun distance from the last point before stroke continues.
    Factor
       Sets the amount of smoothing.
 Input Samples

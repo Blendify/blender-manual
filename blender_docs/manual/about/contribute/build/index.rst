@@ -1,3 +1,4 @@
+.. _about-build-index:
 
 #########
   Build

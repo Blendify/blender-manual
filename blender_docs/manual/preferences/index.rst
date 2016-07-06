@@ -1,3 +1,4 @@
+.. _prefs-index:
 
 ###################
   User Preferences
