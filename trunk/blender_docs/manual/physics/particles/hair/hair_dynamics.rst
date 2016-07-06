@@ -3,33 +3,48 @@
 Hair Dynamics
 *************
 
-Hair particles can now be made dynamic using Cloth physics.
+Hair particles can have dynamic properties using physics.
 
 To enable hair physics, click the check box beside *Hair Dynamics*.
 
 
-Material
-========
+Structure
+=========
 
-Stiffness
-   Controls how stiff the root of the hair strands are.
 Mass
-   Controls the mass of the cloth material.
-Bending
-   Controls the amount of bend along the hairs. Higher values cause less bending.
-Internal Friction
-   Amount of friction between individual hairs.
-Collider Friction
-   Amount of friction between hairs and external collision objects.
+   Value for the mass of the hair.
+Siffness
+   Controls how stiff the root of the hair strands are.
 
+   Random
+      Random stiffness of hair.
 
 Damping
+   Damping of bending motion.
+
+Volume
+======
+
+Air Drag
+   Controls how thick the hair is around the hair causing the hair to flow slower.
+Internal Friction
+   Amount of friction between individual hairs.
+
+Density Target
+   Maximum density if the hair.
+
+   Strength
+      The influence that the *Density Target* has on the simulation.
+
+Voxel Grid Cell Size
+   Size of the voxel grid cells for interaction effects.
+
+
+Pinning
 =======
 
-Spring
-   Damping of cloth velocity. (higher = more smooth, less jiggling).
-Air
-   Air has normally some thickness which slows falling things down.
+Goal Strength
+   Spring stiffness of the vertex target position.
 
 
 Quality
@@ -37,12 +52,9 @@ Quality
 
 Steps
    Quality of the simulation in steps per frame. (higher is better quality but slower).
+HairGrid
+   Show hair simulation grid.
 
-
-Simulation
-==========
-
-..TODO
 
 .. warning::
 
