@@ -1,3 +1,4 @@
+.. _scripting-index:
 
 ################################
   Scripting & Extending Blender

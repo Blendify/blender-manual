@@ -1,3 +1,4 @@
+.. _materials-index:
 
 ############
   Materials

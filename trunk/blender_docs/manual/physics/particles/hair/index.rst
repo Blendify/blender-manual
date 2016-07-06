@@ -1,4 +1,6 @@
 
+.. _particles_hair-index:
+
 #######
   Hair
 #######

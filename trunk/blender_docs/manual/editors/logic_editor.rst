@@ -1,3 +1,4 @@
+.. _editors-logic:
 
 ###############
   Logic Editor

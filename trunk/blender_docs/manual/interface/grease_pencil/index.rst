@@ -1,3 +1,4 @@
+.. _grease_pencil-index:
 
 ################
   Grease Pencil

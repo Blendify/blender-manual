@@ -1,3 +1,4 @@
+.. _composite_nodes_vector-index:
 
 ###############
   Vector Nodes

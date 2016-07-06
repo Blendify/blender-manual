@@ -1,3 +1,4 @@
+.. _troubleshooting-index:
 
 ##################
   Troubleshooting

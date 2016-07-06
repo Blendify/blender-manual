@@ -1,3 +1,4 @@
+.. _modeling_meshes_editing_duplicating-index:
 
 ##############
   Duplicating

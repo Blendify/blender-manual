@@ -37,16 +37,16 @@ Local
    :doc:`light group </render/blender_render/lighting/lights/lights_in_other_contexts>` with the same name.
 Face Textures
    Replace object's base color with color from
-   :doc:`UV map </editors/uv_image/index>` image textures.
+   :ref:`UV map <editors-uv_image-index>` image textures.
 Face Textures Alpha
    Replace object's base alpha with alpha from
-   :doc:`UV map </editors/uv_image/index>` image textures.
+   :ref:`UV map <editors-uv_image-index>` image textures.
 Vertex Color Paint
    Replace object's base color with
-   :doc:`vertex paint </painting_sculpting/painting/vertex_paint/index>`
+   :ref:`vertex paint <painting_vertex-index>`
    colors (multiply with 'texture face' face assigned textures)
 Vertex Color Light
-   Add :doc:`vertex paint </painting_sculpting/painting/vertex_paint/index>`
+   Add :ref:`vertex paint <painting_vertex-index>`
    colors as additional lighting.
    (This can be used to produce good incandescence effects).
 Object Color

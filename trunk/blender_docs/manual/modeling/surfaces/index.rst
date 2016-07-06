@@ -1,3 +1,4 @@
+.. _modeling_surfaces-index:
 
 ###########
   Surfaces

@@ -1,3 +1,4 @@
+.. _getting-started-index:
 
 ##################
   Getting Started

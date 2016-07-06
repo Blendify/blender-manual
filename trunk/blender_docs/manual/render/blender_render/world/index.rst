@@ -1,3 +1,4 @@
+.. _world-index:
 
 ########
   World

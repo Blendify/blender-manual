@@ -1,3 +1,4 @@
+.. _object-modes:
 
 ************
 Object Modes
@@ -109,9 +110,9 @@ As you can see, using shortcuts to switch between modes can become quite tricky,
 
    The cursor becomes a brush in:
 
-   - :doc:`/painting_sculpting/painting/vertex_paint/index` mode
-   - :doc:`/painting_sculpting/painting/weight_paint/index` mode
-   - :doc:`/painting_sculpting/painting/texture_paint/index` mode.
+   - :ref:`painting_vertex-index` mode
+   - :ref:`painting_weight-index` mode
+   - :ref:`painting_texture-index` mode.
 
 .. Todo add to chart
 

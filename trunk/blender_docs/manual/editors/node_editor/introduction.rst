@@ -1,4 +1,6 @@
 
+.. _node-editor:
+
 ************
 Introduction
 ************

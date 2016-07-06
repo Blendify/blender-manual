@@ -1,3 +1,4 @@
+.. _dynamic_paint-index:
 
 ################
   Dynamic Paint

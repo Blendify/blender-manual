@@ -1,3 +1,4 @@
+.. _modeling_meshes_selecting-index:
 
 ############
   Selecting

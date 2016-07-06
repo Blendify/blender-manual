@@ -1,3 +1,4 @@
+.. _smoke-types-index:
 
 ##############
   Smoke Types

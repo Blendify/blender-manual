@@ -1,3 +1,4 @@
+.. _objects-index:
 
 ##########
   Objects

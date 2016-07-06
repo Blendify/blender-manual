@@ -1,3 +1,4 @@
+.. _painting-index:
 
 #######################
   Painting & Sculpting

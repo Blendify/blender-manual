@@ -110,7 +110,7 @@ Variable Type
    Single Property
       Use the value from some RNA property.
       For example, the Ambient shading color from a material.
-      First select the type of ID-block, then the ID of the ID-block, then copy and paste an RNA property :kbd:`Ctrl-V`.
+      First select the type of ID-block, then the ID of the ID-block, then copy and paste an RNA property (Ctrl+V).
 
       ID-Type
          The ID-Block type, example, Key, Image, Object, Material.
@@ -214,7 +214,7 @@ First make sure you are in the Front Ortho view. :kbd:`Numpad5`, :kbd:`Numpad1`.
 
 .. figure:: /images/animation_drivers_transform.jpg
 
-When finished, "Cube.001" should rotate on the Y axis when moving "Cube" left of right.
+When finished, ``Cube.001`` should rotate on the Y axis when moving ``Cube`` left of right.
 
 
 Examples
@@ -367,12 +367,12 @@ and uses the maximum value to determine how much the base should be
 extended. The generator polynomial is crafted such that the top of
 the dominant stack should line up with the bone for that stack.
 
-The value of Key2A is bound to the position of "Bone.L". Its generator
+The value of Key2A is bound to the position of ``Bone.L``. Its generator
 parameters are crafted such that when Key1's value reaches 1, the
 value of Key2A starts increasing beyond zero. In this way, the top of
 the left stack will move with bone.L (mostly).
 
-The value of Key2B is bound to the position of "Bone.R". Its generator
+The value of Key2B is bound to the position of ``Bone.R``. Its generator
 parameters are similar to Key2A so that the top of the right stack
 will move with bone.R (mostly).
 
@@ -444,7 +444,7 @@ number or because you are skipping already rendered frames).
    - :doc:`Animation </animation/index>`
    - :doc:`Graph Editor </editors/graph_editor/introduction>`
    - :doc:`F-Curves </editors/graph_editor/fcurves/introduction>`
-   - :doc:`Extending Blender with Python </advanced/scripting/index>`.
+   - :ref:`Extending Blender with Python <scripting-index>`.
 
    - `Python <https://www.python.org>`__ and its `documentation <https://www.python.org/doc>`__.
    - `functions.wolfram.com <http://functions.wolfram.com/>`__

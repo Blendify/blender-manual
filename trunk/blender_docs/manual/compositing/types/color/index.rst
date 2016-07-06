@@ -1,3 +1,4 @@
+.. _composite_nodes_color-index:
 
 ##############
   Color Nodes

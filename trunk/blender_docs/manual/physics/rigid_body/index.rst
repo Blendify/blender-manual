@@ -1,3 +1,4 @@
+.. _rigid_body-index:
 
 #############
   Rigid Body

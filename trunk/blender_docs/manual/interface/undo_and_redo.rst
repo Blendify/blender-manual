@@ -1,4 +1,6 @@
 
+.. _recover-options-for-actions:
+
 *************
 Undo and Redo
 *************

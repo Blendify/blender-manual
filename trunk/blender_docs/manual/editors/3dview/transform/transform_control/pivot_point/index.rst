@@ -1,3 +1,4 @@
+.. _pivot-point:
 
 ##############
   Pivot Point

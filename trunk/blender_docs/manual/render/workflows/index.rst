@@ -1,3 +1,4 @@
+.. _render-workflows:
 
 ############
   Workflows
