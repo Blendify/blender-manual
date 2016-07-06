@@ -1,8 +1,8 @@
 .. _interface-index:
 
-############
-  Interface
-############
+#################
+  User Interface
+#################
 
 .. toctree::
    :maxdepth: 1
