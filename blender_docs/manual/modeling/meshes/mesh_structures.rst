@@ -1,14 +1,25 @@
 
-*************************
-Vertices, Edges and Faces
-*************************
+**************
+Mesh Structure
+**************
 
 With meshes, everything is built from three basic structures:
 *Vertices*, *Edges* and *Faces*.
 
+.. figure:: /images/mesh_structure.png
+
+   Example of mesh structure.
+
+
 
 Vertices
 ========
+
+A vertex is primarily a single point or position in 3D space.
+It is usually invisible in rendering and in *Object Mode*.
+Do not mistake the center point of an object for a vertex. It looks similar,
+but it's bigger and you cannot select it. Fig. :ref:`fig-mesh-topo-vector`
+shows the center point labeled as "A", "B" and "C" are vertices.
 
 .. _fig-mesh-topo-vector:
 
@@ -16,12 +27,6 @@ Vertices
 
    Vertex example.
 
-
-A vertex is primarily a single point or position in 3D space.
-It is usually invisible in rendering and in *Object Mode*.
-Do not mistake the center point of an object for a vertex. It looks similar,
-but it's bigger and you cannot select it. Fig. :ref:`fig-mesh-topo-vector`
-shows the center point labeled as "A", "B" and "C" are vertices.
 
 A simple way to create a new vertex is to click :kbd:`Ctrl-LMB` in *Edit Mode*.
 Of course, as a computer screen is two-dimensional,
