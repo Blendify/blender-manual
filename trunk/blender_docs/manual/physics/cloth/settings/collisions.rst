@@ -7,7 +7,7 @@ In most cases, a piece of cloth does not just hang there in 3D space,
 it collides with other objects in the environment. To ensure proper simulation,
 there are several items that have to be set up and working together:
 
-- The *Cloth* object must be told to participate in *Collision* s.
+- The *Cloth* object must be told to participate in collisions.
 - Optionally (but recommended) tell the cloth to collide with itself.
 - Other objects must be visible to the *Cloth* object *via* shared layers.
 - The other objects must be mesh objects.
@@ -32,8 +32,6 @@ Collision Settings
 Now you must tell the *Cloth* object that you want it to participate in collisions.
 For the cloth object, locate the *Cloth Collision* panel, shown to the right:
 
-Enable Collisions
-   :kbd:`LMB` click this to tell the cloth object that it needs to move out of the way.
 Quality
    A general setting for how fine and good a simulation you wish.
    Higher numbers take more time but ensure less tears and penetrations through the cloth.

@@ -7,6 +7,5 @@
    :maxdepth: 2
 
    introduction.rst
-   cloth_settings.rst
-   collisions.rst
+   settings/index.rst
    examples.rst
