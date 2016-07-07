@@ -10,6 +10,7 @@ which may be used for hair, fur, grass and the like.
 
    Particle hair systems example. Used for the grass and fur.
 
+
 Growing
 =======
 
@@ -66,6 +67,10 @@ Regrow
    Regrow Hair for each frame.
 Advanced
    Enables advanced settings which reflect the same ones as working in Emitter mode.
+
+   .. note::
+
+      This manual assumes that this option is enabled.
 
 
 Emission
