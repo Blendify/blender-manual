@@ -147,3 +147,34 @@ Sample Keyframes :kbd:`Shift-O`
 
 Bake Curves :kbd:`Alt-C`
    Baking a curve replaces it with a set of sampled points, and removes the ability to edit the curve.
+
+
+Bake Sound to F-Curves
+======================
+
+The *Bake Sound to F-Curves* tool takes and sound file and uses its sound wave to create the animation data.
+
+Lowest frequency
+   Cutoff frequency of a high-pass filter that is applied to the audio data.
+Highest frequency
+   Cutoff frequency of a low-pass filter that is applied to the audio data.
+Attack time
+   Value for the hull curve calcuclation that tells how fast the hull curve can rise.
+   The lower the value the steeper it can rise.
+Release time
+   Value for the hull curve calculation that tells how fast the hull curve can fall.
+   The lower the value the steeper it can fall.
+Threshold
+   Minimum amplitude value needed to influence the hull curve.
+
+Accumulate
+   Only the positive differences of the hull curve amplitudes are summarized to produce the output.
+Additive
+   The amplitudes of the hull curve are summarized. If *Accumulate* is enabled,
+   both positive and negative differences are accumulated.
+Square
+   Gives the output as a square curve.
+   Negative values always result in -1, and positive ones in 1.
+
+   Square Threshold
+      All values lower than this threshold result in 0.
