@@ -15,6 +15,7 @@ Physic Types
 ============
 
 .. toctree::
+   :maxdepth: 1
 
    force_fields/index.rst
    collision.rst
