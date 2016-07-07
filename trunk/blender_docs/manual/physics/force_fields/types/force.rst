@@ -21,3 +21,5 @@ and are blown away from a field with positive strength.
 For :doc:`Boids Particles </physics/particles/physics/index>` a field with positive strength can be used as a *Goal*,
 a field with negative strength can be used as *Predator*.
 Whether *Boids* seek or fly goals/predators depends on the *Physics* settings of the Boids.
+
+.. vimeo:: 173807488

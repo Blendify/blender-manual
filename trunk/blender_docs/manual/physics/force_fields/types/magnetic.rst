@@ -15,3 +15,5 @@ It simulates the force of magnetism on magnetized objects.
    :width: 400px
 
    UI for a Magnetic force field.
+
+.. vimeo:: 173818957
