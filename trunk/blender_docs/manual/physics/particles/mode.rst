@@ -91,11 +91,8 @@ To be able to clearly see what you are working on:
    Press :kbd:`F` to resize the brush while working
 
 
-Using Particle Mode
-===================
-
-Selecting Points
-----------------
+Selecting
+=========
 
 - Single: :kbd:`RMB`.
 - All: :kbd:`A`.
@@ -114,7 +111,26 @@ You may also use the *Select* Menu.
    To remove a path, hold shift and press :kbd:`L`. To Deselect all press :kbd:`A`.
 
    The method to select individual points is the same as in edit mode. click to select,
-   shift+click to add/remove a point from the selection
+   shift+click to add/remove a point from the selection.
+
+
+Select Modes
+------------
+
+.. figure:: /images/particle_select-display-mode.jpg
+   :width: 640px
+
+
+Path
+   No keypoints are visible, you can select/deselect only all particles.
+Point
+   You see all of the keypoints.
+Tip
+   You can see and edit (including the brushes) only the tip of the particles, i.e. the last keypoint.
+
+
+Editing
+=======
 
 .. warning:: Beware of Undo!
 
@@ -122,7 +138,7 @@ You may also use the *Select* Menu.
 
 
 Moving keypoints or particles
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------------
 
 - To move selected keypoints press :kbd:`G`, or use one of the various other methods to grab vertices.
 - To move a particle root you have to turn off *Keep* *Root* in the Tool Shelf.
@@ -139,8 +155,8 @@ setting in the Tool Shelf. Low settings produce blocky interpolation between poi
 while high settings produce a smooth curve.
 
 
-Mirroring particles
-^^^^^^^^^^^^^^^^^^^
+Mirroring Particles
+-------------------
 
 - If you want to create an X-Axis symmetrical haircut you have to do following steps:
   - Select all particles with :kbd:`A`.
@@ -154,7 +170,7 @@ or the *Particle* menu.
 
 
 Hiding/Unhiding
-^^^^^^^^^^^^^^^
+---------------
 
 Hiding and unhiding of particles works similar as with vertices in the 3D View.
 Select one or more keypoints of the particle you want to hide and press :kbd:`H`.
@@ -169,23 +185,8 @@ if their mirrored counterpart is moved.
 To un-hide all hidden particles press Alt+H.
 
 
-Select Modes
-^^^^^^^^^^^^
-
-.. figure:: /images/particle_select-display-mode.jpg
-   :width: 640px
-
-
-Path
-   No keypoints are visible, you can select/deselect only all particles.
-Point
-   You see all of the keypoints.
-Tip
-   You can see and edit (including the brushes) only the tip of the particles, i.e. the last keypoint.
-
-
 Brush
-^^^^^
+=====
 
 With the buttons you can select the type of "Comb" utility you want to use.
 Below the brush types, their settings appear:
@@ -237,7 +238,7 @@ Weight
 
 
 Options
-^^^^^^^
+-------
 
 Deflect Emitter, Dist
    Do not move keypoints through the emitting mesh. *Dist* is the distance to keep from the Emitter.
