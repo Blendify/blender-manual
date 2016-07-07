@@ -44,10 +44,8 @@ Setup for Hair Particles
 
 
 .. figure:: /images/particle_mode.jpg
-   :width: 120px
 
    Editing hair strands in Particle Mode.
-
 
 .. figure:: /images/physics_particle_mode_example.gif
 
@@ -62,6 +60,7 @@ Setup for Particle, Cloth, and Soft Body Simulations
   set your time range (use a small range if you are just starting out and experimenting),
   set up the simulation how you want it, using :kbd:`Alt-A` to preview it.
 
+
 Bake the Simulation
 ^^^^^^^^^^^^^^^^^^^
 
@@ -69,6 +68,7 @@ Bake the Simulation
   :doc:`bake </physics/particles/cache_and_bake>` the simulation from object mode.
   The simulation must be baked to enable editing. (remember to bake to memory,
   a disk cache will not be editable in *Particle Mode*)
+
 
 Edit the Simulation
 ^^^^^^^^^^^^^^^^^^^
@@ -116,8 +116,7 @@ You may also use the *Select* Menu.
    The method to select individual points is the same as in edit mode. click to select,
    shift+click to add/remove a point from the selection
 
-
-.. tip:: Beware of Undo!
+.. warning:: Beware of Undo!
 
    Using *Undo* in *Particle Mode* can have strange results. Remember to save often!
 
