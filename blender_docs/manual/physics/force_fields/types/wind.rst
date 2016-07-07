@@ -15,3 +15,5 @@ The strength of the force is visualized by the spacing of the circles shown.
    :width: 400px
 
    UI for a Wind force field.
+
+.. vimeo:: 173807567

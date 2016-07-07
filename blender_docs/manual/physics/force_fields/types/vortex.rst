@@ -16,3 +16,5 @@ or kinks in particle hair.
    :width: 400px
 
    UI for a Vortex force field.
+
+.. vimeo:: 173811208
