@@ -7,14 +7,22 @@
 .. toctree::
    :maxdepth: 2
 
-   introduction.rst  
+   introduction.rst
+   baking.rst
+
+
+Physic Types
+============
+
+.. toctree::
+
+   force_fields/index.rst
    collision.rst
    cloth/index.rst
    dynamic_paint/index.rst
+   soft_body/index.rst
    fluid/index.rst
    particles/index.rst
    smoke/index.rst
-   soft_body/index.rst
    rigid_body/index.rst
-   force_fields/index.rst
-   baking.rst
+   particles/index.rst
