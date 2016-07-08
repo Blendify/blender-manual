@@ -116,62 +116,6 @@ Tip
    You can see and edit (including the brushes) only the tip of the particles, i.e. the last keypoint.
 
 
-Editing
-=======
-
-.. warning:: Beware of Undo!
-
-   Using *Undo* in *Particle Mode* can have strange results. Remember to save often!
-
-
-Moving keypoints or particles
------------------------------
-
-- To move selected keypoints press :kbd:`G`, or use one of the various other methods to grab vertices.
-- To move a particle root you have to turn off *Keep* *Root* in the Tool Shelf.
-- You can do many of the things like with vertices, including scaling,
-  rotating and removing (complete particles or single keys).
-- You may not duplicate or extrude keys or particles,
-  but you can subdivide particles which adds new keypoints
-  :kbd:`W` :menuselection:`--> Subdivide`or :kbd:`Numpad2`.
-- Alternatively you can rekey a particle
-  :kbd:`W` :menuselection:`--> Rekey` or :kbd:`Numpad1` and choose the number of keys.
-
-How smoothly the hair and particle paths are displayed depends on the *Path Steps*
-setting in the Tool Shelf. Low settings produce blocky interpolation between points,
-while high settings produce a smooth curve.
-
-
-Mirroring Particles
--------------------
-
-- If you want to create an X-Axis symmetrical haircut you have to do following steps:
-  - Select all particles with :kbd:`A`.
-  - Mirror the particles with :kbd:`Ctrl-M`, or use the :menuselection:`Particle --> Mirror` menu.
-  - Turn on *X-Axis Mirror Editing* in the *Particle* menu.
-
-It may happen that after mirroring two particles occupy nearly the same place.
-Since this would be a waste of memory and rendertime,
-you can *Remove doubles* either from the *Specials* :kbd:`W`
-or the *Particle* menu.
-
-
-Hiding/Unhiding
----------------
-
-Hiding and unhiding of particles works similar as with vertices in the 3D View.
-Select one or more keypoints of the particle you want to hide and press :kbd:`H`.
-The particle in fact doesn't vanish, only the key points.
-
-Hidden particles (i.e. particles whose keypoints are hidden)
-do not react on the various brushes. But:
-
-If you use *Mirror Editing* even particles with hidden keypoints may be moved,
-if their mirrored counterpart is moved.
-
-To un-hide all hidden particles press Alt+H.
-
-
 Brush
 =====
 
@@ -254,3 +198,59 @@ Draw
       Draws the children of the particles too.
       This allows to fine tune the particles and see their effects on the result,
       but it may slow down your system if you have many children.
+
+
+Editing
+=======
+
+.. warning:: Beware of Undo!
+
+   Using *Undo* in *Particle Mode* can have strange results. Remember to save often!
+
+
+Moving keypoints or particles
+-----------------------------
+
+- To move selected keypoints press :kbd:`G`, or use one of the various other methods to grab vertices.
+- To move a particle root you have to turn off *Keep* *Root* in the Tool Shelf.
+- You can do many of the things like with vertices, including scaling,
+  rotating and removing (complete particles or single keys).
+- You may not duplicate or extrude keys or particles,
+  but you can subdivide particles which adds new keypoints
+  :kbd:`W` :menuselection:`--> Subdivide`or :kbd:`Numpad2`.
+- Alternatively you can rekey a particle
+  :kbd:`W` :menuselection:`--> Rekey` or :kbd:`Numpad1` and choose the number of keys.
+
+How smoothly the hair and particle paths are displayed depends on the *Path Steps*
+setting in the Tool Shelf. Low settings produce blocky interpolation between points,
+while high settings produce a smooth curve.
+
+
+Mirroring Particles
+-------------------
+
+- If you want to create an X-Axis symmetrical haircut you have to do following steps:
+  - Select all particles with :kbd:`A`.
+  - Mirror the particles with :kbd:`Ctrl-M`, or use the :menuselection:`Particle --> Mirror` menu.
+  - Turn on *X-Axis Mirror Editing* in the *Particle* menu.
+
+It may happen that after mirroring two particles occupy nearly the same place.
+Since this would be a waste of memory and rendertime,
+you can *Remove doubles* either from the *Specials* :kbd:`W`
+or the *Particle* menu.
+
+
+Hiding/Unhiding
+---------------
+
+Hiding and unhiding of particles works similar as with vertices in the 3D View.
+Select one or more keypoints of the particle you want to hide and press :kbd:`H`.
+The particle in fact doesn't vanish, only the key points.
+
+Hidden particles (i.e. particles whose keypoints are hidden)
+do not react on the various brushes. But:
+
+If you use *Mirror Editing* even particles with hidden keypoints may be moved,
+if their mirrored counterpart is moved.
+
+To un-hide all hidden particles press Alt+H.
