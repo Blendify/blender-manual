@@ -28,6 +28,6 @@ Active Clip
    Receive tracking data from the movie clip active in the movie clip editor.
    If unchecked, an option appears to choose from the other clips.
 Constraint to F-Curve
-   Applies the constraint, creating key-frames for the transforms.
+   Applies the constraint, creating Keyframes for the transforms.
 Influence
    Control how much this constraint effects the owner.
