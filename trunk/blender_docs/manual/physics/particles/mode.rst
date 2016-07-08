@@ -70,8 +70,6 @@ Move to the frame you want to edit and use the various *Particle Edit* tools to 
 Work slowly, previewing your changes with :kbd:`Alt-A`, and save often so that you can go back to the previous
 version should something happen, or that you do not like the latest changes you have made.
 
-
-
 .. tip:: To be able to clearly see what you are working on:
 
    #. Open the *Particle Edit Properties* panel with :kbd:`N`.
