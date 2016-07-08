@@ -239,9 +239,15 @@ The usage should be obvious and intuitive.
 
 Options
 =======
+
+Overlay
+-------
+
+Allows you to customize the display of curve and texture that applied to the brush.
+
    
-The brush appearance
---------------------
+Appearance
+----------
 
 .. figure:: /images/modeling-meshes-weight-paint-appearance.jpg
    :width: 235px
@@ -250,18 +256,48 @@ The brush appearance
 
 
 Show Brush
-   makes the brush visible as a circle (on by default)
-Color setter
-   To define the color of the brush circle
-Custom icon
+   Makes the brush visible as a circle (on by default)
+Custom Icon
    Allows definition of a custom brush icon
 
 
-Brush presets
--------------
 
-Blender provides several Brushes, exact options listed at `Brushes`_.
+Options
+-------
 
+.. figure:: /images/modeling-meshes-weight-paint-options.jpg
+
+   Weight Paint Options.
+
+
+The Weight Paint Options modify the overall brush behavior:
+
+Normals
+   The vertex normal (helps) determine the extent of painting. This causes an effect as if painting with light.
+Spray
+   Constantly draw (opposed to drawing one stroke per mouse click).
+Restrict
+   This option limits the influence of painting to vertices belonging
+   (even with weight 0) to the selected vertex group.
+X-mirror
+   Use the X-mirror option for mirrored painting on groups that have symmetrical names,
+   like with extension ".R"/ ".L" or "_R" / "_L".
+   If a group has no mirrored counterpart, it will paint symmetrically on the active group itself.
+   You can read more about the naming convention in
+   :doc:`Editing Armatures: Naming conventions </rigging/armatures/editing/properties>`.
+   The convention for armatures/bones apply here as well.
+Topology Mirror
+   Use topology-based mirroring, for when both side of a mesh have matching mirrored topology.
+Show Zero Weights
+   To display unreferenced and zero weighted areas in black (by default).
+
+   - None
+   - Active
+   - All
+
+Unified Settings
+   The *Size*, *Strength* and *Weight* of the brush can be set to
+   be shared across different brushes, as opposed to per-brush.
 
 
 Selection Masking
@@ -380,44 +416,6 @@ You make the entire mesh visible again by pressing :kbd:`Alt-B` a second time.
 
 All weight paint tools that use the view respect this clipping, including border select,
 weight gradient and of course brush strokes.
-
-
-Weight Paint Options
-====================
-
-.. figure:: /images/modeling-meshes-weight-paint-options.jpg
-
-   Weight Paint Options.
-
-
-The Weight Paint Options modify the overall brush behavior:
-
-Normals
-   The vertex normal (helps) determine the extent of painting. This causes an effect as if painting with light.
-Spray
-   Constantly draw (opposed to drawing one stroke per mouse click).
-Restrict
-   This option limits the influence of painting to vertices belonging
-   (even with weight 0) to the selected vertex group.
-X-mirror
-   Use the X-mirror option for mirrored painting on groups that have symmetrical names,
-   like with extension ".R"/ ".L" or "_R" / "_L".
-   If a group has no mirrored counterpart, it will paint symmetrically on the active group itself.
-   You can read more about the naming convention in
-   :doc:`Editing Armatures: Naming conventions </rigging/armatures/editing/properties>`.
-   The convention for armatures/bones apply here as well.
-Topology Mirror
-   Use topology-based mirroring, for when both side of a mesh have matching mirrored topology.
-Show Zero Weights
-   To display unreferenced and zero weighted areas in black (by default).
-
-   - None
-   - Active
-   - All
-
-Unified Settings
-   The *Size*, *Strength* and *Weight* of the brush can be set to
-   be shared across different brushes, as opposed to per-brush.
 
 
 Weight Paint Tools
