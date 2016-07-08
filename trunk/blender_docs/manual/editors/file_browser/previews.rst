@@ -26,7 +26,7 @@ Previews can be created and deleted in many ways from :menuselection:`File Edito
 
 
 Refresh DataBlock Previews
-   Ensures that datablock previews are available and up to date.
+   Ensures that data-block previews are available and up to date.
 Batch-Generate Previews
    Generates previews for selected blend-files.
 
@@ -49,7 +49,7 @@ Batch-Generate Previews
 
 
 Clear DataBlock Previews
-   Clears datablock previews.
+   Clears data-block previews.
 
    Scenes
       Clears previews for scenes.
