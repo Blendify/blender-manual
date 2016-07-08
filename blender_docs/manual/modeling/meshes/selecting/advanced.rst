@@ -224,7 +224,7 @@ The loop extends perpendicular from the edge that was selected.
 
 A face loop can also be selected in *Vertex* select mode.
 Technically :kbd:`Ctrl-Alt-RMB` will select an *Edge Ring*,
-however in *Vertex* select mode, selecting an *Edge Ring* implicitly
+however, in *Vertex* select mode, selecting an *Edge Ring* implicitly
 selects a *Face Loop* since selecting opposite edges of a face implicitly selects
 the entire face.
 

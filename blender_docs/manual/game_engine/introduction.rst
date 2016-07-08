@@ -58,7 +58,7 @@ the Game Engine can be efficiently used in all areas of game design,
 from prototyping to final release.
 
 The Game Engine can simulate content within Blender,
-however it also includes the ability to export a binary run-time to Linux, MacOSX and MS-Windows.
+however, it also includes the ability to export a binary run-time to Linux, MacOSX and MS-Windows.
 
 There are a number of powerful libraries the Game-Engine takes advantage of:
 

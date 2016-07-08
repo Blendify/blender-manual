@@ -102,7 +102,7 @@ Gloss
       Threshold for adaptive sampling.
       If a sampling contributes less than this amount (as percentage), sampling is stopped.
       Raising the threshold will make the adaptive sampler skip more often,
-      however the reflections could become noisier.
+      however, the reflections could become noisier.
    Samples
       Number of cone samples averaged for blurry reflection.
       More samples will give a smoother result, but will also increase render time.

@@ -17,7 +17,7 @@ When only two vertices are selected it will create an edge, otherwise it will cr
 
 
 The typical use case is to select vertices and press :kbd:`F`,
-however Blender also supports creating faces from different selections to help quickly build
+however, Blender also supports creating faces from different selections to help quickly build
 up geometry.
 
 Methods

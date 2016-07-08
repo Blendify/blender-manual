@@ -71,7 +71,7 @@ This property is not strictly enforced, but if colors are in the range 0.0 to 1.
 :abbr:`BSDF (Bidirectional scattering distribution function)` s are only mixed together with the
 Mix Shader node, this will automatically be true.
 
-It is however possible to break this,
+It is however, possible to break this,
 with color values higher than 1.0 or using the Add Shader node, but one must be careful when
 doing this to keep materials behaving predictably under various lighting conditions.
 It can result in a reflection adding light into the system at each bounce,

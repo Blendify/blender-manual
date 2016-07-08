@@ -34,7 +34,7 @@ Repeat
    The objective is to find the rotation of the differential
    coordinates preserving the best possible geometric detail.
    Details are retained better if more repetitions are used,
-   however it will take longer to calculate.
+   however, it will take longer to calculate.
 
    .. list-table::
 

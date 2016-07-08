@@ -221,7 +221,7 @@ Dolly the View
 
 
 In most cases its sufficient to zoom the view to get a closer look at something,
-however you may notice that at a certain point you cannot zoom any closer.
+however, you may notice that at a certain point you cannot zoom any closer.
 
 This is because Blender stores a view-point thats used for orbiting and zooming, This works
 well in many cases but sometimes you want to move the view-point to a different place - This

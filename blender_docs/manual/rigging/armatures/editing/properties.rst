@@ -18,7 +18,7 @@ Transforming Bones
 We won't detail here the various transformations of bones, nor things like axis locking, pivot points, and so on,
 as they are common to most object editing, and already described
 :doc:`here </editors/3dview/transform/transform_control/index>`
-(note however that some options, like snapping, do not seem to work, even though they are available...).
+(note however, that some options, like snapping, do not seem to work, even though they are available...).
 The same goes for mirroring,
 as it's nearly the same as with :doc:`mesh editing </modeling/meshes/editing/deforming/mirror>`.
 Just keep in mind that bones' roots and tips behave more or less like meshes' vertices,

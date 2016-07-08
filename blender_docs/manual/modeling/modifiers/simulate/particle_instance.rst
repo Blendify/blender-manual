@@ -51,7 +51,7 @@ Particle System
    *ParticleInstance* modifier to,
    when the mesh which has the particle system on it has more than one of these.
    The *Particle System* field can have a value between (1 to 10).
-   It is possible to select any of the ten particle system numbers, however a check will **not** be made with the
+   It is possible to select any of the ten particle system numbers, however, a check will **not** be made with the
    underlying particle emitting object specified previously in the *Object* field.
    If you select a particle system number which does not exist on the particle emitting object, then the particles on
    the emitting mesh will keep their normal particle shapes - no warning will be given that the chosen particle

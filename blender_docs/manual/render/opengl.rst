@@ -44,7 +44,7 @@ Settings
 ========
 
 For the most part, *OpenGL Render* uses view-port,
-however some render settings are used too.
+however, some render settings are used too.
 
 - Render Dimensions
 - Render Aspect

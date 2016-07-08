@@ -25,5 +25,5 @@ Disable Anti-Aliasing :term:`FSAA, Multi-Sampling<FSAA>`
    See :ref:`Invalid Selection, Disable Anti-Aliasing <troubleshooting-3dview-invalid_selection>`.
 Change the *Window Draw Method*
    This is set in the :ref:`system preferences <prefs-system-window_draw>`.
-   It is selected automatically, however when experiencing problems its worth
+   It is selected automatically, however, when experiencing problems its worth
    checking if changing this resolves interface drawing problems.

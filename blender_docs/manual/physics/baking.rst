@@ -29,7 +29,7 @@ Compression
       Compression optimizes speed of compressing/decompressing operations over file size.
    Heavy
       Compression will result in smaller cache files more than *Light*,
-      however requires more CPU time to compress/decompress.
+      however, requires more CPU time to compress/decompress.
 
 External
    Read and write the cache to disk using a user-specified file path.

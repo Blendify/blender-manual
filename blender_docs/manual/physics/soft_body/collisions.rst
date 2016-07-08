@@ -143,7 +143,7 @@ If the collision you have set up is not behaving properly, you can try the follo
 - Colliding faces are difficult to control and need long calculation times. Try not to use them.
 
 Often it is better to create a simplified mesh to use as your collision object,
-however this may be difficult if you are using an animated mesh.
+however, this may be difficult if you are using an animated mesh.
 
 
 Self Collision
