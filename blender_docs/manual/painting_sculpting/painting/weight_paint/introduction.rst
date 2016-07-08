@@ -1,10 +1,9 @@
+.. TODO. Split this page,
+   it currently contains more information then just introductory material.
 
 ************
 Introduction
 ************
-
-.. TODO. Split this page,
-   it currently contains more information then just introductory material.
 
 Vertex Groups can potentially have a very large number of associated vertices and thus a large
 number of weights (one weight per assigned vertex). *Weight Painting* is a method to
@@ -62,8 +61,7 @@ Weights are visualized by using a cold/hot color system, such that areas of low 
 (with weights close to 0.0) are drawn in blue (cold) and areas of high influence
 (with weights close to 1.0) are drawn in red (hot).
 And all in-between influences are drawn in rainbow colors, depending on their value (blue,
-green, yellow, orange, red)
-
+green, yellow, orange, red).
 
 .. figure:: /images/weight_spec.jpg
    :width: 610px
@@ -320,7 +318,6 @@ The following standard selection operations are supported:
 - :kbd:`Ctrl-L` - Select linked.
 - :kbd:`Ctrl-I` - Invert selection *Inverse*.
 
-
 .. tip:: Selecting Deform Groups
 
    When you are doing weight painting for deform bones (with an Armature),
@@ -347,13 +344,15 @@ All unselected vertices are protected from unintentional changes.
 Face Selection Masking
 ----------------------
 
-.. figure:: /images/modeling-meshes-weight-paint-face-select.jpg
+.. list-table::
 
-   Face Selection masking.
+   * - .. figure:: /images/modeling-meshes-weight-paint-face-select.jpg
 
-.. figure:: /images/modeling-meshes-weight-paint-face-select-hidden.jpg
+          Face Selection masking.
 
-   hidden faces.
+     - .. figure:: /images/modeling-meshes-weight-paint-face-select-hidden.jpg
+
+          hidden faces.
 
 
 The *Face Selection masking* allows you to select faces and limit the weight paint
@@ -433,12 +432,12 @@ Show Zero Weights
    - Active
    - All
 
+
 Unified Settings
 ----------------
 
 The *Size*, *Strength* and *Weight* of the brush can be set to
 be shared across different brushes, as opposed to per-brush.
-
 
 - Spray: to constantly draw (opposed to drawing one stroke per mouse click).
 - Restrict: to only paint on vertices which already are weighted in the active weight group.
@@ -463,8 +462,11 @@ The weight paint tools are full described in the
 :doc:`Weight Paint Tools </painting_sculpting/painting/weight_paint/tools>` page
 
 
+Usage
+=====
+
 Weight Painting for Bones
-=========================
+-------------------------
 
 This is one of the main uses of weight painting.
 When a bone moves, vertices around the joint should move as well,
@@ -511,7 +513,7 @@ Then the mirrored groups with the mirrored weights are automatically created.
 
 
 Weight Painting for Particles
-=============================
+-----------------------------
 
 .. figure:: /images/weightpaint-particles.jpg
 
