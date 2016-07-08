@@ -395,7 +395,7 @@ The Weight Paint Options modify the overall brush behavior:
 Normals
    The vertex normal (helps) determine the extent of painting. This causes an effect as if painting with light.
 Spray
-   This option accumulates weights on every mouse move.
+   Constantly draw (opposed to drawing one stroke per mouse click).
 Restrict
    This option limits the influence of painting to vertices belonging
    (even with weight 0) to the selected vertex group.
@@ -408,26 +408,16 @@ X-mirror
    The convention for armatures/bones apply here as well.
 Topology Mirror
    Use topology-based mirroring, for when both side of a mesh have matching mirrored topology.
-Input Samples
-   not so sure
 Show Zero Weights
+   To display unreferenced and zero weighted areas in black (by default).
+
    - None
    - Active
    - All
 
-
 Unified Settings
-----------------
-
-The *Size*, *Strength* and *Weight* of the brush can be set to
-be shared across different brushes, as opposed to per-brush.
-
-- Spray: to constantly draw (opposed to drawing one stroke per mouse click).
-- Restrict: to only paint on vertices which already are weighted in the active weight group.
-  (No new weights are created; only existing weights are modified.)
-- x-mirror: to draw symmetrically.
-  Note the this only works when the character symmetry plane is ZY (character looks into Y direction).
-- Show Zero weights: To display unreferenced and zero weighted areas in black (by default).
+   The *Size*, *Strength* and *Weight* of the brush can be set to
+   be shared across different brushes, as opposed to per-brush.
 
 
 Weight Paint Tools
