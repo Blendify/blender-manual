@@ -239,4 +239,4 @@ Blender 2.6x to 2.7x - Improvements & Stabalizing
 - `2.77 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.77>`__ - March 2016:
   OpenVDB support for caching for smoke/volumetric simulations, improved  cycles Subsurface Scattering,
   Grease pencil stroke sculpting and improved workflow,
-  and reworked library handling to manage missing and deleted datablocks.
+  and reworked library handling to manage missing and deleted data-blocks.

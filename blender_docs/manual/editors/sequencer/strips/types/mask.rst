@@ -3,7 +3,7 @@
 Mask Strip
 **********
 
-A Mask Strip is used to select a mask datablock generated from
+A Mask Strip is used to select a mask data-block generated from
 :doc:`Movie Clip Editor </editors/movie_clip_editor/masking>`.
 This works similar to the :doc:`Mask Node </compositing/types/input/mask>`
 but without the options available for finer control.

@@ -23,7 +23,7 @@ while hiding others that are not needed for interacting with masks.
 The tools and panels available to edit masks are the same in both editors,
 with the exception that linking masks to motion tracking data is only possible in the movie clip editor.
 
-Once set to Mask mode, a Mask datablock can be added. Any image, movie clip,
+Once set to Mask mode, a Mask data-block can be added. Any image, movie clip,
 render or compositing result can be used as a backdrop to draw masks over.
 To get interactive feedback on the resulting mask,
 a Mask node can be connected directly to a Viewer node in the compositor,
