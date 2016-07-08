@@ -21,9 +21,6 @@ various functions.
 Usage
 =====
 
-Ways to use Particle Mode
--------------------------
-
 .. tip:: Only Frames Baked to Memory are Editable!
 
    If you cannot edit the particles, check that you are not baking to a
@@ -31,7 +28,7 @@ Ways to use Particle Mode
 
 
 Setup for Hair Particles
-^^^^^^^^^^^^^^^^^^^^^^^^
+------------------------
 
 - Create a *Hair* particle system - With your object selected,
   click the *Particle System* icon in the Properties panel. Create a new particle system by clicking the *Plus*.
@@ -53,7 +50,7 @@ Setup for Hair Particles
 
 
 Setup for Particle, Cloth, and Soft Body Simulations
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+----------------------------------------------------
 
 - Use *Emitter* particles, or a cloth/soft-body simulation
 - Create a simulation - set up objects and or emitters,
@@ -62,7 +59,7 @@ Setup for Particle, Cloth, and Soft Body Simulations
 
 
 Bake the Simulation
-^^^^^^^^^^^^^^^^^^^
+-------------------
 
 - Once you are happy with the general simulation,
   :doc:`bake </physics/particles/cache_and_bake>` the simulation from object mode.
@@ -71,7 +68,7 @@ Bake the Simulation
 
 
 Edit the Simulation
-^^^^^^^^^^^^^^^^^^^
+-------------------
 
 - Switch to *Particle Edit* from the *Mode dropdown menu* in the bottom menu bar
   of the *3D View* to edit the particle's paths/key-frames.
@@ -191,14 +188,6 @@ Brush
 With the buttons you can select the type of "Comb" utility you want to use.
 Below the brush types, their settings appear:
 
-Common Options:
-   Radius
-      Set the radius if the brush.
-   Strength
-      Set the strength of the brush effect (not for Add brush).
-   Add/Sub Grow/Shrink
-      Sets the brush to add the effect or reverse it..
-
 None
    No special tool, just edit the keypoints as "normal" vertices.
 Comb
@@ -240,8 +229,25 @@ Weight
 Options
 -------
 
-Deflect Emitter, Dist
-   Do not move keypoints through the emitting mesh. *Dist* is the distance to keep from the Emitter.
+Common Options:
+   Radius
+      Set the radius if the brush.
+
+      .. tip:: Brush Size
+
+         Press :kbd:`F` to resize the brush while working.
+
+   Strength
+      Set the strength of the brush effect (not for Add brush).
+   Add/Sub Grow/Shrink
+      Sets the brush to add the effect or reverse it.
+
+Deflect Emitter,
+   Do not move keypoints through the emitting mesh.
+
+   Distance
+      The distance to keep from the Emitter.
+
 Keep
    Length
       Keep the length of the segments between the keypoints when combing or smoothing the hair.
