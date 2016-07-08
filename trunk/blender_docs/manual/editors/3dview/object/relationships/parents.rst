@@ -178,7 +178,7 @@ Objects, also we have informed Blender that the Bones of the Armature Object can
 with specific parts of the Child Objects so that they can be directly manipulated by the
 Bones.
 
-At this point however all Blender knows is that the Bones of the Armature could be used to
+At this point however, all Blender knows is that the Bones of the Armature could be used to
 alter the Child Objects,
 we have not yet told Blender which Bones can alter which Child Objects or by how much.
 

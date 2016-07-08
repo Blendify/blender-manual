@@ -123,7 +123,7 @@ Scattering Color (Albedo)
    If you think of scattering as a filter, this is the height of the filter.
    It is multiplied by the surface color. In practice, this is unintuitive.
    It should be the same as the surface color,
-   however changing this value has unintuitive results on the scattering effect:
+   however, changing this value has unintuitive results on the scattering effect:
 
    The darker the color the more light is scattered. A value of 1 will produce no scattering effect.
 

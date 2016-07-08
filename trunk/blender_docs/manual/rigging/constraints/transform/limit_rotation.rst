@@ -56,7 +56,7 @@ For Transform
    (as shown by the *Transform Properties* panel).
    Well, when you enable this button, this is no more possible -
    the owner transform properties are also limited by the constraint.
-   Note however that the constraint does not directly modifies the rotation values:
+   Note however, that the constraint does not directly modifies the rotation values:
    you have to rotate one way or the other its owner, for this to take effect...
 
 Convert

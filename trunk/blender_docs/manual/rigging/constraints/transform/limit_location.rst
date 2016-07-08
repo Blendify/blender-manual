@@ -54,7 +54,7 @@ For Transform
    the owner can still have coordinates out of bounds (as shown by the *Transform Properties* panel).
    Well, when you enable this button, this is no longer possible -
    the owner's transform properties are also limited by the constraint.
-   Note however that the constraint does not directly modify the coordinates: you have to grab
+   Note however, that the constraint does not directly modify the coordinates: you have to grab
    its owner one way or another for this to take effect...
 
 Convert

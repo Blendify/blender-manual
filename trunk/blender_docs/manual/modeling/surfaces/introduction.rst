@@ -10,7 +10,7 @@ Introduction
    Surface.
 
 
-Curves are 2D objects, and surfaces are their 3D extension. Note however that in Blender,
+Curves are 2D objects, and surfaces are their 3D extension. Note however, that in Blender,
 you only have NURBS surfaces, no Bézier (you have the *Bézier* knot type, though;
 see below), nor polygonal (but for these, you have meshes!).
 Even though curves and surfaces share the same object type (with texts also...),

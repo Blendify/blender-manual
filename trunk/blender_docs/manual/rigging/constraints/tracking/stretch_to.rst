@@ -12,7 +12,7 @@ and doesn't give you the option of using a different one.
 It also optionally has some raw volumetric features,
 so the owner can squash down as the target moves closer,
 or thin out as the target moves farther away.
-Note however that it is not the real volume of the owner which is thus preserved,
+Note however, that it is not the real volume of the owner which is thus preserved,
 but rather the virtual one defined by its scale values. Hence,
 this feature works even with non-volumetric objects, like empties, 2D meshes or surfaces,
 and curves.

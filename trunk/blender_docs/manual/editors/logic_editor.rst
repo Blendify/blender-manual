@@ -41,7 +41,7 @@ We will look at each one individually.
       Links can only be drawn from Sensors to Controllers, or from Controllers to Actuators.
       You cannot directly link Sensors to Actuators; likewise,
       Actuators cannot be linked back to Sensors
-      (however special actuator and sensor types are available to provide these connections).
+      (however, special actuator and sensor types are available to provide these connections).
 
       Sending nodes (the black circles found on the right-hand side of Sensors and Controllers)
       can send to multiple Reception nodes

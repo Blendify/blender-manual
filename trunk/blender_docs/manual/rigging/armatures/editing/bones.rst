@@ -115,7 +115,7 @@ The "_R" bone is its mirror counterpart (along the armature's local X axis), see
 
    Cancelling the extrude action causes the newly created bones to snap back to the source position,
    (creating zero length bones). These will be removed when exiting Edit Mode,
-   however they can cause confusion and it's unlikely you want to keep them.
+   however, they can cause confusion and it's unlikely you want to keep them.
    If you realize the problem immediately undo the extrude action.
 
 

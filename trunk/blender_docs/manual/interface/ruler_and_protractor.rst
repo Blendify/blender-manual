@@ -37,7 +37,7 @@ Here are common steps for using the ruler.
 .. note::
 
    Editing operations can be used while the ruler is running,
-   however tools like the knife cannot be used at the same time.
+   however, tools like the knife cannot be used at the same time.
 
 .. note::
 

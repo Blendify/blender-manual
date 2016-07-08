@@ -59,7 +59,7 @@ Manually ( *Edit Mode* ) :doc:`subdivided </modeling/meshes/editing/subdividing/
    Control render faces with number of subdivides.
    (This can be combined with the above methods).
    Displaces exactly the same Simple Subsurf,
-   however the overhead of drawing extra faces can slow down editing.
+   however, the overhead of drawing extra faces can slow down editing.
 :doc:`Meta Objects </modeling/metas/introduction>`
    Control render faces with render wiresize. Small wire == more faces.
 

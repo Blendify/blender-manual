@@ -61,7 +61,7 @@ NumPad Emulation
 
 If you do not have a Numeric Numpad on the side of your keyboard,
 you may want to emulate one (uses the numbers at the top of the keyboard instead,
-however removes quick access to layer visibility).
+however, removes quick access to layer visibility).
 
 .. seealso::
 
@@ -77,7 +77,7 @@ your computer to the UK or US layout as long as you work with Blender.
 .. note::
 
    You can also change the default keymap and default hotkeys from the
-   :doc:`User Preferences </preferences/input>`, however this manual assumes you are using the default keymap.
+   :doc:`User Preferences </preferences/input>`, however, this manual assumes you are using the default keymap.
    :doc:`Read more about Blender configuration </preferences/input>`
 
 
