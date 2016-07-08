@@ -30,15 +30,10 @@ Usage
 Setup for Hair Particles
 ------------------------
 
-- Create a *Hair* particle system - With your object selected,
-  click the *Particle System* icon in the Properties panel. Create a new particle system by clicking the *Plus*.
-- Give it an initial velocity in the *Normal* direction (first check the *Advanced* box,
-  then modify the *Velocity* sub-panel), or adjust the *Hair Length*.
-- Create a simulation - Place the camera at a good position
-  :menuselection:`pop-up --> View --> Cameras --> Active Camera ...`, :kbd:`Numpad0`.
-- Check the *Hair Dynamics* box.
-  Select :menuselection:`pop-up --> Render --> Render OpenGL Animation` in *Render Engine* mode.
-
+#. Create a *Hair* particle system.
+#. Give it an initial velocity in the *Normal* direction.
+#. Create a simulation
+#. Check the *Hair Dynamics* box.
 
 .. figure:: /images/particle_mode.jpg
 
@@ -52,40 +47,36 @@ Setup for Hair Particles
 Setup for Particle, Cloth, and Soft Body Simulations
 ----------------------------------------------------
 
-- Use *Emitter* particles, or a cloth/soft-body simulation
-- Create a simulation - set up objects and or emitters,
-  set your time range (use a small range if you are just starting out and experimenting),
-  set up the simulation how you want it, using :kbd:`Alt-A` to preview it.
+#. Use *Emitter* particles, or a cloth/soft-body simulation
+#. Create a simulation - set up objects and or emitters,
+   set your time range (use a small range if you are just starting out and experimenting),
+   set up the simulation how you want it, using :kbd:`Alt-A` to preview it.
 
 
 Bake the Simulation
 -------------------
 
-- Once you are happy with the general simulation,
-  :doc:`bake </physics/particles/cache_and_bake>` the simulation from object mode.
-  The simulation must be baked to enable editing. (remember to bake to memory,
-  a disk cache will not be editable in *Particle Mode*)
+Once you are happy with the general simulation, :doc:`bake </physics/particles/cache_and_bake>`
+the simulation from object mode. The simulation must be baked to enable editing.
 
 
 Edit the Simulation
 -------------------
 
-- Switch to *Particle Edit* from the *Mode dropdown menu* in the bottom menu bar
-  of the *3D View* to edit the particle's paths/key-frames.
-  You may need to press :kbd:`T` from within the 3D View to see the *Particle Edit* panel.
-  Move to the frame you want to edit and use the various *Particle Edit* tools to edit your simulation.
-  Work slowly, previewing your changes with :kbd:`Alt-A`, and save often so that you can go back to the previous
-  version should something happen, or that you do not like the latest changes you have made.
+Switch to *Particle Edit* from the *Mode dropdown menu* in the bottom menu bar
+of the *3D View* to edit the particle's paths/key-frames.
+You may need to press :kbd:`T` from within the 3D View to see the *Particle Edit* panel.
+Move to the frame you want to edit and use the various *Particle Edit* tools to edit your simulation.
+Work slowly, previewing your changes with :kbd:`Alt-A`, and save often so that you can go back to the previous
+version should something happen, or that you do not like the latest changes you have made.
 
-To be able to clearly see what you are working on:
 
-- Turn on the *Particle Edit Properties* panel with :kbd:`N`.
-- Select *Point select mode* (|hair-point-button|) in the header of the 3D View.
-  This will display key points along the particle path.
 
-.. tip:: Brush Size
+.. tip:: To be able to clearly see what you are working on:
 
-   Press :kbd:`F` to resize the brush while working
+   #. Open the *Particle Edit Properties* panel with :kbd:`N`.
+   #. Select *Point select mode* (|hair-point-button|) in the header of the 3D View.
+      This will display key points along the particle path.
 
 
 Selecting
@@ -99,16 +90,15 @@ Selecting
 
 You may also use the *Select* Menu.
 
-
 .. tip:: Selections
 
    Selections are extremely useful for modifying only the particles that you want.
    Hover over a particle path and press :kbd:`L` to link-select it,
    hover over the next and press :kbd:`L` to add that path to the selection.
-   To remove a path, hold shift and press :kbd:`L`. To Deselect all press :kbd:`A`.
+   To remove a path, hold :kbd:`Shift` and press :kbd:`L`. To Deselect all press :kbd:`A`.
 
    The method to select individual points is the same as in edit mode. click to select,
-   shift+click to add/remove a point from the selection.
+   :kbd:`Shift-LMB` to add/remove a point from the selection.
 
 
 Select Modes
