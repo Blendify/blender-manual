@@ -233,6 +233,7 @@ Menu Buttons
 
 Blender uses a variety of different menus for accessing options, tools and selecting Data-Blocks.
 
+
 Menu Shortcuts
 --------------
 
@@ -271,6 +272,12 @@ with the available shading options.
 .. container:: lead
 
    .. clear
+
+.. tip::
+
+   You can use the :kbd:`Numpad` to input an item in the list to select.
+   For example, :kbd:`Numpad-1` will select the first item and so on.
+
 
 .. _ui-data_block:
 
