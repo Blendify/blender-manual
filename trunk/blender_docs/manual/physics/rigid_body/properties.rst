@@ -3,11 +3,6 @@
 Rigid Body Properties
 *********************
 
-Main properties
-===============
-
-Rigid Body panel.
-
 Type
    Role of the rigid body in the simulation.
    Active objects can be simulated dynamically, passive object remain static.
@@ -58,6 +53,7 @@ Surface Response
 
 Collision Groups
     Allows rigid body collisions allocate on different groups (maximum 20).
+
 
 Collision shapes
 ----------------
@@ -110,6 +106,7 @@ Deforming
    Rigid body deforms during simulation.
 Final
    Includes all modifiers.
+
 
 Collision Margin
 ----------------
