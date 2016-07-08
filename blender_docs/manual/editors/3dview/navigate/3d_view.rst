@@ -316,14 +316,13 @@ Quad View
    | Menu:     :menuselection:`View --> Toggle Quad View`
    | Hotkey:   :kbd:`Ctrl-Alt-Q`
 
-
 .. figure:: /images/editors_3dview_navigating-3d_view-quad_view.jpg
    :width: 340px
 
    Quad View.
 
 
-Toggling Quad View will split the 3D View into four views: 3 *Ortho* views and a *Camera* / *User View*.
+Toggling Quad View will split the 3D View into four views: 3 *Ortho* views and a *Camera*/*User View*.
 This view will allow you to instantly see your model from a number of view points.
 In this arrangement, you can zoom and pan each view independently but you cannot rotate the view.
 Note that this is different from splitting the windows and aligning the view manually.

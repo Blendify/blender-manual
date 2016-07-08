@@ -66,7 +66,7 @@ Look in the Outliner, with display mode set to *Blender File*, to see all your l
 
 .. note::
 
-   Appending data you already have linked will add objects / groups to the scene,
+   Appending data you already have linked will add objects/groups to the scene,
    but will keep them linked (and un-editable).
 
    This is done so existing relationships with linked data remain intact.

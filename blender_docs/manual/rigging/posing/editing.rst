@@ -94,8 +94,7 @@ Rest Pose
 =========
 
 Once you have transformed some bones, if you want to return to their rest position,
-just clear their transformations
-(usual :kbd:`Alt-G` / :kbd:`Alt-R` / :kbd:`Alt-S` shortcuts,
+just clear their transformations (usual :kbd:`Alt-G`/:kbd:`Alt-R`/:kbd:`Alt-S` shortcuts,
 or :menuselection:`Pose --> Clear Transform --> Clear User Transform`, :kbd:`W-5`, to clear
 everything at once... - commands also available in the :menuselection:`Pose --> Clear Transform` sub-menu).
 
@@ -112,12 +111,10 @@ the skinned objects/geometry is **also** reset to its default, undeformed state,
 which generally means you will have to skin it again.
 
 Whereas in *Edit Mode*, you always see your armature in its rest position,
-in *Object Mode* and *Pose Mode*
-you see it by default in its *pose position* (i.e.
-as it was transformed in the *Pose Mode*).
+in *Object Mode* and *Pose Mode* you see it by default in its *pose position*
+(i.e. as it was transformed in the *Pose Mode*).
 If you want to see it in the rest position in all modes,
-enable the *Rest Position* button in the *Armature* tab
-(*Edit Mode*).
+enable the *Rest Position* button in the *Armature* tab (*Edit Mode*).
 
 
 In-Betweens

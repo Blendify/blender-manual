@@ -36,7 +36,7 @@ that model particular effects as light passes through the volume and interacts w
 
 .. figure:: /images/cycles_materials_volume.jpg
 
-   Volume Shader: Absorption / Absorption + Scatter / Emission.
+   Volume Shader: Absorption/Absorption + Scatter/Emission.
 
 
 Density
@@ -141,5 +141,5 @@ Currently we do not support:
 
 Not available on GPU:
 
-- Equi Angular / MIS Volume Sampling
+- Equi Angular/MIS Volume Sampling
 - Volume Multi Light sampling

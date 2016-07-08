@@ -123,7 +123,7 @@ Blender offers options to limit the amount of the transformation in small or pre
      specification option but the object will remain constrained to the same axis.
 
    - Hitting :kbd:`/` during number entry switches the number being entered to its reciprocal, e.g.
-     :kbd:`2 /` results in 0.5 (1/2); :kbd:`2 / 0` results in 0.05 (1/20).
+     :kbd:`2 /` results in 0.5 (1/2); :kbd:`2/0` results in 0.05 (1/20).
 
    - The axis of movement can be changed at any time during translation by typing :kbd:`X`, :kbd:`Y`, :kbd:`Z`.
 

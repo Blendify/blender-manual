@@ -44,7 +44,7 @@ Offset
    by the given number of Blender Units. Use it e.g.
    to account for the distance from a foot bone to the surface of the foot's mesh.
 
-Max / Min
+Max/Min
    This set of (mutually exclusive) buttons controls which plane will be the "floor".
    The buttons' names correspond indeed to the *normal* to this plane (e.g. enabling Z means "XY plane", etc.)
    By default, these normals are aligned with the *global* axes.

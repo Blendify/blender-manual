@@ -254,13 +254,13 @@ The Timeline header controls.
 ^^^^^^^^^^^^^^^^
 
    Start Frame
-      The start frame of the animation / playback range.
+      The start frame of the animation/playback range.
 
    End Frame
-      The end frame of the animation / playback range.
+      The end frame of the animation/playback range.
 
    Current Frame
-      The current frame of the animation / playback range.
+      The current frame of the animation/playback range.
       Also the position of the *Time Cursor*.
 
 

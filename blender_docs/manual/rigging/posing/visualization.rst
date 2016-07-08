@@ -282,7 +282,7 @@ Non-Grouped Keyframes
    For bone motion paths, search whole Action for keyframes instead of in group with matching name only (is slower).
 
 Calculate
-   Start / End
+   Start/End
       These are the start/end frames of the range in which motion paths are drawn.
       You have to *Calculate Paths* again if you modify this setting, to update the paths in the 3D Views.
       Note that unlike with ghosts, the start frame is *inclusive*

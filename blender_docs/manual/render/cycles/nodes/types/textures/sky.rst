@@ -18,7 +18,7 @@ Properties
 ==========
 
 Sky Type
-   Sky model to use (Preetham or Hosek / Wilkie).
+   Sky model to use (Preetham or Hosek/Wilkie).
 Sun Direction
    Sun direction vector.
 Turbidity

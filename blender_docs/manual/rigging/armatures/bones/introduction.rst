@@ -58,7 +58,7 @@ Bones can be visualized in various ways: *Octahedron*, *Stick*,
 Since armatures are made of bones, you will find more about this when we'll talk about
 :doc:`Armatures Visualization </rigging/armatures/visualization>`.
 
-Activating *Axes* checkmark on the *Armature* / *Display* panel,
+Activating *Axes* checkmark on the *Armature*/*Display* panel,
 will show local axes for each bone's tip. The Y axis is always aligned along the bone,
 oriented from root to tip. So, this is the "roll" axis of the bones.
 

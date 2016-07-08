@@ -37,9 +37,8 @@ Channel 1 is what the current frame's image from the strip in channel 1 looks li
 Properties Region
 =================
 
-
-Scene Preview / Render
-----------------------
+Scene Preview/Render
+--------------------
 
 OpenGL Preview
    When enabled :doc:`Scene Strips </editors/sequencer/strips/types/scene>`

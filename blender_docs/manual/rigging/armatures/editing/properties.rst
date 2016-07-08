@@ -358,7 +358,7 @@ angle with previous/next bones in the chain, and so on.
 
 
 .. list-table::
-   Bone In / Out settings example, with a materialized Bézier curve.
+   Bone In/Out settings example, with a materialized Bézier curve.
 
    * - .. figure:: /images/riggingbboneinoutex1.jpg
           :width: 300px
