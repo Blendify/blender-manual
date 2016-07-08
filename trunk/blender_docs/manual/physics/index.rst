@@ -23,7 +23,6 @@ Physic Types
    dynamic_paint/index.rst
    soft_body/index.rst
    fluid/index.rst
-   particles/index.rst
    smoke/index.rst
    rigid_body/index.rst
    particles/index.rst
