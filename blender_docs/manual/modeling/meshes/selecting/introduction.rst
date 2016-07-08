@@ -15,7 +15,15 @@ Selection Mode
 Select Mode Header Widgets
 --------------------------
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`3D View Header --> Select Mode`
+   | Hotkey:   :kbd:`Ctrl-Tab`
+
 .. figure:: /images/modeling-meshes-selection-mode-buttons.jpg
+   :align: right
    :width: 190px
 
    Edit Mode selection buttons.
@@ -49,34 +57,6 @@ Of course rotating and scaling a *single* vertex will not do anything useful
 so some tools are more or less applicable in some modes.
 
 
-Select Mode Pop-up
-------------------
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Edit Mode
-   | Hotkey:   :kbd:`Ctrl-Tab`
-
-
-.. figure:: /images/modeling-meshes-selection-mode.jpg
-   :align: right
-
-   Mesh Select Mode menu.
-
-You can choose a selection mode with the pop-up menu:
-
-:menuselection:`Select Mode --> Vertices`
-   Press :kbd:`Ctrl-Tab` and select *Vertices* from the pop-up menu, or press :kbd:`Ctrl-Tab 1`.
-:menuselection:`Select Mode --> Edges`
-   Press :kbd:`Ctrl-Tab` and select *Edges* from the pop-up menu, or press :kbd:`Ctrl-Tab 2`.
-:menuselection:`Select Mode --> Faces`
-   Press :kbd:`Ctrl-Tab` and select *Faces* from the pop-up menu, or press :kbd:`Ctrl-Tab 3`.
-
-
-When using this menu, you can make use of modifier keys, see: `Switching Select Mode`_.
-
-
 Switching Select Mode
 ---------------------
 
@@ -92,6 +72,7 @@ Hence, switching in a "descendant" way (i.e. from more complex to simpler),
 all elements defining the "high-level" element (like a face) will be selected
 (the four vertices or edges of a quadrangle, for example).
 
+
 Multiple Selection Modes
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -100,6 +81,7 @@ you can enable multiple *Selection Modes* at once.
 
 This allows you to quickly select Vertices/Edges/Faces,
 without first having to switch modes.
+
 
 Expanding Selection Modes
 ^^^^^^^^^^^^^^^^^^^^^^^^^
