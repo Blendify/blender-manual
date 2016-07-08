@@ -10,7 +10,6 @@ Brush
 -----
 
 .. figure:: /images/painting_weight_brush.png
-   :width: 160px
    :align: right
 
    Brush Panel.
@@ -124,7 +123,6 @@ Stroke
 ------
 
 .. figure:: /images/painting_weight_stroke.png
-   :width: 160px
    :align: right
 
    Stroke Panel.
@@ -172,7 +170,6 @@ Options
 =======
 
 .. figure:: /images/painting_weight_options-1.png
-   :width: 160px
    :align: right
 
    Paint Options.
@@ -198,7 +195,6 @@ Options
 -------
 
 .. figure:: /images/painting_weight_options-2.png
-   :width: 160px
    :align: right
 
    Brush appearance.
