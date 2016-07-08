@@ -237,6 +237,21 @@ The brush falloff editor allows you to specify the characteristics of your brush
 The usage should be obvious and intuitive.
 
 
+Weight Paint Tools
+------------------
+
+.. figure:: /images/modeling-meshes-weight-paint-tools.jpg
+
+   Weight Paint Tools.
+
+
+Blender provides a set of helper tools for Weight Painting.
+The tools are located in the weight tools panel.
+
+The weight paint tools are full described in the
+:doc:`Weight Paint Tools </painting_sculpting/painting/weight_paint/tools>` page
+
+
 Options
 =======
 
@@ -416,21 +431,6 @@ You make the entire mesh visible again by pressing :kbd:`Alt-B` a second time.
 
 All weight paint tools that use the view respect this clipping, including border select,
 weight gradient and of course brush strokes.
-
-
-Weight Paint Tools
-==================
-
-.. figure:: /images/modeling-meshes-weight-paint-tools.jpg
-
-   Weight Paint Tools.
-
-
-Blender provides a set of helper tools for Weight Painting.
-The tools are located in the weight tools panel.
-
-The weight paint tools are full described in the
-:doc:`Weight Paint Tools </painting_sculpting/painting/weight_paint/tools>` page
 
 
 Usage
