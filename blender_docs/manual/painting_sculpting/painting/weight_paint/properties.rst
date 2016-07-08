@@ -9,9 +9,11 @@ Tools
 Brush
 -----
 
-.. figure:: /images/modeling-meshes-weight-paint-brush.jpg
+.. figure:: /images/painting_weight_brush.png
+   :width: 160px
+   :align: right
 
-   The Brush panel in the Tool Shelf.
+   Brush Panel.
 
 
 Painting needs paint brushes and Blender provides a Brush Panel within the Tool Shelf when it
@@ -121,8 +123,9 @@ Multi-Paint
 Stroke
 ------
 
-.. figure:: /images/modeling-meshes-weight-paint-stroke.jpg
-   :width: 235px
+.. figure:: /images/painting_weight_stroke.png
+   :width: 160px
+   :align: right
 
    Stroke Panel.
 
@@ -151,23 +154,12 @@ Factor
 Curve
 -----
 
-.. figure:: /images/modeling-meshes-weight-paint-curve.jpg
-   :width: 235px
-
-   Curve Panel.
-
-
-The brush falloff editor allows you to specify the characteristics of your brushes to a large extent.
-The usage should be obvious and intuitive.
+This :ref:`Curve widget <ui-curve_widget>` is used to control the brush falloff.
+Changing the curve allows you to specify the characteristics of your brushes to a large extent.
 
 
 Weight Paint Tools
 ------------------
-
-.. figure:: /images/modeling-meshes-weight-paint-tools.jpg
-
-   Weight Paint Tools.
-
 
 Blender provides a set of helper tools for Weight Painting.
 The tools are located in the weight tools panel.
@@ -179,6 +171,13 @@ The weight paint tools are full described in the
 Options
 =======
 
+.. figure:: /images/painting_weight_options-1.png
+   :width: 160px
+   :align: right
+
+   Paint Options.
+
+
 Overlay
 -------
 
@@ -187,12 +186,6 @@ Allows you to customize the display of curve and texture that applied to the bru
    
 Appearance
 ----------
-
-.. figure:: /images/modeling-meshes-weight-paint-appearance.jpg
-   :width: 235px
-
-   Brush appearance.
-
 
 Show Brush
    Makes the brush visible as a circle (on by default)
@@ -204,9 +197,11 @@ Custom Icon
 Options
 -------
 
-.. figure:: /images/modeling-meshes-weight-paint-options.jpg
+.. figure:: /images/painting_weight_options-2.png
+   :width: 160px
+   :align: right
 
-   Weight Paint Options.
+   Brush appearance.
 
 
 The Weight Paint Options modify the overall brush behavior:
