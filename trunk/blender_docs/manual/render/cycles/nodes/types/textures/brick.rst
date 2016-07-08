@@ -16,7 +16,7 @@ Scale
 Mortar Size
    The Mortar size; 0 means no Mortar.
 Bias
-   The color variation between Brick color 1 / 2.
+   The color variation between *Color 1/2*.
    Values of -1 and 1 only use one of the two colors; values in between mix the colors.
 Brick Width
    The width of the bricks.

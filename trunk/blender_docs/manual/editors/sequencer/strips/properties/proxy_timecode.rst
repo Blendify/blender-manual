@@ -1,7 +1,7 @@
 
-**********************
-Proxy / Timecode Panel
-**********************
+********************
+Proxy/Timecode Panel
+********************
 
 Once you have chosen the Proxy/Timecode parameters,
 you need to use :menuselection:`Strip --> Rebuild Proxy and Timecode indices`

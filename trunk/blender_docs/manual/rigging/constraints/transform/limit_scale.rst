@@ -46,13 +46,16 @@ Options
    Limit Scale panel.
 
 
-Minimum / Maximum X, Y, Z
+Minimum/Maximum X, Y, Z
    These buttons enable the lower boundary for the scale of the owner along respectively the X,
    Y and Z axes of the chosen *Space*.
    The *Min* and *Max* numeric fields to their right control the value of their lower and upper
    boundaries, respectively.
-   Note that if a min value is higher than its corresponding max value,
-   the constraint behaves as if it had the same value as the max one.
+   
+   .. note::
+
+      If a min value is higher than its corresponding max value,
+      the constraint behaves as if it had the same value as the max one.
 
 For Transform
    We saw that by default, even though visually constrained, and except for the negative values,

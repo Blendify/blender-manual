@@ -7,7 +7,7 @@ Markup Style Guide
    ::
    There are many detailed conventions, eg:
    ::
-   - when definition lists / bullet-points are used.
+   - when definition lists/bullet-points are used.
    - word-ordering in filenames.
    - how text is wrapped.
    - the number of spaces between lines.

@@ -527,7 +527,7 @@ X-Axis Mirror Editing
 Another very useful tool is the *X-Axis Mirror* editing option by
 :menuselection:`Tool panel --> Armature Options`, while Armature is selected in *Edit Mode*.
 When you have pairs of bones of the same name with just a different "side suffix"
-(e.g. ".R"/ ".L", or "_right" / "_left" ...), once this option is enabled,
+(e.g. ".R"/".L", or "_right"/"_left" ...), once this option is enabled,
 each time you transform (move/rotate/scale...) a bone, its "other side" counterpart will be transformed accordingly,
 through a symmetry along the armature local X axis.
 As most rigs have at least one axis of symmetry (animals, humans, ...),

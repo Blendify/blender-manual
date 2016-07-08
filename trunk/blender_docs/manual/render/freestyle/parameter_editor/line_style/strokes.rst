@@ -35,7 +35,6 @@ Rounds
 Chaining can also be turned off to render each line separately,
 which can be useful for line styles which depend on accurate representation of the line set.
 
-
 .. figure:: /images/render-freestyle-chaining_ui.jpg
    :width: 300px
 
@@ -63,7 +62,7 @@ Min 2D Angle and Max 2D Angle
 2D Length
    Splits chains when they are longer than the given value.
 
-D1 / G1 / D2 / G2 / D3 / G3
+D1/G1/D2/G2/D3/G3
    Splits the chains using the given dashed pattern ("D" stands for "dash",
    "G" stands for "gap"; see also `Dashed Line`_).
 

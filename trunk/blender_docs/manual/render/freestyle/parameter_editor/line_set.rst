@@ -157,7 +157,7 @@ What are edge marks good for?
 
 What are edge marks not good for?
 
-- Round outer edges (use instead *Contour* / *External Contour* / *Silhouette*).
+- Round outer edges (use instead *Contour*/*External Contour*/*Silhouette*).
 
 
 Face Marks
@@ -196,7 +196,7 @@ On the right is a render without face marks activated.
 
 The line selection can be controlled via inclusion and faces options:
 
-Inclusive / Exclusive
+Inclusive/Exclusive
    Whether to include or exclude edges matching defined face mark conditions from the line set.
 
 One Face
@@ -235,7 +235,7 @@ You can include or exclude objects for line calculation, based on their belongin
 Group
    The name of the object group to use.
 
-Inclusive / Exclusive
+Inclusive/Exclusive
    Whether to include or exclude lines from those objects in this line set.
 
 

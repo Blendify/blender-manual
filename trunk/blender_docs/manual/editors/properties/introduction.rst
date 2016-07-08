@@ -17,15 +17,15 @@ The Properties editor shows several tabs,
 which can be chosen via the icon row in the header.
 
 
-Scene / Render
---------------
+Scene/Render
+------------
 
 These tabs are used to add features, and to change properties for the Active Scene.
 
 .. figure:: /images/properties_render.png
    :align: right
 
-   Scene / Render tabs.
+   Scene/Render tabs.
 
 .. _properties-render-tab:
 

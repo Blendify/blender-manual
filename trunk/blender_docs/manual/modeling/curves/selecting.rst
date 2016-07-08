@@ -97,15 +97,15 @@ based on the current selection (i.e.
 the control points following or preceding the selected ones along the curve).
 
 
-Select More / Less
-==================
+Select More/Less
+================
 
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Select --> More/Less`
-   | Hotkey:   :kbd:`Ctrl-NumpadPlus` / :kbd:`Ctrl-NumpadMinus`
+   | Hotkey:   :kbd:`Ctrl-NumpadPlus`/:kbd:`Ctrl-NumpadMinus`
 
 
 Their purpose, based on the currently selected control points, is to reduce or enlarge this selection.

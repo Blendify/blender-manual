@@ -99,7 +99,7 @@ Keyframe Numbers
    so this option is obviously only valid when *Show Keys* is enabled.
 
 Cache
-   From / To
+   From/To
       These are the start/end frames of the range in which motion paths are drawn.
       You cannot modify this range without deleting the motion path first.
    Calculate Paths/ Update Paths

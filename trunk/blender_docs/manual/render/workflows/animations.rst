@@ -74,7 +74,7 @@ Frame Sequence Approach
 - total render time > 1 hour
 - post-production work needed
    - Color/lighting adjustment
-   - Green screen / matte replacement
+   - Green screen/matte replacement
    - Layering/compositing
    - Multiple formats and sizes of ultimate product
 - intermediate frames/adjustments needed for compression/codec

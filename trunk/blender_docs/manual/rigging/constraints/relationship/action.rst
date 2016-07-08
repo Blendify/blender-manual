@@ -66,7 +66,7 @@ Object Action
    this option will make the constrained bone use the "object" part of the linked action,
    instead of the "same-named pose" part. This allows you to apply the action of an object to a bone.
 
-Target Range Min / Max
+Target Range Min/Max
    The lower and upper bounds of the driving transform property value.
 
    .. warning::
@@ -77,7 +77,7 @@ Target Range Min / Max
         these values are "mapped back" to the (-180.0 to 180.0) range.
       - When using a scale property as "driver", these values are limited to null or positive values.
 
-Action Range Start / End
+Action Range Start/End
    The starting and ending frames of the action to be mapped.
    
    .. note::

@@ -49,7 +49,7 @@ Restricting Group Contents via Layers
 Appending or Linking Groups
    To append a group from another blend-file,
    consult :doc:`this page </data_system/linked_libraries>`.
-   In summary, :menuselection:`File --> Link / Append Link` Select a blend-file and, and then the group.
+   In summary, :menuselection:`File --> Link/Append Link` Select a blend-file and, and then the group.
 Removing Groups
    To remove a object from a group, in  the Properties editor *Object* tab, open the "Groups" panel.
    Find the name of the group from which you wish to remove the object,
