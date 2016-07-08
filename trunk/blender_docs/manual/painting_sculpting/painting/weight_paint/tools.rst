@@ -3,7 +3,8 @@
 Weight Tools
 ************
 
-.. figure:: /images/modeling-meshes-weight-paint-tools.jpg
+.. figure:: /images/painting_weight_weight-tools.png
+   :align: right
 
    Weight Paint Tools.
 
@@ -19,7 +20,6 @@ The Subset Option
 Some of the tools also provide a Subset parameter (in the Operator panel,
 displayed after the tool is called) with following options:
 
-
 - Active Group
 - Selected Pose Bones
 - Deform pose Bones
@@ -27,7 +27,6 @@ displayed after the tool is called) with following options:
 
 All tools also work with Vertex Selection Masking and Face Selection masking.
 In these modes the tools operate only on selected verts or faces.
-
 
 .. tip:: About the Blend tool
 
@@ -104,7 +103,6 @@ All Groups
 Topology Mirror
    Mirror for meshes which are not 100% symmetric (approximate mirror).
 
-
 .. tip:: Mirror to opposite bone
 
    If you want to create a mirrored weight group for the opposite bone (of a symmetric character),
@@ -128,7 +126,6 @@ Invert
 Replaces each Weight of the selected weight group by × -1.0 weight.
 
 Examples:
-
 
 - original 1.0 converts to 0.0
 - original 0.5 remains 0.5
@@ -240,7 +237,6 @@ Blend
 Blends the weights of selected vertices with adjacent unselected vertices.
 This tool only works in vertex select mode.
 
-
 .. figure:: /images/modeling-meshes-wp-tools-blend1.jpg
 
    Blending.
@@ -260,7 +256,6 @@ This value is multiplied by the factor given in the Operator parameters (see bel
 - If the factor is 1.0 then the calculated average weight is taken (0.25 here).
 - Dragging the factor from 0 to 1 gradually changes from the old value to the calculated average.
 
-
 .. figure:: /images/modeling-meshes-wp-tools-blend2.jpg
 
    Blending.
@@ -270,7 +265,6 @@ Now let us see what happens when we select all but one of the neighbors of the s
 well. Again all connected and unselected verts are marked with a gray circle.
 When we call the Blend tool now and set the Factor to 1.0,
 then we see different results for each of the selected verts:
-
 
 - The topmost and bottommost selected verts:
 
@@ -328,7 +322,6 @@ object. However, you can change the tool's behavior in the operator redo panel (
 
 Prepare the Copy
 ----------------
-
 
 .. list-table::
 
