@@ -97,8 +97,8 @@ You may also use the *Select* Menu.
    hover over the next and press :kbd:`L` to add that path to the selection.
    To remove a path, hold :kbd:`Shift` and press :kbd:`L`. To Deselect all press :kbd:`A`.
 
-   The method to select individual points is the same as in edit mode. click to select,
-   :kbd:`Shift-LMB` to add/remove a point from the selection.
+   The method to select individual points is the same as in edit mode.
+   :kbd:`RMB` to select, :kbd:`Shift-RMB` to add/remove a point from the selection.
 
 
 Select Modes
@@ -253,4 +253,4 @@ do not react on the various brushes. But:
 If you use *Mirror Editing* even particles with hidden keypoints may be moved,
 if their mirrored counterpart is moved.
 
-To un-hide all hidden particles press Alt+H.
+To un-hide all hidden particles press :kbd:`Alt-H`.
