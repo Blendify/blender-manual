@@ -20,7 +20,7 @@ usually these properties are **not** manually modified *frame by frame*, because
 
 This is why nearly all direct animation is done using *interpolation*.
 
-The idea is simple: you define a few Key Frames, which are multiple frames apart.
+The idea is simple: you define a few Keyframes, which are multiple frames apart.
 Between these keyframes, the properties' values are computed (interpolated)
 by Blender and filled in. Thus, the animators' workload is significantly reduced.
 
