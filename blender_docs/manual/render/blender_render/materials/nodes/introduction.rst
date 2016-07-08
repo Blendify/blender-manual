@@ -18,7 +18,7 @@ expanded upon. Each section builds off the previous.
 
 To start, the node system does not make the material menu obsolete.
 Many features and material settings are still only accessible through the material panel (e.g.
-Ray Mirror). However with the advent of nodes,
+Ray Mirror). However, with the advent of nodes,
 more complex and fantastic materials can be created since we now have greater control.
 
 Just in case you're not (yet) familiar with the concepts: when you create a system of nodes,

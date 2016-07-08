@@ -62,7 +62,7 @@ Setting up the Build Environment
       Successfully installed Jinja2 MarkupSafe Pygments Sphinx docutils sphinx-rtd-theme Cleaning up...
 
 During the setup, some warnings may be shown, but do not worry about them.
-However if any errors occur, they may cause some problems.
+However, if any errors occur, they may cause some problems.
 
 .. note::
 

@@ -154,7 +154,7 @@ UV Overlap
 
 In general overlapping UVs are not supported (as with texture baking).
 
-However this is only a problem when a single brush stroke paints onto multiple faces that share a texture.
+However, this is only a problem when a single brush stroke paints onto multiple faces that share a texture.
 
 
 Perspective View & Faces Behind the View

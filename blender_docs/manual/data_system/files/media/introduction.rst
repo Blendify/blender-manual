@@ -40,7 +40,7 @@ Color Space
 By default only renders are displayed and saved with the render view transformations applied.
 These are the Render Result and Viewer image data-blocks,
 and the files saved directly to disk with the Render Animation operator.
-However when loading a render saved to an intermediate OpenEXR file,
+However, when loading a render saved to an intermediate OpenEXR file,
 Blender cannot detect automatically that this is a render (it could be e.g.
 an image texture or displacement map).
 We need to specify that this is a render and that we want the transformations applied,
@@ -62,7 +62,7 @@ display devices and view transforms.
 The reference linear color space used is the linear color space with Rec.
 709 chromaticities and D65 white point.
 
-However OpenColorIO was also designed to give a consistent user experience across
+However, OpenColorIO was also designed to give a consistent user experience across
 `multiple applications <http://opencolorio.org/CompatibleSoftware.html>`__,
 and for this a single shared configuration file can be used. Blender will use the standard
 OCIO environment variable to read an OpenColorIO configuration other than the default Blender
@@ -86,7 +86,7 @@ The standard Blender configuration also includes some support for
 even though we have a different linear color space.
 It's possible to load and save EXR files with the Linear ACES color space,
 and the RRT view transform can be used to view images with their standard display transform.
-However the ACES gamut is larger than the Rec. 709 gamut,
+However, the ACES gamut is larger than the Rec. 709 gamut,
 so for best results an ACES specific configuration file should be used.
 OpenColorIO provides an `ACES configuration <http://opencolorio.org/configurations/index.html>`__,
 though it may need a few more tweaks to be usable in production.

@@ -137,7 +137,7 @@ Many render engines will typically disable caustics by default.
           :width: 180px
 
 
-However using No Caustics will result in missing light,
+However, using No Caustics will result in missing light,
 and it still does not cover the case where a sharp glossy reflection is viewed through a soft glossy reflection.
 There is a :ref:`Filter Glossy <render-cycles-integrator-filter_glossy>`
 option to reduce the noise from such cases at the cost of accuracy.
@@ -178,7 +178,7 @@ Materials with emission shaders can be configured to be *sampled as lamp*
 This means that they will get rays sent directly towards them,
 rather than ending up there based on rays randomly bouncing around.
 For very bright mesh light sources, this can reduce noise significantly.
-However when the emission is not particularly bright,
+However, when the emission is not particularly bright,
 this will take samples away from other brighter light sources for which it is important to find them this way.
 
 The optimal setting here is difficult to guess; it may be a matter of trial and error,

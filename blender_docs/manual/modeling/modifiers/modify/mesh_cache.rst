@@ -34,7 +34,7 @@ Influence
 
 Deform Mode
    This setting defaults to 'Overwrite' which will replace the vertex locations with those in the cache file.
-   However you may want to use shape-keys, for example, and mix them with the mesh-cache.
+   However, you may want to use shape-keys, for example, and mix them with the mesh-cache.
    In this case you can select the 'Deform' option which integrates deformations with the mesh-cache result.
 
    .. note::

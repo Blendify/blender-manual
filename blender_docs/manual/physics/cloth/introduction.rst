@@ -61,7 +61,7 @@ If changes to the simulation are made, you have full control over clearing the c
 Running the simulation for the first time is fully automatic and no baking or separate step interrupts the workflow.
 
 Computation of the shape of the cloth at every frame is automatic and done in the background;
-thus you can continue working while the simulation is computed. However it is CPU-intensive
+thus you can continue working while the simulation is computed. However, it is CPU-intensive
 and depending on the power of your PC and the complexity of the simulation,
 the amount of CPU needed to compute the mesh varies, as does the lag you might notice.
 

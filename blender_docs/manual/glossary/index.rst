@@ -314,7 +314,7 @@ This page lists definitions for terms used in Blender and this manual.
    Index Of Refraction
       A property of transparent materials.
       When a light ray travels through the same volume it follows a straight path.
-      However if it passes from one transparent volume to another, it bends.
+      However, if it passes from one transparent volume to another, it bends.
       The angle by which the ray is bent can be determined by the IOR of the materials of both volumes.
 
    Interpolation
