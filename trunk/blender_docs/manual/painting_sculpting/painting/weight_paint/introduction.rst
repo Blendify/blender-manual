@@ -36,7 +36,6 @@ Weight Paint in a nutshell
   Starting to paint on a mesh automatically adds weights to the active Vertex Group
   (a new Vertex Group is created if needed).
 
-
 .. tip:: Useful Keyboard Shortcuts
 
    The shortcuts can speed up your weight painting:
@@ -74,6 +73,10 @@ a special visual notation for unreferenced vertices: They are drawn in black.
 Thus you can see the referenced areas (drawn in cold/hot colors) and the unreferenced areas
 (in black) at the same time. This is most practical when you look for weighting errors
 (we will get back to this later).
+
+.. note::
+
+   The color spectrum can be changed in the :ref:`User Preferences <prefs-system-weight>`.
 
 
 Brushes
@@ -229,8 +232,8 @@ Factor
    Higher values give a smoother stroke
 
 
-The brush Falloff curve
------------------------
+Curve
+-----
 
 .. figure:: /images/modeling-meshes-weight-paint-curve.jpg
    :width: 235px
@@ -242,6 +245,9 @@ The brush falloff editor allows you to specify the characteristics of your brush
 The usage should be obvious and intuitive.
 
 
+Options
+=======
+   
 The brush appearance
 --------------------
 
@@ -264,21 +270,6 @@ Brush presets
 
 Blender provides several Brushes, exact options listed at `Brushes`_.
 
-
-Customizing brush color space
------------------------------
-
-.. figure:: /images/modeling-meshes-weight-paint-custom-colorband.jpg
-
-   Customizing the Color Band.
-
-
-Blender allows customization of the color range used for the Weight Paint colors.
-You can define the color band as you like;
-for example, you can make it purely black/white if you prefer,
-you can even use alpha values here.
-
-You find the customizer in the User Properties section, in the System Tab.
 
 
 Selection Masking
