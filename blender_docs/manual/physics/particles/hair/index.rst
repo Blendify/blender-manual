@@ -1,4 +1,3 @@
-
 .. _particles_hair-index:
 
 #######
@@ -9,4 +8,4 @@
    :maxdepth: 2
 
    introduction.rst
-   hair_dynamics.rst
+   options.rst
