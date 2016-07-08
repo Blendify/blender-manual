@@ -79,8 +79,11 @@ Thus you can see the referenced areas (drawn in cold/hot colors) and the unrefer
    The color spectrum can be changed in the :ref:`User Preferences <prefs-system-weight>`.
 
 
-Brushes
-=======
+Tools
+=====
+
+Brush
+-----
 
 .. figure:: /images/modeling-meshes-weight-paint-brush.jpg
 
@@ -92,10 +95,6 @@ operates in *Weight Paint Mode*. You find predefined Brush Presets when you clic
 the large Brush Icon at the top of the brush Panel.
 And you can make your own presets as needed.
 See below for the available brush presets and to create custom presets.
-
-
-The main brush properties
--------------------------
 
 The most important and frequently modified properties are:
 
@@ -158,13 +157,6 @@ Blend mode
             - Disable when painting individual vertices on lower poly modules.
             - Enable for more dense geometry, or when you want to increase the blur effect.
 
-
-Normalize Options
------------------
-
-Blender also provides Options regarding the automatic normalizing of all affected Vertex
-groups:
-
 Auto Normalize
    Ensures that all deforming vertex groups add up to one while painting. When this option is turned off,
    then all weights of a vertex can have any value between 0.0 and 1.0. However, when Vertex Groups are used as
@@ -202,8 +194,8 @@ Multi-Paint
       After that simply paint on top to set the desired collective weight.
 
 
-The Brush stroke definition
----------------------------
+Stroke
+------
 
 .. figure:: /images/modeling-meshes-weight-paint-stroke.jpg
    :width: 235px

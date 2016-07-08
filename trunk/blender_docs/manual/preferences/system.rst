@@ -288,6 +288,8 @@ Choose which type of :term:`color space` you prefer - it will show when clicking
 See the different color picker types at the :doc:`Extended Controls </interface/controls/extended_controls>` page.
 
 
+.. _prefs-system-weight:
+
 Custom Weight Paint Range
 =========================
 
