@@ -29,7 +29,7 @@ Vertex Group Categories
 
 Actually we do not have any strict categories of Vertex Groups in Blender.
 Technically they all behave the same way.
-However we can identify two implicit categories of Vertex Groups:
+However, we can identify two implicit categories of Vertex Groups:
 
 
 The Deform Groups

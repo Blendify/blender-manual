@@ -97,7 +97,7 @@ Currently this is most useful for night time or other dark scenes,
 as the world surface shader or sun lamps will have no effect if a volume shader is used.
 This is because the world background is assumed to be infinitely far away,
 which is accurate enough for the sun for example.
-However for modeling effects such as fog or atmospheric scattering,
+However, for modeling effects such as fog or atmospheric scattering,
 it is not a good assumption that the volume fills the entire space,
 as most of the distance between the sun and the earth is empty space.
 For such effects it is be better to create a volume object surrounding the scene.
@@ -118,7 +118,7 @@ Scattering Bounces
 ==================
 
 Real world effects such as scattering in clouds or subsurface scattering require many
-scattering bounces. However unbiased rendering of such effects is slow and noisy. In typical
+scattering bounces. However, unbiased rendering of such effects is slow and noisy. In typical
 movie production scenes only 0 or 1 bounces might be used to keep render times under control.
 The effect you get when rendering with zero volume bounces is what is known as "single
 scattering", the effect from more bounces is "multiple scattering".

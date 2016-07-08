@@ -131,7 +131,7 @@ Blend mode
    Subtract
       In this blend mode the specified weight is *subtracted* from the vertex weights.
       The strength determines which fraction of the weight gets removed per stroke.
-      However the brush will not paint weight values below 0.0.
+      However, the brush will not paint weight values below 0.0.
    Lighten
       In this blend mode the specified weight value is interpreted
       as the target weight very similar to the Mix Blend mode.
@@ -372,7 +372,7 @@ Hide/Unhide Vertices
 --------------------
 
 You cannot directly hide selected faces in vertex mask selection mode.
-However you can use a trick:
+However, you can use a trick:
 
 - First go to Face selection mask mode
 - Select the areas you want to hide and then hide the faces (as explained above)

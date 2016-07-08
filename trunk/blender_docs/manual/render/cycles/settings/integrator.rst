@@ -148,7 +148,7 @@ Clamp Direct
 
       A common issue encountered with path-tracing is the occurrence of *"fireflies"*:
       improbable samples that contribute very high values to pixels.
-      This option provides a way to limit that. However note that as you clamp out such values,
+      This option provides a way to limit that. However, note that as you clamp out such values,
       other bright lights/reflections will be dimmed as well.
    
       Care must be taken when using this setting to find a balance between mitigating fireflies and losing
@@ -185,7 +185,7 @@ World Settings
 
 Multiple Importance Sample
    By default lighting from the world is computed solely with indirect light sampling.
-   However for more complex environment maps this can be too noisy,
+   However, for more complex environment maps this can be too noisy,
    as sampling the BSDF may not easily find the highlights in the environment map image. By enabling this option,
    the world background will be sampled as a lamp, with lighter parts automatically given more samples.
 

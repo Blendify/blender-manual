@@ -59,7 +59,7 @@ automatically execute.
 First of all, the file-selector has the option **Trusted Source** which you can use on a
 case-by-case basis to control auto-execution.
 
-However you may forget to set this,
+However, you may forget to set this,
 or open a file without going through the file selector - so you can change the default
 (described next).
 

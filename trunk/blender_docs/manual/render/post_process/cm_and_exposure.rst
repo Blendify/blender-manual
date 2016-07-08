@@ -35,7 +35,7 @@ if we have two photos/renders each with one of two lights on, and add those imag
 the result would be the same as a render/photo with both lights on. It follows that such a
 radiometrically linear space is best for photorealistic rendering and compositing.
 
-However these values do not directly correspond to human perception or the way display devices
+However, these values do not directly correspond to human perception or the way display devices
 work, and image files are often stored in different color spaces,
 so we have to take care to do the right conversion into and out of this linear color space.
 

@@ -89,7 +89,7 @@ by pressing :kbd:`Shift-F2`, or by pressing :kbd:`Ctrl-Right`).
 
 
 The Property panel of the screen is selected as usual from the main Information menu.
-However note that several sections of the Property panel are changed when the render engine
+However, note that several sections of the Property panel are changed when the render engine
 (2) is changed from Blender Render to Blender Game.
 
 See following sections for details of the content of :doc:`Physics </game_engine/physics/index>` Properties panels.

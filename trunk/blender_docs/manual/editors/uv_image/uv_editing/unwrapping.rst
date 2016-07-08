@@ -182,7 +182,7 @@ and each latitude line becomes evenly spaced.
 Normally, to unwrap a cylinder (tube) as if you slit it lengthwise and folded it flat,
 Blender wants the view to be vertical, with the tube standing "up".
 Different views will project the tube onto the UV map differently, skewing the image if used.
-However you can set the axis on which the calculation is done manually.
+However, you can set the axis on which the calculation is done manually.
 This same idea works for the sphere mapping:
 
 Recall the opening cartographer's approaching to mapping the world? Well,

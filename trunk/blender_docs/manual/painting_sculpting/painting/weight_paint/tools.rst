@@ -323,7 +323,7 @@ Transfer Weights
 
 Copy weights from other objects to the vertex groups of the active Object.
 By default this tool copies all vertex groups contained in the selected objects to the target
-object. However you can change the tool's behavior in the operator redo panel (see below).
+object. However, you can change the tool's behavior in the operator redo panel (see below).
 
 
 Prepare the Copy
@@ -358,7 +358,7 @@ Call the Tool
 Open the Tool Shelf and locate the Weight Tools panel.
 From there call the "Transfer weights" tool.
 The tool will initially copy all vertex groups from the source objects.
-However the tool also has an operator redo panel
+However, the tool also has an operator redo panel
 (which appears at the bottom of the tool shelf).
 From the redo panel you can change the parameters to meet your needs.
 (The available Operator parameters are documented below.)

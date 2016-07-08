@@ -31,7 +31,7 @@ parent-child-relationship where child-objects exist entirely in the parent's coo
 system. This is the better choice for CAD purposes, for example.
 
 Moving, rotating or scaling the parent will also usually move/rotate/scale the child/children.
-However moving/rotating/scaling the child/children of the parent will not result in the parent
+However, moving/rotating/scaling the child/children of the parent will not result in the parent
 moving/rotating/scaling. In other words,
 the direction of influence is from parent to child and not child to parent.
 

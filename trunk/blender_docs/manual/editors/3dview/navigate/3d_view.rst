@@ -331,7 +331,7 @@ So they share the same draw options and layers.
 
 If you want to be able to rotate each view, you can un-check the *Locked* option.
 
-However in sometimes its preferable to split the view, so each can have its own configuration.
+However, in sometimes its preferable to split the view, so each can have its own configuration.
 
 :doc:`Read more about splitting areas </interface/editors/arranging_areas>`
 
