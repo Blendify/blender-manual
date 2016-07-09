@@ -18,3 +18,4 @@
    subdividing/index.rst
    cleanup.rst
    misc.rst
+   data_transfer.rst
