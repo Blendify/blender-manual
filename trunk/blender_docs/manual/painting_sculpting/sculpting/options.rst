@@ -3,8 +3,8 @@
 Options
 *******
 
-Sculpt Properties Panel
-=======================
+Tools Tab
+=========
 
 Brush
 -----
@@ -227,8 +227,8 @@ Tile Offset
    option to alter the tile size along all three axes.
 
 
-Options
-=======
+Options Tab
+===========
 
 Overlay Panel
 -------------
