@@ -81,6 +81,8 @@ your computer to the UK or US layout as long as you work with Blender.
    :doc:`Read more about Blender configuration </preferences/input>`
 
 
+.. _hardware-tablet:
+
 Graphic Tablets
 ---------------
 
