@@ -8,4 +8,5 @@
    :maxdepth: 2
 
    introduction.rst
+   options.rst
    adaptive.rst
