@@ -6,8 +6,6 @@ Options
 Sculpt Properties Panel
 =======================
 
-This panel appears in the tool palette on the left side of the 3D View.
-
 Brush
 -----
 
@@ -32,7 +30,7 @@ Brush Type
       Moves vertices inward or outward,
       based the average normal of the vertices contained within the drawn brush stroke.
    Fill
-      The *Fill* brush works like the Flatten brush, but only brings vertices below the brush plane upwards.
+      Works like the Flatten brush, but only brings vertices below the brush plane upwards.
       The inverse of the Scrape brush is to *Deepen* by pushing vertices above the plane downward.
    Flatten
       The *Flatten* brush finds an 'area plane'
@@ -41,8 +39,8 @@ Brush Type
       The inverse of the Flatten brush is the *Contrast*
       brush which pushes vertices up or down away from the brush plane.
    Grab
-      *Grab* is used to drag a group of points around.
-      Unlike the other brushes, *Grab* does not modify different points as the brush is dragged across the model.
+      Used to drag a group of points around. Unlike the other brushes,
+      *Grab* does not modify different points as the brush is dragged across the model.
       Instead, *Grab* selects a group of vertices on mousedown, and pulls them to follow the mouse.
       The effect is similar to moving a group of vertices in *Edit Mode* with proportional-editing enabled,
       except that *Grab* can make use of other Sculpt Mode options (like textures and symmetry).
@@ -56,7 +54,7 @@ Brush Type
    Nudge
       Moves vertices in the direction of the brush stroke.
    Pinch
-      *Pinch* pulls vertices towards the center of the brush.
+      Pulls vertices towards the center of the brush.
       The inverse setting is *Magnify*, in which vertices are pushed away from the center of the brush.
    Rotate
       Rotates vertices within the brush in the direction the cursor is moved.
@@ -75,26 +73,30 @@ Brush Type
 
 Radius
    This option controls the radius of the brush, measured in pixels.
-   :kbd:`F` in the 3D View allows you to change the brush size interactively by
-   dragging the mouse and then left clicking (the texture of the brush should be visible inside the circle).
-   Typing a number then enter while in :kbd:`F` sizing allows you to enter the size numerically.
-   Brush size can be affected by enabling the pressure sensitivity icon, if a supported tablet is being used.
+   :kbd:`F` allows you to change the brush size interactively by
+   dragging the mouse and then :kbd:`LMB` (the texture of the brush should be visible inside the circle).
+   Typing a number then enter while using :kbd:`F` allows you to enter the size numerically.
+   Brush size can be affected by enabling the pressure sensitivity icon,
+   if you are using a :ref:`Graphics Tablet <hardware-tablet>`.
 
 Strength
-   *Strength* controls how much each application of the brush affects the model.
+   Controls how much each application of the brush affects the model.
    For example, higher values cause the *Draw* brush to add depth to the model more quickly,
    and cause the *Smooth* brush to smooth the model more quickly.
    This setting is not available for *Grab*, *Snake Hook*, or *Rotate*.
 
-If the range of strengths doesn't seem to fit the model (for example,
-if even the lowest strength setting still makes too large of a change on the model)
-then you can scale the model (in *Edit Mode*, not *Object Mode*).
-Larger sizes will make the brush's effect smaller, and vice versa.
-You can change the brush strength interactively by pressing :kbd:`Shift-F`
-in the 3D View and then moving the brush and then left clicking.
-You can enter the size numerically also while in :kbd:`Shift-F` sizing.
-Brush strength can be affected by enabling the pressure sensitivity icon,
-if a supported tablet is being used.
+   You can change the brush strength interactively by pressing :kbd:`Shift-F`
+   in the 3D View and then moving the brush and then :kbd:`LMB`.
+   You can enter the size numerically also while in :kbd:`Shift-F` sizing.
+   Brush strength can be affected by enabling the pressure sensitivity icon,
+   if a supported tablet is being used.
+
+   .. tip::
+
+      If the range of strengths doesn't seem to fit the model (for example,
+      if even the lowest strength setting still makes too large of a change on the model)
+      then you can scale the model (in *Edit Mode*, not *Object Mode*).
+      Larger sizes will make the brush's effect smaller, and vice versa.
 
 Autosmooth
    Sets the amount of smoothing to be applied to each stroke.
