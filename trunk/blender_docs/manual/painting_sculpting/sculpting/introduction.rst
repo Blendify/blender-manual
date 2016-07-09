@@ -27,87 +27,13 @@ Also a red circle will appear that follows the location of the cursor in the 3D 
 
    To have a predictable brush behavior, apply the scale of your mesh.
 
-
-
 .. figure:: /images/sculpt_mode_drop_down.jpg
 
    Sculpt Mode Dropdown.
 
-
 .. figure:: /images/sculpt_brush_circle.jpg
 
    The cursor in Sculpt Mode.
-
-
-Sculpt Brushes
-==============
-
-Brushes are brush presets. They are a combination of a 'tool', along with stroke, texture,
-and options.
-
-*Sculpt Mode* has sixteen brushes, each of which operates on the model in a unique way.
-Many can be toggled to have an additive or subtractive effect.
-They can be selected in the *Tool* menu.
-
-
-.. figure:: /images/sculpt_brushes.png
-
-   Sculpt brushes.
-
-
-Blob
-   Pushes mesh outward or inward into a spherical shape with settings to
-   control the amount of pinching at the edge of the sphere.
-Clay
-   Similar to the *Draw* brush, but includes settings to adjust the plane on which the brush acts.
-Clay Strips
-   Similar to the *Clay* brush, but it uses a cube test to define the brush area of influence rather than a sphere.
-Crease
-   Creates sharp indents or ridges by pushing or pulling the mesh, while pinching the vertices together.
-Draw
-   Moves vertices inward or outward,
-   based the average normal of the vertices contained within the drawn brush stroke.
-Fill
-   The *Fill* brush works like the Flatten brush, but only brings vertices below the brush plane upwards.
-   The inverse of the Scrape brush is to *Deepen* by pushing vertices above the plane downward.
-Flatten
-   The *Flatten* brush finds an 'area plane'
-   located by default at the average height above/below the vertices within the brush area.
-   The vertices are then pulled towards this plane.
-   The inverse of the Flatten brush is the *Contrast*
-   brush which pushes vertices up or down away from the brush plane.
-Grab
-   *Grab* is used to drag a group of points around.
-   Unlike the other brushes, *Grab* does not modify different points as the brush is dragged across the model.
-   Instead, *Grab* selects a group of vertices on mousedown, and pulls them to follow the mouse.
-   The effect is similar to moving a group of vertices in *Edit Mode* with proportional-editing enabled,
-   except that *Grab* can make use of other Sculpt Mode options (like textures and symmetry).
-Inflate
-   Similar to *Draw*, except that vertices in *Inflate* mode are displaced in the direction of their own normals.
-Layer
-   This brush is similar to *Draw*, except that the height of the displacement layer is capped.
-   This creates the appearance of a solid layer being drawn.
-   This brush does not draw on top of itself; a brush stroke intersects itself.
-   Releasing the mouse button and starting a new stroke will reset the depth and paint on top of the previous stroke.
-Nudge
-   Moves vertices in the direction of the brush stroke.
-Pinch
-   *Pinch* pulls vertices towards the center of the brush.
-   The inverse setting is *Magnify*, in which vertices are pushed away from the center of the brush.
-Rotate
-   Rotates vertices within the brush in the direction the cursor is moved.
-Scrape
-   The *Scrape* brush works like the Flatten brush, but only brings vertices above the plane downwards.
-   The inverse of the Scrape brush is to *Peak* by pushing vertices above the plane up away from the plane.
-Smooth
-   As the name suggests,
-   eliminates irregularities in the area of the mesh within the brush's
-   influence by smoothing the positions of the vertices.
-Snake Hook
-   Pulls vertices along with the movement of the brush to create long, snake-like forms.
-Thumb
-   Similar to the *Nudge* brush, this one flattens the mesh in the brush area,
-   while moving it in the direction of the brush stroke.
 
 
 Sculpt Properties Panel
@@ -115,9 +41,70 @@ Sculpt Properties Panel
 
 This panel appears in the tool palette on the left side of the 3D View.
 
+Brush
+-----
 
-Brush Panel
------------
+Brush Type
+   Brushes are brush presets. They are a combination of a 'tool',
+   along with stroke, texture, and options.
+
+   .. figure:: /images/sculpt_brushes.png
+
+      Sculpt brushes.
+
+   Blob
+      Pushes mesh outward or inward into a spherical shape with settings to
+      control the amount of pinching at the edge of the sphere.
+   Clay
+      Similar to the *Draw* brush, but includes settings to adjust the plane on which the brush acts.
+   Clay Strips
+      Similar to the *Clay* brush, but it uses a cube test to define the brush area of influence rather than a sphere.
+   Crease
+      Creates sharp indents or ridges by pushing or pulling the mesh, while pinching the vertices together.
+   Draw
+      Moves vertices inward or outward,
+      based the average normal of the vertices contained within the drawn brush stroke.
+   Fill
+      The *Fill* brush works like the Flatten brush, but only brings vertices below the brush plane upwards.
+      The inverse of the Scrape brush is to *Deepen* by pushing vertices above the plane downward.
+   Flatten
+      The *Flatten* brush finds an 'area plane'
+      located by default at the average height above/below the vertices within the brush area.
+      The vertices are then pulled towards this plane.
+      The inverse of the Flatten brush is the *Contrast*
+      brush which pushes vertices up or down away from the brush plane.
+   Grab
+      *Grab* is used to drag a group of points around.
+      Unlike the other brushes, *Grab* does not modify different points as the brush is dragged across the model.
+      Instead, *Grab* selects a group of vertices on mousedown, and pulls them to follow the mouse.
+      The effect is similar to moving a group of vertices in *Edit Mode* with proportional-editing enabled,
+      except that *Grab* can make use of other Sculpt Mode options (like textures and symmetry).
+   Inflate
+      Similar to *Draw*, except that vertices in *Inflate* mode are displaced in the direction of their own normals.
+   Layer
+      This brush is similar to *Draw*, except that the height of the displacement layer is capped.
+      This creates the appearance of a solid layer being drawn.
+      This brush does not draw on top of itself; a brush stroke intersects itself.
+      Releasing the mouse button and starting a new stroke will reset the depth and paint on top of the previous stroke.
+   Nudge
+      Moves vertices in the direction of the brush stroke.
+   Pinch
+      *Pinch* pulls vertices towards the center of the brush.
+      The inverse setting is *Magnify*, in which vertices are pushed away from the center of the brush.
+   Rotate
+      Rotates vertices within the brush in the direction the cursor is moved.
+   Scrape
+      The *Scrape* brush works like the Flatten brush, but only brings vertices above the plane downwards.
+      The inverse of the Scrape brush is to *Peak* by pushing vertices above the plane up away from the plane.
+   Smooth
+      As the name suggests,
+      eliminates irregularities in the area of the mesh within the brush's
+      influence by smoothing the positions of the vertices.
+   Snake Hook
+      Pulls vertices along with the movement of the brush to create long, snake-like forms.
+   Thumb
+      Similar to the *Nudge* brush, this one flattens the mesh in the brush area,
+      while moving it in the direction of the brush stroke.
 
 Radius
    This option controls the radius of the brush, measured in pixels.
@@ -216,7 +203,7 @@ intensity of the brush from its centre (left part of the curve) towards its bord
 
 .. seealso::
 
-   - Read more about using the :ref:`ui-curve_widget`.
+   Read more about using the :ref:`ui-curve_widget`.
 
 
 Texture Panel
@@ -283,6 +270,8 @@ Tile Offset
    option to alter the tile size along all three axes.
 
 
+Options
+=======
 
 Overlay Panel
 -------------
@@ -343,7 +332,6 @@ Custom Icon
 Sculpt Menus
 ============
 
-
 Tool Menu
 ---------
 
@@ -362,7 +350,6 @@ To reveal a hidden part of a mesh,
 press :kbd:`Shift-H` then click & drag around the part you want to reveal.
 To reveal all hidden parts, just press :kbd:`Alt-H`.
 With the mask brush we can paint a part of the mesh and hide it.
-
 
 .. figure:: /images/sculpt_hide_mask.png
    :width: 610px
