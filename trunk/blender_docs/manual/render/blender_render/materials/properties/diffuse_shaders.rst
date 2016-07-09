@@ -11,10 +11,10 @@ Diffuse Shaders
 
 
 A diffuse shader determines, simply speaking,
-the general color of a material when light shines on it. Most shaders that are designed to
-mimic reality give a smooth falloff from bright to dark from the point of the strongest
-illumination to the shadowed areas,
-but Blender also has other shaders for various special effects.
+the general color of a material when light shines on it.
+Most shaders that are designed to mimic reality give a smooth falloff
+from bright to dark from the point of the strongest illumination 
+to the shadowed areas, but Blender also has other shaders for various special effects.
 
 
 Common Options
@@ -35,8 +35,9 @@ Ramp
 Technical Details
 =================
 
-Light striking a surface and then re-irradiated via a Diffusion phenomenon will be scattered, i.e.,
-re-irradiated in all directions isotropically. This means that the camera will see the same amount of light from that
+Light striking a surface and then re-irradiated via a Diffusion phenomenon will be scattered, 
+i.e., re-irradiated in all directions isotropically. 
+This means that the camera will see the same amount of light from that
 surface point no matter what the *incident viewing angle* is.
 It is this quality that makes diffuse light *viewpoint independent*. Of course,
 the amount of light that strikes the surface depends on the incident light angle.
@@ -51,7 +52,7 @@ If most of the light striking a surface is reflected diffusely, the surface will
 .. tip:: Shader Names
 
    Some shaders' names may sound odd -
-   they are traditionally named after the people who first introduced the models on which they are based.
+   they are traditionally named after the people, who first introduced the models on which they are based.
 
 
 Lambert
@@ -148,8 +149,8 @@ Toon
    Toon Shader Variations.
 
 
-The Toon shader is a very 'un-physical' shader in that it is not meant to fake reality but to
-produce cartoon cel styled rendering,
+The Toon shader is a very 'un-physical' shader in that it is not meant to fake reality,
+but to produce cartoon cel styled rendering,
 with clear boundaries between light and shadow and uniformly lit/shadowed regions.
 
 
@@ -186,12 +187,11 @@ Minnaert
 
 Minnaert works by darkening parts of the standard Lambertian shader,
 so if *Dark* is 1 you get exactly the Lambertian result.
-Higher darkness values will darken the center of an object
-(where it points towards the viewer).
+Higher darkness values will darken the center of an object (where it points towards the viewer).
 Lower darkness values will lighten the edges of the object, making it look somewhat velvet.
 `Marcel Minnaert <https://en.wikipedia.org/wiki/Marcel_Minnaert>`__ (1893-1970)
-was a Belgian astronomer interested in the effects of the atmosphere on light and images who in 1954 published a book
-entitled "The Nature of Light and Color in the Open Air".
+was a Belgian astronomer interested in the effects of the atmosphere on light and 
+images who in 1954 published a book entitled "The Nature of Light and Color in the Open Air".
 
 
 Options
@@ -229,8 +229,8 @@ Fresnel
    Fresnel Shader, Different Spec.
 
 
-With a Fresnel shader the amount of diffuse reflected light depends on the incidence angle, i.
-e. from the direction of the light source.
+With a Fresnel shader the amount of diffuse reflected light depends on the incidence angle,
+i.e. from the direction of the light source.
 Areas pointing directly towards the light source appear darker;
 areas perpendicular to the incoming light become brighter.
 `Augustin-Jean Fresnel <https://en.wikipedia.org/wiki/Augustin-Jean_Fresnel>`__ (1788-1827)
@@ -260,7 +260,7 @@ Translucency
 Shadeless
    Make this material insensitive to light or shadow
 Tangent Shading
-   Use the material's tangent vector instead of the normal for shading&nbsp;&mdash;
+   Use the material's tangent vector instead of the normal for shading --
    for anisotropic shading effects (e.g. soft hair and brushed metal).
    
    .. seealso::
