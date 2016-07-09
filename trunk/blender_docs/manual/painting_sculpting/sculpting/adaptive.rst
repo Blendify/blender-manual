@@ -20,7 +20,7 @@ Detail Type
 
    Constant Detail
        To keep detail uniform across the entire object, Constant Detail can be used.
-       The Detail is based on the percentage of a single BU (Blender Unit).
+       The Detail is based on the percentage of a single :abbr:`BU (Blender Unit)`.
 
    Brush Detail
        Giving more control over the topology, with this method you can create topology

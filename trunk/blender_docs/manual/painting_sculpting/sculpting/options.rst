@@ -105,26 +105,55 @@ Normal Weight
    Especially useful with the *Grab Brush*, can be temporarily enabled by holding :kbd:`Ctrl`.
 
    Applies to *Grab* and *Snake Hook* brushes.
-Pinch Factor
-   TODO.
-Rake Factor
-   TODO.
 Sculpt Plane
    Use this menu to set the plane in which the sculpting takes place.
-Plane Offset
-   Adjusts the plane on which the brush acts toward or away from the viewer.
-Height
-   TODO.
-Trim
-   Enables trimming of the sculpt plane, determined by the *Distance* setting.
 Front Faces Only
    When enabled, the brush only affects vertices that are facing the viewer.
-Accumulate
-   Causes stroke dabs to accumulate on top of each other.
 Add/Subtract
    TODO.
-Persistent
+Accumulate
+   Causes stroke dabs to accumulate on top of each other.
+
+
+Texture Panel
+-------------
+
+Texture
+   Texture to be used to determine the strength of brush.
+Brush Mapping
+   Sets the way the texture is mapped to the brush stroke:
+
+   Fixed
+      If *Fixed* is enabled, the texture follows the mouse,
+      so it appears that the texture is being dragged across the model.
+   Tiled
+      The *Tile* option tiles the texture across the screen,
+      so moving the brush appears to move separately from the texture.
+      The *Tile* option is most useful with tileable images, rather than procedural textures.
+   3D
+      The *3D* option allows the brush to take full advantage of procedural textures.
+      This mode uses vertex coordinates rather than the brush location to determine what area of the texture to use.
+Angle
+   This is the rotation angle of the texture brush.
+   It can be changed interactively via :kbd:`Ctrl-F` in the 3D View.
+   While in the interactive rotation you can enter a value numerically as well. Can be set to:
+
+   User
+      Directly input the angle value.
+   Rake
+      Angle follows the direction of the brush stroke. Not available with *3D* textures.
+   Random
+      Angle is randomized.
+Rake
    TODO.
+Random
+   TODO.
+Offset
+   Fine tunes the texture map placement in the x, y, and z axes.
+Size
+   This setting allows you to modify the scaling factor of the texture. Not available for *Drag* textures.
+Sample Bias
+   Value added to texture samples.
 
 
 Stroke Panel
@@ -175,47 +204,6 @@ intensity of the brush from its centre (left part of the curve) towards its bord
    Read more about using the :ref:`ui-curve_widget`.
 
 
-Texture Panel
--------------
-
-A texture can be used to determine the strength of brush effects as well.
-Select an existing texture from the texture box,
-or create a new one by selecting the *New* button
-
-Brush Mapping
-   Sets the way the texture is mapped to the brush stroke:
-
-   Fixed
-      If *Fixed* is enabled, the texture follows the mouse,
-      so it appears that the texture is being dragged across the model.
-   Tiled
-      The *Tile* option tiles the texture across the screen,
-      so moving the brush appears to move separately from the texture.
-      The *Tile* option is most useful with tileable images, rather than procedural textures.
-   3D
-      The *3D* option allows the brush to take full advantage of procedural textures.
-      This mode uses vertex coordinates rather than the brush location to determine what area of the texture to use.
-
-Angle
-   This is the rotation angle of the texture brush.
-   It can be changed interactively via :kbd:`Ctrl-F` in the 3D View.
-   While in the interactive rotation you can enter a value numerically as well. Can be set to:
-
-   User
-      Directly input the angle value.
-   Rake
-      Angle follows the direction of the brush stroke. Not available with *3D* textures.
-   Random
-      Angle is randomized.
-
-Offset
-   Fine tunes the texture map placement in the x, y, and z axes.
-Size
-   This setting allows you to modify the scaling factor of the texture. Not available for *Drag* textures.
-Sample Bias
-   Value added to texture samples.
-
-
 Symmetry Panel
 --------------
 
@@ -235,7 +223,7 @@ Tiling
    Using this option allows you to seamlessly tile your strokes along the given
    axes.
 Tile Offset
-   The default tile size is set to one BU (Blender Unit). The offset allows the
+   The default tile size is set to one :abbr:`BU (Blender Unit)`. The offset allows the
    option to alter the tile size along all three axes.
 
 
