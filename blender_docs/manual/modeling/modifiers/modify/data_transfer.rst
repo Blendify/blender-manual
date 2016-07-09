@@ -12,9 +12,9 @@ to a single destination one - interpolated mapping.
 
 .. figure:: /images/modifier-data_transfer_normals_example.png
 
-   From left to right, a flat-shaded beveled cube, a smooth-shaded beveled cube, and an autosmooth-shaded beveled cube
-   copying its normals from the reference, flat-shaded cube shown as wire here, to achieve the 'fake round corners'
-   effect.
+   From left to right, a flat-shaded beveled cube, a smooth-shaded beveled cube,
+   and an autosmooth-shaded beveled cube copying its normals from the reference,
+   flat-shaded cube shown as wire here, to achieve the 'fake round corners' effect.
 
 
 Options
@@ -200,4 +200,3 @@ Interpolated Mappings
       Projected Face Interpolated
          This is a sampling process. Several rays are cast from the whole destination’s face (along its own normal),
          and if enough of them hit a source’s face, all hit source faces’ data are interpolated into destination one.
-
