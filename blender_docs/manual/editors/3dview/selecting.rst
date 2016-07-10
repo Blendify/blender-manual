@@ -165,6 +165,8 @@ There are also many more options accessible through the *Select* menu of the 3D 
 Each is more adapted to certain operations.
 
 
+.. _select-grouped:
+
 Select Grouped
 --------------
 
@@ -174,7 +176,6 @@ Select Grouped
    | Mode:     Object Mode
    | Menu:     :menuselection:`Select --> Grouped`
    | Hotkey:   :kbd:`Shift-G`
-
 
 .. figure:: /images/editors_3dview_selecting_grouped.png
    :align: right
