@@ -48,6 +48,7 @@ the section may be scheduled for deletion or to be updated according to a planne
 
 :ref:`Communicating <contribute-contact>` early and frequently is the key to have a productive environment,
 to not waste people's effort and to attain a better Blender manual as a result.
+
 ..
    Communication is a very important step in community development.
    Manual maintainers and the general community can also point to areas that are in need of big or small changes.
