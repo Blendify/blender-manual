@@ -39,8 +39,8 @@ In this mode, the particle settings become disabled, and you can comb, trim, len
 Animating
 =========
 
-Hair can now be made dynamic using the cloth solver. This is covered in the
-:doc:`Hair Dynamics </physics/particles/hair/hair_dynamics>` page.
+Hair can now be made dynamic using the cloth solver.
+This is covered in the :ref:`Hair Dynamics <hair-dynamics>` page.
 
 
 Rendering
@@ -88,7 +88,7 @@ Amount
 Hair Dynamics
 -------------
 
-Settings for adding movement to hair see :doc:`Hair Dynamics </physics/particles/hair/hair_dynamics>`.
+Settings for adding movement to hair see :ref:`Hair Dynamics <hair-dynamics>`.
 
 
 Display
