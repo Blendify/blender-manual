@@ -79,7 +79,7 @@ Sections
          .. figure:: /images/contents_painting.jpg
             :target: painting_sculpting/index.html
 
-         :doc:`/painting_sculpting/index`
+         :doc:`/sculpt_paint/index`
             The 3D texture painting and sculpting modes.
 
       .. container:: descr
@@ -112,7 +112,7 @@ Sections
             :target: render/index.html
 
          :doc:`/render/index`
-            Render engines (Internal, Cycles, OpenGL), shading, post-processing, and Freestyle (NPR).
+            Render engines (Internal, Cycles), shading, post-processing, and Freestyle (NPR).
 
       .. container:: descr
 
@@ -175,7 +175,7 @@ Sections
       editors/index.rst
       data_system/index.rst
       modeling/index.rst
-      painting_sculpting/index.rst
+      sculpt_paint/index.rst
       rigging/index.rst
       animation/index.rst
       physics/index.rst

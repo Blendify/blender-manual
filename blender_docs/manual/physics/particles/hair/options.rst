@@ -30,6 +30,8 @@ Amount
    Volume will be produced later with *Children*.
 
 
+.. _hair-dynamics:
+
 Hair Dynamics
 =============
 

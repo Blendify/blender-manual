@@ -40,7 +40,7 @@ Pinning
 
 The first thing you need when pinning cloth is a :doc:`Vertex Group </modeling/meshes/vertex_groups/index>`.
 There are several ways of doing this including using the Weight Paint tool to paint the areas you want to pin
-(see the :doc:`/painting_sculpting/painting/weight_paint/index` section of the manual).
+(see the :doc:`/sculpt_paint/painting/weight_paint/index` section of the manual).
 The weight of each vertex in the group controls how strongly it is pinned.
 
 .. figure:: /images/physics-cloth-pin-example_01.png
