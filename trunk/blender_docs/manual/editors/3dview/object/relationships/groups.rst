@@ -26,20 +26,17 @@ Options
 
 Creating a Group
    :kbd:`Ctrl-G` creates a new group and adds the selected object(s) to it.
-
-
-.. figure:: /images/modeling-objects-grouping-objprop.jpg
-
-   Naming a Group.
-
-
 Naming a Group
    All groups that an object has been assigned to are listed in the
    :menuselection:`Object Properties Panel --> Relations panel`.
-   To rename a group, simply click in the groups name field.
-   To name groups in the *Outliner* editor, select *Groups* as the outliner display from the header combo box,
-   and :kbd:`Ctrl-LMB` click on the group name.
+   To rename a group, simply click in the groups name field. To name groups in the *Outliner* editor,
+   select *Groups* as the outliner display from the header combo box, and :kbd:`Ctrl-LMB` click on the group name.
    The name will change to an editable field; make your changes and press :kbd:`Return`.
+
+   .. figure:: /images/modeling-objects-grouping-objprop.jpg
+
+      Naming a Group.
+
 Restricting Group Contents via Layers
    The cluster of layer buttons attached to each group determines from
    which layers the group objects will be included when duplicated.
@@ -55,17 +52,6 @@ Removing Groups
    Find the name of the group from which you wish to remove the object,
    and click the x to the right of the group name.
 
+.. tip:: Selecting Groups
 
-Select Grouped
-==============
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Object Mode
-   | Menu:     :menuselection:`Select --> Grouped`
-   | Hotkey:   :kbd:`Shift-G`
-
-
-Select objects by parenting and grouping characteristics.
-See :doc:`Select Grouped </editors/3dview/selecting>` for more information.
+   Groups can be selected, see :ref:`Select Grouped <select-grouped>` for more information.
