@@ -27,8 +27,7 @@ Normal
 
 .. note:: Normal Override
 
-   The normal input socket does not in blends the source normal with the underlying geometry.
-   A plugged in vector input completely overrides the normals.
+   The normal input socket does not blend the source normal with the underlying geometry but completely overrides the normals.
 
 
 Properties
