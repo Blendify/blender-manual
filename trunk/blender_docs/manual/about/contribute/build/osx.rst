@@ -1,10 +1,10 @@
 
-******************************
-Building the HTML Files on OSX
-******************************
+***************
+Building on OSX
+***************
 
 
-We are now ready to convert all those **rst** files into pretty **html**!
+Converting the rst files into pretty html pages.
 
 Open a terminal to the folder ``~/blender_docs`` and simply run:
 
@@ -15,6 +15,10 @@ Open a terminal to the folder ``~/blender_docs`` and simply run:
 This is the command you will always use when building the docs.
 The building process may take several minutes the first time (or after any major changes),
 but the next time you build it should only take a few seconds.
+
+
+Viewing the local manual
+========================
 
 Once the docs have been built, all the HTML files can be found inside ``~/blender_docs/build/html``.
 Try opening ``build/html/contents.html`` in your web browser and read the manual.
@@ -27,7 +31,7 @@ Now that you are able to build the manual, the next paragraph is about an option
 
 
 Building a Single Chapter
--------------------------
+=========================
 
 If you are working on a specific chapter of the manual, you can build it quickly using:
 
