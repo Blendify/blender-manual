@@ -41,8 +41,9 @@ different ways to get support from other users, such as :ref:`IRC <irc-channels>
 
 There are also more official sources of support,
 such as `Certified Trainers <https://www.blender.org/certification/>`__ and
-the `Blender Cloud <https://cloud.blender.org/>`__. If you think you have found an issue with Blender,
-you can easily `report a bug <https://developer.blender.org/maniphest/task/create/?project=2&type=Bug>`__.
+the `Blender Cloud <https://cloud.blender.org/>`__.
+If you think you have found an issue with Blender, you can easily `report a bug 
+<https://developer.blender.org/maniphest/task/edit/form/default/?project=PHID-PROJ-hclk7tvd6pmpjmqastjl&type=Bug>`__.
 
 More details about support can be found on the `support page <https://www.blender.org/support/>`__.
 
