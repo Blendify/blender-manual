@@ -1,18 +1,18 @@
 
-************************
+**********************
 Building on MS-Windows
-************************
+**********************
 
 Converting the rst files into pretty html pages.
-There are two ways to execute the build process.
+There are two ways to run the build process.
   
 .. rubric:: File browser
 
-Execute ``make.bat`` in the ``C:\blender_docs`` folder.
+Run ``make.bat`` in the ``C:\blender_docs`` folder.
 
 .. tip::
 
-   Create a desktop shortcut to ``make``
+   Create a desktop shortcut to ``make``.
 
 .. rubric:: Command prompt
 

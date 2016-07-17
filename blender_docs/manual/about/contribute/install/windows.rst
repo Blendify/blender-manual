@@ -1,7 +1,7 @@
 
-***************************************************************
-Installation Guide for Editing the Blender Manual on MS-Windows
-***************************************************************
+**************************
+Installation on MS-Windows
+**************************
 
 This guide covers the following topics:
 

@@ -1,7 +1,7 @@
 
-**********************************************************
-Installation Guide for Editing the Blender Manual on Linux
-**********************************************************
+*********************
+Installation on Linux
+*********************
 
 This guide covers the following topics:
 

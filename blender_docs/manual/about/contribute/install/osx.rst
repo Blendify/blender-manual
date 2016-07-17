@@ -1,7 +1,7 @@
 
-********************************************************
-Installation Guide for Editing the Blender Manual on OSX
-********************************************************
+*******************
+Installation on OSX
+*******************
 
 This guide covers the following topics:
 
