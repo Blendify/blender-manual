@@ -82,9 +82,11 @@ It is also possible to select/deselect files by "walking" through them using the
   plus it allows to deselect files by navigating into a block of already selected ones (minimum two files in sequence)
 - Holding down ctrl and shift further selects/deselects all files in-between 
 
-If no file is selected, the arrow key navigation selects the first or last file in the directory, depending on the arrow direction.
+If no file is selected, the arrow key navigation selects the first or last file in the directory,
+depending on the arrow direction.
 
-If you select a directory and hit enter, you will now go into that directory (and highlighting 'parent' entry will bring you up one level).
+If you select a directory and hit enter, you will now go into that directory
+(and highlighting 'parent' entry will bring you up one level).
 
 
 File Management

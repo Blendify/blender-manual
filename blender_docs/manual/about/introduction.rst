@@ -50,7 +50,8 @@ The Blender Manual is a community driven effort to which anyone can contribute.
 Either if you found a typo or if you want to improve the general quality of the documentation,
 there are several options for helping out. You can:
 
-#. Fix problems, improve the documentation and write new sections - see how to :doc:`contribute </about/contribute/index>`.
+#. Fix problems, improve the documentation and write new sections -
+   see how to :doc:`contribute </about/contribute/index>`.
 #. `Report problems <https://developer.blender.org/maniphest/task/create/?project=53>`__ in the documentation.
 #. Get involved in discussions through the `mailing list <https://lists.blender.org/mailman/listinfo/bf-docboard>`__
    and ``#blenderwiki`` :ref:`IRC channel <irc-channels>`.

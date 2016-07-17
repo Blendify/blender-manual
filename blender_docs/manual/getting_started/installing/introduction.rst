@@ -21,7 +21,8 @@ Support for other hardware such as graphic tablets and 3D mice are covered later
 Download Blender
 ================
 
-The Blender Foundation distributes Blender in three different ways that you can choose from, to better suit your needs.
+The Blender Foundation distributes Blender in three different ways
+that you can choose from, to better suit your needs.
 
 The options comprise binary packages for all the supported platforms and the source code. Within the binary packages,
 you can choose from a stable release or a daily build. The first has the benefit of being more reliable, the latter

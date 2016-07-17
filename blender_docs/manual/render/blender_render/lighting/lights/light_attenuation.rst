@@ -449,7 +449,8 @@ Sphere Example
 
 *Sphere* indicates that the light's intensity is null at the *Distance* distance and beyond,
 regardless of the chosen light's falloff.
-In Fig. :ref:`fig-bi-light-attenuation-clip` you can see a side view example of the setup with *Sphere* enabled and a distance of 10.
+In Fig. :ref:`fig-bi-light-attenuation-clip` you can see a side view example of the setup
+with *Sphere* enabled and a distance of 10.
 
 Any objects beyond the sphere receive no light from the lamp.
 

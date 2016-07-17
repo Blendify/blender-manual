@@ -36,7 +36,8 @@ Mice
 Mouse Button Emulation
 ^^^^^^^^^^^^^^^^^^^^^^
 
-If you do not have a 3 button mouse, you'll need to emulate it by checking the option in the :doc:`User Preferences </preferences/index>`.
+If you do not have a 3 button mouse,
+you'll need to emulate it by checking the option in the :doc:`User Preferences </preferences/index>`.
 
 The following table shows the combinations used:
 

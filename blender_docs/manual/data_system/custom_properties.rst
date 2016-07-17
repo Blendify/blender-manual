@@ -43,7 +43,8 @@ Min
 Max
    The maximum value the custom property can take.
 Use Soft Limits
-   Enables limits that the *Property Value* slider can be adjusted to without having having to input the value numerically.
+   Enables limits that the *Property Value* slider can be adjusted to
+   without having having to input the value numerically.
 
    Soft Min
       The minimum value for the soft limit.

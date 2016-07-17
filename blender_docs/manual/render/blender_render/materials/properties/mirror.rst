@@ -90,7 +90,8 @@ Fade to
 Gloss
    In paint, a high-gloss finish is very smooth and shiny. A flat, or low gloss,
    finish disperses the light and gives a very blurry reflection. Also, uneven or waxed-but-grainy surfaces
-   (such as car paint) are not perfect and therefore slightly need a Gloss greater than 1.0. In the example to the right,
+   (such as car paint) are not perfect and therefore slightly need a Gloss greater than 1.0.
+   In the example to the right,
    the left mirror has a Gloss of 0.98, the middle is Gloss = 1.0, and the right one has Gloss of 0.90.
    Use this setting to make a realistic reflection, all the way up to a completely foggy mirror.
    You can also use this value to mimic depth of field in mirrors.

@@ -196,7 +196,8 @@ Tips
 
 - Soft Bodies work especially well if the objects have an even vertex distribution.
   You need enough vertices for good collisions. You change the deformation
-  (the stiffness) if you add more vertices in a certain region (see the animation of Fig. :ref:`fig-softbody-intro-cone`).
+  (the stiffness) if you add more vertices in a certain region
+  (see the animation of Fig. :ref:`fig-softbody-intro-cone`).
 - The calculation of collisions may take a long time. If something is not visible, why calculate it?
 - To speed up the collision calculation it is often useful to collide with an additional,
   simpler, invisible, somewhat larger object (see the example to Fig. :ref:`fig-softbody-intro-cloth`).
