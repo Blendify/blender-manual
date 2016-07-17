@@ -10,7 +10,8 @@ Editing Bones
    | Hotkey:   :kbd:`Tab`
 
 
-You will learn here how to add (`Adding Bones`_), delete (`Deleting Bones`_) or subdivide (`Subdividing Bones`_) bones.
+You will learn here how to add (`Adding Bones`_),
+delete (`Deleting Bones`_) or subdivide (`Subdividing Bones`_) bones.
 We will also see how to prevent any bone transformation (`Locking Bones`_) in *Edit Mode*,
 and the option that features an automatic mirroring (`X-Axis Mirror Editing`_) of editing actions along the X axis.
 

@@ -117,7 +117,8 @@ Invisible Limit Zooming In
 Sometimes when navigating you may be trying to zoom in but it seems that you have hit a limit to how far you can zoom.
 This is because Blender uses a central point to orbit around.
 
-In practice this is good for modeling an object which you rotate about a lot to see from all sides (think of a potter using a wheel).
+In practice this is good for modeling an object which you rotate about a lot to see from all sides
+(think of a potter using a wheel).
 However, this makes it awkward to explore a scene or model an object from the 'inside', for example.
 
 

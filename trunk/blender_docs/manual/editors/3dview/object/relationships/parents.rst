@@ -456,7 +456,8 @@ the Child Objects will not move to the new location of the Pose Bone.
 
    Single Bone with Bone Relative parent to a cube.
 
-In Fig. :ref:`fig-view3d-parent-bone-parent-relative` the 1st picture shows the position of the cube and armature before the bone is moved in Edit Mode.
+In Fig. :ref:`fig-view3d-parent-bone-parent-relative` the 1st picture
+shows the position of the cube and armature before the bone is moved in Edit Mode.
 2nd picture shows the position of the cube and armature after the bone was selected in Edit Mode,
 moved and switched back into Pose Mode.
 Notice that the Child Object does not move to the new location of the Pose Bone.

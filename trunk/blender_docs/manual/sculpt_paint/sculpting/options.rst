@@ -50,7 +50,8 @@ Brush Type
       This brush is similar to *Draw*, except that the height of the displacement layer is capped.
       This creates the appearance of a solid layer being drawn.
       This brush does not draw on top of itself; a brush stroke intersects itself.
-      Releasing the mouse button and starting a new stroke will reset the depth and paint on top of the previous stroke.
+      Releasing the mouse button and starting a new stroke
+      will reset the depth and paint on top of the previous stroke.
    Nudge
       Moves vertices in the direction of the brush stroke.
    Pinch

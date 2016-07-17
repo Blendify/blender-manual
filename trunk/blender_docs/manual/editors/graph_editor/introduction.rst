@@ -4,7 +4,8 @@ Introduction
 ************
 
 The graph editor is the main animation editor.
-It allows you to modify the animation for any properties using :doc:`F-Curves </editors/graph_editor/fcurves/introduction>`.
+It allows you to modify the animation for any properties using
+:doc:`F-Curves </editors/graph_editor/fcurves/introduction>`.
 
 The graph editor has two modes, *F-Curve* for :doc:`Actions </animation/actions>`,
 and *Drivers* for :doc:`Drivers </animation/drivers>`. Both are very similar in function.

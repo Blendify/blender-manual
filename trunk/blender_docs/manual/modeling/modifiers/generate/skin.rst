@@ -103,7 +103,8 @@ Examples
 
 - In the modifiers menu, add a *Skin* modifier.
 - :kbd:`Tab` into edit mode and start extruding.
-- Try to sketch results similar to Fig. :ref:`fig-modifier-skin-creature`, through extruding the vertices of the object.
+- Try to sketch results similar to Fig.
+  :ref:`fig-modifier-skin-creature`, through extruding the vertices of the object.
 - Use :kbd:`Ctrl-A` to change the size of the different regions within the creature.
 - Use *Mark Loose* at regions like the neck, to merge these faces more together.
 - To get smoother results, activate *Smooth Shading* and add a :doc:`subsurf </modeling/modifiers/generate/subsurf>`

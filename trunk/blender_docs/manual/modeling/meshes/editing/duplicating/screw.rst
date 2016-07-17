@@ -174,17 +174,14 @@ Center
    You can adjust these coordinates interactively and
    specify another place for the spin center during the interactive session.
    (See Fig. :ref:`fig-mesh-screw-interactive-panel`)
-
 Steps
    This numeric field specifies how many extrusion(s) will be done for each 360 degree turn.
    The steps are evenly distributed by dividing 360 degree by the number of steps given. The minimum value is 3;
    the maximum is 256 (See Fig. :ref:`fig-mesh-screw-interactive-panel`)
-
 Turns:
    This numeric field specifies how many turns will be executed.
    Blender will add a new full 360 degree turn for each incremental number specified here.
    The minimum value is 1; the maximum is 256. (See Fig. :ref:`fig-mesh-screw-interactive-panel`)
-
 Axis
    These three numeric fields vary from (-1.0 to 1.0) and are clamped above those limits.
    These values correspond to angular vectors from (-90 to 90) degrees. Depending on the position where you
@@ -194,7 +191,8 @@ Axis
    adjust your axis angular vectors and you can tweak your object such that you can revert the direction of the screw
    operation (by reverting the angular vector of the height),
    meaning you can revert the clockwise and counterclockwise direction of some operations,
-   and also adjust the angular vectors of your profile, bending it accordingly. (See Fig. :ref:`fig-mesh-screw-interactive-panel`)
+   and also adjust the angular vectors of your profile, bending it accordingly.
+   (See Fig. :ref:`fig-mesh-screw-interactive-panel`)
 
 
 Examples
@@ -471,7 +469,8 @@ To make this new example as short as possible, we will recycle our last example 
           Generated Mesh with the Profile.
 
 
-As you can see in Fig. :ref:`fig-mesh-screw-start-mesh`, Blender follows the basic angular vector of the profile, and the
+As you can see in Fig. :ref:`fig-mesh-screw-start-mesh`,
+Blender follows the basic angular vector of the profile, and the
 profile basic angle determines whether the extruded subsequent configured turns will open or
 close the resulting mesh following this angle. The vector of the extrusion angle is determined
 by the starting and ending Vertex of the profile.
