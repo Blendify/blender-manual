@@ -13,8 +13,8 @@ Firstly, make sure that your local copy of the manual is up to date with the onl
    svn update
 
 
-Editing the manual
-==================
+Writing
+=======
 
 You can now edit the documentation files, which are the ``.rst`` files inside the ``manual`` folder using
 a text editor of your choice.

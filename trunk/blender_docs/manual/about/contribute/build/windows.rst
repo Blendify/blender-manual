@@ -1,35 +1,49 @@
 
-*************************************
-Building the HTML Files on MS-Windows
-*************************************
+************************
+Building on MS-Windows
+************************
 
+Converting the rst files into pretty html pages.
+There are two ways to execute the build process.
+  
+.. rubric:: File browser
 
-We are now ready to convert all those **rst** files into pretty **html**!
+Execute ``make.bat`` in the ``C:\blender_docs`` folder.
 
-- Open a command prompt and change to the repository with ``cd C:\blender_docs``.
-- Build using the following command
+.. tip::
+
+   Create a desktop shortcut to ``make``
+
+.. rubric:: Command prompt
+
+#. Or open a command prompt and change to the repository with ``cd C:\blender_docs``.
+#. Build using the following command
 
    .. code-block:: sh
 
       make
 
-  This is the command you will always use when building the docs.
-  The building process may take several minutes the first time (or after any major changes),
-  but the next time you build it should only take a few seconds.
 
-  .. note::
+The building process may take several minutes the first time (or after any major changes),
+but the next time you build it should only take a few seconds.
 
-     If you encounter an error ending with ``TypeError: an integer is required (got type str)``,
-     you may need to install an older version of *Babel* (the Python Internationalization Library).
+.. note::
 
-     To do this, simply run:
+  If you encounter an error ending with ``TypeError: an integer is required (got type str)``,
+  you may need to install an older version of *Babel* (the Python Internationalization Library).
 
-     .. code-block:: sh
+  To do this, simply run:
 
-        pip install sphinx "babel<2.0"
+  .. code-block:: sh
 
-- Once the docs have been built, all the HTML files can be found inside ``C:\blender_docs\build\html``.
-  Try opening ``\build\html\contents.html`` in your web browser and read the manual.
+      pip install sphinx "babel<2.0"
+
+
+Viewing the local manual
+========================
+
+Once the docs have been built, all the HTML files can be found inside ``C:\blender_docs\build\html``.
+Try opening ``\build\html\contents.html`` in your web browser and read the manual.
 
 
 ------------------------
