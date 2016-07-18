@@ -120,26 +120,3 @@ and blue triad is selected). Set the manipulator type to rotation
 .. seealso::
 
    :doc:`Read more about the 3D Transform Manipulator </editors/3dview/transform/transform_control/manipulators>`
-
-
-Rotation with the Properties Panel
-----------------------------------
-
-.. figure:: /images/editors_3dview_transformations-basic-rotate-rotate_properties_panel.jpg
-   :width: 180px
-
-   Rotation transform properties panel.
-
-
-Rotation values can also be specified in the Properties panel :kbd:`N`
-by altering the degree value in the rotation slider of the Transform panel.
-Rotation along particular axes can be enabled or disabled by toggling the padlock icon.
-The rotation mode (Euler, Axis Angle, Quaternion)
-can also be set in this panel from the drop down box.
-
-.. seealso::
-
-   - :doc:`Read more about Panels </interface/editors/panels>`
-   - :doc:`Read more about rotation modes </editors/3dview/transform/transform_control/transform_orientations>`
-   - `Additional detail about rotation modes
-     <https://wiki.blender.org/index.php/User:Pepribal/Ref/Appendices/Rotation>`__
