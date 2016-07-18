@@ -60,7 +60,7 @@ Rotation
       Angle
          TODO.
       Quaternion
-         TODO.
+          X, Y, Z and W correspond to the quaternion components.
 
 Scale
    The object's scale, relative to its center, in local coordinates
