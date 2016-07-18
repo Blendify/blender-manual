@@ -7,6 +7,14 @@
    :maxdepth: 2
 
    introduction.rst
+
+
+Paint Modes
+===========
+
+.. toctree::
+   :maxdepth: 1
+
    texture_paint/index.rst
    vertex_paint/index.rst
    weight_paint/index.rst
