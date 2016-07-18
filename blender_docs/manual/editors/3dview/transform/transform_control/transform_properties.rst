@@ -33,15 +33,15 @@ see their respective descriptions in the :doc:`Modeling chapter </modeling/index
 Options in Object Mode
 ----------------------
 
+Use this panel to either edit or display the object's transform properties such as position,
+rotation and/or scaling. These fields change the object's center and then affects the aspect
+of all of its *vertices* and faces.
+
 .. figure:: /images/editors_3dview_transform-control_properties.png
    :align: right
 
    Transform Properties.
 
-
-Use this panel to either edit or display the object's transform properties such as position,
-rotation and/or scaling. These fields change the object's center and then affects the aspect
-of all of its *vertices* and faces.
 
 Location
    The object's center location in global coordinates.
