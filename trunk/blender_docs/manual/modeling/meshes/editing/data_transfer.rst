@@ -14,6 +14,14 @@ to a single destination one - interpolated mapping.
 Data
 ====
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Object Mode
+   | Panel:    :menuselection:`Object Tools --> Data`
+   | Hotkey:   :kbd:`Shift-Ctrl-T`
+
+
 Transfers layout of data layer(s) from active to selected meshes.
 
 Freeze Operator
@@ -125,7 +133,7 @@ Interpolated Mappings
 ------------------
 
 Auto Transform
-   Automatically computer the transformation to get the best possible match between source and destination meshes.
+   Automatically computes the transformation to get the best possible match between source and destination meshes.
 Object Transform
    Evaluate source and destination meshes in global space.
 Only Neighbor Geometry
@@ -134,7 +142,7 @@ Only Neighbor Geometry
    Max Distance
       Maximum allowed distance between source and destination element (for non-topology mappings).
 
-.. The below defintion is confusing for users. Change?
+.. The below definition is confusing for users. Change?
 
 Ray Radius
    Width of rays. Useful when raycasting against vertices or edges.
@@ -165,6 +173,13 @@ Mix Factor
 Data Layout
 ===========
 
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Object Mode
+   | Panel:    :menuselection:`Object Tools --> Data layout`
+
+
 Transfers layout of data layer(s) from active to selected meshes.
 
 Data Type
@@ -177,17 +192,17 @@ Data Type
 Exact Match
    Also Delete some data layers from destination if necessary, so that it matches the source exactly.
 Source Layers Selection
-   Which layers ti transfer, in case of multi-layer types.
+   Which layers to transfer, in case of multi-layer types.
 
    Active Layer
       Only transfer the active data layer.
    All Layers
-      Trandfer all data layers.
+      Transfer all data layers.
 
 Destination Layers Matching
    How to match source and destination layers.
 
    By Name
-      Match target data layers to effect by name.
+      Match target data layers to affect by name.
    By Order
-      Match target data layers to effect by order (indices).
+      Match target data layers to affect by order (indices).
