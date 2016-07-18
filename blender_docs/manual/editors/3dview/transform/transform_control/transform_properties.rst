@@ -18,8 +18,8 @@ Transform Properties Panel
    :class: refbox
 
    | Mode:     Edit and Object Modes
-   | Menu:     :menuselection:`Object --> Transform Properties`
-   | Hotkey:   :kbd:`N`
+   | Menu:     :menuselection:`Properties Editor --> Object --> Transform`
+   | Panel:    :menuselection:`Tool Shelf --> Transform`
 
 
 The *Transform Properties* section in the *View Properties* panel allows you to view and
