@@ -129,22 +129,3 @@ and blue triad is selected). Set the manipulator type to scale
   :kbd:`Return`. Your changes will be cancelled if you press :kbd:`RMB` or :kbd:`Esc`.
 
 :doc:`Read more about the 3D Transform Manipulator </editors/3dview/transform/transform_control/manipulators>`
-
-
-Scaling with the Properties Panel
----------------------------------
-
-.. figure:: /images/editors_3dview_transformations-basic-scale-scale_properties_panel.jpg
-   :width: 180px
-
-   Scale transform properties panel.
-
-
-Scale values can also be specified in the Properties panel :kbd:`N`
-by altering the amount value in the scaling slider of the Transform panel.
-Scaling along particular axes can be enabled or disabled by toggling the padlock icon.
-
-.. seealso::
-
-   - :doc:`Read more about Panels </interface/editors/panels>`
-   - :doc:`Read more about scaling modes </editors/3dview/transform/transform_control/transform_orientations>`

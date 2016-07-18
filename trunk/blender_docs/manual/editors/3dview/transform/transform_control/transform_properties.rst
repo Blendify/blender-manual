@@ -43,6 +43,21 @@ Location
    The object's center location in global coordinates.
 Rotation
    The object's orientation, relative to the global axes and its own center.
+
+   Rotation Mode
+      - :doc:`Read more about rotation modes </editors/3dview/transform/transform_control/transform_orientations>`
+      - `Additional detail about rotation modes
+        <https://wiki.blender.org/index.php/User:Pepribal/Ref/Appendices/Rotation>`__
+
+      Euler
+         TODO.
+      Axis
+         TODO.
+      Angle
+         TODO.
+      Quaternion
+         TODO.
+
 Scale
    The object's scale, relative to its center, in local coordinates
    (i.e. the *Scale X* value represents the scale along the local X-axis).
