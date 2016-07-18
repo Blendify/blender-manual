@@ -33,10 +33,10 @@ see their respective descriptions in the :doc:`Modeling chapter </modeling/index
 Options in Object Mode
 ----------------------
 
-.. figure:: /images/transform-properties-panel.jpg
+.. figure:: /images/editors_3dview_transform-control_properties.png
    :align: right
 
-   Transform Properties panel in Object Mode.
+   Transform Properties.
 
 
 Location
