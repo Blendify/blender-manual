@@ -39,6 +39,10 @@ Options in Object Mode
    Transform Properties.
 
 
+Use this panel to either edit or display the object's transform properties such as position,
+rotation and/or scaling. These fields change the object's center and then affects the aspect
+of all of its *vertices* and faces.
+
 Location
    The object's center location in global coordinates.
 Rotation
@@ -67,10 +71,6 @@ Dimensions
    The object's basic dimensions (in Blender units) from one outside edge to another, as if measured with a ruler.
    For multi-faceted surfaces, these fields give the dimensions of the bounding box
    (aligned with the local axes - think of a cardboard box just big enough to hold the object).
-
-Use this panel to either edit or display the object's transform properties such as position,
-rotation and/or scaling. These fields change the object's center and then affects the aspect
-of all of its *vertices* and faces.
 
 
 Transform Properties Locking
