@@ -80,6 +80,10 @@ This page lists definitions for terms used in Blender and this manual.
    Axis
       A reference line which defines coordinates along one cardinal direction in n-D space.
 
+   Axis Angle
+      Rotaion meathod where X, Y, and Z correspond to the axis definition,
+      while W corresponds to the angle around that axis, in radians.
+
    Baking
       The process of computing and storing the result of a potentially time-consuming calculation
       so as to avoid needing to calculate it again.
@@ -89,8 +93,7 @@ This page lists definitions for terms used in Blender and this manual.
       
    BU
    Blender Units
-      Internal units used by blender, equivalent to meters.
-      Often abbreviated to "BU".
+      Internal units used by blender, equivalent to meters. Often abbreviated to "BU".
 
    Bone
       The building block of an :term:`Armature`. Made up of a :term:`Head`, :term:`Tail`
@@ -234,7 +237,7 @@ This page lists definitions for terms used in Blender and this manual.
       Now in most cases obsoleted by Raytracing, which though slower is easier to use and more accurate.
 
    Euler Rotation
-      TODO.
+      Rotation method where rotations applied on each X,Y,Z axis component.
 
    Face
       Mesh element that defines a piece of surface. It consists of three or more :term:`edges <edge>`.
@@ -363,11 +366,9 @@ This page lists definitions for terms used in Blender and this manual.
       faces in a closed volume will always point the normals (and there
       surfaces) to the outside or to the inside of the mesh without any overlaps.
       If you recalculate those normals, they will always point at
-      a predictable direction (To the outside or to the inside of the
-      volume).
-      When working with non-closed volumes, a manifold mesh is a
-      mesh in which the normals will always define two different and
-      non-consecutive surfaces.
+      a predictable direction (To the outside or to the inside of the volume).
+      When working with non-closed volumes, a manifold mesh is a mesh in which
+      the normals will always define two different and non-consecutive surfaces.
       A manifold mesh will always define an even number of non-overlapped surfaces.
 
    Mesh
@@ -534,6 +535,10 @@ This page lists definitions for terms used in Blender and this manual.
    Quadrangle
       :term:`Face` that contains exactly four :term:`vertices <vertex>`.
 
+   Quaternion
+      Rotations are defined by 4 values (X, Y, Z and W). X, Y, and Z also define an :term:`axis`,
+      and W an angle, but it is quite different from :term:`Axis Angle`.
+
    Radiosity
       A global lighting method
       that calculates patterns of light and shadow for rendering graphics images from three-dimensional models.
@@ -620,11 +625,11 @@ This page lists definitions for terms used in Blender and this manual.
       Specifies visual patterns on surfaces and simulates physical surface structure.
 
    Timecode
-     A coded signal on videotape or film giving information about the frame number, time of recording, or exposure.
+      A coded signal on videotape or film giving information about the frame number, time of recording, or exposure.
 
    Title Safe
-     Area of the screen visible on all devices.
-     Place text and graphics inside this area to make sure they do not get cut off.
+      Area of the screen visible on all devices.
+      Place text and graphics inside this area to make sure they do not get cut off.
 
    Topology
       The arrangement of *Vertices*, *Edges*, and *Faces* which define the shape of a mesh.
