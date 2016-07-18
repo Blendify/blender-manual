@@ -139,5 +139,3 @@ The Quasi-Monte Carlo method is also random,
 but tries to make sure that the samples/readings it takes are also better distributed
 (leaving less irregular gaps in its sample areas) and more evenly spread across an area. This
 has the advantage of sometimes leading to more accurate calculations based on samples/reading.
-
-
