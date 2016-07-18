@@ -3,17 +3,17 @@
 Introduction
 ************
 
-.. figure:: /images/logofinal.jpg
-
-   Bird logo made from Bézier curves.
-
-
 Curves and :doc:`Surfaces </modeling/surfaces/introduction>` are particular types of Blender Objects.
 They are expressed by mathematical functions rather than a series of points.
 
 Blender offers both `Bézier Curves`_ and `Non-Uniform Rational B-Splines (NURBS)`_.
 Both Bézier curves and NURBS curves and surfaces are defined in terms of a set of "control points"
 (or "control vertices") which define a "control polygon".
+
+.. figure:: /images/logofinal.jpg
+
+   Bird logo made from Bézier curves.
+
 
 Both Bézier and NURBs curves are named after their mathematical definitions, and choosing between them
 is often more a matter of how they are computed behind the scenes than how they appear from a modeler's
@@ -72,7 +72,6 @@ can be found in the middle of the pink line while the Handles comprise the exten
 Control Point. By default the arrows on the Segment represents the direction and
 *relative* speed and direction of movement Objects will have when moving along the curve.
 This can be altered by defining a custom F-Curve.
-
 
 .. figure:: /images/modeling_curves_control-points-handles.jpg
 
@@ -168,7 +167,6 @@ Resolution
    determines the Curve's render resolution. If *Render U* is set to zero (0),
    then the *Preview U* setting is used for both the 3D View and render resolution.
 
-
    .. figure:: /images/modeling_curves_shape-resolution.jpg
 
       Curves with a resolution of 3 (left) and 12 (right).
@@ -180,7 +178,6 @@ Twisting
    You can alter how the twist of the Curve is calculated by choosing from *Minimum,
    Tangent* and *Z-Up* options from the drop-down menu.
 
-
    .. figure:: /images/modeling_curves_shape-twist.jpg
 
       Curves with a twist of minimum (left) and tangent (right).
@@ -191,7 +188,6 @@ Fill
    When set to *Half* (the default) the Curve is displayed as half a cylinder.
    The *Fill Deformed* option allows you to indicate whether the Curve should be filled before or after
    (default) applying any Shape Keys or Modifiers.
-
 
    .. figure:: /images/modeling_curves_shape-fill.jpg
 
@@ -372,7 +368,6 @@ Knots
       Makes the curve contact the end control points. Cyclic must be disabled for this option to work.
 
       .. figure:: /images/modeling_curves_nurbs-endpoint.jpg
-         :width: 511px
 
          A NURBS curve with Endpoint enabled.
 
@@ -385,7 +380,6 @@ Order
    The valid range of *Order* values is 2-6 depending on the number of control points present in the curve.
 
    .. figure:: /images/modeling_curves_nurbs-order.jpg
-      :width: 511px
 
       NURBS curves with orders of 2 (left), 4 (middle) and 6 (right).
 
