@@ -81,7 +81,7 @@ The same links can also be found in the :ref:`splash`.
 - `User Community <https://www.blender.org/support/user-community/>`__ -
   Lists of many different support venues.
 - `Report a Bug
-  <https://developer.blender.org/maniphest/task/edit/form/default/?project=PHID-PROJ-hclk7tvd6pmpjmqastjl&type=Bug>`__
+  <https://developer.blender.org/maniphest/task/edit/form/1/>`__
   The Blender Bug Tracker (registration needed).
 
 
