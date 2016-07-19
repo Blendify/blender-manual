@@ -130,20 +130,19 @@ Gimbal
 
       Gimbal.
 
-   Gimbal's behavior highly depends on the current :doc:`Rotation Mode </editors/3dview/transform/basics/rotate>`
-   (accessible in the :kbd:`N` Properties Panel in the *3D View*, in top section, *Transform*).
+   Gimbal's behavior highly depends on the current :ref:`Rotation Mode <rotation-modes>`.
 
    XYZ Euler
       The manipulator handles are aligned to the euler axis,
-      allowing you to see the discreet XYZ axis underlying the euler rotation,
+      allowing you to see the discreet XYZ axis underlying the :term:`euler rotation`,
       as well as possible :term:`gimbal lock`.
    Axis Angle
       The X, Y, and Z coordinates define a point relative to the object origin
-      through which an imaginary "skewer" passes.
-      The *w* value is the rotation of this skewer. Here, the Manipulator's Z-axis stays aligned with this skewer.
+      through which an imaginary "skewer" passes. The "W" value is the rotation of this skewer.
+      Here, the Manipulator's Z-axis stays aligned with this skewer.
    Quaternion
-      Though Quaternion rotation is very different from the Euler and Axis Angle rotation modes,
-      the Manipulator behaves the same as in *Local* mode.
+      Though :term:`Quaternion rotation` is very different from the :term:`Euler`
+      and :term:`Axis Angle` rotation modes, the Manipulator behaves the same as in *Local* mode.
 
 View
    .. figure:: /images/editors_3dview_transform_control-transform_orientations-05-view.jpg
