@@ -278,6 +278,11 @@ This page lists definitions for terms used in Blender and this manual.
    Geometric Center
       The mean average of the positions of all vertices making up the object.
 
+   Gimbal
+      A pivoted support that allows the rotation of an object about a single axis.
+
+      See also `Gimbal <https://en.wikipedia.org/wiki/Gimbal>`__ on Wikipedia.
+
    Gimbal Lock
       The limitation where axes of rotation can become aligned,
       losing the ability to rotate on an axis (typically associated with :term:`euler rotation`).
@@ -326,9 +331,8 @@ This page lists definitions for terms used in Blender and this manual.
 
    Inverse Kinematics
       The process of determining the movement of interconnected segments of a body or model.
-      Using ordinary Kinematics on a hierarchically structured object
-      you can, for example, move the shoulder of a puppet.
-      The upper and lower arm and hand will automatically follow that movement.
+      Using ordinary Kinematics on a hierarchically structured object you can, for example,
+      move the shoulder of a puppet. The upper and lower arm and hand will automatically follow that movement.
       IK will allow you to move the hand and let the lower and upper arm go along with the movement.
       Without IK the hand would come off the model and would move independently in space.
 
