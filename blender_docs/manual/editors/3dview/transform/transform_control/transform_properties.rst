@@ -55,10 +55,13 @@ Rotation
       `here <https://wiki.blender.org/index.php/User:Pepribal/Ref/Appendices/Rotation>`__.
 
       Euler
-         X, Y and Z correspond to the :term:`Euler Rotation` of each axis.
+         The manipulator handles are aligned to the :term:`Euler` axis,
+         allowing you to see the discreet XYZ axis underlying the euler rotation,
+         as well as possible :term:`gimbal lock`.
       Axis Angle
-         X, Y and Z correspond to the axis definition,
-         while W corresponds to the angle around that axis, in radians.
+         The X, Y, and Z coordinates define a point relative to the object origin
+         through which an imaginary “skewer” passes. The “W” value is the rotation of this skewer,
+         in radians. Here, the Manipulator’s Z-axis stays aligned with this skewer.
       Quaternion
          X, Y, Z and W correspond to the :term:`Quaternion` components.
 
