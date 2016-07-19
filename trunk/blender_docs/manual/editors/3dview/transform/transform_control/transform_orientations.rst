@@ -36,11 +36,6 @@ Orientations
 ============
 
 Global
-   .. figure:: /images/editors_3dview_transform_control-transform_orientations-01-global.jpg
-      :align: right
-
-      Global.
-
    The manipulator matches the global axis.
 
    When using the Global orientation, the orientation's XYZ matches world's XYZ axis.
@@ -53,11 +48,6 @@ Global
    and does not match the Global coordinates.
 
 Local
-   .. figure:: /images/editors_3dview_transform_control-transform_orientations-02-local.jpg
-      :align: right
-
-      Local.
-
    The manipulator matches the object axis.
 
    Notice that, here, the Manipulator is at a slight tilt
@@ -69,17 +59,7 @@ Local
    This orientation has an effect on many parts of the interface,
    so it is important to understand the distinction.
 
-.. container:: lead
-
-   .. clear
-
-
 Normal
-   .. figure:: /images/editors_3dview_transform_control-transform_orientations-03-normal.jpg
-      :align: right
-
-      Normal.
-
    The Z-axis of the manipulator will match the normal vector of the selection.
 
    In Object Mode, this is equivalent to Local Orientation, in Edit Mode,
@@ -101,24 +81,10 @@ Normal
    the same movement -- except along that second vertex's normal instead.
 
 Gimbal
-   .. figure:: /images/editors_3dview_transform_control-transform_orientations-04-gimbal.jpg
-      :align: right
-
-      Gimbal.
-
    Uses a :term:`Gimbal` behavior that can be changed
    depending on the current :ref:`Rotation Mode <rotation-modes>`.
 
-.. container:: lead
-
-   .. clear
-
 View
-   .. figure:: /images/editors_3dview_transform_control-transform_orientations-05-view.jpg
-      :align: right
-
-      View.
-
    The manipulator will match the 3D View:
 
    :Y: Up/Down
@@ -205,3 +171,29 @@ Please note two things:
   - If you :kbd:`Shift-LMB` click,
     it will lock the axis you clicked on and allow you to move in the plane of the two remaining axes.
     The keyboard analogue is :kbd:`G, Shift-Z, Shift-Z`.
+
+
+Effect on Manipulators
+----------------------
+
+The image below shows a cube with the rotation manipulator active in multiple transform orientations.
+Notice how the manipulator changes depending on the orientation selected (compare A with F).
+
+Similarly, notice how when normal orientation (F and G)
+is selected the manipulator changes between *Object Mode* and *Edit Mode*.
+The normal orientation manipulator will also change depending on what is selected in
+*Edit Mode* i.e. the orientation is based on the normal of the selection which will
+change depending on how many and which faces, edges or vertices are selected.
+
+.. figure:: /images/editors_3dview_transform_control-manipulators-manipulator_orientation_options.jpg
+
+   Transform manipulator orientation options.
+
+   A) Standard cube in default top view with *global* orientation selected
+   B) Standard cube with view rotated and *global* orientation selected
+   C) Randomly rotated cube with view rotated and *global* orientation selected
+   D) Randomly rotated cube with *local* orientation selected
+   E) Randomly rotated cube with *gimbal* orientation selected
+   F) Randomly rotated cube with *normal* orientation selected
+   G) Randomly rotated cube, vertices selected with *normal* orientation selected
+   H) Randomly rotated cube with *view* orientation selected
