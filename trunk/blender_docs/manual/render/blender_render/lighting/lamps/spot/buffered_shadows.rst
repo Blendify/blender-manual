@@ -11,9 +11,8 @@ Spot Buffered Shadows
 
 
 Spotlights can use either
-:doc:`Raytraced Shadows </render/blender_render/lighting/lamps/spot/raytraced_shadows>`
-or buffered shadows.
-Either of the two can provide various extra options.
+:doc:`Raytraced Shadows </render/blender_render/lighting/shadows/raytraced_properties>`
+or buffered shadows. Either of the two can provide various extra options.
 
 Raytraced shadows are generally more accurate,
 with extra capabilities such as transparent shadows, although they are quite slower to render.
@@ -301,5 +300,3 @@ Hints
 Any object in Blender can act as a camera in the 3D View. Hence you can select the
 *Spot* light and switch to a view from its perspective by pressing
 :kbd:`Ctrl-Numpad0`.
-
-
