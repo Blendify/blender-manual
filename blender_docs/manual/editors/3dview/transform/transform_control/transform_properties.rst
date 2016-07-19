@@ -48,6 +48,8 @@ Location
 Rotation
    The object's orientation, relative to the global axes and its own center.
 
+.. _rotation-modes:
+
    Rotation Mode
       Method for calculating rotations, additional information can be found
       `here <https://wiki.blender.org/index.php/User:Pepribal/Ref/Appendices/Rotation>`__.

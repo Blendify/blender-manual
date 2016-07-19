@@ -236,6 +236,7 @@ This page lists definitions for terms used in Blender and this manual.
       It involves rendering images at strategic positions and applying them as textures to the mirror.
       Now in most cases obsoleted by Raytracing, which though slower is easier to use and more accurate.
 
+   Euler
    Euler Rotation
       Rotation method where rotations applied on each X,Y,Z axis component.
 
@@ -536,8 +537,10 @@ This page lists definitions for terms used in Blender and this manual.
       :term:`Face` that contains exactly four :term:`vertices <vertex>`.
 
    Quaternion
-      Rotations are defined by 4 values (X, Y, Z and W). X, Y, and Z also define an :term:`axis`,
-      and W an angle, but it is quite different from :term:`Axis Angle`.
+   Quaternion Rotation
+      Rotation method where rotations are defined by 4 values (X, Y, Z and W).
+      X, Y, and Z also define an :term:`axis`, and W an angle,
+      but it is quite different from :term:`Axis Angle`.
 
    Radiosity
       A global lighting method
