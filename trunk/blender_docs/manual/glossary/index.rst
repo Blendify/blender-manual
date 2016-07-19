@@ -1,4 +1,4 @@
-.. _glossary:
+﻿.. _glossary:
 
 ###########
   Glossary
@@ -81,7 +81,7 @@ This page lists definitions for terms used in Blender and this manual.
       A reference line which defines coordinates along one cardinal direction in n-D space.
 
    Axis Angle
-      Rotaion meathod where X, Y, and Z correspond to the axis definition,
+      Rotation method where X, Y, and Z correspond to the axis definition,
       while W corresponds to the angle around that axis, in radians.
 
    Baking
@@ -125,7 +125,7 @@ This page lists definitions for terms used in Blender and this manual.
 
    Clamp
    Clamping
-      Limits a variable to a range. The value over or under the range are set to the constant values 
+      Limits a variable to a range. The values over or under the range are set to the constant values 
       of the ranges minimum or maximum.
 
    Color Blend Modes
@@ -326,7 +326,7 @@ This page lists definitions for terms used in Blender and this manual.
    Inverse Kinematics
       The process of determining the movement of interconnected segments of a body or model.
       Using ordinary Kinematics on a hierarchically structured object
-      you can for example, move the shoulder of a puppet.
+      you can, for example, move the shoulder of a puppet.
       The upper and lower arm and hand will automatically follow that movement.
       IK will allow you to move the hand and let the lower and upper arm go along with the movement.
       Without IK the hand would come off the model and would move independently in space.
@@ -479,7 +479,7 @@ This page lists definitions for terms used in Blender and this manual.
 
    Pivot Point
       The pivot point is the point in space around which all rotations,
-      scalings and mirror transformations are centered..
+      scalings and mirror transformations are centered.
 
       See also the :doc:`Pivot Point </editors/3dview/transform/transform_control/pivot_point/index>` docs.
 
