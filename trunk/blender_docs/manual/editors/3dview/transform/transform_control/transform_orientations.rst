@@ -33,29 +33,6 @@ In addition to the four built-in options,
 you can define your own custom orientation (see `Custom Orientations`_ below).
 
 
-Our Demo Cube
-=============
-
-.. figure:: /images/orientations-basicsetup.jpg
-
-   To demonstrate the various behaviors, we add some colors to the default cube,
-   rotate it -15° along its local Z- and X Axes, and we scale its "y" face down.
-
-
-Please note two things:
-
-- The "Mini-axis" in the lower-left corner, which represents the Global X, Y, Z orientation.
-- The :doc:`"Object Manipulator" </editors/3dview/transform/transform_control/manipulators>`
-  widget emanating from the selection, which represents the current Transform Orientation.
-
-  - If you click on one of the axes of the Manipulator with :kbd:`LMB`,
-    it will allow you to constrain movement to only this direction.
-    An example of a keyboard equivalent is :kbd:`G, Z, Z`.
-  - If you :kbd:`Shift-LMB` click,
-    it will lock the axis you clicked on and allow you to move in the plane of the two remaining axes.
-    The keyboard analogue is :kbd:`G, Shift-Z, Shift-Z`.
-
-
 Orientations
 ============
 
@@ -153,7 +130,7 @@ View
 
 
 Custom Orientations
-===================
+-------------------
 
 .. admonition:: Reference
    :class: refbox
@@ -203,3 +180,29 @@ In Fig. :ref:`fig-view3d-transform-orientation-extrusion`, to achieve this effec
 #. Cancel the extrusion's default movement by pressing :kbd:`RMB` or :kbd:`Esc`.
 #. Hit :kbd:`G` to reinitiate movement.
 #. Hit :kbd:`Z-Z` to constrain to the "Top Edge" orientation.
+
+
+Examples
+========
+
+Demo Cube
+---------
+
+.. figure:: /images/orientations-basicsetup.jpg
+
+   To demonstrate the various behaviors, we add some colors to the default cube,
+   rotate it -15° along its local Z- and X Axes, and we scale its "y" face down.
+
+
+Please note two things:
+
+- The "Mini-axis" in the lower-left corner, which represents the Global X, Y, Z orientation.
+- The :doc:`"Object Manipulator" </editors/3dview/transform/transform_control/manipulators>`
+  widget emanating from the selection, which represents the current Transform Orientation.
+
+  - If you click on one of the axes of the Manipulator with :kbd:`LMB`,
+    it will allow you to constrain movement to only this direction.
+    An example of a keyboard equivalent is :kbd:`G, Z, Z`.
+  - If you :kbd:`Shift-LMB` click,
+    it will lock the axis you clicked on and allow you to move in the plane of the two remaining axes.
+    The keyboard analogue is :kbd:`G, Shift-Z, Shift-Z`.
