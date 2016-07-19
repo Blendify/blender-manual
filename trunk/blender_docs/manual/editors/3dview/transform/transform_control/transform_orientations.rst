@@ -25,9 +25,8 @@ as well as on transformation constraints
 This means that, when you press :kbd:`G-X`, it will constrain to the *global* X-axis,
 but if you press :kbd:`G-X-X` it will constrain to your *Transform Orientation* s X-axis.
 
-The Orientations options can be set on the 3D View's header (or "footer",
-since it is at the bottom of the view by default),
-or with :kbd:`Alt-Spacebar` or through the *Orientation* menu in a 3D View header.
+The Orientations options can be set on the 3D View's header,
+with :kbd:`Alt-Spacebar`, or through the *Orientation* menu in a 3D View header.
 
 In addition to the four built-in options,
 you can define your own custom orientation (see `Custom Orientations`_ below).
