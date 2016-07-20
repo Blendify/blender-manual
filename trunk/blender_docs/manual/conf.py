@@ -230,7 +230,8 @@ html_show_copyright = True
 # If true, an OpenSearch description file will be output, and all pages will
 # contain a <link> tag referring to it.  The value of this option must be the
 # base URL from which the finished HTML is served.
-#html_use_opensearch = ''
+# Ed. Note: URL has to be adapted, when versioning is set up. 
+html_use_opensearch = 'https://www.blender.org/manual/'
 
 # This is the file name suffix for HTML files (e.g. ".xhtml").
 #html_file_suffix = None
