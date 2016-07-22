@@ -15,7 +15,7 @@ brushes and unique user-defined controls for those brushes which can be set in t
 panel.
 
 To use a brush, click on its name. Use the selector up/down arrow,
-if there are more brushes on the flyout window than can be displayed at once.
+if there are more brushes on the flyout menu than can be displayed at once.
 Name your brush by clicking on the name field and entering any name you wish,
 such as "Red Air" for a red airbrush. To toss out a brush,
 click the brush delete *X* button next to its name.

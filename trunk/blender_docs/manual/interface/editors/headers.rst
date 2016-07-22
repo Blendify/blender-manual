@@ -5,13 +5,14 @@ Headers
 
 All editors have a header (the strip with a lighter gray background containing icon buttons).
 The header may be at the top (as with the *Properties Editor*) 
-or the bottom (as with the 3D View) of a window's area. 
-The picture below shows the header of the 3D View:
+or the bottom (as with the 3D View) of a area. 
 
 .. figure:: /images/interface-window_system-headers-header_example.jpg
 
+   Header in the 3D View editor.
 
-If you move the mouse over a window, the header of its editor changes to a slightly lighter shade of gray.
+
+If you move the mouse over a area, the header of its editor changes to a slightly lighter shade of gray.
 This means that it is "focused".
 All hotkeys you press will now affect the contents of this editor.
 
@@ -39,7 +40,7 @@ the header will reappear.
 .. note::
 
    In the 3D View, there are up to two more of these little plus signs
-   (to the top left and right of the window). Those will open panels with several tools,
+   (to the top left and right of the area). Those will open shelfs with tools and properties,
    not a second header.
 
 
@@ -64,7 +65,7 @@ Editor type button
 ==================
 
 :kbd:`LMB` clicking on the first icon at the left side of a header allows changing the Editor type.
-Every window frame in Blender may contain any type of editor,
+Every area in Blender may contain any type of editor,
 allowing you to customize your window layout to your own work flows.
 
 

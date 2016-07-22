@@ -9,13 +9,11 @@ Screens
    Layout Dropdown.
 
 
-Blender's flexibility with windows lets you create customized working environments for
+*Screens* are essentially pre-defined window layouts.
+Blender's flexibility with areas lets you create customized working environments for
 different tasks such as modeling, animating, and scripting.
 It is often useful to quickly switch between different environments within the same file.
 
-To do each of these major creative steps, Blender has a set of pre-defined *screens*,
-that show you the types of windows you need to get the job done quickly and efficiently.
-*Screens* are essentially pre-defined window layouts.
 If you are having trouble finding a particular screen,
 you can use the search function at the bottom of the list (pictured right).
 
@@ -34,7 +32,7 @@ you can use the search function at the bottom of the list (pictured right).
 
 Screens can be selected in the *Info Editor* header that is at the top of the
 layout for preset screens. This is often confused for a menu bar by those new to Blender;
-however it is simply a window showing only its *header*.
+however it is simply an area showing by default only its *header*.
 
 To cycle between screens use :kbd:`Ctrl-Right` and :kbd:`Ctrl-Left`.
 
@@ -50,7 +48,7 @@ To cycle between screens use :kbd:`Ctrl-Right` and :kbd:`Ctrl-Left`.
    By default, each screen layout 'remembers' the last :doc:`scene </data_system/scenes>`
    it was used on. Selecting a different layout will switch to the layout **and** jump to that scene.
    
-   All changes to windows, as described in :doc:`Editor Types </editors/index>`, are saved within one screen.
+   All changes to areas, as described in :doc:`Editor Types </editors/index>`, are saved within one screen.
    Changes to one screen, won't affect others.
 
 
@@ -74,8 +72,8 @@ See Fig. :ref`fig-ui-screen-scene` above.
 Rearranging a Screen
 --------------------
 
-Use the :doc:`window controls </interface/editors/arranging_areas>`
-to move frame borders, split and consolidate windows.
+Use the :doc:`area controls </interface/editors/arranging_areas>`
+to move frame borders, split and consolidate areas.
 When you have a layout that you like, press :kbd:`Ctrl-U` to update your User defaults.
 Be aware that all of the current scenes become part of those defaults,
 so consider customizing your layouts with only a single, simple scene.

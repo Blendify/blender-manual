@@ -65,7 +65,7 @@ Show Overexposed
    Shows overexposed (bright white) areas using a zebra pattern.
    The threshold can be adjust with the slider.
 Proxy Render Size
-   Size to display proxies at in the preview window.
+   Size to display proxies at in the preview region.
    Using a smaller preview size will increase speed.
 
 
@@ -97,7 +97,7 @@ You can also reset the view with :kbd:`Home`.
 Image Preview
 -------------
 
-In the upper window of the Sequence screen layout is another VSE editor,
+In the upper area of the Sequence screen layout is another VSE editor,
 this one set to Image Preview mode. It shows you what the resulting video will look like when saved.
 This is the main working mode for adding strips and moving them around,
 cutting, grouping (making meta) and splicing them through special effects.

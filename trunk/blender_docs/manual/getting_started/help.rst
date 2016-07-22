@@ -80,8 +80,7 @@ The same links can also be found in the :ref:`splash`.
   bug tracking, patches and scripts, education and training, documentation development and functionality research.
 - `User Community <https://www.blender.org/support/user-community/>`__ -
   Lists of many different support venues.
-- `Report a Bug
-  <https://developer.blender.org/maniphest/task/edit/form/1/>`__
+- `Report a Bug <https://developer.blender.org/maniphest/task/edit/form/1/>`__
   The Blender Bug Tracker (registration needed).
 
 

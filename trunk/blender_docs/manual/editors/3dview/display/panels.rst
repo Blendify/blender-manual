@@ -44,7 +44,7 @@ Grid Floor
       so it is a setting specific to top/front/side orthographic views.
 
 Toggle Quad View
-   Toggles the four window 3D View.
+   Toggles the four view 3D View.
    :doc:`Read more about arranging areas </interface/editors/arranging_areas>`
 
 

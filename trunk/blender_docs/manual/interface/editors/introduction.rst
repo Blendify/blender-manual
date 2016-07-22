@@ -23,8 +23,8 @@ The default scene is described below.
 The default screen
 ==================
 
-The default scene is separated into five windows and is loaded each time you start Blender or a new file.
-The five areas are:
+The default scene is separated into five areas and is loaded each time you start Blender or a new file.
+These five areas are:
 
 - The Info Editor (shaded red) at the top.
   (The Info Editor used mainly for its header).
@@ -38,7 +38,7 @@ As an introduction we will cover a few of the basic elements.
 .. figure:: /images/interface_window-system-default_scene.jpg
    :width: 650px
 
-   Default Blender scene and Window arrangement.
+   Default Blender scene and area arrangement.
 
 
 User Interface Principles

@@ -13,10 +13,10 @@ However, the Node Editor can be configured for many other types of :ref:`work fl
 After choosing what node context you are you using you you can enable node with the *Use Nodes* button.
 
 
-Node Editor Window Actions
-==========================
+Node Editor area Actions
+========================
 
-When the cursor is in the window, several standard Blender hotkeys and mouse actions are available, including:
+When the cursor is in the area, several standard Blender hotkeys and mouse actions are available, including:
 
 Popup Menu
    Space - Brings up a main pop-up menu, allowing you to add, view, select, etc.
@@ -48,7 +48,7 @@ On the editors header, you will see header options:
    Common Node Header Options.
 
 View
-   This menu changes your view of the window.
+   This menu changes your view of the editor.
 Select
    This menu allows you to select a node or groups of nodes.
 Add
@@ -65,11 +65,11 @@ Use Pinned
 Go to Parent button
    This button allows you go to parent node tree.
 Snap
-   Toggle snap mode for node in the Node Editor window.
+   Toggle snap mode for node in the Node Editor.
 Snap Node Element Selector
    This selector provide the follow node elements for snap:
 
-   :Grid: (default) Snap to grid of the Node Editor window. 
+   :Grid: (default) Snap to grid of the Node Editor. 
    :Node X: Snap to left/right node border. 
    :Node Y: Snap to top/bottom node border. 
    :Node X/Y: Snap to any node border. 

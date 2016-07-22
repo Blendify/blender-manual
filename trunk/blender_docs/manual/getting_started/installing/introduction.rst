@@ -3,7 +3,7 @@
 Introduction
 ************
 
-Blender is available for download for Linux Mac-OSX and MS-Windows.
+Blender is available for download for Linux, Mac-OSX and MS-Windows.
 
 
 Minimum Requirements

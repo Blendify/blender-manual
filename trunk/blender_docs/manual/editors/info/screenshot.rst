@@ -29,7 +29,7 @@ called *Save Screenshot* where you can find format settings and a checkbox with 
 
 - Check the Option to save the entire Blender window
   (full width and height of the Blender window you are using when you call the command).
-- Uncheck the box to save only your active window (where your mouse is located when you call the command).
+- Uncheck the box to save only your active area (where your mouse is located when you call the command).
 
 
 .. _info-screencast:

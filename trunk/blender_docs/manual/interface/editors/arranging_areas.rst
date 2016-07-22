@@ -6,12 +6,12 @@ Arranging Areas
 Blender uses a novel screen-splitting approach to arrange areas.
 The application window is always a rectangle on your desktop.
 It divides it up into a number of re-sizable areas.
-An area contains the workspace for a particular type of window, like a 3D View editor,
-or an Outliner.
+An area contains the workspace for a particular type of editor, like a 3D View editor,
+or an Outliner editor.
 The idea is that you split up that big application window into any number of smaller
 (but still rectangular) non-overlapping area. That way,
-each window is always fully visible,
-and it is very easy to work in one window and hop over to work in another.
+each area is always fully visible,
+and it is very easy to work in one area and hop over to work in another.
 
 
 Maximizing an Area
@@ -26,7 +26,7 @@ A quicker way to achieve this is to use :kbd:`Shift-Spacebar`,
 
 .. note::
 
-   The window your mouse is currently hovering over is the one that will be maximized using
+   The area your mouse is currently hovering over is the one that will be maximized using
    the keyboard shortcuts.
 
 
@@ -36,10 +36,10 @@ Splitting an Area
 .. figure:: /images/interface-window_system-arranging_areas-split_widget.jpg
 
 
-In the upper right and lower left corners of a window are the window splitter widgets,
-and they look like a little ridged thumb grip. It both splits and combines window panes.
+In the upper right and lower left corners of a area are the area splitter widgets,
+and they look like a little ridged thumb grip. It both splits and combines areas.
 When you hover over it, your cursor will change to a cross.
-:kbd:`LMB` and drag it to the left to split the window vertically,
+:kbd:`LMB` and drag it to the left to split the area vertically,
 or downward to split it horizontally.
 
 
@@ -51,7 +51,7 @@ they must be the same dimension in the direction you wish to merge. For example,
 if you want to combine two areas that are side-by-side, they must be the same height.
 If the one on the left is not the same as the one on the right,
 you will not be able to combine them horizontally.
-This is so that the combined window space results in a rectangle.
+This is so that the combined area space results in a rectangle.
 The same rule holds for joining two areas that are stacked on top of one another;
 they must both have the same width. If the one above is split vertically,
 you must first merge those two, and then join the bottom one up to the upper one.
@@ -60,11 +60,11 @@ you must first merge those two, and then join the bottom one up to the upper one
    :width: 250px
 
 
-To merge the current window with the one above it
+To merge the current area with the one above it
 (in the picture the properties editor is being merged "over" the Outliner),
-hover the mouse pointer over the window splitter. When the pointer changes to a cross,
+hover the mouse pointer over the area splitter. When the pointer changes to a cross,
 :kbd:`LMB` click and drag up to begin the process of combining.
-The upper window will get a little darker, overlaid with an arrow pointing up.
+The upper area will get a little darker, overlaid with an arrow pointing up.
 This indicates that the lower (current) area will "take over" that darkened area space.
 Let go of the :kbd:`LMB` to merge. If you want the reverse to occur,
 move your mouse cursor back into the original (lower) area,
