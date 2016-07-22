@@ -118,8 +118,8 @@ Finally :kbd:`Numpad0` gives access to the "camera" viewpoint.
 
 Apart from these four default directions, the view can be rotated to any angle you wish.
 Click and drag :kbd:`MMB` on the viewport's area.
-If you start in the middle of the window and move up and down or left and right,
-the view is rotated around the middle of the window. Alternatively,
+If you start in the middle of the area and move up and down or left and right,
+the view is rotated around the middle of the area. Alternatively,
 if the *Emulate 3 button mouse* option is select in the *User Preferences* you can press and hold
 :kbd:`Alt` while dragging :kbd:`LMB` in the viewport's area.
 
@@ -130,7 +130,7 @@ to rotate the scene around the Z global axis from your current point of view.
 
 .. note:: Hotkeys
 
-   Remember that most hotkeys affect the **active** window (the one that has focus),
+   Remember that most hotkeys affect the **active** area (the one that has focus),
    so check that the mouse cursor is in the area you want to work in before your use the hotkeys.
 
 .. seealso::
@@ -325,7 +325,7 @@ Quad View
 Toggling Quad View will split the 3D View into four views: 3 *Ortho* views and a *Camera*/*User View*.
 This view will allow you to instantly see your model from a number of view points.
 In this arrangement, you can zoom and pan each view independently but you cannot rotate the view.
-Note that this is different from splitting the windows and aligning the view manually.
+Note that this is different from splitting the area and aligning the view manually.
 In Quad View, the four views are still part of a single 3D View.
 So they share the same draw options and layers.
 

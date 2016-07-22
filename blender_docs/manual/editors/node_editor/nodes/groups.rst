@@ -53,9 +53,9 @@ so it is recommended some naming convention, that will allow you to easily disti
 Editing Node Groups
 ===================
 
-With a group node selected, :kbd:`Tab` expands the node to a window frame, and the individual nodes within
+With a group node selected, :kbd:`Tab` expands the node to a frame, and the individual nodes within
 it are shown. You can move them around, play with their individual controls, re-thread them internally, etc.
-just like you can if they were a normal part of your editor window. You will not be able, though, to thread them to a
+just like you can if they were a normal part of the editor view. You will not be able, though, to thread them to a
 node outside the group; you have to use the external sockets on the side of the group node. To add or
 remove nodes from the group, you need to ungroup them.
 

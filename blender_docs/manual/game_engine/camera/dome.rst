@@ -23,7 +23,7 @@ Truncated domes (front and rear), Planetariums and domes with spherical mirrors.
    Remember to use Blender in 'fullscreen mode' to get the maximum out of your projector.
 
    To accomplish that launch Blender with the command-line argument -W.
-   Also to get away of the top menu on Blender try to join all windows (buttons, 3D View, text,
+   Also to get away of the top menu on Blender try to join all areas (buttons, 3D View, text,
    ...) in a single one. Otherwise if you only maximize it :kbd:`Ctrl-Up`)
    you cannot get the whole screen free to run your game
    (the top bar menu takes about 20 pixels).
@@ -81,7 +81,7 @@ Front-Truncated Dome Mode
 -------------------------
 
 Designed for truncated domes,
-this mode aligns the fisheye image with the top of the window while touching the sides.
+this mode aligns the fisheye image with the top of the window, while touching the sides.
 
 - The Field of view goes from 90º to 250º degrees.
 - From 90º to 180º we are using four renders.
@@ -97,7 +97,7 @@ Rear-Truncated Dome Mode
 ------------------------
 
 Designed for truncated domes,
-this mode aligns the fisheye image with the bottom of the window while touching the sides.
+this mode aligns the fisheye image with the bottom of the window, while touching the sides.
 
 - The Field of view goes from 90º to 250º degrees.
 - From 90º to 180º we are using four renders.

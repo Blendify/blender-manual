@@ -244,7 +244,7 @@ If you do add faces or subdivide existing faces when a model is already unwrappe
 Blender will add those new faces for you. In this fashion,
 you can use the UV Texture image to guide additional geometry changes.
 
-When arranging, keep in mind that the entire window is your workspace,
+When arranging, keep in mind that the entire view is your workspace,
 but only the UV coordinates within the grid are mapped to the image. So,
 you can put pieces off to the side while you arrange them. Also,
 each UV unwrap is its own linked set of coordinates.

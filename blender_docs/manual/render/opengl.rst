@@ -80,7 +80,7 @@ Render an Animation
    Or from the menu: :menuselection:`Render --> OpenGL Render Animation`
    from the header of the *Info Editor*
 Render from the Sequencer
-   Click on the small button showing a *slate* in the header of *Sequencer* preview window.
+   Click on the small button showing a *slate* in the header of *Sequencer* preview region.
 
    Using scene strips in the sequencer you can edit together scenes to quickly render an entire sequence of shots.
 

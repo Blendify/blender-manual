@@ -15,8 +15,8 @@ Nodes are added in two ways to the node editor:
 Arranging Nodes
 ===============
 
-In general, try to arrange your nodes within the window such that the image flows from left to right, top to bottom.
-Move a node by clicking on a benign area and drag it around. A node can be clicked almost anywhere to start dragging.
+In general, try to arrange your nodes within the view such that the image flows from left to right, top to bottom.
+Move a node by click and drag it around. A node can be clicked almost anywhere to start dragging.
 
 
 Auto-offset

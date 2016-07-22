@@ -97,8 +97,8 @@ a surface of a model in your scene (in other technical words,
 is mapped to some aspect of a texture via a texture channel using UV as a map input),
 you can see the effects of your painting in the context of your scene as you paint.
 
-To do this, set up side-by-side windows, one window in 3D View set to *Texture* shading option,
-and in the second window the UV/Image Editor loaded with your image.
+To do this, set up side-by-side areas, one area in 3D View set to *Texture* shading option,
+and in the second area the UV/Image Editor loaded with your image.
 Position the 3D View to show the object that is UV mapped to the loaded image.
 In the image to the right, the texture being painted is mapped to the "Normal" attribute,
 and is called "bump mapping",
