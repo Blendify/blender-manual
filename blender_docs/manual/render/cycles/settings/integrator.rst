@@ -217,6 +217,16 @@ Portal
    helping to sample the environment lamp and therefore improving convergence.
    Note that this will make the area lamp itself invisible.
 
+In outdoor scenes most rays don't bounce much and just fly off into the sky.
+
+In indoor scenes almost all the rays will end up reflecting around up to the maximum number of bounces. Not only does this often mean more noise, but also slower rendering (more ray intersection calculations etc.)
+
+Light portals will guide the rays to the environment light so you can get less noise with fewer samples and a shorter render time than if you didn't use portals.
+
+Every portal adds a render time penalty so use as few as possible.
+
+.. figure:: /images/Cycles_portals2.jpg
+.. figure:: /images/Cycles_portals.jpg
 
 Volume Render Settings
 ======================
