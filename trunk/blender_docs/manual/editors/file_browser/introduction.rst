@@ -104,7 +104,7 @@ Interface
 Tool Shelf
 ----------
 
-The left sidebar displays different ways to find files and several options.
+The left region displays different ways to find files and several options.
 
 System
    The system menu contains a list of drives that are available to navigate through to find

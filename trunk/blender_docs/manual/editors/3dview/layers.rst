@@ -19,7 +19,7 @@ For this and other reasons below, objects can be placed into one or more "layers
 Using object layers, you can:
 
 - Selectively display objects from certain layers in your 3D View,
-  by selecting those layers in the *3D View* header bar. This allows you to speed up interface redrawing,
+  by selecting those layers in the *3D View* header. This allows you to speed up interface redrawing,
   reduce virtual-world clutter, and help improve your workflow.
 - Control :doc:`which lights illuminate an object </render/blender_render/lighting/lights/what_light_affects>`,
   by making a light illuminate only the objects on its own layer(s).

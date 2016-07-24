@@ -19,7 +19,7 @@ as well as individual shortcut keys.
    either.
 
 These transform tools are available in the *Transform* section of the
-*Mesh* menu in the menu bar.
+*Mesh* menu in the header.
 Note that some of these can also be used on other editable objects, like curves, surfaces,
 and lattices.
 
@@ -102,7 +102,7 @@ These are only some of the mesh editing tools.
 Menus
 -----
 
-The *Mesh* is located in the Header bar.
+The *Mesh* menu is located in the header.
 Some of the menus can be accessed with shortcuts:
 :kbd:`Ctrl-F` brings up the Face tool menu
 :kbd:`Ctrl-E` brings up the Edge tool menu

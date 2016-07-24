@@ -24,7 +24,7 @@ and then tweak the layout.
 Selecting UVs
 =============
 
-Selection tools are available in the *Select Menu* and Header bar,
+Selection tools are available in the *Select Menu* in the header,
 and the shortcuts listed below:
 
 Border Select :kbd:`B`

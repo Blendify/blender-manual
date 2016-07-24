@@ -21,7 +21,7 @@ Editor Type Selector
 Menus
    Provides access to the main menu options.
 Screen Selector
-   Used to select and edit area layouts. See :doc:`Screens </interface/editors/screens>`.
+   Used to select and edit window layouts. See :doc:`Screens </interface/editors/screens>`.
 Scene Selector
    Allows you to select different :doc:`Scenes </data_system/scenes>`.
    Having multiple Scenes allows you to work with separate virtual environments,
