@@ -35,9 +35,9 @@ Image
 Example
 =======
 
-In the node editor, set the node tree to compositing in the menu bar and check the *Use Nodes* checkbox.
+In the node editor, set the node tree to compositing in the header and check the *Use Nodes* checkbox.
 Add an input Image node and an output Viewer node.
-Connect the Input node to the viewer node and check the *Backdrop* checkbox in the menu bar.
+Connect the Input node to the viewer node and check the *Backdrop* checkbox in the header.
 Open an image you would like to pixelate using the open button on the image node.
 This image should now appear in the backdrop.
 Now add two scale nodes between the input and output :menuselection:`Add --> Distort --> Scale`.

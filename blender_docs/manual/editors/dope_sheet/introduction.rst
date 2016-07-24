@@ -53,7 +53,7 @@ Interface
 =========
 
 The *Action Editor* interface is somewhat similar to the *Graph Editor*
-one, it is divided in three areas:
+one, it is divided in three regions:
 
 .. _fig-dope-sheet-action:
 
@@ -63,54 +63,16 @@ one, it is divided in three areas:
    The Action Editor, Action Editor mode, with an Object and Shape channels.
 
 
-The header bar
-   Here you find the menus, a first block of controls related to the editor "mode",
-   a second one concerning the action data-blocks, and a few other tools
-   (like the copy/paste buttons, and snapping type).
+Header
+------
 
-The main area
-   It contains the keyframes for all visible action channels.
-   As with the other "time" editor, the X-axis represents time.
-   The Y-axis has no mean in itself, unlike with the *Graph Editor*, it is just a sort of "stack" of action channels -
-   each one being shown as an horizontal colored strip (of a darker shade "during" the animated/keyed period).
-   On these channel strips lay the keyframes, visualized as light-gray (unselected) or yellow (selected) diamonds.
-   One of the key feature of this editor is that it allow you to visualize immediately which channel (i.e. F-Curve)
-   is *really* affected. When the value of a given channel does not change at all between two neighboring keyframes,
-   a gray (unselected) or yellow (selected) line is drawn between them.
-
-The left "list-tree"
-   This part shows the action's channel "headers" and their hierarchy. Basically, there are:
-
-   - "Top-level" channels, which represent whole F-Curve data-blocks
-     (so there is one for *Object* one, one for *Shape* one, etc.).
-     They gather *all* keyframes defined in their underlying F-Curve data-block.
-   - "Mid-level" channels, which seem currently to have no use
-     (there iss one per top-level channel, they are all named *F-Curves*, and have no option at all).
-   - "Low-level" channels, which represent individual F-Curve,
-     with their own keyframes (fortunately, only keyed frames are shown!).
-
-   Each level can be expended/collapsed by the small arrow to the left of its "parent" channel.
-   To the right of the channel's headers, there are some channel's setting controls:
-
-   - Clicking on the small "eye" will allow you to mute that channel (and all its "children" channels, if any!).
-   - Clicking on the small "lock" will allow you to prevent this channel and its children to be edited
-     
-     .. note::
-
-        note that this is also working inside the NLA,
-        but that it does not prevent edition of the underlying F-Curve).
-
-   A channel can be selected (text in white, strip in gray-blue color) or not
-   (text in black, strip in pink-brown color.), use :kbd:`LMB` clicks to toggle this state.
-   You can access some channel's properties by clicking :kbd:`Ctrl-LMB` on its header.
-   Finally, you can have another column with value-sliders,
-   allowing you to change the value of current keyframes, or to add new ones.
-   These are obviously only available for low-level channels (i.e. individual F-Curve ).
-   See `View Menu`_ below for how to show these sliders.
+Here you find the menus, a first block of controls related to the editor "mode",
+a second one concerning the action data-blocks, and a few other tools
+(like the copy/paste buttons, and snapping type).
 
 
 View Menu
----------
+^^^^^^^^^
 
 .. figure:: /images/actioneditor-sliders.jpg
 
@@ -143,7 +105,55 @@ Clear Preview Range :kbd:`Alt-P`
 Auto-Set Preview Range
    Automatically sets the preview range to playback the whole action.
 
+
 Marker Menu
------------
+^^^^^^^^^^^
 
 See the :doc:`Markers page </animation/markers>`.
+
+
+Main Region
+-----------
+
+It contains the keyframes for all visible action channels.
+As with the other "time" editor, the X-axis represents time.
+The Y-axis has no mean in itself, unlike with the *Graph Editor*, it is just a sort of "stack" of action channels -
+each one being shown as an horizontal colored strip (of a darker shade "during" the animated/keyed period).
+On these channel strips lay the keyframes, visualized as light-gray (unselected) or yellow (selected) diamonds.
+One of the key feature of this editor is that it allow you to visualize immediately which channel (i.e. F-Curve)
+is *really* affected. When the value of a given channel does not change at all between two neighboring keyframes,
+a gray (unselected) or yellow (selected) line is drawn between them.
+
+
+"List-tree" Region
+------------------
+
+This part shows the action's channel "headers" and their hierarchy. Basically, there are:
+
+- "Top-level" channels, which represent whole F-Curve data-blocks
+  (so there is one for *Object* one, one for *Shape* one, etc.).
+  They gather *all* keyframes defined in their underlying F-Curve data-block.
+- "Mid-level" channels, which seem currently to have no use
+  (there iss one per top-level channel, they are all named *F-Curves*, and have no option at all).
+- "Low-level" channels, which represent individual F-Curve,
+  with their own keyframes (fortunately, only keyed frames are shown!).
+
+Each level can be expended/collapsed by the small arrow to the left of its "parent" channel.
+To the right of the channel's headers, there are some channel's setting controls:
+
+- Clicking on the small "eye" will allow you to mute that channel (and all its "children" channels, if any!).
+- Clicking on the small "lock" will allow you to prevent this channel and its children to be edited
+  
+  .. note::
+
+     note that this is also working inside the NLA,
+     but that it does not prevent edition of the underlying F-Curve).
+
+A channel can be selected (text in white, strip in gray-blue color) or not
+(text in black, strip in pink-brown color.), use :kbd:`LMB` clicks to toggle this state.
+You can access some channel's properties by clicking :kbd:`Ctrl-LMB` on its header.
+Finally, you can have another column with value-sliders,
+allowing you to change the value of current keyframes, or to add new ones.
+These are obviously only available for low-level channels (i.e. individual F-Curve ).
+See `View Menu`_ above for how to show these sliders.
+

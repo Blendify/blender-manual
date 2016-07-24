@@ -36,7 +36,7 @@ the text field will turn red as a warning that the file will be overwritten.
 Options
 =======
 
-The save options appear at the bottom of the sidebar.
+The save options appear in the context-sensitive shelf.
 
 Compress File
    When enabled, the saved file will be smaller, but take longer to save and load.
