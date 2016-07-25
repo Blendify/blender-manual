@@ -1,5 +1,10 @@
-.. |prop-edit-icon| image:: /images/editors_3dview_transform-control_proportional-edit-header-icon.jpg
-.. |prop-edit-edit-mode-icon| image:: /images/editors_3dview_transform-control_proportional-edit-header-icon-edit-mode.jpg
+
+.. |prop-edit-icon| image::
+   /images/editors_3dview_transform-control_proportional-edit-header-icon.jpg
+
+.. |prop-edit-edit-mode-icon| image::
+   /images/editors_3dview_transform-control_proportional-edit-header-icon-edit-mode.jpg
+
 
 *****************
 Proportional Edit
