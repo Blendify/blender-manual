@@ -12,6 +12,8 @@ Presets
 Quality
    Set the number of simulation steps per frame. Higher values result in better quality, but is slower.
 
+Speed
+   Adust how fast time flows in the cloth simulation.
 
 Material
 --------
@@ -99,6 +101,21 @@ The typical workflow for pinning:
 
 .. This is jumping ahead and not clear and not true at this point.
    --[[User:Roger|Roger]] 18:42, 27 April 2008 (UTC)
+
+
+Dynamic Mesh
+------------
+
+Normally cloth uses the state of the object in the first frame to compute the natural rest
+shape of the cloth, and keeps that constant throughout the simulation. This is reasonable
+for fully realistic scenes, but doesn't quite work for clothing on cartoon style characters
+that use a lot of squash and stretch.
+
+When *Dynamic Mesh* is enabled, the rest shape is recalculated every frame, allowing unpinned
+cloth to squash and stretch following the character with the help of an Armature modifier, but
+otherwise move freely under control of the physics simulation.
+
+*Dynamic Mesh* is incompatible with using a shape key to specify the rest shape.
 
 
 Cloth Sewing Springs

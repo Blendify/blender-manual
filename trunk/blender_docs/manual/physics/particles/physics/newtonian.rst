@@ -35,6 +35,8 @@ Size Deflect
    Use the particle size in deflections.
 Die on Hit
    Kill particle when it hits a deflector object.
+Collision Group
+   If set, particles collide with objects from the group, instead of using objects that are on the same layer.
 
 Integration
 ===========
