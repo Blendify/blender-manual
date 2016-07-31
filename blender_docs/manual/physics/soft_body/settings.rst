@@ -30,6 +30,9 @@ Vertex Group Mass
 Speed
    You can control the internal timing of the Softbody system with this value.
 
+Collision Group
+   If set, Soft Body collides with objects from the group, instead of using objects that are on the same layer.
+
 
 Soft Body Cache
 ===============
