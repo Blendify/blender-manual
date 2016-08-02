@@ -38,3 +38,17 @@ Editing Keyframes
 
 For editing keyframes go to the :doc:`Graph Editor </editors/graph_editor/introduction>`
 or to the :doc:`Dopesheet </editors/dope_sheet/introduction>`
+
+
+Bake Action
+===========
+Object > Animation > Bake action
+(Or if you are in Pose mode, Pose > Animation > Bake action)
+
+This will apply interpolated frames into individual key frames. 
+
+Useful for adding deviation to a cyclic action like a walk cycle.
+
+Also useful to keyframe animation created from drivers or constraints.
+
+.. figure:: /images/animation_bake_action.png
