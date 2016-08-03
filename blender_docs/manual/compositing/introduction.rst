@@ -154,7 +154,7 @@ When nodes receive inputs with differently sized Images, these rules apply:
 
 So each node in a composite can operate on different sized images as defined by its inputs.
 Only the *Composite* output node has a fixed size,
-as defined by the *Scene buttons* (Format Panel).
+as defined by the settings in Properties Editor-->Render-->Dimensions
 The *Viewer* node always shows the size from its input, but when not linked
 (or linked to a value) it shows a small 320×256 pixel image.
 
