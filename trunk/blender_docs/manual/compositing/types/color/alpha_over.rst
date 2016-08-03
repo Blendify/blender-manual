@@ -84,9 +84,9 @@ Examples
    Assembling a composite Image using AlphaOver.
 
 
-In this example, an image of a Toucan is superimposed on a wooden background.
+In this example, an image of a Cube is superimposed on a cliff background.
 Use the PreMultiply button, when the foreground image and background images have
-a combined Alpha thatis greater than 1.00; otherwise, you will see an unwanted halo effect.
+a combined Alpha that is greater than 1.00; otherwise, you will see an unwanted halo effect.
 The resulting image is a composite of the two source images.
 
 
@@ -100,6 +100,6 @@ In this example, we use the Factor control to make a sheer cloth or onion-skin e
 This effect can be animate, allowing the observer to "see-through" walls
 (or any foreground object) by hooking up a Time node to feed the Factor socket as shown below.
 In this example, over the course of 30 frames, the Time node makes the AlphaOver node produce
-a picture that starts with the background wood image, and slowly bleeds through the Toucan.
-This example shows frame 11 just as the Toucan starts to be revealed.
+a picture that starts with the background cliff image, and slowly bleeds through the cube.
+This example shows frame 11 just as the cube starts to be revealed.
 
