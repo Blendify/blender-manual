@@ -32,8 +32,10 @@ Outputs
 1D values based on the levels of an image.
 
 Mean
-   The average of values.
+   The mean is the average value of all image pixels in specified channel (combined, red, green, blue, luminance). It tells you how dark or bright the image is and can be used as such for setups that depend on how is input "bright" or "dark".
 Standard deviation
-   Measures the diversity of values.
+   How much those pixel values differ from the mean. A low standard deviation indicates that the pixel values tend to be very close to the mean. A high standard deviation indicates that the values are spread out over a large range of values.
+
+The visualization of such data is just a grey rectangle.
 
 
