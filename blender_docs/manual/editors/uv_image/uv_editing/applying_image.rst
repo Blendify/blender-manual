@@ -180,7 +180,7 @@ New Images
 
 
 When you select *New Image* you are presented with several options. This
-*Generated* image can also be modified afterward in the *Properties Panel*:
+*Generated* image can also be modified afterward in the *Properties region*:
 
 Image Name
    Set the name if the generated image
@@ -235,7 +235,7 @@ Image Settings
 --------------
 
 When an image has been loaded or created in the UV/Image editor,
-an additional section appears in the *Properties Panel*.
+an additional section appears in the *Properties region*.
 The first row of buttons allow you to:
 
 - Browse for an image

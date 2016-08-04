@@ -33,8 +33,8 @@ View Menu
    The View menu.
 
 
-Properties Panel
-   Toggles the *Properties* side panel, which allows you to tweak many 3D View settings:
+Properties region
+   Toggles the *Properties* region, which allows you to tweak many 3D View settings:
 
    - :doc:`Transform </editors/3dview/transform/introduction>`
    - :doc:`Grease Pencil </interface/grease_pencil/introduction>`

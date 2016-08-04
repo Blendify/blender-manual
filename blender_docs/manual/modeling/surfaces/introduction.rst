@@ -230,7 +230,7 @@ other out. It is the difference in the weights that cause the surface to move to
 from a control point.
 
 The *Weight* of any particular control point is visible in the
-:doc:`Transform Properties panel </editors/3dview/transform/transform_control/transform_properties>`
+:doc:`/editors/3dview/transform/transform_control/transform_properties`
 :kbd:`N`, in the *W* field (and not the *Weight* field...).
 
 

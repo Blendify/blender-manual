@@ -83,7 +83,7 @@ Any changes made in the UV/Image Editor show up immediately in the 3D View,
 and vice versa.
 
 A full complement of brushes and colors can be selected from 
-the Properties panel in the UV/Image Editor.
+the Properties region in the UV/Image Editor.
 Brush changes made in either panel are immediately reflected in the other panel. However,
 the modified texture will **not** be saved automatically;
 you must explicitly do so by :menuselection`Image --> Save` in the UV/Image Editor.

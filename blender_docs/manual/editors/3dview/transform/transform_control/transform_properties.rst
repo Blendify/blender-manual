@@ -11,22 +11,22 @@ Each object stores its position, orientation, and scale values.
 These may need to be manipulated numerically, reset, or applied.
 
 
-Transform Properties Panel
-==========================
+Transform Panel
+===============
 
 .. admonition:: Reference
    :class: refbox
 
    | Mode:     Edit and Object Modes
-   | Menu:     :menuselection:`Properties Editor --> Object --> Transform`
-   | Panel:    :menuselection:`Tool Shelf --> Transform`
+   | Menu:     :menuselection:`Object --> Transform`
+   | Panel:    :menuselection:`Properties region --> Transform`
 
 
-The *Transform Properties* section in the *View Properties* panel allows you to view and
+The *Transform* panel in the Properties region allows you to view and
 manually/numerically control the position, rotation, and other properties of an object, in *Object Mode*.
 In *Edit Mode*, it mainly allows you to enter precise coordinates for a vertex,
 or median position for a group of vertices (including an edge/face). As each type of object has a different set of
-options in its *Transform Properties* panel in *Edit Mode*,
+options in its *Transform* panel in *Edit Mode*,
 see their respective descriptions in the :doc:`Modeling chapter </modeling/index>`.
 
 
@@ -80,7 +80,7 @@ Transform Properties Locking
 ----------------------------
 
 The locking feature of the Location, Rotation and Scale fields allows you to control a
-transform property solely from the properties panel.
+transform property solely from the properties region.
 Once a lock has been activated any other methods used for transformation are blocked.
 For example, if you locked the *Location X* field then you cannot use the mouse to
 translate the object along the global X axis.

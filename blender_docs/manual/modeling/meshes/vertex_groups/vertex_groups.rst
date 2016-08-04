@@ -268,7 +268,7 @@ Finding ungrouped verts
 You can find ungrouped vertices as follows:
 
 - Press :kbd:`A` once or twice to unselect all vertices.
-- In the footer of the 3D View: :menuselection:`Navigate to Select --> Ungrouped verts`
+- In the header of the 3D View: Navigate to :menuselection:`Select --> Ungrouped verts`
 
 
 Keyboard Shortcuts

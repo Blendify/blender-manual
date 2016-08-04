@@ -21,7 +21,7 @@ like scrubbing and scrolling and compositing functions like cross using these pr
 faster but gives a low-res result. Disable proxies before final rendering.
 
 In order to actually use the proxies, the proper Proxy Render Size dropdown value must
-be selected in the Properties panel of the Sequencer View (where the edit plays back).
+be selected in the Properties region of the Sequencer View (where the edit plays back).
 
 Proxy Storage
    Defines whether the proxies are for individual strips or the entire sequence.

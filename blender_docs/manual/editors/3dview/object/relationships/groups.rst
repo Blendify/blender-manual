@@ -27,8 +27,8 @@ Options
 Creating a Group
    :kbd:`Ctrl-G` creates a new group and adds the selected object(s) to it.
 Naming a Group
-   All groups that an object has been assigned to are listed in the
-   :menuselection:`Object Properties Panel --> Relations panel`.
+   All groups that an object has been assigned to are listed in the Properties editor
+   :menuselection:`Object tab --> Relations panel`.
    To rename a group, simply click in the groups name field. To name groups in the *Outliner* editor,
    select *Groups* as the outliner display from the header combo box, and :kbd:`Ctrl-LMB` click on the group name.
    The name will change to an editable field; make your changes and press :kbd:`Return`.

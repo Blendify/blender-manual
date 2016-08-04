@@ -52,12 +52,15 @@ Therefore, it is simple to make a pencil-test/series of animated sketches:
 Onion Skinning
 --------------
 
+.. _fig-gp-onion:
+
 .. figure:: /images/grease_pencil_layers_onion.jpg
 
    Grease Pencil Onion Skinning.
 
 Onion-skinning, also known as ghosting, helps an animator by displaying the neighboring frames as a faded trail.
-Enable the option with the *Onion Skin* button in the grease pencil properties panel (shown above).
+Enable the option with the *Onion Skin* button in the grease pencil properties region
+(see :ref:`fig-gp-onion` shown above).
 
 Use *Before* and *After* to set the number of ghost frames drawn on either side of the current frame.
 When *Use Custom Colors* (Marked *A*) is enabled,
