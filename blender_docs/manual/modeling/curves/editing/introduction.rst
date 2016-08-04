@@ -22,7 +22,7 @@ Display Options
    Curve Display panel.
 
 
-When in Edit Mode, the Properties Shelf :kbd:`N` contains options in the
+When in Edit Mode, the Properties region :kbd:`N` contains options in the
 *Curve Display* panel for how curves are displayed in the 3D View.
 
 Handles
