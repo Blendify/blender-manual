@@ -83,7 +83,7 @@ Objects can be set to be invisible to particular ray types:
 - Transmission
 - Shadow
 
-Properties Editor-->Object-->Cycles Settings-->Ray visibility
+Properties Editor :menuselection:`Object --> Cycles Settings --> Ray visibility`.
 
 This can be used, for example, to make an emitting mesh invisible to camera rays.
 For duplicators, visibility is inherited; if the parent object is hidden for some ray types,
