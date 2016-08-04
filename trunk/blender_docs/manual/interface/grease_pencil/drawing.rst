@@ -6,14 +6,16 @@ Drawing With Grease Pencil
 
 - Enable the *Grease Pencil* by clicking *Draw, Line, Poly or Erase* from the Toolshelf :kbd:`T`.
   A new layer will be automatically added for you to draw on.
-- A new layer can be added from the *Grease Pencil Properties panel*.
+- A new layer can be added from the Grease Pencil panel in the Properties region.
   This panel can also be used to customize the color, opacity and thickness of the pencil lines.
   Changes to these settings will affect all strokes on the current layer.
+
+.. _fig-gp-tool-properties:
 
 .. figure:: /images/sketchinggreasepencil.jpg
    :width: 500px
 
-   Grease Pencil Tool Shelf and Properties Panel.
+   Grease Pencil Tool Shelf and Properties region.
 
 
 *Grease Pencil* sketches can be converted to editable geometry and used to aid the animation process.
@@ -26,7 +28,7 @@ Drawing
 =======
 
 The Toolshelf provides a number of options for drawing with the *Grease Pencil* which are detailed below.
-The Toolshelf can be seen in the screenshot *Grease Pencil Tool Shelf and Properties Panel* above.
+The Toolshelf can be seen in the screenshot :ref:`fig-gp-tool-properties` above.
 
 
 Grease Pencil Mode and Shortcut Summary

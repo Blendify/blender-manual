@@ -35,10 +35,10 @@ so by transforming a bone, you will affect all its connected parent/children/sib
 .. figure:: /images/riggingtransformpropertiespaneleditmode.jpg
    :width: 200px
 
-   The Transform Properties panel for armatures in Edit Mode.
+   The Transform panel for armatures in Edit Mode.
 
 
-Finally, you can edit in the *Transform Properties* panel :kbd:`N`
+Finally, you can edit in the *Transform* panel in the Properties region
 the positions and radius of both ends of the active selected bone,
 as well as its :ref:`roll rotation <armature-bone_roll>`.
 

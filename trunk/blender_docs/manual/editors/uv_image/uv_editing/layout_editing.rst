@@ -123,7 +123,7 @@ Pivot Points
 
 The UV/Image editor has a 2D cursor.
 Its position can be changed by :kbd:`LMB` clicking in the UV/Image editor.
-You can also manually adjust its position in the Properties Panel.
+You can also manually adjust its position in the Properties region.
 The range by default is from 0 to 256 starting from the lower left corner.
 By enabling *Normalized* under *Coordinates*,
 the range changes from 0 to 1.

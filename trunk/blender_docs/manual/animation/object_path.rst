@@ -49,8 +49,8 @@ then :kbd:`Shift` select the curve,
 and use :kbd:`Ctrl-P` to bring up the parenting menu. Choose *Follow Path*.
 The object will now be animated along the path.
 
-The settings for the path animation are in the *Path Animation* panel of the Curve
-properties panel.
+The settings for the path animation are in the *Path Animation* panel 
+of the Curve tab in the Properties editor.
 
 Frames
    Defines the number of frames it takes for the object to travel the path.

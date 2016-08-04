@@ -42,7 +42,7 @@ File Format label
 
 .. note::
 
-   More options could be set in the properties panel.
+   More options could be set in the properties region.
 
 
 Outputs

@@ -11,7 +11,7 @@ that can be adjusted at any time, and layered to create more complex effects.
 Adding a Modifier
 =================
 
-The F-Curve modifier panel is located in the Properties panel.
+The F-Curve modifier panel is located in the Properties region.
 Select a curve by selecting one of its curve points, or by selecting the channel list.
 Click on the *Add Modifier* button and select a modifier.
 

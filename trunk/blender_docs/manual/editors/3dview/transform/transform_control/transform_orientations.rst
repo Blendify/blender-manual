@@ -67,7 +67,7 @@ Normal
 
    As you see, the light blue lines indicate the faces' normals,
    and the darker blue lines indicate the vertex normals (these were turned on in the
-   :kbd:`N` Properties Panel under :menuselection:`Mesh Display --> Normals --> Face` and
+   :kbd:`N` Properties region under :menuselection:`Mesh Display --> Normals --> Face` and
    *Vertex*).
    Selecting any given face will cause our Manipulator's Z-axis to align with that normal.
    The same goes for Vertex Select Mode.
@@ -113,7 +113,7 @@ orientations defined from objects use the local orientation of the object wherea
 defined from selected mesh elements (vertices, edges, faces)
 use the normal orientation of the selection.
 
-The *Transform Orientations* panel, found in the Properties Panel,
+The *Transform Orientations* panel, found in the Properties region,
 can be used to manage transform orientations: selecting the active orientation,
 adding and deleting custom orientations.
 
