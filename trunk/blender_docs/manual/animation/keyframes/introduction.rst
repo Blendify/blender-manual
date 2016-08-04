@@ -42,8 +42,9 @@ or to the :doc:`Dopesheet </editors/dope_sheet/introduction>`
 
 Bake Action
 ===========
-Object > Animation > Bake action
-(Or if you are in Pose mode, Pose > Animation > Bake action)
+
+:menuselection:`Object --> Animation --> Bake action`
+(Or if you are in Pose Mode, :menuselection:`Pose --> Animation --> Bake action`)
 
 This will apply interpolated frames into individual key frames. 
 
