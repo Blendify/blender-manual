@@ -79,7 +79,7 @@ Before fine-tuning the camera parameters you can set the
 convergence plane in the viewport based in your scene depth layout.
 Go outside the camera view and you will instantly see the convergence plane in front of the camera.
 
-You can toggle this and other display settings in the Stereoscopy panel of the viewport properties shelf.
+You can toggle this and other display settings in the Stereoscopy panel of the 3D Views properties region.
 In the following image the cameras frustum volumes are also visible.
 
 

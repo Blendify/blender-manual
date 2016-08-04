@@ -5,7 +5,7 @@ Panels
 
 Panels are collapsible sections within regions to help organize the interface.
 They are heavily used in the *Properties Editor* but also
-appear elsewhere (For example: in the *Tool Shelf* or the *Properties Shelf*, available in some editors).
+appear elsewhere (For example: in the *Tool Shelf* or the *Properties region*, available in some editors).
 
 The image below shows panels in different regions in their expanded and
 collapsed state.

@@ -62,11 +62,11 @@ Numeric Input
 
 .. figure:: /images/editors_3dview_transform-control_pivot-point_3d-cursor_view-properties.jpg
 
-   The 3D Cursor panel of the Properties shelf.
+   The 3D Cursor panel of the Properties region.
 
 
-The 3D cursor can also be positioned by entering Numeric location values into the *3D cursor*
-panel of the *Properties* shelf :kbd:`N`.
+The 3D cursor can also be positioned by entering Numeric location values into 
+the *3D cursor* panel of the *Properties* region :kbd:`N`.
 
 
 Usage

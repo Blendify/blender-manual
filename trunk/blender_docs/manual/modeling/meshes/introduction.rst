@@ -105,17 +105,17 @@ Even more mesh editing tools can be enabled in the *User Preferences* '
 For further information see :doc:`Panels </interface/editors/panels>`.
 
 
-Properties Shelf
-================
+Properties region
+=================
 
 .. figure:: /images/editmode-properties-split.jpg
 
-   The Properties Shelf panel in edit mode (panel split in two parts for layout reasons).
+   The Properties region in edit mode (panel split in two parts for layout reasons).
 
 
-Open/close the *Properties Shelf* using :kbd:`N`.
+Open/close the *Properties region* using :kbd:`N`.
 
-In the *Properties Shelf*,
+In the *Properties region*,
 panels directly related to mesh editing are the *Transform* panel,
 where numeric values can be entered, and the *Mesh Display* panel,
 where for example normals and numeric values for distances, angles,
