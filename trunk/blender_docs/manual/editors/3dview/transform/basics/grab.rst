@@ -127,42 +127,6 @@ Blender offers options to limit the amount of the transformation in small or pre
 
    - The axis of movement can be changed at any time during translation by typing :kbd:`X`, :kbd:`Y`, :kbd:`Z`.
 
-
-Orientations
-============
-
-There are five standard orientation references for all transformations.
-You can find out more about transform orientations
-:doc:`here </editors/3dview/transform/transform_control/transform_orientations>`.
-
-.. figure:: /images/editors_3dview_trans_grab_orientation.png
-   :align: right
-
-   Orientation choice menu.
-
-
-Each mode is a co-ordinate system in which transformations can be carried out.
-These orientations can be chosen from the pop-up menu to the side of the controls which toggle
-and select the transformation manipulator widgets.
-
-If you have changed the orientation to something other than Global,
-you can hotkey your chosen axis of orientation by hitting the relevant axis modifying hotkey
-*twice* instead of just *once*. Hitting the axis modifying hotkey three times reverts back to Global orientation.
-
-- :kbd:`G` followed by :kbd:`X-X` or :kbd:`Y-Y` or
-  :kbd:`Z-Z` allows you to translate the object in the object's Local axis by default,
-  or on an axis of the selected orientation if the transform orientation is not set to Global.
-  This modifying hotkey combination can be followed with numbers as described in the previous section.
-
-- The :kbd:`G` followed by :kbd:`Shift` and :kbd:`X-X` or :kbd:`Y-Y` or
-  :kbd:`Z-Z` will lock the object's translation on a single Local axis by default,
-  or on an axis of the selected orientation if the transform orientation is not set to Global.
-  Locking one axis means the selected object moves freely on the other two axes.
-
-.. figure:: /images/editors_3dview_trans_grab_xyz_number.png
-
-   Numerical Entry Display.
-
 .. tip::
 
    Moving an object in Object Mode changes the object's origin.
