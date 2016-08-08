@@ -41,19 +41,19 @@ Edit mode is used to edit to fallowing types of objects:
 Because each of these are different types of object they have different types of transforms
 and therefore have different set of tool. Because of this each has its own section described below.
 
-:doc:`Mesh Modeling </modeling/meshes/introduction>`
+:doc:`Mesh Modeling </modeling/meshes/index>`
    Typically begins with a :doc:`Mesh Primitive </editors/3dview/object/types/primitives>`
    shape (e.g. circle, cube, cylinder...).
 
-:doc:`Curve modeling </modeling/curves/index>`
+:doc:`Curve Modeling </modeling/curves/index>`
    Uses control points to define the shape of the curve.
 
-:doc:`Surface modeling </modeling/surfaces/index>`
+:doc:`Surface Modeling </modeling/surfaces/index>`
    Similar to curve modeling,
    but instead of being limited to simple linear paths,
    they allow the creation of three dimensional surfaces, potentially with volume.
 
-:doc:`Meta Object (Metaball) Modeling </modeling/metas/index>`
+:doc:`Metaball Modeling </modeling/metas/index>`
    Begins similarly to mesh modeling (see above), with a base shape like a cube or sphere,
    but instead of extruding these base shapes, these objects are clumped together to form a larger object.
    In order to accomplish this, the metaballs have a liquid-like quality, when two or more are brought
@@ -61,5 +61,6 @@ and therefore have different set of tool. Because of this each has its own secti
 
    This can also be a quick way to get started with a rough shape which can be converted to a mesh later.
 
-:doc:`Text Modeling </modeling/texts/introduction>`
+:doc:`Text Modeling </modeling/texts/index>`
    Text modeling is an easy way to create logos and to simply add text to a scene.
+
