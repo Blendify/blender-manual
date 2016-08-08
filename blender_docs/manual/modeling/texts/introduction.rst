@@ -195,7 +195,6 @@ Now you can return to *Edit Mode* and manually edit the vertices.
 They are usually a bit messy, so it may be useful to use a *Limited Dissolve* deletion or *Remesh* Object
 :doc:`Modifier </modeling/modifiers/index>` at a low threshold to clean up your mesh.
 
-
 .. figure:: /images/textobjectfromtext.jpg
    :width: 500px
 
@@ -255,11 +254,10 @@ To load a different *Font*, click one of the *Load* buttons in the
 The *File Browser* editor will give all valid fonts a capital F icon,
 as seen in *Loading a Type 1 font file.*
 
+.. note:: Location of fonts on Unix
 
-.. note:: Unix note
-
-   Fonts are typically located under ``/usr/lib/fonts``, or some variant like ``/usr/lib/X11/fonts``, but not always.
-   They may be in other locations as well,
+   Fonts are typically located under ``/usr/lib/fonts``, or some variant like ``/usr/lib/X11/fonts``,
+   but not always. They may be in other locations as well,
    such as ``/usr/share/local`` or ``/usr/local/share``, and possibly related sub-trees.
 
 
@@ -287,17 +285,14 @@ Size and Shear
 Size
    Controls the size of the whole text (no way to control each char size independently).
    Note however, that chars with different fonts (different styles, see below) might have different visible sizes.
-
-.. figure:: /images/textshear.jpg
-   :width: 300px
-
-   shear: 'blender' has a shear value of 1,
-   '2.59' a shear value of 0
-
-
 Shear
    Controls the inclination of the whole text.
    Different to as it may seems, this is not similar to italics style.
+
+   .. figure:: /images/textshear.jpg
+      :width: 300px
+
+      shear: 'blender' has a shear value of 1, '2.59' a shear value of 0.
 
 
 Objects as Fonts
@@ -306,46 +301,31 @@ Objects as Fonts
 You can also "create" your own "font" inside Blender! This is quite a complex process,
 so let us detail it:
 
-- First, you must create your chars. Each char, of any type,  is an object (mesh, curve, meta...).
-  They all must have a name following the schema:
-  *common prefix* followed by the *char name* (e.g. "ft.a", "ft.b", etc.).
-- Then, for the *Text* object, you must enable the *Dupli Verts* button
-  (:menuselection:`Object  -->  Animation Settings` panel).
-- Back in the *Font* tap,
-  fill the *Ob Family* field with the *common prefix* of your "font" objects.
+#. First, you must create your chars. Each char, of any type,  is an object (mesh, curve, meta...).
+   They all must have a name following the schema:
+   *common prefix* followed by the *char name* (e.g. "ft.a", "ft.b", etc.).
+#. Then, for the *Text* object, you must enable the *Dupli Verts* button
+   (:menuselection:`Object --> Animation Settings` panel).
+#. In the *Font* tap, fill the *Object Font* field with the *common prefix* of your "font" objects.
 
 Now, each time a char in your text matches the *suffix part* of a "font" object's name,
 this object is duplicated on this char. The original chars remain visible. The objects are
 duplicated so that their center is positioned at the *lower right corner* of the
-corresponding chars.
+corresponding characters.
 
 
 Text on Curve
-^^^^^^^^^^^^^
+   Used to select a curve for the text object to follow.
 
-With the :doc:`curve modifier </modeling/modifiers/deform/curve>` you can let text follow a curve.
+   .. figure:: /images/text-curved-lowres-ex.jpg
+      :width: 200px
 
-.. _fig-texts-intro-on-curve:
+      Text on curve.
 
-.. figure:: /images/text-curved-lowres-ex.jpg
-   :width: 200px
+   .. tip::
 
-   Text on curve.
-
-
-In Fig. :ref:`fig-texts-intro-on-curve` you can see a text deformed by a curve (a 2D Bézier circle).
-
-To apply the curve modifier, the text object first has to be converted to a mesh,
-using :kbd:`Alt-C` and click mesh.
-
-.. note::
-
-   There is also a Text on Curve feature,
-   but the curve modifier offers more options.
-
-
-Underline
-^^^^^^^^^
+      You can also use the :doc:`Curve Modifier </modeling/modifiers/deform/curve>`
+      which offers more control.
 
 Underline
    Toggled with the *Underline* button before typing.
@@ -356,19 +336,22 @@ Underline
    Thickness
       This controls the thickness of the underline.
 
-.. figure:: /images/textfontsettings.jpg
-   :width: 300px
-
-   check a character option to, for example, type bold text.
-
 
 Character
 ^^^^^^^^^
 
-.. figure:: /images/text-bold-ex.jpg
-   :width: 300px
+.. list-table::
+   :widths: 20 80
 
-   Bold text.
+   * - .. figure:: /images/text-bold-ex.jpg
+          :width: 300px
+
+           Bold text.
+
+     - .. figure:: /images/textfontsettings.jpg
+          :width: 300px
+
+          Character options to, for example, type bold text.
 
 
 Bold
@@ -380,7 +363,7 @@ Italics
 Underline
    Enables underlining, as controlled by the Underline settings above.
 Small Caps
-   type small capital text.
+   Type small capital text.
 
 Blender's *Bold* and *Italic* buttons do not work the same way as other applications,
 as they also serve as placeholders for you to load up other fonts manually,
