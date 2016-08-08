@@ -40,7 +40,7 @@ Links
    Links official web pages, the same could be found in the *Help* Menu of the Info Editor.
    See :ref:`help-menu`.
 Recent
-   Your most recently opened Blender files. This gives quick and easy access to your recent projects.
+   Your most recently opened blend-files. This gives quick and easy access to your recent projects.
 Recover Last Session
    Blender will try to recover the last session based on temporary files. See :doc:`/troubleshooting/recover`.
 

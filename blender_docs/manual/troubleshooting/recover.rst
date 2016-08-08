@@ -19,7 +19,7 @@ At the :ref:`System Level <troubleshooting-file_recovery>` (Relating to *Files*)
 
 - There are options to save your files like
   *Auto Save* that saves your file automatically over time, and *Save on Quit*,
-  which saves your Blender file automatically when you exit Blender.
+  which saves your blend-file automatically when you exit Blender.
 
   .. note::
 
@@ -62,14 +62,14 @@ Recover Last Session
 
    .. figure:: /images/basics-undo-display_file_date.jpg
    
-      Blender File Browser.
+      blend-file Browser.
    
    .. tip::
    
       When recovering files, you will navigate to your temporary folder.
       It is important, when browsing, to enable the detailed list view.
       Otherwise, you will not be able to figure out the dates of the auto-saved blend-files.
-      (See Figure: Blender File Browser)
+      (See Figure: blend-file Browser)
 
 Recover Auto Save
    :menuselection:`File --> Recover Auto Save...` allows you to open the Auto Saved file.

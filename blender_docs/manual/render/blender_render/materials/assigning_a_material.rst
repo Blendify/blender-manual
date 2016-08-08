@@ -5,7 +5,7 @@
 Assigning a Material
 ********************
 
-Materials available in the currently-open Blender file can be investigated by clicking 
+Materials available in the currently-open blend-file can be investigated by clicking 
 on the Materials icon |material-icon| in the Properties editor Header. 
 In this section we look at how to assign or remove a material to/from the Active Object in Blender, either by:
 
@@ -76,7 +76,7 @@ Name
 Number of Users
    Specifies the number of meshes which use this material.
 F - Fake User
-   When enabled, this material will always be saved within the Blender file,
+   When enabled, this material will always be saved within the blend-file,
    even if it has no meshes which use it (see Deleting a Material).
 X
    Delete this material (see Deleting a Material).
@@ -164,7 +164,7 @@ you can simply re-use an existing material.
 There are several ways to do this using the Available Materials menu:
 
    *Single Object -* With the object selected, click the sphere located to the left of the Material name.
-   A drop-down list appears showing all the materials available in the current Blender file.
+   A drop-down list appears showing all the materials available in the current blend-file.
    To use one, just click on it.
 
 
@@ -209,5 +209,5 @@ If the "Fake User" button (F) has been lit in the Available Materials list,
 then the material will be retained when the file is saved, even if it has no users.
 
 Only if it has 0 "real" users, and no "Fake" user, will the material be permanently deleted.
-Note that it will still remain in the Materials list until the Blender file is saved,
+Note that it will still remain in the Materials list until the blend-file is saved,
 but will have disappeared when the file is reloaded.

@@ -107,7 +107,7 @@ Load UI
    Default setting is to load the Window layout
    (the :doc:`Screens </interface/editors/screens>`) of the saved file.
    This can be changed individually when loading a file from the
-   *Open Blender File* panel of the :doc:`File Browser </editors/file_browser/index>`.
+   *Open blend-file* panel of the :doc:`File Browser </editors/file_browser/index>`.
 
 
 .. figure:: /images/interface-configuration-file-filefilter-25.jpg

@@ -169,7 +169,7 @@ File filtering
    Filters files by type. The available options are:
 
    - Folders
-   - Blend-files
+   - blend-files
    - Backup blend-files
    - Images
    - Movie files

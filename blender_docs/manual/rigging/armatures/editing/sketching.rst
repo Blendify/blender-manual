@@ -38,7 +38,7 @@ once you have finalized the drawing of a stroke (see `Drawing Chains`_),
 it is immediately converted to bones (using the current active method) and deleted.
 This option makes bone sketching quick and efficient, but you lose all the advanced stroke editing possibilities.
 
-Sketches are **not** saved into Blender files,
+Sketches are **not** saved into blend-files,
 so you cannot interrupt a sketching session without losing all your work!
 Note also that the sketching is common to the whole Blender session, i.e.
 there is only one set of strokes (one sketch) in Blender, and not one per armature, or even per file...
