@@ -4,8 +4,8 @@
 Introduction
 ************
 
-The 3D View is used to interact with the 3D scene for a variety of purposes, such as modeling, animation,
-texture painting, etc.
+The 3D View is used to interact with the 3D scene for a variety of purposes,
+such as modeling, animation, texture painting, etc.
 
 .. TODO expand, more general info
 
@@ -78,7 +78,8 @@ and :doc:`Background Images </editors/3dview/display/background_images>`).
 Header
 ------
 
-Contains various menus, buttons and options based on the current :ref:`mode <object-modes>`, such as:
+Contains various menus, buttons and options based on the current
+:doc:`mode </editors/3dview/object/modes>`, such as:
 
 - :doc:`Shading mode </editors/3dview/display/shading>`
 - :doc:`Pivot options </editors/3dview/transform/transform_control/pivot_point/index>`
