@@ -146,7 +146,7 @@ Loading and Saving Images
 
 In the UV/Image editor, you can assign certain faces certain textures. To do so,
 first you need an image to work with.
-In the *Image Menu* you can open an image file with the *File Browser*.
+In the *Image Menu* you can open an image file with the :doc:`File Browser </editors/file_browser/index>`.
 If you have images in the file already, that you want to use,
 click the *Browse* button in the *Header*,
 or make a new texture by clicking the *New* button.
