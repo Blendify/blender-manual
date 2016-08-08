@@ -1,7 +1,7 @@
 
-******
-Editor
-******
+*********
+Interface
+*********
 
 By default, the node editor is configured for :doc:`Compositing </compositing/index>`.
 
@@ -13,8 +13,8 @@ However, the Node Editor can be configured for many other types of :ref:`work fl
 After choosing what node context you are you using you you can enable node with the *Use Nodes* button.
 
 
-Node Editor Area Actions
-========================
+Node Editor Actions
+===================
 
 When the cursor is in the area, several standard Blender hotkeys and mouse actions are available, including:
 
