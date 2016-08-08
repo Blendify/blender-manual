@@ -17,17 +17,17 @@ Rendered
    An accurate representation using the selected *Render Engine* and lit with the visible scene lights.
 Material
    A fast approximation of the applied material.
-   Some effects, such as procedural textures may not be shown.
 Textured
    Shows meshes with an image applied using the mesh's active UV Map.
-   For Cycles materials, the image is the last one selected in the Node Editor.
-   For other render engine's, the UV Map's applied face texture will be shown.
+   For Cycles materials, the image is the last one selected in the
+   :doc:`Node Editor </editors/node_editor/index>`. For other render engine's,
+   the UV Map's applied face texture will be shown.
 Solid
    The default drawing mode using solid colored surfaces and simple lighting.
 Wireframe
    Objects appear as a mesh of lines representing the edges of faces and surfaces.
 Bounding Box
-   Shows only the rectangular boxes that outlines an object's size and shape.
+   Only shows rectangular boxes that outline an object's size and shape.
 
 Except for *Rendered*, these shading modes are not dependent on light sources in the scene.
 Instead they use a simple default lighting adjusted by the
