@@ -210,7 +210,7 @@ Keymap Editor
    :width: 320px
 
 
-The Keymap editor lets you change the default Hotkeys. You can change keymaps for each of Blenders editors.
+The Keymap editor lets you change the default Hotkeys. You can change keymaps for each of Blender's editors.
 
 - Select the keymap you want to change and click on the white arrows to open up the keymap tree.
 - Select which Input will control the function

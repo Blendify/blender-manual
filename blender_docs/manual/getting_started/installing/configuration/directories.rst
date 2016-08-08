@@ -118,7 +118,7 @@ for example.
    Static precompiled language files for UI translation.
 
 ``./datafiles/icons/*.png``
-   Icon themes for Blenders user interface. (Not currently selectable in the theme preferences).
+   Icon themes for Blender's user interface. (Not currently selectable in the theme preferences).
 
 ``./datafiles/brushicons/*.png``
    Images for each brush.

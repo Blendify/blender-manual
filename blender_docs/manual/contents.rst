@@ -48,7 +48,7 @@ Sections
             :target: interface/index.html
 
          :doc:`/interface/index`
-            An introduction to Blenders window system, widgets and tools.
+            An introduction to Blender's window system, widgets and tools.
 
       .. container:: descr
 
