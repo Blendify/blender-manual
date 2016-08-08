@@ -93,7 +93,7 @@ For an overview of all add-ons available see the
 Scripts
 -------
 
-Apart from add-ons, there are also scripts you can use to extend Blenders functionality:
+Apart from add-ons, there are also scripts you can use to extend Blender's functionality:
 
 - Modules: Utility libraries for import into other scripts.
 - Presets: Settings for Blender's tools and key configurations.

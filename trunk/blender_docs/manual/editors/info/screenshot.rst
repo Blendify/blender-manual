@@ -19,7 +19,7 @@ Screenshots
    Save Screenshot Option.
 
 
-:kbd:`Ctrl-F3` will take a screenshot of your Blender window and then open Blenders :doc:`File Browser </editors/file_browser/index>`,
+:kbd:`Ctrl-F3` will take a screenshot of Blender and then open the :doc:`File Browser </editors/file_browser/index>`,
 allowing you to specify the name and location of the screenshot.
 In the example image at the right, the ``PNG`` format will be the output of the screenshot taken
 (settings are the same as the ones available to save render results).
