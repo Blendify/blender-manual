@@ -256,7 +256,7 @@ Now we will create a height vector for Blender:
   it is placed at the header of the Info editor, (At the top left side), and choose *Save as*.
   Our suggestion is to name it *Screw Spring Example.blend* and click in *Save as Blender file*.
   You can also use the shortcut :kbd:`Shift-Ctrl-S`
-  to open the File Browser editor in order to save your Blender file.
+  to open the File Browser in order to save your Blender file.
 - Click Screw and adjust the Steps and Turns as you like and we have a nice spring,
   but now here comes the interesting part!
 
@@ -372,7 +372,7 @@ will assembly perfectly with each other.
   it is in the header of the Info editor (at the top left side), and choose *Save as*.
   Our suggestion is to name it *Screw Hardware Example.blend* and click in *Save as Blender file*.
   You can also use the shortcut :kbd:`Shift-Ctrl-S` to open the
-  File Browser editor in order to save your Blender file.
+  File Browser in order to save your Blender file.
 - Press shortcut :kbd:`A` twice to de-select and select all vertices again.
 - Now press Screw.
 - Change Steps and Turns as you like. Fig. :ref:`fig-mesh-screw-generated-mesh` - Shows you an example of the results.
