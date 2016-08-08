@@ -186,7 +186,7 @@ Seams and Sharp
    Highlights edges marked as an UV seam for unwrapping and/or sharp edges for the
    :doc:`Edge Split Modifier </modeling/modifiers/generate/edge_split>`
 
-Normals Section:
+.. rubric:: Normals Section
 
 We can choose to show or not the normals of faces and/or vertices using the Face and Vertex tick boxes,
 under the Normals section. In addition, we can define the size of these with Normal Size.
