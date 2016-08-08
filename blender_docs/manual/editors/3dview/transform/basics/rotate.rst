@@ -46,8 +46,8 @@ The amount of rotation will be displayed in the bottom left hand corner of the 3
    Rotation values.
 
 
-Constraining the rotation axis (axis locking)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Axis Locking
+^^^^^^^^^^^^
 
 Rotation can be constrained to a particular axis or axes through the use of
 :doc:`Axis Locking </editors/3dview/transform/transform_control/precision/axis_locking>`.
@@ -63,8 +63,8 @@ moving the mouse in the desired direction e.g.
 - :kbd:`R`, move the mouse along the X axis, :kbd:`MMB`: Rotate only along the *X-Axis*
 
 
-Fine Tuning The Rotation
-^^^^^^^^^^^^^^^^^^^^^^^^
+Precision
+^^^^^^^^^
 
 :doc:`Precise control </editors/3dview/transform/transform_control/precision/introduction>` can be had over rotation
 through :kbd:`Shift` and :kbd:`Ctrl` to limit rotation to discrete amounts.
