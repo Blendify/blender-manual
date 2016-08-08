@@ -16,6 +16,31 @@ Some objects for example are not able to be modeled, these being:
 - Cameras
 - Lamps
 
+
+Modes
+=====
+
+Depending on the type of object you are trying to model there are different types
+of modeling :doc:`mode </editors/3dview/object/modes>`.
+Because modes are not specifec to modeling the are covered in different parts of the manual.
+
+
+Edit Mode
+---------
+
+Edit mode is the main mode that modeling takes place.
+Edit mode is used to edit to fallowing types of objects:
+
+- Meshes
+- Curves
+- Surfaces
+- Metaballs
+- Text objects
+- Lattice
+
+Because each of these are different types of object they have different types of transforms
+and therefore have different set of tool. Because of this each has its own section described below.
+
 :doc:`Mesh Modeling </modeling/meshes/introduction>`
    Typically begins with a :doc:`Mesh Primitive </editors/3dview/object/types/primitives>`
    shape (e.g. circle, cube, cylinder...).
