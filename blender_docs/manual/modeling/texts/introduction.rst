@@ -144,7 +144,7 @@ Some examples are given below:
 .. list-table::
    :widths: 20 80
 
-   * -  |atilde|
+   * - |atilde|
 
      - :kbd:`A`, :kbd:`Alt-Backspace`, :kbd:`~`
 
@@ -341,7 +341,6 @@ Character
 ^^^^^^^^^
 
 .. list-table::
-   :widths: 20 80
 
    * - .. figure:: /images/text-bold-ex.jpg
           :width: 300px
