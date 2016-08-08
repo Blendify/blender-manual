@@ -107,7 +107,7 @@ Load UI
    Default setting is to load the Window layout
    (the :doc:`Screens </interface/editors/screens>`) of the saved file.
    This can be changed individually when loading a file from the
-   *Open Blender File* panel of the *File Browser*.
+   *Open Blender File* panel of the :doc:`File Browser </editors/file_browser/index>`.
 
 
 .. figure:: /images/interface-configuration-file-filefilter-25.jpg
@@ -122,9 +122,9 @@ Filter File Extensions
 Hide Dot File/Data-blocks
    Hide file which start with ``.`` on file browsers (in Linux and Apple systems, ``.`` files are hidden).
 Hide Recent Locations
-   Hides the *Recent* panel of the *File Browser* which displays recently accessed folders.
+   Hides the *Recent* panel of the :doc:`File Browser </editors/file_browser/index>` which displays recently accessed folders.
 Show Thumbnails
-   Displays a thumbnail of images and movies when using the *File Browser*.
+   Displays a thumbnail of images and movies when using the :doc:`File Browser </editors/file_browser/index>`.
 
 
 .. _prefs-auto_save:
@@ -144,7 +144,7 @@ Save Versions
 Recent Files
    Number of files displayed in :menuselection:`File --> Open Recent`.
 Save Preview Images
-   Previews of images and materials in the *File Browser* are created on demand.
+   Previews of images and materials in the :doc:`File Browser </editors/file_browser/index>` are created on demand.
    To save these previews into your blend-file,
    enable this option (at the cost of increasing the size of your blend-file).
 Auto Save Temporary File

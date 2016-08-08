@@ -45,9 +45,9 @@ The following keyboard commands apply:
 - :kbd:`Ctrl-D` - Duplicate the current line.
 - :kbd:`Tab` - Indent the selection.
 - :kbd:`Shift-Tab` - Un-indent the selection.
-- :kbd:`Shift-Ctrl-Alt-S` - Saves unsaved text as a text file, a *File Browser* editor appears.
+- :kbd:`Shift-Ctrl-Alt-S` - Saves unsaved text as a text file, a :doc:`File Browser </editors/file_browser/index>` appears.
 - :kbd:`Alt-S` - Saves an already open file.
-- :kbd:`Alt-O` - Loads a text, a *File Browser* editor appears.
+- :kbd:`Alt-O` - Loads a text, a :doc:`File Browser </editors/file_browser/index>` appears.
 - :kbd:`Alt-P` - Executes the text as a Python script.
 - :kbd:`Ctrl-Z` - Undo.
 - :kbd:`Ctrl-Shift-Z` - Redo.

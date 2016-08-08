@@ -121,7 +121,7 @@ You can insert text in two ways: from the internal text buffer
 (`Editing Text`_), or from a text file.
 
 To load text from a text file, use the :menuselection:`Text --> Paste File` tool.
-This will bring up a *File Browser* editor for navigating to a valid UTF-8 file.
+This will bring up a :doc:`File Browser </editors/file_browser/index>` for navigating to a valid UTF-8 file.
 As usual, be careful that the file doesn't have too many characters,
 as interactive response will slow down.
 
@@ -251,7 +251,7 @@ Select one for each font style.
 
 To load a different *Font*, click one of the *Load* buttons in the
 *Font* panel and navigate to a *valid* font.
-The *File Browser* editor will give all valid fonts a capital F icon,
+The :doc:`File Browser </editors/file_browser/index>` will give all valid fonts a capital F icon,
 as seen in *Loading a Type 1 font file.*
 
 .. note:: Location of fonts on Unix
