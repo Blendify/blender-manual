@@ -44,7 +44,7 @@ The :ref:`temp-dir` sets where to store files such as temporary renders and auto
    used to reference relative paths.
 
 If you trust the source of your blend-files, you can enable *Auto Run Python Scripts*.
-This option is meant to protect you from malicious Python scripts that someone can include inside a Blender file.
+This option is meant to protect you from malicious Python scripts that someone can include inside a blend-file.
 This would not happen by accident,
 and most users leave this option on to automatically run scripts often used in advanced rigs
 (such as "Rigify" that controls the skeleton of a human rig).

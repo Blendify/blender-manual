@@ -44,7 +44,7 @@ there is only one type of action, which can regroup all F-Curve of a given objec
 You will find its usual data-block controls in the *Action Editor* header.
 
 However, there is one specificity with action data-blocks: they have by default a "fake user",
-i.e. once created, they are always kept in Blender file, even if no object uses them.
+i.e. once created, they are always kept in the blend-file, even if no object uses them.
 This is due to the fact that actions are designed to be used in the NLA,
 where you can affect several different actions to a same object! Yes,
 this is the only way to use different actions (and hence,

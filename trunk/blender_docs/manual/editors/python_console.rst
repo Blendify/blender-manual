@@ -91,7 +91,7 @@ Lamp and Camera.
 
 - All objects exist in a context and there can be various modes under which they are operated upon.
 - At any instance, only one object is active and there can be more than one selected objects.
-- All objects are data in the Blender file.
+- All objects are data in the blend-file.
 - There are operators/functions that create and modify these objects.
 
 For all the scenarios listed above (not all were listed, mind you..)
@@ -190,9 +190,9 @@ bpy.data
 --------
 
 ``bpy.data`` has functions and attributes that give you access to all the data in the
-Blender file.
+blend-file.
 
-You can access following data in the current Blender file:
+You can access following data in the current blend-file:
 objects, meshes, materials, textures, scenes, screens, sounds, scripts, ... etc.
 
 That is a lot of data.

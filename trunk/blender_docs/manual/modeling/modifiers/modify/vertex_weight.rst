@@ -298,7 +298,7 @@ let us dynamically control a *Wave* modifier with a modified vertex group.
 
 .. vimeo:: 30187079
 
-`The Blender file <https://wiki.blender.org/index.php/Media:ManModifiersWeightVGroupEx.blend>`__, TEST_1 scene.
+`The blend-file <https://wiki.blender.org/index.php/Media:ManModifiersWeightVGroupEx.blend>`__, TEST_1 scene.
 
 
 Using Distance from a Target Object's Geometry
@@ -378,7 +378,7 @@ with a *Remove Threshold* of 0.1, to see the bottom of your valley disappear.
 
 .. vimeo:: 30188564
 
-`The Blender file <https://wiki.blender.org/index.php/Media:ManModifiersWeightVGroupEx.blend>`__, TEST_2 scene.
+`The blend-file <https://wiki.blender.org/index.php/Media:ManModifiersWeightVGroupEx.blend>`__, TEST_2 scene.
 
 
 Using a Texture and the Mapping Curve
@@ -461,4 +461,4 @@ and above 0.75: this creates great "walls" in the waves...
 
 .. vimeo:: 30188814
 
-`The Blender file <https://wiki.blender.org/index.php/Media:ManModifiersWeightVGroupEx.blend>`__, TEST_4 scene.
+`The blend-file <https://wiki.blender.org/index.php/Media:ManModifiersWeightVGroupEx.blend>`__, TEST_4 scene.

@@ -251,12 +251,12 @@ Now we will create a height vector for Blender:
 - De-select and select everything again with the shortcut :kbd:`A`.
   (See Fig. :ref:`fig-mesh-screw-profile`)
 - Place again your cursor at the center. (Repeat step 2)
-- At this point, we will save this Blender file to recycle the
+- At this point, we will save this blend-file to recycle the
   Spring for another exercise; click with :kbd:`LMB` in *File*,
   it is placed at the header of the Info editor, (At the top left side), and choose *Save as*.
-  Our suggestion is to name it *Screw Spring Example.blend* and click in *Save as Blender file*.
+  Our suggestion is to name it *Screw Spring Example.blend* and click in *Save as blend-file*.
   You can also use the shortcut :kbd:`Shift-Ctrl-S`
-  to open the File Browser in order to save your Blender file.
+  to open the File Browser in order to save your blend-file.
 - Click Screw and adjust the Steps and Turns as you like and we have a nice spring,
   but now here comes the interesting part!
 
@@ -355,7 +355,7 @@ will assembly perfectly with each other.
 - Open Blender and click in *File* located at the header of the Info editor again,
   choose *Open Recent* and the file we saved for this exercise.
   All of the things will be placed exactly the way you saved before.
-  Choose the last saved Blender file; in the last exercise,
+  Choose the last saved blend-file; in the last exercise,
   we gave it the name *Screw Spring Example.blend*.
 - Press the shortcut :kbd:`A` to de-select all vertices.
 - Press the shortcut :kbd:`B`, and Blender will change the cursor; you're now in border selection mode.
@@ -367,12 +367,12 @@ will assembly perfectly with each other.
 - Now, click with the Right Mouse button at the middle vertex.
 - Grab this vertex using the shortcut :kbd:`G X Minus 1` and :kbd:`Return`.
   See Fig. :ref:`fig-mesh-screw-spindle`.
-- At this point, we will save this Blender file to recycle the generated Screw for another exercise;
+- At this point, we will save this blend-file to recycle the generated Screw for another exercise;
   click with :kbd:`LMB` in *File* --
   it is in the header of the Info editor (at the top left side), and choose *Save as*.
-  Our suggestion is to name it *Screw Hardware Example.blend* and click in *Save as Blender file*.
+  Our suggestion is to name it *Screw Hardware Example.blend* and click in *Save as blend-file*.
   You can also use the shortcut :kbd:`Shift-Ctrl-S` to open the
-  File Browser in order to save your Blender file.
+  File Browser in order to save your blend-file.
 - Press shortcut :kbd:`A` twice to de-select and select all vertices again.
 - Now press Screw.
 - Change Steps and Turns as you like. Fig. :ref:`fig-mesh-screw-generated-mesh` - Shows you an example of the results.
@@ -444,7 +444,7 @@ To make this new example as short as possible, we will recycle our last example 
 - Open Blender and click in *File* located in the header of the Info editor again;
   choose *Open Recent* and the file we saved for this exercise.
   All of the things will be placed exactly the way you saved before.
-  Choose the last saved Blender file; in the last exercise, we gave it the name *Screw Hardware Example.blend*.
+  Choose the last saved blend-file; in the last exercise, we gave it the name *Screw Hardware Example.blend*.
 - Grab the upper vertex and move a bit to the left, but no more than you have moved your last vertex.
   (See Fig. :ref:`fig-mesh-screw-start`)
 - Press the shortcut :kbd:`A` twice to de-select and select all.
