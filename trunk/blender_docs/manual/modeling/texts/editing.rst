@@ -1,5 +1,12 @@
 ..    TODO/Review: {{review|partial=X|fixes= rename page?}}.
 
+.. |atilde| unicode:: U+000E3
+.. |aacute| unicode:: U+000E1
+.. |agrave| unicode:: U+000E0
+.. |aring|  unicode:: U+000E5
+.. |euml|   unicode:: U+000EB
+.. |oslash| unicode:: U+000F8
+
 ************
 Text Editing
 ************
