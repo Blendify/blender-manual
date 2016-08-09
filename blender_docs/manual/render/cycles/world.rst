@@ -28,8 +28,8 @@ Image Based Lighting
 
 For image based lighting,
 use the Environment Texture node rather than the Image Texture node for correct mapping.
-This supports Equirectangular (also known as Lat/Long) for environment maps,
-and Mirror Ball mapping for converting photos of mirror balls to environment maps.
+This supports *Equirectangular* (also known as Lat/Long) for environment maps,
+and *Mirror Ball* mapping for converting photos of mirror balls to environment maps.
 
 
 Volume Shader
@@ -72,6 +72,8 @@ a half-transparent surface will only half occlude.
 An alternative method of using Ambient Occlusion on a per-shader basis is to use the
 :doc:`Ambient Occlusion </render/cycles/nodes/types/shaders/ao>` shader.
 
+
+.. _render-cycles-integrator-world_settings:
 
 Sampling
 ========
@@ -136,7 +138,5 @@ Similarly, adding the *Is Camera* and *Is Glossy* rays will mean that the high-r
 will also be visible in reflections.
 
 .. figure:: /images/cycles-env-trick-nodes.jpg
-   :width: 500px
 
    Nodes for the trick above.
-
