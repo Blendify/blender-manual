@@ -4,6 +4,7 @@ World
 *****
 
 .. figure:: /images/cycles-environment-lighting.jpg
+   :align: right
 
    Lighting with an HDR image.
 
@@ -88,7 +89,6 @@ Map Resolution
 Below is a comparison between Multiple Importance Sample Off and On - both images rendered for
 25 seconds (Off: 1500 samples, On: 1000 samples)
 
-
 .. list-table::
 
    * - .. figure:: /images/cycles-mis-off.jpg
@@ -115,6 +115,7 @@ setting up area lamps as :doc:`light portals </render/cycles/lamps>`.
 
           With Light Portals.
 
+
 Ray Visibility
 ==============
 
@@ -133,7 +134,6 @@ background and a low-res image for the actual lighting.
 
 Similarly, adding the *Is Camera* and *Is Glossy* rays will mean that the high-res image
 will also be visible in reflections.
-
 
 .. figure:: /images/cycles-env-trick-nodes.jpg
    :width: 500px
