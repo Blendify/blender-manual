@@ -15,14 +15,60 @@ both indirect light sampling (letting the ray follow the surface BSDF)
 and direct light sampling (picking a light source and tracing a ray towards it) are used.
 
 
-Scene Settings
-==============
-
 Sampling
---------
+========
 
-There are two integrator modes that can be used: path tracing and branched path tracing.
-The *path tracing integrator* is a pure path tracer;
+Sample Method
+   There are two integrator modes that can be used: *Path Tracing* and *Branched Path Tracing*.
+
+Square Samples
+   Square the amount samples.
+
+Seed
+   Seed value for integrator to get different noise patterns.
+
+   Animate Seed
+      This button which can be found on the right side of the *Seed*
+      value can be used to give different seed values.It is a good idea to enable this
+      when making animation because in the real world each frame has a different noise pattern.
+
+.. _render-cycles-integrator-clamp_samples:
+
+Clamp Direct
+   This option limits the maximum intensity a sample from rays which have not yet bounced can contribute to a pixel.
+   Setting this option to 0.0 disables clamping altogether.
+   Lower have a greater affect (dimmer samples) on the resulting image than higher values.
+
+   .. note::
+
+      A common issue encountered with *Path Tracing* is the occurrence of "fireflies":
+      improbable samples that contribute very high values to pixels.
+      This option provides a way to limit that. However, note that as you clamp out such values,
+      other bright lights/reflections will be dimmed as well.
+   
+      Care must be taken when using this setting to find a balance between mitigating fireflies and losing
+      intentionally bright parts. It's often useful to clamp indirect bounces separately,
+      as they tend to cause more fireflies than direct bounces. See the *Clamp Indirect* setting.
+
+Clamp Indirect
+   The same as *Clamp Direct*, but for rays which have bounced multiple times.
+
+
+Pattern
+   Random sampling pattern used by the integrator.
+
+   Sobol
+      Uses a Sobol pattern to decide the random sapling pattern used by the integrator.
+      See `Sobol sequence <https://en.wikipedia.org/wiki/Sobol_sequence>`__ on Wikipedia for more information.
+   Correlated Multi-Jitter
+      Uses a Correlated Multi-Jitter pattern to decide the random sapling pattern used by the integrator.
+      See `this Pixar paper <http://graphics.pixar.com/library/MultiJitteredSampling/paper.pdf>`__ or more information.
+
+
+Path Tracing
+------------
+
+The *Path Tracing* integrator is a pure path tracer;
 at each hit it will bounce light in one direction and pick one light to receive lighting from.
 This makes each individual sample faster to compute,
 but will typically require more samples to clean up the noise.
@@ -33,7 +79,11 @@ Render Samples
 Preview Samples
    Number of samples for viewport rendering.
 
-The *branched path tracing integrator* is similar,
+
+Branched Path Tracing
+---------------------
+
+The *Branched Path Tracing* integrator is similar,
 but at the first hit it will split the path for different surface components and
 will take all lights into account for shading instead of just one.
 This makes each sample slower, but will reduce noise,
@@ -62,16 +112,11 @@ Subsurface Samples
 Volume Samples
    Number of volume scattering samples to take for each AA sample.
 
-For both integrators the noise pattern can be controlled.
-
-Seed
-   Random number generator seed; each different value gives a different noise pattern.
-
 
 .. _cycles-bounces:
 
 Bounces
--------
+=======
 
 Max Bounces
    Maximum number of light bounces. For best quality, this should be set to the maximum. However, in practice,
@@ -94,7 +139,7 @@ Volume Bounces
 
 
 Transparency
-------------
+============
 
 Transparency Max
    Maximum number of transparency bounces.
@@ -106,7 +151,7 @@ Transparent Shadows
 
 
 Tricks
-------
+======
 
 .. _render-cycles-integrator-no_caustics:
 
@@ -135,28 +180,6 @@ Filter Glossy
    but if we increase the roughness on the material, the highlight gets bigger and softer, and so easier to find.
    Often this blurring will hardly be noticeable, because we are seeing it through a blurry material anyway,
    but there are also cases where this will lead to a loss of detail in lighting.
-
-.. _render-cycles-integrator-clamp_samples:
-
-Clamp Direct
-   This option limits the maximum intensity a sample from rays which have not yet bounced can contribute to a pixel.
-   Setting this option to 0.0 disables clamping altogether.
-   Lower have a greater affect (dimmer samples) on the resulting image than higher values.
-
-   .. note::
-
-      A common issue encountered with path-tracing is the occurrence of "fireflies":
-      improbable samples that contribute very high values to pixels.
-      This option provides a way to limit that. However, note that as you clamp out such values,
-      other bright lights/reflections will be dimmed as well.
-   
-      Care must be taken when using this setting to find a balance between mitigating fireflies and losing
-      intentionally bright parts. It's often useful to clamp indirect bounces separately,
-      as they tend to cause more fireflies than direct bounces. See the *Clamp Indirect* setting.
-
-Clamp Indirect
-   The same as *Clamp Direct*, but for rays which have bounced multiple times.
-
 
 .. seealso::
 
