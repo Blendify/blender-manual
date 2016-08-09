@@ -93,7 +93,7 @@ Volume World
 
 A volume shader can also be applied to the entirely world, filling the entire space.
 
-Currently this is most useful for night time or other dark scenes,
+Currently, this is most useful for night time or other dark scenes,
 as the world surface shader or sun lamps will have no effect if a volume shader is used.
 This is because the world background is assumed to be infinitely far away,
 which is accurate enough for the sun for example.
@@ -102,6 +102,7 @@ it is not a good assumption that the volume fills the entire space,
 as most of the distance between the sun and the earth is empty space.
 For such effects it is be better to create a volume object surrounding the scene.
 The size of this object will determine how much light is scattered or absorbed.
+
 
 Smoke
 =====
