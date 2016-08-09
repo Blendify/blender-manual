@@ -33,13 +33,14 @@ Space
    Absolute
       Size of an image by using absolute pixel values.
    Scene Size
-      TODO
+      TODO.
    Render Size
       Image dimensions set in the Render panel.
 
       Stretch, Fit, Crop
-
+         TODO.
       X, Y
+         TODO.
 
 
 Outputs
