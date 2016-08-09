@@ -75,8 +75,8 @@ An alternative method of using Ambient Occlusion on a per-shader basis is to use
 
 .. _render-cycles-integrator-world_settings:
 
-Sampling
-========
+World Settings
+==============
 
 Multiple Importance Sample
    Enabling this will sample the background texture such that lighter parts are favored,
@@ -101,21 +101,9 @@ Below is a comparison between Multiple Importance Sample Off and On - both image
 
           Multiple Importance Sample On.
 
+.. seealso::
 
-For interior scenes, noise can be significantly reduce by
-setting up area lamps as :doc:`light portals </render/cycles/lamps>`.
-
-.. list-table::
-
-   * - .. figure:: /images/cycles_light_portals_off.jpg
-          :width: 300px
-
-          Without Light Portals.
-
-     - .. figure:: /images/cycles_light_portals_on.jpg
-          :width: 300px
-
-          With Light Portals.
+   See :doc:`Reducing Noise </render/cycles/reducing_noise>` for more information on how to reduce noise.
 
 
 Ray Visibility
