@@ -18,7 +18,6 @@ and direct light sampling (picking a light source and tracing a ray towards it) 
 Scene Settings
 ==============
 
-
 Sampling
 --------
 
@@ -196,39 +195,6 @@ Map Resolution
    determine which parts of the background are light and so should receive more samples than darker parts.
    Higher resolutions will result in more accurate sampling but take more setup time and memory.
 
-
-Lamp Settings
-=============
-
-Multiple Importance Sample
-   By default lamps use only direct light sampling. For area lights and sharp glossy reflections, however,
-   this can be noisy,
-   and enabling this option will enable indirect light sampling to be used in addition to reduce noise.
-
-Samples
-   For the branch path tracing integrator, this specifies the number of direct light samples per AA sample.
-   Point lamps might need only one sample, while area lamps typically need more.
-
-Max Bounces
-   The maximum amount of bounces this light will contribute to the scene.
-
-Portal
-   Only available for Area lamps. This setting enables area lamps to function as a light portal,
-   helping to sample the environment lamp and therefore improving convergence.
-   Note that this will make the area lamp itself invisible.
-
-In outdoor scenes most rays don't bounce much and just fly off into the sky.
-
-In indoor scenes almost all the rays will end up reflecting around up to the maximum number of bounces.
-Not only does this often mean more noise, but also slower rendering (more ray intersection calculations etc.)
-
-Light portals will guide the rays to the environment light so you can get
-less noise with fewer samples and a shorter render time than if you didn't use portals.
-
-Every portal adds a render time penalty so use as few as possible.
-
-.. figure:: /images/Cycles_portals2.jpg
-.. figure:: /images/Cycles_portals.jpg
 
 Volume Render Settings
 ======================
