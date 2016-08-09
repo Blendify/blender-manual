@@ -145,7 +145,7 @@ Clamp Direct
 
    .. note::
 
-      A common issue encountered with path-tracing is the occurrence of *"fireflies"*:
+      A common issue encountered with path-tracing is the occurrence of "fireflies":
       improbable samples that contribute very high values to pixels.
       This option provides a way to limit that. However, note that as you clamp out such values,
       other bright lights/reflections will be dimmed as well.
@@ -158,13 +158,17 @@ Clamp Indirect
    The same as *Clamp Direct*, but for rays which have bounced multiple times.
 
 
-See :ref:`Reducing Noise <render-cycles-reducing_noise-clamp_samples>` for examples of the clamp settings in use.
+.. seealso::
+
+   See :ref:`Reducing Noise <render-cycles-reducing_noise-clamp_samples>`
+   for examples of the clamp settings in use.
 
 
-Volume Render Settings
-======================
+Geometry 
+========
 
-The scene has these settings:
+Volume Sampling
+---------------
 
 Step Size
    Distance between volume shader samples when rendering the volume.
@@ -172,3 +176,15 @@ Step Size
 Max Steps
    Maximum number of steps through the volume before giving up,
    to protect from extremely long render times with big objects or small step sizes.
+
+
+Subdivision Rate
+----------------
+
+Render
+   TODO.
+Preview
+   TODO.
+
+Max Subdivisions
+   TODO.
