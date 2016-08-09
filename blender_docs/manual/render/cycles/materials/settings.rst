@@ -17,7 +17,7 @@ Multiple Importance Sample
    it will be automatically disabled otherwise.
 
 Transparent Shadows
-   Use transparent shadows if it contains a :doc:`Transparent BSDF </>`,
+   Use transparent shadows if it contains a :doc:`Transparent BSDF </render/cycles/nodes/types/shaders/transparent>`,
    disabling will render faster but will not give accurate shadows.
 
 
@@ -25,7 +25,7 @@ Volume
 ======
 
 Sampling Method
-   Options are "Multiple Importance", "Distance" or "Equiangular".
+   Options are *Multiple Importance*, *Distance*, or *Equiangular*.
    If you've got a pretty dense volume that is lit from far away then distance sampling is usually more efficient.
    If you've got a light inside or near the volume then equiangular sampling is better.
    If you have a combination of both, then the multiple importance sampling will be better.

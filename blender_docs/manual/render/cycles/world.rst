@@ -78,32 +78,56 @@ An alternative method of using Ambient Occlusion on a per-shader basis is to use
 World Settings
 ==============
 
+Surface
+-------
+
 Multiple Importance Sample
    Enabling this will sample the background texture such that lighter parts are favored,
-   producing less noise in the render.
-   It is almost always a good idea to enable this when using an image texture to light the scene,
-   otherwise noise can take a very long time to converge.
+   producing less noise in the render. It is almost always a good idea to enable this when
+   using an image texture to light the scene, otherwise noise can take a very long time to converge.
+
+   Below is a comparison between *Multiple Importance Sample* off and on - both images rendered for
+   25 seconds (Off: 1500 samples, On: 1000 samples)
+
+   .. list-table::
+
+      * - .. figure:: /images/cycles-mis-off.jpg
+
+             Multiple Importance Sample Off.
+
+        - .. figure:: /images/cycles-mis-on.jpg
+
+             Multiple Importance Sample On.
+
 Map Resolution
    Sets the resolution of the 'Multiple Importance Sample' map.
    Higher values may produce less noise when using high-res images,
    but will take up more memory and render slightly slower.
 
-Below is a comparison between Multiple Importance Sample Off and On - both images rendered for
-25 seconds (Off: 1500 samples, On: 1000 samples)
-
-.. list-table::
-
-   * - .. figure:: /images/cycles-mis-off.jpg
-
-          Multiple Importance Sample Off.
-
-     - .. figure:: /images/cycles-mis-on.jpg
-
-          Multiple Importance Sample On.
+Max Bounces
+   TODO.
 
 .. seealso::
 
    See :doc:`Reducing Noise </render/cycles/reducing_noise>` for more information on how to reduce noise.
+
+
+Volume
+------
+
+Sampling Method
+   Options are *Multiple Importance*, *Distance*, or *Equiangular*.
+   If you've got a pretty dense volume that is lit from far away then distance sampling is usually more efficient.
+   If you've got a light inside or near the volume then equiangular sampling is better.
+   If you have a combination of both, then the multiple importance sampling will be better.
+
+Interpolation
+   TODO.
+
+Homogeneous Volume
+   Assume volume has the same density everywhere (not using any textures), for faster rendering.
+   For example absorption in a glass object would typically not have any textures,
+   and by knowing this we can avoid taking small steps to sample the volume shader.
 
 
 Ray Visibility
