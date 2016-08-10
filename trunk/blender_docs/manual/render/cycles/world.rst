@@ -24,7 +24,7 @@ strength factor for the intensity of the light.
 
 
 Image Based Lighting
-^^^^^^^^^^^^^^^^^^^^
+--------------------
 
 For image based lighting,
 use the Environment Texture node rather than the Image Texture node for correct mapping.
