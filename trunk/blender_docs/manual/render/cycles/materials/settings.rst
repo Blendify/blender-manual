@@ -39,10 +39,30 @@ Homogeneous Volume
    and by knowing this we can avoid taking small steps to sample the volume shader.
 
 
+.. _cycles-materials-settings-displace:
+
 Displacement
 ============
 
-TODO.
+.. note::
+
+   These Options are only available if :ref:`Experimental Feature Set <cycles-experimental-features>` is turned on.
+
+
+Displacement Method
+   Method used preform :doc:`Displacement </render/cycles/materials/displacement>` on materials.
+
+   True Displacement
+      Mesh vertices will be displaced before rendering, modifying the actual mesh.
+      This gives the best quality results, if the mesh is finely subdivided.
+      As a result, this method is also the most memory intensive.
+   Bump Mapping
+      When executing the surface shader, a modified surface normal is used instead of the true normal.
+      This is a quick alternative to true displacement, but only an approximation.
+      Surface silhouettes will not be accurate and there will be no self-shadowing of the displacement.
+   Displacement + Bump
+      Both methods can be combined, to do displacement on a coarser mesh,
+      and use bump mapping for the final detail.
 
 
 Viewport Settings
