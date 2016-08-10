@@ -32,7 +32,6 @@ The three buttons *Material*, *World*,
 *Brush* at the top of the texture panel indicate the texture data type, that is,
 the kind of texture that is being edited.
 
-
 .. figure:: /images/texture-lamp-panel.jpg
    :width: 300px
 

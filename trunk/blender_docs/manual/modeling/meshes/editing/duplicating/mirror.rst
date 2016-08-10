@@ -42,7 +42,6 @@ if the Transform Orientation is set to *Normal*, pressing:
 :kbd:`Ctrl-M`, followed by :kbd:`X` and then :kbd:`X` again
 will mirror the selection along the X-axis of the *Normal Orientation.*
 
-
 .. figure:: /images/editors_3dview_transformations_advanced_mirror_interactive-mirror.jpg
 
    Interactive mirror.

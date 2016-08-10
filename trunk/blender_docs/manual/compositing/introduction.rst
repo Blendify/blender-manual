@@ -16,7 +16,6 @@ you use composition nodes to both assemble video clips together and enhance them
    a numbered sequence of images, or a frame of a movie clip.
    The Compositor processes one image at a time, no matter what kind of input you provide.
 
-
 .. figure:: /images/editors_node_example.png
 
    An example of Composition.

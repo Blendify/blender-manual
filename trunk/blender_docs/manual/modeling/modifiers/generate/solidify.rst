@@ -22,7 +22,6 @@ Offset
 Clamp
    A value between (0 to 2) to clamp offsets to avoid self intersection.
 
-
    .. figure:: /images/modifier-solidify-clamp.jpg
 
       Clamp Offset.
@@ -43,7 +42,6 @@ Vertex Group
 
 Crease
    These options are intended for usage with the :doc:`Subdivision Modifier </modeling/modifiers/generate/subsurf>`.
-
 
    .. figure:: /images/modifier-solidify-rims.jpg
       :width: 350px

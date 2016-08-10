@@ -40,7 +40,6 @@ Examples
 .. figure:: /images/cycles_nodes_shader_translucent_behavior.png
    :align: center
 
-
 .. figure:: /images/cycles_nodes_shader_translucent_example.jpg
    :align: center
 

@@ -5,7 +5,6 @@ Editing
 
 These preferences control how several tools will interact with your input.
 
-
 .. figure:: /images/user_prefs-editing_tab.png
    :width: 640px
 
@@ -26,7 +25,6 @@ the Object data-block contains information about the Object's location while the
 
 
 A material may be linked in two different ways:
-
 
 .. figure:: /images/structure-object-material-connection.jpg
 

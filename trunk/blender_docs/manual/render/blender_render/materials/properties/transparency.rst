@@ -18,7 +18,6 @@ and the RGB values for the surface contribute nothing to the pixel's appearance;
 the surface is fully opaque,
 and the color of the surface determines the final color of the pixel.
 
-
 .. figure:: /images/materials_properties_transparency.jpg
 
    Transparency Panel.

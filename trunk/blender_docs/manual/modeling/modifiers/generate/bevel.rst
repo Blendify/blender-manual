@@ -37,7 +37,6 @@ Options
 Width
    The size of the bevel affect. See *Width Method* below.
 
-
    .. figure:: /images/bevel_modifier-3_beveled_cubes.jpg
       :width: 610px
 
@@ -53,7 +52,6 @@ Material
    When set to -1, the material of the nearest original face will be used.
 Only Vertices
    When enabled, only the areas near vertices are beveled; the edges are left unbeveled.
-
 
    .. figure:: /images/3_beveled_cubes_vertices_only.jpg
       :width: 610px

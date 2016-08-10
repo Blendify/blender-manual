@@ -80,7 +80,6 @@ Min Thickness and Max Thickness
    minimum is used when the stroke's direction is perpendicular to the main *Orientation*, and maximum,
    when aligned with it).
 
-
 .. figure:: /images/toycar_calligraphy.jpg
    :width: 400px
 

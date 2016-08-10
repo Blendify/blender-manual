@@ -30,7 +30,6 @@ Vertex Group
    Invert
       Inverts the vertex group weights.
 
-
 .. figure:: /images/modifier_wireframe_result.jpg
    :width: 350px
 
@@ -64,16 +63,13 @@ Examples
 When you got more Faces that meet at one point they are forming a star like pattern like seen
 in the examples below.
 
-
 .. figure:: /images/cubewireframes.jpg
 
    Original / Wireframe / Original+Wireframe.
 
-
 .. figure:: /images/modifier_wireframe_example.jpg
 
    VGroup weighting: One half 0 weighted, one half 1 weighted.
-
 
 .. figure:: /images/modifier_wireframe_crease-weight.jpg
 

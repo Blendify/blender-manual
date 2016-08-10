@@ -39,7 +39,6 @@ the left image is re-used for both the sphere and a portion of the monkey.
 The monkey uses two layouts, one which has one UV map of a few faces,
 and another that has three maps.
 
-
 .. figure:: /images/uv-overview.jpg
 
    How all the parts of UV Texturing work together.
@@ -250,7 +249,6 @@ The vertex colors are used to modulate the brightness or color of the UV image t
 - Procedural textures are laid on top of that,
 - Area lights shine on the surface, casting shadows and what not, and finally
 - Ambient light lights it up.
-
 
 .. figure:: /images/uv04.jpg
    :width: 550px
@@ -487,7 +485,6 @@ Fields
    Lower First
       Order of video fields - lower field first.
 
-
 .. figure:: /images/texture-image-panel-generated.jpg
    :width: 306px
 
@@ -574,7 +571,6 @@ Alpha
 
 Flip X/Y Axis
    Rotates the image 90 degrees counterclockwise when rendered.
-
 
 .. figure:: /images/texture-imagesampling-panel.jpg
    :width: 306px

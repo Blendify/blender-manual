@@ -15,7 +15,6 @@ Each edge is rendered as a single-pixel image of the edges which make up the mes
 alpha and other relevant properties of the lines are selected with the same control panels as
 provided by the Surface rendered image.
 
-
 .. figure:: /images/materials_demo_wire.jpg
    :width: 320px
 

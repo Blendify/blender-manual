@@ -59,7 +59,6 @@ Examples
 
 Below are samples of common mix modes and uses, mixing a color or checker with a mask.
 
-
 .. figure:: /images/compositing-mix-examples.jpg
 
 Some explanation of the mixing methods above might help you use the Mix node effectively:
@@ -98,7 +97,6 @@ Here is a small map showing the effects of two other common uses for the RGB Cur
 *Darken* and *Contrast Enhancement*.
 You can see the effect each curve has independently,
 and the combined effect when they are *mixed* equally.
-
 
 .. figure:: /images/compositing-rgb_map.jpg
 
@@ -145,7 +143,6 @@ image subliminal. In this case, it reduces the mark to one-tenth of its original
 The Add node adds the corresponding pixels,
 make the ones containing the mark ever-so-slightly brighter.
 
-
 .. figure:: /images/compositing-mix-watermark-encode.jpg
 
    Embedding your mark in an Image using a Mark and Specific Position.
@@ -170,7 +167,6 @@ use the node map below to compare it to your stock image (pre-watermarked origin
 In this map, the Mix node is set to Difference,
 and the Map Value node amplifies any difference. The result is routed to a viewer,
 and you can see how the original mark stands out, clear as a bell:
-
 
 .. figure:: /images/compositing-mix-watermark-decode.jpg
 

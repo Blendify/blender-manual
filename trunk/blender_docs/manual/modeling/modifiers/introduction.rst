@@ -11,7 +11,6 @@ They work by changing how an object is displayed and rendered, but not the geome
 You can add several modifiers to a single object to form `The Modifier Stack`_ 
 and *Apply* a modifier if you wish to make its changes permanent.
 
-
 .. figure:: /images/modifiers_menu.png
 
    Modifiers Menu.

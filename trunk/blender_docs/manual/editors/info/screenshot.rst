@@ -13,7 +13,6 @@ Screenshots
    | Menu:     :menuselection:`Window --> Save Screenshot`
    | Hotkey:   :kbd:`Ctrl-F3`
 
-
 .. figure:: /images/basics-screenshot-small-save-full-screen.jpg
 
    Save Screenshot Option.
@@ -84,7 +83,6 @@ and it will show you a button for stopping your capture.
    If you press :kbd:`Esc`, the shortcut will only work for operations
    performed in the Blender *User Interface*, (it will stop animations, playbacks and so on...),
    but will not work to stop *Screencasts*.
-
 
 .. figure:: /images/basics-screencast-frame-range-sufix.jpg
 

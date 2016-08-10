@@ -102,7 +102,6 @@ Lamps: Buffered Shadows
 
    Buffer Shadow enabled for a Spot lamp.
 
-
 .. figure:: /images/lighting-shadow-mat_buf_shad.jpg
    :width: 310px
 

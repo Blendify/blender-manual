@@ -15,7 +15,6 @@ Selections and the Active Object
 
 Blender distinguishes between two different states of selection:
 
-
 .. figure:: /images/editors_3dview_selecting_color.png
 
    Unselected object in black, selected object in orange, and active object in yellow.
@@ -297,7 +296,6 @@ Select All by Layer
    | Mode:     Object Mode
    | Menu:     :menuselection:`Select --> Select All by Layer`
    | Hotkey:   None
-
 
 .. figure:: /images/editors_3dview_select_allbylayer.png
    :align: right

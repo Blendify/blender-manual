@@ -86,7 +86,6 @@ Contour
 External Contour
    Draws the contour lines, but only on the outer edges.
 
-
 .. figure:: /images/render-freestyle-contourvsexternalcontour.jpg
    :width: 600px
 

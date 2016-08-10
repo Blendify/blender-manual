@@ -14,12 +14,10 @@ and performing operations upon them
 
 Special Options:
 
-
 .. figure:: /images/bge_actuator_state.jpg
    :width: 271px
 
    State actuator.
-
 
 .. figure:: /images/bge_actuator_state_options.jpg
    :width: 271px

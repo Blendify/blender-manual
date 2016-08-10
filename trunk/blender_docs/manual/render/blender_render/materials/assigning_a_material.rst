@@ -99,7 +99,6 @@ X
 Data
    Specifies whether the material is to be linked to the Object or to the Object Data.
 
-
 .. figure:: /images/material-matmenu-linkobjdata.jpg
 
    Link material to object or to object's data.
@@ -167,11 +166,9 @@ There are several ways to do this using the Available Materials menu:
    A drop-down list appears showing all the materials available in the current blend-file.
    To use one, just click on it.
 
-
 .. figure:: /images/material-matmenu-addfirst-select_exist_button.jpg
 
    Select an existing material.
-
 
 .. figure:: /images/material-matmenu-searchlist.jpg
 

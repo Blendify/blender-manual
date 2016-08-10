@@ -34,7 +34,6 @@ In order to deal with this unrealistic uniformity,
 Blender allows the user to apply *textures* which can modify the reflectivity, specularity,
 roughness and other surface qualities of a material.
 
-
 .. figure:: /images/texture-layers.jpg
    :width: 320px
 
@@ -54,7 +53,6 @@ The layers, if you will, are:
 - A *second cloud texture* that makes the surface transparent
   in a misty/foggy sort of way by affecting the Alpha value.
 - These two textures are *mixed* with the base material to provide the net effect: a cube of purplish-brown fog.
-
 
 .. figure:: /images/somemetal.jpg
    :width: 320px
@@ -149,7 +147,6 @@ Brush Textures
 
 Image textures can be loaded into Blender. These images can then be applied to a mesh model
 that has been unwrapped and assigned an image of user defined size.
-
 
 .. figure:: /images/materials-textures-painting-brush-options.jpg
    :width: 320px

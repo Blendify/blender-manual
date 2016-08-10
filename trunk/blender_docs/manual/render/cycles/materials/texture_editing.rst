@@ -28,7 +28,6 @@ Rendered
    interactively refining the full rendered image by taking more samples.
    Unlike offline rendering, objects still use the viewport rather than render resolution and visibility.
 
-
 .. figure:: /images/cycles_texture_draw_modes.jpg
    :width: 600px
 

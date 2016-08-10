@@ -124,7 +124,6 @@ This method uses `differential coordinates
 corresponding to the difference between a vector and the weighted average
 of its neighbors to represent the local geometric detail of the mesh.
 
-
 .. figure:: /images/apinzonf_diagram_differential_coordinate.jpg
    :width: 369px
 

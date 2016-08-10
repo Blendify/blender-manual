@@ -8,7 +8,6 @@ The result of the expression is TRUE, and
 The object is in the designated State.
 For all other conditions the controller gives a negative (FALSE) output.
 
-
 .. figure:: /images/bge_controller_expression.jpg
    :width: 292px
 

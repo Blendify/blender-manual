@@ -10,7 +10,6 @@ For all other conditions the controller gives a negative (FALSE) output.
 
 Options:
 
-
 .. figure:: /images/bge_controller_xnor.jpg
    :width: 292px
 

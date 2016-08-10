@@ -9,7 +9,6 @@ See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>`
 
 Special Options:
 
-
 .. figure:: /images/bge_actuator_edit_object.jpg
    :width: 271px
 
@@ -24,7 +23,6 @@ Edit Object
    *Replace Mesh*
    *End Object*
    *Add Object*
-
 
 .. figure:: /images/bge_actuator_edit_object_dynamics.jpg
    :width: 271px
@@ -46,7 +44,6 @@ Dynamics
    Restore Dynamics
       Resumes the object dynamics (object velocity).
 
-
 .. figure:: /images/bge_actuator_edit_object_track_to.jpg
    :width: 271px
 
@@ -63,7 +60,6 @@ Track To
       No. of frames it will take to turn towards the target object (Range 0-2000).
    3D Button (toggle).
       Enable 2D (X,Y) or 3D (X,Y,Z) tracking.
-
 
 .. figure:: /images/bge_actuator_edit_object_replace_mesh.jpg
    :width: 271px
@@ -82,7 +78,6 @@ Replace Mesh
    Phys Button
       replace physics mesh (not compound shapes)
 
-
 .. figure:: /images/bge_actuator_edit_object_end_object.jpg
    :width: 271px
 
@@ -93,7 +88,6 @@ End Object
 ==========
 
 Destroy the current object (Note, debug properties will display error Zombie Object in console)
-
 
 .. figure:: /images/bge_actuator_edit_object_add_object.jpg
    :width: 271px

@@ -15,7 +15,6 @@ See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for
 
 Special Options:
 
-
 .. figure:: /images/property_evaluation_types.jpg
    :width: 300px
 

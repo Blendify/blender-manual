@@ -68,7 +68,6 @@ The scale beneath the cube helps in appreciating the movement of 1 Blender unit.
 
           Frame 2 of the moving cube without Motion Blur.
 
-
 .. figure:: /images/render-mblur04.jpg
    :width: 320px
 

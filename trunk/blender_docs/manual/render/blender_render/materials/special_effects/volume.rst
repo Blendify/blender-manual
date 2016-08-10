@@ -71,7 +71,6 @@ Light gets scattered off tiny particles in the volume,
 and some proportion of that light reaches the camera. This property makes it possible to see
 light beams as they travel though a volume and are scattered towards the eye.
 
-
 .. figure:: /images/materials-volumerender-options-shading.jpg
 
    Shading options.
@@ -443,7 +442,6 @@ Smoke Simulator with fire texture
 You can also turn your smoke into fire with another texture! To make fire,
 turn up the Emission Value in the Materials panel.
 
-
 .. figure:: /images/bi_material-fire.jpg
    :width: 300px
 
@@ -454,12 +452,10 @@ Then, add another texture (Keep the old texture or the smoke won't show).
 Give it a fiery color ramp- which colors based on the alpha,
 and change the influence to emission and emission color. Change the blend to Multiply.
 
-
 .. figure:: /images/render_bi_fire_setteings.jpg
    :width: 300px
 
    The fire texture settings.
-
 
 .. figure:: /images/render3.jpg
    :width: 640px

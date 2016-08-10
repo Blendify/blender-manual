@@ -6,7 +6,6 @@
 ColorRamp Node
 **************
 
-
 .. figure:: /images/compositing_nodes_colorramp.png
    :align: right
 
@@ -49,7 +48,6 @@ or a mask that is overlaid on top of another image, and, like a mask,
 allows some of the background to show through.
 The example map below shows how to use the Color Ramp node to do this:
 
-
 .. figure:: /images/compositing-colorramp_alpha.jpg
 
    Using the ColorRamp node to create an alpha mask.
@@ -78,7 +76,6 @@ Using ColorRamp to Colorize an Image
 
 The real power of ColorRamp is that multiple colors can be added to the color spectrum.
 This example compositing map takes a boring BW image and makes it a flaming swirl!
-
 
 .. figure:: /images/compositing-colorramp_colorize.jpg
 

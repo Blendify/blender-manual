@@ -31,7 +31,6 @@ images and animations are built off-line - once rendered they cannot be modified
 Conversely, the Blender Game Engine renders scenes continuously in real-time,
 and incorporates facilities for user interaction during the rendering process.
 
-
 .. figure:: /images/bge_introduction_screenshot.jpg
    :width: 512px
 

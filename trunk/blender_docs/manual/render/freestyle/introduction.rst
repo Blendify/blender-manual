@@ -18,14 +18,12 @@ thickness-with-depth are already pre-scripted in Python. The Parameter Editor mo
 features such as dotted lines and easy setup of multiple line types and edge definitions. On top of all of that,
 with the introduction of line style modifiers, the sky is the limit!
 
-
 .. figure:: /images/render-freestyle-demo-ohacartoon.jpg
    :width: 600px
 
    A cartoon scene from `OHA Studio <http://oha-studios.com/>`__
    (`the blend-file <https://download.blender.org/demo/test/freestyle_demo_file.blend.zip>`__).
    © Mechanimotion Entertainment.
-
 
 .. figure:: /images/render-freestyle-demo-blueprint.jpg
    :width: 600px
@@ -34,12 +32,10 @@ with the introduction of line style modifiers, the sky is the limit!
    heavy file! designed for stress test Blender to the limits and may crash Blender.
    (`File:M-130Blueprint.zip <https://wiki.blender.org/index.php/File:M-130Blueprint.zip>`__)
 
-
 .. figure:: /images/render-freestyle-demo-hvacpreviz.jpg
    :width: 600px
 
    HVAC Pre-Viz by Lee Posey. CC0 (`File:HVACPreViz.zip <https://wiki.blender.org/index.php/File:HVACPreViz.zip>`__).
-
 
 .. figure:: /images/render-freestyle-demo-kitchenset.jpg
    :width: 600px
@@ -65,7 +61,6 @@ The Big Picture
 - Each line set uses one line style (which can be shared between multiple line sets).
 - A line style tells Freestyle how to render the linked line sets in terms of color, alpha,
   thickness and other aspects.
-
 
 .. figure:: /images/freestyle_diagram.jpg
    :width: 400px

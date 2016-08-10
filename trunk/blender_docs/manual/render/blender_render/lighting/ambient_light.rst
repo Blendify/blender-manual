@@ -13,7 +13,6 @@ Occlusion. The difference is that Environment lighting takes into account the "a
 parameter of the material shading settings,
 which indicates the amount of ambient light/color that that material receives.
 
-
 .. figure:: /images/lighting-el.jpg
    :width: 500px
 

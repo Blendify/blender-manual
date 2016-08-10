@@ -52,7 +52,6 @@ Options
    For correct results, the mapping of an environment map texture must be set to 'Refl'
    (reflection co-ordinates) in the Map Input panel of the Material tab.
 
-
 .. figure:: /images/texture-envmap-panel.jpg
 
    Reflecting plane EnvMap settings.
@@ -229,7 +228,6 @@ In the following image, the rectangular prism and the smaller spheres
 are touching the sides of the large reflecting sphere,
 but because the environment map is calculated from the center of the sphere,
 the surrounding objects look artificially far away.
-
 
 .. figure:: /images/envmap-offset.jpg
 

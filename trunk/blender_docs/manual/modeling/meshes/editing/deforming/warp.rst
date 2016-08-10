@@ -9,7 +9,6 @@ Warp
    | Mode:     Object and Edit Modes
    | Menu:     :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Warp`
 
-
 .. figure:: /images/modeling_warp.jpg
 
    Warp tool options.S.
@@ -58,7 +57,6 @@ The greater the distance, the greater the radius.
 The result of the *Warp* transform is also influenced by your current view. The
 example in this section shows the results of a 180 degree *Warp* transform applied
 to the same Suzanne mesh when in different views. A 3D render is also provided for comparison.
-
 
 .. figure:: /images/editors_3dview_transformation_advanced_warp_warp-cursor-view.jpg
    :width: 500px

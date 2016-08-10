@@ -120,7 +120,6 @@ Enabling the *Only Endpoints* setting applies the drawing setting only to the
 endpoints of the stroke. The part of the stroke between the endpoints is adjusted to lie on a
 plane passing through the endpoints.
 
-
 .. figure:: /images/editors_3dview_sketching_drawing_grease-pencil-drawing-settings.jpg
    :width: 500px
 

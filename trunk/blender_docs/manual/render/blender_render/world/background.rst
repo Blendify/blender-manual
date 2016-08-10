@@ -60,7 +60,6 @@ Instead of a color, or blend of two colors, Blender can use an 2D image which it
 very large Box or sphere which encompasses the entire scene,
 or which it maps to a virtual space around the scene.
 
-
 .. figure:: /images/bi_world-texcoord.jpg
    :width: 207px
 
@@ -85,7 +84,6 @@ Tube
    Wrap the rectangular texture around in a cylinder, similar to that of materials
 Object
    Position the texture relative to a specified object's local texture space
-
 
 .. figure:: /images/bi_world-texinfluence.jpg
    :width: 297px

@@ -63,7 +63,6 @@ This can be obtained by making an AlphaOver of two Z-Combine, one normal,
 the other having inverted (reversed?) Z-values as inputs, obtained using for each of them a
 *MapValue* node with a *Size* field set to -1.0:
 
-
 .. figure:: /images/compositing-z-offset-example.jpg
    :width: 300px
 
@@ -90,7 +89,6 @@ moves to the right created the illusion of depth as Bambi moved through the fore
    Z Input Sockets do not accept fixed values; they must get a vector set (see Map Value node).
    Image Input Sockets will not accept a color since it does not have UV coordinates.
 
-
 .. figure:: /images/compositing-z-offset-ex_images.jpg
    :width: 300px
 
@@ -101,7 +99,6 @@ The Z-Combine can be used to merge two images as well,
 using the Z-values put out by two render layers.
 Using the Z-values from the sphere and cube scenes above, but threading different images,
 yields the example to the right.
-
 
 .. figure:: /images/node-zcombine_example.jpg
    :width: 300px

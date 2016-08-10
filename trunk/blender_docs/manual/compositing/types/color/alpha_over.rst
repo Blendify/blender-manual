@@ -89,7 +89,6 @@ Use the PreMultiply button, when the foreground image and background images have
 a combined Alpha that is greater than 1.00; otherwise, you will see an unwanted halo effect.
 The resulting image is a composite of the two source images.
 
-
 .. figure:: /images/compositing-alphaover-seethru.jpg
    :width: 300px
 

@@ -13,7 +13,6 @@ Sets a random value into a property of the object
 
 Special Options:
 
-
 .. figure:: /images/bge_actuator_random_bool_constant.jpg
    :width: 271px
 
@@ -32,7 +31,6 @@ Menu of distributions from which to select the random value.
 The default entry of Boolean Constant gives either True or False,
 which is useful for test purposes.
 
-
 .. figure:: /images/bge_actuator_random_float_neg_exp.jpg
    :width: 271px
 
@@ -46,7 +44,6 @@ Float Neg. Exp.
       Float property to receive value
    Half-Life Time
       Half-life time (Range 0.00 - 10000.00)
-
 
 .. figure:: /images/bge_actuator_random_float_normal.jpg
    :width: 271px
@@ -64,7 +61,6 @@ Float normal
    SD
       Standard deviation of normal distribution (Range 0.00 to +10000.00)
 
-
 .. figure:: /images/bge_actuator_random_float_uniform.jpg
    :width: 271px
 
@@ -81,7 +77,6 @@ Float uniform
    Max
       Maximum value (Range -10000.00 to +10000.00)
 
-
 .. figure:: /images/bge_actuator_random_float_constant.jpg
    :width: 271px
 
@@ -96,7 +91,6 @@ Float constant
    Value
       Value (Range 0.00 to +1.00)
 
-
 .. figure:: /images/bge_actuator_random_int_poisson.jpg
    :width: 271px
 
@@ -110,7 +104,6 @@ Int Poisson
       Integer property to receive value
    Mean
       Mean of Poisson distribution (Range 0.01 to +100.00)
-
 
 .. figure:: /images/bge_actuator_random_int_uniform.jpg
    :width: 271px
@@ -128,7 +121,6 @@ Int uniform
    Max
       Maximum value (Range -1000 to +1000)
 
-
 .. figure:: /images/bge_actuator_random_int_constant.jpg
    :width: 271px
 
@@ -142,7 +134,6 @@ Int constant
       Integer property to receive value
    Value
       Value (Range 0.00 to +1.00)
-
 
 .. figure:: /images/bge_actuator_random_bool_bernoulli.jpg
    :width: 271px
@@ -158,7 +149,6 @@ Bool Bernoulli
    Chance
       Proportion of TRUE responses required.
 
-
 .. figure:: /images/bge_actuator_random_bool_uniform.jpg
    :width: 271px
 
@@ -170,7 +160,6 @@ Bool uniform
 
    Property
       Boolean property to receive value
-
 
 .. figure:: /images/bge_actuator_random_bool_constant.jpg
    :width: 271px

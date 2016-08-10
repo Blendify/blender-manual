@@ -24,7 +24,6 @@ that saves an image as a ``Targa`` (``.tga``), ``EPS``, or an ``SVG`` format for
 The image is an outline of the UV face mapping.
 Activating the tool brings up the File Browser with options for saving the layout:
 
-
 .. figure:: /images/texture-uv-layout-export.jpg
 
    Export Options.

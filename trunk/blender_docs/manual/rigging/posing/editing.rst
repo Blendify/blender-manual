@@ -53,7 +53,6 @@ in *Pose Mode*, each bone has a scale of 1.0, and null rotation and position
 (as you can see it in the *Transform Properties* panel, in the 3D Views,
 :kbd:`N`).
 
-
 .. figure:: /images/rigging-pose-localrotate.jpg
    :width: 250px
 
@@ -152,7 +151,6 @@ Copy/Paste Pose
    | Panel:    *3D View* header
    | Menu:     :menuselection:`Pose --> Copy Current Pose`,
      :menuselection:`Pose --> Paste Pose`, :menuselection:`Pose --> Paste Flipped Pose`
-
 
 .. figure:: /images/rigging-copypastepose.jpg
 
@@ -258,7 +256,6 @@ By default, children bones inherit:
 
 Exactly like standard children objects. You can modify this behavior on a per-bone basis,
 using their sub-panels in the *Armature Bones* panel:
-
 
 .. figure:: /images/riggingeditingbonecxtrelationspanel.jpg
    :width: 200px

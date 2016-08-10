@@ -21,7 +21,6 @@ editors menus. Then there is the Text ID Block browse button followed by the New
 creating new Text files. Once you click it, you will find that the header has changed..
 for good!
 
-
 .. figure:: /images/editors_text_header2.jpg
 
    Text header with a file open.

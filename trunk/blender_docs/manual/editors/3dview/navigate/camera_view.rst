@@ -16,7 +16,6 @@ Cameras View can be used to virtually compose shots and preview how the scene wi
 Pressing :kbd:`Numpad0` will show the scene as viewed from the currently active camera.
 In this view you can also set the *Render Border* which defines the portion of the camera view to be rendered.
 
-
 .. figure:: /images/editors_3dview_navigating_camera-view-perspective-camera-render.jpg
    :width: 640px
 

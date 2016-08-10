@@ -62,7 +62,6 @@ Activating *Axes* checkmark on the *Armature*/*Display* panel,
 will show local axes for each bone's tip. The Y axis is always aligned along the bone,
 oriented from root to tip. So, this is the "roll" axis of the bones.
 
-
 .. figure:: /images/riggingboneprincipalsbonepropertieseditor.jpg
    :width: 250px
 
@@ -164,7 +163,6 @@ The simplest way is to have each bone affecting those parts of the geometry that
 given range from it. This is called the *envelope technique*,
 because each bone can control only the geometry "enveloped" by its own influence area.
 
-
 .. figure:: /images/riggingenvelopeprinciples3dvieweditmode.jpg
    :width: 250px
 
@@ -177,7 +175,6 @@ which depends on:
 
 - the *distance* property
 - the root's radius and the tip's radius.
-
 
 .. figure:: /images/riggingenvelopeex3dviewposemode.jpg
    :width: 300px

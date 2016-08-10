@@ -6,7 +6,6 @@ Screw Modifier
 The Screw modifier is similar to the *Screw tool* in the *Tool Shelf*
 in that it takes a profile object, a Mesh or a Curve, to create a helix-like shape.
 
-
 .. figure:: /images/modifier-screw-align.jpg
    :width: 600px
 

@@ -284,7 +284,6 @@ Fig. Joining ready is an example of two NURBS surface curves, **not** NURBS curv
 in *Edit Mode*, ready to be joined.
 Fig. Joining complete is the result of joining the two curves.
 
-
 .. figure:: /images/nurbsjoin.jpg
    :width: 350px
 

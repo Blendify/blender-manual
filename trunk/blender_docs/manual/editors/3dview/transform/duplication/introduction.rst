@@ -99,7 +99,6 @@ Reference Expl. :ref:`Duplicate Example <expl-object-link-duplicate>` for the di
    you will have to manually make the object a "single-user" copy by
    :kbd:`LMB` the number in the *Object Data* panel of the Properties editor.
 
-
    .. figure:: /images/interface-scenes-mk_singleuser.jpg
       :align: center
 

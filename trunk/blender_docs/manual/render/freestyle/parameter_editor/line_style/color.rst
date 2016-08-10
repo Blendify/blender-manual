@@ -108,7 +108,6 @@ an optional color ramp can be used to map these grayscale values to colored ones
 If used with the *Split by Material* option in the *Stroke* tab,
 the result will not be blurred between materials along the strokes.
 
-
 .. figure:: /images/freestyle_lilies_color_material.jpg
    :width: 400px
    :align: center

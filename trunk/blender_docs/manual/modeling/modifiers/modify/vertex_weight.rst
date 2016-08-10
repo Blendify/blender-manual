@@ -366,7 +366,6 @@ and play with the *Custom Curve* mapping to get a larger/narrower "valley"...
 
           Convex-type mapping curve.
 
-
 .. figure:: /images/modifiersweightvgroupgeometryexremverts.jpg
    :width: 200px
 

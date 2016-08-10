@@ -7,12 +7,10 @@ Ruler and Protractor
 The ruler can be accessed from the toolshelf,
 once activated you can use the ruler to measure lengths and angles in the scene.
 
-
 .. figure:: /images/editors_3dview_ruler_example.jpg
    :width: 500px
 
    Example of the ruler and protractor.
-
 
 .. figure:: /images/editors_3dview_ruler_thickness.jpg
    :width: 592px

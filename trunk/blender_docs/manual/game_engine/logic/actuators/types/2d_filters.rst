@@ -5,7 +5,6 @@ Filter 2D Actuator
 
 *2D Filter* s are image filtering actuators, that apply on final render of objects.
 
-
 .. figure:: /images/bge_actuator_filter_2d.jpg
    :width: 271px
 
@@ -46,7 +45,6 @@ Motion Blur
 *Motion Blur* is a *2D Filter* that needs previous rendering information to produce motion effect on objects.
 Below you can see *Motion Blur* filter in Blender window, along with its logic bricks:
 
-
 .. figure:: /images/bge_motionblur_render-full.jpg
 
    2D Filters: Motion Blur.
@@ -73,18 +71,15 @@ All 2D filters you can see in *2D Filter* actuator have the same architecture,
 all built-in filters use fragment shader to produce final render view,
 so your hardware must support shaders.
 
-
 .. figure:: /images/bge_motionblur_render-full.jpg
    :width: 200px
 
    2D Filters: Motion Blur.
 
-
 .. figure:: /images/sepia_render-full.jpg
    :width: 200px
 
    2D Filters: Sepia.
-
 
 .. figure:: /images/bge_sobel_render-full.jpg
    :width: 200px

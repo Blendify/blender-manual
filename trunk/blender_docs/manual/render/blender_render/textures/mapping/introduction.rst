@@ -108,7 +108,6 @@ Offset
    The texture co-ordinates can be translated by an offset.
    Enlarging of the Ofs moves the texture towards the top left.
 
-
 .. figure:: /images/texture-mapping-size.jpg
 
    Size panel.

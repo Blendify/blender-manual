@@ -22,7 +22,6 @@ in :menuselection:`Properties --> Physics`, then select *Domain* as the *Smoke T
    but the smoke simulator will use the shape's :term:`bounding box`
    as the domain bounds. In other words, the actual shape of the domain will still be rectangular.
 
-
 .. figure:: /images/smoke_domain_settings.png
    :align: right
 

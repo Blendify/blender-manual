@@ -8,7 +8,6 @@ These are the available texture types:
 
 - :doc:`Procedural Textures </render/blender_render/textures/types/procedural/introduction>`
 
-
 .. figure:: /images/texture-types-procedural.jpg
    :width: 300px
 
@@ -18,7 +17,6 @@ These are the available texture types:
 - :doc:`Image Textures </render/blender_render/textures/types/image>`
 - :doc:`Video Textures </render/blender_render/textures/types/video>`
 
-
 .. figure:: /images/texture-types-image.jpg
    :width: 300px
 
@@ -26,7 +24,6 @@ These are the available texture types:
 
 
 - :doc:`Combined Textures </render/blender_render/textures/nodes/introduction>`
-
 
 .. figure:: /images/texture-types-combined.jpg
    :width: 300px
@@ -36,7 +33,6 @@ These are the available texture types:
 
 - :doc:`Volume Textures </render/blender_render/textures/types/volume/index>`
 
-
 .. figure:: /images/texture-types-volume.jpg
    :width: 300px
 
@@ -44,7 +40,6 @@ These are the available texture types:
 
 
 - :doc:`Ocean Textures </render/blender_render/textures/types/procedural/ocean>`
-
 
 .. figure:: /images/texture-types-ocean.jpg
    :width: 300px

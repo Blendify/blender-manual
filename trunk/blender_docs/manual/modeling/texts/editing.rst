@@ -17,7 +17,6 @@ Text Editing
    | Mode:     Edit Mode
    | Hotkey:   see below
 
-
 .. figure:: /images/modelling-text-create-ex.jpg
    :width: 300px
 
@@ -173,7 +172,6 @@ Text Boxes
    | Mode:     Object or Edit Modes
    | Panel:    Font
 
-
 .. figure:: /images/text-frame-upperpanel-area.jpg
 
    Text frame.
@@ -261,7 +259,6 @@ The frame is now visible and text is wrapping according to the new width, as sho
 Fig. :ref:`fig-texts-edit-wrap`. Notice that the text has overflowed out of the frame.
 This is because the text has reached the end of the last frame,
 which just happens to be the default/initial frame.
-
 
 .. figure:: /images/text-frame-working-ex4.jpg
    :width: 300px

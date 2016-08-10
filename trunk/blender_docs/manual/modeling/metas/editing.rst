@@ -6,7 +6,6 @@ Editing Metas
 When in *Edit Mode*, the *Active Element* panel appears.
 These settings apply only to the selected meta element.
 
-
 .. figure:: /images/metapropertieseditmode.jpg
    :width: 300px
 
@@ -180,7 +179,6 @@ Because the metas are grouped,
 they form a unified mesh which can always be selected by selecting the mesh of any meta in the group.
 For example, in the example Fig. :ref:`fig-meta-ball-base`, only the lower sphere (the parent) has been selected,
 and you see that both the parent's mesh *and* all of the children's meshes are now highlighted.
-
 
 .. figure:: /images/metaobject-base-scale-ex.jpg
    :width: 300px

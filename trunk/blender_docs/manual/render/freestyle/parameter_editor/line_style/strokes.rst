@@ -52,7 +52,6 @@ Material Boundary
 Min 2D Angle and Max 2D Angle
    Splits chains of feature edges when they make a 2D angle above (or below) a minimum (or maximum) threshold.
 
-
 .. figure:: /images/render-freestyle-splitting_ui.jpg
    :width: 300px
 

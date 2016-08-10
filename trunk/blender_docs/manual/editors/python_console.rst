@@ -22,7 +22,6 @@ Launching the Console using mouse.
 By pressing :kbd:`Shift-F4` in any Blender Editor Type (3D View, Timeline etc.,)
 you can change it to a Console Editor.
 
-
 .. figure:: /images/extensions-python-console-default-console.jpg
 
 
@@ -40,7 +39,6 @@ First look at the Console Environment
 To check what is loaded into the interpreter environment, type dir()
 at the prompt and execute it.
 
-
 .. figure:: /images/extensions-python-console-listing-globals.jpg
 
 
@@ -57,7 +55,6 @@ Auto Completion at work
 Now, type bpy. and then press :kbd:`Ctrl-Spacebar` and you will see the Console
 auto-complete feature in action.
 
-
 .. figure:: /images/extensions-python-console-auto-completion.jpg
 
 
@@ -65,7 +62,6 @@ You will notice that a list of sub-modules inside of bpy appear. These modules e
 that we can do with Blender Python API and are very powerful tools.
 
 Lets list all the contents of bpy.app module.
-
 
 .. figure:: /images/extensions-python-console-list-submodule-contents.jpg
 
@@ -84,7 +80,6 @@ Before tinkering with the modules..
 
 If you look at the 3D View in the default Blender scene, you will notice three objects: Cube,
 Lamp and Camera.
-
 
 .. figure:: /images/extensions-python-console-default-scene.jpg
 
@@ -106,7 +101,6 @@ bpy.context
 
 Note
    For the commands below to show the proper output, make sure you have selected object(s) in the 3D View.
-
 
 .. figure:: /images/extensions-python-console-example-bpy-context.jpg
 
@@ -268,7 +262,6 @@ Press :kbd:`Return` twice after entering the command at the shell prompt.
 
    for index in range(5):
        add_cube(location=(index * 3, 0, 0), layers=mylayers)
-
 
 .. figure:: /images/extensions-python-console-example-bpy-ops.jpg
    :width: 500px

@@ -142,7 +142,6 @@ Graphical Summary
 Below is a graph summarizing the lin/quad attenuation type,
 showing attenuation with or without the *Sphere* option (described later).
 
-
 .. figure:: /images/distancegraph.jpg
    :width: 610px
 

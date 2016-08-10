@@ -10,7 +10,6 @@ or a cloudy sky are just a few types of area lamp. The area lamp produces shadow
 borders by sampling a lamp along a grid the size of which is defined by the user.
 This is in direct contrast to point-like artificial lights which produce sharp borders.
 
-
 .. figure:: /images/lighting-lamps-area-com_options.jpg
    :width: 308px
 

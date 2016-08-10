@@ -6,7 +6,6 @@ File Preferences
 The *File Preferences* tab allows you to configure auto-save preferences and set default file paths for
 blend-files, rendered images, and more.
 
-
 .. figure:: /images/user_prefs-file_tab.png
    :width: 650px
 
@@ -108,7 +107,6 @@ Load UI
    (the :doc:`Screens </interface/editors/screens>`) of the saved file.
    This can be changed individually when loading a file from the
    *Open blend-file* panel of the :doc:`File Browser </editors/file_browser/index>`.
-
 
 .. figure:: /images/interface-configuration-file-filefilter-25.jpg
 

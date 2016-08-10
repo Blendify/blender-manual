@@ -58,7 +58,6 @@ Visualization
 
 In Object Mode, the calculated mesh is shown, along with a black "selection ring" (becoming pink when selected).
 
-
 .. figure:: /images/metainfluenceandselection.jpg
    :width: 350px
 
@@ -262,7 +261,6 @@ Cube (parallelepipedal volume, tri-dimensional structure)
       The length, width, height of the parallelepiped (defaults set to 1.0).
 
    Note that by default, the volume is a cube.
-
 
 .. figure:: /images/metaprimitives.jpg
    :width: 600px

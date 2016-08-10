@@ -17,7 +17,6 @@ but because the light is emitted in a constant direction,
 the location of a *Sun* lamp does not affect the rendered result (unless you use the
 :doc:`"sky & atmosphere" option </render/blender_render/lighting/lamps/sun/sky_and_atmosphere>`).
 
-
 .. figure:: /images/lighting-lamps-sun-lamp_panel.jpg
    :width: 304px
 

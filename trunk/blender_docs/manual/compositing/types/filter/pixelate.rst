@@ -50,6 +50,5 @@ Now add a Pixelate node between the two scale nodes.
 
    You can use :kbd:`Alt-V` and :kbd:`V` to zoom the backdrop in and out respectively.
 
-
 .. figure:: /images/composite_node_filter_pixelate.png
    :width: 514px

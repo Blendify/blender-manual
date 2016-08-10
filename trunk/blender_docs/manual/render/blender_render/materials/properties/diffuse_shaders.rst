@@ -64,7 +64,6 @@ Lambert
    | Mode:     All Modes
    | Panel:    :menuselection:`Shading/Material --> Shaders`
 
-
 .. figure:: /images/material-shader-lambert.jpg
    :width: 320px
 
@@ -82,7 +81,6 @@ materials showing low levels of specular reflection.
 This shader has only the default option, determining how much of available light is reflected.
 Default is 0.8, to allow other objects to be brighter.
 
-
 .. figure:: /images/material-shader-lambert-settings.jpg
    :width: 220px
 
@@ -97,7 +95,6 @@ Oren-Nayar
 
    | Mode:     All Modes
    | Panel:    :menuselection:`Shading/Material --> Shaders`
-
 
 .. figure:: /images/material-shader-oren-nayar.jpg
    :width: 320px
@@ -119,7 +116,6 @@ Options
 Roughness
    The roughness of the surface, and hence, the amount of diffuse scattering.
 
-
 .. figure:: /images/material-shader-oren-nayar-settings.jpg
    :width: 200px
 
@@ -136,12 +132,10 @@ Toon
    | Mode:     All Modes
    | Panel:    :menuselection:`Shading/Material --> Shaders`
 
-
 .. figure:: /images/material-shader-toon.jpg
    :width: 320px
 
    Toon Shader, Different Spec.
-
 
 .. figure:: /images/material-shader-toon-vary.jpg
    :width: 320px
@@ -162,7 +156,6 @@ Size
 Smooth
    The softness of the boundary between lit and shadowed areas
 
-
 .. figure:: /images/material-shader-toon-settings.jpg
    :width: 200px
 
@@ -177,7 +170,6 @@ Minnaert
 
    | Mode:     All Modes
    | Panel:    :menuselection:`Shading/Material --> Shaders`
-
 
 .. figure:: /images/material-shader-lambert.jpg
    :width: 320px
@@ -200,7 +192,6 @@ Options
 Dark
    The darkness of the 'lit' areas (higher) or the darkness of the edges pointing away from the light source (lower).
 
-
 .. figure:: /images/material-shader-minnaert-settings.jpg
    :width: 200px
 
@@ -216,12 +207,10 @@ Fresnel
    | Mode:     All Modes
    | Panel:    :menuselection:`Shading/Material --> Shaders`
 
-
 .. figure:: /images/material-shader-fresnel-vary.jpg
    :width: 320px
 
    Various settings for the Fresnel shader, Cook-Torr Specular shader kept at Intensity 0.5, Hardness: 50.
-
 
 .. figure:: /images/material-shader-fresnel.jpg
    :width: 320px
@@ -244,7 +233,6 @@ Fresnel
    Power of the Fresnel effect, 5.0 is max.
 Factor
    Blending factor of the Fresnel factor to blend in, 5.0 is max.
-
 
 .. figure:: /images/material-shader-fresnel-settings.jpg
    :width: 200px

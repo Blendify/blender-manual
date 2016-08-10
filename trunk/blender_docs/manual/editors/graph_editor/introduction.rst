@@ -10,7 +10,6 @@ It allows you to modify the animation for any properties using
 The graph editor has two modes, *F-Curve* for :doc:`Actions </animation/actions>`,
 and *Drivers* for :doc:`Drivers </animation/drivers>`. Both are very similar in function.
 
-
 .. figure:: /images/editors_graph_example.jpg
    :width: 600px
 
@@ -21,7 +20,6 @@ Curve Editor Area
 =================
 
 Here you can see and edit the curves and keyframes.
-
 
 .. figure:: /images/graph_curve.jpg
 
@@ -94,7 +92,6 @@ Markers
 
 Like with most animation editors, markers are shown at the bottom of the editor.
 
-
 .. figure:: /images/graph_markers.jpg
 
    Graph Editor Markers.
@@ -128,7 +125,6 @@ Mode
    F-Curve for :doc:`Actions </animation/actions>`,
    and Drivers for :doc:`Drivers </animation/drivers>`.
 
-
 .. figure:: /images/graph_header_view.jpg
 
    View Controls.
@@ -155,7 +151,6 @@ View controls
 
    Auto
       Automatically recalculate curve normalization on every curve edit.
-
 
 .. figure:: /images/graph_header_edit.jpg
 

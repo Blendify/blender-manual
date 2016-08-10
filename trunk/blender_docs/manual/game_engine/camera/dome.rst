@@ -71,7 +71,6 @@ An Orthogonal Fisheye view from 90º to 250º degrees.
 - From 90º to 180º we are using four renders.
 - From 181º to 250º we are using five renders.
 
-
 .. figure:: /images/bge_dome-fisheye.jpg
 
    Fisheye Mode.
@@ -86,7 +85,6 @@ this mode aligns the fisheye image with the top of the window, while touching th
 - The Field of view goes from 90º to 250º degrees.
 - From 90º to 180º we are using four renders.
 - From 181º to 250º we are using five renders.
-
 
 .. figure:: /images/bge_dome-front-truncated.jpg
 
@@ -103,7 +101,6 @@ this mode aligns the fisheye image with the bottom of the window, while touching
 - From 90º to 180º we are using four renders.
 - From 181º to 250º we are using five renders.
 
-
 .. figure:: /images/bge_dome-rear-truncated.jpg
 
    Rear Truncated Dome Mode.
@@ -118,7 +115,6 @@ Cube Map mode can be used for pre-generate animated images for CubeMaps.
   - first line: right, back, left
   - second line: bottom, top, front
 
-
 .. figure:: /images/bge_dome-envmap.jpg
 
    Environment Map Mode.
@@ -131,7 +127,6 @@ A full spherical panoramic mode.
 
 - We are using six cameras here.
 - The bottom and top start to get precision with *Definition* set to 5 or more.
-
 
 .. figure:: /images/bge_dome-panoramic.jpg
 
