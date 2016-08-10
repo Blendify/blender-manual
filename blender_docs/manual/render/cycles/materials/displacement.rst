@@ -4,10 +4,6 @@
 Displacement
 ************
 
-.. note::
-
-   Implementation not finished yet, marked as an :doc:`experimental feature </render/cycles/features>`.
-
 The shape of the surface and the volume inside its mesh may be altered by the displacement
 shaders. This way, textures can then be used to make the mesh surface more detailed.
 
@@ -47,11 +43,11 @@ Subdivision
 
    Bump Mapped Displacement.
 
+
 When using *True Displacement* or *Displacement + Bump* and enabling *Use Subdivision*
 you can reduce the *Dicing Rate* to subdivide the mesh.
-This only affects the render and does not show in the viewport
-(but does show in *Rendered Shading Mode*).
-Displacement can also be done manually by use of the Displacement Modifier.
+This only affects the render and does not show in the viewport (but does show in *Rendered Shading Mode*).
+Displacement can also be done manually by use of the :doc:`Displace Modifier </modifiers/deform/displace>`.
 
 
 .. figure:: /images/cycles-displacement-dicing.jpg
