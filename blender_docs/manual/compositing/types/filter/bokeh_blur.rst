@@ -54,7 +54,6 @@ Image
    Standard image output.
 
 
-
 Examples
 ========
 

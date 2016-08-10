@@ -11,7 +11,6 @@ With meshes, everything is built from three basic structures:
    Example of mesh structure.
 
 
-
 Vertices
 ========
 

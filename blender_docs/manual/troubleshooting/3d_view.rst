@@ -43,7 +43,6 @@ When perspective is disabled only the far Clip-End is used, very high values can
 This is **not** specific to Blender, all OpenGL/ DirectX graphics applications have these same limitations.
 
 
-
 Objects Invisible in Camera View
 --------------------------------
 

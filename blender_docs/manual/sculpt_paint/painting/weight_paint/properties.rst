@@ -190,7 +190,6 @@ Custom Icon
    Allows definition of a custom brush icon
 
 
-
 Options
 -------
 

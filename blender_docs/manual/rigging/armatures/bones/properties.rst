@@ -48,7 +48,6 @@ Display panel lets you customize the look of your bones taking the shape of a an
    This mode is only available in Object Mode.
 
 
-
 Deform
 ======
 
