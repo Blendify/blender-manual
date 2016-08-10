@@ -45,11 +45,9 @@ In this examples,
 we use the Fluid Control option to control part of the fluid so that it has a certain shape
 (the sphere drop or the teapot drop) before it falls in the rest of the fluid:
 
-
 .. figure:: /images/physics_fluid_types_control_example1.jpg
 
    Falling drop.
-
 
 .. figure:: /images/physics_fluid_types_control_example2.jpg
 

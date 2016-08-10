@@ -5,7 +5,6 @@
 Texture Influence
 *****************
 
-
 .. figure:: /images/particle_texture_influence.jpg
    :align: right
    :width: 300px

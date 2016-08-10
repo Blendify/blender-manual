@@ -30,7 +30,6 @@ Boundary type
 
    Note that if the mesh is moving, it will be treated as no slip automatically.
 
-
 .. figure:: /images/physics_fluid_bndtcomp.jpg
 
    Example of the different boundary types for a drop falling onto the slanted wall.

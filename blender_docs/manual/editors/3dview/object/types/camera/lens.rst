@@ -93,7 +93,6 @@ To see how this works, take the following examples:
 
    Render of a train track scene with a horizontal lens shift of 0.330.
 
-
 .. figure:: /images/perspective_perspective_traintracks_camera_rotate.jpg
 
    Render of a train track scene with a rotation of the camera object instead of a lens shift.

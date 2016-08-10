@@ -312,7 +312,6 @@ Generate Particles
    Controls the amount of fluid particles to create (0=off, 1=normal, >1=more).
    To use it, you have to have a surface subdivision value of at least 2.
 
-
 .. figure:: /images/physics_fluid_types_domain_particals.jpg
    :width: 600px
 

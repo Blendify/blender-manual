@@ -62,13 +62,11 @@ Examples
 
    Bilateral smoothed buffered shadow.
 
-
 .. figure:: /images/compositing_nodes-bilateralblur_ex1.jpg
    :width: 250px
    :figwidth: 250px
 
    Bilateral smoothed AO.
-
 
 .. figure:: /images/compositing_nodes-bilateralblur_ex2.jpg
    :width: 250px

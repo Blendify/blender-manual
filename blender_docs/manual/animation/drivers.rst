@@ -81,7 +81,6 @@ Show Debug Info
 Add Variable
    Adds a new Driver Variable.
 
-
 .. figure:: /images/animation_driver_single_property.jpg
 
    Setup of a Single Property.
@@ -228,7 +227,6 @@ Driver Expression
 
 Here are some examples using the scripted expression Expr to set the Driver Value.
 
-
 .. figure:: /images/animation_driver_object_rotation.jpg
 
    Object Rotation.
@@ -304,7 +302,6 @@ Shape Key Driver
 
 This example is a Shape Key Driver. The driver was added to the shape key Value.
 
-
 .. figure:: /images/animation_driver_shape_key.jpg
    :width: 400px
 
@@ -332,26 +329,21 @@ root. While it lacks the convenience of the single Evaluation Time of
 an absolute shape key, it allows you to have more complex
 relationships between your shape keys.
 
-
 .. figure:: /images/driver_for_multiple_shape_keys_key1.jpg
 
    Key1 must handle conflicting values from the two bones.
-
 
 .. figure:: /images/driver_for_multiple_shape_keys_key2a.jpg
 
    Key2A has different generator coefficients so it is activated in a different range of the bone's position.
 
-
 .. figure:: /images/driver_for_multiple_shape_keys_key2b.jpg
 
    Key2B is the same as Key2A, but is controlled by the second bone.
 
-
 .. figure:: /images/driver_for_multiple_shape_keys_retracted.jpg
 
    when both bones are low, Key2B and Key2A are deactivated and Key1 is at low influence.
-
 
 .. figure:: /images/driver_for_multiple_shape_keys_extended.jpg
 
@@ -398,7 +390,6 @@ Scripted Expression
 .. figure:: /images/drivers_auto_run_b.jpg
 
    :menuselection:`Graph Editor --> Properties --> Drivers`
-
 
 .. figure:: /images/drivers_auto_run_a.jpg
 

@@ -6,7 +6,6 @@ Timeline Editor
 The *Timeline* editor, identified by a clock icon,
 is shown by default at the bottom of the screen.
 
-
 .. figure:: /images/timeline.jpg
 
    The Timeline.
@@ -66,7 +65,6 @@ Markers are the small triangles, with their name near them.
 
 Markers are usually used to identify key parts of the animation.
 
-
 .. figure:: /images/timeline_markers.jpg
 
    Markers.
@@ -125,7 +123,6 @@ Bind Camera to Markers
 
 Cache
    This will display the baked *Cache Steps* for the active object.
-
 
 .. figure:: /images/timeline_cache.jpg
 
@@ -233,7 +230,6 @@ Header Controls
 
 The Timeline header controls.
 
-
 .. figure:: /images/editors_timeline_header.png
 
    Timeline header controls.
@@ -268,7 +264,6 @@ The Timeline header controls.
 ^^^^^^^^^^^^^^^^^
 
    These button are used to set, play, rewind, the *Time Cursor*.
-
 
 .. figure:: /images/timeline_player_controls.jpg
 
@@ -348,7 +343,6 @@ Layered
 .. figure:: /images/animation_timeline_layered.jpg
 
    Timeline Layered.
-
 
 .. figure:: /images/kia_cube02.jpg
 

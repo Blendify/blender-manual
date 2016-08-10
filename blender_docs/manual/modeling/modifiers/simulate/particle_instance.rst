@@ -9,7 +9,6 @@ as a particle shape on an object which has a particle system associated with it.
 that to use this modifier you must also have another object which has a particle system on it,
 otherwise the *ParticleInstance* modifier will appear to do nothing.
 
-
 .. figure:: /images/modifier-particle_instance_modifier-planes.jpg
    :width: 500px
 
@@ -61,7 +60,6 @@ Particle System
    with different particle systems applied to each area. The left side using a *ParticleInstance* modifier
    which has the shape of a sphere and the right side having a *ParticleInstance* modifier which has the
    shape of a cube.
-
 
    .. figure:: /images/modifier-particle_instance_modifiers-split_plane_2.jpg
       :width: 610px
@@ -135,7 +133,6 @@ Position
 Random
    Scales the position value of each instance a random value.
 
-
 .. figure:: /images/particle_instance_modifier-keyed_particle_example_1.jpg
    :width: 500px
 
@@ -149,7 +146,6 @@ The cylinder does not alter any of its other properties when following the parti
 only the cylinders location gets altered, shape and rotation do not get altered.
 See screenshot below:
 
-
 .. figure:: /images/particle_instance_modifier-keyed_particle_example_2.jpg
    :width: 500px
 
@@ -159,7 +155,6 @@ See screenshot below:
 
 Both of the above examples had the *ParticleInstance* modifier *Path* button deactivated.
 When the *Path* button is activated the effect can be seen in the screenshot below:
-
 
 .. figure:: /images/particle_instance_modifier-keyed_particle_example_3.jpg
    :width: 500px
@@ -213,7 +208,6 @@ particles as well as with keyed particles.
 In this case the mesh of the *ParticleInstance*
 modifier will follow the length and profile of the hair strands paths.
 Below is a screenshot showing the effect of the *Path* button on hair:
-
 
 .. figure:: /images/particle_instance_modifier-strand_mesh_deform.jpg
    :width: 500px

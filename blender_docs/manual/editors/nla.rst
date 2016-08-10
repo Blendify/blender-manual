@@ -21,7 +21,6 @@ Tracks are the layering system of the NLA. At its most basic level,
 it can help organize strips. But it also layers motion much like an image editor layers pixels -
 the bottom layer first, to the top, last.
 
-
 .. figure:: /images/nla_track.jpg
 
 
@@ -41,7 +40,6 @@ Any action used by the NLA first must be turned into an Action strip.
 This is done so by clicking the |snowflake-button|
 next to the action listed in the NLA. Alternatively, you can go to :menuselection:`Add --> Action`.
 
-
 .. figure:: /images/nla_action_strip.jpg
 
    Action Strip.
@@ -56,7 +54,6 @@ Select two or more strips on the same track, and go to
    :class: refbox
 
    | Menu:     :menuselection:`Add --> Transition`
-
 
 .. figure:: /images/nla-basics_transition.jpg
 
@@ -132,11 +129,9 @@ To do so, hit the *unpin* icon, next to the strip.
 
    Nla strip with pinned keys.
 
-
 .. figure:: /images/nla_pin_02.jpg
 
    Strip moved, notice the keys move with it.
-
 
 .. figure:: /images/nla_pin_03.jpg
 
@@ -191,7 +186,6 @@ Renaming Strips
 
 All strips can be renamed, in the "Active Track" section in the Strip Properties.
 
-
 .. figure:: /images/nla_striprename.jpg
 
 
@@ -199,7 +193,6 @@ Active Track
 ------------
 
 This is which track the strip currently belongs to.
-
 
 .. figure:: /images/activetrack.jpg
 
@@ -216,7 +209,6 @@ or a Transition Clip.
    Also, the "Hold" value in the Extrapolation section means hold both beginning, and after.
    This can cause previous clips to not work, if checked.
 
-
 .. figure:: /images/activestrip.jpg
 
 
@@ -224,7 +216,6 @@ Active Action
 -------------
 
 This represents the 'object data' of the strip. Much like the transform values of an object.
-
 
 .. figure:: /images/actionclip.jpg
 
@@ -234,12 +225,10 @@ Evaluation
 
 This determines the degree of influence the strip has, and over what time.
 
-
 .. figure:: /images/evaluation.jpg
 
 
 If influence is not animated, the strips will fade linearly, during the overlap.
-
 
 .. figure:: /images/nla_influence_strip.jpg
 
@@ -250,6 +239,5 @@ Strip Modifiers
 Like its close cousins in mesh and graph editing,
 Modifiers can stack different combinations of effects for strips.
 Obviously there will be more to come on this.
-
 
 .. figure:: /images/modifier.jpg

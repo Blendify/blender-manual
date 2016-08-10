@@ -133,7 +133,6 @@ Fractal
 Along Normal
    Causes the vertices to move along the their normals, instead of random directions
 
-
 .. figure:: /images/subdivide-fractal-alongnormal.jpg
    :width: 200px
 
@@ -142,7 +141,6 @@ Along Normal
 
 Random Seed
    Changes the random seed of the noise function, producing a different result for each seed value.
-
 
 .. figure:: /images/subdivide-fractal-after2.jpg
    :width: 200px
@@ -155,7 +153,6 @@ Examples
 
 Below are several examples illustrating the various possibilities of the *Subdivide*
 and *Subdivide Multi* tools. Note the selection after subdivision.
-
 
 .. figure:: /images/subdivide-before.jpg
    :width: 300px

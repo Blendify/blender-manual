@@ -31,7 +31,6 @@ would select a "cross" with the prior selected face as the middle.
 If you want to avoid switching to Edge Select Mode to select a Face Loop,
 use the :kbd:`Alt-RMB` shortcut.
 
-
 .. figure:: /images/face-mode_different-loop-selections.jpg
    :width: 600px
 

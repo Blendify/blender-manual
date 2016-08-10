@@ -21,7 +21,6 @@ Changing the Active Camera
    | Mode:     Object Mode
    | Hotkey:   :kbd:`Ctrl-Numpad0`
 
-
 .. figure:: /images/cameraview-activecamera.jpg
 
    Active camera (left one).
@@ -154,7 +153,6 @@ Mist
    The mist limits and other options are set in the *World* panel,
    in the :doc:`Mist section </render/blender_render/world/mist>`.
 
-
 .. figure:: /images/camera-camera-view.jpg
 
    Camera view displaying safe areas, sensor and name.
@@ -237,7 +235,6 @@ selecting *Render Border* larger than the camera view.
 
    :doc:`Read more about Anti-Aliasing </render/blender_render/antialiasing>`
    :doc:`Read more about Motion Blur </render/blender_render/motion_blur>`
-
 
 .. figure:: /images/editors_3dview_navigating_camera-view-render-border.jpg
    :width: 640px

@@ -331,7 +331,6 @@ the Parent Object Armature when the Armature Deform With Envelope Weights operat
 Any vertices outside the Bone Envelope volume will not be influenced. 
 When the bones are transformed in Pose Mode the results are very different. 
 
-
 .. figure:: /images/to-3dvieweditorheader-objectmenu-parent-armature_deform_with_envelope_weights.jpg
 
    Two sets of Armatures each with three bones. 
@@ -342,7 +341,6 @@ You can alter the size of the Bone Envelope volume by clicking on the body of th
 switch to Edit Mode or Pose Mode and then pressing
 :kbd:`Ctrl-Alt-S` then drag your mouse left or right and the Bone Envelope volume will alter accordingly.
 
-
 .. figure:: /images/tp-3dvieweditorheader-objectmenu-parent-armature_deform_with_envelope_weights.jpg
 
    Single Armature Bone with various different Bone Envelope sizes.
@@ -352,7 +350,6 @@ You can also alter the Bone Envelope volume by selecting the Bone you wish to al
 switching to Edit Mode or Pose Mode,
 then navigate to :menuselection:`Properties Editor --> Bone --> Deform --> Envelope --> Distance`
 then enter a new value into it. 
-
 
 .. figure:: /images/tq-3dvieweditorheader-objectmenu-parent-armature_deform_with_envelope_weights.jpg
 
@@ -366,7 +363,6 @@ You can alter the radius that a bone has by selecting the head, body or tail par
 and then press :kbd:`Alt-S` and move the mouse left or right.
 This will make the selected bone fatter or thinner without altering the thickness of the Bone Envelope volume.
 
-
 .. figure:: /images/tr-3dvieweditorheader-objectmenu-parent-armature_deform_with_envelope_weights.jpg
 
    Four Armature Bones all using Envelope Weight.
@@ -377,7 +373,6 @@ This will make the selected bone fatter or thinner without altering the thicknes
 You can also alter the bone radius by selecting the tail or head of the bone you wish to alter and switching to Edit
 Mode, then navigate to :menuselection:`Properties Editor --> Bone --> Deform --> Radius Section`
 and entering new values for the *Tail* and *Head* fields.
-
 
 .. figure:: /images/ts-3dvieweditorheader-objectmenu-parent-armature_deform_with_envelope_weights.jpg
 
@@ -497,7 +492,6 @@ This is done like regular object parenting,
 Press :kbd:`Ctrl-P` in object mode and select *Vertex* or *Vertex (Triangle)*.
 
 The nearest vertices will be used from each object which is typically what you would want.
-
 
 .. figure:: /images/parent_vertex_object_mode_example.jpg
 

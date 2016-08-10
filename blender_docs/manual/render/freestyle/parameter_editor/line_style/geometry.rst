@@ -30,7 +30,6 @@ As with other modifier stacks in Blender, they are applied from top to bottom.
 The *2D Offset* modifier adds some two-dimensional offsets to the stroke backbone
 geometry. It has two sets of independent options/effects:
 
-
 .. figure:: /images/render-freestyle-line_style_geometry_2d_offset.jpg
    :width: 300px
    :align: right
@@ -82,7 +81,6 @@ Scale X and Scale Y
 Rotation Angle
    The rotation angle.
 
-
 .. figure:: /images/freestyle_2d-transform.jpg
    :width: 400px
    :align: center
@@ -116,7 +114,6 @@ The *Bézier Curve* modifier replaces the stroke by a Bézier approximation of i
 
 Error
    The maximum distance allowed between the new Bézier curve and the original stroke.
-
 
 .. figure:: /images/toycar_bezier.jpg
    :width: 400px
@@ -178,7 +175,6 @@ This modifier will produce reasonable results when strokes are short enough,
 because shorter strokes are more likely to be well approximated by straight lines. Therefore,
 it is recommended to use this modifier together with one of the splitting options
 (by 2D angle or by 2D length) from the *Strokes* panel.
-
 
 .. figure:: /images/toycar_guiding_line.jpg
    :width: 400px
@@ -280,7 +276,6 @@ Amplitude
 
 Phase
    Allows "offsetting" ("moving") the undulations along the stroke.
-
 
 .. figure:: /images/toycar_sinus_displacement.jpg
    :width: 300px

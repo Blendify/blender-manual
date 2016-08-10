@@ -18,7 +18,6 @@ The animation can them to recorded with :kbd:`Alt-A`
 
    Some Blocks about to fall.
 
-
 .. figure:: /images/blocks2.jpg
    :width: 640px
 

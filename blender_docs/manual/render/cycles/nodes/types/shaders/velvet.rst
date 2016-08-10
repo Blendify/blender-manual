@@ -45,7 +45,6 @@ Examples
 .. figure:: /images/cycles_nodes_shader_velvet_behavior.png
    :align: center
 
-
 .. figure:: /images/cycles_nodes_shader_velvet_example.jpg
    :align: center
 

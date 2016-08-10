@@ -130,7 +130,6 @@ Texturing along the Strand
 
    Fading a strand to alpha...
 
-
 .. figure:: /images/strandrenderfade.jpg
 
    ... And the render result.

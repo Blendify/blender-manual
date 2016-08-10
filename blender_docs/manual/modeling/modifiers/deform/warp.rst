@@ -10,7 +10,6 @@ This deformation modifier can be used to warp parts of a mesh to a new location 
 flexible way by using two objects to select the "from" and "to" regions,
 with options for using a curve falloff, texture and vertex group.
 
-
 .. figure:: /images/modifier-warp-example02.jpg
 
    Warp modifier applied to a grid.

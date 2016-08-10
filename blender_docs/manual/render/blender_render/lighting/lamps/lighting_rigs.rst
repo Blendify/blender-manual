@@ -36,7 +36,6 @@ where you enable environment or ambient lighting of your scene. Ambient light is
 light that comes from sunlight being reflected off every surface it hits, hitting your object,
 and traveling to camera.
 
-
 .. figure:: /images/lighting-rigs-ao.jpg
    :width: 256px
 

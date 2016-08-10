@@ -49,7 +49,6 @@ Note that the result of the *To Sphere* transform is also dependant on the numbe
 selected mesh elements (vertices, faces etc). As can be seen in the below image, the result
 will be smoother and more spherical when there are more mesh elements available to work with.
 
-
 .. figure:: /images/editors_3dview_transformations-advanced-to_sphere_cubes-spherical.jpg
    :width: 640px
 
@@ -60,7 +59,6 @@ will be smoother and more spherical when there are more mesh elements available 
 
 The *To Sphere* transform will generate different results depending on the number
 and arrangement of elements that were selected (as shown by the below image).
-
 
 .. figure:: /images/editors_3dview_transformations-advanced-to_sphere_other-spherical.jpg
    :width: 640px

@@ -18,7 +18,6 @@ This controller *deactivates* all connected actuators if
 
 Options:
 
-
 .. figure:: /images/bge_controller_nan.jpg
    :width: 292px
 

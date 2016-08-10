@@ -44,7 +44,6 @@ Use :kbd:`LMB` to validate, or :kbd:`RMB` to cancel the modification.
    panel to move and select a region of the image within the output. When you use *Crop* or *Offset*,
    the auto-scaling will be disabled and you can manually re-scale by adding the Transform effect.
 
-
 .. figure:: /images/editors_sequencer_example.png
 
 If you scroll up the workspace, you will see an information channel

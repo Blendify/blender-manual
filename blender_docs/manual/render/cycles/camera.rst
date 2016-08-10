@@ -9,7 +9,6 @@ Perspective
 Lens Size and Angle
    Control the field of view angle.
 
-
 .. figure:: /images/cycles_camera_persp.png
    :width: 300px
 
@@ -19,7 +18,6 @@ Orthographic
 
 Scale
    Controls the size of objects projected on the image.
-
 
 .. figure:: /images/cycles_camera_ortho.png
    :width: 300px
@@ -117,7 +115,6 @@ Ratio
   Change the amount of distortion to simulate the anamorphic bokeh effect.
   A setting of 1.0 shows no distortion, where a number below 1.0 will cause a horizontal distortion,
   and a higher number will cause a vertical distortion.
-
 
 .. figure:: /images/cycles_camera_dof_bokeh.jpg
 

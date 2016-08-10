@@ -19,7 +19,6 @@ Menu specifying type of constraint required.
 - Distance Constraint
 - Location Constraint
 
-
 .. figure:: /images/bge_actuator_constraint_forcefield.jpg
    :width: 271px
 
@@ -54,7 +53,6 @@ Force Field Constraint
    RotDamp
       Damping factor for rotation
 
-
 .. figure:: /images/bge_actuator_constraint_orientation.jpg
    :width: 271px
 
@@ -77,7 +75,6 @@ Constrain the specified axis in the Game to a specified direction in the World a
       Minimum angle for the axis modification;
    MaxAngle
       Maximum angle for the axis modification;
-
 
 .. figure:: /images/bge_actuator_constraint_distance.jpg
    :width: 271px
@@ -114,7 +111,6 @@ Maintain the distance the Game Object has to be from a surface
       Number of frames for which constraint remains active
    RotDamp
       Damping factor for rotation
-
 
 .. figure:: /images/bge_actuator_constraint_location.jpg
    :width: 271px

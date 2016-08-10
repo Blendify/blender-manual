@@ -12,7 +12,6 @@ or powerful but complex :doc:`Python scripting </render/freestyle/python>`.
 Face Smoothness
    When enabled, Face Smoothness will be taken into account for edges calculation.
 
-
 .. figure:: /images/render-freestyle-parameter_editor_mode.jpg
    :width: 200px
 

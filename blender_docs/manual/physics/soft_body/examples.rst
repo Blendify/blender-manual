@@ -14,7 +14,6 @@ The Process
 
 First, change your start and end frames to 1 and 150.
 
-
 .. figure:: /images/softbody-examples-timeline.jpg
    :width: 600px
 
@@ -29,7 +28,6 @@ Add a bevel modifier to it to smoothen the edges and then to add a little more, 
 and move your cursor a bit.
 
 When finished, your scene should look like this:
-
 
 .. figure:: /images/softbody-examples-scene-ready.jpg
    :width: 400px
@@ -49,7 +47,6 @@ Now, to test if everything is working, you can take a cache step of 5 or 10,
 but for the final animation it's better to reduce it to 1, to cache everything.
 
 When finished, your physics panel should look like this:
-
 
 .. figure:: /images/softbody-examples-physics-settings.jpg
    :width: 500px

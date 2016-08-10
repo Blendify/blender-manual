@@ -6,7 +6,6 @@ Remesh Modifier
 The Remesh modifier is a tool for generating new mesh topology.
 The output follows the surface curvature of the input, but its topology contains only quads.
 
-
 .. figure:: /images/modifier-remesh-modifier-screenshot-00.jpg
    :width: 600px
 
@@ -15,7 +14,6 @@ Options
 
 Mode
    There are three basic modes available in the remesh modifier: Blocks, Smooth and Sharp.
-
 
    .. figure:: /images/modifier-remesh-mode-cone-example.jpg
       :width: 600px

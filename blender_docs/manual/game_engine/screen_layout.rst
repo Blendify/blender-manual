@@ -12,12 +12,10 @@ The diagram below shows this default Game Logic screen layout,
 together with the appropriate options for game setup/debug/running
 (these should be set up in the order shown).
 
-
 .. figure:: /images/bge_game_logic_screen_layout1.jpg
    :width: 640px
 
    Game Logic Screen Layout.
-
 
 .. figure:: /images/bge_game_logic_screen_layout4.jpg
 
@@ -30,7 +28,6 @@ Selected from the list of screen layouts for various applications.
 This includes many already-familiar panels Information, 3D View,
 Properties but also a new Logic Editor panel concerned solely with the BGE.
 
-
 .. figure:: /images/bge_game_logic_screen_layout2.jpg
 
    Render Engine Menu.
@@ -42,7 +39,6 @@ Selected from the render engine menu.
 This specifies that all output will be output by the real-time Blender Game Engine renderer.
 It also opens various other menu options such as the Game options (see below)
 and a range of Properties for the BGE renderer properties (see below)
-
 
 .. figure:: /images/bge_game_logic_screen_layout3.jpg
 

@@ -3,7 +3,6 @@
 Glow
 ****
 
-
 .. figure:: /images/editors_sequencer_strips_glow.png
    :width: 300px
 

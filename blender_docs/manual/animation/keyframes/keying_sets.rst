@@ -25,7 +25,6 @@ Keying Set Panel
 
 This panel is used to add, select, manage *Absolute Keying Sets*.
 
-
 .. figure:: /images/keying_set_panel.jpg
 
    :menuselection:`Properties --> Scene --> Keying Set Panel`
@@ -65,11 +64,9 @@ Active Keying Set Panel
 
 This panel is used to add properties to the active Keying Set.
 
-
 .. figure:: /images/keying_set_active_panel.jpg
 
    :menuselection:`Properties --> Scene --> Active Keying Set Panel`
-
 
 .. figure:: /images/keying_set_group.jpg
 

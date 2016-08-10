@@ -101,16 +101,13 @@ To change the orientation of the duplicated objects, select the base object and 
 
 Output of various orientations:
 
-
 .. figure:: /images/dupliverts-example01-4negy.jpg
 
    Negative Y.
 
-
 .. figure:: /images/dupliverts-example01-5posx.jpg
 
    Positive X.
-
 
 .. figure:: /images/dupliverts-example01-6posz.jpg
 
@@ -137,16 +134,13 @@ was adapted to the vertex normals of the parent mesh
 
 (in this case the tentacle was rotated -90° about the X axis in edit mode).
 
-
 .. figure:: /images/dupliverts-example02-1tentacle.jpg
 
    A simple tentacle set to smooth.
 
-
 .. figure:: /images/dupliverts-example02-2norot.jpg
 
    Tentacle dupliverted onto the parent mesh.
-
 
 .. figure:: /images/dupliverts-example02-3rot.jpg
 

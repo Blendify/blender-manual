@@ -80,7 +80,6 @@ and squares are dark-gray if these controllers are shown in the Game Logic displ
 display of their connected sensors and actuators can also be controlled if the State buttons
 at the head of their columns are ticked.
 
-
 .. figure:: /images/bge_controller_state_panel2.jpg
    :width: 292px
 

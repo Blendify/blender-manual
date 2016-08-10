@@ -62,7 +62,6 @@ Object Heading
 .. figure:: /images/bge_controller_column2.jpg
    :width: 292px
 
-
 .. figure:: /images/bge_controller_column4.jpg
    :width: 292px
 

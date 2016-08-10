@@ -98,7 +98,6 @@ CookTorr
    | Mode:     All Modes
    | Panel:    :menuselection:`Material --> Shaders`
 
-
 .. figure:: /images/material-shader-cooktorr.jpg
    :width: 320px
 
@@ -130,7 +129,6 @@ Phong
 
    | Mode:     All Modes
    | Panel:    :menuselection:`Material --> Shaders`
-
 
 .. figure:: /images/material-shader-phong.jpg
    :width: 320px
@@ -169,7 +167,6 @@ Blinn
 
    | Mode:     All Modes
    | Panel:    :menuselection:`Material --> Shaders`
-
 
 .. figure:: /images/material-shader-blinn.jpg
    :width: 320px
@@ -212,7 +209,6 @@ Toon
    | Mode:     All Modes
    | Panel:    :menuselection:`Material --> Shaders`
 
-
 .. figure:: /images/material-shader-toonspec.jpg
    :width: 320px
 
@@ -243,7 +239,6 @@ WardIso
 
    | Mode:     All Modes
    | Panel:    :menuselection:`Material --> Shaders`
-
 
 .. figure:: /images/material-shader-wardiso.jpg
    :width: 320px

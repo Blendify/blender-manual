@@ -82,7 +82,6 @@ Go outside the camera view and you will instantly see the convergence plane in f
 You can toggle this and other display settings in the Stereoscopy panel of the 3D Views properties region.
 In the following image the cameras frustum volumes are also visible.
 
-
 .. figure:: /images/multiview_workflow_5.png
    :width: 1036px
    :figwidth: 700px

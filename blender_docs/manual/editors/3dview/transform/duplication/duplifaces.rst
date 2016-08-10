@@ -59,7 +59,6 @@ Scale
 
    Scale enabled.
 
-
 .. figure:: /images/dupliface-example01-4scalechanged.jpg
 
    Top face of cube scaled down.

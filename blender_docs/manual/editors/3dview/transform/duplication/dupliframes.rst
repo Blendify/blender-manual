@@ -20,7 +20,6 @@ Examples
 In the *Curve* menu under *Path Animation* enable *Follow*
 and set *Frames* to something more reasonable than 100 (say 16).
 
-
 .. figure:: /images/modeling-dupliframes-example02.jpg
    :width: 300px
 
@@ -36,7 +35,6 @@ Add a *Monkey*. In the *Object* menu under *Duplication* enable
    The *Speed* option is used when the parent-child relationship is set to *Follow Path* (see below).
    In this example, the monkey will then travel along the circle over 16 frames.
 
-
 .. figure:: /images/modeling-dupliframes-example03.jpg
    :width: 300px
 
@@ -46,7 +44,6 @@ Add a *Monkey*. In the *Object* menu under *Duplication* enable
 To parent the monkey to the Bézier circle, first select the monkey then the curve
 (so that the curve is the active object) and :kbd:`Ctrl-P`.
 Select the monkey and :kbd:`Alt-O` to reset its origin.
-
 
 .. figure:: /images/modeling-dupliframes-example04.jpg
    :width: 300px

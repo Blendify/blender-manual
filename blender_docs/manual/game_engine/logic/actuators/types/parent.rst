@@ -15,7 +15,6 @@ Scene
 
 Menu for parenting operation required.
 
-
 .. figure:: /images/bge_actuator_parent.jpg
    :width: 271px
 

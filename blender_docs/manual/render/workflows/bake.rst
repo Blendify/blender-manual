@@ -73,11 +73,9 @@ Shadow
 
 Bakes shadows and lighting.
 
-
 .. figure:: /images/render-bake-norm.jpg
 
    Normals.
-
 
 .. figure:: /images/render-bake-normspace.jpg
 
@@ -111,7 +109,6 @@ Textures
 ^^^^^^^^
 
 Bakes colors of materials and textures only, without shading.
-
 
 .. figure:: /images/render-bake-disp.jpg
 
@@ -161,7 +158,6 @@ Specular Color and Intensity
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Bakes specular color or specular intensity values.
-
 
 .. figure:: /images/render-bake-fullrender.jpg
 

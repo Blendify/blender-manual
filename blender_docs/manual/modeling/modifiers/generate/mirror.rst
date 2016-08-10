@@ -97,7 +97,6 @@ Using the Mirror Modifier with a Subdivision Surface Modifier
 When using the Mirror modifier along with a :doc:`subsurf </modeling/modifiers/generate/subsurf>` modifier,
 the order in which the modifiers are placed is important.
 
-
 .. figure:: /images/modifier-mirror-subsurf2.jpg
    :width: 300px
 
@@ -108,7 +107,6 @@ The above image shows the subsurf modifier placed before the Mirror one; as you
 can see the effect of this is that the mesh is split down the center line of the mirror effect.
 This is because the subsurf calculation moves vertices away from the mirror plane, too far away from the
 *Merge Limit*.
-
 
 .. figure:: /images/modifier-mirror-subsurf1.jpg
    :width: 300px

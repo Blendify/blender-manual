@@ -26,7 +26,6 @@ All Events
 
 ----
 
-
 .. figure:: /images/bge_sensor_joystick_event.jpg
    :width: 200px
 
@@ -38,7 +37,6 @@ Event Type
 
 
 ----
-
 
 .. figure:: /images/bge_sensor_joystick_singaxis.jpg
    :width: 200px
@@ -60,7 +58,6 @@ Single Axis
 
 ----
 
-
 .. figure:: /images/bge_sensor_joystick_hat.jpg
    :width: 200px
 
@@ -77,7 +74,6 @@ Hat
 
 
 ----
-
 
 .. figure:: /images/bge_sensor_joystick_axis.jpg
    :width: 200px
@@ -99,7 +95,6 @@ Axis
 
 
 ----
-
 
 .. figure:: /images/bge_sensor_joystick1.jpg
    :width: 200px

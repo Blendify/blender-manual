@@ -176,7 +176,6 @@ or the *Edge Loop Select* option of the *Edge Specials* menu
    In *Vertex* select mode, you can also select edge loops, by using the same hotkeys,
    and clicking on the *edges* (not on the vertices).
 
-
 .. figure:: /images/edgef.jpg
 
    Longitudinal and latitudinal edge loops.
@@ -206,7 +205,6 @@ In vertex select mode,
 the same can be accomplished by using :kbd:`Ctrl-Alt` to select an edge,
 which selects the face loop implicitly.
 
-
 .. figure:: /images/edgefacetools-faceloopsel.jpg
 
    Face loop selection.
@@ -215,7 +213,6 @@ which selects the face loop implicitly.
 This face loop was selected by clicking with :kbd:`Alt-RMB` on an edge,
 in *face* select mode.
 The loop extends perpendicular from the edge that was selected.
-
 
 .. figure:: /images/edgeface-loopingedge-algors-vertex-select.jpg
 
@@ -275,7 +272,6 @@ Path Selection
    | Mode:     Edit Mode
    | Hotkey:   :kbd:`Ctrl-RMB` and the menu item :menuselection:`Select --> Shortest Path`
 
-
 .. figure:: /images/select_face_path.jpg
    :width: 200px
 
@@ -303,18 +299,15 @@ While it is possible to use this operator in *Vertex* and *Face* selection modes
 Note that if the selected loop of edges is not closed,
 then all connected edges on the mesh will be considered inside the loop.
 
-
 .. figure:: /images/mesh-loop-select1.png
    :width: 400px
 
    Loop to Region.
 
-
 .. figure:: /images/mesh-loop-select3.png
    :width: 400px
 
    This tool handles multiple loops fine, as you can see.
-
 
 .. figure:: /images/mesh-loop-select5.png
    :width: 400px
@@ -339,7 +332,6 @@ based on all regions currently selected, it selects only the edges at the border
 It can operate in any select mode, but will always switch to *Edge* select mode when run.
 
 All this is much more simple to illustrates with examples:
-
 
 .. figure:: /images/mesh-region-select1.png
    :width: 400px

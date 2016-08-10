@@ -23,7 +23,6 @@ display and storage of images.
 Rendering and compositing is best done in scene *linear* color space,
 which corresponds more closely to nature, and makes computations more physically accurate.
 
-
 .. figure:: /images/render_post_cm_example_workflow.jpg
 
    Example linear workflow.

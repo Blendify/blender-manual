@@ -15,7 +15,6 @@ To give you a better understanding of the Logic Editor panel, the image below sh
 panel content in which the major components have been labeled.
 We will look at each one individually.
 
-
 .. figure:: /images/logic_panel_expanded_menus.jpg
    :width: 610px
 

@@ -276,7 +276,6 @@ Keyframe Clean-up
 Pressing :kbd:`O` while in the *DopeSheet* will remove all superfluous keyframes.
 Unwanted channels can also be removed.
 
-
 .. figure:: /images/bge-physics-dopesheetcleaned.jpg
 
    Cleaned up recording.

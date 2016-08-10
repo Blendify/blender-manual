@@ -47,7 +47,6 @@ Shadows
 
    Without ray shadows.
 
-
 .. figure:: /images/lighting-lamps-point_panel-rayshad.jpg
    :width: 307px
 

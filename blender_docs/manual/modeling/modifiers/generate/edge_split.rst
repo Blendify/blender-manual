@@ -51,7 +51,6 @@ Examples
 
    Edge Split modifier output with From Marked As Sharp selected.
 
-
 .. figure:: /images/edge_split_to_improve_smooth_shading.jpg
    :width: 600px
 
