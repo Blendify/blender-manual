@@ -177,6 +177,8 @@ Underline
       This controls the thickness of the underline.
 
 
+.. _modeling-text-character:
+
 Character
 ^^^^^^^^^
 
@@ -185,7 +187,7 @@ Character
    * - .. figure:: /images/text-bold-ex.jpg
           :width: 300px
 
-           Bold text.
+          Bold text.
 
      - .. figure:: /images/textfontsettings.jpg
           :width: 300px
