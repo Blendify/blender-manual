@@ -88,9 +88,10 @@ UV
 Object Index
    Pass index of object.
 Material Index
-   Pass index of material.
+   Used to give a mask given by the index number found in the :doc:`material setting </render/cycles/materials/settings>`.
+   This can then be read with the :doc:`ID Mask Node </compositing/types/converter/id_mask>` in the compositor.
 
-The Z, Object Index and Material Index passes are not anti-aliased.
+.. note:: The Z, Object Index and Material Index passes are not anti-aliased.
 
 Alpha Threshold
    Z, Index, normal,
