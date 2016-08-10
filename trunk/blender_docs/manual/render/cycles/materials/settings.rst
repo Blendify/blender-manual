@@ -4,6 +4,12 @@
 Material Settings
 *****************
 
+.. figure:: /images/cycles_materials_settings.png
+   :align: right
+
+   Material Settings.
+
+
 Surface
 =======
 
