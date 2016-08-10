@@ -134,7 +134,7 @@ Even more mesh editing tools can be enabled in the *User Preferences* '
 For further information see :doc:`Panels </interface/editors/panels>`.
 
 
-Properties region
+Properties Region
 =================
 
 .. figure:: /images/editmode-properties-split.jpg
