@@ -53,7 +53,6 @@ Clamp Direct
 Clamp Indirect
    The same as *Clamp Direct*, but for rays which have bounced multiple times.
 
-
 Pattern
    Random sampling pattern used by the integrator.
 
@@ -205,9 +204,9 @@ Subdivision Rate
 ----------------
 
 Render
-   TODO.
+   Size of :term:`micropolygons` in pixels.
 Preview
-   TODO.
+   Size of :term:`micropolygons` in pixels while preview rendering.
 
 Max Subdivisions
-   TODO.
+   Stop subdividing when this level is reached even if the dice rate would produce finer :term:`tessellation`.

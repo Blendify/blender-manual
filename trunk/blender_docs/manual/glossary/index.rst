@@ -379,6 +379,9 @@ This page lists definitions for terms used in Blender and this manual.
    Mesh
       Type of object consisting of :term:`vertices <vertex>`, :term:`edges <edge>` and :term:`faces <face>`.
 
+   Micropolygons
+      A polygon roughly the size of a pixel or smaller. 
+
    Motion Blur
       The phenomenon that occurs when we perceive a rapidly moving object.
       The object appears to be blurred because of our persistence of vision.
@@ -627,6 +630,9 @@ This page lists definitions for terms used in Blender and this manual.
       of the Armature Object. Used in conjunction with the :term:`Head`
       to define the :term:`local <Local Space>` Y axis of a :term:`Bone` in :term:`Pose Mode`.
       The smaller of the two ends when drawn as an :term:`Octahedron`.
+
+   Tessellation
+      The tiling of a plane using one or more geometric shapes usually resulting in :term:`Micropolygons`.
 
    Texture
       Specifies visual patterns on surfaces and simulates physical surface structure.
