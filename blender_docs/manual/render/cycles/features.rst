@@ -60,11 +60,14 @@ This page offers a comparison of available features on CPU, CUDA and OpenCL.
      - |tick| :sup:`(experimental)`
 
 
+.. _cycles-experimental-features:
+
 Experimental Features
 =====================
 
-Experimental features are disabled / hidden by default, but can be enabled by setting *Feature Set* to
-*Experimental* in the Render properties.
-They may not work properly, crash Blender or change their behaviour in later versions.
+Experimental features are disabled / hidden by default,
+but can be enabled by setting *Feature Set* to *Experimental* in the Render properties.
+Enabling the *Experimental Feature Set* will use experemental
+and incomplete features that might be broken or change in the future.
 
 .. figure:: /images/cycles_ui_feature_set.jpg
