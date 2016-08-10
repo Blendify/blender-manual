@@ -49,6 +49,3 @@ Outputs
 =======
 
 This node has no output sockets.
-
-
-

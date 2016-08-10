@@ -43,7 +43,6 @@ When you do so, the linked group does not appear anywhere in your scene
 until you create an object controlling where the group instance appears.
 
 
-
 Making a DupliGroup Object Real
 ===============================
 

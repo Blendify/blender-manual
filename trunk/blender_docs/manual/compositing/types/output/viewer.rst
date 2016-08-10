@@ -50,7 +50,6 @@ This node has no output sockets.
    (last selected, indicated with a slightly darker header) will be shown on the backdrop or in the UV/Image editor.
 
 
-
 Using the UV/Image Editor
 =========================
 

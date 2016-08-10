@@ -30,7 +30,6 @@ but it is important to know how the color space of a rendered image factors into
    :doc:`Color Management and Exposure </render/post_process/cm_and_exposure>`.
 
 
-
 Anti-Aliasing
 =============
 
@@ -41,7 +40,6 @@ images usually appear particularly CG and amateur.
 .. seealso::
 
    :doc:`Anti-Aliasing </render/blender_render/antialiasing>`.
-
 
 
 Exposure (Lighting)

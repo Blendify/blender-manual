@@ -71,7 +71,6 @@ Particle System
       `Example Blend file <https://wiki.blender.org/uploads/4/48/Manual_-_Modifiers_-_Particle_Instance_Modifiers_-_Split_Plane.blend>`__
 
 
-
 Creation
 --------
 

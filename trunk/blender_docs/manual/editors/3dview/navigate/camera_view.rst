@@ -11,7 +11,6 @@ Camera View
    | Hotkey:   :kbd:`Numpad0`
 
 
-
 Cameras View can be used to virtually compose shots and preview how the scene will look when rendered.
 Pressing :kbd:`Numpad0` will show the scene as viewed from the currently active camera.
 In this view you can also set the *Render Border* which defines the portion of the camera view to be rendered.
@@ -29,7 +28,6 @@ Camera Navigation
 
 There are several different ways to navigate and position the camera in your scene, some of them are explained below.
 
-
 .. note::
 
    Remember that the active "camera" might be any kind of object.
@@ -44,7 +42,6 @@ Move Active Camera to View
 
    | Mode:     Object Mode
    | Hotkey:   :kbd:`Ctrl-Alt-Numpad0`
-
 
 This feature allows you to position and orient the active camera to match your current viewport.
 
