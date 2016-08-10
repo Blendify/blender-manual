@@ -29,19 +29,40 @@ known as bump mapping, or a combination of real and virtual displacement.
 True Displacement
 =================
 
-Subdivision
------------
-
 .. note::
 
    Implementation not finished yet, marked as an ref:`Experimental Feature Set <cycles-experimental-features>`
 
 
-When using *True Displacement* or *Displacement + Bump* and enabling *Use Subdivision*
-you can reduce the *Dicing Rate* to subdivide the mesh.
-This only affects the render and does not show in the viewport (but does show in *Rendered Shading Mode*).
-Displacement can also be done manually by use of the :doc:`Displace Modifier </modifiers/deform/displace>`.
+When using True Displacement the :doc:`Subdivision Modifier </modeling/modifiers/generate/subsurf>`
+gets changed to control the subdivision of true displacement.
+For this all the other settings are the same except the *View* and *Render* settings. 
+These setting get removed and the following settings are added:
 
-.. figure:: /images/cycles-displacement-dicing.jpg
+.. ruberic:: Preview
 
-   Subdivision Off - On, Dicing Rate 1.0 - 0.3 - 0.05 (Monkeys look identical in viewport, no modifiers).
+Levels
+   The levels of subdivision to see in the 3D View,
+   this works the same as the *View* setting on the original *Subdivision Modifier*.
+
+.. ruberic:: Render
+
+Adaptive
+   Use OpenSubdiv to give different subdivision levels to near and far objects automatically.
+   This allows nearer object to get more subdivisions and far objects to get less.
+
+   Dicing Rate
+      When using *Adaptive* the *Render Levels* gets changed to *Dicing Rate*,
+      this property is used to multiply the scene dicing rate..
+
+      .. figure:: /images/cycles-displacement-dicing.jpg
+
+         Subdivision Off - On, Dicing Rate 1.0 - 0.3 - 0.05 (Monkeys look identical in viewport, no modifiers).
+
+Levels
+   The levels of subdivision to see in the final render,
+   this works the same as the *Render* setting on the original *Subdivision Modifier*.
+
+.. seealso::
+
+   Displacement can also be done manually by use of the :doc:`Displace Modifier </modifiers/deform/displace>`.

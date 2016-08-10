@@ -259,6 +259,7 @@ with the second render using a mesh light positioned in the window.
 
 In newer versions, :doc:`light portals </render/cycles/world>` provide a better solution.
 
+
 .. _render-cycles-reducing_noise-clamp_samples:
 
 Clamp Fireflies
