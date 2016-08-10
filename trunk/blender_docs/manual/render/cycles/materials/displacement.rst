@@ -66,3 +66,14 @@ Levels
 .. seealso::
 
    Displacement can also be done manually by use of the :doc:`Displace Modifier </modifiers/deform/displace>`.
+
+
+Known limitations
+-----------------
+
+- Missing support for UV subdivision.
+- Creases do not match Blender creases currently.
+- Instanced are currently uninstanced, leading to increased memory usage.
+  For those it is better to use non-adaptive subdivision still.
+- Multi-view renders can have some inconsistencies between views.
+- Editing displacement shaders does not update the viewport.
