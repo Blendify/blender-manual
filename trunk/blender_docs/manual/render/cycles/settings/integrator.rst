@@ -203,6 +203,13 @@ Max Steps
 Subdivision Rate
 ----------------
 
+These settings are used to control the :ref:`True Displacement <render-cycles-materials-displacement-true>`.
+
+.. note::
+
+   These Options are only available if :ref:`Experimental Feature Set <cycles-experimental-features>` is turned on.
+
+
 Render
    Size of :term:`micropolygons` in pixels.
 Preview

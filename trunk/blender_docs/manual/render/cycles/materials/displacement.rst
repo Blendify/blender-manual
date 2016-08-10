@@ -24,6 +24,8 @@ known as bump mapping, or a combination of real and virtual displacement.
    in the :ref:`Material Setttings <cycles-materials-settings-displace>`.
 
 
+.. _render-cycles-materials-displacement-true:
+
 True Displacement
 =================
 
@@ -32,7 +34,7 @@ Subdivision
 
 .. note::
 
-   Implementation not finished yet, marked as an :doc:`experimental feature </render/cycles/features>`.
+   Implementation not finished yet, marked as an ref:`Experimental Feature Set <cycles-experimental-features>`
 
 
 When using *True Displacement* or *Displacement + Bump* and enabling *Use Subdivision*
