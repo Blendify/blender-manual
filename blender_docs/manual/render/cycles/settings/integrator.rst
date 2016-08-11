@@ -200,6 +200,8 @@ Max Steps
    to protect from extremely long render times with big objects or small step sizes.
 
 
+.. _cycles-subdivision-rate:
+
 Subdivision Rate
 ----------------
 
