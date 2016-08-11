@@ -93,7 +93,7 @@ This page lists definitions for terms used in Blender and this manual.
       
    BU
    Blender Units
-      Internal units used by blender, equivalent to meters. Often abbreviated to "BU".
+      Internal units used by Blender, equivalent to meters. Often abbreviated to "BU".
 
    Bone
       The building block of an :term:`Armature`. Made up of a :term:`Head`, :term:`Tail`
@@ -127,7 +127,8 @@ This page lists definitions for terms used in Blender and this manual.
    Clamping
       Limits a variable to a range. The values over or under the range are set to the constant values 
       of the ranges minimum or maximum.
-
+   
+   Blend Modes
    Color Blend Modes
       Methods for blending two colors together.
 

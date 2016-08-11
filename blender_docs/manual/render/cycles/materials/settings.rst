@@ -77,7 +77,7 @@ Viewport Settings
 Viewport Color
 --------------
 
-TODO.
+
 
 
 Viewport Specular
@@ -89,7 +89,21 @@ TODO.
 Viewport Alpha
 --------------
 
-TODO.
+Blend Mode
+   :term:`Blend modes` for transparent faces.
+
+   Opaque
+      Render color of textured face as color.
+   Add
+      Render transparent and add color of face.
+   Alpha Clip
+      Use the image alpha values clipped with no blending (binary alpha).
+   Alpha Blend
+      Render polygon transparent, depending on alpha channel of the texture.
+   Alpha Sort
+      Sort faces for correct alpha drawing (slow, use *Alpha Clip* instead when possible).
+   Alpha Anti-Aliasing
+      Use texture alpha ad an anti-aliasing mask, requires multi-sample OpenGL display.
 
 --------------
 
