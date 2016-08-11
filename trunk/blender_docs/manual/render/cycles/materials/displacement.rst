@@ -34,8 +34,9 @@ For this all the other settings are the same except the *View* and *Render* sett
 These setting get removed and the following settings are added:
 
 .. figure:: /images/cycles_materials_displacement_mod.png
+   :align: right
 
-   Subdivision Surface modifier when Experimental Feature Set is used.
+   Subdivision Surface modifier.
 
 .. rubric:: Preview
 
@@ -51,7 +52,7 @@ Adaptive
    This allows nearer object to get more subdivisions and far objects to get less.
 
    Dicing Rate
-      When using *Adaptive* the *Render Levels* gets changed to *Dicing Rate*,
+      When using *Adaptive* the *Render Levels* property gets changed to *Dicing Rate*,
       this property is used to multiply the :ref:`scene dicing rate <cycles-subdivision-rate>`.
 
       .. figure:: /images/cycles-displacement-dicing.jpg
