@@ -77,14 +77,19 @@ Viewport Settings
 Viewport Color
 --------------
 
-
+Color
+   TODO.
+Alpha
+   TODO.
 
 
 Viewport Specular
 -----------------
 
-TODO.
-
+Color
+   TODO.
+Hardness
+   TODO.
 
 Viewport Alpha
 --------------
