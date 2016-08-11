@@ -6,6 +6,35 @@ Mesh Clean-up
 These tools are to help cleanup degenerate geometry and fill in missing areas of a mesh.
 
 
+Decimate Geometry
+=================
+
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Menu:     :menuselection:`Mesh --> Clean up --> Decimate Geometry`
+
+
+The Decimate modifier allows you to reduce the vertex/face count of a mesh with minimal shape changes.
+
+Ratio
+   Ratio of triangles to reduce to.
+
+Vetex Group
+   Use the active vertex group as an influence.
+
+   Weight
+      Strength of the vertex group.
+   Invert
+      Inverts the vertex group.
+
+Symmetry
+   Maintain symmetry on either the *X*, *Y*, or *Z* axis.
+
+.. seealso:: This tool works similar to the :doc:`Decimate Modifier </modeling/modifiers/generate/decimate>`.
+
+
 Fill Holes
 ==========
 
