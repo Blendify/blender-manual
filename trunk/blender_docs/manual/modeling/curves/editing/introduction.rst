@@ -1,7 +1,7 @@
 
-*************
-Curve Editing
-*************
+************
+Introduction
+************
 
 This page covers the basics of curve editing. Curve basics,
 selecting and advanced editing are covered in the following pages:
