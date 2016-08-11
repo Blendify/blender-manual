@@ -31,7 +31,7 @@ True Displacement
 
 .. note::
 
-   Implementation not finished yet, marked as an ref:`Experimental Feature Set <cycles-experimental-features>`
+   Implementation not finished yet, marked as an :ref:`Experimental Feature Set <cycles-experimental-features>`
 
 
 When using True Displacement the :doc:`Subdivision Modifier </modeling/modifiers/generate/subsurf>`
