@@ -33,13 +33,18 @@ gets changed to control the subdivision of true displacement.
 For this all the other settings are the same except the *View* and *Render* settings. 
 These setting get removed and the following settings are added:
 
-.. ruberic:: Preview
+.. figure:: /images/cycles_materials_displacement_mod.png
+
+   Subdivision Surface modifier when Experimental Feature Set is used.
+
+.. rubric:: Preview
+
 
 Levels
    The levels of subdivision to see in the 3D View,
    this works the same as the *View* setting on the original *Subdivision Modifier*.
 
-.. ruberic:: Render
+.. rubric:: Render
 
 Adaptive
    Use OpenSubdiv to give different subdivision levels to near and far objects automatically.
@@ -63,7 +68,7 @@ Levels
 
 .. seealso::
 
-   Displacement can also be done manually by use of the :doc:`Displace Modifier </modifiers/deform/displace>`.
+   Displacement can also be done manually by use of the :doc:`Displace Modifier </modeling/modifiers/deform/displace>`.
 
 
 Known limitations
