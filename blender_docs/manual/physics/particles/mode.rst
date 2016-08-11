@@ -252,3 +252,9 @@ If you use *Mirror Editing* even particles with hidden keypoints may be moved,
 if their mirrored counterpart is moved.
 
 To un-hide all hidden particles press :kbd:`Alt-H`.
+
+
+Unify Length
+------------
+
+This tool is used to make all selected hair uniform length by finding the average length.
