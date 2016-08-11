@@ -5,9 +5,8 @@
 
 To be able to work in the three dimensional space that Blender uses,
 you must be able to change your viewpoint as well as the viewing direction of the scene.
-While we will describe the *3D View* editor,
-most of the other windows have similar functions. For example,
-it is possible to translate and zoom a Properties editor and its panels.
+While we will describe the *3D View* editor, most of the other windows have similar functions.
+For example, it is possible to translate and zoom a Properties editor and its panels.
 
 .. tip:: Mouse Buttons and Numpad
 
