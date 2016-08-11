@@ -120,7 +120,8 @@ Filter File Extensions
 Hide Dot File/Data-blocks
    Hide file which start with ``.`` on file browsers (in Linux and Apple systems, ``.`` files are hidden).
 Hide Recent Locations
-   Hides the *Recent* panel of the :doc:`File Browser </editors/file_browser/index>` which displays recently accessed folders.
+   Hides the *Recent* panel of the :doc:`File Browser </editors/file_browser/index>`
+   which displays recently accessed folders.
 Show Thumbnails
    Displays a thumbnail of images and movies when using the :doc:`File Browser </editors/file_browser/index>`.
 

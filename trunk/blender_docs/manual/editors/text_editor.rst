@@ -44,7 +44,8 @@ The following keyboard commands apply:
 - :kbd:`Ctrl-D` - Duplicate the current line.
 - :kbd:`Tab` - Indent the selection.
 - :kbd:`Shift-Tab` - Un-indent the selection.
-- :kbd:`Shift-Ctrl-Alt-S` - Saves unsaved text as a text file, a :doc:`File Browser </editors/file_browser/index>` appears.
+- :kbd:`Shift-Ctrl-Alt-S` - Saves unsaved text as a text file,
+  a :doc:`File Browser </editors/file_browser/index>` appears.
 - :kbd:`Alt-S` - Saves an already open file.
 - :kbd:`Alt-O` - Loads a text, a :doc:`File Browser </editors/file_browser/index>` appears.
 - :kbd:`Alt-P` - Executes the text as a Python script.
@@ -67,6 +68,6 @@ can access them through the :menuselection:`Text --> Text Plugins` menu entry.
 
 .. tip:: Usages for the Text editor
 
-   The text editor is handy also when you want to share your blend-files with others.
-   A *Text* editor can be used to write in a ``README`` text explaining the contents of your blend-file.
+   The Text editor is handy also when you want to share your blend-files with others.
+   The Text editor can be used to write in a ``README`` text explaining the contents of your blend-file.
    Be sure to keep it visible when saving!

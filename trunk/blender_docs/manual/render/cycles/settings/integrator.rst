@@ -60,8 +60,8 @@ Pattern
       Uses a Sobol pattern to decide the random sapling pattern used by the integrator.
       See `Sobol sequence <https://en.wikipedia.org/wiki/Sobol_sequence>`__ on Wikipedia for more information.
    Correlated Multi-Jitter
-      Uses a Correlated Multi-Jitter pattern to decide the random sapling pattern used by the integrator.
-      See `this Pixar paper <http://graphics.pixar.com/library/MultiJitteredSampling/paper.pdf>`__ or more information.
+      Uses a Correlated Multi-Jitter pattern to decide the random sapling pattern used by the integrator. See
+      `this Pixar paper <http://graphics.pixar.com/library/MultiJitteredSampling/paper.pdf>`__ for more information.
 
 
 Path Tracing

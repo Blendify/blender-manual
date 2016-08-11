@@ -276,7 +276,7 @@ Deleting Elements
 
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Curve --> Delete...`
-   | Hotkey:   :kbd:`X`, :kbd:`Del`
+   | Hotkey:   :kbd:`X`, :kbd:`Delete`
 
 Options for the *Erase* pop-up menu:
 

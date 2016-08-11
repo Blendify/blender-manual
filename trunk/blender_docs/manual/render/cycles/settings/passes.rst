@@ -81,14 +81,15 @@ Mist
 Normal
    Surface normal used for shading.
 Vector
-   Motion vectors for the vector blur node. The four components consist of 2D vectors giving the motion towards the
-   next and previous frame position in pixel space.
+   Motion vectors for the vector blur node. The four components consist of 2D vectors
+   giving the motion towards the next and previous frame position in pixel space.
 UV
    Default render UV coordinates.
 Object Index
    Pass index of object.
 Material Index
-   Used to give a mask given by the index number found in the :doc:`material setting </render/cycles/materials/settings>`.
+   Used to give a mask given by the index number found in the
+   :doc:`material setting </render/cycles/materials/settings>`.
    This can then be read with the :doc:`ID Mask Node </compositing/types/converter/id_mask>` in the compositor.
 
 .. note:: The Z, Object Index and Material Index passes are not anti-aliased.

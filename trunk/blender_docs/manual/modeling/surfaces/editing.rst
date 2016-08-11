@@ -202,7 +202,7 @@ Deleting Elements
 
    | Mode:     Edit Mode
    | Menu:     :menuselection:`Curve --> Delete...`
-   | Hotkey:   :kbd:`X`, :kbd:`Del`
+   | Hotkey:   :kbd:`X`, :kbd:`Delete`
 
 
 The *Erase* pop-up menu of surfaces offers you two options:

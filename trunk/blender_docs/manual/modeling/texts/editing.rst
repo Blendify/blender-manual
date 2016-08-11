@@ -96,7 +96,7 @@ Some examples are given below:
 
    * - |agrave|
 
-     - :kbd:`A`, :kbd:`Alt-Backspace`, :kbd:`\\`
+     - :kbd:`A`, :kbd:`Alt-Backspace`, :kbd:`\-\`
 
    * - |aring|
 
