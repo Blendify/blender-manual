@@ -145,8 +145,16 @@ Start Bevel Factor and End Bevel Factor
 Path Animation
 ==============
 
-The Path Animation settings can be used to determine how Objects move along a certain path.
-See the link below for further information.
+The *Path Animation* settings can be used to determine how Objects move along a certain path.
+
+Frames
+   The number of frames that are needed to traverse the path,
+   defining the maximum value for the *Evauluate Time* setting.
+Evaluation Time
+   Parametric position along the length of the curve that object following it should be at
+   (the positon is evaluated by by dividing by the *Path Length* value).
+Follow
+   Make the curve path children rotate alung the path.
 
 :doc:`Read more about utilizing Curves for paths during animation </animation/object_path>`
 

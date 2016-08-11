@@ -162,10 +162,3 @@ A NURBS Curve is edited by moving the location of the Control Points.
   Use :kbd:`LMB` to confirm the new location of the Control Point, or use :kbd:`RMB` to cancel.
 - If you want to add additional Control Points, select both of them, press :kbd:`W` and select *Subdivide*.
   Press :kbd:`F6` immediately after to determine how many subdivisions to make.
-
-
-Path
-====
-
-As mentioned above, Curves are often used as :doc:`paths </animation/object_path>`.
-Any curve can be used as a Path if the *Path Animation* option is selected.
