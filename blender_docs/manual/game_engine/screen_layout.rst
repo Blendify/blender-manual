@@ -51,7 +51,7 @@ This menu gives various options for conditions for running the Game Engine.
 Note that this menu is only available when the render engine is set to Blender Game.
 
 Start Game
-   Run game in Game Engine (:kbd:`p` or :kbd:`Shift-P` when the mouse cursor is over the 3D View editor).
+   Run game in Game Engine (:kbd:`P` or :kbd:`Shift-P` when the mouse cursor is over the 3D View editor).
 Show Debug Properties
    Show properties marked for debugging while game runs
 Show framerate and profile

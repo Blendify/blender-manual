@@ -69,7 +69,8 @@ Levels
 
 .. seealso::
 
-   Displacement can also be done manually by use of the :doc:`Displace Modifier </modeling/modifiers/deform/displace>`.
+   Displacement can also be done manually by use of the
+   :doc:`Displace Modifier </modeling/modifiers/deform/displace>`.
 
 
 Known limitations

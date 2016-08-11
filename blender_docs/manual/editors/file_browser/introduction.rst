@@ -92,7 +92,7 @@ If you select a directory and hit enter, you will now go into that directory
 File Management
 ---------------
 
-Delete Files :kbd:`Del`, :kbd:`X`
+Delete Files :kbd:`Delete`, :kbd:`X`
    Delete the currently selected files.
 Rename :kbd:`Ctrl-LMB`
    Can be used on a file or directory to rename it.

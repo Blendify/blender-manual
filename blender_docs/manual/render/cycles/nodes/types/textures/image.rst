@@ -36,8 +36,8 @@ Projection
       Blend
          For Box mapping, the amount to blend between sides of the box,
          to get rid of sharp transitions between the different sides.
-         Blending is useful to map a procedural-like image texture pattern seamlessly on a model. 0.0 gives no blending;
-         higher values give a smoother transition.
+         Blending is useful to map a procedural-like image texture pattern seamlessly on a model.
+         0.0 gives no blending; higher values give a smoother transition.
 
    Sphere
       Maps the image to the sphere using Z axis as central.

@@ -40,7 +40,7 @@ Examples
 
 .. figure:: /images/cycles_bump_node_setup.png
 
-The above node setup will only bump the diffuse part of the shader, simulating a bumpy diffuse surface coated with a smooth glossy "glaze" layer.
+The above node setup will only bump the diffuse part of the shader,
+simulating a bumpy diffuse surface coated with a smooth glossy "glaze" layer.
 
 .. figure:: /images/cycles_bump_node_example.png
-

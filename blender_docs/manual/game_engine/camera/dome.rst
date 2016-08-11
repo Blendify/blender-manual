@@ -17,7 +17,6 @@ Truncated domes (front and rear), Planetariums and domes with spherical mirrors.
    onto a mesh designed especially such that the result, when viewed with an
    orthographic camera, is a fisheye projection.
 
-
 .. note::
 
    Remember to use Blender in 'fullscreen mode' to get the maximum out of your projector.
@@ -174,7 +173,7 @@ ranges from 0 to 1, if negative do not draw that mesh node
 
 - You need to create the file and add it to the Text Editor in order to select it as your Warp Mesh data file.
 - Open the Text Editor :menuselection:`Editor Types --> Text Editor`.
-- Open your mesh data file(ie. myDome.data) in the text editor (:menuselection:`Text --> Open` or :kbd:`Alt O`).
+- Open your mesh data file(ie. myDome.data) in the text editor (:menuselection:`Text --> Open` or :kbd:`Alt-O`).
 - Go to Game Framing Settings :menuselection:`Editor Types --> Properties editor --> Scene`.
 - Enable Dome Mode.
 - Type filename in Warp Data field(ie. myDome.data).
