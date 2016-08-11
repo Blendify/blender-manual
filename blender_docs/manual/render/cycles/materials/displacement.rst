@@ -28,9 +28,9 @@ True Displacement
    Implementation not finished yet, marked as an :ref:`Experimental Feature Set <cycles-experimental-features>`
 
 
-When using True Displacement the :doc:`Subdivision Modifier </modeling/modifiers/generate/subsurf>`
-gets changed to control the subdivision of true displacement.
-For this all the other settings are the same except the *View* and *Render* settings. 
+When using *True Displacement* the :doc:`Subdivision Modifier </modeling/modifiers/generate/subsurf>`
+gets changed to control the subdivision of *True Displacement*.
+For this, all the other settings are the same except the *View* and *Render* settings. 
 These setting get removed and the following settings are added:
 
 .. figure:: /images/cycles_materials_displacement_mod.png
