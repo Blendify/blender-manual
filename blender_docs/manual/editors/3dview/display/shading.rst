@@ -30,12 +30,11 @@ Bounding Box
    Only shows rectangular boxes that outline an object's size and shape.
 
 Except for *Rendered*, these shading modes are not dependent on light sources in the scene.
-Instead they use a simple default lighting adjusted by the
-*Solid OpenGL Lights* controls on the *System* tab of the
-:doc:`User Preferences </preferences/system>` editor.
+Instead they use a simple default lighting adjusted by the *Solid OpenGL Lights*
+controls on the *System* tab of the :doc:`User Preferences </preferences/system>` editor.
 
 The viewport shading controls the appearance of all objects in a scene,
-but this can be overridden for individual objects using the Display panel in their Object Properties.
+but this can be overridden for individual objects using the *Display panel* in their *Object Properties*.
 
 .. rubric:: Keyboard Shortcuts
 
@@ -44,7 +43,7 @@ but this can be overridden for individual objects using the Display panel in the
 
    * - Switches between *Wireframe* and *Solid* draw modes
      - :kbd:`Z`
-   * - Switches between *Wireframe* and *Rendered* draw modes.
+   * - Switches between the current and *Rendered* draw modes.
      - :kbd:`Shift-Z`
    * - Switches between *Solid* and *Textured* draw modes.
      - :kbd:`Alt-Z`
