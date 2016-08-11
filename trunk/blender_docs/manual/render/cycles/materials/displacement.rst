@@ -4,12 +4,6 @@
 Displacement
 ************
 
-.. figure:: /images/cycles_materials_displacement_bump.jpg
-   :align: right
-
-   Bump Mapped Displacement.
-
-
 The shape of the surface and the volume inside its mesh may be altered by the displacement shaders.
 This way, textures can then be used to make the mesh surface more detailed.
 
@@ -53,7 +47,7 @@ Adaptive
 
    Dicing Rate
       When using *Adaptive* the *Render Levels* gets changed to *Dicing Rate*,
-      this property is used to multiply the scene dicing rate..
+      this property is used to multiply the :ref:`scene dicing rate <cycles-subdivision-rate>`.
 
       .. figure:: /images/cycles-displacement-dicing.jpg
 
@@ -62,6 +56,10 @@ Adaptive
 Levels
    The levels of subdivision to see in the final render,
    this works the same as the *Render* setting on the original *Subdivision Modifier*.
+
+.. figure:: /images/cycles_materials_displacement_example.png
+
+   Subdivision Rate 2, Bump, True, Both
 
 .. seealso::
 
