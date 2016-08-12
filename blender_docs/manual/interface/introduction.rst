@@ -5,8 +5,8 @@ Introduction
 
 .. _splash:
 
-Slash Screen
-============
+Splash Screen
+=============
 
 When starting Blender, the splash screen appears in the center of the window.
 
@@ -16,14 +16,14 @@ When starting Blender, the splash screen appears in the center of the window.
 
    Blender Splash Screen.
 
-To close the splash screen start a new project, 
+To close the splash screen start a new project,
 click anywhere outside the splash screen (but inside Blender Window) or press :kbd:`Esc`.
 The splash screen will disappear revealing the startup scene.
 
 To reopen the splash click on the Blender icon in the Info Editor header or
 select :menuselection:`Help --> Splash Screen` also in the Info Editor.
 
-Titel
+Title
    Besides the Blender icon and text, it shows the Blender version. i.e. the current version is |BLENDER_VERSION|.
 Image
    An image where you can identify package and version.
@@ -191,4 +191,3 @@ A pinned panel remains visible regardless of which tab has been selected.
 You can pin a panel by :kbd:`Shift` clicking its header, or by right clicking on the header and choosing *Pin*.
 
 Shown in the image above is an example of the *Mesh Options* pinned in the tools tab.
-
