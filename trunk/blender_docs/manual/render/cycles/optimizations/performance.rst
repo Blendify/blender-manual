@@ -5,6 +5,11 @@ Performance
 
 TODO.
 
+.. seealso::
+
+   See :doc:`Optimizing Node Performance </render/cycles/nodes/performance>`
+   for information on how nodes are internally optimized.
+
 
 Performance Panel
 =================

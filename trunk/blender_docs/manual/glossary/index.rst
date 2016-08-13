@@ -121,6 +121,8 @@ This page lists definitions for terms used in Blender and this manual.
    Bounding Volume Hierarchy
       A hierarchical structure of geometric objects.
 
+      See also `Bounding Volume Hierarchy <https://en.wikipedia.org/wiki/Bounding_volume_hierarchy>`__ on Wikipedia.
+
    Caustics
       Bright concentrations of light focused by specularly reflecting or refracting objects.
 
