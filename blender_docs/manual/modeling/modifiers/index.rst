@@ -20,7 +20,9 @@ Modify
    modify/normal_edit.rst
    modify/uv_project.rst
    modify/uv_warp.rst
-   modify/vertex_weight.rst
+   modify/weight_edit.rst
+   modify/weight_mix.rst
+   modify/weight_proximity.rst   
 
 Generate
 ========
