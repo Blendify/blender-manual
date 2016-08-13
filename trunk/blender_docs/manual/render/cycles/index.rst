@@ -14,8 +14,8 @@
    world.rst
    lamps.rst
    camera.rst
-   reducing_noise.rst
    features.rst
    gpu_rendering.rst
    osl.rst
    baking.rst
+   optimizations/index.rst
