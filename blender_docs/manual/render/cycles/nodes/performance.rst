@@ -3,38 +3,63 @@
 Performance
 ***********
 
-In order to make creating node shaders more convenient, Cycles applies a number of optimizations both at compile time and runtime. By exploiting them it is possible to design complicated Uber Shader style node groups that incur minimal render time overhead for unused features.
+In order to make creating node shaders more convenient,
+Cycles applies a number of optimizations both at compile time and runtime.
+By exploiting them it is possible to design complicated "Uber Shader"
+style node groups that incur minimal render time overhead for unused features.
+
 
 Node Optimizations
 ==================
 
-As the first step in preparing a node shader for execution, Cycles expands all node groups, as if using the Ungroup command, and discards UI only features like frames and reroute nodes.
+As the first step in preparing a node shader for execution,
+Cycles expands all node groups, as if using the Ungroup command,
+and discards UI only features like frames and reroute nodes.
 
-After that, it applies some obvious transformations. For example, it can (the list is not exhaustive):
+After that, it applies some obvious transformations
+For example, it can (the list is not exhaustive):
 
-* Replace the following nodes with the constant result of their evaluation, if all their inputs are determined to be constant:
+- Replace the following nodes with the constant result of their evaluation,
+  if all their inputs are determined to be constant:
 
-    RGB, Value, MixRGB, Math, Vector Math, RGB to BW, Gamma, Bright Contrast, Invert, Separate/Combine RGB/XYZ/HSV, Blackbody, RGB Curves, Vector Curves, Color Ramp
+    RGB, Value, MixRGB, Math, Vector Math, RGB to BW, Gamma, Bright Contrast,
+    Invert, Separate/Combine RGB/XYZ/HSV, Blackbody, RGB Curves, Vector Curves, Color Ramps.
 
-* Detect Mix RGB, Math and Vector Math nodes that become no-op (without Clamp) or evaluate to 0 as a result of addition, subtraction, multiplication, division or dot/cross product with a known constant 0 or 1 input, and replace with the apropriate input link or constant result.
-* Eliminate MixRGB Mix (without Clamp) and Mix Shader nodes when Fac is known to be 0 or 1 by replacing with the appropriate input value or link.
-* Eliminate no-op MixRGB (except Burn, Dodge, Lighten, or enabled Clamp), Invert, RGB Curves and Vector Curves nodes with known zero Fac.
-* Eliminate Emission and Background shader nodes that don't emit any light, and Add Shader nodes with one or both input arguments missing.
-* Eliminate Bump with constant Height input, using its Normal input or Geometry Normal instead.
-* Combine multiple copies of the same node with the same inputs into only one instance.
+- Detect Mix RGB, Math and Vector Math nodes that become no-op (without Clamp)
+  or evaluate to 0 as a result of addition, subtraction, multiplication,
+  division or dot/cross product with a known constant 0 or 1 input,
+  and replace with the apropriate input link or constant result.
+- Eliminate MixRGB Mix (without Clamp) and Mix Shader nodes when
+  Fac is known to be 0 or 1 by replacing with the appropriate input value or link.
+- Eliminate no-op MixRGB (except Burn, Dodge, Lighten, or enabled Clamp),
+  Invert, RGB Curves and Vector Curves nodes with known zero Fac.
+- Eliminate Emission and Background shader nodes that don't emit any light,
+  and Add Shader nodes with one or both input arguments missing.
+- Eliminate Bump with constant Height input, using its Normal input or Geometry Normal instead.
+- Combine multiple copies of the same node with the same inputs into only one instance.
 
 Finally, any nodes that end up not connected either directly or indirectly to the output node are removed.
+
 
 Runtime Optimizations
 =====================
 
-When executing shaders, a special optimization is applied to Mix Shader nodes. If Fac evaluates to 0 or 1, any nodes that are only reachable via the unused branch of the mix are not evaluated.
+When executing shaders, a special optimization is applied to Mix Shader nodes.
+If Fac evaluates to 0 or 1, any nodes that are only reachable via the unused branch of the mix are not evaluated.
 
-This can substantially reduce the performance cost of combining multiple materials in one shader with vertex color, texture, or other input used as a switch.
+This can substantially reduce the performance cost of combining multiple materials
+in one shader with vertex color, texture, or other input used as a switch.
+
 
 Open Shading Language
 =====================
 
-If Open Shading Language is chosen as the rendering back-end, node shaders are translated to OSL code and then compiled and executed by the OSL runtime. In the process it applies its own extensive set of optimizations, both at compile time and runtime.
+If Open Shading Language is chosen as the rendering back-end,
+node shaders are translated to OSL code and then compiled and executed by the OSL runtime.
+In the process it applies its own extensive set of optimizations, both at compile time and runtime.
 
-Open Shading Language can optimize out Script nodes if their outputs are unused or constant, even if their OSL shaders have side effects like debug tracing and message passing, which may be confusing. For that reason message passing with `setmessage` and `getmessage` should generally not be used for passing information forward in the graph; explicitly passing information through sockets should be preferred.
+Open Shading Language can optimize out Script nodes if their outputs are unused or constant,
+even if their OSL shaders have side effects like debug tracing and message passing,
+which may be confusing. For that reason message passing with `setmessage` and `getmessage`
+should generally not be used for passing information forward in the graph;
+explicitly passing information through sockets should be preferred.
