@@ -6,11 +6,10 @@ Vertex Weight Modifiers
 The Vertex Weight modifiers work on a vertex group of the affected object,
 by modifying its weights and/or which vertices belong to the vertex group.
 
+.. warning::
 
- .. warning::
-
-    These modifiers do implicit clamping of weight values in the standard (0.0 to 1.0) range.
-    All values below 0.0 will be set to 0.0, and all values above 1.0 will be set to 1.0.
+   These modifiers do implicit clamping of weight values in the standard (0.0 to 1.0) range.
+   All values below 0.0 will be set to 0.0, and all values above 1.0 will be set to 1.0.
 
 There are currently three Vertex Weight modifiers:
 
@@ -34,10 +33,10 @@ Global Influence
    The overall influence of the modifier
    (0.0 will leave the vertex group's weights untouched, 1.0 is standard influence).
 
- .. warning::
+   .. warning::
 
-   Influence only affects weights, adding/removing of vertices
-   to/from vertex group is not prevented by setting this value to 0.0.
+      Influence only affects weights, adding/removing of vertices
+      to/from vertex group is not prevented by setting this value to 0.0.
 
 Vertex Group Mask
    An additional vertex group, the weights of which will be
@@ -310,8 +309,7 @@ Add a (10×10 BU) 100×100 vertices grid, and in *Edit Mode*,
 add to it a vertex group containing all of its vertices, as above.
 You can even further sub-divide it with a first *Subsurf* modifier.
 
-Now add a curve circle, and place it 0.25 BU above the grid. Scale it up a bit 
-(e.g. 4.0 BU).
+Now add a curve circle, and place it 0.25 BU above the grid. Scale it up a bit (e.g. 4.0 BU).
 
 Back to the grid object, add to it a *Vertex Weight Proximity* modifier,
 in *Geometry Distance* mode. Enable *Edge*
@@ -346,7 +344,6 @@ and that is it! Your nice mountains just shrink to a flat plane near the curve c
 As in the previous example,
 you can insert a *Vertex Weight Edit* modifier before the *Displace* one,
 and play with the *Custom Curve* mapping to get a larger/narrower "valley"...
-
 
 .. list-table::
    *Curve Map* variations.
@@ -456,7 +453,6 @@ and above 0.75: this creates great "walls" in the waves...
           :width: 200px
 
           Custom Mapping enabled.
-
 
 .. vimeo:: 30188814
 
