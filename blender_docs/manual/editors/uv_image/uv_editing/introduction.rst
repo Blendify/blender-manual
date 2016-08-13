@@ -68,7 +68,7 @@ Properties Region
 .. figure:: /images/editors_image_properties.png
    :align: right
 
-   Image Editor Properties region.
+   UV/Image Editor Properties region.
 
 UV Vertex
    Transform Properties :doc:`Selecting UV's </editors/uv_image/uv_editing/layout_editing>`.
@@ -81,7 +81,7 @@ Display
    :doc:`Working with Images </editors/uv_image/uv_editing/applying_image>`.
 
 
-Display panel
+Display Panel
 -------------
 
 You can set the editors display options in the this panel.
