@@ -117,6 +117,10 @@ This page lists definitions for terms used in Blender and this manual.
    Bézier
       A computer graphics technique for generating and representing curves.
 
+   BVH
+   Bounding Volume Hierarchy
+      A hierarchical structure of geometric objects.
+
    Caustics
       Bright concentrations of light focused by specularly reflecting or refracting objects.
 

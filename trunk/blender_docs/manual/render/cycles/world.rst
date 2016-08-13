@@ -109,7 +109,7 @@ Max Bounces
 
 .. seealso::
 
-   See :doc:`Reducing Noise </render/cycles/reducing_noise>` for more information on how to reduce noise.
+   See :doc:`Reducing Noise </render/cycles/optimizations/reducing_noise>` for more information on how to reduce noise.
 
 
 Volume
