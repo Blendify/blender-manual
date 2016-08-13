@@ -97,17 +97,18 @@ Coordinates
       Display UV coordinates from 0.0 to 1.0 rather than in pixels.
 Cursor Location
    2D cursor location for this view.
-UVs: Edge draw type
-   Sets how UV edges are displayed.
-
-   Outline, Dash, Black, White
-Draw Faces
-   Draw faces over the image.
-Smooth
-   Makes edges appeared anti-aliased.
-Modified
-   Show results of modifiers in the UV display.
-Stretch
-   Shows how much of a difference there is between UV coordinates and 3D coordinates.
-   Blue means low distortion, while Red means high distortion.
-   Choose to display the distortion of *Angles* or the *Area*.
+UVs
+   Edge Draw Type
+      Sets how UV edges are displayed.
+   
+      Outline, Dash, Black, White
+   Draw Faces
+      Draw faces over the image.
+   Smooth
+      Makes edges appeared anti-aliased.
+   Modified
+      Show results of modifiers in the UV display.
+   Stretch
+      Shows how much of a difference there is between UV coordinates and 3D coordinates.
+      Blue means low distortion, while Red means high distortion.
+      Choose to display the distortion of *Angles* or the *Area*.
