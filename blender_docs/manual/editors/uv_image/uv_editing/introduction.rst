@@ -15,27 +15,27 @@ This is an overview of the tools found there. Using the UV editor is explained m
    UV/Image Editor for texturing.
 
 
-Header Region
-=============
+Header
+======
 
 .. figure:: /images/editors_image_texturing-header.png
 
    UV/Image Editor Header.
 
-The header bar contains several menus and options for working with UVs
+The header contains several menus and options for working with UVs.
 
-View Menu
+View
    Tools for, working with the editor and controlling how things are displayed.
    The properties panel has display options and manipulation tools.
-Select Menu
+Select
    Tools for :doc:`Selecting UV's </editors/uv_image/uv_editing/layout_editing>`
-Image Menu
+Image
    This contains options for when :doc:`Working with Images </editors/uv_image/uv_editing/applying_image>`
-UVs Menu
+UVs
    Contains tools for :doc:`Unwrapping Meshes </editors/uv_image/uv_editing/overview>`
    and :doc:`Editing UV's </editors/uv_image/uv_editing/layout_editing>`.
 
-Image Selector Menu
+Image data-block menu
    Select the image to apply when :doc:`Working with Images </editors/uv_image/uv_editing/applying_image>`.
 Pin Image
    Displays current image regardless of selected object.
@@ -43,7 +43,7 @@ Pivot Point Selector
    Similar to working with Pivot Points in the 3D View.
 Sync Selection
    Keeps UV and Mesh component selections in sync.
-Selection Modes:
+Selection Modes
    - Vertex
    - Edge
    - Face
@@ -53,22 +53,22 @@ Sticky Selection Mode
 Proportional Editing
    See :doc:`Proportional Editing </editors/3dview/transform/transform_control/proportional_edit>`.
 UV Snapping
-   Similar to Snapping in the 3D View
+   Similar to Snapping in the 3D View.
 Active UV Texture Map Selector
-   Select which UV texture to use
+   Select which UV texture to use.
 Image Channels to Draw
    Set the image to be displayed with *Color*, *Color and Alpha*, or just *Alpha*.
 Auto Update Other Affected Windows
    Update other affected windows automatically to reflect changes during interactive operations e.g. transfom.
 
 
-Properties Panel
-================
+Properties Region
+=================
 
 .. figure:: /images/editors_image_properties.png
    :align: right
 
-   Image Editor Properties Panel.
+   Image Editor Properties region.
 
 UV Vertex
    Transform Properties :doc:`Selecting UV's </editors/uv_image/uv_editing/layout_editing>`.
@@ -80,34 +80,33 @@ Display
    Controls display options for UVs and additional settings for when
    :doc:`Working with Images </editors/uv_image/uv_editing/applying_image>`.
 
-Display Options
----------------
 
-You can set how UVs are displayed in the *Display Panel*:
+Display panel
+-------------
+
+You can set the editors display options in the this panel.
 
 Aspect Ratio
    Display Aspect for this image. Does not affect rendering.
-
 Coordinates
-   Display UV coordinates
+   Display UV coordinates.
 
    Repeat
       Draw the image repeated outside of the main view.
    Normalized
-      Display UV coordinates from 0.0 to 1.0 rather than in pixels
-
+      Display UV coordinates from 0.0 to 1.0 rather than in pixels.
 Cursor Location
-   2D cursor location for this view
+   2D cursor location for this view.
+UVs: Edge draw type
+   Sets how UV edges are displayed.
 
-Outline/Dash/Black/White
-   Sets how UV edges are displayed
-
+   Outline, Dash, Black, White
 Draw Faces
-   Draw faces over the image
+   Draw faces over the image.
 Smooth
-   Makes edges appeared Antialiased
+   Makes edges appeared anti-aliased.
 Modified
-   Show results of modifiers in the UV display
+   Show results of modifiers in the UV display.
 Stretch
    Shows how much of a difference there is between UV coordinates and 3D coordinates.
    Blue means low distortion, while Red means high distortion.
