@@ -9,6 +9,7 @@
 
    introduction.rst
 
+
 Modify
 ======
 
@@ -17,12 +18,14 @@ Modify
 
    modify/data_transfer.rst
    modify/mesh_cache.rst
+   modify/mesh_sequence_cache.rst
    modify/normal_edit.rst
    modify/uv_project.rst
    modify/uv_warp.rst
    modify/weight_edit.rst
    modify/weight_mix.rst
    modify/weight_proximity.rst   
+
 
 Generate
 ========
@@ -47,6 +50,7 @@ Generate
    generate/triangulate.rst
    generate/wireframe.rst
 
+
 Deform
 ======
 
@@ -68,6 +72,7 @@ Deform
    deform/smooth.rst
    deform/warp.rst
    deform/wave.rst
+
 
 Simulate
 ========
