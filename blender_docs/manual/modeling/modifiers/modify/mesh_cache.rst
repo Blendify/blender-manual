@@ -9,7 +9,7 @@ played back, deforming the mesh.
 This works in a similar way to shape-keys but is aimed at playing back external files and is
 often used for interchange between applications.
 
-When using this modifier, the vertex locations are overwritten.
+.. note:: When using this modifier, the vertex locations are overwritten.
 
 
 Options
