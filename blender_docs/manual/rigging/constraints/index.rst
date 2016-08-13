@@ -23,6 +23,7 @@ Interface
    interface/influence.rst
    interface/the_stack.rst
 
+
 Motion Tracking
 ===============
 
@@ -32,6 +33,7 @@ Motion Tracking
    motion_tracking/camera_solver.rst
    motion_tracking/object_solver.rst
    motion_tracking/follow_track.rst
+
 
 Transform
 =========
@@ -49,6 +51,8 @@ Transform
    transform/limit_scale.rst
    transform/maintain_volume.rst
    transform/transformation.rst
+   transform/transform_cache.rst
+
 
 Tracking
 ========
@@ -63,6 +67,7 @@ Tracking
    tracking/spline_ik.rst
    tracking/stretch_to.rst
    tracking/track_to.rst
+
 
 Relationship
 ============
