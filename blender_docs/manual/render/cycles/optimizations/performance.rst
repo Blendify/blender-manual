@@ -44,7 +44,7 @@ Progressive Refine
 
    .. note::
 
-      File this feature does work for animations you can not stop rendering a frame early.
+      This feature does work for animations however, you can not stop rendering a frame early.
 
 Save Buffers
    Save the tiles for all RenderLayers and SceneNodes to files in the temp directory
