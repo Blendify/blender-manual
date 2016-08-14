@@ -40,6 +40,7 @@ needs_sphinx = '1.3'
 extensions = [
     'youtube',
     'vimeo',
+    'sphinx.ext.mathjax',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
