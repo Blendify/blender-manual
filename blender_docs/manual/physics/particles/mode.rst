@@ -103,7 +103,6 @@ Select Modes
 ------------
 
 .. figure:: /images/particle_select-display-mode.jpg
-   :width: 640px
 
 
 Path

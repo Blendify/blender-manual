@@ -166,8 +166,6 @@ and new Python API. The final version of this project was Blender 2.59 in August
 .. rubric:: Video: From Blender 1.60 to 2.50
 
 .. vimeo:: 8567074
-   :width: 640
-   :height: 360
 
 
 Blender 2.6x to 2.7x - Improvements & Stabalizing

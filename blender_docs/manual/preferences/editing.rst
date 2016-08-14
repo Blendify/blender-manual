@@ -6,7 +6,6 @@ Editing
 These preferences control how several tools will interact with your input.
 
 .. figure:: /images/user_prefs-editing_tab.png
-   :width: 640px
 
 
 Link Materials To

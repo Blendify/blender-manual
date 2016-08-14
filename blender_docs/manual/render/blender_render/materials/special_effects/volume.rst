@@ -458,6 +458,5 @@ and change the influence to emission and emission color. Change the blend to Mul
    The fire texture settings.
 
 .. figure:: /images/render3.jpg
-   :width: 640px
 
    The fire render.

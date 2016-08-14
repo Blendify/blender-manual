@@ -44,7 +44,6 @@ Pivot point
 Pivot points will become the center of symmetry.
 If the widget is turned on it will always show where the pivot point is.
 
-
 In Fig. :ref:`fig-mesh-deform-mirror-center` the pivot point default to
 median point of the selection of vertices in *Edit Mode*.
 This is a special case of the *Edit Mode* as explained on the

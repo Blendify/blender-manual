@@ -228,7 +228,6 @@ Depth
 -----
 
 .. figure:: /images/material-transp-3glassesexample.jpg
-   :width: 640px
 
    A simple scene with three glasses on a surface, and three lamps.
    Depth was set to 4, 8, 12, and 14, resulting in render times of 24 sec, 34 sec, 6 min, and 11 min respectively.

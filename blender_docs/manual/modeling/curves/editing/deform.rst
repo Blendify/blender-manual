@@ -133,6 +133,5 @@ Let us make a simple example:
 .. _fig-curves-deform-monkey-deform:
 
 .. figure:: /images/curvesdeform_examplemonkeyoncurve2.jpg
-   :width: 650px
 
    Monkey deformations.

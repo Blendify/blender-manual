@@ -19,7 +19,6 @@ decrease as the pointer is moved towards it. If the mouse pointer crosses from t
 the scale will continue in the negative direction and flip the element.
 
 .. figure:: /images/editors_3dview_transformations-basic-scale-scale_basic_usage.jpg
-   :width: 640px
 
    Basic scale usage. From left to right, the panels show: the original Object,
    a scaled down Object, a scaled up Object and a scale-flipped Object.
