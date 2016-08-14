@@ -61,7 +61,7 @@ Object Properties
 =================
 
 Motion blur settings can also be applied per object in the
-:doc:`Object Properties </editors/3dview/object/properties>`
+:doc:`Object Properties </editors/3dview/object/properties/introduction>`
 tab of the Properties editor.
 
 Deformation
