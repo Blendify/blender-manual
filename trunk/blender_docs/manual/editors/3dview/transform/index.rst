@@ -8,7 +8,7 @@
 
    introduction.rst
    basics/index.rst
-   duplication/index.rst
+   duplication.rst
    origns.rst
    transform_control/index.rst
    tools.rst

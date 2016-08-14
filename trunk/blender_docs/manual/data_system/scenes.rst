@@ -64,7 +64,7 @@ Full Copy
 
    To choose between these options,
    it is useful to understand the difference between *Objects* and *Object Data*.
-   See :doc:`Duplication </editors/3dview/transform/duplication/introduction>`.
+   See :doc:`Duplication </editors/3dview/transform/duplication>`.
 
    The choices for adding a scene, therefore, determine just how much of this information will be
    *copied from* the active scene to the new one, and how much will be *shared* (linked).

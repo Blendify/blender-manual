@@ -52,7 +52,7 @@ Look in the Outliner, with display mode set to *blend-file*, to see all your lin
 
    If you want to modify the object locally you can either:
 
-   Use :doc:`Dupli-Groups </editors/3dview/transform/duplication/dupligroup>`
+   Use :doc:`Dupli-Groups </editors/3dview/object/properties/duplication/dupligroup>`
       Instead of linking to *Objects* directly, it is often more useful to link in *Groups*,
       which can be assigned to empties and moved, while maintaining the link to the original file.
 
