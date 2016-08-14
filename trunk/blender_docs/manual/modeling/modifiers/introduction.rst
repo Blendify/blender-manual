@@ -8,7 +8,7 @@ you can perform many effects automatically that would otherwise be too tedious t
 (such as subdivision surfaces) and without affecting the base geometry of your object.
 
 They work by changing how an object is displayed and rendered, but not the geometry which you can edit directly.
-You can add several modifiers to a single object to form `The Modifier Stack`_ 
+You can add several modifiers to a single object to form `The Modifier Stack`_
 and *Apply* a modifier if you wish to make its changes permanent.
 
 .. figure:: /images/modifiers_menu.png

@@ -29,5 +29,5 @@ To see if and how you can use your GPU for rendering, see the documentation on
 
    - Blender.org's `Cycles Gallery <https://www.blender.org/features/cycles>`__
      showing examples of what Cycles can render.
-   - `Developer documentation <https://wiki.blender.org/index.php/Dev:Source/Render/Cycles>`__ 
+   - `Developer documentation <https://wiki.blender.org/index.php/Dev:Source/Render/Cycles>`__
      is available as well.

@@ -18,10 +18,10 @@ Inputs
 ======
 
 Value
-   First numerical value. The trigonometric functions accept values in radians. 
+   First numerical value. The trigonometric functions accept values in radians.
 
 Value
-   Second numerical value. 
+   Second numerical value.
    This value is **not** used in functions that accept only one parameter
    like the trigonometric functions, Round and Absolute.
 
@@ -80,7 +80,7 @@ Using Sine Function to Pulsate
 This example has a *Time node* putting out a linear sequence from 0 to 1 over the course of 101
 frames. The green vertical line in the curve widget shows that frame 25 is being put out,
 or a value of 0.25. That value is multiplied by 2 × pi and converted to 1.0 by the Sine function,
-since we all know that 
+since we all know that
 
 sin(2 × pi/ 4) = sin(pi/ 2) = +1.0.
 
@@ -105,7 +105,7 @@ Brightening/Scaling a Channel
 .. figure:: /images/compositing-node-math_multiply.jpg
 
 This example has a *Multiply node* increasing the luminance channel (Y)
-of the image to make it brighter. Note that you should use a *Map Value node* 
+of the image to make it brighter. Note that you should use a *Map Value node*
 with min() and max() enabled to clamp the output to valid values.
 With this approach, you could use a logarithmic function to make a high-dynamic range image.
 For this particular example,
@@ -117,7 +117,7 @@ Quantize/Restrict Color Selection
 
 In this example, we want to restrict the color output to only 256 possible values.
 Possible use of this is to see what the image will look like on an 8-bit cell phone display.
-To do this, we want to restrict the R, G and B values 
+To do this, we want to restrict the R, G and B values
 of any pixel to be one of a certain value, such that when they are combined,
 will not result in more than 256 possible values. The number of possible values of an output
 is the number of channel values multiplied by each other, or Q = R × G × B.
@@ -126,8 +126,8 @@ Since there are three channels and 256 values,
 we have some flexibility how to quantize each channel,
 since there are a lot of combinations of R × G × B that would equal 256. For example,
 if {R, G, B} = {4, 4, 16}, then 4 × 4 × 16 = 256. Also, {6, 6, 7} would give 252 possible values.
-The difference in appearance between {4, 4, 16} and {6, 6, 7} is that the first set 
-(4, 4, 16} would have fewer shades of red and green, but lots of shades of blue. 
+The difference in appearance between {4, 4, 16} and {6, 6, 7} is that the first set
+(4, 4, 16} would have fewer shades of red and green, but lots of shades of blue.
 The set {6, 6, 7} would have a more even distribution of colors.
 To get better image quality with fewer color values,
 give possible values to the predominant colors in the image.
@@ -203,7 +203,7 @@ we string the math nodes into a function that takes each red color, multiplies (
 it up by the desired number of divisions (6), offsets it by 0.5,
 rounds the value to the nearest whole number, and then divides the image pixel color by 5. So,
 the transformation is {0 to 1} becomes {0 to 6}, subtracting centers the medians to {-0.5 to 5.5}
-and the rounding to the nearest whole number produces {0, 1, 2, 3, 4, 5} 
+and the rounding to the nearest whole number produces {0, 1, 2, 3, 4, 5}
 since the function rounds down,
 and then dividing by five results in six values {0.0, 0.2, 0.4, 0.6, 0.8, 1.0}.
 

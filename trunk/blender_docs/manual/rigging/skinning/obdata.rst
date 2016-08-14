@@ -90,8 +90,8 @@ see the `Vertex Groups`_ description below.
 
 .. note::
 
-   Finally that for settings that are present in both the armature's 
-   *Armature panel* and in the objects' *Armature modifier panel* 
+   Finally that for settings that are present in both the armature's
+   *Armature panel* and in the objects' *Armature modifier panel*
    (namely, *Vertex Groups* */* *VertGroups* *,* *Envelopes*, *Quaternion* *and* *B-Bone Rest*),
    the modifier ones always override the armature ones. This means that if, for example,
    you only enable the *Envelopes* deformation method of the armature,
@@ -204,7 +204,7 @@ that controls the global influence of the bone over the deformed object,
 when using the envelopes method.
 It is only useful for the parts of geometry that are "shared",
 influenced by more than one bone (generally, at the joints...) - a bone with a high weight will
-have more influence on the result than one with a low weight... 
+have more influence on the result than one with a low weight...
 Note that when set to 0.0, it has the same effect as disabling the *Deform* option.
 
 Mult

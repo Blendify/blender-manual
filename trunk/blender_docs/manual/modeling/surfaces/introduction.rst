@@ -222,7 +222,7 @@ Guess what? Yes, it works exactly like :ref:`NURBS Curves <modeling-curve-weight
 how much each control point "pulls" on the curve.
 
 In Fig. :ref:`fig-surface-intro-weight` a single control point, labeled "C",
-has had its *Weight* set to 5.0 while all others are at their default of 1.0. 
+has had its *Weight* set to 5.0 while all others are at their default of 1.0.
 As you can see, that control point *pulls* the surface towards it.
 
 If all the control points have the same *Weight* then each effectively cancels each
@@ -257,7 +257,7 @@ you will note that the four different weights needed for creating a sphere
 Primitives
 ==========
 
-To help get started in creating surfaces there are four preset NURBS surfaces, found in the 
+To help get started in creating surfaces there are four preset NURBS surfaces, found in the
 :menuselection:`Add --> Surface --> NURBS Surface, NURBS Tube, NURBS Sphere and NURBS Torus`.
 
 .. figure:: /images/nurbsprimitives.jpg

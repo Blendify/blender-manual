@@ -28,7 +28,7 @@ Size
    Scales (multiply) the input value.
 Use Minimum, Maximum
    Enable this to activate their related operation.
-Min, Max 
+Min, Max
    Defines a range between minimum and maximum to :term:`clamp` the input value to.
 
 
@@ -54,7 +54,7 @@ suitable for connecting to a Blur node.
 Using Map Value to Multiply values
 ----------------------------------
 
-This node can also be used the map value node to multiply values to achieve a desired output value. 
+This node can also be used the map value node to multiply values to achieve a desired output value.
 In the mini-map to the right, the Time node outputs a value between 0.0 and 1.
 00 evenly scaled over 30 frames. The *first* Map Value node multiplies the input by 2,
 resulting in an output value that scales from 0.0 to 2.0 over 30 frames.

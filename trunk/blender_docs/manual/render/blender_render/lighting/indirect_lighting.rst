@@ -74,7 +74,7 @@ This method seems to tend to "over-occlude" the results.
 You have two complementary options to reduce this problem:
 
 Passes
-   Set the number of pre-processing passes, between (0 to 10) passes. 
+   Set the number of pre-processing passes, between (0 to 10) passes.
    Keeping the pre-processing passes high will increase render time, but will also
    clear some artifacts and over-occlusions.
 Error

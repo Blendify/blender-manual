@@ -22,7 +22,7 @@ The basic steps are:
 Edit Mode
 ---------
 
-Enable Editing 
+Enable Editing
    Enters or exits the edit mode :kbd:`D-Tab`.
 
 While in the grease pencil editing mode,
@@ -145,7 +145,7 @@ Strength
 Use Falloff
    Enables a linear falloff to calculate the influence of the brush on a point.
    That is, a point closer to the midpoint of the brush (i.e. the point under the cursor)
-   will get affected more than the ones at the edges. 
+   will get affected more than the ones at the edges.
 
 The brushes currently implemented are:
 
@@ -159,16 +159,16 @@ Thickness
    The Thickness Brush can be used to increase or decrease the thickness of the parts of the stroke under the cursor.
 Grab
    Takes the stroke points which fall within the brush circle when the sculpting action begins,
-   and allows you to translate this set of points. 
+   and allows you to translate this set of points.
 Push
    The Push Brush is very similar to the Grab brush, in that it also allows the user to translate stroke points.
    However, unlike the Grab Brush, the Push Brush is not restricted to operating only on the first set of points
    which were under the brush when the sculpt action was initiated. Instead, on each brush movement,
    the points currently under the brush get moved based on the amount
-   the brush has moved since the last time it was evaluated. 
+   the brush has moved since the last time it was evaluated.
 Twist
    Used to twist/rotate points around the cursor, creating a "swirling" effect.
-   It is useful for applying low levels of distortion to stroke points. 
+   It is useful for applying low levels of distortion to stroke points.
 Pinch/Inflate
    Used to draw points away from the cursor, or towards it.
 
@@ -184,7 +184,7 @@ Clone Brush
    Stamp + Smudge
       When the *Use Falloff* option is enabled, instead of moving all the newly pasted strokes by the same amount,
       only the points that are currently under the cursor get affected. Thus, this in this mode of operation,
-      the brush is closer to a Paste + Push operation instead. 
+      the brush is closer to a Paste + Push operation instead.
    Continuous
       As the brush moves, repeatedly just paste new copies for where the brush is now.
       In effect, this treats the contents of the copy buffer as the "brush template/kernel"

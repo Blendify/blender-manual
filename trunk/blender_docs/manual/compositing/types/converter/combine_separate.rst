@@ -17,7 +17,7 @@ This nodes could be use this to manipulate on each color channel independently.
 Each type is differentiate in the applied :term:`color space`.
 
 In compositing and texture context each node supports the Alpha channel.
-In the texture context only RGB color space is available. 
+In the texture context only RGB color space is available.
 In the shading context of the Blender internal adds HSV and
 the Cycles shading context offers a additional pair of nodes to combine/separate a vector (XYZ).
 

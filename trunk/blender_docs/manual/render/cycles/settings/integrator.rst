@@ -186,7 +186,7 @@ Filter Glossy
    for examples of the clamp settings in use.
 
 
-Geometry 
+Geometry
 ========
 
 Volume Sampling

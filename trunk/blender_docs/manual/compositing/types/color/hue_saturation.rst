@@ -13,7 +13,7 @@ Hue Saturation Node
    Hue Saturation Node.
 
 
-This node applies a color transformation in the HSV color space. 
+This node applies a color transformation in the HSV color space.
 Called "Hue Saturation Value" in shader and texture context.
 
 
@@ -33,7 +33,7 @@ The transformations are relative shifts.
 In the shader and texture context the following properties are available as input sockets.
 
 Hue
-   The Hue slider specifies how the hue rotation of the image. 
+   The Hue slider specifies how the hue rotation of the image.
    360° are mapped to (0 to 1). The hue shift of 0 (-180°) and 1 (+180°) have the same result.
 Saturation
    A saturation of 0 removes hues from the image, resulting in a grayscale image.

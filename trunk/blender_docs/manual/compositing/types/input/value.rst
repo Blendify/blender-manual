@@ -30,7 +30,7 @@ Outputs
 =======
 
 Value
-   The value set in the options. 
+   The value set in the options.
 
 
 Example

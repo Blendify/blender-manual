@@ -73,7 +73,7 @@ Since explaining this in an easy to understand technical way is hard,
 lets instead use an example to demonstrate.
 
 Assume that we have a scene consisting of three objects,
-those being two Empty Objects named "EmptyA" and "EmptyB", and a Monkey object. 
+those being two Empty Objects named "EmptyA" and "EmptyB", and a Monkey object.
 Fig. :ref:`fig-view3d-parent-scene-no` shows the three objects with no parenting relationships active on them.
 
 .. _fig-view3d-parent-scene-no:
@@ -166,7 +166,7 @@ between an Armature Object and its Child Objects.
 To use Armature Deform Parenting you must first select all the Child Objects that will be
 influenced by the Armature and then lastly, select the Armature Object itself. Once all the
 Child Objects and the Armature Object are selected press :kbd:`Ctrl-P` and select
-Armature Deform in the Set Parent To pop-up menu. 
+Armature Deform in the Set Parent To pop-up menu.
 
 .. figure:: /images/sr-3dvieweditorheader-objectmenu-parent-armature_deform.jpg
 
@@ -229,7 +229,7 @@ choosing to have bones in the armature influence them.
 For example, if you have an Armature Object which consists of three bones named "BoneA",
 "BoneB" and "BoneC" and Cube Mesh Object type called "Cube". If you parent the Cube Child Object to
 the Armature Parent Object the Cube will get three new Vertex Groups created on it called "BoneA",
-"BoneB" and "BoneC". Notice that each Vertex Group is empty. 
+"BoneB" and "BoneC". Notice that each Vertex Group is empty.
 
 .. figure:: /images/editors_3dview_header-objectmenu-parent-armature_deform_with_empty_groups-blend.jpg
 
@@ -263,11 +263,11 @@ on the armature and select the bone you are interested in by :kbd:`RMB` it.
 Once the bone of interest is selected navigate to
 :menuselection:`Properties Editor --> Bone --> Deform Panel`
 and check if the Deform tickable option is ticked or not. If it is the selected bone is a Deforming Bone,
-otherwise, it is a Control Bone. 
+otherwise, it is a Control Bone.
 
 .. figure:: /images/editors_3dview_parenting_bone-check.png
 
-   Three Bone Armature in *Pose* Mode with 1st bone selected. 
+   Three Bone Armature in *Pose* Mode with 1st bone selected.
 
 
 Armature Deform With Automatic Weights
@@ -312,7 +312,7 @@ The created Vertex Groups will then be assigned Influence Weights.
 The major difference is in the way those Influence Weights are calculated.
 
 Influence Weights that are calculated when using Armature Deform With Envelope Weights
-parenting are calculated entirely visually using Bone Envelopes. 
+parenting are calculated entirely visually using Bone Envelopes.
 
 .. _fig-view3d-parent-envelope:
 
@@ -328,12 +328,12 @@ The gray semi-transparent volume around the bone is the Bone Envelope.
 
 Any Child Object that has vertices inside the volume of the Bone Envelope will be influenced by
 the Parent Object Armature when the Armature Deform With Envelope Weights operator is used.
-Any vertices outside the Bone Envelope volume will not be influenced. 
-When the bones are transformed in Pose Mode the results are very different. 
+Any vertices outside the Bone Envelope volume will not be influenced.
+When the bones are transformed in Pose Mode the results are very different.
 
 .. figure:: /images/to-3dvieweditorheader-objectmenu-parent-armature_deform_with_envelope_weights.jpg
 
-   Two sets of Armatures each with three bones. 
+   Two sets of Armatures each with three bones.
 
 
 The default size of the Bone Envelope volume does not extend very far from the surface of a bone;
@@ -349,7 +349,7 @@ switch to Edit Mode or Pose Mode and then pressing
 You can also alter the Bone Envelope volume by selecting the Bone you wish to alter and
 switching to Edit Mode or Pose Mode,
 then navigate to :menuselection:`Properties Editor --> Bone --> Deform --> Envelope --> Distance`
-then enter a new value into it. 
+then enter a new value into it.
 
 .. figure:: /images/tq-3dvieweditorheader-objectmenu-parent-armature_deform_with_envelope_weights.jpg
 

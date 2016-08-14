@@ -16,7 +16,7 @@ Inputs
 Fac
    Controls the amount of influence the node exerts on the output image
 Image
-   Standard image input. 
+   Standard image input.
 
 
 Properties

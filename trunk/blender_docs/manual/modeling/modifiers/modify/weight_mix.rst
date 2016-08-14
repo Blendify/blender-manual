@@ -149,9 +149,9 @@ Add a first *Vertex Weight Mix* modifier,
 set the *Vertex Group A* field with a *Default Weight A* of 0.0,
 and set *Default Weight B* to 1.0.
 
-Leave the *Mix Mode* to *Replace weights*, and select *All vertices* as *Mix Set*. 
+Leave the *Mix Mode* to *Replace weights*, and select *All vertices* as *Mix Set*.
 This way, all vertices are affected. As none are in the affected vertex group,
-they all have a default weight of 0.0, which is replaced by the second default weight 
+they all have a default weight of 0.0, which is replaced by the second default weight
 of 1.0. And all those vertices are also added to the affected vertex group.
 
 Now, select or create a masking texture.
@@ -188,8 +188,8 @@ you must add the famous *Vertex Weight Edit* modifier,
 and enable its *Custom Curve* mapping.
 
 By default, it's a one-to-one linear mapping - in other words,
-it does nothing! Change it to something like in Fig. :ref:`fig-modifier-vertex-weight-custom`, 
-which maps (0.0, 0.5) to (0.0, 0.25) and (0.5,1.0) to (0.75, 1.0), 
+it does nothing! Change it to something like in Fig. :ref:`fig-modifier-vertex-weight-custom`,
+which maps (0.0, 0.5) to (0.0, 0.25) and (0.5,1.0) to (0.75, 1.0),
 thus producing nearly only weights below 0.25,
 and above 0.75: this creates great "walls" in the waves...
 

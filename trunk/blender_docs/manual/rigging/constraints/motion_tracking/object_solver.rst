@@ -40,7 +40,7 @@ Camera
    Select the camera to which the motion is parented to (if active empty scene camera is used)
 Set Inverse
    Moves the origin of the object to the origin of the camera
-Clear Inverse 
+Clear Inverse
    Moves the origin of the object back to the spot set in the -
    Movie Clip Editor:(t)tool shelf-->Solve-->Orientation-->Set Origin.
 Constraint to F-Curve

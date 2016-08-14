@@ -60,7 +60,7 @@ Resolution
                 10cm mug at Resolution 200.
 
 
-   .. note:: 
+   .. note::
 
       The amount of required memory quickly increases: a resolution of 32 requires ca. 4MB,
       64 requires ca. 30MB, while 128 already needs more than 230MB. Make sure to set the resolution low enough,
@@ -113,7 +113,7 @@ Time
    .. tip:: Start and end times have nothing to do with how many frames are baked
 
       If you set *Start* time to 3.0, and *End* time to 4.0, you will simulate 1 second of fluid motion.
-      That one second of fluid motion will be spread across however-many frames are set in 
+      That one second of fluid motion will be spread across however-many frames are set in
       :menuselection:`Render --> Dimensions`.
 
       This means, for example, that if you have Blender set to make 250 frames at 25 fps, the fluid

@@ -8,7 +8,7 @@ Levels Node
 
    Levels Node.
 
-The Levels Node read the inputs color channels 
+The Levels Node read the inputs color channels
 and outputs analytical values.
 
 

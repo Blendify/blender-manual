@@ -15,7 +15,7 @@ Object Modes
 which means that whole Blender application is always in a singular mode,
 and that the available modes vary depending on the selected active object's type -
 most of them only enable the default *Object Mode* (like cameras, lamps, etc.).
-Each mode is designed to edit an aspect of the selected object. 
+Each mode is designed to edit an aspect of the selected object.
 See Tab. :ref:`tab-view3d-modes` below for details.
 
 You set the current mode in the *Mode* drop-down list of *3D View* header
@@ -41,7 +41,7 @@ Modes might affect many things in Blender:
 .. list-table::
    Blender's Modes
    :header-rows: 1
-   :widths: 10 25 15 50 
+   :widths: 10 25 15 50
 
    * - Icon
      - Name

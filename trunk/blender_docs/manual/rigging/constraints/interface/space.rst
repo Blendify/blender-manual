@@ -45,7 +45,7 @@ World Space
    Location is relative to the world origin.
    Rotation and Scale are oriented to the world axes.
    Transformations to the object, the object's parent and any other constraints
-   higher up in the constraint stack are all taken into account. 
+   higher up in the constraint stack are all taken into account.
 
 Local Space
    In this space type the parent of the object (or bone) is the frame of reference.

@@ -199,7 +199,7 @@ Irregular shadow method is used to generate sharp/hard shadows that are placed a
 This method offers very good performance because it can be done as a multi-threaded process.
 
 This method supports transparent shadows.
-To do so, you will first need to setup the shadow setting for the object which will receive the transparent shadow 
+To do so, you will first need to setup the shadow setting for the object which will receive the transparent shadow
 :menuselection:`Material --> Shadow --> Cat Buffer Shadows and Buffer Bias`.
 
 

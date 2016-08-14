@@ -174,8 +174,8 @@ Interaction in real time
 ========================
 
 To work with a Soft Body simulation you will find it handy to use the Timeline editor.
-You can change between frames and the simulation will always be shown in the actual state. 
-The option *Continue Physics* in the *Playback* menu 
+You can change between frames and the simulation will always be shown in the actual state.
+The option *Continue Physics* in the *Playback* menu
 of the *Timeline* editor lets you interact in real time with the simulation,
 e.g. by moving collision objects or shake a Soft Body object.
 

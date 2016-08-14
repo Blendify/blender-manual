@@ -3,7 +3,7 @@
 Display
 *******
 
-The *Display* panel in the *Render* tab of the *Properties* editor, 
+The *Display* panel in the *Render* tab of the *Properties* editor,
 let the game developer specify the maximum frame rate of the animations shown during
 the game execution, whether to see informations like framerate and profile, debug properties,
 physics geometry visualization, warnings,

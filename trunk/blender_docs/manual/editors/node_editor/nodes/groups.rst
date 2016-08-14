@@ -24,14 +24,14 @@ ignore exactly how it is "defined", and simply use it as many times as you like.
 Grouping Nodes
 ==============
 
-To create a node group, in the node editor, select the nodes you want to include, then 
-press :kbd:`Ctrl-G`, :menuselection:`Group --> Make Group`, :kbd:`Shift-A`. 
-A node group will have a green title bar. All of the selected nodes will now be contained within the group node. 
-Default naming for the node group is "NodeGroup", "NodeGroup.001" etc. 
-There is a name field in the node group you can click into to change the name of the group. 
-Change the name of the node group to something meaningful. 
-When appending node groups from one blend file to another, 
-Blender does not make a distinction between material node groups or composite node groups, 
+To create a node group, in the node editor, select the nodes you want to include, then
+press :kbd:`Ctrl-G`, :menuselection:`Group --> Make Group`, :kbd:`Shift-A`.
+A node group will have a green title bar. All of the selected nodes will now be contained within the group node.
+Default naming for the node group is "NodeGroup", "NodeGroup.001" etc.
+There is a name field in the node group you can click into to change the name of the group.
+Change the name of the node group to something meaningful.
+When appending node groups from one blend file to another,
+Blender does not make a distinction between material node groups or composite node groups,
 so it is recommended some naming convention, that will allow you to easily distinguish between the two types.
 
 .. note::
@@ -70,7 +70,7 @@ connections are lost, and now you can thread internal nodes to other nodes in yo
 Appending Node Groups
 =====================
 
-Once you have appended a NodeTree to your blend-file, you can make use of it in the node editor by 
+Once you have appended a NodeTree to your blend-file, you can make use of it in the node editor by
 pressing :kbd:`Shift-A`, :menuselection:`Add --> Group`, then select the appended group.
 The "control panel" of the Group is the individual controls for the grouped nodes.
 You can change them by working with the Group node like any other node.

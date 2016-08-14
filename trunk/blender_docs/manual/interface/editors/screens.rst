@@ -31,7 +31,7 @@ you can use the search function at the bottom of the list (pictured right).
 :Video Editing: Cutting and editing of animation sequences.
 
 Screens can be selected in the *Info Editor* header that is at the top of the
-layout for preset screens. 
+layout for preset screens.
 
 To cycle between screens use :kbd:`Ctrl-Right` and :kbd:`Ctrl-Left`.
 

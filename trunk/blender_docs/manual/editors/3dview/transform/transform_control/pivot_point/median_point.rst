@@ -30,7 +30,7 @@ Objects' mesh.
 
 .. figure:: /images/editors_3dview_transform_control-pivot_point-median_point-median-point-objects.jpg
 
-   Median points in Object Mode. 
+   Median points in Object Mode.
 
    The Median point is indicated by the yellow dot.
 

@@ -17,7 +17,7 @@ Inputs
 Color
    The diffuse color or texture.
 Spec
-   The specular color or texture that is reflected as the point of view get perpendicular 
+   The specular color or texture that is reflected as the point of view get perpendicular
    to the light source reflecting off the surface.
 DiffuseIntensity
    Amout of diffuse scattering.
@@ -82,6 +82,6 @@ the yellow specular color mix in becomes visible.
 
 .. note:: Enable Spec
 
-   To see specularity, the specular toggle has to be enabled,  
+   To see specularity, the specular toggle has to be enabled,
    which is located just below the material color swatch in the node.
 

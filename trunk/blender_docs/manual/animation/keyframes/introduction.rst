@@ -46,7 +46,7 @@ Bake Action
 :menuselection:`Object --> Animation --> Bake action`
 (Or if you are in Pose Mode, :menuselection:`Pose --> Animation --> Bake action`)
 
-This will apply interpolated frames into individual key frames. 
+This will apply interpolated frames into individual key frames.
 
 Useful for adding deviation to a cyclic action like a walk cycle.
 

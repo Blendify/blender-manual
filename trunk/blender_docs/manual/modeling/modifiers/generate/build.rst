@@ -6,7 +6,7 @@ Build Modifier
 The Build modifier causes the faces of the mesh object to appear one after the other over time.
 
 By default, faces appear in the order in which they are stored in memory (by default, the order of creation).
-The face/vertex order can be altered in Edit Mode by selecting 
+The face/vertex order can be altered in Edit Mode by selecting
 :doc:`Sort Mesh Elements </modeling/meshes/editing/misc>` from the *Search Menu* :kbd:`Spacebar`
 
 .. note::

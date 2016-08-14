@@ -36,7 +36,7 @@ Texture Interpolation
       Bicubic when magnifying else Bilinear is used. This is only available for :doc:`OSL </render/cycles/osl>`.
 
 Projection Method
-   Allows you to use different types of environmental maps. The following methods are supported: 
+   Allows you to use different types of environmental maps. The following methods are supported:
 
    Equirectangular
       Projection from an Equirectangular photo.

@@ -37,7 +37,7 @@ The curve needed to support feathering in a way that stuck to the curve as you e
 for ease of editing an animation. These are called S-Curves.
 
 Besides the handles, every control point also has points that define the feather between
-the current point and the next point on the spline. Each feather point is stored in UV space, 
+the current point and the next point on the spline. Each feather point is stored in UV space,
 where U means position across spline segment, and V means distance between main spline and feather points.
 
 .. figure:: /images/editors_movie-clip_masking_scurve.png
@@ -61,7 +61,7 @@ This makes it possible to define a mask with few points to easily follow an obje
    - :kbd:`Ctrl-LMB` is used to place new control points and define handle orientations
    - :kbd:`Alt-C` to close the mask by joining the last control point to the first.
    - Existing control points can be translated, scaled and rotated with the usual G, S, R shortcuts.
-   - :kbd:`X` or Delete removes control points. 
+   - :kbd:`X` or Delete removes control points.
 
 Selection
 ---------
@@ -72,7 +72,7 @@ The usual selection and hide/reveal tools are available:
    - :kbd:`B` , :kbd:`C` border and circle Select
    - :kbd:`Ctrl-L` select linked from selection, L: select linked with mouse
    - :kbd:`Ctrl-Alt-LMB` lasso select
-   - :kbd:`H` hide selected, :kbd:`Shift-H` hide unselected, :kbd:`Alt-H` reveal 
+   - :kbd:`H` hide selected, :kbd:`Shift-H` hide unselected, :kbd:`Alt-H` reveal
 
 Curve Handles
 -------------
@@ -80,7 +80,7 @@ Curve Handles
    - :kbd:`Alt-C` cycle toggle spline, to create a close curve or open it again
    - :kbd:`V` set handle type for selected spline points
    - :kbd:`Ctrl-N` make normals (handle directions) consistent
-   - Switch Direction handle directions in/out. 
+   - Switch Direction handle directions in/out.
 
 .. _mask-feather:
 
@@ -95,7 +95,7 @@ non-linear feather is controlled in the same curve-based way to define feather f
      sliding from a spline control point outside or inside will create and position feather points.
      After this :kbd:`Shift-LMB`
      will insert new feather point and mouse sliding can be used to move them around.
-   - :kbd:`Alt-S` will scale the feather size. 
+   - :kbd:`Alt-S` will scale the feather size.
 
 
 Animating
@@ -108,7 +108,7 @@ e.g. a running actor. This animation can be done in several ways:
      This way is the main way to interact with masks in a motion tracking workflow.
    - Keyframe animation of control points using a shape keying system.
      This can be useful when there are not enough good feature points to track in the footage,
-     or the mask is not based on footage. 
+     or the mask is not based on footage.
 
 For animation more complex mask shapes, it is also possible to do more high level animation:
 

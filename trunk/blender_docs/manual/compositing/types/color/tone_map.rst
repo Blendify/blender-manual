@@ -23,7 +23,7 @@ Inputs
 ======
 
 Image
-   HDR image. 
+   HDR image.
 
 Properties
 ==========
@@ -51,5 +51,5 @@ Outputs
 =======
 
 Image
-   LDR image. 
+   LDR image.
 

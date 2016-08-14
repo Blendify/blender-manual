@@ -343,7 +343,7 @@ Switch Direction
      :menuselection:`Specials --> Switch Direction`
 
 
-This command will "reverse" the direction of any curve with at least one selected element 
+This command will "reverse" the direction of any curve with at least one selected element
 (i.e. the start point will become the end one, and *vice versa*).
 Mainly useful when using a curve as path, or the bevel and taper options...
 

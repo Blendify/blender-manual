@@ -135,7 +135,7 @@ The relationship of the above values is described here:
 
 To obtain a nice wave effect similar to sea waves and close to a sinusoidal wave,
 make the distance between following ripples and the ripple width equal; that is,
-the *Narrowness* value must be equal to 2/ *Width*. 
+the *Narrowness* value must be equal to 2/ *Width*.
 E.g. for *Width* to be 1, set *Narrow* to 2.
 
 

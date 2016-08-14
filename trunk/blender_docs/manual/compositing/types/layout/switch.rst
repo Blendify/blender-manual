@@ -8,7 +8,7 @@ Switch Node
 
    Switch Node.
 
-Switch between two images using a checkbox. 
+Switch between two images using a checkbox.
 
 Inputs
 ======

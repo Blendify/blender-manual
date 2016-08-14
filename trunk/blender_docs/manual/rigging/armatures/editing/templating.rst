@@ -142,7 +142,7 @@ No, View, Joint buttons
 
 
 .. list-table::
-   Templating: bone roll example. 
+   Templating: bone roll example.
 
    * - .. figure:: /images/riggingtemplatingbonerollexno.jpg
           :width: 200px

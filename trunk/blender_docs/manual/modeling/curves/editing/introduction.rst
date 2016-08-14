@@ -117,7 +117,7 @@ Smoothing
 
 Curve smoothing is available through the specials menu. For Bézier curves, this smoothing
 operation reduces the distance between the selected control point/s and
-their neighbors, while keeping the neighbors anchored. 
+their neighbors, while keeping the neighbors anchored.
 Does not effect control point tangents.
 
 .. figure:: /images/modeling_curves_smoothing_example1.jpg
@@ -438,7 +438,7 @@ To select a mesh(that is in view) while editing a curve, :kbd:`Ctrl-P` click on 
 Select either one or three control points,
 then :kbd:`Ctrl-RMB` the object and use :kbd:`Ctrl-P` to make a vertex parent.
 Selecting three control points will make the child follow
-the median point between the three vertices. An alternative would be to use a 
+the median point between the three vertices. An alternative would be to use a
 :doc:`Child of Constraint </rigging/constraints/relationship/child_of>`
 
 

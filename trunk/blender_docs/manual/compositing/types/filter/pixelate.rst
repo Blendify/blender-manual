@@ -46,7 +46,7 @@ The background image will be unchanged.
 
 Now add a Pixelate node between the two scale nodes.
 
-.. note:: 
+.. note::
 
    You can use :kbd:`Alt-V` and :kbd:`V` to zoom the backdrop in and out respectively.
 

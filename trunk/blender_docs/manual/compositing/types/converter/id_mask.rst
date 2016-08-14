@@ -16,8 +16,8 @@ Inputs
 ======
 
 ID value
-   Input for the Object index "IndexOb"  or material index "IndexMa" pass. 
-   Which is an output of the :doc:`RenderLayers node </compositing/types/input/render_layers>` or 
+   Input for the Object index "IndexOb"  or material index "IndexMa" pass.
+   Which is an output of the :doc:`RenderLayers node </compositing/types/input/render_layers>` or
    the :doc:`Image node </compositing/types/input/render_layers>` with a multilayer format.
 
 
@@ -25,7 +25,7 @@ Properties
 ==========
 
 Index
-   Selection of the preciously specified index. 
+   Selection of the preciously specified index.
 Anti-Aliased
    This post-process function refines the mask. See :term:`anti-aliasing`.
 
@@ -53,7 +53,7 @@ Setup
 An index can be specify for any object or material in the scene.
 The Object Index can be set in Properties Editor :menuselection:`Object --> Relations --> Pass Index` and
 :menuselection:`Material --> Options --> Pass Index` for the Material Index.
-To be accessible after rendering, the Object Index "IndexOb"  or 
+To be accessible after rendering, the Object Index "IndexOb"  or
 Material Index "IndexMa" render pass has to be enabled.
 
 

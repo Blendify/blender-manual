@@ -22,18 +22,18 @@ Object
    The name of the mesh object to be used as a deforming mesh cage.
 
 Vertex Group
-   An optional vertex group of the object's mesh to restrict the vertices that 
+   An optional vertex group of the object's mesh to restrict the vertices that
    will be affected by this modifier.
    Vertices not in this group will not be deformed.
 
 Invert <->
-   Inverts the influence of the selected vertex group, meaning that the group 
+   Inverts the influence of the selected vertex group, meaning that the group
    now represents vertices that will not be deformed by the modifier.
 
    (The setting reverses the weight values of the group).
 
 Precision
-   The *Precision* numeric slider field controls the accuracy with which the 
+   The *Precision* numeric slider field controls the accuracy with which the
    deform mesh cage alters the deformed object, when the points on the cage are moved.
    Raising this value higher can greatly increase the time it takes the *Mesh Deform*
    modifier to complete its binding calculations,

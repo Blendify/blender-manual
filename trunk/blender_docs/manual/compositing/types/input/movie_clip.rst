@@ -11,11 +11,11 @@ Movie Clip
 
 This node is a special node that uses some of the values taken from
 footage cameras and trackings and links them to the output.
-It is possible to load image sequences, but only Image and Alpha values 
-will be available, because  the other outputs won't have any values 
+It is possible to load image sequences, but only Image and Alpha values
+will be available, because  the other outputs won't have any values
 associated with them.
-When a tracked clip is chosen, Blender will fulfill the outputs using 
-internal values taken from the tracking. So the controls for 
+When a tracked clip is chosen, Blender will fulfill the outputs using
+internal values taken from the tracking. So the controls for
 start and end frames will be defined at the movie clip editor.
 
 
@@ -47,5 +47,5 @@ Offset Y
    The Y offset value from the footage camera or tracking.
 Scale
    The scale of the image taken from the footage camera or tracking.
-Angle 
+Angle
    The lens angle taken from the footage camera or tracking.

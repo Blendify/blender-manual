@@ -27,10 +27,10 @@ Z
 Properties
 ==========
 
-Bokeh Type 
+Bokeh Type
    The number of iris blades of the virtual camera's diaphragm.
 
-   Disk (to emulate a perfect circle) or Triangle (3 blades), Square (4 blades), 
+   Disk (to emulate a perfect circle) or Triangle (3 blades), Square (4 blades),
    Pentagon (5 blades), Hexagon (6 blades), Heptagon (7 blades) or Octagon (8 blades).
 Angle
    This button is deactivated, if the Bokeh Type is set to Disk.
@@ -63,7 +63,7 @@ Scene
    To select the linked scene.
 No Z-buffer
    Should be activate for a non Z-buffer in the Z input.
-   No Z-buffer will be enabled automatically 
+   No Z-buffer will be enabled automatically
    whenever a node that is not image based is connected to the Z input.
 Z Scale
    Only active when *No Z-buffer* is enabled. When *No Z-buffer* is used,

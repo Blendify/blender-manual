@@ -15,7 +15,7 @@ Inputs
 ======
 
 Image
-   Standard image input. 
+   Standard image input.
 Bright
    A multiplier-type factor by which to increase the overall brightness
    of the image. Use a negative number to darken an image.
@@ -32,7 +32,7 @@ Outputs
 =======
 
 Image
-   Standard image input. 
+   Standard image input.
 
 
 Notes
@@ -42,7 +42,7 @@ Notes
    :width: 320px
 
 
-It is possible that this node will put out a value set that has values beyond the normal range, 
+It is possible that this node will put out a value set that has values beyond the normal range,
 i. e. values greater than one and less than zero.
 If you will be using the output to mix with other images in the normal range,
 you should clamp the values using the Map Value node (with the Min and Max enabled),

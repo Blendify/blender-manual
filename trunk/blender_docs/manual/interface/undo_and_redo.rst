@@ -15,7 +15,7 @@ Undo
 
 If you want to undo your last action, just press :kbd:`Ctrl-Z`
 
-.. seealso:: 
+.. seealso::
 
    :doc:`Editing Preferences </preferences/editing>` section on undo to change defaults.
 
@@ -52,7 +52,7 @@ the contents of the Pop-Up menu are different, because of your mode (Edit Mode).
 
    Redo last.
 
-   Left Image: Redo Last- Rotation (Object Mode, 60 degrees), 
+   Left Image: Redo Last- Rotation (Object Mode, 60 degrees),
    Right Image: Redo Last- Scale (Edit Mode, Resize face)
 
 

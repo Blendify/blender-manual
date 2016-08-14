@@ -11,7 +11,7 @@ Displace Node
 
 This node displaces the pixel position based on an input vector.
 
-This node could be used to model phenomena, like hot air distortion, 
+This node could be used to model phenomena, like hot air distortion,
 refractions of uneven glass or for surreal video effects.
 
 Inputs
@@ -28,7 +28,7 @@ Vector
    the input image will be displaced equally in both X and Y directions.
 Scale X, Y
    Separate scaling of the vector input in X- and Y-direction.
-   Acting as multipliers by increasing or decreasing the strength of the 
+   Acting as multipliers by increasing or decreasing the strength of the
    displacement along their respective axes.
 
 

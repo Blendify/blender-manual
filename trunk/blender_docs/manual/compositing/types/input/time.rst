@@ -24,7 +24,7 @@ Properties
 ==========
 
 Curve
-   The Y-value defined by the curve is the factor output. 
+   The Y-value defined by the curve is the factor output.
    For the curve controls see: :ref:`Curve widget <ui-curve_widget>`.
 
    .. tip::
@@ -41,8 +41,8 @@ Outputs
 =======
 
 Fac
-   A speed of time factor (from 0.00 to 1.00) relative to the frame rate 
-   defined in the :ref:`Render Dimensions Panel <render_output-dimensions>`. 
+   A speed of time factor (from 0.00 to 1.00) relative to the frame rate
+   defined in the :ref:`Render Dimensions Panel <render_output-dimensions>`.
    The factor changes according to the defined curve.
 
 

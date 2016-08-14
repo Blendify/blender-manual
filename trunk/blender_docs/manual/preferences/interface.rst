@@ -143,7 +143,7 @@ Pie Menus
 Animation Timeout
    Length of animation when opening Pie Menus.
 Recenter Timeout
-   The window system tries to keep the pie menu within the window borders. 
+   The window system tries to keep the pie menu within the window borders.
    Pie menus will use the initial mouse position as center for this amount of time, measured in 1/100ths of a second.
    This allows for fast dragged selections.
 Radius

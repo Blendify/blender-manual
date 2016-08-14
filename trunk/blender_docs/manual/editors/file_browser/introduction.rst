@@ -32,8 +32,8 @@ The main purpose of this is to be able to drag media files.
 .. rubric:: Opening a Image Sequence
 
 The filename of the images must contain a digit, indicating the frame.
-The sequence could be opened by the selection of the images and 
-by the confirm with the *Open image* button or :kbd:`Return`.  
+The sequence could be opened by the selection of the images and
+by the confirm with the *Open image* button or :kbd:`Return`.
 
 
 Shortcuts
@@ -80,7 +80,7 @@ It is also possible to select/deselect files by "walking" through them using the
 - Just using an arrow key, the next file in the chosen direction will be selected and all others deselected
 - Holding down shift while doing this doesn't deselect anything so it extends to the selection,
   plus it allows to deselect files by navigating into a block of already selected ones (minimum two files in sequence)
-- Holding down ctrl and shift further selects/deselects all files in-between 
+- Holding down ctrl and shift further selects/deselects all files in-between
 
 If no file is selected, the arrow key navigation selects the first or last file in the directory,
 depending on the arrow direction.

@@ -57,7 +57,7 @@ By selecting *Curve Deform*, you enable the curve deform function on the mesh ob
 
 The dominant axis setting is set on the mesh object.
 By default the dominant axis in Blender is the Y Axis.
-This can be changed by selecting one of the 
+This can be changed by selecting one of the
 *Track* X, Y or Z buttons in the *Animation* Panel,
 (*Animation settings panel*), in Object tab.
 
@@ -92,7 +92,7 @@ Let us make a simple example:
    Edit Curve.
 
 
-- While in *Edit Mode*, move the control points of the curve 
+- While in *Edit Mode*, move the control points of the curve
   as shown in Fig. :ref:`fig-curves-deform-edit`, then exit *Edit Mode* :kbd:`Tab`.
 
 .. _fig-curves-deform-monkey-curve:

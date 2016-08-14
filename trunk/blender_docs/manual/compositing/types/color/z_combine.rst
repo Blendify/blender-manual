@@ -10,7 +10,7 @@ Z-Combine Node
    Z Combine Node.
 
 
-The Z-Combine node combines two images based on their Z-depth maps. 
+The Z-Combine node combines two images based on their Z-depth maps.
 It overlays the images using the provided Z values to
 detect which parts of one image are in front of the other.
 
@@ -117,6 +117,6 @@ The resulting image appears to have the cube on the table.
    If a foreground image with a higher Alpha than the background,
    is then mixed in the Z-combine with a slightly magnified background,
    the outline of the transparent area will distort the background,
-   enough to make it look like seeing a part of the background through 
+   enough to make it look like seeing a part of the background through
    an invisible yet Fresnel-lens object.
 

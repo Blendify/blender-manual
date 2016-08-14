@@ -224,8 +224,8 @@ While in camera view, you can define a subregion to render by drawing out a rect
 Your renders will now be limited to the part of scene visible within the render border.
 This can be very useful for reducing render times for quick previews on an area of interest.
 
-The border can be disabled by disabling the *Border* option in the *Dimensions* panel 
-in the *Render* tab or by activating the option again and 
+The border can be disabled by disabling the *Border* option in the *Dimensions* panel
+in the *Render* tab or by activating the option again and
 selecting *Render Border* larger than the camera view.
 
 .. I think this has been changed in 2.78:
