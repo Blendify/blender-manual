@@ -55,3 +55,18 @@ Rolling Shutter Duration
    An object modifier setup that changes mesh topology over time will cause severe problems.
 
    Common examples of this are animated booleans, defomation before edge-split, remesh, skin or decimate modifiers.
+
+
+Object Properties
+=================
+
+Motion blur settings can also be applied per object in the
+:doc:`Object Properties </editors/3dview/object/properties.html>`
+tab of the Properties editor.
+
+Deformation
+   Use deformation motion blur for the object.
+
+Steps
+   Controls accuracy of deformation motion blur, more steps gives more memory usage.
+   The actual number of steps is :math:`2^(steps -1)`.

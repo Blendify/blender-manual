@@ -9,5 +9,6 @@
 
    introduction.rst
    types/index.rst
+   properties.rst
    modes.rst
    relationships/index.rst
