@@ -16,7 +16,7 @@ Performance Panel
 
 Threads
    Auto-detect
-      Automaticaly chooses the amount threads to match the number of logical processors on your computer.
+      Automatically chooses the amount threads to match the number of logical processors on your computer.
 
    Fixed
       Manual choose the amount threads to use for rendering. This can be useful for example,

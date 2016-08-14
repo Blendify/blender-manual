@@ -85,7 +85,6 @@ Timeline Area
 The main *Timeline* area displays the animation frames over time.
 
 .. figure:: /images/timeline_main.jpg
-   :width: 700px
 
    Timeline Main Area.
 

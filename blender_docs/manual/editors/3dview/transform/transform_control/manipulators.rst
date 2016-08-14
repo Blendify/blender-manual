@@ -38,7 +38,6 @@ Manipulators can be accessed in the header of the *3D View*:
 - Transform Orientation menu: choice of the transformation orientation.
 
 .. figure:: /images/editors_3dview_transform_control-manipulators-manipulator_options.jpg
-   :width: 650px
 
    Manipulator Options.
 
