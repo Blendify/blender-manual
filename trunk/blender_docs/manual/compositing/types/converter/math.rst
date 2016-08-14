@@ -25,6 +25,7 @@ Value
    This value is **not** used in functions that accept only one parameter
    like the trigonometric functions, Round and Absolute.
 
+
 Properties
 ==========
 
@@ -80,10 +81,7 @@ Using Sine Function to Pulsate
 This example has a *Time node* putting out a linear sequence from 0 to 1 over the course of 101
 frames. The green vertical line in the curve widget shows that frame 25 is being put out,
 or a value of 0.25. That value is multiplied by 2 × pi and converted to 1.0 by the Sine function,
-since we all know that
-
-.. math:: sin(2 × pi/ 4) = sin(pi/ 2) = +1.0
-
+since we all know that :math:`sin(2 × pi/ 4) = sin(pi/ 2) = +1.0`
 Since the sine function can put out values between (-1.0 to 1.0),
 the *Map Value node* scales that to 0.0 to 1.0 by taking the input (-1 to 1), adding 1
 (making 0 to 2), and multiplying the result by one-half
@@ -174,20 +172,17 @@ we want any number plus or minus around a whole number will get rounded to that 
 we subtract a half, which shifts everything over. The round()
 function then makes that range 0 to 5. We then divide by 5 to get back a range of numbers
 between 0 and 1 which can then be combined back with the other color channels. Thus,
-you get the function
-
-.. math:: f(x, n) = round(x × n - 0.5)/ (n - 1)
-
-where n is the number of possible output values, and *x* is the input pixel color and f(*x*, *n*)
-is the output value. There is only one slight problem,
-and that is for the value exactly equal to 1, the formula result is 1.2,
-which is an invalid value. This is because the round function is actually a roundup function,
+you get the function :math:`f(x, n) = round(x × n - 0.5)/ (n - 1)`
+where "n" is the number of possible output values, and *x* is the input pixel color and :math:`f(x, n)`
+is the output value. There is only one slight problem, and that is for the value exactly equal to 1,
+the formula result is 1.2, which is an invalid value.
+This is because the round function is actually a roundup function,
 and exactly 5.5 is rounded up to 6. So, by subtracting 0.501, we compensate and thus 5.
 499 is rounded to 5. At the other end of the spectrum, pure black, or 0, when 0.501 subtracted,
 rounds up to 0 since the Round() function does not return a negative number.
 
 Sometimes using a spreadsheet can help you figure out how to put these nodes together to get
-the result that you want. Stepping you through the formula for *n* = 6 and *x* = 0.70,
+the result that you want. Stepping you through the formula for :math:`n = 6 and x = 0.70`,
 locate the line on the spreadsheet that has the 8-bit value 179 and R value 0.7.
 Multiplying by 6 gives 4.2 . Subtracting 1/2 gives 3.7, which rounds up to
 4.4 divided by 5 = 0.8. Thus, f(0.7, 6) = 0.8 or an 8-bit value of 204.
