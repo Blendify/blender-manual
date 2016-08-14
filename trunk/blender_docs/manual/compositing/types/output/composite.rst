@@ -20,7 +20,7 @@ Inputs
 
 Connecting a node to the Composite node will output the result of the prior
 tree of that node to the Compositor.
- 
+
 Image
    RGB image. The default is black, so leaving this node unconnected will result in a blank image.
 Alpha

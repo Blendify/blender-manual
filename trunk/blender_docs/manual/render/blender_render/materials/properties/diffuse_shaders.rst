@@ -250,7 +250,7 @@ Shadeless
 Tangent Shading
    Use the material's tangent vector instead of the normal for shading --
    for anisotropic shading effects (e.g. soft hair and brushed metal).
-   
+
    .. seealso::
 
       Settings for strand rendering in the menu further down and in the Particle System menu.

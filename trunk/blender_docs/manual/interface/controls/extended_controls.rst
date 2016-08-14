@@ -255,7 +255,7 @@ Tools
 
       .. figure:: /images/ui-curve-extendhorizontal.jpg
          :width: 150px
-      
+
          Extend Horizontal.
 
    Extend Extrapolated
@@ -264,7 +264,7 @@ Tools
 
       .. figure:: /images/ui-curve-extendextrapolate.jpg
          :width: 150px
-      
+
          Extend Extrapolate.
 
    Reset Curve

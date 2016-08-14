@@ -462,7 +462,7 @@ To make this new example as short as possible, we will recycle our last example 
 
 
      - .. _fig-mesh-screw-start-mesh:
- 
+
        .. figure:: /images/modeling_mesh_screw_generated_with_base_vector_angle.jpg
           :width: 300px
 

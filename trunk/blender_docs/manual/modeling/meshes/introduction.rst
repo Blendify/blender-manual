@@ -55,7 +55,7 @@ but not global properties such as location or rotation.
 *Edit Mode* has the following header in the 3D View:
 
 .. figure:: /images/modeling_meshes_modes_edit.png
-   
+
    Edit Mode Header.
 
 

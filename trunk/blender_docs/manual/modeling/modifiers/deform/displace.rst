@@ -92,7 +92,7 @@ Midlevel
 Strength
    The strength of the displacement. After offsetting by the *Midlevel* value,
    the displacement will be multiplied by the *Strength* value to give the final vertex offset.
-   
+
    *vertex_offset* = *displacement* × *Strength*.
 
    A negative strength can be used to invert the effect of the modifier.

@@ -69,15 +69,15 @@ Combined
    The final combination of render passes with everything included.
 Z
    Distance in :term:`BU` to any visible surfaces.
-   
+
    .. note::
     The Z pass only uses one sample.
     When depth values need to be blended in case of motion blur or :term:`DOF`, use the mist pass.
-   
+
 Mist
    Distance to visible surfaces, mapped to the 0.0-1.0 range.
    When enabled, settings are in :menuselection:`Properties --> World --> Mist Pass`.
-   
+
 Normal
    Surface normal used for shading.
 Vector

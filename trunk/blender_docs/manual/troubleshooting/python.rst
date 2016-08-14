@@ -63,17 +63,17 @@ the following script can be pasted into the text edit and run to check for dupli
 
    import os
    import sys
-   
+
    # Change this based on the library you wish to test
    test_lib = "_socket.pyd"
-   
+
    def GetSystemDirectory():
        from ctypes import windll, create_string_buffer, sizeof
        GetSystemDirectory = windll.kernel32.GetSystemDirectoryA
        buffer = create_string_buffer(260)
        GetSystemDirectory(buffer, sizeof(buffer))
        return os.fsdecode(buffer.value)
-   
+
    def library_search_paths():
        return (
            # Windows search paths
@@ -82,17 +82,17 @@ the following script can be pasted into the text edit and run to check for dupli
            GetSystemDirectory(),
            os.environ["WINDIR"],  # GetWindowsDirectory
            *os.environ["PATH"].split(";"),
-   
+
            # regular Python search paths
            *sys.path,
            )
-   
+
    def check_library_duplicate(libname):
        paths = [p for p in library_search_paths()
                 if os.path.exists(os.path.join(p, libname))]
-   
+
        print("Library %r found in %d locations:" % (libname, len(paths)))
        for p in paths:
            print("- %r" % p)
-   
+
    check_library_duplicate(test_lib)

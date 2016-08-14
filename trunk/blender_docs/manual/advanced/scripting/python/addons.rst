@@ -62,7 +62,7 @@ Enable the add-on by turning on the check-box.
 .. tip::
 
    You can manually install an add-on, which is useful when developing your own add-ons.
-   
+
    For information on the location of Blender's add-on directories on each platform,
    see: :doc:`Configuration & Data Paths </getting_started/installing/configuration/directories>`
 

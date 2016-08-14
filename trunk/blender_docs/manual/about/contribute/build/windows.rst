@@ -5,7 +5,7 @@ Building on MS-Windows
 
 Converting the rst files into pretty html pages.
 There are two ways to run the build process.
-  
+
 .. rubric:: File browser
 
 Run ``make.bat`` in the ``C:\blender_docs`` folder.

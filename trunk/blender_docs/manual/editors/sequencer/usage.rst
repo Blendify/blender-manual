@@ -93,7 +93,7 @@ Select Surrounding Handles :kbd:`Alt-RMB`
    Selects the strip under the cursor as well as the handles of neighboring strips.
 
    .. note::
-  
+
       Select with this method
       to move a strip that is between to others without affecting the selected strip's length.
 Select Both Handles :kbd:`Alt-RMB`

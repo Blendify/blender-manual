@@ -41,7 +41,7 @@ the current point and the next point on the spline. Each feather point is stored
 where U means position across spline segment, and V means distance between main spline and feather points.
 
 .. figure:: /images/editors_movie-clip_masking_scurve.png
-   
+
    S- Curve Explained
 
 This allows for deforming the main spline in almost any way,

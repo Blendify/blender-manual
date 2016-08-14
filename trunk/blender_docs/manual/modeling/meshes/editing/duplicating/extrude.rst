@@ -153,7 +153,7 @@ To force a vertex or edge selection to extrude as a vertex or edge, respectively
 
    * - .. figure:: /images/extrude-edges-before.jpg
           :width: 300px
-   
+
           Edge selected.
 
      - .. figure:: /images/extrude-edges-after.jpg

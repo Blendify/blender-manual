@@ -10,7 +10,7 @@ Common Options
 
 Animated Mesh/Export
 --------------------
-  
+
 Click this button if the network is animated (eg . Deformed by an armature, shape keys, or lattice).
 It can become very slow and is not necessary if the network's position and rotation are animated.
 (ie only object transformations).

@@ -105,7 +105,7 @@ Render Settings
 :doc:`Output Panel </render/output/output>`
    - Disable *Edge* rendering.
    - *Save Buffers*.
-  
+
    - Render to an :ref:`UV/Image Editor <editors-uv_image-index>`,
      not a pop-up. :doc:`Render Window </render/output/display>`.
    - Use multiple *Threads* on a multi-core CPU (with multiple *Parts*).

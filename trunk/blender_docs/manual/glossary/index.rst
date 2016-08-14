@@ -90,7 +90,7 @@ This page lists definitions for terms used in Blender and this manual.
 
    Bevel
       The operation to chamfer or bevel edges of an object.
-      
+
    BU
    Blender Units
       Internal units used by Blender, equivalent to meters. Often abbreviated to "BU".
@@ -133,7 +133,7 @@ This page lists definitions for terms used in Blender and this manual.
    Clamping
       Limits a variable to a range. The values over or under the range are set to the constant values 
       of the ranges minimum or maximum.
-   
+
    Blend Modes
    Color Blend Modes
       Methods for blending two colors together.

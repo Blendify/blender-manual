@@ -27,7 +27,7 @@ Options
 
 .. figure:: /images/motion_tracking_constraints-object_solver.jpg
    :width: 315px
-  
+
    Object Solver Constraint panel.
 
 

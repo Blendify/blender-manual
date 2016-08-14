@@ -127,7 +127,7 @@ Examples
 
    * - .. figure:: /images/rip-edges-before.jpg
           :width: 300px
-   
+
           Edges selected.
 
      - .. figure:: /images/rip-edges-after.jpg

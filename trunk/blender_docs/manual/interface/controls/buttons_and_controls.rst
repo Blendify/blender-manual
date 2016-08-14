@@ -358,7 +358,7 @@ The pie menu is spawned by a key press.
 - :kbd:`Ctrl-Space` Manipulator
 
 .. rubric:: Movie Clip Editor 
- 
+
 - :kbd:`W` Clip Setup
 - :kbd:`Q` Marker Setup
 - :kbd:`E` Tracking
@@ -367,7 +367,7 @@ The pie menu is spawned by a key press.
 - :kbd:`OS-A` Playback Operators
 
 .. rubric:: Grease Pencil
- 
+
 - :kbd:`D-Q` Main tools menu (context sensitive)
 - :kbd:`D-W` Quick Settings
 

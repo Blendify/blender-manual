@@ -46,7 +46,7 @@ To cycle between screens use :kbd:`Ctrl-Right` and :kbd:`Ctrl-Left`.
 
    By default, each screen layout 'remembers' the last :doc:`scene </data_system/scenes>`
    it was used on. Selecting a different layout will switch to the layout **and** jump to that scene.
-   
+
    All changes to areas, as described in :doc:`Editor Types </editors/index>`, are saved within one screen.
    Changes to one screen, won't affect others.
 

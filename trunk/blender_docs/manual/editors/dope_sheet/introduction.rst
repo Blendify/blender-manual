@@ -143,7 +143,7 @@ To the right of the channel's headers, there are some channel's setting controls
 
 - Clicking on the small "eye" will allow you to mute that channel (and all its "children" channels, if any!).
 - Clicking on the small "lock" will allow you to prevent this channel and its children to be edited
-  
+
   .. note::
 
      note that this is also working inside the NLA,

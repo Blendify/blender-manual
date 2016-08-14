@@ -51,7 +51,7 @@ Minimum/Maximum X, Y, Z
    Y and Z axes of the chosen *Space*.
    The *Min* and *Max* numeric fields to their right control the value of their lower and upper
    boundaries, respectively.
-   
+
    .. note::
 
       If a min value is higher than its corresponding max value,

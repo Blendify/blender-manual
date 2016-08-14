@@ -109,7 +109,7 @@ Multi-Paint
    result if weights are initially symmetrical.
 
    .. tip::
-   
+
       While Multi-Paint cannot directly paint on zero-weight vertices,
       it is possible to use the *Smooth Weight* tool to copy a reasonable non-zero weight
       distribution from adjacent vertices without leaving Multi-Paint Mode or changing bone selection.
@@ -180,7 +180,7 @@ Overlay
 
 Allows you to customize the display of curve and texture that applied to the brush.
 
-   
+
 Appearance
 ----------
 
