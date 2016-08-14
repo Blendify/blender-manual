@@ -29,6 +29,7 @@ To get interactive feedback on the resulting mask,
 a Mask node can be connected directly to a Viewer node in the compositor,
 which will then keep updating the compositing result while editing.
 
+
 S-Curves
 --------
 
@@ -51,6 +52,7 @@ feather would stay completely unchanged. If one point's feather is moved,
 the other feathers will be automatically stretched uniformly along that segment
 and the overall shape will be almost the same as artists would want it to be.
 
+
 Control Points
 --------------
 
@@ -63,6 +65,7 @@ This makes it possible to define a mask with few points to easily follow an obje
    - Existing control points can be translated, scaled and rotated with the usual G, S, R shortcuts.
    - :kbd:`X` or Delete removes control points.
 
+
 Selection
 ---------
 
@@ -74,6 +77,7 @@ The usual selection and hide/reveal tools are available:
    - :kbd:`Ctrl-Alt-LMB` lasso select
    - :kbd:`H` hide selected, :kbd:`Shift-H` hide unselected, :kbd:`Alt-H` reveal
 
+
 Curve Handles
 -------------
 
@@ -81,6 +85,7 @@ Curve Handles
    - :kbd:`V` set handle type for selected spline points
    - :kbd:`Ctrl-N` make normals (handle directions) consistent
    - Switch Direction handle directions in/out.
+
 
 .. _mask-feather:
 

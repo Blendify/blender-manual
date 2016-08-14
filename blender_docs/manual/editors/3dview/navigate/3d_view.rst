@@ -444,6 +444,7 @@ To move to places more quickly you can teleport :kbd:`Spacebar` around your scen
 If there is an object in front of the walk cross/aim you will move in that direction until you reach the point
 (offset by the *camera height* value set in the :doc:`User Preferences </preferences/index>`).
 
+
 Shortcuts
 ^^^^^^^^^
 
@@ -488,6 +489,7 @@ and the squared marker around this center provides a sort of
 The more you take the mouse pointer away from the marker, the more you pan, or track, etc.
 
 .. youtube:: bTRrHNn-d4w
+
 
 Shortcuts
 ^^^^^^^^^

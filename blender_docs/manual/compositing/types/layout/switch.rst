@@ -2,6 +2,7 @@
 ***********
 Switch Node
 ***********
+
 .. figure:: /images/compositing_nodes_switch.png
    :align: right
    :width: 150px
