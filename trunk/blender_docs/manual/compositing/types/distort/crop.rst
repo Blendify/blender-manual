@@ -28,7 +28,7 @@ Relative
    When enabled, crop dimensions are a percentage of the image's width and height.
    When disabled, the range of the sliders are the width and height of the image in pixels.
 Crop Region Values
-   These sliders define  borders of the crop region.
+   These sliders define borders of the crop region.
 
    lower, upper, left, right
 

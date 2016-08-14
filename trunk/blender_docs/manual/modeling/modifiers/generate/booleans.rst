@@ -302,7 +302,7 @@ In the images below, all face normals are pointing outwards (Normal meshes).
           Normal Boolean modifier operation (Difference operation).
 
 
-In the images below, all  face normals are inverted and using the intersection operation
+In the images below, all face normals are inverted and using the intersection operation
 
 .. list-table::
 
@@ -328,7 +328,7 @@ you can see that the modifier has bad effects when applied, leaving faces opened
 
      - .. figure:: /images/modifier_generate_boolean_resulting_mesh_normals_mixed.jpg
 
-          Resulting operation leaves  faces opened.
+          Resulting operation leaves faces opened.
 
 
 As you can see, the normal directions can be pointing to any of the Mesh sides,

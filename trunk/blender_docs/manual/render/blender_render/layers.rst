@@ -20,7 +20,7 @@ Light Override
 Include Options
 ===============
 
-Each render layer has its own set of features which can be  enabled/disabled for the whole layer.
+Each render layer has its own set of features which can be enabled/disabled for the whole layer.
 This could be used to save render time and gives control over the passes:
 
 Zmask

@@ -12,7 +12,7 @@ Movie Clip
 This node is a special node that uses some of the values taken from
 footage cameras and trackings and links them to the output.
 It is possible to load image sequences, but only Image and Alpha values
-will be available, because  the other outputs won't have any values
+will be available, because the other outputs won't have any values
 associated with them.
 When a tracked clip is chosen, Blender will fulfill the outputs using
 internal values taken from the tracking. So the controls for

@@ -235,6 +235,6 @@ Blender 2.6x to 2.7x - Improvements & Stabalizing
   Pixar OpenSubdiv support, Viewport and File Browser performance boost,
   node auto-offset, and a text effect strip for the Sequencer.
 - `2.77 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.77>`__ - March 2016:
-  OpenVDB support for caching for smoke/volumetric simulations, improved  cycles Subsurface Scattering,
+  OpenVDB support for caching for smoke/volumetric simulations, improved cycles Subsurface Scattering,
   Grease pencil stroke sculpting and improved workflow,
   and reworked library handling to manage missing and deleted data-blocks.

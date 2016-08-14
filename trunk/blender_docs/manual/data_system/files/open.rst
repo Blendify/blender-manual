@@ -23,7 +23,7 @@ and the lower text box contains the selected filename.
 
    For Linux and Mac-OSX users:
 
-   When existing  you are **not** asked to save unsaved changes to the scene you were previously working on.
+   When existing you are **not** asked to save unsaved changes to the scene you were previously working on.
    So take care to save your work.
 
    On MS-Windows, there is a :ref:`prefs-save_load` option to warn on exit.

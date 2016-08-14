@@ -25,7 +25,7 @@ on the Blender website for more examples.
 Independent Sites
 =================
 
-There are `several independent websites <https://www.blender.org/support/user-community/>`__  such as forums,
+There are `several independent websites <https://www.blender.org/support/user-community/>`__ such as forums,
 blogs, news and tutorial sites dedicated to Blender.
 
 One of the largest community forums is `Blender Artists <http://blenderartists.org/forum/>`__, where Blender users
