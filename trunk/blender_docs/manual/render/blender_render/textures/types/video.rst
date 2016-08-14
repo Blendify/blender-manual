@@ -3,15 +3,13 @@
 Video Textures
 **************
 
-.. figure:: /images/texture-video-example.jpg
-   :width: 700px
-
-   Video texture.
-
-
 *Video textures* are a some kind of :doc:`Image </render/blender_render/textures/types/image>` textures and based on
 movie file or sequence of successive numbered separate images.
 They are added in the same way that image textures are.
+
+.. figure:: /images/texture-video-example.jpg
+
+   Video Texture example.
 
 
 Options

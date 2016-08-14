@@ -7,8 +7,6 @@ For example, we will take an existing blend
 file that was made for monoscopic rendering and transform it to be stereo 3D ready.
 
 .. figure:: /images/multiview_workflow_render_anaglyph.png
-   :width: 700px
-   :figwidth: 700px
 
    Creature Factory 2 by Andy Goralczyk Rendered in Stereo 3D (anaglyph).
 
@@ -134,8 +132,6 @@ Your final animation can be saved in more robust formats than the ones used by t
 In this example we saved as cross-eyed side-by-side stereo 3D.
 
 .. figure:: /images/multiview_workflow_render_sidebyside.png
-   :width: 700px
-   :figwidth: 700px
 
    Side by Side Cross-Eye Format.
 
@@ -349,8 +345,6 @@ The pipeline is the same as the single-view workflow, with the difference that y
 Movies or Image Sequences in any of the supported Multi-View formats.
 
 .. figure:: /images/multiview_compositor.png
-   :width: 1717px
-   :figwidth: 700px
 
    Compositor, Backdrop and Split Viewer Node.
 
