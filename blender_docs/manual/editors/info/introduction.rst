@@ -12,7 +12,9 @@ Header
 
 .. figure:: /images/interface_window-system_info-window-shaded.jpg
 
-   Info Editor header: Editor Type Selector(red), Menus (blue),
+   Info Editor header.
+
+   Editor Type Selector(red), Menus (blue),
    Screen Selector (green), Scene Selector (orange), Engine Selector (purple),
    Resource Information (aqua).
 
