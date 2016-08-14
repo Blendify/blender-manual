@@ -126,7 +126,7 @@ Sewing springs are virtual springs that pull vertices in one part of
 a cloth mesh toward vertices in another part of the cloth mesh.
 This is different from pinning which binds vertices of the cloth mesh in place or to another object.
 A clasp on a cloak could be created with a sewing spring.
-The spring could  pull two corners of a cloak about a character's neck.
+The spring could pull two corners of a cloak about a character's neck.
 This could result in a more realistic simulation than pinning the cloak to
 the character's neck since the cloak would be free to slide about the character's neck and shoulders.
 
