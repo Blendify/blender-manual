@@ -228,15 +228,15 @@ The border can be disabled by disabling the *Border* option in the *Dimensions* 
 in the *Render* tab or by activating the option again and 
 selecting *Render Border* larger than the camera view.
 
+.. I think this has been changed in 2.78:
 .. note:: Anti-Aliasing and blur options with borders
 
    Note that when Render Borders are activated,
-   Full Sampling Anti-Aliasing will be disabled while Sampled Motion Blur will become available.
+   Full Sampling Anti-Aliasing will be disabled while *Sampled Motion Blur* will become available.
 
-   :doc:`Read more about Anti-Aliasing </render/blender_render/antialiasing>`
-   :doc:`Read more about Motion Blur </render/blender_render/motion_blur>`
+   - :doc:`Read more about Anti-Aliasing </render/blender_render/antialiasing>`
+   - :doc:`Read more about Motion Blur </render/blender_render/motion_blur>`
 
 .. figure:: /images/editors_3dview_navigating_camera-view-render-border.jpg
-   :width: 640px
 
    Render border and associated render.

@@ -9,7 +9,6 @@ Noise
    | Mode:     Edit Mode
    | Panel:    Mesh Tools
 
-
 .. note::
 
    *Noise* is an old feature. The :doc:`Displace Modifier </modeling/modifiers/deform/displace>`

@@ -22,6 +22,7 @@ Size
    It accepts also a value image, to control the blur radius with a mask.
    The values should be mapped between (0 to 1) for an optimal effect.
 
+
 Properties
 ==========
 
@@ -76,8 +77,6 @@ Example
 =======
 
 .. figure:: /images/tutorials-ntr-comblurillustration.jpg
-   :width: 650px
-   :figwidth: 650px
 
    Blur node blur modes using 20% of image size as XY, no Bokeh/Gamma.
 

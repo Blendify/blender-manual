@@ -16,7 +16,6 @@ Mode
    There are three basic modes available in the remesh modifier: Blocks, Smooth and Sharp.
 
    .. figure:: /images/modifier-remesh-mode-cone-example.jpg
-      :width: 600px
 
       This example shows a cone with each of the different remesh modes.
       From left to right: original cone, Blocks, Smooth, and Sharp
@@ -39,7 +38,6 @@ Octree Depth
    higher values will generate a denser output.
 
    .. figure:: /images/modifier-remesh-depth-cone-example.jpg
-      :width: 600px
 
       Input mesh, and the low to high resolution output meshes.
 
@@ -61,7 +59,6 @@ Remove Disconnected Pieces
       Use this to control how small a disconnected component must be to be removed.
 
    .. figure:: /images/modifier-remesh-remove-disconnected-example.jpg
-      :width: 600px
 
       The input mesh (left) is fairly noisy,
       so the initial output of the remesh modifier (center) contains small disconnected pieces.
@@ -73,25 +70,18 @@ Usage
 
 In the modifier panel, add a Remesh modifier.
 The input mesh should have some thickness to it; if the input is completely flat,
-add a :doc:`solidify </modeling/modifiers/generate/solidify>` modifier above the remesh modifier.
+add a :doc:`solidify modifier </modeling/modifiers/generate/solidify>` above the remesh modifier.
 
 
 Examples
 ========
 
 .. figure:: /images/modifier-remesh-text-00.jpg
-   :width: 640px
 
    Remesh modifier applied to text to improve topology.
 
 .. youtube:: Mh-gUnS2c0Y
-   :width: 640
-   :height: 360
 
 .. youtube:: dker8gRuww4
-   :width: 640
-   :height: 360
 
 .. vimeo:: 21096739
-   :width: 640
-   :height: 360

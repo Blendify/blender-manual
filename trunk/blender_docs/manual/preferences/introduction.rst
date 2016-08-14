@@ -14,7 +14,6 @@ Open User Preferences
 To open the *User Preferences* editor and go to :menuselection:`File --> User Preferences`.
 
 .. figure:: /images/user_prefs-interface_tab.png
-   :width: 650px
 
 
 Configure

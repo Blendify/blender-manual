@@ -10,6 +10,7 @@ Warp
    | Menu:     :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Warp`
 
 .. figure:: /images/modeling_warp.jpg
+   :align: right
 
    Warp tool options.S.
 
@@ -30,17 +31,16 @@ Usage
 =====
 
 .. figure:: /images/editors_3dview_transformation_advanced_warp_warp-mesh.jpg
-   :width: 350px
 
    In this example, a plane is warped around the 3D cursor by the indicated number of degrees.
 
 
-Select the elements you want to operate on and activate the *Warp* transform
-function. The *Warp* option can be invoked from the
+Select the elements you want to operate on and activate the *Warp* transform function.
+The *Warp* option can be invoked from the
 :menuselection:`Object/Mesh/Curve/Surface --> Transform --> Warp` menu option.
 The amount of warping given to the selection can be determined
-interactively by moving the mouse or by typing a number.
-Pressing :kbd:`Return` will confirm the transformation. The confirmed transformation can
+interactively by moving the mouse or by typing a number. Pressing :kbd:`Return`
+will confirm the transformation. The confirmed transformation can
 be further edited by pressing :kbd:`F6` or by going into the Toolshelf :kbd:`T`
 and altering the Angle slider provided that no other actions take place between the
 *Warp* transform confirmation and accessing the slider.
@@ -59,11 +59,9 @@ example in this section shows the results of a 180 degree *Warp* transform appli
 to the same Suzanne mesh when in different views. A 3D render is also provided for comparison.
 
 .. figure:: /images/editors_3dview_transformation_advanced_warp_warp-cursor-view.jpg
-   :width: 500px
 
    The left side of this image shows how the Warp transform is influenced by the location of the cursor.
    The right hand side shows the influence of the current view.
-
 
 .. note:: Warping text
 

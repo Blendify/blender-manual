@@ -95,8 +95,6 @@ by calling the Stereo 3D operator.
 Be aware that some modes require a fullscreen editor to work.
 
 .. figure:: /images/multiview_window_stereo_3d.png
-   :width: 642px
-   :figwidth: 642px
 
    Window Menu, Stereo 3D Operator.
 
@@ -155,8 +153,6 @@ The display mode can be changed via the Window menu
 or if you create your own shortcuts for the ``wm.set_stereo_3d`` operator.
 
 .. figure:: /images/multiview_window_stereo_3d.png
-   :width: 642px
-   :figwidth: 642px
 
    Window Menu, Stereo 3D Operator.
 

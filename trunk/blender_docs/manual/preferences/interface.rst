@@ -6,7 +6,6 @@ Interface
 Interface configuration lets you change how UI elements are displayed and how they react.
 
 .. figure:: /images/user_prefs-interface_tab.png
-   :width: 650px
 
 
 Display

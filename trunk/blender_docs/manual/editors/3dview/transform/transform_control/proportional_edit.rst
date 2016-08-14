@@ -185,7 +185,6 @@ as Fig. :ref:`fig-view3d-transform-landscape` shows.
 .. _fig-view3d-transform-landscape:
 
 .. figure:: /images/editors_3dview_transform-control_proportional-edit-landscape.jpg
-   :width: 640px
 
    A landscape obtained via proportional editing.
 

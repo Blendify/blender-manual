@@ -9,8 +9,6 @@ textures representing the density, heat, and velocity of other fluids or suspend
 (i.e. smoke) which can be used for rendering.
 
 .. figure:: /images/smoke_domain_note_on_resolution.jpg
-   :align: center
-   :width: 650px
 
    Example of smoke simulation.
 

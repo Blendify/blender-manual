@@ -8,7 +8,6 @@ When you start Blender you should see a screen similar to this
 (the splash screen in the center will change with new versions):
 
 .. figure:: /images/blender_default_startup.png
-   :width: 640px
 
    Initial Blender screen.
 

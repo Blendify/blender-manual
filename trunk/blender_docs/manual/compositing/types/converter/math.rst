@@ -193,12 +193,9 @@ Multiplying by 6 gives 4.2 . Subtracting 1/2 gives 3.7, which rounds up to
 4.4 divided by 5 = 0.8. Thus, f(0.7, 6) = 0.8 or an 8-bit value of 204.
 You can see that this same 8-bit value is output for a range of input values.
 
+
 Reality
 -------
-
-.. figure:: /images/compositing-node-math_quantize-red.jpg
-   :width: 650px
-
 
 To implement this function in Blender, consider the node setup above. First,
 feed the image to the Separate RGB node. For the Red channel,
@@ -214,6 +211,9 @@ The result is that the output value can only be one of a certain set of values,
 stair-stepped, because of the rounding function of the math node node setup.
 Copying this one channel to operate on Green and Blue gives the node setup below.
 To get the 6:6:7, we set the three Multiply Nodes to {6, 6, 7} and the divide nodes to {5, 5, 6}.
+
+.. figure:: /images/compositing-node-math_quantize-red.jpg
+
 
 If you make this into a node group, you can easily re-use this setup from project to project.
 When you do, consider using a math node to drive the different values that you would have to

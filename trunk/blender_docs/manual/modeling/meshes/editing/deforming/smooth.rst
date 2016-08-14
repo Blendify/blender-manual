@@ -53,12 +53,10 @@ See the :doc:`Laplacian Smooth Modifier </modeling/modifiers/deform/laplacian_sm
 Laplacian smooth is uses an alternative smoothing algorithm that better preserves the overall
 mesh shape. Laplacian smooth exists as a mesh operation and as a non-destructive modifier.
 
-
 .. note::
 
    The :doc:`Smooth modifier </modeling/modifiers/deform/smooth>`, which can be limited to a *Vertex Group*,
    is a non-destructive alternative to the smooth tool.
-
 
 .. note:: Real Smoothing versus Shading Smoothing
 
@@ -67,4 +65,3 @@ mesh shape. Laplacian smooth exists as a mesh operation and as a non-destructive
    This tool modifies the mesh itself, to reduce its sharpness, whereas *Set Smooth* / *AutoSmooth* and co.
    only control the way the mesh is shaded,
    creating an *illusion* of softness - but without modifying the mesh at all...
-
