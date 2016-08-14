@@ -36,7 +36,7 @@ Type
          Normally always 1, but can be used as an extra control to alter the brightness curve
       Gamma
          If not used, set to 1
-   
+
    R/D Photoreceptor
       Intensity
          If less than zero, darkens image; otherwise, makes it brighter

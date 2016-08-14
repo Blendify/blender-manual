@@ -12,7 +12,7 @@ Often used for
    This is one of the most frequently used procedural textures.
    You can use blend textures to blend other textures together (with *Stencil*),
    or to create nice effects (especially with the *Mapping: Normal* trick).
-   
+
    .. note::
 
       Remember that if you use a ramp to create a custom blending, you may have to use *No RGB*,

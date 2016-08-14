@@ -74,7 +74,7 @@ You can download the blend-file
 (`download here <https://wiki.blender.org/index.php/File:ManAnimationTechsUsingConstraintsExSolarSys.blend>`__)
 used to create this animation.
 
-  
+
 .. note:: Animating Constraints Influence
 
    More "classically", you can also animate a few properties of each constraint using animation curves.

@@ -34,7 +34,7 @@ Base Path
    Unlike the render output filepath, this node uses a base directory and an image name,
    by default the output path is composed of:
    ``{base path}/{file name}{frame number}.{extension}``.
-   
+
    Besides being split into two settings, in all other respects,
    this setting is treated the same as the :ref:`render output path <render_output-filepath>`.
 File Format label

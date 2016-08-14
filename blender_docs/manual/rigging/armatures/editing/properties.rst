@@ -496,7 +496,7 @@ This will enable you to use some tools that will probably save you time and effo
   - If there is a lower or upper case "L", "R", "left" or "right", Blender handles the counterpart correctly.
     See below for a list of valid separators.
     Pick one and stick to it as close as possible when rigging; it will pay off. 
-   
+
    Examples of valid saparators:
 
     - (nothing): handLeft --> handRight

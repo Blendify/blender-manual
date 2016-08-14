@@ -111,7 +111,7 @@ Projected (2D)
 
    .. figure:: /images/editors_3dview_transform-control_proportional-edit-2d_compare.jpg
       :width: 400px
-   
+
       The difference between regular and Projected (2D) proportional option (right).
 
 Connected :kbd:`Alt-O`

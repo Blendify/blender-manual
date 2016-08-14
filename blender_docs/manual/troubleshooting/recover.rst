@@ -61,11 +61,11 @@ Recover Last Session
    (depending on your system configuration).
 
    .. figure:: /images/basics-undo-display_file_date.jpg
-   
+
       blend-file Browser.
-   
+
    .. tip::
-   
+
       When recovering files, you will navigate to your temporary folder.
       It is important, when browsing, to enable the detailed list view.
       Otherwise, you will not be able to figure out the dates of the auto-saved blend-files.
@@ -77,7 +77,7 @@ Recover Auto Save
    you may save it over the current file in your working directory as a normal blend-file.
 
    .. important::
-   
+
       When recovering an Auto Saved file, you will lose any changes made since the last *Auto Save* was
       performed. Only **one** *Auto Saved* file exists for each project
       (i.e. Blender does not keep older versions -

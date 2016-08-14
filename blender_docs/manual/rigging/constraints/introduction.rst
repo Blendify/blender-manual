@@ -36,7 +36,7 @@ Take the time to understand every fundamental concept behind it, and the other c
 
 
 .. TODO, the 4x4 transform matrix vs. the transform panel
-   
+
    Also note that constraints internally work using 4x4 transformation matrices only.
    When you use settings for specific rotation or scaling constraining,
    this information is being derived from the matrix only,
@@ -44,7 +44,7 @@ Take the time to understand every fundamental concept behind it, and the other c
    rotations with non-uniform or negative scaling this can lead to unpredictable behavior.
 
 .. TODO, To learn more:
-   
+
    - Read about using constraints in object animation in the :doc:`Animation chapter </animation/index>`
    - Read about using constraints in rigging in the :doc:`Armatures </rigging/posing/index>`
 

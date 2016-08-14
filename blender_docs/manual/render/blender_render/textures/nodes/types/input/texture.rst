@@ -16,7 +16,7 @@ Inputs
 ======
 
 These two colors can be used to remap a greyscale texture.
- 
+
 Color 1
    White Level.
 Color 2

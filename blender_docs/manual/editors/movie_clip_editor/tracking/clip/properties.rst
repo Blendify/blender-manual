@@ -104,14 +104,14 @@ Auto Keyframe
    With this enabled, keyframes will automatically get inserted when any corner is moved.
 
 .. note:: 
-   
+
    Corners can be moved using :kbd:`LMB`.
 
 Image
    Used to select an image which will be inside the plane track.
 
 .. note:: 
-   
+
    This image is for viewing purposes in movie clip editor only. To include it in your final render,
    see :doc:`Plane Track Deform node </compositing/types/distort/plane_track_deform>`.
 

@@ -71,7 +71,7 @@ Options:
    Subdivide UVs
       When enabled, the UV maps will also be subsurfed
       (i.e. Blender will add "virtual" coordinates for all sub-faces created by this modifier).
-      
+
    .. figure:: /images/modifier-generate-subsurf-subdivideuvs.jpg
 
       Subdivide UVs on and off.

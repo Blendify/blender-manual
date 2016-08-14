@@ -100,7 +100,7 @@ Cursor Location
 UVs
    Edge Draw Type
       Sets how UV edges are displayed.
-   
+
       Outline, Dash, Black, White
    Draw Faces
       Draw faces over the image.

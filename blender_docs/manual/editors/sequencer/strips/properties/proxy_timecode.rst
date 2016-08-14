@@ -37,7 +37,7 @@ Proxy Storage
 
    Project
       All proxies are stored in one directory
-      
+
       Proxy Directory
          The location to to store the proxies for the project. 
 

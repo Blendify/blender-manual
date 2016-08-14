@@ -35,15 +35,15 @@ Type
       If you want to convert your sketch to a mesh,
       simply choose first *NURBS*, and then convert the created curve to a mesh.
 
-   
+
 Normalize Weight
    Will scale weights value so that they tightly fit into the (0.0 to 1.0) range. (enabled by default)
-   
+
    All this means that with a pressure tablet,
    you can directly control the radius and weight of the created curve, which can affect e.g.
    the width of an extrusion, or the size of an object through a *Follow Path*
    constraint or *Curve* modifier!
-   
+
 Link Strokes
    Will create a single spline, i.e. curve element. (enabled by default) 
    from all strokes in active grease pencil layer. This especially useful if you want to use the curve as a path.

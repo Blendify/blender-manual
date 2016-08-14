@@ -226,7 +226,7 @@ Collection Rate
 
 Image Draw Method
    Method to draw images as the following options are supported:
-   
+
    2D Texture
       Uses CPU for display transform and draws images as a 2D texture.
    GLSL

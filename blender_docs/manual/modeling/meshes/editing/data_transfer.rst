@@ -165,7 +165,7 @@ Mix Mode
    Mix, Add, Subtract, Multiply
       Apply that operation, using mix factor to control how much of source or destination value to use.
       Only available for a few types (vertex groups, vertex colors).
-   
+
 Mix Factor
    How much of the transfered data gets mixed into existing one (not supported by all data types).
 
