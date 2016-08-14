@@ -9,5 +9,6 @@
 
    introduction.rst
    uv_editing/index.rst
+   rendered_image.rst
    painting.rst
    masking.rst

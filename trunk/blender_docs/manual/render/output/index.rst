@@ -11,3 +11,4 @@
    output.rst
    video.rst
    metadata.rst
+   play_animation.rst

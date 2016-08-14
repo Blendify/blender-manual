@@ -42,7 +42,7 @@ Outputs
 
 Fac
    A speed of time factor (from 0.00 to 1.00) relative to the frame rate
-   defined in the :ref:`Render Dimensions Panel <render_output-dimensions>`.
+   defined in the :ref:`Render Dimensions Panel <render-tab-dimensions>`.
    The factor changes according to the defined curve.
 
 

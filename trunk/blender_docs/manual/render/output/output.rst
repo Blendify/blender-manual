@@ -7,10 +7,10 @@ The first step in the rendering process is to determine and set the output optio
 This includes render size, frame rate, pixel aspect ratio, output location, and file type.
 
 
-.. _render_output-dimensions:
+.. _render-tab-dimensions:
 
-Dimensions
-==========
+Dimensions panel
+================
 
 Resolution
    X/Y
@@ -62,14 +62,13 @@ You can add your own or remove one with the ``+`` and ``-`` buttons:
    It is important that you use the correct pixel aspect ratio when rendering to prevent re-scaling,
    resulting in lowered image quality.
 
+.. _render-tab-output:
 
 Output Panel
 ============
 
 This panel provides options for setting the location of rendered frames for animations,
 and the quality of the saved images.
-
-.. _render_output-filepath:
 
 File Path
    Choose the location to save rendered frames.
