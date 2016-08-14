@@ -88,7 +88,7 @@ Fit
    Automatically scales the backdrop to fit the size of the node editor.
 
 
-Performance 
+Performance
 -----------
 
 .. figure:: /images/composite_performance.png

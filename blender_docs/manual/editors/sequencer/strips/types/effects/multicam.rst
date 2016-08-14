@@ -8,7 +8,7 @@ Multicam editing is for when you have multiple cameras recording the same scene 
 To edit these in the :abbr:`VSE (Video Sequence Editor)` can be easy if you do it right.
 
 - First your going to want to add in each of your video strips.
-- Next make sure to sync them to each other using there audio waveform see the 
+- Next make sure to sync them to each other using there audio waveform see the
   :doc:`Audio Docs </editors/sequencer/strips/types/audio>` or by the movement of objects.
 - If you are using any effects on you strips it may helpful to use
   :doc:`Meta Strips </editors/sequencer/strips/meta>`.

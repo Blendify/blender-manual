@@ -58,7 +58,7 @@ The process of unwrapping your model is done within Edit Mode in the 3D View edi
 This process creates one or more UV Islands in the :ref:`UV/Image Editor <editors-uv_image-index>`.
 
 To begin, choose the *UV Editing* :doc:`screen layout </interface/editors/screens>`
-from the selection list at the top of your screen in the User Preferences header. 
+from the selection list at the top of your screen in the User Preferences header.
 This sets one of the area to show you the UV/Image Editor
 :kbd:`Shift-F10`, and the other area to the 3D View :kbd:`Shift-F5`.
 
@@ -133,7 +133,7 @@ Basic Mapping
 =============
 
 Based on the fundamental geometry of the object, and how it is being viewed,
-the :menuselection:`Mesh --> UV Unwrap --> Cube, Cylinder and Sphere` 
+the :menuselection:`Mesh --> UV Unwrap --> Cube, Cylinder and Sphere`
 UV Calculations attempt to unfold the faces for you as an initial best fit.
 Here, the view from the 3D View is especially important.
 Also, the settings for cube size or cylinder radius (Editing buttons, UV Calculation panel)
@@ -231,7 +231,7 @@ but scales the UVs to the bounds of the UV space.
 Resetting UVs
 -------------
 
-In the 3D View, :menuselection:`Face --> Unwrap --> Reset` 
+In the 3D View, :menuselection:`Face --> Unwrap --> Reset`
 maps each selected face to the same area of the image,
 as previously discussed. To map all the faces of an object (a cube, for example)
 to the same image, select all the faces of the cube,

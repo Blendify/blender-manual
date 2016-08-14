@@ -175,7 +175,7 @@ Switch to a front view :kbd:`Numpad1` and activate the grab tool with :kbd:`G`.
 As you drag the point upwards, notice how nearby vertices are dragged along with it.
 When you are satisfied with the placement, click :kbd:`LMB` to fix the position.
 If you are not satisfied,
-cancel the operation and revert your mesh to the way it looked before with 
+cancel the operation and revert your mesh to the way it looked before with
 :kbd:`RMB`, :kbd:`Esc`.
 
 You can use the proportional editing tool to produce great effects with the scaling
@@ -189,7 +189,7 @@ as Fig. :ref:`fig-view3d-transform-landscape` shows.
    A landscape obtained via proportional editing.
 
 
-Combine these techniques with vertex painting to create fantastic landscapes. 
+Combine these techniques with vertex painting to create fantastic landscapes.
 The Fig. :ref:`fig-view3d-transform-landscape-rendered` below shows the results of proportional editing after the
 application of textures and lighting.
 

@@ -8,7 +8,7 @@ Split Viewer Node
 
    Split Viewer Node.
 
-The *SplitViewer* node takes two images and displays these side-by-side 
+The *SplitViewer* node takes two images and displays these side-by-side
 as backdrop or as a Viewer Node output.
 
 
@@ -18,7 +18,7 @@ Inputs
 Image
    Shown on the right or top half set by the axis.
 Image
-   And respectively the left or bottom half. 
+   And respectively the left or bottom half.
 
 Properties
 ==========
@@ -35,5 +35,5 @@ This node has no output sockets.
 
 .. hint::
 
-   This node could be used to plan scene transitions by comparison of the end frame of one scene 
+   This node could be used to plan scene transitions by comparison of the end frame of one scene
    with the start frame of another to make sure that they align.

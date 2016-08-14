@@ -9,7 +9,7 @@ and performing operations upon them
 
 .. seealso::
 
-   :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` 
+   :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>`
    for common options.
 
 Special Options:

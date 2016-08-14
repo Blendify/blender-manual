@@ -12,7 +12,7 @@ Alpha Over Node
 
 
 Use this node to layer images on top of one another.
-AlphaOver does not work on the colors of an image. 
+AlphaOver does not work on the colors of an image.
 
 Inputs
 ======
@@ -20,7 +20,7 @@ Inputs
 Fac
    Controls the amount of influence the node exerts on the output image.
 Image
-   The background image. 
+   The background image.
 Image
    The foreground image. Where the image pixels has an alpha greater than 0,
    the background image will be overlaid.
@@ -49,7 +49,7 @@ This section clarifies the functionality of premultiplied-alpha button.
 An alpha channel has a value of between 0 and 1.
 To make an image transparent (to composite it over another one),
 the RGB pixel values are multiplied by the alpha values
-(making the image transparent (0) where the alpha is black (0), 
+(making the image transparent (0) where the alpha is black (0),
 and opaque (1) where it is white (1)).
 
 To composite image A over image B, the alpha of image A gets multiplied by image A,
@@ -61,15 +61,15 @@ To get the final composite the resultant images are added.
 A pre-multiplied alpha is, when the image (RGB)
 pixels are already multiplied by the alpha channel,
 therefore, the above compositing operation does not work too well,
-and *convert pre-mult* has to be enabled. 
+and *convert pre-mult* has to be enabled.
 This is only an issue in semi-transparent area and edges usually.
-The issue normally occurs in a node setup, 
+The issue normally occurs in a node setup,
 in which two images previously combined with alpha,
 then are combined again with yet another image.
 The previously combined image was already multiplied (pre-mult)
 and needs to be converted as such (hence, *Convert PreMul*).
 
-If multiplied twice artifacts like a white or clear halo occur around 
+If multiplied twice artifacts like a white or clear halo occur around
 where the image meet, since the alpha value is being squared or cubed.
 It also depends on whether or not the image has been rendered as a pre-mult,
 or as a straight RGBA image.

@@ -1,4 +1,4 @@
-  
+
 ************
 Introduction
 ************
@@ -119,7 +119,7 @@ You can setup an additional search path for scripts in
 Installation
 ^^^^^^^^^^^^
 
-Add-ons are conveniently installed through Blender in the :doc:`User Preferences </preferences/addons>`. 
+Add-ons are conveniently installed through Blender in the :doc:`User Preferences </preferences/addons>`.
 Click the :menuselection:`Install from File...` button and select the ``.py`` or ``.zip`` file.
 
 To manually install scripts or add-ons place them in the ``add-ons``,

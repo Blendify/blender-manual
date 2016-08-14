@@ -68,11 +68,11 @@ Stroke Point Parameter
    (start point if set to 0.0; end point if set to 1.0).
 Absolute 2D Point
    The *Pivot X* and *Pivot Y* allows you to define the position of the pivot point in the final
-   render (from the bottom left corner). 
+   render (from the bottom left corner).
 
    .. warning::
 
-      Currently, you have to take into account the *real* render size, 
+      Currently, you have to take into account the *real* render size,
       i.e. resolution **and** resolution percentage.
 
 Scale X and Scale Y

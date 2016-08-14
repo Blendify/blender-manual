@@ -29,13 +29,13 @@ Cut connections (lasso)
    :kbd:`Ctrl-Alt-LMB` click & drag - Starts a lasso selection, **but** when you let up the mouse button,
    all threads (connections) within the lasso are broken.
 Undo
-   :kbd:`Ctrl-Z` 
+   :kbd:`Ctrl-Z`
 Redo
    :kbd:`Ctrl-Y` or :kbd:`Ctrl-Shift-Z` - You can use this if you used "undo" a bit too often
 Select multiple
-   :kbd:`Shift-LMB` or :kbd:`Shift-RMB`- Multiple node select. 
+   :kbd:`Shift-LMB` or :kbd:`Shift-RMB`- Multiple node select.
 Grab/Move
-   :kbd:`G` - Moves your current selection around. 
+   :kbd:`G` - Moves your current selection around.
 
 
 Node Editor Header
@@ -59,7 +59,7 @@ Material, Compositing or Texture buttons
    Nodes are grouped into three categories, to see the list see :ref:`Node Tree Types <node-tree-types>`.
 Use Nodes
    Tells the render engine to use the node map in computing the material color or rendering the final image,
-   or not. If not, the map is ignored and the basic render of the material tabs or scene is accomplished. 
+   or not. If not, the map is ignored and the basic render of the material tabs or scene is accomplished.
 Use Pinned
    This button tells the render engine to use pinned node tree.
 Go to Parent button
@@ -69,17 +69,17 @@ Snap
 Snap Node Element Selector
    This selector provide the follow node elements for snap:
 
-   :Grid: (default) Snap to grid of the Node Editor. 
-   :Node X: Snap to left/right node border. 
-   :Node Y: Snap to top/bottom node border. 
-   :Node X/Y: Snap to any node border. 
+   :Grid: (default) Snap to grid of the Node Editor.
+   :Node X: Snap to left/right node border.
+   :Node Y: Snap to top/bottom node border.
+   :Node X/Y: Snap to any node border.
 
 Snap Target
    Which part to snap onto the target.
 
-   :Closest: Snap closest point onto target. 
-   :Center: Snap center onto target. 
-   :Median: Snap median onto target. 
+   :Closest: Snap closest point onto target.
+   :Center: Snap center onto target.
+   :Median: Snap median onto target.
    :Active: Snap active onto target.
 
 Copy Nodes

@@ -154,7 +154,7 @@ This mode is good for:
 .. Note::
 
    Note that the pictures (first green frame, at the top) are only 50px high,
-   to limit the number of curves displayed in the *Luma waveform* 
+   to limit the number of curves displayed in the *Luma waveform*
 
 Use this display to check for appropriate contrast and luminosity across all frames in the channel.
 When spots in the film that should have even illumination do not,

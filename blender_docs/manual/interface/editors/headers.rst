@@ -4,8 +4,8 @@ Headers
 *******
 
 All editors have a header (the strip with a lighter gray background containing icon buttons).
-The header may be at the top (as with the *Properties Editor*) 
-or the bottom (as with the 3D View) of a area. 
+The header may be at the top (as with the *Properties Editor*)
+or the bottom (as with the 3D View) of a area.
 
 .. figure:: /images/interface-window_system-headers-header_example.jpg
 
@@ -72,7 +72,7 @@ allowing you to customize your window layout to your own work flows.
 Menus and buttons
 =================
 
-Most headers exhibit a set of menus, located immediately next 
+Most headers exhibit a set of menus, located immediately next
 to this first *Editor Type* Menu button, which can be hidden - again with a little minus sign.
 So if you cannot find a menu that was mentioned somewhere, try looking for a little plus sign
 (once again) next to the *Editor Type* button. By clicking :kbd:`LMB` on it,

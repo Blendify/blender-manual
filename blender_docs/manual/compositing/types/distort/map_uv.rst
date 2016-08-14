@@ -9,9 +9,9 @@ Map UV Node
 
    Map UV Node.
 
-With this node objects can be "re-textured" after they have been rendered. 
+With this node objects can be "re-textured" after they have been rendered.
 
-To apply a texture to individual enumerated objects the 
+To apply a texture to individual enumerated objects the
 :doc:`ID Mask Node </compositing/types/converter/id_mask>` could be used.
 
 Inputs
@@ -20,7 +20,7 @@ Inputs
 Image
    The new 2D Texture.
 UV
-   The input for UV render pass. 
+   The input for UV render pass.
    See :doc:`Cycles render passes </render/cycles/settings/passes>` or
    :doc:`Blender internal render passes </render/blender_render/passes>`.
 
@@ -40,7 +40,7 @@ Outputs
 
 Image
    The resulting image is the input image texture distorted to match the UV coordinates.
-   That image can then be overlay mixed with the original image to paint 
+   That image can then be overlay mixed with the original image to paint
    the texture on top of the original.
 
 
@@ -73,7 +73,7 @@ The flag is used as additional UV Texture on top of the grid. Other examples inc
 possibility that there was used an unauthorized product box during the initial animation,
 and it is needed to substitute in a different product sponsor after rendering.
 
-.. hint:: 
+.. hint::
 
    Due to limits of this node, it is not recommended rush pre-production rendering under
    the guise of "fixing it later".

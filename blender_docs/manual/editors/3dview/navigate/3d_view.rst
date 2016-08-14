@@ -28,7 +28,7 @@ Perspective and Orthographic Views
    | Hotkey:   :kbd:`Numpad5`
 
 Each 3D View supports two different types of projection.
-These are demonstrated in the 
+These are demonstrated in the
 Fig. :ref:`fig-view3d-projection` below.
 
 .. _fig-view3d-projection:
@@ -89,7 +89,7 @@ Rotating the View
 
    | Mode:     All modes
    | Menu:     :menuselection:`View --> Navigation`
-   | Hotkey:   :kbd:`MMB`, :kbd:`Numpad2`, :kbd:`Numpad4`, :kbd:`Numpad6`, 
+   | Hotkey:   :kbd:`MMB`, :kbd:`Numpad2`, :kbd:`Numpad4`, :kbd:`Numpad6`,
       :kbd:`Numpad8`, :kbd:`Ctrl-Alt-Wheel`
 
 .. figure:: /images/editors_3dview_nav_views.jpg
@@ -438,7 +438,7 @@ and a cross marker will appear...
 This navigation mode behaves similar to the first person navigation system available in most 3D world games nowadays.
 It works with a combination of keyboard keys :kbd:`W`, :kbd:`A`, :kbd:`S`, :kbd:`D` and mouse movement.
 By default the navigation is in the "free" mode, with no gravity influence.
-You can toggle between gravity and free mode during the navigation :kbd:`Tab`. 
+You can toggle between gravity and free mode during the navigation :kbd:`Tab`.
 
 To move to places more quickly you can teleport :kbd:`Spacebar` around your scene.
 If there is an object in front of the walk cross/aim you will move in that direction until you reach the point

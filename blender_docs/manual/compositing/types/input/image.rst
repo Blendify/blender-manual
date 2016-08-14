@@ -32,20 +32,20 @@ Source
       Frame
          A label showing the current frame.
       further options
-         see: Movie below 
+         see: Movie below
    Movie
       Frames packed into a container.
 
       Frames
          The range of frames to be shown.
       Start Frame
-         The frame of the global sequence, when the playback should start. 
+         The frame of the global sequence, when the playback should start.
       Offset
          Offsets the first frame of the clip.
       Cyclic
          Start over and repeats after the last frame to create a continuous loop.
       Auto-Refresh
-         If the file is updated, the compositor re-renders. 
+         If the file is updated, the compositor re-renders.
    Generated
       Images generated in Blender or preloaded.
 
@@ -69,5 +69,5 @@ Z
 
 .. note:: MultiLayer format:
 
-   When a MultiLayer file format, like ``EXR``, is loaded, each 
+   When a MultiLayer file format, like ``EXR``, is loaded, each
    layer is made available as a socket.

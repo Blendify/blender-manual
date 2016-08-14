@@ -40,10 +40,10 @@ Usage
 =====
 
 To use the *Boolean Modifier* select the desired mesh Object then add a *Boolean modifier*.
-When you add the Boolean modifier for an object, Blender will need a second object to 
+When you add the Boolean modifier for an object, Blender will need a second object to
 be the target of the operation. You can use open or closed meshes,
 as long as they have available face normals for the calculations to take effect.
-You can add one or more modifiers of this type for an Object but you can only apply one 
+You can add one or more modifiers of this type for an Object but you can only apply one
 operation for the Boolean modifier at a time.
 
 
@@ -302,7 +302,7 @@ In the images below, all face normals are pointing outwards (Normal meshes).
           Normal Boolean modifier operation (Difference operation).
 
 
-In the images below, all  face normals are inverted and using the intersection operation 
+In the images below, all  face normals are inverted and using the intersection operation
 
 .. list-table::
 

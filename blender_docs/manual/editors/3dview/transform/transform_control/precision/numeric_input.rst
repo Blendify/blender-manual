@@ -29,7 +29,7 @@ To cancel the movement, press :kbd:`Esc` or :kbd:`RMB`. If you mistype the value
 press :kbd:`Backspace` to cancel the current entry and retype a new value.
 
 To enter numeric values for multiple axes, use :kbd:`Tab` after entering a value for the axis.
-e.g. To move an Object, one (1) Blender unit on all three axes press: 
+e.g. To move an Object, one (1) Blender unit on all three axes press:
 :kbd:`G 1` and :kbd:`Tab 1` and :kbd:`Tab 1`.
 This will move the element one unit along the X-axis,
 followed by the Y-axis and then the Z-axis.
@@ -39,8 +39,8 @@ You can also combine numeric input with
 to limit movement to a particular axis. To do so, press :kbd:`G` followed by :kbd:`X`,
 :kbd:`Y`, :kbd:`Z` to indicate the axis.  Then type in the transform amount using (:kbd:`0` - :kbd:`9`)
 followed by :kbd:`Return` to confirm. Pressing :kbd:`X`, :kbd:`Y`,
-:kbd:`Z` will initially constrain movement to the *Global* axis. 
-Pressing :kbd:`X`, :kbd:`Y`, :kbd:`Z` again will constrain movement to the orientation set 
+:kbd:`Z` will initially constrain movement to the *Global* axis.
+Pressing :kbd:`X`, :kbd:`Y`, :kbd:`Z` again will constrain movement to the orientation set
 in the :doc:`Transform Orientation </editors/3dview/transform/transform_control/transform_orientations>`
 setting of the 3D View header.
 
@@ -50,7 +50,7 @@ Rotation
 
 To specify a value for clockwise rotation, press :kbd:`R`, (:kbd:`0` - :kbd:`9`),
 then :kbd:`Return` to confirm. To specify counter-clockwise rotation
-press :kbd:`R`, :kbd:`Minus`, (kbd:`0` - :kbd:`9`), then :kbd:`Return` to confirm. 
+press :kbd:`R`, :kbd:`Minus`, (kbd:`0` - :kbd:`9`), then :kbd:`Return` to confirm.
 Note that 270 degrees of clockwise rotation is
 equivalent to -90 degrees of counter-clockwise rotation.
 

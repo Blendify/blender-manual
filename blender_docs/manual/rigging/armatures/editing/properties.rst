@@ -4,7 +4,7 @@
 Editing Bone Properties
 ***********************
 
-.. tip:: 
+.. tip::
 
    In this page, you will learn how to edit and control most of the properties for Blender bones -
    For editing bones in an armature,
@@ -263,7 +263,7 @@ Properties
 Most bones' properties (excepted the transform ones) are regrouped in each bone's sub-panel,
 in the *Armature Bones* panel in *Edit Mode*. Let us detail them.
 
-Note that some of them are also available in the 3D Views, 
+Note that some of them are also available in the 3D Views,
 through the three pop-up menus within the same entry:
 
 - *Toggle Setting*: :kbd:`Shift-W` or :menuselection:`Armature --> Bone Settings --> Toggle a Setting`
@@ -284,7 +284,7 @@ Dist, Weight, Deform
 
    These settings control how the bone influences its geometry - along with the bones' ends radius.
    This will be detailed in the :doc:`skinning part </rigging/skinning/index>`.
-Hinge 
+Hinge
    (also :kbd:`Shift-W` :menuselection:`--> (Hinge, ...)`), S
    (also :kbd:`Shift-W` :menuselection:`--> (No Scale, ...)`)
 
@@ -293,7 +293,7 @@ Hinge
 Hide
    This will hide the bone (same as pressing :kbd:`H` in the 3D Views;
    see :ref:`this page <armature-bone_hide>`).
-Lock 
+Lock
    (also :kbd:`Shift-W` :menuselection:`--> (Locked, ...)`)
    This will prevent all editing of the bone in *Edit Mode*;
    see :doc:`previous page </rigging/armatures/editing/bones>`.
@@ -392,7 +392,7 @@ To parent and/or connect bones, you can:
   your only choice is to connect them, if not already done.
   If you select only one non-parented bone, you will get the *Need selected bone(s)* error message...
 
-  .. note:: 
+  .. note::
 
       With this method, the newly-children bones won't be scaled nor rotated -
       they will just be translated if you chose to connect them to their parent's tip.
@@ -401,7 +401,7 @@ To parent and/or connect bones, you can:
   you can select its parent in the *Parent* drop-down list to the upper right corner of its sub-panel.
   If you want them to be connected, just enable the little *Con* button to the right of the list.
 
-  .. note:: 
+  .. note::
 
       With this method, the tip of the child bone will never be translated -
       so if *Con* is enabled, the child bone will be completely transformed by the operation.
@@ -495,7 +495,7 @@ This will enable you to use some tools that will probably save you time and effo
     "L\ **_**\ calfbone" or last-but-one "calfbone\ **.**\R"
   - If there is a lower or upper case "L", "R", "left" or "right", Blender handles the counterpart correctly.
     See below for a list of valid separators.
-    Pick one and stick to it as close as possible when rigging; it will pay off. 
+    Pick one and stick to it as close as possible when rigging; it will pay off.
 
    Examples of valid saparators:
 

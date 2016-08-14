@@ -18,7 +18,7 @@ Inputs
 
 Color
    Color of the emitted light.
-Strength 
+Strength
    Strength of the emitted light.
 
 

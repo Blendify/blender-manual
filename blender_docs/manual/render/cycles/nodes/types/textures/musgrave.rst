@@ -20,7 +20,7 @@ Detail
 Dimension
    The highest fractal dimension, specified as the highest scale for the steps of the intensity.
 Lacunarity
-   The space of the lacunarity, specified as a frequency factor. 
+   The space of the lacunarity, specified as a frequency factor.
 Offset
    The offset of the fractal, specified between black and white values (Intensity)
 Gain

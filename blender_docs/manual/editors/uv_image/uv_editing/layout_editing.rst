@@ -201,12 +201,12 @@ reduces UV stretch by minimizing angles. This essentially relaxes the UVs.
 Face Mirror and Rotate UVs
 --------------------------
 
-The orientation of the UV Texture is defined by each face. 
+The orientation of the UV Texture is defined by each face.
 If the image is, for example, upside down or laying on its side,
 use the :menuselection:`Face --> Rotate UVs` (in the 3D View in Face Select mode)
 menu to rotate the UVs per face in 90-degree turns.
 
-The :menuselection:`Face --> Mirror UVs` tool mirrors the UVs per face, 
+The :menuselection:`Face --> Mirror UVs` tool mirrors the UVs per face,
 which flips the image over, showing you the image reversed.
 
 

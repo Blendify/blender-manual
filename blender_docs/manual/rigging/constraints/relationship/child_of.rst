@@ -92,13 +92,13 @@ Examples
 
    * - .. figure:: /images/constraintschildofobjectsex01nocst.jpg
 
-          1. No constraint: 
+          1. No constraint:
           Note the position of Owner empty 1.0 BU along X- and Y-Axis.
 
      - .. figure:: /images/constraintschildofobjectsex02cstadded.jpg
 
-          2. Child Of just added: 
-          Here you can see that Owner empty is now 1.0 BU away 
+          2. Child Of just added:
+          Here you can see that Owner empty is now 1.0 BU away
           from Target_1 empty along X- and Y-Axis.
 
    * - .. figure:: /images/constraintschildofobjectsex03cstsetoffset.jpg

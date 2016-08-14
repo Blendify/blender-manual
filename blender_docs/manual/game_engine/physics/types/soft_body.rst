@@ -40,7 +40,7 @@ Mass
 
    - Range: 0.01-10,000.
    - Default: 1.
-   - Python property: ``obj.game.mass`` 
+   - Python property: ``obj.game.mass``
 
 Shape Match
    Upon starting the Game Engine this will record the starting shape of the mesh as the "lowest energy" state.

@@ -24,7 +24,7 @@ This tool works using open or closed profiles, as well as profiles closed with f
 You can use profiles like an open-edge part that is a part of a complete piece,
 as well as a closed circle or a half-cut sphere, which will also close the profile end.
 
-You can see some examples of Meshes generated with the *Screw* tool 
+You can see some examples of Meshes generated with the *Screw* tool
 in Fig. :ref:`fig-mesh-screw-wood` and Fig. :ref:`fig-mesh-screw-spring`.
 
 .. list-table::
@@ -86,7 +86,7 @@ you will have to delete it after the tool completion (use linked-selection,
 
 If there is any problem with the selection or profiles,
 the tool will warn you with the error message:
-``"You have to select a string of connected vertices too"`` as seen 
+``"You have to select a string of connected vertices too"`` as seen
 in Fig. :ref:`fig-mesh-screw-error-info` and Fig. :ref:`fig-mesh-screw-error-popup`,
 both in the Info Editor and at the place where you clicked to start performing the operation
 (when you click the Screw Button).
@@ -110,7 +110,7 @@ even if this is the most common case. You may also have other, more complex,
 selected closed islands, but they have to be closed profiles because Blender will seek for
 only one open profile for the translation, height and angular vector.
 Some closed meshes that overlap themselves may not screw correctly (for example:
-Half UVsphere works fine, but 
+Half UVsphere works fine, but
 more than half could cause the Screw Tool to have wrong behavior or errors),
 and profiles that are closed with faces (like a cone or half sphere)
 will be closed automatically at their ends, like if you were extruding a region.
@@ -320,8 +320,8 @@ vectors and creating a profile that will also open and/or close because of the c
 starting angular vector values. What we are really doing is changing the starting angle of the
 profile prior to the extrusions. It means that Blender will connect each of the circles
 inclined with the vector you have given.
-Below we show two bent Meshes using the Axis vectors and the Spring example. 
-See Fig. :ref:`fig-mesh-screw-angle`. These two Meshes generated 
+Below we show two bent Meshes using the Axis vectors and the Spring example.
+See Fig. :ref:`fig-mesh-screw-angle`. These two Meshes generated
 with the *Screw* tool were created using the Top Ortho View.
 
 .. _fig-mesh-screw-angle:
@@ -393,7 +393,7 @@ will assembly perfectly with each other.
        .. figure:: /images/modeling_mesh_screw_screw_generated_perfect_spindle.jpg
           :width: 300px
 
-          Generated Mesh. 
+          Generated Mesh.
 
           You can use this technique to perform normal screw modeling.
 

@@ -13,7 +13,7 @@ Diffuse Shaders
 A diffuse shader determines, simply speaking,
 the general color of a material when light shines on it.
 Most shaders that are designed to mimic reality give a smooth falloff
-from bright to dark from the point of the strongest illumination 
+from bright to dark from the point of the strongest illumination
 to the shadowed areas, but Blender also has other shaders for various special effects.
 
 
@@ -35,8 +35,8 @@ Ramp
 Technical Details
 =================
 
-Light striking a surface and then re-irradiated via a Diffusion phenomenon will be scattered, 
-i.e., re-irradiated in all directions isotropically. 
+Light striking a surface and then re-irradiated via a Diffusion phenomenon will be scattered,
+i.e., re-irradiated in all directions isotropically.
 This means that the camera will see the same amount of light from that
 surface point no matter what the *incident viewing angle* is.
 It is this quality that makes diffuse light *viewpoint independent*. Of course,
@@ -182,7 +182,7 @@ so if *Dark* is 1 you get exactly the Lambertian result.
 Higher darkness values will darken the center of an object (where it points towards the viewer).
 Lower darkness values will lighten the edges of the object, making it look somewhat velvet.
 `Marcel Minnaert <https://en.wikipedia.org/wiki/Marcel_Minnaert>`__ (1893-1970)
-was a Belgian astronomer interested in the effects of the atmosphere on light and 
+was a Belgian astronomer interested in the effects of the atmosphere on light and
 images who in 1954 published a book entitled "The Nature of Light and Color in the Open Air".
 
 

@@ -12,7 +12,7 @@ Extended Material Node
 
 Adds additional input and output sockets
 to the :doc:`/render/blender_render/materials/nodes/types/input/material`.
-Only the additional sockets are listed. 
+Only the additional sockets are listed.
 
 Inputs
 ======

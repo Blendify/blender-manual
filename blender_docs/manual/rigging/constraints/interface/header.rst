@@ -29,7 +29,7 @@ Expansion Arrow (pointing down or right)
    it will turn gray and begin to function.
 
 Eyeball (open or closed)
-   Enable or Disable (Mute/Unmute) the constraint. Disabling a constraint will stop its affect on the scene. 
+   Enable or Disable (Mute/Unmute) the constraint. Disabling a constraint will stop its affect on the scene.
 
    Disabling a constraint is useful for turning off a constraint without losing all of its settings.
    Disabling means you can enable the constraint at a later time with the settings intact.

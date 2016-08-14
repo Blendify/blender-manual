@@ -17,7 +17,7 @@ and it is very easy to work in one area and hop over to work in another.
 Maximizing an Area
 ==================
 
-You can maximize an area to fill the whole application window with 
+You can maximize an area to fill the whole application window with
 :menuselection:`View --> Toggle Full Screen` menu entry.
 To return to normal size,
 use again :menuselection:`View --> Toggle Full Screen`.

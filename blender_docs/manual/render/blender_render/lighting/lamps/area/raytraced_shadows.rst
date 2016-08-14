@@ -90,8 +90,8 @@ For example, "(b)" illustrates the equivalent case of an *Area* light
 The *Area* lamp is then considered as a grid with a resolution of three in each
 direction, and with a light "dupliverted" at each node for a total of nine lights.
 
-In case "(a)", the energy *E* is *E*/1, and in case "(b)", 
-the energy of each individual pseudo-light is equal to 
+In case "(a)", the energy *E* is *E*/1, and in case "(b)",
+the energy of each individual pseudo-light is equal to
 *E*/ (nbr. of lights). Each pseudo-light produces a faint shadow
 (proportional to its energy), and the overlay of the shadows produces the soft shadow
 (it is darker where the individual shadows overlap, and lighter everywhere else).

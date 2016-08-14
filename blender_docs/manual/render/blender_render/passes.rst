@@ -79,7 +79,7 @@ But you can also select any of them to be output as a separate pass. (If you do 
 cases you can choose whether to *also* continue to include it in the Combined output.)
 
 Some of these outputs must be enabled and used within your scene
-(and not just selected in the Render Layer panel) in order to show anything. 
+(and not just selected in the Render Layer panel) in order to show anything.
 For example, if you do not have any lights in your scene,
 or those lights have been set to not cast shadows,
 or objects in the limelight do not have materials which have been set to receive shadows,

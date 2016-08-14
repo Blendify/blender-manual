@@ -39,7 +39,7 @@ Proxy Storage
       All proxies are stored in one directory
 
       Proxy Directory
-         The location to to store the proxies for the project. 
+         The location to to store the proxies for the project.
 
 Proxy Size
    Buttons to control how big the proxies are.
@@ -66,7 +66,7 @@ for Blender to calculate the position of a needed frame in the stream works inac
 There are two possible ways to avoid this:
 
 - Preprocess your video with, say, mencoder to repair file header and insert correct keyframes.
-- Use Proxy/Timecode option in Blender. 
+- Use Proxy/Timecode option in Blender.
 
 Options
 -------
@@ -85,4 +85,4 @@ The following timecodes are supported:
 .. note::
 
    Record Run is the timecode which usually is best to use, but if the clip's file is totally damaged,
-   *Record Run No Gaps* will be the only chance of getting acceptable result. 
+   *Record Run No Gaps* will be the only chance of getting acceptable result.

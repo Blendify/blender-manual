@@ -16,13 +16,13 @@ The following procedure will give a standalone version of a working game.
    enable the checkbox. (You can also :guilabel:`Save User Settings`,
    in which case the add-on will always be present whenever Blender is re-loaded).
 
-#. :menuselection:`File --> Export --> Save As Game Engine Runtime` 
+#. :menuselection:`File --> Export --> Save As Game Engine Runtime`
    (give appropriate directory/filename) confirm with :guilabel:`Save as Game Engine Runtime`.
 
 The game can then be executed by running the appropriate .exe file.
 Note that all appropriate libraries are automatically loaded by the add-on.
 
-If you are interested in licensing your game, 
+If you are interested in licensing your game,
 read `Licensing <https://www.blender.org/about/license/>`__
 for a discussion of the issues involved.
 

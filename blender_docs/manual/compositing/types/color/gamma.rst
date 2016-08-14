@@ -17,7 +17,7 @@ Inputs
 ======
 
 Image
-   Standard image input. 
+   Standard image input.
 Gamma
    A exponential brightness factor.
 

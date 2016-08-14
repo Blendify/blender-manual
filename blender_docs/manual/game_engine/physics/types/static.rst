@@ -155,22 +155,22 @@ Now we can explain the various options for the *Collision Bounds* settings:
 
 Default
    For Dynamic and Static objects, it is a Triangle Mesh (see below).
-   For everything else, it is a Sphere (see below). 
+   For everything else, it is a Sphere (see below).
 Capsule - A cylinder with hemispherical caps, like a pill.
    Radius of the hemispheres is the greater of the x or y extent.
-   Height is the z bounds 
+   Height is the z bounds
 Box
    The x,y,z bounding box, as defined above.
 Sphere
    Radius is defined by the object's scale (visible in the N properties panel) times the physics radius
    (can be found in Physics » Attributes » Radius.
-   Note: This is the only bounds that respects the Radius option. 
+   Note: This is the only bounds that respects the Radius option.
 Cylinder
    Radius is the greater of the x or y extent.
-   Height is the z bounds. 
+   Height is the z bounds.
 Cone
    Base radius is the greater of the x or y extent.
-   Height is the z bounds. 
+   Height is the z bounds.
 Convex Hull
    Forms a shrink-wrapped, simplified geometry around the object.
 
@@ -206,7 +206,7 @@ Margin
    You have to keep an eye on the setting, or else learn the symptoms so you can respond when it gives you trouble.
    If you're lazy/paranoid/unsure/diligent/bored,
    you can always run this on the Python Console to bump all 0.0 margins to 0.06: for
-   ``obj`` in ``bpy.data.objects``: ``obj.game.collision_margin = obj.game.collision_margin`` or 0.06 
+   ``obj`` in ``bpy.data.objects``: ``obj.game.collision_margin = obj.game.collision_margin`` or 0.06
 Compound
    "Add children to form compound collision object." Basically,
    if you have a child object and do not have this enabled,

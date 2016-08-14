@@ -12,7 +12,7 @@ Bokeh Image
 The *Bokeh Image* node generates a special input image for use with the
 :doc:`Bokeh Blur </compositing/types/filter/bokeh_blur>` filter node.
 
-The *Bokeh Image* node is designed to create a reference image which simulates optical parameters 
+The *Bokeh Image* node is designed to create a reference image which simulates optical parameters
 such as aperture shape and lens distortions which have important impacts on bokeh in real cameras.
 
 
@@ -28,9 +28,9 @@ Properties
 The first three settings simulate the aperture of the camera.
 
 Flaps
-   Sets an integer number of blades for the cameras iris diaphragm. 
+   Sets an integer number of blades for the cameras iris diaphragm.
 Angle
-   Gives these blades an angular offset relative to the image plane 
+   Gives these blades an angular offset relative to the image plane
 Rounding
    Sets the curvature of the blades with (0 to 1) from straight to bringing them to a perfect circle.
 
@@ -45,7 +45,7 @@ Outputs
 =======
 
 Image
-   The generated bokeh image. 
+   The generated bokeh image.
 
 
 Example

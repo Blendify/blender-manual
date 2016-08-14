@@ -5,7 +5,7 @@ Mesh Sequence Cache Modifier
 
 The *Mesh Sequence Cache Modifier* is used to **TODO**.
 Despite its name, this modifier supports meshes and curves.
-It also handles file sequences, as well as meshes and curves with varying number of vertices/control points. 
+It also handles file sequences, as well as meshes and curves with varying number of vertices/control points.
 
 
 Options
@@ -34,7 +34,7 @@ Manual Tranform Scale
    :doc:`Transform Cache Constraint </rigging/constraints/transform/transform_cache>`)
 
 Object Path
-   The path to the Alembic object inside the archive 
+   The path to the Alembic object inside the archive
 
 *Verts/Faces/UV/Color*
    Type of data to read for a mesh object respectively: vertices,

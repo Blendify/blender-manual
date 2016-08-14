@@ -11,7 +11,7 @@ Light Override
 
    Examples of where this might be used:
 
-   - Using multiple Render Layers with different light group overrides 
+   - Using multiple Render Layers with different light group overrides
      adds the possibility to tweak light intensity and color
      in the compositor. i.e. to avoid re-renders.
    - Speed up a draft render by using only a few lights instead of all of them.

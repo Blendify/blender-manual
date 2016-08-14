@@ -45,7 +45,7 @@ Normalize Weight
    constraint or *Curve* modifier!
 
 Link Strokes
-   Will create a single spline, i.e. curve element. (enabled by default) 
+   Will create a single spline, i.e. curve element. (enabled by default)
    from all strokes in active grease pencil layer. This especially useful if you want to use the curve as a path.
    All the strokes are linked in the curve by "zero weights/radii" sections.
 

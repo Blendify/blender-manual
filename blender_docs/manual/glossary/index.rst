@@ -131,7 +131,7 @@ This page lists definitions for terms used in Blender and this manual.
 
    Clamp
    Clamping
-      Limits a variable to a range. The values over or under the range are set to the constant values 
+      Limits a variable to a range. The values over or under the range are set to the constant values
       of the ranges minimum or maximum.
 
    Blend Modes
@@ -387,7 +387,7 @@ This page lists definitions for terms used in Blender and this manual.
       Type of object consisting of :term:`vertices <vertex>`, :term:`edges <edge>` and :term:`faces <face>`.
 
    Micropolygons
-      A polygon roughly the size of a pixel or smaller. 
+      A polygon roughly the size of a pixel or smaller.
 
    Motion Blur
       The phenomenon that occurs when we perceive a rapidly moving object.

@@ -12,7 +12,7 @@ Mix Node
 
    Mix Node.
 
-This node mixes images by working on the individual and corresponding pixels 
+This node mixes images by working on the individual and corresponding pixels
 of the two input images.
 Called "MixRGB" in the shader and texture context.
 
@@ -34,17 +34,17 @@ Mix
    The Blend types could be selected in the drop-down menu.
    See :term:`Color Blend Modes` for details on each blending mode.
 
-   Add, Subtract, Multiply, Screen, Divide, Difference, 
-   Darken, Lighten, Overlay, Dodge, Burn, 
+   Add, Subtract, Multiply, Screen, Divide, Difference,
+   Darken, Lighten, Overlay, Dodge, Burn,
    Hue, Saturation, Value, Color, Soft Light, Linear Light
 
 Use Alpha
    If activated, by clicking on the *Color and Alpha* icon,
-   the Alpha channel of the second image is used for mixing. 
+   the Alpha channel of the second image is used for mixing.
    When deactivated, the default, the icon background is a light gray.
    The alpha channel of the base image is always used.
 Clamp
-   Limit the highest color value to not exceed 1. 
+   Limit the highest color value to not exceed 1.
 
 
 Outputs
@@ -107,7 +107,7 @@ As you can hopefully see, our original magic monkey was overexposed by too much 
 To cure an overexposure, you must both darken the image and enhance the contrast.
 
 In the top RGB curve, *Darken*, only the right side of the curve was lowered; thus,
-any X input along the bottom results in a geometrically less Y output. 
+any X input along the bottom results in a geometrically less Y output.
 The *Enhance Contrast* RGB (*S*) curve scales the output such that middle values of X change dramatically;
 namely, the middle brightness scale is expanded,
 and thus, whiter whites and blacker blacks are output. To make this curve,

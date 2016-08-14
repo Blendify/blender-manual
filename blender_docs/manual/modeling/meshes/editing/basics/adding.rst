@@ -37,7 +37,7 @@ There are many cases when it is useful to directly add a mesh to an object. Mayb
 It would be useful to model the cup and the handle as separate meshes and only combine them when you are done.
 
 
-Adding elementary parts to meshes 
+Adding elementary parts to meshes
 =================================
 
 As explained before in :doc:`Mesh Structures </modeling/meshes/mesh_structures>`,
@@ -108,7 +108,7 @@ you will see that the Rotate Source is automatically checked and if :kbd:`Ctrl-S
 it will be automatically unchecked. Examples:
 
 - Creating Faces with shortcut :kbd:`Ctrl-LMB`, (see Fig. - Faces created with source automatically rotated)
-- Creating Faces with shortcut :kbd:`Ctrl-Shift-LMB`, (see Fig. Faces created with no source rotation) 
+- Creating Faces with shortcut :kbd:`Ctrl-Shift-LMB`, (see Fig. Faces created with no source rotation)
 
 If you have three or more vertices selected, and left click with mouse while pressing :kbd:`Ctrl-LMB`,
 you will also create planar faces, but along the vertices selected, following the direction of the cursor.

@@ -127,7 +127,7 @@ GLSL Transform Feedback
    Uses GPU to perform calculations, has minimal requirements to video card and driver.
 GLSL Compute
    Uses GPU to perform calculations, supposed to be more efficient than *Transform Feedback*
-   but also has higher requirements to video card and driver. 
+   but also has higher requirements to video card and driver.
 
 
 OpenGL

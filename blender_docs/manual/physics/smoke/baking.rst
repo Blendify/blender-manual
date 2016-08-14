@@ -34,7 +34,7 @@ File Format
       - "react" (reaction coordinates, used for fire)
       - "velocity"
       - "shadow" (the shadows of the volume computed for viewport rendering)
-      - "texture coordinates" (used for turbulence) 
+      - "texture coordinates" (used for turbulence)
 
       Compression
          Method of data compression.

@@ -394,7 +394,7 @@ We can see this in the Fig. :ref:`fig-bi-light-attenuation-inverse-square` image
 
 .. _fig-bi-light-attenuation-inverse-square:
 
-.. list-table:: 
+.. list-table::
    Inverse Square selected.
    (with the specified distances).
 

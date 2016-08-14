@@ -19,8 +19,8 @@ There are three ways to establish the image used by the UV Texture:
   Blender will then use that texture's UV map to transfer the colors to the faces of the mesh
 
 Blender features a built-in paint mode called Texture Paint which is designed specifically to
-help you edit your UV Textures and images quickly and 
-easily in either the UV/Image or the 3D View Editor. 
+help you edit your UV Textures and images quickly and
+easily in either the UV/Image or the 3D View Editor.
 Since a UV Texture is just a special-purpose image,
 you can also use any external paint program. For example,
 GIMP is a full-featured image manipulation program that is also open-source.
@@ -80,7 +80,7 @@ you paint on a flat canvas that is wrapped around the mesh using UV coordinates.
 Any changes made in the UV/Image Editor show up immediately in the 3D View,
 and vice versa.
 
-A full complement of brushes and colors can be selected from 
+A full complement of brushes and colors can be selected from
 the Properties region in the UV/Image Editor.
 Brush changes made in either panel are immediately reflected in the other panel. However,
 the modified texture will **not** be saved automatically;
@@ -108,7 +108,7 @@ Saving
 ======
 
 If the header menu item Image has an asterisk next to it,
-it means that the image has been changed, but not saved. 
+it means that the image has been changed, but not saved.
 Use the :menuselection`Image --> Save Image`
 option to save your work with a different name or overwrite the original image.
 
@@ -122,7 +122,7 @@ The image format for saving is independent of the format for rendering.
 The format for saving a UV image is selected in the header of the File browser,
 and defaults to ``PNG`` (``.png``).
 
-If Packing is enabled in the File browsers header, 
+If Packing is enabled in the File browsers header,
 or if you manually :menuselection`Image --> Pack Image`,
 saving your images to a separate file is not necessary.
 
@@ -168,5 +168,5 @@ Perspective View & Low Poly
 When painting onto a face in perspective mode onto a low poly object with normals pointing away from the view,
 painting may fail; to workaround disable the *Normal* option in the paint panel.
 
-Typically this happens when painting onto the side of a cube 
+Typically this happens when painting onto the side of a cube
 (see `Bug report T34665 <https://developer.blender.org/T34665>`__).

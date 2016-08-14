@@ -60,7 +60,7 @@ Input
       Using alpha values here is most useful for tweaking a finishing touch to a material.
 
 Blend
-   A list of the various :term:`Color Blend Modes` are 
+   A list of the various :term:`Color Blend Modes` are
    available for blending the ramp shader with the color from *Input*.
 
 Factor

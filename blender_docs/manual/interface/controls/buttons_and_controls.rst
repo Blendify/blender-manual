@@ -3,7 +3,7 @@
 Buttons and Controls
 ********************
 
-Buttons and other controls can be found in every Editor of the Blender interface. 
+Buttons and other controls can be found in every Editor of the Blender interface.
 The different types of controls are described below.
 
 .. _ui-operation-buttons:
@@ -107,7 +107,7 @@ You can also enter expressions such as ``3*2`` instead of ``6``. or ``5/10+3``.
 Even constants like ``pi`` (3.142) or functions like ``sqrt(2)`` (square root of 2)
 may be used.
 
-.. seealso:: 
+.. seealso::
 
    These expressions are evaluated by Python; for all available math expressions see:
    `math module reference <https://docs.python.org/3/library/math.html>`__
@@ -148,10 +148,10 @@ Examples of valid units include:
    - ``3ft/0.5km``
    - ``2.2mm + 5' / 3" - 2yards``
 
-.. note:: 
+.. note::
 
    That the commas are optional.
-   Notice how you can mix between metric and imperial even though 
+   Notice how you can mix between metric and imperial even though
    the display can only show one at a time.
 
 
@@ -262,11 +262,11 @@ Pop-Up Menus
 
    The Viewport Shading pop-up menu.
 
-Pop-up menus are overlay menus used to display options. 
+Pop-up menus are overlay menus used to display options.
 They are spawned by menu buttons and buttons showing up and down triangles on the right or
 after a key input at the mouse position.
 
-For example, the *Viewport Shading* button will produce a pop-up menu 
+For example, the *Viewport Shading* button will produce a pop-up menu
 with the available shading options.
 
 .. container:: lead
@@ -300,7 +300,7 @@ Data-Block type
 
    List
       A list of data-block available in the current blend-file or link in to select an item from.
-      The menu may show a preview besides the items and 
+      The menu may show a preview besides the items and
       a search box to search the items in the list by name.
 Data-block name
    Displays the name of the linked Data-Block, which can be edited as a regular text field.
@@ -335,7 +335,7 @@ Pie Menus
 ---------
 
 A pie menu is a menu, whose items are spread radially around the mouse.
-Pie menus has to be activated in the User Preferences through :menuselection:`Add-ons --> UI --> Pie Menus Official`. 
+Pie menus has to be activated in the User Preferences through :menuselection:`Add-ons --> UI --> Pie Menus Official`.
 
 .. figure:: /images/interface_pie-menu.jpg
    :width: 350px
@@ -357,7 +357,7 @@ The pie menu is spawned by a key press.
 - :kbd:`.` Pivot
 - :kbd:`Ctrl-Space` Manipulator
 
-.. rubric:: Movie Clip Editor 
+.. rubric:: Movie Clip Editor
 
 - :kbd:`W` Clip Setup
 - :kbd:`Q` Marker Setup
@@ -371,19 +371,19 @@ The pie menu is spawned by a key press.
 - :kbd:`D-Q` Main tools menu (context sensitive)
 - :kbd:`D-W` Quick Settings
 
-Releasing the key without moving the mouse will keep the menu open and 
-the user can then move the mouse pointer towards the direction of a pie menu item and select it by clicking. 
-Releasing the key after moving the mouse towards a pie menu item will cause the menu to close and 
-the selected menu item to activate. 
+Releasing the key without moving the mouse will keep the menu open and
+the user can then move the mouse pointer towards the direction of a pie menu item and select it by clicking.
+Releasing the key after moving the mouse towards a pie menu item will cause the menu to close and
+the selected menu item to activate.
 
 An open disc widget at the center of the pie menu shows the
-current direction of the pie menu. The selected item is also highlighted. 
+current direction of the pie menu. The selected item is also highlighted.
 A pie menu will only have a valid direction for item selection,
-if the mouse is touching or extending beyond the disc widget at the center of the menu. 
+if the mouse is touching or extending beyond the disc widget at the center of the menu.
 
 Pie menu items support key accelerators, which are the letters underlined on each menu item.
 Also number keys can be used to select the items.
 
-If there are sub-pies available, it is indicated by a plus icon. 
+If there are sub-pies available, it is indicated by a plus icon.
 
 See :ref:`Pie menu settings <prefs-pie-menu>`.
