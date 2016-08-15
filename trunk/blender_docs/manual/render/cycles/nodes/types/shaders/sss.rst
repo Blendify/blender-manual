@@ -52,17 +52,17 @@ Falloff
    Lighting distance falloff function.
 
    Cubic
-       Is a sharp falloff useful for many simple materials. The function is (*radius* - *x*)\ :sup:`3`
+       Is a sharp falloff useful for many simple materials. The function is :math:`(radius - x)^3`
    Gaussian
       Gives a smoother falloff following a normal distribution,
       which is particularly useful for more advanced materials that use measured
       data that was fitted to one or more such Gaussian functions.
-      The function is e\ :sup:`-8x^2/ radius^2`\,
+      The function is :math:`e^{-8x^2/ radius^2}`,
       such that the radius roughly matches the maximum falloff distance.
-      To match a given measured variance *v*, set *radius* = sqrt(16 × *v*).
+      To match a given measured variance *v*, set :math:`radius = sqrt(16 × v)`.
    Christensen-Burley
-      Is an approximation to physically based volume scattering. Gives less
-      blurry results than Cubic and Gaussian functions.
+      Is an approximation to physically based volume scattering.
+      Gives less blurry results than Cubic and Gaussian functions.
 
 Outputs
 =======
