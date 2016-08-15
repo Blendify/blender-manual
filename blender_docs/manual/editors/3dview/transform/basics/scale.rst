@@ -115,9 +115,7 @@ In the 3D View header, ensure that the Transform Manipulator is enabled (the red
 and blue triad is selected). Set the manipulator type to scale
 (the highlighted square icon shown below).
 
-.. figure:: /images/editors_3dview_transformations-basic-scale-scale_manipulator_header.jpg
-
-   Todo.
+.. figure:: /images/editors_3dview_transformations-basic-scale-scale_manipulator_header.png
 
 
 - Select your element with :kbd:`RMB`.

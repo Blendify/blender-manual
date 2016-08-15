@@ -59,7 +59,7 @@ Editing Bones Relationships
 This is expressed in detail in the :ref:`editing pages <armature-bone_chain_edit>`,
 but here is a quick look at this important feature.
 
-.. figure:: /images/riggingeditingbonecxtrelationspanel.jpg
+.. figure:: /images/riggingeditingbonecxtrelationspanel.png
    :width: 250px
 
    The Armature Bones panel with two bones selected, and their Child of settings highlighted.

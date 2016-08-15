@@ -16,7 +16,7 @@ Curve Display
 Display Options
 ---------------
 
-.. figure:: /images/editing_curves_curve-display-panel.jpg
+.. figure:: /images/editing_curves_curve-display-panel.png
    :align: right
 
    Curve Display panel.
@@ -335,8 +335,7 @@ that when a 2D curve is closed, it creates a renderable flat face.
 
 .. _fig-curves-editing-open-close:
 
-.. figure:: /images/editing_curves_open-closed-cyclic.jpg
-   :width: 400px
+.. figure:: /images/editing_curves_open-closed-cyclic.png
 
    Open and Closed curves.
 
@@ -372,8 +371,8 @@ Converting Curve Type
    | Mode:     Edit Mode
    | Panel:    Curve Tools --> Set Spline type
 
-.. figure:: /images/editing_curves_set-spline-type.jpg
-   :width: 150px
+.. figure:: /images/editing_curves_set-spline-type.png
+   :width: 140px
    :align: right
 
    Set Spline Type button.

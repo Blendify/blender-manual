@@ -60,7 +60,7 @@ The *Cursor to Selected* option is also affected by the current :ref:`pivot-poin
 Numeric Input
 -------------
 
-.. figure:: /images/editors_3dview_transform-control_pivot-point_3d-cursor_view-properties.jpg
+.. figure:: /images/editors_3dview_transform-control_pivot-point_3d-cursor_view-properties.png
 
    The 3D Cursor panel of the Properties region.
 

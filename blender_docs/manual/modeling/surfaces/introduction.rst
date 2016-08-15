@@ -3,19 +3,19 @@
 Introduction
 ************
 
-.. _fig-surface-intro-surface:
-
-.. figure:: /images/nurbssurface.jpg
-
-   Surface.
-
-
 Curves are 2D objects, and surfaces are their 3D extension. Note however, that in Blender,
 you only have NURBS surfaces, no Bézier (you have the *Bézier* knot type, though;
 see below), nor polygonal (but for these, you have meshes!).
 Even though curves and surfaces share the same object type (with texts also...),
 they are not the same thing; for example,
 you cannot have in the same object both curves and surfaces.
+
+.. _fig-surface-intro-surface:
+
+.. figure:: /images/nurbssurface.png
+
+   Surface.
+
 
 As surfaces are 2D, they have two interpolation axes, U (as for curves) and V.
 It is important to understand that you can control the interpolation rules (knot, order,
@@ -39,7 +39,7 @@ In fact, surfaces are very similar to the results you get when
 Finding Surface Tools
 =====================
 
-.. figure:: /images/nurbssurfacetools.jpg
+.. figure:: /images/nurbssurfacetools.png
 
    Surface Tools.
 
@@ -124,13 +124,13 @@ one for each interpolation axis (U and V). Note that unlike with curves, you hav
 
    * - .. _fig-surface-intro-resolution1:
 
-       .. figure:: /images/nurbssurface1resolution.jpg
+       .. figure:: /images/nurbssurface1resolution.png
 
           Resolution 1×1.
 
      - .. _fig-surface-intro-resolution2:
 
-       .. figure:: /images/nurbssurface3resolution.jpg
+       .. figure:: /images/nurbssurface3resolution.png
 
           Resolution 3×3.
 
@@ -138,7 +138,7 @@ one for each interpolation axis (U and V). Note that unlike with curves, you hav
 Fig. :ref:`fig-surface-intro-resolution1` is an example of a surface resolution of 3 for both U and V.
 Fig. :ref:`fig-surface-intro-resolution2` surface is an example of a surface resolution of 12 for both U and V.
 
-.. figure:: /images/nurbssurfaceresoltion.jpg
+.. figure:: /images/nurbssurfaceresoltion.png
 
    Resolution panel.
 
@@ -166,7 +166,7 @@ or *Bézier*, with the same properties as for curves. And as with curves, only o
 
 .. _fig-surface-intro-endpoint:
 
-.. figure:: /images/surfaces-endpoint-u-ex.jpg
+.. figure:: /images/surfaces-endpoint-u-ex.png
 
    Endpoint U.
 
@@ -192,7 +192,7 @@ creating a surface that tends to follow the grid cage.
 
 .. _fig-surface-intro-order:
 
-.. figure:: /images/nurbssurfaceorderexample.jpg
+.. figure:: /images/nurbssurfaceorderexample.png
 
    Order 2 and order 4 surface.
 
@@ -210,20 +210,19 @@ and higher than 6 or the number of control points on the relevant axis.
 Weight
 ------
 
-.. _fig-surface-intro-weight:
-
-.. figure:: /images/nurbssurfaceweightexample.jpg
-   :width: 600px
-
-   One control point with a weight of 5.
-
-
 Guess what? Yes, it works exactly like :ref:`NURBS Curves <modeling-curve-weight>` ! *Weight* specifies
 how much each control point "pulls" on the curve.
 
 In Fig. :ref:`fig-surface-intro-weight` a single control point, labeled "C",
 has had its *Weight* set to 5.0 while all others are at their default of 1.0.
 As you can see, that control point *pulls* the surface towards it.
+
+.. _fig-surface-intro-weight:
+
+.. figure:: /images/nurbssurfaceweightexample.png
+
+   One control point with a weight of 5.
+
 
 If all the control points have the same *Weight* then each effectively cancels each
 other out. It is the difference in the weights that cause the surface to move towards or away
@@ -237,12 +236,6 @@ The *Weight* of any particular control point is visible in the
 Preset Weights
 ^^^^^^^^^^^^^^
 
-.. figure:: /images/nurbssurfacesphere.jpg
-   :width: 250px
-
-   A sphere surface.
-
-
 NURBS can create pure shapes such as circles, cylinders, and spheres
 (note that a Bézier circle is not a pure circle). To create pure circles, globes,
 or cylinders, you must set to specific values the weights of the control points - some of
@@ -253,6 +246,10 @@ To create a sphere with 2D surfaces, its the same principle as with a 2D circle 
 you will note that the four different weights needed for creating a sphere
 (1.0, 0.707 = sqrt(0.5), 0.354 = sqrt(2)/4, and 0.25).
 
+.. figure:: /images/nurbssurfacesphere.png
+
+   A sphere surface.
+
 
 Primitives
 ==========
@@ -260,7 +257,7 @@ Primitives
 To help get started in creating surfaces there are four preset NURBS surfaces, found in the
 :menuselection:`Add --> Surface --> NURBS Surface, NURBS Tube, NURBS Sphere and NURBS Torus`.
 
-.. figure:: /images/nurbsprimitives.jpg
+.. figure:: /images/nurbsprimitives.png
 
    NURBS surface primitives.
 
@@ -268,7 +265,7 @@ To help get started in creating surfaces there are four preset NURBS surfaces, f
 There are also two preset NURBS surface curves (with only one control point on each V-row):
 *NURBS Curve* and *NURBS Circle*.
 
-.. figure:: /images/nurbscurveprimitives.jpg
+.. figure:: /images/nurbscurveprimitives.png
 
    NURBS curve primitives.
 

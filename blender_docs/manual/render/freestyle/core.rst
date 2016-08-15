@@ -3,8 +3,7 @@
 Core Options
 ************
 
-.. figure:: /images/render-freestyle-core_options.jpg
-   :width: 300px
+.. figure:: /images/render-freestyle-core_options.png
 
    Freestyle core options.
 

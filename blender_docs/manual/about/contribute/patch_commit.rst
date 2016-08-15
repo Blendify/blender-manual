@@ -39,7 +39,8 @@ In order to submit a patch, follow this process:
 
 .. note::
 
-   If your patch includes changes to or additional images, simply attach them when you are creating the revision.
+   If your patch includes changes to or additional images,
+   simply attach them when you are creating the revision.
 
 
 Straight-forward patches are bound to be accepted very quickly.
@@ -67,4 +68,3 @@ Then you will be asked for your username (from ``developer.blender.org``) and pa
 Your modified files are uploaded to the central repository for others to work with and continue collaborating.
 Commits are tracked in the repositories `Diffusion <https://developer.blender.org/diffusion/BM/>`_ .
 Soon after your changes become visible in the online manual.
-

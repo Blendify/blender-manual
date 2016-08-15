@@ -111,8 +111,7 @@ to select the rest of the control points.
 
 .. _fig-surface-edit-select-control:
 
-.. figure:: /images/nurbssurfaceselectedge.jpg
-   :width: 500px
+.. figure:: /images/nurbssurfaceselectedge.png
 
    Selecting control-point.
 
@@ -123,8 +122,7 @@ That is because the *new* extruded surface section is bunched up there as well.
 
 .. _fig-surface-edit-select-complete:
 
-.. figure:: /images/nurbsextrude.jpg
-   :width: 500px
+.. figure:: /images/nurbsextrude.png
 
    Compete.
 
@@ -132,8 +130,8 @@ By moving the new section away from the area, the surface begins to "unbunch".
 The direction of movement is marked with a white arrow, labeled "E",
 and the new section is labeled "S".
 
-You can continue this process of extruding - or adding - new surface sections until you have
-reached the final shape for your model.
+You can continue this process of extruding - or adding -
+new surface sections until you have reached the final shape for your model.
 
 
 Opening or Closing a Surface
@@ -227,8 +225,7 @@ All
 Example
 ^^^^^^^
 
-.. figure:: /images/nurbsdeletingsegments.jpg
-   :width: 600px
+.. figure:: /images/nurbsdeletingsegments.png
 
    Before and after.
 
@@ -284,8 +281,7 @@ Fig. Joining ready is an example of two NURBS surface curves, **not** NURBS curv
 in *Edit Mode*, ready to be joined.
 Fig. Joining complete is the result of joining the two curves.
 
-.. figure:: /images/nurbsjoin.jpg
-   :width: 350px
+.. figure:: /images/nurbsjoin.png
 
    Joining ready and Joining complete.
 

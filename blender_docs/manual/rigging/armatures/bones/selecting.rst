@@ -102,7 +102,7 @@ when the selection status of bones' ends is inverted, a new set of bones is sele
 
           Two bones selected.
 
-     - .. figure:: /images/riggingboneselectexeditmodethreeboneends.jpg
+     - .. figure:: /images/riggingboneselectexeditmodethreeboneends.png
           :width: 300px
 
           The result of the inverse selection :kbd:`Ctrl-I` the bones ends selection has been inverted,

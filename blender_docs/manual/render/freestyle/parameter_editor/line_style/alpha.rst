@@ -3,7 +3,7 @@
 Alpha
 *****
 
-.. figure:: /images/render-freestyle-line_style_alpha.jpg
+.. figure:: /images/render-freestyle-line_style_alpha.png
    :width: 300px
    :align: right
 

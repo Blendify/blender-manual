@@ -3,7 +3,7 @@
 Introduction
 ************
 
-.. figure:: /images/render-freestyle-line_style_ui.jpg
+.. figure:: /images/render-freestyle-line_style_ui.png
    :width: 300px
 
    Line Style UI.

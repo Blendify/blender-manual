@@ -6,13 +6,13 @@ Curve Properties
 Curve Properties can be set from the *Object Data* option in the
 *Properties Header* (shown below in blue).
 
-.. figure:: /images/properties_header-curve.jpg
+.. figure:: /images/properties_header-curve.png
 
 
 Shape
 =====
 
-.. figure:: /images/modeling_curves_shape-panel.jpg
+.. figure:: /images/modeling_curves_shape-panel.png
 
    Curves Shape panel.
 
@@ -71,7 +71,7 @@ Path/Curve-Deform
 Geometry
 ========
 
-.. figure:: /images/modeling_curves_geometry-panel.jpg
+.. figure:: /images/modeling_curves_geometry-panel.png
 
    Curves Geometry panel.
 
@@ -162,7 +162,7 @@ Follow
 Active Spline
 =============
 
-.. figure:: /images/modeling_curves_active-spline-panel.jpg
+.. figure:: /images/modeling_curves_active-spline-panel.png
 
    Curves Active Spline panel.
 
@@ -186,7 +186,7 @@ Interpolation
 NURBS Curves
 ------------
 
-.. figure:: /images/modeling_curves_nurbs-active-spline-panel.jpg
+.. figure:: /images/modeling_curves_nurbs-active-spline-panel.png
 
    NURBS Active Spline panel.
 

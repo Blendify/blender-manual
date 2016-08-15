@@ -107,7 +107,7 @@ In the 3D View header, ensure that the Transform Manipulator is enabled (the red
 and blue triad is selected). Set the manipulator type to rotation
 (the highlighted arc icon shown below).
 
-.. figure:: /images/editors_3dview_transformations-basic-rotate-rotate_manipulator_header.jpg
+.. figure:: /images/editors_3dview_transformations-basic-rotate-rotate_manipulator_header.png
 
 
 - Select your element with :kbd:`RMB`.

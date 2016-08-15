@@ -6,7 +6,7 @@ Shape Keys
 *Shape Keys* are used on Objects like *Mesh*, *Curve*, *Surface*, *Lattice*.
 They are used to deform the object vertices into a new shape.
 
-.. figure:: /images/shape_keys_visual.jpg
+.. figure:: /images/shape_keys_visual.png
 
    A mesh with different shape keys applied.
 
@@ -57,7 +57,7 @@ Add
 Remove
    Remove a shape key from the list.
 
-.. figure:: /images/shape_key_specials2.jpg
+.. figure:: /images/shape_key_specials2.png
 
    Shape Keys Specials.
 
@@ -207,7 +207,7 @@ Workflow For Absolute Shape Keys
 - Switch to Edit Mode.
 - Switch to Face Select mode (if you are not already in it)
 
-.. figure:: /images/absolute_sk_workflow_1.jpg
+.. figure:: /images/absolute_sk_workflow_1.png
 
 .. figure:: /images/absolute_sk_workflow_2.jpg
    :width: 150px
@@ -224,7 +224,7 @@ Workflow For Absolute Shape Keys
 - Extrude out :kbd:`E 1` confirm with :kbd:`LMB`.
 - Switch back to Object Mode.
 
-.. figure:: /images/absolute_sk_workflow_4.jpg
+.. figure:: /images/absolute_sk_workflow_4.png
    :width: 300px
 
 

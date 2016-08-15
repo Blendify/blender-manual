@@ -13,7 +13,7 @@ Bones
 Let us first have a general grasp of the various panels gathering the bone settings,
 in Properties editor, *Bone* tab:
 
-.. figure:: /images/riggingboneprincipalsbonepropertieseditor.jpg
+.. figure:: /images/riggingboneprincipalsbonepropertieseditor.png
 
    The Bone tab.
 
@@ -21,7 +21,7 @@ in Properties editor, *Bone* tab:
 Relations
 =========
 
-.. figure:: /images/riggingeditingbonecxtrelationspanel.jpg
+.. figure:: /images/riggingeditingbonecxtrelationspanel.png
 
    The Relations panel.
 
@@ -36,7 +36,7 @@ In this panel you can arrange sets of bones in different layers for easier manip
 Display
 =======
 
-.. figure:: /images/riggingeditingbonecxtdisplaypanel.jpg
+.. figure:: /images/riggingeditingbonecxtdisplaypanel.png
 
    The Display panel.
 
@@ -51,7 +51,7 @@ Display panel lets you customize the look of your bones taking the shape of a an
 Deform
 ======
 
-.. figure:: /images/riggingeditingbonecxtdeformpanel.jpg
+.. figure:: /images/riggingeditingbonecxtdeformpanel.png
 
    The Deform panel.
 
@@ -71,7 +71,7 @@ Transform
 
 .. Todo, images are the same
 
-.. figure:: /images/riggingeditingbonecxttransformpanel.jpg
+.. figure:: /images/riggingeditingbonecxttransformpanel.png
 
    The Transform panel(edit mode).
 
@@ -80,7 +80,7 @@ When in edit mode you can use this panel to control position and roll of individ
 
 When in pose mode you can only set location for the main bone, and you can now set rotation and scale.
 
-.. figure:: /images/riggingeditingbonecxttransformppanel.jpg
+.. figure:: /images/riggingeditingbonecxttransformppanel.png
 
    The Transform panel(pose mode).
 
@@ -92,7 +92,7 @@ When in pose mode you can only set location for the main bone, and you can now s
 Transform Locks
 ===============
 
-.. figure:: /images/riggingeditingbonecxttranformlockspanel.jpg
+.. figure:: /images/riggingeditingbonecxttranformlockspanel.png
 
    The Transform Locks panel.
 

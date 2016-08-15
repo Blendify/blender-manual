@@ -3,7 +3,7 @@
 Geometry
 ********
 
-.. figure:: /images/render-freestyle-line_style_geometry_ui.jpg
+.. figure:: /images/render-freestyle-line_style_geometry_ui.png
    :width: 300px
 
    Line Style Geometry Overall UI.

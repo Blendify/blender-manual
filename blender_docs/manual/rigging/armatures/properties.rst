@@ -13,7 +13,7 @@ Properties
 Let us first have a general overview of the various panels gathering the armature settings,
 in Properties editor, *Object data* tab:
 
-.. figure:: /images/riggingeditingobjectdatapropertieseditor.jpg
+.. figure:: /images/riggingeditingobjectdatapropertieseditor.png
 
    The Object data property in the Properties editor.
 
@@ -21,7 +21,7 @@ in Properties editor, *Object data* tab:
 Skeleton
 ========
 
-.. figure:: /images/riggingeditingobjectdatapropertycxtskeletonpanel.jpg
+.. figure:: /images/riggingeditingobjectdatapropertycxtskeletonpanel.png
 
    The Skeleton panel.
 
@@ -32,7 +32,7 @@ In this panel you can arrange sets of bones into different layers for easier man
 Display
 =======
 
-.. figure:: /images/riggingeditingobjectdatapropertycxtdisplaypanel.jpg
+.. figure:: /images/riggingeditingobjectdatapropertycxtdisplaypanel.png
 
    The Display panel.
 
@@ -73,7 +73,7 @@ For bones belonging to multiple for easy selection during animation see instead
 Pose Library
 ============
 
-.. figure:: /images/riggingeditingobjectdatapropertycxtposelibrarypanel.jpg
+.. figure:: /images/riggingeditingobjectdatapropertycxtposelibrarypanel.png
 
    The Pose Library panel.
 
@@ -88,7 +88,7 @@ Allows you to save different settings (location, rotation, scale) for selected b
 Ghost
 =====
 
-.. figure:: /images/riggingeditingobjectdatapropertycxtghostpanel.jpg
+.. figure:: /images/riggingeditingobjectdatapropertycxtghostpanel.png
 
    The Ghost panel.
 
@@ -110,7 +110,7 @@ Defines the type of IK solver used in your animation.
 Motion Paths
 ============
 
-.. figure:: /images/riggingeditingobjectdatapropertycxtmotionpathspanel.jpg
+.. figure:: /images/riggingeditingobjectdatapropertycxtmotionpathspanel.png
 
    The Motion Paths panel.
 

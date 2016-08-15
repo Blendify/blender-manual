@@ -62,7 +62,7 @@ Activating *Axes* checkmark on the *Armature*/*Display* panel,
 will show local axes for each bone's tip. The Y axis is always aligned along the bone,
 oriented from root to tip. So, this is the "roll" axis of the bones.
 
-.. figure:: /images/riggingboneprincipalsbonepropertieseditor.jpg
+.. figure:: /images/riggingboneprincipalsbonepropertieseditor.png
    :width: 250px
 
    The Bone tab.

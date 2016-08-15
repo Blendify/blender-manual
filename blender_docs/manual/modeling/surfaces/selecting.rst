@@ -22,9 +22,9 @@ The *Select* menu (3D View headers) is even simpler than for curves...
    (and the specificities of *Border Select* in *Edit Mode* have already been discussed
    :doc:`here </modeling/meshes/selecting/introduction>`).
 
-.. figure:: /images/nurbsselectmenu.jpg
+.. figure:: /images/nurbsselectmenu.png
 
-   frame[left].
+   Select Menu.
 
 
 Control Point Row

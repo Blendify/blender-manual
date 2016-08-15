@@ -1,4 +1,4 @@
-.. |manip-menu| image:: /images/editors_3dview_header-transform-manipulator.jpg
+.. |manip-menu| image:: /images/editors_3dview_header-transform-manipulator.png
 
 ************
 Manipulators

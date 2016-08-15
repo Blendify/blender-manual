@@ -48,7 +48,6 @@ IK is mostly done with bone constraints.
 They work by the same method but offer more choices and settings.
 Please refer to these pages for detail about the settings for the contraints:
 
-
 - :doc:`IK Solver </rigging/constraints/tracking/ik_solver>`
 - :doc:`Spline IK </rigging/constraints/tracking/spline_ik>`
 
@@ -58,7 +57,7 @@ Armature IK Panel
 
 This panel is used to select the IK Solver type for the armature. *Standard* or *iTaSC*.
 
-.. figure:: /images/ik_armature_ik_panel.jpg
+.. figure:: /images/ik_armature_ik_panel.png
 
    :menuselection:`Properties --> Armature --> Inverse Kinematics Panel`
 
@@ -75,7 +74,7 @@ Bone IK Panel
 
 This panel is used to control how the *Pose Bones* work in the IK chain.
 
-.. figure:: /images/ik_bone_ik_panel.jpg
+.. figure:: /images/ik_bone_ik_panel.png
 
    :menuselection:`Properties --> Bone --> Inverse Kinematics Panel`
 
@@ -101,7 +100,7 @@ IK locking is used to stop the forearm from bending,
 but the forearm can still be twisted manually by pressing :kbd:`R-Y-Y` in *Pose Mode*,
 or by using other constraints.
 
-.. figure:: /images/ik_arm_example.jpg
+.. figure:: /images/ik_arm_example.png
 
    IK Arm Example.
 

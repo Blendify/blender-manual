@@ -12,8 +12,7 @@ or powerful but complex :doc:`Python scripting </render/freestyle/python>`.
 Face Smoothness
    When enabled, Face Smoothness will be taken into account for edges calculation.
 
-.. figure:: /images/render-freestyle-parameter_editor_mode.jpg
-   :width: 200px
+.. figure:: /images/render-freestyle-parameter_editor_mode.png
 
    Parameter Editor Mode UI.
 
@@ -31,14 +30,12 @@ Culling
 Advanced Options
 ================
 
-.. figure:: /images/render-freestyle-advanced_options.jpg
-   :width: 200px
+.. figure:: /images/render-freestyle-advanced_options.png
 
    Advanced Options.
 
 
-*Sphere Radius*
-It affects the calculation of curvatures for *Ridge*,
+*Sphere Radius* It affects the calculation of curvatures for *Ridge*,
 *Valley* and *Suggestive Contour* edge type selection in a line set.
 
 Kr Derivative Epsilon
