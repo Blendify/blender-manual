@@ -108,11 +108,12 @@ Ridge & Valley
 Edge Marks
 ^^^^^^^^^^
 
-.. figure:: /images/freestyle-mark-freestyle-edge.jpg
+.. figure:: /images/freestyle-mark-freestyle-edge.png
+   :align: right
 
    Select and mark Freestyle edges.
 
-.. figure:: /images/freestyle-edge-mark.jpg
+.. figure:: /images/freestyle-edge-mark.png
 
    Edge Mark setting in the Line Sets tab.
 
@@ -130,7 +131,7 @@ This is done as follows:
 Edge marks are useful when you want to draw lines along particular mesh edges.
 The examples below explain the use of edge marks.
 
-.. figure:: /images/freestyle-edge-marks-viewport.jpg
+.. figure:: /images/freestyle-edge-marks-viewport.png
 
    Marking Freestyle Edges in edit mode. 
 
@@ -164,7 +165,8 @@ What are edge marks not good for?
 Face Marks
 ----------
 
-.. figure:: /images/freestyle-mark-freestyle-face.jpg
+.. figure:: /images/freestyle-mark-freestyle-face.png
+   :align: right
 
    Mark Freestyle Faces.
 
@@ -190,7 +192,7 @@ On the right is a render without face marks activated.
 
           Render Output.
 
-.. figure:: /images/freestyle-face-mark.jpg
+.. figure:: /images/freestyle-face-mark.png
 
    Face mark options.
 

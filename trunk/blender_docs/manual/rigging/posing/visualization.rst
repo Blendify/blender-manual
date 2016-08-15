@@ -44,8 +44,7 @@ ordered here by precedence (i.e. the bone will be of the color of the topmost va
 Coloring from Bone Group
 ------------------------
 
-.. figure:: /images/rigging-bonegroups.jpg
-   :width: 250px
+.. figure:: /images/rigging-bonegroups.png
 
    The Bone Groups panel with a bone group (default colors).
 
@@ -135,7 +134,7 @@ This allows them to visualize the overall movement of their character,
 without having to play it back... Well,
 Blender features something very similar for armatures in *Pose Mode*: the "ghosts".
 
-.. figure:: /images/riggingeditingobjectdatapropertycxtghostpanel.jpg
+.. figure:: /images/riggingeditingobjectdatapropertycxtghostpanel.png
    :width: 250px
 
    The Ghost panel showing the different options associated with different modes.
@@ -240,7 +239,7 @@ As with ghosts, the paths are automatically updated when you edit your poses/key
 and they are also active during animation playback. :kbd:`Alt-A` is
 only useful when the *Around Current Frame* option is enabled.
 
-.. figure:: /images/riggingeditingobjectdatapropertycxtmotionpathspanel.jpg
+.. figure:: /images/riggingeditingobjectdatapropertycxtmotionpathspanel.png
    :width: 250px
 
    The Motion Paths Panel showing options for the different modes.

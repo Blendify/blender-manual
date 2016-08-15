@@ -4,8 +4,8 @@
 Editing Poses
 *************
 
-.. figure:: /images/rigging-posetools.jpg
-   :width: 100px
+.. figure:: /images/rigging-posetools.png
+   :width: 150px
    :align: right
 
    Pose Tools.
@@ -38,7 +38,7 @@ with a few specificities:
   - To select all bones belonging to the same layer(s) as the selected ones,
     use the *In Same Layer* entry :kbd:`Shift-G-Numpad2`.
 
-.. figure:: /images/rigging-selectgrouped.jpg
+.. figure:: /images/rigging-selectgrouped.png
 
    The Select Grouped pop-up menu.
 
@@ -152,7 +152,7 @@ Copy/Paste Pose
    | Menu:     :menuselection:`Pose --> Copy Current Pose`,
      :menuselection:`Pose --> Paste Pose`, :menuselection:`Pose --> Paste Flipped Pose`
 
-.. figure:: /images/rigging-copypastepose.jpg
+.. figure:: /images/rigging-copypastepose.png
 
    Copy and paste pose buttons in the 3D View header in Pose Mode.
 
@@ -257,7 +257,7 @@ By default, children bones inherit:
 Exactly like standard children objects. You can modify this behavior on a per-bone basis,
 using their sub-panels in the *Armature Bones* panel:
 
-.. figure:: /images/riggingeditingbonecxtrelationspanel.jpg
+.. figure:: /images/riggingeditingbonecxtrelationspanel.png
    :width: 200px
 
    The Armature Bones panel in Pose Mode.

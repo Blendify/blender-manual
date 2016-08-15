@@ -42,7 +42,7 @@ The ability to snap Objects and Mesh element to various types of scene elements 
 transformation is available by toggling the magnet icon (which will turn red)
 in the 3D View's header buttons.
 
-.. figure:: /images/editors_3dview_transform-control_snap-magnet-header.jpg
+.. figure:: /images/editors_3dview_transform-control_snap-magnet-header.png
 
    Magnet icon in the 3D View header (red when enabled).
 
@@ -52,7 +52,7 @@ in the 3D View's header buttons.
 Snap Element
 ============
 
-.. figure:: /images/editors_3dview_transform-control_snap-snap-element.jpg
+.. figure:: /images/editors_3dview_transform-control_snap-snap-element.png
    :align: right
 
    Snap Element menu.
@@ -135,16 +135,16 @@ additional controls are available to alter snap behaviour. These options vary be
 
    * - Icon
      - Details
-   * - .. figure:: /images/icons_snap-rotation.jpg
+   * - .. figure:: /images/icons_snap-rotation.png
           :width: 35px
      - Align rotation with the snapping target.
-   * - .. figure:: /images/icons_snap-project.jpg
+   * - .. figure:: /images/icons_snap-project.png
           :width: 35px
      - Project individual elements on the surface of other objects.
-   * - .. figure:: /images/icons_snap-self.jpg
+   * - .. figure:: /images/icons_snap-self.png
           :width: 35px
      - Snaps elements to its own mesh.
-   * - .. figure:: /images/icons_snap-whole.jpg
+   * - .. figure:: /images/icons_snap-whole.png
           :width: 35px
      - Consider Objects as whole when finding volume center.
 

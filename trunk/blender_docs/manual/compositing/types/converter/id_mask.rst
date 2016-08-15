@@ -46,7 +46,7 @@ Alpha
 Setup
 =====
 
-.. figure:: /images/editors_3dview_navigating-layers-relations.jpg
+.. figure:: /images/editors_3dview_navigating-layers-relations.png
 
    Object Pass Index.
 

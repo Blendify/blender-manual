@@ -70,12 +70,12 @@ so you can place them to your liking. See Fig. :ref:`fig-rig-bones-extrusion`.
 .. list-table::
    Extrusion example
 
-   * - .. figure:: /images/riggingboneselectexeditmodethreeboneends.jpg
+   * - .. figure:: /images/riggingboneselectexeditmodethreeboneends.png
           :width: 300px
 
           An armature with three selected tips.
 
-     - .. figure:: /images/riggingboneextrudeexeditmode.jpg
+     - .. figure:: /images/riggingboneextrudeexeditmode.png
           :width: 300px
 
           The three extruded bones.
@@ -91,12 +91,12 @@ extrusion along a global or local axis.
 .. list-table::
    Mirror extrusion example
 
-   * - .. figure:: /images/riggingbonemirrorextrudeexeditmode1.jpg
+   * - .. figure:: /images/riggingbonemirrorextrudeexeditmode1.png
           :width: 200px
 
           A single selected bone's tip.
 
-     - .. figure:: /images/riggingbonemirrorextrudeexeditmode2.jpg
+     - .. figure:: /images/riggingbonemirrorextrudeexeditmode2.png
           :width: 200px
 
           The two mirror-extruded bones.
@@ -349,12 +349,12 @@ its copy will be parented, but **not** connected to the unselected bone
 .. list-table::
    Duplication example
 
-   * - .. figure:: /images/riggingboneselectexeditmodethreebonessixends.jpg
+   * - .. figure:: /images/riggingboneselectexeditmodethreebonessixends.png
           :width: 300px
 
           An armature with three selected bones and a selected single root.
 
-     - .. figure:: /images/riggingboneduplicateexeditmode.jpg
+     - .. figure:: /images/riggingboneduplicateexeditmode.png
           :width: 300px
 
           The three duplicated bones. Note that the selected chain is preserved in the copy,
@@ -396,12 +396,12 @@ to avoid deforming the whole armature.
 .. list-table::
    Deletion example.
 
-   * - .. figure:: /images/riggingbonedeleteexeditmode1.jpg
+   * - .. figure:: /images/riggingbonedeleteexeditmode1.png
           :width: 300px
 
           An armature with two selected bones, just before deletion.
 
-     - .. figure:: /images/riggingbonedeleteexeditmode2.jpg
+     - .. figure:: /images/riggingbonedeleteexeditmode2.png
           :width: 300px
 
           The two bones have been deleted. Note that Bone.002,
@@ -440,23 +440,23 @@ differently depending in which chain is the edited bone
 .. list-table::
    Merge example
 
-   * - .. figure:: /images/riggingbonemergeexeditmode1.jpg
+   * - .. figure:: /images/riggingbonemergeexeditmode1.png
           :width: 300px
 
           An armature with a selected chain, and a single selected bone, just before merging.
 
-     - .. figure:: /images/riggingbonemergeexeditmode2.jpg
+     - .. figure:: /images/riggingbonemergeexeditmode2.png
           :width: 300px
 
           Bones Bone, Bone.001 and Bone.002 have been merged in Bone.006,
           whereas Bone.005 was not modified. Note Bone.003, connected to Bone.006 but not yet "really" connected.
 
-   * - .. figure:: /images/riggingbonemergeexeditmode3.jpg
+   * - .. figure:: /images/riggingbonemergeexeditmode3.png
           :width: 300px
 
           Bone.004 has been rotated, and hence the tip of Bone.006 was moved to the root of Bone.003.
 
-     - .. figure:: /images/riggingbonemergeexeditmode4.jpg
+     - .. figure:: /images/riggingbonemergeexeditmode4.png
           :width: 300px
 
           The tip of Bone.006 has been translated, and hence the root of Bone.003 was moved to the tip of `Bone.006`
@@ -493,12 +493,12 @@ if you set *n* cuts, you will get *n* + 1 bones for each selected bone.
 .. list-table::
    Subdivision example
 
-   * - .. figure:: /images/riggingbonesubdivideexeditmode1.jpg
+   * - .. figure:: /images/riggingbonesubdivideexeditmode1.png
           :width: 300px
 
           An armature with one selected bone, just before multi-subdivision.
 
-     - .. figure:: /images/riggingbonesubdivideexeditmode2.jpg
+     - .. figure:: /images/riggingbonesubdivideexeditmode2.png
           :width: 300px
 
           The selected bone has been "cut" two times, giving three sub-bones.

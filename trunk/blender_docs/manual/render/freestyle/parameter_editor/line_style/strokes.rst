@@ -3,7 +3,7 @@
 Stroke
 ******
 
-.. figure:: /images/render-freestyle-stroke_ui.jpg
+.. figure:: /images/render-freestyle-stroke_ui.png
    :width: 300px
 
    Stroke Line Style.
@@ -35,8 +35,7 @@ Rounds
 Chaining can also be turned off to render each line separately,
 which can be useful for line styles which depend on accurate representation of the line set.
 
-.. figure:: /images/render-freestyle-chaining_ui.jpg
-   :width: 300px
+.. figure:: /images/render-freestyle-chaining_ui.png
 
    Chaining.
 
@@ -52,7 +51,7 @@ Material Boundary
 Min 2D Angle and Max 2D Angle
    Splits chains of feature edges when they make a 2D angle above (or below) a minimum (or maximum) threshold.
 
-.. figure:: /images/render-freestyle-splitting_ui.jpg
+.. figure:: /images/render-freestyle-splitting_ui.png
    :width: 300px
 
    Splitting.
@@ -88,7 +87,7 @@ Sort Order
 Selection
 =========
 
-.. figure:: /images/render-freestyle-selection_length_ui.jpg
+.. figure:: /images/render-freestyle-selection_length_ui.png
    :width: 300px
 
    Selection.
@@ -101,8 +100,8 @@ chains longer than *Min 2D Length* and/or shorter than *Max 2D Length*.
 Caps
 ----
 
-.. figure:: /images/render-freestyle-caps_ui.jpg
-   :width: 300px
+.. figure:: /images/render-freestyle-caps_ui.png
+   :width: 280px
 
    Line tip caps.
 
@@ -111,10 +110,8 @@ You can choose between three types of line caps:
 
 Butt
    Flat cap, exactly at the point the line ends.
-
 Round
    A half circle centered on the end point of the line.
-
 Square
    A square centered on the end point of the line (hence, like the circle,
    the drawn end of the line is slightly extended compared to its computed value).
@@ -123,8 +120,7 @@ Square
 Dashed Line
 ===========
 
-.. figure:: /images/render-freestyle-dashes_ui.jpg
-   :width: 300px
+.. figure:: /images/render-freestyle-dashes_ui.png
 
    Dashes Line UI.
 

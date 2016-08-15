@@ -31,8 +31,9 @@ a parent bone without affecting its descendants. However,
 connected bones must always have parent's tips connected to child's roots,
 so by transforming a bone, you will affect all its connected parent/children/siblings.
 
-.. figure:: /images/riggingtransformpropertiespaneleditmode.jpg
-   :width: 200px
+.. figure:: /images/riggingtransformpropertiespaneleditmode.png
+   :align: right
+   :figwidth: 160px
 
    The Transform panel for armatures in Edit Mode.
 
@@ -254,8 +255,8 @@ Properties
    | Menu:     :menuselection:`Armature --> Bone Settings --> ...`
    | Hotkey:   :kbd:`Shift-W`, :kbd:`Ctrl-Shift-W`, :kbd:`Alt-W`
 
-.. figure:: /images/riggingeditingcxtarmaturebonespaneleditmode.jpg
-   :width: 200px
+.. figure:: /images/riggingeditingcxtarmaturebonespaneleditmode.png
+   :width: 250px
 
    The Armature Bones panel in Edit Mode.
 
@@ -313,8 +314,8 @@ Bone Rigidity
    | Mode:     Edit and Pose Mode
    | Panel:    Armature
 
-.. figure:: /images/riggingeditingcxtarmaturebonespanelposemode.jpg
-   :width: 200px
+.. figure:: /images/riggingeditingcxtarmaturebonespanelposemode.png
+   :width: 250px
 
    The Armature Bones panel in Pose Mode.
 

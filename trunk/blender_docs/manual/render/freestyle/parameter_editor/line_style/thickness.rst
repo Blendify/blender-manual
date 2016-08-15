@@ -5,7 +5,7 @@ Thickness
 
 In this tab you control the thickness of your strokes.
 
-.. figure:: /images/render-freestyle-line_style_thickness.jpg
+.. figure:: /images/render-freestyle-line_style_thickness.png
    :width: 300px
    :align: right
 

@@ -25,14 +25,13 @@ Bones can affect the object's shape in two ways:
   using vertices' :ref:`weights <painting_weight-index>` as influence value.
   A much more precise method, but also generally longer to set up.
 
-Both methods have some
-`Common Options`_, and can be mixed together.
+Both methods have some `Common Options`_, and can be mixed together.
 
 
 Parenting to Whole Armatures
 ============================
 
-.. figure:: /images/rigging-armature-parent.jpg
+.. figure:: /images/rigging-armature-parent.png
    :align: right
 
    Set Parent menu.
@@ -156,7 +155,7 @@ Preserve Volume (Armature modifier)
 Bone Deform Options
 ===================
 
-.. figure:: /images/riggingeditingbonecxtdeformpanel.jpg
+.. figure:: /images/riggingeditingbonecxtdeformpanel.png
    :width: 250px
 
    Bone Deform Options.

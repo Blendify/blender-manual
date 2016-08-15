@@ -40,7 +40,8 @@ to change the properties of objects as a function of time.
 Curve Primitives
 ================
 
-.. figure:: /images/modeling_curves_add-curve-menu.jpg
+.. figure:: /images/modeling_curves_add-curve-menu.png
+   :align: right
 
    Add Curve menu.
 

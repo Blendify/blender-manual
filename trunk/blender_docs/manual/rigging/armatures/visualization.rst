@@ -41,7 +41,7 @@ Display Panel
 But let us first see some general visualization properties of armatures,
 found in the *Display* panel of the *Object data* tab.
 
-.. figure:: /images/riggingeditingobjectdatapropertycxtdisplaypanel.jpg
+.. figure:: /images/riggingeditingobjectdatapropertycxtdisplaypanel.png
    :width: 250px
 
    The Display panel.
@@ -123,7 +123,7 @@ Blender allows you to give to each bone of an armature a specific shape
 (in *Object Mode* and *Pose Mode*), using another object as "template".
 First of all, you have to enable the *Shapes* button (*Armature* panel).
 
-.. figure:: /images/riggingeditingbonecxtdisplaypanel.jpg
+.. figure:: /images/riggingeditingbonecxtdisplaypanel.png
    :width: 250px
 
    The Display panel.
@@ -201,7 +201,7 @@ Armature Layers
    | Mode:     Object, Edit and Pose Mode
    | Panel:    :menuselection:`Object data --> Skeleton`
 
-.. figure:: /images/riggingeditingobjectdatapropertycxtskeletonpanel.jpg
+.. figure:: /images/riggingeditingobjectdatapropertycxtskeletonpanel.png
    :width: 250px
 
    The Skeleton panel.
@@ -248,7 +248,7 @@ Bone Layers
    | Mode:     Object, Edit and Pose Mode
    | Panel:    :menuselection:`Bone --> Relations`
 
-.. figure:: /images/riggingeditingbonecxtrelationspanel.jpg
+.. figure:: /images/riggingeditingbonecxtrelationspanel.png
    :width: 250px
 
    The Relations panel.
@@ -280,7 +280,7 @@ Hiding Bones
    | Mode:     Edit and Pose Mode
    | Panel:    :menuselection:`Bone --> Display`
 
-.. figure:: /images/riggingeditingbonecxtdisplaypanel.jpg
+.. figure:: /images/riggingeditingbonecxtdisplaypanel.png
    :width: 250px
 
    The Display panel.

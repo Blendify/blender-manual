@@ -3,7 +3,7 @@
 Color
 *****
 
-.. figure:: /images/render-freestyle-line_style_color.jpg
+.. figure:: /images/render-freestyle-line_style_color.png
    :width: 300px
    :align: right
 
