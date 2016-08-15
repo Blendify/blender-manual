@@ -65,4 +65,4 @@ This can be selected in the node editor or the texture properties,
 and it is indicated as blue in the material properties.
 
 For UV mapping, the active UV map as specified in the mesh properties is used.
-Assigning images in the image editor also affects the active image texture node.
+Assigning images in the UV/Image editor also affects the active image texture node.

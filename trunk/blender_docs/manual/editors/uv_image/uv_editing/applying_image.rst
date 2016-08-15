@@ -289,7 +289,7 @@ the *Image* menu. If images are already files, use the *Save* command
 :kbd:`Alt-S`. You can also *Save As* :kbd:`F3`
 if the image was generated or you want to save as a different name.
 Using *Save as Copy*, :kbd:`F3` will save the file to a specified name,
-but will keep the old one open in the Image editor.
+but will keep the old one open in the UV/Image editor.
 
 .. seealso::
 
