@@ -84,12 +84,11 @@ or a value of 0.25. That value is multiplied by 2 × pi and converted to 1.0 by 
 since we all know that :math:`sin(2 × pi/ 4) = sin(pi/ 2) = +1.0`
 Since the sine function can put out values between (-1.0 to 1.0),
 the *Map Value node* scales that to 0.0 to 1.0 by taking the input (-1 to 1), adding 1
-(making 0 to 2), and multiplying the result by one-half
-(thus scaling the output between 0 to 1).
-The default *ColorRamp* converts those values to a grayscale. Thus,
-medium gray corresponds to a 0.0 output by the sine, black to -1.0, and white to 1.0.
-As you can see, sin(pi/ 2) = 1.0. Like having your own visual color calculator! Animating this
-node setup provides a smooth cyclic sequence through the range of grays.
+(making 0 to 2), and multiplying the result by one-half (thus scaling the output between 0 to 1).
+The default *ColorRamp* converts those values to a grayscale.
+Thus, medium gray corresponds to a 0.0 output by the sine, black to -1.0,
+and white to 1.0. As you can see, :math:`sin(pi/ 2) = 1.0`. Like having your own visual color calculator!
+Animating this node setup provides a smooth cyclic sequence through the range of grays.
 
 Use this function to vary, for example,
 the alpha channel of an image to produce a fading in/out effect.
@@ -123,7 +122,7 @@ is the number of channel values multiplied by each other, or Q = R × G × B.
 Since there are three channels and 256 values,
 we have some flexibility how to quantize each channel,
 since there are a lot of combinations of R × G × B that would equal 256. For example,
-if {R, G, B} = {4, 4, 16}, then 4 × 4 × 16 = 256. Also, {6, 6, 7} would give 252 possible values.
+if {R, G, B} = {4, 4, 16}, then :math:`4 × 4 × 16 = 256`. Also, {6, 6, 7} would give 252 possible values.
 The difference in appearance between {4, 4, 16} and {6, 6, 7} is that the first set
 (4, 4, 16} would have fewer shades of red and green, but lots of shades of blue.
 The set {6, 6, 7} would have a more even distribution of colors.
@@ -173,7 +172,7 @@ we subtract a half, which shifts everything over. The round()
 function then makes that range 0 to 5. We then divide by 5 to get back a range of numbers
 between 0 and 1 which can then be combined back with the other color channels. Thus,
 you get the function :math:`f(x, n) = round(x × n - 0.5)/ (n - 1)`
-where "n" is the number of possible output values, and *x* is the input pixel color and :math:`f(x, n)`
+where "n" is the number of possible output values, and "x" is the input pixel color and :math:`f(x, n)`
 is the output value. There is only one slight problem, and that is for the value exactly equal to 1,
 the formula result is 1.2, which is an invalid value.
 This is because the round function is actually a roundup function,
@@ -182,7 +181,7 @@ and exactly 5.5 is rounded up to 6. So, by subtracting 0.501, we compensate and 
 rounds up to 0 since the Round() function does not return a negative number.
 
 Sometimes using a spreadsheet can help you figure out how to put these nodes together to get
-the result that you want. Stepping you through the formula for :math:`n = 6 and x = 0.70`,
+the result that you want. Stepping you through the formula for :math:`n = 6` and :math:`x = 0.70`,
 locate the line on the spreadsheet that has the 8-bit value 179 and R value 0.7.
 Multiplying by 6 gives 4.2 . Subtracting 1/2 gives 3.7, which rounds up to
 4.4 divided by 5 = 0.8. Thus, f(0.7, 6) = 0.8 or an 8-bit value of 204.
@@ -238,7 +237,7 @@ accomplishes.
 
 You do not have to reduce the color depth of each channel evenly. For example,
 if blue was the dominant color in an image, to preserve image quality,
-you could reduce Red to 2 values, Green to 4, and let the blue take on 256/(2 × 4) or 32 values.
+you could reduce Red to 2 values, Green to 4, and let the blue take on :math:`256/(2 × 4)` or 32 values.
 If using the HSV, you could reduce the Saturation and Value to 2 values (0 or 1.0)
 by Multiply by 2 and Divide by 2, and restrict the Hue to 64 possible values.
 
