@@ -1,7 +1,7 @@
 
-******************
-Animation Playback
-******************
+****************
+Animation Player
+****************
 
 
 The :menuselection:`Render --> Play Rendered Animation` menu in the Info Editor will play back the rendered animation in a new window.

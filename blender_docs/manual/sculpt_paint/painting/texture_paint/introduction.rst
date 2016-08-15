@@ -1,4 +1,4 @@
-.. This is for 3D View painting, image editor painting belongs in the image editor section.
+.. This is for 3D View painting, 2D image painting belongs in the UV/Image editor section.
 
 ************
 Introduction

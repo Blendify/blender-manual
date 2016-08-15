@@ -6,26 +6,24 @@ Rendered Image
 Saving
 ======
 
-Rendered images can be saved like any other image:
-Using :menuselection:`Image --> Save As Image` or by pressing :kbd:`F3`
+Rendered images can be saved like any other image;
+Using :menuselection:`Image --> Save As Image` or by pressing :kbd:`F3`.
 
 
 Display Options
 ===============
 
-When a rendered image is displayed in the Image Editor,
+When a rendered image is displayed in the UV/Image Editor,
 several new menu items become available.
 
 Slot Menu
    You can save successive renders into the render buffer by selecting a new slot before rendering.
    If an image has been rendered to a slot, it can be viewed by selecting that slot.
-   Empty slots appear as blank grids in the image editor.
+   Empty slots appear as blank grids in the UV/Image editor.
    Use the :kbd:`J` and :kbd:`Alt-J` to cycle forwards and backwards through saved renders.
-
 Render Layer
    If you are using :doc:`Render Layers </render/post_process/layers>`,
    use this menu to select which layer is displayed.
-
 Render Pass
    If you are using :doc:`Render Passes </render/blender_render/passes>`,
    use this menu to select which pass is displayed.
