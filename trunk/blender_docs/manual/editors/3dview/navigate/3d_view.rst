@@ -313,26 +313,31 @@ Quad View
 
    | Mode:     All modes
    | Menu:     :menuselection:`View --> Toggle Quad View`
+   | Panel     :menuselection:`Properties region --> Display --> Toggle Quad View`
    | Hotkey:   :kbd:`Ctrl-Alt-Q`
 
+Toggling Quad View will split the 3D View into four views:
+3 *Orthographic* "side views" and a *Camera*/*User View*.
+This view will allow you to instantly see your model from a number of view points.
+In this arrangement, you can zoom and pan each view independently but you cannot rotate the view.
+
+.. note::
+
+   Note that this is different from :doc:`splitting the area </interface/editors/arranging_areas>`
+   and aligning the view manually. In Quad View, the four views are still part of a single 3D View.
+   So they share the same draw options and layers.
+
 .. figure:: /images/editors_3dview_navigating-3d_view-quad_view.jpg
-   :width: 340px
 
    Quad View.
 
 
-Toggling Quad View will split the 3D View into four views: 3 *Ortho* views and a *Camera*/*User View*.
-This view will allow you to instantly see your model from a number of view points.
-In this arrangement, you can zoom and pan each view independently but you cannot rotate the view.
-Note that this is different from splitting the area and aligning the view manually.
-In Quad View, the four views are still part of a single 3D View.
-So they share the same draw options and layers.
-
-If you want to be able to rotate each view, you can un-check the *Locked* option.
-
-However, in sometimes its preferable to split the view, so each can have its own configuration.
-
-:doc:`Read more about splitting areas </interface/editors/arranging_areas>`
+Lock
+   If you want to be able to rotate each view, you can un-check the *Locked* option.
+Box
+   Syncs view position between side views.
+Clip
+   Clip objects based on what's visible in other side views.
 
 
 .. _3dview-clip_border:
