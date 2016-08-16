@@ -488,8 +488,6 @@ and the squared marker around this center provides a sort of
 "safe region" where you can place the mouse for it to have no effect on the view.
 The more you take the mouse pointer away from the marker, the more you pan, or track, etc.
 
-.. youtube:: bTRrHNn-d4w
-
 
 Shortcuts
 ^^^^^^^^^
