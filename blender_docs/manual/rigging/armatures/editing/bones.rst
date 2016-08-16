@@ -71,12 +71,12 @@ so you can place them to your liking. See Fig. :ref:`fig-rig-bones-extrusion`.
    Extrusion example
 
    * - .. figure:: /images/riggingboneselectexeditmodethreeboneends.png
-          :width: 300px
+          :width: 320px
 
           An armature with three selected tips.
 
      - .. figure:: /images/riggingboneextrudeexeditmode.png
-          :width: 300px
+          :width: 320px
 
           The three extruded bones.
 
@@ -92,12 +92,12 @@ extrusion along a global or local axis.
    Mirror extrusion example
 
    * - .. figure:: /images/riggingbonemirrorextrudeexeditmode1.png
-          :width: 200px
+          :width: 320px
 
           A single selected bone's tip.
 
      - .. figure:: /images/riggingbonemirrorextrudeexeditmode2.png
-          :width: 200px
+          :width: 320px
 
           The two mirror-extruded bones.
 
@@ -235,12 +235,12 @@ If you have one root and one tip selected, the new bone:
    Fill between a tip and a root
 
    * - .. figure:: /images/riggingfilltailhead.jpg
-          :width: 300px
+          :width: 320px
 
           Active tip on the left.
 
      - .. figure:: /images/riggingfilltailhead2.jpg
-          :width: 300px
+          :width: 320px
 
           Active tip on the right.
 
@@ -255,12 +255,12 @@ If you have two tips selected, the new bone:
    Fill between tips
 
    * - .. figure:: /images/riggingfilltailtailleft.jpg
-          :width: 300px
+          :width: 320px
 
           3D cursor on the left.
 
      - .. figure:: /images/riggingfilltailtailright.jpg
-          :width: 300px
+          :width: 320px
 
           3D cursor on the right.
 
@@ -281,12 +281,12 @@ new bone's root moves to the tip of the parent bone.
    Fill between roots
 
    * - .. figure:: /images/riggingfillheadhead.jpg
-          :width: 300px
+          :width: 320px
 
           Before UI update (3D cursor on the left).
 
      - .. figure:: /images/riggingfillheadheadcorrect.jpg
-          :width: 300px
+          :width: 320px
 
           After UI update, correct visualization.
 
@@ -298,12 +298,12 @@ end to the 3D cursor position, and it won't parent it to any bone in the armatur
    Fill with only one bone end selected
 
    * - .. figure:: /images/riggingfilltail.jpg
-          :width: 300px
+          :width: 320px
 
           Fill with only one tip selected.
 
      - .. figure:: /images/riggingfillhead.jpg
-          :width: 300px
+          :width: 320px
 
           Fill with only one root selected.
 
@@ -350,12 +350,12 @@ its copy will be parented, but **not** connected to the unselected bone
    Duplication example
 
    * - .. figure:: /images/riggingboneselectexeditmodethreebonessixends.png
-          :width: 300px
+          :width: 320px
 
           An armature with three selected bones and a selected single root.
 
      - .. figure:: /images/riggingboneduplicateexeditmode.png
-          :width: 300px
+          :width: 320px
 
           The three duplicated bones. Note that the selected chain is preserved in the copy,
           and that Bone.006 is parented but not connected to Bone.001, as indicated by the black dashed line.
@@ -397,12 +397,12 @@ to avoid deforming the whole armature.
    Deletion example.
 
    * - .. figure:: /images/riggingbonedeleteexeditmode1.png
-          :width: 300px
+          :width: 320px
 
           An armature with two selected bones, just before deletion.
 
      - .. figure:: /images/riggingbonedeleteexeditmode2.png
-          :width: 300px
+          :width: 320px
 
           The two bones have been deleted. Note that Bone.002,
           previously connected to the deleted Bone.001, is now parented but not connected to Bone.
@@ -441,23 +441,23 @@ differently depending in which chain is the edited bone
    Merge example
 
    * - .. figure:: /images/riggingbonemergeexeditmode1.png
-          :width: 300px
+          :width: 320px
 
           An armature with a selected chain, and a single selected bone, just before merging.
 
      - .. figure:: /images/riggingbonemergeexeditmode2.png
-          :width: 300px
+          :width: 320px
 
           Bones Bone, Bone.001 and Bone.002 have been merged in Bone.006,
           whereas Bone.005 was not modified. Note Bone.003, connected to Bone.006 but not yet "really" connected.
 
    * - .. figure:: /images/riggingbonemergeexeditmode3.png
-          :width: 300px
+          :width: 320px
 
           Bone.004 has been rotated, and hence the tip of Bone.006 was moved to the root of Bone.003.
 
      - .. figure:: /images/riggingbonemergeexeditmode4.png
-          :width: 300px
+          :width: 320px
 
           The tip of Bone.006 has been translated, and hence the root of Bone.003 was moved to the tip of `Bone.006`
 
@@ -494,12 +494,12 @@ if you set *n* cuts, you will get *n* + 1 bones for each selected bone.
    Subdivision example
 
    * - .. figure:: /images/riggingbonesubdivideexeditmode1.png
-          :width: 300px
+          :width: 320px
 
           An armature with one selected bone, just before multi-subdivision.
 
      - .. figure:: /images/riggingbonesubdivideexeditmode2.png
-          :width: 300px
+          :width: 320px
 
           The selected bone has been "cut" two times, giving three sub-bones.
 

@@ -15,6 +15,12 @@ Editing Bone Properties
 Transforming Bones
 ==================
 
+.. figure:: /images/riggingtransformpropertiespaneleditmode.png
+   :align: right
+   :figwidth: 160px
+
+   The Transform panel for armatures in Edit Mode.
+
 We won't detail here the various transformations of bones, nor things like axis locking, pivot points, and so on,
 as they are common to most object editing, and already described
 :doc:`here </editors/3dview/transform/transform_control/index>`
@@ -30,13 +36,6 @@ had no relations - you can grab, rotate, scale, etc.
 a parent bone without affecting its descendants. However,
 connected bones must always have parent's tips connected to child's roots,
 so by transforming a bone, you will affect all its connected parent/children/siblings.
-
-.. figure:: /images/riggingtransformpropertiespaneleditmode.png
-   :align: right
-   :figwidth: 160px
-
-   The Transform panel for armatures in Edit Mode.
-
 
 Finally, you can edit in the *Transform* panel in the Properties region
 the positions and radius of both ends of the active selected bone,
@@ -65,22 +64,22 @@ you scale at the same time the radius of the parent's tip and of the children's 
    Scaling of a bone in *Octahedron* and *Envelope* visualizations.
 
    * - .. figure:: /images/riggingboneselectexeditmodewholebone.jpg
-          :width: 300px
+          :width: 320px
 
           A single selected bone...
 
      - .. figure:: /images/riggingbonescalingexeditmodeoctahedron.jpg
-          :width: 300px
+          :width: 320px
 
           ...Scaled in Octahedron visualization.
 
    * - .. figure:: /images/riggingbonescalingexeditmodeenvelope1.jpg
-          :width: 300px
+          :width: 320px
 
           A single selected bone...
 
      - .. figure:: /images/riggingbonescalingexeditmodeenvelope2.jpg
-          :width: 300px
+          :width: 320px
 
           ...Scaled in Envelope visualization - its length remains the same, but its ends' radius are bigger.
 
@@ -113,12 +112,12 @@ this is a one-value property, so there is no axis locking and such.
    Envelope scaling example
 
    * - .. figure:: /images/riggingbonescalingexeditmodeenvelope1.jpg
-          :width: 300px
+          :width: 320px
 
           A single bone selected in Envelope visualization.
 
      - .. figure:: /images/riggingbonealtscalingexeditmodeenvelope.jpg
-          :width: 300px
+          :width: 320px
 
           Its envelope scaled with :kbd:`Ctrl-Alt-S`.
 
@@ -177,12 +176,12 @@ but in "reversed order". See the Fig. :ref:`fig-rig-properties-switch`.
    Switching example.
 
    * - .. figure:: /images/riggingboneswitchexeditmode1.jpg
-          :width: 300px
+          :width: 320px
 
           An armature with one selected bone, and one selected chain of three bones, just before switching.
 
      - .. figure:: /images/riggingboneswitchexeditmode2.jpg
-          :width: 300px
+          :width: 320px
 
           The selected bones have been switched. Bone.005 is no more connected nor parented to anything.
           The chain of switched bones still exists, but reversed (Now Bone.002 is its root, and Bone is its tip).
@@ -353,12 +352,12 @@ angle with previous/next bones in the chain, and so on.
    Bone In/Out settings example, with a materialized Bézier curve.
 
    * - .. figure:: /images/riggingbboneinoutex1.jpg
-          :width: 300px
+          :width: 320px
 
           Look at Bone.004: it has the default In and Out values (1.0).
 
      - .. figure:: /images/riggingbboneinoutex2.jpg
-          :width: 300px
+          :width: 320px
 
           Bone.004 with In at 2.0, and Out at 0.0.
 
@@ -412,23 +411,23 @@ To parent and/or connect bones, you can:
    Parenting example.
 
    * - .. figure:: /images/riggingbonerelationshipexeditmode1.jpg
-          :width: 300px
+          :width: 320px
 
           The starting armature, with Bone.005 parented and connected to Bone.004.
 
      - .. figure:: /images/riggingbonerelationshipexeditmode4.jpg
-          :width: 300px
+          :width: 320px
 
           Bone.005 re-parented to Bone.002, but not connected to it
           (same result, using either :kbd:`Ctrl-P-2` in 3D View, or the Armature Bones panel settings).
 
    * - .. figure:: /images/riggingbonerelationshipexeditmode2.jpg
-          :width: 300px
+          :width: 320px
 
           Bone.005 parented and connected to Bone.002, using :kbd:`Ctrl-P-1` in 3D View.
 
      - .. figure:: /images/riggingbonerelationshipexeditmode3.jpg
-          :width: 300px
+          :width: 320px
 
           Bone.005 parented and connected to Bone.002, using the Parent drop-down list of Bone.005 sub-panel.
 

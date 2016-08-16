@@ -1,5 +1,7 @@
 ..    TODO/Review: {{review|im=update|text=inbetweens, pose menu tools}}.
 
+.. |copy-paste| image:: /images/rigging-copypastepose.png
+
 *************
 Editing Poses
 *************
@@ -148,13 +150,9 @@ Copy/Paste Pose
    :class: refbox
 
    | Mode:     Pose Mode
-   | Panel:    *3D View* header
+   | Panel:    *3D View* header (|copy-paste|)
    | Menu:     :menuselection:`Pose --> Copy Current Pose`,
      :menuselection:`Pose --> Paste Pose`, :menuselection:`Pose --> Paste Flipped Pose`
-
-.. figure:: /images/rigging-copypastepose.png
-
-   Copy and paste pose buttons in the 3D View header in Pose Mode.
 
 
 Blender allows you to copy and paste a pose, either through the *Pose* menu, or
