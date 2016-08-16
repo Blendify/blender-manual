@@ -249,12 +249,12 @@ Options Panel
 -------------
 
 Gravity
-    Factor
-       Setting the factor allows you to add gravity to your brush strokes, giving
-       it a draping effect.
-    Orientation
-       Using another object, the gravity can be oriented to the set object's local
-       Z axis, changing the direction of the gravity.
+   Factor
+      Setting the factor allows you to add gravity to your brush strokes, giving
+      it a draping effect.
+   Orientation
+      Using another object, the gravity can be oriented to the set object's local
+      Z axis, changing the direction of the gravity.
 Threaded Sculpt
    Takes advantage of multiple CPU processors to improve sculpting performance.
 Fast Navigation

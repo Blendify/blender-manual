@@ -92,34 +92,40 @@ Examples
 
    * - .. figure:: /images/constraintschildofobjectsex01nocst.jpg
 
-          1. No constraint:
+          No constraint.
+
           Note the position of Owner empty 1.0 BU along X- and Y-Axis.
 
      - .. figure:: /images/constraintschildofobjectsex02cstadded.jpg
 
-          2. Child Of just added:
+          Child Of just added.
+
           Here you can see that Owner empty is now 1.0 BU away
           from Target_1 empty along X- and Y-Axis.
 
    * - .. figure:: /images/constraintschildofobjectsex03cstsetoffset.jpg
 
-          3. Offset set:
+          Offset set.
+
           Set Inverse has been clicked, and Owner is back to its original position.
 
      - .. figure:: /images/constraintschildofobjectsex04csttargettransformed.jpg
 
-          4. Target/parent transformed
+          Target/parent transformed.
+
           Target_1 has been translated in the XY plane, rotated around the Z-Axis,
           and scaled along its local X-Axis.
 
    * - .. figure:: /images/constraintschildofobjectsex05cstclearoffset.jpg
 
-          5. Offset cleared:
+          Offset cleared.
+
           Clear Inverse has been clicked. Owner is fully again controlled by Target_1.
 
      - .. figure:: /images/constraintschildofobjectsex06cstsetoffset.jpg
 
-          6. Offset set again:
+          Offset set again.
+
           Set Offset has been clicked again.
           As you can see, it does not gives the same result as in (Target/parent transformed).
           As noted above, use Set Inverse only once, before transforming your target/parent.
