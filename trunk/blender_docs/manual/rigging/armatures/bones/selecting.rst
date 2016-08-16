@@ -102,11 +102,11 @@ when the selection status of bones' ends is inverted, a new set of bones is sele
 
           Two bones selected.
 
-     - .. figure:: /images/riggingboneselectexeditmodethreeboneends.png
+     - .. figure:: /images/riggingboneselectexeditmodethreeboneends.jpg
           :width: 300px
 
-          The result of the inverse selection :kbd:`Ctrl-I` the bones ends selection has been inverted,
-          and not the bones selection.
+          The result of the inverse selection :kbd:`Ctrl-I`
+          the bones ends selection has been inverted, and not the bones selection.
 
 
 Selecting connected bones' ends
@@ -154,9 +154,8 @@ bone belongs to by using the *linked selection* tool, :kbd:`L`.
 
 
 You can deselect the active bone and select its immediate parent or
-one of its children using respectively
-:menuselection:`Select --> Select Parent`, :kbd:`[` or
-:menuselection:`Select --> Select Child`, :kbd:`]`.
+one of its children using respectively :menuselection:`Select --> Select Parent`,
+:kbd:`[` or :menuselection:`Select --> Select Child`, :kbd:`]`.
 If you prefer to keep the active bone in the selection,
 use :menuselection:`Select --> Extend Select Parent`, :kbd:`Ctrl-[` or
 :menuselection:`Select --> Extend Select Child`, :kbd:`Ctrl-]`.
