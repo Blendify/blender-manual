@@ -16,7 +16,7 @@ This page lists definitions for terms used in Blender and this manual.
       Only one object or item can be active at any given time.
 
    Action Safe
-     Area of the screen visible on most devices. Place content inside it to ensure it doesn't get cut off.
+      Area of the screen visible on most devices. Place content inside it to ensure it doesn't get cut off.
 
    Actuator
       A :term:`logic brick` that acts like a muscle of a lifeform. It can move the object, or make a sound.
@@ -156,9 +156,9 @@ This page lists definitions for terms used in Blender and this manual.
             The brightness of the color (dark to light).
       HSL
          Hue, Saturation
-            See HSV
+            See HSV.
          Luminance
-            TODO
+            TODO.
       YUV
          Luminance-Chrominance standard used in broadcasting analog PAL (European) video.
       YCbCr
@@ -233,7 +233,7 @@ This page lists definitions for terms used in Blender and this manual.
       An edge loop ends at a pole or a boundary. Otherwise, it is cyclic.
 
    Edge Ring
-       Path of all :term:`edges <edge>` along a :term:`face loop` that share two faces belonging to that loop.
+      Path of all :term:`edges <edge>` along a :term:`face loop` that share two faces belonging to that loop.
 
    Empty
       An :term:`Object` without any :term:`Vertices`, :term:`Edges <Edge>` or :term:`Faces <Face>`.
