@@ -76,7 +76,7 @@ Sections
       .. container:: descr
 
          .. figure:: /images/contents_painting.jpg
-            :target: painting_sculpting/index.html
+            :target: sculpt_paint/index.html
 
          :doc:`/sculpt_paint/index`
             The 3D texture painting and sculpting modes.
