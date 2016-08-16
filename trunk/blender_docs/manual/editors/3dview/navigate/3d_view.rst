@@ -327,10 +327,15 @@ In this arrangement, you can zoom and pan each view independently but you cannot
    and aligning the view manually. In Quad View, the four views are still part of a single 3D View.
    So they share the same draw options and layers.
 
-.. figure:: /images/editors_3dview_navigating-3d_view-quad_view.jpg
+.. figure:: /images/3dview_nav_3dview_quad.png
 
    Quad View.
 
+
+Options
+-------
+
+These options can be found in menuselection:`Properties region --> Display`.
 
 Lock
    If you want to be able to rotate each view, you can un-check the *Locked* option.
