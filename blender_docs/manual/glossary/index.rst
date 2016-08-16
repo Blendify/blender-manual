@@ -412,7 +412,7 @@ This page lists definitions for terms used in Blender and this manual.
       A non-manifold mesh is a mesh in which the structure of a
       non-overlapped surface (based on it's connected faces) won't determine
       the inside or the outside of a volume based on its normals, defining
-      a single surface for both sides, but ended with flipped normals.
+      a  single surface for both sides, but ended with flipped normals.
       When working with non-closed volumes, a non-manifold mesh will always
       determine at least one discontinuity in the normal directions, either
       by an inversion of a connected loop, or by an odd number of surfaces.
