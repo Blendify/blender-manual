@@ -162,12 +162,12 @@ Layering UV Textures
 .. list-table::
 
    * - .. figure:: /images/uv-layer_one.jpg
-          :width: 300px
+          :width: 320px
 
           Base UV Texture.
 
      - .. figure:: /images/uv-layer-two.jpg
-          :width: 300px
+          :width: 320px
 
           Layered UV Texture.
 

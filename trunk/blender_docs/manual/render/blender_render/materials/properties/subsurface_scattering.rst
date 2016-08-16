@@ -41,22 +41,22 @@ Instead let us see what SSS does to a distinct light point.
 .. list-table::
 
    * - .. figure:: /images/materials-sss.jpg
-          :width: 300px
+          :width: 320px
 
           No SSS.
 
      - .. figure:: /images/materials-sss1.jpg
-          :width: 300px
+          :width: 320px
 
           Small SSS radius.
 
    * - .. figure:: /images/materials-sss2.jpg
-          :width: 300px
+          :width: 320px
 
           SSS radius enlarged.
 
      - .. figure:: /images/materials-sss3.jpg
-          :width: 300px
+          :width: 320px
 
           SSS with very large red radius value.
 

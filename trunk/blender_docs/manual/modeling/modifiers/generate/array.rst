@@ -134,30 +134,30 @@ Mechanical
 .. list-table::
 
    * - .. figure:: /images/array_bridge.jpg
-          :width: 300px
+          :width: 320px
 
           A bridge made from a tileable mesh.
 
      - .. figure:: /images/arraymodifier-track01.jpg
-          :width: 300px
+          :width: 320px
 
           A track.
           `Sample blend-file <https://wiki.blender.org/index.php/Media:Tracktest.blend>`__
 
    * - .. figure:: /images/arraymodifier-cog01.jpg
-          :width: 300px
+          :width: 320px
 
           A cog created from a single segment.
           `Blend <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Cog01.blend>`__
 
      - .. figure:: /images/arraymodifier-crankshaft01.jpg
-          :width: 300px
+          :width: 320px
 
           A crankshaft.
           `Sample blend-file <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Crankshaft01.blend>`__
 
    * - .. figure:: /images/arraymodifier-chain01.jpg
-          :width: 300px
+          :width: 320px
 
           A chain created from a single link.
           `Sample blend-file <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Chain01.blend>`__
@@ -171,18 +171,18 @@ Fractal
 .. list-table::
 
    * - .. figure:: /images/array_multi_dimension.jpg
-          :width: 300px
+          :width: 320px
 
           Multi-level array animated with motion blur.
 
      - .. figure:: /images/arraymodifier-fractal01.jpg
-          :width: 300px
+          :width: 320px
 
           Fractal created with multiple arrays.
           `Blend <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Fractal01.blend>`__
 
    * - .. figure:: /images/arraymodifier_fractal_11.jpg
-          :width: 300px
+          :width: 320px
 
           A fractal fern image created with two array modifiers and one mirror applied to a cube.
 
@@ -195,13 +195,13 @@ Organic
 .. list-table::
 
    * - .. figure:: /images/array_fractal_example.jpg
-          :width: 300px
+          :width: 320px
 
           Subsurfed cube array with one object offset,
           four cubes and a high vertex merge setting to give the effect of skinning.
 
      - .. figure:: /images/arraymodifier-spiral01.jpg
-          :width: 300px
+          :width: 320px
 
           A double spiral created with two array modifiers and one subsurf modifier applied to a cube.
           As above, the vertex merge threshold is set very high to give the effect of skinning.

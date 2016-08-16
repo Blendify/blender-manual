@@ -297,12 +297,12 @@ Segment
 .. list-table::
 
    * - .. figure:: /images/editing_curves_delete-selected.jpg
-          :width: 300px
+          :width: 320px
 
           Deleting Curve Selected.
 
      - .. figure:: /images/editing_curves_delete-segment.jpg
-          :width: 300px
+          :width: 320px
 
           Deleting Curve segments.
 

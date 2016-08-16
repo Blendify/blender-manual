@@ -126,12 +126,12 @@ Character
 .. list-table::
 
    * - .. figure:: /images/text-bold-ex.jpg
-          :width: 300px
+          :width: 320px
 
           Bold text.
 
      - .. figure:: /images/textfontsettings.jpg
-          :width: 300px
+          :width: 320px
 
           Character options to, for example, type bold text.
 

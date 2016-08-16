@@ -97,22 +97,22 @@ See Fig. :ref:`fig-mesh-select-intro-selection-modes` for examples of the differ
 .. list-table:: Selection Modes.
 
    * - .. figure:: /images/editmodeverticemodeexample.jpg
-          :width: 300px
+          :width: 320px
 
           Vertices mode example.
 
      - .. figure:: /images/editmodeedgemodeexample.jpg
-          :width: 300px
+          :width: 320px
 
           Edges mode example.
 
    * - .. figure:: /images/editmodefacemodeexample.jpg
-          :width: 300px
+          :width: 320px
 
           Faces mode example.
 
      - .. figure:: /images/editmodemixedmodeexample.jpg
-          :width: 300px
+          :width: 320px
 
           Mixed mode example.
 

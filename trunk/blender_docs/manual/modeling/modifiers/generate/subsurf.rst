@@ -117,12 +117,12 @@ This lets you grab the vertices as they lie in their new smoothed locations, rat
 .. list-table::
 
    * - .. figure:: /images/subsurfeditcageoff.jpg
-          :width: 300px
+          :width: 320px
 
           Edit Cage Off (Default).
 
      - .. figure:: /images/subsurfeditcageon.jpg
-          :width: 300px
+          :width: 320px
 
           Edit Cage On.
 
@@ -220,12 +220,12 @@ shares the overall normal orientation of that original face.
 .. list-table::
 
    * - .. figure:: /images/subsurf05b.jpg
-          :width: 300px
+          :width: 320px
 
           Comparison of good normals and bad normals.
 
      - .. figure:: /images/subsurf05a.jpg
-          :width: 300px
+          :width: 320px
 
           Side view of image on left.
 

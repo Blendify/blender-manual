@@ -8,22 +8,22 @@ We have four basic bone visualization: Octahedral, Stick, B-Bone, Envelope and W
 .. list-table::
 
    * - .. figure:: /images/riggingboneprincipalsbonedisplayoctahedral.jpg
-          :width: 300px
+          :width: 320px
 
           Octahedral bone display.
 
      - .. figure:: /images/riggingboneprincipalsbonedisplaystick.jpg
-          :width: 300px
+          :width: 320px
 
           Stick bone display.
 
    * - .. figure:: /images/riggingboneprincipalsbonedisplaybbone.jpg
-          :width: 300px
+          :width: 320px
 
           B-Bone bone display.
 
      - .. figure:: /images/riggingboneprincipalsbonedisplayenvelope.jpg
-          :width: 300px
+          :width: 320px
 
           Envelope bone display.
 
@@ -160,13 +160,13 @@ To assign a custom shape to a bone, you have to:
 .. list-table::
 
    * - .. figure:: /images/riggingboneshapeex3dviewobjectmode.jpg
-          :width: 300px
+          :width: 320px
 
           The armature with shapes assigned to two bones, in Object Mode.
           Note the centers of the Cone and Cube objects.
 
      - .. figure:: /images/riggingboneshapeex3dviewposemode.jpg
-          :width: 300px
+          :width: 320px
 
           The same armature in Pose Mode...
 

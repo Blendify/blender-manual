@@ -131,37 +131,37 @@ Falloff
 .. list-table::
 
    * - .. figure:: /images/editors_3dview_transform-control_proportional-edit-falloff-constant.jpg
-          :width: 300px
+          :width: 320px
 
           Constant, No Falloff.
 
      - .. figure:: /images/editors_3dview_transform-control_proportional-edit-falloff-random.jpg
-          :width: 300px
+          :width: 320px
 
           Random Falloff.
 
    * - .. figure:: /images/editors_3dview_transform-control_proportional-edit-falloff-linear.jpg
-          :width: 300px
+          :width: 320px
 
           Linear Falloff.
 
      - .. figure:: /images/editors_3dview_transform-control_proportional-edit-falloff-sharp.jpg
-          :width: 300px
+          :width: 320px
 
           Sharp Falloff.
 
    * - .. figure:: /images/editors_3dview_transform-control_proportional-edit-falloff-root.jpg
-          :width: 300px
+          :width: 320px
 
           Root Falloff.
 
      - .. figure:: /images/editors_3dview_transform-control_proportional-edit-falloff-sphere.jpg
-          :width: 300px
+          :width: 320px
 
           Sphere Falloff.
 
    * - .. figure:: /images/editors_3dview_transform-control_proportional-edit-falloff-smooth.jpg
-          :width: 300px
+          :width: 320px
 
           Smooth Falloff.
 

@@ -127,12 +127,12 @@ or the :kbd:`Wheel`.
 .. list-table:: Circle Region Select.
 
    * - .. figure:: /images/modeling-meshes-selection-circularselect1.jpg
-          :width: 300px
+          :width: 320px
 
           Before.
 
      - .. figure:: /images/modeling-meshes-selection-circularselect2.jpg
-          :width: 300px
+          :width: 320px
 
           After.
 

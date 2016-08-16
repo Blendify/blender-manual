@@ -122,12 +122,12 @@ if edges are selected that do not form a face, they will extrude to form a face.
 .. list-table::
 
    * - .. figure:: /images/extrude-vert.jpg
-          :width: 300px
+          :width: 320px
 
           Single vertex extruded.
 
      - .. figure:: /images/extrude-edge.jpg
-          :width: 300px
+          :width: 320px
 
           Single edge extruded.
 
@@ -142,21 +142,21 @@ To force a vertex or edge selection to extrude as a vertex or edge, respectively
 .. list-table::
 
    * - .. figure:: /images/extrude-verts-before.jpg
-          :width: 300px
+          :width: 320px
 
           Vertex selected.
 
      - .. figure:: /images/extrude-verts-after.jpg
-          :width: 300px
+          :width: 320px
 
           Vertices Only extrude.
 
    * - .. figure:: /images/extrude-edges-before.jpg
-          :width: 300px
+          :width: 320px
 
           Edge selected.
 
      - .. figure:: /images/extrude-edges-after.jpg
-          :width: 300px
+          :width: 320px
 
           Edge Only extrude.

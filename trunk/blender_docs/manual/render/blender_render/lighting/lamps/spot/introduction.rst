@@ -89,10 +89,10 @@ Size
       Changing the spot *Size* option
 
       * - .. figure:: /images/lighting-lamps-spot-size_45.jpg
-             :width: 300px
+             :width: 320px
 
         - .. figure:: /images/lighting-lamps-spot-size_60.jpg
-             :width: 300px
+             :width: 320px
 
 
 Blend

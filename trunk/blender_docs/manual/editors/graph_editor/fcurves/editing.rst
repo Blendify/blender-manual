@@ -88,12 +88,12 @@ if they have been modified. *Clean Keyframes* :kbd:`O`
 .. list-table::
 
    * - .. figure:: /images/fcurve-clean1.jpg
-          :width: 300px
+          :width: 320px
 
           F-Curve before cleaning.
 
      - .. figure:: /images/fcurve-clean2.jpg
-          :width: 300px
+          :width: 320px
 
           F-Curve after cleaning.
 
@@ -116,12 +116,12 @@ seem to be never modified by this tool.
 .. list-table::
 
    * - .. figure:: /images/fcurve-clean1.jpg
-          :width: 300px
+          :width: 320px
 
           F-Curve before smoothing.
 
      - .. figure:: /images/fcurve-smooth.jpg
-          :width: 300px
+          :width: 320px
 
           F-Curve after smoothing.
 
@@ -135,12 +135,12 @@ Sample Keyframes :kbd:`Shift-O`
    .. list-table::
 
       * - .. figure:: /images/fcurve-sample.jpg
-             :width: 300px
+             :width: 320px
 
              F-Curve before sampling.
 
         - .. figure:: /images/fcurve-sample2.jpg
-             :width: 300px
+             :width: 320px
 
              F-Curve after sampling.
 

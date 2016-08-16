@@ -12,12 +12,12 @@ the *Active Element* panel appears for editing individual meta elements.
 .. list-table::
 
    * - .. figure:: /images/metapropertiesobjectmode.jpg
-          :width: 300px
+          :width: 320px
 
           global meta properties.
 
      - .. figure:: /images/metapropertieseditmode.jpg
-          :width: 300px
+          :width: 320px
 
           individual meta properties.
 

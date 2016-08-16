@@ -176,23 +176,23 @@ showing the effect on the deformation of the cylinder along the particle path.
    .. list-table::
 
       * - .. figure:: /images/particle_instance_modifier-keyed_particle_example_4.jpg
-             :width: 300px
+             :width: 320px
 
              The cylinder has most of its edge loops so most of the path deform is very regular
              apart from at the very end of the curve.
 
         - .. figure:: /images/particle_instance_modifier-keyed_particle_example_5.jpg
-             :width: 300px
+             :width: 320px
 
              The cylinder has some of its edge loops removed so the path of the deform starts to become less regular.
 
       * - .. figure:: /images/particle_instance_modifier-keyed_particle_example_6.jpg
-             :width: 300px
+             :width: 320px
 
              Now the deform path is very rough.
 
         - .. figure:: /images/particle_instance_modifier-keyed_particle_example_7.jpg
-             :width: 300px
+             :width: 320px
 
              At this point there are not any vertices to bend the cylinder to follow the path,
              and instead the cylinder just goes directly to the last way point 4.

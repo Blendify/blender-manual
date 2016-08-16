@@ -83,12 +83,12 @@ Angle
 .. list-table:: Spun profile
 
    * - .. figure:: /images/spin3.jpg
-          :width: 300px
+          :width: 320px
 
           Spun profile using an angle of 360.
 
      - .. figure:: /images/spin4.jpg
-          :width: 300px
+          :width: 320px
 
           Spun profile using an angle of 120.
 
@@ -99,12 +99,12 @@ Dupli
 .. list-table::
 
    * - .. figure:: /images/spin6.jpg
-          :width: 300px
+          :width: 320px
 
           Result of spin operation.
 
      - .. figure:: /images/spin7.jpg
-          :width: 300px
+          :width: 320px
 
           Result of Dupli enabled.
 

@@ -25,12 +25,12 @@ Also see :doc:`Creating Geometry </modeling/meshes/editing/basics/creating_faces
 .. list-table::
 
    * - .. figure:: /images/fill1.jpg
-          :width: 300px
+          :width: 320px
 
           A closed perimeter of edges.
 
      - .. figure:: /images/fill2.jpg
-          :width: 300px
+          :width: 320px
 
           Filled using fill.
 
@@ -63,12 +63,12 @@ note, unlike creating n-gons, fill supports holes.
 .. list-table::
 
    * - .. figure:: /images/fill1_holes.jpg
-          :width: 300px
+          :width: 320px
 
           A closed perimeter of edges with holes.
 
      - .. figure:: /images/fill2_holes.jpg
-          :width: 300px
+          :width: 320px
 
           Filled using fill.
 
@@ -90,12 +90,12 @@ It rearrange selected triangles to obtain more "balanced" ones (i.e. less long t
 .. list-table::
 
    * - .. figure:: /images/mesh_beauty_fill_before.jpg
-          :width: 300px
+          :width: 320px
 
           Text converted to a mesh.
 
      - .. figure:: /images/mesh_beauty_fill_after.jpg
-          :width: 300px
+          :width: 320px
 
           Result of Beauty Fill, :kbd:`Alt-Shift-F`.
 
@@ -117,12 +117,12 @@ Grid Fill
 .. list-table::
 
    * - .. figure:: /images/mesh_fill_grid_surface_before.jpg
-          :width: 300px
+          :width: 320px
 
           Input.
 
      - .. figure:: /images/mesh_fill_grid_surface_after.jpg
-          :width: 300px
+          :width: 320px
 
           Grid Fill Result.
 
@@ -172,12 +172,12 @@ which means some triangles could remain.
 .. list-table::
 
    * - .. figure:: /images/fill5.jpg
-          :width: 300px
+          :width: 320px
 
           Before converting tris to quads.
 
      - .. figure:: /images/quadtotris.jpg
-          :width: 300px
+          :width: 320px
 
           After converting tris to quads.
 
@@ -261,12 +261,12 @@ It works on the shared edge between two faces and rotates that edge if the edge 
 .. list-table::
 
    * - .. figure:: /images/rotateedgefacemode1.jpg
-          :width: 300px
+          :width: 320px
 
           Two Faces Selected.
 
      - .. figure:: /images/rotateedgefacemode2.jpg
-          :width: 300px
+          :width: 320px
 
           Full Render.
 
