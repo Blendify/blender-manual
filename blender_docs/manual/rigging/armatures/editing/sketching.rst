@@ -115,22 +115,22 @@ raise this value a bit, and if you find them too jagged, lower it.
    Drawing free segments example.
 
    * - .. figure:: /images/riggingsketchingdrawingfreestrokeex1.jpg
-          :width: 300px
+          :width: 320px
 
           While drawing a first free segment with click and drag :kbd:`LMB`.
 
      - .. figure:: /images/riggingsketchingdrawingfreestrokeex2.jpg
-          :width: 300px
+          :width: 320px
 
           The first free segment finalized by releasing :kbd:`LMB`.
 
    * - .. figure:: /images/riggingsketchingdrawingfreestrokeex3.jpg
-          :width: 300px
+          :width: 320px
 
           If you now move the mouse without pressing :kbd:`LMB` again, you will create a straight segment...
 
      - .. figure:: /images/riggingsketchingdrawingfreestrokeex4.jpg
-          :width: 300px
+          :width: 320px
 
 But if you immediately click again and drag :kbd:`LMB` you will instead start a new free segment.
 
@@ -306,12 +306,12 @@ each free segment of the selected strokes will be uniformly divided in *n* parts
    The fixed conversion result.
 
    * - .. figure:: /images/bonesketch-convert.jpg
-          :width: 300px
+          :width: 320px
 
           The Fixed conversion settings and its preview on selected strokes.
 
      - .. figure:: /images/bonesketch-convert2.jpg
-          :width: 300px
+          :width: 320px
 
 
 Adaptive
@@ -327,12 +327,12 @@ So the more twisted a free segment, the more bones it will generate.
    The adaptive conversion result.
 
    * - .. figure:: /images/bonesketch-convert3.jpg
-          :width: 300px
+          :width: 320px
 
           The adaptive conversion settings and its preview on selected strokes.
 
      - .. figure:: /images/bonesketch-convert4.jpg
-          :width: 300px
+          :width: 320px
 
 
 Length

@@ -30,6 +30,6 @@ This means the bisect tool can cut off parts of a mesh without creating any hole
          Example of a common use of bisect.
 
      - .. figure:: /images/mesh_bisect_uv.jpg
-          :width: 300px
+          :width: 320px
 
           Example of bisect with fill option

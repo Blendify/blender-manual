@@ -193,21 +193,21 @@ you can smooth the mesh non-destructively with one or several of the following m
    Example mesh with *Auto Smooth* enabled
 
    * - .. figure:: /images/meshsmooth-example-08subsurf.jpg
-          :width: 300px
+          :width: 320px
 
           Subsurf.
 
      - .. figure:: /images/meshsmooth-example-09edgecrease.jpg
-          :width: 300px
+          :width: 320px
 
           Using creased edges, and resulting subsurf artifacts.
 
    * - .. figure:: /images/meshsmooth-example-10edgeloops.jpg
-          :width: 300px
+          :width: 320px
 
           Extra edge loops added.
 
      - .. figure:: /images/meshsmooth-example-11edgeloops.jpg
-          :width: 300px
+          :width: 320px
 
           3D View showing creased edges (pink) and added edges loops (yellow).

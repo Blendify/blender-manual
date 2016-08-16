@@ -56,12 +56,12 @@ New cut :kbd:`E`
 .. list-table::
 
    * - .. figure:: /images/knife4.jpg
-          :width: 300px
+          :width: 320px
 
           Creating multiple cuts.
 
      - .. figure:: /images/knife5.jpg
-          :width: 300px
+          :width: 320px
 
           Result of starting new cuts while in the tool.
 
@@ -83,12 +83,12 @@ Draw a continuous line: :kbd:`LMB` drag.
 .. list-table::
 
    * - .. figure:: /images/knife6.jpg
-          :width: 300px
+          :width: 320px
 
           Constraining cut angle.
 
      - .. figure:: /images/knife7.jpg
-          :width: 300px
+          :width: 320px
 
           Result of constraining cut angle.
 
@@ -131,32 +131,32 @@ Examples
 .. list-table::
 
    * - .. figure:: /images/knife_project_text_before.jpg
-          :width: 300px
+          :width: 320px
 
           Before projecting from a text object.
 
      - .. figure:: /images/knife_project_text_after.jpg
-          :width: 300px
+          :width: 320px
 
           Resulting knife projection.
 
    * - .. figure:: /images/knife_project_mesh_before.jpg
-          :width: 300px
+          :width: 320px
 
           Before projecting from a mesh object.
 
      - .. figure:: /images/knife_project_mesh_after.jpg
-          :width: 300px
+          :width: 320px
 
           Resulting knife projection (extruded after).
 
    * - .. figure:: /images/knife_project_curve_before.jpg
-          :width: 300px
+          :width: 320px
 
           Before projecting from a 3D curve object.
 
      - .. figure:: /images/knife_project_curve_after.jpg
-          :width: 300px
+          :width: 320px
 
           Resulting knife projection (extruded after).
 

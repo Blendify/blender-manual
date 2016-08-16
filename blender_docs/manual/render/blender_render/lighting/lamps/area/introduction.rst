@@ -50,12 +50,12 @@ the *Shadow* panel has the following default layout:
    The *Shadow* panel when *Area* light source is selected.
 
    * - .. figure:: /images/lighting-lamps-area-adap_qmc.jpg
-          :width: 300px
+          :width: 320px
 
           Adaptive QMC settings.
 
      - .. figure:: /images/lighting-lamps-area-cont_jitt.jpg
-          :width: 300px
+          :width: 320px
 
           Constant Jittered settings.
 

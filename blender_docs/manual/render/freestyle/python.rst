@@ -38,14 +38,14 @@ the Blender Python API reference manual for the full detail of style module cons
 .. list-table::
 
    * - .. figure:: /images/render-freestyle-demo-turning_pages.jpg
-          :width: 300px
+          :width: 320px
 
           By T.K. using the Python Scripting mode.
 
           (`File:Turning_Pages.zip <https://wiki.blender.org/index.php/File:Turning_Pages.zip>`__, CC0)
 
      - .. figure:: /images/sketchy_broken_topology.jpg
-          :width: 300px
+          :width: 320px
 
           By T.K. using the Python Scripting mode.
 

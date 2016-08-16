@@ -35,22 +35,22 @@ Bones can be visualized in various ways: *Octahedron*, *Stick*,
 .. list-table::
 
    * - .. figure:: /images/riggingboneprincipalsbonedisplayoctahedral.jpg
-          :width: 300px
+          :width: 320px
 
           Octahedral bone display.
 
      - .. figure:: /images/riggingboneprincipalsbonedisplaystick.jpg
-          :width: 300px
+          :width: 320px
 
           Stick bone display.
 
    * - .. figure:: /images/riggingboneprincipalsbonedisplaybbone.jpg
-          :width: 300px
+          :width: 320px
 
           B-Bone bone display.
 
      - .. figure:: /images/riggingboneprincipalsbonedisplayenvelope.jpg
-          :width: 300px
+          :width: 320px
 
           Envelope bone display.
 
@@ -98,19 +98,19 @@ you cannot see these segments in *Object Mode*, because they're aligned.
    * - .. _fig-rig-bone-intro-bbone:
 
        .. figure:: /images/riggingbboneex3dvieweditmode.jpg
-          :width: 300px
+          :width: 320px
 
           An armature of B-Bones, in Edit Mode.
 
      - .. figure:: /images/riggingbboneex3dviewprinciples.jpg
-          :width: 300px
+          :width: 320px
 
           The Bézier curve superposed to the chain, with its handles placed at bones' ends.
 
    * - .. _fig-rig-bone-intro-same:
 
        .. figure:: /images/riggingbboneex3dviewobjectmode.jpg
-          :width: 300px
+          :width: 320px
 
           The same armature in Object Mode.
 

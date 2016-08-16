@@ -21,12 +21,12 @@ the Blender Internal engine.
 .. list-table::
 
    * - .. figure:: /images/opengl_rendered.jpg
-          :width: 300px
+          :width: 320px
 
           OpenGL Render.
 
      - .. figure:: /images/render_opengl_example_final.jpg
-          :width: 300px
+          :width: 320px
 
           Full Render.
 

@@ -145,7 +145,7 @@ To cancel the selection use :kbd:`RMB` or key :kbd:`Esc`.
 .. list-table::
 
    * - .. figure:: /images/object-selection-circle1.jpg
-          :width: 300px
+          :width: 320px
 
           Circle selection.
 

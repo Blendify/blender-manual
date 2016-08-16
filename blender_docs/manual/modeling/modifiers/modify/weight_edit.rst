@@ -139,12 +139,12 @@ you would get wavy patterns, see Fig. :ref:`fig-modifier-vertex-weight-wavy`).
 .. list-table:: Wavy patterns.
 
    * - .. figure:: /images/modifiersweightvgroupgeometryex1-0pf.jpg
-          :width: 300px
+          :width: 320px
 
           Distance from edges.
 
      - .. figure:: /images/modifiersweightvgroupgeometryex1-0pfwavyweights.jpg
-          :width: 300px
+          :width: 320px
 
           Distance from vertices.
 

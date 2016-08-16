@@ -189,7 +189,7 @@ onto which it is being mapped.
 .. list-table::
 
    * - .. figure:: /images/envmap01.jpg
-          :width: 300px
+          :width: 320px
 
           Planar reflection example. 1: Camera, 2: Empty, 3: Reflecting Plane.
 

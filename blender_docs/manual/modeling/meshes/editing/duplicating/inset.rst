@@ -19,12 +19,12 @@ inset during the modal operation by holding :kbd:`Ctrl`.
 .. list-table::
 
    * - .. figure:: /images/mesh_tool_inset_before.jpg
-          :width: 300px
+          :width: 320px
 
           Selection to inset.
 
      - .. figure:: /images/mesh_tool_inset_after.jpg
-          :width: 300px
+          :width: 320px
 
           Selection with inset.
 
