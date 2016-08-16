@@ -4,7 +4,7 @@ Armature Structure
 ******************
 
 .. figure:: /images/quick51.jpg
-   :width: 250px
+   :align: right
 
    Example of a very basic armature.
 
@@ -14,6 +14,10 @@ you can also translate and even scale them! And your bones do not have to be con
 they can be completely free if you want. However,
 the most natural and useful setups imply that some bones are related to others, forming so-called "chains of bones",
 which create some sort of "limbs" in your armature, as detailed in `Chains of Bones`_.
+
+.. container:: lead
+
+   .. clear
 
 
 .. _armature-bone_chain:

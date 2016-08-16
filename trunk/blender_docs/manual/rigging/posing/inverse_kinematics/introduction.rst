@@ -101,10 +101,9 @@ but the forearm can still be twisted manually by pressing :kbd:`R-Y-Y` in *Pose 
 or by using other constraints.
 
 .. figure:: /images/ik_arm_example.png
+   :align: center
 
-   IK Arm Example.
+   `IK Arm Example. <https://wiki.blender.org/index.php/File:IK_Arm_Example.blend>`__
 
-
-`IK Arm Example. <https://wiki.blender.org/index.php/File:IK_Arm_Example.blend>`__
 
 Note that, if a *Pole Target* is used, IK locking will not work on the root boot.

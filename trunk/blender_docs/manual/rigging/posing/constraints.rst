@@ -5,8 +5,11 @@ Applying Constraints to Bones
 *****************************
 
 .. figure:: /images/rigging-constraints.jpg
+   :align: right
+   :figwidth: 290px
 
-   The Constraints panel in Pose Mode, with one Floor constraint applied to the active bone (Bone.001).
+   The Constraints panel in Pose Mode,
+   with one Floor constraint applied to the active bone (Bone.001).
 
 
 As bones behave like objects in *Pose Mode*, they can also be constrained. This is
