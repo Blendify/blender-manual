@@ -1,8 +1,7 @@
-.. _editors-logic:
 
-###############
+****************
   Logic Editor
-###############
+****************
 
 The Logic Editor provides the main method of setting up and editing the game logic for the
 various actors (i.e. objects) that make up the game. The logic for the objects which are
@@ -16,59 +15,73 @@ panel content in which the major components have been labeled.
 We will look at each one individually.
 
 .. figure:: /images/logic_panel_expanded_menus.jpg
-   :width: 610px
 
-   The different parts of the Logic Panel.
-
-
-1) Game Property Area
-      Game properties are like variables in other programming languages.
-      They are used to save and access data associated with an object.
-      Several types of properties are available.
-      Properties are declared by clicking the Add Game Property button in this area.
-      For a more in-depth look at the content,
-      layout and available operations in this area, see :doc:`Properties </game_engine/logic/properties>`.
+   The different parts of the Logic Editor.
+	
+   1) Property Region, 2) Object Name, 3a) Links, 3b) Link socket,
+   4) Sensor column, 5) Controller Column, 6) Actuator Column
 
 
-2) Object Name
-      This box shows the name of the object which owns the logic bricks below.
 
 
-3) Links
-      Links (3A) indicate the direction of logical flow between objects.
-      Link lines are drawn by :kbd:`LMB` dragging from one Link node (3B) to another.
-      Links can only be drawn from Sensors to Controllers, or from Controllers to Actuators.
-      You cannot directly link Sensors to Actuators; likewise,
-      Actuators cannot be linked back to Sensors
-      (however, special actuator and sensor types are available to provide these connections).
+Main view
+=========
 
-      Sending nodes (the black circles found on the right-hand side of Sensors and Controllers)
-      can send to multiple Reception nodes
-      (the white circles found on the left-hand side of Controllers and Actuators).
-      Reception nodes can likewise receive multiple links.
+Object Name
+   This box shows the name of the object which owns the logic bricks below.
 
-      Links can be created between logic bricks belonging to different objects.
-
-      To delete a link between two nodes, :kbd:`LMB` drag between the two nodes.
-
-
-4) Sensor Area
-      This column contains a list of all sensors owned by the active object (and any other selected objects).
-      New sensors for the active object are created using the "Add Sensor" button.
-      For a more in-depth look at the content, layout and available operations in this area,
-      see :doc:`Sensors </game_engine/logic/sensors/introduction>`.
-
-
-5) Controller Area
-      This column contains a list of all controllers owned by the active object (and any other selected objects).
-      New controllers for the active object are created using the "Add Controller" button,
-      together with the creation of states for the active object.
-      For a more in-depth look at the content, layout, and available operations in this area,
-      see :doc:`Controllers </game_engine/logic/controllers/introduction>`.
+Links
+   Links (3A) indicate the direction of logical flow between objects.
+   Link lines are drawn by :kbd:`LMB` dragging from one Link socket (3B) to another.
+   Links can only be drawn from Sensors to Controllers, or from Controllers to Actuators.
+   You cannot directly link Sensors to Actuators; likewise,
+   Actuators cannot be linked back to Sensors
+   (however, special actuator and sensor types are available to provide these connections).
+   
+   Sending nodes (the black circles found on the right-hand side of Sensors and Controllers)
+   can send to multiple Reception nodes
+   (the white circles found on the left-hand side of Controllers and Actuators).
+   Reception nodes can likewise receive multiple links.
+   
+   Links can be created between logic bricks belonging to different objects.
+   
+   To delete a link between two nodes, :kbd:`LMB` drag between the two nodes.
 
 
-6) Actuator Area
-      This column contains a list of all actuators owned by the active object (and any other selected objects).
-      New actuators for the active object are created using the "Add Actuator" button.
-      For a more in-depth look at the content, layout, and available operations in this area,
-      see :doc:`Actuators </game_engine/logic/actuators/introduction>`.
+Sensor Column
+-------------
+
+This column contains a list of all sensors owned by the active object (and any other selected objects).
+New sensors for the active object are created using the "Add Sensor" button.
+For a more in-depth look at the content, layout and available operations in this area,
+see :doc:`Sensors </game_engine/logic/sensors/introduction>`.
+
+
+Controller Column
+-----------------
+
+This column contains a list of all controllers owned by the active object (and any other selected objects).
+New controllers for the active object are created using the "Add Controller" button,
+together with the creation of states for the active object.
+For a more in-depth look at the content, layout, and available operations in this area,
+see :doc:`Controllers </game_engine/logic/controllers/introduction>`.
+
+
+Actuator Column
+---------------
+
+This column contains a list of all actuators owned by the active object (and any other selected objects).
+New actuators for the active object are created using the "Add Actuator" button.
+For a more in-depth look at the content, layout, and available operations in this area,
+see :doc:`Actuators </game_engine/logic/actuators/introduction>`.
+
+
+Property Region
+===============
+
+Game properties are like variables in other programming languages.
+They are used to save and access data associated with an object.
+Several types of properties are available.
+Properties are declared by clicking the *Add Game Property* button in this region.
+For a more in-depth look at the content,
+layout and available operations in this region, see :doc:`Properties </game_engine/logic/properties>`.
