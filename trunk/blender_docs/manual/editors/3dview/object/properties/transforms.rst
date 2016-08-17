@@ -90,3 +90,20 @@ Consider the locking feature as a rigid constraint only changeable from the pane
 To lock a field, click the padlock icon next to the field.
 The field is unlocked if the icon appears as (|unlock-button|),
 and it is locked if the icon appears as (|lock-button|).
+
+
+.. _transform-delta:
+
+Delta Transforms
+================
+
+Delta Tranforms are simply transforms that are applied on top of the tranforms descriped above.
+They can be found in the :menuselection:`Properties Editor --> Object --> Delta Transforms`.
+
+
+Usage
+-----
+
+Delta Transforms are particular usful in animations. For example,
+you can animate an object with the "normal" transforms then move them around with Delta Transforms.
+
