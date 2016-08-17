@@ -30,6 +30,7 @@ if "%1" == "help" (
 	echo.  singlehtml       to make a single large HTML file
 	echo.  readme           to create readme.html
 	echo.  pdf              to make LaTeX files, you can set PAPER=a4 or PAPER=letter
+	echo.  gettext          to make PO message catalogs
 	echo.
 	echo.Checking
 	echo.========
