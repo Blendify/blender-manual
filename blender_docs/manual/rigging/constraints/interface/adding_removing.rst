@@ -18,6 +18,12 @@ To add a constraint in the 3D View and simultaneously give it a target:
    Select the target first and then shift-select the object you would like to constrain.
    Press :kbd:`Ctrl-Shift-C` and choose a constraint from the pop-up menu.
 
+.. note::
+
+   When using a bone from another armature as the target for a constraint, :kbd:`Ctrl-Shift-C`
+   will look inside the non-active armature and use its active bone,
+   provided that armature is in Pose Mode.
+
 To remove a constraint:
    Click on the "X" button in the :doc:`header </rigging/constraints/interface/header>`.
 
