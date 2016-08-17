@@ -4,7 +4,7 @@ Duplication
 ***********
 
 There are two types of object duplication,
-being `Duplicate`_ and `Linked Duplicates`_ which instance their object-data.
+being `Duplicate`_ and `Linked Duplicates`_ which instance their Object Data.
 
 
 Instancing
@@ -16,8 +16,7 @@ an *Object* and *Object Data* (sometimes abbreviated to *ObData*):
 Object
    Holds information about the position, rotation and size of a particular element.
 Object Data
-   Holds everything else.
-   For example:
+   Holds everything else. For example:
 
    :Meshes: Store geometry, material list, vertex groups... etc.
    :Cameras: Store focal length, depth of field, sensor size... etc.
@@ -43,8 +42,7 @@ See the example below.
 
 This copy is a new object, which shares some data-blocks with the original object
 (by default, all the Materials, Textures, and F-Curves), but which has copied others,
-like the mesh, for example.
-This is why this form of duplication is sometimes called "shallow link",
+like the mesh, for example. This is why this form of duplication is sometimes called "shallow link",
 because not all data-blocks are shared; some of them are "hard copied"!
 
 Note that you can choose which types of data-block will be linked or copied when duplicating:
@@ -55,14 +53,12 @@ Examples
 --------
 
 .. figure:: /images/modeling-duplicate-example.jpg
-   :width: 620px
 
    The mesh ``Cone.006`` of object ``Cone.002`` is being edited.
    The mesh's Unique data-block ID name is highlighted in the Outliner.
 
 
-The cone in the middle has been (1) link duplicated to the left and (2)
-duplicated to the right.
+The cone in the middle has been (1) link duplicated to the left and (2) duplicated to the right.
 
 - The duplicated right cone is being edited, the original cone in the middle remains unchanged.
   The mesh data has been copied, not linked.
@@ -102,13 +98,13 @@ Reference Expl. :ref:`Duplicate Example <expl-object-link-duplicate>` for the di
    .. figure:: /images/interface-scenes-mk_singleuser.jpg
       :align: center
 
+
 .. _expl-object-link-duplicate:
 
 Examples
 --------
 
 .. figure:: /images/modelling-duplicate-linked-example.jpg
-   :width: 620px
 
    The object ``Cone.001`` was linked duplicated.
    Though both these cones are separate objects with unique names,
