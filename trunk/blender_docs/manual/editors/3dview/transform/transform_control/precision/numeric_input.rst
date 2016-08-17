@@ -69,4 +69,4 @@ e.g. pressing :kbd:`S 0 5`, :kbd:`Return` will scale an Object by 0.5 on all thr
 .. tip::
 
    Numeric input can also be inputed in the
-   :doc:`Properties </editors/3dview/transform/transform_control/transform_properties>` region.
+   :doc:`Properties </editors/3dview/object/properties/transforms>` region.

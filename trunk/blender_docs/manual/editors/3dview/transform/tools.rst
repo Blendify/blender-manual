@@ -33,7 +33,7 @@ Transform Delta
    Randomize Delta Transform values instead of regular transform.
 
 .. TODO: we have no docs for delta or other object properties at the moment.
-   See :doc:`Delta Transforms </editors/3dview/transform/transform_control/transform_properties>`.
+   See :doc:`Delta Transforms </editors/3dview/object/properties/transforms>`.
 
 Randomize Location
    Randomize Location vales

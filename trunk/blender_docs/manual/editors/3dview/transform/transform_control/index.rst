@@ -12,7 +12,6 @@ The following pages detail the available control options:
 
    precision/index.rst
    manipulators.rst
-   transform_properties.rst
    reset_object_transformations.rst
    proportional_edit.rst
    transform_orientations.rst
