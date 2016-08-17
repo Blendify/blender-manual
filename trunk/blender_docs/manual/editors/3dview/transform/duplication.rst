@@ -135,7 +135,7 @@ Linked Library Duplication
    | Hotkey:   :kbd:`Shift-F1`
 
 
-:doc:`Linked Libraries </data_system/linked_libraries>` :Linked Libraries are also a form of duplication.
+:doc:`Linked Libraries </data_system/linked_libraries>` are also a form of duplication.
 Any object or data-block in other blend-files can be reused in the current file.
 
 .. hint::
