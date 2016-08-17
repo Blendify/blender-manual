@@ -93,10 +93,7 @@ Markers are usually used to identify key parts of the animation.
 
    Markers.
 
-Markers can be selected by pressing :kbd:`RMB` or :kbd:`Shift-RMB` to select more.
-
-See `Marker Menu`_ below or
-:doc:`Markers </animation/markers>` for more info.
+See the :doc:`Markers page </animation/markers>` for more information.
 
 
 Header
@@ -141,22 +138,7 @@ Show Seconds
 Marker Menu
 ^^^^^^^^^^^
 
-Jump to Previous Marker
-   Jumps to the marker left of the current frame.
-Jump to Next Marker
-   Jumps to the marker right of the current frame.
-Grab/Move Marker
-   Grab/Move the selected markers. :kbd:`G`
-Rename Marker
-   Rename the active marker. :kbd:`Ctrl-M`
-Delete Marker
-   Delete selected markers. :kbd:`X`
-Duplicate Marker to Scene...
-   Duplicate the selected markers to another scene.
-Duplicate Marker
-   Duplicate the selected markers. :kbd:`Shift-D`
-Add Marker
-   Add marker to the current frame. :kbd:`M`
+See the :doc:`Markers page </animation/markers>` for more information.
 
 
 Frame Menu
