@@ -34,7 +34,6 @@ Fig. :ref:`fig-view3d-projection` below.
 .. _fig-view3d-projection:
 
 .. figure:: /images/3dperspective.jpg
-   :width: 630px
 
    Orthographic (left) and perspective (right) projections.
 
@@ -92,14 +91,13 @@ Rotating the View
    | Hotkey:   :kbd:`MMB`, :kbd:`Numpad2`, :kbd:`Numpad4`, :kbd:`Numpad6`,
       :kbd:`Numpad8`, :kbd:`Ctrl-Alt-Wheel`
 
-.. figure:: /images/editors_3dview_nav_views.jpg
-   :width: 300px
+.. figure:: /images/3dview_nav_3dview_menu.png
+   :align: right
 
    A 3D View's View menu.
 
 
-Blender provides four default viewing directions: *Side*, *Front*,
-*Top* and *Camera* view.
+Blender provides four default viewing directions: *Side*, *Front*, *Top* and *Camera* view.
 Blender uses a right-angled "Cartesian" coordinate system with the Z axis pointing upwards.
 "Side" corresponds to looking along the X axis, in the negative direction,
 "Front" along the Y axis, and "top" along the Z axis.
