@@ -4,15 +4,16 @@
 Grouping objects
 ****************
 
-.. _fig-view3d-grouped-objects:
-
-.. figure:: /images/modeling-objects-parenting-exampel-groupedobj.jpg
-
-   Grouped objects.
-
 There can be many objects in a scene: A typical stage scene consists of furniture, props,
 lights, and backdrops.
 Blender helps you keep everything organized by allowing you to group like objects together.
+
+.. _fig-view3d-grouped-objects:
+
+.. figure:: /images/3dview_objects_grouped.png
+
+   Grouped objects.
+
 
 Group objects together without any kind of transformation relationship.
 Use groups to just logically organize your scene,
