@@ -51,22 +51,22 @@ Smoothness
    Displaces subdivisions to maintain approximate curvature,
    The effect is similar to the way the subdivision modifier might deform the mesh.
 
-.. list-table::
+   .. list-table::
 
-   * - .. figure:: /images/subdivide-smooth-before.jpg
-          :width: 200px
+      * - .. figure:: /images/subdivide-smooth-before.jpg
+             :width: 200px
 
-          Mesh before subdividing.
+             Mesh before subdividing.
 
-     - .. figure:: /images/subdivide-smooth-none.jpg
-          :width: 200px
+        - .. figure:: /images/subdivide-smooth-none.jpg
+             :width: 200px
 
-          Subdivided with no smoothing.
+             Subdivided with no smoothing.
 
-     - .. figure:: /images/subdivide-smooth-after.jpg
-          :width: 200px
+        - .. figure:: /images/subdivide-smooth-after.jpg
+             :width: 200px
 
-          Subdivided with smoothing of 1.
+             Subdivided with smoothing of 1.
 
 
 Quad/Tri Mode
@@ -90,62 +90,61 @@ Corner Cut Type
    Straight Cut
       Currently non functioning...
 
+   .. list-table::
 
-.. list-table::
+      * - .. figure:: /images/subdivide-twoedgesquad-fan2.jpg
+             :width: 200px
 
-   * - .. figure:: /images/subdivide-twoedgesquad-fan2.jpg
-          :width: 200px
+             Fan cut type.
 
-          Fan cut type.
+        - .. figure:: /images/subdivide-twoedgesquad-innervert.jpg
+             :width: 200px
 
-     - .. figure:: /images/subdivide-twoedgesquad-innervert.jpg
-          :width: 200px
+             Innervert cut type.
 
-          Innervert cut type.
+        - .. figure:: /images/subdivide-twoedgesquad-path.jpg
+             :width: 200px
 
-     - .. figure:: /images/subdivide-twoedgesquad-path.jpg
-          :width: 200px
-
-          Path cut type.
+             Path cut type.
 
 
 Fractal
    Displaces the vertices in random directions after the mesh is subdivided
 
-.. list-table::
+   .. list-table::
 
-   * - .. figure:: /images/subdivide-fractal-before.jpg
-          :width: 200px
+      * - .. figure:: /images/subdivide-fractal-before.jpg
+             :width: 200px
 
-          Plane before subdivision.
+             Plane before subdivision.
 
-     - .. figure:: /images/subdivide-fractal-none.jpg
-          :width: 200px
+        - .. figure:: /images/subdivide-fractal-none.jpg
+             :width: 200px
 
-          Regular subdivision.
+             Regular subdivision.
 
-     - .. figure:: /images/subdivide-fractal-after1.jpg
-          :width: 200px
+        - .. figure:: /images/subdivide-fractal-after1.jpg
+             :width: 200px
 
-          Same mesh with fractal added.
+             Same mesh with fractal added.
 
 
 Along Normal
    Causes the vertices to move along the their normals, instead of random directions
 
-.. figure:: /images/subdivide-fractal-alongnormal.jpg
-   :width: 200px
+   .. figure:: /images/subdivide-fractal-alongnormal.jpg
+      :width: 200px
 
-   Along normal set to 1.
+      Along normal set to 1.
 
 
 Random Seed
    Changes the random seed of the noise function, producing a different result for each seed value.
 
-.. figure:: /images/subdivide-fractal-after2.jpg
-   :width: 200px
+   .. figure:: /images/subdivide-fractal-after2.jpg
+      :width: 200px
 
-   Same mesh with a different seed value.
+      Same mesh with a different seed value.
 
 
 Examples
@@ -219,7 +218,6 @@ Two Adjacent Quad Edges
 
           Quad/Tri Mode.
 
-
 .. list-table::
 
    * - .. figure:: /images/subdivide-twoedgesquad-innervert.jpg
@@ -231,7 +229,6 @@ Two Adjacent Quad Edges
           :width: 250px
 
           Quad/Tri Mode.
-
 
 .. list-table::
 
