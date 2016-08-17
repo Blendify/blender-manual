@@ -13,6 +13,7 @@ Randomize Transform
    | Menu:     :menuselection:`Object --> Transform --> Randomize Transform`
 
 .. figure:: /images/transform-randomize.jpg
+   :figfidth: 158px
    :align: right
 
    Randomize transform options.
