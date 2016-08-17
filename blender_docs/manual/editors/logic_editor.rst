@@ -1,7 +1,7 @@
 
-****************
-  Logic Editor
-****************
+************
+Logic Editor
+************
 
 The Logic Editor provides the main method of setting up and editing the game logic for the
 various actors (i.e. objects) that make up the game. The logic for the objects which are
@@ -20,8 +20,6 @@ We will look at each one individually.
 	
    1) Property Region, 2) Object Name, 3a) Links, 3b) Link socket,
    4) Sensor column, 5) Controller Column, 6) Actuator Column
-
-
 
 
 Main view
