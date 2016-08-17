@@ -76,7 +76,6 @@ Example
 -------
 
 .. figure:: /images/object-selection-border.jpg
-   :width: 610px
 
    Border selecting in three steps.
 
@@ -120,7 +119,6 @@ object you want to select with :kbd:`LMB`.
 Lasso select adds to the previous selection. For deselection, use :kbd:`Ctrl-Shift-LMB`.
 
 .. figure:: /images/object-selection-lasso.jpg
-   :width: 610px
 
    Lasso selection example.
 
