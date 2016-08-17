@@ -109,33 +109,6 @@ Linked duplicates also apply to a set of drinking glasses,
 wheels on a car... anywhere there is repetition or symmetry.
 
 
-Procedural Duplication
-======================
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:    Object Mode and Edit Mode
-   | Panel:    :menuselection:`Object settings`
-
-
-There are currently four ways in Blender to procedurally duplicate objects.
-These options are located in the *Object* menu.
-
-:doc:`Verts </editors/3dview/object/properties/duplication/dupliverts>`
-   This creates an instance of all children of this object on each vertex (for mesh objects only).
-:doc:`Faces </editors/3dview/object/properties/duplication/duplifaces>`
-   This creates an instance of all children of this object on each face (for mesh objects only).
-:doc:`Group </editors/3dview/object/properties/duplication/dupligroup>`
-   This creates an instance of the group with the transformation of the object.
-   Group duplicators can be animated using actions,
-   or can get a :ref:`Proxy <object-proxy>`.
-:doc:`Frames </editors/3dview/object/properties/duplication/dupliframes>`
-   For animated objects, this creates an instance on every frame.
-   As you will see on this topic's subpage,
-   this is also a *very* powerful technique for arranging objects and for modeling them.
-
-
 Copying & Linking Objects Between Scenes
 ========================================
 
