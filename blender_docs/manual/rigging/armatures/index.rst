@@ -11,5 +11,6 @@
    bones/index.rst
    properties.rst
    structure.rst
+   parenting.rst
    visualization.rst
    editing/index.rst
