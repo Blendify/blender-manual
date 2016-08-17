@@ -19,16 +19,18 @@ Duplicate
 
 
 This will create a visually-identical copy of the selected object(s).
-The copy is created at the same position as the original object and you are automatically placed in *Grab* mode.
-See the example below.
+The copy is created at the same position as the original object and
+you are automatically placed in *Grab* mode. See the examples below.
 
 This copy is a new object, which shares some data-blocks with the original object
 (by default, all the Materials, Textures, and F-Curves), but which has copied others,
 like the mesh, for example. This is why this form of duplication is sometimes called "shallow link",
 because not all data-blocks are shared; some of them are "hard copied"!
 
-Note that you can choose which types of data-block will be linked or copied when duplicating:
-in the :ref:`User Preferences, Editing Page <prefs-editing-duplicate_data>`.
+.. tip::
+
+   You can choose which types of data-block will be linked or copied when duplicating:
+   in the :ref:`User Preferences <prefs-editing-duplicate_data>`.
 
 
 Examples
@@ -74,8 +76,8 @@ Reference Expl. :ref:`Duplicate Example <expl-object-link-duplicate>` for the di
 .. hint::
 
    If you want to make changes to an object in the new linked duplicate independently of the original object,
-   you will have to manually make the object a "single-user" copy by
-   :kbd:`LMB` the number in the *Object Data* panel of the Properties editor.
+   you will have to manually make the object a "single-user" copy by :kbd:`LMB`
+   the number in the *Object Data* panel of the Properties editor.
 
    .. figure:: /images/interface-scenes-mk_singleuser.jpg
       :align: center
