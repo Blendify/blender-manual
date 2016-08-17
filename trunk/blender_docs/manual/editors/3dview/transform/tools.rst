@@ -62,7 +62,23 @@ Align Objects
    | Menu:     :menuselection:`Object --> Transform --> Align Objects`
 
 
-TODO.
+The align tool is used to align multiple selected objects so they line up on a specified axis.
+
+
+Options
+-------
+
+High Quality
+   Uses more precise math to better determine the locations for the objects.
+
+Align Mode
+   TODO.
+
+Relative To
+   TODO.
+
+Align X,Y,Z
+   Chooses which axis to align the selected objects on.
 
 
 Animated Transform to Deltas
@@ -72,7 +88,7 @@ Animated Transform to Deltas
    :class: refbox
 
    | Mode:     Object Mode
-   | Menu:     :menuselection:`Object --> Transform --> Animated Transform to Deltas`
+   | Menu:     :menuselection:`Object --> Apply --> Animated Transform to Deltas`
 
 
 TODO.
