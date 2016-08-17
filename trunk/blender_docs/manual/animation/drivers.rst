@@ -109,7 +109,7 @@ Variable Type
    Single Property
       Use the value from some RNA property.
       For example, the Ambient shading color from a material.
-      First select the type of ID-block, then the ID of the ID-block, then copy and paste an RNA property (Ctrl+V).
+      First select the type of ID-block, then the ID of the ID-block, then copy and paste an RNA property (Ctrl-V).
 
       ID-Type
          The ID-Block type, example, Key, Image, Object, Material.
@@ -167,7 +167,7 @@ Add Single Driver
 
 .. figure:: /images/add_driver2.jpg
 
-Drivers can also be added by pressing :kbd:`D` with the mouse over the property set.
+Drivers can also be added by pressing :kbd:`CTRL-D` with the mouse over the property set.
 
 
 Expression
@@ -219,9 +219,6 @@ When finished, ``Cube.001`` should rotate on the Y axis when moving ``Cube`` lef
 Examples
 ========
 
-Some Driver Examples.
-
-
 Driver Expression
 -----------------
 
@@ -232,7 +229,7 @@ Here are some examples using the scripted expression Expr to set the Driver Valu
    Object Rotation.
 
 
-Orbit a point
+Orbit a Point
 ^^^^^^^^^^^^^
 
 Here two drivers have been added to the Cube, X Location and Y Location.
@@ -377,6 +374,7 @@ and bone.R would be resolved differently. You will choose according to
 the needs of your animation.
 
 .. vimeo:: 173408647
+
 
 Troubleshooting
 ===============
