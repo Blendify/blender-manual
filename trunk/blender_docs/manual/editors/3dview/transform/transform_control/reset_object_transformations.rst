@@ -40,7 +40,7 @@ Clear Origin :kbd:`Alt-O`
    This will cause Child objects to move to the coordinates of the parent.
 
 
-Apply Object transformations
+Apply Object Transformations
 ============================
 
 .. admonition:: Reference
@@ -89,8 +89,15 @@ Apply Scale :kbd:`Ctrl-A`
 Apply Rotation and Scale :kbd:`Ctrl-A`
    Apply (set) the rotation and scale of the selection. Do the above two applications simultaneously.
 
+All Transforms to Deltas
+   Converts all "normal" transformations to :ref:`Delta transforms <transform-delta>`.
+Animated Transform to Deltas
+   Converts the "normal" transformation animations (animations done to the translation,
+   scale, and rotation values) to :ref:`Delta transforms <transform-delta>`.
+   To use this tool simply select the object with the animations that you want to convert press :kbd:`Ctrl-A`
+   and select *Animated Transform to Deltas*.
+
 Apply Visual Transform :kbd:`Ctrl-A`
    Apply (set) the result of a constraint and apply this back to the Object's location, rotation and scale.
-
 Make Duplicate Real :kbd:`Shift-Ctrl-A`
    Make any duplicates attached to this Object real so that they can be edited.

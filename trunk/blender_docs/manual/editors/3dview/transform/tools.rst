@@ -79,18 +79,3 @@ Relative To
 
 Align X,Y,Z
    Chooses which axis to align the selected objects on.
-
-
-Animated Transform to Deltas
-============================
-
-.. admonition:: Reference
-   :class: refbox
-
-   | Mode:     Object Mode
-   | Menu:     :menuselection:`Object --> Apply --> Animated Transform to Deltas`
-
-The *Animated Transform to Deltas* tool can be used to convert the "normal" transformation animations
-(animations done to the translation, scale, and rotation values) to :ref:`Delta transforms <transform-delta>`.
-To use this tool simply select the object with the animations that you want to convert and got to
-:menuselection:`Object --> Apply --> Animated Transform to Deltas`
