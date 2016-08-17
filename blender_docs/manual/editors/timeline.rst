@@ -22,7 +22,7 @@ and to skip though parts of the scene.
 It also has some tools for *Keyframes*, *Keying Sets*, and *Markers*.
 
 
-Main view
+Main View
 =========
 
 The main *Timeline* region displays the animation frames over time.
@@ -50,7 +50,7 @@ Time Cursor
    Time Cursor.
 
 
-The *Time Cursor* is the green line, its used to set and display the current time frame.
+The *Time Cursor* is the green line, it is used to set and display the current time frame.
 
 The *Time Cursor* can be set or moved to a new position by pressing or holding
 :kbd:`LMB` in the Timeline editor.
@@ -119,16 +119,15 @@ Bind Camera to Markers
    It binds the active camera to the selected markers.
    First select a camera. Then select the marker(s). Then use the function. :kbd:`Ctrl-B`
 Cache
-   This will display the baked *Cache Steps* for the active object.
+   Show Cache
+      Show all enabled types.
 
+      Softbody, Particles, Cloth, Smoke, Dynamic Paint, Rigid Body.
+   
    .. figure:: /images/timeline_cache.jpg
 
       Timeline Cache.
 
-Show Cache
-   Show all enabled types.
-
-   Softbody, Particles, Cloth, Smoke, Dynamic Paint, Rigid Body.
 Only Selected Channels
    For *Armatures*, this will draw the object keyframes, and the keyframes for the active and selected pose bones.
 Show Frame Number Indicator
@@ -143,9 +142,9 @@ Marker Menu
 ^^^^^^^^^^^
 
 Jump to Previous Marker
-   ..
+   Jumps to the marker left of the current frame.
 Jump to Next Marker
-   ..
+   Jumps to the marker right of the current frame.
 Grab/Move Marker
    Grab/Move the selected markers. :kbd:`G`
 Rename Marker
@@ -178,7 +177,7 @@ Playback Menu
 
 Audio Scrubbing
    If your animation has sound,
-   this option plays bits of the sound wave while you move the time cursor with LMB or keyboard arrows.
+   this option plays bits of the sound wave while you move the time cursor with :kbd:`LMB` or keyboard arrows.
 Audio Muted
    Mute the sound from Sequence Editors.
 AV-sync
@@ -218,6 +217,7 @@ The Timeline header controls.
 
    1. Range Control, 2. Frame Control, 3. Player Control,
    4. Synchronize Playback, 5. Keyframe Control
+
 
 Range Control
 ^^^^^^^^^^^^^
@@ -315,7 +315,7 @@ Auto Keyframe
    When you set a new value for the properties,
    Blender will add keyframes on the current frame for the transform properties.
 
-   *Auto Keying Set* - Optional if Auto Keyframe enabled.
+   *Auto Keying Set* - Optional if *Auto Keyframe* enabled.
    *Auto Keyframe* will insert new keyframes for the properties in the active *Keying Set*.
 
    Note that *Auto Keyframe* only works for transform properties (objects and bones),
@@ -324,14 +324,9 @@ Auto Keyframe
 Layered
    Optional while playback. TODO.
 
-.. figure:: /images/animation_timeline_layered.jpg
+   .. figure:: /images/animation_timeline_layered.jpg
 
-   Timeline Layered.
-
-.. figure:: /images/kia_cube02.jpg
-
-   Timeline Keying Sets.
-
+      Timeline Layered.
 
 Active Keying Set
    *Keying Sets* are a set of keyframe channels in one.
@@ -345,6 +340,11 @@ Active Keying Set
 
    Custom keying sets can be defined in the in the panels
    :menuselection:`Properties --> Scene --> Keying Sets + Active Keying Set`.
+
+   .. figure:: /images/kia_cube02.jpg
+
+      Timeline Keying Sets.
+
 Insert Keyframes
    Insert keyframes on the current frame for the properties in the active *Keying Set*.
 Delete Keyframes
