@@ -120,14 +120,8 @@ Mux
 
    .. note:: Standards
 
-<<<<<<< .mine
-   Some codecs cannot encode off-the-wall video sizes,
-   so stick to the XY sizes used in the presets for standard TV sizes.
-||||||| .r2398
-   Codecs cannot encode off-the-wall video sizes, so stick to the XY sizes used in the presets for standard TV sizes.
-=======
-      Codecs cannot encode off-the-wall video sizes, so stick to the XY sizes used in the presets for standard TV sizes.
->>>>>>> .r2399
+      Some codecs cannot encode off-the-wall video sizes,
+      so stick to the XY sizes used in the presets for standard TV sizes.
 
 Rate
    The bitrate control also includes a *Minimum* and a *Maximum*.

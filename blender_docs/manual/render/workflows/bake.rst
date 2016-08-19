@@ -206,9 +206,8 @@ Select to Active
 Workflow
 ========
 
-<<<<<<< .mine
 #. In a 3D View editor, select a mesh and enter UV/Face Select mode
-#. :ref:`Unwrap the mesh object <editors-uv_image-index>`
+#. :ref:`Unwrap the mesh object <editors-uv-image-index>`
 #. In a UV/Image Editor, either create a new image or open an existing one.
    If your 3D View is in textured display mode, you should now see the image mapped to your mesh.
    Ensure that all faces are selected.
@@ -220,40 +219,5 @@ Workflow
    refer to :doc:`Bump and Normal Maps </render/blender_render/textures/influence/material/bump_and_normal>`.
    For full and texture bakes, refer to :doc:`Textures </render/blender_render/textures/index>`.
 #. Refine the image using the process described below,
-   or embellish with :ref:`painting_texture-index`
+   or embellish with :ref:`painting-texture-index`
    or an external image editor.
-||||||| .r2398
-- In a 3D View editor, select a mesh and enter UV/Face Select mode
-- :ref:`Unwrap the mesh object <editors-uv_image-index>`
-- In a UV/Image Editor, either create a new image or open an existing one.
-  If your 3D View is in textured display mode, you should now see the image mapped to your mesh.
-  Ensure that all faces are selected.
-- In the Bake panel at the bottom of the *Render menu*, bake your desired type of image
-  (*Full Render* etcetera.)
-- When rendering is complete, Blender replaces the image with the Baked image.
-- Save the image.
-- Apply the image to the mesh as a UV texture. For displacement and normal maps,
-  refer to :doc:`Bump and Normal Maps </render/blender_render/textures/influence/material/bump_and_normal>`.
-  For full and texture bakes,
-  refer to :doc:`Textures </render/blender_render/textures/index>`.
-- Refine the image using the process described below,
-  or embellish with :ref:`painting_texture-index`
-  or an external image editor.
-=======
-- In a 3D View editor, select a mesh and enter UV/Face Select mode
-- :ref:`Unwrap the mesh object <editors-uv-image-index>`
-- In a UV/Image Editor, either create a new image or open an existing one.
-  If your 3D View is in textured display mode, you should now see the image mapped to your mesh.
-  Ensure that all faces are selected.
-- In the Bake panel at the bottom of the *Render menu*, bake your desired type of image
-  (*Full Render* etcetera.)
-- When rendering is complete, Blender replaces the image with the Baked image.
-- Save the image.
-- Apply the image to the mesh as a UV texture. For displacement and normal maps,
-  refer to :doc:`Bump and Normal Maps </render/blender_render/textures/influence/material/bump_and_normal>`.
-  For full and texture bakes,
-  refer to :doc:`Textures </render/blender_render/textures/index>`.
-- Refine the image using the process described below,
-  or embellish with :ref:`painting-texture-index`
-  or an external image editor.
->>>>>>> .r2399
