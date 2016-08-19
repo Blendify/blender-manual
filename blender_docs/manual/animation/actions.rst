@@ -1,4 +1,4 @@
-
+ 
 *******
 Actions
 *******
@@ -189,6 +189,7 @@ Working with Actions
 ====================
 
 .. figure:: /images/k_animation_actions_create.jpg
+   :align: right
 
    Action Browser.
 

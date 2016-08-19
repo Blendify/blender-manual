@@ -4,6 +4,7 @@ Keying Sets
 ***********
 
 .. figure:: /images/kia_cube02.jpg
+   :align: right
 
    Timeline Keying Sets.
 

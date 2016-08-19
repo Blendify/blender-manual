@@ -13,7 +13,7 @@ They are available in many of Blender's editors.
    Unlike the keyframes, markers are always placed at a whole frame number, you cannot set a marker at frame 2.5.
 
 
-Markers can be created and edited in all of the following editors:
+Markers can be created and edited in the following editors:
 
 - The :doc:`Graph Editor </editors/graph_editor/introduction>`.
 - The :doc:`Action Editor </animation/actions>`.
@@ -33,42 +33,41 @@ Visualization
 Standard
 --------
 
-.. figure:: /images/animation-timeline-markers.jpg
-
-   Markers: small but useful.
-
-
 Most of the editors visualize markers the same way: as small triangles at their bottom,
 white if unselected or yellow if selected.
 
 If they have a name, this is shown to their right, in white when the marker is selected.
 
+.. figure:: /images/animation-timeline-markers.jpg
+   :align: center
+
+   Markers: small but useful.
+
 
 Sequencer
 ---------
 
-.. figure:: /images/sequencer-markers.jpg
-   :width: 186px
-
-   Markers in the Sequencer.
-
-
 The *Video Sequence Editor* just adds a vertical dashed line to each marker
 (gray if the marker is unselected, or white if it is selected).
+
+.. figure:: /images/sequencer-markers.jpg
+   :align: center
+
+   Markers in the Sequencer.
 
 
 3D View
 -------
 
-.. figure:: /images/animationmarkers3dviewex.jpg
-
-   Marker in a 3D View.
-
-
 The View does not allow you to create/edit/remove markers,
 they just show their name between ``<>`` at their bottom left corner,
 near the active object's name, when you are at their frame
 (see Marker in a 3D View).
+
+.. figure:: /images/animationmarkers3dviewex.jpg
+   :align: center
+
+   Marker in a 3D View.
 
 
 Creating and Editing Markers

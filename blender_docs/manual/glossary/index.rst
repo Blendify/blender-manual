@@ -681,6 +681,11 @@ This page lists definitions for terms used in Blender and this manual.
       The name is a combination of the terms "Volumetric" and ":term:`Pixel <pixel>`".
       Used to store smoke and fire data from physics simulations.
 
+   Walk Cycle
+      In animation, a walk cycle is a character that has just the walking function animated.
+      Later on in the animation process the character is placed in a environment
+      and the rest of the functions are animated.
+
    Weight Painting
       Assigning :term:`vertices` to :term:`Vertex Groups <Vertex Group>` with a weight of 0.0 - 1.0.
 

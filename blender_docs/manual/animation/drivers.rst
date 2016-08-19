@@ -326,29 +326,33 @@ root. While it lacks the convenience of the single Evaluation Time of
 an absolute shape key, it allows you to have more complex
 relationships between your shape keys.
 
-.. figure:: /images/driver_for_multiple_shape_keys_key1.jpg
+.. list-table::
 
-   Key1 must handle conflicting values from the two bones.
+   * - .. figure:: /images/driver_for_multiple_shape_keys_key1.jpg
 
-.. figure:: /images/driver_for_multiple_shape_keys_key2a.jpg
+          Key1 must handle conflicting values from the two bones.
 
-   Key2A has different generator coefficients so it is activated in a different range of the bone's position.
+     - .. figure:: /images/driver_for_multiple_shape_keys_key2a.jpg
 
-.. figure:: /images/driver_for_multiple_shape_keys_key2b.jpg
+          Key2A has different generator coefficients so it is activated in a different range of the bone's position.
 
-   Key2B is the same as Key2A, but is controlled by the second bone.
+   * - .. figure:: /images/driver_for_multiple_shape_keys_key2b.jpg
 
-.. figure:: /images/driver_for_multiple_shape_keys_retracted.jpg
+          Key2B is the same as Key2A, but is controlled by the second bone.
 
-   when both bones are low, Key2B and Key2A are deactivated and Key1 is at low influence.
+     - .. figure:: /images/driver_for_multiple_shape_keys_retracted.jpg
 
-.. figure:: /images/driver_for_multiple_shape_keys_extended.jpg
+          When both bones are low, Key2B and Key2A are deactivated and Key1 is at low influence.
 
-The Basis shape key has the stacks fully retracted. Key1 has the base
-fully extended. Key2A has the left stack fully extended. Key2B has
-the right stack fully extended. Key2A and Key2B are both relative to
-Key1 (as you can see in the field in the bottom right of the Shape Keys
-panel.
+   * - .. figure:: /images/driver_for_multiple_shape_keys_extended.jpg
+
+     -
+
+
+The Basis shape key has the stacks fully retracted. Key1 has the base fully extended.
+Key2A has the left stack fully extended. Key2B has the right stack fully extended.
+Key2A and Key2B are both relative to Key1 (as you can see in the field
+in the bottom right of the Shape Keys panel.
 
 The value of Key1 is bound to the position of bones by a driver with
 two variables. Each variable uses the world Z coordinate of a bone
@@ -356,10 +360,10 @@ and uses the maximum value to determine how much the base should be
 extended. The generator polynomial is crafted such that the top of
 the dominant stack should line up with the bone for that stack.
 
-The value of Key2A is bound to the position of ``Bone.L``. Its generator
-parameters are crafted such that when Key1's value reaches 1, the
-value of Key2A starts increasing beyond zero. In this way, the top of
-the left stack will move with bone.L (mostly).
+The value of Key2A is bound to the position of ``Bone.L``.
+Its generator parameters are crafted such that when Key1's value reaches 1,
+the value of Key2A starts increasing beyond zero. In this way,
+the top of the left stack will move with bone.L (mostly).
 
 The value of Key2B is bound to the position of ``Bone.R``. Its generator
 parameters are similar to Key2A so that the top of the right stack
@@ -396,8 +400,7 @@ Scripted Expression
 
 By default Blender will not autorun python scripts.
 
-If using a *Scripted Expression* Driver Type,
-you will have to open the file as *Trusted Source*,
+If using a *Scripted Expression* Driver Type, you will have to open the file as *Trusted Source*,
 or set *Auto Run Python Scripts* in :menuselection:`User Preferences --> File --> Auto Execution`.
 
 .. list-table::
