@@ -1,6 +1,4 @@
-
-..    TODO/Review: {{review|partial=X|text=elaborate|im=needs images}} .
-
+..    TODO/Review: {{review|partial=X|text=elaborate|im=needs images}}.
 
 **********
 Voxel Data
@@ -10,13 +8,7 @@ Voxel data renders a voxel source, working very similarly to an image texture, b
 Various input data source types are available (such as smoke voxel data, or external files),
 as well as various interpolation methods.
 
-The voxels are stored in a flat ZYX grid of floats.
-Functions for sampling this based on location within the (0,1) bounds are available in:
-
-- source/blender/blenlib/intern/voxel.c
-
-The default voxel data source, Smoke,
-is used for rendering Blender's internal smoke simulations.
+The default voxel data source, Smoke, is used for rendering smoke simulations.
 Other sources include binary raw formats, and Image Sequence,
 which can be used to stack a sequence of images into a 3D representation,
 which is a common format for medical volume data such as CT scans.
@@ -64,7 +56,6 @@ Interpolation
    Cubic Catmull-Rom
       Smoothed high quality interpolation, but slower.
 
-
 Extension
    Extend
       Extend by repeating edge pixels of the image.
@@ -75,4 +66,3 @@ Extension
 
 Intensity
    Multiplier for intensity values
-

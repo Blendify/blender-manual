@@ -1,7 +1,6 @@
 .. This page includes some overly detailed & spesific infomration should be simplified.
    - ideasman42
 
-
 **************************
 Performance Considerations
 **************************

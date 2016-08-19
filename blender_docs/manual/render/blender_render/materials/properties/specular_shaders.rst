@@ -267,5 +267,3 @@ Slope
    this parameter in effect controls the size of the specular highlight,
    though using a different method to that of the other specular shaders.
    It is capable of extremely sharp highlights.
-
-

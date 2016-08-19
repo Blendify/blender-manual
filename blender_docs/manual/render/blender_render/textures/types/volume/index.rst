@@ -1,6 +1,4 @@
-
-..    TODO/Review: {{review|elaborate?}} .
-
+..    TODO/Review: {{review|elaborate?}}.
 
 ***************
 Volume Textures
@@ -14,11 +12,11 @@ Blender has two textures that can be applied to volumetric data:
    which can be used to stack a sequence of images into a 3D representation
 
 :doc:`Point Density </render/blender_render/textures/types/volume/point_density>`
-   Point density renders a given point cloud (object vertices or particle system) as a 3D volume
+   Point density renders a given point cloud (object vertices or particle system) as a 3D volume.
 
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    voxel_data.rst
    point_density.rst

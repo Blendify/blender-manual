@@ -43,7 +43,4 @@ Layer, Negative, Specular, and Diffuse
 The *Hemi* lamp has no light falloff settings: it always uses a constant attenuation
 (i.e. no attenuation).
 
-Since this lamp is the only lamp which cannot cast any shadow,
-the *Shadow* panel is absent.
-
-
+Since this lamp is the only lamp which cannot cast any shadow, the *Shadow* panel is absent.

@@ -38,5 +38,3 @@ You can only map a lamp texture to its regular,
 basic *Color* and/or to its *Shadow* color. As you can only affect colors,
 and a lamp has no texture coordinates on its own, the *Diffuse*,
 *Specular*, *Shading*, and *Geometry* options have disappeared.
-
-

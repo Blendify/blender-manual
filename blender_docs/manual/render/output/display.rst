@@ -9,11 +9,9 @@ Animation
    Starts rendering an animation. 
    See :doc:`Rendering Animations </render/workflows/animations>` for more detail.
 Audio
-   ToDo.
+   Mixes all the the audio found in a scene and mixes into one file.
 
 By default the 3D View is replaced with the UV/Image Editor and the render appears.
-
-.. To render an image from the active camera, in the Render Panel, press the *Render* button.
 
 
 Display

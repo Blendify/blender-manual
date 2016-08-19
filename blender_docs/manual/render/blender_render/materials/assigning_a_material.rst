@@ -121,7 +121,6 @@ Short explanation: If connected to the object,
 you can have several instances of the same obData using different materials.
 If linked to mesh data, you cannot. See :doc:`Data System </data_system/introduction>` for more information.
 
-
 Object Render Format (menu)
    This menu has four options which define how the object is to be rendered:
 Surface
@@ -132,7 +131,6 @@ Volume
    Material applied to the object volume.
 Halos
    Material applied to halos around each object vertex.
-
 
 .. list-table::
 

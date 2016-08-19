@@ -44,7 +44,7 @@ and traveling to camera.
 
 Ambient light illuminates, in a perfectly balanced, shadeless way, without casting shadows.
 You can vary the intensity of the ambient light across your scene via
-:doc:`ambient occlusion </render/blender_render/lighting/ambient_occlusion>`. The ambient color is a sunny white.
+:doc:`ambient occlusion </render/blender_render/world/ambient_occlusion>`. The ambient color is a sunny white.
 
 
 Single Rig

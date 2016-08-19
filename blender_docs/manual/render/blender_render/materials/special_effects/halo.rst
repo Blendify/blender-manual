@@ -54,16 +54,15 @@ Size
    Sets the dimension of the halo
 Hardness
    Sets the hardness of the halo. Similar to specular hardness
-
-.. figure:: /images/materials-haloadd.jpg
-
-   Effect of Add.
-
-
 Add
    The *Add* slider determine how much the halo colors are 'added to',
    rather than mixed with, the colors of the objects behind and together with other halos.
    By increasing Add, the Halo will appear to light up objects that move behind it or through the Halo field.
+
+   .. figure:: /images/materials-haloadd.jpg
+
+      Effect of Add.
+
 Texture
    Gives halo a texture. By default,
    textures are applied to objects with Object coordinates and reflects on the halos by affecting their color,
@@ -101,7 +100,6 @@ which include Flare, Rings, Lines, Star, Texture, Extreme Alpha, and Shaded.
 *Halo Variations* shows the result of applying a halo material to a single vertex mesh.
 
 .. figure:: /images/halo02.jpg
-   :width: 630px
 
    Halo Variations.
 

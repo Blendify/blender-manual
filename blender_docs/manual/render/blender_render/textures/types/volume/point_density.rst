@@ -1,6 +1,4 @@
-
-..    TODO/Review: {{review|partial=X|im=examples}} .
-
+..    TODO/Review: {{review|partial=X|im=examples}}.
 
 *********************
 Point Density Texture
@@ -20,29 +18,41 @@ can be visualized using a color/alpha ramp gradient.
 Options
 =======
 
-Particle System
-   Particle System, Generate point density from a particle system.
-
-Object Vertices
-   Object Vertices, Generate point density from an object's vertices.
+Point Data
+   Particle System
+      Particle System, Generate point density from a particle system.
+   Object Vertices
+      Object Vertices, Generate point density from an object's vertices.
 
 Object
+   Object to tak epoint data from.
 Radius
-System
+   Radius of the points.
+
+   System
+      Particle system to use.
+
 Falloff
 
    Standard
+      Todo.
    Smooth
+      Todo.
    Soft
+      Todo.
    Softness
-
+      Todo.
    Constant
+      Todo.
       Density is constant within lookup radius.
-
    Root
+      Todo.
    Particle Age
+      Todo.
    Particle Velocity
+      Todo.
    Velocity Scale
+      Todo.
 
 
 Falloff Curve
@@ -50,9 +60,13 @@ Falloff Curve
 
 Cache
    Coordinate system to cache particles in
+
    Global Space
+      Todo.
    Emit Object Space
+      Todo.
    Emit Object Location
+      Todo.
 
 Color Source
    Data to derive the color results from
@@ -116,4 +130,3 @@ Depth
    Level of detail in the added turbulent noise
 Turbulence Strength
    Strength of the added turbulent noise
-

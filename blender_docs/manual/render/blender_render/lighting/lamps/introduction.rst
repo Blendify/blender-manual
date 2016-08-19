@@ -37,5 +37,3 @@ Shadows
    This makes it easier to quickly determine if a lamp has shadows enabled.
 Vertical Height Marker
    This is a dim gray line, which helps locate the lamp's position relative to the global XY plane.
-
-

@@ -10,25 +10,23 @@ It is also more computationally expensive.
 Take a look at the following examples of a scene lit with Direct Lighting and both
 Direct+Indirect Lighting:
 
-.. figure:: /images/lighting-inderect_lighting-01.jpg
-   :width: 400px
+.. list-table::
 
-   Direct Lighting Schematic.
+   * - .. figure:: /images/lighting-inderect_lighting-01.jpg
 
-.. figure:: /images/lighting-inderect_lighting-02.jpg
-   :width: 400px
+          Direct Lighting Schematic.
 
-   Direct Lighting Render.
+     - .. figure:: /images/lighting-inderect_lighting-02.jpg
 
-.. figure:: /images/lighting-inderect_lighting-03.jpg
-   :width: 400px
+          Direct Lighting Render.
 
-   Direct+Indirect Lighting Schematic.
+   * - .. figure:: /images/lighting-inderect_lighting-03.jpg
 
-.. figure:: /images/lighting-inderect_lighting-04.jpg
-   :width: 400px
+          Direct+Indirect Lighting Schematic.
 
-   Direct+Indirect Lighting Render.
+     - .. figure:: /images/lighting-inderect_lighting-04.jpg
+
+          Direct+Indirect Lighting Render.
 
 
 Images courtesy of `rastermon.com <https://web.archive.org/web/20050204031559/https://rastermon.com/GI1.htm>`__
@@ -89,5 +87,3 @@ Pixel Cache
 
 Correction
    A correction factor to reduce over-occlusion. Ranges between (0.0 to 1.0) correction.
-
-

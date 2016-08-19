@@ -74,7 +74,6 @@ Closed NURBS Surfaces
    Control with *Surface Resolution* controls. Higher gives more render faces.
    (Note that the large flat surfaces have few render faces to displace).
 
-
 .. note:: Displace Modifier
 
    If you want more control over your displacement,

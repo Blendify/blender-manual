@@ -228,7 +228,6 @@ causing the volume to take on a multi-colored appearance, which can be difficult
 To make it a bit easier to plainly set the color of the volume,
 you can use the reflection parameters to quickly set an overall tint.
 
-
 Reflection Color
    The color of light that is scattered out of the volume.
 Reflection
@@ -243,7 +242,6 @@ before using the reflection controls. If you stick to what's physically plausibl
 the material will act correctly,
 and be more predictable and usable in a wider range of lighting scenarios.
 Of course you can always break the rules too!
-
 
 .. list-table::
 
@@ -266,7 +264,6 @@ Of course you can always break the rules too!
           :width: 150px
 
           Reflection: Green, Scattering: 5.0.
-
 
 .. list-table::
 
@@ -314,8 +311,7 @@ Lighting Mode
    Shaded+Multiple Scattering
       Combines Shaded and Multiple Scattering functionality.
 
-
-Shaded Options:
+Shaded Options
    External Shadows
       Receive shadows from sources outside the volume (temporary).
    Light Cache
@@ -323,8 +319,7 @@ Shaded Options:
    Resolution
       Resolution of the voxel grid, low resolutions are faster, high resolutions use more memory.
 
-
-Multiple Scattering Options:
+Multiple Scattering Options
    Diffusion
       Diffusion factor, the strength of the blurring effect.
    Spread

@@ -10,8 +10,8 @@ but a very common use of a *World* is to shade a background color.
 
 .. note:: Background Image in Render
 
-   To use an image as your render background, see :doc:`BackBuf images specified in the Output Panel </render/index>`
-
+   To use an image as your render background,
+   see :doc:`BackBuf images specified in the Output Panel </render/output/index>`
 
 .. note:: Background Image in 3D
 
@@ -60,30 +60,33 @@ Instead of a color, or blend of two colors, Blender can use an 2D image which it
 very large Box or sphere which encompasses the entire scene,
 or which it maps to a virtual space around the scene.
 
-.. figure:: /images/bi_world-texcoord.jpg
-   :width: 207px
-
-   Texture Coordinates pop-up menu.
-
-
 The World textures are accessible in the texture menu (just select *World* first,
 then *Texture*. They are used much like the Materials textures,
 except for a couple of differences. The textures can be mapped according to:
 
-View
-   The default orientation, aligned with the co-ordinates of the final render
-Global
-   Uses global coordinates
-AngMap
-   Used to wrap a standard hemisphere angular map around the scene in a dome.
-   This can be used for image based lighting with *Ambient Occlusion* set to sky color.
-   You will generally need a high dynamic range image (HDRI) angular map. (It will look like a weird spherical image).
-Sphere
-   Sphere mapping, similar to that of materials
-Tube
-   Wrap the rectangular texture around in a cylinder, similar to that of materials
-Object
-   Position the texture relative to a specified object's local texture space
+
+.. figure:: /images/bi_world-texcoord.jpg
+   :width: 200px
+   :align: right
+
+   Texture Coordinates pop-up menu.
+
+Texture Coordinates
+   View
+      The default orientation, aligned with the co-ordinates of the final render
+   Global
+      Uses global coordinates
+   AngMap
+      Used to wrap a standard hemisphere angular map around the scene in a dome.
+      This can be used for image based lighting with *Ambient Occlusion* set to sky color.
+      You will generally need a high dynamic range image (HDRI) angular map.
+      (It will look like a weird spherical image).
+   Sphere
+      Sphere mapping, similar to that of materials
+   Tube
+      Wrap the rectangular texture around in a cylinder, similar to that of materials
+   Object
+      Position the texture relative to a specified object's local texture space
 
 .. figure:: /images/bi_world-texinfluence.jpg
    :width: 297px

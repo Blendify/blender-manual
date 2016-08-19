@@ -9,4 +9,8 @@
 
    introduction.rst
    background.rst
+   exposure.rst
+   ambient_light.rst
+   indirect_lighting.rst
+   ambient_occlusion.rst
    mist.rst

@@ -1,9 +1,8 @@
+..    TODO/Review: {{review|text=missing dupli part}}.
 
-..    TODO/Review: {{review|text=missing dupli part}} .
-
-***************
-Texture Mapping
-***************
+************
+Introduction
+************
 
 Textures need mapping coordinates, to determine how they are applied to the object.
 The mapping specifies how the texture will ultimately wrap itself to the object.
@@ -15,15 +14,16 @@ a 2D image texture could be configured to wrap itself around a cylindrical shape
 Coordinates
 ===========
 
+Mapping works by using a set of coordinates to guide the mapping process.
+These coordinates can come from anywhere, usually the object to which the texture is being applied to.
+
 .. figure:: /images/texture-mapping-coord.jpg
-   :width: 207px
+   :width: 200px
+   :align: right
 
    Mapping Coordinate menu.
 
 
-Coordinates
-   Mapping works by using a set of coordinates to guide the mapping process.
-   These coordinates can come from anywhere, usually the object to which the texture is being applied to.
 Global
    The scene's global 3D coordinates. This is also useful for animations;
    if you move the object, the texture moves across it.
@@ -47,7 +47,7 @@ UV
    You can use multiple textures with one set of UV coordinates.
 
   Layer
-    Select your UV layer to use it for mapping.
+    UV layer to use for mapping.
 Strand/Particle
    Uses normalized 1D strand texture coordinate or particle age(X) and trail position (Y).
    Use when texture is applied to hair strands or particles.
@@ -83,15 +83,18 @@ Tube
    This mapping is of course very good for making the label on a bottle or assigning stickers to rounded objects.
    However, this is not a cylindrical mapping so the ends of the cylinder are undefined.
 Sphere
-   Sphere mapping is the best type for mapping a sphere, and it is perfect for making planets and similar objects.
-   It is often very useful for creating organic objects. It also produces interesting effects on a cylinder.
+   Sphere mapping is the best type for mapping a sphere,
+   and it is perfect for making planets and similar objects.
+   It is often very useful for creating organic objects.
+   It also produces interesting effects on a cylinder.
 
 
 Inheriting coordinates from the parent object
 =============================================
 
 From Dupli
-   Duplis instanced from vertices, faces, or particles, inherit texture coordinates from their parent.
+   Duplis instanced from vertices, faces, or particles,
+   inherit texture coordinates from their parent.
 
 **Todo: explaination**
 
@@ -134,4 +137,3 @@ Size
 So, all this is a bit hard to understand and master. Fortunately,
 you do not have to change these settings often, except for some special effects... Anyway,
 the only way to get used to them is to practice!
-

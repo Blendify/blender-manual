@@ -1,3 +1,4 @@
+.. |small-pic| image:: /images/bi_textures_image_linien.jpg
 
 **************
 Image Textures
@@ -28,9 +29,8 @@ texture sized proportionally to the number of pixels that it will occupy in the 
 Ultimately, you only have a certain amount of physical RAM to hold an image texture and the
 model and to provide work space when rendering your image.
 
-For the most efficient memory usage, image textures should be square,
-with dimensions as powers of 2, such as 32×32, 64×64, 128×128, 256×256, 1024×1024, 2048×2048,
-and 4096×4096.
+For the most efficient memory usage, image textures should be square, with dimensions as powers of 2,
+such as 32×32, 64×64, 128×128, 256×256, 1024×1024, 2048×2048, and 4096×4096.
 
 If you can re-use images across different meshes, this greatly reduces memory requirements.
 You can re-use images if you map those areas of the meshes that "look alike" to a layout that
@@ -223,6 +223,7 @@ Mix and Match Materials
 -----------------------
 
 .. figure:: /images/uv-mixmat.jpg
+   :align: right
 
 You can mix and match procedural materials and textures, vertex paint,
 and UV textures onto the same mesh.
@@ -269,6 +270,7 @@ Using Alpha Transparency
 ------------------------
 
 .. figure:: /images/uv-alpha.jpg
+   :align: right
    :width: 200px
 
    Alpha UV Textures.
@@ -354,7 +356,6 @@ you can have different images for each texture channel; one for color, one for a
 one for normals, one for specularity, one for reflectivity, *etc.* Procedural textures,
 like Clouds, are incredibly simple and useful for adding realism and details to an image.
 
-
 .. list-table::
    :header-rows: 1
 
@@ -383,14 +384,14 @@ like Clouds, are incredibly simple and useful for adding realism and details to 
 
 So, in a sense, a single UV texture for a mesh is simpler but more limited than using multiple textures
 (mapped to UV coordinates), because they do one specific thing very well:
-adding image details to a range of faces of a mesh. They work together if the procedural
-texture maps to the UV coordinates specified in your layout. As discussed earlier, you can map
-multiple UV textures to different images using the UV Coordinate mapping system in the Map
-Input panel.
+adding image details to a range of faces of a mesh.
+They work together if the procedural texture maps to the UV coordinates specified in your layout.
+As discussed earlier, you can map multiple UV textures to different images using
+the UV Coordinate mapping system in the Map Input panel.
 
 
 Settings
----------
+--------
 
 .. _render-blender-internal-image-settings:
 
@@ -404,7 +405,6 @@ Image Settings
 
 
 In the *Image Sampling* panel we tell Blender which source file to use.
-
 
 Image or Movie Data-block:
    Browse
@@ -420,7 +420,7 @@ Image or Movie Data-block:
    X
       Unlink this image or movie.
 
-Source:
+Source
    Where the image come from. What kind of source file to use.
 
    Generated
@@ -485,16 +485,15 @@ Fields
    Lower First
       Order of video fields - lower field first.
 
-.. figure:: /images/texture-image-panel-generated.jpg
-   :width: 306px
-
-   Image panel for Generated source of Image texture.
-
-
 For *Generated* source there are the specific options:
 *X* and *Y* size
 
    Width and height of image to be generated.
+
+.. figure:: /images/texture-image-panel-generated.jpg
+   :width: 306px
+
+   Image panel for Generated source of Image texture.
 
 Generated Image Type
    Which kind of image to be generated
@@ -518,7 +517,6 @@ Image Sampling
 
 In the *Image Sampling* panel we can control how the information is retrieved from the image.
 
-
 .. list-table::
 
    * - .. figure:: /images/bahnhofstrasse.jpg
@@ -537,7 +535,6 @@ The *background image* is an ordinary JPG-file,
 the *foreground image* is a PNG-file with various alpha and greyscale values.
 The vertical bar on the right side of the foreground image is an Alpha blend,
 the horizontal bar has 50% alpha.
-
 
 .. list-table::
 
@@ -584,12 +581,11 @@ Normal Map
    Needs specially prepared input pictures.
    See :doc:`Bump and Normal Maps </render/blender_render/textures/influence/material/bump_and_normal>`.
 
-
    Normal Map Space:
-      *Tangent*:
-      *Object*:
-      *World*:
-      *Camera*:
+      - *Tangent*
+      - *Object*
+      - *World*
+      - *Camera*
 
 Derivative Map
    Use red and green as derivative values.
@@ -603,22 +599,10 @@ MIP Map
    Without MIP Maps you may get varying pictures from slightly different camera angles,
    when the Textures become very small. This would be noticeable in an animation.
 
-
    MIP Map Gaussian filter
       Used in conjunction with MIP Map, it enables the MIP Map to be made smaller based on color similarities.
       In the game engine, you want your textures, especially your MIP Map textures,
       to be as small as possible to increase rendering speed and frame rate.
-
-
-.. list-table::
-   Enlarged Image texture without and with *Interpolation*
-
-   * - .. figure:: /images/imagetextur-linien.jpg
-          :width: 160px
-
-     - .. figure:: /images/imagetexturinterpol-linien.jpg
-          :width: 160px
-
 
 Interpolation
    This option interpolates the pixels of an image.
@@ -626,12 +610,18 @@ Interpolation
    Turn this option off to keep the individual pixels visible and if they are correctly anti-aliased.
    This last feature is useful for regular patterns, such as lines and tiles;
    they remain 'sharp' even when enlarged considerably.
-   When you enlarge this 10×10 pixel Image
+   When you enlarge this 10×10 pixel Image |small-pic|
+   the difference with and without *Interpolation* is clearly visible.
+   Turn this image off if you are using digital photos to preserve crispness.
 
-.. figure:: /images/bi_textures_image_linien.jpg
+   .. list-table::
+      Enlarged Image texture without and with *Interpolation*
 
-the difference with and without *Interpolation* is clearly visible.
-Turn this image off if you are using digital photos to preserve crispness.
+      * - .. figure:: /images/imagetextur-linien.jpg
+             :width: 160px
+
+        - .. figure:: /images/imagetexturinterpol-linien.jpg
+             :width: 160px
 
 Filter
    The filter size used in rendering, and also by the options *MipMap* and *Interpolation*.
@@ -662,8 +652,7 @@ Filter
             Number of probes to use. An integer between 1 and 256.
             Further reading: McCormack, J; Farkas, KI; Perry, R; Jouppi, NP (1999)
             `Simple and Table Feline: Fast Elliptical Lines for Anisotropic Texture Mapping
-            <http://www.hpl.hp.com/techreports/Compaq-DEC/WRL-99-1.pdf>`__,
-            WRL
+            <http://www.hpl.hp.com/techreports/Compaq-DEC/WRL-99-1.pdf>`__, WRL
       Area
          Area filter to use for image sampling
 
@@ -688,8 +677,7 @@ Image Mapping
 In the *Image Mapping* panel,
 we can control how the image is mapped or projected onto the 3D model.
 
-Extension:
-
+Extension
    Extend
       Outside the image the colors of the edges are extended
    Clip

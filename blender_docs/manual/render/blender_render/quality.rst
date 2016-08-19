@@ -53,7 +53,7 @@ This can be achieved through lighting settings, or better, through
 
 .. seealso::
 
-   :doc:`Exposure (Lighting) </render/blender_render/lighting/exposure>`.
+   :doc:`Exposure (Lighting) </render/blender_render/world/exposure>`.
 
 
 Motion Blur
@@ -68,5 +68,3 @@ and when it is missing, an image may not be believable.
 .. seealso::
 
    :doc:`Motion Blur </render/blender_render/motion_blur>`.
-
-

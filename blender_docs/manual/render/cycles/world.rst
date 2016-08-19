@@ -56,7 +56,6 @@ nearby surfaces. This is a trick that is not physically accurate,
 but it is useful to emphasize shapes of surfaces,
 or as a cheap way to get an effect that looks a bit like indirect lighting.
 
-
 Factor
    The strength of the ambient occlusion; value 1.0 is like a white world shader.
 Distance
@@ -109,7 +108,8 @@ Max Bounces
 
 .. seealso::
 
-   See :doc:`Reducing Noise </render/cycles/optimizations/reducing_noise>` for more information on how to reduce noise.
+   See :doc:`Reducing Noise </render/cycles/optimizations/reducing_noise>`
+   for more information on how to reduce noise.
 
 
 Volume

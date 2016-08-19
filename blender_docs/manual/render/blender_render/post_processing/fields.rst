@@ -29,24 +29,19 @@ A noticeable jitter of the edges of moving objects would be present.
 Options
 =======
 
-.. figure:: /images/render-to-fields.jpg
-
-   Field Rendering setup.
-
-
 Fields
-   Enable field rendering. When the *Fields* button in the *Render* Panel is pressed
-   (*Post Processing* section), Blender prepares each frame in two passes.
-   On the first it renders only the even lines,
-   then it advances in time by half a time step and renders all the odd lines.
-   This produces odd results on a PC screen (Field Rendering result). but will show correctly on a TV set.
+------
 
+Enable field rendering. When the *Fields* button in the *Render* Panel is pressed
+(*Post Processing* section), Blender prepares each frame in two passes.
+On the first it renders only the even lines,
+then it advances in time by half a time step and renders all the odd lines.
+This produces odd results on a PC screen (Field Rendering result). but will show correctly on a TV set.
 
 Upper First / Lower First
    Toggles between rendering the even and odd frames first.
 Still
    Disables the half-frame time step between fields (*x*).
-
 
 .. note:: Setting up the correct field order
 
@@ -63,7 +58,6 @@ Still
    and look at them on a television screen.
    The one with the right field order will look smooth and the other one horrible.
    Doing this simple test will save you *hours* of wasted rendering time...
-
 
 .. note:: Fields and Composite Nodes
 

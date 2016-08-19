@@ -48,9 +48,9 @@ this light source's intensity will be half the value it was originally.
 When the *Quadratic* slider is set to 0.0, the formula for working out the
 attenuation at a particular range for full linear attenuation is:
 
-*I* = *E* × (*D* / (*D* + *L* × *r*))
+:math:`I = E × (D / (D + L × r))`
 
-Where
+Where:
 
 - *I* is the calculated Intensity of light.
 - *E* is the current *Energy* slider setting.
@@ -87,9 +87,9 @@ but it attenuates much quicker after *Distance* is reached.
 When the *Linear* slider is set to 0.0, the formula for working out the
 attenuation at a particular range for full quadratic attenuation is:
 
-*I* = *E* × (*D*\ :sup:`2` / (*D*\ :sup:`2` + *Q* × *r*\ :sup:`2`\))
+:math:`I = E × (D^2 / (D^2 + Q × r^2))`
 
-Where
+Where:
 
 - *I* is the calculated Intensity of light.
 - *E* is the current *Energy* slider setting.
@@ -104,7 +104,7 @@ Mixing "Linear" and "Quad"
 If both the *Linear* and *Quad* slider fields have values greater than
 0.0, then the formula used to calculate the light attenuation profile changes to this:
 
-*I* = *E* × (*D* / (*D* + *L* × *r*)) × (*D*\ :sup:`2` / (*D*\ :sup:`2` + *Q* × *r*\ :sup:`2`\))
+:math:`I = E × (D / (D + L × r)) × (D^2 / (D^2 + Q × r^2))`
 
 Where
 
@@ -304,7 +304,7 @@ indicating the demarcation point at which this light intensity will be null.
 
 The *Sphere* option adds a term to the chosen attenuation law, whatever it is:
 
-*I'* = *I* × (*D* - *r*) / *D* if *r* < *D*; 0 otherwise
+:math:`I = I × (D - r) / D` if :math:`r < D`; 0 otherwise
 
 Where:
 
@@ -339,7 +339,6 @@ This causes the light to affect the front, middle and rear planes more dramatica
 Looking at (*Various* *Dist* *ance settings*),
 you can see that as the *Dist* is increased,
 more and more objects become progressively brighter.
-
 
 .. list-table::
    Various *Distance* settings (shadows disabled).
@@ -395,8 +394,7 @@ We can see this in the Fig. :ref:`fig-bi-light-attenuation-inverse-square` image
 .. _fig-bi-light-attenuation-inverse-square:
 
 .. list-table::
-   Inverse Square selected.
-   (with the specified distances).
+   Inverse Square selected. (with the specified distances).
 
    * - .. _fig-bi-light-attenuation-inverse-square10:
 

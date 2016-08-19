@@ -42,5 +42,3 @@ Select object, get the material, (R Click) - Copy data to clipboard.
 When you have renamed the material, click "Data - Data" to link to the existing material.
 Proceed to assign faces as required.
 NB: If you change the material on the original object, the new object color changes too.
-
-

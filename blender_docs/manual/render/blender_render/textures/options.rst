@@ -1,7 +1,7 @@
 
-***********************
-Textures common options
-***********************
+**************
+Common Options
+**************
 
 In the Properties editor, choose the Texture tab: this will show the Texture panel.
 
@@ -136,7 +136,6 @@ Mapping
 
 Here you can control how the texture will be mapped on the object.
 
-
 .. note:: Brushes
 
    These options are not available for brushes because they wouldn't make sense
@@ -152,9 +151,6 @@ Here you can control what properties the texture will affect, and by how much.
 
 They are detailed on the :doc:`Influence </render/blender_render/textures/influence/material>` section.
 
-
 .. note:: Brushes
 
    These options are not available for brushes because they wouldn't make sense
-
-

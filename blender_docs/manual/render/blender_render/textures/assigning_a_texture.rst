@@ -87,4 +87,3 @@ Sharing a Texture Data-Block in a non-empty slot
 - Choose a texture data-block in the menu to assign it to the selected slot.
   This will share the chosen texture with more than one object,
   hence the *Number of users* shown in the texture data-block will increase by one.
-
