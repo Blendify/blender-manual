@@ -1,14 +1,15 @@
 
-*****************
-Particle Emission
-*****************
+********
+Emission
+********
 
 The *Emitter* system works just like its name says: it emits/produces particles for a certain amount of time.
 In such a system, particles are emitted from the selected object from the *Start*
 frame to the *End* frame and have a certain lifespan.
 These particles are rendered default as :doc:`Halos </render/blender_render/materials/special_effects/halo>`,
 but you may also render these kind of particles as objects
-(depending on the particle system's render settings, see :doc:`Visualization </physics/particles/visualization>`).
+(depending on the particle system's render settings,
+see :doc:`Visualization </physics/particles/properties/visualization>`).
 
 
 Options
@@ -35,9 +36,9 @@ Random
    The shortest possible lifetime is *Lifetime* × (1 - *Rand*).
    Values above 1.0 are not allowed.
    For example with the default *Lifetime* value of 50 a *Random* setting of 0.5
-   will give you particles with lives ranging from 50 frames to ``50 × (1.0 - 0.5)`` = 25 frames, and with a
-   *Random* setting of 0.75 you will get particles with lives ranging from 50 frames to
-   ``50 × (1.0 - 0.75)`` = 12.5 frames.
+   will give you particles with lives ranging from 50 frames to :math:`50 × (1.0 - 0.5` = 25`
+   frames, and with a *Random* setting of 0.75 you will get particles with lives ranging
+   from 50 frames to :math:`50 × (1.0 - 0.75) = 12.5` frames.
 
 
 Emission Location

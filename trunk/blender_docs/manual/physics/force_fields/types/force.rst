@@ -18,7 +18,8 @@ and are blown away from a field with positive strength.
 
    UI for a Force force field.
 
-For :doc:`Boids Particles </physics/particles/physics/index>` a field with positive strength can be used as a *Goal*,
+For :doc:`Boids Particles </physics/particles/properties/physics/index>`
+a field with positive strength can be used as a *Goal*,
 a field with negative strength can be used as *Predator*.
 Whether *Boids* seek or fly goals/predators depends on the *Physics* settings of the Boids.
 

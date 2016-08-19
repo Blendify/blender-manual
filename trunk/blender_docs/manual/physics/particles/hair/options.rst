@@ -119,14 +119,14 @@ Steps
 Children
 ========
 
-See :doc:`Children </physics/particles/children>`.
+See :doc:`Children </physics/particles/properties/children>`.
 
 
 Render
 ======
 
 Hair can be rendered as a Path, Object, or Group.
-See :doc:`Particle Visualization </physics/particles/visualization>` for descriptions.
+See :doc:`Particle Visualization </physics/particles/properties/visualization>` for descriptions.
 
 .. seealso::
 

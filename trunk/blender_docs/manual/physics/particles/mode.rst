@@ -24,7 +24,7 @@ Usage
 .. tip:: Only Frames Baked to Memory are Editable!
 
    If you cannot edit the particles, check that you are not baking to a
-   :doc:`Disk Cache </physics/particles/cache_and_bake>`.
+   :doc:`Disk Cache </physics/particles/properties/cache>`.
 
 
 Setup for Hair Particles
@@ -56,7 +56,7 @@ Setup for Particle, Cloth, and Soft Body Simulations
 Bake the Simulation
 -------------------
 
-Once you are happy with the general simulation, :doc:`bake </physics/particles/cache_and_bake>`
+Once you are happy with the general simulation, :doc:`bake </physics/particles/properties/cache>`
 the simulation from object mode. The simulation must be baked to enable editing.
 
 
