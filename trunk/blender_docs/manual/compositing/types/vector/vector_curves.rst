@@ -1,5 +1,5 @@
-.. Editors Note: This page gets copied into render/cycles/nodes/types/vector/curves
-.. Editors Note: This page gets copied into render/blender_render/materials/nodes/types/vector/curves
+.. Editors Note: This page gets copied into :doc:`</render/cycles/nodes/types/vector/curves>`
+.. Editors Note: This page gets copied into :doc:`</render/blender_render/materials/nodes/types/vector/curves>`
 
 ******************
 Vector Curves Node

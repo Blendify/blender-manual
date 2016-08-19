@@ -1,6 +1,6 @@
-.. Editors Note: This page gets copied into render/cycles/nodes/types/converter/math
-.. Editors Note: This page gets copied into render/blender_render/materials/nodes/types/converter/math
-.. Editors Note: This page gets copied into render/blender_render/textures/nodes/types/converter/math
+.. Editors Note: This page gets copied into :doc:`</render/cycles/nodes/types/converter/math>`
+.. Editors Note: This page gets copied into :doc:`</render/blender_render/materials/nodes/types/converter/math>`
+.. Editors Note: This page gets copied into :doc:`</render/blender_render/textures/nodes/types/converter/math>`
 
 *********
 Math Node
@@ -13,6 +13,7 @@ Math Node
    Math node.
 
 This node performs math operations.
+
 
 Inputs
 ======

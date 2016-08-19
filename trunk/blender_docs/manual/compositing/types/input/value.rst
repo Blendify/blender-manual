@@ -1,5 +1,5 @@
-.. Editors Note: This page gets copied into render/cycles/nodes/types/input/value
-.. Editors Note: This page gets copied into render/blender_render/materials/nodes/input/value
+.. Editors Note: This page gets copied into :doc:`</render/cycles/nodes/types/input/value>`
+.. Editors Note: This page gets copied into :doc:`</render/blender_render/materials/nodes/input/value>`
 
 **********
 Value Node
@@ -13,6 +13,7 @@ Value Node
 
 
 The *Value Node* is a simple node to input numerical values to other nodes in the tree.
+
 
 Inputs
 ======
@@ -42,7 +43,6 @@ this make the node a useful organizational tool.
 .. figure:: /images/composite_input_value_example.png
 
    Example of the *Value Node*.
-
 
 .. tip::
 
