@@ -1,5 +1,4 @@
-
-..    TODO/Review: {{review|copy=X}} .
+..    TODO/Review: {{review|copy=X}}.
 
 ***********
 Filter Node
@@ -12,6 +11,7 @@ Filter Node
    Filter Node.
 
 The Filter node implements various common image enhancement filters.
+
 
 Inputs
 ======
@@ -60,5 +60,3 @@ Example
    :figwidth: 500px
 
    The Filter node has seven modes, shown here.
-
-

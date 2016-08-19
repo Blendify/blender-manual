@@ -1,4 +1,4 @@
-..    TODO/Review: {{review|partial=X|text=Need example & img}} .
+..    TODO/Review: {{review|partial=X|text=Need example & img}}.
 
 *********
 Spline IK
@@ -29,7 +29,6 @@ since the results may be difficult to control.
 
 To setup Spline IK,
 it is necessary to have a chain of connected bones and a curve to constrain these bones to.
-
 
 - With the last bone in the chain selected,
   add a :doc:`Spline IK </rigging/constraints/tracking/spline_ik>`

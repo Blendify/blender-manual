@@ -1,5 +1,4 @@
-
-..    TODO/Review: {{review|copy=X}} .
+..    TODO/Review: {{review|copy=X}}.
 
 *********************
 Directional Blur Node
@@ -12,6 +11,7 @@ Directional Blur Node
    Dilate/Erode Node.
 
 Blurs an image in a specified direction and magnitude. Can be used to fake motion blur.
+
 
 Inputs
 ======
@@ -49,4 +49,3 @@ Outputs
 
 Image
    Standard image output.
-

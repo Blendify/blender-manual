@@ -1,4 +1,4 @@
-..    TODO/Review: {{review|void=X}} .
+..    TODO/Review: {{review|void=X}}.
 
 **************
 Game Materials

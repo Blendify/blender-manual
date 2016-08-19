@@ -1,5 +1,4 @@
-
-..    TODO/Review: {{WikiTask/Inprogress}} .
+..    TODO/Review: {{WikiTask/Inprogress}}.
 
 **************
 Sound Actuator
