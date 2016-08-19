@@ -1,4 +1,4 @@
-.. Editors Note: This page gets copied into render/cycles/nodes/types/color/bright_contrast
+.. Editors Note: This page gets copied into :doc:`</render/cycles/nodes/types/color/bright_contrast>`
 
 ********************
 Bright/Contrast Node

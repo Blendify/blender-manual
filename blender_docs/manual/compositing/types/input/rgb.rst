@@ -1,5 +1,5 @@
-.. Editors Note: This page gets copied into render/cycles/nodes/types/input/rgb
-.. Editors Note: This page gets copied into render/blender_render/materials/nodes/types/input/rgb
+.. Editors Note: This page gets copied into :doc:`</render/cycles/nodes/types/input/rgb>`
+.. Editors Note: This page gets copied into :doc:`</render/blender_render/materials/nodes/types/input/rgb>`
 
 ********
 RGB Node
