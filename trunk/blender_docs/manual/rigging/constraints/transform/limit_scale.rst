@@ -45,7 +45,6 @@ Options
 
    Limit Scale panel.
 
-
 Minimum/Maximum X, Y, Z
    These buttons enable the lower boundary for the scale of the owner along respectively the X,
    Y and Z axes of the chosen *Space*.
@@ -64,7 +63,6 @@ For Transform
    this is no longer possible - the owner transform properties are also limited by the constraint.
    Note however, that the constraint does not directly modify the scale values:
    you have to scale its owner one way or another for this to take effect.
-
 Convert
    This constraint allows you to choose in which space to evaluate its owner's transform properties.
 

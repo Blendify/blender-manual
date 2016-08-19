@@ -1,4 +1,4 @@
-.. _composite_nodes_distort-index:
+.. _composite-nodes-distort-index:
 
 ################
   Distort Nodes

@@ -19,7 +19,7 @@ compared to the traditional method:
  .. warning::
 
    Do not confuse this "basic" object parenting with the one that defines the
-   :ref:`chains of bones <armature-bone_chain>`
+   :ref:`chains of bones <armature-bone-chain>`
    inside of an armature. This constraint is used to parent an object to a
    bone (the so-called :doc:`object skinning </rigging/skinning/objects>`),
    or even bones to bones. But do not try to use it to define chains of bones.

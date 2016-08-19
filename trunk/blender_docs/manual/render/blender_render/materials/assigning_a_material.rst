@@ -9,7 +9,7 @@ Materials available in the currently-open blend-file can be investigated by clic
 on the Materials icon |material-icon| in the Properties editor Header.
 In this section we look at how to assign or remove a material to/from the Active Object in Blender, either by:
 
-- creating a new material,
+- Creating a new material,
 - re-using an existing material, or
 - deleting a material.
 

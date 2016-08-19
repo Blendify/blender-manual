@@ -37,10 +37,8 @@ Options
 
 Permeability
    Fraction of particles passing through the mesh.
-
 Stickiness
    How much particles stick to the object.
-
 Kill Particles
    Deletes Particles upon impact.
 

@@ -47,7 +47,7 @@ Cursor to Grid
 Cursor to Active
    Snaps the cursor to the *active* (last selected) object, edge, face or vertex.
 
-The *Cursor to Selected* option is also affected by the current :ref:`pivot-point`. For example:
+The *Cursor to Selected* option is also affected by the current :ref:`pivot-point-index`. For example:
 
  - With the *Bounding Box Center* pivot point active,
    the *Cursor to Selected* option will snap the 3D cursor to the

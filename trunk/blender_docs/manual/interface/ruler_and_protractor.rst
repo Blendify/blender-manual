@@ -4,7 +4,7 @@
 Ruler and Protractor
 ********************
 
-The ruler can be accessed from the toolshelf,
+The ruler can be accessed from the Toolshelf,
 once activated you can use the ruler to measure lengths and angles in the scene.
 
 .. figure:: /images/editors_3dview_ruler_example.jpg
@@ -25,7 +25,7 @@ Usage
 
 Here are common steps for using the ruler.
 
-- Activate the Ruler from the toolshelf.
+- Activate the Ruler from the Toolshelf.
 - Click and drag in the view-port to define the initial start/end point for the ruler.
 - Orbit the view and click on either end of the ruler to re-position it.
   Holding :kbd:`Ctrl` enables snap to elements.
@@ -50,5 +50,5 @@ Shortcuts
 - :kbd:`LMB` Drag center-point to measure angles, drag out of the view to convert back to a ruler.
 - :kbd:`Delete` Deletes the ruler.
 - :kbd:`Ctrl-C` Copies the rulers value to the clipboard.
-- :kbd:`Esc` Exits
+- :kbd:`Esc` Exit tool.
 - :kbd:`Return` Saves the rulers for the next time the tool is activated.

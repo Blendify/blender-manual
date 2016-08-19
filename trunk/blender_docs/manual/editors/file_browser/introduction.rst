@@ -135,7 +135,6 @@ Navigation buttons
 
 Create Directory
    Prompts you to enter the name of a newly created directory (:kbd:`I`).
-
 Recursion
    The number of directory levels to show at once. The available options are:
 
@@ -150,10 +149,8 @@ Display type
    - Display files as a short list
    - Display files as a detailed list
    - Display files as thumbnails (show :doc:`previews </editors/file_browser/previews>`)
-
 Display size
    The size of thumbnails or the width of columns.
-
 Sorting
    Sorts files by on of the following methods:
 
@@ -161,10 +158,8 @@ Sorting
    - By file type
    - By Date of last edit
    - By file size
-
 Show hidden
    Shows files that start with ``.``
-
 File filtering
    Filters files by type. The available options are:
 

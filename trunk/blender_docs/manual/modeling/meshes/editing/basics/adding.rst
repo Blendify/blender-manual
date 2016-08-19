@@ -5,7 +5,7 @@ Adding Geometry
 
 In Blender, for modeling, you have several ways of adding mesh elements.
 Some of them are basic objects that adds a starting block of data (called data-block in Blender)
-when adding their basic geometry to the scene. We have 10 available mesh Objects,
+when adding their basic geometry to the scene. We have ten available mesh Objects,
 and those starting meshes are also called mesh primitives. In Blender,
 we have a set of basic primitives so you can add a starting mesh to modify and model to suit your specific needs.
 Also, you have specific tools to add, duplicate, move and delete elements,

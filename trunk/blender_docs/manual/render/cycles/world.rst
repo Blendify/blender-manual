@@ -73,7 +73,7 @@ An alternative method of using Ambient Occlusion on a per-shader basis is to use
 :doc:`Ambient Occlusion </render/cycles/nodes/types/shaders/ao>` shader.
 
 
-.. _render-cycles-integrator-world_settings:
+.. _render-cycles-integrator-world-settings:
 
 World Settings
 ==============

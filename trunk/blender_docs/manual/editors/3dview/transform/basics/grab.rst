@@ -29,7 +29,8 @@ and Z co-ordinates is displayed at the bottom left corner of the 3D View editor.
 There are two ways to Grab/Move in *3D View*:
 
 - Using shortcuts and combinations of shortcuts.
-- Using the *Transform Widget* helper. This can be toggled from the *Translation Widget* in the header of the 3DView.
+- Using the *Transform Widget* helper.
+  This can be toggled from the *Translation Widget* in the header of the 3D View.
 
 
 Transform Widget
@@ -55,7 +56,6 @@ full control over your transformation.
 
 :kbd:`LMB`
    Confirm the move, and leave the object or data at its current location on the screen.
-
 :kbd:`MMB`
    Constrain the move to the X, Y or Z axis according to the position of the mouse pointer in the 3D View.
    After pressing :kbd:`G`, if the :kbd:`MMB` is pressed,
@@ -68,10 +68,8 @@ full control over your transformation.
 
       Axis-Constraint in action.
 
-
 :kbd:`RMB` or :kbd:`Esc`
    Cancel the move, and return the object or data to its original location.
-
 :kbd:`Shift` + :kbd:`X`, :kbd:`Y`, :kbd:`Z`
    This modifying hotkey locks the translation axis,
    allowing the object to move freely on the two axes that are not locked.
@@ -81,7 +79,6 @@ full control over your transformation.
    .. figure:: /images/basic_trans_grab_shift_xyz.jpg
 
       Shift+X in action.
-
 
 :kbd:`Alt` + :kbd:`G`
    clears any previous transformation on the object and sets its origin back to the center.
@@ -105,14 +102,11 @@ Blender offers options to limit the amount of the transformation in small or pre
 :kbd:`Shift`
    Slow translation mode. While still in the grab mode i.e. after :kbd:`G` is pressed,
    holding down :kbd:`Shift` reduces how quickly the object moves and allows extra precision.
-
 :kbd:`Ctrl`
    This activates :doc:`snapping </editors/3dview/transform/transform_control/precision/snap>` based on the
    snapping constraint which has been already set. You may not be able to enable every snapping option in all cases.
-
 :kbd:`Ctrl-Shift`
    Precise snap. This option will move the object with high precision along with the snapping constraint.
-
 :kbd:`X`, :kbd:`Y`, :kbd:`Z` + decimal number
    This option limits the transformation to the specified axis and the decimal number specified
    will be the magnitude of the translation along that axis.
@@ -120,10 +114,8 @@ Blender offers options to limit the amount of the transformation in small or pre
 
    - Hitting :kbd:`Backspace` during number entry and deleting the number removes the numerical
      specification option but the object will remain constrained to the same axis.
-
-   - Hitting :kbd:`/` during number entry switches the number being entered to its reciprocal, e.g.
-     :kbd:`2 /` results in 0.5 (1/2); :kbd:`2/0` results in 0.05 (1/20).
-
+   - Hitting :kbd:`/` during number entry switches the number being entered to its reciprocal,
+     e.g. :kbd:`2 /` results in 0.5 (1/2); :kbd:`2/0` results in 0.05 (1/20).
    - The axis of movement can be changed at any time during translation by typing :kbd:`X`, :kbd:`Y`, :kbd:`Z`.
 
 .. tip::

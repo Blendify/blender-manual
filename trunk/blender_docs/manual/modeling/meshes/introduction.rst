@@ -194,6 +194,6 @@ under the Normals section. In addition, we can define the size of these with Nor
 The *Numerics* section allows users to see some numerical measures of the selected elements on screen:
 
 Edge Length
-   shows the lenghts, in Blender units, of the selected edges.
+   Shows the lengths, in Blender units, of the selected edges.
 Face Angles and Face Area
-   show the angles (in degrees) and area (in square Blender units) of the selected faces.
+   Show the angles (in degrees) and area (in square Blender units) of the selected faces.

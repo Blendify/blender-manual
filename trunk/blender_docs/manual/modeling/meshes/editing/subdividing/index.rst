@@ -1,4 +1,3 @@
-.. _modeling_meshes_editing_subdividing-index:
 
 ##############
   Subdividing

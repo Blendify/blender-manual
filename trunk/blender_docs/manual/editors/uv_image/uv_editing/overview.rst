@@ -112,7 +112,7 @@ The UV/Image Editor
 ===================
 
 About functionalities for mapping UV see
-:ref:`UV/Image Editor <editors-uv_image-index>` section for details.
+:ref:`UV/Image Editor <editors-uv-image-index>` section for details.
 
 
 Advantages of UVs

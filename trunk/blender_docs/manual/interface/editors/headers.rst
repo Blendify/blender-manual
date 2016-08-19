@@ -17,7 +17,7 @@ This means that it is "focused".
 All hotkeys you press will now affect the contents of this editor.
 
 
-Hiding a header
+Hiding a Header
 ===============
 
 .. figure:: /images/interface-window_system-headers-hide.jpg
@@ -28,7 +28,7 @@ until the pointer takes the form of an up/down arrow. Then click,
 hold and drag with :kbd:`LMB`  to scale down the header to zero.
 
 
-Showing a header
+Showing a Header
 ================
 
 .. figure:: /images/interface-window_system-headers-show_02.jpg
@@ -44,7 +44,7 @@ the header will reappear.
    not a second header.
 
 
-Header position
+Header Position
 ===============
 
 To move a header from top to bottom or the other way round,
@@ -61,15 +61,15 @@ and if the header is at the bottom the item text will read "Flip to Top".
    :doc:`User Preferences </preferences/index>` editor and clicking on the *Themes* tab.
 
 
-Editor type button
-==================
+Editor Type Selector
+====================
 
 :kbd:`LMB` clicking on the first icon at the left side of a header allows changing the Editor type.
 Every area in Blender may contain any type of editor,
 allowing you to customize your window layout to your own work flows.
 
 
-Menus and buttons
+Menus and Buttons
 =================
 
 Most headers exhibit a set of menus, located immediately next

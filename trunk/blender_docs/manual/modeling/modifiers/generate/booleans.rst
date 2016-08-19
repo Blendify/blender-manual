@@ -86,7 +86,7 @@ Object
    The name of the target mesh object.
 
 
-.. _boolean_materials:
+.. _boolean-materials:
 
 Materials
 =========

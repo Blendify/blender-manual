@@ -56,7 +56,7 @@ Getting Started - External links
 
 Here are external links containing a lot of good information to start learning how to write scripts for Blender.
 
-- `Introductory tutorial by Satish Goda
+- `Introductory tutorial by Satish Goda 
   <https://sites.google.com/site/satishgoda/blender/learningblender25/introduction-to-blender-python-api>`__
   - Takes you from the beginning and teaches how to do basic API manipulations.
 - `Ira Krakow's video tutorials <https://www.youtube.com/watch?v=vmhU_whC6zw>`__
@@ -65,7 +65,7 @@ Here are external links containing a lot of good information to start learning h
   - A quick start guide for people who already have some familiarity with Python and Blender.
 - `Examples thread <http://blenderartists.org/forum/showthread.php?t=164765>`__
   - A forum thread containing many short working script examples.
-- `Introduction to Python
+- `Introduction to Python 
   <https://cgcookie.com/archive/introduction-to-scripting-with-python-in-blender/>`__
   - A one-hour video tutorial introducing Python and the Blender API.
 
@@ -113,7 +113,7 @@ All scripts are loaded from the ``scripts`` folder of the
 :doc:`local, system and user paths </getting_started/installing/configuration/directories>`.
 
 You can setup an additional search path for scripts in
-:ref:`prefs-file_paths` :menuselection:`User Preferences --> File Paths`.
+:ref:`prefs-file-paths` :menuselection:`User Preferences --> File Paths`.
 
 
 Installation

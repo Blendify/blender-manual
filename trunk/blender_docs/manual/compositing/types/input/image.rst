@@ -22,7 +22,7 @@ Properties
 ==========
 
 Image
-   Selection of different type of media. See source below. For controls see :ref:`ui-data_block`.
+   Selection of different type of media. See source below. For controls see :ref:`ui-data-block`.
 Source
    Single Image
       Still image or a single frame.

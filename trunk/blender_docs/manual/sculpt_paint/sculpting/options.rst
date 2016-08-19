@@ -71,7 +71,6 @@ Brush Type
    Thumb
       Similar to the *Nudge* brush, this one flattens the mesh in the brush area,
       while moving it in the direction of the brush stroke.
-
 Radius
    This option controls the radius of the brush, measured in pixels.
    :kbd:`F` allows you to change the brush size interactively by
@@ -79,7 +78,6 @@ Radius
    Typing a number then enter while using :kbd:`F` allows you to enter the size numerically.
    Brush size can be affected by enabling the pressure sensitivity icon,
    if you are using a :ref:`Graphics Tablet <hardware-tablet>`.
-
 Strength
    Controls how much each application of the brush affects the model.
    For example, higher values cause the *Draw* brush to add depth to the model more quickly,
@@ -202,7 +200,7 @@ intensity of the brush from its centre (left part of the curve) towards its bord
 
 .. seealso::
 
-   Read more about using the :ref:`ui-curve_widget`.
+   Read more about using the :ref:`ui-curve-widget`.
 
 
 Symmetry Panel

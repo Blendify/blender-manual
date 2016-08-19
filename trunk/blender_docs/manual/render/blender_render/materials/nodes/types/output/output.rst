@@ -35,4 +35,3 @@ This node has no outputs.
 
    The only Output node that is used for the Material in the end
    is the last selected, indicated by the darker background.
-

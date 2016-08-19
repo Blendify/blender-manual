@@ -11,7 +11,7 @@ This section covers how to export an outline of your UV map,
 and how to load images into the UV/Image editor.
 
 
-.. _uv_image-export_layout:
+.. _uv-image-export-layout:
 
 Exporting UV Layout Image
 =========================
@@ -65,7 +65,7 @@ For using images as textures, see the page on :doc:`Image Textures </render/blen
           A UV Layout in an Image Editor.
 
 
-.. _face_textures:
+.. _face-textures:
 
 Applying Textures to UVs
 ========================
@@ -305,7 +305,7 @@ To modify your new Texture, you can:
 - :doc:`Render Bake </render/workflows/bake>` an image based on how the mesh looks
 
   - The Render Bake feature provides several tools to replace the current image
-    based on a render of :ref:`Vertex Paint <painting_vertex-index>` colors,
+    based on a render of :ref:`Vertex Paint <painting-vertex-index>` colors,
     Normals (bumps), Procedural materials, textures and lighting, and ambient occlusion.
 - Paint using :doc:`Texture Paint </sculpt_paint/painting/texture_paint/introduction>`.
 

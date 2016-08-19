@@ -50,7 +50,7 @@ Type
       Can be used, for example, to increase base mesh resolution when using displacement maps.
 
 Subdivisions
-   Recursively adds more geometry. For details on polygon counts, see the :ref:`subsurf_performance` section.
+   Recursively adds more geometry. For details on polygon counts, see the :ref:`subsurf-performance` section.
 
    View
       The number of subdivision levels shown in the 3D View.
@@ -179,7 +179,7 @@ which allow the placement of more Loops (or removal of Loops,
 with :kbd:`X` :menuselection:`--> Edge Loop`) to control the sharpness/smoothness of the resultant mesh.
 
 
-.. _subsurf_performance:
+.. _subsurf-performance:
 
 Performance Considerations
 ==========================

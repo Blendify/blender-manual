@@ -8,10 +8,8 @@ Cloth
 
 Presets
    Contains a number of preset cloth examples, and allows you to add your own.
-
 Quality
    Set the number of simulation steps per frame. Higher values result in better quality, but is slower.
-
 Speed
    Adust how fast time flows in the cloth simulation.
 
@@ -149,7 +147,6 @@ Shrinking Group
 Min
    Fraction of the size to shrink the cloth by around vertices with weight 0 (or those not in vertex group.)
    The value 0.01 means shrink by 1% etc.
-
 Max
    Fraction of the size to shrink the cloth by around vertices with weight 1.
 

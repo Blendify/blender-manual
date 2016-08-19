@@ -1,4 +1,4 @@
-.. _rigid_body_constraints-index:
+.. _rigid-body-constraints-index:
 
 #########################
   Rigid Body Constraints

@@ -25,7 +25,6 @@ Options
 
    Transformation panel.
 
-
 Target
    This constraint uses one target, and is not functional (red state) when it has none.
 
@@ -39,7 +38,6 @@ Target
    Vertex Group
       If *Target* is a *Mesh*,
       a new field is displayed offering the optional choice to set a *Vertex Group* as target.
-
 Extrapolate
    By default, the *min* and *max* values bound the input and output values;
    all values outside these ranges are clipped to them.
@@ -87,7 +85,6 @@ Extrapolate
    - When a *min* value is higher than its corresponding *max* one,
      both are considered equal to the *max* one. This implies you cannot create "reversed" mappings...
 
-
 Source
    It contains the input (from target) settings.
    The three *Loc*, *Rot* and *Scale* toggle buttons, mutually exclusive,
@@ -107,7 +104,6 @@ Destination
      independently for each mapped axis.
      Note that if a min value is higher than its corresponding max value,
      the constraint behaves as if it had the same value as the max one.
-
 Space
    This constraint allows you to choose in which space to evaluate its owner's and target's transform properties.
 

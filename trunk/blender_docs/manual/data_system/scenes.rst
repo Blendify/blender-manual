@@ -1,4 +1,4 @@
-
+﻿
 ******
 Scenes
 ******
@@ -76,7 +76,7 @@ Removing a Scene
 You can delete the current scene by clicking the *X* next to the name in the Info Editor.
 
 
-.. _scene-background_set:
+.. _scene-background-set:
 
 Background Set Scene
 ====================

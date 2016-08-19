@@ -170,7 +170,7 @@ The temporary directory is used to store various files at runtime
 
 The temporary directory is selected based on the following priority.
 
-- User Preference (see :ref:`prefs-file_paths`).
+- User Preference (see :ref:`prefs-file-paths`).
 - Environment variables (``TEMP`` on MS-Windows, ``TMP`` & ``TMP_DIR`` on other platforms).
 - The ``/tmp/`` directory.
 

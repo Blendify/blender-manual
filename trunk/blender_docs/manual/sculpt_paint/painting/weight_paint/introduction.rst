@@ -150,7 +150,7 @@ Face Selection Masking
 
      - .. figure:: /images/modeling-meshes-weight-paint-face-select-hidden.jpg
 
-          hidden faces.
+          Hidden faces.
 
 
 The *Face Selection masking* allows you to select faces and limit the weight paint
@@ -171,9 +171,9 @@ Hide/Unhide Vertices
 You cannot directly hide selected faces in vertex mask selection mode.
 However, you can use a trick:
 
-- First go to Face selection mask mode
-- Select the areas you want to hide and then hide the faces (as explained above)
-- Switch back to Vertex Selection mask mode
+#. First go to Face selection mask mode.
+#. Select the areas you want to hide and then hide the faces (as explained above).
+#. Switch back to Vertex Selection mask mode.
 
 Now the verts belonging to the hidden Faces will remain hidden.
 
@@ -213,23 +213,23 @@ While there are ways to automatically assign weights to an armature
 you can do this manually. To do this from scratch, refer to the process below.
 To modify automatically assigned weights, jump into the middle of the process where noted:
 
-- Create an armature.
-- Create a mesh that will be deformed when the armature's bone(s) move.
-- With the mesh selected, create an *Armature* modifier for your mesh
-  (located in the Properties editor, *Modifiers* tab).
-  Enter the name of the armature.
+#. Create an armature.
+#. Create a mesh that will be deformed when the armature's bone(s) move.
+#. With the mesh selected, create an *Armature* modifier for your mesh
+   (located in the Properties editor, *Modifiers* tab).
+   Enter the name of the armature.
 
 Pick up here for modifying automatically assigned weights.
 
-- Select the armature in 3D View, and bring the armature to *Pose Mode*
-  with :kbd:`Ctrl-Tab`, or the 3D View header mode selector.
-- Select a desired bone in the armature.
-- Select your mesh with :kbd:`RMB` and change immediately to *Weight Paint Mode*.
-  The mesh will be colored according to the weight (degree) that the selected bone movement affects the mesh.
-  Initially, it will be all blue (no effect).
-- Weight paint to your heart's content.
-  The mesh around the bone itself should be red (generally)
-  and fade out through the rainbow to blue for vertices farther away from the bone.
+#. Select the armature in 3D View, and bring the armature to *Pose Mode*
+   with :kbd:`Ctrl-Tab`, or the 3D View header mode selector.
+#. Select a desired bone in the armature.
+#. Select your mesh with :kbd:`RMB` and change immediately to *Weight Paint Mode*.
+   The mesh will be colored according to the weight (degree) that the selected bone movement affects the mesh.
+   Initially, it will be all blue (no effect).
+#. Weight paint to your heart's content.
+   The mesh around the bone itself should be red (generally)
+   and fade out through the rainbow to blue for vertices farther away from the bone.
 
 You may select a different bone with :kbd:`RMB` while weight painting,
 provided the armature was left in *Pose Mode* as described above.
@@ -253,7 +253,6 @@ Weight Painting for Particles
 .. figure:: /images/weightpaint-particles.jpg
 
    Weight painted particle emission.
-
 
 Faces or vertices with zero weight generate no particles. A weight of 0.
 1 will result in 10% of the amounts of particles.

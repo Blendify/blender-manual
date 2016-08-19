@@ -50,7 +50,7 @@ Ray Depth
    .. note::
 
       Passing through a transparent shader
-      :ref:`does not count as a normal "bounce" <render-cycles-light_paths-transparency>`.
+      :ref:`does not count as a normal "bounce" <render-cycles-light-paths-transparency>`.
 
 Transparent Depth
    Returns the number of transparent surfaces passed through.

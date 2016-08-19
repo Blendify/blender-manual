@@ -10,7 +10,7 @@ Keyboard Sensor
 
 
 The *Keyboard* sensor is for detecting keyboard input.
-It can also save keyboard input to a :ref:`String property <game_engine-property_types>`.
+It can also save keyboard input to a :ref:`String property <game-engine-property-types>`.
 
 See :doc:`Sensor Common Options </game_engine/logic/sensors/common_options>` for common options.
 

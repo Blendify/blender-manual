@@ -26,7 +26,7 @@ Object Data
    and a single object-data may be shared by many objects.
 
 
-.. _objects_types:
+.. _objects-types:
 
 Types of Objects
 ================

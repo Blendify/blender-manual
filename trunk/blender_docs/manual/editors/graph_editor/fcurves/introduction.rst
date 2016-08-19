@@ -192,7 +192,7 @@ Auto Clamped
 Direction of time
 =================
 
-Although F-Curves are very similar to :ref:`curves_bezier`,
+Although F-Curves are very similar to :ref:`curves-bezier`,
 there are some important differences.
 
 For obvious reasons, a property represented by a Curve

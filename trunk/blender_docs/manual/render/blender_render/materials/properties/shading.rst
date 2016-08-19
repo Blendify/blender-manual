@@ -50,5 +50,3 @@ Cubic Interpolation
           :width: 200px
 
           With Cubic enabled.
-
-

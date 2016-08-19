@@ -101,21 +101,17 @@ Segments
 
       Bevel with four segments.
 
-
 Profile
    This is a number between 0 and 1 that controls the shape of the profile (side view of a beveled edge).
    The default value, 0.5, gives a circular arc (if the faces meet at right angles).
    Values less than that give a flatter profile, with 0.25 being exactly flat,
    and values less than that giving a concave bevel.
    Values more than 0.5 give a more "bulged-out" profile.
-
 Vertex Only
    When selected, the tool is in "vertex only" mode, and only vertices will be beveled.
-
 Clamp Overlap
    When selected, the bevel amount is not allowed to go larger than an amount that causes
    overlapping collisions with other geometry.
-
 Material
     The *Material* number specifies which material should be assigned to the new faces created by the *Bevel* tool.
     With the default, -1, the material is inherited from the closest existing face ("closest" can be a bit ambiguous).

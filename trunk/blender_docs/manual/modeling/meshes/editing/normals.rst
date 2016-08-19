@@ -22,7 +22,7 @@ You can also change the height of the axis that points the direction of the norm
    Normal Display Options.
 
 
-.. _modeling-meshes-editing-normals_editing:
+.. _modeling-meshes-editing-normals-editing:
 
 Editing
 =======

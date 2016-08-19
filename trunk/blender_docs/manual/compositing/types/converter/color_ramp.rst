@@ -25,7 +25,7 @@ Properties
 ==========
 
 Color Ramp
-   For controls see :ref:`ui-color_ramp_widget`.
+   For controls see :ref:`ui-color-ramp-widget`.
 
 
 Outputs

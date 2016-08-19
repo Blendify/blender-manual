@@ -147,5 +147,5 @@ Notice this tool can run multiple times to continue creating faces.
    For other ways to create faces see:
 
    - :ref:`Fill <modeling-meshes-editing-fill>`
-   - :ref:`Grid Fill <modeling-meshes-editing-grid_fill>`
-   - :ref:`Bridge Edge Loops <modeling-meshes-editing-bridge_edge_loops>`
+   - :ref:`Grid Fill <modeling-meshes-editing-grid-fill>`
+   - :ref:`Bridge Edge Loops <modeling-meshes-editing-bridge-edge-loops>`

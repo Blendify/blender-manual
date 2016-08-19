@@ -37,7 +37,7 @@ see :doc:`Moving Objects on a Path </animation/object_path>` for more info.
 Fly/Walk Modes
 --------------
 
-:ref:`Fly/Walk Mode <3dview-walk_fly>` can be used in conjunction with the timeline record option.
+:ref:`Fly/Walk Mode <3dview-walk-fly>` can be used in conjunction with the timeline record option.
 
 To record your flight path as animation curves.
 
@@ -45,7 +45,7 @@ To record your flight path as animation curves.
 Lock Camera to View
 -------------------
 
-:ref:`Lock Camera to View <3dview-lock_camera_to_view>` can be used in conjunction with the timeline record option.
+:ref:`Lock Camera to View <3dview-lock-camera-to-view>` can be used in conjunction with the timeline record option.
 
 To record your viewport navigation as animation curves.
 

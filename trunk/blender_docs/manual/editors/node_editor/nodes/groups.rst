@@ -42,12 +42,11 @@ so it is recommended some naming convention, that will allow you to easily disti
    self-contained software component. Material node groups should **not** include:
 
    Input nodes
-       if you include a source node in your group,
-       you will end up having the source node appearing *twice*: once inside the group,
-       and once outside the group in the new material node-network.
-
+      If you include a source node in your group,
+      you will end up having the source node appearing *twice*: once inside the group,
+      and once outside the group in the new material node-network.
    Output node
-        if you include an output node in the group, there will not be an output socket available *from* the group!
+      If you include an output node in the group, there will not be an output socket available *from* the group!
 
 
 Editing Node Groups

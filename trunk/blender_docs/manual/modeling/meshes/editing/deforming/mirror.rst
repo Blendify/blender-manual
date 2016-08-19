@@ -20,7 +20,8 @@ It is exactly equivalent to scaling by -1 vertices,
 edges or faces around one chosen pivot point and in the direction of one chosen axis, only it is faster/handier.
 
 
-After this tool becomes active, select an axis to mirror the selection on entering x,y, or z.
+After this tool becomes active, select an axis to mirror the selection 
+on entering :kbd:`X`, :kbd:`Y`, or :kbd:`Z`.
 
 You can also interactively mirror the geometry by holding the :kbd:`MMB` and dragging in
 the direction of the desired mirror direction.

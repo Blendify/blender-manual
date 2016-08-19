@@ -47,16 +47,18 @@ Brush presets
 Types of brushes
 ^^^^^^^^^^^^^^^^
 
-There are four different types of brushes
+There are four different types of brushes.
+
+Brush Types
    Draw
-      the normal brush; paints a swath of color
+      The normal brush; paints a swath of color.
    Soften
-      blends edges between two colors
+      Blends edges between two colors.
    Smear
-      when you click, takes the colors under the cursor, and blends them in the direction you move the mouse.
+      When you click, takes the colors under the cursor, and blends them in the direction you move the mouse.
       Similar to the "smudge" tool of *Gimp*.
    Clone
-      copies the colors from the image specified (Tex.Dirt in the example), to the active image.
+      Copies the colors from the image specified (Tex.Dirt in the example), to the active image.
       The background image is shown when this brush is selected;
       use the *B* lend slider to control how prominent the background image is.
 
@@ -64,25 +66,25 @@ Enable Pressure Sensitivity
    The icon to the right of the following three settings will enable or disable
    tablet pressure sensitivity to control how strong the effect is.
 Color
-   The color of the brush
+   The color of the brush.
 Radius
-   The radius of the brush in pixels
+   The radius of the brush in pixels.
 Strength
-   How powerful the brush is when applied}}
+   How powerful the brush is when applied.
 Blend
-   Set the way the paint is applied over the underlying texture
+   Set the way the paint is applied over the underlying texture.
 
 
-- Mix: the brush color is mixed in with existing colors
+- Mix: the brush color is mixed in with existing colors.
 - Add: the brush color is added to the existing color; green added to red gives yellow.
-- Subtract: the brush color is subtracted; painting blue on purple gives red
-- Multiply: the RGB value of the base is multiplied by the brush color
-- Lighten: the RGB value of the base color is increased by the brush color
-- Darken: tones down the colors
+- Subtract: the brush color is subtracted; painting blue on purple gives red.
+- Multiply: the RGB value of the base is multiplied by the brush color.
+- Lighten: the RGB value of the base color is increased by the brush color.
+- Darken: tones down the colors.
 - Erase Alpha: makes the image transparent where painted,
   allowing background colors and lower-level textures to show through.
-  As you 'paint', the false checkerboard background will be revealed
-- Add Alpha: makes the image more opaque where painted
+  As you 'paint', the false checkerboard background will be revealed.
+- Add Alpha: makes the image more opaque where painted.
 
    In order to see the effects of the Erase and Add Alpha mix modes in the UV/Image Editor,
    you must enable the alpha channel display by clicking the Display Alpha or the Alpha-Only button.
@@ -91,7 +93,7 @@ Blend
 Image
    When using the clone brush, this allows you to select an image as a clone source.
 Alpha
-   Opacity of the clone image display
+   Opacity of the clone image display.
 
 
 Texture
@@ -118,14 +120,14 @@ Switching the texture to Rings makes a target/flower type of brush painting patt
    this field changes to indicate the picture image or texture that you are cloning from.
 
 Brush Mapping
-   Sets how the texture is applied to the brush
+   Sets how the texture is applied to the brush.
 
    View Plane
-      In 2D painting, the texture moves with the brush
+      In 2D painting, the texture moves with the brush.
    Tiled
-      The texture is offset by the brush location
+      The texture is offset by the brush location.
    3D
-      Same as tiled mode
+      Same as tiled mode.
    Stencil
       Texture is applied only in borders of the stencil.
    Random
@@ -161,7 +163,7 @@ Stroke Method
       If disabled, the brush only modifies the color when the brush changes its location.
 
       Rate
-         Interval between paints for airbrush
+         Interval between paints for airbrush.
    Space
       Creates brush stroke as a series of dots, whose spacing is determined by the *Spacing* setting.
 
@@ -169,9 +171,9 @@ Stroke Method
          Represents the percentage of the brush diameter.
          Limit brush application to the distance specified by spacing.
    Dots
-      Apply paint on each mouse move step
+      Apply paint on each mouse move step.
    Jitter
-      Jitter the position of the brush while painting
+      Jitter the position of the brush while painting.
 Smooth stroke
    Brush lags behind mouse and follows a smoother path. When enabled, the following become active:
 
@@ -194,7 +196,7 @@ Changing the shape of the curve will make the brush softer or harder.
 
 .. seealso::
 
-   - Read more about using the :ref:`ui-curve_widget`.
+   - Read more about using the :ref:`ui-curve-widget`.
 
 
 Paint options

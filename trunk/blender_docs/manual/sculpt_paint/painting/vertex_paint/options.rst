@@ -24,7 +24,6 @@ Radius
    Set the radius of the brush
 Strength
    Set the strength of the brush's effect.
-
 Blend
    Mix
       Mixes RGB values. When set to a strength of 1.0, it will cover the underlying "paint".
@@ -64,10 +63,10 @@ It is not necessary to have that material or texture applied to any mesh anywher
 it must only be defined.
 
 Brush Mapping Mode
-   Sets how the texture is applied to the brush
+   Sets how the texture is applied to the brush.
 
    View Plane
-      In 2D painting, the texture moves with the brush
+      In 2D painting, the texture moves with the brush.
    Tiled
       The texture is offset by the brush location
    3D
@@ -76,7 +75,6 @@ Brush Mapping Mode
       Texture is applied only in borders of the stencil.
    Random
       Random applying of texture.
-
 Angle
    This is the rotation angle of the texture brush.
    It can be changed interactively via :kbd:`Ctrl-F` in the 3D View.
@@ -88,10 +86,8 @@ Angle
       Angle follows the direction of the brush stroke. Not available with *3D* textures.
    Random
       Angle is randomized.
-
 Offset
    Offset the texture in x, y, and z.
-
 Size
    Set the scale of the texture in each axis.
 
@@ -107,7 +103,7 @@ Stroke Method
       If disabled, the brush only modifies the color when the brush changes its location.
 
       Rate
-         Interval between paints for airbrush
+         Interval between paints for airbrush.
    Space
       Creates brush stroke as a series of dots, whose spacing is determined by the *Spacing* setting.
 
@@ -115,9 +111,9 @@ Stroke Method
          Represents the percentage of the brush diameter.
          Limit brush application to the distance specified by spacing.
    Dots
-      Apply paint on each mouse move step
+      Apply paint on each mouse move step.
    Jitter
-      Jitter the position of the brush while painting
+      Jitter the position of the brush while painting.
 Smooth stroke
    Brush lags behind mouse and follows a smoother path. When enabled, the following become active:
 
@@ -169,7 +165,6 @@ Normals
    Applies the Vertex Normal before painting. This does not usually affect painting.
 Spray
    Continues painting for as long as the mouse is held.
-
 Unified Settings
    Size
       All brushes use the same size.

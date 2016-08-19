@@ -34,10 +34,8 @@ how the tool reacts to your input.
 
 Bend Angle
    The amount of rotation.
-
 Radius
    The sharpness of the bend.
-
 Clamp
    Normally the arc turns through a clamped rotation angle with the selected elements extended along a
    tangent line beyond that (see above left).

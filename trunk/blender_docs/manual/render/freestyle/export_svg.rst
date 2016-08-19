@@ -11,7 +11,7 @@ SVG exporting for Freestyle is available through an add-on.
    :align: center
 
    An example of a .svg result produced by the Freestyle SVG Exporter.
-   Model by `Blendergoodies <http://www.blendswap.com/blends/view/76715>`__
+   Model by `Blendergoodies <http://www.blendswap.com/blends/view/76715>`__.
 
 This add-on can be enabled via :menuselection:`User Preferences --> Add-ons --> Render --> Freestyle SVG Exporter`.
 The GUI for the exporter should now be visible in the render tab of the Properties editor.
@@ -27,7 +27,7 @@ Options
 
 Mode
    Option between Frame and Animation. Frame will render a single frame,
-   Animation will bundle all rendered frames into a single .svg file.
+   Animation will bundle all rendered frames into a single ``.svg`` file.
 Split at Invisible
    By default the exporter won't take invisible vertices into account and export them like they are visible.
    Some stroke modifiers, like Blueprint, mark vertices as invisible to achieve a certain effect. Enabling this
@@ -59,7 +59,7 @@ Animations
 ==========
 
 The exporter supports the creation of SVG animations. When the Mode is set to Animation, all frames from a render -
-one when rendering a frame (f12) or all when rendering an animation (shift f12) - into a single file.
+one when rendering a frame (:kbd:`F12`) or all when rendering an animation (:kbd:`Shift-F12`) - into a single file.
 Most modern browsers support the rendering of SVG animations.
 
 .. figure:: /images/render-freestyle_svg_rotating_cube.svg

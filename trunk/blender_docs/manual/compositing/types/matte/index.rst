@@ -1,4 +1,4 @@
-.. _composite_nodes_matte-index:
+.. _composite-nodes-matte-index:
 
 ..    TODO/Review: {{review|text=needs verification that it is up to date with 2.6|
       fixes=[[User:bob_holcomb/Doc:2.6/Manual/Composite Nodes/Types/Matte|X]]}}.

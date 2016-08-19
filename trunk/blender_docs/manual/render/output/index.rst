@@ -1,4 +1,3 @@
-.. _render-output-index:
 
 ################
   Render Output

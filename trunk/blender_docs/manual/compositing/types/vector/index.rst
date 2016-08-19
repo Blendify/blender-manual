@@ -1,4 +1,4 @@
-.. _composite_nodes_vector-index:
+.. _composite-nodes-vector-index:
 
 ###############
   Vector Nodes

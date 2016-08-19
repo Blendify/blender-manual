@@ -8,7 +8,6 @@ Weight Tools
 
    Weight Paint Tools.
 
-
 Blender provides a set of helper tools for Weight Painting.
 The tools are accessible from the Tool Shelf in Weight Paint Mode.
 And they are located in the weight tools panel.
@@ -50,10 +49,8 @@ Operator Parameters
 
    Normalize All Options.
 
-
 Lock Active
    Keep the values of the active group while normalizing all the others.
-
 
 .. note::
 
@@ -103,16 +100,16 @@ All Groups
 Topology Mirror
    Mirror for meshes which are not 100% symmetric (approximate mirror).
 
-.. tip:: Mirror to opposite bone
+   .. tip:: Mirror to opposite bone
 
-   If you want to create a mirrored weight group for the opposite bone (of a symmetric character),
-   then you can do this:
-
-   - Delete the target Vertex Group (where the mirrored weights will be placed)
-   - Create a copy of the source bone Vertex Group (the group containing the weights which you want to copy)
-   - Rename the new Vertex Group to the name of the target Vertex Group (the group you deleted above)
-   - Select the Target Vertex Group and call the Mirror tool
-     (use only the Mirror weights option and optionally Topology Mirror if your mesh is not symmetric)
+      If you want to create a mirrored weight group for the opposite bone (of a symmetric character),
+      then you can do this:
+   
+      - Delete the target Vertex Group (where the mirrored weights will be placed).
+      - Create a copy of the source bone Vertex Group (the group containing the weights which you want to copy).
+      - Rename the new Vertex Group to the name of the target Vertex Group (the group you deleted above).
+      - Select the Target Vertex Group and call the Mirror tool
+        (use only the Mirror weights option and optionally Topology Mirror if your mesh is not symmetric).
 
 
 Invert
@@ -214,7 +211,6 @@ Operator Parameters
 
    Levels Options.
 
-
 Subset
    Restrict the tool to a subset. See above `The Subset Option`_ for how subsets are defined.
 Offset
@@ -240,7 +236,6 @@ This tool only works in vertex select mode.
 .. figure:: /images/modeling-meshes-wp-tools-blend1.jpg
 
    Blending.
-
 
 To understand what the tool really does, let us take a look at a simple example.
 The selected vertex is connected to four adjacent vertices
@@ -304,7 +299,6 @@ Operator Parameters
 
    Blend Options.
 
-
 Factor
    The effective amount of blending (range [0.0 - 1.0]).
    When Factor is set to 0.0 then the Blend tool does not do anything.
@@ -332,7 +326,6 @@ Prepare the Copy
      - .. figure:: /images/modeling-meshes-wp-tools-transfer-ok.jpg
 
           Blending.
-
 
 You first select all source objects, and finally the target object
 (the target object must be the active object).
@@ -392,7 +385,9 @@ Limit Total
 Reduce the number of weight groups per vertex to the specified Limit.
 The tool removes lowest weights first until the limit is reached.
 
-Hint: The tool can only work reasonably when more than one weight group is selected.
+.. hint::
+
+   The tool can only work reasonably when more than one weight group is selected.
 
 
 Operator Parameters

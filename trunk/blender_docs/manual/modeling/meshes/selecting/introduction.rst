@@ -150,7 +150,8 @@ Side of Active
 Select Faces by Sides
    Selects all faces that have a specified number of edges.
 Non Manifold :kbd:`Ctrl-Shift-Alt-M`
-   Selects :term:`non-manifold` geometry. See :doc:`Mesh Advanced Selection </modeling/meshes/selecting/advanced>`.
+   Selects :term:`non-manifold` geometry.
+   See :doc:`Mesh Advanced Selection </modeling/meshes/selecting/advanced>`.
 Loose
    Select all vertices or edges that do not form part of a face.
 Similar :kbd:`Shift-G`

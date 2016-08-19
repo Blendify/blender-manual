@@ -23,13 +23,13 @@ If you want to undo your last action, just press :kbd:`Ctrl-Z`
 Redo
 ====
 
-To roll back your Undo action, press :kbd:`Ctrl-Shift-Z`
+To roll back the Undo action, press :kbd:`Ctrl-Shift-Z`.
 
 
 Redo Last
 =========
 
-*Redo Last* is short for *Redo(ing your) Last (Action)*.
+*Redo Last* is short for *Redo(ing the) Last (Action)*.
 Hitting :kbd:`F6` after an action will present you a context-sensitive
 Pop-Up menu based on your last action taken and the Mode and Editor in which Blender is being used.
 
@@ -43,8 +43,8 @@ If you are in *Edit Mode*,
 Blender will also change its contents based on your last action taken.
 In our second example (at the right), the last action taken was a Vertex Move;
 we did a *Scale* on a Face, and, as you can see,
-the contents of the Pop-Up menu are different, because of your mode (Edit Mode).
-(See Fig. :ref:`fig-interface-redo-last` right)
+the contents of the Pop-Up menu are different, because of your mode (Edit Mode)
+(See Fig. :ref:`fig-interface-redo-last` right).
 
 .. _fig-interface-redo-last:
 
@@ -59,7 +59,8 @@ the contents of the Pop-Up menu are different, because of your mode (Edit Mode).
 .. tip:: Operations using Redo Last
 
    Some operations produce particularly useful results if you tweak their parameters with the :kbd:`F6` Menu.
-   Take, for example, adding a Circle. If you reduce the Vertex count to 3, you get a perfect equilateral triangle.
+   Take, for example, adding a Circle. If you reduce the Vertex count to three,
+   you get a perfect equilateral triangle.
 
 
 Undo History

@@ -54,13 +54,13 @@ View Manipulation
 Cursor Depth
    Use the depth under the mouse when placing the cursor.
 
-.. _prefs-auto_depth:
+.. _prefs-auto-depth:
 
 Auto Depth
    Use the depth under the mouse to improve view pan, rotate, zoom functionality.
    Useful in combination with *Zoom To Mouse Position*.
 
-.. _prefs-zoom_mouse_pos:
+.. _prefs-zoom-mouse-pos:
 
 Zoom to Mouse Position
    When enabled, the mouse pointer position becomes the focus point of zooming instead of the 2D window center.
@@ -80,7 +80,7 @@ Global Pivot
 Camera Parent Lock
    When the camera is locked to the view and in fly mode, transform the parent rather than the camera.
 
-.. _prefs-interface-auto_perspective:
+.. _prefs-interface-auto-perspective:
 
 Auto Perspective
    Automatically to perspective Top/Side/Front view after using User Orthographic.

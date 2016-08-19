@@ -1,4 +1,4 @@
-
+﻿
 ***************
 Append and Link
 ***************
@@ -93,12 +93,14 @@ Known Limitations
 
 For the most part linking data will work as expected, however, there are some corner-cases which are not supported.
 
+
 Circular Dependencies
 ---------------------
 
 In general, dependencies should not go in both directions.
 
 Attempting to link or append data which links back to the current file will likely result in missing links.
+
 
 Object Rigid-Body Constraints
 -----------------------------
@@ -107,4 +109,4 @@ When linking objects *directly* into a blend-file,
 the *Rigid Body* settings **will not** be linked in
 since they are associated with their scenes world.
 
-As an alternative, you could link in the entire scene and set it as a :ref:`scene-background_set`.
+As an alternative, you could link in the entire scene and set it as a :ref:`scene-background-set`.

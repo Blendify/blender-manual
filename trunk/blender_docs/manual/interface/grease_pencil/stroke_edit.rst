@@ -5,7 +5,7 @@ Stroke Edit
 
 These tools let you move and reshape grease pencil strokes after they have been drawn.
 
-Open the Grease Pencil tab on the Toolshelf :kbd:`T`.
+Open the Grease Pencil tab on the Toolshelf.
 Look for the tools in the Edit Strokes panel shown here:
 
 .. figure:: /images/grease_pencil_drawing_edit_strokes_panel.jpg
@@ -14,9 +14,9 @@ Look for the tools in the Edit Strokes panel shown here:
 
 The basic steps are:
 
-- enter the grease pencil edit mode
-- select some strokes
-- move and reshape them
+#. Enter the Grease Pencil Edit Mode.
+#. Select some strokes.
+#. Move and reshape them.
 
 
 Edit Mode
@@ -72,9 +72,9 @@ Edit
 *Delete* :kbd:`X`
    Choose from:
 
-   - Points - delete the selected points, leaving a gap in the stroke
-   - Dissolve - reconnect the ends so there is no gap in the stroke
-   - Strokes - delete the entire stroke containing any selected points
+   - Points - delete the selected points, leaving a gap in the stroke.
+   - Dissolve - reconnect the ends so there is no gap in the stroke.
+   - Strokes - delete the entire stroke containing any selected points.
    - Frame - delete a frame when doing :doc:`Animating Sketches </interface/grease_pencil/layers_and_animation>`.
 *Duplicate* :kbd:`Shift-D`
    Make a copy of the selected points at the same location. Use the mouse to *Translate* them into position.

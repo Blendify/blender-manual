@@ -129,7 +129,7 @@ Default
    this button instead shows an pop-up selector button that allows you to choose the name of the goal vertex group.
    If you use a vertex group the weight of a vertex defines its goal.
 
-   Often :ref:`painting_weight-index` is used to adjust the weight comfortably.
+   Often :ref:`painting-weight-index` is used to adjust the weight comfortably.
    For non-mesh objects the *Weight* parameter of their vertices/controlpoints is used instead
    (:kbd:`W` in *Edit Mode*) or use the *Transform Properties* panel.
    The weight of *Hair* particles can also be painted in :doc:`Particle Mode </physics/particles/mode>`.

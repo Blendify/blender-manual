@@ -1,4 +1,4 @@
-.. _composite_nodes_types-index:
+.. _composite-nodes-types-index:
 
 #################
   Types of Nodes

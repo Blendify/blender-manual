@@ -44,7 +44,8 @@ Finding Surface Tools
    Surface Tools.
 
 
-The panels of the *Curve and Surface* tab are the same as for :doc:`curves </modeling/curves/introduction>`,
+The panels of the *Curve and Surface* tab are the same as for
+:doc:`curves </modeling/curves/introduction>`,
 just with fewer options... And as usual, you have the *Select* and *Surface*
 menus in the 3D View headers, and the *Specials* :kbd:`W` pop-up one.
 
@@ -96,7 +97,7 @@ their layout is quite constraining. The concept of "segment" disappears,
 replaced by "rows" and the overall "grid".
 
 A "row" is a set of control points forming one "line" in one interpolation direction
-(a bit similar to :ref:`edge loops <modeling-mesh-structure-edge_loops>` for meshes).
+(a bit similar to :ref:`edge loops <modeling-mesh-structure-edge-loops>` for meshes).
 So you have "U-rows" and "V-rows" in a NURBS surface.
 The key point is that *all* rows of a given type (U or V) have the *same* number of control points.
 Each control point belongs to exactly one U-row and one V-row.
@@ -229,7 +230,7 @@ other out. It is the difference in the weights that cause the surface to move to
 from a control point.
 
 The *Weight* of any particular control point is visible in the
-:doc:`/editors/3dview/transform/transform_control/transform_properties`
+:doc:`/editors/3dview/object/properties/transforms`
 :kbd:`N`, in the *W* field (and not the *Weight* field...).
 
 

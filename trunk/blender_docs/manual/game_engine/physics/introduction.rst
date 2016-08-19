@@ -32,7 +32,7 @@ Object Physics
 
 .. figure:: /images/bge-physics-propertiestabs.jpg
 
-.. _game_engine-physics-types:
+.. _game-engine-physics-types:
 
 Physics Type
 ============
@@ -224,7 +224,7 @@ For an Add-on that can help you out in the process, check out the
 <https://wiki.blender.org/index.php/Extensions:2.6/Py/Scripts/Game_Engine/BRIK_ragdolls>`__.
 
 
-.. _game_engine-physics-bake-keyframes:
+.. _game-engine-physics-bake-keyframes:
 
 Digging Deeper
 ==============

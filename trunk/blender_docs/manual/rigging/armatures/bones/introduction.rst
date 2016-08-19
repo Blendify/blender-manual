@@ -14,7 +14,7 @@ Bones are the base elements of armatures.
 
 They have three elements:
 
-- the "start point" named *root* or *head*,
+- The "start point" named *root* or *head*,
 - the "body" itself,
 - and the "end point" named *tip* or *tail*.
 
@@ -117,7 +117,7 @@ you cannot see these segments in *Object Mode*, because they're aligned.
      - ..
 
 
-When you connect bones to form a :ref:`chain <armature-bone_chain>`,
+When you connect bones to form a :ref:`chain <armature-bone-chain>`,
 Blender calculates a Bézier curve passing through all the bones' ends,
 and bones' segments in the chain will bend and roll to follow this invisible curve.
 
@@ -173,7 +173,7 @@ If a bone is visualized as *Envelope*,
 in *Edit Mode* and in *Pose Mode* you can see the area of influence,
 which depends on:
 
-- the *distance* property
+- The *distance* property and
 - the root's radius and the tip's radius.
 
 .. figure:: /images/riggingenvelopeex3dviewposemode.jpg

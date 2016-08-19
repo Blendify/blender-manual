@@ -84,4 +84,3 @@ the yellow specular color mix in becomes visible.
 
    To see specularity, the specular toggle has to be enabled,
    which is located just below the material color swatch in the node.
-

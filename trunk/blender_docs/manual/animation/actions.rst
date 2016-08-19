@@ -183,7 +183,7 @@ Editing
    Delete Keyframes on current frame :kbd:`Alt-I`
 
 
-.. _animation-basics-actions-working_with_actions:
+.. _animation-basics-actions-working-with-actions:
 
 Working with Actions
 ====================

@@ -1,4 +1,4 @@
-.. _painting_weight-index:
+.. _painting-weight-index:
 
 ###############
   Weight Paint

@@ -104,7 +104,7 @@ because it doesn't rely on hardware multi-sample support.
 
 .. hint::
 
-   Exact extensions needed, as listed in output from :ref:`help-system_info` (OpenGL section).
+   Exact extensions needed, as listed in output from :ref:`help-system-info` (OpenGL section).
 
    - ``GL_ARB_texture_multisample``
    - ``GL_EXT_framebuffer_blit``

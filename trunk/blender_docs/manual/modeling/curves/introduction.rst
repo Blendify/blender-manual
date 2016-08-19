@@ -62,7 +62,7 @@ Path
    with *Endpoint* knots and the *CurvePath* setting enabled.
 
 
-.. _curves_bezier:
+.. _curves-bezier:
 
 Bézier Curves
 =============
@@ -108,7 +108,7 @@ scaled and shrunk/fattened like any vertex in a mesh.
 Bézier Curve Handle Types
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. _curve-handle_type-auto:
+.. _curve-handle-type-auto:
 
 Automatic :kbd:`V-A`
    This handle has a completely automatic length and direction which is set by Blender to

@@ -59,7 +59,7 @@ The interface can be customized to match specific tasks using Screen Layouts,
 which can then be named and saved for later use.
 
 Blender also makes heavy use of keyboard shortcuts to speed up work.
-These can also be customized in the :ref:`Keymap Editor <prefs-input-keymap_editor>`.
+These can also be customized in the :ref:`Keymap Editor <prefs-input-keymap-editor>`.
 
 
 Screen Elements

@@ -37,7 +37,6 @@ Options
 
    Inset Operator Settings.
 
-
 Boundary
    Determines whether open edges will be inset or not.
 Offset Even

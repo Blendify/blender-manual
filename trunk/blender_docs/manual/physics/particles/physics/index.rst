@@ -1,4 +1,4 @@
-.. _particle_physics-index:
+.. _particle-physics-index:
 
 ###################
   Particle Physics

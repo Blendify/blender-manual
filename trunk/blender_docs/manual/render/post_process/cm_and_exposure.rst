@@ -111,7 +111,7 @@ Look
    roughly emulates the look of certain film types. Applied before color space conversion.
 Use Curves
    Adjust RGB Curves to control image colors before color space conversion.
-   Read more about using the :ref:`ui-curve_widget`.
+   Read more about using the :ref:`ui-curve-widget`.
 
 
 Sequencer

@@ -1,4 +1,4 @@
-
+﻿
 *****************
 Custom Properties
 *****************
@@ -9,7 +9,7 @@ and Python scripts, where its common to define new settings not available in Ble
 
 Only certain data supports custom properties.
 
-- All :ref:`data-blocks types <data_system-datablock_types>`.
+- All :ref:`data-blocks types <data-system-datablock-types>`.
 - Bones and Pose-Bones.
 - Sequence strips.
 
@@ -50,7 +50,6 @@ Use Soft Limits
       The minimum value for the soft limit.
    Soft Max
       The maximum value for the soft limit.
-
 Tooltip
    Allows you to write a custom :doc:`Tooltip </getting_started/help>` for your property.
 

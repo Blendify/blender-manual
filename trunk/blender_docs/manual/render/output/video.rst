@@ -46,8 +46,8 @@ First, the Gamma correction (*g* varies: 2.2 for NTSC, 2.8 for PAL):
 Then, the conversion itself:
 
 - Y = 0.299R' + 0.587G' + 0.114B'
-- Cr = *a*\ :sub:`1`\ (R' - Y) + *b*\ :sub:`1`\ (B' - Y)
-- Cb = *a*\ :sub:`2`\ (R' - Y) + *b*\ :sub:`2`\ (B' - Y)
+- Cr = *a*\ :sub:`1` (R' - Y) + *b*\ :sub:`1` (B' - Y)
+- Cb = *a*\ :sub:`2` (R' - Y) + *b*\ :sub:`2` (B' - Y)
 
 Whereas a standard 24 bit RGB picture has 8 bits for each channel, to keep bandwidth down,
 and considering that the human eye is more sensitive to luminance than to chrominance,
@@ -93,24 +93,20 @@ Format
       For a list of all available options see :doc:`video formats </data_system/files/media/video_formats>`.
    Lossless Output
       Allows the ability to perfectly reconstruct compressed data from compressed data.
-
 Bitrate
    Set the average `bitrate <https://en.wikipedia.org/wiki/Bit_rate>`__ (quality),
    which is the count of binary digits per frame.
-   See also: `FFmpeg -b:v <https://ffmpeg.org/ffmpeg.html#Description>`__
-
+   See also: `FFmpeg -b:v <https://ffmpeg.org/ffmpeg.html#Description>`__.
 GOP Size
    The number of pictures per `Group of Pictures <https://en.wikipedia.org/wiki/Group_of_pictures>`__.
    Set to 0 for "intra_only", which disables `inter-frame <https://en.wikipedia.org/wiki/Inter-frame>`__ video.
    From FFmpeg docs: "For streaming at very low bitrate application, use a low frame rate and a small GOP size.
    This is especially true for RealVideo where the Linux player does not seem to be very fast,
-   so it can miss frames"
-
+   so it can miss frames".
 Autosplit Output
    If your video is HUGE and exceeds 2Gig, enable Autosplit Output.
    The main control over output filesize is the GOP or keyframe interlace.
    A higher number generally leads to a smaller file but needs a higher-powered device to replay it.
-
 Mux
    `Multiplexing <http://www.afterdawn.com/glossary/term.cfm/multiplexing>`__ settings.
 
@@ -119,9 +115,9 @@ Mux
    Packet Size
       Reduces data fragmentation or muxer overhead depending on the source.
 
-.. note:: Standards
+   .. note:: Standards
 
-   Codecs cannot encode off-the-wall video sizes, so stick to the XY sizes used in the presets for standard TV sizes.
+      Codecs cannot encode off-the-wall video sizes, so stick to the XY sizes used in the presets for standard TV sizes.
 
 Rate
    The bitrate control also includes a *Minimum* and a *Maximum*.

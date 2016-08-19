@@ -20,7 +20,6 @@ The Decimate modifier allows you to reduce the vertex/face count of a mesh with 
 
 Ratio
    Ratio of triangles to reduce to.
-
 Vetex Group
    Use the active vertex group as an influence.
 
@@ -28,7 +27,6 @@ Vetex Group
       Strength of the vertex group.
    Invert
       Inverts the vertex group.
-
 Symmetry
    Maintain symmetry on either the *X*, *Y*, or *Z* axis.
 

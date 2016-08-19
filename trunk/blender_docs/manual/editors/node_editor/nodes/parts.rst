@@ -59,15 +59,19 @@ has a default value which can be edited via a color, numeric, or vector interfac
 In the screen shot of the node above, the second color option is set by a color interface input.
 
 
-Outputs
--------
+Properties
+==========
 
-The *Outputs* are located on the top right side of the node,
-and can be connected to the input of nodes further down the node tree.
+Many nodes have settings which can affect the way they interact with inputs and outputs.
+Node settings are located below the outputs and above any inputs.
+
+.. figure:: /images/editors_node_controls.png
+
+   An example of the controls on the chroma key node.
 
 
 Preview
-=======
+-------
 
 On some nodes this shows a preview image of how the output data for a certain channel will appear.
 Usually it shows color data.
@@ -79,12 +83,9 @@ The preview can be toggled using the icon on the very top right hand corner of t
    How a node appears without the preview.
 
 
-Settings
-========
+Outputs
+-------
 
-Many nodes have settings which can affect the way they interact with inputs and outputs.
-Node settings are located below the outputs and above any inputs.
+The *Outputs* are located on the top right side of the node,
+and can be connected to the input of nodes further down the node tree.
 
-.. figure:: /images/editors_node_controls.png
-
-   An example of the controls on the chroma key node.

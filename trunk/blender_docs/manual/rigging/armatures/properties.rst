@@ -65,7 +65,7 @@ For bones belonging to multiple for easy selection during animation see instead
 
    This mode is only available in Pose Mode.
 
-.. Tip ::
+.. tip::
 
    Use the mouse scroll wheel over the color templates to quickly skim through the available colors.
 

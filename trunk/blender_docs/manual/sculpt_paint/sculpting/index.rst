@@ -1,4 +1,4 @@
-.. _painting_sculping-index:
+.. _painting-sculping-index:
 
 ############
   Sculpting

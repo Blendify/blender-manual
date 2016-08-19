@@ -40,7 +40,7 @@ Options
 
    Ramps Panel.
 
-For the first part of the color ramp option see :ref:`ui-color_ramp_widget`.
+For the first part of the color ramp option see :ref:`ui-color-ramp-widget`.
 
 Input
    The input menu contains the following options for defining the gradient:
@@ -58,10 +58,8 @@ Input
       While all three previous options work per lamp, this option only works after shading calculations.
       This allows full control over the entire shading, including 'Toon' style results.
       Using alpha values here is most useful for tweaking a finishing touch to a material.
-
 Blend
    A list of the various :term:`Color Blend Modes` are
    available for blending the ramp shader with the color from *Input*.
-
 Factor
    This slider denotes the overall factor of the ramp shader with the color from *Input*.

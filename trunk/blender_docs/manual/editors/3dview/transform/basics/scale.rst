@@ -94,11 +94,11 @@ in Blender Units (BU) to specify the amount of scaling after after initiating a 
 
 .. seealso::
 
-   - :doc:`Read more about Precision Control
+   - :doc:`Read more about Precision Control 
      </editors/3dview/transform/transform_control/precision/introduction>`
-   - :doc:`Read more about Numerical Transformations
+   - :doc:`Read more about Numerical Transformations 
      </editors/3dview/transform/transform_control/precision/numeric_input>`
-   - :doc:`Read more about Transform Orientations
+   - :doc:`Read more about Transform Orientations 
      </editors/3dview/transform/transform_control/transform_orientations>`
 
 
@@ -123,6 +123,6 @@ and blue triad is selected). Set the manipulator type to scale
   your object along that axis.
   You can also use :kbd:`Shift`, :kbd:`Ctrl` or numeric input with the 3D manipulator widget for further control.
 - Your changes will be applied when you release :kbd:`LMB` or press :kbd:`Spacebar` or
-  :kbd:`Return`. Your changes will be cancelled if you press :kbd:`RMB` or :kbd:`Esc`.
+  :kbd:`Return`. Your changes will be canceled if you press :kbd:`RMB` or :kbd:`Esc`.
 
 :doc:`Read more about the 3D Transform Manipulator </editors/3dview/transform/transform_control/manipulators>`

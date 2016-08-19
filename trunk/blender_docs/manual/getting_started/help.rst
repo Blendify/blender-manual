@@ -93,7 +93,7 @@ Scripting Reference
   You can also use Blender Search to generate the file. The lists the available Python operators.
 
 
-.. _help-system_info:
+.. _help-system-info:
 
 Save System Info
 ----------------

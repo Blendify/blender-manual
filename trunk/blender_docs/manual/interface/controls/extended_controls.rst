@@ -48,7 +48,8 @@ Color Picker Types
 The default color picker type can be selected in the user preferences,
 see: :doc:`System </preferences/system>`.
 
-For operations that are capable of using Alpha, another slider is added at the bottom of the color picker.
+For operations that are capable of using Alpha, 
+another slider is added at the bottom of the color picker.
 
 .. hlist::
    :columns: 3
@@ -94,7 +95,7 @@ and useful to quickly copy/paste colors between applications.
 Shorthand hex colors are also supported RGB,
 so dark-yellow FFCC00, can be written as FC0.
 
-.. _ui-eye_dropper:
+.. _ui-eye-dropper:
 
 Eyedropper
 ==========
@@ -117,7 +118,7 @@ Camera Depth
 - :kbd:`Spacebar` resets and starts mixing the colors again.
 
 
-.. _ui-color_ramp_widget:
+.. _ui-color-ramp-widget:
 
 Color Ramp Widget
 =================
@@ -183,7 +184,7 @@ Shortcuts
 - :kbd:`Ctrl-LMB` (click) adds a new control point.
 
 
-.. _ui-curve_widget:
+.. _ui-curve-widget:
 
 Curve Widget
 ============
@@ -294,11 +295,9 @@ there are controls for filtering and sorting and resizing.
 Rename
    By pressing :kbd:`Ctrl-LMB` over an item's name, you can edit the text field.
    This can also be achieved by double clicking.
-
 Resize
    The list view can be resized to show more or fewer items.
    Hover the mouse over the handle then click and drag the handle to expand or shrink the list.
-
 Filter
    Click the *Show filtering options* button to toggle filter option buttons.
 
@@ -314,6 +313,5 @@ Sort
 
    Alphabetical
       This button switches between alphabetical and non-alphabetical ordering.
-
    Inverse
       Sort objects in ascending or descending order. This also applies to alphabetical sorting, if selected.

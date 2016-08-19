@@ -10,7 +10,7 @@ Translation, Rotation, Scale
    | Mode:     Edit Mode
    | Panel:    Mesh Tools
    | Menu:     :menuselection:`Mesh --> Transform --> Grab/Move, Rotate, Scale, ...`
-   | Hotkey:   :kbd:`G` / :kbd:`R` / :kbd:`S`
+   | Hotkey:   :kbd:`G`, :kbd:`R`, :kbd:`S`
 
 
 Once you have a selection of one or more elements, you can grab/move :kbd:`G`,

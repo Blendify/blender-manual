@@ -65,7 +65,7 @@ Appearance Settings
 ===================
 
 Set the color, line width and other aspects of the grease pencil's appearance in the
-*Grease Pencil Panel* of the *Properties* shelf :kbd:`N` shown here.
+*Grease Pencil Panel* of the *Properties region* shown here.
 
 .. figure:: /images/grease_pencil_drawing_properties.jpg
 

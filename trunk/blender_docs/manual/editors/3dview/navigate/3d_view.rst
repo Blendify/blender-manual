@@ -132,8 +132,8 @@ to rotate the scene around the Z global axis from your current point of view.
 
 .. seealso::
 
-   - :ref:`Orbit Style Preference <prefs-input-orbit_style>`
-   - :ref:`Auto-Perspective Preference <prefs-interface-auto_perspective>`
+   - :ref:`Orbit Style Preference <prefs-input-orbit-style>`
+   - :ref:`Auto-Perspective Preference <prefs-interface-auto-perspective>`
 
 
 Panning the View
@@ -183,7 +183,7 @@ hold :kbd:`Ctrl-MMB` and move your mouse up and down.
    :menuselection:`View --> View Selected`.
 
 
-.. _3dview-nav-zoom_border:
+.. _3dview-nav-zoom-border:
 
 Zoom Border
 -----------
@@ -205,7 +205,7 @@ then :kbd:`LMB` click and drag a rectangle to zoom into.
 Alternatively you can zoom out using the :kbd:`MMB`.
 
 
-.. _3dview-nav-zoom_dolly:
+.. _3dview-nav-zoom-dolly:
 
 Dolly the View
 ==============
@@ -256,13 +256,13 @@ They are found in the *View Menu*
 View Selected
    See above.
 
-.. _3dview-view_all:
+.. _3dview-view-all:
 
 View All :kbd:`Home`
    Frames all the objects in the scene, so they are visible in the viewport.
 
 
-.. _3dview-local_view:
+.. _3dview-local-view:
 
 Local View
 ==========
@@ -343,7 +343,7 @@ Clip
    Clip objects based on what's visible in other side views.
 
 
-.. _3dview-clip_border:
+.. _3dview-clip-border:
 
 View Clipping Border
 ====================
@@ -395,7 +395,7 @@ Once clipping is deactivated with another :kbd:`Alt-B`,
 all of 3D space will become visible again.
 
 
-.. _3dview-walk_fly:
+.. _3dview-walk-fly:
 
 Walk/Fly Mode
 =============

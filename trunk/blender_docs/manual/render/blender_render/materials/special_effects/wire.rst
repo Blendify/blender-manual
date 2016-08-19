@@ -19,5 +19,3 @@ provided by the Surface rendered image.
    :width: 320px
 
    Wire Render.
-
-

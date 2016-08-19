@@ -153,7 +153,8 @@ Animation
    blender -b file.blend -E BLENDER_RENDER -s 10 -e 500 -t 2 -a
 
 ``-E BLENDER_RENDER``
-   Use the "Blender Render" engine. For a list of available renderers, run ``blender -E help``.
+   Use the "Blender Render" engine. 
+   For a list of available render engines, run ``blender -E help``.
 ``-s 10 -e 500``
    Set the start frame to ``10`` and the end frame to ``500``.
 ``-t 2``

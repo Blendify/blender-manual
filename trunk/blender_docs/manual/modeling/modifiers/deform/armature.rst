@@ -37,7 +37,7 @@ Vertex Group
       Inverts the influence set by the vertex group defined in previous setting
       (i.e. reverses the weight values of this group).
 
-.. _modifier-armature-multi_modifier:
+.. _modifier-armature-multi-modifier:
 
 Multi Modifier
    Use the same data as a previous modifier (usually also an *Armature* modifier) as input.

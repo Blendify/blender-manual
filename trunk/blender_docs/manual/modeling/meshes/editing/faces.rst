@@ -100,7 +100,7 @@ It rearrange selected triangles to obtain more "balanced" ones (i.e. less long t
           Result of Beauty Fill, :kbd:`Alt-Shift-F`.
 
 
-.. _modeling-meshes-editing-grid_fill:
+.. _modeling-meshes-editing-grid-fill:
 
 Grid Fill
 ---------
@@ -270,9 +270,9 @@ It works on the shared edge between two faces and rotates that edge if the edge 
 
           Full Render.
 
-See :ref:`Rotate Edge <modeling-meshes-editing-edges_rotate>` for more information.
+See :ref:`Rotate Edge <modeling-meshes-editing-edges-rotate>` for more information.
 
 Normals
 -------
 
-See :ref:`Editing Normals <modeling-meshes-editing-normals_editing>` for more information.
+See :ref:`Editing Normals <modeling-meshes-editing-normals-editing>` for more information.

@@ -26,7 +26,7 @@ and the lower text box contains the selected filename.
    When existing you are **not** asked to save unsaved changes to the scene you were previously working on.
    So take care to save your work.
 
-   On MS-Windows, there is a :ref:`prefs-save_load` option to warn on exit.
+   On MS-Windows, there is a :ref:`prefs-save-load` option to warn on exit.
 
 
 Options
@@ -62,4 +62,4 @@ Recover Auto Save
 
 .. seealso::
 
-   :ref:`Auto Saves <troubleshooting-file_recovery>`
+   :ref:`Auto Saves <troubleshooting-file-recovery>`

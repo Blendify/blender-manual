@@ -113,19 +113,14 @@ By default, all relative shape keys deform from the first shape key called the B
 
 Clear Weights
    Set all values to 0.
-
 Name
    Name of the active shape key.
-
 Value
    The value of the active shape key.
-
 Range
    Min and Max range of the active shape key value.
-
 Vertex Group
    Limit the active shape key deformation to a vertex group.
-
 Relative
    Select the shape key to deform from.
 
@@ -153,10 +148,8 @@ Reset Timing
       Basis 10.0
       Key_1 20.0
       Key_2 30.0
-
 Name
    Name of the active shape key.
-
 Interpolation
    This controls the interpolation between shape keys.
 

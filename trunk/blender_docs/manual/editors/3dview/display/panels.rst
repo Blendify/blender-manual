@@ -65,12 +65,12 @@ Lock to Object
 Lock to Cursor
    Lock the center of the view to the position of the 3D cursor
 
-.. _3dview-lock_camera_to_view:
+.. _3dview-lock-camera-to-view:
 
 Lock Camera to View
    When in camera view, use this option to move the camera in 3D space, while continuing to remain in camera view.
 
-.. _3dview-view_clip:
+.. _3dview-view-clip:
 
 Clip Start and Clip End
    Adjust the minimum and maximum distances to be visible for the view-port.

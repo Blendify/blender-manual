@@ -107,7 +107,7 @@ By default, it behaves exactly like the standard extrusion.
 But once you have enabled the X-Axis mirror editing option
 (see `X-Axis Mirror Editing`_),
 each extruded tip will produce *two new bones*, having the same name except for the "_L"/ "_R" suffix
-(for left/right, see the :ref:`next page <armature-editing-naming_conventions>`).
+(for left/right, see the :ref:`next page <armature-editing-naming-conventions>`).
 The "_L" bone behaves like the single one produced by the default extrusion -
 you can grab/rotate/scale it exactly the same way.
 The "_R" bone is its mirror counterpart (along the armature's local X axis), see Fig. :ref:`fig-rig-bone-mirror`.
@@ -536,7 +536,7 @@ it's an easy way to spare you half of the editing work!
 
 .. seealso::
 
-   :ref:`naming bones <armature-editing-naming_bones>`.
+   :ref:`naming bones <armature-editing-naming-bones>`.
 
 
 Separating Bones in a new Armature

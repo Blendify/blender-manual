@@ -121,7 +121,7 @@ Caustics and Filter Glossy
 Caustics are a well-known source of noise, causing fireflies.
 They happen because the renderer has difficulty finding specular highlights
 viewed through a soft glossy or diffuse reflection.
-There is a :ref:`No Caustics <render-cycles-integrator-no_caustics>`
+There is a :ref:`No Caustics <render-cycles-integrator-no-caustics>`
 option to disable glossy behind a diffuse reflection entirely.
 Many render engines will typically disable caustics by default.
 
@@ -139,7 +139,7 @@ Many render engines will typically disable caustics by default.
 
 However, using No Caustics will result in missing light,
 and it still does not cover the case where a sharp glossy reflection is viewed through a soft glossy reflection.
-There is a :ref:`Filter Glossy <render-cycles-integrator-filter_glossy>`
+There is a :ref:`Filter Glossy <render-cycles-integrator-filter-glossy>`
 option to reduce the noise from such cases at the cost of accuracy.
 This will blur the sharp glossy reflection to make it easier to find, by increasing the shader Roughness.
 
@@ -174,7 +174,7 @@ Sample as Lamp
 ==============
 
 Materials with emission shaders can be configured to be *sampled as lamp*
-(:ref:`render-cycles-integrator-material_settings`).
+(:ref:`render-cycles-integrator-material-settings`).
 This means that they will get rays sent directly towards them,
 rather than ending up there based on rays randomly bouncing around.
 For very bright mesh light sources, this can reduce noise significantly.
@@ -196,13 +196,13 @@ and the image renders with slightly less noise by disabling Sample as Lamp on th
           :width: 180px
 
 
-The world background also has a *Sample as Lamp* (:ref:`render-cycles-integrator-world_settings`) option.
+The world background also has a *Sample as Lamp* (:ref:`render-cycles-integrator-world-settings`) option.
 This is mostly useful for environment maps that have small bright spots in them, rather than being smooth.
 This option will then, in a preprocess, determine the bright spots, and send light rays directly towards them. Again,
 enabling this option may take samples away from more important light sources if it is not needed.
 
 
-.. _render-cycles-reducing_noise-glass_and_transp_shadows:
+.. _render-cycles-reducing-noise-glass-and-transp-shadows:
 
 Glass and Transparent Shadows
 =============================
@@ -260,14 +260,14 @@ with the second render using a mesh light positioned in the window.
 In newer versions, :doc:`light portals </render/cycles/world>` provide a better solution.
 
 
-.. _render-cycles-reducing_noise-clamp_samples:
+.. _render-cycles-reducing-noise-clamp-samples:
 
 Clamp Fireflies
 ===============
 
 Ideally with all the previous tricks, fireflies would be eliminated, but they could still happen. For that,
 the *intensity* that any individual light ray sample will contribute to a pixel can be *clamped*
-to a maximum value with the integrator :ref:`Clamp setting <render-cycles-integrator-clamp_samples>`.
+to a maximum value with the integrator :ref:`Clamp setting <render-cycles-integrator-clamp-samples>`.
 
 If set too low this can cause missing highlights in the image,
 which might be useful to preserve for camera effects such as bloom or glare.

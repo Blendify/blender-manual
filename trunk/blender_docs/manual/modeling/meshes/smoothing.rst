@@ -9,7 +9,7 @@ Mesh Shading
 .. list-table::
    Example mesh rendered flat, smoothed using edge split, and using Subdivision Surface.
    Note how edges are rendered differently.
-   `Sample blend-file <https://wiki.blender.org/index.php/:File:25-manual-meshsmooth-example.blend>`__
+   `Sample blend-file <https://wiki.blender.org/index.php/:File:25-manual-meshsmooth-example.blend>`__.
 
    * - .. figure:: /images/meshsmooth-example-2rrflat.jpg
           :width: 200px
@@ -82,7 +82,7 @@ only the selected edges will receive the "smoothing" attribute. You can set edge
 in the same way by selecting edges and clicking the *Flat* button.
 
 
-.. _auto_smooth:
+.. _auto-smooth:
 
 Auto Smooth
 ===========
