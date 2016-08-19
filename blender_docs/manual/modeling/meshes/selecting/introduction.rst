@@ -1,4 +1,4 @@
-..    TODO/Review: {{review|}} .
+..    TODO/Review: {{review|}}.
 
 ************
 Introduction

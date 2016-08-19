@@ -1,5 +1,4 @@
-
-..    TODO/Review: {{review|partial=X|text=sections}} .
+..    TODO/Review: {{review|partial=X|text=sections}}.
 
 **************
 Sensor Physics
@@ -73,4 +72,3 @@ Collision Bounds
 ================
 
 See :ref:`Here <game-engine-physics-types>`.
-

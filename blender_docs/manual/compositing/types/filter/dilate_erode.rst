@@ -1,5 +1,4 @@
-
-..    TODO/Review: {{review|copy=X}} .
+..    TODO/Review: {{review|copy=X}}.
 
 *****************
 Dilate/Erode Node

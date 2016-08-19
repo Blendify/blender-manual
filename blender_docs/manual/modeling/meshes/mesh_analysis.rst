@@ -1,4 +1,4 @@
-..    TODO/Review: {{review|split=X|text=splitted mesh - mesh analysis}} .
+..    TODO/Review: {{review|split=X|text=splitted mesh - mesh analysis}}.
 
 *************
 Mesh Analysis

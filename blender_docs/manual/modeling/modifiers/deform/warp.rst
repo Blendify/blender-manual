@@ -1,6 +1,4 @@
-
-..    TODO/Review: {{Review|im= Requires image to show function.}} .
-
+..    TODO/Review: {{Review|im= Requires image to show function.}}.
 
 *************
 Warp Modifier
@@ -57,5 +55,3 @@ Texture Coordinates
       Specify an object to use when set to Object.
    UV Layer
       Specify a UV layer when set to UV.
-
-
