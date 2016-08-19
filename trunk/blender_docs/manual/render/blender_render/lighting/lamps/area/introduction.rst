@@ -1,4 +1,4 @@
-..    TODO/Review: {{review|im=examples}} .
+..    TODO/Review: {{review|im=examples}}.
 
 ************
 Introduction
@@ -83,7 +83,6 @@ Square / Rectangular
 Size / Size X / Size Y
    Dimensions for the *Square* or *Rectangle*
 
-
 .. note:: Shape Tips
 
    Choosing the appropriate shape for your *Area* light will enhance the believability of your scene.
@@ -91,4 +90,3 @@ Size / Size X / Size Y
    You could place a *Rectangular* area lamp in a window (vertical) or from neons (horizontal)
    with proper ratios for *Size X* and *Size Y*. For the simulation of the light emitted by a
    TV screen a vertical *Square* area lamp would be better in most cases.
-

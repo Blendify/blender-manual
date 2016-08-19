@@ -10,10 +10,9 @@ rather they must always be assigned by adding an image texture node to a materia
 
 
 3D View Draw Types
-======================
+==================
 
 The Texture draw types used for Blender Internal have been replaced by three others in Cycles:
-
 
 Texture
    This draw mode is used for editing, painting and mapping individual textures.
@@ -29,7 +28,8 @@ Rendered
    Unlike offline rendering, objects still use the viewport rather than render resolution and visibility.
 
 .. figure:: /images/cycles_texture_draw_modes.jpg
-   :width: 600px
+
+   Material draw modes.
 
 
 Texture Properties

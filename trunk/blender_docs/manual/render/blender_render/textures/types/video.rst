@@ -3,8 +3,8 @@
 Video Textures
 **************
 
-*Video textures* are a some kind of :doc:`Image </render/blender_render/textures/types/image>` textures and based on
-movie file or sequence of successive numbered separate images.
+*Video textures* are a some kind of :doc:`Image </render/blender_render/textures/types/image>`
+textures and based on movie file or sequence of successive numbered separate images.
 They are added in the same way that image textures are.
 
 .. figure:: /images/texture-video-example.jpg
@@ -67,10 +67,10 @@ Auto Refresh
 Cyclic
    When the video ends, it will loop around the to the start and begin playing again.
 
-For *Movie* source:
+.. rubric:: Movie source:
 
 Use Alpha
-   Use the alpha channel information from the image or make image fully opaque
+   Use the alpha channel information from the image or make image fully opaque.
 
    Straight
       Transparent RGB and alpha pixels are unmodified.
@@ -81,4 +81,3 @@ Use Alpha
 
    For sampling and mapping documentation see
    :doc:`Image Texture </render/blender_render/textures/types/image>`
-

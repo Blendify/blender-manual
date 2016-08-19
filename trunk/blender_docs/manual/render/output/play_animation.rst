@@ -3,8 +3,8 @@
 Animation Player
 ****************
 
-
-The :menuselection:`Render --> Play Rendered Animation` menu in the Info Editor will play back the rendered animation in a new window.
+The :menuselection:`Info Editor --> Render --> Play Rendered Animation`
+menu will play back the rendered animation in a new window.
 
 You can also drop images or movie files in a running animation player.
 It will then restart the player with the new data.
@@ -83,4 +83,5 @@ The following table shows the available hotkeys for the animation player.
    * - :kbd:`Plus`
      - Speed up playback.
 
-A external player can be used instead by selecting it in the :doc:`User Preferences </preferences/file>`.
+A external player can also be used instead of the one included in Blender.
+To do this, select it in the :doc:`User Preferences </preferences/file>`.

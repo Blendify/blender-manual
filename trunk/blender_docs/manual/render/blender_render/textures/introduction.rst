@@ -72,7 +72,6 @@ You can use "a stack of texture layers" as described in :doc:`this section </ren
 or you can also use arbitrarily-complex networks of "texture nodes"
 as discussed :doc:`here </render/blender_render/textures/nodes/introduction>`; the choice is yours.
 
-
 Materials Textures fall into three primary categories:
 
 Procedural Textures

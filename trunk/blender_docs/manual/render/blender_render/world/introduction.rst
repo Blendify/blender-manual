@@ -1,7 +1,5 @@
-
 ..    TODO/Review: {{review|partial=X|text=
-      missing some words on options that are explain in lighting and no explanation about Gather}} .
-
+      missing some words on options that are explain in lighting and no explanation about Gather}}.
 
 ************
 Introduction
@@ -31,13 +29,12 @@ for the additional control and options they offer.
 For example, filtering the Z value (distance from camera) or normals (direction of surfaces)
 through compositing nodes can further increase the depth and spacial clarity of a scene.
 
-
 .. note::
 
    Some of the settings under the World panel in Blender affect lighting so you find them under the
    :doc:`Lighting </render/blender_render/lighting/index>` chapter
-   (see :doc:`Ambient Light </render/blender_render/lighting/ambient_light>`,
-   :doc:`Exposure </render/blender_render/lighting/exposure>` and
-   :doc:`Ambient Occlusion </render/blender_render/lighting/ambient_occlusion>`).
+   (see :doc:`Ambient Light </render/blender_render/world/ambient_light>`,
+   :doc:`Exposure </render/blender_render/world/exposure>` and
+   :doc:`Ambient Occlusion </render/blender_render/world/ambient_occlusion>`).
    When using a *Sun Lamp* options for *Sky & Atmosphere*
    are available in the *Lamp* menu.

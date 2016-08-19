@@ -26,5 +26,3 @@ Diffuse
 Specular
    Prevents the lamp from producing
    :doc:`specular highlights </render/blender_render/materials/properties/specular_shaders>`.
-
-

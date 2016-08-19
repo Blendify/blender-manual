@@ -1,6 +1,4 @@
-
-..    TODO/Review: {{review|text=area filter|im=update screenshot?}} .
-
+..    TODO/Review: {{review|text=area filter|im=update screenshot?}}.
 
 ****************
 Environment Maps
@@ -22,7 +20,7 @@ So why should one use Environment Maps?
 - :doc:`Halos </render/blender_render/materials/special_effects/halo>`
   (a visualization type for particles) are not visible to raytraced reflections,
   so you need to setup environment maps to reflect them.
-- :doc:`Keypoint strands </physics/particles/visualization>`
+- :doc:`Keypoint strands </physics/particles/properties/visualization>`
   (another visualization type for particles) are also not visible to raytraced reflections,
   so you need to setup environment maps to reflect them.
 
@@ -33,7 +31,6 @@ Blender's environment mapping renders a
 cubic image map of the scene in the six cardinal directions from any point. When the six tiles
 of the image are mapped onto an object using the *Refl* input coordinates,
 they create the visual complexity that the eye expects to see from shiny reflections.
-
 
 .. note::
 
@@ -90,10 +87,10 @@ Clear All Environment Maps
    Does the same as *Free Data*, but with all environment maps in the scene.
    This is a useful shortcut when using recursive environment maps (when the *Depth* is greater than 0).
 
-
 .. note::
 
-   EnvMap calculation can be disabled at a global level by the EnvMap Tog Button in the Render
+   Environment Map calculation can be disabled at a global level
+   by the *Environment Map* Tog Button in the Render
    Panel of the Rendering Buttons.
 
 
@@ -123,7 +120,6 @@ Ignore Layers
    You will need to move the sphere to a separate layer, then exclude that layer from the environment map render,
    so that the environment map will show (and hence reflect) all the objects outside the sphere.
 
-
 Resolution
    The resolution of the cubic environment map render. Higher resolutions will give a sharper texture (reflection),
    but will be slower to render.
@@ -134,7 +130,6 @@ Depth
    as they won't render each other's reflections. In order to show reflections within reflections,
    the environment maps need to be made multiple times, recursively,
    so that the effects of one environment map can be seen in another environment map. See Examples.
-
 
 Clipping Start/End
    The clipping boundaries of the virtual camera when rendering the environment map.
@@ -189,12 +184,10 @@ onto which it is being mapped.
 .. list-table::
 
    * - .. figure:: /images/envmap01.jpg
-          :width: 320px
 
           Planar reflection example. 1: Camera, 2: Empty, 3: Reflecting Plane.
 
      - .. figure:: /images/envmap04.jpg
-          :width: 200px
 
           Sphere on a reflecting surface.
 
@@ -208,15 +201,12 @@ in order to get reflections of reflections.
 .. list-table::
 
    * - .. figure:: /images/envmap05.jpg
-          :width: 200px
 
           Reflecting sphere on a reflecting surface.
 
      - .. figure:: /images/envmap06.jpg
-          :width: 200px
 
-          Reflecting sphere on a reflecting surface with multiple
-          reflections.
+          Reflecting sphere on a reflecting surface with multiple reflections.
 
 
 Limitations
@@ -232,5 +222,3 @@ the surrounding objects look artificially far away.
 .. figure:: /images/envmap-offset.jpg
 
    Inaccurate spherical reflection, the colored objects are artificially offset.
-
-

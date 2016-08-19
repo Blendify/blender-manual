@@ -22,7 +22,7 @@ Surface and Wire materials
 
 
 Diffuse
-^^^^^^^
+-------
 
 Intensity
    Amount texture affects affects diffuse reflectivity
@@ -36,7 +36,7 @@ Translucency
 
 
 Specular
-^^^^^^^^
+--------
 
 Intensity
    Amount texture affect specular reflectivity
@@ -48,7 +48,7 @@ Hardness
 
 
 Shading
-^^^^^^^
+-------
 
 Ambient
    Influences the amount of Ambient light the material receives.
@@ -61,7 +61,7 @@ Ray Mirror
 
 
 Geometry
-^^^^^^^^
+--------
 
 Normal
    Commonly called bump mapping, this alters the direction of the surface normal.
@@ -161,4 +161,3 @@ Hardness
    Amount the texture affects hardness.
 Add
    Amount the texture affects translucency.
-

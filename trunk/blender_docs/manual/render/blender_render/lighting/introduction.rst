@@ -30,19 +30,19 @@ Global Influences
 
 In Blender, the elements under your control which affect lighting are:
 
-- The color of the world :doc:`ambient light </render/blender_render/lighting/ambient_light>`.
-- The use of :doc:`Ambient Occlusion </render/blender_render/lighting/ambient_occlusion>`
+- The color of the world :doc:`ambient light </render/blender_render/world/ambient_light>`.
+- The use of :doc:`Ambient Occlusion </render/blender_render/world/ambient_occlusion>`
   as a way to cast that ambient light onto the object.
 - The degree to which the ambient light colors the
   :doc:`material </render/blender_render/materials/index>` of the object.
-- The use of :doc:`Indirect lighting </render/blender_render/lighting/indirect_lighting>`,
+- The use of :doc:`Indirect lighting </render/blender_render/world/indirect_lighting>`,
   where the color of one object radiates onto another.
 - The :doc:`lamps </render/blender_render/lighting/lamps/introduction>` in your scene.
 
 The physics of light bouncing around in the real world is simulated by Ambient Occlusion (a world setting),
 buffer shadows (which approximate shadows being cast by objects), ray tracing
 (which traces the path of photons from a light source). Also,
-within Blender you can use :doc:`Indirect lighting </render/blender_render/lighting/indirect_lighting>`.
+within Blender you can use :doc:`Indirect lighting </render/blender_render/world/indirect_lighting>`.
 Ray tracing, ambient occlusion, and indirect lighting are computer-intensive processes.
 Blender can perform much faster rendering with its internal scan line renderer,
 which is a very good scan line renderer indeed.
@@ -104,5 +104,3 @@ select your new "Gray" material in the *Material* field.
 This will override any materials you may have set, and render everything with this color.
 Using this material, you can now go about adjusting the lighting.
 Just empty this field to get back to your original materials.
-
-

@@ -19,7 +19,6 @@ Volume Shaders
 We support three volume shader nodes,
 that model particular effects as light passes through the volume and interacts with it.
 
-
 - Volume Absorption will absorb part of the light as it passes through the volume.
   This can be used to shade for example black smoke or colored glass objects, or mixed with the volume scatter node.
   This node is somewhat similar to the transparent BSDF node,
@@ -34,6 +33,7 @@ that model particular effects as light passes through the volume and interacts w
 - Emission will emit light from the volume. This can be used to shade fire for example.
 
 .. figure:: /images/cycles_materials_volume.jpg
+   :align: center
 
    Volume Shader: Absorption/Absorption + Scatter/Emission.
 
@@ -120,12 +120,12 @@ Scattering Bounces
 Real world effects such as scattering in clouds or subsurface scattering require many
 scattering bounces. However, unbiased rendering of such effects is slow and noisy. In typical
 movie production scenes only 0 or 1 bounces might be used to keep render times under control.
-The effect you get when rendering with zero volume bounces is what is known as "single
-scattering", the effect from more bounces is "multiple scattering".
+The effect you get when rendering with zero volume bounces is what is known as
+"single scattering", the effect from more bounces is "multiple scattering".
 
 For rendering materials like skin or milk, the subsurface scattering shader is an
-approximation of such multiple scattering effects that is significantly more efficient but not
-as accurate.
+approximation of such multiple scattering effects
+that is significantly more efficient but not as accurate.
 
 For materials such as clouds or smoke that do not have a well defined surface,
 volume rendering is required. These look best with many scattering bounces,
@@ -135,7 +135,7 @@ but in practice one might have to limit the number of bounces to keep render tim
 Limitations
 ===========
 
-Currently we do not support:
+Currently, the following are not not support:
 
 - Correct ray visibility for volume meshes
 

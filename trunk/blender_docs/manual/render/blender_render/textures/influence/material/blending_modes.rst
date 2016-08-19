@@ -15,4 +15,3 @@ Following is a list of available texture blending modes:
 .. seealso::
 
    :term:`Color Blend Modes` for details on each blending mode.
-

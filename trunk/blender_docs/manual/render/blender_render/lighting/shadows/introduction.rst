@@ -11,8 +11,8 @@ you will need them. Blender supports the following kinds of shadows:
 
 - `Lamps: Ray-traced Shadows`_
 - `Lamps: Buffered Shadows`_
-- :doc:`Ambient occlusion </render/blender_render/lighting/ambient_occlusion>`
-- :doc:`Indirect lighting </render/blender_render/lighting/indirect_lighting>`
+- :doc:`Ambient occlusion </render/blender_render/world/ambient_occlusion>`
+- :doc:`Indirect lighting </render/blender_render/world/indirect_lighting>`
 
 Ambient occlusion really is not a shadow based on light *per se*, but based on geometry.
 However, it does mimic an effect where light is prevented from fully and uniformly
@@ -127,8 +127,5 @@ To enable buffered shadows these actions are required:
 - Enable shadows for the light using the *Buffer Shadow* button in the *Lamp* menu's *Shadow* panel.
 - Make sure the *Cast Buffer Shadows* options is enabled in each *Material* 's *Shadow* panel.
 
-
 - The :doc:`Spot lamp </render/blender_render/lighting/lamps/spot/buffered_shadows>`
   is the only lamp able to cast buffered shadows.
-
-

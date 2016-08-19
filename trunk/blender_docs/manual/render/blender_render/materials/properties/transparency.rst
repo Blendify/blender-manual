@@ -213,7 +213,6 @@ Fresnel
 
           Settings for Fresnel using Z transparency.
 
-
 .. note::
 
    The specular highlight in the F4 glass tile
@@ -313,8 +312,8 @@ IOR values for Common Materials
 The following list provides some index of refraction values to use when ray-traced
 transparency is used for various liquids, solids (gems), and gases:
 
-.. Sections ordered by density (low -> high)
 
+.. Sections ordered by density (low -> high)
 
 Gasses
 ^^^^^^
@@ -325,6 +324,7 @@ Gasses
    - Air ``1.000``
    - Carbon Dioxide ``1.000449``
    - Oxygen ``1.000276``
+
 
 Common Liquids
 ^^^^^^^^^^^^^^
@@ -396,4 +396,3 @@ Metals
    - Silver ``0.18``
    - Steel ``2.50``
    - Titanium ``2.16``
-

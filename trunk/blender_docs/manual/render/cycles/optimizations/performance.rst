@@ -34,8 +34,8 @@ Tile size X/Y
    .. tip::
 
       Depending on what device you are using for rendering different tile sizes can give faster renders.
-      For example, For CPU rendering "16 X 16" works best while for :doc:`GPU rendering </render/cycles/gpu_rendering>`
-      "256 X 256" works best.
+      For example, For CPU rendering "16 X 16" works best while for
+      :doc:`GPU rendering </render/cycles/gpu_rendering>` "256 X 256" works best.
 
 Progressive Refine
    Instead of rendering each tile until it has finished every sample, refine the whole image progressively.

@@ -25,7 +25,6 @@ The Shadow panel in the Materials Properties editor (see Fig. :ref:`fig-bi-mater
 controls the effects that the material can have on the shadows that appear in the scene.
 The various properties are described in the sections below.
 
-
 .. _fig-bi-material-shadow-scene:
 
 .. figure:: /images/materials_properties_shadow2.jpg
@@ -88,7 +87,6 @@ Shadows Only
    Note the faint image of the partly-transparent post.
 Shadow and Distance
    Todo.
-
 
 .. list-table::
 

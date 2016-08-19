@@ -1,6 +1,4 @@
-
-..    TODO/Review: {{review|partial=X}} .
-
+..    TODO/Review: {{review|partial=X}}.
 
 ********************
 Environment Lighting

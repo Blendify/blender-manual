@@ -1,6 +1,4 @@
-
-..    TODO/Review: {{review|text=like 2.4?}} .
-
+..    TODO/Review: {{review|text=like 2.4?}}.
 
 ************
 Introduction
@@ -84,7 +82,6 @@ Size
    This slider in fact controls the angle at the top of the lighting cone,
    and can be between (1.0 to 180.0).
 
-
    .. list-table::
       Changing the spot *Size* option
 
@@ -133,5 +130,3 @@ Show Cone
 Halo
    Adds a volumetric effects to the spot lamp.
    See :doc:`Spot Halos </render/blender_render/lighting/lamps/spot/halos>`.
-
-

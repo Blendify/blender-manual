@@ -1,6 +1,4 @@
-
-..    TODO/Review: {{review}} .
-
+..    TODO/Review: {{review}}.
 
 *********************
 Lights Common Options
@@ -60,4 +58,3 @@ Specular
    The Lamp creates specular highlights.
 Diffuse
    The Lamp does diffuse shading.
-

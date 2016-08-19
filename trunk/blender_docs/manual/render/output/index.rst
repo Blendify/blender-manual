@@ -9,5 +9,6 @@
    display.rst
    output.rst
    video.rst
+   audio.rst
    metadata.rst
    play_animation.rst

@@ -298,5 +298,4 @@ Hints
 =====
 
 Any object in Blender can act as a camera in the 3D View. Hence you can select the
-*Spot* light and switch to a view from its perspective by pressing
-:kbd:`Ctrl-Numpad0`.
+*Spot* light and switch to a view from its perspective by pressing :kbd:`Ctrl-Numpad0`.

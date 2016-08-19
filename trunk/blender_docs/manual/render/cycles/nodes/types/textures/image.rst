@@ -40,10 +40,15 @@ Projection
          0.0 gives no blending; higher values give a smoother transition.
 
    Sphere
-      Maps the image to the sphere using Z axis as central.
+      Sphere mapping is the best type for mapping a sphere,
+      and it is perfect for making planets and similar objects.
+      It is often very useful for creating organic objects.
    Tube
-      Mapa the tube to the sphere using Z axis as central.
-
+      Maps the texture around an object like a label on a bottle.
+      The texture is therefore more stretched on the cylinder.
+      This mapping is of course very good for making the label on a bottle,
+      or assigning stickers to rounded objects. However,
+      this is not a cylindrical mapping so the ends of the cylinder are undefined.
 
 Extension Type
    Extension type defines how the image is extrapolated past the original bounds:
@@ -67,6 +72,5 @@ Examples
 ========
 
 .. figure:: /images/cycles_nodes_tex_image_example.jpg
-   :width: 200px
 
    Image texture from `GoodTextures.com <http://www.goodtextures.com/>`__.

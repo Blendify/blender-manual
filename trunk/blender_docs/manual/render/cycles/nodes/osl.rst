@@ -1,14 +1,15 @@
+.. Editors Note: This page gets copied into :doc:`</render/cycles/nodes/script>`
 
 *********************
 Open Shading Language
 *********************
 
-Users can now create their own nodes using
+It is also possible to create your own nodes using
 `Open Shading Language <https://github.com/imageworks/OpenShadingLanguage>`__ (OSL).
 Note that these nodes will only work for CPU rendering;
 there is no support for running OSL code on the GPU.
 
-To enable it, select Open Shading Language as the shading system in the render settings.
+To enable it, select *Open Shading Language* as the shading system in the render settings.
 
 .. note::
 
@@ -30,16 +31,13 @@ a text data-block is used to store the OSL shader,
 and the OSO bytecode is stored in the node itself.
 This is useful for distributing a blend-file with everything packed into it.
 
-The *External* mode can be used to specify a .osl file on disk,
-and this will then be automatically compiled into a .oso file in the same directory.
-It is also possible to specify a path to a .oso file, which will then be used directly,
-with compilation done manually by the user.
-The third option is to specify just the module name,
+The *External* mode can be used to specify a ``.osl`` file on disk,
+and this will then be automatically compiled into a ``.oso`` file in the same directory.
+It is also possible to specify a path to a ``.oso`` file, which will then be used directly,
+with compilation done manually by the user. The third option is to specify just the module name,
 which will be looked up in the shader search path.
 
-The shader search path is located in the same place as the scripts or configuration path,
-under:
-
+The shader search path is located in the same place as the scripts or configuration path, under:
 
 Linux
    .. parsed-literal:: $HOME/.config/blender/|BLENDER_VERSION|/shaders/
@@ -47,7 +45,6 @@ MS-Windows
    .. parsed-literal:: C:\\Users\\$user\\AppData\\Roaming\\Blender Foundation\\Blender\\\ |BLENDER_VERSION|\\shaders\\
 Mac OSX
    .. parsed-literal:: /Users/$USER/Library/Application Support/Blender/|BLENDER_VERSION|/shaders/
-
 
 .. tip::
 
@@ -150,7 +147,6 @@ Some object, particle and mesh attributes are available to the built-in getattri
 function. UV maps and vertex colors can be retrieved using their name.
 Other attributes are listed below:
 
-
 ``geom:generated``
    Generated texture coordinates
 ``geom:uv``
@@ -204,7 +200,8 @@ Other attributes are listed below:
 Trace
 =====
 
-We support the ``trace(point pos, vector dir, ...)`` function, to trace rays from the OSL shader.
+We support the ``trace(point pos, vector dir, ...)``
+function, to trace rays from the OSL shader.
 The "shade" parameter is not supported currently,
 but attributes can be retrieved from the object that was hit using the ``getmessage("trace", ..)`` function.
 See the OSL specification for details on how to use this.
