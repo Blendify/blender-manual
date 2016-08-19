@@ -1,7 +1,7 @@
 
-**********************
-Particle Visualization
-**********************
+*************
+Visualization
+*************
 
 With the items in the *Display* and *Render* panel you can set the way the particles will be
 rendered or depicted in the view ports in various ways.
@@ -10,65 +10,8 @@ Some option are valid only for the 3D View, the particles then are rendered alwa
 Some of the options will be rendered as shown in the 3D View.
 
 
-Viewport Display
-================
-
-The Display Panel controls how particles are displayed in the 3D View.
-This does not necessarily determine how they will appear when rendered.
-
-None
-   The particles are not shown in the 3D View and are not rendered. The emitter may be rendered though.
-Point
-   Particles are displayed as square points. Their size is independent of the distance from the camera.
-Circle
-   Particles are displayed as circles that face the view. Their size is independent of the distance from the camera.
-Cross
-   Particles are displayed as 6-point crosses that align to the rotation of the particles.
-   Their size is independent of the distance from the camera.
-Axis
-   Particles are displayed as 3-point axes.
-   This useful if you want to see the orientation and rotation of particles in the view port.
-   Increase the *Draw Size* until you can clearly distinguish the axis.
-
-Particles visualized like Point, Circle, Cross and Axis do not have any special options,
-but can be very useful when you have multiple particle systems at play,
-if you do not want to confuse particles of one system from another (e.g.
-in simulations using *Boids* physics).
-
-Display
-   Specifies the percentage of all particles to show in the viewport (all particles are still rendered).
-Draw Size
-   Specifies how large (in pixels) the particles are drawn in the viewport.
-
-Size
-   Draw the size of the particles with a circle.
-Velocity
-   Draw the velocity of the particles with a line that points in the direction of motion,
-   and length relative to speed.
-Number
-   Draw the id-numbers of the particles in the order of emission.
-
-
-Color
------
-
-The Color Menu allows you to draw particles according to certain particle properties.
-
-None
-   Particles are black.
-Material
-   Particles are colored according to the material they are given.
-Velocity
-   Color particles according to their speed.
-   The color is a ramp from blue to green to red, Blue being the slowest,
-   and Red being velocities approaching the value of *Max* or above.
-   Increasing *Max* allows for a wider range of particle velocities.
-Acceleration
-   Color particles according to their acceleration.
-
-
-Render Settings
-===============
+Render
+======
 
 The Render Panel controls how particles appear when they are rendered.
 
@@ -84,7 +27,7 @@ Parents
    Children have a lot of different deformation options,
    so the straight parents would stand between their curly children.
    So by default *Parents* are not rendered if you activate *Children*..
-   See :doc:`Children </physics/particles/children>`
+   See :doc:`Children </physics/particles/properties/children>`
 
 Unborn
    Render particles before they are born.
@@ -143,7 +86,7 @@ Path
 
 
 The *Path* visualization needs a :doc:`Hair </physics/particles/hair/index>` particle system or
-:doc:`Keyed </physics/particles/physics/keyed>` particles.
+:doc:`Keyed </physics/particles/properties/physics/keyed>` particles.
 
 Strand render
    [Keypointstrands] Use the strand primitive for rendering. Very fast and effective renderer.
@@ -366,3 +309,60 @@ Offset
 
 Trail Count
    See the description in `Halo`_.
+
+
+Display
+=======
+
+The Display Panel controls how particles are displayed in the 3D View.
+This does not necessarily determine how they will appear when rendered.
+
+None
+   The particles are not shown in the 3D View and are not rendered. The emitter may be rendered though.
+Point
+   Particles are displayed as square points. Their size is independent of the distance from the camera.
+Circle
+   Particles are displayed as circles that face the view. Their size is independent of the distance from the camera.
+Cross
+   Particles are displayed as 6-point crosses that align to the rotation of the particles.
+   Their size is independent of the distance from the camera.
+Axis
+   Particles are displayed as 3-point axes.
+   This useful if you want to see the orientation and rotation of particles in the view port.
+   Increase the *Draw Size* until you can clearly distinguish the axis.
+
+Particles visualized like Point, Circle, Cross and Axis do not have any special options,
+but can be very useful when you have multiple particle systems at play,
+if you do not want to confuse particles of one system from another (e.g.
+in simulations using *Boids* physics).
+
+Display
+   Specifies the percentage of all particles to show in the viewport (all particles are still rendered).
+Draw Size
+   Specifies how large (in pixels) the particles are drawn in the viewport.
+
+Size
+   Draw the size of the particles with a circle.
+Velocity
+   Draw the velocity of the particles with a line that points in the direction of motion,
+   and length relative to speed.
+Number
+   Draw the id-numbers of the particles in the order of emission.
+
+
+Color
+-----
+
+The Color Menu allows you to draw particles according to certain particle properties.
+
+None
+   Particles are black.
+Material
+   Particles are colored according to the material they are given.
+Velocity
+   Color particles according to their speed.
+   The color is a ramp from blue to green to red, Blue being the slowest,
+   and Red being velocities approaching the value of *Max* or above.
+   Increasing *Max* allows for a wider range of particle velocities.
+Acceleration
+   Color particles according to their acceleration.

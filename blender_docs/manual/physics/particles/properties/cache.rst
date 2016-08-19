@@ -1,9 +1,5 @@
-
 ..    TODO/Review: {{review|partial=X|text=Some of the information is incorrect | fixes =
       [[User:Sascha Uncia/Doc:2.6/Manual/Physics/Particles/Cache And Bake|X]]
-   {{wikiTask/Done}}
-   }} .
-
 
 *****
 Cache
@@ -19,7 +15,6 @@ The results of the simulation are automatically cached to disk when the animatio
 so that the next time it runs, it can play again quickly by reading in the results from the disk.
 If you *Bake* the simulation the cache is protected and you will be asked when you're
 trying to change a setting that will make a recalculating necessary.
-
 
 .. tip:: Beware of the *Start* and *End* Settings
 
@@ -52,7 +47,6 @@ Baking
   :kbd:`Ctrl-B` for all selected objects or click on *Free Bake* for a singular particle system.
 - If the mesh changes the simulation is not calculated anew.
 - Sorry: no bake editing for particles like for softbodies and clothes.
-
 
 Two notes at the end:
 

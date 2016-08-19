@@ -122,26 +122,26 @@ Common Options
 Each system has the same basic sets of controls,
 but options within those sets vary based on the system employed. These sets of controls are:
 
-:doc:`Emission </physics/particles/emission>`
+:doc:`Emission </physics/particles/properties/emission>`
    Settings for the initial distribution of particles on the emitter and the way they are born into the scene.
-:doc:`Cache </physics/particles/cache_and_bake>`
+:doc:`Cache </physics/particles/properties/cache>`
    In order to increase realtime response and avoid unnecessary recalculation of particles,
    the particle data can be cached in memory or stored on disk.
-:doc:`Velocity </physics/particles/physics/index>`
+:doc:`Velocity </physics/particles/properties/physics/index>`
    Initial speed of particles.
-:doc:`Rotation </physics/particles/physics/index>`
+:doc:`Rotation </physics/particles/properties/physics/index>`
    Rotational behavior of particles.
-:doc:`Physics </physics/particles/physics/index>`
+:doc:`Physics </physics/particles/properties/physics/index>`
    How the movement of the particles behaves.
-:doc:`Render </physics/particles/visualization>`
+:doc:`Render </physics/particles/properties/visualization>`
    Rendering options.
-:doc:`Display </physics/particles/visualization>`
+:doc:`Display </physics/particles/properties/visualization>`
    Realtime display in the 3D View.
-:doc:`Children </physics/particles/children>`
+:doc:`Children </physics/particles/properties/children>`
    Control the creation of additional child particles.
-:doc:`Field Weights </physics/particles/physics/index>`
+:doc:`Field Weights </physics/particles/properties/physics/index>`
    Factors for external forces.
-:doc:`Force Field Settings </physics/particles/physics/index>`
+:doc:`Force Field Settings </physics/particles/properties/physics/index>`
    Makes particles force fields.
-:doc:`Vertex Groups </physics/particles/vertexgroups>`
+:doc:`Vertex Groups </physics/particles/properties/vertexgroups>`
    Influencing various settings with vertex groups.

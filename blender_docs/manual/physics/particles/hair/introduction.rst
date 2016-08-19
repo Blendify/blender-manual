@@ -26,10 +26,11 @@ control points with an interpolation, the segments.
 Styling
 =======
 
-The next step is to style the hair.
-You can change the look of base hairs by changing the :doc:`Physics Settings </physics/particles/physics/index>`.
+The next step is to style the hair. You can change the look of base hairs by changing the
+:doc:`Physics Settings </physics/particles/properties/physics/index>`.
 
-A more advanced way of changing the hair appearance is to use :doc:`Children </physics/particles/children>`.
+A more advanced way of changing the hair appearance is to use
+:doc:`Children </physics/particles/properties/children>`.
 This adds child hairs to the original ones, and has settings for giving them different types of shapes.
 
 You can also interactively style hairs in :doc:`Particle Mode </physics/particles/mode>`.
@@ -46,11 +47,12 @@ This is covered in the :ref:`Hair Dynamics <hair-dynamics>` page.
 Rendering
 =========
 
-Blender can render hairs in several different ways. Materials have a Strand section, which is
-covered in the materials section in the :doc:`Strands Page </render/blender_render/materials/properties/strands>`.
+Blender can render hairs in several different ways. Materials have a Strand section,
+which is covered in the materials section in the
+:doc:`Strands Page </render/blender_render/materials/properties/strands>`.
 
-Hair can also be used as a basis for the :doc:`Particle Instance modifier
-</modeling/modifiers/simulate/particle_instance>`,
+Hair can also be used as a basis for the
+:doc:`Particle Instance modifier </modeling/modifiers/simulate/particle_instance>`,
 which allows you to have a mesh be deformed along the curves,
 which is useful for thicker strands, or things like grass, or feathers, which may have a more specific look.
 
@@ -115,14 +117,14 @@ Steps
 Children
 --------
 
-See :doc:`Children </physics/particles/children>`.
+See :doc:`Children </physics/particles/properties/children>`.
 
 
 Render
 ------
 
 Hair can be rendered as a Path, Object, or Group.
-See :doc:`Particle Visualization </physics/particles/visualization>` for descriptions.
+See :doc:`Particle Visualization </physics/particles/properties/visualization>` for descriptions.
 
 .. seealso::
 
