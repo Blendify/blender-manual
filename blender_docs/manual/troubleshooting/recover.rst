@@ -15,7 +15,7 @@ At the :ref:`User Level <recover-options-for-actions>` (Relating to *Actions*)
 - Blender also has new features like *Repeat* and *Repeat History*,
   and the new *Redo Last* which you can use in conjunction with the options listed.
 
-At the :ref:`System Level <troubleshooting-file_recovery>` (Relating to *Files*)
+At the :ref:`System Level <troubleshooting-file-recovery>` (Relating to *Files*)
 
 - There are options to save your files like
   *Auto Save* that saves your file automatically over time, and *Save on Quit*,
@@ -27,7 +27,7 @@ At the :ref:`System Level <troubleshooting-file_recovery>` (Relating to *Files*)
       the *Save on Quit* functionality cannot be disabled.
 
 
-.. _troubleshooting-file_recovery:
+.. _troubleshooting-file-recovery:
 
 Options for Files (System Level)
 ================================
@@ -48,7 +48,7 @@ Blender can use an *Autosave* function. The *File* tab of the
 *User Preferences* allows you to configure the two ways that Blender provides
 for you to regress to a previous version of your work.
 
-See :ref:`prefs-auto_save` for details.
+See :ref:`prefs-auto-save` for details.
 
 
 Recovering Auto Saves

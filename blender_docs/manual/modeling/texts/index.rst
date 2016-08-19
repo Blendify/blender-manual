@@ -1,4 +1,4 @@
-.. _modeling_text-index:
+.. _modeling-text-index:
 
 #######
   Text

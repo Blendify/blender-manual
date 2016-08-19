@@ -56,7 +56,7 @@ Example
 
 Let us use the *Copy Location* constraint and its *Offset* button. For example,
 you can make your owner (let us call it "moon") describe perfect circles centered on the (0.0, 0.0, 0.0)
-point (using e.g. pydriven *LocX*/*LocY* animation curves, see :doc:`this page </animation/drivers>`),
+point (using e.g. pydriven *LocX*/*LocY* animation curves, see :doc:`Drivers </animation/drivers>`),
 and then make it copy the location of a target (called it "earth", for example) with the *Offset* button enabled.
 Congratulation, you just modeled a satellite in a (simplified) orbit around its planet.
 Just do the same thing with its planet around its star (which you might call "sun", what do you think?),

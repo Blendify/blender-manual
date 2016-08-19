@@ -53,7 +53,7 @@ and switches to camera view.
 Camera View Positioning
 -----------------------
 
-By enabling :ref:`Lock Camera to View <3dview-lock_camera_to_view>` in the View panel of the Properties region,
+By enabling :ref:`Lock Camera to View <3dview-lock-camera-to-view>` in the View panel of the Properties region,
 while in camera view, you can navigate the 3D View as usual,
 while remaining in camera view. Controls are exactly the same as when normally moving in 3D.
 
@@ -87,7 +87,7 @@ Sideways Tracking
 
 .. seealso::
 
-   :ref:`Fly/Walk Mode <3dview-walk_fly>`
+   :ref:`Fly/Walk Mode <3dview-walk-fly>`
       When you are in walk/fly mode, navigation actually moves your camera:
-   :ref:`Lock Camera to View <3dview-lock_camera_to_view>` When enabled,
+   :ref:`Lock Camera to View <3dview-lock-camera-to-view>` When enabled,
       performing typical view manipulation operations will move the camera object.

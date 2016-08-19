@@ -21,7 +21,7 @@ Properties
 ==========
 
 Image
-   See :ref:`ui-data_block`.
+   See :ref:`ui-data-block`.
 
 
 Outputs

@@ -1,5 +1,5 @@
 
-.. _fluid_simulation-types-index:
+.. _fluid-simulation-types-index:
 
 ##############
   Fluid Types

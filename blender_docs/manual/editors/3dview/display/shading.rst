@@ -61,7 +61,7 @@ Shading Panel
 The shading panel in the Properties Region provides additional control over the way objects in the 3D View appear.
 
 Textured Solid
-   Display assigned :ref:`face textures <face_textures>` in the *Solid* shading mode.
+   Display assigned :ref:`face textures <face-textures>` in the *Solid* shading mode.
    *(Not available in the Cycles Render Engine)*
 Matcap
    A selection of preset shader effects, (overriding regular materials)

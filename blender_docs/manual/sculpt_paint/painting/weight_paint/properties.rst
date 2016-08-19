@@ -17,7 +17,7 @@ Brush
 
 Painting needs paint brushes and Blender provides a Brush Panel within the Tool Shelf when it
 operates in *Weight Paint Mode*. You find predefined Brush Presets when you click on
-the large Brush Icon at the top of the brush Panel.
+the large Brush Icon at the top of the Brush Panel.
 And you can make your own presets as needed.
 See below for the available brush presets and to create custom presets.
 
@@ -91,7 +91,6 @@ Auto Normalize
 
    This option works most intuitively when used to maintain normalization while painting on top of weights
    that are already normalized with some other tool.
-
 Multi-Paint
    Paint on all selected Vertex Groups simultaneously, in a way that preserves their relative influence.
    This can be useful when tweaking weights in an area that is affected by more than three bones at once,
@@ -130,29 +129,29 @@ Stroke
 
 Stroke Method
    Airbrush
-      Keep applying paint effect while holding mouse down (spray)
+      Keep applying paint effect while holding mouse down (spray).
    Space
-      Limit brush application to the distance specified by spacing (see below)
+      Limit brush application to the distance specified by spacing (see below).
    Dots
-      Apply paint on each mouse move step
+      Apply paint on each mouse move step.
 Rate (only for Airbrush)
-   Interval between paints for airbrush
+   Interval between paints for airbrush.
 Spacing (only for Space)
-   Limit brush application to the distance specified by spacing
+   Limit brush application to the distance specified by spacing.
 Jitter
-   Jitter the position of the brush while painting
+   Jitter the position of the brush while painting.
 Smooth Stroke
-   Brush lags behind mouse and follows a smoother path
+   Brush lags behind mouse and follows a smoother path.
 Radius
-   Minimum distance from last point before stroke continues
+   Minimum distance from last point before stroke continues.
 Factor
-   Higher values give a smoother stroke
+   Higher values give a smoother stroke.
 
 
 Curve
 -----
 
-This :ref:`Curve widget <ui-curve_widget>` is used to control the brush falloff.
+This :ref:`Curve widget <ui-curve-widget>` is used to control the brush falloff.
 Changing the curve allows you to specify the characteristics of your brushes to a large extent.
 
 
@@ -163,7 +162,7 @@ Blender provides a set of helper tools for Weight Painting.
 The tools are located in the weight tools panel.
 
 The weight paint tools are full described in the
-:doc:`Weight Paint Tools </sculpt_paint/painting/weight_paint/tools>` page
+:doc:`Weight Paint Tools </sculpt_paint/painting/weight_paint/tools>` page.
 
 
 Options
@@ -185,9 +184,9 @@ Appearance
 ----------
 
 Show Brush
-   Makes the brush visible as a circle (on by default)
+   Makes the brush visible as a circle (on by default).
 Custom Icon
-   Allows definition of a custom brush icon
+   Allows definition of a custom brush icon.
 
 
 Options

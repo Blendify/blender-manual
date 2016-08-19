@@ -1,4 +1,4 @@
-.. _editors-dope_sheet-index:
+.. _editors-dope-sheet-index:
 
 #############
   Dope Sheet

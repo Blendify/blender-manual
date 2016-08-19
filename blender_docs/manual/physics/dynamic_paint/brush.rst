@@ -15,21 +15,17 @@ Absolute Alpha
    Without it, brush is "added" on surface over and over again each frame,
    increasing alpha and therefore influence of brush on canvas. In many cases however,
    it's preferred to not increase brush alpha if it already is on brushes level.
-
 Erase Paint
    Makes brush dissolve exiting paint instead of adding it.
-
 Wetness
    Defines how "wet" new paint is. Wetness is visible on "Paint" surface "wetmap".
    Speed of "Drip" and "Spread" effects also depends on how wet the paint is.
-
 Use object material
    When enabled, you can define a material to be used as brush color.
    This includes material's base color and all textures linked to it, eventually matching the rendered diffuse color.
    This setting is only available when using "Blender Internal" renderer at the moment.
 
    Otherwise you can define a color for the brush from the color box below.
-
 Alpha
    Defines brush alpha or visibility. Final wetness is also affected by alpha.
 
@@ -79,7 +75,6 @@ Mesh Volume + Proximity
 
    Inner Proximity
       Applies proximity inside the mesh volume.
-
    Negate Volume
       Negates brush alpha within mesh volume.
 
@@ -136,14 +131,11 @@ Tick boxes above can be used to define color ramp influence.
 
 Multiply Alpha
    Uses color ramp's alpha value depending on current velocity and multiplies brush alpha with it.
-
 Replace Color
-   Replaces the brush color with the values from the :ref:`ui-color_ramp_widget`.
-
+   Replaces the brush color with the values from the :ref:`ui-color-ramp-widget`.
 Multiply Depth
    Multiplies brushes "depth intersection" effect.
    Basically you can adjust displace and wave strength depending on brush speed.
-
 Smudge settings
    Enabling Smudge makes the brush "smudge" (or "smear") existing colors on the surface as it moves.
    The strength of this effect can be defined from the "Smudge Strength" property.
@@ -171,24 +163,19 @@ Wave Type
       If the brush remains still it won't have influence.
 
       Using a negative "Factor" with this type can create a nice looking "wake" for moving objects like ships.
-
    Obstacle
       Constantly affects surface whenever intersecting.
       Waves are also reflected off this brush type.
       However, due the nature of wave simulation algorithm this type creates
       an unnatural "dent" in the surface if brush remains still.
-
    Force
       Directly affects the velocity of wave motion.
       Therefore the effect is not one to one with brush intersection depth, yet the force strength depends on it.
-
    Reflect Only
       This type has no visible effect on the surface alone but reflects waves that are already on the surface.
-
 Factor
    Adjusts how strongly brush "depth" affects the simulation.
    You can also use negative values to make brush pull water up instead of down.
-
 Clamp Waves
    In some cases the brush goes very deep inside the surface messing whole simulation up.
    You can use this setting to "limit" influence to only certain depth.

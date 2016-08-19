@@ -36,10 +36,8 @@ As with most editors, you can:
 
 Pan
    Pan the view vertically (values) or horizontally (time) with click and drag (:kbd:`MMB`).
-
 Zoom
    Zoom in and out with the mouse wheel (:kbd:`Wheel`).
-
 Scale View
    Scale the view vertically or horizontally (:kbd:`Ctrl-MMB`).
 
@@ -47,7 +45,6 @@ These are some other useful tools.
 
 View All
    Reset viewable area to show all keyframes (:kbd:`Home`).
-
 View Selected
    Reset viewable area to show selected keyframes (:kbd:`NumpadPeriod`).
 
@@ -133,22 +130,16 @@ Mode
 View controls
    Show Only Selected
       Only include curves related to the selected objects and data.
-
    Show Hidden
       Include curves from objects/bones that are not visible.
-
    Show Only Errors
       Only include curves that are disabled or have errors.
-
    Search Filter
       Only include curves with keywords contained in the search text.
-
    Type Filter
       Filter curves by property type.
-
    Normalize
       Normalize curves so the maximum or minimum point equals 1.0 or -1.0.
-
    Auto
       Automatically recalculate curve normalization on every curve edit.
 
@@ -171,19 +162,15 @@ Curve controls
 
       Bounding Box Center
          Center of the select keyframes.
-
       2D Cursor
          Center of the *2D Cursor*. *Time Cursor* + *Cursor*.
-
       Individual Centers
          Rotate the selected keyframe *Bézier* handles.
 
    Copy Keyframes
       Copy the selected keyframes to memory (:kbd:`Ctrl-C`).
-
    Paste Keyframes
       Paste keyframes from memory to the current frame for selected curves (:kbd:`Ctrl-V`).
-
    Create Snapshot
       Creates a picture with the current shape of the curves.
 
@@ -200,10 +187,8 @@ The channels region is used to select and manage the curves for the graph editor
 
 Hide curve
    Represented by the eye icon.
-
 Deactivate/Mute curve
    Represented by the speaker icon.
-
 Lock curve from editing
    Represented by the padlock icon.
 
@@ -211,27 +196,17 @@ Lock curve from editing
 Channel Editing
 ---------------
 
-*Select channel* :kbd:`LMB`
-
-*Multi Select/Deselect* :kbd:`Shift-LMB`
-
-*Toggle Select All* :kbd:`A`
-
-*Border Select* (:kbd:`LMB` drag) or :kbd:`B` (:kbd:`LMB` drag)
-
-*Border Deselect* (:kbd:`Shift-LMB` drag) or :kbd:`B` (:kbd:`Shift-LMB` drag)
-
-*Delete selected* :kbd:`X` or :kbd:`Delete`
-
-*Lock selected* :kbd:`Tab`
-
-*Make only selected visible* :kbd:`V`
-
-*Enable Mute Lock selected* :kbd:`Shift-Ctrl-W`
-
-*Disable Mute Lock selected* :kbd:`Alt-W`
-
-*Toggle Mute Lock selected* :kbd:`Shift-W`
+- Select channel: :kbd:`LMB`
+- Multi Select/Deselect: :kbd:`Shift-LMB`
+- Toggle Select All: :kbd:`A`
+- Border Select: (:kbd:`LMB` drag) or :kbd:`B` (:kbd:`LMB` drag)
+- Border Deselect: (:kbd:`Shift-LMB` drag) or :kbd:`B` (:kbd:`Shift-LMB` drag)
+- Delete selected: :kbd:`X` or :kbd:`Delete`
+- Lock selected: :kbd:`Tab`
+- Make only selected visible: :kbd:`V`
+- Enable Mute Lock selected: :kbd:`Shift-Ctrl-W`
+- Disable Mute Lock selected: :kbd:`Alt-W`
+- Toggle Mute Lock selected: :kbd:`Shift-W`
 
 
 Properties Region
@@ -250,16 +225,13 @@ View Properties Panel
 
 Show Cursor
    Show the vertical *Cursor*.
-
 Cursor from Selection
    Set the *2D cursor* to the center of the selected keyframes.
-
 Cursor X
    *Time Cursor* X position.
 
    To Keys
       Snap selected keyframes to the *Time Cursor*.
-
 Cursor Y
    Vertical *Cursor* Y position.
 
@@ -279,19 +251,15 @@ This panel displays properties for the active *F-Curve*.
 
 Channel Name
    *ID Type* + Channel name (X Location).
-
 RNA Path
    *RNA Path* to property + Array index.
-
 Color Mode
    *Color Mode* for the active *F-Curve*.
 
    Auto Rainbow
       Increment the *HUE* of the *F-Curve* color based on the channel index.
-
    Auto XYZ to RGB
       For property sets like location xyz, automatically set the set of colors to red, green, blue.
-
    User Defined
       Define a custom color for the active *F-Curve*.
 
@@ -309,23 +277,17 @@ Interpolation
 
    Constant
       Keep the same value till the next keyframe.
-
    Linear
       The difference between the next keyframe.
-
    Bézier
       Bézier interpolation to the next keyframe.
-
 Key
    Frame
       Set the frame for the active keyframe.
-
    Value
       Set the value for the active keyframe.
-
 Left Handle
    Set the position of the left interpolation handle for the active keyframe.
-
 Right Handle
    Set the position of the right interpolation handle for the active keyframe.
 
@@ -338,7 +300,7 @@ Drivers Panel
    Drivers Panel.
 
 
-See :ref:`animation_drivers_panel` for more info.
+See :ref:`animation-drivers-panel` for more info.
 
 
 Modifiers Panel
@@ -350,7 +312,6 @@ Modifiers Panel
 
 
 See :doc:`F-Modifiers </editors/graph_editor/fcurves/fmodifiers>` for more info.
-
 
 .. seealso::
 

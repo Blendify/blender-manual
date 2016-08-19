@@ -57,13 +57,13 @@ For more information on specific tools available, see:
 - :doc:`Parents </editors/3dview/object/relationships/parents>`
 - :doc:`Groups </editors/3dview/object/relationships/groups>`
 - :ref:`animation-index`
-- :ref:`rigid_body-index`
-- :ref:`grease_pencil-index`
+- :ref:`rigid-body-index`
+- :ref:`grease-pencil-index`
 - :ref:`modeling-index`
-- :ref:`painting_sculping-index`
-- :ref:`painting_vertex-index`
-- :ref:`painting_weight-index`
-- :ref:`painting_texture-index`
+- :ref:`painting-sculping-index`
+- :ref:`painting-vertex-index`
+- :ref:`painting-weight-index`
+- :ref:`painting-texture-index`
 
 
 Properties Region

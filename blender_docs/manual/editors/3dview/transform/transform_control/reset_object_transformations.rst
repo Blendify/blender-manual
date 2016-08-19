@@ -22,19 +22,15 @@ Clear Options
 
    Clear Transformation menu.
 
-
 Clear Location :kbd:`Alt-G`
    Clear (reset) the location of the selection.
    This will move the selection back to the coordinates 0,0,0.
-
 Clear Scale :kbd:`Alt-S`
    Clear (reset) the scale of the selection.
    This will resize the selection back to the size it was when created.
-
 Clear Rotation :kbd:`Alt-R`
    Clear (reset) the rotation of the selection.
    This will set the rotation of the selection to 0 degrees in each plane.
-
 Clear Origin :kbd:`Alt-O`
    Clear (reset) the origin of the Child objects.
    This will cause Child objects to move to the coordinates of the parent.
@@ -57,7 +53,7 @@ The center point is moved to the origin and the transform values are set to zero
 In terms of scale, the scale values return to 1.
 
 To apply a transform select the *Apply* sub-menu from the *Object menu* or
-use the shortcut :kbd:`Ctrl-A` and select the appropriate transform to apply
+use the shortcut :kbd:`Ctrl-A` and select the appropriate transform to apply.
 
 *Make Duplicates Real* unlinks linked duplicates so each duplicate now has its own data-block.
 
@@ -75,20 +71,16 @@ Apply Location :kbd:`Ctrl-A`
    This will make Blender consider the current location to be equivalent to 0 in each plane
    i.e. the selection will not move, the current location will be considered to be the "default location".
    The Object Center will be set to actual 0,0,0 (where the colored axis lines intersect in each view).
-
 Apply Rotation :kbd:`Ctrl-A`
    Apply (set) the rotation of the selection.
    This will make Blender consider the current rotation to be equivalent to 0 degrees in each plane
    i.e. the selection will not rotated, the current rotation will be considered to be the "default rotation".
-
 Apply Scale :kbd:`Ctrl-A`
    Apply (set) the scale of the selection.
    This will make Blender consider the current scale to be equivalent to 0 in each plane
    i.e. the selection will not scaled, the current scale will be considered to be the "default scale".
-
 Apply Rotation and Scale :kbd:`Ctrl-A`
    Apply (set) the rotation and scale of the selection. Do the above two applications simultaneously.
-
 All Transforms to Deltas
    Converts all "normal" transformations to :ref:`Delta transforms <transform-delta>`.
 Animated Transform to Deltas

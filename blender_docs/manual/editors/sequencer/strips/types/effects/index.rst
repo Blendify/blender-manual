@@ -1,4 +1,4 @@
-.. _sequencer_effects-index:
+.. _sequencer-effects-index:
 
 ################
   Effect Strips

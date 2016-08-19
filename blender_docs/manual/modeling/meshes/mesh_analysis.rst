@@ -7,9 +7,9 @@ Mesh Analysis
 Mesh analysis is useful for displaying attributes of the mesh that may impact certain use
 cases.
 
-The mesh analysis works in editmode and shows areas with a high value in red,
+The mesh analysis works in Edit Mode and shows areas with a high value in red,
 and areas with a low value in blue.
-Geometry outside the range is displayed grey.
+Geometry outside the range is displayed gray.
 
 Currently the different modes target 3D-printing as their primary use.
 

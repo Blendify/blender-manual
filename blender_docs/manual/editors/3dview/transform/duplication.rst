@@ -30,7 +30,7 @@ because not all data-blocks are shared; some of them are "hard copied"!
 .. tip::
 
    You can choose which types of data-block will be linked or copied when duplicating:
-   in the :ref:`User Preferences <prefs-editing-duplicate_data>`.
+   in the :ref:`User Preferences <prefs-editing-duplicate-data>`.
 
 
 Examples

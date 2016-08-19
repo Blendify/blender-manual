@@ -16,13 +16,13 @@ or roll and involves changing the orientation of elements (vertices, edge, face,
 around one or more axes or the element's Pivot Point.
 There are multiple ways to rotate an element which include:
 
-- The keyboard shortcut :kbd:`R`
-- The 3D manipulator widget
-- The Properties menu :kbd:`N`
+- The keyboard shortcut :kbd:`R`.
+- The 3D manipulator widget.
+- The Properties region :kbd:`N`.
 
 Basic rotation usage and common options are described below. For additional information, you
-may wish to read the :doc:`Transform Control </editors/3dview/transform/transform_control/index>`
-and :doc:`Read more about Transform Orientations </editors/3dview/transform/transform_control/transform_orientations>`
+may wish to read the :doc:`Transform Control </editors/3dview/transform/transform_control/index>` and
+:doc:`Read more about Transform Orientations </editors/3dview/transform/transform_control/transform_orientations>`
 pages which provide more information about options such as Precision, Axis Locking, Numeric Input,
 Snapping and the different types of Pivot Point.
 
@@ -86,12 +86,12 @@ in degrees to specify the amount of rotation after after initiating a rotation t
 
 .. seealso::
 
-   - :doc:`Read more about Precision Control
-     </editors/3dview/transform/transform_control/precision/introduction>`
-   - :doc:`Read more about Numerical Transformations
-     </editors/3dview/transform/transform_control/precision/numeric_input>`
-   - :doc:`Read more about Transform Orientations
-     </editors/3dview/transform/transform_control/transform_orientations>`
+   - :doc:`Read more about Precision Control 
+     </editors/3dview/transform/transform_control/precision/introduction>`.
+   - :doc:`Read more about Numerical Transformations 
+     </editors/3dview/transform/transform_control/precision/numeric_input>`.
+   - :doc:`Read more about Transform Orientations 
+     </editors/3dview/transform/transform_control/transform_orientations>`.
 
 
 Rotation with the 3D Transform Manipulator
@@ -103,9 +103,9 @@ Rotation with the 3D Transform Manipulator
    Rotation Transform Manipulator.
 
 
-In the 3D View header, ensure that the Transform Manipulator is enabled (the red, green,
-and blue triad is selected). Set the manipulator type to rotation
-(the highlighted arc icon shown below).
+In the 3D View header, ensure that the Transform Manipulator is enabled
+(the red, green, and blue triad is selected). 
+Set the manipulator type to rotation (the highlighted arc icon shown below).
 
 .. figure:: /images/editors_3dview_transformations-basic-rotate-rotate_manipulator_header.png
 
@@ -119,4 +119,4 @@ and blue triad is selected). Set the manipulator type to rotation
 
 .. seealso::
 
-   :doc:`Read more about the 3D Transform Manipulator </editors/3dview/transform/transform_control/manipulators>`
+   :doc:`Read more about the 3D Transform Manipulator </editors/3dview/transform/transform_control/manipulators>`.

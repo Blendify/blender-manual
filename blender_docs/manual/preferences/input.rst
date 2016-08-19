@@ -113,7 +113,7 @@ Emulate 3 Button Mouse
    - :kbd:`MMB` drag becomes :kbd:`Alt-LMB` drag.
    - :kbd:`Shift-Alt-RMB` becomes :kbd:`Shift-Alt-Cmd-LMB` on a single-button mouse.
 
-.. _prefs-input-continuous_grab:
+.. _prefs-input-continuous-grab:
 
 Continuous Grab
    This feature is used to prevent the problem where an action such as grabbing or panning a view,
@@ -155,7 +155,7 @@ Just check *Emulate Numpad*.
 View Manipulation
 =================
 
-.. _prefs-input-orbit_style:
+.. _prefs-input-orbit-style:
 
 Orbit Style
    Select how Blender works when you rotate the 3D View by default when holding :kbd:`MMB`.
@@ -199,7 +199,7 @@ NDOF device
    Set the sensitivity of a 3D mouse.
 
 
-.. _prefs-input-keymap_editor:
+.. _prefs-input-keymap-editor:
 
 Keymap Editor
 =============

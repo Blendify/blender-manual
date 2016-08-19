@@ -13,7 +13,7 @@ Glass-like shader mixing refraction and reflection at grazing angles. Like the t
 only pure white will make it transparent. The glass shader tends to cause noise due to caustics.
 Since the Cycles path tracing integrator is not very good at rendering caustics,
 it helps to combine this with a transparent shader for shadows;
-for :ref:`more details see here <render-cycles-reducing_noise-glass_and_transp_shadows>`
+for :ref:`more details see here <render-cycles-reducing-noise-glass-and-transp-shadows>`
 
 Inputs
 ======

@@ -30,7 +30,6 @@ Compression
    Heavy
       Compression will result in smaller cache files more than *Light*,
       however, requires more CPU time to compress/decompress.
-
 External
    Read and write the cache to disk using a user-specified file path.
 
@@ -39,7 +38,6 @@ External
       when the specified cache directory contains `multiple caches`_.
       ``0`` refers to the top-most cache, ``1`` to the second from the top,
       ``2`` to the third, and so on.
-
 Use Lib Path
    Share the disk cache when the physics object is
    :doc:`linked </data_system/linked_libraries>` into another blend-file.
@@ -49,7 +47,6 @@ Use Lib Path
 
 Start
    Frame on which to start the simulation.
-
 End
    Frame on which to stop the simulation.
 
@@ -82,7 +79,6 @@ Free Bake
 
 Calculate To Frame
    Bake only up to the current frame. Limited by *End* frame set in the cache settings.
-
 Current Cache to Bake
    Store any temporarily cached simulation data as a bake.
    Note that playing the animation will try to simulate any visible physics simulations.
@@ -95,12 +91,10 @@ Bake All Dynamics
    Useful for baking complex setups involving interactions between different physics types.
 
    See :ref:`Bake <physics-bake>`
-
 Free All Bakes
    Free bakes of all physics systems in the scene, even those of different types.
 
    See :ref:`Free Bake <free-physics-bake>`.
-
 Update All To Frame
    Bake all physics systems in the scene to the current frame.
 

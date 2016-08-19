@@ -17,8 +17,8 @@ In Blender, *Texture* s can be:
 - applied to a :doc:`light </render/blender_render/lighting/lights/textures>`, that coming from lamp
 - applied to the :doc:`World Background </render/blender_render/world/background>`
 - applied to a *Brush*, see for example:
-  - :ref:`painting_sculping-index`
-  - :ref:`painting_texture-index`
+  - :ref:`painting-sculping-index`
+  - :ref:`painting-texture-index`
 - associated with *Modifiers*, see:
   - Particles textures
   - Ocean textures
@@ -154,6 +154,6 @@ that has been unwrapped and assigned an image of user defined size.
    Applied Brush texture in different painting modes.
 
 
-- Brush textures can be used to :ref:`painting_texture-index` textures.
-- Brush textures can be used to :ref:`painting_vertex-index` vertices.
-- Brush textures can also be used in :ref:`painting_sculping-index` to create topology.
+- Brush textures can be used to :ref:`painting-texture-index` textures.
+- Brush textures can be used to :ref:`painting-vertex-index` vertices.
+- Brush textures can also be used in :ref:`painting-sculping-index` to create topology.

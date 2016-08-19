@@ -1,4 +1,4 @@
-
+﻿
 ***********
 Data-Blocks
 ***********
@@ -45,6 +45,7 @@ This works by skipping zero user data-blocks when writing blend-files.
 
 In some cases, you want to save a data-block even when it is unused
 (typically for re-usable asset libraries). see `Fake User`_.
+
 
 Fake User
 ---------
@@ -100,7 +101,7 @@ Other data-blocks such as groups and actions can be *Unlinked* from the *Outline
    This force clears the user-count, so the data-block will be removed on reloading.
 
 
-.. _data_system-datablock_types:
+.. _data-system-datablock-types:
 
 Data-Block Types
 ================

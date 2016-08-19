@@ -274,7 +274,7 @@ This page lists definitions for terms used in Blender and this manual.
       A method of :term:`Anti-aliasing` on the graphics card, so the entire image is displayed smooth.
       Also known as *Multi-Sampling*.
 
-      This can be enabled in the :ref:`user preferences <prefs-system-multi_sampling>`.
+      This can be enabled in the :ref:`user preferences <prefs-system-multi-sampling>`.
       On many graphics cards, this can also be enabled in the driver options.
 
    Gamma
@@ -412,7 +412,7 @@ This page lists definitions for terms used in Blender and this manual.
       A non-manifold mesh is a mesh in which the structure of a
       non-overlapped surface (based on it's connected faces) won't determine
       the inside or the outside of a volume based on its normals, defining
-      a  single surface for both sides, but ended with flipped normals.
+      a single surface for both sides, but ended with flipped normals.
       When working with non-closed volumes, a non-manifold mesh will always
       determine at least one discontinuity in the normal directions, either
       by an inversion of a connected loop, or by an odd number of surfaces.
@@ -425,7 +425,7 @@ This page lists definitions for terms used in Blender and this manual.
       - Edges connected to three or more faces (interior faces).
       - Vertices belonging to faces that are not adjoining (e.g. 2 cones sharing the vertex at the apex).
 
-      See also: :ref:`Select Non-Manifold <mesh-select-non_manifold>` tool.
+      See also: :ref:`Select Non-Manifold <mesh-select-non-manifold>` tool.
 
    Normal
       The normalized vector perpendicular to a surface.

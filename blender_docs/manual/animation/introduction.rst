@@ -42,7 +42,7 @@ The Action Editor
 -----------------
 
 - :doc:`Actions </animation/actions>`
-- :ref:`animation-basics-actions-working_with_actions`
+- :ref:`animation-basics-actions-working-with-actions`
 
 
 Animation Techniques

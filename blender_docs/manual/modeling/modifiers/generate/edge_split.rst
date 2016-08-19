@@ -8,7 +8,7 @@ The edges to split can be determined from the edge angle (i.e. angle between fac
 and/or edges marked as sharp.
 
 Splitting an edge affects vertex normal generation at that edge, making the edge appear sharp.
-Hence, this modifier can be used to achieve the same effect as :ref:`Auto Smooth <auto_smooth>`,
+Hence, this modifier can be used to achieve the same effect as :ref:`Auto Smooth <auto-smooth>`,
 making edges appear sharp when their angle is above a certain threshold.
 It can also be used for manual control of the smoothing process,
 where the user defines which edges should appear smooth or sharp

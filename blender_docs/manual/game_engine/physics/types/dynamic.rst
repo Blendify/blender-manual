@@ -151,7 +151,7 @@ Lock Rotation
      - Z Python property: ``obj.game.lock_rotation_z``
 
 
-.. _game_engine-physics-object-collision_bounds:
+.. _game-engine-physics-object-collision-bounds:
 
 Collision Bounds
 ================

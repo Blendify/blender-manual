@@ -92,7 +92,7 @@ Open 2D Curve
    The extrusion will create a "wall" or "ribbon" following the curve shape. If using a *Bevel Depth*,
    the wall becomes a sort of slide or gutter.
    If your normals are facing the wrong way you can switch their direction as shown
-   :ref:`here <curve-switch_direction>`
+   :ref:`here <curve-switch-direction>`
 
    .. figure:: /images/curves_extrude_open2d_fill_none.jpg
 

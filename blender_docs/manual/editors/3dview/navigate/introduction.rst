@@ -74,20 +74,20 @@ Tool Shelf
    - *View Selected*
    - *Center View to cursor*
 
-:ref:`Clipping Border <3dview-clip_border>`
+:ref:`Clipping Border <3dview-clip-border>`
    Allows you to define a clipping border to limit the 3D View display to a portion of 3D space.
 :doc:`Zoom Border </editors/3dview/navigate/3d_view>`
    Allows you to define the area you want to zoom into.
 :doc:`Show all Layers </editors/3dview/layers>`
    Makes all of the display layers visible.
-:ref:`Global View/Local View <3dview-local_view>`
+:ref:`Global View/Local View <3dview-local-view>`
    Global view shows all of the 3D objects in the scene. Local view only displays the selected objects.
    This helps if there are many objects in the scene, that may be in the way.
    Accidentally pressing :kbd:`NumpadSlash` can happen rather often if you are new to Blender,
    so if a bunch of the objects in your scene seem to have mysteriously vanished, try turning off local view.
 :doc:`View Selected </editors/3dview/navigate/3d_view>`
    Zooms the 3D View to encompass all the *selected* objects.
-:ref:`View All <3dview-view_all>`
+:ref:`View All <3dview-view-all>`
    Zooms the 3D View to encompass *all* the objects in the current scene.
 :doc:`Play Back Animation </animation/index>`
    Plays back the animation from the current frame.
@@ -128,23 +128,19 @@ it will change to the appropriate menu with editing tools.
 Mode List
    The Viewport has several modes of operation,
    for a full list modes see :doc:`here </editors/3dview/object/modes>`
-
 Viewport Shading
    Allows you to change the way 3D objects are displayed in the viewport.
 
    :doc:`Read more about the different shading modes </editors/3dview/display/shading>`
-
 Pivot Point Selector
    Used to change the reference point (or :term:`pivot point`) used by many mesh manipulation tools.
 
    :doc:`Read more about Pivot Points </editors/3dview/transform/transform_control/pivot_point/index>`
-
 Manipulator Selector
    These handy selectors allow you to rotate or move objects by grabbing
    (clicking with your mouse) their controls and moving your mouse in the axis.
 
    :doc:`Read more about Transform Manipulators </editors/3dview/transform/transform_control/manipulators>`
-
 Layer Selector
    Layers are well documented in the :doc:`Layers page </editors/3dview/layers>`.
 
@@ -170,7 +166,6 @@ Snap to Mesh
    Controls the snapping tools that help with transforming and modeling objects.
 
    :doc:`Read more about Snapping </editors/3dview/transform/transform_control/precision/snap>`
-
 Render Buttons
    The Render Buttons render an OpenGL version of the 3D View.
    See the :doc:`OpenGL Rendering </render/opengl>` page for more information.

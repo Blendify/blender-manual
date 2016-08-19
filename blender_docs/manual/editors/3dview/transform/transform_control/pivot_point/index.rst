@@ -1,4 +1,4 @@
-.. _pivot-point:
+.. _pivot-point-index:
 
 ##############
   Pivot Point

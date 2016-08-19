@@ -147,7 +147,7 @@ controled by the alpha slider located at the brush selector panel,
 located at the top of the tool shelf, when in sculpt mode.
 
 
-.. _prefs-editing-duplicate_data:
+.. _prefs-editing-duplicate-data:
 
 Duplicate Data
 ==============

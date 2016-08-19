@@ -340,7 +340,7 @@ that when a 2D curve is closed, it creates a renderable flat face.
    Open and Closed curves.
 
 
-.. _curve-switch_direction:
+.. _curve-switch-direction:
 
 Switch Direction
 ================

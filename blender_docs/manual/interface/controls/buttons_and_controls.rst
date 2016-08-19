@@ -6,6 +6,7 @@ Buttons and Controls
 Buttons and other controls can be found in every Editor of the Blender interface.
 The different types of controls are described below.
 
+
 .. _ui-operation-buttons:
 
 Operation Buttons
@@ -40,10 +41,10 @@ Toggle Drag
 To change many toggle buttons at once, you can :kbd:`LMB` drag over multiple buttons,
 This works for checkboxes, toggles in the Outliner and layer buttons.
 
-  .. note::
+.. note::
 
-     For layer buttons (a type of toggle button) it is often useful to hold :kbd:`Shift` at the same time,
-     to set or clear many layers at once.
+   For layer buttons (a type of toggle button) it is often useful to hold :kbd:`Shift` at the same time,
+   to set or clear many layers at once.
 
 
 Radio Buttons
@@ -279,7 +280,7 @@ with the available shading options.
    For example, :kbd:`Numpad-1` will select the first item and so on.
 
 
-.. _ui-data_block:
+.. _ui-data-block:
 
 Data-Block Menus
 ----------------
@@ -335,7 +336,8 @@ Pie Menus
 ---------
 
 A pie menu is a menu, whose items are spread radially around the mouse.
-Pie menus has to be activated in the User Preferences through :menuselection:`Add-ons --> UI --> Pie Menus Official`.
+Pie menus has to be activated in the User Preferences through 
+:menuselection:`Add-ons --> UI --> Pie Menus Official`.
 
 .. figure:: /images/interface_pie-menu.jpg
    :width: 350px

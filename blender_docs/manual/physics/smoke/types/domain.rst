@@ -57,13 +57,10 @@ Border Collisions
 
    Vertically Open
       Smoke disappears when it hits the top or bottom of the domain, but collides with the walls.
-
    Open
       Smoke disappears when it hits any side of the domain.
-
    Collide All
       Smoke collides with all sides of the domain.
-
 Density
    Controls how much smoke is affected by density.
 
@@ -100,10 +97,8 @@ Vorticity
 
 Dissolve
    Allow smoke to dissipate over time.
-
 Time
    Speed of smoke's dissipation in frames.
-
 Slow
    Dissolve smoke in a logarithmic fashion. Dissolves quickly at first, but lingers longer.
 
@@ -114,19 +109,14 @@ Smoke Flames
 Speed
    How fast fuel burns. Larger values result in smaller flames (fuel burns before it can go very far),
    smaller values result in larger flames (fuel has time to flow farther before being fully consumed).
-
 Smoke
    Amount of extra smoke created automatically to simulate burnt fuel.
-
 Vorticity
    Additional vorticity for flames.
-
 Ignition
    Minimum temperature of flames.
-
 Maximum
    Maximum temperature of flames.
-
 Smoke Color
    Color of smoke created by burnt fuel.
 
@@ -140,12 +130,10 @@ Unless the *Additional* option is used, the adaptive domain will not exceed the 
 
 Additional
    Number of voxels to add around the outside of the domain.
-
 Margin
    Amount of extra space to leave around smoke, measured in voxels.
    With very fast moving smoke larger margins may be required to prevent the smoke from being cut off by the adaptive
    boundary, but note this will increase the number of voxels which need to be computed.
-
 Threshold
    Smallest amount of smoke a voxel can contain before it's considered empty and the adaptive domain is allowed to cut
    it out of the simulation.
@@ -163,7 +151,6 @@ Also see `Note on Divisions and High Resolution`_.
 
 Resolution/Divisions
    Factor by which to enhance the resolution of smoke using the specified noise method.
-
 Show High Resolution
    Show high resolution in the viewport (may cause viewport responsiveness to suffer).
 
@@ -193,11 +180,10 @@ Smoke Groups
 ============
 
 Flow Group
-   If set, only objects in the specified :ref:`Group <grouping-objects>`
+   If set, only objects in the specified :doc:`Group </editors/3dview/object/relationships/groups>`
    will be allowed to act as flow objects in this domain.
-
 Collision Group
-   If set, only objects in the specified :ref:`Group <grouping-objects>`
+   If set, only objects in the specified :doc:`Group </editors/3dview/object/relationships/groups>`
    will be allowed to act as collision objects in this domain.
 
 
@@ -216,10 +202,8 @@ These settings determine how much gravity and :doc:`Force Fields </physics/force
 
 Effector Group
    When set, smoke can only be influenced by force fields in the specified group.
-
 Gravity
    How much the smoke is affected by Gravity.
-
 All
    Overall influence of all force fields.
 

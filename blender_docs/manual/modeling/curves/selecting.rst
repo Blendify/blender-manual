@@ -39,7 +39,7 @@ Border Select
    :doc:`here </modeling/meshes/selecting/introduction>`).
 
 
-.. _modeling-curves-checker_deselect:
+.. _modeling-curves-checker-deselect:
 
 Checker Deselect
 ================

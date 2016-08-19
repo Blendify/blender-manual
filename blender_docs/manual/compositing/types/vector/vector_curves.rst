@@ -32,7 +32,7 @@ Properties
 Channel
    X, Y, Z
 Curve
-   For the curve controls see: :ref:`Curve widget <ui-curve_widget>`.
+   For the curve controls see: :ref:`Curve widget <ui-curve-widget>`.
 
 Outputs
 =======

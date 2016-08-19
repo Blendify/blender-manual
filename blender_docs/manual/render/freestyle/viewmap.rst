@@ -21,7 +21,6 @@ Crease Angle
    If two adjacent faces form an angle less than the defined *Crease Angle*,
    the edge between them will be rendered when using *Crease* edge type selection in a line set.
    The value also affects *Silhouette* edge type selection.
-
 Culling
    Ignore the edges that are out of view (saves some processing time and memory,
    but may reduce the quality of the result in some cases).

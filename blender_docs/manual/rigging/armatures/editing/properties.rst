@@ -39,7 +39,7 @@ so by transforming a bone, you will affect all its connected parent/children/sib
 
 Finally, you can edit in the *Transform* panel in the Properties region
 the positions and radius of both ends of the active selected bone,
-as well as its :ref:`roll rotation <armature-bone_roll>`.
+as well as its :ref:`roll rotation <armature-bone-roll>`.
 
 
 Radius and Scaling in Envelope Visualization
@@ -188,7 +188,7 @@ but in "reversed order". See the Fig. :ref:`fig-rig-properties-switch`.
           Bone.003 is now a free bone.
 
 
-.. _armature-bone_roll:
+.. _armature-bone-roll:
 
 Bone Roll
 =========
@@ -241,7 +241,7 @@ Shortest Rotation
    Avoids rolling the bone over 90 degrees from its current value.
 
 
-.. _armature-bone_properties:
+.. _armature-bone-properties:
 
 Properties
 ==========
@@ -272,7 +272,7 @@ through the three pop-up menus within the same entry:
 
 BO
    The bone name field, see `Naming Bones`_.
-child of
+Child of
    These two settings control the bone relationship, as detailed in
    `Chain Editing`_.
 Segm
@@ -292,7 +292,7 @@ Hinge
    so this will be detailed in the :doc:`posing part </rigging/posing/index>` !
 Hide
    This will hide the bone (same as pressing :kbd:`H` in the 3D Views;
-   see :ref:`this page <armature-bone_hide>`).
+   see :ref:`this page <armature-bone-hide>`).
 Lock
    (also :kbd:`Shift-W` :menuselection:`--> (Locked, ...)`)
    This will prevent all editing of the bone in *Edit Mode*;
@@ -340,7 +340,7 @@ it is set to 1, which gives a standard rigid bone. The higher this setting (max 
 but the heavier the pose calculations...
 
 Each bone's ends are mapped to its "virtual" Bézier curve's
-:ref:`"auto" <curve-handle_type-auto>`
+:ref:`"auto" <curve-handle-type-auto>`
 handle. Therefore, you cannot control their direction,
 but you can change their "length" using the *In* and *Out* numeric fields,
 to control the "root handle" and "tip handle" of the bone, respectively.
@@ -362,7 +362,7 @@ angle with previous/next bones in the chain, and so on.
           Bone.004 with In at 2.0, and Out at 0.0.
 
 
-.. _armature-bone_chain_edit:
+.. _armature-bone-chain-edit:
 
 Chain Editing
 =============
@@ -445,7 +445,7 @@ To disconnect and/or free bones, you can:
 Note that relationships with non-selected children are never modified.
 
 
-.. _armature-editing-naming_bones:
+.. _armature-editing-naming-bones:
 
 Naming Bones
 ============
@@ -467,7 +467,7 @@ symmetry fashion, and others that automatically name the bones of an armature.
 Let us look at this in detail.
 
 
-.. _armature-editing-naming_conventions:
+.. _armature-editing-naming-conventions:
 
 Naming Conventions
 ------------------

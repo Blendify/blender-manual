@@ -12,7 +12,7 @@ Drawing
 Depth Buffer Glitches
 ---------------------
 
-Sometimes when setting a large :ref:`clipping range <3dview-view_clip>`
+Sometimes when setting a large :ref:`clipping range <3dview-view-clip>`
 will allow you to see both near and far objects,
 but reduces the depth precision resulting in artifacts.
 
@@ -124,11 +124,11 @@ However, this makes it awkward to explore a scene or model an object from the 'i
 Solutions
 ^^^^^^^^^
 
-- Use :ref:`View Dolly <3dview-nav-zoom_dolly>`
-- Use :ref:`Walk/Fly modes <3dview-walk_fly>`.
-- Use :ref:`Auto Depth <prefs-auto_depth>` and :ref:`Zoom to Mouse Position <prefs-zoom_mouse_pos>`.
+- Use :ref:`View Dolly <3dview-nav-zoom-dolly>`
+- Use :ref:`Walk/Fly modes <3dview-walk-fly>`.
+- Use :ref:`Auto Depth <prefs-auto-depth>` and :ref:`Zoom to Mouse Position <prefs-zoom-mouse-pos>`.
   These tool will make sure the distance is always the value under the mouse cursor,
-- Use :ref:`Border Zoom <3dview-nav-zoom_border>` as it also resets the center-point when zooming.
+- Use :ref:`Border Zoom <3dview-nav-zoom-border>` as it also resets the center-point when zooming.
 - Center the view around the mouse cursor :kbd:`Alt-F`.
   This will take the position under the cursor and make it your viewpoint center.
 - Center the view around the 3D cursor :kbd:`Alt-Home`.
@@ -140,7 +140,7 @@ Solutions
 Tools
 =====
 
-.. _troubleshooting-3dview-invalid_selection:
+.. _troubleshooting-3dview-invalid-selection:
 
 Invalid Selection
 -----------------
@@ -162,7 +162,7 @@ Disable Anti-Aliasing :term:`FSAA, Multi-Sampling<FSAA>`
    You can disable this option by:
 
    - Turning FSAA/multi-sampling off in your graphics card driver options.
-   - Turning *Multi-Sampling* off in the :ref:`system preferences <prefs-system-multi_sampling>`.
+   - Turning *Multi-Sampling* off in the :ref:`system preferences <prefs-system-multi-sampling>`.
 Change Anti-Aliasing Sample Settings
    Depending on your OpenGL configuration,
    some specific sample settings may work while others fail.

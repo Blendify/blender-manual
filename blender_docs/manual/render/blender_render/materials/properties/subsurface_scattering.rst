@@ -110,7 +110,7 @@ IOR
    The effect is quite subtle and changes the distribution function only a little bit.
    By the examination of many different materials, values of (1.3 to 1.5)
    have been found to work well for most materials.
-   If you know the exact material you are trying to simulate, see :ref:`transparency_ior_common`.
+   If you know the exact material you are trying to simulate, see :ref:`transparency-ior-common`.
 Scale
    The scale of your object, in Blender units, across which you want the scattering effect to take place.
    Scale of 1.0 means 1 Blender unit equals 1 millimeter,
@@ -229,6 +229,6 @@ Skin
 .. seealso::
 
    - `Development Release Log: Subsurface Scattering
-     <https://www.blender.org/development/release-logs/blender-244/subsurface-scattering/>`__
+     <https://www.blender.org/development/release-logs/blender-244/subsurface-scattering/>`__.
    - `Ben Simonds: Three Layer SSS in Blender Demystified
-     <https://bensimonds.com/2010/05/31/three-layer-sss-in-blender-demystified/>`__
+     <https://bensimonds.com/2010/05/31/three-layer-sss-in-blender-demystified/>`__.

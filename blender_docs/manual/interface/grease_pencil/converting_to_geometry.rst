@@ -28,7 +28,7 @@ Type
    Bézier Curve
       Create Bézier curves, with free "aligned" handles (i.e. also behaving like polylines).
    Polygon Curve
-      Bézier Curve with strait line segments (auto handles)
+      Bézier Curve with strait line segments (auto handles).
 
    .. note:: Converting to Mesh
 
@@ -83,17 +83,13 @@ Timing Mode
 
 Frame Range
    The "length" of the created path animation, in frames. In other words, the highest value of *Evaluation Time*.
-
 Start Frame
    The starting frame of the path animation.
-
 Realtime
    When enabled, the path animation will last exactly the same duration it took you do draw the strokes.
-
 End Frame
    When *Realtime* is disabled, this defines the end frame of the path animation.
    This means that the drawing timing will be scaled up or down to fit into the specified range.
-
 Gap Duration
    *Custom Gaps* only. The average duration (in frames) of each gap between actual strokes.
    Please note that the value entered here will only be exact if *Realtime* is enabled,

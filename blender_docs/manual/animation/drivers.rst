@@ -23,7 +23,7 @@ Most the settings for the drivers :doc:`F-Curves </editors/graph_editor/fcurves/
 the :doc:`Graph Editor </editors/graph_editor/introduction>`.
 
 
-.. _animation_drivers_panel:
+.. _animation-drivers-panel:
 
 Drivers Panel
 =============

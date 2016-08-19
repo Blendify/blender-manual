@@ -29,7 +29,7 @@ White Level
 
 .. tip::
 
-   To define the levels, use the :ref:`eye dropper <ui-eye_dropper>` to select a color sample of a displayed image.
+   To define the levels, use the :ref:`eye dropper <ui-eye-dropper>` to select a color sample of a displayed image.
 
 
 Properties
@@ -41,7 +41,7 @@ Channel
    C (Combined RGB), R (Red), G (Green), B (Blue), L (Luminance)
 Curve
    A Bézier curve that varies the input levels (x-axis) to produce an output level (y-axis).
-   For the curve controls see: :ref:`Curve widget <ui-curve_widget>`.
+   For the curve controls see: :ref:`Curve widget <ui-curve-widget>`.
 
 
 Outputs

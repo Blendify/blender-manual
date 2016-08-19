@@ -160,7 +160,7 @@ Anisotropic Filtering
    Available Options are: *Off* (No Filtering), *2x*, *4x*, *8x*, and *16x*.
 
 
-.. _prefs-system-window_draw:
+.. _prefs-system-window-draw:
 
 Window Draw Method
 ==================
@@ -183,7 +183,7 @@ Window Draw Method
       Do a full redraw each time. Only use for reference, or when all else fails.
       Useful for certain cards with bad to no OpenGL acceleration at all.
 
-.. _prefs-system-multi_sampling:
+.. _prefs-system-multi-sampling:
 
 Multi-Sampling
    This enables :term:`FSAA` for smoother drawing, at the expense of some performance.
@@ -191,7 +191,7 @@ Multi-Sampling
    .. note::
 
       This is known to cause selection issues on some configurations,
-      see: :ref:`troubleshooting-3dview-invalid_selection`.
+      see: :ref:`troubleshooting-3dview-invalid-selection`.
 
 Region Overlap
    This checkbox will enable Blender to draw regions overlapping the 3D View.

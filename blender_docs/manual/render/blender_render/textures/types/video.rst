@@ -36,7 +36,7 @@ Source
       Then change the Source to Image Sequence, and enter the ending frame number of this sequence.
 
 More about loading source file for video texture see
-:ref:`here <render-blender_internal-image_settings>`.
+:ref:`here <render-blender-internal-image-settings>`.
 
 Fields
    Work with field images. Video frames consist of two different images (fields) that are merged.

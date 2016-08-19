@@ -95,7 +95,7 @@ or you can create a New image and save it as the texture.
 
 If you want to start off by creating an image using an external paint program,
 you will want to save an outline of your UV faces by using the *Save UV Face Layout* tool located in the UVs menu.
-This is discussed :ref:`here <uv_image-export_layout>`.
+This is discussed :ref:`here <uv-image-export-layout>`.
 
 
 Creating an Image Texture
@@ -392,7 +392,7 @@ Input panel.
 Settings
 ---------
 
-.. _render-blender_internal-image_settings:
+.. _render-blender-internal-image-settings:
 
 Image Settings
 ==============

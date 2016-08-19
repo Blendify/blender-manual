@@ -36,7 +36,7 @@ Mark Seam and Clear Seam
    | Menu:     :menuselection:`Mesh --> Edges --> Mark Seam/Clear Seam` (or the same options in *Edge Specials* menu)
 
 Seams are a way to create separations, "islands", in UV maps.
-See the :ref:`UVTexturing section <editors-uv_image-index>` for more details.
+See the :ref:`UVTexturing section <editors-uv-image-index>` for more details.
 These commands set or unset this flag for selected edges.
 
 
@@ -91,7 +91,7 @@ crease value of selected edges.
 To clear the crease edge property, enter a value of -1.
 
 
-.. _modeling-meshes-editing-edge_slide:
+.. _modeling-meshes-editing-edge-slide:
 
 Edge Slide
 ==========
@@ -212,7 +212,7 @@ end such that they form a continuous chain. This is *literally* a general rule b
 can still select edges in a chain that are invalid because some of the edges in the chain are
 in different edge loops.
 
-.. _modeling-meshes-editing-edges_rotate:
+.. _modeling-meshes-editing-edges-rotate:
 
 Rotate Edge
 ===========
@@ -351,7 +351,7 @@ a hole will be created, and the selected edges are duplicated to form the border
           Adjacent face moved to reveal hole left by split.
 
 
-.. _modeling-meshes-editing-bridge_edge_loops:
+.. _modeling-meshes-editing-bridge-edge-loops:
 
 Bridge Edge Loops
 =================

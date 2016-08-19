@@ -1,6 +1,7 @@
-#############
-  Graph View
-#############
+
+***********
+Graph View
+***********
 
 .. figure:: /images/editors_movie-clip_graph.png
 
@@ -9,7 +10,7 @@
 Introduction
 ============
 
-The graph or curves view has neumerous purposes based on the color of the lines.
+The graph or curves view has numerous purposes based on the color of the lines.
 The red and green lines on the graph show you the speed of the trackers at a given frame.
 Green is vertical movement, Red is horizontal. Therefore the first frames will always be at zero.
 The blue line is the line that comes out when you click on the film strip is the average per frame error.
@@ -21,7 +22,7 @@ Usage
 =====
 
 The curves are useful to see if particular trackers are moving differently than the average.
-A line that spikes from the rest of the curve usualy means a tracking error.
+A line that spikes from the rest of the curve usually means a tracking error.
 
 You can manually edit the curve by selecting a point in the curve and dragging it or deleting,
 that will affect the corresponding tracker on that particular frame.

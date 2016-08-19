@@ -33,7 +33,7 @@ Distance
 .. figure:: /images/editors_3dview_objects_speaker_settings.png
    :align: right
 
-Volume:
+.. rubric:: Volume
 
 Minimum
    Minimum volume, no matter how far the object is.
@@ -42,7 +42,7 @@ Maximum
 Attenuation
    How strong the distance affects the volume.
 
-Distance:
+.. rubric:: Distance
 
 Maximum
    Maximum distance for volume calculation.
@@ -52,7 +52,7 @@ Reference
 Cone
 ----
 
-Angle:
+.. rubric:: Angle
 
 Outer
    Angle of the outer cone in degrees. Outside this cone the volume is the outer cone volume (see below).
@@ -60,7 +60,7 @@ Outer
 Inner
    Angle of the inner cone in degrees. Inside the cone the volume is 100%.
 
-Volume:
+.. rubric:: Volume
 
 Outer
    Volume outside the outer cone.

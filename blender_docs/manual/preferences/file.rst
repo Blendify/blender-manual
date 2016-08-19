@@ -9,7 +9,7 @@ blend-files, rendered images, and more.
 .. figure:: /images/user_prefs-file_tab.png
 
 
-.. _prefs-file_paths:
+.. _prefs-file-paths:
 
 File Paths
 ==========
@@ -84,7 +84,7 @@ Excluded Paths
    :doc:`Python Security </advanced/scripting/python/security>`
 
 
-.. _prefs-save_load:
+.. _prefs-save-load:
 
 Save & Load
 ===========
@@ -125,7 +125,7 @@ Show Thumbnails
    Displays a thumbnail of images and movies when using the :doc:`File Browser </editors/file_browser/index>`.
 
 
-.. _prefs-auto_save:
+.. _prefs-auto-save:
 
 Auto Save
 =========

@@ -109,7 +109,7 @@ Corner Cut Type
 
 
 Fractal
-   Displaces the vertices in random directions after the mesh is subdivided
+   Displaces the vertices in random directions after the mesh is subdivided.
 
    .. list-table::
 
@@ -130,7 +130,7 @@ Fractal
 
 
 Along Normal
-   Causes the vertices to move along the their normals, instead of random directions
+   Causes the vertices to move along the their normals, instead of random directions.
 
    .. figure:: /images/subdivide-fractal-alongnormal.jpg
       :width: 200px

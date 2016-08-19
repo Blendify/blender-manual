@@ -1,5 +1,5 @@
 
-.. _fluid_simulation-index:
+.. _fluid-simulation-index:
 
 ###################
   Fluid Simulation

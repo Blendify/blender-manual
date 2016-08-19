@@ -305,7 +305,7 @@ namely the *Ambient Occlusion*, *Environment Lighting*,
 and *Gather* panels. Alternatively, a texture can be used to control the
 *Intensity* value of the shadow-receiving material.
 
-.. _transparency_ior_common:
+.. _transparency-ior-common:
 
 IOR values for Common Materials
 -------------------------------

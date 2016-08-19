@@ -94,7 +94,7 @@ For a detailed description of how to work with loops in Blender, see:
 :doc:`Advanced Selection </modeling/meshes/selecting/advanced>`.
 
 
-.. _modeling-mesh-structure-edge_loops:
+.. _modeling-mesh-structure-edge-loops:
 
 Edge Loops
 ----------

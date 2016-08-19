@@ -20,19 +20,17 @@ Sampling
 
 Sample Method
    There are two integrator modes that can be used: *Path Tracing* and *Branched Path Tracing*.
-
 Square Samples
    Square the amount samples.
-
 Seed
    Seed value for integrator to get different noise patterns.
 
    Animate Seed
       This button which can be found on the right side of the *Seed*
-      value can be used to give different seed values.It is a good idea to enable this
+      value can be used to give different seed values. It is a good idea to enable this
       when making animation because in the real world each frame has a different noise pattern.
 
-.. _render-cycles-integrator-clamp_samples:
+.. _render-cycles-integrator-clamp-samples:
 
 Clamp Direct
    This option limits the maximum intensity a sample from rays which have not yet bounced can contribute to a pixel.
@@ -152,7 +150,7 @@ Transparent Shadows
 Tricks
 ======
 
-.. _render-cycles-integrator-no_caustics:
+.. _render-cycles-integrator-no-caustics:
 
 Reflective Caustics
    While in principle path tracing supports rendering of caustics with a sufficient number of samples,
@@ -162,7 +160,7 @@ Refractive Caustics
     The same as above, but for refractive caustics.
 
 
-.. _render-cycles-integrator-filter_glossy:
+.. _render-cycles-integrator-filter-glossy:
 
 Filter Glossy
    When using a value higher than 0.0, this will blur glossy reflections after blurry bounces,
@@ -182,7 +180,7 @@ Filter Glossy
 
 .. seealso::
 
-   See :ref:`Reducing Noise <render-cycles-reducing_noise-clamp_samples>`
+   See :ref:`Reducing Noise <render-cycles-reducing-noise-clamp-samples>`
    for examples of the clamp settings in use.
 
 

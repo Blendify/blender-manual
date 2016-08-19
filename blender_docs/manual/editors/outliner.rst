@@ -87,13 +87,10 @@ Context menu
 
 Deleting a data-block
    Use :kbd:`X` to delete the selected data-block(s).
-
 Expanding one level
    Use :kbd:`NumpadPlus` to expand one level down in the tree-list.
-
 Collapsing one level
    Use :kbd:`NumpadMinus` to collapse one level up in the tree-list.
-
 Expanding/collapsing everything
    Use :kbd:`A` to expand/collapse all levels of the tree-list.
 
@@ -107,12 +104,10 @@ are only available for objects:
 Visibility (eye icon)
    Toggles the visibility of the object in the 3D View.
    :kbd:`V` will toggle this property for any objects that are selected in the *Outliner*.
-
 Selectability (mouse cursor icon)
    This is useful for if you have placed something in the scene
    and do not want to accidentally select it when working on something else.
    :kbd:`S` will toggle this property for any objects that are selected in the *Outliner*.
-
 Rendering (camera icon)
    This will still keep the object visible in the scene, but it will be ignored by the renderer.
    :kbd:`R` will toggle this property for any objects that are selected in the *Outliner*.

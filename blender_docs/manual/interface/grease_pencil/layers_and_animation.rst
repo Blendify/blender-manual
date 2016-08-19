@@ -6,7 +6,7 @@ Layers
 ******
 
 Grease Pencil sketches are organized in layers,
-much like the image layers in the GIMP or Photoshop.
+much like the image layers in the GIMP or Photoshop\ :sup:`®`\ .
 These layers are not related to any of the other layer systems in Blender.
 
 The layers' main purpose is to gather sketches that are related in some
@@ -15,7 +15,7 @@ For this reason, all the strokes on a layer (not just those made after a particu
 are affected by that layer's color, opacity, and stroke thickness settings.
 
 Layers are managed in the
-*Grease Pencil Panel* of the *Properties* region :kbd:`N` shown here.
+*Grease Pencil Panel* of the *Properties region* :kbd:`N` shown here.
 
 .. figure:: /images/grease_pencil_layers_list.jpg
 
@@ -26,7 +26,8 @@ Each layer has a visibility icon, and a lock icon to protect it from further cha
 Double click on a layer name to rename it.
 
 There is a list of layers attached to each scene and a list of layers associated with each object.
-The buttons above the list box control its contents, showing either the layers associated with the active scene
+The buttons above the list box control its contents,
+showing either the layers associated with the active scene
 or the list of layers associated with the active object.
 
 By default, most operations occur only on the *active* layer highlighted in the list.
@@ -44,9 +45,9 @@ which will also be visible before the frame it was drawn on.
 
 Therefore, it is simple to make a pencil-test/series of animated sketches:
 
-- Go to first relevant frame. Draw.
-- Jump to next relevant frame. Draw some more.
-- Keep repeating process, and drawing until satisfied. Voila! Animated sketches.
+#. Go to first relevant frame. Draw.
+#. Jump to next relevant frame. Draw some more.
+#. Keep repeating process, and drawing until satisfied. Voila! Animated sketches.
 
 
 Onion Skinning
@@ -75,11 +76,11 @@ editing of the timings of the drawings.
 This is especially useful for animators blocking out shots,
 where the ability to re-time blocking is one of the main purposes of the whole exercise.
 
-- In an *Dope Sheet* editor, change the mode selector (found beside the menus) to *Grease Pencil*
-  (by default, it should be set to *DopeSheet*).
-- At this point, the *DopeSheet* should now display a few "channels" with some "keyframes" on them.
-  These "channels" are the layers, and the "keyframes" are the frames at which the layer has a sketch defined.
-  They can be manipulated like any other data in the *DopeSheet* can be.
+#. In a *Dope Sheet* editor, change the mode selector (found beside the menus) to *Grease Pencil*
+   (by default, it should be set to *DopeSheet*).
+#. At this point, the *DopeSheet* should now display a few "channels" with some "keyframes" on them.
+   These "channels" are the layers, and the "keyframes" are the frames at which the layer has a sketch defined.
+   They can be manipulated like any other data in the *DopeSheet* can be.
 
 .. figure:: /images/dopesheetgreasepencil.jpg
    :width: 598px

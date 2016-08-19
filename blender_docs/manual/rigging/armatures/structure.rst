@@ -20,7 +20,7 @@ which create some sort of "limbs" in your armature, as detailed in `Chains of Bo
    .. clear
 
 
-.. _armature-bone_chain:
+.. _armature-bone-chain:
 
 Chains of Bones
 ===============
@@ -60,7 +60,7 @@ their relationships have no effect on bone transformations in this mode
 Editing Bones Relationships
 ---------------------------
 
-This is expressed in detail in the :ref:`editing pages <armature-bone_chain_edit>`,
+This is expressed in detail in the :ref:`editing pages <armature-bone-chain-edit>`,
 but here is a quick look at this important feature.
 
 .. figure:: /images/riggingeditingbonecxtrelationspanel.png

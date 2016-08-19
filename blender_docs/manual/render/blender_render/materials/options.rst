@@ -108,9 +108,9 @@ Surface
 Wire
    Render the edges of faces as wires (not supported in ray tracing)
 Volume
-   Render object as a volume. See `Volume Material`_
+   Render object as a volume. See `Volume Material`_.
 Halo
-   Render object as halo particles. See `Halo Material`_
+   Render object as halo particles. See `Halo Material`_.
 
 
 Material Properties Overview
@@ -132,7 +132,6 @@ Preview
 ^^^^^^^
 
 This is a preview of the current material mapped on to one of several objects.
-
 See :doc:`Material Preview </editors/properties/material>` for more information.
 
 
@@ -141,7 +140,6 @@ Diffuse
 
 Diffuse shading simulates light hitting a surface and bouncing off in a very wide angle.
 You can set the color of the diffuse shading, and set what model is used for the diffuse calculation.
-
 See :doc:`Diffuse Shaders </render/blender_render/materials/properties/diffuse_shaders>`
 
 
@@ -177,17 +175,15 @@ Cubic Interpolation
 Transparency
 ^^^^^^^^^^^^
 
-Set options for objects in which light can pass through
-
-See :doc:`Transparency </render/blender_render/materials/properties/transparency>`
+Set options for objects in which light can pass through.
+See :doc:`Transparency </render/blender_render/materials/properties/transparency>`.
 
 
 Mirror
 ^^^^^^
 
-Here you can set options for materials that are reflective
-
-See :doc:`Mirror </render/blender_render/materials/properties/mirror>`
+Here you can set options for materials that are reflective.
+See :doc:`Mirror </render/blender_render/materials/properties/mirror>`.
 
 
 Subsurface Scattering
@@ -196,14 +192,13 @@ Subsurface Scattering
 Subsurface scattering simulates semi translucent objects in which light enters, bounces around,
 then exits in a different place. Examples are candles, human skin, cheese, etc.
 
-See :doc:`Subsurface Scattering </render/blender_render/materials/properties/subsurface_scattering>`
+See :doc:`Subsurface Scattering </render/blender_render/materials/properties/subsurface_scattering>`.
 
 
 Strand
 ^^^^^^
 
-These settings are used when rendering the material on fur or hair
-
+These settings are used when rendering the material on fur or hair.
 See :doc:`Strands </render/blender_render/materials/properties/strands>`
 
 

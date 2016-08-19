@@ -50,7 +50,6 @@ Color Swatch
 Seed
    If non-zero, randomizes the ring dimension and line location.
    To use, give any (integer) number to start the random-number generator.
-
 Size
    Sets the dimension of the halo
 Hardness
@@ -82,7 +81,6 @@ Shaded
 
    When shaded is enabled, the Halo will be affected by local light;
    a lamp will make it brighter and affect its diffuse color and intensity.
-
 Soft
    Softens the edges of the halos at intersections with other geometry
 
@@ -150,7 +148,7 @@ Our eyes have been trained to believe that an image is real if it shows
 artifacts that result from the mechanical process of photography.
 *Motion blur*, *Depth of Field*, and *lens flares*
 are just three examples of these artifacts.
-The first two are discussed in the *chapter_rendering*;
+The first two are discussed in the *chapter rendering*;
 the latter can be produced with special halos.
 A simulated lens flare tells the viewer that the image was created with a
 camera, which makes the viewer think that it is authentic.

@@ -29,7 +29,7 @@ Properties
 ==========
 
 Movie Clip
-   Used to select the movie clip. For controls see :ref:`ui-data_block`.
+   Used to select the movie clip. For controls see :ref:`ui-data-block`.
 
 
 Outputs

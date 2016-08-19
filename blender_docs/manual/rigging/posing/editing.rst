@@ -138,8 +138,8 @@ Breakdowner :menuselection:`Pose --> In-Betweens --> Pose Breakdowner`, :kbd:`Sh
 
 
 There are also in *Pose Mode* a bunch of armature-specific editing options/tools,
-like :ref:`auto-bones naming <armature-editing-naming_bones>`,
-:ref:`properties switching/enabling/disabling <armature-bone_properties>`, etc.,
+like :ref:`auto-bones naming <armature-editing-naming-bones>`,
+:ref:`properties switching/enabling/disabling <armature-bone-properties>`, etc.,
 that we already described in the armature editing pages - follow the links above...
 
 

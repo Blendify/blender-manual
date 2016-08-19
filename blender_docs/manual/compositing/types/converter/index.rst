@@ -1,4 +1,4 @@
-.. _composite_nodes_converter-index:
+.. _composite-nodes-converter-index:
 
 ##################
   Converter Nodes

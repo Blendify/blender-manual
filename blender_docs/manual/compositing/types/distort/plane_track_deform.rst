@@ -32,7 +32,7 @@ Properties
 
 Movie Clip
    Used to select the movie clip whose plane track to use.
-   For controls see :ref:`ui-data_block`.
+   For controls see :ref:`ui-data-block`.
 Object
    Used to select the object to which the plane track is linked.
 Track

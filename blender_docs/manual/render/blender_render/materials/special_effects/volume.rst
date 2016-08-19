@@ -17,8 +17,8 @@ which represents the various interactions of light in a volume relatively realis
 
    Volume rendering.
 
-Rendering a volume is different then :doc:`Solid Render
-</render/blender_render/materials/properties/diffuse_shaders>`.
+Rendering a volume is different then 
+:doc:`Solid Render </render/blender_render/materials/properties/diffuse_shaders>`.
 For volume light enters a 3D region of space (defined as the volume)
 that may be filled with small particles, such as smoke, mist or clouds.
 The light bounces around off the various molecules, being scattered or absorbed,
@@ -406,14 +406,15 @@ The material must be a volumetric material with a Density of 0, and a high Densi
 Smoke requires a complex material to render correctly. Select the big cube and go to the material tab.
 There change the material to 'Volume' and set the density to 0.
 If you set the density to values bigger than 0 the domain cube will be filled with the volume material.
-The `other settings <https://wiki.blender.org/index.php/User:Broken/VolumeRenderingDev>`__ will affect the smoke,
-though. We'll cover those later.
+The `other settings <https://wiki.blender.org/index.php/User:Broken/VolumeRenderingDev>`__ 
+will affect the smoke, though. We'll cover those later.
 
 Add the Texture
 ---------------
 
 In addition, Smoke requires its own texture,
-you can use a volumetric texture known as :doc:`Voxel Data </render/blender_render/textures/types/volume/index>`.
+you can use a volumetric texture known as
+:doc:`Voxel Data </render/blender_render/textures/types/volume/index>`.
 You must remember to set the domain object and change the influence.
 
 .. figure:: /images/bi_fire.jpg

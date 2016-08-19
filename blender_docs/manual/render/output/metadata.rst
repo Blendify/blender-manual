@@ -22,7 +22,9 @@ Stamp Output
       Set the size of the text.
 
 
-Stamping can include the following data:
+.. rubric:: Enabled Metadata
+
+Stamping can include the following data.
 
 Time
    Includes the current scene time and render frame as ``HH:MM:SS.FF``
@@ -47,8 +49,7 @@ Note
       such as an identifier for the render-node or the job-number.
 
       For details on stamping arbitrary values,
-      see: `this page <https://blender.stackexchange.com/questions/26643>`__
-
+      see: `this page <https://blender.stackexchange.com/questions/26643>`__.
 
 Camera
    Includes the name of the active camera.

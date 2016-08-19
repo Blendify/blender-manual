@@ -6,7 +6,7 @@ Vehicle Controller Physics
 Introduction
 ============
 
-The Vehicle Controller is a special :ref:`type of physics object <game_engine-physics-types>`
+The Vehicle Controller is a special :ref:`type of physics object <game-engine-physics-types>`
 that the Physics Engine (bullet) recognizes.
 
 It is composed of a *rigid body*
