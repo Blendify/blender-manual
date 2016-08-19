@@ -4,8 +4,8 @@
 Introduction
 ************
 
-When you start Blender you should see a screen similar to this
-(the splash screen in the center will change with new versions):
+After starting Blender and closing the :ref:`Splash Screen <splash>`
+your Blender window should look something similar to the image below:
 
 .. figure:: /images/blender_default_startup.png
 
@@ -25,26 +25,20 @@ The default scene is separated into five areas and is loaded each time you start
 These five areas are:
 
 - The Info Editor (shaded red) at the top.
-  (The Info Editor used mainly for its header).
 - A large 3D View (shaded green).
 - A Timeline at the bottom (shaded purple).
 - An Outliner at the top right (shaded yellow).
 - A Properties Editor at the bottom right (shaded blue).
 
-As an introduction we will cover a few of the basic elements.
+In this chapter, each of the the basic elements of an editor will be discussed.
 
-.. figure:: /images/interface_window-system-default_scene.jpg
-   :width: 650px
+.. figure:: /images/interface_window-system-default_scene.png
 
    Default Blender scene and area arrangement.
 
 
 User Interface Principles
 =========================
-
-.. figure:: /images/getting_started-basics_interface_introduction_03.jpg
-
-   This is an example of Blender's multiple window support.
 
 Non Overlapping
    The UI is designed to allow you to view all relevant options and tools at a glance
@@ -57,5 +51,4 @@ Non Blocking
 
 Non Modal Tools
    Tools can be accessed efficiently without taking time to select between different tools.
-   Many tools use consistent and predictable,
-   mouse and keyboard actions for interaction.
+   Many tools use consistent and predictable, mouse and keyboard actions for interaction.

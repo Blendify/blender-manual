@@ -78,18 +78,18 @@ If you press :kbd:`Esc` before releasing the mouse, the operation will be aborte
 Changing Area Size
 ==================
 
-You can resize areas by dragging their borders with :kbd:`LMB`. Simply move your
-mouse cursor over the border between two areas until it changes to a double-headed arrow,
-and then click and drag.
+You can resize areas by dragging their borders with :kbd:`LMB`.
+Simply move your mouse cursor over the border between two areas
+until it changes to a double-headed arrow, and then click and drag.
 
 
 Swapping Contents
 =================
 
-You can swap the contents between two areas with :kbd:`Ctrl-LMB` on one of the
-splitters of the initial area, dragging towards the target area,
-and releasing the mouse there.
-The two areas do not need to be side by side, though they must be inside the same window.
+You can swap the contents between two areas with :kbd:`Ctrl-LMB`
+on one of the splitters of the initial area, dragging towards the target area,
+and releasing the mouse there. The two areas do not need to be side by side,
+though they must be inside the same window.
 
 
 Opening New Windows
@@ -98,15 +98,12 @@ Opening New Windows
 You may wish to have a new window. This can be useful, for instance,
 if you have multiple monitors and want them to show different information on the same instance of Blender.
 
-A new window can be created from :menuselection:`Window --> Duplicate Window`.
+A new window can be created from :menuselection:`View --> Duplicate Area into new Window`.
 
-You can also create a new window from an existing area by :kbd:`Shift-LMB` on a area splitter,
-and dragging slightly.
-A new window pops up, with its maximize, minimize, close and other buttons
-(depending on your platform), containing a single area with a duplicate of the initial window
-on which you performed the operation.
+You can also create a new window from an existing area by :kbd:`Shift-LMB`
+on the area splitter icon, then dragg slightly.
 
-Once you have that new window, you can move it to the other monitor
+Once the new window has opened, you can move it to the other monitor
 (or leave it in the current one); you can resize it (or keep it unchanged);
 you can also arrange its contents in the same way discussed so far
 (split and resize areas, and tune them as needed), and so on.

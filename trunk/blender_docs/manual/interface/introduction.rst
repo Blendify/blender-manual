@@ -16,12 +16,12 @@ When starting Blender, the splash screen appears in the center of the window.
 
    Blender Splash Screen.
 
-To close the splash screen start a new project,
-click anywhere outside the splash screen (but inside Blender Window) or press :kbd:`Esc`.
+To close the splash screen and start a new project,
+click anywhere outside the splash screen (but inside the Blender Window) or press :kbd:`Esc`.
 The splash screen will disappear revealing the startup scene.
 
-To reopen the splash click on the Blender icon in the Info Editor header or
-select :menuselection:`Help --> Splash Screen` also in the Info Editor.
+To reopen the splash click on the Blender icon in the :doc:`Info Editor </editors/info/index>`
+header or select :menuselection:`Info Editor --> Help --> Splash Screen`.
 
 Title
    Besides the Blender icon and text, it shows the Blender version. i.e. the current version is |BLENDER_VERSION|.
@@ -69,10 +69,10 @@ Screen Elements
    :align: right
    :width: 350
 
-The Blender window is organized into one or more *Areas* with each area
-containing an *Editor*. Editors are divided into a `Header`_ and one or more
-`Regions`_. Regions can have smaller structuring elements like `panels`_ with
-buttons, controls and widgets placed within them.
+The Blender window is organized into one or more *Areas* with each area containing an *Editor*.
+Editors are divided into a `Header`_ and one or more `Regions`_.
+Regions can have smaller structuring elements like `panels`_ with buttons,
+controls and widgets placed within them.
 
 The composition of various Areas with predefined Editors in them is
 called a *Screen Layout*. By default Blender starts up with a layout of
@@ -137,12 +137,6 @@ Much like additional regions the header can be hidden.
 
 The 3D View above the header is marked with a purple frame.
 
-.. list-table:: Useful Hotkeys
-   :widths: 15 85
-
-   * - :kbd:`F5`
-     - Move Header from Top to Bottom (mouse pointer must be over it)
-
 See: :doc:`Headers </interface/editors/headers>` for details.
 
 
@@ -157,10 +151,10 @@ which can be collapsed to hide its contents by clicking on its header.
 This is where the buttons, menus, checkboxes, etc. are located.
 
 Panels are usually found in the side regions of an editor,
-but also make up most of the :doc:`Properties Editor </editors/properties/index>`'s main region.
+but also make up most of the :doc:`Properties Editor </editors/properties/index>`.
 
 In the image on the right there are three panels: *Transform*, *Edit* and *History*.
-The edit panel is expanded and the other two panels are collapsed.
+The *Edit* panel is expanded and the other two panels are collapsed.
 Note that you can change the order of panels by clicking
 on the handle in the upper right corner of a panel's title.
 
@@ -173,7 +167,7 @@ Tabs
 .. figure:: /images/getting_started-basics_interface_introduction_07.png
    :align: right
 
-The Toolshelf has been further structured
+The *Toolshelf* has been further structured
 into a set of context sensitive vertical tabs.
 
 In the image to the right you can see the tabs: *Tools*, *Create*, etc.
@@ -183,11 +177,11 @@ The *Tools* tab is currently selected, showing a set of panels containing variou
 Pinning
 -------
 
-Often it is desirable to view panels from different
-tabs at the same time. This has been solved
-by making panels pinnable.
+Often it is desirable to view panels from different tabs at the same time.
+This has been solved by making panels pinnable.
 
 A pinned panel remains visible regardless of which tab has been selected.
-You can pin a panel by :kbd:`Shift` clicking its header, or by right clicking on the header and choosing *Pin*.
+You can pin a panel by :kbd:`Shift` clicking its header,
+or by right clicking on the header and choosing *Pin*.
 
-Shown in the image above is an example of the *Mesh Options* pinned in the tools tab.
+Shown in the image to the right is an example of the *Mesh Options* pinned in the tools tab.

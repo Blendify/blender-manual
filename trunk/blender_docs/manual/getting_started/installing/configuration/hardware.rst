@@ -8,13 +8,15 @@ Displays
 
 Todo.
 
-.. Include HMD for Blender 2.78
+.. Include HMD for the future
 
 
 Multi-Monitor Setup
 -------------------
 
-Todo.
+.. figure:: /images/getting_started-basics_interface_introduction_03.jpg
+
+   This is an example of Blender's multi-monitor support.
 
 
 Input Devices
