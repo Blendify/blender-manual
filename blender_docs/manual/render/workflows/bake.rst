@@ -47,11 +47,6 @@ but will have much fewer faces/polygons.
 Options
 =======
 
-.. figure:: /images/render-bake-ao.jpg
-
-   Ambient Occlusion.
-
-
 Bake Mode
 ---------
 
@@ -60,32 +55,39 @@ Full Render
 
 Bakes all materials, textures, and lighting except specularity and SSS.
 
+
 Ambient Occlusion
 ^^^^^^^^^^^^^^^^^
 
 Bakes ambient occlusion as specified in the World panels. Ignores all lights in the scene.
 
+.. figure:: /images/render-bake-ao.jpg
+
+   Ambient Occlusion.
+
 Normalized
    Normalize without using material's settings.
+
 
 Shadow
 ^^^^^^
 
 Bakes shadows and lighting.
 
-.. figure:: /images/render-bake-norm.jpg
-
-   Normals.
-
-.. figure:: /images/render-bake-normspace.jpg
-
-   Normal Space.
-
 
 Normals
 ^^^^^^^
 
 Bakes tangent and camera-space normals (amongst many others) to an RGB image.
+
+.. figure:: /images/render-bake-norm.jpg
+
+   Normals.
+
+.. figure:: /images/render-bake-normspace.jpg
+   :align: right
+
+   Normal Space.
 
 Normal Space
    Normals can be baked in different spaces:
@@ -105,14 +107,11 @@ For materials the same spaces can be chosen as well, in the image texture option
 next to the existing *Normal Map* setting. For correct results,
 the setting here should match the setting used for baking.
 
+
 Textures
 ^^^^^^^^
 
 Bakes colors of materials and textures only, without shading.
-
-.. figure:: /images/render-bake-disp.jpg
-
-   Displacement.
 
 
 Displacement
@@ -121,6 +120,10 @@ Displacement
 Similar to baking normal maps,
 displacement maps can also be baked from a high-res object to an unwrapped low-res object,
 using the *Selected to Active* option.
+
+.. figure:: /images/render-bake-disp.jpg
+
+   Displacement.
 
 Normalized
    Normalize to the distance.
@@ -203,6 +206,40 @@ Select to Active
 Workflow
 ========
 
+<<<<<<< .mine
+#. In a 3D View editor, select a mesh and enter UV/Face Select mode
+#. :ref:`Unwrap the mesh object <editors-uv_image-index>`
+#. In a UV/Image Editor, either create a new image or open an existing one.
+   If your 3D View is in textured display mode, you should now see the image mapped to your mesh.
+   Ensure that all faces are selected.
+#. In the Bake panel at the bottom of the *Render menu*, bake your desired type of image
+   (*Full Render* etcetera.)
+#. When rendering is complete, Blender replaces the image with the Baked image.
+#. Save the image.
+#. Apply the image to the mesh as a UV texture. For displacement and normal maps,
+   refer to :doc:`Bump and Normal Maps </render/blender_render/textures/influence/material/bump_and_normal>`.
+   For full and texture bakes, refer to :doc:`Textures </render/blender_render/textures/index>`.
+#. Refine the image using the process described below,
+   or embellish with :ref:`painting_texture-index`
+   or an external image editor.
+||||||| .r2398
+- In a 3D View editor, select a mesh and enter UV/Face Select mode
+- :ref:`Unwrap the mesh object <editors-uv_image-index>`
+- In a UV/Image Editor, either create a new image or open an existing one.
+  If your 3D View is in textured display mode, you should now see the image mapped to your mesh.
+  Ensure that all faces are selected.
+- In the Bake panel at the bottom of the *Render menu*, bake your desired type of image
+  (*Full Render* etcetera.)
+- When rendering is complete, Blender replaces the image with the Baked image.
+- Save the image.
+- Apply the image to the mesh as a UV texture. For displacement and normal maps,
+  refer to :doc:`Bump and Normal Maps </render/blender_render/textures/influence/material/bump_and_normal>`.
+  For full and texture bakes,
+  refer to :doc:`Textures </render/blender_render/textures/index>`.
+- Refine the image using the process described below,
+  or embellish with :ref:`painting_texture-index`
+  or an external image editor.
+=======
 - In a 3D View editor, select a mesh and enter UV/Face Select mode
 - :ref:`Unwrap the mesh object <editors-uv-image-index>`
 - In a UV/Image Editor, either create a new image or open an existing one.
@@ -219,3 +256,4 @@ Workflow
 - Refine the image using the process described below,
   or embellish with :ref:`painting-texture-index`
   or an external image editor.
+>>>>>>> .r2399

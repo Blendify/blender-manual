@@ -63,13 +63,13 @@ but gives you more flexibility.
 
 Here are some guidelines to help you choose an approach.
 
-Direct Approach
+Direct Approach:
 
 - short segments with total render time < 1 hour
 - stable power supply
 - computer not needed for other uses
 
-Frame Sequence Approach
+Frame Sequence Approach:
 
 - total render time > 1 hour
 - post-production work needed
@@ -140,7 +140,7 @@ Post Processing Panel
 Hints
 =====
 
-You accidentally turned off you're PC right in the middle of rendering my movie!
+You accidentally turned off you're PC right in the middle of rendering your movie!
    Unless your animation renders in a few minutes,
    it's best to render the animation as separate image files.
    Instead of rendering directly to a compressed movie file, use a loss-less format (i.e. ``PNG``).

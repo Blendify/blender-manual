@@ -38,15 +38,28 @@ Tangent Shading
 Cubic Interpolation
    Use cubic interpolation for diffuse values. Enhances the contrast between light areas and shadowed areas
 
+   .. list-table::
 
-.. list-table::
+      * - .. figure:: /images/light-lamps-sphere_non-cubic_shadow.jpg
+             :width: 200px
 
-   * - .. figure:: /images/light-lamps-sphere_non-cubic_shadow.jpg
-          :width: 200px
+             Without Cubic enabled.
 
-          Without Cubic enabled.
+        - .. figure:: /images/light-lamps-sphere_cubic_shadow.jpg
+             :width: 200px
 
+<<<<<<< .mine
+             With Cubic enabled.
+||||||| .r2398
      - .. figure:: /images/light-lamps-sphere_cubic_shadow.jpg
           :width: 200px
 
           With Cubic enabled.
+
+
+=======
+     - .. figure:: /images/light-lamps-sphere_cubic_shadow.jpg
+          :width: 200px
+
+          With Cubic enabled.
+>>>>>>> .r2399

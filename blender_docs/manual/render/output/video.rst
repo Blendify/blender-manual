@@ -23,6 +23,9 @@ on the screen. Everything within the two rectangles may or may not be visible,
 depending on the given TV set that your audience watches the video on.
 
 
+
+.. Remove:? Talk to Sergey.
+
 Color Saturation
 ================
 
@@ -117,7 +120,14 @@ Mux
 
    .. note:: Standards
 
+<<<<<<< .mine
+   Some codecs cannot encode off-the-wall video sizes,
+   so stick to the XY sizes used in the presets for standard TV sizes.
+||||||| .r2398
+   Codecs cannot encode off-the-wall video sizes, so stick to the XY sizes used in the presets for standard TV sizes.
+=======
       Codecs cannot encode off-the-wall video sizes, so stick to the XY sizes used in the presets for standard TV sizes.
+>>>>>>> .r2399
 
 Rate
    The bitrate control also includes a *Minimum* and a *Maximum*.
@@ -130,8 +140,8 @@ Audio Codec
    :doc:`video formats </data_system/files/media/video_formats>`.
 Bitrate
    For each codec, you can control the bitrate (quality) of the sound in the movie.
-   This example shows MP3 encoding at 128kbps. Higher bitrates are bigger files that stream worse but sound better.
-   Stick to powers of 2 for compatibility.
+   Higher bitrates are bigger files that stream worse but sound better.
+   Use powers of 2 for compatibility.
 Volume
    Sets the output volume of the audio.
 
@@ -144,14 +154,17 @@ Choosing which format to use depends on what you are going to do with the image.
 If you are animating a movie and are not going to do any post-processing or special effects on
 it, use either ``AVI-JPEG`` or ``AVI Codec`` and choose the XviD open codec.
 If you want to output your movie with sound that you have loaded into the VSE,
-use ``FFMPEG``.
+use M-PEG.
 
-If you are going to do post-processing on your movie, it is best to use a frameset rendered as ``OpenEXR`` images;
-if you only want one file, then choose *AVI Raw*. While AVI Raw is huge,
+If you are going to do post-processing on your movie, it is best to use a frameset rendered as "OpenEXR" images;
+if you only want one file, then choose "AVI Raw". While AVI Raw is huge,
 it preserves the exact quality of output for post-processing.
-After post-processing (compositing and/or sequencing), you can compress it down.
-You do not want to post-process a compressed file because the compression artifacts might
-throw off what you are trying to accomplish with the post-processing.
+After post-processing (compositing and/or sequencing), you should compress the video.
+
+.. tip::
+
+   You do not want to post-process a compressed file because the compression artifacts might
+   throw off what you are trying to accomplish with the post-processing.
 
 Note that you might not want to render directly to a video format.
 If a problem occurs while rendering, you have to re-render all frames from the beginning.
