@@ -36,20 +36,22 @@ There are several methods of removing keyframes
 Editing Keyframes
 =================
 
-For editing keyframes go to the :doc:`Graph Editor </editors/graph_editor/introduction>`
-or to the :doc:`Dopesheet </editors/dope_sheet/introduction>`
+Keyframes can be edited in two editors. To do so go to either the
+:doc:`Graph Editor </editors/graph_editor/index>`
+or the :doc:`Dopesheet </editors/dope_sheet/index>`.
 
 
 Bake Action
 ===========
 
-:menuselection:`Object --> Animation --> Bake action`
-(Or if you are in Pose Mode, :menuselection:`Pose --> Animation --> Bake action`)
+.. admonition:: Reference
+   :class: refbox
 
-This will apply interpolated frames into individual key frames.
+   | Mode:     Object and Pose Modes
+   | Menu:     :menuselection:`3D View --> Object/Pose --> Animation --> Bake action`
 
-Useful for adding deviation to a cyclic action like a walk cycle.
 
-Also useful to keyframe animation created from drivers or constraints.
+The *Bake Action* tool will apply interpolated frames into individual key frames.
 
-.. figure:: /images/animation_bake_action.png
+This can be useful for adding deviation to a cyclic action like a :term:`walk cycle`.
+This can also useful for keyframe animations created from drivers or constraints.
