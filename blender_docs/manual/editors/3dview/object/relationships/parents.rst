@@ -40,7 +40,6 @@ to parent objects, the *Child Objects* can only have one *Parent Object*.
 If a *Child Object* already has a *Parent Object* and you give it another parent then
 Blender will automatically remove the previous parent relationship.
 
-
 Blender supports many different types of parenting, listed below:
 
 - Object
@@ -246,7 +245,6 @@ The parent context menu item means users can rapidly set up a large number of ve
 relationships,
 and avoid the tedious effort of establishing each parent-child vertex relationship separately.
 
-
 .. note::
 
    It is in fact a sort of "reversed" :doc:`hook </modeling/modifiers/deform/hooks>`
@@ -254,7 +252,6 @@ and avoid the tedious effort of establishing each parent-child vertex relationsh
 
 Options
 =======
-
 
 Move child
 ----------
