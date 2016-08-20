@@ -17,14 +17,15 @@ position of the mirrored version of the selection is determined by the
 A common use of mirroring is to model half an object, duplicate it and then use the
 mirror transform to create a reversed version to complete the model.
 
-
 .. note::
 
    Mirrored duplicates can also be created with a :doc:`Mirror Modifier </modeling/modifiers/generate/mirror>`.
 
+.. _fig-mesh-duplicating-mirror-selection:
+
 .. figure:: /images/editors_3dview_transformations_advanced_mirror_mirror-example.jpg
 
-   Mirroring a selection.
+   Mirroring a Selection.
 
 
 Usage
@@ -32,8 +33,8 @@ Usage
 
 To mirror a selection along a particular global axis press:
 :kbd:`Ctrl-M`, followed by :kbd:`X`, :kbd:`Y` or :kbd:`Z`.
-The image *Mirroring a selection* shows the results of this action after a mesh
-element has been duplicated.
+The image :ref:`Mirroring a Selection <fig-mesh-duplicating-mirror-selection>`
+shows the results of this action after a mesh element has been duplicated.
 
 In Mesh mode, you can mirror the selection on the currently selected
 :doc:`Transform Orientations </editors/3dview/transform/transform_control/transform_orientations>`
@@ -44,7 +45,7 @@ will mirror the selection along the X-axis of the *Normal Orientation.*
 
 .. figure:: /images/editors_3dview_transformations_advanced_mirror_interactive-mirror.jpg
 
-   Interactive mirror.
+   Interactive Mirror.
 
 You can alternatively hold the :kbd:`MMB` to interactively mirror the object by moving
 the mouse in the direction of the mirror axis.

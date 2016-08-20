@@ -84,8 +84,8 @@ and the axis of transformation is X.
           Mesh after mirrored along X axis using the 3D cursor as a pivot point.
 
 
-Transformation orientation
-==========================
+Transformation Orientations
+===========================
 
 :doc:`Transformation Orientations </editors/3dview/transform/transform_control/transform_orientations>`
 are found on the 3D area header, next to the *Widget* buttons.
