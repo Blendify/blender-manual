@@ -329,7 +329,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('contents', 'Blender Reference Manual', 'Blender Manual Documentation',
-   'Campbell Barton', 'Blender Reference Manual'),
+   'Blender Documentation Team', 'Blender Reference Manual'),
 ]
 
 # Documents to append as an appendix to all manuals.
