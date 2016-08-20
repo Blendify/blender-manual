@@ -35,7 +35,6 @@ Options
 
 Exposure
    The exponential curvature, with (0.0 to 1.0) (linear to curved).
-
 Range
    The range of input colors that are mapped to visible colors (0.0 to 1.0).
 
