@@ -24,17 +24,20 @@ The default screen
 The default scene is separated into five areas and is loaded each time you start Blender or a new file.
 These five areas are:
 
-- The Info Editor (shaded red) at the top.
-- A large 3D View (shaded green).
-- A Timeline at the bottom (shaded purple).
-- An Outliner at the top right (shaded yellow).
-- A Properties Editor at the bottom right (shaded blue).
+- The Info Editor at the top.
+- A large 3D View.
+- A Timeline at the bottom.
+- An Outliner at the top right.
+- A Properties Editor at the bottom right.
 
 In this chapter, each of the the basic elements of an editor will be discussed.
 
 .. figure:: /images/interface_window-system-default_scene.png
 
    Default Blender scene and area arrangement.
+
+   Red: the Info Editor, green: the 3D View, purple: the Timeline,
+   yellow: the Outliner, blue: the Properties Editor.
 
 
 User Interface Principles
@@ -46,7 +49,7 @@ Non Overlapping
 
 Non Blocking
    Tools and interface options do not block the user from any other parts of Blender.
-   Blender typically doesn't use pop-up boxes
+   Blender typically does not use pop-up boxes
    (requiring users to fill in data before running an operation).
 
 Non Modal Tools
