@@ -32,11 +32,11 @@ Material slots
 With a material linked or created, one or several material slots can be created and further options become available:
 
 Plus sign
-   Add a new material slot or copy the one selected
+   Add a new material slot or copy the one selected.
 Minus sign
-   Remove selected material slot
+   Remove selected material slot.
 Down arrow
-   Copy and paste the selected material slot
+   Copy and paste the selected material slot.
 
 
 Multiple materials
@@ -48,11 +48,11 @@ as detailed on the :doc:`Multiple Materials </render/blender_render/materials/mu
 In edit mode, the following tools appear:
 
 Assign
-   Assign the material in the selected material slot to selected vertices
+   Assign the material in the selected material slot to selected vertices.
 Select
-   Select vertices assigned to the selected material slot
+   Select vertices assigned to the selected material slot.
 Deselect
-   Deselect vertices assigned to the selected material slot
+   Deselect vertices assigned to the selected material slot.
 
 
 Material naming and linking
@@ -104,9 +104,9 @@ These toggles tell Blender where this material fits into the Render Pipeline,
 and what aspects of the material are to be rendered.
 
 Surface
-   Render object as a surface
+   Render object as a surface.
 Wire
-   Render the edges of faces as wires (not supported in ray tracing)
+   Render the edges of faces as wires (not supported in ray tracing).
 Volume
    Render object as a volume. See `Volume Material`_.
 Halo
@@ -158,18 +158,18 @@ Shading
 Emit
    Adds extra illumination, as if the material is glowing.
 Ambient
-   Sets the global ambient light the material receives
+   Sets the global ambient light the material receives.
 Translucency
    Amount of shading on the back side that shows through. Use to simulate thin objects, like leaves or paper.
 Shadeless
    This disables the calculation of any shading, so only color information is visible.
-   This is essentially makes it a "surface shader"
+   This is essentially makes it a "surface shader".
 Tangent Shading
    Use the material's tangent vector instead of the normal for shading - for anisotropic shading effects
    (e.g. soft hair and brushed metal). This shading was introduced in 2.42,
    see also settings for strand rendering in the menu further down and in the Particle System menu.
 Cubic Interpolation
-   Use cubic interpolation for diffuse values, for smoother transitions between light areas and dark areas
+   Use cubic interpolation for diffuse values, for smoother transitions between light areas and dark areas.
 
 
 Transparency
@@ -210,7 +210,7 @@ Traceable
 Full Oversampling
    Forces material to render full shading and textures for all Anti-Aliasing Samples.
 Sky
-   Renders material with no alpha, replacing the background with the sky
+   Renders material with no alpha, replacing the background with the sky.
 Use Mist
    Uses Mist with this material.
 Invert Z Depth
@@ -218,9 +218,9 @@ Invert Z Depth
 Z Offset
    If using Invert Z Depth, this is an artificial offset to z values.
 Light Group
-   Limit material's lighting calculation to a specific light group
+   Limit material's lighting calculation to a specific light group.
 Exclusive
-   Material uses light group exclusively
+   Material uses light group exclusively.
 Face Textures
    Replaces object's base color with color from face assigned image textures.
 Face Textures Alpha
@@ -237,7 +237,7 @@ Shadow
 ^^^^^^
 
 Receive
-   Allows the material to receive shadows cast by other objects
+   Allows the material to receive shadows cast by other objects.
 Receive Transparent
    Allows material to receive transparent shadows cast by other transparent objects.
 Cast Only
@@ -247,7 +247,7 @@ Casting Alpha
 Shadows Only
    Renders shadows as materials alpha value, making materials transparent, except for shadowed areas.
 Shadow Only Type
-   Set the type of shadows used when Shadows Only is enabled
+   Set the type of shadows used when Shadows Only is enabled.
 
    - Shadow and Distance
    - Shadow Only
@@ -257,11 +257,11 @@ Cast Buffer Shadow
 Buffer Bias
    Factor to multiply shadow buffer by.
 Auto Ray Bias
-   Prevents raytraced shadow errors on surfaces with smooth normals
+   Prevents raytraced shadow errors on surfaces with smooth normals.
 Ray Bias
    Shadow raytracing bias value to prevent terminator artifacts on shadow boudary.
 Cast Approximate
-   Allow material to cast shadows when using Approximate Ambient Occlusion}}
+   Allow material to cast shadows when using Approximate Ambient Occlusion.
 
 
 Volume Material

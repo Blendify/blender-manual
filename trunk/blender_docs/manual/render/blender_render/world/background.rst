@@ -30,10 +30,11 @@ Options
 
 
 Horizon Color
-   The RGB color at the horizon
+   The RGB color at the horizon.
 Zenith Color
-   The RGB color at the zenith (overhead)
+   The RGB color at the zenith (overhead).
 
+.. rubric:: Sky
 
 How these colors are interpreted depends on which kind of *Sky* is chosen.
 
@@ -73,20 +74,20 @@ except for a couple of differences. The textures can be mapped according to:
 
 Texture Coordinates
    View
-      The default orientation, aligned with the co-ordinates of the final render
+      The default orientation, aligned with the co-ordinates of the final render.
    Global
-      Uses global coordinates
+      Uses global coordinates.
    AngMap
       Used to wrap a standard hemisphere angular map around the scene in a dome.
       This can be used for image based lighting with *Ambient Occlusion* set to sky color.
       You will generally need a high dynamic range image (HDRI) angular map.
       (It will look like a weird spherical image).
    Sphere
-      Sphere mapping, similar to that of materials
+      Sphere mapping, similar to that of materials.
    Tube
-      Wrap the rectangular texture around in a cylinder, similar to that of materials
+      Wrap the rectangular texture around in a cylinder, similar to that of materials.
    Object
-      Position the texture relative to a specified object's local texture space
+      Position the texture relative to a specified object's local texture space.
 
 .. figure:: /images/bi_world-texinfluence.jpg
    :width: 297px
@@ -97,13 +98,13 @@ Texture Coordinates
 The texture affects color only, but in four different ways:
 
 Blend
-   Makes the Horizon color appear where the texture is non-zero
+   Makes the Horizon color appear where the texture is non-zero.
 Horizon
-   Affect the color of the horizon
+   Affect the color of the horizon.
 Zenith Up
-   Affect the zenith color overhead
+   Affect the zenith color overhead.
 Zenith Down
-   Affect the zenith color underneath
+   Affect the zenith color underneath.
 
 If you are disappointed that your camera appears to carry the texture with it rather than
 rotate through the texture,

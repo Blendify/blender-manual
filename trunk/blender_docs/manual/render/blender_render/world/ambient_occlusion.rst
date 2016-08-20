@@ -50,7 +50,6 @@ Ambient Occlusion is composited during the render. Two blending modes are availa
 Add
    The pixel receives light according to the number of non-obstructed rays.
    The scene is lighter. This simulates global illumination.
-
 Multiply
    Ambient occlusion is multiplied over the shading, making things darker.
 
