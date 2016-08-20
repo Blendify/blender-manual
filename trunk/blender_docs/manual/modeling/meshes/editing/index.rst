@@ -8,10 +8,11 @@
 
    introduction.rst
    basics/index.rst
-   normals.rst
+   mesh_options.rst
    vertices.rst
    edges.rst
    faces.rst
+   normals.rst
    deforming/index.rst
    duplicating/index.rst
    subdividing/index.rst
