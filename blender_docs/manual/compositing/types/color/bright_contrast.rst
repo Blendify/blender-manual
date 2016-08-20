@@ -32,7 +32,7 @@ Outputs
 =======
 
 Image
-   Standard image input.
+   Standard image output.
 
 
 Notes
