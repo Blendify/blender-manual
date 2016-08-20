@@ -3,7 +3,6 @@
 Building on OSX
 ***************
 
-
 Converting the rst files into pretty html pages.
 
 Open a terminal to the folder ``~/blender_docs`` and simply run:
