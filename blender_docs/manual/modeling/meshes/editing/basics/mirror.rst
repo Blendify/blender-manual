@@ -19,12 +19,21 @@ The *X-mirror* option of the *Mesh Options* panel allows you edit both
 if there is its exact X-mirrored counterpart (in local space),
 it will be transformed accordingly, through a symmetry along the local X axis.
 
+.. seealso::
+
+   The conditions for *X-Mirror* to work are quite strict, which can make it difficult to use.
+   To have an exact mirrored version of a (half) mesh,
+   its easier and simpler to use the :doc:`Mirror modifier </modeling/modifiers/generate/mirror>`
+
 
 Topology Mirror
 ===============
 
-The *Topology Mirror* option is available in the
-:menuselection:`3D View Editor --> Toolshelf Region --> Mesh Options Panel` while in *Edit Mode*
+.. admonition:: Reference
+   :class: refbox
+
+   | Mode:     Edit Mode
+   | Panel:    :menuselection:`Mesh Options --> Topology Mirror`
 
 .. note::
 
@@ -44,19 +53,19 @@ The effect of this is that mirrored vertices can be non-symetrical and yet still
 
 .. note::
 
-   The *Topology Mirror* functionality will work more reliably on Mesh Geometry
-   which is more detailed. If you use very simple Mesh Geometry such as a Cube or UV Sphere for
-   example the *Topology Mirror* option will often not work.
+   The *Topology Mirror* functionality will work more reliably on mesh geometry
+   which is more detailed. If you use very simple geometry for example,
+   a *Cube* or *UV Sphere* the *Topology Mirror* option will often not work.
 
 
 Example
 -------
 
 For an example of how to use *Topology Mirror* open up a new Blender scene,
-then delete Blender's default cube and add a Monkey Object to the 3D View.
+then delete the default cube and add a Monkey object to the 3D View.
 
-#. Press :kbd:`Tab` to put the Monkey Object into *Edit Mode*.
-#. With the *X Mirror* option disabled move one of the Monkey Object's vertices slightly.
+#. Press :kbd:`Tab` to put the Monkey object into *Edit Mode*.
+#. With the *X Mirror* option disabled move one of the Monkey object's vertices slightly.
 #. Then Turn *X Mirror* option on again but leave *Topology Mirror* disabled
 #. If you now move that vertice again *X Mirror* will not work and the mirrored
    vertices will not be altered.
@@ -118,7 +127,7 @@ Symmetrize Mesh
 The *Symmetrize* tool is a quick way to make a mesh symmetrical.
 *Symmetrize* works by cutting the mesh at the pivot point of the object,
 and mirroring over the geometry in the specified axis, and merges the two halves together
-(if they are connected)
+(if they are connected).
 
 Direction
    Specify the axis and direction of the effect. Can be any of the three axes,
@@ -137,14 +146,8 @@ Direction
           Mesh after Symmetrize.
 
 
-Mirroring Geometry
-==================
-
-See :doc:`Mirror </modeling/meshes/editing/deforming/mirror>` for information on mirroring,
-which allows you to flip geometry across an axis.
 
 .. seealso::
 
-   The conditions for X-mirror to work are quite strict, which can make it difficult to use.
-   To have an exact mirrored version of a (half) mesh,
-   its easier and simpler to use the :doc:`Mirror modifier </modeling/modifiers/generate/mirror>`
+   See :doc:`Mirror </modeling/meshes/editing/deforming/mirror>`
+   for information on mirroring, which allows you to flip geometry across an axis.
