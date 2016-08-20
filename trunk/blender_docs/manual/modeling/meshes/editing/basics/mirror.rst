@@ -19,7 +19,7 @@ The *X-mirror* option of the *Mesh Options* panel allows you edit both
 if there is its exact X-mirrored counterpart (in local space),
 it will be transformed accordingly, through a symmetry along the local X axis.
 
-.. seealso::
+.. note::
 
    The conditions for *X-Mirror* to work are quite strict, which can make it difficult to use.
    To have an exact mirrored version of a (half) mesh,
