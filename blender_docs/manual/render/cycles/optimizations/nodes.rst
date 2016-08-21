@@ -1,10 +1,9 @@
 
-***********
-Performance
-***********
+************
+Shader Nodes
+************
 
-In order to make creating node shaders more convenient,
-Cycles applies a number of optimizations both at compile time and runtime.
+Cycles applies a number of shader node optimizations both at compile time and runtime.
 By exploiting them it is possible to design complicated "Uber Shader"
 style node groups that incur minimal render time overhead for unused features.
 

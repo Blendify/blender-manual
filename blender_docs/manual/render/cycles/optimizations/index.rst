@@ -6,5 +6,6 @@
 .. toctree::
    :maxdepth: 2
 
-   performance.rst
+   settings.rst
    reducing_noise.rst
+   nodes.rst

@@ -8,5 +8,4 @@
 
    introduction.rst
    types/index.rst
-   performance.rst
    osl.rst
