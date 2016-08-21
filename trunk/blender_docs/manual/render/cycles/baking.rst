@@ -30,9 +30,9 @@ Bake Mode
 Combined
    Bakes all materials, textures, and lighting except specularity.
 
-.. figure:: /images/cycles-bake-combined.png
+   .. figure:: /images/cycles-bake-combined.png
 
-   Combined Pass Options.
+      Combined Pass Options.
 
 The passes that contribute to the combined pass can be toggled individually to form the final map.
 
@@ -43,9 +43,9 @@ Shadow
 Normals
    Bakes normals to an RGB image.
 
-.. .. figure:: /images/cycles-bake-normal.png
+   .. figure:: /images/cycles-bake-normal.png
 
-..   Normal Pass Options.
+   Normal Pass Options.
 
    Normal Space
       Normals can be baked in different spaces:
@@ -56,7 +56,6 @@ Normals
          Normals in tangent space coordinates, independent of object transformation and deformation.
          This is the default, and the right choice in most cases, since then the normal map can be used for animated
          objects too.
-
    Normal Swizzle
       Axis to bake into the red, green and blue channel.
 
