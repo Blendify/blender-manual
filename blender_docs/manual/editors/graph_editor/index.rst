@@ -1,8 +1,8 @@
 .. _editors-graph-index:
 
-###############
+################
   Graph Editor
-###############
+################
 
 .. toctree::
    :maxdepth: 2

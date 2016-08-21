@@ -26,9 +26,10 @@ Build Undistorted
    Builds images from undistorted original images for the sizes set above.
    This helps provide faster playback of undistorted footage.
 Quality
-   Defines the quality of the JPEG's used for proxies.
+   Defines the quality of the JPEG images used for proxies.
 Proxy Custom Directory
-   By default, all generated proxy images are storing to the <path of original footage>/BL_proxy/<clip name> folder,
+   By default, all generated proxy images are storing to
+   the ``<path of original footage>/BL_proxy/<clip name>`` folder,
    but this location can be set by hand using this option.
 Rebuild Proxy
    Regenerates proxy images for all sizes set above and regenerate all timecodes which can be used later.

@@ -1,8 +1,8 @@
 .. _editors-node-index:
 
-##############
+###############
   Node Editor
-##############
+###############
 
 .. toctree::
    :maxdepth: 2

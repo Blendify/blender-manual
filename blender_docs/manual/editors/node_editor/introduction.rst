@@ -1,6 +1,4 @@
 
-.. _node-editor:
-
 ************
 Introduction
 ************
@@ -44,13 +42,15 @@ Regions of the Node Editor
 Toolshelf
 ---------
 
-The *toolshelf* is a context-sensitive region, natively containing tools for the grease pencil and buttons for adding
-nodes. The toolshelf is organized using tabs.
+The *Toolshelf* is a context-sensitive region, natively containing tools for the Grease Pencil
+and buttons for adding nodes. The Toolshelf is organized using tabs.
+
 
 Properties Region
 -----------------
 
 The *properties region* contains properties for the current selected node as well as node editor specific settings.
+
 
 Header
 ------
@@ -58,6 +58,7 @@ Header
 The *header* contains various menus, buttons and options, partially based on the current node tree type.
 
 .. TODO - see: https://developer.blender.org/T43570
+
 
 Navigating
 ==========

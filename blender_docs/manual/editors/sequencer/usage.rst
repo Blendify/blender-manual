@@ -40,6 +40,7 @@ Show Frame Number Indicator
 Transform Markers
    Transform Markers as well as Strips.
 
+
 Scrubbing
 ---------
 
@@ -57,6 +58,7 @@ image sequence or movie (avi/mov) file.
 Scene strips can use OpenGL previews or proxies for realtime playback,
 otherwise displaying rendered frame is supported, but typically too slow for real-time playback.
 
+
 View Modes
 ----------
 
@@ -66,6 +68,7 @@ and the third button displays both the Sequencer and the Preview.
 
 When the preview is enabled, you have several options to change what type pf preview to display.
 They are explained in the :doc:`Display Modes Page </editors/sequencer/display_modes>`.
+
 
 Refresh View
 ------------
@@ -168,6 +171,7 @@ The Strip Menu contains additional tools for working with strips:
 - *Snap Strips*
 - *Swap Strips*
 
+
 Snap to Frame
 -------------
 
@@ -177,6 +181,7 @@ Snap to current frame to start a strip exactly at the beginning of the frame.
 If your Time display is in seconds,
 you can get to fractional parts of a second by zooming the display;
 you can get all the way down to an individual frame.
+
 
 Separate Images to Strips
 -------------------------
@@ -259,6 +264,7 @@ cut a strip by pressing :kbd:`K` to cut. At the selected frame for the selected 
    still happening so that the stop action is not that noticeable.
 
 Change the length of an effect strip by changing the start/end frame of the origin strips.
+
 
 Copy and Paste
 --------------

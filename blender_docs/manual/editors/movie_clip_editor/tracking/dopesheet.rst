@@ -1,7 +1,7 @@
 
-##################
-  Dope Sheet View
-##################
+***************
+Dope Sheet View
+***************
 
 Introduction
 ============
@@ -17,6 +17,7 @@ To support this in a nice way, you must toggle between modes
 specified to a view in the whole area of the movie clip editor.
 Hence, to display a curve or dope sheet view, the editor must be split into two,
 with one switched to the curve or dope sheet view.
+
 
 Usage
 =====

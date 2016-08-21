@@ -1,11 +1,12 @@
 
-***********
+**********
 Graph View
-***********
+**********
 
 .. figure:: /images/editors_movie-clip_graph.png
 
    Graph View
+
 
 Introduction
 ============
@@ -17,6 +18,7 @@ The blue line is the line that comes out when you click on the film strip is the
 This curve is available only after pressing camera solve and is not editable.
 This is the one line that you want to be as flat as possible and as closer to zero as you can.
 The high points will show you where in your shot you are having inaccurate tracking.
+
 
 Usage
 =====

@@ -17,7 +17,7 @@ We will look at each one individually.
 .. figure:: /images/logic_expanded_menus.jpg
 
    The different parts of the Logic Editor.
-	
+
    1) Property Region, 2) Object Name, 3a) Links, 3b) Link socket,
    4) Sensor column, 5) Controller Column, 6) Actuator Column
 
