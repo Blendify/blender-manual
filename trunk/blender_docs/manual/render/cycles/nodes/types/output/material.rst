@@ -7,20 +7,20 @@ Inputs
 ======
 
 Surface
-   The surface output of the material
+   The surface output of the material.
 Volume
    Used to output of the different volume shaders.
 
    .. seealso::
 
-      The typs of volume shaders are:
+      The types of volume shaders are:
 
       - :doc:`Emission </render/cycles/nodes/types/shaders/emission>` shader.
       - :doc:`Volume Absorption </render/cycles/nodes/types/shaders/volume_absorption>` shader.
       - :doc:`Volume Scatter </render/cycles/nodes/types/shaders/volume_scatter>` shader.
 
 Displacement
-   Used to create bump mapping or actual subdivided :doc:`Displacement </render/cycles/materials/displacement>`
+   Used to create bump mapping or actual subdivided :doc:`Displacement </render/cycles/materials/displacement>`.
 
 
 Properties
