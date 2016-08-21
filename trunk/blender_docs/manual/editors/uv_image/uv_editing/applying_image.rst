@@ -160,6 +160,7 @@ If you move the image file, Blender may not be able to find it,
 and you will have to :menuselection:`Image --> Replace` it.
 Use this option to map a UV layout to a different image altogether.
 
+
 Replacing the active Image
 --------------------------
 

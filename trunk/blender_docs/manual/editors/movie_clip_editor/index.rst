@@ -1,8 +1,8 @@
 .. _editors-movieclip-index:
 
-####################
+#####################
   Movie Clip Editor
-####################
+#####################
 
 .. toctree::
    :maxdepth: 2

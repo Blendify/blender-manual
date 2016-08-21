@@ -1,8 +1,8 @@
 .. _editors-uv-image-index:
 
-##################
+###################
   UV/Image Editor
-##################
+###################
 
 .. toctree::
    :maxdepth: 2

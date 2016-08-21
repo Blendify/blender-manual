@@ -1,8 +1,8 @@
 .. _sequencer-effects-index:
 
-################
+#################
   Effect Strips
-################
+#################
 
 .. toctree::
    :maxdepth: 2

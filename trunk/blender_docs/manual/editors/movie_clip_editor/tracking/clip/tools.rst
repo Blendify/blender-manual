@@ -96,7 +96,8 @@ Plane Track Panel
 -----------------
 
 *Create Plane Track* operator creates a new plane track.
-4 markers are needed to be selected which will form the four corners of the plane.
+Four markers are needed to be selected which will form the four corners of the plane.
+
 
 Solve Panel
 -----------
@@ -121,6 +122,7 @@ Such refining is useful when you are not sure about some camera intrinsics,
 and solver should try to find the best parameter for those intrinsics.
 But you still have to know approximate initial values -
 it will fail to find correct values if they were set completely incorrectly initially.
+
 
 Cleanup Panel
 -------------

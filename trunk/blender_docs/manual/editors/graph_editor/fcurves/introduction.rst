@@ -189,7 +189,7 @@ Auto Clamped
       Auto clamped handles.
 
 
-Direction of time
+Direction of Time
 =================
 
 Although F-Curves are very similar to :ref:`curves-bezier`,

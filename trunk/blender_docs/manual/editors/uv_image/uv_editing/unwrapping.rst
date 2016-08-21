@@ -226,6 +226,7 @@ you have modeled. You will get some stretching in areas where the model recedes 
 Using *Project from View (Bounds)* will do the same as above,
 but scales the UVs to the bounds of the UV space.
 
+
 .. _reset-uvs:
 
 Resetting UVs
