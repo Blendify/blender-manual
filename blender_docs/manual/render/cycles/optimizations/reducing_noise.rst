@@ -4,7 +4,7 @@ Reducing Noise
 **************
 
 When performing a final render, it is important to reduce noise as much as possible.
-Here we'll discuss a number of tricks that, while breaking the laws of physics,
+Here we will discuss a number of tricks that, while breaking the laws of physics,
 are particularly important when rendering animations within a reasonable time.
 Click to enlarge the example images to see the noise differences well.
 
@@ -31,9 +31,11 @@ but also means that it is difficult to find some light paths that may contribute
 Light rays will be sent either according to the surface BRDF,
 or in the direction of known light sources (lamps, emitting meshes with Sample as Lamp).
 
-For more details, see the
-:doc:`Light Paths </render/cycles/settings/light_paths>` and
-:doc:`Integrator </render/cycles/settings/integrator>` documentation.
+.. seealso:: 
+
+   For more details, see the
+   :doc:`Light Paths </render/cycles/settings/light_paths>` and
+   :doc:`Integrator </render/cycles/settings/integrator>` documentation.
 
 
 Where Noise Comes From
@@ -59,8 +61,8 @@ other parts of the image and will contribute significantly to the lighting of th
           :width: 180px
 
 
-The lamp is a known light source, so it will not be too hard to find, but the glossy highlight
-(s) that it causes are a different matter.
+The lamp is a known light source, so it will not be too hard to find,
+but the glossy highlight(s) that it causes are a different matter.
 The best we can do with path tracing is to distribute light rays randomly over the hemisphere,
 hoping to find all the important bright spots. If for some pixels we miss some bright spot,
 but we do find it for another, that results in noise. The more samples we take,

@@ -19,7 +19,6 @@ You have:
 
 :doc:`Background </render/blender_render/world/background>`
    The color and texture of the world background, with special settings for mapping coordinates.
-
 :doc:`Mist </render/blender_render/world/mist>`
    Add a mist to your scene to enhance the feeling of depth.
 

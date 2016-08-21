@@ -38,10 +38,8 @@ The passes that contribute to the combined pass can be toggled individually to f
 
 Ambient Occlusion
    Bakes ambient occlusion as specified in the World panels. Ignores all lights in the scene.
-
 Shadow
    Bakes shadows and lighting.
-
 Normals
    Bakes normals to an RGB image.
 
@@ -54,7 +52,6 @@ Normals
 
       Object space
          Normals in object coordinates, independent of object transformation, but dependent on deformation.
-
       Tangent space
          Normals in tangent space coordinates, independent of object transformation and deformation.
          This is the default, and the right choice in most cases, since then the normal map can be used for animated
@@ -68,13 +65,10 @@ setting. For correct results, the setting here should match the setting used for
 
 UV
    Bakes colors of materials and textures only, without shading.
-
 Emit
    Bakes Emission, or the Glow color of a material.
-
 Environment
    Bakes the environment as seen from the center of the object.
-
 Diffuse / Glossy / Transmission / Subsurface
    Bakes the diffuse, glossiness, transmission of subsurface pass of a material.
 
@@ -95,10 +89,8 @@ Additional Options
 
 Margin
    Baked result is extended this many pixels beyond the border of each UV "island," to soften seams in the texture.
-
 Clear
    If selected, clears the image before baking render.
-
 Select to Active
    Bake shading on the surface of selected objects to the active object.
    The rays are cast from the lowpoly object inwards towards the highpoly object.
@@ -121,17 +113,14 @@ Cage
    (by adjusting the ray distance) or manually (by specifying an object to use).
    When not using a cage the rays will conform to the mesh normals. This produces glitches on the edges,
    but it's a preferable method when baking into planes to avoid the need of adding extra loops around the edges.
-
 Ray Distance
    Distance to use for the inward ray cast when using selected to active.
    Ray distance is only available when not using *Cage*.
-
 Cage Extrusion
    Distance to use for the inward ray cast when using *Selected to Active* and *Cage*.
    The inward rays are casted from a version of the active object with disabled Edge Split modifiers.
    Hard splits (e.g., when the Edge Split modifier is applied) should be avoided because they will lead to non-smooth
    normals around the edges.
-
 Cage
    Object to use as cage instead of calculating the cage from the active object with the *Cage Extrusion*.
 

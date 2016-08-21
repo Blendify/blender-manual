@@ -19,19 +19,15 @@ Type
 
 Size
    Size of the lamp in Blender Units; increasing this will result in softer shadows and shading.
-
 Samples
    For the branch path tracing integrator, this specifies the number of direct light samples per AA sample.
    Point lamps might need only one sample, while area lamps typically need more.
-
 Max Bounces
    Maximum number of times light from the lamp is allowed to :term:`bounce`.
    Limited by :ref:`scene-wide bounce settings <cycles-bounces>`
-
 Cast Shadow
    By disabling this option, light from lamps will not be blocked by objects in-between.
    This can speed up rendering by not having to trace rays to the light source.
-
 Multiple Importance Sample
    By default lamps use only direct light sampling. For area lights and sharp glossy reflections, however,
    this can be noisy,

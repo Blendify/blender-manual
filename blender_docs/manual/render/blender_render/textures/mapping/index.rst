@@ -1,7 +1,7 @@
 
-#################
- Texture Mapping
-#################
+###################
+  Texture Mapping
+###################
 
 .. toctree::
    :maxdepth: 2

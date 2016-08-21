@@ -17,9 +17,8 @@ Option
 
    Mist panel.
 
-
 Mist check box
-   Toggles mist on and off
+   Toggles mist on and off.
 Minimum
    An overall minimum intensity, or strength, of the mist.
 Start
@@ -32,7 +31,7 @@ Height
    If greater than 0, it sets, in Blender units,
    an interval around z=0 in which the mist goes from maximum intensity (below) to zero (above).
 Falloff
-   The decay rate of the mist (*Quadratic* / *Linear* / *Inverse Quadratic*).
+   The decay rate of the mist (*Quadratic*, *Linear*, *Inverse Quadratic*).
    These settings control the rate of change of the mist's strength further and further into the distance.
 
 

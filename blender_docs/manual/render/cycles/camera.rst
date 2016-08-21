@@ -73,44 +73,35 @@ Depth of Field
 Focus
   Set an object to be used as a focal point by the camera, causing the camera
   to focus on the selected object.
-
 Distance
   When an object is not used, the camera can be set to focus on an area in 3D
   space set by the distance from the camera.
   Using the *Limit* Display option, you are able to view the distance in the 3D space.
-
 High Quality
   Enables the High Quality *view-port* depth of field, giving a more accurate
   representation of *depth of field*. This allows the view-port depth of field
   to be closely represented to that of the render and render preview depth of field.
-
 F-Stop
   Viewport depth of field aperture measured in F-Stops. Smaller numbers will
   cause more blur in the view-port, OpenGL renders, and sequencer.
-
 Blades
   The number of polygonal sides to give blurred objects in the view-port.
   The minimum number of blades needed to enable the bokeh effect is 3 (triangle).
   (Only available with High Quality).
-
 Aperture
   Use F-Stop or Radius to set the aperture for the render, and render preview.
   F-Stop is the focal ratio, where Radius is the the raidus of the focal point.
-
 Size/Number
   Aperture radius *size*, or F-Stop *number* used for the render, and render preview.
   Using the F-Stop with a low number, or Radius with a large size will result in a strong blur,
   also allowing the use of the *bokeh effect*.
-
 Blades
   Total number of polygonal blades used to alter the shape of the blurred objects
   in the render, and render preview. As with the view-port, the minimum amount of
   blades to enable the bokeh effect is 3, resulting in a triangle shaped blur.
-
 Rotation
   Rotate the polygonal blades along the facing axis, and will rotate in a clockwise,
   and counter-clockwise fashion.
-
 Ratio
   Change the amount of distortion to simulate the anamorphic bokeh effect.
   A setting of 1.0 shows no distortion, where a number below 1.0 will cause a horizontal distortion,
