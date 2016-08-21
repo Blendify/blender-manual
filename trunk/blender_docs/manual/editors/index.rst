@@ -1,8 +1,8 @@
 .. _editors-index:
 
-##########
+###########
   Editors
-##########
+###########
 
 .. figure:: /images/editors_menu.png
    :align: right
