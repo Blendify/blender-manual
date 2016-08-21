@@ -59,6 +59,6 @@ In the process it applies its own extensive set of optimizations, both at compil
 
 Open Shading Language can optimize out Script nodes if their outputs are unused or constant,
 even if their OSL shaders have side effects like debug tracing and message passing,
-which may be confusing. For that reason message passing with `setmessage` and `getmessage`
+which may be confusing. For that reason message passing with ``setmessage`` and ``getmessage``
 should generally not be used for passing information forward in the graph;
 explicitly passing information through sockets should be preferred.

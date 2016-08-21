@@ -120,7 +120,7 @@ Cache
       Show all enabled types.
 
       Softbody, Particles, Cloth, Smoke, Dynamic Paint, Rigid Body.
-   
+
    .. figure:: /images/timeline_cache.jpg
 
       Timeline Cache.

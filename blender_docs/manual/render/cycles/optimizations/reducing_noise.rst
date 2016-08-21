@@ -31,7 +31,7 @@ but also means that it is difficult to find some light paths that may contribute
 Light rays will be sent either according to the surface BRDF,
 or in the direction of known light sources (lamps, emitting meshes with Sample as Lamp).
 
-.. seealso:: 
+.. seealso::
 
    For more details, see the
    :doc:`Light Paths </render/cycles/settings/light_paths>` and

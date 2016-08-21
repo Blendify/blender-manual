@@ -133,7 +133,7 @@ The examples below explain the use of edge marks.
 
 .. figure:: /images/freestyle-edge-marks-viewport.png
 
-   Marking Freestyle Edges in edit mode. 
+   Marking Freestyle Edges in edit mode.
 
    The edge marks are highlighted in green.
 

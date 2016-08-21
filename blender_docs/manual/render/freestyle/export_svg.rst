@@ -1,4 +1,4 @@
-.. todo move to wiki?
+.. Move to wiki (TODO)?
 
 **********************
 Freestyle SVG Exporter

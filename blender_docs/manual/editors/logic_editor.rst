@@ -34,12 +34,12 @@ Links
    You cannot directly link Sensors to Actuators; likewise,
    Actuators cannot be linked back to Sensors
    (however, special actuator and sensor types are available to provide these connections).
-   
+
    Sending nodes (the black circles found on the right-hand side of Sensors and Controllers)
    can send to multiple Reception nodes
    (the white circles found on the left-hand side of Controllers and Actuators).
    Reception nodes can likewise receive multiple links.
-   
+
    Links can be created between logic bricks belonging to different objects.
    To delete a link between two nodes, :kbd:`LMB` drag between the two nodes.
 

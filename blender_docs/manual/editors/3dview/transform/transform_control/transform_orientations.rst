@@ -123,9 +123,9 @@ adding and deleting custom orientations.
    Renaming a Custom Orientation.
 
 
-The default name for these orientations comes from whatever you have selected. If an edge,
-it will be titled, "Edge," if an object, it will take that object's name, etc. 
-The Toolshelf (:kbd:`T` in the 3D View)
+The default name for these orientations comes from whatever you have selected.
+If an edge, it will be titled, "Edge," if an object,
+it will take that object's name, etc. The Toolshelf (:kbd:`T` in the 3D View)
 allows you to rename the custom orientation after you press :kbd:`Ctrl-Alt-Spacebar`.
 
 .. _fig-view3d-transform-orientation-extrusion:

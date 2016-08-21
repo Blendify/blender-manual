@@ -86,11 +86,11 @@ in degrees to specify the amount of rotation after after initiating a rotation t
 
 .. seealso::
 
-   - :doc:`Read more about Precision Control 
+   - :doc:`Read more about Precision Control
      </editors/3dview/transform/transform_control/precision/introduction>`.
-   - :doc:`Read more about Numerical Transformations 
+   - :doc:`Read more about Numerical Transformations
      </editors/3dview/transform/transform_control/precision/numeric_input>`.
-   - :doc:`Read more about Transform Orientations 
+   - :doc:`Read more about Transform Orientations
      </editors/3dview/transform/transform_control/transform_orientations>`.
 
 
@@ -104,7 +104,7 @@ Rotation with the 3D Transform Manipulator
 
 
 In the 3D View header, ensure that the Transform Manipulator is enabled
-(the red, green, and blue triad is selected). 
+(the red, green, and blue triad is selected).
 Set the manipulator type to rotation (the highlighted arc icon shown below).
 
 .. figure:: /images/editors_3dview_transformations-basic-rotate-rotate_manipulator_header.png
