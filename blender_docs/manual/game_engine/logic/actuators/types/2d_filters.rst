@@ -135,7 +135,7 @@ then write shader program into the Text Editor, and then place shader script nam
 
 Blue Sepia Example:
 
-.. code:: glsl
+.. code-block:: glsl
 
    uniform sampler2D bgl_RenderedTexture;
    void main(void)

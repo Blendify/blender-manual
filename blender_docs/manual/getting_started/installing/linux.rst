@@ -44,7 +44,7 @@ add the extracted folder to the environment ``PATH``.
 
 Add the following command to ``~/.bashrc`` or ``~/.profile`` pointing to the directory with Blender's binary:
 
-.. code:: sh
+.. code-block:: sh
 
    export PATH=/path/to/blender/directory:$PATH
 
@@ -67,6 +67,6 @@ or you can change the Window Manager settings to use the *Meta* key instead (als
 - **KDE:** System Settings > Window Behavior > Window Behavior > Window Actions , Switch 'Alt' for 'Meta' key
 - **Unity/Gnome:** enter the following in a command line (effective at next login):
 
-.. code:: sh
+.. code-block:: sh
 
    gsettings set org.gnome.desktop.wm.preferences mouse-button-modifier '<Super>'

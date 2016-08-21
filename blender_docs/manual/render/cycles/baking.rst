@@ -45,7 +45,7 @@ Normals
 
    .. figure:: /images/cycles-bake-normal.png
 
-   Normal Pass Options.
+      Normal Pass Options.
 
    Normal Space
       Normals can be baked in different spaces:
