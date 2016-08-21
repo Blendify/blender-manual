@@ -10,6 +10,5 @@
    duplicate.rst
    extrude.rst
    inset.rst
-   mirror.rst
    spin.rst
    screw.rst

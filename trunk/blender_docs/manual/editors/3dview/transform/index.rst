@@ -8,6 +8,7 @@
 
    introduction.rst
    basics/index.rst
+   mirror.rst
    duplication.rst
    tools.rst
    origns.rst
