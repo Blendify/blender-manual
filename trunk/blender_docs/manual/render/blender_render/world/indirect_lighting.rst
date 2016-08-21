@@ -4,7 +4,7 @@ Indirect Lighting
 *****************
 
 *Indirect Lighting* adds indirect light bouncing of surrounding objects.
-It's modes the light that is reflected from other surfaces to the current surface.
+It models the light that is reflected from other surfaces to the current surface.
 Is more comprehensive, more physically correct, and produces more realistic images.
 It is also more computationally expensive.
 Take a look at the following examples of a scene lit with Direct Lighting and both

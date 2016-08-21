@@ -33,7 +33,7 @@ Blender calculates SSS in two steps:
   Instead of the lamps, the calculated lightmap is used.
   The brightness of a surface point is the calculated "Average" of the brightness of its surrounding points.
   Depending on your settings the whole surface may be taken into account,
-  and it's a bit more complicated than simply calculating the average,
+  and it is a bit more complicated than simply calculating the average,
   but do not bother too much with the math behind it.
 
 Instead let us see what SSS does to a distinct light point.
@@ -94,7 +94,7 @@ Enabling Subsurface Scattering
   the *Radius* values, the *RGB Radius* and the :term:`IOR` are set for you.
   The remaining options are not set (because they are mostly dependent on the size of your object).
 
-*SubSurface Scattering* doesn't need ray tracing.
+*SubSurface Scattering* does not need ray tracing.
 But since it is dependent on the incident light and shadows,
 you need proper shadow calculation (which may need ray tracing).
 

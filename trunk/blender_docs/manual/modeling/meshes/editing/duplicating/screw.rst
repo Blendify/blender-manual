@@ -55,7 +55,7 @@ Usage
 - The *Screw* function uses two points given by the open line to create an initial vector to calculate the height
   and basic angle of the translation vector that is added to the "Spin" for each full rotation (see examples below).
   If the vector is created with only two vertices at the *same* (X, Y, Z) location
-  (which won't give Blender a vector value for height), this will create a normal "Spin".
+  (which will not give Blender a vector value for height), this will create a normal "Spin".
 - Having at least one vector line,
   you can add other closed support profiles that will follow this vector during the extrusions (See limitations).
 - The direction of the extrusions is calculated by two determinant factors,
@@ -73,7 +73,7 @@ You must have at least one open line or open profile,
 giving Blender the starting Vector for extrusion, angular vector and height. (e.g.
 a simple edge, a half circle, etc...).
 You need only to ensure that at least one reference line has two "free" ends.
-If two open Lines are given, Blender won't determine which of them is the vector,
+If two open Lines are given, Blender will not determine which of them is the vector,
 and will then show you an error message,
 ``"You have to select a string of connected vertices too"``.
 You need to select all of the profile vertices that will participate in the *Screw*
@@ -133,7 +133,7 @@ To show the Mesh Tools Panel,
 use the shortcut :kbd:`T` in the Edit Mode of the 3D View editor.
 
 Once you perform any other operation,
-Blender leaves the interactive mode and accepts all of the values. Because it's modal, you
+Blender leaves the interactive mode and accepts all of the values. Because it is modal, you
 cannot return to the interactive mode after completing/leaving the operation or changing from
 *Edit Mode* to *Object Mode*.
 If you want to restart the operation from its beginning,
@@ -287,10 +287,10 @@ changed the angular vector of the height you have given to Blender to the opposi
           Flipped to Clockwise direction.
 
 
-It's also important to note that this vector is related to the same height vector axis used
+It is also important to note that this vector is related to the same height vector axis used
 for the extrusion and we have created a parallel line with the *Z-Axis*, so, the
 sensibility of this vector is in practical sense reactive only to negative and positive values
-because it's aligned with the extrusion axis. Blender will clamp the positive and negative to
+because it is aligned with the extrusion axis. Blender will clamp the positive and negative to
 its maximum values to make the extrusion follow a direction,
 even if the profile starts reverted. The same rule applies to other Global axes when creating
 the Object for the *Screw* Tool;
@@ -303,9 +303,9 @@ Counterclockwise effect.
 
 .. note:: Vectors that are not parallel with Blender Axis
 
-   The high sensibility for the vector doesn't apply to vectors that give the Screw Tool a starting angle (Ex:
+   The high sensibility for the vector does not apply to vectors that give the Screw Tool a starting angle (Ex:
    any non-parallel vector),
-   meaning Blender won't need to clamp the values to stabilize a direction for the extrusion, as the inclination of
+   meaning Blender will not need to clamp the values to stabilize a direction for the extrusion, as the inclination of
    the vector will be clear for Blender and you will have the full degree of freedom to change the vectors. Our
    example is important because it only changes the direction of the profile without the tilt and/or bending effect,
    as there is only one direction for the extrusion, parallel to one of the Blender Axes
@@ -342,12 +342,12 @@ with the *Screw* tool were created using the Top Ortho View.
 Creating perfect Screw Spindles
 -------------------------------
 
-Using the Spring Example, it's easy to create perfect Screw Spindles
+Using the Spring Example, it is easy to create perfect Screw Spindles
 (like the ones present in normal screws that we can buy in hardware stores).
 Perfect Screw Spindles use a profile with the same height as its vector, and the beginning and
 ending vertex of the profile are placed at a straight parallel line with the axis of
 extrusion. The easiest way of achieving this effect is to create a simple profile where the
-beginning and ending vertices create a straight parallel line. Blender won't take into account
+beginning and ending vertices create a straight parallel line. Blender will not take into account
 any of the vertices present in the middle but those two to take its angular vector,
 so the spindles of the screw (which are defined by the turns value)
 will assembly perfectly with each other.
@@ -358,7 +358,7 @@ will assembly perfectly with each other.
   Choose the last saved blend-file; in the last exercise,
   we gave it the name *Screw Spring Example.blend*.
 - Press the shortcut :kbd:`A` to de-select all vertices.
-- Press the shortcut :kbd:`B`, and Blender will change the cursor; you're now in border selection mode.
+- Press the shortcut :kbd:`B`, and Blender will change the cursor; you are now in border selection mode.
 - Open a box that selects all of the circle vertices except the
   two vertices we used to create the height of the extrusions in the last example.
 - Use the shortcut :kbd:`X` to delete them.

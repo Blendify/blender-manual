@@ -21,8 +21,8 @@ Many features and material settings are still only accessible through the materi
 Ray Mirror). However, with the advent of nodes,
 more complex and fantastic materials can be created since we now have greater control.
 
-Just in case you're not (yet) familiar with the concepts: when you create a system of nodes,
-you're describing a data-processing pipeline of sorts,
+Just in case you are not (yet) familiar with the concepts: when you create a system of nodes,
+you are describing a data-processing pipeline of sorts,
 where data "flows from" nodes which describe various *sources,*
 "flows through" nodes which represent various processing and filtering stages,
 and finally "flows into" nodes which represent outputs or destinations.

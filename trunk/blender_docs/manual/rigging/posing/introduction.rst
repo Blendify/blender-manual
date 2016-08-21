@@ -11,7 +11,7 @@ But you do not do that in *Edit Mode* - remember that in this mode, you edit *th
 as here you can only transform whole objects...
 
 So, armatures in Blender have a third mode, *Pose*, dedicated to this process.
-It's a sort of "object mode for bones". In rest position (as edited in *Edit Mode*),
+It is a sort of "object mode for bones". In rest position (as edited in *Edit Mode*),
 each bone has its own position/rotation/scale to neutral values
 (i.e. 0.0 for position and rotation, and 1.0 for scale).
 Hence, when you edit a bone in *Pose Mode*,

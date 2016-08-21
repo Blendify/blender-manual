@@ -66,7 +66,7 @@ High Quality Normals
 Fill Rim
    Fills the gap between the inner and outer edges.
 Only Rim
-   Won't have an extruded surface parallel to the original but instead will only have the perpendicular rim.
+   Will not have an extruded surface parallel to the original but instead will only have the perpendicular rim.
 
 .. note::
 
@@ -105,4 +105,4 @@ While "Even Thickness" and "High Quality Normals" should yield good results,
 the final wall thickness is not guaranteed and may vary depending on the mesh topology.
 
 In order to maintain precise wall thickness in every case, we would need to add/remove faces on the offset shell,
-something this modifier doesn't do since this would add a lot of complexity and slow down the modifier.
+something this modifier does not do since this would add a lot of complexity and slow down the modifier.

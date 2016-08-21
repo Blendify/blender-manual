@@ -32,7 +32,7 @@ For example, it can (the list is not exhaustive):
   Fac is known to be 0 or 1 by replacing with the appropriate input value or link.
 - Eliminate no-op MixRGB (except Burn, Dodge, Lighten, or enabled Clamp),
   Invert, RGB Curves and Vector Curves nodes with known zero Fac.
-- Eliminate Emission and Background shader nodes that don't emit any light,
+- Eliminate Emission and Background shader nodes that do not emit any light,
   and Add Shader nodes with one or both input arguments missing.
 - Eliminate Bump with constant Height input, using its Normal input or Geometry Normal instead.
 - Combine multiple copies of the same node with the same inputs into only one instance.

@@ -9,7 +9,7 @@ tracks particles emitted by that object, making it look as if the mesh is being 
 
 For the Explode Modifier to have a visible effect, there needs to be particle system on it.
 The particle system on the mesh is what controls how the mesh will be exploded,
-and therefore without the particle system the mesh won't appear to alter.
+and therefore without the particle system the mesh will not appear to alter.
 
 Both the number of emitted particles and number of faces determine how granular the Explode Modifier will be.
 More faces and more particles will mean more individual pieces.

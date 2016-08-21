@@ -9,7 +9,7 @@ Musgrave
 
 
 Often used for
-   Organic materials, but it's very flexible. You can do nearly everything with it.
+   Organic materials, but it is very flexible. You can do nearly everything with it.
 Result(s)
    Intensity
 

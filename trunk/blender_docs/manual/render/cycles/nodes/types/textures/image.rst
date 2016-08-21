@@ -54,7 +54,7 @@ Extension Type
    Extension type defines how the image is extrapolated past the original bounds:
 
    - *Repeat* will repeat the image horizontally and vertically giving tiled-looking result.
-   - *Extend* will extend the image by repeating pixels on it's edges.
+   - *Extend* will extend the image by repeating pixels on its edges.
    - *Clip* will set all the extended pixels values to transparent black.
 
 

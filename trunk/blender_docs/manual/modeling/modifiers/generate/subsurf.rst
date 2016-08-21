@@ -110,7 +110,7 @@ In order to utilize maximum performance form OpenSubdiv the following things are
 Edit Cage
 =========
 
-To view and edit the results of the subdivision while you're editing the mesh,
+To view and edit the results of the subdivision while you are editing the mesh,
 you must enable the *Editing Cage* (the triangle button in the modifier's header).
 This lets you grab the vertices as they lie in their new smoothed locations, rather than on the original mesh.
 

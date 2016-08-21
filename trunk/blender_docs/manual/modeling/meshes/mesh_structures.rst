@@ -17,7 +17,7 @@ Vertices
 A vertex is primarily a single point or position in 3D space.
 It is usually invisible in rendering and in *Object Mode*.
 Do not mistake the center point of an object for a vertex. It looks similar,
-but it's bigger and you cannot select it. Fig. :ref:`fig-mesh-topo-vector`
+but it is bigger and you cannot select it. Fig. :ref:`fig-mesh-topo-vector`
 shows the center point labeled as "A", "B" and "C" are vertices.
 
 .. _fig-mesh-topo-vector:

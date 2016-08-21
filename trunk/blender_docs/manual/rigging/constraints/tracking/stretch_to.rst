@@ -7,7 +7,7 @@ Stretch To Constraint
 The *Stretch To* constraint causes its owner to rotate and scale its Y axis towards its target.
 So it has the same tracking behavior as the :doc:`Track To constraint </rigging/constraints/tracking/track_to>`.
 However, it assumes that the Y axis will be the tracking and stretching axis,
-and doesn't give you the option of using a different one.
+and does not give you the option of using a different one.
 
 It also optionally has some raw volumetric features,
 so the owner can squash down as the target moves closer,

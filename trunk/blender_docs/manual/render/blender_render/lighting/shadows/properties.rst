@@ -21,7 +21,7 @@ Only Shadow
    The light source will not illuminate an object but will generate the shadows that would normally appear.
    This feature is often used to control how and where shadows fall by having a light which
    illuminates but has no shadow,
-   combined with a second light which doesn't illuminate but has *Only Shadow* enabled,
+   combined with a second light which does not illuminate but has *Only Shadow* enabled,
    allowing the user to control shadow placement by moving the "Shadow Only" light around.
 
 Shadow color

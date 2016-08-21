@@ -39,7 +39,7 @@ Deform Mode
 
    .. note::
 
-      This feature is limited to making smaller, isolated edits and won't work for larger changes such as
+      This feature is limited to making smaller, isolated edits and will not work for larger changes such as
       re-posing limbs
 
 Interpolation
@@ -86,7 +86,7 @@ Axis Mapping:
    Forward/Up Axis
       The axis for forward and up used in the source file.
       *Often different applications have different axis defaults for up/down front/back,
-      so it's common to have to switch these on import.*
+      so it is common to have to switch these on import.*
 
    Flip Axis
       In rare cases you may also need to flip the coordinates on an axis.

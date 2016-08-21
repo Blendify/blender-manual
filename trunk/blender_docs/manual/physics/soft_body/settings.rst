@@ -131,10 +131,10 @@ Edge
 Face
    Checks for any portion of the face of the softbody mesh colliding (compute intensive!).
    While *CFace* enabled is great, and solves lots of collision errors,
-   there doesn't seem to be any dampening settings for it,
+   there does not seem to be any dampening settings for it,
    so parts of the softbody object near a collision mesh tend to "jitter" as they bounce off and fall back,
-   even when there's no motion of any meshes. Edge collision has dampening, so that can be controlled,
-   but Deflection dampening value on a collision object doesn't seem to affect the face collision.
+   even when there is no motion of any meshes. Edge collision has dampening, so that can be controlled,
+   but Deflection dampening value on a collision object does not seem to affect the face collision.
 
 
 Soft Body Self Collision
@@ -171,7 +171,7 @@ Size
    Set this value to the fractional distance between vertices that you want them to have their own "space".
    Too high of a value will include too many vertices all the time and slow down the calculation.
    Too low of a level will let other vertices get too close and thus possibly intersect because
-   there won't be enough time to slow them down.
+   there will not be enough time to slow them down.
 
 Stiffness
    Default 1.0. How elastic that ball of personal space is.

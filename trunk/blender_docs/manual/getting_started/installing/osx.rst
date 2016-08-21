@@ -10,7 +10,7 @@ After downloading Blender for Mac-OSX, uncompress the file and drag ``blender.ap
 
 .. tip::
 
-   Because *Blender* doesn't use the standard OS menu system, you likely have a redundant menu-bar at the top.
+   Because *Blender* does not use the standard OS menu system, you likely have a redundant menu-bar at the top.
 
    To remove it see `this post <http://www.macworld.com/article/1055321/hidemenubar.html>`__
    on Macworld, but beware that it is somewhat complex. As an alternative: simply make *Blender*

@@ -94,7 +94,7 @@ Multi-Value Editing
 
    Multi-value-editing.
 
-It's often useful to edit multiple values at once (object scale or render resolution for example).
+It is often useful to edit multiple values at once (object scale or render resolution for example).
 
 This can be done by clicking on the button and dragging vertically to include buttons above/below.
 
@@ -117,7 +117,7 @@ may be used.
 Expressions as Drivers
 ^^^^^^^^^^^^^^^^^^^^^^
 
-You may want your expression to be re-evaluated after it's entered.
+You may want your expression to be re-evaluated after it is entered.
 Blender supports this using :doc:`Drivers </animation/drivers>` (a feature of the animation system).
 
 Expression beginning with ``#``, have a special use.

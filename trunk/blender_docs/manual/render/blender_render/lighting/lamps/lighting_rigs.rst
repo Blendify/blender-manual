@@ -17,7 +17,7 @@ the default camera is always positioned nearly 15 degrees off dead-on, about 25 
 and uses a long lens of 80 mm. Up close, a 35 mm lens will distort the image.
 A long lens takes in more of the scene.
 A dead-on camera angle is too dramatic and frames too wide a scene to take in.
-So now you know; next time you go to a play, sit off-center and you won't miss the action
+So now you know; next time you go to a play, sit off-center and you will not miss the action
 happening on the sidelines and will have a greater appreciation for the depth of the set.
 Anyway, enough about camera angles; this is about lighting.
 
@@ -158,8 +158,8 @@ and the side fill lights light up the props.
 
 The key light is the *Area* light placed slightly above and to the left of the
 camera. It allows the specular to come out. It is about 30 BU back from the subject,
-and travels with the camera. A little specular shine lets you know there's a light there,
-and that you're not looking at a ghost. In real life, it is a spot with baffles, or blinders,
+and travels with the camera. A little specular shine lets you know there is a light there,
+and that you are not looking at a ghost. In real life, it is a spot with baffles, or blinders,
 that limit the area of the light.
 
 The two sidelights are reduced to only fill; each of them are *Hemi* lights placed
@@ -254,13 +254,13 @@ here are some good steps to debugging what is wring.
    (create a default, gray one, and enter its name in the *Mat* field, *Layer* panel,
    *Render Layer* tab - to get back all your normal materials, just erase this text field!).
    See if you get those problems with just grayness objects. If you do not have the problem anymore,
-   that should tell you that you've got a materials-interacting-with-light problem.
+   that should tell you that you have got a materials-interacting-with-light problem.
    Check the material settings, especially ambient,
    reflection and all those little buttons and sliders in the *Material* tab.
    You can set some lights to affect only certain materials,
-   so if there's an issue with only a few objects being really bright, start with those.
+   so if there is an issue with only a few objects being really bright, start with those.
 #. Then start "killing" lights (e.g. moving them to an unused layer);
-   regress all the way back to one light, make sure it's smooth,
+   regress all the way back to one light, make sure it is smooth,
    then add them in one by one. As they add together, reduce power in the tested ones so they merge cleanly,
    or consider not adding it at all, or, especially, reduce the energy of the lamp you just introduced.
 #. You can also set lights to only light objects on a layer, so again, if some of the gray spheres have weirdness,

@@ -47,7 +47,7 @@ Input
 
    Shader
       The value as delivered by the material's shader (*Lambert*, *CookTorr*) defines the color.
-      Here the amount of light doesn't matter for color, only the direction of the light.
+      Here the amount of light does not matter for color, only the direction of the light.
    Energy
       As *Shader*, now also lamp energy, color, and distance are taken into account.
       This makes the material change color when more light shines on it.

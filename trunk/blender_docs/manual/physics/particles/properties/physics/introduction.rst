@@ -7,7 +7,7 @@ The movement of particles may be controlled in a multitude of ways.
 With particles physics: there are five different systems:
 
 None (`No Physics`_)
-   It doesn't give the particles any motion, which makes them belong to no physics system.
+   It does not give the particles any motion, which makes them belong to no physics system.
 :doc:`Newtonian </physics/particles/properties/physics/newtonian>`
    Movement according to physical laws.
 :doc:`Keyed </physics/particles/properties/physics/keyed>`

@@ -79,7 +79,7 @@ Classic-Halfway
    because large *Bias* values can mean small faces can lose their shadows,
    as well as preventing shadows being overly offset from the larger *Bias* value.
 
-   *Classic-Halfway* doesn't work very well when faces overlap, and biasing problems can happen.
+   *Classic-Halfway* does not work very well when faces overlap, and biasing problems can happen.
 
 Here are now the options specific to these generation methods:
 
@@ -133,7 +133,7 @@ Filter Type
       It is relatively low quality and is used for low resolution renders, as it produces very sharp anti-aliasing.
       When this filter is used,
       it only takes into account oversampling data which falls within a single pixel,
-      and doesn't take into account surrounding pixel samples.
+      and does not take into account surrounding pixel samples.
       It is often useful for images which have sharply angled elements and horizontal/vertical lines.
 
    Tent
@@ -174,7 +174,7 @@ Sample Buffers
    This option is used in special cases,
    like very small objects which move and need to generate really small shadows (such as strands).
    It appears that normally, pixel width shadows do not anti-alias properly,
-   and that increasing *Buffer Size* doesn't help much.
+   and that increasing *Buffer Size* does not help much.
 
    So this option allows you to have a sort of extra sample pass, done above the regular one
    (the one controlled by the *Box* / *Tent* / *Gauss*, *Samples* and *Soft* settings).

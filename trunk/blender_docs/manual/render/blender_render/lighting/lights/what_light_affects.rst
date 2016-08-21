@@ -21,7 +21,7 @@ This Layer Only
 
 Diffuse
    Prevents the lamp from producing :doc:`diffuse light </render/blender_render/materials/properties/diffuse_shaders>`
-   (it doesn't really "light" things).
+   (it does not really "light" things).
 
 Specular
    Prevents the lamp from producing

@@ -139,11 +139,11 @@ Example
 .. rubric:: Using a Texture and the Mapping Curve
 
 Here we are going to create a sort of strange alien wave (yes,
-another example with the *Wave* modifier... but it's a highly visual one;
-it's easy to see the vertex group effects on it...).
+another example with the *Wave* modifier... but it is a highly visual one;
+it is easy to see the vertex group effects on it...).
 
 So as above, add a 100×100 grid. This time, add a vertex group,
-but without assigning any vertex to it - we'll do this dynamically.
+but without assigning any vertex to it -- we will do this dynamically.
 
 Add a first *Vertex Weight Mix* modifier,
 set the *Vertex Group A* field with a *Default Weight A* of 0.0,
@@ -187,7 +187,7 @@ but if you want to play with the curve mapping,
 you must add the famous *Vertex Weight Edit* modifier,
 and enable its *Custom Curve* mapping.
 
-By default, it's a one-to-one linear mapping - in other words,
+By default, it is a one-to-one linear mapping - in other words,
 it does nothing! Change it to something like in Fig. :ref:`fig-modifier-vertex-weight-custom`,
 which maps (0.0, 0.5) to (0.0, 0.25) and (0.5,1.0) to (0.75, 1.0),
 thus producing nearly only weights below 0.25,

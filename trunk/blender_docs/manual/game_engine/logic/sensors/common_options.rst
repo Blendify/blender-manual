@@ -52,7 +52,7 @@ False level triggering
    If this is set, the connected controllers will be triggered as long as the sensor's state is negative.
    The sensor will trigger with the delay (see parameter: frequency) of the sensor. |false-button|
 Freq
-   Despite it's name "Frequency", this parameter sets the delay between repeated triggers,
+   Despite it is name "Frequency", this parameter sets the delay between repeated triggers,
    measured in frames (also known as logic ticks). The default value is 0 and it means no delay.
    It is only used at least one of the level triggering parameters are enabled.
 

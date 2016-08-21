@@ -34,8 +34,8 @@ they create the visual complexity that the eye expects to see from shiny reflect
 
 .. note::
 
-   It's useful to remember here that the true goal of this technique is *believability*,
-   not *accuracy*. The eye doesn't need a physically accurate simulation of the light's travel;
+   It is useful to remember here that the true goal of this technique is *believability*,
+   not *accuracy*. The eye does not need a physically accurate simulation of the light's travel;
    it just needs to be lulled into believing that the scene is real by seeing the complexity it
    expects. The most unbelievable thing about most rendered images is the sterility,
    not the inaccuracy.
@@ -106,8 +106,8 @@ Viewpoint Object
    - For spherical reflections, the object should be in the center of the sphere. Generally,
      if the reflecting sphere's object center point is in the center of its vertices,
      you can just use the name of the actual sphere object as the *Ob:*
-   - For irregular reflections, there's no hard and fast rule,
-     you will probably need to experiment and hope that the inaccuracy doesn't matter.
+   - For irregular reflections, there is no hard and fast rule,
+     you will probably need to experiment and hope that the inaccuracy does not matter.
 
 Ignore Layers
    The layers to exclude from the environment map creation.
@@ -127,7 +127,7 @@ Resolution
 Depth
    The number of recursive environment map renders.
    If there are multiple reflecting objects using environment maps in the scene, some may appear solid,
-   as they won't render each other's reflections. In order to show reflections within reflections,
+   as they will not render each other's reflections. In order to show reflections within reflections,
    the environment maps need to be made multiple times, recursively,
    so that the effects of one environment map can be seen in another environment map. See Examples.
 

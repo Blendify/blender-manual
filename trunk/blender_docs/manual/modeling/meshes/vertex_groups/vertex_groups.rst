@@ -221,7 +221,7 @@ Checking Assignments
 
 To be sure the selected verts are in the desired Vertex Group,
 you can try press the deselect button.
-If the vertices remain selected then they're not yet in the current Vertex Group.
+If the vertices remain selected then they are not yet in the current Vertex Group.
 
 At this point you may assign then, but take care since all selected vertices
 will have their weight set to the value in the *Weight:* field.

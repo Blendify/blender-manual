@@ -94,7 +94,7 @@ OK now, here are some important ground rules:
   if you want the new bones in a different armature, you can then use the *Separate*
   :kbd:`Ctrl-Alt-P` and optionally *Join* (:kbd:`Ctrl-J` in *Object Mode*) commands...
 - This tool only considers *one* chain of bones,
-  so it's better to select only one chain of bones inside the current armature
+  so it is better to select only one chain of bones inside the current armature
   (or use a single-chain armature object as template).
   Else, the chain of the template containing the first created bones will be mapped to the
   selected strokes, and the other chains will just be "copied" *as is*, without any modification.

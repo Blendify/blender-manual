@@ -55,7 +55,7 @@ Setting presets to default
    :width: 307px
 
 
-Once you've configured your mouse and keyboard *Presets*,
+Once you have configured your mouse and keyboard *Presets*,
 you can make this the default configuration by:
 
 
@@ -129,7 +129,7 @@ Continuous Grab
       this feature is disabled when a tablet is being used
 
       This is detected for each action,
-      so the presence of a tablet won't disable Continuous Grab for mouse cursor input.
+      so the presence of a tablet will not disable Continuous Grab for mouse cursor input.
 Drag Threshold
    The number of pixels that a User Interface element has to be moved before it is recognized by Blender.
 Select with

@@ -8,13 +8,13 @@ let us delete the default cube and add a plane. In order to get some good floppy
 you will need to subdivide it several times, about eight is a good number.
 So :kbd:`Tab` into *Edit Mode*, and press :kbd:`W` :menuselection:`--> Subdivide multi`, and set it to 8.
 
-Now, we'll make this cloth by going to the Physics tab.
+Now, we will make this cloth by going to the Physics tab.
 Scroll down until you see the *Cloth* panel, and press the *Cloth* button.
-Now, a lot of settings will appear, most of which we'll ignore for now.
+Now, a lot of settings will appear, most of which we will ignore for now.
 
 That is all you need to do to set your cloth up for animating,
 but if you press :kbd:`Alt-A`, your lovely fabric will just drop very un-spectacularly.
-That is what we'll cover in the next two sections about pinning and colliding.
+That is what we will cover in the next two sections about pinning and colliding.
 
 
 Using Simulation to Shape/Sculpt a Mesh
@@ -78,7 +78,7 @@ Using Cloth for Softbodies
 
 
 Cloth can also be used to simulate softbodies.
-It's for sure not its main purpose but it works nonetheless.
+It is for sure not its main purpose but it works nonetheless.
 The example image uses standard *Rubber* material, no fancy settings,
 just :kbd:`Alt-A`.
 

@@ -16,7 +16,7 @@ This page lists definitions for terms used in Blender and this manual.
       Only one object or item can be active at any given time.
 
    Action Safe
-      Area of the screen visible on most devices. Place content inside it to ensure it doesn't get cut off.
+      Area of the screen visible on most devices. Place content inside it to ensure it does not get cut off.
 
    Actuator
       A :term:`logic brick` that acts like a muscle of a lifeform. It can move the object, or make a sound.
@@ -211,7 +211,7 @@ This page lists definitions for terms used in Blender and this manual.
    Directional Light
       The light that has a specific direction, but no location.
       It seems to come from an infinitely far away source, like the sun.
-      Surfaces facing the light are illuminated more than surfaces facing away, but their location doesn't matter.
+      Surfaces facing the light are illuminated more than surfaces facing away, but their location does not matter.
       A Directional Light illuminates all objects in the scene, no matter where they are.
 
    Displacement Mapping
@@ -253,7 +253,7 @@ This page lists definitions for terms used in Blender and this manual.
    Face Loop
       Chain of consecutive :term:`quads <quad>`.
       A face loop stops at a :term:`triangle` or :term:`Ngon` (which do not belong to the loop), or at a boundary.
-      Otherwise, it's cyclic.
+      Otherwise, it is cyclic.
 
    Face Normal
       The normalized vector perpendicular to the plane that a :term:`face` lies in.
@@ -410,7 +410,7 @@ This page lists definitions for terms used in Blender and this manual.
       especially those where knowing the volume (inside/outside) of the object is important
       (refraction, fluids, booleans, or 3D printing, to name a few).
       A non-manifold mesh is a mesh in which the structure of a
-      non-overlapped surface (based on it's connected faces) won't determine
+      non-overlapped surface (based on its connected faces) will not determine
       the inside or the outside of a volume based on its normals, defining
       a single surface for both sides, but ended with flipped normals.
       When working with non-closed volumes, a non-manifold mesh will always

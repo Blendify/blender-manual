@@ -6,7 +6,7 @@ Bump and Normal Maps
 *Normal Maps* and *Bump Maps* both serve the same purpose:
 they simulate the impression of a detailed 3D surface,
 by modifying the shading as if the surface had lots of small angles, rather than being completely flat.
-Because it's just modifying the shading of each pixel,
+Because it is just modifying the shading of each pixel,
 this will not cast any shadows and will not obstruct other objects. If the camera angle is too flat to the surface,
 you will notice that the surface is not really shaped.
 
@@ -29,7 +29,7 @@ Normal maps
    they can simulate that pixel being moved at any direction, in an arbitrary way.
    The drawbacks to normal maps are that unlike bump maps, which can easily be painted by hand,
    normal maps usually have to be generated in some way,
-   often from higher resolution geometry than the geometry you're applying the map to.
+   often from higher resolution geometry than the geometry you are applying the map to.
 
 
    Normal maps in Blender store a normal as follows:

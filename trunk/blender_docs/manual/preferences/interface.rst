@@ -13,7 +13,7 @@ Display
 
 Tooltips
    When enabled, a tooltip will appear when your mouse pointer is over a control.
-   This tip explains the function of what's under the pointer,
+   This tip explains the function of what is under the pointer,
    gives the associated hotkey (if any) and the Python function that refers to it.
 Python Tooltips
    Displays a property's python information below the tooltip.

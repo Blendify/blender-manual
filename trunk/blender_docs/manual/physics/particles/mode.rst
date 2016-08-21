@@ -139,7 +139,7 @@ Add
 Length
    Scales the segments, so it makes the hair longer with *Grow* or shorter with *Shrink*.
 Puff
-   Rotates the hair around it's first keypoint (root).
+   Rotates the hair around its first keypoint (root).
    So it makes the hair stand up with *Add* or lay down with *Sub*.
 
    Puff Volume
@@ -242,7 +242,7 @@ Hiding/Unhiding
 
 Hiding and unhiding of particles works similar as with vertices in the 3D View.
 Select one or more keypoints of the particle you want to hide and press :kbd:`H`.
-The particle in fact doesn't vanish, only the key points.
+The particle in fact does not vanish, only the key points.
 
 Hidden particles (i.e. particles whose keypoints are hidden)
 do not react on the various brushes. But:

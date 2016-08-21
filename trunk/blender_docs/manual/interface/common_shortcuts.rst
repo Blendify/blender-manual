@@ -70,7 +70,7 @@ While Hovering (when the cursor is held over a button).
   Useful when writing drivers or scripts.
 - :kbd:`Ctrl-Alt-Shift-C` - over property buttons copies their *full* data-path for the Data-Block and property.
 
-  Note that in most cases it's best to access values based on the context, instead of by name.
+  Note that in most cases it is best to access values based on the context, instead of by name.
 
 .. rubric:: While Dragging Numbers
 

@@ -6,7 +6,7 @@ Mist
 Mist can greatly enhance the illusion of depth in your rendering. To create mist,
 Blender makes objects farther away more transparent (decreasing their Alpha value)
 so that they mix more of the background color with the object color. With Mist enabled,
-the further the object is away from the camera the less it's alpha value will be.
+the further the object is away from the camera the less its alpha value will be.
 
 
 Option
@@ -52,7 +52,7 @@ Transparency
 ============
 
 Because *Mist* works by adjusting transparency,
-this can sometimes cause objects to be partially transparent when they shouldn't be.
+this can sometimes cause objects to be partially transparent when they should not be.
 One workaround is to set the Mist settings as desired, but turn Mist off.
 The Mist data is still available for compositing even though it is off.
 Use :doc:`Do Composite </compositing/index>`

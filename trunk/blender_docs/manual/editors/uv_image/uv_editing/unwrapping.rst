@@ -482,7 +482,7 @@ Edge Length Mode:
 Even
    Space all UVs evenly.
 Length
-   Average space UV's edge length of each loop.
+   Average space UVs edge length of each loop.
 
 Please note that it is the shape of the active quad in UV space that is being followed,
 not its shape in 3D space. To get a clean 90-degree unwrap make sure the active quad is a

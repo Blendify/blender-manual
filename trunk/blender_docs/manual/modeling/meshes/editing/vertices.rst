@@ -230,7 +230,7 @@ Connect Vertex Path
    | Menu:     :menuselection:`Mesh --> Vertices --> Connect Vertex Path`
    | Hotkey:   :kbd:`J`
 
-This tool connects vertices in the order they're selected, splitting the faces between them.
+This tool connects vertices in the order they are selected, splitting the faces between them.
 
 .. list-table::
 

@@ -29,7 +29,7 @@ Distance, Energy and Color
 Gamma
    Amount to gamma correct the brightness of illumination. Higher values give more contrast and shorter falloff.
 
-   The *Area* lamp doesn't have light falloff settings. It uses an "inverse quadratic" attenuation law.
+   The *Area* lamp does not have light falloff settings. It uses an "inverse quadratic" attenuation law.
    The only way to control its falloff is to use the *Distance* and/or *Gamma* settings.
 This Layer Only, Negative, Specular and Diffuse
    These settings control what the lamp affects,

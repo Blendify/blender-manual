@@ -22,7 +22,7 @@ the strength of the displacement is controlled by the *Displace* and *Normal* sl
   The normal displacement is controlled by the *Normal* slider.
 - If a texture provides only intensity information (e.g. *Magic*, derived from color),
   vertices move along the directions of their normals (a vertex has no normal itself,
-  it's the resulting vector of the adjacent faces). White pixels move outward in the direction of the normal,
+  it is the resulting vector of the adjacent faces). White pixels move outward in the direction of the normal,
   black pixels move in the opposite direction.
   The amount of displacement is controlled with the *Displace* slider.
 

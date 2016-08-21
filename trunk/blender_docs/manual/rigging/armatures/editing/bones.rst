@@ -120,7 +120,7 @@ The "_R" bone is its mirror counterpart (along the armature's local X axis), see
    If you realize the problem immediately undo the extrude action.
 
 
-In case you're wondering, you cannot just press :kbd:`X` to solve this as you would in mesh editing,
+In case you are wondering, you cannot just press :kbd:`X` to solve this as you would in mesh editing,
 because extrusion selects the newly created tips, and as explained below the delete command ignores bones' ends.
 To get rid of these extruded bones without undoing, you would have to move the tips,
 then select the bones and delete (`Deleting Bones`_) them.
@@ -292,7 +292,7 @@ new bone's root moves to the tip of the parent bone.
 
 
 Clicking :kbd:`F` with only one bone end selected will create a bone from the selected
-end to the 3D cursor position, and it won't parent it to any bone in the armature.
+end to the 3D cursor position, and it will not parent it to any bone in the armature.
 
 .. list-table::
    Fill with only one bone end selected
@@ -429,7 +429,7 @@ If another (non-selected) chain origins from inside of the merged chain of bones
 it will be parented to the resultant merged bone. If they were connected,
 it will be connected to the new bone.
 
-Here's a strange subtlety (see Fig. :ref:`fig-rig-bone-merge`): even though connected
+Here is a strange subtlety (see Fig. :ref:`fig-rig-bone-merge`): even though connected
 (the root bone of the unmerged chain has no root sphere),
 the bones are not visually connected - this will be done as soon as you edit one bone,
 differently depending in which chain is the edited bone
@@ -517,7 +517,7 @@ You can prevent a bone from being transformed in *Edit Mode* in several ways:
 - select :menuselection:`Armature --> Bone Settings --> Toggle a Setting`).
 
 *If the root of a locked bone is connected to the tip of an unlocked bone,
-it won't be locked*, i.e. you will be able to move it to your liking.
+it will not be locked*, i.e. you will be able to move it to your liking.
 This means that in a chain of connected bones, when you lock one bone,
 you only really lock its tip. With unconnected bones, the locking is effective on both ends of the bone.
 
@@ -532,7 +532,7 @@ When you have pairs of bones of the same name with just a different "side suffix
 each time you transform (move/rotate/scale...) a bone, its "other side" counterpart will be transformed accordingly,
 through a symmetry along the armature local X axis.
 As most rigs have at least one axis of symmetry (animals, humans, ...),
-it's an easy way to spare you half of the editing work!
+it is an easy way to spare you half of the editing work!
 
 .. seealso::
 

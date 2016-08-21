@@ -84,7 +84,7 @@ ready to drag the new extruded surface to its destination.
 There are two things very important to understand:
 
 - Surfaces are *2D* objects - so you cannot extrude anything *inside* a surface
-  (e.g. "inner" row); it wouldn't make any sense!
+  (e.g. "inner" row); it would not make any sense!
 - The control "grid" *must* remain "squarish",
   which means that you can only extrude a whole row, not parts of rows here and there...
 
@@ -189,7 +189,7 @@ only selections forming a *single* valid sub-grid are copyable; let us see this 
 .. note::
 
    Trying to duplicate several valid "sub-grids" (even being single points)
-   at once won't work; you will have to do it one after the other...
+   at once will not work; you will have to do it one after the other...
 
 
 Deleting Elements
@@ -251,14 +251,14 @@ merging two surfaces requires that a single edge, a border row of control points
 from two separate surfaces are selected. This means that the surfaces must be part of the same object. For example,
 you cannot join two surfaces while in *Object Mode* - but you can of course, as with any objects of the same type,
 join two or more *Surface* objects
-into one object :kbd:`Ctrl-J` - they just won't be "linked" or merged in a single one... Yes, it's a bit confusing!
+into one object :kbd:`Ctrl-J` - they just will not be "linked" or merged in a single one... Yes, it's a bit confusing!
 
 This command is equivalent to creating edges or :kbd:`F` aces for meshes
 (hence its shortcut), and so it only works in *Edit Mode*.
 The selection must contains only border rows of the same resolution
 (with the same number of control points),
 else Blender will try to do its best to guess what to merge with what, or the merge will fail
-(either silently, or stating that ``Resolution doesn't match`` if rows with
+(either silently, or stating that ``Resolution does not match`` if rows with
 different number of points are selected, or that there is ``Too few selections to merge``
 if you only selected points in one surface...).
 To select control points of different surfaces,
@@ -319,7 +319,7 @@ Spin
 
 
 This tool is a bit similar to its :doc:`mesh counterpart </modeling/meshes/editing/duplicating/spin>` -
-but with less control and options (in fact, there's none!).
+but with less control and options (in fact, there is none!).
 
 It only works on selected "surfaces" made of *one U-row* (and not with one V-row),
 so-called "surface curves", by "extruding" this "cross section" in a square pattern,

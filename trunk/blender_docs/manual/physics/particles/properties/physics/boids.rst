@@ -123,7 +123,7 @@ Spherical fields: These effectors could be predators (negative Strength)
 that boids try to avoid or targets (positive Strength)
 that boids try to reach according to the (respectively) Avoid and Goal rules' weights.
 Spherical's effective Strength is multiplied by the actual relevant weight (e.g. if either Strength or Goal is null,
-then a flock of boids won't track a positive Spherical field).
+then a flock of boids will not track a positive Spherical field).
 You can also activate Die on hit (Extras panel) so that a prey particle simply disappears when
 "attacked" by a predator particle which reaches it. To make this work,
 the predator particles have to have a spherical field with negative force,

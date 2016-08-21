@@ -49,7 +49,7 @@ This is different from the face creation operator in three important respects.
 
 - holes are detected, so there is no need to manually find and select the edges around the holes.
 - holes can have a limit for the number of sides (so only quads or tris are filled in for example).
-- mesh data is copied from surrounding geometry (UV's, vertex-colors, multi-res, all layers),
+- mesh data is copied from surrounding geometry (UVs, vertex-colors, multi-res, all layers),
   since manually creating this data is very time consuming.
 
 
@@ -90,7 +90,7 @@ Degenerate Dissolve
    | Menu:     :menuselection:`Mesh --> Clean up --> Degenerate Dissolve`
 
 
-This tool collapses / removes geometry which you typically won't want.
+This tool collapses / removes geometry which you typically will not want.
 
 
 - Edges with no length.

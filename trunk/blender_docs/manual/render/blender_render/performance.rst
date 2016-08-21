@@ -12,7 +12,7 @@ Optimizing Render Performance
 or worse, crashes mid-way through!
 Well, there is lots going on and lots you can do to speed up rendering or enable a complicated render to complete.
 Also, it is possible to render a very complicated scene on a mediocre PC by being "render-smart".
-Here's a "top ten" list of things to do or not do in order to speed up
+Here is a "top ten" list of things to do or not do in order to speed up
 rendering or even avoid crashes during scene render.
 Some options may decrease the quality of your render, but for draft renders you may not care.
 
@@ -170,7 +170,7 @@ For instance:
   use "shadow-only" lights (which cast shadows, but do not cast light)
   to create shadows *only* where you judge that they are actually necessary.
   (It is very often the case that only a few of the shadows which could exist in the scene actually matter,
-  and that the rest of them simply won't be noticed.)
+  and that the rest of them simply will not be noticed.)
 - Tricky lighting situations can be avoided by handling the objects separately,
   then combining the individually-rendered clips and "tweaking" the result.
 
@@ -193,14 +193,14 @@ There are compelling advantages to this approach:
   as a separate channel of information, you can now fine-tune its influence in the overall "mix",
   or even change your mind and remove it altogether, all without permanently altering anything.
 - By and large, these stages work *two-* dimensionally, manipulating what is by that time "a raster bitmap with R,G,B,
-  Alpha and Z-Depth information," so they're consistently fast.
+  Alpha and Z-Depth information," so they are consistently fast.
 - Since each discrete rendering task has been simplified, the computer can carry them out using much fewer resources.
 - The tasks can be distributed among several different computers.
-- "After all, the scene doesn't actually have to be *physically perfect,* to be *convincing*".
+- "After all, the scene does not actually have to be *physically perfect,* to be *convincing*".
   A compositing-based approach lets you take full advantage of this. You can focus your attention (and Blender's)
   upon those specific aspects of the scene which will actually make a noticeable difference.
   It is possible to save a considerable amount of time by consciously choosing to exclude
-  less-important aspects which (although "technically correct") probably won't be noticed.
+  less-important aspects which (although "technically correct") probably will not be noticed.
 
 Of course, this approach is not without its own set of trade-offs. You must devise a workable
 asset-management system for keeping track of exactly what material you have, where it is,

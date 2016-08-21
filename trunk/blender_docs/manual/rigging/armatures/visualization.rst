@@ -106,7 +106,7 @@ Shapes
    in *Object Mode* and *Pose Mode*,
    by the shape of a chosen object (see `Shaped Bones`_ for details).
 Delay Refresh
-   When enabled, the bone doesn't deform its children when manipulating the bone in pose mode.
+   When enabled, the bone does not deform its children when manipulating the bone in pose mode.
 
 
 Shaped Bones
@@ -233,7 +233,7 @@ Protected Layers
 ----------------
 
 You can lock a given bone layer for all :ref:`proxies <object-proxy>`
-of your armature, i.e. all bones in this layer won't be editable.
+of your armature, i.e. all bones in this layer will not be editable.
 To do so, in the *Skeleton* panel, :kbd:`Ctrl-LMB` click on the relevant button, the layer lock will be enabled.
 
 Protected layers in proxy are restored to proxy settings on file reload and undo.

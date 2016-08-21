@@ -55,7 +55,7 @@ Bones can be visualized in various ways: *Octahedron*, *Stick*,
           Envelope bone display.
 
 
-Since armatures are made of bones, you will find more about this when we'll talk about
+Since armatures are made of bones, you will find more about this when we will talk about
 :doc:`Armatures Visualization </rigging/armatures/visualization>`.
 
 Activating *Axes* checkmark on the *Armature*/*Display* panel,
@@ -75,7 +75,7 @@ When bones are selected (hence in *Edit Mode* and *Pose Mode*), their
 properties are shown in the *Bone* tab of the Properties editor.
 
 This shows different panels used to control features of each selected bone;
-the panels change depending on which mode you're working in.
+the panels change depending on which mode you are working in.
 
 
 Bones Rigidity
@@ -91,7 +91,7 @@ You can see these segments in *Object Mode* and in *Pose Mode*,
 and only if bones are visualized as *B-bones*;
 while in *Edit Mode* bones are always drawn as rigid sticks.
 Note that in the special case of a single bone,
-you cannot see these segments in *Object Mode*, because they're aligned.
+you cannot see these segments in *Object Mode*, because they are aligned.
 
 .. list-table::
 

@@ -21,7 +21,7 @@ the end frame number, etc...), simply run:
 
    Arguments are executed in the order they are given!
 
-   The following command won't work, since the output and extension is set after Blender is told to render:
+   The following command will not work, since the output and extension is set after Blender is told to render:
 
    .. code-block:: sh
 

@@ -18,7 +18,7 @@ There are three important differences between this and the knife tool.
 - The plane can be numerically adjusted in the operator panel for precise values.
 - Cuts may remove geometry on one side.
 - Cuts can optionally fill in the holes created,
-  with materials and UV's & vertex-colors based on the surrounding geometry.
+  with materials and UVs & vertex-colors based on the surrounding geometry.
 
 This means the bisect tool can cut off parts of a mesh without creating any holes.
 

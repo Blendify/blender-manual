@@ -34,7 +34,7 @@ Override Image
    - When false, the modifier is limited to faces with the Image as their Face Texture.
 
 Projectors
-   Up to ten projector objects are supported. Each face will choose the closest and aligned projector with it's
+   Up to ten projector objects are supported. Each face will choose the closest and aligned projector with its
    surface normal. Projections emit from the negative Z-axis (i.e. straight down a camera or lamp).
    If the projector is a camera, the projection will adhere to its perspective/orthographic setting.
 

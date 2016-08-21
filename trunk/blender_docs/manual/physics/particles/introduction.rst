@@ -81,7 +81,7 @@ To add a new particle system to an object, go to the *Particles* tab of the obje
 An object can have many Particle Systems.
 
 Each particle system has separate settings attached to it.
-These settings can be shared among different particle systems, so one doesn't have to copy
+These settings can be shared among different particle systems, so one does not have to copy
 every setting manually and can use the same effect on multiple objects.
 Using the *Random* property they can be randomized to look slightly different,
 even when using the same settings.

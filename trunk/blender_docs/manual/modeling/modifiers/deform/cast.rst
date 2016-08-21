@@ -42,7 +42,7 @@ X, Y, Z
 
 Factor
    The factor to control blending between original and cast vertex positions.
-   It's a linear interpolation: 0.0 gives original coordinates (i.e. modifier has no effect),
+   It is a linear interpolation: 0.0 gives original coordinates (i.e. modifier has no effect),
    1.0 casts to the target shape.
    Values below 0.0 or above 1.0 exaggerate the deformation, sometimes in interesting ways.
 

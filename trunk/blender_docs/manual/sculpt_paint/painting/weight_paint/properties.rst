@@ -103,7 +103,7 @@ Multi-Paint
    to individual Vertex Group weights in such way that their ratio stays the same.
 
    Since the ratio is undefined if all weights are zero, Multi-Paint cannot operate on vertices that do not
-   have any weight assigned to the relevant Vertex Groups. For this reason it also doesn't allow reducing
+   have any weight assigned to the relevant Vertex Groups. For this reason it also does not allow reducing
    the weight all the way to zero. When used with X-Mirror, it only guarantees completely symmetrical
    result if weights are initially symmetrical.
 

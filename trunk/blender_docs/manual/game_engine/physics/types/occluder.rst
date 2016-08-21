@@ -19,7 +19,7 @@ Now observe what happens to the profiling stats for each of the following (in or
 
 - Hit :kbd:`P` as the scene is. It hums along at a fairly slow rate. On my system the Rasterizer step takes 130ms.
   The framerate will finally jump up once the "Cube" object has completely moved out of the view frustum.
-  It's as if the Occluder doesn't do anything while the Cube is behind it.
+  It is as if the Occluder does not do anything while the Cube is behind it.
 - Delete the "Cube.OffCamera" object above,
   and notice that there is no improvement in speed.
   This is the view frustum culling working for you - it does not matter if that object exists or not.
@@ -93,7 +93,7 @@ There are situations where occlusion culling will not bring any benefit:
 
 - If the occluders are large but hides simple objects.
 
-  - In that case you're better off sending the objects to the GPU).
+  - In that case you are better off sending the objects to the GPU).
 
 
 - If the occluders are large and hides many complex objects but in a very predictable way.

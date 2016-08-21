@@ -62,7 +62,7 @@ it forces the assignment of the "smoothing" attribute to each face in the mesh,
 including when you add or delete geometry.
 
 Notice that the outline of the object is still strongly faceted.
-Activating the smoothing features doesn't actually modify the object's geometry;
+Activating the smoothing features does not actually modify the object's geometry;
 it changes the way the shading is calculated across the surfaces,
 giving the illusion of a smooth surface. Click the *Flat* button in the
 *Tool Shelf* 's *Shading panel* to revert the shading back to that shown in
@@ -115,7 +115,7 @@ while the lowest setting will look identical to a mesh that has been set complet
 
 Note that a mesh, or any faces that have been set as *Flat*,
 will not change their shading when *Auto Smooth* is activated: this allows you extra
-control over which faces will be smoothed and which ones won't by overriding the decisions
+control over which faces will be smoothed and which ones will not by overriding the decisions
 made by the *Auto Smooth* algorithm.
 
 

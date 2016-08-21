@@ -15,7 +15,7 @@ transparency, which is useful for compositing (see :term:`alpha channel`).
 
 Note that the holdout shader can only create alpha when
 :menuselection:`Properties --> Render --> Film --> Transparent` is enabled.
-If it's disabled, the holdout shader will be black.
+If it is disabled, the holdout shader will be black.
 
 
 Inputs

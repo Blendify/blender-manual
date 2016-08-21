@@ -16,7 +16,7 @@ The general process is the following, for each vertex:
 - It applies the influence factor, and optionally the vertex group or texture mask
   (0.0 means original weight, 1.0 means fully mapped weight).
 - It applies back the weight to the vertex, and/or it might optionally remove the vertex
-  from the group if its weight is below a given threshold, or add it if it's above a given threshold.
+  from the group if its weight is below a given threshold, or add it if it is above a given threshold.
 
 .. warning::
 
@@ -121,7 +121,7 @@ Example
 
 .. rubric:: Using Distance from a Target Object's Geometry
 
-We're going to illustrate this with a *Displace* modifier.
+We are going to illustrate this with a *Displace* modifier.
 
 Add a (10×10 BU) 100×100 vertices grid, and in *Edit Mode*,
 add to it a vertex group containing all of its vertices, as above.

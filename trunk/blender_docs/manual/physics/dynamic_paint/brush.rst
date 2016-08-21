@@ -14,7 +14,7 @@ Absolute Alpha
    This setting limits brush alpha influence.
    Without it, brush is "added" on surface over and over again each frame,
    increasing alpha and therefore influence of brush on canvas. In many cases however,
-   it's preferred to not increase brush alpha if it already is on brushes level.
+   it is preferred to not increase brush alpha if it already is on brushes level.
 Erase Paint
    Makes brush dissolve exiting paint instead of adding it.
 Wetness
@@ -53,7 +53,7 @@ Mesh Volume
 
 Proximity
    Only uses defined distance to the closest point on brush mesh surface.
-   Note that inside of the volume is not necessarily affected because it's not close to the surface.
+   Note that inside of the volume is not necessarily affected because it is not close to the surface.
 
    Proximity falloff type can be "Smooth", "Sharp" or tweaked with a color ramp.
 
@@ -140,9 +140,9 @@ Smudge settings
    Enabling Smudge makes the brush "smudge" (or "smear") existing colors on the surface as it moves.
    The strength of this effect can be defined from the "Smudge Strength" property.
 
-   Even when smudge is enabled brush still does it's normal paint effect.
+   Even when smudge is enabled brush still does its normal paint effect.
    If you want a purely smudging brush use zero alpha.
-   It's also possible to have "Erase" option enabled together with smudge.
+   It is also possible to have "Erase" option enabled together with smudge.
 
 
 Waves Panel
@@ -160,7 +160,7 @@ Wave Type
 
    Depth Change
       This option makes brush create waves when the intersection depth with the surface is *changed* on that point.
-      If the brush remains still it won't have influence.
+      If the brush remains still it will not have influence.
 
       Using a negative "Factor" with this type can create a nice looking "wake" for moving objects like ships.
    Obstacle

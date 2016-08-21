@@ -54,8 +54,8 @@ Fall-off
    This setting governs the strength of the guide between *MinDist* and *MaxDist*.
    A *Fall-off* of 1 means a linear progression.
 
-A particle follows a *Curve Guide* during it's lifetime,
-the velocity depends from it's lifetime and the length of the path.
+A particle follows a *Curve Guide* during its lifetime,
+the velocity depends on its lifetime and the length of the path.
 
 Additive
    If you use *Additive*, the speed of the particles is also evaluated depending on the *Fall-off*.

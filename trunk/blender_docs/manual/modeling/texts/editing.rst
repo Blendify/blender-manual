@@ -36,7 +36,7 @@ Editing *Text* is similar to using a standard text editor but is not as
 full-featured and has some differences:
 
 Exit *Edit Mode*
-   :kbd:`Tab` doesn't insert a tab character in the text,
+   :kbd:`Tab` does not insert a tab character in the text,
    but rather enters and exits *Edit Mode*, as with other object types.
 Copy
    To copy text to the buffer, use :kbd:`Ctrl-C` or the *Copy* button in the tool shelf.
@@ -64,7 +64,7 @@ You can insert text in two ways: from the internal text buffer
 
 To load text from a text file, use the :menuselection:`Text --> Paste File` tool.
 This will bring up a :doc:`File Browser </editors/file_browser/index>` for navigating to a valid UTF-8 file.
-As usual, be careful that the file doesn't have too many characters,
+As usual, be careful that the file does not have too many characters,
 as interactive response will slow down.
 
 

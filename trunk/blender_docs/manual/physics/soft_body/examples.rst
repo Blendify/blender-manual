@@ -44,7 +44,7 @@ To speed things up, we need to bake the softbody physics.
 
 Under *Soft Body Cache* change the start and end values to your start and end frames. In this case 1 and 150.
 Now, to test if everything is working, you can take a cache step of 5 or 10,
-but for the final animation it's better to reduce it to 1, to cache everything.
+but for the final animation it is better to reduce it to 1, to cache everything.
 
 When finished, your physics panel should look like this:
 

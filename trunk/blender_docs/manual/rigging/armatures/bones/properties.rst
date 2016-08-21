@@ -62,7 +62,7 @@ Turning the Deform option on and off,
 includes the active bone in the Automatic Weight Calculation when the Mesh is
 Parented to the Armature using the Armature Deform with the "With Automatic Weights" option.
 
-Also it's worth noting that by turning off a bone's deform option, makes it not influence the mesh at all,
+Also it is worth noting that by turning off a bone's deform option, makes it not influence the mesh at all,
 overriding any weights that it might have been assigned before; It mutes its influence.
 
 

@@ -9,7 +9,7 @@ Baking Smoke Simulations
    *Smoke Cache* options.
 
 
-:term:`Baking` is used to store the outcome of a simulation so it doesn't need to be recalculated.
+:term:`Baking` is used to store the outcome of a simulation so it does not need to be recalculated.
 
 Smoke baking settings are in :menuselection:`Properties --> Physics --> Smoke --> Smoke Cache`.
 Unlike most physics simulations smoke physics has some settings that are specific to smoke.

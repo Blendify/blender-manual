@@ -138,7 +138,7 @@ and the modifier/texture retrieves all information from the baked files.
 
 Baking can be advantageous for a few reasons:
 
-- It's faster to use the stored data rather than re-calculating it
+- It is faster to use the stored data rather than re-calculating it
 - Allows rendering ocean data in external renderers
 - Enables more advanced foam maps
 
@@ -164,7 +164,7 @@ the ocean simulator retrieves data for that current frame only. In the case of t
 this represents the tips of wave crests for that given frame. In reality,
 after foam is created by wave interactions,
 it remains sitting on the top of the wave surface for a while, as it dissipates. With baking,
-it's possible to approximate that behaviour, by accumulating foam from previous frames,
+it is possible to approximate that behaviour, by accumulating foam from previous frames,
 leaving it remaining on the surface.
 
 .. vimeo:: 17517981

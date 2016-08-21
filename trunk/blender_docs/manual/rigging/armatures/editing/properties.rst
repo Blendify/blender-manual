@@ -21,12 +21,12 @@ Transforming Bones
 
    The Transform panel for armatures in Edit Mode.
 
-We won't detail here the various transformations of bones, nor things like axis locking, pivot points, and so on,
+We will not detail here the various transformations of bones, nor things like axis locking, pivot points, and so on,
 as they are common to most object editing, and already described
 :doc:`here </editors/3dview/transform/transform_control/index>`
 (note however, that some options, like snapping, do not seem to work, even though they are available...).
 The same goes for mirroring,
-as it's nearly the same as with :doc:`mesh editing </modeling/meshes/editing/deforming/mirror>`.
+as it is nearly the same as with :doc:`mesh editing </modeling/meshes/editing/deforming/mirror>`.
 Just keep in mind that bones' roots and tips behave more or less like meshes' vertices,
 and bones themselves act like edges in a mesh.
 
@@ -226,7 +226,7 @@ Recalculate Bone Roll
 
 Axis Orientation
    Local (X,Z) Tangent
-      Align roll relative to the axis defined by the bone and it's parent.
+      Align roll relative to the axis defined by the bone and its parent.
    Global (X,Y,Z) Axis
       Align roll to global X,Y,Z axis.
    Active Bone
@@ -394,7 +394,7 @@ To parent and/or connect bones, you can:
 
   .. note::
 
-      With this method, the newly-children bones won't be scaled nor rotated -
+      With this method, the newly-children bones will not be scaled nor rotated -
       they will just be translated if you chose to connect them to their parent's tip.
 
 - In the Properties editor, *Armature Bones* panel, for each selected bone,
@@ -481,8 +481,8 @@ Naming Conventions
 Naming conventions in Blender are not only useful for you in finding the right bone,
 but also to tell Blender when any two of them are counterparts.
 
-In case your armature can be mirrored in half (i.e. it's bilaterally symmetrical),
-it's worthwhile to stick to a left/right naming convention.
+In case your armature can be mirrored in half (i.e. it is bilaterally symmetrical),
+it is worthwhile to stick to a left/right naming convention.
 This will enable you to use some tools that will probably save you time and effort
 (like the *X-Axis Mirror* editing tool we saw above...).
 
@@ -506,7 +506,7 @@ This will enable you to use some tools that will probably save you time and effo
     - `` `` (space): hand LEFT --> hand RIGHT
 
     Note that all examples above are also valid with the left/right part placed before the name.
-    You can only use the short "L"/ "R" code if you use a separator (i.e. "handL"/ "handR" won't work!).
+    You can only use the short "L"/ "R" code if you use a separator (i.e. "handL"/ "handR" will not work!).
 
 - Before Blender handles an armature for mirroring or flipping,
   it first removes the number extension, e.g. ".001".

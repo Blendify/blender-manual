@@ -15,7 +15,7 @@ There can be only a single fluid simulation domain object in the scene.
 
 The shape of the object does **not** matter because it will *always* be treated like a box
 (The lengths of the bounding box sides can be different).
-So, usually there won't be any reason to use another shape than a box.
+So, usually there will not be any reason to use another shape than a box.
 If you need obstacles or other boundaries than a box to interfere with the fluid flow,
 you need to insert additional obstacle objects *inside* the domain boundary.
 

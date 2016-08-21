@@ -34,7 +34,7 @@ but would change your mesh topology drastically.
 Luckily, Blender allows to define additional *virtual* connections.
 On one hand we can define virtual connections between the diagonal edges of a quad face
 (*Stiff Quads* Fig. :ref:`fig-softbody-force-interior-stiff`), on the other hand we can define virtual connections
-between a vertex and any vertices connected to it's neighbors
+between a vertex and any vertices connected to its neighbors
 *Bending Stiffness*. In other words, the amount of bend that is allowed between a
 vertex and any other vertex that is separated by two edge connections.
 
@@ -62,7 +62,7 @@ Plastic
    Permanent deformation of the object after a collision.
    The vertices take a new position without applying the modifier.
 Bending
-   This option creates virtual connections between a vertex and the vertices connected to it's neighbors.
+   This option creates virtual connections between a vertex and the vertices connected to its neighbors.
    This includes diagonal edges. Damping also applies to these connections.
 Length
    The edges can shrink or been blown up. This value is given in percent,
@@ -103,7 +103,7 @@ To show the effect of the different edge settings we will use two cubes
 
 
 In Fig. :ref:`fig-softbody-force-interior-without`, the default settings are used (without *Stiff Quads*).
-The "quad only" cube will collapse completely, the cube composed of tris keeps it's shape,
+The "quad only" cube will collapse completely, the cube composed of tris keeps its shape,
 though it will deform temporarily because of the forces created during collision.
 
 
@@ -152,7 +152,7 @@ because it has no quads anyway.
           Frame 401.
 
 
-The second method to stop an object from collapsing is to change it's *Bending Stiffness*.
+The second method to stop an object from collapsing is to change its *Bending Stiffness*.
 This includes the diagonal edges (Damping also applies to these connections).
 
 In Fig. :ref:`fig-softbody-force-interior-bending`, *Be* is activated with a strength setting of 1.

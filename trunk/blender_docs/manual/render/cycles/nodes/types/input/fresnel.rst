@@ -20,7 +20,7 @@ At grazing angles more light will be reflected than refracted as happens in real
 
 For a two-layered material with a diffuse base and a glossy coating,
 you can use the same setup, mixing between a diffuse and glossy BSDF. By using the Fresnel as
-the blending factor you're specifying that any light which is refracted through the glossy
+the blending factor you are specifying that any light which is refracted through the glossy
 coating layer would hit the diffuse base and be reflected off that.
 
 

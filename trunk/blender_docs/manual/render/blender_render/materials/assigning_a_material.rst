@@ -84,8 +84,8 @@ X
 
 .. tip:: Naming materials
 
-   It's a very good idea to give your materials clear names so you can keep track of them,
-   especially when they're linked to multiple objects.
+   It is a very good idea to give your materials clear names so you can keep track of them,
+   especially when they are linked to multiple objects.
    Try to make your names descriptive of the material,
    not its function (e.g. "Yellow Painted" rather than "Kitchen Table Color")
 

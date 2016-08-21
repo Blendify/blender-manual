@@ -18,7 +18,7 @@ View Z Axis
    (use *Reverse* if you want it the other way).
 
 View X Axis
-   Sort along the active view's X axis, from left to right by default (again, there's the *Reverse* option).
+   Sort along the active view's X axis, from left to right by default (again, there is the *Reverse* option).
 
 Cursor Distance
    Sort from nearest to farthest away from the 3D cursor position (*Reverse* also available).

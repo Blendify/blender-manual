@@ -83,7 +83,7 @@ Some of these outputs must be enabled and used within your scene
 For example, if you do not have any lights in your scene,
 or those lights have been set to not cast shadows,
 or objects in the limelight do not have materials which have been set to receive shadows,
-the *Shadow* pass will be blank; there's simply nothing to show you.
+the *Shadow* pass will be blank; there is simply nothing to show you.
 If you have not enabled *Ambient Occlusion* in your World environment settings,
 the *AO* pass will be blank, even if you select it here.
 
@@ -91,9 +91,9 @@ To save time and disk space, you have to tell Blender each of the passes to rend
 (which we first introduced on :doc:`the previous page </render/post_process/layers>`):
 
 Combined
-   This renders everything in the image, even if it's not necessary.
+   This renders everything in the image, even if it is not necessary.
    ("The whole enchilada," so to speak.) This is all the options below,
-   blended into a single output, *except* those options which you've indicated should be omitted from this pass,
+   blended into a single output, *except* those options which you have indicated should be omitted from this pass,
    as indicated with the camera button.
 Z
    The Z-depth map; how far away each pixel is from the camera. Used for Depth-Of-Field (DOF).
@@ -121,7 +121,7 @@ Shadow
 Emit
    Emission pass.
 AO
-   Ambient Occlusion. Make sure it's turned on in your environment and that RayTracing is enabled.
+   Ambient Occlusion. Make sure it is turned on in your environment and that RayTracing is enabled.
 Environment
    Environment lighting.
 Indirect
@@ -205,7 +205,7 @@ AlphaOver and Mix. For either option:
 - Feed the core or base image to the Bottom Socket.
 
 The resulting image is the same in either case; a blue shadow.
-Note that Suzanne's reflection is not blue; there's a different Render Pass for that.
+Note that Suzanne's reflection is not blue; there is a different Render Pass for that.
 
 You could just as easily swap in another image entirely; for example,
 the shadow map from another render layer.
