@@ -27,7 +27,7 @@ Name
    Vertex Color Layers
       These can be retrieved this by their names.
    density
-      gives a scalar defining the density of any smoke inside the
+      Gives a scalar defining the density of any smoke inside the
       :doc:`Smoke Domain </physics/smoke/types/domain>`.
    flame
       Gives a scalar defining the density of any fire inside the :doc:`Smoke Domain </physics/smoke/types/domain>`.

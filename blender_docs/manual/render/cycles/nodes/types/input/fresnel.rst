@@ -42,6 +42,6 @@ This node has no properties.
 Outputs
 =======
 
-Fresnel
+Fac
    Fresnel weight, indicating the probability with which light
    will reflect off the layer rather than passing through.
