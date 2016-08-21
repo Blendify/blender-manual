@@ -10,12 +10,13 @@ Cycles uses the render settings (samples, bounces, ...) for baking.
 This way the quality of the baked textures should match the result you get from the rendered scene.
 
 The baking happens into the respective active textures of the object materials.
-The active texture is the last selected Image Texture node of the material nodetree.
+The active texture is the last selected Image Texture node of the material node tree.
 That means the active object (or the selected objects, when not baking 'Selected to Active') needs a material,
 and that material needs at least an Image Texture node, with the image to be used for the baking.
 Note, the node doesn't need to be connected to any other node.
 The active texture is what projection painting and the viewport use as a criteria to which image to use.
 This way after the baking is done you can automatically preview the baked result in the Texture mode.
+
 
 Options
 =======
@@ -34,8 +35,7 @@ Combined
 
       Combined Pass Options.
 
-The passes that contribute to the combined pass can be toggled individually to form the final map.
-
+   The passes that contribute to the combined pass can be toggled individually to form the final map.
 Ambient Occlusion
    Bakes ambient occlusion as specified in the World panels. Ignores all lights in the scene.
 Shadow
@@ -71,9 +71,9 @@ Environment
 Diffuse / Glossy / Transmission / Subsurface
    Bakes the diffuse, glossiness, transmission of subsurface pass of a material.
 
-.. figure:: /images/cycles-bake-diffuse.png
+   .. figure:: /images/cycles-bake-diffuse.png
 
-   Diffuse Pass Options.
+      Diffuse Pass Options.
 
 If only color is selected you get the pass color,
 which is a property of the surface and independent of sampling refinement.
@@ -97,9 +97,7 @@ Select to Active
    *Ray Distance* or *Cage Extrusion* (depending on whether or not you are using cage).
    For even more control you can use a *Cage Object*.
 
-.. note::
-
-   Memory Usage
+.. note:: Memory Usage
 
    There is a CPU fixed memory footprint for every object used to bake from.
    In order to avoid crashes due to lack of memory the highpoly objects can be joined before the baking process.
