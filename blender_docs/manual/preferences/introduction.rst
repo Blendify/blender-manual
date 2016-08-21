@@ -5,13 +5,13 @@ Introduction
 
 This chapter explains how to change Blender's default configuration with the *User Preferences* editor.
 
-The Blender *User Preferences* editor contains settings to to control how Blender behaves.
+The Blender *User Preferences* editor contains settings to control how Blender behaves.
 
 
 Open User Preferences
 =====================
 
-To open the *User Preferences* editor and go to :menuselection:`File --> User Preferences`.
+To open the *User Preferences* editor go to :menuselection:`File --> User Preferences`.
 
 .. figure:: /images/user_prefs-interface_tab.png
 
@@ -61,7 +61,7 @@ then save the preferences via the *User Preferences* editor.
 
 .. hint::
 
-   It can be valuable to make a backup of your preferences the event that you lose your configuration.
+   It can be valuable to make a backup of your preferences in the event that you lose your configuration.
 
    See the :doc:`directory layout </getting_started/installing/configuration/directories>`
    section to see where your preferences are stored.
