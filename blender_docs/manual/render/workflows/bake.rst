@@ -128,11 +128,11 @@ using the *Selected to Active* option.
 Normalized
    Normalize to the distance.
 
-When using this in conjunction with a subsurf and displacement modifier within Blender, it's
+When using this in conjunction with a subsurf and displacement modifier within Blender, it is
 necessary to temporarily add a heavy subsurf modifier to the 'low res' model before baking.
 This means that if you then use a displacement modifier on top of the subsurf,
 the displacement will be correct,
-since it's stored as a relative difference to the subsurfed geometry,
+since it is stored as a relative difference to the subsurfed geometry,
 rather than the original base mesh (which can get distorted significantly by a subsurf).
 The higher the render level subsurf while baking, the more accurate the displacements will be.
 This technique may also be useful when saving the displacement map out for use in external
@@ -190,7 +190,7 @@ Select to Active
       Controls how far a point on another object can be away from the point on the active object.
       Only needed for *Selected to Active*.
       A typical use case is to make a detailed, high poly object,
-      and then bake it's normals onto an object with a low polygon count.
+      and then bake its normals onto an object with a low polygon count.
       The resulting normal map can then be applied to make the low poly object look more detailed.
    Bias
       Bias towards further away from the object (in Blender units)

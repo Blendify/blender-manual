@@ -60,7 +60,7 @@ N-gon from edges
 ----------------
 
 When there are many edges Blender will make an ngon,
-note that this doesn't support holes, to support holes you need to use the
+note that this does not support holes, to support holes you need to use the
 :ref:`modeling-meshes-editing-fill` Faces tool.
 
 .. list-table::

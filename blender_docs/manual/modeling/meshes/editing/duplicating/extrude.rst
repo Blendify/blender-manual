@@ -19,7 +19,7 @@ Extrude Region
 One tool of paramount importance for working with meshes is the *Extrude* tool.
 It allows you to create parallelepipeds from rectangles and cylinders from circles,
 as well as easily create such things as tree limbs.
-*Extrude* is one of the most frequently used modeling tools in Blender. It's simple,
+*Extrude* is one of the most frequently used modeling tools in Blender. It is simple,
 straightforward, and easy to use, yet very powerful.
 
 The selection is extruded along the common normal of selected faces.

@@ -53,7 +53,7 @@ Mode
 
       Limit
          This is a distance limit between original vertex and surface.
-         If the distance is larger than this limit vertex wouldn't be projected onto the surface,
+         If the distance is larger than this limit vertex would not be projected onto the surface,
 
       X, Y, Z
          Along which local axis of the modified object the projection is done.

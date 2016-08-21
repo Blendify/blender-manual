@@ -135,7 +135,7 @@ Margin
    With very fast moving smoke larger margins may be required to prevent the smoke from being cut off by the adaptive
    boundary, but note this will increase the number of voxels which need to be computed.
 Threshold
-   Smallest amount of smoke a voxel can contain before it's considered empty and the adaptive domain is allowed to cut
+   Smallest amount of smoke a voxel can contain before it is considered empty and the adaptive domain is allowed to cut
    it out of the simulation.
 
 

@@ -163,5 +163,5 @@ although this will make the user interface less responsive when rendering heavy 
 CUDA error: Unknown error in cuCtxSynchronize()
 -----------------------------------------------
 
-An unknown error can have many causes, but one possibility is that it's a timeout.
+An unknown error can have many causes, but one possibility is that it is a timeout.
 See the above answer for solutions.

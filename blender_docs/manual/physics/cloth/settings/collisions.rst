@@ -172,7 +172,7 @@ You cannot change *Start* or *End* without clearing the bake simulation.
 When the simulation has finished, you will notice you have the option to free the bake,
 edit the bake and re-bake:
 
-There's a few things you will probably notice right away. First,
+There are a few things you will probably notice right away. First,
 it will bake significantly slower than before,
 and it will probably clip through the box pretty badly as in the picture on the right.
 
@@ -181,7 +181,7 @@ Editing the cached simulation
 -----------------------------
 
 The cache contains the shape of the mesh at each frame. You can edit the cached simulation,
-after you've baked the simulation and pressed the *Bake Editing* button.
+after you have baked the simulation and pressed the *Bake Editing* button.
 Just go to the frame you want to fix and :kbd:`Tab` into *Edit Mode*.
 There you can move your vertices using all of Blender's mesh shaping tools. When you exit,
 the shape of the mesh will be recorded for that frame of the animation.
@@ -207,7 +207,7 @@ If you encounter some problems with collision detection, there are two ways to f
 
 
 - The fastest solution is to increase the *Min Distance* setting under the *Cloth Collision* panel.
-  This will be the fastest way to fix the clipping; however, it will be less accurate and won't look as good.
+  This will be the fastest way to fix the clipping; however, it will be less accurate and will not look as good.
   Using this method tends to make it look like the cloth is resting on air, and gives it a very rounded look.
 - A second method is to increase the *Quality* (in the first *Cloth* panel).
   This results in smaller steps for the simulator and

@@ -70,7 +70,7 @@ Sky
 
 Turbidity
    This is a general parameter that affects sun view, sky and atmosphere;
-   it's an atmosphere parameter where low values describe clear sky, and high values shows more foggy sky.
+   it is an atmosphere parameter where low values describe clear sky, and high values shows more foggy sky.
    In general, low values give a clear, deep blue sky, with "little" sun; high values give a more reddish sky,
    with a big halo around the sun.
    Note that this parameter is one which can really modify the "intensity" of the sun lighting. See examples below.
@@ -436,7 +436,7 @@ you just have to move it; orientation is automatically handled by the constraint
 Of course, if your camera itself is moving, you should also add e.g.
 a :doc:`Copy Location constraint </rigging/constraints/transform/copy_location>`
 to your *Sun* lamp, with the camera as target - and the *Offset* option activated...
-This way, the sun light won't change as the camera moves around.
+This way, the sun light will not change as the camera moves around.
 
 If you use the default *Add* mixing type,
 you should use a very dark-blue world color, to get correct "nights"...

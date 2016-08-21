@@ -54,7 +54,7 @@ Examples
 
 With a linear correction every color value will get changed,
 which is probably not what we want. *Exposure* brightens the darker pixels,
-so that the darker parts of the image won't be changed at all
+so that the darker parts of the image will not be changed at all
 (*Range* : 2.0, *Exposure* : 0.3).
 
 .. _fig-bi-light-exposure-teapot:

@@ -152,7 +152,7 @@ In *Demonstration of Fresnel effect with values equal to (from top to bottom) 0.
 (Mirror Reflectivity 1.0).
 
 Fresnel 0.0 stands for a perfect mirror Material, while Fresnel 5.
-0 could stand for a glossy Material. It's barely noticeable but in the lower picture,
+0 could stand for a glossy Material. It is barely noticeable but in the lower picture,
 the Material is perfectly reflective around the edges.
 
 The smoothness of the Fresnel limit can be further controlled using the *Blend* slider.

@@ -218,7 +218,7 @@ look like cloth, you do **not** want any stretching (unless you want the cloth t
    * - .. figure:: /images/texture-uv-layout-testgrid2.jpg
           :width: 250px
 
-          The test grid applied to the UV's.
+          The test grid applied to the UVs.
 
      - .. figure:: /images/texture-uv-layout-testgrid3.jpg
           :width: 250px

@@ -78,7 +78,7 @@ Arrow Keys Navigation
 It is also possible to select/deselect files by "walking" through them using the arrow keys.
 
 - Just using an arrow key, the next file in the chosen direction will be selected and all others deselected
-- Holding down shift while doing this doesn't deselect anything so it extends to the selection,
+- Holding down shift while doing this does not deselect anything so it extends to the selection,
   plus it allows to deselect files by navigating into a block of already selected ones (minimum two files in sequence)
 - Holding down ctrl and shift further selects/deselects all files in-between
 

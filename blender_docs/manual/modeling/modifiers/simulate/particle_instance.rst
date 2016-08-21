@@ -199,7 +199,7 @@ showing the effect on the deformation of the cylinder along the particle path.
 
 
 Once all the extra edge loops around cylinder are removed so that there is only the top and bottom vertices left,
-meaning that the cylinder doesn't have enough geometry to bend,
+meaning that the cylinder does not have enough geometry to bend,
 in that case it cannot follow the path of the particle,
 so it just goes from the start way point 1 to the ending way point 4.
 The *ParticleInstance* modifier *Path* button works for hair (strand)

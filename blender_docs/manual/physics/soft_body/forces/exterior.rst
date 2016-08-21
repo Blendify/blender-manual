@@ -25,7 +25,7 @@ We will begin with a very simple example - the default cube.
 - Press :kbd:`Alt-A`.
 
 What happens? The cube moves in negative Z-direction.
-Each of it's eight vertices is affected by a global, constant force - the gravitation.
+Each of its eight vertices is affected by a global, constant force -- the gravitation.
 Gravitation without friction is independent from the weight of an object,
 so each object you would use as a Soft Body here would fall with the same acceleration.
 The object does not deform,
@@ -41,7 +41,7 @@ Soft Body Panel
 Friction
    The friction of the surrounding medium.
    The larger the friction, the more viscous is the medium.
-   Friction always appears when a vertex moves relative to it's surround medium.
+   Friction always appears when a vertex moves relative to its surround medium.
 
 Mass
    Mass value for vertices.
@@ -108,7 +108,7 @@ to attach a Soft Body object at other objects. This is done with the *Vertex Gro
 (target). The target position is the original position of the vertex, like it would result
 from the "normal" animation of an object including *Shape Keys*,
 *Hooks* and *Armatures*.
-The vertex tries to reach it's target position with a certain, adjustable intensity.
+The vertex tries to reach its target position with a certain, adjustable intensity.
 
 .. _fig-softbody-force-exterior-shock:
 
@@ -118,7 +118,7 @@ The vertex tries to reach it's target position with a certain, adjustable intens
    Shock absorber description.
 
 
-Imagine the vertex is connected with it's target through a spring Fig. :ref:`fig-softbody-force-exterior-shock`.
+Imagine the vertex is connected with its target through a spring Fig. :ref:`fig-softbody-force-exterior-shock`.
 
 Default
    This parameter defines how strong the influence of this spring is. A strength of 1 means,

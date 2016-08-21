@@ -18,7 +18,7 @@ When hovering your cursor over a button or setting,
 it will show you the *Tooltip*, and related details depending on the button type,
 such as the key-shortcut for a tool.
 
-The *Python:* text included last may be of interest to you if you're an animator
+The *Python:* text included last may be of interest to you if you are an animator
 or automating tasks, see :ref:`scripting-index`.
 
 

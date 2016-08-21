@@ -10,7 +10,7 @@ Armature object borrows many ideas from real life skeletons.
 Your first armature
 ===================
 
-In order to see what we're talking about, let us try to add the default armature in Blender.
+In order to see what we are talking about, let us try to add the default armature in Blender.
 
 (Note that armature editing details are explained in the
 :doc:`armatures editing section </rigging/armatures/editing/index>`).

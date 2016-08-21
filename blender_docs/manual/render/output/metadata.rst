@@ -43,7 +43,7 @@ Note
 
    .. hint::
 
-      It can be useful to use the *Note* field if you're setting up a render-farm.
+      It can be useful to use the *Note* field if you are setting up a render-farm.
 
       Since you can script any information you like into it,
       such as an identifier for the render-node or the job-number.

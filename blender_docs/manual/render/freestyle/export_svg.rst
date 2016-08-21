@@ -29,7 +29,7 @@ Mode
    Option between Frame and Animation. Frame will render a single frame,
    Animation will bundle all rendered frames into a single ``.svg`` file.
 Split at Invisible
-   By default the exporter won't take invisible vertices into account and export them like they are visible.
+   By default the exporter will not take invisible vertices into account and export them like they are visible.
    Some stroke modifiers, like Blueprint, mark vertices as invisible to achieve a certain effect. Enabling this
    option will make the paths split when encountering an invisible vertex, which leads to a better result.
 Fill Contours

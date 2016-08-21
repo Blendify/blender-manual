@@ -196,7 +196,7 @@ Justify
    Only flushes a line when it is terminated by a wordwrap (**not** by :kbd:`Return`),
    it uses *whitespace* instead of *character spacing* (kerning) to fill lines.
 Flush
-   Always flushes the line, even when it's still being entered;
+   Always flushes the line, even when it is still being entered;
    it uses character spacing (kerning) to fill lines.
 
 Both *Justify* and *Flush* only work within frames.

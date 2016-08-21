@@ -13,7 +13,7 @@ file that was made for monoscopic rendering and transform it to be stereo 3D rea
 .. note::
 
    Multi-View drawing requires capable graphics card and drivers with *Triple Buffer* support.
-   If the *Automatic* mode doesn't work,
+   If the *Automatic* mode does not work,
    set the *Window Draw Method* in the :doc:`System User Preferences </preferences/system>`.
 
 
@@ -279,7 +279,7 @@ Multi-View and Stereo 3D
    Multi-View images can be saved in special formats according to the production requirements.
    By default the system saves each view as an individual file, thus generating as many files as views to be rendered.
    In stereo 3D productions, for the final deployment or even
-   intermediary previews it's convenient to save stereo 3D images,
+   intermediary previews it is convenient to save stereo 3D images,
    that are ready to use with 3D displays or simple anaglyph glasses.
    The formats supported match the display modes available for the window.
 Lossy-Formats

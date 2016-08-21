@@ -218,7 +218,7 @@ By Hand
    This is not an option in the Physics tab's Collision Bounds settings, but a different approach, entirely.
    You create a second mesh, which is invisible, to be the physics representation.
    This becomes the parent for your display object. Then,
-   your display object is set to ghost so it doesn't fight with the parent object.
+   your display object is set to ghost so it does not fight with the parent object.
    This method allows you to strike a balance between the accuracy of *Triangle Mesh*
    with the efficiency of some of the others. See the demo of this in the dune buggy to the right.
 
@@ -233,11 +233,11 @@ There are only two options in the Collision Bounds subpanel.
 
 Margin
    "Add extra margin around object for collision detection, small amount required for stability."
-   If you find your objects are getting stuck in places they shouldn't, try increasing this to, say, 0.06.
+   If you find your objects are getting stuck in places they should not, try increasing this to, say, 0.06.
 
    Sometimes 0.06 is the default (such as on the Default Cube), but sometimes it is not.
    You have to keep an eye on the setting, or else learn the symptoms so you can respond when it gives you trouble.
-   If you're lazy/paranoid/unsure/diligent/bored,
+   If you are lazy/paranoid/unsure/diligent/bored,
    you can always run this on the Python Console to bump all 0.0 margins to 0.06: for
    ``obj`` in ``bpy.data.objects``: ``obj.game.collision_margin = obj.game.collision_margin`` or 0.06
 Compound

@@ -27,5 +27,5 @@ Environment Color
 
 Using both settings simultaneously produces better global lighting.
 
-It's good for mimicking the sky in outdoor lighting.
+It is good for mimicking the sky in outdoor lighting.
 Environment lighting can be fairly noisy at times.

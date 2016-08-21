@@ -32,7 +32,7 @@ In the summer of 2000, Blender 2.0 was released.
 This version of Blender added the integration of a game engine to the 3D application.
 By the end of 2000, the number of users registered on the NaN website surpassed 250,000.
 
-Unfortunately, NaN's ambitions and opportunities didn't match the company's capabilities and
+Unfortunately, NaN's ambitions and opportunities did not match the company's capabilities and
 the market realities of the time. This over-extension resulted in restarting NaN with new
 investor funding and a smaller company in April 2001.
 Six months later NaN's first commercial software product, Blender Publisher was launched.
@@ -44,7 +44,7 @@ Although there were clearly shortcomings in the then current version of Blender,
 such as a complex internal software architecture,
 unfinished features and a non-standard way of providing the GUI, the enthusiastic support from
 the user community and customers who had purchased Blender Publisher in the past meant that
-Ton couldn't justify leaving Blender to fade into insignificance.
+Ton could not justify leaving Blender to fade into insignificance.
 Since restarting a company with a sufficiently large team of developers was not feasible,
 Ton Roosendaal founded the non-profit organization Blender Foundation in March 2002.
 

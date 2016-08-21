@@ -340,7 +340,7 @@ Lock
 Box
    Syncs view position between side views.
 Clip
-   Clip objects based on what's visible in other side views.
+   Clip objects based on what is visible in other side views.
 
 
 .. _3dview-clip-border:

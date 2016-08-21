@@ -150,7 +150,7 @@ It outputs vertex weight groups that can be used by other Blender modifiers and 
 
 .. tip::
 
-   It's usually preferred to use "proximity" based brushes for
+   It is usually preferred to use "proximity" based brushes for
    weight surfaces to allow smooth falloff between weight values.
 
 
@@ -167,7 +167,7 @@ From "Output" panel you can adjust how surface outputs its results.
 For "Vertex" format surfaces, you can select a mesh data layer
 (color / weight depending on surface type) to generate results to.
 You can use the "+"/"-" icons to add/remove a data layers of given name.
-If layer with given name is not found, it's shown as red.
+If layer with given name is not found, it is shown as red.
 
 For "Image Sequence" surfaces,
 you can define used "UV Layer" and output file saving directory, filenames and image format.

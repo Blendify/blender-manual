@@ -3,7 +3,7 @@
 Introduction
 ************
 
-Light wouldn't even exist without its counterpart: shadows. Shadows are a darkening of a
+Light would not even exist without its counterpart: shadows. Shadows are a darkening of a
 portion of an object because light is being partially or totally blocked from illuminating the
 object. They add contrast and volume to a scene;
 there is nearly no place in the real world without shadows, so to get realistic renders,

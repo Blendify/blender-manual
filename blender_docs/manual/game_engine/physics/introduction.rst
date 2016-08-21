@@ -64,7 +64,7 @@ Material Physics
 
 Physics can be associated with a material on the material properties tab.
 These are settings that one would normally associate with a material,
-such has it's friction and they are meant to be used in conjunction with the object physics
+such has its friction and they are meant to be used in conjunction with the object physics
 settings, not replace it.
 
 
@@ -178,7 +178,7 @@ The mesh itself is both a display and a physics mesh, so there is not much to co
 To use an Armature as the deformer will require a bit of extra thought and effort.
 Basically the Armature will only deform a mesh if the Armature is the parent of that mesh.
 But at that point, your mesh will lose its physics responsivenes, and only hang in the air
-(it's copying the location/rotation of the Armature).
+(it is copying the location/rotation of the Armature).
 To somewhat fix this you can then parent the Armature to a collision mesh
 (perhaps a simple box or otherwise very-low-poly mesh).
 This "Deformation Mesh" will be the physics representative, being type: Dynamic or Rigid Body,

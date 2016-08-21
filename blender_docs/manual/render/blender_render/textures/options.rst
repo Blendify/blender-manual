@@ -138,7 +138,7 @@ Here you can control how the texture will be mapped on the object.
 
 .. note:: Brushes
 
-   These options are not available for brushes because they wouldn't make sense
+   These options are not available for brushes because they would not make sense
 
 
 See :doc:`Mapping </render/blender_render/textures/mapping/introduction>` section for details.
@@ -153,4 +153,4 @@ They are detailed on the :doc:`Influence </render/blender_render/textures/influe
 
 .. note:: Brushes
 
-   These options are not available for brushes because they wouldn't make sense
+   These options are not available for brushes because they would not make sense

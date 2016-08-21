@@ -84,7 +84,7 @@ Offset
    The number of frames to offset from the "animation" defined by the path (by default, from frame 1).
 Follow Curve
    If this option is not activated, the owner's rotation is not modified by the curve; otherwise,
-   it's affected depending on the following options:
+   it is affected depending on the following options:
 
    Forward
       The axis of the object that has to be aligned with the forward direction of the path

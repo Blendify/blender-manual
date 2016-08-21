@@ -5,7 +5,7 @@ Baking Physics Simulations
 
 :term:`Baking` refers to the act of storing or caching the results of a calculation.
 
-It's generally recommended to bake your physics simulations before rendering.
+It is generally recommended to bake your physics simulations before rendering.
 Aside from no longer needing to go through the time-consuming process of simulating again,
 baking can help prevent potential glitches and ensure that the outcome of the simulation
 remains exactly the same every time.

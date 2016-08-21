@@ -42,9 +42,9 @@ Limitations & Workarounds
 
 - If the setup seems to go wrong, make sure all the normals are correct (hence,
   enter *Edit Mode*, select all, and recalculate normals once in a while).
-- Currently there's a problem with zero gravity simulation - simply select a very small gravity until this is fixed.
+- Currently there is a problem with zero gravity simulation - simply select a very small gravity until this is fixed.
 - If an object is initialized as *Volume*, it has to be closed and have an inner side
-  (a plane won't work). To use planes, switch to *Shell*, or extrude the plane.
+  (a plane will not work). To use planes, switch to *Shell*, or extrude the plane.
 - Blender freezes after clicking *bake*.
   Pressing :kbd:`Esc` makes it work again after a while -
   this can happen if the resolution is too high and memory is swapped to hard disk,

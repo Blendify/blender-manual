@@ -71,7 +71,7 @@ we've got color and alpha information available per sample.
 It then is important to define how much each sample contributes to a pixel.
 
 The simplest method is to average all samples and make that the pixel color.
-This is called using a "Box Filter". The disadvantage of this method is that it doesn't take
+This is called using a "Box Filter". The disadvantage of this method is that it does not take
 into account that some samples are very close to the edge of a pixel,
 and therefore could influence the color of the neighbor pixel(s) as well.
 

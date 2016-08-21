@@ -12,7 +12,7 @@ Also, you have specific tools to add, duplicate, move and delete elements,
 which will be explained in other pages of the modeling section present in this manual.
 
 This page explains how to add basic geometry creating objects from primitives and how to add more elements
-to your primitives, including the addition of other primitives and basic elements when you're modeling.
+to your primitives, including the addition of other primitives and basic elements when you are modeling.
 
 To enter Edit you can select Edit from the modes menu as explained in the Interface overview,
 or use :kbd:`Tab` with a mesh object selected.
@@ -100,7 +100,7 @@ and the last connected unselected edge. If this angle exceeds a negative limit (
 between the recently created edge and the last two, Blender will wrap the faces.
 But if you do not want Blender rotating and smoothing edges automatically when extruding from :kbd:`Ctrl-LMB`,
 you can also inhibit Blender from rotating sources using the shortcut :kbd:`Ctrl-Shift-LMB`.
-In this case, Blender won't rotate the source dividing the angle between those edges when creating a face.
+In this case, Blender will not rotate the source dividing the angle between those edges when creating a face.
 
 For both cases, Blender will inform the user about the source rotation during the creation process.
 If you look at the Bottom of the Mesh Tools Panel, if you press :kbd:`Ctrl-LMB`,
@@ -135,7 +135,7 @@ Filling Faces
 
 You can also create faces with at least three vertices selected, using :kbd:`F` to fill them with edges and faces,
 or only fill edges with faces if they are already connected (Fill) (See Fig. :ref:`fig-mesh-basics-fill-tri`).
-For four or more vertices, it's mandatory that you have coplanar vertices.
+For four or more vertices, it is mandatory that you have coplanar vertices.
 four coplanar vertices will create a quad when filled, and more than four coplanar vertices will create a Ngon face.
 
 .. container:: lead
@@ -144,11 +144,11 @@ four coplanar vertices will create a quad when filled, and more than four coplan
 
 .. note::
 
-   Note that you can only modify the mesh of the object you're editing.
+   Note that you can only modify the mesh of the object you are editing.
    To modify other objects you need to leave, select them and re-enter Edit Mode.
 
 .. hint::
 
-   When you're modeling, that, in order to facilitate the modeling,
+   When you are modeling, that, in order to facilitate the modeling,
    the best solution is to imagine what primitive type suits better for your model.
    If you will model a cuboid, the best solution is to start with a primitive cube, and so on.

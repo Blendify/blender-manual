@@ -28,12 +28,12 @@ View
    Tools for, working with the editor and controlling how things are displayed.
    The properties panel has display options and manipulation tools.
 Select
-   Tools for :doc:`Selecting UV's </editors/uv_image/uv_editing/layout_editing>`
+   Tools for :doc:`Selecting UVs </editors/uv_image/uv_editing/layout_editing>`
 Image
    This contains options for when :doc:`Working with Images </editors/uv_image/uv_editing/applying_image>`
 UVs
    Contains tools for :doc:`Unwrapping Meshes </editors/uv_image/uv_editing/overview>`
-   and :doc:`Editing UV's </editors/uv_image/uv_editing/layout_editing>`.
+   and :doc:`Editing UVs </editors/uv_image/uv_editing/layout_editing>`.
 
 Image data-block menu
    Select the image to apply when :doc:`Working with Images </editors/uv_image/uv_editing/applying_image>`.
@@ -71,7 +71,7 @@ Properties Region
    UV/Image Editor Properties region.
 
 UV Vertex
-   Transform Properties :doc:`Selecting UV's </editors/uv_image/uv_editing/layout_editing>`.
+   Transform Properties :doc:`Selecting UVs </editors/uv_image/uv_editing/layout_editing>`.
 Grease Pencil
    See the :doc:`Grease Pencil </interface/grease_pencil/converting_to_geometry>` Docs.
 Image

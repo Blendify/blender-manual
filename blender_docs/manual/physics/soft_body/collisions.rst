@@ -180,7 +180,7 @@ Ball Size
 
    Set this value to the fractional distance between vertices that you want them to have their own "space".
    Too high of a value will include too many vertices all the time and slow down the calculation. Too low of a level
-   will let other vertices get too close and thus possibly intersect because there won't be enough time to slow them
+   will let other vertices get too close and thus possibly intersect because there will not be enough time to slow them
    down.
 
 Stiffness

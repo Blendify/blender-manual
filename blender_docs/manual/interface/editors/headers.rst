@@ -79,7 +79,7 @@ So if you cannot find a menu that was mentioned somewhere, try looking for a lit
 the menu will come back.
 
 Menus allow you to directly access many features and commands,
-so just look through them to see what's there.
+so just look through them to see what is there.
 All Menu entries show the relevant shortcut keys, if any.
 
 Menus and buttons will change with *Editor Type* and the selected object and mode.

@@ -117,8 +117,8 @@ Volume
 
 Sampling Method
    Options are *Multiple Importance*, *Distance*, or *Equiangular*.
-   - If you've got a pretty dense volume that is lit from far away then distance sampling is usually more efficient.
-   - If you've got a light inside or near the volume then equiangular sampling is better.
+   - If you have got a pretty dense volume that is lit from far away then distance sampling is usually more efficient.
+   - If you have got a light inside or near the volume then equiangular sampling is better.
    - If you have a combination of both, then the multiple importance sampling will be better.
 
 Interpolation

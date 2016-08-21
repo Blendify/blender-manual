@@ -47,7 +47,7 @@ Proxy Size
 Overwrite
    Saves over any existing proxies in the proxy storage directory.
 Quality
-   Defines the quality of the JPEG's used for proxies.
+   Defines the quality of the JPEG images used for proxies.
 Timecode
    See `Timecode`_.
 Set Selected Strip Proxies

@@ -11,7 +11,7 @@ Motor
 The motor constraint causes translation and/or rotation between two entities.
 It can drive two objects apart or together.
 It can drive simple rotation, or rotation and translation
-(although it won't be constrained like a screw since the translation
+(although it will not be constrained like a screw since the translation
 can be blocked by other physics without preventing rotation).
 
 The rotation axis is the X axis of the object hosting the constraint.

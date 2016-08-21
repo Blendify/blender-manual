@@ -127,7 +127,7 @@ The total amount of energy in the spread-out light will remain the same, though.
 The light angle also affects the amount of light you see.
 It is in fact the behavior of light in the deep space vacuum.
 
-If what you want is a light source that doesn't attenuate and gives the same amount of light
+If what you want is a light source that does not attenuate and gives the same amount of light
 intensity to each area it hits,
 you need a light with properties like the *Constant* lamp *Falloff* type.
 
@@ -488,7 +488,7 @@ In Fig. :ref:`fig-bi-light-attenuation-sphere20`,
 the clipping sphere's radius is now 20 BU and some light is reaching the middle objects.
 
 In Fig. :ref:`fig-bi-light-attenuation-sphere40`, the clipping sphere's radius is now 40 units,
-which is beyond the last object. However, the light doesn't make it to the last few objects
+which is beyond the last object. However, the light does not make it to the last few objects
 because the intensity has fallen to nearly 0.
 
 .. hint::

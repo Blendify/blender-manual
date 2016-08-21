@@ -75,7 +75,7 @@ Cut through: :kbd:`Z`
 Angle constrain :kbd:`C`
    Constrains the cut to 45 degree increments.
 Close loop: Double click :kbd:`LMB`
-   This is a quick way to close the loop you're currently cutting.
+   This is a quick way to close the loop you are currently cutting.
 Draw a continuous line: :kbd:`LMB` drag.
    So you can draw a freehand line over a surface,
    points will be created at edge intersections.

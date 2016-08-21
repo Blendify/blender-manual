@@ -18,7 +18,7 @@ Skeleton Sketching is obviously only available in *Edit Mode*, in the 3D Views.
 You control it through its *Skeleton Sketching* panel
 in the *Transform panel*, which you can open with :kbd:`N`.
 Use the mouse :kbd:`LMB` to draw strokes, and :kbd:`RMB` for gestures.
-Showing its tool panel won't enable sketching - you must tick the checkbox next
+Showing its tool panel will not enable sketching - you must tick the checkbox next
 to *Skeleton Sketching* to start drawing bone chains
 (otherwise, you remain in the standard *Edit Mode*...).
 
@@ -165,14 +165,14 @@ Modifying Strokes
 
 You can adjust, or "redraw" your strokes by enabling the *Overdraw Sketching* option
 of the *Bone Sketching* panel. This will modify the behavior of the strokes drawing
-(i.e. :kbd:`LMB` clicks and/or hold): when you draw, you won't create a new stroke,
+(i.e. :kbd:`LMB` clicks and/or hold): when you draw, you will not create a new stroke,
 but rather modify the nearest one.
 
 The part of the old stroke that will be replaced by the new one are drawn in gray.
 This option does not take into account stroke selection, i.e.
 all strokes can be modified this way,
 not just the selected ones... Note also that even if it is enabled,
-when you draw too far away from any other existing stroke, you won't modify any of them,
+when you draw too far away from any other existing stroke, you will not modify any of them,
 but rather create a new one, as if *Overdraw Sketching* was disabled.
 
 
@@ -201,7 +201,7 @@ Gestures are started by clicking and holding :kbd:`Shift-LMB`
 (when you are not already drawing a stroke), and materialized by blue-to-white lines.
 A gesture can affect several strokes at once.
 
-There is no direct way to cancel a gesture once you've started "drawing" it.
+There is no direct way to cancel a gesture once you have started "drawing" it.
 So the best thing to do, if you change your mind (or made a "false move"),
 is to continue to draw until you get a disgusting scribble,
 crossing your stroke several times - in short,

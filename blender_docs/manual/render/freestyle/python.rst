@@ -200,7 +200,7 @@ until the input Chain satisfies a user-specified stopping condition.
 In the code example above,
 the Chains are recursively split at points of the highest 2D curvature.
 The curvature is evaluated at points along the Chain at a resolution of 5 units.
-Chains shorter than 5 units won't be split anymore.
+Chains shorter than 5 units will not be split anymore.
 
 
 Sorting
@@ -231,7 +231,7 @@ Finally, the stroke creation operator ``Operators.create()``
 takes the active set of Chains as input and build Strokes. The operator takes two arguments.
 The first is a unary predicate that works on ``Interface1D`` that is designed to make a last
 selection on the set of chains.
-A Chain that doesn't satisfy the condition won't lead to a Stroke.
+A Chain that does not satisfy the condition will not lead to a Stroke.
 The second input is a list of shaders that will be responsible for the shading of each built stroke.
 
 .. code-block:: python

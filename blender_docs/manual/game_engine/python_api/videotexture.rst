@@ -66,7 +66,7 @@ which we want to display a video.
 
 The first step is to create a ``Texture`` object.
 We will do it in a script that runs once. It can be at the start of the game,
-the video is only played when you refresh the texture; we'll come to that later. The script is
+the video is only played when you refresh the texture; we will come to that later. The script is
 normally attached to the object on which we want to display the video so that we can easily
 retrieve the object reference:
 
@@ -99,7 +99,7 @@ In case of UV texture, it grabs the internal material corresponding to the faces
 In case of Blender material,
 it grabs the material that has an image texture channel matching the name as first channel.
 
-The ``IM`` prefix indicates that we're searching for a texture name but we can also
+The ``IM`` prefix indicates that we are searching for a texture name but we can also
 search for a material by giving the ``MA`` prefix. For example,
 if we want to find the material called ``VideoMat`` on this object, the code becomes:
 
@@ -307,7 +307,7 @@ You can also do it manually by calling the ``refresh
 
 Here are some possible advanced work flow:
 
-- Use the image buffer in python (doesn't effect the Texture):
+- Use the image buffer in python (does not effect the Texture):
 
 .. code-block:: python
 

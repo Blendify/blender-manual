@@ -39,7 +39,7 @@ Mouse Button Emulation
 ^^^^^^^^^^^^^^^^^^^^^^
 
 If you do not have a 3 button mouse,
-you'll need to emulate it by checking the option in the :doc:`User Preferences </preferences/index>`.
+you will need to emulate it by checking the option in the :doc:`User Preferences </preferences/index>`.
 
 The following table shows the combinations used:
 
@@ -96,7 +96,7 @@ as well as provide additional controls such as pressure sensitivity.
 
 .. note::
 
-   If you are using a graphic tablet instead of a mouse and pressure sensitivity doesn't work properly,
+   If you are using a graphic tablet instead of a mouse and pressure sensitivity does not work properly,
    try to place the mouse pointer in the Blender window and then unplug/replug your graphic tablet. This might help.
 
 

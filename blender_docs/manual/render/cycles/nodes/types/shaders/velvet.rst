@@ -11,7 +11,7 @@ Velvet
 
 Velvet reflection shader for materials such as cloth.
 It is meant to be used together with other shaders (such as a *Diffuse Shader*)
-and is not particularly useful on it's own.
+and is not particularly useful on its own.
 
 
 Inputs

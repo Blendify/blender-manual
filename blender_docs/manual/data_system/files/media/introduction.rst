@@ -83,7 +83,7 @@ The standard Blender configuration also includes some support for
 `ACES <https://www.oscars.org/science-technology/sci-tech-projects/aces>`__
 (`code and documentation <https://github.com/ampas/aces-dev>`__),
 even though we have a different linear color space.
-It's possible to load and save EXR files with the Linear ACES color space,
+It is possible to load and save EXR files with the Linear ACES color space,
 and the RRT view transform can be used to view images with their standard display transform.
 However, the ACES gamut is larger than the Rec. 709 gamut,
 so for best results an ACES specific configuration file should be used.

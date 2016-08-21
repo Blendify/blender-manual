@@ -5,7 +5,7 @@ Piston
 
 A piston permits translation along the X axis of the constraint object.
 It also allows rotation around the X axis of the constraint object.
-It's like a combination of the freedoms of a slider with the freedoms of a hinge
+It is like a combination of the freedoms of a slider with the freedoms of a hinge
 (neither of which is very free alone).
 
 Limits

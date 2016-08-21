@@ -165,7 +165,7 @@ Pick Random
    The objects in the group are selected in a random order, and only one object is displayed in place of a particle.
    Please note that this mechanism fully replaces old Blender particles system using parentage
    and DupliVerts to replace particles with actual geometry.
-   This method is fully deprecated and doesn't work anymore.
+   This method is fully deprecated and does not work anymore.
 
 Size
    Size of the objects
@@ -184,7 +184,7 @@ Billboard
 *Billboards* are aligned square planes. They are aligned to the camera by default,
 but you can choose another object that they should be aligned to.
 
-If you move a billboard around it's target, it always faces the center of it's target.
+If you move a billboard around its target, it always faces the center of its target.
 The size of a billboard is set with the parameter *Size* of the particle
 (in Blender Units).
 You can use them e.g. for `Sprites <https://en.wikipedia.org/wiki/Sprite_(computer_graphics)>`__,
@@ -213,7 +213,7 @@ You can use different sections of an image texture:
 Since you use normal materials for the billboard you have all freedoms in mixing textures to
 your liking. The material itself is animated in absolute time.
 
-The main thing to understand is that if the object doesn't have any *UV Layers*,
+The main thing to understand is that if the object does not have any *UV Layers*,
 you need to create at least one in the *Objects Data* tab,
 for any of these to work. Moreover,
 the texture has to be set to UV coordinates in the *Map Input* panel.
@@ -234,7 +234,7 @@ X / Y / Z
 Velocity
    Along the speed vector of the particle.
 Lock
-   Locks the align axis, keeps this orientation, the billboard aligns only along one axis to it's target
+   Locks the align axis, keeps this orientation, the billboard aligns only along one axis to its target
 
 Billboard Object
    The target object that the billboards are facing. By default, the active camera is used.
@@ -286,7 +286,7 @@ Animate
    Dropdown menu, indicating how the split UVs could be animated (changing from particle to particle with time):
 
    None
-      No animation occurs on the particle itself, the billboard uses one section of the texture in it's lifetime.
+      No animation occurs on the particle itself, the billboard uses one section of the texture in its lifetime.
    Age
       The sections of the texture are gone through sequentially in particles' lifetimes.
    Angle

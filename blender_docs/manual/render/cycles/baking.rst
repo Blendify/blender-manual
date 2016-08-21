@@ -13,7 +13,7 @@ The baking happens into the respective active textures of the object materials.
 The active texture is the last selected Image Texture node of the material node tree.
 That means the active object (or the selected objects, when not baking 'Selected to Active') needs a material,
 and that material needs at least an Image Texture node, with the image to be used for the baking.
-Note, the node doesn't need to be connected to any other node.
+Note, the node does not need to be connected to any other node.
 The active texture is what projection painting and the viewport use as a criteria to which image to use.
 This way after the baking is done you can automatically preview the baked result in the Texture mode.
 
@@ -109,7 +109,7 @@ Cage
    A cage is a ballooned-out version of the lowpoly mesh created either automatically
    (by adjusting the ray distance) or manually (by specifying an object to use).
    When not using a cage the rays will conform to the mesh normals. This produces glitches on the edges,
-   but it's a preferable method when baking into planes to avoid the need of adding extra loops around the edges.
+   but it is a preferable method when baking into planes to avoid the need of adding extra loops around the edges.
 Ray Distance
    Distance to use for the inward ray cast when using selected to active.
    Ray distance is only available when not using *Cage*.
@@ -123,6 +123,6 @@ Cage
 
    .. note::
 
-      When the base mesh extruded doesn't give good results,
+      When the base mesh extruded does not give good results,
       you can create a copy of the base mesh and modify it to use as a *Cage*.
       Both meshes need to have the same :term:`topology` (number of faces and face order).

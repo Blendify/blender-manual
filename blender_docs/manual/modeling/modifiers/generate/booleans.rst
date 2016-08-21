@@ -21,10 +21,10 @@ uses one of three Boolean operations that can be used to create a single mesh ou
 .. note::
 
    - The Boolean modifier works with open and closed volumes.
-   - The Boolean modifier doesn't work on edges without faces.
+   - The Boolean modifier does not work on edges without faces.
    - The target topology determines the new topology of the modified mesh.
    - The face normals are taken into account for the calculations.
-   - Whether faces are marked for smooth or flat for shading doesn't affect the calculations of this modifier.
+   - Whether faces are marked for smooth or flat for shading does not affect the calculations of this modifier.
    - The line at which this modifier is calculated is delimited by the first tangential contact
      between faces of the modified mesh and target.
 
@@ -32,7 +32,7 @@ uses one of three Boolean operations that can be used to create a single mesh ou
 
    If you have marked your Objects to show the Edges
    (in :menuselection:`Properties Editor --> Object --> Display`, enable *Wire*),
-   you will see the Edge creation process while you're moving your Objects. Depending on your mesh topology,
+   you will see the Edge creation process while you are moving your Objects. Depending on your mesh topology,
    you can also enable X-Ray and Transparency and see the topology being created in real time.
 
 
@@ -275,7 +275,7 @@ Face Normals
 When using the Boolean modifier,
 Blender will use the face normal directions to calculate the three Boolean operations.
 The direction of the normals will define the result of the three available operations.
-When one of the participants has inverted normals, you're in fact multiplying the operation by -1
+When one of the participants has inverted normals, you are in fact multiplying the operation by -1
 and inverting the calculation order. You can, at any time, select your modified mesh,
 enter Edit Mode and flip the normals to change the behavior of the Boolean modifier.
 See Tips: Fixing Mixed Normals below.
@@ -333,7 +333,7 @@ you can see that the modifier has bad effects when applied, leaving faces opened
 
 As you can see, the normal directions can be pointing to any of the Mesh sides,
 but cannot be mixed in opposite directions for the faces of the participants.
-The Library cannot determine properly what's positive and negative for the operation, so the
+The Library cannot determine properly what is positive and negative for the operation, so the
 results will be bad or you will have no effect when using the Boolean modifier operation.
 
 A quick way to fix this is to use Blender's
@@ -346,7 +346,7 @@ If you still have some ugly black gouges you will have to
 Empty or Duplicated Faces
 =========================
 
-This modifier doesn't work when the modified and/or the target mesh uses empty faces in the
+This modifier does not work when the modified and/or the target mesh uses empty faces in the
 topology used for calculations. If the modifier faces a situation where you have empty faces mixed with normal faces,
 the modifier will try, as much as possible, to connect the faces and apply the operation.
 For situations where you have two concurrent faces at the same position,
@@ -378,7 +378,7 @@ Open Volumes
 
 The Boolean Modifier permits you to use open meshes or non-closed volumes (not open faces).
 
-When using open meshes or non-closed volumes, the Boolean modifier won't perform
+When using open meshes or non-closed volumes, the Boolean modifier will not perform
 any operation in faces that do not create a new topology filled with faces using the faces of the target.
 
 In the images below, is the resulting operation when using two non-closed volumes with faces forming a new topology.
@@ -401,7 +401,7 @@ As you can see in the images below the faces of one participant in the Boolean o
 gives incomplete information to the modifier. The resulting edges get messy and there is
 not enough information to create faces for the resulting Mesh.
 This example uses a smooth shaded UVsphere cut in half. As explained before,
-the shading (smooth/flat) doesn't affect the calculations of the modifier.
+the shading (smooth/flat) does not affect the calculations of the modifier.
 
 .. list-table::
 

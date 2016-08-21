@@ -91,9 +91,9 @@ Endpoint, Shape
    "Rough End" randomizes path ends (a bit like random negative clumping).
    Shape may be varied from <1 (parabolic) to 10.0 (hyperbolic).
 Random, Size, Threshold
-   It is based on a random vector so it's not the same for nearby children.
+   It is based on a random vector so it is not the same for nearby children.
    The threshold can be specified to apply this to only a part of children.
-   This is useful for creating a few stray children that won't do what others do.
+   This is useful for creating a few stray children that will not do what others do.
 
 
 Kink

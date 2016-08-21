@@ -66,7 +66,7 @@ Shading
    Spot lamp scattering in a constant volume.
 
 
-When light enters a volume from an external source, it doesn't just pass straight through.
+When light enters a volume from an external source, it does not just pass straight through.
 Light gets scattered off tiny particles in the volume,
 and some proportion of that light reaches the camera. This property makes it possible to see
 light beams as they travel though a volume and are scattered towards the eye.
@@ -81,7 +81,7 @@ Scattering
    The more light that is scattered out of the volume, the less it will penetrate through the rest of the volume.
    Raising this parameter can have the effect of making the volume seem denser,
    as the light is scattered out quickly at the 'surface' of the volume,
-   leaving the areas internal to the volume darker, as the light doesn't reach it.
+   leaving the areas internal to the volume darker, as the light does not reach it.
 
 Note in the examples below, the less light that is scattered out of the volume,
 the more easily it penetrates throughout the volume and to the shadow.
@@ -123,7 +123,7 @@ all directions - known as Isotropic scattering.
 In real life different types of media can scatter light in different angular directions,
 known as Anisotropic scattering.
 Back-scattering means that light is scattered more towards the incoming light direction, and
-forward-scattering means it's scattered along the same direction as the light is traveling.
+forward-scattering means it is scattered along the same direction as the light is traveling.
 
 Asymmetry
    Asymmetry controls the range between back-scattering (-1.0) and forward-scattering (1.0).
@@ -217,10 +217,10 @@ Reflection
 
 The 'reflection' parameters can be used to tint or scale the light that is scattered out of the
 volume. This only affects light that has come from lamps and been scattered out,
-it doesn't affect the color of transmitted or emitted light and is.
+it does not affect the color of transmitted or emitted light and is.
 
 These settings are not physically correct because they do not conserve energy - the light
-scattering out doesn't affect the remaining light that is transmitted throughout the rest of
+scattering out does not affect the remaining light that is transmitted throughout the rest of
 the volume. For example, physically speaking,
 if the orange components of the light are scattered out of the volume towards the camera,
 only the inverse of that (blue) will remain to continue penetrating through the volume,
@@ -238,7 +238,7 @@ Hints
 ^^^^^
 
 Ideally try to accomplish as much as you can with the other volume settings and lighting
-before using the reflection controls. If you stick to what's physically plausible,
+before using the reflection controls. If you stick to what is physically plausible,
 the material will act correctly,
 and be more predictable and usable in a wider range of lighting scenarios.
 Of course you can always break the rules too!
@@ -444,7 +444,7 @@ turn up the Emission Value in the Materials panel.
    The Fire material.
 
 
-Then, add another texture (Keep the old texture or the smoke won't show).
+Then, add another texture (Keep the old texture or the smoke will not show).
 Give it a fiery color ramp- which colors based on the alpha,
 and change the influence to emission and emission color. Change the blend to Multiply.
 

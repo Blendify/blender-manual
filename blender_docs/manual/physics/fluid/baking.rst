@@ -94,6 +94,6 @@ Baking processing time
 
    .. note::
 
-      All of the x,y,z values should not be zero, or the fluid won't flow!
+      All of the x,y,z values should not be zero, or the fluid will not flow!
       Imagine a droplet floating in the nothingness of deep space...
       It must be some small number in at least one direction.

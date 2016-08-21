@@ -135,7 +135,7 @@ See :doc:`Particle Cache </physics/particles/properties/cache>` for reference.
 The results of the simulation are automatically cached to disk when the animation is played,
 so that the next time it runs,
 it can play again quickly by reading in the results from the disk. If you *Bake* the
-simulation the cache is protected and you will be asked when you're trying to change a setting
+simulation the cache is protected and you will be asked when you are trying to change a setting
 that will make a recalculating necessary.
 
 

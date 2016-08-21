@@ -83,7 +83,7 @@ Euclidian Distance
 Eraser Radius
    The size of the eraser used with the grease pencil.
 Smooth Stroke
-   Smooths the pencil stroke after it's finished.
+   Smooths the pencil stroke after it is finished.
 
 
 Playback

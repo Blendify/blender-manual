@@ -100,7 +100,7 @@ Some graphics cards do not support this feature
 In this case rendering works but no anti-aliasing is performed.
 
 Enabling *Full Sample*, can be used to workaround this limit,
-because it doesn't rely on hardware multi-sample support.
+because it does not rely on hardware multi-sample support.
 
 .. hint::
 

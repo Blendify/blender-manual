@@ -10,7 +10,7 @@ This modifier is used to reduce highly distorted areas of a mesh by smoothing th
 This is typically useful *after* an armature modifier,
 where distortion around joints may be hard to avoid, even with careful weight painting.
 
-To use this modifier effectively, it's useful to understand the basics of how it works.
+To use this modifier effectively, it is useful to understand the basics of how it works.
 
 Rest State
    Used as a reference to detect highly distorted areas.

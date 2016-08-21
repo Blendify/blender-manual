@@ -56,7 +56,7 @@ It provides a lens focal length and field of view angle,
 and will also take the sensor dimensions into account.
 
 The *Fisheye Equidistant* lens does not correspond to any real lens model; it will
-give a circular fish-eye that doesn't take any sensor information into account but rather uses
+give a circular fish-eye that does not take any sensor information into account but rather uses
 the whole sensor. This is a good lens for full dome projection.
 
 Lens

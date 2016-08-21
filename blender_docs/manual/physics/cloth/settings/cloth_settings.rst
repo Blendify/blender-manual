@@ -106,7 +106,7 @@ Dynamic Mesh
 
 Normally cloth uses the state of the object in the first frame to compute the natural rest
 shape of the cloth, and keeps that constant throughout the simulation. This is reasonable
-for fully realistic scenes, but doesn't quite work for clothing on cartoon style characters
+for fully realistic scenes, but does not quite work for clothing on cartoon style characters
 that use a lot of squash and stretch.
 
 When *Dynamic Mesh* is enabled, the rest shape is recalculated every frame, allowing unpinned
