@@ -310,36 +310,37 @@ dark gray *arrow down* icon on the right panel border.
 
 The following functions of the pop-up menu operate on the assigned vertices:
 
-Sort Vertex Groups:
-   Sorts Vertex Groups Alphabetically
+Sort Vertex Groups
+   Sorts Vertex Groups alphabetically.
 
-Copy Vertex Group:
+Copy Vertex Group
    Add a Copy of the active Vertex Group as a new Group.
    The new group will be named like the original group with "_copy" appended at the end of its name.
    And it will contain associations to exactly the same verts
    with the exact same weights as in the source vertex group.
 
-Copy Vertex Groups to Linked:
+Copy Vertex Groups to Linked
    Copy Vertex Groups of this Mesh to all linked Objects which use the same mesh data (all users of the data).
 
-Copy Vertex Group to Selected:
+Copy Vertex Group to Selected
    Copy all Vertex Groups to other Selected Objects provided they have matching indices
    (typically this is true for copies of the mesh which are only deformed and not otherwise edited).
 
-Mirror Vertex Group:
+Mirror Vertex Group
    Mirror all Vertex Groups, flip weights and/or names, editing only selected vertices,
    flipping when both sides are selected; otherwise copy from unselected.
    Note this function will be reworked (and fully documented) in a future release.
 
-Remove from All Groups:
+Remove from All Groups
    (not available for locked groups) Unassigns the selected Vertices from all groups.
    After this operation has been performed, the verts will no longer be contained in any vertex group.
 
-Clear Active group (not available for locked groups):
+Clear Active Group
    Remove all assigned vertices from the active Group. The group is made empty.
    Note that the vertices may still be assigned to other Vertex Groups of the Object.
+   (not available for locked groups).
 
-Delete All Groups:
+Delete All Groups
    Remove all Vertex Groups from the Object.
 
 The following functions operate only on the lock state settings:
