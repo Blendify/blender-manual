@@ -104,7 +104,7 @@ Topology Mirror
 
       If you want to create a mirrored weight group for the opposite bone (of a symmetric character),
       then you can do this:
-   
+
       - Delete the target Vertex Group (where the mirrored weights will be placed).
       - Create a copy of the source bone Vertex Group (the group containing the weights which you want to copy).
       - Rename the new Vertex Group to the name of the target Vertex Group (the group you deleted above).

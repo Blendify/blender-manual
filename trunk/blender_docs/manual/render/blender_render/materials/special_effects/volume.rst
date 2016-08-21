@@ -17,7 +17,7 @@ which represents the various interactions of light in a volume relatively realis
 
    Volume rendering.
 
-Rendering a volume is different then 
+Rendering a volume is different then
 :doc:`Solid Render </render/blender_render/materials/properties/diffuse_shaders>`.
 For volume light enters a 3D region of space (defined as the volume)
 that may be filled with small particles, such as smoke, mist or clouds.
@@ -140,8 +140,8 @@ This transmitted light can be the result of various different interactions, for 
 - the left over result of incoming light after it has reflected/scattered out of the volume
 - the left over result of light after being absorbed by the volume (and converted to heat)
 
-Here, the transmission color is used to set the end result color that light becomes after it
-is transmitted through the volume.
+Here, the transmission color is used to set the end result color
+that light becomes after it is transmitted through the volume.
 
 
 Transmission Color
@@ -187,7 +187,6 @@ Emission Color
    The color of light that is emitted by the volume.
 Emission
    An intensity multiplier for the emitted color, for scaling up and down.
-
 
 .. list-table::
 
@@ -364,6 +363,7 @@ Depth Cutoff
    Stop ray marching early if transmission drops below this luminance -
    higher values give speedups in dense volumes at the expense of accuracy.
 
+
 Options
 =======
 
@@ -401,8 +401,9 @@ The material must be a volumetric material with a Density of 0, and a high Densi
 Smoke requires a complex material to render correctly. Select the big cube and go to the material tab.
 There change the material to 'Volume' and set the density to 0.
 If you set the density to values bigger than 0 the domain cube will be filled with the volume material.
-The `other settings <https://wiki.blender.org/index.php/User:Broken/VolumeRenderingDev>`__ 
+The `other settings <https://wiki.blender.org/index.php/User:Broken/VolumeRenderingDev>`__
 will affect the smoke, though. We'll cover those later.
+
 
 Add the Texture
 ---------------
@@ -431,6 +432,7 @@ by turning *Emission Color* back on.
 .. tip:: To see the smoke more clearly
 
    Under the world tab, chose a very dark color for the horizon.
+
 
 Smoke Simulator with fire texture
 ---------------------------------

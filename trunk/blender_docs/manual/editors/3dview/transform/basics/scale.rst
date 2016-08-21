@@ -94,11 +94,11 @@ in Blender Units (BU) to specify the amount of scaling after after initiating a 
 
 .. seealso::
 
-   - :doc:`Read more about Precision Control 
+   - :doc:`Read more about Precision Control
      </editors/3dview/transform/transform_control/precision/introduction>`
-   - :doc:`Read more about Numerical Transformations 
+   - :doc:`Read more about Numerical Transformations
      </editors/3dview/transform/transform_control/precision/numeric_input>`
-   - :doc:`Read more about Transform Orientations 
+   - :doc:`Read more about Transform Orientations
      </editors/3dview/transform/transform_control/transform_orientations>`
 
 

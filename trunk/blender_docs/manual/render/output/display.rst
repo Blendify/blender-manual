@@ -6,7 +6,7 @@ Render Panel
 Render
    Starts rendering a still image.
 Animation
-   Starts rendering an animation. 
+   Starts rendering an animation.
    See :doc:`Rendering Animations </render/workflows/animations>` for more detail.
 Audio
    Mixes all the the audio found in a scene and mixes into one file.

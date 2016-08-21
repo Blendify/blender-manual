@@ -48,7 +48,7 @@ Color Picker Types
 The default color picker type can be selected in the user preferences,
 see: :doc:`System </preferences/system>`.
 
-For operations that are capable of using Alpha, 
+For operations that are capable of using Alpha,
 another slider is added at the bottom of the color picker.
 
 .. hlist::

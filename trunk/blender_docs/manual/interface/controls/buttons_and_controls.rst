@@ -159,8 +159,10 @@ Examples of valid units include:
 Unit Names
 ^^^^^^^^^^
 
-.. note to authors, normally we would avoid documenting long lists of values
+.. normally we would avoid documenting long lists of values
    however, this is not displayed anywhere else.
+   ::
+   This may be removed now that we have unit presets.
 
 Unit names have can be used with both long and short forms,
 here are listed recognized unit names you can use.
@@ -336,7 +338,7 @@ Pie Menus
 ---------
 
 A pie menu is a menu, whose items are spread radially around the mouse.
-Pie menus has to be activated in the User Preferences through 
+Pie menus has to be activated in the User Preferences through
 :menuselection:`Add-ons --> UI --> Pie Menus Official`.
 
 .. figure:: /images/interface_pie-menu.jpg

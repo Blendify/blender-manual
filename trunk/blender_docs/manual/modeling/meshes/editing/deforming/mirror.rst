@@ -20,7 +20,7 @@ It is exactly equivalent to scaling by -1 vertices,
 edges or faces around one chosen pivot point and in the direction of one chosen axis, only it is faster/handier.
 
 
-After this tool becomes active, select an axis to mirror the selection 
+After this tool becomes active, select an axis to mirror the selection
 on entering :kbd:`X`, :kbd:`Y`, or :kbd:`Z`.
 
 You can also interactively mirror the geometry by holding the :kbd:`MMB` and dragging in
@@ -38,7 +38,7 @@ you can position the pivot point at any location around which we want the mirror
 choose one transformation orientation and then one axis on it.
 
 
-Pivot point
+Pivot Point
 ===========
 
 :doc:`Pivot points </editors/3dview/transform/transform_control/pivot_point/index>` must be set first.
