@@ -32,7 +32,6 @@ Options
 
    Exposure and Range sliders.
 
-
 Exposure
    The exponential curvature, with (0.0 to 1.0) (linear to curved).
 Range
