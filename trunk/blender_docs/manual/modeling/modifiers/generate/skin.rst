@@ -28,8 +28,8 @@ Create Armature
 
    .. note::
 
-       If the root vertex has more than one adjacent edge,
-       an extra bone will be created to serve as the root.
+      If the root vertex has more than one adjacent edge,
+      an extra bone will be created to serve as the root.
 
    This function does the following:
 

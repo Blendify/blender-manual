@@ -157,7 +157,7 @@ Reflective Caustics
    in practice it may be inefficient to the point that there is just too much noise.
    This option can be unchecked, to disable reflective caustics.
 Refractive Caustics
-    The same as above, but for refractive caustics.
+   The same as above, but for refractive caustics.
 
 
 .. _render-cycles-integrator-filter-glossy:

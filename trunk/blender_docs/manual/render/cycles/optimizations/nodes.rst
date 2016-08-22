@@ -21,8 +21,8 @@ For example, it can (the list is not exhaustive):
 - Replace the following nodes with the constant result of their evaluation,
   if all their inputs are determined to be constant:
 
-    RGB, Value, MixRGB, Math, Vector Math, RGB to BW, Gamma, Bright Contrast,
-    Invert, Separate/Combine RGB/XYZ/HSV, Blackbody, RGB Curves, Vector Curves, Color Ramps.
+  RGB, Value, MixRGB, Math, Vector Math, RGB to BW, Gamma, Bright Contrast,
+  Invert, Separate/Combine RGB/XYZ/HSV, Blackbody, RGB Curves, Vector Curves, Color Ramps.
 
 - Detect Mix RGB, Math and Vector Math nodes that become no-op (without Clamp)
   or evaluate to 0 as a result of addition, subtraction, multiplication,

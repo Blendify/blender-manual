@@ -113,9 +113,9 @@ Clamp Overlap
    When selected, the bevel amount is not allowed to go larger than an amount that causes
    overlapping collisions with other geometry.
 Material
-    The *Material* number specifies which material should be assigned to the new faces created by the *Bevel* tool.
-    With the default, -1, the material is inherited from the closest existing face ("closest" can be a bit ambiguous).
-    Otherwise, the number is the slot index of the material to use for all newly created faces.
+   The *Material* number specifies which material should be assigned to the new faces created by the *Bevel* tool.
+   With the default, -1, the material is inherited from the closest existing face ("closest" can be a bit ambiguous).
+   Otherwise, the number is the slot index of the material to use for all newly created faces.
 
 
 Examples

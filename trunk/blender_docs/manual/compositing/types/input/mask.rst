@@ -23,16 +23,16 @@ Properties
 ==========
 
 Anti-Alias
-    Create smooth mask edges rather than hard ones.
+   Create smooth mask edges rather than hard ones.
 Feather
-    Use or ignore feather points defined for splines see :ref:`Mask Feathers <mask-feather>` for more details.
+   Use or ignore feather points defined for splines see :ref:`Mask Feathers <mask-feather>` for more details.
 Size
-    Scene Size will give an image the size of the render resolution for the scene,
-    scaling along when rendering with different resolutions. Fixed gives a fixed size in pixels. Fixed/
-    Scene gives a size in pixels that still scales along when changing the render resolution percentage in the scene.
+   Scene Size will give an image the size of the render resolution for the scene,
+   scaling along when rendering with different resolutions. Fixed gives a fixed size in pixels. Fixed/
+   Scene gives a size in pixels that still scales along when changing the render resolution percentage in the scene.
 Motion Blur
-    For animated masks, creating a motion blurred mask from the surrounding frames,
-    with a given number of samples (higher gives better quality), and a camera shutter time in seconds.
+   For animated masks, creating a motion blurred mask from the surrounding frames,
+   with a given number of samples (higher gives better quality), and a camera shutter time in seconds.
 
 
 Outputs

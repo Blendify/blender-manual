@@ -47,11 +47,12 @@ Ambient Occlusion
    it gives a 'normalized' value between 0 and 1.
 
 .. note::
-    :doc:`Transparent BSDFs are given special treatment </render/cycles/settings/light_paths>`.
-    A fully transparent surface is treated as if there is no surface there at all;
-    a partially transparent surface is treated as if only part of the light rays can pass through.
-    This means it is not included in the Transmission passes;
-    for that a glass BSDF with index of refraction 1.0 can be used.
+
+   :doc:`Transparent BSDFs are given special treatment </render/cycles/settings/light_paths>`.
+   A fully transparent surface is treated as if there is no surface there at all;
+   a partially transparent surface is treated as if only part of the light rays can pass through.
+   This means it is not included in the Transmission passes;
+   for that a glass BSDF with index of refraction 1.0 can be used.
 
 
 Combining
@@ -71,8 +72,9 @@ Z
    Distance in :term:`BU` to any visible surfaces.
 
    .. note::
-    The Z pass only uses one sample.
-    When depth values need to be blended in case of motion blur or :term:`DOF`, use the mist pass.
+
+      The Z pass only uses one sample.
+      When depth values need to be blended in case of motion blur or :term:`DOF`, use the mist pass.
 
 Mist
    Distance to visible surfaces, mapped to the 0.0-1.0 range.

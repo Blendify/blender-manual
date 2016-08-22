@@ -87,11 +87,11 @@ Display quality
    and for rendering (menu *Render Display*):
 
    Geometry
-     use the original geometry (before simulation).
+      Use the original geometry (before simulation).
    Preview
-      use the preview mesh.
+      Use the preview mesh.
    Final
-      use the final high definition mesh.
+      Use the final high definition mesh.
 
    When no baked data is found, the original mesh will be displayed by default.
 

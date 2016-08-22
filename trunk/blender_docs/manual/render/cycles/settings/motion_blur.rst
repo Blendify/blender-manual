@@ -14,9 +14,9 @@ both in a movie frame and in a photograph from a real-world camera.
 
 .. note::
 
-     If there are particles or other physics system in a scene,
-     be sure to bake them before rendering,
-     otherwise you might not get correct or consistent motion.
+   If there are particles or other physics system in a scene,
+   be sure to bake them before rendering,
+   otherwise you might not get correct or consistent motion.
 
 
 Options

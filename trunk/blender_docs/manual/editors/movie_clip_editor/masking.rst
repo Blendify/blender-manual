@@ -60,10 +60,10 @@ Editing of mask splines happens in a way similar to editing Bézier curves or pa
 control points are added to define the spline itself, and handles of different types are used to create smooth bends.
 This makes it possible to define a mask with few points to easily follow an object in footage.
 
-   - :kbd:`Ctrl-LMB` is used to place new control points and define handle orientations
-   - :kbd:`Alt-C` to close the mask by joining the last control point to the first.
-   - Existing control points can be translated, scaled and rotated with the usual G, S, R shortcuts.
-   - :kbd:`X` or Delete removes control points.
+- :kbd:`Ctrl-LMB` is used to place new control points and define handle orientations
+- :kbd:`Alt-C` to close the mask by joining the last control point to the first.
+- Existing control points can be translated, scaled and rotated with the usual G, S, R shortcuts.
+- :kbd:`X` or Delete removes control points.
 
 
 Selection
@@ -71,20 +71,20 @@ Selection
 
 The usual selection and hide/reveal tools are available:
 
-   - :kbd:`A` toggle select all
-   - :kbd:`B` , :kbd:`C` border and circle Select
-   - :kbd:`Ctrl-L` select linked from selection, L: select linked with mouse
-   - :kbd:`Ctrl-Alt-LMB` lasso select
-   - :kbd:`H` hide selected, :kbd:`Shift-H` hide unselected, :kbd:`Alt-H` reveal
+- :kbd:`A` toggle select all
+- :kbd:`B` , :kbd:`C` border and circle Select
+- :kbd:`Ctrl-L` select linked from selection, L: select linked with mouse
+- :kbd:`Ctrl-Alt-LMB` lasso select
+- :kbd:`H` hide selected, :kbd:`Shift-H` hide unselected, :kbd:`Alt-H` reveal
 
 
 Curve Handles
 -------------
 
-   - :kbd:`Alt-C` cycle toggle spline, to create a close curve or open it again
-   - :kbd:`V` set handle type for selected spline points
-   - :kbd:`Ctrl-N` make normals (handle directions) consistent
-   - Switch Direction handle directions in/out.
+- :kbd:`Alt-C` cycle toggle spline, to create a close curve or open it again
+- :kbd:`V` set handle type for selected spline points
+- :kbd:`Ctrl-N` make normals (handle directions) consistent
+- Switch Direction handle directions in/out.
 
 
 .. _mask-feather:
@@ -96,11 +96,11 @@ It is possible to control feather of mask, including a way to define non-linear 
 Linear feather is controlled by a slider,
 non-linear feather is controlled in the same curve-based way to define feather falloff.
 
-   - :kbd:`Shift-LMB` is used to define a feathering outline curve. To create an initial feather,
-     sliding from a spline control point outside or inside will create and position feather points.
-     After this :kbd:`Shift-LMB`
-     will insert new feather point and mouse sliding can be used to move them around.
-   - :kbd:`Alt-S` will scale the feather size.
+- :kbd:`Shift-LMB` is used to define a feathering outline curve. To create an initial feather,
+  sliding from a spline control point outside or inside will create and position feather points.
+  After this :kbd:`Shift-LMB`
+  will insert new feather point and mouse sliding can be used to move them around.
+- :kbd:`Alt-S` will scale the feather size.
 
 
 Animating
@@ -109,21 +109,21 @@ Animating
 Masks can be driven over the time so that they follow some object from the footage,
 e.g. a running actor. This animation can be done in several ways:
 
-   - Control points can be parented to motion tracks.
-     This way is the main way to interact with masks in a motion tracking workflow.
-   - Keyframe animation of control points using a shape keying system.
-     This can be useful when there are not enough good feature points to track in the footage,
-     or the mask is not based on footage.
+- Control points can be parented to motion tracks.
+  This way is the main way to interact with masks in a motion tracking workflow.
+- Keyframe animation of control points using a shape keying system.
+  This can be useful when there are not enough good feature points to track in the footage,
+  or the mask is not based on footage.
 
 For animation more complex mask shapes, it is also possible to do more high level animation:
 
-   - Splines and mask layers can be animated as a whole, instead of individual control points.
-   - Masks can be parented to motion tracking data.
-     Works for both individual mask point parenting and for overall spline.
-     To select motion track to be parented to use :kbd:`Ctrl-RMB`.
-     To parent selected mask points to active motion track use :kbd:`Ctrl-P`.
-   - Mask animation timing can be edited from the Dope Sheet.
-     Here there is a mask mode where mask keyframes can be selected and edited.
+- Splines and mask layers can be animated as a whole, instead of individual control points.
+- Masks can be parented to motion tracking data.
+  Works for both individual mask point parenting and for overall spline.
+  To select motion track to be parented to use :kbd:`Ctrl-RMB`.
+  To parent selected mask points to active motion track use :kbd:`Ctrl-P`.
+- Mask animation timing can be edited from the Dope Sheet.
+  Here there is a mask mode where mask keyframes can be selected and edited.
 
 
 Shape Keys
@@ -132,8 +132,8 @@ Shape Keys
 Masks can be animated with shape keyframing. This works on the level of mask layers,
 so inserting a shape key will keyframe all the splines and points contained in it.
 
-   - :kbd:`I` will insert a shape key for the active mask layer at the current frame
-   - :kbd:`Alt-I`  will clear the shape key for the active mask layer at the current frame.
-   - Feather Reset Animation: Resets the feather offset across all animated frames.
-   - Re-Key Points of Selected Shapes:
-     Re-interpolate selected points on across the range of keys selected in the dope sheet.
+- :kbd:`I` will insert a shape key for the active mask layer at the current frame
+- :kbd:`Alt-I`  will clear the shape key for the active mask layer at the current frame.
+- Feather Reset Animation: Resets the feather offset across all animated frames.
+- Re-Key Points of Selected Shapes:
+  Re-interpolate selected points on across the range of keys selected in the dope sheet.

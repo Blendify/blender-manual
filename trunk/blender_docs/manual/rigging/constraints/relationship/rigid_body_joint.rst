@@ -26,8 +26,8 @@ For a demo file that shows some of the different types, see: `BGE-Physics-RigidB
 
 .. note::
 
-    In order for this constraint to work properly, both objects (so
-    the owner and the target object) need to have *Collision Bounds* enabled.
+   In order for this constraint to work properly, both objects
+   (so the owner and the target object) need to have *Collision Bounds* enabled.
 
 
 Options

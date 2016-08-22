@@ -26,7 +26,7 @@ Properties
 Axis
    X or Y used as the split axis.
 Factor
-    Percentage factor setting the space distribution between the two images.
+   Percentage factor setting the space distribution between the two images.
 
 Outputs
 =======
