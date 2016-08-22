@@ -6,7 +6,7 @@ Post Processing Panel
 The Post Processing panel is use to control different option used to process your image after rendering.
 It can be found in the Render tab of the :doc:`Properties Editor </editors/properties/introduction>`.
 
-.. figure:: /images/render_post_panel.png
+.. figure:: /images/render_post-processing_post-processing-panel.png
    :align: right
 
    Post Processing Panel.
