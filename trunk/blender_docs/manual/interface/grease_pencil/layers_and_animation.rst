@@ -66,7 +66,6 @@ Use *Before* and *After* to set the number of ghost frames drawn on either side 
 When *Use Custom Colors* (Marked *A*) is enabled,
 you can also use the *Before* and *After* controls to change the color of the ghosted frames.
 
-
 .. seealso::
 
    Grease Pencil also has a mode in the :doc:`Dope Sheet </editors/dope_sheet/grease_pencil.rst>` editor.
