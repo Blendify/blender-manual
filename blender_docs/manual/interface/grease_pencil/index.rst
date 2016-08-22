@@ -8,7 +8,7 @@
    :maxdepth: 2
 
    introduction.rst
-   drawing.rst
+   drawing/index.rst
    stroke_edit.rst
    layers_and_animation.rst
    converting_to_geometry.rst

@@ -68,4 +68,4 @@ you can also use the *Before* and *After* controls to change the color of the gh
 
 .. seealso::
 
-   Grease Pencil also has a mode in the :doc:`Dope Sheet </editors/dope_sheet/grease_pencil.rst>` editor.
+   Grease Pencil also has a mode in the :doc:`Dope Sheet </editors/dope_sheet/grease_pencil>` editor.
