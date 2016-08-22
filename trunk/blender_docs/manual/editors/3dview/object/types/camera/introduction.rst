@@ -214,6 +214,7 @@ Render Border
    | Hotkey:   :kbd:`Ctrl-B`
 
 .. figure:: /images/editors_3dview_navigating_camera-view-render-border-toggle.jpg
+   :align: right
 
    Render Border toggle.
 
@@ -223,18 +224,16 @@ Your renders will now be limited to the part of scene visible within the render 
 This can be very useful for reducing render times for quick previews on an area of interest.
 
 The border can be disabled by disabling the *Border* option in the *Dimensions* panel
-in the *Render* tab or by activating the option again and
-selecting *Render Border* larger than the camera view.
+in the *Render* tab or by activating the option again.
 
-.. I think this has been changed in 2.78:
+.. container:: lead
 
-.. note:: Anti-Aliasing and blur options with borders
+   .. clear
 
-   Note that when Render Borders are activated,
-   Full Sampling Anti-Aliasing will be disabled while *Sampled Motion Blur* will become available.
+.. note::
 
-   - :doc:`Read more about Anti-Aliasing </render/blender_render/antialiasing>`
-   - :doc:`Read more about Motion Blur </render/blender_render/motion_blur>`
+   When Render Border is activated, :doc:`Sampled Motion Blur </render/blender_render/motion_blur>`
+   will become available to view in the 3D View.
 
 .. figure:: /images/editors_3dview_navigating_camera-view-render-border.jpg
 

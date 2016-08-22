@@ -18,7 +18,6 @@ The header is shown at the bottom or top of the workspace, and can be hidden if 
 The header shows you a menu and the current mode, as explained below.
 
 .. figure:: /images/editors_3dview_header.jpg
-   :width: 600px
 
    3D View header.
 
@@ -144,7 +143,6 @@ Manipulator Selector
 Layer Selector
    Layers are well documented in the :doc:`Layers page </editors/3dview/layers>`.
 
-
 Lock to Scene
    By default, the "lock" button to the right of the layer buttons is enabled.
    This means that in this view, the active layers and camera are those of the whole scene
@@ -160,7 +158,6 @@ Lock to Scene
    :kbd:`Ctrl-Numpad0` to make the active object the active camera.
 
    :doc:`Read more about Scenes </data_system/scenes>`
-
 
 Snap to Mesh
    Controls the snapping tools that help with transforming and modeling objects.
