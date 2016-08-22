@@ -156,4 +156,3 @@ Finally, you can have another column with value-sliders,
 allowing you to change the value of current keyframes, or to add new ones.
 These are obviously only available for low-level channels (i.e. individual F-Curve ).
 See `View Menu`_ above for how to show these sliders.
-
