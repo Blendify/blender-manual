@@ -6,10 +6,10 @@ Editing Metas
 When in *Edit Mode*, the *Active Element* panel appears.
 These settings apply only to the selected meta element.
 
-.. figure:: /images/metapropertieseditmode.jpg
+.. figure:: /images/modeling_metas_properties_active-element-panel.png
    :width: 300px
 
-   the active element panel.
+   Active element panel.
 
 
 Meta Shape

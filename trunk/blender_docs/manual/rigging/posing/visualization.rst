@@ -59,7 +59,7 @@ click on the *Add Group* button in the *Bone Groups:* buttons set
 you can use the top row of controls to select another group in the drop-down list
 ("arrows" button), rename the current group (text field), or delete it ("X" button).
 
-.. figure:: /images/rigging-bonegroups-assign.jpg
+.. figure:: /images/rigging_posing_visualization_bone-group-list.png
    :width: 250px
 
    The Bone Group drop-down list of a bone sub-panel.
@@ -83,7 +83,7 @@ Remove Selected from Bone Groups
 Remove Bone Group
    Removes the active bone group
 
-.. figure:: /images/rigging-bonegroups-colors.jpg
+.. figure:: /images/rigging_posing_visualization_bone-color-list.png
    :width: 300px
 
    The Bone Color Set list of the bone group, and the color swatch of the chosen color theme.

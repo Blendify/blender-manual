@@ -236,17 +236,17 @@ By default, children bones inherit:
 .. list-table::
    Examples of transforming parented/connected bones.
 
-   * - .. figure:: /images/riggingposingrelatioshipsandtransformexbasis.jpg
+   * - .. figure:: /images/rigging_posing_editing_bones-relationships-1.png
           :width: 200px
 
           The armature in its rest position.
 
-     - .. figure:: /images/riggingposingrelatioshipsandtransformexmonorotation.jpg
+     - .. figure:: /images/rigging_posing_editing_bones-relationships-2.png
           :width: 200px
 
           Rotation of a root bone.
 
-     - .. figure:: /images/riggingposingrelatioshipsandtransformexscalingchains.jpg
+     - .. figure:: /images/rigging_posing_editing_bones-relationships-3.png
           :width: 200px
 
           Scaling of a root bone.
@@ -276,17 +276,17 @@ all its descendants* will no longer be affected when you scale one of its ancest
 .. list-table::
    Examples of transforming parented/connected bones with Inherit Rotation disabled.
 
-   * - .. figure:: /images/riggingposingrelatioshipsandtransformexhingebone.jpg
+   * - .. figure:: /images/rigging_posing_editing_bones-relationships-4.png
           :width: 200px
 
           The yellow outlined Inherit Rotation disabled bone in the armature.
 
-     - .. figure:: /images/riggingposingrelatioshipsandtransformexhingeboneinrotation.jpg
+     - .. figure:: /images/rigging_posing_editing_bones-relationships-5.png
           :width: 200px
 
           Rotation of a bone with a Inherit Rotation disabled bone among its descendants.
 
-     - .. figure:: /images/riggingposingrelatioshipsandtransformexhingeboneinscaling.jpg
+     - .. figure:: /images/rigging_posing_editing_bones-relationships-6.png
           :width: 200px
 
           Scaling of a bone with a Inherit Rotation disabled bone among its descendants.
@@ -306,7 +306,7 @@ however, this should give a good idea of the problem:
 
 .. _fig-rig-pose-edit-scale:
 
-.. figure:: /images/riggingposingrelatioshipsandtransformexmultiscaling.jpg
+.. figure:: /images/rigging_posing_editing_bones-relationships-7.png
    :width: 200px
 
    Scaling bones, some of them related.

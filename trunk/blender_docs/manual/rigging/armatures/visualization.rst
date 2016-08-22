@@ -7,22 +7,22 @@ We have four basic bone visualization: Octahedral, Stick, B-Bone, Envelope and W
 
 .. list-table::
 
-   * - .. figure:: /images/riggingboneprincipalsbonedisplayoctahedral.jpg
+   * - .. figure:: /images/rigging_armatures_bones_introduction_bones-visualization-1.png
           :width: 320px
 
           Octahedral bone display.
 
-     - .. figure:: /images/riggingboneprincipalsbonedisplaystick.jpg
+     - .. figure:: /images/rigging_armatures_bones_introduction_bones-visualization-2.png
           :width: 320px
 
           Stick bone display.
 
-   * - .. figure:: /images/riggingboneprincipalsbonedisplaybbone.jpg
+   * - .. figure:: /images/rigging_armatures_bones_introduction_bones-visualization-3.png
           :width: 320px
 
           B-Bone bone display.
 
-     - .. figure:: /images/riggingboneprincipalsbonedisplayenvelope.jpg
+     - .. figure:: /images/rigging_armatures_bones_introduction_bones-visualization-4.png
           :width: 320px
 
           Envelope bone display.
@@ -76,14 +76,14 @@ B-Bone bone
    This visualization shows the curves of "smooth" multi-segmented bones;
    see the :ref:`bone page <armature-bone-rigid>` for details.
 
-   .. figure:: /images/riggingbboneex3dvieweditmode.jpg
+   .. figure:: /images/rigging_armatures_bones_introduction_b-bones-1.png
       :width: 250px
 
 Envelope bone
    This visualization materializes the bone deformation influence.
    More on this in the :ref:`bone page <armature-bone-influence>`.
 
-   .. figure:: /images/riggingenvelopeex3dviewposemode.jpg
+   .. figure:: /images/rigging_armatures_bones_introduction_envelope-pose-mode.png
       :width: 250px
 
 
