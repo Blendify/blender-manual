@@ -130,7 +130,8 @@ Hints
 =====
 
 - A very important configurable in the case of Soft Body interactions is
-  :doc:`World Properties </game_engine/physics/world>` :menuselection:`--> Physics --> Physics Steps --> Substeps`.
+  :doc:`World Properties </game_engine/physics/world>`
+  :menuselection:`--> Physics --> Physics Steps --> Substeps`.
 - Surprisingly, the more vertices you have in your hit object, the less likely the Soft Body is to react with it.
   If you try letting it hit a Plane, it might stop, but a subdivided Grid might fail.
 

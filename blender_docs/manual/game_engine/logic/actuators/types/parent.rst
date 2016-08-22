@@ -22,17 +22,17 @@ Menu for parenting operation required.
 
 
 Set Parent
-   Make this object to be current object's parent
+   Make this object to be current object's parent.
 
    Parent Object
-      Name of parent object
+      Name of parent object.
    Compound'
-      Add this object shape to the parent shape (only if the parent shape is already compound)
+      Add this object shape to the parent shape (only if the parent shape is already compound).
    Ghost'
-      Make this object ghost while parented
+      Make this object ghost while parented.
 
 Remove Parent
-   Remove all parents of current object
+   Remove all parents of current object.
 
    Parent Object
-      Name of parent object
+      Name of parent object.

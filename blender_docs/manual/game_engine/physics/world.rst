@@ -50,7 +50,7 @@ With Mist enabled, the further the object is away from the camera the less it is
 For full details, see :doc:`Mist </render/blender_render/world/mist>`.
 
 Mist
-   Toggles mist on and off
+   Toggles mist on and off.
 Falloff
    Sets the shape of the falloff of the mist.
 Start
@@ -58,7 +58,7 @@ Start
 Depth
    The depth at which the opacity of objects falls to zero.
 Minimum intensity
-   Overall minimum intensity of the mist
+   Overall minimum intensity of the mist.
 
 
 Game Physics

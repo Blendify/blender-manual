@@ -18,21 +18,21 @@ The controller consist only of a list of types of mouse events. These are:
 
 
 Mouse over any
-   gives a TRUE pulse if the mouse moves over any game object.
+   Gives a TRUE pulse if the mouse moves over any game object.
 Mouse over
-   gives a TRUE pulse if the mouse moves over the owner object.
+   Gives a TRUE pulse if the mouse moves over the owner object.
 Movement
-   any movement with the mouse causes a stream of TRUE pulses.
+   Any movement with the mouse causes a stream of TRUE pulses.
 Wheel Down
-   causes a stream of TRUE pulses as the scroll wheel of the mouse moves down.
+   Causes a stream of TRUE pulses as the scroll wheel of the mouse moves down.
 Wheel Up
-   causes a stream of TRUE pulses as the scroll wheel of the mouse moves up.
+   Causes a stream of TRUE pulses as the scroll wheel of the mouse moves up.
 Right button
-   gives a TRUE pulse.
+   Gives a TRUE pulse.
 Middle button
-   gives a TRUE pulse.
+   Gives a TRUE pulse.
 Left button
-   gives a TRUE pulse.
+   Gives a TRUE pulse.
 
 A FALSE pulse is given when any of the above conditions ends.
 

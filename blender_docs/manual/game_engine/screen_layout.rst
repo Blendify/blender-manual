@@ -52,23 +52,23 @@ Note that this menu is only available when the render engine is set to Blender G
 Start Game
    Run game in Game Engine (:kbd:`P` or :kbd:`Shift-P` when the mouse cursor is over the 3D View editor).
 Show Debug Properties
-   Show properties marked for debugging while game runs
+   Show properties marked for debugging while game runs.
 Show framerate and profile
-   :Show framerate and profiling information while game runs
+   Show framerate and profiling information while game runs.
 Show Physics visualization
-   show a vizualisation of physics bounds and interactions
+   Show a vizualisation of physics bounds and interactions.
 Deprecation warnings
-   Print warnings when using deprecated features in the python API
+   Print warnings when using deprecated features in the python API.
 Record animation
-   Record animation to F-Curves
+   Record animation to F-Curves.
 Auto Start
-   Automatically start game at load time
+   Automatically start game at load time.
 
 
 .. rubric::  4) Logic Editor panel
 
 The :doc:`Logic Editor </editors/logic_editor>` is where the
-:doc:`logic, properties and states </game_engine/logic/index>` are set up to control the behaviour of
+:doc:`logic, properties and states </game_engine/logic/index>` are set up to control the behavior of
 the objects in the game.
 (The Logic Editor panel can also be displayed by selecting Logic Editor in the Display Editor menu,
 by pressing :kbd:`Shift-F2`, or by pressing :kbd:`Ctrl-Right`).
@@ -78,7 +78,7 @@ by pressing :kbd:`Shift-F2`, or by pressing :kbd:`Ctrl-Right`).
 
 .. tip:: Two Meanings for the Same Word
 
-   Note that the name "Property" has two different uses in Blender terminology -
+   Note that the name "Property" has two different uses in Blender terminology --
    firstly in the wider use of the Property Display Panel as described here,
    and secondly as the term used for specific Game Engine logic variables which are also called "properties".
 

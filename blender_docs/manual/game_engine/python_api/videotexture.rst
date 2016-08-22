@@ -117,14 +117,11 @@ The constructor takes one mandatory and three optional arguments:
 
 ``gameObj``
    The game object.
-
 ``materialID``
    Material index as returned by ``bge.texture.materialID()``, 0 = first material by default.
-
 ``textureID``
    Texture index in case of multi-texture channel, 0 = first channel by default.
    In case of UV texture, this parameter should always be 0.
-
 ``textureObj``
    Reference to another ``Texture`` object of which we want to reuse the texture.
    If we use this argument,

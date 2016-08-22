@@ -45,12 +45,12 @@ Simple Motion
 
 
 Loc
-   The object jumps the number of Blender units entered, each time a
-   pulse is received.
+   The object jumps the number of Blender units entered,
+   each time a pulse is received.
 
 Rot
-   The object rotates by the specified amount, each time a pulse is
-   received.
+   The object rotates by the specified amount,
+   each time a pulse is received.
 
 L
    Coordinates specified are Global (gray) or Local (White).

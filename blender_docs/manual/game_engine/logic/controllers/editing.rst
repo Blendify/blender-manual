@@ -33,6 +33,7 @@ and the level of detail given, in the controller column. This is very useful for
 unnecessary controllers so that the necessary ones are visible and easier to reach.
 Both these can be controlled individually.
 
+
 Controllers
 ===========
 
@@ -80,6 +81,7 @@ Add Controller
    Selecting an entry adds a new controller to the object.
    See :doc:`Controllers </game_engine/logic/controllers/types/index>` for a list of available controller types.
 
+
 Standard Controller Parts
 =========================
 
@@ -89,16 +91,16 @@ The controller heading is standard to every controller.
 
 .. figure:: /images/game_engine_controller_parts.png
 
-#. Controller Type menu
-      Specifies the type of the controller.
-#. Controller Name
-      The name of the controller. This can be selected by the user.
-      It is used to access controllers with python; it needs to be unique among the selected objects.
-#. State Index
-      Sets the designated state for which this controller will operate.
-#. Preference Button
-      If on, this controller will operate before all other non-preference controllers (useful for start-up scripts).
-#. Active Checkbox
-      When unchecked the controller is deactivated, no pluses will be sent to the connect actuators.
-#. :kbd:`X` *Button*
-      Deletes the sensor.
+Controller Type menu
+   Specifies the type of the controller.
+Controller Name
+   The name of the controller. This can be selected by the user.
+   It is used to access controllers with python; it needs to be unique among the selected objects.
+State Index
+   Sets the designated state for which this controller will operate.
+Preference Button
+   If on, this controller will operate before all other non-preference controllers (useful for start-up scripts).
+Active Checkbox
+   When unchecked the controller is deactivated, no pluses will be sent to the connect actuators.
+``X`` Button
+   Deletes the sensor.

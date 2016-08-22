@@ -24,10 +24,10 @@ Special Options:
 Game
 ====
 
-Load bge.logic.globalDict
-   Load *bge.logic.globalDict* from .bgeconf.
-Save bge.logic.globalDict
-   Save *bge.logic.globalDict* to .bgeconf.
+Load ``bge.logic.globalDict``
+   Load ``bge.logic.globalDict`` from ``.bgeconf``.
+Save ``bge.logic.globalDict``
+   Save ``bge.logic.globalDict`` to ``.bgeconf``.
 Quit Game
    Once the actuator is activated, the blenderplayer exits the runtime.
 Restart Game

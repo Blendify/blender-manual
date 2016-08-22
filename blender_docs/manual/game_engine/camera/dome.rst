@@ -48,13 +48,10 @@ Available camera settings change depending on the selected Dome Type:
 
 Resolution
    Sets the resolution of the Buffer. Decreasing this value increases speed, but decreases quality.
-
-Tesselation
-   4 is the default. This is the tesselation level of the mesh. (Not available in Cube Map mode).
-
+Tessellation
+   4 is the default. This is the tessellation level of the mesh. (Not available in Cube Map mode).
 Angle
    Sets the field of view of the dome in degrees, from 90 to 250. (Available in Fisheye and Truncated modes).
-
 Tilt
    Set the camera rotation in the horizontal axis. Available in Fisheye and Truncated modes).
 
@@ -148,7 +145,8 @@ For more information on the mesh format see `Paul Bourke's article <http://paulb
 In order to produce that images, we are using a specific file format.
 
 File template:
-::
+
+.. code-block:: none
 
    mode
    width height
@@ -164,7 +162,7 @@ First line is the image type the mesh is support to be applied to:
 pixelsRest of the lines are the nodes of the mesh.
 
 Each line is compound of *x* *y* *u* *v* *i* (x,y)
-are the normalized screen coordinates(u,v)
+are the normalized screen coordinates (u,v)
 texture coordinates *i* a multiplicative intensity factor
 
 *x* varies from -screen aspect to screen aspect varies from -1 to 1 *u* and *v* vary from 0 to 1*i*
@@ -176,7 +174,7 @@ ranges from 0 to 1, if negative do not draw that mesh node
 - Open your mesh data file(ie. myDome.data) in the text editor (:menuselection:`Text --> Open` or :kbd:`Alt-O`).
 - Go to Game Framing Settings :menuselection:`Editor Types --> Properties editor --> Scene`.
 - Enable Dome Mode.
-- Type filename in Warp Data field(ie. myDome.data).
+- Type filename in Warp Data field (ie. myDome.data).
 
 To create your own Warp Meshes an interactive tool called meshmapper is available as part of
 `Paul Bourke's Warpplayer <http://paulbourke.net/miscellaneous/domemirror/warpplayer/>`__

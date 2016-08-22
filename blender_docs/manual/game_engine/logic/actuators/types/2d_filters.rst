@@ -51,13 +51,18 @@ Below you can see *Motion Blur* filter in Blender window, along with its logic b
 
 
 You can enable Motion Blur filter using a *Python* controller:
-from bge import render
-render.enableMotionBlur(0.85)
+
+.. code-block:: python
+
+   from bge import render
+   render.enableMotionBlur(0.85)
 
 And disable it:
-from bge import render
-render.disableMotionBlur()
 
+.. code-block:: python
+
+   from bge import render
+   render.disableMotionBlur()
 
 .. note::
 
@@ -87,9 +92,9 @@ so your hardware must support shaders.
    2D Filters: Sobel.
 
 
-*Blur*, *Sharpen*, *Dilation*, *Erosion*, *Laplacian*, *Sobel*, *Prewitt*, *Gray Scale*, *Sepia* and *Invert*
-are built-in filters.
-These filters can be set to be available in some passes.
+Blur, Sharpen, Dilation, Erosion, Laplacian, Sobel, Prewitt, Gray Scale, Sepia and Invert
+   Are built-in filters.
+   These filters can be set to be available in some passes.
 
 To use a filter you should:
 

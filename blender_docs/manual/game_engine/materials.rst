@@ -27,24 +27,21 @@ Invisible
 Text
    Use material as :doc:`Text object </modeling/texts/introduction>` in the Game Engine.
 
-Alpha Blend menu:
+Alpha Blend
    Controls how the alpha channel is used to create a transparent texture in the rendered image.
 
    Alpha Sort
       Orders the sequence in which transparent objects are drawn on top of each other,
       so that ones in front receive more light than ones behind.
-
    Alpha Blend
       Uses the alpha values present in the bitmap image sourced in the Image slot.
-
    Alpha Clip
       Uses the alpha channel as a simple mask.
-
    Add
       Render face transparent and add color of face.
-
    Opaque (default)
       All alpha values are ignored; the scene is completely non-transparent.
+
 
 Face Orientation
 ================
@@ -54,13 +51,10 @@ of faces to which the material is applied.
 
    Shadow
       Faces are used for shadow.
-
    Billboard
       Billboard with Z-axis constraint.
-
    Halo
       Screen aligned billboard.
-
    Normal (default)
       No transformation.
 

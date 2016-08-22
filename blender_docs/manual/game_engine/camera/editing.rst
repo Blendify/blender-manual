@@ -157,14 +157,14 @@ Gives various display options when running the Game Engine. Under the...
 Debug Properties
    Show properties marked for debugging while game runs.
    Note that debug properties to be shown must be requested at source (eg. i-button in state tables).
-   Only available when game is run within Blender - not in standalone player version.
+   Only available when game is run within Blender -- not in standalone player version.
 Framerate and Profile
    Show framerate and profiling information while game runs.
-   Only available when game is run within Blender - not in standalone player version.
+   Only available when game is run within Blender -- not in standalone player version.
 Physics Visualization
    Show physics bounds and interactions while game runs (available in both Blender and standalone versions).
 Deprecation Warnings
    Print warnings when using deprecated features in the python API.
-   Only available when game is run within Blender - not in standalone player version.
+   Only available when game is run within Blender -- not in standalone player version.
 Mouse Cursor
    Show mouse cursor while game runs (available in both Blender and standalone versions).

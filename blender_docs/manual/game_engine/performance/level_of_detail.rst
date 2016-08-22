@@ -1,7 +1,7 @@
 
-************
-Introduction
-************
+***************
+Level of Detail
+***************
 
 When creating visual assets it is often desirable to have a high amount of detail in the asset
 for up close viewing. However,

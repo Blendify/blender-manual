@@ -15,12 +15,10 @@ Options
    Steering Actuator Panel.
 
 
-Behavior:
+Behavior
     Seek, Flee or Path following
-
-Target Object:
+Target Object
     The game object to seek.
-
 
 Navigation Mesh Object:
     The name of the navigation mesh object used by the Steering Actuator when in Path following behavior.
@@ -55,7 +53,7 @@ Axis N
     Use the Normal of the Navigation Mesh to align the up vector of the game object.
 
 
-Self Terminated:
+.. rubric:: Self Terminated
 
 Disabled
     Stops moving toward the Target Object once it reaches the maximum distance to approach the Target Object.

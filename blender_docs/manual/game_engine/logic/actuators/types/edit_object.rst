@@ -18,11 +18,11 @@ Special Options:
 Edit Object
    Menu of options for Edit Object actuator
 
-   *Dynamics*
-   *Track To*
-   *Replace Mesh*
-   *End Object*
-   *Add Object*
+   - Dynamics
+   - Track To
+   - Replace Mesh
+   - End Object
+   - Add Object
 
 .. figure:: /images/bge_actuator_edit_object_dynamics.jpg
    :width: 271px
@@ -36,9 +36,9 @@ Dynamics
    Set Mass
       Enables the user to set the mass of the current object for Physics (Range 0 - 10,000).
    Disable Rigid Body
-      Disables the Rigid Body state of the object - disables collision.
+      Disables the Rigid Body state of the object -- disables collision.
    Enable Rigid Body
-      Disables the Rigid Body state of the object - enables collision.
+      Disables the Rigid Body state of the object -- enables collision.
    Suspend Dynamics
       Suspends the object dynamics (object velocity).
    Restore Dynamics
@@ -81,7 +81,7 @@ Replace Mesh
 .. figure:: /images/bge_actuator_edit_object_end_object.jpg
    :width: 271px
 
-   Edit Object actuator - End Object.
+   Edit Object actuator -- End Object.
 
 
 End Object
@@ -98,7 +98,7 @@ Destroy the current object (Note, debug properties will display error Zombie Obj
 Add Object
 ==========
 
-Adds an object at the centre of the current object.
+Adds an object at the center of the current object.
 
 The object that is added needs to be on another, hidden, layer.
    Object
