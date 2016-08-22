@@ -146,8 +146,8 @@ To the right of the channel's headers, there are some channel's setting controls
 
   .. note::
 
-     note that this is also working inside the NLA,
-     but that it does not prevent edition of the underlying F-Curve).
+      This is also working inside the NLA,
+      but that it does not prevent edition of the underlying F-Curve).
 
 A channel can be selected (text in white, strip in gray-blue color) or not
 (text in black, strip in pink-brown color.), use :kbd:`LMB` clicks to toggle this state.

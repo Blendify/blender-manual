@@ -33,8 +33,8 @@ Object
    this is an easy way to place a small image at a given point on the object.
    This object can also be animated, to move a texture around or through a surface.
 
-  Object
-    Select the name of an object.
+   Object
+      Select the name of an object.
 Generated
    The original undeformed coordinates of the object. This is the default option for mapping textures.
 UV
@@ -46,8 +46,8 @@ UV
    as seen in :ref:`UV Mapping <editors-uv-image-index>`.
    You can use multiple textures with one set of UV coordinates.
 
-  Layer
-    UV layer to use for mapping.
+   Layer
+      UV layer to use for mapping.
 Strand/Particle
    Uses normalized 1D strand texture coordinate or particle age(X) and trail position (Y).
    Use when texture is applied to hair strands or particles.
@@ -96,7 +96,7 @@ From Dupli
    Duplis instanced from vertices, faces, or particles,
    inherit texture coordinates from their parent.
 
-**Todo: explaination**
+.. Explaination Todo
 
 
 Coordinate Offset, Scaling and Transformation

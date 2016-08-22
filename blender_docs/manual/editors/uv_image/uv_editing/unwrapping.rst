@@ -94,31 +94,25 @@ The more advanced methods can be used with more complex models, and have more sp
 
 Basic:
 
-   `Cube`_
-     Maps the mesh onto the faces of a cube, which is then unfolded.
-
-   :ref:`Sphere <cylinder-and-sphere>`
-     Projects the UVs onto a spherical shape. Useful only for spheres or spherical shapes, like eyes, planets, etc.
-
-   :ref:`Cylinder <cylinder-and-sphere>`
-     Projects UVs onto a cylindrical surface.
-
-   `Project from View`_
-     Takes the current view in the 3D View and flattens it as it appears.
+`Cube`_
+   Maps the mesh onto the faces of a cube, which is then unfolded.
+:ref:`Sphere <cylinder-and-sphere>`
+   Projects the UVs onto a spherical shape. Useful only for spheres or spherical shapes, like eyes, planets, etc.
+:ref:`Cylinder <cylinder-and-sphere>`
+   Projects UVs onto a cylindrical surface.
+`Project from View`_
+   Takes the current view in the 3D View and flattens it as it appears.
 
 Advanced:
 
-   :ref:`Unwrap <unwrap-using-seams>`
-     Useful for organic shapes. Smooths the mesh into a flat surface by cutting along seams.
-
-   `Smart UV Project`_
-     Breaks the mesh into islands based on an angle threshold.
-
-   :ref:`Lightmap Pack <lightmap-pack>`
-     Separates each face and packs them onto the UV grid.
-
-   `Follow Active Quads`_
-     Follow UV from active quads along continuous face loops.
+:ref:`Unwrap <unwrap-using-seams>`
+   Useful for organic shapes. Smooths the mesh into a flat surface by cutting along seams.
+`Smart UV Project`_
+   Breaks the mesh into islands based on an angle threshold.
+:ref:`Lightmap Pack <lightmap-pack>`
+   Separates each face and packs them onto the UV grid.
+`Follow Active Quads`_
+   Follow UV from active quads along continuous face loops.
 
 You can also :ref:`reset UVs <reset-uvs>`, which maps each face to fill the UV grid,
 giving each face the same mapping.
@@ -155,13 +149,13 @@ Scale to Bounds
 Cube
 ----
 
-
 Cube mapping projects s mesh onto six separate planes, creating six UV islands.
 In the UV/Image editor, these will appear overlapped, but can be moved.
 See :doc:`Editing UVs </editors/uv_image/uv_editing/layout_editing>`.
 
 Cube Size
    Set the size of the cube to be projected onto.
+
 
 .. _cylinder-and-sphere:
 
@@ -208,7 +202,6 @@ Align
       Polar 0 is on the x axis
    Polar ZY
       Polar 0 is on the y axis
-
 
 Radius
    The radius of the cylinder to use

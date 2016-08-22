@@ -52,7 +52,7 @@ Surface Response
       Specifies how much objects can bounce after collisions.
 
 Collision Groups
-    Allows rigid body collisions allocate on different groups (maximum 20).
+   Allows rigid body collisions allocate on different groups (maximum 20).
 
 
 Collision shapes

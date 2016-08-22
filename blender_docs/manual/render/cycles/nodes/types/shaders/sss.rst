@@ -52,7 +52,7 @@ Falloff
    Lighting distance falloff function.
 
    Cubic
-       Is a sharp falloff useful for many simple materials. The function is :math:`(radius - x)^3`
+      Is a sharp falloff useful for many simple materials. The function is :math:`(radius - x)^3`
    Gaussian
       Gives a smoother falloff following a normal distribution,
       which is particularly useful for more advanced materials that use measured

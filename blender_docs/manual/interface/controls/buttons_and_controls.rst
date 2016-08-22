@@ -326,10 +326,10 @@ Sometimes there is a list of applied data-blocks
 
    Data-block link buttons.
 
-   - To select a Data-Block, click :kbd:`LMB` on it.
-   - To add a new section (e.g. material, or particle system),
-     click :kbd:`LMB` on the "+" button to the right of the list.
-   - To remove a section, click :kbd:`LMB` on the "-" to the right of the list.
+- To select a Data-Block, click :kbd:`LMB` on it.
+- To add a new section (e.g. material, or particle system),
+  click :kbd:`LMB` on the "+" button to the right of the list.
+- To remove a section, click :kbd:`LMB` on the "-" to the right of the list.
 
 For details on the behavior of linking data see :doc:`data-block </data_system/data_blocks>`.
 

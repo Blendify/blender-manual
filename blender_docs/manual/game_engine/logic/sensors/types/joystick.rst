@@ -68,7 +68,7 @@ Hat
    Hat number
       Specifies which hat to use (max. 2).
    Hat Direction
-     Specifies the direction to use: up, down, left, right, up/right, up/left, down/right, down/left.
+      Specifies the direction to use: up, down, left, right, up/right, up/left, down/right, down/left.
 
 
 .. rubric:: Axis

@@ -17,13 +17,13 @@ Options
 
 
 Behavior
-    Seek, Flee or Path following
+   Seek, Flee or Path following
 Target Object
-    The game object to seek.
+   The game object to seek.
 
 Navigation Mesh Object:
-    The name of the navigation mesh object used by the Steering Actuator when in Path following behavior.
-    The game object will use the Navigation Mesh to create a path to follow the Target Object.
+   The name of the navigation mesh object used by the Steering Actuator when in Path following behavior.
+   The game object will use the Navigation Mesh to create a path to follow the Target Object.
 
 
 .. tip::

@@ -148,7 +148,7 @@ Smooth
    Allows you to selectively smooth out jitter/shake and bumpiness, to tidy up messy parts of your sketches.
 
    Affect Pressure
-       Use this option to perform smoothing on stroke thickness values.
+      Use this option to perform smoothing on stroke thickness values.
 
 Thickness
    The Thickness Brush can be used to increase or decrease the thickness of the parts of the stroke under the cursor.
