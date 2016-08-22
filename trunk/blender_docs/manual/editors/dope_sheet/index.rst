@@ -9,4 +9,5 @@
 
    introduction.rst
    action.rst
+   grease_pencil.rst
    shapekey.rst
