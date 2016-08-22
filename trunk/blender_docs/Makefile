@@ -107,8 +107,14 @@ check_structure: .FORCE
 #	- gvim --nofork -c "cfile rst_check_structure.log" -c "cope" -c "clast"
 #	- rm rst_check_structure.log
 
+check_links: .FORCE
+	$(SPHINXBUILD) -b linkcheck $(ALLSPHINXOPTS) $(BUILDDIR)/linkcheck
+	@echo
+	@echo "Link check complete; look for any errors in the above output " \
+	      "or in $(BUILDDIR)/linkcheck/output.txt."
+
 clean: .FORCE
-	rm -rf "$(BUILDDIR)/html" "$(BUILDDIR)/singlehtml" "$(BUILDDIR)/latex" "$(BUILDDIR)/locale"
+	rm -rf "$(BUILDDIR)/html" "$(BUILDDIR)/singlehtml" "$(BUILDDIR)/latex" "$(BUILDDIR)/locale" "$(BUILDDIR)/linkcheck"
 
 update_po: .FORCE
 	- ./tools/maintenance/update_po.sh
@@ -151,6 +157,7 @@ help:
 	@echo ""
 	@echo "- check_syntax       - Check the syntax of all .rst files."
 	@echo "- check_structure    - Check the structure of all .rst files."
+	@echo "- check_links        - Check all external links for integrity."
 	@echo ""
 	@echo ""
 	@echo "Maintenance"
