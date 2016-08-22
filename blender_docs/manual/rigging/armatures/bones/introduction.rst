@@ -3,7 +3,7 @@
 Introduction
 ************
 
-.. figure:: /images/riggingboneprinciples3dvieweditmodeoctahedron.jpg
+.. figure:: /images/rigging_armatures_bones_introduction_bones-elements.png
    :align: right
    :width: 100px
 
@@ -34,22 +34,22 @@ Bones can be visualized in various ways: *Octahedron*, *Stick*,
 
 .. list-table::
 
-   * - .. figure:: /images/riggingboneprincipalsbonedisplayoctahedral.jpg
+   * - .. figure:: /images/rigging_armatures_bones_introduction_bones-visualization-1.png
           :width: 320px
 
           Octahedral bone display.
 
-     - .. figure:: /images/riggingboneprincipalsbonedisplaystick.jpg
+     - .. figure:: /images/rigging_armatures_bones_introduction_bones-visualization-2.png
           :width: 320px
 
           Stick bone display.
 
-   * - .. figure:: /images/riggingboneprincipalsbonedisplaybbone.jpg
+   * - .. figure:: /images/rigging_armatures_bones_introduction_bones-visualization-3.png
           :width: 320px
 
           B-Bone bone display.
 
-     - .. figure:: /images/riggingboneprincipalsbonedisplayenvelope.jpg
+     - .. figure:: /images/rigging_armatures_bones_introduction_bones-visualization-4.png
           :width: 320px
 
           Envelope bone display.
@@ -97,19 +97,19 @@ you cannot see these segments in *Object Mode*, because they are aligned.
 
    * - .. _fig-rig-bone-intro-bbone:
 
-       .. figure:: /images/riggingbboneex3dvieweditmode.jpg
+       .. figure:: /images/rigging_armatures_bones_introduction_b-bones-1.png
           :width: 320px
 
           An armature of B-Bones, in Edit Mode.
 
-     - .. figure:: /images/riggingbboneex3dviewprinciples.jpg
+     - .. figure:: /images/rigging_armatures_bones_introduction_b-bones-2.png
           :width: 320px
 
           The Bézier curve superposed to the chain, with its handles placed at bones' ends.
 
    * - .. _fig-rig-bone-intro-same:
 
-       .. figure:: /images/riggingbboneex3dviewobjectmode.jpg
+       .. figure:: /images/rigging_armatures_bones_introduction_b-bones-3.png
           :width: 320px
 
           The same armature in Object Mode.
@@ -154,7 +154,7 @@ they will nonetheless smoothly deform their geometry...
 Bones Influence
 ===============
 
-.. figure:: /images/riggingenvelopeprinciples3dvieweditmode.jpg
+.. figure:: /images/rigging_armatures_bones_introduction_envelope-edit-mode.png
    :figwidth: 180px
    :align: right
 
@@ -176,7 +176,7 @@ which depends on:
 - The *distance* property and
 - the root's radius and the tip's radius.
 
-.. figure:: /images/riggingenvelopeex3dviewposemode.jpg
+.. figure:: /images/rigging_armatures_bones_introduction_envelope-pose-mode.png
    :width: 300px
 
    Our armature in Envelope visualization, in Pose Mode.

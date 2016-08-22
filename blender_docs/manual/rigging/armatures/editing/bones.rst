@@ -146,7 +146,7 @@ About the new bone's tip:
 
 The position of the root and the parenting of the new bone depends on the active element:
 
-.. figure:: /images/riggingmouseclickbone.jpg
+.. figure:: /images/rigging_armatures_editing_bones_mouse-clicks-1.png
    :width: 300px
 
    Ctrl-clicking when the active element is a bone.
@@ -160,7 +160,7 @@ If the active element is a *bone*
 
 .. _fig-rig-bone-active-tip:
 
-.. figure:: /images/riggingmouseclicktail.jpg
+.. figure:: /images/rigging_armatures_editing_bones_mouse-clicks-2.png
    :width: 300px
 
    Ctrl-clicking when the active element is a tip.
@@ -174,7 +174,7 @@ If the active element is a *tip* :
 
 .. _fig-rig-bone-disconnected-tip:
 
-.. figure:: /images/riggingmouseclickhead.jpg
+.. figure:: /images/rigging_armatures_editing_bones_mouse-clicks-3.png
    :width: 300px
 
    Ctrl-clicking when the active element is a disconnected root.
@@ -190,7 +190,7 @@ And hence the new bone will **not** be connected to any bone.
 
 .. _fig-rig-bone-connected-root:
 
-.. figure:: /images/riggingmouseclickheadconnected.jpg
+.. figure:: /images/rigging_armatures_editing_bones_mouse-clicks-4.png
    :width: 300px
 
    Ctrl-clicking when the active element is a connected root.
@@ -234,12 +234,12 @@ If you have one root and one tip selected, the new bone:
 .. list-table::
    Fill between a tip and a root
 
-   * - .. figure:: /images/riggingfilltailhead.jpg
+   * - .. figure:: /images/rigging_armatures_editing_bones_fill-joints-1.png
           :width: 320px
 
           Active tip on the left.
 
-     - .. figure:: /images/riggingfilltailhead2.jpg
+     - .. figure:: /images/rigging_armatures_editing_bones_fill-joints-2.png
           :width: 320px
 
           Active tip on the right.
@@ -254,12 +254,12 @@ If you have two tips selected, the new bone:
 .. list-table::
    Fill between tips
 
-   * - .. figure:: /images/riggingfilltailtailleft.jpg
+   * - .. figure:: /images/rigging_armatures_editing_bones_fill-joints-3.png
           :width: 320px
 
           3D cursor on the left.
 
-     - .. figure:: /images/riggingfilltailtailright.jpg
+     - .. figure:: /images/rigging_armatures_editing_bones_fill-joints-4.png
           :width: 320px
 
           3D cursor on the right.
@@ -280,12 +280,12 @@ new bone's root moves to the tip of the parent bone.
 .. list-table::
    Fill between roots
 
-   * - .. figure:: /images/riggingfillheadhead.jpg
+   * - .. figure:: /images/rigging_armatures_editing_bones_fill-joints-5.png
           :width: 320px
 
           Before UI update (3D cursor on the left).
 
-     - .. figure:: /images/riggingfillheadheadcorrect.jpg
+     - .. figure:: /images/rigging_armatures_editing_bones_fill-joints-6.png
           :width: 320px
 
           After UI update, correct visualization.
@@ -297,12 +297,12 @@ end to the 3D cursor position, and it will not parent it to any bone in the arma
 .. list-table::
    Fill with only one bone end selected
 
-   * - .. figure:: /images/riggingfilltail.jpg
+   * - .. figure:: /images/rigging_armatures_editing_bones_fill-joints-7.png
           :width: 320px
 
           Fill with only one tip selected.
 
-     - .. figure:: /images/riggingfillhead.jpg
+     - .. figure:: /images/rigging_armatures_editing_bones_fill-joints-8.png
           :width: 320px
 
           Fill with only one root selected.

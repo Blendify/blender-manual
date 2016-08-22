@@ -142,7 +142,7 @@ bone belongs to by using the *linked selection* tool, :kbd:`L`.
 .. list-table::
    Linked bones selection
 
-   * - .. figure:: /images/riggingboneselectexeditmodewholebone.jpg
+   * - .. figure:: /images/rigging_armatures_editing_properties_scaling-bone-radius-1.png
           :width: 320px
 
           A single selected bone.
