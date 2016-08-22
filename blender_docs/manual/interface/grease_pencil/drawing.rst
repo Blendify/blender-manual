@@ -1,8 +1,8 @@
 ..    TODO/Review: {{review|fixes = merge?}}.
 
-**************************
-Drawing With Grease Pencil
-**************************
+*******
+Drawing
+*******
 
 - Enable the *Grease Pencil* by clicking *Draw, Line, Poly or Erase* from the Toolshelf :kbd:`T`.
   A new layer will be automatically added for you to draw on.
@@ -121,6 +121,5 @@ endpoints of the stroke. The part of the stroke between the endpoints is adjuste
 plane passing through the endpoints.
 
 .. figure:: /images/editors_3dview_sketching_drawing_grease-pencil-drawing-settings.jpg
-   :width: 500px
 
    The effect of different Drawing Settings on Grease Pencil strokes.
