@@ -1,8 +1,8 @@
 ..    TODO/Review: {{review|fixes = merge?}}.
 
-*******
-Drawing
-*******
+************
+Introduction
+************
 
 - Enable the *Grease Pencil* by clicking *Draw, Line, Poly or Erase* from the Toolshelf :kbd:`T`.
   A new layer will be automatically added for you to draw on.
@@ -94,7 +94,8 @@ Volumetric Strokes
 Drawing Settings
 ================
 
-.. figure:: /images/editors_3dview_sketching_drawing_grease-pencil-drawing-settings-panel.jpg
+.. figure:: /images/interface_gp_draw_settings.png
+   :figwidth: 148px
    :align: right
 
    Grease Pencil Drawing Settings.
