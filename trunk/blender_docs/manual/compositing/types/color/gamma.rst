@@ -13,6 +13,7 @@ Gamma Node
 
 Use this node to apply a gamma correction.
 
+
 Inputs
 ======
 
@@ -38,5 +39,6 @@ Image
 Examples
 ========
 
-.. figure:: /images/nodes-gamma.jpg
-   :width: 320px
+.. figure:: /images/compositing_types_color_gamma_example.jpg
+
+   Example of Gamma node.
