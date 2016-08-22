@@ -49,39 +49,6 @@ def main():
             operation_post()
 
 
-def warn_broken_urls(fn, data_src):
-    """
-    Complain about broken URLs
-    """
-    try:
-        import requests
-    except ImportError:
-        print("you need requests, install using `pip install requests`")
-        import sys
-        sys.exit(1)
-
-    import requests
-
-    lines = data_src.split("\n")
-    okcodes = [200, 301, 302]  # OK and redirects
-
-    for i, l in enumerate(lines):
-        match = re.search(r"https?\://[A-Za-z0-9-\._~\:/\?#\[\]@!\$\&'\(\)\*\+,;=%]*",l)
-        if match:
-            url = match.string[match.start():match.end()]
-            try:
-                resp = requests.head(url)
-                if resp.status_code not in okcodes:
-                    print("%s:%d: broken url '%s' (code %d)" % (fn, i + 1, url, resp.status_code))
-                else: print("'%s' OK" % url)  # COMMENT OUT THIS LINE TO SEE BROKEN LINKS ONLY!!
-            except KeyboardInterrupt:
-                raise
-            except:
-                print("%s:%d: broken url '%s' (undefined error)" % (fn, i + 1, url))
-
-    return None
-
-
 def warn_images(fn, data_src):
     """
     Complain about unused and missing images
@@ -170,7 +137,6 @@ def warn_locale():
 # define the operations to call
 operations = []
 operations_checks = {
-    "--url": (warn_broken_urls, None),
     "--image": (warn_images, warn_images_post),
     "--locale": (warn_locale, ...),  # run once
     }
