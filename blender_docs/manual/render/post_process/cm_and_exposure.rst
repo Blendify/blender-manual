@@ -42,12 +42,13 @@ so we have to take care to do the right conversion into and out of this linear c
 Settings
 ========
 
-.. figure:: /images/render_cmsettings.jpg
+.. figure:: /images/render_post-processing_color-management-panel.png
 
    Scene settings for color management.
 
 
 These settings are found in the Scene tab of the properties editor, under the *Color Management* panel.
+
 
 Display
 -------
