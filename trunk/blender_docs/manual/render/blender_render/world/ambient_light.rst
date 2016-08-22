@@ -12,7 +12,6 @@ parameter of the material shading settings,
 which indicates the amount of ambient light/color that that material receives.
 
 .. figure:: /images/lighting-el.jpg
-   :width: 500px
 
    Environment Lighting panel.
 
