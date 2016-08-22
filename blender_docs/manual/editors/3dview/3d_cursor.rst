@@ -21,7 +21,7 @@ Direct Placement with the Mouse
    Positioning the 3D cursor with two orthogonal views.
 
 
-Using :kbd:`LMB` in the 3D area will place the 3D cursor directly under your mouse pointer.
+Using :kbd:`LMB` in the 3D View will place the 3D cursor directly under your mouse pointer.
 
 For accuracy you should use two perpendicular orthogonal 3D Views, i.e.
 any combination of top :kbd:`Numpad7`, front :kbd:`Numpad1` and side :kbd:`Numpad3`.

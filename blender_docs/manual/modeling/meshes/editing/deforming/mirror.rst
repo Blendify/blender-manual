@@ -88,5 +88,5 @@ Transformation Orientations
 ===========================
 
 :doc:`Transformation Orientations </editors/3dview/transform/transform_control/transform_orientations>`
-are found on the 3D area header, next to the *Widget* buttons.
+are found on the 3D View header, next to the *Widget* buttons.
 They decide which coordinate system will rule the mirroring.
