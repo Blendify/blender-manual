@@ -22,12 +22,12 @@ Options
 
 Format
    The input file format (currently ``.mdd`` and ``.pc2`` are supported).
-
 File Path
    Path to the cache file.
 
-Evaluation:
------------
+
+Evaluation
+----------
 
 Influence
    Factor to adjust the influence of the modifiers deformation, useful for blending in/out from the cache data.
@@ -46,50 +46,48 @@ Interpolation
    None or Linear which will blend between frames;
    use linear when the frames in the cache file do not match up exactly with the frames in the blend-file.
 
-Time Mapping:
--------------
 
-   Time Mode
-      Select how time is calculated.
+Time Mapping
+------------
 
-      Frame
-         Allows you to control the frames,
-         which will ignore timing data in the file but is often useful since it gives simple control.
-      Time
-         Evaluates time in seconds,
-         taking into account timing information from the file (offset and frame-times).
-      Factor
-         Evaluates the entire animation as a value from (0 - 1).
+Time Mode
+   Select how time is calculated.
 
-   Play Mode
-      Select how playback operates.
+   Frame
+      Allows you to control the frames,
+      which will ignore timing data in the file but is often useful since it gives simple control.
+   Time
+      Evaluates time in seconds,
+      taking into account timing information from the file (offset and frame-times).
+   Factor
+      Evaluates the entire animation as a value from (0 - 1).
 
-      Scene
-         Use the current frame from the scene to control playback.
+Play Mode
+   Select how playback operates.
 
-         Frame Start
-            Play the cache starting from this frame.
-         Frame Scale
-            Scale time by this factor (applied after the start value).
+   Scene
+      Use the current frame from the scene to control playback.
 
-      Custom
-         Control animation timing manually.
+      Frame Start
+         Play the cache starting from this frame.
+      Frame Scale
+         Scale time by this factor (applied after the start value).
 
-         Evaluation Value
-            Property used for animation time,
-            this gives more control of timing - typically this value will be animated.
+   Custom
+      Control animation timing manually.
+
+      Evaluation Value
+         Property used for animation time,
+         this gives more control of timing - typically this value will be animated.
 
 
-Axis Mapping:
--------------
+Axis Mapping
+------------
 
-   Forward/Up Axis
-      The axis for forward and up used in the source file.
-      *Often different applications have different axis defaults for up/down front/back,
-      so it is common to have to switch these on import.*
-
-   Flip Axis
-      In rare cases you may also need to flip the coordinates on an axis.
+Forward/Up Axis
+   The axis for forward and up used in the source file.
+Flip Axis
+   In rare cases you may also need to flip the coordinates on an axis.
 
 
 Hints

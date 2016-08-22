@@ -31,7 +31,7 @@ Options
 
 Target
    The target curve
-Spline Fitting:
+Spline Fitting
    Chain Length
       How many bones are included in the chain
    Even Division
@@ -42,7 +42,7 @@ Spline Fitting:
 Chain Scaling
    Y stretch
       Stretch the Y axis of the bones to fit the curve
-   XZ Scale Mode:
+   XZ Scale Mode
       None
          Do not scale the X and X axes (default)
       Bone Original

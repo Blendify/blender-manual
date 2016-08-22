@@ -63,7 +63,7 @@ Seq. Strip
    Includes the name of the foreground sequence strip.
 
 
-.. rubric:: Sequencer:
+.. rubric:: Sequencer
 
 Strip Metadata
    Use metadata from the strips in the sequencer.

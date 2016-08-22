@@ -261,7 +261,7 @@ Use Deform Only
    Limits active modifiers on the active object to Deform modifiers, and Multiresolution
 Show Diffuse Color
    Allows the active object to show it's diffuse color when sculpting
-Unified Settings:
+Unified Settings
    Size
       Forces the brush size to be shared across brushes.
    Strength

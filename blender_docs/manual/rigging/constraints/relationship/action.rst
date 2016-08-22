@@ -42,17 +42,13 @@ Options
 
 Target
    This constraint uses one target, and is not functional (red state) when it has none.
-
-Bone:
+Bone
    When target is an armature object, use this field to select the target bone.
-
 Transform Channel
    This drop-down list controls which transform property (location,
    rotation or scale along/around one of its axes) from the target to use as "action driver".
-
 Target Space
    This constraint allows you to choose in which space to evaluate its target's transform properties.
-
 To Action
    Select the name of the action you want to use.
 

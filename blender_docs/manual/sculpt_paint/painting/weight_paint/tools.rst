@@ -432,12 +432,8 @@ Blends the weights of selected vertices with unselected vertices.
 Operator Parameters
 -------------------
 
-Type:
+Type
+   - Linear
+   - Radial
 
-- Linear
-- Radial
-
-X Start:
-X End:
-Y Start:
-Y End:
+..   X Start:   X End:   Y Start:   Y End:

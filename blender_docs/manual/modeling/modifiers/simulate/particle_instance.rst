@@ -220,7 +220,6 @@ Below is a screenshot showing the effect of the *Path* button on hair:
    to be of any use, you must also have the *Dead* button activated.
    Otherwise the path a mesh took will not be visible!
 
-
 .. seealso::
 
    :doc:`Particles </physics/particles/index>`

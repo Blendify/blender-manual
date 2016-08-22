@@ -63,13 +63,13 @@ but gives you more flexibility.
 
 Here are some guidelines to help you choose an approach.
 
-Direct Approach:
+.. rubric:: Direct Approach
 
 - short segments with total render time < 1 hour
 - stable power supply
 - computer not needed for other uses
 
-Frame Sequence Approach:
+.. rubric:: Frame Sequence Approach
 
 - total render time > 1 hour
 - post-production work needed

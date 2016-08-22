@@ -29,9 +29,9 @@ Options
    Warp modifier.
 
 
-From:
+From
    Specify the origin object transformation of the warp.
-To:
+To
    Specify the destination object transformation of the warp.
 Preserve Volume
    Enables volume preservation when rotating one of the transforms.

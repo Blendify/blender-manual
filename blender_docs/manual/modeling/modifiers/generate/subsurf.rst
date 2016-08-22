@@ -67,7 +67,7 @@ approximation of your model when interacting with it in 3D, but use a higher qua
    this would mean the 3D View will be higher quality than the render.
 
 
-Options:
+Options
    Subdivide UVs
       When enabled, the UV maps will also be subsurfed
       (i.e. Blender will add "virtual" coordinates for all sub-faces created by this modifier).
