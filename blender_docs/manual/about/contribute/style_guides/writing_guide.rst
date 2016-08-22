@@ -166,7 +166,7 @@ This entry:
       It is a class of objects.
       In Blender there are Bézier curves and NURBS curves.
 
-Would be written more like this, avoiding the *"it iss"*:
+Would be written more like this, avoiding the *"it is"*:
 
 .. code-block:: rst
 

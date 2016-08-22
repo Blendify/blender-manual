@@ -7,7 +7,7 @@ Fluid physics are used to simulate physical properties of liquids especially wat
 While creating a scene in Blender, certain objects can be marked to participate in the fluid simulation.
 These can include but not limited to, being a fluid or as an obstacle.
 For a fluid simulation you have to have a domain to define the space that the simulation takes up.
-In the domain settings you will be be able to define the global simulation parameters (such as viscosity and gravity).
+In the domain settings you will be able to define the global simulation parameters (such as viscosity and gravity).
 
 .. figure:: /images/physics_fluid_example.jpg
 
@@ -28,7 +28,7 @@ In general, you follow these steps:
    :doc:`Control the Flow </physics/fluid/types/flow>` of the fluid,
 #. You can also depending on your scene add other objects related to the fluid, like:
    :doc:`Obstacles </physics/fluid/types/obstacle>`,
-   :doc:`Particles </physics/fluid/types/particle>` floating on the fluid
+   :doc:`Particles </physics/fluid/types/particle>` floating on the fluid.
 #. And lastly you must
    :doc:`Bake the Simulation </physics/fluid/types/domain>`.
 

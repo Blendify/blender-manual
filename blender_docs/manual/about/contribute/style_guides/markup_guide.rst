@@ -63,7 +63,7 @@ Headings
 
 .. note:: *Parts* should only be used for contents or index pages.
 
-.. note:: each ``.rst`` file should only have one chapter heading (``*``) per file.
+.. note:: Each ``.rst`` file should only have one chapter heading (``*``) per file.
 
 
 Text Styling
@@ -262,7 +262,7 @@ For example:
       - ``volumes.rst``
 
 The idea is to enclose all the content of a section inside of a folder. Ideally every section
-should have an index.rst (containing the TOC for that section) and an ``introduction.rst``
+should have an ``index.rst`` (containing the TOC for that section) and an ``introduction.rst``
 (introducing) to the contents of the section.
 
 
