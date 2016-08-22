@@ -24,8 +24,6 @@ All Events
    Sensor triggers for all events on this joystick's current type
 
 
-----
-
 .. figure:: /images/bge_sensor_joystick_event.jpg
    :width: 200px
 
@@ -33,10 +31,10 @@ All Events
 
 
 Event Type
-   A menu to select which joystick event to use
+   A menu to select which joystick event to use.
 
 
-----
+.. rubric:: Single Axis
 
 .. figure:: /images/bge_sensor_joystick_singaxis.jpg
    :width: 200px
@@ -48,15 +46,15 @@ Single Axis
    Detect movement in a single joystick Axis.
 
    Axis Number
-      1 = Horizontal axis (left/right)
-      2 = Vertical axis (forward/back)
-      3 = Paddle axis up/down
-      4 = Joystick axis twist left/right
+      - 1 = Horizontal axis (left/right)
+      - 2 = Vertical axis (forward/back)
+      - 3 = Paddle axis up/down
+      - 4 = Joystick axis twist left/right
    Axis Threshold
       Threshold at which joystick fires (Range 0 - 32768)
 
 
-----
+.. rubric:: Hat
 
 .. figure:: /images/bge_sensor_joystick_hat.jpg
    :width: 200px
@@ -68,12 +66,12 @@ Hat
    Detect movement of a specific hat control on the joystick.
 
    Hat number
-      Specifies which hat to use (max. 2)
+      Specifies which hat to use (max. 2).
    Hat Direction
      Specifies the direction to use: up, down, left, right, up/right, up/left, down/right, down/left.
 
 
-----
+.. rubric:: Axis
 
 .. figure:: /images/bge_sensor_joystick_axis.jpg
    :width: 200px
@@ -83,18 +81,18 @@ Hat
 
 Axis
    Axis Number
-      Specifies the axis (1 or 2)
+      Specifies the axis (1 or 2).
    Axis Threshold
-      Threshold at which joystick fires (Range 0 - 32768)
+      Threshold at which joystick fires (Range 0 - 32768).
    Axis Direction
       Specifies the direction to use:
 
-      (Axis Number = 1) Joystick Left, Right, Up, Down
-      (Axis Number = 2) Paddle upper (Left); paddle Lower (Right);
-      Joystick twist left (Up) Joystick twist right (Down)
+      - (Axis Number = 1) Joystick Left, Right, Up, Down
+      - (Axis Number = 2) Paddle upper (Left); paddle Lower (Right);
+      - Joystick twist left (Up) Joystick twist right (Down)
 
 
-----
+.. rubric:: Button
 
 .. figure:: /images/bge_sensor_joystick1.jpg
    :width: 200px

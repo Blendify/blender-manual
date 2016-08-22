@@ -1,3 +1,4 @@
+
 **************************
 Licensing of Blender Games
 **************************
@@ -8,7 +9,7 @@ have to comply with that license as well.
 This only applies to the software, or the bundle if it has software
 in it, not to the artwork you make with Blender. All your Blender creations are your sole property.
 
-GNU GPL - also called "Free Software" - is a license that aims at keeping the licensed software free, forever.
+GNU GPL -- also called "Free Software" -- is a license that aims at keeping the licensed software free, forever.
 GNU GPL does not allow you to add new restrictions or limitations on the software you received under that license.
 That works fine if you want your clients or your audience to have the same rights as you have (with Blender).
 

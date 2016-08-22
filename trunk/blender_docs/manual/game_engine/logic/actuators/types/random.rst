@@ -3,7 +3,7 @@
 Random Actuator
 ***************
 
-Sets a random value into a property of the object
+Sets a random value into a property of the object.
 
 
 .. seealso::
@@ -22,7 +22,7 @@ Special Options:
 Seed
 ====
 
-Starting seed for random generator (range 1 - 1000)
+Starting seed for random generator (range 1 - 1000).
 
 Distribution
 ============
@@ -41,9 +41,9 @@ Float Neg. Exp.
    Values drop off exponentially with the specified half-life time.
 
    Property
-      Float property to receive value
+      Float property to receive value.
    Half-Life Time
-      Half-life time (Range 0.00 - 10000.00)
+      Half-life time (Range 0.00 - 10000.00).
 
 .. figure:: /images/bge_actuator_random_float_normal.jpg
    :width: 271px
@@ -55,11 +55,11 @@ Float normal
    Random numbers from a normal distribution.
 
    Property
-      Float property to receive value
+      Float property to receive value.
    Mean
-      Mean of normal distribution (Range -10000.00 to +10000.00)
+      Mean of normal distribution (Range -10000.00 to +10000.00).
    SD
-      Standard deviation of normal distribution (Range 0.00 to +10000.00)
+      Standard deviation of normal distribution (Range 0.00 to +10000.00).
 
 .. figure:: /images/bge_actuator_random_float_uniform.jpg
    :width: 271px
@@ -71,11 +71,11 @@ Float uniform
    Random values selected uniformly between maximum and minimum.
 
    Property
-      Float property to receive value
+      Float property to receive value.
    Min
-      Minimum value (Range -10000.00 to +10000.00)
+      Minimum value (Range -10000.00 to +10000.00).
    Max
-      Maximum value (Range -10000.00 to +10000.00)
+      Maximum value (Range -10000.00 to +10000.00).
 
 .. figure:: /images/bge_actuator_random_float_constant.jpg
    :width: 271px
@@ -87,9 +87,9 @@ Float constant
    Returns a constant value.
 
    Property
-      Float property to receive value
+      Float property to receive value.
    Value
-      Value (Range 0.00 to +1.00)
+      Value (Range 0.00 to +1.00).
 
 .. figure:: /images/bge_actuator_random_int_poisson.jpg
    :width: 271px
@@ -101,9 +101,9 @@ Int Poisson
    Random numbers from a Poisson distribution.
 
    Property
-      Integer property to receive value
+      Integer property to receive value.
    Mean
-      Mean of Poisson distribution (Range 0.01 to +100.00)
+      Mean of Poisson distribution (Range 0.01 to +100.00).
 
 .. figure:: /images/bge_actuator_random_int_uniform.jpg
    :width: 271px
@@ -115,11 +115,11 @@ Int uniform
    Random values selected uniformly between maximum and minimum.
 
    Property
-      Integer property to receive value
+      Integer property to receive value.
    Min
-      Minimum value (Range -1000 to +1000)
+      Minimum value (Range -1000 to +1000).
    Max
-      Maximum value (Range -1000 to +1000)
+      Maximum value (Range -1000 to +1000).
 
 .. figure:: /images/bge_actuator_random_int_constant.jpg
    :width: 271px
@@ -131,9 +131,9 @@ Int constant
    Returns a constant value.
 
    Property
-      Integer property to receive value
+      Integer property to receive value.
    Value
-      Value (Range 0.00 to +1.00)
+      Value (Range 0.00 to +1.00).
 
 .. figure:: /images/bge_actuator_random_bool_bernoulli.jpg
    :width: 271px
@@ -145,7 +145,7 @@ Bool Bernoulli
    Returns a random distribution with specified ratio of TRUE pulses.
 
    Property
-      Boolean property to receive value
+      Boolean property to receive value.
    Chance
       Proportion of TRUE responses required.
 
@@ -159,7 +159,7 @@ Bool uniform
    A 50/50 chance of obtaining True/False.
 
    Property
-      Boolean property to receive value
+      Boolean property to receive value.
 
 .. figure:: /images/bge_actuator_random_bool_constant.jpg
    :width: 271px
@@ -171,6 +171,6 @@ Bool constant
    Returns a constant value.
 
    Property
-      Boolean property to receive value
+      Boolean property to receive value.
    Value
-      Value (True or False)
+      Value (True or False).

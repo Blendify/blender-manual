@@ -1,7 +1,7 @@
 
-********************
-Blender Game Physics
-********************
+************
+Introduction
+************
 
 Blender includes advanced physics simulation in the form of the Bullet Physics Engine
 (`Bullet Physics <http://bulletphysics.org>`__).
@@ -31,6 +31,7 @@ Object Physics
 ==============
 
 .. figure:: /images/bge-physics-propertiestabs.jpg
+
 
 .. _game-engine-physics-types:
 
@@ -77,12 +78,12 @@ This means interesting effects such as *Copy Rotation* are unavailable directly.
 Your options include:
 
 - :doc:`Parenting </editors/3dview/object/relationships/parents>` - But not Vertex Parenting.
-- :doc:`Rigid Body Joint </rigging/constraints/relationship/rigid_body_joint>` -
+- :doc:`Rigid Body Joint </rigging/constraints/relationship/rigid_body_joint>` --
   This is the one Constraint that you can set up through the UI that works in the BGE.
-  It has several options, and can be very powerful - see ITS page for a detailed description and demo blend-file.
+  It has several options, and can be very powerful -- see ITS page for a detailed description and demo blend-file.
   Do not forget that you can loop through objects using ``bpy`` instead of clicking thousands of
   times to set up chains of these Constraints.
-- Rigid Body Joints on the Fly -
+- Rigid Body Joints on the Fly --
   You can add/remove them after the BGE starts by using ``bge.constraints.createConstraint()``.
   This can be good either to simply automate their setup, or to truly make them dynamic.
   A simple demo can be viewed in: `BGE-Physics-DynamicallyCreateConstraint.blend
@@ -90,8 +91,8 @@ Your options include:
 - `Python Controllers </game_engine/logic/controllers/python>`__ - As always, in the BGE,
   you can get the most power when you drop into Python and start toying with the settings directly.
   For instance, the *Copy Rotation* mentioned above is not hard --
-  All you have to do is something to the effect of ``own.worldOrientation =
-  bge.logic.getCurrentScene().objects['TheTargetObject'].worldOrientation``
+  All you have to do is something to the effect of 
+  ``own.worldOrientation = bge.logic.getCurrentScene().objects['TheTargetObject'].worldOrientation``
 
 
 Visualizing Physics
@@ -110,7 +111,7 @@ Also note that you can see how the Bullet triangulation is working
 - *RGB/XYZ Widget* - Representing the object's Local Orientation and Origin.
 - *Green* - "sleeping meshes" that are not moving, saving calculations until an external event "wakes" it.
 - *White* - White lines represent active bounding meshes at are undergoing physics calculations,
-  untill such calculations are so small that the object is put to rest.
+  until such calculations are so small that the object is put to rest.
   This is how you can see the effects of the *Collision Bounds*.
   - *Thick*, or *Many White Lines* - A compound collision mesh/meshes.
 - *Violet* - Bounding meshes for Soft bodies.
@@ -142,7 +143,7 @@ Show Framerate and Profile
 
    A shot of `Manual-BGE-Physics-DancingSticks.blend
    <https://wiki.blender.org/index.php/Media:Manual-BGE-Physics-DancingSticks.blend>`__ with
-   [Game --> Show Framerate and Profile] enabled
+   :menuselection:`Game --> Show Framerate and Profile` enabled
 
 
 If you enable :menuselection:`Game --> Show Framerate and Profile`,
@@ -289,7 +290,7 @@ Exporting
 
 You can snapshot the physics world at any time with the following code:
 
-::
+.. code-block:: python
 
    import bge
    bge.constraints.exportBulletFile("test.bullet")

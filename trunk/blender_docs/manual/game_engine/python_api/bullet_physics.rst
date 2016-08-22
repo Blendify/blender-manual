@@ -20,7 +20,8 @@ Easiest is to look at the Bullet physics demos, how to use them. More informatio
 `here <http://www.continuousphysics.com/Bullet/phpBB2/viewforum.php?f=17>`__.
 
 Python script example:
-::
+
+.. code-block:: python
 
    import PhysicsConstraints
    print dir(PhysicsConstraints)

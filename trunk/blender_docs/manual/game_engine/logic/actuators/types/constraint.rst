@@ -9,6 +9,7 @@ See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>`
 
 Special Options:
 
+
 Constraint Mode
 ===============
 

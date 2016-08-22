@@ -34,10 +34,10 @@ Toggle
    switches 0 to 1 and any other number than 0 to 0 once the actuator is activated. Useful for on/off switches.
 
 Property
-   The target property that this actuator will change
+   The target property that this actuator will change.
 
 Value
-   The value to be used to change the property
+   The value to be used to change the property.
 
 
 Example

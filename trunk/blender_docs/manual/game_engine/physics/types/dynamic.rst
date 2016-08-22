@@ -42,7 +42,7 @@ Rotate From Normal
 No Sleeping
    Prevents simulation meshes from sleeping. When an object has a linear velocity or angular velocity,
    it is in motion. It will detect collisions, receive gravity, etc. Once these thresholds are close to zero,
-   it will cease these calculations---until another object interacts with it wake it up.
+   it will cease these calculations -- until another object interacts with it wake it up.
    Python property: ``obj.game.use_sleep``
 Mass
    Affects the reaction due to collision between objects -- more massive objects have more inertia.
@@ -60,53 +60,33 @@ Radius
    :header-rows: 1
 
    * - Basic
-
      - Radius= 1.5
-
      - Unapplied Scale
-
      - Applied Scale
-
      - Collision Bounds
 
    * - Rolls, radius of 1 BU
-
      - Rolls, radius of 1.5 BU (after "popping" upward)
-
      - Rolls, radius of 1.5 BU
-
      - Rolls, radius of 1 BU (!)
-
      - Default (which is Sphere)
 
    * - Slides, extent of 1 BU
-
      - Slides, extent of 1 BU
-
      - Slides, extent of 1 BU
-
      - Slides, extent of 1 BU
-
      - Box
 
    * - ""
-
      - ""
-
      - ""
-
      - ""
-
      - Convex Hull
 
    * - Slides, extent of 1 BU (but with more friction than above)
-
      - Slides, extent of 1 BU (but with more friction than above)
-
      - Acts insane
-
      - Slides extent of 1.5 BU
-
      - Triangle Mesh
 
 Form Factor
@@ -200,7 +180,7 @@ Box
    The x,y,z bounding box, as defined above.
 Sphere
    Radius is defined by the object's scale (visible in the N properties panel) times the physics radius
-   (can be found in Physics » Attributes » Radius.
+   (can be found in :menuselection:`Physics --> Attributes --> Radius`.
    Note: This is the only bounds that respects the Radius option.
 Cylinder
    Radius is the greater of the x or y extent.
@@ -230,6 +210,7 @@ By Hand
 
    Another way to create Collision Bounds -- By hand.
 
+
 Options
 -------
 
@@ -251,6 +232,7 @@ Compound
    (though it will still push other objects around). If you do have it checked,
    the parent's physics will respond to the child's collision (thus updating the whole family).
    Python property: ``obj.game.use_collision_compound``
+
 
 Create Obstacle
 ===============

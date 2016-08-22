@@ -1,7 +1,7 @@
 
-***************************
-Introduction to Game Engine
-***************************
+************
+Introduction
+************
 
 The Blender Game Engine (BGE) is Blender's tool for real time projects,
 from architectural visualizations and simulations to games.
@@ -18,16 +18,16 @@ For further information, you should get in touch with the developers via mailing
    data-conversion --> input | animation, physics and logic | rendering
 
 different renderer, logic is done via logic bricks or python
-press 'P' to play in preview mode in the embedded player
+press :kbd:`P` to play in preview mode in the embedded player
 
 
-use cases and sample games
+Use Cases and Sample Games
 ==========================
 
 Blender has its own built in Game Engine that allows you to create interactive 3D applications
 or simulations. The major difference between Game Engine and the conventional Blender system
 is in the rendering process. In the normal Blender engine,
-images and animations are built off-line - once rendered they cannot be modified.
+images and animations are built off-line -- once rendered they cannot be modified.
 Conversely, the Blender Game Engine renders scenes continuously in real-time,
 and incorporates facilities for user interaction during the rendering process.
 
@@ -61,8 +61,8 @@ however, it also includes the ability to export a binary run-time to Linux, MacO
 
 There are a number of powerful libraries the Game-Engine takes advantage of:
 
-- Audaspace - a sound library for control of audio. Uses OpenAL or SDL
-- Bullet - a physics engine featuring 3D collision detection, soft body dynamics, and rigid body dynamics
+- Audaspace - a sound library for control of audio. Uses OpenAL or SDL.
+- Bullet - a physics engine featuring 3D collision detection, soft body dynamics, and rigid body dynamics.
 - Detour - a path-finding and spatial reasoning toolkit.
 - Recast - a state of the art navigation mesh construction tool set for games.
 
@@ -71,6 +71,6 @@ When creating a game or simulation in the BGE, there are four essential steps:
 - Create visual elements that can be rendered. This could be 3D models or images.
 - Enable interaction within the scene using logic bricks to script custom behavior and determine how it is invoked
   (using the appropriate "sensors" such as keyboards or joysticks).
-- Create one (or more) camera to give a frustrum from which to render the scene,
+- Create one (or more) camera to give a frustum from which to render the scene,
   and modify the parameters to support the environment in which the game will be displayed, such as Stereo rendering.
 - Launch the game, using the internal player or exporting a runtime to the appropriate platform.

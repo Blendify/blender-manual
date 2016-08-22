@@ -34,12 +34,12 @@ Parts of the Python Controller
    Python Controller.
 
 
-#. Type
-      Specifies whether it is a module or entire file.
-#. Name
-      The name of the file to be loaded.
-#. D (Use Debug)
-      Continuously reload the file.
+Type
+   Specifies whether it is a module or entire file.
+Name
+   The name of the file to be loaded.
+D (Use Debug)
+   Continuously reload the file.
 
 
 See :ref:`standard controller parts <standard-controller-parts>` for descriptions of the remaining options.

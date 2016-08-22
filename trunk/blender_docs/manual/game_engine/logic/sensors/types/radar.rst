@@ -20,17 +20,16 @@ Special Options:
 Property
    This field can be used to limit the sensor to look for only those objects with this property.
 
-Notes:
-1) The Radar sensor can detect objects "through" other objects (walls etc).
-2) Objects must have "Actor" enabled to be detected.
+.. note::
+
+   #. The Radar sensor can detect objects "through" other objects (walls etc).
+   #. Objects must have "Actor" enabled to be detected.
 
 Axis
    This menu determines the direction of the radar cone.
    The ± signs is whether it is on the axis direction (+), or the opposite (-).
-
 Angle
    Determines the angle of the cone. (Range: 0.00 to 179.9 degrees).
-
 Distance
    Determines the length of the cone. (Blender units).
 

@@ -63,51 +63,32 @@ Radius
    * - Basic
 
      - Radius= 1.5
-
      - Unapplied Scale
-
      - Applied Scale
-
      - Collision Bounds
 
    * - Rolls, radius of 1 BU
-
      - Rolls, radius of 1.5 BU (after "popping" upward)
-
      - Rolls, radius of 1.5 BU
-
      - Rolls, radius of 1 BU (!)
-
      - Default (which is Sphere)
 
    * - Slides, extent of 1 BU
-
      - Slides, extent of 1 BU
-
      - Slides, extent of 1 BU
-
      - Slides, extent of 1 BU
-
      - Box
 
    * - ""
-
      - ""
-
      - ""
-
      - ""
-
      - Convex Hull
 
    * - Slides, extent of 1 BU (but with more friction than above)
-
      - Slides, extent of 1 BU (but with more friction than above)
-
      - Acts insane
-
      - Slides extent of 1.5 BU
-
      - Triangle Mesh
 
 Form Factor
@@ -145,6 +126,7 @@ Lock Translation
 
 Lock Rotation
    Same, but for rotation (also with respect to the global coordinates).
+
      - X Python property: ``obj.game.lock_rotation_x``
      - Y Python property: ``obj.game.lock_rotation_y``
      - Z Python property: ``obj.game.lock_rotation_z``
@@ -189,14 +171,14 @@ Now we can explain the various options for the *Collision Bounds* settings:
 Default
    For Dynamic and Static objects, it is a Triangle Mesh (see below).
    For everything else, it is a Sphere (see below).
-Capsule - A cylinder with hemispherical caps, like a pill.
+Capsule -- A cylinder with hemispherical caps, like a pill.
    Radius of the hemispheres is the greater of the x or y extent.
    Height is the z bounds
 Box
    The x,y,z bounding box, as defined above.
 Sphere
    Radius is defined by the object's scale (visible in the N properties panel) times the physics radius
-   (can be found in Physics » Attributes » Radius.
+   (can be found in :menuselection:`Physics --> Attributes --> Radius`.
    Note: This is the only bounds that respects the Radius option.
 Cylinder
    Radius is the greater of the x or y extent.
@@ -207,9 +189,10 @@ Cone
 Convex Hull
    Forms a shrink-wrapped, simplified geometry around the object.
 
-.. figure:: /images/bge-physics-convexhull.png
+   .. figure:: /images/bge-physics-convexhull.png
+      :width: 200px
 
-   A convex hull sketch.
+      A convex hull sketch.
 
 Triangle mesh
    Most expensive, but most precise. Collision will happen with all of triangulated polygons,
@@ -222,9 +205,11 @@ By Hand
    This method allows you to strike a balance between the accuracy of *Triangle Mesh*
    with the efficiency of some of the others. See the demo of this in the dune buggy to the right.
 
-.. figure:: /images/bge-physics-manualhull.png
+   .. figure:: /images/bge-physics-manualhull.png
+      :width: 300px
 
-   Another way to create Collision Bounds -- By hand.
+      Another way to create Collision Bounds -- By hand.
+
 
 Options
 -------
@@ -247,6 +232,7 @@ Compound
    (though it will still push other objects around). If you do have it checked,
    the parent's physics will respond to the child's collision (thus updating the whole family).
    Python property: ``obj.game.use_collision_compound``
+
 
 Create Obstacle
 ===============

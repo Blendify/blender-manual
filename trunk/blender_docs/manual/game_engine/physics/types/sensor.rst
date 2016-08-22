@@ -14,6 +14,7 @@ Like the Near and Radar object it is:
 - capable of detecting both static and dynamic objects
 - ignoring collision with their parent
 - capable of broadphase filtering based on:
+
   - Actor option: the collisioning object must have the Actor flag set to be detected
   - property/material: as specified in the collision sensors attached to it.
 
@@ -39,7 +40,7 @@ The type of collision capability depends on the shape:
   the surface by increasing the margin in the Advanced Settings panel.
   The margin applies on both sides of the surface.
 
-Performance tip:
+.. rubric:: Performance tip
 
 - Sensor objects perform better than Near and Radar:
   they do less synchronizations because of the Scenegraph optimizations and they can
@@ -50,13 +51,14 @@ Performance tip:
   When no collision sensor is active on the sensor object,
   it is removed from the simulation and consume no CPU.
 
-Known limitations:
+.. rubric:: Known limitations
 
 - When running Blender in debug mode, you will see one warning line of the console:
 
-  ::
-     warning btCollisionDispatcher::needsCollision: static-static collision!"
-     In release mode this message is not printed.
+   .. code-block:: sh
+
+      warning btCollisionDispatcher::needsCollision: static-static collision!"
+      In release mode this message is not printed.
 
 - Collision margin has no effect on sphere, cone and cylinder shape.
 

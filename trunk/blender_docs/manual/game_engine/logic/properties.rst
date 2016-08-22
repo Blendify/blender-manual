@@ -45,22 +45,23 @@ Panel. The top menu provides a list of the available property types.
 
 
 Add Game Property button
-   This button adds a new property to the list, default is a *Float* property named ``prop``, followed
-   by a number if there already is one with this name.
+   This button adds a new property to the list, default is a *Float* property named ``prop``,
+   followed by a number if there already is one with this name.
 
 Name field
-   Where you give your property its name, this is how you are going to access it through python or expressions. The
-   way to do so in python is by dictionary style lookup (``GameObject["propname"]``). The name is case
-   sensitive.
+   Where you give your property its name, this is how you are going to access it through python or expressions.
+   The way to do so in python is by dictionary style lookup (``GameObject["propname"]``).
+   The name is case sensitive.
 
 Type menu
    This menu determines which type of property it is. The available options are in `Property Types`_.
 Value field
    Sets the initial value of the property.
 
-*i* information button
+Information *i* button
    Display property value in debug information.
-   If debugging is turned on, the value of the property is given in the top left-hand corner of the screen while the
-   game is running. To turn debugging on, tick *Show Debug Properties* in the *Game* menu. All
-   properties with debugging activated will then be presented with their object name, property name and value during
-   gameplay. This is useful if you suspect something with your properties is causing problems.
+   If debugging is turned on, the value of the property is given in the top left-hand corner of the screen 
+   while the game is running. To turn debugging on, tick *Show Debug Properties* in the *Game* menu. 
+   All properties with debugging activated will then be presented with their object name,
+   property name and value during gameplay.
+   This is useful if you suspect something with your properties is causing problems.

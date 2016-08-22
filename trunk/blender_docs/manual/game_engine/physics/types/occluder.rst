@@ -51,14 +51,14 @@ should be an occluder. However,
 you can enable the Occlusion capability on physics objects using Python and Logic bricks - see
 (Link- TODO)
 
-When an occluder object enters the view frustrum,
+When an occluder object enters the view frustum,
 the BGE builds a ZDepth buffer from the faces of that object.
 Whether the faces are one-side or two-side is important:
 only the front faces and two-side faces are used to build the ZDepth buffer.
-If multiple occluders are in the view frustrum,
+If multiple occluders are in the view frustum,
 the BGE combines them and keeps the most foreground faces.
 
-The resolution of the ZDepth buffer is controllable in the World settings with the "Occlu Res"
+The resolution of the Z Depth buffer is controllable in the World settings with the "Occlu Res"
 button:
 
 By default the resolution is 128 pixels for the largest dimension of the viewport while the
@@ -71,8 +71,8 @@ and for each node checks if it is entirely hidden by the occluders and if so, cu
 (and all the objects it contains).
 
 To further optimize the feature, the BGE builds and uses the ZDepth buffer only when at least
-one occluder is in the view frustrum. Until then,
-there is no performance decrease compared to regular view frustrum culling.
+one occluder is in the view frustum. Until then,
+there is no performance decrease compared to regular view frustum culling.
 
 
 Recommendations
@@ -103,7 +103,7 @@ There are situations where occlusion culling will not bring any benefit:
     for instance making the objects visible only when the camera enters the house).
 
 
-- Occluders can be visible graphic objects but beware that too many faces will make the ZDepth buffer creation slow.
+- Occluders can be visible graphic objects but beware that too many faces will make the Z Depth buffer creation slow.
 
   - For example, a terrain is not a good candidate for occlusion: too many faces and too many overlap.
     Occluder can be invisible objects placed inside more complex objects
