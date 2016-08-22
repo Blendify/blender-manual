@@ -58,10 +58,10 @@ Type menu
 Value field
    Sets the initial value of the property.
 
-Information *i* button
-   Display property value in debug information.
-   If debugging is turned on, the value of the property is given in the top left-hand corner of the screen 
-   while the game is running. To turn debugging on, tick *Show Debug Properties* in the *Game* menu. 
+Information (*i* button)
+   Display property value in debug information. If debugging is turned on,
+   the value of the property is given in the top left-hand corner of the screen while the game is running.
+   To turn debugging on, tick *Show Debug Properties* in the *Game* menu.
    All properties with debugging activated will then be presented with their object name,
    property name and value during gameplay.
    This is useful if you suspect something with your properties is causing problems.

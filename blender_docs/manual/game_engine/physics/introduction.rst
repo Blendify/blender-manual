@@ -91,7 +91,7 @@ Your options include:
 - `Python Controllers </game_engine/logic/controllers/python>`__ - As always, in the BGE,
   you can get the most power when you drop into Python and start toying with the settings directly.
   For instance, the *Copy Rotation* mentioned above is not hard --
-  All you have to do is something to the effect of 
+  All you have to do is something to the effect of
   ``own.worldOrientation = bge.logic.getCurrentScene().objects['TheTargetObject'].worldOrientation``
 
 
