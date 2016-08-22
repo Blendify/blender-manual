@@ -42,7 +42,7 @@ Options
 Target
    This constraint uses one target, and is not functional (red state) when it has none.
 
-Joint Type:
+Joint Type
    Ball
       works like an ideal ball-and-socket joint, i.e. allows rotations around all axes like a shoulder joint.
    Hinge

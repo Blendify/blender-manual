@@ -146,25 +146,26 @@ that will make a recalculating necessary.
    So if you want a simulation longer than the default setting of 250 frames you have the change the *End* frame.
 
 
-- Caching:
+.. rubric:: Caching
 
-  - As animation is played, each physics system writes each frame to disk,
-    between the simulation start and end frames.
-    These files are stored in folders with prefix ``blendcache``, next to the blend-file.
-  - The cache is cleared automatically on changes - but not on all changes,
-    so it may be necessary to free it manually, e.g. if you change a force field.
-    Note that for the cache to fill up, one has to start playback before or on the frame that the simulation starts.
-  - If you are not allowed to write to the required sub-directory caching will not take place.
-  - The cache can be freed per physics system with a button in the panels,
-    or with the :kbd:`Ctrl-B` shortcut key to free it for all selected objects.
-  - You may run into trouble if your blend-file path is very long and your operating system
-    has a limit on the path length that is supported.
-- Baking:
+- As animation is played, each physics system writes each frame to disk,
+  between the simulation start and end frames.
+  These files are stored in folders with prefix ``blendcache``, next to the blend-file.
+- The cache is cleared automatically on changes - but not on all changes,
+  so it may be necessary to free it manually, e.g. if you change a force field.
+  Note that for the cache to fill up, one has to start playback before or on the frame that the simulation starts.
+- If you are not allowed to write to the required sub-directory caching will not take place.
+- The cache can be freed per physics system with a button in the panels,
+  or with the :kbd:`Ctrl-B` shortcut key to free it for all selected objects.
+- You may run into trouble if your blend-file path is very long and your operating system
+  has a limit on the path length that is supported.
+ 
+.. rubric:: Baking
 
-  - The system is protected against changes after baking.
-  - The *Bake* result is cleared also with
-    :kbd:`Ctrl-B` for all selected objects or click on *Free Bake* for the current Soft Body system.
-  - If the mesh changes the simulation is not calculated anew.
+- The system is protected against changes after baking.
+- The *Bake* result is cleared also with
+  :kbd:`Ctrl-B` for all selected objects or click on *Free Bake* for the current Soft Body system.
+- If the mesh changes the simulation is not calculated anew.
 
 For renderfarms, it is best to bake all the physics systems,
 and then copy the blendcache to the renderfarm as well.

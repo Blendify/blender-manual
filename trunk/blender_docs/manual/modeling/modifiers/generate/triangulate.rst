@@ -22,7 +22,7 @@ This modifier does the exact same function as the triangulate function :kbd:`Ctr
 Options
 =======
 
-Quad Method:
+Quad Method
    Beauty
       Split the quads in nice triangles, slower method.
 
@@ -35,7 +35,7 @@ Quad Method:
    Shortest Diagonal
       Split the quads based on the distance between the vertices.
 
-Ngon Method:
+Ngon Method
    Beauty
       Arrange the new triangles nicely, slower method.
    Scanfill

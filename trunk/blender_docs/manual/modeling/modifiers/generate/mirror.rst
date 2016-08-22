@@ -33,7 +33,7 @@ Axis
    You can select more than one of these axes - you will then get more mirrored copies.
    With one axis you get a single mirror, with two axes four mirrors, and with all three axes eight mirrors.
 
-Options:
+Options
    Merge
       Where a vertex is in the same place (within the *Merge Limit* distance) as its mirror it will be
       merged with the mirrored vertex.

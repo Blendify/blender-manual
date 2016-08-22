@@ -48,17 +48,14 @@ Mix Mode
 
    All
       Replaces everything in destination (note that *Mix Factor* is still used).
-
    Above Threshold
       Only replaces destination value if it’s above given threshold *Mix Factor*.
       How that threshold is interpreted depends on data type,
       note that for boolean values this option fakes a logical AND.
-
    Below Threshold
       Only replaces destination value if it’s below given threshold *Mix Factor*.
       How that threshold is interpreted depends on data type,
       note that for boolean values this option fakes a logical OR.
-
    Mix, Add, Subtract, Multiply
       Apply that operation, using mix factor to control how much of source or destination value to use.
       Only available for a few types (vertex groups, vertex colors).
@@ -129,17 +126,14 @@ One-To-One Mappings
 
       Nearest Edge Vertex
          Uses source’s nearest vertex of source’s nearest edge.
-
       Nearest Face Vertex
          Uses source’s nearest vertex of source’s nearest face.
 
    Edges
       Nearest Vertices
          Uses source’s edge which vertices are nearest from destination edge’s vertices.
-
       Nearest Edge
          Uses source’s nearest edge (using edge’s midpoints).
-
       Nearest Face Edge
          Uses source’s nearest edge of source’s nearest face (using edge’s midpoints).
 
@@ -150,19 +144,16 @@ One-To-One Mappings
       Nearest Corner and Best Matching Normal
          Uses source’s corner having the most similar *split* normal with destination one,
          from those sharing the nearest source’s vertex.
-
       Nearest Corner and Best Matching Face Normal
          Uses source’s corner having the most similar *face* normal with destination one,
          from those sharing the nearest source’s vertex.
-
       Nearest Corner of Nearest Face
          Uses source’s nearest corner of source’s nearest face.
 
    Faces
       Nearest Face
          Uses source’s nearest face.
-
-      Best Normal-Matching:
+      Best Normal-Matching
          Uses source’s face which normal is most similar with destination one.
 
 Interpolated Mappings
@@ -171,10 +162,8 @@ Interpolated Mappings
    Vertices
       Nearest Edge Interpolated
          Uses nearest point on nearest source’s edge, interpolates data from both source edge’s vertices.
-
       Nearest Face Interpolated
          Uses nearest point on nearest source’s face, interpolates data from all that source face’s vertices.
-
       Projected Face Interpolated
          Uses point of face on source hit by projection of destination vertex along its own normal,
          interpolates data from all that source face’s vertices.
@@ -191,7 +180,6 @@ Interpolated Mappings
 
       Nearest Face Interpolated
          Uses nearest point of nearest source’s face, interpolates data from all that source face’s corners.
-
       Projected Face Interpolated
          Uses point of face on source hit by projection of destination corner along its own normal,
          interpolates data from all that source face’s corners.

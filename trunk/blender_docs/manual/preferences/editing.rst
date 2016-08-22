@@ -143,7 +143,7 @@ brushes circle when in sculpt mode, and it is placed as an overlay to the brush,
 representing the focal point of the brush influence.
 The overlay color is visible only when the overlay visibility is selected
 (clicking at the *eye* to set its visibility), and the transparency of the overlay is
-controled by the alpha slider located at the brush selector panel,
+controlled by the alpha slider located at the brush selector panel,
 located at the top of the tool shelf, when in sculpt mode.
 
 

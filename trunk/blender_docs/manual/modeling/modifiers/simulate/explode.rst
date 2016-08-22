@@ -50,16 +50,16 @@ Particle UV
    UV map to change with particle age.
 
 Cut Edges
-   Cut face edges for nicer shrapnel
+   Cut face edges for nicer shrapnel.
 
 Unborn
-   Show mesh when particles are unborn
+   Show mesh when particles are unborn.
 Alive
-   Show mesh when particles are alive
+   Show mesh when particles are alive.
 Dead
-   Show mesh when particles are dead
+   Show mesh when particles are dead.
 Size
-   Use particle size for shrapnel
+   Use particle size for shrapnel.
 
 Refresh
-   Refresh data in the explode modifier
+   Refresh data in the explode modifier.

@@ -82,7 +82,7 @@ Max
 
 Add Point
    Add a set of control points. They will be created at the current frame.
-Fra:
+Fra
    Set the frame number for the control point.
 Min
    Specifies the lower control point's position.

@@ -178,7 +178,7 @@ Steps
    This numeric field specifies how many extrusion(s) will be done for each 360 degree turn.
    The steps are evenly distributed by dividing 360 degree by the number of steps given. The minimum value is 3;
    the maximum is 256 (See Fig. :ref:`fig-mesh-screw-interactive-panel`)
-Turns:
+Turns
    This numeric field specifies how many turns will be executed.
    Blender will add a new full 360 degree turn for each incremental number specified here.
    The minimum value is 1; the maximum is 256. (See Fig. :ref:`fig-mesh-screw-interactive-panel`)
