@@ -22,7 +22,7 @@ You can maximize an area to fill the whole application window with
 To return to normal size,
 use again :menuselection:`View --> Toggle Full Screen`.
 A quicker way to achieve this is to use :kbd:`Shift-Spacebar`,
-:kbd:`Ctrl-Down` or :kbd:`Ctrl-Up` to toggle between maximized and areas.
+:kbd:`Ctrl-Down` or :kbd:`Ctrl-Up` to toggle between maximized and normal areas.
 
 .. note::
 
@@ -68,7 +68,7 @@ The upper area will get a little darker, overlaid with an arrow pointing up.
 This indicates that the lower (current) area will "take over" that darkened area space.
 Let go of the :kbd:`LMB` to merge. If you want the reverse to occur,
 move your mouse cursor back into the original (lower) area,
-and it will instead get the arrow overlay.
+and it will instead get the overlay arrow.
 
 In the same way, windows may be merged left to right or vice versa.
 
@@ -101,7 +101,7 @@ if you have multiple monitors and want them to show different information on the
 A new window can be created from :menuselection:`View --> Duplicate Area into new Window`.
 
 You can also create a new window from an existing area by :kbd:`Shift-LMB`
-on the area splitter icon, then dragg slightly.
+on the area splitter icon, then drag slightly.
 
 Once the new window has opened, you can move it to the other monitor
 (or leave it in the current one); you can resize it (or keep it unchanged);
