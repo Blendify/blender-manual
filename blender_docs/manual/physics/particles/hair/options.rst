@@ -46,7 +46,7 @@ Structure
 
 Mass
    Value for the mass of the hair.
-Siffness
+Stiffness
    Controls how stiff the root of the hair strands are.
 
    Random
