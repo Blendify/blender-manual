@@ -71,8 +71,7 @@ These shortcuts may be customized under
 :menuselection:`File --> User Preferences --> Input --> 3D View --> Sculpt Mode`.
 
 
-.. list-table::
-   Brush Selection Shortcuts
+.. list-table:: Brush Selection Shortcuts.
 
    * - *Draw* brush
      - :kbd:`X`
@@ -99,8 +98,7 @@ These shortcuts may be customized under
    * - Set brush by number
      - :kbd:`0` - :kbd:`9` and :kbd:`Shift-0` to :kbd:`Shift-9`
 
-.. list-table::
-   Brush Option Shortcuts
+.. list-table:: Brush Option Shortcuts.
 
    * - Interactively set brush size
      - :kbd:`F`
@@ -129,8 +127,7 @@ These shortcuts may be customized under
    * - Translate/scale/rotate stencil mask
      - :kbd:`Alt-RMB`, :kbd:`Alt-Shift-RMB`, :kbd:`Alt-Ctrl-RMB`
 
-.. list-table::
-   Other Shortcuts
+.. list-table:: Other Shortcuts.
 
    * - Hide mesh inside selection
      - :kbd:`H` then click & drag

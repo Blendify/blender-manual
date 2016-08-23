@@ -46,7 +46,7 @@ Smooth Shading
    | Hotkey:   :kbd:`Ctrl-F` :menuselection:`--> Shade Smooth / Shade Flat`
 
 .. list-table::
-   Same mesh smooth shaded
+   Same mesh smooth shaded.
 
    * - .. figure:: /images/meshsmooth-shading.jpg
           :width: 80px
@@ -93,7 +93,7 @@ Auto Smooth
    | Panel:    :menuselection:`Properties editor --> Object Data`
 
 .. list-table::
-   Example mesh with *Auto Smooth* enabled
+   Example mesh with *Auto Smooth* enabled.
 
    * - .. figure:: /images/meshsmooth-example-04rrautosmooth.jpg
           :width: 180px
@@ -190,7 +190,7 @@ you can smooth the mesh non-destructively with one or several of the following m
    </modeling/modifiers/generate/edge_split>` (set to *From Marked As Sharp*) before the *Subsurf* modifier.
 
 .. list-table::
-   Example mesh with *Auto Smooth* enabled
+   Example mesh with *Auto Smooth* enabled.
 
    * - .. figure:: /images/meshsmooth-example-08subsurf.jpg
           :width: 320px

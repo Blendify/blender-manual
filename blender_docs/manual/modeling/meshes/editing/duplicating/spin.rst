@@ -80,7 +80,7 @@ Angle
 
 .. _fig-mesh-spin-profile:
 
-.. list-table:: Spun profile
+.. list-table:: Spun profile.
 
    * - .. figure:: /images/spin3.jpg
           :width: 320px

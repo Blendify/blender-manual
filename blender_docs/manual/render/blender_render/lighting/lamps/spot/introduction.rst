@@ -83,7 +83,7 @@ Size
    and can be between (1.0 to 180.0).
 
    .. list-table::
-      Changing the spot *Size* option
+      Changing the spot *Size* option.
 
       * - .. figure:: /images/lighting-lamps-spot-size_45.jpg
              :width: 320px

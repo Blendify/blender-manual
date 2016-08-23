@@ -139,7 +139,7 @@ and the modifier/texture retrieves all information from the baked files.
 Baking can be advantageous for a few reasons:
 
 - It is faster to use the stored data rather than re-calculating it.
-- Allows rendering ocean data in external render engine.
+- Allows rendering ocean data in external renderers.
 - Enables more advanced foam maps.
 
 

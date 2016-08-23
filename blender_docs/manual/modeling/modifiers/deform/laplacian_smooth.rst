@@ -35,7 +35,7 @@ Repeat
       More repetitions will take longer to calculate - beware of doing so on meshes with a large number of vertices.
 
 
-   .. list-table:: With a factor of 0.5
+   .. list-table:: With a factor of 0.5 .
 
       * - .. figure:: /images/apinzonf_gsoc_2012_diagram_repeat0.jpg
              :width: 130px
@@ -184,8 +184,7 @@ Border
    while negative values will "enhance" them by transforming them in the opposite direction.
 
 
-   .. list-table::
-      with a factor of 2.5
+   .. list-table:: With a factor of 2.5 .
 
       * - .. figure:: /images/apinzonf_gsoc_2012_diagram_border0_0.jpg
              :width: 130px
@@ -208,8 +207,7 @@ Border
              Border: 10.0.
 
 
-   .. list-table::
-      with a factor of 20.0
+   .. list-table:: With a factor of 20.0 .
 
       * - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_border0_0.jpg
              :width: 130px
@@ -232,8 +230,7 @@ Border
              Border: 20.0.
 
 
-   .. list-table::
-      with a factor of -30.0
+   .. list-table:: With a factor of -30.0 .
 
       * - .. figure:: /images/modifier_laplacian-smooth_example_cup0_0.jpg
              :width: 130px

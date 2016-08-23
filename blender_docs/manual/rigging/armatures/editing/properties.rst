@@ -108,8 +108,7 @@ In *Envelope* visualization, it allows you to edit the influence of the selected
 as with the "standard" scaling with this visualization (see the previous section),
 this is a one-value property, so there is no axis locking and such.
 
-.. list-table::
-   Envelope scaling example
+.. list-table:: Envelope scaling example.
 
    * - .. figure:: /images/rigging_armatures_editing_properties_scaling-bone-radius-3.png
           :width: 320px
@@ -131,8 +130,7 @@ the "local axes" means the object's axes, here they are the bone's own axes
 the constraint is applied along the selected bone's local axis,
 not the armature object's axis).
 
-.. list-table::
-   "Bone size" scaling example
+.. list-table:: "Bone size" scaling example.
 
    * - .. figure:: /images/rigging_armatures_editing_properties_scaling-bone-size-1.png
           :width: 200px
