@@ -62,6 +62,6 @@ Custom properties can be accessed in a similar way to
 with the constraints that keys and only be strings,
 and values can only be strings, numbers, arrays and nested properties.
 
-See the API
-`documentation <https://www.blender.org/api/blender_python_api_current/info_quickstart.html#custom-properties>`__
+See the `API documentation
+<https://www.blender.org/api/blender_python_api_current/info_quickstart.html#custom-properties>`__
 for details.
