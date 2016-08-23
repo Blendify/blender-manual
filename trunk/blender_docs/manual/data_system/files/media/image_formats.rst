@@ -112,7 +112,7 @@ Commonly used depths:
 8 bit *(256 levels)*
    Most common for on-screen graphics and video
 10,12,16 bit *(1024,4096,65536 levels)*
-   Used for some formats focusing on photography and digital film formats
+   Used for some formats focusing on photography and digital films
    (such as DPX and JPEG 2000).
 16 bit half float
    Since full 32bit float is often more than enough precision,
@@ -185,7 +185,7 @@ Compression
    ``ZIP``
       standard lossless compression using Zlib.
    ``RLE``
-      Runlength encoded, lossless, works well when scanlines have same values.
+      Run-length encoded, lossless, works well when scanlines have same values.
    ``PXR24``
       lossy algorithm from Pixar, converting 32 bits floats to 24 bits floats.
 

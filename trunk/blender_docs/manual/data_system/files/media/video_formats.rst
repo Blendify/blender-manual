@@ -72,7 +72,7 @@ Video Containers
 `MPEG-4(DivX) <https://en.wikipedia.org/wiki/MPEG-4>`__: ``.mp4``, ``.mpg``, ``.mpeg``
    Absorbs many of the features of MPEG-1 and MPEG-2 and other related standards, and adds new features.
 `AVI <https://en.wikipedia.org/wiki/Audio_Video_Interleave>`__: ``.avi``
-   A derivative of the Resource Interchange File Format (RIFF), which divides a file's data into blocks, or "chunks."
+   A derivative of the Resource Interchange File Format (RIFF), which divides a file's data into blocks, or "chunks".
 `Quicktime <https://en.wikipedia.org/wiki/.mov>`__: ``.mov``
    A multi-tracked format. QuickTime and MP4 container formats can use the same MPEG-4 formats;
    they are mostly interchangeable in a QuickTime-only environment.
@@ -143,7 +143,7 @@ Audio Containers
 `AC3 <https://en.wikipedia.org/wiki/Dolby_Digital>`__
    Audio Codec 3, an audio compression technology developed by Dolby Laboratories.
 `AAC <https://en.wikipedia.org/wiki/Advanced_Audio_Coding>`__
-   Advanced Audio Codec," a standardized, lossy compression and encoding scheme for digital audio.
+   Advanced Audio Codec, a standardized, lossy compression and encoding scheme for digital audio.
 
    *AAC generally achieves better sound quality than MP3 at similar bit rates.*
 `Vorbis <https://en.wikipedia.org/wiki/Vorbis>`__
