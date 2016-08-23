@@ -107,13 +107,15 @@ Steps
    The number of segments (control points minus 1) of the hair strand.
    In between the control points the segments are interpolated. The number of control points is important:
 
-- for the softbody animation, because the control points are animated like vertices,
-  so more control points mean longer calculation times.
-- for the interactive editing, because you can only move the control points
-  (but you may recalculate the number of control points in *Particle Mode*).
+   - For the softbody animation, because the control points are animated like vertices,
+     so more control points mean longer calculation times.
+   - For the interactive editing, because you can only move the control points
+     (but you may recalculate the number of control points in *Particle Mode*).
 
-   Ten Segments should be sufficient even for very long hair,
-   five Segments are enough for shorter hair, and two or three segments should be enough for short fur.
+   .. hint:: Segments
+
+      Ten Segments should be sufficient even for very long hair,
+      five Segments are enough for shorter hair, and two or three segments should be enough for short fur.
 
 
 Children
@@ -130,7 +132,5 @@ See :doc:`Particle Visualization </physics/particles/properties/visualization>` 
 
 .. seealso::
 
-   - `Fur Tutorial <https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Furry>`__,
-     which produced The image above. It deals especially with short hair.
-   - `Blender Hair Basics <https://www.youtube.com/watch?v=kpLaxqemFU0>`__,
-     a thorough overview of all of the hair particle settings.
+   `Blender Hair Basics <https://www.youtube.com/watch?v=kpLaxqemFU0>`__,
+   a thorough overview of all of the hair particle settings.
