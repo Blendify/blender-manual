@@ -52,7 +52,7 @@ This is a special case of the *Edit Mode* as explained on the
 
 .. _fig-mesh-deform-mirror-center:
 
-.. list-table:: Mirror around the Individual Centers
+.. list-table:: Mirror around the Individual Centers.
 
    * - .. figure:: /images/mirrortool1.jpg
           :width: 320px
@@ -71,7 +71,7 @@ and the axis of transformation is X.
 
 .. _fig-mesh-deform-mirror-cursor:
 
-.. list-table:: Mirror around the 3D Cursor
+.. list-table:: Mirror around the 3D Cursor.
 
    * - .. figure:: /images/mirrortool3.jpg
           :width: 320px

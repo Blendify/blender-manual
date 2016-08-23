@@ -59,7 +59,7 @@ so that the darker parts of the image will not be changed at all
 
 .. _fig-bi-light-exposure-teapot:
 
-.. list-table:: Teapot
+.. list-table:: Utah Teapot.
 
    * - .. figure:: /images/denseteapot.jpg
           :width: 320px

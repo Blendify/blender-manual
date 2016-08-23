@@ -67,8 +67,7 @@ so you can place them to your liking. See Fig. :ref:`fig-rig-bones-extrusion`.
 
 .. _fig-rig-bones-extrusion:
 
-.. list-table::
-   Extrusion example
+.. list-table:: Extrusion example.
 
    * - .. figure:: /images/riggingboneselectexeditmodethreeboneends.png
           :width: 320px
@@ -88,8 +87,7 @@ extrusion along a global or local axis.
 
 .. _fig-rig-bone-mirror:
 
-.. list-table::
-   Mirror extrusion example
+.. list-table:: Mirror extrusion example.
 
    * - .. figure:: /images/riggingbonemirrorextrudeexeditmode1.png
           :width: 320px
@@ -231,8 +229,7 @@ If you have one root and one tip selected, the new bone:
 - will have the tip placed on the selected root
 - will be parented and connected to the bone owning the selected tip
 
-.. list-table::
-   Fill between a tip and a root
+.. list-table:: Fill between a tip and a root.
 
    * - .. figure:: /images/rigging_armatures_editing_bones_fill-joints-1.png
           :width: 320px
@@ -251,8 +248,7 @@ If you have two tips selected, the new bone:
 - will have the tip placed on the other selected tip
 - will be parented and connected to the bone owning the tip used as the new bone's root
 
-.. list-table::
-   Fill between tips
+.. list-table:: Fill between tips.
 
    * - .. figure:: /images/rigging_armatures_editing_bones_fill-joints-3.png
           :width: 320px
@@ -277,8 +273,7 @@ When clicking :kbd:`F`, similar to the previous case, you will see a new bone:
 If you try to move the new bone, Blender will update the interface and you will see that the
 new bone's root moves to the tip of the parent bone.
 
-.. list-table::
-   Fill between roots
+.. list-table:: Fill between roots.
 
    * - .. figure:: /images/rigging_armatures_editing_bones_fill-joints-5.png
           :width: 320px
@@ -294,8 +289,7 @@ new bone's root moves to the tip of the parent bone.
 Clicking :kbd:`F` with only one bone end selected will create a bone from the selected
 end to the 3D cursor position, and it will not parent it to any bone in the armature.
 
-.. list-table::
-   Fill with only one bone end selected
+.. list-table:: Fill with only one bone end selected.
 
    * - .. figure:: /images/rigging_armatures_editing_bones_fill-joints-7.png
           :width: 320px
@@ -346,8 +340,7 @@ its copy will be parented, but **not** connected to the unselected bone
 
 .. _fig-rig-bone-duplication:
 
-.. list-table::
-   Duplication example
+.. list-table:: Duplication example.
 
    * - .. figure:: /images/riggingboneselectexeditmodethreebonessixends.png
           :width: 320px
@@ -393,8 +386,7 @@ If you delete a bone in a chain, its child(ren)
 will be automatically re-parented to its own parent, but **not** connected,
 to avoid deforming the whole armature.
 
-.. list-table::
-   Deletion example.
+.. list-table:: Deletion example.
 
    * - .. figure:: /images/riggingbonedeleteexeditmode1.png
           :width: 320px
@@ -437,8 +429,7 @@ differently depending in which chain is the edited bone
 
 .. _fig-rig-bone-merge:
 
-.. list-table::
-   Merge example
+.. list-table:: Merge example.
 
    * - .. figure:: /images/riggingbonemergeexeditmode1.png
           :width: 320px
@@ -490,8 +481,7 @@ To create an arbitrary number of bones from each selected bone:
 Then specify the number of cuts you want in the pop-up. As in mesh editing,
 if you set *n* cuts, you will get *n* + 1 bones for each selected bone.
 
-.. list-table::
-   Subdivision example
+.. list-table:: Subdivision example.
 
    * - .. figure:: /images/riggingbonesubdivideexeditmode1.png
           :width: 320px

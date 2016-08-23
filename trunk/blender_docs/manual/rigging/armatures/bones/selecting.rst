@@ -94,8 +94,7 @@ inverts the selection of bones' ends, not of bones (see *Inverse selection*).
 Remember that a bone is selected only if both its ends are selected. So,
 when the selection status of bones' ends is inverted, a new set of bones is selected.
 
-.. list-table::
-   Inverse selection
+.. list-table:: Inverse selection.
 
    * - .. figure:: /images/riggingboneselectexeditmodetwobones.jpg
           :width: 320px
@@ -173,8 +172,7 @@ To understand this, look at Fig. :ref`fig-rig-bone-select-deselect`.
 
 .. _fig-rig-bone-select-deselect:
 
-.. list-table::
-   Bone deselection in a selected chain
+.. list-table:: Bone deselection in a selected chain.
 
    * - .. figure:: /images/riggingboneselectexeditmodewholechain.jpg
           :width: 320px

@@ -65,6 +65,7 @@ but make sure its manual entry is translated.
 In the manual, the English term is written first (to maintain alphabetic order)
 with the translated entry following in parenthesis, when appropriate.
 
+
 Adding Text
 ===========
 
@@ -85,6 +86,7 @@ When the manual is updated, those translations which are outdated will be marked
 To keep track with that, you can use a tool we created for that task,
 see :ref:`How to install it <translations-fuzzy-strings>`.
 
-.. seealso:: https://wiki.blender.org/index.php/Meta:Guides/Translation_Guide
+.. seealso:: 
 
+   https://wiki.blender.org/index.php/Meta:Guides/Translation_Guide
 
