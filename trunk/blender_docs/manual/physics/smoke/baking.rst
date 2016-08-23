@@ -21,7 +21,7 @@ File Format
       Blender's own caching format.
    OpenVDB
       Advanced and efficient storage method developed by
-      `DreamWorks Animation <http://www.dreamworksanimation.com/>`_
+      `DreamWorks Animation <http://www.dreamworksanimation.com/>`__.
 
       The simulation fields can be found in the ``.vdb`` files under the following names:
 

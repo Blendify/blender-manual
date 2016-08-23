@@ -20,7 +20,7 @@ and the :kbd:`LMB` (Left Mouse Button) initiates or confirms actions.
    * - :kbd:`LMB`
      - to perform an action on the selection
 
-Video: `Learn more about Blender's Mouse Button usage <https://vimeo.com/76335056>`_
+Video: `Learn more about Blender's Mouse Button usage <https://vimeo.com/76335056>`__.
 
 .. note::
 

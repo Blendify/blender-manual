@@ -15,7 +15,8 @@ In order to submit a patch, follow this process:
 
 #. Make any changes that you want
 #. Create a patch file by running:
-   ::
+
+   .. code-block:: sh
 
       svn diff > filename.diff
 
@@ -63,8 +64,8 @@ If you leave out ``-m "message"``, you will be prompted to type the message in a
 
 Do not forget to always run ``svn update`` before committing.
 
-Then you will be asked for your username (from ``developer.blender.org``) and password before the change is committed.
+Then you will be asked for your user name (from ``developer.blender.org``) and password before the change is committed.
 
 Your modified files are uploaded to the central repository for others to work with and continue collaborating.
-Commits are tracked in the repositories `Diffusion <https://developer.blender.org/diffusion/BM/>`_ .
+Commits are tracked in the repositories `Diffusion <https://developer.blender.org/diffusion/BM/>`__.
 Soon after your changes become visible in the online manual.
