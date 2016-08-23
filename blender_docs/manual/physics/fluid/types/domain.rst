@@ -35,7 +35,7 @@ Options
 
 .. figure:: /images/physics_fluid_types_domain.jpg
 
-   The fluid simulation options with Domain selected.
+   Fluid Domain Settings.
 
 
 Bake button
@@ -46,19 +46,15 @@ Resolution
       This is probably the most important setting for the simulation as it
       determines the amount of details in the fluid, the memory and disk usage as well as computational time.
 
-
       .. list-table::
 
          * - .. figure:: /images/physics_fluid_types_domain_resolution_low.jpg
-                :width: 270px
 
                 10cm mug at Resolution 70.
 
            - .. figure:: /images/physics_fluid_types_domain_resolution_high.jpg
-                :width: 270px
 
                 10cm mug at Resolution 200.
-
 
    .. note::
 
@@ -70,8 +66,8 @@ Resolution
 
    .. note:: Resolution and Real-size of the Domain
 
-      Be sure to set the resolution appropriate to the real-world size of the domain (see the *Realworld-size* in the
-      `Domain World`_).
+      Be sure to set the resolution appropriate to the real-world size of the domain
+      (see the *Realworld-size* in the `Domain World`_).
       If the domain is not cubic, the resolution will be taken for the longest side.
       The resolutions along the other sides will be reduced according to their lengths
       (therefore, a non-cubic domain will need less memory than a cubic one, resolutions being the same).
@@ -156,6 +152,33 @@ Viscosity
    (which is dynamic viscosity in Pa.s, divided by the density in kg.m\ :sup:`-3`\, unit m\ :sup:`2`\.s\ :sup:`-1`\).
    The table below gives some examples of fluids together with their dynamic and kinematic viscosities.
 
+   .. list-table::
+      Blender Viscosity Unit Conversion.
+      :header-rows: 1
+
+      * - Fluid
+        - dynamic viscosity (in cP)
+        - kinematic viscosity (Blender, in m\ :sup:`2`\.s\ :sup:`-1`\)
+      * - Water (20- C)
+        - 1.002×10\ :sup:`0` (1.002)
+        - 1.002×10\ :sup:`-6` (0.000001002)
+      * - Oil SAE 50
+        - 5.0×10\ :sup:`2` (500)
+        - 5.0×10\ :sup:`-5` (0.00005)
+      * - Honey (20- C)
+        - 1.0×10\ :sup:`4` (10,000)
+        - 2.0×10\ :sup:`-3` (0.002)
+      * - Chocolate Syrup
+        - 3.0×10\ :sup:`4` (30,000)
+        - 3.0×10\ :sup:`-3` (0.003)
+      * - Ketchup
+        - 1.0×10\ :sup:`5` (100,000)
+        - 1.0×10\ :sup:`-1` (0.1)
+      * - Melting Glass
+        - 1.0×10\ :sup:`15`
+        - 1.0×10\ :sup:`0` (1.0)
+
+
    Manual entries are specified by a floating point number and an exponent.
    These floating point and exponent entry fields (scientific notation)
    simplify entering very small or large numbers. The viscosity of water at room temperature is 1.002 cP,
@@ -169,14 +192,13 @@ Viscosity
    Simply setting the viscosity to very large values will not result in rigid body behavior,
    but might cause instabilities.
 
+   .. note:: Viscosity varies
 
-.. note:: Viscosity varies
-
-   The default values in Blender are considered typical for those types of fluids and "look right" when animated.
-   However, actual viscosity of some fluids,
-   especially sugar-laden fluids like chocolate syrup and honey, depend highly on temperature and concentration.
-   Oil viscosity varies by SAE rating.
-   Glass at room temperature is basically a solid, but glass at 1500 degrees Celsius flows (nearly) like water.
+      The default values in Blender are considered typical for those types of fluids and "look right" when animated.
+      However, actual viscosity of some fluids,
+      especially sugar-laden fluids like chocolate syrup and honey, depend highly on temperature and concentration.
+      Oil viscosity varies by SAE rating.
+      Glass at room temperature is basically a solid, but glass at 1500 degrees Celsius flows (nearly) like water.
 
 ..
    There's still some things that are not correct in this table, I think.
@@ -187,7 +209,7 @@ Viscosity
    *The density international unit is in kg.m^-3.
    Which implies that a Pascal corresponds to 1 kg.m^-1.s^-2,
    or else you cannot divide Pa.s by kg.m^-3 to obtain m^2.s^-1 !
-..
+   ::
    So if I take the kinematics values given bellow,
    and try to get the corresponding dynamic values, I have:
    *water: density: about 1000 (kg.m^-3); kinematic viscosity: 1×10^-6 (m^2.s^-1)
@@ -203,44 +225,17 @@ Viscosity
    ketchup density should be of 1×10^3 kg.m^-3 (same as water density, coherent I think),
    melting glass density should be of 1×10^12 kg.m^-3 (a thousand million times water density,
    it's more like black hole!)
-..
+  ::
    So, either the values in the tables are wrong (one way or the other),
    or the law to pass from dynamic viscosity to kinematic viscosity is just a "trick",
    an approximation, only working with fluids around water viscosity...
-..
+  ::
    Do not know, I am not a physicist, but there definitively something wrong here,
    so if someone who knows better about this matter could check and correct it, it would be nice!
    --Mont29, 2009/08
 
 
-.. list-table::
-   Blender Viscosity Unit Conversion.
-   :header-rows: 1
-
-   * - Fluid
-     - dynamic viscosity (in cP)
-     - kinematic viscosity (Blender, in m\ :sup:`2`\.s\ :sup:`-1`\)
-   * - Water (20- C)
-     - 1.002×10\ :sup:`0` (1.002)
-     - 1.002×10\ :sup:`-6` (0.000001002)
-   * - Oil SAE 50
-     - 5.0×10\ :sup:`2` (500)
-     - 5.0×10\ :sup:`-5` (0.00005)
-   * - Honey (20- C)
-     - 1.0×10\ :sup:`4` (10,000)
-     - 2.0×10\ :sup:`-3` (0.002)
-   * - Chocolate Syrup
-     - 3.0×10\ :sup:`4` (30,000)
-     - 3.0×10\ :sup:`-3` (0.003)
-   * - Ketchup
-     - 1.0×10\ :sup:`5` (100,000)
-     - 1.0×10\ :sup:`-1` (0.1)
-   * - Melting Glass
-     - 1.0×10\ :sup:`15`
-     - 1.0×10\ :sup:`0` (1.0)
-
-
-Realworld-size
+Real World Size
    Size of the domain object in the real world in meters.
    If you want to create a mug of coffee, this might be 10 cm (0.1 meters), while a swimming pool might be 10m.
    The size set here is for the longest side of the domain bounding box.
@@ -255,8 +250,8 @@ Optimization
       it might help to reduce this number (note that this will increase computation times).
 
 
-Domain Boundary
-===============
+Fluid Boundary
+==============
 
 .. figure:: /images/fluids_domain_boundary.jpg
    :width: 300px
@@ -270,12 +265,13 @@ Boundary type
    to determine the "tacky surface (Surface Adhesion)."
    In the real world, and the tackiness and fluid,
    the granularity of the object surface, tack, determined by the elasticity.
-No Slip
-   Fluid will stick To snugly (speed 0).
-Free Slip
-   Fluid will move on the object (0 normal direction of speed).
-Part Slip
-   It is a two intermediate. It is almost Noslip, 1 in the Free exactly the same in 0.
+
+   No Slip
+      Fluid will stick To snugly (speed 0).
+   Free Slip
+      Fluid will move on the object (0 normal direction of speed).
+   Part Slip
+      It is a two intermediate. It is almost No slip, 1 in the Free exactly the same in 0.
 
 Surface
    Surface Smoothing
@@ -290,11 +286,9 @@ Surface
       Be careful in combination with large smoothing values -
       this can lead to long computation times due to the surface mesh generation.
 
-   Hide fluid surface
 
-
-Domain Particles
-================
+Fluid Particles
+===============
 
 .. figure:: /images/physics_fluid_domain_particles.png
 
@@ -313,7 +307,6 @@ Generate Particles
    To use it, you have to have a surface subdivision value of at least 2.
 
 .. figure:: /images/physics_fluid_types_domain_particals.jpg
-   :width: 600px
 
    An example of the effect of particles can be seen here - the image to the left was simulated without,
    and the right one with particles and subdivision enabled.
