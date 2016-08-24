@@ -102,14 +102,14 @@ Editors are consistently organized into following parts:
 Regions
 -------
 
-At least one region of an editor is always visible. It’s called the
+At least one region of an editor is always visible. It is called the
 main region and is the most prominent part of the editor. In the
 3D View above this is marked with a green frame.
 
 Aside from that there can be more regions available. In the 3D View above
-these are the *Toolshelf* (toggle visibility with :kbd:`T`) on the
-left side and the *Properties* (toggle visibility with :kbd:`N`) on
-the right side. They’re marked with red frames. Additional regions
+these are the *Tool Shelf* (toggle visibility with :kbd:`T`) on the
+left side and the *Properties Region* (toggle visibility with :kbd:`N`) on
+the right side. They are marked with red frames. Additional regions
 mostly show context-sensitive content.
 
 Each editor has a specific purpose, so the main region and the
@@ -121,11 +121,11 @@ See specific documentation about each editor in the
    :widths: 15 85
 
    * - :kbd:`T`
-     - Toggle visibility of Toolshelf Region
+     - Toggle visibility of Tool Shelf Region.
    * - :kbd:`N`
-     - Toggle visibility of Properties Region
+     - Toggle visibility of Properties Region.
    * - :kbd:`F5`
-     - Flip the Region under the mouse pointer to the opposite side
+     - Flip the Region under the mouse pointer to the opposite side.
 
 
 Header
@@ -167,7 +167,7 @@ Tabs
 .. figure:: /images/getting_started-basics_interface_introduction_07.png
    :align: right
 
-The *Toolshelf* has been further structured
+The *Tool Shelf* has been further structured
 into a set of context sensitive vertical tabs.
 
 In the image to the right you can see the tabs: *Tools*, *Create*, etc.

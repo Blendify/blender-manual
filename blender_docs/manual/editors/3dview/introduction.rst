@@ -43,10 +43,10 @@ The mode can be changed using the menu in the 3D View header, or using the hotke
 Regions of the 3D View
 ======================
 
-Toolshelf
----------
+Tool Shelf
+----------
 
-The Toolshelf is a context-sensitive region containing tools depending on the current mode
+The Tool shelf is a context-sensitive region containing tools depending on the current mode
 (for example, modeling tools in *Edit Mode*, brush tools in *Sculpt Mode*...).
 
 For more information on specific tools available, see:

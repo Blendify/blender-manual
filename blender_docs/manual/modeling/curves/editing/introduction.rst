@@ -379,7 +379,7 @@ Converting Curve Type
 
 
 You can convert splines in a curve object between Bézier, NURBS, and Poly curves.
-Press :kbd:`T` to bring up the Toolshelf. Clicking on the *Set Spline Type*
+Press :kbd:`T` to bring up the Tool Shelf. Clicking on the *Set Spline Type*
 button will allow you to select the Spline type (Poly, Bézier or NURBS).
 
 Note, this is not a "smart" conversion, i.e. Blender does not try to keep the same shape,
