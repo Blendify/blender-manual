@@ -39,23 +39,23 @@ In the list below it shows a list of different types of node trees and where eac
 Regions of the Node Editor
 ==========================
 
-Toolshelf
----------
+Tool Shelf
+----------
 
-The *Toolshelf* is a context-sensitive region, natively containing tools for the Grease Pencil
-and buttons for adding nodes. The Toolshelf is organized using tabs.
+The *Tool Shelf* is a context-sensitive region, natively containing tools for the Grease Pencil
+and buttons for adding nodes. The Tool Shelf is organized using tabs.
 
 
 Properties Region
 -----------------
 
-The *properties region* contains properties for the current selected node as well as node editor specific settings.
+The *Properties Region* contains properties for the current selected node as well as node editor specific settings.
 
 
 Header
 ------
 
-The *header* contains various menus, buttons and options, partially based on the current node tree type.
+The *Header* contains various menus, buttons and options, partially based on the current node tree type.
 
 .. TODO - see: https://developer.blender.org/T43570
 

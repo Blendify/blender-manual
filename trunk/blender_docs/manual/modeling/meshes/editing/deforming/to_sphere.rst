@@ -21,7 +21,8 @@ Fig. :ref:`fig-mesh-deform-to-sphere-monkey` below shows the results of applying
 
    Monkey with increasing sphericity.
 
-   The sequence above shows a monkey mesh with a 0, 0.25 (25%), 0.5 (50%) and 1 (100%) To Sphere transform applied.
+   The sequence above shows a monkey mesh with a
+   0, 0.25 (25%), 0.5 (50%) and 1 (100%) To Sphere transform applied.
 
 
 Usage
@@ -38,7 +39,7 @@ menu option or by pressing :kbd:`Shift-Alt-S`. The amount of sphericity given
 to the selection can be determined interactively by moving the mouse or by typing a number
 between 0 and 1. Pressing :kbd:`Return` will confirm the transformation.
 The confirmed transformation can be further edited by pressing :kbd:`F6`
-or by going into the *Toolshelf* :kbd:`T` and altering the *Factor* slider provided
+or by going into the *Tool Shelf* and altering the *Factor* slider provided
 that no other actions take place between the *To Sphere* transform confirmation and
 accessing the slider.
 
@@ -50,6 +51,7 @@ will be smoother and more spherical when there are more mesh elements available 
 .. figure:: /images/editors_3dview_transformations-advanced-to_sphere_cubes-spherical.jpg
 
    To Sphere applied to cubes with different subdivision levels.
+
    In this image sequence, To Sphere was applied to the entire cube
    at levels of 0, 0.25 (25%), 0.5 (50%) and 1 (100%) respectively.
 

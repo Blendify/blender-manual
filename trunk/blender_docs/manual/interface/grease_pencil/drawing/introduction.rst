@@ -4,7 +4,7 @@
 Introduction
 ************
 
-- Enable the *Grease Pencil* by clicking *Draw, Line, Poly or Erase* from the Toolshelf :kbd:`T`.
+- Enable the *Grease Pencil* by clicking *Draw, Line, Poly or Erase* from the Tool Shelf :kbd:`T`.
   A new layer will be automatically added for you to draw on.
 - A new layer can be added from the Grease Pencil panel in the Properties region.
   This panel can also be used to customize the color, opacity and thickness of the pencil lines.
@@ -27,8 +27,8 @@ Introduction
 Drawing
 =======
 
-The Toolshelf provides a number of options for drawing with the *Grease Pencil* which are detailed below.
-The Toolshelf can be seen in the screenshot :ref:`fig-gp-tool-properties` above.
+The Tool Shelf provides a number of options for drawing with the *Grease Pencil* which are detailed below.
+The Tool Shelf can be seen in the screenshot :ref:`fig-gp-tool-properties` above.
 
 
 Grease Pencil Mode and Shortcut Summary
@@ -55,7 +55,7 @@ A Sketching Session allows for rapid sketching with the *Grease Pencil* when
 multiple strokes are desired. With this option set,
 a sketching session starts when a *Grease Pencil* stroke is made.
 The type of session (Draw, Line, Poly, Erase)
-is determined by the first stroke made which can be done via hotkeys or the Toolshelf.
+is determined by the first stroke made which can be done via hotkeys or the Tool Shelf.
 Use :kbd:`Esc` or :kbd:`Return` to exit the sketching session. Note that in a Erase
 Sketching Session both :kbd:`LMB` or :kbd:`RMB` can be used once the session has
 started.
