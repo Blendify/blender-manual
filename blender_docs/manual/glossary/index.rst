@@ -282,7 +282,7 @@ This page lists definitions for terms used in Blender and this manual.
 
       See also `Gamma correction <https://en.wikipedia.org/wiki/Gamma_correction>`__ on Wikipedia.
 
-Geometric Center
+   Geometric Center
       The mean average of the positions of all vertices making up the object.
 
    Gimbal
