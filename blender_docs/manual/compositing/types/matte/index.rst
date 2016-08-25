@@ -7,32 +7,41 @@
   Matte Nodes
 ##############
 
-These nodes give you the essential tools for working with blue-screen or green-screen footage,
-where live action is shot in front of a blue or green backdrop for replacement by a matte
-painting or virtual background.
+These nodes give you the essential tools for creating a :term:`Matte` for images
+that do not already have their own :term:`Alpha Channel`. One usage scenario is
+blue-screen or green-screen footage, where live action is shot in front of a
+blue or green backdrop for replacement by a matte painting or virtual background.
 
 In general, hook up these nodes to a viewer, set your UV/Image Editor to show the viewer node,
 and play with the sliders in real-time using a sample image from the footage,
 to get the settings right. In some cases,
-small adjustments can eliminate artifacts or foreground image degradation. For example,
-taking out too much green can result in foreground actors looking flat or blueish/purplish.
+small adjustments can eliminate artifacts or foreground image degradation.
+Taking out too much green can result in foreground actors looking flat or blueish/purplish.
 
 You can and should chain these nodes together,
-refining your color correction in successive refinements,
+improving your masking and color correction in successive refinements,
 using each node's strengths to operate on the previous node's output.
-There is no "one stop shopping" or one "does-it-all" node; they work best in combination.
-
-Usually, green screen is shot on a stage with consistent lighting from shot to shot,
-so the same settings will work across multiple shots of raw footage.
-Footage shot outside under varying lighting conditions (and wind blowing the background)
-will complicate matters and mandate lower falloff values.
+:doc:`Keying Node </compositing/types/matte/keying>` is the closest to a "does-it-all" node
+for green screens, but the best results stem from a combination of techniques.
 
 .. note::
 
-   Garbage matte is not a node,
-   but a technique where the foreground is outlined using a closed curve (Bézier or NURBS).
-   Only the area within the curve is processed using these matte nodes;
-   everything else is garbage and thus discarded.
+   Garbage Matte is not a node, but a technique selecting what to
+   exclude from an image. It is a :term:`Mask` used to identify content to be
+   removed from an image that cannot be removed by an automatic process like
+   chroma keying. It is used either to select specific content to be removed, or
+   it is the inverse of a rough selection of the subject; removing everything else.
+
+   Some nodes accept a garbage matte directly. For those that don't, you can
+   still apply one by subtracting the garbage matte from the matte generated
+   by the node.
+
+   Simple garbage mattes can be created with the
+   :doc:`Box Mask </compositing/types/matte/box_mask>` or
+   :doc:`Ellipse Mask </compositing/types/matte/ellipse_mask>`
+   More complicated matte shapes using
+   :doc:`Double Edge Mask </compositing/types/matte/double_edge_mask>` or
+   using a :doc:`Mask</compositing/types/input/mask>`.
 
 .. toctree::
    :maxdepth: 1
