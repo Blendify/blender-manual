@@ -59,7 +59,7 @@ Usage
 - Having at least one vector line,
   you can add other closed support profiles that will follow this vector during the extrusions (See limitations).
 - The direction of the extrusions is calculated by two determinant factors,
-  your point of view in Global Space and the position of your cursor in the 3DView Space using Global coordinates.
+  your point of view in Global Space and the position of your cursor in the 3D View using Global coordinates.
 - The profile and the vector must be fully selected in *Edit Mode* before you click the *Screw Button*
   (See Limitations.)
 - When you have the vector for the open profile and the other closed profiles selected, click the *Screw* Button.
@@ -70,8 +70,8 @@ Limitations
 
 There are strict conditions about your profile selection when you want to use this tool.
 You must have at least one open line or open profile,
-giving Blender the starting Vector for extrusion, angular vector and height. (e.g.
-a simple edge, a half circle, etc...).
+giving Blender the starting Vector for extrusion,
+angular vector and height. (e.g. a simple edge, a half circle, etc...).
 You need only to ensure that at least one reference line has two "free" ends.
 If two open Lines are given, Blender will not determine which of them is the vector,
 and will then show you an error message,
