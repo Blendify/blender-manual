@@ -282,7 +282,7 @@ This page lists definitions for terms used in Blender and this manual.
 
       See also `Gamma correction <https://en.wikipedia.org/wiki/Gamma_correction>`__ on Wikipedia.
 
-   Geometric Center
+Geometric Center
       The mean average of the positions of all vertices making up the object.
 
    Gimbal
@@ -382,6 +382,12 @@ This page lists definitions for terms used in Blender and this manual.
       When working with non-closed volumes, a manifold mesh is a mesh in which
       the normals will always define two different and non-consecutive surfaces.
       A manifold mesh will always define an even number of non-overlapped surfaces.
+
+   Matte
+   Mask
+      A grayscale image used to include or exclude parts of an image. A matte is
+      applied as an :term:`Alpha Channel`, or it is used as a mix factor when
+      applying :term:`Color Blend Modes`.
 
    Mesh
       Type of object consisting of :term:`vertices <vertex>`, :term:`edges <edge>` and :term:`faces <face>`.

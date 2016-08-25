@@ -12,8 +12,16 @@ Luminance Key Node
 The *Luminance Key* node determines background objects from foreground objects by
 the difference in the luminance (brightness) levels.
 
-For example, this is useful when compositing stock footage of explosions (very bright)
-which are normally shot against a solid, dark background.
+Stock footage of explosions, smoke or debris  are normally shot against a solid,
+dark background rather than a green screen. This node can separate the
+foreground effect from the background. It can also be used for sky replacment for
+over-exposed or gray skies that aren't suitable for chroma keying.
+
+.. tip::
+
+   When compositing footage of something that emits light and has a dark background,
+   like fire, a :doc:`Mix Node </compositing/types/color/mix>` using a *Screen* or
+   *Add* operator will produce better results.
 
 
 Inputs
@@ -36,8 +44,8 @@ Limit
 
 .. note::
 
-   It is also possible to have a separation between the two values to allow
-   for a gradient of transparency between foreground and background objects.
+   Brightness levels between the two values form a gradient of transparency
+   between foreground and background objects.
 
 
 Outputs
