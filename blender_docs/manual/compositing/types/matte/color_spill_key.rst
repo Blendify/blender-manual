@@ -55,3 +55,19 @@ Outputs
 Image
    The image with the corrected channels.
 
+
+Example
+=======
+
+Results with the nodes applied to an image from the
+`Mango Open Movie <https://mango.blender.org/>`_.
+
+.. list-table::
+
+   * - .. figure:: /images/compositing-node-keying_screen_spill.jpg
+
+          Before: green border and green reflections.
+
+     - .. figure:: /images/compositing-node-keying_screen_good.jpg
+
+          After: no unwanted geen.
