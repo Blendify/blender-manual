@@ -31,6 +31,8 @@ if "%1" == "help" (
 	echo.  readme           to create readme.html
 	echo.  pdf              to make LaTeX files, you can set PAPER=a4 or PAPER=letter
 	echo.  gettext          to make PO message catalogs
+	echo.  epub             to make an epub
+	echo.  epub3            to make an epub3
 	echo.
 	echo.Checking
 	echo.========
@@ -111,6 +113,22 @@ if "%1" == "gettext" (
 	echo.
 	echo.Build finished. The message catalogs are in %BUILDDIR%/locale.
 	goto EOF
+)
+
+if "%1" == "epub" (
+	%SPHINXBUILD% -b epub %ALLSPHINXOPTS% %BUILDDIR%/epub
+	if errorlevel 1 exit /b 1
+	echo.
+	echo.Build finished. The epub file is in %BUILDDIR%/epub.
+	goto end
+)
+
+if "%1" == "epub3" (
+	%SPHINXBUILD% -b epub3 %ALLSPHINXOPTS% %BUILDDIR%/epub3
+	if errorlevel 1 exit /b 1
+	echo.
+	echo.Build finished. The epub3 file is in %BUILDDIR%/epub3.
+	goto end
 )
 
 if "%1" == "check_links" (
