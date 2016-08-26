@@ -120,7 +120,7 @@ if "%1" == "epub" (
 	if errorlevel 1 exit /b 1
 	echo.
 	echo.Build finished. The epub file is in %BUILDDIR%/epub.
-	goto end
+	goto EOF
 )
 
 if "%1" == "epub3" (
@@ -128,7 +128,7 @@ if "%1" == "epub3" (
 	if errorlevel 1 exit /b 1
 	echo.
 	echo.Build finished. The epub3 file is in %BUILDDIR%/epub3.
-	goto end
+	goto EOF
 )
 
 if "%1" == "check_links" (
