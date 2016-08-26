@@ -34,7 +34,7 @@ Outputs
 =======
 
 BSDF
-   Standard shadder output.
+   Standard shader output.
 
 
 Examples
