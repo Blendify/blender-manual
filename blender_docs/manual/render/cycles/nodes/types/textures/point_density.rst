@@ -67,7 +67,7 @@ Color Source
          XYZ velocity mapped to RGB colors.
    Vertex Color Sources
       Vertex Color
-         Use a vertex color layer for coloring the point density texture
+         Use a vertex color layer for coloring the point density texture.
 
          .. note::
 
