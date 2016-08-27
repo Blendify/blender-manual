@@ -8,7 +8,7 @@ Adding Nodes
 
 Nodes are added in two ways to the node editor:
 
-- By using the toolshelf which has buttons for adding nodes, organized with tabs.
+- By using the Tool Shelf which has buttons for adding nodes, organized with tabs.
 - By using the :menuselection:`Add` menu :kbd:`Shift-A`.
 
 
@@ -65,8 +65,8 @@ release the :kbd:`LMB`.
 Duplicating a node
 ==================
 
-Click :kbd:`LMB` or :kbd:`RMB` on the desidered node, press :kbd:`Shift-D` and move the mouse away to see the
-duplicate of the selected node appeaing under the mouse pointer.
+Click :kbd:`LMB` or :kbd:`RMB` on the desired node, press :kbd:`Shift-D` and move the mouse away to see the
+duplicate of the selected node appearing under the mouse pointer.
 
 .. note::
 

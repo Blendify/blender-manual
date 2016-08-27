@@ -168,7 +168,7 @@ There is a subtlety regarding connected bones.
 When you have several connected bones selected, if you deselect one bone,
 its tip will be deselected, but not its root, if it is also the tip of another selected bone.
 
-To understand this, look at Fig. :ref`fig-rig-bone-select-deselect`.
+To understand this, look at Fig. :ref:`fig-rig-bone-select-deselect`.
 
 .. _fig-rig-bone-select-deselect:
 

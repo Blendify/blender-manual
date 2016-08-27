@@ -55,12 +55,12 @@ Armature Chapter Overview
 In the "Armatures" section, we will only talk about armatures themselves,
 and specifically we will talk about:
 
-- the basics of :doc:`bones </rigging/armatures/bones/index>`
-- the different :doc:`armature visualizations </rigging/armatures/visualization>`
-- the armature :doc:`structure types </rigging/armatures/structure>`
-- how to :doc:`Select Bones </rigging/armatures/bones/selecting>`,
-- how to :doc:`Edit Armatures </rigging/armatures/editing/index>`
-- how to :doc:`Edit Bones </rigging/armatures/editing/bones>`
-- how to :doc:`edit bones properties </rigging/armatures/editing/properties>`
-- how to sketch armatures with the :doc:`Etch-a-Ton tool </rigging/armatures/editing/sketching>`
-- how to use :doc:`templates </rigging/armatures/editing/templating>`
+- The basics of :doc:`bones </rigging/armatures/bones/index>`.
+- The different :doc:`armature visualizations </rigging/armatures/visualization>`.
+- The armature :doc:`structure types </rigging/armatures/structure>`.
+- How to :doc:`Select Bones </rigging/armatures/bones/selecting>`,
+- How to :doc:`Edit Armatures </rigging/armatures/editing/index>`,
+- How to :doc:`Edit Bones </rigging/armatures/editing/bones>`,
+- How to :doc:`edit bones properties </rigging/armatures/editing/properties>`,
+- How to sketch armatures with the :doc:`Etch-a-Ton tool </rigging/armatures/editing/sketching>`,
+- How to use :doc:`templates </rigging/armatures/editing/templating>`.
