@@ -7,7 +7,7 @@ Welcome to the Blender Manual!
 
 This is the manual for the 3D animation software from `Blender.org <https://www.blender.org>`__.
 
-.. only:: html and not epub
+.. only:: builder_html
 
    .. |vertical_separator| unicode:: U+02758
 
@@ -37,7 +37,7 @@ Sections
 
 .. The image ratio is: width: 350px; height: 350/4 + (2x5) ~= 98px
 
-.. only:: html and (not singlehtml)
+.. only:: builder_html and (not singlehtml)
 
    .. container:: tocdescr
 
