@@ -82,7 +82,7 @@ five Editors as shown in the image below.
 
    Blender's default Screen Layout with five Editors.
 
-   Info (1), 3D View, (2), Outliner (3), Properties (4) and Timeline (5)
+   Info (1), 3D View (2), Outliner (3), Properties (4) and Timeline (5).
 
 
 Components of an Editor
@@ -163,6 +163,10 @@ Note that you can change the order of panels by clicking
 on the handle in the upper right corner of a panel's title.
 
 See: :doc:`panels </interface/editors/panels>` for details.
+
+.. container:: lead
+
+   .. clear
 
 
 Tabs
