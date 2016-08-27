@@ -80,8 +80,9 @@ five Editors as shown in the image below.
 
 .. figure:: /images/getting_started-basics_interface_introduction_02.png
 
-   Blender's default Screen Layout with five Editors: Info (1), 3D View
-   (2), Outliner (3), Properties (4) and Timeline (5)
+   Blender's default Screen Layout with five Editors.
+
+   Info (1), 3D View, (2), Outliner (3), Properties (4) and Timeline (5)
 
 
 Components of an Editor
@@ -96,24 +97,25 @@ The image below shows the 3D View as an example of an editor.
 
    The 3D View.
 
+   Green: Main Region, red left top: Tool Shelf, red left bottom: Operator Panel, 
+   red right: Properties Region, purple: Header.
+
 Editors are consistently organized into following parts:
 
 
 Regions
 -------
 
-At least one region of an editor is always visible. It is called the
-main region and is the most prominent part of the editor. In the
-3D View above this is marked with a green frame.
+At least one region of an editor is always visible.
+It is called the main region and is the most prominent part of the editor.
 
-Aside from that there can be more regions available. In the 3D View above
-these are the *Tool Shelf* (toggle visibility with :kbd:`T`) on the
-left side and the *Properties Region* (toggle visibility with :kbd:`N`) on
-the right side. They are marked with red frames. Additional regions
-mostly show context-sensitive content.
+Aside from that there can be more regions available.
+In the 3D View these are the *Tool Shelf* on the left side and
+the *Properties Region* on the right side.
+Additional regions mostly show context-sensitive content.
 
-Each editor has a specific purpose, so the main region and the
-availability of additional regions are different between editors.
+Each editor has a specific purpose, so the main region and
+the availability of additional regions are different between editors.
 See specific documentation about each editor in the
 :doc:`Editors </editors/index>` chapter.
 
@@ -135,8 +137,6 @@ A header is a small horizontal part of an editor and sits either at the top or b
 It acts as a container for menus and commonly used tools.
 Much like additional regions the header can be hidden.
 
-The 3D View above the header is marked with a purple frame.
-
 See: :doc:`Headers </interface/editors/headers>` for details.
 
 
@@ -145,6 +145,10 @@ Panels
 
 .. figure:: /images/getting_started-basics_interface_introduction_06.png
    :align: right
+
+   Tool Self panels.
+
+   Orange: Panel Headers.
 
 The smallest organizational unit in the user interface is a panel,
 which can be collapsed to hide its contents by clicking on its header.
@@ -166,6 +170,7 @@ Tabs
 
 .. figure:: /images/getting_started-basics_interface_introduction_07.png
    :align: right
+
 
 The *Tool Shelf* has been further structured
 into a set of context sensitive vertical tabs.
