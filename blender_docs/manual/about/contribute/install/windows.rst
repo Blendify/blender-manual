@@ -53,7 +53,7 @@ Setting up the Build Environment
 
       pip install -r requirements.txt
 
-- If all goes well, you should see the following message when it is finished
+- If all goes well, you should see the following message when it is finished:
 
    .. code-block:: sh
 

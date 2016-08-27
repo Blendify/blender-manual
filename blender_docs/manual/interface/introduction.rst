@@ -61,6 +61,14 @@ which can then be named and saved for later use.
 Blender also makes heavy use of keyboard shortcuts to speed up work.
 These can also be customized in the :ref:`Keymap Editor <prefs-input-keymap-editor>`.
 
+.. tip:: Theme colors
+
+   Blender allows for most of its interface color settings to be changed to suit the needs of the user.
+   If you find that the colors you see on screen do not match those mentioned
+   in the Manual then it could be that your default theme has been altered.
+   Creating a new theme or selecting/altering a pre-existing one can be done by selecting the
+   :doc:`User Preferences </preferences/index>` editor and clicking on the *Themes* tab.
+
 
 Screen Elements
 ===============
