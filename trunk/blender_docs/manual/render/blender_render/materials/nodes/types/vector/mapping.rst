@@ -27,7 +27,7 @@ Properties
 The controls of the node have been ordered in X, Y, Z order.
 Clamping can be enabled by Min and Max.
 
-Vector type selector
+Vector type
    Type of vector that the mapping transforms.
 
    Texture

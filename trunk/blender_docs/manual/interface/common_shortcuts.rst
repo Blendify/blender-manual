@@ -41,7 +41,7 @@ While Hovering (when the cursor is held over a button).
 
   For pop-up option menus buttons, this cycles the value.
 
-.. rubric:: File Selector Icon:
+.. rubric:: File Browser:
 
 - :kbd:`LMB` - select a new file.
 - :kbd:`Shift-LMB` - open the file externally

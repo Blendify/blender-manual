@@ -54,7 +54,7 @@ Using the UV/Image Editor
 =========================
 
 The viewer node allows results to be displayed in the UV/Image Editor.
-The image is facilitated in the header by selecting *Viewer Node* in the linked image selector.
+The image is facilitated in the header by selecting *Viewer Node* in the linked *Image* data-block menu.
 The UV/Image Editor will display the image from the currently selected viewer node.
 
 To save the image being viewed,

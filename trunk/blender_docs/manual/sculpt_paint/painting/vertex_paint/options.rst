@@ -6,7 +6,7 @@ Options
 Tools
 =====
 
-The Tools Shelf, shortcut :kbd:`T` contains most of the options for vertex painting.
+The Tools Shelf contains most of the options for vertex painting.
 The following sections describe the controls in each of the available panels.
 
 .. figure:: /images/materials-vertexpaint-toolshelf-tools.jpg
@@ -18,7 +18,7 @@ Brush
 -----
 
 Brush Data-Block
-   The image, name panel and color selector at the top allows you to select brush presets,
+   The image, name panel and color widget at the top allows you to select brush presets,
    rename brushes, as well as add custom brushes, and delete them.
 Radius
    Set the radius of the brush
@@ -34,7 +34,7 @@ Blend
 
    Add
       Adds RGB values.
-      Will eventually turn the entire object white as RGB values accumulate to 1.0-1.0-1.0: Pure White.
+      Will eventually turn the entire object white as RGB values accumulate to (1.0, 1.0, 1.0): Pure White.
    Subtract
       Subtracts RGB values. Usually results in Black.
 
@@ -55,7 +55,7 @@ Blend
 Texture
 -------
 
-Use the texture selector at the bottom of the paint panel to select a pre-loaded image or
+Use the texture data-block at the bottom of the paint panel to select a pre-loaded image or
 procedural texture to use as your brush pattern. Note that in order to use it,
 you must have a placeholder material defined,
 and that particular texture defined using the Material and Texture buttons.

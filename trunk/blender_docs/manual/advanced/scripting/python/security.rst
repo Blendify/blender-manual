@@ -27,7 +27,6 @@ Auto Execution
 
 Here are the different ways blend-files may automatically run scripts.
 
-
 Registered Text-Blocks
   A text block can have its *Register* option enabled which means it will load on start.
 Animation Drivers
@@ -52,25 +51,25 @@ but you should be aware that this is the case since it is not necessarily obviou
 Controlling Script Execution
 ============================
 
-Blender provides a number of ways to control whether scripts from a blend-file are allowed to
-automatically execute.
+Blender provides a number of ways to control whether scripts
+from a blend-file are allowed to automatically execute.
 
-First of all, the file-selector has the option **Trusted Source** which you can use on a
+First of all, the File Browser has the option **Trusted Source** which you can use on a
 case-by-case basis to control auto-execution.
 
 However, you may forget to set this,
-or open a file without going through the file selector - so you can change the default
-(described next).
+or open a file without going through the File Browser --
+so you can change the default (described next).
 
 
 Setting Defaults
 ----------------
 
-In the **File** section of the user-preferences, there is the toggle **Auto-Run Python
-Scripts**.
+In the *File* tab of the User Preferences,
+there is the toggle **Auto-Run Python Scripts**.
 
-This means the **Trusted Source** option in the file-selector will be enabled by default,
-and scripts can run when blend-files are loaded without using the file selector.
+This means the **Trusted Source** option in the File Browser will be enabled by default,
+and scripts can run when blend-files are loaded without using the File Browser.
 
 Once enabled you have the option to exclude certain directories,
 a typical configuration would be to trust all paths except for the download directory.
@@ -82,15 +81,19 @@ a typical configuration would be to trust all paths except for the download dire
 Command Line
 ------------
 
-You may want to perform batch rendering or some other task from the command line - running
-Blender without an interface.
+You may want to perform batch rendering or some other task from the command line --
+running Blender without an interface.
 
-In this case, the user-preferences are still used but you may want to override them.
+In this case, the User Preferences are still used but you may want to override them.
 
 - Enable with ``-y`` or ``--enable-autoexec``
 - Disable with ``-Y`` or ``--disable-autoexec``
 
-Example - rendering an animation in background mode, allowing drivers and other scripts to run:
+
+Example
+^^^^^^^
+
+ Rendering an animation in background mode, allowing drivers and other scripts to run:
 
 .. code-block:: sh
 
@@ -99,4 +102,4 @@ Example - rendering an animation in background mode, allowing drivers and other 
 .. note::
 
    These command line arguments can be used to start a regular Blender instance and will
-   still override the user-preferences.
+   still override the User Preferences.

@@ -138,12 +138,12 @@ Release confirm
 Sculpt Overlay Color
 ====================
 
-This color selector allows the user to define a color to be used in the inner part of the
+This color button allows the user to define a color to be used in the inner part of the
 brushes circle when in sculpt mode, and it is placed as an overlay to the brush,
 representing the focal point of the brush influence.
 The overlay color is visible only when the overlay visibility is selected
 (clicking at the *eye* to set its visibility), and the transparency of the overlay is
-controlled by the alpha slider located at the brush selector panel,
+controlled by the alpha slider located at the brush pop-up,
 located at the top of the tool shelf, when in sculpt mode.
 
 

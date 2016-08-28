@@ -104,7 +104,7 @@ for example.
    Default preferences to load on startup.
 
 ``./config/bookmarks.txt``
-   File selector bookmarks.
+   File Browser bookmarks.
 
 ``./config/recent-files.txt``
    Recent file menu list.

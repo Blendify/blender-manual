@@ -21,7 +21,7 @@ Use cases include:
 - Picking new locations for existing file-paths (images, video's, fonts... etc).
 - Browsing inside other blend-files, when using :doc:`Linked Libraries </data_system/linked_libraries>`.
 
-You can also keep the file selector open, as with any other editor type.
+You can also keep the File Browser open, as with any other editor type.
 In this case the buttons to load a files is removed.
 
 The main purpose of this is to be able to drag media files.

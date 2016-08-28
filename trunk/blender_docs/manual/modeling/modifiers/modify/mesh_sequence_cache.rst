@@ -12,7 +12,7 @@ Options
 =======
 
 Cache File
-   Data-block selector to select the Alembic file.
+   Data-block menu to select the Alembic file.
 
    File Path
       Path to Alembic file.
@@ -21,7 +21,7 @@ Is sequence
    Whether or not the cache is separated in a series of files.
 
 Override Frame
-   Whether to use a cuctom frame for looking up data in the cache file,
+   Whether to use a custom frame for looking up data in the cache file,
    instead of using the current scene frame.
 
    Frame

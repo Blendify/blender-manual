@@ -8,14 +8,14 @@ Brushes Settings
 
 Press :kbd:`T` in the UV/Image Editor to show the Tool Shelf. With this panel,
 you can create many brushes, each with unique settings (such as color and width).
-Use the Brush selector to switch between brushes, or to create a new brush.
+Use the Brush data-block menu to switch between brushes, or to create a new brush.
 When you add a brush, the new brush is a clone of the current one.
 You can then change the setting for the new brush. Texture paint has an unlimited number of
 brushes and unique user-defined controls for those brushes which can be set in the Paint Tool
 panel.
 
 To use a brush, click on its name. Use the selector up/down arrow,
-if there are more brushes on the flyout menu than can be displayed at once.
+if there are more brushes on the fly-out menu than can be displayed at once.
 Name your brush by clicking on the name field and entering any name you wish,
 such as "Red Air" for a red airbrush. To toss out a brush,
 click the brush delete *X* button next to its name.
@@ -105,7 +105,7 @@ Texture
    Texture options and example.
 
 
-Use the texture selector at the bottom of the paint panel to select a pre-loaded image or
+Use the texture data-block at the bottom of the paint panel to select a pre-loaded image or
 procedural texture to use as your brush pattern. Note that in order to use it,
 you must have a placeholder material defined,
 and that particular texture defined using the Material and Texture buttons.
@@ -196,7 +196,7 @@ Changing the shape of the curve will make the brush softer or harder.
 
 .. seealso::
 
-   - Read more about using the :ref:`ui-curve-widget`.
+   Read more about using the :ref:`ui-curve-widget`.
 
 
 Paint options
