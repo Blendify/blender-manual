@@ -75,17 +75,13 @@ Additional Layouts
 As you become more experienced with Blender, consider adding some other screen layouts to suit
 your workflow as this will help increase your productivity. Some examples could include:
 
-Modeling
-   Four 3D Views (top, front, side and perspective), Properties editor for Editing.
-Lighting
-   3D Views for moving lights, UV/Image editor for displaying Render Result,
+:Modeling: Four 3D Views (top, front, side and perspective), Properties editor for Editing.
+:Lighting: 3D Views for moving lights, UV/Image editor for displaying Render Result,
    Properties editor for rendering and lamp properties and controls.
-Materials
-   Properties editor for Material settings, 3D View for selecting objects, Outliner,
+:Materials: Properties editor for Material settings, 3D View for selecting objects, Outliner,
    Library script (if used), Node Editor
    (if using :doc:`Node based materials </render/blender_render/materials/nodes/index>`).
-Painting
-   UV/Image Editor for texture painting image,
+:Painting: UV/Image Editor for texture painting image,
    3D View for painting directly on object in UV Face Select mode,
    three mini-3D Views down the side that have background
    reference pictures set to full strength, Properties editor.
