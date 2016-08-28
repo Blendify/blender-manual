@@ -18,6 +18,6 @@ Actuator type menu
    Specifies the type of the sensor.
 Actuator name
    The name of the actuator. This can be selected by the user.
-   It is used to access actuators with python; it needs to be unique among the selected objects.
-:kbd:`X` *Button*
+   It is used to access actuators with Python; it needs to be unique among the selected objects.
+``X`` *Button*
    Deletes the actuator.

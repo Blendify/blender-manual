@@ -41,6 +41,6 @@ Start Game From File
 .. note::
 
    If you use the keyboard sensor as a hook for :kbd:`Esc`,
-   in the event that the quit game actuator fails, such as an error in a python file,
+   in the event that the quit game actuator fails, such as an error in a Python file,
    the game will be unable to close. Data may be recovered from ``quit.blend``
    :menuselection:`File --> Recover Last Session`

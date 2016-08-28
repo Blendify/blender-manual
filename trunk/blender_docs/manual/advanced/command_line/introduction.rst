@@ -103,20 +103,20 @@ also originate internally from within the Blender code or from external sources 
 Common Messages
 ---------------
 
-- found bundled python: (FOLDER)
+- ``found bundled python: (FOLDER)``
 
-   This message indicates that Blender was able to find the :ref:`Python <scripting-index>`
-   library for the Python interpreter embedded within Blender.
-   If this folder is missing or unable to be found,
-   it is likely that an error will occur, and this message will not appear.
+  This message indicates that Blender was able to find the :ref:`Python <scripting-index>`
+  library for the Python interpreter embedded within Blender.
+  If this folder is missing or unable to be found,
+  it is likely that an error will occur, and this message will not appear.
 
-- malloc returns nil()
+- ``malloc returns nil``
 
-   When Blender carries out operations that require extra memory (RAM), it calls a function called malloc
-   (short for memory allocate) which tries to allocate a requested amount of memory for Blender.
-   If this cannot be satisfied, malloc will return nil/null/0 to indicate that it failed to carry out the request.
-   If this happens Blender will not be able to carry out the operation requested by the user.
-   This will most likely result in Blender operating very slowly or shutting down.
-   If you want to avoid running out of memory you can install more memory in your system,
-   reduce the amount of detail in your Blender models,
-   or shut down other programs and services which may be taking up memory that Blender could use.
+  When Blender carries out operations that require extra memory (RAM), it calls a function called malloc
+  (short for memory allocate) which tries to allocate a requested amount of memory for Blender.
+  If this cannot be satisfied, malloc will return nil/null/0 to indicate that it failed to carry out the request.
+  If this happens Blender will not be able to carry out the operation requested by the user.
+  This will most likely result in Blender operating very slowly or shutting down.
+  If you want to avoid running out of memory you can install more memory in your system,
+  reduce the amount of detail in your Blender models,
+  or shut down other programs and services which may be taking up memory that Blender could use.

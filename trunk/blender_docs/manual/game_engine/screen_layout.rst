@@ -58,7 +58,7 @@ Show framerate and profile
 Show Physics visualization
    Show a vizualisation of physics bounds and interactions.
 Deprecation warnings
-   Print warnings when using deprecated features in the python API.
+   Print warnings when using deprecated features in the Python API.
 Record animation
    Record animation to F-Curves.
 Auto Start
