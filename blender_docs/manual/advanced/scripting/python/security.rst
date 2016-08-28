@@ -93,7 +93,7 @@ In this case, the User Preferences are still used but you may want to override t
 Example
 ^^^^^^^
 
- Rendering an animation in background mode, allowing drivers and other scripts to run:
+Rendering an animation in background mode, allowing drivers and other scripts to run:
 
 .. code-block:: sh
 

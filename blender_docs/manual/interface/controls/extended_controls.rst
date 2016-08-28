@@ -21,15 +21,17 @@ When the list is sufficiently narrowed, :kbd:`LMB` on the desired command or nav
 with :kbd:`Down` and :kbd:`Up`, activate it by pressing :kbd:`Return`.
 
 
+.. container:: lead
+
+   .. clear
+
 .. _ui-color-picker:
 
 Color Picker
 ============
 
 All of the color picker types have the common RGB, HSV and Hex options to show values.
-
 Blender uses (0 to 1.0) values to express colors for RGB and HSV values.
-
 Some colors also define an alpha value A, below the color sliders.
 
 .. note:: Blender corrects Gamma by default
@@ -95,14 +97,14 @@ and useful to quickly copy/paste colors between applications.
 Shorthand hex colors are also supported RGB,
 so dark-yellow FFCC00, can be written as FC0.
 
+
 .. _ui-eye-dropper:
 
 Eyedropper
 ==========
 
 The eyedropper allows you to sample from anywhere in the Blender window.
-
-The eyedropper can be used to select different kinds of data.
+The eyedropper can be used to select different kinds of data:
 
 Color
    This is the most common usage.
@@ -133,13 +135,13 @@ The interval from each of the color-stops added to the ramp is a result of the c
 chosen interpolation method. The available options for Color Ramps are:
 
 
-Add (``+`` Button)
+Add ``+``
    Clicking on this button will add a stop to your custom weight paint map.
    The stops are added from the last selected stop to the next one, from left to right and
    they will be placed in the middle of both stops.
-Delete (``-`` Button)
+Delete ``-``
    Deletes the selected color-stop from the list.
-Flip (``<->`` Button)
+Flip ``<->``
    Flips the color band, inverting the values of the custom weight paint range.
 Color Mode
    Selection of the :term:`color space` used for interpolation.
@@ -150,7 +152,6 @@ Color Mode
       Blends colors by first converting to HSV or HSL, mixing, then combining again.
       This has the advantage of maintaining saturation between different hues,
       where RGB would de-saturate, this allows for a richer gradient.
-
 Interpolation Options
    Enables the user to choose the types of calculations for the color interpolation for each color stop.
 
@@ -164,16 +165,14 @@ Interpolation Options
       Uses a *Ease* Interpolation for the color stops.
    Constant
       Uses a *Constant* Interpolation for the color stops.
-
-Numeric Field
+Active Color Stop
    Index of the active color-stop (shown as a dashed line).
-
    Allows you to change the active color when colors may be too close to easily select with the cursor.
 Position
    This slider controls the positioning of the selected color stop in the range.
-Color Bar
+Color Button
    Opens a color picker for the user to specify color and Alpha for the selected color stop.
-   When a color is using Alpha, the Color Bar is then divided in two, with the left side
+   When a color is using Alpha, the Color button is then divided in two, with the left side
    showing the base color and the right side showing the color with the alpha value.
 
 
@@ -193,14 +192,6 @@ Curve Widget
    :align: right
 
    Curve Widget.
-
-
-The *Curve Widget* is found in several places throughout Blender, such as:
-
-- RGB Curves node
-- Vector Curves node
-- Paint/Sculpt brush falloff
-- Color Management curves
 
 The purpose of the *Curve Widget* is to allow the user to modify an input
 (such as an image) in an intuitive manner by
@@ -222,7 +213,7 @@ To move a control point
 To add a new control point
    Click anywhere on the curve where there is not already a control point.
 To remove a control point
-   select it and click the ``X`` button at the top right.
+   Select it and click the ``X`` button at the top right.
 
 
 Controls
@@ -233,7 +224,6 @@ Above the curve graph is a row of controls. These are:
 Zoom In
    Zoom into the center of the graph to show more details and provide more accurate control.
    To navigate around the curve while zoomed in, click and drag in an empty part of the graph.
-
 Zoom Out
    Zoom out of the graph to show fewer details and view the graph as a whole.
    You cannot zoom out further than the clipping borders (see *Clipping* below).
