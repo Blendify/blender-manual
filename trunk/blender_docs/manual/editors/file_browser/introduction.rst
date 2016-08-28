@@ -77,10 +77,10 @@ Arrow Keys Navigation
 
 It is also possible to select/deselect files by "walking" through them using the arrow keys.
 
-- Just using an arrow key, the next file in the chosen direction will be selected and all others deselected
-- Holding down shift while doing this does not deselect anything so it extends to the selection,
-  plus it allows to deselect files by navigating into a block of already selected ones (minimum two files in sequence)
-- Holding down ctrl and shift further selects/deselects all files in-between
+- Just using an arrow key, the next file in the chosen direction will be selected and all others deselected.
+- Holding down :kbd:`Shift` while doing this does not deselect anything so it extends to the selection,
+  plus it allows to deselect files by navigating into a block of already selected ones (minimum two files in sequence).
+- Holding down :kbd:`Ctrl-Shift` further selects/deselects all files in-between
 
 If no file is selected, the arrow key navigation selects the first or last file in the directory,
 depending on the arrow direction.
@@ -107,13 +107,14 @@ Tool Shelf
 The left region displays different ways to find files and several options.
 
 System
-   The system menu contains a list of drives that are available to navigate through to find
-   files. Click on one to jump to that drive.
+   The system menu contains a list of drives that are available
+   to navigate through to find files. Click on one to jump to that drive.
 System Bookmarks
    Bookmarks that are common for a particular operating system.
 Bookmarks
-   These are folders that you want to be able to access often without having to navigate to them
-   in the file browser. To add a directory to the bookmark menu, navigate to that folder,
+   These are folders that you want to be able to access often without 
+   having to navigate to them in the file browser. 
+   To add a directory to the bookmark menu, navigate to that folder,
    then click the *Add* button.
    To remove a folder from the list, simply click the *X* icon next to it.
 Recent
@@ -128,10 +129,14 @@ Header
 Navigation buttons
    Tools for navigation of files. The four arrow icons allow you to:
 
-   - Move to previous folder
-   - Move to next folder
-   - Move up to parent directory
-   - Refresh current folder
+   Left Arrow
+      Move to previous folder.
+   Right Arrow
+      Move to next folder.
+   Up Arrow
+      Move up to parent directory.
+   Cycle Arrows
+      Refresh current folder.
 
 Create Directory
    Prompts you to enter the name of a newly created directory (:kbd:`I`).
@@ -146,11 +151,13 @@ Recursion
 Display type
    Controls how files are displayed. The available options are:
 
-   - Display files as a short list
-   - Display files as a detailed list
-   - Display files as thumbnails (show :doc:`previews </editors/file_browser/previews>`)
+   - Short list
+   - Detailed list
+   - Thumbnails (show :doc:`previews </editors/file_browser/previews>`)
 Display size
    The size of thumbnails or the width of columns.
+
+   Tiny, small, normal, large
 Sorting
    Sorts files by on of the following methods:
 

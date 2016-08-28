@@ -15,13 +15,13 @@ your Blender window should look something similar to the image below:
 Every window you see can be further broken down into separate areas
 (as described in the section on
 :doc:`arranging areas </interface/editors/arranging_areas>`).
-The default scene is described below.
+The default screen is described below.
 
 
 The default screen
 ==================
 
-The default scene is separated into five areas and is loaded each time you start Blender or a new file.
+The default screen is separated into five areas and is loaded each time you start Blender or a new file.
 These five areas are:
 
 - The Info Editor at the top.

@@ -32,6 +32,8 @@ and the lower text box contains the selected filename.
 Options
 =======
 
+.. _file-load-ui:
+
 Load UI
    Inside each blend-file, Blender saves the user interface arrangement.
    By default, this saved UI is loaded, overriding any user defaults or current screen layouts that you have.

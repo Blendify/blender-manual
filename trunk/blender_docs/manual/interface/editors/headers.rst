@@ -44,7 +44,7 @@ Scrolling and Header Position
 =============================
 
 The Header can be scrolled horizontally by dragging it with the :kbd:`MMB` or
-by scrolling with the :kbd:`Wheel`, while the mouse hovers over it.
+by using the :kbd:`Wheel`, while the mouse hovers over it.
 
 To move a header from top to bottom or the other way round,
 simply :kbd:`RMB` on it and select the appropriate item from the pop-up menu.
