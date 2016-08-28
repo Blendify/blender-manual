@@ -20,8 +20,8 @@ The Screen data-block menu, that lets you select the layouts,
 is located in the *Info Editors* header.
 
 
-Options
-=======
+Controls
+========
 
 Screen Layout
    A list of available Screen layouts. See `Default Screens`_.
