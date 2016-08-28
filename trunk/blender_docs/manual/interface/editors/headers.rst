@@ -40,8 +40,8 @@ the header will reappear.
    not a second header.
 
 
-Scrolling and Header Position
-=============================
+Scrolling and Position
+======================
 
 The Header can be scrolled horizontally by dragging it with the :kbd:`MMB` or
 by using the :kbd:`Wheel`, while the mouse hovers over it.
