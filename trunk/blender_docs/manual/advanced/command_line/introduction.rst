@@ -110,7 +110,7 @@ Common Messages
   If this folder is missing or unable to be found,
   it is likely that an error will occur, and this message will not appear.
 
-- ``malloc returns nil``
+- ``malloc returns nil()``
 
   When Blender carries out operations that require extra memory (RAM), it calls a function called malloc
   (short for memory allocate) which tries to allocate a requested amount of memory for Blender.
