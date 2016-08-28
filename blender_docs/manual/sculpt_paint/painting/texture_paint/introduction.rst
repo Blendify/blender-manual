@@ -47,7 +47,7 @@ you can begin the texturing process.
 You cannot paint on a mesh in Texture Paint Mode without **first** unwrapping your mesh,
 **and** doing one of the following steps. Either:
 
-See: :doc:`Applyin Image </editors/uv_image/uv_editing/applying_image>`.
+See: :doc:`Applying Image </editors/uv_image/uv_editing/applying_image>`.
 
 After you have done one of these two things,
 you can modify the image using the Texture Paint Mode:
@@ -63,7 +63,7 @@ you can modify the image using the Texture Paint Mode:
 - In the UV/Image Editor, switch the mode from View to Paint (shown to the right).
 
 
-.. note:: Square Power of 2
+.. note:: Square Power of Two
 
    Texture paint is very fast and responsive when working in the 3D View and when your image is sized as a
    square where the side lengths are a power of two, e.g. 256×256, 512×512, 1024×1024, etc.
@@ -73,7 +73,7 @@ Once you enable Texture Painting, your mouse becomes a brush. To work with the U
 (for example, to move coordinates) you must go back to "View" mode.
 
 As soon as you enable Texture Painting or switch to Texture Paint Mode,
-brush settings become available in the Tool Shelf :kbd:`T`.
+brush settings become available in the Tool Shelf.
 
 In the UV/Image Editor,
 you paint on a flat canvas that is wrapped around the mesh using UV coordinates.

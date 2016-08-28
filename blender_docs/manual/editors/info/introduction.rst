@@ -15,16 +15,18 @@ Header
    Info Editor header.
 
    Editor Type Selector(red), Menus (blue),
-   Screen Selector (green), Scene Selector (orange), Engine Selector (purple),
+   Screen Data-block (green), Scene Data-block (orange), Engine Selector (purple),
    Resource Information (aqua).
 
 Editor Type Selector
    Allows you to change the :doc:`Editor Type </editors/index>`.
 Menus
    Provides access to the main menu options.
-Screen Selector
+Back to Previous
+   Shown when an area is maximized to return to tiled areas.
+Screen Data-block
    Used to select and edit window layouts. See :doc:`Screens </interface/editors/screens>`.
-Scene Selector
+Scene Data-block
    Allows you to select different :doc:`Scenes </data_system/scenes>`.
    Having multiple Scenes allows you to work with separate virtual environments,
    with completely separate data, or with objects and/or mesh data linked between them.

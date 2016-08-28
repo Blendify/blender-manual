@@ -10,7 +10,7 @@ Options
 =======
 
 Cache File
-   Data-block selector to select the Alembic file.
+   Data-block menu to select the Alembic file.
 
    File Path
       Path to Alembic file.

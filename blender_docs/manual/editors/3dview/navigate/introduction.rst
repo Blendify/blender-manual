@@ -140,7 +140,7 @@ Manipulator Selector
    (clicking with your mouse) their controls and moving your mouse in the axis.
 
    :doc:`Read more about Transform Manipulators </editors/3dview/transform/transform_control/manipulators>`
-Layer Selector
+Layer Widget
    Layers are well documented in the :doc:`Layers page </editors/3dview/layers>`.
 
 Lock to Scene

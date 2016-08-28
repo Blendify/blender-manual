@@ -18,7 +18,7 @@ Every window you see can be further broken down into separate areas
 The default screen is described below.
 
 
-The default screen
+The Default Screen
 ==================
 
 The default screen is separated into five areas and is loaded each time you start Blender or a new file.

@@ -71,26 +71,26 @@ User Defined Add-on Path
 ========================
 
 You can also create a personal directory containing new add-ons and configure your files path in
-the *File* panel of the *User Preferences*.
+the *File* tab of the *User Preferences*.
 To create a personal script directory:
 
-- Create an empty directory in a loction of your choice (i.e. ``my_scripts``)
+- Create an empty directory in a loction of your choice (i.e. ``my_scripts``).
 - Add a subdirectory under ``my_scripts`` called ``addons``
-  *(it must have this name for Blender to recognize it)*.
-- open the *File* panel of the *User Preferences*.
-- Set the *Scripts* in the user-preferences to point to your script directory (i.e. ``my_scripts``).
-- Save the user-preferences and restart Blender for it to recognize the new add-ons location.
+  (it *must* have this name for Blender to recognize it).
+- Open the *File* tab of the *User Preferences*.
+- Set the *Scripts* in the User Preferences to point to your script directory (i.e. ``my_scripts``).
+- Save the User Preferences and restart Blender for it to recognize the new add-ons location.
 
 .. tip::
 
    Now when you install add-ons you can select the *Target Path* option to *User Pref*
-   (from the file selector options panel).
+   (from the File Browser options panel).
 
-   Blender will copy newly installed add-ons under the directory selected in your user-preferences.
+   Blender will copy newly installed add-ons under the directory selected in your User Preferences.
 
 
 Development Guidelines
 ======================
 
 If you are a script developer, you may be interested in the
-`Add-ons development guidelines <https://wiki.blender.org/index.php/Dev:Py/Scripts/Guidelines/Addons>`__
+`Add-ons development guidelines <https://wiki.blender.org/index.php/Dev:Py/Scripts/Guidelines/Addons>`__.
