@@ -239,11 +239,6 @@ Zoom Out
    You cannot zoom out further than the clipping borders (see *Clipping* below).
 
 Tools
-   .. figure:: /images/interface_controls_curve_tools.png
-      :align: right
-
-      Tools for Curves.
-
    Reset View
       Resets the view of the curve.
    Vector Handle
