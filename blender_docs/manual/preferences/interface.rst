@@ -16,7 +16,7 @@ Tooltips
    This tip explains the function of what is under the pointer,
    gives the associated hotkey (if any) and the Python function that refers to it.
 Python Tooltips
-   Displays a property's python information below the tooltip.
+   Displays a property's Python information below the tooltip.
 Object Info
    Display the active Object name and frame number at the bottom left of the 3D View.
 Large Cursors

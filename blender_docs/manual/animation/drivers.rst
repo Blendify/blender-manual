@@ -55,17 +55,13 @@ Type
 
    Average Value
       Uses the average value of the referenced Driver Variables.
-
    Sum Values
       Uses the sum of the referenced Driver Variables.
-
    Scripted Expression
       Uses a Scripted Expression. See Expr.
-      You must write a python expression which performs your own calculations on the Driver Variables.
-
+      You must write a Python expression which performs your own calculations on the Driver Variables.
    Minimum Value
       Uses the lowest value from the referenced Driver Variables.
-
    Maximum Value
       Uses the highest value from the referenced Driver Variables.
 
@@ -255,7 +251,7 @@ Driver Namespace
 ^^^^^^^^^^^^^^^^
 
 There is a list of built-in driver functions and properties.
-These can be displayed via the python console.
+These can be displayed via the Python Console.
 
 ::
 
@@ -398,7 +394,7 @@ Scripted Expression
    Info Header.
 
 
-By default Blender will not autorun python scripts.
+By default Blender will not autorun Python scripts.
 
 If using a *Scripted Expression* Driver Type, you will have to open the file as *Trusted Source*,
 or set *Auto Run Python Scripts* in :menuselection:`User Preferences --> File --> Auto Execution`.

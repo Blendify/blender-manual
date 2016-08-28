@@ -164,7 +164,7 @@ Framerate and Profile
 Physics Visualization
    Show physics bounds and interactions while game runs (available in both Blender and standalone versions).
 Deprecation Warnings
-   Print warnings when using deprecated features in the python API.
+   Print warnings when using deprecated features in the Python API.
    Only available when game is run within Blender -- not in standalone player version.
 Mouse Cursor
    Show mouse cursor while game runs (available in both Blender and standalone versions).

@@ -43,7 +43,7 @@ Active Keying Set properties
       A short description of the keying set.
 
    Export to File
-      Export Keying Set to a python script *File.py*.
+      Export Keying Set to a Python script *File.py*.
       To re-add the keying set from the *File.py*, open then run the *File.py* from the Text Editor.
 
    Keyframing Settings

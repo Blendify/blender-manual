@@ -304,7 +304,7 @@ You can also do it manually by calling the ``refresh
 
 Here are some possible advanced work flow:
 
-- Use the image buffer in python (does not effect the Texture):
+- Use the image buffer in Python (does not effect the Texture):
 
 .. code-block:: python
 
