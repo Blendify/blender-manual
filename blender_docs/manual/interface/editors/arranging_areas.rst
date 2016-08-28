@@ -1,50 +1,47 @@
 
-***************
-Arranging Areas
-***************
+*****
+Areas
+*****
+
+The application window is always a rectangle on your desktop.
+It is divided up into a number of re-sizable areas.
+An area contains the workspace for a particular type of editor,
+like a 3D View Editor, or an Outliner.
+
+
+Arranging
+=========
 
 Blender uses a novel screen-splitting approach to arrange areas.
-The application window is always a rectangle on your desktop.
-It divides it up into a number of re-sizable areas.
-An area contains the workspace for a particular type of editor, like a 3D View Editor,
-or an Outliner Editor.
 The idea is that you split up that big application window into any number of smaller
 (but still rectangular) non-overlapping area. That way,
 each area is always fully visible,
 and it is very easy to work in one area and hop over to work in another.
 
 
-Maximizing an Area
-==================
+Changing the Size
+-----------------
 
-You can maximize an area to fill the whole application window with
-:menuselection:`View --> Toggle Full Screen` menu entry.
-To return to normal size,
-use again :menuselection:`View --> Toggle Full Screen`.
-A quicker way to achieve this is to use :kbd:`Shift-Spacebar`,
-:kbd:`Ctrl-Down` or :kbd:`Ctrl-Up` to toggle between maximized and normal areas.
-
-.. note::
-
-   The area your mouse is currently hovering over is the one that will be maximized using
-   the keyboard shortcuts.
+You can resize areas by dragging their borders with :kbd:`LMB`.
+Simply move your mouse cursor over the border between two areas,
+until it changes to a double-headed arrow, and then click and drag.
 
 
-Splitting an Area
-=================
+Splitting
+---------
 
 .. figure:: /images/interface-window_system-arranging_areas-split_widget.jpg
 
 
 In the upper right and lower left corners of a area are the area splitter widgets,
 and they look like a little ridged thumb grip. It both splits and combines areas.
-When you hover over it, your cursor will change to a cross.
+When you hover over it, your cursor will change to a cross (✛).
 :kbd:`LMB` and drag it to the left to split the area vertically,
 or downward to split it horizontally.
 
 
-Joining Two Areas
-=================
+Joining
+-------
 
 In order to merge two areas,
 they must be the same dimension in the direction you wish to merge. For example,
@@ -75,16 +72,8 @@ In the same way, windows may be merged left to right or vice versa.
 If you press :kbd:`Esc` before releasing the mouse, the operation will be aborted.
 
 
-Changing Area Size
-==================
-
-You can resize areas by dragging their borders with :kbd:`LMB`.
-Simply move your mouse cursor over the border between two areas
-until it changes to a double-headed arrow, and then click and drag.
-
-
 Swapping Contents
-=================
+-----------------
 
 You can swap the contents between two areas with :kbd:`Ctrl-LMB`
 on one of the splitters of the initial area, dragging towards the target area,
@@ -92,18 +81,39 @@ and releasing the mouse there. The two areas do not need to be side by side,
 though they must be inside the same window.
 
 
+Maximizing
+==========
+
+The maximized area fill the whole application window.
+It contains the Info Editor and the select area.
+
+You can maximize an area with the
+:menuselection:`View --> Toggle Full Screen` menu entry.
+To return to normal size,
+use again :menuselection:`View --> Toggle Full Screen`.
+Or :kbd:`RMB` on the editors header and select *Maximize Area* and
+*Tiled Area* to return.
+In the Info Editor header the *Back to Previous* button on the right of the menus
+also returns to tiled areas.
+
+A quicker way to achieve this is to use the shortcuts: :kbd:`Shift-Spacebar`,
+:kbd:`Ctrl-Down` or :kbd:`Ctrl-Up` to toggle between maximized and normal areas.
+
+.. note::
+
+   The area your mouse is currently hovering over is the one that will be maximized using
+   the keyboard shortcuts.
+
+
 Opening New Windows
 ===================
 
-You may wish to have a new window. This can be useful, for instance,
-if you have multiple monitors and want them to show different information on the same instance of Blender.
+The new window is a fully functional window, which is part of the same instance of Blender.
+This can be useful, i.e. if you have multiple monitors.
 
 A new window can be created from :menuselection:`View --> Duplicate Area into new Window`.
 
 You can also create a new window from an existing area by :kbd:`Shift-LMB`
 on the area splitter icon, then drag slightly.
 
-Once the new window has opened, you can move it to the other monitor
-(or leave it in the current one); you can resize it (or keep it unchanged);
-you can also arrange its contents in the same way discussed so far
-(split and resize areas, and tune them as needed), and so on.
+The window can be closed with the OS *Close Window* button.
