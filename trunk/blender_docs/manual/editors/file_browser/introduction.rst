@@ -80,7 +80,7 @@ It is also possible to select/deselect files by "walking" through them using the
 - Just using an arrow key, the next file in the chosen direction will be selected and all others deselected.
 - Holding down :kbd:`Shift` while doing this does not deselect anything so it extends to the selection,
   plus it allows to deselect files by navigating into a block of already selected ones (minimum two files in sequence).
-- Holding down :kbd:`Ctrl-Shift` further selects/deselects all files in-between
+- Holding down :kbd:`Ctrl-Shift` further deselects/selects all files in-between.
 
 If no file is selected, the arrow key navigation selects the first or last file in the directory,
 depending on the arrow direction.
@@ -126,8 +126,8 @@ Recent
 Header
 ------
 
-Navigation buttons
-   Tools for navigation of files. The four arrow icons allow you to:
+Navigation icon buttons
+   Tools for navigation of files.
 
    Left Arrow
       Move to previous folder.
@@ -141,7 +141,7 @@ Navigation buttons
 Create Directory
    Prompts you to enter the name of a newly created directory (:kbd:`I`).
 Recursion
-   The number of directory levels to show at once. The available options are:
+   The number of directory levels to show at once.
 
    - None (only the current directory)
    - One level
@@ -149,7 +149,7 @@ Recursion
    - Three levels
 
 Display type
-   Controls how files are displayed. The available options are:
+   Controls how files are displayed.
 
    - Short list
    - Detailed list
@@ -168,7 +168,7 @@ Sorting
 Show hidden
    Shows files that start with ``.``
 File filtering
-   Filters files by type. The available options are:
+   Filters files by type.
 
    - Folders
    - blend-files
