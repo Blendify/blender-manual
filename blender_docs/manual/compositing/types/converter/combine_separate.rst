@@ -77,8 +77,7 @@ Use this node setup, when adding CG elements to live action to remove any hard e
 Animating this effect on a broader scale will make the object appear to "phase" in and out,
 as an "out-of-phase" time-traveling sync effect.
 
-.. figure:: /images/compositing-covert-combinergba2.jpg
-   :width: 200px
+.. figure:: /images/compositing_nodes_converter_combine-separate_rgba-example-2.jpg
 
 
 In this node set up, we make all the reds become green,

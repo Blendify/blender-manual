@@ -60,8 +60,7 @@ Material Index "IndexMa" render pass has to be enabled.
 Example
 =======
 
-.. figure:: /images/compositing-node-idmask_ex.jpg
-   :width: 300px
+.. figure:: /images/compositing_nodes_converter_id-mask_example.png
 
    Example.
 
