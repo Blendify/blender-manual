@@ -12,8 +12,7 @@ Lighting Groups
 Materials
 ---------
 
-.. figure:: /images/lighting-light_gr-mat.jpg
-   :width: 317px
+.. figure:: /images/render_blender-render_lighting_lights_in-other-contexts_materials.png
 
    Light Group options for Materials.
 
@@ -32,8 +31,7 @@ lights in the specified group will *only* affect objects with this material.
 Render Layers
 -------------
 
-.. figure:: /images/lighting-light_gr-renlay.jpg
-   :width: 317px
+.. figure:: /images/render_blender-render_lighting_lights_in-other-contexts_render-layers.png
 
    Light Group options for Render Layers.
 
