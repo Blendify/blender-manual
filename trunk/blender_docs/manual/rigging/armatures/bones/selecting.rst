@@ -96,7 +96,7 @@ when the selection status of bones' ends is inverted, a new set of bones is sele
 
 .. list-table:: Inverse selection.
 
-   * - .. figure:: /images/riggingboneselectexeditmodetwobones.jpg
+   * - .. figure:: /images/rigging_armatures_bones_selecting_two-selected-bones.png
           :width: 320px
 
           Two bones selected.
@@ -179,7 +179,7 @@ To understand this, look at Fig. :ref:`fig-rig-bone-select-deselect`.
 
           A selected chain.
 
-     - .. figure:: /images/riggingboneselectexeditmodetwobones.jpg
+     - .. figure:: /images/rigging_armatures_bones_selecting_two-selected-bones.png
           :width: 320px
 
           Two selected bones.

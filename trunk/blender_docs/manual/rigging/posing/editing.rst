@@ -7,7 +7,6 @@ Editing Poses
 *************
 
 .. figure:: /images/rigging-posetools.png
-   :width: 150px
    :align: right
 
    Pose Tools.
@@ -185,38 +184,38 @@ Here are important points:
 
 .. list-table::
 
-   * - .. figure:: /images/riggingposingcopyposeexrestarmaorg.jpg
+   * - .. figure:: /images/rigging_posing_editing_copy-paste-pose-examples-1.png
 
           The rest position of our original armature.
 
-     - .. figure:: /images/riggingposingcopyposeexrestarmadest.jpg
+     - .. figure:: /images/rigging_posing_editing_copy-paste-pose-examples-2.png
 
           The rest position of our destination armature.
 
 .. list-table::
    Examples of pose copy/paste.
 
-   * - .. figure:: /images/riggingposingcopyposeexpose1armaorg.jpg
+   * - .. figure:: /images/rigging_posing_editing_copy-paste-pose-examples-3.png
 
-          The first copied pose (note that only forearm and finger2_a are selected and hence copied).
+          The first copied pose (note that only two bones are selected and hence copied).
 
-     - .. figure:: /images/riggingposingcopyposeexpastedpose1armadest.jpg
+     - .. figure:: /images/rigging_posing_editing_copy-paste-pose-examples-4.png
 
           ...pasted on the destination armature...
 
-     - .. figure:: /images/riggingposingcopyposeexpastedmirrpose1armadest.jpg
+     - .. figure:: /images/rigging_posing_editing_copy-paste-pose-examples-5.png
 
           ...and mirror-pasted on the destination armature.
 
-   * - .. figure:: /images/riggingposingcopyposeexpose2armaorg.jpg
+   * - .. figure:: /images/rigging_posing_editing_copy-paste-pose-examples-6.png
 
           The same pose as above is copied, but this time with all bones selected, ...
 
-     - .. figure:: /images/riggingposingcopyposeexpastedpose2armadest.jpg
+     - .. figure:: /images/rigging_posing_editing_copy-paste-pose-examples-7.png
 
           ...pasted on the destination armature...
 
-     - .. figure:: /images/riggingposingcopyposeexpastedmirrpose2armadest.jpg
+     - .. figure:: /images/rigging_posing_editing_copy-paste-pose-examples-8.png
 
           ...and mirror-pasted on the destination armature.
 
@@ -256,7 +255,6 @@ Exactly like standard children objects. You can modify this behavior on a per-bo
 using their sub-panels in the *Armature Bones* panel:
 
 .. figure:: /images/riggingeditingbonecxtrelationspanel.png
-   :width: 200px
 
    The Armature Bones panel in Pose Mode.
 
