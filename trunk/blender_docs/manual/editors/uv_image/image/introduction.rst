@@ -46,10 +46,14 @@ Header Controls
 ===============
 
 Image
-   Data-block menu used for selecting images.
+   Data-block menu used for selecting images,
+   when :doc:`Working with Images </editors/uv_image/uv_editing/applying_image>`.
 
    - Render Result
    - Viewer Node
+Pin Image
+   Displays current image regardless of selected object.
+
 
 Multi-Layer
 ------------
