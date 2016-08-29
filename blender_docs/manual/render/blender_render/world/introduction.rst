@@ -5,7 +5,7 @@
 Introduction
 ************
 
-.. figure:: /images/render-internal_world_panel.png
+.. figure:: /images/render_blender-render_world_introduction_world-panel.png
 
    World Panel.
 
