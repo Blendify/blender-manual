@@ -45,7 +45,7 @@ Grid Floor
 
 Toggle Quad View
    Toggles the four view 3D View.
-   :doc:`Read more about arranging areas </interface/editors/arranging_areas>`
+   :doc:`Read more about arranging areas </interface/window_system/areas>`
 
 
 View Panel
