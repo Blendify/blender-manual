@@ -8,6 +8,7 @@
    :maxdepth: 2
 
    introduction.rst
+   navigating.rst
    uv_editing/index.rst
    rendered_image.rst
    painting.rst

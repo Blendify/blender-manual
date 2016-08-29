@@ -7,13 +7,6 @@ Introduction
    TODO: We probably want this to be a more regular index page
    then link to other topics in their own page, UV/Mask/Scopes/Paint... etc
 
-The UV/Image Editor is where you will be editing the UVs.
-This is an overview of the tools found there. Using the UV editor is explained more in depth in the next sections.
-
-.. figure:: /images/editors_uv-image-main.jpg
-
-   UV/Image Editor for texturing.
-
 
 Header
 ======
