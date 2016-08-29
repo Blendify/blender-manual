@@ -20,18 +20,19 @@ All hotkeys you press will now affect the contents of this editor.
 Hiding and Showing a Header
 ===========================
 
-.. figure:: /images/interface-window_system-headers-hide.jpg
-
-
 To hide a header, move your mouse over border of the header,
 until the pointer takes the form of an up/down arrow. Then click,
 hold and drag with :kbd:`LMB`  to scale down the header to zero.
 
-.. figure:: /images/interface-window_system-headers-show_02.jpg
+.. list-table::
+
+   * - .. figure:: /images/interface-window_system-headers-hide.jpg
+
+     - .. figure:: /images/interface-window_system-headers-show_02.jpg
 
 
-A hidden header leaves a little plus sign (see picture). By :kbd:`LMB` this,
-the header will reappear.
+A hidden header leaves a little plus sign (see picture).
+By :kbd:`LMB` this, the header will reappear.
 
 .. note::
 
