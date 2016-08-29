@@ -42,9 +42,9 @@ Sky
    Turning on Sky renders the sky, as defined in your material world settings. Otherwise,
    a black alpha transparent background is rendered.
 Edge
-   If Edge is enable in the Output panel, objects in this Render Layer are given an outline edge.
-   Turning on Edge pulls in the Edge settings from the Output tab, and adds an outline to the objects.
-   Edges also have to be enabled on the Output tab.
+   If Edge is enable in the Post Processing panel, objects in this Render Layer are given an outline edge.
+   Turning on Edge pulls in the Edge settings from the Render tab, and adds an outline to the objects.
+   Edges also have to be enabled on the Render tab.
 Strand
    Strands are strings of static particles that are colored as part of the material settings;
    they look like strands of hair or grass.
