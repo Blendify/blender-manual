@@ -9,7 +9,7 @@
 
    introduction.rst
    navigating.rst
+   image/index.rst
    uv_editing/index.rst
-   rendered_image.rst
    painting.rst
    masking.rst
