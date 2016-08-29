@@ -244,32 +244,58 @@ All sliders are self-explanatory.
    2D Stabilization Panel.
 
 
-Theres one extra panel which is available in reconstruction mode - 2D Stabilization Panel.
-
 This panel is used to define data used for 2D stabilization of the shot.
-Several options are available in this panel.
 
-First of all is the list of tracks to be used to compensate for camera jumps, or location.
-It works in the following way: it gets tracks from the list of tracks used for location
-stabilization and finds the median point of all these tracks on the first frame.
-On each frame, the algorithm makes this point have the same position in screen coordinates by
-moving the whole frame. In some cases it is not necessary to fully compensate camera jumps and
-*Location Influence* can be used in such cases.
+Anchor Frame
+   Reference point to anchor stabilization (other frames will be adjusted relative to the frames position).
 
-The camera can also have rotated a bit, adding some tilt to the footage.
-There is the *Stabilize Rotation* option to compensate for this tilt.
-A single extra track needs to be set for this, and it works in the following way.
-On first frame of the movie, this track is connected with the median point of the tracks from
-list above and angle between horizon and this segment is kept constant through the whole footage.
-The amount of rotation applied to the footage can be controlled by *Rotation Influence*.
+Stabilization Type
+   Rotation
+      Stabilizes detected rotation around center of frame.
 
-If the camera jumps a lot, there will be noticeable black areas near image boundaries.
-To get rid of these black holes, there is the *Autoscale* option,
-which finds smallest scale factor which, when applied to the footage,
-would eliminate all the black holes near the image boundaries.
-There is an option to control the maximal scale factor *Maximal Scale*,
-and the amount of scale applied to the footage *Scale Influence*.
+   Scale
+      Compensates any scale changes relative to center of rotation.
 
+Tracks For Stabilization
+   Location
+      List of tracks to be used to compensate for camera jumps, or location.
+      It works in the following way: it gets tracks from the list of tracks used for location
+      stabilization and finds the median point of all these tracks on the first frame.
+      On each frame, the algorithm makes this point have the same position in screen coordinates by
+      moving the whole frame.
+
+   Rotation/Scale
+      List of tracks to be used to compensate for camera tilts, it works in the following way.
+      On first frame of the movie, this track is connected with the median point of the tracks from
+      list above and angle between horizon and this segment is kept constant through the whole footage.
+
+Autoscale
+   Finds smallest scale factor which, when applied to the footage,
+   would eliminate all the black holes near the image boundaries.
+   Used for when the camera jumps a lot and has noticeable black areas near image boundaries.
+
+   Max
+      Limits the amount of automatic scaling.
+
+
+Relative Offset X/Y
+   Known relative offset of original shot, will be subtracted (e.g. for panning shot, can be animated).
+Expected Rotation
+   Rotation present on original shot, will be compensated (e.g. for deliberate tilting).
+Expected Zoom
+   Explicitly scale resulting frame to compensate zoom of original shot.
+
+Influence
+   The amount of transformation applied to the footage can be controlled.
+   In some cases it is not necessary to fully compensate camera jumps.
+
+Interpolate
+   Nearest
+      No interpolation, uses nearest neighboring pixel.
+   Bilinear
+      Simple interpolation between adjacent pixels.
+   Bicubic
+      Highest quality interpolation.
 
 Grease Pencil Panel
 ===================
