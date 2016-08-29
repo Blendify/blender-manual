@@ -37,7 +37,12 @@ Sampling Method
    If you have a combination of both, then the multiple importance sampling will be better.
 
 Interpolation
-   TODO.
+   Controls the type of interpolation to use for smoke simulations.
+
+   Linear
+      Good smoothness and speed.
+   Cubic
+      Smoothed high quality interpolation, but slower.
 
 Homogeneous Volume
    Assume volume has the same density everywhere (not using any textures), for faster rendering.

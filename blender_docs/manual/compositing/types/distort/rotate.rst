@@ -12,8 +12,6 @@ Rotate Node
 
 This node rotates an image.
 
-.. TODO: document interpolation methods (bicubic, bilinear, nearest)
-
 
 Inputs
 ======
@@ -30,7 +28,12 @@ Properties
 Filter
    Interpolation Methods.
 
-   Bilinear, Bicubic, Nearest
+   Nearest
+      No interpolation, uses nearest neighboring pixel.
+   Bilinear
+      Simple interpolation between adjacent pixels.
+   Bicubic
+      Highest quality interpolation.
 
 
 Outputs
