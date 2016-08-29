@@ -16,7 +16,7 @@ Also, as in the 3D View, you can use :kbd:`NumpadPlus` or :kbd:`NumpadMinus` to 
 - View Center :kbd:`NumpadPeriod`
 
 
-View menu
+View Menu
 =========
 
 The following shortcuts are available, and through the *View Menu*:
