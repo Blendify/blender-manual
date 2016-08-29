@@ -42,7 +42,6 @@ But let us first see some general visualization properties of armatures,
 found in the *Display* panel of the *Object data* tab.
 
 .. figure:: /images/riggingeditingobjectdatapropertycxtdisplaypanel.png
-   :width: 250px
 
    The Display panel.
 
@@ -57,7 +56,7 @@ Octahedral bone
    - The bone "size" (its thickness is proportional to its length).
    - The bone roll (as it has a square section).
 
-   .. figure:: /images/riggingoctahedronex3dvieweditmode.jpg
+   .. figure:: /images/rigging_armatures_visualization_octahedral-bone.png
       :width: 250px
 
       Note the 40- rolled Bone.001 bone.
@@ -67,7 +66,7 @@ Stick bone
    It just materializes bones by sticks of constant (and small) thickness,
    so it gives you no information about root and tip, nor bone size or roll angle.
 
-   .. figure:: /images/riggingstickex3dviewposemode.jpg
+   .. figure:: /images/rigging_armatures_visualization_stick-bone.png
       :width: 250px
 
       Note that Bone.001 roll angle is not visible (except by its XZ axes).
@@ -124,7 +123,6 @@ Blender allows you to give to each bone of an armature a specific shape
 First of all, you have to enable the *Shapes* button (*Armature* panel).
 
 .. figure:: /images/riggingeditingbonecxtdisplaypanel.png
-   :width: 250px
 
    The Display panel.
 
@@ -152,8 +150,7 @@ To assign a custom shape to a bone, you have to:
 - Go to the *Display* panel *Custom Shape* field and select the 3D object previously created in the scene;
   in this example we are using a cube and a cone. Tou can optionally set the *At* field to another bone.
 
-.. figure:: /images/riggingeditingbonecxtdisplaypanel2.jpg
-   :width: 250px
+.. figure:: /images/rigging_armatures_visualization_custom-shape-field.png
 
    The Display panel.
 
@@ -202,7 +199,6 @@ Armature Layers
    | Panel:    :menuselection:`Object data --> Skeleton`
 
 .. figure:: /images/riggingeditingobjectdatapropertycxtskeletonpanel.png
-   :width: 250px
 
    The Skeleton panel.
 
@@ -249,7 +245,6 @@ Bone Layers
    | Panel:    :menuselection:`Bone --> Relations`
 
 .. figure:: /images/riggingeditingbonecxtrelationspanel.png
-   :width: 250px
 
    The Relations panel.
 
@@ -281,7 +276,6 @@ Hiding Bones
    | Panel:    :menuselection:`Bone --> Display`
 
 .. figure:: /images/riggingeditingbonecxtdisplaypanel.png
-   :width: 250px
 
    The Display panel.
 
