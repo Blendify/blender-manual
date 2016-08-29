@@ -104,7 +104,7 @@ Map Resolution
    but will take up more memory and render slightly slower.
 
 Max Bounces
-   TODO.
+   Maximim number of bounces the background light will contribute to the render.
 
 .. seealso::
 
@@ -122,7 +122,12 @@ Sampling Method
    - If you have a combination of both, then the multiple importance sampling will be better.
 
 Interpolation
-   TODO.
+   Interpolation meathod to use for world volumes.
+
+   Linear
+      Good smoothness and speed.
+   Cubic
+      Smoothed high quality interpolation, but slower.
 
 Homogeneous Volume
    Assume volume has the same density everywhere (not using any textures), for faster rendering.

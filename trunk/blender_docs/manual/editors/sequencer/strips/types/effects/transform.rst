@@ -14,7 +14,12 @@ Options
 =======
 
 Interpolation
-   Todo.
+   None
+      No interpolation, uses nearest neighboring pixel.
+   Bilinear
+      Simple interpolation between adjacent pixels.
+   Bicubic
+      Highest quality interpolation.
 Translation Unit
    Control whether the input values are in *Percent* or *Pixels*
 Uniform Scale
