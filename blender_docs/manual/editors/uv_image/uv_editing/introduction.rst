@@ -17,21 +17,12 @@ Header
 
 The header contains several menus and options for working with UVs.
 
-View
-   Tools for, working with the editor and controlling how things are displayed.
-   The properties panel has display options and manipulation tools.
 Select
-   Tools for :doc:`Selecting UVs </editors/uv_image/uv_editing/layout_editing>`
-Image
-   This contains options for when :doc:`Working with Images </editors/uv_image/uv_editing/applying_image>`
+   Tools for :doc:`Selecting UVs </editors/uv_image/uv_editing/layout_editing>`.
 UVs
    Contains tools for :doc:`Unwrapping Meshes </editors/uv_image/uv_editing/overview>`
    and :doc:`Editing UVs </editors/uv_image/uv_editing/layout_editing>`.
 
-Image data-block menu
-   Select the image to apply when :doc:`Working with Images </editors/uv_image/uv_editing/applying_image>`.
-Pin Image
-   Displays current image regardless of selected object.
 Pivot Point Selector
    Similar to working with Pivot Points in the 3D View.
 Sync Selection
@@ -49,8 +40,6 @@ UV Snapping
    Similar to Snapping in the 3D View.
 Active UV Texture Map Selector
    Select which UV texture to use.
-Image Channels to Draw
-   Set the image to be displayed with *Color*, *Color and Alpha*, or just *Alpha*.
 Auto Update Other Affected Windows
    Update other affected windows automatically to reflect changes during interactive operations e.g. transfom.
 
@@ -65,13 +54,6 @@ Properties Region
 
 UV Vertex
    Transform Properties :doc:`Selecting UVs </editors/uv_image/uv_editing/layout_editing>`.
-Grease Pencil
-   See the :doc:`Grease Pencil </interface/grease_pencil/converting_to_geometry>` Docs.
-Image
-   Contains the properties of the current Image.
-Display
-   Controls display options for UVs and additional settings for when
-   :doc:`Working with Images </editors/uv_image/uv_editing/applying_image>`.
 
 
 Display Panel
