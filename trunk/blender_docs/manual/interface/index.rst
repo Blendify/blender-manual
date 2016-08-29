@@ -16,7 +16,7 @@ Editor Controls
 .. toctree::
    :maxdepth: 1
 
-   editors/index.rst
+   window_system/index.rst
 
 
 Interface Controls

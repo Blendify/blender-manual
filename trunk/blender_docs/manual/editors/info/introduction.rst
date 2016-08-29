@@ -25,7 +25,7 @@ Menus
 Back to Previous
    Shown when an area is maximized to return to tiled areas.
 Screen Data-block
-   Used to select and edit window layouts. See :doc:`Screens </interface/editors/screens>`.
+   Used to select and edit window layouts. See :doc:`Screens </interface/window_system/screens>`.
 Scene Data-block
    Allows you to select different :doc:`Scenes </data_system/scenes>`.
    Having multiple Scenes allows you to work with separate virtual environments,

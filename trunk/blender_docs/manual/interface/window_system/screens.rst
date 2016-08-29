@@ -13,7 +13,7 @@ Screens
 Blender's flexibility with areas lets you create customized working environments for
 different tasks such as modeling, animating, and scripting.
 It is often useful to quickly switch between different environments within the same file.
-See :doc:`area controls </interface/editors/arranging_areas>` for how
+See :doc:`area controls </interface/window_system/areas>` for how
 to move frame borders, split and consolidate areas.
 
 The Screen data-block menu, that lets you select the layouts,

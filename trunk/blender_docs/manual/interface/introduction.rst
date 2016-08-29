@@ -145,7 +145,7 @@ A header is a small horizontal part of an editor and sits either at the top or b
 It acts as a container for menus and commonly used tools.
 Much like additional regions the header can be hidden.
 
-See: :doc:`Headers </interface/editors/headers>` for details.
+See: :doc:`Headers </interface/window_system/headers>` for details.
 
 
 Panels
@@ -170,7 +170,7 @@ The *Edit* panel is expanded and the other two panels are collapsed.
 Note that you can change the order of panels by clicking
 on the handle in the upper right corner of a panel's title.
 
-See: :doc:`panels </interface/editors/panels>` for details.
+See: :doc:`panels </interface/window_system/panels>` for details.
 
 .. container:: lead
 

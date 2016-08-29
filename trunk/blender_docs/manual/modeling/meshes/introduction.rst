@@ -131,7 +131,7 @@ For each tool a context-sensitive menu is opened at the bottom of the *Tool Shel
 Even more mesh editing tools can be enabled in the *User Preferences* '
 *Add-ons* section.
 
-For further information see :doc:`Panels </interface/editors/panels>`.
+For further information see :doc:`Panels </interface/window_system/panels>`.
 
 
 Properties Region

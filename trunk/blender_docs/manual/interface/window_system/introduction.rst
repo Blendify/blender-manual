@@ -14,7 +14,7 @@ your Blender window should look something similar to the image below:
 
 Every window you see can be further broken down into separate areas
 (as described in the section on
-:doc:`arranging areas </interface/editors/arranging_areas>`).
+:doc:`arranging areas </interface/window_system/areas>`).
 The default screen is described below.
 
 
