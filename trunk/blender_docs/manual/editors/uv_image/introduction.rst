@@ -5,23 +5,12 @@ Introduction
 
 TODO see https://developer.blender.org/T46878
 
-Navigating
-==========
+The UV/Image Editor is where you can edit 2D assets like images/textures and UVs.
 
-Panning can be done by clicking the :kbd:`MMB` and dragging.
+.. Using the UV editor is explained more in depth in the next sections.
+   This is an overview of the tools found there. 
 
-Zooming can be done by scrolling :kbd:`MMB` up or down.
-Also, as in the 3D View, you can use :kbd:`NumpadPlus` or :kbd:`NumpadMinus` to zoom.
+.. figure:: /images/editors_uv-image-main.jpg
 
-The following shortcuts are available, and through the *View Menu*:
+   UV/Image Editor with a UV map and a test grid texture.
 
-- Zoom 1:8 :kbd:`Numpad8`
-- Zoom 1:4 :kbd:`Numpad4`
-- Zoom 1:2 :kbd:`Numpad2`
-- Zoom 1:1 :kbd:`Numpad1`
-- Zoom 2:1 :kbd:`Shift-Numpad2`
-- Zoom 4:1 :kbd:`Shift-Numpad4`
-- Zoom 8:1 :kbd:`Shift-Numpad8`
-
-- View All :kbd:`Home`
-- View Center :kbd:`NumpadPeriod`
