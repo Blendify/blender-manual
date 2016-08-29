@@ -124,7 +124,7 @@ report_po_progress: .FORCE
 	          `find locale/ -maxdepth 1 -mindepth 1 -type d -not -iwholename '*.svn*' -printf 'locale/%f\n' | sort`
 
 gettext: .FORCE .SPHINXBUILD_EXISTS
-	$(SPHINXBUILD) -t html -b gettext $(I18NSPHINXOPTS) $(BUILDDIR)/locale
+	$(SPHINXBUILD) -t builder_html -b gettext $(I18NSPHINXOPTS) $(BUILDDIR)/locale
 	@echo
 	@echo "Build finished. The message catalogs are in $(BUILDDIR)/locale."
 
