@@ -5,7 +5,6 @@ Introduction
 
 .. figure:: /images/rigging_armatures_bones_introduction_bones-elements.png
    :align: right
-   :width: 100px
 
    The elements of a bone.
 
@@ -63,7 +62,6 @@ will show local axes for each bone's tip. The Y axis is always aligned along the
 oriented from root to tip. So, this is the "roll" axis of the bones.
 
 .. figure:: /images/riggingboneprincipalsbonepropertieseditor.png
-   :width: 250px
 
    The Bone tab.
 
