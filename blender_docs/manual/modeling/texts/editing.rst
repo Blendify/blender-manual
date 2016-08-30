@@ -17,7 +17,7 @@ Text Editing
    | Mode:     Edit Mode
    | Hotkey:   see below
 
-.. figure:: /images/modelling-text-create-ex.jpg
+.. figure:: /images/modelling-text-create-ex.png
    :width: 300px
 
    Text in Edit Mode.
@@ -140,7 +140,7 @@ Now you can return to *Edit Mode* and manually edit the vertices.
 They are usually a bit messy, so it may be useful to use a *Limited Dissolve* deletion or *Remesh* Object
 :doc:`Modifier </modeling/modifiers/index>` at a low threshold to clean up your mesh.
 
-.. figure:: /images/textobjectfromtext.jpg
+.. figure:: /images/textobjectfromtext.png
    :width: 500px
 
    left normal text, right the made text object.
@@ -149,7 +149,7 @@ They are usually a bit messy, so it may be useful to use a *Limited Dissolve* de
 Text Selection
 ==============
 
-.. figure:: /images/modelling-text-create-ex.jpg
+.. figure:: /images/modelling-text-create-ex.png
    :width: 200px
 
    Text in Edit Mode.
@@ -173,7 +173,7 @@ Text Boxes
    | Mode:     Object or Edit Modes
    | Panel:    Font
 
-.. figure:: /images/text-frame-upperpanel-area.jpg
+.. figure:: /images/text-frame-upperpanel-area.png
 
    Text frame.
 
@@ -214,7 +214,7 @@ the frame's *Width* must be greater than 0.0.
 
 .. _fig-texts-edit-frame:
 
-.. figure:: /images/text-frame-default-ex.jpg
+.. figure:: /images/text-frame-default-ex.png
    :width: 250px
 
    Frame width.
@@ -243,7 +243,7 @@ Example: Text Flow
 
 .. _fig-texts-edit-wrap:
 
-.. figure:: /images/text-frame-working-ex2.jpg
+.. figure:: /images/text-frame-working-ex2.png
    :width: 300px
 
    Wrapping.
@@ -261,7 +261,7 @@ Fig. :ref:`fig-texts-edit-wrap`. Notice that the text has overflowed out of the 
 This is because the text has reached the end of the last frame,
 which just happens to be the default/initial frame.
 
-.. figure:: /images/text-frame-working-ex4.jpg
+.. figure:: /images/text-frame-working-ex4.png
    :width: 300px
 
    Text flowing from box 1 to box 2.
@@ -275,7 +275,7 @@ Example: Multiple columns
 
 .. _fig-texts-edit-text5:
 
-.. figure:: /images/text-frame-working-ex5.jpg
+.. figure:: /images/text-frame-working-ex5.png
    :width: 400px
 
    Text 5.
@@ -305,7 +305,7 @@ on the *Assign* button in the Materials panel.
 
 .. _fig-texts-edit-rgb:
 
-.. figure:: /images/text-materialindex-ex.jpg
+.. figure:: /images/text-materialindex-ex.png
    :width: 300px
 
    Red Green Blue.

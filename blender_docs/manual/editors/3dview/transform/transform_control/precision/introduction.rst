@@ -63,7 +63,7 @@ Holding CTRL
 Grab/move transformations
 -------------------------
 
-.. figure:: /images/interaction-transform_control_precision_blender-units.jpg
+.. figure:: /images/interaction-transform_control_precision_blender-units.png
    :align: right
 
    1 Blender Unit (default zoom level).

@@ -57,7 +57,7 @@ one, it is divided in three regions:
 
 .. _fig-dope-sheet-action:
 
-.. figure:: /images/actioneditor.jpg
+.. figure:: /images/actioneditor.png
    :width: 600px
 
    The Action Editor, Action Editor mode, with an Object and Shape channels.
@@ -74,7 +74,7 @@ a second one concerning the action data-blocks, and a few other tools
 View Menu
 ^^^^^^^^^
 
-.. figure:: /images/actioneditor-sliders.jpg
+.. figure:: /images/actioneditor-sliders.png
 
    the action editor showing sliders.
 

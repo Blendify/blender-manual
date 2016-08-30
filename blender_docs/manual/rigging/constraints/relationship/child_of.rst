@@ -28,7 +28,7 @@ compared to the traditional method:
 Options
 =======
 
-.. figure:: /images/constraints-relationship-childof.jpg
+.. figure:: /images/constraints-relationship-childof.png
    :width: 307px
 
    Child Of panel.
@@ -90,39 +90,39 @@ Examples
 
 .. list-table::
 
-   * - .. figure:: /images/constraintschildofobjectsex01nocst.jpg
+   * - .. figure:: /images/constraintschildofobjectsex01nocst.png
 
           No constraint.
 
           Note the position of Owner empty 1.0 BU along X- and Y-Axis.
 
-     - .. figure:: /images/constraintschildofobjectsex02cstadded.jpg
+     - .. figure:: /images/constraintschildofobjectsex02cstadded.png
 
           Child Of just added.
 
           Here you can see that Owner empty is now 1.0 BU away
           from Target_1 empty along X- and Y-Axis.
 
-   * - .. figure:: /images/constraintschildofobjectsex03cstsetoffset.jpg
+   * - .. figure:: /images/constraintschildofobjectsex03cstsetoffset.png
 
           Offset set.
 
           Set Inverse has been clicked, and Owner is back to its original position.
 
-     - .. figure:: /images/constraintschildofobjectsex04csttargettransformed.jpg
+     - .. figure:: /images/constraintschildofobjectsex04csttargettransformed.png
 
           Target/parent transformed.
 
           Target_1 has been translated in the XY plane, rotated around the Z-Axis,
           and scaled along its local X-Axis.
 
-   * - .. figure:: /images/constraintschildofobjectsex05cstclearoffset.jpg
+   * - .. figure:: /images/constraintschildofobjectsex05cstclearoffset.png
 
           Offset cleared.
 
           Clear Inverse has been clicked. Owner is fully again controlled by Target_1.
 
-     - .. figure:: /images/constraintschildofobjectsex06cstsetoffset.jpg
+     - .. figure:: /images/constraintschildofobjectsex06cstsetoffset.png
 
           Offset set again.
 

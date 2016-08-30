@@ -91,7 +91,7 @@ altered respectively.
 
 Scale the "EmptyA" object, so that the Monkey becomes smaller and moves to the left a little.
 
-.. figure:: /images/parent-object_keep_transform-b.jpg
+.. figure:: /images/parent-object_keep_transform-b.png
 
    The monkey is the child object of "EmptyA".
 
@@ -119,7 +119,7 @@ old *Parent Object*; If instead when changing the *Parent Object* of the Monkey 
 would keep its scale information it obtained from the old parent "EmptyA" when it is assigned
 to the new parent "EmptyB";
 
-.. figure:: /images/parent-object_keep_transform-d.jpg
+.. figure:: /images/parent-object_keep_transform-d.png
 
    The Object (Keep Transform) parent method.
 
@@ -141,7 +141,7 @@ if the specific bone it is the Child Object of moves.
 
 .. _fig-view3d-parent-bone-parent:
 
-.. figure:: /images/tu-3dvieweditorheader-objectmenu-parent-boneparenting.jpg
+.. figure:: /images/tu-3dvieweditorheader-objectmenu-parent-boneparenting.png
 
    Three pictures of Armatures with four Bones.
 
@@ -170,7 +170,7 @@ the Child Object which is parented to that bone will snap back to the location o
 
 .. _fig-view3d-parent-bone-parent-child:
 
-.. figure:: /images/tx-3dvieweditorheader-objectmenu-parent-boneparenting.jpg
+.. figure:: /images/tx-3dvieweditorheader-objectmenu-parent-boneparenting.png
 
    Single Armature Bone which has a Child Object cube parented to it using Bone parenting.
 
@@ -185,7 +185,7 @@ the Child Objects will not move to the new location of the Pose Bone.
 
 .. _fig-view3d-parent-bone-parent-relative:
 
-.. figure:: /images/ty-3dvieweditorheader-objectmenu-parent-bonerelativeparenting.jpg
+.. figure:: /images/ty-3dvieweditorheader-objectmenu-parent-bonerelativeparenting.png
 
    Single Bone with Bone Relative parent to a cube.
 

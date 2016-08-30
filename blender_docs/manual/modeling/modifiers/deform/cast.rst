@@ -28,7 +28,7 @@ it is not limited to casting to a sphere.
 Options
 =======
 
-.. figure:: /images/modifier-cast.jpg
+.. figure:: /images/modifier-cast.png
 
    Cast Modifier.
 

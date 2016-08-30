@@ -50,7 +50,7 @@ Scaling using the keyboard shortcut
 
 The amount of scaling will be displayed in the bottom left hand corner of the 3D View editor.
 
-.. figure:: /images/editors_3dview_transformations-basic-scale-scale_value_header.jpg
+.. figure:: /images/editors_3dview_transformations-basic-scale-scale_value_header.png
 
    Scale values.
 
@@ -105,7 +105,7 @@ in Blender Units (BU) to specify the amount of scaling after after initiating a 
 Scaling with the 3D Transform Manipulator
 -----------------------------------------
 
-.. figure:: /images/widget3d-transform-scale.jpg
+.. figure:: /images/widget3d-transform-scale.png
    :width: 100px
 
    Scaling Transform Manipulator.

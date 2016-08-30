@@ -36,7 +36,7 @@ Blender materials.
 Options
 =======
 
-.. figure:: /images/material-rampspanel.jpg
+.. figure:: /images/material-rampspanel.png
 
    Ramps Panel.
 

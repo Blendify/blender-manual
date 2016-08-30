@@ -35,7 +35,7 @@ Note, that if you want to select a loop while being in vertex select mode,
 you still have to perform the shortcut on an edge - while you,
 for just selecting vertices, would rightclick on a vertex.
 
-.. figure:: /images/select_edge_loop_example.jpg
+.. figure:: /images/select_edge_loop_example.png
 
    An edge loop.
 
@@ -55,7 +55,7 @@ Edge Rings are selected similarly.
 Based on the selection of an edge go to :menuselection:`Select --> Edge Ring`.
 Or use :kbd:`Alt-Ctrl-RMB` on an edge.
 
-.. figure:: /images/select_edge_ring_example.jpg
+.. figure:: /images/select_edge_ring_example.png
 
    An Edge Ring.
 

@@ -122,7 +122,7 @@ this is all because of the Index of Refraction of glass.
 Options
 =======
 
-.. figure:: /images/material-raytrace_transp-panel.jpg
+.. figure:: /images/material-raytrace_transp-panel.png
 
    The Transparency Panel.
 
@@ -203,12 +203,12 @@ Fresnel
           (Download `blend-file <https://wiki.blender.org/index.php/:File:Manual25-Material-FresnelExample.blend>`__.)
 
 
-   * - .. figure:: /images/material-raytrace_transp-fresnelsettings.jpg
+   * - .. figure:: /images/material-raytrace_transp-fresnelsettings.png
           :width: 320px
 
           Settings for Fresnel using ray-traced.
 
-     - .. figure:: /images/material-raytrace_transp-fresnelsettingsztransp.jpg
+     - .. figure:: /images/material-raytrace_transp-fresnelsettingsztransp.png
           :width: 320px
 
           Settings for Fresnel using Z transparency.

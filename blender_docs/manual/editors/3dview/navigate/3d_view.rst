@@ -355,7 +355,7 @@ View Clipping Border
    | Menu:     :menuselection:`View --> Set Clipping Border`
    | Hotkey:   :kbd:`Alt-B`
 
-.. figure:: /images/editors_3dview_navigating-3d_view-region_clipping.jpg
+.. figure:: /images/editors_3dview_navigating-3d_view-region_clipping.png
    :width: 340px
 
    Region/Volume clipping.

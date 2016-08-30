@@ -27,12 +27,12 @@ Motion Paths
 This feature allows you to visualize the animation of objects by displaying their position
 over a series of frames.
 
-.. figure:: /images/animation-keyframes-visualization-motionpath.jpg
+.. figure:: /images/animation-keyframes-visualization-motionpath.png
    :width: 400px
 
    An animated cube with its motion path displayed.
 
-.. figure:: /images/animation-keyframes-visualization-motionpath-panel3.jpg
+.. figure:: /images/animation-keyframes-visualization-motionpath-panel3.png
    :width: 250px
 
    Motion paths panel.
@@ -62,7 +62,7 @@ Around Frame
    When you enable this button, you rather get paths
    for a given number of frames before and after the current one (again, as with ghosts).
 
-   .. figure:: /images/animation-keyframes-visualization-motionpath-panel.jpg
+   .. figure:: /images/animation-keyframes-visualization-motionpath-panel.png
       :width: 200px
 
       The Motion Paths Panel set to "Around Frame"
@@ -70,7 +70,7 @@ Around Frame
 In Range
    In Range, Display Paths of poses within specified range.
 
-   .. figure:: /images/animation-keyframes-visualization-motionpath-panel2.jpg
+   .. figure:: /images/animation-keyframes-visualization-motionpath-panel2.png
       :width: 200px
 
       The Motion Paths Panel set to "In Range"

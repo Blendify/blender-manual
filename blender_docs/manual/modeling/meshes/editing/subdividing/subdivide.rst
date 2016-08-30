@@ -53,17 +53,17 @@ Smoothness
 
    .. list-table::
 
-      * - .. figure:: /images/subdivide-smooth-before.jpg
+      * - .. figure:: /images/subdivide-smooth-before.png
              :width: 200px
 
              Mesh before subdividing.
 
-        - .. figure:: /images/subdivide-smooth-none.jpg
+        - .. figure:: /images/subdivide-smooth-none.png
              :width: 200px
 
              Subdivided with no smoothing.
 
-        - .. figure:: /images/subdivide-smooth-after.jpg
+        - .. figure:: /images/subdivide-smooth-after.png
              :width: 200px
 
              Subdivided with smoothing of 1.
@@ -92,17 +92,17 @@ Corner Cut Type
 
    .. list-table::
 
-      * - .. figure:: /images/subdivide-twoedgesquad-fan2.jpg
+      * - .. figure:: /images/subdivide-twoedgesquad-fan2.png
              :width: 200px
 
              Fan cut type.
 
-        - .. figure:: /images/subdivide-twoedgesquad-innervert.jpg
+        - .. figure:: /images/subdivide-twoedgesquad-innervert.png
              :width: 200px
 
              Innervert cut type.
 
-        - .. figure:: /images/subdivide-twoedgesquad-path.jpg
+        - .. figure:: /images/subdivide-twoedgesquad-path.png
              :width: 200px
 
              Path cut type.
@@ -113,17 +113,17 @@ Fractal
 
    .. list-table::
 
-      * - .. figure:: /images/subdivide-fractal-before.jpg
+      * - .. figure:: /images/subdivide-fractal-before.png
              :width: 200px
 
              Plane before subdivision.
 
-        - .. figure:: /images/subdivide-fractal-none.jpg
+        - .. figure:: /images/subdivide-fractal-none.png
              :width: 200px
 
              Regular subdivision.
 
-        - .. figure:: /images/subdivide-fractal-after1.jpg
+        - .. figure:: /images/subdivide-fractal-after1.png
              :width: 200px
 
              Same mesh with fractal added.
@@ -132,7 +132,7 @@ Fractal
 Along Normal
    Causes the vertices to move along the their normals, instead of random directions.
 
-   .. figure:: /images/subdivide-fractal-alongnormal.jpg
+   .. figure:: /images/subdivide-fractal-alongnormal.png
       :width: 200px
 
       Along normal set to 1.
@@ -141,7 +141,7 @@ Along Normal
 Random Seed
    Changes the random seed of the noise function, producing a different result for each seed value.
 
-   .. figure:: /images/subdivide-fractal-after2.jpg
+   .. figure:: /images/subdivide-fractal-after2.png
       :width: 200px
 
       Same mesh with a different seed value.
@@ -153,7 +153,7 @@ Examples
 Below are several examples illustrating the various possibilities of the *Subdivide*
 and *Subdivide Multi* tools. Note the selection after subdivision.
 
-.. figure:: /images/subdivide-before.jpg
+.. figure:: /images/subdivide-before.png
    :width: 300px
 
    The sample mesh.
@@ -164,12 +164,12 @@ One Edge
 
 .. list-table::
 
-   * - .. figure:: /images/subdivide-oneedge.jpg
+   * - .. figure:: /images/subdivide-oneedge.png
           :width: 250px
 
           One Edges.
 
-     - .. figure:: /images/subdivide-oneedge-tri.jpg
+     - .. figure:: /images/subdivide-oneedge-tri.png
           :width: 250px
 
           Quad/Tri Mode.
@@ -180,10 +180,10 @@ Two Tri Edges
 
 .. list-table::
 
-   * - .. figure:: /images/subdivide-twoedgestri.jpg
+   * - .. figure:: /images/subdivide-twoedgestri.png
           :width: 250px
 
-     - .. figure:: /images/subdivide-twoedgestri-tri.jpg
+     - .. figure:: /images/subdivide-twoedgestri-tri.png
           :width: 250px
 
           Quad/Tri Mode.
@@ -194,10 +194,10 @@ Two Opposite Quad Edges
 
 .. list-table::
 
-   * - .. figure:: /images/subdivide-twoedgesopposite.jpg
+   * - .. figure:: /images/subdivide-twoedgesopposite.png
           :width: 250px
 
-     - .. figure:: /images/subdivide-twoedgesopposite-tri.jpg
+     - .. figure:: /images/subdivide-twoedgesopposite-tri.png
           :width: 250px
 
           Quad/Tri Mode.
@@ -208,36 +208,36 @@ Two Adjacent Quad Edges
 
 .. list-table::
 
-   * - .. figure:: /images/subdivide-twoedgesquad-fan2.jpg
+   * - .. figure:: /images/subdivide-twoedgesquad-fan2.png
           :width: 250px
 
           Fan cut type.
 
-     - .. figure:: /images/subdivide-twoedgesquad-fan.jpg
+     - .. figure:: /images/subdivide-twoedgesquad-fan.png
           :width: 250px
 
           Quad/Tri Mode.
 
 .. list-table::
 
-   * - .. figure:: /images/subdivide-twoedgesquad-innervert.jpg
+   * - .. figure:: /images/subdivide-twoedgesquad-innervert.png
           :width: 250px
 
           Innervert cut type.
 
-     - .. figure:: /images/subdivide-twoedgesquad-innervert-tri.jpg
+     - .. figure:: /images/subdivide-twoedgesquad-innervert-tri.png
           :width: 250px
 
           Quad/Tri Mode.
 
 .. list-table::
 
-   * - .. figure:: /images/subdivide-twoedgesquad-path.jpg
+   * - .. figure:: /images/subdivide-twoedgesquad-path.png
           :width: 250px
 
           Path cut type.
 
-     - .. figure:: /images/subdivide-twoedgesquad-path-tri.jpg
+     - .. figure:: /images/subdivide-twoedgesquad-path-tri.png
           :width: 250px
 
           Quad/Tri Mode.
@@ -248,10 +248,10 @@ Three Edges
 
 .. list-table::
 
-   * - .. figure:: /images/subdivide-threeedges.jpg
+   * - .. figure:: /images/subdivide-threeedges.png
           :width: 250px
 
-     - .. figure:: /images/subdivide-threeedges-tri.jpg
+     - .. figure:: /images/subdivide-threeedges-tri.png
           :width: 250px
 
           Quad/Tri Mode.
@@ -262,10 +262,10 @@ Tri
 
 .. list-table::
 
-   * - .. figure:: /images/subdivide-threeedgestri.jpg
+   * - .. figure:: /images/subdivide-threeedgestri.png
           :width: 250px
 
-     - .. figure:: /images/subdivide-threeedgestri-tri.jpg
+     - .. figure:: /images/subdivide-threeedgestri-tri.png
           :width: 250px
 
           Quad/Tri Mode.
@@ -276,10 +276,10 @@ Quad/Four Edges
 
 .. list-table::
 
-   * - .. figure:: /images/subdivide-fouredges.jpg
+   * - .. figure:: /images/subdivide-fouredges.png
           :width: 250px
 
-     - .. figure:: /images/subdivide-fouredges-tri.jpg
+     - .. figure:: /images/subdivide-fouredges-tri.png
           :width: 250px
 
           Quad/Tri Mode.
@@ -290,12 +290,12 @@ Multicut
 
 .. list-table::
 
-   * - .. figure:: /images/subdivide-tri-multi.jpg
+   * - .. figure:: /images/subdivide-tri-multi.png
           :width: 250px
 
           Tri with two cuts.
 
-     - .. figure:: /images/subdivide-quad-multi.jpg
+     - .. figure:: /images/subdivide-quad-multi.png
           :width: 250px
 
           Quad with two cuts

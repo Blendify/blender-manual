@@ -3,7 +3,7 @@
 Bricks
 ******
 
-.. figure:: /images/texture-nodes_bricks.jpg
+.. figure:: /images/texture-nodes_bricks.png
    :align: right
    :width: 200px
 

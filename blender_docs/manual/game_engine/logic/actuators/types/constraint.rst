@@ -20,7 +20,7 @@ Menu specifying type of constraint required.
 - Distance Constraint
 - Location Constraint
 
-.. figure:: /images/bge_actuator_constraint_forcefield.jpg
+.. figure:: /images/bge_actuator_constraint_forcefield.png
    :width: 271px
 
    Constraint actuator - Force Field.
@@ -54,7 +54,7 @@ Force Field Constraint
    RotDamp
       Damping factor for rotation
 
-.. figure:: /images/bge_actuator_constraint_orientation.jpg
+.. figure:: /images/bge_actuator_constraint_orientation.png
    :width: 271px
 
    Constraint Actuator - Orientation.
@@ -113,7 +113,7 @@ Maintain the distance the Game Object has to be from a surface
    RotDamp
       Damping factor for rotation
 
-.. figure:: /images/bge_actuator_constraint_location.jpg
+.. figure:: /images/bge_actuator_constraint_location.png
    :width: 271px
 
    Constraint actuator - Location.

@@ -61,7 +61,7 @@ Float normal
    SD
       Standard deviation of normal distribution (Range 0.00 to +10000.00).
 
-.. figure:: /images/bge_actuator_random_float_uniform.jpg
+.. figure:: /images/bge_actuator_random_float_uniform.png
    :width: 271px
 
    Float Uniform.
@@ -105,7 +105,7 @@ Int Poisson
    Mean
       Mean of Poisson distribution (Range 0.01 to +100.00).
 
-.. figure:: /images/bge_actuator_random_int_uniform.jpg
+.. figure:: /images/bge_actuator_random_int_uniform.png
    :width: 271px
 
    Random Integer Uniform.

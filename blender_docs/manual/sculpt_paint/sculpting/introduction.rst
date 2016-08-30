@@ -27,11 +27,11 @@ Also a red circle will appear that follows the location of the cursor in the 3D 
 
    To have a predictable brush behavior, apply the scale of your mesh.
 
-.. figure:: /images/sculpt_mode_drop_down.jpg
+.. figure:: /images/sculpt_mode_drop_down.png
 
    Sculpt Mode Dropdown.
 
-.. figure:: /images/sculpt_brush_circle.jpg
+.. figure:: /images/sculpt_brush_circle.png
 
    The cursor in Sculpt Mode.
 

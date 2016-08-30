@@ -3,7 +3,7 @@
 Ray Sensor
 **********
 
-.. figure:: /images/bge_sensor_ray.jpg
+.. figure:: /images/bge_sensor_ray.png
    :width: 300px
 
    Ray sensor.

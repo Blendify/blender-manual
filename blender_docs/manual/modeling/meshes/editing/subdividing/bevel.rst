@@ -47,7 +47,7 @@ and scroll the :kbd:`Wheel` to increase or decrease the number of segments. (see
 
 .. list-table::
 
-   * - .. figure:: /images/bevel1.jpg
+   * - .. figure:: /images/bevel1.png
           :width: 200px
 
           Selected edge before beveling.
@@ -96,7 +96,7 @@ Segments
    Alternatively, you can manually enter a segment number value while using the tool,
    or in the Mesh Tool options panel after using the tool.
 
-   .. figure:: /images/bevel3.jpg
+   .. figure:: /images/bevel3.png
       :width: 300px
 
       Bevel with four segments.
@@ -128,7 +128,7 @@ Examples
 
           Result of beveling multiple edges.
 
-     - .. figure:: /images/bevel5.jpg
+     - .. figure:: /images/bevel5.png
           :width: 200px
 
           Another example of beveling multiple edges.

@@ -3,7 +3,7 @@
 Vertex Weight Mix Modifier
 **************************
 
-.. figure:: /images/modifiersweightvgmix.jpg
+.. figure:: /images/modifiersweightvgmix.png
    :width: 300px
 
    The Vertex Weight Mix modifier panel.
@@ -197,7 +197,7 @@ and above 0.75: this creates great "walls" in the waves...
 
 .. list-table:: Custom mapping curve.
 
-   * - .. figure:: /images/modifiersweightvgrouptexexcmapcurve.jpg
+   * - .. figure:: /images/modifiersweightvgrouptexexcmapcurve.png
           :width: 200px
 
           A customized mapping curve.

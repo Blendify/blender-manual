@@ -33,12 +33,12 @@ Center
 
 .. list-table::
 
-   * - .. figure:: /images/mesh_snap_to_symmetry.jpg
+   * - .. figure:: /images/mesh_snap_to_symmetry.png
           :width: 320px
 
           Before Snap to Symmetry.
 
-     - .. figure:: /images/mesh_snap_to_symmetry_after.jpg
+     - .. figure:: /images/mesh_snap_to_symmetry_after.png
           :width: 320px
 
           After Snap to Symmetry.
@@ -65,12 +65,12 @@ Direction
 
 .. list-table::
 
-   * - .. figure:: /images/symmetrize1.jpg
+   * - .. figure:: /images/symmetrize1.png
           :width: 320px
 
           Mesh before Symmetrize.
 
-     - .. figure:: /images/symmetrize2.jpg
+     - .. figure:: /images/symmetrize2.png
           :width: 320px
 
           Mesh after Symmetrize.

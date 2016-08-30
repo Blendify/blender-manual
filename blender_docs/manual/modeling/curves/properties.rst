@@ -85,14 +85,14 @@ Bevel
    Depth
       Changes the size of the bevel
 
-      .. figure:: /images/modeling_curves_geometry-bevel-depth.jpg
+      .. figure:: /images/modeling_curves_geometry-bevel-depth.png
 
          A Curve with different Bevel depths applied.
 
    Resolution
       Alters the smoothness of the bevel
 
-      .. figure:: /images/modeling_curves_geometry-bevel-resolution.jpg
+      .. figure:: /images/modeling_curves_geometry-bevel-resolution.png
 
          A Curve with different resolutions applied.
 
@@ -202,7 +202,7 @@ Knots
    Cyclic
       Makes the NURBS curve cyclic.
 
-      .. figure:: /images/modeling_curves_nurbs-cyclic.jpg
+      .. figure:: /images/modeling_curves_nurbs-cyclic.png
 
          A NURBS curve with Cyclic applied.
 
@@ -211,7 +211,7 @@ Knots
    Endpoint
       Makes the curve contact the end control points. Cyclic must be disabled for this option to work.
 
-      .. figure:: /images/modeling_curves_nurbs-endpoint.jpg
+      .. figure:: /images/modeling_curves_nurbs-endpoint.png
 
          A NURBS curve with Endpoint enabled.
 
@@ -223,6 +223,6 @@ Order
    influence over a greater relative proportion of the curve.
    The valid range of *Order* values is 2-6 depending on the number of control points present in the curve.
 
-   .. figure:: /images/modeling_curves_nurbs-order.jpg
+   .. figure:: /images/modeling_curves_nurbs-order.png
 
       NURBS curves with orders of 2 (left), 4 (middle) and 6 (right).

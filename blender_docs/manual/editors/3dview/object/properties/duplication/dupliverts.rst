@@ -37,7 +37,7 @@ DupliVerts as an Arranging Tool
 Setup
 -----
 
-.. figure:: /images/dupliverts-example01-1start.jpg
+.. figure:: /images/dupliverts-example01-1start.png
 
    A monkey head and a circle.
 
@@ -48,7 +48,7 @@ we will use a simple scene for the following part. We will be using a monkey hea
 the origin of the coordinate system as our base object and a circle at the same location as
 our parent mesh.
 
-.. figure:: /images/dupliverts-example01-2dupliverted.jpg
+.. figure:: /images/dupliverts-example01-2dupliverted.png
 
    Dupliverted monkeys.
 
@@ -86,7 +86,7 @@ objects.
 Orientation
 -----------
 
-.. figure:: /images/dupliverts-example01-3orientation.jpg
+.. figure:: /images/dupliverts-example01-3orientation.png
 
    Orientation enabled, orientation +Y.
 
@@ -101,15 +101,15 @@ To change the orientation of the duplicated objects, select the base object and 
 
 Output of various orientations:
 
-.. figure:: /images/dupliverts-example01-4negy.jpg
+.. figure:: /images/dupliverts-example01-4negy.png
 
    Negative Y.
 
-.. figure:: /images/dupliverts-example01-5posx.jpg
+.. figure:: /images/dupliverts-example01-5posx.png
 
    Positive X.
 
-.. figure:: /images/dupliverts-example01-6posz.jpg
+.. figure:: /images/dupliverts-example01-6posz.png
 
    Positive Z, up X.
 

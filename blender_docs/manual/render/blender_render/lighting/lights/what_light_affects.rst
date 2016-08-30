@@ -3,7 +3,7 @@
 What the Light Affects
 **********************
 
-.. figure:: /images/lighting-lamps-affects.jpg
+.. figure:: /images/lighting-lamps-affects.png
    :width: 308px
 
    Lamp panel with the light affecting options highlighted.

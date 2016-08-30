@@ -98,7 +98,7 @@ Your options include:
 Visualizing Physics
 ===================
 
-.. figure:: /images/bge-physics-visualization.jpg
+.. figure:: /images/bge-physics-visualization.png
 
 Go to :menuselection:`Game --> Show Physics Visualization` to show lines representing various attributes
 of the Bullet representation of your objects.
@@ -253,7 +253,7 @@ This means that the result is completely deterministic
 new objects that are added to the physics simulation after it was recorded.
 This may, or not, be desired according to the situation.
 
-.. figure:: /images/bge-physics-recordanimation.jpg
+.. figure:: /images/bge-physics-recordanimation.png
 
    Menu to record Keyframes to the Dopesheet.
 
@@ -269,7 +269,7 @@ Note that you can also use Game Logic Bricks and scripting. Everything will be r
 Keyframe Clean-up
 -----------------
 
-.. figure:: /images/bge-physics-dopesheetfull.jpg
+.. figure:: /images/bge-physics-dopesheetfull.png
 
    Resulting recorded animation.
 
@@ -277,7 +277,7 @@ Keyframe Clean-up
 Pressing :kbd:`O` while in the *DopeSheet* will remove all superfluous keyframes.
 Unwanted channels can also be removed.
 
-.. figure:: /images/bge-physics-dopesheetcleaned.jpg
+.. figure:: /images/bge-physics-dopesheetcleaned.png
 
    Cleaned up recording.
 

@@ -10,7 +10,7 @@ or a cloudy sky are just a few types of area lamp. The area lamp produces shadow
 borders by sampling a lamp along a grid the size of which is defined by the user.
 This is in direct contrast to point-like artificial lights which produce sharp borders.
 
-.. figure:: /images/lighting-lamps-area-com_options.jpg
+.. figure:: /images/lighting-lamps-area-com_options.png
    :width: 308px
 
    Commons Options.
@@ -54,7 +54,7 @@ the *Shadow* panel has the following default layout:
 
           Adaptive QMC settings.
 
-     - .. figure:: /images/lighting-lamps-area-cont_jitt.jpg
+     - .. figure:: /images/lighting-lamps-area-cont_jitt.png
           :width: 320px
 
           Constant Jittered settings.
@@ -67,12 +67,12 @@ The shape of the area light can be set to *Square* or *Rectangle*.
 
 .. list-table::
 
-   * - .. figure:: /images/lighting-lamps-area-square.jpg
+   * - .. figure:: /images/lighting-lamps-area-square.png
           :width: 308px
 
           Square options.
 
-     - .. figure:: /images/lighting-lamps-area-rect.jpg
+     - .. figure:: /images/lighting-lamps-area-rect.png
           :width: 308px
 
           Rectangle options.

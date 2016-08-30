@@ -8,12 +8,12 @@ This modifier does the exact same function as the triangulate function :kbd:`Ctr
 
 .. list-table::
 
-   * - .. figure:: /images/triangulate-before.jpg
+   * - .. figure:: /images/triangulate-before.png
           :width: 320px
 
           Mesh before Triangulate Modifier.
 
-     - .. figure:: /images/triangulate-after.jpg
+     - .. figure:: /images/triangulate-after.png
           :width: 320px
 
           Mesh after Triangulate Modifier.

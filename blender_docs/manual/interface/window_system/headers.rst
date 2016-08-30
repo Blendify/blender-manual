@@ -26,7 +26,7 @@ hold and drag with :kbd:`LMB`  to scale down the header to zero.
 
 .. list-table::
 
-   * - .. figure:: /images/interface-window_system-headers-hide.jpg
+   * - .. figure:: /images/interface-window_system-headers-hide.png
 
      - .. figure:: /images/interface-window_system-headers-show_02.jpg
 

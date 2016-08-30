@@ -34,7 +34,7 @@ Shape Keys Panel
    | Mode:     All modes
    | Panel:    :menuselection:`Properties editor --> Object Data --> Shape Keys`
 
-.. figure:: /images/shape_keys3.jpg
+.. figure:: /images/shape_keys3.png
 
    Shape Keys. Options.
 
@@ -102,7 +102,7 @@ Relative Shape Keys
 Relative shape keys deform from a selected shape key.
 By default, all relative shape keys deform from the first shape key called the Basis shape key.
 
-.. figure:: /images/shape_keys_relative3.jpg
+.. figure:: /images/shape_keys_relative3.png
 
    Relative Shape Keys. Options.
 
@@ -127,7 +127,7 @@ Absolute Shape Keys
 Absolute shape keys deform from the previous and to the next shape key.
 They are mainly used to deform the object into different shapes over time.
 
-.. figure:: /images/shape_keys_absolute2.jpg
+.. figure:: /images/shape_keys_absolute2.png
 
    Absolute Shape Keys. Options.
 
@@ -153,7 +153,7 @@ Name
 Interpolation
    This controls the interpolation between shape keys.
 
-.. figure:: /images/shape_keys_interpolation.jpg
+.. figure:: /images/shape_keys_interpolation.png
 
    Different types of interpolation.
 
@@ -170,7 +170,7 @@ Evaluation Time
    You can control the shape key influence with Evaluation Time.
    Here keyframes have been used to control Evaluation Time for animation.
 
-.. figure:: /images/shape_keys_evaluation.jpg
+.. figure:: /images/shape_keys_evaluation.png
    :width: 600px
 
    Animation with Evaluation Time.
@@ -189,7 +189,7 @@ This example shows you how to make a cube mesh transform into a sphere.
 - Switch to *Object Mode*.
 - Set the *Value* for "Key 1" to see the transformation between the shape keys.
 
-.. figure:: /images/shape_keys_workflow_2.jpg
+.. figure:: /images/shape_keys_workflow_2.png
 
    Shape Key workflow.
 
@@ -203,14 +203,14 @@ Workflow for Absolute Shape Keys
 
 .. figure:: /images/absolute_sk_workflow_1.png
 
-.. figure:: /images/absolute_sk_workflow_2.jpg
+.. figure:: /images/absolute_sk_workflow_2.png
    :width: 150px
 
 
 - Select the top face.
 - Extrude up :kbd:`E 1` confirm with :kbd:`LMB`.
 
-.. figure:: /images/absolute_sk_workflow_3.jpg
+.. figure:: /images/absolute_sk_workflow_3.png
    :width: 150px
 
 
@@ -227,14 +227,14 @@ Workflow for Absolute Shape Keys
 - Click the Reset Timing button.
 - Switch to Edit Mode.
 
-.. figure:: /images/absolute_sk_workflow5.jpg
+.. figure:: /images/absolute_sk_workflow5.png
    :width: 500px
 
 
 - Select shape key Key 2 to edit the third shape key.
 - Select the extruded side face and :kbd:`G Z 1` confirm with :kbd:`LMB`
 
-.. figure:: /images/absolute_sk_workflow_6.jpg
+.. figure:: /images/absolute_sk_workflow_6.png
    :width: 500px
 
 

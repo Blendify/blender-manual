@@ -54,11 +54,11 @@ are copied and the newly created copy of the chain is matched with the stroke.
 
 .. list-table::
 
-   * - .. figure:: /images/riggingtemplatingstrokeconversionsamearmaturetemplateex1.jpg
+   * - .. figure:: /images/riggingtemplatingstrokeconversionsamearmaturetemplateex1.png
 
           Before conversion.
 
-     - .. figure:: /images/riggingtemplatingstrokeconversionsamearmaturetemplateex2.jpg
+     - .. figure:: /images/riggingtemplatingstrokeconversionsamearmaturetemplateex2.png
 
           After conversion.
 
@@ -75,11 +75,11 @@ Note how a two-bone chain is fitted to a three-segment stroke.
 .. list-table::
    The newly created bones are numbered sequentially, after the original bones' names.
 
-   * - .. figure:: /images/riggingtemplatingmultipolystrokesconversionex1.jpg
+   * - .. figure:: /images/riggingtemplatingmultipolystrokesconversionex1.png
 
           Before conversion.
 
-     - .. figure:: /images/riggingtemplatingmultipolystrokesconversionex2.jpg
+     - .. figure:: /images/riggingtemplatingmultipolystrokesconversionex2.png
 
           After conversion.
 
@@ -117,11 +117,11 @@ OK now, here are some important ground rules:
 .. list-table::
    The *Bone Sketching* panel with *Template* conversion method enabled.
 
-   * - .. figure:: /images/riggingtemplatingbonesketchingpanelcurrentarmaturetemplate.jpg
+   * - .. figure:: /images/riggingtemplatingbonesketchingpanelcurrentarmaturetemplate.png
 
           With current edited armature as template.
 
-     - .. figure:: /images/riggingtemplatingbonesketchingpanelotherarmaturetemplate.jpg
+     - .. figure:: /images/riggingtemplatingbonesketchingpanelotherarmaturetemplate.png
 
           With another armature as template.
 
@@ -144,17 +144,17 @@ No, View, Joint buttons
 .. list-table::
    Templating: bone roll example.
 
-   * - .. figure:: /images/riggingtemplatingbonerollexno.jpg
+   * - .. figure:: /images/riggingtemplatingbonerollexno.png
           :width: 200px
 
           With No roll option.
 
-     - .. figure:: /images/riggingtemplatingbonerollexview.jpg
+     - .. figure:: /images/riggingtemplatingbonerollexview.png
           :width: 200px
 
           With View roll option.
 
-     - .. figure:: /images/riggingtemplatingbonerollexjoint.jpg
+     - .. figure:: /images/riggingtemplatingbonerollexjoint.png
           :width: 200px
 
           With Joint roll option.
@@ -189,22 +189,22 @@ Think of them as A(ngle of bones), L(ength of bones) and D(efinition of stroke).
    Examples of Template conversions for various influence weights values,
    with one stroke quite similar to the template chain's shape, and one stroke very different.
 
-   * - .. figure:: /images/riggingtemplatinginfluenceweightsex111.jpg
+   * - .. figure:: /images/riggingtemplatinginfluenceweightsex111.png
           :width: 150px
 
           A: 1.0; L: 1.0; D: 1.0.
 
-     - .. figure:: /images/riggingtemplatinginfluenceweightsex100.jpg
+     - .. figure:: /images/riggingtemplatinginfluenceweightsex100.png
           :width: 150px
 
           A: 1.0; L: 0.0; D: 0.0.
 
-     - .. figure:: /images/riggingtemplatinginfluenceweightsex010.jpg
+     - .. figure:: /images/riggingtemplatinginfluenceweightsex010.png
           :width: 150px
 
           A: 0.0; L: 1.0; D: 0.0.
 
-     - .. figure:: /images/riggingtemplatinginfluenceweightsex001.jpg
+     - .. figure:: /images/riggingtemplatinginfluenceweightsex001.png
           :width: 150px
 
           A: 0.0; L: 0.0; D: 1.0.
@@ -225,13 +225,13 @@ S and N text fields, "auto" button
 .. list-table::
    Naming and placeholders, using a simple leg template.
 
-   * - .. figure:: /images/riggingtemplatingnameplaceholdersex1.jpg
+   * - .. figure:: /images/riggingtemplatingnameplaceholdersex1.png
           :width: 325px
 
           Before conversion (note the &n and &s
           placeholders in template bones' names).
 
-     - .. figure:: /images/riggingtemplatingnameplaceholdersex2.jpg
+     - .. figure:: /images/riggingtemplatingnameplaceholdersex2.png
           :width: 205px
 
           After conversion: the placeholders have been replaced by the
@@ -241,13 +241,13 @@ S and N text fields, "auto" button
 .. list-table::
    Auto naming and placeholders, using a simple leg template.
 
-   * - .. figure:: /images/riggingtemplatingautonamingex1.jpg
+   * - .. figure:: /images/riggingtemplatingautonamingex1.png
           :width: 285px
 
           Before conversion (note that, in the Bone Sketching panel,
           the S and N fields are empty, and the small "auto" button is enabled).
 
-     - .. figure:: /images/riggingtemplatingautonamingex2.jpg
+     - .. figure:: /images/riggingtemplatingautonamingex2.png
           :width: 315px
 
 

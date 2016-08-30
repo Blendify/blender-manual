@@ -35,7 +35,7 @@ Options for Files (System Level)
 Save and Auto Save
 ------------------
 
-.. figure:: /images/basics-undo-and-redo-autosaveoptions.jpg
+.. figure:: /images/basics-undo-and-redo-autosaveoptions.png
    :align: right
 
    Auto Save options.

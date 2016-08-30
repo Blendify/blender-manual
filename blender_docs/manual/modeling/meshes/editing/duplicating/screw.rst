@@ -31,14 +31,14 @@ in Fig. :ref:`fig-mesh-screw-wood` and Fig. :ref:`fig-mesh-screw-spring`.
 
    * - .. _fig-mesh-screw-wood:
 
-       .. figure:: /images/modeling_mesh_screw_screw_example_shell.jpg
+       .. figure:: /images/modeling_mesh_screw_screw_example_shell.png
           :width: 320px
 
           Wood Screw tip done with the screw tool.
 
      - .. _fig-mesh-screw-spring:
 
-       .. figure:: /images/modeling_mesh_screw_screw_example_spring.jpg
+       .. figure:: /images/modeling_mesh_screw_screw_example_spring.png
           :width: 320px
 
           Spring done with the screw tool.
@@ -99,7 +99,7 @@ both in the Info Editor and at the place where you clicked to start performing t
 
 .. _fig-mesh-screw-error-popup:
 
-.. figure:: /images/modeling_mesh_screw_error_msg_screw_tool.jpg
+.. figure:: /images/modeling_mesh_screw_error_msg_screw_tool.png
 
    Error message when clicking in the Screw Tool with an incorrect or bad selection.
 
@@ -154,7 +154,7 @@ you can press :kbd:`Ctrl-Z` at any time in *Edit Mode*.
 
 .. _fig-mesh-screw-transform-panel:
 
-.. figure:: /images/modeling_mesh_screw_cursor_basic_location.jpg
+.. figure:: /images/modeling_mesh_screw_cursor_basic_location.png
 
    Cursor Basic Location - Transform Panel.
 
@@ -203,7 +203,7 @@ The Spring example
 
 .. _fig-mesh-screw-circle:
 
-.. figure:: /images/modeling_mesh_screw_screw_circle_moved_x_-3bu.jpg
+.. figure:: /images/modeling_mesh_screw_screw_circle_moved_x_-3bu.png
 
    Circle placed at X -3,0,0.
 
@@ -234,7 +234,7 @@ Now we will create a height vector for Blender:
 
 .. _fig-mesh-screw-profile:
 
-.. figure:: /images/modeling_mesh_screw_spring_profile_ready.jpg
+.. figure:: /images/modeling_mesh_screw_spring_profile_ready.png
 
    Profile and vector created.
 
@@ -276,12 +276,12 @@ changed the angular vector of the height you have given to Blender to the opposi
 
 .. list-table:: Spring direction.
 
-   * - .. figure:: /images/modeling_mesh_screw_screw_spring_counterclockwise.jpg
+   * - .. figure:: /images/modeling_mesh_screw_screw_spring_counterclockwise.png
           :width: 320px
 
           Counterclockwise direction.
 
-     - .. figure:: /images/modeling_mesh_screw_screw_spring_clockwise.jpg
+     - .. figure:: /images/modeling_mesh_screw_screw_spring_clockwise.png
           :width: 320px
 
           Flipped to Clockwise direction.
@@ -328,12 +328,12 @@ with the *Screw* tool were created using the Top Ortho View.
 
 .. list-table:: Bended Mesh.
 
-   * - .. figure:: /images/modeling_mesh_screw_angular_vector_example_1.jpg
+   * - .. figure:: /images/modeling_mesh_screw_angular_vector_example_1.png
           :width: 320px
 
           Example 1 - The Axis will give the profile a starting vector angle.
 
-     - .. figure:: /images/modeling_mesh_screw_angular_vector_example_2.jpg
+     - .. figure:: /images/modeling_mesh_screw_angular_vector_example_2.png
           :width: 320px
 
           Example 2 - The vector angle is maintained along the extrusions.
@@ -381,7 +381,7 @@ will assembly perfectly with each other.
 
    * - .. _fig-mesh-screw-spindle:
 
-       .. figure:: /images/modeling_mesh_screw_screw_perfect_spindle_profile.jpg
+       .. figure:: /images/modeling_mesh_screw_screw_perfect_spindle_profile.png
           :width: 320px
 
           Profile for a perfect screw spindle.
@@ -390,7 +390,7 @@ will assembly perfectly with each other.
 
      - .. _fig-mesh-screw-generated-mesh:
 
-       .. figure:: /images/modeling_mesh_screw_screw_generated_perfect_spindle.jpg
+       .. figure:: /images/modeling_mesh_screw_screw_generated_perfect_spindle.png
           :width: 320px
 
           Generated Mesh.
@@ -406,13 +406,13 @@ The generated mesh looks like a medieval ramp!
 
 .. list-table:: Ramp.
 
-   * - .. figure:: /images/modeling_mesh_screw_ramp_like_profile.jpg
+   * - .. figure:: /images/modeling_mesh_screw_ramp_like_profile.png
           :width: 320px
 
           Profile with starting and ending vertices forming a parallel line with the Blender Axis.
 
 
-     - .. figure:: /images/modeling_mesh_screw_ramp_like_generated.jpg
+     - .. figure:: /images/modeling_mesh_screw_ramp_like_generated.png
           :width: 320px
 
           Generated Mesh with the profile at the left. We have inclined the visualization a bit.
@@ -455,7 +455,7 @@ To make this new example as short as possible, we will recycle our last example 
 
    * - .. _fig-mesh-screw-start:
 
-       .. figure:: /images/modeling_mesh_screw_profile_with_vector_angle.jpg
+       .. figure:: /images/modeling_mesh_screw_profile_with_vector_angle.png
           :width: 320px
 
           Profile With Starting Vector Angle.
@@ -463,7 +463,7 @@ To make this new example as short as possible, we will recycle our last example 
 
      - .. _fig-mesh-screw-start-mesh:
 
-       .. figure:: /images/modeling_mesh_screw_generated_with_base_vector_angle.jpg
+       .. figure:: /images/modeling_mesh_screw_generated_with_base_vector_angle.png
           :width: 320px
 
           Generated Mesh with the Profile.

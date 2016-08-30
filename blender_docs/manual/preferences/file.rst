@@ -107,7 +107,7 @@ Load UI
    This can be changed individually when loading a file from the
    *Open blend-file* panel of the :doc:`File Browser </editors/file_browser/index>`.
 
-.. figure:: /images/interface-configuration-file-filefilter-25.jpg
+.. figure:: /images/interface-configuration-file-filefilter-25.png
 
    File extension filter.
 

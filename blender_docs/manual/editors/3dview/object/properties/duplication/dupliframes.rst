@@ -10,7 +10,7 @@ This is a useful tool to quickly arrange objects.
 Examples
 ========
 
-.. figure:: /images/modeling-dupliframes-example01.jpg
+.. figure:: /images/modeling-dupliframes-example01.png
    :width: 300px
 
    Settings for the curve.
@@ -20,7 +20,7 @@ Examples
 In the *Curve* menu under *Path Animation* enable *Follow*
 and set *Frames* to something more reasonable than 100 (say 16).
 
-.. figure:: /images/modeling-dupliframes-example02.jpg
+.. figure:: /images/modeling-dupliframes-example02.png
    :width: 300px
 
    Settings for the object.
@@ -35,7 +35,7 @@ Add a *Monkey*. In the *Object* menu under *Duplication* enable
    The *Speed* option is used when the parent-child relationship is set to *Follow Path* (see below).
    In this example, the monkey will then travel along the circle over 16 frames.
 
-.. figure:: /images/modeling-dupliframes-example03.jpg
+.. figure:: /images/modeling-dupliframes-example03.png
    :width: 300px
 
    Parenting.
@@ -45,7 +45,7 @@ To parent the monkey to the Bézier circle, first select the monkey then the cur
 (so that the curve is the active object) and :kbd:`Ctrl-P`.
 Select the monkey and :kbd:`Alt-O` to reset its origin.
 
-.. figure:: /images/modeling-dupliframes-example04.jpg
+.. figure:: /images/modeling-dupliframes-example04.png
    :width: 300px
 
    Orientation tweaks.

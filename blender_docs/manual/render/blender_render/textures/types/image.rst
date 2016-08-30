@@ -617,7 +617,7 @@ Interpolation
    .. list-table::
       Enlarged Image texture without and with *Interpolation*
 
-      * - .. figure:: /images/imagetextur-linien.jpg
+      * - .. figure:: /images/imagetextur-linien.png
              :width: 160px
 
         - .. figure:: /images/imagetexturinterpol-linien.jpg

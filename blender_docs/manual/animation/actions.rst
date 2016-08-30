@@ -5,7 +5,7 @@ Actions
 
 When animating objects and properties in Blender, Actions record and contain the data.
 
-.. figure:: /images/k_animation_actions_data3.jpg
+.. figure:: /images/k_animation_actions_data3.png
 
    Actions.
 
@@ -16,7 +16,7 @@ the animation is saved to the Action.
 Each property has a channel which it is recorded to, for example,
 Cube.location.x is recorded to Channel X Location.
 
-.. figure:: /images/k_animation_actions_keyframes.jpg
+.. figure:: /images/k_animation_actions_keyframes.png
 
    Graph Editor. Each Channel has an F-Curve represented by the lines between the keyframes.
 
@@ -36,7 +36,7 @@ Keyframes
 F-Curve Interpolation
 =====================
 
-.. figure:: /images/animation_driver_fcurve.jpg
+.. figure:: /images/animation_driver_fcurve.png
 
    Graph Editor: Channel F-Curve.
 
@@ -73,7 +73,7 @@ This example shows you how to animate a cubes location, rotation, and scale.
 - Use Grab/Move :kbd:`G`, Rotate :kbd:`R`, Scale :kbd:`S`, to transform the cube.
 - Press :kbd:`I` in the 3D View. From the *Insert Keyframe Menu* select *LocRotScale*.
 
-.. figure:: /images/actions_insert_keyframe_00.jpg
+.. figure:: /images/actions_insert_keyframe_00.png
    :width: 500px
 
    Insert Keyframes.
@@ -81,7 +81,7 @@ This example shows you how to animate a cubes location, rotation, and scale.
 
 To test the animation, press :kbd:`Alt-A` to play.
 
-.. figure:: /images/actions_insert_keyframe_01.jpg
+.. figure:: /images/actions_insert_keyframe_01.png
    :width: 500px
 
    The animation on frames 1, 50, 100.
@@ -90,7 +90,7 @@ To test the animation, press :kbd:`Alt-A` to play.
 Auto Keyframe
 -------------
 
-.. figure:: /images/kia_cube03.jpg
+.. figure:: /images/kia_cube03.png
 
    Timeline Auto Keyframe.
 
@@ -104,7 +104,7 @@ See :ref:`Timeline V Keyframe Control <animation-editors-timeline-autokeyframe>`
 Keying Sets
 -----------
 
-.. figure:: /images/kia_cube02.jpg
+.. figure:: /images/kia_cube02.png
 
    Timeline Keying Sets.
 
@@ -125,7 +125,7 @@ See :doc:`Keying Sets </animation/keyframes/keying_sets>` for more info.
 Properties
 ----------
 
-.. figure:: /images/kia_cube04.jpg
+.. figure:: /images/kia_cube04.png
 
    Keyframe properties.
 
@@ -135,7 +135,7 @@ To add keyframes to a property in the UI, :kbd:`RMB` the property,
 then select Insert Single Keyframe, or Insert Keyframes.
 Insert Keyframes :kbd:`I` will add keyframes for the set of properties.
 
-.. figure:: /images/animation_properties.jpg
+.. figure:: /images/animation_properties.png
 
    Properties, Drivers, Keyframes.
 
@@ -188,7 +188,7 @@ Editing
 Working with Actions
 ====================
 
-.. figure:: /images/k_animation_actions_create.jpg
+.. figure:: /images/k_animation_actions_create.png
    :align: right
 
    Action Browser.

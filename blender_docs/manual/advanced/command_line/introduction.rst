@@ -44,7 +44,7 @@ resulting console text being printed to it.
 Mac OSX
 -------
 
-.. figure:: /images/interface-window_system-console-mac.jpg
+.. figure:: /images/interface-window_system-console-mac.png
    :align: right
    :width: 360px
 

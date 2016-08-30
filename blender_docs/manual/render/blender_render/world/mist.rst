@@ -12,7 +12,7 @@ the further the object is away from the camera the less its alpha value will be.
 Option
 ======
 
-.. figure:: /images/bi_world-mistpanel.jpg
+.. figure:: /images/bi_world-mistpanel.png
    :width: 305px
 
    Mist panel.

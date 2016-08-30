@@ -30,7 +30,7 @@ the Pivot Point is not taken into account and the results are view dependent.
 Usage
 =====
 
-.. figure:: /images/editors_3dview_transformation_advanced_warp_warp-mesh.jpg
+.. figure:: /images/editors_3dview_transformation_advanced_warp_warp-mesh.png
 
    In this example, a plane is warped around the 3D cursor by the indicated number of degrees.
 

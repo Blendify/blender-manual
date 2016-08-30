@@ -36,7 +36,7 @@ Light Falloff and Sphere
    These settings control how the light of the *Spot* decays with distance.
    See :doc:`Light Attenuation </render/blender_render/lighting/lights/light_attenuation>` for details.
 
-   .. figure:: /images/lighting-lamps-spot-terms.jpg
+   .. figure:: /images/lighting-lamps-spot-terms.png
       :width: 610px
 
       Changing the Spot options also changes the appearance of the spotlight as displayed in the 3D View.
@@ -45,7 +45,7 @@ Light Falloff and Sphere
 Shadows
 =======
 
-.. figure:: /images/lighting-lamps-spot-ray_panel.jpg
+.. figure:: /images/lighting-lamps-spot-ray_panel.png
    :width: 306px
 
    Shadow panel set to Ray Shadow.
@@ -85,10 +85,10 @@ Size
    .. list-table::
       Changing the spot *Size* option.
 
-      * - .. figure:: /images/lighting-lamps-spot-size_45.jpg
+      * - .. figure:: /images/lighting-lamps-spot-size_45.png
              :width: 320px
 
-        - .. figure:: /images/lighting-lamps-spot-size_60.jpg
+        - .. figure:: /images/lighting-lamps-spot-size_60.png
              :width: 320px
 
 

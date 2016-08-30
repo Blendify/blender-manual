@@ -3,7 +3,7 @@
 Property Sensor
 ***************
 
-.. figure:: /images/bge_sensor_property1.jpg
+.. figure:: /images/bge_sensor_property1.png
    :width: 300px
 
    Property sensor.

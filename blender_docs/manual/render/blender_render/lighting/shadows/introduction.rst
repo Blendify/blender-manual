@@ -52,7 +52,7 @@ and their output may or may not contain shadow information...
 Lamps: Ray-traced Shadows
 =========================
 
-.. figure:: /images/lighting-shadow-ray.jpg
+.. figure:: /images/lighting-shadow-ray.png
    :width: 310px
 
    Ray Shadow enabled for a lamp.
@@ -97,7 +97,7 @@ Ray-traced shadows can be cast by the following types of lamp:
 Lamps: Buffered Shadows
 =======================
 
-.. figure:: /images/lighting-shadow-spot_buf_shad.jpg
+.. figure:: /images/lighting-shadow-spot_buf_shad.png
    :width: 310px
 
    Buffer Shadow enabled for a Spot lamp.

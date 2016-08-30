@@ -39,7 +39,7 @@ When a game is running, values of properties are set, manipulated, and evaluated
 Logic Properties are created and edited using the panel on the left of the Logic Editor
 Panel. The top menu provides a list of the available property types.
 
-.. figure:: /images/bge_game_logic_properties.jpg
+.. figure:: /images/bge_game_logic_properties.png
 
    Properties Panel of the Logic Editor.
 

@@ -31,7 +31,7 @@ would select a "cross" with the prior selected face as the middle.
 If you want to avoid switching to Edge Select Mode to select a Face Loop,
 use the :kbd:`Alt-RMB` shortcut.
 
-.. figure:: /images/face-mode_different-loop-selections.jpg
+.. figure:: /images/face-mode_different-loop-selections.png
    :width: 600px
 
    Different Loopselect Operations on a grid in Face Select Mode.
@@ -55,7 +55,7 @@ use the :kbd:`Alt-RMB` shortcut.
 Ngons in Face Select Mode
 =========================
 
-.. figure:: /images/face-mode_ngon_visual-problem.jpg
+.. figure:: /images/face-mode_ngon_visual-problem.png
 
    Ngon-Face having its center dot inside another face.
 

@@ -13,7 +13,7 @@ uses one of three Boolean operations that can be used to create a single mesh ou
 
 
 .. TODO: Update image with 'Show all Edges' enabled
-.. figure:: /images/modifier_generate_boolean_union_intersect_difference_examples.jpg
+.. figure:: /images/modifier_generate_boolean_union_intersect_difference_examples.png
 
    The Union, Intersection and Difference between a Cube and a UV Sphere,
    with the modifier applied to the Sphere and using the cube as target.
@@ -106,19 +106,19 @@ and the Cube being the modified mesh.
 
 .. list-table::
 
-   * - .. figure:: /images/modifier_generate_boolean_multi_materials_example_base.jpg
+   * - .. figure:: /images/modifier_generate_boolean_multi_materials_example_base.png
 
           Cube with Multi-Materials and Icosphere with basic Material.
 
-     - .. figure:: /images/modifier_generate_boolean_multi_materials_example_union.jpg
+     - .. figure:: /images/modifier_generate_boolean_multi_materials_example_union.png
 
           Union: The first active Material of the Cube is added to the new topology.
 
-   * - .. figure:: /images/modifier_generate_boolean_multi_materials_example_difference_.jpg
+   * - .. figure:: /images/modifier_generate_boolean_multi_materials_example_difference_.png
 
           Difference: The Icosphere was subtracted from the Cube.
 
-     - .. figure:: /images/modifier_generate_boolean_multi_materials_example_intersect_.jpg
+     - .. figure:: /images/modifier_generate_boolean_multi_materials_example_intersect_.png
 
           Intersect: The resulting Mesh was copied and rotated 180.
 
@@ -133,11 +133,11 @@ and this may result in a sub-optimal texture assignment. You can see this in the
 
 .. list-table::
 
-   * - .. figure:: /images/modifier_generate_boolean_multi_materials_example_inverted_normals_back.jpg
+   * - .. figure:: /images/modifier_generate_boolean_multi_materials_example_inverted_normals_back.png
 
           Front of the target with the modified mesh materials.
 
-     - .. figure:: /images/modifier_generate_boolean_multi_materials_example_inverted_normals_front.jpg
+     - .. figure:: /images/modifier_generate_boolean_multi_materials_example_inverted_normals_front.png
 
           Back of the target with the modified mesh materials.
 
@@ -171,11 +171,11 @@ And in the bottom row we show the unwrap in the Blender UV/Image Editor.
 
           Difference operation applied.
 
-   * - .. figure:: /images/modifier_generate_boolean_uv_map_face_modified_mesh.jpg
+   * - .. figure:: /images/modifier_generate_boolean_uv_map_face_modified_mesh.png
 
           Faces of the modified mesh mapped.
 
-     - .. figure:: /images/modifier_generate_boolean_uv_map_face_modified_mesh_new_topology.jpg
+     - .. figure:: /images/modifier_generate_boolean_uv_map_face_modified_mesh_new_topology.png
 
           New topology mapped and UV faces assigned.
 
@@ -227,11 +227,11 @@ Below are two images: one with the subsurf added to the target, and another with
 
 .. list-table::
 
-   * - .. figure:: /images/modifier_generate_boolean_subsurf_added_to_the_target.jpg
+   * - .. figure:: /images/modifier_generate_boolean_subsurf_added_to_the_target.png
 
           Modifier with Subsurf Target.
 
-     - .. figure:: /images/modifier_generate_boolean_resulting_mesh_subsurf_added_to_the_target.jpg
+     - .. figure:: /images/modifier_generate_boolean_resulting_mesh_subsurf_added_to_the_target.png
 
           The Resulting Topology.
 
@@ -293,11 +293,11 @@ In the images below, all face normals are pointing outwards (Normal meshes).
 
 .. list-table::
 
-   * - .. figure:: /images/modifier_generate_boolean_normals_pointing_outwards.jpg
+   * - .. figure:: /images/modifier_generate_boolean_normals_pointing_outwards.png
 
           Faces with normals pointing outwards.
 
-     - .. figure:: /images/modifier_boolean_difference_normals_pointing_outwards.jpg
+     - .. figure:: /images/modifier_boolean_difference_normals_pointing_outwards.png
 
           Normal Boolean modifier operation (Difference operation).
 
@@ -306,11 +306,11 @@ In the images below, all face normals are inverted and using the intersection op
 
 .. list-table::
 
-   * - .. figure:: /images/modifier_generate_boolean_normals_pointing_inwards.jpg
+   * - .. figure:: /images/modifier_generate_boolean_normals_pointing_inwards.png
 
           Boolean Operation with inverted normals.
 
-     - .. figure:: /images/modifier_generate_boolean_intersection_normals_pointing_inwards.jpg
+     - .. figure:: /images/modifier_generate_boolean_intersection_normals_pointing_inwards.png
 
           Normal Boolean modifier operation.
 
@@ -322,11 +322,11 @@ you can see that the modifier has bad effects when applied, leaving faces opened
 
 .. list-table::
 
-   * - .. figure:: /images/modifier_generate_boolean_normals_mixed_inwards_outwards.jpg
+   * - .. figure:: /images/modifier_generate_boolean_normals_mixed_inwards_outwards.png
 
           Face normals mixed, pointed to different directions.
 
-     - .. figure:: /images/modifier_generate_boolean_resulting_mesh_normals_mixed.jpg
+     - .. figure:: /images/modifier_generate_boolean_resulting_mesh_normals_mixed.png
 
           Resulting operation leaves faces opened.
 
@@ -364,11 +364,11 @@ but Blender connected a copy of the icosphere to the Cube mesh, trying to apply 
 
 .. list-table::
 
-   * - .. figure:: /images/modifier_generate_boolean_mesh_with_mixed_empty_faces.jpg
+   * - .. figure:: /images/modifier_generate_boolean_mesh_with_mixed_empty_faces.png
 
           Mesh with two empty faces mixed with normal faces.
 
-     - .. figure:: /images/modifier_generate_boolean_mesh_with_mixed_empty_faces_result.jpg
+     - .. figure:: /images/modifier_generate_boolean_mesh_with_mixed_empty_faces_result.png
 
           Result of a difference operation applied.
 
@@ -385,11 +385,11 @@ In the images below, is the resulting operation when using two non-closed volume
 
 .. list-table::
 
-   * - .. figure:: /images/modifiers_generate_boolean_complete_face_shape.jpg
+   * - .. figure:: /images/modifiers_generate_boolean_complete_face_shape.png
 
           Non-closed volumes forming a new topology.
 
-     - .. figure:: /images/modifier_generate_boolean_resulting_complete_face_shape.jpg
+     - .. figure:: /images/modifier_generate_boolean_resulting_complete_face_shape.png
 
           Resulting operation using two open volumes.
 
@@ -405,10 +405,10 @@ the shading (smooth/flat) does not affect the calculations of the modifier.
 
 .. list-table::
 
-   * - .. figure:: /images/modifiers_boolean_incomplete_face_shape.jpg
+   * - .. figure:: /images/modifiers_boolean_incomplete_face_shape.png
 
           Open volumes that are not forming a new topology.
 
-     - .. figure:: /images/modifier_generate_boolean_resulting_incomplete_face_shape.jpg
+     - .. figure:: /images/modifier_generate_boolean_resulting_incomplete_face_shape.png
 
           Resulting Operation of image on the left

@@ -22,7 +22,7 @@ and buttons to control which of all the controllers in the current Game Logic ar
 Column Heading
 ==============
 
-.. figure:: /images/bge_controller_column1.jpg
+.. figure:: /images/bge_controller_column1.png
    :width: 292px
 
    Controller Column Headings.
@@ -60,10 +60,10 @@ Link
 Object Heading
 ==============
 
-.. figure:: /images/bge_controller_column2.jpg
+.. figure:: /images/bge_controller_column2.png
    :width: 292px
 
-.. figure:: /images/bge_controller_column4.jpg
+.. figure:: /images/bge_controller_column4.png
    :width: 292px
 
 

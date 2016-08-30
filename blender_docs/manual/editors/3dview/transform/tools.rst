@@ -12,7 +12,7 @@ Randomize Transform
    | Mode:     Object Mode
    | Menu:     :menuselection:`Object --> Transform --> Randomize Transform`
 
-.. figure:: /images/transform-randomize.jpg
+.. figure:: /images/transform-randomize.png
    :figwidth: 158px
    :align: right
 

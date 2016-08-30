@@ -27,7 +27,7 @@ Options
 Target (Mesh Object Type)
    This constraint uses one target, and is not functional (red state) when it has none.
 
-   .. figure:: /images/constraints-tracking-stretchto.jpg
+   .. figure:: /images/constraints-tracking-stretchto.png
       :width: 250px
 
       Stretch To panel for a Mesh Object.

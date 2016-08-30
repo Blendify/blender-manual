@@ -62,6 +62,6 @@ The *second* Map Value node subtracts 1 from the input,
 giving working values between (-1.00 to 1.0), and multiplies that by 150,
 resulting in an output value between (-150 to 150) over a 30-frame sequence.
 
-.. figure:: /images/compositing-map_multiply.jpg
+.. figure:: /images/compositing-map_multiply.png
 
    Using Map Value to multiply

@@ -3,7 +3,7 @@
 Light Attenuation
 *****************
 
-.. figure:: /images/lighting-falloff-hilite.jpg
+.. figure:: /images/lighting-falloff-hilite.png
    :width: 312px
 
    Lamp panel, falloff options highlighted.
@@ -142,7 +142,7 @@ Graphical Summary
 Below is a graph summarizing the lin/quad attenuation type,
 showing attenuation with or without the *Sphere* option (described later).
 
-.. figure:: /images/distancegraph.jpg
+.. figure:: /images/distancegraph.png
    :width: 610px
 
 
@@ -190,7 +190,7 @@ the graph shows that the intensity of the light starts off at its maximum
 
 .. list-table::
 
-   * - .. figure:: /images/lighting-falloff-custom_default.jpg
+   * - .. figure:: /images/lighting-falloff-custom_default.png
           :width: 306px
 
           Default Falloff Curve panel graph.
@@ -206,7 +206,7 @@ the light source, you could alter the graph as below:
 
 .. list-table::
 
-   * - .. figure:: /images/lighting-falloff-custom_reversed.jpg
+   * - .. figure:: /images/lighting-falloff-custom_reversed.png
           :width: 310px
 
           Falloff Curve for reversed attenuation.
@@ -225,7 +225,7 @@ along with its resultant render output:
 
 .. list-table::
 
-   * - .. figure:: /images/lighting-falloff-custom_oscill.jpg
+   * - .. figure:: /images/lighting-falloff-custom_oscill.png
           :width: 310px
 
           Oscillating attenuation profile.
@@ -288,7 +288,7 @@ which are so far away that their falloff is not noticeable.
 Sphere
 ======
 
-.. figure:: /images/lighting-falloff-point_sphere.jpg
+.. figure:: /images/lighting-falloff-point_sphere.png
    :width: 300px
 
    Screenshot of the 3D View editor, showing the Sphere light clipping circle.
@@ -317,7 +317,7 @@ See the graphic at the end of the description of the *Lin/Quad Weighted* attenua
 
 .. list-table::
 
-   * - .. figure:: /images/light-constant_falloff-sphere_active-lighted_plane.jpg
+   * - .. figure:: /images/light-constant_falloff-sphere_active-lighted_plane.png
           :width: 320px
 
           Render showing the light attenuation of a Constant falloff light type with the Sphere option active.
@@ -439,7 +439,7 @@ Sphere Example
 
 .. _fig-bi-light-attenuation-clip:
 
-.. figure:: /images/lamprender-sphereview.jpg
+.. figure:: /images/lamprender-sphereview.png
 
    Clipping Sphere.
 

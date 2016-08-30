@@ -144,12 +144,12 @@ between their original position and the adjacent edge loop, regardless of the ed
 
 .. list-table::
 
-   * - .. figure:: /images/edgeslide1.jpg
+   * - .. figure:: /images/edgeslide1.png
           :width: 320px
 
           Selected Edge Loop.
 
-     - .. figure:: /images/edgeslide2.jpg
+     - .. figure:: /images/edgeslide2.png
           :width: 320px
 
           Repositioned Edge Loop.
@@ -171,12 +171,12 @@ use the :kbd:`Alt-Wheel` to scroll to a different edge.
 
 .. list-table::
 
-   * - .. figure:: /images/edgeslide3.jpg
+   * - .. figure:: /images/edgeslide3.png
           :width: 320px
 
           Even Mode Enabled.
 
-     - .. figure:: /images/edgeslide4.jpg
+     - .. figure:: /images/edgeslide4.png
           :width: 320px
 
           Even Mode with Flip Enabled.
@@ -231,12 +231,12 @@ or on two selected vertices or two selected faces that implicitly share an edge 
 
 .. list-table::
 
-   * - .. figure:: /images/edgeflip1.jpg
+   * - .. figure:: /images/edgeflip1.png
           :width: 320px
 
           Selected Edge.
 
-     - .. figure:: /images/edgeflip2.jpg
+     - .. figure:: /images/edgeflip2.png
           :width: 320px
 
           Edge, rotated CW.
@@ -285,12 +285,12 @@ there would be an empty band of deleted faces all the way around the sphere inst
 
 .. list-table::
 
-   * - .. figure:: /images/deleteedgeloop1.jpg
+   * - .. figure:: /images/deleteedgeloop1.png
           :width: 320px
 
           Selected Edge Loop.
 
-     - .. figure:: /images/deleteedgeloop2.jpg
+     - .. figure:: /images/deleteedgeloop2.png
           :width: 320px
 
           Edge Loop Deleted.
@@ -313,12 +313,12 @@ removing the face loop it ran through.
 
 .. list-table::
 
-   * - .. figure:: /images/collapse1.jpg
+   * - .. figure:: /images/collapse1.png
           :width: 320px
 
           Selected Edge Ring.
 
-     - .. figure:: /images/collapse2.jpg
+     - .. figure:: /images/collapse2.png
           :width: 320px
 
           Edge Ring Collapsed.
@@ -340,12 +340,12 @@ a hole will be created, and the selected edges are duplicated to form the border
 
 .. list-table::
 
-   * - .. figure:: /images/edgesplit1.jpg
+   * - .. figure:: /images/edgesplit1.png
           :width: 320px
 
           Selected Edges.
 
-     - .. figure:: /images/edgesplit2.jpg
+     - .. figure:: /images/edgesplit2.png
           :width: 320px
 
           Adjacent face moved to reveal hole left by split.
@@ -369,12 +369,12 @@ Simple example showing two closed edge loops.
 
 .. list-table::
 
-   * - .. figure:: /images/mesh_bridge_simple_before.jpg
+   * - .. figure:: /images/mesh_bridge_simple_before.png
           :width: 320px
 
           Input.
 
-     - .. figure:: /images/mesh_bridge_simple_after.jpg
+     - .. figure:: /images/mesh_bridge_simple_after.png
           :width: 320px
 
           Bridge Result.
@@ -383,7 +383,7 @@ Example of bridge tool between edge loops with different numbers of vertices.
 
 .. list-table::
 
-   * - .. figure:: /images/mesh_bridge_uneven_before.jpg
+   * - .. figure:: /images/mesh_bridge_uneven_before.png
           :width: 320px
 
           Input.
@@ -411,12 +411,12 @@ Example showing how bridge tool can detect multiple loops and loft them in one s
 
 .. list-table::
 
-   * - .. figure:: /images/mesh_bridge_multi_before.jpg
+   * - .. figure:: /images/mesh_bridge_multi_before.png
           :width: 320px
 
           Input.
 
-     - .. figure:: /images/mesh_bridge_multi_after.jpg
+     - .. figure:: /images/mesh_bridge_multi_after.png
           :width: 320px
 
           Bridge Result.

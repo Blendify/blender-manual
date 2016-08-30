@@ -21,7 +21,7 @@ once activated you can use the ruler to measure lengths and angles in the scene.
 Usage
 =====
 
-.. figure:: /images/editors_3dview_ruler_basic.jpg
+.. figure:: /images/editors_3dview_ruler_basic.png
 
 Here are common steps for using the ruler.
 

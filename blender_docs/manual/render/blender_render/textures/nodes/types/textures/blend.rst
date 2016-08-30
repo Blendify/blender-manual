@@ -3,7 +3,7 @@
 Blend
 *****
 
-.. figure:: /images/texture-nodes-blend.jpg
+.. figure:: /images/texture-nodes-blend.png
 
    Blend node.
 

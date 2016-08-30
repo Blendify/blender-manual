@@ -20,7 +20,7 @@ and rotation based on location setups.
 Options
 =======
 
-.. figure:: /images/constraints-transform-transformation.jpg
+.. figure:: /images/constraints-transform-transformation.png
    :width: 305px
 
    Transformation panel.
@@ -52,12 +52,12 @@ Extrapolate
 
    .. list-table:: The Extrapolate principles.
 
-      * - .. figure:: /images/constraintstransformationextrapolateprinciple1.jpg
+      * - .. figure:: /images/constraintstransformationextrapolateprinciple1.png
              :width: 320px
 
              Extrapolate disabled: the output values are bounded inside the (1.0 to 2.0) range.
 
-        - .. figure:: /images/constraintstransformationextrapolateprinciple2.jpg
+        - .. figure:: /images/constraintstransformationextrapolateprinciple2.png
              :width: 320px
 
              Extrapolate enabled: the output values are "free" to proportionally follow the input ones.

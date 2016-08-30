@@ -71,7 +71,7 @@ Light gets scattered off tiny particles in the volume,
 and some proportion of that light reaches the camera. This property makes it possible to see
 light beams as they travel though a volume and are scattered towards the eye.
 
-.. figure:: /images/materials-volumerender-options-shading.jpg
+.. figure:: /images/materials-volumerender-options-shading.png
 
    Shading options.
 
@@ -112,7 +112,7 @@ the more easily it penetrates throughout the volume and to the shadow.
 Asymmetry
 ---------
 
-.. figure:: /images/bi_volumerendering-phase_diagram.jpg
+.. figure:: /images/bi_volumerendering-phase_diagram.png
    :width: 300px
 
    Isotropic and Anisotropic scattering.

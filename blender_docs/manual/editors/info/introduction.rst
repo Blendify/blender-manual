@@ -10,7 +10,7 @@ The Info Editor is found at the top of the Default Screen and has the following 
 Header
 ======
 
-.. figure:: /images/interface_window-system_info-window-shaded.jpg
+.. figure:: /images/interface_window-system_info-window-shaded.png
 
    Info Editor header.
 

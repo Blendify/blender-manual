@@ -24,12 +24,12 @@ Also see :doc:`Creating Geometry </modeling/meshes/editing/basics/creating_faces
 
 .. list-table::
 
-   * - .. figure:: /images/fill1.jpg
+   * - .. figure:: /images/fill1.png
           :width: 320px
 
           A closed perimeter of edges.
 
-     - .. figure:: /images/fill2.jpg
+     - .. figure:: /images/fill2.png
           :width: 320px
 
           Filled using fill.
@@ -52,7 +52,7 @@ The *Fill* option will create *triangular* faces from any group of selected edge
 or vertices, as long as they form one or more complete perimeters.
 
 
-.. figure:: /images/fill3.jpg
+.. figure:: /images/fill3.png
    :width: 300px
 
    Filled using fill.
@@ -62,12 +62,12 @@ note, unlike creating n-gons, fill supports holes.
 
 .. list-table::
 
-   * - .. figure:: /images/fill1_holes.jpg
+   * - .. figure:: /images/fill1_holes.png
           :width: 320px
 
           A closed perimeter of edges with holes.
 
-     - .. figure:: /images/fill2_holes.jpg
+     - .. figure:: /images/fill2_holes.png
           :width: 320px
 
           Filled using fill.
@@ -89,12 +89,12 @@ It rearrange selected triangles to obtain more "balanced" ones (i.e. less long t
 
 .. list-table::
 
-   * - .. figure:: /images/mesh_beauty_fill_before.jpg
+   * - .. figure:: /images/mesh_beauty_fill_before.png
           :width: 320px
 
           Text converted to a mesh.
 
-     - .. figure:: /images/mesh_beauty_fill_after.jpg
+     - .. figure:: /images/mesh_beauty_fill_after.png
           :width: 320px
 
           Result of Beauty Fill, :kbd:`Alt-Shift-F`.
@@ -116,7 +116,7 @@ Grid Fill
 
 .. list-table::
 
-   * - .. figure:: /images/mesh_fill_grid_surface_before.jpg
+   * - .. figure:: /images/mesh_fill_grid_surface_before.png
           :width: 320px
 
           Input.
@@ -171,12 +171,12 @@ which means some triangles could remain.
 
 .. list-table::
 
-   * - .. figure:: /images/fill5.jpg
+   * - .. figure:: /images/fill5.png
           :width: 320px
 
           Before converting tris to quads.
 
-     - .. figure:: /images/quadtotris.jpg
+     - .. figure:: /images/quadtotris.png
           :width: 320px
 
           After converting tris to quads.
@@ -228,17 +228,17 @@ Thickness
 
 .. list-table::
 
-   * - .. figure:: /images/solidify-before.jpg
+   * - .. figure:: /images/solidify-before.png
           :width: 200px
 
           Mesh before solidify operation.
 
-     - .. figure:: /images/solidify-after.jpg
+     - .. figure:: /images/solidify-after.png
           :width: 200px
 
           Solidify with a positive thickness.
 
-     - .. figure:: /images/solidify-after2.jpg
+     - .. figure:: /images/solidify-after2.png
           :width: 200px
 
           Solidify with a negative thickness.
@@ -260,12 +260,12 @@ It works on the shared edge between two faces and rotates that edge if the edge 
 
 .. list-table::
 
-   * - .. figure:: /images/rotateedgefacemode1.jpg
+   * - .. figure:: /images/rotateedgefacemode1.png
           :width: 320px
 
           Two Faces Selected.
 
-     - .. figure:: /images/rotateedgefacemode2.jpg
+     - .. figure:: /images/rotateedgefacemode2.png
           :width: 320px
 
           Full Render.

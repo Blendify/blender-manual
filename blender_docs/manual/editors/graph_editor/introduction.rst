@@ -21,7 +21,7 @@ Curve Editor Area
 
 Here you can see and edit the curves and keyframes.
 
-.. figure:: /images/graph_curve.jpg
+.. figure:: /images/graph_curve.png
 
    A curve with different types of interpolation.
 
@@ -52,7 +52,7 @@ View Selected
 2D Cursor
 ---------
 
-.. figure:: /images/graph_2dcursor.jpg
+.. figure:: /images/graph_2dcursor.png
 
    Graph Editor 2D Cursor.
 
@@ -89,7 +89,7 @@ Markers
 
 Like with most animation editors, markers are shown at the bottom of the editor.
 
-.. figure:: /images/graph_markers.jpg
+.. figure:: /images/graph_markers.png
 
    Graph Editor Markers.
 
@@ -178,7 +178,7 @@ Curve controls
 Channels Region
 ===============
 
-.. figure:: /images/graph_channels.jpg
+.. figure:: /images/graph_channels.png
 
    Channels Region.
 
@@ -218,7 +218,7 @@ The panels in the *Properties Region*.
 View Properties Panel
 ---------------------
 
-.. figure:: /images/graph_view_properties_panel.jpg
+.. figure:: /images/graph_view_properties_panel.png
 
    View Properties Panel.
 
@@ -242,7 +242,7 @@ Cursor Y
 Active F-Curve Panel
 --------------------
 
-.. figure:: /images/graph_active_fcurve_panel.jpg
+.. figure:: /images/graph_active_fcurve_panel.png
 
    Active F-Curve Panel.
 
@@ -267,7 +267,7 @@ Color Mode
 Active Keyframe Panel
 ---------------------
 
-.. figure:: /images/graph_active_keyframe_panel.jpg
+.. figure:: /images/graph_active_keyframe_panel.png
 
    Active Keyframe Panel.
 
@@ -295,7 +295,7 @@ Right Handle
 Drivers Panel
 -------------
 
-.. figure:: /images/graph_drivers_panel.jpg
+.. figure:: /images/graph_drivers_panel.png
 
    Drivers Panel.
 

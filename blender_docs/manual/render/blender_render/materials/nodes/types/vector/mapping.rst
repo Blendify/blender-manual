@@ -3,7 +3,7 @@
 Mapping Node
 ************
 
-.. figure:: /images/material-vector-node-mapping.jpg
+.. figure:: /images/material-vector-node-mapping.png
 
    Mapping node.
 

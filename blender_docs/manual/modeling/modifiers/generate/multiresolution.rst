@@ -19,7 +19,7 @@ but also allows you to edit the new subdivision levels in sculpt mode.
 Options
 =======
 
-.. figure:: /images/multires_modifier_image.jpg
+.. figure:: /images/multires_modifier_image.png
 
    Multires modifier.
 

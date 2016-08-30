@@ -10,7 +10,7 @@ The textures' commons options are explained :doc:`here </render/blender_render/t
 Choosing the Texture tab
 ========================
 
-.. figure:: /images/texture-top-panel.jpg
+.. figure:: /images/texture-top-panel.png
    :width: 300px
 
    Texture panel.
@@ -22,7 +22,7 @@ In the Properties editor, choose the Texture tab: this will show the Texture pan
 Choosing the Texture data type
 ==============================
 
-.. figure:: /images/texture-panel.jpg
+.. figure:: /images/texture-panel.png
    :width: 311px
 
    Texture panel with buttons for Material, World, and Brush textures highlighted.
@@ -32,7 +32,7 @@ The three buttons *Material*, *World*,
 *Brush* at the top of the texture panel indicate the texture data type, that is,
 the kind of texture that is being edited.
 
-.. figure:: /images/texture-lamp-panel.jpg
+.. figure:: /images/texture-lamp-panel.png
    :width: 300px
 
    Texture panel with button for Lamp textures highlighted.
@@ -41,7 +41,7 @@ the kind of texture that is being edited.
 Textures Slots
 ==============
 
-.. figure:: /images/texture-top-panel.jpg
+.. figure:: /images/texture-top-panel.png
    :width: 300px
 
    Texture panel.

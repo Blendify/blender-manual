@@ -157,7 +157,7 @@ It outputs vertex weight groups that can be used by other Blender modifiers and 
 Output Panel
 ============
 
-.. figure:: /images/physics_dynamic-paint_canvas_output.jpg
+.. figure:: /images/physics_dynamic-paint_canvas_output.png
 
    Canvas output panel.
 
@@ -176,7 +176,7 @@ you can define used "UV Layer" and output file saving directory, filenames and i
 Effects Panel
 =============
 
-.. figure:: /images/dynamic-paint_canvas_effects.jpg
+.. figure:: /images/dynamic-paint_canvas_effects.png
 
    Canvas effects panel.
 
@@ -200,7 +200,7 @@ movement becomes slower until it stops.
 Cache Panel
 ===========
 
-.. figure:: /images/physics_dynamic-paint_cache.jpg
+.. figure:: /images/physics_dynamic-paint_cache.png
 
    Canvas cache panel.
 

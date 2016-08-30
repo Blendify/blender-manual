@@ -3,7 +3,7 @@
 Checker
 *******
 
-.. figure:: /images/texture-nodes_checker.jpg
+.. figure:: /images/texture-nodes_checker.png
    :align: right
    :width: 200px
 

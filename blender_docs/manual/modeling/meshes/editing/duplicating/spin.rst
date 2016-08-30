@@ -40,7 +40,7 @@ Example
 
 .. _fig-mesh-spin-glass:
 
-.. figure:: /images/spin1.jpg
+.. figure:: /images/spin1.png
    :width: 300px
 
    Glass profile.
@@ -57,7 +57,7 @@ so switch to the top view with :kbd:`Numpad7`.
 
 .. _fig-mesh-spin-glass-top:
 
-.. figure:: /images/spin2.jpg
+.. figure:: /images/spin2.png
    :width: 300px
 
    Glass profile, top view in Edit Mode, just before spinning.
@@ -82,12 +82,12 @@ Angle
 
 .. list-table:: Spun profile.
 
-   * - .. figure:: /images/spin3.jpg
+   * - .. figure:: /images/spin3.png
           :width: 320px
 
           Spun profile using an angle of 360.
 
-     - .. figure:: /images/spin4.jpg
+     - .. figure:: /images/spin4.png
           :width: 320px
 
           Spun profile using an angle of 120.
@@ -98,12 +98,12 @@ Dupli
 
 .. list-table::
 
-   * - .. figure:: /images/spin6.jpg
+   * - .. figure:: /images/spin6.png
           :width: 320px
 
           Result of spin operation.
 
-     - .. figure:: /images/spin7.jpg
+     - .. figure:: /images/spin7.png
           :width: 320px
 
           Result of Dupli enabled.
@@ -114,7 +114,7 @@ Merge Duplicates
 
 .. _fig-mesh-screw-duplicate:
 
-.. figure:: /images/spin8.jpg
+.. figure:: /images/spin8.png
    :width: 300px
 
    Duplicate vertices.

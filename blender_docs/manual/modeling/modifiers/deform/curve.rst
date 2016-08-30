@@ -44,7 +44,7 @@ Let us make a simple example:
 
 .. _fig-modifier-curve-edit:
 
-.. figure:: /images/curvesdeform_exampleeditcurve2.jpg
+.. figure:: /images/curvesdeform_exampleeditcurve2.png
    :width: 300px
 
    Edit Curve.
@@ -59,7 +59,7 @@ Let us make a simple example:
 
    Assign the Bézier curve to the Curve modifier (for Monkey).
 
-.. figure:: /images/curvesdeform_examplemonkeyoncurve3.jpg
+.. figure:: /images/curvesdeform_examplemonkeyoncurve3.png
    :width: 200px
 
    Monkey on a Curve.
@@ -72,7 +72,7 @@ Let us make a simple example:
 
    If you press :kbd:`MMB` while moving the Monkey you will constrain the movement to one axis only.
 
-.. figure:: /images/curvesdeform_examplemonkeyoncurve2.jpg
+.. figure:: /images/curvesdeform_examplemonkeyoncurve2.png
    :width: 250px
 
    Monkey deformations.

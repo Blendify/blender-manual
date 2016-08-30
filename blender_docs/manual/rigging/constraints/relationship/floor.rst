@@ -16,7 +16,7 @@ It cannot be used for uneven floors or walls.
 Options
 =======
 
-.. figure:: /images/constraints-relationship-floor.jpg
+.. figure:: /images/constraints-relationship-floor.png
    :width: 303px
 
    Floor panel.

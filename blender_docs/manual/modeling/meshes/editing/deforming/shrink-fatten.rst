@@ -19,17 +19,17 @@ This transform tool does not take into account the pivot point or transform orie
 
 .. list-table::
 
-   * - .. figure:: /images/shrinkflatten1.jpg
+   * - .. figure:: /images/shrinkflatten1.png
           :width: 200px
 
           Mesh before shrink/flatten.
 
-     - .. figure:: /images/shrinkflatten2.jpg
+     - .. figure:: /images/shrinkflatten2.png
           :width: 200px
 
           Inflated using a positive value.
 
-     - .. figure:: /images/shrinkflatten3.jpg
+     - .. figure:: /images/shrinkflatten3.png
           :width: 200px
 
           Shrunk using a negative value.

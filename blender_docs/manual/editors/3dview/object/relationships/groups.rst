@@ -33,7 +33,7 @@ Naming a Group
    select *Groups* as the outliner display from the header combo box, and :kbd:`Ctrl-LMB` click on the group name.
    The name will change to an editable field; make your changes and press :kbd:`Return`.
 
-   .. figure:: /images/modeling-objects-grouping-objprop.jpg
+   .. figure:: /images/modeling-objects-grouping-objprop.png
 
       Naming a Group.
 

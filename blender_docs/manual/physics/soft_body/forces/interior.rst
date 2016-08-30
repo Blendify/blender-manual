@@ -121,7 +121,7 @@ though it will deform temporarily because of the forces created during collision
 
           Frame 36.
 
-     - .. figure:: /images/physics_quadvstri-sb-sq-0401.jpg
+     - .. figure:: /images/physics_quadvstri-sb-sq-0401.png
           :width: 200px
 
           Frame 401.
@@ -146,7 +146,7 @@ because it has no quads anyway.
 
           Frame 36.
 
-     - .. figure:: /images/physics_quadvstri-sb-bs-0401.jpg
+     - .. figure:: /images/physics_quadvstri-sb-bs-0401.png
           :width: 200px
 
           Frame 401.

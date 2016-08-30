@@ -98,15 +98,15 @@ Closest
 
 .. list-table::
 
-   * - .. figure:: /images/editors_3dview_transform-control_snap-snap-closest.jpg
+   * - .. figure:: /images/editors_3dview_transform-control_snap-snap-closest.png
 
           Closest.
 
-     - .. figure:: /images/editors_3dview_transform-control_snap-snap-active.jpg
+     - .. figure:: /images/editors_3dview_transform-control_snap-snap-active.png
 
           Active.
 
-     - .. figure:: /images/editors_3dview_transform-control_snap-snap-median.jpg
+     - .. figure:: /images/editors_3dview_transform-control_snap-snap-median.png
 
           Median.
 

@@ -30,7 +30,7 @@ image.
 Texture Data-Block
 ==================
 
-.. figure:: /images/texture-datablock.jpg
+.. figure:: /images/texture-datablock.png
    :width: 300px
 
    Active Texture Data-Block.
@@ -108,7 +108,7 @@ Show Alpha
 Colors
 ======
 
-.. figure:: /images/texture-color-panel.jpg
+.. figure:: /images/texture-color-panel.png
    :width: 300px
 
    Colors panel.

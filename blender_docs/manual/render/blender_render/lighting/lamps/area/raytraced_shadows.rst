@@ -39,7 +39,7 @@ Constant Jittered
    which is more like simulating an array of lights.
    It has the same options as the old one: *Umbra*, *Dither* and *Jitter*.
 
-   .. figure:: /images/lighting-lamps-area-cont_jitt.jpg
+   .. figure:: /images/lighting-lamps-area-cont_jitt.png
       :width: 300px
 
       Constant Jittered settings.
@@ -73,7 +73,7 @@ Technical Details
 
 .. _fig-bi-light-rayshadow-area:
 
-.. figure:: /images/arealightconcept.jpg
+.. figure:: /images/arealightconcept.png
    :width: 250px
 
    Principles behind the Area light.

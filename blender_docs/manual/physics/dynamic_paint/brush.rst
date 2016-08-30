@@ -3,7 +3,7 @@
 Dynamic Paint Brush
 *******************
 
-.. figure:: /images/physics_dynamic-paint_brush.jpg
+.. figure:: /images/physics_dynamic-paint_brush.png
 
    Brush main panel.
 
@@ -47,7 +47,7 @@ each having individual settings for further tweaking:
 Mesh Volume
    This the default option. Brush affects all surface point inside the mesh volume.
 
-   .. figure:: /images/dynamicpaint-guide-brush_volume.jpg
+   .. figure:: /images/dynamicpaint-guide-brush_volume.png
 
       Source: Mesh Volume
 
@@ -100,14 +100,14 @@ Object Center
    Instead of calculating proximity to the brush object mesh, which can be quite slow in some cases,
    only distance to only center is calculated. This is much faster and often good enough.
 
-   .. figure:: /images/dynamicpaint-guide-brush_objectcenter.jpg
+   .. figure:: /images/dynamicpaint-guide-brush_objectcenter.png
 
       Brush Source - Object Center.
 
 Particle System
    Brush influence is defined by particles from a selected particle system.
 
-   .. figure:: /images/dynamicpaint-guide-brush_particlesystem.jpg
+   .. figure:: /images/dynamicpaint-guide-brush_particlesystem.png
 
       Brush Source - Particle System.
 
@@ -115,7 +115,7 @@ Particle System
 Velocity Panel
 ==============
 
-.. figure:: /images/dynamicpaint-guide-brush-velocity.jpg
+.. figure:: /images/dynamicpaint-guide-brush-velocity.png
 
    Velocity panel.
 
@@ -148,7 +148,7 @@ Smudge settings
 Waves Panel
 ===========
 
-.. figure:: /images/dynamicpaint-guide-brush-waves.jpg
+.. figure:: /images/dynamicpaint-guide-brush-waves.png
 
    Brush Waves panel.
 

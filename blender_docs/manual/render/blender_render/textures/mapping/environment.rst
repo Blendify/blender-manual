@@ -49,7 +49,7 @@ Options
    For correct results, the mapping of an environment map texture must be set to 'Refl'
    (reflection co-ordinates) in the Map Input panel of the Material tab.
 
-.. figure:: /images/texture-envmap-panel.jpg
+.. figure:: /images/texture-envmap-panel.png
 
    Reflecting plane EnvMap settings.
 

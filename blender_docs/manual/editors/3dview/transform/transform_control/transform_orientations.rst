@@ -103,7 +103,7 @@ Custom Orientations
    | Mode:     Object and Edit Modes
    | Hotkey:   :kbd:`Ctrl-Alt-Spacebar`
 
-.. figure:: /images/transformorientationpanel-custom.jpg
+.. figure:: /images/transformorientationpanel-custom.png
 
    Custom orientation.
 
@@ -117,7 +117,7 @@ The *Transform Orientations* panel, found in the Properties region,
 can be used to manage transform orientations: selecting the active orientation,
 adding and deleting custom orientations.
 
-.. figure:: /images/orientations-custom-name.jpg
+.. figure:: /images/orientations-custom-name.png
    :width: 300px
 
    Renaming a Custom Orientation.
@@ -130,7 +130,7 @@ allows you to rename the custom orientation after you press :kbd:`Ctrl-Alt-Space
 
 .. _fig-view3d-transform-orientation-extrusion:
 
-.. figure:: /images/orientations-custom-extrusion.jpg
+.. figure:: /images/orientations-custom-extrusion.png
 
    Custom Extrusion.
 
@@ -153,7 +153,7 @@ Examples
 Demo Cube
 ---------
 
-.. figure:: /images/orientations-basicsetup.jpg
+.. figure:: /images/orientations-basicsetup.png
 
    To demonstrate the various behaviors, we add some colors to the default cube,
    rotate it -15° along its local Z- and X Axes, and we scale its "y" face down.
@@ -185,7 +185,7 @@ The normal orientation manipulator will also change depending on what is selecte
 *Edit Mode* i.e. the orientation is based on the normal of the selection which will
 change depending on how many and which faces, edges or vertices are selected.
 
-.. figure:: /images/editors_3dview_transform_control-manipulators-manipulator_orientation_options.jpg
+.. figure:: /images/editors_3dview_transform_control-manipulators-manipulator_orientation_options.png
 
    Transform manipulator orientation options.
 

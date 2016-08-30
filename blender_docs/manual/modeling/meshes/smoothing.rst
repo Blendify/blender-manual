@@ -98,7 +98,7 @@ Auto Smooth
    * - .. figure:: /images/meshsmooth-example-04rrautosmooth.jpg
           :width: 180px
 
-     - .. figure:: /images/meshsmooth-autosmooth.jpg
+     - .. figure:: /images/meshsmooth-autosmooth.png
           :width: 180px
 
 

@@ -18,7 +18,7 @@ The profile should be properly aligned to the cardinal direction of the object r
 Options
 =======
 
-.. figure:: /images/modifier-screw.jpg
+.. figure:: /images/modifier-screw.png
 
    Screw modifier.
 

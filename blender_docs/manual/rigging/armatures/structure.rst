@@ -3,7 +3,7 @@
 Armature Structure
 ******************
 
-.. figure:: /images/quick51.jpg
+.. figure:: /images/quick51.png
    :align: right
 
    Example of a very basic armature.
@@ -25,7 +25,7 @@ which create some sort of "limbs" in your armature, as detailed in `Chains of Bo
 Chains of Bones
 ===============
 
-.. figure:: /images/riggingchainex3dvieweditmode.jpg
+.. figure:: /images/riggingchainex3dvieweditmode.png
    :width: 250px
 
    An armature with two chains of bones.

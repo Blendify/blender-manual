@@ -41,7 +41,7 @@ Note that the result of the *Shear* transform is also dependant on the number an
 type of selected elements (Objects, vertices, faces etc).
 See below for the result of using *Shear* on a number of different elements.
 
-.. figure:: /images/editors_3dview_transformations-advanced-shear_mesh.jpg
+.. figure:: /images/editors_3dview_transformations-advanced-shear_mesh.png
 
    The effects of a Shear transform with different Pivot Points.
    See the text below for additional information.
@@ -62,7 +62,7 @@ the *Pivot Point* is set to the 3D cursor which is located above the mesh
    directly proportional to the distance from the horizontal axis.
    i.e. the further from the axis, the greater the movement.
 
-.. figure:: /images/editors_3dview_transformations-advanced-shear_objects.jpg
+.. figure:: /images/editors_3dview_transformations-advanced-shear_objects.png
 
    The effects of a Shear transform on Objects with different Pivot Points.
    See the text below for additional information.

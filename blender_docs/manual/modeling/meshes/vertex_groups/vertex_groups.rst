@@ -71,7 +71,7 @@ Cull out and duplicate parts of a mesh
 Creating Vertex Groups
 ======================
 
-.. figure:: /images/modeling-meshes-vertex-group-panel-empty.jpg
+.. figure:: /images/modeling-meshes-vertex-group-panel-empty.png
    :align: right
 
    Empty Vertex Group Panel.
@@ -125,7 +125,7 @@ Active Group
 Deleting vertex Groups
 ======================
 
-.. figure:: /images/modeling-meshes-vertex-group-panel-dg.jpg
+.. figure:: /images/modeling-meshes-vertex-group-panel-dg.png
    :align: right
 
    Delete a Vertex Group.
@@ -141,7 +141,7 @@ The vertices themselves are not deleted.
 Locking Vertex Groups
 =====================
 
-.. figure:: /images/modeling-meshes-vertex-group-panel-lg.jpg
+.. figure:: /images/modeling-meshes-vertex-group-panel-lg.png
    :align: right
 
    Lock a Vertex Group.
@@ -191,7 +191,7 @@ value that gets assigned to the selected verts when you press the Assign Button.
 Assigning verts to a Group
 --------------------------
 
-.. figure:: /images/modeling-meshes-vertex-group-panel-assign.jpg
+.. figure:: /images/modeling-meshes-vertex-group-panel-assign.png
    :align: right
 
    Assign weights to active group.
@@ -297,7 +297,7 @@ Vertex Group Management
 
    .. clear
 
-.. figure:: /images/modeling-meshes-vertex-group-list-popup.jpg
+.. figure:: /images/modeling-meshes-vertex-group-list-popup.png
    :align: right
 
    Vertex groups panel's pop-up menu.

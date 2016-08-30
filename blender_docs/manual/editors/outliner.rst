@@ -62,7 +62,7 @@ Toggle pre-selection of a group of data-blocks
    You then can (de)select them with a :kbd:`RMB` *on* the name/icon area,
    which brings on a context menu (see bellow).
 
-   .. figure:: /images/outliner-editor-column-icons.jpg
+   .. figure:: /images/outliner-editor-column-icons.png
 
       Toggling pre-selection of a data-block.
 
@@ -132,7 +132,7 @@ Matching data-blocks will be automatically selected.
 Filtering the display
 =====================
 
-.. figure:: /images/outliner-display-mode.jpg
+.. figure:: /images/outliner-display-mode.png
    :align: right
 
    Outliner Display dropdown.

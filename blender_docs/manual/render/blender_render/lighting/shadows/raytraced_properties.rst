@@ -3,7 +3,7 @@
 Lamps Raytraced Shadows
 ***********************
 
-.. figure:: /images/lighting-shadow-ray.jpg
+.. figure:: /images/lighting-shadow-ray.png
    :width: 310px
 
    Ray shadowing options for lamps.

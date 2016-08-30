@@ -146,7 +146,7 @@ bone belongs to by using the *linked selection* tool, :kbd:`L`.
 
           A single selected bone.
 
-     - .. figure:: /images/riggingboneselectexeditmodewholechain.jpg
+     - .. figure:: /images/riggingboneselectexeditmodewholechain.png
           :width: 320px
 
           Its whole chain selected with :kbd:`L`.
@@ -174,7 +174,7 @@ To understand this, look at Fig. :ref:`fig-rig-bone-select-deselect`.
 
 .. list-table:: Bone deselection in a selected chain.
 
-   * - .. figure:: /images/riggingboneselectexeditmodewholechain.jpg
+   * - .. figure:: /images/riggingboneselectexeditmodewholechain.png
           :width: 320px
 
           A selected chain.

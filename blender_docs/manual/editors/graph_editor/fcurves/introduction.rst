@@ -24,7 +24,7 @@ The idea is simple: you define a few Keyframes, which are multiple frames apart.
 Between these keyframes, the properties' values are computed (interpolated)
 by Blender and filled in. Thus, the animators' workload is significantly reduced.
 
-.. figure:: /images/animation-f-curves-concept.jpg
+.. figure:: /images/animation-f-curves-concept.png
    :align: right
    :width: 200px
 
@@ -68,7 +68,7 @@ Constant
    giving a discrete (stairway) "curve".
    Usually only used during the initial "blocking" stage in pose-to-pose animation workflows.
 
-   .. figure:: /images/fcurve-constant.jpg
+   .. figure:: /images/fcurve-constant.png
       :width: 300px
 
       Constant.
@@ -79,7 +79,7 @@ Linear
    It can be useful when using only two keyframes and the *Extrapolation* extend mode,
    to easily get an infinite straight line (i.e. a linear curve).
 
-   .. figure:: /images/fcurve-linear.jpg
+   .. figure:: /images/fcurve-linear.png
       :width: 300px
 
       Linear.
@@ -89,7 +89,7 @@ Bézier
    The more powerful and useful interpolation, and the default one.
    It gives nicely smoothed curves, i.e. smooth animations!
 
-   .. figure:: /images/fcurve-clean1.jpg
+   .. figure:: /images/fcurve-clean1.png
       :width: 300px
 
       Bézier.
@@ -117,7 +117,7 @@ Constant
    The default one, curves before their first keyframe and after their last one have a constant value
    (the one of these first and last keyframes).
 
-   .. figure:: /images/fcurve-extrapolate1.jpg
+   .. figure:: /images/fcurve-extrapolate1.png
       :width: 300px
 
       Constant extrapolation.
@@ -127,7 +127,7 @@ Linear
    Curves ends are straight lines (linear), as defined by their first two keyframes
    (respectively their last two keyframes).
 
-   .. figure:: /images/fcurve-extrapolate2.jpg
+   .. figure:: /images/fcurve-extrapolate2.png
       :width: 300px
 
       Linear extrapolation.
@@ -146,7 +146,7 @@ You can set the type of handle to use for the curve points :kbd:`V`
 Automatic
    Keyframes are automatically interpolated
 
-   .. figure:: /images/fcurve-auto.jpg
+   .. figure:: /images/fcurve-auto.png
       :width: 400px
 
       Auto handles.
@@ -156,7 +156,7 @@ Vector
    Creates linear interpolation between keyframes.
    The linear segments remain if keyframe centers are moved. If handles are moved, the handle becomes Free.
 
-   .. figure:: /images/fcurve-vector.jpg
+   .. figure:: /images/fcurve-vector.png
       :width: 400px
 
       Vector handles.
@@ -165,7 +165,7 @@ Vector
 Aligned
    Handle maintain rotation when moved, and curve tangent is maintained
 
-   .. figure:: /images/fcurve-aligned.jpg
+   .. figure:: /images/fcurve-aligned.png
       :width: 400px
 
       Aligned handles.
@@ -174,7 +174,7 @@ Aligned
 Free
    Breaks handles tangents
 
-   .. figure:: /images/fcurve-free.jpg
+   .. figure:: /images/fcurve-free.png
       :width: 400px
 
       Free handles.
@@ -183,7 +183,7 @@ Free
 Auto Clamped
    Auto handles clamped to not overshoot
 
-   .. figure:: /images/fcurve-autoclamped.jpg
+   .. figure:: /images/fcurve-autoclamped.png
       :width: 400px
 
       Auto clamped handles.
@@ -205,10 +205,10 @@ cannot have more than **one** value at a given time, hence:
 .. list-table::
    Two control points switching: the curve cannot go back in time!
 
-   * - .. figure:: /images/animation-f-curves-moving-1.jpg
+   * - .. figure:: /images/animation-f-curves-moving-1.png
 
           Before moving the second keyframe.
 
-     - .. figure:: /images/animation-f-curves-moving-2.jpg
+     - .. figure:: /images/animation-f-curves-moving-2.png
 
           After moving the second keyframe.

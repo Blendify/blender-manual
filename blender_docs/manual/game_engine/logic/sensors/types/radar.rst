@@ -3,7 +3,7 @@
 Radar Sensor
 ************
 
-.. figure:: /images/bge_sensor_radar.jpg
+.. figure:: /images/bge_sensor_radar.png
    :width: 300px
 
    Radar sensor.

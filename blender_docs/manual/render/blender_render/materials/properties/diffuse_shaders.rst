@@ -81,7 +81,7 @@ materials showing low levels of specular reflection.
 This shader has only the default option, determining how much of available light is reflected.
 Default is 0.8, to allow other objects to be brighter.
 
-.. figure:: /images/material-shader-lambert-settings.jpg
+.. figure:: /images/material-shader-lambert-settings.png
    :width: 220px
 
    The Lambert diffuse shader settings.

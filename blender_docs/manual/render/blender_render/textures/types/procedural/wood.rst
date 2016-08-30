@@ -3,7 +3,7 @@
 Wood
 ****
 
-.. figure:: /images/texture-procedural-wood.jpg
+.. figure:: /images/texture-procedural-wood.png
 
    Wood Texture Panels.
 

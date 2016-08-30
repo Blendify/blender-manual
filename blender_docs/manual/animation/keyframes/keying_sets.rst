@@ -3,7 +3,7 @@
 Keying Sets
 ***********
 
-.. figure:: /images/kia_cube02.jpg
+.. figure:: /images/kia_cube02.png
    :align: right
 
    Timeline Keying Sets.
@@ -26,7 +26,7 @@ Keying Set Panel
 
 This panel is used to add, select, manage *Absolute Keying Sets*.
 
-.. figure:: /images/keying_set_panel.jpg
+.. figure:: /images/keying_set_panel.png
 
    :menuselection:`Properties --> Scene --> Keying Set Panel`
 
@@ -65,11 +65,11 @@ Active Keying Set Panel
 
 This panel is used to add properties to the active Keying Set.
 
-.. figure:: /images/keying_set_active_panel.jpg
+.. figure:: /images/keying_set_active_panel.png
 
    :menuselection:`Properties --> Scene --> Active Keying Set Panel`
 
-.. figure:: /images/keying_set_group.jpg
+.. figure:: /images/keying_set_group.png
 
    :menuselection:`Properties --> Graph Editor --> Channels, Named Group`
 

@@ -49,12 +49,12 @@ Snap Keys :kbd:`Shift-S`
       .. list-table::
          Flatten Handles snapping example.
 
-         * - .. figure:: /images/animation-f-curves-flatten-handles-1.jpg
+         * - .. figure:: /images/animation-f-curves-flatten-handles-1.png
                 :width: 200px
 
                 Before Flatten Handles.
 
-           - .. figure:: /images/animation-f-curves-flatten-handles-2.jpg
+           - .. figure:: /images/animation-f-curves-flatten-handles-2.png
                 :width: 200px
 
                 After Flatten Handles.
@@ -87,12 +87,12 @@ if they have been modified. *Clean Keyframes* :kbd:`O`
 
 .. list-table::
 
-   * - .. figure:: /images/fcurve-clean1.jpg
+   * - .. figure:: /images/fcurve-clean1.png
           :width: 320px
 
           F-Curve before cleaning.
 
-     - .. figure:: /images/fcurve-clean2.jpg
+     - .. figure:: /images/fcurve-clean2.png
           :width: 320px
 
           F-Curve after cleaning.
@@ -115,12 +115,12 @@ seem to be never modified by this tool.
 
 .. list-table::
 
-   * - .. figure:: /images/fcurve-clean1.jpg
+   * - .. figure:: /images/fcurve-clean1.png
           :width: 320px
 
           F-Curve before smoothing.
 
-     - .. figure:: /images/fcurve-smooth.jpg
+     - .. figure:: /images/fcurve-smooth.png
           :width: 320px
 
           F-Curve after smoothing.
@@ -134,12 +134,12 @@ Sample Keyframes :kbd:`Shift-O`
 
    .. list-table::
 
-      * - .. figure:: /images/fcurve-sample.jpg
+      * - .. figure:: /images/fcurve-sample.png
              :width: 320px
 
              F-Curve before sampling.
 
-        - .. figure:: /images/fcurve-sample2.jpg
+        - .. figure:: /images/fcurve-sample2.png
              :width: 320px
 
              F-Curve after sampling.

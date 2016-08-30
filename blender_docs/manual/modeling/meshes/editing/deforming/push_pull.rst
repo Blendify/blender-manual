@@ -37,18 +37,18 @@ Note that the result of the *Push/Pull* transform is also dependant on the numbe
 and type of selected elements (Objects, vertices, faces etc).
 See below for the result of using *Push/Pull* on a number of different elements.
 
-.. figure:: /images/editors_3dview_transformations-advanced-push_pull_equidistant_objects.jpg
+.. figure:: /images/editors_3dview_transformations-advanced-push_pull_equidistant_objects.png
 
    Equidistant Objects being pushed together.
 
-.. figure:: /images/editors_3dview_transformations-advanced-push_pull_random_objects.jpg
+.. figure:: /images/editors_3dview_transformations-advanced-push_pull_random_objects.png
 
    Random Objects being pushed together.
 
-.. figure:: /images/editors_3dview_transformations-advanced-push_pull_vertices-push-pull.jpg
+.. figure:: /images/editors_3dview_transformations-advanced-push_pull_vertices-push-pull.png
 
    Vertices being pushed together, then pulled apart.
 
-.. figure:: /images/editors_3dview_transformations-advanced-push_pull_edges-push-pull.jpg
+.. figure:: /images/editors_3dview_transformations-advanced-push_pull_edges-push-pull.png
 
    Edges on separate meshes being pushed together, then pulled apart.

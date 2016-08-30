@@ -17,7 +17,7 @@ where the ability to re-time blocking is one of the main purposes of the whole e
    These "channels" are the layers, and the "keyframes" are the frames at which the layer has a sketch defined.
    They can be manipulated like any other data in the *DopeSheet* can be.
 
-.. figure:: /images/dopesheetgreasepencil.jpg
+.. figure:: /images/dopesheetgreasepencil.png
    :width: 598px
 
 

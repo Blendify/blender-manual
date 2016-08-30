@@ -30,7 +30,7 @@ As with other modifier stacks in Blender, they are applied from top to bottom.
 The *2D Offset* modifier adds some two-dimensional offsets to the stroke backbone
 geometry. It has two sets of independent options/effects:
 
-.. figure:: /images/render-freestyle-line_style_geometry_2d_offset.jpg
+.. figure:: /images/render-freestyle-line_style_geometry_2d_offset.png
    :width: 300px
    :align: right
 
@@ -53,7 +53,7 @@ stroke backbone geometry. Scale is applied before rotation.
 
 The center (pivot point) of these 2D transformations can be:
 
-.. figure:: /images/render-freestyle-line_style_geometry_2d_transform.jpg
+.. figure:: /images/render-freestyle-line_style_geometry_2d_transform.png
    :width: 300px
    :align: right
 
@@ -92,7 +92,7 @@ Rotation Angle
 Backbone Stretcher
 ------------------
 
-.. figure:: /images/render-freestyle-line_style_geometry_backbone_stretcher.jpg
+.. figure:: /images/render-freestyle-line_style_geometry_backbone_stretcher.png
    :width: 300px
    :align: right
 
@@ -106,7 +106,7 @@ Backbone Length
 Bézier Curve
 ------------
 
-.. figure:: /images/render-freestyle-line_style_geometry_bezier_curve.jpg
+.. figure:: /images/render-freestyle-line_style_geometry_bezier_curve.png
    :width: 300px
    :align: right
 
@@ -132,7 +132,7 @@ elliptical, or square contours. A blueprint here refers to those lines drawn at 
 of free-hand drawing to capture the silhouette of objects with a simple shape such as circles,
 ellipses and squares.
 
-.. figure:: /images/render-freestyle-line_style_geometry_blueprint.jpg
+.. figure:: /images/render-freestyle-line_style_geometry_blueprint.png
    :width: 300px
    :align: right
 
@@ -164,7 +164,7 @@ Guiding Lines
 The *Guiding Lines* modifier replaces a stroke by a straight line connecting both of
 its ends.
 
-.. figure:: /images/render-freestyle-line_style_geometry_guiding_lines.jpg
+.. figure:: /images/render-freestyle-line_style_geometry_guiding_lines.png
    :width: 300px
    :align: right
 
@@ -195,7 +195,7 @@ noise function to generate noisy displacements.
 This means that this modifier will give an identical result for two strokes with the same length and sampling
 interval.
 
-.. figure:: /images/render-freestyle-line_style_geometry_perlin_noise_1d.jpg
+.. figure:: /images/render-freestyle-line_style_geometry_perlin_noise_1d.png
    :width: 300px
    :align: right
 
@@ -218,7 +218,7 @@ Angle
 Perlin Noise 2D
 ---------------
 
-.. figure:: /images/render-freestyle-line_style_geometry_perlin_noise_2d.jpg
+.. figure:: /images/render-freestyle-line_style_geometry_perlin_noise_2d.png
    :width: 300px
    :align: right
 
@@ -231,7 +231,7 @@ Its settings are exactly the same as the *Perlin Noise 1D* modifier.
 Polygonization
 --------------
 
-.. figure:: /images/render-freestyle-line_style_geometry_polygonization.jpg
+.. figure:: /images/render-freestyle-line_style_geometry_polygonization.png
    :width: 300px
    :align: right
 
@@ -250,7 +250,7 @@ Sampling
 The *Sampling* modifier changes the definition, precision of the stroke,
 for the following modifiers.
 
-.. figure:: /images/render-freestyle-line_style_geometry_sampling.jpg
+.. figure:: /images/render-freestyle-line_style_geometry_sampling.png
    :width: 300px
    :align: right
 
@@ -264,7 +264,7 @@ Sinus Displacement
 
 The *Sinus Displacement* modifier adds a sinusoidal displacement to the stroke.
 
-.. figure:: /images/render-freestyle-line_style_geometry_sinus_displacement.jpg
+.. figure:: /images/render-freestyle-line_style_geometry_sinus_displacement.png
    :width: 300px
    :align: right
 
@@ -292,7 +292,7 @@ The *Spatial Noise* modifier adds some spatial noise to the stroke.
 Spatial noise displacements are added in the normal direction
 (i.e., the direction perpendicular to the tangent line) evaluated at each stroke vertex.
 
-.. figure:: /images/render-freestyle-line_style_geometry_spatial_noise.jpg
+.. figure:: /images/render-freestyle-line_style_geometry_spatial_noise.png
    :width: 300px
    :align: right
 
@@ -318,7 +318,7 @@ Tip Remover
 
 The *Tip Remover* modifier removes a piece of the stroke at its beginning and end.
 
-.. figure:: /images/render-freestyle-line_style_geometry_tip_remover.jpg
+.. figure:: /images/render-freestyle-line_style_geometry_tip_remover.png
    :width: 300px
    :align: right
 

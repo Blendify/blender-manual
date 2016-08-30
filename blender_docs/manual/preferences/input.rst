@@ -22,7 +22,7 @@ picture.
 Adding and deleting presets
 ---------------------------
 
-.. figure:: /images/interface-configuration-input-adddeletepreset.jpg
+.. figure:: /images/interface-configuration-input-adddeletepreset.png
 
 Before changing anything in the default configuration,
 click on the "plus" symbol shown in the picture to add a new *Preset*. Blender will

@@ -81,12 +81,12 @@ Visualization
 
 .. list-table::
 
-   * - .. figure:: /images/editmode-cubeselect-1.jpg
+   * - .. figure:: /images/editmode-cubeselect-1.png
           :width: 315px
 
           One cube selected.
 
-     - .. figure:: /images/editmode-cubeselect-2.jpg
+     - .. figure:: /images/editmode-cubeselect-2.png
           :width: 315px
 
           Two cubes selected before entering Edit Mode.

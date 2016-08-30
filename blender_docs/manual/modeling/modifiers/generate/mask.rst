@@ -17,7 +17,7 @@ Mode
       all vertices belonging to the chosen Vertex Group (with a weight above zero) will be visible,
       and all other vertices will be hidden.
 
-      .. figure:: /images/modifier-mask-vg.jpg
+      .. figure:: /images/modifier-mask-vg.png
          :width: 350px
 
          Vertex Group.
@@ -27,7 +27,7 @@ Mode
       vertices belonging to the Vertex Group associated with the active bone (same names) will be visible.
       Vertices not in that group will be hidden.
 
-      .. figure:: /images/modifier-mask-a.jpg
+      .. figure:: /images/modifier-mask-a.png
          :width: 350px
 
          Armature.

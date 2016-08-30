@@ -53,7 +53,7 @@ The same rule holds for joining two areas that are stacked on top of one another
 they must both have the same width. If the one above is split vertically,
 you must first merge those two, and then join the bottom one up to the upper one.
 
-.. figure:: /images/interface-window_system-arranging_areas-join_areas.jpg
+.. figure:: /images/interface-window_system-arranging_areas-join_areas.png
    :width: 250px
 
 

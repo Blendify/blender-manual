@@ -35,7 +35,7 @@ Setup for Hair Particles
 #. Create a simulation
 #. Check the *Hair Dynamics* box.
 
-.. figure:: /images/particle_mode.jpg
+.. figure:: /images/particle_mode.png
 
    Editing hair strands in Particle Mode.
 
