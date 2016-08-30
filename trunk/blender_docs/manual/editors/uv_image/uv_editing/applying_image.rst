@@ -16,6 +16,15 @@ and how to load images into the UV/Image editor.
 Exporting UV Layout Image
 =========================
 
+.. <
+
+Using your favorite image painting program, you could use an exported UV layout to create a texture.
+Then save your changes, and back in Blender,
+use the :menuselection:`Image --> Open` menu command to load it as your UV image
+for the mesh in Edit Mode for the desired (and active) UV Texture layer.
+
+.. >
+
 As a way of communicating to an artist who is painting your UV Texture for you,
 Blender has a tool called *Save UV Face Layout*
 (located in the UV/Image Editor, :menuselection:`UVs --> Save UV Face Layout`)
@@ -282,60 +291,16 @@ Movie and Sequence
       Cycle the images in a movie/sequence.
 
 
-Saving Images
--------------
-
-Images can be saved to external files if they were created or edited in Blender with tools in
-the *Image* menu. If images are already files, use the *Save* command
-:kbd:`Alt-S`. You can also *Save As* :kbd:`F3`
-if the image was generated or you want to save as a different name.
-Using *Save as Copy*, :kbd:`F3` will save the file to a specified name,
-but will keep the old one open in the UV/Image editor.
-
-.. seealso::
-
-   :ref:`pack-unpack-data`.
-
-
 Modifying your Image Texture
 ============================
 
-To modify your new Texture, you can:
+.. seealso::
 
+   - :doc:`Render Bake </render/blender_render/bake>`
+   - :doc:`Texture Paint </sculpt_paint/painting/texture_paint/introduction>`.
 
-- :doc:`Render Bake </render/blender_render/bake>` an image based on how the mesh looks
-
-  - The Render Bake feature provides several tools to replace the current image
-    based on a render of :ref:`Vertex Paint <painting-vertex-index>` colors,
-    Normals (bumps), Procedural materials, textures and lighting, and ambient occlusion.
-- Paint using :doc:`Texture Paint </sculpt_paint/painting/texture_paint/introduction>`.
-
-  - Use the UV/Image Editor menu :menuselection:`Image --> New`. Then start painting your mesh with
-- Use external software to create an image
-
-  - Using your favorite image painting program, you could use an exported UV layout to create a texture.
-    Then save your changes, and back in Blender,
-    use the :menuselection:`Image --> Open` menu command to load it as your UV image
-    for the mesh in Face Select Mode for the desired (and active) UV Texture layer.
-    Using the *Edit Externally* tool in the *Image* menu, Blender will open an image editor,
-    as specified in the *User Preferences* and load in the image to be edited.
-- Use the "projection painting" feature of recent versions of Blender
-- Use the Bake uV-Textures to Vertex Colors add-on to create an image from vertex colors
-- Some combination of the above.
-
-The first three options, (UV Painter, Render Bake, and Texture Baker)
-replace the image with an image that they create.
-Texture paint and external software can be used to add or enhance the image.
-Regardless of which method you use, ultimately you must either
-
-- save your texture in a separate image file (for example ``JPG`` for colors, ``PNG`` with RGBA for alpha),
-- pack the image inside the blend-file (UV/Image Editor :menuselection:`Image --> Pack as PNG`),
-- or do both.
 
 The advantage to saving as a separate file is that you can easily switch textures just by
 copying other image files over it, and you can use external editing programs to work on it.
 The advantage of packing is that your whole project is kept in the blend-file,
 and that you only have to manage one file.
-
-You can invert the colors of an image by selecting the *Invert* menu.
-in the *Image* menu
