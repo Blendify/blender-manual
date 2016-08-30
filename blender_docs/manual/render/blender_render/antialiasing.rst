@@ -38,7 +38,6 @@ The images below show Blender sample patterns for 5, 8, 11 and 16 samples.
 To show that the distribution is equalized over multiple pixels, the neighbor pixel patterns were drawn as well.
 Note that each pixel has an identical pattern.
 
-
 .. list-table::
 
    * - .. figure:: /images/oversampling-pattern-5.jpg

@@ -48,6 +48,7 @@ Strands Shading
 ===============
 
 .. figure:: /images/materials_properties_strands.jpg
+   :align: right
 
    Strands Panel.
 
@@ -60,8 +61,7 @@ different from the material of the strands.
 Additionally strands can be shaded along the strand (from root to tip)
 with a mono-dimensional texture; only polygon strands can carry a two-dimensional UV-Texture.
 
-The options for strand shading are in the *Strands* section of the
-*Material* tab.
+The options for strand shading are in the *Strands* section of the *Material* tab.
 
 
 Root
@@ -89,11 +89,12 @@ Shape
    Default (0.0) is a linear interpolation between *Root* and *Tip*.
    A negative value will make the strand narrower (spiky), a positive value will make it fatter.
 
-.. _fig-bi-material-shadow-shapes:
+   .. _fig-bi-material-shadow-shapes:
 
-.. figure:: /images/strandshapes.jpg
+   .. figure:: /images/render_bi_strand_shapes.png
 
-   Strand Shapes
+      Various Shape settings. From left to right,
+      0 (root and tip are equal in the first), 0, -0.4, -0.9, 0.4, 0.9.
 
 Width Fade
    To fade out along the width of the strand.
@@ -118,17 +119,6 @@ Surface Diffuse
 Texturing along the Strand
 ==========================
 
-.. _fig-bi-material-strands-alpha:
-
-.. figure:: /images/materials_texture_mapping.jpg
-
-   Fading a strand to alpha...
-
-.. figure:: /images/strandrenderfade.jpg
-
-   ... And the render result.
-
-
 Strands can be textured along the strand, i.e. from root to tip. To do that you have to select
 *Strand/Particle* in the *Coordinates* drop-down in the
 *Mapping* panel of the *Material* tab.
@@ -137,22 +127,35 @@ Pretty much the most important setting is shown in Fig. :ref:`fig-bi-material-st
 how to fade the tip of a strand to alpha to make nice, fuzzy-looking hair.
 Normally you would use a linear blend texture for this.
 
-You may of course set any attribute you like, especially color. Be careful with specularity;
-hairs tend to get too shiny.
+.. _fig-bi-material-strands-alpha:
+
+.. list-table::
+
+   * - .. figure:: /images/materials_texture_mapping.jpg
+
+          Fading a strand to alpha.
+
+     - .. figure:: /images/strandrenderfade.jpg
+
+          The render result.
 
 
-Strand render Simplification
+You may of course set any attribute you like, especially color.
+Be careful with specularity; hairs tend to get too shiny.
+
+
+Strand Render Simplification
 ============================
-
-.. figure:: /images/strandrendersimplification.jpg
-
-   Strand render child simplification.
-
 
 If you use Strand Primitives (*Strand render* button)
 and have activated *Interpolated Children*,
 the *Child Simplification* option appears.
 The strand render has options to remove child strands as the object's faces become smaller.
+
+.. figure:: /images/strandrendersimplification.jpg
+
+   Strand render child simplification.
+
 
 Reference Size
    This is the approximate size of the object on screen (in pixels), after which simplification starts.
