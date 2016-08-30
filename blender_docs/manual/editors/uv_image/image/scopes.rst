@@ -1,0 +1,68 @@
+.. Add images (TODO)
+
+******
+Scopes
+******
+
+Histogram
+=========
+
+.. copied from the sequencer.
+
+This mode displays a graph showing the distribution of color information in the pixels of the
+currently displayed image. The X-axis represents values of pixel, from 0 to 1 (or 0 to 255),
+while the Y-axis represents the number of pixels in that tonal range. A predominantly dark
+image would have most of its information toward the left side of the graph.
+
+Use this mode to balance out the tonal range in an image.
+A well balanced image should a nice smooth distribution of color values.
+
+Luma
+   Shows the luminacity of an image.
+RGB
+   Shows the :abbr:`RGB (Red, Green, Blue)` channels stacked on top of each other.
+R/G/B/A
+   Depending on the channel you choose the scope will show the appropriate channel.
+Show line
+   Displays lines rather then filled shapes.
+
+
+Waveform
+========
+
+.. Add description of a Waveform maybe this should go in the glossary? (TODO).
+
+Waveform Opacity
+   Opacity of the points.
+
+Waveform Mode
+   TODO.
+
+
+Vectorscope
+===========
+
+.. Add description of a Vectorscope maybe this should go in the glossary? (TODO).
+
+Vectorscope Opacity
+   Opacity of the points.
+
+
+Sample Line
+===========
+
+The *Sample Line* scope is the same as the `Histogram`_
+but allows you to get the sample data from a line.
+
+Sample Line
+   Used to draw a line to use to read the sample data from.
+
+
+Scope Samples
+=============
+
+Full Sample
+   Sample every pixle.
+
+Accuracy
+   Proportion of original image source pixel lines to sample.
