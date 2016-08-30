@@ -3,7 +3,7 @@
 Render Baking
 *************
 
-Refer to the Blender Render page for :doc:`general baking guidelines </render/workflows/bake>`
+Refer to the Blender Render page for :doc:`general baking guidelines </render/blender_render/bake>`
 
 
 Cycles uses the render settings (samples, bounces, ...) for baking.

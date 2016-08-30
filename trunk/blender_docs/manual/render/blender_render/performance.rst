@@ -134,7 +134,7 @@ Render Settings
    - Decrease the frame count of the animation (and use a lower framerate for the same duration of animation).
      For example, render 30 frames at 10 frames per second for a 3-second animation,
      instead of 75 frames at 25 frames per second.
-:doc:`Bake Panel </render/workflows/bake>`
+:doc:`Bake Panel </render/blender_render/bake>`
    - Bake Full Render - create a UV Texture that colors the objects based on materials,
      and then use that UV Texture shadeless instead of the material.
    - Bake Ambient Occlusion only.
