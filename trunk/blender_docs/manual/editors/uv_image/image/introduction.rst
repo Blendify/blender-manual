@@ -12,7 +12,7 @@ Image Menu
 .. Header.
 
 New Image
-   ..
+   Generates a `New Image`_.
 Open Image
    Load image from a file.
 Read Render Layers
@@ -20,9 +20,10 @@ Read Render Layers
 Save All Images
    ..
 Replace Image
-   ..
+   Replaces the current image, while preserving the link to UV maps,
+   with an selected file.
 Reload Image
-   ..
+   Reloading the image from a external file.
 Save Image
    Save the image, if the image is already a file :kbd:`Alt-S`.
 Save As Image
@@ -52,6 +53,44 @@ Pack
 .. warning::
 
    Rendered images had to be saved externally.
+
+
+New Image
+---------
+
+.. figure:: /images/texture-uv-layout-testgrid.jpg
+   :align: right
+   :width: 200px
+
+   The new Image pop-up menu.
+
+
+When you select *New Image* you are presented with several options. This
+*Generated* image can also be modified afterward in the *Properties region*:
+
+Image Name
+   Set the name if the generated image
+Width and Height
+   Set the size if the image in pixels
+Color
+   Sets the default fill color if creating a blank image.
+Alpha
+   Adds an alpha channel to the image
+Generated Type
+   The type of image to generate:
+
+   UV Grid
+      Creates a checkerboard pattern with a colored cross (\+) in each square.
+   Color Grid
+      Creates a UV Test Grid, which is useful for testing how UVs have been mapped and
+      to reduce stretching or distortion.
+      There are two types available, which can be set after the image has been created.
+   Blank
+      Generates a blank image of a single specified color.
+32 bit float
+   Creates a 32 bit image. This is a larger file size,
+   but holds much more color information than the standard 8 bit image.
+   For close ups and large gradients, it may be better to use a 32 bit image.
 
 
 Header Controls
