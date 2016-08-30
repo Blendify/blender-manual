@@ -44,7 +44,7 @@ ordered here by precedence (i.e. the bone will be of the color of the topmost va
 Coloring from Bone Group
 ------------------------
 
-.. figure:: /images/rigging-bonegroups.png
+.. figure:: /images/rigging_armatures_properties_bone-groups-panel.png
 
    The Bone Groups panel with a bone group (default colors).
 
@@ -60,7 +60,6 @@ you can use the top row of controls to select another group in the drop-down lis
 ("arrows" button), rename the current group (text field), or delete it ("X" button).
 
 .. figure:: /images/rigging_posing_visualization_bone-group-list.png
-   :width: 250px
 
    The Bone Group drop-down list of a bone sub-panel.
 
@@ -84,7 +83,6 @@ Remove Bone Group
    Removes the active bone group
 
 .. figure:: /images/rigging_posing_visualization_bone-color-list.png
-   :width: 300px
 
    The Bone Color Set list of the bone group, and the color swatch of the chosen color theme.
 
@@ -120,11 +118,11 @@ Ghosts
 .. list-table::
    Ghosts examples.
 
-   * - .. figure:: /images/armature_ghost_arround_current.jpg
-          :width: 200px
+   * - .. figure:: /images/rigging_posing_visualization_ghost-example-1.png
+          :width: 240px
 
-     - .. figure:: /images/ie_ghost.jpg
-          :width: 200px
+     - .. figure:: /images/rigging_posing_visualization_ghost-example-2.png
+          :width: 240px
 
 
 If you are a bit familiar with traditional cartoon creation,
@@ -134,7 +132,7 @@ This allows them to visualize the overall movement of their character,
 without having to play it back... Well,
 Blender features something very similar for armatures in *Pose Mode*: the "ghosts".
 
-.. figure:: /images/riggingeditingobjectdatapropertycxtghostpanel.png
+.. figure:: /images/rigging_posing_visualization_ghost-panel.png
    :width: 250px
 
    The Ghost panel showing the different options associated with different modes.
@@ -205,8 +203,8 @@ Motion Paths
    | Menu:     :menuselection:`Pose --> Motion Paths --> ...`
    | Hotkey:   :kbd:`W-3`, :kbd:`W-4`
 
-.. figure:: /images/riggingposingmotionpathsex.jpg
-   :width: 250px
+.. figure:: /images/rigging_posing_visualization_motion-paths-example.png
+   :width: 450px
 
    A motion paths example.
 
@@ -239,7 +237,7 @@ As with ghosts, the paths are automatically updated when you edit your poses/key
 and they are also active during animation playback. :kbd:`Alt-A` is
 only useful when the *Around Current Frame* option is enabled.
 
-.. figure:: /images/riggingeditingobjectdatapropertycxtmotionpathspanel.png
+.. figure:: /images/rigging_posing_visualization_motion-paths-panel.png
    :width: 250px
 
    The Motion Paths Panel showing options for the different modes.
