@@ -45,7 +45,7 @@ There are several other options available which we will cover later on.
 Bone Groups
 ===========
 
-.. figure:: /images/riggingeditingobjectdatapropertycxtbonegroupspanel.png
+.. figure:: /images/rigging_armatures_properties_bone-groups-panel.png
 
    The Bone Groups panel.
 
@@ -88,7 +88,7 @@ Allows you to save different settings (location, rotation, scale) for selected b
 Ghost
 =====
 
-.. figure:: /images/riggingeditingobjectdatapropertycxtghostpanel.png
+.. figure:: /images/rigging_posing_visualization_ghost-panel.png
 
    The Ghost panel.
 
@@ -110,7 +110,7 @@ Defines the type of IK solver used in your animation.
 Motion Paths
 ============
 
-.. figure:: /images/riggingeditingobjectdatapropertycxtmotionpathspanel.png
+.. figure:: /images/rigging_posing_visualization_motion-paths-panel.png
 
    The Motion Paths panel.
 
