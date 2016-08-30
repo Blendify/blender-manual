@@ -50,7 +50,7 @@ You can vary the intensity of the ambient light across your scene via
 Single Rig
 ==========
 
-.. figure:: /images/lighting-rigs-01.jpg
+.. figure:: /images/lighting-rigs-01.png
    :width: 300px
 
    Standard Spot light rig.
@@ -90,7 +90,7 @@ Do not use this rig for big open spaces or to show all aspects of a model.
 Two-Point Rig
 =============
 
-.. figure:: /images/lighting-rigs-02.jpg
+.. figure:: /images/lighting-rigs-02.png
    :width: 300px
 
    Standard two-point light rig.
@@ -140,7 +140,7 @@ There are multiple thesis on this rig, and you will use one of two:
 Studio rig
 ----------
 
-.. figure:: /images/lighting-rigs-03a-studio.jpg
+.. figure:: /images/lighting-rigs-03a-studio.png
    :width: 300px
 
    Studio three-point light rig.
@@ -177,7 +177,7 @@ you may have to pull the sidelights back to be more positioned like the two-poin
 Standard Rig
 ------------
 
-.. figure:: /images/lighting-rigs-03b-standart.jpg
+.. figure:: /images/lighting-rigs-03b-standart.png
    :width: 300px
 
    Standard three-point light rig.
@@ -210,7 +210,7 @@ others, while making sure all three work together as a team.
 Four-point Rig
 ==============
 
-.. figure:: /images/lighting-rigs-04.jpg
+.. figure:: /images/lighting-rigs-04.png
    :width: 300px
 
    Four-point light rig.

@@ -240,7 +240,7 @@ Advanced Mapping
 Unwrapping Using Seams
 ----------------------
 
-.. figure:: /images/texture-uv-unwrap-seam-simple.jpg
+.. figure:: /images/texture-uv-unwrap-seam-simple.png
    :width: 300px
 
    Simple Seam on a Cylinder.
@@ -278,7 +278,7 @@ The workflow is the following:
 Marking Seams
 ^^^^^^^^^^^^^
 
-.. figure:: /images/texture-uv-unwrap-seams.jpg
+.. figure:: /images/texture-uv-unwrap-seams.png
    :width: 250px
 
    Seamed Suzanne.
@@ -335,7 +335,7 @@ the right side of the face will match the left, etc.
 Unwrap
 ^^^^^^
 
-.. figure:: /images/texture-uv-unwrap-unwrap.jpg
+.. figure:: /images/texture-uv-unwrap-unwrap.png
    :width: 300px
 
    Result of unwrapping Suzanne.
@@ -386,7 +386,7 @@ Margin
 Smart UV Project
 ----------------
 
-.. figure:: /images/texture-uv-unwrap-smartproject.jpg
+.. figure:: /images/texture-uv-unwrap-smartproject.png
    :width: 250px
 
    Smart UV project on a cube.

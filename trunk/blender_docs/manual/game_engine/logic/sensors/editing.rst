@@ -21,7 +21,7 @@ all the sensors in the current Game Logic are displayed.
 Column Heading
 ==============
 
-.. figure:: /images/bge_sensor_column1.jpg
+.. figure:: /images/bge_sensor_column1.png
    :width: 292px
 
    Sensor Column Heading.
@@ -60,7 +60,7 @@ State
 Object Heading
 ==============
 
-.. figure:: /images/bge_sensor_column2.jpg
+.. figure:: /images/bge_sensor_column2.png
    :width: 292px
 
    Sensor Object Heading.

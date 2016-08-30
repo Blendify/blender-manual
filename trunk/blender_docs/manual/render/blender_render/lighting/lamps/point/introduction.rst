@@ -4,7 +4,7 @@
 Introduction
 ************
 
-.. figure:: /images/lighting-lamps-point.jpg
+.. figure:: /images/lighting-lamps-point.png
    :width: 200px
 
    Point lamp.
@@ -40,12 +40,12 @@ Falloff and Sphere
 Shadows
 =======
 
-.. figure:: /images/lighting-lamps-point_panel-noshad.jpg
+.. figure:: /images/lighting-lamps-point_panel-noshad.png
    :width: 307px
 
    Without ray shadows.
 
-.. figure:: /images/lighting-lamps-point_panel-rayshad.jpg
+.. figure:: /images/lighting-lamps-point_panel-rayshad.png
    :width: 307px
 
    Point lamp with ray shadows and Adaptive QMC sample generator enabled.

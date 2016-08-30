@@ -12,7 +12,7 @@ In Blender Armature Object Types are usually used to associate certain bones of 
 certain parts of a Mesh Object Types Mesh Geometry.
 You are then able to move the Armature Bones and the Mesh Object will deform.
 
-.. figure:: /images/sq-3dvieweditorheader-objectmenu-parent-armature_deform.jpg
+.. figure:: /images/sq-3dvieweditorheader-objectmenu-parent-armature_deform.png
 
    Bone associated with Mesh Object.
 
@@ -34,7 +34,7 @@ influenced by the Armature and then lastly, select the Armature Object itself. O
 Child Objects and the Armature Object are selected press :kbd:`Ctrl-P` and select
 Armature Deform in the Set Parent To pop-up menu.
 
-.. figure:: /images/sr-3dvieweditorheader-objectmenu-parent-armature_deform.jpg
+.. figure:: /images/sr-3dvieweditorheader-objectmenu-parent-armature_deform.png
 
    Set Parent To menu with Armature Deform Parenting option highlighted.
 
@@ -96,7 +96,7 @@ For example, if you have an Armature Object which consists of three bones named 
 the Armature Parent Object the Cube will get three new Vertex Groups created on it called "BoneA",
 "BoneB" and "BoneC". Notice that each Vertex Group is empty.
 
-.. figure:: /images/editors_3dview_header-objectmenu-parent-armature_deform_with_empty_groups-blend.jpg
+.. figure:: /images/editors_3dview_header-objectmenu-parent-armature_deform_with_empty_groups-blend.png
 
    Cube in Edit Mode using Armature Deform with empty groups.
 
@@ -181,7 +181,7 @@ parenting are calculated entirely visually using Bone Envelopes.
 
 .. _fig-view3d-parent-envelope:
 
-.. figure:: /images/tn-3dvieweditorheader-objectmenu-parent-armature_deform_with_envelope_weights.jpg
+.. figure:: /images/tn-3dvieweditorheader-objectmenu-parent-armature_deform_with_envelope_weights.png
 
    Single Armature Bone in Edit Mode with Envelope Weight display enabled.
 
@@ -206,7 +206,7 @@ You can alter the size of the Bone Envelope volume by clicking on the body of th
 switch to Edit Mode or Pose Mode and then pressing
 :kbd:`Ctrl-Alt-S` then drag your mouse left or right and the Bone Envelope volume will alter accordingly.
 
-.. figure:: /images/tp-3dvieweditorheader-objectmenu-parent-armature_deform_with_envelope_weights.jpg
+.. figure:: /images/tp-3dvieweditorheader-objectmenu-parent-armature_deform_with_envelope_weights.png
 
    Single Armature Bone with various different Bone Envelope sizes.
 

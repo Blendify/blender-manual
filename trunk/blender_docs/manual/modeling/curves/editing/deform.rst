@@ -40,7 +40,7 @@ to make it control the size of the "curved" object...).
 Interface
 =========
 
-.. figure:: /images/curvesdeform_parentmenu.jpg
+.. figure:: /images/curvesdeform_parentmenu.png
 
    Make Parent menu.
 
@@ -87,7 +87,7 @@ Let us make a simple example:
 
 .. _fig-curves-deform-edit:
 
-.. figure:: /images/curvesdeform_exampleeditcurve.jpg
+.. figure:: /images/curvesdeform_exampleeditcurve.png
 
    Edit Curve.
 
@@ -97,7 +97,7 @@ Let us make a simple example:
 
 .. _fig-curves-deform-monkey-curve:
 
-.. figure:: /images/curvesdeform_examplemonkeyoncurve1.jpg
+.. figure:: /images/curvesdeform_examplemonkeyoncurve1.png
 
    Monkey on a Curve.
 
@@ -132,6 +132,6 @@ Let us make a simple example:
 
 .. _fig-curves-deform-monkey-deform:
 
-.. figure:: /images/curvesdeform_examplemonkeyoncurve2.jpg
+.. figure:: /images/curvesdeform_examplemonkeyoncurve2.png
 
    Monkey deformations.

@@ -38,7 +38,7 @@ simulation.
 Simple Motion
 =============
 
-.. figure:: /images/gameengine_actuator_motion_simple.jpg
+.. figure:: /images/gameengine_actuator_motion_simple.png
    :width: 271px
 
    Motion actuator for Simple Motion.
@@ -59,7 +59,7 @@ L
 Servo Control
 =============
 
-.. figure:: /images/gameengine_actuator_motion_servo.jpg
+.. figure:: /images/gameengine_actuator_motion_servo.png
    :width: 271px
 
    Motion actuator set to *Servo Control*.

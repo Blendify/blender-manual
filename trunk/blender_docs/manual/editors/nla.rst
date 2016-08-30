@@ -1,7 +1,7 @@
 ..    TODO/Review: {{review|text=Needs clarification & updates.
       |fixes=[[User:Rking/Doc:2.6/Manual/Animation/Editors/NLA|X]]}}.
 
-.. |snowflake-button| image:: /images/icons_snowflake.jpg
+.. |snowflake-button| image:: /images/icons_snowflake.png
    :width: 1.1em
 
 ***************************
@@ -21,7 +21,7 @@ Tracks are the layering system of the NLA. At its most basic level,
 it can help organize strips. But it also layers motion much like an image editor layers pixels -
 the bottom layer first, to the top, last.
 
-.. figure:: /images/nla_track.jpg
+.. figure:: /images/nla_track.png
 
 
 Strips
@@ -40,7 +40,7 @@ Any action used by the NLA first must be turned into an Action strip.
 This is done so by clicking the |snowflake-button|
 next to the action listed in the NLA. Alternatively, you can go to :menuselection:`Add --> Action`.
 
-.. figure:: /images/nla_action_strip.jpg
+.. figure:: /images/nla_action_strip.png
 
    Action Strip.
 
@@ -55,7 +55,7 @@ Select two or more strips on the same track, and go to
 
    | Menu:     :menuselection:`Add --> Transition`
 
-.. figure:: /images/nla-basics_transition.jpg
+.. figure:: /images/nla-basics_transition.png
 
    Transition Strip.
 
@@ -75,12 +75,12 @@ A meta strip can be moved and duplicated like a normal strip.
 
 .. list-table::
 
-   * - .. figure:: /images/nla_meta_strips_01.jpg
+   * - .. figure:: /images/nla_meta_strips_01.png
           :width: 200px
 
           Shift-select two or more strips..
 
-     - .. figure:: /images/nla_meta_strips_02.jpg
+     - .. figure:: /images/nla_meta_strips_02.png
           :width: 200px
 
           Combine them into a meta strip.
@@ -109,12 +109,12 @@ The contents of Action strips can be edited, but you must be in *Tweak Mode* to 
 
 .. list-table::
 
-   * - .. figure:: /images/nla_strip_nla_mode.jpg
+   * - .. figure:: /images/nla_strip_nla_mode.png
           :width: 200px
 
           Strip in NLA mode..
 
-     - .. figure:: /images/nla_strip_editmode.jpg
+     - .. figure:: /images/nla_strip_editmode.png
           :width: 200px
 
           Strip in Tweak mode.
@@ -125,15 +125,15 @@ you will notice that the keys will go along with it. On occasion,
 you will prefer the keys to remain on their original frames, regardless of where the strip is.
 To do so, hit the *unpin* icon, next to the strip.
 
-.. figure:: /images/nla_pinned_01.jpg
+.. figure:: /images/nla_pinned_01.png
 
    Nla strip with pinned keys.
 
-.. figure:: /images/nla_pin_02.jpg
+.. figure:: /images/nla_pin_02.png
 
    Strip moved, notice the keys move with it.
 
-.. figure:: /images/nla_pin_03.jpg
+.. figure:: /images/nla_pin_03.png
 
    The unpinned keys return to their original frames.
 
@@ -154,17 +154,17 @@ the original will turn to red.
 
 .. list-table::
 
-   * - .. figure:: /images/nla_original_strip.jpg
+   * - .. figure:: /images/nla_original_strip.png
           :width: 190px
 
           Original strip.
 
-     - .. figure:: /images/nla_linked_duplicate.jpg
+     - .. figure:: /images/nla_linked_duplicate.png
           :width: 190px
 
           Duplicated strip.
 
-     - .. figure:: /images/nla_linked_duplicate_edited.jpg
+     - .. figure:: /images/nla_linked_duplicate_edited.png
           :width: 190px
 
           Duplicated strip being edited.
@@ -186,7 +186,7 @@ Renaming Strips
 
 All strips can be renamed, in the "Active Track" section in the Strip Properties.
 
-.. figure:: /images/nla_striprename.jpg
+.. figure:: /images/nla_striprename.png
 
 
 Active Track
@@ -217,7 +217,7 @@ Active Action
 
 This represents the 'object data' of the strip. Much like the transform values of an object.
 
-.. figure:: /images/actionclip.jpg
+.. figure:: /images/actionclip.png
 
 
 Evaluation
@@ -240,4 +240,4 @@ Like its close cousins in mesh and graph editing,
 Modifiers can stack different combinations of effects for strips.
 Obviously there will be more to come on this.
 
-.. figure:: /images/modifier.jpg
+.. figure:: /images/modifier.png

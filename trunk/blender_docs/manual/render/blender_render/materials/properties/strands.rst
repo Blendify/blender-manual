@@ -47,7 +47,7 @@ Strand Primitive
 Strands Shading
 ===============
 
-.. figure:: /images/materials_properties_strands.jpg
+.. figure:: /images/materials_properties_strands.png
    :align: right
 
    Strands Panel.
@@ -131,7 +131,7 @@ Normally you would use a linear blend texture for this.
 
 .. list-table::
 
-   * - .. figure:: /images/materials_texture_mapping.jpg
+   * - .. figure:: /images/materials_texture_mapping.png
 
           Fading a strand to alpha.
 
@@ -152,7 +152,7 @@ and have activated *Interpolated Children*,
 the *Child Simplification* option appears.
 The strand render has options to remove child strands as the object's faces become smaller.
 
-.. figure:: /images/strandrendersimplification.jpg
+.. figure:: /images/strandrendersimplification.png
 
    Strand render child simplification.
 

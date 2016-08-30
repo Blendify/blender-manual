@@ -19,7 +19,7 @@ The *Font* panel has several options for changing the look of characters.
 Loading and Changing Fonts
 --------------------------
 
-.. figure:: /images/text-load-ex.jpg
+.. figure:: /images/text-load-ex.png
 
    Loading a Type 1 font file.
 
@@ -70,7 +70,7 @@ Shear
    Controls the inclination of the whole text.
    Different to as it may seems, this is not similar to italics style.
 
-   .. figure:: /images/textshear.jpg
+   .. figure:: /images/textshear.png
       :width: 300px
 
       shear: 'blender' has a shear value of 1, '2.59' a shear value of 0.
@@ -98,7 +98,7 @@ corresponding characters.
 Text on Curve
    Used to select a curve for the text object to follow.
 
-   .. figure:: /images/text-curved-lowres-ex.jpg
+   .. figure:: /images/text-curved-lowres-ex.png
       :width: 200px
 
       Text on curve.
@@ -125,12 +125,12 @@ Character
 
 .. list-table::
 
-   * - .. figure:: /images/text-bold-ex.jpg
+   * - .. figure:: /images/text-bold-ex.png
           :width: 320px
 
           Bold text.
 
-     - .. figure:: /images/textfontsettings.jpg
+     - .. figure:: /images/textfontsettings.png
           :width: 320px
 
           Character options to, for example, type bold text.

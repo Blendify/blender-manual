@@ -23,7 +23,7 @@ Settings
    You will need to apply any modifiers for level of detail objects to appear correctly.
    A fix for this is being looked into.
 
-.. figure:: /images/bge_level-of-detail-panel.jpg
+.. figure:: /images/bge_level-of-detail-panel.png
 
 Level of detail settings can be found in the Object settings when the renderer is set to
 Blender Game.

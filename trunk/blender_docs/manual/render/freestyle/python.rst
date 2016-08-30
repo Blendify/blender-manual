@@ -23,7 +23,7 @@ External style module files first need to be loaded in the Text Editor. Then the
 pull-down menu within an entry of the style module stack allows you to select a module from
 the list of loaded style modules.
 
-.. figure:: /images/freestyle_python_scripting_mode.jpg
+.. figure:: /images/freestyle_python_scripting_mode.png
    :width: 600px
 
    A screen capture of a style module (cartoon.py) loaded in the Text Editor (left),

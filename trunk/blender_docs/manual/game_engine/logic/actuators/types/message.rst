@@ -6,7 +6,7 @@ Message Actuator
 The Message actuator allows the user to send data across a scene,
 and between scenes themselves.
 
-.. figure:: /images/bge_actuator_message.jpg
+.. figure:: /images/bge_actuator_message.png
    :width: 271px
 
    Message actuator.

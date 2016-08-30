@@ -38,7 +38,7 @@ white if unselected or yellow if selected.
 
 If they have a name, this is shown to their right, in white when the marker is selected.
 
-.. figure:: /images/animation-timeline-markers.jpg
+.. figure:: /images/animation-timeline-markers.png
    :align: center
 
    Markers: small but useful.
@@ -50,7 +50,7 @@ Sequencer
 The *Video Sequence Editor* just adds a vertical dashed line to each marker
 (gray if the marker is unselected, or white if it is selected).
 
-.. figure:: /images/sequencer-markers.jpg
+.. figure:: /images/sequencer-markers.png
    :align: center
 
    Markers in the Sequencer.

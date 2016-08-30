@@ -24,7 +24,7 @@ This means the bisect tool can cut off parts of a mesh without creating any hole
 
 .. list-table::
 
-   * - .. figure:: /images/mesh_bisect.jpg
+   * - .. figure:: /images/mesh_bisect.png
          :width: 300px
 
          Example of a common use of bisect.

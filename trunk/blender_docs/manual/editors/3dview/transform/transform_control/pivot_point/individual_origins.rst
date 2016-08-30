@@ -73,7 +73,7 @@ Faces that do not touch will rotate around their Individual Origins (their cente
 
           Scaling with non-touching faces.
 
-     - .. figure:: /images/editors_3dview_transform-control_pivot-point_individual-origins-scale-group-fgon-faces.jpg
+     - .. figure:: /images/editors_3dview_transform-control_pivot-point_individual-origins-scale-group-fgon-faces.png
           :width: 320px
 
           Scaling with touching faces.

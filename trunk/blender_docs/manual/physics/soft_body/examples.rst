@@ -14,7 +14,7 @@ The Process
 
 First, change your start and end frames to 1 and 150.
 
-.. figure:: /images/softbody-examples-timeline.jpg
+.. figure:: /images/softbody-examples-timeline.png
    :width: 600px
 
    The timeline.
@@ -29,7 +29,7 @@ and move your cursor a bit.
 
 When finished, your scene should look like this:
 
-.. figure:: /images/softbody-examples-scene-ready.jpg
+.. figure:: /images/softbody-examples-scene-ready.png
    :width: 400px
 
    The scene, ready for softbody physics.

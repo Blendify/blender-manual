@@ -241,7 +241,7 @@ To join two separated curves,
 select one end control point from each curve then press :kbd:`F`.
 The two curves are joined by a segment to become a single curve.
 
-.. figure:: /images/editing_curves_two-curves-joined.jpg
+.. figure:: /images/editing_curves_two-curves-joined.png
    :width: 600px
 
    Curves before and after joining.
@@ -296,12 +296,12 @@ Segment
 
 .. list-table::
 
-   * - .. figure:: /images/editing_curves_delete-selected.jpg
+   * - .. figure:: /images/editing_curves_delete-selected.png
           :width: 320px
 
           Deleting Curve Selected.
 
-     - .. figure:: /images/editing_curves_delete-segment.jpg
+     - .. figure:: /images/editing_curves_delete-segment.png
           :width: 320px
 
           Deleting Curve segments.

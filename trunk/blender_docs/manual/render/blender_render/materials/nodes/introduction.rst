@@ -65,7 +65,7 @@ Enabling Node Materials in the Material Buttons
 
           Material's menu with Nodes enabled.
 
-     - .. figure:: /images/materials-nodes-defaultstart-node.jpg
+     - .. figure:: /images/materials-nodes-defaultstart-node.png
 
           Default nodes.
 
@@ -76,7 +76,7 @@ material panel or the node editor. You will see a change in the material panel.
 What you have just done is told Blender to make the material you were on to become the node
 tree. Most of the panels we normally find in the material menu are now gone.
 
-.. figure:: /images/materials-nodes-compositing_screen.jpg
+.. figure:: /images/materials-nodes-compositing_screen.png
 
    Accessing the Compositing screen.
 

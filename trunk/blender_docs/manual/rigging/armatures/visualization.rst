@@ -176,13 +176,13 @@ To assign a custom shape to a bone, you have to:
 
 .. list-table::
 
-   * - .. figure:: /images/riggingboneshapeex3dviewobjectmode.jpg
+   * - .. figure:: /images/riggingboneshapeex3dviewobjectmode.png
           :width: 320px
 
           The armature with shapes assigned to two bones, in Object Mode.
           Note the centers of the Cone and Cube objects.
 
-     - .. figure:: /images/riggingboneshapeex3dviewposemode.jpg
+     - .. figure:: /images/riggingboneshapeex3dviewposemode.png
           :width: 320px
 
           The same armature in Pose Mode...

@@ -3,7 +3,7 @@
 Rotate
 ******
 
-.. figure:: /images/texture-nodes-rotate.jpg
+.. figure:: /images/texture-nodes-rotate.png
    :align: right
 
    Rotate node.

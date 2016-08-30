@@ -74,7 +74,7 @@ Control Point. By default the arrows on the Segment represents the direction and
 *relative* speed and direction of movement Objects will have when moving along the curve.
 This can be altered by defining a custom F-Curve.
 
-.. figure:: /images/modeling_curves_control-points-handles.jpg
+.. figure:: /images/modeling_curves_control-points-handles.png
 
    Bézier Curve in Edit Mode.
 
@@ -115,24 +115,24 @@ Automatic :kbd:`V-A`
    ensure the smoothest result.
    These handles convert to *Aligned* handles when moved.
 
-   .. figure:: /images/modeling_curves_automatic-handles.jpg
+   .. figure:: /images/modeling_curves_automatic-handles.png
 
 Vector :kbd:`V-V`
    Both parts of a handle always point to the previous handle or the next handle which allows
    you to create curves or sections thereof made of straight lines or with sharp corners.
    Vector handles convert to *Free* handles when moved.
 
-   .. figure:: /images/modeling_curves_vector-handles.jpg
+   .. figure:: /images/modeling_curves_vector-handles.png
 
 Aligned :kbd:`V-L`
    These handles always lie in a straight line, and give a continuous curve without sharp angles.
 
-   .. figure:: /images/modeling_curves_aligned-handles.jpg
+   .. figure:: /images/modeling_curves_aligned-handles.png
 
 Free :kbd:`V-F`
    The handles are independent of each other.
 
-   .. figure:: /images/modeling_curves_free-handles.jpg
+   .. figure:: /images/modeling_curves_free-handles.png
 
 
 Additionally, the :kbd:`V-T` shortcut can be used to toggle between Free and Aligned handle types.

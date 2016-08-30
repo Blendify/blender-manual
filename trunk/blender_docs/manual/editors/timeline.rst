@@ -6,7 +6,7 @@ Timeline Editor
 The *Timeline* editor, identified by a clock icon,
 is shown by default at the bottom of the screen.
 
-.. figure:: /images/timeline.jpg
+.. figure:: /images/timeline.png
 
    The Timeline.
 
@@ -27,7 +27,7 @@ Main View
 
 The main *Timeline* region displays the animation frames over time.
 
-.. figure:: /images/timeline_main.jpg
+.. figure:: /images/timeline_main.png
 
    Timeline Main Area.
 
@@ -45,7 +45,7 @@ or pressing :kbd:`Minus` and :kbd:`Plus` on the numpad.
 Time Cursor
 -----------
 
-.. figure:: /images/timeline_cursor.jpg
+.. figure:: /images/timeline_cursor.png
 
    Time Cursor.
 
@@ -89,7 +89,7 @@ Markers
 Markers are the small triangles, with their name near them.
 Markers are usually used to identify key parts of the animation.
 
-.. figure:: /images/timeline_markers.jpg
+.. figure:: /images/timeline_markers.png
 
    Markers.
 
@@ -121,7 +121,7 @@ Cache
 
       Softbody, Particles, Cloth, Smoke, Dynamic Paint, Rigid Body.
 
-   .. figure:: /images/timeline_cache.jpg
+   .. figure:: /images/timeline_cache.png
 
       Timeline Cache.
 
@@ -231,7 +231,7 @@ Player Control
 
 These button are used to set, play, rewind, the *Time Cursor*.
 
-.. figure:: /images/timeline_player_controls.jpg
+.. figure:: /images/timeline_player_controls.png
 
    Player Controls.
 
@@ -256,7 +256,7 @@ Pause
 Synchronize Playback
 ^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: /images/animation_red_fps.jpg
+.. figure:: /images/animation_red_fps.png
 
    3D View Red FPS.
    60:54.75
@@ -282,7 +282,7 @@ AV-sync
 Keyframe Control
 ^^^^^^^^^^^^^^^^
 
-.. figure:: /images/kia_cube03.jpg
+.. figure:: /images/kia_cube03.png
 
    Timeline Auto Keyframe.
 
@@ -306,7 +306,7 @@ Auto Keyframe
 Layered
    Optional while playback. TODO.
 
-   .. figure:: /images/animation_timeline_layered.jpg
+   .. figure:: /images/animation_timeline_layered.png
 
       Timeline Layered.
 
@@ -323,7 +323,7 @@ Active Keying Set
    Custom keying sets can be defined in the in the panels
    :menuselection:`Properties --> Scene --> Keying Sets + Active Keying Set`.
 
-   .. figure:: /images/kia_cube02.jpg
+   .. figure:: /images/kia_cube02.png
 
       Timeline Keying Sets.
 

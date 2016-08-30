@@ -4,7 +4,7 @@
 Spot Buffered Shadows
 *********************
 
-.. figure:: /images/lighting-shadow-spot_buf_shad.jpg
+.. figure:: /images/lighting-shadow-spot_buf_shad.png
    :width: 310px
 
    Buffer Shadow enabled for a Spot lamp.
@@ -53,7 +53,7 @@ For more information on the different shadow generation methods see these links:
 "Classical" and "Classic-Halfway"
 ---------------------------------
 
-.. figure:: /images/lighting-shadow-spot_buf_shad.jpg
+.. figure:: /images/lighting-shadow-spot_buf_shad.png
    :width: 310px
 
    Buffer Shadowset to Classic-Halfway.

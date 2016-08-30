@@ -1,6 +1,6 @@
 
 .. |prop-edit-icon| image::
-   /images/editors_3dview_transform-control_proportional-edit-header-icon.jpg
+   /images/editors_3dview_transform-control_proportional-edit-header-icon.png
 
 .. |prop-edit-edit-mode-icon| image::
    /images/editors_3dview_transform-control_proportional-edit-header-icon-edit-mode.jpg
@@ -94,7 +94,7 @@ Options
 
          Proportional Editing tool.
 
-     - .. figure:: /images/editors_3dview_transform-control_proportional-edit-falloff-options.jpg
+     - .. figure:: /images/editors_3dview_transform-control_proportional-edit-falloff-options.png
          :width: 200px
 
          Falloff menu.
@@ -130,37 +130,37 @@ Falloff
 
 .. list-table::
 
-   * - .. figure:: /images/editors_3dview_transform-control_proportional-edit-falloff-constant.jpg
+   * - .. figure:: /images/editors_3dview_transform-control_proportional-edit-falloff-constant.png
           :width: 320px
 
           Constant, No Falloff.
 
-     - .. figure:: /images/editors_3dview_transform-control_proportional-edit-falloff-random.jpg
+     - .. figure:: /images/editors_3dview_transform-control_proportional-edit-falloff-random.png
           :width: 320px
 
           Random Falloff.
 
-   * - .. figure:: /images/editors_3dview_transform-control_proportional-edit-falloff-linear.jpg
+   * - .. figure:: /images/editors_3dview_transform-control_proportional-edit-falloff-linear.png
           :width: 320px
 
           Linear Falloff.
 
-     - .. figure:: /images/editors_3dview_transform-control_proportional-edit-falloff-sharp.jpg
+     - .. figure:: /images/editors_3dview_transform-control_proportional-edit-falloff-sharp.png
           :width: 320px
 
           Sharp Falloff.
 
-   * - .. figure:: /images/editors_3dview_transform-control_proportional-edit-falloff-root.jpg
+   * - .. figure:: /images/editors_3dview_transform-control_proportional-edit-falloff-root.png
           :width: 320px
 
           Root Falloff.
 
-     - .. figure:: /images/editors_3dview_transform-control_proportional-edit-falloff-sphere.jpg
+     - .. figure:: /images/editors_3dview_transform-control_proportional-edit-falloff-sphere.png
           :width: 320px
 
           Sphere Falloff.
 
-   * - .. figure:: /images/editors_3dview_transform-control_proportional-edit-falloff-smooth.jpg
+   * - .. figure:: /images/editors_3dview_transform-control_proportional-edit-falloff-smooth.png
           :width: 320px
 
           Smooth Falloff.

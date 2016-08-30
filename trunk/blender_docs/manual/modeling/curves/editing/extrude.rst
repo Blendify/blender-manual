@@ -176,11 +176,11 @@ with the results shown in Fig. :ref:`fig-curves-extrude-taber-curve`.
 
    * - .. _fig-curves-extrude-taber-curve:
 
-       .. figure:: /images/curves-simple-taper-ex.jpg
+       .. figure:: /images/curves-simple-taper-ex.png
 
           Taper extruded curve.
 
-     - .. figure:: /images/curves-simple-taper-ex-solid.jpg
+     - .. figure:: /images/curves-simple-taper-ex-solid.png
 
           Taper solid mode.
 
@@ -193,7 +193,7 @@ Of course as an artist that may be what you are looking for!
 
 .. _fig-curves-extrude-taber1:
 
-.. figure:: /images/curvestaper02.jpg
+.. figure:: /images/curvestaper02.png
 
    Taper example 1.
 
@@ -205,7 +205,7 @@ the right.
 
 .. _fig-curves-extrude-taber2:
 
-.. figure:: /images/curvestaper03.jpg
+.. figure:: /images/curvestaper03.png
 
    Taper example 2.
 
@@ -215,7 +215,7 @@ center and that gives a wider result to the curve object on the right.
 
 .. _fig-curves-extrude-taber3:
 
-.. figure:: /images/curvestaper04.jpg
+.. figure:: /images/curvestaper04.png
 
    Taper example 3.
 

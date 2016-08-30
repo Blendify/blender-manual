@@ -3,7 +3,7 @@
 Image Node
 **********
 
-.. figure:: /images/texture-nodes-image.jpg
+.. figure:: /images/texture-nodes-image.png
    :align: right
 
    Image node.

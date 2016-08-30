@@ -3,7 +3,7 @@
 Wire Render
 ***********
 
-.. figure:: /images/materials_render_wire0.jpg
+.. figure:: /images/materials_render_wire0.png
    :width: 320px
 
    Wire Render.

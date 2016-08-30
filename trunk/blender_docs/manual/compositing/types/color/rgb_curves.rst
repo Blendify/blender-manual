@@ -56,7 +56,7 @@ Examples
 
 Here are some common curves you can use to achieve desired effects:
 
-.. figure:: /images/compositing-common_rgb_node_uses.jpg
+.. figure:: /images/compositing-common_rgb_node_uses.png
 
    From left to right: 1. Lighten 2. Negative 3. Decrease Contrast 4. Posterize.
 
@@ -106,7 +106,7 @@ setting Black and White Levels.
 Effects
 -------
 
-.. figure:: /images/nodes-rgbcurve-ex.jpg
+.. figure:: /images/nodes-rgbcurve-ex.png
    :width: 320px
 
    Changing colors.

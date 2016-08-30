@@ -25,7 +25,7 @@ of a vertex based on its neighbors.
 Options
 =======
 
-.. figure:: /images/apinzonf_diagram_deform_modifier_panel_00.jpg
+.. figure:: /images/apinzonf_diagram_deform_modifier_panel_00.png
    :width: 369px
 
 
@@ -38,22 +38,22 @@ Repeat
 
    .. list-table::
 
-      * - .. figure:: /images/apinzonf_deform_cactus_09.jpg
+      * - .. figure:: /images/apinzonf_deform_cactus_09.png
              :width: 130px
 
              Original Model.
 
-        - .. figure:: /images/apinzonf_deform_cactus_repeat_1.jpg
+        - .. figure:: /images/apinzonf_deform_cactus_repeat_1.png
              :width: 130px
 
              Repeat: 1.
 
-        - .. figure:: /images/apinzonf_deform_cactus_repeat_2.jpg
+        - .. figure:: /images/apinzonf_deform_cactus_repeat_2.png
              :width: 130px
 
              Repeat: 2.
 
-        - .. figure:: /images/apinzonf_deform_cactus_repeat_5.jpg
+        - .. figure:: /images/apinzonf_deform_cactus_repeat_5.png
              :width: 130px
 
              Repeat: 5.
@@ -124,7 +124,7 @@ This method uses `differential coordinates
 corresponding to the difference between a vector and the weighted average
 of its neighbors to represent the local geometric detail of the mesh.
 
-.. figure:: /images/apinzonf_diagram_differential_coordinate.jpg
+.. figure:: /images/apinzonf_diagram_differential_coordinate.png
    :width: 369px
 
    Differential Coordinate.

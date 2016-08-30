@@ -54,7 +54,7 @@ Z
 Examples
 ========
 
-.. figure:: /images/node-zcombine_ex_alpha.jpg
+.. figure:: /images/node-zcombine_ex_alpha.png
    :width: 300px
 
    Alpha and Z-Combine node.

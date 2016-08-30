@@ -15,7 +15,7 @@ and associated texture, used to render the simulation data.
 Options
 =======
 
-.. figure:: /images/ocean_modifier.jpg
+.. figure:: /images/ocean_modifier.png
    :width: 240px
 
    Ocean Modifier.

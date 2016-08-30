@@ -13,7 +13,7 @@ allowing application of very different effects.
 Options
 =======
 
-.. figure:: /images/modifier-simpledeform.jpg
+.. figure:: /images/modifier-simpledeform.png
 
    Simple Deform.
 

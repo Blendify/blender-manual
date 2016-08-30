@@ -19,7 +19,7 @@ and applies it to the object as the "light" hits it. It can optionally override 
 Options
 =======
 
-.. figure:: /images/uvproject_ui.jpg
+.. figure:: /images/uvproject_ui.png
 
 UV layer
    Which UV layer to modify. Defaults to the active rendering layer.

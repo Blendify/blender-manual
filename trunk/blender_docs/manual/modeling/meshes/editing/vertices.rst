@@ -115,32 +115,32 @@ Examples
 
 .. list-table::
 
-   * - .. figure:: /images/rip-before.jpg
+   * - .. figure:: /images/rip-before.png
           :width: 320px
 
           Selected vertex.
 
-     - .. figure:: /images/rip-after.jpg
+     - .. figure:: /images/rip-after.png
           :width: 320px
 
           Hole created after using rip on vertex.
 
-   * - .. figure:: /images/rip-edges-before.jpg
+   * - .. figure:: /images/rip-edges-before.png
           :width: 320px
 
           Edges selected.
 
-     - .. figure:: /images/rip-edges-after.jpg
+     - .. figure:: /images/rip-edges-after.png
           :width: 320px
 
           Result of rip with edge selection.
 
-   * - .. figure:: /images/rip-complexselection-before.jpg
+   * - .. figure:: /images/rip-complexselection-before.png
           :width: 320px
 
           A complex selection of vertices.
 
-     - .. figure:: /images/rip-complexselection-after.jpg
+     - .. figure:: /images/rip-complexselection-after.png
           :width: 320px
 
           Result of rip operation.
@@ -172,12 +172,12 @@ it fills in the gap with geometry.
 
 .. list-table::
 
-   * - .. figure:: /images/rip-edges-before.jpg
+   * - .. figure:: /images/rip-edges-before.png
           :width: 320px
 
           Edges selected.
 
-     - .. figure:: /images/ripfill-result.jpg
+     - .. figure:: /images/ripfill-result.png
           :width: 320px
 
           Result of rip fill.
@@ -265,17 +265,17 @@ This tool can be used on many faces at once.
 
 .. list-table::
 
-   * - .. figure:: /images/modeling_vertexconnect-before.jpg
+   * - .. figure:: /images/modeling_vertexconnect-before.png
           :width: 180px
 
           Vertices before connecting.
 
-     - .. figure:: /images/modeling_vertexconnect-after.jpg
+     - .. figure:: /images/modeling_vertexconnect-after.png
           :width: 180px
 
           After connecting vertices.
 
-     - .. figure:: /images/modeling_vertexconnect-after-faces.jpg
+     - .. figure:: /images/modeling_vertexconnect-after-faces.png
           :width: 180px
 
           Resulting face pair.
@@ -317,17 +317,17 @@ then :kbd:`LMB` again to move the vertex.
 
 .. list-table::
 
-   * - .. figure:: /images/modeling_vertexslide1.jpg
+   * - .. figure:: /images/modeling_vertexslide1.png
           :width: 200px
 
           Selected vertex.
 
-     - .. figure:: /images/modeling_vertexslide2.jpg
+     - .. figure:: /images/modeling_vertexslide2.png
           :width: 200px
 
           Positioning vertex interactively.
 
-     - .. figure:: /images/modeling_vertexslide3.jpg
+     - .. figure:: /images/modeling_vertexslide3.png
           :width: 200px
 
           Repositioned vertex.

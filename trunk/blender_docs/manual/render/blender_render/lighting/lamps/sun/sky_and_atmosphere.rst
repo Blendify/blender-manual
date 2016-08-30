@@ -162,7 +162,7 @@ First, let us see what happens when we modify the orientation of the sun:
 
           With sun right overhead (mid-day).
 
-     - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-midnight.jpg
+     - .. figure:: /images/lighting-lamps-sun-sky_atmosphere-midnight.png
           :width: 200px
 
           With sun deep "under the Earth" (midnight).

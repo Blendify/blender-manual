@@ -41,7 +41,7 @@ with the above mentioned configuration applied as follows:
 
 .. _fig-meta-intro-underlying:
 
-.. figure:: /images/metaunderlyingstructure.jpg
+.. figure:: /images/metaunderlyingstructure.png
    :width: 600px
 
    Underlying.

@@ -77,21 +77,21 @@ If any object that was last active appears in the group it will become selected 
 
    * - .. _fig-mesh-select-basics-start:
 
-       .. figure:: /images/modeling-meshes-selection-borderselect1.jpg
+       .. figure:: /images/modeling-meshes-selection-borderselect1.png
           :width: 200px
 
           Start.
 
      - .. _fig-mesh-select-basics-selecting:
 
-       .. figure:: /images/modeling-meshes-selection-borderselect2.jpg
+       .. figure:: /images/modeling-meshes-selection-borderselect2.png
           :width: 200px
 
           Selecting.
 
      - .. _fig-mesh-select-basics-complete:
 
-       .. figure:: /images/modeling-meshes-selection-borderselect3.jpg
+       .. figure:: /images/modeling-meshes-selection-borderselect3.png
           :width: 200px
 
           Complete.
@@ -126,12 +126,12 @@ or the :kbd:`Wheel`.
 
 .. list-table:: Circle Region Select.
 
-   * - .. figure:: /images/modeling-meshes-selection-circularselect1.jpg
+   * - .. figure:: /images/modeling-meshes-selection-circularselect1.png
           :width: 320px
 
           Before.
 
-     - .. figure:: /images/modeling-meshes-selection-circularselect2.jpg
+     - .. figure:: /images/modeling-meshes-selection-circularselect2.png
           :width: 320px
 
           After.
@@ -166,17 +166,17 @@ To deselect, use :kbd:`Ctrl-Shift-LMB` while dragging.
 
 .. list-table:: Lasso selection.
 
-   * - .. figure:: /images/modeling-meshes-selection-lassoselect1.jpg
+   * - .. figure:: /images/modeling-meshes-selection-lassoselect1.png
           :width: 200px
 
           Start.
 
-     - .. figure:: /images/modeling-meshes-selection-lassoselect2.jpg
+     - .. figure:: /images/modeling-meshes-selection-lassoselect2.png
           :width: 200px
 
           Selecting.
 
-     - .. figure:: /images/modeling-meshes-selection-lassoselect3.jpg
+     - .. figure:: /images/modeling-meshes-selection-lassoselect3.png
           :width: 200px
 
           Complete.

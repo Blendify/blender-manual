@@ -33,7 +33,7 @@ that saves an image as a ``Targa`` (``.tga``), ``EPS``, or an ``SVG`` format for
 The image is an outline of the UV face mapping.
 Activating the tool brings up the File Browser with options for saving the layout:
 
-.. figure:: /images/texture-uv-layout-export.jpg
+.. figure:: /images/texture-uv-layout-export.png
 
    Export Options.
 
@@ -63,7 +63,7 @@ For using images as textures, see the page on :doc:`Image Textures </render/blen
 
 .. list-table::
 
-   * - .. figure:: /images/texture-uv-layout.jpg
+   * - .. figure:: /images/texture-uv-layout.png
           :width: 250px
 
           A UV Layout in the UV/Image Editor.
@@ -105,7 +105,7 @@ the Proper way and the Quick Way:
 Use UV Coordinates
 ------------------
 
-.. figure:: /images/texture-uv-coords.jpg
+.. figure:: /images/texture-uv-coords.png
 
    A texture setup to map using its UV coordinates.
 
@@ -135,7 +135,7 @@ Full details of using Image textures are on the
 Face Textures
 -------------
 
-.. figure:: /images/texture-uv-layout-facetex.jpg
+.. figure:: /images/texture-uv-layout-facetex.png
 
    The Material panel with activated Face Textures button.
 
@@ -224,7 +224,7 @@ look like cloth, you do **not** want any stretching (unless you want the cloth t
 
 .. list-table::
 
-   * - .. figure:: /images/texture-uv-layout-testgrid2.jpg
+   * - .. figure:: /images/texture-uv-layout-testgrid2.png
           :width: 250px
 
           The test grid applied to the UVs.

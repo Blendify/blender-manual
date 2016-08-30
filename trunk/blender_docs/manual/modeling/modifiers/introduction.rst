@@ -43,7 +43,7 @@ Simulate
 Interface
 =========
 
-.. figure:: /images/modifier-subsurf.jpg
+.. figure:: /images/modifier-subsurf.png
 
    Panel Layout (Subsurf as an example).
 
@@ -116,13 +116,13 @@ For example, the image below shows :doc:`SubSurf </modeling/modifiers/generate/s
 
 .. list-table:: Modifier Stack example.
 
-   * - .. figure:: /images/modifier-stackorder-example2.jpg
+   * - .. figure:: /images/modifier-stackorder-example2.png
           :width: 320px
 
           The Mirror modifier is the last item in the stack and
           the result looks like two surfaces.
 
-     - .. figure:: /images/modifier-stackorder-examp1e1.jpg
+     - .. figure:: /images/modifier-stackorder-examp1e1.png
           :width: 320px
 
           The Subsurface modifier is the last

@@ -23,7 +23,7 @@ One of the best ways to explain this is through an example illustration.
 Basic Usage
 ===========
 
-.. figure:: /images/dupliface-example01-1start.jpg
+.. figure:: /images/dupliface-example01-1start.png
 
    A cube and a sphere.
 

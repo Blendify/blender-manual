@@ -30,7 +30,7 @@ Influence
 Along Stroke
 ------------
 
-.. figure:: /images/render-freestyle-line_style_alpha_along_stroke.jpg
+.. figure:: /images/render-freestyle-line_style_alpha_along_stroke.png
    :width: 300px
    :align: right
 
@@ -50,7 +50,7 @@ Distance from Camera
 The *Distance from Camera* modifier alters the base alpha with a new one from either
 a linear progression or a custom curve, using the distance to the active camera as parameter.
 
-.. figure:: /images/render-freestyle-line_style_alpha_distance_from_camera.jpg
+.. figure:: /images/render-freestyle-line_style_alpha_distance_from_camera.png
    :width: 300px
    :align: right
 
@@ -75,7 +75,7 @@ Distance from Object
 The *Distance from Object* modifier alters the base alpha with a new one from either
 a linear progression or a custom curve, using the distance to a given object as parameter.
 
-.. figure:: /images/render-freestyle-line_style_alpha_distance_from_object.jpg
+.. figure:: /images/render-freestyle-line_style_alpha_distance_from_object.png
    :width: 300px
    :align: right
 
@@ -106,7 +106,7 @@ material under the stroke.
 You can use various properties of the materials, among which some are multi-components (i.e.
 give RGB results). In that case, the mean value will be used.
 
-.. figure:: /images/render-freestyle-line_style_alpha_material.jpg
+.. figure:: /images/render-freestyle-line_style_alpha_material.png
    :width: 300px
    :align: right
 

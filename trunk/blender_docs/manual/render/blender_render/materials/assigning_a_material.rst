@@ -164,11 +164,11 @@ There are several ways to do this using the Available Materials menu:
    A drop-down list appears showing all the materials available in the current blend-file.
    To use one, just click on it.
 
-.. figure:: /images/material-matmenu-addfirst-select_exist_button.jpg
+.. figure:: /images/material-matmenu-addfirst-select_exist_button.png
 
    Select an existing material.
 
-.. figure:: /images/material-matmenu-searchlist.jpg
+.. figure:: /images/material-matmenu-searchlist.png
 
    List of available materials.
 

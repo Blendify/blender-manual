@@ -10,12 +10,12 @@ See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>`
 
 Special Options:
 
-.. figure:: /images/bge_actuator_game.jpg
+.. figure:: /images/bge_actuator_game.png
    :width: 271px
 
    Game actuator.
 
-.. figure:: /images/bge_actuator_game_options.jpg
+.. figure:: /images/bge_actuator_game_options.png
    :width: 271px
 
    Game.

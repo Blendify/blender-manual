@@ -31,7 +31,7 @@ Activating *Normals* or typing a name in *VGroup* will simply deactivate the mod
 Options
 =======
 
-.. figure:: /images/modifier-wave.jpg
+.. figure:: /images/modifier-wave.png
 
    Wave modifier.
 

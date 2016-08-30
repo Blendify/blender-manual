@@ -45,7 +45,7 @@ select it and activate *Scale* mode with :kbd:`S`.
 
 .. _fig-meta-edit-stiffness:
 
-.. figure:: /images/metastiffness.jpg
+.. figure:: /images/metastiffness.png
    :width: 630px
 
    Stiffness.
@@ -180,7 +180,7 @@ they form a unified mesh which can always be selected by selecting the mesh of a
 For example, in the example Fig. :ref:`fig-meta-ball-base`, only the lower sphere (the parent) has been selected,
 and you see that both the parent's mesh *and* all of the children's meshes are now highlighted.
 
-.. figure:: /images/metaobject-base-scale-ex.jpg
+.. figure:: /images/metaobject-base-scale-ex.png
    :width: 300px
 
    Scaling the "base".

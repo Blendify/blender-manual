@@ -62,7 +62,7 @@ Weights are visualized by using a cold/hot color system, such that areas of low 
 And all in-between influences are drawn in rainbow colors, depending on their value (blue,
 green, yellow, orange, red).
 
-.. figure:: /images/weight_spec.jpg
+.. figure:: /images/weight_spec.png
    :width: 610px
 
    The color spectrum and their respective weights.
@@ -90,7 +90,7 @@ a brush will only paint on the selected verts or faces.
 The option is available from the header of the 3D View
 (see icons surrounded by the yellow frame):
 
-.. figure:: /images/modeling-meshes-weight-paint-select.jpg
+.. figure:: /images/modeling-meshes-weight-paint-select.png
 
    You can choose between *Face Selection masking* (left icon)
    and *Vertex selection masking* (right icon).
@@ -126,7 +126,7 @@ The following standard selection operations are supported:
 Vertex Selection Masking
 ------------------------
 
-.. figure:: /images/modeling-meshes-weight-paint-vertex-select.jpg
+.. figure:: /images/modeling-meshes-weight-paint-vertex-select.png
 
    Vertex Selection masking.
 
@@ -144,7 +144,7 @@ Face Selection Masking
 
 .. list-table::
 
-   * - .. figure:: /images/modeling-meshes-weight-paint-face-select.jpg
+   * - .. figure:: /images/modeling-meshes-weight-paint-face-select.png
 
           Face Selection masking.
 

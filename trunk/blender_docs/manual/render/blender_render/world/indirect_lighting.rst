@@ -12,7 +12,7 @@ Direct+Indirect Lighting:
 
 .. list-table::
 
-   * - .. figure:: /images/lighting-inderect_lighting-01.jpg
+   * - .. figure:: /images/lighting-inderect_lighting-01.png
 
           Direct Lighting Schematic.
 
@@ -20,7 +20,7 @@ Direct+Indirect Lighting:
 
           Direct Lighting Render.
 
-   * - .. figure:: /images/lighting-inderect_lighting-03.jpg
+   * - .. figure:: /images/lighting-inderect_lighting-03.png
 
           Direct+Indirect Lighting Schematic.
 
@@ -34,7 +34,7 @@ Images courtesy of `rastermon.com <https://web.archive.org/web/20050204031559/ht
 
 Indirect Lighting only works with Approximate gather method.
 
-.. figure:: /images/lighting-inderect_lighting.jpg
+.. figure:: /images/lighting-inderect_lighting.png
    :width: 300px
 
    Indirect Lighting parameters.
@@ -58,7 +58,7 @@ Note that these settings also apply to Environment Lighting and Ambient Occlusio
 Approximate
 -----------
 
-.. figure:: /images/lighting-ambientocclusion-gather2.jpg
+.. figure:: /images/lighting-ambientocclusion-gather2.png
 
    The Indirect Lighting panel, Approximate method.
 

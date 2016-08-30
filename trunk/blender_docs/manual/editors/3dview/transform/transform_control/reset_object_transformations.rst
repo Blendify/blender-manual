@@ -18,7 +18,7 @@ The objects location and rotation values return to 0, and the scale returns to 1
 Clear Options
 =============
 
-.. figure:: /images/editors_3dview_transform-control_object-transformations-clear-transformations.jpg
+.. figure:: /images/editors_3dview_transform-control_object-transformations-clear-transformations.png
 
    Clear Transformation menu.
 
@@ -61,7 +61,7 @@ use the shortcut :kbd:`Ctrl-A` and select the appropriate transform to apply.
 Apply Options
 -------------
 
-.. figure:: /images/editors_3dview_transform-control_object-transformations-apply-transformations.jpg
+.. figure:: /images/editors_3dview_transform-control_object-transformations-apply-transformations.png
 
    Apply Transformation menu.
 

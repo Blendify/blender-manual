@@ -35,7 +35,7 @@ refining of camera intrinsics happens when solving camera motion only.
 Track Panel
 ===========
 
-.. figure:: /images/editors_movie-clip_track_panel.jpg
+.. figure:: /images/editors_movie-clip_track_panel.png
    :align: right
    :width: 130px
 

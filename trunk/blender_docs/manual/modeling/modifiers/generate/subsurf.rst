@@ -31,7 +31,7 @@ You can see the difference between the two in the grid image below.
 Modifier Settings
 =================
 
-.. figure:: /images/modifier-subsurf.jpg
+.. figure:: /images/modifier-subsurf.png
 
    Modifier's Panel.
 
@@ -72,7 +72,7 @@ Options
       When enabled, the UV maps will also be subsurfed
       (i.e. Blender will add "virtual" coordinates for all sub-faces created by this modifier).
 
-   .. figure:: /images/modifier-generate-subsurf-subdivideuvs.jpg
+   .. figure:: /images/modifier-generate-subsurf-subdivideuvs.png
 
       Subdivide UVs on and off.
 
@@ -153,7 +153,7 @@ Weighted Edge Creases
 Weighted edge creases for subdivision surfaces allows you to change the way
 Subsurf subdivides the geometry to give the edges a smooth or sharp appearance.
 
-.. figure:: /images/subsurfwithcrease.jpg
+.. figure:: /images/subsurfwithcrease.png
 
    A Subsurfed Cube with Creased Edges.
 
@@ -219,12 +219,12 @@ shares the overall normal orientation of that original face.
 
 .. list-table::
 
-   * - .. figure:: /images/subsurf05b.jpg
+   * - .. figure:: /images/subsurf05b.png
           :width: 320px
 
           Comparison of good normals and bad normals.
 
-     - .. figure:: /images/subsurf05a.jpg
+     - .. figure:: /images/subsurf05a.png
           :width: 320px
 
           Side view of image on left.

@@ -48,7 +48,7 @@ the contents of the Pop-Up menu are different, because of your mode (Edit Mode)
 
 .. _fig-interface-redo-last:
 
-.. figure:: /images/basics-undo-redo-f6-rotation-object-edit.jpg
+.. figure:: /images/basics-undo-redo-f6-rotation-object-edit.png
 
    Redo last.
 
@@ -66,7 +66,7 @@ the contents of the Pop-Up menu are different, because of your mode (Edit Mode)
 Undo History
 ============
 
-.. figure:: /images/basics-undo-redo-ctrl+alt+z_menu.jpg
+.. figure:: /images/basics-undo-redo-ctrl+alt+z_menu.png
    :align: right
 
    The Undo History Menu.
@@ -94,7 +94,7 @@ Using repeat :kbd:`Shift-R`, the *Monkey* was also duplicated and moved.
 
 .. list-table::
 
-   * - .. figure:: /images/undoredo-00-repeat.jpg
+   * - .. figure:: /images/undoredo-00-repeat.png
 
           Suzanne.
 

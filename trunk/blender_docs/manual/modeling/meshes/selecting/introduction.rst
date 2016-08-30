@@ -22,7 +22,7 @@ Select Mode Header Widgets
    | Menu:     :menuselection:`3D View Header --> Select Mode`
    | Hotkey:   :kbd:`Ctrl-Tab`
 
-.. figure:: /images/modeling-meshes-selection-mode-buttons.jpg
+.. figure:: /images/modeling-meshes-selection-mode-buttons.png
    :align: right
    :width: 190px
 
@@ -96,22 +96,22 @@ See Fig. :ref:`fig-mesh-select-intro-selection-modes` for examples of the differ
 
 .. list-table:: Selection Modes.
 
-   * - .. figure:: /images/editmodeverticemodeexample.jpg
+   * - .. figure:: /images/editmodeverticemodeexample.png
           :width: 320px
 
           Vertices mode example.
 
-     - .. figure:: /images/editmodeedgemodeexample.jpg
+     - .. figure:: /images/editmodeedgemodeexample.png
           :width: 320px
 
           Edges mode example.
 
-   * - .. figure:: /images/editmodefacemodeexample.jpg
+   * - .. figure:: /images/editmodefacemodeexample.png
           :width: 320px
 
           Faces mode example.
 
-     - .. figure:: /images/editmodemixedmodeexample.jpg
+     - .. figure:: /images/editmodemixedmodeexample.png
           :width: 320px
 
           Mixed mode example.

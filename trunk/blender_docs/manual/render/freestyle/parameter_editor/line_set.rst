@@ -7,7 +7,7 @@ A line set selects, among the lines (edges) detected by Freestyle,
 which ones will be rendered using its attached
 :doc:`line style </render/freestyle/parameter_editor/line_style/introduction>`, through various methods.
 
-.. figure:: /images/render-freestyle-basicedgetypeselectionex.jpg
+.. figure:: /images/render-freestyle-basicedgetypeselectionex.png
    :width: 600px
 
    Examples of some basic edge types by LightBWK
@@ -28,7 +28,7 @@ Visible
 Hidden
    Lines occluded by at least one surface are rendered.
 
-.. figure:: /images/render-freestyle-hidden_edges.jpg
+.. figure:: /images/render-freestyle-hidden_edges.png
    :width: 600px
 
    Proof of concept of visible and hidden edges by LightBWK
@@ -41,7 +41,7 @@ QI Range
    Start and End
       Min/max number of occluding surfaces for a line to be rendered.
 
-   .. figure:: /images/render-freestyle-qi_range.jpg
+   .. figure:: /images/render-freestyle-qi_range.png
       :width: 600px
 
       QI Range proof of concept demo, Start: 3, End: 7, by LightBWK
@@ -139,7 +139,7 @@ The examples below explain the use of edge marks.
 
 .. list-table::
 
-   * - .. figure:: /images/freestyle-edge-marks-disabled.jpg
+   * - .. figure:: /images/freestyle-edge-marks-disabled.png
 
           Render without Edge Marks.
 
@@ -188,7 +188,7 @@ On the right is a render without face marks activated.
 
           Marked Faces.
 
-     - .. figure:: /images/freestyle-face-marks-disabled.jpg
+     - .. figure:: /images/freestyle-face-marks-disabled.png
 
           Render Output.
 
@@ -225,7 +225,7 @@ The image below shows the resulting combinations.
 
           Exclusive, One Face.
 
-     - .. figure:: /images/freestyle-face-mark-exclusive-both.jpg
+     - .. figure:: /images/freestyle-face-mark-exclusive-both.png
 
           Exclusive, Both Faces.
 

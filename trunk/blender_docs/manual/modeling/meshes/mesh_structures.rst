@@ -22,7 +22,7 @@ shows the center point labeled as "A", "B" and "C" are vertices.
 
 .. _fig-mesh-topo-vector:
 
-.. figure:: /images/mesh-structures-cubeexample.jpg
+.. figure:: /images/mesh-structures-cubeexample.png
 
    Vertex example.
 

@@ -3,7 +3,7 @@
 Texture Node
 ************
 
-.. figure:: /images/texture-nodes-texture.jpg
+.. figure:: /images/texture-nodes-texture.png
    :align: right
 
    Texture node.

@@ -84,7 +84,7 @@ and it will show you a button for stopping your capture.
    performed in the Blender *User Interface*, (it will stop animations, playbacks and so on...),
    but will not work to stop *Screencasts*.
 
-.. figure:: /images/basics-screencast-frame-range-sufix.jpg
+.. figure:: /images/basics-screencast-frame-range-sufix.png
 
    :menuselection:`Render --> Dimensions Panel --> Frame Range`
 

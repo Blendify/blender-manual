@@ -10,7 +10,7 @@ For all other conditions the controller gives a negative (FALSE) output.
 
 Options:
 
-.. figure:: /images/bge_controller_or.jpg
+.. figure:: /images/bge_controller_or.png
    :width: 292px
 
    OR Controller.

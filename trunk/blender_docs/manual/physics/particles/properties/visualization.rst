@@ -80,7 +80,7 @@ Trail Count
 Path
 ----
 
-.. figure:: /images/visualisationpanelpath.jpg
+.. figure:: /images/visualisationpanelpath.png
 
    The Visualization panel for Path visualization.
 
@@ -176,7 +176,7 @@ Random Size
 Billboard
 ---------
 
-.. figure:: /images/visualisationpanelbillboard.jpg
+.. figure:: /images/visualisationpanelbillboard.png
 
    Billboard visualization for particles.
 

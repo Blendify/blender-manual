@@ -214,7 +214,7 @@ This face loop was selected by clicking with :kbd:`Alt-RMB` on an edge,
 in *face* select mode.
 The loop extends perpendicular from the edge that was selected.
 
-.. figure:: /images/edgeface-loopingedge-algors-vertex-select.jpg
+.. figure:: /images/edgeface-loopingedge-algors-vertex-select.png
 
    :kbd:`Alt` versus :kbd:`Ctrl-Alt` in vertex select mode.
 
@@ -253,7 +253,7 @@ or the *Edge Ring Select* option of the *Edge Specials* menu :kbd:`Ctrl-E`.
 
 .. _fig-mesh-select-advanced-loop-ring:
 
-.. figure:: /images/edgeface-loopingedge-algors-select.jpg
+.. figure:: /images/edgeface-loopingedge-algors-select.png
 
    A selected edge loop, and a selected edge ring.
 

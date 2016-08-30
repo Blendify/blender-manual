@@ -63,7 +63,7 @@ Examples
 When you got more Faces that meet at one point they are forming a star like pattern like seen
 in the examples below.
 
-.. figure:: /images/cubewireframes.jpg
+.. figure:: /images/cubewireframes.png
 
    Original / Wireframe / Original+Wireframe.
 

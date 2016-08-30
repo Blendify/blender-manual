@@ -19,7 +19,7 @@ otherwise the *Particle Instance* modifier will appear to do nothing.
 Options
 =======
 
-.. figure:: /images/particleinstancemodifier.jpg
+.. figure:: /images/particleinstancemodifier.png
    :width: 250px
 
    Particle Instance Modifier.
@@ -175,23 +175,23 @@ showing the effect on the deformation of the cylinder along the particle path.
 
    .. list-table::
 
-      * - .. figure:: /images/particle_instance_modifier-keyed_particle_example_4.jpg
+      * - .. figure:: /images/particle_instance_modifier-keyed_particle_example_4.png
              :width: 320px
 
              The cylinder has most of its edge loops so most of the path deform is very regular
              apart from at the very end of the curve.
 
-        - .. figure:: /images/particle_instance_modifier-keyed_particle_example_5.jpg
+        - .. figure:: /images/particle_instance_modifier-keyed_particle_example_5.png
              :width: 320px
 
              The cylinder has some of its edge loops removed so the path of the deform starts to become less regular.
 
-      * - .. figure:: /images/particle_instance_modifier-keyed_particle_example_6.jpg
+      * - .. figure:: /images/particle_instance_modifier-keyed_particle_example_6.png
              :width: 320px
 
              Now the deform path is very rough.
 
-        - .. figure:: /images/particle_instance_modifier-keyed_particle_example_7.jpg
+        - .. figure:: /images/particle_instance_modifier-keyed_particle_example_7.png
              :width: 320px
 
              At this point there are not any vertices to bend the cylinder to follow the path,

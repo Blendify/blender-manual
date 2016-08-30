@@ -17,7 +17,7 @@ The Laplacian Smooth modifier is based on a curvature flow Laplace Beltrami oper
 Options
 =======
 
-.. figure:: /images/apinzonf_diagram_modifier_panel.jpg
+.. figure:: /images/apinzonf_diagram_modifier_panel.png
    :width: 369px
 
    Laplacian Smooth modifier.
@@ -60,22 +60,22 @@ Repeat
 
    .. list-table:: With a factor of 2.0 .
 
-      * - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_repeat0.jpg
+      * - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_repeat0.png
              :width: 130px
 
              Repeat: 0.
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_repeat1.jpg
+        - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_repeat1.png
              :width: 130px
 
              Repeat: 1.
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_repeat5.jpg
+        - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_repeat5.png
              :width: 130px
 
              Repeat: 5.
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_repeat10.jpg
+        - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_repeat10.png
              :width: 130px
 
              Repeat: 10.
@@ -135,7 +135,7 @@ Factor
 
              Factor: 5.0.
 
-      * - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_lambda0_0.jpg
+      * - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_lambda0_0.png
              :width: 130px
 
              Factor: 0.0.
@@ -259,7 +259,7 @@ X, Y, Z
 
    .. list-table::
 
-      * - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_axis.jpg
+      * - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_axis.png
              :width: 130px
 
              X, Y, Z: Unselected.
@@ -274,12 +274,12 @@ X, Y, Z
 
              X, Y: Selected.
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_axis_x.jpg
+        - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_axis_x.png
              :width: 130px
 
              X: Selected.
 
-      * - .. figure:: /images/apinzonf_gsoc_2012_diagram_t_axis.jpg
+      * - .. figure:: /images/apinzonf_gsoc_2012_diagram_t_axis.png
              :width: 130px
 
              X, Y, Z: Unselected.
@@ -294,7 +294,7 @@ X, Y, Z
 
              X, Y: Selected.
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_t_axis_x.jpg
+        - .. figure:: /images/apinzonf_gsoc_2012_diagram_t_axis_x.png
              :width: 130px
 
              X: Selected.
@@ -307,7 +307,7 @@ Preserve Volume
 
    .. list-table::
 
-      * - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_volumefalse.jpg
+      * - .. figure:: /images/apinzonf_gsoc_2012_diagram_cube_volumefalse.png
              :width: 130px
 
              Off.
@@ -352,7 +352,7 @@ Vertex Group
         - .. figure:: /images/apinzonf_gsoc_2012_diagram_femme_wgroup.jpg
              :width: 130px
 
-      * - .. figure:: /images/apinzonf_gsoc_2012_diagram_t_normal.jpg
+      * - .. figure:: /images/apinzonf_gsoc_2012_diagram_t_normal.png
              :width: 130px
 
         - .. figure:: /images/apinzonf_gsoc_2012_diagram_t_smooth.jpg
@@ -361,7 +361,7 @@ Vertex Group
         - .. figure:: /images/apinzonf_gsoc_2012_diagram_t_paint.jpg
              :width: 130px
 
-        - .. figure:: /images/apinzonf_gsoc_2012_diagram_t_wgroup.jpg
+        - .. figure:: /images/apinzonf_gsoc_2012_diagram_t_wgroup.png
              :width: 130px
 
       * - .. figure:: /images/apinzonf_diagram_camel_vertex0.jpg
@@ -422,7 +422,7 @@ Examples
           `Femme Front blend-file
           <https://wiki.blender.org/index.php/Media:Apinzonf_GSOC_2012_Media_femme_front.blend>`__
 
-     - .. figure:: /images/apinzonf_gsoc_2012_diagram_t_wgroup.jpg
+     - .. figure:: /images/apinzonf_gsoc_2012_diagram_t_wgroup.png
           :width: 200px
 
           `Cube Smooth blend-file

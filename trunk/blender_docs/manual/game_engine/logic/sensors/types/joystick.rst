@@ -36,7 +36,7 @@ Event Type
 
 .. rubric:: Single Axis
 
-.. figure:: /images/bge_sensor_joystick_singaxis.jpg
+.. figure:: /images/bge_sensor_joystick_singaxis.png
    :width: 200px
 
    Joystick Single Axis.
@@ -56,7 +56,7 @@ Single Axis
 
 .. rubric:: Hat
 
-.. figure:: /images/bge_sensor_joystick_hat.jpg
+.. figure:: /images/bge_sensor_joystick_hat.png
    :width: 200px
 
    Joystick Hat.

@@ -138,7 +138,7 @@ Mechanical
 
           A bridge made from a tileable mesh.
 
-     - .. figure:: /images/arraymodifier-track01.jpg
+     - .. figure:: /images/arraymodifier-track01.png
           :width: 320px
 
           A track.
@@ -175,7 +175,7 @@ Fractal
 
           Multi-level array animated with motion blur.
 
-     - .. figure:: /images/arraymodifier-fractal01.jpg
+     - .. figure:: /images/arraymodifier-fractal01.png
           :width: 320px
 
           Fractal created with multiple arrays.
@@ -200,7 +200,7 @@ Organic
           Subsurfed cube array with one object offset,
           four cubes and a high vertex merge setting to give the effect of skinning.
 
-     - .. figure:: /images/arraymodifier-spiral01.jpg
+     - .. figure:: /images/arraymodifier-spiral01.png
           :width: 320px
 
           A double spiral created with two array modifiers and one subsurf modifier applied to a cube.

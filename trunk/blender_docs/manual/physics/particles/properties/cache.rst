@@ -5,7 +5,7 @@
 Cache
 *****
 
-.. figure:: /images/particlesystem_cachesettings.jpg
+.. figure:: /images/particlesystem_cachesettings.png
 
    Particles Cache Settings.
 

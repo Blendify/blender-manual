@@ -233,7 +233,7 @@ Blend
 Blends the weights of selected vertices with adjacent unselected vertices.
 This tool only works in vertex select mode.
 
-.. figure:: /images/modeling-meshes-wp-tools-blend1.jpg
+.. figure:: /images/modeling-meshes-wp-tools-blend1.png
 
    Blending.
 
@@ -251,7 +251,7 @@ This value is multiplied by the factor given in the Operator parameters (see bel
 - If the factor is 1.0 then the calculated average weight is taken (0.25 here).
 - Dragging the factor from 0 to 1 gradually changes from the old value to the calculated average.
 
-.. figure:: /images/modeling-meshes-wp-tools-blend2.jpg
+.. figure:: /images/modeling-meshes-wp-tools-blend2.png
 
    Blending.
 
@@ -277,7 +277,7 @@ then we see different results for each of the selected verts:
   So the average weight is 0, thus the selected vert color has not changed at all
   (it was already blue before blend was applied).
 
-.. figure:: /images/modeling-meshes-wp-tools-blend3.jpg
+.. figure:: /images/modeling-meshes-wp-tools-blend3.png
 
    Blending.
 
@@ -402,7 +402,7 @@ Limit
 Weight Gradient
 ===============
 
-.. figure:: /images/weightgradient.jpg
+.. figure:: /images/weightgradient.png
    :width: 200px
 
    Example of the gradient tool being used with selected vertices.

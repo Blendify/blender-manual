@@ -26,17 +26,17 @@ Drawing the cut line
 
 .. list-table::
 
-   * - .. figure:: /images/knife1.jpg
+   * - .. figure:: /images/knife1.png
           :width: 200px
 
           Mesh before knife cut.
 
-     - .. figure:: /images/knife2.jpg
+     - .. figure:: /images/knife2.png
           :width: 200px
 
           Knife cut active.
 
-     - .. figure:: /images/knife3.jpg
+     - .. figure:: /images/knife3.png
           :width: 200px
 
           After confirming knife cut.
@@ -55,12 +55,12 @@ New cut :kbd:`E`
 
 .. list-table::
 
-   * - .. figure:: /images/knife4.jpg
+   * - .. figure:: /images/knife4.png
           :width: 320px
 
           Creating multiple cuts.
 
-     - .. figure:: /images/knife5.jpg
+     - .. figure:: /images/knife5.png
           :width: 320px
 
           Result of starting new cuts while in the tool.
@@ -82,12 +82,12 @@ Draw a continuous line: :kbd:`LMB` drag.
 
 .. list-table::
 
-   * - .. figure:: /images/knife6.jpg
+   * - .. figure:: /images/knife6.png
           :width: 320px
 
           Constraining cut angle.
 
-     - .. figure:: /images/knife7.jpg
+     - .. figure:: /images/knife7.png
           :width: 320px
 
           Result of constraining cut angle.
@@ -150,7 +150,7 @@ Examples
 
           Resulting knife projection (extruded after).
 
-   * - .. figure:: /images/knife_project_curve_before.jpg
+   * - .. figure:: /images/knife_project_curve_before.png
           :width: 320px
 
           Before projecting from a 3D curve object.

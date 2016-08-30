@@ -24,7 +24,7 @@ Edit Object
    - End Object
    - Add Object
 
-.. figure:: /images/bge_actuator_edit_object_dynamics.jpg
+.. figure:: /images/bge_actuator_edit_object_dynamics.png
    :width: 271px
 
    Edit Object actuator - Dynamics.
@@ -78,7 +78,7 @@ Replace Mesh
    Phys Button
       replace physics mesh (not compound shapes)
 
-.. figure:: /images/bge_actuator_edit_object_end_object.jpg
+.. figure:: /images/bge_actuator_edit_object_end_object.png
    :width: 271px
 
    Edit Object actuator -- End Object.
@@ -89,7 +89,7 @@ End Object
 
 Destroy the current object (Note, debug properties will display error Zombie Object in console)
 
-.. figure:: /images/bge_actuator_edit_object_add_object.jpg
+.. figure:: /images/bge_actuator_edit_object_add_object.png
    :width: 271px
 
    Edit Object actuator - Add Object.

@@ -4,7 +4,7 @@
 Applying Constraints to Bones
 *****************************
 
-.. figure:: /images/rigging-constraints.jpg
+.. figure:: /images/rigging-constraints.png
    :align: right
    :figwidth: 290px
 

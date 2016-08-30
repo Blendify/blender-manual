@@ -118,7 +118,7 @@ object you want to select with :kbd:`LMB`.
 
 Lasso select adds to the previous selection. For deselection, use :kbd:`Ctrl-Shift-LMB`.
 
-.. figure:: /images/object-selection-lasso.jpg
+.. figure:: /images/object-selection-lasso.png
 
    Lasso selection example.
 
@@ -142,12 +142,12 @@ To cancel the selection use :kbd:`RMB` or key :kbd:`Esc`.
 
 .. list-table::
 
-   * - .. figure:: /images/object-selection-circle1.jpg
+   * - .. figure:: /images/object-selection-circle1.png
           :width: 320px
 
           Circle selection.
 
-     - .. figure:: /images/object-selection-circle2.jpg
+     - .. figure:: /images/object-selection-circle2.png
           :width: 320px
 
           ...with huge circle.

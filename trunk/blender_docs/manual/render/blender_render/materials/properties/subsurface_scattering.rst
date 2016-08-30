@@ -82,7 +82,7 @@ its light is evenly distributed over the whole object.
 Enabling Subsurface Scattering
 ==============================
 
-.. figure:: /images/material-sss-panel.jpg
+.. figure:: /images/material-sss-panel.png
 
    The SSS Panel. SSS is already enabled.
 

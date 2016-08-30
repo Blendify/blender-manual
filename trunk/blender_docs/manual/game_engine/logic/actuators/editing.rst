@@ -3,7 +3,7 @@
 Actuator Editing
 ****************
 
-.. figure:: /images/bge_actuator_column.jpg
+.. figure:: /images/bge_actuator_column.png
    :width: 292px
 
    Actuator Column with Typical Actuator.
@@ -21,7 +21,7 @@ all the actuators in the current Game Logic are displayed.
 Column Heading
 ==============
 
-.. figure:: /images/bge_actuator_column1.jpg
+.. figure:: /images/bge_actuator_column1.png
    :width: 292px
 
    Actuator Column Heading.
@@ -58,7 +58,7 @@ State
 Object Heading
 ==============
 
-.. figure:: /images/bge_actuator_column2.jpg
+.. figure:: /images/bge_actuator_column2.png
    :width: 292px
 
    Actuator Object Heading.

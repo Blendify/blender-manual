@@ -62,7 +62,7 @@ of faces to which the material is applied.
 Material Physics
 ================
 
-.. figure:: /images/materials-properties-game-physics-settings.jpg
+.. figure:: /images/materials-properties-game-physics-settings.png
 
    Panel Physics in Material context.
 

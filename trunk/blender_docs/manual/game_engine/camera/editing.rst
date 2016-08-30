@@ -3,7 +3,7 @@
 Camera Editing
 **************
 
-.. figure:: /images/bge_camera_properties.jpg
+.. figure:: /images/bge_camera_properties.png
    :width: 300px
 
    Camera Properties.
@@ -83,7 +83,7 @@ Bar Color
 Stereo
 ======
 
-.. figure:: /images/bge_camera_properties_stereo.jpg
+.. figure:: /images/bge_camera_properties_stereo.png
    :width: 300px
 
    Stereo Panel.
@@ -105,7 +105,7 @@ Dome
 Shading
 =======
 
-.. figure:: /images/bge_camera_properties_shading.jpg
+.. figure:: /images/bge_camera_properties_shading.png
    :width: 300px
 
    Shading Panel.
