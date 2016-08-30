@@ -56,18 +56,18 @@ Octahedral bone
    - The bone "size" (its thickness is proportional to its length).
    - The bone roll (as it has a square section).
 
-   .. figure:: /images/rigging_armatures_visualization_octahedral-bone.png
-      :width: 250px
+   .. figure:: /images/rigging_armatures_visualization_type-octahedral.png
+      :width: 300px
 
-      Note the 40- rolled Bone.001 bone.
+      Note the 40° rolled Bone.001 bone.
 
 Stick bone
    This is the simplest and most non-intrusive visualization.
    It just materializes bones by sticks of constant (and small) thickness,
    so it gives you no information about root and tip, nor bone size or roll angle.
 
-   .. figure:: /images/rigging_armatures_visualization_stick-bone.png
-      :width: 250px
+   .. figure:: /images/rigging_armatures_visualization_type-stick.png
+      :width: 300px
 
       Note that Bone.001 roll angle is not visible (except by its XZ axes).
 
@@ -76,14 +76,34 @@ B-Bone bone
    see the :ref:`bone page <armature-bone-rigid>` for details.
 
    .. figure:: /images/rigging_armatures_bones_introduction_b-bones-1.png
-      :width: 250px
+      :width: 300px
+
+      An armature of B-Bones, in Edit Mode.
+
+   .. figure:: /images/rigging_armatures_bones_introduction_b-bones-3.png
+      :width: 300px
+
+      The same armature in Object Mode.
 
 Envelope bone
    This visualization materializes the bone deformation influence.
    More on this in the :ref:`bone page <armature-bone-influence>`.
 
    .. figure:: /images/rigging_armatures_bones_introduction_envelope-pose-mode.png
-      :width: 250px
+      :width: 300px
+
+Wire bone
+   This simplest visualization shows the curves of "smooth" multi-segmented bones.
+
+   .. figure:: /images/rigging_armatures_visualization_type-wire-pose-mode.png
+      :width: 300px
+
+      An armature of Wire, in Pose Mode.
+
+   .. figure:: /images/rigging_armatures_visualization_type-wire-edit-mode.png
+      :width: 300px
+
+      The same armature in Edit Mode.
 
 
 Draw Options

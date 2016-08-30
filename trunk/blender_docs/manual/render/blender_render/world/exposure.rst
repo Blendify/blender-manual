@@ -28,7 +28,7 @@ Using an exponential correction formula, this now can be nicely corrected.
 Options
 =======
 
-.. figure:: /images/render_bi_world_exposure.jpg
+.. figure:: /images/render_blender-render_world_exposure_world-panel.png
 
    Exposure and Range sliders.
 

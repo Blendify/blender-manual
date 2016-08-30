@@ -96,12 +96,12 @@ Ghost
 Allows you to see a set of different consecutive poses, very useful when animating.
 
 
-iTaSC parameters
+Inverse Kinematics
 ================
 
-.. figure:: /images/riggingeditingobjectdatapropertycxtitascparameterspanel.jpg
+.. figure:: /images/ik_armature_ik_panel.png
 
-   The iTaSC parameters panel.
+   The Inverse Kinematics panel.
 
 
 Defines the type of IK solver used in your animation.

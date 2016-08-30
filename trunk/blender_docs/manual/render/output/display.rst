@@ -3,6 +3,11 @@
 Render Panel
 ************
 
+.. figure:: /images/render_render-output_render-panel.png
+   :align: right
+
+   Render panel.
+
 Render
    Starts rendering a still image.
 Animation

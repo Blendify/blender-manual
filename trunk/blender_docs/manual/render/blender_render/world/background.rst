@@ -23,8 +23,7 @@ but a very common use of a *World* is to shade a background color.
 Options
 =======
 
-.. figure:: /images/bi_world-worldskycolor.jpg
-   :width: 297px
+.. figure:: /images/render_blender-render_world_background_world-panel.png
 
    World panel.
 
@@ -66,8 +65,7 @@ then *Texture*. They are used much like the Materials textures,
 except for a couple of differences. The textures can be mapped according to:
 
 
-.. figure:: /images/bi_world-texcoord.jpg
-   :width: 200px
+.. figure:: /images/render_blender-render_world_background_texture-coordinates.png
    :align: right
 
    Texture Coordinates pop-up menu.
@@ -89,8 +87,7 @@ Texture Coordinates
    Object
       Position the texture relative to a specified object's local texture space.
 
-.. figure:: /images/bi_world-texinfluence.jpg
-   :width: 297px
+.. figure:: /images/render_blender-render_world_background_texture-influence.png
 
    Texture Influence panel.
 
