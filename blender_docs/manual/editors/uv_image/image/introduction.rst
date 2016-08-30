@@ -29,7 +29,7 @@ Save As Image
    Save the (rendered) image in a separate file :kbd:`F3` or
    you want to save it under a different name.
 Save a Copy
-   Using *Save as Copy*, :kbd:`F3` will save the file to a specified name,
+   Using *Save as Copy* will save the file to a specified name,
    but will keep the old one open in the UV/Image editor.
 Edit Externally
    Using the *Edit Externally* tool Blender will open an external image editor,
