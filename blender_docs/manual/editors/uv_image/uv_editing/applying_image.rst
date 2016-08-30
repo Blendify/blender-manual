@@ -303,7 +303,7 @@ Modifying your Image Texture
 To modify your new Texture, you can:
 
 
-- :doc:`Render Bake </render/workflows/bake>` an image based on how the mesh looks
+- :doc:`Render Bake </render/blender_render/bake>` an image based on how the mesh looks
 
   - The Render Bake feature provides several tools to replace the current image
     based on a render of :ref:`Vertex Paint <painting-vertex-index>` colors,
