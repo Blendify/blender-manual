@@ -149,78 +149,12 @@ but bypasses the normal rendering system for fast results,
 but results which do not respect transparency and proper shading.
 
 
-Loading and Saving Images
-=========================
-
-In the UV/Image editor, you can assign certain faces certain textures. To do so,
-first you need an image to work with.
-In the *Image Menu* you can open an image file with the :doc:`File Browser </editors/file_browser/index>`.
-If you have images in the file already, that you want to use,
-click the *Browse* button in the *Header*,
-or make a new texture by clicking the *New* button.
-
-In a team environment, or if you are using an external paint program to edit the image while
-the blend-file is active, and the file is updated and re-saved, use the UV/Image Editor to
-:menuselection:`Image --> Reload` it and see the latest and greatest in Blender. Also,
-use Reload if you have mapped more faces to an image,
-and the 3D View will be updated with the latest image mapping back to faces.
-
-If you move the image file, Blender may not be able to find it,
-and you will have to :menuselection:`Image --> Replace` it.
-Use this option to map a UV layout to a different image altogether.
-
-
-Replacing the active Image
---------------------------
-
-Recall that each face gets coordinates and a link to an image.
-To map a face to a different image, simply select that face (or faces) and use the UV/Image
-Editor Image menu to *Replace* the current image with an existing file
-(such as a ``JPG`` or ``PNG`` file).
-
-
-New Images
-----------
-
-.. figure:: /images/texture-uv-layout-testgrid.jpg
-   :width: 200px
-
-   The new Image pop-up menu.
-
-
-When you select *New Image* you are presented with several options. This
-*Generated* image can also be modified afterward in the *Properties region*:
-
-Image Name
-   Set the name if the generated image
-Width and Height
-   Set the size if the image in pixels
-Color
-   Sets the default fill color if creating a blank image.
-Alpha
-   Adds an alpha channel to the image
-Generated Type
-   The type of image to generate:
-
-   UV Grid
-      Creates a checkerboard pattern with a colored + in each square.
-   Color Grid
-      Creates a UV Test Grid, which is useful for testing how UVs have been mapped, and to reduce stretching.
-      There are two types available, which can be set after the image has been created.
-   Blank
-      Generates a blank image of the specified color.
-32 bit
-   Creates a 32 bit image. This is a larger file size,
-   but holds much more color information than the standard 8 bit image.
-   For close ups and large gradients, it may be better to use a 32 bit image.
-
-
 Using the Test Grid
 -------------------
 
-Use the UV Test Grid option to check for undue stretching or distortion of faces. If your
-image is a base uniform pattern and you want the application of that image to your model to
-look like cloth, you do **not** want any stretching (unless you want the cloth to look like spandex).
+If your image is a base uniform pattern and
+you want the application of that image to your model to look like cloth,
+you do **not** want any stretching (unless you want the cloth to look like spandex).
 
 .. list-table::
 
@@ -237,7 +171,6 @@ look like cloth, you do **not** want any stretching (unless you want the cloth t
 
 When you render, the mesh will have the test grid as its colors,
 and the UV Texture will be the size image you specified.
-You can save the UV image using the :menuselection:`Image --> Save` menu.
 
 
 Modifying your Image Texture

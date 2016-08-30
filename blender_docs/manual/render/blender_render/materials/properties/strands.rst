@@ -127,11 +127,12 @@ Pretty much the most important setting is shown in Fig. :ref:`fig-bi-material-st
 how to fade the tip of a strand to alpha to make nice, fuzzy-looking hair.
 Normally you would use a linear blend texture for this.
 
-.. _fig-bi-material-strands-alpha:
 
 .. list-table::
 
-   * - .. figure:: /images/materials_texture_mapping.png
+   * - .. _fig-bi-material-strands-alpha:
+
+       .. figure:: /images/materials_texture_mapping.png
 
           Fading a strand to alpha.
 
