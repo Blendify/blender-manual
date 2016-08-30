@@ -14,7 +14,7 @@ Image Menu
 New Image
    ..
 Open Image
-   ..
+   Load image from a file.
 Read Render Layers
    ..
 Save All Images
@@ -24,22 +24,34 @@ Replace Image
 Reload Image
    ..
 Save Image
-   ..
+   Save the image, if the image is already a file :kbd:`Alt-S`.
 Save As Image
-   Used for saving (rendered) images.
+   Save the (rendered) image in a separate file :kbd:`F3` or
+   you want to save it under a different name.
 Save a Copy
-   ..
+   Using *Save as Copy*, :kbd:`F3` will save the file to a specified name,
+   but will keep the old one open in the UV/Image editor.
 Edit Externally
-   ..
+   Using the *Edit Externally* tool Blender will open an external image editor,
+   as specified in the *User Preferences* and load in the image to be edited.
 Invert
    Invert Image Colors
-      ..
+      Invert the colors of an image.
    Invert Channel
       Red, Green, Blue, Alpha
-Pack Image
-   ..
-Pack As PNG
-   ..
+Pack
+   Pack Image
+      ..
+   Pack As PNG
+      Packs the image inside the blend-file.
+
+   .. seealso::
+
+      :ref:`pack-unpack-data`.
+
+.. warning::
+
+   Rendered images had to be saved externally.
 
 
 Header Controls
