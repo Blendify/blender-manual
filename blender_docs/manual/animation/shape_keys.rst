@@ -244,7 +244,7 @@ Workflow for Absolute Shape Keys
 
 
 - Switch to Object Mode.
-- Drag the Evaluation Time slider to make its value vary from 10 to 30.
+- Drag *Evaluation Time* to make its value vary from 10 to 30.
 
 .. figure:: /images/absolute_sk_workflow_7.gif
 

@@ -11,6 +11,7 @@ Crop Node
 
 The Crop Node takes an input image and crops it to a selected region.
 
+
 Inputs
 ======
 
@@ -26,9 +27,9 @@ Crop Image Size
    When disabled, the image remains the same size, and uncropped areas become transparent pixels.
 Relative
    When enabled, crop dimensions are a percentage of the image's width and height.
-   When disabled, the range of the sliders are the width and height of the image in pixels.
+   When disabled, the range of the *Crop Region Values* are the width and height of the image in pixels.
 Crop Region Values
-   These sliders define borders of the crop region.
+   Define borders of the crop region.
 
    lower, upper, left, right
 
@@ -38,4 +39,3 @@ Outputs
 
 Image
    Standard image output.
-
