@@ -55,7 +55,7 @@ Size
 Hardness
    Sets the hardness of the halo. Similar to specular hardness
 Add
-   The *Add* slider determine how much the halo colors are 'added to',
+   Determine how much the halo colors are 'added to',
    rather than mixed with, the colors of the objects behind and together with other halos.
    By increasing Add, the Halo will appear to light up objects that move behind it or through the Halo field.
 
@@ -104,31 +104,13 @@ which include Flare, Rings, Lines, Star, Texture, Extreme Alpha, and Shaded.
    Halo Variations.
 
 
-The halo size, hardness and alpha can be adjusted with the pertinent sliders.
-These are very similar to traditional material settings
-
-.. figure:: /images/materials-haloadd.jpg
-
-
-The *Add* slider determine how much the halo colors are 'added to',
-rather than mixed with, the colors of the objects behind and together with other halos.
-By increasing Add,
-the Halo will appear to light up objects that move behind it or through the Halo field.
-
-To set the number of rings, lines, and star points independently,
-once they are enabled with the relative Toggle Button,
-use the Num Buttons *Rings:*, *Lines:* and *Star:*.
-Rings and lines are randomly placed and oriented, to change their pattern you can change the
-*Seed:* Num Button which sets the random numbers generator seed.
-
-
 Flare Panel
 -----------
 
-Enabling Flare Renders the halo as a lens flare
+Enabling Flare Renders the halo as a lens flare.
 
 Size
-   Sets the factor by which the flare is larger than the halo
+   Sets the factor by which the flare is larger than the halo.
 Boost
    Give the flare extra strength.
 Seed
@@ -193,7 +175,7 @@ a lamp will make it brighter and affect its diffuse color and intensity.
 Examples
 ========
 
-Dotmatrix display
+Dotmatrix Display
 -----------------
 
 Let us use a halo material to create a dotmatrix display.

@@ -2,9 +2,9 @@
 .. Editors Note: This page gets copied into :doc:`</render/blender_render/materials/nodes/types/color/hue_saturation>`
 .. Editors Note: This page gets copied into :doc:`</render/blender_render/textures/nodes/types/color/hue_saturation>`
 
-*******************
-Hue Saturation Node
-*******************
+*************************
+Hue Saturation Value Node
+*************************
 
 .. figure:: /images/compositing_nodes_hsv.png
    :align: right
@@ -33,14 +33,14 @@ The transformations are relative shifts.
 In the shader and texture context the following properties are available as input sockets.
 
 Hue
-   The Hue slider specifies how the hue rotation of the image.
-   360° are mapped to (0 to 1). The hue shift of 0 (-180°) and 1 (+180°) have the same result.
+   Specifies how the hue rotation of the image. 360° are mapped to (0 to 1).
+   The hue shift of 0 (-180°) and 1 (+180°) have the same result.
 Saturation
    A saturation of 0 removes hues from the image, resulting in a grayscale image.
    A shift greater 1.0 increases saturation.
 Value
    Value is the overall brightness of the image.
-   De/Increasing values shift an image darker/ lighter.
+   De/Increasing values shift an image darker/lighter.
 
 
 Outputs
@@ -50,24 +50,24 @@ Image
    Standard image output
 
 
-Hue/Saturation tips
+Hue/Saturation Tips
 ===================
 
 Some things to keep in mind that might help you use this node better:
 
 Hues are vice versa
-   A blue image, with a Hue setting at either end of the spectrum (0 or 1), is output as yellow (recall that white,
-   minus blue, equals yellow). A yellow image, with a Hue setting at 0 or 1, is blue.
+   A blue image, with a Hue setting at either end of the spectrum (0 or 1),
+   is output as yellow (recall that white, minus blue, equals yellow).
+   A yellow image, with a Hue setting at 0 or 1, is blue.
 Hue and Saturation work together.
    So, a Hue of 0.5 keeps the blues the same shade of blue,
-   but the saturation slider can deepen or lighten the intensity of that color.
+   but *Saturation* can deepen or lighten the intensity of that color.
 Gray & White are neutral hues
    A gray image, where the RGB values are equal, has no hue. Therefore,
-   this node can only affect it with the *Val* slider. This applies to all shades of gray,
+   this node can only affect it with *Value*. This applies to all shades of gray,
    from black to white; wherever the values are equal.
 Changing the effect over time
-   The Hue and Saturation values are set in the node by the slider,
-   but you can feed a Time input into the Factor to bring up (or down) the effect change over time.
+   The Hue and Saturation values can be animated with a *Time Node* or by animating the property.
 
 .. note:: Tinge
 
