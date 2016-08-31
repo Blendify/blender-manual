@@ -114,6 +114,9 @@ this is the value that cannot be surpassed even by :kbd:`LMB` and inputing a val
 Expressions
 -----------
 
+.. Do not use mathjax here
+   - Blendify
+
 You can also enter expressions such as ``3*2`` instead of ``6``. or ``5/10+3``.
 Even constants like ``pi`` (3.142) or functions like ``sqrt(2)`` (square root of 2)
 may be used.
