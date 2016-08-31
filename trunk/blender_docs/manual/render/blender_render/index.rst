@@ -16,5 +16,6 @@
    motion_blur.rst
    antialiasing.rst
    post_processing/index.rst
+   bake.rst
    quality.rst
    performance.rst
