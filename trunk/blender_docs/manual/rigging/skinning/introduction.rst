@@ -11,9 +11,9 @@ you will likely want to put some flesh on your skeletons!
 Surprisingly, "linking" an armature to the object(s)
 it should transform and/or deform is called the "skinning" process...
 
-.. figure:: /images/quick62.png
+.. figure:: /images/rigging_skinning_introduction.png
 
-   The ginebread mesh skinned on its armature.
+   The human mesh skinned on its armature.
 
 
 In Blender, you have two main skinning types:

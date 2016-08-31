@@ -63,7 +63,7 @@ you scale at the same time the radius of the parent's tip and of the children's 
 .. list-table::
    Scaling of a bone in *Octahedron* and *Envelope* visualizations.
 
-   * - .. figure:: /images/rigging_armatures_editing_properties_scaling-bone-radius-1.png
+   * - .. figure:: /images/rigging_armatures_bones_selecting_single-bone.png
           :width: 320px
 
           A single selected bone...
