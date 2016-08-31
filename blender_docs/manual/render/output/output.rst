@@ -12,6 +12,10 @@ This includes render size, frame rate, pixel aspect ratio, output location, and 
 Dimensions panel
 ================
 
+.. figure:: /images/render_output_dimensions-panel.png
+
+   Dimensions Panel.
+
 Resolution
    X/Y
       The number of pixels horizontally and vertically in the image.
@@ -66,6 +70,10 @@ You can add your own or remove one with the ``+`` and ``-`` buttons:
 
 Output Panel
 ============
+
+.. figure:: /images/render_output_output-panel.png
+
+   Output panel.
 
 This panel provides options for setting the location of rendered frames for animations,
 and the quality of the saved images.

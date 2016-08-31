@@ -3,6 +3,10 @@
 Metadata
 ********
 
+.. figure:: /images/render_output_metadata-panel.png
+
+   Metadata panel.
+
 The *Metadata* panel includes options for writing meta-data into render output.
 
 .. note::
