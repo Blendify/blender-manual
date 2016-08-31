@@ -115,13 +115,13 @@ OK now, here are some important ground rules:
 
 
 .. list-table::
-   The *Bone Sketching* panel with *Template* conversion method enabled.
+   The *Skeleton Sketching* panel with *Retarget* conversion method enabled.
 
-   * - .. figure:: /images/riggingtemplatingbonesketchingpanelcurrentarmaturetemplate.png
+   * - .. figure:: /images/rigging_armatures_editing_templating_sketching-panel-1.png
 
           With current edited armature as template.
 
-     - .. figure:: /images/riggingtemplatingbonesketchingpanelotherarmaturetemplate.png
+     - .. figure:: /images/rigging_armatures_editing_templating_sketching-panel-2.png
 
           With another armature as template.
 

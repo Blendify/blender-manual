@@ -69,12 +69,12 @@ so you can place them to your liking. See Fig. :ref:`fig-rig-bones-extrusion`.
 
 .. list-table:: Extrusion example.
 
-   * - .. figure:: /images/riggingboneselectexeditmodethreeboneends.png
+   * - .. figure:: /images/rigging_armatures_editing_bones_extrusion-1.png
           :width: 320px
 
           An armature with three selected tips.
 
-     - .. figure:: /images/riggingboneextrudeexeditmode.png
+     - .. figure:: /images/rigging_armatures_editing_bones_extrusion-2.png
           :width: 320px
 
           The three extruded bones.
@@ -483,12 +483,12 @@ if you set *n* cuts, you will get *n* + 1 bones for each selected bone.
 
 .. list-table:: Subdivision example.
 
-   * - .. figure:: /images/riggingbonesubdivideexeditmode1.png
+   * - .. figure:: /images/rigging_armatures_editing_bones_subdivision-1.png
           :width: 320px
 
           An armature with one selected bone, just before multi-subdivision.
 
-     - .. figure:: /images/riggingbonesubdivideexeditmode2.png
+     - .. figure:: /images/rigging_armatures_editing_bones_subdivision-2.png
           :width: 320px
 
           The selected bone has been "cut" two times, giving three sub-bones.

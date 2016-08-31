@@ -96,12 +96,12 @@ when the selection status of bones' ends is inverted, a new set of bones is sele
 
 .. list-table:: Inverse selection.
 
-   * - .. figure:: /images/rigging_armatures_bones_selecting_two-selected-bones.png
+   * - .. figure:: /images/rigging_armatures_bones_selecting_two-bones.png
           :width: 320px
 
           Two bones selected.
 
-     - .. figure:: /images/riggingboneselectexeditmodethreeboneends.jpg
+     - .. figure:: /images/rigging_armatures_bones_selecting_three-ends.png
           :width: 320px
 
           The result of the inverse selection :kbd:`Ctrl-I`
@@ -141,12 +141,12 @@ bone belongs to by using the *linked selection* tool, :kbd:`L`.
 .. list-table::
    Linked bones selection
 
-   * - .. figure:: /images/rigging_armatures_editing_properties_scaling-bone-radius-1.png
+   * - .. figure:: /images/rigging_armatures_bones_selecting_single-bone.png
           :width: 320px
 
           A single selected bone.
 
-     - .. figure:: /images/riggingboneselectexeditmodewholechain.png
+     - .. figure:: /images/rigging_armatures_bones_selecting_whole-chain.png
           :width: 320px
 
           Its whole chain selected with :kbd:`L`.
@@ -174,12 +174,12 @@ To understand this, look at Fig. :ref:`fig-rig-bone-select-deselect`.
 
 .. list-table:: Bone deselection in a selected chain.
 
-   * - .. figure:: /images/riggingboneselectexeditmodewholechain.png
+   * - .. figure:: /images/rigging_armatures_bones_selecting_whole-chain.png
           :width: 320px
 
           A selected chain.
 
-     - .. figure:: /images/rigging_armatures_bones_selecting_two-selected-bones.png
+     - .. figure:: /images/rigging_armatures_bones_selecting_two-bones.png
           :width: 320px
 
           Two selected bones.

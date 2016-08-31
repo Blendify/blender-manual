@@ -108,7 +108,7 @@ rotation and scale by axis on each bone in the armature.
 Inverse Kinematics
 ==================
 
-.. figure:: /images/riggingeditingbonecxtinversekinematicspanel.png
+.. figure:: /images/ik_bone_ik_panel.png
 
    The Inverse Kinematics panel.
 

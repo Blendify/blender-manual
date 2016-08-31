@@ -313,7 +313,7 @@ Adaptive
 
 With this method, each free segment of the selected strokes will create as many bones as
 necessary to follow its shape closely enough - this "closely enough" parameter being set by
-the *Thres* hold numeric field; higher values giving more bones,
+the *Threshold* numeric field; higher values giving more bones,
 following more closely the segments' shape.
 So the more twisted a free segment, the more bones it will generate.
 
