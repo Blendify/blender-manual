@@ -59,6 +59,8 @@ Radio Buttons
 Radio buttons are used to choose from a small selection of "mutually exclusive" options.
 
 
+.. rename to numeric input?
+
 Number Buttons
 ==============
 
@@ -71,7 +73,6 @@ Number Buttons
 Number buttons can be identified by their labels,
 which in most cases contains the name and a colon followed by a number.
 Number buttons can be edited in several ways:
-
 
 Incremental Steps
    To change the value in steps, click :kbd:`LMB` on the small triangles on the sides of the button.
@@ -92,13 +93,22 @@ Multi-Value Editing
 .. figure:: /images/ui_multi_value_edit.png
    :align: right
 
-   Multi-value-editing.
+   Multi-value editing.
 
 It is often useful to edit multiple values at once (object scale or render resolution for example).
 
 This can be done by clicking on the button and dragging vertically to include buttons above/below.
 
 After the vertical motion you can drag from side to side, or release the :kbd:`LMB` to type in a value.
+
+
+Limits
+------
+
+Most *Number Buttons* has two types of "limits" imposed on them. The first of these is a "soft limit",
+this means that the property cannot surpassed the value of the "soft limit" without having to :kbd:`LMB`
+and input the value with the :kbd:`Numpad`. The second is the "hard limit",
+this is the value that cannot be surpassed even by :kbd:`LMB` and inputing a value.
 
 
 Expressions

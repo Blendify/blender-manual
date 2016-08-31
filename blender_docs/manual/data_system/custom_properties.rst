@@ -24,7 +24,6 @@ found at the bottom of most :doc:`Properties Region </editors/properties/index>`
 Editing Properties
 ==================
 
-
 User Interface
 --------------
 
