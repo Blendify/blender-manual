@@ -105,11 +105,11 @@ Topology Mirror
       If you want to create a mirrored weight group for the opposite bone (of a symmetric character),
       then you can do this:
 
-      - Delete the target Vertex Group (where the mirrored weights will be placed).
-      - Create a copy of the source bone Vertex Group (the group containing the weights which you want to copy).
-      - Rename the new Vertex Group to the name of the target Vertex Group (the group you deleted above).
-      - Select the Target Vertex Group and call the Mirror tool
-        (use only the Mirror weights option and optionally Topology Mirror if your mesh is not symmetric).
+      #. Delete the target Vertex Group (where the mirrored weights will be placed).
+      #. Create a copy of the source bone Vertex Group (the group containing the weights which you want to copy).
+      #. Rename the new Vertex Group to the name of the target Vertex Group (the group you deleted above).
+      #. Select the Target Vertex Group and call the Mirror tool
+         (use only the Mirror weights option and optionally Topology Mirror if your mesh is not symmetric).
 
 
 Invert
@@ -217,12 +217,10 @@ Offset
    A value from the range (-1.0 - 1.0) to be added to all weights in the Vertex Group.
 Gain
    All weights in the Subset are multiplied with the gain.
-   The drag sliders of this value allow only a range of (-10.0 - 10.0).
-   However, you can enter any factor you like here by typing from the keyboard.
 
 .. note::
 
-   Whichever Gain and Offset you choose,
+   Whichever *Gain* and *Offset* you choose,
    in all cases the final value of each weight will be clamped to the range (0.0 - 1.0).
    So you will never get negative weights or overheated areas (weight > 1.0) with this tool.
 
@@ -243,7 +241,7 @@ The selected vertex is connected to four adjacent vertices
 Now the tool calculates the average weight of all connected **and** unselected verts.
 In the example this is:
 
-``(1 + 0 + 0 + 0) / 4 = 0.25``
+:math:`(1 + 0 + 0 + 0) / 4 = 0.25`
 
 This value is multiplied by the factor given in the Operator parameters (see below).
 
@@ -263,7 +261,7 @@ then we see different results for each of the selected verts:
 
 - The topmost and bottommost selected verts:
 
-  are surrounded by three unselected verts, with an average weight of ``(1 + 0 + 0) / 3 = 0.333``
+  are surrounded by three unselected verts, with an average weight of :math:`(1 + 0 + 0) / 3 = 0.333`
   So their color has changed to light green.
 
 - The middle vertex:
@@ -273,7 +271,7 @@ then we see different results for each of the selected verts:
 
 - The right vert:
 
-  is surrounded by three unselected verts with average weight = ``(0 + 0 + 0) / 3 = 0.0``
+  is surrounded by three unselected verts with average weight = :math:`(0 + 0 + 0) / 3 = 0.0`
   So the average weight is 0, thus the selected vert color has not changed at all
   (it was already blue before blend was applied).
 
@@ -287,7 +285,7 @@ In this example, the middle edge loop has been selected
 and it will be used for blending the left side to the right side of the area.
 
 - All selected vertices have two unselected adjacent verts.
-- The average weight of the unselected verts is (1 + 0) / 2 = 0.5
+- The average weight of the unselected verts is :math:`(1 + 0) / 2 = 0.5`
 - Thus when the Blend Factor is set to 1.0 then the edge loop turns to
   green and finally does blend the cold side (right) to the hot side (left).
 
@@ -300,7 +298,7 @@ Operator Parameters
    Blend Options.
 
 Factor
-   The effective amount of blending (range [0.0 - 1.0]).
+   The effective amount of blending.
    When Factor is set to 0.0 then the Blend tool does not do anything.
    For Factor > 0 the weights of the affected vertices gradually shift from their original value
    towards the average weight of all connected **and** unselected verts (see examples above).

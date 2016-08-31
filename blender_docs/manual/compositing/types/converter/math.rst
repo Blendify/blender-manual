@@ -31,9 +31,8 @@ Properties
 ==========
 
 Operation
-   Add, Subtract, Multiply, Divide,
-   Sine, Cosine, Tangent, Arcsine, Arccosine, Arctangent,
-   Power, Logarithm, Minimum, Maximum, Round, Less Than, Greater Than, Modulo, Absolute
+   Add, Subtract, Multiply, Divide, Sine, Cosine, Tangent, Arcsine, Arccosine, Arctangent,
+   Power, Logarithm, Minimum, Maximum, Round, Less Than, Greater Than, Modulo, Absolute.
 Clamp
    Limits the output to the range (0 to 1). See :term:`clamp`.
 
