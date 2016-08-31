@@ -55,3 +55,16 @@ Texture Coordinates
       Specify an object to use when set to Object.
    UV Layer
       Specify a UV layer when set to UV.
+
+
+Usage
+=====
+
+The *Warp Modifier* can be awkward to use sometimes and the use case is rather small however,
+there are a couple of uses. For example, The *Warp Modifier* can be used to have a interactive
+:doc:`Proportional Editing </editors/3dview/transform/transform_control/proportional_edit>`
+that can be used for animation.
+
+Another way to use the *Warp Modifier* is to use it similar to the
+:doc:`Deform Modifier </modeling/modifiers/deform/mesh_deform.html>`.
+This allows you to deform parts of the mesh without having to make a vertex group.
