@@ -73,6 +73,10 @@ while appearing bright and dynamic on a computer monitor.
 Encoding Panel
 ==============
 
+.. figure:: /images/render_output_encoding-panel.png
+
+   Encoding panel.
+
 Here you choose which video codec you want to use, and compression settings.
 With all of these compression choices, there is a tradeoff between file size,
 compatibility across platforms, and playback quality.
