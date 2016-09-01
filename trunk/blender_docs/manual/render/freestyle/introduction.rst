@@ -62,8 +62,7 @@ The Big Picture
 - A line style tells Freestyle how to render the linked line sets in terms of color, alpha,
   thickness and other aspects.
 
-.. figure:: /images/freestyle_diagram.jpg
-   :width: 400px
+.. figure:: /images/render_freestyle_introduction_view-map-processes.png
 
    block diagram of Freestyle view map and processes.
 

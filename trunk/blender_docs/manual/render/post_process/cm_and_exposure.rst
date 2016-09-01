@@ -4,8 +4,8 @@
 Color Management
 ****************
 
-.. figure:: /images/render_post_cm_example.jpg
-   :width: 250px
+.. figure:: /images/render_post-processing_different-exposures.jpg
+   :width: 300px
    :align: right
 
    Different views and exposures of the same render.
@@ -23,7 +23,7 @@ display and storage of images.
 Rendering and compositing is best done in scene *linear* color space,
 which corresponds more closely to nature, and makes computations more physically accurate.
 
-.. figure:: /images/render_post_cm_example_workflow.jpg
+.. figure:: /images/render_post-processing_linear-workflow.png
 
    Example linear workflow.
 
@@ -70,7 +70,7 @@ Display Device
 
    Color management can be disabled by setting the device to None.
 
-.. figure:: /images/render_post_cm_display.jpg
+.. figure:: /images/render_post-processing_linear-display-space.png
 
    Conversion from linear to display device space.
 

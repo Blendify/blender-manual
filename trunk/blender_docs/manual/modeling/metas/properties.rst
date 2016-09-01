@@ -12,12 +12,10 @@ the *Active Element* panel appears for editing individual meta elements.
 .. list-table::
 
    * - .. figure:: /images/modeling_metas_properties_metaball-panel.png
-          :width: 320px
 
           global meta properties.
 
      - .. figure:: /images/modeling_metas_properties_active-element-panel.png
-          :width: 320px
 
           individual meta properties.
 
