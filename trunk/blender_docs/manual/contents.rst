@@ -111,7 +111,7 @@ Sections
             :target: render/index.html
 
          :doc:`/render/index`
-            Render engines (Internal, Cycles), shading, post-processing, and Freestyle (NPR).
+            Render engines (Internal, Cycles), shading, post-processing, and Freestyle (NPR). [1]_
 
       .. container:: descr
 
@@ -192,7 +192,11 @@ Get Involved
 
 This manual is maintained largely by volunteers.
 
-Please consider to join the effort and :doc:`Contribute to this Manual </about/introduction>`
+Please consider to join the effort and :doc:`Contribute to this Manual </about/introduction>`.
+
+
+.. [1] The White Room model by Jay Hardy.
+
 
 .. just so this is included in the toc (not user visible).
 
