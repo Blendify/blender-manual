@@ -54,11 +54,15 @@ are copied and the newly created copy of the chain is matched with the stroke.
 
 .. list-table::
 
-   * - .. figure:: /images/riggingtemplatingstrokeconversionsamearmaturetemplateex1.png
+   * - .. figure:: /images/rigging_armatures_editing_templating_sketching-panel-1.png
+
+          Conversion settings.
+
+     - .. figure:: /images/rigging_armatures_editing_templating_stroke-conversion-1.png
 
           Before conversion.
 
-     - .. figure:: /images/riggingtemplatingstrokeconversionsamearmaturetemplateex2.png
+     - .. figure:: /images/rigging_armatures_editing_templating_stroke-conversion-2.png
 
           After conversion.
 
@@ -75,11 +79,11 @@ Note how a two-bone chain is fitted to a three-segment stroke.
 .. list-table::
    The newly created bones are numbered sequentially, after the original bones' names.
 
-   * - .. figure:: /images/riggingtemplatingmultipolystrokesconversionex1.png
+   * - .. figure:: /images/rigging_armatures_editing_templating_stroke-multi-conversion-1.png
 
           Before conversion.
 
-     - .. figure:: /images/riggingtemplatingmultipolystrokesconversionex2.png
+     - .. figure:: /images/rigging_armatures_editing_templating_stroke-multi-conversion-2.png
 
           After conversion.
 
@@ -144,18 +148,15 @@ No, View, Joint buttons
 .. list-table::
    Templating: bone roll example.
 
-   * - .. figure:: /images/riggingtemplatingbonerollexno.png
-          :width: 200px
+   * - .. figure:: /images/rigging_armatures_editing_templating_bone-roll-1.png
 
           With No roll option.
 
-     - .. figure:: /images/riggingtemplatingbonerollexview.png
-          :width: 200px
+     - .. figure:: /images/rigging_armatures_editing_templating_bone-roll-2.png
 
           With View roll option.
 
-     - .. figure:: /images/riggingtemplatingbonerollexjoint.png
-          :width: 200px
+     - .. figure:: /images/rigging_armatures_editing_templating_bone-roll-3.png
 
           With Joint roll option.
 

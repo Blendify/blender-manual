@@ -23,6 +23,10 @@ allowing you to instead re-render only the layer(s) that you need.
 Layer List
 ==========
 
+.. figure:: /images/render_post-processing_layer-list.png
+
+   Layer list.
+
 This is a list of all the Render Layers in the current scene.
 
 Only layers which are enabled (checkbox on right is ticked) will be rendered.
@@ -34,6 +38,10 @@ and existing layers can be renamed by double clicking on their name.
 
 Layer Panel
 ===========
+
+.. figure:: /images/render_post-processing_layer-panel.png
+
+   Layer panel.
 
 The Layer Panel shows the settings of the active Render Layer from the list above.
 
