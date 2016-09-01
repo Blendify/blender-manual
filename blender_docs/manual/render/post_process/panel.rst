@@ -11,10 +11,15 @@ It can be found in the Render tab of the :doc:`Properties Editor </editors/prope
 
    Post Processing Panel.
 
-Compositing
-   Use compositing for the final image.
+
 Sequencer
-   If sequencer strips are used render them instead of an image.
+   Renders the output of the sequence editor, instead of the view from the 3D scene's active camera.
+   If the sequence contains scene strips, these will also be rendered as part of the pipeline.
+   If *Compositing* is also enabled, the Scene strip will be the output of the Compositor.
+Compositing
+   Renders the output from the compositing node setup,
+   and then pumps all images through the Composite node map,
+   displaying the image fed to the Composite Output node.
 
 
 Dithering
