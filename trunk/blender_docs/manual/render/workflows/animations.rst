@@ -124,19 +124,6 @@ and use different codecs (to get different file sizes and quality)
 with almost no effort whatsoever.
 
 
-Options
--------
-
-Post Processing Panel
-   Sequencer
-      Renders the output of the sequence editor, instead of the view from the 3D scene's active camera.
-      If the sequence contains scene strips, these will also be rendered as part of the pipeline.
-      If Do Composite is also enabled, the Scene strip will be the output of the Compositor.
-   Compositing
-      Renders the output from the compositing node setup, and then pumps all images through the Composite node map,
-      displaying the image fed to the Composite Output node.
-
-
 Hints
 =====
 
