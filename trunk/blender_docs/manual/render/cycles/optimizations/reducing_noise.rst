@@ -240,26 +240,12 @@ Window Lights
 
 When rendering a daylight indoor scene where most of the light is coming in through a window
 or door opening, it is difficult for the integrator to find its way to them.
-We can replace the opening with a plane with an emission shader,
-so that the integrator knows in which direction to fire rays.
-For camera rays we can make this mesh light invisible,
-so that we can still look into the outside scene.
-This is done either by disabling camera ray visibility on the object,
-or by switching between glass and emission shaders in the material.
+To fix this, use :ref:`Light Portals <render-cycles-lamps-area-portals>`,
+these work by adding a :ref:`Area Lamp <render-cycles-lamps-area>`.
+You then will need to modify its shape to match that of the opening that you are trying to fill.
 
-The two renders below have the same render time,
-with the second render using a mesh light positioned in the window.
-
-.. list-table::
-
-   * - .. figure:: /images/cycles_noise_window_no_trick.jpg
-          :width: 180px
-
-     - .. figure:: /images/cycles_noise_window_trick.jpg
-          :width: 180px
-
-
-In newer versions, :doc:`light portals </render/cycles/world>` provide a better solution.
+.. figure:: /images/cycles_portals2.jpg
+.. figure:: /images/cycles_portals.jpg
 
 
 .. _render-cycles-reducing-noise-clamp-samples:
