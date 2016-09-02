@@ -12,7 +12,7 @@ In Blender Armature Object Types are usually used to associate certain bones of 
 certain parts of a Mesh Object Types Mesh Geometry.
 You are then able to move the Armature Bones and the Mesh Object will deform.
 
-.. figure:: /images/sq-3dvieweditorheader-objectmenu-parent-armature_deform.png
+.. figure:: /images/rigging_armatures_parenting_deform-object-mode.png
 
    Bone associated with Mesh Object.
 
@@ -34,7 +34,7 @@ influenced by the Armature and then lastly, select the Armature Object itself. O
 Child Objects and the Armature Object are selected press :kbd:`Ctrl-P` and select
 Armature Deform in the Set Parent To pop-up menu.
 
-.. figure:: /images/sr-3dvieweditorheader-objectmenu-parent-armature_deform.png
+.. figure:: /images/rigging_armatures_parenting_deform-parent-option.png
 
    Set Parent To menu with Armature Deform Parenting option highlighted.
 
@@ -59,7 +59,7 @@ Vertex Group they will have an Influence Weight of 1.0
 This means that they are fully influenced when a Bone they are associated with is moved,
 if the Influence Weight had been 0.5 then when the bone moves the vertices would only move half as much.
 
-.. figure:: /images/ss-3dvieweditorheader-objectmenu-parent-armature_deform.jpg
+.. figure:: /images/rigging_armatures_parenting_vertex-groups-panel.png
 
    Vertex groups panel with Assign Button and influence Weight Slider highlighted.
 
@@ -68,7 +68,7 @@ Once all these steps have been carried out, the Bones of the Armature Object sho
 associated with the Vertex Groups with the same names as the Bones. You can then select the
 Armature Object and switch to Pose Mode in the :menuselection:`3D View Editor Header --> Mode Select` menu.
 
-.. figure:: /images/st-3dvieweditorheader-objectmenu-parent-armature_deform.jpg
+.. figure:: /images/rigging_armatures_parenting_deform-pose-mode.png
 
    Armature Bone in Pose Mode affecting the Mesh Object.
 
@@ -96,7 +96,7 @@ For example, if you have an Armature Object which consists of three bones named 
 the Armature Parent Object the Cube will get three new Vertex Groups created on it called "BoneA",
 "BoneB" and "BoneC". Notice that each Vertex Group is empty.
 
-.. figure:: /images/editors_3dview_header-objectmenu-parent-armature_deform_with_empty_groups-blend.png
+.. figure:: /images/rigging_armatures_parenting_bone-empty-groups.png
 
    Cube in Edit Mode using Armature Deform with empty groups.
 
@@ -130,7 +130,7 @@ Once the bone of interest is selected navigate to
 and check if the Deform tickable option is ticked or not. If it is the selected bone is a Deforming Bone,
 otherwise, it is a Control Bone.
 
-.. figure:: /images/editors_3dview_parenting_bone-check.png
+.. figure:: /images/rigging_armatures_parenting_bone-deform-panel.png
 
    Three Bone Armature in *Pose* Mode with 1st bone selected.
 
@@ -181,7 +181,7 @@ parenting are calculated entirely visually using Bone Envelopes.
 
 .. _fig-view3d-parent-envelope:
 
-.. figure:: /images/tn-3dvieweditorheader-objectmenu-parent-armature_deform_with_envelope_weights.png
+.. figure:: /images/rigging_armatures_parenting_envelope-display.png
 
    Single Armature Bone in Edit Mode with Envelope Weight display enabled.
 
@@ -196,7 +196,7 @@ the Parent Object Armature when the Armature Deform With Envelope Weights operat
 Any vertices outside the Bone Envelope volume will not be influenced.
 When the bones are transformed in Pose Mode the results are very different.
 
-.. figure:: /images/to-3dvieweditorheader-objectmenu-parent-armature_deform_with_envelope_weights.jpg
+.. figure:: /images/rigging_armatures_parenting_envelope-influence.png
 
    Two sets of Armatures each with three bones.
 
@@ -206,20 +206,17 @@ You can alter the size of the Bone Envelope volume by clicking on the body of th
 switch to Edit Mode or Pose Mode and then pressing
 :kbd:`Ctrl-Alt-S` then drag your mouse left or right and the Bone Envelope volume will alter accordingly.
 
-.. figure:: /images/tp-3dvieweditorheader-objectmenu-parent-armature_deform_with_envelope_weights.png
+.. figure:: /images/rigging_armatures_parenting_envelope-distance.png
 
    Single Armature Bone with various different Bone Envelope sizes.
+
+   Envelope distance fields highlighted.
 
 
 You can also alter the Bone Envelope volume by selecting the Bone you wish to alter and
 switching to Edit Mode or Pose Mode,
 then navigate to :menuselection:`Properties Editor --> Bone --> Deform --> Envelope --> Distance`
 then enter a new value into it.
-
-.. figure:: /images/tq-3dvieweditorheader-objectmenu-parent-armature_deform_with_envelope_weights.jpg
-
-   Envelope distance.
-
 
 Altering the Bone Envelope volume does not alter the size of the Armature Bone just the range
 within which it can influence vertices of Child Objects.
@@ -228,22 +225,18 @@ You can alter the radius that a bone has by selecting the head, body or tail par
 and then press :kbd:`Alt-S` and move the mouse left or right.
 This will make the selected bone fatter or thinner without altering the thickness of the Bone Envelope volume.
 
-.. figure:: /images/tr-3dvieweditorheader-objectmenu-parent-armature_deform_with_envelope_weights.jpg
+.. figure:: /images/rigging_armatures_parenting_envelope-radius.png
 
-   Four Armature Bones all using Envelope Weight.
+   Three Armature Bones all using Envelope Weight.
 
-   The 1st with a default radius value, the three others with differing Tail, Head, and Body radius values.
+   The 1st with a default radius value, the two others with differing Tail and Head radius values.
+
+   Head and Tail fields highlighted.
 
 
 You can also alter the bone radius by selecting the tail or head of the bone you wish to alter and switching to Edit
 Mode, then navigate to :menuselection:`Properties Editor --> Bone --> Deform --> Radius Section`
 and entering new values for the *Tail* and *Head* fields.
-
-.. figure:: /images/ts-3dvieweditorheader-objectmenu-parent-armature_deform_with_envelope_weights.jpg
-
-   Deform Radius Section
-
-   Head and tail fields highlighted.
 
 .. note::
 

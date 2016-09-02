@@ -142,7 +142,7 @@ Blender allows you to give to each bone of an armature a specific shape
 (in *Object Mode* and *Pose Mode*), using another object as "template".
 First of all, you have to enable the *Shapes* button (*Armature* panel).
 
-.. figure:: /images/riggingeditingbonecxtdisplaypanel.png
+.. figure:: /images/rigging_armatures_bones_properties_display-panel.png
 
    The Display panel.
 
@@ -218,7 +218,7 @@ Armature Layers
    | Mode:     Object, Edit and Pose Mode
    | Panel:    :menuselection:`Object data --> Skeleton`
 
-.. figure:: /images/riggingeditingobjectdatapropertycxtskeletonpanel.png
+.. figure:: /images/rigging_armatures_properties_skeleton-panel.png
 
    The Skeleton panel.
 
@@ -264,7 +264,7 @@ Bone Layers
    | Mode:     Object, Edit and Pose Mode
    | Panel:    :menuselection:`Bone --> Relations`
 
-.. figure:: /images/riggingeditingbonecxtrelationspanel.png
+.. figure:: /images/rigging_armatures_bones_properties_relations-panel.png
 
    The Relations panel.
 
@@ -295,7 +295,7 @@ Hiding Bones
    | Mode:     Edit and Pose Mode
    | Panel:    :menuselection:`Bone --> Display`
 
-.. figure:: /images/riggingeditingbonecxtdisplaypanel.png
+.. figure:: /images/rigging_armatures_bones_properties_display-panel.png
 
    The Display panel.
 
