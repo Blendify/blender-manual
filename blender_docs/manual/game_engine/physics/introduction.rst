@@ -88,7 +88,7 @@ Your options include:
   This can be good either to simply automate their setup, or to truly make them dynamic.
   A simple demo can be viewed in: `BGE-Physics-DynamicallyCreateConstraint.blend
   <https://wiki.blender.org/index.php/Media:BGE-Physics-DynamicallyCreateConstraint.blend>`__
-- `Python Controllers </game_engine/logic/controllers/python>`__ - As always, in the BGE,
+- `Python Controllers </game_engine/logic/controllers/python>`__ -- As always, in the BGE,
   you can get the most power when you drop into Python and start toying with the settings directly.
   For instance, the *Copy Rotation* mentioned above is not hard --
   All you have to do is something to the effect of
@@ -149,9 +149,10 @@ Show Framerate and Profile
 If you enable :menuselection:`Game --> Show Framerate and Profile`,
 it will put some statistics in the upper-left area of the game window.
 
-These can be very informative, but also a bit cryptic.
-Moguri has elaborated on their meanings, for us:
-https://mogurijin.wordpress.com/2012/01/03/bge-profile-stats-and-what-they-mean/
+.. seealso::
+
+   These can be very informative, but also a bit cryptic. Moguri has elaborated on their meanings, for us:
+   `Moguris blog <https://mogurijin.wordpress.com/2012/01/03/bge-profile-stats-and-what-they-mean/>`__.
 
 
 Mesh Deformations
@@ -188,7 +189,7 @@ but visible. This still leaves the problem mentioned in the previous paragraph.
 
 When you deform a display mesh, it does not update the corresponding physics mesh.
 You can view this evidently when you
-enable physics visualization (`Visualizing Physics`_) - the collision bounds will remain exactly as when they began.
+enable physics visualization (`Visualizing Physics`_) -- the collision bounds will remain exactly as when they began.
 To fix this, you must call ``own.reinstancePhysicsMesh()`` in some form.
 Currently this only works on *Triangle Mesh* bounds, not *Convex Hull*.
 We have prepared a demonstration file in
@@ -232,10 +233,10 @@ Digging Deeper
 
 Sometimes you will want to look at:
 
-- The main Bullet Physics page - http://bulletphysics.org/wordpress/
-- The Bullet Wiki - http://www.bulletphysics.org/mediawiki-1.5.8/index.php?title=Documentation
-- The Bullet API Docs - http://www.continuousphysics.com/Bullet/BulletFull/index.html
-- The Bullet Forums - http://www.bulletphysics.org/Bullet/phpBB3/
+- The `main Bullet Physics page <http://bulletphysics.org/wordpress/>`__
+- The `Bullet Wiki <http://www.bulletphysics.org/mediawiki-1.5.8/index.php?title=Documentation>`__
+- The `Bullet API Docs <http://www.continuousphysics.com/Bullet/BulletFull/index.html>`__
+- The `Bullet Forums <http://www.bulletphysics.org/Bullet/phpBB3/>`__
 
 
 Recording to Keyframes

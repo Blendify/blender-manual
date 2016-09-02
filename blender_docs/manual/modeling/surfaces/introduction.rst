@@ -27,7 +27,7 @@ In order to be 3D, the object needs to have "Volume," and a surface, even when i
 does not have volume; it is infinitely thin.
 If it had a volume the surface would have a thickness (its third dimension). Hence,
 it is only a 2D object, and has only two interpolation dimensions or axes or coordinates
-(if you know a bit of math, think of non-euclidean geometry - well,
+(if you know a bit of math, think of non-euclidean geometry -- well,
 surfaces are just non-euclidean 2D planes...). To take a more "real life" example,
 you can roll a sheet of paper to create a cylinder; well, even if it "draws" a volume,
 the sheet itself will remain a (nearly...) 2D object!
@@ -187,7 +187,7 @@ Order
 One more time, this property is the same as with :ref:`NURBS Curves <modeling-curve-order>`;
 it specifies how much the control points are taken into account for calculating the curve of the surface shape.
 For high Orders 1 the surface pulls away from the control points,
-creating a smoother surface - assuming that the
+creating a smoother surface by assuming that the
 `Surface Resolution`_ is high enough. For lowest Orders 2 the surface follows the control points,
 creating a surface that tends to follow the grid cage.
 
@@ -239,12 +239,12 @@ Preset Weights
 
 NURBS can create pure shapes such as circles, cylinders, and spheres
 (note that a Bézier circle is not a pure circle). To create pure circles, globes,
-or cylinders, you must set to specific values the weights of the control points - some of
-which are provided as presets in the *Curve Tools* panel (lower right corner).
+or cylinders, you must set to specific values the weights of the control points. 
+Some of which are provided as presets in the *Curve Tools* panel (lower right corner).
 This is not intuitive, and you should read more on NURBS before trying this.
 
-To create a sphere with 2D surfaces, its the same principle as with a 2D circle -
-you will note that the four different weights needed for creating a sphere
+To create a sphere with 2D surfaces, its the same principle as with a 2D circle.
+You will note that the four different weights needed for creating a sphere
 (1.0, 0.707 = sqrt(0.5), 0.354 = sqrt(2)/4, and 0.25).
 
 .. figure:: /images/nurbssurfacesphere.png

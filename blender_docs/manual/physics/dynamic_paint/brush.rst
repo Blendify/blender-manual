@@ -102,14 +102,14 @@ Object Center
 
    .. figure:: /images/dynamicpaint-guide-brush_objectcenter.png
 
-      Brush Source - Object Center.
+      :menuselection:`Brush Source --> Object Center`.
 
 Particle System
    Brush influence is defined by particles from a selected particle system.
 
    .. figure:: /images/dynamicpaint-guide-brush_particlesystem.png
 
-      Brush Source - Particle System.
+      :menuselection:`Brush Source --> Particle System`.
 
 
 Velocity Panel

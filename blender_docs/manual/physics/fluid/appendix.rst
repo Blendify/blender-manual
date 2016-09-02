@@ -11,12 +11,12 @@ Some useful hints about fluid simulation in Blender:
 
 - Do not be surprised, but you will get whole bunch of mesh (.bobj.gz) files after a simulation.
   One set for preview, and another for final.
-  Each set has a .gz file for each frame of the animation.
-  Each file contains the simulation result - so you will need them.
+  Each set has a ``.gz`` file for each frame of the animation.
+  Each file contains the simulation result -- so you will need them.
 - Currently these files will not be automatically deleted, so it is a good idea to e.g.
   create a dedicated directory to keep simulation results.
-  Doing a fluid simulation is similar to clicking the *animation* button -
-  you currently have to take care of organizing the fluid surface meshes in some directory yourself.
+  Doing a fluid simulation is similar to clicking the *animation* button.
+  Currently you have to take care of organizing the fluid surface meshes in some directory by yourself.
   If you want to stop using the fluid simulation, you can simply delete all the ``*fluid*.bobj.gz`` files.
 - Before running a high resolution simulation that might take hours,
   check the overall timing first by doing lower resolution runs.
@@ -29,9 +29,9 @@ Some useful hints about fluid simulation in Blender:
   Blender has a powerful compositor that you can use to combine multiple animations.
 
   For example, to produce an animation showing two separate fluid flows while keeping your domain small,
-  render one .avi using the one flow.
-  Then move the domain and render another .avi with the other flow using an alpha channel (in a separate B&W .avi?).
-  Then, composite both .avi's using the compositor's add function.
+  render one ``.avi`` using the one flow.
+  Then move the domain and render another ``.avi`` with the other flow using an alpha channel (in a separate B&W .avi?).
+  Then, composite both ``.avi``\ 's using the compositor's add function.
   A third ``.avi`` is usually the smoke and mist and it is laid on top of everything as well.
   Add a rain sheet on top of the mist and spray and you will have quite a storm brewing! And then lightning flashes,
   trash blowing around, all as separate animations, compositing the total for a truly spectacular result.
@@ -42,7 +42,8 @@ Limitations & Workarounds
 
 - If the setup seems to go wrong, make sure all the normals are correct (hence,
   enter *Edit Mode*, select all, and recalculate normals once in a while).
-- Currently there is a problem with zero gravity simulation - simply select a very small gravity until this is fixed.
+- Currently there is a problem with zero gravity simulation.
+  It could be avoided by simply selecting a very small gravity until this is fixed.
 - If an object is initialized as *Volume*, it has to be closed and have an inner side
   (a plane will not work). To use planes, switch to *Shell*, or extrude the plane.
 - Blender freezes after clicking *bake*.

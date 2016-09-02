@@ -423,7 +423,7 @@ it will be connected to the new bone.
 
 Here is a strange subtlety (see Fig. :ref:`fig-rig-bone-merge`): even though connected
 (the root bone of the unmerged chain has no root sphere),
-the bones are not visually connected - this will be done as soon as you edit one bone,
+the bones are not visually connected. This will be done as soon as you edit one bone,
 differently depending in which chain is the edited bone
 (compare the bottom two images of the example to understand this better).
 

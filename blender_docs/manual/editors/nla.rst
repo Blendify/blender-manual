@@ -27,7 +27,7 @@ the bottom layer first, to the top, last.
 Strips
 ======
 
-There are three kinds of strips - Action, Transition, and Meta.
+There are three kinds of strips: Action, Transition, and Meta.
 Actions contain the actual keyframe data,
 Transitions will perform calculations between Actions,
 and Meta will group strips together as a whole.

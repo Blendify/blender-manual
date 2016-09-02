@@ -41,7 +41,7 @@ Examples
 
        .. figure:: /images/cubeplanecollision3.gif
 
-          A Soft Body plane colliding with a cube - no interaction at all.
+          A Soft Body plane colliding with a cube, so no interaction at all.
 
      - .. _fig-softbody-collision-plane3:
 
@@ -97,7 +97,7 @@ Now lets see what happens if we make vertices heavier and let them travel at a f
 In Fig. :ref:`fig-softbody-collision-vertex2` you can see vertices traveling at different speeds.
 The two on the far right (5 and 6)
 are traveling so fast that they pass right through the collision zone
-(this is because of the default solver precision - which we can fix later). You will notice
+(this is because of the default solver precision, which we can fix later). You will notice
 that the fourth vertex also travels quite fast and because it is heavier it breaches the inner
 zone. The first three vertices collide correctly.
 

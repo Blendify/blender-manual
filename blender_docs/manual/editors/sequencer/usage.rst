@@ -252,7 +252,7 @@ cut a strip by pressing :kbd:`K` to cut. At the selected frame for the selected 
    And you can at any time get your lost frames back
    (just :kbd:`RMB` -click on the left arrow of the strip,
    then :kbd:`G` grab it to the left to display the desired number of frames again (or to
-   the right to hid more frames - this is another way to remove frames at the beginning/end of a strip!).
+   the right to hid more frames -- this is another way to remove frames at the beginning/end of a strip!).
 
    This is at the heart of nearly every editor solution, and that is quite handy!
 

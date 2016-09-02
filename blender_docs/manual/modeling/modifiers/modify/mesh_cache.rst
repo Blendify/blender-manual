@@ -78,7 +78,7 @@ Play Mode
 
       Evaluation Value
          Property used for animation time,
-         this gives more control of timing - typically this value will be animated.
+         this gives more control of timing -- typically this value will be animated.
 
 
 Axis Mapping

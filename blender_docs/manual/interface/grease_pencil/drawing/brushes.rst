@@ -52,8 +52,8 @@ Smooth
 
    Smoothing Iterations
       Defines how many times smoothing is applied. On each additional round of smoothing performed,
-      the strength of the smoothing applied is halved - i.e.
-      on the first round, it will be 100% of smoothing factor, then 50%, then 25%, etc.
+      the strength of the smoothing applied is halved,
+      i.e. on the first round, it will be 100% of smoothing factor, then 50%, then 25%, etc.
       This setting is most useful for improving the quality of heavily subdivided strokes,
       where the multiple rounds of smoothing can help reduce "faceting" artifacts.
 

@@ -19,7 +19,7 @@ States are set up and used through controllers: note that only controllers,
 not actuators and sensors, are directly controlled by the state system.
 Each object has a number of states (up to 30; default = 1),
 and can only be in one state at any particular time. A controller must always specify the
-state for which it will operate - it will only give an output pulse if a)
+state for which it will operate -- it will only give an output pulse if a)
 its logic conditions are met, and b) the object is currently in the specified State.
 States are set up and edited in the object's Controller settings (for details see below).
 
@@ -28,7 +28,7 @@ States are set up and edited in the object's Controller settings (for details se
    State settings are automatic in simple games. By default,
    the number of states for each object is 1, and all controllers are set to use State 1. So,
    if a game does not need multiple states, everything will work without explicitly setting
-   states - you do not need to bother about states at all.
+   states -- you do not need to bother about states at all.
 
 
 One of the actuators, the State actuator, can set or unset the object's State bits,

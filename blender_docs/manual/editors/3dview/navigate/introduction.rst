@@ -147,7 +147,7 @@ Lock to Scene
    By default, the "lock" button to the right of the layer buttons is enabled.
    This means that in this view, the active layers and camera are those of the whole scene
    (and those used at render time). Hence, all 3D Views locked this way will share the same
-   active layers and camera - when you change them in one view,
+   active layers and camera. When you change them in one view,
    all locked others will immediately reflect these changes.
 
    But if you disable this "lock" button, you then can specify different active layers and camera,

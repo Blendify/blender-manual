@@ -220,9 +220,9 @@ Dolly the View
 In most cases its sufficient to zoom the view to get a closer look at something,
 however, you may notice that at a certain point you cannot zoom any closer.
 
-This is because Blender stores a view-point thats used for orbiting and zooming, This works
-well in many cases but sometimes you want to move the view-point to a different place - This
-is what Dolly supports, allowing you to transport the view from one place to another.
+This is because Blender stores a view-point thats used for orbiting and zooming.
+It works well in many cases, but sometimes you want to move the view-point to a different place.
+This is what Dolly supports, allowing you to transport the view from one place to another.
 
 You can dolly back and fourth by holding down :kbd:`Ctrl-Shift` and dragging
 :kbd:`MMB`.

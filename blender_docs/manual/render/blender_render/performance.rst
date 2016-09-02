@@ -135,8 +135,8 @@ Render Settings
      For example, render 30 frames at 10 frames per second for a 3-second animation,
      instead of 75 frames at 25 frames per second.
 :doc:`Bake Panel </render/blender_render/bake>`
-   - Bake Full Render - create a UV Texture that colors the objects based on materials,
-     and then use that UV Texture shadeless instead of the material.
+   - Bake Full Render creates a UV Texture that colors the objects based on materials,
+     and then uses that UV Texture shadeless instead of the material.
    - Bake Ambient Occlusion only.
    - Bake textures for objects.
    - Baking Normals or Displacement does not speed up render time, and are used for other things.

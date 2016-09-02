@@ -4,8 +4,9 @@
 Editing
 *******
 
-Surface editing has even fewer tools and options than its curve counterpart - and has many
-common points with it... So this page covers (or tries to cover) all the subjects,
+Surface editing has even fewer tools and options than its curve counterpart,
+but has many common points with it...
+So this page covers (or tries to cover) all the subjects,
 from the basics of surface editing to more advanced topics, like retopology.
 
 
@@ -83,13 +84,13 @@ ready to drag the new extruded surface to its destination.
 
 There are two things very important to understand:
 
-- Surfaces are *2D* objects - so you cannot extrude anything *inside* a surface
+- Surfaces are *2D* objects. So you cannot extrude anything *inside* a surface
   (e.g. "inner" row); it would not make any sense!
 - The control "grid" *must* remain "squarish",
   which means that you can only extrude a whole row, not parts of rows here and there...
 
-To summarize, the *Extrude* tool will only work when one and only one whole border
-row is selected - otherwise nothing happens.
+To summarize, the *Extrude* tool will only work, when one and only one whole border
+row is selected, otherwise nothing happens.
 
 As for curves, you cannot create a new surface in your object out of nowhere,
 by just :kbd:`Ctrl-LMB` - clicking with nothing selected.
@@ -130,7 +131,7 @@ By moving the new section away from the area, the surface begins to "unbunch".
 The direction of movement is marked with a white arrow, labeled "E",
 and the new section is labeled "S".
 
-You can continue this process of extruding - or adding -
+You can continue this process of extruding or adding
 new surface sections until you have reached the final shape for your model.
 
 

@@ -190,8 +190,8 @@ Simulation Internals
 
 The simulator itself uses FFT methods to generate 2D grids of simulation information internally,
 very similar to 2D texture maps.
-The simulator can generate three types of data - displacement, normals,
-and extra data that is used to calculate wave crest intersections (i.e. foam).
+The simulator can generate three types of data: displacement, normals,
+and extra data, that is used to calculate wave crest intersections (i.e. foam).
 After simulation, these maps are used to displace the ocean surface geometry in 3D,
 and also can be used for shading via the Ocean texture. The internal simulation engine is
 multi threaded with OpenMP to take advantage of multiple cores.

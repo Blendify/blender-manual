@@ -156,13 +156,13 @@ you can press :kbd:`Ctrl-Z` at any time in *Edit Mode*.
 
 .. figure:: /images/modeling_mesh_screw_cursor_basic_location.png
 
-   Cursor Basic Location - Transform Panel.
+   :menuselection`Properties region --> Cursor`.
 
 .. _fig-mesh-screw-interactive-panel:
 
 .. figure:: /images/modeling_mesh_screw_screw_interactive_panel.jpg
 
-   Screw Interactive Panel - Mesh Tools Panel (Edit Mode).
+   Screw Tools Operator Panel (Edit Mode).
 
 
 Center
@@ -331,12 +331,12 @@ with the *Screw* tool were created using the Top Ortho View.
    * - .. figure:: /images/modeling_mesh_screw_angular_vector_example_1.png
           :width: 320px
 
-          Example 1 - The Axis will give the profile a starting vector angle.
+          The Axis will give the profile a starting vector angle.
 
      - .. figure:: /images/modeling_mesh_screw_angular_vector_example_2.png
           :width: 320px
 
-          Example 2 - The vector angle is maintained along the extrusions.
+          The vector angle is maintained along the extrusions.
 
 
 Creating perfect Screw Spindles

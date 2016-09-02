@@ -6,7 +6,7 @@ Introduction
 
 We have seen in :doc:`previous pages </rigging/armatures/index>` how to design an armature,
 create chains of bones, etc.
-Now, having a good rig is not the final goal - unless you want to produce a "Dance Macabre" animation,
+Now, having a good rig is not the final goal, unless you want to produce a "Dance Macabre" animation,
 you will likely want to put some flesh on your skeletons!
 Surprisingly, "linking" an armature to the object(s)
 it should transform and/or deform is called the "skinning" process...

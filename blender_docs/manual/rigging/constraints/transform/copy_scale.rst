@@ -39,8 +39,7 @@ Target
       a new field is displayed offering the optional choice to set a *Vertex Group* as target.
 
 X, Y, Z
-   These buttons control along which axes the scale is constrained - by default,
-   it is enabled along all three.
+   These buttons control along which axes the scale is constrained.
 
 Offset
    When enabled, this control allows the owner to be scaled (using its current transform properties),

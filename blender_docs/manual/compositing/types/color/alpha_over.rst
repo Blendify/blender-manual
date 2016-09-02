@@ -92,7 +92,7 @@ The resulting image is a composite of the two source images.
 .. figure:: /images/compositing-alphaover-seethru.jpg
    :width: 300px
 
-   Animated See-Through/Sheer SFX using AlphaOver - Frame 11.
+   Animated See-Through/Sheer SFX using AlphaOver on Frame 11.
 
 
 In this example, we use the Factor control to make a sheer cloth or onion-skin effect.

@@ -129,7 +129,7 @@ Sampling Meathod
          it is possible that the AO light makes faces visible even on objects with "smooth" on.
          This is due to the way AO rays are shot, and can be controlled with the *Bias* slider.
          Note that while it might even happen with QMC sampling methods,
-         it is much more visible with the *Constant Jittered* one - and anyway,
+         it is much more visible with the *Constant Jittered* one and anyway,
          you have no *Bias* option for QMC.
 
          .. list-table::
@@ -182,8 +182,8 @@ Approximate
 
 The *Approximate* method gives a much smoother result for the same amount of render
 time, but as its name states, it is only an approximation of the *Raytrace* method,
-which implies it might produce some artifacts - and it cannot use the sky's texture as the
-base color
+which implies it might produce some artifacts and it cannot use the sky's texture
+as the base color.
 
 This method seems to tend to "over-occlude" the results.
 You have two complementary options to reduce this problem:

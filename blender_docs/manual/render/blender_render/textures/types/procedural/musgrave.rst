@@ -31,7 +31,7 @@ Type
    pattern on top of each other at varying contrasts and scales.
 
 
-Examples with Basis : Voronoi F1 - Dimension : 0.5 - Lacunarity : 0.15 - Octave: 2.0
+Examples with Basis: Voronoi: F1, Dimension: 0.5, Lacunarity: 0.15, Octave: 2.0 .
 
 .. list-table::
 

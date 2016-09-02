@@ -53,7 +53,7 @@ Particle System
    It is possible to select any of the ten particle system numbers, however, a check will **not** be made with the
    underlying particle emitting object specified previously in the *Object* field.
    If you select a particle system number which does not exist on the particle emitting object, then the particles on
-   the emitting mesh will keep their normal particle shapes - no warning will be given that the chosen particle
+   the emitting mesh will keep their normal particle shapes. No warning will be given that the chosen particle
    system does not exist on a particular particle emitting mesh.
 
    As an example, below is a single plane mesh with two areas (the first area shown in red and the second in white),

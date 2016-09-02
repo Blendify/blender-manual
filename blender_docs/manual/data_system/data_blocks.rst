@@ -97,7 +97,7 @@ Other data-blocks such as groups and actions can be *Unlinked* from the *Outline
    Some data (images especially) is hard to keep track of,
    especially since image views are counted as users.
 
-   For data-blocks that can be unlinked - hold :kbd:`Shift` while pressing on the *X* button,
+   For data-blocks that can be unlinked hold :kbd:`Shift`, while pressing on the *X* button,
    This force clears the user-count, so the data-block will be removed on reloading.
 
 

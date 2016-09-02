@@ -135,22 +135,22 @@ camera presets are used.
 
 
 Focal Length
-   is self-explanatory; it is the focal length with which the movie was shot.
+   Is self-explanatory; it is the focal length with which the movie was shot.
    It can be set in millimeters or pixels. In most cases focal length is given in millimeters,
    but sometimes (for example in some tutorials on the Internet) it is given in pixels.
    In such cases it is possible to set it directly in the known unit.
 Sensor Width
-   is the width of the CCD sensor in the camera. This value can be found in camera specifications.
+   Is the width of the CCD sensor in the camera. This value can be found in camera specifications.
 Pixel Aspect Ratio
-   is the pixel aspect of the CCD sensor. This value can be found in camera specifications,
+   Is the pixel aspect of the CCD sensor. This value can be found in camera specifications,
    but can also be guessed. For example, you know that the footage should be 1920×1080,
    but the images themselves are 1280×1080. In this case, the pixel aspect is: 1920 / 1280 = 1.5 .
 Optical Center
-   is the optical center of the lens used in the camera. In most cases it is equal to the image center,
+   Is the optical center of the lens used in the camera. In most cases it is equal to the image center,
    but it can be different in some special cases. Check camera/lens specifications in such cases.
    To set the optical center to the center of image, there is a :kbd:`Return` button below the sliders.
 Undistortion K1, K2 and K3
-   are coefficients used to compensate for lens distortion when the movie was shot. Currently these values can be
+   Are coefficients used to compensate for lens distortion when the movie was shot. Currently these values can be
    tweaked by hand only (there are no calibration tools yet)
    using tools available in Distortion mode. Basically, just
    tweak K1 until solving is most accurate for the known focal length (but also take grid and grease pencil into
@@ -164,64 +164,63 @@ This panel contains all settings which control things displayed in the clip edit
 
 
 R, G, B
-   and *B/W* buttons at the top of this panel are used to control color channels used for frame preview and to
+   And *B/W* buttons at the top of this panel are used to control color channels used for frame preview and to
    make the whole frame gray scale. It is needed because the tracking algorithm works with gray-scale images and it is
    not always obvious to see which channels disabled will increase contrast of feature points and reduce noise.
 Pattern
-   can be used to disable displaying of rectangles which correspond to pattern areas of tracks.
+   Can be used to disable displaying of rectangles which correspond to pattern areas of tracks.
    In some cases it helps
    to make the clip view cleaner to check how good tracking is.
 Search
-   can be used to disable displaying of rectangles which correspond to search areas of tracks.
+   Can be used to disable displaying of rectangles which correspond to search areas of tracks.
    In some cases it helps to make the clip view cleaner to check how good tracking is.
    Only search areas for selected tracks will be displayed.
 Pyramid
-   makes the highest pyramid level be visible. Pyramids are defined later in the Tracking Settings panel section, but
+   Makes the highest pyramid level be visible. Pyramids are defined later in the Tracking Settings panel section, but
    basically it helps to determine how much a track is allowed to move from one frame to another.
 Track Path
-   and *Length* control displaying of the paths of tracks. The ways tracks are moving can be visible looking
+   And *Length* control displaying of the paths of tracks. The ways tracks are moving can be visible looking
    at only one frame. It helps to determine if a track jumps from its position or not.
 Disabled Tracks
-   makes it possible to hide all tracks which are disabled on the current frame. This helps to make view more clear,
+   Makes it possible to hide all tracks which are disabled on the current frame. This helps to make view more clear,
    to see if tracking is happening accurately enough.
 Bundles
-   makes sense after solving the movie clip,
+   Makes sense after solving the movie clip,
    and it works in the following way: the solved position of each track gets
    projected back to the movie clip and displayed as a small point. The color of the point depends on the distance
    between the projected coordinate and the original coordinate: if they are close enough, the point is green,
    otherwise it will be red. This helps to find tracks which were not solved nicely and need to be tweaked.
 Track Names and Status
-   displays information such as track name and status of the track
+   Displays information such as track name and status of the track
    (if it is keyframed, disabled, tracked or estimated).
    Names and status for selected tracks are displayed.
 Compact Markers
    The way in which markers are displayed (black outline and yellow foreground color)
-   makes tracks visible on all kind
-   of footage (both dark and light). But sometimes it can be annoying and this option will make the marker display
+   makes tracks visible on all kind of footage (both dark and light).
+   But sometimes it can be annoying and this option will make the marker display
    more compactly - the outline is replaced by dashed black lines drawn on top of the foreground,
-   so that marker areas
-   are only 1px thick.
+   so that marker areas are only 1px thick.
 Grease pencil
-   controls if grease pencil strokes are allowed to be displayed and made.
+   Controls if grease pencil strokes are allowed to be displayed and made.
 Mute
-   changes displaying on movie frame itself with black square, It helps to find tracks which are tracked inaccurately
+   Changes displaying on movie frame itself with black square, It helps to find tracks which are tracked inaccurately
    or which were not tracked at all.
 Grid
-   (available in distortion mode only) displays a grid which is originally orthographic, but os affected by the
-   distortion model. This grid can be used for manual calibration - distorted lines of grids are equal to straight
-   lines in the footage.
+   Displays a grid which is originally orthographic, but is affected by the
+   distortion model (available in distortion mode only). This grid can be used for manual calibration --
+   distorted lines of grids are equal to straight lines in the footage.
 Manual Calibration
-   (available in distortion mode only) applies the distortion model for grease pencil strokes. This option also helps
-   to perform manual calibration. A more detailed description of this process will be added later.
+   Applies the distortion model for grease pencil strokes(available in distortion mode only).
+   This option also helps to perform manual calibration. A more detailed description of this process will be added later.
 Stable
-   (available in reconstruction mode only). This option makes the displayed frame be affected by the 2D stabilization
-   settings. It is only a preview option, which does not actually change the footage itself.
+   This option makes the displayed frame be affected by the 2D stabilization settings(available in reconstruction mode only).
+   It is only a preview option, which does not actually change the footage itself.
 Lock to Selection
-   makes the editor display selected tracks at the same screen position along the whole footage during playback or
+   Makes the editor display selected tracks at the same screen position along the whole footage during playback or
    tracking. This option helps to control the tracking process and stop it when the track is starting to slide off or
    when it jumped.
 Display Aspect Ratio
-   changes the aspect ratio for displaying only. It does not affect the tracking or solving process.
+   Changes the aspect ratio for displaying only. It does not affect the tracking or solving process.
 
 
 Marker Panel
@@ -302,6 +301,6 @@ Grease Pencil Panel
 ===================
 
 It is a standard grease pencil panel where new grease pencil layers and frames can be controlled.
-There is one difference in the behavior of the grease pencil from other areas -
+There is one difference in the behavior of the grease pencil from other areas --
 when a new layer is created "on-demand" (when making a stroke without adding a layer before this)
 the default color for the layer is set to pink. This makes the stroke easy to notice on all kinds of movies.

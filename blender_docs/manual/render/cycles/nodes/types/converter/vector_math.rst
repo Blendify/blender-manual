@@ -36,11 +36,11 @@ Operation
       Averaging input 1 and 2.
    Dot Product
       Algebraic operation that takes two equal-length sequences of vectors 1 and 2 and returns a single number.
-      Result - scalar.
+      The Result is a scalar.
    Cross Product
       Geometric binary operation on two vectors 1 and 2 in three-dimensional space.
       It results in a vector which is perpendicular to both and therefore normal to the plane containing them.
-      Result - vector.
+      The Result is a vector.
    Normalize
       Normalizing input 1 and 2.
 

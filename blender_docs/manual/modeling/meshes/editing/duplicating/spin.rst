@@ -129,9 +129,9 @@ perform a *Remove Doubles* operation.
 Notice the selected vertex count before and after the *Remove Doubles* operation
 ``Vertex count after removing doubles``. If all goes well, the final vertex count
 (38 in this example) should match the number of the original profile noted in
-``Mesh data - Vertex and face numbers``. If not,
-some vertices were missed and you will need to weld them manually. Or, worse,
-too many vertices will have been merged.
+:menuselection:`Mesh data --> Vertex and face numbers`.
+If not, some vertices were missed and you will need to weld them manually.
+Or, worse, too many vertices will have been merged.
 
 
 .. note:: Merging two vertices in one

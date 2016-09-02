@@ -62,13 +62,13 @@ Receive Transparent
 
        .. figure:: /images/materials_properties_shadow3.jpg
 
-          Plane - Receive.
+          Plane with Receive.
 
      - .. _fig-bi-material-shadow-receive-trans:
 
        .. figure:: /images/materials_properties_shadow4.jpg
 
-          Plane - Receive + Receive Transparency.
+          Plane with Receive and Receive Transparency.
 
 
 Shadow Casting Object Material
@@ -94,13 +94,13 @@ Shadow and Distance
 
        .. figure:: /images/materials_properties_shadow5.jpg
 
-          Posts - Cast Only.
+          Posts with Cast Only.
 
      - .. _fig-bi-material-shadow-only:
 
        .. figure:: /images/materials_properties_shadow6.jpg
 
-          Posts - Shadows Only.
+          Posts with Shadows Only.
 
 
 Buffered Shadow Options

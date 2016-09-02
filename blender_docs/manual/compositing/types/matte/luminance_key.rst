@@ -14,7 +14,7 @@ the difference in the luminance (brightness) levels.
 
 Stock footage of explosions, smoke or debris  are normally shot against a solid,
 dark background rather than a green screen. This node can separate the
-foreground effect from the background. It can also be used for sky replacment for
+foreground effect from the background. It can also be used for sky replacement for
 over-exposed or gray skies that aren't suitable for chroma keying.
 
 .. tip::
@@ -37,10 +37,10 @@ Properties
 Limit
    High
       Determines the lowest values that are considered foreground.
-      (which is supposed to be - relatively - light: from this value to 1.0).
+      (which is supposed to be -- relatively -- light: from this value to 1.0).
    Low
       Determines the highest values that are considered to be background objects.
-      (which is supposed to be - relatively - dark: from 0.0 to this value).
+      (which is supposed to be -- relatively -- dark: from 0.0 to this value).
 
 .. note::
 
@@ -70,10 +70,10 @@ For this example the model was shot against a *white* background.
 Using the Luminance Key node, we get a matte out where the background is white,
 and the model is black; the opposite of what we want.
 If we wanted to use the matte, we have to switch the white and the black.
-How to do this? ColorRamp to the rescue - we set the left color White Alpha 1.0,
-and the right color to be Black Alpha 0.0. Thus, when the Colorramp gets in black,
+How to do this? ColorRamp to the rescue -- we set the left color White Alpha 1.0,
+and the right color to be Black Alpha 0.0. Thus, when the Color Ramp gets in black,
 it spits out white, and vice versa. The reversed mask is shown;
-her white outline is useable as an alpha mask now.
+her white outline is usable as an alpha mask now.
 
 Now to mix, we do not really need the *AlphaOver* node;
 we can just use the mask as our Factor input. In this kinda weird case,

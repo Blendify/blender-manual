@@ -43,20 +43,21 @@ Dissolve
 Limited Dissolve
    Limited Dissolve reduces detail on planar faces and linear edges with an adjustable angle threshold.
 
-.. figure:: /images/bmesh_limited-dissolve.jpg
-   :width: 400px
+   .. figure:: /images/bmesh_limited-dissolve.jpg
+      :width: 400px
 
-   Example showing the how Limited Dissolve can be used.
+      Example showing the how Limited Dissolve can be used.
 
-
-   Face Split - dissolve option.
+   Face Split
       When dissolving vertices into surrounding faces, you can often end up with very large, uneven ngons.
       The face split option limits dissolve to only use the corners of the faces connected to the vertex.
 
-.. figure:: /images/bmesh_dissolve_face_split.png
-   :width: 500px
+   .. figure:: /images/bmesh_dissolve_face_split.png
+      :width: 500px
 
-   Dissolve Face Split option. Left - the input, middle - regular dissolve, right - Face Split enabled.
+      Dissolve Face Split option.
+
+      Left: the input, middle: regular dissolve, right: Face Split enabled.
 
 
 Convert Triangles to Quads

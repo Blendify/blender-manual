@@ -151,7 +151,7 @@ This page lists definitions for terms used in Blender and this manual.
          Hue
             The Hue of the color.
          Saturation
-            The quantity of hue in the color (from desaturating - a shade of gray - to saturate - brighter colors).
+            The quantity of hue in the color (from desaturated -- a shade of gray -- to saturated -- brighter colors).
          Value
             The brightness of the color (dark to light).
       HSL
@@ -494,7 +494,7 @@ This page lists definitions for terms used in Blender and this manual.
    Phong
       Local illumination model that can produce a certain degree of realism in three-dimensional
       objects by combining three elements: diffuse, specular and ambient for each considered point on a surface.
-      It has several assumptions - all lights are points, only surface geometry is considered,
+      It has several assumptions -- all lights are points, only surface geometry is considered,
       only local modeling of diffuse and specular, specular color is the same as light color,
       ambient is a global constant.
 

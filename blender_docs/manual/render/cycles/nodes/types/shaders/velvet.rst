@@ -21,7 +21,7 @@ Color
    Color of the surface, or physically speaking, the probability that light is reflected for each wavelength.
 Sigma
    Variance of the normal distribution,
-   controlling the sharpness of the peak - can be thought of as a kind of *roughness*.
+   controlling the sharpness of the peak. It can be thought of as a kind of *roughness*.
 Normal
    Normal used for shading; if nothing is connected the default shading normal is used.
 

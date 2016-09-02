@@ -23,7 +23,7 @@ Menu specifying type of constraint required.
 .. figure:: /images/bge_actuator_constraint_forcefield.png
    :width: 271px
 
-   Constraint actuator - Force Field.
+   :menuselection:`Constraint actuator --> Force Field`.
 
 
 Force Field Constraint
@@ -57,7 +57,7 @@ Force Field Constraint
 .. figure:: /images/bge_actuator_constraint_orientation.png
    :width: 271px
 
-   Constraint Actuator - Orientation.
+   :menuselection:`Constraint Actuator --> Orientation`.
 
 
 .. rubric:: Orientation Constraint
@@ -80,7 +80,7 @@ Constrain the specified axis in the Game to a specified direction in the World a
 .. figure:: /images/bge_actuator_constraint_distance.jpg
    :width: 271px
 
-   Constraint actuator - Distance.
+   :menuselection:`Constraint actuator --> Distance`.
 
 
 Distance Constraint
@@ -116,7 +116,7 @@ Maintain the distance the Game Object has to be from a surface
 .. figure:: /images/bge_actuator_constraint_location.png
    :width: 271px
 
-   Constraint actuator - Location.
+   :menuselection:`Constraint actuator --> Location`.
 
 
 Location Constraint

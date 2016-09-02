@@ -5,7 +5,7 @@ Moving Objects on a Path
 
 To make objects move along a path is a very common animation need.
 Think of a complex camera traveling,
-a train on his rails - and most other vehicles can also use "invisible" tracks! -,
+a train on his rails and most other vehicles can also use "invisible" tracks,
 the links of a bicycle chain, etc.
 All these movements could obviously be done with standard F-Curves, but this would be a nightmare!
 It is much easier and intuitive to define a path materializing the desired

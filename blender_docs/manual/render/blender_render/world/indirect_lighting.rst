@@ -62,11 +62,10 @@ Approximate
 
    The Indirect Lighting panel, Approximate method.
 
-
 The *Approximate* method gives a much smoother result for the same amount of render
 time, but as its name states, it is only an approximation of the *Raytrace* method,
-which implies it might produce some artifacts - and it cannot use the sky's texture as the
-base color
+which implies it might produce some artifacts
+and it cannot use the sky's texture as the base color.
 
 This method seems to tend to "over-occlude" the results.
 You have two complementary options to reduce this problem:

@@ -4,7 +4,6 @@ Glow
 ****
 
 .. figure:: /images/editors_sequencer_strips_glow.png
-   :width: 300px
 
    Glow Effect.
 
@@ -12,7 +11,7 @@ Glow
 
 Example of a Glow effect applied to a picture.
 
-:Top left: Base picture (Lofoten Islands, Norway - source: wikipedia.fr);
+:Top left: Base picture (Lofoten Islands, Norway -- source: wikipedia.fr);
 :Top right: Result of the effect;
 :Bottom left: Effect settings;
 :Bottom right: Result with the Only boost button activated.

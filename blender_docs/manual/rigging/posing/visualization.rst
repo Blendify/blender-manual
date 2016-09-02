@@ -31,7 +31,7 @@ You can also mix both coloring methods, see `Coloring from Bone Group`_.
 Coloring from Bone State
 ------------------------
 
-This is the default and oldest way - there are six different color codes,
+This is the default and oldest way. There are six different color codes,
 ordered here by precedence (i.e. the bone will be of the color of the topmost valid state):
 
 - Orange: A bone with a targetless Solver constraint.
@@ -184,8 +184,8 @@ Finally, these ghosts are also active when playing the animation :kbd:`Alt-A`
 
 .. note::
 
-   There is no "global switch" to disable this display feature - to do so,
-   you have to either set *Ghost* to 0
+   There is no "global switch" to disable this display feature.
+   To do so,    you have to either set *Ghost* to 0
    (for *Around Current Frame* option),
    or the same frame number in both *GSta* and *GEnd*
    (for the two other ghosts types).

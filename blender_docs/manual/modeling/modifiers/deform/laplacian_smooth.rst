@@ -32,7 +32,8 @@ Repeat
 
    .. note::
 
-      More repetitions will take longer to calculate - beware of doing so on meshes with a large number of vertices.
+      More repetitions will take longer to calculate.
+      So beware of doing so on meshes with a large number of vertices.
 
 
    .. list-table:: With a factor of 0.5 .

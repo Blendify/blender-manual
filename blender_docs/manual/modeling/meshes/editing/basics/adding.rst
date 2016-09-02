@@ -58,9 +58,9 @@ when no other vertices are selected, or :kbd:`Ctrl-LMB`.
 To create interconnected vertices, you can add a vertex and continuously make subsequent :kbd:`Ctrl-LMB`
 operations with the last one vertex selected.
 This will link the last selected vertex with the vertex created at the mouse position with an edge
-(See Fig. :ref:`fig-mesh-basics-add-one`,
+(See Fig. :ref:`fig-mesh-basics-add-one`),
 and will continuously connect them creating vertices if you continue repeating this operation.
-(see Fig. 3 - Creating simple connected vertices with :kbd:`Ctrl-LMB`.
+(see Fig. 3 Creating simple connected vertices with :kbd:`Ctrl-LMB`).
 
 .. _fig-mesh-basics-add-one:
 

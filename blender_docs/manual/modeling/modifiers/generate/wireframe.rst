@@ -46,7 +46,7 @@ Crease Edges
 Even Thickness
    Maintain thickness by adjusting for sharp corners. Sometimes improves quality but also increases computation time.
 Relative Thickness
-   Determine edge thickness by the length of the edge - longer edges are thicker.
+   Determines the edge thickness by the length of the edge. Longer edges will be thicker.
 Boundary
    Creates wireframes on mesh island boundaries.
 Replace Original

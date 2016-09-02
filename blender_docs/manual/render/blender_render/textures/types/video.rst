@@ -44,9 +44,9 @@ Fields
    the correct field of the image is used in the correct field of the rendering.
 
    Upper First
-      Order of video fields - upper field first.
+      Order of video fields: Upper field first.
    Lower First
-      Order of video fields - lower field first.
+      Order of video fields: Lower field first.
    Fields
       Number of fields per rendered frame.
       Used with Fields and interlaced video, it says whether each image has both odd and even, or just one.

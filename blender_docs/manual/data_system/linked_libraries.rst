@@ -37,7 +37,7 @@ Instance Groups
    This option links the Group to an object, adding it to the active scene.
 
 When you select an Object type, it will be placed in your scene at the cursor.
-Many other data types - cameras, curves, and materials for example -
+Many other data types, cameras, curves, and materials for example,
 must be linked to an object before they become visible.
 
 Newly added Group types are available in :menuselection:`Add --> Group Instances` in 3D View,

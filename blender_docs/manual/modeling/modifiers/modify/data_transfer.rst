@@ -8,7 +8,7 @@ Data types include vertex groups, UV layers, vertex colors, custom normals...
 
 Transfer works by generating a mapping between source mesh’s items (vertices, edges, etc.)
 and destination ones, either on a one-to-one basis, or mapping several source items
-to a single destination one - interpolated mapping.
+to a single destination one by interpolated mapping.
 
 .. figure:: /images/modifier-data_transfer_normals_example.png
 

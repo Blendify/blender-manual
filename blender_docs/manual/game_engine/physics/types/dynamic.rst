@@ -10,7 +10,7 @@ So, a Dynamic ball will hit a ramp and slide down, while a Rigid Body ball would
 If you do not need the rotational response the Dynamic type can save the extra computation.
 
 Note that these objects can still be rotated with :doc:`Logic Bricks </game_engine/logic/index>` or Python code.
-Their physics meshes will update when you do these rotations - so collisions will be based on the new orientations.
+Their physics meshes will update when you do these rotations -- so collisions will be based on the new orientations.
 
 For more documentation, see the :doc:`Top BGE Physics page </game_engine/physics/index>`.
 
@@ -173,9 +173,10 @@ Now we can explain the various options for the *Collision Bounds* settings:
 Default
    For Dynamic and Static objects, it is a Triangle Mesh (see below).
    For everything else, it is a Sphere (see below).
-Capsule - A cylinder with hemispherical caps, like a pill.
+Capsule
+   Which is a cylinder with hemispherical caps, like a pill.
    Radius of the hemispheres is the greater of the x or y extent.
-   Height is the z bounds
+   Height is the z bounds.
 Box
    The x,y,z bounding box, as defined above.
 Sphere

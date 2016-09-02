@@ -120,7 +120,7 @@ or that values for focal length or distortion coefficients were set incorrectly.
 The *Refine* option specifies which parameters should be refined during solve.
 Such refining is useful when you are not sure about some camera intrinsics,
 and solver should try to find the best parameter for those intrinsics.
-But you still have to know approximate initial values -
+But you still have to know approximate initial values --
 it will fail to find correct values if they were set completely incorrectly initially.
 
 

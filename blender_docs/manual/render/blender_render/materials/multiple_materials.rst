@@ -29,7 +29,7 @@ material is as follows:
   (as shown in :doc:`Assigning a material </render/blender_render/materials/assigning_a_material>`)
 - Create/select the second material (the whole object will change to this new material).
 - In the Active Material box (2), re-select the base material.
-- Go to Edit Mode - Face Select (a new box appears above the Active Material box with Assign/Select/Deselect).
+- Go to Edit Mode and Face Select (a new box appears above the Active Material box with Assign/Select/Deselect).
 - Select the face/faces to be colored with the second material.
 - In the Object Material Slots box (3), click the :kbd:`Plus` to create a new slot, and while this is still active,
   click on the second material in the Available Materials list.
@@ -38,7 +38,7 @@ material is as follows:
 
 - You can also make this new material a copy of an existing material by adding the data block:
 
-Select object, get the material, (R Click) - Copy data to clipboard.
-When you have renamed the material, click "Data - Data" to link to the existing material.
+Select the object, get the material, (R Click) and Copy data to clipboard.
+When you have renamed the material, click "Link: Data" to link to the existing material.
 Proceed to assign faces as required.
 NB: If you change the material on the original object, the new object color changes too.

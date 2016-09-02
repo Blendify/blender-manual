@@ -58,7 +58,7 @@ Normal
    This is very useful when creating certain special effects that depend on viewing angle.
 Reflection
    Uses the direction of the reflection vector as coordinates.
-   This is useful for adding reflection maps - you will need this input when Environment Mapping.
+   This is useful for adding reflection maps. You will need this input when Environment Mapping.
 Stress
    Uses the difference of edge length compared to original coordinates of the mesh.
    This is useful, for example, when a mesh is deformed by modifiers.

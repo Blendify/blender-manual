@@ -84,6 +84,8 @@ and it will show you a button for stopping your capture.
    performed in the Blender *User Interface*, (it will stop animations, playbacks and so on...),
    but will not work to stop *Screencasts*.
 
+.. _fig-screencast-frame-range:
+
 .. figure:: /images/basics-screencast-frame-range-sufix.png
 
    :menuselection:`Render --> Dimensions Panel --> Frame Range`
@@ -93,7 +95,7 @@ The frames are stored using a suffix added to their file name,
 where the suffix is composed of the numbers present in the fields for *start* and *end frames*,
 defined in the Frame Range of the Dimensions panel,
 :ref:`Render tab <properties-render-tab>`.
-(See Fig: Dimensions Panel - Frame Range - highlighted in yellow)
+(See Fig. :ref:`fig-screencast-frame-range` highlighted in yellow)
 
 .. note::
 
@@ -108,6 +110,7 @@ If you choose to capture to a Video file,
 Blender will have to pass those frames to a Video codec.
 
 .. warning::
+
    Some codecs limit the output width/height or the video quality.
 
    - When you save your *Screencast* in an Image format,
@@ -125,8 +128,8 @@ Blender Window Dimension
 ------------------------
 
 There is a way to match the Blender Window dimensions with the Output Video File,
-achieving standard dimensions for the output of the Blender Screencast. (I.e. NTSC, HD,
-Full HD, etc).
+achieving standard dimensions for the output of the Blender Screencast.
+(i.e. NTSC, HD, Full HD, etc).
 You can control the width and height of your Blender Window, starting Blender from a Command Line.
 To learn more about starting Blender from a command line,
 see the page about :doc:`Blender Console Window </advanced/command_line/introduction>`.

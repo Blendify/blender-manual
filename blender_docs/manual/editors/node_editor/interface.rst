@@ -19,23 +19,23 @@ Node Editor Actions
 When the cursor is in the area, several standard Blender hotkeys and mouse actions are available, including:
 
 Popup Menu
-   Space - Brings up a main pop-up menu, allowing you to add, view, select, etc.
+   :kbd:`Space` brings up a main pop-up menu, allowing you to add, view, select, etc.
 Delete
-   :kbd:`X` or :kbd:`Delete` - Deletes the selected node(s).
+   :kbd:`X` or :kbd:`Delete` deletes the selected node(s).
 Box select
-   :kbd:`B` - Starts the bounding box selection process.
+   :kbd:`B` starts the bounding box selection process.
    Position your cursor and :kbd:`LMB` click & drag to select a set of nodes.
 Cut connections (lasso)
-   :kbd:`Ctrl-Alt-LMB` click & drag - Starts a lasso selection, **but** when you let up the mouse button,
+   :kbd:`Ctrl-Alt-LMB` click & drag starts a lasso selection, **but** when you let up the mouse button,
    all threads (connections) within the lasso are broken.
 Undo
    :kbd:`Ctrl-Z`
 Redo
-   :kbd:`Ctrl-Y` or :kbd:`Ctrl-Shift-Z` - You can use this if you used "undo" a bit too often
+   :kbd:`Ctrl-Y` or :kbd:`Ctrl-Shift-Z` -- You can use this if you used "undo" a bit too often.
 Select multiple
-   :kbd:`Shift-LMB` or :kbd:`Shift-RMB`- Multiple node select.
+   :kbd:`Shift-LMB` or :kbd:`Shift-RMB` used for multiple node selection.
 Grab/Move
-   :kbd:`G` - Moves your current selection around.
+   :kbd:`G` to move the current selection around.
 
 
 Node Editor Header

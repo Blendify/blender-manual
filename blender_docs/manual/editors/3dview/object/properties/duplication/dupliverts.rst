@@ -77,8 +77,9 @@ If you now select the base object and modify it in either object or edit mode,
 all changes will also affect the shape of all duplicate objects.
 You can also select the parent mesh to modify the arrangement of the duplicates;
 adding vertices will also add more base objects.
-Note that the base objects will inherit changes made to the parent mesh in object mode, but
-not in edit mode - so scaling the circle up in object mode will enlarge the monkey head,
+
+Note that the base objects will inherit changes made to the parent mesh in Object Mode, but
+not in Edit Mode. So scaling the circle up in object mode will enlarge the monkey head,
 while scaling the circle up in edit mode will only increase the distance between the base
 objects.
 

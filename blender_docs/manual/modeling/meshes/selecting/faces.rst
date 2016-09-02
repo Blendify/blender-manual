@@ -63,7 +63,7 @@ As already known, faces are marked with a little square dot in the middle of the
 With ngons that can lead in certain cases to a confusing display.
 The example shows the center dot of the U-shaped ngon being inside of the oblong face inside the "U".
 It is not easy to say which dot belongs to which face (the orange dot in the image is the object center).
-Luckily, you do not need to care much - because to select a face, you do not have to click the center dot,
+Luckily, you do not need to care much, because to select a face, you do not have to click the center dot,
 but the face itself.
 
 

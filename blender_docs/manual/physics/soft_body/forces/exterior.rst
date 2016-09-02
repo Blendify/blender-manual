@@ -18,7 +18,7 @@ there is always a little damping to avoid overshoot of the calculation.
 Example
 =======
 
-We will begin with a very simple example - the default cube.
+We will begin with a very simple example: the default cube.
 
 - To judge the effect of the external forces you should at first turn off the *Goal*,
   so that the vertices are not retracted to their original position.
@@ -76,8 +76,8 @@ So if you use a *Harmonic* field for particles move the Soft body to another lay
 
 See the section :doc:`Force Fields </physics/force_fields/index>` for details.
 The force fields are quite strong,
-a *Spherical* field with a strength of -1.0 has the same effect that gravity has -
-approximately - a force of 10 Newton.
+a *Spherical* field with a strength of -1.0 has the same effect that gravity has --
+approximately -- a force of 10 Newton.
 
 
 Aerodynamics

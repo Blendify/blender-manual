@@ -57,7 +57,7 @@ Adaptive
 
       .. figure:: /images/cycles-displacement-dicing.jpg
 
-         Subdivision Off - On, Dicing Rate 1.0 - 0.3 - 0.05 (Monkeys look identical in viewport, no modifiers).
+         Subdivision Off/On, Dicing Rate: 1.0 - 0.3 - 0.05 (Monkeys look identical in viewport, no modifiers).
 
 Levels
    The levels of subdivision to see in the final render,

@@ -40,8 +40,8 @@ and work on other things (be careful with the RAM space!).
 
 .. rubric:: Direct Approach
 
-The Direct Approach - highly **not** recommended and not a standard practice - is where
-you set your output format to an AVI or MOV format,
+The Direct Approach, which is highly **not** recommended and not a standard practice,
+is where you set your output format to an AVI or MOV format,
 and click ANIM to render your scene directly out to a movie file.
 Blender creates one file that holds all the frames of your animation. You can then use
 Blender's VSE to add an audio track to the animation and render out to an MPEG format to

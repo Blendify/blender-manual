@@ -416,9 +416,12 @@ The gradient tool can be accessed from the Tool Shelf or as a key shortcut:
 
 The following weight paint options are used to control the gradient:
 
-- Weight - The gradient starts at the current selected weight value, blending out to nothing.
-- Strength - Lower values can be used so the gradient mixes in with the existing weights (just like with the brush).
-- Curve - The brush falloff curve applies to the gradient too, so you can use this to adjust the blending.
+Weight
+   The gradient starts at the current selected weight value, blending out to nothing.
+Strength
+   Lower values can be used so the gradient mixes in with the existing weights (just like with the brush).
+Curve
+   The brush falloff curve applies to the gradient too, so you can use this to adjust the blending.
 
 Blends the weights of selected vertices with unselected vertices.
 

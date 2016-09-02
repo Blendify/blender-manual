@@ -29,7 +29,7 @@ The bones inside an armature can be completely independent from each other (i.e.
 the modification of one bone does not affect the others).
 But this is not often a useful set up: To create a leg,
 all bones "after" the thigh bone should move "with" it in a well-coordinated manner.
-This is exactly what happens in armatures - by parenting a bone to the next one in the limb,
+This is exactly what happens in armatures by parenting a bone to the next one in the limb,
 you create a "chains of bones". These chains can be ramified. For example,
 five fingers attached to a single "hand" bone.
 

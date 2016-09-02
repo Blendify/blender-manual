@@ -4,9 +4,9 @@
 Image Textures
 **************
 
-The term *Image Texture* simply means that a graphic image - a pixel grid
-composed of R, G, B,
-and sometimes Alpha values - is used as the input source to the texture.
+The term *Image Texture* simply means that a graphic image,
+which is a pixel grid composed of R, G, B, and sometimes Alpha values.
+It is used as the input source to the texture.
 As with other types of textures, this information can be used in a number of ways,
 not only as a simple "decal".
 
@@ -314,7 +314,7 @@ the green background shows through.
 Transparent areas of the UV Texture insist on rendering black.
 
 The bottom ball uses multiple materials. Most of the ball (all faces except the middle band)
-is a base material that does not have Face Textures (nor Vertex Color Paint - VCol Paint)
+is a base material that does not have Face Textures (nor Vertex Color Paint called VCol Paint)
 enabled. Without it enabled,
 the base blue material color shows and the pink color texture is mixed on top.
 The middle band is assigned a new material (2 Mat 2)
@@ -481,9 +481,9 @@ Fields
    *MIP Mapping* cannot be combined with *Fields*.
 
    Upper First
-      Order of video fields - upper field first.
+      Order of video fields: Upper field first.
    Lower First
-      Order of video fields - lower field first.
+      Order of video fields: Lower field first.
 
 For *Generated* source there are the specific options:
 *X* and *Y* size

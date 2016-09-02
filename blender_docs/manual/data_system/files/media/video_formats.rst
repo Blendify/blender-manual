@@ -26,7 +26,7 @@ Most codecs can only compress the RGB or YUV color space,
 but some support the Alpha channel as well. Codecs that support RGBA include:
 
 - Quicktime
-- PNG TIFF Pixlet - not loss-less, and may be only available on Mac-OSX.
+- PNG TIFF Pixlet is not loss-less, and may be only available on Mac-OSX.
 - `Lagarith Lossless Video Codec <http://lags.leetcode.net/codec.html>`__
 
 AVI Codec

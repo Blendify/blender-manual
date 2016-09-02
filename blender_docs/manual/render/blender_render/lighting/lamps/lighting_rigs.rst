@@ -130,10 +130,10 @@ bar none. If you want to show off your model, use this rig. As you can see,
 the untextured unmaterialized sphere seems to come out at you.
 There are multiple thesis on this rig, and you will use one of two:
 
-- Studio - used in a real studio to film in front of a green screen or backdrop.
+- Studio: Used in a real studio to film in front of a green screen or backdrop.
   Use this rig when you are rendering your CG objects to alpha into the scene so that the
   lighting on the actors *and* your CG objects is the same.
-- Standard - used in real life to light actors on a set,
+- Standard: Used in real life to light actors on a set,
   and gives some backlighting to highlight the sides of actors, making them stand out more and giving them depth.
 
 
@@ -252,7 +252,7 @@ here are some good steps to debugging what is wring.
 
 #. First, try deactivating all materials
    (create a default, gray one, and enter its name in the *Mat* field, *Layer* panel,
-   *Render Layer* tab - to get back all your normal materials, just erase this text field!).
+   the *Render Layer* tab to get back all your normal materials, just erase this text field!).
    See if you get those problems with just grayness objects. If you do not have the problem anymore,
    that should tell you that you have got a materials-interacting-with-light problem.
    Check the material settings, especially ambient,
