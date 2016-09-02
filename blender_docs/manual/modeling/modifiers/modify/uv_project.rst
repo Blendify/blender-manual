@@ -34,8 +34,9 @@ Override Image
    - When false, the modifier is limited to faces with the Image as their Face Texture.
 
 Projectors
-   Up to ten projector objects are supported. Each face will choose the closest and aligned projector with its
-   surface normal. Projections emit from the negative Z-axis (i.e. straight down a camera or lamp).
+   Up to ten projector objects are supported.
+   Each face will choose the closest and aligned projector with its surface normal.
+   Projections emit from the negative Z-axis (i.e. straight down a camera or lamp).
    If the projector is a camera, the projection will adhere to its perspective/orthographic setting.
 
 Objects
@@ -55,8 +56,8 @@ UV Project is great for making spotlights more diverse, and also for creating de
 
 The modifier's Image property is not generally used - instead,
 a texture mapped to the UV layer that the modifier targets is added to the object's Material.
-This allows you to prevent the image from repeating by setting *Texture --> Image Mapping -->
-Extension* to *Clip*.
+This allows you to prevent the image from repeating by setting
+:menuselection:`Texture --> Image Mapping --> Extension to Clip`.
 
 
 Perspective Cameras
@@ -70,4 +71,3 @@ This uses a different UV interpolation to prevent distortion.
 .. note::
 
    This option is not yet available for Cycles
-
