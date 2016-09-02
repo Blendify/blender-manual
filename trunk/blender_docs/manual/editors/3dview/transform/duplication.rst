@@ -88,7 +88,7 @@ Reference Expl. :ref:`Duplicate Example <expl-object-link-duplicate>` for the di
 Examples
 --------
 
-.. figure:: /images/modelling-duplicate-linked-example.png
+.. figure:: /images/modeling-duplicate-linked-example.png
 
    The object ``Cone.001`` was linked duplicated.
    Though both these cones are separate objects with unique names,

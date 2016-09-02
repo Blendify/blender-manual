@@ -9,19 +9,20 @@ Marble
 
 
 Often used for
-   Marble, Fire, Noise with a structure
+   Marble, Fire, Noise with a structure.
 Result(s)
-   Intensity value only
+   Intensity value only.
 
-Bands are generated based on the sine, saw, or triangular formulae and noise turbulence.
+Bands are generated based on the sine, saw, or triangular formula and noise turbulence.
+
 
 Options
 =======
 
 Soft / Sharp / Sharper
-   Three presets for soft to more clearly defined *Marble*
+   Three presets for soft to more clearly defined *Marble*.
 Sin / Saw / Tri
-   Shape of wave to produce bands
+   Shape of wave to produce bands.
 Soft / Hard
    The noise function works with two methods.
 Size

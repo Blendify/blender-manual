@@ -203,15 +203,15 @@ the surface of the mesh. The image texture can be Mapped To not only color,
 but also *Normal* (bumpiness)
 or *Reflection* or any of the other attributes specified in the Map To panel.
 
-If you paint a grey-scale image (laid out according to the UV Layout)
+If you paint a gray-scale image (laid out according to the UV Layout)
 with white where the skin is oily and shiny, and dark where it is not,
 you would map that input image according to the UV Layout, but have it affect Specularity
 (not color).
 
 To make portions of a mesh transparent and thus reveal another mesh surface underneath,
-you would paint a grey-scale image with black where you want the texture transparent,
+you would paint a gray-scale image with black where you want the texture transparent,
 map input to UV, and map it to Alpha (not color). To make portions of a mesh,
-like a piece of hot metal, appear to glow, you would use a grey-scale image mapped to Emit.
+like a piece of hot metal, appear to glow, you would use a gray-scale image mapped to Emit.
 
 Believe it or not, this is only "the tip of the iceberg!" If everything that is been described
 here just is not enough for you, the *texture nodes* feature,
@@ -532,7 +532,7 @@ In the *Image Sampling* panel we can control how the information is retrieved fr
 
 The two images presented here are used to demonstrate the different image options.
 The *background image* is an ordinary JPG-file,
-the *foreground image* is a PNG-file with various alpha and greyscale values.
+the *foreground image* is a PNG-file with various alpha and grayscale values.
 The vertical bar on the right side of the foreground image is an Alpha blend,
 the horizontal bar has 50% alpha.
 

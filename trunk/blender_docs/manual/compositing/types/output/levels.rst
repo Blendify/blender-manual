@@ -40,6 +40,6 @@ Standard deviation
    A low standard deviation indicates that the pixel values tend to be very close to the mean.
    A high standard deviation indicates that the values are spread out over a large range of values.
 
-The visualization of such data is just a grey rectangle.
+The visualization of such data is just a gray rectangle.
 
 

@@ -125,7 +125,7 @@ This entry:
 .. code-block:: rst
 
    Displacement Mapping
-      Uses a greyscale heightmap, like Bump Mapping,
+      Uses a grayscale heightmap, like Bump Mapping,
       but the image is used to physically move the vertices of the mesh at render time.
       This is of course only useful if the mesh has large amounts of vertices.
 

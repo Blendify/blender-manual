@@ -35,7 +35,7 @@ but uses the following simplified algorithm:
 - This number is used as the curve time, to find the final position along the curve that the object is clamped to.
 
 This algorithm does not produce exactly the desired result because curve time does not map
-exactly to the main axis position. For example an object directly in the centre of a curve
+exactly to the main axis position. For example an object directly in the center of a curve
 will be clamped to a curve time of 0.5 regardless of the shape of the curve,
 because it is halfway along the curve's bounding box.
 However, the 0.5 curve time position can actually be anywhere within the bounding box!

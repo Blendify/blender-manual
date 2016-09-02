@@ -10,7 +10,7 @@ Joystick Sensor
 
 
 The *Joystick* sensor triggers whenever the joystick moves.
-It also detects events on a range of ancilliary controls on the joystick device (hat, buttons,
+It also detects events on a range of ancillary controls on the joystick device (hat, buttons,
 etc.). More than one joystick may be used (see "Index").
 The exact layout of the joystick controls will depend on the make and model of joystick used.
 

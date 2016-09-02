@@ -18,7 +18,7 @@ Noise
    See also the "ANT Landscape" :doc:`add-on </advanced/scripting/python/addons>`.
 
 
-The *Noise* function allows you to displace vertices in a mesh based on the grey
+The *Noise* function allows you to displace vertices in a mesh based on the gray
 values of the first texture slot of the material applied to the mesh.
 
 The mesh must have a material and a texture assigned to it for this tool to work.

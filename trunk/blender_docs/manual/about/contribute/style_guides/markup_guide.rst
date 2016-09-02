@@ -72,9 +72,11 @@ Text Styling
 See the `overview on ReStructured Text <http://www.sphinx-doc.org/en/stable/rest.html>`__
 for more information on how to style the various elements of the documentation and on how to add lists, tables,
 pictures and code blocks.
-The `sphinx reference <http://www.sphinx-doc.org/en/stable/markup/>`__ provides more insight additional constructs.
+The `Sphinx reference <http://www.sphinx-doc.org/en/stable/markup/>`__ provides more insight additional constructs.
 
-The following are useful markups for text styling: ::
+The following are useful markups for text styling:
+
+.. code-block:: rst
 
    *italic*
    **bold**

@@ -240,8 +240,8 @@ Now we will create a height vector for Blender:
 
 
 - Press :kbd:`Ctrl` and Left click :kbd:`LMB` near the circle,
-  in more or less at the light grey line of the square above the circle,
-  and, while still pressing :kbd:`Ctrl`, Left Click :kbd:`LMB` again in the grey line below the circle.
+  in more or less at the light gray line of the square above the circle,
+  and, while still pressing :kbd:`Ctrl`, Left Click :kbd:`LMB` again in the gray line below the circle.
   You have created two vertices and an Edge, which Blender will use as the first height and angle vector.
 - Now, in the Transform Panel, in the median, clicking in the Global coordinates,
   for the (X, Y, Z) coordinates, put (-2, 0, -1).

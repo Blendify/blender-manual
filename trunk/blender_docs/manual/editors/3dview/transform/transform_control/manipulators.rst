@@ -54,7 +54,7 @@ Manipulator Controls
   movement will occur in the X and Y planes.
 - When in rotate mode, :kbd:`LMB` on the white circle (largest circle around the rotation manipulator)
   will be equivalent to pressing :kbd:`R`.
-- When in rotate mode, :kbd:`LMB` on the grey circle (small inner circle at the center of the rotation manipulator)
+- When in rotate mode, :kbd:`LMB` on the gray circle (small inner circle at the center of the rotation manipulator)
   will be equivalent to pressing :kbd:`R` twice, and will start *trackball* rotation.
 
 .. seealso::

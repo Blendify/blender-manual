@@ -62,8 +62,8 @@ created.
 Vertices
    The number of vertices that define the circle.
    The more vertices the circle contains, the smoother its contour will be;
-   see (*"Circles" obtained with various settings*).
-   In contrast, a circle with only three vertices is actually a triangle -
+   see ("Circles" obtained with various settings).
+   In contrast, a circle with only three vertices is actually a triangle --
    the circle is actually the standard way of adding polygons such as triangles, pentagons, et cetera.
 Radius
    Sets the radius of the circle.
@@ -73,9 +73,9 @@ Fill Type
    Triangle Fan
       Fill with triangular faces which share a vertex in the middle.
    Ngon
-      fill with a single ngon
+      Fill with a single ngon.
    Nothing
-      Do not fill. Creates only the outer ring of vertices
+      Do not fill. Creates only the outer ring of vertices.
 
 
 UV Sphere
@@ -87,7 +87,7 @@ the UV sphere is created.
 Increasing the number of segments and rings makes the surface of the UV sphere smoother.
 
 Segments
-   Number of vertical segments. Like Earth's meridians, going pole to pole and
+   Number of vertical segments. Like Earth's meridians, going pole to pole.
 Rings
    Number of horizontal segments. These are like Earth's parallels.
 

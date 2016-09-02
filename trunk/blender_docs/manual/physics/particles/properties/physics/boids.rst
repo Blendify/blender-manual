@@ -12,7 +12,7 @@ Boids particle systems can be set to follow basic rules and behaviors.
 They are useful for simulating flocks, swarms, herds and schools of various kind of animals,
 insects and fishes. They can react on the presence of other objects and on the members of their own system.
 Boids can handle only a certain amount of information,
-therefore the sequence of the Behaviour settings is very important.
+therefore the sequence of the Behavior settings is very important.
 In certain situations only the first three parameter are evaluated.
 
 To view the subpanel to the right, add a *Particle System* of type

@@ -87,7 +87,7 @@ whose directing structure is a point, generates an isotropic (i.e.
 identical in all directions) field around it and the surfaces at constant field value are
 spheres centered at the directing point.
 
-*Meta* objects are nothing more than mathematical formulae that perform logical operations on one another
+*Meta* objects are nothing more than mathematical formula that perform logical operations on one another
 (AND, OR), and that can be added and subtracted from each other.
 This method is also called *Constructive Solid Geometry* (CSG).
 Because of its mathematical nature, CSG uses little memory, but requires lots of processing power to compute.

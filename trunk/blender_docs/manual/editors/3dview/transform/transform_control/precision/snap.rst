@@ -126,7 +126,7 @@ Additional Snap Options
 
 
 As seen by the red highlighted areas in the image above,
-additional controls are available to alter snap behaviour. These options vary between mode
+additional controls are available to alter snap behavior. These options vary between mode
 (Object and Edit) as well as Snap Element. The four options available are:
 
 .. list-table::

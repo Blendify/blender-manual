@@ -15,7 +15,7 @@ The texture node can be used to load a another node based or non-node based text
 Inputs
 ======
 
-These two colors can be used to remap a greyscale texture.
+These two colors can be used to remap a grayscale texture.
 
 Color 1
    White Level.

@@ -62,7 +62,7 @@ The shading panel in the Properties Region provides additional control over the 
 
 Textured Solid
    Display assigned :ref:`face textures <face-textures>` in the *Solid* shading mode.
-   *(Not available in the Cycles Render Engine)*
+   (*Not* available in the Cycles Render Engine).
 Matcap
    A selection of preset shader effects, (overriding regular materials)
    which can help visualize your models while editing or sculpting,
@@ -77,7 +77,7 @@ Depth of Field
 Ambient Occlusion
    Improves the realism of the viewport image by simulating the darkening effect that
    occurs in crevices and corners. Typically such effects are rendered at higher quality,
-   but this is a quick real-time preview which can help when modelling or sculpting.
+   but this is a quick real-time preview which can help when modeling or sculpting.
 
    These settings control the AO effect.
 
