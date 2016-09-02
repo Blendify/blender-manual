@@ -141,7 +141,7 @@ if the specific bone it is the Child Object of moves.
 
 .. _fig-view3d-parent-bone-parent:
 
-.. figure:: /images/tu-3dvieweditorheader-objectmenu-parent-boneparenting.png
+.. figure:: /images/editors_3dview_object_relationships_parents-bone-1.png
 
    Three pictures of Armatures with four Bones.
 
@@ -170,7 +170,7 @@ the Child Object which is parented to that bone will snap back to the location o
 
 .. _fig-view3d-parent-bone-parent-child:
 
-.. figure:: /images/tx-3dvieweditorheader-objectmenu-parent-boneparenting.png
+.. figure:: /images/editors_3dview_object_relationships_parents-bone-2.png
 
    Single Armature Bone which has a Child Object cube parented to it using Bone parenting.
 
@@ -185,7 +185,7 @@ the Child Objects will not move to the new location of the Pose Bone.
 
 .. _fig-view3d-parent-bone-parent-relative:
 
-.. figure:: /images/ty-3dvieweditorheader-objectmenu-parent-bonerelativeparenting.png
+.. figure:: /images/editors_3dview_object_relationships_parents-bone-3.png
 
    Single Bone with Bone Relative parent to a cube.
 

@@ -41,7 +41,7 @@ Display Panel
 But let us first see some general visualization properties of armatures,
 found in the *Display* panel of the *Object data* tab.
 
-.. figure:: /images/riggingeditingobjectdatapropertycxtdisplaypanel.png
+.. figure:: /images/rigging_armatures_properties_display-panel.png
 
    The Display panel.
 

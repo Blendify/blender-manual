@@ -186,7 +186,7 @@ Think of them as A(ngle of bones), L(ength of bones) and D(efinition of stroke).
       the more the conversion process will try to follow the stroke with the new chain.
 
 
-.. figure:: /images/render_cycles_settings_passes-combine.png
+.. figure:: /images/rigging_armatures_editing_templating_influence-weights.png
    :width: 250px
 
    Examples of Template conversions for various influence weights values,

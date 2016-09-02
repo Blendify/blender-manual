@@ -13,7 +13,7 @@ Properties
 Let us first have a general overview of the various panels gathering the armature settings,
 in Properties editor, *Object data* tab:
 
-.. figure:: /images/riggingeditingobjectdatapropertieseditor.png
+.. figure:: /images/rigging_armatures_properties_properties-editor.png
 
    The Object data property in the Properties editor.
 
@@ -32,7 +32,7 @@ In this panel you can arrange sets of bones into different layers for easier man
 Display
 =======
 
-.. figure:: /images/riggingeditingobjectdatapropertycxtdisplaypanel.png
+.. figure:: /images/rigging_armatures_properties_display-panel.png
 
    The Display panel.
 
@@ -73,7 +73,7 @@ For bones belonging to multiple for easy selection during animation see instead
 Pose Library
 ============
 
-.. figure:: /images/riggingeditingobjectdatapropertycxtposelibrarypanel.png
+.. figure:: /images/rigging_armatures_properties_pose-library-panel.png
 
    The Pose Library panel.
 
@@ -99,7 +99,7 @@ Allows you to see a set of different consecutive poses, very useful when animati
 Inverse Kinematics
 ==================
 
-.. figure:: /images/ik_armature_ik_panel.png
+.. figure:: /images/rigging_armatures_properties_inverse-kinematics-panel.png
 
    The Inverse Kinematics panel.
 
