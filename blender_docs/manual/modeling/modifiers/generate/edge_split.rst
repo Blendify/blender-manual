@@ -47,18 +47,14 @@ Examples
 ========
 
 .. figure:: /images/modifier-edgesplit-example01.jpg
-   :width: 600px
 
    Edge Split modifier output with From Marked As Sharp selected.
 
 .. figure:: /images/edge_split_to_improve_smooth_shading.jpg
-   :width: 600px
 
    (From Left to right): Flat Shading, Smooth Shading, Smooth Shading with Edge Split.
 
-
 .. note::
 
-   Splitting edges can also be performed manually in Edit Mode using: :menuselection:`Edge Specials --> Edge Split`
-   (Menu shortcut: :kbd:`Ctrl-E`).
-
+   Splitting edges can also be performed manually in Edit Mode using:
+   :menuselection:`Edge Specials --> Edge Split` (Menu shortcut: :kbd:`Ctrl-E`).

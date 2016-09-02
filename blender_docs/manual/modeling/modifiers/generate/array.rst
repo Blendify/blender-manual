@@ -208,7 +208,6 @@ Organic
           `Sample blend-file <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Spiral01.blend>`__
 
 .. figure:: /images/modifier-array-tentacle01.jpg
-   :width: 600px
 
    A tentacle created with an Array modifier followed by a Curve modifier.
    The segment in the foreground is the base mesh for the tentacle; the tentacle is capped by two
