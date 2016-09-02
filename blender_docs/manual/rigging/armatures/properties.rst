@@ -97,7 +97,7 @@ Allows you to see a set of different consecutive poses, very useful when animati
 
 
 Inverse Kinematics
-================
+==================
 
 .. figure:: /images/ik_armature_ik_panel.png
 

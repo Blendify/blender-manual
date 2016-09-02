@@ -77,7 +77,7 @@ Extrapolate
      (e.g. if the target has a rotation of 420 degrees around its X-Axis,
      the values used as *X* input by the constraint will be
 
-     ((420 + 180) modulo 360) - 180 = 60 - ...)
+     :math:`((420 + 180) modulo 360) - 180 = 60 - ...`
 
      This is why this constraint is not really suited for gears!
    - Similarly, when using the scale transform properties of the target as input,
