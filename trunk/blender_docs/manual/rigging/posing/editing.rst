@@ -55,7 +55,6 @@ in *Pose Mode*, each bone has a scale of 1.0, and null rotation and position
 :kbd:`N`).
 
 .. figure:: /images/rigging_posing_editing_local-rotation.png
-   :width: 300px
 
    An example of locally-Y-axis locked rotation, with two bones selected.
    Note that the two green lines materializing the axes are centered on the armature's center,

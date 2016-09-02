@@ -187,7 +187,6 @@ Think of them as A(ngle of bones), L(ength of bones) and D(efinition of stroke).
 
 
 .. figure:: /images/rigging_armatures_editing_templating_influence-weights.png
-   :width: 250px
 
    Examples of Template conversions for various influence weights values,
    with one stroke quite similar to the template chain's shape, and one stroke very different.
@@ -203,7 +202,6 @@ S and N text fields, "auto" button
    producing a number starting from nothing, and increased each time you press the *Convert* button,
    and the ``&s`` placeholder is replaced by the side of the bone (relative to the local X axis:
    ``r`` for negative X values, ``l`` for positive ones).
-
 
 .. list-table::
    Naming and placeholders, using a simple leg template.
@@ -224,7 +222,6 @@ S and N text fields, "auto" button
 
           After conversion: the placeholders have been replaced by the
           content of the S and N text fields of the Bone Sketching panel.
-
 
 .. list-table::
    Auto naming and placeholders, using a simple leg template.

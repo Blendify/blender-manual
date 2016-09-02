@@ -75,15 +75,17 @@ B-Bone bone
    This visualization shows the curves of "smooth" multi-segmented bones;
    see the :ref:`bone page <armature-bone-rigid>` for details.
 
-   .. figure:: /images/rigging_armatures_bones_introduction_b-bones-1.png
-      :width: 300px
+   .. list-table::
 
-      An armature of B-Bones, in Edit Mode.
+      * - .. figure:: /images/rigging_armatures_bones_introduction_b-bones-1.png
+             :width: 320px
 
-   .. figure:: /images/rigging_armatures_bones_introduction_b-bones-3.png
-      :width: 300px
+             An armature of B-Bones, in Edit Mode.
 
-      The same armature in Object Mode.
+        - .. figure:: /images/rigging_armatures_bones_introduction_b-bones-3.png
+             :width: 320px
+
+             The same armature in Object Mode.
 
 Envelope bone
    This visualization materializes the bone deformation influence.
@@ -95,15 +97,17 @@ Envelope bone
 Wire bone
    This simplest visualization shows the curves of "smooth" multi-segmented bones.
 
-   .. figure:: /images/rigging_armatures_visualization_type-wire-pose-mode.png
-      :width: 300px
+   .. list-table::
 
-      An armature of Wire, in Pose Mode.
+      * - .. figure:: /images/rigging_armatures_visualization_type-wire-pose-mode.png
+             :width: 320px
 
-   .. figure:: /images/rigging_armatures_visualization_type-wire-edit-mode.png
-      :width: 300px
+             An armature of Wire, in Pose Mode.
 
-      The same armature in Edit Mode.
+        - .. figure:: /images/rigging_armatures_visualization_type-wire-edit-mode.png
+             :width: 320px
+
+             The same armature in Edit Mode.
 
 
 Draw Options
