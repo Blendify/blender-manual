@@ -364,10 +364,6 @@ Constraining to Image Bounds
 Turning on *Constrain to Image Bounds* will prevent UVs from being moved outside the
 0 to 1 UV range.
 
-.. figure:: /images/uv_transform_menu.jpg
-
-   UV Transformation Menu.
-
 
 Iteration and Refinement
 ------------------------

@@ -323,7 +323,6 @@ you will be able to overlay both halves onto the same texture space,
 so that the image pixels for the right hand will be shared with the left;
 the right side of the face will match the left, etc.
 
-
 .. note::
 
    You **do not** have to come up with "one unwrapping that works perfectly
@@ -423,6 +422,7 @@ Island Margin
 
 Area Weight
    Weight projection's vector by faces with larger areas
+
 
 .. _lightmap-pack:
 
