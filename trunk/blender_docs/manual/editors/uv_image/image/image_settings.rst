@@ -1,7 +1,7 @@
 
-*************
+**************
 Image Settings
-*************
+**************
 
 .. Compare with Compositor Image node, then link Todo
 
