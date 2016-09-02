@@ -107,37 +107,6 @@ In order to utilize maximum performance form OpenSubdiv the following things are
 - There should be no modifiers prior to Subsurf which changes mesh topology across the time.
 - Other objects should not use geometry of OpenSubdiv mesh
 
-Edit Cage
-=========
-
-To view and edit the results of the subdivision while you are editing the mesh,
-you must enable the *Editing Cage* (the triangle button in the modifier's header).
-This lets you grab the vertices as they lie in their new smoothed locations, rather than on the original mesh.
-
-.. list-table::
-
-   * - .. figure:: /images/subsurfeditcageoff.jpg
-          :width: 320px
-
-          Edit Cage Off (Default).
-
-     - .. figure:: /images/subsurfeditcageon.jpg
-          :width: 320px
-
-          Edit Cage On.
-
-
-With the edit cage off, some vertices are buried under the subsurfed mesh. With dense vertex configurations,
-you might even have to temporarily disable the modifier or view
-:doc:`wireframe </editors/3dview/display/shading>` shading so that you can see these vertices.
-
-With the edit cage on, you do not have this problem. It does, however,
-have its own disadvantage---it can look *too* nice, hiding irregularities.
-Notice the three quads running in the middle of Suzanne's ear:
-you can only tell how crooked they are in the "edit cage off" version. When you are modeling, you will more often
-want to see your mesh deformities in their full ugliness so that you can apply your skills until it is sheer
-prettiness.
-
 
 Control
 =======

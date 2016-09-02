@@ -70,7 +70,7 @@ Eye
 Box
    Displays the modified geometry in edit mode, as well as the original geometry which you can edit.
 Triangle
-   When enabled, the final modified geometry will be shown in edit mode and can be edited directly.
+   When enabled, the final modified geometry will be shown in Edit Mode and can be edited directly.
 Up arrow
    Moves modifier up in the stack.
 Down arrow
