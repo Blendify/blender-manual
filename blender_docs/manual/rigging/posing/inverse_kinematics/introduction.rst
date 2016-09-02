@@ -57,7 +57,7 @@ Armature IK Panel
 
 This panel is used to select the IK Solver type for the armature. *Standard* or *iTaSC*.
 
-.. figure:: /images/ik_armature_ik_panel.png
+.. figure:: /images/rigging_armatures_properties_inverse-kinematics-panel.png
 
    :menuselection:`Properties --> Armature --> Inverse Kinematics Panel`
 
@@ -74,7 +74,7 @@ Bone IK Panel
 
 This panel is used to control how the *Pose Bones* work in the IK chain.
 
-.. figure:: /images/ik_bone_ik_panel.png
+.. figure:: /images/rigging_armatures_bones_properties_inverse-kinematics-panel.png
 
    :menuselection:`Properties --> Bone --> Inverse Kinematics Panel`
 
@@ -100,7 +100,7 @@ IK locking is used to stop the forearm from bending,
 but the forearm can still be twisted manually by pressing :kbd:`R-Y-Y` in *Pose Mode*,
 or by using other constraints.
 
-.. figure:: /images/ik_arm_example.png
+.. figure:: /images/rigging_posing_inverse-kinematics_introduction.png
    :align: center
 
    `IK Arm Example. <https://wiki.blender.org/index.php/File:IK_Arm_Example.blend>`__

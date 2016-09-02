@@ -13,7 +13,7 @@ Bone Properties
 Let us first have a general grasp of the various panels gathering the bone settings,
 in Properties editor, *Bone* tab:
 
-.. figure:: /images/riggingboneprincipalsbonepropertieseditor.png
+.. figure:: /images/rigging_armatures_bones_properties_properties-editor.png
 
    The Bone tab.
 
@@ -92,7 +92,7 @@ When in pose mode you can only set location for the main bone, and you can now s
 Transform Locks
 ===============
 
-.. figure:: /images/riggingeditingbonecxttranformlockspanel.png
+.. figure:: /images/rigging_armatures_bones_properties_transform-locks-panel.png
 
    The Transform Locks panel.
 
@@ -108,7 +108,7 @@ rotation and scale by axis on each bone in the armature.
 Inverse Kinematics
 ==================
 
-.. figure:: /images/ik_bone_ik_panel.png
+.. figure:: /images/rigging_armatures_bones_properties_inverse-kinematics-panel.png
 
    The Inverse Kinematics panel.
 
