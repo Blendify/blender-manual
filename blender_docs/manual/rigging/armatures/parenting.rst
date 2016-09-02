@@ -231,8 +231,6 @@ This will make the selected bone fatter or thinner without altering the thicknes
 
    The 1st with a default radius value, the two others with differing Tail and Head radius values.
 
-   Head and Tail fields highlighted.
-
 
 You can also alter the bone radius by selecting the tail or head of the bone you wish to alter and switching to Edit
 Mode, then navigate to :menuselection:`Properties Editor --> Bone --> Deform --> Radius Section`

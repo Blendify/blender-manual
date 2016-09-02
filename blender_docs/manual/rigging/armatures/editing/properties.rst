@@ -325,7 +325,6 @@ even in *B-Bone* visualization, bones are drawn as sticks,
 so you cannot visualize the effects of these settings.
 
 .. figure:: /images/rigging_armatures_editing_properties_b-bone-pose-mode.png
-   :width: 200px
 
    An armature in Pose Mode, B-Bone visualization: Bone.003 has one segment,
    Bone.004 has four, and Bone.005 has sixteen.
@@ -344,7 +343,6 @@ but you can change their "length" using the *In* and *Out* numeric fields,
 to control the "root handle" and "tip handle" of the bone, respectively.
 These values are proportional to the default length, which of course automatically varies depending on bone length,
 angle with previous/next bones in the chain, and so on.
-
 
 .. list-table::
    Bone In/Out settings example, with a materialized Bézier curve.
@@ -470,12 +468,6 @@ Let us look at this in detail.
 Naming Conventions
 ------------------
 
-.. figure:: /images/rigging_armatures_editing_properties_bone-naming.png
-   :width: 440px
-
-   An example of left/right bone naming in a simple rig.
-
-
 Naming conventions in Blender are not only useful for you in finding the right bone,
 but also to tell Blender when any two of them are counterparts.
 
@@ -484,35 +476,41 @@ it is worthwhile to stick to a left/right naming convention.
 This will enable you to use some tools that will probably save you time and effort
 (like the *X-Axis Mirror* editing tool we saw above...).
 
+.. figure:: /images/rigging_armatures_editing_properties_bone-naming.png
 
-- First you should give your bones meaningful base-names, like "leg", "arm", "finger", "back", "foot", etc.
-- If you have a bone that has a copy on the other side (a pair), like an arm,
-  give it one of the following separators:
+   An example of left/right bone naming in a simple rig.
 
-  - Left/right separators can be either the second position
-    "L\ **_**\ calfbone" or last-but-one "calfbone\ **.**\R"
-  - If there is a lower or upper case "L", "R", "left" or "right", Blender handles the counterpart correctly.
-    See below for a list of valid separators.
-    Pick one and stick to it as close as possible when rigging; it will pay off.
+
+#. First you should give your bones meaningful base-names, like "leg", "arm", "finger", "back", "foot", etc.
+#. If you have a bone that has a copy on the other side (a pair), like an arm,
+   give it one of the following separators:
+
+   - Left/right separators can be either the second position
+     "L\ **_**\ calfbone" or last-but-one "calfbone\ **.**\R"
+   - If there is a lower or upper case "L", "R", "left" or "right", Blender handles the counterpart correctly.
+     See below for a list of valid separators.
+     Pick one and stick to it as close as possible when rigging; it will pay off.
 
    Examples of valid saparators:
 
-    - (nothing): handLeft --> handRight
-    - ``_`` (underscore): hand\ **_**\L --> hand\ **_**\R
-    - ``.`` (dot): hand\ **.**\l --> hand\ **.**\r
-    - ``-`` (dash): hand\ **-**\l --> hand\ **-**\r
-    - `` `` (space): hand LEFT --> hand RIGHT
+   - (nothing): handLeft --> handRight
+   - ``_`` (underscore): hand\ **_**\L --> hand\ **_**\R
+   - ``.`` (dot): hand\ **.**\l --> hand\ **.**\r
+   - ``-`` (dash): hand\ **-**\l --> hand\ **-**\r
+   - `` `` (space): hand LEFT --> hand RIGHT
 
-    Note that all examples above are also valid with the left/right part placed before the name.
-    You can only use the short "L"/ "R" code if you use a separator (i.e. "handL"/ "handR" will not work!).
+   .. note::
 
-- Before Blender handles an armature for mirroring or flipping,
-  it first removes the number extension, e.g. ".001".
-- You can copy a bone named "bla.L" and flip it over using :kbd:`W` :menuselection:`--> Flip Left-Right Names`.
-  Blender will name the copy "bla.L.001" and flipping the name will give you "bla.R".
+      Note that all examples above are also valid with the left/right part placed before the name.
+      You can only use the short "L"/ "R" code if you use a separator (i.e. "handL"/ "handR" will not work!).
+
+#. Before Blender handles an armature for mirroring or flipping,
+   it first removes the number extension, e.g. ".001".
+#. You can copy a bone named "bla.L" and flip it over using :kbd:`W` :menuselection:`--> Flip Left-Right Names`.
+   Blender will name the copy "bla.L.001" and flipping the name will give you "bla.R".
 
 
-Bone name flipping
+Bone Name Flipping
 ------------------
 
 .. admonition:: Reference
@@ -533,7 +531,7 @@ Blender will swap text in bone names according to the above naming conventions,
 and remove number extensions if possible.
 
 
-Auto bone naming
+Auto Bone Naming
 ----------------
 
 .. admonition:: Reference

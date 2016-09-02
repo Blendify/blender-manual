@@ -5,6 +5,7 @@ Skeleton Sketching
 ******************
 
 .. figure:: /images/rigging_armatures_editing_sketching_skeleton-sketching-panel.png
+   :align: right
 
    The Bone Sketching panel.
 
@@ -47,15 +48,6 @@ there is only one set of strokes (one sketch) in Blender, and not one per armatu
 Drawing Chains
 ==============
 
-.. figure:: /images/rigging_armatures_editing_sketching_strokes-example.png
-   :width: 350px
-
-   Strokes example. From top to bottom:
-   A selected polygonal stroke of four straight segments, oriented from left to right.
-   An unselected free stroke of two segments, oriented from left to right.
-   A mixed stroke, with one straight segment between two free ones, right to left.
-
-
 So, each stroke you draw will be a chain of bones, oriented from the starting point
 (the reddest or most orange part of the stroke) to its end (its whitest part).
 A stroke is made of several segments, delimited by small black dots - there will be at least one bone per segment
@@ -63,6 +55,13 @@ A stroke is made of several segments, delimited by small black dots - there will
 see :doc:`next page </rigging/armatures/editing/templating>`),
 so all black points represents future bones' ends.
 There are two types of segments, which can be mixed together:
+
+.. figure:: /images/rigging_armatures_editing_sketching_strokes-example.png
+
+   Strokes example. From top to bottom:
+   A selected polygonal stroke of four straight segments, oriented from left to right.
+   An unselected free stroke of two segments, oriented from left to right.
+   A mixed stroke, with one straight segment between two free ones, right to left.
 
 
 Straight Segments
@@ -168,7 +167,6 @@ not just the selected ones... Note also that even if it is enabled,
 when you draw too far away from any other existing stroke, you will not modify any of them,
 but rather create a new one, as if *Overdraw Sketching* was disabled.
 
-
 .. list-table::
    Adjusting stroke example.
 
@@ -183,7 +181,7 @@ but rather create a new one, as if *Overdraw Sketching* was disabled.
 
           Stroke adjusted.
 
-Finally, note that there is no undo/redo for sketch drawing...
+.. warning:: There is no undo/redo for sketch drawing...
 
 
 Gestures

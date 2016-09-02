@@ -25,12 +25,6 @@ which create some sort of "limbs" in your armature, as detailed in `Chains of Bo
 Chains of Bones
 ===============
 
-.. figure:: /images/rigging_armatures_structure_chains-of-bones.png
-   :width: 350px
-
-   An armature with two chains of bones.
-
-
 The bones inside an armature can be completely independent from each other (i.e.
 the modification of one bone does not affect the others).
 But this is not often a useful set up: To create a leg,
@@ -38,6 +32,11 @@ all bones "after" the thigh bone should move "with" it in a well-coordinated man
 This is exactly what happens in armatures - by parenting a bone to the next one in the limb,
 you create a "chains of bones". These chains can be ramified. For example,
 five fingers attached to a single "hand" bone.
+
+.. figure:: /images/rigging_armatures_structure_chains-of-bones.png
+
+   An armature with two chains of bones.
+
 
 Bones are chained by linking the tip of the parent to the root of the child.
 Root and tip can be *connected*, i.e. they are always exactly at the same point;

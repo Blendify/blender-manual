@@ -203,9 +203,8 @@ Motion Paths
    | Hotkey:   :kbd:`W-3`, :kbd:`W-4`
 
 .. figure:: /images/rigging_posing_visualization_motion-paths-example.png
-   :width: 450px
 
-   A motion paths example.
+   An example of motion paths.
 
 
 This feature allows you to visualize as curves the paths of bones' ends (either their tips,
