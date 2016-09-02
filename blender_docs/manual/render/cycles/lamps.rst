@@ -12,8 +12,8 @@ Common Settings
 ===============
 
 Type
-   Currently *Point*, *Spot*, *Area* and *Sun* lamps are supported. *Hemi* lamps are not supported,
-   and will be rendered as sun lamps.
+   Currently *Point*, *Spot*, *Area* and *Sun* lamps are supported.
+   *Hemi* lamps are not supported, and will be rendered as sun lamps.
 
 .. Hemi lamps may start working in the future, so it's best not to enable them to preserve compatibility.
 
@@ -54,11 +54,12 @@ The size parameter defines the size of the cone,
 while the blend parameter can soften the edges of the cone.
 
 
+.. _render-cycles-lamps-area:
+
 Area Lamp
 ---------
 
 Area lamps emit light from a square or rectangular area with a Lambertian distribution.
-
 
 Shape
    Shape of the lamp.
@@ -68,6 +69,8 @@ Shape
    Square
       The shape of the lamp can be represented as a square and changed with the *Size* property.
 
+
+.. _render-cycles-lamps-area-portals:
 
 Light Portals
 ^^^^^^^^^^^^^
@@ -82,8 +85,8 @@ door openings, and any place where light will enter the interior.
 In outdoor scenes most rays do not bounce much and just fly off into the sky and therefore,
 light portals are not helpful for outdoor scenes.
 
-.. figure:: /images/Cycles_portals2.jpg
-.. figure:: /images/Cycles_portals.jpg
+.. figure:: /images/cycles_portals2.jpg
+.. figure:: /images/cycles_portals.jpg
 
 
 Sun Lamp
