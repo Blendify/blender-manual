@@ -131,7 +131,7 @@ def warn_locale():
             f_po_as_rst = os.path.join(RST_DIR, f_sub)
             if not os.path.exists(f_po_as_rst):
                 print(" svn rm --force %s" % f[len(LOCALE_DIR) + 1:])
-        print(" cd -")
+        print(" cd ../")
 
 
 # define the operations to call
