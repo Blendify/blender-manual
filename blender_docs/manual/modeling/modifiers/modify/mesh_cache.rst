@@ -89,9 +89,7 @@ Forward/Up Axis
 Flip Axis
    In rare cases you may also need to flip the coordinates on an axis.
 
+.. tip::
 
-Hints
-=====
-
-- Both MDD and PC2 depend on the vertex order on the mesh remaining unchanged;
-  this is a limitation with the method used so take care not to add/remove vertices once this modifier is used.
+   Both MDD and PC2 depend on the vertex order on the mesh remaining unchanged;
+   this is a limitation with the method used so take care not to add/remove vertices once this modifier is used.
