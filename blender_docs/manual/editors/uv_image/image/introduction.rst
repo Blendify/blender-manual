@@ -69,9 +69,9 @@ When you select *New Image* you are presented with several options. This
 *Generated* image can also be modified afterward in the *Properties region*:
 
 Image Name
-   Set the name if the generated image
+   Set the name if the generated image.
 Width and Height
-   Set the size if the image in pixels
+   Set the size if the image in pixels.
 Color
    Sets the default fill color if creating a blank image.
 Alpha

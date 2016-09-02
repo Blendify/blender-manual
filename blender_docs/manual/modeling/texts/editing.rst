@@ -17,7 +17,7 @@ Text Editing
    | Mode:     Edit Mode
    | Hotkey:   see below
 
-.. figure:: /images/modelling-text-create-ex.png
+.. figure:: /images/modeling-text-create-ex.png
    :width: 300px
 
    Text in Edit Mode.
@@ -149,7 +149,7 @@ They are usually a bit messy, so it may be useful to use a *Limited Dissolve* de
 Text Selection
 ==============
 
-.. figure:: /images/modelling-text-create-ex.png
+.. figure:: /images/modeling-text-create-ex.png
    :width: 200px
 
    Text in Edit Mode.

@@ -44,7 +44,7 @@ you must have objects with textures applied appropriately.
 Imagine you want to have a television showing live broadcast programs in the game. You will
 create a television object and UV-apply a different texture at the place of the screen, for example ``tv.png``.
 What this texture looks like is not important;
-probably you want to make it dark grey to simulate power-off state.
+probably you want to make it dark gray to simulate power-off state.
 When the television must be turned on, you create a dynamic texture from a video capture card
 and use it instead of ``tv.png``: the TV screen will come to life.
 

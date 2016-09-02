@@ -195,7 +195,7 @@ Curve Panel
 -----------
 
 The *Curve* section allows you to use a curve control to the right to modify the
-intensity of the brush from its centre (left part of the curve) towards its borders
+intensity of the brush from its center (left part of the curve) towards its borders
 (right part of the curve).
 
 .. seealso::

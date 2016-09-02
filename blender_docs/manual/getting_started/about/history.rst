@@ -197,7 +197,7 @@ Blender 2.6x to 2.7x - Improvements & Stabalizing
   new add-ons, and over 200 bug fixes.
 - `2.66 <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.66>`__ - February 2013:
   Dynamic topology, rigid body simulation, improvements in UI and usability (including retina display
-  support), Cycles now supports hair, the bevel tool now supports individual vertex bevelling,
+  support), Cycles now supports hair, the bevel tool now supports individual vertex beveling,
   new :doc:`Mesh Cache </modeling/modifiers/modify/mesh_cache>` modifier and the
   new :doc:`UV Warp </modeling/modifiers/modify/uv_warp>` modifier,
   new SPH particle fluid solver. More than 250 bug fixes.

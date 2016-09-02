@@ -119,7 +119,7 @@ Connected :kbd:`Alt-O`
    proportionally edit the vertices in a finger of a hand without affecting the other fingers.
    While the other vertices are physically close (in 3D space),
    they are far away following the topological edge connections of the mesh.
-   The icon will have a grey center when *Connected* is active.
+   The icon will have a gray center when *Connected* is active.
    This mode is only available in *Edit Mode*.
 
 

@@ -164,7 +164,7 @@ the ocean simulator retrieves data for that current frame only. In the case of t
 this represents the tips of wave crests for that given frame. In reality,
 after foam is created by wave interactions,
 it remains sitting on the top of the wave surface for a while, as it dissipates. With baking,
-it is possible to approximate that behaviour, by accumulating foam from previous frames,
+it is possible to approximate that behavior, by accumulating foam from previous frames,
 leaving it remaining on the surface.
 
 .. vimeo:: 17517981

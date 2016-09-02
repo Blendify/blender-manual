@@ -93,7 +93,7 @@ Tips for Nice Setups
 - For optimal deformations, it is recommended that the bones are roughly the same length,
   and that they are not too long, to facilitate a better fit to the curve.
   Also, bones should ideally be created in a way that follows the shape of the curve in its 'rest pose' shape,
-  to minimise the problems in areas where the curve has sharp bends
+  to minimize the problems in areas where the curve has sharp bends
   which may be especially noticeable when stretching is disabled.
 - For control of the curve, it is recommended that hooks (in particular, Bone Hooks)
   are used to control the control-verts of the curve, with one hook per control-vert.

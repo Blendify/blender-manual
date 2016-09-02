@@ -440,7 +440,7 @@ This page lists definitions for terms used in Blender and this manual.
       faces and modulated across a surface using :term:`normal mapping`.
 
    Normal mapping
-      Is similar to :term:`Bump mapping`, but instead of the image being a greyscale heightmap,
+      Is similar to :term:`Bump mapping`, but instead of the image being a grayscale heightmap,
       the colors define in which direction the normal should be shifted,
       the three color channels being mapped to the three directions X, Y and Z.
       This allows more detail and control over the effect.
@@ -702,4 +702,4 @@ This page lists definitions for terms used in Blender and this manual.
    Z-buffer
       Raster-based storage of the distance measurement between the camera and the surface points.
       Surface points which are in front of the camera have a positive Z value and
-      points behind have negative values. The Z-Depth map can be visualized as a greyscale image.
+      points behind have negative values. The Z-Depth map can be visualized as a grayscale image.

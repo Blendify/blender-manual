@@ -24,7 +24,7 @@ Vector
    If the a color output is implicitly converted in the vector input,
    the first channel (red) value determines displacement along X axis.
    The second channel (green) the displacement along Y axis.
-   If the input is a greyscale image, where both the channel values are equal,
+   If the input is a grayscale image, where both the channel values are equal,
    the input image will be displaced equally in both X and Y directions.
 Scale X, Y
    Separate scaling of the vector input in X- and Y-direction.

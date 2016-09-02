@@ -17,7 +17,7 @@ Multiple array modifiers may be active for an object at the same time
 Options
 =======
 
-.. figure:: /images/cz_arraymodifier_if.jpg
+.. figure:: /images/modifier_generate_array_if.jpg
    :align: right
 
    Array modifier.

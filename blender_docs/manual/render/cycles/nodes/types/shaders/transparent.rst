@@ -45,7 +45,7 @@ Examples
    * - .. figure:: /images/cycles_nodes_shader_transparent_behavior.png
           :align: center
 
-          Transparent behaviour.
+          Transparent behavior.
 
      -
 
