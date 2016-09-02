@@ -15,8 +15,11 @@ Exclude
    That is what this option allows you to do.
 
 
+Passes
+======
+
 Lighting Passes
-===============
+---------------
 
 Diffuse Direct
    Direct lighting from diffuse BSDFs. We define direct lighting as coming from lamps, emitting surfaces,
@@ -64,7 +67,7 @@ All these lighting passes can be combined to produce the final image as follows:
 
 
 Data Passes
-===========
+-----------
 
 Combined
    The final combination of render passes with everything included.
@@ -88,11 +91,11 @@ Vector
 UV
    Default render UV coordinates.
 Object Index
-   Pass index of object.
+   Creates a mask of the object that can be later read by the
+   :doc:`ID Mask Node </compositing/types/converter/id_mask>` in the compositor.
 Material Index
-   Used to give a mask given by the index number found in the
-   :doc:`material setting </render/cycles/materials/settings>`.
-   This can then be read with the :doc:`ID Mask Node </compositing/types/converter/id_mask>` in the compositor.
+   Creates a mask of the material that can be later read by the
+   :doc:`ID Mask Node </compositing/types/converter/id_mask>` in the compositor.
 
 .. note:: The Z, Object Index and Material Index passes are not anti-aliased.
 
