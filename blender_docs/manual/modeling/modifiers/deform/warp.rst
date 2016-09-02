@@ -66,5 +66,5 @@ there are a couple of uses. For example, The *Warp Modifier* can be used to have
 that can be used for animation.
 
 Another way to use the *Warp Modifier* is to use it similar to the
-:doc:`Deform Modifier </modeling/modifiers/deform/mesh_deform.html>`.
+:doc:`Deform Modifier </modeling/modifiers/deform/mesh_deform>`.
 This allows you to deform parts of the mesh without having to make a vertex group.
