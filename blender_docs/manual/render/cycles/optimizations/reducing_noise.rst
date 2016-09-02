@@ -235,7 +235,7 @@ and on the right the render with the trick.
           :width: 180px
 
 
-Window Lights
+Light Portals
 =============
 
 When rendering a daylight indoor scene where most of the light is coming in through a window
