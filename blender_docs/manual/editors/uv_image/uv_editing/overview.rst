@@ -120,10 +120,8 @@ Advantages of UVs
 
 While procedural textures (described in the previous chapters) are useful-they never repeat
 themselves and always "fit" 3D objects-they are not sufficient for more complex or natural
-objects. For instance,
-the skin on a human head will never look quite right when procedurally generated.
-Wrinkles on a human
-head, or scratches on a car do not occur in random places,
+objects. For instance, the skin on a human head will never look quite right when procedurally generated.
+Wrinkles on a human head, or scratches on a car do not occur in random places,
 but depend on the shape of the model and its usage. Manually-painted images,
 or images captured from the real world gives more control and realism.
 For details such as book covers, tapestry, rugs, stains, and detailed props,
@@ -134,8 +132,7 @@ in the model. Each polygon's vertex gets assigned to 2D coordinates that define 
 the image gets mapped. These 2D coordinates are called UVs
 (compare this to the XYZ coordinates in 3D).
 The operation of generating these UV maps is also called "unwrap",
-since it is as if the mesh were unfolded
-onto a 2D plane.
+since it is as if the mesh were unfolded onto a 2D plane.
 
 For most simple 3D models,
 Blender has an automatic set of unwrapping algorithms that you can easily apply.
@@ -146,8 +143,8 @@ This can be used to apply textures to arbitrary and complex shapes,
 like human heads or animals. Often these textures are painted images,
 created in applications like the Gimp, Photoshop, or your favorite painting application.
 
-
 .. note:: Games
 
    UV mapping is also essential in the Blender game engine, or any other game.
-   It is the de facto standard for applying textures to models; almost any model you find in a game is UV mapped.
+   It is the de facto standard for applying textures to models;
+   almost any model you find in a game is UV mapped.
