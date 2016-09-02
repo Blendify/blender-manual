@@ -3,14 +3,13 @@
 Smooth Modifier
 ***************
 
+The *Smooth Modifier* smooths a mesh by flattening the angles between adjacent faces in it,
+just like :menuselection:`Specials --> Smooth` in Edit Mode.
+It smooths without subdividing the mesh - the number of vertices remains the same.
+
 .. figure:: /images/modifier-mesh-smooth-example01.png
 
    Smooth modifier applied to a subdivided cube.
-
-
-This modifier smooths a mesh by flattening the angles between adjacent faces in it,
-just like :menuselection:`Specials --> Smooth` in Edit Mode.
-It smooths without subdividing the mesh - the number of vertices remains the same.
 
 This modifier is not limited to smoothing, though.
 Its control factor can be configured outside the (0.0 to 1.0) range
@@ -43,4 +42,4 @@ and can be thought of as the geometric equivalent of blurring images.
 Each new vertex position is simply the average position of surrounding vertices
 (the vertices connected to the same edge as it).
 
-.. TODO: add diagrams
+.. Add diagrams (TODO).
