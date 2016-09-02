@@ -21,7 +21,7 @@ in Properties editor, *Bone* tab:
 Relations
 =========
 
-.. figure:: /images/riggingeditingbonecxtrelationspanel.png
+.. figure:: /images/rigging_armatures_bones_properties_relations-panel.png
 
    The Relations panel.
 
@@ -36,7 +36,7 @@ In this panel you can arrange sets of bones in different layers for easier manip
 Display
 =======
 
-.. figure:: /images/riggingeditingbonecxtdisplaypanel.png
+.. figure:: /images/rigging_armatures_bones_properties_display-panel.png
 
    The Display panel.
 

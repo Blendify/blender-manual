@@ -254,7 +254,7 @@ By default, children bones inherit:
 Exactly like standard children objects. You can modify this behavior on a per-bone basis,
 using their sub-panels in the *Armature Bones* panel:
 
-.. figure:: /images/riggingeditingbonecxtrelationspanel.png
+.. figure:: /images/rigging_armatures_bones_properties_relations-panel.png
 
    The Armature Bones panel in Pose Mode.
 

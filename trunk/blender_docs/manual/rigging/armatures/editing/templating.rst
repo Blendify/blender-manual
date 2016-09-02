@@ -186,29 +186,11 @@ Think of them as A(ngle of bones), L(ength of bones) and D(efinition of stroke).
       the more the conversion process will try to follow the stroke with the new chain.
 
 
-.. list-table::
+.. figure:: /images/render_cycles_settings_passes-combine.png
+   :width: 250px
+
    Examples of Template conversions for various influence weights values,
    with one stroke quite similar to the template chain's shape, and one stroke very different.
-
-   * - .. figure:: /images/riggingtemplatinginfluenceweightsex111.png
-          :width: 150px
-
-          A: 1.0; L: 1.0; D: 1.0.
-
-     - .. figure:: /images/riggingtemplatinginfluenceweightsex100.png
-          :width: 150px
-
-          A: 1.0; L: 0.0; D: 0.0.
-
-     - .. figure:: /images/riggingtemplatinginfluenceweightsex010.png
-          :width: 150px
-
-          A: 0.0; L: 1.0; D: 0.0.
-
-     - .. figure:: /images/riggingtemplatinginfluenceweightsex001.png
-          :width: 150px
-
-          A: 0.0; L: 0.0; D: 1.0.
 
 
 S and N text fields, "auto" button
@@ -226,14 +208,19 @@ S and N text fields, "auto" button
 .. list-table::
    Naming and placeholders, using a simple leg template.
 
-   * - .. figure:: /images/riggingtemplatingnameplaceholdersex1.png
-          :width: 325px
+   * - .. figure:: /images/rigging_armatures_editing_templating_sketching-panel-3.png
+          :width: 200px
+
+          Conversion settings.
+
+     - .. figure:: /images/rigging_armatures_editing_templating_name-placeholders-1.png
+          :width: 200px
 
           Before conversion (note the &n and &s
           placeholders in template bones' names).
 
-     - .. figure:: /images/riggingtemplatingnameplaceholdersex2.png
-          :width: 205px
+     - .. figure:: /images/rigging_armatures_editing_templating_name-placeholders-2.png
+          :width: 200px
 
           After conversion: the placeholders have been replaced by the
           content of the S and N text fields of the Bone Sketching panel.
@@ -242,14 +229,21 @@ S and N text fields, "auto" button
 .. list-table::
    Auto naming and placeholders, using a simple leg template.
 
-   * - .. figure:: /images/riggingtemplatingautonamingex1.png
-          :width: 285px
+   * - .. figure:: /images/rigging_armatures_editing_templating_sketching-panel-4.png
+          :width: 200px
+
+          Conversion settings.
+
+     - .. figure:: /images/rigging_armatures_editing_templating_auto-naming-1.png
+          :width: 200px
 
           Before conversion (note that, in the Bone Sketching panel,
           the S and N fields are empty, and the small "auto" button is enabled).
 
-     - .. figure:: /images/riggingtemplatingautonamingex2.png
-          :width: 315px
+     - .. figure:: /images/rigging_armatures_editing_templating_auto-naming-2.png
+          :width: 200px
+
+          After conversion.
 
 
 Static text line

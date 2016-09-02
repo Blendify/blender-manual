@@ -21,7 +21,7 @@ in Properties editor, *Object data* tab:
 Skeleton
 ========
 
-.. figure:: /images/riggingeditingobjectdatapropertycxtskeletonpanel.png
+.. figure:: /images/rigging_armatures_properties_skeleton-panel.png
 
    The Skeleton panel.
 
