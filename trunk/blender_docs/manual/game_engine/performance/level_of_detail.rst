@@ -81,7 +81,7 @@ Generated objects are automatically named based on the level they are generated 
 Below are some settings for the operator.
 
 Count
-   The number of levels desired after generation. This operator creates Count - 1 new objects.
+   The number of levels desired after generation. This operator creates Count -- 1 new objects.
 Target Size
    The ratio setting for the decimate modifier on the last level of detail.
    The ratio settings for the other levels is determined by linear interpolation.

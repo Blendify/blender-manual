@@ -62,8 +62,8 @@ So this allows you to reproduce your drawing movements.
 
 .. warning::
 
-   All those "timing" options need *Link Stroke* to be enabled - else
-   they would not make much sense!
+   All those "timing" options need *Link Stroke* to be enabled,
+   else they would not make much sense!
 
 
 Timing Mode

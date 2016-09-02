@@ -18,7 +18,7 @@ illustrates how a 3×3 grid of vertices (a mesh plane in Blender)
 are connected in a Soft Body simulation.
 
 But two vertices could freely rotate if you do not create additional edges between them.
-Have you ever tried building a storage shelf out of four planks alone? Well - do not do it,
+Have you ever tried building a storage shelf out of four planks alone? Well, do not do it,
 it will not be stable. The logical method to keep a body from collapsing would be to create
 additional edges between the vertices. This works pretty well,
 but would change your mesh topology drastically.
@@ -185,4 +185,4 @@ Fig. :ref:`fig-softbody-force-interior-no-bending`.
 There would be no change in the simulation if you activated *Stiff Quads*,
 because the faces are not deformed at all in this example.
 
-Bending stiffness on the other hand prevents the plane from being - well - bent.
+Bending stiffness is the strength needed for the plane to be deformed.

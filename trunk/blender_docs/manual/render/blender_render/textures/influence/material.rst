@@ -105,7 +105,7 @@ DVar
 - If you want transparent material, and use a texture mapped to *Alpha*,
   nothing happens with the default settings, because the *Alpha* value in the *Material* panel is 1.
   So you have to set *DVar* to 0 to get transparent material (and of course *Z Transparency* also).
-  This is a common problem for beginners. Or do it the other way round - set *Alpha* to 0 and leave *Dvar* on 1.
+  This is a common problem for beginners. Or do it the other way round: set *Alpha* to 0 and leave *Dvar* on 1.
   Of course the texture is used inverted then.
 
 Bump Mapping

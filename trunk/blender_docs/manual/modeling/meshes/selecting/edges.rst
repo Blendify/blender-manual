@@ -22,7 +22,7 @@ Edge Loops
 
    | Mode:     Edit Mode (Mesh)
    | Menu:     :menuselection:`Select --> Edge Loop`
-   | Hotkey:   :kbd:`Alt-RMB` - or :kbd:`Shift-Alt-RMB` for modifying existing selection
+   | Hotkey:   :kbd:`Alt-RMB`, or :kbd:`Shift-Alt-RMB` for modifying existing selection
 
 
 Edge loops can be selected by first selecting an edge (vertex or edge selection mode),
@@ -32,8 +32,8 @@ More powerful, because you can add/remove loops from an existing selection if yo
 :kbd:`Shift` too.
 
 Note, that if you want to select a loop while being in vertex select mode,
-you still have to perform the shortcut on an edge - while you,
-for just selecting vertices, would rightclick on a vertex.
+you still have to perform the shortcut on an edge -- while you,
+for just selecting vertices, would :kbd:`RMB` on a vertex.
 
 .. figure:: /images/select_edge_loop_example.png
 
@@ -48,7 +48,7 @@ Edge Rings
 
    | Mode:     Edit Mode (Mesh)
    | Menu:     :menuselection:`Select --> Edge Ring`
-   | Hotkey:   :kbd:`Alt-Ctrl-RMB` - or :kbd:`Shift-Alt-Ctrl-RMB` for modifying existing selection
+   | Hotkey:   :kbd:`Alt-Ctrl-RMB`, or :kbd:`Shift-Alt-Ctrl-RMB` for modifying existing selection
 
 
 Edge Rings are selected similarly.

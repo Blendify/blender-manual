@@ -15,7 +15,7 @@ The Bevel modifier is a non-destructive alternative to the
    * - .. figure:: /images/modifier_generate_bevel_square_not.png
           :width: 150px
 
-          Unbeveled.
+          Not beveled.
 
      - .. figure:: /images/modifier_generate_bevel_square.png
           :width: 150px
@@ -23,7 +23,7 @@ The Bevel modifier is a non-destructive alternative to the
           Beveled.
 
 
-The images above show the side views of a plain (unbeveled) cube and a beveled one.
+The images above show the side views of a plain (Not beveled) cube and a beveled one.
 
 
 Options
@@ -46,17 +46,17 @@ Width
 Segments
    The number of edge loops added along the bevel's face.
 Profile
-   The shape of the bevel, from concave to convex - has no effect if *Segments* is less than 2.
+   The shape of the bevel, from concave to convex. It has no effect if *Segments* is less than 2.
 Material
    The index of the material slot to use for the bevel.
    When set to -1, the material of the nearest original face will be used.
 Only Vertices
-   When enabled, only the areas near vertices are beveled; the edges are left unbeveled.
+   When enabled, only the areas near vertices are beveled; the edges are left not beveled.
 
    .. figure:: /images/modifier_generate_bevel_cubes_vertices_only.png
       :width: 610px
 
-      Three cubes with 0.1, 0.3 and 0.5' bevel Widths, with Only Vertices option enabled.
+      Three cubes with 0.1, 0.3 and 0.5 bevel Widths, with Only Vertices option enabled.
 
 
 Clamp Overlap

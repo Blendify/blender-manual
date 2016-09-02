@@ -34,7 +34,7 @@ Embedded Player
    Game Panel.
 
 
-*Start* button - Start the Game Engine. Shortcut :kbd:`P`.
+The *Start* button starts the Game Engine. Shortcut :kbd:`P`.
 
 
 Standalone Player
@@ -49,9 +49,9 @@ Standalone Player
 This panel provides information for the Standalone Game Player which allows games to be run without Blender.
 See :doc:`Standalone Player </game_engine/blender_player>` for further details.
 
-Fullscreen -
-   Off - opens standalone game as a new window.
-   On - opens standalone game in full screen.
+Fullscreen
+   Off -- opens standalone game as a new window.
+   On -- opens standalone game in full screen.
 
 Resolution
    X

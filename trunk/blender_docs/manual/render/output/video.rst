@@ -63,9 +63,9 @@ A rule of thumb is to keep the colors as 'grayish' or 'unsaturated' as possible;
 this roughly means keeping the dynamics of your colors within 80% of one another.
 In other words,
 the difference between the highest RGB value and the lowest RGB value should not exceed 0.8
-([0-1] range) or 200 ([0-255] range).
+(0 - 1 range) or 200 (0 - 255 range).
 
-This is not strict - something more than 0.8 is acceptable - but an RGB display with color
+This is not strict, something more than 0.8 is acceptable, but an RGB display with color
 contrast that ranges from 0.0 to 1.0 will appear to be very ugly (over-saturated) on video,
 while appearing bright and dynamic on a computer monitor.
 

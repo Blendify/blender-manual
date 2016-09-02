@@ -85,8 +85,8 @@ Multiple Importance Sample
    producing less noise in the render. It is almost always a good idea to enable this when
    using an image texture to light the scene, otherwise noise can take a very long time to converge.
 
-   Below is a comparison between *Multiple Importance Sample* off and on - both images rendered for
-   25 seconds (Off: 1500 samples, On: 1000 samples)
+   Below is a comparison between *Multiple Importance Sample* off and on.
+   Both images are rendered for 25 seconds (Off: 1500 samples, On: 1000 samples).
 
    .. list-table::
 

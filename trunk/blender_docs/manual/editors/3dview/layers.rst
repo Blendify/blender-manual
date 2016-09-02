@@ -121,5 +121,5 @@ in the *Object* tab.
    Layers in Object tab, Relations panel.
 
 
-You will then see the layer buttons in the *Relations* panel - as before the object
+You will then see the layer buttons in the *Relations* panel -- as before -- the object
 can be displayed on more than one layer by clicking :kbd:`Shift-LMB`.

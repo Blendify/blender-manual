@@ -39,7 +39,7 @@ Animated Mesh/Export
    See :ref:`Animated Mesh/Export <fluid-animated-mesh>`
 
 PartSlip Amount
-   Amount of mixing between no - and free-slip, described above.
+   Amount of mixing between no- and free-slip, described above.
 
 Impact Factor
    Amount of fluid volume correction for gain/loss from impacting with moving objects.

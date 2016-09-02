@@ -28,7 +28,7 @@ Clamp
 
 
 Vertex Group
-   Only vertices in this group are solidified - their weights are multiplied by the thickness,
+   Only vertices in this group are solidified. Their weights are multiplied by the thickness,
    so vertices with lower weights will be less thick.
 
    Invert

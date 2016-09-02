@@ -114,10 +114,10 @@ Using buffered shadows depends on your requirements.
 If you are rendering animations or cannot wait hours to render a complex scene with soft shadows,
 buffer shadows are a good choice.
 
-For a scanline renderer - and Blender's built-in engine *is*, among other things,
-a scanline renderer - shadows can be computed using a *shadow buffer*.
+For a scanline renderer -- and Blender's built-in engine *is*, among other things,
+a scanline renderer -- shadows can be computed using a *shadow buffer*.
 This implies that an "image", as seen from the spot lamp's point of view, is "rendered" and
-that the distance - in the image - for each point from the spot light is saved. Any point in
+that the distance -- in the image -- for each point from the spot light is saved. Any point in
 the "rendered" image that is farther away than any of those points in the spot light's image
 is then considered to be in shadow. The shadow buffer stores this image data.
 

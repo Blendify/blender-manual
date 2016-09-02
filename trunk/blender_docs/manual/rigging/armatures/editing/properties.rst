@@ -32,7 +32,7 @@ and bones themselves act like edges in a mesh.
 
 As you know, bones can have two types of relationships: They can be parented,
 and in addition connected. Parented bones behave in *Edit Mode* exactly as if they
-had no relations - you can grab, rotate, scale, etc.
+had no relations. They can be grabbed, rotated, scaled, etc.
 a parent bone without affecting its descendants. However,
 connected bones must always have parent's tips connected to child's roots,
 so by transforming a bone, you will affect all its connected parent/children/siblings.
@@ -81,7 +81,7 @@ you scale at the same time the radius of the parent's tip and of the children's 
      - .. figure:: /images/rigging_armatures_editing_properties_scaling-bone-radius-4.png
           :width: 320px
 
-          ...Scaled in Envelope visualization - its length remains the same, but its ends' radius are bigger.
+          ...Scaled in Envelope visualization. Its length remains the same, but its ends' radius are bigger.
 
 
 Note that when you resize a bone (either by directly scaling it,
@@ -280,7 +280,7 @@ Dist, Weight, Deform
    (also :kbd:`Shift-W` :menuselection:`--> (Deform, ...)`), Mult
    (also :kbd:`Shift-W` :menuselection:`--> (Mult VG, ...)`)
 
-   These settings control how the bone influences its geometry - along with the bones' ends radius.
+   These settings control how the bone influences its geometry, along with the bones' ends radius.
    This will be detailed in the :doc:`skinning part </rigging/skinning/index>`.
 Hinge
    (also :kbd:`Shift-W` :menuselection:`--> (Hinge, ...)`), S
@@ -320,7 +320,7 @@ Bone Rigidity
 Even though you have the *Segm* setting available in *Edit Mode*
 (bones sub-panel, in the *Armature Bones* panel),
 you should switch to the *Pose Mode* :kbd:`Ctrl-Tab` to edit these "smooth"
-bones' properties - one explanation to this strange need is that in *Edit Mode*,
+bones' properties -- one explanation to this strange need is that in *Edit Mode*,
 even in *B-Bone* visualization, bones are drawn as sticks,
 so you cannot visualize the effects of these settings.
 
@@ -332,7 +332,7 @@ so you cannot visualize the effects of these settings.
 
 We saw in :doc:`this page </rigging/armatures/bones/index>` that bones are made
 of small rigid segments mapped to a "virtual" Bézier curve.
-The *Segm* numeric field allows you to set the number of segments inside a given bone - by default,
+The *Segm* numeric field allows you to set the number of segments inside a given bone by default
 it is set to 1, which gives a standard rigid bone. The higher this setting (max is 32), the smoother the bone,
 but the heavier the pose calculations...
 

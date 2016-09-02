@@ -118,8 +118,8 @@ The *Ramp* button activates a color ramp which allows you to remap the colors of
 See :doc:`Ramps </render/blender_render/materials/properties/ramps>` for information on using ramps.
 
 The color of a texture can be modified with the *Brightness*, *Contrast*,
-and *Saturation* buttons. All textures with RGB-Values - including
-*Images* and *Environment Maps* - may be modified with the RGB sliders.
+and *Saturation* buttons. All textures with RGB-Values, including
+*Images* and *Environment Maps*, may be modified with the RGB sliders.
 
 R, G, B
    Tint the color of a texture by brightening each red, green and blue channel.

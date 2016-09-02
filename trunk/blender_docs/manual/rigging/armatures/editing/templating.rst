@@ -10,7 +10,7 @@ new armature different in some aspects than its reference rig.
 
 In Blender, the only templating tool is the bone sketching one
 (Etch-a-ton, described in :doc:`the previous page </rigging/armatures/editing/sketching>`),
-with its *Template* conversion method - so you should have read its page before this one!
+with its *Template* conversion method, so you should have read its page before this one!
 
 
 Using Bone Sketching
@@ -176,13 +176,13 @@ Think of them as A(ngle of bones), L(ength of bones) and D(efinition of stroke).
    Each one can have a value between (0.0 and 10.0), the default being 1.0.
 
    A
-      controls the influence of the angle of the joints (i.e. angle between bones) - the higher this value,
+      Controls the influence of the angle of the joints (i.e. angle between bones). The higher this value,
       the more the conversion process will try to preserve these joints angle in the new chain.
    L
-      controls the influence of the bones' length - the higher this value,
+      Controls the influence of the bones' length. The higher this value,
       the more the conversion process will try to preserve these lengths in the new bones.
    D
-      controls the influence of the stroke's shape - the higher this value,
+      Controls the influence of the stroke's shape. The higher this value,
       the more the conversion process will try to follow the stroke with the new chain.
 
 
@@ -194,7 +194,7 @@ Think of them as A(ngle of bones), L(ength of bones) and D(efinition of stroke).
 
 S and N text fields, "auto" button
    These control how the new bones are named. By default,
-   they just take the same names as the originals from the template - except for the final number,
+   they just take the same names as the originals from the template, except for the final number,
    increased as needed. However, if the template bones have ``&s`` somewhere in their name,
    this "placeholder" will be replaced in the "templated" bones' names by the content of the *S* text field
    ("S" for "side"). Similarly, a ``&n`` placeholder will be replaced by the *N* field content

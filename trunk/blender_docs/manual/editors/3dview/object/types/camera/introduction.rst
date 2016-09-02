@@ -40,8 +40,8 @@ The camera with the solid triangle on top is the active camera.
 .. warning::
 
    The active camera, as well as the layers, can be specific to a given view,
-   or global (locked) to the whole scene - see
-   :doc:`Local Camera </editors/3dview/display/panels>`.
+   or global (locked) to the whole scene.
+   See :doc:`Local Camera </editors/3dview/display/panels>`.
 
 
 .. _camera-settings:

@@ -23,7 +23,7 @@ the EXIF information. There are some tools which can help to find approximate va
 There are also fully manual tools where you can use a grid which is getting affected by distortion model and deformed
 cells defines straight lines in the footage.
 
-You can also use the grease pencil for this - just draw a line which should be straight on the footage using poly
+You can also use the grease pencil for this -- just draw a line which should be straight on the footage using poly
 line brush and adjust the distortion values to make the grease pencil match lines on the footage.
 
 To calibrate your camera more accurately, use the grid calibration tool from OpenCV.

@@ -40,8 +40,10 @@ Links that deal with distributing your scripts.
   - Project to maintain a central repository of extensions to Blender.
 
 
-Getting Started - Manual links
-==============================
+Getting Started
+===============
+
+.. rubric:: Manual links
 
 The following links take you from the basics to the more advanced
 concepts of Python scripting for Blender.
@@ -51,8 +53,7 @@ concepts of Python scripting for Blender.
 - :doc:`Python Console </editors/python_console>`
 
 
-Getting Started - External links
-================================
+.. rubric:: External links
 
 Here are external links containing a lot of good information to start learning how to write scripts for Blender.
 

@@ -30,7 +30,7 @@ or right-click and drag for image sequences. Move your mouse to the frame/time a
 and click to break the rubberband and drop the strip in place (in a channel and starting at a frame).
 
 When you add an image, Blender makes it into a 50-frame strip,
-which means that image will be in your video for two seconds (at 25 fps - PAL).
+which means that image will be in your video for two seconds (at 25 fps PAL).
 Aside from re-positioning it, you will want to scale it by :kbd:`RMB` on either the start or end arrow,
 and dragging left or right. As you move, the frame number updates to say where the arrow is.
 Use :kbd:`LMB` to validate, or :kbd:`RMB` to cancel the modification.

@@ -38,13 +38,14 @@ over a series of frames.
    Motion paths panel.
 
 
-Before we look at its options (all regrouped in the same *Visualisations* panel,
-in the Properties editor), let us first see how to display/hide these paths. You have
-to do it manually - and you have to first select the objects you want to show/hide the motion
-paths. Then:
+Before we look at its options 
+(all regrouped in the same *Visualisations* panel, in the Properties editor),
+let us first see how to display/hide these paths.
+You have to do it manually and 
+you have to first select the objects you want to show/hide the motion paths. Then:
 
-- To show the paths (or update them, if needed), click on the *Calculate Path* button.
-- To hide the paths, click on the *Clear Paths* button
+#. To show the paths (or update them, if needed), click on the *Calculate Path* button.
+#. To hide the paths, click on the *Clear Paths* button
 
 .. warning::
 
@@ -81,9 +82,9 @@ Display Range
       (only for 'Around Current Frame' Onion-skinning method)
    Start/End
       Starting and Ending frame of range of paths to display/calculate
-      (not for 'Around Current Frame' Onion-skinning method)
+      (not for *Around Current Frame* Onion-skinning method)
    Step
-      This is the same thing as the *GStep* for ghosts -
+      This is the same thing as the *GStep* for ghosts --
       it allows you the only materialize on the path one frame each *n* ones.
       Mostly useful when you enable the frame number display (see below), to avoid cluttering the 3D Views.
 
@@ -95,7 +96,7 @@ Keyframes
    materializing the keyframes of their bones
    (i.e. only the paths of keyed bones at a given frame get a yellow dot at this frame).
 Keyframe Numbers
-   When enabled, you will see the numbers of the displayed keyframes -
+   When enabled, you will see the numbers of the displayed keyframes --
    so this option is obviously only valid when *Show Keys* is enabled.
 
 Cache

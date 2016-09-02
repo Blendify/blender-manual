@@ -77,7 +77,7 @@ Delete Loose Geometry
    | Menu:     :menuselection:`Mesh --> Clean up --> Delete Loose`
 
 
-This tool removes disconnected vertices and edges (optionally faces - off by default).
+This tool removes disconnected vertices and edges (optionally faces).
 
 
 Degenerate Dissolve

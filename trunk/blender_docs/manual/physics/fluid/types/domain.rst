@@ -308,5 +308,6 @@ Generate Particles
 
 .. figure:: /images/physics_fluid_types_domain_particals.jpg
 
-   An example of the effect of particles can be seen here - the image to the left was simulated without,
-   and the right one with particles and subdivision enabled.
+   An example of Particles effects.
+
+   Left: Simulated without; Right: With particles and subdivision enabled.

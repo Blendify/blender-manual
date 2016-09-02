@@ -103,7 +103,7 @@ Height
 
 Width
    Half of the width, in BU, between the tops of two subsequent ripples (if *Cyclic* is enabled).
-   This has an indirect effect on the ripple amplitude - if the pulses are too near to each other,
+   This has an indirect effect on the ripple amplitude. If the pulses are too near to each other,
    the wave may not reach the zero Z-position, so in this case Blender actually lowers the whole wave
    so that the minimum is zero and, consequently, the maximum is lower than the expected amplitude.
    See :ref:`modifier-wave-detailhint` below.

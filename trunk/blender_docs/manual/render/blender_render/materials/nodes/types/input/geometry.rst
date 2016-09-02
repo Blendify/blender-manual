@@ -58,7 +58,7 @@ Front/Back
    These are exactly the same settings as in the
    :doc:`Mapping </render/blender_render/textures/mapping/introduction>` panel for
    :doc:`Textures </render/blender_render/textures/index>`,
-   though a few settings - like *Stress* or *Tangent* - are missing here.
+   though a few settings, like *Stress* or *Tangent*, are missing here.
    Normally you would use this node as input for a
    :doc:`Texture Node </render/blender_render/materials/nodes/types/input/texture>`.
 
@@ -72,8 +72,8 @@ Geometry Node Example using a UV image
    Setup to render an UV-Mapped Image Texture.
 
 
-E.g.: To render an UV-mapped image, you would use the *UV* output and plug it into
-the *Vector* Input of a texture node. Then you plug the color output of the texture
-node into the color input of the material node - which corresponds to the setting on the
-*Map To* panel.
+E.g.: To render an UV-mapped image,
+you would use the *UV* output and plug it into the *Vector* Input of a texture node.
+Then you plug the color output of the texture node into the color input of the material node,
+which corresponds to the setting on the *Map To* panel.
 

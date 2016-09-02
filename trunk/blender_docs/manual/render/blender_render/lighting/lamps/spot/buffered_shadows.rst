@@ -89,13 +89,13 @@ Size
    This shadow map is then used to determine where shadows lay within a scene.
 
    As an example, if you have a *Size* with a value of 1024,
-   you are indicating that the shadow data will be written to a buffer which will have a square
-   resolution of **1024×1024** pixels/samples from the selected spotlight.
+   you are indicating that the shadow data will be written to a buffer which will have a *square*
+   resolution of 1024×1024 pixels/samples from the selected spotlight.
 
    The higher the value of *Size*, the higher resolution and accuracy of the resultant shadows,
    assuming all other properties of the light and scene are the same,
    although more memory and processing time would be used.
-   The reverse is also true - if the *Size* value is lowered,
+   The reverse is also true -- if the *Size* value is lowered,
    the resultant shadows can be of lower quality,
    but would use less memory and take less processing time to calculate.
 
@@ -115,7 +115,7 @@ Size
 
    If you have a spotlight that is large you will need to have a larger buffer *Size* to keep
    the shadows good quality.
-   The reverse is true also - the quality of the generated shadows will usually improve
+   The reverse is true also -- the quality of the generated shadows will usually improve
    (up to a point) as the *Spot* lamp covers a smaller area.
 
 
@@ -255,7 +255,7 @@ Bias
    using the *Bias* slider (*Material* menu, *Shadow* panel).
    This value is a factor by which the *Bias* value of each *Spot* buffered shadows lamp is multiplied,
    each time its light hits an object using this material.
-   The (0.0 and 1.0) values are equivalent - they do not alter the lamp's *Bias* original value.
+   The (0.0 and 1.0) values are equivalent. They do not alter the lamp's *Bias* original value.
 
 
 Clip Start & Clip End

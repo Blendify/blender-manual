@@ -192,17 +192,24 @@ Max Angle
    relative to the size of the other edges of the triangles.
 Compare UVs
    When enabled, it will prevent union of triangles that are not also adjacent in the active UV map.
-   Note that this seems to be the only option working...
+
+   .. Au: Note that this seems to be the only option working...
+
 Compare Vcol
    When enabled, it will prevent union of triangles that have no matching vertex color.
-   I am not sure how this option works - or even if it really works...
+
+   .. I am not sure how this option works - or even if it really works...
+
 Compare Sharp
    When enabled, it will prevent union of triangles that share a "sharp" edge.
-   I am not sure either if this option works, and what is the "sharp" criteria - neither the *Sharp*
-   flag nor the angle between triangles seem to have an influence here...
+
+   .. I am not sure either if this option works, and what is the "sharp" criteria - neither the *Sharp*
+      flag nor the angle between triangles seem to have an influence here...
+
 Compare Materials
    When enabled, it will prevent union of triangles that do not use the same material index.
-   This option does not seem to work neither...
+
+   .. This option does not seem to work neither...
 
 
 Solidify

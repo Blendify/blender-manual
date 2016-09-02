@@ -30,7 +30,7 @@ its ex-owner will seem to jump to its internally-specified scale.
 Similarly, if its owner has an internal scale that is beyond the limits, scaling it back into
 the limit area will appear to do nothing until the internal scale values are back within the
 limit threshold (unless you enabled the *For Transform* option,
-see below - or your owner has some negative scale values).
+see below, or your owner has some negative scale values).
 
 Setting equal the min and max values of an axis locks the owner's scaling along that axis.
 Although this is possible,
@@ -58,9 +58,9 @@ Minimum/Maximum X, Y, Z
 
 For Transform
    We saw that by default, even though visually constrained, and except for the negative values,
-   the owner can still have scales out of bounds (as shown by the *Transform Properties* panel). Well,
-   when you enable this button,
-   this is no longer possible - the owner transform properties are also limited by the constraint.
+   the owner can still have scales out of bounds (as shown by the *Transform Properties* panel).
+   Well, when you enable this button, this is no longer possible,
+   the owner transform properties are also limited by the constraint.
    Note however, that the constraint does not directly modify the scale values:
    you have to scale its owner one way or another for this to take effect.
 Convert

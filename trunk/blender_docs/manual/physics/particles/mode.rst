@@ -48,7 +48,7 @@ Setup for Particle, Cloth, and Soft Body Simulations
 ----------------------------------------------------
 
 #. Use *Emitter* particles, or a cloth/soft-body simulation
-#. Create a simulation - set up objects and or emitters,
+#. Create a simulation by setting up objects and or emitters,
    set your time range (use a small range if you are just starting out and experimenting),
    set up the simulation how you want it, using :kbd:`Alt-A` to preview it.
 

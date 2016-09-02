@@ -10,8 +10,9 @@ Introduction
 
 
 Procedural textures are textures that are defined mathematically.
-They are generally relatively simple to use, because they do not need to be mapped in a special
-way - which does not mean that procedural textures cannot become very complex.
+They are generally relatively simple to use,
+because they do not need to be mapped in a special way.
+This does not mean that procedural textures cannot become very complex.
 
 These types of textures are 'real' 3D. By that we mean that they fit together perfectly at the
 edges and continue to look like what they are meant to look like even when they are cut;

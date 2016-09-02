@@ -70,21 +70,23 @@ Edit
 ----
 
 Delete :kbd:`X`
-   Choose from:
-
-   - Points - delete the selected points, leaving a gap in the stroke.
-   - Dissolve - reconnect the ends so there is no gap in the stroke.
-   - Strokes - delete the entire stroke containing any selected points.
-   - Frame - delete a frame when doing :doc:`Animating Sketches </interface/grease_pencil/layers_and_animation>`.
+   Points
+      Delete the selected points, leaving a gap in the stroke.
+   Dissolve
+      Reconnect the ends so there is no gap in the stroke.
+   Strokes
+      Delete the entire stroke containing any selected points.
+   Frame
+      Delete a frame when doing :doc:`Animating Sketches </interface/grease_pencil/layers_and_animation>`.
 Duplicate :kbd:`Shift-D`
    Make a copy of the selected points at the same location. Use the mouse to *Translate* them into position.
    :kbd:`LMB` places them at their new position. :kbd:`RMB` cancels and removes the duplicates.
-Translate :kbd:`G` Rotate :kbd:`R` Scale :kbd:`S`
+Translate: :kbd:`G`, Rotate :kbd:`R`, Scale :kbd:`S`
    Move the selected points with the mouse. :kbd:`LMB` places them at their new position.
    Refine these operations with *Pivot Center*, *View* or *Global* transform orientations,
    snap to *Increment* and *Proportional Editing* detailed in the general
    :doc:`Transformations Instructions </editors/3dview/transform/index>`.
-Mirror :kbd:`Ctrl-M` Bend :kbd:`Shift-W` Shear :kbd:`Shift-Ctrl-Alt-S` To Sphere :kbd:`Shift-Alt-S`
+Mirror :kbd:`Ctrl-M`, Bend :kbd:`Shift-W`, Shear :kbd:`Shift-Ctrl-Alt-S`, To Sphere :kbd:`Shift-Alt-S`
    These are similar to the equivalent mesh operations detailed in
    :doc:`Deforming Instructions </modeling/meshes/editing/deforming/index>`.
 

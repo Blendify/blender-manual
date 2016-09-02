@@ -17,23 +17,23 @@ There is a demo blend-file to exemplify some concepts:
 
 Now observe what happens to the profiling stats for each of the following (in order):
 
-- Hit :kbd:`P` as the scene is. It hums along at a fairly slow rate. On my system the Rasterizer step takes 130ms.
-  The framerate will finally jump up once the "Cube" object has completely moved out of the view frustum.
-  It is as if the Occluder does not do anything while the Cube is behind it.
-- Delete the "Cube.OffCamera" object above,
-  and notice that there is no improvement in speed.
-  This is the view frustum culling working for you - it does not matter if that object exists or not.
-- Hit :kbd:`Z` to view wireframe. Notice that in the 3D View you can see "Cube.BG",
-  but once you press :kbd:`P`, it is not there.
-- Make the "Occluder" object take up the whole camera's view with :kbd:`S-X-5`.
-  You will see a huge leap in framerate,
-  since almost nothing is being Rasterized. On my system the Rasterizer step drops to 5ms.
-- Try a run with :menuselection:`World properties --> Physics --> Occlusion Culling` disabled. It will be slow again.
-- Reenable :menuselection:`World properties --> Physics --> Occlusion Culling`
-  and run it one more time to prove to yourself that your speed is back.
-- Change the Occluder to "Physics Type: Static". Notice that it is back to the original slowness.
-- Change it back to "Physics Type: Occlude".
-- Now make the "Occluder" invisible. The framerate is back down to its original, slow rate.
+#. Hit :kbd:`P` as the scene is. It hums along at a fairly slow rate. On my system the Rasterizer step takes 130ms.
+   The framerate will finally jump up once the "Cube" object has completely moved out of the view frustum.
+   It is as if the Occluder does not do anything while the Cube is behind it.
+#. Delete the "Cube.OffCamera" object above,
+   and notice that there is no improvement in speed.
+   This is the view frustum culling working for you -- it does not matter if that object exists or not.
+#. Hit :kbd:`Z` to view wireframe. Notice that in the 3D View you can see "Cube.BG",
+   but once you press :kbd:`P`, it is not there.
+#. Make the "Occluder" object take up the whole camera's view with :kbd:`S-X-5`.
+   You will see a huge leap in framerate,
+   since almost nothing is being Rasterized. On my system the Rasterizer step drops to 5ms.
+#. Try a run with :menuselection:`World properties --> Physics --> Occlusion Culling` disabled. It will be slow again.
+#. Reenable :menuselection:`World properties --> Physics --> Occlusion Culling`
+   and run it one more time to prove to yourself that your speed is back.
+#. Change the Occluder to "Physics Type: Static". Notice that it is back to the original slowness.
+#. Change it back to "Physics Type: Occlude".
+#. Now make the "Occluder" invisible. The framerate is back down to its original, slow rate.
 
 .. ??? - I thought this was supposed to work when invisible.
 
@@ -48,8 +48,8 @@ As far as Physics is concerned, this type is equivalent to Rigid Object "No coll
 reason why the Occluder mode is mutually exclusive with other physics mode is to emphasize
 the fact that occluders should be specifically designed for that purpose and not every mesh
 should be an occluder. However,
-you can enable the Occlusion capability on physics objects using Python and Logic bricks - see
-(Link- TODO)
+you can enable the Occlusion capability on physics objects using Python and Logic bricks. 
+See (Link- TODO)
 
 When an occluder object enters the view frustum,
 the BGE builds a ZDepth buffer from the faces of that object.

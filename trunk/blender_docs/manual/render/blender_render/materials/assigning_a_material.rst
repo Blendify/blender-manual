@@ -34,10 +34,10 @@ The Shading panel then appears. This contains the following elements:
    Add new material.
 
 
-- Context - The currently-selected scene and object
-- Object Material Slots (3) - this panel shows the "slots"
+- Context: The currently-selected scene and object
+- Object Material Slots (3): this panel shows the "slots"
   for the material (or materials) that this object data contains.
-- Active Material (2). Initially empty, asking for "New".
+- Active Material (2): Initially empty, asking for "New".
 
 To add a new material, click "+" in the Active Material box.
 This action has a series of effects:
@@ -47,12 +47,12 @@ This action has a series of effects:
    Materials Panel with New Entry.
 
 
-- opens the new material in the Active Material box,
-- brings up additional buttons in the immediate panel,
-- adds the new material to the Available Materials list,
-- adds the new material to the Object Material Slots list for the active object (or its object data - see below)
-- brings up a :doc:`preview </editors/properties/material>` of the new material,
-- provides you with a range of panels allowing you to select the
+- Opens the new material in the Active Material box,
+- Brings up additional buttons in the immediate panel,
+- Adds the new material to the Available Materials list,
+- Adds the new material to the Object Material Slots list for the active object (or its object data -- see below)
+- Brings up a :doc:`preview </editors/properties/material>` of the new material,
+- Provides you with a range of panels allowing you to select the
   :doc:`properties </render/blender_render/materials/properties/introduction>` of the new material.
 
 
@@ -75,7 +75,7 @@ Name
    You can change this by over-typing with your own choice of name.
 Number of Users
    Specifies the number of meshes which use this material.
-F - Fake User
+Fake User ``F``
    When enabled, this material will always be saved within the blend-file,
    even if it has no meshes which use it (see Deleting a Material).
 X

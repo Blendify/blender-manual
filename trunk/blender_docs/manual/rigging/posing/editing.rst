@@ -20,7 +20,7 @@ there are some important specificities:
 - Bones' relationships are crucial (see `Effects of Bones Relationships`_).
 - The "transform center" of a given bone
   (i.e. its default pivot point, when it is the only selected one) is *its root*.
-  Note by the way that some pivot point options seem to not work properly - in fact,
+  Note by the way that some pivot point options seem to not work properly, In fact,
   except for the *3D Cursor* one, all others appear to always use the median point of the selection
   (and not e.g. the active bone's root when *Active Object* is selected, etc.).
 
@@ -63,7 +63,7 @@ in *Pose Mode*, each bone has a scale of 1.0, and null rotation and position
 
 Moreover, the local space for these actions is the bone's own one
 (visible when you enable the *Axes* option of the *Armature* panel).
-This is especially important when using axis locking - for example,
+This is especially important when using axis locking, for example,
 there is no specific "bone roll" tool in *Pose Mode*,
 as you can rotate around the bone's main axis just by locking on the local Y axis
 :kbd:`R-Y-Y`... This also works with several bones selected;
@@ -76,7 +76,7 @@ its related objects or object's shape is moved/deformed accordingly, in real tim
 Unfortunately, if you have a complex rig set-up and/or a heavy skin object,
 this might produce lag, and make interactive editing very painful.
 If you experience such troubles, try enabling the *Delay Deform* button of the
-*Armature* panel - the skin objects will only be updated once you validate the
+*Armature* panel the skin objects will only be updated once you validate the
 transform operation.
 
 
@@ -99,8 +99,8 @@ everything at once... - commands also available in the :menuselection:`Pose --> 
 
 Note that in *Envelope* visualization, :kbd:`Alt-S` does not clear the scale,
 but rather scales the *Distance* influence area of the selected bones (also
-available through the :menuselection:`Pose --> Scale Envelope Distance` menu entry - only effective in
-*Envelope* visualization, even though it is always available...).
+available through the :menuselection:`Pose --> Scale Envelope Distance` menu entry,
+which is only effective in *Envelope* visualization, even though it is always available...).
 
 Conversely, you may define the current pose as the new rest position (i.e.
 "apply" current transformations to the *Edit Mode*),
@@ -122,7 +122,7 @@ In-Betweens
 There are several tools for editing poses in an animation.
 
 Relax Pose :menuselection:`Pose --> In-Betweens --> Relax Pose`, :kbd:`Alt-E`
-   Relax pose is somewhat related to the above topic - but it is only useful with keyframed bones
+   Relax pose is somewhat related to the above topic, but it is only useful with keyframed bones
    (see the :doc:`animation chapter </animation/index>`).
    When you edit such a bone (and hence take it "away" from its "keyed position"),
    using this command will progressively "bring it back" to its "keyed position",
@@ -138,7 +138,7 @@ Breakdowner :menuselection:`Pose --> In-Betweens --> Pose Breakdowner`, :kbd:`Sh
 There are also in *Pose Mode* a bunch of armature-specific editing options/tools,
 like :ref:`auto-bones naming <armature-editing-naming-bones>`,
 :ref:`properties switching/enabling/disabling <armature-bone-properties>`, etc.,
-that we already described in the armature editing pages - follow the links above...
+that we already described in the armature editing pages. See the links above...
 
 
 Copy/Paste Pose
@@ -291,8 +291,8 @@ all its descendants* will no longer be affected when you scale one of its ancest
 
 Connected bones have another specificity: they cannot be translated. Indeed,
 as their root must be at their parent's tip, if you do not move the parent,
-you cannot move the child's root, but only its tip - which leads to a child rotation.
-This is exactly what happens - when you press :kbd:`G` with a connected bone selected,
+you cannot move the child's root, but only its tip, which leads to a child rotation.
+This is exactly what happens, when you press :kbd:`G` with a connected bone selected,
 Blender automatically switches to rotation operation.
 
 Bones relationships also have important consequences on how selections of multiple bones
@@ -320,7 +320,7 @@ however, this should give a good idea of the problem:
   and you start a grab operation, only the unconnected bones are affected.
 - When a child connected hinge bone is in the selection,
   and the "most parent" selected one is connected, when you press :kbd:`G`,
-  nothing happens - Blender remains in grab operation, which of course has no effect on a connected bone.
+  nothing happens, because Blender remains in grab operation, which of course has no effect on a connected bone.
 
 So, when posing a chain of bones, you should always edit its elements from the root bone to the tip bone.
 This process is known as *forward kinematics* (FK).

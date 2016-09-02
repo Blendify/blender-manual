@@ -52,7 +52,7 @@ by controlling the density that one can get the typical 'volumetric' effects suc
 thick smoke.
 
 Density
-   The base density of the material - other density from textures is added on top
+   The base density of the material. Other densities from textures are added on top.
 Density Scale
    A global multiplier to increase or decrease the apparent density.
    This can be useful for getting consistent results across different scene scales.
@@ -119,7 +119,7 @@ Asymmetry
 
 
 The default method for scattering light in a volume is for the light to be deflected evenly in
-all directions - known as Isotropic scattering.
+all directions, also known as Isotropic scattering.
 In real life different types of media can scatter light in different angular directions,
 known as Anisotropic scattering.
 Back-scattering means that light is scattered more towards the incoming light direction, and
@@ -214,13 +214,15 @@ Emission
 Reflection
 ----------
 
-The 'reflection' parameters can be used to tint or scale the light that is scattered out of the
+The *Reflection* parameters can be used to tint or scale the light that is scattered out of the
 volume. This only affects light that has come from lamps and been scattered out,
 it does not affect the color of transmitted or emitted light and is.
 
-These settings are not physically correct because they do not conserve energy - the light
-scattering out does not affect the remaining light that is transmitted throughout the rest of
-the volume. For example, physically speaking,
+These settings are not physically correct, because they do not conserve energy.
+This means the light scattering out does not affect the remaining light,
+that is transmitted throughout the rest of the volume.
+
+For example, physically speaking,
 if the orange components of the light are scattered out of the volume towards the camera,
 only the inverse of that (blue) will remain to continue penetrating through the volume,
 causing the volume to take on a multi-colored appearance, which can be difficult to use.

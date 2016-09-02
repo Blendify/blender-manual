@@ -8,7 +8,7 @@ We saw in the :doc:`previous page </rigging/skinning/objects>`
 how to link (parent) whole objects to armature bones -
 a way to control the transform properties of this object via a rig.
 However, armatures are much more powerful:
-they can deform the *shape* of an object (i.e. affect its ObData data-block - its vertices or control points...).
+they can deform the *shape* of an object (i.e. affect its ObData data-block, which is its vertices or control points...).
 
 In this case, the child object is parented (skinned) to the whole armature,
 so that each of its bones controls a part of the "skin" object's geometry.
@@ -38,9 +38,9 @@ Parenting to Whole Armatures
 
 
 But before diving into this, let us talk about the different ways to skin (parent)
-an object to a whole armature - as with :doc:`object skinning </rigging/skinning/objects>`,
+an object to a whole armature as with :doc:`object skinning </rigging/skinning/objects>`,
 there is an "old parenting" method and a new, more flexible and powerful one,
-based on modifiers - which allows creation of very complex setups, with objects deformed by several armatures.
+based on modifiers, which allows creation of very complex setups, with objects deformed by several armatures.
 
 For meshes and lattices *only*,
 you can use the :kbd:`Ctrl-P` parent shortcut in the 3D Views
@@ -48,7 +48,7 @@ you can use the :kbd:`Ctrl-P` parent shortcut in the 3D Views
 The *Make Parent To* menu pops up, select the *Armature* entry.
 If the skinning object is a lattice, you are done; no more options are available.
 But with a child mesh, another *Create Vertex Groups?* menu appears,
-with the following options - all regarding the "vertex groups" skinning method:
+with the following options all regarding the "vertex groups" skinning method:
 
 With Empty Groups
    will create, if they do not already exist, empty groups, one for each bone in the skinned armature,
@@ -181,7 +181,7 @@ Envelope
    Bone influence areas for envelopes method.
 
 
-Envelopes is the most general skinning method - it works with all available object types for
+Envelopes is the most general skinning method. It works with all available object types for
 skinning (meshes, lattices, curves, surfaces and texts).
 It is based on proximity between bones and their geometry,
 each bone having two different areas of influence,
@@ -191,7 +191,7 @@ shown in the *Envelope* visualization:
   Inside this zone, the geometry if fully affected by the bone.
 - The outside area, materialized by the lighter part around the bone,
   and controlled by the *Dist* setting. Inside this zone,
-  the geometry is less and less affected by the bone as it goes away - following a quadratic decay.
+  the geometry is less and less affected by the bone as it goes away by following a quadratic decay.
 
 .. seealso::
 
@@ -208,9 +208,9 @@ have more influence on the result than one with a low weight...
 Note that when set to 0.0, it has the same effect as disabling the *Deform* option.
 
 Mult
-   Short for 'Multiply'. This option controls how the two deforming methods interact when they are both enabled.
+   Short for 'Multiply'. This option controls how the two deforming methods interact, when they are both enabled.
    By default, when they are both active, all vertices belonging to at least one vertex group are only deformed
-   through the vertex groups method - the other "orphan" vertices being handled by the envelopes one.
+   through the vertex groups method. The other "orphan" vertices being handled by the envelopes one.
    When you enable this option, the "deformation influence" that this bone would have on a vertex
    (based from its envelope settings) is multiplied with this vertex's weight in the corresponding vertex group.
    In other words, the vertex groups method is further "weighted" by the envelopes method.
@@ -233,8 +233,8 @@ which results in smoother deformations for longer bones.
 Vertex Groups
 =============
 
-Vertex groups skinning method is only available for meshes and lattices - the only objects having
-:doc:`vertex groups </modeling/meshes/vertex_groups/index>` Its principle is very simple:
+Vertex groups skinning method is only available for meshes and lattices. Which are the only objects having
+:doc:`vertex groups </modeling/meshes/vertex_groups/index>`. Its principle is very simple:
 each bone only affects vertices belonging to a vertex group having the same name as the bone.
 So if you have e.g. a ``forearm`` bone, it will only affect the ``forearm`` vertex group of its skin object(s).
 
@@ -251,7 +251,7 @@ an armature. For these to work, you must:
 - Hit again :kbd:`Ctrl-Tab` to switch to *Weight Paint Mode*.
 
 Now, when you select a bone of the armature (which remained in *Pose Mode*),
-you automatically activate the corresponding vertex group of the mesh - Very handy! Obviously,
+you automatically activate the corresponding vertex group of the mesh -- Very handy! Obviously,
 you can only select one bone at a time in this mode (so :kbd:`Shift-LMB` clicking does not work).
 
 This way, you can also apply to the active bone/vertex group one of the same "auto-weighting"
@@ -303,7 +303,7 @@ with a fine tuning of each bone's influence using these vertex weights.
 Quite useful when you want to have a smooth joint. For example, when you skin an elbow,
 the upperarm vertex group contains the vertices of this part at full weight (*1.0*),
 and when reaching the elbow area, these weights decrease progressively to *0.0'* when
-reaching the forearm zone - and vice versa for the forearm group weights... Of course,
-this is a very raw example - skinning a realistic joint is a big job,
+reaching the forearm zone and vice versa for the forearm group weights...
+Of course, this is a very raw example skinning a realistic joint is a big job,
 as you have to carefully find good weights for each vertex,
-to have the most realistic behavior when bending - and this is not an easy thing!
+to have the most realistic behavior, when bending -- and this is not an easy thing!

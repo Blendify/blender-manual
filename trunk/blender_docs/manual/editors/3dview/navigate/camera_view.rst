@@ -63,9 +63,9 @@ Roll, Pan, Dolly, and Track
 
 To perform these camera moves, the camera must first be *selected*,
 so that it becomes the active object (while viewing through it,
-you can :kbd:`RMB` -click on the solid rectangular edges to select it).
-The following actions also assume that you are in camera view
-:kbd:`Numpad0`! Having done so, you can now manipulate the camera using the same commands
+you can :kbd:`RMB` -- click on the solid rectangular edges to select it).
+The following actions also assume that you are in camera view :kbd:`Numpad0`!
+Having done so, you can now manipulate the camera using the same commands
 that are used to manipulate any object:
 
 Roll
@@ -73,12 +73,12 @@ Roll
    (the axis orthogonal to the camera view), which is the definition of a camera "roll".
 Vertical Pan or Pitch
    This is just a rotation along the local X-axis. Press :kbd:`R` to enter object rotation mode, then :kbd:`X` twice
-   (the first press selects the *global* axis - pressing the same letter a second time selects the *local* axis -
+   (the first press selects the *global* axis, pressing the same letter a second time selects the *local* axis --
    this works with any axis;
    see the :doc:`axis locking page </editors/3dview/transform/transform_control/precision/axis_locking>`).
 Horizontal Pan or Yaw
-   This corresponds to a rotation around the camera's local Y axis... Yes, that is it,
-   press :kbd:`R`, and then :kbd:`Y` twice!
+   This corresponds to a rotation around the camera's local Y axis. 
+   Press :kbd:`R`, and then :kbd:`Y` twice.
 Dolly
    To dolly the camera, press :kbd:`G` then :kbd:`MMB` (or :kbd:`Z` twice).
 Sideways Tracking

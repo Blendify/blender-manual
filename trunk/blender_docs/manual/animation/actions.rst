@@ -142,45 +142,51 @@ Insert Keyframes :kbd:`I` will add keyframes for the set of properties.
 
 Properties have different colors and menu items for different states.
 
-Gray - Property is not animated with Keyframes or Drivers.
-   Insert Keyframes :kbd:`I`.
-   Insert Single Keyframe.
-   Add Drivers.
-   Add Single Driver.
-   Paste Driver.
+Gray
+   The property is not animated with Keyframes or Drivers.
 
-Purple - Property value is controlled by a Driver.
-   Delete Drivers.
-   Delete Single Driver.
-   Copy Driver.
-   Paste Driver.
+   - Insert Keyframes :kbd:`I`.
+   - Insert Single Keyframe.
+   - Add Drivers.
+   - Add Single Driver.
+   - Paste Driver.
+Purple
+   The property value is controlled by a Driver.
 
-Green - Property has Channel with Keyframes.
-   Insert Keyframes :kbd:`I`.
-   Insert Single Keyframe.
-   Clear Keyframes :kbd:`Alt-Shift-I`
-   Clear Single Keyframes.
+   - Delete Drivers.
+   - Delete Single Driver.
+   - Copy Driver.
+   - Paste Driver.
+Green
+   The property has Channel with Keyframes.
 
-Yellow - Property has Keyframes on the current Frame.
-   Replace Keyframes :kbd:`I`.
-   Replace Single Keyframe.
-   Delete Keyframes :kbd:`Alt-I`.
-   Delete Single Keyframe.
-   Clear Keyframes :kbd:`Alt-Shift-I`
-   Clear Single Keyframes.
+   - Insert Keyframes :kbd:`I`.
+   - Insert Single Keyframe.
+   - Clear Keyframes :kbd:`Alt-Shift-I`
+   - Clear Single Keyframes.
+Yellow
+   The property has Keyframes on the current Frame.
 
-Each property also has some Keying Set options.
-   Add All to Keying Set :kbd:`K`.
-   Add Single to Keying Set.
-   Remove from Keying Set.
+   - Replace Keyframes :kbd:`I`.
+   - Replace Single Keyframe.
+   - Delete Keyframes :kbd:`Alt-I`.
+   - Delete Single Keyframe.
+   - Clear Keyframes :kbd:`Alt-Shift-I`
+   - Clear Single Keyframes.
+Each
+   All properties also have some Keying Set options.
+
+   - Add All to Keying Set :kbd:`K`.
+   - Add Single to Keying Set.
+   - Remove from Keying Set.
 
 
 Editing
 -------
 
 3D View.
-   Insert Keyframes on current frame :kbd:`I`
-   Delete Keyframes on current frame :kbd:`Alt-I`
+   - Insert Keyframes on current frame :kbd:`I`
+   - Delete Keyframes on current frame :kbd:`Alt-I`
 
 
 .. _animation-basics-actions-working-with-actions:

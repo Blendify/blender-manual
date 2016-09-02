@@ -46,7 +46,7 @@ Child Button
 Blendin
    Number of frames of motion blending.
 Priority
-   Execution priority - lower numbers will override actions with higher numbers.
+   Execution priority -- lower numbers will override actions with higher numbers.
    With 2 or more actions at once, the overriding channels must be lower in the stack.
 Frame Property
    Assign the action's current frame number to this property.

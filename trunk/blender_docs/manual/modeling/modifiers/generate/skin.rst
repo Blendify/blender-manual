@@ -24,7 +24,7 @@ Options
 
 
 Create Armature
-   Create an armature on top of the object - each edge becomes a bone.
+   Create an armature on top of the object. Each edge becomes a bone.
 
    .. note::
 

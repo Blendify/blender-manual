@@ -51,16 +51,15 @@ Blend
 Mask
 ----
 
-
 This option simply masks the Background. It uses the alpha channel to mix the color of each
 pixel on the active object plane with the color of the corresponding background pixel,
 according to the alpha channel of the pixel. Thus for alpha = 1,
-the object color is seen - the object is completely opaque; but if alpha = 0,
-only the background is seen - the object is transparent
+the object color is seen -- the object is completely opaque; but if alpha = 0,
+only the background is seen -- the object is transparent
 (but note that any other object behind the active object disappears).
 
 This is useful for making textures of solid or semi-transparent objects from photographic
-reference material - a mask is made with alpha opaque for pixels within the object,
+reference material, i.e. a mask is made with alpha opaque for pixels within the object,
 and transparent for pixels outside the object.
 
 .. seealso::

@@ -32,7 +32,7 @@ Extrude
 
 Tilt
    This setting controls how the normals (visualization: arrows)
-   twist around each control point - so it is only relevant with 3D curves!
+   twist around each control point -- so it is only relevant with 3D curves!
    You set it using the *Tilt* transform tool in the :kbd:`T` tool shelf,
    the :kbd:`N` :menuselection:`--> transform --> Mean tilt`, :menuselection:`Curve --> Transform --> Tilt`.
 
@@ -111,8 +111,8 @@ Closed 2D Curve
       Closed 2D Curve, 0.5 extrude, 0.25 Bevel Depth, 10 Bevel resolution, Fill: Both.
 
 3D Curve
-   Here the fact that the curve is closed or not has no importance - you will never get a volume with an extruded 3D
-   curve, only a wall or ribbon, like with open 2D curves.
+   Here the fact that the curve is closed or not has no importance --
+   you will never get a volume with an extruded 3D curve, only a wall or ribbon, like with open 2D curves.
 
    However, there is one more feature with 3D curves: the *Tilt* of the control points (see above).
    It will make the ribbon twist around the curve to create a mobius strip, for example.

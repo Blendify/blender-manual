@@ -29,7 +29,7 @@ you will have a nice mid-day sun (in the tropics).
 Now, there are two important angles for the *Sky/Atmosphere* effect:
 the "incidence" angle (between the light direction and the X-Y plane),
 which determines the "hour" of the day (as you might expect,
-the default rotation - straight down - is "mid-day",
+the default rotation -- straight down -- is "mid-day",
 a light pointing straight up is "midnight", and so on...).
 And the rotation around the Z axis determines the position of the sun around the camera.
 
@@ -435,7 +435,7 @@ This way, to modify height/position of the sun in the rendered picture,
 you just have to move it; orientation is automatically handled by the constraint.
 Of course, if your camera itself is moving, you should also add e.g.
 a :doc:`Copy Location constraint </rigging/constraints/transform/copy_location>`
-to your *Sun* lamp, with the camera as target - and the *Offset* option activated...
+to your *Sun* lamp, with the camera as target and the *Offset* option activated...
 This way, the sun light will not change as the camera moves around.
 
 If you use the default *Add* mixing type,

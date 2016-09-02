@@ -43,6 +43,6 @@ States
 Another useful feature is object :doc:`States </game_engine/logic/states>`.
 At any time while the simulation is running,
 the object will process any logic which belongs to the current state of the object.
-States can be used to define groups of behavior - eg. an actor object may be "sleeping", "awake" or "dead",
+States can be used to define groups of behavior -- e.g. an actor object may be "sleeping", "awake" or "dead",
 and its logic behavior may be different in each of these three states. The states of an object are set up,
 displayed and edited in the Controller logic bricks for the object.

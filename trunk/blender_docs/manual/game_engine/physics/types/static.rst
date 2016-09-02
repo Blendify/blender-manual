@@ -34,19 +34,22 @@ Options
    which is of type ``bpy.types.GameObjectSetting``. This is useful so you can,
    for example, set a range of objects to have gradated values via a for-loop.
 
-- Actor - Enables detection by Near and Radar Sensors.
+Actor
+   Enables detection by Near and Radar Sensors.
 
-  - Default: On.
-  - Python property: ``obj.game.use_actor``
-- Ghost - Disables collisions completely, similar to No Collision.
+   - Default: On.
+   - Python property: ``obj.game.use_actor``
+Ghost
+   Disables collisions completely, similar to No Collision.
 
-  - Default: Off.
-  - Python property: ``obj.game.use_ghost``
-- Invisible - Does not display, the same as setting the object to unrendered (
-  such as unchecking the "Camera" icon in the Outliner).
+   - Default: Off.
+   - Python property: ``obj.game.use_ghost``
+Invisible
+   Does not display, the same as setting the object to unrendered 
+   (such as unchecking the "Camera" icon in the Outliner).
 
-  - Default: Off.
-  - Python property: ``obj.use_render``
+   - Default: Off.
+   - Python property: ``obj.use_render``
 
 Radius
    If you have the "Collision Bounds: Sphere"
@@ -140,7 +143,8 @@ Now we can explain the various options for the *Collision Bounds* settings:
 Default
    For Dynamic and Static objects, it is a Triangle Mesh (see below).
    For everything else, it is a Sphere (see below).
-Capsule -- A cylinder with hemispherical caps, like a pill.
+Capsule
+   Which is a cylinder with hemispherical caps, like a pill.
    Radius of the hemispheres is the greater of the x or y extent.
    Height is the z bounds
 Box

@@ -41,10 +41,10 @@ Limit
 
    High
       Determines the lowest values that are considered foreground.
-      (which is supposed to be - relatively - height values: from this value to 1.0).
+      (which is supposed to be -- relatively -- height values: from this value to 1.0).
    Low
       Determines the highest values that are considered to be background objects.
-      (which is supposed to be - relatively - low values: from 0.0 to this value).
+      (which is supposed to be -- relatively -- low values: from 0.0 to this value).
 
 
 Outputs

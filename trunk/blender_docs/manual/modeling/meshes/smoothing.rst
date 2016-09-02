@@ -122,9 +122,9 @@ made by the *Auto Smooth* algorithm.
 Edge Split Modifier
 ===================
 
-With the :doc:`Edge Split Modifier </modeling/modifiers/generate/edge_split>` we get a result
-similar to *Auto Smooth* with the ability to choose which edges should be split,
-based on angle - those marked as sharp.
+With the :doc:`Edge Split Modifier </modeling/modifiers/generate/edge_split>`  a result
+similar to *Auto Smooth* can be achieved with the ability to choose which edges should be split,
+based on angle. Those Angles are marked as sharp.
 
 .. list-table::
 

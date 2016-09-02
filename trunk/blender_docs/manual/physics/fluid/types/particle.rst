@@ -12,8 +12,9 @@ Fluid Particle
 
 This type can be used to display particles created during the simulation.
 For now only tracers swimming along with the fluid are supported.
-Note that the object can have any shape,
-position or type - once the particle button is pressed, a particle system with the fluid
+
+Note that the object can have any shape, position or type.
+Once the particle button is pressed, a particle system with the fluid
 simulation particles will be created for it at the correct position.
 When moving the original object, it might be necessary to delete the particle system,
 disable the fluidsim particles, and enable them again.

@@ -111,7 +111,7 @@ Velocity- Limit the speed of an object 0 - 1000.
       Top speed of the object.  Python property: ``obj.game.velocity_max``
 Damping- Increase the "sluggishness" of the object.
    Translation
-      Resist movement 0 - 1. At "1" the object is completely immobile. Python property: ``obj.game.damping``
+      Resist movement (0 - 1). At "1" the object is completely immobile. Python property: ``obj.game.damping``
    Rotation
       Resist rotation, but not the kind of rotation that comes from a collision. For example,
       if a Motion Controller applies Torque to an object, this damping will be a factor.
@@ -120,16 +120,17 @@ Lock Translation
    Seize the object in the world along one or more axes.
    Note that this is global coordinates, not local or otherwise.
 
-       - X Python property: ``obj.game.lock_location_x``
-       - Y Python property: ``obj.game.lock_location_y``
-       - Z Python property: ``obj.game.lock_location_z``
+   - X Python property: ``obj.game.lock_location_x``
+   - Y Python property: ``obj.game.lock_location_y``
+   - Z Python property: ``obj.game.lock_location_z``
 
 Lock Rotation
    Same, but for rotation (also with respect to the global coordinates).
 
-     - X Python property: ``obj.game.lock_rotation_x``
-     - Y Python property: ``obj.game.lock_rotation_y``
-     - Z Python property: ``obj.game.lock_rotation_z``
+   - X Python property: ``obj.game.lock_rotation_x``
+   - Y Python property: ``obj.game.lock_rotation_y``
+   - Z Python property: ``obj.game.lock_rotation_z``
+
 
 Collision Bounds
 ================

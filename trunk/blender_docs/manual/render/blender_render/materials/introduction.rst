@@ -104,9 +104,9 @@ Using Materials
 
 
 As stated above, the material settings usually determine the surface properties of the object.
-There are several ways in which materials can be set up in Blender. Generally speaking, these
-are not compatible - you must choose which method you are going to use for each particular
-object in your scene.
+There are several ways in which materials can be set up in Blender.
+Generally speaking, these are not compatible.
+You must choose which method you are going to use for each particular object in your scene.
 
 #. First, you can set the :doc:`Properties </render/blender_render/materials/properties/introduction>`
    in the various Material panels.
@@ -122,8 +122,8 @@ object in your scene.
    and :doc:`Halo Rendering </render/blender_render/materials/special_effects/halo>`.
 
 The exact effect of Material settings can be affected by a number of system settings.
-First and foremost is the Render Engine used - Cycles and the Blender Render Engine
-(aka Blender Internal or BI)
+First and foremost is the Render Engine used:
+Cycles and the Blender Render Engine (aka Blender Internal or BI)
 require quite different illumination levels to achieve similar results,
 and even then the appearance of objects can be quite different. Also,
 the material properties settings can be affected by the texture method used (Single Texture,

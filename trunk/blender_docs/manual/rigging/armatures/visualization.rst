@@ -193,9 +193,9 @@ To assign a custom shape to a bone, you have to:
 
 .. note::
 
-   - These shapes will never be rendered - like any bone, they are only visible in 3D Views.
+   - These shapes will never be rendered, like any bone, they are only visible in 3D Views.
    - Even if any type of object seems to be accepted by the *OB* field (meshes, curves, even metas...),
-     only meshes really work - all other types just make the bone invisible; nothing is drawn...
+     only meshes really work. All other types just make the bone invisible; nothing is drawn...
    - The center of the shape object will be at the *root of the bone*
      (see the :doc:`bone page </rigging/armatures/bones/index>` for root/tip).
    - The object properties of the shape are ignored
@@ -236,7 +236,7 @@ hide or show one or several layers, etc.
 Showing/hiding bone layers
 --------------------------
 
-Only bones in active layers will be visible/editable - but they will always be effective
+Only bones in active layers will be visible/editable, but they will always be effective
 (i.e move objects or deform geometry), whether in an active layer or not. To
 (de)activate a layer, you have several options, depending in which mode you are in:
 
@@ -277,7 +277,7 @@ Moving bones between layers
 ---------------------------
 
 Obviously, you have to be in *Edit Mode* or *Pose Mode* to move bones between
-layers - note that as with objects, bones can lay in several layers at once,
+layers. Note that as with objects, bones can lay in several layers at once,
 just use the usual :kbd:`Shift-LMB` clicks... First of all,
 you have to select the chosen bone(s)!
 
@@ -314,8 +314,8 @@ vertices or control points, you can use :kbd:`H`:
 You can also use the *Hide* check button of the
 :menuselection:`Bone tab --> Display panel`.
 
-Note that hidden bones are specific to a mode - i.e.
-you can hide some bones in *Edit Mode*,
+Note that hidden bones are specific to a mode,
+i.e. you can hide some bones in *Edit Mode*,
 they will still be visible in *Pose Mode*, and vice-versa.
 Hidden bone in *Pose Mode* are also invisible in *Object Mode*.
 And in *Edit Mode*, the bone to hide must be fully selected,

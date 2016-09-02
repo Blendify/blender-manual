@@ -30,7 +30,7 @@ Axis
    To understand how the axis applies to the mirror direction, if you were to mirror on the X axis,
    the positive X values of the original mesh would become the negative X values on the mirrored side.
 
-   You can select more than one of these axes - you will then get more mirrored copies.
+   You can select more than one of these axes. And will then get more mirrored copies.
    With one axis you get a single mirror, with two axes four mirrors, and with all three axes eight mirrors.
 
 Options

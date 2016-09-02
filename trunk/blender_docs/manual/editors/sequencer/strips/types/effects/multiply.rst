@@ -11,12 +11,12 @@ Multiply
 
 The *Multiply* effect multiplies two colors.
 Blender uses values between (0.0 to 1.0) for the colors,
-he does not have to normalise this operation, the multiplication of two terms
+he does not have to normalize this operation, the multiplication of two terms
 between (0.0 to 1.0) always gives a result between (0.0 to 1.0).
 
 (with the "traditional" representation of three bytes, like RGB(124, 255, 56) ,
 the multiplications give far too high results, like RGB(7316, 46410, 1848),
-that have to be, normalised (brought back) by dividing them by 256
+that have to be, normalized (brought back) by dividing them by 256
 to fit in the range of (0 to 255) ...).
 
 This effect has two main usages:
@@ -30,11 +30,11 @@ With a mask
 
 With uniform colors
    Multiplying a color with a "normal" image allows you to soften some hues of this one
-   (and so - symmetrically - to enhance the others).
+   (and so -- symmetrically -- to enhance the others).
 
    For example, if you have a brown pixel RGB(0.50, 0.29, 0.05), and
    you multiply it with a cyan filter (uniform color RGB(0.0, 1.0, 1.0), you will get a color RGB(0.0, 0.29, 0.5).
-   Visually, the result is to kill the reds and bring up (by "symmetry" - the real values remain unchanged!)
+   Visually, the result is to kill the reds and bring up (by "symmetry" -- the real values remain unchanged!)
    the blues an greens. Physically, it is the same effect as shining a cyan light onto a chocolate bar. Emotionally,
    vegetation becomes more lush, water becomes more Caribbean and inviting, skies become friendlier.
 
