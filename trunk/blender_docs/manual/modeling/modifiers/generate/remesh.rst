@@ -82,6 +82,4 @@ Examples
 
 .. youtube:: Mh-gUnS2c0Y
 
-.. youtube:: dker8gRuww4
-
 .. vimeo:: 21096739
