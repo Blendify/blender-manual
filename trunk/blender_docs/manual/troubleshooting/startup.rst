@@ -21,7 +21,9 @@ Known causes listed below.
 Python
 ======
 
-If you get an error on startup ::
+If you get an error on startup
+
+.. code-block:: python
 
    Fatal Python error: Py_Initialize: unable to load the file system codec
 

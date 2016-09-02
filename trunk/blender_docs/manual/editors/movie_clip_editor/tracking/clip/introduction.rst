@@ -8,14 +8,14 @@ Almost all motion tracking tools are concentrated in the Movie Clip Editor.
 
 It should be mentioned that the camera solver consists of three quite separate steps:
 
-- 2D tracking of footage
-- Camera intrinsics (focal length, distortion coefficients) specification/estimation/calibration
-- Solving camera, scene orientation, scene reconstruction
+#. 2D tracking of footage.
+#. Camera intrinsics (focal length, distortion coefficients) specification/estimation/calibration.
+#. Solving camera, scene orientation, and scene reconstruction.
 
-Tools in the clip editor are split depending on which step they are used in, so the interface
-is not cluttered up with scene orientation tools when only 2D tracking can be done. The
-currently displayed tool category can be changed using the Mode menu which is in the editor
-header.
+Tools in the clip editor are split depending on which step they are used in, 
+so the interface is not cluttered up with scene orientation tools when only 2D tracking can be done.
+The currently displayed tool category can be changed using the Mode menu,
+which is in the editor header.
 
 .. figure:: /images/editors_movie_clip_mode_menu.jpg
    :width: 300px
@@ -72,7 +72,7 @@ Speed
    This option does not affect the quality of tracking; it just helps to control if tracking happens accurately.
    In most cases tracking happens much faster than real time, and it is difficult to notice when a track began
    to slide out of position. In such cases *Speed* can be set to Double or Half to add some delay between
-   tracking two frames, so slide-off would be noticed earlier and the tracking process can be cancelled to
+   tracking two frames, so slide-off would be noticed earlier and the tracking process can be canceled to
    adjust positions of tracks.
 Frames Limit
    controls how many frames can be tracked when the Track Sequence operator is called.

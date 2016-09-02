@@ -11,7 +11,7 @@ It offers four joint types: hinge type, ball-and-socket type, cone-twist, and ge
 
 .. warning::
 
-   This constaint only works with the :doc:`Game Engine </game_engine/index>`.
+   This constraint only works with the :doc:`Game Engine </game_engine/index>`.
 
 The joint point and axes are defined and fixed relative to the owner.
 The target moves as if it were stuck to the center point of a stick,

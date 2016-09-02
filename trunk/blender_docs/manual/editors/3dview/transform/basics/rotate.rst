@@ -115,7 +115,7 @@ Set the manipulator type to rotation (the highlighted arc icon shown below).
   your object along that axis.
   You can also use :kbd:`Shift`, :kbd:`Ctrl` or numeric input with the 3D manipulator widget for further control.
 - Your changes will be applied when you release :kbd:`LMB` or press :kbd:`Spacebar` or
-  :kbd:`Return`. Your changes will be cancelled if you press :kbd:`RMB` or :kbd:`Esc`.
+  :kbd:`Return`. Your changes will be canceled if you press :kbd:`RMB` or :kbd:`Esc`.
 
 .. seealso::
 

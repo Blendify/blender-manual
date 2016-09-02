@@ -35,7 +35,7 @@ Additive
    This option causes the modifier to be added to the curve, instead of replacing it by default.
 Poly Order
    Specify the order of the polynomial, or the highest power of ``X`` for this polynomial.
-   (number of coefficients - 1).
+   (number of coefficients: 1).
 
    Change the Coefficient values to change the shape of the curve.
 

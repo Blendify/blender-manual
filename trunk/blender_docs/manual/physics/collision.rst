@@ -83,7 +83,7 @@ Absorption
    A deflector can also deflect effectors. You can specify some collision/deflector objects which deflect a specific
    portion of the effector force using the *Absorption* value. 100% absorption results in no force getting
    through the collision/deflector object at all. If you have three collision object behind each other with e.g.
-   10%, 43% and 3%, the absorption ends up at around 50% (``100 × (1 - 0.1) × (1 - 0.43) × (1 - 0.03)``).
+   10%, 43% and 3%, the absorption ends up at around 50% :math:`100 × (1 - 0.1) × (1 - 0.43) × (1 - 0.03)`.
 
 
 Examples
