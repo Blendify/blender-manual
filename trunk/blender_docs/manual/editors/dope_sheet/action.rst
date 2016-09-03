@@ -41,7 +41,7 @@ Action Data-Blocks
 
 As everything else in Blender, actions are data-blocks. Unlike F-Curve ones,
 there is only one type of action, which can regroup all F-Curve of a given object.
-You will find its usual data-block controls in the *Action Editor* header.
+You will find its usual data-block menu in the *Action Editor* header.
 
 However, there is one specificity with action data-blocks: they have by default a "fake user",
 i.e. once created, they are always kept in the blend-file, even if no object uses them.
@@ -90,4 +90,4 @@ Move...
    or directly to the top/bottom :kbd:`Ctrl-Shift-PageUp`, :kbd:`Ctrl-Shift-PageDown`.
 
 Revive Disabled F-Curves
-   Clears "disabled" tag from all F-Curves to get broken F-Curves working again
+   Clears "disabled" tag from all F-Curves to get broken F-Curves working again.

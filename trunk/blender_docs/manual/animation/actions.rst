@@ -65,13 +65,13 @@ Insert Keyframes
 This example shows you how to animate a cubes location, rotation, and scale.
 
 
-- First, in the *Timeline*, or other animation editors, set the frame to 1.
-- With the *Cube* selected in *Object Mode*, press :kbd:`I` in the 3D View.
-- From the *Insert Keyframe Menu* select *LocRotScale*.
--    This will record the location, rotation, and scale, for the *Cube* on frame 1.
-- Set the frame to 100.
-- Use Grab/Move :kbd:`G`, Rotate :kbd:`R`, Scale :kbd:`S`, to transform the cube.
-- Press :kbd:`I` in the 3D View. From the *Insert Keyframe Menu* select *LocRotScale*.
+#. First, in the *Timeline*, or other animation editors, set the frame to 1.
+#. With the *Cube* selected in *Object Mode*, press :kbd:`I` in the 3D View.
+#. From the *Insert Keyframe Menu* select *LocRotScale*.
+   This will record the location, rotation, and scale, for the *Cube* on frame 1.
+#. Set the frame to 100.
+#. Use Grab/Move :kbd:`G`, Rotate :kbd:`R`, Scale :kbd:`S`, to transform the cube.
+#. Press :kbd:`I` in the 3D View. From the *Insert Keyframe Menu* select *LocRotScale*.
 
 .. figure:: /images/actions_insert_keyframe_00.png
    :width: 500px
@@ -197,13 +197,14 @@ Working with Actions
 .. figure:: /images/k_animation_actions_create.png
    :align: right
 
-   Action Browser.
+   The Action data-block menu.
 
 
 When you first animate an object by adding keyframes,
 Blender creates an *Action* to record the data.
 
-*Actions* can be managed with the *Action Browser* in the :doc:`DopeSheet </editors/dope_sheet/introduction>`
+*Actions* can be managed with the *Action data-block menu*
+in the :doc:`DopeSheet </editors/dope_sheet/introduction>`
 *Action Editor* header, or the properties region of the :doc:`NLA Editor </editors/nla>`.
 
 If you are making multiple actions for the same object,
