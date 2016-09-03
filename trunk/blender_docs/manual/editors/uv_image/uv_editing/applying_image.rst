@@ -74,8 +74,6 @@ For using images as textures, see the page on :doc:`Image Textures </render/blen
           A UV Layout in an Image Editor.
 
 
-.. _face-textures:
-
 Applying Textures to UVs
 ========================
 
@@ -131,6 +129,8 @@ Full details of using Image textures are on the
    You will get a black if you do not load an image. If you do not create a texture that uses the image,
    or enable *Face Texture*, your object will render according to the procedural material settings.
 
+
+.. _face-textures:
 
 Face Textures
 -------------

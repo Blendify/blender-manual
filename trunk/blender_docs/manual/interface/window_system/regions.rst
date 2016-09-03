@@ -18,6 +18,7 @@ the availability of additional regions are different between editors.
 See specific documentation about each editor in the
 :doc:`Editors </editors/index>` chapter.
 
+.. _ui-region-header:
 
 Header
 ======
@@ -87,15 +88,14 @@ simply right click on the header and enable set it to collapsed.
 Tool Shelf
 ==========
 
-The *Tool Shelf* by default on the left side.
-It contains the tool settings.
+The *Tool Shelf* by default on the left side contains the tool settings.
 :kbd:`T` toggles the visibility of Tool Shelf Region.
 
 
 Properties Region
 =================
 
-The *Properties Region* default on the right side.
+The *Properties Region* is by default on the right side.
 It contains :doc:`/interface/window_system/panels`
 with settings of objects within the editor and the editor itself.
 :kbd:`N` toggles the visibility of Properties Region.
@@ -109,7 +109,7 @@ Arranging
 Scrolling
 ---------
 
-The region can be scrolled vertically and/or horizontally by dragging it with the :kbd:`MMB`.
+A region can be scrolled vertically and/or horizontally by dragging it with the :kbd:`MMB`.
 If the region has no zoom level, it can be scrolled by using the :kbd:`Wheel`,
 while the mouse hovers over it.
 
