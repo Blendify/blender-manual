@@ -37,7 +37,7 @@ Distance Metric
    A value of one produces the *Manhattan* distance metric, a value less than one produces stars
    (at 0.5, it gives a *Minkovsky 1/2*), and higher values produce square cells (at 4.0,
    it gives a *Minkovsky 4*, at 10.0, a *Chebychev*).
-   So nearly all Distance Settings are basically the same -- a variations of *Minkowsky*.
+   So nearly all Distance Settings are basically the same -- a variation of *Minkowsky*.
 
    You can get irregularly-shaped rounded cells with the
    *Actual Distance* / *Distance Squared* options.
