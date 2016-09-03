@@ -312,7 +312,7 @@ Data-blocks are items like meshes, objects, materials, textures, and so on.
 
 
 Data-Block type
-   Shows a icon. Opens up the following pop-up menu.
+   Shows an icon. Opens up the following pop-up menu.
 
    List
       A list of data-block available in the current blend-file or link in to select an item from.

@@ -689,7 +689,7 @@ This page lists definitions for terms used in Blender and this manual.
 
    Walk Cycle
       In animation, a walk cycle is a character that has just the walking function animated.
-      Later on in the animation process the character is placed in a environment
+      Later on in the animation process the character is placed in an environment
       and the rest of the functions are animated.
 
    Weight Painting

@@ -42,7 +42,7 @@ Stroke Cap Style
 Exportable Properties
 =====================
 
-Because the representation of Freestyle strokes and SVG path objects is fundamentally different, a one on one
+Because the representation of Freestyle strokes and SVG path objects is fundamentally different, an one-on-one
 translation between Freestyle and SVG is not possible. The main shortcoming of SVG compared to Freestyle is that
 Freestyle defines style per-point, where SVG defines it per-path. This means that Freestyle can produce much more
 complex results that are impossible to achieve in SVG.

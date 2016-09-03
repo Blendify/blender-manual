@@ -41,7 +41,7 @@ Target (Armature Object Type)
    .. figure:: /images/constraints-tracking-stretchto-armature.jpg
       :width: 250px
 
-      Stretch To panel for a Armature Object.
+      Stretch To panel for an Armature Object.
 
 
    Bone

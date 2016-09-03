@@ -143,7 +143,7 @@ You might need to play with *Boost:* for a stronger effect
 Fig. :ref:`fig-bi-material-halo-flare` settings.
 
 Note that this tool does not simulate the physics of photons
-traveling through a glass lens; it's just a eye candy.
+traveling through a glass lens; it's just an eye candy.
 
 
 Blender's lens flare looks nice in motion,

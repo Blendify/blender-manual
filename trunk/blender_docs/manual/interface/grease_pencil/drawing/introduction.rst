@@ -56,7 +56,7 @@ multiple strokes are desired. With this option set,
 a sketching session starts when a *Grease Pencil* stroke is made.
 The type of session (Draw, Line, Poly, Erase)
 is determined by the first stroke made which can be done via hotkeys or the Tool Shelf.
-Use :kbd:`Esc` or :kbd:`Return` to exit the sketching session. Note that in a Erase
+Use :kbd:`Esc` or :kbd:`Return` to exit the sketching session. Note that in an Erase
 Sketching Session both :kbd:`LMB` or :kbd:`RMB` can be used once the session has
 started.
 

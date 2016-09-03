@@ -139,7 +139,7 @@ Selecting Strokes
 =================
 
 A stroke can be selected (materialized by a solid red-to-white line), or not
-(shown as a orange-to-white line) - see (Strokes example) above. As usual,
+(shown as an orange-to-white line) - see (Strokes example) above. As usual,
 you select a stroke by clicking :kbd:`RMB` on it,
 you add one to/remove one from the current selection with a :kbd:`Shift-RMB` click,
 and :kbd:`A` (de)selects all strokes...
@@ -203,7 +203,7 @@ In short, something that the gesture system would never recognize!
 
    * - .. figure:: /images/rigging_armatures_editing_sketching_gestures-canceling-1.png
 
-          A unwanted cut stroke.
+          An unwanted cut stroke.
 
      - .. figure:: /images/rigging_armatures_editing_sketching_gestures-canceling-2.png
 

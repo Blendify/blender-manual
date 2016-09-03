@@ -21,7 +21,7 @@ Each type is differentiate in the applied :term:`color space`.
 In compositing and texture context each node supports the Alpha channel.
 In the texture context only RGB color space is available.
 In the shading context of the Blender internal adds HSV and
-the Cycles shading context offers a additional pair of nodes to combine/separate a vector (XYZ).
+the Cycles shading context offers an additional pair of nodes to combine/separate a vector (XYZ).
 
 The Combine nodes could also be used to input single color values.
 For RGBA and HSVA color spaces it is recommended to use the :doc:`/compositing/types/input/rgb`.

@@ -15,15 +15,8 @@ There are five types of lamps in Blender. They share all or some of the options 
 Object Data
 ===========
 
-Browse Light Object Data
-   Click to view all lights in the current scene.
-Name
-   The name of the currently selected light object data. Edit to change the name.
-Number of Users
-   The number of light objects sharing the light object data.
-F
-   Create a fake user for this object data.
-
+Lamp
+   The Data-block menu. 
 
 Preview
 =======

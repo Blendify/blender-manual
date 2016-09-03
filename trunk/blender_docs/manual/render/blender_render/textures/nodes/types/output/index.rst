@@ -3,7 +3,7 @@
   Output Nodes
 ################
 
-These node serves a outputs for node textures
+These nodes serve an outputs for node textures.
 
 .. toctree::
    :maxdepth: 1

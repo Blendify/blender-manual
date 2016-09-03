@@ -41,7 +41,7 @@ Display
    The Display panel.
 
 
-Display panel lets you customize the look of your bones taking the shape of a another existing object.
+Display panel lets you customize the look of your bones taking the shape of another existing object.
 
 .. note::
 

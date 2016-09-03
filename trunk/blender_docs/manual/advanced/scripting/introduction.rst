@@ -68,7 +68,7 @@ Here are external links containing a lot of good information to start learning h
   - A forum thread containing many short working script examples.
 - `Introduction to Python
   <https://cgcookie.com/archive/introduction-to-scripting-with-python-in-blender/>`__
-  - A one-hour video tutorial introducing Python and the Blender API.
+  - An one-hour video tutorial introducing Python and the Blender API.
 
 
 Extending Blender

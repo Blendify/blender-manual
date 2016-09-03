@@ -106,7 +106,7 @@ It has different behavior depending on the active visualization, as explained be
 In *Envelope* visualization, it allows you to edit the influence of the selected bones
 (their *Dist* property, see the :doc:`skinning part </rigging/skinning/index>`) -
 as with the "standard" scaling with this visualization (see the previous section),
-this is a one-value property, so there is no axis locking and such.
+this is an one-value property, so there is no axis locking and such.
 
 .. list-table:: Envelope scaling example.
 

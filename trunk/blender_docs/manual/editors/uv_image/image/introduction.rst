@@ -23,7 +23,7 @@ Replace Image
    Replaces the current image, while preserving the link to UV maps,
    with an selected file.
 Reload Image
-   Reloading the image from a external file.
+   Reloading the image from an external file.
 Save Image
    Save the image, if the image is already a file :kbd:`Alt-S`.
 Save As Image

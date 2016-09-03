@@ -7,7 +7,7 @@ Bullet Physics provides collision detection and rigid body dynamics for the Blen
 Engine. It takes some settings from Blender that previously were designed for the former
 collision detection system (called Sumo).
 
-However, new features do not have an user interface yet,
+However, new features do not have a user interface yet,
 so Python can be used to fill the gap for now.
 
 Features:

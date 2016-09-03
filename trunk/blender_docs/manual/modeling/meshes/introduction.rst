@@ -183,7 +183,7 @@ Creases and Bevel Weight
    and/or a bevel weight for the :doc:`Bevel Modifier </modeling/modifiers/generate/bevel>`,
    respectively. In both cases, the higher the weight, the brighter the highlight.
 Seams and Sharp
-   Highlights edges marked as an UV seam for unwrapping and/or sharp edges for the
+   Highlights edges marked as a UV seam for unwrapping and/or sharp edges for the
    :doc:`Edge Split Modifier </modeling/modifiers/generate/edge_split>`
 
 .. rubric:: Normals Section

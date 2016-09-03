@@ -6,7 +6,7 @@ Introduction
 
 After animating some property in Blender using keyframes you can edit their corresponding curves.
 When something is "animated," it changes over time. This curve in shown as something called an F-Curve.
-Basically what an F-Curve does is it a interpolates between two animated properties. In Blender,
+Basically what an F-Curve does is it an interpolates between two animated properties. In Blender,
 animating an object means changing one of its properties, such as an objects location, or its scale.
 
 As mentioned, Blender's fundamental unit of time is the "frame",

@@ -30,7 +30,7 @@ Properties
 Offset
    Determines the brick offset of the various rows.
 Frequency
-   Determines the offset frequency. A value of 2 gives a even/uneven pattern of rows.
+   Determines the offset frequency. A value of 2 gives an even/uneven pattern of rows.
 Squash
    Amount of brick squashing.
 Frequency

@@ -320,7 +320,7 @@ View Menu
       Stereo 3D and View menu.
 
 Views Format
-   When you drag and drop an image into the UV/Image Editor, Blender will open it as a individual images at first.
+   When you drag and drop an image into the UV/Image Editor, Blender will open it as an individual images at first.
    If your image was saved with one of the Stereo 3D formats you can change how
    Blender should interpret the image by switching the mode to Stereo 3D,
    turning on Use Multi-View and picking the corresponding stereo method.
