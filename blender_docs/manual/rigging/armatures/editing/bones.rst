@@ -89,12 +89,12 @@ extrusion along a global or local axis.
 
 .. list-table:: Mirror extrusion example.
 
-   * - .. figure:: /images/riggingbonemirrorextrudeexeditmode1.png
+   * - .. figure:: /images/rigging_armatures_editing_bones_mirror-extrusion-1.png
           :width: 320px
 
           A single selected bone's tip.
 
-     - .. figure:: /images/riggingbonemirrorextrudeexeditmode2.png
+     - .. figure:: /images/rigging_armatures_editing_bones_mirror-extrusion-2.png
           :width: 320px
 
           The two mirror-extruded bones.
@@ -342,12 +342,12 @@ its copy will be parented, but **not** connected to the unselected bone
 
 .. list-table:: Duplication example.
 
-   * - .. figure:: /images/riggingboneselectexeditmodethreebonessixends.png
+   * - .. figure:: /images/rigging_armatures_editing_bones_duplication-1.png
           :width: 320px
 
           An armature with three selected bones and a selected single root.
 
-     - .. figure:: /images/riggingboneduplicateexeditmode.png
+     - .. figure:: /images/rigging_armatures_editing_bones_duplication-2.png
           :width: 320px
 
           The three duplicated bones. Note that the selected chain is preserved in the copy,
@@ -388,12 +388,12 @@ to avoid deforming the whole armature.
 
 .. list-table:: Deletion example.
 
-   * - .. figure:: /images/riggingbonedeleteexeditmode1.png
+   * - .. figure:: /images/rigging_armatures_editing_bones_deletion-1.png
           :width: 320px
 
           An armature with two selected bones, just before deletion.
 
-     - .. figure:: /images/riggingbonedeleteexeditmode2.png
+     - .. figure:: /images/rigging_armatures_editing_bones_deletion-2.png
           :width: 320px
 
           The two bones have been deleted. Note that Bone.002,
@@ -431,23 +431,23 @@ differently depending in which chain is the edited bone
 
 .. list-table:: Merge example.
 
-   * - .. figure:: /images/riggingbonemergeexeditmode1.png
+   * - .. figure:: /images/rigging_armatures_editing_bones_merge-1.png
           :width: 320px
 
           An armature with a selected chain, and a single selected bone, just before merging.
 
-     - .. figure:: /images/riggingbonemergeexeditmode2.png
+     - .. figure:: /images/rigging_armatures_editing_bones_merge-2.png
           :width: 320px
 
           Bones Bone, Bone.001 and Bone.002 have been merged in Bone.006,
           whereas Bone.005 was not modified. Note Bone.003, connected to Bone.006 but not yet "really" connected.
 
-   * - .. figure:: /images/riggingbonemergeexeditmode3.png
+   * - .. figure:: /images/rigging_armatures_editing_bones_merge-3.png
           :width: 320px
 
           Bone.004 has been rotated, and hence the tip of Bone.006 was moved to the root of Bone.003.
 
-     - .. figure:: /images/riggingbonemergeexeditmode4.png
+     - .. figure:: /images/rigging_armatures_editing_bones_merge-4.png
           :width: 320px
 
           The tip of Bone.006 has been translated, and hence the root of Bone.003 was moved to the tip of "Bone.006"

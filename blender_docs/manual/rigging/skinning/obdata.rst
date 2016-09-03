@@ -31,7 +31,7 @@ Both methods have some `Common Options`_, and can be mixed together.
 Parenting to Whole Armatures
 ============================
 
-.. figure:: /images/rigging-armature-parent.png
+.. figure:: /images/rigging_skinning_set-parent-menu.png
    :align: right
 
    Set Parent menu.
@@ -155,8 +155,7 @@ Preserve Volume (Armature modifier)
 Bone Deform Options
 ===================
 
-.. figure:: /images/riggingeditingbonecxtdeformpanel.png
-   :width: 250px
+.. figure:: /images/rigging_armatures_bones_properties_deform-panel.png
 
    Bone Deform Options.
 
@@ -175,8 +174,7 @@ Envelope
 
 .. figure:: /images/rigging_armatures_bones_introduction_envelope-edit-mode.png
    :align: right
-   :width: 150px
-   :figwidth: 150px
+   :figwidth: 180px
 
    Bone influence areas for envelopes method.
 
