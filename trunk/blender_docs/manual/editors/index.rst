@@ -13,7 +13,7 @@ Blender provides a number of different *Editor* types for displaying and modifyi
 
 It is also possible to open the same Editor type multiple times to have different views on the same data.
 
-There is also documentation on the :doc:`general interface </interface/window_system/index>` of editors.
+There is also documentation on the :doc:`general interface </interface/index>` of editors.
 
 
 3D
