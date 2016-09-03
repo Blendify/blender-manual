@@ -23,7 +23,7 @@ Merging Vertices
    | Hotkey:   :kbd:`Alt-M`
 
 
-This tool allows you to merge all selected vertices to an unique one, deleting all others. You
+This tool allows you to merge all selected vertices to a unique one, deleting all others. You
 can choose the location of the surviving vertex in the menu this tool pops up before
 executing:
 

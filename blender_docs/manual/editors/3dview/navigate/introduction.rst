@@ -110,7 +110,7 @@ Add Menu
 --------
 
 This menu gives a list of different objects that can be added to a scene.
-See :doc:`here </editors/3dview/object/types/index>` for a information on all the object types.
+See :doc:`here </editors/3dview/object/types/index>` for an information on all the object types.
 
 
 Object Menu

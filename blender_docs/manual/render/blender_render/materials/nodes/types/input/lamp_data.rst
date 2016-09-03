@@ -33,7 +33,7 @@ The light textures and the shadow textures affect the Color and Shadow outputs, 
 Color
    Lamp color multiplied by the lamp energy.
 Light Vector
-   An unit vector in the direction from the lamp to the shading point.
+   A unit vector in the direction from the lamp to the shading point.
 Distance
    Distance from the shading point to the lamp.
 Shadow

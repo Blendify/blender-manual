@@ -11,7 +11,7 @@ Curve Extrusion
 
 
 Extrude
-   Turns a one dimensional curve into a two dimensional curve by giving it height.
+   Turns an one dimensional curve into a two dimensional curve by giving it height.
    Note that this is not related to *Extrude* used in mesh edit-mode.
    With a scale of one,
    an *Extrusion* of 0.5 will extrude the curve 0.5 BU in both directions, perpendicular to the curves normals.

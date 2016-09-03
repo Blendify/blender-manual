@@ -10,7 +10,7 @@ is shown by default at the bottom of the screen.
 
    The Timeline.
 
-The *Timeline* is not much of an editor, but more of a information and control.
+The *Timeline* is not much of an editor, but more of an information and control.
 
 Here you can have an overview of the animation part of your scene.
 What is the current time frame, either in frames or in seconds, where are the keyframes of the active object,

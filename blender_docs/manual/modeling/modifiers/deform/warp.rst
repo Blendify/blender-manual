@@ -61,7 +61,7 @@ Usage
 =====
 
 The *Warp Modifier* can be awkward to use sometimes and the use case is rather small however,
-there are a couple of uses. For example, The *Warp Modifier* can be used to have a interactive
+there are a couple of uses. For example, The *Warp Modifier* can be used to have an interactive
 :doc:`Proportional Editing </editors/3dview/transform/transform_control/proportional_edit>`
 that can be used for animation.
 

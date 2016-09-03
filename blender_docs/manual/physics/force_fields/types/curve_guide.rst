@@ -85,7 +85,7 @@ Kink
    Braid
       Braid.
    Roll
-      A one dimensional, standing wave.
+      An one dimensional, standing wave.
 
 It is not so easy to describe the resulting shapes, so have a look at the example below.
 

@@ -20,7 +20,7 @@ Inputs
 Image
    Standard image input.
 Gamma
-   A exponential brightness factor.
+   An exponential brightness factor.
 
 
 Properties

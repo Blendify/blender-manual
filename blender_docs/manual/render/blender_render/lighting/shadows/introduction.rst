@@ -69,7 +69,7 @@ Those that are not are obviously obscured by a shadow.
 
 Each light casts rays in a different way. For example,
 a *Spot* light casts rays uniformly in all directions within a cone.
-The *Sun* light casts rays from a infinitely distant point,
+The *Sun* light casts rays from an infinitely distant point,
 with all rays parallel to the direction of the *Sun* light.
 
 For each additional light added to the scene, with ray-tracing enabled,

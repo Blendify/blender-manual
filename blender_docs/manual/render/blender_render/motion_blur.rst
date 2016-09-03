@@ -80,7 +80,7 @@ The scale beneath the cube helps in appreciating the movement of 1 Blender unit.
    * - .. figure:: /images/render-mblur05.jpg
           :width: 320px
 
-          The effect of a increased shutter value.
+          The effect of an increased shutter value.
 
      - .. figure:: /images/render-mblur06.jpg
           :width: 320px

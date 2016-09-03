@@ -6,7 +6,7 @@ The VideoTexture module: bge.texture
 The ``bge.texture`` module allows you to manipulate textures during the game.
 Several sources for texture are possible: video files, image files, video capture,
 memory buffer, camera render or a mix of that.
-The video and image files can be loaded from the Internet using an URL instead of a file name.
+The video and image files can be loaded from the Internet using a URL instead of a file name.
 In addition, you can apply filters on the images before sending them to the GPU,
 allowing video effect: blue screen, color band, gray, normal map.
 ``bge.texture`` uses FFmpeg to load images and videos.

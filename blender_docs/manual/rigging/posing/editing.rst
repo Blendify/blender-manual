@@ -281,12 +281,12 @@ all its descendants* will no longer be affected when you scale one of its ancest
      - .. figure:: /images/rigging_posing_editing_bones-relationships-5.png
           :width: 200px
 
-          Rotation of a bone with a Inherit Rotation disabled bone among its descendants.
+          Rotation of a bone with an Inherit Rotation disabled bone among its descendants.
 
      - .. figure:: /images/rigging_posing_editing_bones-relationships-6.png
           :width: 200px
 
-          Scaling of a bone with a Inherit Rotation disabled bone among its descendants.
+          Scaling of a bone with an Inherit Rotation disabled bone among its descendants.
 
 
 Connected bones have another specificity: they cannot be translated. Indeed,

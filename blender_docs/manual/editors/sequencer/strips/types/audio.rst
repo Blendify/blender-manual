@@ -63,7 +63,7 @@ Output
 There are two ways to render out your audio. You can either have it encoded with a video file
 or in its own audio file. To render your audio in an video file make sure to use a video format
 as the output with an audio codec and hit the render *Animation* button in the properties editor.
-Read more on how to do this :doc:`here </render/output/video>`. To render as a audio file simple
+Read more on how to do this :doc:`here </render/output/video>`. To render as an audio file simple
 use the *Audio* button. Read more on how to do this :doc:`here </render/output/video>`.
 
 Known Limitations

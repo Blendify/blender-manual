@@ -18,7 +18,7 @@ Inputs
 Color
    Color of the surface, or physically speaking, the probability that light is reflected for each wavelength.
 Size
-   Parameter between 0.0 and 1.0 that gives a angle of reflection between 0° and 90°.
+   Parameter between 0.0 and 1.0 that gives an angle of reflection between 0° and 90°.
 Smooth
    This value specifies an angle over which a smooth transition from full to no reflection happens.
 Normal

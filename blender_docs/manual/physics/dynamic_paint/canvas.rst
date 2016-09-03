@@ -19,7 +19,7 @@ an eye icon is visible to toggle preview.
 The checkbox toggles whether surface is active at all. If not selected,
 no calculations or previews are done.
 
-You can also give each surface an unique name to easily identify them.
+You can also give each surface a unique name to easily identify them.
 
 Below you can set surface type and adjust quality and timing settings.
 

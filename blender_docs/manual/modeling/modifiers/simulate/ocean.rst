@@ -3,7 +3,7 @@
 Ocean Modifier
 **************
 
-The *Ocean Modifier* is a ocean simulation tool to simulate and generate a deforming ocean surface,
+The *Ocean Modifier* is an ocean simulation tool to simulate and generate a deforming ocean surface,
 and associated texture, used to render the simulation data.
 
 .. note::

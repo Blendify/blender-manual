@@ -88,7 +88,7 @@ Options
 OpenSubdiv
 ==========
 
-OpenSubdiv is a option of Subsurf modifier.
+OpenSubdiv is an option of the Subsurf modifier.
 When this option is enabled for Subsurf modifier from the very top of the modifier stack,
 evaluation will happen on the compute device selected in the User Preferences.
 Best performance will be achieved when using GLSL evaluation.
