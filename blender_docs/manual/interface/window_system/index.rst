@@ -8,7 +8,7 @@
    :maxdepth: 1
 
    introduction.rst
-   areas.rst
    screens.rst
-   headers.rst
+   areas.rst
+   regions.rst
    panels.rst
