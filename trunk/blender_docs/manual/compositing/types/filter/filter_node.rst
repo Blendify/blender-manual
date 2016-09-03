@@ -56,7 +56,5 @@ Example
 =======
 
 .. figure:: /images/tutorials-ntr-comfilternodeillustration.jpg
-   :width: 500px
-   :figwidth: 500px
 
    The Filter node has seven modes, shown here.

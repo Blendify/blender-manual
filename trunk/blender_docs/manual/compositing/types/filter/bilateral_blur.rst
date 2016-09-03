@@ -55,20 +55,19 @@ Image
 Examples
 ========
 
-.. figure:: /images/compositing_nodes-bilateralblur_ex3.jpg
-   :width: 250px
-   :figwidth: 250px
+.. list-table::
 
-   Bilateral smoothed buffered shadow.
+   * - .. figure:: /images/compositing_nodes-bilateralblur_ex1.jpg
+          :width: 320px
 
-.. figure:: /images/compositing_nodes-bilateralblur_ex1.jpg
-   :width: 250px
-   :figwidth: 250px
+          Bilateral smoothed AO.
 
-   Bilateral smoothed AO.
+     - .. figure:: /images/compositing_nodes-bilateralblur_ex2.jpg
+          :width: 320px
 
-.. figure:: /images/compositing_nodes-bilateralblur_ex2.jpg
-   :width: 250px
-   :figwidth: 250px
+          Bilateral faked blurry refraction+smoothed raytraced soft shadow.
 
-   Bilateral faked blurry refraction+smoothed raytraced soft shadow
+   * - .. figure:: /images/compositing_nodes-bilateralblur_ex3.jpg
+          :width: 320px
+
+          Bilateral smoothed buffered shadow.

@@ -60,12 +60,6 @@ Matte
 Example
 =======
 
-.. figure:: /images/composting-lumakey_ex.jpg
-   :width: 300px
-
-   Using Luma Key with a twist.
-
-
 For this example the model was shot against a *white* background.
 Using the Luminance Key node, we get a matte out where the background is white,
 and the model is black; the opposite of what we want.
@@ -75,7 +69,12 @@ and the right color to be Black Alpha 0.0. Thus, when the Color Ramp gets in bla
 it spits out white, and vice versa. The reversed mask is shown;
 her white outline is usable as an alpha mask now.
 
-Now to mix, we do not really need the *AlphaOver* node;
+.. figure:: /images/composting-lumakey_ex.jpg
+
+   Using Luma Key with a twist.
+
+
+Now to mix, we do not really need the *Alpha Over* node;
 we can just use the mask as our Factor input. In this kinda weird case,
 we can use the matte directly; we just switch the input nodes. As you can see,
 since the matte is white (1.0) where we do not want to use the model picture,

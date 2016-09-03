@@ -78,21 +78,22 @@ or as a straight RGBA image.
 Examples
 ========
 
-.. figure:: /images/compositing-alphaover-example.jpg
-   :width: 300px
-
-   Assembling a composite Image using AlphaOver.
-
-
 In this example, an image of a Cube is superimposed on a cliff background.
 Use the PreMultiply button, when the foreground image and background images have
 a combined Alpha that is greater than 1.00; otherwise, you will see an unwanted halo effect.
 The resulting image is a composite of the two source images.
 
-.. figure:: /images/compositing-alphaover-seethru.jpg
-   :width: 300px
+.. list-table::
 
-   Animated See-Through/Sheer SFX using AlphaOver on Frame 11.
+   * - .. figure:: /images/compositing-alphaover-example.jpg
+          :width: 320px
+
+          Assembling a composite Image using Alpha Over.
+
+     - .. figure:: /images/compositing-alphaover-seethru.jpg
+          :width: 320px
+
+          Animated See-Through/Sheer SFX using Alpha Over on Frame 11.
 
 
 In this example, we use the Factor control to make a sheer cloth or onion-skin effect.
@@ -101,4 +102,3 @@ This effect can be animate, allowing the observer to "see-through" walls
 In this example, over the course of 30 frames, the Time node makes the AlphaOver node produce
 a picture that starts with the background cliff image, and slowly bleeds through the cube.
 This example shows frame 11 just as the cube starts to be revealed.
-
