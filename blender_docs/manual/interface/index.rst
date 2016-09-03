@@ -5,18 +5,22 @@
 #################
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
    introduction.rst
 
 
-Editor Controls
-===============
+Window System
+=============
 
 .. toctree::
    :maxdepth: 1
 
-   window_system/index.rst
+   window_system/introduction.rst
+   window_system/screens.rst
+   window_system/areas.rst
+   window_system/regions.rst
+   window_system/panels.rst
 
 
 Interface Controls
