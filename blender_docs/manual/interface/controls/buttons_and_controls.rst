@@ -267,7 +267,7 @@ Header Menus
 
 Header menus are used to configure the editor and access tools.
 
-See :doc:`Headers </interface/window_system/headers>` for header options.
+See :ref:`ui-region-header` for header options.
 
 
 Pop-Up Menus
@@ -311,20 +311,20 @@ Data-blocks are items like meshes, objects, materials, textures, and so on.
    The Data-Block link menu with a search input.
 
 
-Data-Block type
+Type
    Shows an icon. Opens up the following pop-up menu.
 
    List
       A list of data-block available in the current blend-file or link in to select an item from.
       The menu may show a preview besides the items and
       a search box to search the items in the list by name.
-Data-block name
+Name
    Displays the name of the linked Data-Block, which can be edited as a regular text field.
 User count
    Displays the number of users of the data. Clicking on it to make it a single-user copy.
 Fake User "F"
    Saves this data-block data-block, even if it has no users.
-New "+"
+New/Add "+"
    Creates a new data-block or duplicates the current data-block and applies it.
 Open file
    Opens the :doc:`file-browser </editors/file_browser/introduction>`.

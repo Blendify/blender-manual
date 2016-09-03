@@ -33,8 +33,9 @@ Splitting
 .. figure:: /images/interface-window_system-arranging_areas-split_widget.jpg
 
 
-In the upper right and lower left corners of a area are the area splitter widgets,
+In the upper right and lower left corners of an area are the area splitter widgets,
 and they look like a little ridged thumb grip. It both splits and combines areas.
+
 When you hover over it, your cursor will change to a cross (✛).
 :kbd:`LMB` and drag it to the left to split the area vertically,
 or downward to split it horizontally.
@@ -44,26 +45,32 @@ Joining
 -------
 
 In order to merge two areas,
-they must be the same dimension in the direction you wish to merge. For example,
+they must be the same dimension in the direction you wish to merge.
+
+For example,
 if you want to combine two areas that are side-by-side, they must be the same height.
 If the one on the left is not the same as the one on the right,
 you will not be able to combine them horizontally.
 This is so that the combined area space results in a rectangle.
+
 The same rule holds for joining two areas that are stacked on top of one another;
 they must both have the same width. If the one above is split vertically,
 you must first merge those two, and then join the bottom one up to the upper one.
 
 .. figure:: /images/interface-window_system-arranging_areas-join_areas.png
    :width: 250px
+   
+   The Properties Editor is being merged "over" the Outliner.
 
 
 To merge the current area with the one above it
-(in the picture the Properties Editor is being merged "over" the Outliner),
 hover the mouse pointer over the area splitter. When the pointer changes to a cross,
 :kbd:`LMB` click and drag up to begin the process of combining.
 The upper area will get a little darker, overlaid with an arrow pointing up.
 This indicates that the lower (current) area will "take over" that darkened area space.
-Let go of the :kbd:`LMB` to merge. If you want the reverse to occur,
+Let go of the :kbd:`LMB` to merge.
+
+If you want the reverse to occur,
 move your mouse cursor back into the original (lower) area,
 and it will instead get the overlay arrow.
 

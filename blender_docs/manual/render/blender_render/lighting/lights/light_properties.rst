@@ -12,11 +12,13 @@ Lights Common Options
 
 There are five types of lamps in Blender. They share all or some of the options listed here:
 
+
 Object Data
 ===========
 
 Lamp
-   The Data-block menu. 
+   A Data-block menu. Its list shows all light settings used in the current scene.
+
 
 Preview
 =======
