@@ -1,3 +1,4 @@
+.. Editors Note: This page gets copied into :doc:`</editors/uv_image/masking>`
 
 *******
 Masking
