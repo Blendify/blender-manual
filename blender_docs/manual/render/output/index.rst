@@ -11,4 +11,4 @@
    video.rst
    audio.rst
    metadata.rst
-   play_animation.rst
+   animation_player.rst

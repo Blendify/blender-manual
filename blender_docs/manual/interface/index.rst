@@ -20,7 +20,7 @@ Window System
    window_system/screens.rst
    window_system/areas.rst
    window_system/regions.rst
-   window_system/panels.rst
+   window_system/tabs_panels.rst
 
 
 Interface Controls
