@@ -39,7 +39,7 @@ with a few specificities:
   - To select all bones belonging to the same layer(s) as the selected ones,
     use the *In Same Layer* entry :kbd:`Shift-G-Numpad2`.
 
-.. figure:: /images/rigging-selectgrouped.png
+.. figure:: /images/rigging_posing_editing_select-grouped-menu.png
 
    The Select Grouped pop-up menu.
 
@@ -304,7 +304,7 @@ however, this should give a good idea of the problem:
 .. _fig-rig-pose-edit-scale:
 
 .. figure:: /images/rigging_posing_editing_bones-relationships-7.png
-   :width: 200px
+   :width: 320px
 
    Scaling bones, some of them related.
 

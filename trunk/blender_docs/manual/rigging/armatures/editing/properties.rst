@@ -15,9 +15,9 @@ Editing Bone Properties
 Transforming Bones
 ==================
 
-.. figure:: /images/riggingtransformpropertiespaneleditmode.png
+.. figure:: /images/rigging_armatures_editing_properties_transform-panel.png
    :align: right
-   :figwidth: 160px
+   :figwidth: 165px
 
    The Transform panel for armatures in Edit Mode.
 
@@ -252,8 +252,7 @@ Properties
    | Menu:     :menuselection:`Armature --> Bone Settings --> ...`
    | Hotkey:   :kbd:`Shift-W`, :kbd:`Ctrl-Shift-W`, :kbd:`Alt-W`
 
-.. figure:: /images/riggingeditingcxtarmaturebonespaneleditmode.png
-   :width: 250px
+.. figure:: /images/rigging_armatures_editing_properties_bone-panel-edit-mode.png
 
    The Armature Bones panel in Edit Mode.
 
@@ -311,8 +310,7 @@ Bone Rigidity
    | Mode:     Edit and Pose Mode
    | Panel:    Armature
 
-.. figure:: /images/riggingeditingcxtarmaturebonespanelposemode.png
-   :width: 250px
+.. figure:: /images/rigging_armatures_editing_properties_bone-panel-pose-mode.png
 
    The Armature Bones panel in Pose Mode.
 

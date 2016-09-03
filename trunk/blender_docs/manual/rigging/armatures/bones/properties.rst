@@ -51,7 +51,7 @@ Display panel lets you customize the look of your bones taking the shape of a an
 Deform
 ======
 
-.. figure:: /images/riggingeditingbonecxtdeformpanel.png
+.. figure:: /images/rigging_armatures_bones_properties_deform-panel.png
 
    The Deform panel.
 
@@ -71,18 +71,18 @@ Transform
 
 .. Todo, images are the same
 
-.. figure:: /images/riggingeditingbonecxttransformpanel.png
+.. figure:: /images/rigging_armatures_bones_properties_transform-panel-edit.png
 
-   The Transform panel(edit mode).
+   The Transform panel (edit mode).
 
 
 When in edit mode you can use this panel to control position and roll of individual bones.
 
 When in pose mode you can only set location for the main bone, and you can now set rotation and scale.
 
-.. figure:: /images/riggingeditingbonecxttransformppanel.png
+.. figure:: /images/rigging_armatures_bones_properties_transform-panel-pose.png
 
-   The Transform panel(pose mode).
+   The Transform panel (pose mode).
 
 .. note::
 
