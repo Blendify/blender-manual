@@ -78,7 +78,7 @@ Screen Elements
    :width: 350
 
 The Blender window is organized into one or more *Areas* with each area containing an *Editor*.
-Editors are divided into a `Header`_ and one or more `Regions`_.
+Editors are divided into :doc:`/interface/window_system/regions`.
 Regions can have smaller structuring elements like `panels`_ with buttons,
 controls and widgets placed within them.
 
@@ -107,45 +107,6 @@ The image below shows the 3D View as an example of an editor.
 
    Green: Main Region, red left top: Tool Shelf, red left bottom: Operator Panel, 
    red right: Properties Region, purple: Header.
-
-Editors are consistently organized into following parts:
-
-
-Regions
--------
-
-At least one region of an editor is always visible.
-It is called the main region and is the most prominent part of the editor.
-
-Aside from that there can be more regions available.
-In the 3D View these are the *Tool Shelf* on the left side and
-the *Properties Region* on the right side.
-Additional regions mostly show context-sensitive content.
-
-Each editor has a specific purpose, so the main region and
-the availability of additional regions are different between editors.
-See specific documentation about each editor in the
-:doc:`Editors </editors/index>` chapter.
-
-.. list-table:: Useful Hotkeys
-   :widths: 15 85
-
-   * - :kbd:`T`
-     - Toggle visibility of Tool Shelf Region.
-   * - :kbd:`N`
-     - Toggle visibility of Properties Region.
-   * - :kbd:`F5`
-     - Flip the Region under the mouse pointer to the opposite side.
-
-
-Header
-------
-
-A header is a small horizontal part of an editor and sits either at the top or bottom of the area.
-It acts as a container for menus and commonly used tools.
-Much like additional regions the header can be hidden.
-
-See: :doc:`Headers </interface/window_system/headers>` for details.
 
 
 Panels
