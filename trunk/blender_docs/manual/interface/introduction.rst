@@ -79,7 +79,7 @@ Screen Elements
 
 The Blender window is organized into one or more *Areas* with each area containing an *Editor*.
 Editors are divided into :doc:`/interface/window_system/regions`.
-Regions can have smaller structuring elements like `panels`_ with buttons,
+Regions can have smaller structuring elements like :ref:`ui-panels` with buttons,
 controls and widgets placed within them.
 
 The composition of various Areas with predefined Editors in them is
@@ -108,59 +108,3 @@ The image below shows the 3D View as an example of an editor.
    Green: Main Region, red left top: Tool Shelf, red left bottom: Operator Panel, 
    red right: Properties Region, purple: Header.
 
-
-Panels
-======
-
-.. figure:: /images/getting_started-basics_interface_introduction_06.png
-   :align: right
-
-   Tool Self panels.
-
-   Orange: Panel Headers.
-
-The smallest organizational unit in the user interface is a panel,
-which can be collapsed to hide its contents by clicking on its header.
-This is where the buttons, menus, checkboxes, etc. are located.
-
-Panels are usually found in the side regions of an editor,
-but also make up most of the :doc:`Properties Editor </editors/properties/index>`.
-
-In the image on the right there are three panels: *Transform*, *Edit* and *History*.
-The *Edit* panel is expanded and the other two panels are collapsed.
-Note that you can change the order of panels by clicking
-on the handle in the upper right corner of a panel's title.
-
-See: :doc:`panels </interface/window_system/panels>` for details.
-
-.. container:: lead
-
-   .. clear
-
-
-Tabs
-====
-
-.. figure:: /images/getting_started-basics_interface_introduction_07.png
-   :align: right
-
-
-The *Tool Shelf* has been further structured
-into a set of context sensitive vertical tabs.
-
-In the image to the right you can see the tabs: *Tools*, *Create*, etc.
-The *Tools* tab is currently selected, showing a set of panels containing various tools.
-
-
-Pinning
--------
-
-Often it is desirable to view panels from different tabs at the same time.
-This has been solved by making panels pinnable.
-
-A pinned panel remains visible regardless of which tab has been selected.
-You can pin a panel by :kbd:`Shift` clicking its header,
-or by right clicking on the header and choosing *Pin*.
-
-In the image shown to the right, 
-is an example of the *Mesh Options* pinned in the tools tab.
