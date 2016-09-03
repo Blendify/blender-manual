@@ -38,15 +38,16 @@ Image
 Notes
 =====
 
-.. figure:: /images/nodes-brightclamp.jpg
-   :width: 320px
-
-
 It is possible that this node will put out a value set that has values beyond the normal range,
 i. e. values greater than one and less than zero.
 If you will be using the output to mix with other images in the normal range,
 you should clamp the values using the Map Value node (with the Min and Max enabled),
 or put through a ColorRamp node (with all normal defaults).
+
+.. figure:: /images/nodes-brightclamp.jpg
+   :width: 320px
+
+   Image clipping.
 
 Either of these nodes will scale the values back to normal range. In the example image,
 we want to amp up the specular pass.
@@ -58,4 +59,4 @@ Map Value or the ColorRamp produces the desired effect.
 .. figure:: /images/nodes-brightcontrast.png
    :width: 320px
 
-   A basic example
+   A basic example.

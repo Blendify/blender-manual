@@ -72,20 +72,22 @@ Examples
 Using Image output
 ------------------
 
-   This can simply be achieved by using the alpha over node.
+This can simply be achieved by using the alpha over node.
 
 .. figure:: /images/compositing_nodes_distort_planetrackdeform_example_image_output.png
 
    Image output.
 
+
 Using Plane output
 ------------------
 
-   This can be achieved by mixing the movie clip and the image using the plane output as the factor.
+This can be achieved by mixing the movie clip and the image using the plane output as the factor.
 
 .. figure:: /images/compositing_nodes_distort_planetrackdeform_example_plane_output.png
 
    Plane output.
+
 
 Using Image output vs using original image
 ==========================================
