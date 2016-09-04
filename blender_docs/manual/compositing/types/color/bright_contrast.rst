@@ -56,7 +56,7 @@ the specular pass has valued much less than one in the dark areas;
 when added to the medium gray, it makes black. Passing the brightened image through either the
 Map Value or the ColorRamp produces the desired effect.
 
-.. figure:: /images/nodes-brightcontrast.png
+.. figure:: /images/nodes-brightcontrast.jpg
    :width: 320px
 
    A basic example.

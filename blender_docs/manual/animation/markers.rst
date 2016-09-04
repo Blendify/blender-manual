@@ -50,7 +50,7 @@ Sequencer
 The *Video Sequence Editor* just adds a vertical dashed line to each marker
 (gray if the marker is unselected, or white if it is selected).
 
-.. figure:: /images/sequencer-markers.png
+.. figure:: /images/sequencer-markers.jpg
    :align: center
 
    Markers in the Sequencer.

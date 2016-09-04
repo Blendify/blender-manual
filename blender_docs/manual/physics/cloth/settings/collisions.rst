@@ -131,7 +131,7 @@ soft bodies, and cloth).
 Mesh Object Modifier Stack
 ==========================
 
-.. figure:: /images/simulation-cloth-colliderstack.png
+.. figure:: /images/simulation-cloth-colliderstack.jpg
    :width: 200px
 
    Collision stack.
@@ -155,7 +155,7 @@ See :doc:`Particle Cache </physics/particles/properties/cache>` for details.
 Bake Collision
 --------------
 
-.. figure:: /images/simulation-cloth-collisionbake.png
+.. figure:: /images/simulation-cloth-collisionbake.jpg
    :width: 200px
 
    After Baking.

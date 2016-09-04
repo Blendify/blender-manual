@@ -57,6 +57,6 @@ Fac
 Example
 =======
 
-.. figure:: /images/compositing-time.png
+.. figure:: /images/compositing-time.jpg
 
    Time controls from left to right: no effect, slow down, freeze, accelerate, reverse
