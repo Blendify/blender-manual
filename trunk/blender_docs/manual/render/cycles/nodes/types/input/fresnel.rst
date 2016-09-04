@@ -28,7 +28,7 @@ Inputs
 ======
 
 IOR
-   Index of refraction (term:`IOR`) of the material being entered.
+   Index of refraction (:term:`IOR`) of the material being entered.
 Normal
    Todo.
 
