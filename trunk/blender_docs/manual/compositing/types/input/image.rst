@@ -22,32 +22,8 @@ Properties
 ==========
 
 Image
-   Selection of different type of media. See source below. For controls see :ref:`ui-data-block`.
-Source
-   Single Image
-      Still image or a single frame.
-   Image Sequence
-      Each frame is stored in a separate file.
-
-      Frame
-         A label showing the current frame.
-      further options
-         see: Movie below
-   Movie
-      Frames packed into a container.
-
-      Frames
-         The range of frames to be shown.
-      Start Frame
-         The frame of the global sequence, when the playback should start.
-      Offset
-         Offsets the first frame of the clip.
-      Cyclic
-         Start over and repeats after the last frame to create a continuous loop.
-      Auto-Refresh
-         If the file is updated, the compositor re-renders.
-   Generated
-      Images generated in Blender or preloaded.
+   Selection of different type of media. For controls see :ref:`ui-data-block`.
+   For the options see :doc:`/editors/uv_image/image/image_settings`. 
 
 .. note::
 
