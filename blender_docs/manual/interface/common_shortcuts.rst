@@ -87,7 +87,7 @@ While Hovering (when the cursor is held over a button).
 - :kbd:`Ctrl-Backspace`, :kbd:`Ctrl-Delete` - delete words.
 - Holding :kbd:`Shift` - while moving the cursor selects.
 - :kbd:`Ctrl-C` - copy the selected text.
-- :kbd:`Ctrl-V` - paste test at the cursor location.
+- :kbd:`Ctrl-V` - paste text at the cursor location.
 - :kbd:`Ctrl-A` - selects all text.
 
 .. rubric:: All Modes

@@ -4,7 +4,7 @@ Recovering Data
 ***************
 
 Blender provides a number of ways for the user to recover from mistakes,
-and reduce the chance of losing their work in the event of operation errors,
+and reduce the chance of losing his work in the event of operation errors,
 computer failures, or power outages.
 There are two ways for you to recover from mistakes or problems:
 

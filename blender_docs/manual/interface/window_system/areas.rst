@@ -14,7 +14,7 @@ Arranging
 
 Blender uses a novel screen-splitting approach to arrange areas.
 The idea is that you split up that big application window into any number of smaller
-(but still rectangular) non-overlapping area. That way,
+(but still rectangular) non-overlapping areas. That way,
 each area is always fully visible,
 and it is very easy to work in one area and hop over to work in another.
 
