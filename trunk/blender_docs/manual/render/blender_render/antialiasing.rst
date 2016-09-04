@@ -22,7 +22,7 @@ Options
 =======
 
 Anti-Aliasing (check box)
-   Enables oversampling
+   Enables oversampling.
 
 5, 8, 11, 16
    The number of samples to use. The values 5, 8, 11, 16 are preset numbers in specific sample patterns;
@@ -31,8 +31,8 @@ Anti-Aliasing (check box)
 By default, we use in Blender a fixed "Distributed Jitter" table. The samples within a pixel
 are distributed and jittered in a way that guarantees two characteristics:
 
-- Each sample has equal distances to its neighbor samples
-- The samples cover all sub-pixel positions equally, both horizontally and vertically
+- Each sample has equal distances to its neighbor samples.
+- The samples cover all sub-pixel positions equally, both horizontally and vertically.
 
 The images below show Blender sample patterns for 5, 8, 11 and 16 samples.
 To show that the distribution is equalized over multiple pixels, the neighbor pixel patterns were drawn as well.
@@ -77,26 +77,26 @@ and therefore could influence the color of the neighbor pixel(s) as well.
 Filter menu: Set The filter type to use to 'average' the samples:
 
 Box
-   A low-quality box-shaped curve
+   A low-quality box-shaped curve.
 
    .. note::
 
       This filter is relatively low quality.
-      you can see that only the samples within the pixel itself are added to the pixel's color.
+      You can see that only the samples within the pixel itself are added to the pixel's color.
       For the other filters,
       the formula ensures that a certain amount of the sample color gets distributed over the other pixels as well.
 Tent
-   A simplistic filter that gives sharp results
+   A simplistic filter that gives sharp results.
 Quadratic
-   A Quadratic curve
+   A Quadratic curve.
 Cubic
-   A Cubic curve
+   A Cubic curve.
 Gauss
-   Gaussian distribution, the most blurry
+   Gaussian distribution, the most blurry.
 Catmull-Rom
-   Catmull-Rom filter, gives the most sharpening
+   Catmull-Rom filter, gives the most sharpening.
 Mitchell-Netravali
-   a good all-around filter that gives reasonable sharpness
+   A good all-around filter that gives reasonable sharpness.
 
 
 .. list-table::
