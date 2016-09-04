@@ -10,7 +10,7 @@ These tools can be used to remove components.
 Delete
 ======
 
-Delete kbd:`X`, :kbd:`Delete`
+Delete :kbd:`X`, :kbd:`Delete`
    Deletes selected vertices, edges, or faces. This operation can also be limited to:
 
    Vertices

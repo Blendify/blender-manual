@@ -333,7 +333,7 @@ In this arrangement, you can zoom and pan each view independently but you cannot
 Options
 -------
 
-These options can be found in menuselection:`Properties region --> Display`.
+These options can be found in :menuselection:`Properties region --> Display`.
 
 Lock
    If you want to be able to rotate each view, you can un-check the *Locked* option.
