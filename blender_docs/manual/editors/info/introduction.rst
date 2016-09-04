@@ -51,7 +51,10 @@ Resource Information
       The object type of the current selected active object.
 
 
-Console
-=======
+Report Console
+==============
 
-When the Info Editors area is scaled up it reveals the Blender console, where a log is displayed.
+When the Info Editors area is scaled up it reveals the Report console,
+where a scripting trail is displayed.
+Whenever an operator has been executed, it leaves a report in the console.
+
