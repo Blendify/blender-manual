@@ -57,7 +57,7 @@ As a result, unless a term has an evident translation,
 you should preferably use the English one, *putting it in italic*.
 You can then find a translation for it, which you will use from times to times (e.g. to avoid repetitions...).
 This is also valid in the other way: even when a term has a straightforward translation,
-do not hesitate to use its English version from times to times, to gets the reader used with it...
+do not hesitate to use its English version from times to times, to get the reader used with it...
 
 If a term is definitively not translatable, simply use the English one,
 but make sure its manual entry is translated.

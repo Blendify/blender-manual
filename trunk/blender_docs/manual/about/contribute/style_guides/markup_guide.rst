@@ -151,7 +151,7 @@ Usage Guides
 - Avoid specifying the resolution of the image or its alignment, so that the theme can handle the images consistently
   and provide the best layout across different screen sizes.
 - When documenting a panel or section of the UI,
-  it is better to use a single image that shows all of the relevant area
+  it is better to use a single image that shows all of the relevant areas
   (rather than multiple images for each icon or button) placed at the top of the section you are writing,
   and then explain the features in the order that they appear in the image.
 

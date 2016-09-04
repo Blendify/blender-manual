@@ -41,13 +41,13 @@ In this guide, we will use TortoiseSVN though any Subversion client will do.
 Setting up the Build Environment
 ================================
 
-- Open a command prompt and change to the repository folder using
+- Open a command prompt and change to the repository folder using:
 
    .. code-block:: sh
 
       cd C:\blender_docs
 
-- Install the all the dependencies using Python's ``pip`` command
+- Install all the dependencies using Python's ``pip`` command:
 
    .. code-block:: sh
 
