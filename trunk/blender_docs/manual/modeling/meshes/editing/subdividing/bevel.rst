@@ -47,7 +47,7 @@ and scroll the :kbd:`Wheel` to increase or decrease the number of segments. (see
 
 .. list-table::
 
-   * - .. figure:: /images/bevel1.png
+   * - .. figure:: /images/bevel1.jpg
           :width: 200px
 
           Selected edge before beveling.

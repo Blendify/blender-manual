@@ -14,7 +14,7 @@ and activate a material for editing in the rest of the panels.
 Tab
 ===
 
-.. figure:: /images/material-matmenu-matadded-objectmode.png
+.. figure:: /images/material-matmenu-matadded-objectmode.jpg
 
    Material panel.
 

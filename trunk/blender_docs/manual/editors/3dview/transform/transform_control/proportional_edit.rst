@@ -94,7 +94,7 @@ Options
 
          Proportional Editing tool.
 
-     - .. figure:: /images/editors_3dview_transform-control_proportional-edit-falloff-options.png
+     - .. figure:: /images/editors_3dview_transform-control_proportional-edit-falloff-options.jpg
          :width: 200px
 
          Falloff menu.

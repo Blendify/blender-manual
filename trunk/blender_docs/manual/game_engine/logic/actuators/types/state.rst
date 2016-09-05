@@ -19,7 +19,7 @@ Special Options:
 
    State actuator.
 
-.. figure:: /images/bge_actuator_state_options.png
+.. figure:: /images/bge_actuator_state_options.jpg
    :width: 271px
 
    State actuator options.
