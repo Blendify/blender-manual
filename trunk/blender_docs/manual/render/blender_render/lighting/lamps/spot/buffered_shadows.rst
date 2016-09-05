@@ -181,7 +181,7 @@ Sample Buffers
 
    The default 1 value will disable this option.
 
-   Higher values will produce a smoother anti-aliasing -
+   Higher values will produce a smoother anti-aliasing --
    but be careful: using a *Sample Buffers* of 4 will require four times as much memory and process time,
    and so on, as Blender will have to compute that number of sample buffers.
 

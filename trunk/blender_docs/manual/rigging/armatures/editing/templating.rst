@@ -94,7 +94,7 @@ OK now, here are some important ground rules:
 - This conversion method can use as reference bones either the selected bones in the *currently* edited armature,
   or *all* bones from another armature.
   In general, it is a better idea to create new "templated" bones inside the "reference"
-  armature, so you can precisely select which bones to use as template -
+  armature, so you can precisely select which bones to use as template --
   if you want the new bones in a different armature, you can then use the *Separate*
   :kbd:`Ctrl-Alt-P` and optionally *Join* (:kbd:`Ctrl-J` in *Object Mode*) commands...
 - This tool only considers *one* chain of bones,
@@ -103,7 +103,7 @@ OK now, here are some important ground rules:
   Else, the chain of the template containing the first created bones will be mapped to the
   selected strokes, and the other chains will just be "copied" *as is*, without any modification.
 - This tool maps the same chain of bones on all selected strokes,
-  so you cannot use multiple strokes to map a multi-chains template -
+  so you cannot use multiple strokes to map a multi-chains template --
   you will rather get a whole set of new bones for each selected stroke!
 - If you have strokes only made of straight segments,
   they must have *at least* as much segments as there are bones in the template chain
@@ -249,7 +249,7 @@ Static text line
    - The *n* ``joints`` part gives you the number of joints
      (i.e. bones' ends, with connected ends considered as one joint),
      either from the selected bones of the edited armature, or in the whole other template armature.
-   - The second part is only present when another armature has been selected as template -
+   - The second part is only present when another armature has been selected as template --
      it gives you the *root bone's name* of the chain that will be mapped to the strokes.
      Or, while you are drawing a stroke with straight segments,
      the name of the bone corresponding to the current segment

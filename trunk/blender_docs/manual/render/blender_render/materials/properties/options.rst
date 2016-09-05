@@ -30,8 +30,8 @@ Light Group
    Limit lighting to lamps in this
    :doc:`light group </render/blender_render/lighting/lights/lights_in_other_contexts>`.
 Exclusive
-   Uses the :doc:`light group </render/blender_render/lighting/lights/lights_in_other_contexts>` exclusively -
-   these lamps are excluded from other scene lighting
+   Uses the :doc:`light group </render/blender_render/lighting/lights/lights_in_other_contexts>` exclusively.
+   These lamps will be excluded from other scene lighting.
 Local
    When linked in, uses local
    :doc:`light group </render/blender_render/lighting/lights/lights_in_other_contexts>` with the same name.

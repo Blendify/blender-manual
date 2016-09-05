@@ -47,7 +47,7 @@ generate the texture. This list includes the original Blender noise algorithm.
 The *Noise Basis* settings makes the procedural textures extremely flexible
 (especially *Musgrave*).
 
-The *Noise Basis* governs the structural appearance of the texture :
+The *Noise Basis* governs the structural appearance of the texture:
 
 
 .. list-table::
@@ -102,14 +102,14 @@ The *Noise Basis* governs the structural appearance of the texture :
 
           Voronoi F4.
 
-     -
+     - ..
 
-     -
+     - ..
 
 
 There are two more possible settings for *Noise Basis*,
 which are relatively similar to *Blender Original*:
-Improved Perlin and Original Perlin
+Improved Perlin and Original Perlin.
 
 
 Nabla

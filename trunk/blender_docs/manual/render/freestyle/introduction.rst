@@ -11,8 +11,8 @@ It relies on mesh data and z-depth information to draw lines on selected edge ty
 Various line styles can be added to produce artistic ("hand drawn", "painted", etc.)
 or technical (hard line) looks.
 
-The two operating modes - :doc:`Python Scripting </render/freestyle/python>` and
-:doc:`Parameter Editor </render/freestyle/parameter_editor/index>` -
+The two operating modes: :doc:`Python Scripting </render/freestyle/python>` and
+:doc:`Parameter Editor </render/freestyle/parameter_editor/index>` --
 allow a powerful diversity of line styles and results. Line styles such as Japanese big brush, cartoon, blueprint,
 thickness-with-depth are already pre-scripted in Python. The Parameter Editor mode allows intuitive editing of
 features such as dotted lines and easy setup of multiple line types and edge definitions. On top of all of that,

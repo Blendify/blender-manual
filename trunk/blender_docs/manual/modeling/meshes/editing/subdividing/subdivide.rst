@@ -32,7 +32,7 @@ following a few rules, depending on the settings:
 
 - When three edges of a face are selected:
 
-  - If the face is a triangle, this means the whole face is selected -
+  - If the face is a triangle, this means the whole face is selected and
     it is then sub-divided in four smaller triangles.
   - If the face is a quad, first the two opposite edges are subdivided as described above.
     Then, the "middle" edge is subdivided, affecting its new "sub-quad" as described above for only one edge.

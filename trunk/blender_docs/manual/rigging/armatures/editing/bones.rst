@@ -81,7 +81,7 @@ so you can place them to your liking. See Fig. :ref:`fig-rig-bones-extrusion`.
 
 
 You also can use the rotating/scaling extrusions,
-as with meshes, by pressing respectively :kbd:`E-R` and :kbd:`E-S` -
+as with meshes, by pressing respectively :kbd:`E-R` and :kbd:`E-S` --
 as well as :doc:`locked </editors/3dview/transform/transform_control/precision/axis_locking>`
 extrusion along a global or local axis.
 
@@ -106,7 +106,7 @@ But once you have enabled the X-Axis mirror editing option
 (see `X-Axis Mirror Editing`_),
 each extruded tip will produce *two new bones*, having the same name except for the "_L"/ "_R" suffix
 (for left/right, see the :ref:`next page <armature-editing-naming-conventions>`).
-The "_L" bone behaves like the single one produced by the default extrusion -
+The "_L" bone behaves like the single one produced by the default extrusion --
 you can grab/rotate/scale it exactly the same way.
 The "_R" bone is its mirror counterpart (along the armature's local X axis), see Fig. :ref:`fig-rig-bone-mirror`.
 

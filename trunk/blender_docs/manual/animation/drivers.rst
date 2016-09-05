@@ -342,7 +342,7 @@ relationships between your shape keys.
 
    * - .. figure:: /images/driver_for_multiple_shape_keys_extended.png
 
-     -
+     - ..
 
 
 The Basis shape key has the stacks fully retracted. Key1 has the base fully extended.

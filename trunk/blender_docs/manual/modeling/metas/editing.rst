@@ -129,8 +129,8 @@ To convert the meta, press :kbd:`Alt-C` in *Object Mode*, and select *mesh*
 Object Families
 ===============
 
-*Meta* objects have different behavior in *Object Mode* than other object types -
-they can be "regrouped" into so-called "families".
+*Meta* objects have different behavior in *Object Mode* than other object types.
+They can be "regrouped" into so-called "families".
 
 A "family" is a way to regroup several meta objects,
 producing something very similar to having several metas inside the same object.

@@ -81,8 +81,8 @@ Locking to the scene
 --------------------
 
 By default, the lock button directly to the right of the layer buttons is enabled.
-This means that changes to the viewed layers affect all other 3D Views locked to the scene -
-see the :doc:`navigating the 3D View options page </editors/3dview/navigate/index>` for more information.
+This means that changes to the viewed layers affect all other 3D Views locked to the scene.
+See the :doc:`navigating the 3D View options page </editors/3dview/navigate/index>` for more information.
 
 
 Multiple Layers

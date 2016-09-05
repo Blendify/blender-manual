@@ -129,7 +129,7 @@ Mitchell-Netravali
 
           Mitchell-Netravali.
 
-     -
+     - ..
 
 
 Filter Size

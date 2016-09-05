@@ -6,7 +6,7 @@ Editing Bone Properties
 
 .. tip::
 
-   In this page, you will learn how to edit and control most of the properties for Blender bones -
+   In this page, you will learn how to edit and control most of the properties for Blender bones --
    For editing bones in an armature,
    you should read the :doc:`previous page </rigging/armatures/editing/bones>` first.
    We will see how to manage the bones' relationships (`Chain Editing`_), rename them (`Naming Bones`_), etc.
@@ -104,7 +104,7 @@ ScaleB and Envelope
 It has different behavior depending on the active visualization, as explained below:
 
 In *Envelope* visualization, it allows you to edit the influence of the selected bones
-(their *Dist* property, see the :doc:`skinning part </rigging/skinning/index>`) -
+(their *Dist* property, see the :doc:`skinning part </rigging/skinning/index>`) --
 as with the "standard" scaling with this visualization (see the previous section),
 this is an one-value property, so there is no axis locking and such.
 
@@ -388,7 +388,7 @@ To parent and/or connect bones, you can:
 
   .. note::
 
-      With this method, the newly-children bones will not be scaled nor rotated -
+      With this method, the newly-children bones will not be scaled nor rotated --
       they will just be translated if you chose to connect them to their parent's tip.
 
 - In the Properties editor, *Armature Bones* panel, for each selected bone,
@@ -397,7 +397,7 @@ To parent and/or connect bones, you can:
 
   .. note::
 
-      With this method, the tip of the child bone will never be translated -
+      With this method, the tip of the child bone will never be translated --
       so if *Con* is enabled, the child bone will be completely transformed by the operation.
 
 

@@ -53,7 +53,7 @@ Limit X, LimitY, LimitZ
 For Transform
    We saw that by default, even though visually constrained, the owner can still have rotations out of bounds
    (as shown by the *Transform Properties* panel).
-   Well, when you enable this button, this is no more possible -
+   Well, when you enable this button, this is no more possible --
    the owner transform properties are also limited by the constraint.
    Note however, that the constraint does not directly modifies the rotation values:
    you have to rotate one way or the other its owner, for this to take effect...

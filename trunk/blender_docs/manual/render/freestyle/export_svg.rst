@@ -33,8 +33,12 @@ Split at Invisible
    Some stroke modifiers, like Blueprint, mark vertices as invisible to achieve a certain effect. Enabling this
    option will make the paths split when encountering an invisible vertex, which leads to a better result.
 Fill Contours
-   The contour of objects is filled with their material color. Note that this features is somewhat unstable -
-   especially with animations.
+   The contour of objects is filled with their material color. 
+
+   .. note::
+
+      This features is somewhat unstable -- especially with animations.
+
 Stroke Cap Style
    Defines the style the stroke caps will have in the SVG output.
 
@@ -58,8 +62,8 @@ The properties that can be exported are:
 Animations
 ==========
 
-The exporter supports the creation of SVG animations. When the Mode is set to Animation, all frames from a render -
-one when rendering a frame (:kbd:`F12`) or all when rendering an animation (:kbd:`Shift-F12`) - into a single file.
+The exporter supports the creation of SVG animations. When the Mode is set to Animation, all frames from a render --
+one when rendering a frame (:kbd:`F12`) or all when rendering an animation (:kbd:`Shift-F12`) -- into a single file.
 Most modern browsers support the rendering of SVG animations.
 
 .. figure:: /images/render-freestyle_svg_rotating_cube.svg

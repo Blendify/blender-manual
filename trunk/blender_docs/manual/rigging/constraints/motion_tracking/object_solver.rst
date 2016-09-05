@@ -31,17 +31,17 @@ Options
 
 
 Active Clip
-   Recieve tracking data from the active movie clip in the movie clip editor.
+   Receive tracking data from the active movie clip in the movie clip editor.
    If unchecked, an option appears to choose from the other clips.
 Object
-   Select a tracked object to recieve transform data from.
+   Select a tracked object to receive transform data from.
 Camera
    Select the camera to which the motion is parented to (if active empty scene camera is used)
 Set Inverse
    Moves the origin of the object to the origin of the camera
 Clear Inverse
-   Moves the origin of the object back to the spot set in the -
-   Movie Clip Editor:(t)tool shelf-->Solve-->Orientation-->Set Origin.
+   Moves the origin of the object back to the spot set in the
+   Movie Clip Editor :menuselection:`Tool Shelf --> Solve --> Orientation --> Set Origin`.
 Constraint to F-Curve
    Applies the constraint, creating keyframes for the transforms.
 Influence

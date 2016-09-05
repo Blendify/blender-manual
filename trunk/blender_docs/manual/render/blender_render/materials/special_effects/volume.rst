@@ -362,8 +362,8 @@ Step Size
    Step Sizes determine how noisy the volume is.
    Higher values result in lower render times and higher noise.
 Depth Cutoff
-   Stop ray marching early if transmission drops below this luminance -
-   higher values give speedups in dense volumes at the expense of accuracy.
+   Stop ray marching early if transmission drops below this luminance threshold.
+   Higher values will give a speedups in dense volumes at the expense of accuracy.
 
 
 Options

@@ -51,8 +51,8 @@ If most of the light striking a surface is reflected diffusely, the surface will
 
 .. tip:: Shader Names
 
-   Some shaders' names may sound odd -
-   they are traditionally named after the people, who first introduced the models on which they are based.
+   Some shaders are -- traditionally -- named after the people,
+   who first introduced the models on which they are based.
 
 
 Lambert

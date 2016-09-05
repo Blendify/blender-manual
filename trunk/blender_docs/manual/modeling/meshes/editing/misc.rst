@@ -24,7 +24,7 @@ Cursor Distance
    Sort from nearest to farthest away from the 3D cursor position (*Reverse* also available).
 
 Material
-   **Faces only!** Sort faces from those having the lowest material's index to those having the highest.
+   Sort faces, and faces only, from those having the lowest material's index to those having the highest.
    Order of faces inside each of those "material groups" remains unchanged.
    Note that the *Reverse* option only reverses the order of the materials,
    *not* the order of the faces inside them.
@@ -32,11 +32,11 @@ Material
 Selected
    Move all selected elements to the beginning (or end, if *Reverse* enabled),
    without affecting their relative orders.
-   **Warning: this option will also affect unselected elements' indices!**
+   Warning: This option will also affect **unselected** elements' indices!
 
 Randomize
    Randomizes indices of selected elements (*without* affecting those of unselected ones).
-   The seed option allows you to get another randomization -
+   The seed option allows you to get another randomization --
    the same seed over the same mesh/set of selected elements will always give the same result!
 
 Reverse
@@ -46,7 +46,7 @@ Reverse
 .. note:: To enable viewing indeces:
 
    Type "bpy.app.debug = True" into the Python Console and a checkbox will appear in the
-   properties region under :menuselection:`Mesh Display --> Edge Info --> Indeces`
+   properties region under :menuselection:`Mesh Display --> Edge Info --> Indices`
 
 
 Join
