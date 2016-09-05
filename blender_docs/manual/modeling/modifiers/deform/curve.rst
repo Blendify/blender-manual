@@ -72,7 +72,7 @@ Let us make a simple example:
 
    If you press :kbd:`MMB` while moving the Monkey you will constrain the movement to one axis only.
 
-.. figure:: /images/curvesdeform_examplemonkeyoncurve2.png
+.. figure:: /images/curvesdeform_examplemonkeyoncurve2.jpg
    :width: 250px
 
    Monkey deformations.

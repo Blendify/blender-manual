@@ -18,7 +18,7 @@ See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>`
 Special Options:
 The actuator has eight modes:
 
-.. figure:: /images/bge_actuator_scene_options.png
+.. figure:: /images/bge_actuator_scene_options.jpg
    :width: 257px
 
    Scene actuator options.
