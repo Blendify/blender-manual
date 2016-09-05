@@ -96,7 +96,7 @@ Properties Region
 =================
 
 The *Properties Region* is by default on the right side.
-It contains :doc:`/interface/window_system/panels`
+It contains :ref:`Panels <ui-panels>`
 with settings of objects within the editor and the editor itself.
 :kbd:`N` toggles the visibility of Properties Region.
 
