@@ -62,7 +62,7 @@ Weights are visualized by using a cold/hot color system, such that areas of low 
 And all in-between influences are drawn in rainbow colors, depending on their value (blue,
 green, yellow, orange, red).
 
-.. figure:: /images/weight_spec.png
+.. figure:: /images/weight_spec.jpg
    :width: 610px
 
    The color spectrum and their respective weights.

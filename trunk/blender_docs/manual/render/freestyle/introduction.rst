@@ -37,7 +37,7 @@ with the introduction of line style modifiers, the sky is the limit!
 
    HVAC Pre-Viz by Lee Posey. CC0 (`File:HVACPreViz.zip <https://wiki.blender.org/index.php/File:HVACPreViz.zip>`__).
 
-.. figure:: /images/render-freestyle-demo-kitchenset.png
+.. figure:: /images/render-freestyle-demo-kitchenset.jpg
    :width: 600px
 
    Kitchen by Vicente Carro. © AnigoAnimation.

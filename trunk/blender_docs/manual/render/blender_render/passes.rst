@@ -250,7 +250,7 @@ they have to be added to the diffuse pass before adding the converted AO pass.
 Vector Blurring Shadows
 -----------------------
 
-.. figure:: /images/nodes-vectorblur-shadow.png
+.. figure:: /images/nodes-vectorblur-shadow.jpg
    :width: 600px
 
 

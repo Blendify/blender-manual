@@ -96,7 +96,7 @@ Segments
    Alternatively, you can manually enter a segment number value while using the tool,
    or in the Mesh Tool options panel after using the tool.
 
-   .. figure:: /images/bevel3.png
+   .. figure:: /images/bevel3.jpg
       :width: 300px
 
       Bevel with four segments.
