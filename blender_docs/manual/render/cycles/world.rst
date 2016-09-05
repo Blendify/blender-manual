@@ -154,6 +154,6 @@ background and a low-res image for the actual lighting.
 Similarly, adding the *Is Camera* and *Is Glossy* rays will mean that the high-res image
 will also be visible in reflections.
 
-.. figure:: /images/cycles-env-trick-nodes.png
+.. figure:: /images/cycles-env-trick-nodes.jpg
 
    Nodes for the trick above.

@@ -139,7 +139,7 @@ The examples below explain the use of edge marks.
 
 .. list-table::
 
-   * - .. figure:: /images/freestyle-edge-marks-disabled.png
+   * - .. figure:: /images/freestyle-edge-marks-disabled.jpg
 
           Render without Edge Marks.
 
@@ -188,7 +188,7 @@ On the right is a render without face marks activated.
 
           Marked Faces.
 
-     - .. figure:: /images/freestyle-face-marks-disabled.png
+     - .. figure:: /images/freestyle-face-marks-disabled.jpg
 
           Render Output.
 
@@ -225,7 +225,7 @@ The image below shows the resulting combinations.
 
           Exclusive, One Face.
 
-     - .. figure:: /images/freestyle-face-mark-exclusive-both.png
+     - .. figure:: /images/freestyle-face-mark-exclusive-both.jpg
 
           Exclusive, Both Faces.
 
