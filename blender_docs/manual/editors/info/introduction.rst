@@ -27,7 +27,7 @@ Back to Previous
 Screen Data-block
    Used to select and edit window layouts. See :doc:`Screens </interface/window_system/screens>`.
 Scene Data-block
-   Allows you to select different :doc:`Scenes </data_system/scenes>`.
+   Allows you to select different :doc:`Scenes </data_system/scenes/introduction>`.
    Having multiple Scenes allows you to work with separate virtual environments,
    with completely separate data, or with objects and/or mesh data linked between them.
 Engine Selector

@@ -32,12 +32,14 @@ If the colors are linear, it means that if in reality we double the amount of ph
 the color values are also doubled. Put another way,
 if we have two photos/renders each with one of two lights on, and add those images together,
 the result would be the same as a render/photo with both lights on. It follows that such a
-radiometrically linear space is best for photorealistic rendering and compositing.
+radio-metrically linear space is best for photo-realistic rendering and compositing.
 
 However, these values do not directly correspond to human perception or the way display devices
 work, and image files are often stored in different color spaces,
 so we have to take care to do the right conversion into and out of this linear color space.
 
+
+.. _render-post-color-management:
 
 Settings
 ========
@@ -47,7 +49,7 @@ Settings
    Scene settings for color management.
 
 
-These settings are found in the Scene tab of the properties editor, under the *Color Management* panel.
+These settings are found in the :menuselection:`Properties Editor --> Scene --> Color Management`
 
 
 Display

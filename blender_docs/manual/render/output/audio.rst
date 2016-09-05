@@ -3,6 +3,8 @@
 Audio
 *****
 
+.. _render-output-audio-settings:
+
 Audio Settings
 ==============
 

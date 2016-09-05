@@ -124,7 +124,7 @@ You can tell this is a *multi-user* object by the blue color of its center-circl
 If you do not want the objects to be shared between the scenes, you can make them *Single-User* by using:
 :menuselection:`Object --> Make Single User --> Object`.
 
-Further information on working with scenes can be found :doc:`here </data_system/scenes>`.
+Further information on working with scenes can be found :doc:`here </data_system/scenes/introduction>`.
 
 
 Linked Library Duplication

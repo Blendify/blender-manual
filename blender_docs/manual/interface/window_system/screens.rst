@@ -33,7 +33,7 @@ Delete ``X``
 
 .. hint::
 
-   By default, each screen layout 'remembers' the last :doc:`scene </data_system/scenes>`
+   By default, each screen layout 'remembers' the last :doc:`scene </data_system/scenes/introduction>`
    it was used on. Selecting a different screen layout will switch to the layout **and** jump to that scene.
 
 

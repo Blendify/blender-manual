@@ -157,7 +157,7 @@ Lock to Scene
    Or to have several views with different active cameras. Remember that you can use
    :kbd:`Ctrl-Numpad0` to make the active object the active camera.
 
-   :doc:`Read more about Scenes </data_system/scenes>`
+   :doc:`Read more about Scenes </data_system/scenes/introduction>`
 
 Snap to Mesh
    Controls the snapping tools that help with transforming and modeling objects.

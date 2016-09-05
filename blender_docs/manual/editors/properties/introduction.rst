@@ -90,7 +90,7 @@ there is also information on materials and textures.
 Scene features are mainly documented in the data-system,
 though some tools are added to different sections.
 
-- :doc:`Scenes </data_system/scenes>`
+- :doc:`Scenes </data_system/scenes/introduction>`
 - :doc:`Keying Sets </animation/keyframes/keying_sets>`
 
 The Object features are usually documented in the *Objects* part of the 3D View Section.
