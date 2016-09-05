@@ -71,3 +71,5 @@ Examples
           :width: 320px
 
           Bilateral smoothed buffered shadow.
+
+     -
