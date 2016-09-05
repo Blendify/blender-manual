@@ -41,6 +41,8 @@ Console Scrollback
    Useful for debugging purposes and command line rendering.
 
 
+.. _prefs-system-sound:
+
 Sound
 =====
 
