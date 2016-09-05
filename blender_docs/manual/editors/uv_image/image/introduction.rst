@@ -3,7 +3,7 @@
 Introduction
 ************
 
-.. The UV/Image Editor overs few options to edit images > Compositor texture mode.
+.. The UV/Image Editor offers few options to edit images > Compositor texture mode.
 
 
 Image Menu
@@ -13,12 +13,6 @@ Image Menu
 
 New Image
    Creates a new :ref:`image-generated` Image.
-
-   .. figure:: /images/texture-uv-layout-testgrid.jpg
-      :width: 250px
-
-      The new Image pop-up menu.
-
 Open Image
    Load image from a file.
 Read Render Layers
@@ -65,8 +59,10 @@ Header Controls
 ===============
 
 Image
-   Data-block menu used for selecting images,
-   when :doc:`Working with Images </editors/uv_image/uv_editing/applying_image>`.
+   Data-block menu used for selecting images.
+   When an image has been loaded or created in the UV/Image editor,
+   the Image panel appears in the *Properties region*.
+   See :doc:`/editors/uv_image/image/image_settings`.
 
    - Render Result
    - Viewer Node
@@ -110,3 +106,5 @@ Draw Channels
       as specified in the :doc:`Camera settings </editors/3dview/object/types/camera/introduction>`.
    Red, Green, Blue
       Single Color Channel visualized as a gray-scale image.
+
+.. (todo) main view: color sampling after double click.

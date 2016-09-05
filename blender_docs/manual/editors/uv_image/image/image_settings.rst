@@ -1,15 +1,14 @@
+.. (Todo) move to data_system: shared with movie editor?
 
 **************
 Image Settings
 **************
 
-.. (Todo) move to data_system: shared with movie editor?
-
-When an image has been loaded or created in the UV/Image editor,
-an additional panel appears in the *Properties region*.
-
 Image
    Data-block menu.
+   
+   New ``+``
+      The *New Image* button opens a pop-up to configure a `Generated`_ image.
 
 
 Source
@@ -77,9 +76,15 @@ Generated
 
 Image generated in Blender or preloaded.
 
-.. figure:: /images/texture-image-panel-generated.jpg
+.. list-table::
 
-   Image panel for Generated source.
+   * - .. figure:: /images/texture-image-panel-generated.jpg
+
+          Image panel for Generated source.
+
+     - .. figure:: /images/texture-uv-layout-testgrid.jpg
+
+          The new Image pop-up menu.
 
 Width, Height
    The size of image in pixels.
