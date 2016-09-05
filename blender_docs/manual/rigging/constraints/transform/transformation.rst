@@ -51,13 +51,13 @@ Extrapolate
 
    .. list-table:: The Extrapolate principles.
 
-      * - .. figure:: /images/constraintstransformationextrapolateprinciple1.png
-             :width: 320px
+      * - .. figure:: /images/rigging_constraints_transform_transformation_extrapolate-1.png
+             :width: 300px
 
              Extrapolate disabled: the output values are bounded inside the (1.0 to 2.0) range.
 
-        - .. figure:: /images/constraintstransformationextrapolateprinciple2.png
-             :width: 320px
+        - .. figure:: /images/rigging_constraints_transform_transformation_extrapolate-2.png
+             :width: 300px
 
              Extrapolate enabled: the output values are "free" to proportionally follow the input ones.
 
