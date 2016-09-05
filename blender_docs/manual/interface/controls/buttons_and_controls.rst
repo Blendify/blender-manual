@@ -319,7 +319,7 @@ Type
       The menu may show a preview besides the items and
       a search box to search the items in the list by name.
 Name
-   Displays the name of the linked Data-Block, which can be edited as a regular text field.
+   Displays the internal name of the linked Data-Block, which can be edited as a regular text field.
 User count
    Displays the number of users of the data. Clicking on it to make it a single-user copy.
 Fake User "F"

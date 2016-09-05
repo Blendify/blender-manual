@@ -29,11 +29,19 @@ The main purpose of this is to be able to drag media files.
 - Images into the :ref:`editors-sequencer-index` (to set background or apply as material textures).
 - Media files into the :ref:`editors-sequencer-index`.
 
-.. rubric:: Opening an Image Sequence
+
+.. _file-browser-open-sequence:
+
+Opening an Image Sequence
+-------------------------
 
 The filename of the images must contain a digit, indicating the frame.
 The sequence could be opened by the selection of the images and
 by the confirm with the *Open image* button or :kbd:`Return`.
+
+.. To load image sequence in any of the supported image
+   file formats first click on the first frame and then Accept.
+   Then change the Source to Image Sequence, and enter the ending frame number of this sequence.
 
 
 Shortcuts

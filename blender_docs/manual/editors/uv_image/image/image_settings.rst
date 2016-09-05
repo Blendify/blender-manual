@@ -15,8 +15,15 @@ Image
 Source
 ======
 
+See about supported :doc:`/data_system/files/media/image_formats`.
+
+
 Single Image
 ------------
+
+.. figure:: /images/texture-image-panel.jpg
+
+   Image panel for Single Image.
 
 Still image or a single frame.
 
@@ -25,6 +32,7 @@ Image Sequence
 --------------
 
 Each frame is stored in a separate file.
+How to load a :ref:`file-browser-open-sequence`.
 
 Frame
    A label showing the current frame.
@@ -35,23 +43,29 @@ further options
 Movie
 -----
 
+.. figure:: /images/texture-video-imagepanel.jpg
+
+   Image panel for video texture.
+
 Frames packed into a container.
 
 Deinterlace
    ..
 Fields
-   Set the number fields per rendered frame to use(2 fields is 1 frame).
+   Sets the number of fields per rendered frame (2 fields is 1 frame).
+   Used with Fields and interlaced video,
+   it says whether each image has both odd and even, or just one.
 Frame
    Frames
       Sets the range of frames to use.
    Start
-      The frame of the global sequence, when the playback should start.
+      Global starting frame of the sequence, when the playback should start.
    Offset
       Offsets the first frame of the clip.
 Match Movie Length
-   ..
+   This button set image's user's length to the one of selected movie.
 Auto Refresh
-   Always refresh images on frame changes.
+   Automatically refresh images on frame changes.
 Cyclic
    Start over and repeats after the last frame to create a continuous loop.
 
@@ -60,6 +74,10 @@ Cyclic
 
 Generated
 ---------
+
+.. figure:: /images/texture-image-panel-generated.jpg
+
+   Image panel for Generated source.
 
 Image generated in Blender or preloaded.
 
@@ -85,11 +103,35 @@ Common Options
 ==============
 
 File
-   Use for loading and packing image files.
+   Use for replacing or packing files.
+
+   Pack
+      Embed the resource into the current blend-file.
+   Path
+      Path to the linked file.
+   Open
+      Opens the :doc:`/editors/file_browser/index` to select a file from the disk.
+   Reload
+      Reloads the file. Useful when an file has been rework in an external application.
 Color Space
    :term:`Color Space`.
+
+   XYZ
+      XYZ space.
+   VD16
+      The simple video conversion from a gamma 2.2 sRGB space.
+   sRGB
+      Standard RGB display space.
+   Raw
+      Raw space.
+   Non-Color
+      Color space used for images which contains non-color data (i.e. normal maps).
+   Linear ACES
+      ACES linear space.
+   Linear
+      709 (full range). Blender native linear space.
 View as Render
-   ..
+   Apply render part of display transformation when displaying this image on the screen.
 Use Multi-View
    ..
 Use Alpha
@@ -101,7 +143,10 @@ Use Alpha
       Straight, Premultiplied
 
 Fields
-   Use if image is made of fields. 
+   Work with field images. Video frames consist of two different images (fields) that are merged.
+   This option ensures that when *Fields* are rendered,
+   the correct field of the image is used in the correct field of the rendering.
+   *MIP Mapping* cannot be combined with *Fields*. Order of video fields:
    
    Upper First, Lower First.
 
