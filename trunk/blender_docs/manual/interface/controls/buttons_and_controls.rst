@@ -162,9 +162,7 @@ Examples of valid units include:
    - ``3ft/0.5km``
    - ``2.2mm + 5' / 3" - 2yards``
 
-.. note::
-
-   Some notes about using units:
+.. note:: Some notes about using units:
 
    - Commas are optional.
    - You can mix between metric and imperial even though you can only show one at a time.
