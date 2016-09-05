@@ -68,7 +68,7 @@ Particle System
       and each of those vertex groups is assigned a separate and independent particle system,
       with each particle system being assigned a different Particle Instance modifier.
       In the case shown the Particle Instance modifiers are a sphere and a cube.
-      `Example Blend file <https://wiki.blender.org/uploads/4/48/Manual_-_Modifiers_-_Particle_Instance_Modifiers_-_Split_Plane.blend>`__
+      `Example Blend file <https://wiki.blender.org/index.php/Media:Manual_-_Modifiers_-_Particle_Instance_Modifiers_-_Split_Plane.blend>`__
 
 
 Creation
@@ -136,6 +136,8 @@ Random
    :width: 500px
 
    Keyed particle following way points (showing one particle).
+   `Example Blend file 
+   <https://wiki.blender.org/index.php/Media:Manual_-_Particle_Instance_Modifier_-_Keyed_Particle_Example_1.blend>`__.
 
 When a *Particle Instance* modifier is added to a cylinder object
 and then associated with the way point particle system,
@@ -150,7 +152,8 @@ See screenshot below:
 
    Keyed particle following way points showing a mesh object
    (Particle Instance modifier) in place of the original particle.
-
+   `Example Blend file 
+   <https://wiki.blender.org/index.php/Media:Manual_-_Particle_Instance_Modifier_-_Keyed_Particle_Example_2.blend>`__.
 
 Both of the above examples had the *Particle Instance* modifier *Path* button deactivated.
 When the *Path* button is activated the effect can be seen in the screenshot below:
@@ -161,7 +164,7 @@ When the *Path* button is activated the effect can be seen in the screenshot bel
    Keyed particle following way points showing a mesh object (Particle Instance modifier)
    in place of the original particle, that is also being deformed to fit the travel path of the original particle.
    `Example Blend file 
-   <https://wiki.blender.org/index.php/Media:Manual_-_Modifiers_-_Particle_Instance_Modifiers_-_Split_Plane.blend>`__
+   <https://wiki.blender.org/index.php/Media:Manual_-_Particle_Instance_Modifier_-_Keyed_Particle_Example_3.blend>`__.
 
 
 Instead of the cylinder location just following the position of the particle (and not altering its shape),
@@ -212,6 +215,8 @@ Below is a screenshot showing the effect of the *Path* button on hair:
    :width: 500px
 
    Strand with a Particle Instance modifier associated with it and deforming the cylinder along the hair profile.
+   `Example Blend file 
+   <https://wiki.blender.org/index.php/Media:Manual_-_Particle_Instance_Modifier_-_Strand_Mesh_Deform.blend>`__.
 
 
 .. note::
