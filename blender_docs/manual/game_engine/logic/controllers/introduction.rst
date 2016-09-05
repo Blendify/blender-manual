@@ -52,12 +52,12 @@ the individual controller pages for a more detailed description of each controll
 
    * - Positive sensors
      - Controllers
-     -
-     -
-     -
-     -
-     -
-   * -
+     - ..
+     - ..
+     - ..
+     - ..
+     - ..
+   * - ..
      - :doc:`AND </game_engine/logic/controllers/types/and>`
      - :doc:`OR </game_engine/logic/controllers/types/or>`
      - :doc:`XOR </game_engine/logic/controllers/types/xor>`

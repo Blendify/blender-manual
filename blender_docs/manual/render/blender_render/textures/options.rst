@@ -91,7 +91,7 @@ Preview
    Preview panel.
 
 
-The texture preview panel provides a quick pre-visualisation of how the texture looks on its
+The texture preview panel provides a quick pre-visualization of how the texture looks on its
 own, without mapping.
 
 Texture, Material, or Both

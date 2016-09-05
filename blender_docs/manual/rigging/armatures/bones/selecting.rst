@@ -43,43 +43,43 @@ To select bones' ends you have the standard selection methods.
      - menu
      - mouse
    * - Select a bone's end
-     -
-     -
+     - ..
+     - ..
      - :kbd:`RMB` -click on it
    * - Add or Remove from the current selection
-     -
-     -
+     - ..
+     - ..
      - :kbd:`Shift-RMB`
    * - (De)select the ends of all bones
      - :kbd:`A`
      - :menuselection:`Select --> Select/Deselect All`
-     -
+     - ..
    * - Invert the current selection
      - :kbd:`Ctrl-I`
      - :menuselection:`Select --> Inverse`
-     -
+     - ..
    * - Box selection tool activated
      - :kbd:`B`
      - :menuselection:`Select --> Border Select`
-     -
+     - ..
    * - Box selection
      - | Click and drag :kbd:`LMB` the box around the ends you want to add to the current selection
        | Click and drag :kbd:`LMB` to remove from the current selection
        | release :kbd:`LMB` to validate
        | press :kbd:`Esc` or click :kbd:`RMB` to cancel
-     -
-     -
+     - ..
+     - ..
    * - Box selection tool deactivated
      - :kbd:`B` or :kbd:`Esc`
-     -
+     - ..
      - :kbd:`RMB`
    * - Lasso selection
      - | Click and drag :kbd:`Ctrl-LMB` the lasso around the ends you want to add to the current selection
        | Click and drag :kbd:`Ctrl-Shift-LMB` to remove from the current selection
        | Release :kbd:`LMB` to validate
        | Hit :kbd:`Esc` or click :kbd:`RMB` to cancel
-     -
-     -
+     - ..
+     - ..
 
 
 Inverse selection

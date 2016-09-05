@@ -117,8 +117,8 @@ Main Region
 
 It contains the keyframes for all visible action channels.
 As with the other "time" editor, the X-axis represents time.
-The Y-axis has no mean in itself, unlike with the *Graph Editor*, it is just a sort of "stack" of action channels -
-each one being shown as an horizontal colored strip (of a darker shade "during" the animated/keyed period).
+The Y-axis has no mean in itself, unlike with the *Graph Editor*, it is just a sort of "stack" of action channels.
+Each one being shown as an horizontal colored strip (of a darker shade "during" the animated/keyed period).
 On these channel strips lay the keyframes, visualized as light-gray (unselected) or yellow (selected) diamonds.
 One of the key feature of this editor is that it allow you to visualize immediately which channel (i.e. F-Curve)
 is *really* affected. When the value of a given channel does not change at all between two neighboring keyframes,

@@ -28,7 +28,7 @@ Normal
 Properties
 ==========
 
-This node has no properties
+This node has no properties.
 
 
 Outputs
@@ -47,7 +47,7 @@ Examples
 
           Diffuse behavior.
 
-     -
+     - ..
 
    * - .. figure:: /images/cycles_nodes_shader_diffuse_example.jpg
 

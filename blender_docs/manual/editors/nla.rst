@@ -18,7 +18,7 @@ Tracks
 ======
 
 Tracks are the layering system of the NLA. At its most basic level,
-it can help organize strips. But it also layers motion much like an image editor layers pixels -
+it can help organize strips. But it also layers motion much like an image editor layers pixels --
 the bottom layer first, to the top, last.
 
 .. figure:: /images/nla_track.png

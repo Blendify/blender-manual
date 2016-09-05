@@ -103,7 +103,7 @@ UV Layer
    You can texture polygon strands with a UV-Texture.
    Fill in the name of the UV-Set (not the texture) here.
    You also have to load the texture in the *Texture* tab and *Material* tab
-   (*Mapping*: *UV*; you may use every *Influence* setting you like -
+   (*Mapping*: *UV*; you may use every *Influence* setting you like --
    especially the alpha value; see Fig. :ref:`fig-bi-material-shadow-shapes`).
 Surface Diffuse
    Computes the strand normal, taking the normal at the surface into account.

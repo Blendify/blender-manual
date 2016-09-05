@@ -173,7 +173,7 @@ Here are important points:
 - During pasting, on the other hand, bone selection has no importance.
   The copied pose is applied on a per-name basis
   (i.e. if you had a ``forearm`` bone selected when you copied the pose,
-  the ``forearm`` bone of the current posed armature will get its pose when you paste it -
+  the ``forearm`` bone of the current posed armature will get its pose when you paste it --
   and if there is no such named bone, nothing will happen...).
 - What is copied and pasted is in fact the position/rotation/scale of each bone, in its own space.
   This means that the resulting pasted pose might be very different from the originally copied one, depending on:
@@ -310,7 +310,7 @@ however, this should give a good idea of the problem:
 
 
 - When several bones of the same "family" are selected,
-  *only* the "most parent" ones are really transformed -
+  *only* the "most parent" ones are really transformed --
   the descendants are just handled through the parent relationship process, as if they were not selected
   (see Fig. :ref:`fig-rig-pose-edit-scale` the third tip bone,
   outlined in yellow, was only scaled down through the parent relationship,

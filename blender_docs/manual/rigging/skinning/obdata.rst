@@ -5,7 +5,7 @@ Skinning to Shapes
 ******************
 
 We saw in the :doc:`previous page </rigging/skinning/objects>`
-how to link (parent) whole objects to armature bones -
+how to link (parent) whole objects to armature bones --
 a way to control the transform properties of this object via a rig.
 However, armatures are much more powerful:
 they can deform the *shape* of an object (i.e. affect its ObData data-block, which is its vertices or control points...).
@@ -17,10 +17,10 @@ This type of skinning is available for meshes, lattices, curves, surfaces, and t
 
 Bones can affect the object's shape in two ways:
 
-- The `Envelope`_ process is available for all type of skinnable objects -
-  it uses the "proximity" and "influence" of the bones to determine which part of the object they can deform.
-- The `Vertex Groups`_ method is (obviously) reserved to meshes and lattices -
-  one bone only affect the vertices in the
+- The `Envelope`_ process is available for all type of skinnable objects.
+  It uses the "proximity" and "influence" of the bones to determine which part of the object they can deform.
+- The `Vertex Groups`_ method is (obviously) reserved to meshes and lattices.
+  One bone only affect the vertices in the
   :doc:`group </modeling/meshes/vertex_groups/index>` having the same name,
   using vertices' :ref:`weights <painting-weight-index>` as influence value.
   A much more precise method, but also generally longer to set up.

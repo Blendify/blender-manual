@@ -72,4 +72,4 @@ Examples
 
           Bilateral smoothed buffered shadow.
 
-     -
+     - ..

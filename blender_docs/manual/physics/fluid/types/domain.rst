@@ -242,8 +242,8 @@ Real World Size
 
 Optimization
    Gridlevel
-      How many adaptive grid levels to be used during simulation -
-      setting this to -1 will perform automatic selection.
+      How many adaptive grid levels to be used during simulation.
+      Setting this to -1 will perform automatic selection.
 
    Compressibility
       If you have problems with large standing fluid regions at high resolution,
@@ -283,7 +283,7 @@ Surface
       (as opposed to doing it afterwards like a subdivision modifier).
       A value of 1 means no subdivision, and each increase results in one further subdivision of each fluid voxel.
       The resulting meshes thus quickly become large, and can require large amounts of disk space.
-      Be careful in combination with large smoothing values -
+      Be careful in combination with large smoothing values --
       this can lead to long computation times due to the surface mesh generation.
 
 

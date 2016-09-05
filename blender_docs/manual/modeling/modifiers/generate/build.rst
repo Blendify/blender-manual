@@ -35,5 +35,5 @@ Randomize
 
 Seed
    The random seed.
-   Changing this value gives a different "random" order when *"Randomize"* is checked -
+   Changing this value gives a different "random" order when *"Randomize"* is checked --
    this order is always the same for a given seed/object set.

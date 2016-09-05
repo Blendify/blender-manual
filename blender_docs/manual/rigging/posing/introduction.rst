@@ -15,7 +15,7 @@ It is a sort of "object mode for bones". In rest position (as edited in *Edit Mo
 each bone has its own position/rotation/scale to neutral values
 (i.e. 0.0 for position and rotation, and 1.0 for scale).
 Hence, when you edit a bone in *Pose Mode*,
-you create an offset in its transform properties, from its rest position -
+you create an offset in its transform properties, from its rest position --
 this is quite similar to :doc:`meshes relative shape keys </animation/shape_keys>`, in fact.
 
 

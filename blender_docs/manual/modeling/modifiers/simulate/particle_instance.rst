@@ -160,8 +160,8 @@ When the *Path* button is activated the effect can be seen in the screenshot bel
 
    Keyed particle following way points showing a mesh object (Particle Instance modifier)
    in place of the original particle, that is also being deformed to fit the travel path of the original particle.
-   `Example Blend file <https://wiki.blender.org/index.php/Media:Manual -
-   Particle Instance Modifier - Keyed Particle Example 3.blend>`__
+   `Example Blend file 
+   <https://wiki.blender.org/index.php/Media:Manual_-_Modifiers_-_Particle_Instance_Modifiers_-_Split_Plane.blend>`__
 
 
 Instead of the cylinder location just following the position of the particle (and not altering its shape),

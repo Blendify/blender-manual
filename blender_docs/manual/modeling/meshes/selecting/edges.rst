@@ -7,7 +7,7 @@ Selecting Edges
 
    Buttons for the selection modes.
 
-Edges can be selected in much the same way as vertices and faces -
+Edges can be selected in much the same way as vertices and faces 
 by right-clicking them while Edge Select Mode is activated.
 Pressing :kbd:`Shift` while clicking will add/subtract to the existing selection.
 

@@ -16,7 +16,7 @@ Mostly this is controlled using the Properties panel of the camera(s) used in th
 
 .. tip:: Render Engine
 
-   Make sure that the render engine is set to Blender Game when attempting to set these controls -
+   Make sure that the render engine is set to Blender Game when attempting to set these controls,
    otherwise this description will not tally with what you see!
 
 

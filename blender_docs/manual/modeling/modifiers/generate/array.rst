@@ -186,7 +186,7 @@ Fractal
 
           A fractal fern image created with two array modifiers and one mirror applied to a cube.
 
-     -
+     - ..
 
 
 Organic

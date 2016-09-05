@@ -113,7 +113,7 @@ Ghosts
    :class: refbox
 
    | Mode:     Pose Mode
-   | Panel:    Visualisations
+   | Panel:    Visualizations
 
 .. list-table::
    Ghosts examples.
@@ -140,7 +140,7 @@ Blender features something very similar for armatures in *Pose Mode*: the "ghost
 The ghosts are simply black drawings (more or less opaque)
 of the bones' outlines as they are at certain frames.
 
-The ghosts settings are found in the *Visualisations* panel, only available in *Pose Mode*.
+The ghosts settings are found in the *Visualizations* panel, only available in *Pose Mode*.
 You have three different types of ghosts, sharing more or less the same options:
 
 Around Current Frame
@@ -164,7 +164,7 @@ In Range
 
    Start
       This numeric field specifies the starting frame of the range (exclusive).
-      Note that unfortunately, it cannot take a null or negative value -
+      Note that unfortunately, it cannot take a null or negative value,
       which means you can only see ghosts starting from frame 2 included...
    End
       This numeric field specifies the ending frame of the range, and cannot take a value below *GSta* one.
@@ -198,7 +198,7 @@ Motion Paths
    :class: refbox
 
    | Mode:     Pose Mode
-   | Panel:    Visualisations
+   | Panel:    Visualizations
    | Menu:     :menuselection:`Pose --> Motion Paths --> ...`
    | Hotkey:   :kbd:`W-3`, :kbd:`W-4`
 
@@ -210,13 +210,13 @@ Motion Paths
 This feature allows you to visualize as curves the paths of bones' ends (either their tips,
 by default, or their roots).
 
-Before we look at its options (all regrouped in the same *Visualisations* panel),
+Before we look at its options (all regrouped in the same *Visualizations* panel),
 let us first see how to display/hide these paths.
-Unlike `Ghosts`_, you have to do it manually -
+Unlike `Ghosts`_, you have to do it manually
 and you have to first select the bones you want to show/hide the motion paths. Then,
 
 - To show the paths (or update them, if needed),
-  click on the *Calculate Path* button of the *Visualisations* panel, or,
+  click on the *Calculate Path* button of the *Visualizations* panel, or,
   in the 3D Views, select the :menuselection:`Pose --> Motion Paths --> Calculate Paths` menu entry
   (or use the *Specials* pop-up menu, :kbd:`W-3`).
 - To hide the paths, click on the *Clear Paths* button, or,
@@ -257,8 +257,8 @@ Display Range
       Starting and Ending frame of range of paths to display/calculate
       (not for 'Around Current Frame' Onion-skinning method)
    Step
-      This is the same as the *GStep* for ghosts -
-      it allows you to only display on the path one frame for each *n* ones.
+      This is the same as the *GStep* for ghosts.
+      It allows you to only display on the path one frame for each *n* ones.
       Mostly useful when you enable the frame number display (see below), to avoid cluttering the 3D Views.
 
 Frame Numbers
@@ -269,7 +269,7 @@ Keyframes
    (i.e. only the paths of keyed bones at a given frame get a yellow dot at this frame).
 
 Keyframe Nums
-   When enabled, you will see the numbers of the displayed keyframes -
+   When enabled, you will see the numbers of the displayed keyframes,
    so this option is obviously only valid when *Show Keys* is enabled.
 
 Non-Grouped Keyframes

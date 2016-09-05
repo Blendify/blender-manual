@@ -50,7 +50,7 @@ Dynamic
 
 Bind
    Links the current vertex positions of both the modified geometry and the deformer *Object* chosen together.
-   An unbound Mesh Deform modifier has no effect -
+   An unbound Mesh Deform modifier has no effect --
    it must be bound so that altering the shape of the deform mesh cage
    actually alters the shape of the modified object.
 

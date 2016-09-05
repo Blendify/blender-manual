@@ -156,8 +156,8 @@ The corresponding surface's outer edges will join together to form a "closed" su
 
 .. note:: Inner and Outer
 
-   Surfaces have an "inner" and "outer" face, the first being black whereas the latter is correctly shaded -
-   there does not seem to be any "double sided" shading option for surfaces...).
+   Surfaces have an "inner" and "outer" face, the first being black whereas the latter is correctly shaded.
+   (There does not seem to be any "double sided" shading option for surfaces...).
    When you close a surface in one or two directions, you might get an entirely black object! In this case,
    just `Switch Direction`_ of your surface...
 
@@ -319,7 +319,7 @@ Spin
    | Panel:    Curve Tools
 
 
-This tool is a bit similar to its :doc:`mesh counterpart </modeling/meshes/editing/duplicating/spin>` -
+This tool is a bit similar to its :doc:`mesh counterpart </modeling/meshes/editing/duplicating/spin>`
 but with less control and options (in fact, there is none!).
 
 It only works on selected "surfaces" made of *one U-row* (and not with one V-row),

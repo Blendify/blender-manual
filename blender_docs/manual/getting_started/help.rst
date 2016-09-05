@@ -67,18 +67,18 @@ The same links can also be found in the :ref:`splash`.
    Help Menu.
 
 
-- :doc:`This is a link for the Official Blender Manual </contents>` -
+- :doc:`This is a link for the Official Blender Manual </contents>` --
   which you are now reading.
-- `Release Log <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/>`__ -
+- `Release Log <https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/>`__ --
   The release notes on the Web for the current Blender version.
-- `Blender Website <https://www.blender.org/>`__ -
+- `Blender Website <https://www.blender.org/>`__ --
   The *blender.org* home page.
-- `Blender Store <https://store.blender.org/>`__ -
+- `Blender Store <https://store.blender.org/>`__ --
   The Blender Store, where you can buy Training DVD's, books, t-shirts and other products.
-- `Developer Community <https://www.blender.org/get-involved/>`__ -
+- `Developer Community <https://www.blender.org/get-involved/>`__ --
   The *blender.org* "Get Involved" page. This is the launch page for Blender software development,
   bug tracking, patches and scripts, education and training, documentation development and functionality research.
-- `User Community <https://www.blender.org/support/user-community/>`__ -
+- `User Community <https://www.blender.org/support/user-community/>`__ --
   Lists of many different support venues.
 - `Report a Bug <https://developer.blender.org/maniphest/task/edit/form/1/>`__
   The Blender Bug Tracker (registration needed).
@@ -87,7 +87,7 @@ The same links can also be found in the :ref:`splash`.
 Scripting Reference
 -------------------
 
-- `Python API Reference <https://www.blender.org/api/blender_python_api_current/>`__ -
+- `Python API Reference <https://www.blender.org/api/blender_python_api_current/>`__ --
   Python application programming interface (API).
 - *Operator Cheat Sheet* - Creates the ``OperatorList.txt`` text-block, which you can access in the *Text Editor*.
   You can also use Blender Search to generate the file. The lists the available Python operators.
