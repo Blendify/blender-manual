@@ -17,7 +17,7 @@ The *3D View* editor is comprised of a workspace and a header.
 The header is shown at the bottom or top of the workspace, and can be hidden if desired.
 The header shows you a menu and the current mode, as explained below.
 
-.. figure:: /images/editors_3dview_header.jpg
+.. figure:: /images/editors_3dview_header.png
 
    3D View header.
 

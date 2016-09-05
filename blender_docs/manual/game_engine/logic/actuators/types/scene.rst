@@ -3,7 +3,7 @@
 Scene Actuator
 **************
 
-.. figure:: /images/bge_actuator_scene.png
+.. figure:: /images/bge_actuator_sound.png
    :width: 257px
 
    Scene actuator.

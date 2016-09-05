@@ -146,7 +146,7 @@ Examples
 
 .. list-table::
 
-   * - .. figure:: /images/bi_aa02.jpg
+   * - .. figure:: /images/bi_aa02.png
 
           Todo.
 
