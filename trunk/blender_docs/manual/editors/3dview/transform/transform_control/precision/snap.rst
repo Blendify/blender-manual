@@ -42,7 +42,7 @@ The ability to snap Objects and Mesh element to various types of scene elements 
 transformation is available by toggling the magnet icon (which will turn red)
 in the 3D View's header buttons.
 
-.. figure:: /images/editors_3dview_transform-control_snap-magnet-header.png
+.. figure:: /images/editors_3dview_transform_control_precision_snap_header-magnet-icon.png
 
    Magnet icon in the 3D View header (red when enabled).
 
@@ -52,7 +52,7 @@ in the 3D View's header buttons.
 Snap Element
 ============
 
-.. figure:: /images/editors_3dview_transform-control_snap-snap-element.png
+.. figure:: /images/editors_3dview_transform_control_precision_snap_element-menu.png
    :align: right
 
    Snap Element menu.
@@ -98,15 +98,15 @@ Closest
 
 .. list-table::
 
-   * - .. figure:: /images/editors_3dview_transform-control_snap-snap-closest.png
+   * - .. figure:: /images/editors_3dview_transform_control_precision_snap_target-closest.png
 
           Closest.
 
-     - .. figure:: /images/editors_3dview_transform-control_snap-snap-active.png
+     - .. figure:: /images/editors_3dview_transform_control_precision_snap_target-active.png
 
           Active.
 
-     - .. figure:: /images/editors_3dview_transform-control_snap-snap-median.png
+     - .. figure:: /images/editors_3dview_transform_control_precision_snap_target-median.png
 
           Median.
 
@@ -116,11 +116,11 @@ Additional Snap Options
 
 .. list-table::
 
-   * - .. figure:: /images/editors_3dview_transform-control_snap-snap-options-object-mode.jpg
+   * - .. figure:: /images/editors_3dview_transform_control_precision_snap_options-object-mode.png
 
           Object Mode.
 
-     - .. figure:: /images/editors_3dview_transform-control_snap-snap-options-edit-mode.jpg
+     - .. figure:: /images/editors_3dview_transform_control_precision_snap_options-edit-mode.png
 
           Edit Mode.
 
@@ -135,24 +135,27 @@ additional controls are available to alter snap behavior. These options vary bet
 
    * - Icon
      - Details
-   * - .. figure:: /images/icons_snap-rotation.png
-          :width: 35px
+   * - .. figure:: /images/editors_3dview_transform_control_precision_snap_option-icon-rotation.png
+          :width: 42px
      - Align rotation with the snapping target.
-   * - .. figure:: /images/icons_snap-project.png
-          :width: 35px
+   * - .. figure:: /images/editors_3dview_transform_control_precision_snap_option-icon-project.png
+          :width: 42px
      - Project individual elements on the surface of other objects.
-   * - .. figure:: /images/icons_snap-self.png
-          :width: 35px
+   * - .. figure:: /images/editors_3dview_transform_control_precision_snap_option-icon-self.png
+          :width: 42px
      - Snaps elements to its own mesh.
-   * - .. figure:: /images/icons_snap-whole.png
-          :width: 35px
+   * - .. figure:: /images/editors_3dview_transform_control_precision_snap_option-icon-whole.png
+          :width: 42px
      - Consider Objects as whole when finding volume center.
+   * - .. figure:: /images/editors_3dview_transform_control_precision_snap_option-icon-absolute.png
+          :width: 42px
+     - Snap to grid, instead of snapping in increments relative to the current location.
 
 
 Multiple Snap Targets
 ---------------------
 
-.. figure:: /images/editors_3dview_transform-control_snap_multiple_snap_target.jpg
+.. figure:: /images/editors_3dview_transform_control_precision_snap_target-multiple.png
 
    Multiple snapping targets.
 
