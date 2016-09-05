@@ -1,38 +1,13 @@
 
-*****
-Audio
-*****
-
-.. _render-output-audio-settings:
-
-Audio Settings
-==============
-
-Audio settings can be found in the :menuselection:`Properties Editor --> Scene tab --> Audio`.
-
-Volume
-   Volume for the scene.
-
-Update Animation Cache
-   Updates the audio animation cache. This is useful if you start noticing artifact in the audio.
-
-Distance Model
-   TODO.
-
-Speed
-   Speed of the sound for the Doppler effect calculations.
-Doppler
-   Pitch factor for Doppler effect calculation.
-
-
+***************
 Audio Rendering
-===============
+***************
 
 Audio can be rendered from the :menuselection:`Properties Editor --> Render tab --> Render --> Audio`
 
 
 Options
--------
+=======
 
 Relative Path
    Select the file relative to the blend-file.
@@ -49,3 +24,9 @@ Codec
 
 Split Channels
    Each audio channel will be rendered into a separate file.
+
+.. seealso::
+
+   - See :ref:`Scene Audio <data-scenes-audio>` settings.
+   - See :ref:`Audio Output Settings <render-output-video-encoding-audio>` settings.
+   - See :ref:`Audio Preferences <prefs-system-sound>`.

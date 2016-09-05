@@ -55,13 +55,26 @@ Options to control how images appear on the screen.
 For :ref:`Color Management settings <render-post-color-management>` for more information.
 
 
+.. _data-scenes-audio:
+
 Audio
 =====
 
 Options to control global audio settings.
 
-See the :ref:`Audio Rendering <render-output-audio-settings>` docs for more information.
+Volume
+   Volume for the scene.
 
+Update Animation Cache
+   Updates the audio animation cache. This is useful if you start noticing artifact in the audio.
+
+Distance Model
+   TODO.
+
+Speed
+   Speed of the sound for the Doppler effect calculations.
+Doppler
+   Pitch factor for Doppler effect calculation.
 
 
 Gravity

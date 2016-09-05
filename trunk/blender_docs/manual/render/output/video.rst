@@ -133,6 +133,9 @@ Rate
    Buffer
       The `decoder bitstream buffer <https://en.wikipedia.org/wiki/Video_buffering_verifier>`__ size.
 
+
+.. _render-output-video-encoding-audio:
+
 Audio Codec
    Audio conainer used, For a list of all available options see
    :doc:`video formats </data_system/files/media/video_formats>`.
