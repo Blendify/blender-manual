@@ -11,17 +11,17 @@ Constraints make it easy for a hand to grip the hilt of a sword and the sword to
 
 Constraints, in Blender, work with :term:`Objects <Object>` and :term:`Bones <Bone>`.
 
-.. figure:: /images/rigging_constraints_intro_panel.png
+.. figure:: /images/rigging_constraints_introduction_tab-object.png
 
    :term:`Object` Constraints.
 
-.. figure:: /images/rigging_constraints_intro_bone_panel.png
+.. figure:: /images/rigging_constraints_introduction_tab-bone.png
 
    :term:`Bone` Constraints.
 
 Constraints work in combination with each other to form a Constraint Stack.
 
-.. figure:: /images/rigging_constraints_intro_stack.png
+.. figure:: /images/rigging_constraints_introduction_stack.png
 
    The Constraint Stack is evaluated from top to bottom.
 
@@ -32,7 +32,7 @@ until you lose all sense of how they interact with each other.
 Start simply. Get to know a single constraint inside and out. Copy Location is a good first constraint to explore.
 Take the time to understand every fundamental concept behind it, and the other constraints will make far more sense.
 
-.. figure:: /images/rigging_constraints_intro_all_available.png
+.. figure:: /images/rigging_constraints_introduction_add-menu.png
 
 
 .. TODO, the 4x4 transform matrix vs. the transform panel

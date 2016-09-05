@@ -18,8 +18,7 @@ when the selected inactive object is a mesh.
 Options
 =======
 
-.. figure:: /images/constraints-relationship-shrinkwrap.jpg
-   :width: 304px
+.. figure:: /images/rigging_constraints_relationship_shrinkwrap.png
 
    Shrinkwrap panel.
 

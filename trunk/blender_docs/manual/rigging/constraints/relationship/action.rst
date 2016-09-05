@@ -34,8 +34,7 @@ the owner will be as if in frame 50 of the linked action, etc.
 Options
 =======
 
-.. figure:: /images/constraints-relationship-action.jpg
-   :width: 293px
+.. figure:: /images/rigging_constraints_relationship_action.png
 
    Action panel.
 

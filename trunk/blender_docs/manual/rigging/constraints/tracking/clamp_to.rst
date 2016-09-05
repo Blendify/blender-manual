@@ -44,8 +44,7 @@ However, the 0.5 curve time position can actually be anywhere within the boundin
 Options
 =======
 
-.. figure:: /images/constraints-tracking-clampto.png
-   :width: 306px
+.. figure:: /images/rigging_constraints_tracking_clamp-to.png
 
    Clamp To panel.
 

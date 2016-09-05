@@ -11,8 +11,7 @@ In other 3D software you can find it with the name "Look at" constraint.
 Options
 =======
 
-.. figure:: /images/constraints-tracking-dampedtrack.png
-   :width: 304px
+.. figure:: /images/rigging_constraints_tracking_damped-track.png
 
    Damped Track panel.
 
@@ -35,11 +34,6 @@ Target (Armature Object Type)
       It is a slider value field which can have a value between 0 and 1.
       A value of 0 will point the Target at the Head/Root of a Bone while a value of 1 will
       point the Target at the Tail/Tip of a Bone.
-
-   .. figure:: /images/editors_properties_constraints-damped-track-armature.jpg
-      :width: 304px
-
-      Damped Track for Bones.
 
 
 To

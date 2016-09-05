@@ -16,8 +16,7 @@ This constraint is fully documented in the :doc:`Inverse Kinematics
 Options
 =======
 
-.. figure:: /images/constraints-tracking-ik.png
-   :width: 305px
+.. figure:: /images/rigging_constraints_tracking_ik-solver.png
 
    Inverse Kinematics panel.
 

@@ -19,11 +19,11 @@ If the Target field links to a :term:`Mesh` or :term:`Lattice` object, a :term:`
 Enter the name of a vertex group and the constraint will target the median point
 of this vertex group instead of the object center.
 
-.. figure:: /images/rigging_constraints_interface_target_v_group.png
+.. figure:: /images/rigging_constraints_interface_target-vertex-group.png
 
 If the Target field links to an :term:`Armature`, a :term:`Bone` field will appear
 along with a :term:`Head` or :term:`Tail` slider.
 Enter the name of a bone and the constraint will target the bone instead of the entire armature object center.
 Slide the slider and the constraint will target the head, the tail or somewhere inbetween.
 
-.. figure:: /images/rigging_constraints_interface_target_bone.png
+.. figure:: /images/rigging_constraints_interface_target-bone.png

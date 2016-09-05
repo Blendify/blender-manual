@@ -24,7 +24,7 @@ it is necessary to have a chain of connected bones and a curve to constrain thes
 Options
 =======
 
-.. figure:: /images/constraints-tracking-splineik.jpg
+.. figure:: /images/rigging_constraints_tracking_spline-ik.png
 
    Spline IK panel.
 

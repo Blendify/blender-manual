@@ -33,8 +33,7 @@ For a demo file that shows some of the different types, see: `BGE-Physics-RigidB
 Options
 =======
 
-.. figure:: /images/constraints-relationship-rigidbodyjoint.png
-   :width: 304px
+.. figure:: /images/rigging_constraints_relationship_rigid-body-joint.png
 
    Rigid Body Joint panel.
 

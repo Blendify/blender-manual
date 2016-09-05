@@ -9,8 +9,7 @@ The *Copy Transforms* constraint forces its owner to have the same transforms as
 Options
 =======
 
-.. figure:: /images/constraints-transform-copytransforms.jpg
-   :width: 304px
+.. figure:: /images/rigging_constraints_transform_copy-transforms.png
 
    Copy Transforms panel.
 
