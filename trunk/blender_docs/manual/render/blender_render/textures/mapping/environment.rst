@@ -183,7 +183,7 @@ onto which it is being mapped.
 
 .. list-table::
 
-   * - .. figure:: /images/envmap01.jpg
+   * - .. figure:: /images/envmap01.png
 
           Planar reflection example. 1: Camera, 2: Empty, 3: Reflecting Plane.
 

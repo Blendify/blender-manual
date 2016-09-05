@@ -22,7 +22,7 @@ or when creating a viewable light or fog/atmospherics around an actual light.
 Options
 =======
 
-.. figure:: /images/materials-halos.jpg
+.. figure:: /images/materials-halos.png
    :width: 309px
 
    Halo panels.

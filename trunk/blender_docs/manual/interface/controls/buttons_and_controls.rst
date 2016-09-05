@@ -12,7 +12,7 @@ The different types of controls are described below.
 Operation Buttons
 =================
 
-.. figure:: /images/interface_button.jpg
+.. figure:: /images/interface_button.png
    :align: right
 
    Operation button.

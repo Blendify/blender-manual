@@ -131,7 +131,7 @@ toggle between hide and show.
 
    * - .. figure:: /images/interface-window_system-headers-hide.png
 
-     - .. figure:: /images/interface-window_system-headers-show_02.jpg
+     - .. figure:: /images/interface-window_system-headers-show_02.png
 
 
 Position

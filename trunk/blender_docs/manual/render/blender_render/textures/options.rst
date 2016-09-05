@@ -9,7 +9,7 @@ In the Properties editor, choose the Texture tab: this will show the Texture pan
 Textures Stack
 ==============
 
-.. figure:: /images/texture-stack.jpg
+.. figure:: /images/texture-stack.png
    :width: 300px
 
    Textures Stack.
