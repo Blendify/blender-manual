@@ -21,11 +21,11 @@ See about supported :doc:`/data_system/files/media/image_formats`.
 Single Image
 ------------
 
+Still image or a single frame.
+
 .. figure:: /images/texture-image-panel.jpg
 
    Image panel for Single Image.
-
-Still image or a single frame.
 
 
 Image Sequence
@@ -43,11 +43,11 @@ further options
 Movie
 -----
 
+Frames packed into a container.
+
 .. figure:: /images/texture-video-imagepanel.jpg
 
    Image panel for video texture.
-
-Frames packed into a container.
 
 Deinterlace
    ..
@@ -75,11 +75,11 @@ Cyclic
 Generated
 ---------
 
+Image generated in Blender or preloaded.
+
 .. figure:: /images/texture-image-panel-generated.jpg
 
    Image panel for Generated source.
-
-Image generated in Blender or preloaded.
 
 Width, Height
    The size of image in pixels.
@@ -92,7 +92,7 @@ Color
 Type
    Blank
       Creates a Blank image of a single specified color.
-   UV grid
+   UV Grid
       Creates a checkerboard pattern with a colored cross (+) in each square.
    Color Grid
       Creates a more complex colored grid with letters and numbers denoting locations in the grid.
@@ -143,8 +143,9 @@ Use Alpha
       Straight, Premultiplied
 
 Fields
-   Work with field images. Video frames consist of two different images (fields) that are merged.
-   This option ensures that when *Fields* are rendered,
+   Work with :doc:`/render/blender_render/post_processing/fields` images.
+   Video frames consist of two different images (fields) that are merged.
+   This option ensures that when fields are rendered,
    the correct field of the image is used in the correct field of the rendering.
    *MIP Mapping* cannot be combined with *Fields*. Order of video fields:
    

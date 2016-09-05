@@ -393,8 +393,6 @@ the UV Coordinate mapping system in the Map Input panel.
 Settings
 --------
 
-.. _render-blender-internal-image-settings:
-
 Image Settings
 ==============
 
