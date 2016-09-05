@@ -89,39 +89,39 @@ Examples
 
 .. list-table::
 
-   * - .. figure:: /images/constraintschildofobjectsex01nocst.png
+   * - .. figure:: /images/rigging_constraints_relationship_child-of-examples-1.png
 
           No constraint.
 
           Note the position of Owner empty 1.0 BU along X- and Y-Axis.
 
-     - .. figure:: /images/constraintschildofobjectsex02cstadded.png
+     - .. figure:: /images/rigging_constraints_relationship_child-of-examples-2.png
 
           Child Of just added.
 
           Here you can see that Owner empty is now 1.0 BU away
           from Target_1 empty along X- and Y-Axis.
 
-   * - .. figure:: /images/constraintschildofobjectsex03cstsetoffset.png
+   * - .. figure:: /images/rigging_constraints_relationship_child-of-examples-3.png
 
           Offset set.
 
           Set Inverse has been clicked, and Owner is back to its original position.
 
-     - .. figure:: /images/constraintschildofobjectsex04csttargettransformed.png
+     - .. figure:: /images/rigging_constraints_relationship_child-of-examples-4.png
 
           Target/parent transformed.
 
           Target_1 has been translated in the XY plane, rotated around the Z-Axis,
           and scaled along its local X-Axis.
 
-   * - .. figure:: /images/constraintschildofobjectsex05cstclearoffset.png
+   * - .. figure:: /images/rigging_constraints_relationship_child-of-examples-5.png
 
           Offset cleared.
 
           Clear Inverse has been clicked. Owner is fully again controlled by Target_1.
 
-     - .. figure:: /images/constraintschildofobjectsex06cstsetoffset.png
+     - .. figure:: /images/rigging_constraints_relationship_child-of-examples-6.png
 
           Offset set again.
 
