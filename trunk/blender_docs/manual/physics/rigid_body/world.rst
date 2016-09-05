@@ -3,17 +3,16 @@
 Rigid Body World
 ****************
 
-Rigid Body World panel.
-
-The rigid body world is a group of Rigid Body objects, which holds settings that apply to all rigid bodies in this
-simulation and can be found in *Rigid Body World* panel of *Scene* tab.
+The *Rigid Body World* is a group of Rigid Body objects,
+which holds settings that apply to all rigid bodies in this simulation.
+These setting can be found in :menuselection:`Properties Editor --> Scene --> Rigid Body World`.
 
 When you add Rigid Body physics on an object,
 primary there is created a group of objects with default "RigidBodyWorld" name.
 Rigid body objects automatically are added to this group when you add Rigid Body physics for them.
 
-You can be create several Rigid Body World groups and allocate there yours Rigid Body objects with *Groups* panel in
-*Object* tab.
+You can be create several Rigid Body World groups and allocate
+there yours Rigid Body objects with *Groups* panel in *Object* tab.
 
 Rigid body objects and constraints are only taken into account by the simulation if they are in the groups specified
 in *Group* field of the *Rigid Body World* panel in the *Scene* tab.
@@ -33,24 +32,23 @@ Simulation quality and timing settings:
 Speed
    Can be used to speed up/slow down the simulation.
 Split Impulse
-   Enable/disable reducing extra velocity that can build up when objects collide (lowers simulation stability a little
-   so use only when necessary).
+   Enable/disable reducing extra velocity that can build up when objects collide
+   (lowers simulation stability a little so use only when necessary).
    Limits the force with which objects are separated on collision, generally produces nicer
    results, but makes the simulation less stable (especially when stacking many objects).
 Steps Per Second
-   Number of simulation steps made per second (higher values are more accurate but slower). This only influences the
-   accuracy and not the speed of the simulation.
+   Number of simulation steps made per second (higher values are more accurate but slower).
+   This only influences the accuracy and not the speed of the simulation.
 Solver Iterations
    Amount of constraint solver iterations made per simulation step (higher values are more accurate but slower).
    Increasing this makes constraints and object stacking more stable.
 
 
-Rigid Body caching and baking
-=============================
+Rigid Body Cache
+================
 
-Rigid Body Cache panel.
-
-Specifies the frame range in which the simulation is active. Can be used to bake the simulation.
+The *Rigid Body Cache* panel specifies the frame range in which the simulation is active.
+Can be used to bake the simulation.
 
 Start/End
    First and last frame of the simulation.
@@ -75,9 +73,7 @@ If you haven’t saved the blend-file, the cache is created in memory,
 so save your file first or the cache may be lost.
 
 
-External Force Influence on Rigid Body
-======================================
-
-Rigid Body Cache panel.
+Rigid Body Field Weights
+========================
 
 As other physics dynamics systems, Rigid Body simulation are also influenced by external force effectors.

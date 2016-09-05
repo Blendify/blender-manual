@@ -34,8 +34,15 @@ if "%1" == "help" (
 	echo.  epub             to make an epub
 	echo.  epub3            to make an epub3
 	echo.
+	echo.Translations
+	echo.============
+	echo.
+	echo.  gettext          to make PO message catalogs
+	echo.  update_po        to update PO message catalogs
+	echo.
 	echo.Checking
 	echo.========
+	echo.
 	echo.  check_syntax     to check the syntax of all .rst files
 	echo.  check_structure  to check the structure of all .rst files
 	echo.  check_links      to check all external links for integrity
@@ -147,7 +154,53 @@ if "%1" == "check_syntax" (
 	goto EOF
 )
 
-if "%1" == "check_structure" (
+if "%1" == "update_po" (
+	REM Check if SVN is in path
+	where /q svn
+	IF ERRORLEVEL 1 (
+    	ECHO SVN is missing. Ensure it is installed and placed in your PATH.
+    	GOTO EOF
+	) ELSE (
+    	GOTO CHECK_LOCALE
+	)
+
+	REM Check if locale exists
+	:CHECK_LOCALE
+	IF NOT EXIST %cd%/locale GOTO MISSING_LOCALE
+	cd locale
+
+	REM Update the locale dir:
+	svn cleanup .
+	svn up .
+	cd ../
+
+	REM Create PO files:
+	DEL build/locale
+
+	%SPHINXBUILD% -t builder_html -b gettext %I18NSPHINXOPTS% %BUILDDIR%/locale
+	if errorlevel 1 exit /b 1
+	echo.
+	echo.Build finished. The message catalogs are in %BUILDDIR%/locale.
+
+	sphinx-intl update -p %BUILDDIR%/locale
+
+	cd locale
+	svn --force --depth infinity add .
+	cd ../
+
+	python tools/rst_check_structure.py --locale > update_po.log
+	type update_po.log
+	DEL update_po.log
+
+	echo. svn ci -m
+	goto EOF
+
+	:MISSING_LOCALE
+	echo. Locale directory not found... Aborting.
+	goto EOF
+)
+
+if "%1" == "check_structure" (          	
 	python tools/rst_check_structure.py --image --locale > rst_check_structure.log
 	type rst_check_structure.log
 	DEL rst_check_structure.log
