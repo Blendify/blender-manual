@@ -6,7 +6,7 @@ Adding/Removing a Constraint
 To add a constraint in the :doc:`Constraints Panel </rigging/constraints/introduction>`:
    Click on the "Add Constraint" drop-down box.
 
-.. figure:: /images/rigging_constraints_intro_all_available.png
+.. figure:: /images/rigging_constraints_introduction_add-menu.png
 
 To add a constraint in the 3D View:
    Select the object you would like to constrain.

@@ -20,8 +20,7 @@ and rotation based on location setups.
 Options
 =======
 
-.. figure:: /images/constraints-transform-transformation.png
-   :width: 305px
+.. figure:: /images/rigging_constraints_transform_transformation.png
 
    Transformation panel.
 

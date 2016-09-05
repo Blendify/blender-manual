@@ -31,8 +31,7 @@ using the *Transformation Properties* axis locking feature is probably easier!
 Options
 =======
 
-.. figure:: /images/constraints-transform-limitloc.jpg
-   :width: 302px
+.. figure:: /images/rigging_constraints_transform_limit-location.png
 
    Limit Location panel.
 

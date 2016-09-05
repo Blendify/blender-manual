@@ -25,8 +25,7 @@ Can be used to add a mesh to video for example.
 Options
 =======
 
-.. figure:: /images/motion_tracking_constraints-object_solver.jpg
-   :width: 315px
+.. figure:: /images/rigging_constraints_motion-tracking_object-solver.png
 
    Object Solver Constraint panel.
 

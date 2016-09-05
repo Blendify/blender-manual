@@ -40,8 +40,7 @@ using the *Transformation Properties* axis locking feature is probably easier.
 Options
 =======
 
-.. figure:: /images/constraints-transform-limitscale.jpg
-   :width: 296px
+.. figure:: /images/rigging_constraints_transform_limit-scale.png
 
    Limit Scale panel.
 

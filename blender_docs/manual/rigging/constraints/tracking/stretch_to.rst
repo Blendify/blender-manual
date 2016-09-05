@@ -24,25 +24,19 @@ With bones, the "volumetric" variation scales them along their own local axes
 Options
 =======
 
+.. figure:: /images/rigging_constraints_tracking_stretch-to.png
+
+   Stretch To panel.
+
+
 Target (Mesh Object Type)
    This constraint uses one target, and is not functional (red state) when it has none.
-
-   .. figure:: /images/constraints-tracking-stretchto.png
-      :width: 250px
-
-      Stretch To panel for a Mesh Object.
 
    Vertex Group
       When *Target* is a mesh, a new field is display where a vertex group can be selected.
 
 Target (Armature Object Type)
    This constraint uses one target, and is not functional (red state) when it has none.
-
-   .. figure:: /images/constraints-tracking-stretchto-armature.jpg
-      :width: 250px
-
-      Stretch To panel for an Armature Object.
-
 
    Bone
       When *Target* is an armature, a new field for a bone is displayed.

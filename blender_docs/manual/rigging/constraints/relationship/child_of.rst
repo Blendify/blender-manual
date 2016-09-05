@@ -28,8 +28,7 @@ compared to the traditional method:
 Options
 =======
 
-.. figure:: /images/constraints-relationship-childof.png
-   :width: 307px
+.. figure:: /images/rigging_constraints_relationship_child-of.png
 
    Child Of panel.
 

@@ -32,8 +32,7 @@ see the "Inverse Kinematics" section of Bone properties.
 Options
 =======
 
-.. figure:: /images/constraints-transform-limitrot.png
-   :width: 304px
+.. figure:: /images/rigging_constraints_transform_limit-rotation.png
 
    Limit Rotation panel.
 
