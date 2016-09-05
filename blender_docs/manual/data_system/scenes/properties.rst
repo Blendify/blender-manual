@@ -14,6 +14,8 @@ Active Clip
    Active movie clip for constraints and viewport drawing.
    
 
+.. _data-scenes-props-units:
+
 Units
 =====
 
@@ -45,6 +47,70 @@ Unit Scale
 Separate Units
    When *Metric*/*Imperial* display units as multiple multiple values,
    for example, "2.285m" will become "2m 28.5cm".
+
+.. Normally we would avoid documenting long lists of values
+   however, this is not displayed anywhere else.
+
+.. list-table:: Imperial Units
+   :header-rows: 1
+   :stub-columns: 1
+
+   * - Full Name
+     - Short Name(s)
+     - Scale of a Meter
+   * - thou
+     - ``mil``
+     - 0.0000254
+   * - inch
+     - ``"``, ``in``
+     - 0.0254
+   * - foot, feet
+     - ``'``, ``ft``
+     - 0.3048
+   * - yard
+     - ``yd``
+     - 0.9144
+   * - chain
+     - ``ch``
+     - 20.1168
+   * - furlong
+     - ``fur``
+     - 201.168
+   * - mile
+     - ``mi``, ``m``
+     - 1609.344
+
+.. list-table:: Metric Units
+   :header-rows: 1
+   :stub-columns: 1
+
+   * - Full Name
+     - Short Name(s)
+     - Scale of a Meter
+   * - micrometer
+     - ``um``
+     - 0.000001
+   * - millimeter
+     - ``mm``
+     - 0.001
+   * - centimeter
+     - ``cm``
+     - 0.01
+   * - decimeter
+     - ``dm``
+     - 0.1
+   * - meter
+     - ``m``
+     - 1.0
+   * - dekameter
+     - ``dam``
+     - 10.0
+   * - hectometer
+     - ``hm``
+     - 100.0
+   * - kilometer
+     - ``km``
+     - 1000.0
 
 
 Color Management

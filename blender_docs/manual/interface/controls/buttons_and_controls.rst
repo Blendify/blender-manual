@@ -115,7 +115,6 @@ Expressions
 -----------
 
 .. Do not use mathjax here
-   - Blendify
 
 You can also enter expressions such as ``3*2`` instead of ``6``. or ``5/10+3``.
 Even constants like ``pi`` (3.142) or functions like ``sqrt(2)`` (square root of 2)
@@ -147,10 +146,11 @@ Units
 -----
 
 As well as expressions, you can mix units with numbers; for this to work,
-units need to be set in the scene settings (Metric or Imperial).
+units need to be set in the :ref:`scene settings <data-scenes-props-units>`.
+
+To use units simply write either the unit abbreviation or the full name after the value.
 
 Examples of valid units include:
-
 
 .. hlist::
    :columns: 2
@@ -164,84 +164,11 @@ Examples of valid units include:
 
 .. note::
 
-   That the commas are optional.
-   Notice how you can mix between metric and imperial even though
-   the display can only show one at a time.
+   Some notes about using units:
 
-
-Unit Names
-^^^^^^^^^^
-
-.. normally we would avoid documenting long lists of values
-   however, this is not displayed anywhere else.
-   ::
-   This may be removed now that we have unit presets.
-
-Unit names have can be used with both long and short forms,
-here are listed recognized unit names you can use.
-
-Plurals of the names are recognized too, so ``meter`` and ``meters`` can both be used.
-
-.. list-table:: Imperial Units
-   :header-rows: 1
-   :stub-columns: 1
-
-   * - Full Name
-     - Short Name(s)
-     - Scale of a Meter
-   * - thou
-     - ``mil``
-     - 0.0000254
-   * - inch
-     - ``"``, ``in``
-     - 0.0254
-   * - foot, feet
-     - ``'``, ``ft``
-     - 0.3048
-   * - yard
-     - ``yd``
-     - 0.9144
-   * - chain
-     - ``ch``
-     - 20.1168
-   * - furlong
-     - ``fur``
-     - 201.168
-   * - mile
-     - ``mi``, ``m``
-     - 1609.344
-
-.. list-table:: Metric Units
-   :header-rows: 1
-   :stub-columns: 1
-
-   * - Full Name
-     - Short Name(s)
-     - Scale of a Meter
-   * - micrometer
-     - ``um``
-     - 0.000001
-   * - millimeter
-     - ``mm``
-     - 0.001
-   * - centimeter
-     - ``cm``
-     - 0.01
-   * - decimeter
-     - ``dm``
-     - 0.1
-   * - meter
-     - ``m``
-     - 1.0
-   * - dekameter
-     - ``dam``
-     - 10.0
-   * - hectometer
-     - ``hm``
-     - 100.0
-   * - kilometer
-     - ``km``
-     - 1000.0
+   - Commas are optional.
+   - You can mix between metric and imperial even though you can only show one at a time.
+   - Plurals of the names are recognized too, so ``meter`` and ``meters`` can both be used.
 
 
 Menu Buttons
