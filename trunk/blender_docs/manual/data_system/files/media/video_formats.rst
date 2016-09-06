@@ -139,7 +139,7 @@ Audio Containers
 `MP2 <https://en.wikipedia.org/wiki/MPEG-1_Audio_Layer_II>`__
    A lossy audio compression format defined by ISO/IEC 11172-3.
 `MP3 <https://en.wikipedia.org/wiki/MP3>`__
-   See MP3 in `Video Formats`_ above.)
+   See MP3 in `Video Formats`_ (above)
 `AC3 <https://en.wikipedia.org/wiki/Dolby_Digital>`__
    Audio Codec 3, an audio compression technology developed by Dolby Laboratories.
 `AAC <https://en.wikipedia.org/wiki/Advanced_Audio_Coding>`__

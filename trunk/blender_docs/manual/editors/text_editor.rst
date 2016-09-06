@@ -11,7 +11,7 @@ Header
 ======
 
 The newly opened Text editor is gray and empty, with a very simple header
-Fig. :ref:`fig-text-header-plain`.
+Fig. :ref:`fig-text-header-plain`
 
 .. _fig-text-header-plain:
 
@@ -90,7 +90,7 @@ Edit
    Move line(s) down
       Swaps the current line with the below.
    Select
-      Select Line, Select All
+      Select Line, Select All.
    Jump
       Shows the Jump pop-up, which lets you select a line number where to jump to.
    Find...
@@ -109,7 +109,7 @@ Format
    Uncomment
       Uncomments the selected lines.
    Convert Whitespace
-      To Space, To Tab
+      To Space, To Tab.
 Template
    See `Script and Templates`_.
 

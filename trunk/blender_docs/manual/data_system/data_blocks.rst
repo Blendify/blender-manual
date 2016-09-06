@@ -38,7 +38,7 @@ handles data-blocks lifetime, when they are freed and why.
 
 Blender follows the general rule where unused data is eventually removed.
 
-Since its common to add and remove a lot of data while working,
+Since it is common to add and remove a lot of data while working,
 this has the advantage of not having to manually manage every single data-block.
 
 This works by skipping zero user data-blocks when writing blend-files.

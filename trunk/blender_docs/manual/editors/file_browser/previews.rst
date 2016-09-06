@@ -8,11 +8,11 @@ Data Previews
    File Browser Previews.
 
 
-The File Browser supports many types of previews these include:
+The File Browser supports many types of previews. These include:
 
 - Image and video formats
 - Blend-files
-- Internal :doc:`DataBlocks </data_system/data_blocks>`
+- Internal :doc:`Data-bBlocks </data_system/data_blocks>`
 - Fonts
 
 
@@ -37,9 +37,9 @@ Batch-Generate Previews
    Objects
       Generate previews for objects.
    Mat/Tex/..
-      Generate Previews for materials, textures,
+      Generate Previews for materials, textures.
    Trusted Blend Files
-      Enables Python evaluation for blend-files
+      Enables Python evaluation for blend-files.
    Save Backups
       Enables backups in case blend-files become corrupt while generating previews.
 
@@ -48,7 +48,7 @@ Batch-Generate Previews
          If you are generating previews for large file make sure to watch the amount of disk space.
 
 
-Clear DataBlock Previews
+Clear Data-block Previews
    Clears data-block previews.
 
    Scenes
@@ -78,9 +78,9 @@ Batch-Clear Previews
    Objects
       Generate previews for objects.
    Mat/Tex/..
-      Generate Previews for materials, textures,
+      Generate Previews for materials, textures.
    Trusted Blend Files
-      Enables Python evaluation for blend-files
+      Enables Python evaluation for blend-files.
    Save Backups
       Enables backups in case blend-files become corrupt while generating previews.
 
