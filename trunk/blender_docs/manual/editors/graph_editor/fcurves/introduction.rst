@@ -75,7 +75,6 @@ Constant
 
       Constant.
 
-
 Linear
    This simple interpolation creates a straight segment between each neighbor keyframes, giving a broken line.
    It can be useful when using only two keyframes and the *Extrapolation* extend mode,
@@ -85,7 +84,6 @@ Linear
       :width: 300px
 
       Linear.
-
 
 Bézier
    The more powerful and useful interpolation, and the default one.
@@ -124,7 +122,6 @@ Constant
 
       Constant extrapolation.
 
-
 Linear
    Curves ends are straight lines (linear), as defined by their first two keyframes
    (respectively their last two keyframes).
@@ -155,7 +152,6 @@ Automatic
 
       Auto handles.
 
-
 Vector
    Creates linear interpolation between keyframes.
    The linear segments remain if keyframe centers are moved. If handles are moved, the handle becomes Free.
@@ -165,7 +161,6 @@ Vector
 
       Vector handles.
 
-
 Aligned
    Handle maintain rotation when moved, and curve tangent is maintained.
 
@@ -174,7 +169,6 @@ Aligned
 
       Aligned handles.
 
-
 Free
    Breaks handles tangents.
 
@@ -182,7 +176,6 @@ Free
       :width: 400px
 
       Free handles.
-
 
 Auto Clamped
    Auto handles clamped to not overshoot.

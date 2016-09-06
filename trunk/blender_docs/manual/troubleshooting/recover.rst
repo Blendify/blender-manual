@@ -35,14 +35,8 @@ Options for Files (System Level)
 Save and Auto Save
 ------------------
 
-.. figure:: /images/basics-undo-and-redo-autosaveoptions.png
-   :align: right
-
-   Auto Save options.
-
-
-Computer crashes,
-power outages or simply forgetting to save can result in the loss or corruption of your work.
+Computer crashes, power outages,
+or simply forgetting to save can result in the loss or corruption of your work.
 To reduce the chance of losing files when those events occur,
 Blender can use an *Autosave* function. The *File* tab of the
 *User Preferences* allows you to configure the two ways that Blender provides
