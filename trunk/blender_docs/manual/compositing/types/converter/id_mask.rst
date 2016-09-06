@@ -52,7 +52,7 @@ The Object Index can be set in Properties Editor :menuselection:`Object --> Rela
 and :menuselection:`Material --> Options --> Pass Index` for the Material Index.
 To be accessible after rendering, *Object Index* or *Material Index* render pass has to be enabled.
 
-.. figure:: /images/editors_3dview_navigating-layers-relations.png
+.. figure:: /images/editors_3dview_layers_relations-panel.png
 
    Object Pass Index.
 

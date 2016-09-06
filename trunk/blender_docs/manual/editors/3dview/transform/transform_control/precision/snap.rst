@@ -125,13 +125,13 @@ Additional Snap Options
           Edit Mode.
 
 
-As seen by the red highlighted areas in the image above,
+As seen by the yellow highlighted areas in the image above,
 additional controls are available to alter snap behavior. These options vary between mode
 (Object and Edit) as well as Snap Element. The four options available are:
 
 .. list-table::
    :header-rows: 1
-   :widths: 10 90
+   :widths: 13 87
 
    * - Icon
      - Details
