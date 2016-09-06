@@ -14,7 +14,7 @@ Only certain data supports custom properties.
 - Sequence strips.
 
 To add a custom property find the *Custom Properties* panel,
-found at the bottom of most :doc:`Properties Region </editors/properties/index>`, and hit *Add*.
+found at the bottom of most :doc:`Properties Editor </editors/properties_editor>`, and hit *Add*.
 
 .. figure:: /images/data_custom_properties_add.png
 
