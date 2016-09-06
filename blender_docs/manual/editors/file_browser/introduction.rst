@@ -18,11 +18,11 @@ Use cases include:
 
 - Opening and Saving Blend files.
 - Import/Export other file formats.
-- Picking new locations for existing file-paths (images, video's, fonts... etc).
+- Picking new locations for existing file-paths (images, video, fonts... etc).
 - Browsing inside other blend-files, when using :doc:`Linked Libraries </data_system/linked_libraries>`.
 
 You can also keep the File Browser open, as with any other editor type.
-In this case the buttons to load a files is removed.
+In this case the button to load a file is removed.
 
 The main purpose of this is to be able to drag media files.
 
@@ -37,10 +37,10 @@ Opening an Image Sequence
 
 The filename of the images must contain a digit, indicating the frame.
 The sequence could be opened by the selection of the images and
-by the confirm with the *Open image* button or :kbd:`Return`.
+by the confirmation with the *Open image* button or :kbd:`Return`.
 
 .. To load image sequence in any of the supported image
-   file formats first click on the first frame and then Accept.
+   file formats, first click on the first frame and then Accept.
    Then change the Source to Image Sequence, and enter the ending frame number of this sequence.
 
 
@@ -51,7 +51,7 @@ Path Fields
 -----------
 
 Increment Filename :kbd:`Plus`, :kbd:`Minus`
-   Adds or removes a trailing number to your file name.
+   Adds or removes a trailing number to your file name 
    *(use to make *versions* of a file)*.
 Auto Complete :kbd:`Tab`
    When in the directory editor, this will auto-complete existing paths.
@@ -63,7 +63,7 @@ Navigation
 Enter Path :kbd:`Return`
    Enter the directory.
 Parent Directory :kbd:`Backspace`, :kbd:`P`
-   Takes you up one directory.
+   Takes you up one level of directory.
 
 
 View
