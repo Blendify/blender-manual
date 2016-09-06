@@ -45,12 +45,14 @@ or pressing :kbd:`Minus` and :kbd:`Plus` on the numpad.
 Time Cursor
 -----------
 
+
+The *Time Cursor* is the green line, it is used to set and display the current time frame.
+
 .. figure:: /images/timeline_cursor.png
+   :align: center
 
    Time Cursor.
 
-
-The *Time Cursor* is the green line, it is used to set and display the current time frame.
 
 The *Time Cursor* can be set or moved to a new position by pressing or holding
 :kbd:`LMB` in the Timeline editor.
@@ -58,9 +60,8 @@ The *Time Cursor* can be set or moved to a new position by pressing or holding
 The current frame or second can be displayed on the *Time Cursor*,
 check the View menu for settings.
 
-The *Time Cursor* can be moved in steps by pressing :kbd:`Left` or
-:kbd:`Right`, or in steps of 10 frames by pressing :kbd:`Shift-Up` or
-:kbd:`Shift-Down`.
+The *Time Cursor* can be moved in steps by pressing :kbd:`Left` or :kbd:`Right`,
+or in steps of 10 frames by pressing :kbd:`Shift-Up` or :kbd:`Shift-Down`.
 
 
 Playback/Rendering Range
@@ -217,10 +218,8 @@ Frame Control
 
 Start Frame
    The start frame of the animation/playback range.
-
 End Frame
    The end frame of the animation/playback range.
-
 Current Frame
    The current frame of the animation/playback range.
    Also the position of the *Time Cursor*.
@@ -232,6 +231,7 @@ Player Control
 These button are used to set, play, rewind, the *Time Cursor*.
 
 .. figure:: /images/timeline_player_controls.png
+   :align: right
 
    Player Controls.
 
@@ -257,8 +257,11 @@ Synchronize Playback
 ^^^^^^^^^^^^^^^^^^^^
 
 .. figure:: /images/animation_red_fps.png
+   :figwidth: 109px
+   :align: right
 
    3D View Red FPS.
+
    60:54.75
 
 
@@ -282,12 +285,12 @@ AV-sync
 Keyframe Control
 ^^^^^^^^^^^^^^^^
 
-.. figure:: /images/kia_cube03.png
-
-   Timeline Auto Keyframe.
-
-
 Auto Keyframe
+   .. figure:: /images/kia_cube03.png
+      :align: right
+
+      Timeline Auto Keyframe.
+
    The "Record" red-dot button enables something called *Auto Keyframe* :
    It will add and/or replace existing keyframes for the active object when you transform it in the 3D View.
 
@@ -303,14 +306,12 @@ Auto Keyframe
    Note that *Auto Keyframe* only works for transform properties (objects and bones),
    in the 3D Views (i.e. you cant use it e.g. to animate the colors of a material in the Properties editor...).
 
-Layered
-   Optional while playback. TODO.
-
-   .. figure:: /images/animation_timeline_layered.png
-
-      Timeline Layered.
-
 Active Keying Set
+   .. figure:: /images/kia_cube02.png
+      :align: right
+
+      Timeline Keying Sets.
+
    *Keying Sets* are a set of keyframe channels in one.
 
    They are made so the user can record multiple properties at the same time.
@@ -322,10 +323,6 @@ Active Keying Set
 
    Custom keying sets can be defined in the in the panels
    :menuselection:`Properties --> Scene --> Keying Sets + Active Keying Set`.
-
-   .. figure:: /images/kia_cube02.png
-
-      Timeline Keying Sets.
 
 Insert Keyframes
    Insert keyframes on the current frame for the properties in the active *Keying Set*.
