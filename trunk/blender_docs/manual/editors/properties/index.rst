@@ -9,9 +9,8 @@
 
    introduction.rst
 
+
 .. Todo, choose proper name for each section
-   ::
-   Debug relative file path issue or find a different solution.
 
 Sections
 ========
@@ -20,7 +19,15 @@ Sections
    :maxdepth: 1
 
    render.rst
-   scene.rst
+
+.. XXX move to toctree once https://github.com/sphinx-doc/sphinx/pull/2354
+   gets merged and released.
+
+- :doc:`Scene </data_system/scenes/properties>`
+
+.. toctree::
+   :maxdepth: 1
+
    world.rst
    object_data.rst
    mesh_data.rst
