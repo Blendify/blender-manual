@@ -51,6 +51,8 @@ F-Curves have three additional properties, which control the interpolation betwe
 extension behavior, and the type of handles.
 
 
+.. _editors-graph-fcurves-settings-interpolation:
+
 Interpolation Mode
 ------------------
 
@@ -136,6 +138,8 @@ Linear
 Additional extrapolation tools (e.g. the "Cycles" F-Modifier)
 are located in the :doc:`F-Curve Modifiers </editors/graph_editor/fcurves/fmodifiers>`
 
+
+.. _editors-graph-fcurves-settings-handles:
 
 Handle Types
 ------------

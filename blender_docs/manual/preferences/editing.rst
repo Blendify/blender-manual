@@ -38,7 +38,7 @@ Object
 :doc:`Read more about Blender's Data System </data_system/index>`
 
 
-New objects
+New Objects
 ===========
 
 Enter Edit Mode
@@ -63,7 +63,7 @@ Global Undo
       also preventing tool options from being changed in some cases.
 
       For typical usage, its best to keep this enabled.
-Step
+Steps
    Number of Undo steps available.
 Memory Limit
    Maximum memory usage in Mb (0 is unlimited).
@@ -74,16 +74,25 @@ Memory Limit
 Grease Pencil
 =============
 
-:doc:`Grease Pencil </interface/grease_pencil/index>` permits you to draw in the 3D View with a pencil-like tool.
+Eraser Radius
+   The size of the eraser used with the grease pencil.
 
 Manhattan Distance
    The minimum number of pixels the mouse has to move horizontally or vertically before the movement is recorded.
 Euclidian Distance
    The minimum distance that mouse has to travel before movement is recorded.
-Eraser Radius
-   The size of the eraser used with the grease pencil.
-Smooth Stroke
+
+
+Default Color
+-------------
+
+Color Selector
+   The default color for new Grease Pencil layers.
+
+Simplify Stroke
    Smooths the pencil stroke after it is finished.
+
+:doc:`Read more about Grease Pencil </interface/grease_pencil/index>`
 
 
 Playback
@@ -94,6 +103,21 @@ Allow Negative Frame
    When using *Use Preview Range*, this also allows playback.
 
 
+Node Editor
+===========
+
+Auto-offset Margin
+   Margin to use for :ref:`offsetting nodes <editors-nodes-usage-auto-offset>`.
+
+
+Animation Editors
+=================
+
+F-Curve Visibility
+   Opacity that un-selected :doc:`F-Curves </editors/graph_editor/fcurves/index>`
+   stand out from the *Graph Editor*.
+
+
 Keyframing
 ==========
 
@@ -101,7 +125,7 @@ In many situations, animation is controlled by keyframes. The state of a value (
 is recorded in a keyframe and the animation between two keyframes is interpolated by Blender.
 
 Visual Keying
-   When an object is using constraints, the objects property value doesnt actually change.
+   When an object is using constraints, the objects property value does not actually change.
    *Visual Keying* will add keyframes to the object property,
    with a value based on the visual transformation from the constraint.
 Only Insert Needed
@@ -117,13 +141,14 @@ Only Insert Available
 New F-Curve Defaults
 ====================
 
-   Interpolation
-      This controls how the state between two keyframes is computed.
-      Default interpolation for new keyframes is Bézier which provides
-      smooth acceleration and de-acceleration whereas Linear or Constant is more abrupt.
-   XYZ to RGB
-      Color for X, Y or Z animation curves (location, scale or rotation)
-      are the same as the color for the X, Y and Z axis.
+Interpolation
+   Controls the default :ref:`Interpolation <editors-graph-fcurves-settings-interpolation>`
+   for newly created keyframes.
+Handles
+   Controls the default :ref:`Handle <editors-graph-fcurves-settings-handles>` for newly created F-Curves.
+XYZ to RGB
+   Color for X, Y or Z animation curves (location, scale or rotation)
+   are the same as the color for the X, Y and Z axis.
 
 
 Transform
