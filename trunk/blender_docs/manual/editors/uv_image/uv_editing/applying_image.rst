@@ -91,7 +91,7 @@ If you were to apply an image to UVs then render, the texture would not show up 
 
 To render an image however, you must:
 
-- create a Material for the object, and
+- Create a Material for the object, and
 - tell Blender to use the UV Textures on faces when rendering.
 
 To create a Material, you have to click *Add New* Material in the Shading context.
