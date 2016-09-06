@@ -148,53 +148,53 @@ function. UV maps and vertex colors can be retrieved using their name.
 Other attributes are listed below:
 
 ``geom:generated``
-   Generated texture coordinates
+   Generated texture coordinates.
 ``geom:uv``
-   Default render UV map
+   Default render UV map.
 ``geom:dupli_generated``
-   For instances, generated coordinate from duplicator object
+   For instances, generated coordinate from duplicator object.
 ``geom:dupli_uv``
-   For instances, UV coordinate from duplicator object
+   For instances, UV coordinate from duplicator object.
 ``geom:trianglevertices``
-   3 vertex coordinates of the triangle
+   3 vertex coordinates of the triangle.
 ``geom:numpolyvertices``
-   Number of vertices in the polygon (always returns three currently)
+   Number of vertices in the polygon (always returns three currently).
 ``geom:polyvertices``
-   Vertex coordinates array of the polygon (always three vertices currently)
+   Vertex coordinates array of the polygon (always three vertices currently).
 ``geom:name``
-   Name of the object
+   Name of the object.
 ``geom:is_curve``
-   Is object a strand or not
+   Is object a strand or not.
 ``geom:curve_intercept``
-   Point along the strand, from root to tip
+   Point along the strand, from root to tip.
 ``geom:curve_thickness``
-   Thickness of the strand
+   Thickness of the strand.
 ``geom:curve_tangent_normal``
-   Tangent Normal of the strand
+   Tangent Normal of the strand.
 ``path:ray_length``
-   Ray distance since last hit
+   Ray distance since last hit.
 ``object:location``
-   Object location
+   Object location.
 ``object:index``
-   Object index number
+   Object index number.
 ``object:random``
-   Per object random number generated from object index and name
+   Per object random number generated from object index and name.
 ``material:index``
-   Material index number
+   Material index number.
 ``particle:index``
-   Particle instance number
+   Particle instance number.
 ``particle:age``
-   Particle age in frames
+   Particle age in frames.
 ``particle:lifetime``
-   Total lifespan of particle in frames
+   Total lifespan of particle in frames.
 ``particle:location``
-   Location of the particle
+   Location of the particle.
 ``particle:size``
-   Size of the particle
+   Size of the particle.
 ``particle:velocity``
-   Velocity of the particle
+   Velocity of the particle.
 ``particle:angular_velocity``
-   Angular velocity of the particle
+   Angular velocity of the particle.
 
 
 Trace

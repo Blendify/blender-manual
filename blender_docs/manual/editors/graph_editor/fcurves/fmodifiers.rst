@@ -59,13 +59,13 @@ Consult mathematics reference for more detailed information on each function.
 - Normalized Sine (sin(x)/x)
 
 Amplitude
-   Adjusts the Y scaling
+   Adjusts the Y scaling.
 Phase Multiplier
-   Adjusts the X scaling
+   Adjusts the X scaling.
 Phase Offset
-   Adjusts the X offset
+   Adjusts the X offset.
 Value Offset
-   Adjusts the Y offset
+   Adjusts the Y offset.
 
 
 Envelope
@@ -152,10 +152,10 @@ Stepped Interpolation
 Gives the curve a stepped appearance by rounding values down within a certain range of frames.
 
 Step Size
-   Specify the number of frames to hold each frame
+   Specify the number of frames to hold each frame.
 Offset
    Reference number of frames before frames get held. Use to get hold for '1-3' vs '5-7' holding patterns.
 Use Start Frame
-   Restrict modifier to only act before its 'end' frame
+   Restrict modifier to only act before its 'end' frame.
 Use End Frame
-   Restrict modifier to only act after its 'start' frame
+   Restrict modifier to only act after its 'start' frame.

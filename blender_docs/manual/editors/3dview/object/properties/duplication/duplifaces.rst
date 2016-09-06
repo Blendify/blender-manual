@@ -17,7 +17,7 @@ One of the best ways to explain this is through an example illustration.
 .. note:: Example blend-file
 
    Download the blend-file used for the examples on this page
-   `here <https://wiki.blender.org/index.php/:File:Manual-2.5-Duplifaces-Example01.blend>`__
+   `here <https://wiki.blender.org/index.php/:File:Manual-2.5-Duplifaces-Example01.blend>`__.
 
 
 Basic Usage

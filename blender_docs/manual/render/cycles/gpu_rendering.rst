@@ -36,7 +36,7 @@ We support graphics cards starting from GTX 4xx (computing capability 2.0).
 
 Cycles requires recent NVIDIA drivers to be installed, on all operating systems.
 
-`List of CUDA cards with shader model <https://developer.nvidia.com/cuda-gpus>`__
+`List of CUDA cards with shader model <https://developer.nvidia.com/cuda-gpus>`__.
 
 
 OpenCL

@@ -11,6 +11,7 @@ Take a look at the following examples of a scene lit with Direct Lighting and bo
 Direct+Indirect Lighting:
 
 .. list-table::
+   Images courtesy of `rastermon.com <https://web.archive.org/web/20050204031559/https://rastermon.com/GI1.htm>`__.
 
    * - .. figure:: /images/lighting-inderect_lighting-01.png
 
@@ -27,9 +28,6 @@ Direct+Indirect Lighting:
      - .. figure:: /images/lighting-inderect_lighting-04.jpg
 
           Direct+Indirect Lighting Render.
-
-
-Images courtesy of `rastermon.com <https://web.archive.org/web/20050204031559/https://rastermon.com/GI1.htm>`__
 
 
 Indirect Lighting only works with Approximate gather method.

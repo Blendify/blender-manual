@@ -36,7 +36,7 @@ Center X, Y
 Distance
    How large the blur effect is.
 Angle
-   Image is blurred at this angle from the center
+   Image is blurred at this angle from the center.
 
 Spin
    Rotates the image each iteration to create a spin effect, from the center point.

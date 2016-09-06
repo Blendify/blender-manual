@@ -42,7 +42,7 @@ Location
 Randomize Rotation
    Randomize rotation values.
 Rotation
-   The maximum angle the objects can rotate on each axis
+   The maximum angle the objects can rotate on each axis.
 
 Randomize Scale
    Randomize scale values.

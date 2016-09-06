@@ -33,7 +33,6 @@ Radius
       Particle system to use.
 
 Falloff
-
    Standard
       Todo.
    Smooth
@@ -56,10 +55,10 @@ Falloff
 
 
 Falloff Curve
-   Use a custom falloff
+   Use a custom falloff.
 
 Cache
-   Coordinate system to cache particles in
+   Coordinate system to cache particles in.
 
    Global Space
       Todo.
@@ -69,7 +68,7 @@ Cache
       Todo.
 
 Color Source
-   Data to derive the color results from
+   Data to derive the color results from.
 
    Constant
       Constant color
@@ -89,7 +88,7 @@ Color Source
             Multiplier to bring particle speed within an acceptable range.
    Vertex Color Sources
       Vertex Color
-         Use a vertex color layer for coloring the point density texture
+         Use a vertex color layer for coloring the point density texture.
 
          .. note::
 
@@ -107,10 +106,10 @@ Color Source
 Turbulence
 ----------
 
-Adds directed noise to the density at render time
+Adds directed noise to the density at render time.
 
 Influence
-   Method for driving added turbulent noise
+   Method for driving added turbulent noise.
 
    Static
       Noise patterns will remain unchanged, faster and suitable for stills.
@@ -122,11 +121,11 @@ Influence
       Turbulent noise driven by the global current frame.
 
 Noise Basis
-   See :doc:`Here </render/blender_render/textures/types/procedural/introduction>`
+   See :doc:`Here </render/blender_render/textures/types/procedural/introduction>`.
 
 Size
-   Scale of the turbulent noise
+   Scale of the turbulent noise.
 Depth
-   Level of detail in the added turbulent noise
+   Level of detail in the added turbulent noise.
 Turbulence Strength
-   Strength of the added turbulent noise
+   Strength of the added turbulent noise.

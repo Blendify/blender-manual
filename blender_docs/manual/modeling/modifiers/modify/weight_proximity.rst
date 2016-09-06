@@ -142,11 +142,9 @@ Example
 
 In this example let us dynamically control a *Wave* modifier with a modified vertex group.
 
-#. Add a *Grid* mesh with (100×100) x/y subdivisions and a 5 BU Radius
-
+#. Add a *Grid* mesh with (100×100) x/y subdivisions and a 5 BU Radius.
 #. Switch to *Edit Mode* :kbd:`Tab`, and in the *Object Data* properties, *Vertex Groups* panel,
    add a vertex group. Assign to it all your mesh's vertices with 1.0 weight.
-
 #. Go back to *Object Mode*. Then, go to the *Modifiers* properties, and add a *Vertex Weight Proximity* modifier.
    Set the Distance mode to *Object*. Select your vertex group, and the target object you want.
 
@@ -155,14 +153,11 @@ In this example let us dynamically control a *Wave* modifier with a modified ver
    *Highest Dist* so that the first corresponds to the distance between your target
    object and the vertices you want to have lowest weight,
    and similarly with the second and highest weight...
-
 #. If your lamp is at Z-hight of 2 then set the settings for the weight proximity modifier to:
    Lowest: 2 and highest: 7 (this will stop the waves under the lamp)
    If you want waves to be only under the lamp, set the lowest to 7 and highest to 2.
-
 #. Now add a *Wave* modifier, set it to your liking, and use the same vertex group to control it.
    Example settings-speed: 0.10 , Height: 1.0 , Width 1.50 , Narrowness: 1.50.
-
 #. Animate your target object, making it move over the grid. As you can see, the waves are only
    visible around the reference object! Note that you can insert a *Vertex Weight Edit*
    modifier before the *Wave* one,

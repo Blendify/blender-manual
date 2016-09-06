@@ -16,19 +16,17 @@ Extrude
    With a scale of one,
    an *Extrusion* of 0.5 will extrude the curve 0.5 BU in both directions, perpendicular to the curves normals.
 
-   If set to 0.0, there is no extrusion
+   .. list-table::
 
-.. list-table::
+      * - .. figure:: /images/curves_extrude_start.jpg
+             :width: 315px
 
-   * - .. figure:: /images/curves_extrude_start.jpg
-          :width: 315px
+             Bézier Circle 0.0 extrude.
 
-          Bézier Circle 0.0 extrude.
+        - .. figure:: /images/curves_extrude_by0.5.jpg
+             :width: 315px
 
-     - .. figure:: /images/curves_extrude_by0.5.jpg
-          :width: 315px
-
-          Extruded by 0.5.
+             Extruded by 0.5.
 
 Tilt
    This setting controls how the normals (visualization: arrows)

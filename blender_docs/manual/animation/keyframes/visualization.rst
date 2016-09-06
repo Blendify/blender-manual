@@ -45,7 +45,7 @@ You have to do it manually and
 you have to first select the objects you want to show/hide the motion paths. Then:
 
 #. To show the paths (or update them, if needed), click on the *Calculate Path* button.
-#. To hide the paths, click on the *Clear Paths* button
+#. To hide the paths, click on the *Clear Paths* button.
 
 .. warning::
 

@@ -41,7 +41,7 @@ Example
 .. figure:: /images/texture-node-example.jpg
    :width: 500px
 
-   Example of the applying Texture node
+   Example of the applying Texture node.
 
 In the example to the right, a cloud texture, as it would appear to a viewer,
 is added to a base purple material, giving a velvet effect.

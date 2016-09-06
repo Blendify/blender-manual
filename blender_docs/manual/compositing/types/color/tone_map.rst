@@ -25,6 +25,7 @@ Inputs
 Image
    HDR image.
 
+
 Properties
 ==========
 
@@ -33,19 +34,20 @@ Type
       Key
          The value the average luminance is mapped to.
       Offset
-         Normally always 1, but can be used as an extra control to alter the brightness curve
+         Normally always 1, but can be used as an extra control to alter the brightness curve.
       Gamma
-         If not used, set to 1
+         If not used, set to 1.
 
    R/D Photoreceptor
       Intensity
-         If less than zero, darkens image; otherwise, makes it brighter
+         If less than zero, darkens image; otherwise, makes it brighter.
       Contrast
-         Set to 0 to use estimate from input image
+         Set to 0 to use estimate from input image.
       Adaptation
-         If 0, global; if 1, based on pixel intensity
+         If 0, global; if 1, based on pixel intensity.
       Color Correction
-         If 0, same for all channels; if 1, each independent
+         If 0, same for all channels; if 1, each independent.
+
 
 Outputs
 =======

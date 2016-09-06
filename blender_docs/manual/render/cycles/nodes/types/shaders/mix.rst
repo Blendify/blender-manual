@@ -34,7 +34,7 @@ Outputs
 =======
 
 Shader
-   Standar shader output
+   Standard shader output.
 
 
 Examples

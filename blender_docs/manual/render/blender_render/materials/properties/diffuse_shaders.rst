@@ -152,9 +152,9 @@ Options
 -------
 
 Size
-   The size of the lit area
+   The size of the lit area.
 Smooth
-   The softness of the boundary between lit and shadowed areas
+   The softness of the boundary between lit and shadowed areas.
 
 .. figure:: /images/material-shader-toon-settings.jpg
    :width: 200px

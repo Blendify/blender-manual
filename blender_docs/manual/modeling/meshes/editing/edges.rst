@@ -105,14 +105,14 @@ Edge Slide
 
 
 Slides one or more edges across adjacent faces with a few restrictions involving the selection
-of edges *(i.e. the selection must define a valid loop, see below.)*
+of edges (i.e. the selection *must* define a valid loop, see below.)
 
 :kbd:`Shift`
    Higher precision control.
 :kbd:`Ctrl`
-   Snap to value (useful to combine with auto merge)
+   Snap to value (useful to combine with auto merge).
 :kbd:`LMB`
-   confirms the tool
+   Confirms the tool.
 :kbd:`RMB` or :kbd:`Esc`
    Cancels.
 
@@ -120,7 +120,7 @@ Even :kbd:`E`
    Forces the edge loop to match the shape of the adjacent edge loop.
    You can flip to the opposite vertex using :kbd:`F`. Use :kbd:`Alt-Wheel` to change the control edge.
 Flip :kbd:`F`
-   When Even mode is active, this flips between the two adjacent edge loops the active edge loop will match
+   When Even mode is active, this flips between the two adjacent edge loops the active edge loop will match.
 :kbd:`Alt` or :kbd:`C`
    Toggle clamping the slide within the edge extents.
 
@@ -336,7 +336,7 @@ Edge Split
 
 *Edge split* is similar to the rip tool. When two or more touching interior edges,
 or a border edge is selected when using *Edge split*,
-a hole will be created, and the selected edges are duplicated to form the border of the hole
+a hole will be created, and the selected edges are duplicated to form the border of the hole.
 
 .. list-table::
 

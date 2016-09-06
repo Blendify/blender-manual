@@ -14,7 +14,7 @@ based on the current view settings, by transforming the points recorded when dra
 so it may be necessary to simplify or subdivide parts of the created geometry for standard use.
 
 Sketches can currently be converted into curves,
-as proposed by the *Convert Grease Pencil* menu popped-up by the *Convert* button in the grease pencil properties
+as proposed by the *Convert Grease Pencil* menu popped-up by the *Convert* button in the grease pencil properties.
 
 
 Options

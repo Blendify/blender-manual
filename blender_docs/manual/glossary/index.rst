@@ -474,7 +474,7 @@ This page lists definitions for terms used in Blender and this manual.
 
    Overscan
       The term used to describe the situation
-      when not all of a televised image is present on a viewing screen
+      when not all of a televised image is present on a viewing screen.
 
       See also `Overscan <https://en.wikipedia.org/wiki/Overscan>`__ on Wikipedia.
 

@@ -26,22 +26,22 @@ Options
 =======
 
 Progression
-   Profile of blend
+   Profile of blend.
 
    Linear
-      A linear progression
+      A linear progression.
 
 Quadratic
-   A quadratic progression
+   A quadratic progression.
 Easing
-   A flowing, non-linear progression
+   A flowing, non-linear progression.
 Diagonal
-   A diagonal progression
+   A diagonal progression.
 Spherical
-   A progression with the shape of a three-dimensional ball
+   A progression with the shape of a three-dimensional ball.
 Quadratic Sphere
-   A quadratic progression with the shape of a three-dimensional ball
+   A quadratic progression with the shape of a three-dimensional ball.
 Radial
-   A radial progression
-   *Horizontal* / *Vertical*
+   A radial progression:
+   *Horizontal* / *Vertical*.
    The direction of the progression is flipped a quarter turn.

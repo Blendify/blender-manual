@@ -47,7 +47,7 @@ Format
 Size
    select the size of the image in pixels. The image be square.
 Fill Opacity
-   Set the opacity of the fill
+   Set the opacity of the fill.
 
 The image will be lines defining the UV edges that are within the image area of the UV mapping
 area. Edges outside the boundary, even if selected, will not be shown in the saved graphic.
@@ -87,9 +87,9 @@ You can edit and load images,
 and even play a game in the Blender Game Engine with UV textures for characters and object,
 without a material, and still see them in the 3D View.
 This is because no real rendering is taking place; it is all just viewport shading.
-If you were to apply an image to UVs then render, the texture would not show up by default
+If you were to apply an image to UVs then render, the texture would not show up by default.
 
-To render an image however, you must
+To render an image however, you must:
 
 - create a Material for the object, and
 - tell Blender to use the UV Textures on faces when rendering.

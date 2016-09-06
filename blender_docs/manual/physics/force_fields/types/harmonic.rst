@@ -27,7 +27,8 @@ Multiple Springs
 Normally every particle of the field system influences every particle of the target system.
 Not with *Harmonic* ! Here every target particle is assigned to a field particle.
 So particles will move to the place of other particles, thus forming shapes.
+
 Tutorial: `Particles forming Shapes
-<https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Particles_forming_Shapes>`__
+<https://en.wikibooks.org/wiki/Blender_3D:_Noob_to_Pro/Particles_forming_Shapes>`__.
 
 .. vimeo:: 173822500

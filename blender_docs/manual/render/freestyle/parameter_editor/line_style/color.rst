@@ -113,7 +113,7 @@ the result will not be blurred between materials along the strokes.
    :align: center
 
    Material modifiers demo by T.K.
-   `File:Lilies_Color_Material.zip <https://wiki.blender.org/index.php/File:Lilies_Color_Material.zip>`__
+   `File:Lilies_Color_Material.zip <https://wiki.blender.org/index.php/File:Lilies_Color_Material.zip>`__.
 
 
 Noise
@@ -165,7 +165,7 @@ Min Angle and Max Angle
 
    3D Curvature modifier demo by T.K.
    `File:Render_freestyle_modifier_curvature_3d.blend
-   <https://wiki.blender.org/index.php/File:Render_freestyle_modifier_curvature_3d.blend>`__
+   <https://wiki.blender.org/index.php/File:Render_freestyle_modifier_curvature_3d.blend>`__.
 
 A modifier based on radial curvatures of the underlying 3D surface.
 The `curvature <https://en.wikipedia.org/wiki/Curvature>`__ of a 2D curve
@@ -202,7 +202,7 @@ Crease Angle
 
    Crease Angle modifier demo by T.K.
    `File:Render_freestyle_modifier_crease_angle.blend
-   <https://wiki.blender.org/uploads/b/b4/Render_freestyle_modifier_crease_angle.blend>`__
+   <https://wiki.blender.org/uploads/b/b4/Render_freestyle_modifier_crease_angle.blend>`__.
 
 A modifier based on the Crease Angle (angle between two adjacent faces). If a stroke segment does not lie on a crease
 (i.e., the edge does not have the *Crease Angle nature*,

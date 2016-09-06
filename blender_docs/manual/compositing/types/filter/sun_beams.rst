@@ -46,12 +46,12 @@ Example
 Usually, the first step is to define the area from which rays are cast.
 Any diffuse reflected light from surfaces is not going to contribute to such scattering in the real world,
 so should be excluded from the input data.
-Possible ways to achieve this are
+Possible ways to achieve this are:
 
-- entirely separate image as a light source
-- brightness/contrast tweaking to leave only the brightest areas
-- muting shadow and midtone colors, which is a bit more flexible
-- masking for ultimate control
+- Entirely separate image as a light source.
+- Brightness/contrast tweaking to leave only the brightest areas.
+- Muting shadow and midtone colors, which is a bit more flexible.
+- Masking for ultimate control.
 
 After generating the sun beams from such a light source image they can then be overlayed on the original image.
 Usually, a simple "Add" mix node is sufficient,
@@ -59,4 +59,3 @@ and physically correct because the scattered light adds to the final result.
 
 .. figure:: /images/composite_nodes_filter_sun_beams.png
    :width: 450px
-   :figwidth: 450px

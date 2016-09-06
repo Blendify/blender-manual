@@ -11,7 +11,7 @@ Musgrave
 Often used for
    Organic materials, but it is very flexible. You can do nearly everything with it.
 Result(s)
-   Intensity
+   Intensity.
 
 
 Options

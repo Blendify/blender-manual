@@ -71,17 +71,17 @@ For real-time discussion, there are some Blender IRC channels on the Freenode ne
 You can join these with your favorite IRC client:
 
 - `#blender <irc://irc.freenode.net/blender>`__
-  Community support channel
+  Community support channel.
 - `#blenderchat <irc://irc.freenode.net/blenderchat>`__
-  For general discussion or off topic chat
+  For general discussion or off topic chat.
 - `#blendercoders <irc://irc.freenode.net/blendercoders>`__
-  For developers to discuss Blender development
+  For developers to discuss Blender development.
 - `#blenderpython <irc://irc.freenode.net/blenderpython>`__
-  For support for developers using the Python API
+  For support for developers using the Python API.
 - `#gameblender <irc://irc.freenode.net/gameblender>`__
-  For discussion on issues related to game creation with the GE
+  For discussion on issues related to game creation with the GE.
 - `#blenderwiki <irc://irc.freenode.net/blenderwiki>`__
-  For discussion related to Blender's documentation
+  For discussion related to Blender's documentation.
 
 .. note::
 

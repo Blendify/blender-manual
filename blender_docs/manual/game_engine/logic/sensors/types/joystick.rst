@@ -21,7 +21,7 @@ Special Options:
 Index
    Specifies which joystick to use.
 All Events
-   Sensor triggers for all events on this joystick's current type
+   Sensor triggers for all events on this joystick's current type.
 
 
 .. figure:: /images/bge_sensor_joystick_event.jpg

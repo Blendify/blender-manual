@@ -52,15 +52,15 @@ Sliding the new edge loop
 Options
 =======
 
-Options are only available while the tool is in use, and are displayed in the 3D View header
+Options are only available while the tool is in use, and are displayed in the 3D View header.
 
 Even :kbd:`E`
    Only available for single edge loops.
    This matches the shape of the edge loop to one of the adjacent edge loops.
-   (See :ref:`Edge Slide tool <modeling-meshes-editing-edge-slide>` for details)
+   (See :ref:`Edge Slide tool <modeling-meshes-editing-edge-slide>` for details).
 Flip :kbd:`F`
    When Even is enabled, this flips the target edge loop to match.
-   (See :ref:`Edge Slide tool <modeling-meshes-editing-edge-slide>` for details)
+   (See :ref:`Edge Slide tool <modeling-meshes-editing-edge-slide>` for details).
 Number of Cuts :kbd:`Wheel` or :kbd:`NumpadPlus` / :kbd:`NumpadMinus`
    After activating the tool, but before confirming initial loop location,
    you can increase and decrease the number of cuts to create,

@@ -44,7 +44,7 @@ where U means position across spline segment, and V means distance between main 
 
 .. figure:: /images/editors_movie-clip_masking_scurve.png
 
-   S- Curve Explained
+   S- Curve Explained.
 
 This allows for deforming the main spline in almost any way,
 and the feather will be updated automatically to reflect that change.
@@ -61,7 +61,7 @@ Editing of mask splines happens in a way similar to editing Bézier curves or pa
 control points are added to define the spline itself, and handles of different types are used to create smooth bends.
 This makes it possible to define a mask with few points to easily follow an object in footage.
 
-- :kbd:`Ctrl-LMB` is used to place new control points and define handle orientations
+- :kbd:`Ctrl-LMB` is used to place new control points and define handle orientations.
 - :kbd:`Alt-C` to close the mask by joining the last control point to the first.
 - Existing control points can be translated, scaled and rotated with the usual G, S, R shortcuts.
 - :kbd:`X` or Delete removes control points.
@@ -72,19 +72,19 @@ Selection
 
 The usual selection and hide/reveal tools are available:
 
-- :kbd:`A` toggle select all
-- :kbd:`B` , :kbd:`C` border and circle Select
-- :kbd:`Ctrl-L` select linked from selection, L: select linked with mouse
-- :kbd:`Ctrl-Alt-LMB` lasso select
-- :kbd:`H` hide selected, :kbd:`Shift-H` hide unselected, :kbd:`Alt-H` reveal
+- :kbd:`A` toggle select all.
+- :kbd:`B` , :kbd:`C` border and circle Select.
+- :kbd:`Ctrl-L` select linked from selection, L: select linked with mouse.
+- :kbd:`Ctrl-Alt-LMB` lasso select.
+- :kbd:`H` hide selected, :kbd:`Shift-H` hide unselected, :kbd:`Alt-H` reveal.
 
 
 Curve Handles
 -------------
 
-- :kbd:`Alt-C` cycle toggle spline, to create a close curve or open it again
-- :kbd:`V` set handle type for selected spline points
-- :kbd:`Ctrl-N` make normals (handle directions) consistent
+- :kbd:`Alt-C` cycle toggle spline, to create a close curve or open it again.
+- :kbd:`V` set handle type for selected spline points.
+- :kbd:`Ctrl-N` make normals (handle directions) consistent.
 - Switch Direction handle directions in/out.
 
 

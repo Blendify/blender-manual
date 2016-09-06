@@ -70,10 +70,10 @@ Smoothness
 
 
 Quad/Tri Mode
-   Forces subdivide to create triangles instead of ngons, simulating old behavior (see examples below)
+   Forces subdivide to create triangles instead of ngons, simulating old behavior (see examples below).
 
 Corner Cut Type
-   This drop-down menu controls the way quads with only two adjacent selected edges are subdivided
+   This drop-down menu controls the way quads with only two adjacent selected edges are subdivided.
 
    Fan
       the quad is sub-divided in a fan of four triangles,
@@ -88,7 +88,7 @@ Corner Cut Type
       First an edge is created between the two opposite ends of the selected edges,
       dividing the quad in two triangles. Then, the same goes for the involved triangle as described above.
    Straight Cut
-      Currently non functioning...
+      .. (Todo) Au: Currently non functioning...
 
    .. list-table::
 

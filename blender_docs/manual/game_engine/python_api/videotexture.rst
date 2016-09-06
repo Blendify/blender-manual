@@ -317,8 +317,8 @@ Here are some possible advanced work flow:
 
 
 - Load image from source for Python processing without download to GPU:
-- note that we do not even call refresh on the Texture
-- we could also just create a source object without a Texture object
+- Note that we do not even call refresh on the Texture.
+- We could also just create a source object without a Texture object.
 
 .. code-block:: python
 
@@ -336,7 +336,7 @@ Here are some possible advanced work flow:
 
 
 GLSL material can have more than one texture channel,
-identify the texture by the texture slot where it is defined, here 2
+identify the texture by the texture slot where it is defined, here two.
 
 .. code-block:: python
 

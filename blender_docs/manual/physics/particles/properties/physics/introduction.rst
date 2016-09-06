@@ -89,11 +89,11 @@ Initial Rotation Mode
       requires UV coordinates, the UV rotation effects the objects orientation, currently uses the active UV layer.
       This allow deformation without the objects rotating in relation to their surface.
    Velocity
-      the particle's initial velocity.
+      The particle's initial velocity.
    Global X/Global Y/Global Z
-      one of the global axes
+      One of the global axes.
    Object X/Object Y/Object Z
-      one of the emitter object axes.
+      One of the emitter object axes.
 
    Random
       Randomizes rotation.
@@ -106,12 +106,12 @@ Dynamic
    Otherwise the angular velocity is predetermined at all times (i.e. set rotation to dynamic/constant).
 
 Phase
-   Initial rotation phase
+   Initial rotation phase.
 Random
    Rand allows a random variation of the Phase.
 
 Angular Velocity
-   The magnitude of angular velocity, the dropdown specifies the axis of angular velocity to be
+   The magnitude of angular velocity, the dropdown specifies the axis of angular velocity to be.
 
    None
       a zero vector (no rotation).

@@ -246,12 +246,12 @@ They are found in the *View Menu*
    Center Cursor and View All :kbd:`Shift-C`
       moves the cursor back to the origin and zooms in/out so that you can see everything in your scene.
    Align Active Camera to View, :kbd:`Ctrl-Alt-Numpad0`
-      Gives your active camera the current viewpoint
+      Gives your active camera the current viewpoint.
    View selected, :kbd:`NumpadPeriod`
       Focuses view on currently selected object/s by centering them in the viewport,
       and zooming in until they fill the screen.
    Center view to cursor, :kbd:`Alt-Home`
-      Centers view to 3D-cursor
+      Centers view to 3D-cursor.
 
 View Selected
    See above.
@@ -463,10 +463,10 @@ Shortcuts
 - Move up and down :kbd:`Q`, :kbd:`E` - only in *free* mode.
 - Alternate between *free* and *gravity* modes :kbd:`Tab`.
 - Change the movement speed:
-  - :kbd:`WheelUp` or :kbd:`NumpadPlus` to increase the movement speed for this open session
-  - :kbd:`WheelDown` or to :kbd:`NumpadMinus` to decrease the movement speed for this open session
-  - :kbd:`Shift` (hold) - to speed up the movement temporarily
-  - :kbd:`Alt` (hold) - to slow down the movement temporarily
+  - :kbd:`WheelUp` or :kbd:`NumpadPlus` to increase the movement speed for this open session.
+  - :kbd:`WheelDown` or to :kbd:`NumpadMinus` to decrease the movement speed for this open session.
+  - :kbd:`Shift` (hold) - to speed up the movement temporarily.
+  - :kbd:`Alt` (hold) - to slow down the movement temporarily.
 
 
 When you are happy with the new view, click :kbd:`LMB` to confirm.

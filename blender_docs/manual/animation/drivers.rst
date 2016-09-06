@@ -202,10 +202,10 @@ First make sure you are in the Front Ortho view. :kbd:`Numpad5`, :kbd:`Numpad1`.
 #. Change the *Type* to *Averaged Value*, this will return the averaged value of the driver variables.
 #. Modify the driver variable settings.
 
-- *Type* - *Transform Channel*
-- *Ob/Bone* - *Cube*
-- *Transform Type* - *X Location*
-- *Transform Space* - *World Space*
+- *Type* -- *Transform Channel*
+- *Ob/Bone* -- *Cube*
+- *Transform Type* -- *X Location*
+- *Transform Space* -- *World Space*
 
 .. figure:: /images/animation_drivers_transform.jpg
 
@@ -253,7 +253,7 @@ Driver Namespace
 There is a list of built-in driver functions and properties.
 These can be displayed via the Python Console.
 
-::
+.. code-block:: python
 
    >>> bpy.app.driver_namespace['
                                  __builtins__']
@@ -304,9 +304,10 @@ This example is a Shape Key Driver. The driver was added to the shape key Value.
 This example uses the Armature Bone 'b' Z Rotation to control the Value of a Shape Key.
 The bone rotation mode is set to XYZ Euler.
 
-The Driver F-Curve is mapped like so
-   Bone Z Rotation 0.0(0.0): Shape Key value 0.0
-   Bone Z Rotation -2.09(-120.0): Shape Key value 1.0
+The Driver F-Curve is mapped like so:
+
+- Bone Z Rotation 0.0(0.0): Shape Key value 0.0
+- Bone Z Rotation -2.09(-120.0): Shape Key value 1.0
 
 This kind of driver can also be setup with the Variable Type Rotational Difference.
 
@@ -435,4 +436,4 @@ number or because you are skipping already rendered frames).
    - :ref:`Extending Blender with Python <scripting-index>`.
 
    - `Python <https://www.python.org>`__ and its `documentation <https://www.python.org/doc>`__.
-   - `functions.wolfram.com <http://functions.wolfram.com/>`__
+   - `functions.wolfram.com <http://functions.wolfram.com/>`__.

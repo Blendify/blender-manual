@@ -33,7 +33,7 @@ Now, a 275-frame clip will play at half speed, and thus display only the first 1
 If you want the remaining frames to show in slo-mo after the first set is displayed,
 double the Length of the source strip
 (since effects strip bounds are controlled by their source strips).
-If you are using a speed factor other than 0.5 then use the formula
+If you are using a speed factor other than 0.5 then use the formula:
 
 ``new_length = real_length / speed_factor``
 

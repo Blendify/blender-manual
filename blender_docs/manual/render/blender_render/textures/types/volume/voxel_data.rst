@@ -28,10 +28,10 @@ File Format
       Render voxels from a Blender smoke simulation.
 
 Source Path
-   The external source data file to use for 8 bit Raw data and Blender Voxel formats
+   The external source data file to use for 8 bit Raw data and Blender Voxel formats.
 
 Domain Object (Smoke)
-   Object used as the smoke simulation domain
+   Object used as the smoke simulation domain.
 
 Source
    Smoke
@@ -65,4 +65,4 @@ Extension
       Cause the image to repeat horizontally and vertically.
 
 Intensity
-   Multiplier for intensity values
+   Multiplier for intensity values.

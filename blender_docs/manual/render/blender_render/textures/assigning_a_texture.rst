@@ -63,8 +63,8 @@ Select an empty slot, then click on the *New* button.
 
 This will do two things:
 
-- it will create a new texture data-block
-- also, it will add a new slot in the textures stack
+- It will create a new texture data-block.
+- Also, it will add a new slot in the textures stack.
 
 
 Creating a new Texture Data-Block in a non-empty slot

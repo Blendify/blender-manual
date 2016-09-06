@@ -70,16 +70,16 @@ Clump
 Shape
    Form of *Clump*. Either inverse parabolic (0.99) or exponentially (-0.99).
 Length
-   Length of child paths
+   Length of child paths.
 Threshold
-   Amount of particles left untouched by child path length
+   Amount of particles left untouched by child path length.
 Radius
    The radius in which the children are distributed around their parents.
    This is 3D, so children may be emitted higher or lower than their parents.
 Roundness
    The roundness of the children around their parents. Either in a sphere (1.0) or in-plane (0.0).
 Seed
-   Offset in the random number table for child particles, to get a different randomized result
+   Offset in the random number table for child particles, to get a different randomized result.
 
 
 Roughness

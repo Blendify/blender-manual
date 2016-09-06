@@ -94,7 +94,7 @@ Using Image output vs using original image
 
 Using Image output scales, translates and skews the input image according to the track
 while using the original image and mixing it with the movie clip using Plane output as factor
-will display the part of the image that lies inside that mask. This image shows the difference
+will display the part of the image that lies inside that mask. This image shows the difference:
 
 .. figure:: /images/compositing_nodes_distort_planetrackdeform_output_comparison.png
 

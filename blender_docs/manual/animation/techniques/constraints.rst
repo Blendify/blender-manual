@@ -15,7 +15,7 @@ There are two different aspects in constraints' animation:
 
 - You can control an object's animation through the targets used by its constraints
   (this is a form of indirect animation).
-- You can animate constraints' settings
+- You can animate constraints' settings.
 
 
 Controlling Animation with Constraints

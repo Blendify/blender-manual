@@ -14,9 +14,9 @@ The default layout looks like the image below.
 In order to get to either the masking or the tracking tools you must first add a movie file.
 There are several ways to to this:
 
-- Use *Open* button from movie editor header
-- Use :menuselection:`Clip --> Open` menu
-- Use :kbd:`Alt-O` shortcut
+- Use *Open* button from movie editor header.
+- Use :menuselection:`Clip --> Open` menu.
+- Use :kbd:`Alt-O` shortcut.
 
 Both movie files and image sequences can be used in the clip editor.
 If you are using an image sequence there is one limitation on naming of files:

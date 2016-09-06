@@ -262,7 +262,7 @@ methods as available when doing an "old-parenting" to armature :kbd:`Ctrl-P`:
   Once again, even though these names are plural,
   you can only affect *one* vertex group's weights at a time with these options.
 
-To automatically weight multiple bones, you can simply
+To automatically weight multiple bones, you can simply:
 
 - :kbd:`Ctrl-Tab` out of Weight Paint Mode
 - Select the Armature. It should be in Pose Mode. If it is not, go :kbd:`Ctrl-Tab`

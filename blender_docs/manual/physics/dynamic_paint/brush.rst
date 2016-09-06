@@ -49,7 +49,7 @@ Mesh Volume
 
    .. figure:: /images/dynamicpaint-guide-brush_volume.png
 
-      Source: Mesh Volume
+      Source: Mesh Volume.
 
 Proximity
    Only uses defined distance to the closest point on brush mesh surface.

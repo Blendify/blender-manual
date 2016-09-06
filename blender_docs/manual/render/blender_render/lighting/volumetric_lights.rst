@@ -14,7 +14,7 @@ Volumetric Lighting
    light has the capability to give the effect of passing through an actual three dimensional medium
    (such as fog, dust, smoke, or steam) that is inside its volume, just like in the real world."
 
-   -- According to Wikipedia, `volumetric lighting <https://en.wikipedia.org/wiki/Volumetric_lighting>`__
+   -- According to Wikipedia, `volumetric lighting <https://en.wikipedia.org/wiki/Volumetric_lighting>`__.
 
 A classic example is the search light with a visible halo/shaft of light being emitted from it
 as the search light sweeps around.

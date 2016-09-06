@@ -48,7 +48,7 @@ Outputs
 =======
 
 Image
-   Standard image output
+   Standard image output.
 
 
 Examples

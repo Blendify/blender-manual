@@ -159,7 +159,7 @@ Separate/Combine YCbCrA Node
    :align: right
    :width: 150px
 
-   Combine YCbCrA Node
+   Combine YCbCrA Node.
 
 .. figure:: /images/compositing_nodes_separateycbcra.png
    :align: right

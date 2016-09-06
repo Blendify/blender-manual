@@ -106,8 +106,8 @@ you have to first create a :doc:`New Blank </editors/uv_image/uv_editing/applyin
 Image with a uniform color or test grid.
 After that, you can color the image using the:
 
-- Vertex colors as the basis for an image
-- Render Bake image based on how the mesh looks in the scene
+- Vertex colors as the basis for an image.
+- Render Bake image based on how the mesh looks in the scene.
 
 After you have created your image,
 you can modify it using Blender's built-in
@@ -342,7 +342,7 @@ To overlay multiple UV images, you have several options:
   to combine the two images via the AlphaOver or Mix node,
   thus creating a third noded material that you use as the material for the face.
   Using this approach, you will not have to UV map;
-  simply assign the material to the face using the Multiple Materials
+  simply assign the material to the face using the Multiple Materials.
 
 
 UV Textures vs. Procedural Textures
@@ -361,25 +361,25 @@ like Clouds, are incredibly simple and useful for adding realism and details to 
 
    * - UV Texture
      - Procedural Texture
-   * - Image maps to precise coordinates on the selected faces of the mesh
-     - Pattern is generated dynamically, and is mapped to the entire mesh (or portion covered by that material)
-   * - The Image maps once to a range of mesh faces specifically selected
-     - Maps once to all the faces to which that material is assigned; either the whole mesh or a portion
+   * - Image maps to precise coordinates on the selected faces of the mesh.
+     - Pattern is generated dynamically, and is mapped to the entire mesh (or portion covered by that material).
+   * - The Image maps once to a range of mesh faces specifically selected.
+     - Maps once to all the faces to which that material is assigned; either the whole mesh or a portion.
    * - Image is mapped once to faces.
      - Size XYZ in the MapInput allows tiling the texture many times across faces.
-       Number of times depends on size of mesh
+       Number of times depends on size of mesh.
    * - Affect the color and the alpha of the object.
      - Can also affect normals (bumpiness), reflectivity, emit, displacement,
        and a dozen other aspects of the mesh's appearance; can even warp or stencil subsequent textures.
-   * - Can have many for a mesh
+   * - Can have many for a mesh.
      - Can be layered, up to 10 textures can be applied, layering on one another.
        Many mix methods for mixing multiple channels together.
-   * - Any Image type (still, video, rendered). Preset test grid available
+   * - Any Image type (still, video, rendered). Preset test grid available.
      - Many different presents: clouds, wood grain, marble, noise, and even magic.
-   * - Provides the UV layout for animated textures
-     - Noise is the only animated procedural texture
+   * - Provides the UV layout for animated textures.
+     - Noise is the only animated procedural texture.
    * - Takes very limited graphics memory
-     - Uses no or little memory; instead uses CPU compute power
+     - Uses no or little memory; instead uses CPU compute power.
 
 
 So, in a sense, a single UV texture for a mesh is simpler but more limited than using multiple textures
@@ -438,7 +438,7 @@ the horizontal bar has 50% alpha.
 
 
 Alpha
-   Options related to transparency
+   Options related to transparency.
 
    Use
       Works with PNG and TGA files since they can save transparency information (Foreground Image with UseAlpha).
@@ -542,15 +542,15 @@ Filter
             `Simple and Table Feline: Fast Elliptical Lines for Anisotropic Texture Mapping
             <http://www.hpl.hp.com/techreports/Compaq-DEC/WRL-99-1.pdf>`__, WRL
       Area
-         Area filter to use for image sampling
+         Area filter to use for image sampling.
 
          Eccentricity
-            Maximum Eccentricity. Higher values give less blur at distant/oblique angles, but is slower
+            Maximum Eccentricity. Higher values give less blur at distant/oblique angles, but is slower.
 
    Filter Size
-      The filter size used by MIP Map and Interpolation
+      The filter size used by MIP Map and Interpolation.
    Minimum Filter Size
-      Use Filter Size as a minimal filter value in pixels
+      Use Filter Size as a minimal filter value in pixels.
 
 
 Image Mapping
@@ -567,7 +567,7 @@ we can control how the image is mapped or projected onto the 3D model.
 
 Extension
    Extend
-      Outside the image the colors of the edges are extended
+      Outside the image the colors of the edges are extended.
    Clip
       Clip to image size and set exterior pixels as transparent.
       Outside the image, an alpha value of 0.0 is returned.
@@ -577,10 +577,10 @@ Extension
       The same as Clip, but now the 'Z' coordinate is calculated as well.
       An alpha value of 0.0 is returned outside a cube-shaped area around the image.
    Repeat
-      The image is repeated horizontally and vertically
+      The image is repeated horizontally and vertically.
 
       Repeat
-         X/Y repetition multiplier
+         X/Y repetition multiplier.
       Mirror
          Mirror on X/Y axes. This buttons allow you to map the texture as a mirror, or automatic flip of the image,
          in the corresponding X and/or Y direction.
@@ -591,7 +591,7 @@ Extension
       Even / Odd
          Set even/odd tiles
       Distance
-         Governs the distance between the checkers in parts of the texture size
+         Governs the distance between the checkers in parts of the texture size.
 
 Crop Minimum / Crop Maximum
    The offset and the size of the texture in relation to the texture space.

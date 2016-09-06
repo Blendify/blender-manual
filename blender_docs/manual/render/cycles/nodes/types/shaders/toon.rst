@@ -35,7 +35,7 @@ Outputs
 =======
 
 BSDF
-   Standard shader output
+   Standard shader output.
 
 
 Examples
@@ -43,4 +43,4 @@ Examples
 
 .. figure:: /images/cycles_nodes_shader_toon_example.jpg
 
-   Toon Shader
+   Toon Shader.

@@ -78,7 +78,7 @@ Calculating Collisions
 
           Six Soft Body vertices with different speed.
 
-          `Blend file <https://wiki.blender.org/index.php/Media:CollidingVertices.blend>`__
+          `Blend file <https://wiki.blender.org/index.php/Media:CollidingVertices.blend>`__.
 
 
 Soft Body simulation is by default done on a per vertex basis. If the vertices of the Soft

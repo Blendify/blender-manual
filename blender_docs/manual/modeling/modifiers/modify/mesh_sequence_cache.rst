@@ -28,13 +28,13 @@ Override Frame
       The time to use for looking up the data in the cache file,
       or to determine which to use in a file sequence.
 
-Manual Tranform Scale
+Manual Transform Scale
    Value by which to enlarge or shrink the object with respect to the world's origin.
    (only applicable through a
    :doc:`Transform Cache Constraint </rigging/constraints/transform/transform_cache>`)
 
 Object Path
-   The path to the Alembic object inside the archive
+   The path to the Alembic object inside the archive.
 
 *Verts/Faces/UV/Color*
    Type of data to read for a mesh object respectively: vertices,

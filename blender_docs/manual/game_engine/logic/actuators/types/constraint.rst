@@ -3,7 +3,7 @@
 Constraints Actuator
 ********************
 
-Adds a constraint to the location, orientation
+Adds a constraint to the location, orientation.
 
 See :doc:`Actuator Common Options </game_engine/logic/actuators/common_options>` for common options.
 
@@ -32,7 +32,7 @@ Force Field Constraint
    Damping
       Damping factor of the Fh spring force.
    Distance
-      Height of Fh area
+      Height of Fh area.
    Rot Fh
       Make game object axis parallel to the normal of trigger object.
    Direction
@@ -50,9 +50,9 @@ Force Field Constraint
       When on, force field constraint always looks at Property/Material;
       when off, turns itself off if it cannot find the Property/Material.
    Time
-      Number of frames for which constraint remains active
+      Number of frames for which constraint remains active.
    RotDamp
-      Damping factor for rotation
+      Damping factor for rotation.
 
 .. figure:: /images/bge_actuator_constraint_orientation.png
    :width: 271px
@@ -65,7 +65,7 @@ Force Field Constraint
 Constrain the specified axis in the Game to a specified direction in the World axis.
 
    Direction
-      Game axis to be modified (X, Y, Z or none)
+      Game axis to be modified (X, Y, Z or none).
    Damping
       Delay (frames) of the constraint response.
    Time
@@ -86,7 +86,7 @@ Constrain the specified axis in the Game to a specified direction in the World a
 Distance Constraint
 ===================
 
-Maintain the distance the Game Object has to be from a surface
+Maintain the distance the Game Object has to be from a surface.
 
    Direction
       Axis Direction (X, Y, Z, -X, -Y, -Z, or None).

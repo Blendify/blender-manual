@@ -30,7 +30,7 @@ Reflectivity
 Alpha
    Transparency of the material by setting all pixels in the alpha channel to the given value.
 Translucency
-   Amount of diffuse shading on the back side
+   Amount of diffuse shading on the back side.
 
 Properties
 ==========

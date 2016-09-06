@@ -19,7 +19,7 @@ We will look at each one individually.
    The different parts of the Logic Editor.
 
    1) Property Region, 2) Object Name, 3a) Links, 3b) Link socket,
-   4) Sensor column, 5) Controller Column, 6) Actuator Column
+   4) Sensor column, 5) Controller Column, 6) Actuator Column.
 
 
 Main view

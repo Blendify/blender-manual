@@ -80,20 +80,20 @@ View Menu
 
 
 Realtime Updates
-   When transforming keyframes, changes to the animation data are flushed to other views
+   When transforming keyframes, changes to the animation data are flushed to other views.
 Show Frame Number Indicator
-   Show frame number beside the current frame indicator line
+   Show frame number beside the current frame indicator line.
 Show Sliders
    A toggle option that shows the value sliders for the channels.
    See the Fig. :ref:`fig-dope-sheet-action`.
 Use Group Colors
    Draw groups and channels with colors matching their corresponding groups.
 AutoMerge Keyframes
-   Automatically merge nearby keyframes
+   Automatically merge nearby keyframes.
 Sync Markers
-   Sync Markers with keyframe edits
+   Sync Markers with keyframe edits.
 Show Seconds
-   Whether to show the time in the X-axis as frames or as seconds
+   Whether to show the time in the X-axis as frames or as seconds.
 
 Set Preview Range :kbd:`P`
    Interactively define frame range used for playback.
@@ -101,7 +101,7 @@ Set Preview Range :kbd:`P`
    (this is the same thing as the *Playback Range* option of the
    :ref:`Tmeline editor header <animation-editors-timeline-headercontrols>`).
 Clear Preview Range :kbd:`Alt-P`
-   Clears the preview range
+   Clears the preview range.
 Auto-Set Preview Range
    Automatically sets the preview range to playback the whole action.
 
@@ -142,7 +142,7 @@ Each level can be expended/collapsed by the small arrow to the left of its "pare
 To the right of the channel's headers, there are some channel's setting controls:
 
 - Clicking on the small "eye" will allow you to mute that channel (and all its "children" channels, if any!).
-- Clicking on the small "lock" will allow you to prevent this channel and its children to be edited
+- Clicking on the small "lock" will allow you to prevent this channel and its children to be edited.
 
   .. note::
 

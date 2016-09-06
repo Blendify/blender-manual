@@ -35,7 +35,7 @@ on manually created (user-defined) Vertex Groups.
    Any other Object type has no vertices, hence it cannot have Vertex Groups.
 
 
-Typical usage scenarios for Vertex groups
+Typical Usage Scenarios for Vertex groups
 =========================================
 
 Skinning an armature
@@ -87,6 +87,7 @@ border (3). Initially the group is named *Group*
 (or *Group.nnn* when the name already exists) and gets displayed in the Panel (2)
 (see next image).
 
+
 Vertex Groups Panel Controls
 ----------------------------
 
@@ -122,7 +123,7 @@ Active Group
    corresponding entry in the Vertex Group panel.
 
 
-Deleting vertex Groups
+Deleting Vertex Groups
 ======================
 
 .. figure:: /images/modeling-meshes-vertex-group-panel-dg.png
@@ -176,19 +177,19 @@ The first row contains four buttons for maintaining the Assign- and
 Select- status of vertices of the active Vertex Group:
 
 Assign
-   To assign the Selected vertices to the Group with the weight as defined in the "Weight:" input field (see below)
+   To assign the Selected vertices to the Group with the weight as defined in the "Weight:" input field (see below).
 Remove
-   To Remove the selected vertices from the Group (and thus also delete their weight values)
+   To Remove the selected vertices from the Group (and thus also delete their weight values).
 Select
-   To Select all vertices contained in the Group
+   To Select all vertices contained in the Group.
 Deselect
-   To deselect all verts contained in the group
+   To deselect all verts contained in the group.
 
 Below this row of buttons you see a numeric "Weight:" input field where you specify the weight
 value that gets assigned to the selected verts when you press the Assign Button.
 
 
-Assigning verts to a Group
+Assigning Verts to a Group
 --------------------------
 
 .. figure:: /images/modeling-meshes-vertex-group-panel-assign.png
@@ -240,7 +241,7 @@ Note that Removing weight Assignments is not available for locked Vertex Groups.
 The Remove button is grayed out in that case.
 
 
-Using groups for Selecting/Deselecting
+Using Groups for Selecting/Deselecting
 --------------------------------------
 
 You can quickly select all assigned vertices of a group:
@@ -262,7 +263,7 @@ You can quickly select all assigned vertices of a group:
    and keep all other verts selected.
 
 
-Finding ungrouped verts
+Finding ungrouped Verts
 -----------------------
 
 You can find ungrouped vertices as follows:
@@ -282,7 +283,7 @@ Keyboard Shortcuts
 
 In Edit Mode you can press :kbd:`Ctrl-G` to a shortcut Menu for adding/removing verts to/from groups.
 The pop-up menu provides the following functions with obvious functionality:
-(also available via :menuselection:`Mesh --> Vertices --> Vertex Groups`)
+(also available via :menuselection:`Mesh --> Vertices --> Vertex Groups`).
 
 - Assign to New Group
 - Assign to Active Group
@@ -312,47 +313,38 @@ The following functions of the pop-up menu operate on the assigned vertices:
 
 Sort Vertex Groups
    Sorts Vertex Groups alphabetically.
-
 Copy Vertex Group
    Add a Copy of the active Vertex Group as a new Group.
    The new group will be named like the original group with "_copy" appended at the end of its name.
    And it will contain associations to exactly the same verts
    with the exact same weights as in the source vertex group.
-
 Copy Vertex Groups to Linked
    Copy Vertex Groups of this Mesh to all linked Objects which use the same mesh data (all users of the data).
-
 Copy Vertex Group to Selected
    Copy all Vertex Groups to other Selected Objects provided they have matching indices
    (typically this is true for copies of the mesh which are only deformed and not otherwise edited).
-
 Mirror Vertex Group
    Mirror all Vertex Groups, flip weights and/or names, editing only selected vertices,
    flipping when both sides are selected; otherwise copy from unselected.
    Note this function will be reworked (and fully documented) in a future release.
-
 Remove from All Groups
    (not available for locked groups) Unassigns the selected Vertices from all groups.
    After this operation has been performed, the verts will no longer be contained in any vertex group.
-
 Clear Active Group
    Remove all assigned vertices from the active Group. The group is made empty.
    Note that the vertices may still be assigned to other Vertex Groups of the Object.
    (not available for locked groups).
-
 Delete All Groups
    Remove all Vertex Groups from the Object.
 
 The following functions operate only on the lock state settings:
 
 Lock All
-   Lock all groups
-
+   Lock all groups.
 Unlock All
-   Unlock all groups
-
+   Unlock all groups.
 Lock_Invert All
-   Invert Group Locks
+   Invert Group Locks.
 
 
 .. hint::

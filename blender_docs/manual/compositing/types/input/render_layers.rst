@@ -12,17 +12,19 @@ Render Layers Node
 This node is the starting place for getting a picture of your scene into the compositing node
 map.
 
+
 Inputs
 ======
 
 This node has no input sockets.
+
 
 Properties
 ==========
 
 Scene
    Select the within your blend-file. The scene information taken is the raw footage
-   (pre-compositing and pre-sequencing)
+   (pre-compositing and pre-sequencing).
 
    .. hint::
       To use composited footage from another scene, it has to be rendered into a multilayer i.e. ``OpenEXR`` frameset
@@ -32,13 +34,14 @@ Render layer
    A list of available :doc:`RenderLayer </render/post_process/layers>`.
    The render button is a short hand to re-render the active scene.
 
+
 Outputs
 =======
 
 Image
-   Rendered image
+   Rendered image.
 Alpha
-   Alpha channel
+   Alpha channel.
 
 .. rubric:: Render passes sockets
 

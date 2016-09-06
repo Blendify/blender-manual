@@ -36,7 +36,7 @@ Tangent Shading
    `introduced in 2.42 <https://www.blender.org/development/release-logs/blender-242/material-features/>`__,
    see also settings for strand rendering in the menu further down and in the Particle System menu.
 Cubic Interpolation
-   Use cubic interpolation for diffuse values. Enhances the contrast between light areas and shadowed areas
+   Use cubic interpolation for diffuse values. Enhances the contrast between light areas and shadowed areas.
 
    .. list-table::
 

@@ -67,7 +67,7 @@ To be avoided:
 - Avoid Product Placements, i.e. unnecessarily promoting software or hardware brands.
   Keep content vendor-neutral where possible.
 - Avoid technical explanations about the mathematical/algorithmic implementation of a feature
-  if there is a simpler way to explain it
+  if there is a simpler way to explain it.
 
   (e.g. explaining how mesh smoothing algorithms work is unnecessary,
   but the blending types of a mix node do need a mathematical explanation).

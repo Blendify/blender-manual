@@ -5,7 +5,7 @@ Graph View
 
 .. figure:: /images/editors_movie-clip_graph.png
 
-   Graph View
+   Graph View.
 
 
 Introduction

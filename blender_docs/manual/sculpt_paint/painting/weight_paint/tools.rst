@@ -66,7 +66,7 @@ Normalize
 
 This tool only works on the active Vertex Group.
 All vertices keep their relative weights,
-but the entire set of weights is scaled up such that the highest weight value is 1.0
+but the entire set of weights is scaled up such that the highest weight value is 1.0 .
 
 
 Mirror
@@ -411,8 +411,8 @@ this is useful at times when painting gradual changes in weight becomes difficul
 
 The gradient tool can be accessed from the Tool Shelf or as a key shortcut:
 
-- Linear: :kbd:`Alt-LMB` and drag
-- Radial: :kbd:`Alt-Ctrl-LMB` and drag
+- Linear: :kbd:`Alt-LMB` and drag.
+- Radial: :kbd:`Alt-Ctrl-LMB` and drag.
 
 The following weight paint options are used to control the gradient:
 

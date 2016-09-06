@@ -90,7 +90,7 @@ A Bézier curve can be edited by moving the locations of the Control Points and 
   Use :kbd:`LMB` to confirm the new location of the Control Point, or use :kbd:`RMB` to cancel.
 - Now select one of the Handles and move it around. Notice how this changes the curvature of the curve.
 
-To add more Control Points
+To add more Control Points:
 
 - Select at least two adjacent Control Points.
 - Press :kbd:`W` and select *Subdivide*.

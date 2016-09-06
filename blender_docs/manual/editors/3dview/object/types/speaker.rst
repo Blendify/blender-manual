@@ -23,7 +23,7 @@ Sound
 Mute
    Toggles whether or not the sound can be heard.
 Volume
-   Adjust the loudness of the sound
+   Adjust the loudness of the sound.
 Pitch
    Can be used to bend the pitch of the sound to be either deeper or higher.
 

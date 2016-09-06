@@ -66,7 +66,9 @@ Most the time people will use the *Standard* IK solver.
 There is some documentation for the *iTaSC* "instantaneous Task Specification using
 Constraints" IK solver here.
 
-`Robot IK Solver <https://wiki.blender.org/index.php/Dev:Source/GameEngine/RobotIKSolver>`__
+..seealso::
+
+   `Robot IK Solver <https://wiki.blender.org/index.php/Dev:Source/GameEngine/RobotIKSolver>`__.
 
 
 Bone IK Panel
@@ -103,7 +105,7 @@ or by using other constraints.
 .. figure:: /images/rigging_posing_inverse-kinematics_introduction.png
    :align: center
 
-   `IK Arm Example. <https://wiki.blender.org/index.php/File:IK_Arm_Example.blend>`__
+   `IK Arm Example. <https://wiki.blender.org/index.php/File:IK_Arm_Example.blend>`__.
 
 
 Note that, if a *Pole Target* is used, IK locking will not work on the root boot.

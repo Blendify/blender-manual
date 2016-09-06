@@ -74,7 +74,7 @@ Extrapolate
    - When using the rotation transform properties of the target as input,
      whatever the real values are, the constraint will always "take them back" into the (-180 to 180) range
      (e.g. if the target has a rotation of 420 degrees around its X-Axis,
-     the values used as *X* input by the constraint will be
+     the values used as *X* input by the constraint will be:
 
      :math:`((420 + 180) modulo 360) - 180 = 60 - ...`
 

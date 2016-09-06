@@ -42,11 +42,11 @@ at the prompt and execute it.
 .. figure:: /images/extensions-python-console-listing-globals.jpg
 
 
-Following is a quick overview of the output
+Following is a quick overview of the output:
 
-:``C``: Quick access to ``bpy.context``.
-:``D``: Quick access to ``bpy.data``.
-:``bpy``: Top level Blender Python API module.
+- ``C``: Quick access to ``bpy.context``.
+- ``D``: Quick access to ``bpy.data``.
+- ``bpy``: Top level Blender Python API module.
 
 
 Auto Completion at work
@@ -99,7 +99,8 @@ Examples
 bpy.context
 -----------
 
-Note
+.. note::
+
    For the commands below to show the proper output, make sure you have selected object(s) in the 3D View.
 
 .. figure:: /images/extensions-python-console-example-bpy-context.jpg
@@ -112,72 +113,72 @@ bpy.context.mode
    Will print the current 3D View mode (Object, Edit, Sculpt etc.,)
 
 bpy.context.object or bpy.context.active_object
-   Will give access to the active object in the 3D View
+   Will give access to the active object in the 3D View.
 
 .. code-block:: python
 
    bpy.context.object.location.x = 1
 
 
-Change x location to a value of 1
+Change X location to a value of 1.
 
 .. code-block:: python
 
    bpy.context.object.location.x += 0.5
 
 
-Move object from previous x location by 0.5 unit
+Move object from previous X location by 0.5 unit.
 
 .. code-block:: python
 
    bpy.context.object.location = (1, 2, 3)
 
 
-Changes x, y, z location
+Changes X, Y, Z location.
 
 .. code-block:: python
 
    bpy.context.object.location.xyz = (1, 2, 3)
 
 
-Same as above
+Same as above.
 
 .. code-block:: python
 
    type(bpy.context.object.location)
 
 
-Data type of objects location
+Data type of objects location.
 
 .. code-block:: python
 
    dir(bpy.context.object.location)
 
 
-Now that is a lot of data that you have access to
+Now that is a lot of data that you have access to.
 
-bpy.context.selected_objects
+``bpy.context.selected_objects``
    Will give access to a list of all selected objects.
 
 .. code-block:: python
 
    bpy.context.selected_objects
 
-... then press :kbd:`Ctrl-Spacebar`
+... then press :kbd:`Ctrl-Spacebar`.
 
 .. code-block:: python
 
    bpy.context.selected_objects[0]
 
 
-Prints out name of first object in the list
+Prints out name of first object in the list.
 
 .. code-block:: python
 
    [obj for obj in bpy.context.selected_objects if obj != bpy.context.object]
 
 
-Complex one... But this prints a list of objects not including the active object
+Complex one... But this prints a list of objects not including the active object.
 
 
 bpy.data
@@ -206,14 +207,14 @@ Exercise
    for obj in bpy.data.scenes['Scene'].objects: print(obj.name)
 
 :kbd:`Return` twice
-Prints the names of all objects belonging to the Blender scene with name "Scene"
+Prints the names of all objects belonging to the Blender scene with name "Scene".
 
 .. code-block:: python
 
    bpy.data.scenes['Scene'].objects.unlink(bpy.context.active_object)
 
 
-Unlink the active object from the Blender scene named 'Scene'
+Unlink the active object from the Blender scene named 'Scene'.
 
 .. code-block:: python
 
@@ -247,7 +248,7 @@ So first we define an array variable for later reference:
    mylayers[0] = True
 
 
-We create a reference to the operator that is used for creating a cube mesh primitive
+We create a reference to the operator that is used for creating a cube mesh primitive.
 
 .. code-block:: python
 

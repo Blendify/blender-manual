@@ -76,12 +76,12 @@ Vertex Normal
 Extreme Alpha
    Boosts alpha
 Shaded
-   Lets halo receive light and shadows from external objects
+   Lets halo receive light and shadows from external objects.
 
    When shaded is enabled, the Halo will be affected by local light;
    a lamp will make it brighter and affect its diffuse color and intensity.
 Soft
-   Softens the edges of the halos at intersections with other geometry
+   Softens the edges of the halos at intersections with other geometry.
 
 In addition, several other special effects are available.
 To enable some or all of these effects, set the number of points/rings,
@@ -116,9 +116,9 @@ Boost
 Seed
    Specifies an offset in the flare seed table
 Subflares
-   Sets the number of subflares
+   Sets the number of subflares.
 Subsize
-   Sets the dimensions of the subflares, dots, and circles
+   Sets the dimensions of the subflares, dots, and circles.
 
 
 Lens Flares
@@ -185,7 +185,9 @@ Let us use a halo material to create a dotmatrix display.
 - Use a 2D image program to create some red text on a black background,
   using a simple and bold font,
   you can just save the picture below on your hard drive...).
-  *Dot matrix image texture.* shows an image 512 pixels wide by 64 pixels high, with some black space at both sides.
+  :ref:`fig-bi-material-halo-matrix-texture` shows an image 512 pixels wide by 64 pixels high, with some black space at both sides.
+
+.. _fig-bi-material-halo-matrix-texture:
 
 .. figure:: /images/dotmatrix2.jpg
 

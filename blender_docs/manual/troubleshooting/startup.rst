@@ -11,8 +11,8 @@ try asking the `community <introduction/community>`__ for help.
 
 If Blender crashes on startup there are a few things to check for:
 
-- See if your computer meets the `minimum requirements <https://www.blender.org/download/requirements/>`__
-- Confirm that your graphics card is supported and that the drivers support at least OpenGL 2.1
+- See if your computer meets the `minimum requirements <https://www.blender.org/download/requirements/>`__.
+- Confirm that your graphics card is supported and that the drivers support at least OpenGL 2.1 .
 - Make sure you are using the correct Blender version (32 or 64 bit) for your architecture.
 
 Known causes listed below.
@@ -21,7 +21,7 @@ Known causes listed below.
 Python
 ======
 
-If you get an error on startup
+If you get an error on startup like:
 
 .. code-block:: python
 

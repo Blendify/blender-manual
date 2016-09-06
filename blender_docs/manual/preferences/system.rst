@@ -58,9 +58,11 @@ Audio Device
       Provides buffered sound rendering with 3D/spatial support.
       Used for 3D source support by *Speaker Objects* and the *Game Engine*.
 
-.. rubric:: Sound options
 
-Specific to *SDL* or *OpenAL* enabled
+Sound options
+-------------
+
+Specific to *SDL* or *OpenAL* enabled.
 
 Channels
    Set the audio channel count. Available options are: *Stereo*, *4 Channels* , *5.1 Surround* , *7.1 Surround*

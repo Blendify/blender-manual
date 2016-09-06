@@ -12,8 +12,8 @@ To edit these in the :abbr:`VSE (Video Sequence Editor)` can be easy if you do i
    :doc:`Audio Docs </editors/sequencer/strips/types/audio>` or by the movement of objects.
 #. If you are using any effects on you strips it may helpful to use
    :doc:`Meta Strips </editors/sequencer/strips/meta>`.
-#. Add a viewer region for every input channel and put it into 25% proxy display mode
-#. Add a multicam selector effect strip *above* all the channel tracks
+#. Add a viewer region for every input channel and put it into 25% proxy display mode.
+#. Add a multicam selector effect strip *above* all the channel tracks.
 
    After completing these steps you should get something similar to the image below:
 

@@ -11,7 +11,7 @@ Voronoi
 Often used for
    Very convincing Metal, especially the "Hammered" effect. Organic shaders (e.g. scales, veins in skin).
 Result(s)
-   Intensity (default) and Color
+   Intensity (default) and Color.
 
 
 Options

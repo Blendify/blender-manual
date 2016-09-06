@@ -8,12 +8,12 @@ The object detects static and dynamic objects but not other collisions sensors o
 The Sensor is similar to the physics objects that underlie the Near and Radar sensors.
 Like the Near and Radar object it is:
 
-- static and ghost
-- invisible by default
-- always active to ensure correct collision detection
-- capable of detecting both static and dynamic objects
-- ignoring collision with their parent
-- capable of broadphase filtering based on:
+- Static and ghost.
+- Invisible by default.
+- Always active to ensure correct collision detection.
+- Capable of detecting both static and dynamic objects.
+- Ignoring collision with their parent.
+- Capable of broadphase filtering based on:
 
   - Actor option: the collisioning object must have the Actor flag set to be detected
   - property/material: as specified in the collision sensors attached to it.
@@ -21,13 +21,13 @@ Like the Near and Radar object it is:
 Broadphase filtering is important for performance reason:
 the collision points will be computed only for the objects that pass the broadphase filter.
 
-- automatically removed from the simulation when no collision sensor is active on it
+- Automatically removed from the simulation when no collision sensor is active on it.
 
 Unlike the Near and Radar object it can:
 
-- take any shape, including triangle mesh
-- be made visible for debugging (just use the Visible actuator)
-- have multiple collision sensors using it
+- Take any shape, including triangle mesh.
+- Be made visible for debugging (just use the Visible actuator).
+- Have multiple collision sensors using it.
 
 Other than that, the sensor objects are ordinary objects.
 You can move them freely or parent them. When parented to a dynamic object,
@@ -35,8 +35,8 @@ they can provide advanced collision control to this object.
 
 The type of collision capability depends on the shape:
 
-- box, sphere, cylinder, cone, convex hull provide volume detection.
-- triangle mesh provides surface detection but you can give some volume to
+- Box, sphere, cylinder, cone, convex hull provide volume detection.
+- Triangle mesh provides surface detection but you can give some volume to
   the surface by increasing the margin in the Advanced Settings panel.
   The margin applies on both sides of the surface.
 
