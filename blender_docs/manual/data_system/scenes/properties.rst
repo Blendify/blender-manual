@@ -8,8 +8,22 @@ Scene
 
 Camera
    Used to select which camera is used as the active camera.
+
+.. _scene-background-set:
+
 Background
-   TODO.
+   Allows you to use a scene as a background,
+   this is typically useful when you want to focus on animating the foreground for example,
+   without background elements getting in the way.
+
+   This scene can have its own animation, physics-simulations etc,
+   but you will have to select it from the *Scene* browser, if you want to edit any of its contents.
+
+   .. tip::
+
+      This can also be used in combination with :ref:`Linking to a Scene <data-scenes-linking>`,
+      where one blend-file contains the environment, which can be re-used in many places.
+
 Active Clip
    Active movie clip for constraints and viewport drawing.
    
