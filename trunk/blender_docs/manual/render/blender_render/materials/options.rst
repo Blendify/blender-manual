@@ -132,7 +132,7 @@ Preview
 ^^^^^^^
 
 This is a preview of the current material mapped on to one of several objects.
-See :doc:`Material Preview </editors/properties/material>` for more information.
+See :doc:`Material Preview </render/blender_render/materials/properties/preview>` for more information.
 
 
 Diffuse

@@ -7,6 +7,7 @@
    :maxdepth: 2
 
    introduction.rst
+   preview.rst
    diffuse_shaders.rst
    specular_shaders.rst
    ramps.rst
