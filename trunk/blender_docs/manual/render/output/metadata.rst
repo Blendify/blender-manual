@@ -24,6 +24,9 @@ Stamp Output
       Set the color and alpha of the color behind the text.
    Font Size
       Set the size of the text.
+   Draw Lables
+      Draws the lables before the metadata text. For example,
+      "Camera" infront of camera name ect...
 
 
 .. rubric:: Enabled Metadata
