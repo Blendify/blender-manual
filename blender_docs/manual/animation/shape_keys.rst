@@ -11,7 +11,7 @@ They are used to deform the object vertices into a new shape.
    A mesh with different shape keys applied.
 
 
-There are two types of Shape Keys.
+There are two types of Shape Keys:
 
 Relative
    Which are relative to the Basis or selected shape key.
@@ -317,12 +317,7 @@ If you are using shape keys for animation,
    If you are having problems with your absolute shape keys,
    there is a good chance, that you need to Reset Timing.
 
+.. seealso:: Shape Key Operators
 
-Shape Key Operators
-===================
-
-3D View *Edit Mode* :menuselection:`Mesh --> Vertices --> Shape Propagate`
-   Apply selected vertex locations to all other shape keys.
-
-3D View *Edit Mode* :menuselection:`Mesh --> Vertices --> Blend From Shape`
-   Blend in shape from a shape key.
+   There are two modeling tools used to control Shape Keys and are
+   found in :ref:`Edit Mode <modeling-meshes-editing-vertices-shape-keys>`.

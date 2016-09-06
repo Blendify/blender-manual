@@ -381,6 +381,8 @@ Note that even if it appears in the history menu,
 this action cannot be undone in *Edit Mode* - probably because it involves other objects...
 
 
+.. _modeling-meshes-editing-vertices-shape-keys:
+
 Blend From Shape, Propagate Shapes
 ==================================
 
@@ -393,3 +395,8 @@ Blend From Shape, Propagate Shapes
 
 
 These are options regarding :doc:`shape keys </animation/shape_keys>`.
+
+Shape Propagate
+    Apply selected vertex locations to all other shape keys.
+Blend From Shape
+    Blend in shape from a shape key. 
