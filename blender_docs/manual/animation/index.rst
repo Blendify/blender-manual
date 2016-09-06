@@ -23,8 +23,8 @@ Animation Techniques
    docs which cover features of the object/armature panel?
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
-   camera.rst
-   object_path.rst
-   constraints.rst
+   techniques/camera.rst
+   techniques/object_path.rst
+   techniques/constraints.rst

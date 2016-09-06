@@ -31,7 +31,7 @@ Move Along a Path
 -----------------
 
 Sometimes it is easier to move objects on path,
-see :doc:`Moving Objects on a Path </animation/object_path>` for more info.
+see :doc:`Moving Objects on a Path </animation/techniques/object_path>` for more info.
 
 
 Fly/Walk Modes

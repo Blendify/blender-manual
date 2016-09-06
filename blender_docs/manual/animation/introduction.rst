@@ -48,8 +48,8 @@ The Action Editor
 Animation Techniques
 --------------------
 
-- :doc:`Constraints </animation/constraints>`
-- :doc:`Moving objects on a Path </animation/object_path>`
+- :doc:`Constraints </animation/techniques/constraints>`
+- :doc:`Moving objects on a Path </animation/techniques/object_path>`
 - :doc:`Game Engine Physics Recording </game_engine/physics/using_ge>`
 
 
