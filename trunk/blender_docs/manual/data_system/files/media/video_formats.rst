@@ -139,17 +139,15 @@ Audio Containers
 `MP2 <https://en.wikipedia.org/wiki/MPEG-1_Audio_Layer_II>`__
    A lossy audio compression format defined by ISO/IEC 11172-3.
 `MP3 <https://en.wikipedia.org/wiki/MP3>`__
-   See MP3 in `Video Formats`_ (above)
+   See MP3 in `Video Formats`_ (above).
 `AC3 <https://en.wikipedia.org/wiki/Dolby_Digital>`__
    Audio Codec 3, an audio compression technology developed by Dolby Laboratories.
 `AAC <https://en.wikipedia.org/wiki/Advanced_Audio_Coding>`__
    Advanced Audio Codec, a standardized, lossy compression and encoding scheme for digital audio.
-
-   *AAC generally achieves better sound quality than MP3 at similar bit rates.*
+   -- AAC generally achieves better sound quality than MP3 at similar bit rates.
 `Vorbis <https://en.wikipedia.org/wiki/Vorbis>`__
    An open-standard, highly-compressed format comparable to MP3 or AAC.
-
-   *Vorbis generally achieves better sound quality than MP3 at similar bit rates.*
+   -- Vorbis generally achieves better sound quality than MP3 at similar bit rates.
 `FLAC <https://en.wikipedia.org/wiki/FLAC>`__
    Free Lossless Audio Codec.
    Digital audio compressed by FLAC's algorithm can typically be reduced to 50-60% of its original size,
@@ -157,7 +155,7 @@ Audio Containers
 `PCM <https://en.wikipedia.org/wiki/PCM>`__
    Pulse Code Modulation, a method used to digitally represent sampled analog signals.
    It is the standard form for digital audio in computers and various Blu-ray,
-   Compact Disc and DVD formats, as well as other uses such as digital telephone systems
+   Compact Disc and DVD formats, as well as other uses such as digital telephone systems.
 
 
 Known Limitations

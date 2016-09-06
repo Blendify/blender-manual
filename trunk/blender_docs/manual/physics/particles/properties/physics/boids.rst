@@ -147,60 +147,60 @@ and the order can be modified using the little arrows buttons on the right side.
 The list of rules available are:
 
 Goal
-   Seek goal (objects with Spherical fields and positive Strength)
+   Seek goal (objects with Spherical fields and positive Strength).
 
    Predict
-      Predict target's movements
+      Predict target's movements.
 
 Avoid
-   Avoid "predators" (objects with Spherical fields and negative Strength)
+   Avoid "predators" (objects with Spherical fields and negative Strength).
 
    Predict
-      Predict target's movements
+      Predict target's movements.
    Fear Factor
-      Avoid object if danger from it is above this threshold
+      Avoid object if danger from it is above this threshold.
 
 Avoid Collision
-   Avoid objects with activated Deflection
+   Avoid objects with activated Deflection.
 
    Boids
-      Avoid collision with other boids
+      Avoid collision with other boids.
    Deflectors
-      Avoid collision with deflector objects
+      Avoid collision with deflector objects.
    Look Ahead
-      Time to look ahead in seconds
+      Time to look ahead in seconds.
 
 Separate
-   Boids move away from each other
+   Boids move away from each other.
 
 Flock
-   Copy movements of neighboring boids, but avoid each other
+   Copy movements of neighboring boids, but avoid each other.
 
 Follow Leader
-   Follows a leader object instead of a boid
+   Follows a leader object instead of a boid.
 
    Distance
-      Distance behind leader to follow
+      Distance behind leader to follow.
    Line
-      Follow the leader in a line
+      Follow the leader in a line.
 
 Average Speed
    Maintain average velocity.
 
    Speed
-      Percentage of maximum speed
+      Percentage of maximum speed.
    Wander
-      How fast velocity's direction is randomized
+      How fast velocity's direction is randomized.
    Level
-      How much velocity's Z component is kept constant
+      How much velocity's Z component is kept constant.
 
 Fight
-   Move toward nearby boids
+   Move toward nearby boids.
 
    Fight Distance
-      Attack boids at a maximum of this distance
+      Attack boids at a maximum of this distance.
    Flee Distance
-      Flee to this distance
+      Flee to this distance.
 
 
 Rule Evaluation

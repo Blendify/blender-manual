@@ -84,7 +84,7 @@ Image generated in Blender or preloaded.
 
      - .. figure:: /images/texture-uv-layout-testgrid.jpg
 
-          The new Image pop-up menu.
+          The New Image pop-up menu.
 
 Width, Height
    The size of image in pixels.

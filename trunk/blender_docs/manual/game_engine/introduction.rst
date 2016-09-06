@@ -18,7 +18,7 @@ For further information, you should get in touch with the developers via mailing
    data-conversion --> input | animation, physics and logic | rendering
 
 different renderer, logic is done via logic bricks or Python
-press :kbd:`P` to play in preview mode in the embedded player
+press :kbd:`P` to play in preview mode in the embedded player.
 
 
 Use Cases and Sample Games

@@ -142,25 +142,25 @@ Mechanical
           :width: 320px
 
           A track.
-          `Sample blend-file <https://wiki.blender.org/index.php/Media:Tracktest.blend>`__
+          `Sample blend-file <https://wiki.blender.org/index.php/Media:Tracktest.blend>`__.
 
    * - .. figure:: /images/arraymodifier-cog01.jpg
           :width: 320px
 
           A cog created from a single segment.
-          `Blend <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Cog01.blend>`__
+          `Blend <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Cog01.blend>`__.
 
      - .. figure:: /images/arraymodifier-crankshaft01.jpg
           :width: 320px
 
           A crankshaft.
-          `Sample blend-file <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Crankshaft01.blend>`__
+          `Sample blend-file <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Crankshaft01.blend>`__.
 
    * - .. figure:: /images/arraymodifier-chain01.jpg
           :width: 320px
 
           A chain created from a single link.
-          `Sample blend-file <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Chain01.blend>`__
+          `Sample blend-file <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Chain01.blend>`__.
 
      -
 
@@ -179,7 +179,7 @@ Fractal
           :width: 320px
 
           Fractal created with multiple arrays.
-          `Blend <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Fractal01.blend>`__
+          `Blend <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Fractal01.blend>`__.
 
    * - .. figure:: /images/arraymodifier_fractal_11.jpg
           :width: 320px
@@ -205,21 +205,21 @@ Organic
 
           A double spiral created with two array modifiers and one subsurf modifier applied to a cube.
           As above, the vertex merge threshold is set very high to give the effect of skinning.
-          `Sample blend-file <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Spiral01.blend>`__
+          `Sample blend-file <https://wiki.blender.org/index.php/Media:Dev-ArrayModifier-Spiral01.blend>`__.
 
 .. figure:: /images/modifier-array-tentacle01.jpg
 
    A tentacle created with an Array modifier followed by a Curve modifier.
    The segment in the foreground is the base mesh for the tentacle; the tentacle is capped by two
    specially-modeled objects deformed by the same Curve object as the main part of the tentacle.
-   `Sample blend-file <https://wiki.blender.org/index.php/Media:Manual-Modifier-Array-Tentacle01.blend>`__
+   `Sample blend-file <https://wiki.blender.org/index.php/Media:Manual-Modifier-Array-Tentacle01.blend>`__.
 
 
 Tutorials
 =========
 
-- `Neal Hirsig's Array Modifier Screencast on Vimeo <https://vimeo.com/46061877>`__
-- `Creating A Double Helix With Modifiers <https://wiki.blender.org/index.php/Doc:2.4/Tutorials/Modifiers/A_Double_Helix>`__
+- `Neal Hirsig's Array Modifier Screencast on Vimeo <https://vimeo.com/46061877>`__.
+- `Creating A Double Helix With Modifiers <https://wiki.blender.org/index.php/Doc:2.4/Tutorials/Modifiers/A_Double_Helix>`__.
 
 The 'Double Helix' tutorial explains the Array modifier.
 It is for an old Blender Version (2.44) but except for the keyboard

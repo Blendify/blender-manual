@@ -32,7 +32,7 @@ by Blender and filled in. Thus, the animators' workload is significantly reduced
 
 For example, if you have:
 
-- a control point of value 0 at frame 0,
+- A control point of value 0 at frame 0,
 - another one of value 10 at frame 25,
 - and you use linear interpolation,
 
@@ -144,7 +144,7 @@ There is another curve option quite useful for Bézier-interpolated curves.
 You can set the type of handle to use for the curve points :kbd:`V`
 
 Automatic
-   Keyframes are automatically interpolated
+   Keyframes are automatically interpolated.
 
    .. figure:: /images/fcurve-auto.png
       :width: 400px
@@ -163,7 +163,7 @@ Vector
 
 
 Aligned
-   Handle maintain rotation when moved, and curve tangent is maintained
+   Handle maintain rotation when moved, and curve tangent is maintained.
 
    .. figure:: /images/fcurve-aligned.png
       :width: 400px
@@ -172,7 +172,7 @@ Aligned
 
 
 Free
-   Breaks handles tangents
+   Breaks handles tangents.
 
    .. figure:: /images/fcurve-free.png
       :width: 400px
@@ -181,7 +181,7 @@ Free
 
 
 Auto Clamped
-   Auto handles clamped to not overshoot
+   Auto handles clamped to not overshoot.
 
    .. figure:: /images/fcurve-autoclamped.png
       :width: 400px
@@ -202,8 +202,7 @@ cannot have more than **one** value at a given time, hence:
   the two control points switch their order in the edited curve, to avoid that the curve goes back in time
 - for the above reason, it is impossible to have a closed F-Curve
 
-.. list-table::
-   Two control points switching: the curve cannot go back in time!
+.. list-table:: Two control points switching: the curve cannot go back in time!
 
    * - .. figure:: /images/animation-f-curves-moving-1.png
 

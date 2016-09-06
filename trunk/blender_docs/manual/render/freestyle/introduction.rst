@@ -43,8 +43,8 @@ with the introduction of line style modifiers, the sky is the limit!
    Kitchen by Vicente Carro. © AnigoAnimation.
 
 
-More artwork can be found at
-https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.67/FreeStyle#Freestyle_Artwork_Showcase
+More artwork can be found at `Release Note Artwork Showcase 
+<https://wiki.blender.org/index.php/Dev:Ref/Release_Notes/2.67/FreeStyle#Freestyle_Artwork_Showcase>`__.
 
 
 The Big Picture

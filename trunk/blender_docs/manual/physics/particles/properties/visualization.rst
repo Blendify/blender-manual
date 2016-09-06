@@ -234,7 +234,7 @@ X / Y / Z
 Velocity
    Along the speed vector of the particle.
 Lock
-   Locks the align axis, keeps this orientation, the billboard aligns only along one axis to its target
+   Locks the align axis, keeps this orientation, the billboard aligns only along one axis to its target.
 
 Billboard Object
    The target object that the billboards are facing. By default, the active camera is used.

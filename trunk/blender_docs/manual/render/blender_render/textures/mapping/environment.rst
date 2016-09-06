@@ -168,7 +168,7 @@ Filter Size
    Higher values will blur the environment map to fake blurry reflections.
 
 Minimum Filter Size
-   Use Filter Size as a minimal filter value in pixels
+   Use Filter Size as a minimal filter value in pixels.
 
 
 Examples

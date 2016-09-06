@@ -22,28 +22,28 @@ Options
 
 
 Target
-   Must be an armature
+   Must be an armature.
 Bone
-   A bone in the armature
+   A bone in the armature.
 Pole Target
-   Object for pole rotation
+   Object for pole rotation.
 Iterations
-   Maximum number of solving iterations
+   Maximum number of solving iterations.
 Chain Length
-   How many bones are included in the IK effect. Set to 0 to include all bones
+   How many bones are included in the IK effect. Set to 0 to include all bones.
 
    Use Tail
-      Include bone's tail as last element in chain
+      Include bone's tail as last element in chain.
    Stretch
-      Enable IK stretching
+      Enable IK stretching.
 Weight
    Position
-      For Tree-IK: Weight of position control for this target
+      For Tree-IK: Weight of position control for this target.
    Rotation
-      Chain follow rotation of target
+      Chain follow rotation of target.
 Target
-   Disable for targetless IK
+   Disable for targetless IK.
 Rotation
-   Chain follows rotation of target
+   Chain follows rotation of target.
 
 .. vimeo:: 171279647

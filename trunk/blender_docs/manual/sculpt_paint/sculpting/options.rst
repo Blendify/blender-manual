@@ -188,7 +188,7 @@ Smooth stroke
    Radius
       Sets the minimum distance from the last point before stroke continues.
    Factor
-      Sets the amount of smoothing
+      Sets the amount of smoothing.
 
 
 Curve Panel
@@ -232,15 +232,15 @@ Options Tab
 Overlay Panel
 -------------
 
-When enabled, the brush texture is shown in the viewport
+When enabled, the brush texture is shown in the viewport.
 
 View
-   The eye icon is used as a toggle to show or hide the given brush texture
+   The eye icon is used as a toggle to show or hide the given brush texture.
 Alpha
    You can change the amount of transparency used when showing the texture using
-   the Alpha slider
+   the Alpha slider.
 Stroke Overlay
-   The brush icon allows you to turn off the viewport overlay during strokes
+   The brush icon allows you to turn off the viewport overlay during strokes.
 
 
 Options Panel
@@ -258,20 +258,20 @@ Threaded Sculpt
 Fast Navigation
    For *Multires* models, show low resolution while navigation the viewport.
 Use Deform Only
-   Limits active modifiers on the active object to Deform modifiers, and Multiresolution
+   Limits active modifiers on the active object to Deform modifiers, and Multiresolution.
 Show Diffuse Color
-   Allows the active object to show it's diffuse color when sculpting
+   Allows the active object to show it's diffuse color when sculpting.
 Unified Settings
    Size
       Forces the brush size to be shared across brushes.
    Strength
       Forces the brush strength to be shared across brushes.
    Color
-      Not Used in Sculpt Mode
+      Not Used in Sculpt Mode.
 Show Brush
    Shows the brush shape in the viewport.
 Color (Add/Subtract)
-   Set the color of the brush ring when its particular effect is active
+   Set the color of the brush ring when its particular effect is active.
 
 
 Appearance Panel
@@ -280,6 +280,6 @@ Appearance Panel
 Show Brush
    Shows the brush shape in the viewport.
 Color (Add/Subtract)
-   Set the color of the brush ring when its particular effect is active
+   Set the color of the brush ring when its particular effect is active.
 Custom Icon
    Append an image file to the active brush as an icon.

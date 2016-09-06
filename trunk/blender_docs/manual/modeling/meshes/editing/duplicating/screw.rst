@@ -303,12 +303,12 @@ Counterclockwise effect.
 
 .. note:: Vectors that are not parallel with Blender Axis
 
-   The high sensibility for the vector does not apply to vectors that give the Screw Tool a starting angle (Ex:
-   any non-parallel vector),
+   The high sensibility for the vector does not apply to vectors that give the Screw Tool a starting angle
+   (Ex: any non-parallel vector),
    meaning Blender will not need to clamp the values to stabilize a direction for the extrusion, as the inclination of
    the vector will be clear for Blender and you will have the full degree of freedom to change the vectors. Our
    example is important because it only changes the direction of the profile without the tilt and/or bending effect,
-   as there is only one direction for the extrusion, parallel to one of the Blender Axes
+   as there is only one direction for the extrusion, parallel to one of the Blender Axes.
 
 
 Bending the Profiles using the Spring Example
@@ -352,30 +352,30 @@ any of the vertices present in the middle but those two to take its angular vect
 so the spindles of the screw (which are defined by the turns value)
 will assembly perfectly with each other.
 
-- Open Blender and click in *File* located at the header of the Info editor again,
-  choose *Open Recent* and the file we saved for this exercise.
-  All of the things will be placed exactly the way you saved before.
-  Choose the last saved blend-file; in the last exercise,
-  we gave it the name *Screw Spring Example.blend*.
-- Press the shortcut :kbd:`A` to de-select all vertices.
-- Press the shortcut :kbd:`B`, and Blender will change the cursor; you are now in border selection mode.
-- Open a box that selects all of the circle vertices except the
-  two vertices we used to create the height of the extrusions in the last example.
-- Use the shortcut :kbd:`X` to delete them.
-- Press the shortcut :kbd:`A` to select the remaining vertices.
-- Press the shortcut :kbd:`W` for the *Specials Menu*, and select *Subdivide*
-- Now, click with the Right Mouse button at the middle vertex.
-- Grab this vertex using the shortcut :kbd:`G X Minus 1` and :kbd:`Return`.
-  See Fig. :ref:`fig-mesh-screw-spindle`.
-- At this point, we will save this blend-file to recycle the generated Screw for another exercise;
-  click with :kbd:`LMB` in *File* --
-  it is in the header of the Info editor (at the top left side), and choose *Save as*.
-  Our suggestion is to name it *Screw Hardware Example.blend* and click in *Save as blend-file*.
-  You can also use the shortcut :kbd:`Shift-Ctrl-S` to open the
-  File Browser in order to save your blend-file.
-- Press shortcut :kbd:`A` twice to de-select and select all vertices again.
-- Now press Screw.
-- Change Steps and Turns as you like. Fig. :ref:`fig-mesh-screw-generated-mesh` - Shows you an example of the results.
+#. Open Blender and click in *File* located at the header of the Info editor again,
+   choose *Open Recent* and the file we saved for this exercise.
+   All of the things will be placed exactly the way you saved before.
+   Choose the last saved blend-file; in the last exercise,
+   we gave it the name *Screw Spring Example.blend*.
+#. Press the shortcut :kbd:`A` to de-select all vertices.
+#. Press the shortcut :kbd:`B`, and Blender will change the cursor; you are now in border selection mode.
+#. Open a box that selects all of the circle vertices except the
+   two vertices we used to create the height of the extrusions in the last example.
+#. Use the shortcut :kbd:`X` to delete them.
+#. Press the shortcut :kbd:`A` to select the remaining vertices.
+#. Press the shortcut :kbd:`W` for the *Specials Menu*, and select *Subdivide*
+#. Now, click with the Right Mouse button at the middle vertex.
+#. Grab this vertex using the shortcut :kbd:`G X Minus 1` and :kbd:`Return`.
+   See Fig. :ref:`fig-mesh-screw-spindle`.
+#. At this point, we will save this blend-file to recycle the generated Screw for another exercise;
+   click with :kbd:`LMB` in *File* --
+   it is in the header of the Info editor (at the top left side), and choose *Save as*.
+   Our suggestion is to name it *Screw Hardware Example.blend* and click in *Save as blend-file*.
+   You can also use the shortcut :kbd:`Shift-Ctrl-S` to open the
+   File Browser in order to save your blend-file.
+#. Press shortcut :kbd:`A` twice to de-select and select all vertices again.
+#. Now press Screw.
+#. Change Steps and Turns as you like. Fig. :ref:`fig-mesh-screw-generated-mesh` - Shows you an example of the results.
 
 .. list-table::
 

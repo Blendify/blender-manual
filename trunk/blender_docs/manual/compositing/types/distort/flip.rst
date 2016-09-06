@@ -27,7 +27,7 @@ Properties
 Axis
    This can be either X or Y. Also, flipping can be done on both X and Y axis' simultaneously.
 
-   Flip X, Flip X, Flip X & Y
+   Flip X, Flip Y, Flip X & Y
 
 
 Outputs

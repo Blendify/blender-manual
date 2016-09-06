@@ -189,22 +189,22 @@ map of the earth as the UV image will give a very nice planet mapping onto the s
 
 Direction
    View on Poles
-      Use when viewing from the top (at a pole) by using an axis that is straight down from the view
+      Use when viewing from the top (at a pole) by using an axis that is straight down from the view.
    View on Equator
-      Use if view is looking at the equator, by using a vertical axis
+      Use if view is looking at the equator, by using a vertical axis.
    Align to Object
-      Uses the object's transform to calculate the axis
+      Uses the object's transform to calculate the axis.
 
 Align
-   Select which axis is up
+   Select which axis is up.
 
    Polar ZX
-      Polar 0 is on the x axis
+      Polar 0 is on the x axis.
    Polar ZY
-      Polar 0 is on the y axis
+      Polar 0 is on the y axis.
 
 Radius
-   The radius of the cylinder to use
+   The radius of the cylinder to use.
 
 
 Project From View
@@ -270,8 +270,8 @@ The workflow is the following:
 
 - Create seams.
   A seam is marked in Edit Mode by selecting edges to make the seam and then issuing the command to Mark Seam.
-- Unwrap
-- Adjust seams and repeat
+- Unwrap.
+- Adjust seams and repeat.
 - Manually adjust UVs. See the next section on Editing UVs.
 
 
@@ -367,13 +367,13 @@ Conformal
 Fill Holes
    Activating Fill Holes will prevent overlapping from occurring and better represent any holes in the UV regions.
 Correct Aspect
-   Map UVs taking image aspect into account
+   Map UVs taking image aspect into account.
 
 Use Subsurf Modifier
-   Map UVs taking vertex position after subsurf modifier into account
+   Map UVs taking vertex position after subsurf modifier into account.
 
 Margin
-   Space between UV islands
+   Space between UV islands.
 
 .. tip::
 
@@ -421,7 +421,7 @@ Island Margin
    A higher number will add more space in between islands.
 
 Area Weight
-   Weight projection's vector by faces with larger areas
+   Weight projection's vector by faces with larger areas.
 
 
 .. _lightmap-pack:

@@ -93,7 +93,7 @@ It is not so easy to describe the resulting shapes, so have a look at the exampl
    :width: 400px
 
    Kink options of a curve guide. From left to right: Radial, Wave, Braid, Roll.
-   `Animation <https://vimeo.com/1866538>`__
+   `Animation <https://vimeo.com/1866538>`__.
 
 Frequency
    The frequency of the offset.

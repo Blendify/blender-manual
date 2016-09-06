@@ -39,7 +39,6 @@ Mode
       This is only meaningful when *Offset* is not null.
 
    Projection
-
       This will project vertices along a chosen axis until they touch the shrink target.
       Vertices that never touch the shrink target are left in their original position.
 
@@ -77,4 +76,4 @@ Mode
 
 .. seealso::
 
-   :doc:`Shrinkwrap Constraint </rigging/constraints/relationship/shrinkwrap>`
+   :doc:`Shrinkwrap Constraint </rigging/constraints/relationship/shrinkwrap>`.

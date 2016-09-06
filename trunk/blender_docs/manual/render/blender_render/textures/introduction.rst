@@ -85,10 +85,10 @@ Data or Modifiers Textures
    Textures obtained from raw data or obtained by a certain modifier in the scene.
    For example:
 
-   - volumetric materials use Voxel Data textures, or Point Density textures
-   - textures can be obtained from an Ocean Modifier
+   - Volumetric materials use Voxel Data textures, or Point Density textures.
+   - Textures can be obtained from an Ocean Modifier.
 
-`CRL <https://wiki.blender.org/index.php/User:Chrisryanleggett>`__ 02:25, 26 May 2014 (UTC)(Sign)
+.. `CRL <https://wiki.blender.org/index.php/User:Chrisryanleggett>`__ 02:25, 26 May 2014 (UTC)(Sign)
 
 
 World Textures
@@ -138,7 +138,7 @@ Paper
    but it is clipped in the image (it stays on a horizontal plane (parallel to XY plane):
    what ever the angle of the camera may be, the horizon is always at the middle of the image).
 
-`CRL <https://wiki.blender.org/index.php/User:Chrisryanleggett>`__
+.. `CRL <https://wiki.blender.org/index.php/User:Chrisryanleggett>`__
 
 
 Brush Textures

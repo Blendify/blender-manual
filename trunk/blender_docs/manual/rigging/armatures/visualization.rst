@@ -165,7 +165,7 @@ Custom Shape
    Object that defines the custom shape of the selected bone.
 
 Custom At
-   Bone that defines the display transform of this shape bone
+   Bone that defines the display transform of this shape bone.
 
 To assign a custom shape to a bone, you have to:
 

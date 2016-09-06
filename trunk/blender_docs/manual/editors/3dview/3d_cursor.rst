@@ -3,7 +3,7 @@
 3D Cursor
 *********
 
-The 3D Cursor is simply a point in 3D space which can be used for a number of purposes
+The 3D Cursor is simply a point in 3D space which can be used for a number of purposes.
 
 
 Placement

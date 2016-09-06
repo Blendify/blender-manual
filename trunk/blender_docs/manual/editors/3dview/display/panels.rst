@@ -63,7 +63,7 @@ Lock to Object
    If the locked object is an armature,
    you can further center the view on one of its bones by entering its name in the *Bone* field.
 Lock to Cursor
-   Lock the center of the view to the position of the 3D cursor
+   Lock the center of the view to the position of the 3D cursor.
 
 .. _3dview-lock-camera-to-view:
 
@@ -84,7 +84,7 @@ Clip Start and Clip End
 
 
 Local Camera
-   Active camera used in this view
+   Active camera used in this view.
 
 Render Border
    Use a Render Border when not looking through a camera.

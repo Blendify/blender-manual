@@ -39,8 +39,8 @@ Deform Mode
 
    .. note::
 
-      This feature is limited to making smaller, isolated edits and will not work for larger changes such as
-      re-posing limbs
+      This feature is limited to making smaller, isolated edits and
+      will not work for larger changes such as re-posing limbs.
 
 Interpolation
    None or Linear which will blend between frames;

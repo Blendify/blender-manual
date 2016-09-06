@@ -66,7 +66,7 @@ Empties are important and useful objects. Some examples of ways to use them incl
 
 - An empty can also be used as a target for normal, or bone constraints.
 - This gives the user far more control; for instance,
-  a rig can easily be set up to enable a camera to point towards an empty using the *Track to* constraint
+  a rig can easily be set up to enable a camera to point towards an empty using the *Track to* constraint.
 
 .. rubric:: Array offset
 

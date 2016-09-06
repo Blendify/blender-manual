@@ -12,7 +12,7 @@ The File Browser supports many types of previews. These include:
 
 - Image and video formats
 - Blend-files
-- Internal :doc:`Data-bBlocks </data_system/data_blocks>`
+- Internal :doc:`Data-blocks </data_system/data_blocks>`
 - Fonts
 
 
@@ -22,7 +22,7 @@ DataBlocks
 Creating and Deleting Previews
 ------------------------------
 
-Previews can be created and deleted in many ways from :menuselection:`File Editor --> File --> Data Previews`
+Previews can be created and deleted in many ways from :menuselection:`Info Editor --> File --> Data Previews`
 
 
 Refresh DataBlock Previews

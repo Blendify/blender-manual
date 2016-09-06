@@ -7,8 +7,7 @@ The *Normal Edit* modifier affects (or generates) custom normals. It uses a few 
 to compute normals (quite useful in game development and architecture areas), and mixes back those generated normals
 with existing ones.
 
-..
-   (nice image)
+.. (todo) nice image
 
 Options
 =======
@@ -34,7 +33,7 @@ Parallel Normals
    Makes all normals parallel to the line between both objects’ centers,
    instead of converging towards target’s center.
 
-   Only relevant in *Directional* mode
+   Only relevant in *Directional* mode.
 
 Offset
    Gives modified object’s center an offset before using it to generate normals.
@@ -63,6 +62,7 @@ toon-like rendering by partially bending default normals...
 The only mandatory prerequisite to use it is to enable *Auto Smooth* option in Mesh properties, *Normals* panel.
 
 .. tip::
+
    More complex normal manipulations can be achieved by copying normals from one mesh to another,
    see the :doc:`Data Transfer modifier </modeling/modifiers/modify/data_transfer>`.
 

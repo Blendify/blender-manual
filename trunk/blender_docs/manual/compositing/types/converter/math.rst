@@ -134,7 +134,7 @@ Theory
 ======
 
 `Two Approaches to Quantizing to six values
-<https://wiki.blender.org/index.php/File:Manual-Compositing-Node-Math_ColorBand>`__
+<https://wiki.blender.org/index.php/File:Manual-Compositing-Node-Math_ColorBand>`__.
 
 To accomplish this quantization of an image to 256 possible values, let us use the set {6, 6, 7}.
 To split up a continuous range of values between 0 and 1 (the full Red spectrum)
@@ -156,7 +156,7 @@ and so on up to values between 0.83 and 1.0 get mapped to 1.0.
    (add, subtract, multiply, sine, cosine, etc) that operate on an input value to provide the desired output value.
 
 
-`Spreadsheet showing a function <https://wiki.blender.org/index.php/File:Manual-Compositing-Node-Math_spreadsheet>`__
+`Spreadsheet showing a function <https://wiki.blender.org/index.php/File:Manual-Compositing-Node-Math_spreadsheet>`__.
 
 
 The theory behind this function is scaled truncation.

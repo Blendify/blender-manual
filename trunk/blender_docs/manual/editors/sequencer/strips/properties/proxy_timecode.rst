@@ -33,10 +33,10 @@ Proxy Storage
          By default, all generated proxy images are storing to the <path of original footage>
          /BL_proxy/<clip name> folder, but this location can be set by hand using this option.
       Proxy Custom File
-         Allows you to use pre-existing proxies
+         Allows you to use pre-existing proxies.
 
    Project
-      All proxies are stored in one directory
+      All proxies are stored in one directory.
 
       Proxy Directory
          The location to to store the proxies for the project.
@@ -51,9 +51,9 @@ Quality
 Timecode
    See `Timecode`_.
 Set Selected Strip Proxies
-   Same as choosing the *Proxy Size* and *Overwrite*
+   Same as choosing the *Proxy Size* and *Overwrite*.
 Rebuild Proxy and Timecode Indices
-   Generates Proxies and Timecodes, same as doing :menuselection:`Strip --> Rebuild Proxy and Timecode indices`
+   Generates Proxies and Timecodes, same as doing :menuselection:`Strip --> Rebuild Proxy and Timecode indices`.
 
 
 Timecode

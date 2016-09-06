@@ -26,6 +26,6 @@ Space
 .. seealso::
 
    `Harkyman on the development of the Maintain Volume constraint
-   <http://www.harkyman.com/2010/03/16/maintaining-bone-volume-a-new-constraint/>`__
+   <http://www.harkyman.com/2010/03/16/maintaining-bone-volume-a-new-constraint/>`__.
 
 .. vimeo:: 171275315

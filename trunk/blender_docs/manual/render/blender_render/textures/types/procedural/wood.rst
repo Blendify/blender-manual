@@ -11,7 +11,7 @@ Wood
 Often used for
    Woods and ring-shaped patterns.
 Result(s)
-   Intensity only
+   Intensity only.
 
 
 Options

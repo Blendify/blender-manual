@@ -35,7 +35,7 @@ Threshold
    whereas higher settings start to add outlines on surface edges, starting with sharper angles.
    At maximum intensity, Edge will even faintly display geometry subsurf edge lines in areas of imperfect smoothing.
 Color RGB
-   The color of the rendered edges (black by default). Click on the swatch to see the color picker
+   The color of the rendered edges (black by default). Click on the swatch to see the color picker.
 
 
 Examples

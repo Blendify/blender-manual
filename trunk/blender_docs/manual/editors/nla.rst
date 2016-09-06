@@ -48,7 +48,7 @@ next to the action listed in the NLA. Alternatively, you can go to :menuselectio
 Creating Transition Strips
 --------------------------
 
-Select two or more strips on the same track, and go to
+Select two or more strips on the same track, and go to:
 
 .. admonition:: Reference
    :class: refbox

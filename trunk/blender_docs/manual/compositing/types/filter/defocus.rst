@@ -174,12 +174,12 @@ Aliasing at Low f-Stop Values
    which OSA is designed to avoid. If you run into this problem:
 
    - Do your own OSA by rendering at twice the intended size and then scaling down,
-     so that adjacent pixels are blurred together
-   - Use the blur node with a setting of 2 for x and y
+     so that adjacent pixels are blurred together.
+   - Use the blur node with a setting of 2 for X and Y.
    - Set DoF Distance off by a little, so that the object in focus is blurred by the tiniest bit.
    - Use a higher f-Stop, which will start the blur,
      and then use the Z socket to a Map Value to a Blur node to enhance the blur effect.
-   - Rearrange the objects in your scene to use a lower-contrast background
+   - Rearrange the objects in your scene to use a lower-contrast background.
 
 No Z-Buffer
    A final word of warning, since there is no way to detect if an actual Z-buffer is connected to the node,

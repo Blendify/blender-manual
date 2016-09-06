@@ -24,9 +24,10 @@ tree of that node to the Compositor.
 Image
    RGB image. The default is black, so leaving this node unconnected will result in a blank image.
 Alpha
-   Alpha channel
+   Alpha channel.
 Z
-   Z-depth
+   Z-depth.
+
 
 Properties
 ==========

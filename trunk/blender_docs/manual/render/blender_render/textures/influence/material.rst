@@ -126,7 +126,7 @@ Volume materials
    Texture Influence panel for Volume material.
 
 
-Special texture options for *Volume* materials
+Special texture options for *Volume* materials.
 
 Density
    Causes the texture to affect the volume's density.
@@ -153,7 +153,7 @@ Halo materials
    Texture Influence panel for a Halo material.
 
 
-Special texture options for *Halo* materials
+Special texture options for *Halo* materials.
 
 Size
    Amount the texture affects ray mirror.

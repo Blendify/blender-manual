@@ -31,10 +31,10 @@ but will have much fewer faces/polygons.
 
 .. rubric:: Advantages
 
-- Can significantly reduce render times
-- Texture painting made easier
-- Reduced polygon count
-- Repeated renders are made faster, multiplying the time savings
+- Can significantly reduce render times.
+- Texture painting made easier.
+- Reduced polygon count.
+- Repeated renders are made faster, multiplying the time savings.
 
 .. rubric:: Disadvantages
 

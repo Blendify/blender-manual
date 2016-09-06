@@ -42,7 +42,7 @@ Linked UVs :kbd:`Ctrl-L`
 
 Pinned UVs :kbd:`Shift-P`
    You can pin UVs so they do not move between multiple unwrap operations.
-   This menu item selects them all. See Pinning
+   This menu item selects them all. See Pinning.
 
 Border Select Pinned :kbd:`Shift-B`
    Use the box lasso to select only pinned UV coordinates.
@@ -67,13 +67,13 @@ Only selected faces are displayed in the UV/Image editor,
 and the following selection modes are available:
 
 Vertex
-   Select individual vertices
+   Select individual vertices.
 Edge
-   Select edges
+   Select edges.
 Face
-   Select faces
+   Select faces.
 Island
-   Select contiguous groups of Faces
+   Select contiguous groups of Faces.
 
    The *Sticky Selection Mode* menu is available in this mode. This controls how UVs are selected:
 
@@ -157,17 +157,17 @@ the *Snap to Pixels* option in the *UVs Menu* will force the UVs to snap to the 
 Additional tools can be found in the *UVs Menu* under the *Snap* Submenu:
 
 Snap Pixels
-   Moves selection to nearest pixel
+   Moves selection to nearest pixel.
 Snap to Cursor
-   Moves selection to 2D cursor location
+   Moves selection to 2D cursor location.
 Snap to Adjacent Unselected
-   Moves selection to adjacent unselected element
+   Moves selection to adjacent unselected element.
 
 
 Weld and Align
 --------------
 
-the *Weld* tool, :kbd:`W-1` will move selected UVs to their average position
+The *Weld* tool, :kbd:`W-1` will move selected UVs to their average position.
 
 *Align*, :kbd:`W-2`, :kbd:`W-3`, and :kbd:`W-4`
 will line up selected UVs on the X axis, Y axis, or automatically chosen axis.

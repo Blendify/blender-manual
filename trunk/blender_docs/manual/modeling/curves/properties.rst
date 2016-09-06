@@ -83,14 +83,14 @@ Modification
       Will extrude the curve along both the positive and negative local Z axes.
 Bevel
    Depth
-      Changes the size of the bevel
+      Changes the size of the bevel.
 
       .. figure:: /images/modeling_curves_geometry-bevel-depth.png
 
          A Curve with different Bevel depths applied.
 
    Resolution
-      Alters the smoothness of the bevel
+      Alters the smoothness of the bevel.
 
       .. figure:: /images/modeling_curves_geometry-bevel-resolution.png
 
@@ -149,12 +149,12 @@ The *Path Animation* settings can be used to determine how Objects move along a 
 
 Frames
    The number of frames that are needed to traverse the path,
-   defining the maximum value for the *Evauluate Time* setting.
+   defining the maximum value for the *Evaluation Time* setting.
 Evaluation Time
    Parametric position along the length of the curve that object following it should be at
-   (the positon is evaluated by by dividing by the *Path Length* value).
+   (the position is evaluated by by dividing by the *Path Length* value).
 Follow
-   Make the curve path children rotate alung the path.
+   Make the curve path children rotate along the path.
 
 :doc:`Read more about utilizing Curves for paths during animation </animation/techniques/object_path>`
 
@@ -180,7 +180,7 @@ Interpolation
       Alters how the radius of a Beveled Curve is calculated.
       The effects are easier to see after Shrinking/Fattening a control point :kbd:`Alt-S`.
    Smooth
-      Smooths the normals of the Curve
+      Smooths the normals of the Curve.
 
 
 NURBS Curves

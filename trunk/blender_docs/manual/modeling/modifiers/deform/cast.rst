@@ -78,5 +78,5 @@ Example
 
    Top: Suzanne without modifiers. Middle: Suzanne with each type of Cast Modifier (Sphere, Cylinder and Cuboid).
    Bottom: Same as above, but now only X axis is enabled.
-   `Sample blend-file <https://wiki.blender.org/index.php/Media:263-Cast-Modifier.blend>`__
+   `Sample blend-file <https://wiki.blender.org/index.php/Media:263-Cast-Modifier.blend>`__.
 

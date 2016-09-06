@@ -30,28 +30,28 @@ Options
 
 
 Target
-   The target curve
+   The target curve.
 Spline Fitting
    Chain Length
-      How many bones are included in the chain
+      How many bones are included in the chain.
    Even Division
-      Ignore the relative length of the bones when fitting to the curve
+      Ignore the relative length of the bones when fitting to the curve.
    Chain Offset
-      Offset the entire chain relative to the root joint
+      Offset the entire chain relative to the root joint.
 
 Chain Scaling
    Y stretch
-      Stretch the Y axis of the bones to fit the curve
+      Stretch the Y axis of the bones to fit the curve.
    XZ Scale Mode
       None
-         Do not scale the X and X axes (default)
+         Do not scale the X and X axes.
       Bone Original
-         Use the original scaling of the bones
+         Use the original scaling of the bones.
       Volume Preservation
-         Scale of the X and Z axes is the inverse of the Y scale
+         Scale of the X and Z axes is the inverse of the Y scale.
    Use Curve Radius
       Average radius of the endpoints is used to tweak the X and Z scaling of the bones,
-      on top of the X and Z scale mode
+      on top of the X and Z scale mode.
 
 
 .. seealso::

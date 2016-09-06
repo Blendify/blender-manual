@@ -421,15 +421,15 @@ Examples
           :width: 200px
 
           `Femme Front blend-file
-          <https://wiki.blender.org/index.php/Media:Apinzonf_GSOC_2012_Media_femme_front.blend>`__
+          <https://wiki.blender.org/index.php/Media:Apinzonf_GSOC_2012_Media_femme_front.blend>`__.
 
      - .. figure:: /images/apinzonf_gsoc_2012_diagram_t_wgroup.png
           :width: 200px
 
           `Cube Smooth blend-file
-          <https://wiki.blender.org/index.php/Media:Apinzonf_GSOC_2012_Media_cube_smooth.blend>`__
+          <https://wiki.blender.org/index.php/Media:Apinzonf_GSOC_2012_Media_cube_smooth.blend>`__.
 
 
 .. seealso::
 
-   :doc:`Smooth Modifier </modeling/modifiers/deform/smooth>`
+   :doc:`Smooth Modifier </modeling/modifiers/deform/smooth>`.

@@ -225,9 +225,9 @@ The main use of this tool is to create one bone between two selected ends by pre
 
 If you have one root and one tip selected, the new bone:
 
-- will have the root placed on the selected tip
-- will have the tip placed on the selected root
-- will be parented and connected to the bone owning the selected tip
+- Will have the root placed on the selected tip.
+- Will have the tip placed on the selected root.
+- Will be parented and connected to the bone owning the selected tip.
 
 .. list-table:: Fill between a tip and a root.
 
@@ -244,9 +244,9 @@ If you have one root and one tip selected, the new bone:
 
 If you have two tips selected, the new bone:
 
-- will have the root placed on the selected tip closest to the 3D cursor
-- will have the tip placed on the other selected tip
-- will be parented and connected to the bone owning the tip used as the new bone's root
+- Will have the root placed on the selected tip closest to the 3D cursor.
+- Will have the tip placed on the other selected tip.
+- Will be parented and connected to the bone owning the tip used as the new bone's root.
 
 .. list-table:: Fill between tips.
 
@@ -266,9 +266,9 @@ Blender not updating the interface in real time.
 
 When clicking :kbd:`F`, similar to the previous case, you will see a new bone:
 
-- with the root placed on the selected root closest to the 3D cursor
-- with the tip placed on the other selected root
-- parented and connected to the bone owning the root used as the new bone's root
+- With the root placed on the selected root closest to the 3D cursor.
+- With the tip placed on the other selected root.
+- Parented and connected to the bone owning the root used as the new bone's root.
 
 If you try to move the new bone, Blender will update the interface and you will see that the
 new bone's root moves to the tip of the parent bone.
@@ -470,13 +470,13 @@ the bones created from a subdivision always form a connected chain of bones.
 
 To create two bones out of each selected bone:
 
-- press :kbd:`W` :menuselection:`--> Subdivide`, same as :kbd:`W-1`, or
-- select :menuselection:`Armature --> Subdivide` from the header menu
+- Press :kbd:`W` :menuselection:`--> Subdivide`, same as :kbd:`W-1`, or
+- select :menuselection:`Armature --> Subdivide` from the header menu.
 
 To create an arbitrary number of bones from each selected bone:
 
-- press :kbd:`W` :menuselection:`--> Subdivide Multi`, same as :kbd:`W-2`, or
-- select :menuselection:`Armature --> Subdivide Multi` from the header menu, an
+- Press :kbd:`W` :menuselection:`--> Subdivide Multi`, same as :kbd:`W-2`, or
+- select :menuselection:`Armature --> Subdivide Multi` from the header menu.
 
 Then specify the number of cuts you want in the pop-up. As in mesh editing,
 if you set *n* cuts, you will get *n* + 1 bones for each selected bone.
@@ -501,10 +501,10 @@ You can prevent a bone from being transformed in *Edit Mode* in several ways:
 
 - The active bone can be locked clicking on *Lock*
   in the *Transform Properties* panel (:kbd:`N` in a 3D View);
-- all bones can be locked clicking on the *Lock* button
+- All bones can be locked clicking on the *Lock* button
   of their sub-panels in the *Armature Bones* panel;
-- press :kbd:`Shift-W` :menuselection:`--> Toggle Settings --> Locked`
-- select :menuselection:`Armature --> Bone Settings --> Toggle a Setting`).
+- Press :kbd:`Shift-W` :menuselection:`--> Toggle Settings --> Locked`
+- Select :menuselection:`Armature --> Bone Settings --> Toggle a Setting`).
 
 *If the root of a locked bone is connected to the tip of an unlocked bone,
 it will not be locked*, i.e. you will be able to move it to your liking.

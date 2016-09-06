@@ -68,7 +68,7 @@ Vertices
 Radius
    Sets the radius of the circle.
 Fill Type
-   Set how the circle will be filled
+   Set how the circle will be filled.
 
    Triangle Fan
       Fill with triangular faces which share a vertex in the middle.

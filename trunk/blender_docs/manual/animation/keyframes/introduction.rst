@@ -26,7 +26,7 @@ There are several methods of adding new keys. Namely:
 Removing Keyframes
 ==================
 
-There are several methods of removing keyframes
+There are several methods of removing keyframes:
 
 - In the 3D View press :kbd:`Alt-I` to remove keys on the current frame for selected objects.
 - When the mouse is over a value press :kbd:`Alt-I`.

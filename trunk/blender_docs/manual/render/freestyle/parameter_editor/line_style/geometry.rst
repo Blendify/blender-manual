@@ -86,7 +86,7 @@ Rotation Angle
    :align: center
 
    2D Transform modifier
-   `File:Toycar_Three_Contours.zip <https://wiki.blender.org/index.php/File:Toycar_Three_Contours.zip>`__
+   `File:Toycar_Three_Contours.zip <https://wiki.blender.org/index.php/File:Toycar_Three_Contours.zip>`__.
 
 
 Backbone Stretcher
@@ -120,7 +120,7 @@ Error
    :align: center
 
    Bézier Curve modifier demo by T.K.
-   `File:toycar_bezier.zip <https://wiki.blender.org/index.php/File:toycar_bezier.zip>`__
+   `File:toycar_bezier.zip <https://wiki.blender.org/index.php/File:toycar_bezier.zip>`__.
 
 
 Blueprint
@@ -181,7 +181,7 @@ it is recommended to use this modifier together with one of the splitting option
    :align: center
 
    Guiding Lines modifier Demo by T.K.
-   `File:Toycar_Guiding_Line.zip <https://wiki.blender.org/index.php/File:Toycar_Guiding_Line.zip>`__
+   `File:Toycar_Guiding_Line.zip <https://wiki.blender.org/index.php/File:Toycar_Guiding_Line.zip>`__.
 
 
 Perlin Noise 1D
@@ -282,7 +282,7 @@ Phase
    :align: center
 
    Sinus Displacement modifier demo by T.K.
-   `File:Toycar_Sinus.zip <https://wiki.blender.org/index.php/File:Toycar_Sinus.zip>`__
+   `File:Toycar_Sinus.zip <https://wiki.blender.org/index.php/File:Toycar_Sinus.zip>`__.
 
 
 Spatial Noise

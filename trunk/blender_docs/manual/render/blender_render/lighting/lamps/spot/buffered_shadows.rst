@@ -43,11 +43,11 @@ There are four shadow generation types, those being:
 For more information on the different shadow generation methods see these links:
 
 - `Development Release Logs 2.43: Irregular Shadow Buffer
-  <https://www.blender.org/development/release-logs/blender-243/irregular-shadow-buffer/>`__
+  <https://www.blender.org/development/release-logs/blender-243/irregular-shadow-buffer/>`__.
 - `Blender Nation: Blender Gets Irregular Shadow Buffers
-  <https://www.blendernation.com/2006/10/15/blender-gets-irregular-shadow-buffers/>`__
+  <https://www.blendernation.com/2006/10/15/blender-gets-irregular-shadow-buffers/>`__.
 - `Development Release Logs 2.43: Shadow Buffer Halfway Average
-  <https://www.blender.org/development/release-logs/blender-243/shadow-buffer-halfway-average/>`__
+  <https://www.blender.org/development/release-logs/blender-243/shadow-buffer-halfway-average/>`__.
 
 
 "Classical" and "Classic-Halfway"
@@ -212,7 +212,7 @@ Deep generation method
    Buffer Shadow set to Deep.
 
    Deep Shadow buffer supports transparency and better filtering,
-   at the cost of more memory usage and processing time
+   at the cost of more memory usage and processing time.
 
 Compress
    Deep shadow map compression threshold.

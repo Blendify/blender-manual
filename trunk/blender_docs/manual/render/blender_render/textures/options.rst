@@ -124,11 +124,11 @@ and *Saturation* buttons. All textures with RGB-Values, including
 R, G, B
    Tint the color of a texture by brightening each red, green and blue channel.
 Brightness
-   Change the overall brightness/intensity of the texture
+   Change the overall brightness/intensity of the texture.
 Contrast
-   Change the contrast of the texture
+   Change the contrast of the texture.
 Saturation
-   Change the saturation of the texture
+   Change the saturation of the texture.
 
 
 Mapping
@@ -153,4 +153,4 @@ They are detailed on the :doc:`Influence </render/blender_render/textures/influe
 
 .. note:: Brushes
 
-   These options are not available for brushes because they would not make sense
+   These options are not available for brushes because they would not make sense.

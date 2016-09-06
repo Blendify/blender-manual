@@ -52,7 +52,7 @@ Shape Match
    - Python property: ``obj.game.soft_body.use_shape_match``
 Threshold
    `Linearly scales the pose match
-   <http://www.continuousphysics.com/Bullet/BulletFull/btSoftBody_8cpp_source.html#l01566>`__
+   <http://www.continuousphysics.com/Bullet/BulletFull/btSoftBody_8cpp_source.html#l01566>`__.
 
    - A threshold of 1.0 makes it behave like *Shape Match* on with a *Linear Stiffness* of 1.0.
    - A threshold of 0.0 makes it behave like *Shape Match* off with a *Linear Stiffness* of 0.0.
@@ -96,7 +96,7 @@ Margin
    - Python property: ``obj.game.soft_body.collision_margin``
 
 Bending Constraint
-   Enable Bending Constraints
+   Enable Bending Constraints.
 
 .. TODO: Learn/demo/explain.
 

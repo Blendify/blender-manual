@@ -27,7 +27,7 @@ Inputs
 Image
    Standard image input.
 Fac
-   Factor
+   Standard Factor.
 
 
 Properties

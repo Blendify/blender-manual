@@ -8,6 +8,8 @@ Weight Editing
 
    Vertex Weights Panel.
 
+   Vertex Group Categories (1), Weight Table (2), Function bar (3).
+
 
 As mentioned before in :doc:`Vertex Groups </modeling/meshes/vertex_groups/index>` each entry
 in a Vertex Group also contains a weight value in the range of [0.0,1.0].
@@ -17,11 +19,11 @@ That is: to which Vertex Groups the vertex is assigned with which weight value.
 
 The Vertex Weights panel can be found in the right Properties region of the 3D View.
 It is available in Edit Mode and in Weight Paint Mode
-(when Vertex Selection masking is enabled as well). The panel is separated into the sections
+(when Vertex Selection masking is enabled as well). The panel is separated into the sections:
 
-- Vertex Group Categories (1)
-- Weight Table (2)
-- Function bar (3)
+- `Vertex Group Categories`_
+- `Weight Table`_
+- `Function bar`_
 
 
 Vertex Group Categories

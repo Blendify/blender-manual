@@ -106,7 +106,7 @@ If both the *Linear* and *Quad* slider fields have values greater than
 
 :math:`I = E × (D / (D + L × r)) × (D^2 / (D^2 + Q × r^2))`
 
-Where
+Where:
 
 - *I* is the calculated Intensity of light.
 - *E* is the current *Energy* slider setting.

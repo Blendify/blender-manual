@@ -48,10 +48,10 @@ Workflow
 
 The steps involved in making and using Bump and Normal Maps is:
 
-- Model a highly detailed ("hi-poly") model
-- Bake the Bump and/or Normal maps
-- Make a low-poly, less detailed model
-- Map the map to the low-poly model using a common coordinate system
+- Model a highly detailed ("hi-poly") model.
+- Bake the Bump and/or Normal maps.
+- Make a low-poly, less detailed model.
+- Map the map to the low-poly model using a common coordinate system.
 
 Consult the Modeling section for how to model a highly detailed model using the Mesh tools.
 How much detail you put in is totally up to you. The more ridges and details (knobs, creases,

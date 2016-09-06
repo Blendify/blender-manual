@@ -23,7 +23,7 @@ Sensors are primitive event listeners, which are triggered by specific events, s
 a key press or mouse movement. Controllers carry out logic operations on sensor output,
 and trigger connected actuators when their operating conditions are met.
 Actuators interact with the simulation directly, and are the only components in the game which are able to do so
-(other than the Python controller, and other simulation components such as Physics
+(other than the Python controller, and other simulation components such as Physics).
 
 
 Properties

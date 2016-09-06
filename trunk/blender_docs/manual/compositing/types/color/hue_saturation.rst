@@ -47,7 +47,7 @@ Outputs
 =======
 
 Image
-   Standard image output
+   Standard image output.
 
 
 Hue/Saturation Tips

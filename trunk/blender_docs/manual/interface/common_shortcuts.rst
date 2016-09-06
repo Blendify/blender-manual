@@ -14,11 +14,11 @@ and the :kbd:`LMB` (Left Mouse Button) initiates or confirms actions.
    :widths: 15 85
 
    * - :kbd:`RMB`
-     - To select an item
+     - To select an item.
    * - :kbd:`Shift-RMB`
-     - To add more items to the selection
+     - To add more items to the selection.
    * - :kbd:`LMB`
-     - to perform an action on the selection
+     - to perform an action on the selection.
 
 Video: `Learn more about Blender's Mouse Button usage <https://vimeo.com/76335056>`__.
 

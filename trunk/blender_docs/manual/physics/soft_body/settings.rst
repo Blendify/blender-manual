@@ -17,18 +17,14 @@ Soft Body
 
 Friction
    The friction of the surrounding medium. Generally friction dampens a movement.
-
 Mass
    Mass value for vertices.
    Larger mass slows down acceleration, except for gravity where the motion is constant regardless of mass.
    Larger mass means larger inertia, so also braking a Soft Body is more difficult.
-
 Vertex Group Mass
-   Use a specified vertex group for mass values
-
+   Use a specified vertex group for mass values.
 Speed
    You can control the internal timing of the Softbody system with this value.
-
 Collision Group
    If set, Soft Body collides with objects from the group, instead of using objects that are on the same layer.
 

@@ -126,7 +126,7 @@ Continuous Grab
       Cursor warping is only supported by *relative* input devices (mouse, trackball, trackpad).
 
       Graphics tablets, however, typically use *absolute* positioning,
-      this feature is disabled when a tablet is being used
+      this feature is disabled when a tablet is being used.
 
       This is detected for each action,
       so the presence of a tablet will not disable Continuous Grab for mouse cursor input.
@@ -211,12 +211,12 @@ Keymap Editor
 The Keymap editor lets you change the default Hotkeys. You can change keymaps for each of Blender's editors.
 
 - Select the keymap you want to change and click on the white arrows to open up the keymap tree.
-- Select which Input will control the function
+- Select which Input will control the function.
 
   - Keyboard: Only hotkey or combo hotkey :kbd:`E`, :kbd:`Shift-E`.
   - Mouse: Left/middle/right click. Can be combined with :kbd:`Alt`, :kbd:`Shift`, :kbd:`Ctrl`, :kbd:`Cmd`.
   - Tweak: Click and drag. Can also be combined with the four previous keys.
-  - Text input: Use this function by entering a text
+  - Text input: Use this function by entering a text.
   - Timer: Used to control actions based on a time period.
     e.g. By default, Animation Step uses Timer 0, Smooth view uses Timer 1.
 
