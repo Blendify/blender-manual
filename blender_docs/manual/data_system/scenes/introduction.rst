@@ -1,7 +1,7 @@
 ﻿
-******
-Scenes
-******
+************
+Introduction
+************
 
 Scenes are a way to organize your work.
 Each blend-file can contain multiple scenes, which share other data such as objects and materials.
@@ -10,7 +10,7 @@ Scene management and library appending/linking are based on Blender's
 :doc:`Library and Data System </data_system/index>`,
 so it is a good idea to read that manual page first, if you are not familiar with the basics of that system.
 
-You can select and create scenes with the *Scene data-block* menu in the *Info editors* header.
+You can select and create scenes with the *Scene data-block* menu in the *Info Editor* header.
 
 .. figure:: /images/interface_screen-scene-selector.jpg
    :align: center
