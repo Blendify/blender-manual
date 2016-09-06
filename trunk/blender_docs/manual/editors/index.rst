@@ -65,7 +65,7 @@ Settings
 .. toctree::
    :maxdepth: 1
 
-   properties/index.rst
+   properties_editor.rst
    outliner.rst
    Preferences <../preferences/index.rst>
    info/index.rst
