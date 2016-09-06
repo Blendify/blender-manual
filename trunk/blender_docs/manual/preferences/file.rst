@@ -37,7 +37,6 @@ Image Editor
 Animation Player
    The path to an external program to use for playback of rendered animations.
 
-
 .. note:: If these folders do not exist, they will *not* be created automatically.
 
 
@@ -106,29 +105,24 @@ Load UI
    (the :doc:`Screens </interface/window_system/screens>`) of the saved file.
    This can be changed individually when loading a file from the
    *Open blend-file* panel of the :doc:`File Browser </editors/file_browser/index>`.
-
-.. figure:: /images/interface-configuration-file-filefilter-25.png
-
-   File extension filter.
-
-
 Filter File Extensions
    By activating this, the file dialog in the File Browser will only show appropriate files
    (i.e. blend-files when loading a complete *Blender* setting).
    The selection of file types may be changed in the file dialog.
+
+   .. figure:: /images/interface-configuration-file-filefilter-25.png
+
+      File extension filter.
+
 Hide Dot File/Data-blocks
    Hide file which start with ``.`` on file browsers (in Linux and Apple systems, ``.`` files are hidden).
 Hide Recent Locations
    Hides the *Recent* panel of the :doc:`File Browser </editors/file_browser/index>`
    which displays recently accessed folders.
+Hide System Bookmarks
+   Hide System Bookmarks in the *File Browser*.
 Show Thumbnails
    Displays a thumbnail of images and movies when using the :doc:`File Browser </editors/file_browser/index>`.
-
-
-.. _prefs-auto-save:
-
-Auto Save
-=========
 
 Save Versions
    Number of versions created for the same file (for backup).
@@ -142,10 +136,20 @@ Save Versions
 Recent Files
    Number of files displayed in :menuselection:`File --> Open Recent`.
 Save Preview Images
-   Previews of images and materials in the :doc:`File Browser </editors/file_browser/index>` are created on demand.
-   To save these previews into your blend-file,
+   Previews of images and materials in the :doc:`File Browser </editors/file_browser/index>`
+   are created on demand. To save these previews into your blend-file,
    enable this option (at the cost of increasing the size of your blend-file).
-Auto Save Temporary File
+
+
+.. _prefs-auto-save:
+
+Auto Save
+=========
+
+Keep Session
+   Always saves the blend-file after quiting Blender and reloads it after re-starting Blender.
+
+Auto Save Temporary Files
    Enable Auto Save (create a temporary file).
 
    Checking this box tells Blender to *automatically* save a backup copy of your work-in-progress to the Temp
@@ -160,3 +164,14 @@ Timer
    The minimum is 1, and the Maximum is 60 (Save at every one hour).
 
 :doc:`Read more about Auto Save options </troubleshooting/recover>`.
+
+
+Text Editor
+===========
+
+Tabs as Spaces
+   When hitting :kbd:`Tab` the tabs get written as keyboard spaces.
+Author
+   Name that will be used in exported files when the format supports such feature.
+
+.. Used for I18n? Ask mont29

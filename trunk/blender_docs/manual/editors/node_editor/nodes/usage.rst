@@ -19,6 +19,8 @@ In general, try to arrange your nodes within the view such that the image flows 
 Move a node by click and drag it around. A node can be clicked almost anywhere to start dragging.
 
 
+.. _editors-nodes-usage-auto-offset:
+
 Auto-offset
 -----------
 
