@@ -18,7 +18,7 @@ in the Node Editor, Graph Editor, UV/Image Editor, Sequencer, etc.
 
 Options and other details will be discussed in their respective sections.
 
-.. figure:: /images/editors_3dview_translate_value_display.png
+.. figure:: /images/editors_3dview_transform_basics_grab_display-values.png
 
    Translation Display.
 

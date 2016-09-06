@@ -50,7 +50,7 @@ Scaling using the keyboard shortcut
 
 The amount of scaling will be displayed in the bottom left hand corner of the 3D View editor.
 
-.. figure:: /images/editors_3dview_transformations-basic-scale-scale_value_header.png
+.. figure:: /images/editors_3dview_transform_basics_scale_display-values.png
 
    Scale values.
 
@@ -106,7 +106,6 @@ Scaling with the 3D Transform Manipulator
 -----------------------------------------
 
 .. figure:: /images/widget3d-transform-scale.png
-   :width: 100px
 
    Scaling Transform Manipulator.
 
@@ -115,7 +114,7 @@ In the 3D View header, ensure that the Transform Manipulator is enabled (the red
 and blue triad is selected). Set the manipulator type to scale
 (the highlighted square icon shown below).
 
-.. figure:: /images/editors_3dview_transformations-basic-scale-scale_manipulator_header.png
+.. figure:: /images/editors_3dview_transform_basics_scale_header.png
 
 
 - Select your element with :kbd:`RMB`.
