@@ -17,6 +17,7 @@ Options
 
 .. These descriptions are the same as the tool tips
 
+
 Sound
 -----
 
@@ -26,6 +27,7 @@ Volume
    Adjust the loudness of the sound.
 Pitch
    Can be used to bend the pitch of the sound to be either deeper or higher.
+
 
 Distance
 --------
@@ -48,6 +50,7 @@ Maximum
    Maximum distance for volume calculation.
 Reference
    Reference distance at which volume is 100%.
+
 
 Cone
 ----

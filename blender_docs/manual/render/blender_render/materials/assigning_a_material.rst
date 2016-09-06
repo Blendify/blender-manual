@@ -22,9 +22,9 @@ Creating a new Material
 Every time a new Object is created it has no material linked to it.
 You can create a new material for the object by:
 
-- Selecting the object
-- In the Properties editor, click on the object button
-- Click on the Materials button in the Properties editor header (1)
+- Selecting the object.
+- In the Properties editor, click on the object button.
+- Click on the Materials button in the Properties editor header (1).
 
 
 The Shading panel then appears. This contains the following elements:
