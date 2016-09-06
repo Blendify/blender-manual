@@ -259,7 +259,7 @@ Buffer Bias
 Auto Ray Bias
    Prevents raytraced shadow errors on surfaces with smooth normals.
 Ray Bias
-   Shadow raytracing bias value to prevent terminator artifacts on shadow boudary.
+   Shadow raytracing bias value to prevent terminator artifacts on shadow boundary.
 Cast Approximate
    Allow material to cast shadows when using Approximate Ambient Occlusion.
 

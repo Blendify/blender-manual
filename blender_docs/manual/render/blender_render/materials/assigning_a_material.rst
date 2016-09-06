@@ -47,11 +47,11 @@ This action has a series of effects:
    Materials Panel with New Entry.
 
 
-- Opens the new material in the Active Material box,
-- Brings up additional buttons in the immediate panel,
-- Adds the new material to the Available Materials list,
-- Adds the new material to the Object Material Slots list for the active object (or its object data -- see below)
-- Brings up a :doc:`preview </render/blender_render/materials/properties/preview>` of the new material,
+- Opens the new material in the Active Material box.
+- Brings up additional buttons in the immediate panel.
+- Adds the new material to the Available Materials list.
+- Adds the new material to the Object Material Slots list for the active object (or its object data -- see below).
+- Brings up a :doc:`preview </render/blender_render/materials/properties/preview>` of the new material.
 - Provides you with a range of panels allowing you to select the
   :doc:`properties </render/blender_render/materials/properties/introduction>` of the new material.
 

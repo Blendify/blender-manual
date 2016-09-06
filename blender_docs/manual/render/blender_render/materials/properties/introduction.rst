@@ -1,10 +1,7 @@
 
-**************************
-Introduction to Properties
-**************************
-
-Material Properties
-===================
+************
+Introduction
+************
 
 Materials can have a wide array of properties.
 It is the combination of all of these things that define the way a material looks,
@@ -39,7 +36,7 @@ and brief details of their scope. Details of their controls and settings are giv
    (Only Blender Render): For use when surfaces are covered with hair, fur, etc.
 :doc:`Options </render/blender_render/materials/properties/options>`
    Various options for shading and coloring the object.
-:doc:`Shadow </render/blender_render/materials/properties/shadows>`:
+:doc:`Shadow </render/blender_render/materials/properties/shadows>`
    Controls how objects using this material cast and receive shadows.
 :doc:`Game Settings </game_engine/materials>`
    (Only Blender Render): Controls settings for real-time rendering of Game Engine objects.

@@ -112,10 +112,10 @@ this is all because of the Index of Refraction of glass.
 
    To get ray-traced transparency, you need to:
 
-   - enable ray tracing in your Render settings.
+   - Enable ray tracing in your Render settings.
      This is done in the :menuselection:`Render --> Shading` panel. Ray tracing is enabled by default.
-   - set your Alpha value to something other than 1.0.
-   - in order for the background material to receive light passing through your transparent object,
+   - Set your Alpha value to something other than 1.0.
+   - In order for the background material to receive light passing through your transparent object,
      *Receive Transparent* must be turned on for that material in the :menuselection:`Material --> Shadow` panel.
 
 
@@ -187,21 +187,22 @@ Alcohol: 1.329, Glass: 1.517, Plastic: 1.460, Water: 1.333 and Diamond: 2.417.
 Fresnel
 -------
 
-.. list-table::
+.. list-table:: Pieces of glass rotated in various directions to demonstrate the angle-dependent Fresnel effect.
+   Note that the major difference is the lack of IOR effect in the latter case.
+   (Download `blend-file <https://wiki.blender.org/index.php/:File:Manual25-Material-FresnelExample.blend>`__.)
 
    * - .. figure:: /images/material-raytrace_transp-fresnelexampel.jpg
           :width: 320px
 
-          16 pieces of glass rotated in various directions demonstrate the angle-dependent Fresnel effect
-          with ray-traced...
+          
+          With ray-traced transparency.
 
      - .. figure:: /images/material-raytrace_transp-fresnelexampelztransp.jpg
           :width: 320px
 
-          ... or alpha buffered transparency.
-          Note that the major difference is the lack of IOR effect in the latter case.
-          (Download `blend-file <https://wiki.blender.org/index.php/:File:Manual25-Material-FresnelExample.blend>`__.)
+          With alpha buffered transparency.
 
+.. list-table:: 
 
    * - .. figure:: /images/material-raytrace_transp-fresnelsettings.png
           :width: 320px
