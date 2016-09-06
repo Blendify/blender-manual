@@ -31,12 +31,14 @@ Sections
 
    world.rst
 
-- :doc:`Object </editors/3dview/object/properties/index>
+- :doc:`Object </editors/3dview/object/properties/index>`
 
 .. toctree::
    :maxdepth: 1
 
    object_data.rst
-   mesh_data.rst
    material.rst
    texture.rst
+
+- :doc:`Particles </physics/particles/index>`
+- :doc:`Physics <//physics/index>`
