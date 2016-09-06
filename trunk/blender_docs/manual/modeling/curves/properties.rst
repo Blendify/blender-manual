@@ -65,7 +65,7 @@ Path/Curve-Deform
 .. seealso::
 
    - :doc:`Basic Curve Editing </modeling/curves/editing/introduction>`
-   - :doc:`Animation Paths </animation/object_path>`
+   - :doc:`Animation Paths </animation/techniques/object_path>`
 
 
 Geometry
@@ -156,7 +156,7 @@ Evaluation Time
 Follow
    Make the curve path children rotate alung the path.
 
-:doc:`Read more about utilizing Curves for paths during animation </animation/object_path>`
+:doc:`Read more about utilizing Curves for paths during animation </animation/techniques/object_path>`
 
 
 Active Spline
