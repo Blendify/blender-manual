@@ -38,7 +38,7 @@ white if unselected or yellow if selected.
 
 If they have a name, this is shown to their right, in white when the marker is selected.
 
-.. figure:: /images/animation-timeline-markers.png
+.. figure:: /images/animation_markers_standard.png
    :align: center
 
    Markers: small but useful.
@@ -50,7 +50,7 @@ Sequencer
 The *Video Sequence Editor* just adds a vertical dashed line to each marker
 (gray if the marker is unselected, or white if it is selected).
 
-.. figure:: /images/sequencer-markers.jpg
+.. figure:: /images/animation_markers_sequencer.png
    :align: center
 
    Markers in the Sequencer.
@@ -64,7 +64,7 @@ they just show their name between ``<>`` at their bottom left corner,
 near the active object's name, when you are at their frame
 (see Marker in a 3D View).
 
-.. figure:: /images/animationmarkers3dviewex.jpg
+.. figure:: /images/animation_markers_3d-view.png
    :align: center
 
    Marker in a 3D View.
