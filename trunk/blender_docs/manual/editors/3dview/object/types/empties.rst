@@ -23,7 +23,7 @@ Display
    Plain Axes
       Draws as six lines, initially with one pointing in each of the +X, -X, +Y, -Y, +Z, and -Z axis directions.
    Arrows
-      Draws as arrows, initially pointing in the positive X,Y, and Z axis directions, each with a label.
+      Draws as arrows, initially pointing in the positive X, Y, and Z axis directions, each with a label.
    Single Arrow
       Draws as a single arrow, initially pointing in the +Z axis direction.
    Circle

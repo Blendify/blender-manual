@@ -173,10 +173,10 @@ Default
    For Dynamic and Static objects, it is a Triangle Mesh (see below).
    For everything else, it is a Sphere (see below).
 Capsule -- A cylinder with hemispherical caps, like a pill.
-   Radius of the hemispheres is the greater of the x or y extent.
-   Height is the z bounds
+   Radius of the hemispheres is the greater of the X or Y extent.
+   Height is the Z bounds
 Box
-   The x,y,z bounding box, as defined above.
+   The X, Y, Z bounding box, as defined above.
 Sphere
    Radius is defined by the object's scale (visible in the N properties panel) times the physics radius
    (can be found in :menuselection:`Physics --> Attributes --> Radius`.

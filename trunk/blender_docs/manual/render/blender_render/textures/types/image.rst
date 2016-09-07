@@ -446,7 +446,7 @@ Alpha
       the object will be partially transparent and stuff behind it will show.
    Calculate
       Calculate an alpha based on the RGB values of the Image.
-      Black (0,0,0) is transparent, white (1,1,1) opaque.
+      Black (0, 0, 0) is transparent, white (1, 1, 1) opaque.
       Enable this option if the image texture is a mask.
       Note that mask images can use shades of gray that translate to semi-transparency,
       like ghosts, flames, and smoke/fog.

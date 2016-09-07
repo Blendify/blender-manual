@@ -59,7 +59,7 @@ Track To
    Time
       No. of frames it will take to turn towards the target object (Range 0-2000).
    3D Button (toggle).
-      Enable 2D (X,Y) or 3D (X,Y,Z) tracking.
+      Enable 2D (X, Y) or 3D (X, Y, Z) tracking.
 
 .. figure:: /images/bge_actuator_edit_object_replace_mesh.jpg
    :width: 271px

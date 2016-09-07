@@ -57,7 +57,7 @@ This is the list of image file formats supported internally by Blender:
      - |cross|
      - ``.tga``
    * - `Cineon & DPX`_
-     - 8, 10, 12,16bit
+     - 8, 10, 12, 16bit
      - |tick|
      - |cross|
      - |cross|
@@ -109,9 +109,9 @@ This affects the color quality and file-size.
 
 Commonly used depths:
 
-8 bit *(256 levels)*
+8 bit (256 levels)
    Most common for on-screen graphics and video
-10,12,16 bit *(1024,4096,65536 levels)*
+10, 12, 16 bit (1024, 4096, 65536 levels)
    Used for some formats focusing on photography and digital films
    (such as DPX and JPEG 2000).
 16 bit half float

@@ -24,7 +24,7 @@ Clear Options
 
 Clear Location :kbd:`Alt-G`
    Clear (reset) the location of the selection.
-   This will move the selection back to the coordinates 0,0,0.
+   This will move the selection back to the coordinates (0, 0, 0).
 Clear Scale :kbd:`Alt-S`
    Clear (reset) the scale of the selection.
    This will resize the selection back to the size it was when created.
@@ -70,7 +70,7 @@ Apply Location :kbd:`Ctrl-A`
    Apply (set) the location of the selection.
    This will make Blender consider the current location to be equivalent to 0 in each plane
    i.e. the selection will not move, the current location will be considered to be the "default location".
-   The Object Center will be set to actual 0,0,0 (where the colored axis lines intersect in each view).
+   The Object Center will be set to actual (0, 0, 0) (where the colored axis lines intersect in each view).
 Apply Rotation :kbd:`Ctrl-A`
    Apply (set) the rotation of the selection.
    This will make Blender consider the current rotation to be equivalent to 0 degrees in each plane

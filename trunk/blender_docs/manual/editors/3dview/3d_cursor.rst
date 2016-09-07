@@ -41,7 +41,7 @@ will allow you to snap the cursor in the following ways:
 Cursor to Selected
    Snaps the cursor to the center of the current selection.
 Cursor to Center
-   Snaps the cursor to the origin of the scene (location 0,0,0).
+   Snaps the cursor to the origin of the scene (location 0, 0, 0).
 Cursor to Grid
    Snaps the cursor to the nearest *visible* grid lines.
 Cursor to Active
