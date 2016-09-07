@@ -28,14 +28,14 @@ This page lists definitions for terms used in Blender and this manual.
       Additional channel in an image for transparency.
 
       Straight Alpha
-         Method where ``RGBA`` channels are stored as ``(R, G, B, A)``
+         Method where RGBA channels are stored as (R, G, B, A)
          channels, with the RGB channels unaffected by the alpha channel.
          This is the alpha type used by paint programs such as Photoshop or Gimp,
          and used in common file formats like PNG, BMP or Targa.
          So, image textures or output for the web are usually straight alpha.
 
       Premultiplied Alpha
-         Method where ``RGBA`` channels are stored as ``(R × A, G × A, B × A, A)``,
+         Method where RGBA channels are stored as (R × A, G × A, B × A, A),
          with the alpha multiplied into the RGB channel.
 
          This is the natural output of render engines,
@@ -450,7 +450,7 @@ This page lists definitions for terms used in Blender and this manual.
 
    Object
       Container for a type (Mesh, Curve, Surface, Metaball, Text, Armature,
-      Lattice, Empty, Camera, Lamp) and basic 3D transform data(:term:`Object Center`).
+      Lattice, Empty, Camera, Lamp) and basic 3D transform data (:term:`Object Center`).
 
    Object Center
    Object Origin

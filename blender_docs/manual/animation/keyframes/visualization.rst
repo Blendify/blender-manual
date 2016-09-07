@@ -79,7 +79,7 @@ In Range
 Display Range
    Before/After
       Number of frames to show before and after the current frame
-      (only for 'Around Current Frame' Onion-skinning method)
+      (only for *Around Current Frame* Onion-skinning method)
    Start/End
       Starting and Ending frame of range of paths to display/calculate
       (not for *Around Current Frame* Onion-skinning method)

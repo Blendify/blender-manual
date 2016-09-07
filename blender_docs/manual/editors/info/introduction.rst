@@ -14,7 +14,7 @@ Header
 
    Info Editor header.
 
-   Editor Type Selector(red), Menus (blue),
+   Editor Type Selector (red), Menus (blue),
    Screen Data-block (green), Scene Data-block (orange), Engine Selector (purple),
    Resource Information (aqua).
 

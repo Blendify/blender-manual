@@ -131,7 +131,7 @@ otherwise you will get a sort of gutter or slide object...
 
 The object is extruded along the whole length of all internal curves. By default,
 the width of the extrusion is constant, but you have two ways to control it,
-the *Radius* property of control points(see above), and the "taper" object.
+the *Radius* property of control points (see above), and the "taper" object.
 
 The taper curve is evaluated along *the local X axis*,
 using *the local Y axis* for width control. Note also that:
