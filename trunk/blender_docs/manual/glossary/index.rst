@@ -373,7 +373,7 @@ This page lists definitions for terms used in Blender and this manual.
 
    Manifold
       Manifold meshes, also called *water tight* meshes,
-      define a **closed non-self-intersecting volume** (see also :term:`non-manifold`).
+      define a *closed non-self-intersecting volume* (see also :term:`non-manifold`).
       A manifold mesh is a mesh in which the structure of the connected
       faces in a closed volume will always point the normals (and there
       surfaces) to the outside or to the inside of the mesh without any overlaps.
@@ -429,7 +429,7 @@ This page lists definitions for terms used in Blender and this manual.
       - Some borders and holes (edges with only a single connected face), as faces have no thickness.
       - Edges and vertices not belonging to any face (wire).
       - Edges connected to three or more faces (interior faces).
-      - Vertices belonging to faces that are not adjoining (e.g. 2 cones sharing the vertex at the apex).
+      - Vertices belonging to faces that are not adjoining (e.g. two cones sharing the vertex at the apex).
 
       See also: :ref:`Select Non-Manifold <mesh-select-non-manifold>` tool.
 
@@ -446,7 +446,7 @@ This page lists definitions for terms used in Blender and this manual.
       This allows more detail and control over the effect.
 
    NURBS
-      A computer graphics technique for generating and representing **curves** and **surfaces**.
+      A computer graphics technique for generating and representing curves and surfaces.
 
    Object
       Container for a type (Mesh, Curve, Surface, Metaball, Text, Armature,
@@ -470,7 +470,7 @@ This page lists definitions for terms used in Blender and this manual.
       Is the technique of minimizing :term:`aliasing` when representing a high-resolution
       signal at a lower resolution.
 
-      Also called **Anti-Aliasing**.
+      Also called Anti-Aliasing.
 
    Overscan
       The term used to describe the situation
@@ -535,21 +535,21 @@ This page lists definitions for terms used in Blender and this manual.
 
       Perspective
          A *perspective* view is geometrically constructed by taking a scene in 3D
-         and placing an observer at point ``O``.
+         and placing an observer at point *O*.
          The 2D perspective scene is built by placing a plane (e.g. a sheet of paper)
-         where the 2D scene is to be drawn in front of point ``O``,
+         where the 2D scene is to be drawn in front of point *O*,
          perpendicular to the viewing direction.
-         For each point ``P`` in the 3D scene a ``PO`` line is drawn,
-         passing by ``O`` and ``P``. The intersection point ``S`` between
-         this ``PO`` line and the plane is the perspective projection of that point.
-         By projecting all points ``P`` of the scene you get a perspective view.
+         For each point *P* in the 3D scene a *PO* line is drawn,
+         passing by *O* and *P*. The intersection point *S* between
+         this *PO* line and the plane is the perspective projection of that point.
+         By projecting all points *P* of the scene you get a perspective view.
       Orthographic
          In an *orthographic* projection,
-         you have a viewing direction but not a viewing point ``O``. The line is then drawn
-         through point ``P`` so that it is parallel to the viewing direction. The intersection
-         ``S`` between the line and the plane is the orthographic projection of the point
-         ``P``.
-         By projecting all points ``P`` of the scene you get the orthographic view.
+         you have a viewing direction but not a viewing point *O*. The line is then drawn
+         through point *P* so that it is parallel to the viewing direction. The intersection
+         *S* between the line and the plane is the orthographic projection of the point
+         *P*.
+         By projecting all points *P* of the scene you get the orthographic view.
 
    Quad
    Quadrilateral
@@ -558,7 +558,7 @@ This page lists definitions for terms used in Blender and this manual.
 
    Quaternion
    Quaternion Rotation
-      Rotation method where rotations are defined by 4 values (X, Y, Z and W).
+      Rotation method where rotations are defined by four values (X, Y, Z and W).
       X, Y, and Z also define an :term:`axis`, and W an angle,
       but it is quite different from :term:`Axis Angle`.
 
@@ -665,7 +665,7 @@ This page lists definitions for terms used in Blender and this manual.
       The combined idea of location, rotation and scale.
 
    Triangle
-      :term:`Face` with exactly 3 :term:`vertices <vertex>`.
+      :term:`Face` with exactly three :term:`vertices <vertex>`.
 
    UV map
       Defines a relation between the surface of a mesh and a 2D texture. In detail,

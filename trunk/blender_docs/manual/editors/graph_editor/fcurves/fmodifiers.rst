@@ -157,6 +157,6 @@ Offset
    Reference number of frames before frames get held.
    Use to get hold for (1-3) vs (5-7) holding patterns.
 Use Start Frame
-   Restrict modifier to only act before its "end' frame.
+   Restrict modifier to only act before its "end" frame.
 Use End Frame
    Restrict modifier to only act after its "start" frame.
