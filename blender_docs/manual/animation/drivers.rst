@@ -105,7 +105,8 @@ Variable Type
    Single Property
       Use the value from some RNA property.
       For example, the Ambient shading color from a material.
-      First select the type of ID-block, then the ID of the ID-block, then copy and paste an RNA property (Ctrl-V).
+      First select the type of ID-block, then the ID of the ID-block, then copy and
+      paste an RNA property :kbd:`Ctrl-V`.
 
       ID-Type
          The ID-Block type, example, Key, Image, Object, Material.
@@ -152,7 +153,8 @@ After adding drivers they are usually modified in the *Graph Editor* with the mo
 UI
 --
 
-The common way to add a driver to a property is to right click a property, then add a driver via the context menu.
+The common way to add a driver to a property is to right click a property,
+then add a driver via the context menu.
 
 Add Drivers
     This will add drivers to the set of properties related to the selected one.
@@ -193,23 +195,23 @@ Transform Driver
 This example shows you how setup a transform driver.
 First make sure you are in the Front Ortho view. :kbd:`Numpad5`, :kbd:`Numpad1`.
 
-#. In object mode, select then duplicate the default ``Cube``. :kbd:`Shift-D`. Move ``Cube.001`` to a new location.
-#. With ``Cube.001`` selected, add a single driver to the *Rotation Y* property.
-#. Open the *Graph Editor*, set the *Mode* to *Drivers*.
+#. In object mode, select then duplicate the default Cube. :kbd:`Shift-D`. Move "Cube.001" to a new location.
+#. With "Cube.001" selected, add a single driver to the *Rotation Y* property.
+#. Open the *Graph Editor*, set the Mode to *Drivers*.
 #. *Show Only Selected* is useful disabled for drivers, marked green in the picture.
 #. In the channels region, select the *Y Euler Rotation* property.
-#. Press :kbd:`N` to open the properties region, scroll down to *Drivers* panel.
+#. Press :kbd:`N` to open the properties region, scroll down to Drivers panel.
 #. Change the *Type* to *Averaged Value*, this will return the averaged value of the driver variables.
 #. Modify the driver variable settings.
 
-- *Type* -- *Transform Channel*
-- *Ob/Bone* -- *Cube*
-- *Transform Type* -- *X Location*
-- *Transform Space* -- *World Space*
+   - Type -- Transform Channel
+   - Ob/Bone -- Cube
+   - Transform Type -- X Location
+   - Transform Space -- World Space
 
 .. figure:: /images/animation_drivers_transform.jpg
 
-When finished, ``Cube.001`` should rotate on the Y axis when moving ``Cube`` left of right.
+When finished, "Cube.001" should rotate on the Y axis when moving "Cube" left of right.
 
 
 Examples
@@ -301,13 +303,13 @@ This example is a Shape Key Driver. The driver was added to the shape key Value.
    Shape Key Driver. Click to enlarge.
 
 
-This example uses the Armature Bone 'b' Z Rotation to control the Value of a Shape Key.
+This example uses the Armature Bone "b" 's Z Rotation to control the Value of a Shape Key.
 The bone rotation mode is set to XYZ Euler.
 
 The Driver F-Curve is mapped like so:
 
-- Bone Z Rotation 0.0(0.0): Shape Key value 0.0
-- Bone Z Rotation -2.09(-120.0): Shape Key value 1.0
+- Bone Z Rotation 0.0 (0.0): Shape Key value 0.0
+- Bone Z Rotation -2.09 (-120.0): Shape Key value 1.0
 
 This kind of driver can also be setup with the Variable Type Rotational Difference.
 
@@ -357,12 +359,12 @@ and uses the maximum value to determine how much the base should be
 extended. The generator polynomial is crafted such that the top of
 the dominant stack should line up with the bone for that stack.
 
-The value of Key2A is bound to the position of ``Bone.L``.
+The value of Key2A is bound to the position of "Bone.L".
 Its generator parameters are crafted such that when Key1's value reaches 1,
 the value of Key2A starts increasing beyond zero. In this way,
 the top of the left stack will move with bone.L (mostly).
 
-The value of Key2B is bound to the position of ``Bone.R``. Its generator
+The value of Key2B is bound to the position of "Bone.R". Its generator
 parameters are similar to Key2A so that the top of the right stack
 will move with bone.R (mostly).
 

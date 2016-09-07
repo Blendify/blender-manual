@@ -33,20 +33,20 @@ so these properties would be different as compared to the template.
 
 This is easier to understand with some examples.
 
-In the following image, ``armature.002`` is set as the template,
-and the stroke maps with ``chain_a`` of this template.
+In the following image, "armature.002" is set as the template,
+and the stroke maps with "chain_a" of this template.
 None of the bones are selected in the template.
-Note that there is no second stroke to map with chain ``chain_b`` of the template.
+Note that there is no second stroke to map with chain "chain_b" of the template.
 The result is shown at right:
-Blender creates a copy of ``chain_a`` and matches the bones with the stroke.
+Blender creates a copy of "chain_a" and matches the bones with the stroke.
 
-Blender also creates a copy of ``chain_b``, but this chain is not altered in any way;
+Blender also creates a copy of "chain_b", but this chain is not altered in any way;
 because this command can map only one selected chain with a stroke.
 
 
 In the following example, no template is selected. (In other words, all the action is within the armature itself.)
 
-Two bones are selected in ``chain_b``,
+Two bones are selected in "chain_b",
 and the property panel is set to map the joints with the stroke. So these two selected bones
 are copied and the newly created copy of the chain is matched with the stroke.
 (Note that the newly created bones are named in continuation of the original chain.)
@@ -66,7 +66,7 @@ are copied and the newly created copy of the chain is matched with the stroke.
 
           After conversion.
 
-If you had selected both the chains (``Chain_a`` and ``Chain_b``),
+If you had selected both the chains ("Chain_a" and "Chain_b"),
 you would have still got the same result as in the example above,
 because the command maps to stroke only one selected chain.
 
@@ -160,8 +160,8 @@ No, View, Joint buttons
 
           With Joint roll option.
 
-The ``Bone.003`` -to- ``Bone.005`` chain is the mapped-to-stroke
-version of ``Bone`` -to- ``Bone.002`` selected one, and ``Bone.001`` has a modified roll angle.
+The "Bone.003" to "Bone.005" chain is the mapped-to-stroke
+version of "Bone" to "Bone.002" selected one, and "Bone.001" has a modified roll angle.
 
 Template drop-down list
    Here you select the armature to use as template.
@@ -192,16 +192,16 @@ Think of them as A(ngle of bones), L(ength of bones) and D(efinition of stroke).
    with one stroke quite similar to the template chain's shape, and one stroke very different.
 
 
-S and N text fields, "auto" button
+S and N text fields, *auto* button
    These control how the new bones are named. By default,
    they just take the same names as the originals from the template, except for the final number,
-   increased as needed. However, if the template bones have ``&s`` somewhere in their name,
+   increased as needed. However, if the template bones have "&s" somewhere in their name,
    this "placeholder" will be replaced in the "templated" bones' names by the content of the *S* text field
-   ("S" for "side"). Similarly, a ``&n`` placeholder will be replaced by the *N* field content
-   ("N" for "number"). If you enable the small "auto" button, the *N* field content is auto-generated,
+   (*S* for side). Similarly, a "&n" placeholder will be replaced by the *N* field content
+   (*N* for number). If you enable the small *auto* button, the *N* field content is auto-generated,
    producing a number starting from nothing, and increased each time you press the *Convert* button,
-   and the ``&s`` placeholder is replaced by the side of the bone (relative to the local X axis:
-   ``r`` for negative X values, ``l`` for positive ones).
+   and the "&s" placeholder is replaced by the side of the bone (relative to the local X axis:
+   "r" for negative X values, "l" for positive ones).
 
 .. list-table::
    Naming and placeholders, using a simple leg template.
@@ -246,11 +246,11 @@ S and N text fields, "auto" button
 Static text line
    The line just above the *Peel Objects* button gives you two informations:
 
-   - The *n* ``joints`` part gives you the number of joints
+   - The *n* joints part gives you the number of joints
      (i.e. bones' ends, with connected ends considered as one joint),
      either from the selected bones of the edited armature, or in the whole other template armature.
    - The second part is only present when another armature has been selected as template --
      it gives you the *root bone's name* of the chain that will be mapped to the strokes.
      Or, while you are drawing a stroke with straight segments,
      the name of the bone corresponding to the current segment
-     (and ``Done`` when you have enough segments for all bones in the template chain).
+     (and "Done" when you have enough segments for all bones in the template chain).
