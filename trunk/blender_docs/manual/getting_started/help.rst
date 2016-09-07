@@ -89,7 +89,7 @@ Scripting Reference
 
 - `Python API Reference <https://www.blender.org/api/blender_python_api_current/>`__ --
   Python application programming interface (API).
-- *Operator Cheat Sheet* - Creates the ``OperatorList.txt`` text-block, which you can access in the *Text Editor*.
+- *Operator Cheat Sheet* -- Creates the ``OperatorList.txt`` text-block, which you can access in the *Text Editor*.
   You can also use Blender Search to generate the file. The lists the available Python operators.
 
 
@@ -119,17 +119,4 @@ Directories
    Those directories are configured using the :doc:`User Preferences </preferences/file>` Editor.
 OpenGL
    This section shows the OpenGL version, the name of the manufacturer,
-   and lists the capabilities of your hardware & driver.
-
-
-Info Editor Log
----------------
-
-This is not exactly a Help menu, but it is related.
-If you mouse-over the line between the Info Editor and the 3D then click and drag the Info Editor down a bit,
-you can see the stream of Python calls that the UI is making when you work.
-This can be useful for creating scripts.
-
-.. figure:: /images/getting_started_help_python.png
-
-   The Info Editor Log after adding a Cube.
+   and lists the capabilities of your hardware and driver.
