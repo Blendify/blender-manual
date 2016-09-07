@@ -3,11 +3,12 @@
 Properties Editor
 *****************
 
+.. figure:: /images/editors_properties_top.png
+   :align: right
+
+   Properties editor top part.
+
 The *Properties Editor* is used to edit data and properties for the *Active Scene* and the *Active Object*.
-
-.. figure:: /images/editors_properties.png
-
-   The Properties Editor with the Mesh tab selected.
 
 
 Tabs
@@ -15,6 +16,8 @@ Tabs
 
 The Properties editor shows several tabs,
 which can be chosen via the icon row in the header.
+The tabs are documented in their own manual sections,
+the links are list below.
 
 
 Scene/Render
@@ -31,10 +34,12 @@ These tabs are used to add features, and to change properties for the Active Sce
 
 Render
    Everything related to render output (dimensions, anti-aliasing, performance etc).
+   See :doc:`/render/output`.
 Render Layers
    Render Layers and Passes.
 Scene
    Gravity, Units to use, Keying Sets, Color Management, Audio settings, Physics, and scene simplification options.
+   See :doc:`/data_system/scenes/properties` and :doc:`/animation/keyframes/keying_sets`.
 World
    Environmental lighting, sky, mist and Ambient Occlusion.
 
@@ -52,16 +57,20 @@ These tabs are used to add features, and to change properties for the Active Obj
 
 The Object Data tabs shown depend on what type of object was selected last (The Active Object).
 
-Features unique to the object type are usually added to the Data and Bone tabs, highlighted in yellow.
+.. Features unique to the object type are usually added to the Data and Bone tabs, highlighted in yellow.
 
 Object
    Transformations, display options, visibility settings (via layers)
    duplication settings and animation information (regarding Object position).
+   See :doc:`Object </editors/3dview/object/properties/index>` and
+   :doc:`/editors/3dview/transform/introduction`.
 Constraints
    Used to control an Object’s transform (position, rotation, scale),
    tracking and relationship properties.
+   See :doc:`Constraints </rigging/constraints/index>`.
 Modifiers
    Array, Mirror, Subdivision Surface, Armature, Cast.
+   See :doc:`/modeling/modifiers/index`.
 Object Data
    Settings for the objects data,
    depending on the Object Type.
@@ -75,34 +84,20 @@ Textures
    Used by materials, world and brushes to provide additional details.
 Particles
    Hair and Emitter particles.
+   See :doc:`/physics/particles/index`.
 Physics
    Properties relating to Cloth, Force Fields, Collision, Fluid and Smoke Simulation.
+   See :doc:`/physics/index`.
 
 
-Documentation
-=============
+.. (todo) camera, speaker?, object: modeling
 
-Rendering is mainly documented in its own section,
-there is also information on materials and textures.
 
-- :doc:`Render </render/introduction>`
+Main View
+=========
 
-.. (todo) camera?
+.. figure:: /images/editors_properties.png
 
-Scene features are mainly documented in the data-system,
-though some tools are added to different sections.
+   The Properties Editor with the Mesh tab selected.
 
-- :doc:`Scenes </data_system/scenes/properties>`
-- :doc:`Keying Sets </animation/keyframes/keying_sets>`
-
-The Object features are usually documented in the *Objects* part of the 3D View Section.
-
-- :doc:`Object </editors/3dview/object/properties/index>`
-- :doc:`Modeling </editors/3dview/transform/introduction>`
-
-The other features each have their own section in the manual.
-
-- :doc:`Constraints </rigging/constraints/introduction>`
-- :doc:`Modifiers </modeling/modifiers/introduction>`
-- :doc:`Particles </physics/particles/index>`
-- :doc:`Physics </physics/index>`
+.. (todo) Context link to data-system
